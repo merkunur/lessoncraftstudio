@@ -1504,7 +1504,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   // Matching Worksheets - Swedish product page SEO (new Swedish slug)
   if (params.slug === 'matchnings-arbetsblad' && params.locale === 'sv') {
     return {
-      title: 'Arbetsblad Gratis Matching - Matematik Arbetsblad och Bokstäver Lära Sig | MatchUp Maker för Förskoleklass Material',
+      title: 'Matchningsarbetsblad Gratis - Matematik Arbetsblad och Bokstäver Lära Sig | MatchUp Maker för Förskoleklass Material',
       description: 'Skapa professionella matchningsövningar med vår arbetsblad gratis generator. Generera anpassningsbara matematik arbetsblad och bokstäver lära sig material perfekt för förskoleklass material och årskurs 1-3. Ladda ner högkvalitativa PDF-arbetsblad på under 3 minuter.',
       keywords: 'matchningsarbetsblad, arbetsblad gratis, förskoleklass material, matematik arbetsblad, bokstäver lära sig, matchningsövningar, finmotorik övningar, målarbilder barn, siffror och tal, multiplikationstabellen',
       robots: {
@@ -1520,7 +1520,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
         },
       },
       openGraph: {
-        title: 'Arbetsblad Gratis Matching - Matematik Arbetsblad | LessonCraftStudio',
+        title: 'Matchningsarbetsblad Gratis - Matematik Arbetsblad | LessonCraftStudio',
         description: 'Skapa professionella matchningsövningar med vår arbetsblad gratis generator. Perfekt för förskoleklass och lågstadiet.',
         url: 'https://www.lessoncraftstudio.com/sv/apps/matchnings-arbetsblad',
         siteName: 'LessonCraftStudio',
@@ -1532,7 +1532,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   // Legacy: Redirect old Swedish matching slug to new slug (for backwards compatibility)
   if (params.slug === 'matching-worksheets' && params.locale === 'sv') {
     return {
-      title: 'Arbetsblad Gratis Matching - Matematik Arbetsblad och Bokstäver Lära Sig | Förskoleklass Material',
+      title: 'Matchningsarbetsblad Gratis - Matematik Arbetsblad och Bokstäver Lära Sig | Förskoleklass Material',
       description: 'Skapa professionella matchningsövningar med vår arbetsblad gratis generator.',
       robots: {
         index: false, // Don't index old URL

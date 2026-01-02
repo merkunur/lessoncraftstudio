@@ -15,7 +15,7 @@ export const matchingSvContent: ProductPageContent = {
   seo: {
     slug: 'matchnings-arbetsblad',
     appId: 'matching-app',
-    title: 'Arbetsblad Gratis Matching - Matematik Arbetsblad och Bokstäver Lära Sig | MatchUp Maker för Förskoleklass Material',
+    title: 'Matchningsarbetsblad Gratis - Matematik Arbetsblad och Bokstäver Lära Sig | MatchUp Maker för Förskoleklass Material',
     description: 'Skapa professionella matchningsövningar med vår arbetsblad gratis generator. Generera anpassningsbara matematik arbetsblad och bokstäver lära sig material perfekt för förskoleklass material och årskurs 1-3. Ladda ner högkvalitativa PDF-arbetsblad på under 3 minuter.',
     keywords: 'matchningsarbetsblad, arbetsblad gratis, förskoleklass material, matematik arbetsblad, bokstäver lära sig, matchningsövningar, finmotorik övningar, målarbilder barn, siffror och tal, multiplikationstabellen',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/matchnings-arbetsblad',
@@ -23,7 +23,7 @@ export const matchingSvContent: ProductPageContent = {
 
   // Hero Section - FULL text from matching.md paragraphs 1-4
   hero: {
-    title: 'Arbetsblad Gratis Matching',
+    title: 'Matchningsarbetsblad Gratis',
     subtitle: 'Matematik Arbetsblad och Bokstäver Lära Sig - MatchUp Maker för Förskoleklass Material',
     description: `Skapa professionella matchningsövningar med vår arbetsblad gratis generator. Din Grundpaketet-prenumeration ger dig obegränsad skapande av arbetsblad utan avgifter per arbetsblad. Generera anpassningsbara matematik arbetsblad och bokstäver lära sig material perfekt för förskoleklass material och årskurs 1-3. Ladda ner högkvalitativa PDF-arbetsblad på under 3 minuter.
 

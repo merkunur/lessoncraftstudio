@@ -81,6 +81,7 @@ import treasureHuntSvContent from '@/content/product-pages/sv/treasure-hunt-work
 import wordGuessSvContent from '@/content/product-pages/sv/word-guess-worksheets';
 import writingSvContent from '@/content/product-pages/sv/writing-worksheets';
 import wordSearchFrContent from '@/content/product-pages/fr/word-search-worksheets';
+import additionFrContent from '@/content/product-pages/fr/addition-worksheets';
 
 interface PageProps {
   params: {
@@ -272,6 +273,51 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       },
       alternates: {
         canonical: 'https://www.lessoncraftstudio.com/fr/apps/mots-caches-fiches', // Point to new URL
+      },
+    };
+  }
+
+  // Addition Worksheets - French product page SEO (new French slug)
+  if (params.slug === 'addition-fiches' && params.locale === 'fr') {
+    return {
+      title: 'Fiches d\'Addition à Imprimer Gratuit | Générateur d\'Exercices Maths pour Maternelle et CP',
+      description: 'Créez des fiches d\'addition professionnelles avec notre générateur d\'exercices maths. Parfait pour les enseignants de maternelle, CP et CE1. Téléchargez des fiches à imprimer gratuit en PDF haute qualité en moins de trois minutes.',
+      keywords: 'fiches addition, exercices maths, fiches maternelle, fiches à imprimer gratuit, exercices CP, exercices CE1, addition avec images, générateur fiches, mathématiques maternelle, calcul visuel',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/fr/apps/addition-fiches',
+        languages: {
+          'en': 'https://www.lessoncraftstudio.com/en/apps/addition-worksheets',
+          'sv': 'https://www.lessoncraftstudio.com/sv/apps/addition-arbetsblad',
+          'de': 'https://www.lessoncraftstudio.com/de/apps/addition-arbeitsblaetter',
+          'fr': 'https://www.lessoncraftstudio.com/fr/apps/addition-fiches',
+          'x-default': 'https://www.lessoncraftstudio.com/en/apps/addition-worksheets',
+        },
+      },
+      openGraph: {
+        title: 'Fiches d\'Addition à Imprimer Gratuit | LessonCraftStudio',
+        description: 'Créez des fiches d\'addition professionnelles avec notre générateur d\'exercices maths. Parfait pour les enseignants de maternelle, CP et CE1.',
+        url: 'https://www.lessoncraftstudio.com/fr/apps/addition-fiches',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Legacy: Redirect old French addition slug to new slug (for backwards compatibility)
+  if (params.slug === 'addition-worksheets' && params.locale === 'fr') {
+    return {
+      title: 'Fiches d\'Addition à Imprimer Gratuit - Générateur d\'Exercices Maths',
+      description: 'Créez des fiches d\'addition professionnelles avec notre générateur d\'exercices maths gratuit.',
+      robots: {
+        index: false, // Don't index old URL
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/fr/apps/addition-fiches', // Point to new URL
       },
     };
   }
@@ -6203,6 +6249,7 @@ export async function generateStaticParams() {
     'word-search-worksheets', // Product page slug (English)
     'suchsel-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug
     'mots-caches-fiches', // Product page slug (French) - language-specific SEO slug
+    'addition-fiches', // Product page slug (French) - language-specific SEO slug
     'alphabet-zug-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug
     'malvorlagen-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug
     'mathe-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for math worksheets

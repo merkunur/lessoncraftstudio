@@ -114,6 +114,7 @@ import writingDeContent from '@/content/product-pages/de/schreibuebungen-arbeits
 
 // French content imports
 import wordSearchFrContent from '@/content/product-pages/fr/word-search-worksheets';
+import additionFrContent from '@/content/product-pages/fr/addition-worksheets';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -436,6 +437,10 @@ export const contentRegistry: ContentRegistry = {
     'mots-caches-fiches': wordSearchFrContent,
     // Also keep old slug for backwards compatibility during transition
     'word-search-worksheets': wordSearchFrContent,
+    // French Addition - uses French SEO slug
+    'addition-fiches': additionFrContent,
+    // Also keep old slug for backwards compatibility during transition
+    'addition-worksheets': additionFrContent,
   },
 };
 

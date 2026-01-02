@@ -438,6 +438,12 @@ const nextConfig = {
         destination: '/fr/apps/mots-caches-fiches',
         permanent: true,
       },
+      // French: addition-worksheets → addition-fiches
+      {
+        source: '/fr/apps/addition-worksheets',
+        destination: '/fr/apps/addition-fiches',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

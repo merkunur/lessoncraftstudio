@@ -89,10 +89,12 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
   'matching-app': {
     en: 'matching-worksheets',
     sv: 'matchnings-arbetsblad',
+    de: 'zuordnungs-arbeitsblaetter',
   },
   'drawing-lines': {
     en: 'drawing-lines-worksheets',
     sv: 'rita-linjer-arbetsblad',
+    de: 'linien-ziehen-arbeitsblaetter',
   },
   'picture-bingo': {
     en: 'picture-bingo-worksheets',

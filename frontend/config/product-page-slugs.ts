@@ -152,6 +152,7 @@ export const productPageSlugs: AppSlugConfig[] = [
     slugs: {
       en: 'big-small-worksheets',
       sv: 'stort-litet-arbetsblad',
+      de: 'gross-klein-arbeitsblaetter',
     },
   },
   {

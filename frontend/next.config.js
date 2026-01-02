@@ -312,6 +312,12 @@ const nextConfig = {
         destination: '/de/apps/kinder-sudoku-arbeitsblaetter',
         permanent: true,
       },
+      // German: big-small-worksheets → gross-klein-arbeitsblaetter
+      {
+        source: '/de/apps/big-small-worksheets',
+        destination: '/de/apps/gross-klein-arbeitsblaetter',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

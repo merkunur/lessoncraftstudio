@@ -5352,6 +5352,7 @@ export async function generateStaticParams() {
     'mathe-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for math worksheets
     'buchstabensalat-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for word scramble
     'suchen-und-zaehlen-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for find-and-count
+    'gross-klein-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for big-small
     'ordletar-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug
     'addition-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug
     'alfabettag-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug

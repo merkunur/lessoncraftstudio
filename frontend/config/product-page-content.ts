@@ -89,6 +89,7 @@ import matchingDeContent from '@/content/product-pages/de/matching-worksheets';
 import drawingLinesDeContent from '@/content/product-pages/de/drawing-lines-worksheets';
 import pictureBingoDeContent from '@/content/product-pages/de/picture-bingo-worksheets';
 import sudokuDeContent from '@/content/product-pages/de/sudoku-worksheets';
+import bigSmallDeContent from '@/content/product-pages/de/big-small-worksheets';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -317,6 +318,10 @@ export const contentRegistry: ContentRegistry = {
     'kinder-sudoku-arbeitsblaetter': sudokuDeContent,
     // Also keep old slug for backwards compatibility during transition
     'sudoku-worksheets': sudokuDeContent,
+    // German Big Small - uses German SEO slug
+    'gross-klein-arbeitsblaetter': bigSmallDeContent,
+    // Also keep old slug for backwards compatibility during transition
+    'big-small-worksheets': bigSmallDeContent,
   },
 };
 

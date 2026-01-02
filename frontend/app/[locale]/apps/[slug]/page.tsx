@@ -56,6 +56,7 @@ import patternTrainDeContent from '@/content/product-pages/de/muster-zug-arbeits
 import patternWorksheetDeContent from '@/content/product-pages/de/muster-arbeitsblatt-arbeitsblaetter';
 import picturePathDeContent from '@/content/product-pages/de/bilderpfad-arbeitsblaetter';
 import pictureSortDeContent from '@/content/product-pages/de/bilder-sortieren-arbeitsblaetter';
+import prepositionsDeContent from '@/content/product-pages/de/praepositionen-arbeitsblaetter';
 import additionSvContent from '@/content/product-pages/sv/addition-worksheets';
 import alphabetTrainSvContent from '@/content/product-pages/sv/alphabet-train-worksheets';
 import coloringSvContent from '@/content/product-pages/sv/coloring-worksheets';
@@ -1057,6 +1058,50 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       },
       alternates: {
         canonical: 'https://www.lessoncraftstudio.com/de/apps/bilder-sortieren-arbeitsblaetter', // Point to new URL
+      },
+    };
+  }
+
+  // Präpositionen (Prepositions) - German product page SEO
+  if (params.slug === 'praepositionen-arbeitsblaetter' && params.locale === 'de') {
+    return {
+      title: 'Präpositionen Generator - Kostenlose Arbeitsblätter für Vorschule und Arbeitsblätter Grundschule',
+      description: 'Erstellen Sie professionelle Präpositionen-Arbeitsblätter mit unserem Generator. Mit Ihrem Full Access Abonnement gestalten Sie unbegrenzt druckbare Arbeitsblätter für Vorschule und Grundschule. Kinder lernen räumliche Konzepte wie in, auf, unter und neben.',
+      keywords: 'präpositionen arbeitsblätter, räumliche begriffe arbeitsblätter, arbeitsblätter grundschule, kostenlose arbeitsblätter, mathe arbeitsblätter, vorschule arbeitsblätter, deutsch arbeitsblätter, schwungübungen, buchstaben lernen, rechnen lernen',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/de/apps/praepositionen-arbeitsblaetter',
+        languages: {
+          'en': 'https://www.lessoncraftstudio.com/en/apps/prepositions-worksheets',
+          'sv': 'https://www.lessoncraftstudio.com/sv/apps/prepositioner-arbetsblad',
+          'de': 'https://www.lessoncraftstudio.com/de/apps/praepositionen-arbeitsblaetter',
+          'x-default': 'https://www.lessoncraftstudio.com/en/apps/prepositions-worksheets',
+        },
+      },
+      openGraph: {
+        title: 'Präpositionen Generator - Kostenlose Arbeitsblätter | LessonCraftStudio',
+        description: 'Erstellen Sie professionelle Präpositionen-Arbeitsblätter mit unserem Generator. Perfekt für Vorschule und Grundschule.',
+        url: 'https://www.lessoncraftstudio.com/de/apps/praepositionen-arbeitsblaetter',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Legacy: Redirect old German prepositions slug to new slug (for backwards compatibility)
+  if (params.slug === 'prepositions-worksheets' && params.locale === 'de') {
+    return {
+      title: 'Präpositionen Generator - Kostenlose Arbeitsblätter | LessonCraftStudio',
+      description: 'Erstellen Sie professionelle Präpositionen-Arbeitsblätter mit unserem Generator.',
+      robots: {
+        index: false, // Don't index old URL
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/de/apps/praepositionen-arbeitsblaetter', // Point to new URL
       },
     };
   }
@@ -5949,6 +5994,8 @@ export async function generateStaticParams() {
     'muster-zug-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for pattern-train
     'muster-arbeitsblatt-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for pattern-worksheet
     'bilderpfad-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for picture-path
+    'bilder-sortieren-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for picture-sort
+    'praepositionen-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for prepositions
     'ordletar-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug
     'addition-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug
     'alfabettag-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug

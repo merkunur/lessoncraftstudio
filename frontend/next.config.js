@@ -396,6 +396,12 @@ const nextConfig = {
         destination: '/de/apps/bilder-sortieren-arbeitsblaetter',
         permanent: true,
       },
+      // German: prepositions-worksheets → praepositionen-arbeitsblaetter
+      {
+        source: '/de/apps/prepositions-worksheets',
+        destination: '/de/apps/praepositionen-arbeitsblaetter',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

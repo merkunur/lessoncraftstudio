@@ -105,6 +105,7 @@ import patternTrainDeContent from '@/content/product-pages/de/muster-zug-arbeits
 import patternWorksheetDeContent from '@/content/product-pages/de/muster-arbeitsblatt-arbeitsblaetter';
 import picturePathDeContent from '@/content/product-pages/de/bilderpfad-arbeitsblaetter';
 import pictureSortDeContent from '@/content/product-pages/de/bilder-sortieren-arbeitsblaetter';
+import prepositionsDeContent from '@/content/product-pages/de/praepositionen-arbeitsblaetter';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -397,6 +398,10 @@ export const contentRegistry: ContentRegistry = {
     'bilder-sortieren-arbeitsblaetter': pictureSortDeContent,
     // Also keep old slug for backwards compatibility during transition
     'picture-sort-worksheets': pictureSortDeContent,
+    // German Prepositions - uses German SEO slug
+    'praepositionen-arbeitsblaetter': prepositionsDeContent,
+    // Also keep old slug for backwards compatibility during transition
+    'prepositions-worksheets': prepositionsDeContent,
   },
 };
 

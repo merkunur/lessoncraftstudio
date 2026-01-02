@@ -107,6 +107,7 @@ import picturePathDeContent from '@/content/product-pages/de/bilderpfad-arbeitsb
 import pictureSortDeContent from '@/content/product-pages/de/bilder-sortieren-arbeitsblaetter';
 import prepositionsDeContent from '@/content/product-pages/de/praepositionen-arbeitsblaetter';
 import shadowMatchDeContent from '@/content/product-pages/de/schattenbilder-zuordnen-arbeitsblaetter';
+import subtractionDeContent from '@/content/product-pages/de/subtraktion-arbeitsblaetter';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -407,6 +408,10 @@ export const contentRegistry: ContentRegistry = {
     'schattenbilder-zuordnen-arbeitsblaetter': shadowMatchDeContent,
     // Also keep old slug for backwards compatibility during transition
     'shadow-match-worksheets': shadowMatchDeContent,
+    // German Subtraction - uses German SEO slug
+    'subtraktion-arbeitsblaetter': subtractionDeContent,
+    // Also keep old slug for backwards compatibility during transition
+    'subtraction-worksheets': subtractionDeContent,
   },
 };
 

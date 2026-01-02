@@ -408,6 +408,12 @@ const nextConfig = {
         destination: '/de/apps/schattenbilder-zuordnen-arbeitsblaetter',
         permanent: true,
       },
+      // German: subtraction-worksheets → subtraktion-arbeitsblaetter
+      {
+        source: '/de/apps/subtraction-worksheets',
+        destination: '/de/apps/subtraktion-arbeitsblaetter',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

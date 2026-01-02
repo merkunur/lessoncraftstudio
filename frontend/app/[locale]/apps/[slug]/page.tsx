@@ -58,6 +58,7 @@ import picturePathDeContent from '@/content/product-pages/de/bilderpfad-arbeitsb
 import pictureSortDeContent from '@/content/product-pages/de/bilder-sortieren-arbeitsblaetter';
 import prepositionsDeContent from '@/content/product-pages/de/praepositionen-arbeitsblaetter';
 import shadowMatchDeContent from '@/content/product-pages/de/schattenbilder-zuordnen-arbeitsblaetter';
+import subtractionDeContent from '@/content/product-pages/de/subtraktion-arbeitsblaetter';
 import additionSvContent from '@/content/product-pages/sv/addition-worksheets';
 import alphabetTrainSvContent from '@/content/product-pages/sv/alphabet-train-worksheets';
 import coloringSvContent from '@/content/product-pages/sv/coloring-worksheets';
@@ -1147,6 +1148,50 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       },
       alternates: {
         canonical: 'https://www.lessoncraftstudio.com/de/apps/schattenbilder-zuordnen-arbeitsblaetter', // Point to new URL
+      },
+    };
+  }
+
+  // Subtraktion (Subtraction) - German product page SEO
+  if (params.slug === 'subtraktion-arbeitsblaetter' && params.locale === 'de') {
+    return {
+      title: 'Subtraktion Arbeitsblätter Generator - Kostenlose Mathe Arbeitsblätter zum Ausdrucken für Grundschule und Vorschule',
+      description: 'Erstellen Sie hochwertige Subtraktion Arbeitsblätter mit unserem professionellen Mathe Arbeitsblätter Generator. Perfekt für Arbeitsblätter Grundschule, Vorschule Arbeitsblätter und kostenlose Arbeitsblätter zum Rechnen lernen. Laden Sie 300 DPI PDF-Arbeitsblätter in unter 3 Minuten herunter.',
+      keywords: 'subtraktion arbeitsblätter, mathe arbeitsblätter, arbeitsblätter grundschule, kostenlose arbeitsblätter, vorschule arbeitsblätter, rechnen lernen, minusrechnen, einmaleins, schwungübungen, buchstaben lernen',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/de/apps/subtraktion-arbeitsblaetter',
+        languages: {
+          'en': 'https://www.lessoncraftstudio.com/en/apps/subtraction-worksheets',
+          'sv': 'https://www.lessoncraftstudio.com/sv/apps/subtraktion-arbetsblad',
+          'de': 'https://www.lessoncraftstudio.com/de/apps/subtraktion-arbeitsblaetter',
+          'x-default': 'https://www.lessoncraftstudio.com/en/apps/subtraction-worksheets',
+        },
+      },
+      openGraph: {
+        title: 'Subtraktion Arbeitsblätter Generator - Kostenlose Mathe Arbeitsblätter | LessonCraftStudio',
+        description: 'Erstellen Sie hochwertige Subtraktion Arbeitsblätter mit unserem professionellen Mathe Arbeitsblätter Generator. Perfekt für Grundschule und Vorschule.',
+        url: 'https://www.lessoncraftstudio.com/de/apps/subtraktion-arbeitsblaetter',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Legacy: Redirect old German subtraction slug to new slug (for backwards compatibility)
+  if (params.slug === 'subtraction-worksheets' && params.locale === 'de') {
+    return {
+      title: 'Subtraktion Arbeitsblätter Generator - Kostenlose Mathe Arbeitsblätter | LessonCraftStudio',
+      description: 'Erstellen Sie hochwertige Subtraktion Arbeitsblätter mit unserem professionellen Mathe Arbeitsblätter Generator.',
+      robots: {
+        index: false, // Don't index old URL
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/de/apps/subtraktion-arbeitsblaetter', // Point to new URL
       },
     };
   }

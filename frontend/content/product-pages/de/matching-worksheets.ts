@@ -27,21 +27,21 @@ export const matchingDeContent: ProductPageContent = {
   seo: {
     slug: 'zuordnungs-arbeitsblaetter',
     appId: 'matching-app',
-    title: 'Zuordnungs-Arbeitsblätter - Kostenlose Arbeitsblätter Grundschule - MatchUp Maker für Vorschule und Buchstaben lernen',
-    description: 'Erstellen Sie professionelle Zuordnungsübungen mit unserem MatchUp Maker Generator. Perfekt für Arbeitsblätter Grundschule, Vorschule Arbeitsblätter, Buchstaben lernen und Deutsch Arbeitsblätter. Laden Sie kostenlose Arbeitsblätter in unter 3 Minuten herunter.',
+    title: 'Zuordnungs-Arbeitsblätter - Kostenlose Arbeitsblätter Grundschule - Zuordnungs-Generator für Vorschule und Buchstaben lernen',
+    description: 'Erstellen Sie professionelle Zuordnungsübungen mit unserem Zuordnungs-Generator. Perfekt für Arbeitsblätter Grundschule, Vorschule Arbeitsblätter, Buchstaben lernen und Deutsch Arbeitsblätter. Laden Sie kostenlose Arbeitsblätter in unter 3 Minuten herunter.',
     keywords: 'zuordnungs arbeitsblätter, arbeitsblätter grundschule, kostenlose arbeitsblätter, mathe arbeitsblätter, vorschule arbeitsblätter, buchstaben lernen, deutsch arbeitsblätter, einmaleins, schwungübungen, ausmalbilder',
     canonicalUrl: 'https://www.lessoncraftstudio.com/de/apps/zuordnungs-arbeitsblaetter',
   },
 
   // Hero Section - FULL text from matching.md paragraphs 1-4
   hero: {
-    title: 'MatchUp Maker',
+    title: 'Zuordnungs-Generator',
     subtitle: 'Kostenlose Arbeitsblätter Grundschule - Zuordnungsübungen für Vorschule und Buchstaben lernen',
-    description: `Erstellen Sie professionelle Zuordnungsübungen mit unserem MatchUp Maker Generator. Mit Ihrem Core Bundle Abonnement können Sie unbegrenzt Arbeitsblätter erstellen ohne zusätzliche Kosten pro Arbeitsblatt. Generieren Sie individuelle Arbeitsblätter zum Ausdrucken, perfekt für Vorschule und Grundschule. Laden Sie hochwertige PDF-Arbeitsblätter in unter 3 Minuten herunter. Sparen Sie jede Woche Stunden an Vorbereitungszeit.
+    description: `Erstellen Sie professionelle Zuordnungsübungen mit unserem Zuordnungs-Generator. Mit Ihrem Core Bundle Abonnement können Sie unbegrenzt Arbeitsblätter erstellen ohne zusätzliche Kosten pro Arbeitsblatt. Generieren Sie individuelle Arbeitsblätter zum Ausdrucken, perfekt für Vorschule und Grundschule. Laden Sie hochwertige PDF-Arbeitsblätter in unter 3 Minuten herunter. Sparen Sie jede Woche Stunden an Vorbereitungszeit.
 
 Unser Zuordnungsübungen-Generator hilft Lehrkräften beim Erstellen von Arbeitsblättern, bei denen Schüler Linien ziehen, um passende Paare zu verbinden. Wählen Sie aus vier verschiedenen Zuordnungsmodi, einschließlich Bild-zu-Buchstabe für Arbeitsblätter zum Buchstaben lernen. Nutzen Sie Bild-zu-Wort-Zuordnung für Deutsch Arbeitsblätter und Leseübungen. Verwenden Sie eigene Vokabeln für Mathe Arbeitsblätter und Sachunterricht. Perfekt für die Entwicklung von Lese- und Schreibfähigkeiten in der Grundschule.
 
-Der MatchUp Maker bietet flexible Inhaltserstellung für jedes Fach. Erstellen Sie Mathe Arbeitsblätter mit visueller Zuordnung für Zahlenerkennung und Rechnen lernen. Generieren Sie Arbeitsblätter, bei denen Schüler Aufgaben den Lösungen zuordnen. Gestalten Sie Arbeitsblätter zum Buchstaben lernen für die Vorschule. Kombinieren Sie Schwungübungen mit Zuordnungsaktivitäten für die Entwicklung der Feinmotorik. Alle Inhalte nutzen unsere Bibliothek mit über 3000 kindgerechten Bildern.`,
+Der Zuordnungs-Generator bietet flexible Inhaltserstellung für jedes Fach. Erstellen Sie Mathe Arbeitsblätter mit visueller Zuordnung für Zahlenerkennung und Rechnen lernen. Generieren Sie Arbeitsblätter, bei denen Schüler Aufgaben den Lösungen zuordnen. Gestalten Sie Arbeitsblätter zum Buchstaben lernen für die Vorschule. Kombinieren Sie Schwungübungen mit Zuordnungsaktivitäten für die Entwicklung der Feinmotorik. Alle Inhalte nutzen unsere Bibliothek mit über 3000 kindgerechten Bildern.`,
     previewImageSrc: '/samples/english/matching/matching portrait.jpeg',
     ctaLabels: {
       tryFree: 'Kostenlos Testen',
@@ -101,7 +101,7 @@ Der MatchUp Maker bietet flexible Inhaltserstellung für jedes Fach. Erstellen S
 
   // Features Grid - FULL text from matching.md feature sections
   features: {
-    sectionTitle: 'MatchUp Maker Funktionen - Alles für Kostenlose Arbeitsblätter Grundschule und Vorschule Arbeitsblätter',
+    sectionTitle: 'Zuordnungs-Generator Funktionen - Alles für Kostenlose Arbeitsblätter Grundschule und Vorschule Arbeitsblätter',
     sectionDescription: 'Unser Zuordnungsarbeitsblätter-Generator enthält professionelle Funktionen speziell für Lehrkräfte entwickelt, die Arbeitsblätter Grundschule und Vorschule Arbeitsblätter erstellen. Jede Funktion hilft Ihnen beim schnelleren Erstellen kostenloser Arbeitsblätter als mit traditionellen Methoden. Erstellen Sie Arbeitsblätter zum Buchstaben lernen, Deutsch Arbeitsblätter, Mathe Arbeitsblätter und mehr mit demselben benutzerfreundlichen Werkzeug. Greifen Sie auf alle Premium-Funktionen mit Ihrem Core Bundle Abonnement zu. Keine Gebühren pro Arbeitsblatt, keine Bildkosten, keine Vorlagengebühren. Generieren Sie unbegrenzt Zuordnungsübungen für alle Ihre Unterrichtsbedürfnisse in der Grundschule.',
     highlightBadgeText: 'Hauptfunktion',
     readMoreLabel: 'Mehr lesen',
@@ -364,7 +364,7 @@ Erstellen Sie Produkte mit Einmaleins und Rechnen lernen Inhalten für Mathe-fok
   // FAQ Section - FULL FAQs from matching.md
   faq: {
     sectionTitle: 'Häufig gestellte Fragen - Kostenlose Arbeitsblätter, Schwungübungen und Deutsch Arbeitsblätter',
-    sectionDescription: 'Lehrkräfte stellen häufige Fragen zum Erstellen von Zuordnungsarbeitsblättern mit MatchUp Maker. Hier finden Sie Antworten zu kostenlosen Arbeitsblättern, Ausmalbilder, Schwungübungen und mehr. Erfahren Sie, wie Sie Arbeitsblätter zum Buchstaben lernen erstellen, Deutsch Arbeitsblätter generieren und Mathe Arbeitsblätter für Einmaleins-Praxis gestalten.',
+    sectionDescription: 'Lehrkräfte stellen häufige Fragen zum Erstellen von Zuordnungsarbeitsblättern mit Zuordnungs-Generator. Hier finden Sie Antworten zu kostenlosen Arbeitsblättern, Ausmalbilder, Schwungübungen und mehr. Erfahren Sie, wie Sie Arbeitsblätter zum Buchstaben lernen erstellen, Deutsch Arbeitsblätter generieren und Mathe Arbeitsblätter für Einmaleins-Praxis gestalten.',
     showMoreText: 'Mehr Fragen anzeigen',
     showLessText: 'Weniger anzeigen',
     badgeText: 'Häufige Fragen',
@@ -376,12 +376,12 @@ Erstellen Sie Produkte mit Einmaleins und Rechnen lernen Inhalten für Mathe-fok
       {
         id: '1',
         question: 'Kann ich Schwungübungen mit Zuordnungsarbeitsblättern kombinieren für Vorschule Arbeitsblätter?',
-        answer: 'Ja, das Core Bundle Abonnement beinhaltet sowohl MatchUp Maker als auch den Schwungübungen-Generator. Erstellen Sie Zuordnungsarbeitsblätter für Buchstabenerkennung, dann fügen Sie passende Schwungübungen für Schreibvorbereitung hinzu. Koordinieren Sie Schwungübungen-Themen mit Zuordnungsaktivitäten. Schüler vervollständigen Buchstaben-Zuordnung gefolgt von verwandten Schwungübungen. Kombinierte Aktivitäten bauen sowohl Erkennungs- als auch Schreibfähigkeiten auf. Generieren Sie beide Materialien von demselben Abonnement ohne zusätzliche Kosten.',
+        answer: 'Ja, das Core Bundle Abonnement beinhaltet sowohl Zuordnungs-Generator als auch den Schwungübungen-Generator. Erstellen Sie Zuordnungsarbeitsblätter für Buchstabenerkennung, dann fügen Sie passende Schwungübungen für Schreibvorbereitung hinzu. Koordinieren Sie Schwungübungen-Themen mit Zuordnungsaktivitäten. Schüler vervollständigen Buchstaben-Zuordnung gefolgt von verwandten Schwungübungen. Kombinierte Aktivitäten bauen sowohl Erkennungs- als auch Schreibfähigkeiten auf. Generieren Sie beide Materialien von demselben Abonnement ohne zusätzliche Kosten.',
       },
       {
         id: '2',
         question: 'Wie erstelle ich Arbeitsblätter zum Buchstaben lernen für Alphabet-Unterricht mit Anfangsbuchstaben-Zuordnung?',
-        answer: 'Wählen Sie den Bild-zu-Anfangsbuchstabe-Modus im MatchUp Maker. Wählen Sie das "Zufällig aus gewähltem Thema" und wählen Sie ein Thema wie Tiere oder Essen. Klicken Sie auf Generieren und das System erstellt automatisch Arbeitsblätter zum Buchstaben lernen. Bilder ordnen sich Anfangsbuchstaben zu (Apfel zu A, Ball zu B). Perfekt für phonetische Instruktion und Buchstabenerkennung. Generieren Sie wöchentlich neue Arbeitsblätter zum Buchstaben lernen für jeden Buchstaben des Alphabets. Kombinieren Sie mit Schwungübungen für vollständige Alphabetinstruktion.',
+        answer: 'Wählen Sie den Bild-zu-Anfangsbuchstabe-Modus im Zuordnungs-Generator. Wählen Sie das "Zufällig aus gewähltem Thema" und wählen Sie ein Thema wie Tiere oder Essen. Klicken Sie auf Generieren und das System erstellt automatisch Arbeitsblätter zum Buchstaben lernen. Bilder ordnen sich Anfangsbuchstaben zu (Apfel zu A, Ball zu B). Perfekt für phonetische Instruktion und Buchstabenerkennung. Generieren Sie wöchentlich neue Arbeitsblätter zum Buchstaben lernen für jeden Buchstaben des Alphabets. Kombinieren Sie mit Schwungübungen für vollständige Alphabetinstruktion.',
       },
       {
         id: '3',
@@ -457,7 +457,7 @@ Erstellen Sie Produkte mit Einmaleins und Rechnen lernen Inhalten für Mathe-fok
   // Related Apps - FULL text from matching.md combine apps section
   relatedApps: {
     sectionTitle: 'Kombinieren Sie Apps für umfassende Lehrplan-Bundles - Buchstaben lernen, Einmaleins und Deutsch Arbeitsblätter',
-    sectionDescription: 'Das Core Bundle Abonnement beinhaltet zehn verschiedene Arbeitsblatt-Generator-Apps, die zusammenarbeiten, um vollständige Unterrichtspakete zu erstellen. Kombinieren Sie MatchUp Maker mit anderen Generatoren für umfassende Lehrplan-Bundles. Erstellen Sie koordinierte Materialien über mehrere Arbeitsblatttypen hinweg. Generieren Sie thematische Pakete, die alle Fähigkeitsbereiche abdecken. Verkaufen Sie Multi-App-Bundles auf Eduki für höhere Preispunkte.',
+    sectionDescription: 'Das Core Bundle Abonnement beinhaltet zehn verschiedene Arbeitsblatt-Generator-Apps, die zusammenarbeiten, um vollständige Unterrichtspakete zu erstellen. Kombinieren Sie Zuordnungs-Generator mit anderen Generatoren für umfassende Lehrplan-Bundles. Erstellen Sie koordinierte Materialien über mehrere Arbeitsblatttypen hinweg. Generieren Sie thematische Pakete, die alle Fähigkeitsbereiche abdecken. Verkaufen Sie Multi-App-Bundles auf Eduki für höhere Preispunkte.',
     ctaTitle: 'Bereit, fantastische Arbeitsblätter zu erstellen?',
     ctaDescription: 'Schließen Sie sich tausenden Lehrkräften an, die professionelle Arbeitsblätter erstellen. Unbegrenzte Generierung, kommerzielle Lizenz inklusive.',
     primaryCtaText: 'Kostenlose Testversion Starten',

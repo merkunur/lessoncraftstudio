@@ -390,8 +390,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   // German Matching (Zuordnungs) Worksheets product page SEO
   if (params.slug === 'zuordnungs-arbeitsblaetter' && params.locale === 'de') {
     return {
-      title: 'Zuordnungs-Arbeitsblätter - Kostenlose Arbeitsblätter Grundschule - MatchUp Maker für Vorschule und Buchstaben lernen',
-      description: 'Erstellen Sie professionelle Zuordnungsübungen mit unserem MatchUp Maker Generator. Perfekt für Arbeitsblätter Grundschule, Vorschule Arbeitsblätter, Buchstaben lernen und Deutsch Arbeitsblätter. Laden Sie kostenlose Arbeitsblätter in unter 3 Minuten herunter.',
+      title: 'Zuordnungs-Arbeitsblätter - Kostenlose Arbeitsblätter Grundschule - Zuordnungs-Generator für Vorschule und Buchstaben lernen',
+      description: 'Erstellen Sie professionelle Zuordnungsübungen mit unserem Zuordnungs-Generator. Perfekt für Arbeitsblätter Grundschule, Vorschule Arbeitsblätter, Buchstaben lernen und Deutsch Arbeitsblätter. Laden Sie kostenlose Arbeitsblätter in unter 3 Minuten herunter.',
       keywords: 'zuordnungs arbeitsblätter, arbeitsblätter grundschule, kostenlose arbeitsblätter, mathe arbeitsblätter, vorschule arbeitsblätter, buchstaben lernen, deutsch arbeitsblätter, einmaleins, schwungübungen, ausmalbilder',
       robots: {
         index: true,
@@ -408,7 +408,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       },
       openGraph: {
         title: 'Zuordnungs-Arbeitsblätter - Kostenlose Arbeitsblätter Grundschule | LessonCraftStudio',
-        description: 'Erstellen Sie professionelle Zuordnungsübungen mit unserem MatchUp Maker Generator für Vorschule und Grundschule.',
+        description: 'Erstellen Sie professionelle Zuordnungsübungen mit unserem Zuordnungs-Generator für Vorschule und Grundschule.',
         url: 'https://www.lessoncraftstudio.com/de/apps/zuordnungs-arbeitsblaetter',
         siteName: 'LessonCraftStudio',
         type: 'website',
@@ -420,7 +420,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   if (params.slug === 'matching-worksheets' && params.locale === 'de') {
     return {
       title: 'Zuordnungs-Arbeitsblätter - Kostenlose Arbeitsblätter Grundschule',
-      description: 'Erstellen Sie professionelle Zuordnungsübungen mit unserem MatchUp Maker Generator für Vorschule und Grundschule.',
+      description: 'Erstellen Sie professionelle Zuordnungsübungen mit unserem Zuordnungs-Generator für Vorschule und Grundschule.',
       robots: {
         index: false, // Don't index old URL
         follow: true,

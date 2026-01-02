@@ -30,7 +30,7 @@ export const writingDeContent: ProductPageContent = {
     slug: 'schreibuebungen-arbeitsblaetter',
     appId: 'writing-app',
     title: 'Schreibübungen Arbeitsblätter Generator - Kostenlose Schwungübungen und Buchstaben lernen zum Ausdrucken für Vorschule und Grundschule',
-    description: 'Erstellen Sie professionelle Schreibübungen mit unserem Arbeitsblatt-Generator. Mit Ihrem Full Access Abo generieren Sie unbegrenzt Schwungübungen und Buchstaben lernen Materialien ohne zusätzliche Kosten pro Blatt. Perfekt für Vorschule Arbeitsblätter und Arbeitsblätter Grundschule.',
+    description: 'Erstellen Sie professionelle Schreibübungen mit unserem Arbeitsblatt-Generator. Mit Ihrem Vollzugriff-Abo generieren Sie unbegrenzt Schwungübungen und Buchstaben lernen Materialien ohne zusätzliche Kosten pro Blatt. Perfekt für Vorschule Arbeitsblätter und Arbeitsblätter Grundschule.',
     keywords: 'schreibübungen arbeitsblätter, schwungübungen, buchstaben lernen, arbeitsblätter grundschule, kostenlose arbeitsblätter, vorschule arbeitsblätter, mathe arbeitsblätter, einmaleins, deutsch arbeitsblätter, rechnen lernen, ausmalbilder, malvorlagen',
     canonicalUrl: 'https://www.lessoncraftstudio.com/de/apps/schreibuebungen-arbeitsblaetter',
   },
@@ -39,11 +39,11 @@ export const writingDeContent: ProductPageContent = {
   hero: {
     title: 'Schreibübungen Arbeitsblätter Generator',
     subtitle: 'Kostenlose Schwungübungen und Buchstaben lernen zum Ausdrucken für Vorschule und Grundschule',
-    description: `Erstellen Sie professionelle Schreibübungen mit unserem Arbeitsblatt-Generator. Ihr Full Access Abo ermöglicht unbegrenzte Erstellung ohne zusätzliche Kosten pro Arbeitsblatt. Generieren Sie individuelle Schwungübungen und Übungen zum Buchstaben lernen für Vorschule und Grundschule. Laden Sie hochwertige PDF-Arbeitsblätter in unter 3 Minuten herunter.
+    description: `Erstellen Sie professionelle Schreibübungen mit unserem Arbeitsblatt-Generator. Ihr Vollzugriff-Abo ermöglicht unbegrenzte Erstellung ohne zusätzliche Kosten pro Arbeitsblatt. Generieren Sie individuelle Schwungübungen und Übungen zum Buchstaben lernen für Vorschule und Grundschule. Laden Sie hochwertige PDF-Arbeitsblätter in unter 3 Minuten herunter.
 
 Unser Generator für Schreibübungen hilft Pädagogen bei der Erstellung von Arbeitsblättern Grundschule mit geführten Schreiblinien. Wählen Sie zwischen Druckschrift und Schreibschrift mit verschiedenen Nachspurmodi. Jedes Arbeitsblatt enthält die richtigen Grundlinien für korrekte Buchstabenbildung. Perfekt für den Schreibunterricht in allen Klassenstufen.
 
-Generieren Sie Schwungübungen für Buchstaben, Wörter, Namen oder eigene Texte. Ihr Full Access Abo beinhaltet den Zugang zu allen 33 Arbeitsblatt-Generatoren plus kommerzielle Lizenz. Erstellen Sie unbegrenzt kostenlose Arbeitsblätter für den Unterricht oder zum Verkauf auf Lehrerplattformen.`,
+Generieren Sie Schwungübungen für Buchstaben, Wörter, Namen oder eigene Texte. Ihr Vollzugriff-Abo beinhaltet den Zugang zu allen 33 Arbeitsblatt-Generatoren plus kommerzielle Lizenz. Erstellen Sie unbegrenzt kostenlose Arbeitsblätter für den Unterricht oder zum Verkauf auf Lehrerplattformen.`,
     previewImageSrc: '/samples/english/writing/writing.jpeg',
     ctaLabels: {
       tryFree: 'Kostenlos Testen',
@@ -104,7 +104,7 @@ Generieren Sie Schwungübungen für Buchstaben, Wörter, Namen oder eigene Texte
   // Features Grid - FULL text from schreibuebungen.md feature sections
   features: {
     sectionTitle: 'Schreibübungen Generator Funktionen - Alles für Schwungübungen, Buchstaben lernen und Arbeitsblätter Grundschule',
-    sectionDescription: 'Unser Generator für Schreibübungen bietet leistungsstarke Funktionen speziell für Schwungübungen und Buchstaben lernen. Pädagogen schätzen die Kombination aus Einfachheit und Flexibilität. Erstellen Sie professionelle Arbeitsblätter in Minuten statt Stunden. Das Full Access Abo gibt Ihnen volle Kontrolle über jeden Aspekt Ihrer Schwungübungen. Passen Sie Schriftarten an, ändern Sie Zeilenabstände, fügen Sie Bilder hinzu. Erstellen Sie genau das, was Ihre Schüler brauchen. Jede Funktion spart Zeit bei gleichbleibend professioneller Qualität.',
+    sectionDescription: 'Unser Generator für Schreibübungen bietet leistungsstarke Funktionen speziell für Schwungübungen und Buchstaben lernen. Pädagogen schätzen die Kombination aus Einfachheit und Flexibilität. Erstellen Sie professionelle Arbeitsblätter in Minuten statt Stunden. Das Vollzugriff-Abo gibt Ihnen volle Kontrolle über jeden Aspekt Ihrer Schwungübungen. Passen Sie Schriftarten an, ändern Sie Zeilenabstände, fügen Sie Bilder hinzu. Erstellen Sie genau das, was Ihre Schüler brauchen. Jede Funktion spart Zeit bei gleichbleibend professioneller Qualität.',
     highlightBadgeText: 'Hauptfunktion',
     readMoreLabel: 'Mehr lesen',
     showLessLabel: 'Weniger anzeigen',
@@ -163,7 +163,7 @@ Buchstabenschriften passen sich automatisch an das Alphabet jeder Sprache an. So
         id: '5',
         icon: '💰',
         title: 'Kommerzielle Print-on-Demand Lizenz - Mathe Arbeitsblätter und Ausmalbilder Verkaufen',
-        description: `Das Full Access Abo beinhaltet kommerzielle Print-on-Demand-Lizenzierung ohne Zusatzkosten. Erstellen Sie Schwungübungen und verkaufen Sie diese auf Lehrermarktplätzen, Etsy oder Amazon KDP. Keine Namensnennung auf Ihren fertigen Produkten erforderlich. Bauen Sie ein Geschäft als Lehrerunternehmer mit unseren professionellen Arbeitsblättern auf.
+        description: `Das Vollzugriff-Abo beinhaltet kommerzielle Print-on-Demand-Lizenzierung ohne Zusatzkosten. Erstellen Sie Schwungübungen und verkaufen Sie diese auf Lehrermarktplätzen, Etsy oder Amazon KDP. Keine Namensnennung auf Ihren fertigen Produkten erforderlich. Bauen Sie ein Geschäft als Lehrerunternehmer mit unseren professionellen Arbeitsblättern auf.
 
 Viele Lehrkräfte verdienen zwischen 500 und 5000 Euro monatlich mit dem Verkauf von Unterrichtsmaterialien online. Mathe Arbeitsblätter und Ausmalbilder verkaufen sich besonders gut. Schwungübungen und Buchstaben lernen Materialien sind ständig gefragt. Ihre kommerzielle Lizenz deckt alle mit unserem Generator erstellten Arbeitsblätter ab.
 
@@ -284,7 +284,7 @@ Klicken Sie auf Als PDF herunterladen für beste Druckqualität. Das PDF-Format 
 
 Wählen Sie Als JPEG herunterladen wenn Sie Bilddateien benötigen. JPEG-Format funktioniert leicht mit Textverarbeitungen und Präsentationssoftware. Fügen Sie Arbeitsblatt-Bilder in größere Bildungsressourcen ein. Ergänzen Sie sie zu Klassen-Präsentationen oder Elternbriefen. JPEG-Dateien lassen sich ohne Spezialsoftware einfach anzeigen. Sie laden auf Social-Media-Plattformen zum Teilen von Unterrichtsideen mit Kollegen hoch.
 
-Ihr Download beginnt sofort nach Klicken auf die Formatschaltfläche. Die Datei speichert in Ihren Standard-Download-Ordner. Öffnen Sie die Datei zur Überprüfung des korrekten Erscheinungsbilds vor dem Drucken oder Teilen. Falls Sie Änderungen bemerken, kehren Sie zum Editor zurück und passen Sie an. Generieren Sie Downloads unbegrenzt oft bis Ihr Arbeitsblatt perfekt ist. Keine Download-Limits mit Ihrem Full Access Abo.
+Ihr Download beginnt sofort nach Klicken auf die Formatschaltfläche. Die Datei speichert in Ihren Standard-Download-Ordner. Öffnen Sie die Datei zur Überprüfung des korrekten Erscheinungsbilds vor dem Drucken oder Teilen. Falls Sie Änderungen bemerken, kehren Sie zum Editor zurück und passen Sie an. Generieren Sie Downloads unbegrenzt oft bis Ihr Arbeitsblatt perfekt ist. Keine Download-Limits mit Ihrem Vollzugriff-Abo.
 
 Drucken Sie Ihre heruntergeladenen Arbeitsblätter auf Standarddruckerpapier oder Karton. Normales 80g-Kopierpapier funktioniert für die meisten Schreibübungen. Schwererer Karton bietet mehr Haltbarkeit für wiederholte Nutzung oder Laminierung. Professionelle Druckereien können aus Ihren PDF-Dateien professionelle Arbeitshefte produzieren. Die hohe 300 DPI Auflösung sorgt für scharfen Druck auf jeder professionellen Druckqualitätsstufe.`,
       },
@@ -401,7 +401,7 @@ Erweitern Sie Ihren Produktkatalog über Klassenstufen und Fächer effizient. Ge
       {
         id: '1',
         question: 'Kann ich Mathe Arbeitsblätter und Einmaleins-Materialien für den kommerziellen Verkauf auf Lehrermarktplätzen erstellen?',
-        answer: `Ja, Ihr Full Access Abo beinhaltet volle kommerzielle Rechte für alle generierten Arbeitsblätter. Sie können Mathe Arbeitsblätter, Einmaleins-Übungen und alle anderen Arbeitsblatttypen auf Lehrermarktplätzen, Etsy und Amazon KDP verkaufen. Keine zusätzlichen Lizenzgebühren oder Genehmigungen erforderlich. Ihre kommerzielle Lizenz gilt unbefristet für alle während Ihres aktiven Abonnements erstellten Materialien.
+        answer: `Ja, Ihr Vollzugriff-Abo beinhaltet volle kommerzielle Rechte für alle generierten Arbeitsblätter. Sie können Mathe Arbeitsblätter, Einmaleins-Übungen und alle anderen Arbeitsblatttypen auf Lehrermarktplätzen, Etsy und Amazon KDP verkaufen. Keine zusätzlichen Lizenzgebühren oder Genehmigungen erforderlich. Ihre kommerzielle Lizenz gilt unbefristet für alle während Ihres aktiven Abonnements erstellten Materialien.
 
 Erstellen Sie unbegrenzt verkaufbare Produkte ohne Pro-Produkt-Einschränkungen. Listen Sie Hunderte Arbeitsblätter gleichzeitig auf verschiedenen Plattformen. Die Lizenz erfordert keine Namensnennung auf Ihren fertigen Produkten. Käufer sehen Ihre Marke, nicht unsere. Diese Flexibilität ermöglicht den Aufbau eines professionellen Lehrmaterialgeschäfts.`,
       },
@@ -436,7 +436,7 @@ Für Einmaleins-Integration erstellen Sie Nachspurzeilen mit Multiplikationsreih
       {
         id: '6',
         question: 'Beinhalten kostenlose Arbeitsblätter aus dem Generator kommerzielle Lizenzierung für Rechnen 1. Klasse Materialien?',
-        answer: `Die Bezeichnung kostenlose Arbeitsblätter bezieht sich auf unbegrenzte Generierung ohne Pro-Arbeitsblatt-Kosten innerhalb Ihres Full Access Abos. Alle generierten Materialien, einschließlich Rechnen 1. Klasse Arbeitsblätter, sind vollständig kommerziell lizenziert. Sie können jedes generierte Arbeitsblatt verkaufen, verteilen oder in veröffentlichten Materialien verwenden.
+        answer: `Die Bezeichnung kostenlose Arbeitsblätter bezieht sich auf unbegrenzte Generierung ohne Pro-Arbeitsblatt-Kosten innerhalb Ihres Vollzugriff-Abos. Alle generierten Materialien, einschließlich Rechnen 1. Klasse Arbeitsblätter, sind vollständig kommerziell lizenziert. Sie können jedes generierte Arbeitsblatt verkaufen, verteilen oder in veröffentlichten Materialien verwenden.
 
 Die kommerzielle Lizenz unterscheidet nicht zwischen Arbeitsblatttypen oder Themen. Schreibübungen, Mathematik-Zahlwörter, Namensübungen - alle tragen die gleichen kommerziellen Rechte. Diese Konsistenz vereinfacht Geschäftsplanung für Lehrerunternehmer. Keine komplizierten Lizenzvereinbarungen für verschiedene Inhaltstypen zu verwalten. Ein Abo, eine Lizenz, unbegrenzte kommerzielle Möglichkeiten.`,
       },
@@ -463,8 +463,8 @@ Die Kombination aus schneller Generierung und detaillierter Bearbeitung spart er
       },
       {
         id: '10',
-        question: 'Was kostet das Full Access Abo für Schreibübungen und alle 33 Arbeitsblatt-Generatoren?',
-        answer: `Das Full Access Abo kostet 240 Euro jährlich oder 25 Euro monatlich und gibt Ihnen unbegrenzten Zugang zu allen 33 Arbeitsblatt-Generatoren auf der Plattform. Generieren Sie unbegrenzt Schreibübungen, Schwungübungen, Mathe Arbeitsblätter und alle anderen Arbeitsblatttypen ohne zusätzliche Kosten pro Arbeitsblatt.
+        question: 'Was kostet das Vollzugriff-Abo für Schreibübungen und alle 33 Arbeitsblatt-Generatoren?',
+        answer: `Das Vollzugriff-Abo kostet 240 Euro jährlich oder 25 Euro monatlich und gibt Ihnen unbegrenzten Zugang zu allen 33 Arbeitsblatt-Generatoren auf der Plattform. Generieren Sie unbegrenzt Schreibübungen, Schwungübungen, Mathe Arbeitsblätter und alle anderen Arbeitsblatttypen ohne zusätzliche Kosten pro Arbeitsblatt.
 
 Ihr Abo beinhaltet die vollständige kommerzielle Print-on-Demand-Lizenz, 11-Sprachen-Unterstützung, Zugang zu über 3000 Bildern und professionelle 300 DPI Exportqualität. Viele Lehrkräfte verdienen ihre Abo-Kosten bereits im ersten Monat durch den Verkauf von Arbeitsblättern auf Lehrermarktplätzen zurück. Sie können jederzeit kündigen - keine langfristige Bindung erforderlich.`,
       },
@@ -473,7 +473,7 @@ Ihr Abo beinhaltet die vollständige kommerzielle Print-on-Demand-Lizenz, 11-Spr
 
   // Pricing Section - FULL ACCESS pricing
   pricing: {
-    title: 'Full Access',
+    title: 'Vollzugriff',
     price: '€240',
     priceInterval: '/Jahr',
     priceSuffix: 'oder €25/Monat',
@@ -488,14 +488,14 @@ Ihr Abo beinhaltet die vollständige kommerzielle Print-on-Demand-Lizenz, 11-Spr
       'Vollständige Arbeitsflächen-Bearbeitung',
       'Jederzeit kündbar',
     ],
-    ctaText: 'Full Access Starten',
+    ctaText: 'Vollzugriff Starten',
     guaranteeText: '30 Tage Geld-zurück-Garantie',
   },
 
   // Related Apps Section
   relatedApps: {
     sectionTitle: 'Kombinieren Sie Schreibübungen mit anderen Generatoren für umfassende Lernpakete',
-    sectionDescription: 'Ihr Full Access Abo schaltet alle 33 Arbeitsblatt-Generatoren frei. Kombinieren Sie Schreibübungen mit ergänzenden Generatoren für thematische Lerneinheiten und gebündelte Produkte zum Verkauf.',
+    sectionDescription: 'Ihr Vollzugriff-Abo schaltet alle 33 Arbeitsblatt-Generatoren frei. Kombinieren Sie Schreibübungen mit ergänzenden Generatoren für thematische Lerneinheiten und gebündelte Produkte zum Verkauf.',
     items: [
       {
         id: '1',

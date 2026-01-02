@@ -108,6 +108,7 @@ import pictureSortDeContent from '@/content/product-pages/de/bilder-sortieren-ar
 import prepositionsDeContent from '@/content/product-pages/de/praepositionen-arbeitsblaetter';
 import shadowMatchDeContent from '@/content/product-pages/de/schattenbilder-zuordnen-arbeitsblaetter';
 import subtractionDeContent from '@/content/product-pages/de/subtraktion-arbeitsblaetter';
+import treasureHuntDeContent from '@/content/product-pages/de/schatzsuche-arbeitsblaetter';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -412,6 +413,10 @@ export const contentRegistry: ContentRegistry = {
     'subtraktion-arbeitsblaetter': subtractionDeContent,
     // Also keep old slug for backwards compatibility during transition
     'subtraction-worksheets': subtractionDeContent,
+    // German Treasure Hunt - uses German SEO slug
+    'schatzsuche-arbeitsblaetter': treasureHuntDeContent,
+    // Also keep old slug for backwards compatibility during transition
+    'treasure-hunt-worksheets': treasureHuntDeContent,
   },
 };
 

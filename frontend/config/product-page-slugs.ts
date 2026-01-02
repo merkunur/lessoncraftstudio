@@ -303,6 +303,7 @@ export const productPageSlugs: AppSlugConfig[] = [
     slugs: {
       en: 'treasure-hunt-worksheets',
       sv: 'skattjakt-arbetsblad',
+      de: 'schatzsuche-arbeitsblaetter',
     },
   },
   {

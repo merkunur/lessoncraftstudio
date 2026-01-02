@@ -59,6 +59,7 @@ import pictureSortDeContent from '@/content/product-pages/de/bilder-sortieren-ar
 import prepositionsDeContent from '@/content/product-pages/de/praepositionen-arbeitsblaetter';
 import shadowMatchDeContent from '@/content/product-pages/de/schattenbilder-zuordnen-arbeitsblaetter';
 import subtractionDeContent from '@/content/product-pages/de/subtraktion-arbeitsblaetter';
+import treasureHuntDeContent from '@/content/product-pages/de/schatzsuche-arbeitsblaetter';
 import additionSvContent from '@/content/product-pages/sv/addition-worksheets';
 import alphabetTrainSvContent from '@/content/product-pages/sv/alphabet-train-worksheets';
 import coloringSvContent from '@/content/product-pages/sv/coloring-worksheets';
@@ -1192,6 +1193,50 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       },
       alternates: {
         canonical: 'https://www.lessoncraftstudio.com/de/apps/subtraktion-arbeitsblaetter', // Point to new URL
+      },
+    };
+  }
+
+  // Schatzsuche (Treasure Hunt) - German product page SEO
+  if (params.slug === 'schatzsuche-arbeitsblaetter' && params.locale === 'de') {
+    return {
+      title: 'Schatzsuche Arbeitsblätter Generator - Kostenlose Arbeitsblätter zum Ausdrucken für Vorschule und Grundschule',
+      description: 'Erstellen Sie professionelle Schatzsuche Arbeitsblätter mit unserem Richtungsanweisungen Generator. Mit Ihrem Full Access Abo generieren Sie unbegrenzt Arbeitsblätter ohne zusätzliche Kosten pro Blatt. Perfekt für Vorschule Arbeitsblätter und Arbeitsblätter Grundschule zum Üben von Richtungsvokabular und Leseverständnis.',
+      keywords: 'schatzsuche arbeitsblätter, richtungsanweisungen arbeitsblätter, arbeitsblätter grundschule, kostenlose arbeitsblätter, mathe arbeitsblätter, vorschule arbeitsblätter, einmaleins, schwungübungen, buchstaben lernen, rechnen lernen, deutsch arbeitsblätter',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/de/apps/schatzsuche-arbeitsblaetter',
+        languages: {
+          'en': 'https://www.lessoncraftstudio.com/en/apps/treasure-hunt-worksheets',
+          'sv': 'https://www.lessoncraftstudio.com/sv/apps/skattjakt-arbetsblad',
+          'de': 'https://www.lessoncraftstudio.com/de/apps/schatzsuche-arbeitsblaetter',
+          'x-default': 'https://www.lessoncraftstudio.com/en/apps/treasure-hunt-worksheets',
+        },
+      },
+      openGraph: {
+        title: 'Schatzsuche Arbeitsblätter Generator - Kostenlose Arbeitsblätter | LessonCraftStudio',
+        description: 'Erstellen Sie professionelle Schatzsuche Arbeitsblätter mit unserem Richtungsanweisungen Generator. Perfekt für Vorschule und Grundschule.',
+        url: 'https://www.lessoncraftstudio.com/de/apps/schatzsuche-arbeitsblaetter',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Legacy: Redirect old German treasure-hunt slug to new slug (for backwards compatibility)
+  if (params.slug === 'treasure-hunt-worksheets' && params.locale === 'de') {
+    return {
+      title: 'Schatzsuche Arbeitsblätter Generator - Kostenlose Arbeitsblätter | LessonCraftStudio',
+      description: 'Erstellen Sie professionelle Schatzsuche Arbeitsblätter mit unserem Richtungsanweisungen Generator.',
+      robots: {
+        index: false, // Don't index old URL
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/de/apps/schatzsuche-arbeitsblaetter', // Point to new URL
       },
     };
   }
@@ -6087,6 +6132,8 @@ export async function generateStaticParams() {
     'bilder-sortieren-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for picture-sort
     'praepositionen-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for prepositions
     'schattenbilder-zuordnen-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for shadow-match
+    'subtraktion-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for subtraction
+    'schatzsuche-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for treasure-hunt
     'ordletar-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug
     'addition-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug
     'alfabettag-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug

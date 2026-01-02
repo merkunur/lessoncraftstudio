@@ -414,6 +414,12 @@ const nextConfig = {
         destination: '/de/apps/subtraktion-arbeitsblaetter',
         permanent: true,
       },
+      // German: treasure-hunt-worksheets → schatzsuche-arbeitsblaetter
+      {
+        source: '/de/apps/treasure-hunt-worksheets',
+        destination: '/de/apps/schatzsuche-arbeitsblaetter',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

@@ -40,6 +40,7 @@ import wordSearchSvContent from '@/content/product-pages/sv/word-search-workshee
 import wordSearchDeContent from '@/content/product-pages/de/word-search-worksheets';
 import alphabetTrainDeContent from '@/content/product-pages/de/alphabet-train-worksheets';
 import coloringDeContent from '@/content/product-pages/de/coloring-worksheets';
+import mathWorksheetsDeContent from '@/content/product-pages/de/math-worksheets';
 import additionSvContent from '@/content/product-pages/sv/addition-worksheets';
 import alphabetTrainSvContent from '@/content/product-pages/sv/alphabet-train-worksheets';
 import coloringSvContent from '@/content/product-pages/sv/coloring-worksheets';
@@ -293,6 +294,50 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       },
       alternates: {
         canonical: 'https://www.lessoncraftstudio.com/de/apps/malvorlagen-arbeitsblaetter', // Point to new URL
+      },
+    };
+  }
+
+  // Math Worksheets - German product page SEO (new German slug)
+  if (params.slug === 'mathe-arbeitsblaetter' && params.locale === 'de') {
+    return {
+      title: 'Mathe-Rätsel Generator - Kostenlose Mathe Arbeitsblätter Grundschule - Rechnen lernen Vorschule',
+      description: 'Erstellen Sie professionelle Mathe Arbeitsblätter mit visuellen Rechenrätseln für Grundschule und Vorschule. Perfekt für Rechnen lernen, Arbeitsblätter Grundschule und Vorschule Arbeitsblätter. Der Mathe-Rätsel Generator eignet sich ideal für kostenlose Arbeitsblätter in der 1. Klasse.',
+      keywords: 'mathe arbeitsblätter, arbeitsblätter grundschule, kostenlose arbeitsblätter, vorschule arbeitsblätter, rechnen lernen, rechnen 1 klasse, einmaleins, schwungübungen, ausmalbilder, deutsch arbeitsblätter',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/de/apps/mathe-arbeitsblaetter',
+        languages: {
+          'en': 'https://www.lessoncraftstudio.com/en/apps/math-worksheets',
+          'sv': 'https://www.lessoncraftstudio.com/sv/apps/matematik-arbetsblad',
+          'de': 'https://www.lessoncraftstudio.com/de/apps/mathe-arbeitsblaetter',
+          'x-default': 'https://www.lessoncraftstudio.com/en/apps/math-worksheets',
+        },
+      },
+      openGraph: {
+        title: 'Mathe-Rätsel Generator - Kostenlose Mathe Arbeitsblätter Grundschule | LessonCraftStudio',
+        description: 'Erstellen Sie professionelle Mathe Arbeitsblätter mit visuellen Rechenrätseln. Perfekt für Vorschule und Grundschule.',
+        url: 'https://www.lessoncraftstudio.com/de/apps/mathe-arbeitsblaetter',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Legacy: Redirect old German math-worksheets slug to new slug (for backwards compatibility)
+  if (params.slug === 'math-worksheets' && params.locale === 'de') {
+    return {
+      title: 'Mathe-Rätsel Generator - Kostenlose Mathe Arbeitsblätter Grundschule',
+      description: 'Erstellen Sie professionelle Mathe Arbeitsblätter mit visuellen Rechenrätseln für Grundschule.',
+      robots: {
+        index: false, // Don't index old URL
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/de/apps/mathe-arbeitsblaetter', // Point to new URL
       },
     };
   }
@@ -5169,6 +5214,7 @@ export async function generateStaticParams() {
     'suchsel-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug
     'alphabet-zug-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug
     'malvorlagen-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug
+    'mathe-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for math worksheets
     'ordletar-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug
     'addition-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug
     'alfabettag-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug

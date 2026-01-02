@@ -97,6 +97,7 @@ export const productPageSlugs: AppSlugConfig[] = [
     slugs: {
       en: 'math-worksheets',
       sv: 'matematik-arbetsblad',
+      de: 'mathe-arbeitsblaetter',
     },
   },
   {

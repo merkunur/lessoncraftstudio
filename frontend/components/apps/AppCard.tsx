@@ -74,6 +74,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
   'math-worksheet': {
     en: 'math-worksheets',
     sv: 'matematik-arbetsblad',
+    de: 'mathe-arbeitsblaetter',
   },
   'word-scramble': {
     en: 'word-scramble-worksheets',

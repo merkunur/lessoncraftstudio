@@ -282,6 +282,12 @@ const nextConfig = {
         destination: '/de/apps/malvorlagen-arbeitsblaetter',
         permanent: true,
       },
+      // German: math-worksheets → mathe-arbeitsblaetter
+      {
+        source: '/de/apps/math-worksheets',
+        destination: '/de/apps/mathe-arbeitsblaetter',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

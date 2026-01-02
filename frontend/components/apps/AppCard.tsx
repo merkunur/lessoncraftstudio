@@ -151,6 +151,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     en: 'math-puzzle-worksheets',
     sv: 'mattepussel-arbetsblad',
     de: 'mathe-raetsel-arbeitsblaetter',
+    fr: 'puzzle-maths-fiches',
   },
   'missing-pieces': {
     en: 'missing-pieces-worksheets',

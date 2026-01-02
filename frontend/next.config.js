@@ -456,6 +456,12 @@ const nextConfig = {
         destination: '/fr/apps/coloriage-fiches',
         permanent: true,
       },
+      // French: math-puzzle-worksheets → puzzle-maths-fiches
+      {
+        source: '/fr/apps/math-puzzle-worksheets',
+        destination: '/fr/apps/puzzle-maths-fiches',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

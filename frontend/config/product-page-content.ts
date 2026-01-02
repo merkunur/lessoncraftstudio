@@ -117,6 +117,7 @@ import wordSearchFrContent from '@/content/product-pages/fr/word-search-workshee
 import additionFrContent from '@/content/product-pages/fr/addition-worksheets';
 import alphabetTrainFrContent from '@/content/product-pages/fr/alphabet-train-worksheets';
 import coloringFrContent from '@/content/product-pages/fr/coloring-worksheets';
+import mathPuzzleFrContent from '@/content/product-pages/fr/math-puzzle-worksheets';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -451,6 +452,10 @@ export const contentRegistry: ContentRegistry = {
     'coloriage-fiches': coloringFrContent,
     // Also keep old slug for backwards compatibility during transition
     'coloring-worksheets': coloringFrContent,
+    // French Math Puzzle - uses French SEO slug
+    'puzzle-maths-fiches': mathPuzzleFrContent,
+    // Also keep old slug for backwards compatibility during transition
+    'math-puzzle-worksheets': mathPuzzleFrContent,
   },
 };
 

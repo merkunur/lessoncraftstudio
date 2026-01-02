@@ -942,6 +942,51 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     };
   }
 
+  // Math Puzzle Worksheets - French product page SEO (new French slug)
+  if (params.slug === 'puzzle-maths-fiches' && params.locale === 'fr') {
+    return {
+      title: 'Puzzle Maths à Imprimer | Générateur d\'Exercices de Décodage pour Maternelle et CP',
+      description: 'Créez des puzzles mathématiques de décodage par symboles avec notre générateur. Parfait pour les enseignants de maternelle, CP et CE1. Téléchargez des fiches à imprimer gratuit en PDF haute qualité.',
+      keywords: 'puzzle maths, exercices maths, décodage symboles, fiches maternelle, fiches à imprimer gratuit, exercices CP, exercices CE1, énigmes mathématiques, générateur fiches, calcul visuel',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/fr/apps/puzzle-maths-fiches',
+        languages: {
+          'en': 'https://www.lessoncraftstudio.com/en/apps/math-puzzle-worksheets',
+          'sv': 'https://www.lessoncraftstudio.com/sv/apps/mattepussel-arbetsblad',
+          'de': 'https://www.lessoncraftstudio.com/de/apps/mathe-raetsel-arbeitsblaetter',
+          'fr': 'https://www.lessoncraftstudio.com/fr/apps/puzzle-maths-fiches',
+          'x-default': 'https://www.lessoncraftstudio.com/en/apps/math-puzzle-worksheets',
+        },
+      },
+      openGraph: {
+        title: 'Puzzle Maths à Imprimer | LessonCraftStudio',
+        description: 'Créez des puzzles mathématiques de décodage par symboles avec notre générateur. Parfait pour les enseignants de maternelle, CP et CE1.',
+        url: 'https://www.lessoncraftstudio.com/fr/apps/puzzle-maths-fiches',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Legacy: Redirect old French math-puzzle-worksheets slug to new slug (for backwards compatibility)
+  if (params.slug === 'math-puzzle-worksheets' && params.locale === 'fr') {
+    return {
+      title: 'Puzzle Maths à Imprimer - Générateur d\'Exercices de Décodage',
+      description: 'Créez des puzzles mathématiques de décodage par symboles avec notre générateur.',
+      robots: {
+        index: false, // Don't index old URL
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/fr/apps/puzzle-maths-fiches', // Point to new URL
+      },
+    };
+  }
+
   // Missing Pieces Worksheets - German product page SEO (new German slug)
   if (params.slug === 'fehlende-puzzleteile-arbeitsblaetter' && params.locale === 'de') {
     return {
@@ -6343,6 +6388,8 @@ export async function generateStaticParams() {
     'mots-caches-fiches', // Product page slug (French) - language-specific SEO slug
     'addition-fiches', // Product page slug (French) - language-specific SEO slug
     'train-alphabet-fiches', // Product page slug (French) - language-specific SEO slug
+    'coloriage-fiches', // Product page slug (French) - language-specific SEO slug for coloring
+    'puzzle-maths-fiches', // Product page slug (French) - language-specific SEO slug for math-puzzle
     'alphabet-zug-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug
     'malvorlagen-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug
     'mathe-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for math worksheets

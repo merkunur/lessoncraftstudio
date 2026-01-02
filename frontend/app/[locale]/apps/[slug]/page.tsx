@@ -47,6 +47,7 @@ import pictureBingoDeContent from '@/content/product-pages/de/picture-bingo-work
 import chartCountDeContent from '@/content/product-pages/de/chart-count-worksheets';
 import codeAdditionDeContent from '@/content/product-pages/de/code-addition-worksheets';
 import findObjectsDeContent from '@/content/product-pages/de/find-objects-worksheets';
+import crosswordDeContent from '@/content/product-pages/de/crossword-worksheets';
 import additionSvContent from '@/content/product-pages/sv/addition-worksheets';
 import alphabetTrainSvContent from '@/content/product-pages/sv/alphabet-train-worksheets';
 import coloringSvContent from '@/content/product-pages/sv/coloring-worksheets';
@@ -608,6 +609,50 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       },
       alternates: {
         canonical: 'https://www.lessoncraftstudio.com/de/apps/suchbilder-arbeitsblaetter', // Point to new URL
+      },
+    };
+  }
+
+  // Crossword Worksheets - German product page SEO (new German slug)
+  if (params.slug === 'bilderkreuzwortraetsel-arbeitsblaetter' && params.locale === 'de') {
+    return {
+      title: 'Bilderkreuzworträtsel Generator - Kostenlose Arbeitsblätter Grundschule und Vorschule Arbeitsblätter',
+      description: 'Erstellen Sie professionelle Bilderkreuzworträtsel mit unserem Kreuzworträtsel-Generator. Perfekt für Arbeitsblätter Grundschule, Vorschule Arbeitsblätter und Deutsch Arbeitsblätter. Kinder verbinden Bilder mit Rechtschreibung. Laden Sie druckfertige PDF-Dateien in unter 3 Minuten herunter.',
+      keywords: 'bilderkreuzworträtsel, kreuzworträtsel generator, arbeitsblätter grundschule, kostenlose arbeitsblätter, vorschule arbeitsblätter, deutsch arbeitsblätter, buchstaben lernen, mathe arbeitsblätter, schwungübungen, ausmalbilder',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/de/apps/bilderkreuzwortraetsel-arbeitsblaetter',
+        languages: {
+          'en': 'https://www.lessoncraftstudio.com/en/apps/crossword-worksheets',
+          'sv': 'https://www.lessoncraftstudio.com/sv/apps/bildkorsord-arbetsblad',
+          'de': 'https://www.lessoncraftstudio.com/de/apps/bilderkreuzwortraetsel-arbeitsblaetter',
+          'x-default': 'https://www.lessoncraftstudio.com/en/apps/crossword-worksheets',
+        },
+      },
+      openGraph: {
+        title: 'Bilderkreuzworträtsel Generator - Kostenlose Arbeitsblätter Grundschule | LessonCraftStudio',
+        description: 'Erstellen Sie professionelle Bilderkreuzworträtsel mit unserem Kreuzworträtsel-Generator. Perfekt für Arbeitsblätter Grundschule und Vorschule.',
+        url: 'https://www.lessoncraftstudio.com/de/apps/bilderkreuzwortraetsel-arbeitsblaetter',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Legacy: Redirect old German crossword-worksheets slug to new slug (for backwards compatibility)
+  if (params.slug === 'crossword-worksheets' && params.locale === 'de') {
+    return {
+      title: 'Bilderkreuzworträtsel Generator - Kostenlose Arbeitsblätter Grundschule',
+      description: 'Erstellen Sie professionelle Bilderkreuzworträtsel mit unserem Kreuzworträtsel-Generator.',
+      robots: {
+        index: false, // Don't index old URL
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/de/apps/bilderkreuzwortraetsel-arbeitsblaetter', // Point to new URL
       },
     };
   }
@@ -5491,6 +5536,7 @@ export async function generateStaticParams() {
     'bilddiagramm-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for chart-count
     'bilder-additions-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for code-addition
     'suchbilder-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for find-objects
+    'bilderkreuzwortraetsel-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for crossword
     'ordletar-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug
     'addition-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug
     'alfabettag-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug

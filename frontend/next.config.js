@@ -342,6 +342,12 @@ const nextConfig = {
         destination: '/de/apps/raster-puzzle-arbeitsblaetter',
         permanent: true,
       },
+      // German: crossword-worksheets → bilderkreuzwortraetsel-arbeitsblaetter
+      {
+        source: '/de/apps/crossword-worksheets',
+        destination: '/de/apps/bilderkreuzwortraetsel-arbeitsblaetter',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

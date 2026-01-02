@@ -199,6 +199,7 @@ export const productPageSlugs: AppSlugConfig[] = [
     slugs: {
       en: 'crossword-worksheets',
       sv: 'bildkorsord-arbetsblad',
+      de: 'bilderkreuzwortraetsel-arbeitsblaetter',
     },
   },
   {

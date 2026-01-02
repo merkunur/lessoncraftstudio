@@ -139,6 +139,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
   'image-crossword': {
     en: 'crossword-worksheets',
     sv: 'bildkorsord-arbetsblad',
+    de: 'bilderkreuzwortraetsel-arbeitsblaetter',
   },
   'image-cryptogram': {
     en: 'cryptogram-worksheets',

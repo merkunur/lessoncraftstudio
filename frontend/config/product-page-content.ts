@@ -95,6 +95,7 @@ import codeAdditionDeContent from '@/content/product-pages/de/code-addition-work
 import drawAndColorDeContent from '@/content/product-pages/de/draw-and-color-worksheets';
 import findObjectsDeContent from '@/content/product-pages/de/find-objects-worksheets';
 import gridMatchDeContent from '@/content/product-pages/de/grid-match-worksheets';
+import crosswordDeContent from '@/content/product-pages/de/crossword-worksheets';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -347,6 +348,10 @@ export const contentRegistry: ContentRegistry = {
     'raster-puzzle-arbeitsblaetter': gridMatchDeContent,
     // Also keep old slug for backwards compatibility during transition
     'grid-match-worksheets': gridMatchDeContent,
+    // German Crossword - uses German SEO slug
+    'bilderkreuzwortraetsel-arbeitsblaetter': crosswordDeContent,
+    // Also keep old slug for backwards compatibility during transition
+    'crossword-worksheets': crosswordDeContent,
   },
 };
 

@@ -57,6 +57,7 @@ import patternWorksheetDeContent from '@/content/product-pages/de/muster-arbeits
 import picturePathDeContent from '@/content/product-pages/de/bilderpfad-arbeitsblaetter';
 import pictureSortDeContent from '@/content/product-pages/de/bilder-sortieren-arbeitsblaetter';
 import prepositionsDeContent from '@/content/product-pages/de/praepositionen-arbeitsblaetter';
+import shadowMatchDeContent from '@/content/product-pages/de/schattenbilder-zuordnen-arbeitsblaetter';
 import additionSvContent from '@/content/product-pages/sv/addition-worksheets';
 import alphabetTrainSvContent from '@/content/product-pages/sv/alphabet-train-worksheets';
 import coloringSvContent from '@/content/product-pages/sv/coloring-worksheets';
@@ -1102,6 +1103,50 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       },
       alternates: {
         canonical: 'https://www.lessoncraftstudio.com/de/apps/praepositionen-arbeitsblaetter', // Point to new URL
+      },
+    };
+  }
+
+  // Schattenbilder Zuordnen (Shadow Match) - German product page SEO
+  if (params.slug === 'schattenbilder-zuordnen-arbeitsblaetter' && params.locale === 'de') {
+    return {
+      title: 'Schattenbilder Generator - Kostenlose Arbeitsblätter für Vorschule und Arbeitsblätter Grundschule',
+      description: 'Erstellen Sie professionelle Schattenbilder-Arbeitsblätter mit unserem Generator. Mit Ihrem Voller Zugang Abonnement gestalten Sie unbegrenzt druckbare Arbeitsblätter für visuelle Wahrnehmung. Zwei Übungsmodi: Schatten zuordnen und Bild zusammenfügen.',
+      keywords: 'schattenbilder arbeitsblätter, visuelle wahrnehmung übungen, arbeitsblätter grundschule, kostenlose arbeitsblätter, vorschule arbeitsblätter, räumliches denken, wahrnehmungsübungen, silhouetten zuordnen, mathe arbeitsblätter, deutsch arbeitsblätter',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/de/apps/schattenbilder-zuordnen-arbeitsblaetter',
+        languages: {
+          'en': 'https://www.lessoncraftstudio.com/en/apps/shadow-match-worksheets',
+          'sv': 'https://www.lessoncraftstudio.com/sv/apps/skuggmatchning-arbetsblad',
+          'de': 'https://www.lessoncraftstudio.com/de/apps/schattenbilder-zuordnen-arbeitsblaetter',
+          'x-default': 'https://www.lessoncraftstudio.com/en/apps/shadow-match-worksheets',
+        },
+      },
+      openGraph: {
+        title: 'Schattenbilder Generator - Kostenlose Arbeitsblätter | LessonCraftStudio',
+        description: 'Erstellen Sie professionelle Schattenbilder-Arbeitsblätter mit unserem Generator. Perfekt für Vorschule und Grundschule.',
+        url: 'https://www.lessoncraftstudio.com/de/apps/schattenbilder-zuordnen-arbeitsblaetter',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Legacy: Redirect old German shadow-match slug to new slug (for backwards compatibility)
+  if (params.slug === 'shadow-match-worksheets' && params.locale === 'de') {
+    return {
+      title: 'Schattenbilder Generator - Kostenlose Arbeitsblätter | LessonCraftStudio',
+      description: 'Erstellen Sie professionelle Schattenbilder-Arbeitsblätter mit unserem Generator.',
+      robots: {
+        index: false, // Don't index old URL
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/de/apps/schattenbilder-zuordnen-arbeitsblaetter', // Point to new URL
       },
     };
   }
@@ -5996,6 +6041,7 @@ export async function generateStaticParams() {
     'bilderpfad-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for picture-path
     'bilder-sortieren-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for picture-sort
     'praepositionen-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for prepositions
+    'schattenbilder-zuordnen-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for shadow-match
     'ordletar-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug
     'addition-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug
     'alfabettag-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug

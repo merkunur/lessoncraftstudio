@@ -402,6 +402,12 @@ const nextConfig = {
         destination: '/de/apps/praepositionen-arbeitsblaetter',
         permanent: true,
       },
+      // German: shadow-match-worksheets → schattenbilder-zuordnen-arbeitsblaetter
+      {
+        source: '/de/apps/shadow-match-worksheets',
+        destination: '/de/apps/schattenbilder-zuordnen-arbeitsblaetter',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

@@ -106,6 +106,7 @@ import patternWorksheetDeContent from '@/content/product-pages/de/muster-arbeits
 import picturePathDeContent from '@/content/product-pages/de/bilderpfad-arbeitsblaetter';
 import pictureSortDeContent from '@/content/product-pages/de/bilder-sortieren-arbeitsblaetter';
 import prepositionsDeContent from '@/content/product-pages/de/praepositionen-arbeitsblaetter';
+import shadowMatchDeContent from '@/content/product-pages/de/schattenbilder-zuordnen-arbeitsblaetter';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -402,6 +403,10 @@ export const contentRegistry: ContentRegistry = {
     'praepositionen-arbeitsblaetter': prepositionsDeContent,
     // Also keep old slug for backwards compatibility during transition
     'prepositions-worksheets': prepositionsDeContent,
+    // German Shadow Match - uses German SEO slug
+    'schattenbilder-zuordnen-arbeitsblaetter': shadowMatchDeContent,
+    // Also keep old slug for backwards compatibility during transition
+    'shadow-match-worksheets': shadowMatchDeContent,
   },
 };
 

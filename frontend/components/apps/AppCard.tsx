@@ -194,6 +194,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
   'shadow-match': {
     en: 'shadow-match-worksheets',
     sv: 'skuggmatchning-arbetsblad',
+    de: 'schattenbilder-zuordnen-arbeitsblaetter',
   },
   'subtraction': {
     en: 'subtraction-worksheets',

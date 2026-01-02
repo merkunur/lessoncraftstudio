@@ -82,6 +82,7 @@ import wordGuessSvContent from '@/content/product-pages/sv/word-guess-worksheets
 import writingSvContent from '@/content/product-pages/sv/writing-worksheets';
 import wordSearchFrContent from '@/content/product-pages/fr/word-search-worksheets';
 import additionFrContent from '@/content/product-pages/fr/addition-worksheets';
+import alphabetTrainFrContent from '@/content/product-pages/fr/alphabet-train-worksheets';
 
 interface PageProps {
   params: {
@@ -318,6 +319,51 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       },
       alternates: {
         canonical: 'https://www.lessoncraftstudio.com/fr/apps/addition-fiches', // Point to new URL
+      },
+    };
+  }
+
+  // Alphabet Train Worksheets - French product page SEO (new French slug)
+  if (params.slug === 'train-alphabet-fiches' && params.locale === 'fr') {
+    return {
+      title: 'Fiches Alphabet à Imprimer Gratuit | Générateur de Fiches Maternelle pour Apprendre les Lettres',
+      description: 'Créez des fiches alphabet professionnelles avec notre générateur de train alphabet multilingue. Parfait pour les enseignants de maternelle, CP et CE1. Téléchargez des fiches à imprimer gratuit en PDF haute qualité en moins de trois minutes.',
+      keywords: 'fiches alphabet, fiches maternelle, apprendre les lettres, fiches à imprimer gratuit, exercices CP, exercices CE1, train alphabet, générateur fiches, graphisme maternelle, coloriage à imprimer',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/fr/apps/train-alphabet-fiches',
+        languages: {
+          'en': 'https://www.lessoncraftstudio.com/en/apps/alphabet-train-worksheets',
+          'sv': 'https://www.lessoncraftstudio.com/sv/apps/alfabettag-arbetsblad',
+          'de': 'https://www.lessoncraftstudio.com/de/apps/alphabet-zug-arbeitsblaetter',
+          'fr': 'https://www.lessoncraftstudio.com/fr/apps/train-alphabet-fiches',
+          'x-default': 'https://www.lessoncraftstudio.com/en/apps/alphabet-train-worksheets',
+        },
+      },
+      openGraph: {
+        title: 'Fiches Alphabet à Imprimer Gratuit | LessonCraftStudio',
+        description: 'Créez des fiches alphabet professionnelles avec notre générateur de train alphabet. Parfait pour les enseignants de maternelle, CP et CE1.',
+        url: 'https://www.lessoncraftstudio.com/fr/apps/train-alphabet-fiches',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Legacy: Redirect old French alphabet-train slug to new slug (for backwards compatibility)
+  if (params.slug === 'alphabet-train-worksheets' && params.locale === 'fr') {
+    return {
+      title: 'Fiches Alphabet à Imprimer Gratuit - Générateur de Fiches Maternelle',
+      description: 'Créez des fiches alphabet professionnelles avec notre générateur de train alphabet multilingue.',
+      robots: {
+        index: false, // Don't index old URL
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/fr/apps/train-alphabet-fiches', // Point to new URL
       },
     };
   }
@@ -6250,6 +6296,7 @@ export async function generateStaticParams() {
     'suchsel-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug
     'mots-caches-fiches', // Product page slug (French) - language-specific SEO slug
     'addition-fiches', // Product page slug (French) - language-specific SEO slug
+    'train-alphabet-fiches', // Product page slug (French) - language-specific SEO slug
     'alphabet-zug-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug
     'malvorlagen-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug
     'mathe-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for math worksheets

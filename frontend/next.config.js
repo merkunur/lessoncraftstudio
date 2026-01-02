@@ -444,6 +444,12 @@ const nextConfig = {
         destination: '/fr/apps/addition-fiches',
         permanent: true,
       },
+      // French: alphabet-train-worksheets → train-alphabet-fiches
+      {
+        source: '/fr/apps/alphabet-train-worksheets',
+        destination: '/fr/apps/train-alphabet-fiches',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

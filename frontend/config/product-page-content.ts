@@ -85,6 +85,7 @@ import coloringDeContent from '@/content/product-pages/de/coloring-worksheets';
 import mathWorksheetsDeContent from '@/content/product-pages/de/math-worksheets';
 import wordScrambleDeContent from '@/content/product-pages/de/word-scramble-worksheets';
 import findAndCountDeContent from '@/content/product-pages/de/find-and-count-worksheets';
+import matchingDeContent from '@/content/product-pages/de/matching-worksheets';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -297,6 +298,10 @@ export const contentRegistry: ContentRegistry = {
     'suchen-und-zaehlen-arbeitsblaetter': findAndCountDeContent,
     // Also keep old slug for backwards compatibility during transition
     'find-and-count-worksheets': findAndCountDeContent,
+    // German Matching - uses German SEO slug
+    'zuordnungs-arbeitsblaetter': matchingDeContent,
+    // Also keep old slug for backwards compatibility during transition
+    'matching-worksheets': matchingDeContent,
   },
 };
 

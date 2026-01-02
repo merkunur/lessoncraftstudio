@@ -41,6 +41,7 @@ import wordSearchDeContent from '@/content/product-pages/de/word-search-workshee
 import alphabetTrainDeContent from '@/content/product-pages/de/alphabet-train-worksheets';
 import coloringDeContent from '@/content/product-pages/de/coloring-worksheets';
 import mathWorksheetsDeContent from '@/content/product-pages/de/math-worksheets';
+import matchingDeContent from '@/content/product-pages/de/matching-worksheets';
 import additionSvContent from '@/content/product-pages/sv/addition-worksheets';
 import alphabetTrainSvContent from '@/content/product-pages/sv/alphabet-train-worksheets';
 import coloringSvContent from '@/content/product-pages/sv/coloring-worksheets';
@@ -382,6 +383,50 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       },
       alternates: {
         canonical: 'https://www.lessoncraftstudio.com/de/apps/suchen-und-zaehlen-arbeitsblaetter', // Point to new URL
+      },
+    };
+  }
+
+  // German Matching (Zuordnungs) Worksheets product page SEO
+  if (params.slug === 'zuordnungs-arbeitsblaetter' && params.locale === 'de') {
+    return {
+      title: 'Zuordnungs-Arbeitsblätter - Kostenlose Arbeitsblätter Grundschule - MatchUp Maker für Vorschule und Buchstaben lernen',
+      description: 'Erstellen Sie professionelle Zuordnungsübungen mit unserem MatchUp Maker Generator. Perfekt für Arbeitsblätter Grundschule, Vorschule Arbeitsblätter, Buchstaben lernen und Deutsch Arbeitsblätter. Laden Sie kostenlose Arbeitsblätter in unter 3 Minuten herunter.',
+      keywords: 'zuordnungs arbeitsblätter, arbeitsblätter grundschule, kostenlose arbeitsblätter, mathe arbeitsblätter, vorschule arbeitsblätter, buchstaben lernen, deutsch arbeitsblätter, einmaleins, schwungübungen, ausmalbilder',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/de/apps/zuordnungs-arbeitsblaetter',
+        languages: {
+          'en': 'https://www.lessoncraftstudio.com/en/apps/matching-worksheets',
+          'de': 'https://www.lessoncraftstudio.com/de/apps/zuordnungs-arbeitsblaetter',
+          'sv': 'https://www.lessoncraftstudio.com/sv/apps/matchnings-arbetsblad',
+          'x-default': 'https://www.lessoncraftstudio.com/en/apps/matching-worksheets',
+        },
+      },
+      openGraph: {
+        title: 'Zuordnungs-Arbeitsblätter - Kostenlose Arbeitsblätter Grundschule | LessonCraftStudio',
+        description: 'Erstellen Sie professionelle Zuordnungsübungen mit unserem MatchUp Maker Generator für Vorschule und Grundschule.',
+        url: 'https://www.lessoncraftstudio.com/de/apps/zuordnungs-arbeitsblaetter',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Legacy: Redirect old German matching-worksheets slug to new slug (for backwards compatibility)
+  if (params.slug === 'matching-worksheets' && params.locale === 'de') {
+    return {
+      title: 'Zuordnungs-Arbeitsblätter - Kostenlose Arbeitsblätter Grundschule',
+      description: 'Erstellen Sie professionelle Zuordnungsübungen mit unserem MatchUp Maker Generator für Vorschule und Grundschule.',
+      robots: {
+        index: false, // Don't index old URL
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/de/apps/zuordnungs-arbeitsblaetter', // Point to new URL
       },
     };
   }

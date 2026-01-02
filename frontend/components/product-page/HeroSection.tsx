@@ -257,7 +257,7 @@ export default function HeroSection({
 
             {/* Main title - Responsive with word-break support */}
             <motion.h1
-              className="font-black tracking-tight leading-[1.15] mb-8 break-words hyphens-auto"
+              className="font-black tracking-tight leading-[1.2] mb-8 break-words hyphens-auto"
               style={{
                 fontSize: getTitleFontSize(title),
                 fontFamily: "'Space Grotesk', 'Inter', system-ui, sans-serif",
@@ -268,10 +268,10 @@ export default function HeroSection({
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.3, duration: 0.8 }}
             >
-              <span className="block text-transparent bg-clip-text bg-gradient-to-r from-white via-white to-white/80">
+              <span className="block text-transparent bg-clip-text bg-gradient-to-r from-white via-white to-white/80 pb-1">
                 {firstPart}
               </span>
-              <span className="block text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-purple-400 to-pink-400 pb-2">
+              <span className="block text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-purple-400 to-pink-400 pb-3">
                 {secondPart}
               </span>
             </motion.h1>

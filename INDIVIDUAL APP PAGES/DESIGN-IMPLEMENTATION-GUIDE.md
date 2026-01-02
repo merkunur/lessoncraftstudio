@@ -20,6 +20,8 @@
 ║   4. Read section by section until you've covered the entire file                 ║
 ║                                                                                   ║
 ║   FAILURES THAT OCCUR FROM SKIMMING THIS FILE:                                    ║
+║   ❌ LITERAL TRANSLATION of app names instead of NATURAL language terms          ║
+║      (e.g., "Bilder Sortieren Generator" instead of "Sortierübungen Generator")  ║
 ║   ❌ Wrong sample paths (e.g., "alphabet train" vs "alphabet-train")             ║
 ║   ❌ English words left untranslated (e.g., "Core Bundle" instead of             ║
 ║      "Grundpaketet" in Swedish)                                                   ║
@@ -31,6 +33,95 @@
 ║                                                                                   ║
 ║   EVERY SECTION IN THIS FILE EXISTS BECAUSE SOMEONE MADE THAT MISTAKE.           ║
 ║   DON'T REPEAT HISTORY.                                                           ║
+║                                                                                   ║
+╚═══════════════════════════════════════════════════════════════════════════════════╝
+```
+
+---
+
+## 🚨🚨🚨 CRITICAL: APP NAMES MUST BE NATURAL LANGUAGE - NO LITERAL TRANSLATIONS 🚨🚨🚨
+
+```
+╔═══════════════════════════════════════════════════════════════════════════════════╗
+║                                                                                   ║
+║   ⛔⛔⛔ THIS IS THE #1 MISTAKE MADE ON NON-ENGLISH PAGES ⛔⛔⛔                    ║
+║                                                                                   ║
+║   DO NOT LITERALLY TRANSLATE THE ENGLISH APP NAME!                                ║
+║   USE THE NATURAL TERM THAT NATIVE SPEAKERS WOULD ACTUALLY USE!                   ║
+║                                                                                   ║
+║   ═══════════════════════════════════════════════════════════════════════════     ║
+║   🔴 REAL FAILURE CASE (January 2026) - German Picture Sort:                      ║
+║   ═══════════════════════════════════════════════════════════════════════════     ║
+║                                                                                   ║
+║   ❌ WRONG: "Bilder Sortieren Generator"                                          ║
+║      └─ This is a LITERAL TRANSLATION of "Picture Sort Generator"                 ║
+║      └─ "Bilder Sortieren" = infinitive phrase + noun = AWKWARD GERMAN            ║
+║      └─ No German teacher would search for this term!                             ║
+║                                                                                   ║
+║   ✅ CORRECT: "Sortierübungen Generator"                                          ║
+║      └─ "Sortierübungen" = "Sorting Exercises" = NATURAL GERMAN                   ║
+║      └─ This is what German educators actually search for                         ║
+║      └─ Proper German compound noun construction                                  ║
+║                                                                                   ║
+║   ═══════════════════════════════════════════════════════════════════════════     ║
+║   THE RULE: WHAT WOULD A NATIVE SPEAKER ACTUALLY CALL THIS?                       ║
+║   ═══════════════════════════════════════════════════════════════════════════     ║
+║                                                                                   ║
+║   BEFORE naming any app in a non-English language, ASK YOURSELF:                  ║
+║                                                                                   ║
+║   1. "If I were a [German/Swedish/French/etc.] teacher, what would I              ║
+║       type into Google to find this type of worksheet?"                           ║
+║                                                                                   ║
+║   2. "Does this name sound like something a native speaker would say,             ║
+║       or does it sound like Google Translate output?"                             ║
+║                                                                                   ║
+║   3. "Is this a proper compound noun/phrase in this language, or am I             ║
+║       just replacing English words with translated equivalents?"                  ║
+║                                                                                   ║
+║   ═══════════════════════════════════════════════════════════════════════════     ║
+║   MORE EXAMPLES OF WRONG vs RIGHT:                                                ║
+║   ═══════════════════════════════════════════════════════════════════════════     ║
+║                                                                                   ║
+║   GERMAN:                                                                         ║
+║   ❌ "Bilder Sortieren Generator" → ✅ "Sortierübungen Generator"                 ║
+║   ❌ "Wort Suche Generator" → ✅ "Suchsel Generator" or "Wortgitter Generator"    ║
+║   ❌ "Bild Kreuzworträtsel" → ✅ "Bilderkreuzworträtsel" (proper compound)        ║
+║                                                                                   ║
+║   SWEDISH:                                                                        ║
+║   ❌ "Bild Sortering Generator" → ✅ "Sorteringsövningar Generator"               ║
+║   ❌ "Ord Sök Generator" → ✅ "Ordletar Generator" or "Sökord Generator"          ║
+║                                                                                   ║
+║   FRENCH:                                                                         ║
+║   ❌ "Image Tri Générateur" → ✅ "Générateur d'Exercices de Tri"                  ║
+║   ❌ "Mot Recherche Générateur" → ✅ "Générateur de Mots Cachés"                  ║
+║                                                                                   ║
+║   ═══════════════════════════════════════════════════════════════════════════     ║
+║   MANDATORY VERIFICATION BEFORE FINALIZING APP NAME:                              ║
+║   ═══════════════════════════════════════════════════════════════════════════     ║
+║                                                                                   ║
+║   □ Does this name use natural language-specific terminology?                     ║
+║   □ Would a native speaker actually use this term?                                ║
+║   □ Is the grammar correct for this language (compounds, word order)?             ║
+║   □ Have I avoided literal word-for-word translation from English?                ║
+║   □ Does it sound professional, not like machine translation?                     ║
+║                                                                                   ║
+║   IF YOU ANSWERED "NO" TO ANY OF THESE → STOP AND FIND A BETTER NAME!             ║
+║                                                                                   ║
+║   ═══════════════════════════════════════════════════════════════════════════     ║
+║   WHERE APP NAMES APPEAR (ALL MUST USE THE NATURAL NAME):                         ║
+║   ═══════════════════════════════════════════════════════════════════════════     ║
+║                                                                                   ║
+║   1. Content file: hero.title, seo.title, features.sectionTitle, etc.             ║
+║   2. page.tsx: generateMetadata() title, description, openGraph.title             ║
+║   3. All FAQ questions and answers that mention the generator name                ║
+║   4. All feature descriptions that mention the generator name                     ║
+║   5. CTA titles and descriptions                                                  ║
+║                                                                                   ║
+║   USE GREP TO VERIFY - Replace "Old Name" with your literal translation:          ║
+║   grep -rn "Old Name" frontend/content/product-pages/{locale}/                    ║
+║   grep -n "Old Name" frontend/app/[locale]/apps/[slug]/page.tsx                   ║
+║                                                                                   ║
+║   ALL MATCHES MUST BE REPLACED WITH THE NATURAL LANGUAGE NAME!                    ║
 ║                                                                                   ║
 ╚═══════════════════════════════════════════════════════════════════════════════════╝
 ```
@@ -216,10 +307,14 @@
 
 ### How to Read This File Properly
 
-1. **First pass**: Read lines 1-200 (introduction, deployment, collapsible text)
-2. **Second pass**: Read lines 200-400 (language requirements, SEO slugs)
-3. **Third pass**: Read lines 400-600 (sample paths, file structure)
-4. **Fourth pass**: Read lines 600+ (content template, checklist)
+1. **First pass**: Read lines 1-130 (CRITICAL: App naming, hero titles, zero English rules)
+2. **Second pass**: Read lines 130-300 (language requirements, SEO slugs, workflow)
+3. **Third pass**: Read lines 300-500 (sample paths, file structure)
+4. **Fourth pass**: Read lines 500+ (content template, checklist)
+
+**⚠️ MOST IMPORTANT SECTIONS (READ THESE FIRST):**
+- **Lines 40-125**: APP NAMES MUST BE NATURAL LANGUAGE (not literal translations)
+- **Lines 180-215**: ZERO ENGLISH ON NON-ENGLISH PAGES
 
 **DO NOT PROCEED WITH IMPLEMENTATION UNTIL YOU'VE READ ALL SECTIONS.**
 

@@ -482,7 +482,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   if (params.slug === 'bilddiagramm-arbeitsblaetter' && params.locale === 'de') {
     return {
       title: 'Bilddiagramm Arbeitsblätter Generator - Kostenlose Arbeitsblätter für Mathe in der Grundschule und Vorschule',
-      description: 'Erstellen Sie professionelle Bilddiagramm Arbeitsblätter mit unserem Mathe Arbeitsblätter Generator. Mit Ihrem Full Access Abo erhalten Sie unbegrenzten Zugang ohne zusätzliche Gebühren pro Arbeitsblatt. Generieren Sie druckfertige Arbeitsblätter Grundschule und Vorschule Arbeitsblätter perfekt zum Zählen und für Datenvisualisierung.',
+      description: 'Erstellen Sie professionelle Bilddiagramm Arbeitsblätter mit unserem Mathe Arbeitsblätter Generator. Mit Ihrem Voller Zugang Abo erhalten Sie unbegrenzten Zugang ohne zusätzliche Gebühren pro Arbeitsblatt. Generieren Sie druckfertige Arbeitsblätter Grundschule und Vorschule Arbeitsblätter perfekt zum Zählen und für Datenvisualisierung.',
       keywords: 'bilddiagramm arbeitsblätter, arbeitsblätter grundschule, kostenlose arbeitsblätter, mathe arbeitsblätter, vorschule arbeitsblätter, rechnen lernen, deutsch arbeitsblätter, einmaleins, schwungübungen, ausmalbilder',
       robots: {
         index: true,

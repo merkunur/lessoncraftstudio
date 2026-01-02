@@ -128,6 +128,7 @@ export const productPageSlugs: AppSlugConfig[] = [
     slugs: {
       en: 'drawing-lines-worksheets',
       sv: 'rita-linjer-arbetsblad',
+      de: 'linien-ziehen-arbeitsblaetter',
     },
   },
   {

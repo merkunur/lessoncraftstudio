@@ -86,6 +86,7 @@ import mathWorksheetsDeContent from '@/content/product-pages/de/math-worksheets'
 import wordScrambleDeContent from '@/content/product-pages/de/word-scramble-worksheets';
 import findAndCountDeContent from '@/content/product-pages/de/find-and-count-worksheets';
 import matchingDeContent from '@/content/product-pages/de/matching-worksheets';
+import drawingLinesDeContent from '@/content/product-pages/de/drawing-lines-worksheets';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -302,6 +303,10 @@ export const contentRegistry: ContentRegistry = {
     'zuordnungs-arbeitsblaetter': matchingDeContent,
     // Also keep old slug for backwards compatibility during transition
     'matching-worksheets': matchingDeContent,
+    // German Drawing Lines - uses German SEO slug
+    'linien-ziehen-arbeitsblaetter': drawingLinesDeContent,
+    // Also keep old slug for backwards compatibility during transition
+    'drawing-lines-worksheets': drawingLinesDeContent,
   },
 };
 

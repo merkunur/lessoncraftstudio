@@ -348,6 +348,12 @@ const nextConfig = {
         destination: '/de/apps/bilderkreuzwortraetsel-arbeitsblaetter',
         permanent: true,
       },
+      // German: math-puzzle-worksheets → mathe-raetsel-arbeitsblaetter
+      {
+        source: '/de/apps/math-puzzle-worksheets',
+        destination: '/de/apps/mathe-raetsel-arbeitsblaetter',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

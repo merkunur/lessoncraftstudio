@@ -215,6 +215,7 @@ export const productPageSlugs: AppSlugConfig[] = [
     slugs: {
       en: 'math-puzzle-worksheets',
       sv: 'mattepussel-arbetsblad',
+      de: 'mathe-raetsel-arbeitsblaetter',
     },
   },
   {

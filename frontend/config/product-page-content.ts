@@ -97,6 +97,7 @@ import findObjectsDeContent from '@/content/product-pages/de/find-objects-worksh
 import gridMatchDeContent from '@/content/product-pages/de/grid-match-worksheets';
 import crosswordDeContent from '@/content/product-pages/de/crossword-worksheets';
 import cryptogramDeContent from '@/content/product-pages/de/cryptogram-worksheets';
+import mathPuzzleDeContent from '@/content/product-pages/de/math-puzzle-worksheets';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -357,6 +358,10 @@ export const contentRegistry: ContentRegistry = {
     'bildkryptogramm-arbeitsblaetter': cryptogramDeContent,
     // Also keep old slug for backwards compatibility during transition
     'cryptogram-worksheets': cryptogramDeContent,
+    // German Math Puzzle - uses German SEO slug
+    'mathe-raetsel-arbeitsblaetter': mathPuzzleDeContent,
+    // Also keep old slug for backwards compatibility during transition
+    'math-puzzle-worksheets': mathPuzzleDeContent,
   },
 };
 

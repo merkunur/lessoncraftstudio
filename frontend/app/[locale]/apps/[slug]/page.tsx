@@ -49,6 +49,7 @@ import codeAdditionDeContent from '@/content/product-pages/de/code-addition-work
 import findObjectsDeContent from '@/content/product-pages/de/find-objects-worksheets';
 import crosswordDeContent from '@/content/product-pages/de/crossword-worksheets';
 import cryptogramDeContent from '@/content/product-pages/de/cryptogram-worksheets';
+import mathPuzzleDeContent from '@/content/product-pages/de/math-puzzle-worksheets';
 import additionSvContent from '@/content/product-pages/sv/addition-worksheets';
 import alphabetTrainSvContent from '@/content/product-pages/sv/alphabet-train-worksheets';
 import coloringSvContent from '@/content/product-pages/sv/coloring-worksheets';
@@ -698,6 +699,50 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       },
       alternates: {
         canonical: 'https://www.lessoncraftstudio.com/de/apps/bildkryptogramm-arbeitsblaetter', // Point to new URL
+      },
+    };
+  }
+
+  // Math Puzzle Worksheets - German product page SEO (new German slug)
+  if (params.slug === 'mathe-raetsel-arbeitsblaetter' && params.locale === 'de') {
+    return {
+      title: 'Mathe-Rätsel Generator - Kostenlose Arbeitsblätter Grundschule und Vorschule Arbeitsblätter zum Ausdrucken',
+      description: 'Erstellen Sie professionelle Mathe-Rätsel Arbeitsblätter mit unserem Generator. Perfekt für Arbeitsblätter Grundschule, Vorschule Arbeitsblätter und Rechnen lernen. Kinder lösen Additions- und Subtraktionsaufgaben um Bilderrätsel zu vervollständigen. Laden Sie druckfertige PDF-Dateien in unter 3 Minuten herunter.',
+      keywords: 'mathe-rätsel, mathe arbeitsblätter, arbeitsblätter grundschule, kostenlose arbeitsblätter, vorschule arbeitsblätter, rechnen lernen, rechnen 1. klasse, einmaleins, addition subtraktion, ausdrucken',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/de/apps/mathe-raetsel-arbeitsblaetter',
+        languages: {
+          'en': 'https://www.lessoncraftstudio.com/en/apps/math-puzzle-worksheets',
+          'sv': 'https://www.lessoncraftstudio.com/sv/apps/mattepussel-arbetsblad',
+          'de': 'https://www.lessoncraftstudio.com/de/apps/mathe-raetsel-arbeitsblaetter',
+          'x-default': 'https://www.lessoncraftstudio.com/en/apps/math-puzzle-worksheets',
+        },
+      },
+      openGraph: {
+        title: 'Mathe-Rätsel Generator - Kostenlose Arbeitsblätter Grundschule | LessonCraftStudio',
+        description: 'Erstellen Sie professionelle Mathe-Rätsel Arbeitsblätter mit unserem Generator. Perfekt für Arbeitsblätter Grundschule und Vorschule.',
+        url: 'https://www.lessoncraftstudio.com/de/apps/mathe-raetsel-arbeitsblaetter',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Legacy: Redirect old German math-puzzle-worksheets slug to new slug (for backwards compatibility)
+  if (params.slug === 'math-puzzle-worksheets' && params.locale === 'de') {
+    return {
+      title: 'Mathe-Rätsel Generator - Kostenlose Arbeitsblätter Grundschule',
+      description: 'Erstellen Sie professionelle Mathe-Rätsel Arbeitsblätter mit unserem Generator.',
+      robots: {
+        index: false, // Don't index old URL
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/de/apps/mathe-raetsel-arbeitsblaetter', // Point to new URL
       },
     };
   }
@@ -5583,6 +5628,7 @@ export async function generateStaticParams() {
     'suchbilder-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for find-objects
     'bilderkreuzwortraetsel-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for crossword
     'bildkryptogramm-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for cryptogram
+    'mathe-raetsel-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for math-puzzle
     'ordletar-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug
     'addition-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug
     'alfabettag-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug

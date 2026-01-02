@@ -60,6 +60,7 @@ import prepositionsDeContent from '@/content/product-pages/de/praepositionen-arb
 import shadowMatchDeContent from '@/content/product-pages/de/schattenbilder-zuordnen-arbeitsblaetter';
 import subtractionDeContent from '@/content/product-pages/de/subtraktion-arbeitsblaetter';
 import treasureHuntDeContent from '@/content/product-pages/de/schatzsuche-arbeitsblaetter';
+import wordGuessDeContent from '@/content/product-pages/de/woerter-raten-arbeitsblaetter';
 import additionSvContent from '@/content/product-pages/sv/addition-worksheets';
 import alphabetTrainSvContent from '@/content/product-pages/sv/alphabet-train-worksheets';
 import coloringSvContent from '@/content/product-pages/sv/coloring-worksheets';
@@ -1237,6 +1238,50 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       },
       alternates: {
         canonical: 'https://www.lessoncraftstudio.com/de/apps/schatzsuche-arbeitsblaetter', // Point to new URL
+      },
+    };
+  }
+
+  // Wörter Raten (Word Guess) - German product page SEO
+  if (params.slug === 'woerter-raten-arbeitsblaetter' && params.locale === 'de') {
+    return {
+      title: 'Wörter Raten Generator - Kostenlose Arbeitsblätter zum Ausdrucken für die Grundschule',
+      description: 'Erstellen Sie professionelle Worträtsel mit Bildhinweisen für Ihre Schüler. Der Wörter Raten Generator von LessonCraft Studio ist Ihr Werkzeug für Arbeitsblätter Grundschule. Mit Ihrem Full Access Abo generieren Sie unbegrenzt Arbeitsblätter ohne zusätzliche Kosten.',
+      keywords: 'wörter raten arbeitsblätter, worträtsel arbeitsblätter, arbeitsblätter grundschule, kostenlose arbeitsblätter, mathe arbeitsblätter, vorschule arbeitsblätter, einmaleins, schwungübungen, buchstaben lernen, rechnen lernen, deutsch arbeitsblätter',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/de/apps/woerter-raten-arbeitsblaetter',
+        languages: {
+          'en': 'https://www.lessoncraftstudio.com/en/apps/word-guess-worksheets',
+          'sv': 'https://www.lessoncraftstudio.com/sv/apps/gissa-ordet-arbetsblad',
+          'de': 'https://www.lessoncraftstudio.com/de/apps/woerter-raten-arbeitsblaetter',
+          'x-default': 'https://www.lessoncraftstudio.com/en/apps/word-guess-worksheets',
+        },
+      },
+      openGraph: {
+        title: 'Wörter Raten Generator - Kostenlose Arbeitsblätter | LessonCraftStudio',
+        description: 'Erstellen Sie professionelle Worträtsel mit Bildhinweisen für Ihre Schüler. Perfekt für Grundschule und Vorschule.',
+        url: 'https://www.lessoncraftstudio.com/de/apps/woerter-raten-arbeitsblaetter',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Legacy: Redirect old German word-guess slug to new slug (for backwards compatibility)
+  if (params.slug === 'word-guess-worksheets' && params.locale === 'de') {
+    return {
+      title: 'Wörter Raten Generator - Kostenlose Arbeitsblätter | LessonCraftStudio',
+      description: 'Erstellen Sie professionelle Worträtsel mit Bildhinweisen für Ihre Schüler.',
+      robots: {
+        index: false, // Don't index old URL
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/de/apps/woerter-raten-arbeitsblaetter', // Point to new URL
       },
     };
   }
@@ -6134,6 +6179,7 @@ export async function generateStaticParams() {
     'schattenbilder-zuordnen-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for shadow-match
     'subtraktion-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for subtraction
     'schatzsuche-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for treasure-hunt
+    'woerter-raten-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for word-guess
     'ordletar-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug
     'addition-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug
     'alfabettag-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug

@@ -420,6 +420,12 @@ const nextConfig = {
         destination: '/de/apps/schatzsuche-arbeitsblaetter',
         permanent: true,
       },
+      // German: word-guess-worksheets → woerter-raten-arbeitsblaetter
+      {
+        source: '/de/apps/word-guess-worksheets',
+        destination: '/de/apps/woerter-raten-arbeitsblaetter',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

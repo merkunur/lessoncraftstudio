@@ -109,6 +109,7 @@ import prepositionsDeContent from '@/content/product-pages/de/praepositionen-arb
 import shadowMatchDeContent from '@/content/product-pages/de/schattenbilder-zuordnen-arbeitsblaetter';
 import subtractionDeContent from '@/content/product-pages/de/subtraktion-arbeitsblaetter';
 import treasureHuntDeContent from '@/content/product-pages/de/schatzsuche-arbeitsblaetter';
+import wordGuessDeContent from '@/content/product-pages/de/woerter-raten-arbeitsblaetter';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -417,6 +418,10 @@ export const contentRegistry: ContentRegistry = {
     'schatzsuche-arbeitsblaetter': treasureHuntDeContent,
     // Also keep old slug for backwards compatibility during transition
     'treasure-hunt-worksheets': treasureHuntDeContent,
+    // German Word Guess - uses German SEO slug
+    'woerter-raten-arbeitsblaetter': wordGuessDeContent,
+    // Also keep old slug for backwards compatibility during transition
+    'word-guess-worksheets': wordGuessDeContent,
   },
 };
 

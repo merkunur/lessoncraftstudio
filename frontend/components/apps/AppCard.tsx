@@ -209,6 +209,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
   'word-guess': {
     en: 'word-guess-worksheets',
     sv: 'gissa-ordet-arbetsblad',
+    de: 'woerter-raten-arbeitsblaetter',
   },
   'writing-app': {
     en: 'writing-worksheets',

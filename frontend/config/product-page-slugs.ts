@@ -311,6 +311,7 @@ export const productPageSlugs: AppSlugConfig[] = [
     slugs: {
       en: 'word-guess-worksheets',
       sv: 'gissa-ordet-arbetsblad',
+      de: 'woerter-raten-arbeitsblaetter',
     },
   },
   {

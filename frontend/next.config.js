@@ -288,6 +288,12 @@ const nextConfig = {
         destination: '/de/apps/mathe-arbeitsblaetter',
         permanent: true,
       },
+      // German: word-scramble-worksheets → buchstabensalat-arbeitsblaetter
+      {
+        source: '/de/apps/word-scramble-worksheets',
+        destination: '/de/apps/buchstabensalat-arbeitsblaetter',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

@@ -105,6 +105,7 @@ export const productPageSlugs: AppSlugConfig[] = [
     slugs: {
       en: 'word-scramble-worksheets',
       sv: 'ordpussel-arbetsblad',
+      de: 'buchstabensalat-arbeitsblaetter',
     },
   },
   {

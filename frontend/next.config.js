@@ -372,6 +372,12 @@ const nextConfig = {
         destination: '/de/apps/was-passt-nicht-arbeitsblaetter',
         permanent: true,
       },
+      // German: pattern-train-worksheets → muster-zug-arbeitsblaetter
+      {
+        source: '/de/apps/pattern-train-worksheets',
+        destination: '/de/apps/muster-zug-arbeitsblaetter',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

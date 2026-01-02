@@ -159,6 +159,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
   'more-less': {
     en: 'more-less-worksheets',
     sv: 'jamforelse-arbetsblad',
+    de: 'mehr-weniger-arbeitsblaetter',
   },
   'odd-one-out': {
     en: 'odd-one-out-worksheets',

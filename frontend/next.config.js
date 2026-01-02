@@ -360,6 +360,12 @@ const nextConfig = {
         destination: '/de/apps/fehlende-puzzleteile-arbeitsblaetter',
         permanent: true,
       },
+      // German: more-less-worksheets → mehr-weniger-arbeitsblaetter
+      {
+        source: '/de/apps/more-less-worksheets',
+        destination: '/de/apps/mehr-weniger-arbeitsblaetter',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

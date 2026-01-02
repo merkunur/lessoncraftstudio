@@ -99,6 +99,7 @@ import crosswordDeContent from '@/content/product-pages/de/crossword-worksheets'
 import cryptogramDeContent from '@/content/product-pages/de/cryptogram-worksheets';
 import mathPuzzleDeContent from '@/content/product-pages/de/math-puzzle-worksheets';
 import missingPiecesDeContent from '@/content/product-pages/de/missing-pieces-worksheets';
+import moreLessDeContent from '@/content/product-pages/de/mehr-weniger-arbeitsblaetter';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -367,6 +368,10 @@ export const contentRegistry: ContentRegistry = {
     'fehlende-puzzleteile-arbeitsblaetter': missingPiecesDeContent,
     // Also keep old slug for backwards compatibility during transition
     'missing-pieces-worksheets': missingPiecesDeContent,
+    // German More-Less - uses German SEO slug
+    'mehr-weniger-arbeitsblaetter': moreLessDeContent,
+    // Also keep old slug for backwards compatibility during transition
+    'more-less-worksheets': moreLessDeContent,
   },
 };
 

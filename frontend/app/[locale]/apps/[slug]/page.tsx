@@ -50,6 +50,7 @@ import findObjectsDeContent from '@/content/product-pages/de/find-objects-worksh
 import crosswordDeContent from '@/content/product-pages/de/crossword-worksheets';
 import cryptogramDeContent from '@/content/product-pages/de/cryptogram-worksheets';
 import mathPuzzleDeContent from '@/content/product-pages/de/math-puzzle-worksheets';
+import moreLessDeContent from '@/content/product-pages/de/mehr-weniger-arbeitsblaetter';
 import additionSvContent from '@/content/product-pages/sv/addition-worksheets';
 import alphabetTrainSvContent from '@/content/product-pages/sv/alphabet-train-worksheets';
 import coloringSvContent from '@/content/product-pages/sv/coloring-worksheets';
@@ -787,6 +788,50 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       },
       alternates: {
         canonical: 'https://www.lessoncraftstudio.com/de/apps/fehlende-puzzleteile-arbeitsblaetter', // Point to new URL
+      },
+    };
+  }
+
+  // More-Less (Vergleichs-Arbeitsblätter) - German product page SEO
+  if (params.slug === 'mehr-weniger-arbeitsblaetter' && params.locale === 'de') {
+    return {
+      title: 'Vergleichs-Arbeitsblätter Generator - Kostenlose Arbeitsblätter Grundschule - Mathe Arbeitsblätter für Größer Kleiner Gleich',
+      description: 'Erstellen Sie professionelle Vergleichs-Arbeitsblätter mit unserem Mathe Arbeitsblätter Generator. Perfekt für Arbeitsblätter Grundschule, Vorschul-Arbeitsblätter und kostenlose Arbeitsblätter zum Rechnen lernen. Laden Sie hochwertige PDF-Arbeitsblätter in unter 3 Minuten herunter.',
+      keywords: 'vergleichs arbeitsblätter, arbeitsblätter grundschule, kostenlose arbeitsblätter, mathe arbeitsblätter, vorschule arbeitsblätter, größer kleiner gleich, einmaleins, schwungübungen, buchstaben lernen, rechnen lernen',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/de/apps/mehr-weniger-arbeitsblaetter',
+        languages: {
+          'en': 'https://www.lessoncraftstudio.com/en/apps/more-less-worksheets',
+          'sv': 'https://www.lessoncraftstudio.com/sv/apps/jamforelse-arbetsblad',
+          'de': 'https://www.lessoncraftstudio.com/de/apps/mehr-weniger-arbeitsblaetter',
+          'x-default': 'https://www.lessoncraftstudio.com/en/apps/more-less-worksheets',
+        },
+      },
+      openGraph: {
+        title: 'Vergleichs-Arbeitsblätter Generator - Kostenlose Arbeitsblätter Grundschule | LessonCraftStudio',
+        description: 'Erstellen Sie professionelle Vergleichs-Arbeitsblätter mit unserem Mathe Arbeitsblätter Generator. Perfekt für Grundschule und Vorschule.',
+        url: 'https://www.lessoncraftstudio.com/de/apps/mehr-weniger-arbeitsblaetter',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Legacy: Redirect old German more-less slug to new slug (for backwards compatibility)
+  if (params.slug === 'more-less-worksheets' && params.locale === 'de') {
+    return {
+      title: 'Vergleichs-Arbeitsblätter Generator - Kostenlose Arbeitsblätter Grundschule | LessonCraftStudio',
+      description: 'Erstellen Sie professionelle Vergleichs-Arbeitsblätter mit unserem Mathe Arbeitsblätter Generator.',
+      robots: {
+        index: false, // Don't index old URL
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/de/apps/mehr-weniger-arbeitsblaetter', // Point to new URL
       },
     };
   }
@@ -5674,6 +5719,7 @@ export async function generateStaticParams() {
     'bildkryptogramm-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for cryptogram
     'mathe-raetsel-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for math-puzzle
     'fehlende-puzzleteile-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for missing-pieces
+    'mehr-weniger-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for more-less
     'ordletar-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug
     'addition-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug
     'alfabettag-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug

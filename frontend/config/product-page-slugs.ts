@@ -231,6 +231,7 @@ export const productPageSlugs: AppSlugConfig[] = [
     slugs: {
       en: 'more-less-worksheets',
       sv: 'jamforelse-arbetsblad',
+      de: 'mehr-weniger-arbeitsblaetter',
     },
   },
   {

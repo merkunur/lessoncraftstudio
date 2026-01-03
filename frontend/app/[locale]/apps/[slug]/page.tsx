@@ -3,6 +3,7 @@ import AutoLaunchApp from './AutoLaunchApp';
 import { notFound, redirect } from 'next/navigation';
 import ProductPageClient from '@/components/product-page/ProductPageClient';
 import { getContentBySlug, getAllStaticParams, getAlternateLanguageUrls } from '@/config/product-page-content';
+import { generateAppProductSchemas, AppProductData } from '@/lib/schema-generator';
 import additionEnContent from '@/content/product-pages/en/addition-worksheets';
 import wordSearchEnContent from '@/content/product-pages/en/word-search-worksheets';
 import alphabetTrainEnContent from '@/content/product-pages/en/alphabet-train-worksheets';
@@ -94,6 +95,36 @@ interface PageProps {
     locale: string;
     slug: string;
   };
+}
+
+/**
+ * Schema Markup Component for SEO
+ * Injects JSON-LD structured data for Google Search
+ */
+function SchemaScripts({
+  appData,
+  locale,
+  slug
+}: {
+  appData: AppProductData;
+  locale: string;
+  slug: string;
+}) {
+  const baseUrl = 'https://www.lessoncraftstudio.com';
+  const pageUrl = `${baseUrl}/${locale}/apps/${slug}`;
+  const schemas = generateAppProductSchemas(appData, locale, pageUrl, baseUrl);
+
+  return (
+    <>
+      {schemas.map((schema, index) => (
+        <script
+          key={`schema-${index}`}
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+        />
+      ))}
+    </>
+  );
 }
 
 // Generate metadata for SEO
@@ -6389,7 +6420,21 @@ export default async function AppPage({ params: { locale, slug } }: PageProps) {
   // This handles both English slugs and language-specific slugs (e.g., 'ordletar-arbetsblad' for Swedish)
   const content = getContentBySlug(locale, slug);
   if (content) {
-    return <ProductPageClient locale={locale} content={content} />;
+    // Build app data for schema markup
+    const schemaAppData: AppProductData = {
+      appId: content.appId || slug,
+      name: content.seo?.metaTitle || content.hero?.title || slug,
+      description: content.seo?.metaDescription || content.hero?.subtitle || '',
+      category: content.category || 'Worksheet Generator',
+      tier: content.requiredTier as 'free' | 'core' | 'full' | undefined
+    };
+
+    return (
+      <>
+        <SchemaScripts appData={schemaAppData} locale={locale} slug={slug} />
+        <ProductPageClient locale={locale} content={content} />
+      </>
+    );
   }
 
   // Legacy fallback for content not yet in the registry
@@ -6627,14 +6672,26 @@ export default async function AppPage({ params: { locale, slug } }: PageProps) {
     return tierLabel;
   };
 
+  // Build app data for schema markup (fallback pages)
+  const schemaAppData: AppProductData = {
+    appId: appData.appId || slug,
+    name: appName,
+    description: appDescription,
+    category: category,
+    tier: appTier as 'free' | 'core' | 'full'
+  };
+
   return (
-    <AutoLaunchApp
-      appSlug={slug}
-      sourceFile={sourceFile}
-      locale={locale}
-      appName={appName}
-      appTier={appTier}
-    />
+    <>
+      <SchemaScripts appData={schemaAppData} locale={locale} slug={slug} />
+      <AutoLaunchApp
+        appSlug={slug}
+        sourceFile={sourceFile}
+        locale={locale}
+        appName={appName}
+        appTier={appTier}
+      />
+    </>
   );
 }
 

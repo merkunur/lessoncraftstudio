@@ -333,3 +333,186 @@ export function generateAppsCollectionSchema(locale: string, baseUrl: string = '
     }
   };
 }
+
+/**
+ * App Product Data interface for schema generation
+ */
+export interface AppProductData {
+  appId: string;
+  name: string;
+  description: string;
+  category?: string;
+  tier?: 'free' | 'core' | 'full';
+}
+
+/**
+ * Localized breadcrumb labels for "Apps" link
+ */
+const localizedAppsLabel: Record<string, string> = {
+  en: "Apps",
+  de: "Apps",
+  fr: "Applications",
+  es: "Aplicaciones",
+  pt: "Aplicativos",
+  it: "App",
+  nl: "Apps",
+  sv: "Appar",
+  da: "Apps",
+  no: "Apper",
+  fi: "Sovellukset"
+};
+
+/**
+ * Localized home labels
+ */
+const localizedHomeLabel: Record<string, string> = {
+  en: "Home",
+  de: "Startseite",
+  fr: "Accueil",
+  es: "Inicio",
+  pt: "Início",
+  it: "Home",
+  nl: "Home",
+  sv: "Hem",
+  da: "Hjem",
+  no: "Hjem",
+  fi: "Etusivu"
+};
+
+/**
+ * Generate Schema Markup for Individual App Product Pages
+ * Includes: SoftwareApplication and BreadcrumbList schemas
+ */
+export function generateAppProductSchemas(
+  appData: AppProductData,
+  locale: string,
+  pageUrl: string,
+  baseUrl: string = 'https://www.lessoncraftstudio.com'
+): object[] {
+  const schemas: object[] = [];
+
+  // 1. SoftwareApplication Schema (primary - for rich results)
+  const softwareAppSchema = {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": appData.name,
+    "description": appData.description,
+    "url": pageUrl,
+    "applicationCategory": "EducationalApplication",
+    "applicationSubCategory": appData.category || "Worksheet Generator",
+    "operatingSystem": "Web Browser",
+    "browserRequirements": "Requires JavaScript",
+    "offers": {
+      "@type": "AggregateOffer",
+      "priceCurrency": "USD",
+      "lowPrice": "0",
+      "highPrice": "25",
+      "offerCount": 3,
+      "offers": [
+        {
+          "@type": "Offer",
+          "name": "Free Tier",
+          "price": "0",
+          "priceCurrency": "USD",
+          "description": "Access to Word Search generator"
+        },
+        {
+          "@type": "Offer",
+          "name": "Core Bundle",
+          "price": "15",
+          "priceCurrency": "USD",
+          "priceSpecification": {
+            "@type": "UnitPriceSpecification",
+            "price": "15",
+            "priceCurrency": "USD",
+            "billingDuration": "P1M"
+          },
+          "description": "Access to 10 core worksheet generators"
+        },
+        {
+          "@type": "Offer",
+          "name": "Full Access",
+          "price": "25",
+          "priceCurrency": "USD",
+          "priceSpecification": {
+            "@type": "UnitPriceSpecification",
+            "price": "25",
+            "priceCurrency": "USD",
+            "billingDuration": "P1M"
+          },
+          "description": "Access to all 33 worksheet generators"
+        }
+      ]
+    },
+    "provider": {
+      "@type": "Organization",
+      "name": "LessonCraftStudio",
+      "url": baseUrl
+    },
+    "inLanguage": locale,
+    "isAccessibleForFree": appData.tier === 'free',
+    "audience": {
+      "@type": "EducationalAudience",
+      "educationalRole": "Teacher",
+      "audienceType": "Educators"
+    },
+    "screenshot": `${baseUrl}/opengraph-image.png`
+  };
+
+  schemas.push(softwareAppSchema);
+
+  // 2. BreadcrumbList Schema (for navigation context)
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": localizedHomeLabel[locale] || "Home",
+        "item": `${baseUrl}/${locale}`
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": localizedAppsLabel[locale] || "Apps",
+        "item": `${baseUrl}/${locale}/apps`
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": appData.name,
+        "item": pageUrl
+      }
+    ]
+  };
+
+  schemas.push(breadcrumbSchema);
+
+  // 3. WebPage Schema (for page context)
+  const webPageSchema = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": appData.name,
+    "description": appData.description,
+    "url": pageUrl,
+    "inLanguage": locale,
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "LessonCraftStudio",
+      "url": baseUrl
+    },
+    "about": {
+      "@type": "SoftwareApplication",
+      "name": appData.name
+    },
+    "mainEntity": {
+      "@type": "SoftwareApplication",
+      "name": appData.name
+    }
+  };
+
+  schemas.push(webPageSchema);
+
+  return schemas;
+}

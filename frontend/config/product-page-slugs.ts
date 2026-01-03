@@ -177,6 +177,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       en: 'code-addition-worksheets',
       sv: 'kodaddition-arbetsblad',
       de: 'bilder-additions-arbeitsblaetter',
+      fr: 'addition-codee-fiches',
     },
   },
   {

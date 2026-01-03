@@ -8,9 +8,21 @@ import { ProductPageContent } from '@/components/product-page/ProductPageClient'
  *
  * FULL SEO content from: INDIVIDUAL APP PAGES/French/math-worksheet.md
  * DO NOT SHORTEN - Every paragraph is SEO-optimized
+ *
+ * CRITICAL: ALL UI labels MUST be in French - ZERO ENGLISH allowed
  */
 
 export const mathWorksheetsFrContent: ProductPageContent = {
+  // SEO Metadata - French language-specific
+  seo: {
+    slug: 'exercices-maths-fiches',
+    appId: 'math-worksheet',
+    title: 'Exercices Maths à Imprimer - Générateur Fiches Maternelle CP CE1',
+    description: 'Créez des exercices maths avec notre générateur de fiches maternelle. Fiches à imprimer gratuit pour CP et CE1. Puzzles de décodage visuels. PDF 300 DPI. Licence commerciale incluse.',
+    keywords: 'exercices maths, fiches maternelle, fiches à imprimer gratuit, exercices CP, exercices CE1, générateur fiches maths, puzzles mathématiques, calcul maternelle, graphisme maternelle, tables de multiplication, coloriage à imprimer, écriture cursive, apprendre à lire, alphabet maternelle',
+    canonicalUrl: 'https://www.lessoncraftstudio.com/fr/apps/exercices-maths-fiches',
+  },
+
   // Hero Section - FULL text from math-worksheet.md paragraphs 1-6
   hero: {
     title: 'Exercices Maths à Imprimer - Générateur de Fiches Maternelle',
@@ -32,14 +44,28 @@ Ces fiches mathématiques fonctionnent idéalement pour les centres de numérati
       images: '3000+ Images',
       license: 'Licence Commerciale',
     },
+    readMoreLabel: 'Lire la suite',
+    showLessLabel: 'Voir moins',
+    floatingStats: {
+      time: '3 min',
+      action: 'Créer & Télécharger',
+      quality: '300 DPI',
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/math worksheet/
   samples: {
     sectionTitle: 'Exemples de Fiches',
+    sectionDescription: 'Téléchargez des exemples gratuits pour voir notre qualité professionnelle',
     downloadLabel: 'Télécharger Exemple Gratuit',
     worksheetLabel: 'Fiche',
     answerKeyLabel: 'Corrigé',
+    viewAllLabel: 'Agrandir',
+    noPdfLabel: 'Aperçu uniquement',
+    freePdfCountLabel: 'téléchargements gratuits',
+    badgeText: 'Exemples Gratuits',
+    downloadingLabel: 'Téléchargement...',
+    ofLabel: 'sur',
     items: [
       {
         id: '1',
@@ -63,6 +89,14 @@ Ces fiches mathématiques fonctionnent idéalement pour les centres de numérati
     sectionTitle: 'Tout ce Dont Vous Avez Besoin pour Créer des Fiches à Imprimer Gratuit',
     sectionDescription: 'Notre générateur d\'exercices maths inclut sept fonctionnalités puissantes pour créer des fiches maternelle de qualité professionnelle. Votre abonnement Pack Essentiel vous donne accès à toutes les fonctionnalités avec création illimitée. Créez des fiches à imprimer gratuit personnalisées pour les besoins spécifiques de vos élèves. Chaque fonctionnalité travaille ensemble pour vous faire gagner du temps tout en produisant des exercices CP et exercices CE1 de haute qualité.',
     highlightBadgeText: 'Fonctionnalité Clé',
+    readMoreLabel: 'Lire la suite',
+    showLessLabel: 'Voir moins',
+    badgeText: 'Fonctionnalités',
+    trustBadges: {
+      allFeatures: 'Toutes les fonctionnalités incluses',
+      noHiddenFees: 'Aucun frais caché',
+      cancelAnytime: 'Résiliez à tout moment',
+    },
     items: [
       {
         id: '1',
@@ -121,6 +155,14 @@ Ces fiches mathématiques fonctionnent idéalement pour les centres de numérati
     sectionTitle: 'Comment Créer des Exercices Maths en 5 Étapes Faciles',
     sectionDescription: 'Créer des exercices maths professionnels prend moins de trois minutes avec notre générateur. Suivez ces cinq étapes simples pour produire des fiches maternelle et des exercices CP de qualité. Aucune expérience en design requise. Aucun logiciel compliqué à apprendre. Sélectionnez simplement vos options et générez des fiches à imprimer gratuit instantanément. Votre abonnement Pack Essentiel vous donne un accès illimité pour créer autant d\'exercices CE1 et de puzzles mathématiques que nécessaire.',
     ctaText: 'Commencer Maintenant',
+    badgeText: 'Comment Ça Marche',
+    stepLabel: 'Étape',
+    completionTitle: 'Terminé !',
+    completionSubtitle: 'Votre fiche est prête',
+    readyTime: 'Prêt en moins de 3 minutes',
+    noSkillsNeeded: 'Aucune compétence en design requise',
+    readMoreLabel: 'Lire la suite',
+    showLessLabel: 'Voir moins',
     steps: [
       {
         id: '1',
@@ -164,6 +206,9 @@ Ces fiches mathématiques fonctionnent idéalement pour les centres de numérati
   useCases: {
     sectionTitle: 'Parfait pour les Enseignants et Éducateurs',
     sectionDescription: 'Les exercices maths de décodage par symboles bénéficient à de multiples contextes éducatifs. Les enseignants de maternelle utilisent les puzzles visuels pour introduire le raisonnement logique. Les professeurs de CP et CE1 renforcent les faits mathématiques avec une pratique stimulante. Les parents en instruction à domicile créent des exercices personnalisés pour leurs enfants. Les enseignants spécialisés adaptent les fiches aux besoins individuels. Les enseignants entrepreneurs vendent leurs créations sur les plateformes éducatives. Votre abonnement Pack Essentiel sert tous ces objectifs avec une seule inscription.',
+    badgeText: 'Pour Qui',
+    readMoreLabel: 'Lire la suite',
+    showLessLabel: 'Voir moins',
     items: [
       {
         id: '1',
@@ -222,6 +267,11 @@ Ces fiches mathématiques fonctionnent idéalement pour les centres de numérati
     sectionDescription: 'Découvrez les réponses aux questions les plus posées sur notre générateur de puzzles mathématiques. Cette FAQ couvre les fonctionnalités, les prix et les utilisations pédagogiques. Trouvez rapidement les informations dont vous avez besoin pour créer des exercices de décodage efficaces. Apprenez comment optimiser l\'outil pour vos élèves et préparer les tables de multiplication avec des activités engageantes.',
     showMoreText: 'Afficher plus de questions',
     showLessText: 'Afficher moins',
+    badgeText: 'FAQ',
+    readMoreLabel: 'Lire la suite',
+    showLessLabel: 'Voir moins',
+    secureCheckout: 'Paiement sécurisé',
+    cancelAnytime: 'Résiliez à tout moment',
     items: [
       {
         id: '1',
@@ -286,15 +336,6 @@ Ces fiches mathématiques fonctionnent idéalement pour les centres de numérati
     ],
   },
 
-  // SEO Metadata
-  seo: {
-    slug: 'exercices-maths-fiches',
-    appId: 'math-worksheet',
-    title: 'Exercices Maths à Imprimer - Générateur Fiches Maternelle CP CE1',
-    description: 'Créez des exercices maths avec notre générateur de fiches maternelle. Fiches à imprimer gratuit pour CP et CE1. Puzzles de décodage visuels. PDF 300 DPI. Licence commerciale incluse.',
-    keywords: 'exercices maths, fiches maternelle, fiches à imprimer gratuit, exercices CP, exercices CE1, générateur fiches maths, puzzles mathématiques, calcul maternelle, graphisme maternelle, tables de multiplication, coloriage à imprimer, écriture cursive, apprendre à lire, alphabet maternelle',
-  },
-
   // Pricing
   pricing: {
     title: 'Pack Essentiel',
@@ -321,6 +362,13 @@ Ces fiches mathématiques fonctionnent idéalement pour les centres de numérati
     ctaDescription: 'Rejoignez les éducateurs qui créent des fiches professionnelles. Génération illimitée, licence commerciale incluse.',
     primaryCtaText: 'Commencer l\'Essai Gratuit',
     secondaryCtaText: 'Voir les 33 Applications',
+    badgeText: 'Fonctionne Parfaitement Avec',
+    exploreText: 'Explorer toutes les applications',
+    trustBadges: {
+      guarantee: 'Garantie satisfait ou remboursé 30 jours',
+      securePayment: 'Paiement sécurisé',
+      cancelAnytime: 'Résiliez à tout moment',
+    },
     items: [
       {
         id: '1',

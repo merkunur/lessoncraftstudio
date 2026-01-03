@@ -1247,6 +1247,51 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     };
   }
 
+  // French Chart Count product page SEO (new French slug)
+  if (params.slug === 'graphique-images-fiches' && params.locale === 'fr') {
+    return {
+      title: 'Graphique en Images à Imprimer - Fiches Maternelle et Exercices CP pour Apprendre à Compter et Créer des Diagrammes',
+      description: 'Créez des fiches pédagogiques de graphiques en images pour enseigner la représentation des données à vos élèves. Votre abonnement Accès Complet vous donne accès à la création illimitée de fiches sans frais supplémentaires. Générez des exercices de comptage et de graphiques en moins de 3 minutes.',
+      keywords: 'graphique en images, fiches maternelle, exercices CP, fiches à imprimer gratuit, exercices maths, comptage maternelle, diagramme pictogramme, apprendre à compter, coloriage à imprimer, graphisme maternelle',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/fr/apps/graphique-images-fiches',
+        languages: {
+          'en': 'https://www.lessoncraftstudio.com/en/apps/chart-count-worksheets',
+          'sv': 'https://www.lessoncraftstudio.com/sv/apps/diagram-rakning-arbetsblad',
+          'de': 'https://www.lessoncraftstudio.com/de/apps/bilddiagramm-arbeitsblaetter',
+          'fr': 'https://www.lessoncraftstudio.com/fr/apps/graphique-images-fiches',
+          'x-default': 'https://www.lessoncraftstudio.com/en/apps/chart-count-worksheets',
+        },
+      },
+      openGraph: {
+        title: 'Graphique en Images à Imprimer | LessonCraftStudio',
+        description: 'Créez des fiches pédagogiques de graphiques en images pour enseigner la représentation des données. Parfait pour maternelle et CP.',
+        url: 'https://www.lessoncraftstudio.com/fr/apps/graphique-images-fiches',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Legacy: Redirect old French chart-count-worksheets slug to new slug (for backwards compatibility)
+  if (params.slug === 'chart-count-worksheets' && params.locale === 'fr') {
+    return {
+      title: 'Graphique en Images à Imprimer | LessonCraftStudio',
+      description: 'Créez des fiches pédagogiques de graphiques en images pour enseigner la représentation des données.',
+      robots: {
+        index: false, // Don't index old URL
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/fr/apps/graphique-images-fiches', // Point to new URL
+      },
+    };
+  }
+
   // Missing Pieces Worksheets - German product page SEO (new German slug)
   if (params.slug === 'fehlende-puzzleteile-arbeitsblaetter' && params.locale === 'de') {
     return {

@@ -122,6 +122,7 @@ import mathWorksheetsFrContent from '@/content/product-pages/fr/math-worksheets'
 import wordScrambleFrContent from '@/content/product-pages/fr/word-scramble-worksheets';
 import findAndCountFrContent from '@/content/product-pages/fr/find-and-count-worksheets';
 import matchingFrContent from '@/content/product-pages/fr/matching-worksheets';
+import drawingLinesFrContent from '@/content/product-pages/fr/drawing-lines-worksheets';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -476,6 +477,10 @@ export const contentRegistry: ContentRegistry = {
     'association-fiches': matchingFrContent,
     // Also keep old slug for backwards compatibility during transition
     'matching-worksheets': matchingFrContent,
+    // French Drawing Lines - uses French SEO slug
+    'graphisme-fiches': drawingLinesFrContent,
+    // Also keep old slug for backwards compatibility during transition
+    'drawing-lines-worksheets': drawingLinesFrContent,
   },
 };
 

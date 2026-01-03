@@ -86,6 +86,7 @@ import alphabetTrainFrContent from '@/content/product-pages/fr/alphabet-train-wo
 import coloringFrContent from '@/content/product-pages/fr/coloring-worksheets';
 import findAndCountFrContent from '@/content/product-pages/fr/find-and-count-worksheets';
 import matchingFrContent from '@/content/product-pages/fr/matching-worksheets';
+import drawingLinesFrContent from '@/content/product-pages/fr/drawing-lines-worksheets';
 
 interface PageProps {
   params: {
@@ -1120,6 +1121,51 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       },
       alternates: {
         canonical: 'https://www.lessoncraftstudio.com/fr/apps/association-fiches', // Point to new URL
+      },
+    };
+  }
+
+  // Drawing Lines Worksheets - French product page SEO (new French slug)
+  if (params.slug === 'graphisme-fiches' && params.locale === 'fr') {
+    return {
+      title: 'Fiches de Graphisme Maternelle | Fiches à Imprimer Gratuit pour l\'Écriture et la Motricité Fine',
+      description: 'Créez des fiches de graphisme maternelle professionnelles avec notre générateur en ligne. Votre abonnement Pack Essentiel vous donne accès à la création illimitée de fiches pédagogiques. Téléchargez des exercices de tracé de lignes en PDF haute résolution en moins de 3 minutes.',
+      keywords: 'fiches maternelle, graphisme maternelle, fiches à imprimer gratuit, écriture cursive, exercices CP, motricité fine, coloriage à imprimer, exercices maths, apprendre les lettres, tables de multiplication, exercices CE1, alphabet',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/fr/apps/graphisme-fiches',
+        languages: {
+          'en': 'https://www.lessoncraftstudio.com/en/apps/drawing-lines-worksheets',
+          'sv': 'https://www.lessoncraftstudio.com/sv/apps/rita-linjer-arbetsblad',
+          'de': 'https://www.lessoncraftstudio.com/de/apps/linien-ziehen-arbeitsblaetter',
+          'fr': 'https://www.lessoncraftstudio.com/fr/apps/graphisme-fiches',
+          'x-default': 'https://www.lessoncraftstudio.com/en/apps/drawing-lines-worksheets',
+        },
+      },
+      openGraph: {
+        title: 'Fiches de Graphisme Maternelle | LessonCraftStudio',
+        description: 'Créez des fiches de graphisme maternelle professionnelles avec notre générateur en ligne. Développez la motricité fine et préparez l\'écriture cursive.',
+        url: 'https://www.lessoncraftstudio.com/fr/apps/graphisme-fiches',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Legacy: Redirect old French drawing-lines-worksheets slug to new slug (for backwards compatibility)
+  if (params.slug === 'drawing-lines-worksheets' && params.locale === 'fr') {
+    return {
+      title: 'Fiches de Graphisme Maternelle - Générateur de Fiches',
+      description: 'Créez des fiches de graphisme maternelle professionnelles avec notre générateur en ligne.',
+      robots: {
+        index: false, // Don't index old URL
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/fr/apps/graphisme-fiches', // Point to new URL
       },
     };
   }
@@ -6531,6 +6577,7 @@ export async function generateStaticParams() {
     'cherche-et-compte-fiches', // Product page slug (French) - language-specific SEO slug for find-and-count
     'mots-melanges-fiches', // Product page slug (French) - language-specific SEO slug for word-scramble
     'association-fiches', // Product page slug (French) - language-specific SEO slug for matching
+    'graphisme-fiches', // Product page slug (French) - language-specific SEO slug for drawing-lines
     'alphabet-zug-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug
     'malvorlagen-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug
     'mathe-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for math worksheets

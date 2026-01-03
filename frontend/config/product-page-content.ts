@@ -536,7 +536,7 @@ export const contentRegistry: ContentRegistry = {
     // Also keep old slug for backwards compatibility during transition
     'missing-pieces-worksheets': missingPiecesFrContent,
     // French More Less - uses French SEO slug
-    'plus-moins-fiches': moreLessFrContent,
+    'comparaison-quantites-fiches': moreLessFrContent,
     // Also keep old slug for backwards compatibility during transition
     'more-less-worksheets': moreLessFrContent,
   },

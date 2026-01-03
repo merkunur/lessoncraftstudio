@@ -16,12 +16,12 @@ import { ProductPageContent } from '@/components/product-page/ProductPageClient'
 export const moreLessFrContent: ProductPageContent = {
   // SEO Metadata - French language-specific
   seo: {
-    slug: 'plus-moins-fiches',
+    slug: 'comparaison-quantites-fiches',
     appId: 'more-less',
     title: 'Fiches à Imprimer Gratuit de Comparaison - Exercices Maths Plus Moins Égal - Fiches Maternelle et Exercices CP',
     description: 'Créez des fiches de comparaison mathématique professionnelles avec notre générateur d\'exercices maths. Générez des exercices CP de comparaison de quantités parfaits pour la maternelle et le CP. Téléchargez des fichiers PDF de haute qualité en moins de 3 minutes.',
     keywords: 'fiches à imprimer gratuit, fiches maternelle, exercices maths, exercices CP, plus moins égal, comparaison, graphisme maternelle, coloriage à imprimer, apprendre à lire, alphabet, écriture cursive, tables de multiplication, exercices CE1',
-    canonicalUrl: 'https://www.lessoncraftstudio.com/fr/apps/plus-moins-fiches',
+    canonicalUrl: 'https://www.lessoncraftstudio.com/fr/apps/comparaison-quantites-fiches',
   },
 
   // Hero Section - FULL text from French more-less.md Section 1

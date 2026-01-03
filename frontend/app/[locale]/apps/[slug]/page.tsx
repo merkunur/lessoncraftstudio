@@ -3369,9 +3369,12 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     description: appData.description || `Create professional ${appData.name || appData.appId} worksheets for your educational materials`,
     keywords: `${appData.name || appData.appId}, worksheet generator, teachers pay teachers, educational resources, printable worksheets`,
     robots: {
-      index: false,
-      follow: false,
-    }
+      index: true,
+      follow: true,
+    },
+    alternates: {
+      canonical: `https://www.lessoncraftstudio.com/${params.locale}/apps/${params.slug}`,
+    },
   };
 }
 

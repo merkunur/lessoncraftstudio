@@ -498,6 +498,12 @@ const nextConfig = {
         destination: '/fr/apps/bingo-images-fiches',
         permanent: true,
       },
+      // French: big-small-worksheets → grand-petit-fiches
+      {
+        source: '/fr/apps/big-small-worksheets',
+        destination: '/fr/apps/grand-petit-fiches',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

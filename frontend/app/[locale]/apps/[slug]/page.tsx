@@ -2725,6 +2725,49 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     };
   }
 
+  // Sudoku Worksheets - French product page SEO
+  if (params.slug === 'sudoku-enfants-fiches' && params.locale === 'fr') {
+    return {
+      title: 'Sudoku pour Enfants - Fiches Maternelle et Exercices Maths à Imprimer Gratuit',
+      description: 'Créez des puzzles sudoku visuels avec notre générateur de fiches maternelle. Votre abonnement Core Bundle vous offre une création illimitée de fiches à imprimer gratuit. Téléchargez des PDF professionnels 300 DPI avec clés de correction en moins de 3 minutes.',
+      keywords: 'sudoku enfants, fiches maternelle, fiches à imprimer gratuit, exercices CP, exercices CE1, exercices maths, graphisme maternelle, coloriage à imprimer, apprendre à lire, tables de multiplication',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/fr/apps/sudoku-enfants-fiches',
+        languages: {
+          'en': 'https://www.lessoncraftstudio.com/en/apps/sudoku-worksheets',
+          'fr': 'https://www.lessoncraftstudio.com/fr/apps/sudoku-enfants-fiches',
+          'x-default': 'https://www.lessoncraftstudio.com/en/apps/sudoku-worksheets',
+        },
+      },
+      openGraph: {
+        title: 'Sudoku pour Enfants - Fiches Maternelle | LessonCraftStudio',
+        description: 'Créez des puzzles sudoku visuels avec notre générateur de fiches maternelle. Parfait pour les exercices CP et CE1.',
+        url: 'https://www.lessoncraftstudio.com/fr/apps/sudoku-enfants-fiches',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Legacy: Redirect old French sudoku slug to new slug (for backwards compatibility)
+  if (params.slug === 'sudoku-worksheets' && params.locale === 'fr') {
+    return {
+      title: 'Sudoku pour Enfants - Fiches Maternelle et Exercices Maths à Imprimer Gratuit',
+      description: 'Créez des puzzles sudoku visuels avec notre générateur de fiches maternelle.',
+      robots: {
+        index: false, // Don't index old URL
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/fr/apps/sudoku-enfants-fiches', // Point to new URL
+      },
+    };
+  }
+
   // Big and Small Worksheets product page SEO
   if (params.slug === 'big-small-worksheets' && params.locale === 'en') {
     return {
@@ -6625,6 +6668,7 @@ export async function generateStaticParams() {
     'association-fiches', // Product page slug (French) - language-specific SEO slug for matching
     'graphisme-fiches', // Product page slug (French) - language-specific SEO slug for drawing-lines
     'bingo-images-fiches', // Product page slug (French) - language-specific SEO slug for picture-bingo
+    'sudoku-enfants-fiches', // Product page slug (French) - language-specific SEO slug for sudoku
     'alphabet-zug-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug
     'malvorlagen-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug
     'mathe-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for math worksheets

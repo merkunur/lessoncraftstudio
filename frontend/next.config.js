@@ -522,6 +522,12 @@ const nextConfig = {
         destination: '/fr/apps/dessin-quadrillage-fiches',
         permanent: true,
       },
+      // French: find-objects-worksheets → cherche-objets-fiches
+      {
+        source: '/fr/apps/find-objects-worksheets',
+        destination: '/fr/apps/cherche-objets-fiches',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

@@ -129,6 +129,7 @@ import bigSmallFrContent from '@/content/product-pages/fr/big-small-worksheets';
 import chartCountFrContent from '@/content/product-pages/fr/chart-count-worksheets';
 import codeAdditionFrContent from '@/content/product-pages/fr/code-addition-worksheets';
 import drawAndColorFrContent from '@/content/product-pages/fr/draw-and-color-worksheets';
+import findObjectsFrContent from '@/content/product-pages/fr/find-objects-worksheets';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -509,6 +510,10 @@ export const contentRegistry: ContentRegistry = {
     'dessin-quadrillage-fiches': drawAndColorFrContent,
     // Also keep old slug for backwards compatibility during transition
     'draw-and-color-worksheets': drawAndColorFrContent,
+    // French Find Objects - uses French SEO slug
+    'cherche-objets-fiches': findObjectsFrContent,
+    // Also keep old slug for backwards compatibility during transition
+    'find-objects-worksheets': findObjectsFrContent,
   },
 };
 

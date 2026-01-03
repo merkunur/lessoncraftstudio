@@ -194,6 +194,8 @@ export const productPageSlugs: AppSlugConfig[] = [
     slugs: {
       en: 'find-objects-worksheets',
       sv: 'hitta-foremal-arbetsblad',
+      de: 'suchbilder-arbeitsblaetter',
+      fr: 'cherche-objets-fiches',
     },
   },
   {

@@ -142,6 +142,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       en: 'picture-bingo-worksheets',
       sv: 'bildlotto-arbetsblad',
       de: 'bilder-bingo-arbeitsblaetter',
+      fr: 'bingo-images-fiches',
     },
   },
   {

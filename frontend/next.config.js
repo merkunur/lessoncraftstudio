@@ -492,6 +492,12 @@ const nextConfig = {
         destination: '/fr/apps/graphisme-fiches',
         permanent: true,
       },
+      // French: picture-bingo-worksheets → bingo-images-fiches
+      {
+        source: '/fr/apps/picture-bingo-worksheets',
+        destination: '/fr/apps/bingo-images-fiches',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

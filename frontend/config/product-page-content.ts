@@ -123,6 +123,7 @@ import wordScrambleFrContent from '@/content/product-pages/fr/word-scramble-work
 import findAndCountFrContent from '@/content/product-pages/fr/find-and-count-worksheets';
 import matchingFrContent from '@/content/product-pages/fr/matching-worksheets';
 import drawingLinesFrContent from '@/content/product-pages/fr/drawing-lines-worksheets';
+import pictureBingoFrContent from '@/content/product-pages/fr/picture-bingo-worksheets';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -481,6 +482,10 @@ export const contentRegistry: ContentRegistry = {
     'graphisme-fiches': drawingLinesFrContent,
     // Also keep old slug for backwards compatibility during transition
     'drawing-lines-worksheets': drawingLinesFrContent,
+    // French Picture Bingo - uses French SEO slug
+    'bingo-images-fiches': pictureBingoFrContent,
+    // Also keep old slug for backwards compatibility during transition
+    'picture-bingo-worksheets': pictureBingoFrContent,
   },
 };
 

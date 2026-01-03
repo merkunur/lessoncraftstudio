@@ -87,6 +87,7 @@ import coloringFrContent from '@/content/product-pages/fr/coloring-worksheets';
 import findAndCountFrContent from '@/content/product-pages/fr/find-and-count-worksheets';
 import matchingFrContent from '@/content/product-pages/fr/matching-worksheets';
 import drawingLinesFrContent from '@/content/product-pages/fr/drawing-lines-worksheets';
+import pictureBingoFrContent from '@/content/product-pages/fr/picture-bingo-worksheets';
 
 interface PageProps {
   params: {
@@ -1151,6 +1152,51 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
         url: 'https://www.lessoncraftstudio.com/fr/apps/graphisme-fiches',
         siteName: 'LessonCraftStudio',
         type: 'website',
+      },
+    };
+  }
+
+  // French Picture Bingo product page SEO (new French slug)
+  if (params.slug === 'bingo-images-fiches' && params.locale === 'fr') {
+    return {
+      title: 'Générateur de Cartes Bingo Illustrées | Fiches Maternelle à Imprimer Gratuit et Exercices CP CE1',
+      description: 'Créez des cartes bingo professionnelles avec notre générateur de fiches à imprimer gratuit. Votre abonnement Pack Essentiel vous offre une création illimitée de fiches maternelle sans frais supplémentaires par fiche. Téléchargez vos fiches de qualité professionnelle en PDF ou JPEG en moins de 3 minutes.',
+      keywords: 'bingo images, cartes bingo, fiches maternelle, fiches à imprimer gratuit, exercices CP, exercices CE1, graphisme maternelle, jeux éducatifs, bingo alphabet, bingo maths, apprendre à lire',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/fr/apps/bingo-images-fiches',
+        languages: {
+          'en': 'https://www.lessoncraftstudio.com/en/apps/picture-bingo-worksheets',
+          'sv': 'https://www.lessoncraftstudio.com/sv/apps/bildlotto-arbetsblad',
+          'de': 'https://www.lessoncraftstudio.com/de/apps/bilder-bingo-arbeitsblaetter',
+          'fr': 'https://www.lessoncraftstudio.com/fr/apps/bingo-images-fiches',
+          'x-default': 'https://www.lessoncraftstudio.com/en/apps/picture-bingo-worksheets',
+        },
+      },
+      openGraph: {
+        title: 'Générateur de Cartes Bingo Illustrées | LessonCraftStudio',
+        description: 'Créez des cartes bingo professionnelles avec notre générateur de fiches à imprimer gratuit. Parfait pour les enseignants de maternelle et du primaire.',
+        url: 'https://www.lessoncraftstudio.com/fr/apps/bingo-images-fiches',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Legacy: Redirect old French picture-bingo-worksheets slug to new slug (for backwards compatibility)
+  if (params.slug === 'picture-bingo-worksheets' && params.locale === 'fr') {
+    return {
+      title: 'Générateur de Cartes Bingo Illustrées | LessonCraftStudio',
+      description: 'Créez des cartes bingo professionnelles avec notre générateur de fiches à imprimer gratuit.',
+      robots: {
+        index: false, // Don't index old URL
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/fr/apps/bingo-images-fiches', // Point to new URL
       },
     };
   }
@@ -6578,6 +6624,7 @@ export async function generateStaticParams() {
     'mots-melanges-fiches', // Product page slug (French) - language-specific SEO slug for word-scramble
     'association-fiches', // Product page slug (French) - language-specific SEO slug for matching
     'graphisme-fiches', // Product page slug (French) - language-specific SEO slug for drawing-lines
+    'bingo-images-fiches', // Product page slug (French) - language-specific SEO slug for picture-bingo
     'alphabet-zug-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug
     'malvorlagen-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug
     'mathe-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for math worksheets

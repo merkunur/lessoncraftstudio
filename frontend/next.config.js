@@ -540,6 +540,12 @@ const nextConfig = {
         destination: '/fr/apps/mots-croises-images-fiches',
         permanent: true,
       },
+      // French: cryptogram-worksheets → cryptogramme-images-fiches
+      {
+        source: '/fr/apps/cryptogram-worksheets',
+        destination: '/fr/apps/cryptogramme-images-fiches',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

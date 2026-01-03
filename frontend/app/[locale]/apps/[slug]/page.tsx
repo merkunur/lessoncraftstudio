@@ -90,6 +90,9 @@ import matchingFrContent from '@/content/product-pages/fr/matching-worksheets';
 import drawingLinesFrContent from '@/content/product-pages/fr/drawing-lines-worksheets';
 import pictureBingoFrContent from '@/content/product-pages/fr/picture-bingo-worksheets';
 import findObjectsFrContent from '@/content/product-pages/fr/find-objects-worksheets';
+import gridMatchFrContent from '@/content/product-pages/fr/grid-match-worksheets';
+import crosswordFrContent from '@/content/product-pages/fr/crossword-worksheets';
+import cryptogramFrContent from '@/content/product-pages/fr/cryptogram-worksheets';
 
 interface PageProps {
   params: {
@@ -1424,6 +1427,51 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       },
       alternates: {
         canonical: 'https://www.lessoncraftstudio.com/fr/apps/mots-croises-images-fiches', // Point to new URL
+      },
+    };
+  }
+
+  // Cryptogram Worksheets - French product page SEO (new French slug)
+  if (params.slug === 'cryptogramme-images-fiches' && params.locale === 'fr') {
+    return {
+      title: 'Cryptogramme en Images | Fiches Maternelle et Exercices CP pour Apprendre à Lire',
+      description: 'Créez des cryptogrammes en images professionnels avec notre générateur de fiches à imprimer gratuit. Votre abonnement Accès Complet à 240 € par an vous permet de générer des fiches maternelle et exercices CP illimités. Téléchargez des fichiers PDF haute qualité en moins de 3 minutes.',
+      keywords: 'cryptogramme en images, fiches maternelle, exercices CP, fiches à imprimer gratuit, apprendre à lire, fiches alphabet, graphisme maternelle, exercices maths, apprendre les lettres, coloriage à imprimer, écriture cursive, tables de multiplication, exercices CE1',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/fr/apps/cryptogramme-images-fiches',
+        languages: {
+          'en': 'https://www.lessoncraftstudio.com/en/apps/cryptogram-worksheets',
+          'sv': 'https://www.lessoncraftstudio.com/sv/apps/bildkryptogram-arbetsblad',
+          'de': 'https://www.lessoncraftstudio.com/de/apps/bildkryptogramm-arbeitsblaetter',
+          'fr': 'https://www.lessoncraftstudio.com/fr/apps/cryptogramme-images-fiches',
+          'x-default': 'https://www.lessoncraftstudio.com/en/apps/cryptogram-worksheets',
+        },
+      },
+      openGraph: {
+        title: 'Cryptogramme en Images | Fiches Maternelle et Exercices CP | LessonCraftStudio',
+        description: 'Créez des cryptogrammes en images professionnels avec notre générateur de fiches maternelle. Parfait pour les enseignants de maternelle, CP et CE1.',
+        url: 'https://www.lessoncraftstudio.com/fr/apps/cryptogramme-images-fiches',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Legacy: Redirect old French cryptogram-worksheets slug to new slug (for backwards compatibility)
+  if (params.slug === 'cryptogram-worksheets' && params.locale === 'fr') {
+    return {
+      title: 'Cryptogramme en Images | Fiches Maternelle et Exercices CP',
+      description: 'Créez des cryptogrammes en images professionnels avec notre générateur de fiches maternelle.',
+      robots: {
+        index: false, // Don't index old URL
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/fr/apps/cryptogramme-images-fiches', // Point to new URL
       },
     };
   }
@@ -6909,6 +6957,7 @@ export async function generateStaticParams() {
     'cherche-objets-fiches', // Product page slug (French) - language-specific SEO slug for find-objects
     'puzzle-grille-fiches', // Product page slug (French) - language-specific SEO slug for grid-match
     'mots-croises-images-fiches', // Product page slug (French) - language-specific SEO slug for crossword
+    'cryptogramme-images-fiches', // Product page slug (French) - language-specific SEO slug for cryptogram
     'alphabet-zug-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug
     'malvorlagen-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug
     'mathe-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for math worksheets

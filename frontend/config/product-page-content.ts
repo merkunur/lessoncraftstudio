@@ -132,6 +132,7 @@ import drawAndColorFrContent from '@/content/product-pages/fr/draw-and-color-wor
 import findObjectsFrContent from '@/content/product-pages/fr/find-objects-worksheets';
 import gridMatchFrContent from '@/content/product-pages/fr/grid-match-worksheets';
 import crosswordFrContent from '@/content/product-pages/fr/crossword-worksheets';
+import cryptogramFrContent from '@/content/product-pages/fr/cryptogram-worksheets';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -524,6 +525,10 @@ export const contentRegistry: ContentRegistry = {
     'mots-croises-images-fiches': crosswordFrContent,
     // Also keep old slug for backwards compatibility during transition
     'crossword-worksheets': crosswordFrContent,
+    // French Cryptogram - uses French SEO slug
+    'cryptogramme-images-fiches': cryptogramFrContent,
+    // Also keep old slug for backwards compatibility during transition
+    'cryptogram-worksheets': cryptogramFrContent,
   },
 };
 

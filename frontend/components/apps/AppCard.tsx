@@ -134,6 +134,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     en: 'draw-and-color-worksheets',
     sv: 'rutritning-arbetsblad',
     de: 'rasterzeichnen-arbeitsblaetter',
+    fr: 'dessin-quadrillage-fiches',
   },
   'find-objects': {
     en: 'find-objects-worksheets',

@@ -128,6 +128,7 @@ import sudokuFrContent from '@/content/product-pages/fr/sudoku-worksheets';
 import bigSmallFrContent from '@/content/product-pages/fr/big-small-worksheets';
 import chartCountFrContent from '@/content/product-pages/fr/chart-count-worksheets';
 import codeAdditionFrContent from '@/content/product-pages/fr/code-addition-worksheets';
+import drawAndColorFrContent from '@/content/product-pages/fr/draw-and-color-worksheets';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -504,6 +505,10 @@ export const contentRegistry: ContentRegistry = {
     'addition-codee-fiches': codeAdditionFrContent,
     // Also keep old slug for backwards compatibility during transition
     'code-addition-worksheets': codeAdditionFrContent,
+    // French Draw and Color - uses French SEO slug
+    'dessin-quadrillage-fiches': drawAndColorFrContent,
+    // Also keep old slug for backwards compatibility during transition
+    'draw-and-color-worksheets': drawAndColorFrContent,
   },
 };
 

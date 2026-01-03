@@ -516,6 +516,12 @@ const nextConfig = {
         destination: '/fr/apps/addition-codee-fiches',
         permanent: true,
       },
+      // French: draw-and-color-worksheets → dessin-quadrillage-fiches
+      {
+        source: '/fr/apps/draw-and-color-worksheets',
+        destination: '/fr/apps/dessin-quadrillage-fiches',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

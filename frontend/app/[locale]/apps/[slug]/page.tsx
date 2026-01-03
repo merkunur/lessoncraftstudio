@@ -1292,6 +1292,51 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     };
   }
 
+  // Draw and Color (Grid Drawing) - French product page SEO (new French slug)
+  if (params.slug === 'dessin-quadrillage-fiches' && params.locale === 'fr') {
+    return {
+      title: 'Coloriage à Imprimer sur Quadrillage | Fiches Maternelle et Exercices CP',
+      description: 'Créez des fiches de dessin sur quadrillage professionnelles avec notre générateur spécialisé. Générez des fiches maternelle personnalisées parfaites pour les élèves de maternelle et CP. Téléchargez des fiches à imprimer gratuit en PDF haute qualité 300 DPI en moins de 3 minutes.',
+      keywords: 'coloriage à imprimer, dessin quadrillage, fiches maternelle, exercices CP, graphisme maternelle, fiches à imprimer gratuit, exercices CE1, apprendre à lire, écriture cursive, tables de multiplication',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/fr/apps/dessin-quadrillage-fiches',
+        languages: {
+          'en': 'https://www.lessoncraftstudio.com/en/apps/draw-and-color-worksheets',
+          'sv': 'https://www.lessoncraftstudio.com/sv/apps/rutritning-arbetsblad',
+          'de': 'https://www.lessoncraftstudio.com/de/apps/rasterzeichnen-arbeitsblaetter',
+          'fr': 'https://www.lessoncraftstudio.com/fr/apps/dessin-quadrillage-fiches',
+          'x-default': 'https://www.lessoncraftstudio.com/en/apps/draw-and-color-worksheets',
+        },
+      },
+      openGraph: {
+        title: 'Coloriage à Imprimer sur Quadrillage | LessonCraftStudio',
+        description: 'Créez des fiches de dessin sur quadrillage professionnelles. Parfait pour les exercices CP et fiches maternelle.',
+        url: 'https://www.lessoncraftstudio.com/fr/apps/dessin-quadrillage-fiches',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Legacy: Redirect old French draw-and-color-worksheets slug to new slug (for backwards compatibility)
+  if (params.slug === 'draw-and-color-worksheets' && params.locale === 'fr') {
+    return {
+      title: 'Coloriage à Imprimer sur Quadrillage | LessonCraftStudio',
+      description: 'Créez des fiches de dessin sur quadrillage professionnelles avec notre générateur spécialisé.',
+      robots: {
+        index: false, // Don't index old URL
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/fr/apps/dessin-quadrillage-fiches', // Point to new URL
+      },
+    };
+  }
+
   // Missing Pieces Worksheets - German product page SEO (new German slug)
   if (params.slug === 'fehlende-puzzleteile-arbeitsblaetter' && params.locale === 'de') {
     return {
@@ -6450,6 +6495,9 @@ const seoRedirects: { [locale: string]: { [englishSlug: string]: string } } = {
     'sudoku-worksheets': 'bildsudoku-arbetsblad',
     'draw-and-color-worksheets': 'rutritning-arbetsblad',
   },
+  fr: {
+    'draw-and-color-worksheets': 'dessin-quadrillage-fiches',
+  },
   // Add more languages as they get localized slugs:
   // de: { 'word-search-worksheets': 'wortsuche-arbeitsblaetter' },
 };
@@ -6760,6 +6808,7 @@ export async function generateStaticParams() {
     'sudoku-enfants-fiches', // Product page slug (French) - language-specific SEO slug for sudoku
     'grand-petit-fiches', // Product page slug (French) - language-specific SEO slug for big-small
     'graphique-images-fiches', // Product page slug (French) - language-specific SEO slug for chart-count
+    'dessin-quadrillage-fiches', // Product page slug (French) - language-specific SEO slug for draw-and-color
     'alphabet-zug-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug
     'malvorlagen-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug
     'mathe-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for math worksheets

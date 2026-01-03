@@ -186,6 +186,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       en: 'draw-and-color-worksheets',
       sv: 'rutritning-arbetsblad',
       de: 'rasterzeichnen-arbeitsblaetter',
+      fr: 'dessin-quadrillage-fiches',
     },
   },
   {

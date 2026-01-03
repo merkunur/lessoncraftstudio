@@ -95,6 +95,7 @@ import crosswordFrContent from '@/content/product-pages/fr/crossword-worksheets'
 import cryptogramFrContent from '@/content/product-pages/fr/cryptogram-worksheets';
 import missingPiecesFrContent from '@/content/product-pages/fr/missing-pieces-worksheets';
 import moreLessFrContent from '@/content/product-pages/fr/more-less-worksheets';
+import oddOneOutFrContent from '@/content/product-pages/fr/odd-one-out-worksheets';
 
 interface PageProps {
   params: {

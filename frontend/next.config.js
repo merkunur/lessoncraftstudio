@@ -552,6 +552,12 @@ const nextConfig = {
         destination: '/fr/apps/pieces-manquantes-fiches',
         permanent: true,
       },
+      // French: odd-one-out-worksheets → intrus-fiches
+      {
+        source: '/fr/apps/odd-one-out-worksheets',
+        destination: '/fr/apps/intrus-fiches',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

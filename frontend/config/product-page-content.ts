@@ -135,6 +135,7 @@ import crosswordFrContent from '@/content/product-pages/fr/crossword-worksheets'
 import cryptogramFrContent from '@/content/product-pages/fr/cryptogram-worksheets';
 import missingPiecesFrContent from '@/content/product-pages/fr/missing-pieces-worksheets';
 import moreLessFrContent from '@/content/product-pages/fr/more-less-worksheets';
+import oddOneOutFrContent from '@/content/product-pages/fr/odd-one-out-worksheets';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -539,6 +540,10 @@ export const contentRegistry: ContentRegistry = {
     'comparaison-quantites-fiches': moreLessFrContent,
     // Also keep old slug for backwards compatibility during transition
     'more-less-worksheets': moreLessFrContent,
+    // French Odd One Out - uses French SEO slug
+    'intrus-fiches': oddOneOutFrContent,
+    // Also keep old slug for backwards compatibility during transition
+    'odd-one-out-worksheets': oddOneOutFrContent,
   },
 };
 

@@ -130,6 +130,7 @@ import chartCountFrContent from '@/content/product-pages/fr/chart-count-workshee
 import codeAdditionFrContent from '@/content/product-pages/fr/code-addition-worksheets';
 import drawAndColorFrContent from '@/content/product-pages/fr/draw-and-color-worksheets';
 import findObjectsFrContent from '@/content/product-pages/fr/find-objects-worksheets';
+import gridMatchFrContent from '@/content/product-pages/fr/grid-match-worksheets';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -514,6 +515,10 @@ export const contentRegistry: ContentRegistry = {
     'cherche-objets-fiches': findObjectsFrContent,
     // Also keep old slug for backwards compatibility during transition
     'find-objects-worksheets': findObjectsFrContent,
+    // French Grid Match - uses French SEO slug
+    'puzzle-grille-fiches': gridMatchFrContent,
+    // Also keep old slug for backwards compatibility during transition
+    'grid-match-worksheets': gridMatchFrContent,
   },
 };
 

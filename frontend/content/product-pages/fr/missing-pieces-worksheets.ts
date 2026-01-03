@@ -167,6 +167,12 @@ Téléchargez vos fiches en format JPEG ou PDF. L'option niveau de gris permet d
     sectionTitle: 'Comment Créer des Fiches Maternelle Pièces Manquantes en 5 Étapes Simples - Exercices CP et CE1',
     sectionDescription: 'Créer des puzzles éducatifs professionnels prend moins de 3 minutes avec notre générateur. Suivez ces 5 étapes simples pour produire des fiches maternelle de haute qualité. Chaque étape est conçue pour être intuitive et rapide. Les enseignants créent des exercices CP sans formation préalable. Le processus guidé garantit des résultats professionnels à chaque fois. Vos fiches à imprimer gratuit sont prêtes en quelques clics seulement.',
     ctaText: 'Commencer à Créer',
+    badgeText: 'Guide Étape par Étape',
+    stepLabel: 'Étape',
+    completionTitle: 'Terminé !',
+    completionSubtitle: 'Votre fiche est prête',
+    readyTime: 'Prêt en moins de 3 minutes',
+    noSkillsNeeded: 'Aucune compétence en design requise',
     readMoreLabel: 'Lire la suite',
     showLessLabel: 'Voir moins',
     steps: [
@@ -212,6 +218,9 @@ Téléchargez vos fiches en format JPEG ou PDF. L'option niveau de gris permet d
   useCases: {
     sectionTitle: 'Fiches Maternelle pour Enseignants et Parents - Exercices CP, Coloriage et Graphisme pour Tous les Besoins',
     sectionDescription: 'Les puzzles de pièces manquantes conviennent à de nombreux contextes éducatifs différents. Enseignants de maternelle, professeurs de CP et CE1, parents en instruction à domicile. Chaque groupe trouve des applications uniques pour ces fiches à imprimer gratuit. Les exercices s\'adaptent facilement à différents objectifs pédagogiques. Découvrez comment intégrer ces outils dans votre pratique éducative quotidienne.',
+    badgeText: 'Cas d\'Utilisation',
+    readMoreLabel: 'Lire la suite',
+    showLessLabel: 'Voir moins',
     items: [
       {
         id: '1',
@@ -270,6 +279,11 @@ Téléchargez vos fiches en format JPEG ou PDF. L'option niveau de gris permet d
     sectionDescription: 'Les enseignants et parents posent régulièrement les mêmes questions sur le générateur. Nous avons rassemblé les réponses aux interrogations les plus courantes. Découvrez tout ce que vous devez savoir sur les fiches maternelle de pièces manquantes. Ces informations vous aident à décider si Accès Complet convient à vos besoins.',
     showMoreText: 'Afficher plus de questions',
     showLessText: 'Voir moins',
+    badgeText: 'FAQ',
+    readMoreLabel: 'Lire la suite',
+    showLessLabel: 'Voir moins',
+    secureCheckout: 'Paiement sécurisé',
+    cancelAnytime: 'Résiliez à tout moment',
     items: [
       {
         id: '1',
@@ -360,6 +374,13 @@ Téléchargez vos fiches en format JPEG ou PDF. L'option niveau de gris permet d
     ctaDescription: 'Rejoignez les éducateurs qui créent des fiches professionnelles. Génération illimitée, licence commerciale incluse.',
     primaryCtaText: 'Commencer l\'Essai Gratuit',
     secondaryCtaText: 'Voir les 33 Applications',
+    badgeText: 'Fonctionne Parfaitement Avec',
+    exploreText: 'Explorer toutes les applications',
+    trustBadges: {
+      guarantee: 'Garantie satisfait ou remboursé 30 jours',
+      securePayment: 'Paiement sécurisé',
+      cancelAnytime: 'Résiliez à tout moment',
+    },
     items: [
       {
         id: '1',

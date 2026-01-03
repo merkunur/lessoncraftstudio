@@ -468,6 +468,18 @@ const nextConfig = {
         destination: '/fr/apps/exercices-maths-fiches',
         permanent: true,
       },
+      // French: find-and-count-worksheets → cherche-et-compte-fiches
+      {
+        source: '/fr/apps/find-and-count-worksheets',
+        destination: '/fr/apps/cherche-et-compte-fiches',
+        permanent: true,
+      },
+      // French: word-scramble-worksheets → mots-melanges-fiches
+      {
+        source: '/fr/apps/word-scramble-worksheets',
+        destination: '/fr/apps/mots-melanges-fiches',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

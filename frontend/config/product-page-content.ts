@@ -120,6 +120,7 @@ import coloringFrContent from '@/content/product-pages/fr/coloring-worksheets';
 import mathPuzzleFrContent from '@/content/product-pages/fr/math-puzzle-worksheets';
 import mathWorksheetsFrContent from '@/content/product-pages/fr/math-worksheets';
 import wordScrambleFrContent from '@/content/product-pages/fr/word-scramble-worksheets';
+import findAndCountFrContent from '@/content/product-pages/fr/find-and-count-worksheets';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -466,6 +467,10 @@ export const contentRegistry: ContentRegistry = {
     'mots-melanges-fiches': wordScrambleFrContent,
     // Also keep old slug for backwards compatibility during transition
     'word-scramble-worksheets': wordScrambleFrContent,
+    // French Find and Count - uses French SEO slug
+    'cherche-et-compte-fiches': findAndCountFrContent,
+    // Also keep old slug for backwards compatibility during transition
+    'find-and-count-worksheets': findAndCountFrContent,
   },
 };
 

@@ -84,6 +84,7 @@ import wordSearchFrContent from '@/content/product-pages/fr/word-search-workshee
 import additionFrContent from '@/content/product-pages/fr/addition-worksheets';
 import alphabetTrainFrContent from '@/content/product-pages/fr/alphabet-train-worksheets';
 import coloringFrContent from '@/content/product-pages/fr/coloring-worksheets';
+import findAndCountFrContent from '@/content/product-pages/fr/find-and-count-worksheets';
 
 interface PageProps {
   params: {
@@ -1028,6 +1029,51 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       },
       alternates: {
         canonical: 'https://www.lessoncraftstudio.com/fr/apps/exercices-maths-fiches', // Point to new URL
+      },
+    };
+  }
+
+  // Find and Count Worksheets - French product page SEO (new French slug)
+  if (params.slug === 'cherche-et-compte-fiches' && params.locale === 'fr') {
+    return {
+      title: 'Fiches Cherche et Compte à Imprimer Gratuit | Générateur de Fiches Maternelle et Exercices CP',
+      description: 'Créez des fiches de cherche et compte personnalisées avec notre générateur professionnel. Parfait pour les enseignants de maternelle, CP et CE1. Téléchargez des PDF haute qualité en moins de 3 minutes.',
+      keywords: 'fiches cherche et compte, fiches maternelle, fiches à imprimer gratuit, exercices CP, exercices CE1, graphisme maternelle, coloriage à imprimer, apprendre à compter, dénombrement, générateur fiches',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/fr/apps/cherche-et-compte-fiches',
+        languages: {
+          'en': 'https://www.lessoncraftstudio.com/en/apps/find-and-count-worksheets',
+          'sv': 'https://www.lessoncraftstudio.com/sv/apps/hitta-och-rakna-arbetsblad',
+          'de': 'https://www.lessoncraftstudio.com/de/apps/suchen-und-zaehlen-arbeitsblaetter',
+          'fr': 'https://www.lessoncraftstudio.com/fr/apps/cherche-et-compte-fiches',
+          'x-default': 'https://www.lessoncraftstudio.com/en/apps/find-and-count-worksheets',
+        },
+      },
+      openGraph: {
+        title: 'Fiches Cherche et Compte à Imprimer Gratuit | LessonCraftStudio',
+        description: 'Créez des fiches de cherche et compte personnalisées avec notre générateur professionnel. Parfait pour les enseignants de maternelle, CP et CE1.',
+        url: 'https://www.lessoncraftstudio.com/fr/apps/cherche-et-compte-fiches',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Legacy: Redirect old French find-and-count-worksheets slug to new slug (for backwards compatibility)
+  if (params.slug === 'find-and-count-worksheets' && params.locale === 'fr') {
+    return {
+      title: 'Fiches Cherche et Compte à Imprimer Gratuit - Générateur de Fiches Maternelle',
+      description: 'Créez des fiches de cherche et compte personnalisées avec notre générateur professionnel.',
+      robots: {
+        index: false, // Don't index old URL
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/fr/apps/cherche-et-compte-fiches', // Point to new URL
       },
     };
   }
@@ -6436,6 +6482,8 @@ export async function generateStaticParams() {
     'coloriage-fiches', // Product page slug (French) - language-specific SEO slug for coloring
     'puzzle-maths-fiches', // Product page slug (French) - language-specific SEO slug for math-puzzle
     'exercices-maths-fiches', // Product page slug (French) - language-specific SEO slug for math-worksheet
+    'cherche-et-compte-fiches', // Product page slug (French) - language-specific SEO slug for find-and-count
+    'mots-melanges-fiches', // Product page slug (French) - language-specific SEO slug for word-scramble
     'alphabet-zug-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug
     'malvorlagen-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug
     'mathe-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for math worksheets

@@ -89,6 +89,7 @@ import findAndCountFrContent from '@/content/product-pages/fr/find-and-count-wor
 import matchingFrContent from '@/content/product-pages/fr/matching-worksheets';
 import drawingLinesFrContent from '@/content/product-pages/fr/drawing-lines-worksheets';
 import pictureBingoFrContent from '@/content/product-pages/fr/picture-bingo-worksheets';
+import findObjectsFrContent from '@/content/product-pages/fr/find-objects-worksheets';
 
 interface PageProps {
   params: {
@@ -1333,6 +1334,51 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       },
       alternates: {
         canonical: 'https://www.lessoncraftstudio.com/fr/apps/dessin-quadrillage-fiches', // Point to new URL
+      },
+    };
+  }
+
+  // Find Objects Worksheets - French product page SEO (new French slug)
+  if (params.slug === 'cherche-objets-fiches' && params.locale === 'fr') {
+    return {
+      title: 'Fiches à Imprimer Gratuit | Générateur de Fiches Maternelle pour Apprendre à Lire',
+      description: 'Créez des fiches professionnelles de discrimination visuelle avec notre générateur. Votre abonnement Full Access vous donne un accès illimité. Téléchargez des PDF haute qualité en moins de 3 minutes.',
+      keywords: 'fiches à imprimer gratuit, fiches maternelle, exercices CP, discrimination visuelle, je vois, intrus, graphisme maternelle, coloriage à imprimer, apprendre à lire, alphabet',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/fr/apps/cherche-objets-fiches',
+        languages: {
+          'en': 'https://www.lessoncraftstudio.com/en/apps/find-objects-worksheets',
+          'sv': 'https://www.lessoncraftstudio.com/sv/apps/hitta-foremal-arbetsblad',
+          'de': 'https://www.lessoncraftstudio.com/de/apps/suchbilder-arbeitsblaetter',
+          'fr': 'https://www.lessoncraftstudio.com/fr/apps/cherche-objets-fiches',
+          'x-default': 'https://www.lessoncraftstudio.com/en/apps/find-objects-worksheets',
+        },
+      },
+      openGraph: {
+        title: 'Fiches Cherche les Objets | LessonCraftStudio',
+        description: 'Créez des fiches de discrimination visuelle professionnelles. Parfait pour les exercices CP et fiches maternelle.',
+        url: 'https://www.lessoncraftstudio.com/fr/apps/cherche-objets-fiches',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Legacy: Redirect old French find-objects-worksheets slug to new slug (for backwards compatibility)
+  if (params.slug === 'find-objects-worksheets' && params.locale === 'fr') {
+    return {
+      title: 'Fiches Cherche les Objets | LessonCraftStudio',
+      description: 'Créez des fiches de discrimination visuelle professionnelles avec notre générateur spécialisé.',
+      robots: {
+        index: false, // Don't index old URL
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/fr/apps/cherche-objets-fiches', // Point to new URL
       },
     };
   }
@@ -6497,6 +6543,7 @@ const seoRedirects: { [locale: string]: { [englishSlug: string]: string } } = {
   },
   fr: {
     'draw-and-color-worksheets': 'dessin-quadrillage-fiches',
+    'find-objects-worksheets': 'cherche-objets-fiches',
   },
   // Add more languages as they get localized slugs:
   // de: { 'word-search-worksheets': 'wortsuche-arbeitsblaetter' },
@@ -6709,7 +6756,10 @@ export default async function AppPage({ params: { locale, slug } }: PageProps) {
     'prepositions': 'prepositions.html'
   };
   
-  const sourceFile = appData.sourceFile || htmlFileMap[slug] || `${slug}.html`;
+  // Use appId (not SEO slug) to look up HTML filename - SEO slugs like 'cherche-objets-fiches'
+  // need to map back to appId 'find-objects' to find 'find objects.html'
+  const actualAppId = appData.appId || slug;
+  const sourceFile = appData.sourceFile || htmlFileMap[actualAppId] || `${actualAppId}.html`;
   const componentName = appData.componentName || slug;
   const appTier = appData.requiredTier || 'core';
   // Ensure features is always an array
@@ -6809,6 +6859,7 @@ export async function generateStaticParams() {
     'grand-petit-fiches', // Product page slug (French) - language-specific SEO slug for big-small
     'graphique-images-fiches', // Product page slug (French) - language-specific SEO slug for chart-count
     'dessin-quadrillage-fiches', // Product page slug (French) - language-specific SEO slug for draw-and-color
+    'cherche-objets-fiches', // Product page slug (French) - language-specific SEO slug for find-objects
     'alphabet-zug-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug
     'malvorlagen-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug
     'mathe-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for math worksheets

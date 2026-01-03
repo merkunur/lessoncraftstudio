@@ -121,6 +121,7 @@ import mathPuzzleFrContent from '@/content/product-pages/fr/math-puzzle-workshee
 import mathWorksheetsFrContent from '@/content/product-pages/fr/math-worksheets';
 import wordScrambleFrContent from '@/content/product-pages/fr/word-scramble-worksheets';
 import findAndCountFrContent from '@/content/product-pages/fr/find-and-count-worksheets';
+import matchingFrContent from '@/content/product-pages/fr/matching-worksheets';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -471,6 +472,10 @@ export const contentRegistry: ContentRegistry = {
     'cherche-et-compte-fiches': findAndCountFrContent,
     // Also keep old slug for backwards compatibility during transition
     'find-and-count-worksheets': findAndCountFrContent,
+    // French Matching - uses French SEO slug
+    'association-fiches': matchingFrContent,
+    // Also keep old slug for backwards compatibility during transition
+    'matching-worksheets': matchingFrContent,
   },
 };
 

@@ -480,6 +480,12 @@ const nextConfig = {
         destination: '/fr/apps/mots-melanges-fiches',
         permanent: true,
       },
+      // French: matching-worksheets → association-fiches
+      {
+        source: '/fr/apps/matching-worksheets',
+        destination: '/fr/apps/association-fiches',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

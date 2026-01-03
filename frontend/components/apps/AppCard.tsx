@@ -93,6 +93,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     en: 'matching-worksheets',
     sv: 'matchnings-arbetsblad',
     de: 'zuordnungs-arbeitsblaetter',
+    fr: 'association-fiches',
   },
   'drawing-lines': {
     en: 'drawing-lines-worksheets',

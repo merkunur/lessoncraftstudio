@@ -85,6 +85,7 @@ import additionFrContent from '@/content/product-pages/fr/addition-worksheets';
 import alphabetTrainFrContent from '@/content/product-pages/fr/alphabet-train-worksheets';
 import coloringFrContent from '@/content/product-pages/fr/coloring-worksheets';
 import findAndCountFrContent from '@/content/product-pages/fr/find-and-count-worksheets';
+import matchingFrContent from '@/content/product-pages/fr/matching-worksheets';
 
 interface PageProps {
   params: {
@@ -1074,6 +1075,51 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       },
       alternates: {
         canonical: 'https://www.lessoncraftstudio.com/fr/apps/cherche-et-compte-fiches', // Point to new URL
+      },
+    };
+  }
+
+  // Matching Worksheets - French product page SEO (new French slug)
+  if (params.slug === 'association-fiches' && params.locale === 'fr') {
+    return {
+      title: 'Fiches d\'Association | Fiches Maternelle et Exercices CP pour Apprendre à Lire',
+      description: 'Créez des fiches d\'association professionnelles avec notre générateur MatchUp Maker. Parfait pour les enseignants de maternelle, CP et CE1. Téléchargez des PDF haute qualité en moins de 3 minutes.',
+      keywords: 'fiches association, fiches maternelle, exercices CP, fiches à imprimer gratuit, apprendre à lire, fiches alphabet, graphisme maternelle, exercices maths, apprendre les lettres, coloriage à imprimer, écriture cursive, tables de multiplication',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/fr/apps/association-fiches',
+        languages: {
+          'en': 'https://www.lessoncraftstudio.com/en/apps/matching-worksheets',
+          'sv': 'https://www.lessoncraftstudio.com/sv/apps/matchnings-arbetsblad',
+          'de': 'https://www.lessoncraftstudio.com/de/apps/zuordnungs-arbeitsblaetter',
+          'fr': 'https://www.lessoncraftstudio.com/fr/apps/association-fiches',
+          'x-default': 'https://www.lessoncraftstudio.com/en/apps/matching-worksheets',
+        },
+      },
+      openGraph: {
+        title: 'Fiches d\'Association | LessonCraftStudio',
+        description: 'Créez des fiches d\'association professionnelles avec notre générateur MatchUp Maker. Parfait pour les enseignants de maternelle, CP et CE1.',
+        url: 'https://www.lessoncraftstudio.com/fr/apps/association-fiches',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Legacy: Redirect old French matching-worksheets slug to new slug (for backwards compatibility)
+  if (params.slug === 'matching-worksheets' && params.locale === 'fr') {
+    return {
+      title: 'Fiches d\'Association - Générateur de Fiches Maternelle',
+      description: 'Créez des fiches d\'association professionnelles avec notre générateur MatchUp Maker.',
+      robots: {
+        index: false, // Don't index old URL
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/fr/apps/association-fiches', // Point to new URL
       },
     };
   }
@@ -6484,6 +6530,7 @@ export async function generateStaticParams() {
     'exercices-maths-fiches', // Product page slug (French) - language-specific SEO slug for math-worksheet
     'cherche-et-compte-fiches', // Product page slug (French) - language-specific SEO slug for find-and-count
     'mots-melanges-fiches', // Product page slug (French) - language-specific SEO slug for word-scramble
+    'association-fiches', // Product page slug (French) - language-specific SEO slug for matching
     'alphabet-zug-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug
     'malvorlagen-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug
     'mathe-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for math worksheets

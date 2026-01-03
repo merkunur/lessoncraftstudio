@@ -108,6 +108,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       en: 'word-scramble-worksheets',
       sv: 'ordpussel-arbetsblad',
       de: 'buchstabensalat-arbeitsblaetter',
+      fr: 'mots-melanges-fiches',
     },
   },
   {

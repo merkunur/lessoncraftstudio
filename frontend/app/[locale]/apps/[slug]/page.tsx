@@ -987,6 +987,51 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     };
   }
 
+  // Math Worksheets - French product page SEO (new French slug)
+  if (params.slug === 'exercices-maths-fiches' && params.locale === 'fr') {
+    return {
+      title: 'Exercices Maths à Imprimer | Générateur de Fiches Maternelle CP CE1',
+      description: 'Créez des exercices maths avec notre générateur de fiches maternelle. Fiches à imprimer gratuit pour CP et CE1. Puzzles de décodage visuels. PDF 300 DPI. Licence commerciale incluse.',
+      keywords: 'exercices maths, fiches maternelle, fiches à imprimer gratuit, exercices CP, exercices CE1, générateur fiches maths, puzzles mathématiques, calcul maternelle, graphisme maternelle, tables de multiplication',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/fr/apps/exercices-maths-fiches',
+        languages: {
+          'en': 'https://www.lessoncraftstudio.com/en/apps/math-worksheets',
+          'sv': 'https://www.lessoncraftstudio.com/sv/apps/matematik-arbetsblad',
+          'de': 'https://www.lessoncraftstudio.com/de/apps/mathe-arbeitsblaetter',
+          'fr': 'https://www.lessoncraftstudio.com/fr/apps/exercices-maths-fiches',
+          'x-default': 'https://www.lessoncraftstudio.com/en/apps/math-worksheets',
+        },
+      },
+      openGraph: {
+        title: 'Exercices Maths à Imprimer | LessonCraftStudio',
+        description: 'Créez des exercices maths avec notre générateur de fiches maternelle. Fiches à imprimer gratuit pour CP et CE1.',
+        url: 'https://www.lessoncraftstudio.com/fr/apps/exercices-maths-fiches',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Math Worksheets - French legacy redirect (old English slug in French locale)
+  if (params.slug === 'math-worksheets' && params.locale === 'fr') {
+    return {
+      title: 'Exercices Maths à Imprimer | LessonCraftStudio',
+      description: 'Page déplacée. Veuillez visiter la nouvelle URL.',
+      robots: {
+        index: false, // Don't index old URL
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/fr/apps/exercices-maths-fiches', // Point to new URL
+      },
+    };
+  }
+
   // Missing Pieces Worksheets - German product page SEO (new German slug)
   if (params.slug === 'fehlende-puzzleteile-arbeitsblaetter' && params.locale === 'de') {
     return {
@@ -6390,6 +6435,7 @@ export async function generateStaticParams() {
     'train-alphabet-fiches', // Product page slug (French) - language-specific SEO slug
     'coloriage-fiches', // Product page slug (French) - language-specific SEO slug for coloring
     'puzzle-maths-fiches', // Product page slug (French) - language-specific SEO slug for math-puzzle
+    'exercices-maths-fiches', // Product page slug (French) - language-specific SEO slug for math-worksheet
     'alphabet-zug-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug
     'malvorlagen-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug
     'mathe-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for math worksheets

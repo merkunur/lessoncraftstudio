@@ -99,6 +99,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       en: 'math-worksheets',
       sv: 'matematik-arbetsblad',
       de: 'mathe-arbeitsblaetter',
+      fr: 'exercices-maths-fiches',
     },
   },
   {

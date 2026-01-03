@@ -462,6 +462,12 @@ const nextConfig = {
         destination: '/fr/apps/puzzle-maths-fiches',
         permanent: true,
       },
+      // French: math-worksheets → exercices-maths-fiches
+      {
+        source: '/fr/apps/math-worksheets',
+        destination: '/fr/apps/exercices-maths-fiches',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

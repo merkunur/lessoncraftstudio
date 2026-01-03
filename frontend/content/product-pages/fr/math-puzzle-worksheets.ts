@@ -26,7 +26,7 @@ export const mathPuzzleFrContent: ProductPageContent = {
   hero: {
     title: 'Puzzle Maths Décodage',
     subtitle: 'Fiches à Imprimer Gratuit pour la Maternelle et le CP',
-    description: `Créez des exercices maths professionnels avec notre générateur de puzzles mathématiques. Votre abonnement Pack Essentiel à 144€ par an vous donne un accès illimité sans frais supplémentaires par fiche. Générez des fiches à imprimer gratuit parfaitement adaptées aux élèves de maternelle, CP et CE1. Téléchargez des PDF haute qualité en moins de trois minutes.
+    description: `Créez des exercices maths professionnels avec notre générateur de puzzles mathématiques. Votre abonnement Accès Complet à 240€ par an vous donne un accès illimité sans frais supplémentaires par fiche. Générez des fiches à imprimer gratuit parfaitement adaptées aux élèves de maternelle, CP et CE1. Téléchargez des PDF haute qualité en moins de trois minutes.
 
 Notre créateur de fiches maths utilise un système unique de décodage par symboles. Chaque image représente un nombre secret que les élèves doivent découvrir. Les enfants analysent les équations visuelles pour trouver la valeur de chaque symbole. Cette approche développe le raisonnement logique et la pensée mathématique. Les fiches maternelle deviennent des énigmes passionnantes qui captivent les jeunes apprenants.
 
@@ -84,7 +84,7 @@ Le générateur crée des puzzles mathématiques avec 1 à 6 exercices par page.
   // Features Grid - FULL text from math-worksheet.md feature sections
   features: {
     sectionTitle: 'Fonctionnalités du Générateur de Puzzles Maths - Créez des Fiches de Décodage Professionnelles',
-    sectionDescription: 'Notre générateur de puzzles maths inclut sept fonctionnalités puissantes pour créer des fiches de décodage de qualité professionnelle. Votre abonnement Pack Essentiel vous donne accès à toutes les fonctionnalités avec création illimitée.',
+    sectionDescription: 'Notre générateur de puzzles maths inclut sept fonctionnalités puissantes pour créer des fiches de décodage de qualité professionnelle. Votre abonnement Accès Complet vous donne accès à toutes les fonctionnalités avec création illimitée.',
     highlightBadgeText: 'Fonctionnalité Clé',
     readMoreLabel: 'Lire la suite',
     showLessLabel: 'Voir moins',
@@ -110,7 +110,7 @@ Choisissez entre addition seule ou addition et soustraction combinées. Définis
         id: '2',
         icon: '✏️',
         title: 'Modifiez Tout sur Vos Fiches à Imprimer',
-        description: `Votre abonnement Pack Essentiel inclut des capacités d'édition complètes pour toutes les fiches maternelle. Chaque élément sur le canevas est entièrement modifiable. Cliquez sur n'importe quel objet pour le sélectionner. Faites glisser pour déplacer les éléments. Redimensionnez en tirant les poignées de coin. Faites pivoter les objets à n'importe quel angle. Supprimez les éléments indésirables instantanément.
+        description: `Votre abonnement Accès Complet inclut des capacités d'édition complètes pour toutes les fiches maternelle. Chaque élément sur le canevas est entièrement modifiable. Cliquez sur n'importe quel objet pour le sélectionner. Faites glisser pour déplacer les éléments. Redimensionnez en tirant les poignées de coin. Faites pivoter les objets à n'importe quel angle. Supprimez les éléments indésirables instantanément.
 
 Ajoutez du texte personnalisé n'importe où sur vos exercices maths. Choisissez parmi sept polices professionnelles adaptées aux enfants. Ajustez la taille de police selon vos besoins. Changez les couleurs du texte pour correspondre au thème de votre classe. Ajoutez des contours au texte pour une meilleure visibilité. Créez des titres et des instructions personnalisées.
 
@@ -143,7 +143,7 @@ Le support linguistique s'étend à tous les éléments textuels des fiches. Per
         id: '5',
         icon: '💰',
         title: 'Licence Commerciale Disponible',
-        description: `Votre abonnement Pack Essentiel inclut une licence commerciale print-on-demand. Vendez les puzzles maths que vous créez sur Teachers Pay Teachers, Etsy ou Amazon KDP. Aucune attribution requise. Aucuns frais de licence supplémentaires. Créez des fiches maternelle et commencez à générer des revenus immédiatement.
+        description: `Votre abonnement Accès Complet inclut une licence commerciale print-on-demand. Vendez les puzzles maths que vous créez sur Teachers Pay Teachers, Etsy ou Amazon KDP. Aucune attribution requise. Aucuns frais de licence supplémentaires. Créez des fiches maternelle et commencez à générer des revenus immédiatement.
 
 De nombreux enseignants gagnent entre 500€ et 5000€ par mois en vendant des fiches imprimables. Créez des lots de puzzles mathématiques thématiques pour différentes saisons. Concevez des fiches à imprimer gratuit pour des fêtes spécifiques. Assemblez des exercices CE1 par niveau de compétence. Combinez avec d'autres générateurs pour des packs éducatifs complets.
 
@@ -320,7 +320,7 @@ Créez des séries de pratique répétitive pour le développement de la maîtri
         icon: '💰',
         title: 'Enseignants Entrepreneurs',
         subtitle: 'Vendez vos Créations sur Teachers Pay Teachers',
-        description: `Les enseignants entrepreneurs construisent des entreprises rentables en vendant des ressources éducatives. Les vendeurs Teachers Pay Teachers gagnent entre 500€ et 5000€ par mois avec du matériel de qualité. Les puzzles maths de décodage se vendent régulièrement car ils offrent une approche unique. Votre abonnement Pack Essentiel inclut une licence commerciale complète.
+        description: `Les enseignants entrepreneurs construisent des entreprises rentables en vendant des ressources éducatives. Les vendeurs Teachers Pay Teachers gagnent entre 500€ et 5000€ par mois avec du matériel de qualité. Les puzzles maths de décodage se vendent régulièrement car ils offrent une approche unique. Votre abonnement Accès Complet inclut une licence commerciale complète.
 
 Développez des lots de puzzles thématiques pour les ventes saisonnières. Les packs de rentrée en août et septembre. Les fiches d'Halloween et d'automne en octobre. Les ensembles de fêtes de fin d'année en décembre. Chaque saison apporte de nouvelles opportunités de vente.
 
@@ -350,7 +350,7 @@ Créez des ressources de programme complètes commandant des prix premium. Les p
       {
         id: '2',
         question: 'Ce Générateur de Puzzles Maths Est-Il Vraiment Gratuit ?',
-        answer: 'Le générateur de puzzles maths offre une version gratuite avec des limitations. Vous pouvez créer des fiches illimitées avec un filigrane. Le filigrane apparaît sur chaque fiche téléchargée. Les comptes gratuits permettent uniquement l\'usage personnel en classe. Les enseignants impriment des fiches maternelle pour leurs propres élèves sans restrictions. La version gratuite inclut les plus de 3000 images et les 11 langues. L\'abonnement Pack Essentiel supprime complètement le filigrane et coûte 144€ par an.',
+        answer: 'Le générateur de puzzles maths offre une version gratuite avec des limitations. Vous pouvez créer des fiches illimitées avec un filigrane. Le filigrane apparaît sur chaque fiche téléchargée. Les comptes gratuits permettent uniquement l\'usage personnel en classe. Les enseignants impriment des fiches maternelle pour leurs propres élèves sans restrictions. La version gratuite inclut les plus de 3000 images et les 11 langues. L\'abonnement Accès Complet supprime complètement le filigrane et coûte 240€ par an.',
       },
       {
         id: '3',
@@ -365,7 +365,7 @@ Créez des ressources de programme complètes commandant des prix premium. Les p
       {
         id: '5',
         question: 'Puis-Je Vendre les Puzzles sur Teachers Pay Teachers ?',
-        answer: 'Vendre des puzzles maths nécessite un abonnement Pack Essentiel. La version gratuite avec filigrane interdit entièrement l\'usage commercial. Le Pack Essentiel coûte 144€ par an et inclut une licence commerciale complète. Cette licence permet de vendre sur toutes les plateformes sans frais supplémentaires. Teachers Pay Teachers, Etsy et Amazon KDP sont tous des usages commerciaux permis. Aucune attribution requise sur vos produits.',
+        answer: 'Vendre des puzzles maths nécessite un abonnement Accès Complet. La version gratuite avec filigrane interdit entièrement l\'usage commercial. L\'Accès Complet coûte 240€ par an et inclut une licence commerciale complète. Cette licence permet de vendre sur toutes les plateformes sans frais supplémentaires. Teachers Pay Teachers, Etsy et Amazon KDP sont tous des usages commerciaux permis. Aucune attribution requise sur vos produits.',
       },
       {
         id: '6',
@@ -397,8 +397,8 @@ Créez des ressources de programme complètes commandant des prix premium. Les p
 
   // Pricing
   pricing: {
-    title: 'Pack Essentiel',
-    price: '144€',
+    title: 'Accès Complet',
+    price: '240€',
     priceInterval: '/an',
     priceSuffix: 'Facturation annuelle',
     benefits: [

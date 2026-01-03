@@ -134,6 +134,7 @@ import gridMatchFrContent from '@/content/product-pages/fr/grid-match-worksheets
 import crosswordFrContent from '@/content/product-pages/fr/crossword-worksheets';
 import cryptogramFrContent from '@/content/product-pages/fr/cryptogram-worksheets';
 import missingPiecesFrContent from '@/content/product-pages/fr/missing-pieces-worksheets';
+import moreLessFrContent from '@/content/product-pages/fr/more-less-worksheets';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -534,6 +535,10 @@ export const contentRegistry: ContentRegistry = {
     'pieces-manquantes-fiches': missingPiecesFrContent,
     // Also keep old slug for backwards compatibility during transition
     'missing-pieces-worksheets': missingPiecesFrContent,
+    // French More Less - uses French SEO slug
+    'plus-moins-fiches': moreLessFrContent,
+    // Also keep old slug for backwards compatibility during transition
+    'more-less-worksheets': moreLessFrContent,
   },
 };
 

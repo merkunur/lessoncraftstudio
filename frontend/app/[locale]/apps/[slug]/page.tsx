@@ -94,6 +94,7 @@ import gridMatchFrContent from '@/content/product-pages/fr/grid-match-worksheets
 import crosswordFrContent from '@/content/product-pages/fr/crossword-worksheets';
 import cryptogramFrContent from '@/content/product-pages/fr/cryptogram-worksheets';
 import missingPiecesFrContent from '@/content/product-pages/fr/missing-pieces-worksheets';
+import moreLessFrContent from '@/content/product-pages/fr/more-less-worksheets';
 
 interface PageProps {
   params: {
@@ -1518,6 +1519,51 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       },
       alternates: {
         canonical: 'https://www.lessoncraftstudio.com/fr/apps/pieces-manquantes-fiches', // Point to new URL
+      },
+    };
+  }
+
+  // More Less Worksheets - French product page SEO (new French slug)
+  if (params.slug === 'plus-moins-fiches' && params.locale === 'fr') {
+    return {
+      title: 'Fiches à Imprimer Gratuit de Comparaison - Exercices Maths Plus Moins Égal - Fiches Maternelle et Exercices CP',
+      description: 'Créez des fiches de comparaison mathématique professionnelles avec notre générateur d\'exercices maths. Générez des exercices CP de comparaison de quantités parfaits pour la maternelle et le CP. Téléchargez des fichiers PDF de haute qualité en moins de 3 minutes.',
+      keywords: 'fiches à imprimer gratuit, fiches maternelle, exercices maths, exercices CP, plus moins égal, comparaison, graphisme maternelle, coloriage à imprimer, apprendre à lire, alphabet, écriture cursive, tables de multiplication, exercices CE1',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/fr/apps/plus-moins-fiches',
+        languages: {
+          'en': 'https://www.lessoncraftstudio.com/en/apps/more-less-worksheets',
+          'sv': 'https://www.lessoncraftstudio.com/sv/apps/mer-mindre-arbetsblad',
+          'de': 'https://www.lessoncraftstudio.com/de/apps/mehr-weniger-arbeitsblaetter',
+          'fr': 'https://www.lessoncraftstudio.com/fr/apps/plus-moins-fiches',
+          'x-default': 'https://www.lessoncraftstudio.com/en/apps/more-less-worksheets',
+        },
+      },
+      openGraph: {
+        title: 'Fiches à Imprimer Gratuit de Comparaison | LessonCraftStudio',
+        description: 'Créez des fiches de comparaison mathématique professionnelles avec notre générateur d\'exercices maths. Parfait pour les enseignants de maternelle, CP et CE1.',
+        url: 'https://www.lessoncraftstudio.com/fr/apps/plus-moins-fiches',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Legacy: Redirect old French more-less-worksheets slug to new slug (for backwards compatibility)
+  if (params.slug === 'more-less-worksheets' && params.locale === 'fr') {
+    return {
+      title: 'Fiches de Comparaison | Exercices Maths Plus Moins Égal',
+      description: 'Créez des fiches de comparaison mathématique professionnelles avec notre générateur d\'exercices maths.',
+      robots: {
+        index: false, // Don't index old URL
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/fr/apps/plus-moins-fiches', // Point to new URL
       },
     };
   }
@@ -7005,6 +7051,7 @@ export async function generateStaticParams() {
     'mots-croises-images-fiches', // Product page slug (French) - language-specific SEO slug for crossword
     'cryptogramme-images-fiches', // Product page slug (French) - language-specific SEO slug for cryptogram
     'pieces-manquantes-fiches', // Product page slug (French) - language-specific SEO slug for missing-pieces
+    'plus-moins-fiches', // Product page slug (French) - language-specific SEO slug for more-less
     'alphabet-zug-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug
     'malvorlagen-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug
     'mathe-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for math worksheets

@@ -124,6 +124,7 @@ import findAndCountFrContent from '@/content/product-pages/fr/find-and-count-wor
 import matchingFrContent from '@/content/product-pages/fr/matching-worksheets';
 import drawingLinesFrContent from '@/content/product-pages/fr/drawing-lines-worksheets';
 import pictureBingoFrContent from '@/content/product-pages/fr/picture-bingo-worksheets';
+import sudokuFrContent from '@/content/product-pages/fr/sudoku-worksheets';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -486,6 +487,10 @@ export const contentRegistry: ContentRegistry = {
     'bingo-images-fiches': pictureBingoFrContent,
     // Also keep old slug for backwards compatibility during transition
     'picture-bingo-worksheets': pictureBingoFrContent,
+    // French Sudoku - uses French SEO slug
+    'sudoku-enfants-fiches': sudokuFrContent,
+    // Also keep old slug for backwards compatibility during transition
+    'sudoku-worksheets': sudokuFrContent,
   },
 };
 

@@ -6422,11 +6422,10 @@ export default async function AppPage({ params: { locale, slug } }: PageProps) {
   if (content) {
     // Build app data for schema markup
     const schemaAppData: AppProductData = {
-      appId: content.appId || slug,
-      name: content.seo?.metaTitle || content.hero?.title || slug,
-      description: content.seo?.metaDescription || content.hero?.subtitle || '',
-      category: content.category || 'Worksheet Generator',
-      tier: content.requiredTier as 'free' | 'core' | 'full' | undefined
+      appId: content.seo?.appId || slug,
+      name: content.seo?.title || content.hero?.title || slug,
+      description: content.seo?.description || content.hero?.subtitle || '',
+      category: 'Worksheet Generator'
     };
 
     return (

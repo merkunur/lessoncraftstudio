@@ -510,6 +510,12 @@ const nextConfig = {
         destination: '/fr/apps/graphique-images-fiches',
         permanent: true,
       },
+      // French: code-addition-worksheets → addition-codee-fiches
+      {
+        source: '/fr/apps/code-addition-worksheets',
+        destination: '/fr/apps/addition-codee-fiches',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

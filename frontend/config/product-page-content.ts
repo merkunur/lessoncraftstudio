@@ -133,6 +133,7 @@ import findObjectsFrContent from '@/content/product-pages/fr/find-objects-worksh
 import gridMatchFrContent from '@/content/product-pages/fr/grid-match-worksheets';
 import crosswordFrContent from '@/content/product-pages/fr/crossword-worksheets';
 import cryptogramFrContent from '@/content/product-pages/fr/cryptogram-worksheets';
+import missingPiecesFrContent from '@/content/product-pages/fr/missing-pieces-worksheets';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -529,6 +530,10 @@ export const contentRegistry: ContentRegistry = {
     'cryptogramme-images-fiches': cryptogramFrContent,
     // Also keep old slug for backwards compatibility during transition
     'cryptogram-worksheets': cryptogramFrContent,
+    // French Missing Pieces - uses French SEO slug
+    'pieces-manquantes-fiches': missingPiecesFrContent,
+    // Also keep old slug for backwards compatibility during transition
+    'missing-pieces-worksheets': missingPiecesFrContent,
   },
 };
 

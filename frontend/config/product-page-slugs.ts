@@ -239,6 +239,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       en: 'missing-pieces-worksheets',
       sv: 'saknade-bitar-arbetsblad',
       de: 'fehlende-puzzleteile-arbeitsblaetter',
+      fr: 'pieces-manquantes-fiches',
     },
   },
   {

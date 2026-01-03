@@ -169,6 +169,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     en: 'missing-pieces-worksheets',
     sv: 'saknade-bitar-arbetsblad',
     de: 'fehlende-puzzleteile-arbeitsblaetter',
+    fr: 'pieces-manquantes-fiches',
   },
   'more-less': {
     en: 'more-less-worksheets',

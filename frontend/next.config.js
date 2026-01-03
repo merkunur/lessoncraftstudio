@@ -546,6 +546,12 @@ const nextConfig = {
         destination: '/fr/apps/cryptogramme-images-fiches',
         permanent: true,
       },
+      // French: missing-pieces-worksheets → pieces-manquantes-fiches
+      {
+        source: '/fr/apps/missing-pieces-worksheets',
+        destination: '/fr/apps/pieces-manquantes-fiches',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

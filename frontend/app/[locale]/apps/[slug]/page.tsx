@@ -93,6 +93,7 @@ import findObjectsFrContent from '@/content/product-pages/fr/find-objects-worksh
 import gridMatchFrContent from '@/content/product-pages/fr/grid-match-worksheets';
 import crosswordFrContent from '@/content/product-pages/fr/crossword-worksheets';
 import cryptogramFrContent from '@/content/product-pages/fr/cryptogram-worksheets';
+import missingPiecesFrContent from '@/content/product-pages/fr/missing-pieces-worksheets';
 
 interface PageProps {
   params: {
@@ -1472,6 +1473,51 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       },
       alternates: {
         canonical: 'https://www.lessoncraftstudio.com/fr/apps/cryptogramme-images-fiches', // Point to new URL
+      },
+    };
+  }
+
+  // Missing Pieces Worksheets - French product page SEO (new French slug)
+  if (params.slug === 'pieces-manquantes-fiches' && params.locale === 'fr') {
+    return {
+      title: 'Fiches à Imprimer Gratuit - Fiches Maternelle - Générateur d\'Exercices Pièces Manquantes',
+      description: 'Créez des fiches d\'exercices de pièces manquantes professionnelles en quelques clics. Notre générateur transforme n\'importe quelle image en puzzle éducatif. Les élèves identifient les morceaux manquants et choisissent la bonne pièce parmi plusieurs options.',
+      keywords: 'fiches à imprimer gratuit, fiches maternelle, exercices CP, pièces manquantes, puzzles éducatifs, discrimination visuelle, exercices CE1, observation visuelle, graphisme maternelle, exercices maths, apprendre à lire, tables de multiplication, écriture cursive, alphabet, coloriage',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/fr/apps/pieces-manquantes-fiches',
+        languages: {
+          'en': 'https://www.lessoncraftstudio.com/en/apps/missing-pieces-worksheets',
+          'sv': 'https://www.lessoncraftstudio.com/sv/apps/saknade-bitar-arbetsblad',
+          'de': 'https://www.lessoncraftstudio.com/de/apps/fehlende-puzzleteile-arbeitsblaetter',
+          'fr': 'https://www.lessoncraftstudio.com/fr/apps/pieces-manquantes-fiches',
+          'x-default': 'https://www.lessoncraftstudio.com/en/apps/missing-pieces-worksheets',
+        },
+      },
+      openGraph: {
+        title: 'Fiches Pièces Manquantes | Fiches Maternelle et Exercices CP | LessonCraftStudio',
+        description: 'Créez des fiches de pièces manquantes professionnelles avec notre générateur de fiches maternelle. Parfait pour les enseignants de maternelle, CP et CE1.',
+        url: 'https://www.lessoncraftstudio.com/fr/apps/pieces-manquantes-fiches',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Legacy: Redirect old French missing-pieces-worksheets slug to new slug (for backwards compatibility)
+  if (params.slug === 'missing-pieces-worksheets' && params.locale === 'fr') {
+    return {
+      title: 'Fiches Pièces Manquantes | Fiches Maternelle et Exercices CP',
+      description: 'Créez des fiches de pièces manquantes professionnelles avec notre générateur de fiches maternelle.',
+      robots: {
+        index: false, // Don't index old URL
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/fr/apps/pieces-manquantes-fiches', // Point to new URL
       },
     };
   }
@@ -6958,6 +7004,7 @@ export async function generateStaticParams() {
     'puzzle-grille-fiches', // Product page slug (French) - language-specific SEO slug for grid-match
     'mots-croises-images-fiches', // Product page slug (French) - language-specific SEO slug for crossword
     'cryptogramme-images-fiches', // Product page slug (French) - language-specific SEO slug for cryptogram
+    'pieces-manquantes-fiches', // Product page slug (French) - language-specific SEO slug for missing-pieces
     'alphabet-zug-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug
     'malvorlagen-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug
     'mathe-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for math worksheets

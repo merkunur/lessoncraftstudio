@@ -373,63 +373,6 @@ Modifiez le puzzle grille pour les élèves ayant des déficiences visuelles en 
     ],
   },
 
-  // Subscription Section - From grid-match.md Section 5
-  subscription: {
-    sectionTitle: 'Trois Raisons pour Lesquelles les Enseignants S\'abonnent - Fonctionnalités Premium pour Fiches Maternelle et Graphisme Maternelle',
-    sectionDescription: 'Les enseignants s\'abonnent à Full Access pour trois raisons principales. Chaque raison représente une valeur qui justifie amplement l\'investissement de 240€ annuellement. Découvrez pourquoi des milliers d\'enseignants français choisissent notre plateforme pour leurs besoins en fiches à imprimer.',
-    badgeText: 'Pourquoi S\'Abonner',
-    readMoreLabel: 'Lire la suite',
-    showLessLabel: 'Voir moins',
-    items: [
-      {
-        id: '1',
-        icon: '🌍',
-        title: 'Enseigner en Plusieurs Langues - Fiches Alphabet et Apprendre à Lire pour Classes Multilingues',
-        description: `Le support de 11 langues transforme l'enseignement pour les classes FLE et bilingues. Créez des fiches d'alphabet identiques en français et dans la langue maternelle des élèves. Les élèves font des connexions entre les langues tout en développant les compétences spatiales. Ce support visuel accélère l'acquisition du vocabulaire pour les apprenants de langues.
-
-Les enseignants FLE économisent des heures de préparation hebdomadaires. Générez des fiches pour apprendre à lire en français puis basculez instantanément vers l'allemand ou l'espagnol. La même activité fonctionne dans toutes les langues. Plus besoin de créer des supports séparés pour chaque groupe linguistique. Une plateforme sert tous vos besoins d'enseignement multilingue.
-
-Les programmes d'immersion bilingue bénéficient énormément du puzzle grille multilingue. Enseignez le vocabulaire scientifique en français le matin. Renforcez les mêmes concepts en anglais l'après-midi. Les connexions visuelles aident les élèves à transférer les connaissances entre les langues. Cette cohérence pédagogique améliore les résultats d'apprentissage significativement.
-
-Les écoles internationales trouvent enfin des ressources adaptées. Les élèves venant de France d'Allemagne d'Espagne et d'Italie reçoivent tous des supports dans leurs langues maternelles. Le puzzle grille fonctionne parfaitement pour l'enseignement des langues patrimoniales. Les parents apprécient les devoirs que toute la famille peut comprendre.
-
-Les enseignants d'éducation spécialisée utilisent le support multilingue pour les élèves nouveaux arrivants. Les fiches bilingues réduisent l'anxiété linguistique. Les élèves voient des images familières étiquetées dans deux langues. Cette approche douce construit la confiance tout en développant les compétences linguistiques. Le succès précoce motive les élèves à persévérer dans l'apprentissage du français.`,
-      },
-      {
-        id: '2',
-        icon: '💰',
-        title: 'Licence Commerciale - Vendre des Fiches de Coloriage à Imprimer et Tables de Multiplication sur Teachers Pay Teachers',
-        description: `La licence commerciale POD incluse vaut 100-200€ annuellement à elle seule. Les concurrents facturent des frais séparés pour les droits commerciaux. Nous incluons tout dans votre abonnement de 240€. Créez des produits vendez-les et conservez 100% des bénéfices après les frais de plateforme.
-
-Les enseignants gagnent 500-5000€ mensuellement en vendant des fiches imprimables en ligne. Les puzzles grille se vendent particulièrement bien sur Teachers Pay Teachers. Les acheteurs recherchent des fiches de coloriage à imprimer prêtes à l'emploi. Les packs de tables de multiplication thématiques génèrent des ventes régulières. Créez une fois vendez indéfiniment.
-
-Etsy offre un autre marché lucratif pour les fiches imprimables. Les parents homeschoolers achètent des packs d'activités hebdomadaires. Les enseignants recherchent des supports de dernière minute. Vos puzzles grille répondent à ces deux besoins. Listez des variations infinies en utilisant différents thèmes et niveaux de difficulté.
-
-Amazon KDP permet de publier des livres d'activités à faible contenu. Combinez 50-100 puzzles grille dans un seul livre. Ajoutez une couverture attrayante et des instructions. Publiez en formats papier et ebook. Les clients achètent des livres d'activités toute l'année. Les ventes passives s'accumulent pendant que vous enseignez.
-
-Pinterest génère du trafic gratuit vers vos boutiques. Épinglez des exemples de fiches avec des liens vers vos produits. Les enseignants recherchent constamment de nouvelles ressources sur Pinterest. Vos épingles atteignent des milliers d'enseignants mensuellement. Cette visibilité organique construit votre entreprise sans publicité payante.
-
-Les modèles d'abonnement fonctionnent bien pour les créateurs prolifiques. Facturez 5-10€ mensuellement pour un accès illimité à vos créations. Les membres reçoivent chaque mois de nouvelles fiches. Ce revenu prévisible soutient votre parcours entrepreneurial. Votre abonnement Full Access alimente une création illimitée de produits.`,
-      },
-      {
-        id: '3',
-        icon: '⏱️',
-        title: 'Gain de Temps et Productivité - Créer des Fiches d\'Écriture Cursive et Graphisme Maternelle en Minutes',
-        description: `Le temps de création passe de 60 minutes à 3 minutes par fiche. Cette économie de 57 minutes par fiche se multiplie rapidement. Créez 10 fiches hebdomadairement économisant 570 minutes soit 9,5 heures. Ces heures récupérées réduisent considérablement l'épuisement professionnel enseignant.
-
-Les enseignants multi-niveaux bénéficient énormément de la création rapide. Enseignez maternelle et CP simultanément. Générez différentes difficultés de la même activité. Chaque niveau reçoit des supports appropriés sans effort supplémentaire. Cette efficacité rend l'enseignement multi-niveaux gérable.
-
-L'éducation spécialisée nécessite une différenciation extensive. Créez des versions adaptées pour chaque IEP rapidement. Ajustez les tailles de grille les images et les supports visuels. Chaque élève reçoit exactement ce dont il a besoin. Cette personnalisation prend des minutes pas des heures.
-
-La préparation de remplaçants devient simple. Générez une semaine de fiches en 30 minutes. Incluez les instructions et corrigés. Gardez ces paquets prêts pour les urgences. Cette préparation préventive réduit le stress des absences imprévues.
-
-Les parents homeschoolers enseignent plusieurs enfants à différents niveaux. Générez des fiches appropriées pour chaque âge simultanément. L'enfant de maternelle travaille sur des grilles 2x2. Le CP fait des grilles 3x3. Le CE1 résout des grilles 4x4. Tous travaillent sur le même thème à leurs niveaux. Cette cohérence familiale simplifie la planification des leçons.
-
-L'équilibre travail-vie personnelle s'améliore considérablement. Passez moins de soirées à préparer des supports. Investissez ce temps dans votre famille et vos loisirs. Les enseignants reposés enseignent plus efficacement. Votre bien-être compte autant que celui de vos élèves. L'abonnement Full Access protège votre temps personnel tout en fournissant d'excellents supports en classe.`,
-      },
-    ],
-  },
-
   // FAQ Section - ALL questions from grid-match.md FAQ section
   faq: {
     sectionTitle: 'Questions Fréquentes - Générateur de Fiches Maternelle et Graphisme Maternelle',

@@ -528,6 +528,18 @@ const nextConfig = {
         destination: '/fr/apps/cherche-objets-fiches',
         permanent: true,
       },
+      // French: grid-match-worksheets → puzzle-grille-fiches
+      {
+        source: '/fr/apps/grid-match-worksheets',
+        destination: '/fr/apps/puzzle-grille-fiches',
+        permanent: true,
+      },
+      // French: crossword-worksheets → mots-croises-images-fiches
+      {
+        source: '/fr/apps/crossword-worksheets',
+        destination: '/fr/apps/mots-croises-images-fiches',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

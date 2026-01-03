@@ -1383,6 +1383,51 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     };
   }
 
+  // Crossword Worksheets - French product page SEO (new French slug)
+  if (params.slug === 'mots-croises-images-fiches' && params.locale === 'fr') {
+    return {
+      title: 'Mots Croisés en Images | Fiches à Imprimer Gratuit pour Maternelle et CP',
+      description: 'Créez des mots croisés en images professionnels avec notre générateur de fiches à imprimer gratuit. Votre abonnement Accès Complet à 240 € par an vous permet de générer des fiches maternelle et exercices CP illimités. Téléchargez des fichiers PDF haute qualité en moins de 3 minutes.',
+      keywords: 'mots croisés en images, fiches maternelle, exercices CP, fiches à imprimer gratuit, apprendre à lire, fiches alphabet, graphisme maternelle, exercices maths, apprendre les lettres, coloriage à imprimer, écriture cursive, tables de multiplication, exercices CE1',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/fr/apps/mots-croises-images-fiches',
+        languages: {
+          'en': 'https://www.lessoncraftstudio.com/en/apps/crossword-worksheets',
+          'sv': 'https://www.lessoncraftstudio.com/sv/apps/bildkorsord-arbetsblad',
+          'de': 'https://www.lessoncraftstudio.com/de/apps/bilderkreuzwortraetsel-arbeitsblaetter',
+          'fr': 'https://www.lessoncraftstudio.com/fr/apps/mots-croises-images-fiches',
+          'x-default': 'https://www.lessoncraftstudio.com/en/apps/crossword-worksheets',
+        },
+      },
+      openGraph: {
+        title: 'Mots Croisés en Images | Fiches à Imprimer Gratuit | LessonCraftStudio',
+        description: 'Créez des mots croisés en images professionnels avec notre générateur de fiches maternelle. Parfait pour les enseignants de maternelle, CP et CE1.',
+        url: 'https://www.lessoncraftstudio.com/fr/apps/mots-croises-images-fiches',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Legacy: Redirect old French crossword-worksheets slug to new slug (for backwards compatibility)
+  if (params.slug === 'crossword-worksheets' && params.locale === 'fr') {
+    return {
+      title: 'Mots Croisés en Images | Fiches à Imprimer Gratuit',
+      description: 'Créez des mots croisés en images professionnels avec notre générateur de fiches maternelle.',
+      robots: {
+        index: false, // Don't index old URL
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/fr/apps/mots-croises-images-fiches', // Point to new URL
+      },
+    };
+  }
+
   // Missing Pieces Worksheets - German product page SEO (new German slug)
   if (params.slug === 'fehlende-puzzleteile-arbeitsblaetter' && params.locale === 'de') {
     return {
@@ -6544,6 +6589,8 @@ const seoRedirects: { [locale: string]: { [englishSlug: string]: string } } = {
   fr: {
     'draw-and-color-worksheets': 'dessin-quadrillage-fiches',
     'find-objects-worksheets': 'cherche-objets-fiches',
+    'grid-match-worksheets': 'puzzle-grille-fiches',
+    'crossword-worksheets': 'mots-croises-images-fiches',
   },
   // Add more languages as they get localized slugs:
   // de: { 'word-search-worksheets': 'wortsuche-arbeitsblaetter' },
@@ -6860,6 +6907,8 @@ export async function generateStaticParams() {
     'graphique-images-fiches', // Product page slug (French) - language-specific SEO slug for chart-count
     'dessin-quadrillage-fiches', // Product page slug (French) - language-specific SEO slug for draw-and-color
     'cherche-objets-fiches', // Product page slug (French) - language-specific SEO slug for find-objects
+    'puzzle-grille-fiches', // Product page slug (French) - language-specific SEO slug for grid-match
+    'mots-croises-images-fiches', // Product page slug (French) - language-specific SEO slug for crossword
     'alphabet-zug-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug
     'malvorlagen-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug
     'mathe-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for math worksheets

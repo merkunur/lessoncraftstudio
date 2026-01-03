@@ -504,6 +504,12 @@ const nextConfig = {
         destination: '/fr/apps/grand-petit-fiches',
         permanent: true,
       },
+      // French: chart-count-worksheets → graphique-images-fiches
+      {
+        source: '/fr/apps/chart-count-worksheets',
+        destination: '/fr/apps/graphique-images-fiches',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

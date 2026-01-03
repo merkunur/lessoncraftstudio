@@ -126,6 +126,7 @@ import drawingLinesFrContent from '@/content/product-pages/fr/drawing-lines-work
 import pictureBingoFrContent from '@/content/product-pages/fr/picture-bingo-worksheets';
 import sudokuFrContent from '@/content/product-pages/fr/sudoku-worksheets';
 import bigSmallFrContent from '@/content/product-pages/fr/big-small-worksheets';
+import chartCountFrContent from '@/content/product-pages/fr/chart-count-worksheets';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -494,6 +495,10 @@ export const contentRegistry: ContentRegistry = {
     'grand-petit-fiches': bigSmallFrContent,
     // Also keep old slug for backwards compatibility during transition
     'big-small-worksheets': bigSmallFrContent,
+    // French Chart Count - uses French SEO slug
+    'graphique-images-fiches': chartCountFrContent,
+    // Also keep old slug for backwards compatibility during transition
+    'chart-count-worksheets': chartCountFrContent,
   },
 };
 

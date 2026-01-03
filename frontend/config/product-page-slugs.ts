@@ -168,6 +168,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       en: 'chart-count-worksheets',
       sv: 'diagram-rakning-arbetsblad',
       de: 'bilddiagramm-arbeitsblaetter',
+      fr: 'graphique-images-fiches',
     },
   },
   {

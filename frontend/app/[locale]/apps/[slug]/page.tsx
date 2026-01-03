@@ -6713,6 +6713,8 @@ export async function generateStaticParams() {
     'graphisme-fiches', // Product page slug (French) - language-specific SEO slug for drawing-lines
     'bingo-images-fiches', // Product page slug (French) - language-specific SEO slug for picture-bingo
     'sudoku-enfants-fiches', // Product page slug (French) - language-specific SEO slug for sudoku
+    'grand-petit-fiches', // Product page slug (French) - language-specific SEO slug for big-small
+    'graphique-images-fiches', // Product page slug (French) - language-specific SEO slug for chart-count
     'alphabet-zug-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug
     'malvorlagen-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug
     'mathe-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for math worksheets

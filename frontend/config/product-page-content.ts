@@ -489,8 +489,6 @@ export const contentRegistry: ContentRegistry = {
     'picture-bingo-worksheets': pictureBingoFrContent,
     // French Sudoku - uses French SEO slug
     'sudoku-enfants-fiches': sudokuFrContent,
-    // Also keep old slug for backwards compatibility during transition
-    'sudoku-worksheets': sudokuFrContent,
   },
 };
 

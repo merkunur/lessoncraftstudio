@@ -2753,21 +2753,6 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     };
   }
 
-  // Legacy: Redirect old French sudoku slug to new slug (for backwards compatibility)
-  if (params.slug === 'sudoku-worksheets' && params.locale === 'fr') {
-    return {
-      title: 'Sudoku pour Enfants - Fiches Maternelle et Exercices Maths à Imprimer Gratuit',
-      description: 'Créez des puzzles sudoku visuels avec notre générateur de fiches maternelle.',
-      robots: {
-        index: false, // Don't index old URL
-        follow: true,
-      },
-      alternates: {
-        canonical: 'https://www.lessoncraftstudio.com/fr/apps/sudoku-enfants-fiches', // Point to new URL
-      },
-    };
-  }
-
   // Big and Small Worksheets product page SEO
   if (params.slug === 'big-small-worksheets' && params.locale === 'en') {
     return {

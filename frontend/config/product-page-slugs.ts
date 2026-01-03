@@ -248,6 +248,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       en: 'more-less-worksheets',
       sv: 'jamforelse-arbetsblad',
       de: 'mehr-weniger-arbeitsblaetter',
+      fr: 'comparaison-quantites-fiches',
     },
   },
   {

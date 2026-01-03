@@ -2729,7 +2729,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   if (params.slug === 'sudoku-enfants-fiches' && params.locale === 'fr') {
     return {
       title: 'Sudoku pour Enfants - Fiches Maternelle et Exercices Maths à Imprimer Gratuit',
-      description: 'Créez des puzzles sudoku visuels avec notre générateur de fiches maternelle. Votre abonnement Core Bundle vous offre une création illimitée de fiches à imprimer gratuit. Téléchargez des PDF professionnels 300 DPI avec clés de correction en moins de 3 minutes.',
+      description: 'Créez des puzzles sudoku visuels avec notre générateur de fiches maternelle. Votre abonnement Pack Essentiel vous offre une création illimitée de fiches à imprimer gratuit. Téléchargez des PDF professionnels 300 DPI avec clés de correction en moins de 3 minutes.',
       keywords: 'sudoku enfants, fiches maternelle, fiches à imprimer gratuit, exercices CP, exercices CE1, exercices maths, graphisme maternelle, coloriage à imprimer, apprendre à lire, tables de multiplication',
       robots: {
         index: true,

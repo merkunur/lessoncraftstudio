@@ -16,7 +16,7 @@ export const sudokuFrContent: ProductPageContent = {
     slug: 'sudoku-enfants-fiches',
     appId: 'sudoku',
     title: 'Sudoku pour Enfants - Fiches Maternelle et Exercices Maths à Imprimer Gratuit',
-    description: 'Créez des puzzles sudoku visuels avec notre générateur de fiches maternelle. Votre abonnement Core Bundle vous offre une création illimitée de fiches à imprimer gratuit. Téléchargez des PDF professionnels 300 DPI avec clés de correction en moins de 3 minutes.',
+    description: 'Créez des puzzles sudoku visuels avec notre générateur de fiches maternelle. Votre abonnement Pack Essentiel vous offre une création illimitée de fiches à imprimer gratuit. Téléchargez des PDF professionnels 300 DPI avec clés de correction en moins de 3 minutes.',
     keywords: 'sudoku enfants, fiches maternelle, fiches à imprimer gratuit, exercices CP, exercices CE1, exercices maths, graphisme maternelle, coloriage à imprimer, apprendre à lire, tables de multiplication',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fr/apps/sudoku-enfants-fiches',
   },
@@ -25,11 +25,11 @@ export const sudokuFrContent: ProductPageContent = {
   hero: {
     title: 'Sudoku pour Enfants',
     subtitle: 'Fiches Maternelle et Exercices Maths à Imprimer Gratuit',
-    description: `Découvrez notre générateur de sudoku pour enfants. Cet outil vous permet de créer des fiches à imprimer gratuit en quelques clics. Votre abonnement Core Bundle vous donne accès illimité à la création de fiches maternelle. Les puzzles utilisent des images colorées au lieu de chiffres. Parfait pour les enfants de 3 à 8 ans.
+    description: `Découvrez notre générateur de sudoku pour enfants. Cet outil vous permet de créer des fiches à imprimer gratuit en quelques clics. Votre abonnement Pack Essentiel vous donne accès illimité à la création de fiches maternelle. Les puzzles utilisent des images colorées au lieu de chiffres. Parfait pour les enfants de 3 à 8 ans.
 
 Le sudoku visuel transforme un jeu classique en activité éducative. Les enfants reconnaissent des images au lieu de chiffres. Cette approche développe la logique sans exiger de compétences en calcul. Idéal pour accompagner les exercices maths et les fiches maternelle traditionnelles. Chaque puzzle imprimable renforce la concentration et le raisonnement. Notre générateur propose trois niveaux de difficulté. Le mode facile comporte 4 cases vides. Le mode moyen propose 6 cases vides. Le mode difficile présente 8 cases vides.
 
-Les puzzles sudoku complètent parfaitement les exercices maths traditionnels. La logique du sudoku prépare les enfants aux exercices CP et CE1. Le raisonnement spatial développé aide aussi pour le graphisme maternelle. Les élèves apprennent à analyser, déduire et vérifier leurs réponses. Avec votre abonnement Core Bundle à 144€ par an, créez des fiches illimitées. Aucun frais par fiche téléchargée. Accédez à plus de 3000 images thématiques. Téléchargez en PDF ou JPEG haute qualité 300 DPI. Les fiches incluent automatiquement une clé de correction.`,
+Les puzzles sudoku complètent parfaitement les exercices maths traditionnels. La logique du sudoku prépare les enfants aux exercices CP et CE1. Le raisonnement spatial développé aide aussi pour le graphisme maternelle. Les élèves apprennent à analyser, déduire et vérifier leurs réponses. Avec votre abonnement Pack Essentiel à 144€ par an, créez des fiches illimitées. Aucun frais par fiche téléchargée. Accédez à plus de 3000 images thématiques. Téléchargez en PDF ou JPEG haute qualité 300 DPI. Les fiches incluent automatiquement une clé de correction.`,
     previewImageSrc: '/samples/english/sudoku/sudoku_easy.jpeg',
     ctaLabels: {
       tryFree: 'Essayer Gratuitement',
@@ -141,7 +141,7 @@ Cette fonctionnalité multilingue enrichit les activités pour apprendre à lire
         id: '5',
         icon: '💰',
         title: 'Licence Commerciale Incluse - Vendez Vos Fiches Maternelle et Exercices Maths',
-        description: `Votre abonnement Core Bundle inclut une licence commerciale complète. Vendez vos créations sur Teachers Pay Teachers. Proposez vos fiches maternelle sur Etsy. Publiez des cahiers d'exercices maths sur Amazon KDP. Aucun frais de licence supplémentaire requis.
+        description: `Votre abonnement Pack Essentiel inclut une licence commerciale complète. Vendez vos créations sur Teachers Pay Teachers. Proposez vos fiches maternelle sur Etsy. Publiez des cahiers d'exercices maths sur Amazon KDP. Aucun frais de licence supplémentaire requis.
 
 Cette licence couvre l'impression à la demande. Créez une source de revenus avec vos fiches pédagogiques. Les enseignants entrepreneurs génèrent entre 500€ et 5000€ par mois. La qualité professionnelle 300 DPI garantit des impressions parfaites. Votre investissement de 144€ par an devient rapidement rentable.`,
         highlighted: true,
@@ -354,9 +354,9 @@ La qualité 300 DPI garantit des produits professionnels. Les acheteurs appréci
       {
         id: '1',
         question: 'Le Générateur de Sudoku Est-il Vraiment Gratuit pour les Fiches à Imprimer Gratuit ?',
-        answer: `Le générateur de sudoku nécessite un abonnement Core Bundle. Ce forfait coûte 144€ par an ou 15€ par mois. Votre abonnement vous donne accès illimité à la création de fiches à imprimer gratuit sans frais supplémentaires. Aucune limite sur le nombre de puzzles générés.
+        answer: `Le générateur de sudoku nécessite un abonnement Pack Essentiel. Ce forfait coûte 144€ par an ou 15€ par mois. Votre abonnement vous donne accès illimité à la création de fiches à imprimer gratuit sans frais supplémentaires. Aucune limite sur le nombre de puzzles générés.
 
-Le Core Bundle inclut 10 applications pédagogiques populaires. L'abonnement Full Access à 240€ par an donne accès aux 33 générateurs. Les deux formules incluent la licence commerciale et l'export 300 DPI. Choisissez selon vos besoins pédagogiques.`,
+Le Pack Essentiel inclut 10 applications pédagogiques populaires. L'abonnement Full Access à 240€ par an donne accès aux 33 générateurs. Les deux formules incluent la licence commerciale et l'export 300 DPI. Choisissez selon vos besoins pédagogiques.`,
       },
       {
         id: '2',
@@ -424,7 +424,7 @@ Enrichissez vos fiches avec des questions mathématiques. "Combien d'images iden
       {
         id: '11',
         question: 'Peut-on Vendre les Fiches de Graphisme Maternelle et Coloriage Créées ?',
-        answer: `Oui, la licence commerciale est incluse dans votre abonnement Core Bundle. Vendez vos fiches de graphisme maternelle sur Teachers Pay Teachers. Proposez vos activités de coloriage sur Etsy. Publiez des cahiers complets sur Amazon KDP.
+        answer: `Oui, la licence commerciale est incluse dans votre abonnement Pack Essentiel. Vendez vos fiches de graphisme maternelle sur Teachers Pay Teachers. Proposez vos activités de coloriage sur Etsy. Publiez des cahiers complets sur Amazon KDP.
 
 Aucun frais de licence supplémentaire n'est requis. La qualité 300 DPI garantit des produits professionnels. La clé de correction ajoute de la valeur. Votre investissement de 144€ génère des revenus potentiels illimités.`,
       },
@@ -440,7 +440,7 @@ Utilisez des puzzles thématiques pour renforcer les concepts. Groupes d'objets 
 
   // Pricing
   pricing: {
-    title: 'Core Bundle',
+    title: 'Pack Essentiel',
     price: '144€',
     priceInterval: '/an',
     priceSuffix: 'Facturé annuellement',

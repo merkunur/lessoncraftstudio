@@ -16,7 +16,7 @@ export const wordScrambleFrContent: ProductPageContent = {
     slug: 'mots-melanges-fiches',
     appId: 'word-scramble',
     title: 'Générateur de Mots Mélangés | Fiches à Imprimer Gratuit pour Maternelle et CP',
-    description: 'Créez des exercices de mots mélangés en quelques clics. Votre abonnement Core Bundle vous donne accès à la création illimitée de fiches maternelle et exercices CP. Téléchargez vos fiches à imprimer gratuit en format PDF haute qualité.',
+    description: 'Créez des exercices de mots mélangés en quelques clics. Votre abonnement Pack Essentiel vous donne accès à la création illimitée de fiches maternelle et exercices CP. Téléchargez vos fiches à imprimer gratuit en format PDF haute qualité.',
     keywords: 'mots mélangés, générateur mots mélangés, fiches maternelle, fiches à imprimer gratuit, exercices CP, exercices CE1, apprendre à lire, alphabet, apprendre les lettres, graphisme maternelle, écriture cursive, coloriage à imprimer, exercices maths, tables de multiplication',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fr/apps/mots-melanges-fiches',
   },
@@ -25,7 +25,7 @@ export const wordScrambleFrContent: ProductPageContent = {
   hero: {
     title: 'Générateur de Mots Mélangés',
     subtitle: 'Fiches à Imprimer Gratuit pour Maternelle et CP',
-    description: `Créez des exercices de mots mélangés en quelques clics. Votre abonnement Core Bundle vous donne accès à la création illimitée de fiches. Générez des fiches maternelle et exercices CP personnalisés sans frais supplémentaires. Téléchargez vos fiches à imprimer gratuit en format PDF haute qualité.
+    description: `Créez des exercices de mots mélangés en quelques clics. Votre abonnement Pack Essentiel vous donne accès à la création illimitée de fiches. Générez des fiches maternelle et exercices CP personnalisés sans frais supplémentaires. Téléchargez vos fiches à imprimer gratuit en format PDF haute qualité.
 
 Les mots mélangés sont parfaits pour apprendre à lire. Les élèves remettent les lettres dans le bon ordre. Chaque exercice inclut une image comme indice visuel. Cet outil pédagogique renforce le vocabulaire et l'orthographe.
 
@@ -141,7 +141,7 @@ Les noms d'images s'adaptent à la langue choisie. Parfait pour les exercices CP
         id: '5',
         icon: '💰',
         title: 'Licence Commerciale POD Incluse - Vendez vos Fiches à Imprimer Gratuit',
-        description: `Votre abonnement Core Bundle inclut la licence commerciale. Vendez vos créations sur Teachers Pay Teachers. Proposez vos fiches sur Etsy sans frais supplémentaires. Publiez sur Amazon KDP en toute légalité.
+        description: `Votre abonnement Pack Essentiel inclut la licence commerciale. Vendez vos créations sur Teachers Pay Teachers. Proposez vos fiches sur Etsy sans frais supplémentaires. Publiez sur Amazon KDP en toute légalité.
 
 Aucune attribution requise pour vos ventes. Qualité 300 DPI professionnelle pour l'impression. Parfait pour les enseignants entrepreneurs. Rentabilisez votre abonnement en vendant vos fiches maternelle.`,
         highlighted: true,
@@ -191,6 +191,13 @@ Choisissez majuscules ou minuscules selon le niveau. Le mode couleur aide les d�
     sectionDescription: 'Créer des fiches de mots mélangés prend moins de trois minutes. Suivez ce guide étape par étape. Aucune compétence technique requise. Même les débutants réussissent du premier coup.',
     ctaText: 'Commencer Maintenant',
     badgeText: 'Guide Étape par Étape',
+    stepLabel: 'Étape',
+    completionTitle: 'Terminé !',
+    completionSubtitle: 'Votre fiche est prête',
+    readyTime: 'Prêt en moins de 3 minutes',
+    noSkillsNeeded: 'Aucune compétence en design requise',
+    readMoreLabel: 'Lire la suite',
+    showLessLabel: 'Voir moins',
     steps: [
       {
         id: '1',
@@ -273,6 +280,8 @@ Activez l'option "Niveaux de gris" pour économiser l'encre. La fiche se convert
     sectionTitle: 'Qui Utilise les Mots Mélangés - Fiches Maternelle et Exercices CP pour Tous les Éducateurs',
     sectionDescription: 'Les mots mélangés conviennent à de nombreux profils d\'utilisateurs. Enseignants, parents et éducateurs trouvent tous leur compte. Découvrez comment chaque groupe utilise cet outil. Trouvez l\'inspiration pour vos propres usages.',
     badgeText: 'Cas d\'Utilisation',
+    readMoreLabel: 'Lire la suite',
+    showLessLabel: 'Voir moins',
     items: [
       {
         id: '1',
@@ -368,13 +377,17 @@ Créez des séries complètes pour fidéliser vos clients. Pack rentrée avec vo
     showMoreText: 'Voir plus de questions',
     showLessText: 'Voir moins',
     badgeText: 'FAQ',
+    readMoreLabel: 'Lire la suite',
+    showLessLabel: 'Voir moins',
+    secureCheckout: 'Paiement sécurisé',
+    cancelAnytime: 'Résiliez à tout moment',
     items: [
       {
         id: '1',
         question: 'Ce Générateur de Mots Mélangés est-il Vraiment Gratuit pour les Fiches à Imprimer ?',
-        answer: `Le générateur de mots mélangés nécessite un abonnement Core Bundle. Le tarif est de 144 € par an ou 15 € par mois. Votre abonnement vous donne une création illimitée de fiches. Générez autant de fiches à imprimer que vous le souhaitez sans frais supplémentaires.
+        answer: `Le générateur de mots mélangés nécessite un abonnement Pack Essentiel. Le tarif est de 144 € par an ou 15 € par mois. Votre abonnement vous donne une création illimitée de fiches. Générez autant de fiches à imprimer que vous le souhaitez sans frais supplémentaires.
 
-Le Core Bundle inclut 10 générateurs de fiches populaires. L'abonnement Full Access coûte 240 € par an et inclut les 33 générateurs. Les deux abonnements incluent la licence commerciale, le support 11 langues et l'export 300 DPI professionnel.`,
+Le Pack Essentiel inclut 10 générateurs de fiches populaires. L'abonnement Accès Complet coûte 240 € par an et inclut les 33 générateurs. Les deux abonnements incluent la licence commerciale, le support 11 langues et l'export 300 DPI professionnel.`,
       },
       {
         id: '2',
@@ -393,7 +406,7 @@ La personnalisation reste simple et intuitive. Glissez-déposez pour déplacer l
       {
         id: '4',
         question: 'Les Fiches Maternelle de Mots Mélangés Conviennent-elles à ma Classe ?',
-        answer: `L'abonnement Core Bundle inclut une utilisation illimitée en classe. Imprimez autant de fiches maternelle que nécessaire pour vos élèves. Distribuez les fiches sans restriction de nombre. Utilisez-les pour les devoirs, les évaluations ou les activités en classe.
+        answer: `L'abonnement Pack Essentiel inclut une utilisation illimitée en classe. Imprimez autant de fiches maternelle que nécessaire pour vos élèves. Distribuez les fiches sans restriction de nombre. Utilisez-les pour les devoirs, les évaluations ou les activités en classe.
 
 Les quatre niveaux de difficulté s'adaptent à tous les niveaux. La maternelle grande section bénéficie du mode facile avec indices. Le CP et CE1 utilisent les modes plus difficiles. Chaque élève progresse à son rythme.`,
       },
@@ -407,7 +420,7 @@ Les noms d'images s'adaptent automatiquement à la langue choisie. Une image de 
       {
         id: '6',
         question: 'Puis-je Vendre les Fiches Maternelle que je Crée avec ce Générateur ?',
-        answer: `Oui. L'abonnement Core Bundle inclut la licence commerciale POD complète. Vendez vos fiches maternelle sur Teachers Pay Teachers sans frais supplémentaires. Proposez vos créations sur Etsy ou Amazon KDP en toute légalité.
+        answer: `Oui. L'abonnement Pack Essentiel inclut la licence commerciale POD complète. Vendez vos fiches maternelle sur Teachers Pay Teachers sans frais supplémentaires. Proposez vos créations sur Etsy ou Amazon KDP en toute légalité.
 
 Aucune attribution n'est requise sur vos produits vendus. La qualité 300 DPI convient parfaitement à la vente professionnelle. Créez des packs thématiques et développez votre activité d'enseignant entrepreneur.`,
       },
@@ -458,7 +471,7 @@ Pour des thèmes très spécifiques, téléversez vos propres images. Créez des
 
   // Pricing
   pricing: {
-    title: 'Core Bundle',
+    title: 'Pack Essentiel',
     price: '144€',
     priceInterval: '/an',
     priceSuffix: 'Facturé annuellement',
@@ -477,11 +490,18 @@ Pour des thèmes très spécifiques, téléversez vos propres images. Créez des
   // Related Apps - From word-scramble.md Section 7
   relatedApps: {
     sectionTitle: 'Combinez les Mots Mélangés avec d\'Autres Générateurs - Coloriage à Imprimer et Exercices Maths',
-    sectionDescription: 'Le générateur de mots mélangés fait partie du Core Bundle. Neuf autres générateurs complètent parfaitement cet outil. Créez des parcours pédagogiques complets en combinant plusieurs applications.',
+    sectionDescription: 'Le générateur de mots mélangés fait partie du Pack Essentiel. Neuf autres générateurs complètent parfaitement cet outil. Créez des parcours pédagogiques complets en combinant plusieurs applications.',
     ctaTitle: 'Prêt à Créer des Fiches Professionnelles ?',
     ctaDescription: 'Rejoignez des milliers d\'enseignants qui créent des fiches maternelle de qualité. Création illimitée, licence commerciale incluse.',
     primaryCtaText: 'Essai Gratuit',
     secondaryCtaText: 'Voir les 33 Applications',
+    badgeText: 'Fonctionne Parfaitement Avec',
+    exploreText: 'Explorer toutes les applications',
+    trustBadges: {
+      guarantee: 'Garantie satisfait ou remboursé 30 jours',
+      securePayment: 'Paiement sécurisé',
+      cancelAnytime: 'Résiliez à tout moment',
+    },
     items: [
       {
         id: '1',

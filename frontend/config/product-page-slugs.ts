@@ -266,6 +266,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       en: 'pattern-train-worksheets',
       sv: 'monster-tag-arbetsblad',
       de: 'muster-zug-arbeitsblaetter',
+      fr: 'train-suites-logiques-fiches',
     },
   },
   {

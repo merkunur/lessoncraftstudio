@@ -558,6 +558,12 @@ const nextConfig = {
         destination: '/fr/apps/intrus-fiches',
         permanent: true,
       },
+      // French: pattern-train-worksheets → train-suites-logiques-fiches
+      {
+        source: '/fr/apps/pattern-train-worksheets',
+        destination: '/fr/apps/train-suites-logiques-fiches',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

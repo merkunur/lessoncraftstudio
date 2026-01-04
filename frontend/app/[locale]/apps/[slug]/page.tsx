@@ -96,6 +96,7 @@ import cryptogramFrContent from '@/content/product-pages/fr/cryptogram-worksheet
 import missingPiecesFrContent from '@/content/product-pages/fr/missing-pieces-worksheets';
 import moreLessFrContent from '@/content/product-pages/fr/more-less-worksheets';
 import oddOneOutFrContent from '@/content/product-pages/fr/odd-one-out-worksheets';
+import patternTrainFrContent from '@/content/product-pages/fr/pattern-train-worksheets';
 
 interface PageProps {
   params: {
@@ -1565,6 +1566,51 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       },
       alternates: {
         canonical: 'https://www.lessoncraftstudio.com/fr/apps/comparaison-quantites-fiches', // Point to new URL
+      },
+    };
+  }
+
+  // Pattern Train Worksheets - French product page SEO (new French slug)
+  if (params.slug === 'train-suites-logiques-fiches' && params.locale === 'fr') {
+    return {
+      title: 'Fiches à Imprimer Gratuit | Générateur de Suites Logiques Train pour Fiches Maternelle',
+      description: 'Créez des fiches maternelle professionnelles de reconnaissance de suites logiques avec notre générateur de train à motifs. Générez des exercices CP personnalisés parfaits pour la maternelle et le CP. Téléchargez des fiches de haute qualité en PDF en moins de 3 minutes.',
+      keywords: 'fiches maternelle, suites logiques, fiches à imprimer gratuit, exercices CP, train à motifs, reconnaissance de motifs, maternelle, CP, générateur fiches, suites AB ABC',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/fr/apps/train-suites-logiques-fiches',
+        languages: {
+          'en': 'https://www.lessoncraftstudio.com/en/apps/pattern-train-worksheets',
+          'sv': 'https://www.lessoncraftstudio.com/sv/apps/monster-tag-arbetsblad',
+          'de': 'https://www.lessoncraftstudio.com/de/apps/muster-zug-arbeitsblaetter',
+          'fr': 'https://www.lessoncraftstudio.com/fr/apps/train-suites-logiques-fiches',
+          'x-default': 'https://www.lessoncraftstudio.com/en/apps/pattern-train-worksheets',
+        },
+      },
+      openGraph: {
+        title: 'Générateur de Suites Logiques Train | Fiches Maternelle | LessonCraftStudio',
+        description: 'Créez des fiches de suites logiques professionnelles avec notre générateur de fiches maternelle. Parfait pour les enseignants de maternelle, CP et CE1.',
+        url: 'https://www.lessoncraftstudio.com/fr/apps/train-suites-logiques-fiches',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Legacy: Redirect old French pattern-train-worksheets slug to new slug (for backwards compatibility)
+  if (params.slug === 'pattern-train-worksheets' && params.locale === 'fr') {
+    return {
+      title: 'Générateur de Suites Logiques Train | Fiches Maternelle',
+      description: 'Créez des fiches de suites logiques professionnelles avec notre générateur de fiches maternelle.',
+      robots: {
+        index: false, // Don't index old URL
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/fr/apps/train-suites-logiques-fiches', // Point to new URL
       },
     };
   }
@@ -7053,6 +7099,8 @@ export async function generateStaticParams() {
     'cryptogramme-images-fiches', // Product page slug (French) - language-specific SEO slug for cryptogram
     'pieces-manquantes-fiches', // Product page slug (French) - language-specific SEO slug for missing-pieces
     'comparaison-quantites-fiches', // Product page slug (French) - language-specific SEO slug for more-less
+    'intrus-fiches', // Product page slug (French) - language-specific SEO slug for odd-one-out
+    'train-suites-logiques-fiches', // Product page slug (French) - language-specific SEO slug for pattern-train
     'alphabet-zug-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug
     'malvorlagen-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug
     'mathe-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for math worksheets

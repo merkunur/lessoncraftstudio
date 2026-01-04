@@ -618,6 +618,12 @@ const nextConfig = {
         destination: '/es/apps/dibujos-colorear-fichas',
         permanent: true,
       },
+      // Spanish: math-worksheets → acertijos-matematicos-fichas
+      {
+        source: '/es/apps/math-worksheets',
+        destination: '/es/apps/acertijos-matematicos-fichas',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

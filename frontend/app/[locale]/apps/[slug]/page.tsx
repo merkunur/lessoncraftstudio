@@ -103,6 +103,7 @@ import wordSearchEsContent from '@/content/product-pages/es/word-search-workshee
 import additionEsContent from '@/content/product-pages/es/addition-worksheets';
 import alphabetTrainEsContent from '@/content/product-pages/es/alphabet-train-worksheets';
 import coloringEsContent from '@/content/product-pages/es/coloring-worksheets';
+import mathWorksheetsEsContent from '@/content/product-pages/es/math-worksheets';
 
 interface PageProps {
   params: {
@@ -1105,6 +1106,52 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       },
       alternates: {
         canonical: 'https://www.lessoncraftstudio.com/fr/apps/exercices-maths-fiches', // Point to new URL
+      },
+    };
+  }
+
+  // Math Worksheets - Spanish product page SEO (new Spanish slug)
+  if (params.slug === 'acertijos-matematicos-fichas' && params.locale === 'es') {
+    return {
+      title: 'Fichas de Matemáticas para Imprimir | Generador de Ejercicios Matemáticas Gratis',
+      description: 'Crea fichas de matemáticas profesionales con nuestro generador de ejercicios matemáticas. Genera fichas para imprimir personalizadas perfectas para preescolar y primaria. Descarga ejercicios matemáticas en PDF de alta calidad en menos de 3 minutos.',
+      keywords: 'fichas de matemáticas, ejercicios matemáticas, fichas para imprimir, fichas infantil, fichas preescolar, grafomotricidad, lectoescritura, aprender los números, material educativo gratis, fichas gratis, acertijos matemáticos',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/es/apps/acertijos-matematicos-fichas',
+        languages: {
+          'en': 'https://www.lessoncraftstudio.com/en/apps/math-worksheets',
+          'sv': 'https://www.lessoncraftstudio.com/sv/apps/matematik-arbetsblad',
+          'de': 'https://www.lessoncraftstudio.com/de/apps/mathe-arbeitsblaetter',
+          'fr': 'https://www.lessoncraftstudio.com/fr/apps/exercices-maths-fiches',
+          'es': 'https://www.lessoncraftstudio.com/es/apps/acertijos-matematicos-fichas',
+          'x-default': 'https://www.lessoncraftstudio.com/en/apps/math-worksheets',
+        },
+      },
+      openGraph: {
+        title: 'Fichas de Matemáticas para Imprimir | LessonCraftStudio',
+        description: 'Crea fichas de matemáticas profesionales con nuestro generador de ejercicios matemáticas. Perfectas para preescolar y primaria.',
+        url: 'https://www.lessoncraftstudio.com/es/apps/acertijos-matematicos-fichas',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Math Worksheets - Spanish legacy redirect (old English slug in Spanish locale)
+  if (params.slug === 'math-worksheets' && params.locale === 'es') {
+    return {
+      title: 'Fichas de Matemáticas para Imprimir | LessonCraftStudio',
+      description: 'Página movida. Por favor visita la nueva URL.',
+      robots: {
+        index: false, // Don't index old URL
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/es/apps/acertijos-matematicos-fichas', // Point to new URL
       },
     };
   }
@@ -7414,6 +7461,7 @@ export async function generateStaticParams() {
     'chasse-au-tresor-fiches', // Product page slug (French) - language-specific SEO slug for treasure-hunt
     'deviner-mots-fiches', // Product page slug (French) - language-specific SEO slug for word-guess
     'ecriture-fiches', // Product page slug (French) - language-specific SEO slug for writing
+    'acertijos-matematicos-fichas', // Product page slug (Spanish) - language-specific SEO slug for math-worksheet
     'alphabet-zug-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug
     'malvorlagen-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug
     'mathe-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for math worksheets

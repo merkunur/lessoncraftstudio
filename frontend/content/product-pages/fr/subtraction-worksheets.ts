@@ -274,35 +274,6 @@ Les enseignants de maternelle et de CP utilisent ces fiches de soustraction pour
     ],
   },
 
-  // Subscription Reasons - FULL text from French subtraction.md Section 5
-  subscriptionReasons: {
-    sectionTitle: 'Top 3 Raisons d\'Abonnement Accès Complet - Fiches à Imprimer Gratuit et Fonctionnalités Premium',
-    sectionDescription: 'Les enseignants s\'abonnent à Accès Complet pour trois raisons principales. Chaque raison offre une valeur exceptionnelle qui justifie l\'investissement de 240€ par an.',
-    badgeText: 'Pourquoi S\'abonner',
-    readMoreLabel: 'Lire la suite',
-    showLessLabel: 'Voir moins',
-    items: [
-      {
-        id: '1',
-        icon: '🌍',
-        title: 'Enseigner l\'Alphabet et Apprendre à Lire en Plusieurs Langues',
-        description: `L'enseignement multilingue demande des ressources dans chaque langue enseignée. Accès Complet offre 11 langues pour créer vos fiches de soustraction. Enseignez l'alphabet français avec images commençant par chaque lettre. Créez les mêmes exercices en anglais pour comparer les systèmes. Les écoles bilingues économisent des milliers d'euros annuellement. Achetez des ressources séparées pour chaque langue coûterait 500-1000€. Notre plateforme inclut tout dans un seul abonnement à 240€. Les enseignants FLE utilisent nos fiches pour apprendre à lire visuellement. Les images éliminent les barrières linguistiques pour les débutants. Créez des exercices identiques en français et langue maternelle des élèves. Cette approche comparative accélère la compréhension mathématique et linguistique. Les programmes d'immersion bénéficient énormément de cette flexibilité. Changez la langue instantanément selon vos besoins pédagogiques quotidiens. Les écoles internationales avec élèves multilingues trouvent cela indispensable.`,
-      },
-      {
-        id: '2',
-        icon: '💰',
-        title: 'Licence Commerciale pour Vendre Tables de Multiplication et Coloriage à Imprimer',
-        description: `La licence commerciale Accès Complet vaut normalement 100-200€ supplémentaires chez concurrents. Notre abonnement inclut droits commerciaux print-on-demand complets sans frais extra. Vendez vos créations sur Teachers Pay Teachers, Etsy, Amazon KDP. Combinez soustraction avec tables de multiplication pour packs mathématiques complets. Ajoutez pages de coloriage à imprimer pour augmenter la valeur perçue. Les packs combinant calcul et coloriage se vendent exceptionnellement bien. Les parents achètent des cahiers multi-activités pour occuper leurs enfants. Créez des "Cahiers de Vacances" avec soustraction, tables de multiplication, et coloriage. Ces produits composites génèrent plus de revenus que fiches individuelles. Les enseignants entrepreneurs français génèrent 500-2000€ mensuels en revenus passifs. Le marché francophone est largement sous-servi en ressources de qualité. Teachers Pay Teachers regorge de ressources anglaises mais manque de français. Cette opportunité crée un avantage concurrentiel pour créateurs francophones.`,
-      },
-      {
-        id: '3',
-        icon: '⏱️',
-        title: 'Gain de Temps avec Graphisme Maternelle et Écriture Cursive Intégrés',
-        description: `Les enseignants manquent cruellement de temps pour créer des ressources. Créer une fiche de soustraction de qualité prend traditionnellement 30-60 minutes. Notre générateur réduit ce temps à moins de 3 minutes. Économisez 27-57 minutes par fiche créée avec notre système. Multipliez par 5 fiches par semaine : 135-285 minutes économisées hebdomadairement. Sur une année scolaire de 36 semaines : 81-171 heures récupérées. Ces heures libérées servent à enseigner, pas à préparer. Combinez création de fiches mathématiques avec graphisme maternelle facilement. Ajoutez lignes de graphisme autour des images en quelques clics. Intégrez objectifs d'écriture cursive dans vos exercices de calcul. Les élèves tracent les chiffres en écriture avant de calculer. Cette approche multi-compétences économise temps de préparation et d'enseignement. Vous n'avez plus besoin de créer des fiches séparées pour chaque compétence. L'épuisement professionnel touche 40% des enseignants français. Récupérer 100+ heures annuellement améliore équilibre vie professionnelle-personnelle.`,
-      },
-    ],
-  },
-
   // FAQ Section - FULL text from French subtraction.md Section 6
   faq: {
     sectionTitle: 'Questions Fréquentes sur Générateur de Soustraction',

@@ -275,6 +275,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       en: 'pattern-worksheets',
       sv: 'monster-arbetsblad',
       de: 'muster-arbeitsblatt-arbeitsblaetter',
+      fr: 'sequences-logiques-fiches',
     },
   },
   {

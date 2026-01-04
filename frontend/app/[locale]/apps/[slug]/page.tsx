@@ -1615,6 +1615,51 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     };
   }
 
+  // Pattern Worksheet - French product page SEO (new French slug)
+  if (params.slug === 'sequences-logiques-fiches' && params.locale === 'fr') {
+    return {
+      title: 'Générateur de Fiches de Séquences | Fiches Maternelle et Exercices Maths à Imprimer Gratuit',
+      description: 'Créez des fiches de séquences professionnelles avec notre générateur. Générez des fiches maternelle et exercices maths personnalisés parfaits pour la maternelle et le CP. Téléchargez des fiches à imprimer gratuit de haute qualité en PDF en moins de 3 minutes.',
+      keywords: 'fiches maternelle, exercices maths, fiches à imprimer gratuit, exercices CP, exercices CE1, séquences logiques, graphisme maternelle, tables de multiplication, apprendre à lire, coloriage à imprimer',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/fr/apps/sequences-logiques-fiches',
+        languages: {
+          'en': 'https://www.lessoncraftstudio.com/en/apps/pattern-worksheets',
+          'sv': 'https://www.lessoncraftstudio.com/sv/apps/monster-arbetsblad',
+          'de': 'https://www.lessoncraftstudio.com/de/apps/muster-arbeitsblatt-arbeitsblaetter',
+          'fr': 'https://www.lessoncraftstudio.com/fr/apps/sequences-logiques-fiches',
+          'x-default': 'https://www.lessoncraftstudio.com/en/apps/pattern-worksheets',
+        },
+      },
+      openGraph: {
+        title: 'Générateur de Fiches de Séquences | Fiches Maternelle | LessonCraftStudio',
+        description: 'Créez des fiches de séquences professionnelles avec notre générateur de fiches maternelle. Parfait pour les enseignants de maternelle, CP et CE1.',
+        url: 'https://www.lessoncraftstudio.com/fr/apps/sequences-logiques-fiches',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Legacy: Redirect old French pattern-worksheets slug to new slug (for backwards compatibility)
+  if (params.slug === 'pattern-worksheets' && params.locale === 'fr') {
+    return {
+      title: 'Générateur de Fiches de Séquences | Fiches Maternelle',
+      description: 'Créez des fiches de séquences professionnelles avec notre générateur de fiches maternelle.',
+      robots: {
+        index: false, // Don't index old URL
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/fr/apps/sequences-logiques-fiches', // Point to new URL
+      },
+    };
+  }
+
   // Missing Pieces Worksheets - German product page SEO (new German slug)
   if (params.slug === 'fehlende-puzzleteile-arbeitsblaetter' && params.locale === 'de') {
     return {
@@ -7101,6 +7146,7 @@ export async function generateStaticParams() {
     'comparaison-quantites-fiches', // Product page slug (French) - language-specific SEO slug for more-less
     'intrus-fiches', // Product page slug (French) - language-specific SEO slug for odd-one-out
     'train-suites-logiques-fiches', // Product page slug (French) - language-specific SEO slug for pattern-train
+    'sequences-logiques-fiches', // Product page slug (French) - language-specific SEO slug for pattern-worksheet
     'alphabet-zug-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug
     'malvorlagen-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug
     'mathe-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for math worksheets

@@ -137,6 +137,7 @@ import missingPiecesFrContent from '@/content/product-pages/fr/missing-pieces-wo
 import moreLessFrContent from '@/content/product-pages/fr/more-less-worksheets';
 import oddOneOutFrContent from '@/content/product-pages/fr/odd-one-out-worksheets';
 import patternTrainFrContent from '@/content/product-pages/fr/pattern-train-worksheets';
+import patternWorksheetFrContent from '@/content/product-pages/fr/pattern-worksheet-worksheets';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -549,6 +550,10 @@ export const contentRegistry: ContentRegistry = {
     'train-suites-logiques-fiches': patternTrainFrContent,
     // Also keep old slug for backwards compatibility during transition
     'pattern-train-worksheets': patternTrainFrContent,
+    // French Pattern Worksheet - uses French SEO slug
+    'sequences-logiques-fiches': patternWorksheetFrContent,
+    // Also keep old slug for backwards compatibility during transition
+    'pattern-worksheets': patternWorksheetFrContent,
   },
 };
 

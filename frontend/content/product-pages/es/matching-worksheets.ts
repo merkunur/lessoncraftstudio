@@ -9,7 +9,7 @@ import { ProductPageContent } from '@/components/product-page/ProductPageClient'
  * FULL SEO content from: INDIVIDUAL APP PAGES/Spanish/matching.md
  * DO NOT SHORTEN - Every paragraph is SEO-optimized
  *
- * Bundle: Core Bundle ($144/year)
+ * Bundle: Paquete Esencial ($144/year)
  * App ID: matching-app
  */
 
@@ -28,7 +28,7 @@ export const matchingEsContent: ProductPageContent = {
   hero: {
     title: 'Fichas para Imprimir de Relacionar',
     subtitle: 'Fichas Preescolar y Material Educativo Gratis para Lectoescritura',
-    description: `Crea fichas para imprimir profesionales de relacionar columnas con nuestro generador de fichas educativas. Tu suscripción al Core Bundle te da acceso ilimitado para crear fichas preescolar y fichas infantil sin costos adicionales por ficha. Genera fichas de relacionar personalizadas perfectas para preescolar, primer grado y segundo grado. Descarga fichas para imprimir de alta calidad en formato PDF en menos de 3 minutos.
+    description: `Crea fichas para imprimir profesionales de relacionar columnas con nuestro generador de fichas educativas. Tu suscripción al Paquete Esencial te da acceso ilimitado para crear fichas preescolar y fichas infantil sin costos adicionales por ficha. Genera fichas de relacionar personalizadas perfectas para preescolar, primer grado y segundo grado. Descarga fichas para imprimir de alta calidad en formato PDF en menos de 3 minutos.
 
 Nuestro generador de fichas ofrece cuatro modos diferentes de relacionar. Conecta imágenes con letras iniciales para practicar el abecedario y aprender las letras. Relaciona imágenes con palabras para lectoescritura y desarrollo de vocabulario. Crea ejercicios de números y aprender los números con pares personalizados. Usa el modo personalizado para conectar imágenes con cualquier texto que necesites.
 
@@ -36,7 +36,7 @@ Cada ficha para imprimir es completamente editable. Arrastra, rota y escala cual
 
 El generador funciona para grafomotricidad y preparación para escritura. Usa las fichas de relacionar para que los niños practiquen trazar líneas rectas conectando elementos. Combina con fichas de matemáticas para relacionar números con cantidades. Integra con dibujos para colorear creando fichas temáticas completas. El material educativo gratis que buscas está incluido en tu suscripción.
 
-Tu suscripción al Core Bundle cuesta $144 anuales o $15 mensuales. Incluye acceso a 10 generadores populares de fichas. Crea fichas gratis ilimitadas sin límite de descargas. Todas las fichas para imprimir se exportan en 300 DPI de calidad profesional. Perfectas para imprimir en casa o vender en plataformas educativas.
+Tu suscripción al Paquete Esencial cuesta $144 anuales o $15 mensuales. Incluye acceso a 10 generadores populares de fichas. Crea fichas gratis ilimitadas sin límite de descargas. Todas las fichas para imprimir se exportan en 300 DPI de calidad profesional. Perfectas para imprimir en casa o vender en plataformas educativas.
 
 El generador incluye soporte para 11 idiomas. Perfecto para clases bilingües de español-inglés. Los nombres de las imágenes cambian según el idioma seleccionado. Esto hace que las fichas para imprimir funcionen naturalmente para enseñanza de inglés como segundo idioma. Cambia entre español e inglés con un clic.`,
     previewImageSrc: '/samples/english/matching/matching portrait.jpeg',
@@ -166,7 +166,7 @@ El soporte multiidioma ayuda en escuelas internacionales. Crea fichas infantil p
         id: '5',
         icon: '💰',
         title: 'Licencia Comercial Incluida - Vende Fichas para Imprimir y Material Educativo Gratis en Teachers Pay Teachers',
-        description: `Tu suscripción al Core Bundle incluye licencia comercial completa. Vende las fichas para imprimir que creas. No hay costos adicionales de licencia. No se requiere atribución. Esta es una licencia de impresión bajo demanda completa.
+        description: `Tu suscripción al Paquete Esencial incluye licencia comercial completa. Vende las fichas para imprimir que creas. No hay costos adicionales de licencia. No se requiere atribución. Esta es una licencia de impresión bajo demanda completa.
 
 Vende en Teachers Pay Teachers como muchos maestros emprendedores. Sube paquetes de fichas preescolar temáticas. Cobra $2 a $5 por paquete. Maestros ganan $500 a $5000 mensuales. Las fichas para imprimir se venden bien todo el año.
 
@@ -359,7 +359,7 @@ Sube fotos familiares para hacer fichas preescolar personales. Los niños homesc
 
 La flexibilidad de temas ayuda con unidades de estudio. Esta semana estudian océanos. Genera fichas para imprimir con animales marinos. La próxima semana es el sistema solar. Crea fichas con planetas. El material siempre se alinea con tu plan de estudios.
 
-Los padres homeschoolers valoran el ahorro de tiempo. No necesitas buscar hojas imprimibles en internet. No necesitas comprar libros caros de actividades. No necesitas suscripciones a múltiples sitios. Una suscripción al Core Bundle por $144 anuales da acceso a todo. Esto es más económico que materiales tradicionales.
+Los padres homeschoolers valoran el ahorro de tiempo. No necesitas buscar hojas imprimibles en internet. No necesitas comprar libros caros de actividades. No necesitas suscripciones a múltiples sitios. Una suscripción al Paquete Esencial por $144 anuales da acceso a todo. Esto es más económico que materiales tradicionales.
 
 La licencia comercial beneficia a padres que venden currículos. Algunos padres homeschoolers crean y venden recursos. Puedes incluir estas fichas para imprimir en tus paquetes. Vende en co-ops locales. Ofrece en grupos de homeschool. La licencia lo permite todo.`,
         quote: 'Una herramienta para todos los niveles de mis hijos.',
@@ -401,7 +401,7 @@ Los dibujos para colorear extienden el trabajo para estudiantes que terminan rá
         icon: '💰',
         title: 'Maestros Emprendedores - Vende Fichas para Imprimir y Material Educativo Gratis en Etsy y Teachers Pay Teachers',
         subtitle: 'Genera Ingresos Vendiendo Recursos Educativos',
-        description: `Miles de maestros ganan ingresos extra vendiendo recursos educativos. Las fichas para imprimir se venden extremadamente bien. Los maestros buscan constantemente material educativo gratis de calidad para descargar. Tu suscripción al Core Bundle incluye licencia comercial completa.
+        description: `Miles de maestros ganan ingresos extra vendiendo recursos educativos. Las fichas para imprimir se venden extremadamente bien. Los maestros buscan constantemente material educativo gratis de calidad para descargar. Tu suscripción al Paquete Esencial incluye licencia comercial completa.
 
 Teachers Pay Teachers es el mercado más grande. Millones de maestros compran ahí mensualmente. Las fichas preescolar de relacionar son productos populares. Crea paquetes temáticos. "Relacionar Animales de Granja - 10 Fichas". Cobra $3-5 por paquete. Los maestros compran porque ahorran tiempo.
 
@@ -430,7 +430,7 @@ Crea productos de nicho para mayores ganancias. "Fichas Bilingües Español-Ingl
       {
         id: '1',
         question: '¿Este Generador de Fichas para Imprimir es Realmente Gratis? Material Educativo Gratis con Suscripción',
-        answer: 'El generador de fichas para imprimir requiere una suscripción al Core Bundle que cuesta $144 anuales o $15 mensuales. Tu suscripción te da creación ilimitada de fichas sin cargos por ficha individual. Genera tantas fichas preescolar como necesites sin costos adicionales. Crea material educativo gratis ilimitado durante todo el año. El Core Bundle incluye 10 generadores populares de fichas. La suscripción Full Access cuesta $240 anuales e incluye los 33 tipos de generadores. Ambas suscripciones incluyen licencia comercial, soporte para 11 idiomas y exportación en calidad profesional 300 DPI.',
+        answer: 'El generador de fichas para imprimir requiere una suscripción al Paquete Esencial que cuesta $144 anuales o $15 mensuales. Tu suscripción te da creación ilimitada de fichas sin cargos por ficha individual. Genera tantas fichas preescolar como necesites sin costos adicionales. Crea material educativo gratis ilimitado durante todo el año. El Paquete Esencial incluye 10 generadores populares de fichas. La suscripción Acceso Completo cuesta $240 anuales e incluye los 33 tipos de generadores. Ambas suscripciones incluyen licencia comercial, soporte para 11 idiomas y exportación en calidad profesional 300 DPI.',
       },
       {
         id: '2',
@@ -445,7 +445,7 @@ Crea productos de nicho para mayores ganancias. "Fichas Bilingües Español-Ingl
       {
         id: '4',
         question: '¿Puedo Usar las Fichas Infantil en Mi Clase con Mis Estudiantes? Fichas Preescolar para Uso Educativo',
-        answer: 'La suscripción al Core Bundle incluye uso ilimitado en tu salón de clases. Imprime tantas copias como necesites para tus estudiantes. Usa las fichas para imprimir para tarea, trabajo en clase, centros de aprendizaje o evaluaciones. No hay restricciones en cómo usas el material con tus estudiantes. Comparte las fichas preescolar digitalmente con tus estudiantes en plataformas como Google Classroom. Los estudiantes pueden completar las fichas infantil en tabletas o imprimirlas en casa. Tu suscripción cubre todo uso educativo con tus propios estudiantes.',
+        answer: 'La suscripción al Paquete Esencial incluye uso ilimitado en tu salón de clases. Imprime tantas copias como necesites para tus estudiantes. Usa las fichas para imprimir para tarea, trabajo en clase, centros de aprendizaje o evaluaciones. No hay restricciones en cómo usas el material con tus estudiantes. Comparte las fichas preescolar digitalmente con tus estudiantes en plataformas como Google Classroom. Los estudiantes pueden completar las fichas infantil en tabletas o imprimirlas en casa. Tu suscripción cubre todo uso educativo con tus propios estudiantes.',
       },
       {
         id: '5',
@@ -455,7 +455,7 @@ Crea productos de nicho para mayores ganancias. "Fichas Bilingües Español-Ingl
       {
         id: '6',
         question: '¿Puedo Vender las Fichas de Matemáticas y Tablas de Multiplicar que Creo? Licencia Comercial Incluida',
-        answer: 'Sí. La suscripción al Core Bundle incluye licencia comercial completa de impresión bajo demanda sin costo adicional. Vende las fichas para imprimir que creas en Teachers Pay Teachers, Etsy, Amazon KDP o tu propia tienda. No hay límites en cuánto vendes. No se requiere atribución. Las fichas de matemáticas con tablas de multiplicar se venden particularmente bien. La licencia comercial normalmente cuesta $100-200 anuales extra con competidores. Con el Core Bundle está incluida en los $144 anuales.',
+        answer: 'Sí. La suscripción al Paquete Esencial incluye licencia comercial completa de impresión bajo demanda sin costo adicional. Vende las fichas para imprimir que creas en Teachers Pay Teachers, Etsy, Amazon KDP o tu propia tienda. No hay límites en cuánto vendes. No se requiere atribución. Las fichas de matemáticas con tablas de multiplicar se venden particularmente bien. La licencia comercial normalmente cuesta $100-200 anuales extra con competidores. Con el Paquete Esencial está incluida en los $144 anuales.',
       },
       {
         id: '7',
@@ -492,7 +492,7 @@ Crea productos de nicho para mayores ganancias. "Fichas Bilingües Español-Ingl
 
   // Pricing
   pricing: {
-    title: 'Core Bundle',
+    title: 'Paquete Esencial',
     price: '$144',
     priceInterval: '/año',
     priceSuffix: 'Facturación anual',

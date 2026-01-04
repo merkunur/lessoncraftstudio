@@ -338,6 +338,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       en: 'word-guess-worksheets',
       sv: 'gissa-ordet-arbetsblad',
       de: 'woerter-raten-arbeitsblaetter',
+      fr: 'deviner-mots-fiches',
     },
   },
   {

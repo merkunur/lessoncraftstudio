@@ -594,6 +594,12 @@ const nextConfig = {
         destination: '/fr/apps/chasse-au-tresor-fiches',
         permanent: true,
       },
+      // French: word-guess-worksheets → deviner-mots-fiches
+      {
+        source: '/fr/apps/word-guess-worksheets',
+        destination: '/fr/apps/deviner-mots-fiches',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

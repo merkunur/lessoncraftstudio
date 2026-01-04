@@ -144,6 +144,7 @@ import prepositionsFrContent from '@/content/product-pages/fr/prepositions-works
 import shadowMatchFrContent from '@/content/product-pages/fr/shadow-match-worksheets';
 import subtractionFrContent from '@/content/product-pages/fr/subtraction-worksheets';
 import treasureHuntFrContent from '@/content/product-pages/fr/treasure-hunt-worksheets';
+import wordGuessFrContent from '@/content/product-pages/fr/word-guess-worksheets';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -584,6 +585,10 @@ export const contentRegistry: ContentRegistry = {
     'chasse-au-tresor-fiches': treasureHuntFrContent,
     // Also keep old slug for backwards compatibility during transition
     'treasure-hunt-worksheets': treasureHuntFrContent,
+    // French Word Guess - uses French SEO slug
+    'deviner-mots-fiches': wordGuessFrContent,
+    // Also keep old slug for backwards compatibility during transition
+    'word-guess-worksheets': wordGuessFrContent,
   },
 };
 

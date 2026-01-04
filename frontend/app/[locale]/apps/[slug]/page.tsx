@@ -98,6 +98,7 @@ import moreLessFrContent from '@/content/product-pages/fr/more-less-worksheets';
 import oddOneOutFrContent from '@/content/product-pages/fr/odd-one-out-worksheets';
 import patternTrainFrContent from '@/content/product-pages/fr/pattern-train-worksheets';
 import treasureHuntFrContent from '@/content/product-pages/fr/treasure-hunt-worksheets';
+import wordGuessFrContent from '@/content/product-pages/fr/word-guess-worksheets';
 
 interface PageProps {
   params: {
@@ -1837,6 +1838,51 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       },
       alternates: {
         canonical: 'https://www.lessoncraftstudio.com/fr/apps/chasse-au-tresor-fiches', // Point to new URL
+      },
+    };
+  }
+
+  // Word Guess Worksheets - French product page SEO (new French slug)
+  if (params.slug === 'deviner-mots-fiches' && params.locale === 'fr') {
+    return {
+      title: 'Fiches Deviner les Mots à Imprimer Gratuit - Générateur de Fiches Maternelle et CP avec Indices Visuels',
+      description: 'Créez des fiches maternelle professionnelles avec notre générateur de devinettes à indices visuels. Votre abonnement Accès Complet à 240 € par an vous donne accès illimité à la création de fiches. Parfait pour l\'apprentissage du vocabulaire et de l\'écriture en maternelle, CP et CE1.',
+      keywords: 'deviner les mots, fiches maternelle, exercices CP, fiches à imprimer gratuit, apprendre à lire, fiches alphabet, graphisme maternelle, exercices maths, apprendre les lettres, coloriage à imprimer, écriture cursive, exercices CE1',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/fr/apps/deviner-mots-fiches',
+        languages: {
+          'en': 'https://www.lessoncraftstudio.com/en/apps/word-guess-worksheets',
+          'sv': 'https://www.lessoncraftstudio.com/sv/apps/gissa-ordet-arbetsblad',
+          'de': 'https://www.lessoncraftstudio.com/de/apps/woerter-raten-arbeitsblaetter',
+          'fr': 'https://www.lessoncraftstudio.com/fr/apps/deviner-mots-fiches',
+          'x-default': 'https://www.lessoncraftstudio.com/en/apps/word-guess-worksheets',
+        },
+      },
+      openGraph: {
+        title: 'Fiches Deviner les Mots à Imprimer - Générateur de Fiches Maternelle | LessonCraftStudio',
+        description: 'Créez des fiches maternelle professionnelles avec notre générateur de devinettes à indices visuels. Parfait pour l\'apprentissage du vocabulaire en maternelle, CP et CE1.',
+        url: 'https://www.lessoncraftstudio.com/fr/apps/deviner-mots-fiches',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Legacy: Redirect old French word-guess slug to new slug (for backwards compatibility)
+  if (params.slug === 'word-guess-worksheets' && params.locale === 'fr') {
+    return {
+      title: 'Fiches Deviner les Mots à Imprimer - Générateur de Fiches Maternelle',
+      description: 'Créez des fiches maternelle professionnelles avec notre générateur de devinettes à indices visuels.',
+      robots: {
+        index: false, // Don't index the old URL
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/fr/apps/deviner-mots-fiches', // Point to new URL
       },
     };
   }
@@ -7334,6 +7380,7 @@ export async function generateStaticParams() {
     'discrimination-visuelle-fiches', // Product page slug (French) - language-specific SEO slug for shadow-match
     'soustraction-fiches', // Product page slug (French) - language-specific SEO slug for subtraction
     'chasse-au-tresor-fiches', // Product page slug (French) - language-specific SEO slug for treasure-hunt
+    'deviner-mots-fiches', // Product page slug (French) - language-specific SEO slug for word-guess
     'alphabet-zug-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug
     'malvorlagen-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug
     'mathe-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for math worksheets

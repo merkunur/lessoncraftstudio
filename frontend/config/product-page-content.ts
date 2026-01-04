@@ -147,6 +147,9 @@ import treasureHuntFrContent from '@/content/product-pages/fr/treasure-hunt-work
 import wordGuessFrContent from '@/content/product-pages/fr/word-guess-worksheets';
 import writingFrContent from '@/content/product-pages/fr/writing-worksheets';
 
+// Spanish content imports
+import wordSearchEsContent from '@/content/product-pages/es/word-search-worksheets';
+
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
   [locale: string]: {
@@ -594,6 +597,12 @@ export const contentRegistry: ContentRegistry = {
     'ecriture-fiches': writingFrContent,
     // Also keep old slug for backwards compatibility during transition
     'writing-worksheets': writingFrContent,
+  },
+  es: {
+    // Spanish Word Search - uses Spanish SEO slug
+    'sopa-letras-fichas': wordSearchEsContent,
+    // Also keep old slug for backwards compatibility during transition
+    'word-search-worksheets': wordSearchEsContent,
   },
 };
 

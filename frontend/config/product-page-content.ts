@@ -140,6 +140,7 @@ import patternTrainFrContent from '@/content/product-pages/fr/pattern-train-work
 import patternWorksheetFrContent from '@/content/product-pages/fr/pattern-worksheet-worksheets';
 import picturePathFrContent from '@/content/product-pages/fr/picture-path-worksheets';
 import pictureSortFrContent from '@/content/product-pages/fr/picture-sort-worksheets';
+import prepositionsFrContent from '@/content/product-pages/fr/prepositions-worksheets';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -564,6 +565,10 @@ export const contentRegistry: ContentRegistry = {
     'tri-images-fiches': pictureSortFrContent,
     // Also keep old slug for backwards compatibility during transition
     'picture-sort-worksheets': pictureSortFrContent,
+    // French Prepositions - uses French SEO slug
+    'prepositions-exercices-fiches': prepositionsFrContent,
+    // Also keep old slug for backwards compatibility during transition
+    'prepositions-worksheets': prepositionsFrContent,
   },
 };
 

@@ -570,6 +570,12 @@ const nextConfig = {
         destination: '/fr/apps/parcours-images-fiches',
         permanent: true,
       },
+      // French: prepositions-worksheets → prepositions-exercices-fiches
+      {
+        source: '/fr/apps/prepositions-worksheets',
+        destination: '/fr/apps/prepositions-exercices-fiches',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

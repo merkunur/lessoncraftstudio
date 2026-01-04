@@ -386,7 +386,7 @@ Les enseignants de maternelle et de CP utilisent ces fiches de soustraction pour
     priceSuffix: 'Facturé annuellement',
     ctaText: 'Commencer à Créer',
     guaranteeText: 'Garantie satisfait ou remboursé 30 jours',
-    features: [
+    benefits: [
       '33 générateurs de fiches inclus',
       'Création illimitée de fiches',
       'Bibliothèque de 3000+ images',

@@ -106,6 +106,8 @@ import coloringEsContent from '@/content/product-pages/es/coloring-worksheets';
 import mathWorksheetsEsContent from '@/content/product-pages/es/math-worksheets';
 import wordScrambleEsContent from '@/content/product-pages/es/word-scramble-worksheets';
 import findAndCountEsContent from '@/content/product-pages/es/find-and-count-worksheets';
+import matchingEsContent from '@/content/product-pages/es/matching-worksheets';
+import drawingLinesEsContent from '@/content/product-pages/es/drawing-lines-worksheets';
 
 interface PageProps {
   params: {

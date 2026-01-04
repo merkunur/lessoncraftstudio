@@ -156,6 +156,7 @@ import mathWorksheetsEsContent from '@/content/product-pages/es/math-worksheets'
 import wordScrambleEsContent from '@/content/product-pages/es/word-scramble-worksheets';
 import findAndCountEsContent from '@/content/product-pages/es/find-and-count-worksheets';
 import matchingEsContent from '@/content/product-pages/es/matching-worksheets';
+import drawingLinesEsContent from '@/content/product-pages/es/drawing-lines-worksheets';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -638,6 +639,10 @@ export const contentRegistry: ContentRegistry = {
     'relacionar-fichas': matchingEsContent,
     // Also keep old slug for backwards compatibility during transition
     'matching-worksheets': matchingEsContent,
+    // Spanish Drawing Lines - uses Spanish SEO slug
+    'grafomotricidad-fichas': drawingLinesEsContent,
+    // Also keep old slug for backwards compatibility during transition
+    'drawing-lines-worksheets': drawingLinesEsContent,
   },
 };
 

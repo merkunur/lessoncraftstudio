@@ -139,6 +139,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       sv: 'rita-linjer-arbetsblad',
       de: 'linien-ziehen-arbeitsblaetter',
       fr: 'graphisme-fiches',
+      es: 'grafomotricidad-fichas',
     },
   },
   {

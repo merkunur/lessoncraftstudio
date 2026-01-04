@@ -105,6 +105,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     sv: 'rita-linjer-arbetsblad',
     de: 'linien-ziehen-arbeitsblaetter',
     fr: 'graphisme-fiches',
+    es: 'grafomotricidad-fichas',
   },
   'picture-bingo': {
     en: 'picture-bingo-worksheets',

@@ -636,6 +636,18 @@ const nextConfig = {
         destination: '/es/apps/buscar-contar-fichas',
         permanent: true,
       },
+      // Spanish: matching-worksheets → relacionar-fichas
+      {
+        source: '/es/apps/matching-worksheets',
+        destination: '/es/apps/relacionar-fichas',
+        permanent: true,
+      },
+      // Spanish: drawing-lines-worksheets → grafomotricidad-fichas
+      {
+        source: '/es/apps/drawing-lines-worksheets',
+        destination: '/es/apps/grafomotricidad-fichas',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

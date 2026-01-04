@@ -408,7 +408,7 @@ Créez des collections saisonnières pour ventes régulières. Suites logiques d
 
   // Pricing
   pricing: {
-    title: 'Full Access',
+    title: 'Applications Accès Complet',
     price: '240€',
     priceInterval: '/an',
     priceSuffix: 'Facturation annuelle',

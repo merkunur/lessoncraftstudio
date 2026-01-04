@@ -293,6 +293,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       en: 'picture-sort-worksheets',
       sv: 'bildsortering-arbetsblad',
       de: 'bilder-sortieren-arbeitsblaetter',
+      fr: 'tri-images-fiches',
     },
   },
   {

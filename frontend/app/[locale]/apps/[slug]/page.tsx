@@ -7193,6 +7193,7 @@ export async function generateStaticParams() {
     'train-suites-logiques-fiches', // Product page slug (French) - language-specific SEO slug for pattern-train
     'sequences-logiques-fiches', // Product page slug (French) - language-specific SEO slug for pattern-worksheet
     'parcours-images-fiches', // Product page slug (French) - language-specific SEO slug for picture-path
+    'tri-images-fiches', // Product page slug (French) - language-specific SEO slug for picture-sort
     'alphabet-zug-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug
     'malvorlagen-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug
     'mathe-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for math worksheets

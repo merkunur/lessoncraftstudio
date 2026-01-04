@@ -205,6 +205,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     en: 'picture-sort-worksheets',
     sv: 'bildsortering-arbetsblad',
     de: 'bilder-sortieren-arbeitsblaetter',
+    fr: 'tri-images-fiches',
   },
   'prepositions': {
     en: 'prepositions-worksheets',

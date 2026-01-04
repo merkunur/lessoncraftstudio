@@ -139,6 +139,7 @@ import oddOneOutFrContent from '@/content/product-pages/fr/odd-one-out-worksheet
 import patternTrainFrContent from '@/content/product-pages/fr/pattern-train-worksheets';
 import patternWorksheetFrContent from '@/content/product-pages/fr/pattern-worksheet-worksheets';
 import picturePathFrContent from '@/content/product-pages/fr/picture-path-worksheets';
+import pictureSortFrContent from '@/content/product-pages/fr/picture-sort-worksheets';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -559,6 +560,10 @@ export const contentRegistry: ContentRegistry = {
     'parcours-images-fiches': picturePathFrContent,
     // Also keep old slug for backwards compatibility during transition
     'picture-path-worksheets': picturePathFrContent,
+    // French Picture Sort - uses French SEO slug
+    'tri-images-fiches': pictureSortFrContent,
+    // Also keep old slug for backwards compatibility during transition
+    'picture-sort-worksheets': pictureSortFrContent,
   },
 };
 

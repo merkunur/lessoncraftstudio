@@ -71,6 +71,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     sv: 'malarbilder-arbetsblad',
     de: 'malvorlagen-arbeitsblaetter',
     fr: 'coloriage-fiches',
+    es: 'dibujos-colorear-fichas',
   },
   'math-worksheet': {
     en: 'math-worksheets',

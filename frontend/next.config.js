@@ -612,6 +612,12 @@ const nextConfig = {
         destination: '/es/apps/suma-fichas',
         permanent: true,
       },
+      // Spanish: coloring-worksheets → dibujos-colorear-fichas
+      {
+        source: '/es/apps/coloring-worksheets',
+        destination: '/es/apps/dibujos-colorear-fichas',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

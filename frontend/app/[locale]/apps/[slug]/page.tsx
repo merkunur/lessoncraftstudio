@@ -99,6 +99,10 @@ import oddOneOutFrContent from '@/content/product-pages/fr/odd-one-out-worksheet
 import patternTrainFrContent from '@/content/product-pages/fr/pattern-train-worksheets';
 import treasureHuntFrContent from '@/content/product-pages/fr/treasure-hunt-worksheets';
 import wordGuessFrContent from '@/content/product-pages/fr/word-guess-worksheets';
+import wordSearchEsContent from '@/content/product-pages/es/word-search-worksheets';
+import additionEsContent from '@/content/product-pages/es/addition-worksheets';
+import alphabetTrainEsContent from '@/content/product-pages/es/alphabet-train-worksheets';
+import coloringEsContent from '@/content/product-pages/es/coloring-worksheets';
 
 interface PageProps {
   params: {

@@ -151,6 +151,7 @@ import writingFrContent from '@/content/product-pages/fr/writing-worksheets';
 import wordSearchEsContent from '@/content/product-pages/es/word-search-worksheets';
 import additionEsContent from '@/content/product-pages/es/addition-worksheets';
 import alphabetTrainEsContent from '@/content/product-pages/es/alphabet-train-worksheets';
+import coloringEsContent from '@/content/product-pages/es/coloring-worksheets';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -613,6 +614,10 @@ export const contentRegistry: ContentRegistry = {
     'tren-alfabeto-fichas': alphabetTrainEsContent,
     // Also keep old slug for backwards compatibility during transition
     'alphabet-train-worksheets': alphabetTrainEsContent,
+    // Spanish Coloring - uses Spanish SEO slug
+    'dibujos-colorear-fichas': coloringEsContent,
+    // Also keep old slug for backwards compatibility during transition
+    'coloring-worksheets': coloringEsContent,
   },
 };
 

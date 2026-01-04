@@ -91,6 +91,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       sv: 'malarbilder-arbetsblad',
       de: 'malvorlagen-arbeitsblaetter',
       fr: 'coloriage-fiches',
+      es: 'dibujos-colorear-fichas',
     },
   },
   {

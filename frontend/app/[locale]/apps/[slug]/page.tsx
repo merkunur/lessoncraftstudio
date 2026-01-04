@@ -105,6 +105,7 @@ import alphabetTrainEsContent from '@/content/product-pages/es/alphabet-train-wo
 import coloringEsContent from '@/content/product-pages/es/coloring-worksheets';
 import mathWorksheetsEsContent from '@/content/product-pages/es/math-worksheets';
 import wordScrambleEsContent from '@/content/product-pages/es/word-scramble-worksheets';
+import findAndCountEsContent from '@/content/product-pages/es/find-and-count-worksheets';
 
 interface PageProps {
   params: {
@@ -639,8 +640,10 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
         canonical: 'https://www.lessoncraftstudio.com/de/apps/suchen-und-zaehlen-arbeitsblaetter',
         languages: {
           'en': 'https://www.lessoncraftstudio.com/en/apps/find-and-count-worksheets',
-          'de': 'https://www.lessoncraftstudio.com/de/apps/suchen-und-zaehlen-arbeitsblaetter',
           'sv': 'https://www.lessoncraftstudio.com/sv/apps/hitta-och-rakna-arbetsblad',
+          'de': 'https://www.lessoncraftstudio.com/de/apps/suchen-und-zaehlen-arbeitsblaetter',
+          'fr': 'https://www.lessoncraftstudio.com/fr/apps/cherche-et-compte-fiches',
+          'es': 'https://www.lessoncraftstudio.com/es/apps/buscar-contar-fichas',
           'x-default': 'https://www.lessoncraftstudio.com/en/apps/find-and-count-worksheets',
         },
       },
@@ -1203,6 +1206,52 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     };
   }
 
+  // Find and Count - Spanish product page SEO (new Spanish slug)
+  if (params.slug === 'buscar-contar-fichas' && params.locale === 'es') {
+    return {
+      title: 'Fichas para Imprimir Veo Veo | Material Educativo Gratis para Encontrar y Contar Objetos',
+      description: 'Crea fichas para imprimir de buscar y contar objetos con nuestro generador profesional. Perfecto para maestros de educación infantil y preescolar. Genera fichas gratis ilimitadas en PDF de alta calidad en menos de 3 minutos.',
+      keywords: 'fichas para imprimir, veo veo, buscar y contar, fichas preescolar, fichas infantil, fichas gratis, material educativo gratis, grafomotricidad, números, ejercicios matemáticas',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/es/apps/buscar-contar-fichas',
+        languages: {
+          'en': 'https://www.lessoncraftstudio.com/en/apps/find-and-count-worksheets',
+          'sv': 'https://www.lessoncraftstudio.com/sv/apps/hitta-och-rakna-arbetsblad',
+          'de': 'https://www.lessoncraftstudio.com/de/apps/suchen-und-zaehlen-arbeitsblaetter',
+          'fr': 'https://www.lessoncraftstudio.com/fr/apps/cherche-et-compte-fiches',
+          'es': 'https://www.lessoncraftstudio.com/es/apps/buscar-contar-fichas',
+          'x-default': 'https://www.lessoncraftstudio.com/en/apps/find-and-count-worksheets',
+        },
+      },
+      openGraph: {
+        title: 'Fichas para Imprimir Veo Veo | LessonCraftStudio',
+        description: 'Crea fichas para imprimir de buscar y contar objetos con nuestro generador profesional. Perfecto para preescolar y primaria.',
+        url: 'https://www.lessoncraftstudio.com/es/apps/buscar-contar-fichas',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Find and Count - Spanish legacy redirect (old English slug in Spanish locale)
+  if (params.slug === 'find-and-count-worksheets' && params.locale === 'es') {
+    return {
+      title: 'Fichas para Imprimir Veo Veo | LessonCraftStudio',
+      description: 'Página movida. Por favor visita la nueva URL.',
+      robots: {
+        index: false, // Don't index old URL
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/es/apps/buscar-contar-fichas', // Point to new URL
+      },
+    };
+  }
+
   // Find and Count Worksheets - French product page SEO (new French slug)
   if (params.slug === 'cherche-et-compte-fiches' && params.locale === 'fr') {
     return {
@@ -1220,6 +1269,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
           'sv': 'https://www.lessoncraftstudio.com/sv/apps/hitta-och-rakna-arbetsblad',
           'de': 'https://www.lessoncraftstudio.com/de/apps/suchen-und-zaehlen-arbeitsblaetter',
           'fr': 'https://www.lessoncraftstudio.com/fr/apps/cherche-et-compte-fiches',
+          'es': 'https://www.lessoncraftstudio.com/es/apps/buscar-contar-fichas',
           'x-default': 'https://www.lessoncraftstudio.com/en/apps/find-and-count-worksheets',
         },
       },
@@ -7510,6 +7560,7 @@ export async function generateStaticParams() {
     'ecriture-fiches', // Product page slug (French) - language-specific SEO slug for writing
     'acertijos-matematicos-fichas', // Product page slug (Spanish) - language-specific SEO slug for math-worksheet
     'letras-revueltas-fichas', // Product page slug (Spanish) - language-specific SEO slug for word-scramble
+    'buscar-contar-fichas', // Product page slug (Spanish) - language-specific SEO slug for find-and-count
     'alphabet-zug-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug
     'malvorlagen-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug
     'mathe-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for math worksheets

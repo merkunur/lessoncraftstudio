@@ -630,6 +630,12 @@ const nextConfig = {
         destination: '/es/apps/letras-revueltas-fichas',
         permanent: true,
       },
+      // Spanish: find-and-count-worksheets → buscar-contar-fichas
+      {
+        source: '/es/apps/find-and-count-worksheets',
+        destination: '/es/apps/buscar-contar-fichas',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

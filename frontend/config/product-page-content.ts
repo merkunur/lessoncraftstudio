@@ -154,6 +154,7 @@ import alphabetTrainEsContent from '@/content/product-pages/es/alphabet-train-wo
 import coloringEsContent from '@/content/product-pages/es/coloring-worksheets';
 import mathWorksheetsEsContent from '@/content/product-pages/es/math-worksheets';
 import wordScrambleEsContent from '@/content/product-pages/es/word-scramble-worksheets';
+import findAndCountEsContent from '@/content/product-pages/es/find-and-count-worksheets';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -628,6 +629,10 @@ export const contentRegistry: ContentRegistry = {
     'letras-revueltas-fichas': wordScrambleEsContent,
     // Also keep old slug for backwards compatibility during transition
     'word-scramble-worksheets': wordScrambleEsContent,
+    // Spanish Find and Count - uses Spanish SEO slug
+    'buscar-contar-fichas': findAndCountEsContent,
+    // Also keep old slug for backwards compatibility during transition
+    'find-and-count-worksheets': findAndCountEsContent,
   },
 };
 

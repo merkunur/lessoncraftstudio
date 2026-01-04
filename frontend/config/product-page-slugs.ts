@@ -121,6 +121,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       sv: 'hitta-och-rakna-arbetsblad',
       de: 'suchen-und-zaehlen-arbeitsblaetter',
       fr: 'cherche-et-compte-fiches',
+      es: 'buscar-contar-fichas',
     },
   },
   {

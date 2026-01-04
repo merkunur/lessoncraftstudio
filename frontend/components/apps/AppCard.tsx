@@ -91,6 +91,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     sv: 'hitta-och-rakna-arbetsblad',
     de: 'suchen-und-zaehlen-arbeitsblaetter',
     fr: 'cherche-et-compte-fiches',
+    es: 'buscar-contar-fichas',
   },
   'matching-app': {
     en: 'matching-worksheets',

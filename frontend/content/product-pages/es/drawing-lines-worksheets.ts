@@ -71,18 +71,21 @@ El generador incluye 8 plantillas diferentes con varios patrones de líneas y or
       {
         id: '1',
         worksheetSrc: '/samples/english/drawing lines/drawing_lines_curve 1.jpeg',
+        answerKeySrc: '',
         altText: 'Ficha de grafomotricidad con líneas curvas para desarrollar motricidad fina en preescolar',
         pdfDownloadUrl: '/samples/english/drawing lines/drawing_lines_curve 1.pdf',
       },
       {
         id: '2',
         worksheetSrc: '/samples/english/drawing lines/drawing_lines_diagonal 1.jpeg',
+        answerKeySrc: '',
         altText: 'Ficha de trazos diagonales para ejercicios de coordinación ojo-mano en kinder',
         pdfDownloadUrl: '/samples/english/drawing lines/drawing_lines_diagonal 1.pdf',
       },
       {
         id: '3',
         worksheetSrc: '/samples/english/drawing lines/drawing_lines_horizontal.jpeg',
+        answerKeySrc: '',
         altText: 'Ficha de líneas horizontales para practicar trazado de izquierda a derecha',
         pdfDownloadUrl: '/samples/english/drawing lines/drawing_lines_horizontal.pdf',
       },

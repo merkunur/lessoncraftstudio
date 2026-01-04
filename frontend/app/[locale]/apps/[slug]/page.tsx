@@ -1705,6 +1705,51 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     };
   }
 
+  // Shadow Match Worksheets - French product page SEO (new French slug)
+  if (params.slug === 'discrimination-visuelle-fiches' && params.locale === 'fr') {
+    return {
+      title: 'Fiches Maternelle Reconnaissance Visuelle - Exercices Discrimination Visuelle - Fiches à Imprimer Gratuit',
+      description: 'Créez des fiches de reconnaissance visuelle professionnelles pour la maternelle. Votre abonnement Full Access vous donne accès à ce générateur de fiches d\'association d\'ombres. Créez des exercices de discrimination visuelle adaptés à la petite section, moyenne section et grande section de maternelle. Téléchargez des fiches PDF de haute qualité en moins de 3 minutes.',
+      keywords: 'fiches maternelle, discrimination visuelle, reconnaissance visuelle, association ombres, exercices CP, fiches à imprimer gratuit, graphisme maternelle, apprendre à lire, alphabet, coloriage à imprimer, écriture cursive, tables de multiplication, exercices maths',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/fr/apps/discrimination-visuelle-fiches',
+        languages: {
+          'en': 'https://www.lessoncraftstudio.com/en/apps/shadow-match-worksheets',
+          'sv': 'https://www.lessoncraftstudio.com/sv/apps/skuggmatchning-arbetsblad',
+          'de': 'https://www.lessoncraftstudio.com/de/apps/schattenbilder-zuordnen-arbeitsblaetter',
+          'fr': 'https://www.lessoncraftstudio.com/fr/apps/discrimination-visuelle-fiches',
+          'x-default': 'https://www.lessoncraftstudio.com/en/apps/shadow-match-worksheets',
+        },
+      },
+      openGraph: {
+        title: 'Fiches Maternelle Reconnaissance Visuelle - Exercices Discrimination Visuelle | LessonCraftStudio',
+        description: 'Créez des fiches de reconnaissance visuelle professionnelles pour la maternelle. Générateur de fiches d\'association d\'ombres. Téléchargez des PDF haute qualité en moins de 3 minutes.',
+        url: 'https://www.lessoncraftstudio.com/fr/apps/discrimination-visuelle-fiches',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Legacy: Redirect old French shadow-match-worksheets slug to new slug (for backwards compatibility)
+  if (params.slug === 'shadow-match-worksheets' && params.locale === 'fr') {
+    return {
+      title: 'Fiches Maternelle Reconnaissance Visuelle - Exercices Discrimination Visuelle',
+      description: 'Créez des fiches de reconnaissance visuelle professionnelles pour la maternelle.',
+      robots: {
+        index: false, // Don't index old URL
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/fr/apps/discrimination-visuelle-fiches', // Point to new URL
+      },
+    };
+  }
+
   // Missing Pieces Worksheets - German product page SEO (new German slug)
   if (params.slug === 'fehlende-puzzleteile-arbeitsblaetter' && params.locale === 'de') {
     return {
@@ -7194,6 +7239,8 @@ export async function generateStaticParams() {
     'sequences-logiques-fiches', // Product page slug (French) - language-specific SEO slug for pattern-worksheet
     'parcours-images-fiches', // Product page slug (French) - language-specific SEO slug for picture-path
     'tri-images-fiches', // Product page slug (French) - language-specific SEO slug for picture-sort
+    'prepositions-exercices-fiches', // Product page slug (French) - language-specific SEO slug for prepositions
+    'discrimination-visuelle-fiches', // Product page slug (French) - language-specific SEO slug for shadow-match
     'alphabet-zug-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug
     'malvorlagen-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug
     'mathe-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for math worksheets

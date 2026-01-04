@@ -311,6 +311,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       en: 'shadow-match-worksheets',
       sv: 'skuggmatchning-arbetsblad',
       de: 'schattenbilder-zuordnen-arbeitsblaetter',
+      fr: 'discrimination-visuelle-fiches',
     },
   },
   {

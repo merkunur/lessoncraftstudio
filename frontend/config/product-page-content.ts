@@ -141,6 +141,7 @@ import patternWorksheetFrContent from '@/content/product-pages/fr/pattern-worksh
 import picturePathFrContent from '@/content/product-pages/fr/picture-path-worksheets';
 import pictureSortFrContent from '@/content/product-pages/fr/picture-sort-worksheets';
 import prepositionsFrContent from '@/content/product-pages/fr/prepositions-worksheets';
+import shadowMatchFrContent from '@/content/product-pages/fr/shadow-match-worksheets';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -569,6 +570,10 @@ export const contentRegistry: ContentRegistry = {
     'prepositions-exercices-fiches': prepositionsFrContent,
     // Also keep old slug for backwards compatibility during transition
     'prepositions-worksheets': prepositionsFrContent,
+    // French Shadow Match - uses French SEO slug
+    'discrimination-visuelle-fiches': shadowMatchFrContent,
+    // Also keep old slug for backwards compatibility during transition
+    'shadow-match-worksheets': shadowMatchFrContent,
   },
 };
 

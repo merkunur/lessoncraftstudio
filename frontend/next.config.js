@@ -564,6 +564,12 @@ const nextConfig = {
         destination: '/fr/apps/train-suites-logiques-fiches',
         permanent: true,
       },
+      // French: picture-path-worksheets → parcours-images-fiches
+      {
+        source: '/fr/apps/picture-path-worksheets',
+        destination: '/fr/apps/parcours-images-fiches',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

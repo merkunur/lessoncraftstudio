@@ -199,6 +199,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     en: 'picture-path-worksheets',
     sv: 'bildlabyrint-arbetsblad',
     de: 'bilderpfad-arbeitsblaetter',
+    fr: 'parcours-images-fiches',
   },
   'picture-sort': {
     en: 'picture-sort-worksheets',

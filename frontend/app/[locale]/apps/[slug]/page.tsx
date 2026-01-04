@@ -1660,6 +1660,51 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     };
   }
 
+  // Picture Path - French product page SEO (new French slug)
+  if (params.slug === 'parcours-images-fiches' && params.locale === 'fr') {
+    return {
+      title: 'Générateur de Parcours d\'Images | Fiches Maternelle et Exercices CP - Fiches à Imprimer Gratuit',
+      description: 'Créez des parcours d\'images professionnels en quelques clics. Notre générateur transforme vos fiches maternelle en activités ludiques et éducatives. Parfait pour le graphisme maternelle et les exercices CP. Téléchargez en PDF haute résolution en 3 minutes.',
+      keywords: 'fiches à imprimer gratuit, fiches maternelle, parcours images, labyrinthe, exercices CP, graphisme maternelle, motricité fine, coloriage à imprimer, exercices maths, apprendre à lire, alphabet, tables de multiplication',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/fr/apps/parcours-images-fiches',
+        languages: {
+          'en': 'https://www.lessoncraftstudio.com/en/apps/picture-path-worksheets',
+          'sv': 'https://www.lessoncraftstudio.com/sv/apps/bildlabyrint-arbetsblad',
+          'de': 'https://www.lessoncraftstudio.com/de/apps/bilderpfad-arbeitsblaetter',
+          'fr': 'https://www.lessoncraftstudio.com/fr/apps/parcours-images-fiches',
+          'x-default': 'https://www.lessoncraftstudio.com/en/apps/picture-path-worksheets',
+        },
+      },
+      openGraph: {
+        title: 'Générateur de Parcours d\'Images | Fiches Maternelle | LessonCraftStudio',
+        description: 'Créez des parcours d\'images professionnels avec notre générateur de fiches maternelle. Parfait pour les enseignants de maternelle, CP et CE1.',
+        url: 'https://www.lessoncraftstudio.com/fr/apps/parcours-images-fiches',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Legacy: Redirect old French picture-path-worksheets slug to new slug (for backwards compatibility)
+  if (params.slug === 'picture-path-worksheets' && params.locale === 'fr') {
+    return {
+      title: 'Générateur de Parcours d\'Images | Fiches Maternelle',
+      description: 'Créez des parcours d\'images professionnels avec notre générateur de fiches maternelle.',
+      robots: {
+        index: false, // Don't index old URL
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/fr/apps/parcours-images-fiches', // Point to new URL
+      },
+    };
+  }
+
   // Missing Pieces Worksheets - German product page SEO (new German slug)
   if (params.slug === 'fehlende-puzzleteile-arbeitsblaetter' && params.locale === 'de') {
     return {
@@ -7147,6 +7192,7 @@ export async function generateStaticParams() {
     'intrus-fiches', // Product page slug (French) - language-specific SEO slug for odd-one-out
     'train-suites-logiques-fiches', // Product page slug (French) - language-specific SEO slug for pattern-train
     'sequences-logiques-fiches', // Product page slug (French) - language-specific SEO slug for pattern-worksheet
+    'parcours-images-fiches', // Product page slug (French) - language-specific SEO slug for picture-path
     'alphabet-zug-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug
     'malvorlagen-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug
     'mathe-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for math worksheets

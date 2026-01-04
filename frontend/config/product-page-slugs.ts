@@ -284,6 +284,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       en: 'picture-path-worksheets',
       sv: 'bildlabyrint-arbetsblad',
       de: 'bilderpfad-arbeitsblaetter',
+      fr: 'parcours-images-fiches',
     },
   },
   {

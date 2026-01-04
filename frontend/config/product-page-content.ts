@@ -142,6 +142,7 @@ import picturePathFrContent from '@/content/product-pages/fr/picture-path-worksh
 import pictureSortFrContent from '@/content/product-pages/fr/picture-sort-worksheets';
 import prepositionsFrContent from '@/content/product-pages/fr/prepositions-worksheets';
 import shadowMatchFrContent from '@/content/product-pages/fr/shadow-match-worksheets';
+import subtractionFrContent from '@/content/product-pages/fr/subtraction-worksheets';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -574,6 +575,10 @@ export const contentRegistry: ContentRegistry = {
     'discrimination-visuelle-fiches': shadowMatchFrContent,
     // Also keep old slug for backwards compatibility during transition
     'shadow-match-worksheets': shadowMatchFrContent,
+    // French Subtraction - uses French SEO slug
+    'soustraction-fiches': subtractionFrContent,
+    // Also keep old slug for backwards compatibility during transition
+    'subtraction-worksheets': subtractionFrContent,
   },
 };
 

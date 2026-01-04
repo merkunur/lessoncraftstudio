@@ -576,6 +576,18 @@ const nextConfig = {
         destination: '/fr/apps/prepositions-exercices-fiches',
         permanent: true,
       },
+      // French: shadow-match-worksheets → discrimination-visuelle-fiches
+      {
+        source: '/fr/apps/shadow-match-worksheets',
+        destination: '/fr/apps/discrimination-visuelle-fiches',
+        permanent: true,
+      },
+      // French: subtraction-worksheets → soustraction-fiches
+      {
+        source: '/fr/apps/subtraction-worksheets',
+        destination: '/fr/apps/soustraction-fiches',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

@@ -1750,6 +1750,51 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     };
   }
 
+  // Subtraction Worksheets - French product page SEO (new French slug)
+  if (params.slug === 'soustraction-fiches' && params.locale === 'fr') {
+    return {
+      title: 'Générateur de Fiches de Soustraction - Exercices Maths à Imprimer - Fiches Maternelle et CP',
+      description: 'Créez des exercices de soustraction visuels avec notre générateur de fiches à imprimer. Générez des exercices maths adaptés aux élèves de maternelle, CP et CE1 avec des images qui rendent la soustraction concrète et amusante. Téléchargez des PDF haute qualité en moins de 3 minutes.',
+      keywords: 'fiches à imprimer gratuit, fiches maternelle, exercices maths, exercices CP, soustraction, graphisme maternelle, coloriage à imprimer, apprendre à lire, alphabet, écriture cursive, tables de multiplication, exercices CE1',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/fr/apps/soustraction-fiches',
+        languages: {
+          'en': 'https://www.lessoncraftstudio.com/en/apps/subtraction-worksheets',
+          'sv': 'https://www.lessoncraftstudio.com/sv/apps/subtraktion-arbetsblad',
+          'de': 'https://www.lessoncraftstudio.com/de/apps/subtraktion-arbeitsblaetter',
+          'fr': 'https://www.lessoncraftstudio.com/fr/apps/soustraction-fiches',
+          'x-default': 'https://www.lessoncraftstudio.com/en/apps/subtraction-worksheets',
+        },
+      },
+      openGraph: {
+        title: 'Générateur de Fiches de Soustraction - Exercices Maths à Imprimer | LessonCraftStudio',
+        description: 'Créez des exercices de soustraction visuels avec notre générateur de fiches à imprimer. Téléchargez des PDF haute qualité en moins de 3 minutes.',
+        url: 'https://www.lessoncraftstudio.com/fr/apps/soustraction-fiches',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Legacy: Redirect old French subtraction-worksheets slug to new slug (for backwards compatibility)
+  if (params.slug === 'subtraction-worksheets' && params.locale === 'fr') {
+    return {
+      title: 'Générateur de Fiches de Soustraction - Exercices Maths à Imprimer',
+      description: 'Créez des exercices de soustraction visuels avec notre générateur de fiches à imprimer.',
+      robots: {
+        index: false, // Don't index old URL
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/fr/apps/soustraction-fiches', // Point to new URL
+      },
+    };
+  }
+
   // Missing Pieces Worksheets - German product page SEO (new German slug)
   if (params.slug === 'fehlende-puzzleteile-arbeitsblaetter' && params.locale === 'de') {
     return {
@@ -7241,6 +7286,7 @@ export async function generateStaticParams() {
     'tri-images-fiches', // Product page slug (French) - language-specific SEO slug for picture-sort
     'prepositions-exercices-fiches', // Product page slug (French) - language-specific SEO slug for prepositions
     'discrimination-visuelle-fiches', // Product page slug (French) - language-specific SEO slug for shadow-match
+    'soustraction-fiches', // Product page slug (French) - language-specific SEO slug for subtraction
     'alphabet-zug-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug
     'malvorlagen-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug
     'mathe-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for math worksheets

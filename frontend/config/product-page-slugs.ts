@@ -320,6 +320,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       en: 'subtraction-worksheets',
       sv: 'subtraktion-arbetsblad',
       de: 'subtraktion-arbeitsblaetter',
+      fr: 'soustraction-fiches',
     },
   },
   {

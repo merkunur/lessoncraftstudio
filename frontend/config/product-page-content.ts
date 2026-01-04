@@ -145,6 +145,7 @@ import shadowMatchFrContent from '@/content/product-pages/fr/shadow-match-worksh
 import subtractionFrContent from '@/content/product-pages/fr/subtraction-worksheets';
 import treasureHuntFrContent from '@/content/product-pages/fr/treasure-hunt-worksheets';
 import wordGuessFrContent from '@/content/product-pages/fr/word-guess-worksheets';
+import writingFrContent from '@/content/product-pages/fr/writing-worksheets';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -589,6 +590,10 @@ export const contentRegistry: ContentRegistry = {
     'deviner-mots-fiches': wordGuessFrContent,
     // Also keep old slug for backwards compatibility during transition
     'word-guess-worksheets': wordGuessFrContent,
+    // French Writing - uses French SEO slug
+    'ecriture-fiches': writingFrContent,
+    // Also keep old slug for backwards compatibility during transition
+    'writing-worksheets': writingFrContent,
   },
 };
 

@@ -241,6 +241,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     en: 'writing-worksheets',
     sv: 'skrivovningar-arbetsblad',
     de: 'schreibuebungen-arbeitsblaetter',
+    fr: 'ecriture-fiches',
   },
 };
 

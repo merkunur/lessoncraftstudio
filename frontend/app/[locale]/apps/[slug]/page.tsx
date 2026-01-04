@@ -7381,6 +7381,7 @@ export async function generateStaticParams() {
     'soustraction-fiches', // Product page slug (French) - language-specific SEO slug for subtraction
     'chasse-au-tresor-fiches', // Product page slug (French) - language-specific SEO slug for treasure-hunt
     'deviner-mots-fiches', // Product page slug (French) - language-specific SEO slug for word-guess
+    'ecriture-fiches', // Product page slug (French) - language-specific SEO slug for writing
     'alphabet-zug-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug
     'malvorlagen-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug
     'mathe-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for math worksheets

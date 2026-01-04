@@ -600,6 +600,12 @@ const nextConfig = {
         destination: '/fr/apps/deviner-mots-fiches',
         permanent: true,
       },
+      // French: writing-worksheets → ecriture-fiches
+      {
+        source: '/fr/apps/writing-worksheets',
+        destination: '/fr/apps/ecriture-fiches',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

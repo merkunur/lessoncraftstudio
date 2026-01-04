@@ -347,6 +347,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       en: 'writing-worksheets',
       sv: 'skrivovningar-arbetsblad',
       de: 'schreibuebungen-arbeitsblaetter',
+      fr: 'ecriture-fiches',
     },
   },
 ];

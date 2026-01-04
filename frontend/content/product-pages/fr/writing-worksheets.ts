@@ -69,18 +69,21 @@ Générez des fiches d'écriture pour les lettres de l'alphabet, les mots ou le 
       {
         id: '1',
         worksheetSrc: '/samples/english/writing/writing.jpeg',
+        answerKeySrc: '/samples/english/writing/writing.jpeg',
         altText: 'Fiche écriture graphisme maternelle avec lignes guidées pour CP',
         pdfDownloadUrl: '/samples/english/writing/writing.pdf',
       },
       {
         id: '2',
         worksheetSrc: '/samples/english/writing/writing custom.jpeg',
+        answerKeySrc: '/samples/english/writing/writing custom.jpeg',
         altText: 'Fiche écriture personnalisée avec texte custom pour exercices CP',
         pdfDownloadUrl: '/samples/english/writing/writing custom.pdf',
       },
       {
         id: '3',
         worksheetSrc: '/samples/english/writing/writing beginning letter.jpeg',
+        answerKeySrc: '/samples/english/writing/writing beginning letter.jpeg',
         altText: 'Fiche alphabet lettres initiales avec images pour maternelle',
         pdfDownloadUrl: '/samples/english/writing/writing beginning letter.pdf',
       },

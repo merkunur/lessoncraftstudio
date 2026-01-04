@@ -28,13 +28,13 @@ export const drawingLinesEsContent: ProductPageContent = {
   hero: {
     title: 'Fichas de Grafomotricidad para Imprimir Gratis',
     subtitle: 'Ejercicios de Trazos para Preescolar - Material Educativo de Lectoescritura',
-    description: `Crea fichas de grafomotricidad profesionales con nuestro generador en línea. Tu suscripción Core Bundle te permite crear fichas para imprimir de manera ilimitada sin cargos adicionales por cada hoja de trabajo. Genera fichas infantil perfectas para el desarrollo de la motricidad fina en segundos. Descarga material educativo gratis de alta calidad en formato PDF o JPEG. Cada ficha se exporta a 300 DPI para una impresión nítida y profesional.
+    description: `Crea fichas de grafomotricidad profesionales con nuestro generador en línea. Tu suscripción Paquete Esencial te permite crear fichas para imprimir de manera ilimitada sin cargos adicionales por cada hoja de trabajo. Genera fichas infantil perfectas para el desarrollo de la motricidad fina en segundos. Descarga material educativo gratis de alta calidad en formato PDF o JPEG. Cada ficha se exporta a 300 DPI para una impresión nítida y profesional.
 
 Nuestro generador de fichas de grafomotricidad ayuda a los niños a desarrollar habilidades esenciales de motricidad fina a través de actividades de emparejamiento. Los niños trazan líneas para conectar imágenes que coinciden en dos columnas de la página. Esta actividad simple pero efectiva fortalece el control del lápiz y la coordinación ojo-mano. Los maestros usan estas fichas preescolar para estudiantes de kinder y primer grado todos los días. El formato de emparejamiento hace que el aprendizaje sea divertido y mantiene a los pequeños estudiantes comprometidos. Los alumnos practican la discriminación visual mientras mejoran sus habilidades de trazado de líneas. Cada ficha para imprimir proporciona múltiples pares de emparejamiento para completar. La variedad de patrones de líneas desafía a los estudiantes en diferentes niveles de habilidad.
 
 Las fichas de grafomotricidad son herramientas esenciales para la educación infantil temprana. Sirven como puente entre las simples fichas gratis de trazado y las tareas de escritura más complejas. Los estudiantes deben controlar su lápiz para trazar líneas de conexión precisas. Esto desarrolla la fuerza de motricidad fina necesaria para el éxito en la escritura. Los terapeutas ocupacionales recomiendan ejercicios de trazado de líneas para el desarrollo de habilidades motoras. Las fichas infantil funcionan perfectamente para aulas de preescolar, kinder y primer grado de primaria. Los maestros de educación especial las usan para instrucción diferenciada y actividades de desarrollo de habilidades.
 
-El generador incluye 8 plantillas diferentes con varios patrones de líneas y orientaciones. Elige plantillas curvas para fichas para imprimir en orientación horizontal con patrones de líneas fluidas. Selecciona plantillas diagonales para diseños verticales con desafíos de conexión inclinados. Escoge plantillas horizontales para practicar el trazado de líneas de izquierda a derecha. Usa plantillas verticales para ejercicios de emparejamiento de arriba hacia abajo. Cada plantilla crea un desafío de emparejamiento único para tus estudiantes. Personaliza cada ficha con tus propias imágenes cargadas o elige de nuestra biblioteca. Agrega bordes, fondos y elementos de texto personalizados a cada página. Tu suscripción Core Bundle incluye acceso a más de 3000 imágenes apropiadas para niños organizadas por tema.`,
+El generador incluye 8 plantillas diferentes con varios patrones de líneas y orientaciones. Elige plantillas curvas para fichas para imprimir en orientación horizontal con patrones de líneas fluidas. Selecciona plantillas diagonales para diseños verticales con desafíos de conexión inclinados. Escoge plantillas horizontales para practicar el trazado de líneas de izquierda a derecha. Usa plantillas verticales para ejercicios de emparejamiento de arriba hacia abajo. Cada plantilla crea un desafío de emparejamiento único para tus estudiantes. Personaliza cada ficha con tus propias imágenes cargadas o elige de nuestra biblioteca. Agrega bordes, fondos y elementos de texto personalizados a cada página. Tu suscripción Paquete Esencial incluye acceso a más de 3000 imágenes apropiadas para niños organizadas por tema.`,
     previewImageSrc: '/samples/english/drawing lines/drawing_lines_curve 1.jpeg',
     ctaLabels: {
       tryFree: 'Probar Gratis',
@@ -95,7 +95,7 @@ El generador incluye 8 plantillas diferentes con varios patrones de líneas y or
   // Features Grid - FULL text from drawing-lines.md feature sections
   features: {
     sectionTitle: 'Características del Generador de Fichas de Grafomotricidad - Todo lo Necesario para Material Educativo Gratis y Fichas Preescolar',
-    sectionDescription: 'Nuestro generador de fichas de grafomotricidad incluye funciones potentes para crear fichas infantil y material educativo gratis de calidad profesional. Los maestros crean fichas para imprimir personalizadas en menos de 3 minutos con nuestra plataforma fácil de usar. Cada función se enfoca en ahorrar tiempo mientras mantiene alta calidad para uso en el aula. Tu suscripción Core Bundle desbloquea creación ilimitada de fichas preescolar sin cargos por cada hoja.',
+    sectionDescription: 'Nuestro generador de fichas de grafomotricidad incluye funciones potentes para crear fichas infantil y material educativo gratis de calidad profesional. Los maestros crean fichas para imprimir personalizadas en menos de 3 minutos con nuestra plataforma fácil de usar. Cada función se enfoca en ahorrar tiempo mientras mantiene alta calidad para uso en el aula. Tu suscripción Paquete Esencial desbloquea creación ilimitada de fichas preescolar sin cargos por cada hoja.',
     highlightBadgeText: 'Característica Clave',
     readMoreLabel: 'Leer más',
     showLessLabel: 'Ver menos',
@@ -146,9 +146,9 @@ Los maestros de español crean la misma ficha de emparejamiento en múltiples id
         id: '5',
         icon: '💰',
         title: 'Licencia Comercial de Impresión bajo Demanda - Vende tus Fichas de Grafomotricidad y Material Educativo',
-        description: `Tu suscripción Core Bundle incluye licencia comercial completa para vender fichas para imprimir en Teachers Pay Teachers, Etsy y Amazon KDP. Crea paquetes de fichas de grafomotricidad y véndelos como descargas digitales o productos impresos. La calidad de exportación de 300 DPI asegura resultados profesionales para uso comercial.
+        description: `Tu suscripción Paquete Esencial incluye licencia comercial completa para vender fichas para imprimir en Teachers Pay Teachers, Etsy y Amazon KDP. Crea paquetes de fichas de grafomotricidad y véndelos como descargas digitales o productos impresos. La calidad de exportación de 300 DPI asegura resultados profesionales para uso comercial.
 
-Agrupa fichas de trazado de líneas con fichas de matemáticas, ejercicios del abecedario y dibujos para colorear para paquetes de actividades integrales. Muchos maestros ganan entre $500 y $5,000 mensuales vendiendo fichas para imprimir gratis creadas con nuestros generadores. La licencia comercial cubre las 10 aplicaciones del Core Bundle sin tarifas de licencia adicionales. La licencia POD incluida elimina la barrera de las costosas tarifas de derechos comerciales que cobran otras plataformas.`,
+Agrupa fichas de trazado de líneas con fichas de matemáticas, ejercicios del abecedario y dibujos para colorear para paquetes de actividades integrales. Muchos maestros ganan entre $500 y $5,000 mensuales vendiendo fichas para imprimir gratis creadas con nuestros generadores. La licencia comercial cubre las 10 aplicaciones del Paquete Esencial sin tarifas de licencia adicionales. La licencia POD incluida elimina la barrera de las costosas tarifas de derechos comerciales que cobran otras plataformas.`,
         highlighted: true,
       },
       {
@@ -342,12 +342,12 @@ Muchos maestros ganan entre $500 y $2,000 mensuales vendiendo solo en Teachers P
       {
         id: '1',
         question: '¿Es Realmente Gratis Este Generador de Fichas de Grafomotricidad con Dibujos para Colorear?',
-        answer: 'El generador de fichas de grafomotricidad requiere una suscripción Core Bundle a $144 al año o $15 al mes. Tu suscripción otorga acceso a creación ilimitada de fichas infantil sin cargos por ficha individual. Ningún límite mensual de descargas restringe cuántas fichas preescolar creas. El Core Bundle incluye 10 generadores populares de fichas para imprimir incluyendo grafomotricidad, dibujos para colorear, ejercicios de matemáticas y más. La biblioteca de 3000 imágenes viene incluida sin costos extra. La licencia comercial permitiéndote vender tus creaciones está incluida sin tarifas de licencia adicionales.',
+        answer: 'El generador de fichas de grafomotricidad requiere una suscripción Paquete Esencial a $144 al año o $15 al mes. Tu suscripción otorga acceso a creación ilimitada de fichas infantil sin cargos por ficha individual. Ningún límite mensual de descargas restringe cuántas fichas preescolar creas. El Paquete Esencial incluye 10 generadores populares de fichas para imprimir incluyendo grafomotricidad, dibujos para colorear, ejercicios de matemáticas y más. La biblioteca de 3000 imágenes viene incluida sin costos extra. La licencia comercial permitiéndote vender tus creaciones está incluida sin tarifas de licencia adicionales.',
       },
       {
         id: '2',
         question: '¿Puedo Imprimir las Fichas Infantil con Ejercicios de Números para Toda Mi Clase?',
-        answer: 'Tu suscripción Core Bundle incluye uso ilimitado en aula para todas las fichas infantil y fichas preescolar que creas. Imprime tantas copias como necesites para tus estudiantes sin restricciones ni tarifas por copia. Distribuye fichas de grafomotricidad a 20, 30 o más estudiantes diariamente. Fotocopia fichas para imprimir para uso en centros de aprendizaje en múltiples estaciones. Lamina materiales para uso repetido durante todo el año escolar. La licencia educativa cubre toda distribución dentro de tu contexto de enseñanza.',
+        answer: 'Tu suscripción Paquete Esencial incluye uso ilimitado en aula para todas las fichas infantil y fichas preescolar que creas. Imprime tantas copias como necesites para tus estudiantes sin restricciones ni tarifas por copia. Distribuye fichas de grafomotricidad a 20, 30 o más estudiantes diariamente. Fotocopia fichas para imprimir para uso en centros de aprendizaje en múltiples estaciones. Lamina materiales para uso repetido durante todo el año escolar. La licencia educativa cubre toda distribución dentro de tu contexto de enseñanza.',
       },
       {
         id: '3',
@@ -357,7 +357,7 @@ Muchos maestros ganan entre $500 y $2,000 mensuales vendiendo solo en Teachers P
       {
         id: '4',
         question: '¿Puedo Vender las Fichas para Imprimir con Tablas de Multiplicar que Creo?',
-        answer: 'Sí, tu suscripción Core Bundle incluye licencia comercial completa sin tarifas adicionales. Vende fichas de grafomotricidad en Teachers Pay Teachers, Etsy o cualquier plataforma de mercado digital. Publica libros de actividades presentando tus fichas infantil en Amazon Kindle Direct Publishing. Ofrece fichas preescolar como productos digitales descargables en tu propio sitio web. La licencia comercial cubre todos los 10 generadores Core Bundle incluyendo tablas de multiplicar, ejercicios de matemáticas y dibujos para colorear.',
+        answer: 'Sí, tu suscripción Paquete Esencial incluye licencia comercial completa sin tarifas adicionales. Vende fichas de grafomotricidad en Teachers Pay Teachers, Etsy o cualquier plataforma de mercado digital. Publica libros de actividades presentando tus fichas infantil en Amazon Kindle Direct Publishing. Ofrece fichas preescolar como productos digitales descargables en tu propio sitio web. La licencia comercial cubre todos los 10 generadores Paquete Esencial incluyendo tablas de multiplicar, ejercicios de matemáticas y dibujos para colorear.',
       },
       {
         id: '5',

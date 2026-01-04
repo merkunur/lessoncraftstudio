@@ -143,6 +143,7 @@ import pictureSortFrContent from '@/content/product-pages/fr/picture-sort-worksh
 import prepositionsFrContent from '@/content/product-pages/fr/prepositions-worksheets';
 import shadowMatchFrContent from '@/content/product-pages/fr/shadow-match-worksheets';
 import subtractionFrContent from '@/content/product-pages/fr/subtraction-worksheets';
+import treasureHuntFrContent from '@/content/product-pages/fr/treasure-hunt-worksheets';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -579,6 +580,10 @@ export const contentRegistry: ContentRegistry = {
     'soustraction-fiches': subtractionFrContent,
     // Also keep old slug for backwards compatibility during transition
     'subtraction-worksheets': subtractionFrContent,
+    // French Treasure Hunt - uses French SEO slug
+    'chasse-au-tresor-fiches': treasureHuntFrContent,
+    // Also keep old slug for backwards compatibility during transition
+    'treasure-hunt-worksheets': treasureHuntFrContent,
   },
 };
 

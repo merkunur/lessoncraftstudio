@@ -329,6 +329,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       en: 'treasure-hunt-worksheets',
       sv: 'skattjakt-arbetsblad',
       de: 'schatzsuche-arbeitsblaetter',
+      fr: 'chasse-au-tresor-fiches',
     },
   },
   {

@@ -97,6 +97,7 @@ import missingPiecesFrContent from '@/content/product-pages/fr/missing-pieces-wo
 import moreLessFrContent from '@/content/product-pages/fr/more-less-worksheets';
 import oddOneOutFrContent from '@/content/product-pages/fr/odd-one-out-worksheets';
 import patternTrainFrContent from '@/content/product-pages/fr/pattern-train-worksheets';
+import treasureHuntFrContent from '@/content/product-pages/fr/treasure-hunt-worksheets';
 
 interface PageProps {
   params: {
@@ -1791,6 +1792,51 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       },
       alternates: {
         canonical: 'https://www.lessoncraftstudio.com/fr/apps/soustraction-fiches', // Point to new URL
+      },
+    };
+  }
+
+  // Treasure Hunt Worksheets - French product page SEO (new French slug)
+  if (params.slug === 'chasse-au-tresor-fiches' && params.locale === 'fr') {
+    return {
+      title: 'Fiches Chasse au Trésor à Imprimer Gratuit - Générateur de Fiches Maternelle et CP avec Directions',
+      description: 'Créez des fiches chasse au trésor professionnelles en moins de 3 minutes. Votre abonnement Accès Complet à 240 € par an vous donne un accès illimité à notre générateur. Parfait pour enseigner les directions spatiales aux élèves de maternelle, CP et CE1.',
+      keywords: 'fiches chasse au trésor, fiches à imprimer gratuit, fiches maternelle, exercices CP, directions spatiales, exercices CE1, graphisme maternelle, coloriage à imprimer, apprendre à lire, alphabet',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/fr/apps/chasse-au-tresor-fiches',
+        languages: {
+          'en': 'https://www.lessoncraftstudio.com/en/apps/treasure-hunt-worksheets',
+          'sv': 'https://www.lessoncraftstudio.com/sv/apps/skattjakt-arbetsblad',
+          'de': 'https://www.lessoncraftstudio.com/de/apps/schatzsuche-arbeitsblaetter',
+          'fr': 'https://www.lessoncraftstudio.com/fr/apps/chasse-au-tresor-fiches',
+          'x-default': 'https://www.lessoncraftstudio.com/en/apps/treasure-hunt-worksheets',
+        },
+      },
+      openGraph: {
+        title: 'Fiches Chasse au Trésor à Imprimer - Générateur de Fiches Maternelle | LessonCraftStudio',
+        description: 'Créez des fiches chasse au trésor professionnelles en moins de 3 minutes. Parfait pour enseigner les directions spatiales aux élèves de maternelle, CP et CE1.',
+        url: 'https://www.lessoncraftstudio.com/fr/apps/chasse-au-tresor-fiches',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Legacy: Redirect old French treasure-hunt slug to new slug (for backwards compatibility)
+  if (params.slug === 'treasure-hunt-worksheets' && params.locale === 'fr') {
+    return {
+      title: 'Fiches Chasse au Trésor à Imprimer - Générateur de Fiches Maternelle',
+      description: 'Créez des fiches chasse au trésor professionnelles en moins de 3 minutes.',
+      robots: {
+        index: false, // Don't index the old URL
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/fr/apps/chasse-au-tresor-fiches', // Point to new URL
       },
     };
   }
@@ -7287,6 +7333,7 @@ export async function generateStaticParams() {
     'prepositions-exercices-fiches', // Product page slug (French) - language-specific SEO slug for prepositions
     'discrimination-visuelle-fiches', // Product page slug (French) - language-specific SEO slug for shadow-match
     'soustraction-fiches', // Product page slug (French) - language-specific SEO slug for subtraction
+    'chasse-au-tresor-fiches', // Product page slug (French) - language-specific SEO slug for treasure-hunt
     'alphabet-zug-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug
     'malvorlagen-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug
     'mathe-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for math worksheets

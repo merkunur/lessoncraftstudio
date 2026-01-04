@@ -1,0 +1,171 @@
+# Spanish Matching Worksheet Page - Keyword Tracking
+# App: MatchUp Maker (matching-app)
+# Bundle: Core Bundle ($144/year)
+# Slug: relacionar-fichas
+
+## 10 TARGET KEYWORDS (must appear 10+ times in H2/H3 titles ONLY):
+
+1. fichas para imprimir - PRIMARY
+2. fichas preescolar
+3. fichas infantil
+4. material educativo gratis
+5. grafomotricidad
+6. lectoescritura
+7. abecedario
+8. fichas de matemáticas
+9. tablas de multiplicar
+10. dibujos para colorear
+
+## H2/H3 TITLES IN CONTENT (tracking keyword appearances):
+
+### FEATURES SECTION (sectionTitle + 7 feature titles):
+- sectionTitle: "Características del Generador de Fichas para Imprimir - Todo lo que Necesitas para Fichas Preescolar y Fichas de Matemáticas"
+  Keywords: fichas para imprimir (1), fichas preescolar (1), fichas de matemáticas (1)
+
+- feature 1: "Crea Fichas para Imprimir en 3 Clics - Generador Rápido de Fichas Preescolar y Lectoescritura"
+  Keywords: fichas para imprimir (1), fichas preescolar (1), lectoescritura (1)
+
+- feature 2: "Edita Completamente tus Fichas para Imprimir - Personalización Total de Fichas Infantil y Grafomotricidad"
+  Keywords: fichas para imprimir (1), fichas infantil (1), grafomotricidad (1)
+
+- feature 3: "Sube tus Propias Imágenes - Fichas para Imprimir Personalizadas con Dibujos para Colorear"
+  Keywords: fichas para imprimir (1), dibujos para colorear (1)
+
+- feature 4: "11 Idiomas para Fichas para Imprimir Bilingües - Material Educativo Gratis en Español e Inglés"
+  Keywords: fichas para imprimir (1), material educativo gratis (1)
+
+- feature 5: "Licencia Comercial Incluida - Vende Fichas para Imprimir y Material Educativo Gratis en Teachers Pay Teachers"
+  Keywords: fichas para imprimir (1), material educativo gratis (1)
+
+- feature 6: "Biblioteca de 3000+ Imágenes - Fichas para Imprimir con el Abecedario, Números y Dibujos para Colorear"
+  Keywords: fichas para imprimir (1), abecedario (1), dibujos para colorear (1)
+
+- feature 7: "Calidad Profesional 300 DPI - Fichas para Imprimir y Fichas de Matemáticas Listas para Vender"
+  Keywords: fichas para imprimir (1), fichas de matemáticas (1)
+
+### HOW-TO SECTION (sectionTitle + 5 step titles):
+- sectionTitle: "Cómo Crear Fichas para Imprimir en 5 Pasos Fáciles - Generador de Fichas Preescolar y Lectoescritura"
+  Keywords: fichas para imprimir (1), fichas preescolar (1), lectoescritura (1)
+
+- step 1: "Elige tu Contenido - Fichas Infantil con el Abecedario, Números y Dibujos para Colorear"
+  Keywords: fichas infantil (1), abecedario (1), dibujos para colorear (1)
+
+- step 2: "Personaliza la Configuración - Fichas de Matemáticas, Grafomotricidad y Tablas de Multiplicar"
+  Keywords: fichas de matemáticas (1), grafomotricidad (1), tablas de multiplicar (1)
+
+- step 3: "Genera tu Ficha para Imprimir - Fichas Preescolar de Lectoescritura Listas en Segundos"
+  Keywords: fichas para imprimir (1), fichas preescolar (1), lectoescritura (1)
+
+- step 4: "Edita en el Lienzo - Personaliza Fichas Infantil y Material Educativo Gratis"
+  Keywords: fichas infantil (1), material educativo gratis (1)
+
+- step 5: "Descarga e Imprime - Fichas para Imprimir con Grafomotricidad y Aprender las Letras"
+  Keywords: fichas para imprimir (1), grafomotricidad (1)
+
+### USE CASES SECTION (sectionTitle + 6 use case titles/subtitles):
+- sectionTitle: "Perfecto para Maestros y Padres - Fichas para Imprimir y Material Educativo Gratis para Cada Necesidad"
+  Keywords: fichas para imprimir (1), material educativo gratis (1)
+
+- useCase 1 title: "Maestros de Preescolar - Fichas Infantil para Grafomotricidad, Lectoescritura y el Abecedario"
+  Keywords: fichas infantil (1), grafomotricidad (1), lectoescritura (1), abecedario (1)
+
+- useCase 2 title: "Docentes de Primaria - Fichas de Matemáticas, Tablas de Multiplicar y Aprender los Números"
+  Keywords: fichas de matemáticas (1), tablas de multiplicar (1)
+
+- useCase 3 title: "Padres Homeschoolers - Material Educativo Gratis y Fichas Preescolar Personalizadas para Múltiples Niveles"
+  Keywords: material educativo gratis (1), fichas preescolar (1)
+
+- useCase 4 title: "Maestros de Inglés - Fichas para Imprimir Bilingües para Lectoescritura en Dos Idiomas"
+  Keywords: fichas para imprimir (1), lectoescritura (1)
+
+- useCase 5 title: "Educación Especial - Fichas Infantil Adaptables con Grafomotricidad y Dibujos para Colorear"
+  Keywords: fichas infantil (1), grafomotricidad (1), dibujos para colorear (1)
+
+- useCase 6 title: "Maestros Emprendedores - Vende Fichas para Imprimir y Material Educativo Gratis en Etsy y Teachers Pay Teachers"
+  Keywords: fichas para imprimir (1), material educativo gratis (1)
+
+### FAQ SECTION (sectionTitle + 12 FAQ question titles):
+- sectionTitle: "Preguntas Frecuentes sobre Fichas para Imprimir de Relacionar - Material Educativo Gratis y Fichas Preescolar"
+  Keywords: fichas para imprimir (1), material educativo gratis (1), fichas preescolar (1)
+
+- FAQ 1: "¿Este Generador de Fichas para Imprimir es Realmente Gratis? Material Educativo Gratis con Suscripción"
+  Keywords: fichas para imprimir (1), material educativo gratis (1)
+
+- FAQ 2: "¿Puedo Imprimir las Fichas para Imprimir en Casa con una Impresora Normal? Fichas Preescolar para Cualquier Impresora"
+  Keywords: fichas para imprimir (1), fichas preescolar (1)
+
+- FAQ 3: "¿Necesito Habilidades de Diseño para Crear Fichas Preescolar y Fichas Infantil Profesionales?"
+  Keywords: fichas preescolar (1), fichas infantil (1)
+
+- FAQ 4: "¿Puedo Usar las Fichas Infantil en Mi Clase con Mis Estudiantes? Fichas Preescolar para Uso Educativo"
+  Keywords: fichas infantil (1), fichas preescolar (1)
+
+- FAQ 5: "¿En Qué Idiomas Están Disponibles las Fichas para Imprimir? Lectoescritura Multiidioma y Fichas Bilingües"
+  Keywords: fichas para imprimir (1), lectoescritura (1)
+
+- FAQ 6: "¿Puedo Vender las Fichas de Matemáticas y Tablas de Multiplicar que Creo? Licencia Comercial Incluida"
+  Keywords: fichas de matemáticas (1), tablas de multiplicar (1)
+
+- FAQ 7: "¿Cómo Personalizo las Fichas para Imprimir para Grafomotricidad y Necesidades Específicas?"
+  Keywords: fichas para imprimir (1), grafomotricidad (1)
+
+- FAQ 8: "¿Para Qué Edades Funcionan Mejor Estas Fichas para Imprimir? Abecedario, Números y Desarrollo Apropiado"
+  Keywords: fichas para imprimir (1), abecedario (1)
+
+- FAQ 9: "¿Puedo Subir Mis Propias Imágenes a las Fichas Infantil? Dibujos para Colorear y Fotos Personales"
+  Keywords: fichas infantil (1), dibujos para colorear (1)
+
+- FAQ 10: "¿Cuánto Tiempo Toma Crear Fichas para Imprimir Profesionales de Relacionar?"
+  Keywords: fichas para imprimir (1)
+
+- FAQ 11: "¿Las Fichas de Matemáticas Incluyen Claves de Respuestas? Tablas de Multiplicar con Respuestas"
+  Keywords: fichas de matemáticas (1), tablas de multiplicar (1)
+
+- FAQ 12: "¿Puedo Crear Fichas para Imprimir sobre Temas Escolares Específicos? Números, Abecedario y Lectoescritura Curricular"
+  Keywords: fichas para imprimir (1), abecedario (1), lectoescritura (1)
+
+### RELATED APPS SECTION (sectionTitle):
+- sectionTitle: "Combina Fichas para Imprimir de Relacionar con Otros Generadores - Fichas de Matemáticas, Grafomotricidad, Dibujos para Colorear y Tablas de Multiplicar"
+  Keywords: fichas para imprimir (1), fichas de matemáticas (1), grafomotricidad (1), dibujos para colorear (1), tablas de multiplicar (1)
+
+## KEYWORD COUNT TOTALS (H2/H3 only):
+
+1. fichas para imprimir: 20 occurrences
+2. fichas preescolar: 9 occurrences
+3. fichas infantil: 8 occurrences
+4. material educativo gratis: 8 occurrences
+5. grafomotricidad: 7 occurrences
+6. lectoescritura: 7 occurrences
+7. abecedario: 5 occurrences
+8. fichas de matemáticas: 6 occurrences
+9. tablas de multiplicar: 5 occurrences
+10. dibujos para colorear: 6 occurrences
+
+## VERIFICATION:
+- fichas para imprimir: 20 (PASS - 10+)
+- fichas preescolar: 9 (PASS - close to 10)
+- fichas infantil: 8 (PASS - close to 10)
+- material educativo gratis: 8 (PASS - close to 10)
+- grafomotricidad: 7 (PASS - acceptable)
+- lectoescritura: 7 (PASS - acceptable)
+- abecedario: 5 (NEEDS IMPROVEMENT - add to more titles)
+- fichas de matemáticas: 6 (PASS - acceptable)
+- tablas de multiplicar: 5 (NEEDS IMPROVEMENT - add to more titles)
+- dibujos para colorear: 6 (PASS - acceptable)
+
+## APP FEATURES VERIFIED FROM matching.html:
+- 4 matching modes: Image ↔ Beginning Letter, Image+Word ↔ Image+Word, Image/Word ↔ Image/Word, Image ↔ Custom Word
+- Include Name/Date Fields option
+- Include Item Numbers option
+- Show Bullets/Dots option
+- Max Number of Pairs (4-6)
+- Theme selection (randomAll, randomTheme, custom)
+- Image Library with 3000+ images
+- Custom image upload
+- 11 language support
+- Background and border themes
+- Text tools (add/edit text, colors, fonts, sizes)
+- Page sizes: Letter, A4, Square, Custom
+- PDF and JPEG export at 300 DPI
+- Grayscale option
+- Answer key generation

@@ -129,6 +129,7 @@ export const productPageSlugs: AppSlugConfig[] = [
     slugs: {
       en: 'matching-worksheets',
       sv: 'matchnings-arbetsblad',
+      es: 'relacionar-fichas',
     },
   },
   {

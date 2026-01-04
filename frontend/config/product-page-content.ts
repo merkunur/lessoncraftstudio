@@ -155,6 +155,7 @@ import coloringEsContent from '@/content/product-pages/es/coloring-worksheets';
 import mathWorksheetsEsContent from '@/content/product-pages/es/math-worksheets';
 import wordScrambleEsContent from '@/content/product-pages/es/word-scramble-worksheets';
 import findAndCountEsContent from '@/content/product-pages/es/find-and-count-worksheets';
+import matchingEsContent from '@/content/product-pages/es/matching-worksheets';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -633,6 +634,10 @@ export const contentRegistry: ContentRegistry = {
     'buscar-contar-fichas': findAndCountEsContent,
     // Also keep old slug for backwards compatibility during transition
     'find-and-count-worksheets': findAndCountEsContent,
+    // Spanish Matching - uses Spanish SEO slug
+    'relacionar-fichas': matchingEsContent,
+    // Also keep old slug for backwards compatibility during transition
+    'matching-worksheets': matchingEsContent,
   },
 };
 

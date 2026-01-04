@@ -149,6 +149,7 @@ import writingFrContent from '@/content/product-pages/fr/writing-worksheets';
 
 // Spanish content imports
 import wordSearchEsContent from '@/content/product-pages/es/word-search-worksheets';
+import additionEsContent from '@/content/product-pages/es/addition-worksheets';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -603,6 +604,10 @@ export const contentRegistry: ContentRegistry = {
     'sopa-letras-fichas': wordSearchEsContent,
     // Also keep old slug for backwards compatibility during transition
     'word-search-worksheets': wordSearchEsContent,
+    // Spanish Addition - uses Spanish SEO slug
+    'suma-fichas': additionEsContent,
+    // Also keep old slug for backwards compatibility during transition
+    'addition-worksheets': additionEsContent,
   },
 };
 

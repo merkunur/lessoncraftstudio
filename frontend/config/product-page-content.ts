@@ -153,6 +153,7 @@ import additionEsContent from '@/content/product-pages/es/addition-worksheets';
 import alphabetTrainEsContent from '@/content/product-pages/es/alphabet-train-worksheets';
 import coloringEsContent from '@/content/product-pages/es/coloring-worksheets';
 import mathWorksheetsEsContent from '@/content/product-pages/es/math-worksheets';
+import wordScrambleEsContent from '@/content/product-pages/es/word-scramble-worksheets';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -623,6 +624,10 @@ export const contentRegistry: ContentRegistry = {
     'acertijos-matematicos-fichas': mathWorksheetsEsContent,
     // Also keep old slug for backwards compatibility during transition
     'math-worksheets': mathWorksheetsEsContent,
+    // Spanish Word Scramble - uses Spanish SEO slug
+    'letras-revueltas-fichas': wordScrambleEsContent,
+    // Also keep old slug for backwards compatibility during transition
+    'word-scramble-worksheets': wordScrambleEsContent,
   },
 };
 

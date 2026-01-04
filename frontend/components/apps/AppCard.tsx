@@ -84,6 +84,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     en: 'word-scramble-worksheets',
     sv: 'ordpussel-arbetsblad',
     de: 'buchstabensalat-arbeitsblaetter',
+    es: 'letras-revueltas-fichas',
   },
   'find-and-count': {
     en: 'find-and-count-worksheets',

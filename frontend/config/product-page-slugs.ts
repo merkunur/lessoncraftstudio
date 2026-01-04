@@ -111,6 +111,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       sv: 'ordpussel-arbetsblad',
       de: 'buchstabensalat-arbeitsblaetter',
       fr: 'mots-melanges-fiches',
+      es: 'letras-revueltas-fichas',
     },
   },
   {

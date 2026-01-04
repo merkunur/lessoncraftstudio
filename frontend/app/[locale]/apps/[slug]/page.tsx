@@ -104,6 +104,7 @@ import additionEsContent from '@/content/product-pages/es/addition-worksheets';
 import alphabetTrainEsContent from '@/content/product-pages/es/alphabet-train-worksheets';
 import coloringEsContent from '@/content/product-pages/es/coloring-worksheets';
 import mathWorksheetsEsContent from '@/content/product-pages/es/math-worksheets';
+import wordScrambleEsContent from '@/content/product-pages/es/word-scramble-worksheets';
 
 interface PageProps {
   params: {
@@ -1152,6 +1153,52 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       },
       alternates: {
         canonical: 'https://www.lessoncraftstudio.com/es/apps/acertijos-matematicos-fichas', // Point to new URL
+      },
+    };
+  }
+
+  // Word Scramble - Spanish product page SEO (new Spanish slug)
+  if (params.slug === 'letras-revueltas-fichas' && params.locale === 'es') {
+    return {
+      title: 'Fichas para Imprimir de Letras Revueltas | Generador de Ejercicios de Lectoescritura para Preescolar',
+      description: 'Crea fichas profesionales de letras revueltas con nuestro generador educativo. Genera fichas personalizadas de lectoescritura perfectas para preescolar y primaria. Descarga ejercicios de alta calidad en PDF en menos de 3 minutos.',
+      keywords: 'fichas para imprimir, letras revueltas, fichas preescolar, ejercicios de lectoescritura, fichas infantil, grafomotricidad, abecedario, fichas gratis, material educativo gratis, dibujos para colorear',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/es/apps/letras-revueltas-fichas',
+        languages: {
+          'en': 'https://www.lessoncraftstudio.com/en/apps/word-scramble-worksheets',
+          'sv': 'https://www.lessoncraftstudio.com/sv/apps/ordpussel-arbetsblad',
+          'de': 'https://www.lessoncraftstudio.com/de/apps/buchstabensalat-arbeitsblaetter',
+          'fr': 'https://www.lessoncraftstudio.com/fr/apps/mots-melanges-fiches',
+          'es': 'https://www.lessoncraftstudio.com/es/apps/letras-revueltas-fichas',
+          'x-default': 'https://www.lessoncraftstudio.com/en/apps/word-scramble-worksheets',
+        },
+      },
+      openGraph: {
+        title: 'Fichas para Imprimir de Letras Revueltas | LessonCraftStudio',
+        description: 'Crea fichas profesionales de letras revueltas con nuestro generador educativo. Perfectas para preescolar y primaria.',
+        url: 'https://www.lessoncraftstudio.com/es/apps/letras-revueltas-fichas',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Word Scramble - Spanish legacy redirect (old English slug in Spanish locale)
+  if (params.slug === 'word-scramble-worksheets' && params.locale === 'es') {
+    return {
+      title: 'Fichas para Imprimir de Letras Revueltas | LessonCraftStudio',
+      description: 'Página movida. Por favor visita la nueva URL.',
+      robots: {
+        index: false, // Don't index old URL
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/es/apps/letras-revueltas-fichas', // Point to new URL
       },
     };
   }
@@ -7462,6 +7509,7 @@ export async function generateStaticParams() {
     'deviner-mots-fiches', // Product page slug (French) - language-specific SEO slug for word-guess
     'ecriture-fiches', // Product page slug (French) - language-specific SEO slug for writing
     'acertijos-matematicos-fichas', // Product page slug (Spanish) - language-specific SEO slug for math-worksheet
+    'letras-revueltas-fichas', // Product page slug (Spanish) - language-specific SEO slug for word-scramble
     'alphabet-zug-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug
     'malvorlagen-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug
     'mathe-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for math worksheets

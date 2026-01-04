@@ -624,6 +624,12 @@ const nextConfig = {
         destination: '/es/apps/acertijos-matematicos-fichas',
         permanent: true,
       },
+      // Spanish: word-scramble-worksheets → letras-revueltas-fichas
+      {
+        source: '/es/apps/word-scramble-worksheets',
+        destination: '/es/apps/letras-revueltas-fichas',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

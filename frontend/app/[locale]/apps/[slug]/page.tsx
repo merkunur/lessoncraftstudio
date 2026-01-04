@@ -139,6 +139,34 @@ function SchemaScripts({
 
 // Generate metadata for SEO
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+  // DYNAMIC: Check content registry first for SEO metadata
+  // This handles all product pages with content files (including non-English pages)
+  const content = getContentBySlug(params.locale, params.slug);
+  if (content?.seo) {
+    const alternateUrls = getAlternateLanguageUrls(content.seo.appId || params.slug, params.locale);
+    return {
+      title: content.seo.title,
+      description: content.seo.description,
+      keywords: content.seo.keywords,
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: content.seo.canonicalUrl || `https://www.lessoncraftstudio.com/${params.locale}/apps/${params.slug}`,
+        languages: alternateUrls,
+      },
+      openGraph: {
+        title: content.seo.title,
+        description: content.seo.description,
+        url: content.seo.canonicalUrl || `https://www.lessoncraftstudio.com/${params.locale}/apps/${params.slug}`,
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Legacy hardcoded metadata (kept for backwards compatibility)
   // Product pages have custom SEO metadata
   if (params.slug === 'addition-worksheets' && params.locale === 'en') {
     return {

@@ -150,6 +150,7 @@ import writingFrContent from '@/content/product-pages/fr/writing-worksheets';
 // Spanish content imports
 import wordSearchEsContent from '@/content/product-pages/es/word-search-worksheets';
 import additionEsContent from '@/content/product-pages/es/addition-worksheets';
+import alphabetTrainEsContent from '@/content/product-pages/es/alphabet-train-worksheets';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -608,6 +609,10 @@ export const contentRegistry: ContentRegistry = {
     'suma-fichas': additionEsContent,
     // Also keep old slug for backwards compatibility during transition
     'addition-worksheets': additionEsContent,
+    // Spanish Alphabet Train - uses Spanish SEO slug
+    'tren-alfabeto-fichas': alphabetTrainEsContent,
+    // Also keep old slug for backwards compatibility during transition
+    'alphabet-train-worksheets': alphabetTrainEsContent,
   },
 };
 

@@ -40,14 +40,28 @@ Las páginas de colorear que creas son completamente editables. Cambia tamaños,
       images: '3000+ Imágenes',
       license: 'Licencia Comercial',
     },
+    readMoreLabel: 'Leer más',
+    showLessLabel: 'Ver menos',
+    floatingStats: {
+      time: '3 min',
+      action: 'Crear y Descargar',
+      quality: '300 DPI',
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/coloring/
   samples: {
     sectionTitle: 'Ejemplos de Dibujos para Colorear',
+    sectionDescription: 'Descarga ejemplos gratuitos para ver nuestra calidad profesional',
     downloadLabel: 'Descargar Ejemplo Gratis',
     worksheetLabel: 'Ficha',
-    answerKeyLabel: 'Clave de Respuestas',
+    answerKeyLabel: 'Respuestas',
+    viewAllLabel: 'Ampliar',
+    noPdfLabel: 'Solo vista previa',
+    freePdfCountLabel: 'descargas gratis',
+    badgeText: 'Ejemplos Gratis',
+    downloadingLabel: 'Descargando...',
+    ofLabel: 'de',
     items: [
       {
         id: '1',
@@ -85,6 +99,14 @@ Las páginas de colorear que creas son completamente editables. Cambia tamaños,
     sectionTitle: 'Características del Creador de Dibujos para Colorear - Todo lo Necesario para Fichas Infantil y Fichas para Imprimir Profesionales',
     sectionDescription: 'Nuestro generador de páginas de colorear incluye todas las herramientas que maestros de preescolar y primaria necesitan. Crea fichas gratis ilimitadas con tu suscripción Paquete Esencial. Cada característica está diseñada para ahorrarte tiempo mientras produces material educativo gratis de calidad profesional. Las siete funciones principales transforman cómo creas actividades de colorear para tus estudiantes.',
     highlightBadgeText: 'Característica Clave',
+    readMoreLabel: 'Leer más',
+    showLessLabel: 'Ver menos',
+    badgeText: 'Características',
+    trustBadges: {
+      allFeatures: 'Todas las características incluidas',
+      noHiddenFees: 'Sin cargos ocultos',
+      cancelAnytime: 'Cancela cuando quieras',
+    },
     items: [
       {
         id: '1',
@@ -157,6 +179,14 @@ Elige formato PDF para la más alta calidad de fichas imprimibles. Los archivos 
     sectionTitle: 'Cómo Crear Dibujos para Colorear en 5 Pasos Simples - Guía Completa para Fichas Preescolar y Fichas para Imprimir Profesionales',
     sectionDescription: 'Crea páginas de colorear personalizadas en menos de 3 minutos. Este proceso de cinco pasos funciona para cualquier nivel educativo desde educación infantil hasta tercero de primaria. No necesitas experiencia en diseño gráfico. Cada paso es intuitivo y directo. Maestros reportan crear fichas para imprimir completas en el tiempo que toma tomar un café. La rapidez del sistema permite producir material educativo gratis variado semanalmente.',
     ctaText: 'Comenzar a Crear Ahora',
+    badgeText: 'Cómo Funciona',
+    stepLabel: 'Paso',
+    completionTitle: '¡Listo!',
+    completionSubtitle: 'Tu ficha está lista',
+    readyTime: 'Lista en menos de 3 minutos',
+    noSkillsNeeded: 'Sin conocimientos de diseño necesarios',
+    readMoreLabel: 'Leer más',
+    showLessLabel: 'Ver menos',
     steps: [
       {
         id: '1',
@@ -220,6 +250,9 @@ El archivo se descarga inmediatamente a tu carpeta de descargas con nombre descr
   useCases: {
     sectionTitle: 'Perfecto para Maestros y Educadores - Dibujos para Colorear y Fichas para Imprimir para Todas las Necesidades Educativas',
     sectionDescription: 'El creador de páginas de colorear sirve a diversos profesionales educativos desde educación infantil hasta primaria. Cada grupo encuentra aplicaciones únicas que ahorran tiempo y mejoran resultados de aprendizaje. Maestros de preescolar, docentes de primaria, padres educadores en casa, profesores de idiomas, maestros de educación especial, y emprendedores educativos todos benefician del sistema. Las herramientas flexibles se adaptan a múltiples contextos pedagógicos y estilos de enseñanza.',
+    badgeText: 'Para Quién',
+    readMoreLabel: 'Leer más',
+    showLessLabel: 'Ver menos',
     items: [
       {
         id: '1',
@@ -302,6 +335,11 @@ La calidad profesional de 300 DPI y formatos PDF hacen que tus productos compita
     sectionDescription: 'Educadores tienen preguntas comunes sobre funcionalidad, costos, y aplicaciones pedagógicas del generador. Esta sección responde las doce preguntas más frecuentes que maestros de preescolar y primaria hacen. Las respuestas aclaran capacidades del sistema y ayudan a decidir si la herramienta se ajusta a tus necesidades específicas de enseñanza.',
     showMoreText: 'Mostrar más preguntas',
     showLessText: 'Mostrar menos',
+    badgeText: 'Preguntas Frecuentes',
+    readMoreLabel: 'Leer más',
+    showLessLabel: 'Ver menos',
+    secureCheckout: 'Pago seguro',
+    cancelAnytime: 'Cancela cuando quieras',
     items: [
       {
         id: '1',
@@ -392,6 +430,13 @@ La calidad profesional de 300 DPI y formatos PDF hacen que tus productos compita
     ctaDescription: 'Únete a miles de educadores creando fichas profesionales. Generación ilimitada, licencia comercial incluida.',
     primaryCtaText: 'Comenzar Prueba Gratis',
     secondaryCtaText: 'Ver las 33 Aplicaciones',
+    badgeText: 'Funciona Perfectamente Con',
+    exploreText: 'Explorar todas las aplicaciones',
+    trustBadges: {
+      guarantee: 'Garantía de devolución de 30 días',
+      securePayment: 'Pago seguro',
+      cancelAnytime: 'Cancela cuando quieras',
+    },
     items: [
       {
         id: '1',

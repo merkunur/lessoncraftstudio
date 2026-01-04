@@ -349,7 +349,7 @@ Crea productos digitales descargables para Etsy. Sopas de letras imprimibles lis
       {
         id: '1',
         question: '¿Este Generador de Sopas de Letras es Realmente Gratis para Crear Fichas para Imprimir?',
-        answer: 'El generador de sopas de letras es gratuito con marca de agua para uso personal. Crea sopas de letras ilimitadas sin pagar. Cada ficha generada incluye una pequeña marca de agua. Esta versión gratuita funciona perfectamente para maestros que usan fichas en sus propias aulas. No necesitas tarjeta de crédito para la versión gratuita. La versión gratuita tiene limitaciones importantes. No puedes vender fichas con marca de agua. El uso comercial requiere suscripción. La suscripción Core Bundle elimina la marca de agua completamente y cuesta $144 anuales o $15 mensuales.',
+        answer: 'El generador de sopas de letras es gratuito con marca de agua para uso personal. Crea sopas de letras ilimitadas sin pagar. Cada ficha generada incluye una pequeña marca de agua. Esta versión gratuita funciona perfectamente para maestros que usan fichas en sus propias aulas. No necesitas tarjeta de crédito para la versión gratuita. La versión gratuita tiene limitaciones importantes. No puedes vender fichas con marca de agua. El uso comercial requiere suscripción. La suscripción Paquete Esencial elimina la marca de agua completamente y cuesta $144 anuales o $15 mensuales.',
       },
       {
         id: '2',
@@ -369,7 +369,7 @@ Crea productos digitales descargables para Etsy. Sopas de letras imprimibles lis
       {
         id: '5',
         question: '¿Puedo Vender Fichas de Tablas de Multiplicar y Dibujos para Colorear que Creo con Este Generador?',
-        answer: 'La versión gratuita NO permite venta comercial. Solo uso personal y en aula. Las suscripciones Core Bundle y Full Access incluyen licencia comercial completa. Vende fichas en Teachers Pay Teachers. Enumera en tiendas Etsy. Publica libros en Amazon KDP. Crea sitios de membresía con contenido descargable. La licencia cubre todos los modelos de negocio de impresión bajo demanda. No se requiere atribución en productos vendidos.',
+        answer: 'La versión gratuita NO permite venta comercial. Solo uso personal y en aula. Las suscripciones Paquete Esencial y Acceso Completo incluyen licencia comercial completa. Vende fichas en Teachers Pay Teachers. Enumera en tiendas Etsy. Publica libros en Amazon KDP. Crea sitios de membresía con contenido descargable. La licencia cubre todos los modelos de negocio de impresión bajo demanda. No se requiere atribución en productos vendidos.',
       },
       {
         id: '6',
@@ -411,7 +411,7 @@ Crea productos digitales descargables para Etsy. Sopas de letras imprimibles lis
 
   // Pricing
   pricing: {
-    title: 'Core Bundle',
+    title: 'Paquete Esencial',
     price: '$144',
     priceInterval: '/año',
     priceSuffix: 'Facturación anual',

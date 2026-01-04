@@ -380,6 +380,107 @@ const localizedHomeLabel: Record<string, string> = {
 };
 
 /**
+ * Localized pricing tier names
+ */
+const localizedFreeTier: Record<string, string> = {
+  en: "Free Tier",
+  de: "Kostenlose Stufe",
+  fr: "Niveau Gratuit",
+  es: "Nivel Gratuito",
+  pt: "Nível Gratuito",
+  it: "Livello Gratuito",
+  nl: "Gratis Niveau",
+  sv: "Gratis Nivå",
+  da: "Gratis Niveau",
+  no: "Gratis Nivå",
+  fi: "Ilmainen Taso"
+};
+
+const localizedCoreTier: Record<string, string> = {
+  en: "Core Bundle",
+  de: "Basis-Paket",
+  fr: "Forfait Essentiel",
+  es: "Paquete Esencial",
+  pt: "Pacote Essencial",
+  it: "Pacchetto Base",
+  nl: "Basispakket",
+  sv: "Grundpaket",
+  da: "Grundpakke",
+  no: "Grunnpakke",
+  fi: "Peruspaketti"
+};
+
+const localizedFullTier: Record<string, string> = {
+  en: "Full Access",
+  de: "Voller Zugang",
+  fr: "Accès Complet",
+  es: "Acceso Completo",
+  pt: "Acesso Completo",
+  it: "Accesso Completo",
+  nl: "Volledige Toegang",
+  sv: "Full Åtkomst",
+  da: "Fuld Adgang",
+  no: "Full Tilgang",
+  fi: "Täysi Käyttöoikeus"
+};
+
+const localizedFreeDesc: Record<string, string> = {
+  en: "Access to Word Search generator",
+  de: "Zugang zum Wortsuchrätsel-Generator",
+  fr: "Accès au générateur de mots cachés",
+  es: "Acceso al generador de sopa de letras",
+  pt: "Acesso ao gerador de caça-palavras",
+  it: "Accesso al generatore di ricerca parole",
+  nl: "Toegang tot de woordzoeker generator",
+  sv: "Tillgång till ordjakts-generatorn",
+  da: "Adgang til ordjakts-generatoren",
+  no: "Tilgang til ordjakts-generatoren",
+  fi: "Pääsy sanaristikko-generaattoriin"
+};
+
+const localizedCoreDesc: Record<string, string> = {
+  en: "Access to 10 core worksheet generators",
+  de: "Zugang zu 10 Basis-Arbeitsblatt-Generatoren",
+  fr: "Accès à 10 générateurs de fiches essentiels",
+  es: "Acceso a 10 generadores de fichas esenciales",
+  pt: "Acesso a 10 geradores de planilhas essenciais",
+  it: "Accesso a 10 generatori di schede essenziali",
+  nl: "Toegang tot 10 basis werkblad generatoren",
+  sv: "Tillgång till 10 grundläggande arbetsblads-generatorer",
+  da: "Adgang til 10 grundlæggende arbejdsark-generatorer",
+  no: "Tilgang til 10 grunnleggende arbeidsark-generatorer",
+  fi: "Pääsy 10 perus työarkki-generaattoriin"
+};
+
+const localizedFullDesc: Record<string, string> = {
+  en: "Access to all 33 worksheet generators",
+  de: "Zugang zu allen 33 Arbeitsblatt-Generatoren",
+  fr: "Accès aux 33 générateurs de fiches",
+  es: "Acceso a los 33 generadores de fichas",
+  pt: "Acesso a todos os 33 geradores de planilhas",
+  it: "Accesso a tutti i 33 generatori di schede",
+  nl: "Toegang tot alle 33 werkblad generatoren",
+  sv: "Tillgång till alla 33 arbetsblads-generatorer",
+  da: "Adgang til alle 33 arbejdsark-generatorer",
+  no: "Tilgang til alle 33 arbeidsark-generatorer",
+  fi: "Pääsy kaikkiin 33 työarkki-generaattoriin"
+};
+
+const localizedWorksheetGenerator: Record<string, string> = {
+  en: "Worksheet Generator",
+  de: "Arbeitsblatt-Generator",
+  fr: "Générateur de Fiches",
+  es: "Generador de Fichas",
+  pt: "Gerador de Planilhas",
+  it: "Generatore di Schede",
+  nl: "Werkblad Generator",
+  sv: "Arbetsblads-generator",
+  da: "Arbejdsark-generator",
+  no: "Arbeidsark-generator",
+  fi: "Työarkki-generaattori"
+};
+
+/**
  * Generate Schema Markup for Individual App Product Pages
  * Includes: SoftwareApplication and BreadcrumbList schemas
  */
@@ -411,14 +512,14 @@ export function generateAppProductSchemas(
       "offers": [
         {
           "@type": "Offer",
-          "name": "Free Tier",
+          "name": localizedFreeTier[locale] || localizedFreeTier.en,
           "price": "0",
           "priceCurrency": "USD",
           "description": "Access to Word Search generator"
         },
         {
           "@type": "Offer",
-          "name": "Core Bundle",
+          "name": localizedCoreTier[locale] || localizedCoreTier.en,
           "price": "15",
           "priceCurrency": "USD",
           "priceSpecification": {
@@ -431,7 +532,7 @@ export function generateAppProductSchemas(
         },
         {
           "@type": "Offer",
-          "name": "Full Access",
+          "name": localizedFullTier[locale] || localizedFullTier.en,
           "price": "25",
           "priceCurrency": "USD",
           "priceSpecification": {

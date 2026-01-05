@@ -541,7 +541,7 @@ Los maestros de educación temática aprecian particularmente esta flexibilidad.
       securePayment: 'Pago seguro',
       cancelAnytime: 'Cancela cuando quieras',
     },
-    apps: [
+    items: [
       {
         id: '1',
         icon: '🎨',

@@ -42,14 +42,26 @@ Le schede didattiche scuola primaria create con il nostro generatore sono stampa
     },
     readMoreLabel: 'Leggi di più',
     showLessLabel: 'Mostra meno',
+    floatingStats: {
+      time: '3 min',
+      action: 'Crea e Scarica',
+      quality: '300 DPI',
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/wordsearch/
   samples: {
     sectionTitle: 'Esempi di Crucipuzzle',
+    sectionDescription: 'Scarica esempi gratuiti per vedere la nostra qualità professionale',
     downloadLabel: 'Scarica Esempio Gratuito',
     worksheetLabel: 'Scheda',
     answerKeyLabel: 'Soluzioni',
+    viewAllLabel: 'Ingrandisci',
+    noPdfLabel: 'Solo anteprima',
+    freePdfCountLabel: 'download gratuiti',
+    badgeText: 'Esempi Gratuiti',
+    downloadingLabel: 'Scaricamento...',
+    ofLabel: 'di',
     items: [
       {
         id: '1',
@@ -82,6 +94,12 @@ Le schede didattiche scuola primaria create con il nostro generatore sono stampa
     highlightBadgeText: 'Funzionalità Chiave',
     readMoreLabel: 'Leggi di più',
     showLessLabel: 'Mostra meno',
+    badgeText: 'Funzionalità',
+    trustBadges: {
+      allFeatures: 'Tutte le funzionalità incluse',
+      noHiddenFees: 'Nessun costo nascosto',
+      cancelAnytime: 'Cancella quando vuoi',
+    },
     items: [
       {
         id: '1',
@@ -166,7 +184,14 @@ La qualità professionale è essenziale per vendere schede didattiche. I clienti
     sectionTitle: 'Crea Schede Didattiche in 5 Semplici Passaggi',
     sectionDescription: 'Creare crucipuzzle professionali con il nostro generatore richiede meno di 3 minuti. Segui questi cinque passaggi per produrre schede didattiche scuola primaria di alta qualità. Non sono necessarie competenze di design. Non è richiesta esperienza tecnica.',
     ctaText: 'Inizia Ora',
+    badgeText: 'Come Funziona',
     stepLabel: 'Passaggio',
+    completionTitle: 'Fatto!',
+    completionSubtitle: 'La tua scheda è pronta',
+    readyTime: 'Pronta in meno di 3 minuti',
+    noSkillsNeeded: 'Nessuna competenza di design richiesta',
+    readMoreLabel: 'Leggi di più',
+    showLessLabel: 'Mostra meno',
     steps: [
       {
         id: '1',
@@ -230,6 +255,7 @@ L'opzione scala di grigi risparmia inchiostro colorato mantenendo la qualità. S
   useCases: {
     sectionTitle: 'Perfetto per Insegnanti, Genitori ed Educatori',
     sectionDescription: 'Il generatore di crucipuzzle serve educatori in contesti diversi. Gli insegnanti della scuola dell\'infanzia creano attività di pregrafismo. Gli insegnanti di scuola primaria generano schede matematica. I genitori homeschool producono disegni da colorare.',
+    badgeText: 'Per Chi',
     readMoreLabel: 'Leggi di più',
     showLessLabel: 'Mostra meno',
     items: [
@@ -314,6 +340,11 @@ Amazon KDP permette pubblicazione di libri di crucipuzzle. Crea 100 crucipuzzle 
     sectionDescription: 'Tutto quello che devi sapere sul nostro generatore di crucipuzzle.',
     showMoreText: 'Mostra altre domande',
     showLessText: 'Mostra meno',
+    badgeText: 'FAQ',
+    readMoreLabel: 'Leggi di più',
+    showLessLabel: 'Mostra meno',
+    secureCheckout: 'Pagamento sicuro',
+    cancelAnytime: 'Cancella quando vuoi',
     items: [
       {
         id: '1',
@@ -404,6 +435,13 @@ Amazon KDP permette pubblicazione di libri di crucipuzzle. Crea 100 crucipuzzle 
     ctaDescription: 'Unisciti a migliaia di educatori che creano schede professionali. Generazione illimitata, licenza commerciale inclusa.',
     primaryCtaText: 'Inizia la Prova Gratuita',
     secondaryCtaText: 'Vedi Tutti i 33 Generatori',
+    badgeText: 'Funziona Perfettamente Con',
+    exploreText: 'Esplora tutte le applicazioni',
+    trustBadges: {
+      guarantee: 'Garanzia di rimborso 30 giorni',
+      securePayment: 'Pagamento sicuro',
+      cancelAnytime: 'Cancella quando vuoi',
+    },
     items: [
       {
         id: '1',

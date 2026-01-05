@@ -54,9 +54,16 @@ Las fichas de matemáticas con rompecabezas funcionan excepcionalmente bien para
   // Sample Gallery
   samples: {
     sectionTitle: 'Ejemplos de Fichas de Matemáticas',
+    sectionDescription: 'Descarga ejemplos de fichas gratis para ver nuestra calidad profesional',
     downloadLabel: 'Descargar Ejemplo Gratis',
     worksheetLabel: 'Ficha',
     answerKeyLabel: 'Hoja de Respuestas',
+    viewAllLabel: 'Ver todos',
+    noPdfLabel: 'PDF no disponible',
+    freePdfCountLabel: 'descargas gratis',
+    badgeText: 'Ejemplos Gratis',
+    downloadingLabel: 'Descargando...',
+    ofLabel: 'de',
     items: [
       {
         id: '1',
@@ -80,6 +87,9 @@ Las fichas de matemáticas con rompecabezas funcionan excepcionalmente bien para
     sectionTitle: 'Características de Fichas para Imprimir - Todo lo que Necesitas para Crear Ejercicios Matemáticas Profesionales',
     sectionDescription: 'Nuestro generador de rompecabezas matemáticos ofrece características completas para crear fichas de matemáticas atractivas y efectivas. Cada herramienta está diseñada para maestros ocupados que necesitan material educativo gratis de calidad profesional rápidamente. Crea fichas infantil personalizadas con configuración flexible, personalización completa y exportación de alta calidad. Tu suscripción Acceso Completo incluye acceso ilimitado a todas las características sin costos adicionales por hoja.',
     highlightBadgeText: 'Destacado',
+    badgeText: 'Características',
+    readMoreLabel: 'Leer más',
+    showLessLabel: 'Ver menos',
     trustBadges: {
       allFeatures: 'Todas las características incluidas',
       noHiddenFees: 'Sin cargos ocultos',
@@ -143,6 +153,14 @@ Las fichas de matemáticas con rompecabezas funcionan excepcionalmente bien para
     sectionTitle: 'Cómo Crear Fichas de Matemáticas Profesionales en 5 Pasos Fáciles - Ejercicios Matemáticas para Imprimir en Minutos',
     sectionDescription: 'Crear rompecabezas matemáticos profesionales toma menos de 3 minutos del principio al fin. El proceso está diseñado para maestros ocupados que necesitan material educativo gratis de calidad rápidamente. Cada paso es intuitivo y directo. No se requieren habilidades de diseño ni experiencia técnica. Sigue estos cinco pasos simples para crear fichas para imprimir personalizadas perfectas para tus estudiantes de educación infantil y primaria.',
     ctaText: 'Comenzar Ahora',
+    badgeText: 'Cómo Funciona',
+    stepLabel: 'Paso',
+    completionTitle: '¡Listo!',
+    completionSubtitle: 'Tu ficha está lista',
+    readyTime: 'Lista en menos de 3 minutos',
+    noSkillsNeeded: 'Sin habilidades de diseño necesarias',
+    readMoreLabel: 'Leer más',
+    showLessLabel: 'Ver menos',
     steps: [
       {
         id: '1',
@@ -186,6 +204,9 @@ Las fichas de matemáticas con rompecabezas funcionan excepcionalmente bien para
   useCases: {
     sectionTitle: 'Perfecto para Maestros, Padres y Educadores - Fichas de Matemáticas y Material Educativo Gratis para Cada Necesidad',
     sectionDescription: 'Los rompecabezas matemáticos benefician a diversos tipos de educadores y entornos de aprendizaje. Cada grupo de usuarios encuentra valor único en estas fichas para imprimir autocorregibles. Maestros de educación infantil aprecian la motivación visual integrada. Padres que educan en casa valoran la flexibilidad de nivel. Educadores de educación especial usan las imágenes personalizadas para conexión emocional. Maestros emprendedores aprovechan la licencia comercial incluida. Estas fichas gratis se adaptan perfectamente a múltiples contextos educativos.',
+    badgeText: 'Para Quién Es',
+    readMoreLabel: 'Leer más',
+    showLessLabel: 'Ver menos',
     items: [
       {
         id: '1',
@@ -241,6 +262,13 @@ Las fichas de matemáticas con rompecabezas funcionan excepcionalmente bien para
   // FAQ Section
   faq: {
     sectionTitle: 'Preguntas Frecuentes sobre Fichas de Matemáticas para Imprimir y Ejercicios Matemáticas',
+    badgeText: 'Preguntas Frecuentes',
+    showMoreText: 'Ver más preguntas',
+    showLessText: 'Ver menos preguntas',
+    readMoreLabel: 'Leer más',
+    showLessLabel: 'Ver menos',
+    secureCheckout: 'Pago seguro',
+    cancelAnytime: 'Cancela cuando quieras',
     items: [
       {
         id: '1',

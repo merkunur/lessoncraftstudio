@@ -411,6 +411,7 @@ Guarda archivos descargados para reutilización futura. Construye bibliotecas de
       {
         id: '1',
         name: 'Fichas de Matemáticas',
+        category: 'Matemáticas',
         description: 'Combina rompecabezas con hojas de ejercicios matemáticas para práctica completa de tablas de multiplicar.',
         icon: '🔢',
         slug: 'acertijos-matematicos-fichas',
@@ -418,6 +419,7 @@ Guarda archivos descargados para reutilización futura. Construye bibliotecas de
       {
         id: '2',
         name: 'Sopa de Letras',
+        category: 'Lenguaje',
         description: 'Empareja rompecabezas con sopas de letras para refuerzo de vocabulario del abecedario.',
         icon: '🔤',
         slug: 'sopa-letras-fichas',
@@ -425,6 +427,7 @@ Guarda archivos descargados para reutilización futura. Construye bibliotecas de
       {
         id: '3',
         name: 'Dibujos para Colorear',
+        category: 'Arte y Creatividad',
         description: 'Combina rompecabezas con hojas de colorear para experiencias de aprendizaje completas.',
         icon: '🎨',
         slug: 'dibujos-colorear-fichas',

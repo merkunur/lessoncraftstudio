@@ -113,6 +113,7 @@ import sudokuEsContent from '@/content/product-pages/es/sudoku-fichas-ninos';
 import bigSmallEsContent from '@/content/product-pages/es/grande-pequeno-fichas';
 import graficosConteoEsContent from '@/content/product-pages/es/graficos-conteo-fichas';
 import sumaCodigoEsContent from '@/content/product-pages/es/suma-codigo-fichas';
+import dibujoCuadriculaEsContent from '@/content/product-pages/es/dibujo-cuadricula-fichas';
 
 interface PageProps {
   params: {
@@ -1485,6 +1486,52 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       },
       alternates: {
         canonical: 'https://www.lessoncraftstudio.com/es/apps/suma-codigo-fichas', // Point to new URL
+      },
+    };
+  }
+
+  // Draw and Color Worksheets - Spanish product page SEO (new Spanish slug)
+  if (params.slug === 'dibujo-cuadricula-fichas' && params.locale === 'es') {
+    return {
+      title: 'Fichas para Imprimir Gratis | Generador de Dibujos para Colorear en Cuadrícula',
+      description: 'Crea fichas de dibujo en cuadrícula profesionales con nuestro generador. Perfecto para maestros de educación infantil que necesitan fichas para imprimir de grafomotricidad. Material educativo gratis en PDF de alta calidad.',
+      keywords: 'fichas para imprimir, fichas infantil, fichas preescolar, dibujos para colorear, grafomotricidad, material educativo gratis, fichas gratis, cuadrícula',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/es/apps/dibujo-cuadricula-fichas',
+        languages: {
+          'en': 'https://www.lessoncraftstudio.com/en/apps/draw-and-color-worksheets',
+          'sv': 'https://www.lessoncraftstudio.com/sv/apps/rutritning-arbetsblad',
+          'de': 'https://www.lessoncraftstudio.com/de/apps/rasterzeichnen-arbeitsblaetter',
+          'fr': 'https://www.lessoncraftstudio.com/fr/apps/dessin-quadrillage-fiches',
+          'es': 'https://www.lessoncraftstudio.com/es/apps/dibujo-cuadricula-fichas',
+          'x-default': 'https://www.lessoncraftstudio.com/en/apps/draw-and-color-worksheets',
+        },
+      },
+      openGraph: {
+        title: 'Fichas para Imprimir Gratis | LessonCraftStudio',
+        description: 'Crea fichas de dibujo en cuadrícula profesionales con nuestro generador. Perfecto para maestros de educación infantil.',
+        url: 'https://www.lessoncraftstudio.com/es/apps/dibujo-cuadricula-fichas',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Legacy: Redirect old Spanish draw-and-color-worksheets slug to new slug (for backwards compatibility)
+  if (params.slug === 'draw-and-color-worksheets' && params.locale === 'es') {
+    return {
+      title: 'Fichas para Imprimir Gratis - Generador de Dibujos para Colorear en Cuadrícula',
+      description: 'Página movida. Por favor visita la nueva URL.',
+      robots: {
+        index: false, // Don't index old URL
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/es/apps/dibujo-cuadricula-fichas', // Point to new URL
       },
     };
   }
@@ -7803,6 +7850,7 @@ export async function generateStaticParams() {
     'grande-pequeno-fichas', // Product page slug (Spanish) - language-specific SEO slug for big-small
     'graficos-conteo-fichas', // Product page slug (Spanish) - language-specific SEO slug for chart-count
     'suma-codigo-fichas', // Product page slug (Spanish) - language-specific SEO slug for code-addition
+    'dibujo-cuadricula-fichas', // Product page slug (Spanish) - language-specific SEO slug for draw-and-color
     'alphabet-zug-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug
     'malvorlagen-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug
     'mathe-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for math worksheets

@@ -162,6 +162,7 @@ import sudokuEsContent from '@/content/product-pages/es/sudoku-fichas-ninos';
 import bigSmallEsContent from '@/content/product-pages/es/grande-pequeno-fichas';
 import graficosConteoEsContent from '@/content/product-pages/es/graficos-conteo-fichas';
 import sumaCodigoEsContent from '@/content/product-pages/es/suma-codigo-fichas';
+import dibujoCuadriculaEsContent from '@/content/product-pages/es/dibujo-cuadricula-fichas';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -668,6 +669,10 @@ export const contentRegistry: ContentRegistry = {
     'suma-codigo-fichas': sumaCodigoEsContent,
     // Also keep old slug for backwards compatibility during transition
     'code-addition-worksheets': sumaCodigoEsContent,
+    // Spanish Draw and Color (Dibujo en Cuadrícula) - uses Spanish SEO slug
+    'dibujo-cuadricula-fichas': dibujoCuadriculaEsContent,
+    // Also keep old slug for backwards compatibility during transition
+    'draw-and-color-worksheets': dibujoCuadriculaEsContent,
   },
 };
 

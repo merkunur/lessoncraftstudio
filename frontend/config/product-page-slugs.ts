@@ -198,6 +198,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       sv: 'rutritning-arbetsblad',
       de: 'rasterzeichnen-arbeitsblaetter',
       fr: 'dessin-quadrillage-fiches',
+      es: 'dibujo-cuadricula-fichas',
     },
   },
   {

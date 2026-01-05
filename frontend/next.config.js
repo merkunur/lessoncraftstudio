@@ -678,6 +678,12 @@ const nextConfig = {
         destination: '/es/apps/suma-codigo-fichas',
         permanent: true,
       },
+      // Spanish: draw-and-color-worksheets → dibujo-cuadricula-fichas
+      {
+        source: '/es/apps/draw-and-color-worksheets',
+        destination: '/es/apps/dibujo-cuadricula-fichas',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

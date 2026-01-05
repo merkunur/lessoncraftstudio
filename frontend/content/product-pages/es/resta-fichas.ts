@@ -598,21 +598,17 @@ Los maestros de educación temática aprecian particularmente esta flexibilidad.
     title: 'Acceso Completo',
     price: '$240',
     priceInterval: '/año',
-    priceSuffix: 'Facturado anualmente',
-    monthlyEquivalent: 'Solo $25/mes',
-    ctaText: 'Comenzar Ahora',
-    guaranteeText: 'Garantía de devolución de 30 días',
-    features: [
+    priceSuffix: 'Facturado anualmente - Solo $25/mes',
+    benefits: [
       'Acceso a los 33 generadores de fichas',
       'Creación ilimitada de fichas',
       'Biblioteca de 3000+ imágenes',
       'Soporte de 11 idiomas',
       'Licencia comercial POD incluida',
       'Exportación de 300 DPI',
-      'Claves de respuestas automáticas',
-      'Sin marcas de agua',
     ],
-    highlighted: true,
+    ctaText: 'Comenzar Ahora',
+    guaranteeText: 'Garantía de devolución de 30 días',
   },
 };
 

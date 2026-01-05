@@ -732,6 +732,12 @@ const nextConfig = {
         destination: '/es/apps/encuentra-el-diferente-fichas',
         permanent: true,
       },
+      // Spanish: pattern-train-worksheets → tren-patrones-fichas
+      {
+        source: '/es/apps/pattern-train-worksheets',
+        destination: '/es/apps/tren-patrones-fichas',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

@@ -122,6 +122,7 @@ import mathPuzzleEsContent from '@/content/product-pages/es/rompecabezas-matemat
 import missingPiecesEsContent from '@/content/product-pages/es/piezas-faltantes-fichas';
 import moreLessEsContent from '@/content/product-pages/es/mayor-menor-fichas';
 import oddOneOutEsContent from '@/content/product-pages/es/encuentra-el-diferente';
+import patternTrainEsContent from '@/content/product-pages/es/tren-patrones-fichas';
 
 interface PageProps {
   params: {
@@ -7957,6 +7958,7 @@ export async function generateStaticParams() {
     'piezas-faltantes-fichas', // Product page slug (Spanish) - language-specific SEO slug for missing-pieces
     'mayor-menor-fichas', // Product page slug (Spanish) - language-specific SEO slug for more-less
     'encuentra-el-diferente-fichas', // Product page slug (Spanish) - language-specific SEO slug for odd-one-out
+    'tren-patrones-fichas', // Product page slug (Spanish) - language-specific SEO slug for pattern-train
     'alphabet-zug-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug
     'malvorlagen-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug
     'mathe-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for math worksheets

@@ -208,6 +208,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     sv: 'monster-tag-arbetsblad',
     de: 'muster-zug-arbeitsblaetter',
     fr: 'train-suites-logiques-fiches',
+    es: 'tren-patrones-fichas',
   },
   'pattern-worksheet': {
     en: 'pattern-worksheets',

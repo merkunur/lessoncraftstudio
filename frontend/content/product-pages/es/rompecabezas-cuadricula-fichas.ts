@@ -438,22 +438,19 @@ Guarda archivos descargados para reutilización futura. Construye bibliotecas de
   // Pricing Section
   pricing: {
     title: 'Acceso Completo',
-    monthlyPrice: '$25',
-    yearlyPrice: '$240',
-    perMonth: '/mes',
-    perYear: '/año',
-    description: 'Tu suscripción Acceso Completo desbloquea cada generador de fichas en la plataforma. $240 por año te da acceso completo a 30+ herramientas profesionales. Incluye licencia comercial completa para venta en TPT, Etsy y Amazon KDP.',
-    features: [
-      '30+ generadores de fichas',
-      'Biblioteca de 3000+ imágenes',
+    price: '$240',
+    priceInterval: '/año',
+    priceSuffix: 'o $25/mes',
+    benefits: [
+      'Creación de fichas ilimitada',
+      'Licencia comercial incluida',
       '11 idiomas soportados',
-      'Exportación 300 DPI (PDF/JPEG)',
-      'Licencia comercial POD incluida',
-      'Descargas ilimitadas',
-      'Soporte prioritario',
+      '3000+ imágenes temáticas',
+      'Calidad de impresión 300 DPI',
+      '33 generadores de fichas',
     ],
     ctaText: 'Comenzar Ahora',
-    guarantee: 'Garantía de devolución de 30 días',
+    guaranteeText: 'Garantía de devolución de 30 días',
   },
 };
 

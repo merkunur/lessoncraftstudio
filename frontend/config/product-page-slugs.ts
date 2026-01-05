@@ -247,6 +247,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       sv: 'mattepussel-arbetsblad',
       de: 'mathe-raetsel-arbeitsblaetter',
       fr: 'puzzle-maths-fiches',
+      es: 'rompecabezas-matematicos-fichas',
     },
   },
   {

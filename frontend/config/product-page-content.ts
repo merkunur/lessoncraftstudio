@@ -167,6 +167,7 @@ import findObjectsEsContent from '@/content/product-pages/es/buscar-objetos-fich
 import gridMatchEsContent from '@/content/product-pages/es/rompecabezas-cuadricula-fichas';
 import crosswordEsContent from '@/content/product-pages/es/crucigramas-imagenes-fichas';
 import cryptogramEsContent from '@/content/product-pages/es/criptogramas-imagenes-fichas';
+import mathPuzzleEsContent from '@/content/product-pages/es/rompecabezas-matematicos-fichas';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -693,6 +694,10 @@ export const contentRegistry: ContentRegistry = {
     'criptogramas-imagenes-fichas': cryptogramEsContent,
     // Also keep old slug for backwards compatibility during transition
     'cryptogram-worksheets': cryptogramEsContent,
+    // Spanish Math Puzzle (Rompecabezas Matemáticos) - uses Spanish SEO slug
+    'rompecabezas-matematicos-fichas': mathPuzzleEsContent,
+    // Also keep old slug for backwards compatibility during transition
+    'math-puzzle-worksheets': mathPuzzleEsContent,
   },
 };
 

@@ -708,6 +708,12 @@ const nextConfig = {
         destination: '/es/apps/criptogramas-imagenes-fichas',
         permanent: true,
       },
+      // Spanish: math-puzzle-worksheets → rompecabezas-matematicos-fichas
+      {
+        source: '/es/apps/math-puzzle-worksheets',
+        destination: '/es/apps/rompecabezas-matematicos-fichas',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

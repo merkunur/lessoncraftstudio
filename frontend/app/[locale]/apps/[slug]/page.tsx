@@ -7946,6 +7946,7 @@ export async function generateStaticParams() {
     'rompecabezas-cuadricula-fichas', // Product page slug (Spanish) - language-specific SEO slug for grid-match
     'crucigramas-imagenes-fichas', // Product page slug (Spanish) - language-specific SEO slug for crossword
     'criptogramas-imagenes-fichas', // Product page slug (Spanish) - language-specific SEO slug for cryptogram
+    'rompecabezas-matematicos-fichas', // Product page slug (Spanish) - language-specific SEO slug for math-puzzle
     'alphabet-zug-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug
     'malvorlagen-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug
     'mathe-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for math worksheets

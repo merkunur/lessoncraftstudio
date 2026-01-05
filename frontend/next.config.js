@@ -762,6 +762,12 @@ const nextConfig = {
         destination: '/es/apps/asociacion-sombras-fichas',
         permanent: true,
       },
+      // Spanish: subtraction-worksheets → resta-fichas
+      {
+        source: '/es/apps/subtraction-worksheets',
+        destination: '/es/apps/resta-fichas',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

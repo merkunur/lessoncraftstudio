@@ -177,6 +177,7 @@ import patternWorksheetEsContent from '@/content/product-pages/es/fichas-patrone
 import pictureSortEsContent from '@/content/product-pages/es/clasificar-imagenes-fichas';
 import prepositionsEsContent from '@/content/product-pages/es/preposiciones-fichas';
 import shadowMatchEsContent from '@/content/product-pages/es/asociacion-sombras-fichas';
+import subtractionEsContent from '@/content/product-pages/es/resta-fichas';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -743,6 +744,10 @@ export const contentRegistry: ContentRegistry = {
     'asociacion-sombras-fichas': shadowMatchEsContent,
     // Also keep old slug for backwards compatibility during transition
     'shadow-match-worksheets': shadowMatchEsContent,
+    // Spanish Subtraction (Restas) - uses Spanish SEO slug
+    'resta-fichas': subtractionEsContent,
+    // Also keep old slug for backwards compatibility during transition
+    'subtraction-worksheets': subtractionEsContent,
   },
 };
 

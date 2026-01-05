@@ -318,34 +318,22 @@ Los docentes exitosos ganan entre $500 y $5000 mensuales vendiendo material educ
     ],
   },
 
-  // Pricing/Subscription Section
-  subscription: {
-    sectionTitle: 'Por Qué los Maestros Eligen Acceso Completo - Fichas Infantil con Tablas de Multiplicar, Grafomotricidad y Lectoescritura Sin Límites',
-    sectionDescription: 'Los docentes se suscriben a Acceso Completo por tres razones principales. La suscripción cuesta $240 anuales o $25 mensuales. Acceso Completo incluye todos los 33 generadores de fichas para imprimir de la plataforma. La inversión se paga sola en tiempo ahorrado y calidad profesional. Las fichas gratis generadas ilimitadamente reemplazan costosas suscripciones múltiples.',
-    badgeText: 'Suscripción',
-    readMoreLabel: 'Leer más',
-    showLessLabel: 'Ver menos',
-    planName: 'Acceso Completo',
+  // Pricing Section
+  pricing: {
+    title: 'Acceso Completo',
     price: '$240',
-    priceSubtext: '/año o $25/mes',
-    features: [
-      'Enseñanza Multilingüe - Fichas Preescolar en 11 Idiomas con Abecedario, Números y Lectoescritura para Programas Bilingües',
-      'Licencia Comercial Incluida - Vender Fichas para Imprimir con Dibujos para Colorear, Grafomotricidad y Tablas de Multiplicar',
-      'Ahorro de Tiempo Masivo - Crear Fichas Gratis de Grafomotricidad, Lectoescritura y Números en 3 Minutos',
-      'Creación Ilimitada Sin Cargos Por Hoja - Fichas Infantil de Abecedario, Dibujos para Colorear y Tablas de Multiplicar Sin Restricciones',
-      'Acceso a 33 Generadores Profesionales - Desde Fichas Preescolar de Números Hasta Tablas de Multiplicar Avanzadas',
+    priceInterval: '/año',
+    priceSuffix: 'o $25/mes',
+    benefits: [
+      'Creación de fichas ilimitada',
+      'Licencia comercial incluida',
+      '11 idiomas soportados',
+      '3000+ imágenes temáticas',
+      'Calidad de impresión 300 DPI',
+      '33 generadores de fichas',
     ],
-    featuresDescription: `Los maestros de programas bilingües necesitan fichas infantil en múltiples idiomas diariamente. Crear material educativo gratis en español, inglés y otros idiomas manualmente es imposible. Acceso Completo genera fichas para imprimir en 11 idiomas con un clic. La interfaz completa cambia automáticamente al idioma seleccionado.
-
-La licencia comercial de impresión bajo demanda está incluida sin costo adicional. Los maestros venden fichas de matemáticas en Teachers Pay Teachers legalmente. Las fichas preescolar con dibujos para colorear son productos populares en Etsy. Los emprendedores educativos publican libros de ejercicios matemáticas en Amazon KDP.
-
-La creación tradicional de fichas para imprimir toma 30-60 minutos por hoja. Los maestros necesitan múltiples ejercicios matemáticas semanalmente en diferentes temas. Acceso Completo genera fichas preescolar profesionales en menos de 3 minutos. El tiempo ahorrado se traduce en mejor preparación o balance vida-trabajo.
-
-Otras plataformas cobran por cada hoja generada o limitan descargas mensuales. Acceso Completo permite creación ilimitada de fichas para imprimir sin restricciones. Los maestros generan 100+ fichas preescolar mensuales sin costos adicionales. Experimenta libremente sin preocuparte por límites de uso.
-
-Acceso Completo incluye todos los 33 generadores de fichas para imprimir de la plataforma. Los maestros acceden a herramientas para lectoescritura, matemáticas, grafomotricidad y más. Un solo login proporciona material educativo gratis para todas las materias. Las fichas infantil de sopas de letras, crucigramas, laberintos y gráficos están incluidas.`,
     ctaText: 'Comenzar Ahora',
-    guarantee: 'Garantía de satisfacción de 30 días',
+    guaranteeText: 'Garantía de devolución de 30 días',
   },
 
   // FAQ Section - FULL text from chart-count.md FAQ sections

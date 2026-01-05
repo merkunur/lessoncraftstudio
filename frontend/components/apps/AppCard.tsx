@@ -112,6 +112,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     sv: 'bildlotto-arbetsblad',
     de: 'bilder-bingo-arbeitsblaetter',
     fr: 'bingo-images-fiches',
+    es: 'bingo-fichas',
   },
   'sudoku': {
     en: 'sudoku-worksheets',

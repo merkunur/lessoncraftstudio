@@ -108,6 +108,7 @@ import wordScrambleEsContent from '@/content/product-pages/es/word-scramble-work
 import findAndCountEsContent from '@/content/product-pages/es/find-and-count-worksheets';
 import matchingEsContent from '@/content/product-pages/es/matching-worksheets';
 import drawingLinesEsContent from '@/content/product-pages/es/drawing-lines-worksheets';
+import bingoEsContent from '@/content/product-pages/es/bingo-fichas';
 
 interface PageProps {
   params: {
@@ -1250,6 +1251,52 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       },
       alternates: {
         canonical: 'https://www.lessoncraftstudio.com/es/apps/buscar-contar-fichas', // Point to new URL
+      },
+    };
+  }
+
+  // Picture Bingo - Spanish product page SEO (new Spanish slug)
+  if (params.slug === 'bingo-fichas' && params.locale === 'es') {
+    return {
+      title: 'Fichas de Bingo para Imprimir | Generador de Bingo con Imágenes para Educación Infantil y Preescolar',
+      description: 'Crea fichas de bingo profesionales con nuestro generador de bingo con imágenes. Genera fichas para imprimir perfectas para educación infantil, preescolar y primaria. Descarga fichas gratis de alta calidad en formato PDF en menos de 3 minutos.',
+      keywords: 'fichas de bingo, bingo con imágenes, fichas para imprimir, fichas infantil, fichas preescolar, material educativo gratis, fichas gratis, abecedario, números, grafomotricidad, lectoescritura, dibujos para colorear',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/es/apps/bingo-fichas',
+        languages: {
+          'en': 'https://www.lessoncraftstudio.com/en/apps/picture-bingo-worksheets',
+          'sv': 'https://www.lessoncraftstudio.com/sv/apps/bildlotto-arbetsblad',
+          'de': 'https://www.lessoncraftstudio.com/de/apps/bilder-bingo-arbeitsblaetter',
+          'fr': 'https://www.lessoncraftstudio.com/fr/apps/bingo-images-fiches',
+          'es': 'https://www.lessoncraftstudio.com/es/apps/bingo-fichas',
+          'x-default': 'https://www.lessoncraftstudio.com/en/apps/picture-bingo-worksheets',
+        },
+      },
+      openGraph: {
+        title: 'Fichas de Bingo para Imprimir | LessonCraftStudio',
+        description: 'Crea fichas de bingo profesionales con nuestro generador de bingo con imágenes. Perfecto para educación infantil y preescolar.',
+        url: 'https://www.lessoncraftstudio.com/es/apps/bingo-fichas',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Picture Bingo - Spanish legacy redirect (old English slug in Spanish locale)
+  if (params.slug === 'picture-bingo-worksheets' && params.locale === 'es') {
+    return {
+      title: 'Fichas de Bingo para Imprimir | LessonCraftStudio',
+      description: 'Página movida. Por favor visita la nueva URL.',
+      robots: {
+        index: false, // Don't index old URL
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/es/apps/bingo-fichas', // Point to new URL
       },
     };
   }
@@ -7563,6 +7610,7 @@ export async function generateStaticParams() {
     'acertijos-matematicos-fichas', // Product page slug (Spanish) - language-specific SEO slug for math-worksheet
     'letras-revueltas-fichas', // Product page slug (Spanish) - language-specific SEO slug for word-scramble
     'buscar-contar-fichas', // Product page slug (Spanish) - language-specific SEO slug for find-and-count
+    'bingo-fichas', // Product page slug (Spanish) - language-specific SEO slug for picture-bingo
     'alphabet-zug-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug
     'malvorlagen-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug
     'mathe-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for math worksheets

@@ -648,6 +648,12 @@ const nextConfig = {
         destination: '/es/apps/grafomotricidad-fichas',
         permanent: true,
       },
+      // Spanish: picture-bingo-worksheets → bingo-fichas
+      {
+        source: '/es/apps/picture-bingo-worksheets',
+        destination: '/es/apps/bingo-fichas',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

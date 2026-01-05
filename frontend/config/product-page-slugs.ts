@@ -149,6 +149,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       sv: 'bildlotto-arbetsblad',
       de: 'bilder-bingo-arbeitsblaetter',
       fr: 'bingo-images-fiches',
+      es: 'bingo-fichas',
     },
   },
   {

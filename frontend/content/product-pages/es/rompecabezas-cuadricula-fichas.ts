@@ -253,6 +253,7 @@ La descarga comienza automáticamente. El archivo se guarda en tu carpeta de Des
         id: '1',
         icon: '👶',
         title: 'Maestros de Educación Infantil y Preescolar - Fichas Preescolar para Grafomotricidad y Números',
+        subtitle: 'Fichas Infantil de Razonamiento Espacial para Preescolar 1, 2 y 3 Años',
         description: `Los maestros de educación infantil construyen habilidades fundamentales con rompecabezas visuales. Los niños de 3-5 años desarrollan razonamiento espacial. Las cuadrículas 2x2 son perfectas para principiantes de preescolar. Cuatro piezas grandes son fáciles de manipular. Las células de pista múltiples guían a estudiantes jóvenes. Los rompecabezas desarrollan coordinación ojo-mano mientras aprenden.
 
 Combina rompecabezas de cuadrícula con temas de números. Los estudiantes cuentan piezas mientras emparejan. Usa imágenes de cantidades para ejercicios matemáticas tempranas. Un rompecabezas con tres manzanas enseña el número tres. Los estudiantes completan la imagen mientras practican conteo. Las fichas preescolar integran múltiples habilidades simultáneamente.
@@ -263,6 +264,7 @@ Las actividades de grafomotricidad se combinan naturalmente con rompecabezas. Lo
         id: '2',
         icon: '📚',
         title: 'Docentes de Primaria Primer a Tercer Grado - Ejercicios Matemáticas y Fichas de Lectoescritura',
+        subtitle: 'Ejercicios Matemáticas con Geometría y Tablas de Multiplicar para 1°, 2° y 3° Grado',
         description: `Los maestros de primaria usan rompecabezas para geometría práctica. Primer grado aprende formas básicas con cuadrículas 2x2. Segundo grado maneja cuadrículas 3x3 con confianza. Tercer grado domina cuadrículas 4x4 desafiantes. Cada nivel de grado recibe dificultad apropiada. Las fichas para imprimir se escalan perfectamente con habilidades estudiantiles.
 
 Los ejercicios matemáticas incorporan conceptos de cuadrícula. Los estudiantes cuentan filas y columnas. Calculan piezas totales multiplicando dimensiones. Una cuadrícula 3x3 enseña 3 × 3 = 9. Los rompecabezas se convierten en problemas de palabras visuales. Los estudiantes explican su razonamiento espacial. Las fichas de matemáticas hacen que conceptos abstractos sean concretos.
@@ -273,6 +275,7 @@ Las actividades de lectoescritura usan rompecabezas del abecedario. Cada imagen 
         id: '3',
         icon: '🏠',
         title: 'Padres Homeschool - Material Educativo Gratis para Planes de Lección Completos',
+        subtitle: 'Fichas Gratis para Educación en Casa con Unidades Temáticas Multi-edad',
         description: `Los padres homeschool construyen currículos completos con rompecabezas de cuadrícula. Crea unidades temáticas semanales fácilmente. La semana de animales incluye 10 rompecabezas diferentes. La semana de transporte presenta vehículos variados. Cada tema se conecta con lectura, matemáticas y ciencias. Las fichas gratis para imprimir reducen costos de currículo significativamente.
 
 Enseña múltiples edades simultáneamente con el mismo tema. Un niño de preescolar resuelve una cuadrícula 2x2 de granja. Su hermano de primer grado resuelve una cuadrícula 3x3 de granja. El estudiante de tercer grado enfrenta una cuadrícula 4x4. Todos discuten animales juntos después. El material educativo gratis unifica instrucción multi-edad. Las familias aprenden juntas eficientemente.
@@ -283,6 +286,7 @@ Sube fotos familiares para rompecabezas personalizados. Vacaciones, mascotas y e
         id: '4',
         icon: '🌎',
         title: 'Maestros de ESL e Idiomas Extranjeros - Fichas para Imprimir Multilingües',
+        subtitle: 'Fichas Infantil Multilingües en 11 Idiomas para Vocabulario Visual Bilingüe',
         description: `Los maestros de ESL desarrollan vocabulario con rompecabezas visuales. Las imágenes proporcionan contexto para nuevas palabras. Los estudiantes aprenden "manzana" mientras emparejan piezas de frutas. La biblioteca de 11 idiomas apoya programas bilingües. Cambia entre español e inglés instantáneamente. Las fichas para imprimir enseñan vocabulario sin traducción.
 
 Los estudiantes de herencia practican lectura en su idioma nativo. Los rompecabezas del abecedario refuerzan orden alfabético. Cada letra tiene múltiples imágenes de ejemplo. Los estudiantes construyen vocabulario académico. Los padres aprecian materiales en su idioma. Las fichas infantil honran culturas diversas. Los estudiantes se sienten valorados y vistos.
@@ -293,6 +297,7 @@ Las clases de inmersión dual usan rompecabezas en ambos idiomas. Lunes a miérc
         id: '5',
         icon: '💼',
         title: 'Maestros Emprendedores - Vende Fichas Preescolar en TPT y Etsy con Licencia Incluida',
+        subtitle: 'Licencia Comercial Acceso Completo para Vender en Teachers Pay Teachers y Etsy',
         description: `Los maestros emprendedores generan ingresos con rompecabezas de cuadrícula. La licencia comercial Acceso Completo permite ventas ilimitadas. Crea paquetes temáticos para Teachers Pay Teachers. Conjuntos de 10 rompecabezas se venden por $3-5. Los compradores valoran variedad y calidad profesional. Las fichas para imprimir digitales generan ingresos pasivos 24/7.
 
 Las tiendas Etsy prosperan con rompecabezas imprimibles. Combina rompecabezas de cuadrícula con ejercicios matemáticas relacionadas. Ofrece paquetes de alfabetización con rompecabezas del abecedario. Los paquetes de grafomotricidad incluyen páginas de trazado. Los compradores pagan más por recursos coordinados. Los vendedores exitosos ganan $500-2000 mensuales. Tu creatividad se convierte en ingreso real.
@@ -303,6 +308,7 @@ Publica libros de actividades en Amazon KDP. Combina 50 rompecabezas en un libro
         id: '6',
         icon: '♿',
         title: 'Maestros de Educación Especial - Fichas Gratis Diferenciadas para Grafomotricidad',
+        subtitle: 'Fichas Infantil Adaptadas para Necesidades Especiales con Metas de IEP',
         description: `Los educadores especiales adaptan rompecabezas para necesidades individuales. Las cuadrículas grandes 2x2 funcionan para estudiantes con retrasos motores. Las piezas grandes son más fáciles de agarrar y manipular. Cinco células de pista proporcionan máximo apoyo. Los estudiantes experimentan éxito desde el primer intento. Las fichas gratis eliminan barreras financieras para recursos especializados.
 
 Imprime versiones en escala de grises para estudiantes con sensibilidades sensoriales. Los colores brillantes pueden abrumar a algunos estudiantes. El blanco y negro reduce estímulo visual. Los estudiantes se enfocan mejor en la tarea. Pueden colorear piezas después de emparejar. Las actividades de colorear calman y regulan. Las fichas para imprimir sirven propósitos terapéuticos múltiples.

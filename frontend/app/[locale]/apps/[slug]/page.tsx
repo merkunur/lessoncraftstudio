@@ -7969,6 +7969,8 @@ export async function generateStaticParams() {
     'clasificar-imagenes-fichas', // Product page slug (Spanish) - language-specific SEO slug for picture-sort
     'preposiciones-fichas', // Product page slug (Spanish) - language-specific SEO slug for prepositions
     'asociacion-sombras-fichas', // Product page slug (Spanish) - language-specific SEO slug for shadow-match
+    'resta-fichas', // Product page slug (Spanish) - language-specific SEO slug for subtraction
+    'busqueda-tesoro-fichas', // Product page slug (Spanish) - language-specific SEO slug for treasure-hunt
     'alphabet-zug-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug
     'malvorlagen-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug
     'mathe-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for math worksheets

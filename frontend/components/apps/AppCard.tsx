@@ -257,6 +257,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     sv: 'skattjakt-arbetsblad',
     de: 'schatzsuche-arbeitsblaetter',
     fr: 'chasse-au-tresor-fiches',
+    es: 'busqueda-tesoro-fichas',
   },
   'word-guess': {
     en: 'word-guess-worksheets',

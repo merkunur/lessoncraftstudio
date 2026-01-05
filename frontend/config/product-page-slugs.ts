@@ -357,6 +357,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       sv: 'skattjakt-arbetsblad',
       de: 'schatzsuche-arbeitsblaetter',
       fr: 'chasse-au-tresor-fiches',
+      es: 'busqueda-tesoro-fichas',
     },
   },
   {

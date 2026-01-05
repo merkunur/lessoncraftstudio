@@ -178,6 +178,7 @@ import pictureSortEsContent from '@/content/product-pages/es/clasificar-imagenes
 import prepositionsEsContent from '@/content/product-pages/es/preposiciones-fichas';
 import shadowMatchEsContent from '@/content/product-pages/es/asociacion-sombras-fichas';
 import subtractionEsContent from '@/content/product-pages/es/resta-fichas';
+import treasureHuntEsContent from '@/content/product-pages/es/busqueda-tesoro-fichas';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -748,6 +749,10 @@ export const contentRegistry: ContentRegistry = {
     'resta-fichas': subtractionEsContent,
     // Also keep old slug for backwards compatibility during transition
     'subtraction-worksheets': subtractionEsContent,
+    // Spanish Treasure Hunt (Búsqueda del Tesoro) - uses Spanish SEO slug
+    'busqueda-tesoro-fichas': treasureHuntEsContent,
+    // Also keep old slug for backwards compatibility during transition
+    'treasure-hunt-worksheets': treasureHuntEsContent,
   },
 };
 

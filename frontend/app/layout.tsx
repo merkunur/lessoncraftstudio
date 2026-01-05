@@ -20,8 +20,8 @@ export const metadata: Metadata = {
   description: '33 powerful worksheet generators with 100+ themed images for Teachers Pay Teachers sellers and educational publishers',
   keywords: 'worksheet generator, teachers pay teachers, educational resources, printable worksheets, POD license',
   icons: {
-    icon: '/favicon.ico',
-    apple: '/apple-icon.png',
+    icon: '/favicon-v2.ico',
+    apple: '/apple-icon-v2.png',
   },
   manifest: '/manifest.json',
   openGraph: {

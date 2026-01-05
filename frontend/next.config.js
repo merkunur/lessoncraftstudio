@@ -744,6 +744,12 @@ const nextConfig = {
         destination: '/es/apps/fichas-patrones',
         permanent: true,
       },
+      // Spanish: picture-sort-worksheets → clasificar-imagenes-fichas
+      {
+        source: '/es/apps/picture-sort-worksheets',
+        destination: '/es/apps/clasificar-imagenes-fichas',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

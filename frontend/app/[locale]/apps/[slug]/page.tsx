@@ -125,6 +125,7 @@ import moreLessEsContent from '@/content/product-pages/es/mayor-menor-fichas';
 import oddOneOutEsContent from '@/content/product-pages/es/encuentra-el-diferente';
 import patternTrainEsContent from '@/content/product-pages/es/tren-patrones-fichas';
 import patternWorksheetEsContent from '@/content/product-pages/es/fichas-patrones';
+import pictureSortEsContent from '@/content/product-pages/es/clasificar-imagenes-fichas';
 
 interface PageProps {
   params: {

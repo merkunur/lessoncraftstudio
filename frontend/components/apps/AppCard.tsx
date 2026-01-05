@@ -229,6 +229,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     sv: 'bildsortering-arbetsblad',
     de: 'bilder-sortieren-arbeitsblaetter',
     fr: 'tri-images-fiches',
+    es: 'clasificar-imagenes-fichas',
   },
   'prepositions': {
     en: 'prepositions-worksheets',

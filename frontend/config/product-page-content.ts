@@ -174,6 +174,7 @@ import moreLessEsContent from '@/content/product-pages/es/mayor-menor-fichas';
 import oddOneOutEsContent from '@/content/product-pages/es/encuentra-el-diferente';
 import patternTrainEsContent from '@/content/product-pages/es/tren-patrones-fichas';
 import patternWorksheetEsContent from '@/content/product-pages/es/fichas-patrones';
+import pictureSortEsContent from '@/content/product-pages/es/clasificar-imagenes-fichas';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -728,6 +729,10 @@ export const contentRegistry: ContentRegistry = {
     'fichas-patrones': patternWorksheetEsContent,
     // Also keep old slug for backwards compatibility during transition
     'pattern-worksheets': patternWorksheetEsContent,
+    // Spanish Picture Sort (Clasificar Imágenes) - uses Spanish SEO slug
+    'clasificar-imagenes-fichas': pictureSortEsContent,
+    // Also keep old slug for backwards compatibility during transition
+    'picture-sort-worksheets': pictureSortEsContent,
   },
 };
 

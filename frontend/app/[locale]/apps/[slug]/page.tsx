@@ -112,6 +112,7 @@ import bingoEsContent from '@/content/product-pages/es/bingo-fichas';
 import sudokuEsContent from '@/content/product-pages/es/sudoku-fichas-ninos';
 import bigSmallEsContent from '@/content/product-pages/es/grande-pequeno-fichas';
 import graficosConteoEsContent from '@/content/product-pages/es/graficos-conteo-fichas';
+import sumaCodigoEsContent from '@/content/product-pages/es/suma-codigo-fichas';
 
 interface PageProps {
   params: {
@@ -1438,6 +1439,52 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       },
       alternates: {
         canonical: 'https://www.lessoncraftstudio.com/es/apps/graficos-conteo-fichas', // Point to new URL
+      },
+    };
+  }
+
+  // Code Addition Worksheets - Spanish product page SEO (new Spanish slug)
+  if (params.slug === 'suma-codigo-fichas' && params.locale === 'es') {
+    return {
+      title: 'Fichas de Matemáticas con Código de Imágenes | Generador de Fichas para Imprimir para Preescolar',
+      description: 'Crea fichas de matemáticas únicas con nuestro generador de código de imágenes. Fichas infantil personalizadas perfectas para preescolar y primer grado. Descarga fichas gratis en PDF de alta calidad en menos de 3 minutos.',
+      keywords: 'fichas de matemáticas, fichas para imprimir, fichas infantil, fichas preescolar, material educativo gratis, ejercicios matemáticas, suma, código imágenes, sumas con dibujos',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/es/apps/suma-codigo-fichas',
+        languages: {
+          'en': 'https://www.lessoncraftstudio.com/en/apps/code-addition-worksheets',
+          'sv': 'https://www.lessoncraftstudio.com/sv/apps/kodaddition-arbetsblad',
+          'de': 'https://www.lessoncraftstudio.com/de/apps/bilder-additions-arbeitsblaetter',
+          'fr': 'https://www.lessoncraftstudio.com/fr/apps/addition-codee-fiches',
+          'es': 'https://www.lessoncraftstudio.com/es/apps/suma-codigo-fichas',
+          'x-default': 'https://www.lessoncraftstudio.com/en/apps/code-addition-worksheets',
+        },
+      },
+      openGraph: {
+        title: 'Fichas de Matemáticas con Código de Imágenes | LessonCraftStudio',
+        description: 'Crea fichas de matemáticas únicas con nuestro generador de código de imágenes. Fichas infantil personalizadas perfectas para preescolar y primer grado.',
+        url: 'https://www.lessoncraftstudio.com/es/apps/suma-codigo-fichas',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Legacy: Redirect old Spanish code-addition-worksheets slug to new slug (for backwards compatibility)
+  if (params.slug === 'code-addition-worksheets' && params.locale === 'es') {
+    return {
+      title: 'Fichas de Matemáticas con Código de Imágenes - Generador de Fichas para Imprimir',
+      description: 'Página movida. Por favor visita la nueva URL.',
+      robots: {
+        index: false, // Don't index old URL
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/es/apps/suma-codigo-fichas', // Point to new URL
       },
     };
   }
@@ -7755,6 +7802,7 @@ export async function generateStaticParams() {
     'sudoku-fichas-ninos', // Product page slug (Spanish) - language-specific SEO slug for sudoku
     'grande-pequeno-fichas', // Product page slug (Spanish) - language-specific SEO slug for big-small
     'graficos-conteo-fichas', // Product page slug (Spanish) - language-specific SEO slug for chart-count
+    'suma-codigo-fichas', // Product page slug (Spanish) - language-specific SEO slug for code-addition
     'alphabet-zug-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug
     'malvorlagen-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug
     'mathe-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for math worksheets

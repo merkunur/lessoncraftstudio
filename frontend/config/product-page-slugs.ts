@@ -188,6 +188,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       sv: 'kodaddition-arbetsblad',
       de: 'bilder-additions-arbeitsblaetter',
       fr: 'addition-codee-fiches',
+      es: 'suma-codigo-fichas',
     },
   },
   {

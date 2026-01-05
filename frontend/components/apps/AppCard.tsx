@@ -215,6 +215,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     sv: 'monster-arbetsblad',
     de: 'muster-arbeitsblatt-arbeitsblaetter',
     fr: 'sequences-logiques-fiches',
+    es: 'fichas-patrones',
   },
   'picture-path': {
     en: 'picture-path-worksheets',

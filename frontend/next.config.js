@@ -738,6 +738,12 @@ const nextConfig = {
         destination: '/es/apps/tren-patrones-fichas',
         permanent: true,
       },
+      // Spanish: pattern-worksheets → fichas-patrones
+      {
+        source: '/es/apps/pattern-worksheets',
+        destination: '/es/apps/fichas-patrones',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

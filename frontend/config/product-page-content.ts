@@ -172,6 +172,7 @@ import missingPiecesEsContent from '@/content/product-pages/es/piezas-faltantes-
 import moreLessEsContent from '@/content/product-pages/es/mayor-menor-fichas';
 import oddOneOutEsContent from '@/content/product-pages/es/encuentra-el-diferente';
 import patternTrainEsContent from '@/content/product-pages/es/tren-patrones-fichas';
+import patternWorksheetEsContent from '@/content/product-pages/es/fichas-patrones';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -718,6 +719,10 @@ export const contentRegistry: ContentRegistry = {
     'tren-patrones-fichas': patternTrainEsContent,
     // Also keep old slug for backwards compatibility during transition
     'pattern-train-worksheets': patternTrainEsContent,
+    // Spanish Pattern Worksheet (Fichas de Patrones) - uses Spanish SEO slug
+    'fichas-patrones': patternWorksheetEsContent,
+    // Also keep old slug for backwards compatibility during transition
+    'pattern-worksheets': patternWorksheetEsContent,
   },
 };
 

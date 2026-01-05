@@ -41,7 +41,7 @@ Le schede didattiche scuola primaria create con il nostro generatore sono stampa
       license: 'Licenza Commerciale',
     },
     readMoreLabel: 'Leggi di più',
-    readLessLabel: 'Mostra meno',
+    showLessLabel: 'Mostra meno',
   },
 
   // Sample Gallery - REAL file paths from samples/english/wordsearch/
@@ -80,8 +80,8 @@ Le schede didattiche scuola primaria create con il nostro generatore sono stampa
     sectionTitle: 'Tutto il Necessario per Schede Didattiche Scuola Primaria',
     sectionDescription: 'Il nostro generatore di crucipuzzle include tutte le funzionalità necessarie per creare schede didattiche professionali. Ogni caratteristica è stata progettata pensando agli insegnanti. Genera schede didattiche scuola primaria in minuti invece di ore.',
     highlightBadgeText: 'Funzionalità Chiave',
-    readMoreText: 'Leggi di più',
-    readLessText: 'Mostra meno',
+    readMoreLabel: 'Leggi di più',
+    showLessLabel: 'Mostra meno',
     items: [
       {
         id: '1',
@@ -230,8 +230,8 @@ L'opzione scala di grigi risparmia inchiostro colorato mantenendo la qualità. S
   useCases: {
     sectionTitle: 'Perfetto per Insegnanti, Genitori ed Educatori',
     sectionDescription: 'Il generatore di crucipuzzle serve educatori in contesti diversi. Gli insegnanti della scuola dell\'infanzia creano attività di pregrafismo. Gli insegnanti di scuola primaria generano schede matematica. I genitori homeschool producono disegni da colorare.',
-    readMoreText: 'Leggi di più',
-    readLessText: 'Mostra meno',
+    readMoreLabel: 'Leggi di più',
+    showLessLabel: 'Mostra meno',
     items: [
       {
         id: '1',

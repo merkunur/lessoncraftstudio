@@ -166,6 +166,7 @@ import dibujoCuadriculaEsContent from '@/content/product-pages/es/dibujo-cuadric
 import findObjectsEsContent from '@/content/product-pages/es/buscar-objetos-fichas';
 import gridMatchEsContent from '@/content/product-pages/es/rompecabezas-cuadricula-fichas';
 import crosswordEsContent from '@/content/product-pages/es/crucigramas-imagenes-fichas';
+import cryptogramEsContent from '@/content/product-pages/es/criptogramas-imagenes-fichas';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -688,6 +689,10 @@ export const contentRegistry: ContentRegistry = {
     'crucigramas-imagenes-fichas': crosswordEsContent,
     // Also keep old slug for backwards compatibility during transition
     'crossword-worksheets': crosswordEsContent,
+    // Spanish Cryptogram (Criptogramas de Imágenes) - uses Spanish SEO slug
+    'criptogramas-imagenes-fichas': cryptogramEsContent,
+    // Also keep old slug for backwards compatibility during transition
+    'cryptogram-worksheets': cryptogramEsContent,
   },
 };
 

@@ -237,6 +237,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       sv: 'bildkryptogram-arbetsblad',
       de: 'bildkryptogramm-arbeitsblaetter',
       fr: 'cryptogramme-images-fiches',
+      es: 'criptogramas-imagenes-fichas',
     },
   },
   {

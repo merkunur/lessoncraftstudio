@@ -702,6 +702,12 @@ const nextConfig = {
         destination: '/es/apps/crucigramas-imagenes-fichas',
         permanent: true,
       },
+      // Spanish: cryptogram-worksheets → criptogramas-imagenes-fichas
+      {
+        source: '/es/apps/cryptogram-worksheets',
+        destination: '/es/apps/criptogramas-imagenes-fichas',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

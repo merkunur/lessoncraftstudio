@@ -7945,6 +7945,7 @@ export async function generateStaticParams() {
     'buscar-objetos-fichas', // Product page slug (Spanish) - language-specific SEO slug for find-objects
     'rompecabezas-cuadricula-fichas', // Product page slug (Spanish) - language-specific SEO slug for grid-match
     'crucigramas-imagenes-fichas', // Product page slug (Spanish) - language-specific SEO slug for crossword
+    'criptogramas-imagenes-fichas', // Product page slug (Spanish) - language-specific SEO slug for cryptogram
     'alphabet-zug-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug
     'malvorlagen-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug
     'mathe-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for math worksheets

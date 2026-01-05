@@ -165,6 +165,7 @@ import sumaCodigoEsContent from '@/content/product-pages/es/suma-codigo-fichas';
 import dibujoCuadriculaEsContent from '@/content/product-pages/es/dibujo-cuadricula-fichas';
 import findObjectsEsContent from '@/content/product-pages/es/buscar-objetos-fichas';
 import gridMatchEsContent from '@/content/product-pages/es/rompecabezas-cuadricula-fichas';
+import crosswordEsContent from '@/content/product-pages/es/crucigramas-imagenes-fichas';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -683,6 +684,10 @@ export const contentRegistry: ContentRegistry = {
     'rompecabezas-cuadricula-fichas': gridMatchEsContent,
     // Also keep old slug for backwards compatibility during transition
     'grid-match-worksheets': gridMatchEsContent,
+    // Spanish Crossword (Crucigramas con Imágenes) - uses Spanish SEO slug
+    'crucigramas-imagenes-fichas': crosswordEsContent,
+    // Also keep old slug for backwards compatibility during transition
+    'crossword-worksheets': crosswordEsContent,
   },
 };
 

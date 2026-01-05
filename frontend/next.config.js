@@ -696,6 +696,12 @@ const nextConfig = {
         destination: '/es/apps/rompecabezas-cuadricula-fichas',
         permanent: true,
       },
+      // Spanish: crossword-worksheets → crucigramas-imagenes-fichas
+      {
+        source: '/es/apps/crossword-worksheets',
+        destination: '/es/apps/crucigramas-imagenes-fichas',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

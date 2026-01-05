@@ -7944,6 +7944,7 @@ export async function generateStaticParams() {
     'dibujo-cuadricula-fichas', // Product page slug (Spanish) - language-specific SEO slug for draw-and-color
     'buscar-objetos-fichas', // Product page slug (Spanish) - language-specific SEO slug for find-objects
     'rompecabezas-cuadricula-fichas', // Product page slug (Spanish) - language-specific SEO slug for grid-match
+    'crucigramas-imagenes-fichas', // Product page slug (Spanish) - language-specific SEO slug for crossword
     'alphabet-zug-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug
     'malvorlagen-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug
     'mathe-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for math worksheets

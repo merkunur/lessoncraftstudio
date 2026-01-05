@@ -227,6 +227,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       sv: 'bildkorsord-arbetsblad',
       de: 'bilderkreuzwortraetsel-arbeitsblaetter',
       fr: 'mots-croises-images-fiches',
+      es: 'crucigramas-imagenes-fichas',
     },
   },
   {

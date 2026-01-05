@@ -240,24 +240,23 @@ Tu suscripcion incluye acceso a mas de 3000 imagenes infantiles organizadas por 
     ],
   },
 
-  // Pricing CTA
-  pricingCta: {
-    sectionTitle: 'Por Que Suscribirse a Acceso Completo por $240 Anuales - Acceso Ilimitado a Fichas para Imprimir y Material Educativo Gratis',
-    sectionDescription: 'La decision entre pagar $240 al ano por Acceso Completo o comprar fichas para imprimir individuales es simple cuando calculas los numeros. Una suscripcion anual te da acceso ilimitado a 33 aplicaciones incluyendo preposiciones, ejercicios matematicas, fichas para colorear, abecedario, numeros, tablas de multiplicar, lectoescritura, grafomotricidad y mucho mas.',
+  // Pricing Section
+  pricing: {
+    title: 'Acceso Completo',
     price: '$240',
-    period: '/ano',
-    features: [
-      '33 generadores de fichas',
-      'Descargas ilimitadas',
-      '3000+ imagenes',
-      '11 idiomas',
+    priceInterval: '/ano',
+    priceSuffix: 'Facturacion anual',
+    benefits: [
+      'Creacion de fichas ilimitada',
       'Licencia comercial incluida',
-      'Sin marca de agua',
-      'Formato PDF y JPEG',
-      'Hojas de respuestas automaticas',
+      '11 idiomas soportados',
+      '3000+ imagenes tematicas',
+      'Calidad de impresion 300 DPI',
+      'Hojas de respuestas incluidas',
+      'Acceso a los 33 generadores',
     ],
-    ctaText: 'Obtener Acceso Completo',
-    badgeText: 'Acceso Completo',
+    ctaText: 'Comenzar Ahora',
+    guaranteeText: 'Garantia de devolucion de 30 dias',
   },
 
   // FAQ Section - FULL text from prepositions.md FAQ sections
@@ -308,40 +307,55 @@ Tu suscripcion incluye acceso a mas de 3000 imagenes infantiles organizadas por 
     ],
   },
 
-  // Combination Section - FULL text from prepositions.md Combina sections
-  combination: {
+  // Related Apps Section
+  relatedApps: {
     sectionTitle: 'Combina el Generador de Preposiciones con Otras Apps - Fichas de Matematicas, Abecedario, Colorear y Numeros Integradas',
     sectionDescription: 'Acceso Completo incluye 33 aplicaciones que se combinan perfectamente. El generador de preposiciones no trabaja aislado. Lo combinas con generadores de ejercicios matematicas, fichas para colorear, abecedario, numeros, tablas de multiplicar y mas para crear material educativo unico imposible de comprar pre-hecho.',
+    ctaTitle: 'Listo para Crear Fichas Increibles?',
+    ctaDescription: 'Unete a miles de educadores que crean fichas profesionales con nuestras herramientas.',
+    primaryCtaText: 'Comenzar Prueba Gratis',
+    secondaryCtaText: 'Ver las 33 Aplicaciones',
+    badgeText: 'Combina con',
+    exploreText: 'Explorar todas las aplicaciones',
+    trustBadges: {
+      guarantee: 'Garantia de 30 dias',
+      securePayment: 'Pago seguro',
+      cancelAnytime: 'Cancela cuando quieras',
+    },
     items: [
       {
         id: '1',
-        title: 'Preposiciones + Fichas para Colorear + Numeros + Tablas de Multiplicar',
-        description: 'La combinacion de preposiciones, colorear y numeros crea actividades multidimensionales perfectas para educacion infantil. Los estudiantes practican tres habilidades en una sola hoja sin sentir sobrecarga. Genera una ficha de preposiciones primero. Usa el generador para crear escenas con objetos posicionados espacialmente. Exporta en escala de grises para obtener dibujos para colorear. Agrega numeros a la escena usando el generador de numeros. "Hay 3 pelotas ENCIMA de la mesa. Colorea las 3 pelotas de rojo". Los estudiantes cuentan, identifican posicion espacial y practican grafomotricidad de colorear simultaneamente.',
+        slug: 'coloring',
+        name: 'Fichas para Colorear',
+        category: 'Creatividad',
+        icon: '🎨',
+        description: 'Combina preposiciones con colorear para actividades multidimensionales que desarrollan grafomotricidad.',
       },
       {
         id: '2',
-        title: 'Preposiciones + Abecedario + Lectoescritura',
-        description: 'Combinar preposiciones con el abecedario y lectoescritura acelera alfabetizacion inicial. Las letras no se ensenan aisladas sino en contexto espacial significativo. Genera fichas donde letras del abecedario estan posicionadas espacialmente. Usa el generador de abecedario para crear letras A-Z. Luego usa preposiciones para describir sus posiciones. "La letra B esta AL LADO de la letra A. Que letra esta ENTRE A y C?" Para aprender las letras en orden, crea secuencias espaciales. La lectoescritura se integra pidiendo que los estudiantes escriban oraciones sobre las posiciones de letras.',
+        slug: 'drawing-lines',
+        name: 'Grafomotricidad',
+        category: 'Grafomotricidad',
+        icon: '✏️',
+        description: 'Combina con ejercicios de trazo para desarrollo de motricidad fina junto con vocabulario espacial.',
       },
       {
         id: '3',
-        title: 'Preposiciones + Tablas de Multiplicar + Geometria',
-        description: 'Las tablas de multiplicar se comprenden mejor cuando se visualizan espacialmente. Combina el generador de preposiciones con generadores de matematicas para crear representaciones concretas de conceptos abstractos. Genera arrays rectangulares usando el generador de tablas de multiplicar. Luego usa preposiciones para describir la organizacion. "Hay 4 filas de objetos SOBRE la mesa. Cada fila tiene 3 objetos. Cuantos objetos hay EN TOTAL sobre la mesa?" La descripcion espacial hace que 4x3=12 sea visible y comprensible. Los ejercicios matematicas de area tambien se benefician.',
+        slug: 'image-addition',
+        name: 'Fichas de Suma',
+        category: 'Matematicas',
+        icon: '➕',
+        description: 'Integra preposiciones con ejercicios de suma para aprendizaje matematico contextualizado.',
       },
       {
         id: '4',
-        title: 'Preposiciones + Numeros + Comparacion',
-        description: 'Los numeros adquieren significado cuando se comparan usando posiciones espaciales. Combina generadores de numeros con preposiciones para ensenar conceptos numericos fundamentales. Genera lineas numericas visuales mostrando numeros del 1-20. Usa preposiciones para ensenar secuencia. "El numero 5 esta ANTES del 6. El numero 7 esta DESPUES del 6. El numero 6 esta ENTRE 5 y 7". Los estudiantes aprenden orden numerico usando vocabulario espacial. Para comparacion numerica, coloca numeros en diferentes posiciones verticales. "Los numeros grandes estan ARRIBA. Los numeros pequenos estan ABAJO."',
+        slug: 'alphabet-train',
+        name: 'Tren del Abecedario',
+        category: 'Lectoescritura',
+        icon: '🔤',
+        description: 'Combina preposiciones con letras del abecedario para alfabetizacion acelerada.',
       },
     ],
-  },
-
-  // Final CTA
-  finalCta: {
-    sectionTitle: 'Comienza a Crear Fichas de Preposiciones Hoy',
-    sectionDescription: 'Unete a miles de maestros que ya usan nuestro generador para crear material educativo profesional. Con Acceso Completo, tienes todo lo que necesitas para ensenar preposiciones de manera efectiva.',
-    ctaText: 'Comenzar Ahora',
-    secondaryCtaText: 'Ver Precios',
   },
 };
 

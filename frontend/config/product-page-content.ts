@@ -180,6 +180,7 @@ import shadowMatchEsContent from '@/content/product-pages/es/asociacion-sombras-
 import subtractionEsContent from '@/content/product-pages/es/resta-fichas';
 import treasureHuntEsContent from '@/content/product-pages/es/busqueda-tesoro-fichas';
 import wordGuessEsContent from '@/content/product-pages/es/adivinar-palabras-fichas';
+import writingEsContent from '@/content/product-pages/es/lectoescritura-fichas';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -758,6 +759,10 @@ export const contentRegistry: ContentRegistry = {
     'adivinar-palabras-fichas': wordGuessEsContent,
     // Also keep old slug for backwards compatibility during transition
     'word-guess-worksheets': wordGuessEsContent,
+    // Spanish Writing - uses Spanish SEO slug
+    'lectoescritura-fichas': writingEsContent,
+    // Also keep old slug for backwards compatibility during transition
+    'writing-worksheets': writingEsContent,
   },
 };
 

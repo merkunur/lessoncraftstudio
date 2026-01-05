@@ -377,6 +377,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       sv: 'skrivovningar-arbetsblad',
       de: 'schreibuebungen-arbeitsblaetter',
       fr: 'ecriture-fiches',
+      es: 'lectoescritura-fichas',
     },
   },
 ];

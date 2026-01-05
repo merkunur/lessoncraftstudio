@@ -780,6 +780,12 @@ const nextConfig = {
         destination: '/es/apps/adivinar-palabras-fichas',
         permanent: true,
       },
+      // Spanish: writing-worksheets → lectoescritura-fichas
+      {
+        source: '/es/apps/writing-worksheets',
+        destination: '/es/apps/lectoescritura-fichas',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

@@ -7972,6 +7972,7 @@ export async function generateStaticParams() {
     'resta-fichas', // Product page slug (Spanish) - language-specific SEO slug for subtraction
     'busqueda-tesoro-fichas', // Product page slug (Spanish) - language-specific SEO slug for treasure-hunt
     'adivinar-palabras-fichas', // Product page slug (Spanish) - language-specific SEO slug for word-guess
+    'lectoescritura-fichas', // Product page slug (Spanish) - language-specific SEO slug for writing
     'alphabet-zug-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug
     'malvorlagen-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug
     'mathe-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for math worksheets

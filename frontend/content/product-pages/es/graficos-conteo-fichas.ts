@@ -241,8 +241,8 @@ Descarga tanto la hoja de trabajo como la clave de respuestas en archivos separa
     ],
   },
 
-  // Audience Section - FULL text from chart-count.md audience sections
-  audiences: {
+  // Use Cases Section - FULL text from chart-count.md audience sections
+  useCases: {
     sectionTitle: 'Fichas para Imprimir de Gráficos para Todos los Educadores - Ejercicios Matemáticas y Material Educativo Gratis para Cada Necesidad',
     sectionDescription: 'Los gráficos con imágenes benefician a diversos tipos de educadores y contextos educativos. Las fichas preescolar de conteo visual funcionan perfectamente desde educación inicial hasta primaria baja. Cada grupo de usuarios encuentra aplicaciones únicas para estas fichas gratis. El material educativo gratis se adapta a múltiples filosofías y metodologías de enseñanza.',
     badgeText: 'Para Quién',
@@ -252,7 +252,8 @@ Descarga tanto la hoja de trabajo como la clave de respuestas en archivos separa
       {
         id: '1',
         icon: '👩‍🏫',
-        title: 'Maestros de Educación Preescolar - Fichas Infantil de Grafomotricidad y Dibujos para Colorear para Preescolar 1, 2 y 3',
+        title: 'Maestros de Educación Preescolar',
+        subtitle: 'Fichas Infantil de Grafomotricidad y Dibujos para Colorear para Preescolar 1, 2 y 3',
         description: `Los maestros de preescolar usan fichas para imprimir de gráficos para enseñar conceptos matemáticos fundamentales. Los niños de preescolar 1 (3 años) practican contar hasta 5 con imágenes grandes. Los estudiantes de preescolar 2 (4 años) cuentan hasta 10 y comienzan a comparar cantidades. Los alumnos de preescolar 3 (5 años) trabajan con gráficos de hasta 20 objetos preparándose para primaria.
 
 Las fichas infantil de gráficos desarrollan habilidades de clasificación esenciales. Los niños agrupan objetos por color, forma o categoría en las fichas gratis. Estas actividades preparan el pensamiento lógico necesario para matemáticas formales. Combina los gráficos con actividades de grafomotricidad para desarrollo integral. Los pequeños trazan números mientras cuentan objetos en las fichas preescolar.
@@ -262,7 +263,8 @@ Usa las fichas de matemáticas como base para dibujos para colorear después del
       {
         id: '2',
         icon: '📚',
-        title: 'Docentes de Educación Primaria - Ejercicios Matemáticas con Tablas de Multiplicar y Lectoescritura para 1°, 2° y 3° Grado',
+        title: 'Docentes de Educación Primaria',
+        subtitle: 'Ejercicios Matemáticas con Tablas de Multiplicar y Lectoescritura para 1°, 2° y 3° Grado',
         description: `Los docentes de primaria utilizan fichas gratis de gráficos para introducir conceptos estadísticos tempranos. Los estudiantes de primer grado (6-7 años) crean gráficos simples con 3-4 categorías. Los alumnos de segundo grado (7-8 años) trabajan con gráficos más complejos y aprenden los números hasta 100. Los niños de tercer grado (8-9 años) comienzan a interpretar datos y hacer predicciones.
 
 Las fichas para imprimir de gráficos preparan para conceptos avanzados como tablas de multiplicar. Los estudiantes cuentan grupos iguales en los gráficos practicando multiplicación visual. Por ejemplo, "4 grupos de 5 manzanas = 20 manzanas totales" conecta conteo con multiplicación. Las fichas de matemáticas con agrupaciones iguales construyen intuición multiplicativa natural.
@@ -272,7 +274,8 @@ Integra lectoescritura con matemáticas usando fichas infantil de gráficos tem�
       {
         id: '3',
         icon: '🏠',
-        title: 'Padres de Familia en Educación en Casa - Fichas Gratis de Abecedario y Números para Aprender las Letras con Matemáticas Integradas',
+        title: 'Padres de Familia en Educación en Casa',
+        subtitle: 'Fichas Gratis de Abecedario y Números para Aprender las Letras con Matemáticas Integradas',
         description: `Las familias que educan en casa encuentran en las fichas para imprimir un recurso versátil. Los padres crean ejercicios matemáticas personalizados adaptados al nivel exacto de cada hijo. Las fichas infantil generadas en minutos reemplazan costosos libros de trabajo comerciales. El material educativo gratis de alta calidad profesional da confianza a los padres educadores.
 
 Combina aprendizaje del abecedario con conceptos numéricos en las mismas fichas gratis. Los niños cuentan cuántas imágenes comienzan con cada letra del alfabeto. Esta integración natural enseña múltiples habilidades simultáneamente. Las fichas preescolar con letras y números maximizan el tiempo de instrucción en hogares con múltiples niños.
@@ -282,7 +285,8 @@ Usa las fichas de matemáticas para evaluar progreso sin presión de exámenes f
       {
         id: '4',
         icon: '🌎',
-        title: 'Maestros de Español como Segunda Lengua - Fichas Infantil Multilingües para Vocabulario de Números y Lectoescritura Bilingüe',
+        title: 'Maestros de Español como Segunda Lengua',
+        subtitle: 'Fichas Infantil Multilingües para Vocabulario de Números y Lectoescritura Bilingüe',
         description: `Los profesores de español usan fichas gratis de gráficos para enseñar vocabulario temático. Las imágenes proporcionan contexto visual que facilita la comprensión sin traducción. Los estudiantes aprenden los números en español mientras cuentan objetos familiares. Las fichas para imprimir en español desarrollan vocabulario matemático en el idioma objetivo.
 
 Las actividades de lectoescritura con gráficos refuerzan gramática y estructura de oraciones. Los estudiantes escriben descripciones de los datos usando vocabulario recién aprendido. Practican plurales contando "una manzana" versus "cinco manzanas" en las fichas de matemáticas. Las preguntas integradas como "¿Cuántos animales hay?" desarrollan comprensión auditiva y escrita.
@@ -292,7 +296,8 @@ Crea fichas preescolar temáticas que conecten con la cultura de países hispano
       {
         id: '5',
         icon: '🧩',
-        title: 'Maestros de Educación Especial - Ejercicios Matemáticas Adaptados con Grafomotricidad y Material Educativo Gratis Diferenciado',
+        title: 'Maestros de Educación Especial',
+        subtitle: 'Ejercicios Matemáticas Adaptados con Grafomotricidad y Material Educativo Gratis Diferenciado',
         description: `Los maestros de educación especial valoran la personalización ilimitada de las fichas para imprimir. Ajusta la complejidad de los gráficos según las necesidades individuales de cada estudiante. Crea fichas gratis con solo 2-3 imágenes para estudiantes que necesitan más apoyo. Genera gráficos complejos con 10+ categorías para estudiantes avanzados.
 
 Las imágenes visuales claras apoyan a estudiantes con dificultades de procesamiento auditivo. Los gráficos concretos hacen abstractos conceptos matemáticos accesibles para todos. Añade elementos de grafomotricidad para estudiantes trabajando en habilidades motoras finas. Las fichas infantil con líneas gruesas facilitan el trazado para niños con desafíos motores.
@@ -302,7 +307,8 @@ Usa fichas de matemáticas repetitivas para estudiantes que se benefician de pr�
       {
         id: '6',
         icon: '💼',
-        title: 'Maestros Emprendedores - Vender Fichas para Imprimir con Tablas de Multiplicar en Teachers Pay Teachers y Etsy',
+        title: 'Maestros Emprendedores',
+        subtitle: 'Vender Fichas para Imprimir con Tablas de Multiplicar en Teachers Pay Teachers y Etsy',
         description: `Los docentes emprendedores crean paquetes de fichas gratis para vender en marketplaces educativos. La licencia comercial POD incluida en Acceso Completo permite ventas sin restricciones. Los maestros generan ingresos pasivos compartiendo su experiencia pedagógica. Las fichas de matemáticas de calidad profesional se venden bien en Teachers Pay Teachers.
 
 Crea paquetes temáticos de fichas para imprimir organizados por concepto o época del año. Los sets de fichas infantil estacionales (otoño, invierno, primavera, verano) son populares. Los paquetes de ejercicios matemáticas progresivos desde conteo básico hasta tablas de multiplicar generan ventas recurrentes. Las fichas preescolar con temas culturales atraen mercados específicos.

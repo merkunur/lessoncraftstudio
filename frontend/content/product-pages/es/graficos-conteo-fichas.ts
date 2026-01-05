@@ -501,15 +501,6 @@ Ajusta complejidad según habilidades individuales independientemente de edad cr
       },
     ],
   },
-
-  // Final CTA Section
-  finalCta: {
-    title: 'Comienza a Crear Fichas de Gráficos con Imágenes Hoy',
-    description: 'Únete a miles de maestros que ahorran tiempo creando fichas de matemáticas profesionales. Genera fichas gratis de gráficos con imágenes en menos de 3 minutos. Tu suscripción Acceso Completo incluye licencia comercial para vender en Teachers Pay Teachers.',
-    ctaText: 'Comenzar Gratis',
-    secondaryCtaText: 'Ver Más Ejemplos',
-    guaranteeText: 'Garantía de satisfacción de 30 días',
-  },
 };
 
 export default graficosConteoEsContent;

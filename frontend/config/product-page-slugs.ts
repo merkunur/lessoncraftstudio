@@ -257,6 +257,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       sv: 'saknade-bitar-arbetsblad',
       de: 'fehlende-puzzleteile-arbeitsblaetter',
       fr: 'pieces-manquantes-fiches',
+      es: 'piezas-faltantes-fichas',
     },
   },
   {

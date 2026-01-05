@@ -714,6 +714,12 @@ const nextConfig = {
         destination: '/es/apps/rompecabezas-matematicos-fichas',
         permanent: true,
       },
+      // Spanish: missing-pieces-worksheets → piezas-faltantes-fichas
+      {
+        source: '/es/apps/missing-pieces-worksheets',
+        destination: '/es/apps/piezas-faltantes-fichas',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

@@ -168,6 +168,7 @@ import gridMatchEsContent from '@/content/product-pages/es/rompecabezas-cuadricu
 import crosswordEsContent from '@/content/product-pages/es/crucigramas-imagenes-fichas';
 import cryptogramEsContent from '@/content/product-pages/es/criptogramas-imagenes-fichas';
 import mathPuzzleEsContent from '@/content/product-pages/es/rompecabezas-matematicos-fichas';
+import missingPiecesEsContent from '@/content/product-pages/es/piezas-faltantes-fichas';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -698,6 +699,10 @@ export const contentRegistry: ContentRegistry = {
     'rompecabezas-matematicos-fichas': mathPuzzleEsContent,
     // Also keep old slug for backwards compatibility during transition
     'math-puzzle-worksheets': mathPuzzleEsContent,
+    // Spanish Missing Pieces (Piezas Faltantes) - uses Spanish SEO slug
+    'piezas-faltantes-fichas': missingPiecesEsContent,
+    // Also keep old slug for backwards compatibility during transition
+    'missing-pieces-worksheets': missingPiecesEsContent,
   },
 };
 

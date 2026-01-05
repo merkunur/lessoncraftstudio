@@ -115,6 +115,11 @@ import graficosConteoEsContent from '@/content/product-pages/es/graficos-conteo-
 import sumaCodigoEsContent from '@/content/product-pages/es/suma-codigo-fichas';
 import dibujoCuadriculaEsContent from '@/content/product-pages/es/dibujo-cuadricula-fichas';
 import findObjectsEsContent from '@/content/product-pages/es/buscar-objetos-fichas';
+import gridMatchEsContent from '@/content/product-pages/es/rompecabezas-cuadricula-fichas';
+import crosswordEsContent from '@/content/product-pages/es/crucigramas-imagenes-fichas';
+import cryptogramEsContent from '@/content/product-pages/es/criptogramas-imagenes-fichas';
+import mathPuzzleEsContent from '@/content/product-pages/es/rompecabezas-matematicos-fichas';
+import missingPiecesEsContent from '@/content/product-pages/es/piezas-faltantes-fichas';
 
 interface PageProps {
   params: {
@@ -7947,6 +7952,7 @@ export async function generateStaticParams() {
     'crucigramas-imagenes-fichas', // Product page slug (Spanish) - language-specific SEO slug for crossword
     'criptogramas-imagenes-fichas', // Product page slug (Spanish) - language-specific SEO slug for cryptogram
     'rompecabezas-matematicos-fichas', // Product page slug (Spanish) - language-specific SEO slug for math-puzzle
+    'piezas-faltantes-fichas', // Product page slug (Spanish) - language-specific SEO slug for missing-pieces
     'alphabet-zug-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug
     'malvorlagen-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug
     'mathe-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for math worksheets

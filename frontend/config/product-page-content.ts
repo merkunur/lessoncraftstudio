@@ -160,6 +160,7 @@ import drawingLinesEsContent from '@/content/product-pages/es/drawing-lines-work
 import bingoEsContent from '@/content/product-pages/es/bingo-fichas';
 import sudokuEsContent from '@/content/product-pages/es/sudoku-fichas-ninos';
 import bigSmallEsContent from '@/content/product-pages/es/grande-pequeno-fichas';
+import graficosConteoEsContent from '@/content/product-pages/es/graficos-conteo-fichas';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -658,6 +659,10 @@ export const contentRegistry: ContentRegistry = {
     'grande-pequeno-fichas': bigSmallEsContent,
     // Also keep old slug for backwards compatibility during transition
     'big-small-worksheets': bigSmallEsContent,
+    // Spanish Chart Count (Gráficos de Conteo) - uses Spanish SEO slug
+    'graficos-conteo-fichas': graficosConteoEsContent,
+    // Also keep old slug for backwards compatibility during transition
+    'chart-count-worksheets': graficosConteoEsContent,
   },
 };
 

@@ -111,6 +111,7 @@ import drawingLinesEsContent from '@/content/product-pages/es/drawing-lines-work
 import bingoEsContent from '@/content/product-pages/es/bingo-fichas';
 import sudokuEsContent from '@/content/product-pages/es/sudoku-fichas-ninos';
 import bigSmallEsContent from '@/content/product-pages/es/grande-pequeno-fichas';
+import graficosConteoEsContent from '@/content/product-pages/es/graficos-conteo-fichas';
 
 interface PageProps {
   params: {
@@ -1391,6 +1392,52 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       },
       alternates: {
         canonical: 'https://www.lessoncraftstudio.com/es/apps/grande-pequeno-fichas', // Point to new URL
+      },
+    };
+  }
+
+  // Chart Count (Gráficos de Conteo) - Spanish product page SEO (new Spanish slug)
+  if (params.slug === 'graficos-conteo-fichas' && params.locale === 'es') {
+    return {
+      title: 'Fichas de Gráficos con Imágenes para Imprimir | Generador de Fichas de Matemáticas para Preescolar y Primaria',
+      description: 'Crea fichas de gráficos con imágenes profesionales con nuestro generador especializado. Los gráficos de conteo con imágenes enseñan a los niños a contar, clasificar y representar datos visualmente. Descarga fichas gratis de alta calidad en formato PDF en menos de 3 minutos.',
+      keywords: 'fichas de gráficos, gráficos con imágenes, fichas para imprimir, fichas infantil, fichas preescolar, fichas de matemáticas, ejercicios matemáticas, material educativo gratis, fichas gratis, aprender los números, grafomotricidad, lectoescritura, dibujos para colorear, tablas de multiplicar',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/es/apps/graficos-conteo-fichas',
+        languages: {
+          'en': 'https://www.lessoncraftstudio.com/en/apps/chart-count-worksheets',
+          'sv': 'https://www.lessoncraftstudio.com/sv/apps/diagram-rakning-arbetsblad',
+          'de': 'https://www.lessoncraftstudio.com/de/apps/bilddiagramm-arbeitsblaetter',
+          'fr': 'https://www.lessoncraftstudio.com/fr/apps/graphique-images-fiches',
+          'es': 'https://www.lessoncraftstudio.com/es/apps/graficos-conteo-fichas',
+          'x-default': 'https://www.lessoncraftstudio.com/en/apps/chart-count-worksheets',
+        },
+      },
+      openGraph: {
+        title: 'Fichas de Gráficos con Imágenes para Imprimir | LessonCraftStudio',
+        description: 'Crea fichas de gráficos con imágenes profesionales. Los gráficos de conteo con imágenes enseñan a los niños a contar, clasificar y representar datos visualmente.',
+        url: 'https://www.lessoncraftstudio.com/es/apps/graficos-conteo-fichas',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Chart Count (Gráficos de Conteo) - Spanish legacy redirect (old English slug in Spanish locale)
+  if (params.slug === 'chart-count-worksheets' && params.locale === 'es') {
+    return {
+      title: 'Fichas de Gráficos con Imágenes | LessonCraftStudio',
+      description: 'Página movida. Por favor visita la nueva URL.',
+      robots: {
+        index: false, // Don't index old URL
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/es/apps/graficos-conteo-fichas', // Point to new URL
       },
     };
   }
@@ -7707,6 +7754,7 @@ export async function generateStaticParams() {
     'bingo-fichas', // Product page slug (Spanish) - language-specific SEO slug for picture-bingo
     'sudoku-fichas-ninos', // Product page slug (Spanish) - language-specific SEO slug for sudoku
     'grande-pequeno-fichas', // Product page slug (Spanish) - language-specific SEO slug for big-small
+    'graficos-conteo-fichas', // Product page slug (Spanish) - language-specific SEO slug for chart-count
     'alphabet-zug-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug
     'malvorlagen-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug
     'mathe-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for math worksheets

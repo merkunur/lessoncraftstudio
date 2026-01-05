@@ -133,6 +133,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     sv: 'diagram-rakning-arbetsblad',
     de: 'bilddiagramm-arbeitsblaetter',
     fr: 'graphique-images-fiches',
+    es: 'graficos-conteo-fichas',
   },
   'code-addition': {
     en: 'code-addition-worksheets',

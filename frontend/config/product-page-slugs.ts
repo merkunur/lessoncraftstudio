@@ -178,6 +178,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       sv: 'diagram-rakning-arbetsblad',
       de: 'bilddiagramm-arbeitsblaetter',
       fr: 'graphique-images-fiches',
+      es: 'graficos-conteo-fichas',
     },
   },
   {

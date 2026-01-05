@@ -666,6 +666,12 @@ const nextConfig = {
         destination: '/es/apps/grande-pequeno-fichas',
         permanent: true,
       },
+      // Spanish: chart-count-worksheets → graficos-conteo-fichas
+      {
+        source: '/es/apps/chart-count-worksheets',
+        destination: '/es/apps/graficos-conteo-fichas',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

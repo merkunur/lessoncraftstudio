@@ -158,6 +158,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       en: 'sudoku-worksheets',
       sv: 'bildsudoku-arbetsblad',
       de: 'kinder-sudoku-arbeitsblaetter',
+      es: 'sudoku-fichas-ninos',
     },
   },
   {

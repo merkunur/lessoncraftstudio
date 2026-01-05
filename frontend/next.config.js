@@ -654,6 +654,12 @@ const nextConfig = {
         destination: '/es/apps/bingo-fichas',
         permanent: true,
       },
+      // Spanish: sudoku-worksheets → sudoku-fichas-ninos
+      {
+        source: '/es/apps/sudoku-worksheets',
+        destination: '/es/apps/sudoku-fichas-ninos',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

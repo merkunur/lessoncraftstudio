@@ -109,6 +109,7 @@ import findAndCountEsContent from '@/content/product-pages/es/find-and-count-wor
 import matchingEsContent from '@/content/product-pages/es/matching-worksheets';
 import drawingLinesEsContent from '@/content/product-pages/es/drawing-lines-worksheets';
 import bingoEsContent from '@/content/product-pages/es/bingo-fichas';
+import sudokuEsContent from '@/content/product-pages/es/sudoku-fichas-ninos';
 
 interface PageProps {
   params: {
@@ -1297,6 +1298,52 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       },
       alternates: {
         canonical: 'https://www.lessoncraftstudio.com/es/apps/bingo-fichas', // Point to new URL
+      },
+    };
+  }
+
+  // Sudoku for Kids - Spanish product page SEO (new Spanish slug)
+  if (params.slug === 'sudoku-fichas-ninos' && params.locale === 'es') {
+    return {
+      title: 'Sudoku para Niños - Fichas de Sudoku Visual para Imprimir - Material Educativo Gratis',
+      description: 'Crea rompecabezas de sudoku visual coloridos diseñados específicamente para niños de preescolar y educación primaria. Tu suscripción Paquete Esencial te permite generar fichas de sudoku ilimitadas. Descarga fichas para imprimir de alta calidad en menos de 3 minutos.',
+      keywords: 'sudoku para niños, sudoku visual, fichas de sudoku, fichas para imprimir, fichas infantil, fichas preescolar, material educativo gratis, fichas gratis, rompecabezas lógica, pensamiento crítico, números, abecedario',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/es/apps/sudoku-fichas-ninos',
+        languages: {
+          'en': 'https://www.lessoncraftstudio.com/en/apps/sudoku-worksheets',
+          'sv': 'https://www.lessoncraftstudio.com/sv/apps/bildsudoku-arbetsblad',
+          'de': 'https://www.lessoncraftstudio.com/de/apps/kinder-sudoku-arbeitsblaetter',
+          'fr': 'https://www.lessoncraftstudio.com/fr/apps/sudoku-enfants-fiches',
+          'es': 'https://www.lessoncraftstudio.com/es/apps/sudoku-fichas-ninos',
+          'x-default': 'https://www.lessoncraftstudio.com/en/apps/sudoku-worksheets',
+        },
+      },
+      openGraph: {
+        title: 'Sudoku para Niños - Fichas de Sudoku Visual | LessonCraftStudio',
+        description: 'Crea rompecabezas de sudoku visual coloridos para niños de preescolar y primaria. Perfecto para desarrollar pensamiento lógico.',
+        url: 'https://www.lessoncraftstudio.com/es/apps/sudoku-fichas-ninos',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Sudoku for Kids - Spanish legacy redirect (old English slug in Spanish locale)
+  if (params.slug === 'sudoku-worksheets' && params.locale === 'es') {
+    return {
+      title: 'Sudoku para Niños - Fichas de Sudoku Visual | LessonCraftStudio',
+      description: 'Página movida. Por favor visita la nueva URL.',
+      robots: {
+        index: false, // Don't index old URL
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/es/apps/sudoku-fichas-ninos', // Point to new URL
       },
     };
   }
@@ -7611,6 +7658,7 @@ export async function generateStaticParams() {
     'letras-revueltas-fichas', // Product page slug (Spanish) - language-specific SEO slug for word-scramble
     'buscar-contar-fichas', // Product page slug (Spanish) - language-specific SEO slug for find-and-count
     'bingo-fichas', // Product page slug (Spanish) - language-specific SEO slug for picture-bingo
+    'sudoku-fichas-ninos', // Product page slug (Spanish) - language-specific SEO slug for sudoku
     'alphabet-zug-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug
     'malvorlagen-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug
     'mathe-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for math worksheets

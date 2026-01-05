@@ -190,6 +190,7 @@ Descarga hojas de trabajo individuales. Guarda claves de respuestas por separado
     steps: [
       {
         id: '1',
+        number: 1,
         title: 'Elige Contenido para Fichas de Matemáticas - Temas del Abecedario, Números y Grafomotricidad',
         description: `Comienza seleccionando una imagen de la biblioteca de 3000+. Haz clic en el menú desplegable de temas. Aparecen categorías como Animales, Comida, Transporte. Para ejercicios matemáticas, elige temas de Números. Los temas del abecedario funcionan para lectoescritura. Los temas de grafomotricidad incluyen formas y líneas. Cada tema contiene múltiples imágenes relacionadas.
 
@@ -199,6 +200,7 @@ Alternativamente, sube tus propias fotos. Haz clic en el botón Seleccionar Imá
       },
       {
         id: '2',
+        number: 2,
         title: 'Configura Ajustes de Cuadrícula para Fichas Preescolar y Ejercicios Matemáticas de Primaria',
         description: `Ajusta el tamaño de la cuadrícula según el nivel de habilidad. El control de Filas permite 2-4 filas. El control de Columnas permite 2-4 columnas. Una cuadrícula 2x2 crea 4 piezas para preescolar. Una cuadrícula 3x3 crea 9 piezas para kindergarten. Una cuadrícula 4x4 crea 16 piezas para primaria superior.
 
@@ -208,6 +210,7 @@ Selecciona el tamaño de página según tus necesidades. Letter Portrait funcion
       },
       {
         id: '3',
+        number: 3,
         title: 'Genera Fichas Infantil - Creación Instantánea de Material Educativo Gratis',
         description: `Haz clic en el botón Crear en el encabezado. Aparece un menú desplegable. Selecciona Nueva Hoja de Trabajo. El generador procesa tu rompecabezas inmediatamente. La cuadrícula aparece en el lienzo en segundos. Las piezas mezcladas aparecen debajo de la cuadrícula principal. Las células de pista permanecen en posición correcta.
 
@@ -217,6 +220,7 @@ Haz clic en Clave de Respuestas en el menú Crear. Se genera la imagen completa 
       },
       {
         id: '4',
+        number: 4,
         title: 'Edita Fichas de Lectoescritura en el Lienzo - Personaliza Fichas para Imprimir',
         description: `Haz clic en cualquier elemento para seleccionarlo. Aparecen controles de edición alrededor del objeto. Arrastra piezas a nuevas posiciones. Usa esquinas para cambiar tamaño. El control circular superior permite rotación. Mueve texto, piezas, bordes o fondos libremente. Todo en el lienzo es completamente editable.
 
@@ -226,6 +230,7 @@ Selecciona múltiples elementos manteniendo presionada la tecla Mayús. Haz clic
       },
       {
         id: '5',
+        number: 5,
         title: 'Descarga Material Educativo Gratis - PDF y JPEG de Fichas Preescolar',
         description: `Haz clic en el botón Descargar en el encabezado. Aparece un menú desplegable con opciones. Selecciona Hoja de Trabajo (JPEG) para compartir digital. Elige Hoja de Trabajo (PDF) para impresión profesional. Selecciona Clave de Respuestas (JPEG) o (PDF) para la solución. Todos los formatos descargan a 300 DPI de alta calidad.
 

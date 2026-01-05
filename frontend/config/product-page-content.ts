@@ -169,6 +169,7 @@ import crosswordEsContent from '@/content/product-pages/es/crucigramas-imagenes-
 import cryptogramEsContent from '@/content/product-pages/es/criptogramas-imagenes-fichas';
 import mathPuzzleEsContent from '@/content/product-pages/es/rompecabezas-matematicos-fichas';
 import missingPiecesEsContent from '@/content/product-pages/es/piezas-faltantes-fichas';
+import moreLessEsContent from '@/content/product-pages/es/mayor-menor-fichas';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -703,6 +704,10 @@ export const contentRegistry: ContentRegistry = {
     'piezas-faltantes-fichas': missingPiecesEsContent,
     // Also keep old slug for backwards compatibility during transition
     'missing-pieces-worksheets': missingPiecesEsContent,
+    // Spanish More Less (Mayor Menor) - uses Spanish SEO slug
+    'mayor-menor-fichas': moreLessEsContent,
+    // Also keep old slug for backwards compatibility during transition
+    'more-less-worksheets': moreLessEsContent,
   },
 };
 

@@ -120,6 +120,7 @@ import crosswordEsContent from '@/content/product-pages/es/crucigramas-imagenes-
 import cryptogramEsContent from '@/content/product-pages/es/criptogramas-imagenes-fichas';
 import mathPuzzleEsContent from '@/content/product-pages/es/rompecabezas-matematicos-fichas';
 import missingPiecesEsContent from '@/content/product-pages/es/piezas-faltantes-fichas';
+import moreLessEsContent from '@/content/product-pages/es/mayor-menor-fichas';
 
 interface PageProps {
   params: {
@@ -7953,6 +7954,7 @@ export async function generateStaticParams() {
     'criptogramas-imagenes-fichas', // Product page slug (Spanish) - language-specific SEO slug for cryptogram
     'rompecabezas-matematicos-fichas', // Product page slug (Spanish) - language-specific SEO slug for math-puzzle
     'piezas-faltantes-fichas', // Product page slug (Spanish) - language-specific SEO slug for missing-pieces
+    'mayor-menor-fichas', // Product page slug (Spanish) - language-specific SEO slug for more-less
     'alphabet-zug-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug
     'malvorlagen-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug
     'mathe-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for math worksheets

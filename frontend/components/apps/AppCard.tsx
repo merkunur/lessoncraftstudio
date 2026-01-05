@@ -194,6 +194,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     sv: 'jamforelse-arbetsblad',
     de: 'mehr-weniger-arbeitsblaetter',
     fr: 'comparaison-quantites-fiches',
+    es: 'mayor-menor-fichas',
   },
   'odd-one-out': {
     en: 'odd-one-out-worksheets',

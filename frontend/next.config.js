@@ -720,6 +720,12 @@ const nextConfig = {
         destination: '/es/apps/piezas-faltantes-fichas',
         permanent: true,
       },
+      // Spanish: more-less-worksheets → mayor-menor-fichas
+      {
+        source: '/es/apps/more-less-worksheets',
+        destination: '/es/apps/mayor-menor-fichas',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

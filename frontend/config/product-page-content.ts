@@ -169,6 +169,7 @@ import crosswordEsContent from '@/content/product-pages/es/crucigramas-imagenes-
 import cryptogramEsContent from '@/content/product-pages/es/criptogramas-imagenes-fichas';
 import mathPuzzleEsContent from '@/content/product-pages/es/rompecabezas-matematicos-fichas';
 import missingPiecesEsContent from '@/content/product-pages/es/piezas-faltantes-fichas';
+import picturePathEsContent from '@/content/product-pages/es/laberintos-imagenes-fichas';
 import moreLessEsContent from '@/content/product-pages/es/mayor-menor-fichas';
 import oddOneOutEsContent from '@/content/product-pages/es/encuentra-el-diferente';
 import patternTrainEsContent from '@/content/product-pages/es/tren-patrones-fichas';
@@ -707,6 +708,10 @@ export const contentRegistry: ContentRegistry = {
     'piezas-faltantes-fichas': missingPiecesEsContent,
     // Also keep old slug for backwards compatibility during transition
     'missing-pieces-worksheets': missingPiecesEsContent,
+    // Spanish Picture Path (Laberintos de Imágenes) - uses Spanish SEO slug
+    'laberintos-imagenes-fichas': picturePathEsContent,
+    // Also keep old slug for backwards compatibility during transition
+    'picture-path-worksheets': picturePathEsContent,
     // Spanish More Less (Mayor Menor) - uses Spanish SEO slug
     'mayor-menor-fichas': moreLessEsContent,
     // Also keep old slug for backwards compatibility during transition

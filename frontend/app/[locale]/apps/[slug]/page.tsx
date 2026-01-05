@@ -120,6 +120,7 @@ import crosswordEsContent from '@/content/product-pages/es/crucigramas-imagenes-
 import cryptogramEsContent from '@/content/product-pages/es/criptogramas-imagenes-fichas';
 import mathPuzzleEsContent from '@/content/product-pages/es/rompecabezas-matematicos-fichas';
 import missingPiecesEsContent from '@/content/product-pages/es/piezas-faltantes-fichas';
+import picturePathEsContent from '@/content/product-pages/es/laberintos-imagenes-fichas';
 import moreLessEsContent from '@/content/product-pages/es/mayor-menor-fichas';
 import oddOneOutEsContent from '@/content/product-pages/es/encuentra-el-diferente';
 import patternTrainEsContent from '@/content/product-pages/es/tren-patrones-fichas';
@@ -7957,6 +7958,7 @@ export async function generateStaticParams() {
     'criptogramas-imagenes-fichas', // Product page slug (Spanish) - language-specific SEO slug for cryptogram
     'rompecabezas-matematicos-fichas', // Product page slug (Spanish) - language-specific SEO slug for math-puzzle
     'piezas-faltantes-fichas', // Product page slug (Spanish) - language-specific SEO slug for missing-pieces
+    'laberintos-imagenes-fichas', // Product page slug (Spanish) - language-specific SEO slug for picture-path
     'mayor-menor-fichas', // Product page slug (Spanish) - language-specific SEO slug for more-less
     'encuentra-el-diferente-fichas', // Product page slug (Spanish) - language-specific SEO slug for odd-one-out
     'tren-patrones-fichas', // Product page slug (Spanish) - language-specific SEO slug for pattern-train

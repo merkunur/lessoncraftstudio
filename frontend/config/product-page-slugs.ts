@@ -307,6 +307,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       sv: 'bildlabyrint-arbetsblad',
       de: 'bilderpfad-arbeitsblaetter',
       fr: 'parcours-images-fiches',
+      es: 'laberintos-imagenes-fichas',
     },
   },
   {

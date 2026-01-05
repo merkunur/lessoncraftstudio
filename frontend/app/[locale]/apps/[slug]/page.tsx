@@ -126,6 +126,7 @@ import oddOneOutEsContent from '@/content/product-pages/es/encuentra-el-diferent
 import patternTrainEsContent from '@/content/product-pages/es/tren-patrones-fichas';
 import patternWorksheetEsContent from '@/content/product-pages/es/fichas-patrones';
 import pictureSortEsContent from '@/content/product-pages/es/clasificar-imagenes-fichas';
+import prepositionsEsContent from '@/content/product-pages/es/preposiciones-fichas';
 
 interface PageProps {
   params: {
@@ -7964,6 +7965,8 @@ export async function generateStaticParams() {
     'encuentra-el-diferente-fichas', // Product page slug (Spanish) - language-specific SEO slug for odd-one-out
     'tren-patrones-fichas', // Product page slug (Spanish) - language-specific SEO slug for pattern-train
     'fichas-patrones', // Product page slug (Spanish) - language-specific SEO slug for pattern-worksheet
+    'clasificar-imagenes-fichas', // Product page slug (Spanish) - language-specific SEO slug for picture-sort
+    'preposiciones-fichas', // Product page slug (Spanish) - language-specific SEO slug for prepositions
     'alphabet-zug-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug
     'malvorlagen-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug
     'mathe-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for math worksheets

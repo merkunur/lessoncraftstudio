@@ -750,6 +750,12 @@ const nextConfig = {
         destination: '/es/apps/clasificar-imagenes-fichas',
         permanent: true,
       },
+      // Spanish: prepositions-worksheets → preposiciones-fichas
+      {
+        source: '/es/apps/prepositions-worksheets',
+        destination: '/es/apps/preposiciones-fichas',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

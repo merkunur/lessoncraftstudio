@@ -175,6 +175,7 @@ import oddOneOutEsContent from '@/content/product-pages/es/encuentra-el-diferent
 import patternTrainEsContent from '@/content/product-pages/es/tren-patrones-fichas';
 import patternWorksheetEsContent from '@/content/product-pages/es/fichas-patrones';
 import pictureSortEsContent from '@/content/product-pages/es/clasificar-imagenes-fichas';
+import prepositionsEsContent from '@/content/product-pages/es/preposiciones-fichas';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -733,6 +734,10 @@ export const contentRegistry: ContentRegistry = {
     'clasificar-imagenes-fichas': pictureSortEsContent,
     // Also keep old slug for backwards compatibility during transition
     'picture-sort-worksheets': pictureSortEsContent,
+    // Spanish Prepositions (Preposiciones) - uses Spanish SEO slug
+    'preposiciones-fichas': prepositionsEsContent,
+    // Also keep old slug for backwards compatibility during transition
+    'prepositions-worksheets': prepositionsEsContent,
   },
 };
 

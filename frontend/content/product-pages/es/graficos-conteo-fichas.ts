@@ -340,7 +340,13 @@ Los docentes exitosos ganan entre $500 y $5000 mensuales vendiendo material educ
   faq: {
     sectionTitle: 'Preguntas Frecuentes sobre Gráficos con Imágenes - Fichas para Imprimir de Grafomotricidad, Lectoescritura y Dibujos para Colorear',
     sectionDescription: 'Los maestros tienen preguntas comunes sobre las fichas infantil de gráficos con imágenes. Las respuestas aclaran funcionalidad, compatibilidad y opciones educativas. Las fichas preescolar de conteo visual son versátiles para múltiples aplicaciones. El material educativo gratis generado se adapta a diversas necesidades pedagógicas.',
+    showMoreText: 'Ver más preguntas',
+    showLessText: 'Ver menos',
     badgeText: 'Preguntas Frecuentes',
+    readMoreLabel: 'Leer más',
+    showLessLabel: 'Ver menos',
+    secureCheckout: 'Pago seguro',
+    cancelAnytime: 'Cancela cuando quieras',
     items: [
       {
         id: '1',

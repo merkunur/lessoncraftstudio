@@ -127,6 +127,7 @@ import patternTrainEsContent from '@/content/product-pages/es/tren-patrones-fich
 import patternWorksheetEsContent from '@/content/product-pages/es/fichas-patrones';
 import pictureSortEsContent from '@/content/product-pages/es/clasificar-imagenes-fichas';
 import prepositionsEsContent from '@/content/product-pages/es/preposiciones-fichas';
+import shadowMatchEsContent from '@/content/product-pages/es/asociacion-sombras-fichas';
 
 interface PageProps {
   params: {
@@ -7967,6 +7968,7 @@ export async function generateStaticParams() {
     'fichas-patrones', // Product page slug (Spanish) - language-specific SEO slug for pattern-worksheet
     'clasificar-imagenes-fichas', // Product page slug (Spanish) - language-specific SEO slug for picture-sort
     'preposiciones-fichas', // Product page slug (Spanish) - language-specific SEO slug for prepositions
+    'asociacion-sombras-fichas', // Product page slug (Spanish) - language-specific SEO slug for shadow-match
     'alphabet-zug-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug
     'malvorlagen-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug
     'mathe-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for math worksheets

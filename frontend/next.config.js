@@ -756,6 +756,12 @@ const nextConfig = {
         destination: '/es/apps/preposiciones-fichas',
         permanent: true,
       },
+      // Spanish: shadow-match-worksheets → asociacion-sombras-fichas
+      {
+        source: '/es/apps/shadow-match-worksheets',
+        destination: '/es/apps/asociacion-sombras-fichas',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

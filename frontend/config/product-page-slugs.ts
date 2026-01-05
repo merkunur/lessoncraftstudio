@@ -337,6 +337,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       sv: 'skuggmatchning-arbetsblad',
       de: 'schattenbilder-zuordnen-arbeitsblaetter',
       fr: 'discrimination-visuelle-fiches',
+      es: 'asociacion-sombras-fichas',
     },
   },
   {

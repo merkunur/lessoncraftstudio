@@ -405,6 +405,7 @@ Guarda archivos descargados para reutilización futura. Construye bibliotecas de
     trustBadges: {
       guarantee: 'Garantía 30 días',
       securePayment: 'Pago seguro',
+      cancelAnytime: 'Cancela cuando quieras',
     },
     items: [
       {

@@ -93,6 +93,14 @@ Tu suscripcion incluye acceso a mas de 3000 imagenes infantiles organizadas por 
     sectionTitle: 'Caracteristicas del Generador de Fichas para Imprimir - Todo lo que Necesitas para Crear Fichas Infantil y Material Educativo Gratis',
     sectionDescription: 'Nuestro generador de fichas de preposiciones combina facilidad de uso con personalizacion profesional. Cada caracteristica esta disenada para ahorrarte tiempo mientras creas fichas para imprimir de la mas alta calidad. Con Acceso Completo por $240 anuales, obtienes todas estas funciones sin limites ni cargos adicionales por uso.',
     highlightBadgeText: 'Destacado',
+    badgeText: 'Caracteristicas',
+    readMoreLabel: 'Leer mas',
+    showLessLabel: 'Ver menos',
+    trustBadges: {
+      allFeatures: 'Todas las funciones incluidas',
+      noHiddenFees: 'Sin cargos ocultos',
+      cancelAnytime: 'Cancela cuando quieras',
+    },
     items: [
       {
         id: '1',
@@ -151,6 +159,14 @@ Tu suscripcion incluye acceso a mas de 3000 imagenes infantiles organizadas por 
     sectionTitle: 'Como Crear Fichas para Imprimir de Preposiciones en 5 Pasos Faciles - Genera Material Educativo Gratis Rapidamente',
     sectionDescription: 'El proceso completo para crear fichas infantil de preposiciones toma menos de 3 minutos. Desde seleccionar las preposiciones hasta descargar el PDF final, cada paso es intuitivo y rapido. No necesitas experiencia en diseno grafico ni software complicado para generar fichas para imprimir profesionales.',
     ctaText: 'Comenzar a Crear',
+    badgeText: 'Como Funciona',
+    stepLabel: 'Paso',
+    completionTitle: '¡Listo!',
+    completionSubtitle: 'Tu ficha esta lista',
+    readyTime: 'Listo en menos de 3 minutos',
+    noSkillsNeeded: 'Sin habilidades de diseno',
+    readMoreLabel: 'Leer mas',
+    showLessLabel: 'Ver menos',
     steps: [
       {
         id: '1',
@@ -194,6 +210,9 @@ Tu suscripcion incluye acceso a mas de 3000 imagenes infantiles organizadas por 
   useCases: {
     sectionTitle: 'Casos de Uso de Fichas para Imprimir con Preposiciones - Ejercicios Matematicas, Grafomotricidad y Lectoescritura',
     sectionDescription: 'Las fichas de preposiciones no son solo para ensenar vocabulario espacial. Los maestros creativos las combinan con ejercicios matematicas, grafomotricidad, lectoescritura y mas. Esta versatilidad convierte el generador en una herramienta esencial para educacion infantil y primaria.',
+    badgeText: 'Para Quien',
+    readMoreLabel: 'Leer mas',
+    showLessLabel: 'Ver menos',
     items: [
       {
         id: '1',
@@ -263,6 +282,13 @@ Tu suscripcion incluye acceso a mas de 3000 imagenes infantiles organizadas por 
   faq: {
     sectionTitle: 'Preguntas Frecuentes sobre Fichas para Imprimir de Preposiciones - Respuestas sobre Grafomotricidad, Lectoescritura y Material Educativo',
     sectionDescription: 'Los maestros hacen preguntas similares sobre las fichas de preposiciones. Esta seccion responde las dudas mas comunes sobre ejercicios matematicas, fichas para colorear, abecedario, numeros, tablas de multiplicar, lectoescritura y grafomotricidad.',
+    badgeText: 'Preguntas Frecuentes',
+    showMoreText: 'Mostrar mas preguntas',
+    showLessText: 'Ver menos',
+    readMoreLabel: 'Leer mas',
+    showLessLabel: 'Ver menos',
+    secureCheckout: 'Pago seguro',
+    cancelAnytime: 'Cancela cuando quieras',
     items: [
       {
         id: '1',

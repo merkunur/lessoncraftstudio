@@ -43,6 +43,11 @@ El generador funciona en 11 idiomas con más de 3000 imágenes infantiles. Selec
     },
     readMoreLabel: 'Leer más',
     showLessLabel: 'Ver menos',
+    floatingStats: {
+      time: 'En 3 minutos',
+      action: 'Crear y Descargar',
+      quality: '300 DPI',
+    },
   },
 
   // Sample Gallery
@@ -84,6 +89,11 @@ El generador funciona en 11 idiomas con más de 3000 imágenes infantiles. Selec
     readMoreLabel: 'Leer más',
     showLessLabel: 'Ver menos',
     badgeText: 'Características',
+    trustBadges: {
+      allFeatures: 'Todas las características incluidas',
+      noHiddenFees: 'Sin cargos ocultos',
+      cancelAnytime: 'Cancela cuando quieras',
+    },
     items: [
       {
         id: '1',

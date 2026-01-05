@@ -367,6 +367,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       sv: 'gissa-ordet-arbetsblad',
       de: 'woerter-raten-arbeitsblaetter',
       fr: 'deviner-mots-fiches',
+      es: 'adivinar-palabras-fichas',
     },
   },
   {

@@ -7971,6 +7971,7 @@ export async function generateStaticParams() {
     'asociacion-sombras-fichas', // Product page slug (Spanish) - language-specific SEO slug for shadow-match
     'resta-fichas', // Product page slug (Spanish) - language-specific SEO slug for subtraction
     'busqueda-tesoro-fichas', // Product page slug (Spanish) - language-specific SEO slug for treasure-hunt
+    'adivinar-palabras-fichas', // Product page slug (Spanish) - language-specific SEO slug for word-guess
     'alphabet-zug-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug
     'malvorlagen-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug
     'mathe-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for math worksheets

@@ -774,6 +774,12 @@ const nextConfig = {
         destination: '/es/apps/busqueda-tesoro-fichas',
         permanent: true,
       },
+      // Spanish: word-guess-worksheets → adivinar-palabras-fichas
+      {
+        source: '/es/apps/word-guess-worksheets',
+        destination: '/es/apps/adivinar-palabras-fichas',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

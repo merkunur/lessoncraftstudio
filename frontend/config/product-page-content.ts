@@ -179,6 +179,7 @@ import prepositionsEsContent from '@/content/product-pages/es/preposiciones-fich
 import shadowMatchEsContent from '@/content/product-pages/es/asociacion-sombras-fichas';
 import subtractionEsContent from '@/content/product-pages/es/resta-fichas';
 import treasureHuntEsContent from '@/content/product-pages/es/busqueda-tesoro-fichas';
+import wordGuessEsContent from '@/content/product-pages/es/adivinar-palabras-fichas';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -753,6 +754,10 @@ export const contentRegistry: ContentRegistry = {
     'busqueda-tesoro-fichas': treasureHuntEsContent,
     // Also keep old slug for backwards compatibility during transition
     'treasure-hunt-worksheets': treasureHuntEsContent,
+    // Spanish Word Guess (Adivina la Palabra) - uses Spanish SEO slug
+    'adivinar-palabras-fichas': wordGuessEsContent,
+    // Also keep old slug for backwards compatibility during transition
+    'word-guess-worksheets': wordGuessEsContent,
   },
 };
 

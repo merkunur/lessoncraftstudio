@@ -264,6 +264,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     sv: 'gissa-ordet-arbetsblad',
     de: 'woerter-raten-arbeitsblaetter',
     fr: 'deviner-mots-fiches',
+    es: 'adivinar-palabras-fichas',
   },
   'writing-app': {
     en: 'writing-worksheets',

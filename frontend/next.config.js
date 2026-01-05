@@ -726,6 +726,12 @@ const nextConfig = {
         destination: '/es/apps/mayor-menor-fichas',
         permanent: true,
       },
+      // Spanish: odd-one-out-worksheets → encuentra-el-diferente-fichas
+      {
+        source: '/es/apps/odd-one-out-worksheets',
+        destination: '/es/apps/encuentra-el-diferente-fichas',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

@@ -121,6 +121,7 @@ import cryptogramEsContent from '@/content/product-pages/es/criptogramas-imagene
 import mathPuzzleEsContent from '@/content/product-pages/es/rompecabezas-matematicos-fichas';
 import missingPiecesEsContent from '@/content/product-pages/es/piezas-faltantes-fichas';
 import moreLessEsContent from '@/content/product-pages/es/mayor-menor-fichas';
+import oddOneOutEsContent from '@/content/product-pages/es/encuentra-el-diferente';
 
 interface PageProps {
   params: {
@@ -7955,6 +7956,7 @@ export async function generateStaticParams() {
     'rompecabezas-matematicos-fichas', // Product page slug (Spanish) - language-specific SEO slug for math-puzzle
     'piezas-faltantes-fichas', // Product page slug (Spanish) - language-specific SEO slug for missing-pieces
     'mayor-menor-fichas', // Product page slug (Spanish) - language-specific SEO slug for more-less
+    'encuentra-el-diferente-fichas', // Product page slug (Spanish) - language-specific SEO slug for odd-one-out
     'alphabet-zug-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug
     'malvorlagen-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug
     'mathe-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for math worksheets

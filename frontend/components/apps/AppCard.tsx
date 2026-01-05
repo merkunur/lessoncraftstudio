@@ -201,6 +201,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     sv: 'hitta-udda-bilden-arbetsblad',
     de: 'was-passt-nicht-arbeitsblaetter',
     fr: 'intrus-fiches',
+    es: 'encuentra-el-diferente-fichas',
   },
   'pattern-train': {
     en: 'pattern-train-worksheets',

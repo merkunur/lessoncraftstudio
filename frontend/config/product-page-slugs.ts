@@ -277,6 +277,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       sv: 'hitta-udda-bilden-arbetsblad',
       de: 'was-passt-nicht-arbeitsblaetter',
       fr: 'intrus-fiches',
+      es: 'encuentra-el-diferente-fichas',
     },
   },
   {

@@ -373,20 +373,19 @@ export default function SampleGallery({
           {/* Toggle bar */}
           <div className="flex items-center justify-between mb-6 flex-wrap gap-4">
             {/* Worksheet/Answer Key toggle */}
-            <div className="relative inline-flex items-center p-1 bg-white/10 backdrop-blur-sm rounded-full border border-white/20">
+            <div className="relative flex items-center p-1 bg-white/10 backdrop-blur-sm rounded-full border border-white/20">
               <motion.div
                 className="absolute h-[calc(100%-8px)] rounded-full bg-white"
                 initial={false}
                 animate={{
-                  x: showAnswerKey ? '100%' : '0%',
-                  width: showAnswerKey ? 'calc(50% - 4px)' : 'calc(50% - 4px)',
+                  x: showAnswerKey ? 'calc(100% + 4px)' : '0%',
                 }}
                 transition={{ type: 'spring', stiffness: 500, damping: 30 }}
-                style={{ left: 4, top: 4 }}
+                style={{ left: 4, top: 4, width: 'calc(50% - 4px)' }}
               />
               <button
                 onClick={() => setShowAnswerKey(false)}
-                className={`relative z-10 px-5 py-2.5 text-sm font-medium rounded-full transition-colors duration-200 min-w-[120px] text-center whitespace-nowrap ${
+                className={`relative z-10 px-5 py-2.5 text-sm font-medium rounded-full transition-colors duration-200 flex-1 min-w-[120px] flex items-center justify-center whitespace-nowrap ${
                   !showAnswerKey ? 'text-slate-900' : 'text-white/70 hover:text-white'
                 }`}
               >
@@ -394,7 +393,7 @@ export default function SampleGallery({
               </button>
               <button
                 onClick={() => setShowAnswerKey(true)}
-                className={`relative z-10 px-5 py-2.5 text-sm font-medium rounded-full transition-colors duration-200 min-w-[120px] text-center whitespace-nowrap ${
+                className={`relative z-10 px-5 py-2.5 text-sm font-medium rounded-full transition-colors duration-200 flex-1 min-w-[120px] flex items-center justify-center whitespace-nowrap ${
                   showAnswerKey ? 'text-slate-900' : 'text-white/70 hover:text-white'
                 }`}
               >

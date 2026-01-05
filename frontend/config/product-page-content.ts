@@ -163,6 +163,7 @@ import bigSmallEsContent from '@/content/product-pages/es/grande-pequeno-fichas'
 import graficosConteoEsContent from '@/content/product-pages/es/graficos-conteo-fichas';
 import sumaCodigoEsContent from '@/content/product-pages/es/suma-codigo-fichas';
 import dibujoCuadriculaEsContent from '@/content/product-pages/es/dibujo-cuadricula-fichas';
+import findObjectsEsContent from '@/content/product-pages/es/buscar-objetos-fichas';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -673,6 +674,10 @@ export const contentRegistry: ContentRegistry = {
     'dibujo-cuadricula-fichas': dibujoCuadriculaEsContent,
     // Also keep old slug for backwards compatibility during transition
     'draw-and-color-worksheets': dibujoCuadriculaEsContent,
+    // Spanish Find Objects (Buscar Objetos) - uses Spanish SEO slug
+    'buscar-objetos-fichas': findObjectsEsContent,
+    // Also keep old slug for backwards compatibility during transition
+    'find-objects-worksheets': findObjectsEsContent,
   },
 };
 

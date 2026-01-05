@@ -684,6 +684,12 @@ const nextConfig = {
         destination: '/es/apps/dibujo-cuadricula-fichas',
         permanent: true,
       },
+      // Spanish: find-objects-worksheets → buscar-objetos-fichas
+      {
+        source: '/es/apps/find-objects-worksheets',
+        destination: '/es/apps/buscar-objetos-fichas',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

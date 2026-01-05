@@ -114,6 +114,7 @@ import bigSmallEsContent from '@/content/product-pages/es/grande-pequeno-fichas'
 import graficosConteoEsContent from '@/content/product-pages/es/graficos-conteo-fichas';
 import sumaCodigoEsContent from '@/content/product-pages/es/suma-codigo-fichas';
 import dibujoCuadriculaEsContent from '@/content/product-pages/es/dibujo-cuadricula-fichas';
+import findObjectsEsContent from '@/content/product-pages/es/buscar-objetos-fichas';
 
 interface PageProps {
   params: {
@@ -1532,6 +1533,52 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       },
       alternates: {
         canonical: 'https://www.lessoncraftstudio.com/es/apps/dibujo-cuadricula-fichas', // Point to new URL
+      },
+    };
+  }
+
+  // Find Objects Worksheets - Spanish product page SEO (new Spanish slug)
+  if (params.slug === 'buscar-objetos-fichas' && params.locale === 'es') {
+    return {
+      title: 'Fichas para Imprimir de Buscar Objetos | Generador de Fichas Infantil para Preescolar y Primaria',
+      description: 'Crea fichas para imprimir de buscar objetos con nuestro generador profesional. Genera fichas preescolar de Veo Veo y encuentra el diferente. Descarga fichas de alta calidad en PDF en menos de 3 minutos. Ideal para educación infantil y primaria.',
+      keywords: 'fichas para imprimir, buscar objetos, veo veo, encuentra el diferente, fichas preescolar, fichas infantil, material educativo gratis, discriminación visual, grafomotricidad, observación visual',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/es/apps/buscar-objetos-fichas',
+        languages: {
+          'en': 'https://www.lessoncraftstudio.com/en/apps/find-objects-worksheets',
+          'sv': 'https://www.lessoncraftstudio.com/sv/apps/hitta-foremal-arbetsblad',
+          'de': 'https://www.lessoncraftstudio.com/de/apps/suchbilder-arbeitsblaetter',
+          'fr': 'https://www.lessoncraftstudio.com/fr/apps/cherche-objets-fiches',
+          'es': 'https://www.lessoncraftstudio.com/es/apps/buscar-objetos-fichas',
+          'x-default': 'https://www.lessoncraftstudio.com/en/apps/find-objects-worksheets',
+        },
+      },
+      openGraph: {
+        title: 'Fichas para Imprimir de Buscar Objetos | LessonCraftStudio',
+        description: 'Crea fichas para imprimir de buscar objetos con nuestro generador profesional. Perfecto para maestros de educación infantil y primaria.',
+        url: 'https://www.lessoncraftstudio.com/es/apps/buscar-objetos-fichas',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Legacy: Redirect old Spanish find-objects-worksheets slug to new slug (for backwards compatibility)
+  if (params.slug === 'find-objects-worksheets' && params.locale === 'es') {
+    return {
+      title: 'Fichas para Imprimir de Buscar Objetos - Generador de Fichas Infantil',
+      description: 'Página movida. Por favor visita la nueva URL.',
+      robots: {
+        index: false, // Don't index old URL
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/es/apps/buscar-objetos-fichas', // Point to new URL
       },
     };
   }
@@ -7851,6 +7898,7 @@ export async function generateStaticParams() {
     'graficos-conteo-fichas', // Product page slug (Spanish) - language-specific SEO slug for chart-count
     'suma-codigo-fichas', // Product page slug (Spanish) - language-specific SEO slug for code-addition
     'dibujo-cuadricula-fichas', // Product page slug (Spanish) - language-specific SEO slug for draw-and-color
+    'buscar-objetos-fichas', // Product page slug (Spanish) - language-specific SEO slug for find-objects
     'alphabet-zug-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug
     'malvorlagen-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug
     'mathe-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for math worksheets

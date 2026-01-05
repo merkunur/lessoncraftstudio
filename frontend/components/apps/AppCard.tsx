@@ -153,6 +153,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     sv: 'hitta-foremal-arbetsblad',
     de: 'suchbilder-arbeitsblaetter',
     fr: 'cherche-objets-fiches',
+    es: 'buscar-objetos-fichas',
   },
   'grid-match': {
     en: 'grid-match-worksheets',

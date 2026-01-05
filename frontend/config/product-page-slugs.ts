@@ -208,6 +208,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       sv: 'hitta-foremal-arbetsblad',
       de: 'suchbilder-arbeitsblaetter',
       fr: 'cherche-objets-fiches',
+      es: 'buscar-objetos-fichas',
     },
   },
   {

@@ -362,47 +362,6 @@ La calidad de 300 DPI es esencial para productos comerciales. Los compradores es
     ],
   },
 
-  // Subscription Reasons Section
-  subscriptionReasons: {
-    sectionTitle: 'Las 3 Principales Razones por las que Maestros se Suscriben - Características Premium de Fichas para Imprimir que Valen la Pena',
-    sectionDescription: 'Los maestros se suscriben a Acceso Completo por tres razones convincentes. La funcionalidad multilingüe apoya instrucción en varios idiomas. La licencia comercial permite vender material educativo. El ahorro de tiempo dramático mejora el equilibrio vida-trabajo. Cada beneficio justifica la inversión de $240 anuales o $25 mensuales.',
-    badgeText: 'Por Qué Suscribirse',
-    readMoreLabel: 'Leer más',
-    showLessLabel: 'Ver menos',
-    items: [
-      {
-        id: '1',
-        icon: '🌍',
-        title: 'Enseñanza en Múltiples Idiomas - Fichas Preescolar e Infantil en 11 Idiomas para ESL y Programas Bilingües',
-        description: `Los programas de educación bilingüe necesitan material en dos o más idiomas. Los maestros de ESL enseñan matemáticas a estudiantes aprendiendo español. Las escuelas internacionales sirven a familias de diversos orígenes. Los programas de inmersión dual requieren recursos en inglés y español. Nuestro generador apoya todos estos contextos con funcionalidad de 11 idiomas.
-
-Cambia el idioma de la interfaz con un solo clic. Todos los elementos de texto se actualizan inmediatamente al español. Los números se formatean según convenciones del idioma seleccionado. Las imágenes en la biblioteca muestran nombres en el idioma apropiado. Esta adaptación lingüística completa elimina barreras de idioma para instrucción matemática.
-
-Los maestros de herencia lingüística usan nuestras fichas infantil para mantener el español académico. Los niños hispanohablantes en países de habla inglesa necesitan vocabulario matemático en español. Aprender números y operaciones en su idioma de herencia fortalece la identidad cultural. Las matemáticas proporcionan contenido académico significativo para desarrollo del lenguaje. Las fichas para imprimir en español apoyan tanto objetivos matemáticos como lingüísticos.`,
-      },
-      {
-        id: '2',
-        icon: '💰',
-        title: 'Licencia Comercial Incluida - Vende Ejercicios Matemáticas en Teachers Pay Teachers, Etsy y Amazon KDP',
-        description: `La suscripción Acceso Completo incluye licencia comercial completa de impresión bajo demanda. Vende tus fichas para imprimir creadas como productos digitales o físicos. No se requiere atribución. Sin regalías más allá de tu tarifa de suscripción anual. Esta licencia vale cientos de dólares en otras plataformas. Muchos competidores cobran $100-$200 anuales adicionales solo por derechos comerciales.
-
-Teachers Pay Teachers es el mercado más grande para recursos educativos de maestros. La plataforma genera más de $200 millones en ventas anuales. Los vendedores exitosos ganan $2,000-$10,000 mensuales. Las fichas de matemáticas temáticas son consistentemente populares. Los maestros compran material de resta durante todo el año escolar. Tus creaciones únicas pueden generar ingresos pasivos significativos.
-
-Amazon KDP permite publicar libros de actividades de bajo contenido. Compila 50-100 fichas de restas en un cuaderno de trabajo. Publica como libro de bolsillo de impresión bajo demanda. Amazon maneja impresión, envío y servicio al cliente. Tú recibes regalías por cada venta. Los libros de matemáticas para niños tienen demanda consistente.`,
-      },
-      {
-        id: '3',
-        icon: '⏰',
-        title: 'Ahorro de Tiempo y Productividad - Crea Fichas de Matemáticas Profesionales en Minutos en Lugar de Horas',
-        description: `El agotamiento docente es crisis nacional en educación. Los maestros trabajan 50-60 horas semanales. La preparación de lecciones consume 10-15 horas semanales. Crear hojas de trabajo manualmente toma 30-60 minutos por hoja. Este tiempo se acumula rápidamente. Los maestros necesitan múltiples hojas semanalmente. Las herramientas que ahorran tiempo son esenciales para sostenibilidad profesional.
-
-Nuestro generador reduce la creación de hojas de 60 minutos a 3 minutos. Eso es ahorro de 95% en tiempo. Un maestro que necesita 5 hojas semanalmente ahorra 4.75 horas. Eso son 190 horas anuales ahorradas. Casi cinco semanas laborales completas recuperadas. Este tiempo puede dedicarse a instrucción real, relaciones con estudiantes o vida personal.
-
-El equilibrio vida-trabajo mejora dramáticamente con herramientas eficientes. Los maestros pueden salir del trabajo a tiempo. Las tardes se dedican a familia en lugar de preparación. Los fines de semana son para descanso real. La reducción de estrés mejora satisfacción laboral. Los maestros permanecen en la profesión más tiempo. El ahorro de tiempo afecta tanto bienestar personal como efectividad profesional.`,
-      },
-    ],
-  },
-
   // FAQ Section - FULL text from subtraction.md FAQ sections
   faq: {
     sectionTitle: 'Preguntas Frecuentes sobre Fichas para Imprimir de Restas - Material Educativo Gratis de Números',

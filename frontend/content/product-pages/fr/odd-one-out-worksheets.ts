@@ -8,7 +8,7 @@ import { ProductPageContent } from '@/components/product-page/ProductPageClient'
  *
  * FULL SEO content from: INDIVIDUAL APP PAGES/French/odd-one-out.md
  * App ID: odd-one-out (Visual discrimination / find the odd one worksheets)
- * Bundle: Full Access ($240/year) - NOT Core Bundle
+ * Bundle: Accès Complet ($240/year) - NOT Pack Essentiel
  * DO NOT SHORTEN - Every paragraph is SEO-optimized
  */
 
@@ -18,7 +18,7 @@ export const oddOneOutFrContent: ProductPageContent = {
     slug: 'intrus-fiches',
     appId: 'odd-one-out',
     title: 'Fiches à Imprimer Gratuit Intrus - Fiches Maternelle Exercices CP - Générateur Exercices Maths',
-    description: 'Créez des fiches à imprimer gratuit pour trouver l\'intrus en quelques clics. Votre abonnement Full Access à 240€/an vous donne accès illimité à ce générateur professionnel. Générez des fiches maternelle personnalisées parfaites pour développer l\'observation et la logique.',
+    description: 'Créez des fiches à imprimer gratuit pour trouver l\'intrus en quelques clics. Votre abonnement Accès Complet à 240€/an vous donne accès illimité à ce générateur professionnel. Générez des fiches maternelle personnalisées parfaites pour développer l\'observation et la logique.',
     keywords: 'fiches à imprimer gratuit, fiches maternelle, exercices CP, intrus, graphisme maternelle, exercices maths, coloriage à imprimer, apprendre à lire, alphabet, écriture cursive, tables de multiplication',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fr/apps/intrus-fiches',
   },
@@ -27,7 +27,7 @@ export const oddOneOutFrContent: ProductPageContent = {
   hero: {
     title: 'Fiches Intrus',
     subtitle: 'Générateur de Fiches Maternelle pour Observation et Logique',
-    description: `Créez des fiches à imprimer gratuit pour trouver l'intrus en quelques clics. Votre abonnement Full Access à 240€/an vous donne accès illimité à ce générateur professionnel. Générez des fiches maternelle personnalisées parfaites pour développer l'observation et la logique. Téléchargez des exercices CP de qualité supérieure en moins de 3 minutes.
+    description: `Créez des fiches à imprimer gratuit pour trouver l'intrus en quelques clics. Votre abonnement Accès Complet à 240€/an vous donne accès illimité à ce générateur professionnel. Générez des fiches maternelle personnalisées parfaites pour développer l'observation et la logique. Téléchargez des exercices CP de qualité supérieure en moins de 3 minutes.
 
 Notre générateur de fiches intrus transforme la création d'exercices pédagogiques. Parfait pour les enseignants de maternelle et CP qui cherchent des fiches à imprimer gratuit. Chaque fiche développe les capacités d'observation et de raisonnement logique. Les enfants adorent ces exercices ludiques et colorés.
 
@@ -87,7 +87,7 @@ Créez des fiches personnalisées avec plus de 3000 images thématiques. Choisis
   // Features Grid - FULL text from odd-one-out.md feature sections
   features: {
     sectionTitle: 'Fonctionnalités Complètes des Fiches Maternelle Intrus - Fiches à Imprimer Gratuit pour Exercices CP et CE1',
-    sectionDescription: 'Notre générateur de fiches maternelle intrus offre toutes les fonctionnalités nécessaires aux enseignants professionnels. Créez des exercices CP personnalisés en quelques minutes. Les fiches à imprimer gratuit sont illimitées avec votre abonnement Full Access. Chaque fonctionnalité a été conçue pour faciliter votre travail pédagogique. Les exercices CE1 se créent aussi rapidement que les fiches maternelle.',
+    sectionDescription: 'Notre générateur de fiches maternelle intrus offre toutes les fonctionnalités nécessaires aux enseignants professionnels. Créez des exercices CP personnalisés en quelques minutes. Les fiches à imprimer gratuit sont illimitées avec votre abonnement Accès Complet. Chaque fonctionnalité a été conçue pour faciliter votre travail pédagogique. Les exercices CE1 se créent aussi rapidement que les fiches maternelle.',
     highlightBadgeText: 'Fonctionnalité Clé',
     readMoreLabel: 'Lire la suite',
     showLessLabel: 'Voir moins',
@@ -148,7 +148,7 @@ Les noms de fichiers images sont traduits. Recherchez "pomme" ou "apple" selon l
         id: '5',
         icon: '💰',
         title: 'Licence Commerciale Incluse avec vos Fiches Maternelle',
-        description: `Votre abonnement Full Access à 240€/an inclut la licence commerciale. Vendez vos fiches à imprimer gratuit sur Teachers Pay Teachers. Créez des cahiers d'activités pour Amazon KDP. Ouvrez une boutique Etsy de ressources pédagogiques. Aucuns frais de licence supplémentaires requis.
+        description: `Votre abonnement Accès Complet à 240€/an inclut la licence commerciale. Vendez vos fiches à imprimer gratuit sur Teachers Pay Teachers. Créez des cahiers d'activités pour Amazon KDP. Ouvrez une boutique Etsy de ressources pédagogiques. Aucuns frais de licence supplémentaires requis.
 
 Qualité 300 DPI professionnelle pour l'impression commerciale. Vos exercices CP se vendent au même prix que les créations premium. Les fiches maternelle de qualité supérieure attirent les acheteurs. Créez des packs thématiques d'exercices maths rentables. Monétisez votre expertise pédagogique facilement.
 
@@ -271,7 +271,7 @@ Téléchargez séparément la fiche exercice et le corrigé. Deux fichiers disti
 
 Nommez vos fichiers de manière descriptive automatiquement. Format : "Intrus-Animaux-CP-2024.pdf" généré automatiquement. Organisez votre bibliothèque de fiches maternelle facilement. Retrouvez rapidement vos exercices sauvegardés. Le graphisme maternelle s'archive professionnellement.
 
-Imprimez immédiatement ou sauvegardez pour utilisation future. Créez des banques thématiques d'exercices. Partagez avec collègues ou vendez en ligne. Licence commerciale Full Access incluse à 240€/an. Vos fiches à imprimer gratuit génèrent revenus potentiels illimités.`,
+Imprimez immédiatement ou sauvegardez pour utilisation future. Créez des banques thématiques d'exercices. Partagez avec collègues ou vendez en ligne. Licence commerciale Accès Complet incluse à 240€/an. Vos fiches à imprimer gratuit génèrent revenus potentiels illimités.`,
         icon: '📥',
       },
     ],
@@ -350,7 +350,7 @@ Combinez avec exercices écriture cursive pour rééducation fine. Après observ
         icon: '💰',
         title: 'Enseignants Entrepreneurs',
         subtitle: 'Vendez Fiches Maternelle et Exercices CE1 sur Teachers Pay Teachers',
-        description: `Enseignants entrepreneurs monétisent leur expertise pédagogique facilement. Créez packs thématiques fiches à imprimer gratuit rentables. Licence commerciale Full Access à 240€/an incluse automatiquement. Vendez sur Teachers Pay Teachers, Etsy, Amazon KDP. Les exercices maths et tables de multiplication se vendent excellemment.
+        description: `Enseignants entrepreneurs monétisent leur expertise pédagogique facilement. Créez packs thématiques fiches à imprimer gratuit rentables. Licence commerciale Accès Complet à 240€/an incluse automatiquement. Vendez sur Teachers Pay Teachers, Etsy, Amazon KDP. Les exercices maths et tables de multiplication se vendent excellemment.
 
 Qualité 300 DPI professionnelle attire acheteurs exigeants. Vos fiches maternelle rivalisent avec créations commerciales établies. Pack "Graphisme Maternelle Animaux" à 5€ vendu 100 fois. Pack "Exercices CE1 Alphabet Complet" génère revenus réguliers. Le coloriage à imprimer thématique se vend très bien.
 
@@ -389,8 +389,8 @@ Revenus mensuels 500€ à 5000€ selon investissement temps. Créez pendant va
       },
       {
         id: '4',
-        question: 'Combien de Fiches Maternelle Exercices Maths puis-je Créer avec Abonnement Full Access?',
-        answer: 'Créations absolument illimitées avec abonnement Full Access. Générez autant de fiches maternelle que nécessaire quotidiennement. Les exercices maths se renouvellent infiniment toute année. Aucune restriction sur téléchargements ou exports. Vos exercices CE1 se créent sans limite jamais. Créez 10, 50, 100 fiches différentes par semaine. Parents de fratries génèrent pour tous enfants. Les fiches à imprimer gratuit couvrent tous besoins. Exercices tables de multiplication, graphisme maternelle, alphabet illimités. Le coloriage à imprimer se diversifie chaque jour.',
+        question: 'Combien de Fiches Maternelle Exercices Maths puis-je Créer avec Abonnement Accès Complet?',
+        answer: 'Créations absolument illimitées avec abonnement Accès Complet. Générez autant de fiches maternelle que nécessaire quotidiennement. Les exercices maths se renouvellent infiniment toute année. Aucune restriction sur téléchargements ou exports. Vos exercices CE1 se créent sans limite jamais. Créez 10, 50, 100 fiches différentes par semaine. Parents de fratries génèrent pour tous enfants. Les fiches à imprimer gratuit couvrent tous besoins. Exercices tables de multiplication, graphisme maternelle, alphabet illimités. Le coloriage à imprimer se diversifie chaque jour.',
       },
       {
         id: '5',
@@ -405,12 +405,12 @@ Revenus mensuels 500€ à 5000€ selon investissement temps. Créez pendant va
       {
         id: '7',
         question: 'Puis-je Vendre Fiches Graphisme Maternelle Coloriage et Exercices Alphabet sur Teachers Pay Teachers?',
-        answer: 'Absolument, licence commerciale Full Access incluse automatiquement. Vendez toutes fiches graphisme maternelle créées légalement. Les exercices alphabet, coloriage à imprimer monétisables immédiatement. Aucuns frais licence supplémentaires requis jamais. Vos fiches maternelle deviennent produits commerciaux rentables. Qualité 300 DPI professionnelle justifie prix premium. Les exercices CE1 se vendent excellemment autres enseignants. Fiches apprendre à lire très demandées sur plateformes. Exercices tables de multiplication et écriture cursive populaires. Vos fiches à imprimer gratuit génèrent revenus passifs. Teachers Pay Teachers, Etsy, Amazon KDP autorisés.',
+        answer: 'Absolument, licence commerciale Accès Complet incluse automatiquement. Vendez toutes fiches graphisme maternelle créées légalement. Les exercices alphabet, coloriage à imprimer monétisables immédiatement. Aucuns frais licence supplémentaires requis jamais. Vos fiches maternelle deviennent produits commerciaux rentables. Qualité 300 DPI professionnelle justifie prix premium. Les exercices CE1 se vendent excellemment autres enseignants. Fiches apprendre à lire très demandées sur plateformes. Exercices tables de multiplication et écriture cursive populaires. Vos fiches à imprimer gratuit génèrent revenus passifs. Teachers Pay Teachers, Etsy, Amazon KDP autorisés.',
       },
       {
         id: '8',
         question: 'Comment Combiner ces Fiches avec Autres Exercices Maths Écriture pour Cahiers Complets?',
-        answer: 'Votre abonnement Full Access inclut 30+ générateurs. Combinez fiches maternelle intrus avec autres activités. Les exercices maths incluent additions, soustractions, tables multiplication. Graphisme maternelle avec tracés, formes, motifs disponibles. Exercices écriture cursive, alphabet, apprendre à lire variés. Créez cahiers progressifs pour toute année scolaire. Page 1 fiches intrus, page 2 coloriage à imprimer. Page 3 exercices maths, page 4 graphisme maternelle. Les exercices CE1 alphabet s\'assemblent logiquement. Vos fiches à imprimer gratuit deviennent ressources ultra-complètes.',
+        answer: 'Votre abonnement Accès Complet inclut 30+ générateurs. Combinez fiches maternelle intrus avec autres activités. Les exercices maths incluent additions, soustractions, tables multiplication. Graphisme maternelle avec tracés, formes, motifs disponibles. Exercices écriture cursive, alphabet, apprendre à lire variés. Créez cahiers progressifs pour toute année scolaire. Page 1 fiches intrus, page 2 coloriage à imprimer. Page 3 exercices maths, page 4 graphisme maternelle. Les exercices CE1 alphabet s\'assemblent logiquement. Vos fiches à imprimer gratuit deviennent ressources ultra-complètes.',
       },
       {
         id: '9',
@@ -419,13 +419,13 @@ Revenus mensuels 500€ à 5000€ selon investissement temps. Créez pendant va
       },
       {
         id: '10',
-        question: 'Quel Est le Coût de l\'Abonnement Full Access?',
-        answer: 'L\'abonnement Full Access coûte 240€ par an ou 25€ par mois. Votre abonnement vous donne accès aux 33 types de générateurs de fiches. Créez des fiches illimitées sans frais supplémentaires par fiche. La licence commerciale est incluse pour vendre vos créations. Le support de 11 langues et l\'export 300 DPI sont inclus. Garantie satisfait ou remboursé 30 jours. Comparez avec les 150 à 300€ par an que coûtent les services de traduction seuls pour les enseignants multilingues.',
+        question: 'Quel Est le Coût de l\'Abonnement Accès Complet?',
+        answer: 'L\'abonnement Accès Complet coûte 240€ par an ou 25€ par mois. Votre abonnement vous donne accès aux 33 types de générateurs de fiches. Créez des fiches illimitées sans frais supplémentaires par fiche. La licence commerciale est incluse pour vendre vos créations. Le support de 11 langues et l\'export 300 DPI sont inclus. Garantie satisfait ou remboursé 30 jours. Comparez avec les 150 à 300€ par an que coûtent les services de traduction seuls pour les enseignants multilingues.',
       },
     ],
   },
 
-  // Pricing - Full Access Bundle for Odd One Out
+  // Pricing - Accès Complet Bundle for Odd One Out
   pricing: {
     title: 'Accès Complet',
     price: '240€',
@@ -447,7 +447,7 @@ Revenus mensuels 500€ à 5000€ selon investissement temps. Créez pendant va
   // Related Apps
   relatedApps: {
     sectionTitle: 'Combinez avec D\'Autres Générateurs de Fiches',
-    sectionDescription: 'Votre abonnement Full Access inclut 33 générateurs complémentaires. Combinez les fiches intrus avec d\'autres outils pour créer des séquences pédagogiques complètes.',
+    sectionDescription: 'Votre abonnement Accès Complet inclut 33 générateurs complémentaires. Combinez les fiches intrus avec d\'autres outils pour créer des séquences pédagogiques complètes.',
     ctaTitle: 'Prêt à Créer des Fiches Fantastiques ?',
     ctaDescription: 'Rejoignez des milliers d\'enseignants qui créent des fiches professionnelles. Génération illimitée, licence commerciale incluse.',
     primaryCtaText: 'Commencer l\'Essai Gratuit',

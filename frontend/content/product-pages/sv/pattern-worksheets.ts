@@ -9,7 +9,7 @@ import { ProductPageContent } from '@/components/product-page/ProductPageClient'
  * FULL SEO content from: INDIVIDUAL APP PAGES/Swedish/pattern-worksheet.md
  * DO NOT SHORTEN - Every paragraph is SEO-optimized
  *
- * NOTE: Pattern Worksheet is a FULL ACCESS app ($240/year), not Core Bundle
+ * NOTE: Pattern Worksheet is a Full Tillgång app ($240/year), not Baspaket
  */
 
 export const patternWorksheetsSvContent: ProductPageContent = {

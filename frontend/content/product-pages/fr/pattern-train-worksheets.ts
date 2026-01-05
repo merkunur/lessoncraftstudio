@@ -25,7 +25,7 @@ export const patternTrainFrContent: ProductPageContent = {
   hero: {
     title: 'Générateur de Suites Logiques Train',
     subtitle: 'Fiches à Imprimer Gratuit pour Fiches Maternelle',
-    description: `Créez des fiches maternelle professionnelles de reconnaissance de suites logiques avec notre générateur de train à motifs. Votre abonnement Full Access vous donne accès illimité à la création de fiches à imprimer gratuit sans frais par fiche. Générez des exercices CP personnalisés parfaits pour la maternelle et le CP. Téléchargez des fiches de haute qualité en PDF en moins de 3 minutes.
+    description: `Créez des fiches maternelle professionnelles de reconnaissance de suites logiques avec notre générateur de train à motifs. Votre abonnement Accès Complet vous donne accès illimité à la création de fiches à imprimer gratuit sans frais par fiche. Générez des exercices CP personnalisés parfaits pour la maternelle et le CP. Téléchargez des fiches de haute qualité en PDF en moins de 3 minutes.
 
 Notre générateur permet aux enseignants de créer des fiches maternelle de suites logiques avec des thèmes visuels engageants. Les enfants apprennent à reconnaître et compléter les suites visuelles en utilisant un modèle de train attractif. Chaque fiche à imprimer gratuit enseigne les concepts de suites logiques (AB, AAB, ABB, ABC, AABB) à travers des activités de découpage-collage interactives.
 
@@ -85,7 +85,7 @@ Les enseignants gagnent du temps précieux. Créer des fiches maternelle de suit
   // Features Grid - FULL text from pattern-train.md feature sections
   features: {
     sectionTitle: 'Fonctionnalités du Générateur - Tout pour Créer des Fiches à Imprimer Gratuit',
-    sectionDescription: 'Notre générateur de fiches maternelle offre toutes les fonctionnalités nécessaires pour créer des exercices CP professionnels. Votre abonnement Full Access inclut sept outils puissants pour produire des fiches à imprimer gratuit de qualité. Chaque fonctionnalité simplifie la création de fiches maternelle personnalisées. Les enseignants créent des exercices CP adaptés à leurs élèves en quelques clics.',
+    sectionDescription: 'Notre générateur de fiches maternelle offre toutes les fonctionnalités nécessaires pour créer des exercices CP professionnels. Votre abonnement Accès Complet inclut sept outils puissants pour produire des fiches à imprimer gratuit de qualité. Chaque fonctionnalité simplifie la création de fiches maternelle personnalisées. Les enseignants créent des exercices CP adaptés à leurs élèves en quelques clics.',
     highlightBadgeText: 'Fonctionnalité Clé',
     readMoreLabel: 'Lire la suite',
     showLessLabel: 'Voir moins',
@@ -144,7 +144,7 @@ La fonctionnalité multilingue ouvre des possibilités pédagogiques infinies. C
         id: '5',
         icon: '💰',
         title: 'Licence Commerciale Incluse',
-        description: `Votre abonnement Full Access inclut une licence commerciale print-on-demand complète. Vendez vos fiches maternelle sur Teachers Pay Teachers. Ouvrez une boutique Etsy de fiches à imprimer gratuit. Publiez des cahiers d'exercices CP sur Amazon KDP. Aucun frais de licence supplémentaire. Aucune attribution requise.
+        description: `Votre abonnement Accès Complet inclut une licence commerciale print-on-demand complète. Vendez vos fiches maternelle sur Teachers Pay Teachers. Ouvrez une boutique Etsy de fiches à imprimer gratuit. Publiez des cahiers d'exercices CP sur Amazon KDP. Aucun frais de licence supplémentaire. Aucune attribution requise.
 
 La qualité 300 DPI convient parfaitement à la vente professionnelle. Vos clients reçoivent des fiches maternelle nettes et claires. Les images restent précises même après impression. Les exercices CP ressemblent à des produits commerciaux professionnels. Certains enseignants gagnent 500 à 5000 euros mensuels en vendant leurs créations.
 
@@ -331,7 +331,7 @@ Les enfants autistes apprécient la prévisibilité des suites logiques. Le moti
         icon: '💰',
         title: 'Enseignants Entrepreneurs',
         subtitle: 'Vendez Fiches Maternelle sur Teachers Pay Teachers',
-        description: `Votre licence commerciale Full Access transforme votre créativité en revenus. Créez des packs de 10 fiches maternelle thématiques. "Suites Logiques Animaux de la Ferme" pour 3 euros. "Exercices CP Suites Logiques Progressives" pour 5 euros. Vendez sur Teachers Pay Teachers France et Etsy. Les acheteurs adorent les ressources prêtes à imprimer.
+        description: `Votre licence commerciale Accès Complet transforme votre créativité en revenus. Créez des packs de 10 fiches maternelle thématiques. "Suites Logiques Animaux de la Ferme" pour 3 euros. "Exercices CP Suites Logiques Progressives" pour 5 euros. Vendez sur Teachers Pay Teachers France et Etsy. Les acheteurs adorent les ressources prêtes à imprimer.
 
 La qualité 300 DPI justifie des prix premium. Vos fiches à imprimer gratuit ressemblent à des produits commerciaux professionnels. Pas de pixels flous. Pas d'images mal alignées. La mise en page soignée impressionne les acheteurs exigeants. Facturez 20-30% plus cher que les concurrents pour qualité supérieure.
 
@@ -356,7 +356,7 @@ Créez des collections saisonnières pour ventes régulières. Suites logiques d
       {
         id: '1',
         question: 'Ce Générateur de Fiches Maternelle et Exercices CP est-il Vraiment Gratuit à Utiliser?',
-        answer: 'Le générateur de suites logiques nécessite un abonnement Full Access coûtant 240 euros annuellement ou 25 euros mensuellement. Votre abonnement donne accès illimité à la création de fiches maternelle sans frais par fiche. Générez autant de fiches à imprimer gratuit que nécessaire sans charges supplémentaires. Créez 10, 50 ou 200 fiches mensuellement au même prix fixe. Full Access inclut 33 générateurs différents pour fiches maternelle et exercices CP.',
+        answer: 'Le générateur de suites logiques nécessite un abonnement Accès Complet coûtant 240 euros annuellement ou 25 euros mensuellement. Votre abonnement donne accès illimité à la création de fiches maternelle sans frais par fiche. Générez autant de fiches à imprimer gratuit que nécessaire sans charges supplémentaires. Créez 10, 50 ou 200 fiches mensuellement au même prix fixe. Accès Complet inclut 33 générateurs différents pour fiches maternelle et exercices CP.',
       },
       {
         id: '2',
@@ -376,7 +376,7 @@ Créez des collections saisonnières pour ventes régulières. Suites logiques d
       {
         id: '5',
         question: 'Puis-Je Vendre les Fiches sur Teachers Pay Teachers?',
-        answer: 'Oui absolument. Full Access inclut licence commerciale print-on-demand complète sans frais supplémentaire. Vendez vos fiches maternelle sur Teachers Pay Teachers France. Ouvrez boutique Etsy de ressources éducatives. Publiez cahiers d\'exercices CP sur Amazon KDP. Aucune attribution requise. Aucune limite de ventes ou revenus.',
+        answer: 'Oui absolument. Accès Complet inclut licence commerciale print-on-demand complète sans frais supplémentaire. Vendez vos fiches maternelle sur Teachers Pay Teachers France. Ouvrez boutique Etsy de ressources éducatives. Publiez cahiers d\'exercices CP sur Amazon KDP. Aucune attribution requise. Aucune limite de ventes ou revenus.',
       },
       {
         id: '6',

@@ -30,7 +30,7 @@ export const pictureSortDeContent: ProductPageContent = {
     slug: 'bilder-sortieren-arbeitsblaetter',
     appId: 'picture-sort',
     title: 'Sortierübungen Generator - Kostenlose Arbeitsblätter für Vorschule und Arbeitsblätter Grundschule',
-    description: 'Erstellen Sie professionelle Sortierarbeitsblätter mit dem Sortierübungen Generator. Mit Ihrem Full Access Abonnement gestalten Sie unbegrenzt druckbare Arbeitsblätter für die Vorschule und Grundschule. Kinder lernen spielerisch das Kategorisieren von Bildern in zwei Gruppen.',
+    description: 'Erstellen Sie professionelle Sortierarbeitsblätter mit dem Sortierübungen Generator. Mit Ihrem Vollzugriff Abonnement gestalten Sie unbegrenzt druckbare Arbeitsblätter für die Vorschule und Grundschule. Kinder lernen spielerisch das Kategorisieren von Bildern in zwei Gruppen.',
     keywords: 'bilder sortieren arbeitsblätter, sortierarbeitsblätter, arbeitsblätter grundschule, kostenlose arbeitsblätter, mathe arbeitsblätter, vorschule arbeitsblätter, einmaleins, schwungübungen, buchstaben lernen, rechnen lernen, ausmalbilder',
     canonicalUrl: 'https://www.lessoncraftstudio.com/de/apps/bilder-sortieren-arbeitsblaetter',
   },
@@ -39,7 +39,7 @@ export const pictureSortDeContent: ProductPageContent = {
   hero: {
     title: 'Sortierübungen Generator',
     subtitle: 'Kostenlose Arbeitsblätter für Vorschule und Arbeitsblätter Grundschule',
-    description: `Mit dem Sortierübungen Generator erstellen Sie professionelle Sortierarbeitsblätter in wenigen Minuten. Ihr Full Access Abonnement ermöglicht unbegrenzte Arbeitsblatt-Erstellung ohne zusätzliche Kosten. Kinder lernen spielerisch das Kategorisieren von Bildern in zwei Gruppen. Diese Sortierübungen fördern logisches Denken und visuelle Wahrnehmung.
+    description: `Mit dem Sortierübungen Generator erstellen Sie professionelle Sortierarbeitsblätter in wenigen Minuten. Ihr Vollzugriff Abonnement ermöglicht unbegrenzte Arbeitsblatt-Erstellung ohne zusätzliche Kosten. Kinder lernen spielerisch das Kategorisieren von Bildern in zwei Gruppen. Diese Sortierübungen fördern logisches Denken und visuelle Wahrnehmung.
 
 Der Sortierübungen Generator ist ideal für Vorschule Arbeitsblätter und Arbeitsblätter Grundschule. Kinder ordnen Bilder nach Kategorien wie Tiere, Obst oder Farben. Dabei trainieren sie wichtige kognitive Fähigkeiten. Die Sortierübungen eignen sich perfekt für den Sachunterricht. Auch für den Deutschunterricht sind diese Arbeitsblätter wertvoll.
 
@@ -150,7 +150,7 @@ Die Spracheinstellung beeinflusst auch die Bildnamen in der Bibliothek. Bilder e
         id: '5',
         icon: '💰',
         title: 'POD-Lizenz für kommerzielle Nutzung - Arbeitsblätter Grundschule und Mathe Arbeitsblätter verkaufen',
-        description: `Mit Ihrem Full Access Abonnement erhalten Sie eine kommerzielle Print-on-Demand Lizenz. Verkaufen Sie Ihre Arbeitsblätter auf Teachers Pay Teachers. Bieten Sie Materialien auf Etsy an. Veröffentlichen Sie Arbeitshefte auf Amazon KDP. Die 300 DPI Qualität erfüllt professionelle Druckstandards. Keine zusätzlichen Lizenzgebühren erforderlich.
+        description: `Mit Ihrem Vollzugriff Abonnement erhalten Sie eine kommerzielle Print-on-Demand Lizenz. Verkaufen Sie Ihre Arbeitsblätter auf Teachers Pay Teachers. Bieten Sie Materialien auf Etsy an. Veröffentlichen Sie Arbeitshefte auf Amazon KDP. Die 300 DPI Qualität erfüllt professionelle Druckstandards. Keine zusätzlichen Lizenzgebühren erforderlich.
 
 Viele Lehrkräfte verdienen mit selbsterstellten Materialien ein Nebeneinkommen. Mathe Arbeitsblätter und Materialien für das Rechnen 1. Klasse sind besonders gefragt. Sortierarbeitsblätter ergänzen bestehende Produktlinien perfekt. Die professionelle Druckqualität erfüllt alle Verkaufsstandards.`,
         highlighted: true,
@@ -301,9 +301,9 @@ Die visuelle Struktur hilft Kindern mit Aufmerksamkeitsproblemen. Die klaren Kat
         icon: '💼',
         title: 'Lehrerunternehmer verkaufen Mathe Arbeitsblätter - Einmaleins und Kostenlose Arbeitsblätter auf Teachers Pay Teachers',
         subtitle: 'Verkauf auf Online-Plattformen',
-        description: `Kreative Lehrkräfte verdienen mit selbst erstellten Materialien. Das Full Access Abonnement enthält eine kommerzielle Lizenz. Verkaufen Sie Ihre Sortierarbeitsblätter auf Teachers Pay Teachers. Bieten Sie thematische Pakete auf Etsy an. Mathe Arbeitsblätter und Einmaleins Übungen sind besonders gefragt. Mit der Bezeichnung Kostenlose Arbeitsblätter erreichen Sie mehr Kunden. Die 300 DPI Qualität erfüllt professionelle Standards.
+        description: `Kreative Lehrkräfte verdienen mit selbst erstellten Materialien. Das Vollzugriff Abonnement enthält eine kommerzielle Lizenz. Verkaufen Sie Ihre Sortierarbeitsblätter auf Teachers Pay Teachers. Bieten Sie thematische Pakete auf Etsy an. Mathe Arbeitsblätter und Einmaleins Übungen sind besonders gefragt. Mit der Bezeichnung Kostenlose Arbeitsblätter erreichen Sie mehr Kunden. Die 300 DPI Qualität erfüllt professionelle Standards.
 
-Das Full Access Abonnement für 240 Euro jährlich amortisiert sich schnell. Bereits wenige verkaufte Pakete decken die Kosten. Die 33 enthaltenen Generatoren ermöglichen vielfältige Produktlinien. Lehrkräfte bauen so ein passives Einkommen auf. Die Zeitersparnis gegenüber manueller Erstellung ist enorm.`,
+Das Vollzugriff Abonnement für 240 Euro jährlich amortisiert sich schnell. Bereits wenige verkaufte Pakete decken die Kosten. Die 33 enthaltenen Generatoren ermöglichen vielfältige Produktlinien. Lehrkräfte bauen so ein passives Einkommen auf. Die Zeitersparnis gegenüber manueller Erstellung ist enorm.`,
         quote: 'Mein Abonnement hat sich im ersten Monat bezahlt gemacht!',
       },
     ],
@@ -324,7 +324,7 @@ Das Full Access Abonnement für 240 Euro jährlich amortisiert sich schnell. Ber
       {
         id: '1',
         question: 'Ist der Sortierübungen Generator wirklich kostenlos für Mathe Arbeitsblätter und Einmaleins Übungen?',
-        answer: `Der Sortierübungen Generator erfordert ein Full Access Abonnement für 240 Euro jährlich oder 25 Euro monatlich. Mit Ihrem Abonnement erstellen Sie unbegrenzt Sortierarbeitsblätter ohne zusätzliche Kosten. Keine Gebühren pro Arbeitsblatt fallen an. Das Full Access Abonnement enthält alle 33 Arbeitsblatt-Generatoren. Die kommerzielle Lizenz und 11 Sprachversionen sind inklusive.`,
+        answer: `Der Sortierübungen Generator erfordert ein Vollzugriff Abonnement für 240 Euro jährlich oder 25 Euro monatlich. Mit Ihrem Abonnement erstellen Sie unbegrenzt Sortierarbeitsblätter ohne zusätzliche Kosten. Keine Gebühren pro Arbeitsblatt fallen an. Das Vollzugriff Abonnement enthält alle 33 Arbeitsblatt-Generatoren. Die kommerzielle Lizenz und 11 Sprachversionen sind inklusive.`,
       },
       {
         id: '2',
@@ -339,7 +339,7 @@ Das Full Access Abonnement für 240 Euro jährlich amortisiert sich schnell. Ber
       {
         id: '4',
         question: 'Kann ich Sortierarbeitsblätter im Unterricht für Deutsch Arbeitsblätter und Rechnen lernen verwenden?',
-        answer: `Das Full Access Abonnement erlaubt unbegrenzte Nutzung im Unterricht. Drucken Sie beliebig viele Kopien für Ihre Schüler. Erstellen Sie differenzierte Deutsch Arbeitsblätter für verschiedene Niveaus. Nutzen Sie Sortierübungen für Rechnen lernen mit Mengenvergleichen. Die Materialien sind sofort im Klassenzimmer einsetzbar.`,
+        answer: `Das Vollzugriff Abonnement erlaubt unbegrenzte Nutzung im Unterricht. Drucken Sie beliebig viele Kopien für Ihre Schüler. Erstellen Sie differenzierte Deutsch Arbeitsblätter für verschiedene Niveaus. Nutzen Sie Sortierübungen für Rechnen lernen mit Mengenvergleichen. Die Materialien sind sofort im Klassenzimmer einsetzbar.`,
       },
       {
         id: '5',
@@ -349,7 +349,7 @@ Das Full Access Abonnement für 240 Euro jährlich amortisiert sich schnell. Ber
       {
         id: '6',
         question: 'Kann ich selbst erstellte Sortierarbeitsblätter mit Schwungübungen und Buchstaben lernen verkaufen?',
-        answer: `Ja, das Full Access Abonnement enthält eine kommerzielle Print-on-Demand Lizenz. Verkaufen Sie Ihre Schwungübungen auf Teachers Pay Teachers. Bieten Sie Buchstaben lernen Pakete auf Etsy an. Veröffentlichen Sie Arbeitshefte auf Amazon KDP. Keine zusätzlichen Lizenzgebühren fallen an.`,
+        answer: `Ja, das Vollzugriff Abonnement enthält eine kommerzielle Print-on-Demand Lizenz. Verkaufen Sie Ihre Schwungübungen auf Teachers Pay Teachers. Bieten Sie Buchstaben lernen Pakete auf Etsy an. Veröffentlichen Sie Arbeitshefte auf Amazon KDP. Keine zusätzlichen Lizenzgebühren fallen an.`,
       },
       {
         id: '7',
@@ -387,7 +387,7 @@ Das Full Access Abonnement für 240 Euro jährlich amortisiert sich schnell. Ber
   // Related Apps Section - FULL text from bilder-sortieren.md
   relatedApps: {
     sectionTitle: 'Sortierarbeitsblätter mit anderen Generatoren kombinieren - Schwungübungen und Buchstaben lernen Lernpakete erstellen',
-    sectionDescription: 'Der Sortierübungen Generator ist eines von 33 Tools im Full Access Abonnement. Kombinieren Sie verschiedene Arbeitsblatt-Typen für umfassende Lernpakete. Erstellen Sie thematisch abgestimmte Materialien für Ihren Unterricht.',
+    sectionDescription: 'Der Sortierübungen Generator ist eines von 33 Tools im Vollzugriff Abonnement. Kombinieren Sie verschiedene Arbeitsblatt-Typen für umfassende Lernpakete. Erstellen Sie thematisch abgestimmte Materialien für Ihren Unterricht.',
     ctaTitle: 'Bereit für professionelle Sortierarbeitsblätter?',
     ctaDescription: 'Schließen Sie sich tausenden Pädagogen an, die professionelle Arbeitsblätter in Minuten erstellen.',
     primaryCtaText: 'Kostenlos Testen',

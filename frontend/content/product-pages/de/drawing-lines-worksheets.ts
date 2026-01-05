@@ -37,11 +37,11 @@ export const drawingLinesDeContent: ProductPageContent = {
   hero: {
     title: 'Schwungübungen-Generator',
     subtitle: 'Kostenlose Arbeitsblätter für Vorschule und Grundschule - Feinmotorik-Entwicklung',
-    description: `Erstellen Sie professionelle Schwungübungen und Zuordnungsaufgaben mit unserem einfachen Generator für Arbeitsblätter. Ihr Core Bundle Abonnement ermöglicht unbegrenzte Erstellung von Arbeitsblättern ohne Zusatzkosten pro Arbeitsblatt. Generieren Sie kostenlose Arbeitsblätter für Vorschule und Grundschule, die perfekt für die Entwicklung der Feinmotorik geeignet sind. Laden Sie hochwertige Arbeitsblätter als PDF oder JPEG herunter. Jedes Arbeitsblatt wird in professioneller 300 DPI Qualität exportiert.
+    description: `Erstellen Sie professionelle Schwungübungen und Zuordnungsaufgaben mit unserem einfachen Generator für Arbeitsblätter. Ihr Basis-Paket Abonnement ermöglicht unbegrenzte Erstellung von Arbeitsblättern ohne Zusatzkosten pro Arbeitsblatt. Generieren Sie kostenlose Arbeitsblätter für Vorschule und Grundschule, die perfekt für die Entwicklung der Feinmotorik geeignet sind. Laden Sie hochwertige Arbeitsblätter als PDF oder JPEG herunter. Jedes Arbeitsblatt wird in professioneller 300 DPI Qualität exportiert.
 
 Unser Generator für Schwungübungen hilft Kindern, wichtige feinmotorische Fähigkeiten durch ansprechende Zuordnungsübungen zu entwickeln. Kinder ziehen Linien, um passende Bilder zu verbinden, die in zwei Spalten auf dem Arbeitsblatt angeordnet sind. Diese einfache und effektive Aktivität stärkt die Stifthaltung und Hand-Augen-Koordination. Erzieher nutzen diese Arbeitsblätter für Vorschule und Grundschule täglich in ihrem Unterricht. Das Zuordnungsformat macht das Lernen spielerisch und hält junge Schüler bei der Sache. Schüler üben visuelle Unterscheidung und verbessern gleichzeitig ihre Fähigkeit, Linien zu ziehen. Jedes Arbeitsblatt bietet mehrere Zuordnungspaare zum Bearbeiten. Die Vielfalt an Linienmustern fordert Schüler auf unterschiedlichen Entwicklungsstufen.
 
-Der Generator umfasst 8 verschiedene Vorlagen mit verschiedenen Linienmustern und Ausrichtungen. Wählen Sie Kurvenvorlagen für Arbeitsblätter im Querformat mit fließenden Linienmustern. Nutzen Sie Diagonalvorlagen für Hochformat-Layouts mit schrägen Verbindungslinien. Verwenden Sie Horizontalvorlagen für Links-nach-Rechts-Übungen. Setzen Sie Vertikalvorlagen für Auf-und-Ab-Zuordnungsübungen ein. Jede Vorlage erstellt eine einzigartige Zuordnungsaufgabe für Ihre Schüler. Passen Sie jedes Arbeitsblatt mit Ihren eigenen hochgeladenen Bildern an oder wählen Sie aus unserer Bibliothek. Fügen Sie Rahmen, Hintergründe und personalisierte Textelemente hinzu. Ihr Core Bundle Abonnement beinhaltet Zugriff auf über 3000 kinderfreundliche Bilder, organisiert nach Themen. Erstellen Sie unbegrenzt viele Arbeitsblattsvariationen für verschiedene Schwierigkeitsstufen, Themen und Lehrplaninhalte. Generieren Sie Arbeitsblätter in 11 Sprachen für mehrsprachige Klassenzimmer.`,
+Der Generator umfasst 8 verschiedene Vorlagen mit verschiedenen Linienmustern und Ausrichtungen. Wählen Sie Kurvenvorlagen für Arbeitsblätter im Querformat mit fließenden Linienmustern. Nutzen Sie Diagonalvorlagen für Hochformat-Layouts mit schrägen Verbindungslinien. Verwenden Sie Horizontalvorlagen für Links-nach-Rechts-Übungen. Setzen Sie Vertikalvorlagen für Auf-und-Ab-Zuordnungsübungen ein. Jede Vorlage erstellt eine einzigartige Zuordnungsaufgabe für Ihre Schüler. Passen Sie jedes Arbeitsblatt mit Ihren eigenen hochgeladenen Bildern an oder wählen Sie aus unserer Bibliothek. Fügen Sie Rahmen, Hintergründe und personalisierte Textelemente hinzu. Ihr Basis-Paket Abonnement beinhaltet Zugriff auf über 3000 kinderfreundliche Bilder, organisiert nach Themen. Erstellen Sie unbegrenzt viele Arbeitsblattsvariationen für verschiedene Schwierigkeitsstufen, Themen und Lehrplaninhalte. Generieren Sie Arbeitsblätter in 11 Sprachen für mehrsprachige Klassenzimmer.`,
     previewImageSrc: '/samples/english/drawing lines/drawing_lines_curve 1.jpeg',
     ctaLabels: {
       tryFree: 'Kostenlos Testen',
@@ -123,7 +123,7 @@ Der Generator umfasst 8 verschiedene Vorlagen mit verschiedenen Linienmustern un
   // Features Grid - FULL text from linien-ziehen.md feature sections
   features: {
     sectionTitle: 'Schwungübungen-Generator Funktionen - Alles für Vorschul-Arbeitsblätter und Arbeitsblätter Grundschule',
-    sectionDescription: 'Unser Generator für Schwungübungen bietet umfassende Funktionen für die Erstellung professioneller Arbeitsblätter für Vorschule und Grundschule. Lehrkräfte erstellen maßgeschneiderte Zuordnungsübungen in weniger als 3 Minuten mit unserer benutzerfreundlichen Plattform. Jede Funktion konzentriert sich darauf, Zeit zu sparen und gleichzeitig hohe Qualität für den Unterrichtseinsatz zu gewährleisten. Ihr Core Bundle Abonnement ermöglicht unbegrenzte Erstellung von Arbeitsblättern ohne Zusatzkosten pro Arbeitsblatt. Generieren Sie Schwungübungen zusammen mit anderen Arbeitsblättern für Buchstaben lernen, Mathe und Deutsch auf derselben Plattform. Das komplette Werkzeugset unterstützt alle Ihre Bedürfnisse für kostenlose Arbeitsblätter von der Vorschule bis zur 3. Klasse.',
+    sectionDescription: 'Unser Generator für Schwungübungen bietet umfassende Funktionen für die Erstellung professioneller Arbeitsblätter für Vorschule und Grundschule. Lehrkräfte erstellen maßgeschneiderte Zuordnungsübungen in weniger als 3 Minuten mit unserer benutzerfreundlichen Plattform. Jede Funktion konzentriert sich darauf, Zeit zu sparen und gleichzeitig hohe Qualität für den Unterrichtseinsatz zu gewährleisten. Ihr Basis-Paket Abonnement ermöglicht unbegrenzte Erstellung von Arbeitsblättern ohne Zusatzkosten pro Arbeitsblatt. Generieren Sie Schwungübungen zusammen mit anderen Arbeitsblättern für Buchstaben lernen, Mathe und Deutsch auf derselben Plattform. Das komplette Werkzeugset unterstützt alle Ihre Bedürfnisse für kostenlose Arbeitsblätter von der Vorschule bis zur 3. Klasse.',
     highlightBadgeText: 'Hauptfunktion',
     readMoreLabel: 'Mehr lesen',
     showLessLabel: 'Weniger anzeigen',
@@ -174,9 +174,9 @@ Zweisprachige Immersionsprogramme nutzen den Generator für konsistente Material
         id: '5',
         icon: '💰',
         title: 'Kommerzielle Lizenz enthalten - Verkaufen Sie Ihre Arbeitsblätter auf Eduki und Etsy',
-        description: `Ihr Core Bundle Abonnement beinhaltet eine vollständige kommerzielle Lizenz für den Verkauf von Arbeitsblättern auf Plattformen wie Eduki, Etsy und Amazon KDP. Erstellen Sie Schwungübungen-Pakete und verkaufen Sie sie als digitale Downloads oder gedruckte Produkte. Die 300 DPI Export-Qualität gewährleistet professionelle Ergebnisse für den kommerziellen Einsatz.
+        description: `Ihr Basis-Paket Abonnement beinhaltet eine vollständige kommerzielle Lizenz für den Verkauf von Arbeitsblättern auf Plattformen wie Eduki, Etsy und Amazon KDP. Erstellen Sie Schwungübungen-Pakete und verkaufen Sie sie als digitale Downloads oder gedruckte Produkte. Die 300 DPI Export-Qualität gewährleistet professionelle Ergebnisse für den kommerziellen Einsatz.
 
-Bündeln Sie Schwungübungen mit anderen Arbeitsblättern für umfassende Aktivitätspakete. Viele Lehrkräfte verdienen 500-5000 Euro monatlich durch den Verkauf thematischer Arbeitsblätter, die mit unseren Generatoren erstellt wurden. Die kommerzielle Lizenz deckt alle 10 Core Bundle Apps ohne zusätzliche Lizenzgebühren ab. Die enthaltene POD-Lizenz beseitigt die Hürde teurer kommerzieller Rechtsgebühren, die andere Plattformen verlangen.`,
+Bündeln Sie Schwungübungen mit anderen Arbeitsblättern für umfassende Aktivitätspakete. Viele Lehrkräfte verdienen 500-5000 Euro monatlich durch den Verkauf thematischer Arbeitsblätter, die mit unseren Generatoren erstellt wurden. Die kommerzielle Lizenz deckt alle 10 Basis-Paket Apps ohne zusätzliche Lizenzgebühren ab. Die enthaltene POD-Lizenz beseitigt die Hürde teurer kommerzieller Rechtsgebühren, die andere Plattformen verlangen.`,
         highlighted: true,
       },
       {
@@ -185,7 +185,7 @@ Bündeln Sie Schwungübungen mit anderen Arbeitsblättern für umfassende Aktivi
         title: '3000+ Bilder für Ausmalbilder, Buchstaben lernen und Arbeitsblätter Grundschule',
         description: `Durchsuchen Sie über 3000 kinderfreundliche Bilder, die in Dutzende thematischer Kategorien organisiert sind. Durchsuchen Sie die Bildbibliothek nach Stichwörtern, um perfekte Bilder für jedes Thema zu finden. Kategorien umfassen Tiere, Lebensmittel, Transport, Jahreszeiten, Feiertage, Klassenzimmerobjekte und pädagogische Konzepte.
 
-Jedes Bild funktioniert perfekt für Zuordnungsübungen in Schwungübungen. Dieselbe Bibliothek unterstützt die Erstellung von Arbeitsblättern mit visuellen Darstellungen. Verwenden Sie die Bilder für Ausmalbilder, wo Schüler Bildumrisse nachzeichnen. Erstellen Sie Arbeitsblätter für Buchstaben lernen mit Bildern, die mit Zielbuchstabenlauten beginnen. Die umfassende Bildbibliothek macht teure Clipart-Abonnements überflüssig. Alle Bilder sind in Ihrem Core Bundle Abonnement ohne Zusatzkosten enthalten.`,
+Jedes Bild funktioniert perfekt für Zuordnungsübungen in Schwungübungen. Dieselbe Bibliothek unterstützt die Erstellung von Arbeitsblättern mit visuellen Darstellungen. Verwenden Sie die Bilder für Ausmalbilder, wo Schüler Bildumrisse nachzeichnen. Erstellen Sie Arbeitsblätter für Buchstaben lernen mit Bildern, die mit Zielbuchstabenlauten beginnen. Die umfassende Bildbibliothek macht teure Clipart-Abonnements überflüssig. Alle Bilder sind in Ihrem Basis-Paket Abonnement ohne Zusatzkosten enthalten.`,
         highlighted: false,
       },
       {
@@ -357,7 +357,7 @@ Die enthaltene POD-Gewerbliche Lizenz erlaubt unbegrenzte Verkäufe ohne zusätz
       {
         id: '1',
         question: 'Ist dieser Schwungübungen-Generator wirklich kostenlos für Vorschul-Arbeitsblätter und Arbeitsblätter Grundschule?',
-        answer: 'Der Schwungübungen-Generator erfordert ein Core Bundle Abonnement, das 144 Euro pro Jahr oder 15 Euro pro Monat kostet. Der Begriff "kostenlose Arbeitsblätter" bezieht sich auf das Such-Keyword, das Menschen verwenden, wenn sie nach Arbeitsblatt-Ressourcen suchen. Es bedeutet nicht, dass der Generator selbst keine Zahlung erfordert. Mit Ihrem Core Bundle Abonnement erstellen Sie unbegrenzt Schwungübungen ohne Kosten pro Arbeitsblatt. Generieren Sie so viele Vorschul-Arbeitsblätter und Arbeitsblätter Grundschule, wie Sie benötigen, ohne zusätzliche Gebühren. Das Abonnement beinhaltet Zugriff auf 10 verschiedene Arbeitsblatt-Generatoren einschließlich Mathe-Arbeitsblätter und mehr.',
+        answer: 'Der Schwungübungen-Generator erfordert ein Basis-Paket Abonnement, das 144 Euro pro Jahr oder 15 Euro pro Monat kostet. Der Begriff "kostenlose Arbeitsblätter" bezieht sich auf das Such-Keyword, das Menschen verwenden, wenn sie nach Arbeitsblatt-Ressourcen suchen. Es bedeutet nicht, dass der Generator selbst keine Zahlung erfordert. Mit Ihrem Basis-Paket Abonnement erstellen Sie unbegrenzt Schwungübungen ohne Kosten pro Arbeitsblatt. Generieren Sie so viele Vorschul-Arbeitsblätter und Arbeitsblätter Grundschule, wie Sie benötigen, ohne zusätzliche Gebühren. Das Abonnement beinhaltet Zugriff auf 10 verschiedene Arbeitsblatt-Generatoren einschließlich Mathe-Arbeitsblätter und mehr.',
       },
       {
         id: '2',
@@ -397,12 +397,12 @@ Die enthaltene POD-Gewerbliche Lizenz erlaubt unbegrenzte Verkäufe ohne zusätz
       {
         id: '9',
         question: 'Unterstützt die Plattform die Erstellung von Mathe-Arbeitsblättern für Rechnen lernen, Deutsch-Arbeitsblättern und Ausmalbilder zusammen?',
-        answer: 'Ja, Ihr Core Bundle Abonnement bietet Zugriff auf 10 verschiedene Arbeitsblatt-Generatoren auf einer Plattform. Generieren Sie Schwungübungen neben Mathe-Arbeitsblättern für Rechnen lernen, Deutsch-Arbeitsblättern und Ausmalbilder für kompletten täglichen Unterricht. Erstellen Sie thematische Lernpakete, die mehrere Arbeitsblatttypen um einzelne Themen organisieren. Die Fähigkeit, alle Arbeitsblatttypen aus einem Abonnement zu generieren, spart Zeit und gewährleistet visuelle Konsistenz über Materialien hinweg.',
+        answer: 'Ja, Ihr Basis-Paket Abonnement bietet Zugriff auf 10 verschiedene Arbeitsblatt-Generatoren auf einer Plattform. Generieren Sie Schwungübungen neben Mathe-Arbeitsblättern für Rechnen lernen, Deutsch-Arbeitsblättern und Ausmalbilder für kompletten täglichen Unterricht. Erstellen Sie thematische Lernpakete, die mehrere Arbeitsblatttypen um einzelne Themen organisieren. Die Fähigkeit, alle Arbeitsblatttypen aus einem Abonnement zu generieren, spart Zeit und gewährleistet visuelle Konsistenz über Materialien hinweg.',
       },
       {
         id: '10',
         question: 'Kann ich meine erstellten Schwungübungen und Arbeitsblätter kommerziell verkaufen?',
-        answer: 'Ja, Ihr Core Bundle Abonnement beinhaltet vollständige kommerzielle Lizenzierung für alle generierten Materialien. Erstellen Sie Schwungübungen-Arbeitsblätter und verkaufen Sie sie auf Eduki, Teachers Pay Teachers oder Etsy. Generieren Sie Arbeitsblätter-Bundles für Amazon KDP. Die kommerzielle Lizenz deckt alle 10 Core Bundle Apps ohne zusätzliche Lizenzgebühren über das 144 Euro jährliche Abonnement hinaus. Behalten Sie 100% der Verkaufseinnahmen.',
+        answer: 'Ja, Ihr Basis-Paket Abonnement beinhaltet vollständige kommerzielle Lizenzierung für alle generierten Materialien. Erstellen Sie Schwungübungen-Arbeitsblätter und verkaufen Sie sie auf Eduki, Teachers Pay Teachers oder Etsy. Generieren Sie Arbeitsblätter-Bundles für Amazon KDP. Die kommerzielle Lizenz deckt alle 10 Basis-Paket Apps ohne zusätzliche Lizenzgebühren über das 144 Euro jährliche Abonnement hinaus. Behalten Sie 100% der Verkaufseinnahmen.',
       },
       {
         id: '11',
@@ -417,7 +417,7 @@ Die enthaltene POD-Gewerbliche Lizenz erlaubt unbegrenzte Verkäufe ohne zusätz
     ],
   },
 
-  // Pricing - Core Bundle pricing
+  // Pricing - Basis-Paket pricing
   pricing: {
     title: 'Basis-Paket',
     price: '144€',
@@ -438,7 +438,7 @@ Die enthaltene POD-Gewerbliche Lizenz erlaubt unbegrenzte Verkäufe ohne zusätz
   // Related Apps - FULL text from linien-ziehen.md combine apps section
   relatedApps: {
     sectionTitle: 'Kombinieren Sie Apps für umfassende Lehrplan-Bundles',
-    sectionDescription: 'Ihr Core Bundle Abonnement beinhaltet zehn verschiedene Arbeitsblatt-Generator-Apps, die zusammenarbeiten, um vollständige Unterrichtspakete zu erstellen. Kombinieren Sie Schwungübungen mit anderen Generatoren für umfassende Lehrplan-Bundles. Erstellen Sie koordinierte Materialien über mehrere Arbeitsblatttypen hinweg.',
+    sectionDescription: 'Ihr Basis-Paket Abonnement beinhaltet zehn verschiedene Arbeitsblatt-Generator-Apps, die zusammenarbeiten, um vollständige Unterrichtspakete zu erstellen. Kombinieren Sie Schwungübungen mit anderen Generatoren für umfassende Lehrplan-Bundles. Erstellen Sie koordinierte Materialien über mehrere Arbeitsblatttypen hinweg.',
     ctaTitle: 'Bereit, fantastische Arbeitsblätter zu erstellen?',
     ctaDescription: 'Schließen Sie sich tausenden Lehrkräften an, die professionelle Arbeitsblätter erstellen. Unbegrenzte Generierung, kommerzielle Lizenz inklusive.',
     primaryCtaText: 'Kostenlose Testversion Starten',

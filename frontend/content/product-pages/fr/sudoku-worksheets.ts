@@ -356,7 +356,7 @@ La qualité 300 DPI garantit des produits professionnels. Les acheteurs appréci
         question: 'Le Générateur de Sudoku Est-il Vraiment Gratuit pour les Fiches à Imprimer Gratuit ?',
         answer: `Le générateur de sudoku nécessite un abonnement Pack Essentiel. Ce forfait coûte 144€ par an ou 15€ par mois. Votre abonnement vous donne accès illimité à la création de fiches à imprimer gratuit sans frais supplémentaires. Aucune limite sur le nombre de puzzles générés.
 
-Le Pack Essentiel inclut 10 applications pédagogiques populaires. L'abonnement Full Access à 240€ par an donne accès aux 33 générateurs. Les deux formules incluent la licence commerciale et l'export 300 DPI. Choisissez selon vos besoins pédagogiques.`,
+Le Pack Essentiel inclut 10 applications pédagogiques populaires. L'abonnement Accès Complet à 240€ par an donne accès aux 33 générateurs. Les deux formules incluent la licence commerciale et l'export 300 DPI. Choisissez selon vos besoins pédagogiques.`,
       },
       {
         id: '2',

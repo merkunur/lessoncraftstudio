@@ -416,7 +416,7 @@ Amazon KDP eignet sich für Mathe-Rätsel Arbeitsheft-Sammlungen für den Buchma
     ],
   },
 
-  // Pricing - Full Access pricing (240€/year)
+  // Pricing - Vollzugriff pricing (240€/year)
   pricing: {
     title: 'Voller Zugang',
     price: '240€',

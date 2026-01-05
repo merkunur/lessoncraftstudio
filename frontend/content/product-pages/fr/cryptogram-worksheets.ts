@@ -9,7 +9,7 @@ import { ProductPageContent } from '@/components/product-page/ProductPageClient'
  * FULL SEO content from: INDIVIDUAL APP PAGES/French/cryptogram.md
  * DO NOT SHORTEN - Every paragraph is SEO-optimized
  *
- * PRICING: Full Access = €240/an (Accès Complet)
+ * PRICING: Accès Complet = €240/an (Accès Complet)
  * App ID: image-cryptogram
  */
 

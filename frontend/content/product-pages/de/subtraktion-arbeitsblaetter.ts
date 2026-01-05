@@ -39,7 +39,7 @@ export const subtractionDeContent: ProductPageContent = {
   hero: {
     title: 'Subtraktion Arbeitsblätter Generator',
     subtitle: 'Kostenlose Mathe Arbeitsblätter zum Ausdrucken für Grundschule und Vorschule',
-    description: `Erstellen Sie hochwertige Subtraktion Arbeitsblätter mit unserem professionellen Mathe Arbeitsblätter Generator. Mit Ihrem Full Access Abonnement für 240 Euro pro Jahr generieren Sie unbegrenzt Arbeitsblätter ohne zusätzliche Kosten. Perfekt für alle Lehrkräfte, die kostenlose Arbeitsblätter zum Ausdrucken für ihre Schüler benötigen.
+    description: `Erstellen Sie hochwertige Subtraktion Arbeitsblätter mit unserem professionellen Mathe Arbeitsblätter Generator. Mit Ihrem Vollzugriff Abonnement für 240 Euro pro Jahr generieren Sie unbegrenzt Arbeitsblätter ohne zusätzliche Kosten. Perfekt für alle Lehrkräfte, die kostenlose Arbeitsblätter zum Ausdrucken für ihre Schüler benötigen.
 
 Der Subtraktion Arbeitsblätter Generator bietet vier verschiedene Übungsmodi. Kinder lernen das Minusrechnen auf unterschiedliche Weise. Der Generator eignet sich sowohl für Vorschule Arbeitsblätter als auch für Arbeitsblätter Grundschule. Alle Mathe Arbeitsblätter sind sofort einsatzbereit.
 
@@ -117,7 +117,7 @@ Der Generator unterstützt 11 Sprachen für die Benutzeroberfläche und Bildbesc
   // Features Grid - FULL text from subtraktion.md feature sections
   features: {
     sectionTitle: 'Funktionen des Subtraktion Arbeitsblätter Generators - Alle Werkzeuge für Mathe Arbeitsblätter und Rechnen lernen',
-    sectionDescription: 'Unser Subtraktion Arbeitsblätter Generator bietet umfangreiche Funktionen für die Erstellung professioneller Mathe Arbeitsblätter. Jede Funktion wurde speziell für Lehrkräfte entwickelt. Die Bedienung ist intuitiv und erfordert keine technischen Vorkenntnisse. In wenigen Minuten entstehen druckfertige Arbeitsblätter Grundschule. Ihr Full Access Abonnement ermöglicht unbegrenzte Arbeitsblatt-Erstellung. Keine zusätzlichen Kosten pro Arbeitsblatt. Erstellen Sie so viele Mathe Arbeitsblätter wie Ihre Schüler benötigen. Laden Sie Arbeitsblätter im hochwertigen PDF- oder JPEG-Format herunter.',
+    sectionDescription: 'Unser Subtraktion Arbeitsblätter Generator bietet umfangreiche Funktionen für die Erstellung professioneller Mathe Arbeitsblätter. Jede Funktion wurde speziell für Lehrkräfte entwickelt. Die Bedienung ist intuitiv und erfordert keine technischen Vorkenntnisse. In wenigen Minuten entstehen druckfertige Arbeitsblätter Grundschule. Ihr Vollzugriff Abonnement ermöglicht unbegrenzte Arbeitsblatt-Erstellung. Keine zusätzlichen Kosten pro Arbeitsblatt. Erstellen Sie so viele Mathe Arbeitsblätter wie Ihre Schüler benötigen. Laden Sie Arbeitsblätter im hochwertigen PDF- oder JPEG-Format herunter.',
     highlightBadgeText: 'Hauptfunktion',
     readMoreLabel: 'Mehr lesen',
     showLessLabel: 'Weniger anzeigen',
@@ -168,7 +168,7 @@ Verfügbare Sprachen sind Deutsch, Englisch, Französisch und Spanisch. Dazu kom
         id: '5',
         icon: '💰',
         title: 'Arbeitsblätter Grundschule mit kommerzieller Lizenz - Mathe Arbeitsblätter zum Verkauf erstellen',
-        description: `Das Full Access Abonnement enthält eine vollständige kommerzielle Lizenz. Verkaufen Sie Ihre Subtraktion Arbeitsblätter auf Teachers Pay Teachers. Bieten Sie Mathe Arbeitsblätter auf Etsy an. Veröffentlichen Sie bei Amazon KDP. Keine zusätzlichen Lizenzgebühren erforderlich.
+        description: `Das Vollzugriff Abonnement enthält eine vollständige kommerzielle Lizenz. Verkaufen Sie Ihre Subtraktion Arbeitsblätter auf Teachers Pay Teachers. Bieten Sie Mathe Arbeitsblätter auf Etsy an. Veröffentlichen Sie bei Amazon KDP. Keine zusätzlichen Lizenzgebühren erforderlich.
 
 Die 300 DPI Exportqualität erfüllt professionelle Druckstandards. Jedes Arbeitsblatt eignet sich für den kommerziellen Druck. Die Lizenz gilt für unbegrenzt viele Arbeitsblätter Grundschule. Teacher-Preneure nutzen diese Möglichkeit für passives Einkommen. Ihre Vorschule Arbeitsblätter können weltweit verkauft werden.`,
         highlighted: true,
@@ -197,7 +197,7 @@ Der Generator erstellt automatisch einen Lösungsschlüssel. Dieser zeigt alle k
   // How-To Guide - FULL text from subtraktion.md
   howTo: {
     sectionTitle: 'Subtraktion Arbeitsblätter erstellen in 5 einfachen Schritten - Anleitung für Mathe Arbeitsblätter und Minusrechnen',
-    sectionDescription: 'Diese Schritt-für-Schritt-Anleitung zeigt die Erstellung professioneller Subtraktion Arbeitsblätter. Der gesamte Vorgang dauert weniger als drei Minuten. Keine Vorkenntnisse erforderlich. Folgen Sie einfach den fünf Schritten für perfekte Mathe Arbeitsblätter. Der Arbeitsblatt-Generator führt Sie durch jeden Schritt. Wählen Sie Ihre Einstellungen und sehen Sie Ihr Mathe Arbeitsblatt auf dem Bildschirm. Bearbeiten Sie alles vor dem Download. Ihr Full Access Abonnement bedeutet unbegrenzte Erstellung ohne Zeitlimits oder zusätzliche Gebühren.',
+    sectionDescription: 'Diese Schritt-für-Schritt-Anleitung zeigt die Erstellung professioneller Subtraktion Arbeitsblätter. Der gesamte Vorgang dauert weniger als drei Minuten. Keine Vorkenntnisse erforderlich. Folgen Sie einfach den fünf Schritten für perfekte Mathe Arbeitsblätter. Der Arbeitsblatt-Generator führt Sie durch jeden Schritt. Wählen Sie Ihre Einstellungen und sehen Sie Ihr Mathe Arbeitsblatt auf dem Bildschirm. Bearbeiten Sie alles vor dem Download. Ihr Vollzugriff Abonnement bedeutet unbegrenzte Erstellung ohne Zeitlimits oder zusätzliche Gebühren.',
     ctaText: 'Jetzt Erstellen',
     badgeText: 'So Funktioniert Es',
     stepLabel: 'Schritt',
@@ -261,7 +261,7 @@ Der Lösungsschlüssel wird auf Knopfdruck erstellt. Er zeigt alle Antworten far
 
 Die Graustufen-Option reduziert Druckkosten erheblich. Schwarzweiß-Druck spart teure Farbpatronen. Die Bildqualität bleibt dennoch ausgezeichnet. Ideal für den täglichen Klassengebrauch. Kostenlose Arbeitsblätter werden so noch wirtschaftlicher.
 
-Laden Sie Arbeitsblatt und Lösungsschlüssel separat herunter. Beide Dateien sind sofort druckbereit. Speichern Sie die Dateien für spätere Verwendung. Mit dem Full Access Abonnement erstellen Sie unbegrenzt viele Arbeitsblätter. Rechnen lernen wird so einfach und effektiv organisiert.`,
+Laden Sie Arbeitsblatt und Lösungsschlüssel separat herunter. Beide Dateien sind sofort druckbereit. Speichern Sie die Dateien für spätere Verwendung. Mit dem Vollzugriff Abonnement erstellen Sie unbegrenzt viele Arbeitsblätter. Rechnen lernen wird so einfach und effektiv organisiert.`,
       },
     ],
   },
@@ -337,11 +337,11 @@ Der Durchstreich-Modus unterstützt handlungsorientiertes Lernen. Kinder mit mot
         icon: '💼',
         title: 'Teacher-Preneure - Kostenlose Arbeitsblätter erstellen und Mathe Arbeitsblätter verkaufen',
         subtitle: 'Kommerzielle Lizenz für passive Einnahmen',
-        description: `Unternehmerische Lehrkräfte nutzen den Generator für passives Einkommen. Die kommerzielle Lizenz im Full Access Abonnement ermöglicht den Verkauf. Erstellen Sie kostenlose Arbeitsblätter für Ihre Kunden. Bieten Sie Mathe Arbeitsblätter auf Teachers Pay Teachers an.
+        description: `Unternehmerische Lehrkräfte nutzen den Generator für passives Einkommen. Die kommerzielle Lizenz im Vollzugriff Abonnement ermöglicht den Verkauf. Erstellen Sie kostenlose Arbeitsblätter für Ihre Kunden. Bieten Sie Mathe Arbeitsblätter auf Teachers Pay Teachers an.
 
 Der Markt für Bildungsmaterialien wächst kontinuierlich. Deutsche Lehrkräfte suchen hochwertige Unterrichtsmaterialien. Ihre Subtraktion Arbeitsblätter füllen eine Nische. Mit 300 DPI Qualität erfüllen Sie professionelle Standards.
 
-Erfolgreiche Teacher-Preneure verdienen 500 bis 5000 Euro monatlich. Einmal erstellte Mathe Arbeitsblätter verkaufen sich wiederholt. Die Investition in das Full Access Abonnement amortisiert sich schnell. Starten Sie Ihr eigenes Bildungsunternehmen mit professionellen kostenlosen Arbeitsblättern.`,
+Erfolgreiche Teacher-Preneure verdienen 500 bis 5000 Euro monatlich. Einmal erstellte Mathe Arbeitsblätter verkaufen sich wiederholt. Die Investition in das Vollzugriff Abonnement amortisiert sich schnell. Starten Sie Ihr eigenes Bildungsunternehmen mit professionellen kostenlosen Arbeitsblättern.`,
         quote: 'Mein Abonnement hat sich im ersten Monat bezahlt gemacht!',
       },
     ],
@@ -397,9 +397,9 @@ Benutzerdefinierte Größen ermöglichen maximale Flexibilität. Die Arbeitsblä
       {
         id: '6',
         question: 'Sind die Vorschule Arbeitsblätter wirklich kostenlos nutzbar?',
-        answer: `Der Subtraktion Arbeitsblätter Generator erfordert ein Full Access Abonnement für 240 Euro jährlich oder 25 Euro monatlich. Ihr Abonnement ermöglicht unbegrenzte Arbeitsblatt-Erstellung ohne zusätzliche Kosten pro Blatt. Generieren Sie so viele Vorschule Arbeitsblätter wie Sie benötigen.
+        answer: `Der Subtraktion Arbeitsblätter Generator erfordert ein Vollzugriff Abonnement für 240 Euro jährlich oder 25 Euro monatlich. Ihr Abonnement ermöglicht unbegrenzte Arbeitsblatt-Erstellung ohne zusätzliche Kosten pro Blatt. Generieren Sie so viele Vorschule Arbeitsblätter wie Sie benötigen.
 
-Das Full Access Abonnement beinhaltet alle 33 Arbeitsblatt-Generatoren. Die kommerzielle Lizenz ermöglicht den Verkauf erstellter Materialien. 11-Sprachen-Unterstützung und professionelle 300 DPI Qualitätsexporte sind inklusive.`,
+Das Vollzugriff Abonnement beinhaltet alle 33 Arbeitsblatt-Generatoren. Die kommerzielle Lizenz ermöglicht den Verkauf erstellter Materialien. 11-Sprachen-Unterstützung und professionelle 300 DPI Qualitätsexporte sind inklusive.`,
       },
       {
         id: '7',
@@ -418,16 +418,16 @@ Die Benutzeroberfläche erscheint in der gewählten Sprache. Bildbeschriftungen 
       {
         id: '9',
         question: 'Was kostet das Abonnement für Subtraktion Arbeitsblätter und alle Generatoren?',
-        answer: `Das Full Access Abonnement kostet 240 Euro pro Jahr. Monatlich entspricht das 25 Euro. Alle 33 Generatoren sind enthalten. Unbegrenzte Subtraktion Arbeitsblätter und weitere Materialien inklusive.
+        answer: `Das Vollzugriff Abonnement kostet 240 Euro pro Jahr. Monatlich entspricht das 25 Euro. Alle 33 Generatoren sind enthalten. Unbegrenzte Subtraktion Arbeitsblätter und weitere Materialien inklusive.
 
 Die kommerzielle Lizenz ermöglicht den Verkauf erstellter Materialien. 300 DPI Exportqualität erfüllt professionelle Standards. Über 3000 Bilder stehen zur Verfügung. Das Abonnement amortisiert sich bereits nach wenigen kommerziellen Verkäufen.`,
       },
       {
         id: '10',
         question: 'Kann ich Subtraktion Arbeitsblätter mit Einmaleins und Schwungübungen kombinieren?',
-        answer: `Ja. Das Full Access Abonnement enthält 33 verschiedene Generatoren. Kombinieren Sie Subtraktion Arbeitsblätter mit Einmaleins Übungen. Ergänzen Sie Mathe mit Schwungübungen und Buchstaben lernen. So entstehen ganzheitliche Lernpakete.
+        answer: `Ja. Das Vollzugriff Abonnement enthält 33 verschiedene Generatoren. Kombinieren Sie Subtraktion Arbeitsblätter mit Einmaleins Übungen. Ergänzen Sie Mathe mit Schwungübungen und Buchstaben lernen. So entstehen ganzheitliche Lernpakete.
 
-Einmaleins, Ausmalbilder und Deutsch Arbeitsblätter sind alle im Abonnement enthalten. Erstellen Sie komplette Lernpakete mit allen Generatoren. Das Full Access Abonnement bietet maximalen Wert für Lehrkräfte.`,
+Einmaleins, Ausmalbilder und Deutsch Arbeitsblätter sind alle im Abonnement enthalten. Erstellen Sie komplette Lernpakete mit allen Generatoren. Das Vollzugriff Abonnement bietet maximalen Wert für Lehrkräfte.`,
       },
       {
         id: '11',
@@ -439,7 +439,7 @@ Die Oberfläche verwendet klare Beschriftungen und intuitive Steuerungen. Nach d
       {
         id: '12',
         question: 'Kann ich Subtraktion Arbeitsblätter im Unterricht nutzen mit Ausmalbilder und Buchstaben lernen?',
-        answer: `Das Full Access Abonnement beinhaltet unbegrenzte Unterrichtsnutzung. Drucken Sie Subtraktion Arbeitsblätter für ganze Klassen ohne Schülergebühren. Verteilen Sie als Hausaufgaben, Klassenarbeit oder Prüfungsmaterial. Nutzen Sie in Lernstationen neben Ausmalbilder und Buchstaben lernen.
+        answer: `Das Vollzugriff Abonnement beinhaltet unbegrenzte Unterrichtsnutzung. Drucken Sie Subtraktion Arbeitsblätter für ganze Klassen ohne Schülergebühren. Verteilen Sie als Hausaufgaben, Klassenarbeit oder Prüfungsmaterial. Nutzen Sie in Lernstationen neben Ausmalbilder und Buchstaben lernen.
 
 Teilen Sie Arbeitsblätter mit Klassenstufen-Kollegen. Koordinieren Sie Unterrichtspläne mit identischen Materialien. Kombinieren Sie mit Ausmalbilder und Buchstaben lernen für umfassende Lernpakete.`,
       },
@@ -449,7 +449,7 @@ Teilen Sie Arbeitsblätter mit Klassenstufen-Kollegen. Koordinieren Sie Unterric
   // Related Apps Section - FULL text from subtraktion.md Section 7
   relatedApps: {
     sectionTitle: 'Subtraktion Arbeitsblätter kombinieren mit Einmaleins, Ausmalbilder, Schwungübungen und Buchstaben lernen',
-    sectionDescription: 'Das Full Access Abonnement enthält 33 verschiedene Generatoren. Kombinieren Sie Subtraktion Arbeitsblätter mit Einmaleins Übungen. Ergänzen Sie Mathe mit Ausmalbilder und Malvorlagen. Verbinden Sie Rechnen mit Schwungübungen und Buchstaben lernen. So entstehen ganzheitliche Lernpakete.',
+    sectionDescription: 'Das Vollzugriff Abonnement enthält 33 verschiedene Generatoren. Kombinieren Sie Subtraktion Arbeitsblätter mit Einmaleins Übungen. Ergänzen Sie Mathe mit Ausmalbilder und Malvorlagen. Verbinden Sie Rechnen mit Schwungübungen und Buchstaben lernen. So entstehen ganzheitliche Lernpakete.',
     ctaTitle: 'Bereit, professionelle Arbeitsblätter zu erstellen?',
     ctaDescription: 'Schließen Sie sich tausenden Pädagogen an, die professionelle Arbeitsblätter mit LessonCraft Studio erstellen.',
     primaryCtaText: 'Kostenlos Testen',

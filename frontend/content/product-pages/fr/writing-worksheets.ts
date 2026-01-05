@@ -9,7 +9,7 @@ import { ProductPageContent } from '@/components/product-page/ProductPageClient'
  * FULL SEO content from: INDIVIDUAL APP PAGES/French/writing.md
  * DO NOT SHORTEN - Every paragraph is SEO-optimized
  *
- * PRICING: Full Access = 240€/an (Accès Complet)
+ * PRICING: Accès Complet = 240€/an (Accès Complet)
  * App ID: writing-app
  */
 
@@ -423,7 +423,7 @@ Maintenez une qualité de production cohérente en utilisant les mêmes paramèt
     ],
   },
 
-  // Pricing section - Full Access required
+  // Pricing section - Accès Complet required
   pricing: {
     title: 'Accès Complet',
     price: '240€',

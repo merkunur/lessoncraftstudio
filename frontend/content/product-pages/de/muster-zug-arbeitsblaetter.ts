@@ -30,7 +30,7 @@ export const patternTrainDeContent: ProductPageContent = {
     slug: 'muster-zug-arbeitsblaetter',
     appId: 'pattern-train',
     title: 'Muster-Zug Generator - Kostenlose Arbeitsblätter für Mustererkennung - Arbeitsblätter Grundschule und Vorschule',
-    description: 'Erstellen Sie professionelle Muster-Arbeitsblätter mit dem Muster-Zug Generator. Mit Ihrem Full Access Abo generieren Sie unbegrenzt Arbeitsblätter ohne zusätzliche Kosten. Perfekt für Vorschule Arbeitsblätter und Arbeitsblätter Grundschule.',
+    description: 'Erstellen Sie professionelle Muster-Arbeitsblätter mit dem Muster-Zug Generator. Mit Ihrem Vollzugriff Abo generieren Sie unbegrenzt Arbeitsblätter ohne zusätzliche Kosten. Perfekt für Vorschule Arbeitsblätter und Arbeitsblätter Grundschule.',
     keywords: 'muster zug arbeitsblätter, arbeitsblätter grundschule, kostenlose arbeitsblätter, mathe arbeitsblätter, vorschule arbeitsblätter, einmaleins, schwungübungen, buchstaben lernen, rechnen lernen, ausmalbilder',
     canonicalUrl: 'https://www.lessoncraftstudio.com/de/apps/muster-zug-arbeitsblaetter',
   },
@@ -39,7 +39,7 @@ export const patternTrainDeContent: ProductPageContent = {
   hero: {
     title: 'Muster-Zug Generator',
     subtitle: 'Kostenlose Arbeitsblätter für Mustererkennung - Arbeitsblätter Grundschule und Vorschule',
-    description: `Erstellen Sie professionelle Muster-Arbeitsblätter mit dem Muster-Zug Generator. Mit Ihrem Full Access Abo generieren Sie unbegrenzt Arbeitsblätter ohne zusätzliche Kosten. Kinder lernen Muster zu erkennen und fortzusetzen. Das beliebte Zug-Design macht Lernen zum Vergnügen.
+    description: `Erstellen Sie professionelle Muster-Arbeitsblätter mit dem Muster-Zug Generator. Mit Ihrem Vollzugriff Abo generieren Sie unbegrenzt Arbeitsblätter ohne zusätzliche Kosten. Kinder lernen Muster zu erkennen und fortzusetzen. Das beliebte Zug-Design macht Lernen zum Vergnügen.
 
 Der Muster-Zug Generator ist perfekt für Vorschule Arbeitsblätter und Arbeitsblätter Grundschule. Kinder ordnen Bilder nach Mustern in die Waggons ein. Ausschneiden und Aufkleben trainiert die Feinmotorik. Fünf verschiedene Mustertypen bieten passende Schwierigkeitsstufen.
 
@@ -148,7 +148,7 @@ Für mehrsprachige Klassen erstellen Sie Arbeitsblätter in verschiedenen Sprach
         id: '5',
         icon: '💰',
         title: 'POD-Lizenz für Kostenlose Arbeitsblätter - Verkaufen auf Etsy und Teachers Pay Teachers',
-        description: `Mit Ihrem Full Access Abo erhalten Sie eine kommerzielle Lizenz. Verkaufen Sie erstellte Arbeitsblätter auf Teachers Pay Teachers. Bieten Sie Materialien auf Etsy an. Erstellen Sie Amazon KDP Bücher mit Ihren Arbeitsblättern. Keine zusätzlichen Lizenzgebühren erforderlich.
+        description: `Mit Ihrem Vollzugriff Abo erhalten Sie eine kommerzielle Lizenz. Verkaufen Sie erstellte Arbeitsblätter auf Teachers Pay Teachers. Bieten Sie Materialien auf Etsy an. Erstellen Sie Amazon KDP Bücher mit Ihren Arbeitsblättern. Keine zusätzlichen Lizenzgebühren erforderlich.
 
 Die 300 DPI Exportqualität erfüllt professionelle Druckstandards. Keine Quellenangabe notwendig. Lehrer-Unternehmer nutzen diese Funktion für passives Einkommen. Die Kostenlose Arbeitsblätter Erstellung wird zur Geschäftsmöglichkeit.`,
         highlighted: true,
@@ -354,7 +354,7 @@ In inklusiven Klassen erstellen Sonderpädagogen differenzierte Materialien. Das
         icon: '💼',
         title: 'Lehrer-Unternehmer für Ausmalbilder und Malvorlagen',
         subtitle: 'Verkauf auf Online-Plattformen',
-        description: `Pädagogen mit unternehmerischem Interesse nutzen die kommerzielle Lizenz. Das Full Access Abo für 240 Euro jährlich enthält alle Rechte. Erstellte Arbeitsblätter dürfen verkauft werden. Teachers Pay Teachers und Etsy sind beliebte Plattformen.
+        description: `Pädagogen mit unternehmerischem Interesse nutzen die kommerzielle Lizenz. Das Vollzugriff Abo für 240 Euro jährlich enthält alle Rechte. Erstellte Arbeitsblätter dürfen verkauft werden. Teachers Pay Teachers und Etsy sind beliebte Plattformen.
 
 Die professionelle 300 DPI Qualität erfüllt Marktstandards. Käufer erwarten druckfertige Produkte. Der Muster-Zug Generator liefert diese Qualität automatisch. Keine Nachbearbeitung in Grafikprogrammen erforderlich.
 
@@ -379,9 +379,9 @@ Kombinieren Sie Muster-Arbeitsblätter mit Ausmalbilder für Lernpakete. Themati
       {
         id: '1',
         question: 'Ist der Muster-Zug Generator für Einmaleins und Schwungübungen wirklich kostenlos nutzbar?',
-        answer: `Der Muster-Zug Generator erfordert ein Full Access Abo für 240 Euro jährlich oder 25 Euro monatlich. Mit Ihrem Abonnement erstellen Sie unbegrenzt Arbeitsblätter ohne zusätzliche Kosten pro Blatt. Keine versteckten Gebühren für Bilder oder Downloads.
+        answer: `Der Muster-Zug Generator erfordert ein Vollzugriff Abo für 240 Euro jährlich oder 25 Euro monatlich. Mit Ihrem Abonnement erstellen Sie unbegrenzt Arbeitsblätter ohne zusätzliche Kosten pro Blatt. Keine versteckten Gebühren für Bilder oder Downloads.
 
-Das Full Access Abo enthält alle 33 Arbeitsblatt-Generatoren der Plattform. Neben dem Muster-Zug erhalten Sie Zugang zu Generatoren für Einmaleins, Schwungübungen und vieles mehr. Die monatliche Option ermöglicht flexible Nutzung ohne langfristige Bindung.`,
+Das Vollzugriff Abo enthält alle 33 Arbeitsblatt-Generatoren der Plattform. Neben dem Muster-Zug erhalten Sie Zugang zu Generatoren für Einmaleins, Schwungübungen und vieles mehr. Die monatliche Option ermöglicht flexible Nutzung ohne langfristige Bindung.`,
       },
       {
         id: '2',
@@ -400,7 +400,7 @@ Die automatische Themenwahl wählt passende Bilder für Sie aus. Für Rechnen le
       {
         id: '4',
         question: 'Kann ich erstellte Arbeitsblätter für Schwungübungen und Buchstaben lernen im Unterricht verwenden?',
-        answer: `Das Full Access Abo enthält unbegrenzte Nutzungsrechte für den Unterricht. Drucken Sie so viele Kopien wie benötigt. Verteilen Sie Arbeitsblätter an alle Schüler Ihrer Klasse. Keine zusätzlichen Lizenzgebühren für Schwungübungen oder andere Materialien.
+        answer: `Das Vollzugriff Abo enthält unbegrenzte Nutzungsrechte für den Unterricht. Drucken Sie so viele Kopien wie benötigt. Verteilen Sie Arbeitsblätter an alle Schüler Ihrer Klasse. Keine zusätzlichen Lizenzgebühren für Schwungübungen oder andere Materialien.
 
 Die Arbeitsblätter eignen sich für Buchstaben lernen Aktivitäten und Musterübungen. Kombinieren Sie verschiedene Generatoren für komplette Lerneinheiten. Auch für Vertretungsstunden und Hausaufgaben nutzbar.`,
       },
@@ -414,7 +414,7 @@ Die Bildbibliothek enthält sprachspezifische Beschriftungen. Für Deutsch Arbei
       {
         id: '6',
         question: 'Darf ich erstellte Arbeitsblätter für Einmaleins und Ausmalbilder verkaufen?',
-        answer: `Ja, das Full Access Abo enthält eine vollständige kommerzielle Lizenz. Verkaufen Sie Ihre Arbeitsblätter auf Teachers Pay Teachers, Etsy oder Amazon KDP. Keine zusätzlichen Lizenzgebühren für Einmaleins Übungen oder andere Materialien.
+        answer: `Ja, das Vollzugriff Abo enthält eine vollständige kommerzielle Lizenz. Verkaufen Sie Ihre Arbeitsblätter auf Teachers Pay Teachers, Etsy oder Amazon KDP. Keine zusätzlichen Lizenzgebühren für Einmaleins Übungen oder andere Materialien.
 
 Auch Ausmalbilder und Malvorlagen dürfen kommerziell genutzt werden. Die 300 DPI Qualität erfüllt professionelle Marktstandards. Keine Quellenangabe erforderlich. Perfekt für Lehrer-Unternehmer mit Online-Shops.`,
       },
@@ -466,7 +466,7 @@ Kombinieren Sie Muster-Arbeitsblätter mit Ausmalbilder für kreative Einheiten.
   // Related Apps Section - FULL text from muster-zug.md
   relatedApps: {
     sectionTitle: 'Muster-Zug kombinieren mit anderen Generatoren - Schwungübungen und Buchstaben lernen Pakete',
-    sectionDescription: 'Das Full Access Abo enthält 33 verschiedene Arbeitsblatt-Generatoren. Kombinieren Sie den Muster-Zug mit anderen Werkzeugen für umfassende Lernpakete. Thematisch abgestimmte Materialien verstärken den Lerneffekt. Entdecken Sie die besten Kombinationen für Ihren Unterricht.',
+    sectionDescription: 'Das Vollzugriff Abo enthält 33 verschiedene Arbeitsblatt-Generatoren. Kombinieren Sie den Muster-Zug mit anderen Werkzeugen für umfassende Lernpakete. Thematisch abgestimmte Materialien verstärken den Lerneffekt. Entdecken Sie die besten Kombinationen für Ihren Unterricht.',
     ctaTitle: 'Bereit für professionelle Muster-Zug Arbeitsblätter?',
     ctaDescription: 'Schließen Sie sich tausenden Pädagogen an, die professionelle Arbeitsblätter in Minuten erstellen.',
     primaryCtaText: 'Kostenlos Testen',

@@ -8,7 +8,7 @@ import { ProductPageContent } from '@/components/product-page/ProductPageClient'
  *
  * FULL SEO content from: INDIVIDUAL APP PAGES/French/picture-path.md
  * App ID: picture-path (Visual maze/path worksheets)
- * Bundle: Full Access ($240/year) - NOT Core Bundle
+ * Bundle: Accès Complet ($240/year) - NOT Pack Essentiel
  * DO NOT SHORTEN - Every paragraph is SEO-optimized
  */
 
@@ -29,7 +29,7 @@ export const picturePathFrContent: ProductPageContent = {
     subtitle: 'Fiches Maternelle et Exercices CP - Fiches à Imprimer Gratuit',
     description: `Créez des parcours d'images professionnels en quelques clics. Notre générateur transforme vos fiches maternelle en activités ludiques et éducatives. Parfait pour le graphisme maternelle et les exercices CP. Les enfants adorent suivre les chemins visuels tout en apprenant.
 
-Votre abonnement Full Access vous donne un accès illimité. Créez autant de fiches à imprimer gratuit que nécessaire. Pas de frais supplémentaires par fiche. Téléchargez des parcours d'images de qualité professionnelle en 3 minutes.
+Votre abonnement Accès Complet vous donne un accès illimité. Créez autant de fiches à imprimer gratuit que nécessaire. Pas de frais supplémentaires par fiche. Téléchargez des parcours d'images de qualité professionnelle en 3 minutes.
 
 Le générateur propose trois modes de jeu différents. Le mode Parcours d'Images crée des chemins entre images. Le mode Labyrinthe Classique génère des labyrinthes avec images à collectionner. Le mode Choisir le Bon Chemin propose plusieurs chemins dont un seul est correct. Chaque mode s'adapte aux besoins de vos élèves.
 
@@ -153,7 +153,7 @@ Les activités sur l'alphabet bénéficient du support multilingue. Créez des p
         id: '5',
         icon: '💰',
         title: 'Licence Commerciale Incluse - Vendez Vos Fiches à Imprimer Gratuit et Exercices Maths',
-        description: `Votre abonnement Full Access inclut une licence commerciale complète. Vendez légalement toutes les fiches que vous créez. Pas de frais de licence supplémentaires. Pas d'attribution requise sur vos créations. Vous gardez 100% de vos revenus de vente.
+        description: `Votre abonnement Accès Complet inclut une licence commerciale complète. Vendez légalement toutes les fiches que vous créez. Pas de frais de licence supplémentaires. Pas d'attribution requise sur vos créations. Vous gardez 100% de vos revenus de vente.
 
 Les plateformes de vente adorent les parcours d'images. Teachers Pay Teachers accueille des milliers d'enseignants vendeurs. Etsy attire les parents cherchant des ressources éducatives. Amazon KDP permet de créer des livres d'activités imprimables. Votre catalogue de fiches maternelle trouve facilement des acheteurs.
 
@@ -351,7 +351,7 @@ Les élèves avec troubles attentionnels réussissent mieux avec moins de distra
         icon: '💰',
         title: 'Enseignants Entrepreneurs - Vendre des Exercices CP et Tables de Multiplication en Ligne',
         subtitle: 'Licence commerciale incluse pour TPT, Etsy et Amazon KDP',
-        description: `Les enseignants entrepreneurs génèrent des revenus avec leurs créations. Les exercices CP se vendent très bien sur Teachers Pay Teachers. Les packs de tables de multiplication trouvent des acheteurs quotidiennement. Votre licence commerciale Full Access autorise toutes les ventes. Aucun frais supplémentaire. Vous gardez 100% de vos bénéfices après commission de plateforme.
+        description: `Les enseignants entrepreneurs génèrent des revenus avec leurs créations. Les exercices CP se vendent très bien sur Teachers Pay Teachers. Les packs de tables de multiplication trouvent des acheteurs quotidiennement. Votre licence commerciale Accès Complet autorise toutes les ventes. Aucun frais supplémentaire. Vous gardez 100% de vos bénéfices après commission de plateforme.
 
 Les packs d'exercices CP ciblés attirent les acheteurs. Créez 20 parcours sur les sons simples. Générez 15 labyrinthes sur les syllabes. Assemblez 25 activités sur les mots-outils. Vendez ces packs 4€ à 7€ selon le contenu. Les enseignants préfèrent les ressources prêtes à l'emploi.
 
@@ -378,7 +378,7 @@ Les tables de multiplication en parcours visuels sont très recherchées. Créez
         question: 'Comment créer des fiches à imprimer gratuit avec parcours d\'images ?',
         answer: `Créer des fiches à imprimer gratuit prend moins de 3 minutes totales. Ouvrez d'abord le générateur dans votre navigateur. Sélectionnez vos images de départ, parcours et arrivée. Choisissez le mode de jeu souhaité. Cliquez sur Créer. Le système génère instantanément votre fiche complète.
 
-Les fiches à imprimer gratuit signifient que vous créez autant de fiches que nécessaire. Aucune limite de création mensuelle ou annuelle. Aucun frais par fiche générée. Votre abonnement Full Access couvre tout. Créez 5 fiches ou 500 fiches par mois. Le prix reste identique.
+Les fiches à imprimer gratuit signifient que vous créez autant de fiches que nécessaire. Aucune limite de création mensuelle ou annuelle. Aucun frais par fiche générée. Votre abonnement Accès Complet couvre tout. Créez 5 fiches ou 500 fiches par mois. Le prix reste identique.
 
 Téléchargez ensuite en PDF ou JPEG haute résolution. Imprimez immédiatement ou sauvegardez pour plus tard. Distribuez gratuitement à vos élèves. Partagez librement avec vos collègues enseignants. La création et l'utilisation pédagogique restent totalement gratuites après l'abonnement.`,
       },
@@ -457,7 +457,7 @@ L'aspect ludique des tables de multiplication réduit l'anxiété mathématique.
       {
         id: '10',
         question: 'Combien de fiches de coloriage puis-je créer avec mon abonnement ?',
-        answer: `Vous pouvez créer un nombre illimité de fiches de coloriage avec Full Access. Aucune restriction mensuelle ou annuelle. Créez 10 fiches par jour si nécessaire. Générez 500 fiches par mois pour toute l'école. Le prix reste identique : 240€ par an ou 25€ par mois.
+        answer: `Vous pouvez créer un nombre illimité de fiches de coloriage avec Accès Complet. Aucune restriction mensuelle ou annuelle. Créez 10 fiches par jour si nécessaire. Générez 500 fiches par mois pour toute l'école. Le prix reste identique : 240€ par an ou 25€ par mois.
 
 Les fiches de coloriage se génèrent aussi rapidement que les parcours normaux. Créez votre fiche en 3 minutes. Activez Niveau de Gris avant téléchargement. Imprimez immédiatement. La conversion en coloriage est instantanée. Aucune manipulation supplémentaire n'est requise.
 
@@ -484,7 +484,7 @@ Les progressions d'écriture cursive suivent votre rythme de classe. Intégrez u
     ],
   },
 
-  // Pricing - Full Access Bundle for Picture Path
+  // Pricing - Accès Complet Bundle for Picture Path
   pricing: {
     title: 'Accès Complet',
     price: '240€',
@@ -506,7 +506,7 @@ Les progressions d'écriture cursive suivent votre rythme de classe. Intégrez u
   // Related Apps - From picture-path.md Section 7
   relatedApps: {
     sectionTitle: 'Combiner les Apps - Apprendre à Lire, Alphabet et Écriture Cursive Ensemble',
-    sectionDescription: 'L\'abonnement Full Access inclut 33 générateurs de fiches différents. Combinez le générateur de parcours avec d\'autres apps. Créez des ressources pédagogiques ultra-complètes. Les élèves travaillent plusieurs compétences simultanément. Votre temps de préparation diminue drastiquement.',
+    sectionDescription: 'L\'abonnement Accès Complet inclut 33 générateurs de fiches différents. Combinez le générateur de parcours avec d\'autres apps. Créez des ressources pédagogiques ultra-complètes. Les élèves travaillent plusieurs compétences simultanément. Votre temps de préparation diminue drastiquement.',
     ctaTitle: 'Prêt à Créer des Fiches Professionnelles ?',
     ctaDescription: 'Rejoignez des milliers d\'enseignants qui créent des fiches maternelle de qualité. Création illimitée, licence commerciale incluse.',
     primaryCtaText: 'Commencer l\'Essai Gratuit',

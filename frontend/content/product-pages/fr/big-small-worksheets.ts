@@ -9,7 +9,7 @@ import { ProductPageContent } from '@/components/product-page/ProductPageClient'
  * FULL SEO content from: INDIVIDUAL APP PAGES/French/big-small.md
  * DO NOT SHORTEN - Every paragraph is SEO-optimized
  *
- * Pricing Tier: Full Access (Accès Complet) - 240€/year
+ * Pricing Tier: Accès Complet (Accès Complet) - 240€/year
  */
 
 export const bigSmallFrContent: ProductPageContent = {
@@ -496,7 +496,7 @@ Créez vos propres thèmes en important des images. Les tables de multiplication
     ],
   },
 
-  // Pricing - Full Access tier for Big Small
+  // Pricing - Accès Complet tier for Big Small
   pricing: {
     title: 'Accès Complet',
     price: '240€',

@@ -416,7 +416,7 @@ Viele Lehrkräfte verdienen 500-5000 € monatlich mit druckbaren Ressourcen fü
     ],
   },
 
-  // Pricing - Math Worksheets is Core Bundle ($144/year)
+  // Pricing - Math Worksheets is Basis-Paket ($144/year)
   pricing: {
     title: 'Basis-Paket',
     price: '144€',

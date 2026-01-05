@@ -8,7 +8,7 @@ import { ProductPageContent } from '@/components/product-page/ProductPageClient'
  *
  * FULL SEO content from: INDIVIDUAL APP PAGES/French/find-objects.md
  * App ID: find-objects (Visual discrimination / I Spy worksheets)
- * Bundle: Full Access ($240/year) - NOT Core Bundle
+ * Bundle: Accès Complet ($240/year) - NOT Pack Essentiel
  * DO NOT SHORTEN - Every paragraph is SEO-optimized
  */
 
@@ -18,7 +18,7 @@ export const findObjectsFrContent: ProductPageContent = {
     slug: 'cherche-objets-fiches',
     appId: 'find-objects',
     title: 'Fiches à Imprimer Gratuit | Générateur de Fiches Maternelle pour Apprendre à Lire',
-    description: 'Créez des fiches professionnelles de discrimination visuelle avec notre générateur. Votre abonnement Full Access vous donne un accès illimité. Téléchargez des PDF haute qualité en moins de 3 minutes.',
+    description: 'Créez des fiches professionnelles de discrimination visuelle avec notre générateur. Votre abonnement Accès Complet vous donne un accès illimité. Téléchargez des PDF haute qualité en moins de 3 minutes.',
     keywords: 'fiches à imprimer gratuit, fiches maternelle, exercices CP, discrimination visuelle, je vois, intrus, graphisme maternelle, coloriage à imprimer, apprendre à lire, alphabet',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fr/apps/cherche-objets-fiches',
   },
@@ -27,11 +27,11 @@ export const findObjectsFrContent: ProductPageContent = {
   hero: {
     title: 'Fiches Cherche les Objets',
     subtitle: 'Générateur de Fiches Maternelle pour Discrimination Visuelle',
-    description: `Créez des fiches professionnelles de discrimination visuelle avec notre générateur. Votre abonnement Full Access vous donne un accès illimité sans frais par fiche. Générez des fiches maternelle personnalisées parfaites pour les exercices CP et Grande Section. Téléchargez des PDF haute qualité en moins de 3 minutes.
+    description: `Créez des fiches professionnelles de discrimination visuelle avec notre générateur. Votre abonnement Accès Complet vous donne un accès illimité sans frais par fiche. Générez des fiches maternelle personnalisées parfaites pour les exercices CP et Grande Section. Téléchargez des PDF haute qualité en moins de 3 minutes.
 
 Notre créateur de fiches à imprimer gratuit aide les enseignants à créer deux types d'activités visuelles. Le mode Je Vois invite les élèves à trouver des objets cachés parmi des distracteurs. Le mode Intrus demande aux enfants d'identifier les images non appariées. Les deux formats conviennent aux fiches maternelle et exercices CP avec niveaux de difficulté ajustables.
 
-L'abonnement Full Access inclut les 33 types de générateurs de fiches. Créez des activités de discrimination visuelle combinées avec des exercices maths, apprendre à lire, et alphabet. Votre abonnement comprend la licence commerciale pour vendre vos fiches sur Teachers Pay Teachers et Etsy. La qualité professionnelle 300 DPI garantit une impression parfaite à chaque fois.
+L'abonnement Accès Complet inclut les 33 types de générateurs de fiches. Créez des activités de discrimination visuelle combinées avec des exercices maths, apprendre à lire, et alphabet. Votre abonnement comprend la licence commerciale pour vendre vos fiches sur Teachers Pay Teachers et Etsy. La qualité professionnelle 300 DPI garantit une impression parfaite à chaque fois.
 
 Les enseignants utilisent notre générateur pour développer les compétences de perception visuelle chez les jeunes apprenants. Les enseignants de maternelle créent des fiches simples avec moins d'objets pour développer l'attention. Les enseignants de CP conçoivent des fiches complexes avec plus d'objets et des distracteurs difficiles. Toutes les fiches se téléchargent en PDF prêtes pour la classe ou la vente commerciale.`,
     previewImageSrc: '/samples/english/find objects/find objects portrait.jpeg',
@@ -87,7 +87,7 @@ Les enseignants utilisent notre générateur pour développer les compétences d
   // Features Grid - FULL text from find-objects.md feature sections
   features: {
     sectionTitle: 'Fonctionnalités du Générateur - Fiches Maternelle et Exercices CP Personnalisables',
-    sectionDescription: 'Notre générateur de discrimination visuelle offre une personnalisation complète pour créer des fiches maternelle et exercices CP. La plateforme inclut deux modes d\'activité distincts avec des outils d\'édition professionnels. Les enseignants créent des fiches à imprimer gratuit pour la pratique de la perception visuelle en moins de trois minutes. L\'abonnement Full Access débloque toutes les fonctionnalités sur 33 types de générateurs incluant exercices maths, alphabet, et apprendre à lire.',
+    sectionDescription: 'Notre générateur de discrimination visuelle offre une personnalisation complète pour créer des fiches maternelle et exercices CP. La plateforme inclut deux modes d\'activité distincts avec des outils d\'édition professionnels. Les enseignants créent des fiches à imprimer gratuit pour la pratique de la perception visuelle en moins de trois minutes. L\'abonnement Accès Complet débloque toutes les fonctionnalités sur 33 types de générateurs incluant exercices maths, alphabet, et apprendre à lire.',
     highlightBadgeText: 'Fonctionnalité Clé',
     readMoreLabel: 'Lire la suite',
     showLessLabel: 'Voir moins',
@@ -138,7 +138,7 @@ Cette fonctionnalité transforme les exercices CP et fiches pour apprendre à li
         id: '5',
         icon: '💰',
         title: 'Licence Commerciale Incluse - Vendez sur Teachers Pay Teachers',
-        description: `L'abonnement Full Access inclut la licence commerciale d'impression à la demande sans frais supplémentaires. Vendez des fiches sur Teachers Pay Teachers, Etsy et Amazon KDP sans frais additionnels. Aucun frais de licence supplémentaire au-delà de votre abonnement annuel de 240€. D'autres plateformes facturent 79 à 199€ annuellement pour les droits commerciaux. Votre abonnement Full Access inclut la licence commerciale pour tout ce que vous créez.
+        description: `L'abonnement Accès Complet inclut la licence commerciale d'impression à la demande sans frais supplémentaires. Vendez des fiches sur Teachers Pay Teachers, Etsy et Amazon KDP sans frais additionnels. Aucun frais de licence supplémentaire au-delà de votre abonnement annuel de 240€. D'autres plateformes facturent 79 à 199€ annuellement pour les droits commerciaux. Votre abonnement Accès Complet inclut la licence commerciale pour tout ce que vous créez.
 
 Créez du coloriage à imprimer combiné avec des activités de discrimination visuelle pour un attrait produit plus large. Emballez des fiches alphabet avec des thèmes de discrimination visuelle pour des ensembles d'apprentissage de l'alphabet. Concevez des packs de fiches saisonnières combinant plusieurs types de générateurs. La qualité professionnelle 300 DPI garantit que vos produits paraissent parfaits quand les clients les impriment à domicile ou dans des imprimeries commerciales. Beaucoup d'enseignants gagnent 500 à 5000€ mensuellement en vendant des fiches à imprimer gratuit comme revenu passif. Construisez une boutique Teachers Pay Teachers utilisant des fiches que vous générez en minutes. Aucune attribution requise sur les fiches vendues pour une présentation professionnelle. La licence commerciale couvre les 33 types de générateurs pour une variété de produits et un potentiel de revenu maximum.`,
         highlighted: true,
@@ -318,7 +318,7 @@ Combinez les objets cachés avec du coloriage à imprimer et fiches maternelle p
         icon: '💰',
         title: 'Enseignants Entrepreneurs',
         subtitle: 'Exercices CP et Exercices Maths pour Ventes Teachers Pay Teachers',
-        description: `Les enseignants entrepreneurs génèrent des revenus passifs en vendant des fiches à imprimer gratuit sur Teachers Pay Teachers. La licence commerciale couvre toutes les fiches créées avec votre abonnement Full Access. Aucuns frais supplémentaires au-delà de 240€ annuellement. Créez des gammes de produits entières en heures au lieu de semaines. Beaucoup de vendeurs gagnent 500 à 5000€ mensuellement en vendant des imprimables éducatifs.
+        description: `Les enseignants entrepreneurs génèrent des revenus passifs en vendant des fiches à imprimer gratuit sur Teachers Pay Teachers. La licence commerciale couvre toutes les fiches créées avec votre abonnement Accès Complet. Aucuns frais supplémentaires au-delà de 240€ annuellement. Créez des gammes de produits entières en heures au lieu de semaines. Beaucoup de vendeurs gagnent 500 à 5000€ mensuellement en vendant des imprimables éducatifs.
 
 Concevez des ensembles de fiches thématiques combinant plusieurs types d'activités. Emballez la discrimination visuelle avec des exercices CP couvrant diverses compétences. Créez des ensembles saisonniers pour la rentrée scolaire, Halloween, Noël et printemps. Groupez 10 à 20 fiches par produit pour des prix plus élevés. Le générateur crée des fiches de base en minutes. Ajoutez votre image de marque et descriptions de produit pour des listes polies.
 
@@ -343,7 +343,7 @@ Téléversez des graphiques personnalisés pour créer des produits uniques que 
       {
         id: '1',
         question: 'Puis-je Créer des Fiches Combinant Discrimination Visuelle avec Apprendre à Lire et Alphabet?',
-        answer: 'Oui, combinez librement la discrimination visuelle avec d\'autres types de fiches sur la plateforme. L\'abonnement Full Access inclut 33 types de générateurs différents. Créez des fiches d\'objets cachés puis ajoutez des exercices alphabet sur la même page. Générez des activités apprendre à lire utilisant des images d\'objets cachés comme repères visuels. Téléversez des images de lettres pour créer des énigmes de discrimination visuelle axées sur l\'alphabet. Les enseignants FLE combinent fréquemment reconnaissance d\'objets avec construction de vocabulaire et identification de lettres.',
+        answer: 'Oui, combinez librement la discrimination visuelle avec d\'autres types de fiches sur la plateforme. L\'abonnement Accès Complet inclut 33 types de générateurs différents. Créez des fiches d\'objets cachés puis ajoutez des exercices alphabet sur la même page. Générez des activités apprendre à lire utilisant des images d\'objets cachés comme repères visuels. Téléversez des images de lettres pour créer des énigmes de discrimination visuelle axées sur l\'alphabet. Les enseignants FLE combinent fréquemment reconnaissance d\'objets avec construction de vocabulaire et identification de lettres.',
       },
       {
         id: '2',
@@ -353,12 +353,12 @@ Téléversez des graphiques personnalisés pour créer des produits uniques que 
       {
         id: '3',
         question: 'Le Générateur Soutient-il la Création de Coloriage à Imprimer et Écriture Cursive?',
-        answer: 'Le générateur d\'objets cachés se concentre sur la discrimination visuelle mais se combine avec les générateurs coloriage à imprimer et écriture cursive sur la plateforme. Créez des fiches d\'objets cachés puis téléchargez en niveaux de gris pour une activité de coloriage combinée. Les élèves trouvent d\'abord les objets cachés puis colorient la fiche entière. Cette approche en deux étapes fournit des activités d\'attention prolongée et de motricité fine. L\'abonnement Full Access inclut des générateurs coloriage à imprimer et écriture cursive dédiés.',
+        answer: 'Le générateur d\'objets cachés se concentre sur la discrimination visuelle mais se combine avec les générateurs coloriage à imprimer et écriture cursive sur la plateforme. Créez des fiches d\'objets cachés puis téléchargez en niveaux de gris pour une activité de coloriage combinée. Les élèves trouvent d\'abord les objets cachés puis colorient la fiche entière. Cette approche en deux étapes fournit des activités d\'attention prolongée et de motricité fine. L\'abonnement Accès Complet inclut des générateurs coloriage à imprimer et écriture cursive dédiés.',
       },
       {
         id: '4',
         question: 'Puis-je Utiliser ce Générateur pour Enseigner l\'Alphabet à Plusieurs Enfants?',
-        answer: 'Absolument, l\'abonnement Full Access sert des familles entières et des classes complètes. Créez des versions différenciées de la même fiche alphabet pour différents niveaux d\'aptitude. Les élèves avancés reçoivent des fiches avec plus de lettres cachées et des distracteurs complexes. Les apprenants débutants obtiennent des fiches alphabet simplifiées avec moins d\'éléments et des différences claires. Générez des fiches illimitées sans frais par création ou téléchargement.',
+        answer: 'Absolument, l\'abonnement Accès Complet sert des familles entières et des classes complètes. Créez des versions différenciées de la même fiche alphabet pour différents niveaux d\'aptitude. Les élèves avancés reçoivent des fiches avec plus de lettres cachées et des distracteurs complexes. Les apprenants débutants obtiennent des fiches alphabet simplifiées avec moins d\'éléments et des différences claires. Générez des fiches illimitées sans frais par création ou téléchargement.',
       },
       {
         id: '5',
@@ -368,7 +368,7 @@ Téléversez des graphiques personnalisés pour créer des produits uniques que 
       {
         id: '6',
         question: 'Puis-je Vendre des Fiches Incluant Coloriage à Imprimer Commercialement?',
-        answer: 'Oui, l\'abonnement Full Access inclut la licence commerciale d\'impression à la demande pour toutes les fiches créées. Vendez des fiches illimitées sur Teachers Pay Teachers, Etsy, Amazon KDP et d\'autres plateformes. Aucuns frais de licence supplémentaires au-delà de l\'abonnement annuel de 240€. Les concurrents facturent 79 à 199€ EN PLUS pour les droits commerciaux. Vos droits de licence commerciale couvrent tous les 33 types de générateurs incluant coloriage à imprimer et graphisme maternelle. Aucune attribution requise sur les fiches vendues.',
+        answer: 'Oui, l\'abonnement Accès Complet inclut la licence commerciale d\'impression à la demande pour toutes les fiches créées. Vendez des fiches illimitées sur Teachers Pay Teachers, Etsy, Amazon KDP et d\'autres plateformes. Aucuns frais de licence supplémentaires au-delà de l\'abonnement annuel de 240€. Les concurrents facturent 79 à 199€ EN PLUS pour les droits commerciaux. Vos droits de licence commerciale couvrent tous les 33 types de générateurs incluant coloriage à imprimer et graphisme maternelle. Aucune attribution requise sur les fiches vendues.',
       },
       {
         id: '7',
@@ -392,13 +392,13 @@ Téléversez des graphiques personnalisés pour créer des produits uniques que 
       },
       {
         id: '11',
-        question: 'Quel Est le Coût de l\'Abonnement Full Access?',
-        answer: 'L\'abonnement Full Access coûte 240€ par an ou 25€ par mois. Votre abonnement vous donne accès aux 33 types de générateurs de fiches. Créez des fiches illimitées sans frais supplémentaires par fiche. La licence commerciale est incluse pour vendre vos créations. Le support de 11 langues et l\'export 300 DPI sont inclus. Garantie satisfait ou remboursé 30 jours. Comparez avec les 150 à 300€ par an que coûtent les services de traduction seuls pour les enseignants multilingues.',
+        question: 'Quel Est le Coût de l\'Abonnement Accès Complet?',
+        answer: 'L\'abonnement Accès Complet coûte 240€ par an ou 25€ par mois. Votre abonnement vous donne accès aux 33 types de générateurs de fiches. Créez des fiches illimitées sans frais supplémentaires par fiche. La licence commerciale est incluse pour vendre vos créations. Le support de 11 langues et l\'export 300 DPI sont inclus. Garantie satisfait ou remboursé 30 jours. Comparez avec les 150 à 300€ par an que coûtent les services de traduction seuls pour les enseignants multilingues.',
       },
     ],
   },
 
-  // Pricing - Full Access Bundle for Find Objects
+  // Pricing - Accès Complet Bundle for Find Objects
   pricing: {
     title: 'Accès Complet',
     price: '240€',
@@ -420,7 +420,7 @@ Téléversez des graphiques personnalisés pour créer des produits uniques que 
   // Related Apps
   relatedApps: {
     sectionTitle: 'Combinez avec D\'Autres Générateurs de Fiches',
-    sectionDescription: 'Votre abonnement Full Access inclut 33 générateurs complémentaires. Combinez la discrimination visuelle avec d\'autres outils pour créer des séquences pédagogiques complètes.',
+    sectionDescription: 'Votre abonnement Accès Complet inclut 33 générateurs complémentaires. Combinez la discrimination visuelle avec d\'autres outils pour créer des séquences pédagogiques complètes.',
     ctaTitle: 'Prêt à Créer des Fiches Fantastiques ?',
     ctaDescription: 'Rejoignez des milliers d\'enseignants qui créent des fiches professionnelles. Génération illimitée, licence commerciale incluse.',
     primaryCtaText: 'Commencer l\'Essai Gratuit',

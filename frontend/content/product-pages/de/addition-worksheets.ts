@@ -133,7 +133,7 @@ Unser kostenloser Additions-Generator bietet über 3000 kindgerechte Bilder für
         title: 'Bildbasierte Addition - Visuelle Mathe-Arbeitsblätter für Rechnen lernen',
         description: `Junge Lernende verstehen Zahlen durch konkrete Bilder. Unser Additions-Generator verwendet Tierbilder, Fahrzeuge, Früchte und über 3000 weitere Motive für Arbeitsblätter Grundschule. Visuelle Addition macht Mathe-Arbeitsblätter greifbar und verständlich für Vorschul-Arbeitsblätter.
 
-Die Methodik folgt bewährten pädagogischen Grundsätzen für Rechnen lernen 1. Klasse. Konkrete Darstellungen ermöglichen Begriffsverständnis. Schüler zählen Bilder vor der Abstraktion zu Zahlen. Das Core Bundle für 144 € jährlich bietet Zugang zu allen Bildern ohne Beschränkungen.
+Die Methodik folgt bewährten pädagogischen Grundsätzen für Rechnen lernen 1. Klasse. Konkrete Darstellungen ermöglichen Begriffsverständnis. Schüler zählen Bilder vor der Abstraktion zu Zahlen. Das Basis-Paket für 144 € jährlich bietet Zugang zu allen Bildern ohne Beschränkungen.
 
 Vorschulkinder und Erstklässler profitieren enorm von bildbasiertem Lernen. Traditionelle Mathe-Arbeitsblätter mit nur Zahlen überfordern oft junge Lernende. Mit Bildern bauen Schüler Zahlensinn und Selbstvertrauen auf. Kostenlose Arbeitsblätter machen diese Methode allen zugänglich.`,
         highlighted: true,
@@ -146,7 +146,7 @@ Vorschulkinder und Erstklässler profitieren enorm von bildbasiertem Lernen. Tra
 
 Verschiedene Modi sprechen unterschiedliche Lernstadien an für Mathe-Arbeitsblätter. Anfänger beginnen mit Bild-plus-Bild. Fortgeschrittene arbeiten mit Bild-plus-Zahl. Meister lösen Addend-Finden-Aufgaben. Jeder Modus unterstützt progressive Entwicklung für Rechnen lernen.
 
-Differenzierte Vorschul-Arbeitsblätter entstehen durch Modi-Auswahl. Gleiche Themen, unterschiedliche Schwierigkeiten. Lehrkräfte verteilen passende Arbeitsblätter nach Schülerniveau. Alle arbeiten am gleichen Thema, aber auf ihrem eigenen Niveau. Das Core Bundle macht Differenzierung einfach.`,
+Differenzierte Vorschul-Arbeitsblätter entstehen durch Modi-Auswahl. Gleiche Themen, unterschiedliche Schwierigkeiten. Lehrkräfte verteilen passende Arbeitsblätter nach Schülerniveau. Alle arbeiten am gleichen Thema, aber auf ihrem eigenen Niveau. Das Basis-Paket macht Differenzierung einfach.`,
         highlighted: false,
       },
       {
@@ -166,7 +166,7 @@ Summen-Obergrenzen verhindern zu schwere Aufgaben für Vorschul-Arbeitsblätter.
         title: 'Automatische Lösungsblätter - Zeitsparende Korrektur für Arbeitsblätter Grundschule',
         description: `Jedes generierte Arbeitsblatt erstellt automatisch ein Lösungsblatt für Mathe-Arbeitsblätter. Die Antworten erscheinen klar in den Lösungsfeldern. Wechseln Sie zwischen Arbeitsblatt und Lösung mit einem Klick. Beide laden als separate Dateien für kostenlose Arbeitsblätter herunter.
 
-Lehrkräfte sparen enorme Korrekturzeit mit Vorschul-Arbeitsblättern. Keine manuelle Berechnung jeder Aufgabe mehr nötig. Schnelle visuelle Überprüfung mit dem Lösungsblatt. Mehr Zeit für eigentlichen Unterricht statt Korrektur. Das Core Bundle maximiert Ihre Zeiteffizienz für Arbeitsblätter Grundschule.
+Lehrkräfte sparen enorme Korrekturzeit mit Vorschul-Arbeitsblättern. Keine manuelle Berechnung jeder Aufgabe mehr nötig. Schnelle visuelle Überprüfung mit dem Lösungsblatt. Mehr Zeit für eigentlichen Unterricht statt Korrektur. Das Basis-Paket maximiert Ihre Zeiteffizienz für Arbeitsblätter Grundschule.
 
 Selbstkorrektur wird mit Lösungsblättern möglich für Rechnen lernen. Schüler können ihre Arbeit eigenständig überprüfen. Fördert Verantwortung und Selbstständigkeit. Eltern helfen bei Hausaufgaben ohne Mathe-Angst. Lösungsblätter machen Additions-Übung für alle zugänglicher.`,
         highlighted: true,
@@ -273,7 +273,7 @@ Wechseln Sie zwischen Arbeitsblatt und Lösungsblatt mit einem Klick für kosten
 
 Laden Sie sowohl das Arbeitsblatt als auch das Lösungsblatt herunter für Mathe-Arbeitsblätter. Beide Dateien sind druckbereit ohne weitere Bearbeitung. Perfekt formatiert für A4 oder Letter Papier. Drucken Sie beliebig viele Kopien für Ihre Klasse.
 
-Mit dem Core Bundle für 144 € jährlich erhalten Sie wasserzeichenfreie Downloads für Rechnen lernen. Die kostenlose Version enthält ein kleines Wasserzeichen. Kommerzielle Lizenz inklusive für den Verkauf Ihrer Arbeitsblätter auf Teachers Pay Teachers oder Etsy.`,
+Mit dem Basis-Paket für 144 € jährlich erhalten Sie wasserzeichenfreie Downloads für Rechnen lernen. Die kostenlose Version enthält ein kleines Wasserzeichen. Kommerzielle Lizenz inklusive für den Verkauf Ihrer Arbeitsblätter auf Teachers Pay Teachers oder Etsy.`,
         icon: '📥',
       },
     ],
@@ -296,7 +296,7 @@ Mit dem Core Bundle für 144 € jährlich erhalten Sie wasserzeichenfreie Downl
 
 Erstellen Sie Vorschul-Arbeitsblätter passend zu Wochen- oder Monatsthemen für Mathe-Arbeitsblätter. Zoo-Woche bekommt Tier-Additions-Aufgaben. Herbst-Monat verwendet Blätter und Kürbisse. Visuelle Konsistenz verstärkt Lernen über Aktivitäten hinweg.
 
-Kombinieren Sie Additions-Übungen mit Ausmalbildern für umfassende Vorschul-Aktivitäten. Nach Abschluss der Mathe-Aufgaben malen Kinder die Bilder aus. Schwungübungen können als Aufwärmaktivität vor Mathe dienen. Das Core Bundle bietet alle Generatoren für ganzheitliche Vorschulbildung.`,
+Kombinieren Sie Additions-Übungen mit Ausmalbildern für umfassende Vorschul-Aktivitäten. Nach Abschluss der Mathe-Aufgaben malen Kinder die Bilder aus. Schwungübungen können als Aufwärmaktivität vor Mathe dienen. Das Basis-Paket bietet alle Generatoren für ganzheitliche Vorschulbildung.`,
         quote: 'Meine Vorschulkinder lieben die bunten Tier-Additions-Arbeitsblätter!',
       },
       {
@@ -308,7 +308,7 @@ Kombinieren Sie Additions-Übungen mit Ausmalbildern für umfassende Vorschul-Ak
 
 Nutzen Sie verschiedene Übungsmodi für progressives Lernen beim Rechnen lernen 1. Klasse. Beginnen Sie das Schuljahr mit Bild-plus-Bild. Steigern Sie zu Bild-plus-Zahl. Beenden Sie mit Addend-Finden. Die fünf Modi unterstützen natürlichen Lernfortschritt für Mathe-Arbeitsblätter.
 
-Erstellen Sie wöchentliche Übungsblätter in Minuten statt Stunden für kostenlose Arbeitsblätter. Montags-Diagnose, mittwochs Übung, freitags Assessment. Verschiedene Themen halten Schüler engagiert. Das Core Bundle spart durchschnittlich 10-15 Stunden wöchentlich an Vorbereitungszeit.`,
+Erstellen Sie wöchentliche Übungsblätter in Minuten statt Stunden für kostenlose Arbeitsblätter. Montags-Diagnose, mittwochs Übung, freitags Assessment. Verschiedene Themen halten Schüler engagiert. Das Basis-Paket spart durchschnittlich 10-15 Stunden wöchentlich an Vorbereitungszeit.`,
         quote: 'Die fünf Übungsmodi machen Differenzierung so einfach.',
       },
       {
@@ -320,7 +320,7 @@ Erstellen Sie wöchentliche Übungsblätter in Minuten statt Stunden für kosten
 
 Mehrere Kinder unterschiedlichen Alters benötigen verschiedene Niveaus für Arbeitsblätter Grundschule. Der Generator erstellt angepasste Mathe-Arbeitsblätter für jedes Kind. Gleiche Themen, unterschiedliche Schwierigkeiten. Geschwister arbeiten am selben Tisch an ihrem Niveau.
 
-Kombinieren Sie Additions-Übungen mit anderen Homeschool-Aktivitäten für Rechnen lernen. Thematische Kohärenz über Fächer verstärkt Lernen. Zoo-Tag kombiniert Tier-Mathe mit Tier-Sachkunde. Das Core Bundle bietet zusätzlich Ausmalbilder, Schwungübungen und Buchstaben lernen.`,
+Kombinieren Sie Additions-Übungen mit anderen Homeschool-Aktivitäten für Rechnen lernen. Thematische Kohärenz über Fächer verstärkt Lernen. Zoo-Tag kombiniert Tier-Mathe mit Tier-Sachkunde. Das Basis-Paket bietet zusätzlich Ausmalbilder, Schwungübungen und Buchstaben lernen.`,
         quote: 'Ein Werkzeug deckt alle Mathematik-Niveaus meiner drei Kinder ab.',
       },
       {
@@ -332,7 +332,7 @@ Kombinieren Sie Additions-Übungen mit anderen Homeschool-Aktivitäten für Rech
 
 Erstellen Sie dieselben Arbeitsblätter in Muttersprache und Deutsch für Arbeitsblätter Grundschule. Schüler sehen vertraute Konzepte in neuer Sprache. Visuelles Lernen überbrückt Sprachbarrieren. Addition funktioniert gleich in jeder Sprache.
 
-Bildbasierte Mathe-Arbeitsblätter ermöglichen Teilnahme vor Sprachbeherrschung für Rechnen lernen. Schüler verstehen Aufgaben durch Bilder. Zählen funktioniert ohne Lesekompetenz. Frühe Erfolgserlebnisse bauen Selbstvertrauen auf. Das Core Bundle unterstützt mehrsprachige Klassenzimmer.`,
+Bildbasierte Mathe-Arbeitsblätter ermöglichen Teilnahme vor Sprachbeherrschung für Rechnen lernen. Schüler verstehen Aufgaben durch Bilder. Zählen funktioniert ohne Lesekompetenz. Frühe Erfolgserlebnisse bauen Selbstvertrauen auf. Das Basis-Paket unterstützt mehrsprachige Klassenzimmer.`,
         quote: 'Die Mehrsprachigkeit ist genau was meine DaZ-Schüler brauchen.',
       },
       {
@@ -352,7 +352,7 @@ Visuelle Addition reduziert Mathe-Angst bei sensiblen Schülern für Rechnen ler
         icon: '💰',
         title: 'Lehrkräfte-Unternehmer',
         subtitle: 'Verkaufen Sie Mathe-Arbeitsblätter',
-        description: `Viele Lehrkräfte verdienen Nebeneinkommen durch den Verkauf von Unterrichtsmaterialien bei Mathe-Arbeitsblättern. Das Core Bundle für 144 € jährlich beinhaltet vollständige kommerzielle Lizenz. Verkaufen Sie Ihre Additions-Arbeitsblätter auf Teachers Pay Teachers, Etsy oder Amazon KDP ohne Einschränkungen für Arbeitsblätter Grundschule.
+        description: `Viele Lehrkräfte verdienen Nebeneinkommen durch den Verkauf von Unterrichtsmaterialien bei Mathe-Arbeitsblättern. Das Basis-Paket für 144 € jährlich beinhaltet vollständige kommerzielle Lizenz. Verkaufen Sie Ihre Additions-Arbeitsblätter auf Teachers Pay Teachers, Etsy oder Amazon KDP ohne Einschränkungen für Arbeitsblätter Grundschule.
 
 Erstellen Sie thematische Additions-Pakete für verschiedene Jahreszeiten und Anlässe für kostenlose Arbeitsblätter. 20 Herbst-Additions-Arbeitsblätter. 30 Zoo-Tier-Mathe-Übungen. Käufer schätzen umfangreiche, thematisch kohärente Ressourcen. Die 300 DPI Qualität rechtfertigt Premium-Preise.
 
@@ -365,7 +365,7 @@ Viele Lehrkräfte verdienen 500-5000 € monatlich mit druckbaren Ressourcen fü
   // FAQ Section - FULL FAQs from addition.md
   faq: {
     sectionTitle: 'Häufig gestellte Fragen zu Mathe-Arbeitsblättern und kostenlosen Arbeitsblättern Grundschule',
-    sectionDescription: 'Lehrkräfte und Eltern haben viele Fragen zum Additions-Generator und Core Bundle Abonnement. Hier beantworten wir die häufigsten Fragen zu Arbeitsblätter Grundschule, Vorschul-Arbeitsblättern und kommerzieller Lizenzierung.',
+    sectionDescription: 'Lehrkräfte und Eltern haben viele Fragen zum Additions-Generator und Basis-Paket Abonnement. Hier beantworten wir die häufigsten Fragen zu Arbeitsblätter Grundschule, Vorschul-Arbeitsblättern und kommerzieller Lizenzierung.',
     showMoreText: 'Mehr Fragen anzeigen',
     showLessText: 'Weniger anzeigen',
     badgeText: 'Häufige Fragen',
@@ -377,7 +377,7 @@ Viele Lehrkräfte verdienen 500-5000 € monatlich mit druckbaren Ressourcen fü
       {
         id: '1',
         question: 'Ist der Additions-Generator wirklich kostenlos für Mathe-Arbeitsblätter und Vorschul-Arbeitsblätter?',
-        answer: 'Der Generator ist kostenlos mit Wasserzeichen für persönliche, nicht-kommerzielle Nutzung. Erstellen Sie unbegrenzt Vorschul-Arbeitsblätter und Mathe-Aktivitäten für Ihr eigenes Klassenzimmer oder Homeschool. Kostenlose Arbeitsblätter enthalten ein kleines Wasserzeichen in der Ecke. Ideal für Lehrkräfte, die Materialien für ihre eigenen Schüler benötigen. Das Core Bundle Abonnement kostet 144 Euro jährlich oder 15 Euro monatlich. Abonnenten erhalten wasserzeichenfreie Arbeitsblätter Grundschule in professioneller Qualität. Zugang zu 10 Premium-Generatoren inklusive. Kommerzielle Lizenzierung für den Verkauf Ihrer Arbeitsblätter enthalten.',
+        answer: 'Der Generator ist kostenlos mit Wasserzeichen für persönliche, nicht-kommerzielle Nutzung. Erstellen Sie unbegrenzt Vorschul-Arbeitsblätter und Mathe-Aktivitäten für Ihr eigenes Klassenzimmer oder Homeschool. Kostenlose Arbeitsblätter enthalten ein kleines Wasserzeichen in der Ecke. Ideal für Lehrkräfte, die Materialien für ihre eigenen Schüler benötigen. Das Basis-Paket Abonnement kostet 144 Euro jährlich oder 15 Euro monatlich. Abonnenten erhalten wasserzeichenfreie Arbeitsblätter Grundschule in professioneller Qualität. Zugang zu 10 Premium-Generatoren inklusive. Kommerzielle Lizenzierung für den Verkauf Ihrer Arbeitsblätter enthalten.',
       },
       {
         id: '2',
@@ -402,7 +402,7 @@ Viele Lehrkräfte verdienen 500-5000 € monatlich mit druckbaren Ressourcen fü
       {
         id: '6',
         question: 'Kann ich selbst erstellte Arbeitsblätter verkaufen auf Teachers Pay Teachers mit Mathe-Arbeitsblättern?',
-        answer: 'Ja, Ihr Core Bundle Abonnement beinhaltet vollständige kommerzielle Print-on-Demand-Lizenzierung. Verkaufen Sie Arbeitsblätter Grundschule auf Teachers Pay Teachers, Etsy oder Amazon KDP. Keine Namensnennung erforderlich. Keine Lizenzgebühren. Keine zusätzlichen Gebühren. Behalten Sie 100% der Einnahmen nach Plattformgebühren. Erstellen Sie Mathe-Arbeitsblätter-Bundles für kommerzielle Verkäufe. Viele Lehrkräfte verdienen 500-5000 Euro monatlich mit dem Verkauf druckbarer Ressourcen.',
+        answer: 'Ja, Ihr Basis-Paket Abonnement beinhaltet vollständige kommerzielle Print-on-Demand-Lizenzierung. Verkaufen Sie Arbeitsblätter Grundschule auf Teachers Pay Teachers, Etsy oder Amazon KDP. Keine Namensnennung erforderlich. Keine Lizenzgebühren. Keine zusätzlichen Gebühren. Behalten Sie 100% der Einnahmen nach Plattformgebühren. Erstellen Sie Mathe-Arbeitsblätter-Bundles für kommerzielle Verkäufe. Viele Lehrkräfte verdienen 500-5000 Euro monatlich mit dem Verkauf druckbarer Ressourcen.',
       },
       {
         id: '7',
@@ -458,7 +458,7 @@ Viele Lehrkräfte verdienen 500-5000 € monatlich mit druckbaren Ressourcen fü
   // Related Apps - Kombinieren Sie Additions-Arbeitsblätter mit anderen Generatoren
   relatedApps: {
     sectionTitle: 'Kombinieren Sie Additions-Arbeitsblätter mit anderen Generatoren - Ganzheitliche Arbeitsblätter Grundschule',
-    sectionDescription: 'Ihr Core Bundle Abonnement beinhaltet 10 Premium-Generatoren, die perfekt zusammenarbeiten. Kombinieren Sie Additions-Arbeitsblätter mit Ausmalbilder für kreative Pausen. Integrieren Sie Schwungübungen für Schreibvorbereitung. Verbinden Sie mit Einmaleins-Übungen für ältere Schüler.',
+    sectionDescription: 'Ihr Basis-Paket Abonnement beinhaltet 10 Premium-Generatoren, die perfekt zusammenarbeiten. Kombinieren Sie Additions-Arbeitsblätter mit Ausmalbilder für kreative Pausen. Integrieren Sie Schwungübungen für Schreibvorbereitung. Verbinden Sie mit Einmaleins-Übungen für ältere Schüler.',
     ctaTitle: 'Bereit, fantastische Arbeitsblätter zu erstellen?',
     ctaDescription: 'Schließen Sie sich tausenden Lehrkräften an, die professionelle Mathe-Arbeitsblätter erstellen. Unbegrenzte Generierung, kommerzielle Lizenz inklusive.',
     primaryCtaText: 'Kostenlos Testen',

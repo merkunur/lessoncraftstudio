@@ -39,7 +39,7 @@ export const oddOneOutDeContent: ProductPageContent = {
   hero: {
     title: 'Was passt nicht Generator',
     subtitle: 'Kostenlose Arbeitsblätter für Vorschule und Grundschule',
-    description: `Erstellen Sie professionelle "Was passt nicht"-Arbeitsblätter mit unserem Generator für Arbeitsblätter Grundschule. Mit Ihrem Full Access Abonnement gestalten Sie unbegrenzt viele Übungsblätter ohne zusätzliche Kosten. Laden Sie druckfertige PDF-Arbeitsblätter in weniger als 3 Minuten herunter. Perfekt für Vorschule Arbeitsblätter und den Einsatz in der 1. Klasse bis 3. Klasse.
+    description: `Erstellen Sie professionelle "Was passt nicht"-Arbeitsblätter mit unserem Generator für Arbeitsblätter Grundschule. Mit Ihrem Vollzugriff Abonnement gestalten Sie unbegrenzt viele Übungsblätter ohne zusätzliche Kosten. Laden Sie druckfertige PDF-Arbeitsblätter in weniger als 3 Minuten herunter. Perfekt für Vorschule Arbeitsblätter und den Einsatz in der 1. Klasse bis 3. Klasse.
 
 Der Was passt nicht Generator ist ein vielseitiges Werkzeug für Pädagogen. Kinder lernen, Kategorien zu erkennen und logisch zu denken. Jedes Arbeitsblatt zeigt vier Bilder pro Übung. Drei Bilder gehören zusammen, eines ist anders. Die Schüler kreisen das Bild ein, das nicht dazu passt. Diese Übungen fördern kritisches Denken und visuelle Wahrnehmung.
 
@@ -150,7 +150,7 @@ Auch die Bildinhalte sind mehrsprachig. Buchstaben lernen gelingt in jeder Sprac
         id: '5',
         icon: '💰',
         title: 'Schwungübungen und Ausmalbilder kombinieren - POD Lizenz für kommerzielle Nutzung',
-        description: `Das Full Access Abonnement enthält eine kommerzielle Lizenz. Verkaufen Sie erstellte Arbeitsblätter auf Etsy oder Teachers Pay Teachers. Keine zusätzlichen Lizenzgebühren erforderlich. Die Ausmalbilder und Schwungübungen in der Bibliothek sind lizenzfrei. Auch für Amazon KDP Bücher geeignet.
+        description: `Das Vollzugriff Abonnement enthält eine kommerzielle Lizenz. Verkaufen Sie erstellte Arbeitsblätter auf Etsy oder Teachers Pay Teachers. Keine zusätzlichen Lizenzgebühren erforderlich. Die Ausmalbilder und Schwungübungen in der Bibliothek sind lizenzfrei. Auch für Amazon KDP Bücher geeignet.
 
 Die 300 DPI Exportqualität erfüllt professionelle Druckstandards. Ihre Arbeitsblätter sehen gedruckt genauso gut aus wie am Bildschirm. Keine Qualitätsverluste bei Vergrößerung. Perfekt für Lehrer-Unternehmer mit eigenem Materialshop.`,
         highlighted: true,
@@ -333,7 +333,7 @@ Erstellen Sie Arbeitsblätter für Rechnen 1. Klasse mit visueller Unterstützun
         icon: '💼',
         title: 'Lehrer-Unternehmer',
         subtitle: 'Kostenlose Arbeitsblätter und Mathe Arbeitsblätter auf Etsy verkaufen',
-        description: `Lehrkräfte mit eigenem Materialshop nutzen die kommerzielle Lizenz. Das Full Access Abonnement für 240 Euro jährlich enthält alle Rechte. Verkaufen Sie erstellte Arbeitsblätter auf Teachers Pay Teachers. Oder listen Sie Ihre Mathe Arbeitsblätter auf Etsy.
+        description: `Lehrkräfte mit eigenem Materialshop nutzen die kommerzielle Lizenz. Das Vollzugriff Abonnement für 240 Euro jährlich enthält alle Rechte. Verkaufen Sie erstellte Arbeitsblätter auf Teachers Pay Teachers. Oder listen Sie Ihre Mathe Arbeitsblätter auf Etsy.
 
 Die 300 DPI Qualität erfüllt professionelle Druckstandards. Kunden erhalten hochwertige PDF-Dateien. Keine Qualitätsverluste bei Vergrößerung oder Ausdruck. Ihre Produkte sehen professionell aus und verkaufen sich besser.
 
@@ -358,9 +358,9 @@ Erstellen Sie thematische Pakete für höhere Verkaufspreise. Fünf Was passt ni
       {
         id: '1',
         question: 'Ist der Was passt nicht Generator für Mathe Arbeitsblätter und Einmaleins wirklich kostenlos?',
-        answer: `Der Was passt nicht Generator erfordert ein Full Access Abonnement für 240 Euro jährlich oder 25 Euro monatlich. Ihr Abonnement ermöglicht unbegrenzte Arbeitsblatterstellung ohne zusätzliche Kosten. Erstellen Sie beliebig viele Was passt nicht Übungen, Mathe Arbeitsblätter oder Einmaleins Materialien. Keine Gebühren pro Arbeitsblatt.
+        answer: `Der Was passt nicht Generator erfordert ein Vollzugriff Abonnement für 240 Euro jährlich oder 25 Euro monatlich. Ihr Abonnement ermöglicht unbegrenzte Arbeitsblatterstellung ohne zusätzliche Kosten. Erstellen Sie beliebig viele Was passt nicht Übungen, Mathe Arbeitsblätter oder Einmaleins Materialien. Keine Gebühren pro Arbeitsblatt.
 
-Das Full Access Abonnement umfasst alle 33 Arbeitsblatt-Generatoren. Beide Abonnements beinhalten kommerzielle Lizenz, 11 Sprachen und 300 DPI Export.`,
+Das Vollzugriff Abonnement umfasst alle 33 Arbeitsblatt-Generatoren. Beide Abonnements beinhalten kommerzielle Lizenz, 11 Sprachen und 300 DPI Export.`,
       },
       {
         id: '2',
@@ -379,7 +379,7 @@ Die Bearbeitungsfunktionen sind intuitiv. Ziehen Sie Elemente mit der Maus. Verg
       {
         id: '4',
         question: 'Kann ich Was passt nicht Arbeitsblätter für Einmaleins im Unterricht verwenden?',
-        answer: `Das Full Access Abonnement erlaubt unbegrenzte Nutzung im Unterricht. Drucken Sie Arbeitsblätter für alle Schüler Ihrer Klasse. Verteilen Sie digitale Kopien über Lernplattformen. Keine zusätzlichen Klassenlizenzen erforderlich. Einmaleins Übungen und alle anderen Materialien sind abgedeckt.
+        answer: `Das Vollzugriff Abonnement erlaubt unbegrenzte Nutzung im Unterricht. Drucken Sie Arbeitsblätter für alle Schüler Ihrer Klasse. Verteilen Sie digitale Kopien über Lernplattformen. Keine zusätzlichen Klassenlizenzen erforderlich. Einmaleins Übungen und alle anderen Materialien sind abgedeckt.
 
 Die Schüleranzahl ist nicht begrenzt. Ob 20 oder 200 Schüler, der Preis bleibt gleich. Schullizenzen für mehrere Lehrkräfte sind auf Anfrage verfügbar. Kontaktieren Sie den Support für Gruppenrabatte.`,
       },
@@ -393,7 +393,7 @@ Die Bildnamen erscheinen in der gewählten Inhaltssprache. Wählen Sie deutsche 
       {
         id: '6',
         question: 'Kann ich erstellte Schwungübungen und Mathe Arbeitsblätter verkaufen?',
-        answer: `Das Full Access Abonnement enthält eine vollständige kommerzielle Lizenz. Verkaufen Sie alle erstellten Materialien ohne zusätzliche Gebühren. Schwungübungen, Mathe Arbeitsblätter und Was passt nicht Übungen auf Etsy listen. Teachers Pay Teachers Shops bestücken. Amazon KDP Bücher veröffentlichen.
+        answer: `Das Vollzugriff Abonnement enthält eine vollständige kommerzielle Lizenz. Verkaufen Sie alle erstellten Materialien ohne zusätzliche Gebühren. Schwungübungen, Mathe Arbeitsblätter und Was passt nicht Übungen auf Etsy listen. Teachers Pay Teachers Shops bestücken. Amazon KDP Bücher veröffentlichen.
 
 Die 300 DPI Qualität erfüllt professionelle Druckstandards. Ihre Kunden erhalten hochwertige Produkte. Keine Namensnennung oder Attribution erforderlich. Die Materialien gehören vollständig Ihnen.`,
       },
@@ -445,7 +445,7 @@ Die Suchfunktion findet spezifische Bilder. Geben Sie Stichwörter ein wie "Herb
   // Related Apps Section - FULL text from was-passt-nicht.md
   relatedApps: {
     sectionTitle: 'Was passt nicht kombinieren mit anderen Generatoren - Einmaleins, Schwungübungen und Buchstaben lernen Pakete',
-    sectionDescription: 'Das Full Access Abonnement enthält 33 verschiedene Arbeitsblatt-Generatoren. Kombinieren Sie Was passt nicht mit anderen Apps für komplette Lernpakete. Thematische Einheiten über mehrere Arbeitsblatttypen hinweg. Hier zeigen wir die besten Kombinationen für Ihren Unterricht.',
+    sectionDescription: 'Das Vollzugriff Abonnement enthält 33 verschiedene Arbeitsblatt-Generatoren. Kombinieren Sie Was passt nicht mit anderen Apps für komplette Lernpakete. Thematische Einheiten über mehrere Arbeitsblatttypen hinweg. Hier zeigen wir die besten Kombinationen für Ihren Unterricht.',
     ctaTitle: 'Bereit für professionelle Was passt nicht Arbeitsblätter?',
     ctaDescription: 'Schließen Sie sich tausenden Pädagogen an, die professionelle Arbeitsblätter in Minuten erstellen.',
     primaryCtaText: 'Kostenlos Testen',

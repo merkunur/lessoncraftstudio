@@ -8,7 +8,7 @@ import { ProductPageContent } from '@/components/product-page/ProductPageClient'
  *
  * FULL SEO content from: INDIVIDUAL APP PAGES/French/grid-match.md
  * App ID: grid-match (Grid puzzle / picture completion worksheets)
- * Bundle: Full Access (240€/year) - NOT Core Bundle
+ * Bundle: Accès Complet (240€/year) - NOT Pack Essentiel
  * DO NOT SHORTEN - Every paragraph is SEO-optimized
  */
 
@@ -18,7 +18,7 @@ export const gridMatchFrContent: ProductPageContent = {
     slug: 'puzzle-grille-fiches',
     appId: 'grid-match',
     title: 'Puzzle Grille - Fiches à Imprimer Gratuit pour Maternelle et Exercices CP',
-    description: 'Créez des fiches puzzle grille professionnelles avec notre générateur avancé. Votre abonnement Full Access vous donne une création illimitée de fiches sans frais par fiche. Téléchargez des fiches PDF de haute qualité en moins de 3 minutes.',
+    description: 'Créez des fiches puzzle grille professionnelles avec notre générateur avancé. Votre abonnement Accès Complet vous donne une création illimitée de fiches sans frais par fiche. Téléchargez des fiches PDF de haute qualité en moins de 3 minutes.',
     keywords: 'fiches maternelle, exercices CP, graphisme maternelle, coloriage à imprimer, apprendre à lire, exercices maths, alphabet, tables de multiplication, fiches à imprimer gratuit, écriture cursive',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fr/apps/puzzle-grille-fiches',
   },
@@ -27,7 +27,7 @@ export const gridMatchFrContent: ProductPageContent = {
   hero: {
     title: 'Puzzle Grille - Fiches à Imprimer Gratuit pour Maternelle et Exercices CP',
     subtitle: 'Générateur de Fiches Maternelle pour Discrimination Visuelle et Raisonnement Spatial',
-    description: `Créez des fiches puzzle grille professionnelles avec notre générateur avancé. Votre abonnement Full Access vous donne une création illimitée de fiches sans frais par fiche. Générez des fiches à imprimer personnalisées parfaites pour la maternelle et les exercices CP. Téléchargez des fiches PDF de haute qualité en moins de 3 minutes.
+    description: `Créez des fiches puzzle grille professionnelles avec notre générateur avancé. Votre abonnement Accès Complet vous donne une création illimitée de fiches sans frais par fiche. Générez des fiches à imprimer personnalisées parfaites pour la maternelle et les exercices CP. Téléchargez des fiches PDF de haute qualité en moins de 3 minutes.
 
 Les puzzles grille aident les jeunes apprenants à développer la discrimination visuelle et le raisonnement spatial. Les élèves associent les pièces numérotées pour compléter les images. Chaque fiche comprend le puzzle et le corrigé. Parfait pour le travail du matin et les ateliers.
 
@@ -102,7 +102,7 @@ Les enseignants adorent les fiches puzzle grille car elles combinent plaisir et 
         title: 'Créer des Fiches à Imprimer Gratuit en 3 Clics - Générateur Rapide pour Exercices CP et Fiches Maternelle',
         description: `Générez des puzzles grille complets en trois étapes simples. Sélectionnez votre image parmi 3000+ options. Choisissez la taille de grille de 2x2 à 4x4. Cliquez sur générer et votre fiche apparaît instantanément. Le processus entier prend moins de trois minutes du début à la fin.
 
-Votre abonnement Full Access comprend la génération illimitée de fiches. Aucun frais par fiche ni coûts cachés. Créez autant de fiches maternelle et d'exercices CP que votre classe nécessite. Téléchargez immédiatement sous forme de fichiers PDF haute résolution.
+Votre abonnement Accès Complet comprend la génération illimitée de fiches. Aucun frais par fiche ni coûts cachés. Créez autant de fiches maternelle et d'exercices CP que votre classe nécessite. Téléchargez immédiatement sous forme de fichiers PDF haute résolution.
 
 Les puzzles grille fonctionnent parfaitement pour les exercices maths et l'apprentissage de l'alphabet. Les jeunes apprenants développent les compétences de discrimination visuelle. Les élèves pratiquent la reconnaissance des nombres en assemblant les pièces. Chaque fiche comprend des instructions claires et des corrigés.`,
         highlighted: true,
@@ -144,11 +144,11 @@ Ce support linguistique rend le puzzle grille idéal pour apprendre à lire dans
         id: '5',
         icon: '💼',
         title: 'Licence Commerciale Incluse - Vendre des Fiches Maternelle et Exercices CP sur Teachers Pay Teachers',
-        description: `L'abonnement Full Access comprend une licence commerciale d'impression à la demande sans frais supplémentaires. Vendez des fiches puzzle grille sur Teachers Pay Teachers. Listez des supports sur les boutiques Etsy. Publiez des livres à faible contenu sur Amazon KDP. Construisez un revenu passif à partir de vos créations de fiches.
+        description: `L'abonnement Accès Complet comprend une licence commerciale d'impression à la demande sans frais supplémentaires. Vendez des fiches puzzle grille sur Teachers Pay Teachers. Listez des supports sur les boutiques Etsy. Publiez des livres à faible contenu sur Amazon KDP. Construisez un revenu passif à partir de vos créations de fiches.
 
 La licence commerciale vous fait économiser 100-200€ annuellement par rapport aux concurrents. D'autres plateformes facturent des frais séparés pour les droits commerciaux. Nous incluons tout dans votre abonnement de 240€. Créez des produits vendez-les et conservez 100% des bénéfices après les frais de plateforme.
 
-Les enseignants gagnent 500-5000€ mensuellement en vendant des fiches imprimables en ligne. Les puzzles grille se vendent particulièrement bien comme exercices maths et coloriage à imprimer. Créez des packs thématiques pour les vacances. Concevez des fiches saisonnières pour l'écriture cursive. Construisez des packages complets de programmes. Votre abonnement Full Access soutient votre parcours d'entrepreneuriat enseignant.`,
+Les enseignants gagnent 500-5000€ mensuellement en vendant des fiches imprimables en ligne. Les puzzles grille se vendent particulièrement bien comme exercices maths et coloriage à imprimer. Créez des packs thématiques pour les vacances. Concevez des fiches saisonnières pour l'écriture cursive. Construisez des packages complets de programmes. Votre abonnement Accès Complet soutient votre parcours d'entrepreneuriat enseignant.`,
         highlighted: true,
       },
       {
@@ -202,7 +202,7 @@ Téléchargez vos propres images pour personnaliser les fiches d'alphabet et app
 
 Les téléchargements personnalisés améliorent considérablement le graphisme maternelle et les fiches d'écriture cursive. Ajoutez des photos d'objets de classe que les élèves reconnaissent. Incluez des images de leçons récentes ou de sorties scolaires. Téléchargez des œuvres d'élèves pour un engagement supplémentaire. Le contenu personnalisé augmente significativement la motivation et les résultats d'apprentissage.
 
-L'image que vous sélectionnez détermine le focus éducatif. Les images thématiques mathématiques soutiennent la reconnaissance des nombres. Les formes de lettres fonctionnent bien pour l'apprentissage de l'alphabet. Les objets du monde réel construisent le vocabulaire. Choisissez stratégiquement les images pour vous aligner sur vos objectifs de programme. Votre abonnement Full Access vous donne un accès illimité pour changer les images et régénérer les fiches aussi souvent que nécessaire.`,
+L'image que vous sélectionnez détermine le focus éducatif. Les images thématiques mathématiques soutiennent la reconnaissance des nombres. Les formes de lettres fonctionnent bien pour l'apprentissage de l'alphabet. Les objets du monde réel construisent le vocabulaire. Choisissez stratégiquement les images pour vous aligner sur vos objectifs de programme. Votre abonnement Accès Complet vous donne un accès illimité pour changer les images et régénérer les fiches aussi souvent que nécessaire.`,
         icon: '🖼️',
       },
       {
@@ -215,7 +215,7 @@ Choisissez combien de cellules indices révéler. Un indice fonctionne pour le c
 
 Les paramètres de grille affectent considérablement la difficulté de la fiche. Une grille 2x2 avec deux indices offre un défi minimal. Parfait pour introduire l'activité aux jeunes élèves. Une grille 4x4 avec un indice fournit un défi maximal. Idéal pour les apprenants avancés ou les activités de révision.
 
-Expérimentez différentes combinaisons pour les exercices maths et l'apprentissage de l'alphabet. Essayez des grilles 3x3 avec deux indices pour la plupart des élèves de maternelle. Utilisez des grilles 4x4 avec un indice pour les élèves de CP doués. Ajustez les paramètres selon les données d'évaluation formative. Votre abonnement Full Access permet une expérimentation illimitée sans coût supplémentaire.
+Expérimentez différentes combinaisons pour les exercices maths et l'apprentissage de l'alphabet. Essayez des grilles 3x3 avec deux indices pour la plupart des élèves de maternelle. Utilisez des grilles 4x4 avec un indice pour les élèves de CP doués. Ajustez les paramètres selon les données d'évaluation formative. Votre abonnement Accès Complet permet une expérimentation illimitée sans coût supplémentaire.
 
 Considérez vos objectifs d'apprentissage lors de la configuration des paramètres de grille. Utilisez des grilles plus petites pour introduire de nouveaux concepts. Augmentez la taille de grille à mesure que les élèves développent la maîtrise. Variez le nombre d'indices pour fournir un échafaudage. Plus d'indices soutiennent les apprenants en difficulté. Moins d'indices défient les élèves avancés. Cette flexibilité rend les fiches puzzle grille parfaites pour l'instruction différenciée dans les classes à capacités mixtes.`,
         icon: '⚙️',
@@ -262,7 +262,7 @@ Générez le corrigé en un clic. Le corrigé montre l'image complétée avec le
 
 Activez le mode niveaux de gris pour économiser l'encre d'imprimante. L'impression en noir et blanc coûte beaucoup moins cher que la couleur. Les niveaux de gris maintiennent clairement tous les éléments visuels. Parfait pour imprimer des ensembles de classe de fiches d'écriture cursive et d'exercices CE1.
 
-Téléchargez simultanément la fiche et le corrigé. Imprimez la fiche pour les élèves. Gardez le corrigé pour référence. Ou publiez les deux dans votre système de gestion de l'apprentissage. La distribution numérique fonctionne parfaitement pour l'apprentissage à distance ou les devoirs. Votre abonnement Full Access soutient toute méthode de distribution que vous choisissez.
+Téléchargez simultanément la fiche et le corrigé. Imprimez la fiche pour les élèves. Gardez le corrigé pour référence. Ou publiez les deux dans votre système de gestion de l'apprentissage. La distribution numérique fonctionne parfaitement pour l'apprentissage à distance ou les devoirs. Votre abonnement Accès Complet soutient toute méthode de distribution que vous choisissez.
 
 Les multiples options de téléchargement soutiennent différents besoins de classe. Imprimez des copies physiques pour l'usage traditionnel en classe. Envoyez des PDF par e-mail aux parents pour la pratique à domicile. Téléchargez sur Google Classroom ou Canvas. Partagez via Seesaw ou ClassDojo. Publiez sur votre blog ou boutique d'enseignant. Chaque méthode de distribution fonctionne parfaitement. La qualité professionnelle garantit que vos fiches paraissent superbes partout où elles apparaissent. Les élèves reçoivent des supports de haute qualité cohérents indépendamment de l'appareil ou de la plateforme.`,
         icon: '📥',
@@ -305,7 +305,7 @@ Créez des fiches de calcul en utilisant des images groupées par quantité. Une
 
 Utilisez le puzzle grille pour la reconnaissance des nombres avec les exercices CP. Étiquetez chaque pièce de puzzle avec des chiffres. Les élèves associent les nombres tout en pratiquant l'identification des chiffres. L'aspect kinesthésique de l'association physique des pièces renforce l'apprentissage pour les apprenants tactiles.
 
-Associez le puzzle grille avec des manipulatifs pour une pratique concrète des maths. Les élèves construisent d'abord le puzzle puis recréent les quantités avec des compteurs. Cette progression du visuel au concret suit les meilleures pratiques en instruction mathématique. Votre abonnement Full Access permet une création illimitée de fiches pour faire tourner les activités de centres hebdomadairement.`,
+Associez le puzzle grille avec des manipulatifs pour une pratique concrète des maths. Les élèves construisent d'abord le puzzle puis recréent les quantités avec des compteurs. Cette progression du visuel au concret suit les meilleures pratiques en instruction mathématique. Votre abonnement Accès Complet permet une création illimitée de fiches pour faire tourner les activités de centres hebdomadairement.`,
         quote: 'Le puzzle grille rend les centres de maths engageants et autonomes.',
       },
       {
@@ -367,7 +367,7 @@ Utilisez le puzzle grille pour les objectifs de motricité fine dans les context
 
 Créez des histoires sociales utilisant des puzzles grille présentant des thèmes de reconnaissance émotionnelle. Les images de puzzle montrent divers sentiments et réponses appropriées. Les élèves discutent des émotions tout en complétant les puzzles. Cette double concentration aborde simultanément les objectifs IEP cognitifs et socio-émotionnels.
 
-Modifiez le puzzle grille pour les élèves ayant des déficiences visuelles en utilisant des images à contraste élevé et des tailles de grille plus grandes. Utilisez des éléments tactiles comme des autocollants texturés sur les pièces de puzzle. Ces adaptations garantissent que tous les élèves accèdent à cet outil d'apprentissage précieux. Votre abonnement Full Access soutient la création de versions adaptées illimitées.`,
+Modifiez le puzzle grille pour les élèves ayant des déficiences visuelles en utilisant des images à contraste élevé et des tailles de grille plus grandes. Utilisez des éléments tactiles comme des autocollants texturés sur les pièces de puzzle. Ces adaptations garantissent que tous les élèves accèdent à cet outil d'apprentissage précieux. Votre abonnement Accès Complet soutient la création de versions adaptées illimitées.`,
         quote: 'La personnalisation répond à chaque besoin individuel.',
       },
     ],
@@ -388,7 +388,7 @@ Modifiez le puzzle grille pour les élèves ayant des déficiences visuelles en 
       {
         id: '1',
         question: 'Ce Générateur de Fiches à Imprimer Gratuit est-il Vraiment Gratuit ?',
-        answer: 'Le générateur de puzzle grille nécessite un abonnement Full Access coûtant 240€ annuellement ou 25€ mensuellement. Votre abonnement vous donne une création illimitée de fiches à imprimer gratuit sans frais par fiche. Générez autant de fiches maternelle et de fiches de graphisme maternelle que nécessaire sans frais supplémentaires. L\'abonnement Core Bundle comprend 10 générateurs populaires et coûte 144€ annuellement. L\'abonnement Full Access coûte 240€ annuellement et inclut les 33 types de générateurs incluant le puzzle grille. Les deux abonnements incluent la licence commerciale le support de 11 langues et les exportations de qualité professionnelle 300 DPI.',
+        answer: 'Le générateur de puzzle grille nécessite un abonnement Accès Complet coûtant 240€ annuellement ou 25€ mensuellement. Votre abonnement vous donne une création illimitée de fiches à imprimer gratuit sans frais par fiche. Générez autant de fiches maternelle et de fiches de graphisme maternelle que nécessaire sans frais supplémentaires. L\'abonnement Pack Essentiel comprend 10 générateurs populaires et coûte 144€ annuellement. L\'abonnement Accès Complet coûte 240€ annuellement et inclut les 33 types de générateurs incluant le puzzle grille. Les deux abonnements incluent la licence commerciale le support de 11 langues et les exportations de qualité professionnelle 300 DPI.',
       },
       {
         id: '2',
@@ -403,7 +403,7 @@ Modifiez le puzzle grille pour les élèves ayant des déficiences visuelles en 
       {
         id: '4',
         question: 'Puis-je Utiliser les Fiches d\'Écriture Cursive dans Ma Classe pour les Élèves ?',
-        answer: 'Oui l\'abonnement Full Access inclut une utilisation illimitée en classe. Créez autant de fiches d\'écriture cursive que nécessaire pour tous vos élèves. Imprimez des ensembles de classe complets. Distribuez aux élèves. Utilisez pour les devoirs. Partagez numériquement via Google Classroom. Votre abonnement couvre toute utilisation éducative. Classes traditionnelles programmes après l\'école tutorat privé enseignement à domicile. Toutes les utilisations éducatives sont incluses. Aucune limite sur le nombre d\'élèves ou de classes. Conservez les fiches créées même après résiliation de l\'abonnement. Tous les PDF et JPEG téléchargés restent vôtres pour toujours. Nous ne retenons jamais vos supports en otage. Créez librement sachant que votre travail reste le vôtre.',
+        answer: 'Oui l\'abonnement Accès Complet inclut une utilisation illimitée en classe. Créez autant de fiches d\'écriture cursive que nécessaire pour tous vos élèves. Imprimez des ensembles de classe complets. Distribuez aux élèves. Utilisez pour les devoirs. Partagez numériquement via Google Classroom. Votre abonnement couvre toute utilisation éducative. Classes traditionnelles programmes après l\'école tutorat privé enseignement à domicile. Toutes les utilisations éducatives sont incluses. Aucune limite sur le nombre d\'élèves ou de classes. Conservez les fiches créées même après résiliation de l\'abonnement. Tous les PDF et JPEG téléchargés restent vôtres pour toujours. Nous ne retenons jamais vos supports en otage. Créez librement sachant que votre travail reste le vôtre.',
       },
       {
         id: '5',
@@ -413,7 +413,7 @@ Modifiez le puzzle grille pour les élèves ayant des déficiences visuelles en 
       {
         id: '6',
         question: 'Puis-je Vendre les Fiches de Calcul et Tables de Multiplication que Je Crée ?',
-        answer: 'Oui l\'abonnement Full Access inclut la licence commerciale POD complète sans frais supplémentaires. Vendez vos fiches de calcul et tables de multiplication sur Teachers Pay Teachers. Listez des supports sur Etsy. Publiez des livres sur Amazon KDP. Construisez votre entreprise d\'enseignement entrepreneurial. La licence commerciale vaut 100-200€ annuellement seule. Les concurrents facturent des frais séparés pour les droits commerciaux. Nous incluons tout dans votre abonnement de 240€. Créez des produits vendez-les conservez 100% des bénéfices après les frais de plateforme. Aucune attribution requise sur les fiches vendues. Aucune limite sur les revenus. Aucune redevance supplémentaire. Vendez autant que vous voulez. Votre succès entrepreneurial soutient votre enseignement en classe. L\'abonnement Full Access alimente les deux carrières simultanément.',
+        answer: 'Oui l\'abonnement Accès Complet inclut la licence commerciale POD complète sans frais supplémentaires. Vendez vos fiches de calcul et tables de multiplication sur Teachers Pay Teachers. Listez des supports sur Etsy. Publiez des livres sur Amazon KDP. Construisez votre entreprise d\'enseignement entrepreneurial. La licence commerciale vaut 100-200€ annuellement seule. Les concurrents facturent des frais séparés pour les droits commerciaux. Nous incluons tout dans votre abonnement de 240€. Créez des produits vendez-les conservez 100% des bénéfices après les frais de plateforme. Aucune attribution requise sur les fiches vendues. Aucune limite sur les revenus. Aucune redevance supplémentaire. Vendez autant que vous voulez. Votre succès entrepreneurial soutient votre enseignement en classe. L\'abonnement Accès Complet alimente les deux carrières simultanément.',
       },
       {
         id: '7',
@@ -448,7 +448,7 @@ Modifiez le puzzle grille pour les élèves ayant des déficiences visuelles en 
     ],
   },
 
-  // Pricing - Full Access Bundle for Grid Match
+  // Pricing - Accès Complet Bundle for Grid Match
   pricing: {
     title: 'Accès Complet',
     price: '240€',

@@ -21,7 +21,7 @@ import { ProductPageContent } from '@/components/product-page/ProductPageClient'
  * 9. Rechnen lernen / Rechnen 1. Klasse
  * 10. Deutsch-Arbeitsblätter
  *
- * Pricing: Core Bundle = 144€/year or 15€/month
+ * Pricing: Basis-Paket = 144€/year or 15€/month
  */
 
 export const alphabetTrainDeContent: ProductPageContent = {
@@ -39,7 +39,7 @@ export const alphabetTrainDeContent: ProductPageContent = {
   hero: {
     title: 'Alphabet-Zug Generator',
     subtitle: 'Kostenlose Arbeitsblätter zum Buchstaben lernen für Vorschule und Grundschule',
-    description: `Erstellen Sie professionelle Arbeitsblätter zum Buchstaben lernen mit unserem Alphabet-Zug Generator. Mit Ihrem Core Bundle Abonnement (15 € pro Monat) erstellen Sie unbegrenzt viele Vorschul-Arbeitsblätter ohne zusätzliche Kosten pro Arbeitsblatt. Der Alphabet-Zug verbindet spielerisches Lernen mit systematischer Buchstabenerkennung. Jeder Waggon zeigt einen Buchstaben und ein passendes Bild. Perfekt für Erzieher in der Vorschule und Lehrer in der 1. bis 3. Klasse Grundschule.
+    description: `Erstellen Sie professionelle Arbeitsblätter zum Buchstaben lernen mit unserem Alphabet-Zug Generator. Mit Ihrem Basis-Paket Abonnement (15 € pro Monat) erstellen Sie unbegrenzt viele Vorschul-Arbeitsblätter ohne zusätzliche Kosten pro Arbeitsblatt. Der Alphabet-Zug verbindet spielerisches Lernen mit systematischer Buchstabenerkennung. Jeder Waggon zeigt einen Buchstaben und ein passendes Bild. Perfekt für Erzieher in der Vorschule und Lehrer in der 1. bis 3. Klasse Grundschule.
 
 Unser Generator für Buchstaben lernen macht die Erstellung kinderleicht. Wählen Sie 11 Buchstaben aus dem deutschen Alphabet aus. Der Alphabet-Zug zeigt dann jeden Buchstaben mit einem passenden Bild auf einem bunten Waggon. Kinder lernen so Buchstaben und verbinden sie gleichzeitig mit Bildern. Diese Verbindung von visuellen und sprachlichen Elementen unterstützt den Lernprozess nachhaltig.
 
@@ -156,7 +156,7 @@ Wechseln Sie die Sprache mit einem Klick. Die gesamte Benutzeroberfläche wird �
         id: '5',
         icon: '💼',
         title: 'Kommerzielle Lizenz inklusive - Verkaufen Sie Ihre Arbeitsblätter Grundschule',
-        description: `Ihr Core Bundle Abonnement beinhaltet eine vollständige Print-on-Demand Lizenz. Verkaufen Sie Ihre erstellten Arbeitsblätter Grundschule legal. Keine zusätzlichen Lizenzgebühren. Keine Einschränkungen. Perfekt für Lehrer-Unternehmer.
+        description: `Ihr Basis-Paket Abonnement beinhaltet eine vollständige Print-on-Demand Lizenz. Verkaufen Sie Ihre erstellten Arbeitsblätter Grundschule legal. Keine zusätzlichen Lizenzgebühren. Keine Einschränkungen. Perfekt für Lehrer-Unternehmer.
 
 Verkaufen Sie auf Plattformen wie Etsy, Lehrermarktplatz oder Amazon KDP. Ihre Buchstaben lernen Materialien können als digitale Downloads angeboten werden. Erstellen Sie Pakete mit Deutsch-Arbeitsblätter, Vorschul-Arbeitsblätter und Schwungübungen. Verkaufen Sie thematische Sammlungen mit Ausmalbilder.
 
@@ -171,7 +171,7 @@ Die 300 DPI Qualität erfüllt alle Anforderungen für kommerziellen Druck. Viel
 
 Die Bilderbibliothek ist auf Deutsch durchsuchbar. Geben Sie einen Buchstaben ein und sehen Sie alle passenden Bilder. Suchen Sie nach Themen für Ihre Vorschul-Arbeitsblätter. Die Filterfunktion zeigt nur relevante Ergebnisse. Finden Sie das perfekte Bild in Sekunden.
 
-Alle Bilder sind im Core Bundle enthalten. Keine zusätzlichen Kosten pro Bild. Keine versteckten Gebühren. Andere Anbieter berechnen oft 1 bis 5 Euro pro Clipart.`,
+Alle Bilder sind im Basis-Paket enthalten. Keine zusätzlichen Kosten pro Bild. Keine versteckten Gebühren. Andere Anbieter berechnen oft 1 bis 5 Euro pro Clipart.`,
         highlighted: true,
       },
       {
@@ -358,7 +358,7 @@ Erfolgreiche Lehrer-Unternehmer erzielen 500 bis 5000 Euro monatlich mit Arbeits
       {
         id: '1',
         question: 'Ist dieser Alphabet-Zug Generator wirklich kostenlos für Vorschul-Arbeitsblätter und Deutsch-Arbeitsblätter?',
-        answer: 'Der Alphabet-Zug Generator benötigt ein Core Bundle Abonnement für 144 Euro jährlich oder 15 Euro monatlich. Ihr Abonnement gibt Ihnen unbegrenzte Erstellung von Arbeitsblätter Grundschule ohne zusätzliche Kosten pro Blatt. Generieren Sie so viele Vorschul-Arbeitsblätter und Deutsch-Arbeitsblätter wie Sie benötigen ohne weitere Gebühren. Das Core Bundle enthält 10 beliebte Generatoren für verschiedene Arbeitsblätter-Typen. Sie erstellen Buchstaben lernen Materialien, Mathe-Arbeitsblätter und andere kostenlose Arbeitsblätter alle mit einem Abonnement.',
+        answer: 'Der Alphabet-Zug Generator benötigt ein Basis-Paket Abonnement für 144 Euro jährlich oder 15 Euro monatlich. Ihr Abonnement gibt Ihnen unbegrenzte Erstellung von Arbeitsblätter Grundschule ohne zusätzliche Kosten pro Blatt. Generieren Sie so viele Vorschul-Arbeitsblätter und Deutsch-Arbeitsblätter wie Sie benötigen ohne weitere Gebühren. Das Basis-Paket enthält 10 beliebte Generatoren für verschiedene Arbeitsblätter-Typen. Sie erstellen Buchstaben lernen Materialien, Mathe-Arbeitsblätter und andere kostenlose Arbeitsblätter alle mit einem Abonnement.',
       },
       {
         id: '2',
@@ -373,7 +373,7 @@ Erfolgreiche Lehrer-Unternehmer erzielen 500 bis 5000 Euro monatlich mit Arbeits
       {
         id: '4',
         question: 'Kann ich diese Arbeitsblätter Grundschule im Unterricht verwenden?',
-        answer: 'Ja, das Core Bundle Abonnement beinhaltet unbegrenzte Klassenzimmernutzung für Arbeitsblätter Grundschule. Drucken Sie so viele Kopien wie Sie für Ihre Klasse benötigen. Verwenden Sie die Vorschul-Arbeitsblätter und Deutsch-Arbeitsblätter für Unterricht, Hausaufgaben oder Tests ohne Einschränkungen. Verteilen Sie digitale Kopien an Schüler für Heimarbeit. Die PDFs funktionieren auf allen Geräten. Schulen können das Abonnement teilen unter Kollegen.',
+        answer: 'Ja, das Basis-Paket Abonnement beinhaltet unbegrenzte Klassenzimmernutzung für Arbeitsblätter Grundschule. Drucken Sie so viele Kopien wie Sie für Ihre Klasse benötigen. Verwenden Sie die Vorschul-Arbeitsblätter und Deutsch-Arbeitsblätter für Unterricht, Hausaufgaben oder Tests ohne Einschränkungen. Verteilen Sie digitale Kopien an Schüler für Heimarbeit. Die PDFs funktionieren auf allen Geräten. Schulen können das Abonnement teilen unter Kollegen.',
       },
       {
         id: '5',
@@ -383,7 +383,7 @@ Erfolgreiche Lehrer-Unternehmer erzielen 500 bis 5000 Euro monatlich mit Arbeits
       {
         id: '6',
         question: 'Kann ich Arbeitsblätter Grundschule verkaufen die ich erstellt habe?',
-        answer: 'Ja, das Core Bundle Abonnement beinhaltet vollständige kommerzielle Print-on-Demand Lizenzierung ohne Extrakosten. Verkaufen Sie Ihre Arbeitsblätter Grundschule auf Lehrermarktplatz, Eduki, Teachers Pay Teachers oder Etsy. Sie behalten 100% Ihrer Verkaufseinnahmen abzüglich Plattformgebühren. Wir erheben keine Umsatzbeteiligung. Die 300 DPI Qualität erfüllt alle kommerziellen Anforderungen.',
+        answer: 'Ja, das Basis-Paket Abonnement beinhaltet vollständige kommerzielle Print-on-Demand Lizenzierung ohne Extrakosten. Verkaufen Sie Ihre Arbeitsblätter Grundschule auf Lehrermarktplatz, Eduki, Teachers Pay Teachers oder Etsy. Sie behalten 100% Ihrer Verkaufseinnahmen abzüglich Plattformgebühren. Wir erheben keine Umsatzbeteiligung. Die 300 DPI Qualität erfüllt alle kommerziellen Anforderungen.',
       },
       {
         id: '7',
@@ -418,7 +418,7 @@ Erfolgreiche Lehrer-Unternehmer erzielen 500 bis 5000 Euro monatlich mit Arbeits
     ],
   },
 
-  // Pricing - Alphabet Train is Core Bundle ($144/year or $15/month)
+  // Pricing - Alphabet Train is Basis-Paket ($144/year or $15/month)
   pricing: {
     title: 'Basis-Paket',
     price: '144€',
@@ -439,7 +439,7 @@ Erfolgreiche Lehrer-Unternehmer erzielen 500 bis 5000 Euro monatlich mit Arbeits
   // Related Apps - Kombinieren Sie Alphabet-Zug mit anderen Generatoren
   relatedApps: {
     sectionTitle: 'Kombinieren Sie Alphabet-Zug mit anderen Generatoren - Ganzheitliche Arbeitsblätter Grundschule',
-    sectionDescription: 'Ihr Core Bundle Abonnement beinhaltet 10 Premium-Generatoren, die perfekt zusammenarbeiten. Kombinieren Sie Buchstaben lernen mit Mathe-Arbeitsblätter. Integrieren Sie Schwungübungen für Schreibvorbereitung. Verbinden Sie mit Ausmalbilder für feinmotorische Förderung.',
+    sectionDescription: 'Ihr Basis-Paket Abonnement beinhaltet 10 Premium-Generatoren, die perfekt zusammenarbeiten. Kombinieren Sie Buchstaben lernen mit Mathe-Arbeitsblätter. Integrieren Sie Schwungübungen für Schreibvorbereitung. Verbinden Sie mit Ausmalbilder für feinmotorische Förderung.',
     ctaTitle: 'Bereit, fantastische Arbeitsblätter zu erstellen?',
     ctaDescription: 'Schließen Sie sich tausenden Lehrkräften an, die professionelle Alphabet-Zug Arbeitsblätter erstellen. Unbegrenzte Generierung, kommerzielle Lizenz inklusive.',
     primaryCtaText: 'Kostenlos Testen',

@@ -43,7 +43,7 @@ Der Malvorlagen-Generator bietet über 3000 kindgerechte Bilder für Ausmalbilde
 
 Vollständige Arbeitsflächen-Bearbeitung macht Malvorlagen individuell anpassbar. Verschiebe Bilder per Drag & Drop an beliebige Positionen. Ändere Größen durch Ziehen der Ecken. Drehe Elemente in jeden gewünschten Winkel. Füge dekorative Rahmen aus unserer Rahmenbibliothek hinzu. Kombiniere Ausmalbilder mit Schwungübungen-Linien für feinmotorische Übungen.
 
-Exportiere fertige Malvorlagen als hochauflösende PDF oder JPEG Dateien. Professionelle 300 DPI Druckqualität garantiert scharfe Linien auf jedem Drucker. Schwarz-Weiß-Modus spart Druckertinte bei großen Klassensätzen. Das Core Bundle Abonnement für 144 € jährlich bietet unbegrenzte Malvorlagen-Erstellung mit kommerzieller Lizenz für Teachers Pay Teachers Verkäufe.`,
+Exportiere fertige Malvorlagen als hochauflösende PDF oder JPEG Dateien. Professionelle 300 DPI Druckqualität garantiert scharfe Linien auf jedem Drucker. Schwarz-Weiß-Modus spart Druckertinte bei großen Klassensätzen. Das Basis-Paket Abonnement für 144 € jährlich bietet unbegrenzte Malvorlagen-Erstellung mit kommerzieller Lizenz für Teachers Pay Teachers Verkäufe.`,
     previewImageSrc: '/samples/english/coloring/coloring portrait 1.png',
     ctaLabels: {
       tryFree: 'Kostenlos Testen',
@@ -144,7 +144,7 @@ Exportiere fertige Malvorlagen als hochauflösende PDF oder JPEG Dateien. Profes
 
 Die Bildbibliothek umfasst Motive für Vorschul-Arbeitsblätter bis Grundschule 4. Klasse. Einfache Formen für Vorschulkinder. Detailliertere Bilder für ältere Schüler. Thematische Kohärenz ermöglicht Malvorlagen passend zum Lehrplan. Zoo-Einheit bekommt Tier-Ausmalbilder. Herbst-Thema verwendet Blätter und Kürbisse.
 
-Das Core Bundle für 144 € jährlich bietet unbegrenzten Zugang zu allen Bildern. Keine per-Bild-Gebühren oder Download-Limits. Neue Bilder werden regelmäßig hinzugefügt. Saisonale Kollektionen erscheinen vor jedem Feiertag. Kommerzielle Lizenz erlaubt Verkauf erstellter Malvorlagen auf Teachers Pay Teachers.`,
+Das Basis-Paket für 144 € jährlich bietet unbegrenzten Zugang zu allen Bildern. Keine per-Bild-Gebühren oder Download-Limits. Neue Bilder werden regelmäßig hinzugefügt. Saisonale Kollektionen erscheinen vor jedem Feiertag. Kommerzielle Lizenz erlaubt Verkauf erstellter Malvorlagen auf Teachers Pay Teachers.`,
         highlighted: true,
       },
       {
@@ -166,7 +166,7 @@ Erweiterte Steuerungen bieten noch mehr Anpassungsmöglichkeiten für Vorschul-A
 
 Klassenfotos werden zu personalisierten Malvorlagen für Vorschul-Arbeitsblätter. Schülerzeichnungen konvertieren zu Ausmalbilder-Vorlagen. Projekt-spezifische Grafiken integrieren in Lehrplan-Arbeitsblätter. Schullogo oder Klassenmaskottchen personalisieren Malvorlagen für Ihre Schule.
 
-Hochgeladene Bilder bleiben für zukünftige Projekte verfügbar in Ihrem Account. Organisieren Sie Bilder in Ordnern nach Themen oder Klassen. Teilen Sie Uploads zwischen Kollegen für schulweite Nutzung. Das Core Bundle bietet unbegrenzten Speicher für alle Ihre Bilder.`,
+Hochgeladene Bilder bleiben für zukünftige Projekte verfügbar in Ihrem Account. Organisieren Sie Bilder in Ordnern nach Themen oder Klassen. Teilen Sie Uploads zwischen Kollegen für schulweite Nutzung. Das Basis-Paket bietet unbegrenzten Speicher für alle Ihre Bilder.`,
         highlighted: false,
       },
       {
@@ -282,7 +282,7 @@ Ebenensteuerung arrangiert mehrere Bilder professionell in Malvorlagen. Bringe O
 
 PDF-Format ideal für direkten Druck auf Schuldruckern für Vorschul-Arbeitsblätter. JPEG für digitale Verwendung oder Bildbearbeitung. Beide Formate sofort druckbereit ohne weitere Bearbeitung. Perfekt formatiert für A4 oder Letter Papier.
 
-Mit dem Core Bundle für 144 € jährlich erhalten Sie wasserzeichenfreie Downloads von Malvorlagen. Kommerzielle Lizenz inklusive für Verkauf auf Teachers Pay Teachers. Unbegrenzte Downloads ohne per-Arbeitsblatt-Gebühren für Ausmalbilder.`,
+Mit dem Basis-Paket für 144 € jährlich erhalten Sie wasserzeichenfreie Downloads von Malvorlagen. Kommerzielle Lizenz inklusive für Verkauf auf Teachers Pay Teachers. Unbegrenzte Downloads ohne per-Arbeitsblatt-Gebühren für Ausmalbilder.`,
         icon: '📥',
       },
     ],
@@ -303,7 +303,7 @@ Mit dem Core Bundle für 144 € jährlich erhalten Sie wasserzeichenfreie Downl
         subtitle: 'Vorschul-Arbeitsblätter mit Ausmalbildern',
         description: `Vorschulerzieher nutzen Malvorlagen für Feinmotorik-Entwicklung bei Vorschul-Arbeitsblättern. Ausmalen stärkt Stifthaltung und Hand-Auge-Koordination. Thematische Ausmalbilder verstärken Lehrplaninhalte. Zoo-Woche bekommt Tier-Malvorlagen. Herbst-Monat verwendet Blätter und Kürbisse.
 
-Kombiniere Malvorlagen mit Schwungübungen für umfassende Feinmotorik-Übung bei Arbeitsblättern. Gepunktete Linien für Nachspuren integrieren in Ausmalbilder. Buchstaben lernen verbindet mit Malen für ganzheitliche Vorschul-Arbeitsblätter. Das Core Bundle bietet alle Generatoren für umfassende Vorschulbildung.
+Kombiniere Malvorlagen mit Schwungübungen für umfassende Feinmotorik-Übung bei Arbeitsblättern. Gepunktete Linien für Nachspuren integrieren in Ausmalbilder. Buchstaben lernen verbindet mit Malen für ganzheitliche Vorschul-Arbeitsblätter. Das Basis-Paket bietet alle Generatoren für umfassende Vorschulbildung.
 
 Erstelle altersgerechte Ausmalbilder für verschiedene Entwicklungsstufen. Große, einfache Formen für 3-Jährige. Mehr Details für 5-Jährige. Der Malvorlagen-Generator passt sich jedem Niveau an.`,
         quote: 'Meine Vorschulkinder lieben die thematischen Malvorlagen zu unseren Wochenthemen!',
@@ -317,7 +317,7 @@ Erstelle altersgerechte Ausmalbilder für verschiedene Entwicklungsstufen. Groß
 
 Erstelle differenzierte Malvorlagen für verschiedene Leistungsniveaus bei Arbeitsblättern. Einfache Bilder für kämpfende Schüler. Detailliertere Ausmalbilder für fortgeschrittene Lerner. Alle arbeiten am gleichen Thema auf ihrem Niveau.
 
-Wöchentliche Malvorlagen passend zum Lehrplan sparen Vorbereitungszeit für kostenlose Arbeitsblätter. Montags-Einführung mit thematischen Ausmalbildern. Freitags-Belohnung mit freier Malzeit. Das Core Bundle macht Lehrplan-Integration einfach.`,
+Wöchentliche Malvorlagen passend zum Lehrplan sparen Vorbereitungszeit für kostenlose Arbeitsblätter. Montags-Einführung mit thematischen Ausmalbildern. Freitags-Belohnung mit freier Malzeit. Das Basis-Paket macht Lehrplan-Integration einfach.`,
         quote: 'Die thematischen Malvorlagen verstärken perfekt unsere Sachkunde-Einheiten.',
       },
       {
@@ -325,11 +325,11 @@ Wöchentliche Malvorlagen passend zum Lehrplan sparen Vorbereitungszeit für kos
         icon: '🏠',
         title: 'Homeschooling-Eltern',
         subtitle: 'Kostenlose Ausmalbilder für individuelles Lernen',
-        description: `Homeschooling-Eltern schätzen unbegrenzte Malvorlagen-Erstellung für verschiedene Altersstufen bei Vorschul-Arbeitsblättern. Das Core Bundle für 144 € jährlich deckt alle Kinder ab. Erstelle angepasste Ausmalbilder für jedes Entwicklungsniveau. Einfache Bilder für Jüngere, detaillierte für Ältere.
+        description: `Homeschooling-Eltern schätzen unbegrenzte Malvorlagen-Erstellung für verschiedene Altersstufen bei Vorschul-Arbeitsblättern. Das Basis-Paket für 144 € jährlich deckt alle Kinder ab. Erstelle angepasste Ausmalbilder für jedes Entwicklungsniveau. Einfache Bilder für Jüngere, detaillierte für Ältere.
 
 Kombiniere Malvorlagen mit anderen Lernaktivitäten für ganzheitliche Bildung bei Arbeitsblättern Grundschule. Zoo-Ausflug-Nachbereitung mit Tier-Ausmalbildern. Jahreszeiten-Lernen mit saisonalen Malvorlagen. Geschichte visualisieren durch historische Szenen.
 
-Mehrere Kinder teilen ein Abonnement für unbegrenzte Ausmalbilder. Geschwister arbeiten am gleichen Thema auf ihrem Niveau. Thematische Kohärenz verstärkt Familien-Lernen. Das Core Bundle bietet zusätzlich Schwungübungen, Buchstaben lernen und Mathe-Arbeitsblätter.`,
+Mehrere Kinder teilen ein Abonnement für unbegrenzte Ausmalbilder. Geschwister arbeiten am gleichen Thema auf ihrem Niveau. Thematische Kohärenz verstärkt Familien-Lernen. Das Basis-Paket bietet zusätzlich Schwungübungen, Buchstaben lernen und Mathe-Arbeitsblätter.`,
         quote: 'Ein Abonnement deckt alle Arbeitsblätter für meine drei Kinder ab!',
       },
       {
@@ -341,7 +341,7 @@ Mehrere Kinder teilen ein Abonnement für unbegrenzte Ausmalbilder. Geschwister 
 
 Beruhigende Malaktivitäten unterstützen emotionale Regulation bei Arbeitsblättern. Thematische Ausmalbilder für Interessenbereiche von Schülern. Personalisierte Malvorlagen mit Lieblingsmotiven. Vorhersehbare Struktur reduziert Angst.
 
-Dokumentiere Fortschritt durch angepasste Malvorlagen für Arbeitsblätter Grundschule. Beginne mit einfachen Bildern. Steigere Komplexität nach Entwicklung. Das Core Bundle ermöglicht präzise Anpassung an jeden Schüler.`,
+Dokumentiere Fortschritt durch angepasste Malvorlagen für Arbeitsblätter Grundschule. Beginne mit einfachen Bildern. Steigere Komplexität nach Entwicklung. Das Basis-Paket ermöglicht präzise Anpassung an jeden Schüler.`,
         quote: 'Die anpassbaren Malvorlagen sind perfekt für meine Therapie-Sitzungen.',
       },
       {
@@ -349,7 +349,7 @@ Dokumentiere Fortschritt durch angepasste Malvorlagen für Arbeitsblätter Grund
         icon: '💰',
         title: 'Lehrkräfte-Unternehmer auf Teachers Pay Teachers',
         subtitle: 'Verkaufen Sie Ausmalbilder und Malvorlagen',
-        description: `Viele Lehrkräfte verdienen Nebeneinkommen durch Verkauf von Unterrichtsmaterialien bei Arbeitsblätter Grundschule. Das Core Bundle für 144 € jährlich beinhaltet vollständige kommerzielle Lizenz. Verkaufen Sie Ihre Malvorlagen auf Teachers Pay Teachers, Etsy oder Amazon KDP ohne Einschränkungen.
+        description: `Viele Lehrkräfte verdienen Nebeneinkommen durch Verkauf von Unterrichtsmaterialien bei Arbeitsblätter Grundschule. Das Basis-Paket für 144 € jährlich beinhaltet vollständige kommerzielle Lizenz. Verkaufen Sie Ihre Malvorlagen auf Teachers Pay Teachers, Etsy oder Amazon KDP ohne Einschränkungen.
 
 Erstelle thematische Ausmalbilder-Bundles für verschiedene Jahreszeiten und Anlässe. 20 Herbst-Malvorlagen. 30 Tier-Ausmalbilder. Käufer schätzen umfangreiche, thematisch kohärente Ressourcen für Vorschul-Arbeitsblätter. Die 300 DPI Qualität rechtfertigt Premium-Preise.
 
@@ -365,7 +365,7 @@ Viele Lehrkräfte verdienen 500-5000 € monatlich mit druckbaren Ressourcen fü
 
 Erstelle dieselben Ausmalbilder in Muttersprache und Deutsch für Arbeitsblätter Grundschule. Schüler sehen vertraute Konzepte in neuer Sprache. Visuelles Lernen überbrückt Sprachbarrieren. Malaktivitäten ermöglichen Teilnahme vor Sprachbeherrschung.
 
-Bildbasierte Malvorlagen funktionieren ohne Lesekompetenz bei Vorschul-Arbeitsblättern. Farbanweisungen verwenden Farbpunkte statt Wörter. Zählen funktioniert visuell. Frühe Erfolgserlebnisse bauen Selbstvertrauen auf. Das Core Bundle unterstützt mehrsprachige Klassenzimmer.`,
+Bildbasierte Malvorlagen funktionieren ohne Lesekompetenz bei Vorschul-Arbeitsblättern. Farbanweisungen verwenden Farbpunkte statt Wörter. Zählen funktioniert visuell. Frühe Erfolgserlebnisse bauen Selbstvertrauen auf. Das Basis-Paket unterstützt mehrsprachige Klassenzimmer.`,
         quote: 'Die visuellen Malvorlagen sind perfekt für meine DaZ-Schüler ohne Lesekompetenz.',
       },
     ],
@@ -374,7 +374,7 @@ Bildbasierte Malvorlagen funktionieren ohne Lesekompetenz bei Vorschul-Arbeitsbl
   // FAQ Section - FULL FAQs from coloring.md
   faq: {
     sectionTitle: 'Häufig gestellte Fragen zu Malvorlagen und kostenlosen Ausmalbilder Arbeitsblättern',
-    sectionDescription: 'Lehrkräfte und Eltern haben viele Fragen zum Malvorlagen-Generator und Core Bundle Abonnement. Hier beantworten wir die häufigsten Fragen zu Ausmalbilder, Arbeitsblätter Grundschule und kommerzieller Lizenzierung.',
+    sectionDescription: 'Lehrkräfte und Eltern haben viele Fragen zum Malvorlagen-Generator und Basis-Paket Abonnement. Hier beantworten wir die häufigsten Fragen zu Ausmalbilder, Arbeitsblätter Grundschule und kommerzieller Lizenzierung.',
     showMoreText: 'Mehr Fragen anzeigen',
     showLessText: 'Weniger anzeigen',
     badgeText: 'Häufige Fragen',
@@ -386,7 +386,7 @@ Bildbasierte Malvorlagen funktionieren ohne Lesekompetenz bei Vorschul-Arbeitsbl
       {
         id: '1',
         question: 'Ist der Malvorlagen-Generator wirklich kostenlos für Ausmalbilder und Vorschul-Arbeitsblätter?',
-        answer: 'Der Generator ist kostenlos mit Wasserzeichen für persönliche, nicht-kommerzielle Nutzung. Erstellen Sie unbegrenzt Vorschul-Arbeitsblätter und Ausmalbilder für Ihr eigenes Klassenzimmer oder Homeschool. Kostenlose Arbeitsblätter enthalten ein kleines Wasserzeichen in der Ecke. Ideal für Lehrkräfte, die Materialien für ihre eigenen Schüler benötigen. Das Core Bundle Abonnement kostet 144 Euro jährlich oder 15 Euro monatlich. Abonnenten erhalten wasserzeichenfreie Malvorlagen in professioneller Qualität. Zugang zu allen 27 Generatoren inklusive. Kommerzielle Lizenzierung für den Verkauf Ihrer Arbeitsblätter enthalten.',
+        answer: 'Der Generator ist kostenlos mit Wasserzeichen für persönliche, nicht-kommerzielle Nutzung. Erstellen Sie unbegrenzt Vorschul-Arbeitsblätter und Ausmalbilder für Ihr eigenes Klassenzimmer oder Homeschool. Kostenlose Arbeitsblätter enthalten ein kleines Wasserzeichen in der Ecke. Ideal für Lehrkräfte, die Materialien für ihre eigenen Schüler benötigen. Das Basis-Paket Abonnement kostet 144 Euro jährlich oder 15 Euro monatlich. Abonnenten erhalten wasserzeichenfreie Malvorlagen in professioneller Qualität. Zugang zu allen 27 Generatoren inklusive. Kommerzielle Lizenzierung für den Verkauf Ihrer Arbeitsblätter enthalten.',
       },
       {
         id: '2',
@@ -411,7 +411,7 @@ Bildbasierte Malvorlagen funktionieren ohne Lesekompetenz bei Vorschul-Arbeitsbl
       {
         id: '6',
         question: 'Kann ich selbst erstellte Malvorlagen verkaufen auf Teachers Pay Teachers?',
-        answer: 'Ja, Ihr Core Bundle Abonnement beinhaltet vollständige kommerzielle Print-on-Demand-Lizenzierung. Verkaufen Sie Ausmalbilder und Arbeitsblätter Grundschule auf Teachers Pay Teachers, Etsy oder Amazon KDP. Keine Namensnennung erforderlich. Keine Lizenzgebühren. Keine zusätzlichen Gebühren. Behalten Sie 100% der Einnahmen nach Plattformgebühren. Erstellen Sie Malvorlagen-Bundles für kommerzielle Verkäufe. Viele Lehrkräfte verdienen 500-5000 Euro monatlich.',
+        answer: 'Ja, Ihr Basis-Paket Abonnement beinhaltet vollständige kommerzielle Print-on-Demand-Lizenzierung. Verkaufen Sie Ausmalbilder und Arbeitsblätter Grundschule auf Teachers Pay Teachers, Etsy oder Amazon KDP. Keine Namensnennung erforderlich. Keine Lizenzgebühren. Keine zusätzlichen Gebühren. Behalten Sie 100% der Einnahmen nach Plattformgebühren. Erstellen Sie Malvorlagen-Bundles für kommerzielle Verkäufe. Viele Lehrkräfte verdienen 500-5000 Euro monatlich.',
       },
       {
         id: '7',
@@ -421,12 +421,12 @@ Bildbasierte Malvorlagen funktionieren ohne Lesekompetenz bei Vorschul-Arbeitsbl
       {
         id: '8',
         question: 'Wie viele Bilder sind in der Bibliothek für Malvorlagen verfügbar?',
-        answer: 'Die Bibliothek enthält über 3000 kindgerechte Bilder für Ausmalbilder. Organisiert nach Themen wie Tiere, Fahrzeuge, Essen, Natur, Jahreszeiten und Feiertage. Neue Bilder werden regelmäßig hinzugefügt. Saisonale Kollektionen erscheinen vor jedem Feiertag. Das Core Bundle bietet unbegrenzten Zugang zu allen Bildern ohne Download-Limits.',
+        answer: 'Die Bibliothek enthält über 3000 kindgerechte Bilder für Ausmalbilder. Organisiert nach Themen wie Tiere, Fahrzeuge, Essen, Natur, Jahreszeiten und Feiertage. Neue Bilder werden regelmäßig hinzugefügt. Saisonale Kollektionen erscheinen vor jedem Feiertag. Das Basis-Paket bietet unbegrenzten Zugang zu allen Bildern ohne Download-Limits.',
       },
       {
         id: '9',
         question: 'Kann ich Malvorlagen mit anderen Arbeitsblättern kombinieren für Arbeitsblätter Grundschule?',
-        answer: 'Ja, das Core Bundle beinhaltet 27 verschiedene Generatoren die zusammenarbeiten. Kombinieren Sie Malvorlagen mit Schwungübungen für Feinmotorik-Training. Verbinden Sie Ausmalbilder mit Buchstaben lernen für Literacy-Integration. Erstellen Sie Mathe-Arbeitsblätter mit Mal-Belohnungen. Alle Generatoren sind im Abonnement enthalten. Keine zusätzlichen Kosten für Cross-Generator-Nutzung.',
+        answer: 'Ja, das Basis-Paket beinhaltet 27 verschiedene Generatoren die zusammenarbeiten. Kombinieren Sie Malvorlagen mit Schwungübungen für Feinmotorik-Training. Verbinden Sie Ausmalbilder mit Buchstaben lernen für Literacy-Integration. Erstellen Sie Mathe-Arbeitsblätter mit Mal-Belohnungen. Alle Generatoren sind im Abonnement enthalten. Keine zusätzlichen Kosten für Cross-Generator-Nutzung.',
       },
       {
         id: '10',
@@ -467,7 +467,7 @@ Bildbasierte Malvorlagen funktionieren ohne Lesekompetenz bei Vorschul-Arbeitsbl
   // Related Apps - Kombinieren Sie Malvorlagen mit anderen Generatoren
   relatedApps: {
     sectionTitle: 'Kombinieren Sie Malvorlagen mit anderen Generatoren - Ganzheitliche Arbeitsblätter Grundschule',
-    sectionDescription: 'Ihr Core Bundle Abonnement beinhaltet 27 Generatoren, die perfekt zusammenarbeiten. Kombinieren Sie Ausmalbilder mit Schwungübungen für Feinmotorik-Training. Verbinden Sie Malvorlagen mit Buchstaben lernen für Literacy-Integration. Erstellen Sie Mathe-Arbeitsblätter mit Mal-Belohnungen.',
+    sectionDescription: 'Ihr Basis-Paket Abonnement beinhaltet 27 Generatoren, die perfekt zusammenarbeiten. Kombinieren Sie Ausmalbilder mit Schwungübungen für Feinmotorik-Training. Verbinden Sie Malvorlagen mit Buchstaben lernen für Literacy-Integration. Erstellen Sie Mathe-Arbeitsblätter mit Mal-Belohnungen.',
     ctaTitle: 'Bereit, fantastische Malvorlagen zu erstellen?',
     ctaDescription: 'Schließen Sie sich tausenden Lehrkräften an, die professionelle Ausmalbilder und Malvorlagen erstellen. Unbegrenzte Generierung, kommerzielle Lizenz inklusive.',
     primaryCtaText: 'Kostenlos Testen',

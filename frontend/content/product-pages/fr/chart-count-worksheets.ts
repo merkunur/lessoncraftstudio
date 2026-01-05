@@ -9,7 +9,7 @@ import { ProductPageContent } from '@/components/product-page/ProductPageClient'
  * FULL SEO content from: INDIVIDUAL APP PAGES/French/chart-count.md
  * DO NOT SHORTEN - Every paragraph is SEO-optimized
  *
- * Pricing Tier: Full Access (Accès Complet) - 240€/year
+ * Pricing Tier: Accès Complet (Accès Complet) - 240€/year
  */
 
 export const chartCountFrContent: ProductPageContent = {
@@ -424,7 +424,7 @@ La qualité 300 DPI garantit des impressions professionnelles pour vos clients s
     ],
   },
 
-  // Pricing - Full Access tier for Chart Count
+  // Pricing - Accès Complet tier for Chart Count
   pricing: {
     title: 'Accès Complet',
     price: '240€',

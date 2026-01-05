@@ -8,7 +8,7 @@ import { ProductPageContent } from '@/components/product-page/ProductPageClient'
  *
  * FULL SEO content from: INDIVIDUAL APP PAGES/French/picture-sort.md
  * App ID: picture-sort (Visual sorting/classification worksheets)
- * Bundle: Full Access ($240/year) - NOT Core Bundle
+ * Bundle: Accès Complet ($240/year) - NOT Pack Essentiel
  * DO NOT SHORTEN - Every paragraph is SEO-optimized
  */
 
@@ -18,7 +18,7 @@ export const pictureSortFrContent: ProductPageContent = {
     slug: 'tri-images-fiches',
     appId: 'picture-sort',
     title: 'Fiches de Tri d\'Images - Générateur de Fiches Maternelle pour Apprendre à Classer',
-    description: 'Créez des fiches de tri d\'images professionnelles avec notre générateur de fiches maternelle. Votre abonnement Full Access à 240€/an vous permet de générer des fiches à imprimer gratuit en illimité. Concevez des exercices CP personnalisés parfaits pour la maternelle et l\'école élémentaire.',
+    description: 'Créez des fiches de tri d\'images professionnelles avec notre générateur de fiches maternelle. Votre abonnement Accès Complet à 240€/an vous permet de générer des fiches à imprimer gratuit en illimité. Concevez des exercices CP personnalisés parfaits pour la maternelle et l\'école élémentaire.',
     keywords: 'fiches à imprimer gratuit, fiches maternelle, exercices CP, tri images, graphisme maternelle, exercices maths, coloriage à imprimer, apprendre à lire, alphabet, écriture cursive, tables de multiplication',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fr/apps/tri-images-fiches',
   },
@@ -27,7 +27,7 @@ export const pictureSortFrContent: ProductPageContent = {
   hero: {
     title: 'Générateur de Fiches de Tri d\'Images',
     subtitle: 'Fiches Maternelle pour Apprendre à Classer et Catégoriser',
-    description: `Créez des fiches de tri d'images professionnelles avec notre générateur de fiches maternelle. Votre abonnement Full Access à 240€/an vous permet de générer des fiches à imprimer gratuit en illimité. Concevez des exercices CP personnalisés parfaits pour la maternelle et l'école élémentaire. Téléchargez des fiches de haute qualité en PDF en moins de 3 minutes.
+    description: `Créez des fiches de tri d'images professionnelles avec notre générateur de fiches maternelle. Votre abonnement Accès Complet à 240€/an vous permet de générer des fiches à imprimer gratuit en illimité. Concevez des exercices CP personnalisés parfaits pour la maternelle et l'école élémentaire. Téléchargez des fiches de haute qualité en PDF en moins de 3 minutes.
 
 Les activités de tri d'images développent la pensée logique chez les jeunes enfants. Notre outil génère des fiches maternelle avec deux catégories de classement. Les élèves découpent les images et les trient dans les bonnes catégories. Chaque fiche inclut un corrigé montrant le tri correct.
 
@@ -87,7 +87,7 @@ Notre générateur s'adresse aux enseignants de maternelle GS, CP et CE1. Les fi
   // Features Grid - FULL text from picture-sort.md feature sections
   features: {
     sectionTitle: 'Fonctionnalités du Générateur de Fiches Maternelle - Tout pour Créer des Exercices CP Personnalisés',
-    sectionDescription: 'Notre générateur de fiches de tri d\'images offre sept fonctionnalités essentielles pour les enseignants de maternelle et d\'école élémentaire. Chaque fonction facilite la création de fiches à imprimer gratuit adaptées à vos élèves. L\'interface en français permet de concevoir des exercices CP et CE1 en quelques clics. Votre abonnement Full Access inclut l\'accès illimité à toutes ces fonctionnalités professionnelles.',
+    sectionDescription: 'Notre générateur de fiches de tri d\'images offre sept fonctionnalités essentielles pour les enseignants de maternelle et d\'école élémentaire. Chaque fonction facilite la création de fiches à imprimer gratuit adaptées à vos élèves. L\'interface en français permet de concevoir des exercices CP et CE1 en quelques clics. Votre abonnement Accès Complet inclut l\'accès illimité à toutes ces fonctionnalités professionnelles.',
     highlightBadgeText: 'Fonctionnalité Clé',
     readMoreLabel: 'Lire la suite',
     showLessLabel: 'Voir moins',
@@ -146,11 +146,11 @@ L'interface traduite facilite la création de fiches maternelle pour tous les en
         id: '5',
         icon: '💰',
         title: 'Licence Commerciale Incluse - Vendez Vos Fiches Maternelle et Exercices CP',
-        description: `Votre abonnement Full Access inclut une licence d'impression à la demande complète. Vendez vos fiches maternelle sur Teachers Pay Teachers sans frais supplémentaires. Créez une boutique Etsy de ressources pédagogiques imprimables. Publiez des carnets d'exercices CP sur Amazon KDP.
+        description: `Votre abonnement Accès Complet inclut une licence d'impression à la demande complète. Vendez vos fiches maternelle sur Teachers Pay Teachers sans frais supplémentaires. Créez une boutique Etsy de ressources pédagogiques imprimables. Publiez des carnets d'exercices CP sur Amazon KDP.
 
 La qualité 300 DPI garantit une impression professionnelle pour la vente. Aucune attribution n'est requise sur vos fiches à imprimer gratuit commercialisées. Générez des revenus passifs avec des ressources que vous créez en minutes. De nombreux enseignants gagnent 500€ à 5000€ par mois avec leurs fiches maternelle.
 
-Utilisez Pinterest pour promouvoir vos exercices CP auprès d'un public mondial. Créez des abonnements mensuels pour fournir de nouvelles fiches régulièrement. Développez votre marque d'enseignant entrepreneur avec des ressources uniques. La licence commerciale incluse valorise considérablement votre abonnement Full Access.`,
+Utilisez Pinterest pour promouvoir vos exercices CP auprès d'un public mondial. Créez des abonnements mensuels pour fournir de nouvelles fiches régulièrement. Développez votre marque d'enseignant entrepreneur avec des ressources uniques. La licence commerciale incluse valorise considérablement votre abonnement Accès Complet.`,
         highlighted: true,
       },
       {
@@ -290,7 +290,7 @@ Les activités de tri renforcent la motricité fine à travers le découpage et 
 
 Utilisez les fiches de tri pour enseigner le vocabulaire thématique en maternelle. Triez les animaux de la ferme versus les animaux sauvages pour enrichir le lexique. Les activités saisonnières (vêtements d'été/hiver, fruits/légumes) contextualisent les apprentissages. Nos 3000+ images couvrent tous les thèmes du programme de maternelle français.
 
-Les fiches plastifiées deviennent du matériel de manipulation réutilisable pour les centres d'apprentissage. Les élèves de PS et MS utilisent les mêmes fiches maternelle plusieurs fois avec différentes consignes. Changez les critères de tri (couleur, taille, fonction) pour varier les défis cognitifs. Cette économie de ressources valorise votre abonnement Full Access.`,
+Les fiches plastifiées deviennent du matériel de manipulation réutilisable pour les centres d'apprentissage. Les élèves de PS et MS utilisent les mêmes fiches maternelle plusieurs fois avec différentes consignes. Changez les critères de tri (couleur, taille, fonction) pour varier les défis cognitifs. Cette économie de ressources valorise votre abonnement Accès Complet.`,
         quote: 'Mes élèves adorent trier les images par catégories !',
       },
       {
@@ -318,7 +318,7 @@ Utilisez les activités de tri pour enseigner les tables de multiplication de ma
 
 Les parents apprécient la génération rapide de matériel pédagogique varié sans préparation fastidieuse. Produisez une nouvelle fiche maternelle chaque jour avec des thèmes correspondant aux intérêts de l'enfant. Personnalisez avec des photos familiales pour maintenir la motivation et l'engagement. L'apprentissage à domicile devient plus structuré et professionnel.
 
-L'abonnement Full Access rentabilise rapidement pour les familles instruisant plusieurs enfants. Créez simultanément des exercices CP pour l'aîné et du graphisme maternelle pour le cadet. Chaque enfant progresse à son rythme avec du matériel adapté à son niveau. Les fiches à imprimer gratuit illimitées éliminent les frais de photocopies et de ressources commerciales.`,
+L'abonnement Accès Complet rentabilise rapidement pour les familles instruisant plusieurs enfants. Créez simultanément des exercices CP pour l'aîné et du graphisme maternelle pour le cadet. Chaque enfant progresse à son rythme avec du matériel adapté à son niveau. Les fiches à imprimer gratuit illimitées éliminent les frais de photocopies et de ressources commerciales.`,
         quote: 'Un outil adapté au rythme de chaque enfant.',
       },
       {
@@ -354,7 +354,7 @@ Les fiches plastifiées avec velcro deviennent du matériel de manipulation dura
         icon: '💰',
         title: 'Enseignants Entrepreneurs - Vendez des Fiches Maternelle sur Teachers Pay Teachers',
         subtitle: 'Licence commerciale incluse pour TPT, Etsy et Amazon KDP',
-        description: `Les enseignants entrepreneuriaux créent des ressources pédagogiques à vendre en ligne avec notre générateur. Concevez des paquets thématiques de fiches maternelle pour chaque saison scolaire. Les ressources de rentrée, d'automne, de Noël et de fin d'année se vendent particulièrement bien. Votre abonnement Full Access à 240€/an s'amortit avec quelques ventes seulement.
+        description: `Les enseignants entrepreneuriaux créent des ressources pédagogiques à vendre en ligne avec notre générateur. Concevez des paquets thématiques de fiches maternelle pour chaque saison scolaire. Les ressources de rentrée, d'automne, de Noël et de fin d'année se vendent particulièrement bien. Votre abonnement Accès Complet à 240€/an s'amortit avec quelques ventes seulement.
 
 La licence commerciale incluse permet de vendre sur Etsy, Teachers Pay Teachers et Amazon KDP. Créez des carnets d'exercices imprimables combinant fiches de tri et autres activités. Les enseignants achètent des ressources prêtes à imprimer pour économiser du temps de préparation. Le marché francophone des ressources pédagogiques est moins saturé que le marché anglophone.
 
@@ -369,7 +369,7 @@ De nombreux enseignants gagnent 500€ à 5000€ par mois en vendant des ressou
   // FAQ Section - Selected FAQs from picture-sort.md
   faq: {
     sectionTitle: 'Questions Fréquentes sur les Fiches Maternelle, Exercices CE1 et Coloriage à Imprimer',
-    sectionDescription: 'Les enseignants posent régulièrement des questions sur notre générateur de fiches de tri d\'images. Cette section répond aux interrogations les plus courantes concernant les exercices maths, le graphisme maternelle et les activités d\'alphabet. Découvrez comment maximiser votre abonnement Full Access pour créer des fiches à imprimer gratuit en illimité.',
+    sectionDescription: 'Les enseignants posent régulièrement des questions sur notre générateur de fiches de tri d\'images. Cette section répond aux interrogations les plus courantes concernant les exercices maths, le graphisme maternelle et les activités d\'alphabet. Découvrez comment maximiser votre abonnement Accès Complet pour créer des fiches à imprimer gratuit en illimité.',
     showMoreText: 'Voir plus de questions',
     showLessText: 'Voir moins',
     badgeText: 'FAQ',
@@ -381,9 +381,9 @@ De nombreux enseignants gagnent 500€ à 5000€ par mois en vendant des ressou
       {
         id: '1',
         question: 'Ce générateur de fiches maternelle avec tables de multiplication est-il vraiment gratuit ?',
-        answer: `Le générateur de fiches de tri nécessite un abonnement Full Access coûtant 240€ annuellement ou 25€ mensuellement. Votre abonnement vous permet de créer des exercices CE1 illimités sans frais par fiche. Générez autant de fiches maternelle que nécessaire sans charges supplémentaires. La qualité professionnelle 300 DPI justifie largement cet investissement annuel.
+        answer: `Le générateur de fiches de tri nécessite un abonnement Accès Complet coûtant 240€ annuellement ou 25€ mensuellement. Votre abonnement vous permet de créer des exercices CE1 illimités sans frais par fiche. Générez autant de fiches maternelle que nécessaire sans charges supplémentaires. La qualité professionnelle 300 DPI justifie largement cet investissement annuel.
 
-L'abonnement Full Access inclut 33 générateurs différents d'activités pédagogiques. Créez des fiches de tri, des exercices maths, des activités de coloriage et bien plus. L'abonnement Core Bundle coûte 144€ annuellement et inclut 10 générateurs populaires. Les deux abonnements incluent la licence commerciale, le support multilingue et les exportations haute qualité.`,
+L'abonnement Accès Complet inclut 33 générateurs différents d'activités pédagogiques. Créez des fiches de tri, des exercices maths, des activités de coloriage et bien plus. L'abonnement Pack Essentiel coûte 144€ annuellement et inclut 10 générateurs populaires. Les deux abonnements incluent la licence commerciale, le support multilingue et les exportations haute qualité.`,
       },
       {
         id: '2',
@@ -402,7 +402,7 @@ Les outils d'édition sur canevas fonctionnent par simple glisser-déposer des �
       {
         id: '4',
         question: 'Puis-je utiliser ces fiches à imprimer gratuit dans ma classe avec mes élèves ?',
-        answer: `Votre abonnement Full Access inclut une utilisation illimitée en classe avec vos élèves. Imprimez autant d'exemplaires que nécessaire pour votre groupe-classe complet. Distribuez les fiches maternelle à tous vos élèves sans restriction de quantité. Cette licence d'utilisation pédagogique couvre toutes les activités en contexte scolaire.
+        answer: `Votre abonnement Accès Complet inclut une utilisation illimitée en classe avec vos élèves. Imprimez autant d'exemplaires que nécessaire pour votre groupe-classe complet. Distribuez les fiches maternelle à tous vos élèves sans restriction de quantité. Cette licence d'utilisation pédagogique couvre toutes les activités en contexte scolaire.
 
 Partagez numériquement les fiches avec les parents pour le soutien scolaire à domicile. Envoyez les exercices maths par email ou téléchargez-les sur votre plateforme pédagogique en ligne. Les parents apprécient recevoir des activités de qualité professionnelle pour pratiquer à la maison. Cette flexibilité de distribution valorise considérablement votre abonnement annuel.`,
       },
@@ -416,7 +416,7 @@ Les classes bilingues et d'immersion bénéficient énormément du support multi
       {
         id: '6',
         question: 'Puis-je vendre les fiches maternelle et exercices maths que je crée avec ce générateur ?',
-        answer: `Oui, votre abonnement Full Access inclut une licence commerciale complète d'impression à la demande. Vendez vos fiches maternelle sur Teachers Pay Teachers, Etsy et Amazon KDP sans frais supplémentaires. Aucune attribution n'est requise sur vos créations commercialisées. Cette licence commerciale seule vaut plusieurs centaines d'euros annuellement chez les concurrents.
+        answer: `Oui, votre abonnement Accès Complet inclut une licence commerciale complète d'impression à la demande. Vendez vos fiches maternelle sur Teachers Pay Teachers, Etsy et Amazon KDP sans frais supplémentaires. Aucune attribution n'est requise sur vos créations commercialisées. Cette licence commerciale seule vaut plusieurs centaines d'euros annuellement chez les concurrents.
 
 Créez des carnets d'exercices maths thématiques pour vente en ligne ou lors d'événements éducatifs. Développez une boutique de ressources pédagogiques françaises générant des revenus passifs mensuels. De nombreux enseignants entrepreneuriaux gagnent 500€ à 5000€ par mois vendant leurs créations. La licence commerciale incluse transforme votre créativité pédagogique en source de revenus complémentaires.`,
       },
@@ -465,7 +465,7 @@ Ajoutez des consignes d'écriture cursive en utilisant l'outil Texte avec police
     ],
   },
 
-  // Pricing - Full Access Bundle for Picture Sort
+  // Pricing - Accès Complet Bundle for Picture Sort
   pricing: {
     title: 'Accès Complet',
     price: '240€',
@@ -487,7 +487,7 @@ Ajoutez des consignes d'écriture cursive en utilisant l'outil Texte avec police
   // Related Apps - From picture-sort.md Section 7
   relatedApps: {
     sectionTitle: 'Combinez avec D\'Autres Générateurs - Créez des Paquets de Fiches à Imprimer Gratuit Complets',
-    sectionDescription: 'Votre abonnement Full Access inclut 33 générateurs d\'activités pédagogiques différents. Combinez le générateur de fiches de tri avec d\'autres outils pour créer des paquets thématiques complets. Cette approche intégrée renforce l\'apprentissage en abordant les concepts sous plusieurs angles. Les élèves bénéficient d\'activités variées ciblant les mêmes objectifs pédagogiques avec des exercices CE1 diversifiés.',
+    sectionDescription: 'Votre abonnement Accès Complet inclut 33 générateurs d\'activités pédagogiques différents. Combinez le générateur de fiches de tri avec d\'autres outils pour créer des paquets thématiques complets. Cette approche intégrée renforce l\'apprentissage en abordant les concepts sous plusieurs angles. Les élèves bénéficient d\'activités variées ciblant les mêmes objectifs pédagogiques avec des exercices CE1 diversifiés.',
     ctaTitle: 'Prêt à Créer des Fiches Fantastiques ?',
     ctaDescription: 'Rejoignez des milliers d\'enseignants qui créent des fiches professionnelles. Génération illimitée, licence commerciale incluse.',
     primaryCtaText: 'Commencer l\'Essai Gratuit',

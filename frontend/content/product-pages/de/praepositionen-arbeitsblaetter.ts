@@ -30,7 +30,7 @@ export const prepositionsDeContent: ProductPageContent = {
     slug: 'praepositionen-arbeitsblaetter',
     appId: 'prepositions',
     title: 'Präpositionen Generator - Kostenlose Arbeitsblätter für Vorschule und Arbeitsblätter Grundschule',
-    description: 'Erstellen Sie professionelle Präpositionen-Arbeitsblätter mit unserem Generator. Mit Ihrem Full Access Abonnement gestalten Sie unbegrenzt druckbare Arbeitsblätter für Vorschule und Grundschule. Kinder lernen räumliche Konzepte wie in, auf, unter und neben.',
+    description: 'Erstellen Sie professionelle Präpositionen-Arbeitsblätter mit unserem Generator. Mit Ihrem Vollzugriff Abonnement gestalten Sie unbegrenzt druckbare Arbeitsblätter für Vorschule und Grundschule. Kinder lernen räumliche Konzepte wie in, auf, unter und neben.',
     keywords: 'präpositionen arbeitsblätter, räumliche begriffe arbeitsblätter, arbeitsblätter grundschule, kostenlose arbeitsblätter, mathe arbeitsblätter, vorschule arbeitsblätter, deutsch arbeitsblätter, schwungübungen, buchstaben lernen, rechnen lernen',
     canonicalUrl: 'https://www.lessoncraftstudio.com/de/apps/praepositionen-arbeitsblaetter',
   },
@@ -39,11 +39,11 @@ export const prepositionsDeContent: ProductPageContent = {
   hero: {
     title: 'Präpositionen Generator',
     subtitle: 'Kostenlose Arbeitsblätter für Vorschule und Arbeitsblätter Grundschule',
-    description: `Erstellen Sie professionelle Präpositionen-Arbeitsblätter mit unserem benutzerfreundlichen Generator. Ihr Full Access Abonnement ermöglicht unbegrenzte Erstellung von Arbeitsblättern ohne Zusatzkosten pro Arbeitsblatt. Generieren Sie kostenlose Arbeitsblätter für Vorschule und Grundschule, die räumliche Konzepte anschaulich vermitteln. Laden Sie hochwertige PDF-Arbeitsblätter in weniger als 3 Minuten herunter.
+    description: `Erstellen Sie professionelle Präpositionen-Arbeitsblätter mit unserem benutzerfreundlichen Generator. Ihr Vollzugriff Abonnement ermöglicht unbegrenzte Erstellung von Arbeitsblättern ohne Zusatzkosten pro Arbeitsblatt. Generieren Sie kostenlose Arbeitsblätter für Vorschule und Grundschule, die räumliche Konzepte anschaulich vermitteln. Laden Sie hochwertige PDF-Arbeitsblätter in weniger als 3 Minuten herunter.
 
 Der Präpositionen-Generator vermittelt Kindern acht grundlegende räumliche Begriffe durch ansprechende visuelle Übungen. Schüler lernen die Präpositionen in, auf, unter, neben, hinter, zwischen, über und vor durch klare Bild-Text-Kombinationen. Jedes Arbeitsblatt verbindet farbenfrohe Illustrationen mit verständlichen Übungsformaten. Diese Methode macht das Erlernen von Präpositionen für Kinder im Vorschul- und Grundschulalter besonders effektiv.
 
-Lehrkräfte sparen Stunden bei der manuellen Erstellung von Präpositionen-Arbeitsblättern. Unser Generator erstellt professionelle Arbeitsblätter Grundschule in Minuten statt Stunden. Wählen Sie zwischen Lückentext oder Multiple-Choice-Formaten. Bestimmen Sie selbst, welche Präpositionen geübt werden sollen, oder kombinieren Sie alle acht Begriffe in einer Übung. Ihr Full Access Abonnement für 240 Euro jährlich oder 25 Euro monatlich beinhaltet unbegrenzte Downloads und eine gewerbliche Lizenz für den Verkauf Ihrer Arbeitsblätter.
+Lehrkräfte sparen Stunden bei der manuellen Erstellung von Präpositionen-Arbeitsblättern. Unser Generator erstellt professionelle Arbeitsblätter Grundschule in Minuten statt Stunden. Wählen Sie zwischen Lückentext oder Multiple-Choice-Formaten. Bestimmen Sie selbst, welche Präpositionen geübt werden sollen, oder kombinieren Sie alle acht Begriffe in einer Übung. Ihr Vollzugriff Abonnement für 240 Euro jährlich oder 25 Euro monatlich beinhaltet unbegrenzte Downloads und eine gewerbliche Lizenz für den Verkauf Ihrer Arbeitsblätter.
 
 Perfekt für Erzieher in der Vorschule und Lehrkräfte in der Grundschule, die schnell qualitativ hochwertige Präpositionen-Arbeitsblätter benötigen. Erstellen Sie Materialien für den Klassenunterricht oder für individuelle Förderung. Passen Sie jedes Element auf der Arbeitsfläche individuell an. Verschieben, drehen und skalieren Sie Bilder für einzigartige Layouts. Fügen Sie eigene Texte hinzu und wählen Sie aus sieben kindgerechten Schriftarten.`,
     previewImageSrc: '/samples/english/prepositions/prepositions_worksheet.jpeg',
@@ -150,9 +150,9 @@ Spracheinstellungen wirken sich auf Benutzeroberfläche und Inhalt aus. Der gesa
         id: '5',
         icon: '💰',
         title: 'Gewerbliche Lizenz für Arbeitsblätter Grundschule - Verkaufen Sie kostenlose Arbeitsblätter und Ausmalbilder online',
-        description: `Das Full Access Abonnement beinhaltet eine vollständige gewerbliche Lizenz für Ihre Präpositionen-Arbeitsblätter. Verkaufen Sie Arbeitsblätter auf Eduki ohne zusätzliche Gebühren. Erstellen Sie Produktangebote auf Etsy und Amazon KDP. Bauen Sie ein passives Einkommen auf, während Sie anderen Pädagogen helfen. Viele Lehrkräfte verdienen monatlich 500 bis 5000 Euro mit dem Verkauf kostenloser Arbeitsblätter und Ausmalbilder, die sie mit unserem Generator erstellt haben.
+        description: `Das Vollzugriff Abonnement beinhaltet eine vollständige gewerbliche Lizenz für Ihre Präpositionen-Arbeitsblätter. Verkaufen Sie Arbeitsblätter auf Eduki ohne zusätzliche Gebühren. Erstellen Sie Produktangebote auf Etsy und Amazon KDP. Bauen Sie ein passives Einkommen auf, während Sie anderen Pädagogen helfen. Viele Lehrkräfte verdienen monatlich 500 bis 5000 Euro mit dem Verkauf kostenloser Arbeitsblätter und Ausmalbilder, die sie mit unserem Generator erstellt haben.
 
-Die gewerbliche Lizenz deckt Print-on-Demand-Nutzung ab. Keine Namensnennung erforderlich. Keine Tantiemen pro Arbeitsblatt. Ihre Full Access Abonnementgebühr deckt alles ab. Erstellen Sie unbegrenzt Arbeitsblätter Grundschule und verkaufen Sie sie so oft Sie möchten.`,
+Die gewerbliche Lizenz deckt Print-on-Demand-Nutzung ab. Keine Namensnennung erforderlich. Keine Tantiemen pro Arbeitsblatt. Ihre Vollzugriff Abonnementgebühr deckt alles ab. Erstellen Sie unbegrenzt Arbeitsblätter Grundschule und verkaufen Sie sie so oft Sie möchten.`,
         highlighted: true,
       },
       {
@@ -303,7 +303,7 @@ Passen Sie die Komplexität an individuelle Fähigkeiten an. Reduzieren Sie die 
         subtitle: 'Verkauf auf Online-Plattformen',
         description: `Lehrkräfte, die Unterrichtsmaterialien verkaufen, nutzen unseren Präpositionen-Generator für profitable Arbeitsblatt-Pakete. Erstellen Sie thematische Sammlungen für verschiedene Jahreszeiten. Herbst-Präpositionen mit Blättern und Kürbissen. Winter-Übungen mit Schneemännern und Geschenken. Diese saisonalen Pakete verkaufen sich besonders gut auf Eduki und Etsy.
 
-Die gewerbliche Lizenz im Full Access Abonnement erlaubt unbegrenzten Verkauf. Keine zusätzlichen Lizenzgebühren pro Arbeitsblatt. Viele Lehrkräfte verdienen monatlich 500 bis 2000 Euro mit Arbeitsblatt-Verkäufen. Top-Verkäufer erreichen 5000 Euro und mehr.`,
+Die gewerbliche Lizenz im Vollzugriff Abonnement erlaubt unbegrenzten Verkauf. Keine zusätzlichen Lizenzgebühren pro Arbeitsblatt. Viele Lehrkräfte verdienen monatlich 500 bis 2000 Euro mit Arbeitsblatt-Verkäufen. Top-Verkäufer erreichen 5000 Euro und mehr.`,
         quote: 'Mein Abonnement hat sich im ersten Monat bezahlt gemacht!',
       },
     ],
@@ -324,7 +324,7 @@ Die gewerbliche Lizenz im Full Access Abonnement erlaubt unbegrenzten Verkauf. K
       {
         id: '1',
         question: 'Ist der Präpositionen-Generator wirklich kostenlos für Vorschule Arbeitsblätter und kostenlose Arbeitsblätter?',
-        answer: `Der Präpositionen-Generator erfordert ein Full Access Abonnement für 240 Euro jährlich oder 25 Euro monatlich. Der Begriff kostenlose Arbeitsblätter bezieht sich auf das Such-Keyword, das Menschen verwenden, wenn sie nach Ressourcen suchen. Mit Ihrem Abonnement erstellen Sie unbegrenzt Präpositionen-Arbeitsblätter ohne Kosten pro Arbeitsblatt. Generieren Sie so viele Vorschule Arbeitsblätter wie Sie benötigen ohne zusätzliche Gebühren.`,
+        answer: `Der Präpositionen-Generator erfordert ein Vollzugriff Abonnement für 240 Euro jährlich oder 25 Euro monatlich. Der Begriff kostenlose Arbeitsblätter bezieht sich auf das Such-Keyword, das Menschen verwenden, wenn sie nach Ressourcen suchen. Mit Ihrem Abonnement erstellen Sie unbegrenzt Präpositionen-Arbeitsblätter ohne Kosten pro Arbeitsblatt. Generieren Sie so viele Vorschule Arbeitsblätter wie Sie benötigen ohne zusätzliche Gebühren.`,
       },
       {
         id: '2',
@@ -354,7 +354,7 @@ Die gewerbliche Lizenz im Full Access Abonnement erlaubt unbegrenzten Verkauf. K
       {
         id: '7',
         question: 'Kann ich den Generator für Schwungübungen, Deutsch Arbeitsblätter und Buchstaben lernen-Sammlungen verwenden?',
-        answer: `Ja, Full Access beinhaltet alle Arbeitsblatt-Generatoren auf einer Plattform. Erstellen Sie Präpositionen-Arbeitsblätter neben Schwungübungen für Feinmotorik-Training. Generieren Sie Deutsch Arbeitsblätter für Sprachentwicklung. Fügen Sie Materialien für Buchstaben lernen für Literacy-Stationen hinzu. Alle Generatoren teilen dieselbe Bildbibliothek für thematische Konsistenz.`,
+        answer: `Ja, Vollzugriff beinhaltet alle Arbeitsblatt-Generatoren auf einer Plattform. Erstellen Sie Präpositionen-Arbeitsblätter neben Schwungübungen für Feinmotorik-Training. Generieren Sie Deutsch Arbeitsblätter für Sprachentwicklung. Fügen Sie Materialien für Buchstaben lernen für Literacy-Stationen hinzu. Alle Generatoren teilen dieselbe Bildbibliothek für thematische Konsistenz.`,
       },
       {
         id: '8',
@@ -364,7 +364,7 @@ Die gewerbliche Lizenz im Full Access Abonnement erlaubt unbegrenzten Verkauf. K
       {
         id: '9',
         question: 'Kann ich Präpositionen-Arbeitsblätter kommerziell für Deutsch Arbeitsblätter und Einmaleins verkaufen?',
-        answer: `Ja, Full Access beinhaltet eine vollständige gewerbliche Lizenz für alle erstellten Materialien. Verkaufen Sie Präpositionen-Arbeitsblätter auf Eduki, Etsy und Amazon KDP ohne zusätzliche Gebühren. Keine Tantiemen pro Verkauf. Keine Mengenbeschränkungen. Die Lizenz deckt alle Generatoren ab. Viele Lehrkräfte verdienen monatlich 500 bis 2000 Euro durch Arbeitsblatt-Verkäufe.`,
+        answer: `Ja, Vollzugriff beinhaltet eine vollständige gewerbliche Lizenz für alle erstellten Materialien. Verkaufen Sie Präpositionen-Arbeitsblätter auf Eduki, Etsy und Amazon KDP ohne zusätzliche Gebühren. Keine Tantiemen pro Verkauf. Keine Mengenbeschränkungen. Die Lizenz deckt alle Generatoren ab. Viele Lehrkräfte verdienen monatlich 500 bis 2000 Euro durch Arbeitsblatt-Verkäufe.`,
       },
       {
         id: '10',
@@ -387,7 +387,7 @@ Die gewerbliche Lizenz im Full Access Abonnement erlaubt unbegrenzten Verkauf. K
   // Related Apps Section - FULL text from praepositionen.md
   relatedApps: {
     sectionTitle: 'Präpositionen-Arbeitsblätter mit anderen Generatoren kombinieren - Schwungübungen und Buchstaben lernen Lernpakete erstellen',
-    sectionDescription: 'Der Präpositionen-Generator ist eines von 33 Tools im Full Access Abonnement. Kombinieren Sie verschiedene Arbeitsblatt-Typen für umfassende Lernpakete. Erstellen Sie thematisch abgestimmte Materialien für Ihren Unterricht.',
+    sectionDescription: 'Der Präpositionen-Generator ist eines von 33 Tools im Vollzugriff Abonnement. Kombinieren Sie verschiedene Arbeitsblatt-Typen für umfassende Lernpakete. Erstellen Sie thematisch abgestimmte Materialien für Ihren Unterricht.',
     ctaTitle: 'Bereit für professionelle Präpositionen-Arbeitsblätter?',
     ctaDescription: 'Schließen Sie sich tausenden Pädagogen an, die professionelle Arbeitsblätter in Minuten erstellen.',
     primaryCtaText: 'Kostenlos Testen',

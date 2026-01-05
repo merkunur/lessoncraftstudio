@@ -37,7 +37,7 @@ export const cryptogramDeContent: ProductPageContent = {
   hero: {
     title: 'Bildkryptogramm',
     subtitle: 'Kostenlose Arbeitsblätter Grundschule - Generator für Vorschule Arbeitsblätter und Deutsch Arbeitsblätter',
-    description: `Erstellen Sie professionelle Bilder-Kryptogramm Arbeitsblätter mit unserem Kryptogramm-Generator. Ihr Full Access Abonnement ermöglicht unbegrenzte Arbeitsblatt-Erstellung ohne zusätzliche Kosten pro Arbeitsblatt. Generieren Sie individuelle Kryptogramme perfekt für Arbeitsblätter Grundschule, Vorschule Arbeitsblätter und Deutsch Arbeitsblätter. Laden Sie hochwertige PDF-Dateien in unter 3 Minuten herunter.
+    description: `Erstellen Sie professionelle Bilder-Kryptogramm Arbeitsblätter mit unserem Kryptogramm-Generator. Ihr Vollzugriff Abonnement ermöglicht unbegrenzte Arbeitsblatt-Erstellung ohne zusätzliche Kosten pro Arbeitsblatt. Generieren Sie individuelle Kryptogramme perfekt für Arbeitsblätter Grundschule, Vorschule Arbeitsblätter und Deutsch Arbeitsblätter. Laden Sie hochwertige PDF-Dateien in unter 3 Minuten herunter.
 
 Bilder-Kryptogramme verwandeln Geheimschrift-Rätsel in visuelle Lernabenteuer. Jedes Kryptogramm nutzt Bilder anstelle von Buchstaben für geheime Codes. Schüler ordnen Bilder den Buchstaben zu und entschlüsseln versteckte Botschaften. Das kombiniert Buchstaben lernen Übungen mit kritischem Denken. Perfekt für Vorschule bis zur Grundschule.
 
@@ -154,7 +154,7 @@ Die Sprachunterstützung erstreckt sich auf die gesamte Benutzeroberfläche. Arb
         id: '5',
         icon: '💰',
         title: 'Kommerzielle Lizenz für Mathe Arbeitsblätter und Einmaleins Übungen - Auf Teachers Pay Teachers verkaufen',
-        description: `Das Full Access Abonnement enthält eine vollständige kommerzielle Print-on-Demand Lizenz ohne Zusatzkosten. Verkaufen Sie Ihre Bilder-Kryptogramme auf Teachers Pay Teachers, Etsy oder Amazon KDP. Erstellen Sie Vorschule Arbeitsblätter Pakete für passives Einkommen. Generieren Sie Arbeitsblätter Grundschule Sammlungen für Lehrplan-Marktplätze. Keine Namensnennung erforderlich.
+        description: `Das Vollzugriff Abonnement enthält eine vollständige kommerzielle Print-on-Demand Lizenz ohne Zusatzkosten. Verkaufen Sie Ihre Bilder-Kryptogramme auf Teachers Pay Teachers, Etsy oder Amazon KDP. Erstellen Sie Vorschule Arbeitsblätter Pakete für passives Einkommen. Generieren Sie Arbeitsblätter Grundschule Sammlungen für Lehrplan-Marktplätze. Keine Namensnennung erforderlich.
 
 Diese kommerzielle Lizenz macht unseren Generator wertvoll für Lehrer-Unternehmer. Erstellen Sie thematische Deutsch Arbeitsblätter Pakete für saisonale Verkäufe. Entwickeln Sie umfassende Buchstaben lernen Sammlungen für den Schuljahresbeginn. Bündeln Sie Mathe Arbeitsblätter mit Kryptogrammen für höherwertige Produkte.
 
@@ -341,7 +341,7 @@ Kombinieren Sie Kryptogramme mit Schwungübungen für umfassende Feinmotorik-Int
         icon: '💰',
         title: 'Lehrer-Unternehmer - Kostenlose Arbeitsblätter Grundschule und Vorschule Arbeitsblätter verkaufen mit Einmaleins und Malvorlagen',
         subtitle: 'Kommerzielle Lizenz für passive Einnahmen',
-        description: `Lehrer-Verkäufer auf Teachers Pay Teachers und Etsy nutzen unseren Generator für Produkterstellung. Das Full Access Abonnement enthält volle kommerzielle Lizenzierung für Print-on-Demand Nutzung. Erstellen Sie thematische Arbeitsblatt-Pakete für saisonale Verkäufe mit Arbeitsblätter Grundschule und Vorschule Arbeitsblätter.
+        description: `Lehrer-Verkäufer auf Teachers Pay Teachers und Etsy nutzen unseren Generator für Produkterstellung. Das Vollzugriff Abonnement enthält volle kommerzielle Lizenzierung für Print-on-Demand Nutzung. Erstellen Sie thematische Arbeitsblatt-Pakete für saisonale Verkäufe mit Arbeitsblätter Grundschule und Vorschule Arbeitsblätter.
 
 Generieren Sie 20 verschiedene Herbst-thematische Kryptogramme für Herbst-Verkauf. Erstellen Sie 30 Ozean-thematische Rätsel für Sommer-Pakete. Produzieren Sie 25 Feiertags-Rätsel für Dezember-Verkäufe. Jedes Paket dauert weniger als eine Stunde zu erstellen. Verkaufen Sie für 3-8 Euro pro Paket auf Teachers Pay Teachers.
 
@@ -366,7 +366,7 @@ Differenzieren Sie Ihre Produkte durch Kombination mit anderen Arbeitsblatt-Type
       {
         id: '1',
         question: 'Ist dieser Kryptogramm-Generator wirklich kostenlos für Mathe Arbeitsblätter und Einmaleins Übung?',
-        answer: 'Word Search ist die einzige kostenlose App auf LessonCraft Studio. Bilder-Kryptogramme erfordert ein Full Access Abonnement. Das Abonnement kostet 240 Euro pro Jahr oder 25 Euro pro Monat. "Kostenlose Arbeitsblätter" bezieht sich auf die Ausgabe nicht den Generator selbst. Mit Ihrem Full Access Abonnement erstellen Sie unbegrenzte druckbare Arbeitsblätter ohne Gebühren pro Arbeitsblatt. Ihr Abonnement enthält kommerzielle Lizenzierung, 11 Sprachen und Zugang zu 33 verschiedenen Arbeitsblatt-Generatoren einschließlich Bilder-Kryptogramme kombiniert mit Mathe Arbeitsblätter für Einmaleins und Rechnen lernen.',
+        answer: 'Word Search ist die einzige kostenlose App auf LessonCraft Studio. Bilder-Kryptogramme erfordert ein Vollzugriff Abonnement. Das Abonnement kostet 240 Euro pro Jahr oder 25 Euro pro Monat. "Kostenlose Arbeitsblätter" bezieht sich auf die Ausgabe nicht den Generator selbst. Mit Ihrem Vollzugriff Abonnement erstellen Sie unbegrenzte druckbare Arbeitsblätter ohne Gebühren pro Arbeitsblatt. Ihr Abonnement enthält kommerzielle Lizenzierung, 11 Sprachen und Zugang zu 33 verschiedenen Arbeitsblatt-Generatoren einschließlich Bilder-Kryptogramme kombiniert mit Mathe Arbeitsblätter für Einmaleins und Rechnen lernen.',
       },
       {
         id: '2',
@@ -381,7 +381,7 @@ Differenzieren Sie Ihre Produkte durch Kombination mit anderen Arbeitsblatt-Type
       {
         id: '4',
         question: 'Kann ich Kryptogramme im Klassenzimmer mit Einmaleins und Schwungübungen verwenden?',
-        answer: 'Ja, Full Access Abonnement enthält unbegrenzte Klassenzimmer-Nutzung. Drucken Sie so viele Kopien wie für Ihre Schüler benötigt. Erstellen Sie verschiedene Versionen für verschiedene Fähigkeitsniveaus. Laminieren Sie Rätsel für wiederverwendbare Zentrumsaktivitäten. Kopieren Sie Arbeitsblätter für Heimübung. Senden Sie digitale Versionen an Eltern via E-Mail. Schließen Sie Rätsel in Vertretungslehrer-Ordnern ein. Ihr Abonnement deckt alle bildungsrelevanten Verwendungen. Die einzige Einschränkung ist Arbeitsblätter weiterverkaufen erfordert kommerzielle Lizenzierung die Full Access enthält. Kombinieren Sie mit Einmaleins Übungen und Schwungübungen für umfassende Lernpakete.',
+        answer: 'Ja, Vollzugriff Abonnement enthält unbegrenzte Klassenzimmer-Nutzung. Drucken Sie so viele Kopien wie für Ihre Schüler benötigt. Erstellen Sie verschiedene Versionen für verschiedene Fähigkeitsniveaus. Laminieren Sie Rätsel für wiederverwendbare Zentrumsaktivitäten. Kopieren Sie Arbeitsblätter für Heimübung. Senden Sie digitale Versionen an Eltern via E-Mail. Schließen Sie Rätsel in Vertretungslehrer-Ordnern ein. Ihr Abonnement deckt alle bildungsrelevanten Verwendungen. Die einzige Einschränkung ist Arbeitsblätter weiterverkaufen erfordert kommerzielle Lizenzierung die Vollzugriff enthält. Kombinieren Sie mit Einmaleins Übungen und Schwungübungen für umfassende Lernpakete.',
       },
       {
         id: '5',
@@ -391,7 +391,7 @@ Differenzieren Sie Ihre Produkte durch Kombination mit anderen Arbeitsblatt-Type
       {
         id: '6',
         question: 'Kann ich Kryptogramme verkaufen mit Ausmalbilder und Malvorlagen Materialien?',
-        answer: 'Ja, Full Access Abonnement enthält volle kommerzielle Lizenzierung für Print-on-Demand Nutzung. Verkaufen Sie Ihre Arbeitsblätter auf Teachers Pay Teachers, Etsy, Amazon KDP oder Ihrer eigenen Website. Keine zusätzlichen Lizenzierungsgebühren jenseits des 240-Euro jährlichen Abonnements. Keine Pro-Produkt Lizenzgebühren oder Nutzungseinschränkungen. Erstellen Sie thematische Pakete und preisen Sie sie wie Sie wählen. Die kommerzielle Lizenz deckt alle digitalen und Druckverkäufe. Viele Lehrer decken ihre Abonnementkosten durch nur 5-10 Arbeitsblatt-Pakete jährlich verkaufen. Kombinieren Sie mit Ausmalbilder und Malvorlagen Materialien für umfassende Produktpakete.',
+        answer: 'Ja, Vollzugriff Abonnement enthält volle kommerzielle Lizenzierung für Print-on-Demand Nutzung. Verkaufen Sie Ihre Arbeitsblätter auf Teachers Pay Teachers, Etsy, Amazon KDP oder Ihrer eigenen Website. Keine zusätzlichen Lizenzierungsgebühren jenseits des 240-Euro jährlichen Abonnements. Keine Pro-Produkt Lizenzgebühren oder Nutzungseinschränkungen. Erstellen Sie thematische Pakete und preisen Sie sie wie Sie wählen. Die kommerzielle Lizenz deckt alle digitalen und Druckverkäufe. Viele Lehrer decken ihre Abonnementkosten durch nur 5-10 Arbeitsblatt-Pakete jährlich verkaufen. Kombinieren Sie mit Ausmalbilder und Malvorlagen Materialien für umfassende Produktpakete.',
       },
       {
         id: '7',
@@ -426,7 +426,7 @@ Differenzieren Sie Ihre Produkte durch Kombination mit anderen Arbeitsblatt-Type
     ],
   },
 
-  // Pricing - Full Access pricing (240€/year)
+  // Pricing - Vollzugriff pricing (240€/year)
   pricing: {
     title: 'Voller Zugang',
     price: '240€',
@@ -448,7 +448,7 @@ Differenzieren Sie Ihre Produkte durch Kombination mit anderen Arbeitsblatt-Type
   // Related Apps - Apps that work well with cryptogram
   relatedApps: {
     sectionTitle: 'Kryptogramme kombinieren mit anderen Apps - Komplette kostenlose Arbeitsblätter mit Rechnen lernen, Schwungübungen und Ausmalbilder',
-    sectionDescription: 'LessonCraft Studio bietet 33 verschiedene Arbeitsblatt-Generatoren mit Ihrem Full Access Abonnement. Lehrer erstellen umfassende Lernpakete durch Kombination multipler Arbeitsblatt-Typen. Bilder-Kryptogramme funktionieren perfekt neben Leseschreib-Arbeitsblättern, Mathe Arbeitsblättern und Feinmotor-Aktivitäten.',
+    sectionDescription: 'LessonCraft Studio bietet 33 verschiedene Arbeitsblatt-Generatoren mit Ihrem Vollzugriff Abonnement. Lehrer erstellen umfassende Lernpakete durch Kombination multipler Arbeitsblatt-Typen. Bilder-Kryptogramme funktionieren perfekt neben Leseschreib-Arbeitsblättern, Mathe Arbeitsblättern und Feinmotor-Aktivitäten.',
     ctaTitle: 'Bereit, fantastische Arbeitsblätter zu erstellen?',
     ctaDescription: 'Schließen Sie sich tausenden Lehrkräften an, die professionelle Arbeitsblätter erstellen. Unbegrenzte Generierung, kommerzielle Lizenz inklusive.',
     primaryCtaText: 'Kostenlose Testversion Starten',

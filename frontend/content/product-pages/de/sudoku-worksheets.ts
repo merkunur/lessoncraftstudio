@@ -385,7 +385,7 @@ Berechnen Sie Ihr potentielles Einkommen aus Rätsel-Erstellung. Basis-Paket kos
     ],
   },
 
-  // Pricing - Core Bundle pricing
+  // Pricing - Basis-Paket pricing
   pricing: {
     title: 'Basis-Paket',
     price: '144€',

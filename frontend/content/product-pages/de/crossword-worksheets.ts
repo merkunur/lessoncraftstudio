@@ -37,7 +37,7 @@ export const crosswordDeContent: ProductPageContent = {
   hero: {
     title: 'Bilderkreuzworträtsel',
     subtitle: 'Kostenlose Arbeitsblätter Grundschule - Generator für Vorschule Arbeitsblätter und Deutsch Arbeitsblätter',
-    description: `Erstellen Sie professionelle Bilderkreuzworträtsel mit unserem Kreuzworträtsel-Generator. Ihr Full Access Abonnement ermöglicht unbegrenzte Arbeitsblatt-Erstellung ohne zusätzliche Kosten pro Arbeitsblatt. Generieren Sie individuelle Kreuzworträtsel perfekt für Arbeitsblätter Grundschule, Vorschule Arbeitsblätter und Deutsch Arbeitsblätter. Laden Sie hochwertige PDF-Dateien in unter 3 Minuten herunter.
+    description: `Erstellen Sie professionelle Bilderkreuzworträtsel mit unserem Kreuzworträtsel-Generator. Ihr Vollzugriff Abonnement ermöglicht unbegrenzte Arbeitsblatt-Erstellung ohne zusätzliche Kosten pro Arbeitsblatt. Generieren Sie individuelle Kreuzworträtsel perfekt für Arbeitsblätter Grundschule, Vorschule Arbeitsblätter und Deutsch Arbeitsblätter. Laden Sie hochwertige PDF-Dateien in unter 3 Minuten herunter.
 
 Unser Bilderkreuzworträtsel-Generator verbindet Bilder mit Worträtseln. Lehrer nutzen den Generator um Buchstaben lernen Aktivitäten, Mathe Arbeitsblätter und Deutsch Arbeitsblätter mit visuellen Hinweisen zu erstellen. Jedes Bilderkreuzworträtsel hilft Kindern Bilder mit Rechtschreibung zu verbinden. Das Kreuzworträtsel-Format eignet sich perfekt zur Kombination mit Rechnen lernen Übungen, Schwungübungen und Ausmalbilder.
 
@@ -154,7 +154,7 @@ Die Sprachunterstützung erstreckt sich auf die gesamte Benutzeroberfläche. Arb
         id: '5',
         icon: '💰',
         title: 'Kommerzielle Lizenz für Arbeitsblätter Grundschule - Mathe Arbeitsblätter auf Teachers Pay Teachers verkaufen',
-        description: `Das Full Access Abonnement enthält eine vollständige kommerzielle Print-on-Demand Lizenz ohne Zusatzkosten. Verkaufen Sie Ihre Bilderkreuzworträtsel auf Teachers Pay Teachers, Etsy oder Amazon KDP. Erstellen Sie Vorschule Arbeitsblätter Pakete für passives Einkommen. Generieren Sie Arbeitsblätter Grundschule Sammlungen für Lehrplan-Marktplätze. Keine Namensnennung erforderlich.
+        description: `Das Vollzugriff Abonnement enthält eine vollständige kommerzielle Print-on-Demand Lizenz ohne Zusatzkosten. Verkaufen Sie Ihre Bilderkreuzworträtsel auf Teachers Pay Teachers, Etsy oder Amazon KDP. Erstellen Sie Vorschule Arbeitsblätter Pakete für passives Einkommen. Generieren Sie Arbeitsblätter Grundschule Sammlungen für Lehrplan-Marktplätze. Keine Namensnennung erforderlich.
 
 Diese kommerzielle Lizenz macht unseren Generator wertvoll für Lehrer-Unternehmer. Erstellen Sie thematische Deutsch Arbeitsblätter Pakete für saisonale Verkäufe. Entwickeln Sie umfassende Buchstaben lernen Sammlungen für den Schuljahresbeginn. Bündeln Sie Mathe Arbeitsblätter mit Kreuzworträtseln für höherwertige Produkte.
 
@@ -331,7 +331,7 @@ Kombinieren Sie Kreuzworträtsel mit Schwungübungen für umfassende Feinmotorik
         icon: '💰',
         title: 'Lehrer-Unternehmer - Kostenlose Arbeitsblätter Grundschule und Vorschule Arbeitsblätter verkaufen mit Einmaleins und Ausmalbilder',
         subtitle: 'Kommerzielle Lizenz für passive Einnahmen',
-        description: `Lehrer-Verkäufer auf Teachers Pay Teachers und Etsy nutzen unseren Generator für Produkterstellung. Das Full Access Abonnement enthält volle kommerzielle Lizenzierung für Print-on-Demand Nutzung. Erstellen Sie thematische Arbeitsblatt-Pakete für saisonale Verkäufe mit Arbeitsblätter Grundschule und Vorschule Arbeitsblätter.
+        description: `Lehrer-Verkäufer auf Teachers Pay Teachers und Etsy nutzen unseren Generator für Produkterstellung. Das Vollzugriff Abonnement enthält volle kommerzielle Lizenzierung für Print-on-Demand Nutzung. Erstellen Sie thematische Arbeitsblatt-Pakete für saisonale Verkäufe mit Arbeitsblätter Grundschule und Vorschule Arbeitsblätter.
 
 Generieren Sie 20 verschiedene Herbst-thematische Kreuzworträtsel für Herbst-Verkauf. Erstellen Sie 30 Ozean-thematische Rätsel für Sommer-Pakete. Produzieren Sie 25 Feiertags-Rätsel für Dezember-Verkäufe. Jedes Paket dauert weniger als eine Stunde zu erstellen. Verkaufen Sie für 3-8 Dollar pro Paket auf Teachers Pay Teachers.
 
@@ -356,7 +356,7 @@ Differenzieren Sie Ihre Produkte durch Kombination mit anderen Arbeitsblatt-Type
       {
         id: '1',
         question: 'Ist dieser Kreuzworträtsel-Generator wirklich kostenlos für Mathe Arbeitsblätter und Einmaleins Übung?',
-        answer: 'Word Search ist die einzige kostenlose App auf LessonCraft Studio. Bilderkreuzworträtsel erfordert ein Full Access Abonnement. Das Abonnement kostet 240 Euro pro Jahr oder 25 Euro pro Monat. "Kostenlose Arbeitsblätter" bezieht sich auf die Ausgabe nicht den Generator selbst. Mit Ihrem Full Access Abonnement erstellen Sie unbegrenzte druckbare Arbeitsblätter ohne Gebühren pro Arbeitsblatt. Ihr Abonnement enthält kommerzielle Lizenzierung, 11 Sprachen und Zugang zu 33 verschiedenen Arbeitsblatt-Generatoren.',
+        answer: 'Word Search ist die einzige kostenlose App auf LessonCraft Studio. Bilderkreuzworträtsel erfordert ein Vollzugriff Abonnement. Das Abonnement kostet 240 Euro pro Jahr oder 25 Euro pro Monat. "Kostenlose Arbeitsblätter" bezieht sich auf die Ausgabe nicht den Generator selbst. Mit Ihrem Vollzugriff Abonnement erstellen Sie unbegrenzte druckbare Arbeitsblätter ohne Gebühren pro Arbeitsblatt. Ihr Abonnement enthält kommerzielle Lizenzierung, 11 Sprachen und Zugang zu 33 verschiedenen Arbeitsblatt-Generatoren.',
       },
       {
         id: '2',
@@ -371,7 +371,7 @@ Differenzieren Sie Ihre Produkte durch Kombination mit anderen Arbeitsblatt-Type
       {
         id: '4',
         question: 'Kann ich Kreuzworträtsel im Klassenzimmer mit Einmaleins und Schwungübungen verwenden?',
-        answer: 'Ja, Full Access Abonnement enthält unbegrenzte Klassenzimmer-Nutzung. Drucken Sie so viele Kopien wie für Ihre Schüler benötigt. Erstellen Sie verschiedene Versionen für verschiedene Fähigkeitsniveaus. Laminieren Sie Rätsel für wiederverwendbare Zentrumsaktivitäten. Kopieren Sie Arbeitsblätter für Heimübung. Senden Sie digitale Versionen an Eltern via E-Mail.',
+        answer: 'Ja, Vollzugriff Abonnement enthält unbegrenzte Klassenzimmer-Nutzung. Drucken Sie so viele Kopien wie für Ihre Schüler benötigt. Erstellen Sie verschiedene Versionen für verschiedene Fähigkeitsniveaus. Laminieren Sie Rätsel für wiederverwendbare Zentrumsaktivitäten. Kopieren Sie Arbeitsblätter für Heimübung. Senden Sie digitale Versionen an Eltern via E-Mail.',
       },
       {
         id: '5',
@@ -381,7 +381,7 @@ Differenzieren Sie Ihre Produkte durch Kombination mit anderen Arbeitsblatt-Type
       {
         id: '6',
         question: 'Kann ich Kreuzworträtsel verkaufen mit Ausmalbilder und Rechnen lernen Materialien?',
-        answer: 'Ja, Full Access Abonnement enthält volle kommerzielle Lizenzierung für Print-on-Demand Nutzung. Verkaufen Sie Ihre Arbeitsblätter auf Teachers Pay Teachers, Etsy, Amazon KDP oder Ihrer eigenen Website. Keine zusätzlichen Lizenzierungsgebühren jenseits des 240-Euro jährlichen Abonnements. Keine Pro-Produkt Lizenzgebühren oder Nutzungseinschränkungen.',
+        answer: 'Ja, Vollzugriff Abonnement enthält volle kommerzielle Lizenzierung für Print-on-Demand Nutzung. Verkaufen Sie Ihre Arbeitsblätter auf Teachers Pay Teachers, Etsy, Amazon KDP oder Ihrer eigenen Website. Keine zusätzlichen Lizenzierungsgebühren jenseits des 240-Euro jährlichen Abonnements. Keine Pro-Produkt Lizenzgebühren oder Nutzungseinschränkungen.',
       },
       {
         id: '7',
@@ -406,7 +406,7 @@ Differenzieren Sie Ihre Produkte durch Kombination mit anderen Arbeitsblatt-Type
     ],
   },
 
-  // Pricing - Full Access pricing (240€/year)
+  // Pricing - Vollzugriff pricing (240€/year)
   pricing: {
     title: 'Voller Zugang',
     price: '240€',
@@ -428,7 +428,7 @@ Differenzieren Sie Ihre Produkte durch Kombination mit anderen Arbeitsblatt-Type
   // Related Apps - Apps that work well with crossword
   relatedApps: {
     sectionTitle: 'Kreuzworträtsel mit anderen Generatoren kombinieren - Komplette kostenlose Arbeitsblätter mit Rechnen lernen, Schwungübungen und Ausmalbilder',
-    sectionDescription: 'LessonCraft Studio bietet 33 verschiedene Arbeitsblatt-Generatoren mit Ihrem Full Access Abonnement. Lehrer erstellen umfassende Lernpakete durch Kombination multipler Arbeitsblatt-Typen. Bilderkreuzworträtsel funktionieren perfekt neben Leseschreib-Arbeitsblättern, Mathe Arbeitsblättern und Feinmotor-Aktivitäten.',
+    sectionDescription: 'LessonCraft Studio bietet 33 verschiedene Arbeitsblatt-Generatoren mit Ihrem Vollzugriff Abonnement. Lehrer erstellen umfassende Lernpakete durch Kombination multipler Arbeitsblatt-Typen. Bilderkreuzworträtsel funktionieren perfekt neben Leseschreib-Arbeitsblättern, Mathe Arbeitsblättern und Feinmotor-Aktivitäten.',
     ctaTitle: 'Bereit, fantastische Arbeitsblätter zu erstellen?',
     ctaDescription: 'Schließen Sie sich tausenden Lehrkräften an, die professionelle Arbeitsblätter erstellen. Unbegrenzte Generierung, kommerzielle Lizenz inklusive.',
     primaryCtaText: 'Kostenlose Testversion Starten',

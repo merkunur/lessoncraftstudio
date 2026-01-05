@@ -9,7 +9,7 @@ import { ProductPageContent } from '@/components/product-page/ProductPageClient'
  * FULL SEO content from: INDIVIDUAL APP PAGES/French/subtraction.md
  * DO NOT SHORTEN - Every paragraph is SEO-optimized
  *
- * PRICING: Full Access = 240€/an (Accès Complet)
+ * PRICING: Accès Complet = 240€/an (Accès Complet)
  * App ID: subtraction
  */
 
@@ -289,7 +289,7 @@ Les enseignants de maternelle et de CP utilisent ces fiches de soustraction pour
       {
         id: '1',
         question: 'Ce générateur de soustraction est-il vraiment gratuit à utiliser ?',
-        answer: 'Le générateur de soustraction nécessite un abonnement Accès Complet coûtant 240€ annuellement ou 25€ mensuellement. Votre abonnement vous donne création illimitée de fiches sans frais supplémentaires. Générez autant de fiches de soustraction que nécessaire sans charges additionnelles. Créez des exercices combinant mathématiques avec graphisme maternelle ou coloriage. L\'abonnement Accès Complet inclut 33 générateurs de fiches différents. Les 33 applications incluent tous types d\'exercices mathématiques et linguistiques. L\'abonnement Core Bundle coûte 144€ annuellement et inclut 10 générateurs populaires. L\'abonnement Accès Complet coûte 240€ annuellement et inclut tous les 33 générateurs. Les deux abonnements incluent licence commerciale, support 11 langues, et exports 300 DPI.',
+        answer: 'Le générateur de soustraction nécessite un abonnement Accès Complet coûtant 240€ annuellement ou 25€ mensuellement. Votre abonnement vous donne création illimitée de fiches sans frais supplémentaires. Générez autant de fiches de soustraction que nécessaire sans charges additionnelles. Créez des exercices combinant mathématiques avec graphisme maternelle ou coloriage. L\'abonnement Accès Complet inclut 33 générateurs de fiches différents. Les 33 applications incluent tous types d\'exercices mathématiques et linguistiques. L\'abonnement Pack Essentiel coûte 144€ annuellement et inclut 10 générateurs populaires. L\'abonnement Accès Complet coûte 240€ annuellement et inclut tous les 33 générateurs. Les deux abonnements incluent licence commerciale, support 11 langues, et exports 300 DPI.',
       },
       {
         id: '2',
@@ -349,7 +349,7 @@ Les enseignants de maternelle et de CP utilisent ces fiches de soustraction pour
     ],
   },
 
-  // Pricing section - Full Access required
+  // Pricing section - Accès Complet required
   pricing: {
     title: 'Accès Complet',
     price: '240€',

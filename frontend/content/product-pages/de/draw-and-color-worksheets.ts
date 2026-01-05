@@ -37,7 +37,7 @@ export const drawAndColorDeContent: ProductPageContent = {
   hero: {
     title: 'Rasterzeichnen',
     subtitle: 'Kostenlose Arbeitsblätter Grundschule - Malvorlagen für Vorschule und Schwungübungen',
-    description: `Erstellen Sie professionelle Rasterzeichnen-Arbeitsblätter mit unserem Generator. Mit Ihrem Full Access Abonnement für 240 Euro im Jahr gestalten Sie unbegrenzt viele Arbeitsblätter. Kinder kopieren dabei ein Bild Zelle für Zelle in ein leeres Raster. Diese Übung trainiert räumliches Denken und fördert Feinmotorik. Perfekt für Schwungübungen und Vorschul-Arbeitsblätter. Laden Sie druckfertige PDF-Dateien in unter drei Minuten herunter.
+    description: `Erstellen Sie professionelle Rasterzeichnen-Arbeitsblätter mit unserem Generator. Mit Ihrem Vollzugriff Abonnement für 240 Euro im Jahr gestalten Sie unbegrenzt viele Arbeitsblätter. Kinder kopieren dabei ein Bild Zelle für Zelle in ein leeres Raster. Diese Übung trainiert räumliches Denken und fördert Feinmotorik. Perfekt für Schwungübungen und Vorschul-Arbeitsblätter. Laden Sie druckfertige PDF-Dateien in unter drei Minuten herunter.
 
 Rasterzeichnen verbindet Kunst mit Mathematik. Kinder lernen, ein Bild systematisch zu analysieren. Sie übertragen jede Zelle einzeln auf ihr eigenes Raster. Diese Methode schult die visuelle Wahrnehmung. Sie fördert auch Konzentration und Geduld. Die fertigen Arbeitsblätter eignen sich als Ausmalbilder nach dem Zeichnen.
 
@@ -181,7 +181,7 @@ Die verfügbaren Sprachen sind Deutsch, Englisch, Französisch, Spanisch, Portug
         id: '5',
         icon: '💰',
         title: 'Kommerzielle Lizenz für Arbeitsblätter Grundschule - Einmaleins und Rechnen lernen Materialien verkaufen',
-        description: `Mit dem Full Access Abonnement erhalten Sie eine kommerzielle Lizenz. Verkaufen Sie Ihre Arbeitsblätter auf Teachers Pay Teachers. Bieten Sie Materialien auf Etsy an. Veröffentlichen Sie Arbeitsbücher auf Amazon KDP. Keine zusätzlichen Lizenzgebühren fallen an.
+        description: `Mit dem Vollzugriff Abonnement erhalten Sie eine kommerzielle Lizenz. Verkaufen Sie Ihre Arbeitsblätter auf Teachers Pay Teachers. Bieten Sie Materialien auf Etsy an. Veröffentlichen Sie Arbeitsbücher auf Amazon KDP. Keine zusätzlichen Lizenzgebühren fallen an.
 
 Die Print-on-Demand Lizenz deckt alle Verkaufskanäle ab. Sie erstellen einmal und verkaufen unbegrenzt. Erfolgreiche Lehrkräfte verdienen 500 bis 5000 Euro monatlich. Einmaleins Übungen und Rechnen lernen Materialien sind besonders gefragt. Die 300 DPI Qualität erfüllt alle Druckanforderungen. Professionelle Arbeitsblätter Grundschule verkaufen sich hervorragend.`,
         highlighted: true,
@@ -201,7 +201,7 @@ Die Suchfunktion findet Bilder nach Namen. Tippen Sie einfach ein Stichwort ein.
         title: 'Professionelle 300 DPI Qualität für Vorschul-Arbeitsblätter und Kostenlose Arbeitsblätter',
         description: `Der Export erfolgt in professioneller Druckqualität. 300 DPI garantieren scharfe Linien und klare Details. Die Arbeitsblätter sehen gedruckt genauso gut aus wie am Bildschirm. Diese Qualität ist wichtig für Verkaufsmaterialien. Aber auch für den Klassenraum macht sie einen Unterschied.
 
-Sie wählen zwischen PDF und JPEG Format. PDF eignet sich für mehrseitige Dokumente. JPEG ist ideal für einzelne Arbeitsblätter. Die Graustufen-Option spart Druckertinte. Schwarzweiße Vorschul-Arbeitsblätter sind genauso effektiv. Die kostenlose Arbeitsblätter Funktion exportiert ohne Wasserzeichen. Ihr Full Access Abonnement garantiert unbegrenzten Download.`,
+Sie wählen zwischen PDF und JPEG Format. PDF eignet sich für mehrseitige Dokumente. JPEG ist ideal für einzelne Arbeitsblätter. Die Graustufen-Option spart Druckertinte. Schwarzweiße Vorschul-Arbeitsblätter sind genauso effektiv. Die kostenlose Arbeitsblätter Funktion exportiert ohne Wasserzeichen. Ihr Vollzugriff Abonnement garantiert unbegrenzten Download.`,
         highlighted: true,
       },
       {
@@ -298,7 +298,7 @@ Wählen Sie einen Rahmen aus dem Bereich Seiteneinrichtung. Rahmen machen Ausmal
 
 Aktivieren Sie die Graustufen-Option bei Bedarf. Schwarzweiße Rechen-Arbeitsblätter für die 1. Klasse sparen Druckertinte. Die Qualität bleibt bei 300 DPI erhalten. Diese Auflösung garantiert scharfe Linien. Drucken Sie die Vorschul-Arbeitsblätter zu Hause oder im Copyshop. Die Dateien sind sofort einsatzbereit.
 
-Speichern Sie das Arbeitsblatt auf Ihrem Computer. Drucken Sie es für Ihre Klasse aus. Oder verkaufen Sie es auf Lehrerplattformen. Die kommerzielle Lizenz ist im Full Access Abonnement enthalten. Erstellen Sie unbegrenzt viele Arbeitsblätter. Der Generator steht Ihnen jederzeit zur Verfügung.`,
+Speichern Sie das Arbeitsblatt auf Ihrem Computer. Drucken Sie es für Ihre Klasse aus. Oder verkaufen Sie es auf Lehrerplattformen. Die kommerzielle Lizenz ist im Vollzugriff Abonnement enthalten. Erstellen Sie unbegrenzt viele Arbeitsblätter. Der Generator steht Ihnen jederzeit zur Verfügung.`,
         icon: '📥',
       },
     ],
@@ -367,7 +367,7 @@ Vorschul-Arbeitsblätter für Rechnen lernen entstehen mit Zahlenbildern. Kinder
         icon: '💰',
         title: 'Lehrer-Unternehmer und Arbeitsblätter Grundschule verkaufen - Rechnen 1. Klasse Materialien auf Etsy und TPT',
         subtitle: 'Kommerzielle Lizenz für passive Einnahmen',
-        description: `Unternehmerisch denkende Lehrkräfte verkaufen ihre Materialien online. Der Generator erstellt verkaufsfertige Arbeitsblätter Grundschule. Die kommerzielle Lizenz im Full Access Abonnement deckt alle Plattformen ab. Teachers Pay Teachers, Etsy und Amazon KDP sind möglich.
+        description: `Unternehmerisch denkende Lehrkräfte verkaufen ihre Materialien online. Der Generator erstellt verkaufsfertige Arbeitsblätter Grundschule. Die kommerzielle Lizenz im Vollzugriff Abonnement deckt alle Plattformen ab. Teachers Pay Teachers, Etsy und Amazon KDP sind möglich.
 
 Rechnen 1. Klasse Materialien mit Rasterzeichnen sind besonders gefragt. Die Kombination aus Kunst und Mathematik spricht viele Käufer an. Erfolgreiche Verkäufer verdienen 500 bis 5000 Euro monatlich. Die 300 DPI Qualität erfüllt professionelle Standards. Einmal erstellte Arbeitsblätter verkaufen sich unbegrenzt. So entsteht passives Einkommen neben dem Lehrberuf.`,
         quote: 'Mein Abonnement hat sich im ersten Monat bezahlt gemacht!',
@@ -415,12 +415,12 @@ Rechnen 1. Klasse Materialien mit Rasterzeichnen sind besonders gefragt. Die Kom
       {
         id: '6',
         question: 'Ist der Mathe-Arbeitsblätter Generator kostenlos oder kostenpflichtig?',
-        answer: 'Der Generator ist Teil des Full Access Abonnements. Dieses kostet 240 Euro im Jahr oder 25 Euro monatlich. Dafür erhalten Sie Zugang zu allen 33 Arbeitsblatt-Generatoren. Die kommerzielle Lizenz ist inklusive. Mathe-Arbeitsblätter und alle anderen Arbeitsblätter dürfen Sie verkaufen. Ein kostenloser Test ist nach Registrierung verfügbar. So prüfen Sie die Funktionen vor dem Kauf.',
+        answer: 'Der Generator ist Teil des Vollzugriff Abonnements. Dieses kostet 240 Euro im Jahr oder 25 Euro monatlich. Dafür erhalten Sie Zugang zu allen 33 Arbeitsblatt-Generatoren. Die kommerzielle Lizenz ist inklusive. Mathe-Arbeitsblätter und alle anderen Arbeitsblätter dürfen Sie verkaufen. Ein kostenloser Test ist nach Registrierung verfügbar. So prüfen Sie die Funktionen vor dem Kauf.',
       },
       {
         id: '7',
         question: 'Darf ich erstellte Arbeitsblätter Grundschule auf Etsy und TPT verkaufen?',
-        answer: 'Ja, mit dem Full Access Abonnement erhalten Sie eine kommerzielle Lizenz. Diese erlaubt den Verkauf auf allen Plattformen. Teachers Pay Teachers, Etsy und Amazon KDP sind abgedeckt. Keine zusätzlichen Gebühren fallen an. Arbeitsblätter Grundschule verkaufen sich besonders gut. Erfolgreiche Lehrkräfte verdienen 500 bis 5000 Euro monatlich. Die Lizenz gilt unbegrenzt für alle erstellten Materialien.',
+        answer: 'Ja, mit dem Vollzugriff Abonnement erhalten Sie eine kommerzielle Lizenz. Diese erlaubt den Verkauf auf allen Plattformen. Teachers Pay Teachers, Etsy und Amazon KDP sind abgedeckt. Keine zusätzlichen Gebühren fallen an. Arbeitsblätter Grundschule verkaufen sich besonders gut. Erfolgreiche Lehrkräfte verdienen 500 bis 5000 Euro monatlich. Die Lizenz gilt unbegrenzt für alle erstellten Materialien.',
       },
       {
         id: '8',
@@ -450,7 +450,7 @@ Rechnen 1. Klasse Materialien mit Rasterzeichnen sind besonders gefragt. Die Kom
     ],
   },
 
-  // Pricing - Full Access pricing (240€/year)
+  // Pricing - Vollzugriff pricing (240€/year)
   pricing: {
     title: 'Voller Zugang',
     price: '240€',
@@ -472,7 +472,7 @@ Rechnen 1. Klasse Materialien mit Rasterzeichnen sind besonders gefragt. Die Kom
   // Related Apps - Apps that work well with draw-and-color
   relatedApps: {
     sectionTitle: 'Rasterzeichnen mit anderen Generatoren kombinieren - Mathe-Arbeitsblätter und Einmaleins Komplettpaket für die Grundschule',
-    sectionDescription: 'Kombinieren Sie Rasterzeichnen mit anderen Arbeitsblatt-Generatoren. Das Full Access Abonnement enthält alle 33 Apps. So entstehen umfassende Lernpakete für jeden Bedarf. Thematisch abgestimmte Materialien verstärken den Lerneffekt. Kinder arbeiten motivierter mit vielfältigen Aufgabentypen.',
+    sectionDescription: 'Kombinieren Sie Rasterzeichnen mit anderen Arbeitsblatt-Generatoren. Das Vollzugriff Abonnement enthält alle 33 Apps. So entstehen umfassende Lernpakete für jeden Bedarf. Thematisch abgestimmte Materialien verstärken den Lerneffekt. Kinder arbeiten motivierter mit vielfältigen Aufgabentypen.',
     ctaTitle: 'Bereit, fantastische Arbeitsblätter zu erstellen?',
     ctaDescription: 'Schließen Sie sich tausenden Lehrkräften an, die professionelle Arbeitsblätter erstellen. Unbegrenzte Generierung, kommerzielle Lizenz inklusive.',
     primaryCtaText: 'Kostenlose Testversion Starten',

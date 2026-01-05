@@ -9,7 +9,7 @@ import { ProductPageContent } from '@/components/product-page/ProductPageClient'
  * FULL SEO content from: INDIVIDUAL APP PAGES/Swedish/pattern-train.md
  * DO NOT SHORTEN - Every paragraph is SEO-optimized
  *
- * NOTE: Pattern Train is a FULL ACCESS app ($240/year), not Core Bundle
+ * NOTE: Pattern Train is a Full Tillgång app ($240/year), not Baspaket
  */
 
 export const patternTrainSvContent: ProductPageContent = {

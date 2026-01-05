@@ -37,7 +37,7 @@ export const findAndCountDeContent: ProductPageContent = {
   hero: {
     title: 'Zählübungen-Generator',
     subtitle: 'Kostenlose Arbeitsblätter Grundschule für Vorschule und Mathe-Arbeitsblätter',
-    description: `Erstellen Sie professionelle Suchen-und-Zählen-Arbeitsblätter mit unserem Generator. Ihr Core Bundle-Abonnement ermöglicht unbegrenzte Arbeitsblatters erstellung ohne zusätzliche Gebühren pro Arbeitsblatt. Generieren Sie individuelle druckbare Arbeitsblätter für Grundschule und Vorschule. Laden Sie hochwertige PDF-Arbeitsblätter in unter 3 Minuten herunter.
+    description: `Erstellen Sie professionelle Suchen-und-Zählen-Arbeitsblätter mit unserem Generator. Ihr Basis-Paket-Abonnement ermöglicht unbegrenzte Arbeitsblatters erstellung ohne zusätzliche Gebühren pro Arbeitsblatt. Generieren Sie individuelle druckbare Arbeitsblätter für Grundschule und Vorschule. Laden Sie hochwertige PDF-Arbeitsblätter in unter 3 Minuten herunter.
 
 Das Suchen-und-Zählen-Format kombiniert visuelle Diskriminierung mit Zählübungen. Kinder suchen versteckte Objekte in einem Bildraster und führen verschiedene Aufgaben aus. Sie können Objekte einkreisen, mit einem Quadrat umrahmen, durchstreichen oder zählen. Perfekt für Erzieher in der Vorschule und Grundschullehrer.
 
@@ -156,7 +156,7 @@ Besonders wertvoll für mehrsprachige Grundschulen. Erstellen Sie Deutsch-Arbeit
         id: '5',
         icon: '💼',
         title: 'POD-Lizenz inklusive - Kostenlose Arbeitsblätter kommerziell nutzen für Vorschule',
-        description: `Das Core Bundle enthält eine vollständige Print-on-Demand-Lizenz. Verkaufen Sie Ihre erstellten Arbeitsblätter Grundschule legal. Keine Namensnennung erforderlich. Professionelle 300-DPI-Qualität für den Druck.
+        description: `Das Basis-Paket enthält eine vollständige Print-on-Demand-Lizenz. Verkaufen Sie Ihre erstellten Arbeitsblätter Grundschule legal. Keine Namensnennung erforderlich. Professionelle 300-DPI-Qualität für den Druck.
 
 Verkaufen Sie auf Teachers Pay Teachers, Etsy oder Amazon KDP. Erstellen Sie Arbeitsmappen und Lernpakete. Bauen Sie ein passives Einkommen als Lehrerunternehmer auf. Die Lizenz ist im Abonnement ohne Aufpreis enthalten.
 
@@ -358,7 +358,7 @@ Die 300-DPI-Qualität ist essenziell für kommerzielle Produkte. Käufer erwarte
       {
         id: '1',
         question: 'Ist dieser Suchen-und-Zählen-Generator wirklich kostenlos für Vorschul-Arbeitsblätter und Schwungübungen zu verwenden?',
-        answer: 'Der Suchen-und-Zählen-Generator erfordert ein Core Bundle-Abonnement für 144€ jährlich oder 15€ monatlich. Ihr Abonnement ermöglicht unbegrenzte Arbeitsblatt-Erstellung ohne zusätzliche Gebühren pro Blatt. Generieren Sie so viele Vorschul-Arbeitsblätter und Schwungübungen wie Sie benötigen ohne Extrakosten. Das Core Bundle enthält 10 beliebte Arbeitsblatt-Generatoren inklusive Suchen-und-Zählen.',
+        answer: 'Der Suchen-und-Zählen-Generator erfordert ein Basis-Paket-Abonnement für 144€ jährlich oder 15€ monatlich. Ihr Abonnement ermöglicht unbegrenzte Arbeitsblatt-Erstellung ohne zusätzliche Gebühren pro Blatt. Generieren Sie so viele Vorschul-Arbeitsblätter und Schwungübungen wie Sie benötigen ohne Extrakosten. Das Basis-Paket enthält 10 beliebte Arbeitsblatt-Generatoren inklusive Suchen-und-Zählen.',
       },
       {
         id: '2',
@@ -373,7 +373,7 @@ Die 300-DPI-Qualität ist essenziell für kommerzielle Produkte. Käufer erwarte
       {
         id: '4',
         question: 'Kann ich Vorschul-Arbeitsblätter und Schwungübungen in meinem Klassenzimmer für Schüler verwenden?',
-        answer: 'Das Core Bundle-Abonnement umfasst unbegrenzte Klassenzimmer-Nutzung. Drucken Sie so viele Kopien wie Sie benötigen für alle Schüler. Nutzen Sie die Vorschul-Arbeitsblätter und Schwungübungen in Vorschulgruppen, Kindergarten und Grundschule. Keine Einschränkungen bei der Anzahl der Schüler.',
+        answer: 'Das Basis-Paket-Abonnement umfasst unbegrenzte Klassenzimmer-Nutzung. Drucken Sie so viele Kopien wie Sie benötigen für alle Schüler. Nutzen Sie die Vorschul-Arbeitsblätter und Schwungübungen in Vorschulgruppen, Kindergarten und Grundschule. Keine Einschränkungen bei der Anzahl der Schüler.',
       },
       {
         id: '5',
@@ -383,7 +383,7 @@ Die 300-DPI-Qualität ist essenziell für kommerzielle Produkte. Käufer erwarte
       {
         id: '6',
         question: 'Kann ich selbsterstellte Arbeitsblätter Grundschule und Ausmalbilder verkaufen die ich mit diesem Generator erstelle?',
-        answer: 'Ja, das Core Bundle enthält vollständige Print-on-Demand-Lizenz ohne Extrakosten. Verkaufen Sie alle erstellten Arbeitsblätter Grundschule und Ausmalbilder legal. Plattformen wie Teachers Pay Teachers, Etsy und Amazon KDP sind erlaubt. Keine Namensnennung erforderlich. Keine Verkaufslimits oder Umsatzbeteiligungen.',
+        answer: 'Ja, das Basis-Paket enthält vollständige Print-on-Demand-Lizenz ohne Extrakosten. Verkaufen Sie alle erstellten Arbeitsblätter Grundschule und Ausmalbilder legal. Plattformen wie Teachers Pay Teachers, Etsy und Amazon KDP sind erlaubt. Keine Namensnennung erforderlich. Keine Verkaufslimits oder Umsatzbeteiligungen.',
       },
       {
         id: '7',
@@ -439,7 +439,7 @@ Die 300-DPI-Qualität ist essenziell für kommerzielle Produkte. Käufer erwarte
   // Related Apps - Kombinieren Sie Suchen-und-Zählen mit anderen Generatoren
   relatedApps: {
     sectionTitle: 'Kombinieren Sie Suchen-und-Zählen mit anderen Generatoren - Ganzheitliche Arbeitsblätter Grundschule',
-    sectionDescription: 'Ihr Core Bundle Abonnement beinhaltet 10 Generatoren, die perfekt zusammenarbeiten. Kombinieren Sie Suchen-und-Zählen mit Mathe-Arbeitsblättern für Rechnen lernen. Verbinden Sie mit Schwungübungen für Feinmotorik-Training. Erstellen Sie thematische Lernpakete.',
+    sectionDescription: 'Ihr Basis-Paket Abonnement beinhaltet 10 Generatoren, die perfekt zusammenarbeiten. Kombinieren Sie Suchen-und-Zählen mit Mathe-Arbeitsblättern für Rechnen lernen. Verbinden Sie mit Schwungübungen für Feinmotorik-Training. Erstellen Sie thematische Lernpakete.',
     ctaTitle: 'Bereit, fantastische Suchen-und-Zählen-Arbeitsblätter zu erstellen?',
     ctaDescription: 'Schließen Sie sich tausenden Lehrkräften an, die professionelle Arbeitsblätter erstellen. Unbegrenzte Generierung, kommerzielle Lizenz inklusive.',
     primaryCtaText: 'Kostenlos Testen',

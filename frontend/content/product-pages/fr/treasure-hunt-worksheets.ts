@@ -9,7 +9,7 @@ import { ProductPageContent } from '@/components/product-page/ProductPageClient'
  * FULL SEO content from: INDIVIDUAL APP PAGES/French/treasure-hunt.md
  * DO NOT SHORTEN - Every paragraph is SEO-optimized
  *
- * PRICING: Full Access = 240€/an (Accès Complet)
+ * PRICING: Accès Complet = 240€/an (Accès Complet)
  * App ID: treasure-hunt
  */
 
@@ -423,7 +423,7 @@ Les fiches chasse au trésor sont particulièrement recherchées sur Teachers Pa
     ],
   },
 
-  // Pricing section - Full Access required
+  // Pricing section - Accès Complet required
   pricing: {
     title: 'Accès Complet',
     price: '240€',

@@ -30,7 +30,7 @@ export const wordGuessDeContent: ProductPageContent = {
     slug: 'woerter-raten-arbeitsblaetter',
     appId: 'word-guess',
     title: 'Worträtsel-Generator - Kostenlose Arbeitsblätter zum Ausdrucken für die Grundschule',
-    description: 'Erstellen Sie professionelle Worträtsel mit Bildhinweisen für Ihre Schüler. Der Worträtsel-Generator von LessonCraft Studio ist Ihr Werkzeug für Arbeitsblätter Grundschule. Mit Ihrem Full Access Abo generieren Sie unbegrenzt Arbeitsblätter ohne zusätzliche Kosten.',
+    description: 'Erstellen Sie professionelle Worträtsel mit Bildhinweisen für Ihre Schüler. Der Worträtsel-Generator von LessonCraft Studio ist Ihr Werkzeug für Arbeitsblätter Grundschule. Mit Ihrem Vollzugriff Abo generieren Sie unbegrenzt Arbeitsblätter ohne zusätzliche Kosten.',
     keywords: 'wörter raten arbeitsblätter, worträtsel arbeitsblätter, arbeitsblätter grundschule, kostenlose arbeitsblätter, mathe arbeitsblätter, vorschule arbeitsblätter, einmaleins, schwungübungen, buchstaben lernen, rechnen lernen, deutsch arbeitsblätter',
     canonicalUrl: 'https://www.lessoncraftstudio.com/de/apps/woerter-raten-arbeitsblaetter',
   },
@@ -39,7 +39,7 @@ export const wordGuessDeContent: ProductPageContent = {
   hero: {
     title: 'Worträtsel-Generator',
     subtitle: 'Kostenlose Arbeitsblätter zum Ausdrucken für die Grundschule',
-    description: `Erstellen Sie professionelle Worträtsel mit Bildhinweisen für Ihre Schüler. Der Worträtsel-Generator von LessonCraft Studio ist Ihr Werkzeug für Arbeitsblätter Grundschule. Mit Ihrem Full Access Abo generieren Sie unbegrenzt Arbeitsblätter ohne zusätzliche Kosten.
+    description: `Erstellen Sie professionelle Worträtsel mit Bildhinweisen für Ihre Schüler. Der Worträtsel-Generator von LessonCraft Studio ist Ihr Werkzeug für Arbeitsblätter Grundschule. Mit Ihrem Vollzugriff Abo generieren Sie unbegrenzt Arbeitsblätter ohne zusätzliche Kosten.
 
 Kinder lieben Rätsel. Worträtsel mit Bildhinweisen verbinden Spaß mit Lernen. Ein Bild zeigt einen Gegenstand. Daneben stehen leere Kästchen für jeden Buchstaben. Die Kinder erraten das Wort und schreiben es auf.
 
@@ -155,7 +155,7 @@ Verfügbare Sprachen sind Deutsch, Englisch, Französisch und Spanisch. Dazu kom
         id: '5',
         icon: '💰',
         title: 'Kommerzielle Lizenz für Kostenlose Arbeitsblätter - Verkaufen auf Teachers Pay Teachers',
-        description: `Ihr Full Access Abo enthält eine kommerzielle Lizenz. Verkaufen Sie Ihre Arbeitsblätter ohne zusätzliche Gebühren. Teachers Pay Teachers, Etsy und Amazon KDP sind erlaubt. Die Lizenz ist im Preis von 240 Euro pro Jahr enthalten.
+        description: `Ihr Vollzugriff Abo enthält eine kommerzielle Lizenz. Verkaufen Sie Ihre Arbeitsblätter ohne zusätzliche Gebühren. Teachers Pay Teachers, Etsy und Amazon KDP sind erlaubt. Die Lizenz ist im Preis von 240 Euro pro Jahr enthalten.
 
 Viele Lehrkräfte verdienen Geld mit ihren Materialien. Kostenlose Arbeitsblätter bedeutet keine Kosten pro Arbeitsblatt. Erstellen Sie unbegrenzt Vorlagen zum Verkauf. Behalten Sie 100 Prozent der Einnahmen.`,
         highlighted: true,
@@ -330,7 +330,7 @@ Wiederholung ist im Förderunterricht besonders wichtig. Erstellen Sie täglich 
         icon: '💼',
         title: 'Lehrkräfte als Unternehmer - Arbeitsblätter Grundschule verkaufen auf Teachers Pay Teachers',
         subtitle: 'Verkauf auf Online-Plattformen',
-        description: `Viele Lehrkräfte verkaufen ihre Materialien online. Arbeitsblätter Grundschule sind auf Teachers Pay Teachers sehr gefragt. Der Worträtsel-Generator erstellt verkaufsfähige Produkte. Die kommerzielle Lizenz ist im Full Access Abo enthalten.
+        description: `Viele Lehrkräfte verkaufen ihre Materialien online. Arbeitsblätter Grundschule sind auf Teachers Pay Teachers sehr gefragt. Der Worträtsel-Generator erstellt verkaufsfähige Produkte. Die kommerzielle Lizenz ist im Vollzugriff Abo enthalten.
 
 Erstellen Sie thematische Pakete für verschiedene Anlässe. Weihnachts-Worträtsel im Dezember. Oster-Worträtsel im Frühling. Saisonale Produkte verkaufen sich besonders gut.
 
@@ -355,9 +355,9 @@ Die 300 DPI Qualität erfüllt professionelle Standards. Verkaufen Sie auf Etsy,
       {
         id: '1',
         question: 'Ist der Worträtsel-Generator wirklich kostenlos für Deutsch Arbeitsblätter?',
-        answer: `Der Worträtsel-Generator erfordert ein Full Access Abo. Dieses kostet 240 Euro pro Jahr oder 25 Euro pro Monat. Mit Ihrem Abo erstellen Sie unbegrenzt Worträtsel ohne zusätzliche Kosten pro Arbeitsblatt.
+        answer: `Der Worträtsel-Generator erfordert ein Vollzugriff Abo. Dieses kostet 240 Euro pro Jahr oder 25 Euro pro Monat. Mit Ihrem Abo erstellen Sie unbegrenzt Worträtsel ohne zusätzliche Kosten pro Arbeitsblatt.
 
-Das Core Bundle mit 10 Apps kostet 144 Euro pro Jahr. Der Worträtsel-Generator ist jedoch nur im Full Access Abo enthalten. Full Access umfasst alle 33 Worksheet-Generatoren inklusive kommerzieller Lizenz.
+Das Basis-Paket mit 10 Apps kostet 144 Euro pro Jahr. Der Worträtsel-Generator ist jedoch nur im Vollzugriff Abo enthalten. Vollzugriff umfasst alle 33 Worksheet-Generatoren inklusive kommerzieller Lizenz.
 
 Deutsch Arbeitsblätter und alle anderen Sprachen sind im Preis enthalten. Keine versteckten Kosten für Bilder oder Downloads. 11 Sprachen, über 3.000 Bilder, unbegrenzte Downloads.`,
       },
@@ -382,7 +382,7 @@ Falls Sie anpassen möchten: Alles ist per Drag-and-Drop bearbeitbar. Verschiebe
       {
         id: '4',
         question: 'Darf ich Vorschule Arbeitsblätter und Rechnen lernen Materialien im Unterricht nutzen?',
-        answer: `Ja, Ihr Full Access Abo erlaubt unbegrenzte Nutzung im Unterricht. Drucken Sie Klassensätze ohne Einschränkungen. Vorschule Arbeitsblätter für 30 Kinder? Kein Problem.
+        answer: `Ja, Ihr Vollzugriff Abo erlaubt unbegrenzte Nutzung im Unterricht. Drucken Sie Klassensätze ohne Einschränkungen. Vorschule Arbeitsblätter für 30 Kinder? Kein Problem.
 
 Verteilen Sie die Arbeitsblätter an Schüler und Eltern. Rechnen lernen Materialien als Hausaufgabe sind erlaubt. Digitale Verteilung über Schulplattformen ist ebenfalls gestattet.
 
@@ -400,7 +400,7 @@ Wechseln Sie die Sprache mit einem Klick im Menü. Die gesamte Benutzeroberfläc
       {
         id: '6',
         question: 'Kann ich Schwungübungen Alternativen und Malvorlagen verkaufen?',
-        answer: `Ja, das Full Access Abo enthält eine kommerzielle POD-Lizenz. Verkaufen Sie Ihre Worträtsel auf allen Plattformen. Teachers Pay Teachers, Etsy und Amazon KDP sind erlaubt.
+        answer: `Ja, das Vollzugriff Abo enthält eine kommerzielle POD-Lizenz. Verkaufen Sie Ihre Worträtsel auf allen Plattformen. Teachers Pay Teachers, Etsy und Amazon KDP sind erlaubt.
 
 Schwungübungen Alternativen in Form von Worträtseln sind verkaufsfähig. Malvorlagen mit Worträtseln kombiniert ebenso. Keine zusätzlichen Lizenzgebühren fallen an.
 

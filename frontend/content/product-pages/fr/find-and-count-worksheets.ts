@@ -413,7 +413,7 @@ Développez des lots thématiques pour les ventes saisonnières. Les packs de re
     ],
   },
 
-  // Pricing - Core Bundle for Find and Count
+  // Pricing - Pack Essentiel for Find and Count
   pricing: {
     title: 'Pack Essentiel',
     price: '144€',

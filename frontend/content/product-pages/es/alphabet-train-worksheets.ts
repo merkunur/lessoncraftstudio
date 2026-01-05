@@ -9,7 +9,7 @@ import { ProductPageContent } from '@/components/product-page/ProductPageClient'
  * FULL SEO content from: INDIVIDUAL APP PAGES/Spanish/alphabet-train.md
  * DO NOT SHORTEN - Every paragraph is SEO-optimized
  *
- * Pricing: Core Bundle ($144/year, $15/month) - VERIFIED
+ * Pricing: Paquete Esencial ($144/year, $15/month) - VERIFIED
  */
 
 export const alphabetTrainEsContent: ProductPageContent = {

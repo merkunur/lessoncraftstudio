@@ -37,11 +37,11 @@ export const gridMatchDeContent: ProductPageContent = {
   hero: {
     title: 'Raster-Puzzle-Arbeitsblätter',
     subtitle: 'Kostenlose Arbeitsblätter Grundschule - Puzzle Generator für Vorschul-Arbeitsblätter und Mathe-Arbeitsblätter',
-    description: `Erstellen Sie professionelle Raster-Puzzle-Arbeitsblätter mit unserem Generator. Mit Ihrem Full Access Abo für 240 Euro im Jahr erstellen Sie unbegrenzt viele Arbeitsblätter Grundschule. Keine zusätzlichen Kosten pro Arbeitsblatt. Perfekt für Kinder in Vorschule und 1. Klasse. Das Raster-Puzzle fördert das räumliche Denken und die visuelle Wahrnehmung.
+    description: `Erstellen Sie professionelle Raster-Puzzle-Arbeitsblätter mit unserem Generator. Mit Ihrem Vollzugriff Abo für 240 Euro im Jahr erstellen Sie unbegrenzt viele Arbeitsblätter Grundschule. Keine zusätzlichen Kosten pro Arbeitsblatt. Perfekt für Kinder in Vorschule und 1. Klasse. Das Raster-Puzzle fördert das räumliche Denken und die visuelle Wahrnehmung.
 
 Kinder lieben Puzzle. Mit unserem Raster-Puzzle Generator erstellen Sie Lernmaterialien in wenigen Minuten. Die Kinder ordnen nummerierte Puzzleteile dem richtigen Rasterfeld zu. So trainieren sie spielerisch räumliches Denken. Das Puzzle bereitet auf Mathe-Arbeitsblätter und Einmaleins vor.
 
-Das Full Access Abonnement enthält alle 33 Arbeitsblatt-Generatoren. Kombinieren Sie Raster-Puzzle mit Schwungübungen, Deutsch-Arbeitsblättern und Arbeitsblättern zum Buchstaben lernen. Ihr Abonnement beinhaltet die kommerzielle Lizenz für den Verkauf auf Teachers Pay Teachers und Etsy. Professionelle 300 DPI Qualität garantiert perfektes Drucken.`,
+Das Vollzugriff Abonnement enthält alle 33 Arbeitsblatt-Generatoren. Kombinieren Sie Raster-Puzzle mit Schwungübungen, Deutsch-Arbeitsblättern und Arbeitsblättern zum Buchstaben lernen. Ihr Abonnement beinhaltet die kommerzielle Lizenz für den Verkauf auf Teachers Pay Teachers und Etsy. Professionelle 300 DPI Qualität garantiert perfektes Drucken.`,
     previewImageSrc: '/samples/english/grid match/grid match portrait .jpeg',
     ctaLabels: {
       tryFree: 'Kostenlos Testen',
@@ -95,7 +95,7 @@ Das Full Access Abonnement enthält alle 33 Arbeitsblatt-Generatoren. Kombiniere
   // Features Grid - FULL text from raster-puzzle.md feature sections
   features: {
     sectionTitle: 'Funktionen des Raster-Puzzle Generators - Kostenlose Arbeitsblätter und Arbeitsblätter Grundschule',
-    sectionDescription: 'Unser Raster-Puzzle Generator bietet alle Werkzeuge für professionelle Arbeitsblätter. Die Bedienung ist einfach und intuitiv. In wenigen Minuten erstellen Sie individuelle Lernmaterialien. Perfekt für Lehrer, Erzieher und Eltern. Das Full Access Abonnement schaltet alle Funktionen frei.',
+    sectionDescription: 'Unser Raster-Puzzle Generator bietet alle Werkzeuge für professionelle Arbeitsblätter. Die Bedienung ist einfach und intuitiv. In wenigen Minuten erstellen Sie individuelle Lernmaterialien. Perfekt für Lehrer, Erzieher und Eltern. Das Vollzugriff Abonnement schaltet alle Funktionen frei.',
     highlightBadgeText: 'Hauptfunktion',
     readMoreLabel: 'Mehr lesen',
     showLessLabel: 'Weniger anzeigen',
@@ -146,7 +146,7 @@ Diese Funktion unterstützt auch Rechnen 1. Klasse mit Bildern. Die Bildnamen er
         id: '5',
         icon: '💰',
         title: 'Kommerzielle Lizenz für Arbeitsblätter Grundschule - Ausmalbilder und Malvorlagen verkaufen',
-        description: `Mit dem Full Access Abonnement erhalten Sie eine kommerzielle Lizenz. Verkaufen Sie Ihre Arbeitsblätter auf Teachers Pay Teachers. Bieten Sie Materialien auf Etsy an. Veröffentlichen Sie Arbeitsbücher auf Amazon KDP. Keine zusätzlichen Lizenzgebühren fallen an.
+        description: `Mit dem Vollzugriff Abonnement erhalten Sie eine kommerzielle Lizenz. Verkaufen Sie Ihre Arbeitsblätter auf Teachers Pay Teachers. Bieten Sie Materialien auf Etsy an. Veröffentlichen Sie Arbeitsbücher auf Amazon KDP. Keine zusätzlichen Lizenzgebühren fallen an.
 
 Die 300 DPI Qualität ist druckfertig. Ihre Arbeitsblätter sehen professionell aus. Die kommerzielle Nutzung ist unbegrenzt. Perfekt für Lehrer-Unternehmer. Verdienen Sie Geld mit Ihren Ausmalbilder und Malvorlagen Kreationen.`,
         highlighted: true,
@@ -255,7 +255,7 @@ Fügen Sie Text hinzu für Buchstaben lernen. Wählen Sie Schriftart und Größe
         title: 'Schritt 5: Herunterladen und Drucken - Rechnen lernen mit Malvorlagen als PDF',
         description: `Ihr Arbeitsblatt ist fertig. Klicken Sie auf den Download-Button. Wählen Sie zwischen PDF und JPEG. Das PDF eignet sich perfekt zum Drucken. JPEG ist ideal für digitale Nutzung. Die Graustufen-Option spart Tinte.
 
-Rechnen lernen Materialien drucken Sie so kostengünstig. Malvorlagen sehen auch in Schwarzweiß gut aus. Vergessen Sie nicht das Lösungsblatt. Ihr Full Access Abonnement (240€/Jahr) deckt unbegrenzte Downloads von Arbeitsblätter Grundschule und allen anderen Arbeitsblatttypen ab.`,
+Rechnen lernen Materialien drucken Sie so kostengünstig. Malvorlagen sehen auch in Schwarzweiß gut aus. Vergessen Sie nicht das Lösungsblatt. Ihr Vollzugriff Abonnement (240€/Jahr) deckt unbegrenzte Downloads von Arbeitsblätter Grundschule und allen anderen Arbeitsblatttypen ab.`,
         icon: '📥',
       },
     ],
@@ -324,7 +324,7 @@ Die 2x2 Raster sind niedrigschwellig. Viele Hinweisfelder erleichtern den Einsti
         icon: '💰',
         title: 'Lehrer-Unternehmer - Malvorlagen und Arbeitsblätter Grundschule verkaufen',
         subtitle: 'Kommerzielle Lizenz für passive Einnahmen',
-        description: `Verdienen Sie Geld mit Ihren Kreationen. Malvorlagen als Puzzle sind auf Etsy beliebt. Arbeitsblätter Grundschule verkaufen sich auf Teachers Pay Teachers gut. Die kommerzielle Lizenz ist im Full Access enthalten. Keine zusätzlichen Gebühren fallen an.
+        description: `Verdienen Sie Geld mit Ihren Kreationen. Malvorlagen als Puzzle sind auf Etsy beliebt. Arbeitsblätter Grundschule verkaufen sich auf Teachers Pay Teachers gut. Die kommerzielle Lizenz ist im Vollzugriff enthalten. Keine zusätzlichen Gebühren fallen an.
 
 Erstellen Sie thematische Pakete. Malvorlagen zu Jahreszeiten verkaufen sich gut. Arbeitsblätter Grundschule für Ferienprogramme sind gefragt. Die 300 DPI Qualität überzeugt Käufer. Starten Sie Ihr Nebengeschäft mit professionellen Materialien.`,
         quote: 'Mein Abonnement hat sich im ersten Monat bezahlt gemacht!',
@@ -347,7 +347,7 @@ Erstellen Sie thematische Pakete. Malvorlagen zu Jahreszeiten verkaufen sich gut
       {
         id: '1',
         question: 'Ist der Raster-Puzzle Generator wirklich kostenlos für Arbeitsblätter Grundschule?',
-        answer: 'Der Raster-Puzzle Generator erfordert ein Full Access Abonnement. Die Kosten betragen 240 Euro pro Jahr oder 25 Euro monatlich. Mit Ihrem Abonnement erstellen Sie unbegrenzt viele Arbeitsblätter Grundschule. Keine zusätzlichen Kosten pro Arbeitsblatt fallen an. Das Full Access Abo enthält alle 33 Arbeitsblatt-Generatoren.',
+        answer: 'Der Raster-Puzzle Generator erfordert ein Vollzugriff Abonnement. Die Kosten betragen 240 Euro pro Jahr oder 25 Euro monatlich. Mit Ihrem Abonnement erstellen Sie unbegrenzt viele Arbeitsblätter Grundschule. Keine zusätzlichen Kosten pro Arbeitsblatt fallen an. Das Vollzugriff Abo enthält alle 33 Arbeitsblatt-Generatoren.',
       },
       {
         id: '2',
@@ -362,7 +362,7 @@ Erstellen Sie thematische Pakete. Malvorlagen zu Jahreszeiten verkaufen sich gut
       {
         id: '4',
         question: 'Darf ich Deutsch-Arbeitsblätter im Unterricht mit Schülern verwenden?',
-        answer: 'Ja, das Full Access Abonnement erlaubt unbegrenzte Unterrichtsnutzung. Deutsch-Arbeitsblätter für Ihre gesamte Klasse sind erlaubt. Kopieren und Verteilen ist inklusive. Keine Einschränkung bei der Schüleranzahl. Die Lizenz gilt für Ihre gesamte Lehrtätigkeit.',
+        answer: 'Ja, das Vollzugriff Abonnement erlaubt unbegrenzte Unterrichtsnutzung. Deutsch-Arbeitsblätter für Ihre gesamte Klasse sind erlaubt. Kopieren und Verteilen ist inklusive. Keine Einschränkung bei der Schüleranzahl. Die Lizenz gilt für Ihre gesamte Lehrtätigkeit.',
       },
       {
         id: '5',
@@ -372,7 +372,7 @@ Erstellen Sie thematische Pakete. Malvorlagen zu Jahreszeiten verkaufen sich gut
       {
         id: '6',
         question: 'Kann ich Ausmalbilder und Malvorlagen mit dem Generator verkaufen?',
-        answer: 'Ja, das Full Access Abo enthält die kommerzielle Lizenz. Ausmalbilder als Puzzle dürfen Sie verkaufen. Malvorlagen auf Etsy oder Teachers Pay Teachers anbieten. Keine zusätzlichen Lizenzgebühren fallen an. Amazon KDP Aktivitätsbücher sind ebenfalls erlaubt.',
+        answer: 'Ja, das Vollzugriff Abo enthält die kommerzielle Lizenz. Ausmalbilder als Puzzle dürfen Sie verkaufen. Malvorlagen auf Etsy oder Teachers Pay Teachers anbieten. Keine zusätzlichen Lizenzgebühren fallen an. Amazon KDP Aktivitätsbücher sind ebenfalls erlaubt.',
       },
       {
         id: '7',
@@ -407,7 +407,7 @@ Erstellen Sie thematische Pakete. Malvorlagen zu Jahreszeiten verkaufen sich gut
     ],
   },
 
-  // Pricing - Full Access pricing (240€/year)
+  // Pricing - Vollzugriff pricing (240€/year)
   pricing: {
     title: 'Voller Zugang',
     price: '240€',
@@ -429,7 +429,7 @@ Erstellen Sie thematische Pakete. Malvorlagen zu Jahreszeiten verkaufen sich gut
   // Related Apps - Apps that work well with grid-match
   relatedApps: {
     sectionTitle: 'Raster-Puzzle mit 32 anderen Generatoren kombinieren - Einmaleins, Schwungübungen und Arbeitsblätter Grundschule',
-    sectionDescription: 'Das Full Access Abonnement enthält 33 verschiedene Arbeitsblatt-Generatoren. Kombinieren Sie Raster-Puzzle-Arbeitsblätter mit anderen Generatortypen für vollständige Lernpakete. Erstellen Sie thematische Einheiten die mehrere Fähigkeiten gleichzeitig trainieren. Jeder Generator nutzt dieselbe intuitive Benutzeroberfläche.',
+    sectionDescription: 'Das Vollzugriff Abonnement enthält 33 verschiedene Arbeitsblatt-Generatoren. Kombinieren Sie Raster-Puzzle-Arbeitsblätter mit anderen Generatortypen für vollständige Lernpakete. Erstellen Sie thematische Einheiten die mehrere Fähigkeiten gleichzeitig trainieren. Jeder Generator nutzt dieselbe intuitive Benutzeroberfläche.',
     ctaTitle: 'Bereit, fantastische Arbeitsblätter zu erstellen?',
     ctaDescription: 'Schließen Sie sich tausenden Lehrkräften an, die professionelle Arbeitsblätter erstellen. Unbegrenzte Generierung, kommerzielle Lizenz inklusive.',
     primaryCtaText: 'Kostenlose Testversion Starten',

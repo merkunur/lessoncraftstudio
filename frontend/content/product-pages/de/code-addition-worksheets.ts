@@ -10,7 +10,7 @@ import { ProductPageContent } from '@/components/product-page/ProductPageClient'
  * DO NOT SHORTEN - Every paragraph is SEO-optimized
  *
  * PRICING: Code Addition is a FULL ACCESS app ($240/year = 240€/Jahr)
- * NOT Core Bundle! Use "Voller Zugang" and "240€" throughout.
+ * NOT Basis-Paket! Use "Voller Zugang" and "240€" throughout.
  *
  * German Keywords (from keywords.txt):
  * 1. Arbeitsblätter Grundschule
@@ -40,7 +40,7 @@ export const codeAdditionDeContent: ProductPageContent = {
   hero: {
     title: 'Bilder-Additions-Generator',
     subtitle: 'Mathe-Arbeitsblätter für die Grundschule erstellen - Rechnen lernen mit Bildern',
-    description: `Erstellen Sie professionelle Mathe-Arbeitsblätter mit unserem Bilder-Additions-Generator. Mit Ihrem Full Access Abonnement können Sie unbegrenzt Arbeitsblätter Grundschule erstellen. Keine zusätzlichen Kosten pro Arbeitsblatt. Laden Sie hochwertige PDF-Dateien in unter 3 Minuten herunter.
+    description: `Erstellen Sie professionelle Mathe-Arbeitsblätter mit unserem Bilder-Additions-Generator. Mit Ihrem Vollzugriff Abonnement können Sie unbegrenzt Arbeitsblätter Grundschule erstellen. Keine zusätzlichen Kosten pro Arbeitsblatt. Laden Sie hochwertige PDF-Dateien in unter 3 Minuten herunter.
 
 Der Bilder-Additions-Generator verwandelt das Rechnen lernen in ein spannendes Abenteuer. Kinder zählen bunte Bilder wie Äpfel, Autos oder Tiere. Dann schreiben sie die passende Additionsaufgabe. Diese Methode verbindet visuelles Lernen mit mathematischem Denken.
 
@@ -115,7 +115,7 @@ Unsere Bildbibliothek umfasst über 3000 Bilder. Alle Bilder sind kindgerecht un
         title: 'Visuelle Bild-zu-Zahl-Addition - Mathe-Arbeitsblätter für Rechnen lernen',
         description: `Der Bilder-Additions-Generator nutzt eine einzigartige Lernmethode für Rechnen lernen. Kinder sehen eine Legende mit Bildern und zugeordneten Zahlen. Zum Beispiel: Apfel = 3, Auto = 5, Ball = 2. Die Aufgaben zeigen dann Bilder, die addiert werden müssen.
 
-Diese visuelle Methode macht Mathe-Arbeitsblätter greifbar und verständlich. Kinder verstehen: Apfel + Auto bedeutet 3 + 5 = 8. Das Konzept "Symbol = Zahl" bereitet auf fortgeschrittene Mathematik vor. Das Full Access Abonnement für 240€ jährlich bietet Zugang zu allen Bildern.
+Diese visuelle Methode macht Mathe-Arbeitsblätter greifbar und verständlich. Kinder verstehen: Apfel + Auto bedeutet 3 + 5 = 8. Das Konzept "Symbol = Zahl" bereitet auf fortgeschrittene Mathematik vor. Das Vollzugriff Abonnement für 240€ jährlich bietet Zugang zu allen Bildern.
 
 Vorschulkinder und Erstklässler profitieren enorm von dieser Methode. Die Bilder überbrücken abstrakte Zahlenkonzepte. Arbeitsblätter Grundschule werden zum spannenden Rätsel statt zur trockenen Übung.`,
         highlighted: true,
@@ -148,7 +148,7 @@ Hochwertige Bilder machen Vorschul-Arbeitsblätter attraktiv. Klare, farbenfrohe
         title: 'Automatische Lösungsblätter - Zeitsparende Korrektur für Arbeitsblätter Grundschule',
         description: `Jedes generierte Arbeitsblatt erstellt automatisch ein Lösungsblatt für Mathe-Arbeitsblätter. Die Antworten erscheinen klar in den Lösungsfeldern. Wechseln Sie zwischen Arbeitsblatt und Lösung mit einem Klick. Beide laden als separate Dateien herunter.
 
-Lehrkräfte sparen enorme Korrekturzeit mit Vorschul-Arbeitsblättern. Keine manuelle Berechnung jeder Aufgabe mehr nötig. Schnelle visuelle Überprüfung mit dem Lösungsblatt. Das Full Access Abonnement maximiert Ihre Zeiteffizienz.
+Lehrkräfte sparen enorme Korrekturzeit mit Vorschul-Arbeitsblättern. Keine manuelle Berechnung jeder Aufgabe mehr nötig. Schnelle visuelle Überprüfung mit dem Lösungsblatt. Das Vollzugriff Abonnement maximiert Ihre Zeiteffizienz.
 
 Selbstkorrektur wird mit Lösungsblättern möglich für Rechnen lernen. Schüler können ihre Arbeit eigenständig überprüfen. Eltern helfen bei Hausaufgaben ohne Mathe-Angst.`,
         highlighted: true,
@@ -255,7 +255,7 @@ Wählen Sie einen Hintergrund aus unseren Themen. Rahmen verleihen dem Arbeitsbl
 
 Klicken Sie auf "Herunterladen" für Ihre fertigen Mathe-Arbeitsblätter. Wählen Sie zwischen PDF und JPEG Format. Beide exportieren in professioneller 300 DPI Auflösung.
 
-Aktivieren Sie die Graustufenoption für tintensparsames Drucken. Mit dem Full Access Abonnement für 240€ jährlich erhalten Sie wasserzeichenfreie Downloads. Kommerzielle Lizenz inklusive für den Verkauf Ihrer kostenlose Arbeitsblätter.`,
+Aktivieren Sie die Graustufenoption für tintensparsames Drucken. Mit dem Vollzugriff Abonnement für 240€ jährlich erhalten Sie wasserzeichenfreie Downloads. Kommerzielle Lizenz inklusive für den Verkauf Ihrer kostenlose Arbeitsblätter.`,
         icon: '📥',
       },
     ],
@@ -334,7 +334,7 @@ Erstellen Sie Arbeitsblätter Grundschule für inklusive Klassen. Verschiedene S
         icon: '💰',
         title: 'Arbeitsblatt-Verleger und Lehrmittelautoren - Mathe-Arbeitsblätter zum Verkaufen',
         subtitle: 'Verkaufen Sie kostenlose Arbeitsblätter mit POD-Lizenz',
-        description: `Kreative Lehrkräfte verkaufen Unterrichtsmaterial online mit Mathe-Arbeitsblättern. Das Full Access Abonnement für 240€ jährlich beinhaltet vollständige kommerzielle Lizenz. Verkaufen Sie Ihre Bilder-Additions-Arbeitsblätter auf Teachers Pay Teachers, Etsy oder Amazon KDP.
+        description: `Kreative Lehrkräfte verkaufen Unterrichtsmaterial online mit Mathe-Arbeitsblättern. Das Vollzugriff Abonnement für 240€ jährlich beinhaltet vollständige kommerzielle Lizenz. Verkaufen Sie Ihre Bilder-Additions-Arbeitsblätter auf Teachers Pay Teachers, Etsy oder Amazon KDP.
 
 Viele Lehrkräfte verdienen 500 bis 5000€ monatlich mit Arbeitsblättern Grundschule. Die Bilder-Additions-Arbeitsblätter sind besonders gefragt. Visuelle Mathematik ist ein Nischenmarkt. Die 300 DPI Qualität überzeugt professionelle Käufer.
 
@@ -347,7 +347,7 @@ Kostenlose Arbeitsblätter als Marketing-Strategie funktionieren hervorragend f�
   // FAQ Section - FULL FAQs from code-addition.md
   faq: {
     sectionTitle: 'Häufig gestellte Fragen zu Bilder-Additions-Arbeitsblättern - Kostenlose Arbeitsblätter erklärt',
-    sectionDescription: 'Lehrkräfte und Eltern haben viele Fragen zum Bilder-Additions-Generator und Full Access Abonnement. Hier beantworten wir die häufigsten Fragen zu Arbeitsblätter Grundschule, Vorschul-Arbeitsblättern und kommerzieller Lizenzierung.',
+    sectionDescription: 'Lehrkräfte und Eltern haben viele Fragen zum Bilder-Additions-Generator und Vollzugriff Abonnement. Hier beantworten wir die häufigsten Fragen zu Arbeitsblätter Grundschule, Vorschul-Arbeitsblättern und kommerzieller Lizenzierung.',
     showMoreText: 'Mehr Fragen anzeigen',
     showLessText: 'Weniger anzeigen',
     badgeText: 'Häufige Fragen',
@@ -359,7 +359,7 @@ Kostenlose Arbeitsblätter als Marketing-Strategie funktionieren hervorragend f�
       {
         id: '1',
         question: 'Ist der Bilder-Additions-Generator wirklich kostenlos für Mathe-Arbeitsblätter?',
-        answer: 'Der Bilder-Additions-Generator erfordert ein Full Access Abonnement. Es kostet 240€ pro Jahr oder 25€ pro Monat. Mit dem Abonnement erstellen Sie unbegrenzt kostenlose Arbeitsblätter ohne Zusatzkosten pro Download. Das Full Access Abonnement enthält alle 33 Arbeitsblatt-Generatoren. Nicht nur Bilder-Addition, sondern auch Subtrakion, Einmaleins-Vorbereitung und mehr. Die kommerzielle Lizenz für Verkauf ist ebenfalls enthalten. 11 Sprachen für Benutzeroberfläche und Bildbibliothek.',
+        answer: 'Der Bilder-Additions-Generator erfordert ein Vollzugriff Abonnement. Es kostet 240€ pro Jahr oder 25€ pro Monat. Mit dem Abonnement erstellen Sie unbegrenzt kostenlose Arbeitsblätter ohne Zusatzkosten pro Download. Das Vollzugriff Abonnement enthält alle 33 Arbeitsblatt-Generatoren. Nicht nur Bilder-Addition, sondern auch Subtrakion, Einmaleins-Vorbereitung und mehr. Die kommerzielle Lizenz für Verkauf ist ebenfalls enthalten. 11 Sprachen für Benutzeroberfläche und Bildbibliothek.',
       },
       {
         id: '2',
@@ -374,7 +374,7 @@ Kostenlose Arbeitsblätter als Marketing-Strategie funktionieren hervorragend f�
       {
         id: '4',
         question: 'Darf ich Deutsch-Arbeitsblätter und Buchstaben lernen Material im Unterricht verwenden?',
-        answer: 'Ja, das Full Access Abonnement erlaubt unbegrenzten Unterrichtseinsatz für Mathe-Arbeitsblätter. Drucken Sie Deutsch-Arbeitsblätter für Ihre gesamte Klasse. Verteilen Sie Buchstaben lernen Übungen an alle Schüler. Keine Einschränkungen bei der Anzahl. Teilen Sie Arbeitsblätter Grundschule mit Kolleginnen und Kollegen. Laden Sie sie in Ihr Lernmanagementsystem hoch. Die Lizenz deckt alle schulischen Nutzungen ab.',
+        answer: 'Ja, das Vollzugriff Abonnement erlaubt unbegrenzten Unterrichtseinsatz für Mathe-Arbeitsblätter. Drucken Sie Deutsch-Arbeitsblätter für Ihre gesamte Klasse. Verteilen Sie Buchstaben lernen Übungen an alle Schüler. Keine Einschränkungen bei der Anzahl. Teilen Sie Arbeitsblätter Grundschule mit Kolleginnen und Kollegen. Laden Sie sie in Ihr Lernmanagementsystem hoch. Die Lizenz deckt alle schulischen Nutzungen ab.',
       },
       {
         id: '5',
@@ -384,7 +384,7 @@ Kostenlose Arbeitsblätter als Marketing-Strategie funktionieren hervorragend f�
       {
         id: '6',
         question: 'Kann ich Schwungübungen und Einmaleins-Arbeitsblätter verkaufen?',
-        answer: 'Ja, die kommerzielle Lizenz ist im Full Access enthalten für Mathe-Arbeitsblätter. Verkaufen Sie Schwungübungen auf Teachers Pay Teachers. Erstellen Sie Einmaleins-Übungspakete für Etsy. Veröffentlichen Sie Arbeitshefte bei Amazon KDP. Keine zusätzlichen Lizenzgebühren erforderlich. Die 300 DPI Qualität erfüllt professionelle Druckstandards für Arbeitsblätter Grundschule. Käufer schätzen die hohe Qualität. Ihr Nebeneinkommen wächst mit jedem verkauften Paket.',
+        answer: 'Ja, die kommerzielle Lizenz ist im Vollzugriff enthalten für Mathe-Arbeitsblätter. Verkaufen Sie Schwungübungen auf Teachers Pay Teachers. Erstellen Sie Einmaleins-Übungspakete für Etsy. Veröffentlichen Sie Arbeitshefte bei Amazon KDP. Keine zusätzlichen Lizenzgebühren erforderlich. Die 300 DPI Qualität erfüllt professionelle Druckstandards für Arbeitsblätter Grundschule. Käufer schätzen die hohe Qualität. Ihr Nebeneinkommen wächst mit jedem verkauften Paket.',
       },
       {
         id: '7',
@@ -441,7 +441,7 @@ Kostenlose Arbeitsblätter als Marketing-Strategie funktionieren hervorragend f�
   // Related Apps - Kombinieren Sie Bilder-Additions-Arbeitsblätter mit anderen Generatoren
   relatedApps: {
     sectionTitle: 'Kombinieren Sie Bilder-Addition mit anderen Generatoren - Ganzheitliche Arbeitsblätter Grundschule',
-    sectionDescription: 'Ihr Full Access Abonnement beinhaltet alle 33 Arbeitsblatt-Generatoren. Kombinieren Sie Bilder-Additions-Arbeitsblätter mit Ausmalbilder für kreative Pausen. Integrieren Sie Schwungübungen für Schreibvorbereitung. Verbinden Sie mit Buchstaben lernen für frühkindliche Bildung.',
+    sectionDescription: 'Ihr Vollzugriff Abonnement beinhaltet alle 33 Arbeitsblatt-Generatoren. Kombinieren Sie Bilder-Additions-Arbeitsblätter mit Ausmalbilder für kreative Pausen. Integrieren Sie Schwungübungen für Schreibvorbereitung. Verbinden Sie mit Buchstaben lernen für frühkindliche Bildung.',
     ctaTitle: 'Bereit, fantastische Arbeitsblätter zu erstellen?',
     ctaDescription: 'Schließen Sie sich tausenden Lehrkräften an, die professionelle Mathe-Arbeitsblätter erstellen. Unbegrenzte Generierung, kommerzielle Lizenz inklusive.',
     primaryCtaText: 'Kostenlos Testen',

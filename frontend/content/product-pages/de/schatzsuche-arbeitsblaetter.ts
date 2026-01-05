@@ -30,7 +30,7 @@ export const treasureHuntDeContent: ProductPageContent = {
     slug: 'schatzsuche-arbeitsblaetter',
     appId: 'treasure-hunt',
     title: 'Schatzsuche Arbeitsblätter Generator - Kostenlose Arbeitsblätter zum Ausdrucken für Vorschule und Grundschule',
-    description: 'Erstellen Sie professionelle Schatzsuche Arbeitsblätter mit unserem Richtungsanweisungen Generator. Mit Ihrem Full Access Abo generieren Sie unbegrenzt Arbeitsblätter ohne zusätzliche Kosten pro Blatt. Perfekt für Vorschule Arbeitsblätter und Arbeitsblätter Grundschule zum Üben von Richtungsvokabular und Leseverständnis.',
+    description: 'Erstellen Sie professionelle Schatzsuche Arbeitsblätter mit unserem Richtungsanweisungen Generator. Mit Ihrem Vollzugriff Abo generieren Sie unbegrenzt Arbeitsblätter ohne zusätzliche Kosten pro Blatt. Perfekt für Vorschule Arbeitsblätter und Arbeitsblätter Grundschule zum Üben von Richtungsvokabular und Leseverständnis.',
     keywords: 'schatzsuche arbeitsblätter, richtungsanweisungen arbeitsblätter, arbeitsblätter grundschule, kostenlose arbeitsblätter, mathe arbeitsblätter, vorschule arbeitsblätter, einmaleins, schwungübungen, buchstaben lernen, rechnen lernen, deutsch arbeitsblätter',
     canonicalUrl: 'https://www.lessoncraftstudio.com/de/apps/schatzsuche-arbeitsblaetter',
   },
@@ -39,7 +39,7 @@ export const treasureHuntDeContent: ProductPageContent = {
   hero: {
     title: 'Schatzsuche Arbeitsblätter Generator',
     subtitle: 'Kostenlose Arbeitsblätter zum Ausdrucken für Vorschule und Grundschule',
-    description: `Erstellen Sie professionelle Schatzsuche Arbeitsblätter mit unserem Richtungsanweisungen Generator. Mit Ihrem Full Access Abo generieren Sie unbegrenzt Arbeitsblätter ohne zusätzliche Kosten pro Blatt. Perfekt für Vorschule Arbeitsblätter und Arbeitsblätter Grundschule zum Üben von Richtungsvokabular und Leseverständnis. Laden Sie hochwertige PDF Arbeitsblätter in unter 3 Minuten herunter.
+    description: `Erstellen Sie professionelle Schatzsuche Arbeitsblätter mit unserem Richtungsanweisungen Generator. Mit Ihrem Vollzugriff Abo generieren Sie unbegrenzt Arbeitsblätter ohne zusätzliche Kosten pro Blatt. Perfekt für Vorschule Arbeitsblätter und Arbeitsblätter Grundschule zum Üben von Richtungsvokabular und Leseverständnis. Laden Sie hochwertige PDF Arbeitsblätter in unter 3 Minuten herunter.
 
 Schatzsuche Arbeitsblätter fördern junge Lernende beim Befolgen mehrstufiger Anweisungen. Gleichzeitig entwickeln Kinder räumliches Vorstellungsvermögen und Richtungsvokabular. Die Schüler lesen geschriebene Hinweise und navigieren durch ein 5×5 Bilderraster, um den versteckten Schatz zu finden. Jedes Arbeitsblatt verbindet Leseverständnis mit visuellem Lernen in einem motivierenden Rätselformat.
 
@@ -97,7 +97,7 @@ Dieser Schatzsuche Generator erstellt bei jedem Klick einzigartige Arbeitsblätt
   // Features Grid - FULL text from schatzsuche.md feature sections
   features: {
     sectionTitle: 'Schatzsuche Generator Funktionen - Alles für Kostenlose Arbeitsblätter, Vorschule Arbeitsblätter und Arbeitsblätter Grundschule',
-    sectionDescription: 'Unser Schatzsuche Arbeitsblatt Generator bietet sieben leistungsstarke Funktionen für professionelle Richtungsanweisungen Arbeitsblätter. Jede Funktion unterstützt Sie bei der Erstellung von Vorschule Arbeitsblätter und Arbeitsblätter Grundschule. Generieren Sie unbegrenzt Schatzsuche Aktivitäten mit Ihrem Full Access Abo. Keine Zusatzkosten pro Arbeitsblatt bedeutet: Erstellen Sie so viele kostenlose Arbeitsblätter wie Ihre Schüler brauchen.',
+    sectionDescription: 'Unser Schatzsuche Arbeitsblatt Generator bietet sieben leistungsstarke Funktionen für professionelle Richtungsanweisungen Arbeitsblätter. Jede Funktion unterstützt Sie bei der Erstellung von Vorschule Arbeitsblätter und Arbeitsblätter Grundschule. Generieren Sie unbegrenzt Schatzsuche Aktivitäten mit Ihrem Vollzugriff Abo. Keine Zusatzkosten pro Arbeitsblatt bedeutet: Erstellen Sie so viele kostenlose Arbeitsblätter wie Ihre Schüler brauchen.',
     highlightBadgeText: 'Hauptfunktion',
     readMoreLabel: 'Mehr lesen',
     showLessLabel: 'Weniger anzeigen',
@@ -153,12 +153,12 @@ Fremdsprachenlehrkräfte nutzen Schatzsuche Arbeitsblätter zum Üben von Richtu
       {
         id: '5',
         icon: '💰',
-        title: 'Kommerzielle Lizenz für Kostenlose Arbeitsblätter Verkauf - Full Access Print-on-Demand Rechte für Mathe Arbeitsblätter und Ausmalbilder',
-        description: `Ihr Full Access Abo enthält eine vollständige kommerzielle Print-on-Demand-Lizenz ohne Zusatzkosten. Verkaufen Sie Ihre Schatzsuche Arbeitsblätter auf Lehrermarktplätzen, Etsy oder Amazon KDP ohne zusätzliche Lizenzgebühren. Erstellen Sie komplette Arbeitsblatt-Pakete, die Schatzsuche Aktivitäten mit Buchstaben lernen, Schwungübungen und Ausmalbilder kombinieren, um umfassende Lernpakete zu verkaufen.
+        title: 'Kommerzielle Lizenz für Kostenlose Arbeitsblätter Verkauf - Vollzugriff Print-on-Demand Rechte für Mathe Arbeitsblätter und Ausmalbilder',
+        description: `Ihr Vollzugriff Abo enthält eine vollständige kommerzielle Print-on-Demand-Lizenz ohne Zusatzkosten. Verkaufen Sie Ihre Schatzsuche Arbeitsblätter auf Lehrermarktplätzen, Etsy oder Amazon KDP ohne zusätzliche Lizenzgebühren. Erstellen Sie komplette Arbeitsblatt-Pakete, die Schatzsuche Aktivitäten mit Buchstaben lernen, Schwungübungen und Ausmalbilder kombinieren, um umfassende Lernpakete zu verkaufen.
 
 Die kommerzielle Lizenz bietet Lehrpreneurs eine lukrative Einkommensmöglichkeit. Viele Pädagogen verdienen 500 bis 5.000 Euro monatlich mit dem Verkauf von druckbaren Vorschule Arbeitsblätter und Arbeitsblätter Grundschule online. Die professionelle 300 DPI Qualität sorgt dafür, dass Ihre Arbeitsblätter scharf und klar in Kundendownloads erscheinen. Keine Namensnennung erforderlich bedeutet aufgeräumtere Produktseiten.
 
-Dieser Lizenzwert stellt erhebliche Einsparungen im Vergleich zu Wettbewerbern dar, die 100-200 Euro jährlich extra für kommerzielle Rechte verlangen. Ihr Full Access Abo enthält kommerzielle Lizenzierung für alle 33 Arbeitsblatt-Generatoren auf der Plattform.`,
+Dieser Lizenzwert stellt erhebliche Einsparungen im Vergleich zu Wettbewerbern dar, die 100-200 Euro jährlich extra für kommerzielle Rechte verlangen. Ihr Vollzugriff Abo enthält kommerzielle Lizenzierung für alle 33 Arbeitsblatt-Generatoren auf der Plattform.`,
         highlighted: true,
       },
       {
@@ -331,7 +331,7 @@ Förderschulpädagogen erstellen Schatzsuche Arbeitsblätter, die mehrere Kompet
         icon: '💼',
         title: 'Lehrpreneurs Verkaufen Mathe Arbeitsblätter, Rechnen Lernen und Ausmalbilder auf Lehrermarktplätzen',
         subtitle: 'Verkauf auf Online-Plattformen',
-        description: `Lehrpreneurs bauen profitable Arbeitsblatt-Geschäfte auf, indem sie Schatzsuche-Pakete auf Lehrermarktplätzen, Etsy und Amazon KDP verkaufen. Die Full Access kommerzielle Lizenz bedeutet, dass Sie unbegrenzt Arbeitsblatt-Produkte erstellen und verkaufen können. Viele erfolgreiche Verkäufer verdienen 500 bis 5.000 Euro monatlich mit saisonalen Arbeitsblatt-Paketen, thematischen Aktivitätsheften und lehrplanausgerichteten Materialien. Die professionelle 300 DPI Qualität sichert Kundenzufriedenheit und positive Bewertungen.
+        description: `Lehrpreneurs bauen profitable Arbeitsblatt-Geschäfte auf, indem sie Schatzsuche-Pakete auf Lehrermarktplätzen, Etsy und Amazon KDP verkaufen. Die Vollzugriff kommerzielle Lizenz bedeutet, dass Sie unbegrenzt Arbeitsblatt-Produkte erstellen und verkaufen können. Viele erfolgreiche Verkäufer verdienen 500 bis 5.000 Euro monatlich mit saisonalen Arbeitsblatt-Paketen, thematischen Aktivitätsheften und lehrplanausgerichteten Materialien. Die professionelle 300 DPI Qualität sichert Kundenzufriedenheit und positive Bewertungen.
 
 Erstellen Sie umfassende Lernpakete, die Schatzsuche Arbeitsblätter mit Rechnen lernen, Mathe Arbeitsblätter und Buchstaben lernen kombinieren. Bündeln Sie fünf oder zehn Schatzsuche Variationen um ein einzelnes Thema wie Meerestiere oder Weltraumforschung. Bepreisen Sie gebündelte Pakete höher als Einzelarbeitsblätter zur Maximierung des Umsatzes pro Verkauf. Kunden lieben Vielfalt-Pakete, die mehrere Aktivitäten für einen Kaufpreis bieten.
 
@@ -344,7 +344,7 @@ Die unbegrenzte Generierungsfähigkeit bedeutet, dass Lehrpreneurs nie ohne Prod
   // FAQ Section - FULL text from schatzsuche.md
   faq: {
     sectionTitle: 'Häufig Gestellte Fragen zu Kostenlose Arbeitsblätter, Einmaleins, Rechnen Lernen und Deutsch Arbeitsblätter',
-    sectionDescription: 'Lehrkräfte stellen häufig zwölf Fragen zur Erstellung von Schatzsuche Arbeitsblättern und zur effektiven Nutzung des Generators. Diese Antworten behandeln Preise, Nutzungsrechte, Anpassungsoptionen und technische Details. Das Verständnis dieser Grundlagen hilft Ihnen, den Wert Ihres Full Access Abos zu maximieren und bessere Bildungsmaterialien für Ihre Schüler zu erstellen.',
+    sectionDescription: 'Lehrkräfte stellen häufig zwölf Fragen zur Erstellung von Schatzsuche Arbeitsblättern und zur effektiven Nutzung des Generators. Diese Antworten behandeln Preise, Nutzungsrechte, Anpassungsoptionen und technische Details. Das Verständnis dieser Grundlagen hilft Ihnen, den Wert Ihres Vollzugriff Abos zu maximieren und bessere Bildungsmaterialien für Ihre Schüler zu erstellen.',
     showMoreText: 'Mehr Fragen anzeigen',
     showLessText: 'Weniger anzeigen',
     badgeText: 'Häufige Fragen',
@@ -356,9 +356,9 @@ Die unbegrenzte Generierungsfähigkeit bedeutet, dass Lehrpreneurs nie ohne Prod
       {
         id: '1',
         question: 'Ist Dieser Schatzsuche Arbeitsblatt Generator Wirklich Kostenlos für Einmaleins und Rechnen Lernen Materialien?',
-        answer: `Der Schatzsuche Arbeitsblatt Generator erfordert ein Full Access Abo zu 240 Euro jährlich oder 25 Euro monatlich. Ihr Abo gibt Ihnen unbegrenzte Schatzsuche-Erstellung ohne Kosten pro Arbeitsblatt. Generieren Sie so viele Richtungsvokabular Arbeitsblätter wie Sie brauchen ohne zusätzliche Gebühren. Das Abo umfasst Zugang zu allen 33 Arbeitsblatt-Generatoren auf der Plattform einschließlich Einmaleins, Rechnen lernen, Buchstaben lernen und mehr.
+        answer: `Der Schatzsuche Arbeitsblatt Generator erfordert ein Vollzugriff Abo zu 240 Euro jährlich oder 25 Euro monatlich. Ihr Abo gibt Ihnen unbegrenzte Schatzsuche-Erstellung ohne Kosten pro Arbeitsblatt. Generieren Sie so viele Richtungsvokabular Arbeitsblätter wie Sie brauchen ohne zusätzliche Gebühren. Das Abo umfasst Zugang zu allen 33 Arbeitsblatt-Generatoren auf der Plattform einschließlich Einmaleins, Rechnen lernen, Buchstaben lernen und mehr.
 
-Das Core Bundle enthält 10 beliebte Arbeitsblatt-Generatoren und kostet 144 Euro jährlich. Das Full Access Abo kostet 240 Euro jährlich und umfasst alle 33 Arbeitsblatt-Generator-Typen einschließlich Schatzsuche. Beide Abos enthalten kommerzielle Lizenzierung, 11-Sprachen-Unterstützung und professionelle 300 DPI Qualitätsexporte. Full Access bietet besseren Wert für Lehrkräfte, die diverse Arbeitsblatttypen über mehrere Fächer benötigen.`,
+Das Basis-Paket enthält 10 beliebte Arbeitsblatt-Generatoren und kostet 144 Euro jährlich. Das Vollzugriff Abo kostet 240 Euro jährlich und umfasst alle 33 Arbeitsblatt-Generator-Typen einschließlich Schatzsuche. Beide Abos enthalten kommerzielle Lizenzierung, 11-Sprachen-Unterstützung und professionelle 300 DPI Qualitätsexporte. Vollzugriff bietet besseren Wert für Lehrkräfte, die diverse Arbeitsblatttypen über mehrere Fächer benötigen.`,
       },
       {
         id: '2',
@@ -377,7 +377,7 @@ Die Bearbeitungswerkzeuge bieten optionale Anpassung ohne Designexpertise zu erf
       {
         id: '4',
         question: 'Kann Ich Schatzsuche Arbeitsblätter im Unterricht für Schüler mit Rechnen Lernen und Schwungübungen Verwenden?',
-        answer: `Das Full Access Abo umfasst unbegrenzte Klassenraumnutzung für Ihre Schüler. Generieren Sie Schatzsuche Arbeitsblätter für Frontalunterricht, Kleingruppenarbeit, Lernecken oder individuelle Übung. Drucken Sie Kopien für Ihre gesamte Klasse ohne sich um Lizenzbeschränkungen zu sorgen. Nutzen Sie Arbeitsblätter für Hausaufgaben, Klassenarbeit, Bewertung oder Förderaktivitäten. Die Klassenraumnutzungsrechte erstrecken sich auf Vertretungslehrer, die Ihre Materialien während Ihrer Abwesenheit verwenden.
+        answer: `Das Vollzugriff Abo umfasst unbegrenzte Klassenraumnutzung für Ihre Schüler. Generieren Sie Schatzsuche Arbeitsblätter für Frontalunterricht, Kleingruppenarbeit, Lernecken oder individuelle Übung. Drucken Sie Kopien für Ihre gesamte Klasse ohne sich um Lizenzbeschränkungen zu sorgen. Nutzen Sie Arbeitsblätter für Hausaufgaben, Klassenarbeit, Bewertung oder Förderaktivitäten. Die Klassenraumnutzungsrechte erstrecken sich auf Vertretungslehrer, die Ihre Materialien während Ihrer Abwesenheit verwenden.
 
 Teilen Sie gedruckte Arbeitsblätter frei mit Schülern und Eltern. Das Abo deckt traditionelle Klassenraumverteilung von Papierkopien ab. Lehrkräfte können digitale Dateien nicht auf öffentlichen Websites oder Elternportalen teilen, wo Nicht-Schüler darauf zugreifen könnten. Drucken und verteilen Sie Papierkopien innerhalb Ihrer Schule oder Ihres Klassenzimmers nach Bedarf für Bildungszwecke.`,
       },
@@ -391,9 +391,9 @@ Jede Sprache enthält kulturell passende Bilder mit korrekten Übersetzungen und
       {
         id: '6',
         question: 'Kann Ich Schatzsuche Arbeitsblätter Verkaufen mit Einmaleins, Ausmalbilder und Malvorlagen?',
-        answer: `Ja. Das Full Access Abo enthält vollständige kommerzielle Print-on-Demand-Lizenzierung ohne Zusatzkosten. Verkaufen Sie Ihre Schatzsuche Arbeitsblätter auf Lehrermarktplätzen, Etsy, Amazon KDP oder Ihrer eigenen Website. Erstellen Sie Arbeitsblatt-Pakete, die Schatzsuchen mit Einmaleins Übungen, Ausmalbilder, Malvorlagen und anderen Bildungsmaterialien kombinieren. Keine Namensnennung erforderlich bedeutet aufgeräumtere Produktseiten, die sich auf Ihre Lehrermarke konzentrieren.
+        answer: `Ja. Das Vollzugriff Abo enthält vollständige kommerzielle Print-on-Demand-Lizenzierung ohne Zusatzkosten. Verkaufen Sie Ihre Schatzsuche Arbeitsblätter auf Lehrermarktplätzen, Etsy, Amazon KDP oder Ihrer eigenen Website. Erstellen Sie Arbeitsblatt-Pakete, die Schatzsuchen mit Einmaleins Übungen, Ausmalbilder, Malvorlagen und anderen Bildungsmaterialien kombinieren. Keine Namensnennung erforderlich bedeutet aufgeräumtere Produktseiten, die sich auf Ihre Lehrermarke konzentrieren.
 
-Die kommerzielle Lizenz deckt unbegrenzte Verkäufe ohne Tantiemengebühren oder Umsatzbeteiligung ab. Behalten Sie 100% Ihrer Einnahmen nach Plattformgebühren. Viele Lehrpreneurs verdienen 500-5.000 Euro monatlich mit dem Verkauf druckbarer Arbeitsblätter, die mit Full Access Abo-Tools erstellt wurden. Die Lizenz umfasst Rechte zur Modifizierung, Bündelung und zum Weiterverkauf von Arbeitsblättern als fertige Produkte. Sie können das Generator-Tool selbst nicht weiterverkaufen oder Ihre Zugangsdaten teilen.`,
+Die kommerzielle Lizenz deckt unbegrenzte Verkäufe ohne Tantiemengebühren oder Umsatzbeteiligung ab. Behalten Sie 100% Ihrer Einnahmen nach Plattformgebühren. Viele Lehrpreneurs verdienen 500-5.000 Euro monatlich mit dem Verkauf druckbarer Arbeitsblätter, die mit Vollzugriff Abo-Tools erstellt wurden. Die Lizenz umfasst Rechte zur Modifizierung, Bündelung und zum Weiterverkauf von Arbeitsblättern als fertige Produkte. Sie können das Generator-Tool selbst nicht weiterverkaufen oder Ihre Zugangsdaten teilen.`,
       },
       {
         id: '7',
@@ -443,7 +443,7 @@ Die themenbasierte Bilderbibliothek organisiert Inhalte nach Fachbereich für sc
   // Related Apps Section - FULL text from schatzsuche.md
   relatedApps: {
     sectionTitle: 'Schatzsuche Arbeitsblätter mit Anderen Kostenlose Arbeitsblätter Kombinieren - Komplette Lernpakete mit Buchstaben Lernen, Einmaleins und Ausmalbilder',
-    sectionDescription: 'Lehrkräfte erstellen umfassende Lernpakete durch Kombination von Schatzsuche Arbeitsblättern mit anderen kostenlose Arbeitsblätter Typen, die auf der Plattform verfügbar sind. Ihr Full Access Abo umfasst 33 verschiedene Arbeitsblatt-Generatoren, die alle wichtigen Fächer der frühkindlichen Bildung abdecken. Bauen Sie thematische Einheiten auf, die mehrere Arbeitsblatttypen um einzelne Themen kombinieren. Schüler erhalten abwechslungsreiche Übungsaktivitäten, die Engagement aufrechterhalten und gleichzeitig Kernkompetenzen über verschiedene Formate verstärken.',
+    sectionDescription: 'Lehrkräfte erstellen umfassende Lernpakete durch Kombination von Schatzsuche Arbeitsblättern mit anderen kostenlose Arbeitsblätter Typen, die auf der Plattform verfügbar sind. Ihr Vollzugriff Abo umfasst 33 verschiedene Arbeitsblatt-Generatoren, die alle wichtigen Fächer der frühkindlichen Bildung abdecken. Bauen Sie thematische Einheiten auf, die mehrere Arbeitsblatttypen um einzelne Themen kombinieren. Schüler erhalten abwechslungsreiche Übungsaktivitäten, die Engagement aufrechterhalten und gleichzeitig Kernkompetenzen über verschiedene Formate verstärken.',
     ctaTitle: 'Bereit für professionelle Schatzsuche Arbeitsblätter?',
     ctaDescription: 'Schließen Sie sich tausenden Pädagogen an, die professionelle Arbeitsblätter in Minuten erstellen.',
     primaryCtaText: 'Kostenlos Testen',

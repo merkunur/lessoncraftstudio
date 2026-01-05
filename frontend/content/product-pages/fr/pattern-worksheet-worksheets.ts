@@ -25,7 +25,7 @@ export const patternWorksheetFrContent: ProductPageContent = {
   hero: {
     title: 'Générateur de Fiches de Séquences',
     subtitle: 'Fiches Maternelle et Exercices Maths à Imprimer Gratuit',
-    description: `Créez des fiches de séquences professionnelles avec notre générateur d'exercices maths. Votre abonnement Full Access vous donne accès illimité à la création de fiches sans frais par fiche. Générez des fiches maternelle personnalisées parfaites pour apprendre les lettres et développer le graphisme maternelle. Téléchargez des fiches à imprimer gratuit de haute qualité en moins de 3 minutes.
+    description: `Créez des fiches de séquences professionnelles avec notre générateur d'exercices maths. Votre abonnement Accès Complet vous donne accès illimité à la création de fiches sans frais par fiche. Générez des fiches maternelle personnalisées parfaites pour apprendre les lettres et développer le graphisme maternelle. Téléchargez des fiches à imprimer gratuit de haute qualité en moins de 3 minutes.
 
 Notre générateur de fiches de séquences aide les enfants à reconnaître et compléter des motifs visuels. Les exercices CP et exercices CE1 développent la pensée logique et les fondations mathématiques. Chaque fiche de séquence renforce les compétences essentielles pour les tables de multiplication futures. Parfait pour l'apprentissage en maternelle et école élémentaire.
 
@@ -85,7 +85,7 @@ Les fiches de séquences développent la reconnaissance de motifs dès la petite
   // Features Grid - FULL text from pattern-worksheet.md feature sections
   features: {
     sectionTitle: 'Fonctionnalités du Générateur - Tout pour Créer des Exercices Maths et Exercices CP',
-    sectionDescription: 'Notre générateur de fiches de séquences offre des fonctionnalités complètes pour créer des fiches maternelle professionnelles. Chaque fiche à imprimer gratuit peut être personnalisée en quelques clics. Les enseignants utilisent nos outils pour créer des exercices CP et exercices CE1 adaptés à chaque élève. Votre abonnement Full Access inclut toutes les fonctionnalités sans frais supplémentaires.',
+    sectionDescription: 'Notre générateur de fiches de séquences offre des fonctionnalités complètes pour créer des fiches maternelle professionnelles. Chaque fiche à imprimer gratuit peut être personnalisée en quelques clics. Les enseignants utilisent nos outils pour créer des exercices CP et exercices CE1 adaptés à chaque élève. Votre abonnement Accès Complet inclut toutes les fonctionnalités sans frais supplémentaires.',
     highlightBadgeText: 'Fonctionnalité Clé',
     readMoreLabel: 'Lire la suite',
     showLessLabel: 'Voir moins',
@@ -136,9 +136,9 @@ Le support multilingue bénéficie particulièrement aux enseignants FLE (Franç
         id: '5',
         icon: '💰',
         title: 'Licence Commerciale Incluse',
-        description: `Votre abonnement Full Access inclut une licence commerciale print-on-demand complète. Vendez vos fiches maternelle sur Teachers Pay Teachers et Etsy. Aucuns frais de licence supplémentaires au-delà de votre abonnement. Créez des cahiers d'exercices maths pour Amazon KDP. Qualité professionnelle 300 DPI parfaite pour l'impression et la vente.
+        description: `Votre abonnement Accès Complet inclut une licence commerciale print-on-demand complète. Vendez vos fiches maternelle sur Teachers Pay Teachers et Etsy. Aucuns frais de licence supplémentaires au-delà de votre abonnement. Créez des cahiers d'exercices maths pour Amazon KDP. Qualité professionnelle 300 DPI parfaite pour l'impression et la vente.
 
-De nombreux enseignants gagnent 500€ à 5000€ par mois en vendant des fiches à imprimer gratuit. Créez des packs thématiques de fiches maternelle pour augmenter vos ventes. Combinez exercices CP et coloriage à imprimer pour des produits attractifs. Aucune attribution requise - vendez sous votre propre marque. La licence couvre tous les 33 générateurs de la plateforme Full Access.`,
+De nombreux enseignants gagnent 500€ à 5000€ par mois en vendant des fiches à imprimer gratuit. Créez des packs thématiques de fiches maternelle pour augmenter vos ventes. Combinez exercices CP et coloriage à imprimer pour des produits attractifs. Aucune attribution requise - vendez sous votre propre marque. La licence couvre tous les 33 générateurs de la plateforme Accès Complet.`,
         highlighted: true,
       },
       {
@@ -311,7 +311,7 @@ Utilisez séquences pour préparer apprentissage des tables de multiplication. L
 
 De nombreux enseignants gagnent revenus substantiels en vendant fiches à imprimer gratuit. Créez collections saisonnières - rentrée, automne, Noël, printemps, été. Développez packs thématiques - animaux de ferme, océan, espace, dinosaures. Combinez nos 33 générateurs pour créer cahiers d'exercices complets.
 
-La qualité professionnelle 300 DPI garantit satisfaction clients et bonnes critiques. Créez produits numériques sans inventaire physique ni expédition. L'abonnement Full Access à 240€ par an s'amortit rapidement avec ventes.`,
+La qualité professionnelle 300 DPI garantit satisfaction clients et bonnes critiques. Créez produits numériques sans inventaire physique ni expédition. L'abonnement Accès Complet à 240€ par an s'amortit rapidement avec ventes.`,
         quote: 'Mon abonnement s\'est rentabilisé dès le premier mois !',
       },
     ],
@@ -332,7 +332,7 @@ La qualité professionnelle 300 DPI garantit satisfaction clients et bonnes crit
       {
         id: '1',
         question: 'Ce Générateur de Fiches Maternelle est-il Vraiment Gratuit à Utiliser?',
-        answer: 'Le générateur de fiches de séquences nécessite abonnement Full Access coûtant 240€ annuellement ou 25€ mensuellement. Votre abonnement vous donne création illimitée de fiches sans frais par fiche. Générez autant de fiches maternelle que nécessaire sans charges supplémentaires. Créez exercices maths, exercices CP et exercices CE1 sans limites toute l\'année. L\'abonnement Full Access inclut tous les 33 générateurs de fiches de la plateforme.',
+        answer: 'Le générateur de fiches de séquences nécessite abonnement Accès Complet coûtant 240€ annuellement ou 25€ mensuellement. Votre abonnement vous donne création illimitée de fiches sans frais par fiche. Générez autant de fiches maternelle que nécessaire sans charges supplémentaires. Créez exercices maths, exercices CP et exercices CE1 sans limites toute l\'année. L\'abonnement Accès Complet inclut tous les 33 générateurs de fiches de la plateforme.',
       },
       {
         id: '2',
@@ -352,7 +352,7 @@ La qualité professionnelle 300 DPI garantit satisfaction clients et bonnes crit
       {
         id: '5',
         question: 'Puis-Je Vendre les Fiches à Imprimer Gratuit sur Teachers Pay Teachers?',
-        answer: 'Oui! Abonnement Full Access inclut licence commerciale print-on-demand complète sans frais supplémentaires. Vendez toutes fiches maternelle et exercices CP que vous créez. Aucune limite de revenus ni royalties à payer au-delà de votre abonnement. Vendez sur Teachers Pay Teachers, Etsy, Amazon KDP et autres plateformes. Aucune attribution requise - vendez sous votre propre marque.',
+        answer: 'Oui! Abonnement Accès Complet inclut licence commerciale print-on-demand complète sans frais supplémentaires. Vendez toutes fiches maternelle et exercices CP que vous créez. Aucune limite de revenus ni royalties à payer au-delà de votre abonnement. Vendez sur Teachers Pay Teachers, Etsy, Amazon KDP et autres plateformes. Aucune attribution requise - vendez sous votre propre marque.',
       },
       {
         id: '6',

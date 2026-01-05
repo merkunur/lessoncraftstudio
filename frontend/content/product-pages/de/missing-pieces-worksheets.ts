@@ -37,7 +37,7 @@ export const missingPiecesDeContent: ProductPageContent = {
   hero: {
     title: 'Fehlende Puzzleteile Arbeitsblätter',
     subtitle: 'Kostenlose Arbeitsblätter Grundschule - Puzzle-Generator für Vorschule Arbeitsblätter und Mathe Arbeitsblätter',
-    description: `Erstellen Sie professionelle Puzzle-Arbeitsblätter mit unserem Generator für fehlende Puzzleteile. Mit Ihrem Full Access Abonnement können Sie unbegrenzt Arbeitsblätter erstellen. Es fallen keine zusätzlichen Kosten pro Arbeitsblatt an. Laden Sie hochwertige PDF-Arbeitsblätter in weniger als 3 Minuten herunter. Perfekt für Vorschule Arbeitsblätter und Arbeitsblätter Grundschule.
+    description: `Erstellen Sie professionelle Puzzle-Arbeitsblätter mit unserem Generator für fehlende Puzzleteile. Mit Ihrem Vollzugriff Abonnement können Sie unbegrenzt Arbeitsblätter erstellen. Es fallen keine zusätzlichen Kosten pro Arbeitsblatt an. Laden Sie hochwertige PDF-Arbeitsblätter in weniger als 3 Minuten herunter. Perfekt für Vorschule Arbeitsblätter und Arbeitsblätter Grundschule.
 
 Puzzles mit fehlenden Teilen fördern die visuelle Wahrnehmung von Kindern. Die Kleinen erkennen, welches Teil das Bild vervollständigt. Diese Aktivität stärkt das räumliche Denken und die Problemlösungsfähigkeiten. Lehrkräfte nutzen Puzzle-Arbeitsblätter zur Förderung der Beobachtungsgabe in der Vorschule und Grundschule.
 
@@ -97,7 +97,7 @@ Ideal für Erzieherinnen in der Vorschule, Grundschullehrkräfte und Eltern im H
   // Features Grid - FULL text from fehlende-puzzleteile.md feature sections
   features: {
     sectionTitle: 'Funktionen des Puzzle-Generators - Kostenlose Arbeitsblätter für Mathe Arbeitsblätter und Vorschule Arbeitsblätter erstellen',
-    sectionDescription: 'Unser Generator für fehlende Puzzleteile vereint leistungsstarke Funktionen mit einfacher Bedienung. Lehrkräfte erstellen professionelle Arbeitsblätter Grundschule ohne Designerfahrung. Die Plattform enthält alles für kostenlose Arbeitsblätter in allen Fächern. Das Full Access Abonnement schaltet alle 33 Arbeitsblatt-Typen frei. Erstellen Sie unbegrenzt Materialien für den Unterricht oder zum Verkauf. Jede Funktion spart Lehrkräften wöchentlich Stunden an Vorbereitungszeit.',
+    sectionDescription: 'Unser Generator für fehlende Puzzleteile vereint leistungsstarke Funktionen mit einfacher Bedienung. Lehrkräfte erstellen professionelle Arbeitsblätter Grundschule ohne Designerfahrung. Die Plattform enthält alles für kostenlose Arbeitsblätter in allen Fächern. Das Vollzugriff Abonnement schaltet alle 33 Arbeitsblatt-Typen frei. Erstellen Sie unbegrenzt Materialien für den Unterricht oder zum Verkauf. Jede Funktion spart Lehrkräften wöchentlich Stunden an Vorbereitungszeit.',
     highlightBadgeText: 'Hauptfunktion',
     readMoreLabel: 'Mehr lesen',
     showLessLabel: 'Weniger anzeigen',
@@ -156,7 +156,7 @@ Internationale Schulen in Deutschland finden altersgerechte Inhalte in der Mutte
         id: '5',
         icon: '💰',
         title: 'Kommerzielle Lizenz für den Verkauf von Ausmalbilder und Schwungübungen auf Lehrermarktplätzen',
-        description: `Das Full Access Abonnement enthält eine vollständige kommerzielle Print-on-Demand-Lizenz. Verkaufen Sie Puzzle-Arbeitsblätter auf Lehrermarktplätzen ohne zusätzliche Gebühren. Listen Sie Produkte auf Etsy, Amazon KDP oder Ihrer eigenen Website. Schaffen Sie passive Einkommensströme aus Arbeitsblatt-Produkten. Keine Quellenangabe oder Wasserzeichen auf kommerziellen Produkten erforderlich.
+        description: `Das Vollzugriff Abonnement enthält eine vollständige kommerzielle Print-on-Demand-Lizenz. Verkaufen Sie Puzzle-Arbeitsblätter auf Lehrermarktplätzen ohne zusätzliche Gebühren. Listen Sie Produkte auf Etsy, Amazon KDP oder Ihrer eigenen Website. Schaffen Sie passive Einkommensströme aus Arbeitsblatt-Produkten. Keine Quellenangabe oder Wasserzeichen auf kommerziellen Produkten erforderlich.
 
 Viele Lehrkräfte verdienen 500 bis 5000 Euro monatlich mit druckbaren Arbeitsblättern. Puzzles mit fehlenden Teilen gehören zu den meistverkauften Bildungsressourcen. Bündeln Sie Arbeitsblätter Grundschule in thematischen Paketen für höhere Preise. Erstellen Sie saisonale Sammlungen, die Jahr für Jahr verkauft werden. Kombinieren Sie mit Schwungübungen und Ausmalbilder für komplette Aktivitätenhefte.
 
@@ -287,7 +287,7 @@ Nutzen Sie Ausrichtungswerkzeuge für professionelle Layouts. Zentrieren Sie all
 
 Laden Sie zuerst das Arbeitsblatt für die Schülerverteilung herunter. Speichern Sie die Datei in Ihrem vorgesehenen Ordner. Das Arbeitsblatt enthält das Puzzle und die Lösungsoptionen. Laden Sie den Lösungsschlüssel separat für den Lehrergebrauch herunter.
 
-Aktivieren Sie den Graustufen-Modus vor dem Download, wenn gewünscht. Diese Option spart erheblich Farbdruckkosten. Drucken Sie sofort oder speichern Sie für die spätere Verwendung. Ihr Full Access Abonnement (240€/Jahr) deckt unbegrenzte Downloads ab.`,
+Aktivieren Sie den Graustufen-Modus vor dem Download, wenn gewünscht. Diese Option spart erheblich Farbdruckkosten. Drucken Sie sofort oder speichern Sie für die spätere Verwendung. Ihr Vollzugriff Abonnement (240€/Jahr) deckt unbegrenzte Downloads ab.`,
         icon: '📥',
       },
     ],
@@ -396,7 +396,7 @@ Bauen Sie charakteristische Produktlinien mit konsistentem Branding auf. Laden S
       {
         id: '2',
         question: 'Gibt es Kostenlose Arbeitsblätter für Schwungübungen und Feinmotorik?',
-        answer: 'Die Plattform bietet im Rahmen des Full Access Abonnements unbegrenzte Arbeitsblatterstellung. Alle erstellten Materialien sind in der Abonnementgebühr enthalten. Generieren Sie so viele Schwungübungen verwandte Puzzles wie benötigt. Kombinieren Sie Puzzle-Aktivitäten mit traditionellen Schwungübungen für umfassende Feinmotorik-Programme. Das Abonnement amortisiert sich schnell durch die enorme Zeitersparnis.',
+        answer: 'Die Plattform bietet im Rahmen des Vollzugriff Abonnements unbegrenzte Arbeitsblatterstellung. Alle erstellten Materialien sind in der Abonnementgebühr enthalten. Generieren Sie so viele Schwungübungen verwandte Puzzles wie benötigt. Kombinieren Sie Puzzle-Aktivitäten mit traditionellen Schwungübungen für umfassende Feinmotorik-Programme. Das Abonnement amortisiert sich schnell durch die enorme Zeitersparnis.',
       },
       {
         id: '3',
@@ -436,7 +436,7 @@ Bauen Sie charakteristische Produktlinien mit konsistentem Branding auf. Laden S
       {
         id: '10',
         question: 'Wie verkaufe ich Rechnen lernen und Deutsch Arbeitsblätter auf Lehrermarktplätzen?',
-        answer: 'Das Full Access Abonnement enthält eine vollständige kommerzielle Lizenz. Erstellen Sie Rechnen lernen Puzzle-Pakete für Ihren Online-Shop. Generieren Sie Deutsch Arbeitsblätter Sammlungen für den Verkauf. Listen Sie Produkte auf Lehrermarktplätzen, Etsy oder Amazon KDP. Keine zusätzlichen Lizenzgebühren. Erfolgreiche Verkäufer bündeln 20-30 thematische Arbeitsblätter pro Produkt.',
+        answer: 'Das Vollzugriff Abonnement enthält eine vollständige kommerzielle Lizenz. Erstellen Sie Rechnen lernen Puzzle-Pakete für Ihren Online-Shop. Generieren Sie Deutsch Arbeitsblätter Sammlungen für den Verkauf. Listen Sie Produkte auf Lehrermarktplätzen, Etsy oder Amazon KDP. Keine zusätzlichen Lizenzgebühren. Erfolgreiche Verkäufer bündeln 20-30 thematische Arbeitsblätter pro Produkt.',
       },
       {
         id: '11',
@@ -451,7 +451,7 @@ Bauen Sie charakteristische Produktlinien mit konsistentem Branding auf. Laden S
     ],
   },
 
-  // Pricing - Full Access pricing (240€/year)
+  // Pricing - Vollzugriff pricing (240€/year)
   pricing: {
     title: 'Voller Zugang',
     price: '240€',
@@ -473,7 +473,7 @@ Bauen Sie charakteristische Produktlinien mit konsistentem Branding auf. Laden S
   // Related Apps - Apps that work well with missing-pieces
   relatedApps: {
     sectionTitle: 'Fehlende Puzzleteile mit 32 anderen Generatoren kombinieren - Einmaleins, Schwungübungen und Arbeitsblätter Grundschule',
-    sectionDescription: 'Das Full Access Abonnement enthält 33 verschiedene Arbeitsblatt-Generatoren. Kombinieren Sie Puzzle-Arbeitsblätter mit anderen Generatortypen für vollständige Lernpakete. Erstellen Sie thematische Einheiten die mehrere Fähigkeiten gleichzeitig trainieren. Jeder Generator nutzt dieselbe intuitive Benutzeroberfläche.',
+    sectionDescription: 'Das Vollzugriff Abonnement enthält 33 verschiedene Arbeitsblatt-Generatoren. Kombinieren Sie Puzzle-Arbeitsblätter mit anderen Generatortypen für vollständige Lernpakete. Erstellen Sie thematische Einheiten die mehrere Fähigkeiten gleichzeitig trainieren. Jeder Generator nutzt dieselbe intuitive Benutzeroberfläche.',
     ctaTitle: 'Bereit, fantastische Arbeitsblätter zu erstellen?',
     ctaDescription: 'Schließen Sie sich tausenden Lehrkräften an, die professionelle Arbeitsblätter erstellen. Unbegrenzte Generierung, kommerzielle Lizenz inklusive.',
     primaryCtaText: 'Kostenlose Testversion Starten',

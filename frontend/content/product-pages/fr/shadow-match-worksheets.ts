@@ -9,7 +9,7 @@ import { ProductPageContent } from '@/components/product-page/ProductPageClient'
  * FULL SEO content from: INDIVIDUAL APP PAGES/French/shadow-match.md
  * DO NOT SHORTEN - Every paragraph is SEO-optimized
  *
- * This is a FULL ACCESS app ($240/year) - NOT Core Bundle
+ * This is a FULL ACCESS app ($240/year) - NOT Pack Essentiel
  */
 
 export const shadowMatchFrContent: ProductPageContent = {
@@ -18,7 +18,7 @@ export const shadowMatchFrContent: ProductPageContent = {
     slug: 'discrimination-visuelle-fiches',
     appId: 'shadow-match',
     title: 'Fiches Maternelle Reconnaissance Visuelle - Exercices Discrimination Visuelle - Fiches à Imprimer Gratuit',
-    description: 'Créez des fiches de reconnaissance visuelle professionnelles pour la maternelle. Votre abonnement Full Access vous donne accès à ce générateur de fiches d\'association d\'ombres. Créez des exercices de discrimination visuelle adaptés à la petite section, moyenne section et grande section de maternelle. Téléchargez des fiches PDF de haute qualité en moins de 3 minutes.',
+    description: 'Créez des fiches de reconnaissance visuelle professionnelles pour la maternelle. Votre abonnement Accès Complet vous donne accès à ce générateur de fiches d\'association d\'ombres. Créez des exercices de discrimination visuelle adaptés à la petite section, moyenne section et grande section de maternelle. Téléchargez des fiches PDF de haute qualité en moins de 3 minutes.',
     keywords: 'fiches maternelle, discrimination visuelle, reconnaissance visuelle, association ombres, exercices CP, fiches à imprimer gratuit, graphisme maternelle, apprendre à lire, alphabet, coloriage à imprimer, écriture cursive, tables de multiplication, exercices maths',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fr/apps/discrimination-visuelle-fiches',
   },
@@ -27,7 +27,7 @@ export const shadowMatchFrContent: ProductPageContent = {
   hero: {
     title: 'Générateur de Fiches Discrimination Visuelle',
     subtitle: 'Fiches Maternelle Reconnaissance Visuelle et Exercices CP',
-    description: `Créez des fiches de reconnaissance visuelle professionnelles pour la maternelle. Votre abonnement Full Access vous donne accès à ce générateur de fiches d'association d'ombres. Créez des exercices de discrimination visuelle adaptés à la petite section, moyenne section et grande section de maternelle. Téléchargez des fiches PDF de haute qualité en moins de 3 minutes.
+    description: `Créez des fiches de reconnaissance visuelle professionnelles pour la maternelle. Votre abonnement Accès Complet vous donne accès à ce générateur de fiches d'association d'ombres. Créez des exercices de discrimination visuelle adaptés à la petite section, moyenne section et grande section de maternelle. Téléchargez des fiches PDF de haute qualité en moins de 3 minutes.
 
 Le générateur Shadow Match propose deux modes d'exercices uniques. Le mode association d'ombres développe la perception visuelle des enfants. Les élèves associent des images en couleur à leurs silhouettes noires. Le mode reconstitution d'images développe le raisonnement spatial. Les enfants assemblent des moitiés d'images pour former l'objet complet.
 
@@ -151,11 +151,11 @@ Les enseignants de français langue étrangère utilisent ces fiches pour dével
         id: '5',
         icon: '💰',
         title: 'Licence Commerciale Incluse - Vendez Vos Fiches Maternelle et Exercices CP sur Teachers Pay Teachers et Etsy',
-        description: `Votre abonnement Full Access inclut la licence commerciale complète pour l'impression à la demande. Vous pouvez vendre toutes les fiches maternelle que vous créez. Cette licence couvre les plateformes Teachers Pay Teachers, Etsy, Amazon KDP et autres boutiques en ligne. Les fiches à imprimer gratuit deviennent une source de revenus pour les enseignants entrepreneurs.
+        description: `Votre abonnement Accès Complet inclut la licence commerciale complète pour l'impression à la demande. Vous pouvez vendre toutes les fiches maternelle que vous créez. Cette licence couvre les plateformes Teachers Pay Teachers, Etsy, Amazon KDP et autres boutiques en ligne. Les fiches à imprimer gratuit deviennent une source de revenus pour les enseignants entrepreneurs.
 
 La qualité professionnelle 300 DPI convient parfaitement à la vente. Vos exercices CP ont l'apparence de ressources premium. Aucune attribution requise - vous vendez sous votre propre marque. Les enseignants créent des boutiques rentables en quelques mois. Certains vendeurs génèrent 500$ à 5000$ par mois en vendant des fiches pédagogiques.
 
-Cette licence commerciale représente une valeur exceptionnelle. Les concurrents facturent 100$ à 200$ par an supplémentaires pour les droits commerciaux. Votre abonnement Full Access à 240$ par an inclut tout. Vous créez un nombre illimité de fiches maternelle à vendre sans frais additionnels. Les fiches à imprimer gratuit deviennent des produits numériques rentables.`,
+Cette licence commerciale représente une valeur exceptionnelle. Les concurrents facturent 100$ à 200$ par an supplémentaires pour les droits commerciaux. Votre abonnement Accès Complet à 240$ par an inclut tout. Vous créez un nombre illimité de fiches maternelle à vendre sans frais additionnels. Les fiches à imprimer gratuit deviennent des produits numériques rentables.`,
         highlighted: true,
       },
       {
@@ -352,7 +352,7 @@ Les orthophonistes et ergothérapeutes utilisent ces ressources en séances indi
         icon: '💰',
         title: 'Enseignants Entrepreneurs - Vendez des Fiches Maternelle et Exercices CP sur Teachers Pay Teachers',
         subtitle: 'Licence commerciale incluse pour créer des revenus',
-        description: `Les enseignants entrepreneurs créent des boutiques rentables avec ces fiches. La licence commerciale Full Access permet la vente illimitée. Vous créez des packs thématiques de 10-20 fiches pour Teachers Pay Teachers. Les acheteurs adorent les ressources complètes avec corrigés. Un pack de fiches de discrimination visuelle se vend 3-5$ sur TPT.
+        description: `Les enseignants entrepreneurs créent des boutiques rentables avec ces fiches. La licence commerciale Accès Complet permet la vente illimitée. Vous créez des packs thématiques de 10-20 fiches pour Teachers Pay Teachers. Les acheteurs adorent les ressources complètes avec corrigés. Un pack de fiches de discrimination visuelle se vend 3-5$ sur TPT.
 
 Les boutiques spécialisées en maternelle génèrent des revenus réguliers. Vous créez des collections saisonnières - automne, hiver, printemps, été. Les enseignants achètent de nouvelles ressources chaque mois. Les fiches thématiques sur les fêtes se vendent particulièrement bien. Halloween, Noël, Pâques, rentrée scolaire génèrent des ventes prévisibles. Les vendeurs établis gagnent 500-2000$ mensuellement.
 
@@ -379,9 +379,9 @@ Les vendeurs français créent des ressources pour le marché international. Les
       {
         id: '1',
         question: 'Ce Générateur de Fiches à Imprimer Gratuit Est-il Vraiment Gratuit ?',
-        answer: `Le générateur de fiches de discrimination visuelle nécessite un abonnement Full Access coûtant 240$ annuellement ou 25$ par mois. Votre abonnement vous donne accès à une création illimitée de fiches sans frais par fiche. Générez autant de fiches à imprimer gratuit que nécessaire sans charges supplémentaires. Cette formule illimitée offre une valeur exceptionnelle comparée aux plateformes avec tarification par création.
+        answer: `Le générateur de fiches de discrimination visuelle nécessite un abonnement Accès Complet coûtant 240$ annuellement ou 25$ par mois. Votre abonnement vous donne accès à une création illimitée de fiches sans frais par fiche. Générez autant de fiches à imprimer gratuit que nécessaire sans charges supplémentaires. Cette formule illimitée offre une valeur exceptionnelle comparée aux plateformes avec tarification par création.
 
-L'abonnement Core Bundle inclut 10 générateurs populaires et coûte 144$ annuellement. L'abonnement Full Access coûte 240$ annuellement et inclut les 33 types de générateurs de fiches incluant Shadow Match. Les deux abonnements incluent la licence commerciale, le support en 11 langues et les exportations professionnelles 300 DPI. Le terme "fiches à imprimer gratuit" est une expression de recherche courante et non une affirmation de gratuité du service.`,
+L'abonnement Pack Essentiel inclut 10 générateurs populaires et coûte 144$ annuellement. L'abonnement Accès Complet coûte 240$ annuellement et inclut les 33 types de générateurs de fiches incluant Shadow Match. Les deux abonnements incluent la licence commerciale, le support en 11 langues et les exportations professionnelles 300 DPI. Le terme "fiches à imprimer gratuit" est une expression de recherche courante et non une affirmation de gratuité du service.`,
       },
       {
         id: '2',
@@ -404,7 +404,7 @@ Les enseignants qui créent des coloriage à imprimer apprécient particulièrem
       {
         id: '4',
         question: 'Puis-je Utiliser ces Exercices Maths et Fiches Maternelle dans ma Classe avec mes Élèves ?',
-        answer: `L'abonnement Full Access inclut l'utilisation illimitée en classe. Vous créez autant de fiches que nécessaire pour vos élèves. Imprimez 25 copies pour toute votre classe. Créez des versions différenciées pour chaque groupe de niveau. Cette flexibilité soutient l'enseignement personnalisé efficace.
+        answer: `L'abonnement Accès Complet inclut l'utilisation illimitée en classe. Vous créez autant de fiches que nécessaire pour vos élèves. Imprimez 25 copies pour toute votre classe. Créez des versions différenciées pour chaque groupe de niveau. Cette flexibilité soutient l'enseignement personnalisé efficace.
 
 Les centres d'apprentissage autonome utilisent ces fiches quotidiennement. Vous plastifiez les fiches pour une utilisation répétée. Les élèves travaillent avec des marqueurs effaçables. Cette réutilisation économise papier et encre. Les fiches durables servent plusieurs années. Les enseignants de maternelle créent des bibliothèques de ressources permanentes.
 
@@ -422,7 +422,7 @@ Les activités alphabet et apprendre à lire se développent naturellement avec 
       {
         id: '6',
         question: 'Puis-je Vendre les Fiches Écriture Cursive et Exercices CP que je Crée avec ce Générateur ?',
-        answer: `Oui. L'abonnement Full Access inclut la licence commerciale complète pour l'impression à la demande sans coût supplémentaire. Vous vendez toutes vos créations sur Teachers Pay Teachers, Etsy, Amazon KDP et autres plateformes. Aucune attribution n'est requise. Vous vendez sous votre propre marque professionnelle.
+        answer: `Oui. L'abonnement Accès Complet inclut la licence commerciale complète pour l'impression à la demande sans coût supplémentaire. Vous vendez toutes vos créations sur Teachers Pay Teachers, Etsy, Amazon KDP et autres plateformes. Aucune attribution n'est requise. Vous vendez sous votre propre marque professionnelle.
 
 Cette licence couvre uniquement l'impression à la demande et les produits numériques. Vous vendez des PDF téléchargeables ou des livres imprimés à la demande. Les plateformes comme Amazon KDP et Etsy gèrent l'impression et l'expédition. Cette restriction empêche la production de masse physique mais permet tous les modèles commerciaux numériques rentables.
 
@@ -467,7 +467,7 @@ Les parents en instruction à domicile apprécient énormément ces corrigés. L
     ],
   },
 
-  // Pricing - Full Access ($240/year)
+  // Pricing - Accès Complet ($240/year)
   pricing: {
     title: 'Applications Accès Complet',
     price: '240$',

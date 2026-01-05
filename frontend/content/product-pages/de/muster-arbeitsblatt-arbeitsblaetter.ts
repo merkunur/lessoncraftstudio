@@ -30,7 +30,7 @@ export const patternWorksheetDeContent: ProductPageContent = {
     slug: 'muster-arbeitsblatt-arbeitsblaetter',
     appId: 'pattern-worksheet',
     title: 'Muster-Arbeitsblatt Generator - Kostenlose Arbeitsblätter für Mustererkennung - Arbeitsblätter Grundschule und Vorschule',
-    description: 'Erstellen Sie professionelle Muster-Arbeitsblätter mit dem Muster-Arbeitsblatt Generator. Mit Ihrem Full Access Abo generieren Sie unbegrenzt Arbeitsblätter ohne zusätzliche Kosten. Perfekt für Vorschule Arbeitsblätter und Arbeitsblätter Grundschule.',
+    description: 'Erstellen Sie professionelle Muster-Arbeitsblätter mit dem Muster-Arbeitsblatt Generator. Mit Ihrem Vollzugriff Abo generieren Sie unbegrenzt Arbeitsblätter ohne zusätzliche Kosten. Perfekt für Vorschule Arbeitsblätter und Arbeitsblätter Grundschule.',
     keywords: 'muster arbeitsblatt generator, arbeitsblätter grundschule, kostenlose arbeitsblätter, mathe arbeitsblätter, vorschule arbeitsblätter, einmaleins, schwungübungen, buchstaben lernen, rechnen lernen, ausmalbilder',
     canonicalUrl: 'https://www.lessoncraftstudio.com/de/apps/muster-arbeitsblatt-arbeitsblaetter',
   },
@@ -39,7 +39,7 @@ export const patternWorksheetDeContent: ProductPageContent = {
   hero: {
     title: 'Muster-Arbeitsblatt',
     subtitle: 'Kostenlose Arbeitsblätter für Mustererkennung - Arbeitsblätter Grundschule und Vorschule',
-    description: `Erstellen Sie professionelle Muster-Arbeitsblätter mit unserem Generator für Mustererkennung. Mit Ihrem Full Access Abo generieren Sie unbegrenzt Arbeitsblätter ohne zusätzliche Kosten. Kinder lernen Muster zu erkennen, fortzusetzen und zu vervollständigen. Diese Fähigkeit ist grundlegend für mathematisches Denken.
+    description: `Erstellen Sie professionelle Muster-Arbeitsblätter mit unserem Generator für Mustererkennung. Mit Ihrem Vollzugriff Abo generieren Sie unbegrenzt Arbeitsblätter ohne zusätzliche Kosten. Kinder lernen Muster zu erkennen, fortzusetzen und zu vervollständigen. Diese Fähigkeit ist grundlegend für mathematisches Denken.
 
 Der Muster-Arbeitsblatt Generator bietet neun verschiedene Mustertypen. Vom einfachen AB-Muster bis zum komplexen ABCD-Muster ist alles dabei. Die Schwierigkeit passt sich dem Alter der Kinder an. Vorschule Arbeitsblätter beginnen mit zwei Elementen. Arbeitsblätter Grundschule können vier verschiedene Elemente enthalten.
 
@@ -148,7 +148,7 @@ Für mehrsprachige Klassen erstellen Sie Arbeitsblätter in verschiedenen Sprach
         id: '5',
         icon: '💰',
         title: 'POD-Lizenz für Kostenlose Arbeitsblätter und Ausmalbilder - Verkaufen auf Etsy und Teachers Pay Teachers',
-        description: `Mit Ihrem Full Access Abo erhalten Sie eine kommerzielle Lizenz. Verkaufen Sie erstellte Arbeitsblätter auf Teachers Pay Teachers. Bieten Sie Ihre Materialien auf Etsy an. Erstellen Sie Amazon KDP Bücher mit Ihren Muster-Arbeitsblättern. Keine zusätzlichen Lizenzgebühren erforderlich.
+        description: `Mit Ihrem Vollzugriff Abo erhalten Sie eine kommerzielle Lizenz. Verkaufen Sie erstellte Arbeitsblätter auf Teachers Pay Teachers. Bieten Sie Ihre Materialien auf Etsy an. Erstellen Sie Amazon KDP Bücher mit Ihren Muster-Arbeitsblättern. Keine zusätzlichen Lizenzgebühren erforderlich.
 
 Die 300 DPI Exportqualität erfüllt professionelle Druckstandards. Keine Quellenangabe ist notwendig. Lehrer-Unternehmer nutzen diese Funktion für zusätzliches Einkommen. Die kostenlose Arbeitsblätter Erstellung wird zur Geschäftsmöglichkeit. Kombinieren Sie Muster-Übungen mit Ausmalbilder für attraktive Bundles.`,
         highlighted: true,
@@ -356,7 +356,7 @@ In inklusiven Klassen erstellen Sonderpädagogen differenzierte Materialien effi
         icon: '💼',
         title: 'Lehrer-Unternehmer für Ausmalbilder und Malvorlagen',
         subtitle: 'Verkauf auf Online-Plattformen',
-        description: `Pädagogen mit unternehmerischem Interesse nutzen die kommerzielle Lizenz. Das Full Access Abo für 240 Euro jährlich enthält alle Verkaufsrechte. Erstellte Arbeitsblätter dürfen auf allen Plattformen verkauft werden. Teachers Pay Teachers und Etsy sind besonders beliebte Marktplätze.
+        description: `Pädagogen mit unternehmerischem Interesse nutzen die kommerzielle Lizenz. Das Vollzugriff Abo für 240 Euro jährlich enthält alle Verkaufsrechte. Erstellte Arbeitsblätter dürfen auf allen Plattformen verkauft werden. Teachers Pay Teachers und Etsy sind besonders beliebte Marktplätze.
 
 Die professionelle 300 DPI Qualität erfüllt höchste Marktstandards. Käufer erwarten druckfertige Produkte ohne Qualitätsverlust. Der Muster-Generator liefert diese Qualität automatisch bei jedem Export. Keine Nachbearbeitung in Grafikprogrammen erforderlich.
 
@@ -393,9 +393,9 @@ Für die Förderung mathematischer Grundlagen eignen sich einfache Muster besond
       {
         id: '1',
         question: 'Ist der Generator für Kostenlose Arbeitsblätter und Vorschule Arbeitsblätter wirklich unbegrenzt nutzbar?',
-        answer: `Der Muster-Arbeitsblatt Generator erfordert ein Full Access Abo für 240 Euro jährlich oder 25 Euro monatlich. Mit Ihrem Abonnement erstellen Sie unbegrenzt viele Arbeitsblätter ohne zusätzliche Kosten pro Blatt. Es gibt keine versteckten Gebühren für Bilder, Downloads oder Exporte.
+        answer: `Der Muster-Arbeitsblatt Generator erfordert ein Vollzugriff Abo für 240 Euro jährlich oder 25 Euro monatlich. Mit Ihrem Abonnement erstellen Sie unbegrenzt viele Arbeitsblätter ohne zusätzliche Kosten pro Blatt. Es gibt keine versteckten Gebühren für Bilder, Downloads oder Exporte.
 
-Das Full Access Abo enthält alle 33 Arbeitsblatt-Generatoren der gesamten Plattform. Neben dem Muster-Generator erhalten Sie Zugang zu Generatoren für Vorschule Arbeitsblätter und vieles mehr. Die monatliche Option ermöglicht flexible Nutzung ohne langfristige vertragliche Bindung.`,
+Das Vollzugriff Abo enthält alle 33 Arbeitsblatt-Generatoren der gesamten Plattform. Neben dem Muster-Generator erhalten Sie Zugang zu Generatoren für Vorschule Arbeitsblätter und vieles mehr. Die monatliche Option ermöglicht flexible Nutzung ohne langfristige vertragliche Bindung.`,
       },
       {
         id: '2',
@@ -414,7 +414,7 @@ Die automatische Themenwahl wählt passende Bilder vollständig für Sie aus. F�
       {
         id: '4',
         question: 'Kann ich erstellte Arbeitsblätter für Schwungübungen und Deutsch Arbeitsblätter im Unterricht verwenden?',
-        answer: `Das Full Access Abo enthält unbegrenzte Nutzungsrechte für den gesamten Unterricht. Drucken Sie so viele Kopien wie benötigt für Ihre Klassen. Verteilen Sie Arbeitsblätter an alle Schüler ohne Einschränkungen. Keine zusätzlichen Lizenzgebühren für Schwungübungen oder andere Materialtypen.
+        answer: `Das Vollzugriff Abo enthält unbegrenzte Nutzungsrechte für den gesamten Unterricht. Drucken Sie so viele Kopien wie benötigt für Ihre Klassen. Verteilen Sie Arbeitsblätter an alle Schüler ohne Einschränkungen. Keine zusätzlichen Lizenzgebühren für Schwungübungen oder andere Materialtypen.
 
 Die Arbeitsblätter eignen sich für Deutsch Arbeitsblätter Aktivitäten und Musterübungen gleichermaßen. Kombinieren Sie verschiedene Generatoren für komplette thematische Lerneinheiten. Auch für Vertretungsstunden und Hausaufgaben sind alle Materialien uneingeschränkt nutzbar.`,
       },
@@ -428,7 +428,7 @@ Die Bildbibliothek enthält sprachspezifische Beschriftungen für alle Sprachen.
       {
         id: '6',
         question: 'Darf ich erstellte Arbeitsblätter für Ausmalbilder und Malvorlagen verkaufen?',
-        answer: `Ja, das Full Access Abo enthält eine vollständige kommerzielle Lizenz ohne Einschränkungen. Verkaufen Sie Ihre Arbeitsblätter auf Teachers Pay Teachers, Etsy oder Amazon KDP. Keine zusätzlichen Lizenzgebühren für Ausmalbilder, Malvorlagen oder andere Materialien erforderlich.
+        answer: `Ja, das Vollzugriff Abo enthält eine vollständige kommerzielle Lizenz ohne Einschränkungen. Verkaufen Sie Ihre Arbeitsblätter auf Teachers Pay Teachers, Etsy oder Amazon KDP. Keine zusätzlichen Lizenzgebühren für Ausmalbilder, Malvorlagen oder andere Materialien erforderlich.
 
 Die 300 DPI Exportqualität erfüllt alle professionellen Marktstandards. Käufer erwarten druckfertige Produkte und der Generator liefert genau das. Kombinieren Sie Muster-Arbeitsblätter mit Ausmalbilder für attraktive Verkaufsbundles. Die kommerzielle Nutzung ist vollständig im Abo enthalten.`,
       },
@@ -466,7 +466,7 @@ Für die Einmaleins Vorbereitung empfehlen wir vier bis sechs Übungen pro Blatt
   // Related Apps Section - FULL text from muster-arbeitsblatt.md
   relatedApps: {
     sectionTitle: 'Kombinieren Sie mit anderen Generatoren - Schwungübungen und Deutsch Arbeitsblätter für komplette Lerneinheiten',
-    sectionDescription: 'Das Full Access Abo enthält 33 verschiedene Arbeitsblatt-Generatoren für alle Lernbereiche. Kombinieren Sie den Muster-Generator mit ergänzenden Werkzeugen für ganzheitliche Förderung. Thematisch abgestimmte Materialien verstärken den Lerneffekt nachhaltig. Entdecken Sie die besten Kombinationen für Ihren Unterricht.',
+    sectionDescription: 'Das Vollzugriff Abo enthält 33 verschiedene Arbeitsblatt-Generatoren für alle Lernbereiche. Kombinieren Sie den Muster-Generator mit ergänzenden Werkzeugen für ganzheitliche Förderung. Thematisch abgestimmte Materialien verstärken den Lerneffekt nachhaltig. Entdecken Sie die besten Kombinationen für Ihren Unterricht.',
     ctaTitle: 'Bereit für professionelle Muster-Arbeitsblätter?',
     ctaDescription: 'Schließen Sie sich tausenden Pädagogen an, die professionelle Arbeitsblätter in Minuten erstellen.',
     primaryCtaText: 'Kostenlos Testen',

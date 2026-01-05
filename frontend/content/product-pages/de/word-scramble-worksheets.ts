@@ -28,7 +28,7 @@ export const wordScrambleDeContent: ProductPageContent = {
     slug: 'buchstabensalat-arbeitsblaetter',
     appId: 'word-scramble',
     title: 'Buchstabensalat Generator - Kostenlose Arbeitsblätter Grundschule - Buchstaben lernen und Deutsch-Arbeitsblätter',
-    description: 'Erstellen Sie professionelle Buchstabensalat-Arbeitsblätter mit unserem Arbeitsblatt-Generator. Ihr Core Bundle Abonnement ermöglicht unbegrenzte Erstellung ohne zusätzliche Kosten pro Arbeitsblatt. Generieren Sie kostenlose Arbeitsblätter für Vorschule und Grundschule in wenigen Minuten.',
+    description: 'Erstellen Sie professionelle Buchstabensalat-Arbeitsblätter mit unserem Arbeitsblatt-Generator. Ihr Basis-Paket Abonnement ermöglicht unbegrenzte Erstellung ohne zusätzliche Kosten pro Arbeitsblatt. Generieren Sie kostenlose Arbeitsblätter für Vorschule und Grundschule in wenigen Minuten.',
     keywords: 'buchstabensalat generator, arbeitsblätter grundschule, kostenlose arbeitsblätter, mathe arbeitsblätter, vorschule arbeitsblätter, buchstaben lernen, deutsch arbeitsblätter, einmaleins, schwungübungen, ausmalbilder',
     canonicalUrl: 'https://www.lessoncraftstudio.com/de/apps/buchstabensalat-arbeitsblaetter',
   },
@@ -37,7 +37,7 @@ export const wordScrambleDeContent: ProductPageContent = {
   hero: {
     title: 'Buchstabensalat Generator',
     subtitle: 'Kostenlose Arbeitsblätter für Grundschule und Vorschule',
-    description: `Erstellen Sie professionelle Buchstabensalat-Arbeitsblätter mit unserem Arbeitsblatt-Generator. Ihr Core Bundle Abonnement ermöglicht unbegrenzte Erstellung ohne zusätzliche Kosten pro Arbeitsblatt. Generieren Sie kostenlose Arbeitsblätter für Vorschul-Arbeitsblätter und Arbeitsblätter Grundschule in wenigen Minuten. Laden Sie hochwertige PDF-Arbeitsblätter in unter 3 Minuten herunter.
+    description: `Erstellen Sie professionelle Buchstabensalat-Arbeitsblätter mit unserem Arbeitsblatt-Generator. Ihr Basis-Paket Abonnement ermöglicht unbegrenzte Erstellung ohne zusätzliche Kosten pro Arbeitsblatt. Generieren Sie kostenlose Arbeitsblätter für Vorschul-Arbeitsblätter und Arbeitsblätter Grundschule in wenigen Minuten. Laden Sie hochwertige PDF-Arbeitsblätter in unter 3 Minuten herunter.
 
 Unser Buchstabensalat-Generator kombiniert Bildhinweise mit durcheinandergewürfelten Buchstaben. Perfekt für Deutsch-Arbeitsblätter und Buchstaben lernen in der Grundschule. Kinder sehen ein Bild und ordnen die gemischten Buchstaben zum richtigen Wort. Die visuelle Unterstützung macht das Buchstaben lernen einfacher und motivierender.
 
@@ -169,20 +169,20 @@ Internationale Schulen schätzen diese Funktion besonders. Erstellen Sie Vorschu
         id: '5',
         icon: '💰',
         title: 'POD-Lizenz für Verkauf von Arbeitsblätter Grundschule, Vorschul-Arbeitsblätter und Ausmalbilder',
-        description: `Ihre Core Bundle Mitgliedschaft beinhaltet volle kommerzielle Print-on-Demand Lizenz. Verkaufen Sie Ihre erstellten Arbeitsblätter auf Etsy, Teachers Pay Teachers oder Amazon KDP. Keine zusätzlichen Lizenzgebühren über Ihr Abonnement hinaus. Perfekt für Lehrerunternehmer.
+        description: `Ihre Basis-Paket Mitgliedschaft beinhaltet volle kommerzielle Print-on-Demand Lizenz. Verkaufen Sie Ihre erstellten Arbeitsblätter auf Etsy, Teachers Pay Teachers oder Amazon KDP. Keine zusätzlichen Lizenzgebühren über Ihr Abonnement hinaus. Perfekt für Lehrerunternehmer.
 
 Die POD-Lizenz deckt alle Nutzungsarten ab. Verkaufen Sie einzelne Arbeitsblätter Grundschule als PDF-Downloads. Bündeln Sie thematische Vorschul-Arbeitsblätter zu Paketen. Erstellen Sie Arbeitsbuch-PDFs mit mehreren Übungsseiten. Kombinieren Sie Deutsch-Arbeitsblätter mit Ausmalbilder für umfassende Lernpakete.
 
 Lehrer erzielen regelmäßiges Einkommen durch Arbeitsblatt-Verkauf. Erstellen Sie jahreszeitliche Pakete für passive Einnahmen. Weihnachts-Buchstabensalat, Oster-Vorschul-Arbeitsblätter, Schulanfangs-Deutsch-Arbeitsblätter. Die 300 DPI Qualität macht Ihre kostenlose Arbeitsblätter verkaufsfähig professionell.
 
-Die kommerziellen Rechte ohne Zusatzkosten sind ein enormer Wert. Andere Plattformen berechnen 50-200 Euro jährlich extra für Verkaufslizenzen. Mit Core Bundle ist alles inklusive. Erstellen Sie unbegrenzt Arbeitsblätter Grundschule zum Verkauf. Keine Mengenbegrenzung, keine Umsatzbeteiligung.`,
+Die kommerziellen Rechte ohne Zusatzkosten sind ein enormer Wert. Andere Plattformen berechnen 50-200 Euro jährlich extra für Verkaufslizenzen. Mit Basis-Paket ist alles inklusive. Erstellen Sie unbegrenzt Arbeitsblätter Grundschule zum Verkauf. Keine Mengenbegrenzung, keine Umsatzbeteiligung.`,
         highlighted: true,
       },
       {
         id: '6',
         icon: '🎨',
         title: '3000+ Bilderbibliothek für Buchstaben Lernen, Ausmalbilder und Kostenlose Arbeitsblätter',
-        description: `Zugriff auf über 3000 kinderfreundliche Bilder inklusive. Organisiert nach Themen für schnelle Auswahl. Tiere, Essen, Fahrzeuge, Natur, Schule und mehr. Jedes Bild perfekt für Buchstaben lernen und Wortschatzaufbau. Alle in Ihrem Core Bundle enthalten.
+        description: `Zugriff auf über 3000 kinderfreundliche Bilder inklusive. Organisiert nach Themen für schnelle Auswahl. Tiere, Essen, Fahrzeuge, Natur, Schule und mehr. Jedes Bild perfekt für Buchstaben lernen und Wortschatzaufbau. Alle in Ihrem Basis-Paket enthalten.
 
 Die thematische Organisation beschleunigt die Arbeitsblatt-Erstellung. Wählen Sie das Thema "Bauernhof" für Tier-Vokabeln. Nutzen Sie "Lebensmittel" für Ernährungslehre. Kombinieren Sie mehrere Themen in einem Arbeitsblatt. Erstellen Sie abwechslungsreiche Vorschul-Arbeitsblätter und Arbeitsblätter Grundschule.
 
@@ -305,7 +305,7 @@ PDF-Download sichert konsistente Formatierung überall. Öffnen Sie auf Windows,
 
 JPEG-Format perfekt für digitale Klassenzimmer. Fügen Sie in Google Classroom oder andere LMS ein. Zeigen Sie auf Smartboards während des Unterrichts. Schüler öffnen auf iPads für digitale Vervollständigung. JPEG funktioniert überall wo Bilder unterstützt werden.
 
-Unbegrenzte Downloads ohne zusätzliche Kosten inklusive. Erstellen Sie so viele Arbeitsblätter Grundschule wie benötigt. Drucken Sie für ganze Klassen. Erstellen Sie Kopien für mehrere Schuljahre. Ihr Core Bundle Abonnement deckt alles ab. Keine versteckten Gebühren für Downloads von Deutsch-Arbeitsblätter.
+Unbegrenzte Downloads ohne zusätzliche Kosten inklusive. Erstellen Sie so viele Arbeitsblätter Grundschule wie benötigt. Drucken Sie für ganze Klassen. Erstellen Sie Kopien für mehrere Schuljahre. Ihr Basis-Paket Abonnement deckt alles ab. Keine versteckten Gebühren für Downloads von Deutsch-Arbeitsblätter.
 
 Speichern Sie Downloads in organisierten Ordnern auf Computer. Benennen Sie nach Thema oder Woche für einfaches Wiederfinden. Bauen Sie eine Bibliothek wiederverwendbarer kostenlose Arbeitsblätter auf. Teilen Sie mit Kollegen in Ihrer Schule. Digitale Organisation spart Zeit langfristig.`,
         icon: '📥',
@@ -420,7 +420,7 @@ Repetition ohne Langeweile durch neu generierte Layouts. Üben Sie gleiches Wort
         subtitle: 'Verkaufen Sie Arbeitsblätter Grundschule',
         description: `Lehrer verkaufen Buchstabensalat-Pakete auf Teachers Pay Teachers erfolgreich. Thematische Bundles erzielen 3-10 Euro pro Download. Jahreszeitenpakete besonders beliebt. Weihnachts-Buchstabensalat, Oster-Vorschul-Arbeitsblätter, Schulanfangs-Sets. Wiederkehrende passive Einnahmen jährlich.
 
-Die POD-Lizenz ohne Zusatzkosten ist enormer Wettbewerbsvorteil. Konkurrenten zahlen 50-200 Euro jährlich extra für Verkaufsrechte. Sie zahlen nur 144 Euro Core Bundle total. Dies erhöht Gewinnmargen erheblich. Kostenlose Arbeitsblätter erstellen wird profitables Geschäft.
+Die POD-Lizenz ohne Zusatzkosten ist enormer Wettbewerbsvorteil. Konkurrenten zahlen 50-200 Euro jährlich extra für Verkaufsrechte. Sie zahlen nur 144 Euro Basis-Paket total. Dies erhöht Gewinnmargen erheblich. Kostenlose Arbeitsblätter erstellen wird profitables Geschäft.
 
 Mehrsprachige Pakete erschließen internationale Märkte. Erstellen Sie deutsches Paket für deutsche TPT-Käufer. Gleiches Paket auf Spanisch für US-Hispanics. Auf Französisch für Kanada. Ein Design, elf Sprachmärkte. Dies multipliziert Umsatzpotential ohne Mehrarbeit.
 
@@ -428,7 +428,7 @@ Kombinieren Sie Buchstabensalat mit anderen Arbeitsblatttypen zu Paketen. Fügen
 
 Pinterest-Marketing funktioniert perfekt für visuelle Arbeitsblätter. Erstellen Sie auffällige Cover-Seiten mit Hintergründen und Rahmen. Pinnen Sie Vorschaubilder mit "Kostenlose Arbeitsblätter" im Titel. Pinterest leitet zu TPT-Store. Dies generiert passiven Traffic konstant. Ausmalbilder und bunte Layouts ziehen Klicks an.
 
-Kundenbewertungen betonen professionelle 300 DPI Qualität. Käufer erwarten druckfertiges Material. Ihre Arbeitsblätter erfüllen höchste Standards. Fünf-Sterne-Bewertungen erhöhen zukünftige Verkäufe. Die Investition in Core Bundle amortisiert sich nach 10-20 Verkäufen. Danach ist alles Gewinn.`,
+Kundenbewertungen betonen professionelle 300 DPI Qualität. Käufer erwarten druckfertiges Material. Ihre Arbeitsblätter erfüllen höchste Standards. Fünf-Sterne-Bewertungen erhöhen zukünftige Verkäufe. Die Investition in Basis-Paket amortisiert sich nach 10-20 Verkäufen. Danach ist alles Gewinn.`,
         quote: 'Mein Abonnement hat sich im ersten Monat bezahlt gemacht!',
       },
     ],
@@ -437,7 +437,7 @@ Kundenbewertungen betonen professionelle 300 DPI Qualität. Käufer erwarten dru
   // FAQ Section - FULL FAQs from word-scramble.md
   faq: {
     sectionTitle: 'Häufig Gestellte Fragen zu Arbeitsblätter Grundschule, Mathe-Arbeitsblätter und Kostenlose Arbeitsblätter',
-    sectionDescription: 'Lehrer stellen häufig gleiche Fragen zu Buchstabensalat-Arbeitsblättern. Von Kosten über Verwendung bis zu technischen Details. Diese FAQ beantwortet die wichtigsten Fragen. Informieren Sie sich vor dem Erstellen Ihrer ersten kostenlose Arbeitsblätter. Alle Antworten basieren auf Core Bundle Funktionen.',
+    sectionDescription: 'Lehrer stellen häufig gleiche Fragen zu Buchstabensalat-Arbeitsblättern. Von Kosten über Verwendung bis zu technischen Details. Diese FAQ beantwortet die wichtigsten Fragen. Informieren Sie sich vor dem Erstellen Ihrer ersten kostenlose Arbeitsblätter. Alle Antworten basieren auf Basis-Paket Funktionen.',
     showMoreText: 'Mehr Fragen anzeigen',
     showLessText: 'Weniger anzeigen',
     badgeText: 'Häufige Fragen',
@@ -449,7 +449,7 @@ Kundenbewertungen betonen professionelle 300 DPI Qualität. Käufer erwarten dru
       {
         id: '1',
         question: 'Ist Dieser Generator für Kostenlose Arbeitsblätter Wirklich Kostenlos zu Nutzen?',
-        answer: 'Der Buchstabensalat-Generator erfordert ein Core Bundle Abonnement für 144 Euro jährlich oder 15 Euro monatlich. Ihr Abonnement ermöglicht unbegrenzte Erstellung ohne zusätzliche Kosten pro Arbeitsblatt. Generieren Sie so viele kostenlose Arbeitsblätter wie benötigt ohne Extragebühren. Dies ist erheblicher Wert für Lehrer mit hohem Materialbedarf. Core Bundle beinhaltet 10 beliebte Arbeitsblatt-Generatoren. Buchstabensalat, Mathe-Arbeitsblätter, Ausmalbilder und mehr. Full Access Abonnement kostet 240 Euro jährlich und beinhaltet alle 33 Generatoren. Beide Abonnements inkludieren kommerzielle Lizenzierung, 11-Sprachen-Support und professionelle 300 DPI Qualität. Das Preis-Leistungs-Verhältnis übertrifft Konkurrenz deutlich. Einzelkäufe von Arbeitsblättern kosten 1-3 Euro pro Blatt. Bei wöchentlicher Nutzung zahlen Sie hunderte Euro jährlich. Core Bundle für 144 Euro deckt unbegrenzte Erstellung. Die Investition amortisiert sich nach 50-100 Downloads.',
+        answer: 'Der Buchstabensalat-Generator erfordert ein Basis-Paket Abonnement für 144 Euro jährlich oder 15 Euro monatlich. Ihr Abonnement ermöglicht unbegrenzte Erstellung ohne zusätzliche Kosten pro Arbeitsblatt. Generieren Sie so viele kostenlose Arbeitsblätter wie benötigt ohne Extragebühren. Dies ist erheblicher Wert für Lehrer mit hohem Materialbedarf. Basis-Paket beinhaltet 10 beliebte Arbeitsblatt-Generatoren. Buchstabensalat, Mathe-Arbeitsblätter, Ausmalbilder und mehr. Vollzugriff Abonnement kostet 240 Euro jährlich und beinhaltet alle 33 Generatoren. Beide Abonnements inkludieren kommerzielle Lizenzierung, 11-Sprachen-Support und professionelle 300 DPI Qualität. Das Preis-Leistungs-Verhältnis übertrifft Konkurrenz deutlich. Einzelkäufe von Arbeitsblättern kosten 1-3 Euro pro Blatt. Bei wöchentlicher Nutzung zahlen Sie hunderte Euro jährlich. Basis-Paket für 144 Euro deckt unbegrenzte Erstellung. Die Investition amortisiert sich nach 50-100 Downloads.',
       },
       {
         id: '2',
@@ -464,7 +464,7 @@ Kundenbewertungen betonen professionelle 300 DPI Qualität. Käufer erwarten dru
       {
         id: '4',
         question: 'Kann Ich Arbeitsblätter für Rechnen Lernen und Einmaleins in Meinem Klassenzimmer Verwenden?',
-        answer: 'Core Bundle Abonnement beinhaltet unbegrenzte Klassenzimmernutzung. Drucken Sie Arbeitsblätter Grundschule für alle Schüler ohne Mengenbegrenzung. Verwenden Sie Rechnen lernen Übungen täglich. Nutzen Sie Einmaleins-Materialien wöchentlich. Keine zusätzlichen Lizenzgebühren für Klassennutzung. Teilen Sie digitale Kopien mit Schülern über Lernplattformen. Laden Sie in Google Classroom oder ähnliche Systeme. Zeigen Sie auf Smartboards während Unterricht. Schüler arbeiten auf Tablets oder drucken zu Hause. Ihre Core Bundle Lizenz deckt alle Bildungsnutzungen. Teilen Sie Arbeitsblätter mit Kollegen in Ihrer Schule ist erlaubt. Andere Lehrer können Ihre Rechnen lernen und Einmaleins Materialien nutzen. Dies fördert Zusammenarbeit ohne rechtliche Bedenken. Schulweite Nutzung mit einem Abonnement möglich.',
+        answer: 'Basis-Paket Abonnement beinhaltet unbegrenzte Klassenzimmernutzung. Drucken Sie Arbeitsblätter Grundschule für alle Schüler ohne Mengenbegrenzung. Verwenden Sie Rechnen lernen Übungen täglich. Nutzen Sie Einmaleins-Materialien wöchentlich. Keine zusätzlichen Lizenzgebühren für Klassennutzung. Teilen Sie digitale Kopien mit Schülern über Lernplattformen. Laden Sie in Google Classroom oder ähnliche Systeme. Zeigen Sie auf Smartboards während Unterricht. Schüler arbeiten auf Tablets oder drucken zu Hause. Ihre Basis-Paket Lizenz deckt alle Bildungsnutzungen. Teilen Sie Arbeitsblätter mit Kollegen in Ihrer Schule ist erlaubt. Andere Lehrer können Ihre Rechnen lernen und Einmaleins Materialien nutzen. Dies fördert Zusammenarbeit ohne rechtliche Bedenken. Schulweite Nutzung mit einem Abonnement möglich.',
       },
       {
         id: '5',
@@ -474,7 +474,7 @@ Kundenbewertungen betonen professionelle 300 DPI Qualität. Käufer erwarten dru
       {
         id: '6',
         question: 'Kann Ich Ausmalbilder und Mathe-Arbeitsblätter die Ich Erstelle Verkaufen?',
-        answer: 'Ja, Core Bundle beinhaltet volle kommerzielle Print-on-Demand Lizenz. Verkaufen Sie alle erstellten Ausmalbilder und Mathe-Arbeitsblätter legal. Teachers Pay Teachers, Etsy, Amazon KDP erlaubt. Keine Umsatzbeteiligung über Ihr 144 Euro Jahresabo hinaus. Unbegrenztes Verkaufspotential ohne Extrakosten. Die POD-Lizenz ist enormer Wert im Vergleich zu Konkurrenz. Andere Plattformen berechnen 50-200 Euro jährlich extra für Verkaufsrechte. Bei uns inklusive ohne Aufpreis. Dies macht Lehrerunternehmertum profitabler. Mehr Gewinn pro Verkauf durch niedrigere Fixkosten. Ausmalbilder verkaufen sich besonders gut als digitale Downloads. Jahreszeitenpakete erzielen 5-15 Euro pro Download. Mathe-Arbeitsblätter in thematischen Bundles 8-20 Euro. Mit professioneller 300 DPI Qualität rechtfertigen Sie Premium-Preise. TPT-Bestseller nutzen Core Bundle für Materialerstellung.',
+        answer: 'Ja, Basis-Paket beinhaltet volle kommerzielle Print-on-Demand Lizenz. Verkaufen Sie alle erstellten Ausmalbilder und Mathe-Arbeitsblätter legal. Teachers Pay Teachers, Etsy, Amazon KDP erlaubt. Keine Umsatzbeteiligung über Ihr 144 Euro Jahresabo hinaus. Unbegrenztes Verkaufspotential ohne Extrakosten. Die POD-Lizenz ist enormer Wert im Vergleich zu Konkurrenz. Andere Plattformen berechnen 50-200 Euro jährlich extra für Verkaufsrechte. Bei uns inklusive ohne Aufpreis. Dies macht Lehrerunternehmertum profitabler. Mehr Gewinn pro Verkauf durch niedrigere Fixkosten. Ausmalbilder verkaufen sich besonders gut als digitale Downloads. Jahreszeitenpakete erzielen 5-15 Euro pro Download. Mathe-Arbeitsblätter in thematischen Bundles 8-20 Euro. Mit professioneller 300 DPI Qualität rechtfertigen Sie Premium-Preise. TPT-Bestseller nutzen Basis-Paket für Materialerstellung.',
       },
       {
         id: '7',

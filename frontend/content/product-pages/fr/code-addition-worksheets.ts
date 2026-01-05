@@ -9,7 +9,7 @@ import { ProductPageContent } from '@/components/product-page/ProductPageClient'
  * FULL SEO content from: INDIVIDUAL APP PAGES/French/code-addition.md
  * DO NOT SHORTEN - Every paragraph is SEO-optimized
  *
- * Pricing Tier: Full Access (Accès Complet) - 240€/year
+ * Pricing Tier: Accès Complet (Accès Complet) - 240€/year
  */
 
 export const codeAdditionFrContent: ProductPageContent = {
@@ -346,7 +346,7 @@ L'écriture de descriptions marketing met en valeur l'approche unique. Le décod
         question: 'Ce Générateur de Fiches Maternelle et Tables de Multiplication est-il Vraiment Gratuit ?',
         answer: `Le générateur d'addition avec images nécessite un abonnement Accès Complet. L'abonnement coûte 240€ par an ou 25€ par mois. Votre abonnement vous donne un accès illimité à la création de fiches sans frais supplémentaires par fiche.
 
-L'abonnement Core Bundle à 144€ par an inclut 10 générateurs populaires. L'abonnement Accès Complet à 240€ par an inclut les 33 générateurs dont celui-ci. Les deux abonnements incluent la licence commerciale, le support des 11 langues et l'export en qualité 300 DPI.`,
+L'abonnement Pack Essentiel à 144€ par an inclut 10 générateurs populaires. L'abonnement Accès Complet à 240€ par an inclut les 33 générateurs dont celui-ci. Les deux abonnements incluent la licence commerciale, le support des 11 langues et l'export en qualité 300 DPI.`,
       },
       {
         id: '2',
@@ -428,7 +428,7 @@ Choisissez un thème comme les animaux ou les véhicules. L'écriture cursive de
     ],
   },
 
-  // Pricing - Full Access tier for Code Addition
+  // Pricing - Accès Complet tier for Code Addition
   pricing: {
     title: 'Accès Complet',
     price: '240€',

@@ -37,7 +37,7 @@ export const matchingDeContent: ProductPageContent = {
   hero: {
     title: 'Zuordnungs-Generator',
     subtitle: 'Kostenlose Arbeitsblätter Grundschule - Zuordnungsübungen für Vorschule und Buchstaben lernen',
-    description: `Erstellen Sie professionelle Zuordnungsübungen mit unserem Zuordnungs-Generator. Mit Ihrem Core Bundle Abonnement können Sie unbegrenzt Arbeitsblätter erstellen ohne zusätzliche Kosten pro Arbeitsblatt. Generieren Sie individuelle Arbeitsblätter zum Ausdrucken, perfekt für Vorschule und Grundschule. Laden Sie hochwertige PDF-Arbeitsblätter in unter 3 Minuten herunter. Sparen Sie jede Woche Stunden an Vorbereitungszeit.
+    description: `Erstellen Sie professionelle Zuordnungsübungen mit unserem Zuordnungs-Generator. Mit Ihrem Basis-Paket Abonnement können Sie unbegrenzt Arbeitsblätter erstellen ohne zusätzliche Kosten pro Arbeitsblatt. Generieren Sie individuelle Arbeitsblätter zum Ausdrucken, perfekt für Vorschule und Grundschule. Laden Sie hochwertige PDF-Arbeitsblätter in unter 3 Minuten herunter. Sparen Sie jede Woche Stunden an Vorbereitungszeit.
 
 Unser Zuordnungsübungen-Generator hilft Lehrkräften beim Erstellen von Arbeitsblättern, bei denen Schüler Linien ziehen, um passende Paare zu verbinden. Wählen Sie aus vier verschiedenen Zuordnungsmodi, einschließlich Bild-zu-Buchstabe für Arbeitsblätter zum Buchstaben lernen. Nutzen Sie Bild-zu-Wort-Zuordnung für Deutsch-Arbeitsblätter und Leseübungen. Verwenden Sie eigene Vokabeln für Mathe-Arbeitsblätter und Sachunterricht. Perfekt für die Entwicklung von Lese- und Schreibfähigkeiten in der Grundschule.
 
@@ -102,7 +102,7 @@ Der Zuordnungs-Generator bietet flexible Inhaltserstellung für jedes Fach. Erst
   // Features Grid - FULL text from matching.md feature sections
   features: {
     sectionTitle: 'Zuordnungs-Generator Funktionen - Alles für Kostenlose Arbeitsblätter Grundschule und Vorschul-Arbeitsblätter',
-    sectionDescription: 'Unser Zuordnungsarbeitsblätter-Generator enthält professionelle Funktionen speziell für Lehrkräfte entwickelt, die Arbeitsblätter Grundschule und Vorschul-Arbeitsblätter erstellen. Jede Funktion hilft Ihnen beim schnelleren Erstellen kostenloser Arbeitsblätter als mit traditionellen Methoden. Erstellen Sie Arbeitsblätter zum Buchstaben lernen, Deutsch-Arbeitsblätter, Mathe-Arbeitsblätter und mehr mit demselben benutzerfreundlichen Werkzeug. Greifen Sie auf alle Premium-Funktionen mit Ihrem Core Bundle Abonnement zu. Keine Gebühren pro Arbeitsblatt, keine Bildkosten, keine Vorlagengebühren. Generieren Sie unbegrenzt Zuordnungsübungen für alle Ihre Unterrichtsbedürfnisse in der Grundschule.',
+    sectionDescription: 'Unser Zuordnungsarbeitsblätter-Generator enthält professionelle Funktionen speziell für Lehrkräfte entwickelt, die Arbeitsblätter Grundschule und Vorschul-Arbeitsblätter erstellen. Jede Funktion hilft Ihnen beim schnelleren Erstellen kostenloser Arbeitsblätter als mit traditionellen Methoden. Erstellen Sie Arbeitsblätter zum Buchstaben lernen, Deutsch-Arbeitsblätter, Mathe-Arbeitsblätter und mehr mit demselben benutzerfreundlichen Werkzeug. Greifen Sie auf alle Premium-Funktionen mit Ihrem Basis-Paket Abonnement zu. Keine Gebühren pro Arbeitsblatt, keine Bildkosten, keine Vorlagengebühren. Generieren Sie unbegrenzt Zuordnungsübungen für alle Ihre Unterrichtsbedürfnisse in der Grundschule.',
     highlightBadgeText: 'Hauptfunktion',
     readMoreLabel: 'Mehr lesen',
     showLessLabel: 'Weniger anzeigen',
@@ -153,7 +153,7 @@ Die Sprachunterstützung geht über einfache Übersetzung hinaus. Bildbeschriftu
         id: '5',
         icon: '💰',
         title: 'Kommerzielle Lizenz enthalten - Verkaufen Sie Ihre Arbeitsblätter Grundschule auf Eduki',
-        description: `Ihr Core Bundle Abonnement beinhaltet Print-on-Demand-Lizenzierung für kommerzielle Nutzung ohne Aufpreis. Verkaufen Sie Zuordnungsarbeitsblätter, die Sie erstellen, auf Eduki, Teachers Pay Teachers, Etsy oder Amazon KDP. Keine zusätzlichen Lizenzgebühren über Ihr 144€ jährliches Abonnement hinaus. Erstellen Sie unbegrenzt Arbeitsblätter Grundschule und Vorschul-Arbeitsblätter für den kommerziellen Verkauf.
+        description: `Ihr Basis-Paket Abonnement beinhaltet Print-on-Demand-Lizenzierung für kommerzielle Nutzung ohne Aufpreis. Verkaufen Sie Zuordnungsarbeitsblätter, die Sie erstellen, auf Eduki, Teachers Pay Teachers, Etsy oder Amazon KDP. Keine zusätzlichen Lizenzgebühren über Ihr 144€ jährliches Abonnement hinaus. Erstellen Sie unbegrenzt Arbeitsblätter Grundschule und Vorschul-Arbeitsblätter für den kommerziellen Verkauf.
 
 Die kommerzielle Lizenzierung deckt alle von Ihnen generierten Arbeitsblatttypen ab. Verkaufen Sie Arbeitsblätter zum Buchstaben lernen in thematischen Bundles. Vermarkten Sie Deutsch-Arbeitsblätter als Lehrplanergänzungen. Bieten Sie Mathe-Arbeitsblätter in saisonalen Sammlungen an. Jedes Zuordnungsarbeitsblatt qualifiziert sich für die kommerzielle Nutzung.`,
         highlighted: true,
@@ -162,7 +162,7 @@ Die kommerzielle Lizenzierung deckt alle von Ihnen generierten Arbeitsblatttypen
         id: '6',
         icon: '🎨',
         title: '3000+ Bilderbibliothek für Mathe-Arbeitsblätter, Schwungübungen und Ausmalbilder',
-        description: `Greifen Sie mit Ihrem Core Bundle Abonnement auf unsere vollständige 3000+ kinderfreundliche Bilderbibliothek zu. Keine Pro-Bild-Gebühren wie bei Stock-Foto-Websites. Keine Download-Limits wie bei Clipart-Abonnements. Durchsuchen Sie nach Themen organisierte Bilder einschließlich Tiere, Essen, Transport, Schule, Natur und Jahreszeiten. Suchen Sie nach Stichwort, um spezifische Bilder schnell zu finden.
+        description: `Greifen Sie mit Ihrem Basis-Paket Abonnement auf unsere vollständige 3000+ kinderfreundliche Bilderbibliothek zu. Keine Pro-Bild-Gebühren wie bei Stock-Foto-Websites. Keine Download-Limits wie bei Clipart-Abonnements. Durchsuchen Sie nach Themen organisierte Bilder einschließlich Tiere, Essen, Transport, Schule, Natur und Jahreszeiten. Suchen Sie nach Stichwort, um spezifische Bilder schnell zu finden.
 
 Jedes Bild funktioniert perfekt für Vorschul-Arbeitsblätter und Arbeitsblätter Grundschule. Kindgerechte Illustrationen mit klaren, einfachen Designs. Helle Farben, die junge Lernende ansprechen. Erkennbare Objekte, denen Schüler täglich begegnen.`,
         highlighted: true,
@@ -319,7 +319,7 @@ Erstellen Sie differenzierte kostenlose Arbeitsblätter für gemischte Fähigkei
 
 Laden Sie Familienfotos für hochgradig personalisierte Vorschul-Arbeitsblätter hoch. Ordnen Sie den Namen des Kindes dem Foto für Namenserkennung zu. Verbinden Sie Familienmitglieder mit Beziehungswörtern. Verknüpfen Sie Haushaltsgegenstände mit Vokabelwörtern. Personalisierung erhöht Engagement für Heimlernende.
 
-Generieren Sie Zuordnungsarbeitsblätter für mehrere Kinder gleichzeitig. Erstellen Sie altersgerechte Vorschul-Arbeitsblätter für Kindergartenkind. Das Core Bundle Abonnement unterstützt mehrere Klassenstufen in einem Haushalt.`,
+Generieren Sie Zuordnungsarbeitsblätter für mehrere Kinder gleichzeitig. Erstellen Sie altersgerechte Vorschul-Arbeitsblätter für Kindergartenkind. Das Basis-Paket Abonnement unterstützt mehrere Klassenstufen in einem Haushalt.`,
         quote: 'Ein Werkzeug deckt alle Klassenstufen meiner Kinder ab.',
       },
       {
@@ -376,7 +376,7 @@ Erstellen Sie Produkte mit Einmaleins und Rechnen lernen Inhalten für Mathe-fok
       {
         id: '1',
         question: 'Kann ich Schwungübungen mit Zuordnungsarbeitsblättern kombinieren für Vorschul-Arbeitsblätter?',
-        answer: 'Ja, das Core Bundle Abonnement beinhaltet sowohl Zuordnungs-Generator als auch den Schwungübungen-Generator. Erstellen Sie Zuordnungsarbeitsblätter für Buchstabenerkennung, dann fügen Sie passende Schwungübungen für Schreibvorbereitung hinzu. Koordinieren Sie Schwungübungen-Themen mit Zuordnungsaktivitäten. Schüler vervollständigen Buchstaben-Zuordnung gefolgt von verwandten Schwungübungen. Kombinierte Aktivitäten bauen sowohl Erkennungs- als auch Schreibfähigkeiten auf. Generieren Sie beide Materialien von demselben Abonnement ohne zusätzliche Kosten.',
+        answer: 'Ja, das Basis-Paket Abonnement beinhaltet sowohl Zuordnungs-Generator als auch den Schwungübungen-Generator. Erstellen Sie Zuordnungsarbeitsblätter für Buchstabenerkennung, dann fügen Sie passende Schwungübungen für Schreibvorbereitung hinzu. Koordinieren Sie Schwungübungen-Themen mit Zuordnungsaktivitäten. Schüler vervollständigen Buchstaben-Zuordnung gefolgt von verwandten Schwungübungen. Kombinierte Aktivitäten bauen sowohl Erkennungs- als auch Schreibfähigkeiten auf. Generieren Sie beide Materialien von demselben Abonnement ohne zusätzliche Kosten.',
       },
       {
         id: '2',
@@ -390,8 +390,8 @@ Erstellen Sie Produkte mit Einmaleins und Rechnen lernen Inhalten für Mathe-fok
       },
       {
         id: '4',
-        question: 'Sind Ausmalbilder und Malvorlagen im Core Bundle für thematische Aktivitäten enthalten?',
-        answer: 'Ja, das Core Bundle beinhaltet unbegrenzten Zugriff auf den Ausmalbilder-Generator. Erstellen Sie benutzerdefinierte Ausmalbilder und Malvorlagen, die Zuordnungsarbeitsblätter thematisch ergänzen. Generieren Sie Ausmalbilder mit denselben Bildern, die in Zuordnung erscheinen. Koordinieren Sie Malvorlagen mit Unterrichtsthemen. Schüler vervollständigen Zuordnung, dann kolorieren verwandte Ausmalbilder. Verkaufen Sie Ausmalbilder-Bundles zusammen mit Zuordnungsarbeitsblättern auf Eduki. Unbegrenzte Malvorlagen-Generierung ohne zusätzliche Kosten.',
+        question: 'Sind Ausmalbilder und Malvorlagen im Basis-Paket für thematische Aktivitäten enthalten?',
+        answer: 'Ja, das Basis-Paket beinhaltet unbegrenzten Zugriff auf den Ausmalbilder-Generator. Erstellen Sie benutzerdefinierte Ausmalbilder und Malvorlagen, die Zuordnungsarbeitsblätter thematisch ergänzen. Generieren Sie Ausmalbilder mit denselben Bildern, die in Zuordnung erscheinen. Koordinieren Sie Malvorlagen mit Unterrichtsthemen. Schüler vervollständigen Zuordnung, dann kolorieren verwandte Ausmalbilder. Verkaufen Sie Ausmalbilder-Bundles zusammen mit Zuordnungsarbeitsblättern auf Eduki. Unbegrenzte Malvorlagen-Generierung ohne zusätzliche Kosten.',
       },
       {
         id: '5',
@@ -405,8 +405,8 @@ Erstellen Sie Produkte mit Einmaleins und Rechnen lernen Inhalten für Mathe-fok
       },
       {
         id: '7',
-        question: 'Wie viele kostenlose Arbeitsblätter kann ich monatlich mit dem Core Bundle erstellen?',
-        answer: 'Unbegrenzt. Das Core Bundle Abonnement beinhaltet unbegrenzte Arbeitsblatt-Generierung ohne Monatslimits. Erstellen Sie 10, 100 oder 1.000 kostenlose Arbeitsblätter pro Monat. Generieren Sie so viele Zuordnungsarbeitsblätter wie Ihre Schüler benötigen. Keine Download-Beschränkungen, keine Nutzungsgrenzen, keine versteckten Gebühren. Produzieren Sie tägliche Arbeitsblätter für alle Fächer. Entwickeln Sie umfangreiche Arbeitsblatt-Bibliotheken für zukünftige Verwendung. 144€ jährliches Abonnement deckt unbegrenzte Generierung ab.',
+        question: 'Wie viele kostenlose Arbeitsblätter kann ich monatlich mit dem Basis-Paket erstellen?',
+        answer: 'Unbegrenzt. Das Basis-Paket Abonnement beinhaltet unbegrenzte Arbeitsblatt-Generierung ohne Monatslimits. Erstellen Sie 10, 100 oder 1.000 kostenlose Arbeitsblätter pro Monat. Generieren Sie so viele Zuordnungsarbeitsblätter wie Ihre Schüler benötigen. Keine Download-Beschränkungen, keine Nutzungsgrenzen, keine versteckten Gebühren. Produzieren Sie tägliche Arbeitsblätter für alle Fächer. Entwickeln Sie umfangreiche Arbeitsblatt-Bibliotheken für zukünftige Verwendung. 144€ jährliches Abonnement deckt unbegrenzte Generierung ab.',
       },
       {
         id: '8',
@@ -416,7 +416,7 @@ Erstellen Sie Produkte mit Einmaleins und Rechnen lernen Inhalten für Mathe-fok
       {
         id: '9',
         question: 'Welche Schwungübungen-Typen kann ich für feinmotorische Entwicklung erstellen?',
-        answer: 'Der Schwungübungen-Generator im Core Bundle erstellt verschiedene Schwungübungen-Typen. Generieren Sie Wellenlinienmuster für horizontale Stiftbewegung. Gestalten Sie Zickzack-Schwungübungen für wechselnde Richtungen. Entwickeln Sie Kreismuster-Schwungübungen für Schreibvorbereitung. Erstellen Sie buchstabenähnliche Schwungübungen, die zu Alphabet-Formung führen. Kombinieren Sie verschiedene Schwungübungen-Typen in thematischen Paketen. Alle Schwungübungen passen sich an Schülerfähigkeitsniveau an.',
+        answer: 'Der Schwungübungen-Generator im Basis-Paket erstellt verschiedene Schwungübungen-Typen. Generieren Sie Wellenlinienmuster für horizontale Stiftbewegung. Gestalten Sie Zickzack-Schwungübungen für wechselnde Richtungen. Entwickeln Sie Kreismuster-Schwungübungen für Schreibvorbereitung. Erstellen Sie buchstabenähnliche Schwungübungen, die zu Alphabet-Formung führen. Kombinieren Sie verschiedene Schwungübungen-Typen in thematischen Paketen. Alle Schwungübungen passen sich an Schülerfähigkeitsniveau an.',
       },
       {
         id: '10',
@@ -431,12 +431,12 @@ Erstellen Sie Produkte mit Einmaleins und Rechnen lernen Inhalten für Mathe-fok
       {
         id: '12',
         question: 'Kann ich Einmaleins und Rechnen 1. Klasse Materialien für kommerzielle Verkäufe auf Eduki erstellen?',
-        answer: 'Ja, das Core Bundle beinhaltet vollständige kommerzielle Lizenzierung für alle generierten Materialien. Erstellen Sie Einmaleins-Arbeitsblätter und verkaufen Sie sie auf Eduki, Teachers Pay Teachers oder Etsy. Generieren Sie Rechnen 1. Klasse Bundles für Amazon KDP. Gestalten Sie Mathematik-Pakete, die Einmaleins und grundlegende Rechenoperationen kombinieren. Keine zusätzlichen Lizenzgebühren über 144€ jährliches Abonnement hinaus. Behalten Sie 100% Verkaufseinnahmen. Bauen Sie erfolgreiche Mathematik-Ressourcen-Geschäfte mit Rechnen lernen Produkten.',
+        answer: 'Ja, das Basis-Paket beinhaltet vollständige kommerzielle Lizenzierung für alle generierten Materialien. Erstellen Sie Einmaleins-Arbeitsblätter und verkaufen Sie sie auf Eduki, Teachers Pay Teachers oder Etsy. Generieren Sie Rechnen 1. Klasse Bundles für Amazon KDP. Gestalten Sie Mathematik-Pakete, die Einmaleins und grundlegende Rechenoperationen kombinieren. Keine zusätzlichen Lizenzgebühren über 144€ jährliches Abonnement hinaus. Behalten Sie 100% Verkaufseinnahmen. Bauen Sie erfolgreiche Mathematik-Ressourcen-Geschäfte mit Rechnen lernen Produkten.',
       },
     ],
   },
 
-  // Pricing - Core Bundle pricing
+  // Pricing - Basis-Paket pricing
   pricing: {
     title: 'Basis-Paket',
     price: '144€',
@@ -457,7 +457,7 @@ Erstellen Sie Produkte mit Einmaleins und Rechnen lernen Inhalten für Mathe-fok
   // Related Apps - FULL text from matching.md combine apps section
   relatedApps: {
     sectionTitle: 'Kombinieren Sie Apps für umfassende Lehrplan-Bundles - Buchstaben lernen, Einmaleins und Deutsch-Arbeitsblätter',
-    sectionDescription: 'Das Core Bundle Abonnement beinhaltet zehn verschiedene Arbeitsblatt-Generator-Apps, die zusammenarbeiten, um vollständige Unterrichtspakete zu erstellen. Kombinieren Sie Zuordnungs-Generator mit anderen Generatoren für umfassende Lehrplan-Bundles. Erstellen Sie koordinierte Materialien über mehrere Arbeitsblatttypen hinweg. Generieren Sie thematische Pakete, die alle Fähigkeitsbereiche abdecken. Verkaufen Sie Multi-App-Bundles auf Eduki für höhere Preispunkte.',
+    sectionDescription: 'Das Basis-Paket Abonnement beinhaltet zehn verschiedene Arbeitsblatt-Generator-Apps, die zusammenarbeiten, um vollständige Unterrichtspakete zu erstellen. Kombinieren Sie Zuordnungs-Generator mit anderen Generatoren für umfassende Lehrplan-Bundles. Erstellen Sie koordinierte Materialien über mehrere Arbeitsblatttypen hinweg. Generieren Sie thematische Pakete, die alle Fähigkeitsbereiche abdecken. Verkaufen Sie Multi-App-Bundles auf Eduki für höhere Preispunkte.',
     ctaTitle: 'Bereit, fantastische Arbeitsblätter zu erstellen?',
     ctaDescription: 'Schließen Sie sich tausenden Lehrkräften an, die professionelle Arbeitsblätter erstellen. Unbegrenzte Generierung, kommerzielle Lizenz inklusive.',
     primaryCtaText: 'Kostenlose Testversion Starten',

@@ -9,7 +9,7 @@ import { ProductPageContent } from '@/components/product-page/ProductPageClient'
  * FULL SEO content from: INDIVIDUAL APP PAGES/Swedish/prepositions.md
  * DO NOT SHORTEN - Every paragraph is SEO-optimized
  *
- * PRICING: Full Access ($240/year or $25/month)
+ * PRICING: Full Tillgång ($240/year or $25/month)
  * Swedish: Full Tillgång (2 900 SEK/år eller 300 SEK/månad)
  */
 

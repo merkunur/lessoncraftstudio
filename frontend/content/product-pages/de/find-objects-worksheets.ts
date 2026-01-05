@@ -37,11 +37,11 @@ export const findObjectsDeContent: ProductPageContent = {
   hero: {
     title: 'Suchbilder-Arbeitsblätter',
     subtitle: 'Kostenlose Arbeitsblätter Grundschule - Ich-Sehe-Was Generator für Vorschul-Arbeitsblätter und Mathe-Arbeitsblätter',
-    description: `Erstellen Sie professionelle Suchbilder-Arbeitsblätter mit unserem Generator für visuelle Wahrnehmung. Ihr Full Access Abonnement für 240 Euro im Jahr ermöglicht unbegrenzte Arbeitsblatterstellung ohne zusätzliche Kosten pro Arbeitsblatt. Generieren Sie individuelle Arbeitsblätter für Vorschule und Grundschule in unter drei Minuten. Laden Sie hochwertige PDF-Arbeitsblätter im 300 DPI Format herunter.
+    description: `Erstellen Sie professionelle Suchbilder-Arbeitsblätter mit unserem Generator für visuelle Wahrnehmung. Ihr Vollzugriff Abonnement für 240 Euro im Jahr ermöglicht unbegrenzte Arbeitsblatterstellung ohne zusätzliche Kosten pro Arbeitsblatt. Generieren Sie individuelle Arbeitsblätter für Vorschule und Grundschule in unter drei Minuten. Laden Sie hochwertige PDF-Arbeitsblätter im 300 DPI Format herunter.
 
 Unser Suchbilder-Generator bietet Lehrkräften zwei bewährte Aktivitätsformate. Der Ich-Sehe-Was-Modus lässt Kinder versteckte Objekte unter Ablenkungsbildern finden. Der Welches-Passt-Nicht-Modus fordert Schüler heraus, ungepaarte Bilder zu identifizieren. Beide Formate unterstützen Vorschul-Arbeitsblätter und Arbeitsblätter Grundschule mit anpassbaren Schwierigkeitsstufen.
 
-Das Full Access Abonnement enthält alle 33 Arbeitsblatt-Generatoren. Kombinieren Sie Suchbilder mit Mathe-Arbeitsblättern, Deutsch-Arbeitsblättern und Arbeitsblättern zum Buchstaben lernen. Ihr Abonnement beinhaltet die kommerzielle Lizenz für den Verkauf auf Teachers Pay Teachers und Etsy. Professionelle 300 DPI Qualität garantiert perfektes Drucken.`,
+Das Vollzugriff Abonnement enthält alle 33 Arbeitsblatt-Generatoren. Kombinieren Sie Suchbilder mit Mathe-Arbeitsblättern, Deutsch-Arbeitsblättern und Arbeitsblättern zum Buchstaben lernen. Ihr Abonnement beinhaltet die kommerzielle Lizenz für den Verkauf auf Teachers Pay Teachers und Etsy. Professionelle 300 DPI Qualität garantiert perfektes Drucken.`,
     previewImageSrc: '/samples/english/find objects/find objects portrait.jpeg',
     ctaLabels: {
       tryFree: 'Kostenlos Testen',
@@ -95,7 +95,7 @@ Das Full Access Abonnement enthält alle 33 Arbeitsblatt-Generatoren. Kombiniere
   // Features Grid - FULL text from find-objects.md feature sections
   features: {
     sectionTitle: 'Funktionen des Suchbilder Generators - Kostenlose Arbeitsblätter und Arbeitsblätter Grundschule',
-    sectionDescription: 'Unser Suchbilder-Generator bietet vollständige Anpassungsmöglichkeiten für Vorschul-Arbeitsblätter und Arbeitsblätter Grundschule. Die Plattform enthält zwei verschiedene Aktivitätsmodi mit professionellen Bearbeitungswerkzeugen. Lehrkräfte erstellen druckbare Arbeitsblätter für visuelle Wahrnehmungsübungen in unter drei Minuten. Das Full Access Abonnement schaltet alle Funktionen frei.',
+    sectionDescription: 'Unser Suchbilder-Generator bietet vollständige Anpassungsmöglichkeiten für Vorschul-Arbeitsblätter und Arbeitsblätter Grundschule. Die Plattform enthält zwei verschiedene Aktivitätsmodi mit professionellen Bearbeitungswerkzeugen. Lehrkräfte erstellen druckbare Arbeitsblätter für visuelle Wahrnehmungsübungen in unter drei Minuten. Das Vollzugriff Abonnement schaltet alle Funktionen frei.',
     highlightBadgeText: 'Hauptfunktion',
     readMoreLabel: 'Mehr lesen',
     showLessLabel: 'Weniger anzeigen',
@@ -146,7 +146,7 @@ Die verfügbaren Sprachen sind Deutsch, Englisch, Französisch, Spanisch, Portug
         id: '5',
         icon: '💰',
         title: 'Kommerzielle Lizenz für Arbeitsblätter Grundschule - Einmaleins und Rechnen lernen Materialien verkaufen',
-        description: `Mit dem Full Access Abonnement erhalten Sie eine kommerzielle Lizenz. Verkaufen Sie Ihre Arbeitsblätter auf Teachers Pay Teachers. Bieten Sie Materialien auf Etsy an. Veröffentlichen Sie Arbeitsbücher auf Amazon KDP. Keine zusätzlichen Lizenzgebühren fallen an.
+        description: `Mit dem Vollzugriff Abonnement erhalten Sie eine kommerzielle Lizenz. Verkaufen Sie Ihre Arbeitsblätter auf Teachers Pay Teachers. Bieten Sie Materialien auf Etsy an. Veröffentlichen Sie Arbeitsbücher auf Amazon KDP. Keine zusätzlichen Lizenzgebühren fallen an.
 
 Die Print-on-Demand Lizenz deckt alle Verkaufskanäle ab. Sie erstellen einmal und verkaufen unbegrenzt. Erfolgreiche Lehrkräfte verdienen 500 bis 5000 Euro monatlich. Einmaleins Übungen und Rechnen lernen Materialien sind besonders gefragt. Die 300 DPI Qualität erfüllt alle Druckanforderungen. Professionelle Arbeitsblätter Grundschule verkaufen sich hervorragend auf allen Plattformen.`,
         highlighted: true,
@@ -166,7 +166,7 @@ Die Suchfunktion findet Bilder nach Namen. Tippen Sie einfach ein Stichwort ein.
         title: 'Professionelle 300 DPI Qualität für Vorschul-Arbeitsblätter und Kostenlose Arbeitsblätter',
         description: `Der Export erfolgt in professioneller Druckqualität. 300 DPI garantieren scharfe Linien und klare Details. Die Arbeitsblätter sehen gedruckt genauso gut aus wie am Bildschirm. Diese Qualität ist wichtig für Verkaufsmaterialien. Aber auch für den Klassenraum macht sie einen Unterschied.
 
-Sie wählen zwischen PDF und JPEG Format. PDF eignet sich für mehrseitige Dokumente. JPEG ist ideal für einzelne Arbeitsblätter. Die Graustufen-Option spart Druckertinte. Schwarzweiße Vorschul-Arbeitsblätter sind genauso effektiv. Die Kostenlose Arbeitsblätter Funktion exportiert ohne Wasserzeichen. Ihr Full Access Abonnement garantiert unbegrenzten Download.`,
+Sie wählen zwischen PDF und JPEG Format. PDF eignet sich für mehrseitige Dokumente. JPEG ist ideal für einzelne Arbeitsblätter. Die Graustufen-Option spart Druckertinte. Schwarzweiße Vorschul-Arbeitsblätter sind genauso effektiv. Die Kostenlose Arbeitsblätter Funktion exportiert ohne Wasserzeichen. Ihr Vollzugriff Abonnement garantiert unbegrenzten Download.`,
         highlighted: true,
       },
       {
@@ -255,7 +255,7 @@ Ebenensteuerung passt an, welche Objekte bei Überlappung vorne erscheinen. Brin
         title: 'Schritt 5: Ausmalbilder und Arbeitsblätter Grundschule als JPEG und PDF herunterladen - Export in Druckqualität',
         description: `Wählen Sie Ihr Download-Format aus dem Download-Dropdown-Menü. Wählen Sie JPEG für maximale Kompatibilität mit Bildbearbeitungsprogrammen. Wählen Sie PDF für konsistentes Drucken auf allen Geräten. Beide Formate exportieren in professioneller 300 DPI Qualität. Ihre Vorschul-Arbeitsblätter und Ausmalbilder drucken perfekt auf jedem Drucker.
 
-Laden Sie Arbeitsblatt und Lösungsschlüssel separat für organisierte Dateiverwaltung herunter. Aktivieren Sie die Graustufen-Konvertierung vor dem Download für Druckkosteneinsparung. Drucken Sie heruntergeladene Arbeitsblätter sofort oder speichern Sie für später. Verkaufen Sie heruntergeladene Arbeitsblätter auf Teachers Pay Teachers mit inkludierter kommerzieller Lizenz. Ihr Full Access Abonnement (240€/Jahr) deckt unbegrenzte Downloads von Arbeitsblätter Grundschule und allen anderen Arbeitsblatttypen ab.`,
+Laden Sie Arbeitsblatt und Lösungsschlüssel separat für organisierte Dateiverwaltung herunter. Aktivieren Sie die Graustufen-Konvertierung vor dem Download für Druckkosteneinsparung. Drucken Sie heruntergeladene Arbeitsblätter sofort oder speichern Sie für später. Verkaufen Sie heruntergeladene Arbeitsblätter auf Teachers Pay Teachers mit inkludierter kommerzieller Lizenz. Ihr Vollzugriff Abonnement (240€/Jahr) deckt unbegrenzte Downloads von Arbeitsblätter Grundschule und allen anderen Arbeitsblatttypen ab.`,
         icon: '📥',
       },
     ],
@@ -324,7 +324,7 @@ Erstellen Sie kontrastreiche Arbeitsblätter für Schüler mit visuellen Verarbe
         icon: '💰',
         title: 'Lehrer-Unternehmer - Arbeitsblätter Grundschule und Einmaleins für Teachers Pay Teachers verkaufen',
         subtitle: 'Kommerzielle Lizenz für passive Einnahmen',
-        description: `Lehrer-Unternehmer generieren passives Einkommen durch Verkauf druckbarer Arbeitsblätter. Die kommerzielle Lizenz deckt alle mit Ihrem Full Access Abonnement erstellten Arbeitsblätter ab. Keine zusätzlichen Gebühren über 240€ jährlich hinaus. Erstellen Sie ganze Produktlinien in Stunden statt Wochen. Viele Verkäufer verdienen 500-5000€ monatlich mit Bildungsdrucksachen.
+        description: `Lehrer-Unternehmer generieren passives Einkommen durch Verkauf druckbarer Arbeitsblätter. Die kommerzielle Lizenz deckt alle mit Ihrem Vollzugriff Abonnement erstellten Arbeitsblätter ab. Keine zusätzlichen Gebühren über 240€ jährlich hinaus. Erstellen Sie ganze Produktlinien in Stunden statt Wochen. Viele Verkäufer verdienen 500-5000€ monatlich mit Bildungsdrucksachen.
 
 Gestalten Sie thematische Arbeitsblatt-Pakete die mehrere Aktivitätstypen kombinieren. Paketieren Sie Suchbilder mit Arbeitsblätter Grundschule für verschiedene Fähigkeiten. Erstellen Sie saisonale Pakete für Schulanfang, Halloween, Weihnachten und Frühling. Kombinieren Sie Suchbilder mit Einmaleins-Übungen für mathe-thematische Produktlinien. Professionelle 300 DPI Qualität sichert Kundenzufriedenheit für bezahlte Produkte.`,
         quote: 'Mein Abonnement hat sich im ersten Monat bezahlt gemacht!',
@@ -362,7 +362,7 @@ Gestalten Sie thematische Arbeitsblatt-Pakete die mehrere Aktivitätstypen kombi
       {
         id: '4',
         question: 'Sind die Arbeitsblätter wirklich Kostenlose Arbeitsblätter nach dem Abonnement?',
-        answer: 'Nach Abschluss des Full Access Abonnements (240€/Jahr) fallen keine zusätzlichen Kosten pro Arbeitsblatt an. Laden Sie unbegrenzt kostenlose Arbeitsblätter ohne Einzelgebühren herunter. Das Abonnement deckt alle 33 Generatortypen einschließlich Suchbilder ab. Keine versteckten Kosten oder Druckgebühren. Ihre kostenlose Arbeitsblätter sind wirklich kostenlos nach der Jahresgebühr.',
+        answer: 'Nach Abschluss des Vollzugriff Abonnements (240€/Jahr) fallen keine zusätzlichen Kosten pro Arbeitsblatt an. Laden Sie unbegrenzt kostenlose Arbeitsblätter ohne Einzelgebühren herunter. Das Abonnement deckt alle 33 Generatortypen einschließlich Suchbilder ab. Keine versteckten Kosten oder Druckgebühren. Ihre kostenlose Arbeitsblätter sind wirklich kostenlos nach der Jahresgebühr.',
       },
       {
         id: '5',
@@ -402,12 +402,12 @@ Gestalten Sie thematische Arbeitsblatt-Pakete die mehrere Aktivitätstypen kombi
       {
         id: '12',
         question: 'Darf ich Arbeitsblätter Grundschule auf Etsy und Teachers Pay Teachers verkaufen?',
-        answer: 'Ja, mit dem Full Access Abonnement erhalten Sie eine kommerzielle Lizenz. Diese erlaubt den Verkauf auf allen Plattformen. Teachers Pay Teachers, Etsy und Amazon KDP sind abgedeckt. Keine zusätzlichen Gebühren fallen an. Arbeitsblätter Grundschule verkaufen sich besonders gut. Erfolgreiche Lehrkräfte verdienen 500 bis 5000 Euro monatlich. Die Lizenz gilt unbegrenzt für alle erstellten Materialien.',
+        answer: 'Ja, mit dem Vollzugriff Abonnement erhalten Sie eine kommerzielle Lizenz. Diese erlaubt den Verkauf auf allen Plattformen. Teachers Pay Teachers, Etsy und Amazon KDP sind abgedeckt. Keine zusätzlichen Gebühren fallen an. Arbeitsblätter Grundschule verkaufen sich besonders gut. Erfolgreiche Lehrkräfte verdienen 500 bis 5000 Euro monatlich. Die Lizenz gilt unbegrenzt für alle erstellten Materialien.',
       },
     ],
   },
 
-  // Pricing - Full Access pricing (240€/year)
+  // Pricing - Vollzugriff pricing (240€/year)
   pricing: {
     title: 'Voller Zugang',
     price: '240€',
@@ -429,7 +429,7 @@ Gestalten Sie thematische Arbeitsblatt-Pakete die mehrere Aktivitätstypen kombi
   // Related Apps - Apps that work well with find-objects
   relatedApps: {
     sectionTitle: 'Suchbilder mit 32 anderen Generatoren kombinieren - Einmaleins, Schwungübungen und Arbeitsblätter Grundschule',
-    sectionDescription: 'Das Full Access Abonnement enthält 33 verschiedene Arbeitsblatt-Generatoren. Kombinieren Sie Suchbild-Arbeitsblätter mit anderen Generatortypen für vollständige Lernpakete. Erstellen Sie thematische Einheiten die mehrere Fähigkeiten gleichzeitig trainieren. Jeder Generator nutzt dieselbe intuitive Benutzeroberfläche.',
+    sectionDescription: 'Das Vollzugriff Abonnement enthält 33 verschiedene Arbeitsblatt-Generatoren. Kombinieren Sie Suchbild-Arbeitsblätter mit anderen Generatortypen für vollständige Lernpakete. Erstellen Sie thematische Einheiten die mehrere Fähigkeiten gleichzeitig trainieren. Jeder Generator nutzt dieselbe intuitive Benutzeroberfläche.',
     ctaTitle: 'Bereit, fantastische Arbeitsblätter zu erstellen?',
     ctaDescription: 'Schließen Sie sich tausenden Lehrkräften an, die professionelle Arbeitsblätter erstellen. Unbegrenzte Generierung, kommerzielle Lizenz inklusive.',
     primaryCtaText: 'Kostenlose Testversion Starten',

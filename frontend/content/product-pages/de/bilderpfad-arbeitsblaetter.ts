@@ -30,7 +30,7 @@ export const picturePathDeContent: ProductPageContent = {
     slug: 'bilderpfad-arbeitsblaetter',
     appId: 'picture-path',
     title: 'Bilderpfad Labyrinth Generator - Kostenlose Arbeitsblätter zum Ausdrucken für Vorschule und Grundschule',
-    description: 'Erstellen Sie professionelle Labyrinth-Arbeitsblätter mit dem Bilderpfad Generator. Mit Ihrem Full Access Abonnement gestalten Sie unbegrenzt druckbare Arbeitsblätter für die Vorschule und Grundschule. Kinder navigieren von einem Startbild zum Zielbild und folgen dabei dem richtigen Weg.',
+    description: 'Erstellen Sie professionelle Labyrinth-Arbeitsblätter mit dem Bilderpfad Generator. Mit Ihrem Vollzugriff Abonnement gestalten Sie unbegrenzt druckbare Arbeitsblätter für die Vorschule und Grundschule. Kinder navigieren von einem Startbild zum Zielbild und folgen dabei dem richtigen Weg.',
     keywords: 'bilderpfad arbeitsblätter, labyrinth arbeitsblätter, arbeitsblätter grundschule, kostenlose arbeitsblätter, mathe arbeitsblätter, vorschule arbeitsblätter, einmaleins, schwungübungen, buchstaben lernen, rechnen lernen, ausmalbilder',
     canonicalUrl: 'https://www.lessoncraftstudio.com/de/apps/bilderpfad-arbeitsblaetter',
   },
@@ -39,7 +39,7 @@ export const picturePathDeContent: ProductPageContent = {
   hero: {
     title: 'Bilderpfad Labyrinth Generator',
     subtitle: 'Kostenlose Arbeitsblätter zum Ausdrucken für Vorschule und Grundschule',
-    description: `Erstellen Sie professionelle Labyrinth-Arbeitsblätter mit unserem Bilderpfad Generator. Mit Ihrem Full Access Abonnement gestalten Sie unbegrenzt druckbare Arbeitsblätter für die Vorschule und Grundschule. Kinder navigieren von einem Startbild zum Zielbild und folgen dabei dem richtigen Weg. In weniger als drei Minuten laden Sie hochwertige PDF-Dateien herunter.
+    description: `Erstellen Sie professionelle Labyrinth-Arbeitsblätter mit unserem Bilderpfad Generator. Mit Ihrem Vollzugriff Abonnement gestalten Sie unbegrenzt druckbare Arbeitsblätter für die Vorschule und Grundschule. Kinder navigieren von einem Startbild zum Zielbild und folgen dabei dem richtigen Weg. In weniger als drei Minuten laden Sie hochwertige PDF-Dateien herunter.
 
 Der Bilderpfad Labyrinth Generator bietet drei verschiedene Spielmodi. Der klassische Bilderpfad führt Kinder von Start zu Ziel durch eine Abfolge von Bildern. Der Klassische Labyrinth-Modus streut Sammelbilder im Irrgarten aus. Der dritte Modus heißt "Wähle den richtigen Weg" und fordert Kinder heraus, zwischen mehreren Pfaden den einzig korrekten zu finden. Jeder Modus eignet sich für unterschiedliche Lernsituationen im Kindergarten und in der Grundschule.
 
@@ -47,7 +47,7 @@ Mit dem Bilderpfad Generator erstellen Sie Arbeitsblätter für das Rechnen lern
 
 Alle Arbeitsblätter erscheinen in professioneller 300 DPI Qualität. Sie drucken gestochen scharfe Linien und klare Bilder. Der Export erfolgt als JPEG oder PDF. Eine Graustufen-Option spart Druckertinte. Die enthaltene Lösungsanzeige hilft bei der Kontrolle. Lehrkräfte und Eltern nutzen diese Arbeitsblätter für den Unterricht, zur Förderung und für Hausaufgaben.
 
-Das Full Access Abonnement kostet 240 Euro pro Jahr oder 25 Euro monatlich. Es umfasst alle 33 Arbeitsblatt-Generatoren auf der Plattform. Eine kommerzielle Lizenz ist enthalten. Sie verkaufen Ihre Arbeitsblätter auf Teachers Pay Teachers, Etsy oder Amazon KDP ohne zusätzliche Gebühren. Über 3000 kindgerechte Bilder stehen in der Bibliothek bereit. Eigene Bilder laden Sie ebenfalls hoch.`,
+Das Vollzugriff Abonnement kostet 240 Euro pro Jahr oder 25 Euro monatlich. Es umfasst alle 33 Arbeitsblatt-Generatoren auf der Plattform. Eine kommerzielle Lizenz ist enthalten. Sie verkaufen Ihre Arbeitsblätter auf Teachers Pay Teachers, Etsy oder Amazon KDP ohne zusätzliche Gebühren. Über 3000 kindgerechte Bilder stehen in der Bibliothek bereit. Eigene Bilder laden Sie ebenfalls hoch.`,
     previewImageSrc: '/samples/english/picture path/picture path.jpeg',
     ctaLabels: {
       tryFree: 'Kostenlos Testen',
@@ -161,7 +161,7 @@ Die Spracheinstellung beeinflusst auch die Bildnamen in der Bibliothek. Bilder e
         id: '5',
         icon: '💰',
         title: 'Kommerzielle Lizenz inklusive - Mathe Arbeitsblätter und Rechnen 1. Klasse auf Teachers Pay Teachers verkaufen',
-        description: `Das Full Access Abonnement enthält eine vollständige Print-on-Demand Lizenz. Sie verkaufen Ihre erstellten Arbeitsblätter ohne zusätzliche Gebühren. Teachers Pay Teachers, Etsy und Amazon KDP sind erlaubte Verkaufsplattformen. Keine Namensnennung erforderlich. Die Lizenz gilt für unbegrenzt viele Arbeitsblätter.
+        description: `Das Vollzugriff Abonnement enthält eine vollständige Print-on-Demand Lizenz. Sie verkaufen Ihre erstellten Arbeitsblätter ohne zusätzliche Gebühren. Teachers Pay Teachers, Etsy und Amazon KDP sind erlaubte Verkaufsplattformen. Keine Namensnennung erforderlich. Die Lizenz gilt für unbegrenzt viele Arbeitsblätter.
 
 Viele Lehrkräfte verdienen mit selbsterstellten Materialien ein Nebeneinkommen. Mathe Arbeitsblätter und Materialien für das Rechnen 1. Klasse sind besonders gefragt. Labyrinth-Arbeitsblätter ergänzen bestehende Produktlinien perfekt. Die 300 DPI Druckqualität erfüllt professionelle Verkaufsstandards.`,
         highlighted: true,
@@ -336,7 +336,7 @@ Die visuelle Struktur hilft Kindern mit Aufmerksamkeitsproblemen. Der klar defin
 
 Mathe Arbeitsblätter mit Labyrinth-Elementen sind besonders gefragt. Das Einmaleins in spielerischer Form erreicht hohe Verkaufszahlen. Thematische Pakete zu Jahreszeiten verkaufen sich saisonal. Die 300 DPI Qualität erfüllt professionelle Verkaufsstandards. Käufer erwarten druckfertige PDF-Dateien.
 
-Das Full Access Abonnement für 240 Euro jährlich amortisiert sich schnell. Bereits wenige verkaufte Pakete decken die Kosten. Die 33 enthaltenen Generatoren ermöglichen vielfältige Produktlinien. Lehrkräfte bauen so ein passives Einkommen auf. Die Zeitersparnis gegenüber manueller Erstellung ist enorm.`,
+Das Vollzugriff Abonnement für 240 Euro jährlich amortisiert sich schnell. Bereits wenige verkaufte Pakete decken die Kosten. Die 33 enthaltenen Generatoren ermöglichen vielfältige Produktlinien. Lehrkräfte bauen so ein passives Einkommen auf. Die Zeitersparnis gegenüber manueller Erstellung ist enorm.`,
         quote: 'Mein Abonnement hat sich im ersten Monat bezahlt gemacht!',
       },
     ],
@@ -357,7 +357,7 @@ Das Full Access Abonnement für 240 Euro jährlich amortisiert sich schnell. Ber
       {
         id: '1',
         question: 'Ist der Bilderpfad Generator wirklich kostenlos für Arbeitsblätter Grundschule und Mathe Arbeitsblätter nutzbar?',
-        answer: `Der Generator bietet eine kostenlose Testversion mit eingeschränkten Funktionen. Für unbegrenzten Zugang zu allen Arbeitsblätter Grundschule und Mathe Arbeitsblätter Funktionen benötigen Sie das Full Access Abonnement. Dieses kostet 240 Euro jährlich oder 25 Euro monatlich. Die Investition lohnt sich durch die enorme Zeitersparnis und die kommerzielle Lizenz.`,
+        answer: `Der Generator bietet eine kostenlose Testversion mit eingeschränkten Funktionen. Für unbegrenzten Zugang zu allen Arbeitsblätter Grundschule und Mathe Arbeitsblätter Funktionen benötigen Sie das Vollzugriff Abonnement. Dieses kostet 240 Euro jährlich oder 25 Euro monatlich. Die Investition lohnt sich durch die enorme Zeitersparnis und die kommerzielle Lizenz.`,
       },
       {
         id: '2',
@@ -382,7 +382,7 @@ Das Full Access Abonnement für 240 Euro jährlich amortisiert sich schnell. Ber
       {
         id: '6',
         question: 'Kann ich erstellte Labyrinthe für Einmaleins und Rechnen lernen Produkte verkaufen?',
-        answer: `Das Full Access Abonnement enthält eine vollständige kommerzielle Lizenz. Sie verkaufen Ihre Einmaleins und Rechnen lernen Arbeitsblätter auf Teachers Pay Teachers, Etsy und Amazon KDP. Keine zusätzlichen Gebühren fallen an. Die Lizenz gilt für unbegrenzt viele Arbeitsblätter ohne Namensnennung.`,
+        answer: `Das Vollzugriff Abonnement enthält eine vollständige kommerzielle Lizenz. Sie verkaufen Ihre Einmaleins und Rechnen lernen Arbeitsblätter auf Teachers Pay Teachers, Etsy und Amazon KDP. Keine zusätzlichen Gebühren fallen an. Die Lizenz gilt für unbegrenzt viele Arbeitsblätter ohne Namensnennung.`,
       },
       {
         id: '7',
@@ -420,7 +420,7 @@ Das Full Access Abonnement für 240 Euro jährlich amortisiert sich schnell. Ber
   // Related Apps Section - FULL text from bilderpfad.md
   relatedApps: {
     sectionTitle: 'Bilderpfad Labyrinthe mit anderen Arbeitsblättern kombinieren - Deutsch Arbeitsblätter Schwungübungen und Ausmalbilder in kompletten Lernpaketen',
-    sectionDescription: 'Das Full Access Abonnement umfasst 33 verschiedene Arbeitsblatt-Generatoren. Kombinieren Sie Bilderpfad Labyrinthe mit anderen Übungsformaten für umfassende Lernpakete. Thematisch abgestimmte Materialien verstärken den Lerneffekt. Die folgenden Kombinationen haben sich in der Praxis besonders bewährt.',
+    sectionDescription: 'Das Vollzugriff Abonnement umfasst 33 verschiedene Arbeitsblatt-Generatoren. Kombinieren Sie Bilderpfad Labyrinthe mit anderen Übungsformaten für umfassende Lernpakete. Thematisch abgestimmte Materialien verstärken den Lerneffekt. Die folgenden Kombinationen haben sich in der Praxis besonders bewährt.',
     ctaTitle: 'Bereit für professionelle Bilderpfad Arbeitsblätter?',
     ctaDescription: 'Schließen Sie sich tausenden Pädagogen an, die professionelle Arbeitsblätter in Minuten erstellen.',
     primaryCtaText: 'Kostenlos Testen',

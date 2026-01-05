@@ -690,6 +690,12 @@ const nextConfig = {
         destination: '/es/apps/buscar-objetos-fichas',
         permanent: true,
       },
+      // Spanish: grid-match-worksheets → rompecabezas-cuadricula-fichas
+      {
+        source: '/es/apps/grid-match-worksheets',
+        destination: '/es/apps/rompecabezas-cuadricula-fichas',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

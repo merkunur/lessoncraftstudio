@@ -217,6 +217,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       en: 'grid-match-worksheets',
       sv: 'rutnatsmatching-arbetsblad',
       de: 'raster-puzzle-arbeitsblaetter',
+      es: 'rompecabezas-cuadricula-fichas',
     },
   },
   {

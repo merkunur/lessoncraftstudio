@@ -1568,6 +1568,50 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     };
   }
 
+  // Grid Match Worksheets - Spanish product page SEO (new Spanish slug)
+  if (params.slug === 'rompecabezas-cuadricula-fichas' && params.locale === 'es') {
+    return {
+      title: 'Rompecabezas de Cuadrícula | Generador de Fichas de Raster para Preescolar y Primaria',
+      description: 'Crea rompecabezas de cuadrícula profesionales con nuestro generador de fichas para imprimir. Genera fichas de matemáticas personalizadas con rompecabezas visuales perfectos para educación infantil y primaria. Descarga en PDF en menos de 3 minutos.',
+      keywords: 'rompecabezas cuadrícula, fichas para imprimir, fichas preescolar, fichas infantil, material educativo gratis, fichas de matemáticas, grafomotricidad, razonamiento espacial, puzzles visuales',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/es/apps/rompecabezas-cuadricula-fichas',
+        languages: {
+          'en': 'https://www.lessoncraftstudio.com/en/apps/grid-match-worksheets',
+          'sv': 'https://www.lessoncraftstudio.com/sv/apps/rutnatsmatching-arbetsblad',
+          'de': 'https://www.lessoncraftstudio.com/de/apps/raster-puzzle-arbeitsblaetter',
+          'es': 'https://www.lessoncraftstudio.com/es/apps/rompecabezas-cuadricula-fichas',
+          'x-default': 'https://www.lessoncraftstudio.com/en/apps/grid-match-worksheets',
+        },
+      },
+      openGraph: {
+        title: 'Rompecabezas de Cuadrícula | LessonCraftStudio',
+        description: 'Crea rompecabezas de cuadrícula profesionales con nuestro generador de fichas. Perfecto para maestros de educación infantil y primaria.',
+        url: 'https://www.lessoncraftstudio.com/es/apps/rompecabezas-cuadricula-fichas',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Legacy: Redirect old Spanish grid-match-worksheets slug to new slug (for backwards compatibility)
+  if (params.slug === 'grid-match-worksheets' && params.locale === 'es') {
+    return {
+      title: 'Rompecabezas de Cuadrícula - Generador de Fichas Preescolar',
+      robots: {
+        index: false,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/es/apps/rompecabezas-cuadricula-fichas',
+      },
+    };
+  }
+
   // Legacy: Redirect old Spanish find-objects-worksheets slug to new slug (for backwards compatibility)
   if (params.slug === 'find-objects-worksheets' && params.locale === 'es') {
     return {
@@ -7899,6 +7943,7 @@ export async function generateStaticParams() {
     'suma-codigo-fichas', // Product page slug (Spanish) - language-specific SEO slug for code-addition
     'dibujo-cuadricula-fichas', // Product page slug (Spanish) - language-specific SEO slug for draw-and-color
     'buscar-objetos-fichas', // Product page slug (Spanish) - language-specific SEO slug for find-objects
+    'rompecabezas-cuadricula-fichas', // Product page slug (Spanish) - language-specific SEO slug for grid-match
     'alphabet-zug-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug
     'malvorlagen-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug
     'mathe-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for math worksheets

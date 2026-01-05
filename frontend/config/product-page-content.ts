@@ -164,6 +164,7 @@ import graficosConteoEsContent from '@/content/product-pages/es/graficos-conteo-
 import sumaCodigoEsContent from '@/content/product-pages/es/suma-codigo-fichas';
 import dibujoCuadriculaEsContent from '@/content/product-pages/es/dibujo-cuadricula-fichas';
 import findObjectsEsContent from '@/content/product-pages/es/buscar-objetos-fichas';
+import gridMatchEsContent from '@/content/product-pages/es/rompecabezas-cuadricula-fichas';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -678,6 +679,10 @@ export const contentRegistry: ContentRegistry = {
     'buscar-objetos-fichas': findObjectsEsContent,
     // Also keep old slug for backwards compatibility during transition
     'find-objects-worksheets': findObjectsEsContent,
+    // Spanish Grid Match (Rompecabezas de Cuadrícula) - uses Spanish SEO slug
+    'rompecabezas-cuadricula-fichas': gridMatchEsContent,
+    // Also keep old slug for backwards compatibility during transition
+    'grid-match-worksheets': gridMatchEsContent,
   },
 };
 

@@ -168,6 +168,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       sv: 'stort-litet-arbetsblad',
       de: 'gross-klein-arbeitsblaetter',
       fr: 'grand-petit-fiches',
+      es: 'grande-pequeno-fichas',
     },
   },
   {

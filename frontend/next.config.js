@@ -660,6 +660,12 @@ const nextConfig = {
         destination: '/es/apps/sudoku-fichas-ninos',
         permanent: true,
       },
+      // Spanish: big-small-worksheets → grande-pequeno-fichas
+      {
+        source: '/es/apps/big-small-worksheets',
+        destination: '/es/apps/grande-pequeno-fichas',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

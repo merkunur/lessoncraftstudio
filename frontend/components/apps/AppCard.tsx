@@ -126,6 +126,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     sv: 'stort-litet-arbetsblad',
     de: 'gross-klein-arbeitsblaetter',
     fr: 'grand-petit-fiches',
+    es: 'grande-pequeno-fichas',
   },
   'chart-count-color': {
     en: 'chart-count-worksheets',

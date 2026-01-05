@@ -110,6 +110,7 @@ import matchingEsContent from '@/content/product-pages/es/matching-worksheets';
 import drawingLinesEsContent from '@/content/product-pages/es/drawing-lines-worksheets';
 import bingoEsContent from '@/content/product-pages/es/bingo-fichas';
 import sudokuEsContent from '@/content/product-pages/es/sudoku-fichas-ninos';
+import bigSmallEsContent from '@/content/product-pages/es/grande-pequeno-fichas';
 
 interface PageProps {
   params: {
@@ -1344,6 +1345,52 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       },
       alternates: {
         canonical: 'https://www.lessoncraftstudio.com/es/apps/sudoku-fichas-ninos', // Point to new URL
+      },
+    };
+  }
+
+  // Big Small - Spanish product page SEO (new Spanish slug)
+  if (params.slug === 'grande-pequeno-fichas' && params.locale === 'es') {
+    return {
+      title: 'Fichas de Grande y Pequeño para Imprimir - Generador de Fichas Infantil y Preescolar',
+      description: 'Crea fichas de comparación de tamaños profesionales con nuestro generador de fichas infantil. Tu suscripción a Acceso Completo te da acceso ilimitado a la creación de fichas sin costos adicionales por ficha. Descarga fichas gratis en formato PDF de alta calidad en menos de 3 minutos.',
+      keywords: 'fichas grande pequeño, fichas para imprimir, fichas infantil, fichas preescolar, material educativo gratis, fichas gratis, comparación de tamaños, ejercicios matemáticas, grafomotricidad, lectoescritura, dibujos para colorear',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/es/apps/grande-pequeno-fichas',
+        languages: {
+          'en': 'https://www.lessoncraftstudio.com/en/apps/big-small-worksheets',
+          'sv': 'https://www.lessoncraftstudio.com/sv/apps/stort-litet-arbetsblad',
+          'de': 'https://www.lessoncraftstudio.com/de/apps/gross-klein-arbeitsblaetter',
+          'fr': 'https://www.lessoncraftstudio.com/fr/apps/grand-petit-fiches',
+          'es': 'https://www.lessoncraftstudio.com/es/apps/grande-pequeno-fichas',
+          'x-default': 'https://www.lessoncraftstudio.com/en/apps/big-small-worksheets',
+        },
+      },
+      openGraph: {
+        title: 'Fichas de Grande y Pequeño para Imprimir | LessonCraftStudio',
+        description: 'Crea fichas de comparación de tamaños profesionales con nuestro generador de fichas infantil. Perfecto para preescolar y educación infantil.',
+        url: 'https://www.lessoncraftstudio.com/es/apps/grande-pequeno-fichas',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Big Small - Spanish legacy redirect (old English slug in Spanish locale)
+  if (params.slug === 'big-small-worksheets' && params.locale === 'es') {
+    return {
+      title: 'Fichas de Grande y Pequeño | LessonCraftStudio',
+      description: 'Página movida. Por favor visita la nueva URL.',
+      robots: {
+        index: false, // Don't index old URL
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/es/apps/grande-pequeno-fichas', // Point to new URL
       },
     };
   }
@@ -7659,6 +7706,7 @@ export async function generateStaticParams() {
     'buscar-contar-fichas', // Product page slug (Spanish) - language-specific SEO slug for find-and-count
     'bingo-fichas', // Product page slug (Spanish) - language-specific SEO slug for picture-bingo
     'sudoku-fichas-ninos', // Product page slug (Spanish) - language-specific SEO slug for sudoku
+    'grande-pequeno-fichas', // Product page slug (Spanish) - language-specific SEO slug for big-small
     'alphabet-zug-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug
     'malvorlagen-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug
     'mathe-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for math worksheets

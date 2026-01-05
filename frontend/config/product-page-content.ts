@@ -159,6 +159,7 @@ import matchingEsContent from '@/content/product-pages/es/matching-worksheets';
 import drawingLinesEsContent from '@/content/product-pages/es/drawing-lines-worksheets';
 import bingoEsContent from '@/content/product-pages/es/bingo-fichas';
 import sudokuEsContent from '@/content/product-pages/es/sudoku-fichas-ninos';
+import bigSmallEsContent from '@/content/product-pages/es/grande-pequeno-fichas';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -653,6 +654,10 @@ export const contentRegistry: ContentRegistry = {
     'sudoku-fichas-ninos': sudokuEsContent,
     // Also keep old slug for backwards compatibility during transition
     'sudoku-worksheets': sudokuEsContent,
+    // Spanish Big Small - uses Spanish SEO slug
+    'grande-pequeno-fichas': bigSmallEsContent,
+    // Also keep old slug for backwards compatibility during transition
+    'big-small-worksheets': bigSmallEsContent,
   },
 };
 

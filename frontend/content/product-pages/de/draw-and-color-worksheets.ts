@@ -452,7 +452,7 @@ Rechnen 1. Klasse Materialien mit Rasterzeichnen sind besonders gefragt. Die Kom
 
   // Pricing - Vollzugriff pricing (240€/year)
   pricing: {
-    title: 'Voller Zugang',
+    title: 'Vollzugriff',
     price: '240€',
     priceInterval: '/Jahr',
     priceSuffix: 'Jährliche Abrechnung',

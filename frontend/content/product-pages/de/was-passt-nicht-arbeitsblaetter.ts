@@ -511,7 +511,7 @@ Die Suchfunktion findet spezifische Bilder. Geben Sie Stichwörter ein wie "Herb
 
   // Pricing Section
   pricing: {
-    title: 'Voller Zugang',
+    title: 'Vollzugriff',
     price: '240€',
     priceInterval: '/Jahr',
     priceSuffix: 'Jährlich abgerechnet',

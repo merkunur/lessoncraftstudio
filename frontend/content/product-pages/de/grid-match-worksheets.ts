@@ -409,7 +409,7 @@ Erstellen Sie thematische Pakete. Malvorlagen zu Jahreszeiten verkaufen sich gut
 
   // Pricing - Vollzugriff pricing (240€/year)
   pricing: {
-    title: 'Voller Zugang',
+    title: 'Vollzugriff',
     price: '240€',
     priceInterval: '/Jahr',
     priceSuffix: 'Jährliche Abrechnung',

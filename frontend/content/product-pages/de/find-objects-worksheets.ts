@@ -409,7 +409,7 @@ Gestalten Sie thematische Arbeitsblatt-Pakete die mehrere Aktivitätstypen kombi
 
   // Pricing - Vollzugriff pricing (240€/year)
   pricing: {
-    title: 'Voller Zugang',
+    title: 'Vollzugriff',
     price: '240€',
     priceInterval: '/Jahr',
     priceSuffix: 'Jährliche Abrechnung',

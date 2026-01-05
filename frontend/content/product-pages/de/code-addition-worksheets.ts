@@ -10,7 +10,7 @@ import { ProductPageContent } from '@/components/product-page/ProductPageClient'
  * DO NOT SHORTEN - Every paragraph is SEO-optimized
  *
  * PRICING: Code Addition is a FULL ACCESS app ($240/year = 240€/Jahr)
- * NOT Basis-Paket! Use "Voller Zugang" and "240€" throughout.
+ * NOT Basis-Paket! Use "Vollzugriff" and "240€" throughout.
  *
  * German Keywords (from keywords.txt):
  * 1. Arbeitsblätter Grundschule
@@ -421,7 +421,7 @@ Kostenlose Arbeitsblätter als Marketing-Strategie funktionieren hervorragend f�
 
   // Pricing - Code Addition is FULL ACCESS
   pricing: {
-    title: 'Voller Zugang',
+    title: 'Vollzugriff',
     price: '240€',
     priceInterval: '/Jahr',
     priceSuffix: 'Jährliche Abrechnung',

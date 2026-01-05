@@ -453,7 +453,7 @@ Die gewerbliche Lizenz im Vollzugriff Abonnement erlaubt unbegrenzten Verkauf. K
 
   // Pricing Section
   pricing: {
-    title: 'Voller Zugang',
+    title: 'Vollzugriff',
     price: '240€',
     priceInterval: '/Jahr',
     priceSuffix: 'Jährlich abgerechnet',

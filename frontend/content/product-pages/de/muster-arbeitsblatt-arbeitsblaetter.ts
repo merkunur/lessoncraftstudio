@@ -532,7 +532,7 @@ Für die Einmaleins Vorbereitung empfehlen wir vier bis sechs Übungen pro Blatt
 
   // Pricing Section
   pricing: {
-    title: 'Voller Zugang',
+    title: 'Vollzugriff',
     price: '240€',
     priceInterval: '/Jahr',
     priceSuffix: 'Jährlich abgerechnet',

@@ -439,7 +439,7 @@ Viele Lehrkräfte verdienen 500-5000 € monatlich mit druckbaren Ressourcen fü
 
   // Pricing - Addition is FREE but needs subscription for no-watermark/commercial
   pricing: {
-    title: 'Voller Zugang',
+    title: 'Basis-Paket',
     price: '144€',
     priceInterval: '/Jahr',
     priceSuffix: 'Jährliche Abrechnung',

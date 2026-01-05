@@ -30,7 +30,7 @@ export const shadowMatchDeContent: ProductPageContent = {
     slug: 'schattenbilder-zuordnen-arbeitsblaetter',
     appId: 'shadow-match',
     title: 'Schattenbilder Generator - Kostenlose Arbeitsblätter für Vorschule und Arbeitsblätter Grundschule',
-    description: 'Erstellen Sie professionelle Schattenbilder-Arbeitsblätter mit unserem Generator. Mit Ihrem Voller Zugang Abonnement gestalten Sie unbegrenzt druckbare Arbeitsblätter für visuelle Wahrnehmung. Zwei Übungsmodi: Schatten zuordnen und Bild zusammenfügen.',
+    description: 'Erstellen Sie professionelle Schattenbilder-Arbeitsblätter mit unserem Generator. Mit Ihrem Vollzugriff Abonnement gestalten Sie unbegrenzt druckbare Arbeitsblätter für visuelle Wahrnehmung. Zwei Übungsmodi: Schatten zuordnen und Bild zusammenfügen.',
     keywords: 'schattenbilder arbeitsblätter, visuelle wahrnehmung übungen, arbeitsblätter grundschule, kostenlose arbeitsblätter, vorschule arbeitsblätter, räumliches denken, wahrnehmungsübungen, silhouetten zuordnen, mathe arbeitsblätter, deutsch arbeitsblätter',
     canonicalUrl: 'https://www.lessoncraftstudio.com/de/apps/schattenbilder-zuordnen-arbeitsblaetter',
   },
@@ -39,7 +39,7 @@ export const shadowMatchDeContent: ProductPageContent = {
   hero: {
     title: 'Schattenbilder Generator',
     subtitle: 'Kostenlose Arbeitsblätter für Vorschule und Arbeitsblätter Grundschule',
-    description: `Mit dem Schattenbilder Zuordnen Generator erstellen Sie professionelle Wahrnehmungsübungen in wenigen Minuten. Ihr Voller Zugang Abonnement ermöglicht unbegrenzte Arbeitsblatt-Erstellung ohne zusätzliche Kosten. Der Generator bietet zwei einzigartige Übungsmodi. Kinder ordnen farbige Bilder ihren schwarzen Silhouetten zu. Oder sie fügen geteilte Bildhälften wieder zusammen.
+    description: `Mit dem Schattenbilder Zuordnen Generator erstellen Sie professionelle Wahrnehmungsübungen in wenigen Minuten. Ihr Vollzugriff Abonnement ermöglicht unbegrenzte Arbeitsblatt-Erstellung ohne zusätzliche Kosten. Der Generator bietet zwei einzigartige Übungsmodi. Kinder ordnen farbige Bilder ihren schwarzen Silhouetten zu. Oder sie fügen geteilte Bildhälften wieder zusammen.
 
 Der Schattenbilder Generator ist ideal für Vorschule Arbeitsblätter und Arbeitsblätter Grundschule. Im Schattenmodus erkennen Kinder Umrisse und Konturen. Im Zusammenfügen-Modus trainieren sie räumliches Vorstellungsvermögen. Beide Modi fördern wichtige Vorläuferfähigkeiten für das Lernen. Die Übungen eignen sich perfekt für den Förderunterricht. Auch für den regulären Sachunterricht sind diese Arbeitsblätter wertvoll.
 
@@ -157,7 +157,7 @@ Buchstaben lernen funktioniert in jeder Sprache. Kombinieren Sie mit Ausmalbilde
         id: '5',
         icon: '💰',
         title: 'Gewerbliche Lizenz für Arbeitsblätter Grundschule - Verkaufen Sie kostenlose Arbeitsblätter und Mathe Arbeitsblätter online',
-        description: `Mit Ihrem Voller Zugang Abonnement erhalten Sie eine kommerzielle Print-on-Demand Lizenz. Verkaufen Sie Ihre Arbeitsblätter auf Eduki ohne Einschränkungen. Bieten Sie Materialien auf Etsy an. Veröffentlichen Sie Arbeitshefte auf Amazon KDP. Die 300 DPI Qualität erfüllt professionelle Druckstandards. Keine zusätzlichen Lizenzgebühren erforderlich.
+        description: `Mit Ihrem Vollzugriff Abonnement erhalten Sie eine kommerzielle Print-on-Demand Lizenz. Verkaufen Sie Ihre Arbeitsblätter auf Eduki ohne Einschränkungen. Bieten Sie Materialien auf Etsy an. Veröffentlichen Sie Arbeitshefte auf Amazon KDP. Die 300 DPI Qualität erfüllt professionelle Druckstandards. Keine zusätzlichen Lizenzgebühren erforderlich.
 
 Arbeitsblätter Grundschule und Mathe Arbeitsblätter sind besonders gefragt. Erstellen Sie thematische Pakete für höhere Verkaufspreise. Viele Lehrkräfte verdienen 500 bis 5000 Euro monatlich mit selbst erstellten Materialien. Wahrnehmungsübungen sind ein wachsender Nischenmarkt.`,
         highlighted: true,
@@ -317,7 +317,7 @@ Nutzen Sie Vorschule Arbeitsblätter für grundlegende Wahrnehmungsförderung. E
         icon: '💼',
         title: 'Lehrerunternehmer verkaufen Mathe Arbeitsblätter - Einmaleins und Schwungübungen auf Eduki anbieten',
         subtitle: 'Verkauf auf Online-Plattformen',
-        description: `Kreative Lehrkräfte verdienen mit selbst erstellten Materialien. Das Voller Zugang Abonnement enthält eine kommerzielle Lizenz. Verkaufen Sie Ihre Schattenbilder-Arbeitsblätter auf Eduki. Bieten Sie thematische Pakete auf Etsy an. Mathe Arbeitsblätter und Einmaleins Ergänzungsmaterialien sind besonders gefragt.
+        description: `Kreative Lehrkräfte verdienen mit selbst erstellten Materialien. Das Vollzugriff Abonnement enthält eine kommerzielle Lizenz. Verkaufen Sie Ihre Schattenbilder-Arbeitsblätter auf Eduki. Bieten Sie thematische Pakete auf Etsy an. Mathe Arbeitsblätter und Einmaleins Ergänzungsmaterialien sind besonders gefragt.
 
 Auch Schwungübungen Pakete verkaufen sich gut. Die 300 DPI Qualität erfüllt professionelle Standards. Wahrnehmungsübungen sind ein wachsender Nischenmarkt.`,
         quote: 'Mein Abonnement hat sich im ersten Monat bezahlt gemacht!',
@@ -340,7 +340,7 @@ Auch Schwungübungen Pakete verkaufen sich gut. Die 300 DPI Qualität erfüllt p
       {
         id: '1',
         question: 'Ist der Schattenbilder Generator wirklich kostenlos für Mathe Arbeitsblätter und Einmaleins Übungen?',
-        answer: `Der Schattenbilder Generator erfordert ein Voller Zugang Abonnement für 240 Euro jährlich oder 25 Euro monatlich. Mit Ihrem Abonnement erstellen Sie unbegrenzt Wahrnehmungsarbeitsblätter ohne zusätzliche Kosten. Keine Gebühren pro Arbeitsblatt fallen an. Das Voller Zugang Abonnement enthält alle 33 Arbeitsblatt-Generatoren. Die kommerzielle Lizenz und 11 Sprachversionen sind inklusive. Erstellen Sie Mathe Arbeitsblätter und Einmaleins Ergänzungen ohne Limit.`,
+        answer: `Der Schattenbilder Generator erfordert ein Vollzugriff Abonnement für 240 Euro jährlich oder 25 Euro monatlich. Mit Ihrem Abonnement erstellen Sie unbegrenzt Wahrnehmungsarbeitsblätter ohne zusätzliche Kosten. Keine Gebühren pro Arbeitsblatt fallen an. Das Vollzugriff Abonnement enthält alle 33 Arbeitsblatt-Generatoren. Die kommerzielle Lizenz und 11 Sprachversionen sind inklusive. Erstellen Sie Mathe Arbeitsblätter und Einmaleins Ergänzungen ohne Limit.`,
       },
       {
         id: '2',
@@ -355,7 +355,7 @@ Auch Schwungübungen Pakete verkaufen sich gut. Die 300 DPI Qualität erfüllt p
       {
         id: '4',
         question: 'Kann ich Schattenbilder im Unterricht für Buchstaben lernen und Schwungübungen verwenden?',
-        answer: `Das Voller Zugang Abonnement erlaubt unbegrenzte Nutzung im Unterricht. Drucken Sie beliebig viele Kopien für Ihre Schüler. Schattenbilder-Übungen ergänzen Buchstaben lernen als Wahrnehmungstraining. Kombinieren Sie mit Schwungübungen für motorische Entwicklung. Die visuelle Diskriminierung ist eine wichtige Vorläuferfähigkeit für das Lesen. Die Materialien sind sofort im Klassenzimmer einsetzbar.`,
+        answer: `Das Vollzugriff Abonnement erlaubt unbegrenzte Nutzung im Unterricht. Drucken Sie beliebig viele Kopien für Ihre Schüler. Schattenbilder-Übungen ergänzen Buchstaben lernen als Wahrnehmungstraining. Kombinieren Sie mit Schwungübungen für motorische Entwicklung. Die visuelle Diskriminierung ist eine wichtige Vorläuferfähigkeit für das Lesen. Die Materialien sind sofort im Klassenzimmer einsetzbar.`,
       },
       {
         id: '5',
@@ -365,7 +365,7 @@ Auch Schwungübungen Pakete verkaufen sich gut. Die 300 DPI Qualität erfüllt p
       {
         id: '6',
         question: 'Kann ich selbst erstellte Schattenbilder-Arbeitsblätter mit Ausmalbilder und Malvorlagen verkaufen?',
-        answer: `Ja, das Voller Zugang Abonnement enthält eine kommerzielle Print-on-Demand Lizenz. Verkaufen Sie Ihre Wahrnehmungsübungen auf Eduki. Bieten Sie thematische Pakete auf Etsy an. Kombinieren Sie Schattenbilder mit Ausmalbilder und Malvorlagen für umfassende Lernpakete. Veröffentlichen Sie Arbeitshefte auf Amazon KDP. Keine zusätzlichen Lizenzgebühren fallen an.`,
+        answer: `Ja, das Vollzugriff Abonnement enthält eine kommerzielle Print-on-Demand Lizenz. Verkaufen Sie Ihre Wahrnehmungsübungen auf Eduki. Bieten Sie thematische Pakete auf Etsy an. Kombinieren Sie Schattenbilder mit Ausmalbilder und Malvorlagen für umfassende Lernpakete. Veröffentlichen Sie Arbeitshefte auf Amazon KDP. Keine zusätzlichen Lizenzgebühren fallen an.`,
       },
       {
         id: '7',
@@ -403,7 +403,7 @@ Auch Schwungübungen Pakete verkaufen sich gut. Die 300 DPI Qualität erfüllt p
   // Related Apps Section - FULL text from schattenbilder-zuordnen.md
   relatedApps: {
     sectionTitle: 'Schattenbilder mit anderen Generatoren kombinieren - Schwungübungen und Buchstaben lernen Lernpakete erstellen',
-    sectionDescription: 'Der Schattenbilder Generator ist eines von 33 Tools im Voller Zugang Abonnement. Kombinieren Sie verschiedene Arbeitsblatt-Typen für umfassende Lernpakete. Erstellen Sie thematisch abgestimmte Materialien für Ihren Unterricht. Wahrnehmungsübungen ergänzen klassische Lernmaterialien perfekt.',
+    sectionDescription: 'Der Schattenbilder Generator ist eines von 33 Tools im Vollzugriff Abonnement. Kombinieren Sie verschiedene Arbeitsblatt-Typen für umfassende Lernpakete. Erstellen Sie thematisch abgestimmte Materialien für Ihren Unterricht. Wahrnehmungsübungen ergänzen klassische Lernmaterialien perfekt.',
     ctaTitle: 'Bereit für professionelle Schattenbilder-Arbeitsblätter?',
     ctaDescription: 'Schließen Sie sich tausenden Pädagogen an, die professionelle Arbeitsblätter in Minuten erstellen.',
     primaryCtaText: 'Kostenlos Testen',
@@ -469,7 +469,7 @@ Auch Schwungübungen Pakete verkaufen sich gut. Die 300 DPI Qualität erfüllt p
 
   // Pricing Section
   pricing: {
-    title: 'Voller Zugang',
+    title: 'Vollzugriff',
     price: '240€',
     priceInterval: '/Jahr',
     priceSuffix: 'Jährlich abgerechnet',

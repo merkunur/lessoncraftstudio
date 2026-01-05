@@ -453,7 +453,7 @@ Das Vollzugriff Abonnement für 240 Euro jährlich amortisiert sich schnell. Ber
 
   // Pricing Section
   pricing: {
-    title: 'Voller Zugang',
+    title: 'Vollzugriff',
     price: '240€',
     priceInterval: '/Jahr',
     priceSuffix: 'Jährlich abgerechnet',

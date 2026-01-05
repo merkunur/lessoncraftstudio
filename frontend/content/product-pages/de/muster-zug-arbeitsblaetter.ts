@@ -532,7 +532,7 @@ Kombinieren Sie Muster-Arbeitsblätter mit Ausmalbilder für kreative Einheiten.
 
   // Pricing Section
   pricing: {
-    title: 'Voller Zugang',
+    title: 'Vollzugriff',
     price: '240€',
     priceInterval: '/Jahr',
     priceSuffix: 'Jährlich abgerechnet',

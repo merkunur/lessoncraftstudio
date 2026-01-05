@@ -37,7 +37,7 @@ export const mathPuzzleDeContent: ProductPageContent = {
   hero: {
     title: 'Mathe-Rätsel',
     subtitle: 'Kostenlose Arbeitsblätter Grundschule - Generator für Vorschule Arbeitsblätter und Rechnen lernen',
-    description: `Erstellen Sie professionelle Mathe-Rätsel Arbeitsblätter mit unserem benutzerfreundlichen Generator. Ihr Voller Zugang Abonnement ermöglicht unbegrenzte Arbeitsblatt-Erstellung ohne zusätzliche Kosten pro Arbeitsblatt. Generieren Sie individuelle Mathe-Rätsel perfekt für Arbeitsblätter Grundschule, Vorschule Arbeitsblätter und Rechnen lernen. Laden Sie hochwertige PDF-Dateien in unter 3 Minuten herunter.
+    description: `Erstellen Sie professionelle Mathe-Rätsel Arbeitsblätter mit unserem benutzerfreundlichen Generator. Ihr Vollzugriff Abonnement ermöglicht unbegrenzte Arbeitsblatt-Erstellung ohne zusätzliche Kosten pro Arbeitsblatt. Generieren Sie individuelle Mathe-Rätsel perfekt für Arbeitsblätter Grundschule, Vorschule Arbeitsblätter und Rechnen lernen. Laden Sie hochwertige PDF-Dateien in unter 3 Minuten herunter.
 
 Mathe-Rätsel verbinden spielerisches Lernen mit mathematischen Grundlagen. Kinder lösen Additions- und Subtraktionsaufgaben, um ein Bilderrätsel zu vervollständigen. Jedes Arbeitsblatt enthält ein Raster mit Rechenaufgaben. Die richtigen Lösungen ergeben ein verstecktes Bild. Das motiviert Kinder zum Weiterrechnen und macht Rechnen lernen zum Abenteuer.
 
@@ -154,7 +154,7 @@ Die Sprachunterstützung erstreckt sich auf die gesamte Benutzeroberfläche. Arb
         id: '5',
         icon: '💰',
         title: 'Kommerzielle Lizenz für Mathe Arbeitsblätter und Einmaleins Übungen - Auf Lehrermarktplatz verkaufen',
-        description: `Das Voller Zugang Abonnement enthält eine vollständige kommerzielle Print-on-Demand Lizenz ohne Zusatzkosten. Verkaufen Sie Ihre Mathe-Rätsel Arbeitsblätter auf Plattformen wie Etsy, Lehrermarktplatz oder Amazon KDP. Erstellen Sie Vorschule Arbeitsblätter Pakete für passives Einkommen. Generieren Sie Arbeitsblätter Grundschule Sammlungen für Lehrplan-Marktplätze. Keine Namensnennung erforderlich.
+        description: `Das Vollzugriff Abonnement enthält eine vollständige kommerzielle Print-on-Demand Lizenz ohne Zusatzkosten. Verkaufen Sie Ihre Mathe-Rätsel Arbeitsblätter auf Plattformen wie Etsy, Lehrermarktplatz oder Amazon KDP. Erstellen Sie Vorschule Arbeitsblätter Pakete für passives Einkommen. Generieren Sie Arbeitsblätter Grundschule Sammlungen für Lehrplan-Marktplätze. Keine Namensnennung erforderlich.
 
 Diese kommerzielle Lizenz macht unseren Generator wertvoll für Lehrer-Unternehmer. Erstellen Sie thematische Mathe Arbeitsblätter Pakete für saisonale Verkäufe. Entwickeln Sie umfassende Rechnen lernen Sammlungen für den Schuljahresbeginn. Bündeln Sie Einmaleins Übungen mit Mathe-Rätseln für höherwertige Produkte.
 
@@ -331,7 +331,7 @@ Jeder Erfolg motiviert zum Weitermachen bei Mathe Arbeitsblättern. Die Lösungs
         icon: '💰',
         title: 'Lehrer-Unternehmer - Kostenlose Arbeitsblätter Grundschule und Vorschule Arbeitsblätter verkaufen mit POD-Lizenz',
         subtitle: 'Kommerzielle Lizenz für passive Einnahmen',
-        description: `Lehrer-Verkäufer auf Lehrermarktplatz und Etsy nutzen unseren Generator für Produkterstellung. Das Voller Zugang Abonnement enthält volle kommerzielle Lizenzierung für Print-on-Demand Nutzung. Erstellen Sie thematische Arbeitsblatt-Pakete für saisonale Verkäufe mit Arbeitsblätter Grundschule und Vorschule Arbeitsblätter.
+        description: `Lehrer-Verkäufer auf Lehrermarktplatz und Etsy nutzen unseren Generator für Produkterstellung. Das Vollzugriff Abonnement enthält volle kommerzielle Lizenzierung für Print-on-Demand Nutzung. Erstellen Sie thematische Arbeitsblatt-Pakete für saisonale Verkäufe mit Arbeitsblätter Grundschule und Vorschule Arbeitsblätter.
 
 Generieren Sie 20 verschiedene Herbst-thematische Mathe-Rätsel für Herbst-Verkauf. Erstellen Sie 30 Ozean-thematische Rätsel für Sommer-Pakete. Produzieren Sie 25 Weihnachts-Rätsel für Dezember-Verkäufe. Jedes Paket dauert weniger als eine Stunde zu erstellen. Verkaufen Sie für 3-8 Euro pro Paket auf Lehrermarktplatz oder Etsy.
 
@@ -356,7 +356,7 @@ Amazon KDP eignet sich für Mathe-Rätsel Arbeitsheft-Sammlungen für den Buchma
       {
         id: '1',
         question: 'Ist dieser Mathe-Rätsel Generator wirklich kostenlos für Mathe Arbeitsblätter und Rechnen lernen?',
-        answer: 'Wortsuchrätsel ist die einzige kostenlose App auf LessonCraft Studio. Mathe-Rätsel erfordert ein Voller Zugang Abonnement. Das Abonnement kostet 240 Euro pro Jahr oder 25 Euro pro Monat. "Kostenlose Arbeitsblätter" bezieht sich auf die Ausgabe nicht den Generator selbst. Mit Ihrem Voller Zugang Abonnement erstellen Sie unbegrenzte druckbare Arbeitsblätter ohne Gebühren pro Arbeitsblatt. Ihr Abonnement enthält kommerzielle Lizenzierung, 11 Sprachen und Zugang zu 33 verschiedenen Arbeitsblatt-Generatoren einschließlich Mathe-Rätsel kombiniert mit Mathe Arbeitsblättern für Einmaleins und Rechnen lernen.',
+        answer: 'Wortsuchrätsel ist die einzige kostenlose App auf LessonCraft Studio. Mathe-Rätsel erfordert ein Vollzugriff Abonnement. Das Abonnement kostet 240 Euro pro Jahr oder 25 Euro pro Monat. "Kostenlose Arbeitsblätter" bezieht sich auf die Ausgabe nicht den Generator selbst. Mit Ihrem Vollzugriff Abonnement erstellen Sie unbegrenzte druckbare Arbeitsblätter ohne Gebühren pro Arbeitsblatt. Ihr Abonnement enthält kommerzielle Lizenzierung, 11 Sprachen und Zugang zu 33 verschiedenen Arbeitsblatt-Generatoren einschließlich Mathe-Rätsel kombiniert mit Mathe Arbeitsblättern für Einmaleins und Rechnen lernen.',
       },
       {
         id: '2',
@@ -371,7 +371,7 @@ Amazon KDP eignet sich für Mathe-Rätsel Arbeitsheft-Sammlungen für den Buchma
       {
         id: '4',
         question: 'Kann ich Einmaleins Aufgaben mit dem Mathe-Rätsel Generator erstellen für Mathe Arbeitsblätter?',
-        answer: 'Der Mathe-Rätsel Generator fokussiert auf Addition und Subtraktion für die Grundschule. Für das Einmaleins empfehlen wir unseren separaten Mathe Arbeitsblatt Generator. Beide sind im Voller Zugang Abo enthalten. Das Einmaleins lässt sich mit verschiedenen Schwierigkeitsstufen üben. Multiplizieren und Dividieren werden abgedeckt. Die Kombination beider Generatoren bietet umfassende Mathe Arbeitsblätter für alle Grundrechenarten.',
+        answer: 'Der Mathe-Rätsel Generator fokussiert auf Addition und Subtraktion für die Grundschule. Für das Einmaleins empfehlen wir unseren separaten Mathe Arbeitsblatt Generator. Beide sind im Vollzugriff Abo enthalten. Das Einmaleins lässt sich mit verschiedenen Schwierigkeitsstufen üben. Multiplizieren und Dividieren werden abgedeckt. Die Kombination beider Generatoren bietet umfassende Mathe Arbeitsblätter für alle Grundrechenarten.',
       },
       {
         id: '5',
@@ -381,7 +381,7 @@ Amazon KDP eignet sich für Mathe-Rätsel Arbeitsheft-Sammlungen für den Buchma
       {
         id: '6',
         question: 'Kann ich Mathe-Rätsel Arbeitsblätter verkaufen auf Lehrermarktplatz und Etsy?',
-        answer: 'Ja, Voller Zugang Abonnement enthält volle kommerzielle Lizenzierung für Print-on-Demand Nutzung. Verkaufen Sie Ihre Arbeitsblätter auf Lehrermarktplatz, Etsy, Amazon KDP oder Ihrer eigenen Website. Keine zusätzlichen Lizenzierungsgebühren jenseits des 240-Euro jährlichen Abonnements. Keine Pro-Produkt Lizenzgebühren oder Nutzungseinschränkungen. Erstellen Sie thematische Pakete und preisen Sie sie wie Sie wählen. Die kommerzielle Lizenz deckt alle digitalen und Druckverkäufe. Viele Lehrer decken ihre Abonnementkosten durch nur 5-10 Arbeitsblatt-Pakete jährlich verkaufen.',
+        answer: 'Ja, Vollzugriff Abonnement enthält volle kommerzielle Lizenzierung für Print-on-Demand Nutzung. Verkaufen Sie Ihre Arbeitsblätter auf Lehrermarktplatz, Etsy, Amazon KDP oder Ihrer eigenen Website. Keine zusätzlichen Lizenzierungsgebühren jenseits des 240-Euro jährlichen Abonnements. Keine Pro-Produkt Lizenzgebühren oder Nutzungseinschränkungen. Erstellen Sie thematische Pakete und preisen Sie sie wie Sie wählen. Die kommerzielle Lizenz deckt alle digitalen und Druckverkäufe. Viele Lehrer decken ihre Abonnementkosten durch nur 5-10 Arbeitsblatt-Pakete jährlich verkaufen.',
       },
       {
         id: '7',
@@ -391,7 +391,7 @@ Amazon KDP eignet sich für Mathe-Rätsel Arbeitsheft-Sammlungen für den Buchma
       {
         id: '8',
         question: 'Gibt es Schwungübungen im Mathe-Rätsel Generator oder sind diese separat?',
-        answer: 'Schwungübungen sind ein eigenständiger Generator auf unserer Plattform. Schwungübungen trainieren die Feinmotorik vor dem Schreiben. Kombinieren Sie Schwungübungen mit Mathe-Rätseln für abwechslungsreichen Unterricht. Beide Tools sind im Voller Zugang Abo für 240€ pro Jahr enthalten. Mit allen 33 Generatoren erstellen Sie komplette Lernpakete die Rechnen lernen, Buchstaben lernen und Feinmotorik-Übungen kombinieren.',
+        answer: 'Schwungübungen sind ein eigenständiger Generator auf unserer Plattform. Schwungübungen trainieren die Feinmotorik vor dem Schreiben. Kombinieren Sie Schwungübungen mit Mathe-Rätseln für abwechslungsreichen Unterricht. Beide Tools sind im Vollzugriff Abo für 240€ pro Jahr enthalten. Mit allen 33 Generatoren erstellen Sie komplette Lernpakete die Rechnen lernen, Buchstaben lernen und Feinmotorik-Übungen kombinieren.',
       },
       {
         id: '9',
@@ -418,7 +418,7 @@ Amazon KDP eignet sich für Mathe-Rätsel Arbeitsheft-Sammlungen für den Buchma
 
   // Pricing - Vollzugriff pricing (240€/year)
   pricing: {
-    title: 'Voller Zugang',
+    title: 'Vollzugriff',
     price: '240€',
     priceInterval: '/Jahr',
     priceSuffix: 'Jährliche Abrechnung',
@@ -438,7 +438,7 @@ Amazon KDP eignet sich für Mathe-Rätsel Arbeitsheft-Sammlungen für den Buchma
   // Related Apps - Apps that work well with math puzzle
   relatedApps: {
     sectionTitle: 'Mathe-Rätsel kombinieren mit anderen Apps - Komplette kostenlose Arbeitsblätter mit Rechnen lernen und Einmaleins',
-    sectionDescription: 'LessonCraft Studio bietet 33 verschiedene Arbeitsblatt-Generatoren mit Ihrem Voller Zugang Abonnement. Lehrer erstellen umfassende Lernpakete durch Kombination multipler Arbeitsblatt-Typen. Mathe-Rätsel funktionieren perfekt neben anderen Mathe-Arbeitsblättern und Feinmotorik-Aktivitäten.',
+    sectionDescription: 'LessonCraft Studio bietet 33 verschiedene Arbeitsblatt-Generatoren mit Ihrem Vollzugriff Abonnement. Lehrer erstellen umfassende Lernpakete durch Kombination multipler Arbeitsblatt-Typen. Mathe-Rätsel funktionieren perfekt neben anderen Mathe-Arbeitsblättern und Feinmotorik-Aktivitäten.',
     ctaTitle: 'Bereit, fantastische Arbeitsblätter zu erstellen?',
     ctaDescription: 'Schließen Sie sich tausenden Lehrkräften an, die professionelle Arbeitsblätter erstellen. Unbegrenzte Generierung, kommerzielle Lizenz inklusive.',
     primaryCtaText: 'Kostenlose Testversion Starten',

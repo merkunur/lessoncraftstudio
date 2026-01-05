@@ -28,7 +28,7 @@ export const chartCountDeContent: ProductPageContent = {
     slug: 'bilddiagramm-arbeitsblaetter',
     appId: 'chart-count-color',
     title: 'Bilddiagramm Arbeitsblätter Generator - Kostenlose Arbeitsblätter für Mathe in der Grundschule und Vorschule',
-    description: 'Erstellen Sie professionelle Bilddiagramm Arbeitsblätter mit unserem Mathe-Arbeitsblätter Generator. Mit Ihrem Voller Zugang Abo erhalten Sie unbegrenzten Zugang ohne zusätzliche Gebühren pro Arbeitsblatt. Generieren Sie druckfertige Arbeitsblätter Grundschule und Vorschul-Arbeitsblätter perfekt zum Zählen und für Datenvisualisierung.',
+    description: 'Erstellen Sie professionelle Bilddiagramm Arbeitsblätter mit unserem Mathe-Arbeitsblätter Generator. Mit Ihrem Vollzugriff Abo erhalten Sie unbegrenzten Zugang ohne zusätzliche Gebühren pro Arbeitsblatt. Generieren Sie druckfertige Arbeitsblätter Grundschule und Vorschul-Arbeitsblätter perfekt zum Zählen und für Datenvisualisierung.',
     keywords: 'bilddiagramm arbeitsblätter, arbeitsblätter grundschule, kostenlose arbeitsblätter, mathe arbeitsblätter, vorschule arbeitsblätter, rechnen lernen, deutsch arbeitsblätter, einmaleins, schwungübungen, ausmalbilder',
     canonicalUrl: 'https://www.lessoncraftstudio.com/de/apps/bilddiagramm-arbeitsblaetter',
   },
@@ -37,7 +37,7 @@ export const chartCountDeContent: ProductPageContent = {
   hero: {
     title: 'Bilddiagramm Arbeitsblätter Generator',
     subtitle: 'Kostenlose Arbeitsblätter für Mathe in der Grundschule und Vorschule',
-    description: `Erstellen Sie professionelle Bilddiagramm Arbeitsblätter mit unserem Mathe-Arbeitsblätter Generator. Mit Ihrem Voller Zugang Abo erhalten Sie unbegrenzten Zugang ohne zusätzliche Gebühren pro Arbeitsblatt. Generieren Sie druckfertige Arbeitsblätter Grundschule und Vorschul-Arbeitsblätter perfekt zum Zählen und für Datenvisualisierung. Laden Sie hochwertige PDF-Dateien in weniger als 3 Minuten herunter.
+    description: `Erstellen Sie professionelle Bilddiagramm Arbeitsblätter mit unserem Mathe-Arbeitsblätter Generator. Mit Ihrem Vollzugriff Abo erhalten Sie unbegrenzten Zugang ohne zusätzliche Gebühren pro Arbeitsblatt. Generieren Sie druckfertige Arbeitsblätter Grundschule und Vorschul-Arbeitsblätter perfekt zum Zählen und für Datenvisualisierung. Laden Sie hochwertige PDF-Dateien in weniger als 3 Minuten herunter.
 
 Bilddiagramm Arbeitsblätter vermitteln Kindern das Zählen und die visuelle Darstellung von Daten. Jedes Arbeitsblatt enthält ein Bildergitter mit 20 zufälligen Bildern aus 6 verschiedenen Kategorien. Die Schüler zählen, wie oft jedes Bild vorkommt. Dann malen sie die entsprechende Anzahl von Kästchen im Diagramm aus. Diese praktische Zähl- und Malaktivität entwickelt grundlegende Mathe Fähigkeiten. Perfekt für die Grundschule und Vorschule. Das Ausmalen der Kästchen verbindet Rechnen lernen mit kreativen Ausmalbilder Aktivitäten.
 
@@ -139,7 +139,7 @@ DaF-Lehrkräfte nutzen mehrsprachige Arbeitsblätter zur Sprachförderung. Erste
         id: '5',
         icon: '💼',
         title: 'Gewerbliche Lizenz für Mathe-Arbeitsblätter Grundschule - Verkaufen Sie Kostenlose Arbeitsblätter auf Lehrermarktplätzen',
-        description: `Ihr Voller Zugang Abo enthält eine Print-on-Demand Gewerbelizenz für alle erstellten Arbeitsblätter. Verkaufen Sie Bilddiagramm Arbeitsblätter auf Lehrermarktplätzen, Etsy und Amazon KDP. Keine Namensnennung erforderlich. Keine zusätzlichen Lizenzgebühren über Ihr Jahresabo hinaus. Erstellen Sie unbegrenzt Arbeitsblätter zum Verkauf. Die 300 DPI Profiqualität erfüllt Marktplatzstandards. Bilddiagramm Arbeitsblätter verkaufen sich hervorragend. Lehrkräfte suchen fertige Diagramm-Aktivitäten mit Lösungsschlüssel.
+        description: `Ihr Vollzugriff Abo enthält eine Print-on-Demand Gewerbelizenz für alle erstellten Arbeitsblätter. Verkaufen Sie Bilddiagramm Arbeitsblätter auf Lehrermarktplätzen, Etsy und Amazon KDP. Keine Namensnennung erforderlich. Keine zusätzlichen Lizenzgebühren über Ihr Jahresabo hinaus. Erstellen Sie unbegrenzt Arbeitsblätter zum Verkauf. Die 300 DPI Profiqualität erfüllt Marktplatzstandards. Bilddiagramm Arbeitsblätter verkaufen sich hervorragend. Lehrkräfte suchen fertige Diagramm-Aktivitäten mit Lösungsschlüssel.
 
 Lehrerunternehmer bauen erfolgreiche Geschäfte mit Mathe-Arbeitsblättern auf. Erstellen Sie thematische Pakete mit 10 Bilddiagramm Arbeitsblättern. Preise zwischen 4 und 8 Euro auf Lehrermarktplätzen sind üblich. Viele Verkäufer verdienen 500 bis 2000 Euro monatlich mit Arbeitsblatt-Paketen. Der automatische Lösungsschlüssel steigert den Wert erheblich. Lehrkräfte zahlen Premiumpreise für Arbeitsblätter Grundschule mit Lösungen.`,
         highlighted: false,
@@ -304,7 +304,7 @@ Passen Sie visuelle Elemente für Schüler mit Verarbeitungsunterschieden an. Ve
         icon: '💰',
         title: 'Lehrkräfte-Unternehmer',
         subtitle: 'Kostenlose Arbeitsblätter verkaufen mit Einmaleins und Malvorlagen',
-        description: `Lehrermarktplatz-Verkäufer benötigen hochwertige, professionelle Produkte, die spezifische Marktlücken füllen. Bilddiagramm Arbeitsblätter verkaufen sich hervorragend, weil Lehrkräfte ständig nach fertigen Diagramm-Aktivitäten mit Lösungsschlüssel suchen. Ihre Voller Zugang Gewerbelizenz ermöglicht unbegrenzte Arbeitsblatt-Pakete ohne zusätzliche Gebühren.
+        description: `Lehrermarktplatz-Verkäufer benötigen hochwertige, professionelle Produkte, die spezifische Marktlücken füllen. Bilddiagramm Arbeitsblätter verkaufen sich hervorragend, weil Lehrkräfte ständig nach fertigen Diagramm-Aktivitäten mit Lösungsschlüssel suchen. Ihre Vollzugriff Gewerbelizenz ermöglicht unbegrenzte Arbeitsblatt-Pakete ohne zusätzliche Gebühren.
 
 Erstellen Sie thematische Pakete mit 10 bis 20 Bilddiagramm Arbeitsblättern. Saisonale Pakete verkaufen sich besonders gut. Generieren Sie 15 herbstthematische Diagramm-Arbeitsblätter mit Kürbissen, Äpfeln, Blättern und Herbstobjekten. Preise zwischen 5 und 8 Euro sind üblich. Erstellen Sie ähnliche Pakete für Winterfeiertage, Frühling, Sommer, Schulanfang und große Feiertage. Differenzierte Pakete erzielen höhere Preise. Erstellen Sie ein Grundschul-Diagramm-Paket mit drei Schwierigkeitsstufen. Der automatische Lösungsschlüssel steigert den kommerziellen Wert erheblich. Lehrkräfte zahlen Premiumpreise für Mathe-Arbeitsblätter und Malvorlagen mit Lösungen.`,
         quote: 'Mein Abonnement hat sich im ersten Monat bezahlt gemacht!',
@@ -332,7 +332,7 @@ Erstellen Sie thematische Pakete mit 10 bis 20 Bilddiagramm Arbeitsblättern. Sa
       {
         id: '2',
         question: 'Kann ich Bilddiagramm Vorschul-Arbeitsblätter mit Schwungübungen und Buchstaben lernen Material kombinieren?',
-        answer: 'Bilddiagramm Arbeitsblätter ergänzen Schwungübungen und Buchstaben lernen Aktivitäten hervorragend. Das Ausmalen der Diagrammkästchen entwickelt Feinmotorik ähnlich wie Schwungübungen. Schüler üben kontrollierte Bewegungen innerhalb definierter Räume. Diese Fähigkeiten übertragen sich direkt auf Handschrift und Buchstaben lernen. Erstellen Sie integrierte Lernpakete mit Vorschul-Arbeitsblättern aus mehreren Generatoren. Generieren Sie Bilddiagramme am Montag für Mathe-Center. Erstellen Sie Schwungübungen am Dienstag für Feinmotorik-Stationen. Produzieren Sie Buchstaben lernen Arbeitsblätter am Mittwoch für Alphabetisierung. Ihr Voller Zugang Abo gewährt Zugang zu allen Generatoren für umfassende Vorschulprogramme.',
+        answer: 'Bilddiagramm Arbeitsblätter ergänzen Schwungübungen und Buchstaben lernen Aktivitäten hervorragend. Das Ausmalen der Diagrammkästchen entwickelt Feinmotorik ähnlich wie Schwungübungen. Schüler üben kontrollierte Bewegungen innerhalb definierter Räume. Diese Fähigkeiten übertragen sich direkt auf Handschrift und Buchstaben lernen. Erstellen Sie integrierte Lernpakete mit Vorschul-Arbeitsblättern aus mehreren Generatoren. Generieren Sie Bilddiagramme am Montag für Mathe-Center. Erstellen Sie Schwungübungen am Dienstag für Feinmotorik-Stationen. Produzieren Sie Buchstaben lernen Arbeitsblätter am Mittwoch für Alphabetisierung. Ihr Vollzugriff Abo gewährt Zugang zu allen Generatoren für umfassende Vorschulprogramme.',
       },
       {
         id: '3',
@@ -342,7 +342,7 @@ Erstellen Sie thematische Pakete mit 10 bis 20 Bilddiagramm Arbeitsblättern. Sa
       {
         id: '4',
         question: 'Funktioniert der Generator für Rechnen lernen und Rechnen 1. Klasse Material mit Einmaleins Übungen zusammen?',
-        answer: 'Bilddiagramm Arbeitsblätter bilden eine Grundlage für späteres Rechnen lernen und Einmaleins. Schüler entwickeln Zahlensinn durch aktives Zählen. Sie verstehen Mengenbeziehungen durch visuelle Darstellung. Diese Konzepte sind fundamental für Rechnen 1. Klasse und höhere Mathematik. Die Plattform bietet separate Generatoren für Einmaleins und fortgeschrittene Mathe-Operationen. Beginnen Sie mit Bilddiagrammen zur Entwicklung von Zählfähigkeiten. Fahren Sie fort mit Addition und Subtraktion Arbeitsblättern für Rechnen lernen. Führen Sie Einmaleins ein wenn Schüler bereit sind für Multiplikation. Ihr Voller Zugang Abo gewährt Zugang zu allen Mathe-Generatoren. Erstellen Sie einen progressiven Mathematiklehrplan von Vorschule bis Grundschulabschluss.',
+        answer: 'Bilddiagramm Arbeitsblätter bilden eine Grundlage für späteres Rechnen lernen und Einmaleins. Schüler entwickeln Zahlensinn durch aktives Zählen. Sie verstehen Mengenbeziehungen durch visuelle Darstellung. Diese Konzepte sind fundamental für Rechnen 1. Klasse und höhere Mathematik. Die Plattform bietet separate Generatoren für Einmaleins und fortgeschrittene Mathe-Operationen. Beginnen Sie mit Bilddiagrammen zur Entwicklung von Zählfähigkeiten. Fahren Sie fort mit Addition und Subtraktion Arbeitsblättern für Rechnen lernen. Führen Sie Einmaleins ein wenn Schüler bereit sind für Multiplikation. Ihr Vollzugriff Abo gewährt Zugang zu allen Mathe-Generatoren. Erstellen Sie einen progressiven Mathematiklehrplan von Vorschule bis Grundschulabschluss.',
       },
       {
         id: '5',
@@ -356,8 +356,8 @@ Erstellen Sie thematische Pakete mit 10 bis 20 Bilddiagramm Arbeitsblättern. Sa
       },
       {
         id: '7',
-        question: 'Was kostet das Voller Zugang Abo für Einmaleins, Schwungübungen und alle Mathe-Arbeitsblätter Generatoren?',
-        answer: 'Voller Zugang kostet 240 Dollar jährlich oder 25 Dollar monatlich. Das Jahresabo bietet 17% Ersparnis gegenüber monatlicher Zahlung. Dieser flache Preis gewährt unbegrenzten Zugang zu allen 25+ Arbeitsblatt-Generatoren einschließlich Bilddiagramm, Einmaleins, Schwungübungen und alle anderen Werkzeuge. Keine Begrenzung der Arbeitsblatterstellung. Keine zusätzlichen Kosten für Downloads. Keine Lizenzgebühren für gewerbliche Nutzung. Die enthaltene POD-Gewerbelizenz ermöglicht Verkauf aller erstellten Arbeitsblätter. Viele Lehrkräfte amortisieren ihr Abo durch Arbeitsblattverkäufe innerhalb weniger Monate. Der Wert von unbegrenzten Mathe-Arbeitsblättern, Schwungübungen und Buchstaben lernen Material übersteigt die Kosten erheblich.',
+        question: 'Was kostet das Vollzugriff Abo für Einmaleins, Schwungübungen und alle Mathe-Arbeitsblätter Generatoren?',
+        answer: 'Vollzugriff kostet 240 Dollar jährlich oder 25 Dollar monatlich. Das Jahresabo bietet 17% Ersparnis gegenüber monatlicher Zahlung. Dieser flache Preis gewährt unbegrenzten Zugang zu allen 25+ Arbeitsblatt-Generatoren einschließlich Bilddiagramm, Einmaleins, Schwungübungen und alle anderen Werkzeuge. Keine Begrenzung der Arbeitsblatterstellung. Keine zusätzlichen Kosten für Downloads. Keine Lizenzgebühren für gewerbliche Nutzung. Die enthaltene POD-Gewerbelizenz ermöglicht Verkauf aller erstellten Arbeitsblätter. Viele Lehrkräfte amortisieren ihr Abo durch Arbeitsblattverkäufe innerhalb weniger Monate. Der Wert von unbegrenzten Mathe-Arbeitsblättern, Schwungübungen und Buchstaben lernen Material übersteigt die Kosten erheblich.',
       },
       {
         id: '8',
@@ -372,14 +372,14 @@ Erstellen Sie thematische Pakete mit 10 bis 20 Bilddiagramm Arbeitsblättern. Sa
       {
         id: '10',
         question: 'Kann ich Arbeitsblätter Grundschule und Vorschul-Arbeitsblätter auf Lehrermarktplätzen verkaufen?',
-        answer: 'Ihr Voller Zugang Abo enthält eine vollständige Print-on-Demand Gewerbelizenz. Verkaufen Sie alle erstellten Arbeitsblätter auf Lehrermarktplatz, Eduki, Etsy, Amazon KDP oder Ihrer eigenen Website. Keine Namensnennung erforderlich. Keine zusätzlichen Lizenzgebühren. Keine Begrenzung der Verkaufsmenge. Bilddiagramm Arbeitsblätter verkaufen sich hervorragend weil Diagramm-Aktivitäten mit Lösungsschlüssel stark nachgefragt werden. Erstellen Sie thematische Pakete mit 15 bis 20 Arbeitsblättern. Verkaufen Sie für 5 bis 8 Euro pro Paket. Erfolgreiche Verkäufer berichten 500 bis 2000 Euro monatliches Einkommen. Kombinieren Sie Arbeitsblätter Grundschule, Vorschul-Arbeitsblätter und Mathe-Material für vielfältige Produktlinien. Der automatische Lösungsschlüssel steigert den kommerziellen Wert erheblich.',
+        answer: 'Ihr Vollzugriff Abo enthält eine vollständige Print-on-Demand Gewerbelizenz. Verkaufen Sie alle erstellten Arbeitsblätter auf Lehrermarktplatz, Eduki, Etsy, Amazon KDP oder Ihrer eigenen Website. Keine Namensnennung erforderlich. Keine zusätzlichen Lizenzgebühren. Keine Begrenzung der Verkaufsmenge. Bilddiagramm Arbeitsblätter verkaufen sich hervorragend weil Diagramm-Aktivitäten mit Lösungsschlüssel stark nachgefragt werden. Erstellen Sie thematische Pakete mit 15 bis 20 Arbeitsblättern. Verkaufen Sie für 5 bis 8 Euro pro Paket. Erfolgreiche Verkäufer berichten 500 bis 2000 Euro monatliches Einkommen. Kombinieren Sie Arbeitsblätter Grundschule, Vorschul-Arbeitsblätter und Mathe-Material für vielfältige Produktlinien. Der automatische Lösungsschlüssel steigert den kommerziellen Wert erheblich.',
       },
     ],
   },
 
-  // Pricing - Voller Zugang pricing (chart-count-color is a Voller Zugang app)
+  // Pricing - Vollzugriff pricing (chart-count-color is a Vollzugriff app)
   pricing: {
-    title: 'Voller Zugang',
+    title: 'Vollzugriff',
     price: '240€',
     priceInterval: '/Jahr',
     priceSuffix: 'Jährliche Abrechnung',
@@ -398,7 +398,7 @@ Erstellen Sie thematische Pakete mit 10 bis 20 Bilddiagramm Arbeitsblättern. Sa
   // Related Apps - FULL text from bilddiagramm.md combine apps section
   relatedApps: {
     sectionTitle: 'Bilddiagramm mit anderen Generatoren kombinieren - Einmaleins, Schwungübungen und Buchstaben lernen für komplette Deutsch-Arbeitsblätter',
-    sectionDescription: 'Bilddiagramm Arbeitsblätter erreichen maximale pädagogische Wirkung in Kombination mit anderen Arbeitsblatt-Generatoren der Plattform. Ihr Voller Zugang Abo gewährt Zugang zu allen 25+ Generatoren. Erstellen Sie umfassende Lernpakete, die Zählen, Lesen, Schreiben und Feinmotorik abdecken. Kombinieren Sie Bilddiagramme mit Einmaleins für progressives Mathe-Lernen. Ergänzen Sie mit Schwungübungen für Feinmotorik. Fügen Sie Buchstaben lernen Aktivitäten für Alphabetisierung hinzu. Integrieren Sie Deutsch-Arbeitsblätter für Sprachentwicklung. Diese Kombinationen schaffen ganzheitliche Bildungsprogramme.',
+    sectionDescription: 'Bilddiagramm Arbeitsblätter erreichen maximale pädagogische Wirkung in Kombination mit anderen Arbeitsblatt-Generatoren der Plattform. Ihr Vollzugriff Abo gewährt Zugang zu allen 25+ Generatoren. Erstellen Sie umfassende Lernpakete, die Zählen, Lesen, Schreiben und Feinmotorik abdecken. Kombinieren Sie Bilddiagramme mit Einmaleins für progressives Mathe-Lernen. Ergänzen Sie mit Schwungübungen für Feinmotorik. Fügen Sie Buchstaben lernen Aktivitäten für Alphabetisierung hinzu. Integrieren Sie Deutsch-Arbeitsblätter für Sprachentwicklung. Diese Kombinationen schaffen ganzheitliche Bildungsprogramme.',
     ctaTitle: 'Bereit, fantastische Bilddiagramm-Arbeitsblätter zu erstellen?',
     ctaDescription: 'Schließen Sie sich tausenden Lehrkräften an, die professionelle Arbeitsblätter erstellen. Unbegrenzte Generierung, kommerzielle Lizenz inklusive.',
     primaryCtaText: 'Kostenlose Testversion Starten',

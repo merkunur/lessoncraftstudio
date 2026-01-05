@@ -356,7 +356,7 @@ Viele Lehrkräfte verdienen 500-5000 € monatlich mit druckbaren Ressourcen fü
       {
         id: '1',
         question: 'Ist der Mathe-Rätsel Generator wirklich kostenlos für Mathe-Arbeitsblätter und Vorschul-Arbeitsblätter?',
-        answer: 'Der Mathe-Arbeitsblätter Generator erfordert ein Basis-Paket Abo. Das kostet 144 € jährlich oder 15 € monatlich. Ihr Abo ermöglicht unbegrenzte Arbeitsblatt-Erstellung ohne Zusatzkosten. Erstellen Sie so viele kostenlose Arbeitsblätter wie Sie brauchen ohne Gebühren pro Arbeitsblatt. Das Basis-Paket umfasst 10 beliebte Generatoren für Arbeitsblätter Grundschule. Voller Zugang kostet 240 € jährlich und enthält alle 33 Generatoren. Beide Abos beinhalten kommerzielle Lizenz, 11 Sprachen und 300 DPI Qualität.',
+        answer: 'Der Mathe-Arbeitsblätter Generator erfordert ein Basis-Paket Abo. Das kostet 144 € jährlich oder 15 € monatlich. Ihr Abo ermöglicht unbegrenzte Arbeitsblatt-Erstellung ohne Zusatzkosten. Erstellen Sie so viele kostenlose Arbeitsblätter wie Sie brauchen ohne Gebühren pro Arbeitsblatt. Das Basis-Paket umfasst 10 beliebte Generatoren für Arbeitsblätter Grundschule. Vollzugriff kostet 240 € jährlich und enthält alle 33 Generatoren. Beide Abos beinhalten kommerzielle Lizenz, 11 Sprachen und 300 DPI Qualität.',
       },
       {
         id: '2',

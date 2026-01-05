@@ -182,6 +182,9 @@ import treasureHuntEsContent from '@/content/product-pages/es/busqueda-tesoro-fi
 import wordGuessEsContent from '@/content/product-pages/es/adivinar-palabras-fichas';
 import writingEsContent from '@/content/product-pages/es/lectoescritura-fichas';
 
+// Italian content imports
+import wordSearchItContent from '@/content/product-pages/it/cerca-parole-schede';
+
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
   [locale: string]: {
@@ -763,6 +766,12 @@ export const contentRegistry: ContentRegistry = {
     'lectoescritura-fichas': writingEsContent,
     // Also keep old slug for backwards compatibility during transition
     'writing-worksheets': writingEsContent,
+  },
+  it: {
+    // Italian Word Search (Crucipuzzle) - uses Italian SEO slug
+    'cerca-parole-schede': wordSearchItContent,
+    // Also keep old slug for backwards compatibility during transition
+    'word-search-worksheets': wordSearchItContent,
   },
 };
 

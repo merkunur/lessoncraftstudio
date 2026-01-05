@@ -786,6 +786,12 @@ const nextConfig = {
         destination: '/es/apps/lectoescritura-fichas',
         permanent: true,
       },
+      // Italian: word-search-worksheets → cerca-parole-schede
+      {
+        source: '/it/apps/word-search-worksheets',
+        destination: '/it/apps/cerca-parole-schede',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

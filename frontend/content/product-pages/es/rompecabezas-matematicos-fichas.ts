@@ -25,7 +25,7 @@ export const mathPuzzleEsContent: ProductPageContent = {
   hero: {
     title: 'Fichas de Matemáticas para Imprimir - Rompecabezas Matemáticos Gratis - Ejercicios de Números para Preescolar y Primaria',
     subtitle: 'Generador de Fichas de Matemáticas con Rompecabezas Visuales',
-    description: `Crea fichas de matemáticas profesionales con rompecabezas divertidos que combinan práctica numérica con imágenes atractivas. Tu suscripción Full Access te da acceso a creación ilimitada de fichas para imprimir sin cargos adicionales por hoja. Genera ejercicios matemáticos personalizados perfectos para educación infantil, preescolar y primaria. Descarga fichas gratis en PDF de alta calidad en menos de 3 minutos.
+    description: `Crea fichas de matemáticas profesionales con rompecabezas divertidos que combinan práctica numérica con imágenes atractivas. Tu suscripción Acceso Completo te da acceso a creación ilimitada de fichas para imprimir sin cargos adicionales por hoja. Genera ejercicios matemáticos personalizados perfectos para educación infantil, preescolar y primaria. Descarga fichas gratis en PDF de alta calidad en menos de 3 minutos.
 
 Los rompecabezas matemáticos transforman ejercicios de números en actividades visuales motivadoras. Los estudiantes resuelven problemas de suma o resta para descubrir qué número corresponde a cada pieza del rompecabezas. Al resolver correctamente todos los ejercicios matemáticos, ensamblan una imagen completa. Esta combinación de fichas de matemáticas con actividad visual mantiene a los niños comprometidos y autoverifica su trabajo.
 
@@ -41,6 +41,13 @@ Las fichas de matemáticas con rompecabezas funcionan excepcionalmente bien para
       languages: '11 Idiomas',
       images: '3000+ Imágenes',
       license: 'Licencia Comercial',
+    },
+    readMoreLabel: 'Leer más',
+    showLessLabel: 'Ver menos',
+    floatingStats: {
+      time: '3 min',
+      action: 'Crear y Descargar',
+      quality: '300 DPI',
     },
   },
 
@@ -71,8 +78,13 @@ Las fichas de matemáticas con rompecabezas funcionan excepcionalmente bien para
   // Features Grid
   features: {
     sectionTitle: 'Características de Fichas para Imprimir - Todo lo que Necesitas para Crear Ejercicios Matemáticas Profesionales',
-    sectionDescription: 'Nuestro generador de rompecabezas matemáticos ofrece características completas para crear fichas de matemáticas atractivas y efectivas. Cada herramienta está diseñada para maestros ocupados que necesitan material educativo gratis de calidad profesional rápidamente. Crea fichas infantil personalizadas con configuración flexible, personalización completa y exportación de alta calidad. Tu suscripción Full Access incluye acceso ilimitado a todas las características sin costos adicionales por hoja.',
+    sectionDescription: 'Nuestro generador de rompecabezas matemáticos ofrece características completas para crear fichas de matemáticas atractivas y efectivas. Cada herramienta está diseñada para maestros ocupados que necesitan material educativo gratis de calidad profesional rápidamente. Crea fichas infantil personalizadas con configuración flexible, personalización completa y exportación de alta calidad. Tu suscripción Acceso Completo incluye acceso ilimitado a todas las características sin costos adicionales por hoja.',
     highlightBadgeText: 'Destacado',
+    trustBadges: {
+      allFeatures: 'Todas las características incluidas',
+      noHiddenFees: 'Sin cargos ocultos',
+      cancelAnytime: 'Cancela cuando quieras',
+    },
     items: [
       {
         id: '1',
@@ -106,7 +118,7 @@ Las fichas de matemáticas con rompecabezas funcionan excepcionalmente bien para
         id: '5',
         icon: '💰',
         title: 'Licencia Comercial POD Incluida - Vende tus Fichas Gratis en TPT, Etsy y Amazon KDP',
-        description: 'Tu suscripción Full Access incluye licencia comercial completa de impresión bajo demanda sin costos adicionales. Vende fichas de matemáticas que creas en Teachers Pay Teachers, Etsy o Amazon KDP. Publica libros de ejercicios matemáticas completos con múltiples rompecabezas temáticos. No se requiere atribución ni pagos de regalías adicionales más allá de tu suscripción de $240 anuales. Esta licencia comercial representa un valor enorme para maestros emprendedores. Crea paquetes de fichas infantil organizados por tema, estación o nivel de grado. Los compradores en TPT buscan constantemente material educativo gratis de calidad con elementos visuales atractivos. La exportación de 300 DPI garantiza calidad profesional perfecta para productos impresos. Muchos maestros generan $500-$5,000 mensuales vendiendo recursos creados con nuestra plataforma.',
+        description: 'Tu suscripción Acceso Completo incluye licencia comercial completa de impresión bajo demanda sin costos adicionales. Vende fichas de matemáticas que creas en Teachers Pay Teachers, Etsy o Amazon KDP. Publica libros de ejercicios matemáticas completos con múltiples rompecabezas temáticos. No se requiere atribución ni pagos de regalías adicionales más allá de tu suscripción de $240 anuales. Esta licencia comercial representa un valor enorme para maestros emprendedores. Crea paquetes de fichas infantil organizados por tema, estación o nivel de grado. Los compradores en TPT buscan constantemente material educativo gratis de calidad con elementos visuales atractivos. La exportación de 300 DPI garantiza calidad profesional perfecta para productos impresos. Muchos maestros generan $500-$5,000 mensuales vendiendo recursos creados con nuestra plataforma.',
         highlighted: true,
       },
       {
@@ -220,7 +232,7 @@ Las fichas de matemáticas con rompecabezas funcionan excepcionalmente bien para
         icon: '💼',
         title: 'Maestros Emprendedores',
         subtitle: 'Vende Fichas para Imprimir y Material Educativo con Abecedario y Números en TPT',
-        description: 'Los maestros que venden recursos educativos en Teachers Pay Teachers, Etsy o Amazon KDP necesitan contenido de alta calidad con licencias comerciales claras. Tu suscripción Full Access de $240 anuales incluye derechos comerciales completos de impresión bajo demanda. Crea paquetes de rompecabezas matemáticos temáticos organizados por estación, día festivo o tema curricular. Vende productos digitales que los compradores descargan e imprimen instantáneamente. Los paquetes de rompecabezas combinados con otros tipos de fichas gratis se venden excepcionalmente bien. Crea un paquete de "Matemáticas de Primavera" que incluye rompecabezas matemáticos, fichas de abecedario con imágenes florales y páginas de práctica de números con temas de jardín. Los compradores valoran paquetes integrados que cubren múltiples habilidades con diseño visual cohesivo. La exportación de 300 DPI garantiza calidad profesional que justifica precios premium.',
+        description: 'Los maestros que venden recursos educativos en Teachers Pay Teachers, Etsy o Amazon KDP necesitan contenido de alta calidad con licencias comerciales claras. Tu suscripción Acceso Completo de $240 anuales incluye derechos comerciales completos de impresión bajo demanda. Crea paquetes de rompecabezas matemáticos temáticos organizados por estación, día festivo o tema curricular. Vende productos digitales que los compradores descargan e imprimen instantáneamente. Los paquetes de rompecabezas combinados con otros tipos de fichas gratis se venden excepcionalmente bien. Crea un paquete de "Matemáticas de Primavera" que incluye rompecabezas matemáticos, fichas de abecedario con imágenes florales y páginas de práctica de números con temas de jardín. Los compradores valoran paquetes integrados que cubren múltiples habilidades con diseño visual cohesivo. La exportación de 300 DPI garantiza calidad profesional que justifica precios premium.',
         quote: 'Recuperé mi inversión vendiendo mis primeros 20 paquetes.',
       },
     ],
@@ -233,7 +245,7 @@ Las fichas de matemáticas con rompecabezas funcionan excepcionalmente bien para
       {
         id: '1',
         question: '¿Este Generador de Fichas de Matemáticas es Realmente Gratis para Usar con Números?',
-        answer: 'El generador de rompecabezas matemáticos requiere una suscripción Full Access que cuesta $240 anuales o $25 mensuales. Tu suscripción te da creación ilimitada de fichas de matemáticas sin cargos adicionales por hoja. Genera tantas fichas para imprimir de números como necesites sin costos adicionales. El acceso ilimitado significa que puedes crear cientos de hojas de trabajo diferenciadas mensualmente sin preocuparte por límites o tarifas por uso.',
+        answer: 'El generador de rompecabezas matemáticos requiere una suscripción Acceso Completo que cuesta $240 anuales o $25 mensuales. Tu suscripción te da creación ilimitada de fichas de matemáticas sin cargos adicionales por hoja. Genera tantas fichas para imprimir de números como necesites sin costos adicionales. El acceso ilimitado significa que puedes crear cientos de hojas de trabajo diferenciadas mensualmente sin preocuparte por límites o tarifas por uso.',
       },
       {
         id: '2',
@@ -248,7 +260,7 @@ Las fichas de matemáticas con rompecabezas funcionan excepcionalmente bien para
       {
         id: '4',
         question: '¿Puedo Usar Estas Fichas Preescolar de Números en mi Salón de Clases para Estudiantes?',
-        answer: 'La suscripción Full Access incluye uso ilimitado en el aula para todos tus estudiantes. Imprime tantas copias como necesites para tu clase completa, grupos pequeños o estudiantes individuales. Distribuye hojas de trabajo impresas directamente a los estudiantes. Comparte archivos PDF digitalmente a través de plataformas de aprendizaje en línea. Usa rompecabezas para trabajo matutino, centros de matemáticas, tareas o evaluaciones.',
+        answer: 'La suscripción Acceso Completo incluye uso ilimitado en el aula para todos tus estudiantes. Imprime tantas copias como necesites para tu clase completa, grupos pequeños o estudiantes individuales. Distribuye hojas de trabajo impresas directamente a los estudiantes. Comparte archivos PDF digitalmente a través de plataformas de aprendizaje en línea. Usa rompecabezas para trabajo matutino, centros de matemáticas, tareas o evaluaciones.',
       },
       {
         id: '5',
@@ -258,7 +270,7 @@ Las fichas de matemáticas con rompecabezas funcionan excepcionalmente bien para
       {
         id: '6',
         question: '¿Puedo Vender Fichas para Imprimir de Números que Creo con Este Generador?',
-        answer: 'Sí. La suscripción Full Access incluye licencia comercial completa de impresión bajo demanda sin costos adicionales. Vende rompecabezas matemáticos ilimitados que creas en Teachers Pay Teachers, Etsy o Amazon KDP. Publica libros de ejercicios matemáticas completos con múltiples rompecabezas temáticos. No se requieren pagos de atribución ni regalías más allá de tu tarifa de suscripción de $240 anuales.',
+        answer: 'Sí. La suscripción Acceso Completo incluye licencia comercial completa de impresión bajo demanda sin costos adicionales. Vende rompecabezas matemáticos ilimitados que creas en Teachers Pay Teachers, Etsy o Amazon KDP. Publica libros de ejercicios matemáticas completos con múltiples rompecabezas temáticos. No se requieren pagos de atribución ni regalías más allá de tu tarifa de suscripción de $240 anuales.',
       },
       {
         id: '7',
@@ -315,7 +327,7 @@ Las fichas de matemáticas con rompecabezas funcionan excepcionalmente bien para
   // Related Apps
   relatedApps: {
     sectionTitle: 'Combina Rompecabezas Matemáticos con Otras Fichas para Imprimir - Material Educativo Gratis Integrado para Aprendizaje Completo',
-    sectionDescription: 'Los maestros más efectivos combinan rompecabezas matemáticos con otros tipos de fichas para imprimir creando unidades de aprendizaje integradas completas. Tu suscripción Full Access desbloquea los 33 generadores permitiendo crear paquetes temáticos cohesivos.',
+    sectionDescription: 'Los maestros más efectivos combinan rompecabezas matemáticos con otros tipos de fichas para imprimir creando unidades de aprendizaje integradas completas. Tu suscripción Acceso Completo desbloquea los 33 generadores permitiendo crear paquetes temáticos cohesivos.',
     ctaTitle: '¿Listo para Crear Rompecabezas Matemáticos Increíbles?',
     ctaDescription: 'Únete a miles de maestros que crean fichas profesionales. Generación ilimitada, licencia comercial incluida.',
     primaryCtaText: 'Comenzar Prueba Gratis',

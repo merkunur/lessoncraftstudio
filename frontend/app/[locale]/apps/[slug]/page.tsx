@@ -135,6 +135,7 @@ import coloringItContent from '@/content/product-pages/it/disegni-da-colorare';
 import mathWorksheetsItContent from '@/content/product-pages/it/math-worksheets';
 import wordScrambleItContent from '@/content/product-pages/it/anagrammi-schede';
 import bigSmallItContent from '@/content/product-pages/it/grande-piccolo-schede';
+import chartCountItContent from '@/content/product-pages/it/grafici-immagini-schede';
 
 interface PageProps {
   params: {
@@ -8048,6 +8049,7 @@ export async function generateStaticParams() {
     'trova-e-conta-schede', // Product page slug (Italian) - language-specific SEO slug for find-and-count
     'abbinamenti-schede', // Product page slug (Italian) - language-specific SEO slug for matching
     'grande-piccolo-schede', // Product page slug (Italian) - language-specific SEO slug for big-small
+    'grafici-immagini-schede', // Product page slug (Italian) - language-specific SEO slug for chart-count
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

@@ -195,6 +195,7 @@ import drawingLinesItContent from '@/content/product-pages/it/pregrafismo-schede
 import pictureBingoItContent from '@/content/product-pages/it/bingo-immagini-schede';
 import sudokuItContent from '@/content/product-pages/it/sudoku-bambini-schede';
 import bigSmallItContent from '@/content/product-pages/it/grande-piccolo-schede';
+import chartCountItContent from '@/content/product-pages/it/grafici-immagini-schede';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -827,6 +828,10 @@ export const contentRegistry: ContentRegistry = {
     'grande-piccolo-schede': bigSmallItContent,
     // Also keep old slug for backwards compatibility during transition
     'big-small-worksheets': bigSmallItContent,
+    // Italian Chart Count (Grafici con Immagini) - uses Italian SEO slug
+    'grafici-immagini-schede': chartCountItContent,
+    // Also keep old slug for backwards compatibility during transition
+    'chart-count-worksheets': chartCountItContent,
   },
 };
 

@@ -846,6 +846,12 @@ const nextConfig = {
         destination: '/it/apps/grande-piccolo-schede',
         permanent: true,
       },
+      // Italian: chart-count-worksheets → grafici-immagini-schede
+      {
+        source: '/it/apps/chart-count-worksheets',
+        destination: '/it/apps/grafici-immagini-schede',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

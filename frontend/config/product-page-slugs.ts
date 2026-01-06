@@ -188,6 +188,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       de: 'bilddiagramm-arbeitsblaetter',
       fr: 'graphique-images-fiches',
       es: 'graficos-conteo-fichas',
+      it: 'grafici-immagini-schede',
     },
   },
   {

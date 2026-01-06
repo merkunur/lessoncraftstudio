@@ -137,6 +137,7 @@ import wordScrambleItContent from '@/content/product-pages/it/anagrammi-schede';
 import bigSmallItContent from '@/content/product-pages/it/grande-piccolo-schede';
 import chartCountItContent from '@/content/product-pages/it/grafici-immagini-schede';
 import codeAdditionItContent from '@/content/product-pages/it/addizioni-immagini-schede';
+import drawAndColorItContent from '@/content/product-pages/it/disegno-griglia-schede';
 
 interface PageProps {
   params: {
@@ -8052,6 +8053,7 @@ export async function generateStaticParams() {
     'grande-piccolo-schede', // Product page slug (Italian) - language-specific SEO slug for big-small
     'grafici-immagini-schede', // Product page slug (Italian) - language-specific SEO slug for chart-count
     'addizioni-immagini-schede', // Product page slug (Italian) - language-specific SEO slug for code-addition
+    'disegno-griglia-schede', // Product page slug (Italian) - language-specific SEO slug for draw-and-color
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

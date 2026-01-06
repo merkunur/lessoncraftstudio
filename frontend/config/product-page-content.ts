@@ -197,6 +197,7 @@ import sudokuItContent from '@/content/product-pages/it/sudoku-bambini-schede';
 import bigSmallItContent from '@/content/product-pages/it/grande-piccolo-schede';
 import chartCountItContent from '@/content/product-pages/it/grafici-immagini-schede';
 import codeAdditionItContent from '@/content/product-pages/it/addizioni-immagini-schede';
+import drawAndColorItContent from '@/content/product-pages/it/disegno-griglia-schede';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -837,6 +838,10 @@ export const contentRegistry: ContentRegistry = {
     'addizioni-immagini-schede': codeAdditionItContent,
     // Also keep old slug for backwards compatibility during transition
     'code-addition-worksheets': codeAdditionItContent,
+    // Italian Draw and Color (Disegno con Griglia) - uses Italian SEO slug
+    'disegno-griglia-schede': drawAndColorItContent,
+    // Also keep old slug for backwards compatibility during transition
+    'draw-and-color-worksheets': drawAndColorItContent,
   },
 };
 

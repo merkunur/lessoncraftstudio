@@ -858,6 +858,12 @@ const nextConfig = {
         destination: '/it/apps/addizioni-immagini-schede',
         permanent: true,
       },
+      // Italian: draw-and-color-worksheets → disegno-griglia-schede
+      {
+        source: '/it/apps/draw-and-color-worksheets',
+        destination: '/it/apps/disegno-griglia-schede',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

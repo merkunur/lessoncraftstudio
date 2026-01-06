@@ -210,6 +210,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       de: 'rasterzeichnen-arbeitsblaetter',
       fr: 'dessin-quadrillage-fiches',
       es: 'dibujo-cuadricula-fichas',
+      it: 'disegno-griglia-schede',
     },
   },
   {

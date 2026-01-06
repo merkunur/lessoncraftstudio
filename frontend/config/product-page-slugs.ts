@@ -117,6 +117,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       fr: 'mots-melanges-fiches',
       es: 'letras-revueltas-fichas',
       it: 'anagrammi-schede',
+      pt: 'palavras-embaralhadas-fichas',
     },
   },
   {

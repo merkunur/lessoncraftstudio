@@ -223,6 +223,7 @@ import additionPtContent from '@/content/product-pages/pt/adicao-fichas';
 import alphabetTrainPtContent from '@/content/product-pages/pt/trem-alfabeto-fichas';
 import coloringPtContent from '@/content/product-pages/pt/desenhos-colorir-fichas';
 import mathWorksheetsPtContent from '@/content/product-pages/pt/atividades-matematica-fichas';
+import wordScramblePtContent from '@/content/product-pages/pt/palavras-embaralhadas-fichas';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -961,6 +962,10 @@ export const contentRegistry: ContentRegistry = {
     'atividades-matematica-fichas': mathWorksheetsPtContent,
     // Also keep old slug for backwards compatibility during transition
     'math-worksheets': mathWorksheetsPtContent,
+    // Portuguese (Brazilian) Word Scramble (Palavras Embaralhadas) - uses Portuguese SEO slug
+    'palavras-embaralhadas-fichas': wordScramblePtContent,
+    // Also keep old slug for backwards compatibility during transition
+    'word-scramble-worksheets': wordScramblePtContent,
   },
 };
 

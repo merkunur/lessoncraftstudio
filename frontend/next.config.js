@@ -990,6 +990,12 @@ const nextConfig = {
         destination: '/pt/apps/atividades-matematica-fichas',
         permanent: true,
       },
+      // Portuguese (Brazilian): word-scramble-worksheets → palavras-embaralhadas-fichas
+      {
+        source: '/pt/apps/word-scramble-worksheets',
+        destination: '/pt/apps/palavras-embaralhadas-fichas',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

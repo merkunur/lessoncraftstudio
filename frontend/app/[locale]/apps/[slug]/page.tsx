@@ -8095,6 +8095,7 @@ export async function generateStaticParams() {
     'trem-alfabeto-fichas', // Product page slug (Portuguese/Brazilian) - language-specific SEO slug for alphabet-train
     'desenhos-colorir-fichas', // Product page slug (Portuguese/Brazilian) - language-specific SEO slug for coloring
     'atividades-matematica-fichas', // Product page slug (Portuguese/Brazilian) - language-specific SEO slug for math-worksheet
+    'palavras-embaralhadas-fichas', // Product page slug (Portuguese/Brazilian) - language-specific SEO slug for word-scramble
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

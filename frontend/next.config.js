@@ -906,6 +906,12 @@ const nextConfig = {
         destination: '/it/apps/treno-sequenze-schede',
         permanent: true,
       },
+      // Italian: pattern-worksheets → schede-pattern
+      {
+        source: '/it/apps/pattern-worksheets',
+        destination: '/it/apps/schede-pattern',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

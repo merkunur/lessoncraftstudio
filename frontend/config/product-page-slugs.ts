@@ -319,6 +319,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       de: 'muster-arbeitsblatt-arbeitsblaetter',
       fr: 'sequences-logiques-fiches',
       es: 'fichas-patrones',
+      it: 'schede-pattern',
     },
   },
   {

@@ -147,6 +147,7 @@ import missingPiecesItContent from '@/content/product-pages/it/pezzi-mancanti-sc
 import moreLessItContent from '@/content/product-pages/it/confronto-numeri-schede';
 import oddOneOutItContent from '@/content/product-pages/it/trova-intruso-schede';
 import patternTrainItContent from '@/content/product-pages/it/treno-sequenze-schede';
+import patternWorksheetsItContent from '@/content/product-pages/it/schede-pattern';
 
 interface PageProps {
   params: {
@@ -8073,6 +8074,8 @@ export async function generateStaticParams() {
     'pezzi-mancanti-schede', // Product page slug (Italian) - language-specific SEO slug for missing-pieces
     'confronto-numeri-schede', // Product page slug (Italian) - language-specific SEO slug for more-less
     'trova-intruso-schede', // Product page slug (Italian) - language-specific SEO slug for odd-one-out
+    'treno-sequenze-schede', // Product page slug (Italian) - language-specific SEO slug for pattern-train
+    'schede-pattern', // Product page slug (Italian) - language-specific SEO slug for pattern-worksheet
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

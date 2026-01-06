@@ -207,6 +207,7 @@ import missingPiecesItContent from '@/content/product-pages/it/pezzi-mancanti-sc
 import moreLessItContent from '@/content/product-pages/it/confronto-numeri-schede';
 import oddOneOutItContent from '@/content/product-pages/it/trova-intruso-schede';
 import patternTrainItContent from '@/content/product-pages/it/treno-sequenze-schede';
+import patternWorksheetsItContent from '@/content/product-pages/it/schede-pattern';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -887,6 +888,10 @@ export const contentRegistry: ContentRegistry = {
     'treno-sequenze-schede': patternTrainItContent,
     // Also keep old slug for backwards compatibility during transition
     'pattern-train-worksheets': patternTrainItContent,
+    // Italian Pattern Worksheets (Schede sui Pattern) - uses Italian SEO slug
+    'schede-pattern': patternWorksheetsItContent,
+    // Also keep old slug for backwards compatibility during transition
+    'pattern-worksheets': patternWorksheetsItContent,
   },
 };
 

@@ -285,6 +285,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     de: 'schatzsuche-arbeitsblaetter',
     fr: 'chasse-au-tresor-fiches',
     es: 'busqueda-tesoro-fichas',
+    it: 'caccia-tesoro-schede',
   },
   'word-guess': {
     en: 'word-guess-worksheets',

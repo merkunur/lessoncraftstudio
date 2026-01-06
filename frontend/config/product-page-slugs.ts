@@ -385,6 +385,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       de: 'schatzsuche-arbeitsblaetter',
       fr: 'chasse-au-tresor-fiches',
       es: 'busqueda-tesoro-fichas',
+      it: 'caccia-tesoro-schede',
     },
   },
   {

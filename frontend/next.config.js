@@ -942,6 +942,12 @@ const nextConfig = {
         destination: '/it/apps/sottrazione-schede',
         permanent: true,
       },
+      // Italian: treasure-hunt-worksheets → caccia-tesoro-schede
+      {
+        source: '/it/apps/treasure-hunt-worksheets',
+        destination: '/it/apps/caccia-tesoro-schede',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

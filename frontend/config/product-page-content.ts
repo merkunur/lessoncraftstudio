@@ -213,6 +213,7 @@ import pictureSortItContent from '@/content/product-pages/it/classificazione-imm
 import prepositionsItContent from '@/content/product-pages/it/preposizioni-schede';
 import shadowMatchItContent from '@/content/product-pages/it/abbinamento-ombre-schede';
 import subtractionItContent from '@/content/product-pages/it/sottrazione-schede';
+import treasureHuntItContent from '@/content/product-pages/it/caccia-tesoro-schede';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -917,6 +918,10 @@ export const contentRegistry: ContentRegistry = {
     'sottrazione-schede': subtractionItContent,
     // Also keep old slug for backwards compatibility during transition
     'subtraction-worksheets': subtractionItContent,
+    // Italian Treasure Hunt (Caccia al Tesoro) - uses Italian SEO slug
+    'caccia-tesoro-schede': treasureHuntItContent,
+    // Also keep old slug for backwards compatibility during transition
+    'treasure-hunt-worksheets': treasureHuntItContent,
   },
 };
 

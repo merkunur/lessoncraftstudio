@@ -80,6 +80,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     de: 'mathe-arbeitsblaetter',
     fr: 'exercices-maths-fiches',
     es: 'acertijos-matematicos-fichas',
+    it: 'matematica-schede',
   },
   'word-scramble': {
     en: 'word-scramble-worksheets',

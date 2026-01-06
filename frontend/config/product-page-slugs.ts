@@ -103,6 +103,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       de: 'mathe-arbeitsblaetter',
       fr: 'exercices-maths-fiches',
       es: 'acertijos-matematicos-fichas',
+      it: 'matematica-schede',
     },
   },
   {

@@ -187,6 +187,7 @@ import wordSearchItContent from '@/content/product-pages/it/cerca-parole-schede'
 import additionItContent from '@/content/product-pages/it/addizione-schede';
 import alphabetTrainItContent from '@/content/product-pages/it/treno-alfabeto-schede';
 import coloringItContent from '@/content/product-pages/it/disegni-da-colorare';
+import mathWorksheetsItContent from '@/content/product-pages/it/math-worksheets';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -787,6 +788,10 @@ export const contentRegistry: ContentRegistry = {
     'disegni-da-colorare': coloringItContent,
     // Also keep old slug for backwards compatibility during transition
     'coloring-worksheets': coloringItContent,
+    // Italian Math Worksheets - uses Italian SEO slug
+    'matematica-schede': mathWorksheetsItContent,
+    // Also keep old slug for backwards compatibility during transition
+    'math-worksheets': mathWorksheetsItContent,
   },
 };
 

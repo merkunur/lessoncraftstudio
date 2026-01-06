@@ -804,6 +804,12 @@ const nextConfig = {
         destination: '/it/apps/treno-alfabeto-schede',
         permanent: true,
       },
+      // Italian: math-worksheets → matematica-schede
+      {
+        source: '/it/apps/math-worksheets',
+        destination: '/it/apps/matematica-schede',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

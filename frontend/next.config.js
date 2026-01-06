@@ -810,6 +810,12 @@ const nextConfig = {
         destination: '/it/apps/matematica-schede',
         permanent: true,
       },
+      // Italian: word-scramble-worksheets → anagrammi-schede
+      {
+        source: '/it/apps/word-scramble-worksheets',
+        destination: '/it/apps/anagrammi-schede',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

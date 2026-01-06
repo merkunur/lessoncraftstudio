@@ -133,6 +133,7 @@ import shadowMatchEsContent from '@/content/product-pages/es/asociacion-sombras-
 import alphabetTrainItContent from '@/content/product-pages/it/treno-alfabeto-schede';
 import coloringItContent from '@/content/product-pages/it/disegni-da-colorare';
 import mathWorksheetsItContent from '@/content/product-pages/it/math-worksheets';
+import wordScrambleItContent from '@/content/product-pages/it/anagrammi-schede';
 
 interface PageProps {
   params: {
@@ -7623,6 +7624,7 @@ const seoRedirects: { [locale: string]: { [englishSlug: string]: string } } = {
   it: {
     'alphabet-train-worksheets': 'treno-alfabeto-schede',
     'math-worksheets': 'matematica-schede',
+    'word-scramble-worksheets': 'anagrammi-schede',
   },
   // Add more languages as they get localized slugs:
   // de: { 'word-search-worksheets': 'wortsuche-arbeitsblaetter' },
@@ -8040,6 +8042,7 @@ export async function generateStaticParams() {
     // Italian language-specific SEO slugs
     'treno-alfabeto-schede', // Product page slug (Italian) - language-specific SEO slug for alphabet-train
     'matematica-schede', // Product page slug (Italian) - language-specific SEO slug for math-worksheets
+    'anagrammi-schede', // Product page slug (Italian) - language-specific SEO slug for word-scramble
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

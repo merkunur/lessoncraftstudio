@@ -114,6 +114,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       de: 'buchstabensalat-arbeitsblaetter',
       fr: 'mots-melanges-fiches',
       es: 'letras-revueltas-fichas',
+      it: 'anagrammi-schede',
     },
   },
   {

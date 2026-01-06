@@ -221,6 +221,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     de: 'was-passt-nicht-arbeitsblaetter',
     fr: 'intrus-fiches',
     es: 'encuentra-el-diferente-fichas',
+    it: 'trova-intruso-schede',
   },
   'pattern-train': {
     en: 'pattern-train-worksheets',

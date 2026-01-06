@@ -297,6 +297,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       de: 'was-passt-nicht-arbeitsblaetter',
       fr: 'intrus-fiches',
       es: 'encuentra-el-diferente-fichas',
+      it: 'trova-intruso-schede',
     },
   },
   {

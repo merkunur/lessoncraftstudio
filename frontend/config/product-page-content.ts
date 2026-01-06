@@ -205,6 +205,7 @@ import cryptogramItContent from '@/content/product-pages/it/crittogramma-schede'
 import mathPuzzleItContent from '@/content/product-pages/it/puzzle-matematici-schede';
 import missingPiecesItContent from '@/content/product-pages/it/pezzi-mancanti-schede';
 import moreLessItContent from '@/content/product-pages/it/confronto-numeri-schede';
+import oddOneOutItContent from '@/content/product-pages/it/trova-intruso-schede';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -877,6 +878,10 @@ export const contentRegistry: ContentRegistry = {
     'confronto-numeri-schede': moreLessItContent,
     // Also keep old slug for backwards compatibility during transition
     'more-less-worksheets': moreLessItContent,
+    // Italian Odd One Out (Trova l'Intruso) - uses Italian SEO slug
+    'trova-intruso-schede': oddOneOutItContent,
+    // Also keep old slug for backwards compatibility during transition
+    'odd-one-out-worksheets': oddOneOutItContent,
   },
 };
 

@@ -894,6 +894,12 @@ const nextConfig = {
         destination: '/it/apps/pezzi-mancanti-schede',
         permanent: true,
       },
+      // Italian: odd-one-out-worksheets → trova-intruso-schede
+      {
+        source: '/it/apps/odd-one-out-worksheets',
+        destination: '/it/apps/trova-intruso-schede',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

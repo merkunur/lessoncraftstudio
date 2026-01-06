@@ -145,6 +145,7 @@ import cryptogramItContent from '@/content/product-pages/it/crittogramma-schede'
 import mathPuzzleItContent from '@/content/product-pages/it/puzzle-matematici-schede';
 import missingPiecesItContent from '@/content/product-pages/it/pezzi-mancanti-schede';
 import moreLessItContent from '@/content/product-pages/it/confronto-numeri-schede';
+import oddOneOutItContent from '@/content/product-pages/it/trova-intruso-schede';
 
 interface PageProps {
   params: {
@@ -8070,6 +8071,7 @@ export async function generateStaticParams() {
     'puzzle-matematici-schede', // Product page slug (Italian) - language-specific SEO slug for math-puzzle
     'pezzi-mancanti-schede', // Product page slug (Italian) - language-specific SEO slug for missing-pieces
     'confronto-numeri-schede', // Product page slug (Italian) - language-specific SEO slug for more-less
+    'trova-intruso-schede', // Product page slug (Italian) - language-specific SEO slug for odd-one-out
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

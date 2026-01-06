@@ -173,6 +173,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     sv: 'rutnatsmatching-arbetsblad',
     de: 'raster-puzzle-arbeitsblaetter',
     es: 'rompecabezas-cuadricula-fichas',
+    it: 'griglia-abbinamento-schede',
   },
   'image-crossword': {
     en: 'crossword-worksheets',

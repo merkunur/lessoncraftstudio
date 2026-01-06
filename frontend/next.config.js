@@ -870,6 +870,12 @@ const nextConfig = {
         destination: '/it/apps/trova-oggetti-schede',
         permanent: true,
       },
+      // Italian: grid-match-worksheets → griglia-abbinamento-schede
+      {
+        source: '/it/apps/grid-match-worksheets',
+        destination: '/it/apps/griglia-abbinamento-schede',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

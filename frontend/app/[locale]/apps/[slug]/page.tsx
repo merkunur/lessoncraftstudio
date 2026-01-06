@@ -139,6 +139,7 @@ import chartCountItContent from '@/content/product-pages/it/grafici-immagini-sch
 import codeAdditionItContent from '@/content/product-pages/it/addizioni-immagini-schede';
 import drawAndColorItContent from '@/content/product-pages/it/disegno-griglia-schede';
 import findObjectsItContent from '@/content/product-pages/it/trova-oggetti-schede';
+import gridMatchItContent from '@/content/product-pages/it/griglia-abbinamento-schede';
 
 interface PageProps {
   params: {
@@ -8056,6 +8057,7 @@ export async function generateStaticParams() {
     'addizioni-immagini-schede', // Product page slug (Italian) - language-specific SEO slug for code-addition
     'disegno-griglia-schede', // Product page slug (Italian) - language-specific SEO slug for draw-and-color
     'trova-oggetti-schede', // Product page slug (Italian) - language-specific SEO slug for find-objects
+    'griglia-abbinamento-schede', // Product page slug (Italian) - language-specific SEO slug for grid-match
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

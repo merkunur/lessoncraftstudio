@@ -231,6 +231,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       sv: 'rutnatsmatching-arbetsblad',
       de: 'raster-puzzle-arbeitsblaetter',
       es: 'rompecabezas-cuadricula-fichas',
+      it: 'griglia-abbinamento-schede',
     },
   },
   {

@@ -199,6 +199,7 @@ import chartCountItContent from '@/content/product-pages/it/grafici-immagini-sch
 import codeAdditionItContent from '@/content/product-pages/it/addizioni-immagini-schede';
 import drawAndColorItContent from '@/content/product-pages/it/disegno-griglia-schede';
 import findObjectsItContent from '@/content/product-pages/it/trova-oggetti-schede';
+import gridMatchItContent from '@/content/product-pages/it/griglia-abbinamento-schede';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -847,6 +848,10 @@ export const contentRegistry: ContentRegistry = {
     'trova-oggetti-schede': findObjectsItContent,
     // Also keep old slug for backwards compatibility during transition
     'find-objects-worksheets': findObjectsItContent,
+    // Italian Grid Match (Griglia Abbinamento) - uses Italian SEO slug
+    'griglia-abbinamento-schede': gridMatchItContent,
+    // Also keep old slug for backwards compatibility during transition
+    'grid-match-worksheets': gridMatchItContent,
   },
 };
 

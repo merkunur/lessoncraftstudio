@@ -960,6 +960,12 @@ const nextConfig = {
         destination: '/it/apps/scrittura-schede',
         permanent: true,
       },
+      // Portuguese (Brazilian): word-search-worksheets → caca-palavras-fichas
+      {
+        source: '/pt/apps/word-search-worksheets',
+        destination: '/pt/apps/caca-palavras-fichas',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

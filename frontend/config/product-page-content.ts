@@ -217,6 +217,9 @@ import treasureHuntItContent from '@/content/product-pages/it/caccia-tesoro-sche
 import wordGuessItContent from '@/content/product-pages/it/indovina-parole-schede';
 import writingItContent from '@/content/product-pages/it/scrittura-schede';
 
+// Portuguese (Brazilian) content imports
+import wordSearchPtContent from '@/content/product-pages/pt/caca-palavras-fichas';
+
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
   [locale: string]: {
@@ -932,6 +935,12 @@ export const contentRegistry: ContentRegistry = {
     'scrittura-schede': writingItContent,
     // Also keep old slug for backwards compatibility during transition
     'writing-worksheets': writingItContent,
+  },
+  pt: {
+    // Portuguese (Brazilian) Word Search (Caça-Palavras) - uses Portuguese SEO slug
+    'caca-palavras-fichas': wordSearchPtContent,
+    // Also keep old slug for backwards compatibility during transition
+    'word-search-worksheets': wordSearchPtContent,
   },
 };
 

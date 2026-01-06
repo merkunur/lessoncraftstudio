@@ -269,6 +269,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     de: 'schattenbilder-zuordnen-arbeitsblaetter',
     fr: 'discrimination-visuelle-fiches',
     es: 'asociacion-sombras-fichas',
+    it: 'abbinamento-ombre-schede',
   },
   'subtraction': {
     en: 'subtraction-worksheets',

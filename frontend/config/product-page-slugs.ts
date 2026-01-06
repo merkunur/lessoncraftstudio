@@ -363,6 +363,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       de: 'schattenbilder-zuordnen-arbeitsblaetter',
       fr: 'discrimination-visuelle-fiches',
       es: 'asociacion-sombras-fichas',
+      it: 'abbinamento-ombre-schede',
     },
   },
   {

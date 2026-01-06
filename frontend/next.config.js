@@ -918,6 +918,24 @@ const nextConfig = {
         destination: '/it/apps/percorso-illustrato-schede',
         permanent: true,
       },
+      // Italian: picture-sort-worksheets → classificazione-immagini-schede
+      {
+        source: '/it/apps/picture-sort-worksheets',
+        destination: '/it/apps/classificazione-immagini-schede',
+        permanent: true,
+      },
+      // Italian: prepositions-worksheets → preposizioni-schede
+      {
+        source: '/it/apps/prepositions-worksheets',
+        destination: '/it/apps/preposizioni-schede',
+        permanent: true,
+      },
+      // Italian: shadow-match-worksheets → abbinamento-ombre-schede
+      {
+        source: '/it/apps/shadow-match-worksheets',
+        destination: '/it/apps/abbinamento-ombre-schede',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

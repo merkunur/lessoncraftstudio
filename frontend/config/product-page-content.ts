@@ -211,6 +211,7 @@ import patternWorksheetsItContent from '@/content/product-pages/it/schede-patter
 import picturePathItContent from '@/content/product-pages/it/percorso-illustrato-schede';
 import pictureSortItContent from '@/content/product-pages/it/classificazione-immagini-schede';
 import prepositionsItContent from '@/content/product-pages/it/preposizioni-schede';
+import shadowMatchItContent from '@/content/product-pages/it/abbinamento-ombre-schede';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -907,6 +908,10 @@ export const contentRegistry: ContentRegistry = {
     'preposizioni-schede': prepositionsItContent,
     // Also keep old slug for backwards compatibility during transition
     'prepositions-worksheets': prepositionsItContent,
+    // Italian Shadow Match (Abbinamento Ombre) - uses Italian SEO slug
+    'abbinamento-ombre-schede': shadowMatchItContent,
+    // Also keep old slug for backwards compatibility during transition
+    'shadow-match-worksheets': shadowMatchItContent,
   },
 };
 

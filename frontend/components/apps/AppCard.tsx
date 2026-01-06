@@ -205,6 +205,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     de: 'fehlende-puzzleteile-arbeitsblaetter',
     fr: 'pieces-manquantes-fiches',
     es: 'piezas-faltantes-fichas',
+    it: 'pezzi-mancanti-schede',
   },
   'more-less': {
     en: 'more-less-worksheets',

@@ -142,6 +142,8 @@ import findObjectsItContent from '@/content/product-pages/it/trova-oggetti-sched
 import gridMatchItContent from '@/content/product-pages/it/griglia-abbinamento-schede';
 import crosswordItContent from '@/content/product-pages/it/cruciverba-immagini-schede';
 import cryptogramItContent from '@/content/product-pages/it/crittogramma-schede';
+import mathPuzzleItContent from '@/content/product-pages/it/puzzle-matematici-schede';
+import missingPiecesItContent from '@/content/product-pages/it/pezzi-mancanti-schede';
 
 interface PageProps {
   params: {
@@ -8064,6 +8066,8 @@ export async function generateStaticParams() {
     'griglia-abbinamento-schede', // Product page slug (Italian) - language-specific SEO slug for grid-match
     'cruciverba-immagini-schede', // Product page slug (Italian) - language-specific SEO slug for crossword
     'crittogramma-schede', // Product page slug (Italian) - language-specific SEO slug for cryptogram
+    'puzzle-matematici-schede', // Product page slug (Italian) - language-specific SEO slug for math-puzzle
+    'pezzi-mancanti-schede', // Product page slug (Italian) - language-specific SEO slug for missing-pieces
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

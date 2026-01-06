@@ -882,6 +882,18 @@ const nextConfig = {
         destination: '/it/apps/crittogramma-schede',
         permanent: true,
       },
+      // Italian: math-puzzle-worksheets → puzzle-matematici-schede
+      {
+        source: '/it/apps/math-puzzle-worksheets',
+        destination: '/it/apps/puzzle-matematici-schede',
+        permanent: true,
+      },
+      // Italian: missing-pieces-worksheets → pezzi-mancanti-schede
+      {
+        source: '/it/apps/missing-pieces-worksheets',
+        destination: '/it/apps/pezzi-mancanti-schede',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

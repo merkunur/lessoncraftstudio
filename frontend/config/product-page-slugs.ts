@@ -275,6 +275,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       de: 'fehlende-puzzleteile-arbeitsblaetter',
       fr: 'pieces-manquantes-fiches',
       es: 'piezas-faltantes-fichas',
+      it: 'pezzi-mancanti-schede',
     },
   },
   {

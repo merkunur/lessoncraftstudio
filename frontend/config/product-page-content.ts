@@ -203,6 +203,7 @@ import gridMatchItContent from '@/content/product-pages/it/griglia-abbinamento-s
 import crosswordItContent from '@/content/product-pages/it/cruciverba-immagini-schede';
 import cryptogramItContent from '@/content/product-pages/it/crittogramma-schede';
 import mathPuzzleItContent from '@/content/product-pages/it/puzzle-matematici-schede';
+import missingPiecesItContent from '@/content/product-pages/it/pezzi-mancanti-schede';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -867,6 +868,10 @@ export const contentRegistry: ContentRegistry = {
     'puzzle-matematici-schede': mathPuzzleItContent,
     // Also keep old slug for backwards compatibility during transition
     'math-puzzle-worksheets': mathPuzzleItContent,
+    // Italian Missing Pieces (Pezzi Mancanti) - uses Italian SEO slug
+    'pezzi-mancanti-schede': missingPiecesItContent,
+    // Also keep old slug for backwards compatibility during transition
+    'missing-pieces-worksheets': missingPiecesItContent,
   },
 };
 

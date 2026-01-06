@@ -852,6 +852,12 @@ const nextConfig = {
         destination: '/it/apps/grafici-immagini-schede',
         permanent: true,
       },
+      // Italian: code-addition-worksheets → addizioni-immagini-schede
+      {
+        source: '/it/apps/code-addition-worksheets',
+        destination: '/it/apps/addizioni-immagini-schede',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

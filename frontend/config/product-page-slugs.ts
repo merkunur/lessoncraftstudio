@@ -199,6 +199,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       de: 'bilder-additions-arbeitsblaetter',
       fr: 'addition-codee-fiches',
       es: 'suma-codigo-fichas',
+      it: 'addizioni-immagini-schede',
     },
   },
   {

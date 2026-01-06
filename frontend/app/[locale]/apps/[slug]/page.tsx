@@ -136,6 +136,7 @@ import mathWorksheetsItContent from '@/content/product-pages/it/math-worksheets'
 import wordScrambleItContent from '@/content/product-pages/it/anagrammi-schede';
 import bigSmallItContent from '@/content/product-pages/it/grande-piccolo-schede';
 import chartCountItContent from '@/content/product-pages/it/grafici-immagini-schede';
+import codeAdditionItContent from '@/content/product-pages/it/addizioni-immagini-schede';
 
 interface PageProps {
   params: {
@@ -8050,6 +8051,7 @@ export async function generateStaticParams() {
     'abbinamenti-schede', // Product page slug (Italian) - language-specific SEO slug for matching
     'grande-piccolo-schede', // Product page slug (Italian) - language-specific SEO slug for big-small
     'grafici-immagini-schede', // Product page slug (Italian) - language-specific SEO slug for chart-count
+    'addizioni-immagini-schede', // Product page slug (Italian) - language-specific SEO slug for code-addition
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

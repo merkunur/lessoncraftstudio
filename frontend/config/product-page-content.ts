@@ -196,6 +196,7 @@ import pictureBingoItContent from '@/content/product-pages/it/bingo-immagini-sch
 import sudokuItContent from '@/content/product-pages/it/sudoku-bambini-schede';
 import bigSmallItContent from '@/content/product-pages/it/grande-piccolo-schede';
 import chartCountItContent from '@/content/product-pages/it/grafici-immagini-schede';
+import codeAdditionItContent from '@/content/product-pages/it/addizioni-immagini-schede';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -832,6 +833,10 @@ export const contentRegistry: ContentRegistry = {
     'grafici-immagini-schede': chartCountItContent,
     // Also keep old slug for backwards compatibility during transition
     'chart-count-worksheets': chartCountItContent,
+    // Italian Code Addition (Addizioni con Immagini) - uses Italian SEO slug
+    'addizioni-immagini-schede': codeAdditionItContent,
+    // Also keep old slug for backwards compatibility during transition
+    'code-addition-worksheets': codeAdditionItContent,
   },
 };
 

@@ -105,6 +105,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       fr: 'exercices-maths-fiches',
       es: 'acertijos-matematicos-fichas',
       it: 'matematica-schede',
+      pt: 'atividades-matematica-fichas',
     },
   },
   {

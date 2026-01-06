@@ -82,6 +82,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     fr: 'exercices-maths-fiches',
     es: 'acertijos-matematicos-fichas',
     it: 'matematica-schede',
+    pt: 'atividades-matematica-fichas',
   },
   'word-scramble': {
     en: 'word-scramble-worksheets',

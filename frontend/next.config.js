@@ -984,6 +984,12 @@ const nextConfig = {
         destination: '/pt/apps/desenhos-colorir-fichas',
         permanent: true,
       },
+      // Portuguese (Brazilian): math-worksheets → atividades-matematica-fichas
+      {
+        source: '/pt/apps/math-worksheets',
+        destination: '/pt/apps/atividades-matematica-fichas',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

@@ -103,6 +103,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     de: 'zuordnungs-arbeitsblaetter',
     fr: 'association-fiches',
     es: 'relacionar-fichas',
+    it: 'abbinamenti-schede',
   },
   'drawing-lines': {
     en: 'drawing-lines-worksheets',

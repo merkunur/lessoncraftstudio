@@ -134,6 +134,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       en: 'matching-worksheets',
       sv: 'matchnings-arbetsblad',
       es: 'relacionar-fichas',
+      it: 'abbinamenti-schede',
     },
   },
   {

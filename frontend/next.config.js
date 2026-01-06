@@ -822,6 +822,12 @@ const nextConfig = {
         destination: '/it/apps/trova-e-conta-schede',
         permanent: true,
       },
+      // Italian: matching-worksheets → abbinamenti-schede
+      {
+        source: '/it/apps/matching-worksheets',
+        destination: '/it/apps/abbinamenti-schede',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

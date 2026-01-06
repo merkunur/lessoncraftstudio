@@ -8043,6 +8043,8 @@ export async function generateStaticParams() {
     'treno-alfabeto-schede', // Product page slug (Italian) - language-specific SEO slug for alphabet-train
     'matematica-schede', // Product page slug (Italian) - language-specific SEO slug for math-worksheets
     'anagrammi-schede', // Product page slug (Italian) - language-specific SEO slug for word-scramble
+    'trova-e-conta-schede', // Product page slug (Italian) - language-specific SEO slug for find-and-count
+    'abbinamenti-schede', // Product page slug (Italian) - language-specific SEO slug for matching
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

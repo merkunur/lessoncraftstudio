@@ -27,7 +27,7 @@ export const shadowMatchItContent: ProductPageContent = {
     subtitle: 'Schede per Scuola Primaria e Scuola dell\'Infanzia',
     description: `Crea schede didattiche di abbinamento ombre e ricostruzioni con il nostro generatore professionale. Il tuo abbonamento Accesso Completo ti permette di generare schede didattiche illimitate senza costi aggiuntivi per foglio. Perfetto per creare schede didattiche scuola primaria, attività per scuola dell'infanzia e esercizi di discriminazione visiva. Scarica schede didattiche in PDF di alta qualità in meno di 3 minuti.
 
-Il nostro strumento offre due modalità di esercizio uniche. La modalità Shadow Match crea schede didattiche dove i bambini abbinano oggetti alle loro ombre. Ideale per schede didattiche scuola dell'infanzia e classe prima. La modalità Make It Whole permette di creare schede didattiche dove i bambini ricostruiscono oggetti abbinando le metà. Perfetto per sviluppare le abilità di discriminazione visiva e ragionamento spaziale.
+Il nostro strumento offre due modalità di esercizio uniche. La modalità Abbina le Ombre crea schede didattiche dove i bambini abbinano oggetti alle loro ombre. Ideale per schede didattiche scuola dell'infanzia e classe prima. La modalità Ricomponi l'Immagine permette di creare schede didattiche dove i bambini ricostruiscono oggetti abbinando le metà. Perfetto per sviluppare le abilità di discriminazione visiva e ragionamento spaziale.
 
 Ogni scheda didattica è completamente personalizzabile. Scegli tra oltre 3000 immagini adatte ai bambini, oppure carica le tue immagini. Combina le schede di abbinamento con pregrafismo, schede matematica, disegni da colorare, alfabeto e numeri da stampare per creare pacchetti didattici completi. Il nostro generatore funziona in 11 lingue e include licenza commerciale POD per vendere su Teachers Pay Teachers, Etsy e Amazon KDP.`,
     previewImageSrc: '/samples/english/shadow match/shadow-match-worksheet.jpeg',
@@ -58,7 +58,7 @@ Ogni scheda didattica è completamente personalizzabile. Scegli tra oltre 3000 i
     answerKeyLabel: 'Soluzioni',
     viewAllLabel: 'Ingrandisci',
     noPdfLabel: 'Solo anteprima',
-    freePdfCountLabel: 'download gratuiti',
+    freePdfCountLabel: 'scaricamenti gratuiti',
     badgeText: 'Esempi Gratuiti',
     downloadingLabel: 'Scaricamento...',
     ofLabel: 'di',
@@ -103,12 +103,12 @@ Ogni scheda didattica è completamente personalizzabile. Scegli tra oltre 3000 i
     items: [
       {
         id: '1',
-        title: 'Crea Schede Didattiche in 3 Click',
+        title: 'Crea Schede Didattiche in 3 Clic',
         description: `Inizia a creare schede didattiche in meno di un minuto. Seleziona 4 immagini dalla libreria o carica le tue. Scegli la modalità di esercizio. Clicca genera e la tua scheda didattica appare immediatamente.
 
-Non serve esperienza di design per creare schede didattiche scuola primaria professionali. Il sistema crea automaticamente il layout ottimale per l'apprendimento. Ogni scheda didattica rispetta le proporzioni corrette per la stampa. Gli elementi sono posizionati per massimizzare la chiarezza visiva.
+Non serve esperienza di progettazione grafica per creare schede didattiche scuola primaria professionali. Il sistema crea automaticamente la disposizione ottimale per l'apprendimento. Ogni scheda didattica rispetta le proporzioni corrette per la stampa. Gli elementi sono posizionati per massimizzare la chiarezza visiva.
 
-La modalità Shadow Match crea schede didattiche dove i bambini abbinano oggetti alle ombre. Perfetto per schede didattiche scuola dell'infanzia e sviluppo della discriminazione visiva. La modalità Make It Whole genera schede didattiche dove i bambini ricostruiscono oggetti tagliati. Scegli taglio orizzontale o verticale in base alle abilità dei tuoi studenti.`,
+La modalità Abbina le Ombre crea schede didattiche dove i bambini abbinano oggetti alle ombre. Perfetto per schede didattiche scuola dell'infanzia e sviluppo della discriminazione visiva. La modalità Ricomponi l'Immagine genera schede didattiche dove i bambini ricostruiscono oggetti tagliati. Scegli taglio orizzontale o verticale in base alle abilità dei tuoi studenti.`,
         icon: '⚡',
         highlighted: true,
       },
@@ -117,7 +117,7 @@ La modalità Shadow Match crea schede didattiche dove i bambini abbinano oggetti
         title: 'Modifica Tutto sulla Scheda',
         description: `Ogni elemento sulla scheda didattica è modificabile dopo la generazione. Trascina immagini con il mouse per riposizionarle. Ruota elementi per l'orientamento perfetto. Ridimensiona oggetti per enfatizzare concetti specifici.
 
-Il canvas di modifica funziona come un editor grafico professionale. Clicca su qualsiasi elemento per selezionarlo. Le maniglie di trasformazione appaiono immediatamente. Trascina gli angoli per ridimensionare mantenendo le proporzioni. Ruota liberamente per l'angolazione desiderata.
+L'area di lavoro funziona come un programma di grafica professionale. Clicca su qualsiasi elemento per selezionarlo. Le maniglie di trasformazione appaiono immediatamente. Trascina gli angoli per ridimensionare mantenendo le proporzioni. Ruota liberamente per l'angolazione desiderata.
 
 Organizza gli elementi con strumenti di allineamento precisi. Allinea a sinistra, centro o destra con un clic. Allinea in alto, centro o in basso verticalmente. Gli strumenti di distribuzione spaziano uniformemente più oggetti. Perfetto per creare schede didattiche scuola dell'infanzia ordinate e chiare.`,
         icon: '✏️',
@@ -150,9 +150,9 @@ Per schede italiano classe prima, usa l'interfaccia italiana per istruzioni chia
         title: 'Licenza Commerciale POD Inclusa',
         description: `Il tuo abbonamento Accesso Completo include licenza commerciale print-on-demand completa. Vendi le schede didattiche create senza costi di licenza aggiuntivi. Nessuna attribuzione richiesta sui tuoi prodotti. La licenza commerciale vale per tutti i 33 generatori.
 
-Vendi schede didattiche su Teachers Pay Teachers e guadagna €500-5000 al mese. Crea pacchetti di schede didattiche scuola primaria per download digitali. Gli insegnanti cercano costantemente schede didattiche di abbinamento di qualità. I tuoi prodotti si distinguono per la qualità professionale 300 DPI.
+Vendi schede didattiche su Teachers Pay Teachers e guadagna €500-5000 al mese. Crea pacchetti di schede didattiche scuola primaria per vendita digitale. Gli insegnanti cercano costantemente schede didattiche di abbinamento di qualità. I tuoi prodotti si distinguono per la qualità professionale 300 DPI.
 
-Apri un negozio Etsy per schede didattiche stampabili. Vendi PDF di schede didattiche scuola dell'infanzia. Crea bundle tematici combinando abbinamento, pregrafismo, disegni da colorare e schede matematica. I clienti pagano €3-8 per pacchetto di schede didattiche di alta qualità.`,
+Apri un negozio Etsy per schede didattiche stampabili. Vendi PDF di schede didattiche scuola dell'infanzia. Crea pacchetti tematici combinando abbinamento, pregrafismo, disegni da colorare e schede matematica. I clienti pagano €3-8 per pacchetto di schede didattiche di alta qualità.`,
         icon: '📜',
         highlighted: false,
       },
@@ -184,14 +184,14 @@ L'opzione scala di grigi risparmia inchiostro stampando. Mantiene tutta la chiar
   // How-To Guide Section
   howTo: {
     sectionTitle: 'Come Creare Schede di Abbinamento Ombre in 5 Passaggi',
-    sectionDescription: 'Creare schede didattiche professionali richiede meno di 3 minuti dall\'inizio alla fine. Questa guida ti mostra ogni passaggio. Perfetto per insegnanti della scuola primaria. Ideale anche per la scuola dell\'infanzia. Crea schede didattiche scuola primaria di qualità professionale senza esperienza di design.',
+    sectionDescription: 'Creare schede didattiche professionali richiede meno di 3 minuti dall\'inizio alla fine. Questa guida ti mostra ogni passaggio. Perfetto per insegnanti della scuola primaria. Ideale anche per la scuola dell\'infanzia. Crea schede didattiche scuola primaria di qualità professionale senza esperienza di progettazione.',
     ctaText: 'Inizia Ora',
     badgeText: 'Guida Passo-Passo',
     stepLabel: 'Passo',
     completionTitle: 'Scheda Pronta!',
-    completionSubtitle: 'La tua scheda didattica è pronta per il download',
+    completionSubtitle: 'La tua scheda didattica è pronta per lo scaricamento',
     readyTime: 'Pronta in meno di 3 minuti',
-    noSkillsNeeded: 'Nessuna competenza di design richiesta',
+    noSkillsNeeded: 'Nessuna competenza di progettazione richiesta',
     readMoreLabel: 'Leggi di più',
     showLessLabel: 'Mostra meno',
     steps: [
@@ -212,31 +212,31 @@ Opzione due: usa la funzione di ricerca per trovare immagini specifiche. Digita 
         title: 'Configura l\'Esercizio',
         description: `Scegli la modalità di esercizio per le tue schede didattiche. Il generatore offre due modalità distinte con scopi didattici diversi. Ogni modalità crea un tipo unico di attività di abbinamento.
 
-La modalità Shadow Match crea schede didattiche dove i bambini abbinano oggetti alle loro ombre. Perfetto per sviluppare discriminazione visiva e riconoscimento delle forme. Ideale per schede didattiche scuola dell'infanzia e classe prima. I bambini tracciano linee dagli oggetti colorati alle ombre nere corrispondenti.
+La modalità Abbina le Ombre crea schede didattiche dove i bambini abbinano oggetti alle loro ombre. Perfetto per sviluppare discriminazione visiva e riconoscimento delle forme. Ideale per schede didattiche scuola dell'infanzia e classe prima. I bambini tracciano linee dagli oggetti colorati alle ombre nere corrispondenti.
 
-La modalità Make It Whole genera schede didattiche dove i bambini ricostruiscono oggetti tagliati. Ogni immagine è divisa in due metà che i bambini devono abbinare. Sviluppa ragionamento spaziale e comprensione parte-tutto. Perfetto per schede matematica che introducono frazioni e divisione.`,
+La modalità Ricomponi l'Immagine genera schede didattiche dove i bambini ricostruiscono oggetti tagliati. Ogni immagine è divisa in due metà che i bambini devono abbinare. Sviluppa ragionamento spaziale e comprensione parte-tutto. Perfetto per schede matematica che introducono frazioni e divisione.`,
         icon: '⚙️',
       },
       {
         id: '3',
         number: 3,
         title: 'Genera la Scheda Didattica',
-        description: `Clicca il pulsante "Genera" dopo aver configurato tutte le opzioni. Il sistema crea la tua scheda didattica istantaneamente. L'anteprima appare sul canvas in meno di 2 secondi. Nessun tempo di attesa o caricamento lungo.
+        description: `Clicca il pulsante "Genera" dopo aver configurato tutte le opzioni. Il sistema crea la tua scheda didattica istantaneamente. L'anteprima appare nell'area di lavoro in meno di 2 secondi. Nessun tempo di attesa o caricamento lungo.
 
-Il generatore posiziona automaticamente tutti gli elementi per l'apprendimento ottimale. Le immagini sono spaziate uniformemente per chiarezza. Le ombre o metà sono mescolate casualmente per sfidare i bambini. Il layout rispetta principi di design didattico per massimo impatto.
+Il generatore posiziona automaticamente tutti gli elementi per l'apprendimento ottimale. Le immagini sono spaziate uniformemente per chiarezza. Le ombre o metà sono mescolate casualmente per sfidare i bambini. La disposizione rispetta principi di progettazione didattica per massimo impatto.
 
-Se hai selezionato la modalità Shadow Match, vedi oggetti colorati su un lato e ombre nere sull'altro. Gli oggetti e ombre sono disposti in ordine diverso per creare l'esercizio di abbinamento. I bambini devono identificare quale ombra corrisponde a quale oggetto.`,
+Se hai selezionato la modalità Abbina le Ombre, vedi oggetti colorati su un lato e ombre nere sull'altro. Gli oggetti e ombre sono disposti in ordine diverso per creare l'esercizio di abbinamento. I bambini devono identificare quale ombra corrisponde a quale oggetto.`,
         icon: '✨',
       },
       {
         id: '4',
         number: 4,
-        title: 'Personalizza sul Canvas',
-        description: `Modifica qualsiasi elemento sulla scheda didattica generata per personalizzarla perfettamente. Il canvas di editing offre controllo completo su ogni aspetto visivo. Crea schede didattiche uniche che rispecchiano esattamente il tuo stile didattico.
+        title: 'Personalizza nell\'Area di Lavoro',
+        description: `Modifica qualsiasi elemento sulla scheda didattica generata per personalizzarla perfettamente. L'area di modifica offre controllo completo su ogni aspetto visivo. Crea schede didattiche uniche che rispecchiano esattamente il tuo stile didattico.
 
 Clicca su qualsiasi immagine per selezionarla. Le maniglie di trasformazione appaiono agli angoli. Trascina le maniglie per ridimensionare l'immagine. Le proporzioni rimangono corrette automaticamente. Ingrandisci elementi chiave per enfatizzarli. Riduci dettagli secondari.
 
-Trascina immagini con il mouse per riposizionarle ovunque sulla pagina. Crea layouts personalizzati per bisogni specifici. Raggruppa elementi per difficoltà. Separa gruppi per chiarezza visiva. Il posizionamento libero permette infinite possibilità di design.`,
+Trascina immagini con il mouse per riposizionarle ovunque sulla pagina. Crea disposizioni personalizzate per bisogni specifici. Raggruppa elementi per difficoltà. Separa gruppi per chiarezza visiva. Il posizionamento libero permette infinite possibilità di progettazione.`,
         icon: '✏️',
       },
       {
@@ -245,9 +245,9 @@ Trascina immagini con il mouse per riposizionarle ovunque sulla pagina. Crea lay
         title: 'Scarica e Stampa',
         description: `Clicca il pulsante "Scarica" quando la scheda didattica è perfetta. Scegli il formato di esportazione che preferisci. Ogni formato offre vantaggi specifici per usi diversi.
 
-Il formato PDF è ideale per la stampa. Mantiene qualità vettoriale per testo nitido. Compatibile con tutte le stampanti e servizi di stampa. Il file PDF conserva esattamente il layout creato. Apri e stampa direttamente senza software aggiuntivo. Perfetto per schede didattiche da archiviare o distribuire.
+Il formato PDF è ideale per la stampa. Mantiene qualità vettoriale per testo nitido. Compatibile con tutte le stampanti e servizi di stampa. Il documento PDF conserva esattamente l'impaginazione creata. Apri e stampa direttamente senza software aggiuntivo. Perfetto per schede didattiche da archiviare o distribuire.
 
-Il formato JPEG funziona meglio per uso digitale. Condividi schede didattiche via email con genitori. Carica su piattaforme educative digitali. Gli studenti visualizzano su tablet o computer. La risoluzione 300 DPI garantisce chiarezza su qualsiasi schermo.`,
+Il formato JPEG funziona meglio per uso digitale. Condividi schede didattiche via posta elettronica con genitori. Carica su piattaforme educative digitali. Gli studenti visualizzano su tablet o computer. La risoluzione 300 DPI garantisce chiarezza su qualsiasi schermo.`,
         icon: '📥',
       },
     ],
@@ -266,7 +266,7 @@ Il formato JPEG funziona meglio per uso digitale. Condividi schede didattiche vi
         icon: '👶',
         title: 'Insegnanti Scuola dell\'Infanzia',
         subtitle: 'Pregrafismo, Alfabeto e Discriminazione Visiva',
-        description: `Gli insegnanti di scuola dell'infanzia creano schede didattiche di abbinamento per sviluppare discriminazione visiva nei bambini piccoli. La modalità Shadow Match è perfetta per età 3-6 anni. I bambini abbinano oggetti familiari alle loro ombre. L'attività sviluppa riconoscimento delle forme e attenzione ai dettagli.
+        description: `Gli insegnanti di scuola dell'infanzia creano schede didattiche di abbinamento per sviluppare discriminazione visiva nei bambini piccoli. La modalità Abbina le Ombre è perfetta per età 3-6 anni. I bambini abbinano oggetti familiari alle loro ombre. L'attività sviluppa riconoscimento delle forme e attenzione ai dettagli.
 
 Combina schede di abbinamento con pregrafismo per preparare alla scrittura. Usa immagini semplici che i bambini riconoscono facilmente. Animali domestici, frutta, veicoli e giocattoli funzionano benissimo. Le ombre chiare aiutano i bambini a identificare le forme senza confusione.
 
@@ -282,15 +282,15 @@ Le etichette A/B/C introducono l'alfabeto in modo contestuale. I bambini imparan
 
 Le schede matematica introducono concetti numerici attraverso abbinamento visivo. Usa immagini raggruppate per introdurre moltiplicazione. Quattro gruppi di tre oggetti abbinati al numero 12. Le tabelline diventano concrete e visuali invece che astratte.
 
-La modalità Make It Whole insegna frazioni in classe seconda e terza. Le metà di oggetti rappresentano 1/2 visivamente. I bambini vedono come due metà creano un intero. Il concetto diventa tangibile e comprensibile. Usa taglio verticale per sfida aggiuntiva con studenti avanzati.`,
+La modalità Ricomponi l'Immagine insegna frazioni in classe seconda e terza. Le metà di oggetti rappresentano 1/2 visivamente. I bambini vedono come due metà creano un intero. Il concetto diventa tangibile e comprensibile. Usa taglio verticale per sfida aggiuntiva con studenti avanzati.`,
         quote: 'Perfetto per consolidare la discriminazione visiva.',
       },
       {
         id: '3',
         icon: '🏠',
-        title: 'Genitori Homeschool',
+        title: 'Genitori che Educano a Casa',
         subtitle: 'Schede Didattiche Personalizzate',
-        description: `I genitori homeschool amano la flessibilità di personalizzare completamente ogni scheda didattica. Carica foto della vita quotidiana dei tuoi figli. Usa immagini di oggetti domestici per rendere rilevante l'apprendimento. I bambini abbinano oggetti che conoscono intimamente.
+        description: `I genitori che educano a casa amano la flessibilità di personalizzare completamente ogni scheda didattica. Carica foto della vita quotidiana dei tuoi figli. Usa immagini di oggetti domestici per rendere rilevante l'apprendimento. I bambini abbinano oggetti che conoscono intimamente.
 
 Crea schede didattiche che seguono gli interessi specifici di tuo figlio. Appassionato di dinosauri? Usa immagini di dinosauri per ogni scheda. Ama i treni? Abbina tipi diversi di treni. L'apprendimento basato sugli interessi aumenta motivazione e coinvolgimento.
 
@@ -316,9 +316,9 @@ Gli insegnanti di alfabeto usano l'abbinamento per riconoscimento di lettere. Ab
         subtitle: 'Schede Didattiche Differenziate per Bisogni Speciali',
         description: `Gli insegnanti di sostegno creano schede didattiche semplificate per studenti con bisogni speciali. La discriminazione visiva nelle schede di abbinamento è perfetta per sviluppare abilità percettive. Le immagini chiare e grandi facilitano il riconoscimento. Le opzioni di personalizzazione permettono adattamenti infiniti.
 
-Usa immagini altamente contrastanti per studenti con difficoltà visive. Ingrandisci elementi sul canvas per visibilità massima. Rimuovi dettagli superflui per ridurre sovraccarico cognitivo. Ogni scheda didattica è semplificata esattamente quanto necessario.
+Usa immagini altamente contrastanti per studenti con difficoltà visive. Ingrandisci elementi nell'area di lavoro per visibilità massima. Rimuovi dettagli superflui per ridurre sovraccarico cognitivo. Ogni scheda didattica è semplificata esattamente quanto necessario.
 
-La modalità Shadow Match con etichette supporta apprendimento strutturato. Le lettere e numeri forniscono supporto organizzativo. Gli studenti seguono passi chiari: trova A, trova 1, abbina. La struttura riduce ansia e aumenta indipendenza.`,
+La modalità Abbina le Ombre con etichette supporta apprendimento strutturato. Le lettere e numeri forniscono supporto organizzativo. Gli studenti seguono passi chiari: trova A, trova 1, abbina. La struttura riduce ansia e aumenta indipendenza.`,
         quote: 'Finalmente materiali che posso adattare completamente.',
       },
       {
@@ -328,7 +328,7 @@ La modalità Shadow Match con etichette supporta apprendimento strutturato. Le l
         subtitle: 'Vendi su Teachers Pay Teachers ed Etsy',
         description: `Gli imprenditori educativi creano prodotti da vendere su Teachers Pay Teachers, Etsy e Amazon KDP. La licenza commerciale POD inclusa nell'Accesso Completo permette vendita illimitata. Crea pacchetti di 20-30 schede didattiche su temi specifici. I prodotti digitali vendono €4-8 ciascuno.
 
-Combina schede di abbinamento con disegni da colorare per pacchetti di valore maggiore. Includi 15 schede di abbinamento e 15 pagine da colorare. I clienti pagano di più per bundle completi. I pacchetti tematici vendono meglio che prodotti singoli.
+Combina schede di abbinamento con disegni da colorare per pacchetti di valore maggiore. Includi 15 schede di abbinamento e 15 pagine da colorare. I clienti pagano di più per pacchetti completi. I pacchetti tematici vendono meglio che prodotti singoli.
 
 Crea prodotti stagionali per vendite tutto l'anno. Abbinamenti a tema autunno in settembre. Schede didattiche natalizie in novembre e dicembre. Attività primaverili in marzo e aprile. I prodotti stagionali hanno picchi di vendita prevedibili.`,
         quote: 'Ho guadagnato più di 2000 euro il primo anno.',
@@ -360,21 +360,21 @@ L'abbonamento Accesso Completo include accesso a tutti i 33 generatori di schede
         question: 'Posso Stampare Schede Didattiche Scuola dell\'Infanzia a Casa?',
         answer: `Sì, le schede didattiche si stampano perfettamente su qualsiasi stampante domestica normale. Stampa su stampanti inkjet o laser senza problemi. La risoluzione 300 DPI garantisce testo nitido e immagini chiare su carta normale. Non serve stampante professionale per risultati eccellenti.
 
-Scarica le schede didattiche in formato PDF per migliore qualità di stampa. Il PDF mantiene layout e risoluzione esatti. Stampa direttamente dal computer, tablet o smartphone. Tutti i programmi visualizzatori PDF stampano correttamente senza software aggiuntivo.`,
+Scarica le schede didattiche in formato PDF per migliore qualità di stampa. Il PDF mantiene impaginazione e risoluzione esatte. Stampa direttamente dal computer, tablet o smartphone. Tutti i programmi visualizzatori PDF stampano correttamente senza software aggiuntivo.`,
       },
       {
         id: '3',
-        question: 'Serve Esperienza di Design per Creare Schede Didattiche?',
-        answer: `No, non serve assolutamente esperienza di design grafico. Il generatore crea automaticamente layout professionali con un clic. Seleziona le immagini, scegli le opzioni e clicca genera. Il sistema posiziona tutti gli elementi per apprendimento ottimale senza input manuale.
+        question: 'Serve Esperienza di Progettazione per Creare Schede Didattiche?',
+        answer: `No, non serve assolutamente esperienza di progettazione grafica. Il generatore crea automaticamente impaginazioni professionali con un clic. Seleziona le immagini, scegli le opzioni e clicca genera. Il sistema posiziona tutti gli elementi per apprendimento ottimale senza input manuale.
 
-L'interfaccia è progettata specificamente per insegnanti senza competenze tecniche. Tutti i controlli usano linguaggio semplice e chiaro. Nessun gergo tecnico o terminologia complicata. Se sai usare email e social media, sai usare il generatore.`,
+L'interfaccia è progettata specificamente per insegnanti senza competenze tecniche. Tutti i controlli usano linguaggio semplice e chiaro. Nessun gergo tecnico o terminologia complicata. Se sai usare posta elettronica e social media, sai usare il generatore.`,
       },
       {
         id: '4',
         question: 'Quali Modalità di Abbinamento Sono Disponibili?',
-        answer: `Il nostro generatore offre due modalità di abbinamento distinte. La modalità Shadow Match crea schede dove i bambini abbinano oggetti alle loro ombre nere. Perfetto per sviluppare discriminazione visiva e riconoscimento delle forme.
+        answer: `Il nostro generatore offre due modalità di abbinamento distinte. La modalità Abbina le Ombre crea schede dove i bambini abbinano oggetti alle loro ombre nere. Perfetto per sviluppare discriminazione visiva e riconoscimento delle forme.
 
-La modalità Make It Whole genera schede dove i bambini ricostruiscono oggetti tagliati abbinando le due metà. Scegli taglio orizzontale o verticale. Sviluppa ragionamento spaziale e comprensione parte-tutto. Perfetto per introdurre concetti di frazioni.`,
+La modalità Ricomponi l'Immagine genera schede dove i bambini ricostruiscono oggetti tagliati abbinando le due metà. Scegli taglio orizzontale o verticale. Sviluppa ragionamento spaziale e comprensione parte-tutto. Perfetto per introdurre concetti di frazioni.`,
       },
       {
         id: '5',
@@ -402,14 +402,14 @@ La licenza commerciale vale per tutti i 33 generatori inclusi in Accesso Complet
         question: 'Quanto Tempo Serve per Creare una Scheda Didattica Completa?',
         answer: `Creare una scheda didattica di abbinamento richiede meno di 3 minuti dall'inizio alla stampa finale. Seleziona 4 immagini (30 secondi). Scegli modalità e opzioni (30 secondi). Genera e rivedi (30 secondi). Personalizza se necessario (60 secondi). Scarica e stampa (30 secondi). Totale sotto 3 minuti.
 
-Confronta con il metodo tradizionale che richiede 30-60 minuti. Trovare immagini copyright-free online, impaginare in Word, ridimensionare elementi, formattare per stampa. Il generatore elimina tutti questi passi manuali.`,
+Confronta con il metodo tradizionale che richiede 30-60 minuti. Trovare immagini libere da diritti online, impaginare in Word, ridimensionare elementi, formattare per stampa. Il generatore elimina tutti questi passi manuali.`,
       },
       {
         id: '9',
         question: 'Per Quali Fasce d\'Età Funzionano Meglio Queste Schede?',
         answer: `Le schede didattiche di abbinamento funzionano perfettamente per bambini 3-8 anni. Scuola dell'infanzia (3-6 anni) usa abbinamento per discriminazione visiva base. Scuola primaria classe prima e seconda (6-8 anni) usa abbinamento per concetti curricolari più complessi.
 
-Per bambini 3-4 anni, usa la modalità Shadow Match con oggetti molto familiari. Animali domestici, giocattoli e cibo che riconoscono quotidianamente. Il taglio orizzontale nella modalità Make It Whole è appropriato per questa età.`,
+Per bambini 3-4 anni, usa la modalità Abbina le Ombre con oggetti molto familiari. Animali domestici, giocattoli e cibo che riconoscono quotidianamente. Il taglio orizzontale nella modalità Ricomponi l'Immagine è appropriato per questa età.`,
       },
       {
         id: '10',

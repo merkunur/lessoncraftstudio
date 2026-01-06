@@ -166,6 +166,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       sv: 'bildsudoku-arbetsblad',
       de: 'kinder-sudoku-arbeitsblaetter',
       es: 'sudoku-fichas-ninos',
+      it: 'sudoku-bambini-schede',
     },
   },
   {

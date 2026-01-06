@@ -7625,6 +7625,7 @@ const seoRedirects: { [locale: string]: { [englishSlug: string]: string } } = {
     'alphabet-train-worksheets': 'treno-alfabeto-schede',
     'math-worksheets': 'matematica-schede',
     'word-scramble-worksheets': 'anagrammi-schede',
+    'sudoku-worksheets': 'sudoku-bambini-schede',
   },
   // Add more languages as they get localized slugs:
   // de: { 'word-search-worksheets': 'wortsuche-arbeitsblaetter' },

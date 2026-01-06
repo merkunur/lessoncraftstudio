@@ -193,6 +193,7 @@ import findAndCountItContent from '@/content/product-pages/it/trova-e-conta-sche
 import matchingItContent from '@/content/product-pages/it/abbinamenti-schede';
 import drawingLinesItContent from '@/content/product-pages/it/pregrafismo-schede';
 import pictureBingoItContent from '@/content/product-pages/it/bingo-immagini-schede';
+import sudokuItContent from '@/content/product-pages/it/sudoku-bambini-schede';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -817,6 +818,10 @@ export const contentRegistry: ContentRegistry = {
     'bingo-immagini-schede': pictureBingoItContent,
     // Also keep old slug for backwards compatibility during transition
     'picture-bingo-worksheets': pictureBingoItContent,
+    // Italian Sudoku (Sudoku per Bambini) - uses Italian SEO slug
+    'sudoku-bambini-schede': sudokuItContent,
+    // Also keep old slug for backwards compatibility during transition
+    'sudoku-worksheets': sudokuItContent,
   },
 };
 

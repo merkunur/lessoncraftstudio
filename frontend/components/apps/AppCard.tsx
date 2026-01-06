@@ -127,6 +127,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     de: 'kinder-sudoku-arbeitsblaetter',
     fr: 'sudoku-enfants-fiches',
     es: 'sudoku-fichas-ninos',
+    it: 'sudoku-bambini-schede',
   },
   'big-small-app': {
     en: 'big-small-worksheets',

@@ -792,6 +792,12 @@ const nextConfig = {
         destination: '/it/apps/cerca-parole-schede',
         permanent: true,
       },
+      // Italian: addition-worksheets → addizione-schede
+      {
+        source: '/it/apps/addition-worksheets',
+        destination: '/it/apps/addizione-schede',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

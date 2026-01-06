@@ -209,6 +209,7 @@ import oddOneOutItContent from '@/content/product-pages/it/trova-intruso-schede'
 import patternTrainItContent from '@/content/product-pages/it/treno-sequenze-schede';
 import patternWorksheetsItContent from '@/content/product-pages/it/schede-pattern';
 import picturePathItContent from '@/content/product-pages/it/percorso-illustrato-schede';
+import pictureSortItContent from '@/content/product-pages/it/classificazione-immagini-schede';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -897,6 +898,10 @@ export const contentRegistry: ContentRegistry = {
     'percorso-illustrato-schede': picturePathItContent,
     // Also keep old slug for backwards compatibility during transition
     'picture-path-worksheets': picturePathItContent,
+    // Italian Picture Sort (Classificazione Immagini) - uses Italian SEO slug
+    'classificazione-immagini-schede': pictureSortItContent,
+    // Also keep old slug for backwards compatibility during transition
+    'picture-sort-worksheets': pictureSortItContent,
   },
 };
 

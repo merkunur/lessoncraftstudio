@@ -149,6 +149,7 @@ import oddOneOutItContent from '@/content/product-pages/it/trova-intruso-schede'
 import patternTrainItContent from '@/content/product-pages/it/treno-sequenze-schede';
 import patternWorksheetsItContent from '@/content/product-pages/it/schede-pattern';
 import picturePathItContent from '@/content/product-pages/it/percorso-illustrato-schede';
+import pictureSortItContent from '@/content/product-pages/it/classificazione-immagini-schede';
 
 interface PageProps {
   params: {
@@ -8078,6 +8079,7 @@ export async function generateStaticParams() {
     'treno-sequenze-schede', // Product page slug (Italian) - language-specific SEO slug for pattern-train
     'schede-pattern', // Product page slug (Italian) - language-specific SEO slug for pattern-worksheet
     'percorso-illustrato-schede', // Product page slug (Italian) - language-specific SEO slug for picture-path
+    'classificazione-immagini-schede', // Product page slug (Italian) - language-specific SEO slug for picture-sort
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

@@ -341,6 +341,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       de: 'bilder-sortieren-arbeitsblaetter',
       fr: 'tri-images-fiches',
       es: 'clasificar-imagenes-fichas',
+      it: 'classificazione-immagini-schede',
     },
   },
   {

@@ -253,6 +253,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     de: 'bilder-sortieren-arbeitsblaetter',
     fr: 'tri-images-fiches',
     es: 'clasificar-imagenes-fichas',
+    it: 'classificazione-immagini-schede',
   },
   'prepositions': {
     en: 'prepositions-worksheets',

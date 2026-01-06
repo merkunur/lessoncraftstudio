@@ -374,6 +374,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       de: 'subtraktion-arbeitsblaetter',
       fr: 'soustraction-fiches',
       es: 'resta-fichas',
+      it: 'sottrazione-schede',
     },
   },
   {

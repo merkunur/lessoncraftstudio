@@ -152,6 +152,7 @@ import picturePathItContent from '@/content/product-pages/it/percorso-illustrato
 import pictureSortItContent from '@/content/product-pages/it/classificazione-immagini-schede';
 import prepositionsItContent from '@/content/product-pages/it/preposizioni-schede';
 import shadowMatchItContent from '@/content/product-pages/it/abbinamento-ombre-schede';
+import subtractionItContent from '@/content/product-pages/it/sottrazione-schede';
 
 interface PageProps {
   params: {
@@ -8084,6 +8085,7 @@ export async function generateStaticParams() {
     'classificazione-immagini-schede', // Product page slug (Italian) - language-specific SEO slug for picture-sort
     'preposizioni-schede', // Product page slug (Italian) - language-specific SEO slug for prepositions
     'abbinamento-ombre-schede', // Product page slug (Italian) - language-specific SEO slug for shadow-match
+    'sottrazione-schede', // Product page slug (Italian) - language-specific SEO slug for subtraction
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

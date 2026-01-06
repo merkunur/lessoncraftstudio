@@ -936,6 +936,12 @@ const nextConfig = {
         destination: '/it/apps/abbinamento-ombre-schede',
         permanent: true,
       },
+      // Italian: subtraction-worksheets → sottrazione-schede
+      {
+        source: '/it/apps/subtraction-worksheets',
+        destination: '/it/apps/sottrazione-schede',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

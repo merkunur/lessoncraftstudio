@@ -212,6 +212,7 @@ import picturePathItContent from '@/content/product-pages/it/percorso-illustrato
 import pictureSortItContent from '@/content/product-pages/it/classificazione-immagini-schede';
 import prepositionsItContent from '@/content/product-pages/it/preposizioni-schede';
 import shadowMatchItContent from '@/content/product-pages/it/abbinamento-ombre-schede';
+import subtractionItContent from '@/content/product-pages/it/sottrazione-schede';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -912,6 +913,10 @@ export const contentRegistry: ContentRegistry = {
     'abbinamento-ombre-schede': shadowMatchItContent,
     // Also keep old slug for backwards compatibility during transition
     'shadow-match-worksheets': shadowMatchItContent,
+    // Italian Subtraction (Sottrazione) - uses Italian SEO slug
+    'sottrazione-schede': subtractionItContent,
+    // Also keep old slug for backwards compatibility during transition
+    'subtraction-worksheets': subtractionItContent,
   },
 };
 

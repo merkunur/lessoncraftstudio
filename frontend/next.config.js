@@ -864,6 +864,12 @@ const nextConfig = {
         destination: '/it/apps/disegno-griglia-schede',
         permanent: true,
       },
+      // Italian: find-objects-worksheets → trova-oggetti-schede
+      {
+        source: '/it/apps/find-objects-worksheets',
+        destination: '/it/apps/trova-oggetti-schede',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

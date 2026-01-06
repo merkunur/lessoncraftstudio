@@ -221,6 +221,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       de: 'suchbilder-arbeitsblaetter',
       fr: 'cherche-objets-fiches',
       es: 'buscar-objetos-fichas',
+      it: 'trova-oggetti-schede',
     },
   },
   {

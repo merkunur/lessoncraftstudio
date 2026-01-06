@@ -138,6 +138,7 @@ import bigSmallItContent from '@/content/product-pages/it/grande-piccolo-schede'
 import chartCountItContent from '@/content/product-pages/it/grafici-immagini-schede';
 import codeAdditionItContent from '@/content/product-pages/it/addizioni-immagini-schede';
 import drawAndColorItContent from '@/content/product-pages/it/disegno-griglia-schede';
+import findObjectsItContent from '@/content/product-pages/it/trova-oggetti-schede';
 
 interface PageProps {
   params: {
@@ -8054,6 +8055,7 @@ export async function generateStaticParams() {
     'grafici-immagini-schede', // Product page slug (Italian) - language-specific SEO slug for chart-count
     'addizioni-immagini-schede', // Product page slug (Italian) - language-specific SEO slug for code-addition
     'disegno-griglia-schede', // Product page slug (Italian) - language-specific SEO slug for draw-and-color
+    'trova-oggetti-schede', // Product page slug (Italian) - language-specific SEO slug for find-objects
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

@@ -198,6 +198,7 @@ import bigSmallItContent from '@/content/product-pages/it/grande-piccolo-schede'
 import chartCountItContent from '@/content/product-pages/it/grafici-immagini-schede';
 import codeAdditionItContent from '@/content/product-pages/it/addizioni-immagini-schede';
 import drawAndColorItContent from '@/content/product-pages/it/disegno-griglia-schede';
+import findObjectsItContent from '@/content/product-pages/it/trova-oggetti-schede';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -842,6 +843,10 @@ export const contentRegistry: ContentRegistry = {
     'disegno-griglia-schede': drawAndColorItContent,
     // Also keep old slug for backwards compatibility during transition
     'draw-and-color-worksheets': drawAndColorItContent,
+    // Italian Find Objects (Trova gli Oggetti) - uses Italian SEO slug
+    'trova-oggetti-schede': findObjectsItContent,
+    // Also keep old slug for backwards compatibility during transition
+    'find-objects-worksheets': findObjectsItContent,
   },
 };
 

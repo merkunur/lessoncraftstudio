@@ -166,6 +166,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     de: 'suchbilder-arbeitsblaetter',
     fr: 'cherche-objets-fiches',
     es: 'buscar-objetos-fichas',
+    it: 'trova-oggetti-schede',
   },
   'grid-match': {
     en: 'grid-match-worksheets',

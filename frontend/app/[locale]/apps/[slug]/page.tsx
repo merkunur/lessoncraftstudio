@@ -131,6 +131,7 @@ import shadowMatchEsContent from '@/content/product-pages/es/asociacion-sombras-
 
 // Italian content imports
 import alphabetTrainItContent from '@/content/product-pages/it/treno-alfabeto-schede';
+import coloringItContent from '@/content/product-pages/it/disegni-da-colorare';
 
 interface PageProps {
   params: {

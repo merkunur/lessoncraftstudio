@@ -834,6 +834,12 @@ const nextConfig = {
         destination: '/it/apps/pregrafismo-schede',
         permanent: true,
       },
+      // Italian: picture-bingo-worksheets → bingo-immagini-schede
+      {
+        source: '/it/apps/picture-bingo-worksheets',
+        destination: '/it/apps/bingo-immagini-schede',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

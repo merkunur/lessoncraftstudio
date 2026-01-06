@@ -192,6 +192,7 @@ import wordScrambleItContent from '@/content/product-pages/it/anagrammi-schede';
 import findAndCountItContent from '@/content/product-pages/it/trova-e-conta-schede';
 import matchingItContent from '@/content/product-pages/it/abbinamenti-schede';
 import drawingLinesItContent from '@/content/product-pages/it/pregrafismo-schede';
+import pictureBingoItContent from '@/content/product-pages/it/bingo-immagini-schede';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -812,6 +813,10 @@ export const contentRegistry: ContentRegistry = {
     'pregrafismo-schede': drawingLinesItContent,
     // Also keep old slug for backwards compatibility during transition
     'drawing-lines-worksheets': drawingLinesItContent,
+    // Italian Picture Bingo (Bingo Immagini) - uses Italian SEO slug
+    'bingo-immagini-schede': pictureBingoItContent,
+    // Also keep old slug for backwards compatibility during transition
+    'picture-bingo-worksheets': pictureBingoItContent,
   },
 };
 

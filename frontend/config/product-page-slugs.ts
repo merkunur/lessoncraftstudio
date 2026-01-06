@@ -242,6 +242,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       de: 'bilderkreuzwortraetsel-arbeitsblaetter',
       fr: 'mots-croises-images-fiches',
       es: 'crucigramas-imagenes-fichas',
+      it: 'cruciverba-immagini-schede',
     },
   },
   {

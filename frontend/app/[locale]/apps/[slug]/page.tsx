@@ -140,6 +140,7 @@ import codeAdditionItContent from '@/content/product-pages/it/addizioni-immagini
 import drawAndColorItContent from '@/content/product-pages/it/disegno-griglia-schede';
 import findObjectsItContent from '@/content/product-pages/it/trova-oggetti-schede';
 import gridMatchItContent from '@/content/product-pages/it/griglia-abbinamento-schede';
+import crosswordItContent from '@/content/product-pages/it/cruciverba-immagini-schede';
 
 interface PageProps {
   params: {
@@ -7632,6 +7633,7 @@ const seoRedirects: { [locale: string]: { [englishSlug: string]: string } } = {
     'math-worksheets': 'matematica-schede',
     'word-scramble-worksheets': 'anagrammi-schede',
     'sudoku-worksheets': 'sudoku-bambini-schede',
+    'crossword-worksheets': 'cruciverba-immagini-schede',
   },
   // Add more languages as they get localized slugs:
   // de: { 'word-search-worksheets': 'wortsuche-arbeitsblaetter' },
@@ -8058,6 +8060,7 @@ export async function generateStaticParams() {
     'disegno-griglia-schede', // Product page slug (Italian) - language-specific SEO slug for draw-and-color
     'trova-oggetti-schede', // Product page slug (Italian) - language-specific SEO slug for find-objects
     'griglia-abbinamento-schede', // Product page slug (Italian) - language-specific SEO slug for grid-match
+    'cruciverba-immagini-schede', // Product page slug (Italian) - language-specific SEO slug for crossword
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

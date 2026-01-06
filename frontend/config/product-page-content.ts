@@ -200,6 +200,7 @@ import codeAdditionItContent from '@/content/product-pages/it/addizioni-immagini
 import drawAndColorItContent from '@/content/product-pages/it/disegno-griglia-schede';
 import findObjectsItContent from '@/content/product-pages/it/trova-oggetti-schede';
 import gridMatchItContent from '@/content/product-pages/it/griglia-abbinamento-schede';
+import crosswordItContent from '@/content/product-pages/it/cruciverba-immagini-schede';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -852,6 +853,10 @@ export const contentRegistry: ContentRegistry = {
     'griglia-abbinamento-schede': gridMatchItContent,
     // Also keep old slug for backwards compatibility during transition
     'grid-match-worksheets': gridMatchItContent,
+    // Italian Crossword (Cruciverba con Immagini) - uses Italian SEO slug
+    'cruciverba-immagini-schede': crosswordItContent,
+    // Also keep old slug for backwards compatibility during transition
+    'crossword-worksheets': crosswordItContent,
   },
 };
 

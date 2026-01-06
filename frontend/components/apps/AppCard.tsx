@@ -181,6 +181,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     de: 'bilderkreuzwortraetsel-arbeitsblaetter',
     fr: 'mots-croises-images-fiches',
     es: 'crucigramas-imagenes-fichas',
+    it: 'cruciverba-immagini-schede',
   },
   'image-cryptogram': {
     en: 'cryptogram-worksheets',

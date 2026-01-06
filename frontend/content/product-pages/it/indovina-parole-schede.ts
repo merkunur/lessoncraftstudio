@@ -331,9 +331,13 @@ La velocità di creazione di 3 minuti significa alta produttività. Crea 20 prod
   faq: {
     sectionTitle: 'Domande Frequenti sulle Schede Didattiche per Indovinare Parole',
     sectionDescription: 'Gli insegnanti e i genitori fanno domande simili sul generatore di schede didattiche. Ecco risposte complete alle domande più comuni su abbonamento, funzionalità, utilizzo in classe e opportunità commerciali.',
+    showMoreText: 'Mostra altre domande',
+    showLessText: 'Mostra meno domande',
     badgeText: 'FAQ',
     readMoreLabel: 'Leggi di più',
     showLessLabel: 'Mostra meno',
+    secureCheckout: 'Pagamento sicuro',
+    cancelAnytime: 'Cancella quando vuoi',
     items: [
       {
         id: '1',

@@ -264,6 +264,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       de: 'mathe-raetsel-arbeitsblaetter',
       fr: 'puzzle-maths-fiches',
       es: 'rompecabezas-matematicos-fichas',
+      it: 'puzzle-matematici-schede',
     },
   },
   {

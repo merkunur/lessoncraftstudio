@@ -197,6 +197,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     de: 'mathe-raetsel-arbeitsblaetter',
     fr: 'puzzle-maths-fiches',
     es: 'rompecabezas-matematicos-fichas',
+    it: 'puzzle-matematici-schede',
   },
   'missing-pieces': {
     en: 'missing-pieces-worksheets',

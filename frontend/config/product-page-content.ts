@@ -202,6 +202,7 @@ import findObjectsItContent from '@/content/product-pages/it/trova-oggetti-sched
 import gridMatchItContent from '@/content/product-pages/it/griglia-abbinamento-schede';
 import crosswordItContent from '@/content/product-pages/it/cruciverba-immagini-schede';
 import cryptogramItContent from '@/content/product-pages/it/crittogramma-schede';
+import mathPuzzleItContent from '@/content/product-pages/it/puzzle-matematici-schede';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -862,6 +863,10 @@ export const contentRegistry: ContentRegistry = {
     'crittogramma-schede': cryptogramItContent,
     // Also keep old slug for backwards compatibility during transition
     'cryptogram-worksheets': cryptogramItContent,
+    // Italian Math Puzzle (Puzzle Matematici) - uses Italian SEO slug
+    'puzzle-matematici-schede': mathPuzzleItContent,
+    // Also keep old slug for backwards compatibility during transition
+    'math-puzzle-worksheets': mathPuzzleItContent,
   },
 };
 

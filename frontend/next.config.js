@@ -966,6 +966,12 @@ const nextConfig = {
         destination: '/pt/apps/caca-palavras-fichas',
         permanent: true,
       },
+      // Portuguese (Brazilian): addition-worksheets → adicao-fichas
+      {
+        source: '/pt/apps/addition-worksheets',
+        destination: '/pt/apps/adicao-fichas',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

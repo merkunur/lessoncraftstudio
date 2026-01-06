@@ -8091,6 +8091,7 @@ export async function generateStaticParams() {
     'caccia-tesoro-schede', // Product page slug (Italian) - language-specific SEO slug for treasure-hunt
     'indovina-parole-schede', // Product page slug (Italian) - language-specific SEO slug for word-guess
     'caca-palavras-fichas', // Product page slug (Portuguese/Brazilian) - language-specific SEO slug for word-search
+    'adicao-fichas', // Product page slug (Portuguese/Brazilian) - language-specific SEO slug for addition
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

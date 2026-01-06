@@ -219,6 +219,7 @@ import writingItContent from '@/content/product-pages/it/scrittura-schede';
 
 // Portuguese (Brazilian) content imports
 import wordSearchPtContent from '@/content/product-pages/pt/caca-palavras-fichas';
+import additionPtContent from '@/content/product-pages/pt/adicao-fichas';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -941,6 +942,10 @@ export const contentRegistry: ContentRegistry = {
     'caca-palavras-fichas': wordSearchPtContent,
     // Also keep old slug for backwards compatibility during transition
     'word-search-worksheets': wordSearchPtContent,
+    // Portuguese (Brazilian) Addition (Adição) - uses Portuguese SEO slug
+    'adicao-fichas': additionPtContent,
+    // Also keep old slug for backwards compatibility during transition
+    'addition-worksheets': additionPtContent,
   },
 };
 

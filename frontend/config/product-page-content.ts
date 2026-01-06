@@ -221,6 +221,7 @@ import writingItContent from '@/content/product-pages/it/scrittura-schede';
 import wordSearchPtContent from '@/content/product-pages/pt/caca-palavras-fichas';
 import additionPtContent from '@/content/product-pages/pt/adicao-fichas';
 import alphabetTrainPtContent from '@/content/product-pages/pt/trem-alfabeto-fichas';
+import coloringPtContent from '@/content/product-pages/pt/desenhos-colorir-fichas';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -951,6 +952,10 @@ export const contentRegistry: ContentRegistry = {
     'trem-alfabeto-fichas': alphabetTrainPtContent,
     // Also keep old slug for backwards compatibility during transition
     'alphabet-train-worksheets': alphabetTrainPtContent,
+    // Portuguese (Brazilian) Coloring (Desenhos para Colorir) - uses Portuguese SEO slug
+    'desenhos-colorir-fichas': coloringPtContent,
+    // Also keep old slug for backwards compatibility during transition
+    'coloring-worksheets': coloringPtContent,
   },
 };
 

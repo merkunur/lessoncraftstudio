@@ -93,6 +93,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       fr: 'coloriage-fiches',
       es: 'dibujos-colorear-fichas',
       it: 'disegni-da-colorare',
+      pt: 'desenhos-colorir-fichas',
     },
   },
   {

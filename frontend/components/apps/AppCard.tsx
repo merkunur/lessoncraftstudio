@@ -73,6 +73,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     fr: 'coloriage-fiches',
     es: 'dibujos-colorear-fichas',
     it: 'disegni-da-colorare',
+    pt: 'desenhos-colorir-fichas',
   },
   'math-worksheet': {
     en: 'math-worksheets',

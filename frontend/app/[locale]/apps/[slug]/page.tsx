@@ -8092,6 +8092,8 @@ export async function generateStaticParams() {
     'indovina-parole-schede', // Product page slug (Italian) - language-specific SEO slug for word-guess
     'caca-palavras-fichas', // Product page slug (Portuguese/Brazilian) - language-specific SEO slug for word-search
     'adicao-fichas', // Product page slug (Portuguese/Brazilian) - language-specific SEO slug for addition
+    'trem-alfabeto-fichas', // Product page slug (Portuguese/Brazilian) - language-specific SEO slug for alphabet-train
+    'desenhos-colorir-fichas', // Product page slug (Portuguese/Brazilian) - language-specific SEO slug for coloring
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

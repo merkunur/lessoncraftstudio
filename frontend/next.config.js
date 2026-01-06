@@ -978,6 +978,12 @@ const nextConfig = {
         destination: '/pt/apps/trem-alfabeto-fichas',
         permanent: true,
       },
+      // Portuguese (Brazilian): coloring-worksheets → desenhos-colorir-fichas
+      {
+        source: '/pt/apps/coloring-worksheets',
+        destination: '/pt/apps/desenhos-colorir-fichas',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

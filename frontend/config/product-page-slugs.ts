@@ -177,6 +177,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       de: 'gross-klein-arbeitsblaetter',
       fr: 'grand-petit-fiches',
       es: 'grande-pequeno-fichas',
+      it: 'grande-piccolo-schede',
     },
   },
   {

@@ -194,6 +194,7 @@ import matchingItContent from '@/content/product-pages/it/abbinamenti-schede';
 import drawingLinesItContent from '@/content/product-pages/it/pregrafismo-schede';
 import pictureBingoItContent from '@/content/product-pages/it/bingo-immagini-schede';
 import sudokuItContent from '@/content/product-pages/it/sudoku-bambini-schede';
+import bigSmallItContent from '@/content/product-pages/it/grande-piccolo-schede';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -822,6 +823,10 @@ export const contentRegistry: ContentRegistry = {
     'sudoku-bambini-schede': sudokuItContent,
     // Also keep old slug for backwards compatibility during transition
     'sudoku-worksheets': sudokuItContent,
+    // Italian Big Small (Grande Piccolo) - uses Italian SEO slug
+    'grande-piccolo-schede': bigSmallItContent,
+    // Also keep old slug for backwards compatibility during transition
+    'big-small-worksheets': bigSmallItContent,
   },
 };
 

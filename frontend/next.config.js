@@ -840,6 +840,12 @@ const nextConfig = {
         destination: '/it/apps/bingo-immagini-schede',
         permanent: true,
       },
+      // Italian: big-small-worksheets → grande-piccolo-schede
+      {
+        source: '/it/apps/big-small-worksheets',
+        destination: '/it/apps/grande-piccolo-schede',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

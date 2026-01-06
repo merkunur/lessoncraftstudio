@@ -129,6 +129,9 @@ import pictureSortEsContent from '@/content/product-pages/es/clasificar-imagenes
 import prepositionsEsContent from '@/content/product-pages/es/preposiciones-fichas';
 import shadowMatchEsContent from '@/content/product-pages/es/asociacion-sombras-fichas';
 
+// Italian content imports
+import alphabetTrainItContent from '@/content/product-pages/it/treno-alfabeto-schede';
+
 interface PageProps {
   params: {
     locale: string;
@@ -7615,6 +7618,9 @@ const seoRedirects: { [locale: string]: { [englishSlug: string]: string } } = {
     'grid-match-worksheets': 'puzzle-grille-fiches',
     'crossword-worksheets': 'mots-croises-images-fiches',
   },
+  it: {
+    'alphabet-train-worksheets': 'treno-alfabeto-schede',
+  },
   // Add more languages as they get localized slugs:
   // de: { 'word-search-worksheets': 'wortsuche-arbeitsblaetter' },
 };
@@ -8028,6 +8034,8 @@ export async function generateStaticParams() {
     'skattjakt-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug for treasure-hunt
     'gissa-ordet-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug for word-guess
     'skrivovningar-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug for writing
+    // Italian language-specific SEO slugs
+    'treno-alfabeto-schede', // Product page slug (Italian) - language-specific SEO slug for alphabet-train
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

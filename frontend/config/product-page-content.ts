@@ -185,6 +185,7 @@ import writingEsContent from '@/content/product-pages/es/lectoescritura-fichas';
 // Italian content imports
 import wordSearchItContent from '@/content/product-pages/it/cerca-parole-schede';
 import additionItContent from '@/content/product-pages/it/addizione-schede';
+import alphabetTrainItContent from '@/content/product-pages/it/treno-alfabeto-schede';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -777,6 +778,10 @@ export const contentRegistry: ContentRegistry = {
     'addizione-schede': additionItContent,
     // Also keep old slug for backwards compatibility during transition
     'addition-worksheets': additionItContent,
+    // Italian Alphabet Train - uses Italian SEO slug
+    'treno-alfabeto-schede': alphabetTrainItContent,
+    // Also keep old slug for backwards compatibility during transition
+    'alphabet-train-worksheets': alphabetTrainItContent,
   },
 };
 

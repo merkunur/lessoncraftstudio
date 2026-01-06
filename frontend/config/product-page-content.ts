@@ -204,6 +204,7 @@ import crosswordItContent from '@/content/product-pages/it/cruciverba-immagini-s
 import cryptogramItContent from '@/content/product-pages/it/crittogramma-schede';
 import mathPuzzleItContent from '@/content/product-pages/it/puzzle-matematici-schede';
 import missingPiecesItContent from '@/content/product-pages/it/pezzi-mancanti-schede';
+import moreLessItContent from '@/content/product-pages/it/confronto-numeri-schede';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -872,6 +873,10 @@ export const contentRegistry: ContentRegistry = {
     'pezzi-mancanti-schede': missingPiecesItContent,
     // Also keep old slug for backwards compatibility during transition
     'missing-pieces-worksheets': missingPiecesItContent,
+    // Italian More Less (Confronto Numeri / Maggiore Minore) - uses Italian SEO slug
+    'confronto-numeri-schede': moreLessItContent,
+    // Also keep old slug for backwards compatibility during transition
+    'more-less-worksheets': moreLessItContent,
   },
 };
 

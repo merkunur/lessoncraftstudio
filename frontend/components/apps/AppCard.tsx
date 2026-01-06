@@ -213,6 +213,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     de: 'mehr-weniger-arbeitsblaetter',
     fr: 'comparaison-quantites-fiches',
     es: 'mayor-menor-fichas',
+    it: 'confronto-numeri-schede',
   },
   'odd-one-out': {
     en: 'odd-one-out-worksheets',

@@ -286,6 +286,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       de: 'mehr-weniger-arbeitsblaetter',
       fr: 'comparaison-quantites-fiches',
       es: 'mayor-menor-fichas',
+      it: 'confronto-numeri-schede',
     },
   },
   {

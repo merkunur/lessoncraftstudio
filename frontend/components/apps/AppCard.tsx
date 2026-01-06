@@ -293,6 +293,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     de: 'woerter-raten-arbeitsblaetter',
     fr: 'deviner-mots-fiches',
     es: 'adivinar-palabras-fichas',
+    it: 'indovina-parole-schede',
   },
   'writing-app': {
     en: 'writing-worksheets',

@@ -214,6 +214,7 @@ import prepositionsItContent from '@/content/product-pages/it/preposizioni-sched
 import shadowMatchItContent from '@/content/product-pages/it/abbinamento-ombre-schede';
 import subtractionItContent from '@/content/product-pages/it/sottrazione-schede';
 import treasureHuntItContent from '@/content/product-pages/it/caccia-tesoro-schede';
+import wordGuessItContent from '@/content/product-pages/it/indovina-parole-schede';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -922,6 +923,10 @@ export const contentRegistry: ContentRegistry = {
     'caccia-tesoro-schede': treasureHuntItContent,
     // Also keep old slug for backwards compatibility during transition
     'treasure-hunt-worksheets': treasureHuntItContent,
+    // Italian Word Guess (Indovina la Parola) - uses Italian SEO slug
+    'indovina-parole-schede': wordGuessItContent,
+    // Also keep old slug for backwards compatibility during transition
+    'word-guess-worksheets': wordGuessItContent,
   },
 };
 

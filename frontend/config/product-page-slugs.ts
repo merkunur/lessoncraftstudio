@@ -396,6 +396,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       de: 'woerter-raten-arbeitsblaetter',
       fr: 'deviner-mots-fiches',
       es: 'adivinar-palabras-fichas',
+      it: 'indovina-parole-schede',
     },
   },
   {

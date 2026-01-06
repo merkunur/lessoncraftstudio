@@ -948,6 +948,12 @@ const nextConfig = {
         destination: '/it/apps/caccia-tesoro-schede',
         permanent: true,
       },
+      // Italian: word-guess-worksheets → indovina-parole-schede
+      {
+        source: '/it/apps/word-guess-worksheets',
+        destination: '/it/apps/indovina-parole-schede',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

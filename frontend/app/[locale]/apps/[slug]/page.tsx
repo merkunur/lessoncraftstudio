@@ -154,6 +154,7 @@ import prepositionsItContent from '@/content/product-pages/it/preposizioni-sched
 import shadowMatchItContent from '@/content/product-pages/it/abbinamento-ombre-schede';
 import subtractionItContent from '@/content/product-pages/it/sottrazione-schede';
 import treasureHuntItContent from '@/content/product-pages/it/caccia-tesoro-schede';
+import wordGuessItContent from '@/content/product-pages/it/indovina-parole-schede';
 
 interface PageProps {
   params: {
@@ -8088,6 +8089,7 @@ export async function generateStaticParams() {
     'abbinamento-ombre-schede', // Product page slug (Italian) - language-specific SEO slug for shadow-match
     'sottrazione-schede', // Product page slug (Italian) - language-specific SEO slug for subtraction
     'caccia-tesoro-schede', // Product page slug (Italian) - language-specific SEO slug for treasure-hunt
+    'indovina-parole-schede', // Product page slug (Italian) - language-specific SEO slug for word-guess
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

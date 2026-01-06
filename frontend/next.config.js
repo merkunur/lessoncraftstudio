@@ -972,6 +972,12 @@ const nextConfig = {
         destination: '/pt/apps/adicao-fichas',
         permanent: true,
       },
+      // Portuguese (Brazilian): alphabet-train-worksheets → trem-alfabeto-fichas
+      {
+        source: '/pt/apps/alphabet-train-worksheets',
+        destination: '/pt/apps/trem-alfabeto-fichas',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

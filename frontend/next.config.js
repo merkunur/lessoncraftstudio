@@ -876,6 +876,12 @@ const nextConfig = {
         destination: '/it/apps/griglia-abbinamento-schede',
         permanent: true,
       },
+      // Italian: cryptogram-worksheets → crittogramma-schede
+      {
+        source: '/it/apps/cryptogram-worksheets',
+        destination: '/it/apps/crittogramma-schede',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

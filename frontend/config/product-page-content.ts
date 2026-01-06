@@ -201,6 +201,7 @@ import drawAndColorItContent from '@/content/product-pages/it/disegno-griglia-sc
 import findObjectsItContent from '@/content/product-pages/it/trova-oggetti-schede';
 import gridMatchItContent from '@/content/product-pages/it/griglia-abbinamento-schede';
 import crosswordItContent from '@/content/product-pages/it/cruciverba-immagini-schede';
+import cryptogramItContent from '@/content/product-pages/it/crittogramma-schede';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -857,6 +858,10 @@ export const contentRegistry: ContentRegistry = {
     'cruciverba-immagini-schede': crosswordItContent,
     // Also keep old slug for backwards compatibility during transition
     'crossword-worksheets': crosswordItContent,
+    // Italian Cryptogram (Crittogramma con Immagini) - uses Italian SEO slug
+    'crittogramma-schede': cryptogramItContent,
+    // Also keep old slug for backwards compatibility during transition
+    'cryptogram-worksheets': cryptogramItContent,
   },
 };
 

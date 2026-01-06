@@ -111,6 +111,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     de: 'linien-ziehen-arbeitsblaetter',
     fr: 'graphisme-fiches',
     es: 'grafomotricidad-fichas',
+    it: 'pregrafismo-schede',
   },
   'picture-bingo': {
     en: 'picture-bingo-worksheets',

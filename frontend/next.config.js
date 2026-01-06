@@ -828,6 +828,12 @@ const nextConfig = {
         destination: '/it/apps/abbinamenti-schede',
         permanent: true,
       },
+      // Italian: drawing-lines-worksheets → pregrafismo-schede
+      {
+        source: '/it/apps/drawing-lines-worksheets',
+        destination: '/it/apps/pregrafismo-schede',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

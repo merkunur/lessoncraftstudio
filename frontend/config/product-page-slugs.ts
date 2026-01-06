@@ -145,6 +145,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       de: 'linien-ziehen-arbeitsblaetter',
       fr: 'graphisme-fiches',
       es: 'grafomotricidad-fichas',
+      it: 'pregrafismo-schede',
     },
   },
   {

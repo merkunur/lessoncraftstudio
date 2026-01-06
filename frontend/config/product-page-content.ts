@@ -189,6 +189,7 @@ import alphabetTrainItContent from '@/content/product-pages/it/treno-alfabeto-sc
 import coloringItContent from '@/content/product-pages/it/disegni-da-colorare';
 import mathWorksheetsItContent from '@/content/product-pages/it/math-worksheets';
 import wordScrambleItContent from '@/content/product-pages/it/anagrammi-schede';
+import findAndCountItContent from '@/content/product-pages/it/trova-e-conta-schede';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -797,6 +798,10 @@ export const contentRegistry: ContentRegistry = {
     'anagrammi-schede': wordScrambleItContent,
     // Also keep old slug for backwards compatibility during transition
     'word-scramble-worksheets': wordScrambleItContent,
+    // Italian Find and Count (Trova e Conta) - uses Italian SEO slug
+    'trova-e-conta-schede': findAndCountItContent,
+    // Also keep old slug for backwards compatibility during transition
+    'find-and-count-worksheets': findAndCountItContent,
   },
 };
 

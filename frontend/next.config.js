@@ -816,6 +816,12 @@ const nextConfig = {
         destination: '/it/apps/anagrammi-schede',
         permanent: true,
       },
+      // Italian: find-and-count-worksheets → trova-e-conta-schede
+      {
+        source: '/it/apps/find-and-count-worksheets',
+        destination: '/it/apps/trova-e-conta-schede',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

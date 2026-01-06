@@ -125,6 +125,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       de: 'suchen-und-zaehlen-arbeitsblaetter',
       fr: 'cherche-et-compte-fiches',
       es: 'buscar-contar-fichas',
+      it: 'trova-e-conta-schede',
     },
   },
   {

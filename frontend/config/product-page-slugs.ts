@@ -352,6 +352,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       de: 'praepositionen-arbeitsblaetter',
       fr: 'prepositions-exercices-fiches',
       es: 'preposiciones-fichas',
+      it: 'preposizioni-schede',
     },
   },
   {

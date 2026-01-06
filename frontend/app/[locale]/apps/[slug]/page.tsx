@@ -150,6 +150,7 @@ import patternTrainItContent from '@/content/product-pages/it/treno-sequenze-sch
 import patternWorksheetsItContent from '@/content/product-pages/it/schede-pattern';
 import picturePathItContent from '@/content/product-pages/it/percorso-illustrato-schede';
 import pictureSortItContent from '@/content/product-pages/it/classificazione-immagini-schede';
+import prepositionsItContent from '@/content/product-pages/it/preposizioni-schede';
 
 interface PageProps {
   params: {
@@ -8080,6 +8081,7 @@ export async function generateStaticParams() {
     'schede-pattern', // Product page slug (Italian) - language-specific SEO slug for pattern-worksheet
     'percorso-illustrato-schede', // Product page slug (Italian) - language-specific SEO slug for picture-path
     'classificazione-immagini-schede', // Product page slug (Italian) - language-specific SEO slug for picture-sort
+    'preposizioni-schede', // Product page slug (Italian) - language-specific SEO slug for prepositions
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

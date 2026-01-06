@@ -261,6 +261,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     de: 'praepositionen-arbeitsblaetter',
     fr: 'prepositions-exercices-fiches',
     es: 'preposiciones-fichas',
+    it: 'preposizioni-schede',
   },
   'shadow-match': {
     en: 'shadow-match-worksheets',

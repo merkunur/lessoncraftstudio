@@ -912,6 +912,12 @@ const nextConfig = {
         destination: '/it/apps/schede-pattern',
         permanent: true,
       },
+      // Italian: picture-path-worksheets → percorso-illustrato-schede
+      {
+        source: '/it/apps/picture-path-worksheets',
+        destination: '/it/apps/percorso-illustrato-schede',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

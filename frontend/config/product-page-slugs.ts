@@ -330,6 +330,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       de: 'bilderpfad-arbeitsblaetter',
       fr: 'parcours-images-fiches',
       es: 'laberintos-imagenes-fichas',
+      it: 'percorso-illustrato-schede',
     },
   },
   {

@@ -148,6 +148,7 @@ import moreLessItContent from '@/content/product-pages/it/confronto-numeri-sched
 import oddOneOutItContent from '@/content/product-pages/it/trova-intruso-schede';
 import patternTrainItContent from '@/content/product-pages/it/treno-sequenze-schede';
 import patternWorksheetsItContent from '@/content/product-pages/it/schede-pattern';
+import picturePathItContent from '@/content/product-pages/it/percorso-illustrato-schede';
 
 interface PageProps {
   params: {
@@ -8076,6 +8077,7 @@ export async function generateStaticParams() {
     'trova-intruso-schede', // Product page slug (Italian) - language-specific SEO slug for odd-one-out
     'treno-sequenze-schede', // Product page slug (Italian) - language-specific SEO slug for pattern-train
     'schede-pattern', // Product page slug (Italian) - language-specific SEO slug for pattern-worksheet
+    'percorso-illustrato-schede', // Product page slug (Italian) - language-specific SEO slug for picture-path
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

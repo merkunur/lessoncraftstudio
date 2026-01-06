@@ -245,6 +245,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     de: 'bilderpfad-arbeitsblaetter',
     fr: 'parcours-images-fiches',
     es: 'laberintos-imagenes-fichas',
+    it: 'percorso-illustrato-schede',
   },
   'picture-sort': {
     en: 'picture-sort-worksheets',

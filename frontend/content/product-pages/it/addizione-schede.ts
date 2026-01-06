@@ -199,12 +199,13 @@ L'opzione scala di grigi è inclusa per ridurre consumo di inchiostro. Le schede
   howTo: {
     sectionTitle: 'Come Creare Schede Didattiche in 5 Semplici Passi',
     sectionDescription: 'Creare schede didattiche professionali con il nostro generatore è velocissimo. L\'intero processo richiede meno di 3 minuti dal login al download. Nessuna competenza tecnica richiesta.',
+    ctaText: 'Inizia Ora',
     badgeText: 'Guida Passo-Passo',
     stepLabel: 'Passo',
     completionTitle: 'Scheda Pronta!',
     completionSubtitle: 'La tua scheda didattica è pronta per il download',
-    readyTime: '3 minuti',
-    noSkillsNeeded: 'Nessuna competenza tecnica richiesta',
+    readyTime: 'Pronta in meno di 3 minuti',
+    noSkillsNeeded: 'Nessuna competenza di design richiesta',
     readMoreLabel: 'Leggi di più',
     showLessLabel: 'Mostra meno',
     steps: [
@@ -217,6 +218,7 @@ L'opzione scala di grigi è inclusa per ridurre consumo di inchiostro. Le schede
 La selezione per tema è la più veloce. Clicca sul menu a tendina temi e scegli una categoria. Temi disponibili includono animali domestici, animali della fattoria, animali selvatici, frutta, verdura, giocattoli, veicoli, oggetti scolastici e molto altro. Ogni tema contiene 20-50 immagini coordinate visivamente.
 
 Il caricamento di immagini personalizzate è perfetto per temi specifici alla tua classe. Fotografa oggetti dalla tua aula. Usa immagini di mascotte della scuola. Carica disegni creati dai bambini stessi. Le immagini personalizzate rendono le schede matematica più significative e coinvolgenti per i tuoi studenti.`,
+        icon: '🖼️',
       },
       {
         id: '2',
@@ -227,6 +229,7 @@ Il caricamento di immagini personalizzate è perfetto per temi specifici alla tu
 Scegli il numero di esercizi per pagina da 1 a 10. Per scuola dell'infanzia 3-5 esercizi per pagina funzionano bene. Per classe prima e seconda 5-8 esercizi sono appropriati. Per esercitazioni intensive o compiti a casa usa fino a 10 esercizi.
 
 Seleziona la modalità di esercizio. Immagine più immagine per principianti assoluti. Immagine più numero per transizione verso l'astrazione. Trova l'addendo per problem solving avanzato. Modalità mista per pratica completa e valutazioni.`,
+        icon: '⚙️',
       },
       {
         id: '3',
@@ -237,6 +240,7 @@ Seleziona la modalità di esercizio. Immagine più immagine per principianti ass
 Il sistema distribuisce automaticamente gli esercizi sulla pagina. Lo spacing è ottimizzato per chiarezza e usabilità. Ogni esercizio ha spazio sufficiente per le risposte dei bambini. Il layout è bilanciato e professionale senza intervento manuale.
 
 Se la scheda generata non ti piace completamente clicca genera di nuovo. Il sistema crea una nuova versione con distribuzione diversa. Puoi generare infinite variazioni finché non trovi il layout perfetto. Non ci sono limiti o costi extra per rigenerare schede didattiche.`,
+        icon: '✨',
       },
       {
         id: '4',
@@ -247,6 +251,7 @@ Se la scheda generata non ti piace completamente clicca genera di nuovo. Il sist
 Clicca qualsiasi elemento per selezionarlo. Immagini, numeri, caselle di risposta, testo. Tutto è modificabile. Trascina elementi selezionati per riposizionarli. Usa i punti di controllo agli angoli per ridimensionare. Ruota elementi usando l'icona di rotazione.
 
 Aggiungi testo personalizzato cliccando Aggiungi Testo. Digita istruzioni specifiche per i tuoi studenti. Aggiungi il nome dell'unità didattica. Inserisci promemoria o suggerimenti. Il testo è completamente formattabile.`,
+        icon: '✏️',
       },
       {
         id: '5',
@@ -257,6 +262,7 @@ Aggiungi testo personalizzato cliccando Aggiungi Testo. Digita istruzioni specif
 Il formato JPEG è perfetto per stampa immediata. Apri il file e manda in stampa direttamente. Funziona con qualsiasi stampante senza software speciale. I file JPEG sono anche ottimi per condividere digitalmente.
 
 Dopo il download le schede sono tue per sempre. Usale infinite volte senza costi aggiuntivi. Stampale per tutti i tuoi studenti. Condividile con colleghi della tua scuola. Vendile su piattaforme online se hai l'abbonamento con licenza commerciale.`,
+        icon: '📥',
       },
     ],
   },

@@ -333,6 +333,8 @@ Il mercato italiano di schede didattiche sta crescendo significativamente. Molti
     showMoreText: 'Mostra altre domande',
     showLessText: 'Mostra meno',
     badgeText: 'Domande Frequenti',
+    readMoreLabel: 'Leggi di più',
+    showLessLabel: 'Mostra meno',
     secureCheckout: 'Pagamento sicuro',
     cancelAnytime: 'Cancella quando vuoi',
     items: [

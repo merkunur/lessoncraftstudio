@@ -143,7 +143,7 @@ Questa funzione è perfetta per insegnanti che lavorano con programmi specializz
 
 Ogni immagine nella libreria ha nomi tradotti in tutte le 11 lingue. Quando selezioni italiano, vedi "mela" invece di "apple". Quando selezioni tedesco, vedi "Apfel". Questo significa che le schede didattiche generate sono autenticamente nella lingua target. I bambini imparano vocabolario corretto e appropriato per quella lingua.
 
-Gli insegnanti di alfabeto e lettere dell'alfabeto usano questa funzione per insegnare lingue straniere. Crea schede in italiano per studenti madrelingua. Crea le stesse schede in inglese per lezioni ESL. Usa lo stesso formato visivo con vocabolario diverso. I bambini sviluppano competenze multilingue usando materiali familiari.`,
+Gli insegnanti di alfabeto e lettere dell'alfabeto usano questa funzione per insegnare lingue straniere. Crea schede in italiano per studenti madrelingua. Crea le stesse schede in inglese per lezioni di italiano L2. Usa lo stesso formato visivo con vocabolario diverso. I bambini sviluppano competenze multilingue usando materiali familiari.`,
         icon: '🌍',
         highlighted: false,
       },
@@ -247,7 +247,7 @@ Scarica anche la chiave di risposta. Il sistema genera automaticamente una versi
   // Use Cases Section
   useCases: {
     sectionTitle: 'Perfetto per Insegnanti, Genitori ed Educatori - Schede Didattiche Scuola Primaria e Scuola dell\'Infanzia per Ogni Esigenza',
-    sectionDescription: 'Le schede didattiche per indovinare parole funzionano per diversi tipi di educatori e situazioni di apprendimento. Insegnanti della scuola dell\'infanzia, insegnanti della scuola primaria, genitori homeschool, insegnanti di lingue straniere, insegnanti di sostegno e imprenditori nel settore educativo.',
+    sectionDescription: 'Le schede didattiche per indovinare parole funzionano per diversi tipi di educatori e situazioni di apprendimento. Insegnanti della scuola dell\'infanzia, insegnanti della scuola primaria, genitori che fanno istruzione parentale, insegnanti di lingue straniere, insegnanti di sostegno e imprenditori nel settore educativo.',
     badgeText: 'Casi d\'Uso',
     readMoreLabel: 'Leggi di più',
     showLessLabel: 'Mostra meno',
@@ -279,21 +279,21 @@ Le tabelline si prestano perfettamente a schede per indovinare parole. Crea eser
       {
         id: '3',
         icon: '🏠',
-        title: 'Genitori Homeschool - Schede Didattiche Personalizzate con Pregrafismo, Alfabeto e Disegni da Colorare',
+        title: 'Genitori che Fanno Istruzione Parentale - Schede Didattiche Personalizzate con Pregrafismo, Alfabeto e Disegni da Colorare',
         subtitle: 'Materiale Didattico Flessibile per Casa',
-        description: `I genitori homeschool apprezzano la flessibilità per insegnare più livelli contemporaneamente. Crea schede per indovinare parole facili per il bambino della scuola dell'infanzia con molti indizi. Crea schede difficili per il bambino di classe prima con pochi indizi. Usa lo stesso formato visivo ma difficoltà differenziata.
+        description: `I genitori che fanno istruzione parentale apprezzano la flessibilità per insegnare più livelli contemporaneamente. Crea schede per indovinare parole facili per il bambino della scuola dell'infanzia con molti indizi. Crea schede difficili per il bambino di classe prima con pochi indizi. Usa lo stesso formato visivo ma difficoltà differenziata.
 
 Carica immagini di oggetti domestici per vocabolario contestuale. Fotografa oggetti dalla cucina, dal giardino, dalla cameretta. I bambini imparano parole connesse alla loro vita quotidiana. Questo rende l'apprendimento più rilevante e memorabile.
 
-La licenza commerciale permette ai genitori homeschool di monetizzare materiali creati. Molte mamme homeschool vendono curriculum su piattaforme come Teachers Pay Teachers. Crea serie complete di schede per alfabeto, numeri, colori, forme.`,
-        quote: 'Un abbonamento copre tutto il materiale didattico di cui ho bisogno per l\'homeschool.',
+La licenza commerciale permette ai genitori che fanno istruzione parentale di monetizzare materiali creati. Molte mamme che fanno istruzione parentale vendono curriculum su piattaforme come Teachers Pay Teachers. Crea serie complete di schede per alfabeto, numeri, colori, forme.`,
+        quote: 'Un abbonamento copre tutto il materiale didattico di cui ho bisogno per l\'istruzione parentale.',
       },
       {
         id: '4',
         icon: '🌍',
         title: 'Insegnanti di Lingue Straniere - Schede Didattiche Multilingue con Alfabeto in 11 Lingue',
         subtitle: 'Per Studenti Stranieri e Programmi Bilingui',
-        description: `Gli insegnanti di lingue straniere e programmi ESL utilizzano la funzione 11 lingue per insegnamento autentico. Cambia lingua dell'interfaccia e i nomi delle immagini cambiano automaticamente. Insegna italiano a studenti stranieri con vocabolario italiano reale.
+        description: `Gli insegnanti di lingue straniere e programmi di italiano L2 utilizzano la funzione 11 lingue per insegnamento autentico. Cambia lingua dell'interfaccia e i nomi delle immagini cambiano automaticamente. Insegna italiano a studenti stranieri con vocabolario italiano reale.
 
 Crea serie parallele di schede nella lingua madre e lingua target. Gli studenti vedono le stesse immagini ma praticano vocabolario diverso. Questo rinforza che oggetti hanno nomi diversi in lingue diverse ma concetti restano uguali.
 
@@ -366,7 +366,7 @@ Le schede didattiche con alfabeto e lettere dell'alfabeto funzionano perfettamen
       {
         id: '5',
         question: 'Posso Vendere Schede Italiano Classe Prima, Schede Matematica e Tabelline Create con Questo Generatore?',
-        answer: `Sì, l'abbonamento Accesso Completo include licenza commerciale completa print-on-demand senza costi extra. Vendi tutte le schede italiano classe prima, schede matematica, tabelline, disegni da colorare e altri materiali creati. Piattaforme permesse includono Teachers Pay Teachers, Etsy, Amazon KDP, siti web personali e marketplace educativi.
+        answer: `Sì, l'abbonamento Accesso Completo include licenza commerciale completa per stampa su richiesta senza costi extra. Vendi tutte le schede italiano classe prima, schede matematica, tabelline, disegni da colorare e altri materiali creati. Piattaforme permesse includono Teachers Pay Teachers, Etsy, Amazon KDP, siti web personali e marketplace educativi.
 
 Nessun limite al numero di prodotti vendibili. Crea catalogo di 10 o 1000 prodotti. Vendi ciascuno illimitatamente. Nessuna royalty su vendite. Nessuna attribuzione richiesta. La qualità 300 DPI è perfetta per prodotti digitali commerciali.`,
       },

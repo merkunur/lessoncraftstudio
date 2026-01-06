@@ -407,6 +407,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       de: 'schreibuebungen-arbeitsblaetter',
       fr: 'ecriture-fiches',
       es: 'lectoescritura-fichas',
+      it: 'scrittura-schede',
     },
   },
 ];

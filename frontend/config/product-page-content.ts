@@ -215,6 +215,7 @@ import shadowMatchItContent from '@/content/product-pages/it/abbinamento-ombre-s
 import subtractionItContent from '@/content/product-pages/it/sottrazione-schede';
 import treasureHuntItContent from '@/content/product-pages/it/caccia-tesoro-schede';
 import wordGuessItContent from '@/content/product-pages/it/indovina-parole-schede';
+import writingItContent from '@/content/product-pages/it/scrittura-schede';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -927,6 +928,10 @@ export const contentRegistry: ContentRegistry = {
     'indovina-parole-schede': wordGuessItContent,
     // Also keep old slug for backwards compatibility during transition
     'word-guess-worksheets': wordGuessItContent,
+    // Italian Writing (Scrittura e Pregrafismo) - uses Italian SEO slug
+    'scrittura-schede': writingItContent,
+    // Also keep old slug for backwards compatibility during transition
+    'writing-worksheets': writingItContent,
   },
 };
 

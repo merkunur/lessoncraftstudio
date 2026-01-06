@@ -301,6 +301,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     de: 'schreibuebungen-arbeitsblaetter',
     fr: 'ecriture-fiches',
     es: 'lectoescritura-fichas',
+    it: 'scrittura-schede',
   },
 };
 

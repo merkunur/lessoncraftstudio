@@ -16,7 +16,7 @@ export const prepositionsItContent: ProductPageContent = {
     slug: 'preposizioni-schede',
     appId: 'prepositions',
     title: 'Schede Didattiche Preposizioni - Generatore di Schede Didattiche Scuola Primaria - Scuola dell\'Infanzia',
-    description: 'Crea schede didattiche professionali per insegnare le preposizioni ai tuoi studenti. Il tuo abbonamento Full Access ti permette di creare schede didattiche illimitate senza costi aggiuntivi. Genera schede didattiche scuola primaria personalizzate perfette per la scuola dell\'infanzia e la classe prima. Scarica schede didattiche di alta qualità in formato PDF in meno di 3 minuti.',
+    description: 'Crea schede didattiche professionali per insegnare le preposizioni ai tuoi studenti. Il tuo abbonamento Accesso Completo ti permette di creare schede didattiche illimitate senza costi aggiuntivi. Genera schede didattiche scuola primaria personalizzate perfette per la scuola dell\'infanzia e la classe prima. Scarica schede didattiche di alta qualità in formato PDF in meno di 3 minuti.',
     keywords: 'schede didattiche preposizioni, schede didattiche scuola primaria, schede didattiche scuola infanzia, preposizioni spaziali, pregrafismo, schede italiano classe prima, schede matematica, disegni da colorare, tabelline, alfabeto, numeri da stampare',
     canonicalUrl: 'https://www.lessoncraftstudio.com/it/apps/preposizioni-schede',
   },
@@ -25,7 +25,7 @@ export const prepositionsItContent: ProductPageContent = {
   hero: {
     title: 'Generatore Schede Didattiche Preposizioni',
     subtitle: 'Schede Didattiche Scuola Primaria e Scuola dell\'Infanzia',
-    description: `Crea schede didattiche professionali per insegnare le preposizioni ai tuoi studenti. Il tuo abbonamento Full Access ti permette di creare schede didattiche illimitate senza costi aggiuntivi. Genera schede didattiche scuola primaria personalizzate perfette per la scuola dell'infanzia e la classe prima. Scarica schede didattiche di alta qualità in formato PDF in meno di 3 minuti.
+    description: `Crea schede didattiche professionali per insegnare le preposizioni ai tuoi studenti. Il tuo abbonamento Accesso Completo ti permette di creare schede didattiche illimitate senza costi aggiuntivi. Genera schede didattiche scuola primaria personalizzate perfette per la scuola dell'infanzia e la classe prima. Scarica schede didattiche di alta qualità in formato PDF in meno di 3 minuti.
 
 Il nostro generatore di schede didattiche rende facile l'insegnamento delle preposizioni spaziali. Otto preposizioni essenziali disponibili: dentro, sopra, sotto, accanto, dietro, tra, sopra e davanti. Ogni scheda didattica combina immagini chiare con esercizi efficaci. Gli studenti imparano i concetti spaziali attraverso attività visive coinvolgenti.
 
@@ -143,7 +143,7 @@ Combina con schede italiano classe prima per pacchetti didattici completi. Crea 
       {
         id: '5',
         title: 'Licenza Commerciale POD - Vendi Schede Didattiche e Schede Matematica su Etsy e Amazon',
-        description: `Il tuo abbonamento Full Access include la licenza commerciale print-on-demand completa senza costi aggiuntivi. Vendi le schede didattiche che crei su Teachers Pay Teachers, Etsy, Amazon KDP. Non è richiesta attribuzione. Nessuna commissione oltre l'abbonamento di $240 all'anno. Qualità commerciale professionale a 300 DPI.
+        description: `Il tuo abbonamento Accesso Completo include la licenza commerciale print-on-demand completa senza costi aggiuntivi. Vendi le schede didattiche che crei su Teachers Pay Teachers, Etsy, Amazon KDP. Non è richiesta attribuzione. Nessuna commissione oltre l'abbonamento di $240 all'anno. Qualità commerciale professionale a 300 DPI.
 
 Molti insegnanti creano reddito supplementare vendendo materiale didattico. Pacchetti di schede didattiche scuola primaria si vendono bene su tutte le piattaforme. Combina schede preposizioni con schede matematica, tabelline, disegni da colorare e numeri da stampare. Crea pacchetti tematici per ogni stagione e festività.
 
@@ -274,7 +274,7 @@ Gli insegnanti di classe seconda (7-8 anni) usano le schede per consolidamento. 
         icon: '🏠',
         title: 'Genitori Homeschool - Schede Didattiche Scuola Primaria con Pregrafismo, Alfabeto e Numeri da Stampare',
         subtitle: 'Materiale Didattico Flessibile per Casa',
-        description: `I genitori che fanno homeschool apprezzano la flessibilità del generatore. Insegni a più bambini di età diverse contemporaneamente. Crea schede semplici per il tuo bambino di cinque anni. Genera esercizi più complessi per il tuo studente di sette anni. Tutto dalla stessa piattaforma con un solo abbonamento Full Access.
+        description: `I genitori che fanno homeschool apprezzano la flessibilità del generatore. Insegni a più bambini di età diverse contemporaneamente. Crea schede semplici per il tuo bambino di cinque anni. Genera esercizi più complessi per il tuo studente di sette anni. Tutto dalla stessa piattaforma con un solo abbonamento Accesso Completo.
 
 Combina schede preposizioni con altri materiali didattici. Crea pacchetti settimanali con alfabeto, pregrafismo, numeri da stampare e tabelline. Aggiungi schede matematica per pratica numerica quotidiana. Include disegni da colorare per arte e tempo libero. Un generatore, possibilità infinite per tutti i tuoi figli.
 
@@ -310,7 +310,7 @@ Usa immagini familiari caricando foto personalizzate. Studenti con autismo si re
         icon: '💼',
         title: 'Insegnanti Imprenditori - Vendi Schede Didattiche, Tabelline, Alfabeto e Disegni da Colorare su Etsy',
         subtitle: 'Monetizza la Tua Creatività Educativa',
-        description: `Molti insegnanti creano reddito supplementare vendendo materiale didattico. Teachers Pay Teachers, Etsy e Amazon KDP sono piattaforme popolari. Il tuo abbonamento Full Access include licenza commerciale completa. Crea pacchetti di schede didattiche scuola primaria e vendili all'infinito. Nessuna commissione extra oltre i $240 all'anno.
+        description: `Molti insegnanti creano reddito supplementare vendendo materiale didattico. Teachers Pay Teachers, Etsy e Amazon KDP sono piattaforme popolari. Il tuo abbonamento Accesso Completo include licenza commerciale completa. Crea pacchetti di schede didattiche scuola primaria e vendili all'infinito. Nessuna commissione extra oltre i $240 all'anno.
 
 Crea pacchetti tematici che combinano più tipi di schede. Un pacchetto autunnale con preposizioni, alfabeto, tabelline, schede matematica e disegni da colorare. Un pacchetto natalizio con pregrafismo, numeri da stampare e lettere dell'alfabeto. Un pacchetto primaverile con schede italiano classe prima e disegni da colorare. I pacchetti tematici vendono meglio delle schede singole.
 
@@ -323,7 +323,7 @@ Gli insegnanti guadagnano da 500€ a 5000€ al mese vendendo schede. Crea una 
   // FAQ Section
   faq: {
     sectionTitle: 'Domande Frequenti sulle Schede Didattiche Preposizioni - Schede Didattiche Scuola Primaria',
-    sectionDescription: 'Gli insegnanti hanno domande comuni sul generatore di schede didattiche. Qui rispondiamo alle 12 domande più frequenti. Copriamo tutto da prezzi e utilizzo in classe a combinazioni con pregrafismo, alfabeto, tabelline, schede matematica e disegni da colorare. Scopri come massimizzare il valore del tuo abbonamento Full Access.',
+    sectionDescription: 'Gli insegnanti hanno domande comuni sul generatore di schede didattiche. Qui rispondiamo alle 12 domande più frequenti. Copriamo tutto da prezzi e utilizzo in classe a combinazioni con pregrafismo, alfabeto, tabelline, schede matematica e disegni da colorare. Scopri come massimizzare il valore del tuo abbonamento Accesso Completo.',
     showMoreText: 'Mostra altre domande',
     showLessText: 'Mostra meno domande',
     badgeText: 'FAQ',
@@ -335,9 +335,9 @@ Gli insegnanti guadagnano da 500€ a 5000€ al mese vendendo schede. Crea una 
       {
         id: '1',
         question: 'Questo Generatore di Schede Didattiche È Davvero Gratuito?',
-        answer: `Il generatore di schede didattiche preposizioni richiede un abbonamento Full Access. Costa $240 all'anno o $25 al mese. Il tuo abbonamento ti dà creazione illimitata di schede didattiche senza costi per scheda. Genera tutte le schede didattiche scuola primaria che necessiti senza addebiti aggiuntivi. Include tutti i 33 generatori di schede.
+        answer: `Il generatore di schede didattiche preposizioni richiede un abbonamento Accesso Completo. Costa $240 all'anno o $25 al mese. Il tuo abbonamento ti dà creazione illimitata di schede didattiche senza costi per scheda. Genera tutte le schede didattiche scuola primaria che necessiti senza addebiti aggiuntivi. Include tutti i 33 generatori di schede.
 
-Full Access include molto più delle sole preposizioni. Accedi a pregrafismo, alfabeto, tabelline, schede matematica, disegni da colorare e numeri da stampare. Crea schede italiano classe prima, materiale per scuola dell'infanzia e risorse multilingue. Tutti gli strumenti inclusi in un solo abbonamento. Risparmio enorme rispetto all'acquisto di materiali separati.`,
+Accesso Completo include molto più delle sole preposizioni. Accedi a pregrafismo, alfabeto, tabelline, schede matematica, disegni da colorare e numeri da stampare. Crea schede italiano classe prima, materiale per scuola dell'infanzia e risorse multilingue. Tutti gli strumenti inclusi in un solo abbonamento. Risparmio enorme rispetto all'acquisto di materiali separati.`,
       },
       {
         id: '2',
@@ -356,7 +356,7 @@ Combina facilmente con pregrafismo, alfabeto, tabelline e schede matematica. Tut
       {
         id: '4',
         question: 'Posso Usare Schede Didattiche in Classe per Studenti della Scuola dell\'Infanzia?',
-        answer: `Sì. L'abbonamento Full Access include uso illimitato in classe. Stampa quante copie necessiti per tutti gli studenti della scuola dell'infanzia. Nessun limite sul numero di studenti o classi. Usa le schede per lezioni quotidiane, compiti a casa e valutazioni. Perfetto per classe prima, seconda e terza.
+        answer: `Sì. L'abbonamento Accesso Completo include uso illimitato in classe. Stampa quante copie necessiti per tutti gli studenti della scuola dell'infanzia. Nessun limite sul numero di studenti o classi. Usa le schede per lezioni quotidiane, compiti a casa e valutazioni. Perfetto per classe prima, seconda e terza.
 
 Combina schede preposizioni con altri materiali didattici. Crea pacchetti settimanali con pregrafismo, alfabeto, tabelline e schede matematica. Aggiungi disegni da colorare per tempo libero educativo. Include numeri da stampare per matematica base. Schede italiano classe prima per competenze linguistiche. Un abbonamento copre tutte le esigenze della scuola primaria.`,
       },
@@ -370,7 +370,7 @@ Alfabeto e lettere dell'alfabeto disponibili in tutte le 11 lingue. Tabelline tr
       {
         id: '6',
         question: 'Posso Vendere Schede Didattiche con Pregrafismo, Tabelline e Alfabeto Che Creo?',
-        answer: `Sì. L'abbonamento Full Access include licenza commerciale print-on-demand completa senza costi extra. Vendi tutte le schede didattiche che crei. Teachers Pay Teachers, Etsy, Amazon KDP accettano materiale stampabile. Nessuna attribuzione richiesta. Nessuna commissione per vendita oltre i $240 all'anno.
+        answer: `Sì. L'abbonamento Accesso Completo include licenza commerciale print-on-demand completa senza costi extra. Vendi tutte le schede didattiche che crei. Teachers Pay Teachers, Etsy, Amazon KDP accettano materiale stampabile. Nessuna attribuzione richiesta. Nessuna commissione per vendita oltre i $240 all'anno.
 
 Crea pacchetti tematici che combinano preposizioni, pregrafismo, alfabeto, tabelline, schede matematica e disegni da colorare. I pacchetti vendono meglio delle schede singole. Aggiungi numeri da stampare e schede italiano classe prima per valore extra. Materiale per scuola dell'infanzia vende molto bene. La qualità 300 DPI garantisce prodotti professionali che i clienti adorano.`,
       },

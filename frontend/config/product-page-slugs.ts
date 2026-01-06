@@ -308,6 +308,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       de: 'muster-zug-arbeitsblaetter',
       fr: 'train-suites-logiques-fiches',
       es: 'tren-patrones-fichas',
+      it: 'treno-sequenze-schede',
     },
   },
   {

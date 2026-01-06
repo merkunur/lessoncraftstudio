@@ -900,6 +900,12 @@ const nextConfig = {
         destination: '/it/apps/trova-intruso-schede',
         permanent: true,
       },
+      // Italian: pattern-train-worksheets → treno-sequenze-schede
+      {
+        source: '/it/apps/pattern-train-worksheets',
+        destination: '/it/apps/treno-sequenze-schede',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

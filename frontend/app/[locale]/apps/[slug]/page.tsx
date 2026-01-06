@@ -146,6 +146,7 @@ import mathPuzzleItContent from '@/content/product-pages/it/puzzle-matematici-sc
 import missingPiecesItContent from '@/content/product-pages/it/pezzi-mancanti-schede';
 import moreLessItContent from '@/content/product-pages/it/confronto-numeri-schede';
 import oddOneOutItContent from '@/content/product-pages/it/trova-intruso-schede';
+import patternTrainItContent from '@/content/product-pages/it/treno-sequenze-schede';
 
 interface PageProps {
   params: {

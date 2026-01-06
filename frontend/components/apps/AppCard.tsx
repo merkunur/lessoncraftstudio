@@ -229,6 +229,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     de: 'muster-zug-arbeitsblaetter',
     fr: 'train-suites-logiques-fiches',
     es: 'tren-patrones-fichas',
+    it: 'treno-sequenze-schede',
   },
   'pattern-worksheet': {
     en: 'pattern-worksheets',

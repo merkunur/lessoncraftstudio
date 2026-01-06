@@ -348,7 +348,13 @@ La qualità professionale 300 DPI è essenziale per prodotti commerciali. Gli ac
   faq: {
     sectionTitle: 'Domande Frequenti sulle Schede Didattiche di Addizioni',
     sectionDescription: 'Risposte alle domande più comuni sul nostro generatore di schede matematica',
+    showMoreText: 'Mostra altre domande',
+    showLessText: 'Mostra meno domande',
     badgeText: 'FAQ',
+    readMoreLabel: 'Leggi di più',
+    showLessLabel: 'Mostra meno',
+    secureCheckout: 'Pagamento sicuro',
+    cancelAnytime: 'Cancella quando vuoi',
     items: [
       {
         id: '1',

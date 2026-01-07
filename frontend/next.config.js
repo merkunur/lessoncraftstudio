@@ -1068,6 +1068,12 @@ const nextConfig = {
         destination: '/pt/apps/quebra-cabeca-matematica-fichas',
         permanent: true,
       },
+      // Portuguese (Brazilian): missing-pieces-worksheets → pecas-faltantes-fichas
+      {
+        source: '/pt/apps/missing-pieces-worksheets',
+        destination: '/pt/apps/pecas-faltantes-fichas',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

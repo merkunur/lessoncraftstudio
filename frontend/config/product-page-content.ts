@@ -238,6 +238,7 @@ import gridMatchPtContent from '@/content/product-pages/pt/quebra-cabeca-grade-f
 import crosswordPtContent from '@/content/product-pages/pt/palavras-cruzadas-imagens-fichas';
 import cryptogramPtContent from '@/content/product-pages/pt/criptograma-imagens-fichas';
 import mathPuzzlePtContent from '@/content/product-pages/pt/quebra-cabeca-matematica-fichas';
+import missingPiecesPtContent from '@/content/product-pages/pt/pecas-faltantes-fichas';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -1036,6 +1037,10 @@ export const contentRegistry: ContentRegistry = {
     'quebra-cabeca-matematica-fichas': mathPuzzlePtContent,
     // Also keep old slug for backwards compatibility during transition
     'math-puzzle-worksheets': mathPuzzlePtContent,
+    // Portuguese (Brazilian) Missing Pieces (Peças Faltantes) - uses Portuguese SEO slug
+    'pecas-faltantes-fichas': missingPiecesPtContent,
+    // Also keep old slug for backwards compatibility during transition
+    'missing-pieces-worksheets': missingPiecesPtContent,
   },
 };
 

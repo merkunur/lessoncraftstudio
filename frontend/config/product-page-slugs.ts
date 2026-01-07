@@ -293,6 +293,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       fr: 'pieces-manquantes-fiches',
       es: 'piezas-faltantes-fichas',
       it: 'pezzi-mancanti-schede',
+      pt: 'pecas-faltantes-fichas',
     },
   },
   {

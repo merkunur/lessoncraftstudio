@@ -225,6 +225,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     fr: 'pieces-manquantes-fiches',
     es: 'piezas-faltantes-fichas',
     it: 'pezzi-mancanti-schede',
+    pt: 'pecas-faltantes-fichas',
   },
   'more-less': {
     en: 'more-less-worksheets',

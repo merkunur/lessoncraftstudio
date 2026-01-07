@@ -166,6 +166,7 @@ import gridMatchPtContent from '@/content/product-pages/pt/quebra-cabeca-grade-f
 import crosswordPtContent from '@/content/product-pages/pt/palavras-cruzadas-imagens-fichas';
 import cryptogramPtContent from '@/content/product-pages/pt/criptograma-imagens-fichas';
 import mathPuzzlePtContent from '@/content/product-pages/pt/quebra-cabeca-matematica-fichas';
+import missingPiecesPtContent from '@/content/product-pages/pt/pecas-faltantes-fichas';
 
 interface PageProps {
   params: {
@@ -1808,6 +1809,53 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       },
       alternates: {
         canonical: 'https://www.lessoncraftstudio.com/pt/apps/quebra-cabeca-matematica-fichas',
+      },
+    };
+  }
+
+  // Missing Pieces Worksheets - Portuguese (Brazilian) product page SEO (new Portuguese slug)
+  if (params.slug === 'pecas-faltantes-fichas' && params.locale === 'pt') {
+    return {
+      title: 'Atividades de Peças Faltantes para Imprimir | Gerador de Atividades Educação Infantil e Atividades para Imprimir Grátis',
+      description: 'Crie atividades de peças faltantes profissionais em poucos minutos com nosso gerador de atividades para imprimir. Com sua assinatura Full Access, você gera quantas atividades quiser sem taxas adicionais. Baixe atividades educação infantil de alta qualidade prontas para usar.',
+      keywords: 'atividades para imprimir, peças faltantes, atividades educação infantil, coordenação motora, atividades de alfabetização, desenhos para colorir, atividades 1º ano, atividades 2º ano, letra cursiva, pontilhado, tabuada, atividades vogais, alfabeto',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/pt/apps/pecas-faltantes-fichas',
+        languages: {
+          'en': 'https://www.lessoncraftstudio.com/en/apps/missing-pieces-worksheets',
+          'sv': 'https://www.lessoncraftstudio.com/sv/apps/saknade-bitar-arbetsblad',
+          'de': 'https://www.lessoncraftstudio.com/de/apps/fehlende-puzzleteile-arbeitsblaetter',
+          'fr': 'https://www.lessoncraftstudio.com/fr/apps/pieces-manquantes-fiches',
+          'es': 'https://www.lessoncraftstudio.com/es/apps/piezas-faltantes-fichas',
+          'it': 'https://www.lessoncraftstudio.com/it/apps/pezzi-mancanti-schede',
+          'pt': 'https://www.lessoncraftstudio.com/pt/apps/pecas-faltantes-fichas',
+          'x-default': 'https://www.lessoncraftstudio.com/en/apps/missing-pieces-worksheets',
+        },
+      },
+      openGraph: {
+        title: 'Atividades de Peças Faltantes para Imprimir | LessonCraftStudio',
+        description: 'Crie atividades de peças faltantes profissionais com nosso gerador de atividades para imprimir. Perfeito para professores de educação infantil e ensino fundamental.',
+        url: 'https://www.lessoncraftstudio.com/pt/apps/pecas-faltantes-fichas',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Legacy: Redirect old Portuguese missing-pieces-worksheets slug to new slug (for backwards compatibility)
+  if (params.slug === 'missing-pieces-worksheets' && params.locale === 'pt') {
+    return {
+      title: 'Peças Faltantes - Gerador de Atividades',
+      robots: {
+        index: false,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/pt/apps/pecas-faltantes-fichas',
       },
     };
   }
@@ -8312,6 +8360,7 @@ export async function generateStaticParams() {
     'palavras-cruzadas-imagens-fichas', // Product page slug (Portuguese/Brazilian) - language-specific SEO slug for crossword
     'criptograma-imagens-fichas', // Product page slug (Portuguese/Brazilian) - language-specific SEO slug for cryptogram
     'quebra-cabeca-matematica-fichas', // Product page slug (Portuguese/Brazilian) - language-specific SEO slug for math-puzzle
+    'pecas-faltantes-fichas', // Product page slug (Portuguese/Brazilian) - language-specific SEO slug for missing-pieces
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

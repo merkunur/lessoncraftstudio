@@ -329,6 +329,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       fr: 'train-suites-logiques-fiches',
       es: 'tren-patrones-fichas',
       it: 'treno-sequenze-schede',
+      pt: 'trem-padroes-fichas',
     },
   },
   {

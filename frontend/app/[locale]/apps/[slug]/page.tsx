@@ -168,6 +168,7 @@ import cryptogramPtContent from '@/content/product-pages/pt/criptograma-imagens-
 import mathPuzzlePtContent from '@/content/product-pages/pt/quebra-cabeca-matematica-fichas';
 import missingPiecesPtContent from '@/content/product-pages/pt/pecas-faltantes-fichas';
 import moreLessPtContent from '@/content/product-pages/pt/maior-menor-fichas';
+import patternTrainPtContent from '@/content/product-pages/pt/trem-padroes-fichas';
 
 interface PageProps {
   params: {
@@ -1904,6 +1905,53 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       },
       alternates: {
         canonical: 'https://www.lessoncraftstudio.com/pt/apps/maior-menor-fichas',
+      },
+    };
+  }
+
+  // Pattern Train Worksheets - Portuguese (Brazilian) product page SEO (new Portuguese slug)
+  if (params.slug === 'trem-padroes-fichas' && params.locale === 'pt') {
+    return {
+      title: 'Gerador de Atividades de Sequência Lógica - Atividades para Imprimir de Padrões com Trenzinho para Educação Infantil',
+      description: 'Crie atividades de sequência lógica com tema de trenzinho em poucos cliques. O gerador de atividades de padrões faz parte da assinatura Acesso Completo. Com sua assinatura, você cria atividades para imprimir ilimitadas sem custos adicionais. Pronto em menos de 3 minutos.',
+      keywords: 'atividades de sequência lógica, atividades para imprimir, atividades educação infantil, coordenação motora, raciocínio lógico, padrões, trenzinho de padrões, atividades matemática, atividades alfabetização, atividades vogais, tabuada, desenhos para colorir, letra cursiva, pontilhado, 1º ano, 2º ano',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/pt/apps/trem-padroes-fichas',
+        languages: {
+          'en': 'https://www.lessoncraftstudio.com/en/apps/pattern-train-worksheets',
+          'sv': 'https://www.lessoncraftstudio.com/sv/apps/monster-tag-arbetsblad',
+          'de': 'https://www.lessoncraftstudio.com/de/apps/muster-zug-arbeitsblaetter',
+          'fr': 'https://www.lessoncraftstudio.com/fr/apps/train-suites-logiques-fiches',
+          'es': 'https://www.lessoncraftstudio.com/es/apps/tren-patrones-fichas',
+          'it': 'https://www.lessoncraftstudio.com/it/apps/treno-sequenze-schede',
+          'pt': 'https://www.lessoncraftstudio.com/pt/apps/trem-padroes-fichas',
+          'x-default': 'https://www.lessoncraftstudio.com/en/apps/pattern-train-worksheets',
+        },
+      },
+      openGraph: {
+        title: 'Gerador de Atividades de Sequência Lógica | LessonCraftStudio',
+        description: 'Crie atividades de sequência lógica com tema de trenzinho em menos de 3 minutos. Perfeito para professores de educação infantil e ensino fundamental.',
+        url: 'https://www.lessoncraftstudio.com/pt/apps/trem-padroes-fichas',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Legacy: Redirect old Portuguese pattern-train-worksheets slug to new slug (for backwards compatibility)
+  if (params.slug === 'pattern-train-worksheets' && params.locale === 'pt') {
+    return {
+      title: 'Trenzinho de Padrões - Gerador de Atividades',
+      robots: {
+        index: false,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/pt/apps/trem-padroes-fichas',
       },
     };
   }
@@ -8410,6 +8458,7 @@ export async function generateStaticParams() {
     'quebra-cabeca-matematica-fichas', // Product page slug (Portuguese/Brazilian) - language-specific SEO slug for math-puzzle
     'pecas-faltantes-fichas', // Product page slug (Portuguese/Brazilian) - language-specific SEO slug for missing-pieces
     'maior-menor-fichas', // Product page slug (Portuguese/Brazilian) - language-specific SEO slug for more-less
+    'trem-padroes-fichas', // Product page slug (Portuguese/Brazilian) - language-specific SEO slug for pattern-train
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

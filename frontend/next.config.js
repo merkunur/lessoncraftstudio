@@ -1086,6 +1086,12 @@ const nextConfig = {
         destination: '/pt/apps/encontre-diferente-fichas',
         permanent: true,
       },
+      // Portuguese (Brazilian): pattern-train-worksheets → trem-padroes-fichas
+      {
+        source: '/pt/apps/pattern-train-worksheets',
+        destination: '/pt/apps/trem-padroes-fichas',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

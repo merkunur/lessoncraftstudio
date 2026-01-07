@@ -241,6 +241,7 @@ import mathPuzzlePtContent from '@/content/product-pages/pt/quebra-cabeca-matema
 import missingPiecesPtContent from '@/content/product-pages/pt/pecas-faltantes-fichas';
 import moreLessPtContent from '@/content/product-pages/pt/maior-menor-fichas';
 import oddOneOutPtContent from '@/content/product-pages/pt/encontre-diferente-fichas';
+import patternTrainPtContent from '@/content/product-pages/pt/trem-padroes-fichas';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -1051,6 +1052,10 @@ export const contentRegistry: ContentRegistry = {
     'encontre-diferente-fichas': oddOneOutPtContent,
     // Also keep old slug for backwards compatibility during transition
     'odd-one-out-worksheets': oddOneOutPtContent,
+    // Portuguese (Brazilian) Pattern Train (Trenzinho de Padrões) - uses Portuguese SEO slug
+    'trem-padroes-fichas': patternTrainPtContent,
+    // Also keep old slug for backwards compatibility during transition
+    'pattern-train-worksheets': patternTrainPtContent,
   },
 };
 

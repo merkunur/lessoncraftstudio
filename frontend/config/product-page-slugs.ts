@@ -186,6 +186,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       fr: 'grand-petit-fiches',
       es: 'grande-pequeno-fichas',
       it: 'grande-piccolo-schede',
+      pt: 'grande-pequeno-fichas',
     },
   },
   {

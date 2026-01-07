@@ -229,6 +229,7 @@ import matchingPtContent from '@/content/product-pages/pt/ligar-fichas';
 import drawingLinesPtContent from '@/content/product-pages/pt/tracar-linhas-fichas';
 import bingoPtContent from '@/content/product-pages/pt/bingo-ilustrado-fichas';
 import sudokuPtContent from '@/content/product-pages/pt/sudoku-criancas-fichas';
+import bigSmallPtContent from '@/content/product-pages/pt/grande-pequeno-fichas';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -991,6 +992,10 @@ export const contentRegistry: ContentRegistry = {
     'sudoku-criancas-fichas': sudokuPtContent,
     // Also keep old slug for backwards compatibility during transition
     'sudoku-worksheets': sudokuPtContent,
+    // Portuguese (Brazilian) Big Small (Grande e Pequeno) - uses Portuguese SEO slug
+    'grande-pequeno-fichas': bigSmallPtContent,
+    // Also keep old slug for backwards compatibility during transition
+    'big-small-worksheets': bigSmallPtContent,
   },
 };
 

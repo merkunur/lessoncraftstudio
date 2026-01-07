@@ -235,6 +235,7 @@ import codeAdditionPtContent from '@/content/product-pages/pt/adicao-codigo-fich
 import drawAndColorPtContent from '@/content/product-pages/pt/desenho-grade-fichas';
 import findObjectsPtContent from '@/content/product-pages/pt/encontrar-objetos-fichas';
 import gridMatchPtContent from '@/content/product-pages/pt/quebra-cabeca-grade-fichas';
+import crosswordPtContent from '@/content/product-pages/pt/palavras-cruzadas-imagens-fichas';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -1021,6 +1022,10 @@ export const contentRegistry: ContentRegistry = {
     'quebra-cabeca-grade-fichas': gridMatchPtContent,
     // Also keep old slug for backwards compatibility during transition
     'grid-match-worksheets': gridMatchPtContent,
+    // Portuguese (Brazilian) Crossword (Palavras Cruzadas) - uses Portuguese SEO slug
+    'palavras-cruzadas-imagens-fichas': crosswordPtContent,
+    // Also keep old slug for backwards compatibility during transition
+    'crossword-worksheets': crosswordPtContent,
   },
 };
 

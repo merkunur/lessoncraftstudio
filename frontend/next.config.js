@@ -1050,6 +1050,12 @@ const nextConfig = {
         destination: '/pt/apps/quebra-cabeca-grade-fichas',
         permanent: true,
       },
+      // Portuguese (Brazilian): crossword-worksheets → palavras-cruzadas-imagens-fichas
+      {
+        source: '/pt/apps/crossword-worksheets',
+        destination: '/pt/apps/palavras-cruzadas-imagens-fichas',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

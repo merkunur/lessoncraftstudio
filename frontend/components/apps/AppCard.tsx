@@ -198,6 +198,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     fr: 'mots-croises-images-fiches',
     es: 'crucigramas-imagenes-fichas',
     it: 'cruciverba-immagini-schede',
+    pt: 'palavras-cruzadas-imagens-fichas',
   },
   'image-cryptogram': {
     en: 'cryptogram-worksheets',

@@ -257,6 +257,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       fr: 'mots-croises-images-fiches',
       es: 'crucigramas-imagenes-fichas',
       it: 'cruciverba-immagini-schede',
+      pt: 'palavras-cruzadas-imagens-fichas',
     },
   },
   {

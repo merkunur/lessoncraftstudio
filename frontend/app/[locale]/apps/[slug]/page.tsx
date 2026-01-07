@@ -163,6 +163,7 @@ import codeAdditionPtContent from '@/content/product-pages/pt/adicao-codigo-fich
 import drawAndColorPtContent from '@/content/product-pages/pt/desenho-grade-fichas';
 import findObjectsPtContent from '@/content/product-pages/pt/encontrar-objetos-fichas';
 import gridMatchPtContent from '@/content/product-pages/pt/quebra-cabeca-grade-fichas';
+import crosswordPtContent from '@/content/product-pages/pt/palavras-cruzadas-imagens-fichas';
 
 interface PageProps {
   params: {
@@ -1676,6 +1677,39 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
         title: 'Atividades para Imprimir Quebra-Cabeça Grid Match | LessonCraftStudio',
         description: 'Crie atividades de quebra-cabeça visual profissionais com nosso gerador Grid Match. Perfeito para professores de educação infantil e ensino fundamental.',
         url: 'https://www.lessoncraftstudio.com/pt/apps/quebra-cabeca-grade-fichas',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Crossword Worksheets - Portuguese (Brazilian) product page SEO
+  if (params.slug === 'palavras-cruzadas-imagens-fichas' && params.locale === 'pt') {
+    return {
+      title: 'Gerador de Palavras Cruzadas com Imagens | Atividades para Imprimir de Alfabetização e Vocabulário',
+      description: 'Crie palavras cruzadas educativas com imagens como pistas visuais. Com a assinatura Acesso Completo, você gera atividades de alfabetização ilimitadas sem taxas por folha. Baixe em PDF profissional de alta qualidade em menos de 3 minutos.',
+      keywords: 'palavras cruzadas, atividades para imprimir, atividades de alfabetização, atividades educação infantil, atividades de matemática, desenhos para colorir, coordenação motora, atividades vogais, tabuada, letra cursiva, pontilhado, atividades 1º ano, atividades 2º ano',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/pt/apps/palavras-cruzadas-imagens-fichas',
+        languages: {
+          'en': 'https://www.lessoncraftstudio.com/en/apps/crossword-worksheets',
+          'sv': 'https://www.lessoncraftstudio.com/sv/apps/bildkorsord-arbetsblad',
+          'de': 'https://www.lessoncraftstudio.com/de/apps/bilderkreuzwortraetsel-arbeitsblaetter',
+          'fr': 'https://www.lessoncraftstudio.com/fr/apps/mots-croises-images-fiches',
+          'es': 'https://www.lessoncraftstudio.com/es/apps/crucigramas-imagenes-fichas',
+          'it': 'https://www.lessoncraftstudio.com/it/apps/cruciverba-immagini-schede',
+          'pt': 'https://www.lessoncraftstudio.com/pt/apps/palavras-cruzadas-imagens-fichas',
+          'x-default': 'https://www.lessoncraftstudio.com/en/apps/crossword-worksheets',
+        },
+      },
+      openGraph: {
+        title: 'Palavras Cruzadas com Imagens | Atividades para Imprimir de Alfabetização | LessonCraftStudio',
+        description: 'Crie palavras cruzadas educativas com imagens como pistas visuais. Perfeito para professores de educação infantil e ensino fundamental.',
+        url: 'https://www.lessoncraftstudio.com/pt/apps/palavras-cruzadas-imagens-fichas',
         siteName: 'LessonCraftStudio',
         type: 'website',
       },
@@ -8179,6 +8213,7 @@ export async function generateStaticParams() {
     'desenho-grade-fichas', // Product page slug (Portuguese/Brazilian) - language-specific SEO slug for draw-and-color
     'encontrar-objetos-fichas', // Product page slug (Portuguese/Brazilian) - language-specific SEO slug for find-objects
     'quebra-cabeca-grade-fichas', // Product page slug (Portuguese/Brazilian) - language-specific SEO slug for grid-match
+    'palavras-cruzadas-imagens-fichas', // Product page slug (Portuguese/Brazilian) - language-specific SEO slug for crossword
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

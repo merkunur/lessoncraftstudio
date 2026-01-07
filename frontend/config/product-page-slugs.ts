@@ -269,6 +269,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       fr: 'cryptogramme-images-fiches',
       es: 'criptogramas-imagenes-fichas',
       it: 'crittogramma-schede',
+      pt: 'criptograma-imagens-fichas',
     },
   },
   {

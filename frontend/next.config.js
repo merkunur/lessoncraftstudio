@@ -1056,6 +1056,12 @@ const nextConfig = {
         destination: '/pt/apps/palavras-cruzadas-imagens-fichas',
         permanent: true,
       },
+      // Portuguese (Brazilian): cryptogram-worksheets → criptograma-imagens-fichas
+      {
+        source: '/pt/apps/cryptogram-worksheets',
+        destination: '/pt/apps/criptograma-imagens-fichas',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

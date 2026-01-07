@@ -236,6 +236,7 @@ import drawAndColorPtContent from '@/content/product-pages/pt/desenho-grade-fich
 import findObjectsPtContent from '@/content/product-pages/pt/encontrar-objetos-fichas';
 import gridMatchPtContent from '@/content/product-pages/pt/quebra-cabeca-grade-fichas';
 import crosswordPtContent from '@/content/product-pages/pt/palavras-cruzadas-imagens-fichas';
+import cryptogramPtContent from '@/content/product-pages/pt/criptograma-imagens-fichas';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -1026,6 +1027,10 @@ export const contentRegistry: ContentRegistry = {
     'palavras-cruzadas-imagens-fichas': crosswordPtContent,
     // Also keep old slug for backwards compatibility during transition
     'crossword-worksheets': crosswordPtContent,
+    // Portuguese (Brazilian) Cryptogram (Criptograma) - uses Portuguese SEO slug
+    'criptograma-imagens-fichas': cryptogramPtContent,
+    // Also keep old slug for backwards compatibility during transition
+    'cryptogram-worksheets': cryptogramPtContent,
   },
 };
 

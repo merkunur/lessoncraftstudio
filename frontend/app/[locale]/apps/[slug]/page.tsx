@@ -164,6 +164,7 @@ import drawAndColorPtContent from '@/content/product-pages/pt/desenho-grade-fich
 import findObjectsPtContent from '@/content/product-pages/pt/encontrar-objetos-fichas';
 import gridMatchPtContent from '@/content/product-pages/pt/quebra-cabeca-grade-fichas';
 import crosswordPtContent from '@/content/product-pages/pt/palavras-cruzadas-imagens-fichas';
+import cryptogramPtContent from '@/content/product-pages/pt/criptograma-imagens-fichas';
 
 interface PageProps {
   params: {
@@ -1712,6 +1713,53 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
         url: 'https://www.lessoncraftstudio.com/pt/apps/palavras-cruzadas-imagens-fichas',
         siteName: 'LessonCraftStudio',
         type: 'website',
+      },
+    };
+  }
+
+  // Cryptogram Worksheets - Portuguese (Brazilian) product page SEO
+  if (params.slug === 'criptograma-imagens-fichas' && params.locale === 'pt') {
+    return {
+      title: 'Gerador de Criptograma com Imagens | Atividades para Imprimir de Alfabetização para Educação Infantil',
+      description: 'Crie atividades de criptograma com imagens profissionais em poucos minutos. Com sua assinatura Acesso Completo, você tem acesso ilimitado ao gerador de criptogramas sem taxas por atividade. Baixe em PDF de alta qualidade 300 DPI em menos de 3 minutos.',
+      keywords: 'criptograma, atividades para imprimir, atividades de alfabetização, atividades educação infantil, atividades de matemática, desenhos para colorir, coordenação motora, atividades vogais, tabuada, letra cursiva, pontilhado, atividades 1º ano, atividades 2º ano',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/pt/apps/criptograma-imagens-fichas',
+        languages: {
+          'en': 'https://www.lessoncraftstudio.com/en/apps/cryptogram-worksheets',
+          'sv': 'https://www.lessoncraftstudio.com/sv/apps/bildkryptogram-arbetsblad',
+          'de': 'https://www.lessoncraftstudio.com/de/apps/bildkryptogramm-arbeitsblaetter',
+          'fr': 'https://www.lessoncraftstudio.com/fr/apps/cryptogramme-images-fiches',
+          'es': 'https://www.lessoncraftstudio.com/es/apps/criptogramas-imagenes-fichas',
+          'it': 'https://www.lessoncraftstudio.com/it/apps/crittogramma-schede',
+          'pt': 'https://www.lessoncraftstudio.com/pt/apps/criptograma-imagens-fichas',
+          'x-default': 'https://www.lessoncraftstudio.com/en/apps/cryptogram-worksheets',
+        },
+      },
+      openGraph: {
+        title: 'Criptograma com Imagens | Atividades para Imprimir de Alfabetização | LessonCraftStudio',
+        description: 'Crie atividades de criptograma com imagens profissionais. Perfeito para professores de educação infantil e ensino fundamental.',
+        url: 'https://www.lessoncraftstudio.com/pt/apps/criptograma-imagens-fichas',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Legacy: Redirect old Portuguese cryptogram-worksheets slug to new slug (for backwards compatibility)
+  if (params.slug === 'cryptogram-worksheets' && params.locale === 'pt') {
+    return {
+      title: 'Criptograma com Imagens - Gerador de Atividades',
+      robots: {
+        index: false,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/pt/apps/criptograma-imagens-fichas',
       },
     };
   }
@@ -8214,6 +8262,7 @@ export async function generateStaticParams() {
     'encontrar-objetos-fichas', // Product page slug (Portuguese/Brazilian) - language-specific SEO slug for find-objects
     'quebra-cabeca-grade-fichas', // Product page slug (Portuguese/Brazilian) - language-specific SEO slug for grid-match
     'palavras-cruzadas-imagens-fichas', // Product page slug (Portuguese/Brazilian) - language-specific SEO slug for crossword
+    'criptograma-imagens-fichas', // Product page slug (Portuguese/Brazilian) - language-specific SEO slug for cryptogram
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

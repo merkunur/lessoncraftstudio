@@ -435,9 +435,7 @@ Professores empreendedores faturam de R$500 a R$5000 mensais. Materiais digitais
     price: '$240',
     priceInterval: '/ano',
     priceSuffix: 'Cobrado anualmente',
-    ctaText: 'Comece a Criar Agora',
-    guaranteeText: 'Garantia de 30 dias - devolução total',
-    features: [
+    benefits: [
       'Todos os 33 geradores de atividades incluídos',
       'Desenhos em grade ilimitados',
       'Biblioteca com 3000+ imagens',
@@ -447,6 +445,8 @@ Professores empreendedores faturam de R$500 a R$5000 mensais. Materiais digitais
       'Licença comercial POD incluída',
       'Exportação PDF e JPEG',
     ],
+    ctaText: 'Comece a Criar Agora',
+    guaranteeText: 'Garantia de 30 dias - devolução total',
   },
 
   // Related Apps Section

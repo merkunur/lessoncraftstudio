@@ -53,6 +53,16 @@ export default function middleware(request: NextRequest) {
   // The hreflang tags in sitemap and pages tell Google which version to serve
   // Page-level redirect handles any remaining edge cases
 
+  // Handle root URL (/) - redirect to default locale with 301 for SEO
+  // next-intl uses 307 by default which causes Google Search Console "Redirect error"
+  if (pathname === '/') {
+    const preferredLang = request.cookies.get('preferredLanguage')?.value ||
+                          request.cookies.get('NEXT_LOCALE')?.value ||
+                          defaultLocale;
+    const newUrl = new URL(`/${preferredLang}`, request.url);
+    return NextResponse.redirect(newUrl, { status: 301 });
+  }
+
   // Handle /blog and /blog/* routes - redirect to locale-prefixed versions with 301
   // This fixes SEO duplicate content issues (Google Search Console shows 89+ duplicates without canonical)
   if (pathname === '/blog' || pathname.startsWith('/blog/')) {

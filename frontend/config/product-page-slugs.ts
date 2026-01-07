@@ -222,6 +222,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       fr: 'dessin-quadrillage-fiches',
       es: 'dibujo-cuadricula-fichas',
       it: 'disegno-griglia-schede',
+      pt: 'desenho-grade-fichas',
     },
   },
   {

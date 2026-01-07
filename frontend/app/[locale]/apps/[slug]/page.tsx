@@ -160,6 +160,7 @@ import wordGuessItContent from '@/content/product-pages/it/indovina-parole-sched
 import sudokuPtContent from '@/content/product-pages/pt/sudoku-criancas-fichas';
 import chartCountPtContent from '@/content/product-pages/pt/grafico-pictorico-fichas';
 import codeAdditionPtContent from '@/content/product-pages/pt/adicao-codigo-fichas';
+import drawAndColorPtContent from '@/content/product-pages/pt/desenho-grade-fichas';
 
 interface PageProps {
   params: {
@@ -8107,6 +8108,7 @@ export async function generateStaticParams() {
     'bingo-ilustrado-fichas', // Product page slug (Portuguese/Brazilian) - language-specific SEO slug for picture-bingo
     'grafico-pictorico-fichas', // Product page slug (Portuguese/Brazilian) - language-specific SEO slug for chart-count
     'adicao-codigo-fichas', // Product page slug (Portuguese/Brazilian) - language-specific SEO slug for code-addition
+    'desenho-grade-fichas', // Product page slug (Portuguese/Brazilian) - language-specific SEO slug for draw-and-color
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

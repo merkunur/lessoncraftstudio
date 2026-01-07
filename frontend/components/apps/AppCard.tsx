@@ -172,6 +172,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     fr: 'dessin-quadrillage-fiches',
     es: 'dibujo-cuadricula-fichas',
     it: 'disegno-griglia-schede',
+    pt: 'desenho-grade-fichas',
   },
   'find-objects': {
     en: 'find-objects-worksheets',

@@ -1032,6 +1032,12 @@ const nextConfig = {
         destination: '/pt/apps/adicao-codigo-fichas',
         permanent: true,
       },
+      // Portuguese (Brazilian): draw-and-color-worksheets → desenho-grade-fichas
+      {
+        source: '/pt/apps/draw-and-color-worksheets',
+        destination: '/pt/apps/desenho-grade-fichas',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

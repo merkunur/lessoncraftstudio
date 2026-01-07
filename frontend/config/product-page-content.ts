@@ -242,6 +242,7 @@ import missingPiecesPtContent from '@/content/product-pages/pt/pecas-faltantes-f
 import moreLessPtContent from '@/content/product-pages/pt/maior-menor-fichas';
 import oddOneOutPtContent from '@/content/product-pages/pt/encontre-diferente-fichas';
 import patternTrainPtContent from '@/content/product-pages/pt/trem-padroes-fichas';
+import patternWorksheetPtContent from '@/content/product-pages/pt/fichas-padroes-sequencias';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -1056,6 +1057,10 @@ export const contentRegistry: ContentRegistry = {
     'trem-padroes-fichas': patternTrainPtContent,
     // Also keep old slug for backwards compatibility during transition
     'pattern-train-worksheets': patternTrainPtContent,
+    // Portuguese (Brazilian) Pattern Worksheet (Fichas de Padrões e Sequências) - uses Portuguese SEO slug
+    'fichas-padroes-sequencias': patternWorksheetPtContent,
+    // Also keep old slug for backwards compatibility during transition
+    'pattern-worksheets': patternWorksheetPtContent,
   },
 };
 

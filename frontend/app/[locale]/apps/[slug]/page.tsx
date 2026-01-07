@@ -169,6 +169,7 @@ import mathPuzzlePtContent from '@/content/product-pages/pt/quebra-cabeca-matema
 import missingPiecesPtContent from '@/content/product-pages/pt/pecas-faltantes-fichas';
 import moreLessPtContent from '@/content/product-pages/pt/maior-menor-fichas';
 import patternTrainPtContent from '@/content/product-pages/pt/trem-padroes-fichas';
+import patternWorksheetPtContent from '@/content/product-pages/pt/fichas-padroes-sequencias';
 
 interface PageProps {
   params: {
@@ -1952,6 +1953,53 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       },
       alternates: {
         canonical: 'https://www.lessoncraftstudio.com/pt/apps/trem-padroes-fichas',
+      },
+    };
+  }
+
+  // Pattern Worksheet - Portuguese (Brazilian) product page SEO (new Portuguese slug)
+  if (params.slug === 'fichas-padroes-sequencias' && params.locale === 'pt') {
+    return {
+      title: 'Gerador de Atividades de Sequência e Padrões - Atividades para Imprimir para Educação Infantil e 1º Ano',
+      description: 'Crie atividades de sequência e padrões profissionais com nosso gerador especializado. Sua assinatura Acesso Completo oferece criação ilimitada de atividades para imprimir sem taxas adicionais. Pronto em menos de 3 minutos.',
+      keywords: 'atividades de sequência, atividades para imprimir, atividades educação infantil, coordenação motora, raciocínio lógico, padrões, fichas de padrões, atividades matemática, atividades alfabetização, atividades vogais, tabuada, desenhos para colorir, letra cursiva, pontilhado, 1º ano, 2º ano',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/pt/apps/fichas-padroes-sequencias',
+        languages: {
+          'en': 'https://www.lessoncraftstudio.com/en/apps/pattern-worksheets',
+          'sv': 'https://www.lessoncraftstudio.com/sv/apps/monster-arbetsblad',
+          'de': 'https://www.lessoncraftstudio.com/de/apps/muster-arbeitsblatt-arbeitsblaetter',
+          'fr': 'https://www.lessoncraftstudio.com/fr/apps/sequences-logiques-fiches',
+          'es': 'https://www.lessoncraftstudio.com/es/apps/fichas-patrones',
+          'it': 'https://www.lessoncraftstudio.com/it/apps/schede-pattern',
+          'pt': 'https://www.lessoncraftstudio.com/pt/apps/fichas-padroes-sequencias',
+          'x-default': 'https://www.lessoncraftstudio.com/en/apps/pattern-worksheets',
+        },
+      },
+      openGraph: {
+        title: 'Gerador de Atividades de Sequência e Padrões | LessonCraftStudio',
+        description: 'Crie atividades de sequência e padrões profissionais em menos de 3 minutos. Perfeito para professores de educação infantil e ensino fundamental.',
+        url: 'https://www.lessoncraftstudio.com/pt/apps/fichas-padroes-sequencias',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Legacy: Redirect old Portuguese pattern-worksheets slug to new slug (for backwards compatibility)
+  if (params.slug === 'pattern-worksheets' && params.locale === 'pt') {
+    return {
+      title: 'Fichas de Padrões e Sequências - Gerador de Atividades',
+      robots: {
+        index: false,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/pt/apps/fichas-padroes-sequencias',
       },
     };
   }
@@ -8459,6 +8507,7 @@ export async function generateStaticParams() {
     'pecas-faltantes-fichas', // Product page slug (Portuguese/Brazilian) - language-specific SEO slug for missing-pieces
     'maior-menor-fichas', // Product page slug (Portuguese/Brazilian) - language-specific SEO slug for more-less
     'trem-padroes-fichas', // Product page slug (Portuguese/Brazilian) - language-specific SEO slug for pattern-train
+    'fichas-padroes-sequencias', // Product page slug (Portuguese/Brazilian) - language-specific SEO slug for pattern-worksheet
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

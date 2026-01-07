@@ -261,6 +261,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     fr: 'sequences-logiques-fiches',
     es: 'fichas-patrones',
     it: 'schede-pattern',
+    pt: 'fichas-padroes-sequencias',
   },
   'picture-path': {
     en: 'picture-path-worksheets',

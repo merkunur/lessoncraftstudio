@@ -341,6 +341,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       fr: 'sequences-logiques-fiches',
       es: 'fichas-patrones',
       it: 'schede-pattern',
+      pt: 'fichas-padroes-sequencias',
     },
   },
   {

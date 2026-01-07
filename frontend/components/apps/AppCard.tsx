@@ -118,6 +118,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     fr: 'graphisme-fiches',
     es: 'grafomotricidad-fichas',
     it: 'pregrafismo-schede',
+    pt: 'tracar-linhas-fichas',
   },
   'picture-bingo': {
     en: 'picture-bingo-worksheets',

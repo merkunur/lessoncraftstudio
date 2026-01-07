@@ -151,6 +151,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       fr: 'graphisme-fiches',
       es: 'grafomotricidad-fichas',
       it: 'pregrafismo-schede',
+      pt: 'tracar-linhas-fichas',
     },
   },
   {

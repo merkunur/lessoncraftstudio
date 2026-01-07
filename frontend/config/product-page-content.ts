@@ -226,6 +226,7 @@ import mathWorksheetsPtContent from '@/content/product-pages/pt/atividades-matem
 import wordScramblePtContent from '@/content/product-pages/pt/palavras-embaralhadas-fichas';
 import findAndCountPtContent from '@/content/product-pages/pt/encontre-conte-fichas';
 import matchingPtContent from '@/content/product-pages/pt/ligar-fichas';
+import drawingLinesPtContent from '@/content/product-pages/pt/tracar-linhas-fichas';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -976,6 +977,10 @@ export const contentRegistry: ContentRegistry = {
     'ligar-fichas': matchingPtContent,
     // Also keep old slug for backwards compatibility during transition
     'matching-worksheets': matchingPtContent,
+    // Portuguese (Brazilian) Drawing Lines (Traçar Linhas) - uses Portuguese SEO slug
+    'tracar-linhas-fichas': drawingLinesPtContent,
+    // Also keep old slug for backwards compatibility during transition
+    'drawing-lines-worksheets': drawingLinesPtContent,
   },
 };
 

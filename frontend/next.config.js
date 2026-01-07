@@ -1002,6 +1002,12 @@ const nextConfig = {
         destination: '/pt/apps/encontre-conte-fichas',
         permanent: true,
       },
+      // Portuguese (Brazilian): drawing-lines-worksheets → tracar-linhas-fichas
+      {
+        source: '/pt/apps/drawing-lines-worksheets',
+        destination: '/pt/apps/tracar-linhas-fichas',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

@@ -1008,6 +1008,12 @@ const nextConfig = {
         destination: '/pt/apps/tracar-linhas-fichas',
         permanent: true,
       },
+      // Portuguese (Brazilian): picture-bingo-worksheets → bingo-ilustrado-fichas
+      {
+        source: '/pt/apps/picture-bingo-worksheets',
+        destination: '/pt/apps/bingo-ilustrado-fichas',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

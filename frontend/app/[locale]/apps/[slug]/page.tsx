@@ -8099,6 +8099,7 @@ export async function generateStaticParams() {
     'encontre-conte-fichas', // Product page slug (Portuguese/Brazilian) - language-specific SEO slug for find-and-count
     'ligar-fichas', // Product page slug (Portuguese/Brazilian) - language-specific SEO slug for matching
     'tracar-linhas-fichas', // Product page slug (Portuguese/Brazilian) - language-specific SEO slug for drawing-lines
+    'bingo-ilustrado-fichas', // Product page slug (Portuguese/Brazilian) - language-specific SEO slug for picture-bingo
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

@@ -227,6 +227,7 @@ import wordScramblePtContent from '@/content/product-pages/pt/palavras-embaralha
 import findAndCountPtContent from '@/content/product-pages/pt/encontre-conte-fichas';
 import matchingPtContent from '@/content/product-pages/pt/ligar-fichas';
 import drawingLinesPtContent from '@/content/product-pages/pt/tracar-linhas-fichas';
+import bingoPtContent from '@/content/product-pages/pt/bingo-ilustrado-fichas';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -981,6 +982,10 @@ export const contentRegistry: ContentRegistry = {
     'tracar-linhas-fichas': drawingLinesPtContent,
     // Also keep old slug for backwards compatibility during transition
     'drawing-lines-worksheets': drawingLinesPtContent,
+    // Portuguese (Brazilian) Picture Bingo (Bingo Ilustrado) - uses Portuguese SEO slug
+    'bingo-ilustrado-fichas': bingoPtContent,
+    // Also keep old slug for backwards compatibility during transition
+    'picture-bingo-worksheets': bingoPtContent,
   },
 };
 

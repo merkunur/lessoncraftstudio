@@ -127,6 +127,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     fr: 'bingo-images-fiches',
     es: 'bingo-fichas',
     it: 'bingo-immagini-schede',
+    pt: 'bingo-ilustrado-fichas',
   },
   'sudoku': {
     en: 'sudoku-worksheets',

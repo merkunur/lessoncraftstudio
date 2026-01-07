@@ -163,6 +163,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       fr: 'bingo-images-fiches',
       es: 'bingo-fichas',
       it: 'bingo-immagini-schede',
+      pt: 'bingo-ilustrado-fichas',
     },
   },
   {

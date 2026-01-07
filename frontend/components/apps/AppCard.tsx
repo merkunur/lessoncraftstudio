@@ -243,6 +243,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     fr: 'intrus-fiches',
     es: 'encuentra-el-diferente-fichas',
     it: 'trova-intruso-schede',
+    pt: 'encontre-diferente-fichas',
   },
   'pattern-train': {
     en: 'pattern-train-worksheets',

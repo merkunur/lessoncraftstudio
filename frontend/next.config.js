@@ -1080,6 +1080,12 @@ const nextConfig = {
         destination: '/pt/apps/maior-menor-fichas',
         permanent: true,
       },
+      // Portuguese (Brazilian): odd-one-out-worksheets → encontre-diferente-fichas
+      {
+        source: '/pt/apps/odd-one-out-worksheets',
+        destination: '/pt/apps/encontre-diferente-fichas',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

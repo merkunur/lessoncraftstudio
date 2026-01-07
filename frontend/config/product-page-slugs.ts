@@ -317,6 +317,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       fr: 'intrus-fiches',
       es: 'encuentra-el-diferente-fichas',
       it: 'trova-intruso-schede',
+      pt: 'encontre-diferente-fichas',
     },
   },
   {

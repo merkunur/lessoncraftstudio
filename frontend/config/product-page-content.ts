@@ -240,6 +240,7 @@ import cryptogramPtContent from '@/content/product-pages/pt/criptograma-imagens-
 import mathPuzzlePtContent from '@/content/product-pages/pt/quebra-cabeca-matematica-fichas';
 import missingPiecesPtContent from '@/content/product-pages/pt/pecas-faltantes-fichas';
 import moreLessPtContent from '@/content/product-pages/pt/maior-menor-fichas';
+import oddOneOutPtContent from '@/content/product-pages/pt/encontre-diferente-fichas';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -1046,6 +1047,10 @@ export const contentRegistry: ContentRegistry = {
     'maior-menor-fichas': moreLessPtContent,
     // Also keep old slug for backwards compatibility during transition
     'more-less-worksheets': moreLessPtContent,
+    // Portuguese (Brazilian) Odd One Out (Qual É o Diferente) - uses Portuguese SEO slug
+    'encontre-diferente-fichas': oddOneOutPtContent,
+    // Also keep old slug for backwards compatibility during transition
+    'odd-one-out-worksheets': oddOneOutPtContent,
   },
 };
 

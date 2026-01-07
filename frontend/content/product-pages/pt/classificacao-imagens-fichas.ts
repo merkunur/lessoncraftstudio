@@ -326,24 +326,23 @@ Monte lojas no Etsy com atividades para imprimir exclusivas. Tabuada visual atra
     ],
   },
 
-  // Pricing Section
+  // Pricing - Full Access (Acesso Completo)
   pricing: {
     title: 'Acesso Completo',
-    priceMonthly: '$25',
-    priceYearly: '$240',
-    priceInterval: '/mês',
+    price: '$240',
+    priceInterval: '/ano',
     priceSuffix: 'Cobrado anualmente',
-    description: 'Acesse todos os 33 geradores de atividades incluindo Classificação de Imagens. Crie atividades ilimitadas com licença comercial completa.',
-    ctaText: 'Comece Agora',
-    guaranteeText: 'Garantia de 30 dias - devolução do dinheiro',
-    features: [
+    benefits: [
+      'Criação ilimitada de atividades',
+      'Licença comercial incluída',
+      '11 idiomas suportados',
+      '3000+ imagens temáticas',
+      'Qualidade de impressão 300 DPI',
+      'Gabaritos incluídos',
       'Acesso a todos os 33 geradores',
-      'Biblioteca com 3000+ imagens',
-      'Licença comercial POD incluída',
-      'Suporte a 11 idiomas',
-      'Exportação em 300 DPI',
-      'Gabarito automático',
     ],
+    ctaText: 'Comece Agora',
+    guaranteeText: 'Garantia de reembolso de 30 dias',
   },
 
   // FAQ Section

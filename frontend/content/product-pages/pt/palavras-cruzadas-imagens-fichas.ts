@@ -272,32 +272,16 @@ Palavras cruzadas com imagens são perfeitas para crianças em fase de alfabetiz
     price: 'R$1.200',
     priceInterval: '/ano',
     priceSuffix: 'Cobrado anualmente',
-    ctaText: 'Comece Agora',
-    guaranteeText: 'Garantia de 30 dias - dinheiro de volta',
-    features: [
+    benefits: [
       'Acesso a todos os 33 geradores de atividades',
       'Downloads ilimitados sem taxas por folha',
       'Exportação em 300 DPI de qualidade profissional',
       'Licença comercial POD incluída',
       'Suporte a 11 idiomas',
       'Biblioteca com mais de 3000 imagens',
-      'Upload de imagens próprias',
-      'Gabaritos para todas as atividades',
     ],
-    benefitHighlights: [
-      {
-        icon: '✓',
-        text: 'Todos os 33 geradores incluídos',
-      },
-      {
-        icon: '✓',
-        text: 'Licença comercial para venda',
-      },
-      {
-        icon: '✓',
-        text: 'Suporte multilíngue completo',
-      },
-    ],
+    ctaText: 'Comece Agora',
+    guaranteeText: 'Garantia de reembolso de 30 dias',
   },
 
   // FAQ Section

@@ -156,6 +156,9 @@ import subtractionItContent from '@/content/product-pages/it/sottrazione-schede'
 import treasureHuntItContent from '@/content/product-pages/it/caccia-tesoro-schede';
 import wordGuessItContent from '@/content/product-pages/it/indovina-parole-schede';
 
+// Portuguese (Brazilian) content imports
+import sudokuPtContent from '@/content/product-pages/pt/sudoku-criancas-fichas';
+
 interface PageProps {
   params: {
     locale: string;

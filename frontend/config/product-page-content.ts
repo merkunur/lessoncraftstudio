@@ -228,6 +228,7 @@ import findAndCountPtContent from '@/content/product-pages/pt/encontre-conte-fic
 import matchingPtContent from '@/content/product-pages/pt/ligar-fichas';
 import drawingLinesPtContent from '@/content/product-pages/pt/tracar-linhas-fichas';
 import bingoPtContent from '@/content/product-pages/pt/bingo-ilustrado-fichas';
+import sudokuPtContent from '@/content/product-pages/pt/sudoku-criancas-fichas';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -986,6 +987,10 @@ export const contentRegistry: ContentRegistry = {
     'bingo-ilustrado-fichas': bingoPtContent,
     // Also keep old slug for backwards compatibility during transition
     'picture-bingo-worksheets': bingoPtContent,
+    // Portuguese (Brazilian) Sudoku (Sudoku para Crianças) - uses Portuguese SEO slug
+    'sudoku-criancas-fichas': sudokuPtContent,
+    // Also keep old slug for backwards compatibility during transition
+    'sudoku-worksheets': sudokuPtContent,
   },
 };
 

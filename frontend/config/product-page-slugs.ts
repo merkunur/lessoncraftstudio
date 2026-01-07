@@ -389,6 +389,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       fr: 'discrimination-visuelle-fiches',
       es: 'asociacion-sombras-fichas',
       it: 'abbinamento-ombre-schede',
+      pt: 'combinar-sombras-fichas',
     },
   },
   {

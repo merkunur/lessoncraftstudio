@@ -246,6 +246,7 @@ import patternWorksheetPtContent from '@/content/product-pages/pt/fichas-padroes
 import picturePathPtContent from '@/content/product-pages/pt/labirinto-caminhos-fichas';
 import pictureSortPtContent from '@/content/product-pages/pt/classificacao-imagens-fichas';
 import prepositionsPtContent from '@/content/product-pages/pt/preposicoes-fichas';
+import shadowMatchPtContent from '@/content/product-pages/pt/combinar-sombras-fichas';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -1076,6 +1077,10 @@ export const contentRegistry: ContentRegistry = {
     'preposicoes-fichas': prepositionsPtContent,
     // Also keep old slug for backwards compatibility during transition
     'prepositions-worksheets': prepositionsPtContent,
+    // Portuguese (Brazilian) Shadow Match (Combinar Sombras) - uses Portuguese SEO slug
+    'combinar-sombras-fichas': shadowMatchPtContent,
+    // Also keep old slug for backwards compatibility during transition
+    'shadow-match-worksheets': shadowMatchPtContent,
   },
 };
 

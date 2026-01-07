@@ -297,6 +297,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     fr: 'discrimination-visuelle-fiches',
     es: 'asociacion-sombras-fichas',
     it: 'abbinamento-ombre-schede',
+    pt: 'combinar-sombras-fichas',
   },
   'subtraction': {
     en: 'subtraction-worksheets',

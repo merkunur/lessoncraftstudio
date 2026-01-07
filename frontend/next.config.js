@@ -1116,6 +1116,12 @@ const nextConfig = {
         destination: '/pt/apps/preposicoes-fichas',
         permanent: true,
       },
+      // Portuguese (Brazilian): shadow-match-worksheets → combinar-sombras-fichas
+      {
+        source: '/pt/apps/shadow-match-worksheets',
+        destination: '/pt/apps/combinar-sombras-fichas',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

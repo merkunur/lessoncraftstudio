@@ -170,6 +170,7 @@ import missingPiecesPtContent from '@/content/product-pages/pt/pecas-faltantes-f
 import moreLessPtContent from '@/content/product-pages/pt/maior-menor-fichas';
 import patternTrainPtContent from '@/content/product-pages/pt/trem-padroes-fichas';
 import patternWorksheetPtContent from '@/content/product-pages/pt/fichas-padroes-sequencias';
+import picturePathPtContent from '@/content/product-pages/pt/labirinto-caminhos-fichas';
 
 interface PageProps {
   params: {
@@ -2000,6 +2001,53 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       },
       alternates: {
         canonical: 'https://www.lessoncraftstudio.com/pt/apps/fichas-padroes-sequencias',
+      },
+    };
+  }
+
+  // Picture Path - Portuguese (Brazilian) product page SEO (new Portuguese slug)
+  if (params.slug === 'labirinto-caminhos-fichas' && params.locale === 'pt') {
+    return {
+      title: 'Gerador de Labirintos e Caminhos com Imagens - Atividades para Imprimir de Coordenação Motora para Educação Infantil',
+      description: 'Crie labirintos e caminhos personalizados com imagens em minutos. O gerador de Picture Path oferece três modos únicos para educação infantil. Sua assinatura Acesso Completo permite criação ilimitada. Baixe PDFs de alta qualidade em 3 minutos.',
+      keywords: 'atividades para imprimir, labirintos, coordenação motora, atividades educação infantil, atividades de alfabetização, desenhos para colorir, letra cursiva, pontilhado, tabuada, atividades de matemática, atividades 1º ano, atividades 2º ano',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/pt/apps/labirinto-caminhos-fichas',
+        languages: {
+          'en': 'https://www.lessoncraftstudio.com/en/apps/picture-path-worksheets',
+          'sv': 'https://www.lessoncraftstudio.com/sv/apps/bildlabyrint-arbetsblad',
+          'de': 'https://www.lessoncraftstudio.com/de/apps/bilderpfad-arbeitsblaetter',
+          'fr': 'https://www.lessoncraftstudio.com/fr/apps/parcours-images-fiches',
+          'es': 'https://www.lessoncraftstudio.com/es/apps/laberintos-imagenes-fichas',
+          'it': 'https://www.lessoncraftstudio.com/it/apps/percorso-illustrato-schede',
+          'pt': 'https://www.lessoncraftstudio.com/pt/apps/labirinto-caminhos-fichas',
+          'x-default': 'https://www.lessoncraftstudio.com/en/apps/picture-path-worksheets',
+        },
+      },
+      openGraph: {
+        title: 'Gerador de Labirintos e Caminhos com Imagens | LessonCraftStudio',
+        description: 'Crie labirintos e caminhos personalizados com imagens em menos de 3 minutos. Perfeito para professores de educação infantil e ensino fundamental.',
+        url: 'https://www.lessoncraftstudio.com/pt/apps/labirinto-caminhos-fichas',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Legacy: Redirect old Portuguese picture-path-worksheets slug to new slug (for backwards compatibility)
+  if (params.slug === 'picture-path-worksheets' && params.locale === 'pt') {
+    return {
+      title: 'Labirintos e Caminhos com Imagens - Gerador de Atividades',
+      robots: {
+        index: false,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/pt/apps/labirinto-caminhos-fichas',
       },
     };
   }
@@ -8508,6 +8556,7 @@ export async function generateStaticParams() {
     'maior-menor-fichas', // Product page slug (Portuguese/Brazilian) - language-specific SEO slug for more-less
     'trem-padroes-fichas', // Product page slug (Portuguese/Brazilian) - language-specific SEO slug for pattern-train
     'fichas-padroes-sequencias', // Product page slug (Portuguese/Brazilian) - language-specific SEO slug for pattern-worksheet
+    'labirinto-caminhos-fichas', // Product page slug (Portuguese/Brazilian) - language-specific SEO slug for picture-path
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

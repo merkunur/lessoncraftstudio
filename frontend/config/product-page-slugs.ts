@@ -353,6 +353,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       fr: 'parcours-images-fiches',
       es: 'laberintos-imagenes-fichas',
       it: 'percorso-illustrato-schede',
+      pt: 'labirinto-caminhos-fichas',
     },
   },
   {

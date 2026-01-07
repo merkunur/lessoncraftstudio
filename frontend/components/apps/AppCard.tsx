@@ -270,6 +270,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     fr: 'parcours-images-fiches',
     es: 'laberintos-imagenes-fichas',
     it: 'percorso-illustrato-schede',
+    pt: 'labirinto-caminhos-fichas',
   },
   'picture-sort': {
     en: 'picture-sort-worksheets',

@@ -1098,6 +1098,12 @@ const nextConfig = {
         destination: '/pt/apps/fichas-padroes-sequencias',
         permanent: true,
       },
+      // Portuguese (Brazilian): picture-path-worksheets → labirinto-caminhos-fichas
+      {
+        source: '/pt/apps/picture-path-worksheets',
+        destination: '/pt/apps/labirinto-caminhos-fichas',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

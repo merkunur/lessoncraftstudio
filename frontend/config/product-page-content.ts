@@ -243,6 +243,7 @@ import moreLessPtContent from '@/content/product-pages/pt/maior-menor-fichas';
 import oddOneOutPtContent from '@/content/product-pages/pt/encontre-diferente-fichas';
 import patternTrainPtContent from '@/content/product-pages/pt/trem-padroes-fichas';
 import patternWorksheetPtContent from '@/content/product-pages/pt/fichas-padroes-sequencias';
+import picturePathPtContent from '@/content/product-pages/pt/labirinto-caminhos-fichas';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -1061,6 +1062,10 @@ export const contentRegistry: ContentRegistry = {
     'fichas-padroes-sequencias': patternWorksheetPtContent,
     // Also keep old slug for backwards compatibility during transition
     'pattern-worksheets': patternWorksheetPtContent,
+    // Portuguese (Brazilian) Picture Path (Labirintos e Caminhos) - uses Portuguese SEO slug
+    'labirinto-caminhos-fichas': picturePathPtContent,
+    // Also keep old slug for backwards compatibility during transition
+    'picture-path-worksheets': picturePathPtContent,
   },
 };
 

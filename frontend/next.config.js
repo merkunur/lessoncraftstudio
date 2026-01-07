@@ -1110,6 +1110,12 @@ const nextConfig = {
         destination: '/pt/apps/classificacao-imagens-fichas',
         permanent: true,
       },
+      // Portuguese (Brazilian): prepositions-worksheets → preposicoes-fichas
+      {
+        source: '/pt/apps/prepositions-worksheets',
+        destination: '/pt/apps/preposicoes-fichas',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

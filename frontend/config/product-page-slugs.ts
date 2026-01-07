@@ -377,6 +377,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       fr: 'prepositions-exercices-fiches',
       es: 'preposiciones-fichas',
       it: 'preposizioni-schede',
+      pt: 'preposicoes-fichas',
     },
   },
   {

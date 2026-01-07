@@ -245,6 +245,7 @@ import patternTrainPtContent from '@/content/product-pages/pt/trem-padroes-ficha
 import patternWorksheetPtContent from '@/content/product-pages/pt/fichas-padroes-sequencias';
 import picturePathPtContent from '@/content/product-pages/pt/labirinto-caminhos-fichas';
 import pictureSortPtContent from '@/content/product-pages/pt/classificacao-imagens-fichas';
+import prepositionsPtContent from '@/content/product-pages/pt/preposicoes-fichas';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -1071,6 +1072,10 @@ export const contentRegistry: ContentRegistry = {
     'classificacao-imagens-fichas': pictureSortPtContent,
     // Also keep old slug for backwards compatibility during transition
     'picture-sort-worksheets': pictureSortPtContent,
+    // Portuguese (Brazilian) Prepositions (Preposições) - uses Portuguese SEO slug
+    'preposicoes-fichas': prepositionsPtContent,
+    // Also keep old slug for backwards compatibility during transition
+    'prepositions-worksheets': prepositionsPtContent,
   },
 };
 

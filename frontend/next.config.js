@@ -1020,6 +1020,12 @@ const nextConfig = {
         destination: '/pt/apps/sudoku-criancas-fichas',
         permanent: true,
       },
+      // Portuguese (Brazilian): chart-count-worksheets → grafico-pictorico-fichas
+      {
+        source: '/pt/apps/chart-count-worksheets',
+        destination: '/pt/apps/grafico-pictorico-fichas',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

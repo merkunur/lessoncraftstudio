@@ -154,6 +154,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     fr: 'graphique-images-fiches',
     es: 'graficos-conteo-fichas',
     it: 'grafici-immagini-schede',
+    pt: 'grafico-pictorico-fichas',
   },
   'code-addition': {
     en: 'code-addition-worksheets',

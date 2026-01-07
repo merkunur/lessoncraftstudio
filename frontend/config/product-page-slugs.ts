@@ -198,6 +198,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       fr: 'graphique-images-fiches',
       es: 'graficos-conteo-fichas',
       it: 'grafici-immagini-schede',
+      pt: 'grafico-pictorico-fichas',
     },
   },
   {

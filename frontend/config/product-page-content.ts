@@ -230,6 +230,7 @@ import drawingLinesPtContent from '@/content/product-pages/pt/tracar-linhas-fich
 import bingoPtContent from '@/content/product-pages/pt/bingo-ilustrado-fichas';
 import sudokuPtContent from '@/content/product-pages/pt/sudoku-criancas-fichas';
 import bigSmallPtContent from '@/content/product-pages/pt/grande-pequeno-fichas';
+import chartCountPtContent from '@/content/product-pages/pt/grafico-pictorico-fichas';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -996,6 +997,10 @@ export const contentRegistry: ContentRegistry = {
     'grande-pequeno-fichas': bigSmallPtContent,
     // Also keep old slug for backwards compatibility during transition
     'big-small-worksheets': bigSmallPtContent,
+    // Portuguese (Brazilian) Chart Count (Gráfico Pictórico) - uses Portuguese SEO slug
+    'grafico-pictorico-fichas': chartCountPtContent,
+    // Also keep old slug for backwards compatibility during transition
+    'chart-count-worksheets': chartCountPtContent,
   },
 };
 

@@ -234,6 +234,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     fr: 'comparaison-quantites-fiches',
     es: 'mayor-menor-fichas',
     it: 'confronto-numeri-schede',
+    pt: 'maior-menor-fichas',
   },
   'odd-one-out': {
     en: 'odd-one-out-worksheets',

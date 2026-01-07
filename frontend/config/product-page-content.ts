@@ -239,6 +239,7 @@ import crosswordPtContent from '@/content/product-pages/pt/palavras-cruzadas-ima
 import cryptogramPtContent from '@/content/product-pages/pt/criptograma-imagens-fichas';
 import mathPuzzlePtContent from '@/content/product-pages/pt/quebra-cabeca-matematica-fichas';
 import missingPiecesPtContent from '@/content/product-pages/pt/pecas-faltantes-fichas';
+import moreLessPtContent from '@/content/product-pages/pt/maior-menor-fichas';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -1041,6 +1042,10 @@ export const contentRegistry: ContentRegistry = {
     'pecas-faltantes-fichas': missingPiecesPtContent,
     // Also keep old slug for backwards compatibility during transition
     'missing-pieces-worksheets': missingPiecesPtContent,
+    // Portuguese (Brazilian) More Less (Maior e Menor) - uses Portuguese SEO slug
+    'maior-menor-fichas': moreLessPtContent,
+    // Also keep old slug for backwards compatibility during transition
+    'more-less-worksheets': moreLessPtContent,
   },
 };
 

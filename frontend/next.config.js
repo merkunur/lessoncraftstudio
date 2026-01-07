@@ -1074,6 +1074,12 @@ const nextConfig = {
         destination: '/pt/apps/pecas-faltantes-fichas',
         permanent: true,
       },
+      // Portuguese (Brazilian): more-less-worksheets → maior-menor-fichas
+      {
+        source: '/pt/apps/more-less-worksheets',
+        destination: '/pt/apps/maior-menor-fichas',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

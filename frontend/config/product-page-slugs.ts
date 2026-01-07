@@ -305,6 +305,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       fr: 'comparaison-quantites-fiches',
       es: 'mayor-menor-fichas',
       it: 'confronto-numeri-schede',
+      pt: 'maior-menor-fichas',
     },
   },
   {

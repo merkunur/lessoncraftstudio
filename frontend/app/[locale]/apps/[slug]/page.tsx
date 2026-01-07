@@ -167,6 +167,7 @@ import crosswordPtContent from '@/content/product-pages/pt/palavras-cruzadas-ima
 import cryptogramPtContent from '@/content/product-pages/pt/criptograma-imagens-fichas';
 import mathPuzzlePtContent from '@/content/product-pages/pt/quebra-cabeca-matematica-fichas';
 import missingPiecesPtContent from '@/content/product-pages/pt/pecas-faltantes-fichas';
+import moreLessPtContent from '@/content/product-pages/pt/maior-menor-fichas';
 
 interface PageProps {
   params: {
@@ -1856,6 +1857,53 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       },
       alternates: {
         canonical: 'https://www.lessoncraftstudio.com/pt/apps/pecas-faltantes-fichas',
+      },
+    };
+  }
+
+  // More Less Worksheets - Portuguese (Brazilian) product page SEO (new Portuguese slug)
+  if (params.slug === 'maior-menor-fichas' && params.locale === 'pt') {
+    return {
+      title: 'Atividades de Matemática Maior e Menor para Imprimir | Gerador de Atividades Educação Infantil e 1º Ano',
+      description: 'Crie atividades de matemática profissionais para comparar quantidades. O gerador de fichas Maior e Menor permite criar atividades para imprimir em menos de 3 minutos. Sua assinatura Acesso Completo oferece criação ilimitada de fichas sem cobranças adicionais por folha.',
+      keywords: 'atividades de matemática, maior e menor, atividades para imprimir, atividades educação infantil, atividades 1º ano, atividades 2º ano, coordenação motora, atividades de alfabetização, desenhos para colorir, letra cursiva, pontilhado, tabuada',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/pt/apps/maior-menor-fichas',
+        languages: {
+          'en': 'https://www.lessoncraftstudio.com/en/apps/more-less-worksheets',
+          'sv': 'https://www.lessoncraftstudio.com/sv/apps/jamforelse-arbetsblad',
+          'de': 'https://www.lessoncraftstudio.com/de/apps/mehr-weniger-arbeitsblaetter',
+          'fr': 'https://www.lessoncraftstudio.com/fr/apps/comparaison-quantites-fiches',
+          'es': 'https://www.lessoncraftstudio.com/es/apps/mayor-menor-fichas',
+          'it': 'https://www.lessoncraftstudio.com/it/apps/confronto-numeri-schede',
+          'pt': 'https://www.lessoncraftstudio.com/pt/apps/maior-menor-fichas',
+          'x-default': 'https://www.lessoncraftstudio.com/en/apps/more-less-worksheets',
+        },
+      },
+      openGraph: {
+        title: 'Atividades de Matemática Maior e Menor para Imprimir | LessonCraftStudio',
+        description: 'Crie atividades de comparação de quantidades profissionais em menos de 3 minutos. Perfeito para professores de educação infantil e ensino fundamental.',
+        url: 'https://www.lessoncraftstudio.com/pt/apps/maior-menor-fichas',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Legacy: Redirect old Portuguese more-less-worksheets slug to new slug (for backwards compatibility)
+  if (params.slug === 'more-less-worksheets' && params.locale === 'pt') {
+    return {
+      title: 'Maior e Menor - Gerador de Atividades',
+      robots: {
+        index: false,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/pt/apps/maior-menor-fichas',
       },
     };
   }
@@ -8361,6 +8409,7 @@ export async function generateStaticParams() {
     'criptograma-imagens-fichas', // Product page slug (Portuguese/Brazilian) - language-specific SEO slug for cryptogram
     'quebra-cabeca-matematica-fichas', // Product page slug (Portuguese/Brazilian) - language-specific SEO slug for math-puzzle
     'pecas-faltantes-fichas', // Product page slug (Portuguese/Brazilian) - language-specific SEO slug for missing-pieces
+    'maior-menor-fichas', // Product page slug (Portuguese/Brazilian) - language-specific SEO slug for more-less
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

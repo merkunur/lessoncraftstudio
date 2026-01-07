@@ -1062,6 +1062,12 @@ const nextConfig = {
         destination: '/pt/apps/criptograma-imagens-fichas',
         permanent: true,
       },
+      // Portuguese (Brazilian): math-puzzle-worksheets → quebra-cabeca-matematica-fichas
+      {
+        source: '/pt/apps/math-puzzle-worksheets',
+        destination: '/pt/apps/quebra-cabeca-matematica-fichas',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

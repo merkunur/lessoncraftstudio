@@ -281,6 +281,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       fr: 'puzzle-maths-fiches',
       es: 'rompecabezas-matematicos-fichas',
       it: 'puzzle-matematici-schede',
+      pt: 'quebra-cabeca-matematica-fichas',
     },
   },
   {

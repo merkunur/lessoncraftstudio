@@ -216,6 +216,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     fr: 'puzzle-maths-fiches',
     es: 'rompecabezas-matematicos-fichas',
     it: 'puzzle-matematici-schede',
+    pt: 'quebra-cabeca-matematica-fichas',
   },
   'missing-pieces': {
     en: 'missing-pieces-worksheets',

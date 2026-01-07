@@ -165,6 +165,7 @@ import findObjectsPtContent from '@/content/product-pages/pt/encontrar-objetos-f
 import gridMatchPtContent from '@/content/product-pages/pt/quebra-cabeca-grade-fichas';
 import crosswordPtContent from '@/content/product-pages/pt/palavras-cruzadas-imagens-fichas';
 import cryptogramPtContent from '@/content/product-pages/pt/criptograma-imagens-fichas';
+import mathPuzzlePtContent from '@/content/product-pages/pt/quebra-cabeca-matematica-fichas';
 
 interface PageProps {
   params: {
@@ -1760,6 +1761,53 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       },
       alternates: {
         canonical: 'https://www.lessoncraftstudio.com/pt/apps/criptograma-imagens-fichas',
+      },
+    };
+  }
+
+  // Math Puzzle Worksheets - Portuguese (Brazilian) product page SEO (new Portuguese slug)
+  if (params.slug === 'quebra-cabeca-matematica-fichas' && params.locale === 'pt') {
+    return {
+      title: 'Gerador de Quebra-Cabeça de Matemática | Atividades para Imprimir de Matemática para Educação Infantil e 1º Ano',
+      description: 'Crie atividades de matemática para imprimir com nosso gerador de quebra-cabeças matemáticos. Com sua assinatura Acesso Completo, você tem acesso ilimitado sem taxas por atividade. Desenvolva atividades de educação infantil personalizadas em menos de 3 minutos.',
+      keywords: 'quebra-cabeça matemática, atividades para imprimir, atividades de matemática, atividades educação infantil, tabuada, atividades 1º ano, atividades 2º ano, desenhos para colorir, coordenação motora',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/pt/apps/quebra-cabeca-matematica-fichas',
+        languages: {
+          'en': 'https://www.lessoncraftstudio.com/en/apps/math-puzzle-worksheets',
+          'sv': 'https://www.lessoncraftstudio.com/sv/apps/mattepussel-arbetsblad',
+          'de': 'https://www.lessoncraftstudio.com/de/apps/mathe-raetsel-arbeitsblaetter',
+          'fr': 'https://www.lessoncraftstudio.com/fr/apps/puzzle-maths-fiches',
+          'es': 'https://www.lessoncraftstudio.com/es/apps/rompecabezas-matematicos-fichas',
+          'it': 'https://www.lessoncraftstudio.com/it/apps/puzzle-matematici-schede',
+          'pt': 'https://www.lessoncraftstudio.com/pt/apps/quebra-cabeca-matematica-fichas',
+          'x-default': 'https://www.lessoncraftstudio.com/en/apps/math-puzzle-worksheets',
+        },
+      },
+      openGraph: {
+        title: 'Gerador de Quebra-Cabeça de Matemática | LessonCraftStudio',
+        description: 'Crie atividades de matemática para imprimir com nosso gerador de quebra-cabeças matemáticos. Perfeito para professores de educação infantil e ensino fundamental.',
+        url: 'https://www.lessoncraftstudio.com/pt/apps/quebra-cabeca-matematica-fichas',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Legacy: Redirect old Portuguese math-puzzle-worksheets slug to new slug (for backwards compatibility)
+  if (params.slug === 'math-puzzle-worksheets' && params.locale === 'pt') {
+    return {
+      title: 'Quebra-Cabeça de Matemática - Gerador de Atividades',
+      robots: {
+        index: false,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/pt/apps/quebra-cabeca-matematica-fichas',
       },
     };
   }
@@ -8263,6 +8311,7 @@ export async function generateStaticParams() {
     'quebra-cabeca-grade-fichas', // Product page slug (Portuguese/Brazilian) - language-specific SEO slug for grid-match
     'palavras-cruzadas-imagens-fichas', // Product page slug (Portuguese/Brazilian) - language-specific SEO slug for crossword
     'criptograma-imagens-fichas', // Product page slug (Portuguese/Brazilian) - language-specific SEO slug for cryptogram
+    'quebra-cabeca-matematica-fichas', // Product page slug (Portuguese/Brazilian) - language-specific SEO slug for math-puzzle
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

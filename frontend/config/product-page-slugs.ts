@@ -365,6 +365,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       fr: 'tri-images-fiches',
       es: 'clasificar-imagenes-fichas',
       it: 'classificazione-immagini-schede',
+      pt: 'classificacao-imagens-fichas',
     },
   },
   {

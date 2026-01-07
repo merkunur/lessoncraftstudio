@@ -171,6 +171,7 @@ import moreLessPtContent from '@/content/product-pages/pt/maior-menor-fichas';
 import patternTrainPtContent from '@/content/product-pages/pt/trem-padroes-fichas';
 import patternWorksheetPtContent from '@/content/product-pages/pt/fichas-padroes-sequencias';
 import picturePathPtContent from '@/content/product-pages/pt/labirinto-caminhos-fichas';
+import pictureSortPtContent from '@/content/product-pages/pt/classificacao-imagens-fichas';
 
 interface PageProps {
   params: {
@@ -2048,6 +2049,53 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       },
       alternates: {
         canonical: 'https://www.lessoncraftstudio.com/pt/apps/labirinto-caminhos-fichas',
+      },
+    };
+  }
+
+  // Picture Sort - Portuguese (Brazilian) product page SEO (new Portuguese slug)
+  if (params.slug === 'classificacao-imagens-fichas' && params.locale === 'pt') {
+    return {
+      title: 'Atividades de Classificação para Imprimir - Gerador de Atividades Educação Infantil e 1º Ano',
+      description: 'Crie atividades de classificação profissionais em minutos. Nosso gerador de fichas de classificação faz parte da assinatura Acesso Completo do LessonCraft Studio. Professores de educação infantil e ensino fundamental usam esta ferramenta diariamente. Produza atividades para imprimir com qualidade profissional de 300 DPI.',
+      keywords: 'atividades de classificação, atividades para imprimir, atividades educação infantil, atividades 1º ano, atividades 2º ano, coordenação motora, classificação de imagens, atividades de matemática, desenhos para colorir, letra cursiva, pontilhado, atividades de alfabetização',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/pt/apps/classificacao-imagens-fichas',
+        languages: {
+          'en': 'https://www.lessoncraftstudio.com/en/apps/picture-sort-worksheets',
+          'sv': 'https://www.lessoncraftstudio.com/sv/apps/bildsortering-arbetsblad',
+          'de': 'https://www.lessoncraftstudio.com/de/apps/bilder-sortieren-arbeitsblaetter',
+          'fr': 'https://www.lessoncraftstudio.com/fr/apps/tri-images-fiches',
+          'es': 'https://www.lessoncraftstudio.com/es/apps/clasificar-imagenes-fichas',
+          'it': 'https://www.lessoncraftstudio.com/it/apps/classificazione-immagini-schede',
+          'pt': 'https://www.lessoncraftstudio.com/pt/apps/classificacao-imagens-fichas',
+          'x-default': 'https://www.lessoncraftstudio.com/en/apps/picture-sort-worksheets',
+        },
+      },
+      openGraph: {
+        title: 'Gerador de Atividades de Classificação de Imagens | LessonCraftStudio',
+        description: 'Crie atividades de classificação profissionais em menos de 3 minutos. Perfeito para professores de educação infantil e ensino fundamental.',
+        url: 'https://www.lessoncraftstudio.com/pt/apps/classificacao-imagens-fichas',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Legacy: Redirect old Portuguese picture-sort-worksheets slug to new slug (for backwards compatibility)
+  if (params.slug === 'picture-sort-worksheets' && params.locale === 'pt') {
+    return {
+      title: 'Atividades de Classificação de Imagens - Gerador de Atividades',
+      robots: {
+        index: false,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/pt/apps/classificacao-imagens-fichas',
       },
     };
   }
@@ -8557,6 +8605,7 @@ export async function generateStaticParams() {
     'trem-padroes-fichas', // Product page slug (Portuguese/Brazilian) - language-specific SEO slug for pattern-train
     'fichas-padroes-sequencias', // Product page slug (Portuguese/Brazilian) - language-specific SEO slug for pattern-worksheet
     'labirinto-caminhos-fichas', // Product page slug (Portuguese/Brazilian) - language-specific SEO slug for picture-path
+    'classificacao-imagens-fichas', // Product page slug (Portuguese/Brazilian) - language-specific SEO slug for picture-sort
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

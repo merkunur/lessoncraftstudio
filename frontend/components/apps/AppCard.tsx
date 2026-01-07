@@ -279,6 +279,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     fr: 'tri-images-fiches',
     es: 'clasificar-imagenes-fichas',
     it: 'classificazione-immagini-schede',
+    pt: 'classificacao-imagens-fichas',
   },
   'prepositions': {
     en: 'prepositions-worksheets',

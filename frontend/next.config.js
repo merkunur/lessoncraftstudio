@@ -1104,6 +1104,12 @@ const nextConfig = {
         destination: '/pt/apps/labirinto-caminhos-fichas',
         permanent: true,
       },
+      // Portuguese (Brazilian): picture-sort-worksheets → classificacao-imagens-fichas
+      {
+        source: '/pt/apps/picture-sort-worksheets',
+        destination: '/pt/apps/classificacao-imagens-fichas',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

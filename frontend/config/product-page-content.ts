@@ -244,6 +244,7 @@ import oddOneOutPtContent from '@/content/product-pages/pt/encontre-diferente-fi
 import patternTrainPtContent from '@/content/product-pages/pt/trem-padroes-fichas';
 import patternWorksheetPtContent from '@/content/product-pages/pt/fichas-padroes-sequencias';
 import picturePathPtContent from '@/content/product-pages/pt/labirinto-caminhos-fichas';
+import pictureSortPtContent from '@/content/product-pages/pt/classificacao-imagens-fichas';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -1066,6 +1067,10 @@ export const contentRegistry: ContentRegistry = {
     'labirinto-caminhos-fichas': picturePathPtContent,
     // Also keep old slug for backwards compatibility during transition
     'picture-path-worksheets': picturePathPtContent,
+    // Portuguese (Brazilian) Picture Sort (Classificação de Imagens) - uses Portuguese SEO slug
+    'classificacao-imagens-fichas': pictureSortPtContent,
+    // Also keep old slug for backwards compatibility during transition
+    'picture-sort-worksheets': pictureSortPtContent,
   },
 };
 

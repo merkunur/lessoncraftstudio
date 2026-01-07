@@ -171,30 +171,35 @@ Palavras cruzadas com imagens são perfeitas para crianças em fase de alfabetiz
     steps: [
       {
         id: '1',
+        number: 1,
         title: 'Escolha o Conteúdo',
         description: `O primeiro passo define quais palavras aparecerão na sua atividade de alfabetização. Você tem três opções disponíveis. A primeira é selecionar um tema completo da biblioteca. O gerador escolhe 8 imagens automaticamente. A segunda opção é selecionar imagens individuais manualmente. Navegue pelos temas e clique nas imagens desejadas. A terceira opção é usar lista de palavras personalizada com pistas em texto. Ideal para vocabulário específico ou conceitos abstratos.`,
         icon: '📝',
       },
       {
         id: '2',
+        number: 2,
         title: 'Configure a Página',
         description: `Selecione o tamanho ideal para suas atividades educação infantil. Formato Carta retrato é o mais comum no Brasil. Formato A4 também disponível para padrão internacional. Escolha orientação retrato ou paisagem conforme preferência. Adicione bordas temáticas para deixar a atividade mais atrativa. Selecione cor de fundo ou imagem decorativa. Ajuste a opacidade dos elementos visuais.`,
         icon: '⚙️',
       },
       {
         id: '3',
+        number: 3,
         title: 'Gere a Atividade',
         description: `Clique no botão "Criar" e aguarde 2 segundos. A grade de palavras cruzadas aparece instantaneamente. As 8 imagens são posicionadas como pistas visuais. As palavras se cruzam naturalmente na grade. Cada letra ocupa um quadradinho específico. A visualização mostra exatamente como ficará impresso.`,
         icon: '✨',
       },
       {
         id: '4',
+        number: 4,
         title: 'Personalize no Canvas',
         description: `Após gerar, personalize cada elemento livremente. Arraste imagens para nova posição no canvas. Redimensione qualquer elemento com os controles de canto. Gire imagens e textos conforme necessário. Adicione texto personalizado com instruções ou nome da escola. Escolha entre 7 fontes diferentes para os textos. Ajuste cores e contornos das letras.`,
         icon: '🎨',
       },
       {
         id: '5',
+        number: 5,
         title: 'Baixe em PDF',
         description: `Escolha o formato de download preferido. JPEG para uso digital ou impressão caseira rápida. PDF para qualidade profissional de impressão comercial. Ative a opção escala de cinza para transformar em desenhos para colorir. A criança resolve a palavra cruzada e depois colore as imagens. Baixe o gabarito separadamente para facilitar correção. A resolução de 300 DPI garante nitidez perfeita.`,
         icon: '📥',

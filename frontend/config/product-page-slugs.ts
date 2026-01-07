@@ -401,6 +401,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       fr: 'soustraction-fiches',
       es: 'resta-fichas',
       it: 'sottrazione-schede',
+      pt: 'subtracao-fichas',
     },
   },
   {

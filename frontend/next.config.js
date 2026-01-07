@@ -1122,6 +1122,12 @@ const nextConfig = {
         destination: '/pt/apps/combinar-sombras-fichas',
         permanent: true,
       },
+      // Portuguese (Brazilian): subtraction-worksheets → subtracao-fichas
+      {
+        source: '/pt/apps/subtraction-worksheets',
+        destination: '/pt/apps/subtracao-fichas',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

@@ -174,6 +174,7 @@ import picturePathPtContent from '@/content/product-pages/pt/labirinto-caminhos-
 import pictureSortPtContent from '@/content/product-pages/pt/classificacao-imagens-fichas';
 import prepositionsPtContent from '@/content/product-pages/pt/preposicoes-fichas';
 import shadowMatchPtContent from '@/content/product-pages/pt/combinar-sombras-fichas';
+import subtractionPtContent from '@/content/product-pages/pt/subtracao-fichas';
 
 interface PageProps {
   params: {

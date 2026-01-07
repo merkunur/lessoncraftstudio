@@ -16,7 +16,7 @@ export const missingPiecesPtContent: ProductPageContent = {
     slug: 'pecas-faltantes-fichas',
     appId: 'missing-pieces',
     title: 'Atividades de Peças Faltantes para Imprimir - Gerador de Atividades Educação Infantil e Atividades para Imprimir Grátis',
-    description: 'Crie atividades de peças faltantes profissionais em poucos minutos com nosso gerador de atividades para imprimir. Com sua assinatura Full Access, você gera quantas atividades quiser sem taxas adicionais. Baixe atividades educação infantil de alta qualidade prontas para usar.',
+    description: 'Crie atividades de peças faltantes profissionais em poucos minutos com nosso gerador de atividades para imprimir. Com sua assinatura Acesso Completo, você gera quantas atividades quiser sem taxas adicionais. Baixe atividades educação infantil de alta qualidade prontas para usar.',
     keywords: 'atividades para imprimir, peças faltantes, atividades educação infantil, coordenação motora, atividades de alfabetização, desenhos para colorir, atividades 1º ano, atividades 2º ano, letra cursiva, pontilhado, tabuada, atividades vogais, alfabeto',
     canonicalUrl: 'https://www.lessoncraftstudio.com/pt/apps/pecas-faltantes-fichas',
   },
@@ -25,7 +25,7 @@ export const missingPiecesPtContent: ProductPageContent = {
   hero: {
     title: 'Atividades de Peças Faltantes para Imprimir - Gerador de Atividades Educação Infantil e Atividades para Imprimir Grátis',
     subtitle: 'Gerador de Atividades de Peças Faltantes com Quebra-Cabeças Educativos',
-    description: `Crie atividades de peças faltantes profissionais em poucos minutos com nosso gerador de atividades para imprimir. Com sua assinatura Full Access, você gera quantas atividades quiser sem taxas adicionais. Baixe atividades educação infantil de alta qualidade prontas para usar na sala de aula ou em casa. O formato PDF permite impressão em qualquer impressora doméstica.
+    description: `Crie atividades de peças faltantes profissionais em poucos minutos com nosso gerador de atividades para imprimir. Com sua assinatura Acesso Completo, você gera quantas atividades quiser sem taxas adicionais. Baixe atividades educação infantil de alta qualidade prontas para usar na sala de aula ou em casa. O formato PDF permite impressão em qualquer impressora doméstica.
 
 O gerador de peças faltantes transforma qualquer imagem em um quebra-cabeça educativo. Os alunos precisam identificar quais peças estão faltando e selecionar a resposta correta entre as opções. Este tipo de atividade desenvolve habilidades essenciais como discriminação visual, raciocínio lógico e resolução de problemas. Professores de educação infantil e ensino fundamental usam estas atividades para imprimir em diversas disciplinas.
 
@@ -100,7 +100,7 @@ O gerador inclui uma biblioteca com mais de 3000 imagens temáticas. Crie ativid
         id: '1',
         icon: '⚡',
         title: 'Criação Fácil de Atividades de Alfabetização em 3 Cliques - Atividades para Imprimir Rápidas',
-        description: `Criar atividades de alfabetização nunca foi tão simples. Primeiro, selecione uma imagem da biblioteca ou faça upload da sua própria. Segundo, configure quantas peças faltam e quantas opções de resposta. Terceiro, clique em "Criar Atividade" e pronto. Em menos de três minutos você tem atividades para imprimir profissionais. Não precisa de conhecimentos de design ou programas complicados.
+        description: `Criar atividades de alfabetização nunca foi tão simples. Primeiro, selecione uma imagem da biblioteca ou envie a sua própria. Segundo, configure quantas peças faltam e quantas opções de resposta. Terceiro, clique em "Criar Atividade" e pronto. Em menos de três minutos você tem atividades para imprimir profissionais. Não precisa de conhecimentos de design ou programas complicados.
 
 O sistema gera automaticamente as peças que faltam na imagem. Cada peça é recortada de forma precisa, criando um quebra-cabeça educativo perfeito. As opções de resposta incluem a peça correta mais distratores aleatórios. Este formato de múltipla escolha é ideal para atividades de alfabetização onde os alunos precisam observar detalhes.`,
         highlighted: false,
@@ -108,8 +108,8 @@ O sistema gera automaticamente as peças que faltam na imagem. Cada peça é rec
       {
         id: '2',
         icon: '✏️',
-        title: 'Edição Completa de Atividades de Matemática no Canvas - Coordenação Motora e Personalização Total',
-        description: `Depois de gerar a atividade, você tem controle total sobre cada elemento. Arraste, redimensione e gire qualquer peça ou texto na tela. As atividades de matemática podem ser ajustadas conforme as necessidades da sua turma. Adicione números, símbolos ou instruções adicionais diretamente no canvas.
+        title: 'Edição Completa de Atividades de Matemática na Tela - Coordenação Motora e Personalização Total',
+        description: `Depois de gerar a atividade, você tem controle total sobre cada elemento. Arraste, redimensione e gire qualquer peça ou texto na tela. As atividades de matemática podem ser ajustadas conforme as necessidades da sua turma. Adicione números, símbolos ou instruções adicionais diretamente na tela.
 
 A coordenação motora dos alunos é trabalhada quando eles recortam as peças de resposta. Para facilitar, você pode ajustar o tamanho das peças no editor. Peças maiores são ideais para crianças menores. Peças menores desafiam alunos mais avançados. Cada elemento pode ser bloqueado no lugar para evitar movimentos acidentais durante a edição.`,
         highlighted: false,
@@ -117,10 +117,10 @@ A coordenação motora dos alunos é trabalhada quando eles recortam as peças d
       {
         id: '3',
         icon: '📤',
-        title: 'Upload de Imagens Próprias para Atividades 1º Ano - Desenhos para Colorir Personalizados',
-        description: `O gerador aceita suas próprias imagens para criar atividades personalizadas. Faça upload de fotos da turma, mascote da escola ou imagens temáticas do seu planejamento. Atividades 1º ano ficam muito mais engajantes quando usam imagens familiares aos alunos. Combine imagens próprias com desenhos para colorir da biblioteca.
+        title: 'Envio de Imagens Próprias para Atividades 1º Ano - Desenhos para Colorir Personalizados',
+        description: `O gerador aceita suas próprias imagens para criar atividades personalizadas. Envie fotos da turma, mascote da escola ou imagens temáticas do seu planejamento. Atividades 1º ano ficam muito mais engajantes quando usam imagens familiares aos alunos. Combine imagens próprias com desenhos para colorir da biblioteca.
 
-Todos os formatos comuns são aceitos: JPEG, PNG, GIF e outros. O upload múltiplo permite enviar várias imagens de uma vez. Suas imagens ficam disponíveis durante toda a sessão de trabalho. Crie desenhos para colorir únicos que nenhuma outra escola terá. A personalização aumenta o engajamento e a identificação dos alunos com o material.`,
+Todos os formatos comuns são aceitos: JPEG, PNG, GIF e outros. O envio múltiplo permite carregar várias imagens de uma vez. Suas imagens ficam disponíveis durante toda a sessão de trabalho. Crie desenhos para colorir únicos que nenhuma outra escola terá. A personalização aumenta o engajamento e a identificação dos alunos com o material.`,
         highlighted: false,
       },
       {
@@ -136,9 +136,9 @@ A biblioteca de imagens também é organizada por idioma. Os nomes das imagens a
         id: '5',
         icon: '💰',
         title: 'Licença Comercial para Atividades Vogais e Alfabeto - Venda suas Atividades para Imprimir',
-        description: `Sua assinatura Full Access inclui licença comercial completa. Venda suas atividades vogais e alfabeto em plataformas como Teachers Pay Teachers. Crie uma loja no Etsy vendendo atividades para imprimir temáticas. Publique livros de atividades na Amazon KDP. Não há taxas extras ou royalties.
+        description: `Sua assinatura Acesso Completo inclui licença comercial completa. Venda suas atividades vogais e alfabeto em plataformas como Teachers Pay Teachers. Crie uma loja no Etsy vendendo atividades para imprimir temáticas. Publique livros de atividades na Amazon KDP. Não há taxas extras ou royalties.
 
-Professores empreendedores ganham entre R$500 e R$5.000 por mês vendendo material didático online. As atividades para imprimir criadas no gerador têm qualidade profissional de 300 DPI. Nenhuma marca d'água aparece no material baixado. Você tem direitos completos sobre tudo que criar. A licença comercial está incluída nos R$1.200 anuais da assinatura Full Access.`,
+Professores empreendedores ganham entre R$500 e R$5.000 por mês vendendo material didático online. As atividades para imprimir criadas no gerador têm qualidade profissional de 300 DPI. Nenhuma marca d'água aparece no material baixado. Você tem direitos completos sobre tudo que criar. A licença comercial está incluída nos R$1.200 anuais da assinatura Acesso Completo.`,
         highlighted: true,
       },
       {
@@ -179,10 +179,10 @@ Escolha entre JPEG para uso digital ou PDF para impressão. A opção escala de 
       {
         id: '1',
         number: 1,
-        title: 'Escolha a Imagem para Atividades de Alfabetização - Biblioteca ou Upload de Desenhos para Colorir',
+        title: 'Escolha a Imagem para Atividades de Alfabetização - Biblioteca ou Envio de Desenhos para Colorir',
         description: `O primeiro passo é selecionar a imagem base do seu quebra-cabeça. Para atividades de alfabetização, escolha imagens de objetos com nomes simples. A biblioteca oferece mais de 3000 desenhos para colorir e imagens temáticas. Use a busca para encontrar exatamente o que precisa. Digite "maçã", "gato" ou qualquer palavra relacionada ao seu tema.
 
-Alternativamente, faça upload das suas próprias imagens. Fotos da turma criam atividades de alfabetização personalizadas e engajantes. Imagens do mascote da escola ou de projetos em andamento funcionam muito bem. Para desenhos para colorir, escolha imagens com contornos claros e poucos detalhes internos. Clique na imagem desejada para selecioná-la. Um preview aparece confirmando sua escolha.`,
+Alternativamente, envie suas próprias imagens. Fotos da turma criam atividades de alfabetização personalizadas e engajantes. Imagens do mascote da escola ou de projetos em andamento funcionam muito bem. Para desenhos para colorir, escolha imagens com contornos claros e poucos detalhes internos. Clique na imagem desejada para selecioná-la. Uma visualização prévia aparece confirmando sua escolha.`,
         icon: '🖼️',
       },
       {
@@ -199,10 +199,10 @@ Escolha o formato das peças entre 6 opções. Quadrados e círculos são mais f
       {
         id: '3',
         number: 3,
-        title: 'Gere a Atividade de Atividades Vogais e Alfabeto - Preview Instantâneo de Atividades para Imprimir',
-        description: `Clique no botão "Criar Atividade" e aguarde alguns segundos. O gerador processa a imagem e cria o quebra-cabeça automaticamente. Para atividades vogais e alfabeto, a imagem aparece com as peças faltantes claramente marcadas. As atividades para imprimir ficam prontas no canvas para visualização.
+        title: 'Gere a Atividade de Atividades Vogais e Alfabeto - Visualização Instantânea de Atividades para Imprimir',
+        description: `Clique no botão "Criar Atividade" e aguarde alguns segundos. O gerador processa a imagem e cria o quebra-cabeça automaticamente. Para atividades vogais e alfabeto, a imagem aparece com as peças faltantes claramente marcadas. As atividades para imprimir ficam prontas na tela para visualização.
 
-O preview mostra exatamente como a atividade ficará quando impressa. A área principal exibe a imagem com os espaços vazios. Abaixo ou ao lado aparecem as opções de resposta. Uma das opções é a peça correta. As outras são distratores que não encaixam perfeitamente.
+A visualização prévia mostra exatamente como a atividade ficará quando impressa. A área principal exibe a imagem com os espaços vazios. Abaixo ou ao lado aparecem as opções de resposta. Uma das opções é a peça correta. As outras são distratores que não encaixam perfeitamente.
 
 Revise o resultado antes de continuar. Se não gostar da posição das peças faltantes, clique em "Criar Atividade" novamente. O sistema gera uma nova versão com peças em posições diferentes. Repita até encontrar a configuração ideal para suas atividades vogais e alfabeto.`,
         icon: '✨',
@@ -210,7 +210,7 @@ Revise o resultado antes de continuar. Se não gostar da posição das peças fa
       {
         id: '4',
         number: 4,
-        title: 'Personalize com Letra Cursiva e Pontilhado - Edite Atividades Educação Infantil no Canvas',
+        title: 'Personalize com Letra Cursiva e Pontilhado - Edite Atividades Educação Infantil na Tela',
         description: `Agora você pode personalizar cada detalhe da atividade. Adicione instruções em letra cursiva ou pontilhado para treinar escrita. Atividades educação infantil ficam mais completas com textos explicativos. Clique em "Adicionar Texto" e digite sua instrução.
 
 Escolha entre 7 fontes diferentes para o texto. Ajuste tamanho, cor e contorno conforme necessário. Arraste o texto para a posição ideal. Para letra cursiva decorativa, use fontes como Baloo 2 ou Fredoka. Para pontilhado de treino de escrita, adicione linhas tracejadas separadamente.
@@ -224,7 +224,7 @@ Personalize também o visual da página. Selecione um fundo temático da bibliot
         title: 'Baixe Atividades 2º Ano em PDF - Tabuada e Gabarito Inclusos nas Atividades para Imprimir',
         description: `O último passo é baixar sua atividade pronta. Para atividades 2º ano e turmas mais avançadas, você pode adicionar exercícios extras de tabuada no rodapé antes de baixar. As atividades para imprimir são exportadas em alta qualidade 300 DPI.
 
-Clique em "Download" e escolha o formato. JPEG funciona bem para uso digital ou impressão simples. PDF é ideal para impressão profissional e manter a formatação exata. Marque a opção "Escala de Cinza" se quiser economizar tinta colorida.
+Clique em "Baixar" e escolha o formato. JPEG funciona bem para uso digital ou impressão simples. PDF é ideal para impressão profissional e manter a formatação exata. Marque a opção "Escala de Cinza" se quiser economizar tinta colorida.
 
 Não esqueça de gerar e baixar o gabarito. Clique em "Criar Gabarito" após criar a atividade. O gabarito mostra exatamente quais peças vão em cada espaço. Use para correção rápida ou para alunos conferirem suas próprias respostas. Atividades 2º ano com gabarito facilitam o trabalho autônomo. Exercícios de tabuada no rodapé complementam o material.`,
         icon: '📥',
@@ -295,7 +295,7 @@ O editor permite aumentar o tamanho de todos os elementos. Letra cursiva com con
         icon: '💼',
         title: 'Professores Empreendedores',
         subtitle: 'Tabuada e Atividades para Imprimir para Vender Online',
-        description: `Professores empreendedores criam produtos digitais para vender em plataformas online. Exercícios de tabuada combinados com quebra-cabeças visuais são muito procurados. Atividades para imprimir temáticas vendem bem em datas comemorativas. A licença comercial Full Access permite vender sem royalties.
+        description: `Professores empreendedores criam produtos digitais para vender em plataformas online. Exercícios de tabuada combinados com quebra-cabeças visuais são muito procurados. Atividades para imprimir temáticas vendem bem em datas comemorativas. A licença comercial Acesso Completo permite vender sem royalties.
 
 Crie pacotes temáticos com 10-20 atividades relacionadas. Adicione exercícios de tabuada no rodapé para turmas mais avançadas. Atividades para imprimir de Páscoa, Natal e volta às aulas têm alta demanda. Professores brasileiros vendem em plataformas como Hotmart, Eduzz e Teachers Pay Teachers. A qualidade 300 DPI garante material profissional que os compradores valorizam.`,
         quote: 'Minha assinatura se pagou no primeiro mês de vendas!',
@@ -317,7 +317,7 @@ Crie pacotes temáticos com 10-20 atividades relacionadas. Adicione exercícios 
       {
         id: '1',
         question: 'O Gerador de Atividades de Matemática é Gratuito para Usar? Quanto Custam as Atividades para Imprimir?',
-        answer: 'O gerador de atividades de matemática e peças faltantes requer assinatura Full Access. O custo é R$1.200 por ano (aproximadamente $240) ou R$125 por mês ($25). Sua assinatura permite criar atividades para imprimir ilimitadas sem taxas adicionais por atividade. O Full Access inclui todos os 33 geradores da plataforma. Você pode criar atividades de matemática, alfabetização, colorir e muito mais. Não há limite de downloads ou marca d\'água nos materiais. O investimento se paga rapidamente considerando o tempo economizado na preparação de aulas.',
+        answer: 'O gerador de atividades de matemática e peças faltantes requer assinatura Acesso Completo. O custo é R$1.200 por ano (aproximadamente $240) ou R$125 por mês ($25). Sua assinatura permite criar atividades para imprimir ilimitadas sem taxas adicionais por atividade. O Acesso Completo inclui todos os 33 geradores da plataforma. Você pode criar atividades de matemática, alfabetização, colorir e muito mais. Não há limite de downloads ou marca d\'água nos materiais. O investimento se paga rapidamente considerando o tempo economizado na preparação de aulas.',
       },
       {
         id: '2',
@@ -332,7 +332,7 @@ Crie pacotes temáticos com 10-20 atividades relacionadas. Adicione exercícios 
       {
         id: '4',
         question: 'Posso Usar Atividades Vogais e Alfabeto na Sala de Aula? A Licença Permite Uso Escolar?',
-        answer: 'Sim, sua assinatura Full Access inclui uso ilimitado em sala de aula. Crie atividades vogais e alfabeto para todos os seus alunos. Imprima quantas cópias precisar sem restrições. Use em aulas presenciais ou envie digitalmente para ensino remoto. A licença escolar está incluída no preço da assinatura. Não há taxas extras por turma ou por aluno. Atividades vogais podem ser usadas em toda a escola se houver uma assinatura institucional. O alfabeto e outros materiais seguem as mesmas regras de uso liberado.',
+        answer: 'Sim, sua assinatura Acesso Completo inclui uso ilimitado em sala de aula. Crie atividades vogais e alfabeto para todos os seus alunos. Imprima quantas cópias precisar sem restrições. Use em aulas presenciais ou envie digitalmente para ensino remoto. A licença escolar está incluída no preço da assinatura. Não há taxas extras por turma ou por aluno. Atividades vogais podem ser usadas em toda a escola se houver uma assinatura institucional. O alfabeto e outros materiais seguem as mesmas regras de uso liberado.',
       },
       {
         id: '5',
@@ -342,7 +342,7 @@ Crie pacotes temáticos com 10-20 atividades relacionadas. Adicione exercícios 
       {
         id: '6',
         question: 'Posso Vender Atividades de Alfabetização e Tabuada Criadas no Gerador?',
-        answer: 'Sim, a assinatura Full Access inclui licença comercial completa. Venda suas atividades de alfabetização em plataformas como Hotmart, Eduzz e Teachers Pay Teachers. Exercícios de tabuada e outros materiais podem ser comercializados sem royalties. Você mantém 100% dos lucros das suas vendas. A tabuada combinada com quebra-cabeças visuais é muito procurada por pais. Atividades de alfabetização temáticas vendem bem durante todo o ano. Use o material em livros de atividades para Amazon KDP também.',
+        answer: 'Sim, a assinatura Acesso Completo inclui licença comercial completa. Venda suas atividades de alfabetização em plataformas como Hotmart, Eduzz e Teachers Pay Teachers. Exercícios de tabuada e outros materiais podem ser comercializados sem royalties. Você mantém 100% dos lucros das suas vendas. A tabuada combinada com quebra-cabeças visuais é muito procurada por pais. Atividades de alfabetização temáticas vendem bem durante todo o ano. Use o material em livros de atividades para Amazon KDP também.',
       },
       {
         id: '7',
@@ -356,8 +356,8 @@ Crie pacotes temáticos com 10-20 atividades relacionadas. Adicione exercícios 
       },
       {
         id: '9',
-        question: 'Posso Fazer Upload das Minhas Próprias Imagens para Tabuada e Atividades de Alfabetização?',
-        answer: 'Sim, o gerador aceita upload de imagens próprias. Crie exercícios de tabuada com fotos da turma ou mascote da escola. Atividades de alfabetização ficam mais engajantes com imagens familiares aos alunos. Formatos aceitos incluem JPEG, PNG e GIF. O upload múltiplo permite enviar várias imagens de uma vez. Combine imagens próprias com a biblioteca de mais de 3000 opções. A tabuada no rodapé pode acompanhar qualquer imagem que você escolher.',
+        question: 'Posso Enviar Minhas Próprias Imagens para Tabuada e Atividades de Alfabetização?',
+        answer: 'Sim, o gerador aceita envio de imagens próprias. Crie exercícios de tabuada com fotos da turma ou mascote da escola. Atividades de alfabetização ficam mais engajantes com imagens familiares aos alunos. Formatos aceitos incluem JPEG, PNG e GIF. O envio múltiplo permite carregar várias imagens de uma vez. Combine imagens próprias com a biblioteca de mais de 3000 opções. A tabuada no rodapé pode acompanhar qualquer imagem que você escolher.',
       },
       {
         id: '10',

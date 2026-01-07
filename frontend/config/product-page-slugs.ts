@@ -234,6 +234,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       fr: 'cherche-objets-fiches',
       es: 'buscar-objetos-fichas',
       it: 'trova-oggetti-schede',
+      pt: 'encontrar-objetos-fichas',
     },
   },
   {

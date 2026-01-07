@@ -181,6 +181,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     fr: 'cherche-objets-fiches',
     es: 'buscar-objetos-fichas',
     it: 'trova-oggetti-schede',
+    pt: 'encontrar-objetos-fichas',
   },
   'grid-match': {
     en: 'grid-match-worksheets',

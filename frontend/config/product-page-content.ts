@@ -233,6 +233,7 @@ import bigSmallPtContent from '@/content/product-pages/pt/grande-pequeno-fichas'
 import chartCountPtContent from '@/content/product-pages/pt/grafico-pictorico-fichas';
 import codeAdditionPtContent from '@/content/product-pages/pt/adicao-codigo-fichas';
 import drawAndColorPtContent from '@/content/product-pages/pt/desenho-grade-fichas';
+import findObjectsPtContent from '@/content/product-pages/pt/encontrar-objetos-fichas';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -1011,6 +1012,10 @@ export const contentRegistry: ContentRegistry = {
     'desenho-grade-fichas': drawAndColorPtContent,
     // Also keep old slug for backwards compatibility during transition
     'draw-and-color-worksheets': drawAndColorPtContent,
+    // Portuguese (Brazilian) Find Objects (Encontrar Objetos) - uses Portuguese SEO slug
+    'encontrar-objetos-fichas': findObjectsPtContent,
+    // Also keep old slug for backwards compatibility during transition
+    'find-objects-worksheets': findObjectsPtContent,
   },
 };
 

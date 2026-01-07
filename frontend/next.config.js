@@ -1038,6 +1038,12 @@ const nextConfig = {
         destination: '/pt/apps/desenho-grade-fichas',
         permanent: true,
       },
+      // Portuguese (Brazilian): find-objects-worksheets → encontrar-objetos-fichas
+      {
+        source: '/pt/apps/find-objects-worksheets',
+        destination: '/pt/apps/encontrar-objetos-fichas',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

@@ -161,6 +161,7 @@ import sudokuPtContent from '@/content/product-pages/pt/sudoku-criancas-fichas';
 import chartCountPtContent from '@/content/product-pages/pt/grafico-pictorico-fichas';
 import codeAdditionPtContent from '@/content/product-pages/pt/adicao-codigo-fichas';
 import drawAndColorPtContent from '@/content/product-pages/pt/desenho-grade-fichas';
+import findObjectsPtContent from '@/content/product-pages/pt/encontrar-objetos-fichas';
 
 interface PageProps {
   params: {
@@ -1608,6 +1609,39 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
         title: 'Fichas para Imprimir de Buscar Objetos | LessonCraftStudio',
         description: 'Crea fichas para imprimir de buscar objetos con nuestro generador profesional. Perfecto para maestros de educación infantil y primaria.',
         url: 'https://www.lessoncraftstudio.com/es/apps/buscar-objetos-fichas',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Find Objects Worksheets - Portuguese (Brazilian) product page SEO
+  if (params.slug === 'encontrar-objetos-fichas' && params.locale === 'pt') {
+    return {
+      title: 'Atividades para Imprimir de Encontrar Objetos | Atividades Educação Infantil e Atividades de Alfabetização',
+      description: 'Crie atividades para imprimir profissionais de encontrar objetos com nosso gerador de fichas educativas. Sua assinatura Acesso Completo permite criar atividades educação infantil ilimitadas sem taxas adicionais. Produza atividades de alfabetização personalizadas que desenvolvem atenção visual e concentração.',
+      keywords: 'encontrar objetos, atividades para imprimir, atividades educação infantil, atividades de alfabetização, atividades de matemática, coordenação motora, desenhos para colorir, atividades 1º ano, atividades 2º ano, atividades vogais, tabuada, letra cursiva, pontilhado',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/pt/apps/encontrar-objetos-fichas',
+        languages: {
+          'en': 'https://www.lessoncraftstudio.com/en/apps/find-objects-worksheets',
+          'sv': 'https://www.lessoncraftstudio.com/sv/apps/hitta-foremal-arbetsblad',
+          'de': 'https://www.lessoncraftstudio.com/de/apps/suchbilder-arbeitsblaetter',
+          'fr': 'https://www.lessoncraftstudio.com/fr/apps/cherche-objets-fiches',
+          'es': 'https://www.lessoncraftstudio.com/es/apps/buscar-objetos-fichas',
+          'it': 'https://www.lessoncraftstudio.com/it/apps/trova-oggetti-schede',
+          'pt': 'https://www.lessoncraftstudio.com/pt/apps/encontrar-objetos-fichas',
+          'x-default': 'https://www.lessoncraftstudio.com/en/apps/find-objects-worksheets',
+        },
+      },
+      openGraph: {
+        title: 'Atividades para Imprimir de Encontrar Objetos | LessonCraftStudio',
+        description: 'Crie atividades para imprimir profissionais de encontrar objetos. Perfeito para professores de educação infantil e ensino fundamental.',
+        url: 'https://www.lessoncraftstudio.com/pt/apps/encontrar-objetos-fichas',
         siteName: 'LessonCraftStudio',
         type: 'website',
       },
@@ -8109,6 +8143,7 @@ export async function generateStaticParams() {
     'grafico-pictorico-fichas', // Product page slug (Portuguese/Brazilian) - language-specific SEO slug for chart-count
     'adicao-codigo-fichas', // Product page slug (Portuguese/Brazilian) - language-specific SEO slug for code-addition
     'desenho-grade-fichas', // Product page slug (Portuguese/Brazilian) - language-specific SEO slug for draw-and-color
+    'encontrar-objetos-fichas', // Product page slug (Portuguese/Brazilian) - language-specific SEO slug for find-objects
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

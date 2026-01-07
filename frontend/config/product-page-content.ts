@@ -225,6 +225,7 @@ import coloringPtContent from '@/content/product-pages/pt/desenhos-colorir-ficha
 import mathWorksheetsPtContent from '@/content/product-pages/pt/atividades-matematica-fichas';
 import wordScramblePtContent from '@/content/product-pages/pt/palavras-embaralhadas-fichas';
 import findAndCountPtContent from '@/content/product-pages/pt/encontre-conte-fichas';
+import matchingPtContent from '@/content/product-pages/pt/ligar-fichas';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -971,6 +972,10 @@ export const contentRegistry: ContentRegistry = {
     'encontre-conte-fichas': findAndCountPtContent,
     // Also keep old slug for backwards compatibility during transition
     'find-and-count-worksheets': findAndCountPtContent,
+    // Portuguese (Brazilian) Matching (Atividades de Ligar) - uses Portuguese SEO slug
+    'ligar-fichas': matchingPtContent,
+    // Also keep old slug for backwards compatibility during transition
+    'matching-worksheets': matchingPtContent,
   },
 };
 

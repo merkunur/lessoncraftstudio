@@ -139,6 +139,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       sv: 'matchnings-arbetsblad',
       es: 'relacionar-fichas',
       it: 'abbinamenti-schede',
+      pt: 'ligar-fichas',
     },
   },
   {

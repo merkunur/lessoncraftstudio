@@ -159,6 +159,7 @@ import wordGuessItContent from '@/content/product-pages/it/indovina-parole-sched
 // Portuguese (Brazilian) content imports
 import sudokuPtContent from '@/content/product-pages/pt/sudoku-criancas-fichas';
 import chartCountPtContent from '@/content/product-pages/pt/grafico-pictorico-fichas';
+import codeAdditionPtContent from '@/content/product-pages/pt/adicao-codigo-fichas';
 
 interface PageProps {
   params: {
@@ -8105,6 +8106,7 @@ export async function generateStaticParams() {
     'tracar-linhas-fichas', // Product page slug (Portuguese/Brazilian) - language-specific SEO slug for drawing-lines
     'bingo-ilustrado-fichas', // Product page slug (Portuguese/Brazilian) - language-specific SEO slug for picture-bingo
     'grafico-pictorico-fichas', // Product page slug (Portuguese/Brazilian) - language-specific SEO slug for chart-count
+    'adicao-codigo-fichas', // Product page slug (Portuguese/Brazilian) - language-specific SEO slug for code-addition
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

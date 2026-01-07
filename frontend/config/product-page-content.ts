@@ -231,6 +231,7 @@ import bingoPtContent from '@/content/product-pages/pt/bingo-ilustrado-fichas';
 import sudokuPtContent from '@/content/product-pages/pt/sudoku-criancas-fichas';
 import bigSmallPtContent from '@/content/product-pages/pt/grande-pequeno-fichas';
 import chartCountPtContent from '@/content/product-pages/pt/grafico-pictorico-fichas';
+import codeAdditionPtContent from '@/content/product-pages/pt/adicao-codigo-fichas';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -1001,6 +1002,10 @@ export const contentRegistry: ContentRegistry = {
     'grafico-pictorico-fichas': chartCountPtContent,
     // Also keep old slug for backwards compatibility during transition
     'chart-count-worksheets': chartCountPtContent,
+    // Portuguese (Brazilian) Code Addition (Código de Adição) - uses Portuguese SEO slug
+    'adicao-codigo-fichas': codeAdditionPtContent,
+    // Also keep old slug for backwards compatibility during transition
+    'code-addition-worksheets': codeAdditionPtContent,
   },
 };
 

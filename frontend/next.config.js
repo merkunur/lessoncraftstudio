@@ -1026,6 +1026,12 @@ const nextConfig = {
         destination: '/pt/apps/grafico-pictorico-fichas',
         permanent: true,
       },
+      // Portuguese (Brazilian): code-addition-worksheets → adicao-codigo-fichas
+      {
+        source: '/pt/apps/code-addition-worksheets',
+        destination: '/pt/apps/adicao-codigo-fichas',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

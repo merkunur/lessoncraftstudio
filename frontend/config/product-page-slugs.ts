@@ -210,6 +210,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       fr: 'addition-codee-fiches',
       es: 'suma-codigo-fichas',
       it: 'addizioni-immagini-schede',
+      pt: 'adicao-codigo-fichas',
     },
   },
   {

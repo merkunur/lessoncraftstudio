@@ -467,25 +467,33 @@ Professores empreendedores faturam de R$500 a R$5000 mensais. Materiais digitais
     items: [
       {
         id: '1',
+        slug: 'image-addition',
         name: 'Gerador de Adição',
+        category: 'Matemática',
         description: 'Combine desenhos em grade com exercícios de adição para pacotes completos de matemática.',
         icon: '➕',
       },
       {
         id: '2',
+        slug: 'alphabet-train',
         name: 'Trem Alfabeto',
+        category: 'Linguagem',
         description: 'Integre fichas de letras com desenhos em grade para atividades de alfabetização completas.',
         icon: '🚂',
       },
       {
         id: '3',
+        slug: 'drawing-lines',
         name: 'Traçar Linhas',
+        category: 'Coordenação Motora',
         description: 'Combine pontilhado tradicional com desenhos em grade para progressão motora completa.',
         icon: '✏️',
       },
       {
         id: '4',
+        slug: 'coloring',
         name: 'Páginas para Colorir',
+        category: 'Arte',
         description: 'Use a mesma imagem em formatos diferentes: grade estruturada e colorir livre.',
         icon: '🎨',
       },

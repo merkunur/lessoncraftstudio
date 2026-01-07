@@ -996,6 +996,12 @@ const nextConfig = {
         destination: '/pt/apps/palavras-embaralhadas-fichas',
         permanent: true,
       },
+      // Portuguese (Brazilian): find-and-count-worksheets → encontre-conte-fichas
+      {
+        source: '/pt/apps/find-and-count-worksheets',
+        destination: '/pt/apps/encontre-conte-fichas',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

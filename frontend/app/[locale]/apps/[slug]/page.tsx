@@ -8096,6 +8096,7 @@ export async function generateStaticParams() {
     'desenhos-colorir-fichas', // Product page slug (Portuguese/Brazilian) - language-specific SEO slug for coloring
     'atividades-matematica-fichas', // Product page slug (Portuguese/Brazilian) - language-specific SEO slug for math-worksheet
     'palavras-embaralhadas-fichas', // Product page slug (Portuguese/Brazilian) - language-specific SEO slug for word-scramble
+    'encontre-conte-fichas', // Product page slug (Portuguese/Brazilian) - language-specific SEO slug for find-and-count
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

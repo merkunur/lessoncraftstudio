@@ -129,6 +129,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       fr: 'cherche-et-compte-fiches',
       es: 'buscar-contar-fichas',
       it: 'trova-e-conta-schede',
+      pt: 'encontre-conte-fichas',
     },
   },
   {

@@ -224,6 +224,7 @@ import alphabetTrainPtContent from '@/content/product-pages/pt/trem-alfabeto-fic
 import coloringPtContent from '@/content/product-pages/pt/desenhos-colorir-fichas';
 import mathWorksheetsPtContent from '@/content/product-pages/pt/atividades-matematica-fichas';
 import wordScramblePtContent from '@/content/product-pages/pt/palavras-embaralhadas-fichas';
+import findAndCountPtContent from '@/content/product-pages/pt/encontre-conte-fichas';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -966,6 +967,10 @@ export const contentRegistry: ContentRegistry = {
     'palavras-embaralhadas-fichas': wordScramblePtContent,
     // Also keep old slug for backwards compatibility during transition
     'word-scramble-worksheets': wordScramblePtContent,
+    // Portuguese (Brazilian) Find and Count (Encontre e Conte) - uses Portuguese SEO slug
+    'encontre-conte-fichas': findAndCountPtContent,
+    // Also keep old slug for backwards compatibility during transition
+    'find-and-count-worksheets': findAndCountPtContent,
   },
 };
 

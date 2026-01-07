@@ -234,6 +234,7 @@ import chartCountPtContent from '@/content/product-pages/pt/grafico-pictorico-fi
 import codeAdditionPtContent from '@/content/product-pages/pt/adicao-codigo-fichas';
 import drawAndColorPtContent from '@/content/product-pages/pt/desenho-grade-fichas';
 import findObjectsPtContent from '@/content/product-pages/pt/encontrar-objetos-fichas';
+import gridMatchPtContent from '@/content/product-pages/pt/quebra-cabeca-grade-fichas';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -1016,6 +1017,10 @@ export const contentRegistry: ContentRegistry = {
     'encontrar-objetos-fichas': findObjectsPtContent,
     // Also keep old slug for backwards compatibility during transition
     'find-objects-worksheets': findObjectsPtContent,
+    // Portuguese (Brazilian) Grid Match (Quebra-Cabeça Grid Match) - uses Portuguese SEO slug
+    'quebra-cabeca-grade-fichas': gridMatchPtContent,
+    // Also keep old slug for backwards compatibility during transition
+    'grid-match-worksheets': gridMatchPtContent,
   },
 };
 

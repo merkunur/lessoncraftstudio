@@ -189,6 +189,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     de: 'raster-puzzle-arbeitsblaetter',
     es: 'rompecabezas-cuadricula-fichas',
     it: 'griglia-abbinamento-schede',
+    pt: 'quebra-cabeca-grade-fichas',
   },
   'image-crossword': {
     en: 'crossword-worksheets',

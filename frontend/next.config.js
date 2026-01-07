@@ -1044,6 +1044,12 @@ const nextConfig = {
         destination: '/pt/apps/encontrar-objetos-fichas',
         permanent: true,
       },
+      // Portuguese (Brazilian): grid-match-worksheets → quebra-cabeca-grade-fichas
+      {
+        source: '/pt/apps/grid-match-worksheets',
+        destination: '/pt/apps/quebra-cabeca-grade-fichas',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

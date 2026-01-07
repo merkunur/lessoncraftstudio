@@ -162,6 +162,7 @@ import chartCountPtContent from '@/content/product-pages/pt/grafico-pictorico-fi
 import codeAdditionPtContent from '@/content/product-pages/pt/adicao-codigo-fichas';
 import drawAndColorPtContent from '@/content/product-pages/pt/desenho-grade-fichas';
 import findObjectsPtContent from '@/content/product-pages/pt/encontrar-objetos-fichas';
+import gridMatchPtContent from '@/content/product-pages/pt/quebra-cabeca-grade-fichas';
 
 interface PageProps {
   params: {
@@ -1642,6 +1643,39 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
         title: 'Atividades para Imprimir de Encontrar Objetos | LessonCraftStudio',
         description: 'Crie atividades para imprimir profissionais de encontrar objetos. Perfeito para professores de educação infantil e ensino fundamental.',
         url: 'https://www.lessoncraftstudio.com/pt/apps/encontrar-objetos-fichas',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Grid Match Worksheets - Portuguese (Brazilian) product page SEO
+  if (params.slug === 'quebra-cabeca-grade-fichas' && params.locale === 'pt') {
+    return {
+      title: 'Gerador de Atividades Quebra-Cabeça Grid Match | Atividades para Imprimir Educação Infantil e Ensino Fundamental',
+      description: 'Crie atividades de quebra-cabeça visual para seus alunos com o gerador Grid Match. Com sua assinatura Acesso Completo, você produz atividades para imprimir ilimitadas sem taxas adicionais por folha. Desenvolva habilidades de raciocínio espacial, coordenação motora e percepção visual.',
+      keywords: 'grid match, quebra-cabeça, atividades para imprimir, atividades educação infantil, atividades de alfabetização, atividades de matemática, coordenação motora, desenhos para colorir, atividades 1º ano, atividades 2º ano, raciocínio espacial, percepção visual',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/pt/apps/quebra-cabeca-grade-fichas',
+        languages: {
+          'en': 'https://www.lessoncraftstudio.com/en/apps/grid-match-worksheets',
+          'sv': 'https://www.lessoncraftstudio.com/sv/apps/rutnatsmatching-arbetsblad',
+          'de': 'https://www.lessoncraftstudio.com/de/apps/raster-puzzle-arbeitsblaetter',
+          'fr': 'https://www.lessoncraftstudio.com/fr/apps/puzzle-grille-fiches',
+          'es': 'https://www.lessoncraftstudio.com/es/apps/rompecabezas-cuadricula-fichas',
+          'it': 'https://www.lessoncraftstudio.com/it/apps/griglia-abbinamento-schede',
+          'pt': 'https://www.lessoncraftstudio.com/pt/apps/quebra-cabeca-grade-fichas',
+          'x-default': 'https://www.lessoncraftstudio.com/en/apps/grid-match-worksheets',
+        },
+      },
+      openGraph: {
+        title: 'Atividades para Imprimir Quebra-Cabeça Grid Match | LessonCraftStudio',
+        description: 'Crie atividades de quebra-cabeça visual profissionais com nosso gerador Grid Match. Perfeito para professores de educação infantil e ensino fundamental.',
+        url: 'https://www.lessoncraftstudio.com/pt/apps/quebra-cabeca-grade-fichas',
         siteName: 'LessonCraftStudio',
         type: 'website',
       },
@@ -8144,6 +8178,7 @@ export async function generateStaticParams() {
     'adicao-codigo-fichas', // Product page slug (Portuguese/Brazilian) - language-specific SEO slug for code-addition
     'desenho-grade-fichas', // Product page slug (Portuguese/Brazilian) - language-specific SEO slug for draw-and-color
     'encontrar-objetos-fichas', // Product page slug (Portuguese/Brazilian) - language-specific SEO slug for find-objects
+    'quebra-cabeca-grade-fichas', // Product page slug (Portuguese/Brazilian) - language-specific SEO slug for grid-match
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

@@ -248,6 +248,7 @@ import pictureSortPtContent from '@/content/product-pages/pt/classificacao-image
 import prepositionsPtContent from '@/content/product-pages/pt/preposicoes-fichas';
 import shadowMatchPtContent from '@/content/product-pages/pt/combinar-sombras-fichas';
 import subtractionPtContent from '@/content/product-pages/pt/subtracao-fichas';
+import treasureHuntPtContent from '@/content/product-pages/pt/caca-ao-tesouro-fichas';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -1086,6 +1087,10 @@ export const contentRegistry: ContentRegistry = {
     'subtracao-fichas': subtractionPtContent,
     // Also keep old slug for backwards compatibility during transition
     'subtraction-worksheets': subtractionPtContent,
+    // Portuguese (Brazilian) Treasure Hunt (Caça ao Tesouro) - uses Portuguese SEO slug
+    'caca-ao-tesouro-fichas': treasureHuntPtContent,
+    // Also keep old slug for backwards compatibility during transition
+    'treasure-hunt-worksheets': treasureHuntPtContent,
   },
 };
 

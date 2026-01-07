@@ -413,6 +413,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       fr: 'chasse-au-tresor-fiches',
       es: 'busqueda-tesoro-fichas',
       it: 'caccia-tesoro-schede',
+      pt: 'caca-ao-tesouro-fichas',
     },
   },
   {

@@ -175,6 +175,7 @@ import pictureSortPtContent from '@/content/product-pages/pt/classificacao-image
 import prepositionsPtContent from '@/content/product-pages/pt/preposicoes-fichas';
 import shadowMatchPtContent from '@/content/product-pages/pt/combinar-sombras-fichas';
 import subtractionPtContent from '@/content/product-pages/pt/subtracao-fichas';
+import treasureHuntPtContent from '@/content/product-pages/pt/caca-ao-tesouro-fichas';
 
 interface PageProps {
   params: {
@@ -2193,6 +2194,53 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       },
       alternates: {
         canonical: 'https://www.lessoncraftstudio.com/pt/apps/combinar-sombras-fichas',
+      },
+    };
+  }
+
+  // Treasure Hunt - Portuguese (Brazilian) product page SEO (new Portuguese slug)
+  if (params.slug === 'caca-ao-tesouro-fichas' && params.locale === 'pt') {
+    return {
+      title: 'Gerador de Caça ao Tesouro - Atividades para Imprimir de Alfabetização e Orientação Espacial',
+      description: 'Crie atividades de caça ao tesouro personalizadas com o gerador de fichas do LessonCraft Studio. Com sua assinatura Acesso Completo, você produz atividades para imprimir ilimitadas para educação infantil e ensino fundamental. Gere atividades de alfabetização em português brasileiro em menos de 3 minutos.',
+      keywords: 'caça ao tesouro, atividades para imprimir, atividades educação infantil, atividades de alfabetização, atividades de matemática, coordenação motora, desenhos para colorir, atividades 1º ano, atividades 2º ano, atividades vogais, tabuada, letra cursiva, pontilhado, orientação espacial',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/pt/apps/caca-ao-tesouro-fichas',
+        languages: {
+          'en': 'https://www.lessoncraftstudio.com/en/apps/treasure-hunt-worksheets',
+          'sv': 'https://www.lessoncraftstudio.com/sv/apps/skattjakt-arbetsblad',
+          'de': 'https://www.lessoncraftstudio.com/de/apps/schatzsuche-arbeitsblaetter',
+          'fr': 'https://www.lessoncraftstudio.com/fr/apps/chasse-au-tresor-fiches',
+          'es': 'https://www.lessoncraftstudio.com/es/apps/busqueda-tesoro-fichas',
+          'it': 'https://www.lessoncraftstudio.com/it/apps/caccia-tesoro-schede',
+          'pt': 'https://www.lessoncraftstudio.com/pt/apps/caca-ao-tesouro-fichas',
+          'x-default': 'https://www.lessoncraftstudio.com/en/apps/treasure-hunt-worksheets',
+        },
+      },
+      openGraph: {
+        title: 'Gerador de Atividades de Caça ao Tesouro | LessonCraftStudio',
+        description: 'Crie atividades de caça ao tesouro profissionais em menos de 3 minutos. Perfeito para professores de educação infantil e ensino fundamental.',
+        url: 'https://www.lessoncraftstudio.com/pt/apps/caca-ao-tesouro-fichas',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Legacy: Redirect old Portuguese treasure-hunt-worksheets slug to new slug (for backwards compatibility)
+  if (params.slug === 'treasure-hunt-worksheets' && params.locale === 'pt') {
+    return {
+      title: 'Atividades de Caça ao Tesouro - Gerador de Atividades',
+      robots: {
+        index: false,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/pt/apps/caca-ao-tesouro-fichas',
       },
     };
   }
@@ -8705,6 +8753,8 @@ export async function generateStaticParams() {
     'classificacao-imagens-fichas', // Product page slug (Portuguese/Brazilian) - language-specific SEO slug for picture-sort
     'preposicoes-fichas', // Product page slug (Portuguese/Brazilian) - language-specific SEO slug for prepositions
     'combinar-sombras-fichas', // Product page slug (Portuguese/Brazilian) - language-specific SEO slug for shadow-match
+    'subtracao-fichas', // Product page slug (Portuguese/Brazilian) - language-specific SEO slug for subtraction
+    'caca-ao-tesouro-fichas', // Product page slug (Portuguese/Brazilian) - language-specific SEO slug for treasure-hunt
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

@@ -315,6 +315,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     fr: 'chasse-au-tresor-fiches',
     es: 'busqueda-tesoro-fichas',
     it: 'caccia-tesoro-schede',
+    pt: 'caca-ao-tesouro-fichas',
   },
   'word-guess': {
     en: 'word-guess-worksheets',

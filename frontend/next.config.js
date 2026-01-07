@@ -1128,6 +1128,12 @@ const nextConfig = {
         destination: '/pt/apps/subtracao-fichas',
         permanent: true,
       },
+      // Portuguese (Brazilian): treasure-hunt-worksheets → caca-ao-tesouro-fichas
+      {
+        source: '/pt/apps/treasure-hunt-worksheets',
+        destination: '/pt/apps/caca-ao-tesouro-fichas',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

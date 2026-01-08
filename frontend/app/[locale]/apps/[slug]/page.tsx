@@ -178,6 +178,7 @@ import subtractionPtContent from '@/content/product-pages/pt/subtracao-fichas';
 import treasureHuntPtContent from '@/content/product-pages/pt/caca-ao-tesouro-fichas';
 import wordGuessPtContent from '@/content/product-pages/pt/adivinhar-palavras-fichas';
 import writingPtContent from '@/content/product-pages/pt/caligrafia-fichas';
+import wordSearchNlContent from '@/content/product-pages/nl/word-search-worksheets';
 
 interface PageProps {
   params: {
@@ -8853,6 +8854,7 @@ export async function generateStaticParams() {
     'caca-ao-tesouro-fichas', // Product page slug (Portuguese/Brazilian) - language-specific SEO slug for treasure-hunt
     'adivinhar-palavras-fichas', // Product page slug (Portuguese/Brazilian) - language-specific SEO slug for word-guess
     'caligrafia-fichas', // Product page slug (Portuguese/Brazilian) - language-specific SEO slug for writing
+    'woordzoeker-werkbladen', // Product page slug (Dutch) - language-specific SEO slug for word-search
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

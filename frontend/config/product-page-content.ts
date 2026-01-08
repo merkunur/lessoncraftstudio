@@ -252,6 +252,9 @@ import treasureHuntPtContent from '@/content/product-pages/pt/caca-ao-tesouro-fi
 import wordGuessPtContent from '@/content/product-pages/pt/adivinhar-palavras-fichas';
 import writingPtContent from '@/content/product-pages/pt/caligrafia-fichas';
 
+// Dutch content imports
+import wordSearchNlContent from '@/content/product-pages/nl/word-search-worksheets';
+
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
   [locale: string]: {
@@ -1101,6 +1104,12 @@ export const contentRegistry: ContentRegistry = {
     'caligrafia-fichas': writingPtContent,
     // Also keep old slug for backwards compatibility during transition
     'writing-worksheets': writingPtContent,
+  },
+  nl: {
+    // Dutch Word Search (Woordzoeker) - uses Dutch SEO slug
+    'woordzoeker-werkbladen': wordSearchNlContent,
+    // Also keep old slug for backwards compatibility during transition
+    'word-search-worksheets': wordSearchNlContent,
   },
 };
 

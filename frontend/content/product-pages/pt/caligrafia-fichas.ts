@@ -471,7 +471,7 @@ Combine com imagens temáticas da biblioteca. Animais para projeto de zoologia. 
       securePayment: 'Pagamento seguro',
       cancelAnytime: 'Cancele quando quiser',
     },
-    apps: [
+    items: [
       {
         id: '1',
         name: 'Atividades de Matemática',

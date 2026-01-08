@@ -250,6 +250,7 @@ import shadowMatchPtContent from '@/content/product-pages/pt/combinar-sombras-fi
 import subtractionPtContent from '@/content/product-pages/pt/subtracao-fichas';
 import treasureHuntPtContent from '@/content/product-pages/pt/caca-ao-tesouro-fichas';
 import wordGuessPtContent from '@/content/product-pages/pt/adivinhar-palavras-fichas';
+import writingPtContent from '@/content/product-pages/pt/caligrafia-fichas';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -1096,6 +1097,10 @@ export const contentRegistry: ContentRegistry = {
     'adivinhar-palavras-fichas': wordGuessPtContent,
     // Also keep old slug for backwards compatibility during transition
     'word-guess-worksheets': wordGuessPtContent,
+    // Portuguese (Brazilian) Writing (Caligrafia) - uses Portuguese SEO slug
+    'caligrafia-fichas': writingPtContent,
+    // Also keep old slug for backwards compatibility during transition
+    'writing-worksheets': writingPtContent,
   },
 };
 

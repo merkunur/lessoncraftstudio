@@ -333,6 +333,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     fr: 'ecriture-fiches',
     es: 'lectoescritura-fichas',
     it: 'scrittura-schede',
+    pt: 'caligrafia-fichas',
   },
 };
 

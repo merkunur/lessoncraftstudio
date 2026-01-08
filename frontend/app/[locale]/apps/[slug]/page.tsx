@@ -177,6 +177,7 @@ import shadowMatchPtContent from '@/content/product-pages/pt/combinar-sombras-fi
 import subtractionPtContent from '@/content/product-pages/pt/subtracao-fichas';
 import treasureHuntPtContent from '@/content/product-pages/pt/caca-ao-tesouro-fichas';
 import wordGuessPtContent from '@/content/product-pages/pt/adivinhar-palavras-fichas';
+import writingPtContent from '@/content/product-pages/pt/caligrafia-fichas';
 
 interface PageProps {
   params: {
@@ -2289,6 +2290,53 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       },
       alternates: {
         canonical: 'https://www.lessoncraftstudio.com/pt/apps/adivinhar-palavras-fichas',
+      },
+    };
+  }
+
+  // Writing - Portuguese (Brazilian) product page SEO (new Portuguese slug)
+  if (params.slug === 'caligrafia-fichas' && params.locale === 'pt') {
+    return {
+      title: 'Gerador de Atividades de Caligrafia para Imprimir | Atividades de Letra Cursiva e Pontilhado',
+      description: 'Crie atividades de caligrafia profissionais com nosso gerador de fichas de escrita. Atividades para imprimir em PDF para educação infantil, 1º ano e 2º ano. Pontilhado, letra cursiva e coordenação motora.',
+      keywords: 'atividades de caligrafia, atividades para imprimir, letra cursiva, pontilhado, alfabetização, educação infantil, 1º ano, 2º ano, coordenação motora, vogais, alfabeto',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/pt/apps/caligrafia-fichas',
+        languages: {
+          'en': 'https://www.lessoncraftstudio.com/en/apps/writing-worksheets',
+          'sv': 'https://www.lessoncraftstudio.com/sv/apps/skrivovningar-arbetsblad',
+          'de': 'https://www.lessoncraftstudio.com/de/apps/schreibuebungen-arbeitsblaetter',
+          'fr': 'https://www.lessoncraftstudio.com/fr/apps/ecriture-fiches',
+          'es': 'https://www.lessoncraftstudio.com/es/apps/lectoescritura-fichas',
+          'it': 'https://www.lessoncraftstudio.com/it/apps/scrittura-schede',
+          'pt': 'https://www.lessoncraftstudio.com/pt/apps/caligrafia-fichas',
+          'x-default': 'https://www.lessoncraftstudio.com/en/apps/writing-worksheets',
+        },
+      },
+      openGraph: {
+        title: 'Gerador de Atividades de Caligrafia | LessonCraftStudio',
+        description: 'Crie atividades de caligrafia profissionais em menos de 3 minutos. Perfeito para professores de educação infantil e ensino fundamental.',
+        url: 'https://www.lessoncraftstudio.com/pt/apps/caligrafia-fichas',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Legacy: Redirect old Portuguese writing-worksheets slug to new slug (for backwards compatibility)
+  if (params.slug === 'writing-worksheets' && params.locale === 'pt') {
+    return {
+      title: 'Atividades de Caligrafia - Gerador de Atividades',
+      robots: {
+        index: false,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/pt/apps/caligrafia-fichas',
       },
     };
   }
@@ -8804,6 +8852,7 @@ export async function generateStaticParams() {
     'subtracao-fichas', // Product page slug (Portuguese/Brazilian) - language-specific SEO slug for subtraction
     'caca-ao-tesouro-fichas', // Product page slug (Portuguese/Brazilian) - language-specific SEO slug for treasure-hunt
     'adivinhar-palavras-fichas', // Product page slug (Portuguese/Brazilian) - language-specific SEO slug for word-guess
+    'caligrafia-fichas', // Product page slug (Portuguese/Brazilian) - language-specific SEO slug for writing
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

@@ -437,6 +437,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       fr: 'ecriture-fiches',
       es: 'lectoescritura-fichas',
       it: 'scrittura-schede',
+      pt: 'caligrafia-fichas',
     },
   },
 ];

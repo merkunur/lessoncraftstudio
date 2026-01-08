@@ -1140,6 +1140,12 @@ const nextConfig = {
         destination: '/pt/apps/adivinhar-palavras-fichas',
         permanent: true,
       },
+      // Portuguese (Brazilian): writing-worksheets → caligrafia-fichas
+      {
+        source: '/pt/apps/writing-worksheets',
+        destination: '/pt/apps/caligrafia-fichas',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

@@ -3024,7 +3024,7 @@ document.addEventListener("DOMContentLoaded", function() {
           return cellObjects;
       };
 
-      const placeImageInCell = async (img, r, c, scale = 0.7, highlightType = null) => {
+      const placeImageInCell = async (img, r, c, scale = 0.455, highlightType = null) => {  // 35% reduction
           const centerX = c * cellSize + cellSize / 2;
           const centerY = r * cellSize + cellSize / 2;
           const cellObjects = [];
@@ -3253,12 +3253,12 @@ document.addEventListener("DOMContentLoaded", function() {
       } else {
           // Non-maze modes: place images with arrows
           if (selectedStartImage) {
-              const startObjs = await placeImageInCell(selectedStartImage, startCell.r, startCell.c, 1.5, 'start');
+              const startObjs = await placeImageInCell(selectedStartImage, startCell.r, startCell.c, 0.975, 'start');  // 35% reduction
               objects.push(...startObjs);
           }
 
           if (selectedEndImage) {
-              const endObjs = await placeImageInCell(selectedEndImage, endCell.r, endCell.c, 1.5, 'finish');
+              const endObjs = await placeImageInCell(selectedEndImage, endCell.r, endCell.c, 0.975, 'finish');  // 35% reduction
               objects.push(...endObjs);
           }
       }
@@ -3275,28 +3275,28 @@ document.addEventListener("DOMContentLoaded", function() {
               if (item.r < 0) {
                   // ABOVE top border (bottom-top direction)
                   // Use smaller images to fit in available space above maze
-                  // Image is cellSize * 2.4 tall (50% larger), so radius = cellSize * 1.2
+                  // Image is cellSize * 1.68 tall (30% reduction), so radius = cellSize * 0.84
                   const corridorCol = item.corridorCell.c;
                   imgX = corridorCol * cellSize + cellSize / 2;
-                  imgY = -(cellSize * 1.2 + 5) + 12;  // Move 7px down (from +5 to +12)
+                  imgY = -(cellSize * 0.84 + 5) + 12;  // 30% reduction positioning
 
               } else if (item.r >= rows) {
                   // BELOW bottom border (top-bottom direction)
                   const corridorCol = item.corridorCell.c;
                   imgX = corridorCol * cellSize + cellSize / 2;
-                  imgY = mazeHeight + (cellSize * 1.2 + 5) + 43;  // Move 5px up (from +48 to +43)
+                  imgY = mazeHeight + (cellSize * 0.84 + 5) + 43;  // 30% reduction positioning
 
               } else if (item.c < 0) {
                   // LEFT of left border (right-left direction)
                   // Use smaller images to fit in available space left of maze
                   const corridorRow = item.corridorCell.r;
-                  imgX = -(cellSize * 1.2 + 5) + 30;  // Move 5px right (from +25 to +30)
+                  imgX = -(cellSize * 0.84 + 5) + 30;  // 30% reduction positioning
                   imgY = corridorRow * cellSize + cellSize / 2;
 
               } else { // item.c >= cols
                   // RIGHT of right border (left-right direction)
                   const corridorRow = item.corridorCell.r;
-                  imgX = mazeWidth + (cellSize * 1.2 + 5) + 43;  // Move 7px left (from +50 to +43)
+                  imgX = mazeWidth + (cellSize * 0.84 + 5) + 43;  // 30% reduction positioning
                   imgY = corridorRow * cellSize + cellSize / 2;
               }
 
@@ -3307,8 +3307,8 @@ document.addEventListener("DOMContentLoaded", function() {
                           return;
                       }
 
-                      // Scale image to fit nicely outside maze (50% larger than before)
-                      const maxSize = cellSize * 2.4;
+                      // Scale image to fit nicely outside maze (30% reduction)
+                      const maxSize = cellSize * 1.68;  // 30% reduction from 2.4
                       const scale = Math.min(maxSize / img.width, maxSize / img.height);
 
                       img.set({
@@ -3331,7 +3331,7 @@ document.addEventListener("DOMContentLoaded", function() {
               if (imgObj) objects.push(imgObj);
           } else {
               // Normal item inside maze
-              const itemObjs = await placeImageInCell(item.image, item.r, item.c, 1.4, null);
+              const itemObjs = await placeImageInCell(item.image, item.r, item.c, 0.91, null);  // 35% reduction
               objects.push(...itemObjs);
           }
       }
@@ -3351,24 +3351,24 @@ document.addEventListener("DOMContentLoaded", function() {
                   // Match END image positioning for consistency
                   const corridorCol = obstacle.corridorCell.c;
                   obstacleX = corridorCol * cellSize + cellSize / 2;
-                  obstacleY = -(cellSize * 1.2 + 5) + 12;  // Move 7px down (from +5 to +12)
+                  obstacleY = -(cellSize * 0.84 + 5) + 12;  // 30% reduction positioning
 
               } else if (obstacle.r >= rows) {
                   // BELOW bottom border (top-bottom direction)
                   const corridorCol = obstacle.corridorCell.c;
                   obstacleX = corridorCol * cellSize + cellSize / 2;
-                  obstacleY = mazeHeight + (cellSize * 1.2 + 5) + 43;  // Move 5px up (from +48 to +43)
+                  obstacleY = mazeHeight + (cellSize * 0.84 + 5) + 43;  // 30% reduction positioning
 
               } else if (obstacle.c < 0) {
                   // LEFT of left border (right-left direction)
                   const corridorRow = obstacle.corridorCell.r;
-                  obstacleX = -(cellSize * 1.2 + 5) + 30;  // Move 5px right (from +25 to +30)
+                  obstacleX = -(cellSize * 0.84 + 5) + 30;  // 30% reduction positioning
                   obstacleY = corridorRow * cellSize + cellSize / 2;
 
               } else { // obstacle.c >= cols
                   // RIGHT of right border (left-right direction)
                   const corridorRow = obstacle.corridorCell.r;
-                  obstacleX = mazeWidth + (cellSize * 1.2 + 5) + 43;  // Move 7px left (from +50 to +43)
+                  obstacleX = mazeWidth + (cellSize * 0.84 + 5) + 43;  // 30% reduction positioning
                   obstacleY = corridorRow * cellSize + cellSize / 2;
               }
 
@@ -3532,7 +3532,7 @@ document.addEventListener("DOMContentLoaded", function() {
               const imgInstance = await new Promise(resolve => {
                   fabric.Image.fromURL(imgData.path, function(img) {
                       if (!img) { resolve(null); return; }
-                      img.scaleToWidth(imageSize * 0.95);
+                      img.scaleToWidth(imageSize * 0.62);  // 35% reduction
 
                       let finalObject;
                       let needsBorder = false;
@@ -6715,18 +6715,18 @@ async function downloadPDF(canvasToExport, fileName) {
       // Get user-selected number of collectible images (1-4)
       const numImages = parseInt(document.getElementById('numCollectibleImages').value) || 4;
 
-      // Auto-select random food images for collectibles
-      const foodImages = await getThemeImages('food');
-      if (foodImages.length >= numImages) {
-        const shuffledFood = [...foodImages].sort(() => Math.random() - 0.5);
-        selectedPathImages = shuffledFood.slice(0, numImages);
-        console.log(`Auto-selected ${numImages} collectibles from food theme:`, selectedPathImages.map(img => img.word));
-      } else if (foodImages.length > 0) {
+      // Auto-select random fruits images for collectibles
+      const fruitsImages = await getThemeImages('fruits');
+      if (fruitsImages.length >= numImages) {
+        const shuffledFruits = [...fruitsImages].sort(() => Math.random() - 0.5);
+        selectedPathImages = shuffledFruits.slice(0, numImages);
+        console.log(`Auto-selected ${numImages} collectibles from fruits theme:`, selectedPathImages.map(img => img.word));
+      } else if (fruitsImages.length > 0) {
         // If less than requested images available, use what we have
-        selectedPathImages = [...foodImages];
-        console.log('Auto-selected', selectedPathImages.length, `collectibles from food theme (less than ${numImages} available)`);
+        selectedPathImages = [...fruitsImages];
+        console.log('Auto-selected', selectedPathImages.length, `collectibles from fruits theme (less than ${numImages} available)`);
       } else {
-        console.error('No food images available for collectibles');
+        console.error('No fruits images available for collectibles');
       }
 
       // Update preview to reflect changes
@@ -6757,21 +6757,21 @@ async function downloadPDF(canvasToExport, fileName) {
       selectedPathImages = [];
       selectedDistractorImages = [];
 
-      // Choose Path needs 3 END images from animals theme
-      // Auto-select 3 DIFFERENT random animals each time
-      const animalImages = await getThemeImages('animals');
+      // Choose Path needs 3 END images from fruits theme
+      // Auto-select 3 DIFFERENT random fruits each time
+      const fruitsImages = await getThemeImages('fruits');
 
-      if (animalImages.length >= 3) {
-        // Shuffle all animals and take first 3 (ensures different animals each time)
-        const shuffled = [...animalImages].sort(() => Math.random() - 0.5);
+      if (fruitsImages.length >= 3) {
+        // Shuffle all fruits and take first 3 (ensures different fruits each time)
+        const shuffled = [...fruitsImages].sort(() => Math.random() - 0.5);
         selectedPathImages.push(shuffled[0]);
         selectedPathImages.push(shuffled[1]);
         selectedPathImages.push(shuffled[2]);
-        console.log(`Auto-selected 3 random END images from animals theme:`,
+        console.log(`Auto-selected 3 random END images from fruits theme:`,
           shuffled[0].word, shuffled[1].word, shuffled[2].word);
       } else {
-        console.warn('Not enough animal images available, using all available');
-        selectedPathImages.push(...animalImages);
+        console.warn('Not enough fruits images available, using all available');
+        selectedPathImages.push(...fruitsImages);
       }
 
       console.log(`Auto-selected ${selectedPathImages.length} END images for Choose Path mode`);
@@ -6967,52 +6967,52 @@ async function downloadPDF(canvasToExport, fileName) {
     try {
       console.log('🚀 Preloading default themes for instant first load...');
 
-      // Preload Animals theme (for Start/End images)
-      const animalsResponse = await fetch(`/api/images?theme=animals&locale=${currentLocale}`);
-      if (animalsResponse.ok) {
-        const animalsData = await animalsResponse.json();
-        const animalsImages = animalsData.images || animalsData;
-        const animalsCacheKey = `animals-${currentLocale}`;
-        allImagesCache[animalsCacheKey] = animalsImages;
+      // Preload Fruits theme (for Start/End images)
+      const fruitsResponse = await fetch(`/api/images?theme=fruits&locale=${currentLocale}`);
+      if (fruitsResponse.ok) {
+        const fruitsData = await fruitsResponse.json();
+        const fruitsImages = fruitsData.images || fruitsData;
+        const fruitsCacheKey = `fruits-${currentLocale}`;
+        allImagesCache[fruitsCacheKey] = fruitsImages;
 
-        // Preload first 4 animal images in browser cache
-        animalsImages.slice(0, 4).forEach(imgData => {
+        // Preload first 4 fruit images in browser cache
+        fruitsImages.slice(0, 4).forEach(imgData => {
           const img = new Image();
           img.src = imgData.path;
         });
-        console.log(`✅ Preloaded animals theme (${animalsImages.length} images)`);
+        console.log(`✅ Preloaded fruits theme (${fruitsImages.length} images)`);
       }
 
-      // Preload Food theme (for Path images)
-      const foodResponse = await fetch(`/api/images?theme=food&locale=${currentLocale}`);
-      if (foodResponse.ok) {
-        const foodData = await foodResponse.json();
-        const foodImages = foodData.images || foodData;
-        const foodCacheKey = `food-${currentLocale}`;
-        allImagesCache[foodCacheKey] = foodImages;
+      // Preload Vegetables theme (for Path images)
+      const vegetablesResponse = await fetch(`/api/images?theme=vegetables&locale=${currentLocale}`);
+      if (vegetablesResponse.ok) {
+        const vegetablesData = await vegetablesResponse.json();
+        const vegetablesImages = vegetablesData.images || vegetablesData;
+        const vegetablesCacheKey = `vegetables-${currentLocale}`;
+        allImagesCache[vegetablesCacheKey] = vegetablesImages;
 
-        // Preload first 4 food images in browser cache
-        foodImages.slice(0, 4).forEach(imgData => {
+        // Preload first 4 vegetable images in browser cache
+        vegetablesImages.slice(0, 4).forEach(imgData => {
           const img = new Image();
           img.src = imgData.path;
         });
-        console.log(`✅ Preloaded food theme (${foodImages.length} images)`);
+        console.log(`✅ Preloaded vegetables theme (${vegetablesImages.length} images)`);
       }
 
-      // Preload Alphabet theme (for Distractor images)
-      const alphabetResponse = await fetch(`/api/images?theme=alphabet&locale=${currentLocale}`);
-      if (alphabetResponse.ok) {
-        const alphabetData = await alphabetResponse.json();
-        const alphabetImages = alphabetData.images || alphabetData;
-        const alphabetCacheKey = `alphabet-${currentLocale}`;
-        allImagesCache[alphabetCacheKey] = alphabetImages;
+      // Preload Farm Animals theme (for Distractor images)
+      const farmAnimalsResponse = await fetch(`/api/images?theme=farm_animals&locale=${currentLocale}`);
+      if (farmAnimalsResponse.ok) {
+        const farmAnimalsData = await farmAnimalsResponse.json();
+        const farmAnimalsImages = farmAnimalsData.images || farmAnimalsData;
+        const farmAnimalsCacheKey = `farm_animals-${currentLocale}`;
+        allImagesCache[farmAnimalsCacheKey] = farmAnimalsImages;
 
-        // Preload first 6 alphabet images in browser cache
-        alphabetImages.slice(0, 6).forEach(imgData => {
+        // Preload first 6 farm animal images in browser cache
+        farmAnimalsImages.slice(0, 6).forEach(imgData => {
           const img = new Image();
           img.src = imgData.path;
         });
-        console.log(`✅ Preloaded alphabet theme (${alphabetImages.length} images)`);
+        console.log(`✅ Preloaded farm_animals theme (${farmAnimalsImages.length} images)`);
       }
 
       console.log('✅ All default themes preloaded successfully');
@@ -7065,35 +7065,35 @@ async function downloadPDF(canvasToExport, fileName) {
         return images;
       }
 
-      // Load Animals theme for Start and End images
-      const animalsImages = await getThemeImages('animals');
-      if (animalsImages.length < 2) {
-        console.error('Not enough animals images');
+      // Load Fruits theme for Start and End images
+      const fruitsImages = await getThemeImages('fruits');
+      if (fruitsImages.length < 2) {
+        console.error('Not enough fruits images');
         return;
       }
 
-      // Select random start and end images from animals
-      const shuffledAnimals = [...animalsImages].sort(() => Math.random() - 0.5);
-      selectedStartImage = shuffledAnimals[0];
-      selectedEndImage = shuffledAnimals[1];
+      // Select random start and end images from fruits
+      const shuffledFruits = [...fruitsImages].sort(() => Math.random() - 0.5);
+      selectedStartImage = shuffledFruits[0];
+      selectedEndImage = shuffledFruits[1];
 
-      // Load Food theme for Path images (4 images)
-      const foodImages = await getThemeImages('food');
-      if (foodImages.length < 4) {
-        console.error('Not enough food images');
+      // Load Vegetables theme for Path images (4 images)
+      const vegetablesImages = await getThemeImages('vegetables');
+      if (vegetablesImages.length < 4) {
+        console.error('Not enough vegetables images');
         return;
       }
-      const shuffledFood = [...foodImages].sort(() => Math.random() - 0.5);
-      selectedPathImages = shuffledFood.slice(0, 4);
+      const shuffledVegetables = [...vegetablesImages].sort(() => Math.random() - 0.5);
+      selectedPathImages = shuffledVegetables.slice(0, 4);
 
-      // Load Alphabet theme for Distractor images (6 images)
-      const alphabetImages = await getThemeImages('alphabet');
-      if (alphabetImages.length < 6) {
-        console.error('Not enough alphabet images');
+      // Load Farm Animals theme for Distractor images (6 images)
+      const farmAnimalsImages = await getThemeImages('farm_animals');
+      if (farmAnimalsImages.length < 6) {
+        console.error('Not enough farm_animals images');
         return;
       }
-      const shuffledAlphabet = [...alphabetImages].sort(() => Math.random() - 0.5);
-      selectedDistractorImages = shuffledAlphabet.slice(0, 6);
+      const shuffledFarmAnimals = [...farmAnimalsImages].sort(() => Math.random() - 0.5);
+      selectedDistractorImages = shuffledFarmAnimals.slice(0, 6);
 
       // Update UI
       updateSelectionPreviews();

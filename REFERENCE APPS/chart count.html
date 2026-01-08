@@ -2423,7 +2423,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 const col = i % cols;
                 const alignmentShift = (imageCellPadding / 2);
                 img.set({
-                    left: (padding + col * (gridCellSize + gridGap) + alignmentShift) - 49,
+                    left: padding + col * (gridCellSize + gridGap) + alignmentShift,
                     top: padding + row * (gridCellSize + gridGap) + alignmentShift,
                     originX: 'left',
                     originY: 'top'
@@ -2453,7 +2453,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     async function createFabricChartArea({ chartImages, counts }, isSolution, index, isAnswerKeyItem = false) {
-        const scaleFactor = 0.98;
+        const scaleFactor = 1.176;
         const originalCellSize = 137;
         const cellWidth = originalCellSize * scaleFactor;
         const cellHeight = originalCellSize * scaleFactor;
@@ -2488,7 +2488,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }));
         const fabricImages = await Promise.all(imagePromises);
     
-        const bottomImageWidth = (originalCellSize - 14) * 2;
+        const bottomImageWidth = (originalCellSize - 14) * 2 * 0.595;
     
         fabricImages.forEach((img, i) => {
             if (img) {

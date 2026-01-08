@@ -3166,7 +3166,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     if (isLandscape) {
                         scale *= 1.2;
                     }
-                    img.scale(scale).set({
+                    img.scale(scale * 0.8).set({
                         left: x + (cellSize - img.getScaledWidth()) / 2,
                         top: y + (cellSize - img.getScaledHeight()) / 2,
                         selectable: false, evented: false
@@ -3260,7 +3260,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
         if (legendNeeded) {
             // Simple, clean design parameters
-            const imageHeight = isLandscape ? 36 : 50;  // 28% smaller in landscape (20% + 10% more), compact but clear
+            const imageHeight = isLandscape ? 29 : 40;  // 20% smaller than before
             
             const legendItemPromises = questions.map(q => {
                 return new Promise(resolve => {

@@ -2622,9 +2622,9 @@
                 const promise = new Promise(resolve => {
                     fabric.Image.fromURL(imageForCell.path, (img) => {
                         if (img.width >= img.height) {
-                            img.scaleToWidth(cellSize);
+                            img.scaleToWidth(cellSize * 0.9); // 10% reduction
                         } else {
-                            img.scaleToHeight(cellSize);
+                            img.scaleToHeight(cellSize * 0.9); // 10% reduction
                         }
                         img.set({
                             left: (c + 0.5) * cellSize, top: (r + 0.5) * cellSize,

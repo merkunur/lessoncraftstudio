@@ -2645,7 +2645,7 @@
             if (item.type.includes('img')) {
                 obj = await new Promise(resolve => {
                     fabric.Image.fromURL(item.val.path, (img) => {
-                        img.scaleToWidth(80);
+                        img.scaleToWidth(64);
                         if(item.type === 'imgname') {
                             const displayName = item.val.name || item.val.word;
                             const text = new fabric.Textbox(displayName, { 

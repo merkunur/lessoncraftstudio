@@ -982,6 +982,37 @@
                 <label for="exerciseCount" style="margin-top: 12px;" data-translate="codeaddition.exercise.count">Number of Exercises:</label>
                 <input type="number" id="exerciseCount" value="5" min="3" max="10">
 
+                <label for="symbolCount" style="margin-top: 12px;" data-translate="codeaddition.symbol.count">Number of Symbols:</label>
+                <select id="symbolCount">
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4" selected>4</option>
+                    <option value="5">5</option>
+                </select>
+
+                <label for="addendsPerQuestion" style="margin-top: 12px;" data-translate="codeaddition.addends.per.question">Addends per Question:</label>
+                <select id="addendsPerQuestion">
+                    <option value="2" selected>2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="mix" data-translate="codeaddition.addends.mix">Mix</option>
+                </select>
+
+                <div class="word-reveal-section" style="margin-top: 15px; padding-top: 15px; border-top: 1px solid rgba(255,255,255,0.1);">
+                    <label for="wordRevealMode" class="checkbox-label">
+                        <input type="checkbox" id="wordRevealMode">
+                        <span data-translate="codeaddition.word.reveal.mode">Word Reveal Mode</span>
+                    </label>
+                    <div id="wordRevealOptions" style="display: none; margin-top: 10px;">
+                        <label for="secretWord" data-translate="codeaddition.secret.word">Secret Word:</label>
+                        <input type="text" id="secretWord" maxlength="10" placeholder="APPLE" style="text-transform: uppercase; width: 100%; padding: 8px; border-radius: 4px; border: 1px solid rgba(255,255,255,0.2); background: rgba(255,255,255,0.1); color: #fff;">
+                        <p style="font-size: 11px; color: var(--app-text-secondary-dark-theme); margin-top: 5px;" data-translate="codeaddition.word.reveal.note">
+                            Each exercise answer reveals a letter. Max 10 letters.
+                        </p>
+                        <div id="wordRevealMessage" style="display: none; padding: 10px; margin-top: 10px; border-radius: 8px; font-size: 12px; line-height: 1.4;"></div>
+                    </div>
+                </div>
+
                 <label for="minNumber" style="margin-top: 12px;" data-translate="codeaddition.min.number">Minimum Number:</label>
                 <input type="number" id="minNumber" value="1" min="1" max="20">
 
@@ -1147,6 +1178,326 @@
 
   <script>
     document.addEventListener("DOMContentLoaded", function() {
+        // Dynamic symbol count - reads from dropdown (default 4)
+        function getSymbolCount() {
+            const symbolCountEl = document.getElementById('symbolCount');
+            return symbolCountEl ? parseInt(symbolCountEl.value, 10) : 4;
+        }
+
+        // Dynamic addends per question - reads from dropdown
+        function getAddendsPerQuestion() {
+            const addendsEl = document.getElementById('addendsPerQuestion');
+            return addendsEl ? addendsEl.value : '2';
+        }
+
+        // Permutations WITHOUT repetition: P(n, k) = n! / (n-k)!
+        // Used for Original mode where each symbol can only appear ONCE per question
+        function permutationsWithoutRepetition(n, k) {
+            if (k > n) return 0; // Impossible to pick k items from n without repetition
+            let result = 1;
+            for (let i = 0; i < k; i++) {
+                result *= (n - i);
+            }
+            return result;
+        }
+
+        // Combinations WITH repetition: C(n+k-1, k)
+        // Used for Word Reveal mode where symbols CAN repeat within a question
+        function combinationsWithRepetition(n, k) {
+            const total = n + k - 1;
+            let result = 1;
+            for (let i = 0; i < k; i++) {
+                result = result * (total - i) / (i + 1);
+            }
+            return Math.round(result);
+        }
+
+        // Get max unique questions for Original mode (no repetition within question)
+        function getMaxUniqueOriginal(symbols, addends) {
+            if (addends === 'mix') {
+                // Sum of permutations for addends 2, 3, and 4 (only where k <= n)
+                let total = 0;
+                for (let k = 2; k <= 4; k++) {
+                    total += permutationsWithoutRepetition(symbols, k);
+                }
+                return total;
+            }
+            return permutationsWithoutRepetition(symbols, parseInt(addends, 10));
+        }
+
+        // Get max unique combinations for Word Reveal mode (with repetition)
+        function getMaxUniqueWordReveal(symbols, addends) {
+            if (addends === 'mix') {
+                let total = 0;
+                for (let k = 2; k <= 4; k++) {
+                    total += combinationsWithRepetition(symbols, k);
+                }
+                return total;
+            }
+            return combinationsWithRepetition(symbols, parseInt(addends, 10));
+        }
+
+        // Helper to get addend count as number (mix = 4 for maximum)
+        function getAddendNum(addends) {
+            return addends === 'mix' ? 4 : parseInt(addends, 10);
+        }
+
+        // Word Reveal Mode helpers
+        function isWordRevealMode() {
+            const checkbox = document.getElementById('wordRevealMode');
+            return checkbox && checkbox.checked;
+        }
+
+        function getSecretWord() {
+            const input = document.getElementById('secretWord');
+            // Support all 11 languages with accented characters
+            return input ? input.value.toUpperCase().replace(/[^A-ZÄÖÜÀÂÇÉÈÊËÎÏÔÛÙŸŒÆÁÍÓÚÑÌÃÕØÅ]/g, '') : '';
+        }
+
+        // Helper: Find all achievable sums using actual symbol values with repetition allowed
+        function calculateAchievableSums(baseImagePool, numberAssignments, addendsPerQuestion) {
+            const minAddends = addendsPerQuestion === 'mix' ? 2 : parseInt(addendsPerQuestion);
+            const maxAddends = addendsPerQuestion === 'mix' ? 4 : parseInt(addendsPerQuestion);
+
+            const symbolValues = baseImagePool.map(img => numberAssignments[img.path]);
+            const sumsWithCombos = new Map(); // sum -> array of symbol combinations
+
+            // Generate all possible combinations for each addend count
+            for (let count = minAddends; count <= maxAddends; count++) {
+                generateCombosWithRepetition(baseImagePool, numberAssignments, count, [], 0, (combo) => {
+                    const sum = combo.reduce((acc, img) => acc + numberAssignments[img.path], 0);
+                    if (!sumsWithCombos.has(sum)) {
+                        sumsWithCombos.set(sum, []);
+                    }
+                    sumsWithCombos.get(sum).push([...combo]);
+                });
+            }
+
+            return sumsWithCombos;
+        }
+
+        // Helper: Generate combinations with repetition allowed
+        function generateCombosWithRepetition(pool, assignments, targetCount, current, startIdx, callback) {
+            if (current.length === targetCount) {
+                callback(current);
+                return;
+            }
+
+            for (let i = 0; i < pool.length; i++) {
+                current.push(pool[i]);
+                generateCombosWithRepetition(pool, assignments, targetCount, current, i, callback);
+                current.pop();
+            }
+        }
+
+        // Track used combinations to prevent duplicate exercises
+        let usedCombinations = new Set();
+
+        // Helper: Find a symbol combination that produces target sum
+        // Returns null if no unused combinations available (signals need for auto-adjustment)
+        function findComboForSum(baseImagePool, numberAssignments, targetSum, addendsPerQuestion, sumsWithCombos) {
+            if (!sumsWithCombos.has(targetSum)) return null;
+
+            const allCombos = sumsWithCombos.get(targetSum);
+
+            // Filter out already-used combinations
+            const unusedCombos = allCombos.filter(combo => {
+                const key = combo.map(img => img.path).sort().join('|');
+                return !usedCombinations.has(key);
+            });
+
+            // If no unused combos available, return null to trigger auto-adjustment
+            // DO NOT silently reuse - this causes duplicate exercises!
+            if (unusedCombos.length === 0) {
+                return null;
+            }
+
+            // Pick random unused combo
+            const selectedCombo = unusedCombos[Math.floor(Math.random() * unusedCombos.length)];
+
+            // Mark as used
+            const key = selectedCombo.map(img => img.path).sort().join('|');
+            usedCombinations.add(key);
+
+            return selectedCombo;
+        }
+
+        // Generate word reveal data using ACTUAL symbol values
+        function generateWordRevealData(word, baseImagePool, numberAssignments, minNumber, maxNumber, addendsPerQuestion) {
+            // Reset used combinations for new word generation
+            usedCombinations = new Set();
+
+            const upperWord = word.toUpperCase();
+            const letters = upperWord.split('');
+            const uniqueLetters = [...new Set(letters)];
+            const requiredSums = uniqueLetters.length + 3; // letters + 3 distractors
+
+            // Step 1: Calculate achievable sums, with AUTO-ADJUSTMENT if needed
+            let sumsWithCombos = calculateAchievableSums(baseImagePool, numberAssignments, addendsPerQuestion);
+            let achievableSums = [...sumsWithCombos.keys()];
+
+            // AUTO-ADJUST: If not enough sums, try increasing addends automatically
+            let adjustedAddendsPerQuestion = addendsPerQuestion;
+            const addendOptions = ['2', '3', '4', 'mix'];
+            let currentAddendIdx = addendOptions.indexOf(String(addendsPerQuestion));
+            if (currentAddendIdx === -1) currentAddendIdx = 0;
+
+            while (achievableSums.length < requiredSums && currentAddendIdx < addendOptions.length - 1) {
+                currentAddendIdx++;
+                adjustedAddendsPerQuestion = addendOptions[currentAddendIdx];
+                sumsWithCombos = calculateAchievableSums(baseImagePool, numberAssignments, adjustedAddendsPerQuestion);
+                achievableSums = [...sumsWithCombos.keys()];
+            }
+
+            // Track if settings were adjusted
+            const settingsAdjusted = String(adjustedAddendsPerQuestion) !== String(addendsPerQuestion);
+
+            // If still not enough after all adjustments, THEN show error
+            if (achievableSums.length < requiredSums) {
+                return {
+                    error: true,
+                    message: `Word "${upperWord}" needs ${uniqueLetters.length} unique letters but only ${Math.max(0, achievableSums.length - 3)} possible with current symbols.\n\nTry:\n• Shorter word\n• Select more symbols (at least ${Math.ceil((uniqueLetters.length + 3) / 2)})`,
+                    achievableSumsCount: achievableSums.length,
+                    requiredSumsCount: requiredSums,
+                    uniqueLettersCount: uniqueLetters.length
+                };
+            }
+
+            // Show info message if settings were adjusted (NOT an error, just info)
+            if (settingsAdjusted) {
+                showWordRevealMessage(formatTranslation(t('codeaddition.word.reveal.settings.adjusted'), {addends: adjustedAddendsPerQuestion}), 'info');
+            }
+
+            // Step 2: Shuffle achievable sums and assign to unique letters
+            const shuffledSums = [...achievableSums].sort(() => 0.5 - Math.random());
+            const letterToSum = {};
+            const usedSums = new Set();
+
+            uniqueLetters.forEach((letter, i) => {
+                letterToSum[letter] = shuffledSums[i];
+                usedSums.add(shuffledSums[i]);
+            });
+
+            // Step 3: Generate problems - find REAL symbol combinations that produce each target sum
+            const problems = [];
+            let comboError = false;
+
+            for (let position = 0; position < letters.length; position++) {
+                const letter = letters[position];
+                const targetSum = letterToSum[letter];
+                const combo = findComboForSum(baseImagePool, numberAssignments, targetSum, adjustedAddendsPerQuestion, sumsWithCombos);
+
+                if (!combo) {
+                    // No unused combination available - need more symbols/addends
+                    comboError = true;
+                    break;
+                }
+
+                problems.push({
+                    addends: combo,  // These are ACTUAL symbols with ACTUAL values
+                    targetSum: targetSum,
+                    letter: letter,
+                    position: position
+                });
+            }
+
+            // If we couldn't generate all problems, return error to trigger auto-adjustment
+            if (comboError || problems.length < letters.length) {
+                return {
+                    error: true,
+                    message: `Not enough unique combinations for word "${upperWord}". Need more symbols or addends.`,
+                    achievableSumsCount: achievableSums.length,
+                    requiredSumsCount: requiredSums,
+                    uniqueLettersCount: uniqueLetters.length
+                };
+            }
+
+            // Step 4: Generate 3 distractor letters with sums NOT used by actual letters
+            // Use locale-appropriate alphabet to avoid confusing kids with foreign letters
+            const localeAlphabets = {
+                'en': 'ABCDEFGHIJKLMNOPQRSTUVWXYZ',
+                'de': 'ABCDEFGHIJKLMNOPQRSTUVWXYZÄÖÜ',
+                'fr': 'ABCDEFGHIJKLMNOPQRSTUVWXYZÀÂÇÉÈÊËÎÏÔÙÛŒÆ',
+                'es': 'ABCDEFGHIJKLMNOPQRSTUVWXYZÑ',
+                'it': 'ABCDEFGHIJKLMNOPQRSTUVWXYZÀÈÉÌÒÙ',
+                'pt': 'ABCDEFGHIJKLMNOPQRSTUVWXYZÀÁÂÃÇÉÊÍÓÔÕÚ',
+                'nl': 'ABCDEFGHIJKLMNOPQRSTUVWXYZ',
+                'da': 'ABCDEFGHIJKLMNOPQRSTUVWXYZÆØÅ',
+                'sv': 'ABCDEFGHIJKLMNOPQRSTUVWXYZÅÄÖ',
+                'no': 'ABCDEFGHIJKLMNOPQRSTUVWXYZÆØÅ',
+                'fi': 'ABCDEFGHIJKLMNOPQRSTUVWXYZÅÄÖ'
+            };
+            const currentLang = (typeof currentLocale !== 'undefined' ? currentLocale : 'en').substring(0, 2);
+            const alphabet = localeAlphabets[currentLang] || localeAlphabets['en'];
+            const availableLetters = alphabet.split('').filter(l => !uniqueLetters.includes(l));
+            availableLetters.sort(() => 0.5 - Math.random());
+
+            const distractorLetters = [];
+            let distractorIdx = uniqueLetters.length;
+
+            for (let i = 0; i < 3 && i < availableLetters.length; i++) {
+                // Find an achievable sum that's not used
+                while (distractorIdx < shuffledSums.length && usedSums.has(shuffledSums[distractorIdx])) {
+                    distractorIdx++;
+                }
+
+                let distractorValue;
+                if (distractorIdx < shuffledSums.length) {
+                    distractorValue = shuffledSums[distractorIdx];
+                    distractorIdx++;
+                } else {
+                    // Generate a non-achievable sum for extra distraction
+                    const minSum = Math.min(...achievableSums);
+                    const maxSum = Math.max(...achievableSums);
+                    do {
+                        distractorValue = Math.floor(Math.random() * (maxSum - minSum + 10)) + minSum - 5;
+                    } while (usedSums.has(distractorValue) || achievableSums.includes(distractorValue));
+                }
+
+                usedSums.add(distractorValue);
+                distractorLetters.push({
+                    letter: availableLetters[i],
+                    value: distractorValue
+                });
+            }
+
+            return {
+                letterToSum,        // { A: 12, P: 8, L: 15, E: 10 }
+                distractorLetters,  // [{ letter: 'X', value: 22 }, ...]
+                word: upperWord,
+                letters: letters,   // Array of letters in order
+                problems: problems  // Problems with ACTUAL symbol combinations
+            };
+        }
+
+        // Show messages in sidebar instead of browser alerts
+        function showWordRevealMessage(message, type = 'error') {
+            const msgDiv = document.getElementById('wordRevealMessage');
+            if (!msgDiv) return;
+
+            msgDiv.style.display = 'block';
+            msgDiv.textContent = message;
+
+            if (type === 'error') {
+                msgDiv.style.backgroundColor = '#ffebee';
+                msgDiv.style.color = '#c62828';
+                msgDiv.style.border = '1px solid #ef9a9a';
+            } else if (type === 'info') {
+                msgDiv.style.backgroundColor = '#e3f2fd';
+                msgDiv.style.color = '#1565c0';
+                msgDiv.style.border = '1px solid #90caf9';
+                // Auto-hide info messages after 5 seconds
+                setTimeout(() => { msgDiv.style.display = 'none'; }, 5000);
+            } else if (type === 'success') {
+                msgDiv.style.backgroundColor = '#e8f5e9';
+                msgDiv.style.color = '#2e7d32';
+                msgDiv.style.border = '1px solid #a5d6a7';
+                // Auto-hide success messages after 3 seconds
+                setTimeout(() => { msgDiv.style.display = 'none'; }, 3000);
+            }
+        }
+
+        // Legacy constant for backward compatibility (uses max possible)
         const MAX_IMAGES = 5;
         let currentThemeImages = [], selectedImages = [], userUploadedImages = [];
         let isFirstAnswerKeyGeneration = true;
@@ -1440,6 +1791,10 @@
 
         // --- HEADER & BORDER FUNCTIONS ---
         function createHeaderGroup(canvas) {
+            // Check if word reveal mode is active
+            const wordRevealMode = isWordRevealMode();
+
+            // Standard mode headers - Code Breaker theme
             const defaultHeaders = {
                 en: { title: 'Code Breaker Addition', description: 'Crack the code! Find the number for each symbol and solve!' },
                 de: { title: 'Code-Knacker Addition', description: 'Knacke den Code! Finde die Zahl für jedes Symbol!' },
@@ -1454,8 +1809,25 @@
                 fi: { title: 'Salainen Koodi Yhteenlasku', description: 'Ratkaise koodi! Löydä numero jokaiselle symbolille!' }
             };
 
+            // Word Reveal mode headers - Child-friendly secret word theme
+            const wordRevealHeaders = {
+                en: { title: 'Secret Word Addition', description: 'Solve each problem to reveal a letter. What is the hidden word?' },
+                de: { title: 'Geheimes Wort Addition', description: 'Löse jede Aufgabe und entdecke einen Buchstaben. Wie lautet das versteckte Wort?' },
+                fr: { title: 'Mot Secret Addition', description: 'Résous chaque problème pour découvrir une lettre. Quel est le mot caché?' },
+                es: { title: 'Palabra Secreta Suma', description: 'Resuelve cada problema para descubrir una letra. ¿Cuál es la palabra oculta?' },
+                it: { title: 'Parola Segreta Addizione', description: 'Risolvi ogni problema per scoprire una lettera. Qual è la parola nascosta?' },
+                pt: { title: 'Palavra Secreta Adição', description: 'Resolva cada problema para descobrir uma letra. Qual é a palavra escondida?' },
+                nl: { title: 'Geheim Woord Optellen', description: 'Los elk probleem op om een letter te ontdekken. Wat is het verborgen woord?' },
+                sv: { title: 'Hemligt Ord Addition', description: 'Lös varje uppgift för att avslöja en bokstav. Vad är det hemliga ordet?' },
+                da: { title: 'Hemmeligt Ord Addition', description: 'Løs hver opgave for at afsløre et bogstav. Hvad er det hemmelige ord?' },
+                no: { title: 'Hemmelig Ord Addisjon', description: 'Løs hver oppgave for å avsløre en bokstav. Hva er det hemmelige ordet?' },
+                fi: { title: 'Salainen Sana Yhteenlasku', description: 'Ratkaise jokainen tehtävä paljastaaksesi kirjaimen. Mikä on piilotettu sana?' }
+            };
+
             const locale = currentLocale || 'en';
-            const defaults = defaultHeaders[locale] || defaultHeaders.en;
+            // Select headers based on mode
+            const headers = wordRevealMode ? wordRevealHeaders : defaultHeaders;
+            const defaults = headers[locale] || headers.en;
             const title = defaults.title;
             const description = defaults.description;
 
@@ -1719,20 +2091,39 @@
                 });
             }
 
+            // Get dynamic symbol count from dropdown
+            const symbolCount = getSymbolCount();
+            let addendsPerQuestion = getAddendsPerQuestion();
+
             let baseImagePool = [];
             const worksheetThemeSelect = document.getElementById('worksheetThemeSelect');
             const selectedWorksheetTheme = worksheetThemeSelect.value;
 
+            // Store all available images for potential auto-adjustment in Word Reveal mode
+            let allAvailableImages = [];
+
             if (selectedWorksheetTheme === 'use_selected') {
-                baseImagePool = await prepareExerciseImages(); 
+                baseImagePool = await prepareExerciseImages();
+                allAvailableImages = [...baseImagePool]; // User's selected images
             } else {
                 try {
                     const res = await fetch(`/api/images?theme=${encodeURIComponent(selectedWorksheetTheme)}&locale=${currentLocale}`);
                     const data = await res.json();
                     // CRITICAL: Handle API response format {images: [...]}
                     const themeImages = data.images || data;
+                    allAvailableImages = [...themeImages]; // Store ALL theme images for auto-adjustment
                     if (themeImages.length > 0) {
-                         while (baseImagePool.length < 5) {
+                        // Use shuffled unique images to ensure no duplicates
+                        const shuffled = [...themeImages].sort(() => 0.5 - Math.random());
+                        while (baseImagePool.length < symbolCount && shuffled.length > 0) {
+                            const img = shuffled.pop();
+                            // Ensure no duplicate images in pool
+                            if (!baseImagePool.some(p => p.path === img.path)) {
+                                baseImagePool.push(img);
+                            }
+                        }
+                        // If not enough unique images, add random ones (shouldn't happen with good themes)
+                        while (baseImagePool.length < symbolCount && themeImages.length > 0) {
                             baseImagePool.push(themeImages[Math.floor(Math.random() * themeImages.length)]);
                         }
                     }
@@ -1742,12 +2133,32 @@
                 }
             }
 
-            if (baseImagePool.length < 5) {
+            if (baseImagePool.length < symbolCount) {
                 showMessage(t('codeaddition.msg.insufficient.images'), 'error');
                 return;
             }
 
-            const numExercises = parseInt(document.getElementById('exerciseCount').value, 10);
+            // Trim to exact symbol count
+            baseImagePool = baseImagePool.slice(0, symbolCount);
+
+            // Check for word reveal mode
+            const wordRevealMode = isWordRevealMode();
+            const secretWord = getSecretWord();
+
+            // Validate word reveal mode
+            if (wordRevealMode) {
+                if (secretWord.length < 2) {
+                    showMessage(t('codeaddition.word.min.length') || 'Word must have at least 2 letters', 'error');
+                    return;
+                }
+                if (secretWord.length > 10) {
+                    showMessage(t('codeaddition.word.max.length') || 'Word must have at most 10 letters', 'error');
+                    return;
+                }
+            }
+
+            // Override exercise count in word reveal mode
+            const numExercises = wordRevealMode ? secretWord.length : parseInt(document.getElementById('exerciseCount').value, 10);
             const minNumber = parseInt(document.getElementById('minNumber').value, 10) || 1;
             const maxNumber = parseInt(document.getElementById('maxNumber').value, 10) || 10;
 
@@ -1757,29 +2168,268 @@
                 return;
             }
 
-            // Assign random numbers to each image in the pool
+            // Check if we have enough unique values for all symbols
+            const rangeSize = maxNumber - minNumber + 1;
+            if (rangeSize < symbolCount) {
+                showMessage(t('codeaddition.msg.range.too.small') || `Number range must have at least ${symbolCount} different values for ${symbolCount} symbols`, 'error');
+                return;
+            }
+
+            // Assign UNIQUE random numbers to each image in the pool
+            // Each symbol MUST have a different value
             const numberAssignments = {};
+            const availableNumbers = [];
+            for (let n = minNumber; n <= maxNumber; n++) {
+                availableNumbers.push(n);
+            }
+            // Shuffle available numbers
+            availableNumbers.sort(() => 0.5 - Math.random());
+
+            // Assign unique numbers to each symbol
             baseImagePool.forEach((imgData, index) => {
-                numberAssignments[imgData.path] = Math.floor(Math.random() * (maxNumber - minNumber + 1)) + minNumber;
+                numberAssignments[imgData.path] = availableNumbers[index];
             });
 
-            const problemPairs = [];
-            const shuffledPool = [...baseImagePool].sort(() => 0.5 - Math.random());
+            // Generate problems based on mode
+            let problems = [];
+            let wordRevealData = null;
 
-            problemPairs.push([shuffledPool[0], shuffledPool[1]]);
-            problemPairs.push([shuffledPool[2], shuffledPool[3]]);
-            problemPairs.push([shuffledPool[4], shuffledPool[0]]);
+            if (wordRevealMode) {
+                // Word reveal mode: Auto-adjust settings to ensure success
+                const uniqueLettersNeeded = [...new Set(secretWord.toUpperCase().split(''))].length;
+                const requiredSums = uniqueLettersNeeded + 3; // letters + 3 distractors
 
-            for (let i = 3; i < numExercises; i++) {
-                const imgA = baseImagePool[Math.floor(Math.random() * 5)];
-                const imgB = baseImagePool[Math.floor(Math.random() * 5)];
-                problemPairs.push([imgA, imgB]);
+                // Try to generate with current settings, auto-adjusting if needed
+                let currentSymbolCount = symbolCount;
+                let currentAddends = addendsPerQuestion;
+                let currentPool = [...baseImagePool];
+                let currentAssignments = {...numberAssignments};
+                let success = false;
+                let lastError = null;
+
+                // Try combinations: first adjust addends (2->3->4->mix), then increase symbols
+                const addendOptions = ['2', '3', '4', 'mix'];
+                const maxSymbolCount = Math.min(5, allAvailableImages.length);
+
+                while (!success && currentSymbolCount <= maxSymbolCount) {
+                    // Try each addend option with current symbol count
+                    let addendIdx = addendOptions.indexOf(String(currentAddends));
+                    if (addendIdx === -1) addendIdx = 0;
+
+                    while (!success && addendIdx < addendOptions.length) {
+                        currentAddends = addendOptions[addendIdx];
+                        wordRevealData = generateWordRevealData(secretWord, currentPool, currentAssignments, minNumber, maxNumber, currentAddends);
+
+                        if (wordRevealData && !wordRevealData.error) {
+                            success = true;
+                            // Show info message if settings were auto-adjusted
+                            if (currentSymbolCount !== symbolCount || currentAddends !== String(addendsPerQuestion)) {
+                                showWordRevealMessage(formatTranslation(t('codeaddition.word.reveal.auto.adjusted'), {symbols: currentSymbolCount, addends: currentAddends}), 'info');
+                            }
+                        } else {
+                            lastError = wordRevealData;
+                            addendIdx++;
+                        }
+                    }
+
+                    // If still not successful, try more symbols
+                    if (!success && currentSymbolCount < maxSymbolCount) {
+                        currentSymbolCount++;
+                        // Add more images to pool
+                        const shuffled = [...allAvailableImages].sort(() => 0.5 - Math.random());
+                        currentPool = [];
+                        const usedPaths = new Set();
+                        while (currentPool.length < currentSymbolCount && shuffled.length > 0) {
+                            const img = shuffled.pop();
+                            if (!usedPaths.has(img.path)) {
+                                usedPaths.add(img.path);
+                                currentPool.push(img);
+                            }
+                        }
+                        // Reassign numbers
+                        currentAssignments = {};
+                        const newAvailableNumbers = [...availableNumbers].sort(() => 0.5 - Math.random());
+                        currentPool.forEach((imgData, index) => {
+                            currentAssignments[imgData.path] = newAvailableNumbers[index];
+                        });
+                        // Reset addends to try from beginning
+                        currentAddends = addendsPerQuestion;
+                    } else if (!success) {
+                        break; // No more options to try
+                    }
+                }
+
+                if (!success) {
+                    showWordRevealMessage(lastError?.message || t('codeaddition.word.reveal.cannot.generate'), 'error');
+                    return;
+                }
+
+                // Only update working variables if adjustments were actually made
+                if (currentSymbolCount !== symbolCount || currentAddends !== String(addendsPerQuestion)) {
+                    baseImagePool = currentPool;
+                    // Clear and repopulate numberAssignments
+                    for (const key in numberAssignments) delete numberAssignments[key];
+                    Object.assign(numberAssignments, currentAssignments);
+                }
+
+                // Convert word reveal problems to the format expected by exercise rendering
+                problems = wordRevealData.problems.map(p => p.addends);
+            } else {
+                // Standard mode: Generate problems with variable addends and no duplicates
+
+                // === AUTO-ADJUST SETTINGS TO PREVENT DUPLICATES ===
+                // Original mode uses permutations WITHOUT repetition (each symbol once per question)
+                let currentSymbols = symbolCount;
+                let currentAddends = addendsPerQuestion;
+                let originalModeAdjusted = false;
+
+                // FIRST: Check if addends > symbols (impossible without repetition!)
+                let maxAddendNeeded = getAddendNum(currentAddends);
+                if (currentSymbols < maxAddendNeeded) {
+                    // Can't have more addends than symbols - must adjust
+                    // Try increasing symbols first
+                    if (maxAddendNeeded <= 5 && allAvailableImages.length >= maxAddendNeeded) {
+                        currentSymbols = maxAddendNeeded;
+                        originalModeAdjusted = true;
+                    } else {
+                        // Can't increase symbols enough, reduce addends to match symbols
+                        currentAddends = String(currentSymbols);
+                        originalModeAdjusted = true;
+                    }
+                }
+
+                // NOW check if enough unique permutations
+                let maxPermutations = getMaxUniqueOriginal(currentSymbols, currentAddends);
+
+                // If not enough, try increasing addends (only valid options where k <= n)
+                if (maxPermutations < numExercises) {
+                    const addendOptions = ['2', '3', '4', 'mix'];
+                    for (const testAddends of addendOptions) {
+                        const testMax = getAddendNum(testAddends);
+                        if (testMax <= currentSymbols) {  // Only valid if k <= n
+                            const permCount = getMaxUniqueOriginal(currentSymbols, testAddends);
+                            if (permCount >= numExercises) {
+                                currentAddends = testAddends;
+                                originalModeAdjusted = true;
+                                maxPermutations = permCount;
+                                break;
+                            }
+                        }
+                    }
+                }
+
+                // If still not enough, try increasing symbols
+                if (maxPermutations < numExercises) {
+                    for (let testSymbols = currentSymbols + 1; testSymbols <= 5; testSymbols++) {
+                        if (testSymbols > allAvailableImages.length) break;
+
+                        // Try each addend option with more symbols (only valid where k <= n)
+                        for (const testAddends of ['2', '3', '4', 'mix']) {
+                            const testMax = getAddendNum(testAddends);
+                            if (testMax <= testSymbols) {
+                                const permCount = getMaxUniqueOriginal(testSymbols, testAddends);
+                                if (permCount >= numExercises) {
+                                    currentSymbols = testSymbols;
+                                    currentAddends = testAddends;
+                                    originalModeAdjusted = true;
+                                    maxPermutations = permCount;
+                                    break;
+                                }
+                            }
+                        }
+                        if (maxPermutations >= numExercises) break;
+                    }
+                }
+
+                // Apply adjustments if needed
+                if (originalModeAdjusted) {
+                    // Show info message to user
+                    const addendLabel = currentAddends === 'mix' ? t('codeaddition.addends.mix') : currentAddends;
+                    showMessage(formatTranslation(t('codeaddition.original.settings.adjusted'), {
+                        symbols: currentSymbols,
+                        addends: addendLabel
+                    }), 'info');
+
+                    // Update addendsPerQuestion for use in getAddendCount()
+                    addendsPerQuestion = currentAddends;
+
+                    // If symbol count increased, rebuild the image pool
+                    if (currentSymbols > baseImagePool.length) {
+                        const shuffled = [...allAvailableImages].sort(() => 0.5 - Math.random());
+                        baseImagePool = [];
+                        const usedPaths = new Set();
+                        for (const img of shuffled) {
+                            if (!usedPaths.has(img.path) && baseImagePool.length < currentSymbols) {
+                                baseImagePool.push(img);
+                                usedPaths.add(img.path);
+                            }
+                        }
+                        // Assign new number values to the expanded pool
+                        for (const img of baseImagePool) {
+                            if (!numberAssignments[img.path]) {
+                                numberAssignments[img.path] = minNumber + Math.floor(Math.random() * (maxNumber - minNumber + 1));
+                            }
+                        }
+                    }
+                }
+                // === END AUTO-ADJUSTMENT ===
+
+                const usedQuestionKeys = new Set(); // Track unique questions to prevent duplicates
+
+                // Helper function to generate a question key (order matters for visual variety)
+                function getQuestionKey(addends) {
+                    return addends.map(a => a.path).join('|');
+                }
+
+                // Helper function to get number of addends for a question
+                function getAddendCount() {
+                    if (addendsPerQuestion === 'mix') {
+                        // Random between 2 and 4
+                        return Math.floor(Math.random() * 3) + 2;
+                    }
+                    return parseInt(addendsPerQuestion, 10);
+                }
+
+                // Generate questions ensuring no duplicates
+                let attempts = 0;
+                const maxAttempts = numExercises * 50; // Prevent infinite loops
+
+                while (problems.length < numExercises && attempts < maxAttempts) {
+                    attempts++;
+                    const addendCount = getAddendCount();
+                    const addends = [];
+
+                    // Select random symbols for this question
+                    const shuffledPool = [...baseImagePool].sort(() => 0.5 - Math.random());
+                    for (let j = 0; j < addendCount && j < shuffledPool.length; j++) {
+                        addends.push(shuffledPool[j]);
+                    }
+
+                    // Check if this question is unique
+                    const questionKey = getQuestionKey(addends);
+                    if (!usedQuestionKeys.has(questionKey)) {
+                        usedQuestionKeys.add(questionKey);
+                        problems.push(addends);
+                    }
+                }
+
+                // If we couldn't generate enough unique questions, warn but continue
+                if (problems.length < numExercises) {
+                    console.warn(`Could only generate ${problems.length} unique questions out of ${numExercises} requested`);
+                }
             }
 
             // Only preserve transforms if BOTH exercise count AND canvas dimensions haven't changed
             const shouldPreserveTransforms = (oldExerciseCount === numExercises) && !canvasSizeChanged;
 
-            worksheetCanvas.problemsData = { pool: baseImagePool, pairs: problemPairs, numberAssignments: numberAssignments };
+            // Store problems data with new format (array of addend arrays instead of pairs)
+            worksheetCanvas.problemsData = {
+                pool: baseImagePool,
+                problems: problems,
+                numberAssignments: numberAssignments,
+                wordRevealMode: wordRevealMode,
+                wordRevealData: wordRevealData
+            };
 
             // Professional layout with proper margins
             const canvasWidth = currentCanvasConfig.width;
@@ -1787,9 +2437,9 @@
             // isLandscape already declared earlier for header height calculation
 
             // Set margins based on orientation - if header is shown, start content right after it
-            const baseTopMargin = isLandscape ? 60 : 80;
-            // Move legend and exercises 60px up in landscape
-            const topMargin = headerObjects ? (isLandscape ? 190 : 250) : baseTopMargin; // Header description ends at ~210, legend needs space for circles above images
+            const baseTopMargin = isLandscape ? 50 : 70;
+            // Start content below header description (increased to prevent overlap)
+            const topMargin = headerObjects ? (isLandscape ? 180 : 245) : baseTopMargin;
             const bottomMargin = isLandscape ? 60 : 80;
             const sideMargin = isLandscape ? 60 : 40;
             
@@ -1860,12 +2510,12 @@
                     resolveImg(itemGroup);
                 }));
                 const resolvedItems = await Promise.all(legendItemPromises);
-                const legendGroup = new fabric.Group(resolvedItems, { 
-                    top: currentY, 
-                    left: sideMargin, 
-                    isGeneratedItem: true, 
-                    originalIndex: -2, 
-                    ...getEditableGroupOptions('Legend') 
+                const legendGroup = new fabric.Group(resolvedItems, {
+                    top: currentY + 25,
+                    left: sideMargin,
+                    isGeneratedItem: true,
+                    originalIndex: -2,
+                    ...getEditableGroupOptions('Legend')
                 });
                 
                 // Scale legend to fit width if needed
@@ -1884,180 +2534,236 @@
                 // Center legend horizontally
                 legendGroup.set('left', sideMargin + (contentWidth - legendGroup.getScaledWidth()) / 2);
                 
-                // Spacing after legend
-                const legendSpacingAfter = isLandscape ? 20 : 30;
-                currentY += legendGroup.getScaledHeight() + legendSpacingAfter;
+                // Spacing after legend - reduced for closer positioning
+                const legendSpacingAfter = isLandscape ? 10 : 15;
+                currentY += 25 + legendGroup.getScaledHeight() + legendSpacingAfter;
                 resolve(legendGroup);
             });
             allBlocks.push(legendGroup);
 
-            // Step 3: Create exercises - NOW currentY is correctly updated after legend!
+            // Step 3: Create exercises - SIMPLIFIED LAYOUT ALGORITHM
             const exerciseRows = await new Promise(async (resolve) => {
-                const numExercises = problemPairs.length;
+                const numExercises = problems.length;
 
-                // Calculate available space for exercises - currentY now includes legend height
-                const availableHeight = canvasHeight - currentY - bottomMargin;
-                const availableWidth = contentWidth;
-                
-                // Different layouts for portrait vs landscape
-                let exercisesPerRow, rowsNeeded, itemScale;
-
-                if (isLandscape) {
-                    // Landscape: Try 2-column layout for better space usage
-                    exercisesPerRow = numExercises <= 6 ? 1 : 2;
-                    rowsNeeded = Math.ceil(numExercises / exercisesPerRow);
-                } else {
-                    // Portrait: Use 2-column layout if more than 7 exercises to prevent overflow
-                    exercisesPerRow = numExercises > 7 ? 2 : 1;
-                    rowsNeeded = Math.ceil(numExercises / exercisesPerRow);
+                // Calculate available space for exercises
+                let letterLegendSpace = 0;
+                if (wordRevealMode && wordRevealData) {
+                    letterLegendSpace = isLandscape ? 50 : 60;
                 }
-                
-                // Calculate optimal scale for exercises
-                const targetRowHeight = 100; // Base height for each exercise
-                const minRowHeight = 50; // Minimum acceptable height
-                const maxRowHeight = 120; // Maximum height to prevent oversizing
+                const availableHeight = canvasHeight - currentY - bottomMargin - letterLegendSpace;
+                const availableWidth = contentWidth;
 
-                // Calculate height per row based on available space
-                const heightPerRow = availableHeight / rowsNeeded;
-                let rowHeight = Math.min(Math.max(heightPerRow * 0.8, minRowHeight), maxRowHeight);
+                // Determine layout: 2 columns for >5 exercises
+                const exercisesPerRow = numExercises > 5 ? 2 : 1;
+                const numRows = Math.ceil(numExercises / exercisesPerRow);
 
-                // Calculate scale factor based on row height
-                let scaleFactor = rowHeight / targetRowHeight;
-                scaleFactor = Math.min(scaleFactor, 1.0); // Don't scale up
-                scaleFactor = Math.max(scaleFactor, 0.4); // Don't scale down too much
+                // Fixed base sizes (consistent starting point)
+                const BASE_IMAGE_HEIGHT = 65;
+                const BASE_FONT_SIZE = 20;
+                const BASE_SPACING = 10;
+                const MIN_GAP = 10;
 
-                // Additional adjustment for safety
-                scaleFactor *= 0.85;
+                // Calculate scale to fit available height
+                const totalGapSpace = (numRows + 1) * MIN_GAP;
+                const spaceForRows = availableHeight - totalGapSpace;
+                const maxRowHeight = spaceForRows / numRows;
 
-                // CRITICAL FIX: Use full available height for spacing to prevent blank space at bottom
-                // This ensures exercises are evenly distributed across the entire page
-                const verticalSpacing = availableHeight / rowsNeeded;
+                // Single scale factor based on available space
+                let scale = Math.min(maxRowHeight / BASE_IMAGE_HEIGHT, 1.4);
+                scale = Math.max(scale, 0.5);
 
-                const exerciseRowPromises = problemPairs.map((pair, i) => new Promise(async (resolveRow) => {
+                // For 2-column layout, also check width constraint
+                if (exercisesPerRow === 2) {
+                    const maxColumnWidth = (availableWidth / 2) * 0.9;
+                    const estimatedRowWidth = BASE_IMAGE_HEIGHT * 4.5;
+                    if (estimatedRowWidth * scale > maxColumnWidth) {
+                        scale = Math.min(scale, maxColumnWidth / estimatedRowWidth);
+                    }
+                }
+
+                // Apply scale to all sizing (ONCE, not multiple times)
+                const imageHeight = BASE_IMAGE_HEIGHT * scale;
+                const fontSize = BASE_FONT_SIZE * scale;
+                const plusFontSize = fontSize * 1.2;
+                const spacing = BASE_SPACING * scale;
+                const boxHeight = Math.max(imageHeight * 0.45, 22);
+                const boxWidth = boxHeight * 1.5;
+
+                const exerciseRowPromises = problems.map((addends, i) => new Promise(async (resolveRow) => {
                     let currentX = 0;
                     const rowElements = [];
 
-                    // Adaptive sizing based on available space
-                    // 30% increase for landscape worksheet
-                    const imageHeight = isLandscape ? 70 * 1.3 : 80;
-                    const fontSize = isLandscape ? 20 * 1.3 : 24;
-                    const plusFontSize = isLandscape ? 24 * 1.3 : 30;
-                    const spacing = isLandscape ? 10 * 1.3 : 15;
+                    // Store operand data for answer key
+                    const operandData = [];
 
-                    if (document.getElementById('includeExerciseNumbers').checked) {
-                        rowElements.push(new fabric.Text(`${i + 1}.`, { 
-                            fontSize: fontSize, 
-                            left: currentX, 
-                            top: 35, 
-                            fontFamily: 'Fredoka' 
-                        }));
-                        currentX += 25;
+                    // Load all images
+                    const loadedImages = [];
+                    for (let j = 0; j < addends.length; j++) {
+                        const addend = addends[j];
+                        const img = await fabricImageFromURL(addend.path);
+                        img.scaleToHeight(imageHeight);
+                        loadedImages.push(img);
+
+                        operandData.push({
+                            index: baseImagePool.findIndex(p => p.path === addend.path),
+                            number: numberAssignments[addend.path],
+                            path: addend.path
+                        });
                     }
-                    
-                    const imgA = await fabricImageFromURL(pair[0].path);
-                    imgA.scaleToHeight(imageHeight);
-                    imgA.set({ left: currentX });
-                    rowElements.push(imgA);
-                    currentX += imgA.getScaledWidth() + spacing;
 
-                    rowElements.push(new fabric.Text('+', { 
-                        left: currentX, 
-                        top: 30, 
-                        fontSize: plusFontSize 
-                    }));
-                    currentX += 20;
+                    // Calculate row centerline
+                    const maxImgHeight = Math.max(...loadedImages.map(img => img.getScaledHeight()));
+                    const rowCenterY = Math.max(maxImgHeight, boxHeight) / 2;
 
-                    const imgB = await fabricImageFromURL(pair[1].path);
-                    imgB.scaleToHeight(imageHeight);
-                    imgB.set({ left: currentX });
-                    rowElements.push(imgB);
-                    currentX += imgB.getScaledWidth() + spacing;
+                    // Exercise number
+                    if (document.getElementById('includeExerciseNumbers').checked) {
+                        rowElements.push(new fabric.Text(`${i + 1}.`, {
+                            fontSize: fontSize,
+                            left: currentX,
+                            top: rowCenterY,
+                            originY: 'center',
+                            fontFamily: 'Fredoka'
+                        }));
+                        currentX += 22 * scale;
+                    }
 
-                    const aIndex = baseImagePool.findIndex(p => p.path === pair[0].path);
-                    const bIndex = baseImagePool.findIndex(p => p.path === pair[1].path);
-                    const aNumber = numberAssignments[pair[0].path];
-                    const bNumber = numberAssignments[pair[1].path];
+                    // Position images and operators
+                    for (let j = 0; j < loadedImages.length; j++) {
+                        const img = loadedImages[j];
+                        img.set({ left: currentX, top: rowCenterY, originY: 'center' });
+                        rowElements.push(img);
+                        currentX += img.getScaledWidth() + spacing;
+
+                        if (j < loadedImages.length - 1) {
+                            rowElements.push(new fabric.Text('+', {
+                                left: currentX,
+                                top: rowCenterY,
+                                originY: 'center',
+                                fontSize: plusFontSize
+                            }));
+                            currentX += 18 * scale;
+                        }
+                    }
+
+                    // Calculate total sum
+                    let totalSum;
+                    if (wordRevealMode && wordRevealData) {
+                        totalSum = wordRevealData.problems[i].targetSum;
+                    } else {
+                        totalSum = operandData.reduce((sum, op) => sum + op.number, 0);
+                    }
+
                     const equals = new fabric.Text('=', {
                         left: currentX,
-                        top: 30,
+                        top: rowCenterY,
+                        originY: 'center',
                         fontSize: plusFontSize,
                         isEqualsSign: true,
-                        operandA_index: aIndex,
-                        operandB_index: bIndex,
-                        operandA_number: aNumber,
-                        operandB_number: bNumber
+                        operandData: operandData,
+                        totalSum: totalSum
                     });
                     rowElements.push(equals);
                     currentX += equals.width + spacing;
-                    
-                    const boxWidth = isLandscape ? 50 * 1.3 : 60;
-                    const boxHeight = isLandscape ? 35 * 1.3 : 40;
-                    rowElements.push(new fabric.Rect({ 
-                        left: currentX, 
-                        top: 25, 
-                        width: boxWidth, 
-                        height: boxHeight, 
-                        fill: 'transparent', 
-                        stroke: '#007aff', 
-                        strokeWidth: 2, 
-                        rx: 8, 
-                        ry: 8, 
-                        isAnswerBox: true 
-                    }));
-                    
+
+                    if (wordRevealMode && wordRevealData) {
+                        // Word reveal mode: Two blanks
+                        const sumBox = new fabric.Rect({
+                            left: currentX, top: rowCenterY, originY: 'center',
+                            width: boxWidth, height: boxHeight,
+                            fill: 'transparent', stroke: '#007aff', strokeWidth: 2,
+                            rx: 8, ry: 8, isAnswerBox: true, isSumBlank: true
+                        });
+                        rowElements.push(sumBox);
+                        currentX += boxWidth + spacing;
+
+                        const arrow = new fabric.Text('→', {
+                            left: currentX, top: rowCenterY, originY: 'center',
+                            fontSize: plusFontSize, fill: '#666'
+                        });
+                        rowElements.push(arrow);
+                        currentX += arrow.width + spacing;
+
+                        const letterBox = new fabric.Rect({
+                            left: currentX, top: rowCenterY, originY: 'center',
+                            width: boxWidth * 0.8, height: boxHeight,
+                            fill: 'transparent', stroke: '#1976d2', strokeWidth: 2,
+                            rx: 8, ry: 8, isLetterBlank: true
+                        });
+                        rowElements.push(letterBox);
+                    } else {
+                        // Standard mode: Single answer box
+                        rowElements.push(new fabric.Rect({
+                            left: currentX, top: rowCenterY, originY: 'center',
+                            width: boxWidth, height: boxHeight,
+                            fill: 'transparent', stroke: '#007aff', strokeWidth: 2,
+                            rx: 8, ry: 8, isAnswerBox: true
+                        }));
+                    }
+
                     resolveRow(new fabric.Group(rowElements, {}));
                 }));
 
                 const resolvedRows = await Promise.all(exerciseRowPromises);
-                
-                resolvedRows.forEach((row, i) => {
-                    row.scale(scaleFactor);
-                    
-                    // Position based on layout (1 or 2 columns)
-                    let leftPosition, topPosition;
 
-                    if (exercisesPerRow === 2) {
-                        // Two-column layout (for landscape with >6 exercises OR portrait with >7 exercises)
-                        const col = i % 2;
-                        const rowIndex = Math.floor(i / 2);
-                        const columnWidth = contentWidth / 2;
-                        const rowWidth = row.getScaledWidth();
-
-                        // Center within each column
-                        leftPosition = sideMargin + (col * columnWidth) + (columnWidth - rowWidth) / 2;
-                        topPosition = currentY + (rowIndex * verticalSpacing);
-                    } else {
-                        // Single column layout
-                        const rowWidth = row.getScaledWidth();
-                        leftPosition = sideMargin + (contentWidth - rowWidth) / 2;
-                        topPosition = currentY + (i * verticalSpacing);
-                    }
-                    
-                    // Ensure content doesn't exceed page width (or column width for 2-column layout)
-                    const maxWidth = exercisesPerRow === 2 ? (contentWidth / 2) * 0.95 : contentWidth;
+                // Apply width constraints (NO additional scaling applied here)
+                resolvedRows.forEach((row) => {
+                    const maxWidth = exercisesPerRow === 2 ? (contentWidth / 2) * 0.92 : contentWidth * 0.95;
                     if (row.getScaledWidth() > maxWidth) {
-                        const additionalScale = maxWidth / row.getScaledWidth();
-                        row.scale(row.scaleX * additionalScale * 0.95);
-                        // Recalculate position after additional scaling
-                        const newRowWidth = row.getScaledWidth();
-                        if (exercisesPerRow === 1) {
-                            leftPosition = sideMargin + (contentWidth - newRowWidth) / 2;
-                        } else if (exercisesPerRow === 2) {
-                            // Recenter within column after scaling
-                            const col = i % 2;
-                            const columnWidth = contentWidth / 2;
-                            leftPosition = sideMargin + (col * columnWidth) + (columnWidth - newRowWidth) / 2;
-                        }
+                        const widthScale = maxWidth / row.getScaledWidth();
+                        row.scale(widthScale);
                     }
-                    
+                });
+
+                // Get actual row heights after any width scaling
+                const actualRowHeights = resolvedRows.map(row => row.getScaledHeight());
+
+                // Calculate max height per visual row (for 2-column layout)
+                const maxHeightPerRow = [];
+                for (let r = 0; r < numRows; r++) {
+                    const idx1 = r * exercisesPerRow;
+                    const idx2 = exercisesPerRow === 2 ? idx1 + 1 : idx1;
+                    const h1 = actualRowHeights[idx1] || 0;
+                    const h2 = exercisesPerRow === 2 && idx2 < actualRowHeights.length ? actualRowHeights[idx2] : 0;
+                    maxHeightPerRow.push(Math.max(h1, h2));
+                }
+
+                // Calculate uniform gap
+                const totalRowsHeight = maxHeightPerRow.reduce((sum, h) => sum + h, 0);
+                const remainingSpace = availableHeight - totalRowsHeight;
+                const gap = Math.max(MIN_GAP, remainingSpace / (numRows + 1));
+
+                // Position rows with uniform spacing
+                let runningTop = currentY + gap;
+                let lastVisualRow = -1;
+
+                resolvedRows.forEach((row, i) => {
+                    const visualRow = exercisesPerRow === 2 ? Math.floor(i / 2) : i;
+
+                    // Advance Y when starting new visual row
+                    if (visualRow > lastVisualRow) {
+                        if (lastVisualRow >= 0) {
+                            runningTop += maxHeightPerRow[lastVisualRow] + gap;
+                        }
+                        lastVisualRow = visualRow;
+                    }
+
+                    // Calculate X position
+                    let leftPos;
+                    if (exercisesPerRow === 2) {
+                        const col = i % 2;
+                        const colWidth = contentWidth / 2;
+                        leftPos = sideMargin + (col * colWidth) + (colWidth - row.getScaledWidth()) / 2;
+                    } else {
+                        leftPos = sideMargin + (contentWidth - row.getScaledWidth()) / 2;
+                    }
+
                     const newProps = {
-                        top: topPosition,
-                        left: leftPosition,
+                        top: runningTop,
+                        left: leftPos,
                         isGeneratedItem: true,
                         originalIndex: i,
                         ...getEditableGroupOptions(`Exercise ${i + 1}`)
                     };
-                    // Only apply saved transforms if exercise count AND canvas size haven't changed
                     if (shouldPreserveTransforms && oldTransforms[i]) {
                         Object.assign(newProps, oldTransforms[i]);
                     }
@@ -2068,11 +2774,132 @@
             });
             allBlocks.push(...exerciseRows);
 
+            // Step 4: Create letter legend at bottom if word reveal mode
+            // NEW COMPACT DESIGN - inline "A=12" format with subtle background
+            if (wordRevealMode && wordRevealData) {
+                const letterLegendGroup = await new Promise(async (resolve) => {
+                    const { letterToSum, distractorLetters, word } = wordRevealData;
+                    const uniqueLetters = [...new Set(word.split(''))];
+
+                    // Combine real letters and distractors, then shuffle
+                    const allLetterItems = [];
+
+                    // Add word letters with their sums
+                    uniqueLetters.forEach(letter => {
+                        allLetterItems.push({ letter, value: letterToSum[letter], isAnswer: true });
+                    });
+
+                    // Add distractors
+                    distractorLetters.forEach(({ letter, value }) => {
+                        allLetterItems.push({ letter, value, isAnswer: false });
+                    });
+
+                    // Shuffle for randomization
+                    allLetterItems.sort(() => 0.5 - Math.random());
+
+                    // Calculate position - below all exercises
+                    const lastExercise = exerciseRows[exerciseRows.length - 1];
+                    const lastExerciseBottom = lastExercise ? (lastExercise.top + lastExercise.getScaledHeight()) : currentY;
+
+                    // COMPACT DESIGN: Much smaller dimensions
+                    const letterFontSize = isLandscape ? 14 : 16;
+                    const itemWidth = isLandscape ? 48 : 54;  // Narrower items
+                    const letterSpacing = isLandscape ? 8 : 10;
+                    const rowHeight = isLandscape ? 26 : 30;  // Much smaller row height
+
+                    // Calculate how many items fit per row
+                    const maxRowWidth = contentWidth * 0.95;
+                    const itemTotalWidth = itemWidth + letterSpacing;
+                    const maxItemsPerRow = Math.max(1, Math.floor(maxRowWidth / itemTotalWidth));
+
+                    // Calculate number of rows needed
+                    const numRows = Math.ceil(allLetterItems.length / maxItemsPerRow);
+                    const actualLegendHeight = numRows * rowHeight + 16;  // +16 for padding
+
+                    // Position legend just above the inner border (close to bottom)
+                    // Use fixed 40px from canvas edge (border area + small padding)
+                    const bottomPosition = canvasHeight - 40 - actualLegendHeight;
+                    // Ensure legend doesn't overlap exercises (minimum gap of 15px)
+                    const legendYAdjusted = Math.max(lastExerciseBottom + 15, bottomPosition);
+
+                    // Create legend as a simple text string for cleaner layout
+                    // Format: "A=12  B=7  C=15  D=20" etc.
+                    const bgPadding = 16;
+                    const legendTextStr = allLetterItems.map(item => `${item.letter}=${item.value}`).join('   ');
+
+                    // Calculate if we need multiple rows
+                    const testText = new fabric.Text(legendTextStr, { fontSize: letterFontSize, fontFamily: 'Fredoka' });
+                    const singleRowWidth = testText.width;
+                    const availableRowWidth = contentWidth - bgPadding * 2;
+
+                    let legendText;
+                    if (singleRowWidth <= availableRowWidth) {
+                        // Single row fits
+                        legendText = new fabric.Text(legendTextStr, {
+                            fontSize: letterFontSize,
+                            fontFamily: 'Fredoka',
+                            fontWeight: '500',
+                            fill: '#333',
+                            left: bgPadding,
+                            top: bgPadding / 2
+                        });
+                    } else {
+                        // Need multiple rows - split items evenly
+                        const itemsPerRow = Math.ceil(allLetterItems.length / 2);
+                        const row1Items = allLetterItems.slice(0, itemsPerRow);
+                        const row2Items = allLetterItems.slice(itemsPerRow);
+                        const row1Str = row1Items.map(item => `${item.letter}=${item.value}`).join('   ');
+                        const row2Str = row2Items.map(item => `${item.letter}=${item.value}`).join('   ');
+
+                        legendText = new fabric.Text(row1Str + '\n' + row2Str, {
+                            fontSize: letterFontSize,
+                            fontFamily: 'Fredoka',
+                            fontWeight: '500',
+                            fill: '#333',
+                            left: bgPadding,
+                            top: bgPadding / 2,
+                            lineHeight: 1.4
+                        });
+                    }
+
+                    // Create background sized to text
+                    const legendBg = new fabric.Rect({
+                        width: legendText.width + bgPadding * 2,
+                        height: legendText.height + bgPadding,
+                        fill: '#f8f9fa',
+                        rx: 8,
+                        ry: 8,
+                        stroke: '#e0e0e0',
+                        strokeWidth: 1,
+                        left: 0,
+                        top: 0
+                    });
+
+                    // Combine background and text
+                    const letterLegend = new fabric.Group([legendBg, legendText], {
+                        top: legendYAdjusted,
+                        left: sideMargin,
+                        isGeneratedItem: true,
+                        isLetterLegend: true,
+                        originalIndex: -3,
+                        ...getEditableGroupOptions('Letter Legend')
+                    });
+
+                    // Center horizontally within content area
+                    const legendWidth = letterLegend.getScaledWidth();
+                    letterLegend.set('left', sideMargin + (contentWidth - legendWidth) / 2);
+
+                    resolve(letterLegend);
+                });
+                allBlocks.push(letterLegendGroup);
+            }
+
             // Add all blocks to canvas
             allBlocks.forEach(block => {
                 if(block) {
                     // Only apply saved transforms if exercise count AND canvas size haven't changed
-                    if (shouldPreserveTransforms && oldTransforms[block.originalIndex]) {
+                    // Only restore transforms for exercises (originalIndex >= 0), not name/date (-1) or legend (-2)
+                    if (shouldPreserveTransforms && block.originalIndex >= 0 && oldTransforms[block.originalIndex]) {
                          block.set(oldTransforms[block.originalIndex]);
                     }
                     worksheetCanvas.add(block);
@@ -2147,12 +2974,12 @@
         }
 
         async function generateAnswerKey() {
-            if (!worksheetCanvas || !worksheetCanvas.problemsData?.pool || !worksheetCanvas.problemsData?.pairs) {
+            if (!worksheetCanvas || !worksheetCanvas.problemsData?.pool || !worksheetCanvas.problemsData?.problems) {
                 showMessage(t('codeaddition.msg.generate.first'), 'error');
                 return;
             }
 
-            const { pool, pairs, numberAssignments } = worksheetCanvas.problemsData;
+            const { pool, problems, numberAssignments, wordRevealMode, wordRevealData } = worksheetCanvas.problemsData;
 
             // Detect if canvas size changed (e.g., paper size changed)
             const lastCanvasSize = answerKeyCanvas.lastCanvasSize || { width: 0, height: 0 };
@@ -2181,7 +3008,7 @@
             }
 
             // Only preserve transforms if BOTH exercise count AND canvas dimensions haven't changed
-            const numExercises = pairs.length;
+            const numExercises = problems.length;
             const shouldPreserveTransforms = (oldExerciseCount === numExercises) && !canvasSizeChanged;
 
             const userAddedObjectsOnKey = answerKeyCanvas.getObjects().filter(o =>
@@ -2224,100 +3051,160 @@
                 });
             }
 
-            const exerciseRowPromises = pairs.map((pair, i) => new Promise(async (resolveRow) => {
-                let currentX = 0;
-                const rowElements = [];
+            // Clone legend from worksheet to answer key (fills the gap and shows symbol values)
+            const worksheetLegend = worksheetCanvas.getObjects().find(o => o.isGeneratedItem && o.originalIndex === -2);
+            if (worksheetLegend) {
+                await new Promise(resolve => worksheetLegend.clone(cloned => {
+                    cloned.set({
+                        isAnswerKeyItem: true,
+                        originalIndex: -2  // Keep same index for legend
+                    });
+                    answerKeyCanvas.add(cloned);
+                    resolve();
+                }));
+            }
 
-                if (document.getElementById('includeExerciseNumbers').checked) {
-                    const exerciseNumText = new fabric.Text(`${i + 1}.`, { fontSize: 24, left: currentX, top: 35, fontFamily: 'Fredoka' });
-                    rowElements.push(exerciseNumText);
-                    currentX += 30;
-                }
+            // === MEASURE FIRST, SCALE SECOND ALGORITHM ===
+            // 1. Create all rows at BASE size (scale = 1.0)
+            // 2. Measure ACTUAL width and height of each row
+            // 3. Calculate scale factor to fit available space
+            // 4. Apply scale to ALL rows uniformly
+            // 5. Position rows based on scaled dimensions
 
-                const imgA = await fabricImageFromURL(pair[0].path);
-                imgA.scaleToHeight(90);
-                imgA.set({ left: currentX });
-                rowElements.push(imgA);
-                currentX += imgA.getScaledWidth() + 15;
+            // Phase 1: Setup & Constants
+            const sideMargin = isLandscape ? 60 : 40;
+            const bottomMargin = isLandscape ? 60 : 80;
+            const contentWidth = currentCanvasConfig.width - (sideMargin * 2);
 
-                const plusSign = new fabric.Text('+', { left: currentX, top: 30, fontSize: 30 });
-                rowElements.push(plusSign);
-                currentX += 25;
+            // Get legend position for startY
+            const clonedLegend = answerKeyCanvas.getObjects().find(o => o.originalIndex === -2);
+            const legendBottom = clonedLegend ? (clonedLegend.top + clonedLegend.getScaledHeight()) : 200;
+            const startY = legendBottom + 20;
 
-                const imgB = await fabricImageFromURL(pair[1].path);
-                imgB.scaleToHeight(90);
-                imgB.set({ left: currentX });
-                rowElements.push(imgB);
-                currentX += imgB.getScaledWidth() + 15;
+            // Reserve space for Word Reveal "Answer" text at bottom
+            const wordRevealSpace = (wordRevealMode && wordRevealData) ? 60 : 0;
+            const availableHeight = currentCanvasConfig.height - startY - bottomMargin - wordRevealSpace;
 
-                const aIndex = pool.findIndex(p => p.path === pair[0].path);
-                const bIndex = pool.findIndex(p => p.path === pair[1].path);
-                const aNumber = numberAssignments[pair[0].path];
-                const bNumber = numberAssignments[pair[1].path];
-                const equals = new fabric.Text(`= ${aNumber + bNumber}`, { left: currentX, top: 30, fontSize: 30, isEqualsSign: true, operandA_index: aIndex, operandB_index: bIndex });
-                rowElements.push(equals);
+            // Layout config
+            const exercisesPerRow = numExercises > 5 ? 2 : 1;
+            const numRows = Math.ceil(numExercises / exercisesPerRow);
 
-                const overlays = [];
-                rowElements.forEach(item => {
-                    if (item instanceof fabric.Image) {
-                         const imgIndex = pool.findIndex(p => item.getSrc().endsWith(p.path) || item.getSrc() === p.path);
-                         if (imgIndex !== -1) {
-                            const imgPath = pool[imgIndex].path;
-                            const assignedNumber = numberAssignments[imgPath];
-                            const overlay = new fabric.Group([
-                                new fabric.Circle({ radius: 10, fill: '#ffeb3b', stroke: '#333', strokeWidth: 1, top: 0, left: 0 }),
-                                new fabric.Text(String(assignedNumber), { fontSize: 12, originX: 'center', originY: 'center', left: 10, top: 10 })
-                            ], {
-                                left: item.left + (item.getScaledWidth() / 2) - 30,
-                                top: item.top - 20,
-                                selectable: false, evented: false
-                            });
-                            overlays.push(overlay);
-                         }
-                    }
-                });
+            // Phase 2: Create all rows at BASE size (scale = 1.0)
+            const BASE_IMAGE_SIZE = 55;
+            const BASE_FONT_SIZE = 18;
+            const BASE_SPACING = 8;
+            const MIN_GAP = 12;
 
-                const allRowObjects = [...rowElements, ...overlays];
-                const rowGroup = new fabric.Group(allRowObjects, { isAnswerKeyItem: true, originalIndex: i, ...getEditableGroupOptions(`Answer ${i+1}`) });
-                
-                resolveRow(rowGroup);
-            }));
+            const baseRows = await Promise.all(problems.map((addends, i) =>
+                createAnswerKeyRow(addends, i, BASE_IMAGE_SIZE, BASE_FONT_SIZE, BASE_SPACING,
+                                   wordRevealMode, wordRevealData, pool, numberAssignments)
+            ));
 
-            const newExerciseRows = await Promise.all(exerciseRowPromises);
+            // Phase 3: Measure actual dimensions and calculate scale
+            const rowWidths = baseRows.map(row => row.width);
+            const rowHeights = baseRows.map(row => row.height);
 
-            // Run positioning on first generation OR when canvas size changes
+            // Find max width for scale calculation
+            const maxRowWidth = Math.max(...rowWidths);
+
+            // Calculate max height per visual row (for 2-column layout, take max of pair)
+            const heightsPerVisualRow = [];
+            for (let r = 0; r < numRows; r++) {
+                const idx1 = r * exercisesPerRow;
+                const idx2 = exercisesPerRow === 2 && idx1 + 1 < rowHeights.length ? idx1 + 1 : idx1;
+                heightsPerVisualRow.push(Math.max(rowHeights[idx1], rowHeights[idx2] || 0));
+            }
+            const totalBaseHeight = heightsPerVisualRow.reduce((a, b) => a + b, 0);
+
+            // Calculate scale to fit both width AND height
+            const targetWidth = exercisesPerRow === 2 ? (contentWidth / 2) * 0.88 : contentWidth * 0.92;
+            const targetHeight = availableHeight - (numRows + 1) * MIN_GAP;
+
+            const scaleForWidth = targetWidth / maxRowWidth;
+            const scaleForHeight = targetHeight / totalBaseHeight;
+
+            // Use smaller scale to ensure fit, clamp between bounds
+            let scale = Math.min(scaleForWidth, scaleForHeight);
+            scale = Math.max(0.4, Math.min(scale, 1.5));
+
+            // Phase 4: Apply scale to all rows
+            baseRows.forEach(row => row.scale(scale));
+
+            // Calculate actual scaled heights for positioning
+            const scaledHeightsPerVisualRow = heightsPerVisualRow.map(h => h * scale);
+            const totalScaledHeight = scaledHeightsPerVisualRow.reduce((a, b) => a + b, 0);
+            const remainingSpace = availableHeight - totalScaledHeight;
+            const gap = Math.max(MIN_GAP, remainingSpace / (numRows + 1));
+
+            // Phase 5: Position rows
             if (isFirstAnswerKeyGeneration || !shouldPreserveTransforms) {
-                const worksheetExercises = worksheetCanvas.getObjects().filter(o => o.isGeneratedItem && o.originalIndex >= 0);
+                let currentTop = startY + gap;
 
-                // Check if worksheet has name/date field to adjust answer key positions
-                const hasNameDate = worksheetCanvas.getObjects().some(o => o.isGeneratedItem && o.originalIndex === -1);
-                const nameDateOffset = hasNameDate ? 60 : 0; // Approximate height of name/date section (header is on both, so no adjustment needed)
+                baseRows.forEach((row, i) => {
+                    const visualRow = exercisesPerRow === 2 ? Math.floor(i / 2) : i;
+                    const col = exercisesPerRow === 2 ? i % 2 : 0;
 
-                newExerciseRows.forEach((row, i) => {
-                    const correspondingWorksheetRow = worksheetExercises.find(item => item.originalIndex === i);
-                    if (correspondingWorksheetRow) {
-                        // Add extra vertical spacing for answer key to accommodate number overlays
-                        const extraAnswerKeySpacing = i * 20; // 20px extra per row for number circle overlays
-                        const answerKeyOffset = 80; // Move exercises up closer to description in answer key
-                        row.set({
-                            top: correspondingWorksheetRow.top - nameDateOffset + extraAnswerKeySpacing - answerKeyOffset,
-                            left: correspondingWorksheetRow.left,
-                            scaleX: correspondingWorksheetRow.scaleX,
-                            scaleY: correspondingWorksheetRow.scaleY,
-                            angle: correspondingWorksheetRow.angle,
-                        });
+                    // Advance Y for new visual row (except first)
+                    if (i > 0 && (exercisesPerRow === 1 || i % 2 === 0)) {
+                        const prevVisualRow = exercisesPerRow === 2 ? Math.floor((i - 1) / 2) : i - 1;
+                        currentTop += scaledHeightsPerVisualRow[prevVisualRow] + gap;
                     }
+
+                    // Calculate X position (centered in column)
+                    const colWidth = exercisesPerRow === 2 ? contentWidth / 2 : contentWidth;
+                    const colStart = sideMargin + (col * colWidth);
+                    const leftPos = colStart + (colWidth - row.getScaledWidth()) / 2;
+
+                    row.set({
+                        top: currentTop,
+                        left: leftPos,
+                        isAnswerKeyItem: true,
+                        originalIndex: i
+                    });
                 });
             } else {
-                // Only apply saved transforms if exercise count AND canvas size haven't changed
-                newExerciseRows.forEach((row, i) => {
+                // Restore saved transforms if preserving user edits
+                baseRows.forEach((row, i) => {
                     if (oldTransforms[i]) {
                         row.set(oldTransforms[i]);
                     }
                 });
             }
 
+            const newExerciseRows = baseRows;
             answerKeyCanvas.add(...newExerciseRows, ...userAddedObjectsOnKey);
+
+            // Add revealed word text for word reveal mode
+            if (wordRevealMode && wordRevealData) {
+                const isLandscape = currentCanvasConfig.width > currentCanvasConfig.height;
+                const sideMargin = isLandscape ? 60 : 40;
+                const bottomMargin = isLandscape ? 60 : 80;
+                const contentWidth = currentCanvasConfig.width - (sideMargin * 2);
+
+                // Position revealed word below last exercise, with minimal border clearance
+                const lastExercise = newExerciseRows[newExerciseRows.length - 1];
+                const lastExerciseBottom = lastExercise ? (lastExercise.top + lastExercise.getScaledHeight()) : currentCanvasConfig.height - 150;
+                const TEXT_HEIGHT = 40;  // Approximate height of revealed word text
+                const desiredY = lastExerciseBottom + 25; // 25px below last exercise
+                const maxY = currentCanvasConfig.height - 25 - TEXT_HEIGHT; // Allow word close to edge (just 25px clearance)
+                const revealedWordY = Math.min(desiredY, maxY);
+
+                const revealedWordText = new fabric.Text(`${t('codeaddition.answer.word') || 'Answer:'} ${wordRevealData.word}`, {
+                    fontSize: isLandscape ? 28 : 32,
+                    fontFamily: 'Fredoka',
+                    fontWeight: 'bold',
+                    fill: '#1976d2',
+                    top: revealedWordY,
+                    left: sideMargin,
+                    isAnswerKeyItem: true,
+                    originalIndex: -4,
+                    ...getEditableGroupOptions('Revealed Word')
+                });
+
+                // Center it
+                revealedWordText.set('left', sideMargin + (contentWidth - revealedWordText.width) / 2);
+                answerKeyCanvas.add(revealedWordText);
+            }
 
             enforceZOrder(answerKeyCanvas);
             userAddedObjectsOnKey.forEach(o => o.bringToFront());
@@ -2561,6 +3448,89 @@
                 cornerColor: 'var(--app-accent-primary)',
                 cornerSize: 10, transparentCorners: false, cornerStyle: 'circle'
             };
+        }
+
+        // Helper function to create a single answer key row at BASE size (scale=1.0)
+        // Returns a fabric.Group that can be measured and scaled afterward
+        async function createAnswerKeyRow(addends, index, imageSize, fontSize, spacing,
+                                          wordRevealMode, wordRevealData, pool, numberAssignments) {
+            const rowElements = [];
+            let currentX = 0;
+            let totalSum = 0;
+            const circleRadius = 9;
+            const overlayOffset = circleRadius * 2 + 4; // Space above images for overlays
+
+            // Exercise number
+            if (document.getElementById('includeExerciseNumbers').checked) {
+                const numText = new fabric.Text(`${index + 1}.`, {
+                    fontSize: fontSize,
+                    left: currentX,
+                    top: overlayOffset + imageSize / 2,
+                    originY: 'center',
+                    fontFamily: 'Fredoka'
+                });
+                rowElements.push(numText);
+                currentX += numText.width + 8;
+            }
+
+            // Load and position images with overlays
+            for (let j = 0; j < addends.length; j++) {
+                const img = await fabricImageFromURL(addends[j].path);
+                img.scaleToHeight(imageSize);
+
+                const number = numberAssignments[addends[j].path];
+                totalSum += number;
+
+                // Position image (leave space above for overlay circle)
+                img.set({ left: currentX, top: overlayOffset + imageSize / 2, originY: 'center' });
+                rowElements.push(img);
+
+                // Add overlay circle above image
+                const overlay = new fabric.Group([
+                    new fabric.Circle({ radius: circleRadius, fill: '#ffeb3b', stroke: '#333', strokeWidth: 1, left: 0, top: 0 }),
+                    new fabric.Text(String(number), { fontSize: 11, originX: 'center', originY: 'center', left: circleRadius, top: circleRadius })
+                ], {
+                    left: currentX + img.getScaledWidth() / 2 - circleRadius,
+                    top: 0,
+                    selectable: false,
+                    evented: false
+                });
+                rowElements.push(overlay);
+
+                currentX += img.getScaledWidth() + spacing;
+
+                // Plus sign (except after last)
+                if (j < addends.length - 1) {
+                    const plus = new fabric.Text('+', {
+                        fontSize: fontSize * 1.2,
+                        left: currentX,
+                        top: overlayOffset + imageSize / 2,
+                        originY: 'center'
+                    });
+                    rowElements.push(plus);
+                    currentX += plus.width + spacing;
+                }
+            }
+
+            // Answer text
+            const answerText = wordRevealMode && wordRevealData
+                ? `= ${totalSum} → ${wordRevealData.problems[index].letter}`
+                : `= ${totalSum}`;
+
+            const answer = new fabric.Text(answerText, {
+                fontSize: fontSize * 1.2,
+                left: currentX,
+                top: overlayOffset + imageSize / 2,
+                originY: 'center',
+                fontFamily: 'Fredoka'
+            });
+            rowElements.push(answer);
+
+            return new fabric.Group(rowElements, {
+                isAnswerKeyItem: true,
+                originalIndex: index,
+                ...getEditableGroupOptions(`Answer ${index + 1}`)
+            });
         }
 
         addTextBtn.addEventListener('click', () => {
@@ -3304,8 +4274,21 @@ async function downloadPDF(canvasInstance, baseFileName) {
         }
 
         async function prepareExerciseImages() {
+            const symbolCount = getSymbolCount();
             let sourcePool = [...selectedImages];
-            if (sourcePool.length < MAX_IMAGES) {
+
+            // Ensure unique images only
+            const uniquePool = [];
+            const usedPaths = new Set();
+            for (const img of sourcePool) {
+                if (!usedPaths.has(img.path)) {
+                    usedPaths.add(img.path);
+                    uniquePool.push(img);
+                }
+            }
+            sourcePool = uniquePool;
+
+            if (sourcePool.length < symbolCount) {
                 let randomPool = [];
                 if (themeSelect.value !== 'all') {
                     randomPool = [...currentThemeImages];
@@ -3321,16 +4304,22 @@ async function downloadPDF(canvasInstance, baseFileName) {
                 }
                 randomPool.push(...userUploadedImages);
 
-                const available = randomPool.filter(x => !sourcePool.some(p => p.path === x.path));
-                while(sourcePool.length < MAX_IMAGES && available.length > 0) {
-                    sourcePool.push(available.splice(Math.random() * available.length | 0, 1)[0]);
+                // Filter out already used images
+                const available = randomPool.filter(x => !usedPaths.has(x.path));
+                while(sourcePool.length < symbolCount && available.length > 0) {
+                    const img = available.splice(Math.random() * available.length | 0, 1)[0];
+                    if (!usedPaths.has(img.path)) {
+                        usedPaths.add(img.path);
+                        sourcePool.push(img);
+                    }
                 }
             }
-            
-            while (sourcePool.length > 0 && sourcePool.length < MAX_IMAGES) {
+
+            // Only add duplicates as a last resort (shouldn't happen with good themes)
+            while (sourcePool.length > 0 && sourcePool.length < symbolCount) {
                 sourcePool.push(sourcePool[Math.floor(Math.random() * sourcePool.length)]);
             }
-            return sourcePool.slice(0, MAX_IMAGES);
+            return sourcePool.slice(0, symbolCount);
         }
 
         // --- Event Listeners & Initial Load ---
@@ -3390,6 +4379,32 @@ async function downloadPDF(canvasInstance, baseFileName) {
 
         generateWorksheetBtn.addEventListener("click", generateWorksheet);
         generateAnswerKeyBtn.addEventListener("click", generateAnswerKey);
+
+        // Word Reveal Mode toggle
+        const wordRevealCheckbox = document.getElementById('wordRevealMode');
+        const wordRevealOptions = document.getElementById('wordRevealOptions');
+        const exerciseCountInput = document.getElementById('exerciseCount');
+        const secretWordInput = document.getElementById('secretWord');
+
+        if (wordRevealCheckbox && wordRevealOptions) {
+            wordRevealCheckbox.addEventListener('change', () => {
+                wordRevealOptions.style.display = wordRevealCheckbox.checked ? 'block' : 'none';
+                // Disable/enable exercise count based on word reveal mode
+                if (exerciseCountInput) {
+                    exerciseCountInput.disabled = wordRevealCheckbox.checked;
+                    exerciseCountInput.style.opacity = wordRevealCheckbox.checked ? '0.5' : '1';
+                }
+            });
+        }
+
+        if (secretWordInput) {
+            // Convert to uppercase and filter non-letters
+            // Support all 11 languages: EN, DE, FR, ES, IT, PT, NL, DA, SV, NO, FI
+            // Includes accented characters: ÄÖÜÀÂÇÉÈÊËÎÏÔÛÙŸŒÆÁÍÓÚÑÌÃÕØÅ
+            secretWordInput.addEventListener('input', (e) => {
+                e.target.value = e.target.value.toUpperCase().replace(/[^A-ZÄÖÜÀÂÇÉÈÊËÎÏÔÛÙŸŒÆÁÍÓÚÑÌÃÕØÅ]/g, '');
+            });
+        }
 
         // Zoom Controls
         zoomInBtn.addEventListener('click', zoomIn);
@@ -3733,16 +4748,18 @@ async function downloadPDF(canvasInstance, baseFileName) {
             languageSelect.value = currentLocale;
         }
 
-        // Language change handler (sidebar selector - ONLY changes image library language)
-        // This selector ONLY changes the image library language, NOT the UI language
+        // Language change handler (sidebar selector - changes BOTH image library AND UI language)
+        // When user selects a language, ALL text should update to that language
         if (languageSelect) {
             languageSelect.addEventListener('change', function() {
                 const newLocale = this.value;
                 currentLocale = newLocale;
                 window.currentLocale = currentLocale;  // Update global
-                console.log('Image library language changed to:', currentLocale);
+                window.uiLocale = newLocale;  // Also update UI locale so all text changes
+                console.log('Language changed to:', currentLocale);
 
-                // DO NOT call initializeTranslations() - UI language is controlled by header selector
+                // Re-apply translations to update all UI text
+                initializeTranslations();
 
                 // Reload themes with new locale
                 initializeImageLibrary();

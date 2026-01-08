@@ -2954,13 +2954,13 @@
         }
       }
 
-      elementToImage = {}; 
-      let shuffledImages = [...selectedImages].sort(() => Math.random() - 0.5); 
+      elementToImage = {};
+      let shuffledImages = [...selectedImages].sort(() => Math.random() - 0.5);
 
       patternElements.forEach((symbol, index) => {
           elementToImage[symbol] = shuffledImages[index % shuffledImages.length];
       });
-      
+
       await buildWorksheetOnCanvas();
       await buildAnswerKeyOnCanvas();
       updateDownloadButtonsState(true);
@@ -3088,14 +3088,14 @@
             const randomExtras = available.sort(() => Math.random()-0.5).slice(0,extraCount);
             lastPosIndices = [...firstFixed, ...randomExtras].sort((a,b) => a-b);
 
-            const conceptualBoxSizeForScaling = WAGON_BOX_SIZE_BASE * dynamicScale * 0.65 * 1.3 * 1.2;
+            const conceptualBoxSizeForScaling = WAGON_BOX_SIZE_BASE * dynamicScale * 0.65 * 1.3 * 1.2 * 0.7;  // 30% reduction
 
             // Check if page is in portrait mode
             const isPortrait = currentCanvasConfig.height > currentCanvasConfig.width;
 
             for (let i = 0; i < lastFullSeq.length; i++) {
-                const sym = lastFullSeq[i];
                 const idx = lastPosIndices[i];
+                const sym = seqArr[idx];  // Use wagon position to get correct pattern symbol
                 const basePos = BASE_WAGON_POSITIONS[idx];
                 const adj = EXTRA_ADJUSTMENTS[idx];
 
@@ -3107,8 +3107,8 @@
                 clueFabImg.scale(scaleFactor).set({
                     left: finalLeft + ((WAGON_BOX_SIZE_BASE * dynamicScale - clueFabImg.getScaledWidth()) / 2) - 8,
                     top: finalTop + ((WAGON_BOX_SIZE_BASE * dynamicScale - clueFabImg.getScaledHeight()) / 2) - 20,
-                    originX: 'left', originY: 'top', 
-                    selectable: true, 
+                    originX: 'left', originY: 'top',
+                    selectable: true,
                     evented: true,
                     hasControls: true,
                     hasBorders: true,
@@ -3118,13 +3118,17 @@
                     transparentCorners: false,
                     cornerStyle: 'circle'
                 });
+                clueFabImg.wagonPosition = idx;  // Store actual wagon position for generationId
                 masterElements.push(clueFabImg);
             }
 
-            const missing = seqArr.slice(currentClueCount);
+            // Calculate which positions are actually missing from the train (not in lastPosIndices)
+            const allPositions = [0,1,2,3,4,5,6,7,8,9,10];
+            const missingPositions = allPositions.filter(pos => !lastPosIndices.includes(pos));
+            const missing = missingPositions.map(pos => seqArr[pos]);
             if (missing.length) {
                 const shuffledMissingSymbols = missing.map(sym => elementToImage[sym]).sort(() => Math.random() - 0.5);
-                const cutoutSizeMultiplier = 1.2;
+                const cutoutSizeMultiplier = 1.32;  // 10% bigger boxes (1.2 * 1.1)
                 const enlargedCutBoxSize = (WAGON_BOX_SIZE_BASE * 0.6156 * dynamicScale) * cutoutSizeMultiplier;
                 const cutSpacing = 10 * dynamicScale; // Match Alphabet Train spacing
 
@@ -3186,9 +3190,10 @@
             
             // Add wagon images as individual objects (skip first element which is trainBgImg)
             for (let i = 1; i < masterElements.length; i++) {
+                const wagonPos = masterElements[i].wagonPosition;  // Use actual wagon position
                 masterElements[i].set({
                     isTrainGeneratedItem: true,
-                    generationId: `wagonImage_${i-1}`
+                    generationId: `wagonImage_pos_${wagonPos}`  // Use wagon position, not array index!
                 });
                 newGeneratedItems.push(masterElements[i]);
             }
@@ -3319,17 +3324,17 @@
             const trainLeftEdge = trainCenterX;
             const dynamicScale = trainBgImg.getScaledWidth() / 940; // Scale based on actual train width
 
-            const conceptualBoxSizeForScaling = WAGON_BOX_SIZE_BASE * dynamicScale * 0.65 * 1.3 * 1.2;
+            const conceptualBoxSizeForScaling = WAGON_BOX_SIZE_BASE * dynamicScale * 0.65 * 1.3 * 1.2 * 0.7;  // 30% reduction
             const imageLoadPromises = [];
 
             // Check if page is in portrait mode
             const isPortrait = currentCanvasConfig.height > currentCanvasConfig.width;
-            
+
             fullPatternSequence.forEach((sym, idx) => {
                 const basePos = BASE_WAGON_POSITIONS[idx];
                 const adj = EXTRA_ADJUSTMENTS[idx];
                 if (!basePos || !adj) return;
-                
+
                 const finalTop = canvasBgTopEdge + ((basePos.top + adj.deltaTop) * dynamicScale);
                 const finalLeft = trainLeftEdge + ((basePos.left + adj.deltaLeft) * dynamicScale);
                 if (!elementToImage[sym] || !elementToImage[sym].path) return;

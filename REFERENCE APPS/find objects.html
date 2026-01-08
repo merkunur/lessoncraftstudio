@@ -1427,8 +1427,8 @@ function updateTranslations() {
                     // Set distractor theme to animals
                     distractorThemeSelect.value = 'animals';
 
-                    // Set hidden object theme to food
-                    hiddenObjectThemeSelect.value = 'food';
+                    // Set hidden object theme to fruits
+                    hiddenObjectThemeSelect.value = 'fruits';
 
                     // Update the generate button state
                     updateGenerateButton();
@@ -3522,7 +3522,7 @@ function updateTranslations() {
 
             // More controlled size variation - prevent huge objects
             // I spy mode uses original sizes
-            const minSize = baseSize * 0.7;  // Minimum size
+            const minSize = baseSize * 0.7 * 0.5;  // Minimum size (50% reduction)
             const relativeMaxSize = minSize * 2.5;   // Maximum size (2.5x ratio instead of 4x)
             const absoluteMaxSize = isLandscape ? 180 : 150; // Absolute maximum to prevent huge images
             const maxSize = Math.min(relativeMaxSize, absoluteMaxSize); // Use the smaller of the two
@@ -3599,7 +3599,7 @@ function updateTranslations() {
             if (isOddOneOutMode) {
 
                 // Odd one out mode uses LARGER sizes (50% bigger than I spy)
-                const oddMinSize = baseSize * 1.05;  // 50% larger minimum
+                const oddMinSize = baseSize * 1.05 * 0.5;  // 50% larger minimum (50% reduction)
                 const oddRelativeMaxSize = oddMinSize * 2.5;
                 const oddAbsoluteMaxSize = isLandscape ? 270 : 225; // 50% larger maximum
                 const oddMaxSize = Math.min(oddRelativeMaxSize, oddAbsoluteMaxSize);

@@ -2269,7 +2269,7 @@ document.addEventListener("DOMContentLoaded", async function() {
         const height = currentCanvasConfig.height;
         const contentW = width - margin * 2;
         const contentH = height - startY - margin;
-        const cellSize = contentW * 0.18;
+        const cellSize = contentW * 0.117;
         const drawingWidth = contentW * 0.55;
 
         const tops = data.pairs.length > 1
@@ -2319,7 +2319,7 @@ document.addEventListener("DOMContentLoaded", async function() {
         const contentH = height - startY - margin;
         const numCols = data.pairs.length;
         const colWidth = contentW / numCols;
-        const cellSize = colWidth * 0.8;
+        const cellSize = colWidth * 0.52;
         const drawingHeight = contentH * 0.5;
 
         // PERFORMANCE FIX: Use preloaded images (already loaded in generateWorksheet)

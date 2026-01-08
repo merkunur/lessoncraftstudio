@@ -3251,12 +3251,25 @@
                 exerciseItems.push(prepText);
 
                 // Generate 2 distractor options with different prepositions
-                const allPreps = [...PREPOSITIONS];
-                const distractorPreps = allPreps.filter(p => p !== assignment.preposition);
-                const shuffledDistractors = shuffleArray(distractorPreps).slice(0, 2);
+                // FIX: Store actual distractor prepositions to ensure consistency between worksheet and answer key
+                let distractor1Prep, distractor2Prep;
+                if (isAnswerKey && assignment.storedDistractors) {
+                    // Answer key: use the SAME distractors as worksheet (stored on assignment object)
+                    distractor1Prep = assignment.storedDistractors[0];
+                    distractor2Prep = assignment.storedDistractors[1];
+                } else {
+                    // Worksheet: generate random distractors and store them for answer key
+                    const allPreps = [...PREPOSITIONS];
+                    const distractorPreps = allPreps.filter(p => p !== assignment.preposition);
+                    const shuffledDistractors = shuffleArray(distractorPreps).slice(0, 2);
+                    distractor1Prep = shuffledDistractors[0];
+                    distractor2Prep = shuffledDistractors[1];
+                    // Store distractors on assignment object for answer key to use
+                    assignment.storedDistractors = [distractor1Prep, distractor2Prep];
+                }
 
-                const distractor1Assignment = { ...assignment, preposition: shuffledDistractors[0] };
-                const distractor2Assignment = { ...assignment, preposition: shuffledDistractors[1] };
+                const distractor1Assignment = { ...assignment, preposition: distractor1Prep };
+                const distractor2Assignment = { ...assignment, preposition: distractor2Prep };
 
                 // SHUFFLE ASSIGNMENTS FIRST (before creating groups)
                 const assignmentsToCreate = [
@@ -3274,7 +3287,7 @@
                     shuffledAssignments = shuffleArray(assignmentsToCreate);
                     // Save shuffle order (indices 0,1,2 in shuffled order)
                     assignment.multipleChoiceOrder = shuffledAssignments.map(item =>
-                        item.isCorrect ? 0 : (item.assignment.preposition === shuffledDistractors[0] ? 1 : 2)
+                        item.isCorrect ? 0 : (item.assignment.preposition === distractor1Prep ? 1 : 2)
                     );
                 }
 

@@ -2635,7 +2635,7 @@
             
             // Calculate base dimensions
             const baseRowHeight = 85;
-            const baseRowWidth = 120 + 15 + (8 * 45); // image + padding + max 8 letter cells
+            const baseRowWidth = 78 + 15 + (8 * 45); // image + padding + max 8 letter cells (35% reduction: 120 * 0.65 = 78)
             
             // Calculate optimal scale
             let scale = 1.0;
@@ -2662,7 +2662,7 @@
             // Calculate scaled dimensions
             const cellWidth = 45 * scale;
             const cellHeight = 45 * scale;
-            const imageWidth = 120 * scale;
+            const imageWidth = 78 * scale; // 35% reduction: 120 * 0.65 = 78
             const fontSize = Math.max(18, 30 * scale);
             const numFontSize = Math.max(14, 24 * scale);
             

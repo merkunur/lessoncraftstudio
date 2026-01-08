@@ -2400,13 +2400,14 @@
             
             offCtx.beginPath();
             let w = RENDER_SIZE, h = RENDER_SIZE;
+            const centerX = RENDER_SIZE / 2, centerY = RENDER_SIZE / 2;
             switch(shape) {
                 case "square": offCtx.rect(0, 0, w, h); break;
-                case "rectPortrait": w *= 0.8; offCtx.rect(0, 0, w, h); break;
-                case "rectLandscape": h *= 0.8; offCtx.rect(0, 0, w, h); break;
-                case "circle": offCtx.arc(w/2, h/2, w/2, 0, Math.PI * 2); break;
-                case "ellipsePortrait": w *= 0.8; offCtx.ellipse(w/2, h/2, w/2, h/2, 0, 0, Math.PI*2); break;
-                case "ellipseLandscape": h *= 0.8; offCtx.ellipse(w/2, h/2, w/2, h/2, 0, 0, Math.PI*2); break;
+                case "rectPortrait": w *= 0.8; offCtx.rect((RENDER_SIZE - w) / 2, 0, w, h); break;
+                case "rectLandscape": h *= 0.8; offCtx.rect(0, (RENDER_SIZE - h) / 2, w, h); break;
+                case "circle": offCtx.arc(centerX, centerY, RENDER_SIZE / 2, 0, Math.PI * 2); break;
+                case "ellipsePortrait": w *= 0.8; offCtx.ellipse(centerX, centerY, w / 2, h / 2, 0, 0, Math.PI * 2); break;
+                case "ellipseLandscape": h *= 0.8; offCtx.ellipse(centerX, centerY, w / 2, h / 2, 0, 0, Math.PI * 2); break;
             }
             offCtx.closePath(); offCtx.save(); offCtx.clip();
             offCtx.drawImage(img, sx, sy, sCutWidth, sCutHeight, 0, 0, RENDER_SIZE, RENDER_SIZE);

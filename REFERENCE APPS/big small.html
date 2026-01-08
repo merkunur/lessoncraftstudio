@@ -2576,8 +2576,8 @@
 
       // --- APP-SPECIFIC LOGIC ---
       function scaleSet(n) {
-          if (n === 2) return Math.random() < 0.5 ? [1, 1.8] : [1.8, 1];
-          return [0.9, 1.6, 2.0].sort(() => Math.random() - 0.5);
+          if (n === 2) return Math.random() < 0.5 ? [1, 1.53] : [1.53, 1];
+          return [0.9, 1.36, 1.7].sort(() => Math.random() - 0.5);
       }
 
       // --- HEADER & BORDER FUNCTIONS ---
@@ -2995,14 +2995,14 @@
                 const loadedImageObjects = await Promise.all(cell.imgs.map(info => new Promise(resolveImg => {
                     fabric.Image.fromURL(info.path, (img) => {
                         const baseScaleFactor = (imgCount === 3) ? 0.98 : 0.7;
-                        const targetHeight = BOX_HEIGHT * baseScaleFactor * info.size;
+                        const targetHeight = BOX_HEIGHT * baseScaleFactor * info.size * 0.595;
                         img.scaleToHeight(targetHeight);
                         resolveImg(img);
                     }, { crossOrigin: 'anonymous' });
                 })));
 
                 const totalImageWidth = loadedImageObjects.reduce((sum, img) => sum + img.getScaledWidth(), 0);
-                const availableWidth = (imgCount === 3) ? (BOX_WIDTH - 5) : (BOX_WIDTH - 20); 
+                const availableWidth = (imgCount === 3) ? (BOX_WIDTH - 5) : (BOX_WIDTH - 20);
                 if (totalImageWidth > availableWidth) {
                     const downscaleRatio = availableWidth / totalImageWidth;
                     loadedImageObjects.forEach(img => {
@@ -3013,15 +3013,20 @@
                 const finalTotalWidth = loadedImageObjects.reduce((sum, img) => sum + img.getScaledWidth(), 0);
                 const imgGap = (BOX_WIDTH - finalTotalWidth) / (loadedImageObjects.length + 1);
                 let currentX = imgGap;
+
+                // Find the tallest image and calculate its center position
+                const tallestHeight = Math.max(...loadedImageObjects.map(img => img.getScaledHeight()));
+                const tallestCenterY = 10 + tallestHeight / 2;
+
                 loadedImageObjects.forEach(img => {
-                    img.set({ left: currentX, top: (BOX_HEIGHT - img.getScaledHeight()) / 2 });
+                    img.set({ left: currentX, top: tallestCenterY - img.getScaledHeight() / 2 });
                     currentX += img.getScaledWidth() + imgGap;
                 });
 
                 const placeholders = [];
                 if (addIndicatorsCheckbox.checked) {
                     loadedImageObjects.forEach(img => {
-                        const indicatorProps = { left: img.left + img.getScaledWidth() / 2, top: boxRect.height - 15, originX: 'center', originY: 'center', isPlaceholder: true };
+                        const indicatorProps = { left: img.left + img.getScaledWidth() / 2, top: boxRect.height - 11, originX: 'center', originY: 'center', isPlaceholder: true };
                         if (qType.startsWith('order')) {
                             placeholders.push(new fabric.Rect({ ...indicatorProps, width: 20, height: 20, fill: 'rgba(0,0,0,0.05)', stroke: '#BBB', rx: 4, ry: 4 }));
                         } else { 
@@ -3328,7 +3333,7 @@
                 const loadedImageObjects = await Promise.all(cell.imgs.map(info => new Promise(resolveImg => {
                     fabric.Image.fromURL(info.path, (img) => {
                         const baseScaleFactor = (imgCount === 3) ? 0.98 : 0.7;
-                        const targetHeight = BOX_HEIGHT * baseScaleFactor * info.size;
+                        const targetHeight = BOX_HEIGHT * baseScaleFactor * info.size * 0.595;
                         img.scaleToHeight(targetHeight);
                         resolveImg(img);
                     }, { crossOrigin: 'anonymous' });
@@ -3344,8 +3349,13 @@
                 const finalTotalWidth = loadedImageObjects.reduce((sum, img) => sum + img.getScaledWidth(), 0);
                 const imgGap = (BOX_WIDTH - finalTotalWidth) / (loadedImageObjects.length + 1);
                 let currentX = imgGap;
+
+                // Find the tallest image and calculate its center position
+                const tallestHeight = Math.max(...loadedImageObjects.map(img => img.getScaledHeight()));
+                const tallestCenterY = 10 + tallestHeight / 2;
+
                 loadedImageObjects.forEach(img => {
-                    img.set({ left: currentX, top: (BOX_HEIGHT - img.getScaledHeight()) / 2 });
+                    img.set({ left: currentX, top: tallestCenterY - img.getScaledHeight() / 2 });
                     currentX += img.getScaledWidth() + imgGap;
                 });
 
@@ -3354,7 +3364,7 @@
                     const correctImage = loadedImageObjects[cell.answerIdx];
                     const answerTick = new fabric.Text('✔', {
                         left: correctImage.left + correctImage.getScaledWidth() / 2,
-                        top: boxRect.height - 15,
+                        top: boxRect.height - 11,
                         originX: 'center', originY: 'center',
                         fontSize: 24,
                         fill: 'green',
@@ -3367,7 +3377,7 @@
                         const correctImage = loadedImageObjects[originalIndex];
                         const answerNum = new fabric.Text(String(orderIndex + 1), {
                             left: correctImage.left + correctImage.getScaledWidth() / 2,
-                            top: boxRect.height - 15,
+                            top: boxRect.height - 11,
                             originX: 'center', originY: 'center',
                             fontSize: 18, fill: 'red', fontWeight: 'bold'
                         });

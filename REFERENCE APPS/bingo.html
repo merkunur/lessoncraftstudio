@@ -2323,7 +2323,7 @@
                               return;
                           }
                           const radius = chipSize / 2;
-                          const scale = Math.min((chipSize * 1.235) / img.width, (chipSize * 1.235) / img.height); // Image 30% larger (0.95 * 1.3 = 1.235)
+                          const scale = Math.min((chipSize * 0.84) / img.width, (chipSize * 0.84) / img.height); // 35% smaller than original
                           const pattern = new fabric.Pattern({
                               source: img.getElement(),
                               repeat: 'no-repeat',
@@ -2480,46 +2480,103 @@
         const availableWidth = canvasWidth - (sideMargin * 2);
         const availableHeight = canvasHeight - headerTotalHeight - bottomMargin;
         
+        // ============================================
+        // DYNAMIC GRID WITH UNIFORM FONT SIZE
+        // No word breaking - all words same font size
+        // ============================================
+
         const numCalloutWords = uniqueWords.length;
-        const calloutCols = Math.min(6, Math.ceil(Math.sqrt(numCalloutWords * 1.5)));
+
+        // Step 1: Find the longest word
+        const longestWord = uniqueWords.reduce((a, b) => a.length > b.length ? a : b, '');
+        const longestLength = longestWord.length;
+
+        // Step 2: Calculate optimal number of columns based on longest word
+        // Fewer columns for longer words to ensure they fit without breaking
+        let calloutCols;
+        if (longestLength <= 6) {
+            calloutCols = Math.min(6, Math.ceil(Math.sqrt(numCalloutWords * 1.5)));
+        } else if (longestLength <= 9) {
+            calloutCols = Math.min(5, Math.ceil(Math.sqrt(numCalloutWords * 1.3)));
+        } else if (longestLength <= 12) {
+            calloutCols = Math.min(4, Math.ceil(Math.sqrt(numCalloutWords)));
+        } else if (longestLength <= 15) {
+            calloutCols = Math.min(3, Math.ceil(Math.sqrt(numCalloutWords * 0.8)));
+        } else {
+            calloutCols = Math.min(3, Math.ceil(Math.sqrt(numCalloutWords * 0.6)));
+        }
+
+        // Ensure at least 2 columns and not more words per row than total words
+        calloutCols = Math.max(2, Math.min(calloutCols, numCalloutWords));
         const calloutRows = Math.ceil(numCalloutWords / calloutCols);
-        
-        // Ensure cells fit within available space
+
+        // Step 3: Calculate cell dimensions
         let cellWidth = availableWidth / calloutCols;
         let cellHeight = availableHeight / calloutRows;
-        
-        // Limit cell size for readability
-        const maxCellSize = 120;
-        if (cellWidth > maxCellSize || cellHeight > maxCellSize) {
-            const scale = Math.min(maxCellSize / cellWidth, maxCellSize / cellHeight);
-            cellWidth *= scale;
-            cellHeight *= scale;
+
+        // Limit max cell size for aesthetics
+        const maxCellWidth = 180;
+        const maxCellHeight = 100;
+        if (cellWidth > maxCellWidth) {
+            cellWidth = maxCellWidth;
         }
-        const cellGap = 10;
+        if (cellHeight > maxCellHeight) {
+            cellHeight = maxCellHeight;
+        }
+
+        const cellGap = 8;
+        const textPadding = 12;
+        const cardWidth = cellWidth - cellGap;
+        const cardHeight = cellHeight - cellGap;
+        const textAreaWidth = cardWidth - textPadding;
+
+        // Step 4: Calculate UNIFORM font size that fits the longest word
+        // All cards will use this same font size
+        const charWidthRatio = 0.58; // Average character width as fraction of font size
+        const maxFontByWidth = textAreaWidth / (longestLength * charWidthRatio);
+        const maxFontByHeight = cardHeight * 0.45;
+        const uniformFontSize = Math.max(10, Math.min(maxFontByWidth, maxFontByHeight, 22));
+
         const gridElements = [];
 
-        // Calculate actual grid dimensions and position below header
+        // Calculate actual grid dimensions and center it
         const actualGridWidth = calloutCols * cellWidth;
         const actualGridHeight = calloutRows * cellHeight;
         const gridStartX = sideMargin + (availableWidth - actualGridWidth) / 2;
         const gridStartY = headerTotalHeight + (availableHeight - actualGridHeight) / 2;
-        
-        for(let i=0; i<uniqueWords.length; i++) {
+
+        // Step 5: Render all cards with SAME font size (no word breaking)
+        for (let i = 0; i < uniqueWords.length; i++) {
             const r = Math.floor(i / calloutCols);
             const c = i % calloutCols;
             const word = uniqueWords[i];
             const cellLeft = gridStartX + (c * cellWidth);
             const cellTop = gridStartY + (r * cellHeight);
 
+            // Card background
             const rect = new fabric.Rect({
-                left: cellLeft + (cellGap / 2), top: cellTop + (cellGap / 2),
-                width: cellWidth - cellGap, height: cellHeight - cellGap,
-                fill: '#e0f7fa', rx: 8, ry: 8
+                left: cellLeft + (cellGap / 2),
+                top: cellTop + (cellGap / 2),
+                width: cardWidth,
+                height: cardHeight,
+                fill: '#e8f5e9',
+                stroke: '#81c784',
+                strokeWidth: 1.5,
+                rx: 10,
+                ry: 10
             });
-            const text = new fabric.Textbox(word, {
-                left: cellLeft + cellWidth / 2, top: cellTop + cellHeight / 2,
-                width: cellWidth - cellGap - 10, fontSize: Math.min(cellHeight * 0.4, 20),
-                textAlign: 'center', originX: 'center', originY: 'center',
+
+            // Text - ALL words use the SAME uniformFontSize
+            const text = new fabric.Text(word, {
+                left: cellLeft + cellWidth / 2,
+                top: cellTop + cellHeight / 2,
+                fontSize: uniformFontSize,
+                fontFamily: 'Fredoka, Lexend Deca, sans-serif',
+                fontWeight: '500',
+                fill: '#2e7d32',
+                textAlign: 'center',
+                originX: 'center',
+                originY: 'center',
             });
             gridElements.push(rect, text);
         }

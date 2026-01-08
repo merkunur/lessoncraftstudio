@@ -3064,7 +3064,7 @@
             const canvasBgTopEdge = trainCenterY - trainBgImg.getScaledHeight() / 2;
             const trainLeftEdge = trainCenterX - trainBgImg.getScaledWidth() / 2;
             const S_SCALE = trainBgImg.getScaledWidth() / 940; // Scale based on actual train width
-            const conceptualBoxSizeForScaling = WAGON_BOX_SIZE_BASE * S_SCALE * 0.65 * 1.3 * 1.2;
+            const conceptualBoxSizeForScaling = WAGON_BOX_SIZE_BASE * S_SCALE * 0.65 * 1.3 * 1.2 * 0.7;
             const currentClueCount = Math.max(3, Math.min(parseInt(document.getElementById('clueCount').value, 10), selectedLetters.length));
             let lettersCopyForClues = [...selectedLetters];
             const clues = [];
@@ -3146,7 +3146,7 @@
             const cutoutElements = [];
             // Base cutout size
             const cutoutSizeMultiplier = 1.2;
-            const enlargedCutBoxSize = (WAGON_BOX_SIZE_BASE * 0.6156 * S_SCALE) * cutoutSizeMultiplier;
+            const enlargedCutBoxSize = (WAGON_BOX_SIZE_BASE * 0.6156 * S_SCALE) * cutoutSizeMultiplier * 1.1;
             const cutSpacing = 10 * S_SCALE;
 
             // Calculate cutout position to ensure it fits within page and doesn't overlap train
@@ -3331,7 +3331,7 @@
             const canvasBgTopEdge = trainCenterY - trainBgImg.getScaledHeight() / 2;
             const trainLeftEdge = trainCenterX - trainBgImg.getScaledWidth() / 2;
             const S_SCALE = trainBgImg.getScaledWidth() / 940; // Scale based on actual train width
-            const conceptualBoxSizeForScaling = WAGON_BOX_SIZE_BASE * S_SCALE * 0.65 * 1.3 * 1.2;
+            const conceptualBoxSizeForScaling = WAGON_BOX_SIZE_BASE * S_SCALE * 0.65 * 1.3 * 1.2 * 0.7;
             // Add train background first
             trainBgImg.set({
                 isAnswerKeyItem: true,

@@ -2976,7 +2976,7 @@ document.addEventListener("DOMContentLoaded", function() {
             if (isLandscape) {
                 // Landscape: images on left and right of grid
                 clueAreaWidth = (canvasWidth - gridWidth - imagePadding * 2) / 2 - pageMargin;
-                clueWidth = Math.min(100, clueAreaWidth * 0.9);  // Larger images
+                clueWidth = Math.min(70, clueAreaWidth * 0.9);  // Larger images (30% reduction)
                 clueAreaHeight = canvasHeight - headerHeight - pageMargin * 2;
                 maxCluesPerColumn = Math.ceil(validImages.length / 2);
             } else {
@@ -2986,7 +2986,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 // For portrait, we want horizontal rows, not columns
                 const imagesPerRow = Math.ceil(validImages.length / 2);
                 // Calculate optimal image width to fit all in a row with spacing
-                clueWidth = Math.min(100, (clueAreaWidth - (imagesPerRow - 1) * clueSpacing) / imagesPerRow);
+                clueWidth = Math.min(70, (clueAreaWidth - (imagesPerRow - 1) * clueSpacing) / imagesPerRow);  // 30% reduction
             }
             
             // Create clue groups with proper positioning

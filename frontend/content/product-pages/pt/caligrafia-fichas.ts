@@ -341,6 +341,7 @@ O investimento se paga rapidamente com as primeiras vendas. Uma assinatura Acess
     title: 'Acesso Completo',
     price: '$240',
     priceInterval: '/ano',
+    priceSuffix: 'Cobrado anualmente',
     benefits: [
       'Ensino multilíngue - Atividades para imprimir em 11 idiomas para escolas bilíngues',
       'Licença comercial POD - Venda atividades educação infantil na Hotmart e Amazon',

@@ -208,6 +208,7 @@ A qualidade é idêntica às atividades para imprimir vendidas em grandes editor
     steps: [
       {
         id: '1',
+        number: 1,
         title: 'Escolha o Conteúdo das Atividades',
         description: `O primeiro passo é decidir o que sua atividade para imprimir vai conter. Você tem quatro opções principais de conteúdo. Cada opção atende a um objetivo pedagógico diferente. Escolha conforme o nível dos seus alunos.
 
@@ -217,6 +218,7 @@ A opção "Letra Inicial" repete uma única letra na linha. Ótima para atividad
       },
       {
         id: '2',
+        number: 2,
         title: 'Configure o Estilo de Pontilhado',
         description: `Após escolher o conteúdo, configure o estilo visual. O gerador oferece cinco estilos de fonte diferentes. Cada estilo desenvolve aspectos específicos da coordenação motora. Selecione conforme a etapa de aprendizado.
 
@@ -226,6 +228,7 @@ A fonte "Pontilhado" apresenta letras em linhas tracejadas. A fonte "Pontilhado 
       },
       {
         id: '3',
+        number: 3,
         title: 'Gere Suas Atividades',
         description: `Com conteúdo e estilo definidos, clique no botão "Adicionar Linha". Uma nova linha de escrita aparece instantaneamente na ficha. Você vê exatamente como ficará quando impressa. A visualização é em tempo real.
 
@@ -235,6 +238,7 @@ Adicione quantas linhas precisar na mesma ficha. Combine diferentes tipos de con
       },
       {
         id: '4',
+        number: 4,
         title: 'Personalize no Canvas',
         description: `Após gerar as linhas, personalize cada detalhe no canvas. Clique em qualquer elemento para selecioná-lo. Arraste para mover, puxe os cantos para redimensionar. A edição é intuitiva como no PowerPoint.
 
@@ -244,6 +248,7 @@ Insira textos personalizados como títulos e instruções. Configure fonte, tama
       },
       {
         id: '5',
+        number: 5,
         title: 'Baixe em PDF de Alta Qualidade',
         description: `Sua atividade de letra cursiva está pronta. Clique no botão "Baixar" no canto superior direito. Escolha entre formato PDF ou JPEG. Ambos têm qualidade profissional de 300 DPI.
 

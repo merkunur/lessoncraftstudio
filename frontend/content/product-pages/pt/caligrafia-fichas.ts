@@ -271,6 +271,7 @@ A opção "Escala de Cinza" converte cores para preto e branco. Economiza tinta 
         id: '1',
         icon: '👶',
         title: 'Professores de Educação Infantil',
+        subtitle: 'Atividades Educação Infantil com Coordenação Motora',
         description: `Professores de educação infantil são nossos usuários mais frequentes. Eles precisam de atividades de alfabetização diariamente. O gerador economiza horas de preparação toda semana. As fichas ficam prontas em minutos.
 
 Na pré-escola, o foco está na coordenação motora fina. Os pequenos praticam traços básicos antes das letras. Linhas verticais, horizontais e círculos preparam a mão. Nossas atividades educação infantil atendem exatamente essa necessidade.
@@ -281,6 +282,7 @@ Na última etapa antes do 1º ano, as atividades vogais ganham destaque. As cria
         id: '2',
         icon: '🏫',
         title: 'Professores do Ensino Fundamental',
+        subtitle: 'Atividades 1º Ano e 2º Ano com Letra Cursiva',
         description: `Professores de 1º ano enfrentam o desafio da alfabetização formal. As atividades 1º ano precisam cobrir todo o alfabeto. Nosso gerador cria fichas para cada letra individualmente. Ou para grupos de letras em sequência progressiva.
 
 O trabalho com atividades alfabeto é intensivo nessa fase. Maiúsculas e minúsculas precisam de prática separada. Letra bastão vem antes da letra cursiva. O gerador permite configurar cada detalhe conforme sua metodologia.
@@ -291,6 +293,7 @@ Para atividades 2º ano, a letra cursiva ganha protagonismo. Os alunos já domin
         id: '3',
         icon: '🏠',
         title: 'Pais que Educam em Casa',
+        subtitle: 'Atividades para Imprimir Personalizadas para Homeschool',
         description: `O homeschool cresce no Brasil a cada ano. Pais educadores precisam de materiais de qualidade. Nosso gerador oferece atividades de coordenação motora profissionais. Sem depender de editoras ou materiais prontos.
 
 Pais podem criar atividades vogais personalizadas com nomes da família. Fichas com fotos dos avós, pets e lugares favoritos. A aprendizagem se conecta com a vida real. A motivação das crianças aumenta significativamente.
@@ -301,6 +304,7 @@ O custo-benefício atrai famílias homeschool. Uma assinatura substitui dezenas 
         id: '4',
         icon: '🌎',
         title: 'Professores de Idiomas e ESL',
+        subtitle: 'Atividades de Alfabetização Bilíngue em 11 Idiomas',
         description: `Escolas bilíngues valorizam nosso suporte multilíngue. Atividades de alfabetização em inglês e português na mesma aula. O gerador alterna entre idiomas instantaneamente. Fichas bilíngues ficam prontas em segundos.
 
 Professores de ESL criam vocabulário visual com escrita. A imagem da maçã aparece junto com "apple" para traçar. Atividades alfabeto em inglês seguem a mesma qualidade. O aprendizado integra visual, leitura e escrita.
@@ -311,6 +315,7 @@ Escolas internacionais usam todos os 11 idiomas disponíveis. Alemão, francês,
         id: '5',
         icon: '🧩',
         title: 'Professores de Educação Especial',
+        subtitle: 'Atividades Educação Infantil Adaptadas com Pontilhado',
         description: `Educação especial exige materiais personalizados. Cada aluno tem necessidades únicas de aprendizagem. Nosso gerador permite adaptações ilimitadas. Atividades educação infantil ficam sob medida para cada caso.
 
 Linhas de escrita maiores ajudam alunos com dificuldades motoras. O gerador ajusta a altura das linhas facilmente. Menos letras por linha reduzem sobrecarga cognitiva. Cada atividade de coordenação motora respeita o ritmo individual.
@@ -321,6 +326,7 @@ Fichas com reforço visual beneficiam alunos com TEA. Imagens claras e consisten
         id: '6',
         icon: '💼',
         title: 'Professores Empreendedores',
+        subtitle: 'Licença Comercial POD para Venda Online',
         description: `Professores empreendedores transformam conhecimento em renda. Plataformas como Hotmart e Teachers Pay Teachers aceitam materiais digitais. Nossas atividades 1º ano têm qualidade comercial. A licença POD está incluída na assinatura.
 
 Criar produtos para venda é simples com o gerador. Atividades alfabeto completas em pacotes temáticos. Atividades de letra cursiva para séries específicas. Cada produto pode ser vendido repetidamente.

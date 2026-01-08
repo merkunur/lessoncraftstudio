@@ -249,6 +249,7 @@ import prepositionsPtContent from '@/content/product-pages/pt/preposicoes-fichas
 import shadowMatchPtContent from '@/content/product-pages/pt/combinar-sombras-fichas';
 import subtractionPtContent from '@/content/product-pages/pt/subtracao-fichas';
 import treasureHuntPtContent from '@/content/product-pages/pt/caca-ao-tesouro-fichas';
+import wordGuessPtContent from '@/content/product-pages/pt/adivinhar-palavras-fichas';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -1091,6 +1092,10 @@ export const contentRegistry: ContentRegistry = {
     'caca-ao-tesouro-fichas': treasureHuntPtContent,
     // Also keep old slug for backwards compatibility during transition
     'treasure-hunt-worksheets': treasureHuntPtContent,
+    // Portuguese (Brazilian) Word Guess (Adivinhar Palavras) - uses Portuguese SEO slug
+    'adivinhar-palavras-fichas': wordGuessPtContent,
+    // Also keep old slug for backwards compatibility during transition
+    'word-guess-worksheets': wordGuessPtContent,
   },
 };
 

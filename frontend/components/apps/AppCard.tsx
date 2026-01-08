@@ -324,6 +324,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     fr: 'deviner-mots-fiches',
     es: 'adivinar-palabras-fichas',
     it: 'indovina-parole-schede',
+    pt: 'adivinhar-palavras-fichas',
   },
   'writing-app': {
     en: 'writing-worksheets',

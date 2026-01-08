@@ -425,6 +425,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       fr: 'deviner-mots-fiches',
       es: 'adivinar-palabras-fichas',
       it: 'indovina-parole-schede',
+      pt: 'adivinhar-palavras-fichas',
     },
   },
   {

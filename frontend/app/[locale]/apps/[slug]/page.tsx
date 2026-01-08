@@ -176,6 +176,7 @@ import prepositionsPtContent from '@/content/product-pages/pt/preposicoes-fichas
 import shadowMatchPtContent from '@/content/product-pages/pt/combinar-sombras-fichas';
 import subtractionPtContent from '@/content/product-pages/pt/subtracao-fichas';
 import treasureHuntPtContent from '@/content/product-pages/pt/caca-ao-tesouro-fichas';
+import wordGuessPtContent from '@/content/product-pages/pt/adivinhar-palavras-fichas';
 
 interface PageProps {
   params: {
@@ -2241,6 +2242,53 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       },
       alternates: {
         canonical: 'https://www.lessoncraftstudio.com/pt/apps/caca-ao-tesouro-fichas',
+      },
+    };
+  }
+
+  // Word Guess - Portuguese (Brazilian) product page SEO (new Portuguese slug)
+  if (params.slug === 'adivinhar-palavras-fichas' && params.locale === 'pt') {
+    return {
+      title: 'Gerador de Atividades para Imprimir com Adivinhar Palavras | Atividades de Alfabetização',
+      description: 'Crie atividades de adivinhar palavras profissionais com nosso gerador. Atividades para imprimir em PDF para educação infantil, 1º ano e 2º ano. Atividades de alfabetização com gabarito.',
+      keywords: 'adivinhar palavras, atividades para imprimir, atividades de alfabetização, educação infantil, 1º ano, 2º ano, coordenação motora, vogais, alfabeto, tabuada, letra cursiva, pontilhado, desenhos para colorir',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/pt/apps/adivinhar-palavras-fichas',
+        languages: {
+          'en': 'https://www.lessoncraftstudio.com/en/apps/word-guess-worksheets',
+          'sv': 'https://www.lessoncraftstudio.com/sv/apps/gissa-ordet-arbetsblad',
+          'de': 'https://www.lessoncraftstudio.com/de/apps/woerter-raten-arbeitsblaetter',
+          'fr': 'https://www.lessoncraftstudio.com/fr/apps/deviner-mots-fiches',
+          'es': 'https://www.lessoncraftstudio.com/es/apps/adivinar-palabras-fichas',
+          'it': 'https://www.lessoncraftstudio.com/it/apps/indovina-parole-schede',
+          'pt': 'https://www.lessoncraftstudio.com/pt/apps/adivinhar-palavras-fichas',
+          'x-default': 'https://www.lessoncraftstudio.com/en/apps/word-guess-worksheets',
+        },
+      },
+      openGraph: {
+        title: 'Gerador de Atividades de Adivinhar Palavras | LessonCraftStudio',
+        description: 'Crie atividades de adivinhar palavras profissionais em menos de 3 minutos. Perfeito para professores de educação infantil e ensino fundamental.',
+        url: 'https://www.lessoncraftstudio.com/pt/apps/adivinhar-palavras-fichas',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Legacy: Redirect old Portuguese word-guess-worksheets slug to new slug (for backwards compatibility)
+  if (params.slug === 'word-guess-worksheets' && params.locale === 'pt') {
+    return {
+      title: 'Atividades de Adivinhar Palavras - Gerador de Atividades',
+      robots: {
+        index: false,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/pt/apps/adivinhar-palavras-fichas',
       },
     };
   }
@@ -8755,6 +8803,7 @@ export async function generateStaticParams() {
     'combinar-sombras-fichas', // Product page slug (Portuguese/Brazilian) - language-specific SEO slug for shadow-match
     'subtracao-fichas', // Product page slug (Portuguese/Brazilian) - language-specific SEO slug for subtraction
     'caca-ao-tesouro-fichas', // Product page slug (Portuguese/Brazilian) - language-specific SEO slug for treasure-hunt
+    'adivinhar-palavras-fichas', // Product page slug (Portuguese/Brazilian) - language-specific SEO slug for word-guess
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

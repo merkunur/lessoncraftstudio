@@ -1134,6 +1134,12 @@ const nextConfig = {
         destination: '/pt/apps/caca-ao-tesouro-fichas',
         permanent: true,
       },
+      // Portuguese (Brazilian): word-guess-worksheets → adivinhar-palavras-fichas
+      {
+        source: '/pt/apps/word-guess-worksheets',
+        destination: '/pt/apps/adivinhar-palavras-fichas',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

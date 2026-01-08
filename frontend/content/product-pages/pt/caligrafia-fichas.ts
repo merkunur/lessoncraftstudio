@@ -340,9 +340,8 @@ O investimento se paga rapidamente com as primeiras vendas. Uma assinatura Acess
   pricing: {
     title: 'Acesso Completo',
     price: '$240',
-    interval: '/ano',
-    description: 'Professores assinam o Acesso Completo por três razões principais. Cada benefício justifica o investimento sozinho. Juntos, transformam completamente a rotina de criação de atividades de alfabetização.',
-    features: [
+    priceInterval: '/ano',
+    benefits: [
       'Ensino multilíngue - Atividades para imprimir em 11 idiomas para escolas bilíngues',
       'Licença comercial POD - Venda atividades educação infantil na Hotmart e Amazon',
       'Economia de tempo - Atividades vogais e alfabeto prontas em 3 minutos',
@@ -351,7 +350,7 @@ O investimento se paga rapidamente com as primeiras vendas. Uma assinatura Acess
       'Qualidade 300 DPI para impressão profissional',
     ],
     ctaText: 'Assinar Agora',
-    guarantee: 'Garantia de 30 dias - devolução total',
+    guaranteeText: 'Garantia de 30 dias - devolução total',
   },
 
   // FAQ Section - FULL text from writing.md FAQ section

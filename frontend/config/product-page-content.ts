@@ -255,6 +255,7 @@ import writingPtContent from '@/content/product-pages/pt/caligrafia-fichas';
 // Dutch content imports
 import wordSearchNlContent from '@/content/product-pages/nl/word-search-worksheets';
 import additionNlContent from '@/content/product-pages/nl/optellen-werkbladen';
+import alphabetTrainNlContent from '@/content/product-pages/nl/alphabet-train-worksheets';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -1115,6 +1116,10 @@ export const contentRegistry: ContentRegistry = {
     'optellen-werkbladen': additionNlContent,
     // Also keep old slug for backwards compatibility during transition
     'addition-worksheets': additionNlContent,
+    // Dutch Alphabet Train (Alfabet Trein) - uses Dutch SEO slug
+    'alfabet-trein-werkbladen': alphabetTrainNlContent,
+    // Also keep old slug for backwards compatibility during transition
+    'alphabet-train-worksheets': alphabetTrainNlContent,
   },
 };
 

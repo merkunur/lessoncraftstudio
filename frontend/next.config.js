@@ -1158,6 +1158,12 @@ const nextConfig = {
         destination: '/nl/apps/optellen-werkbladen',
         permanent: true,
       },
+      // Dutch: alphabet-train-worksheets → alfabet-trein-werkbladen
+      {
+        source: '/nl/apps/alphabet-train-worksheets',
+        destination: '/nl/apps/alfabet-trein-werkbladen',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

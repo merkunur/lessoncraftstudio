@@ -1266,6 +1266,12 @@ const nextConfig = {
         destination: '/nl/apps/rekenpuzzels-werkbladen',
         permanent: true,
       },
+      // Dutch: missing-pieces-worksheets → ontbrekende-puzzelstukjes-werkbladen
+      {
+        source: '/nl/apps/missing-pieces-worksheets',
+        destination: '/nl/apps/ontbrekende-puzzelstukjes-werkbladen',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

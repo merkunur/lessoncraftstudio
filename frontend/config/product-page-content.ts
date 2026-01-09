@@ -273,6 +273,7 @@ import gridMatchNlContent from '@/content/product-pages/nl/raster-puzzel-werkbla
 import crosswordNlContent from '@/content/product-pages/nl/kruiswoordpuzzel-werkbladen';
 import cryptogramNlContent from '@/content/product-pages/nl/cryptogram-werkbladen';
 import mathPuzzleNlContent from '@/content/product-pages/nl/rekenpuzzels-werkbladen';
+import missingPiecesNlContent from '@/content/product-pages/nl/ontbrekende-puzzelstukjes-werkbladen';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -1205,6 +1206,10 @@ export const contentRegistry: ContentRegistry = {
     'rekenpuzzels-werkbladen': mathPuzzleNlContent,
     // Also keep old slug for backwards compatibility during transition
     'math-puzzle-worksheets': mathPuzzleNlContent,
+    // Dutch Missing Pieces (Ontbrekende Puzzelstukjes) - uses Dutch SEO slug
+    'ontbrekende-puzzelstukjes-werkbladen': missingPiecesNlContent,
+    // Also keep old slug for backwards compatibility during transition
+    'missing-pieces-worksheets': missingPiecesNlContent,
   },
 };
 

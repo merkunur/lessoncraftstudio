@@ -243,6 +243,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     es: 'piezas-faltantes-fichas',
     it: 'pezzi-mancanti-schede',
     pt: 'pecas-faltantes-fichas',
+    nl: 'ontbrekende-puzzelstukjes-werkbladen',
   },
   'more-less': {
     en: 'more-less-worksheets',

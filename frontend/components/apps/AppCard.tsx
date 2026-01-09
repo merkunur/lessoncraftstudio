@@ -94,6 +94,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     es: 'letras-revueltas-fichas',
     it: 'anagrammi-schede',
     pt: 'palavras-embaralhadas-fichas',
+    nl: 'woordkruisel-werkbladen',
   },
   'find-and-count': {
     en: 'find-and-count-worksheets',

@@ -1176,6 +1176,12 @@ const nextConfig = {
         destination: '/nl/apps/rekenen-werkbladen',
         permanent: true,
       },
+      // Dutch: word-scramble-worksheets → woordkruisel-werkbladen
+      {
+        source: '/nl/apps/word-scramble-worksheets',
+        destination: '/nl/apps/woordkruisel-werkbladen',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

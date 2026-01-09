@@ -183,6 +183,7 @@ import additionNlContent from '@/content/product-pages/nl/optellen-werkbladen';
 import coloringNlContent from '@/content/product-pages/nl/kleurplaten-werkbladen';
 import alphabetTrainNlContent from '@/content/product-pages/nl/alphabet-train-worksheets';
 import mathWorksheetsNlContent from '@/content/product-pages/nl/rekenen-werkbladen';
+import wordScrambleNlContent from '@/content/product-pages/nl/woordkruisel-werkbladen';
 
 interface PageProps {
   params: {
@@ -8862,6 +8863,7 @@ export async function generateStaticParams() {
     'optellen-werkbladen', // Product page slug (Dutch) - language-specific SEO slug for addition
     'alfabet-trein-werkbladen', // Product page slug (Dutch) - language-specific SEO slug for alphabet-train
     'kleurplaten-werkbladen', // Product page slug (Dutch) - language-specific SEO slug for coloring
+    'woordkruisel-werkbladen', // Product page slug (Dutch) - language-specific SEO slug for word-scramble
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

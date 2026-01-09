@@ -120,6 +120,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       es: 'letras-revueltas-fichas',
       it: 'anagrammi-schede',
       pt: 'palavras-embaralhadas-fichas',
+      nl: 'woordkruisel-werkbladen',
     },
   },
   {

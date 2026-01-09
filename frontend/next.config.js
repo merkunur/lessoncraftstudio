@@ -1212,6 +1212,12 @@ const nextConfig = {
         destination: '/nl/apps/sudoku-werkbladen',
         permanent: true,
       },
+      // Dutch: big-small-worksheets → groot-klein-werkbladen
+      {
+        source: '/nl/apps/big-small-worksheets',
+        destination: '/nl/apps/groot-klein-werkbladen',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

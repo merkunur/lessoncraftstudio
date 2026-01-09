@@ -264,6 +264,7 @@ import matchingNlContent from '@/content/product-pages/nl/verbindings-werkbladen
 import drawingLinesNlContent from '@/content/product-pages/nl/lijnen-trekken-werkbladen';
 import pictureBingoNlContent from '@/content/product-pages/nl/plaatjes-bingo-werkbladen';
 import sudokuNlContent from '@/content/product-pages/nl/sudoku-werkbladen';
+import bigSmallNlContent from '@/content/product-pages/nl/groot-klein-werkbladen';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -1160,6 +1161,10 @@ export const contentRegistry: ContentRegistry = {
     'sudoku-werkbladen': sudokuNlContent,
     // Also keep old slug for backwards compatibility during transition
     'sudoku-worksheets': sudokuNlContent,
+    // Dutch Big Small (Groot Klein) - uses Dutch SEO slug
+    'groot-klein-werkbladen': bigSmallNlContent,
+    // Also keep old slug for backwards compatibility during transition
+    'big-small-worksheets': bigSmallNlContent,
   },
 };
 

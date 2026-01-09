@@ -278,6 +278,7 @@ import moreLessNlContent from '@/content/product-pages/nl/meer-minder-werkbladen
 import oddOneOutNlContent from '@/content/product-pages/nl/welke-hoort-niet-bij-werkbladen';
 import patternTrainNlContent from '@/content/product-pages/nl/patroontrein-werkbladen';
 import patternWorksheetsNlContent from '@/content/product-pages/nl/patronen-werkbladen';
+import picturePathNlContent from '@/content/product-pages/nl/doolhof-werkbladen';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -1230,6 +1231,10 @@ export const contentRegistry: ContentRegistry = {
     'patronen-werkbladen': patternWorksheetsNlContent,
     // Also keep old slug for backwards compatibility during transition
     'pattern-worksheets': patternWorksheetsNlContent,
+    // Dutch Picture Path (Doolhof) - uses Dutch SEO slug
+    'doolhof-werkbladen': picturePathNlContent,
+    // Also keep old slug for backwards compatibility during transition
+    'picture-path-worksheets': picturePathNlContent,
   },
 };
 

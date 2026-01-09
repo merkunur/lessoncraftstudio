@@ -293,6 +293,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     es: 'laberintos-imagenes-fichas',
     it: 'percorso-illustrato-schede',
     pt: 'labirinto-caminhos-fichas',
+    nl: 'doolhof-werkbladen',
   },
   'picture-sort': {
     en: 'picture-sort-worksheets',

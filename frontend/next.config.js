@@ -1296,6 +1296,12 @@ const nextConfig = {
         destination: '/nl/apps/patronen-werkbladen',
         permanent: true,
       },
+      // Dutch: picture-path-worksheets → doolhof-werkbladen
+      {
+        source: '/nl/apps/picture-path-worksheets',
+        destination: '/nl/apps/doolhof-werkbladen',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

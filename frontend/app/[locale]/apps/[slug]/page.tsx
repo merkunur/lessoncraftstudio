@@ -203,6 +203,7 @@ import moreLessNlContent from '@/content/product-pages/nl/meer-minder-werkbladen
 import oddOneOutNlContent from '@/content/product-pages/nl/welke-hoort-niet-bij-werkbladen';
 import patternTrainNlContent from '@/content/product-pages/nl/patroontrein-werkbladen';
 import patternWorksheetsNlContent from '@/content/product-pages/nl/patronen-werkbladen';
+import picturePathNlContent from '@/content/product-pages/nl/doolhof-werkbladen';
 
 interface PageProps {
   params: {
@@ -8901,6 +8902,8 @@ export async function generateStaticParams() {
     'meer-minder-werkbladen', // Product page slug (Dutch) - language-specific SEO slug for more-less
     'welke-hoort-niet-bij-werkbladen', // Product page slug (Dutch) - language-specific SEO slug for odd-one-out
     'patroontrein-werkbladen', // Product page slug (Dutch) - language-specific SEO slug for pattern-train
+    'patronen-werkbladen', // Product page slug (Dutch) - language-specific SEO slug for pattern-worksheets
+    'doolhof-werkbladen', // Product page slug (Dutch) - language-specific SEO slug for picture-path
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

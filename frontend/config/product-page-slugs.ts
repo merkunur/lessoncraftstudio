@@ -376,6 +376,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       es: 'laberintos-imagenes-fichas',
       it: 'percorso-illustrato-schede',
       pt: 'labirinto-caminhos-fichas',
+      nl: 'doolhof-werkbladen',
     },
   },
   {

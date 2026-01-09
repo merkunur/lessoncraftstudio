@@ -273,6 +273,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     es: 'tren-patrones-fichas',
     it: 'treno-sequenze-schede',
     pt: 'trem-padroes-fichas',
+    nl: 'patroontrein-werkbladen',
   },
   'pattern-worksheet': {
     en: 'pattern-worksheets',

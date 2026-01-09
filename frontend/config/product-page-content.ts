@@ -276,6 +276,7 @@ import mathPuzzleNlContent from '@/content/product-pages/nl/rekenpuzzels-werkbla
 import missingPiecesNlContent from '@/content/product-pages/nl/ontbrekende-puzzelstukjes-werkbladen';
 import moreLessNlContent from '@/content/product-pages/nl/meer-minder-werkbladen';
 import oddOneOutNlContent from '@/content/product-pages/nl/welke-hoort-niet-bij-werkbladen';
+import patternTrainNlContent from '@/content/product-pages/nl/patroontrein-werkbladen';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -1220,6 +1221,10 @@ export const contentRegistry: ContentRegistry = {
     'welke-hoort-niet-bij-werkbladen': oddOneOutNlContent,
     // Also keep old slug for backwards compatibility during transition
     'odd-one-out-worksheets': oddOneOutNlContent,
+    // Dutch Pattern Train (Patroontrein) - uses Dutch SEO slug
+    'patroontrein-werkbladen': patternTrainNlContent,
+    // Also keep old slug for backwards compatibility during transition
+    'pattern-train-worksheets': patternTrainNlContent,
   },
 };
 

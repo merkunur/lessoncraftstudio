@@ -350,6 +350,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       es: 'tren-patrones-fichas',
       it: 'treno-sequenze-schede',
       pt: 'trem-padroes-fichas',
+      nl: 'patroontrein-werkbladen',
     },
   },
   {

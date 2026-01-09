@@ -198,6 +198,10 @@ import gridMatchNlContent from '@/content/product-pages/nl/raster-puzzel-werkbla
 import crosswordNlContent from '@/content/product-pages/nl/kruiswoordpuzzel-werkbladen';
 import cryptogramNlContent from '@/content/product-pages/nl/cryptogram-werkbladen';
 import mathPuzzleNlContent from '@/content/product-pages/nl/rekenpuzzels-werkbladen';
+import missingPiecesNlContent from '@/content/product-pages/nl/ontbrekende-puzzelstukjes-werkbladen';
+import moreLessNlContent from '@/content/product-pages/nl/meer-minder-werkbladen';
+import oddOneOutNlContent from '@/content/product-pages/nl/welke-hoort-niet-bij-werkbladen';
+import patternTrainNlContent from '@/content/product-pages/nl/patroontrein-werkbladen';
 
 interface PageProps {
   params: {
@@ -8895,6 +8899,7 @@ export async function generateStaticParams() {
     'ontbrekende-puzzelstukjes-werkbladen', // Product page slug (Dutch) - language-specific SEO slug for missing-pieces
     'meer-minder-werkbladen', // Product page slug (Dutch) - language-specific SEO slug for more-less
     'welke-hoort-niet-bij-werkbladen', // Product page slug (Dutch) - language-specific SEO slug for odd-one-out
+    'patroontrein-werkbladen', // Product page slug (Dutch) - language-specific SEO slug for pattern-train
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

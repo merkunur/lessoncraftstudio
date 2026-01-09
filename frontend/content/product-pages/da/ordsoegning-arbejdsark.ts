@@ -40,14 +40,28 @@ Vores gratis ordsoegningsgenerator tilbyder over 3000 boernevenlige billeder til
       images: '3000+ Billeder',
       license: 'Kommerciel Licens',
     },
+    readMoreLabel: 'Laes mere',
+    showLessLabel: 'Vis mindre',
+    floatingStats: {
+      time: 'Klar pa 3 min',
+      action: 'Nemt at bruge',
+      quality: '300 DPI',
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/wordsearch/
   samples: {
     sectionTitle: 'Ordsoegning Arbejdsark Eksempler',
+    sectionDescription: 'Download gratis eksempler pa arbejdsark for at se vores professionelle kvalitet',
+    badgeText: 'Gratis Eksempler',
     downloadLabel: 'Download Gratis Eksempel',
+    downloadingLabel: 'Downloader...',
     worksheetLabel: 'Arbejdsark',
     answerKeyLabel: 'Facitark',
+    viewAllLabel: 'Se alle',
+    noPdfLabel: 'Ingen PDF tilgaengelig',
+    freePdfCountLabel: '3 gratis downloads',
+    ofLabel: 'af',
     items: [
       {
         id: '1',
@@ -78,6 +92,13 @@ Vores gratis ordsoegningsgenerator tilbyder over 3000 boernevenlige billeder til
     sectionTitle: 'Funktioner til Gratis Skoleopgaver og Arbejdsark til Print',
     sectionDescription: 'Ordsoegningsgeneratoren tilbyder alle vigtige funktioner til gratis skoleopgaver. Lav professionelle arbejdsark og opgaver til print pa fa minutter. Hver funktion er udviklet til laerere og paedagoger. Perfekt til boernehaveklassen og indskolingen.',
     highlightBadgeText: 'Vigtig Funktion',
+    readMoreLabel: 'Laes mere',
+    showLessLabel: 'Vis mindre',
+    trustBadges: {
+      allFeatures: 'Alle funktioner inkluderet',
+      noHiddenFees: 'Ingen skjulte gebyrer',
+      cancelAnytime: 'Opsig nar som helst',
+    },
     items: [
       {
         id: '1',
@@ -164,6 +185,14 @@ Ingen pixelerede billeder. Ingen uskarpe linjer. Professionel kvalitet hver gang
     sectionTitle: 'Lav Gratis Skoleopgaver i 5 Nemme Trin',
     sectionDescription: 'Lav professionelle opgaver til print pa under 3 minutter. Foelg disse 5 simple trin. Intet designkendskab paekraevet. Perfekt til gratis skoleopgaver til 0. klasse og 1. klasse.',
     ctaText: 'Start Nu',
+    badgeText: 'Sadan Virker Det',
+    stepLabel: 'Trin',
+    readyTime: 'Klar pa under 3 minutter',
+    noSkillsNeeded: 'Intet designkendskab paakraevet',
+    readMoreLabel: 'Laes mere',
+    showLessLabel: 'Vis mindre',
+    completionTitle: 'Faerdig!',
+    completionSubtitle: 'Dit arbejdsark er klar til download',
     steps: [
       {
         id: '1',
@@ -231,6 +260,9 @@ Download arbejdsarket til din computer. Download ogsa facitarket til rettelse. P
   useCases: {
     sectionTitle: 'Perfekt til Paedagoger, Laerere og Foraeldre',
     sectionDescription: 'Ordsoegningsopgaver passer til mange forskellige brugere. Paedagoger i boernehaveklassen elsker de visuelle opgaver. Laerere i indskolingen bruger dem til laere bogstaver. Foraeldre kombinerer dem med farvelaegning hjemme. Hver brugergruppe finder unikke mader at bruge gratis skoleopgaver pa.',
+    badgeText: 'Hvem Er Det Til',
+    readMoreLabel: 'Laes mere',
+    showLessLabel: 'Vis mindre',
     items: [
       {
         id: '1',
@@ -313,6 +345,11 @@ Print-on-demand licensen abner muligheder. Saelg pa Etsy som arbejdsark til prin
     sectionDescription: 'Her er svar pa de mest almindelige sporgsmal om ordsoegningsgeneratoren. Laer om gratis muligheder, abonnementer og hvordan du bruger opgaver til print i din undervisning.',
     showMoreText: 'Vis flere sporgsmal',
     showLessText: 'Vis faerre',
+    badgeText: 'FAQ',
+    readMoreLabel: 'Laes mere',
+    showLessLabel: 'Vis mindre',
+    secureCheckout: 'Sikker betaling',
+    cancelAnytime: 'Opsig nar som helst',
     items: [
       {
         id: '1',
@@ -403,6 +440,13 @@ Print-on-demand licensen abner muligheder. Saelg pa Etsy som arbejdsark til prin
     ctaDescription: 'Tilslut dig tusindvis af paedagoger der laver professionelle arbejdsark. Ubegraenset oprettelse, kommerciel licens inkluderet.',
     primaryCtaText: 'Start Gratis Prove',
     secondaryCtaText: 'Se Alle 33 Generatorer',
+    badgeText: 'Fungerer Godt Med',
+    exploreText: 'Udforsk',
+    trustBadges: {
+      guarantee: '30 dages garanti',
+      securePayment: 'Sikker betaling',
+      cancelAnytime: 'Opsig nar som helst',
+    },
     items: [
       {
         id: '1',

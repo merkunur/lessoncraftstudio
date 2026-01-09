@@ -260,6 +260,7 @@ import alphabetTrainNlContent from '@/content/product-pages/nl/alphabet-train-wo
 import mathWorksheetsNlContent from '@/content/product-pages/nl/rekenen-werkbladen';
 import wordScrambleNlContent from '@/content/product-pages/nl/woordkruisel-werkbladen';
 import findAndCountNlContent from '@/content/product-pages/nl/zoek-en-tel-werkbladen';
+import matchingNlContent from '@/content/product-pages/nl/verbindings-werkbladen';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -1140,6 +1141,10 @@ export const contentRegistry: ContentRegistry = {
     'zoek-en-tel-werkbladen': findAndCountNlContent,
     // Also keep old slug for backwards compatibility during transition
     'find-and-count-worksheets': findAndCountNlContent,
+    // Dutch Matching (Verbindings) - uses Dutch SEO slug
+    'verbindings-werkbladen': matchingNlContent,
+    // Also keep old slug for backwards compatibility during transition
+    'matching-worksheets': matchingNlContent,
   },
 };
 

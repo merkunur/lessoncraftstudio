@@ -144,6 +144,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       es: 'relacionar-fichas',
       it: 'abbinamenti-schede',
       pt: 'ligar-fichas',
+      nl: 'verbindings-werkbladen',
     },
   },
   {

@@ -1188,6 +1188,12 @@ const nextConfig = {
         destination: '/nl/apps/zoek-en-tel-werkbladen',
         permanent: true,
       },
+      // Dutch: matching-worksheets → verbindings-werkbladen
+      {
+        source: '/nl/apps/matching-worksheets',
+        destination: '/nl/apps/verbindings-werkbladen',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

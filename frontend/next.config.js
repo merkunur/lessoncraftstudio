@@ -1194,6 +1194,12 @@ const nextConfig = {
         destination: '/nl/apps/verbindings-werkbladen',
         permanent: true,
       },
+      // Dutch: drawing-lines-worksheets → lijnen-trekken-werkbladen
+      {
+        source: '/nl/apps/drawing-lines-worksheets',
+        destination: '/nl/apps/lijnen-trekken-werkbladen',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

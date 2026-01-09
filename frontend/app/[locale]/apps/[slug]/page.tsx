@@ -186,6 +186,7 @@ import mathWorksheetsNlContent from '@/content/product-pages/nl/rekenen-werkblad
 import wordScrambleNlContent from '@/content/product-pages/nl/woordkruisel-werkbladen';
 import findAndCountNlContent from '@/content/product-pages/nl/zoek-en-tel-werkbladen';
 import matchingNlContent from '@/content/product-pages/nl/verbindings-werkbladen';
+import drawingLinesNlContent from '@/content/product-pages/nl/lijnen-trekken-werkbladen';
 
 interface PageProps {
   params: {
@@ -8868,6 +8869,7 @@ export async function generateStaticParams() {
     'woordkruisel-werkbladen', // Product page slug (Dutch) - language-specific SEO slug for word-scramble
     'zoek-en-tel-werkbladen', // Product page slug (Dutch) - language-specific SEO slug for find-and-count
     'verbindings-werkbladen', // Product page slug (Dutch) - language-specific SEO slug for matching
+    'lijnen-trekken-werkbladen', // Product page slug (Dutch) - language-specific SEO slug for drawing-lines
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

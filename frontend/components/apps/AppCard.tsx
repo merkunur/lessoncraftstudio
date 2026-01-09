@@ -124,6 +124,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     es: 'grafomotricidad-fichas',
     it: 'pregrafismo-schede',
     pt: 'tracar-linhas-fichas',
+    nl: 'lijnen-trekken-werkbladen',
   },
   'picture-bingo': {
     en: 'picture-bingo-worksheets',

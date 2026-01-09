@@ -261,6 +261,7 @@ import mathWorksheetsNlContent from '@/content/product-pages/nl/rekenen-werkblad
 import wordScrambleNlContent from '@/content/product-pages/nl/woordkruisel-werkbladen';
 import findAndCountNlContent from '@/content/product-pages/nl/zoek-en-tel-werkbladen';
 import matchingNlContent from '@/content/product-pages/nl/verbindings-werkbladen';
+import drawingLinesNlContent from '@/content/product-pages/nl/lijnen-trekken-werkbladen';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -1145,6 +1146,10 @@ export const contentRegistry: ContentRegistry = {
     'verbindings-werkbladen': matchingNlContent,
     // Also keep old slug for backwards compatibility during transition
     'matching-worksheets': matchingNlContent,
+    // Dutch Drawing Lines (Lijnen Trekken) - uses Dutch SEO slug
+    'lijnen-trekken-werkbladen': drawingLinesNlContent,
+    // Also keep old slug for backwards compatibility during transition
+    'drawing-lines-worksheets': drawingLinesNlContent,
   },
 };
 

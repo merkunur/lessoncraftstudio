@@ -289,6 +289,7 @@ import writingNlContent from '@/content/product-pages/nl/schrijfoefeningen-werkb
 
 // Danish content imports
 import wordSearchDaContent from '@/content/product-pages/da/ordsoegning-arbejdsark';
+import additionDaContent from '@/content/product-pages/da/addition-arbejdsark';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -1279,6 +1280,10 @@ export const contentRegistry: ContentRegistry = {
     'ordsoegning-arbejdsark': wordSearchDaContent,
     // Also keep old slug for backwards compatibility during transition
     'word-search-worksheets': wordSearchDaContent,
+    // Danish Addition (Matematikopgaver Plus) - uses Danish SEO slug
+    'addition-arbejdsark': additionDaContent,
+    // Also keep old slug for backwards compatibility during transition
+    'addition-worksheets': additionDaContent,
   },
 };
 

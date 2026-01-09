@@ -8924,6 +8924,7 @@ export async function generateStaticParams() {
     'woordraadsel-werkbladen', // Product page slug (Dutch) - language-specific SEO slug for word-guess
     'schrijfoefeningen-werkbladen', // Product page slug (Dutch) - language-specific SEO slug for writing
     'ordsoegning-arbejdsark', // Product page slug (Danish) - language-specific SEO slug for word-search
+    'addition-arbejdsark', // Product page slug (Danish) - language-specific SEO slug for addition
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

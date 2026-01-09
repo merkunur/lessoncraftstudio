@@ -1320,6 +1320,12 @@ const nextConfig = {
         destination: '/nl/apps/schaduw-matching-werkbladen',
         permanent: true,
       },
+      // Dutch: subtraction-worksheets → aftrekken-werkbladen
+      {
+        source: '/nl/apps/subtraction-worksheets',
+        destination: '/nl/apps/aftrekken-werkbladen',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

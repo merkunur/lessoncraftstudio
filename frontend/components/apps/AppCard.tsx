@@ -333,6 +333,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     es: 'resta-fichas',
     it: 'sottrazione-schede',
     pt: 'subtracao-fichas',
+    nl: 'aftrekken-werkbladen',
   },
   'treasure-hunt': {
     en: 'treasure-hunt-worksheets',

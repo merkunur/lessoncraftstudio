@@ -282,6 +282,7 @@ import picturePathNlContent from '@/content/product-pages/nl/doolhof-werkbladen'
 import pictureSortNlContent from '@/content/product-pages/nl/sorteer-werkbladen';
 import prepositionsNlContent from '@/content/product-pages/nl/voorzetsels-werkbladen';
 import shadowMatchNlContent from '@/content/product-pages/nl/schaduw-matching-werkbladen';
+import subtractionNlContent from '@/content/product-pages/nl/aftrekken-werkbladen';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -1250,6 +1251,10 @@ export const contentRegistry: ContentRegistry = {
     'schaduw-matching-werkbladen': shadowMatchNlContent,
     // Also keep old slug for backwards compatibility during transition
     'shadow-match-worksheets': shadowMatchNlContent,
+    // Dutch Subtraction (Aftrekken) - uses Dutch SEO slug
+    'aftrekken-werkbladen': subtractionNlContent,
+    // Also keep old slug for backwards compatibility during transition
+    'subtraction-worksheets': subtractionNlContent,
   },
 };
 

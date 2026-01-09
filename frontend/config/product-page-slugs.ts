@@ -428,6 +428,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       es: 'resta-fichas',
       it: 'sottrazione-schede',
       pt: 'subtracao-fichas',
+      nl: 'aftrekken-werkbladen',
     },
   },
   {

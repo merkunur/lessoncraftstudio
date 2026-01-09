@@ -207,6 +207,7 @@ import picturePathNlContent from '@/content/product-pages/nl/doolhof-werkbladen'
 import pictureSortNlContent from '@/content/product-pages/nl/sorteer-werkbladen';
 import prepositionsNlContent from '@/content/product-pages/nl/voorzetsels-werkbladen';
 import shadowMatchNlContent from '@/content/product-pages/nl/schaduw-matching-werkbladen';
+import subtractionNlContent from '@/content/product-pages/nl/aftrekken-werkbladen';
 
 interface PageProps {
   params: {
@@ -8910,6 +8911,7 @@ export async function generateStaticParams() {
     'sorteer-werkbladen', // Product page slug (Dutch) - language-specific SEO slug for picture-sort
     'voorzetsels-werkbladen', // Product page slug (Dutch) - language-specific SEO slug for prepositions
     'schaduw-matching-werkbladen', // Product page slug (Dutch) - language-specific SEO slug for shadow-match
+    'aftrekken-werkbladen', // Product page slug (Dutch) - language-specific SEO slug for subtraction
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

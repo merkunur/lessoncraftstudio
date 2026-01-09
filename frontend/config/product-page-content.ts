@@ -280,6 +280,7 @@ import patternTrainNlContent from '@/content/product-pages/nl/patroontrein-werkb
 import patternWorksheetsNlContent from '@/content/product-pages/nl/patronen-werkbladen';
 import picturePathNlContent from '@/content/product-pages/nl/doolhof-werkbladen';
 import pictureSortNlContent from '@/content/product-pages/nl/sorteer-werkbladen';
+import prepositionsNlContent from '@/content/product-pages/nl/voorzetsels-werkbladen';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -1240,6 +1241,10 @@ export const contentRegistry: ContentRegistry = {
     'sorteer-werkbladen': pictureSortNlContent,
     // Also keep old slug for backwards compatibility during transition
     'picture-sort-worksheets': pictureSortNlContent,
+    // Dutch Prepositions (Voorzetsels) - uses Dutch SEO slug
+    'voorzetsels-werkbladen': prepositionsNlContent,
+    // Also keep old slug for backwards compatibility during transition
+    'prepositions-worksheets': prepositionsNlContent,
   },
 };
 

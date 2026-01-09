@@ -205,6 +205,7 @@ import patternTrainNlContent from '@/content/product-pages/nl/patroontrein-werkb
 import patternWorksheetsNlContent from '@/content/product-pages/nl/patronen-werkbladen';
 import picturePathNlContent from '@/content/product-pages/nl/doolhof-werkbladen';
 import pictureSortNlContent from '@/content/product-pages/nl/sorteer-werkbladen';
+import prepositionsNlContent from '@/content/product-pages/nl/voorzetsels-werkbladen';
 
 interface PageProps {
   params: {
@@ -8905,6 +8906,8 @@ export async function generateStaticParams() {
     'patroontrein-werkbladen', // Product page slug (Dutch) - language-specific SEO slug for pattern-train
     'patronen-werkbladen', // Product page slug (Dutch) - language-specific SEO slug for pattern-worksheets
     'doolhof-werkbladen', // Product page slug (Dutch) - language-specific SEO slug for picture-path
+    'sorteer-werkbladen', // Product page slug (Dutch) - language-specific SEO slug for picture-sort
+    'voorzetsels-werkbladen', // Product page slug (Dutch) - language-specific SEO slug for prepositions
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

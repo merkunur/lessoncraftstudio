@@ -313,6 +313,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     es: 'preposiciones-fichas',
     it: 'preposizioni-schede',
     pt: 'preposicoes-fichas',
+    nl: 'voorzetsels-werkbladen',
   },
   'shadow-match': {
     en: 'shadow-match-worksheets',

@@ -1308,6 +1308,12 @@ const nextConfig = {
         destination: '/nl/apps/sorteer-werkbladen',
         permanent: true,
       },
+      // Dutch: prepositions-worksheets → voorzetsels-werkbladen
+      {
+        source: '/nl/apps/prepositions-worksheets',
+        destination: '/nl/apps/voorzetsels-werkbladen',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

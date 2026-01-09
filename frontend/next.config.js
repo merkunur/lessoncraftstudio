@@ -1200,6 +1200,12 @@ const nextConfig = {
         destination: '/nl/apps/lijnen-trekken-werkbladen',
         permanent: true,
       },
+      // Dutch: picture-bingo-worksheets → plaatjes-bingo-werkbladen
+      {
+        source: '/nl/apps/picture-bingo-worksheets',
+        destination: '/nl/apps/plaatjes-bingo-werkbladen',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

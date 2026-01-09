@@ -262,6 +262,7 @@ import wordScrambleNlContent from '@/content/product-pages/nl/woordkruisel-werkb
 import findAndCountNlContent from '@/content/product-pages/nl/zoek-en-tel-werkbladen';
 import matchingNlContent from '@/content/product-pages/nl/verbindings-werkbladen';
 import drawingLinesNlContent from '@/content/product-pages/nl/lijnen-trekken-werkbladen';
+import pictureBingoNlContent from '@/content/product-pages/nl/plaatjes-bingo-werkbladen';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -1150,6 +1151,10 @@ export const contentRegistry: ContentRegistry = {
     'lijnen-trekken-werkbladen': drawingLinesNlContent,
     // Also keep old slug for backwards compatibility during transition
     'drawing-lines-worksheets': drawingLinesNlContent,
+    // Dutch Picture Bingo (Plaatjes Bingo) - uses Dutch SEO slug
+    'plaatjes-bingo-werkbladen': pictureBingoNlContent,
+    // Also keep old slug for backwards compatibility during transition
+    'picture-bingo-worksheets': pictureBingoNlContent,
   },
 };
 

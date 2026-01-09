@@ -363,6 +363,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     es: 'lectoescritura-fichas',
     it: 'scrittura-schede',
     pt: 'caligrafia-fichas',
+    nl: 'schrijfoefeningen-werkbladen',
   },
 };
 

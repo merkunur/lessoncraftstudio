@@ -285,6 +285,7 @@ import shadowMatchNlContent from '@/content/product-pages/nl/schaduw-matching-we
 import subtractionNlContent from '@/content/product-pages/nl/aftrekken-werkbladen';
 import treasureHuntNlContent from '@/content/product-pages/nl/schattenjacht-werkbladen';
 import wordGuessNlContent from '@/content/product-pages/nl/woordraadsel-werkbladen';
+import writingNlContent from '@/content/product-pages/nl/schrijfoefeningen-werkbladen';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -1265,6 +1266,10 @@ export const contentRegistry: ContentRegistry = {
     'woordraadsel-werkbladen': wordGuessNlContent,
     // Also keep old slug for backwards compatibility during transition
     'word-guess-worksheets': wordGuessNlContent,
+    // Dutch Writing (Schrijfoefeningen) - uses Dutch SEO slug
+    'schrijfoefeningen-werkbladen': writingNlContent,
+    // Also keep old slug for backwards compatibility during transition
+    'writing-worksheets': writingNlContent,
   },
 };
 

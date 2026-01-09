@@ -1338,6 +1338,12 @@ const nextConfig = {
         destination: '/nl/apps/woordraadsel-werkbladen',
         permanent: true,
       },
+      // Dutch: writing-worksheets → schrijfoefeningen-werkbladen
+      {
+        source: '/nl/apps/writing-worksheets',
+        destination: '/nl/apps/schrijfoefeningen-werkbladen',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

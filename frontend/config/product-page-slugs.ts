@@ -363,6 +363,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       es: 'fichas-patrones',
       it: 'schede-pattern',
       pt: 'fichas-padroes-sequencias',
+      nl: 'patronen-werkbladen',
     },
   },
   {

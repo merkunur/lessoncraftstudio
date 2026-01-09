@@ -202,6 +202,7 @@ import missingPiecesNlContent from '@/content/product-pages/nl/ontbrekende-puzze
 import moreLessNlContent from '@/content/product-pages/nl/meer-minder-werkbladen';
 import oddOneOutNlContent from '@/content/product-pages/nl/welke-hoort-niet-bij-werkbladen';
 import patternTrainNlContent from '@/content/product-pages/nl/patroontrein-werkbladen';
+import patternWorksheetsNlContent from '@/content/product-pages/nl/patronen-werkbladen';
 
 interface PageProps {
   params: {

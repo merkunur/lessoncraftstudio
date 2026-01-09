@@ -1290,6 +1290,12 @@ const nextConfig = {
         destination: '/nl/apps/patroontrein-werkbladen',
         permanent: true,
       },
+      // Dutch: pattern-worksheets → patronen-werkbladen
+      {
+        source: '/nl/apps/pattern-worksheets',
+        destination: '/nl/apps/patronen-werkbladen',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

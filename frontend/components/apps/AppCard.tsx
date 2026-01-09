@@ -283,6 +283,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     es: 'fichas-patrones',
     it: 'schede-pattern',
     pt: 'fichas-padroes-sequencias',
+    nl: 'patronen-werkbladen',
   },
   'picture-path': {
     en: 'picture-path-worksheets',

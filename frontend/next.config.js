@@ -1314,6 +1314,12 @@ const nextConfig = {
         destination: '/nl/apps/voorzetsels-werkbladen',
         permanent: true,
       },
+      // Dutch: shadow-match-worksheets → schaduw-matching-werkbladen
+      {
+        source: '/nl/apps/shadow-match-worksheets',
+        destination: '/nl/apps/schaduw-matching-werkbladen',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

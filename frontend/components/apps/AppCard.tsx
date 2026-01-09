@@ -323,6 +323,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     es: 'asociacion-sombras-fichas',
     it: 'abbinamento-ombre-schede',
     pt: 'combinar-sombras-fichas',
+    nl: 'schaduw-matching-werkbladen',
   },
   'subtraction': {
     en: 'subtraction-worksheets',

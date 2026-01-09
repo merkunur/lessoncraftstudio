@@ -415,6 +415,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       es: 'asociacion-sombras-fichas',
       it: 'abbinamento-ombre-schede',
       pt: 'combinar-sombras-fichas',
+      nl: 'schaduw-matching-werkbladen',
     },
   },
   {

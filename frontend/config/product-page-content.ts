@@ -281,6 +281,7 @@ import patternWorksheetsNlContent from '@/content/product-pages/nl/patronen-werk
 import picturePathNlContent from '@/content/product-pages/nl/doolhof-werkbladen';
 import pictureSortNlContent from '@/content/product-pages/nl/sorteer-werkbladen';
 import prepositionsNlContent from '@/content/product-pages/nl/voorzetsels-werkbladen';
+import shadowMatchNlContent from '@/content/product-pages/nl/schaduw-matching-werkbladen';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -1245,6 +1246,10 @@ export const contentRegistry: ContentRegistry = {
     'voorzetsels-werkbladen': prepositionsNlContent,
     // Also keep old slug for backwards compatibility during transition
     'prepositions-worksheets': prepositionsNlContent,
+    // Dutch Shadow Match (Schaduw Matching) - uses Dutch SEO slug
+    'schaduw-matching-werkbladen': shadowMatchNlContent,
+    // Also keep old slug for backwards compatibility during transition
+    'shadow-match-worksheets': shadowMatchNlContent,
   },
 };
 

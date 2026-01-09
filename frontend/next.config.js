@@ -1182,6 +1182,12 @@ const nextConfig = {
         destination: '/nl/apps/woordkruisel-werkbladen',
         permanent: true,
       },
+      // Dutch: find-and-count-worksheets → zoek-en-tel-werkbladen
+      {
+        source: '/nl/apps/find-and-count-worksheets',
+        destination: '/nl/apps/zoek-en-tel-werkbladen',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

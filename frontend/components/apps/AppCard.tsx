@@ -104,6 +104,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     es: 'buscar-contar-fichas',
     it: 'trova-e-conta-schede',
     pt: 'encontre-conte-fichas',
+    nl: 'zoek-en-tel-werkbladen',
   },
   'matching-app': {
     en: 'matching-worksheets',

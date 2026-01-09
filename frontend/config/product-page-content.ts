@@ -259,6 +259,7 @@ import coloringNlContent from '@/content/product-pages/nl/kleurplaten-werkbladen
 import alphabetTrainNlContent from '@/content/product-pages/nl/alphabet-train-worksheets';
 import mathWorksheetsNlContent from '@/content/product-pages/nl/rekenen-werkbladen';
 import wordScrambleNlContent from '@/content/product-pages/nl/woordkruisel-werkbladen';
+import findAndCountNlContent from '@/content/product-pages/nl/zoek-en-tel-werkbladen';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -1135,6 +1136,10 @@ export const contentRegistry: ContentRegistry = {
     'woordkruisel-werkbladen': wordScrambleNlContent,
     // Also keep old slug for backwards compatibility during transition
     'word-scramble-worksheets': wordScrambleNlContent,
+    // Dutch Find and Count (Zoek en Tel) - uses Dutch SEO slug
+    'zoek-en-tel-werkbladen': findAndCountNlContent,
+    // Also keep old slug for backwards compatibility during transition
+    'find-and-count-worksheets': findAndCountNlContent,
   },
 };
 

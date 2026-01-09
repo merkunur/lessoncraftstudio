@@ -1332,6 +1332,12 @@ const nextConfig = {
         destination: '/nl/apps/schattenjacht-werkbladen',
         permanent: true,
       },
+      // Dutch: word-guess-worksheets → woordraadsel-werkbladen
+      {
+        source: '/nl/apps/word-guess-worksheets',
+        destination: '/nl/apps/woordraadsel-werkbladen',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

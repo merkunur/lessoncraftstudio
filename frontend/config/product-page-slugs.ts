@@ -454,6 +454,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       es: 'adivinar-palabras-fichas',
       it: 'indovina-parole-schede',
       pt: 'adivinhar-palavras-fichas',
+      nl: 'woordraadsel-werkbladen',
     },
   },
   {

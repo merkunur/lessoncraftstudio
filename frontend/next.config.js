@@ -1152,6 +1152,12 @@ const nextConfig = {
         destination: '/nl/apps/woordzoeker-werkbladen',
         permanent: true,
       },
+      // Dutch: addition-worksheets → optellen-werkbladen
+      {
+        source: '/nl/apps/addition-worksheets',
+        destination: '/nl/apps/optellen-werkbladen',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

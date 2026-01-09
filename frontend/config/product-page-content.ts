@@ -254,6 +254,7 @@ import writingPtContent from '@/content/product-pages/pt/caligrafia-fichas';
 
 // Dutch content imports
 import wordSearchNlContent from '@/content/product-pages/nl/word-search-worksheets';
+import additionNlContent from '@/content/product-pages/nl/optellen-werkbladen';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -1110,6 +1111,10 @@ export const contentRegistry: ContentRegistry = {
     'woordzoeker-werkbladen': wordSearchNlContent,
     // Also keep old slug for backwards compatibility during transition
     'word-search-worksheets': wordSearchNlContent,
+    // Dutch Addition (Optellen) - uses Dutch SEO slug
+    'optellen-werkbladen': additionNlContent,
+    // Also keep old slug for backwards compatibility during transition
+    'addition-worksheets': additionNlContent,
   },
 };
 

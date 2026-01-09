@@ -179,6 +179,7 @@ import treasureHuntPtContent from '@/content/product-pages/pt/caca-ao-tesouro-fi
 import wordGuessPtContent from '@/content/product-pages/pt/adivinhar-palavras-fichas';
 import writingPtContent from '@/content/product-pages/pt/caligrafia-fichas';
 import wordSearchNlContent from '@/content/product-pages/nl/word-search-worksheets';
+import additionNlContent from '@/content/product-pages/nl/optellen-werkbladen';
 
 interface PageProps {
   params: {

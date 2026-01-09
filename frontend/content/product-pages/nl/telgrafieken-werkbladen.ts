@@ -28,7 +28,7 @@ export const chartCountNlContent: ProductPageContent = {
     slug: 'telgrafieken-werkbladen',
     appId: 'chart-count-color',
     title: 'Telgrafieken Werkbladen Maker - Gratis Oefenbladen voor Rekenen en Tellen in Groep 3',
-    description: 'Maak professionele telgrafieken werkbladen met onze werkbladen generator. Met je Full Access abonnement maak je onbeperkt werkbladen zonder extra kosten per werkblad. Deze tool is ideaal voor rekenen werkbladen waarbij kinderen leren tellen en gegevens visualiseren.',
+    description: 'Maak professionele telgrafieken werkbladen met onze werkbladen generator. Met je Volledige Toegang abonnement maak je onbeperkt werkbladen zonder extra kosten per werkblad. Deze tool is ideaal voor rekenen werkbladen waarbij kinderen leren tellen en gegevens visualiseren.',
     keywords: 'telgrafieken werkbladen, werkbladen groep 3, werkbladen kleuters, rekenen werkbladen, oefenbladen gratis, kleurplaten, letters leren, schrijven oefenen, tafels oefenen, veilig leren lezen, fijne motoriek, sommen tot 20',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/telgrafieken-werkbladen',
   },
@@ -37,7 +37,7 @@ export const chartCountNlContent: ProductPageContent = {
   hero: {
     title: 'Telgrafieken Werkbladen Maker',
     subtitle: 'Gratis Oefenbladen voor Rekenen en Tellen in Groep 3',
-    description: `Maak professionele telgrafieken werkbladen met onze werkbladen generator. Met je Full Access abonnement maak je onbeperkt werkbladen zonder extra kosten per werkblad. Deze tool is ideaal voor rekenen werkbladen waarbij kinderen leren tellen en gegevens visualiseren. Download werkbladen als PDF in minder dan 3 minuten.
+    description: `Maak professionele telgrafieken werkbladen met onze werkbladen generator. Met je Volledige Toegang abonnement maak je onbeperkt werkbladen zonder extra kosten per werkblad. Deze tool is ideaal voor rekenen werkbladen waarbij kinderen leren tellen en gegevens visualiseren. Download werkbladen als PDF in minder dan 3 minuten.
 
 Telgrafieken zijn perfecte rekenen werkbladen voor werkbladen groep 3 en werkbladen kleuters. Kinderen leren op een speelse manier omgaan met cijfers en grafieken. De generator biedt meer dan 3000 afbeeldingen, allemaal inbegrepen in je abonnement. Combineer plaatjes met telactiviteiten voor effectieve sommen tot 20 oefeningen.`,
     previewImageSrc: '/samples/english/chart count/chart count.jpeg',
@@ -86,7 +86,7 @@ Telgrafieken zijn perfecte rekenen werkbladen voor werkbladen groep 3 en werkbla
   // Features Grid - FULL text from chart-count.md feature sections
   features: {
     sectionTitle: 'Functies van de Telgrafieken Generator - Alles voor Rekenen Werkbladen en Oefenbladen Gratis',
-    sectionDescription: 'De telgrafieken werkbladen generator biedt complete functionaliteit voor leerkrachten. Van werkbladen groep 3 tot werkbladen kleuters, elk niveau wordt ondersteund. Hieronder vind je alle functies die je nodig hebt voor professionele rekenen werkbladen. Met je Full Access abonnement krijg je toegang tot alle mogelijkheden.',
+    sectionDescription: 'De telgrafieken werkbladen generator biedt complete functionaliteit voor leerkrachten. Van werkbladen groep 3 tot werkbladen kleuters, elk niveau wordt ondersteund. Hieronder vind je alle functies die je nodig hebt voor professionele rekenen werkbladen. Met je Volledige Toegang abonnement krijg je toegang tot alle mogelijkheden.',
     highlightBadgeText: 'Uitgelicht',
     readMoreLabel: 'Lees meer',
     showLessLabel: 'Minder tonen',
@@ -145,7 +145,7 @@ Afbeeldingsnamen worden vertaald per taal. Dit helpt bij woordenschat ontwikkeli
         id: '5',
         icon: '💼',
         title: 'Commerciële Licentie voor Kleurplaten en Rekenen Werkbladen - Verkopen op Teachers Pay Teachers',
-        description: `Je Full Access abonnement bevat een volledige commerciële licentie. Verkoop je werkbladen op Teachers Pay Teachers. Start een Etsy winkel met printbare kleurplaten en rekenen werkbladen. Publiceer op Amazon KDP zonder extra licentiekosten.
+        description: `Je Volledige Toegang abonnement bevat een volledige commerciële licentie. Verkoop je werkbladen op Teachers Pay Teachers. Start een Etsy winkel met printbare kleurplaten en rekenen werkbladen. Publiceer op Amazon KDP zonder extra licentiekosten.
 
 De 300 DPI exportkwaliteit is geschikt voor professioneel drukwerk. Geen watermerk op je downloads. Geen naamsvermelding vereist. Jouw werkbladen, jouw merk, jouw inkomsten.
 
@@ -343,7 +343,7 @@ Voeg schrijven oefenen toe met dikke lijnen en grote vakken. De bewerkingsfuncti
         icon: '💰',
         title: 'Ondernemende Docenten met Kleurplaten en Rekenen Werkbladen - Verkopen op Teachers Pay Teachers',
         subtitle: 'Commerciële licentie voor ondernemers',
-        description: `Creatieve docenten verkopen hun werkbladen online. Kleurplaten en rekenen werkbladen zijn populaire producten. De commerciële licentie maakt dit legaal mogelijk. Geen extra kosten boven je Full Access abonnement.
+        description: `Creatieve docenten verkopen hun werkbladen online. Kleurplaten en rekenen werkbladen zijn populaire producten. De commerciële licentie maakt dit legaal mogelijk. Geen extra kosten boven je Volledige Toegang abonnement.
 
 Teachers Pay Teachers is het grootste platform voor educatieve materialen. Nederlandse docenten verkopen ook op Juf-Juul en andere platforms. De 300 DPI kwaliteit voldoet aan professionele standaarden. Jouw werkbladen concurreren met uitgeverijen.
 
@@ -368,7 +368,7 @@ Bouw een passief inkomen met telgrafiekenpakketten. Maak thematische bundels voo
       {
         id: '1',
         question: 'Is de Telgrafieken Generator Echt Gratis voor Sommen tot 20 Werkbladen?',
-        answer: 'De telgrafieken werkbladen generator vereist een Full Access abonnement van €240 per jaar of €25 per maand. Met je abonnement maak je onbeperkt sommen tot 20 werkbladen zonder extra kosten per werkblad. Genereer zoveel telgrafieken als je nodig hebt zonder aanvullende kosten. Het Core Bundle abonnement kost €144 per jaar en bevat 10 populaire werkbladgeneratoren. Het Full Access abonnement kost €240 per jaar en bevat alle 33 werkbladtypes inclusief telgrafieken. Beide abonnementen bevatten commerciële licentie, 11 talen ondersteuning en professionele 300 DPI exports.',
+        answer: 'De telgrafieken werkbladen generator vereist een Volledige Toegang abonnement van €240 per jaar of €25 per maand. Met je abonnement maak je onbeperkt sommen tot 20 werkbladen zonder extra kosten per werkblad. Genereer zoveel telgrafieken als je nodig hebt zonder aanvullende kosten. Het Basispakket abonnement kost €144 per jaar en bevat 10 populaire werkbladgeneratoren. Het Volledige Toegang abonnement kost €240 per jaar en bevat alle 33 werkbladtypes inclusief telgrafieken. Beide abonnementen bevatten commerciële licentie, 11 talen ondersteuning en professionele 300 DPI exports.',
       },
       {
         id: '2',
@@ -383,7 +383,7 @@ Bouw een passief inkomen met telgrafiekenpakketten. Maak thematische bundels voo
       {
         id: '4',
         question: 'Mag Ik Werkbladen Kleuters Gebruiken in Mijn Klas met Leerlingen?',
-        answer: 'Ja, je Full Access abonnement bevat onbeperkt klasgebruik. Werkbladen kleuters mogen geprint en gekopieerd worden voor al je leerlingen. Geen limiet op het aantal kopieën per werkblad. Print werkbladen voor de hele school als je wilt. Deel digitale versies via leerlingportalen. Gebruik werkbladen voor huiswerk, toetsen en extra oefening. Alles inbegrepen in je abonnement.',
+        answer: 'Ja, je Volledige Toegang abonnement bevat onbeperkt klasgebruik. Werkbladen kleuters mogen geprint en gekopieerd worden voor al je leerlingen. Geen limiet op het aantal kopieën per werkblad. Print werkbladen voor de hele school als je wilt. Deel digitale versies via leerlingportalen. Gebruik werkbladen voor huiswerk, toetsen en extra oefening. Alles inbegrepen in je abonnement.',
       },
       {
         id: '5',
@@ -393,7 +393,7 @@ Bouw een passief inkomen met telgrafiekenpakketten. Maak thematische bundels voo
       {
         id: '6',
         question: 'Kan Ik Oefenbladen Gratis Verkopen die Ik Maak met Deze Generator?',
-        answer: 'Ja, je Full Access abonnement bevat volledige commerciële print-on-demand licentie. Verkoop je oefenbladen zonder extra kosten of royalty\'s. Geen naamsvermelding vereist op je producten. Verkoop op Teachers Pay Teachers, Etsy, Amazon KDP en andere platforms. De 300 DPI kwaliteit voldoet aan professionele standaarden. Bouw een passief inkomen met telgrafiekenpakketten. Jouw creaties, jouw winst.',
+        answer: 'Ja, je Volledige Toegang abonnement bevat volledige commerciële print-on-demand licentie. Verkoop je oefenbladen zonder extra kosten of royalty\'s. Geen naamsvermelding vereist op je producten. Verkoop op Teachers Pay Teachers, Etsy, Amazon KDP en andere platforms. De 300 DPI kwaliteit voldoet aan professionele standaarden. Bouw een passief inkomen met telgrafiekenpakketten. Jouw creaties, jouw winst.',
       },
       {
         id: '7',
@@ -428,9 +428,9 @@ Bouw een passief inkomen met telgrafiekenpakketten. Maak thematische bundels voo
     ],
   },
 
-  // Pricing - Full Access pricing (Chart Count is Full Access app)
+  // Pricing - Volledige Toegang pricing (Chart Count is Volledige Toegang app)
   pricing: {
-    title: 'Full Access',
+    title: 'Volledige Toegang',
     price: '€240',
     priceInterval: '/jaar',
     priceSuffix: 'Jaarlijks gefactureerd',
@@ -450,7 +450,7 @@ Bouw een passief inkomen met telgrafiekenpakketten. Maak thematische bundels voo
   // Related Apps
   relatedApps: {
     sectionTitle: 'Combineer Telgrafieken met Andere Werkbladen - Tafels Oefenen en Veilig Leren Lezen Compleet Pakket',
-    sectionDescription: 'Je Full Access abonnement bevat 33 verschillende werkbladgeneratoren. Combineer telgrafieken met andere tools voor complete lespakketten. Van tafels oefenen tot veilig leren lezen, alles werkt samen. Ontdek de krachtigste combinaties voor jouw onderwijs.',
+    sectionDescription: 'Je Volledige Toegang abonnement bevat 33 verschillende werkbladgeneratoren. Combineer telgrafieken met andere tools voor complete lespakketten. Van tafels oefenen tot veilig leren lezen, alles werkt samen. Ontdek de krachtigste combinaties voor jouw onderwijs.',
     ctaTitle: 'Klaar om geweldige werkbladen te maken?',
     ctaDescription: 'Sluit je aan bij duizenden leerkrachten die professionele werkbladen maken. Onbeperkt genereren, commerciële licentie inbegrepen.',
     primaryCtaText: 'Gratis Proberen',

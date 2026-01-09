@@ -42,23 +42,24 @@ next-env.d.ts
 
 /lib/generated/prisma
 
-# Static content - managed independently from code
-# These are maintained in REFERENCE APPS folder and deployed separately
-# NOTE: GOLDEN_BACKUPS and REFERENCE folders are EXCLUDED from these rules (they should be in git)
-/public/worksheet-generators/*.html
-!/GOLDEN_BACKUPS/**/*.html
-!/REFERENCE*/**/*.html
+# =============================================================================
+# WORKSHEET GENERATORS - COMPLETE EXCLUSION
+# =============================================================================
+# ALL files in worksheet-generators are managed independently from code.
+# Source of truth: REFERENCE APPS and REFERENCE TRANSLATIONS folders
+# These folders are in the main lessoncraftstudio directory, NOT in frontend.
+#
+# CRITICAL: Never track these files in git. Deployments must use REFERENCE folders.
+# =============================================================================
 
-# Content managers - managed independently from code
-# These are maintained in REFERENCE CONTENT MANAGERS folder and deployed separately
-/public/worksheet-generators/blog-content-manager.html
+# Ignore EVERYTHING in worksheet-generators (HTML, JS, translations, scripts, docs)
+/public/worksheet-generators/*
+/public/worksheet-generators/**/*
+
+# Content managers at root level
 /public/homepage-content-manager.html
-/public/worksheet-generators/content-manager-v2.html
-!/GOLDEN_BACKUPS/**/*content-manager.html
-!/REFERENCE*/**/*content-manager.html
 
-# Translation files - managed independently from code
-# These are maintained in REFERENCE TRANSLATIONS folder and deployed separately
-/public/worksheet-generators/js/translations-*.js
-!/GOLDEN_BACKUPS/**/translations-*.js
-!/REFERENCE*/**/translations-*.js
+# =============================================================================
+# GOLDEN_BACKUPS and REFERENCE folders ARE tracked (they are in root, not frontend)
+# No need for negation rules here - they're not in /public/
+# =============================================================================

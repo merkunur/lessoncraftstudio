@@ -1326,6 +1326,12 @@ const nextConfig = {
         destination: '/nl/apps/aftrekken-werkbladen',
         permanent: true,
       },
+      // Dutch: treasure-hunt-worksheets → schattenjacht-werkbladen
+      {
+        source: '/nl/apps/treasure-hunt-worksheets',
+        destination: '/nl/apps/schattenjacht-werkbladen',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

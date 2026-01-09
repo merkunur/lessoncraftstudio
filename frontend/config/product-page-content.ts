@@ -283,6 +283,7 @@ import pictureSortNlContent from '@/content/product-pages/nl/sorteer-werkbladen'
 import prepositionsNlContent from '@/content/product-pages/nl/voorzetsels-werkbladen';
 import shadowMatchNlContent from '@/content/product-pages/nl/schaduw-matching-werkbladen';
 import subtractionNlContent from '@/content/product-pages/nl/aftrekken-werkbladen';
+import treasureHuntNlContent from '@/content/product-pages/nl/schattenjacht-werkbladen';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -1255,6 +1256,10 @@ export const contentRegistry: ContentRegistry = {
     'aftrekken-werkbladen': subtractionNlContent,
     // Also keep old slug for backwards compatibility during transition
     'subtraction-worksheets': subtractionNlContent,
+    // Dutch Treasure Hunt (Schattenjacht) - uses Dutch SEO slug
+    'schattenjacht-werkbladen': treasureHuntNlContent,
+    // Also keep old slug for backwards compatibility during transition
+    'treasure-hunt-worksheets': treasureHuntNlContent,
   },
 };
 

@@ -441,6 +441,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       es: 'busqueda-tesoro-fichas',
       it: 'caccia-tesoro-schede',
       pt: 'caca-ao-tesouro-fichas',
+      nl: 'schattenjacht-werkbladen',
     },
   },
   {

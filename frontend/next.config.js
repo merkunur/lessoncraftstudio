@@ -1164,6 +1164,12 @@ const nextConfig = {
         destination: '/nl/apps/alfabet-trein-werkbladen',
         permanent: true,
       },
+      // Dutch: coloring-worksheets → kleurplaten-werkbladen
+      {
+        source: '/nl/apps/coloring-worksheets',
+        destination: '/nl/apps/kleurplaten-werkbladen',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

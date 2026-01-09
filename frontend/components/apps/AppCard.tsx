@@ -74,6 +74,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     es: 'dibujos-colorear-fichas',
     it: 'disegni-da-colorare',
     pt: 'desenhos-colorir-fichas',
+    nl: 'kleurplaten-werkbladen',
   },
   'math-worksheet': {
     en: 'math-worksheets',

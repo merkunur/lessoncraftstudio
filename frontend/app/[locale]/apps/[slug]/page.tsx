@@ -180,6 +180,7 @@ import wordGuessPtContent from '@/content/product-pages/pt/adivinhar-palavras-fi
 import writingPtContent from '@/content/product-pages/pt/caligrafia-fichas';
 import wordSearchNlContent from '@/content/product-pages/nl/word-search-worksheets';
 import additionNlContent from '@/content/product-pages/nl/optellen-werkbladen';
+import coloringNlContent from '@/content/product-pages/nl/kleurplaten-werkbladen';
 import alphabetTrainNlContent from '@/content/product-pages/nl/alphabet-train-worksheets';
 
 interface PageProps {
@@ -8859,6 +8860,7 @@ export async function generateStaticParams() {
     'woordzoeker-werkbladen', // Product page slug (Dutch) - language-specific SEO slug for word-search
     'optellen-werkbladen', // Product page slug (Dutch) - language-specific SEO slug for addition
     'alfabet-trein-werkbladen', // Product page slug (Dutch) - language-specific SEO slug for alphabet-train
+    'kleurplaten-werkbladen', // Product page slug (Dutch) - language-specific SEO slug for coloring
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

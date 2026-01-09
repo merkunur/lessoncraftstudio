@@ -291,6 +291,7 @@ import writingNlContent from '@/content/product-pages/nl/schrijfoefeningen-werkb
 import wordSearchDaContent from '@/content/product-pages/da/ordsoegning-arbejdsark';
 import additionDaContent from '@/content/product-pages/da/addition-arbejdsark';
 import alphabetTrainDaContent from '@/content/product-pages/da/alfabet-tog-arbejdsark';
+import coloringDaContent from '@/content/product-pages/da/malebog-arbejdsark';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -1289,6 +1290,10 @@ export const contentRegistry: ContentRegistry = {
     'alfabet-tog-arbejdsark': alphabetTrainDaContent,
     // Also keep old slug for backwards compatibility during transition
     'alphabet-train-worksheets': alphabetTrainDaContent,
+    // Danish Coloring (Malebog) - uses Danish SEO slug
+    'malebog-arbejdsark': coloringDaContent,
+    // Also keep old slug for backwards compatibility during transition
+    'coloring-worksheets': coloringDaContent,
   },
 };
 

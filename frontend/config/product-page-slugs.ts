@@ -95,6 +95,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       it: 'disegni-da-colorare',
       pt: 'desenhos-colorir-fichas',
       nl: 'kleurplaten-werkbladen',
+      da: 'malebog-arbejdsark',
     },
   },
   {

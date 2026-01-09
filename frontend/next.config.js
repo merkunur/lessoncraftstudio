@@ -1350,6 +1350,12 @@ const nextConfig = {
         destination: '/da/apps/alfabet-tog-arbejdsark',
         permanent: true,
       },
+      // Danish: coloring-worksheets → malebog-arbejdsark
+      {
+        source: '/da/apps/coloring-worksheets',
+        destination: '/da/apps/malebog-arbejdsark',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

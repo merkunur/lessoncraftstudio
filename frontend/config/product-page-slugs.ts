@@ -53,7 +53,7 @@ export const productPageSlugs: AppSlugConfig[] = [
     },
   },
   {
-    appId: 'addition',
+    appId: 'image-addition',
     slugs: {
       en: 'addition-worksheets',
       sv: 'addition-arbetsblad',

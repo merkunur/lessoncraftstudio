@@ -126,7 +126,7 @@ export const appsConfig: AppConfig[] = [
 
   // Full Access Apps (Additional 22 apps)
   {
-    id: 'big-small',
+    id: 'big-small-app',
     name: 'Big Small App',
     filename: 'bigsmall.html',
     description: 'Size comparison exercises',
@@ -266,7 +266,7 @@ export const appsConfig: AppConfig[] = [
     keywords: ['pattern', 'worksheet', 'sequence', 'repeat']
   },
   {
-    id: 'picture-pathway',
+    id: 'picture-path',
     name: 'Picture Pathway',
     filename: 'picturepathway.html',
     description: 'Path finding with pictures',

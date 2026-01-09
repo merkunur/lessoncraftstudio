@@ -1248,6 +1248,18 @@ const nextConfig = {
         destination: '/nl/apps/raster-puzzel-werkbladen',
         permanent: true,
       },
+      // Dutch: crossword-worksheets → kruiswoordpuzzel-werkbladen
+      {
+        source: '/nl/apps/crossword-worksheets',
+        destination: '/nl/apps/kruiswoordpuzzel-werkbladen',
+        permanent: true,
+      },
+      // Dutch: cryptogram-worksheets → cryptogram-werkbladen
+      {
+        source: '/nl/apps/cryptogram-worksheets',
+        destination: '/nl/apps/cryptogram-werkbladen',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

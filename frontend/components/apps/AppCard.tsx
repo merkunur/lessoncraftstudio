@@ -223,6 +223,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     es: 'criptogramas-imagenes-fichas',
     it: 'crittogramma-schede',
     pt: 'criptograma-imagens-fichas',
+    nl: 'cryptogram-werkbladen',
   },
   'math-puzzle': {
     en: 'math-puzzle-worksheets',

@@ -285,6 +285,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       es: 'criptogramas-imagenes-fichas',
       it: 'crittogramma-schede',
       pt: 'criptograma-imagens-fichas',
+      nl: 'cryptogram-werkbladen',
     },
   },
   {

@@ -271,6 +271,7 @@ import drawAndColorNlContent from '@/content/product-pages/nl/rastertekenen-werk
 import findObjectsNlContent from '@/content/product-pages/nl/zoek-voorwerpen-werkbladen';
 import gridMatchNlContent from '@/content/product-pages/nl/raster-puzzel-werkbladen';
 import crosswordNlContent from '@/content/product-pages/nl/kruiswoordpuzzel-werkbladen';
+import cryptogramNlContent from '@/content/product-pages/nl/cryptogram-werkbladen';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -1195,6 +1196,10 @@ export const contentRegistry: ContentRegistry = {
     'kruiswoordpuzzel-werkbladen': crosswordNlContent,
     // Also keep old slug for backwards compatibility during transition
     'crossword-worksheets': crosswordNlContent,
+    // Dutch Cryptogram (Cryptogram) - uses Dutch SEO slug
+    'cryptogram-werkbladen': cryptogramNlContent,
+    // Also keep old slug for backwards compatibility during transition
+    'cryptogram-worksheets': cryptogramNlContent,
   },
 };
 

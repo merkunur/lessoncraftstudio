@@ -324,6 +324,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       es: 'mayor-menor-fichas',
       it: 'confronto-numeri-schede',
       pt: 'maior-menor-fichas',
+      nl: 'meer-minder-werkbladen',
     },
   },
   {

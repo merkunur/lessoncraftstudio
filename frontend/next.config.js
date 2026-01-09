@@ -1272,6 +1272,12 @@ const nextConfig = {
         destination: '/nl/apps/ontbrekende-puzzelstukjes-werkbladen',
         permanent: true,
       },
+      // Dutch: more-less-worksheets → meer-minder-werkbladen
+      {
+        source: '/nl/apps/more-less-worksheets',
+        destination: '/nl/apps/meer-minder-werkbladen',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

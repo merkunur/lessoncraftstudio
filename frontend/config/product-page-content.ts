@@ -274,6 +274,7 @@ import crosswordNlContent from '@/content/product-pages/nl/kruiswoordpuzzel-werk
 import cryptogramNlContent from '@/content/product-pages/nl/cryptogram-werkbladen';
 import mathPuzzleNlContent from '@/content/product-pages/nl/rekenpuzzels-werkbladen';
 import missingPiecesNlContent from '@/content/product-pages/nl/ontbrekende-puzzelstukjes-werkbladen';
+import moreLessNlContent from '@/content/product-pages/nl/meer-minder-werkbladen';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -1210,6 +1211,10 @@ export const contentRegistry: ContentRegistry = {
     'ontbrekende-puzzelstukjes-werkbladen': missingPiecesNlContent,
     // Also keep old slug for backwards compatibility during transition
     'missing-pieces-worksheets': missingPiecesNlContent,
+    // Dutch More Less (Meer Minder) - uses Dutch SEO slug
+    'meer-minder-werkbladen': moreLessNlContent,
+    // Also keep old slug for backwards compatibility during transition
+    'more-less-worksheets': moreLessNlContent,
   },
 };
 

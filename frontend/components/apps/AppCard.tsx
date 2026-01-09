@@ -253,6 +253,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     es: 'mayor-menor-fichas',
     it: 'confronto-numeri-schede',
     pt: 'maior-menor-fichas',
+    nl: 'meer-minder-werkbladen',
   },
   'odd-one-out': {
     en: 'odd-one-out-worksheets',

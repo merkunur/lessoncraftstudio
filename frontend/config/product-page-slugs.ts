@@ -389,6 +389,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       es: 'clasificar-imagenes-fichas',
       it: 'classificazione-immagini-schede',
       pt: 'classificacao-imagens-fichas',
+      nl: 'sorteer-werkbladen',
     },
   },
   {

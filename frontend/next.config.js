@@ -1302,6 +1302,12 @@ const nextConfig = {
         destination: '/nl/apps/doolhof-werkbladen',
         permanent: true,
       },
+      // Dutch: picture-sort-worksheets → sorteer-werkbladen
+      {
+        source: '/nl/apps/picture-sort-worksheets',
+        destination: '/nl/apps/sorteer-werkbladen',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

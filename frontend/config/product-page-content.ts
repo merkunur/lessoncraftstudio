@@ -279,6 +279,7 @@ import oddOneOutNlContent from '@/content/product-pages/nl/welke-hoort-niet-bij-
 import patternTrainNlContent from '@/content/product-pages/nl/patroontrein-werkbladen';
 import patternWorksheetsNlContent from '@/content/product-pages/nl/patronen-werkbladen';
 import picturePathNlContent from '@/content/product-pages/nl/doolhof-werkbladen';
+import pictureSortNlContent from '@/content/product-pages/nl/sorteer-werkbladen';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -1235,6 +1236,10 @@ export const contentRegistry: ContentRegistry = {
     'doolhof-werkbladen': picturePathNlContent,
     // Also keep old slug for backwards compatibility during transition
     'picture-path-worksheets': picturePathNlContent,
+    // Dutch Picture Sort (Sorteer) - uses Dutch SEO slug
+    'sorteer-werkbladen': pictureSortNlContent,
+    // Also keep old slug for backwards compatibility during transition
+    'picture-sort-worksheets': pictureSortNlContent,
   },
 };
 

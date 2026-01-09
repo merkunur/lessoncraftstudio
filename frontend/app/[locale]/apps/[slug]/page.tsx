@@ -204,6 +204,7 @@ import oddOneOutNlContent from '@/content/product-pages/nl/welke-hoort-niet-bij-
 import patternTrainNlContent from '@/content/product-pages/nl/patroontrein-werkbladen';
 import patternWorksheetsNlContent from '@/content/product-pages/nl/patronen-werkbladen';
 import picturePathNlContent from '@/content/product-pages/nl/doolhof-werkbladen';
+import pictureSortNlContent from '@/content/product-pages/nl/sorteer-werkbladen';
 
 interface PageProps {
   params: {

@@ -272,6 +272,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       es: 'crucigramas-imagenes-fichas',
       it: 'cruciverba-immagini-schede',
       pt: 'palavras-cruzadas-imagens-fichas',
+      nl: 'kruiswoordpuzzel-werkbladen',
     },
   },
   {

@@ -270,6 +270,7 @@ import codeAdditionNlContent from '@/content/product-pages/nl/visuele-optelsomme
 import drawAndColorNlContent from '@/content/product-pages/nl/rastertekenen-werkbladen';
 import findObjectsNlContent from '@/content/product-pages/nl/zoek-voorwerpen-werkbladen';
 import gridMatchNlContent from '@/content/product-pages/nl/raster-puzzel-werkbladen';
+import crosswordNlContent from '@/content/product-pages/nl/kruiswoordpuzzel-werkbladen';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -1190,6 +1191,10 @@ export const contentRegistry: ContentRegistry = {
     'raster-puzzel-werkbladen': gridMatchNlContent,
     // Also keep old slug for backwards compatibility during transition
     'grid-match-worksheets': gridMatchNlContent,
+    // Dutch Crossword (Kruiswoordpuzzel) - uses Dutch SEO slug
+    'kruiswoordpuzzel-werkbladen': crosswordNlContent,
+    // Also keep old slug for backwards compatibility during transition
+    'crossword-worksheets': crosswordNlContent,
   },
 };
 

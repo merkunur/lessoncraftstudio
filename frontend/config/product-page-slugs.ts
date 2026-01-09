@@ -208,6 +208,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       es: 'graficos-conteo-fichas',
       it: 'grafici-immagini-schede',
       pt: 'grafico-pictorico-fichas',
+      nl: 'telgrafieken-werkbladen',
     },
   },
   {

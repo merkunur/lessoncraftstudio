@@ -1218,6 +1218,12 @@ const nextConfig = {
         destination: '/nl/apps/groot-klein-werkbladen',
         permanent: true,
       },
+      // Dutch: chart-count-worksheets → telgrafieken-werkbladen
+      {
+        source: '/nl/apps/chart-count-worksheets',
+        destination: '/nl/apps/telgrafieken-werkbladen',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

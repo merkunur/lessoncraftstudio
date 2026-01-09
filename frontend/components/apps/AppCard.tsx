@@ -164,6 +164,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     es: 'graficos-conteo-fichas',
     it: 'grafici-immagini-schede',
     pt: 'grafico-pictorico-fichas',
+    nl: 'telgrafieken-werkbladen',
   },
   'code-addition': {
     en: 'code-addition-worksheets',

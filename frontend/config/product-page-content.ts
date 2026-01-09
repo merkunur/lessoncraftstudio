@@ -265,6 +265,7 @@ import drawingLinesNlContent from '@/content/product-pages/nl/lijnen-trekken-wer
 import pictureBingoNlContent from '@/content/product-pages/nl/plaatjes-bingo-werkbladen';
 import sudokuNlContent from '@/content/product-pages/nl/sudoku-werkbladen';
 import bigSmallNlContent from '@/content/product-pages/nl/groot-klein-werkbladen';
+import chartCountNlContent from '@/content/product-pages/nl/telgrafieken-werkbladen';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -1165,6 +1166,10 @@ export const contentRegistry: ContentRegistry = {
     'groot-klein-werkbladen': bigSmallNlContent,
     // Also keep old slug for backwards compatibility during transition
     'big-small-worksheets': bigSmallNlContent,
+    // Dutch Chart Count (Telgrafieken) - uses Dutch SEO slug
+    'telgrafieken-werkbladen': chartCountNlContent,
+    // Also keep old slug for backwards compatibility during transition
+    'chart-count-worksheets': chartCountNlContent,
   },
 };
 

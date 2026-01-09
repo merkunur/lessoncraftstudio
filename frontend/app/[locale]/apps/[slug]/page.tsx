@@ -8875,6 +8875,7 @@ export async function generateStaticParams() {
     'plaatjes-bingo-werkbladen', // Product page slug (Dutch) - language-specific SEO slug for picture-bingo
     'sudoku-werkbladen', // Product page slug (Dutch) - language-specific SEO slug for sudoku
     'groot-klein-werkbladen', // Product page slug (Dutch) - language-specific SEO slug for big-small
+    'telgrafieken-werkbladen', // Product page slug (Dutch) - language-specific SEO slug for chart-count
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

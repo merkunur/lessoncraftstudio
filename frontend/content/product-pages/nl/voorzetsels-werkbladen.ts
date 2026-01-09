@@ -28,7 +28,7 @@ export const prepositionsNlContent: ProductPageContent = {
     slug: 'voorzetsels-werkbladen',
     appId: 'prepositions',
     title: 'Oefenbladen Gratis Voorzetsels - Werkbladen Kleuters en Groep 3 Generator',
-    description: 'Maak professionele voorzetsels werkbladen met onze werkbladen generator. Je Full Access abonnement geeft je onbeperkt werkbladen maken zonder kosten per werkblad. Genereer aangepaste oefenbladen gratis voor het aanleren van ruimtelijke begrippen aan jonge leerlingen. Download hoogwaardige PDF werkbladen in minder dan 3 minuten.',
+    description: 'Maak professionele voorzetsels werkbladen met onze werkbladen generator. Je Volledige Toegang abonnement geeft je onbeperkt werkbladen maken zonder kosten per werkblad. Genereer aangepaste oefenbladen gratis voor het aanleren van ruimtelijke begrippen aan jonge leerlingen. Download hoogwaardige PDF werkbladen in minder dan 3 minuten.',
     keywords: 'voorzetsels werkbladen, werkbladen groep 3, werkbladen kleuters, oefenbladen gratis, fijne motoriek, letters leren, schrijven oefenen, rekenen werkbladen, veilig leren lezen, kleurplaten, sommen tot 20, tafels oefenen',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/voorzetsels-werkbladen',
   },
@@ -37,11 +37,11 @@ export const prepositionsNlContent: ProductPageContent = {
   hero: {
     title: 'Oefenbladen Gratis Voorzetsels',
     subtitle: 'Werkbladen Kleuters en Groep 3 Generator',
-    description: `Maak professionele voorzetsels werkbladen met onze werkbladen generator. Je Full Access abonnement geeft je onbeperkt werkbladen maken zonder kosten per werkblad. Genereer aangepaste oefenbladen gratis voor het aanleren van ruimtelijke begrippen aan jonge leerlingen. Download hoogwaardige PDF werkbladen in minder dan 3 minuten.
+    description: `Maak professionele voorzetsels werkbladen met onze werkbladen generator. Je Volledige Toegang abonnement geeft je onbeperkt werkbladen maken zonder kosten per werkblad. Genereer aangepaste oefenbladen gratis voor het aanleren van ruimtelijke begrippen aan jonge leerlingen. Download hoogwaardige PDF werkbladen in minder dan 3 minuten.
 
 Het aanleren van voorzetsels aan kleuters en groep 3 leerlingen wordt eenvoudig met onze voorzetsels werkbladen generator. Onze tool maakt gratis werkbladen die acht essentiële ruimtelijke begrippen aanleren. Leerlingen oefenen in, op, onder, naast, achter, tussen, boven en voor door middel van boeiende visuele oefeningen. Elk werkblad combineert kleurrijke afbeeldingen met duidelijke tekst om begrip te versterken.
 
-Leerkrachten besparen uren aan het handmatig maken van voorzetsels werkbladen. Onze generator produceert professionele werkbladen groep 3 in minuten in plaats van uren. Kies uit invul-oefeningen of meerkeuzevragen. Selecteer specifieke voorzetsels om te oefenen of oefen alle acht begrippen samen. Je Full Access abonnement bevat onbeperkte downloads en een commerciële licentie voor het verkopen van werkbladen online.
+Leerkrachten besparen uren aan het handmatig maken van voorzetsels werkbladen. Onze generator produceert professionele werkbladen groep 3 in minuten in plaats van uren. Kies uit invul-oefeningen of meerkeuzevragen. Selecteer specifieke voorzetsels om te oefenen of oefen alle acht begrippen samen. Je Volledige Toegang abonnement bevat onbeperkte downloads en een commerciële licentie voor het verkopen van werkbladen online.
 
 Perfect voor leerkrachten van kleuters en groep 3 die snel kwalitatieve voorzetsels werkbladen nodig hebben. Maak werkbladen voor klassikale instructie of individuele oefening. Pas elk element op het canvas aan. Sleep, roteer en verander de grootte van afbeeldingen om unieke indelingen te maken. Voeg je eigen tekst toe en kies uit zeven kindvriendelijke lettertypen.`,
     previewImageSrc: '/samples/english/prepositions/prepositions_worksheet.jpeg',
@@ -97,7 +97,7 @@ Perfect voor leerkrachten van kleuters en groep 3 die snel kwalitatieve voorzets
   // Features Grid - FULL text from prepositions.md feature sections
   features: {
     sectionTitle: 'Voorzetsels Werkbladen Generator Functies - Alles voor Werkbladen Kleuters en Oefenbladen Gratis',
-    sectionDescription: 'Onze voorzetsels werkbladen generator bevat zeven krachtige functies die het maken van werkbladen groep 3 snel en professioneel maken. Deze functies werken samen om je volledige controle te geven over elk aspect van je oefenbladen gratis. Of je nu eenvoudige voorzetsels oefeningen nodig hebt of complexe ruimtelijke begrippen activiteiten, onze generator levert de tools die je nodig hebt. Full Access abonnees krijgen onbeperkte toegang tot alle functies zonder beperkingen.',
+    sectionDescription: 'Onze voorzetsels werkbladen generator bevat zeven krachtige functies die het maken van werkbladen groep 3 snel en professioneel maken. Deze functies werken samen om je volledige controle te geven over elk aspect van je oefenbladen gratis. Of je nu eenvoudige voorzetsels oefeningen nodig hebt of complexe ruimtelijke begrippen activiteiten, onze generator levert de tools die je nodig hebt. Volledige Toegang abonnees krijgen onbeperkte toegang tot alle functies zonder beperkingen.',
     highlightBadgeText: 'Uitgelicht',
     readMoreLabel: 'Lees meer',
     showLessLabel: 'Minder tonen',
@@ -156,11 +156,11 @@ Taaldocenten gebruiken onze meertalige generator om parallelle werkbladen te mak
         id: '5',
         icon: '💼',
         title: 'Commerciële Licentie voor Werkbladen Groep 3 - Verkoop Oefenbladen Gratis op Etsy',
-        description: `Full Access abonnement bevat volledige commerciële print-on-demand licentie zonder extra kosten. Verkoop je voorzetsels werkbladen op Etsy, Teachers Pay Teachers en Amazon KDP. Geen naamsvermelding vereist. Perfect voor onderwijzende ondernemers. Professionele 300 DPI kwaliteit zorgt voor commerciële kwaliteit afdrukken. Maak onbeperkt werkbladen kleuters en verkoop ze zonder licentiekosten.
+        description: `Volledige Toegang abonnement bevat volledige commerciële print-on-demand licentie zonder extra kosten. Verkoop je voorzetsels werkbladen op Etsy, Teachers Pay Teachers en Amazon KDP. Geen naamsvermelding vereist. Perfect voor onderwijzende ondernemers. Professionele 300 DPI kwaliteit zorgt voor commerciële kwaliteit afdrukken. Maak onbeperkt werkbladen kleuters en verkoop ze zonder licentiekosten.
 
-Veel leerkrachten verdienen €500 tot €5000 per maand door werkbladen te verkopen op Etsy en Teachers Pay Teachers. Onze commerciële licentie is inbegrepen in je Full Access abonnement. Geen extra €100-200 per jaar licentiekosten zoals bij concurrenten. Maak thematische werkbladenpakketten en verkoop ze als digitale downloads. Pinterest marketing brengt kopers naar je Etsy shop.
+Veel leerkrachten verdienen €500 tot €5000 per maand door werkbladen te verkopen op Etsy en Teachers Pay Teachers. Onze commerciële licentie is inbegrepen in je Volledige Toegang abonnement. Geen extra €100-200 per jaar licentiekosten zoals bij concurrenten. Maak thematische werkbladenpakketten en verkoop ze als digitale downloads. Pinterest marketing brengt kopers naar je Etsy shop.
 
-De commerciële licentie dekt alle werkbladen die je met onze generator maakt. Maak seizoensgebonden werkbladen voor vakantieverkopen. Maak speciale oefenbladen gratis pakketten voor specifieke leeftijden. Bouw een passief inkomen door werkblad bundels te verkopen. Full Access abonnees krijgen deze waardevolle commerciële rechten zonder extra kosten. Dit onderscheidt onze service van tools die honderden euro's extra rekenen voor commerciële licenties.`,
+De commerciële licentie dekt alle werkbladen die je met onze generator maakt. Maak seizoensgebonden werkbladen voor vakantieverkopen. Maak speciale oefenbladen gratis pakketten voor specifieke leeftijden. Bouw een passief inkomen door werkblad bundels te verkopen. Volledige Toegang abonnees krijgen deze waardevolle commerciële rechten zonder extra kosten. Dit onderscheidt onze service van tools die honderden euro's extra rekenen voor commerciële licenties.`,
         highlighted: true,
       },
       {
@@ -171,7 +171,7 @@ De commerciële licentie dekt alle werkbladen die je met onze generator maakt. M
 
 Selecteer hele thema's voor snelle werkblad generatie. Of blader door individuele afbeeldingen voor nauwkeurige controle. Combineer afbeeldingen uit verschillende thema's op één werkblad. Achtergronden en randen zijn inbegrepen in elke thema. Dit maakt het eenvoudig om visueel samenhangende oefenbladen gratis te maken zonder extra ontwerptijd.
 
-Onze afbeeldingenbibliotheek groeit constant met nieuwe thema's en seizoensgebonden afbeeldingen. Lente, zomer, herfst en winter thema's helpen je seizoensgebonden werkbladen kleuters te maken. Vakantie thema's voor Sinterklaas, Kerstmis en Pasen. Alle afbeeldingen zijn inbegrepen in je Full Access abonnement zonder extra kosten per afbeelding zoals bij concurrent platforms. Dit bespaart honderden euro's per jaar vergeleken met clipart abonnementen.`,
+Onze afbeeldingenbibliotheek groeit constant met nieuwe thema's en seizoensgebonden afbeeldingen. Lente, zomer, herfst en winter thema's helpen je seizoensgebonden werkbladen kleuters te maken. Vakantie thema's voor Sinterklaas, Kerstmis en Pasen. Alle afbeeldingen zijn inbegrepen in je Volledige Toegang abonnement zonder extra kosten per afbeelding zoals bij concurrent platforms. Dit bespaart honderden euro's per jaar vergeleken met clipart abonnementen.`,
         highlighted: true,
       },
       {
@@ -254,7 +254,7 @@ Voeg achtergronden en randen toe voor visuele aantrekkingskracht. Selecteer them
 
 Genereer antwoordblad voordat je downloadt. Klik op "Genereer Antwoordblad" en een tweede werkblad verschijnt. Dit toont dezelfde oefeningen met correcte voorzetsels ingevuld. Download zowel werkblad als antwoordblad. Print het werkblad voor leerlingen. Bewaar antwoordblad voor jezelf om snel na te kijken. Dit maakt werkbladen groep 3 geschikt voor toetsen en huiswerk.
 
-Schakel grijswaarden in om printer inkt te besparen. Dit converteert kleuren werkbladen naar zwart-wit versies. Perfect voor scholen met beperkte budgetten. Leerlingen kunnen grijswaarden oefenbladen gratis inkleuren als extra activiteit. Dit combineert voorzetsels oefening met fijne motoriek ontwikkeling. Download onbeperkt werkbladen kleuters met je Full Access abonnement.`,
+Schakel grijswaarden in om printer inkt te besparen. Dit converteert kleuren werkbladen naar zwart-wit versies. Perfect voor scholen met beperkte budgetten. Leerlingen kunnen grijswaarden oefenbladen gratis inkleuren als extra activiteit. Dit combineert voorzetsels oefening met fijne motoriek ontwikkeling. Download onbeperkt werkbladen kleuters met je Volledige Toegang abonnement.`,
         icon: '📥',
       },
     ],
@@ -263,7 +263,7 @@ Schakel grijswaarden in om printer inkt te besparen. Dit converteert kleuren wer
   // Use Cases - FULL text from prepositions.md use case sections
   useCases: {
     sectionTitle: 'Perfect voor Leerkrachten en Ouders - Werkbladen Groep 3 en Oefenbladen Gratis voor Iedere Behoefte',
-    sectionDescription: 'Onze voorzetsels werkbladen generator dient verschillende gebruikers in het onderwijs. Leerkrachten van groep 1-2 tot groep 3 vinden tools voor hun lessen. Thuisonderwijs ouders maken gepersonaliseerde werkbladen. Taaldocenten creëren meertalige oefeningen. Onderwijzende ondernemers bouwen hun bedrijven. Elke gebruikersgroep profiteert van onze krachtige functies en flexibiliteit. Full Access abonnees krijgen onbeperkte toegang perfect voor elke onderwijssituatie.',
+    sectionDescription: 'Onze voorzetsels werkbladen generator dient verschillende gebruikers in het onderwijs. Leerkrachten van groep 1-2 tot groep 3 vinden tools voor hun lessen. Thuisonderwijs ouders maken gepersonaliseerde werkbladen. Taaldocenten creëren meertalige oefeningen. Onderwijzende ondernemers bouwen hun bedrijven. Elke gebruikersgroep profiteert van onze krachtige functies en flexibiliteit. Volledige Toegang abonnees krijgen onbeperkte toegang perfect voor elke onderwijssituatie.',
     badgeText: 'Voor wie',
     readMoreLabel: 'Lees meer',
     showLessLabel: 'Minder tonen',
@@ -333,7 +333,7 @@ Maak voorzetsels toetsen voor formatieve beoordeling. Genereer snel 8 verschille
         icon: '💰',
         title: 'Onderwijzende Ondernemers - Verkoop Werkbladen Groep 3 en Oefenbladen Gratis op Etsy',
         subtitle: 'Commerciële licentie voor ondernemers',
-        description: `Onderwijzende ondernemers gebruiken onze generator om werkbladen te verkopen online. Full Access commerciële licentie laat je onbeperkt voorzetsels werkbladen maken en verkopen. Maak thematische bundels voor Teachers Pay Teachers. "Nederlandse Voorzetsels Mega Bundel" met 50 verschillende werkbladen verkoopt goed. Seizoensgebonden pakketten voor Sinterklaas, Kerstmis en Pasen zijn populair.
+        description: `Onderwijzende ondernemers gebruiken onze generator om werkbladen te verkopen online. Volledige Toegang commerciële licentie laat je onbeperkt voorzetsels werkbladen maken en verkopen. Maak thematische bundels voor Teachers Pay Teachers. "Nederlandse Voorzetsels Mega Bundel" met 50 verschillende werkbladen verkoopt goed. Seizoensgebonden pakketten voor Sinterklaas, Kerstmis en Pasen zijn populair.
 
 Etsy shops profiteren van aangepaste werkbladen voor Nederlandse markt. Weinig concurrentie voor hoogwaardige Nederlandse voorzetsels werkbladen. Amerikaanse verkopers domineren Etsy maar maken geen Nederlandse content. Vul deze niche met professionele werkbladen groep 3 specifiek voor Nederlands basisonderwijs. Gebruik Nederlandse onderwijs termen in productbeschrijvingen voor SEO.
 
@@ -346,7 +346,7 @@ Bouw passief inkomen met digitale downloads. Maak eenmaal 20 verschillende voorz
   // FAQ Section - FULL FAQs from prepositions.md
   faq: {
     sectionTitle: 'Veelgestelde Vragen over Werkbladen Kleuters en Oefenbladen Gratis Voorzetsels',
-    sectionDescription: 'Leerkrachten stellen vaak dezelfde vragen over onze voorzetsels werkbladen generator. We beantwoorden hier de meest voorkomende vragen over functionaliteit, prijzen en gebruik. Deze antwoorden helpen je beslissen of Full Access abonnement geschikt is voor jouw onderwijsbehoeften. Van technische vragen tot commerciële licentie details, we dekken alles wat je moet weten.',
+    sectionDescription: 'Leerkrachten stellen vaak dezelfde vragen over onze voorzetsels werkbladen generator. We beantwoorden hier de meest voorkomende vragen over functionaliteit, prijzen en gebruik. Deze antwoorden helpen je beslissen of Volledige Toegang abonnement geschikt is voor jouw onderwijsbehoeften. Van technische vragen tot commerciële licentie details, we dekken alles wat je moet weten.',
     showMoreText: 'Meer vragen tonen',
     showLessText: 'Minder tonen',
     badgeText: 'Veelgestelde vragen',
@@ -358,7 +358,7 @@ Bouw passief inkomen met digitale downloads. Maak eenmaal 20 verschillende voorz
       {
         id: '1',
         question: 'Is Deze Voorzetsels Generator Echt Gratis om Oefenbladen Gratis te Maken?',
-        answer: 'De voorzetsels werkbladen generator vereist Full Access abonnement dat €240 per jaar of €25 per maand kost. Je abonnement geeft je onbeperkte voorzetsels werkbladen maken zonder kosten per werkblad. Genereer zoveel werkbladen kleuters als je nodig hebt zonder extra kosten. Download onbeperkt zonder per-download fees zoals sommige concurrent platforms rekenen. Full Access abonnement bevat alle 33 werkbladen generatoren op ons platform. Maak voorzetsels werkbladen, rekenen werkbladen, letters leren oefeningen en kleurplaten allemaal vanaf één abonnement. Geen extra kosten voor verschillende generator types. Commerciële licentie, 11 talen ondersteuning en professionele 300 DPI kwaliteit exports zijn allemaal inbegrepen.',
+        answer: 'De voorzetsels werkbladen generator vereist Volledige Toegang abonnement dat €240 per jaar of €25 per maand kost. Je abonnement geeft je onbeperkte voorzetsels werkbladen maken zonder kosten per werkblad. Genereer zoveel werkbladen kleuters als je nodig hebt zonder extra kosten. Download onbeperkt zonder per-download fees zoals sommige concurrent platforms rekenen. Volledige Toegang abonnement bevat alle 33 werkbladen generatoren op ons platform. Maak voorzetsels werkbladen, rekenen werkbladen, letters leren oefeningen en kleurplaten allemaal vanaf één abonnement. Geen extra kosten voor verschillende generator types. Commerciële licentie, 11 talen ondersteuning en professionele 300 DPI kwaliteit exports zijn allemaal inbegrepen.',
       },
       {
         id: '2',
@@ -373,7 +373,7 @@ Bouw passief inkomen met digitale downloads. Maak eenmaal 20 verschillende voorz
       {
         id: '4',
         question: 'Kan Ik Voorzetsels Werkbladen Gebruiken in Mijn Klas met Rekenen Werkbladen Combinaties?',
-        answer: 'Ja, Full Access abonnement bevat onbeperkt klaslokaal gebruik. Gebruik voorzetsels werkbladen met zoveel leerlingen als je hebt. Print kopieën voor hele klassen. Deel digitaal via leerplatformen. Gebruik op smartboards voor hele klas instructie. Geen per-student licentiekosten zoals sommige educational software rekent. Combineer voorzetsels met rekenen werkbladen voor cross-curriculaire lessen. Gebruik wiskundige vormen in voorzetsels oefeningen. "De cirkel is BOVEN de driehoek" oefent zowel vormen als voorzetsels.',
+        answer: 'Ja, Volledige Toegang abonnement bevat onbeperkt klaslokaal gebruik. Gebruik voorzetsels werkbladen met zoveel leerlingen als je hebt. Print kopieën voor hele klassen. Deel digitaal via leerplatformen. Gebruik op smartboards voor hele klas instructie. Geen per-student licentiekosten zoals sommige educatieve software rekent. Combineer voorzetsels met rekenen werkbladen voor cross-curriculaire lessen. Gebruik wiskundige vormen in voorzetsels oefeningen. "De cirkel is BOVEN de driehoek" oefent zowel vormen als voorzetsels.',
       },
       {
         id: '5',
@@ -383,7 +383,7 @@ Bouw passief inkomen met digitale downloads. Maak eenmaal 20 verschillende voorz
       {
         id: '6',
         question: 'Kan Ik Werkbladen Groep 3 Verkopen Die Ik Maak met Kleurplaten Combinaties?',
-        answer: 'Ja, Full Access abonnement bevat volledige commerciële print-on-demand licentie zonder extra kosten. Verkoop onbeperkt voorzetsels werkbladen op Etsy, Teachers Pay Teachers en Amazon KDP. Combineer met kleurplaten voor hogere waarde bundels. "Voorzetsels en Kleurplaten Mega Bundel" verkoopt beter dan enkele types. Geen naamsvermelding vereist op verkochte werkbladen. Geen royalty fees per verkoop. Geen limieten op hoeveel je kunt verdienen. Veel leerkrachten verdienen €500-€5000 per maand met werkbladen verkoop.',
+        answer: 'Ja, Volledige Toegang abonnement bevat volledige commerciële print-on-demand licentie zonder extra kosten. Verkoop onbeperkt voorzetsels werkbladen op Etsy, Teachers Pay Teachers en Amazon KDP. Combineer met kleurplaten voor hogere waarde bundels. "Voorzetsels en Kleurplaten Mega Bundel" verkoopt beter dan enkele types. Geen naamsvermelding vereist op verkochte werkbladen. Geen royalty kosten per verkoop. Geen limieten op hoeveel je kunt verdienen. Veel leerkrachten verdienen €500-€5000 per maand met werkbladen verkoop.',
       },
       {
         id: '7',
@@ -418,7 +418,7 @@ Bouw passief inkomen met digitale downloads. Maak eenmaal 20 verschillende voorz
     ],
   },
 
-  // Pricing - Volledige Toegang pricing (Full Access)
+  // Pricing - Volledige Toegang pricing (Volledige Toegang)
   pricing: {
     title: 'Volledige Toegang',
     price: '€240',
@@ -438,8 +438,8 @@ Bouw passief inkomen met digitale downloads. Maak eenmaal 20 verschillende voorz
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Top 3 Redenen Waarom Leerkrachten Abonneren - Premium Werkbladen Kleuters en Kleurplaten Features',
-    sectionDescription: 'Leerkrachten kiezen Full Access abonnement om drie overtuigende redenen. Deze premium functies maken het €240 per jaar of €25 per maand investering meer dan waard. Full Access bevat alle 33 werkbladen generatoren met commerciële licentie. Geen per-werkblad kosten. Geen beperkte downloads. Onbeperkte toegang tot alle functies voor één jaarlijkse prijs. Deze drie redenen maken Full Access essentieel voor professionele leerkrachten en onderwijzende ondernemers.',
+    sectionTitle: 'Top 3 Redenen Waarom Leerkrachten Abonneren - Uitgelichte Werkbladen Kleuters en Kleurplaten Functies',
+    sectionDescription: 'Leerkrachten kiezen Volledige Toegang abonnement om drie overtuigende redenen. Deze uitgelichte functies maken het €240 per jaar of €25 per maand investering meer dan waard. Volledige Toegang bevat alle 33 werkbladen generatoren met commerciële licentie. Geen per-werkblad kosten. Geen beperkte downloads. Onbeperkte toegang tot alle functies voor één jaarlijkse prijs. Deze drie redenen maken Volledige Toegang essentieel voor professionele leerkrachten en onderwijzende ondernemers.',
     ctaTitle: 'Klaar om geweldige werkbladen te maken?',
     ctaDescription: 'Sluit je aan bij duizenden leerkrachten die professionele werkbladen maken. Onbeperkt genereren, commerciële licentie inbegrepen.',
     primaryCtaText: 'Gratis Proberen',

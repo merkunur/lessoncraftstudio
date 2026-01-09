@@ -182,6 +182,7 @@ import wordSearchNlContent from '@/content/product-pages/nl/word-search-workshee
 import additionNlContent from '@/content/product-pages/nl/optellen-werkbladen';
 import coloringNlContent from '@/content/product-pages/nl/kleurplaten-werkbladen';
 import alphabetTrainNlContent from '@/content/product-pages/nl/alphabet-train-worksheets';
+import mathWorksheetsNlContent from '@/content/product-pages/nl/rekenen-werkbladen';
 
 interface PageProps {
   params: {

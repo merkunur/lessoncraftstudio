@@ -107,6 +107,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       es: 'acertijos-matematicos-fichas',
       it: 'matematica-schede',
       pt: 'atividades-matematica-fichas',
+      nl: 'rekenen-werkbladen',
     },
   },
   {

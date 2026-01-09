@@ -257,6 +257,7 @@ import wordSearchNlContent from '@/content/product-pages/nl/word-search-workshee
 import additionNlContent from '@/content/product-pages/nl/optellen-werkbladen';
 import coloringNlContent from '@/content/product-pages/nl/kleurplaten-werkbladen';
 import alphabetTrainNlContent from '@/content/product-pages/nl/alphabet-train-worksheets';
+import mathWorksheetsNlContent from '@/content/product-pages/nl/rekenen-werkbladen';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -1125,6 +1126,10 @@ export const contentRegistry: ContentRegistry = {
     'kleurplaten-werkbladen': coloringNlContent,
     // Also keep old slug for backwards compatibility during transition
     'coloring-worksheets': coloringNlContent,
+    // Dutch Math Worksheets (Rekenen Werkbladen) - uses Dutch SEO slug
+    'rekenen-werkbladen': mathWorksheetsNlContent,
+    // Also keep old slug for backwards compatibility during transition
+    'math-worksheets': mathWorksheetsNlContent,
   },
 };
 

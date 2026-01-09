@@ -1170,6 +1170,12 @@ const nextConfig = {
         destination: '/nl/apps/kleurplaten-werkbladen',
         permanent: true,
       },
+      // Dutch: math-worksheets → rekenen-werkbladen
+      {
+        source: '/nl/apps/math-worksheets',
+        destination: '/nl/apps/rekenen-werkbladen',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

@@ -290,6 +290,7 @@ import writingNlContent from '@/content/product-pages/nl/schrijfoefeningen-werkb
 // Danish content imports
 import wordSearchDaContent from '@/content/product-pages/da/ordsoegning-arbejdsark';
 import additionDaContent from '@/content/product-pages/da/addition-arbejdsark';
+import alphabetTrainDaContent from '@/content/product-pages/da/alfabet-tog-arbejdsark';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -1284,6 +1285,10 @@ export const contentRegistry: ContentRegistry = {
     'addition-arbejdsark': additionDaContent,
     // Also keep old slug for backwards compatibility during transition
     'addition-worksheets': additionDaContent,
+    // Danish Alphabet Train (Alfabettog) - uses Danish SEO slug
+    'alfabet-tog-arbejdsark': alphabetTrainDaContent,
+    // Also keep old slug for backwards compatibility during transition
+    'alphabet-train-worksheets': alphabetTrainDaContent,
   },
 };
 

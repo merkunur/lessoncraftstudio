@@ -108,6 +108,7 @@ Hver matematikopgave kan tilpasses efter elevernes niveau og læringsbehov. Væl
     highlightBadgeText: 'Vigtig Funktion',
     readMoreLabel: 'Læs mere',
     showLessLabel: 'Vis mindre',
+    badgeText: 'Funktioner',
     trustBadges: {
       allFeatures: 'Alle funktioner inkluderet',
       noHiddenFees: 'Ingen skjulte gebyrer',

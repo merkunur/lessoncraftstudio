@@ -94,6 +94,7 @@ Vores gratis ordsøgningsgenerator tilbyder over 3000 børnevenlige billeder til
     highlightBadgeText: 'Vigtig Funktion',
     readMoreLabel: 'Læs mere',
     showLessLabel: 'Vis mindre',
+    badgeText: 'Funktioner',
     trustBadges: {
       allFeatures: 'Alle funktioner inkluderet',
       noHiddenFees: 'Ingen skjulte gebyrer',

@@ -89,6 +89,7 @@ Hver alfabetopgave har en farverig togskabelon med elleve vogne. Eleverne matche
     highlightBadgeText: 'Vigtig Funktion',
     readMoreLabel: 'Læs mere',
     showLessLabel: 'Vis mindre',
+    badgeText: 'Funktioner',
     trustBadges: {
       allFeatures: 'Alle funktioner inkluderet',
       noHiddenFees: 'Ingen skjulte gebyrer',

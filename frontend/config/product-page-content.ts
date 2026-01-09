@@ -275,6 +275,7 @@ import cryptogramNlContent from '@/content/product-pages/nl/cryptogram-werkblade
 import mathPuzzleNlContent from '@/content/product-pages/nl/rekenpuzzels-werkbladen';
 import missingPiecesNlContent from '@/content/product-pages/nl/ontbrekende-puzzelstukjes-werkbladen';
 import moreLessNlContent from '@/content/product-pages/nl/meer-minder-werkbladen';
+import oddOneOutNlContent from '@/content/product-pages/nl/welke-hoort-niet-bij-werkbladen';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -1215,6 +1216,10 @@ export const contentRegistry: ContentRegistry = {
     'meer-minder-werkbladen': moreLessNlContent,
     // Also keep old slug for backwards compatibility during transition
     'more-less-worksheets': moreLessNlContent,
+    // Dutch Odd One Out (Welke Hoort Niet Bij) - uses Dutch SEO slug
+    'welke-hoort-niet-bij-werkbladen': oddOneOutNlContent,
+    // Also keep old slug for backwards compatibility during transition
+    'odd-one-out-worksheets': oddOneOutNlContent,
   },
 };
 

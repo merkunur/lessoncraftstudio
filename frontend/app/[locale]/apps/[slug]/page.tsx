@@ -8892,6 +8892,9 @@ export async function generateStaticParams() {
     'kruiswoordpuzzel-werkbladen', // Product page slug (Dutch) - language-specific SEO slug for crossword
     'cryptogram-werkbladen', // Product page slug (Dutch) - language-specific SEO slug for cryptogram
     'rekenpuzzels-werkbladen', // Product page slug (Dutch) - language-specific SEO slug for math-puzzle
+    'ontbrekende-puzzelstukjes-werkbladen', // Product page slug (Dutch) - language-specific SEO slug for missing-pieces
+    'meer-minder-werkbladen', // Product page slug (Dutch) - language-specific SEO slug for more-less
+    'welke-hoort-niet-bij-werkbladen', // Product page slug (Dutch) - language-specific SEO slug for odd-one-out
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

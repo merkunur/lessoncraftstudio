@@ -1278,6 +1278,12 @@ const nextConfig = {
         destination: '/nl/apps/meer-minder-werkbladen',
         permanent: true,
       },
+      // Dutch: odd-one-out-worksheets → welke-hoort-niet-bij-werkbladen
+      {
+        source: '/nl/apps/odd-one-out-worksheets',
+        destination: '/nl/apps/welke-hoort-niet-bij-werkbladen',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

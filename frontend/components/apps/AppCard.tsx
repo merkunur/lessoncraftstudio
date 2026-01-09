@@ -263,6 +263,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     es: 'encuentra-el-diferente-fichas',
     it: 'trova-intruso-schede',
     pt: 'encontre-diferente-fichas',
+    nl: 'welke-hoort-niet-bij-werkbladen',
   },
   'pattern-train': {
     en: 'pattern-train-worksheets',

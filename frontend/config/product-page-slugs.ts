@@ -337,6 +337,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       es: 'encuentra-el-diferente-fichas',
       it: 'trova-intruso-schede',
       pt: 'encontre-diferente-fichas',
+      nl: 'welke-hoort-niet-bij-werkbladen',
     },
   },
   {

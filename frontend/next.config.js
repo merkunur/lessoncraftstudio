@@ -1224,6 +1224,12 @@ const nextConfig = {
         destination: '/nl/apps/telgrafieken-werkbladen',
         permanent: true,
       },
+      // Dutch: code-addition-worksheets → visuele-optelsommen-werkbladen
+      {
+        source: '/nl/apps/code-addition-worksheets',
+        destination: '/nl/apps/visuele-optelsommen-werkbladen',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

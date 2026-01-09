@@ -221,6 +221,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       es: 'suma-codigo-fichas',
       it: 'addizioni-immagini-schede',
       pt: 'adicao-codigo-fichas',
+      nl: 'visuele-optelsommen-werkbladen',
     },
   },
   {

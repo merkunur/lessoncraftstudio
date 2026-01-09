@@ -189,6 +189,9 @@ import matchingNlContent from '@/content/product-pages/nl/verbindings-werkbladen
 import drawingLinesNlContent from '@/content/product-pages/nl/lijnen-trekken-werkbladen';
 import pictureBingoNlContent from '@/content/product-pages/nl/plaatjes-bingo-werkbladen';
 import sudokuNlContent from '@/content/product-pages/nl/sudoku-werkbladen';
+import bigSmallNlContent from '@/content/product-pages/nl/groot-klein-werkbladen';
+import chartCountNlContent from '@/content/product-pages/nl/telgrafieken-werkbladen';
+import codeAdditionNlContent from '@/content/product-pages/nl/visuele-optelsommen-werkbladen';
 
 interface PageProps {
   params: {

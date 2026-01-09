@@ -174,6 +174,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     es: 'suma-codigo-fichas',
     it: 'addizioni-immagini-schede',
     pt: 'adicao-codigo-fichas',
+    nl: 'visuele-optelsommen-werkbladen',
   },
   'draw-and-color': {
     en: 'draw-and-color-worksheets',

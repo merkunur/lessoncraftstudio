@@ -197,6 +197,7 @@ import findObjectsNlContent from '@/content/product-pages/nl/zoek-voorwerpen-wer
 import gridMatchNlContent from '@/content/product-pages/nl/raster-puzzel-werkbladen';
 import crosswordNlContent from '@/content/product-pages/nl/kruiswoordpuzzel-werkbladen';
 import cryptogramNlContent from '@/content/product-pages/nl/cryptogram-werkbladen';
+import mathPuzzleNlContent from '@/content/product-pages/nl/rekenpuzzels-werkbladen';
 
 interface PageProps {
   params: {
@@ -8890,6 +8891,7 @@ export async function generateStaticParams() {
     'raster-puzzel-werkbladen', // Product page slug (Dutch) - language-specific SEO slug for grid-match
     'kruiswoordpuzzel-werkbladen', // Product page slug (Dutch) - language-specific SEO slug for crossword
     'cryptogram-werkbladen', // Product page slug (Dutch) - language-specific SEO slug for cryptogram
+    'rekenpuzzels-werkbladen', // Product page slug (Dutch) - language-specific SEO slug for math-puzzle
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

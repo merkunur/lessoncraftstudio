@@ -272,6 +272,7 @@ import findObjectsNlContent from '@/content/product-pages/nl/zoek-voorwerpen-wer
 import gridMatchNlContent from '@/content/product-pages/nl/raster-puzzel-werkbladen';
 import crosswordNlContent from '@/content/product-pages/nl/kruiswoordpuzzel-werkbladen';
 import cryptogramNlContent from '@/content/product-pages/nl/cryptogram-werkbladen';
+import mathPuzzleNlContent from '@/content/product-pages/nl/rekenpuzzels-werkbladen';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -1200,6 +1201,10 @@ export const contentRegistry: ContentRegistry = {
     'cryptogram-werkbladen': cryptogramNlContent,
     // Also keep old slug for backwards compatibility during transition
     'cryptogram-worksheets': cryptogramNlContent,
+    // Dutch Math Puzzle (Rekenpuzzels) - uses Dutch SEO slug
+    'rekenpuzzels-werkbladen': mathPuzzleNlContent,
+    // Also keep old slug for backwards compatibility during transition
+    'math-puzzle-worksheets': mathPuzzleNlContent,
   },
 };
 

@@ -1260,6 +1260,12 @@ const nextConfig = {
         destination: '/nl/apps/cryptogram-werkbladen',
         permanent: true,
       },
+      // Dutch: math-puzzle-worksheets → rekenpuzzels-werkbladen
+      {
+        source: '/nl/apps/math-puzzle-worksheets',
+        destination: '/nl/apps/rekenpuzzels-werkbladen',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

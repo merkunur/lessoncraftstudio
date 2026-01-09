@@ -298,6 +298,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       es: 'rompecabezas-matematicos-fichas',
       it: 'puzzle-matematici-schede',
       pt: 'quebra-cabeca-matematica-fichas',
+      nl: 'rekenpuzzels-werkbladen',
     },
   },
   {

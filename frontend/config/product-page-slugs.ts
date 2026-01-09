@@ -234,6 +234,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       es: 'dibujo-cuadricula-fichas',
       it: 'disegno-griglia-schede',
       pt: 'desenho-grade-fichas',
+      nl: 'rastertekenen-werkbladen',
     },
   },
   {

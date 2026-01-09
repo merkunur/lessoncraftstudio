@@ -267,6 +267,7 @@ import sudokuNlContent from '@/content/product-pages/nl/sudoku-werkbladen';
 import bigSmallNlContent from '@/content/product-pages/nl/groot-klein-werkbladen';
 import chartCountNlContent from '@/content/product-pages/nl/telgrafieken-werkbladen';
 import codeAdditionNlContent from '@/content/product-pages/nl/visuele-optelsommen-werkbladen';
+import drawAndColorNlContent from '@/content/product-pages/nl/rastertekenen-werkbladen';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -1175,6 +1176,10 @@ export const contentRegistry: ContentRegistry = {
     'visuele-optelsommen-werkbladen': codeAdditionNlContent,
     // Also keep old slug for backwards compatibility during transition
     'code-addition-worksheets': codeAdditionNlContent,
+    // Dutch Draw and Color (Rastertekenen) - uses Dutch SEO slug
+    'rastertekenen-werkbladen': drawAndColorNlContent,
+    // Also keep old slug for backwards compatibility during transition
+    'draw-and-color-worksheets': drawAndColorNlContent,
   },
 };
 

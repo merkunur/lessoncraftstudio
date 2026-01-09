@@ -184,6 +184,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     es: 'dibujo-cuadricula-fichas',
     it: 'disegno-griglia-schede',
     pt: 'desenho-grade-fichas',
+    nl: 'rastertekenen-werkbladen',
   },
   'find-objects': {
     en: 'find-objects-worksheets',

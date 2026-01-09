@@ -1230,6 +1230,12 @@ const nextConfig = {
         destination: '/nl/apps/visuele-optelsommen-werkbladen',
         permanent: true,
       },
+      // Dutch: draw-and-color-worksheets → rastertekenen-werkbladen
+      {
+        source: '/nl/apps/draw-and-color-worksheets',
+        destination: '/nl/apps/rastertekenen-werkbladen',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

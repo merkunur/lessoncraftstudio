@@ -1344,6 +1344,12 @@ const nextConfig = {
         destination: '/nl/apps/schrijfoefeningen-werkbladen',
         permanent: true,
       },
+      // Danish: word-search-worksheets → ordsoegning-arbejdsark
+      {
+        source: '/da/apps/word-search-worksheets',
+        destination: '/da/apps/ordsoegning-arbejdsark',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

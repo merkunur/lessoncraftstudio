@@ -287,6 +287,9 @@ import treasureHuntNlContent from '@/content/product-pages/nl/schattenjacht-werk
 import wordGuessNlContent from '@/content/product-pages/nl/woordraadsel-werkbladen';
 import writingNlContent from '@/content/product-pages/nl/schrijfoefeningen-werkbladen';
 
+// Danish content imports
+import wordSearchDaContent from '@/content/product-pages/da/ordsoegning-arbejdsark';
+
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
   [locale: string]: {
@@ -1270,6 +1273,12 @@ export const contentRegistry: ContentRegistry = {
     'schrijfoefeningen-werkbladen': writingNlContent,
     // Also keep old slug for backwards compatibility during transition
     'writing-worksheets': writingNlContent,
+  },
+  da: {
+    // Danish Word Search (Ordsogning) - uses Danish SEO slug
+    'ordsoegning-arbejdsark': wordSearchDaContent,
+    // Also keep old slug for backwards compatibility during transition
+    'word-search-worksheets': wordSearchDaContent,
   },
 };
 

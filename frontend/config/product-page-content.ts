@@ -268,6 +268,7 @@ import bigSmallNlContent from '@/content/product-pages/nl/groot-klein-werkbladen
 import chartCountNlContent from '@/content/product-pages/nl/telgrafieken-werkbladen';
 import codeAdditionNlContent from '@/content/product-pages/nl/visuele-optelsommen-werkbladen';
 import drawAndColorNlContent from '@/content/product-pages/nl/rastertekenen-werkbladen';
+import findObjectsNlContent from '@/content/product-pages/nl/zoek-voorwerpen-werkbladen';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -1180,6 +1181,10 @@ export const contentRegistry: ContentRegistry = {
     'rastertekenen-werkbladen': drawAndColorNlContent,
     // Also keep old slug for backwards compatibility during transition
     'draw-and-color-worksheets': drawAndColorNlContent,
+    // Dutch Find Objects (Zoek de Voorwerpen) - uses Dutch SEO slug
+    'zoek-voorwerpen-werkbladen': findObjectsNlContent,
+    // Also keep old slug for backwards compatibility during transition
+    'find-objects-worksheets': findObjectsNlContent,
   },
 };
 

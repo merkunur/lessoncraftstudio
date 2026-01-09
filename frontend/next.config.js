@@ -1236,6 +1236,12 @@ const nextConfig = {
         destination: '/nl/apps/rastertekenen-werkbladen',
         permanent: true,
       },
+      // Dutch: find-objects-worksheets → zoek-voorwerpen-werkbladen
+      {
+        source: '/nl/apps/find-objects-worksheets',
+        destination: '/nl/apps/zoek-voorwerpen-werkbladen',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

@@ -193,6 +193,7 @@ import bigSmallNlContent from '@/content/product-pages/nl/groot-klein-werkbladen
 import chartCountNlContent from '@/content/product-pages/nl/telgrafieken-werkbladen';
 import codeAdditionNlContent from '@/content/product-pages/nl/visuele-optelsommen-werkbladen';
 import drawAndColorNlContent from '@/content/product-pages/nl/rastertekenen-werkbladen';
+import findObjectsNlContent from '@/content/product-pages/nl/zoek-voorwerpen-werkbladen';
 
 interface PageProps {
   params: {
@@ -8882,6 +8883,7 @@ export async function generateStaticParams() {
     'telgrafieken-werkbladen', // Product page slug (Dutch) - language-specific SEO slug for chart-count
     'visuele-optelsommen-werkbladen', // Product page slug (Dutch) - language-specific SEO slug for code-addition
     'rastertekenen-werkbladen', // Product page slug (Dutch) - language-specific SEO slug for draw-and-color
+    'zoek-voorwerpen-werkbladen', // Product page slug (Dutch) - language-specific SEO slug for find-objects
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

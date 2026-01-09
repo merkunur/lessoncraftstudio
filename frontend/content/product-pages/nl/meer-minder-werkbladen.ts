@@ -28,7 +28,7 @@ export const moreLessNlContent: ProductPageContent = {
     slug: 'meer-minder-werkbladen',
     appId: 'more-less',
     title: 'Rekenen Werkbladen Meer Minder - Oefenbladen Gratis Groep 3 Werkbladen Kleuters',
-    description: 'Maak professionele rekenbladen voor vergelijkingen in enkele minuten. Met je Full Access-abonnement maak je onbeperkt werkbladen meer minder zonder extra kosten per werkblad. Genereer werkbladen groep 3 en werkbladen kleuters voor het oefenen van groter dan, kleiner dan en gelijk aan.',
+    description: 'Maak professionele rekenbladen voor vergelijkingen in enkele minuten. Met je Volledige Toegang abonnement maak je onbeperkt werkbladen meer minder zonder extra kosten per werkblad. Genereer werkbladen groep 3 en werkbladen kleuters voor het oefenen van groter dan, kleiner dan en gelijk aan.',
     keywords: 'rekenen werkbladen, meer minder werkbladen, werkbladen groep 3, werkbladen kleuters, oefenbladen gratis, sommen tot 20, tafels oefenen, fijne motoriek, veilig leren lezen, kleurplaten',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/meer-minder-werkbladen',
   },
@@ -37,7 +37,7 @@ export const moreLessNlContent: ProductPageContent = {
   hero: {
     title: 'Rekenen Werkbladen Meer Minder',
     subtitle: 'Oefenbladen Gratis Groep 3 Werkbladen Kleuters',
-    description: `Maak professionele rekenbladen voor vergelijkingen in enkele minuten. Met je Full Access-abonnement maak je onbeperkt werkbladen meer minder zonder extra kosten per werkblad. Genereer werkbladen groep 3 en werkbladen kleuters voor het oefenen van groter dan, kleiner dan en gelijk aan. Download hoogwaardige PDF-werkbladen in minder dan 3 minuten.
+    description: `Maak professionele rekenbladen voor vergelijkingen in enkele minuten. Met je Volledige Toegang abonnement maak je onbeperkt werkbladen meer minder zonder extra kosten per werkblad. Genereer werkbladen groep 3 en werkbladen kleuters voor het oefenen van groter dan, kleiner dan en gelijk aan. Download hoogwaardige PDF-werkbladen in minder dan 3 minuten.
 
 Onze werkbladgenerator meer minder helpt leerkrachten bij het maken van rekenen werkbladen voor het vergelijken van getallen. Perfect voor groep 1 2 en groep 3 leerlingen die leren tellen en vergelijken. Elk werkblad is volledig aanpasbaar op het canvas. Sleep afbeeldingen, roteer objecten en pas alles aan voor jouw klas. De generator maakt automatisch zowel werkbladen als antwoordsleutels.
 
@@ -161,7 +161,7 @@ Gebruik de generator voor letters leren in elke ondersteunde taal. Maak vergelij
         id: '5',
         icon: '💼',
         title: 'Commerciële Licentie Inbegrepen - Verkoop Jouw Rekenen Werkbladen en Oefenbladen Gratis Op Platforms',
-        description: `Full Access-abonnement bevat volledige commerciële print-on-demand licentie. Geen extra kosten voor zakelijk gebruik. Verkoop je werkbladen op Teachers Pay Teachers Etsy en andere platforms. Geen naamsvermelding vereist. Perfect voor leerkrachten die extra inkomen willen verdienen.
+        description: `Volledige Toegang abonnement bevat volledige commerciële print-on-demand licentie. Geen extra kosten voor zakelijk gebruik. Verkoop je werkbladen op Teachers Pay Teachers Etsy en andere platforms. Geen naamsvermelding vereist. Perfect voor leerkrachten die extra inkomen willen verdienen.
 
 De POD-licentie geeft je volledige commerciële rechten. Maak werkbladenpakketten voor verkoop. Bundel rekenen werkbladen met andere vakgebieden. Creëer seizoensgebonden collecties. Verkoop aan andere leerkrachten wereldwijd. Veel gebruikers verdienen 500 tot 5000 euro per maand met werkbladenverkoop.
 
@@ -375,7 +375,7 @@ Maak sociale verhalen gecombineerd met rekenactiviteiten. Upload foto's van klas
         icon: '💰',
         title: 'Leerkracht Ondernemers - Verkoop Kleurplaten en Tafels Oefenen Werkbladen Met Commerciële Licentie',
         subtitle: 'Commerciële licentie voor ondernemers',
-        description: `Full Access-abonnement bevat volledige commerciële licentie voor 240 euro per jaar. Verkoop je werkbladen op Teachers Pay Teachers Etsy en Amazon KDP. Geen extra kosten. Geen naamsvermelding vereist. Maak werkbladenbundels en verdien extra inkomen. Veel leerkrachten verdienen 500 tot 5000 euro maandelijks met werkbladenverkoop.
+        description: `Volledige Toegang abonnement bevat volledige commerciële licentie voor 240 euro per jaar. Verkoop je werkbladen op Teachers Pay Teachers Etsy en Amazon KDP. Geen extra kosten. Geen naamsvermelding vereist. Maak werkbladenbundels en verdien extra inkomen. Veel leerkrachten verdienen 500 tot 5000 euro maandelijks met werkbladenverkoop.
 
 Maak thematische bundels voor seizoenen en vakanties. Herfst vergelijkingswerkbladen met pompoenen en bladeren. Winter werkbladen met sneeuwvlokken en sneeuwpoppen. Combineer met kleurplaten voor complete activiteitenpakketten. Ouders en leerkrachten kopen graag alles-in-één bundels. Prijs bundels hoger dan individuele werkbladen. Verhoog winstmarges met minimale extra werk.
 
@@ -402,7 +402,7 @@ Combineer vergelijkingswerkbladen met tafels oefenen materialen voor gevorderde 
       {
         id: '1',
         question: 'Is Deze Rekenen Werkbladen Generator Echt Gratis Te Gebruiken Voor Werkbladen Kleuters?',
-        answer: 'De werkbladgenerator vereist een Full Access-abonnement van 240 euro per jaar of 25 euro per maand. Je abonnement geeft onbeperkte werkbladen meer minder creatie zonder kosten per werkblad. Genereer zoveel werkbladen groep 3 en werkbladen kleuters als je nodig hebt zonder extra kosten. Download onbeperkt rekenen werkbladen zonder per-download vergoedingen. Full Access bevat alle 33 werkbladgenerators op het platform. Maak niet alleen vergelijkingswerkbladen maar ook kleurplaten tafels oefenen materialen en veel meer. Het abonnement bevat ook commerciële licentie 11 talen ondersteuning en professionele 300 DPI kwaliteit exports. Geen verborgen kosten. Geen per-werkblad vergoedingen. Eén vast jaarlijks bedrag voor onbeperkte creatie. Vergeleken met concurrenten die per werkblad rekenen of per afbeelding is dit enorme waarde. Maak 10 werkbladen per week en je bespaart honderden euro\'s per jaar. De investering betaalt zichzelf terug na enkele weken gebruik. Perfect voor leerkrachten die regelmatig nieuwe oefenbladen gratis nodig hebben voor hun klas.',
+        answer: 'De werkbladgenerator vereist een Volledige Toegang abonnement van 240 euro per jaar of 25 euro per maand. Je abonnement geeft onbeperkte werkbladen meer minder creatie zonder kosten per werkblad. Genereer zoveel werkbladen groep 3 en werkbladen kleuters als je nodig hebt zonder extra kosten. Download onbeperkt rekenen werkbladen zonder per-download vergoedingen. Volledige Toegang bevat alle 33 werkbladgenerators op het platform. Maak niet alleen vergelijkingswerkbladen maar ook kleurplaten tafels oefenen materialen en veel meer. Het abonnement bevat ook commerciële licentie 11 talen ondersteuning en professionele 300 DPI kwaliteit exports. Geen verborgen kosten. Geen per-werkblad vergoedingen. Eén vast jaarlijks bedrag voor onbeperkte creatie. Vergeleken met concurrenten die per werkblad rekenen of per afbeelding is dit enorme waarde. Maak 10 werkbladen per week en je bespaart honderden euro\'s per jaar. De investering betaalt zichzelf terug na enkele weken gebruik. Perfect voor leerkrachten die regelmatig nieuwe oefenbladen gratis nodig hebben voor hun klas.',
       },
       {
         id: '2',
@@ -417,7 +417,7 @@ Combineer vergelijkingswerkbladen met tafels oefenen materialen voor gevorderde 
       {
         id: '4',
         question: 'Kan Ik Rekenen Werkbladen Gebruiken In Mijn Klas Voor Veilig Leren Lezen Integratie?',
-        answer: 'Full Access-abonnement bevat onbeperkt klasgebruik. Print zoveel exemplaren als je nodig hebt. Gebruik met alle leerlingen in je klas. Geen limieten op aantal leerlingen. Geen extra kosten per kind. Perfect voor groep 1 2 en groep 3 klassen van elke grootte. Combineer vergelijkingswerkbladen met veilig leren lezen principes. Gebruik visuele ondersteuning voor taalonafhankelijk begrip. Voeg tekstlabels toe aan afbeeldingen voor woordenschat ontwikkeling. Integreer rekenen met beginnende geletterdheid. Leerlingen ontwikkelen beide vaardigheden simultaan. Perfect voor holistische onderwijsbenaderingen. Deel werkbladen ook met collega\'s op je school. Je abonnement dekt persoonlijk gebruik. Maak werkbladen en deel met je team. Print in de lerarenkamer voor alle groep 3 leerkrachten. Deel digitaal via email. Samenwerking wordt aangemoedigd. Geen beperkingen op delen binnen je school voor veilig leren lezen integratie.',
+        answer: 'Volledige Toegang abonnement bevat onbeperkt klasgebruik. Print zoveel exemplaren als je nodig hebt. Gebruik met alle leerlingen in je klas. Geen limieten op aantal leerlingen. Geen extra kosten per kind. Perfect voor groep 1 2 en groep 3 klassen van elke grootte. Combineer vergelijkingswerkbladen met veilig leren lezen principes. Gebruik visuele ondersteuning voor taalonafhankelijk begrip. Voeg tekstlabels toe aan afbeeldingen voor woordenschat ontwikkeling. Integreer rekenen met beginnende geletterdheid. Leerlingen ontwikkelen beide vaardigheden simultaan. Perfect voor holistische onderwijsbenaderingen. Deel werkbladen ook met collega\'s op je school. Je abonnement dekt persoonlijk gebruik. Maak werkbladen en deel met je team. Print in de lerarenkamer voor alle groep 3 leerkrachten. Deel digitaal via email. Samenwerking wordt aangemoedigd. Geen beperkingen op delen binnen je school voor veilig leren lezen integratie.',
       },
       {
         id: '5',
@@ -427,7 +427,7 @@ Combineer vergelijkingswerkbladen met tafels oefenen materialen voor gevorderde 
       {
         id: '6',
         question: 'Kan Ik Kleurplaten en Tafels Oefenen Werkbladen Verkopen Die Ik Maak Met Deze Generator?',
-        answer: 'Ja. Full Access-abonnement bevat volledige commerciële print-on-demand licentie zonder extra kosten. Verkoop je werkbladen op Teachers Pay Teachers Etsy Amazon KDP en andere platforms. Geen naamsvermelding vereist. Geen royalty betalingen. Alle rechten inbegrepen in je 240 euro jaarlijkse abonnement voor kleurplaten en tafels oefenen bundels. Maak werkbladenbundels voor verkoop. Combineer vergelijkingswerkbladen met kleurplaten. Voeg tafels oefenen materialen toe voor gevorderde pakketten. Maak seizoensgebonden collecties. Verkoop als digitale downloads. Verdien passief inkomen terwijl je slaapt. Veel gebruikers verdienen 500 tot 5000 euro maandelijks met werkbladenverkoop. De commerciële licentie dekt alle verkoopmethoden. Online verkoop via Etsy. Platform verkoop via Teachers Pay Teachers. Print-on-demand via Amazon KDP. Abonnementsmodellen voor wekelijkse content. Alles toegestaan. Bouw een duurzame online business. Gebruik dezelfde werkbladen in je klas en verkoop aan anderen. Dubbele waarde uit elk werkblad voor tafels oefenen en kleurplaten.',
+        answer: 'Ja. Volledige Toegang abonnement bevat volledige commerciële print-on-demand licentie zonder extra kosten. Verkoop je werkbladen op Teachers Pay Teachers Etsy Amazon KDP en andere platforms. Geen naamsvermelding vereist. Geen royalty betalingen. Alle rechten inbegrepen in je 240 euro jaarlijkse abonnement voor kleurplaten en tafels oefenen bundels. Maak werkbladenbundels voor verkoop. Combineer vergelijkingswerkbladen met kleurplaten. Voeg tafels oefenen materialen toe voor gevorderde pakketten. Maak seizoensgebonden collecties. Verkoop als digitale downloads. Verdien passief inkomen terwijl je slaapt. Veel gebruikers verdienen 500 tot 5000 euro maandelijks met werkbladenverkoop. De commerciële licentie dekt alle verkoopmethoden. Online verkoop via Etsy. Platform verkoop via Teachers Pay Teachers. Print-on-demand via Amazon KDP. Abonnementsmodellen voor wekelijkse content. Alles toegestaan. Bouw een duurzame online business. Gebruik dezelfde werkbladen in je klas en verkoop aan anderen. Dubbele waarde uit elk werkblad voor tafels oefenen en kleurplaten.',
       },
       {
         id: '7',
@@ -462,7 +462,7 @@ Combineer vergelijkingswerkbladen met tafels oefenen materialen voor gevorderde 
     ],
   },
 
-  // Pricing - Full Access pricing
+  // Pricing - Volledige Toegang pricing
   pricing: {
     title: 'Volledige Toegang',
     price: '€240',
@@ -483,7 +483,7 @@ Combineer vergelijkingswerkbladen met tafels oefenen materialen voor gevorderde 
   // Related Apps
   relatedApps: {
     sectionTitle: 'Top 3 Redenen Waarom Leerkrachten Abonneren - Premium Functies Voor Werkbladen Groep 3 en Werkbladen Kleuters',
-    sectionDescription: 'Full Access-abonnement kost 240 euro per jaar of 25 euro per maand. Leerkrachten abonneren om drie overtuigende redenen. Meertalige ondersteuning voor internationaal onderwijs. Commerciële licentie voor extra inkomen. Enorme tijdsbesparing voor drukke leerkrachten. Elk voordeel rechtvaardigt de investering alleen al. Samen maken ze het abonnement onmisbaar. Maak onbeperkt rekenen werkbladen oefenbladen gratis en kleurplaten zonder extra kosten per werkblad.',
+    sectionDescription: 'Volledige Toegang abonnement kost 240 euro per jaar of 25 euro per maand. Leerkrachten abonneren om drie overtuigende redenen. Meertalige ondersteuning voor internationaal onderwijs. Commerciële licentie voor extra inkomen. Enorme tijdsbesparing voor drukke leerkrachten. Elk voordeel rechtvaardigt de investering alleen al. Samen maken ze het abonnement onmisbaar. Maak onbeperkt rekenen werkbladen oefenbladen gratis en kleurplaten zonder extra kosten per werkblad.',
     ctaTitle: 'Klaar om geweldige werkbladen te maken?',
     ctaDescription: 'Sluit je aan bij duizenden leerkrachten die professionele werkbladen maken. Onbeperkt genereren, commerciële licentie inbegrepen.',
     primaryCtaText: 'Gratis Proberen',

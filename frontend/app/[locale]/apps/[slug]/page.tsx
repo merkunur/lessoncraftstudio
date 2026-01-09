@@ -194,6 +194,7 @@ import chartCountNlContent from '@/content/product-pages/nl/telgrafieken-werkbla
 import codeAdditionNlContent from '@/content/product-pages/nl/visuele-optelsommen-werkbladen';
 import drawAndColorNlContent from '@/content/product-pages/nl/rastertekenen-werkbladen';
 import findObjectsNlContent from '@/content/product-pages/nl/zoek-voorwerpen-werkbladen';
+import gridMatchNlContent from '@/content/product-pages/nl/raster-puzzel-werkbladen';
 
 interface PageProps {
   params: {
@@ -8884,6 +8885,7 @@ export async function generateStaticParams() {
     'visuele-optelsommen-werkbladen', // Product page slug (Dutch) - language-specific SEO slug for code-addition
     'rastertekenen-werkbladen', // Product page slug (Dutch) - language-specific SEO slug for draw-and-color
     'zoek-voorwerpen-werkbladen', // Product page slug (Dutch) - language-specific SEO slug for find-objects
+    'raster-puzzel-werkbladen', // Product page slug (Dutch) - language-specific SEO slug for grid-match
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

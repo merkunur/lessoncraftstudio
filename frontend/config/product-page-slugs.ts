@@ -259,6 +259,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       es: 'rompecabezas-cuadricula-fichas',
       it: 'griglia-abbinamento-schede',
       pt: 'quebra-cabeca-grade-fichas',
+      nl: 'raster-puzzel-werkbladen',
     },
   },
   {

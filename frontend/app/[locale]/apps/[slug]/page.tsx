@@ -275,6 +275,11 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
         siteName: 'LessonCraftStudio',
         type: 'website',
       },
+      twitter: {
+        card: 'summary_large_image',
+        title: content.seo.title,
+        description: content.seo.description,
+      },
     };
   }
 

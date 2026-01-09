@@ -301,7 +301,7 @@ Lav differentierede opgaver til samme klasse. Simple ordsoegninger til nogle ele
 
 Lav faerdige pakker til download. 10 ordsoegninger om efterar. 15 matematikopgaver kombineret med ordsoegninger. 20 sider farvelaegning med matchende ordsoegninger. Pakker med gangetabeller som ordsoegninger. Koebere elsker komplette opgaver til print de kan bruge med det samme.
 
-Print-on-demand licensen abner muligheder. Saelg pa Etsy som printable worksheets. Lav boeger til Amazon KDP. Kombiner 50 ordsoegninger i en bog. Tilfoej farvelaegning sider mellem opgaverne. Lav specialiserede boeger om matematikopgaver eller gangetabeller.`,
+Print-on-demand licensen abner muligheder. Saelg pa Etsy som arbejdsark til print. Lav boeger til Amazon KDP. Kombiner 50 ordsoegninger i en bog. Tilfoej farvelaegning sider mellem opgaverne. Lav specialiserede boeger om matematikopgaver eller gangetabeller.`,
         quote: 'Mit abonnement betalte sig selv i foerste maned!',
       },
     ],

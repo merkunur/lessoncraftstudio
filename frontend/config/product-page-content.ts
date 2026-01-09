@@ -263,6 +263,7 @@ import findAndCountNlContent from '@/content/product-pages/nl/zoek-en-tel-werkbl
 import matchingNlContent from '@/content/product-pages/nl/verbindings-werkbladen';
 import drawingLinesNlContent from '@/content/product-pages/nl/lijnen-trekken-werkbladen';
 import pictureBingoNlContent from '@/content/product-pages/nl/plaatjes-bingo-werkbladen';
+import sudokuNlContent from '@/content/product-pages/nl/sudoku-werkbladen';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -1155,6 +1156,10 @@ export const contentRegistry: ContentRegistry = {
     'plaatjes-bingo-werkbladen': pictureBingoNlContent,
     // Also keep old slug for backwards compatibility during transition
     'picture-bingo-worksheets': pictureBingoNlContent,
+    // Dutch Sudoku (Sudoku) - uses Dutch SEO slug
+    'sudoku-werkbladen': sudokuNlContent,
+    // Also keep old slug for backwards compatibility during transition
+    'sudoku-worksheets': sudokuNlContent,
   },
 };
 

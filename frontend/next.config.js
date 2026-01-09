@@ -1206,6 +1206,12 @@ const nextConfig = {
         destination: '/nl/apps/plaatjes-bingo-werkbladen',
         permanent: true,
       },
+      // Dutch: sudoku-worksheets → sudoku-werkbladen
+      {
+        source: '/nl/apps/sudoku-worksheets',
+        destination: '/nl/apps/sudoku-werkbladen',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

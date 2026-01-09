@@ -188,6 +188,7 @@ import findAndCountNlContent from '@/content/product-pages/nl/zoek-en-tel-werkbl
 import matchingNlContent from '@/content/product-pages/nl/verbindings-werkbladen';
 import drawingLinesNlContent from '@/content/product-pages/nl/lijnen-trekken-werkbladen';
 import pictureBingoNlContent from '@/content/product-pages/nl/plaatjes-bingo-werkbladen';
+import sudokuNlContent from '@/content/product-pages/nl/sudoku-werkbladen';
 
 interface PageProps {
   params: {
@@ -8872,6 +8873,7 @@ export async function generateStaticParams() {
     'verbindings-werkbladen', // Product page slug (Dutch) - language-specific SEO slug for matching
     'lijnen-trekken-werkbladen', // Product page slug (Dutch) - language-specific SEO slug for drawing-lines
     'plaatjes-bingo-werkbladen', // Product page slug (Dutch) - language-specific SEO slug for picture-bingo
+    'sudoku-werkbladen', // Product page slug (Dutch) - language-specific SEO slug for sudoku
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

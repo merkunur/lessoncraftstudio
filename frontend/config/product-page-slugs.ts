@@ -182,6 +182,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       es: 'sudoku-fichas-ninos',
       it: 'sudoku-bambini-schede',
       pt: 'sudoku-criancas-fichas',
+      nl: 'sudoku-werkbladen',
     },
   },
   {

@@ -427,7 +427,13 @@ Brug Pinterest til at drive trafik til produkter. Pin eksempler af opgaver med l
   faq: {
     sectionTitle: 'Ofte Stillede Spørgsmål om Gratis Skoleopgaver og Opgaver til Print',
     sectionDescription: 'Pædagoger stiller mange spørgsmål før abonnement. Forstå præcist hvad Fuld Adgang inkluderer. Afklar forventninger om priser og funktioner. Træf informeret beslutning baseret på fakta. Denne sektion besvarer de mest almindelige spørgsmål. Fra priser til funktionalitet. Tekniske evner til pædagogiske anvendelser. Alt du behøver at vide før du starter.',
+    showMoreText: 'Vis flere spørgsmål',
+    showLessText: 'Vis færre',
     badgeText: 'FAQ',
+    readMoreLabel: 'Læs mere',
+    showLessLabel: 'Vis mindre',
+    secureCheckout: 'Sikker betaling',
+    cancelAnytime: 'Opsig når som helst',
     items: [
       {
         id: '1',

@@ -386,9 +386,6 @@ Kombiner sudoku med andre arbejdsark for bundne produkter. "Komplet Matematikpak
     readMoreLabel: 'Læs mere',
     showLessLabel: 'Vis mindre',
     showMoreText: 'Vis flere spørgsmål',
-    ctaTitle: 'Klar til at Komme i Gang?',
-    ctaDescription: 'Prøv vores sudoku-generator gratis og oplev hvor nemt det er at lave professionelle arbejdsark.',
-    ctaText: 'Start Gratis Prøve',
     secureCheckout: 'Sikker betaling',
     cancelAnytime: 'Opsig når som helst',
     items: [

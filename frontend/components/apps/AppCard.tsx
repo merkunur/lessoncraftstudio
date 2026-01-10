@@ -316,6 +316,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     it: 'percorso-illustrato-schede',
     pt: 'labirinto-caminhos-fichas',
     nl: 'doolhof-werkbladen',
+    da: 'billedsti-arbejdsark',
   },
   'picture-sort': {
     en: 'picture-sort-worksheets',

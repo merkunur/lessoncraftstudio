@@ -399,6 +399,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       it: 'percorso-illustrato-schede',
       pt: 'labirinto-caminhos-fichas',
       nl: 'doolhof-werkbladen',
+      da: 'billedsti-arbejdsark',
     },
   },
   {

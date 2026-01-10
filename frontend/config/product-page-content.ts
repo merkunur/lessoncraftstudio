@@ -313,6 +313,7 @@ import moreLessDaContent from '@/content/product-pages/da/sammenligningsopgaver-
 import oddOneOutDaContent from '@/content/product-pages/da/find-den-ulige-arbejdsark';
 import patternTrainDaContent from '@/content/product-pages/da/moenstertog-arbejdsark';
 import patternWorksheetDaContent from '@/content/product-pages/da/moenstre-arbejdsark';
+import picturePathDaContent from '@/content/product-pages/da/billedsti-arbejdsark';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -1399,6 +1400,10 @@ export const contentRegistry: ContentRegistry = {
     'moenstre-arbejdsark': patternWorksheetDaContent,
     // Also keep old slug for backwards compatibility during transition
     'pattern-worksheets': patternWorksheetDaContent,
+    // Danish Picture Path (Billedsti) - uses Danish SEO slug
+    'billedsti-arbejdsark': picturePathDaContent,
+    // Also keep old slug for backwards compatibility during transition
+    'picture-path-worksheets': picturePathDaContent,
   },
 };
 

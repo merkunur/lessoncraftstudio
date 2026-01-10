@@ -6,7 +6,12 @@ import fs from 'fs/promises';
 export const dynamic = 'force-dynamic';
 
 // In-memory cache for thumbnails (persists across requests in same server instance)
-const thumbnailCache = new Map<string, { buffer: ArrayBuffer; contentType: string; timestamp: number }>();
+interface CacheEntry {
+  data: Buffer;
+  contentType: string;
+  timestamp: number;
+}
+const thumbnailCache = new Map<string, CacheEntry>();
 const CACHE_MAX_AGE = 24 * 60 * 60 * 1000; // 24 hours
 const MAX_CACHE_SIZE = 500; // Max number of cached thumbnails
 
@@ -43,13 +48,13 @@ export async function GET(request: NextRequest) {
     // Check memory cache first
     const cached = thumbnailCache.get(cacheKey);
     if (cached && Date.now() - cached.timestamp < CACHE_MAX_AGE) {
-      return new Response(cached.buffer, {
-        headers: {
-          'Content-Type': cached.contentType,
-          'Cache-Control': 'public, max-age=86400, stale-while-revalidate=604800',
-          'X-Cache': 'HIT',
-        },
-      });
+      // Create a new Response with the cached buffer
+      const headers = new Headers();
+      headers.set('Content-Type', cached.contentType);
+      headers.set('Cache-Control', 'public, max-age=86400, stale-while-revalidate=604800');
+      headers.set('X-Cache', 'HIT');
+
+      return new Response(new Blob([cached.data]), { headers });
     }
 
     // Resolve file path
@@ -66,18 +71,14 @@ export async function GET(request: NextRequest) {
     // Read and process image with sharp
     const imageBuffer = await fs.readFile(filePath);
 
-    let sharpInstance = sharp(imageBuffer);
-
-    // Resize
-    sharpInstance = sharpInstance.resize({
-      width,
-      height,
-      fit: 'inside',
-      withoutEnlargement: true,
-    });
-
-    // Output as WebP for best compression
-    const outputBuffer = await sharpInstance
+    // Resize and convert to WebP
+    const outputBuffer = await sharp(imageBuffer)
+      .resize({
+        width,
+        height,
+        fit: 'inside',
+        withoutEnlargement: true,
+      })
       .webp({ quality })
       .toBuffer();
 
@@ -91,28 +92,21 @@ export async function GET(request: NextRequest) {
       }
     }
 
-    // Convert Buffer to ArrayBuffer for compatibility
-    const arrayBuffer = outputBuffer.buffer.slice(
-      outputBuffer.byteOffset,
-      outputBuffer.byteOffset + outputBuffer.byteLength
-    );
-
     thumbnailCache.set(cacheKey, {
-      buffer: arrayBuffer,
+      data: outputBuffer,
       contentType: 'image/webp',
       timestamp: Date.now(),
     });
 
     // Return the resized image
-    return new Response(arrayBuffer, {
-      headers: {
-        'Content-Type': 'image/webp',
-        'Cache-Control': 'public, max-age=86400, stale-while-revalidate=604800',
-        'X-Cache': 'MISS',
-        'X-Original-Size': imageBuffer.length.toString(),
-        'X-Thumbnail-Size': outputBuffer.length.toString(),
-      },
-    });
+    const headers = new Headers();
+    headers.set('Content-Type', 'image/webp');
+    headers.set('Cache-Control', 'public, max-age=86400, stale-while-revalidate=604800');
+    headers.set('X-Cache', 'MISS');
+    headers.set('X-Original-Size', imageBuffer.length.toString());
+    headers.set('X-Thumbnail-Size', outputBuffer.length.toString());
+
+    return new Response(new Blob([outputBuffer]), { headers });
 
   } catch (error) {
     console.error('Thumbnail generation error:', error);

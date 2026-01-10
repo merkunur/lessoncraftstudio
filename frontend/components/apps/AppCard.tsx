@@ -97,6 +97,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     it: 'anagrammi-schede',
     pt: 'palavras-embaralhadas-fichas',
     nl: 'woordkruisel-werkbladen',
+    da: 'bogstavblanding-arbejdsark',
   },
   'find-and-count': {
     en: 'find-and-count-worksheets',

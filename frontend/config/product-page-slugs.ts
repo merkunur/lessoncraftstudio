@@ -123,6 +123,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       it: 'anagrammi-schede',
       pt: 'palavras-embaralhadas-fichas',
       nl: 'woordkruisel-werkbladen',
+      da: 'bogstavblanding-arbejdsark',
     },
   },
   {

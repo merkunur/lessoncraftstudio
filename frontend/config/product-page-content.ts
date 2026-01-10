@@ -319,6 +319,7 @@ import prepositionsDaContent from '@/content/product-pages/da/praepositioner-arb
 import shadowMatchDaContent from '@/content/product-pages/da/skygge-match-arbejdsark';
 import subtractionDaContent from '@/content/product-pages/da/subtraktion-arbejdsark';
 import treasureHuntDaContent from '@/content/product-pages/da/skattejagt-arbejdsark';
+import wordGuessDaContent from '@/content/product-pages/da/gaet-ordet-arbejdsark';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -1429,6 +1430,10 @@ export const contentRegistry: ContentRegistry = {
     'skattejagt-arbejdsark': treasureHuntDaContent,
     // Also keep old slug for backwards compatibility during transition
     'treasure-hunt-worksheets': treasureHuntDaContent,
+    // Danish Word Guess (Gæt Ordet) - uses Danish SEO slug
+    'gaet-ordet-arbejdsark': wordGuessDaContent,
+    // Also keep old slug for backwards compatibility during transition
+    'word-guess-worksheets': wordGuessDaContent,
   },
 };
 

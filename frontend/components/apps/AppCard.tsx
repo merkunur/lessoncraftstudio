@@ -382,6 +382,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     it: 'indovina-parole-schede',
     pt: 'adivinhar-palavras-fichas',
     nl: 'woordraadsel-werkbladen',
+    da: 'gaet-ordet-arbejdsark',
   },
   'writing-app': {
     en: 'writing-worksheets',

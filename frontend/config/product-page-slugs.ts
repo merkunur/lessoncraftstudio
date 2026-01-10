@@ -483,6 +483,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       it: 'indovina-parole-schede',
       pt: 'adivinhar-palavras-fichas',
       nl: 'woordraadsel-werkbladen',
+      da: 'gaet-ordet-arbejdsark',
     },
   },
   {

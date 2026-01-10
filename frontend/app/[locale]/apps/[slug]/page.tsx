@@ -8950,6 +8950,8 @@ export async function generateStaticParams() {
     'praepositioner-arbejdsark', // Product page slug (Danish) - language-specific SEO slug for prepositions
     'skygge-match-arbejdsark', // Product page slug (Danish) - language-specific SEO slug for shadow-match
     'subtraktion-arbejdsark', // Product page slug (Danish) - language-specific SEO slug for subtraction
+    'skattejagt-arbejdsark', // Product page slug (Danish) - language-specific SEO slug for treasure-hunt
+    'gaet-ordet-arbejdsark', // Product page slug (Danish) - language-specific SEO slug for word-guess
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

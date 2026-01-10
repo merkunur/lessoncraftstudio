@@ -507,10 +507,10 @@ Lav årsplaner for sæsonopgaver. September: efterårs-sudoku og malebog. Decemb
       {
         id: '5',
         slug: 'matching',
-        name: 'Matching',
+        name: 'Matchning',
         category: 'Visuel Læring',
         icon: '🔗',
-        description: 'Styrk mønstergenkendelse ved at kombinere sudoku med matchingøvelser.',
+        description: 'Styrk mønstergenkendelse ved at kombinere sudoku med matchningøvelser.',
       },
       {
         id: '6',

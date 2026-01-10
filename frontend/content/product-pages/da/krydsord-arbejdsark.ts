@@ -25,11 +25,11 @@ export const crosswordDaContent: ProductPageContent = {
   hero: {
     title: 'Krydsord Generator - Gratis Skoleopgaver',
     subtitle: 'Opgaver til Print med Billeder til Børnehaveklassen og Indskolingen',
-    description: `Lav professionelle krydsord opgaver til print med billeder som visuelle ledetråde. Din Full Access-abonnement giver ubegrænset oprettelse af krydsord arbejdsark uden ekstra gebyrer per opgave. Perfekt til lære bogstaver, læse og skrive øvelser, og stavning i børnehaveklasse, 1. klasse, 2. klasse og 3. klasse.
+    description: `Lav professionelle krydsord opgaver til print med billeder som visuelle ledetråde. Dit Fuld Adgang-abonnement giver ubegrænset oprettelse af krydsord arbejdsark uden ekstra gebyrer per opgave. Perfekt til lære bogstaver, læse og skrive øvelser, og stavning i børnehaveklasse, 1. klasse, 2. klasse og 3. klasse.
 
 Vores krydsord generator skaber opgaver til print med billeder som ledetråde. Børnene ser billeder og skal skrive ord i krydsordgitteret. Dette gør arbejdsark perfekte til små børn der lærer bogstaver og stavning.
 
-Full Access-abonnement koster 240 USD om året eller 25 USD per måned. Du får adgang til alle 33 værktøjer til at lave skoleopgaver. Lav ubegrænsede opgaver til print uden ekstra betaling. Der er kommerciel licens inkluderet.`,
+Fuld Adgang-abonnement koster 240 USD om året eller 25 USD per måned. Du får adgang til alle 33 værktøjer til at lave skoleopgaver. Lav ubegrænsede opgaver til print uden ekstra betaling. Der er kommerciel licens inkluderet.`,
     previewImageSrc: '/samples/english/crossword/crossword_worksheet.jpeg',
     ctaLabels: {
       tryFree: 'Prøv Gratis',
@@ -134,7 +134,7 @@ Dette er perfekt til lære bogstaver på dansk. Børnene ser billeder og lærer 
         id: '5',
         icon: '💰',
         title: 'Kommerciel Licens Inkluderet',
-        description: `Full Access-abonnement inkluderer print-on-demand kommerciel licens. Sælg krydsord arbejdsark på Teachers Pay Teachers. Sælg kopiark på Etsy. Udgiv opgaver til print på Amazon KDP. Ingen ekstra licensgebyrer.
+        description: `Fuld Adgang-abonnement inkluderer print-on-demand kommerciel licens. Sælg krydsord arbejdsark på Teachers Pay Teachers. Sælg kopiark på Etsy. Udgiv opgaver til print på Amazon KDP. Ingen ekstra licensgebyrer.
 
 Mange lærere tjener 500-5000 USD om måneden ved at sælge arbejdsark online. Din licens dækker alt hvad du laver med generatoren. 300 DPI kvalitet er perfekt til kommerciel udgivelse. Start din Teachers Pay Teachers butik med professionelle danske skoleopgaver.`,
         highlighted: true,
@@ -330,17 +330,17 @@ Print-on-demand licensen åbner muligheder. Sælg på Etsy som arbejdsark til pr
       {
         id: '1',
         question: 'Er krydsord generatoren gratis at bruge til gratis skoleopgaver?',
-        answer: 'Krydsord generatoren kræver Full Access-abonnement der koster 240 USD årligt eller 25 USD månedligt. Dit abonnement giver ubegrænset krydsord oprettelse uden ekstra gebyrer per opgave. Lav så mange gratis skoleopgaver som du har brug for uden yderligere omkostninger. Full Access inkluderer alle 33 værktøjer til opgaver til print. Core Bundle koster 144 USD årligt og inkluderer 10 værktøjer. Begge abonnementer inkluderer kommerciel licens, 11-sproget support og professionel 300 DPI kvalitet.',
+        answer: 'Krydsord generatoren kræver Fuld Adgang-abonnement der koster 240 USD årligt eller 25 USD månedligt. Dit abonnement giver ubegrænset krydsord oprettelse uden ekstra gebyrer per opgave. Lav så mange gratis skoleopgaver som du har brug for uden yderligere omkostninger. Fuld Adgang inkluderer alle 33 værktøjer til opgaver til print. Grundpakke koster 144 USD årligt og inkluderer 10 værktøjer. Begge abonnementer inkluderer kommerciel licens, 11-sproget support og professionel 300 DPI kvalitet.',
       },
       {
         id: '2',
         question: 'Kan jeg bruge krydsord opgaver til print i min 1. klasse?',
-        answer: 'Ja. Full Access-abonnement inkluderer ubegrænset klasseværelsebrug. Print så mange kopier du skal bruge til dine 1. klasse elever. Del digitalt via Google Classroom. Send til forældre til hjemmeopgaver. Ingen grænser på klasseværelses brug. Krydsord er perfekte til 1. klasse stavning øvelser og bogstavgenkendelse. Juster giterstørrelsen til store kasser for begyndere. Vælg simple 6-8 ord temaer. Børnene lærer gennem visuelle billedledetråde.',
+        answer: 'Ja. Fuld Adgang-abonnement inkluderer ubegrænset klasseværelsebrug. Print så mange kopier du skal bruge til dine 1. klasse elever. Del digitalt via Google Classroom. Send til forældre til hjemmeopgaver. Ingen grænser på klasseværelses brug. Krydsord er perfekte til 1. klasse stavning øvelser og bogstavgenkendelse. Juster giterstørrelsen til store kasser for begyndere. Vælg simple 6-8 ord temaer. Børnene lærer gennem visuelle billedledetråde.',
       },
       {
         id: '3',
         question: 'Kan jeg sælge krydsord arbejdsark jeg laver?',
-        answer: 'Ja. Full Access-abonnement inkluderer fuld kommerciel print-on-demand licens uden ekstra omkostninger. Sælg dine krydsord arbejdsark på Teachers Pay Teachers. Sælg på Etsy. Udgiv på Amazon KDP. Ingen ekstra licensgebyrer ud over dit abonnement. Mange lærere tjener 500-5000 USD månedligt ved at sælge arbejdsark bundles. Lav tematiske pakker. Kombiner forskellige opgavetyper. 300 DPI kvalitet sikrer professionelt udseende produkter.',
+        answer: 'Ja. Fuld Adgang-abonnement inkluderer fuld kommerciel print-on-demand licens uden ekstra omkostninger. Sælg dine krydsord arbejdsark på Teachers Pay Teachers. Sælg på Etsy. Udgiv på Amazon KDP. Ingen ekstra licensgebyrer ud over dit abonnement. Mange lærere tjener 500-5000 USD månedligt ved at sælge arbejdsark bundles. Lav tematiske pakker. Kombiner forskellige opgavetyper. 300 DPI kvalitet sikrer professionelt udseende produkter.',
       },
       {
         id: '4',
@@ -392,8 +392,8 @@ Print-on-demand licensen åbner muligheder. Sælg på Etsy som arbejdsark til pr
 
   // Pricing
   pricing: {
-    title: 'Kernepakke',
-    price: 'kr. 1.075',
+    title: 'Fuld Adgang',
+    price: 'kr. 1.725',
     priceInterval: '/år',
     priceSuffix: 'Faktureres årligt',
     benefits: [

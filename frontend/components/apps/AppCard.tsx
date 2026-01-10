@@ -76,6 +76,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     pt: 'desenhos-colorir-fichas',
     nl: 'kleurplaten-werkbladen',
     da: 'malebog-arbejdsark',
+    no: 'fargeleggingsbilder-arbeidsark',
   },
   'math-worksheet': {
     en: 'math-worksheets',

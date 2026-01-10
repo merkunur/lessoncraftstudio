@@ -1548,6 +1548,12 @@ const nextConfig = {
         destination: '/no/apps/alfabet-tog-arbeidsark',
         permanent: true,
       },
+      // Norwegian: coloring-worksheets → fargeleggingsbilder-arbeidsark
+      {
+        source: '/no/apps/coloring-worksheets',
+        destination: '/no/apps/fargeleggingsbilder-arbeidsark',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

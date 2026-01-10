@@ -327,6 +327,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     it: 'classificazione-immagini-schede',
     pt: 'classificacao-imagens-fichas',
     nl: 'sorteer-werkbladen',
+    da: 'billedsortering-arbejdsark',
   },
   'prepositions': {
     en: 'prepositions-worksheets',

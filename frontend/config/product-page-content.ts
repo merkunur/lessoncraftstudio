@@ -314,6 +314,7 @@ import oddOneOutDaContent from '@/content/product-pages/da/find-den-ulige-arbejd
 import patternTrainDaContent from '@/content/product-pages/da/moenstertog-arbejdsark';
 import patternWorksheetDaContent from '@/content/product-pages/da/moenstre-arbejdsark';
 import picturePathDaContent from '@/content/product-pages/da/billedsti-arbejdsark';
+import pictureSortDaContent from '@/content/product-pages/da/billedsortering-arbejdsark';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -1404,6 +1405,10 @@ export const contentRegistry: ContentRegistry = {
     'billedsti-arbejdsark': picturePathDaContent,
     // Also keep old slug for backwards compatibility during transition
     'picture-path-worksheets': picturePathDaContent,
+    // Danish Picture Sort (Billedsortering) - uses Danish SEO slug
+    'billedsortering-arbejdsark': pictureSortDaContent,
+    // Also keep old slug for backwards compatibility during transition
+    'picture-sort-worksheets': pictureSortDaContent,
   },
 };
 

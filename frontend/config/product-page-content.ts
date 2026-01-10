@@ -325,6 +325,7 @@ import writingDaContent from '@/content/product-pages/da/skriveopgaver-arbejdsar
 // Norwegian content imports
 import wordSearchNoContent from '@/content/product-pages/no/ordsoek-arbeidsark';
 import additionNoContent from '@/content/product-pages/no/addisjon-arbeidsark';
+import alphabetTrainNoContent from '@/content/product-pages/no/alfabet-tog-arbeidsark';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -1453,6 +1454,10 @@ export const contentRegistry: ContentRegistry = {
     'addisjon-arbeidsark': additionNoContent,
     // Also keep old slug for backwards compatibility during transition
     'addition-worksheets': additionNoContent,
+    // Norwegian Alphabet Train - uses Norwegian SEO slug
+    'alfabet-tog-arbeidsark': alphabetTrainNoContent,
+    // Also keep old slug for backwards compatibility during transition
+    'alphabet-train-worksheets': alphabetTrainNoContent,
   },
 };
 

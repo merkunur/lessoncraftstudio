@@ -8954,6 +8954,8 @@ export async function generateStaticParams() {
     'gaet-ordet-arbejdsark', // Product page slug (Danish) - language-specific SEO slug for word-guess
     'skriveopgaver-arbejdsark', // Product page slug (Danish) - language-specific SEO slug for writing
     'ordsoek-arbeidsark', // Product page slug (Norwegian) - language-specific SEO slug for word-search
+    'addisjon-arbeidsark', // Product page slug (Norwegian) - language-specific SEO slug for addition
+    'alfabet-tog-arbeidsark', // Product page slug (Norwegian) - language-specific SEO slug for alphabet-train
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

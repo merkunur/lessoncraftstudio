@@ -1536,6 +1536,18 @@ const nextConfig = {
         destination: '/no/apps/ordsoek-arbeidsark',
         permanent: true,
       },
+      // Norwegian: addition-worksheets → addisjon-arbeidsark
+      {
+        source: '/no/apps/addition-worksheets',
+        destination: '/no/apps/addisjon-arbeidsark',
+        permanent: true,
+      },
+      // Norwegian: alphabet-train-worksheets → alfabet-tog-arbeidsark
+      {
+        source: '/no/apps/alphabet-train-worksheets',
+        destination: '/no/apps/alfabet-tog-arbeidsark',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

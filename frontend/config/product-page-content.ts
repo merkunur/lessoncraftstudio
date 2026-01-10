@@ -324,6 +324,7 @@ import writingDaContent from '@/content/product-pages/da/skriveopgaver-arbejdsar
 
 // Norwegian content imports
 import wordSearchNoContent from '@/content/product-pages/no/ordsoek-arbeidsark';
+import additionNoContent from '@/content/product-pages/no/addisjon-arbeidsark';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -1448,6 +1449,10 @@ export const contentRegistry: ContentRegistry = {
     'ordsoek-arbeidsark': wordSearchNoContent,
     // Also keep old slug for backwards compatibility during transition
     'word-search-worksheets': wordSearchNoContent,
+    // Norwegian Addition - uses Norwegian SEO slug
+    'addisjon-arbeidsark': additionNoContent,
+    // Also keep old slug for backwards compatibility during transition
+    'addition-worksheets': additionNoContent,
   },
 };
 

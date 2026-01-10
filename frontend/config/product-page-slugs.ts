@@ -163,6 +163,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       it: 'pregrafismo-schede',
       pt: 'tracar-linhas-fichas',
       nl: 'lijnen-trekken-werkbladen',
+      da: 'linjetraening-arbejdsark',
     },
   },
   {

@@ -296,6 +296,7 @@ import mathWorksheetDaContent from '@/content/product-pages/da/matematikopgaver-
 import wordScrambleDaContent from '@/content/product-pages/da/bogstavblanding-arbejdsark';
 import findAndCountDaContent from '@/content/product-pages/da/find-og-tael-arbejdsark';
 import matchingDaContent from '@/content/product-pages/da/matchning-arbejdsark';
+import drawingLinesDaContent from '@/content/product-pages/da/linjetraening-arbejdsark';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -1314,6 +1315,10 @@ export const contentRegistry: ContentRegistry = {
     'matchning-arbejdsark': matchingDaContent,
     // Also keep old slug for backwards compatibility during transition
     'matching-worksheets': matchingDaContent,
+    // Danish Drawing Lines (Linjetræning) - uses Danish SEO slug
+    'linjetraening-arbejdsark': drawingLinesDaContent,
+    // Also keep old slug for backwards compatibility during transition
+    'drawing-lines-worksheets': drawingLinesDaContent,
   },
 };
 

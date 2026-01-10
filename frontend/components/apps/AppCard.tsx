@@ -130,6 +130,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     it: 'pregrafismo-schede',
     pt: 'tracar-linhas-fichas',
     nl: 'lijnen-trekken-werkbladen',
+    da: 'linjetraening-arbejdsark',
   },
   'picture-bingo': {
     en: 'picture-bingo-worksheets',

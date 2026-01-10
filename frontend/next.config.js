@@ -1374,6 +1374,12 @@ const nextConfig = {
         destination: '/da/apps/find-og-tael-arbejdsark',
         permanent: true,
       },
+      // Danish: matching-worksheets → matchning-arbejdsark
+      {
+        source: '/da/apps/matching-worksheets',
+        destination: '/da/apps/matchning-arbejdsark',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

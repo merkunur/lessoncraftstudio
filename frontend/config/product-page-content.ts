@@ -295,6 +295,7 @@ import coloringDaContent from '@/content/product-pages/da/malebog-arbejdsark';
 import mathWorksheetDaContent from '@/content/product-pages/da/matematikopgaver-arbejdsark';
 import wordScrambleDaContent from '@/content/product-pages/da/bogstavblanding-arbejdsark';
 import findAndCountDaContent from '@/content/product-pages/da/find-og-tael-arbejdsark';
+import matchingDaContent from '@/content/product-pages/da/matchning-arbejdsark';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -1309,6 +1310,10 @@ export const contentRegistry: ContentRegistry = {
     'find-og-tael-arbejdsark': findAndCountDaContent,
     // Also keep old slug for backwards compatibility during transition
     'find-and-count-worksheets': findAndCountDaContent,
+    // Danish Matching (Matchning) - uses Danish SEO slug
+    'matchning-arbejdsark': matchingDaContent,
+    // Also keep old slug for backwards compatibility during transition
+    'matching-worksheets': matchingDaContent,
   },
 };
 

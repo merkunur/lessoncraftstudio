@@ -149,6 +149,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       it: 'abbinamenti-schede',
       pt: 'ligar-fichas',
       nl: 'verbindings-werkbladen',
+      da: 'matchning-arbejdsark',
     },
   },
   {

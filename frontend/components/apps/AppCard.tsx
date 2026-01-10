@@ -119,6 +119,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     it: 'abbinamenti-schede',
     pt: 'ligar-fichas',
     nl: 'verbindings-werkbladen',
+    da: 'matchning-arbejdsark',
   },
   'drawing-lines': {
     en: 'drawing-lines-worksheets',

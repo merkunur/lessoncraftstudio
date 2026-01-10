@@ -27,7 +27,8 @@ export default async function LocaleLayout({
   setRequestLocale(locale);
 
   // Load messages server-side - critical for SEO
-  const messages = await getMessages();
+  // Explicitly pass locale to ensure correct messages are loaded
+  const messages = await getMessages({ locale });
 
   return (
     <NextIntlClientProvider locale={locale} messages={messages}>

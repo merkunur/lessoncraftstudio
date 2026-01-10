@@ -218,6 +218,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       it: 'grafici-immagini-schede',
       pt: 'grafico-pictorico-fichas',
       nl: 'telgrafieken-werkbladen',
+      da: 'billediagram-arbejdsark',
     },
   },
   {

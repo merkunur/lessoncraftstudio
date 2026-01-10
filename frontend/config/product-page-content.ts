@@ -300,6 +300,7 @@ import drawingLinesDaContent from '@/content/product-pages/da/linjetraening-arbe
 import bingoDaContent from '@/content/product-pages/da/bingo-arbejdsark';
 import sudokuDaContent from '@/content/product-pages/da/sudoku-arbejdsark';
 import bigSmallDaContent from '@/content/product-pages/da/stor-lille-arbejdsark';
+import chartCountDaContent from '@/content/product-pages/da/billediagram-arbejdsark';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -1334,6 +1335,10 @@ export const contentRegistry: ContentRegistry = {
     'stor-lille-arbejdsark': bigSmallDaContent,
     // Also keep old slug for backwards compatibility during transition
     'big-small-worksheets': bigSmallDaContent,
+    // Danish Chart Count (Billediagram) - uses Danish SEO slug
+    'billediagram-arbejdsark': chartCountDaContent,
+    // Also keep old slug for backwards compatibility during transition
+    'chart-count-worksheets': chartCountDaContent,
   },
 };
 

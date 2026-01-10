@@ -9,7 +9,7 @@ import { ProductPageContent } from '@/components/product-page/ProductPageClient'
  * FULL SEO content from: INDIVIDUAL APP PAGES/Danish/picture-sort.md
  * DO NOT SHORTEN - Every paragraph is SEO-optimized
  *
- * Picture Sort = Full Access ($240/year = 1800 kr/year)
+ * Picture Sort = Fuld Adgang ($240/year = 1800 kr/year)
  */
 
 export const billedsorteringDaContent: ProductPageContent = {
@@ -18,7 +18,7 @@ export const billedsorteringDaContent: ProductPageContent = {
     slug: 'billedsortering-arbejdsark',
     appId: 'picture-sort',
     title: 'Billedsortering Opgaveark - Gratis Skoleopgaver til Print - Arbejdsark Børnehaveklasse og 1. Klasse',
-    description: 'Opret professionelle billedsorteringsopgaver med vores opgavegenerator. Dit Full Access abonnement giver dig ubegrænset oprettelse af arbejdsark uden betaling per opgave. Generer specialtilpassede opgaver til print perfekt til børnehaveklasse og 1. klasse elever. Download højkvalitets PDF arbejdsark på under 3 minutter.',
+    description: 'Opret professionelle billedsorteringsopgaver med vores opgavegenerator. Dit Fuld Adgang abonnement giver dig ubegrænset oprettelse af arbejdsark uden betaling per opgave. Generer specialtilpassede opgaver til print perfekt til børnehaveklasse og 1. klasse elever. Download højkvalitets PDF arbejdsark på under 3 minutter.',
     keywords: 'billedsortering, opgaveark, gratis skoleopgaver, arbejdsark til print, 0. klasse opgaver, 1. klasse, børnehaveklasse, kopiark, kategorisering, sorteringsaktiviteter',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/billedsortering-arbejdsark',
   },
@@ -27,13 +27,13 @@ export const billedsorteringDaContent: ProductPageContent = {
   hero: {
     title: 'Billedsortering Opgaveark – Gratis Skoleopgaver',
     subtitle: 'Arbejdsark til Print til Børnehaveklasse og 1. Klasse',
-    description: `Opret professionelle billedsorteringsopgaver med vores opgavegenerator. Dit Full Access abonnement giver dig ubegrænset oprettelse af arbejdsark uden betaling per opgave. Generer specialtilpassede opgaver til print perfekt til børnehaveklasse og 1. klasse elever. Download højkvalitets PDF arbejdsark på under 3 minutter.
+    description: `Opret professionelle billedsorteringsopgaver med vores opgavegenerator. Dit Fuld Adgang abonnement giver dig ubegrænset oprettelse af arbejdsark uden betaling per opgave. Generer specialtilpassede opgaver til print perfekt til børnehaveklasse og 1. klasse elever. Download højkvalitets PDF arbejdsark på under 3 minutter.
 
 Billedsortering opgaver hjælper børn med at udvikle kritisk tænkning og kategoriseringsevner. Vores generator gør det nemt at oprette engagerende sorteringsaktiviteter. Vælg temaer eller specifikke billeder til venstre og højre kategorier. Hver opgave inkluderer et facitark der viser korrekt sortering.
 
 Generer opgaver til print med to sorteringskategorier perfekt til kopiark. Børn sorterer billeder i venstre eller højre gruppe baseret på fælles træk. Egnet til 0. klasse opgaver og 1. klasse undervisning. Download som PDF eller JPEG format til klasseværelset eller hjemmeundervisning.
 
-Full Access abonnement inkluderer ubegrænset adgang til alle 33 opgavegeneratorer. Opret så mange arbejdsark som du har brug for. Intet ekstra gebyr per opgave eller per billede. Kommerciel licens inkluderet til at sælge dine opgaver.`,
+Fuld Adgang abonnement inkluderer ubegrænset adgang til alle 33 opgavegeneratorer. Opret så mange arbejdsark som du har brug for. Intet ekstra gebyr per opgave eller per billede. Kommerciel licens inkluderet til at sælge dine opgaver.`,
     previewImageSrc: '/samples/english/picture sort/picture sort portrait.jpeg',
     ctaLabels: {
       tryFree: 'Prøv Gratis',
@@ -87,7 +87,7 @@ Full Access abonnement inkluderer ubegrænset adgang til alle 33 opgavegenerator
   // Features Grid - FULL text from picture-sort.md feature sections
   features: {
     sectionTitle: 'Billedsortering Funktioner - Alt Du Behøver til Gratis Skoleopgaver og Arbejdsark til Print',
-    sectionDescription: 'Vores billedsortering generator kombinerer kraftfulde funktioner med nem betjening. Opret professionelle opgaver til print på minutter. Full Access abonnement giver dig adgang til alle værktøjer uden ekstra gebyrer. Hver funktion er designet til at spare tid og skabe engagerende kopiark til børnehaveklasse og 1. klasse.',
+    sectionDescription: 'Vores billedsortering generator kombinerer kraftfulde funktioner med nem betjening. Opret professionelle opgaver til print på minutter. Fuld Adgang abonnement giver dig adgang til alle værktøjer uden ekstra gebyrer. Hver funktion er designet til at spare tid og skabe engagerende kopiark til børnehaveklasse og 1. klasse.',
     highlightBadgeText: 'Vigtig Funktion',
     readMoreLabel: 'Læs mere',
     showLessLabel: 'Vis mindre',
@@ -138,7 +138,7 @@ Fortryd og Gentag knapper lader dig eksperimentere sikkert. Lås elementer for a
 
 Kombiner biblioteksbilleder med dine egne fotos. Opret sorteringsopgaver med klasseværelsets genstande. Brug billeder af elevernes navne eller personlige ejendele. Personalisering øger engagement i børnehaveklasse aktiviteter. Børn genkender velkendte objekter bedre.
 
-Uploadede billeder forbliver tilgængelige under din session. Brug dem på tværs af flere opgaver til print. Intet ekstra gebyr for billedlagring eller brug. Din Full Access abonnement inkluderer ubegrænset upload. Ingen filstørrelsesbegrænsninger på normale fotos.
+Uploadede billeder forbliver tilgængelige under din session. Brug dem på tværs af flere opgaver til print. Intet ekstra gebyr for billedlagring eller brug. Din Fuld Adgang abonnement inkluderer ubegrænset upload. Ingen filstørrelsesbegrænsninger på normale fotos.
 
 Tilføj klassefotos til sorteringsaktiviteter. Opret opgaver med lokale vartegn eller begivenheder. Brug billeder fra klasseudflugter eller projekter. Brugerdefinerede billeder gør kopiark mere relevante for dine elever.
 
@@ -155,18 +155,18 @@ Billednavne bestemmer indhold sprog for tekstbaserede apps. Billedsortering brug
 
 Dansk sprogunderstøttelse inkluderer korrekt typografi. Alle instruktioner vises på naturligt dansk. Generér opgaver til print der matcher danske undervisningsstandarder. Børnehaveklasse og 1. klasse lærere får fuldt lokaliseret oplevelse. Æ, Ø og Å vises korrekt overalt.
 
-Skift sprog når som helst uden at miste dit arbejde. Opret opgaver til print på flere sprog fra samme konto. Perfekt til sprogundervisning eller tosprogede programmer. Full Access inkluderer alle sprog uden ekstra omkostninger. Ét abonnement dækker alle 11 sprog.`,
+Skift sprog når som helst uden at miste dit arbejde. Opret opgaver til print på flere sprog fra samme konto. Perfekt til sprogundervisning eller tosprogede programmer. Fuld Adgang inkluderer alle sprog uden ekstra omkostninger. Ét abonnement dækker alle 11 sprog.`,
         highlighted: false,
       },
       {
         id: '5',
         icon: '💰',
         title: 'Kommerciel Print-on-Demand Licens - Sælg Dine Arbejdsark og Opgaver til Print',
-        description: `Full Access abonnement inkluderer fuld kommerciel POD licens. Sælg dine sorteringsopgaver på Teachers Pay Teachers. Opret Etsy butik med printbare kopiark. Udgiv lavindholdsarbejdsbøger på Amazon KDP. Fuld kommerciel ret inkluderet i abonnementsprisen.
+        description: `Fuld Adgang abonnement inkluderer fuld kommerciel POD licens. Sælg dine sorteringsopgaver på Teachers Pay Teachers. Opret Etsy butik med printbare kopiark. Udgiv lavindholdsarbejdsbøger på Amazon KDP. Fuld kommerciel ret inkluderet i abonnementsprisen.
 
 Ingen tilskrivning påkrævet på kommercielle produkter. Brug 300 DPI eksport til professionel printkvalitet. Opret produktpakker med flere opgaver til print. Kombinér sorteringsaktiviteter med andre arbejdsark typer. Sælg ubegrænset antal eksemplarer uden ekstra gebyr.
 
-Mange lærere tjener 500-5000 kr. månedligt ved at sælge opgaver. Børnehaveklasse og 1. klasse materialer er meget efterspurgte. Tematiske pakker til ferier sælger særligt godt. Din Full Access investering kan betale sig selv gennem salg. Passive indtægter vokser over tid.
+Mange lærere tjener 500-5000 kr. månedligt ved at sælge opgaver. Børnehaveklasse og 1. klasse materialer er meget efterspurgte. Tematiske pakker til ferier sælger særligt godt. Din Fuld Adgang investering kan betale sig selv gennem salg. Passive indtægter vokser over tid.
 
 Pinterest markedsføring driver trafik til din butik. Opret iøjnefaldende pins med gratis skoleopgaver eksempler. Del snippets på Instagram og Facebook. Byg passiv indkomst med printbare arbejdsark. Sociale medier genererer organisk rækkevidde gratis.
 
@@ -177,7 +177,7 @@ Teachers Pay Teachers lærere rapporterer stærkt salg. Etsy shops med uddannels
         id: '6',
         icon: '🎨',
         title: '3000+ Billedbibliotek - Børnevenlige Billeder til Alle Gratis Skoleopgaver',
-        description: `Adgang til over 3000 professionelle børnevenlige billeder. Organiseret efter temaer for nem browsing. Søg efter nøgleord for at finde specifikke emner. Alle billeder inkluderet i din Full Access abonnement. Intet ekstra gebyr for billedadgang eller brug.
+        description: `Adgang til over 3000 professionelle børnevenlige billeder. Organiseret efter temaer for nem browsing. Søg efter nøgleord for at finde specifikke emner. Alle billeder inkluderet i din Fuld Adgang abonnement. Intet ekstra gebyr for billedadgang eller brug.
 
 Temaer dækker årstider, dyr, mad, transport, former og meget mere. Hvert tema indeholder snesevis af relevante billeder. Konsistent kunststil på tværs af hele biblioteket. Perfekt til sammenhængende kopiark og opgaver til print. Professionelt tegnet kunst i venlig stil.
 
@@ -288,7 +288,7 @@ Opgaveark PDF og Facitark PDF downloader i PDF format. PDF bevarer højeste kval
 
 Gråtone checkbox sparer printerblæk. Konverterer farver til gråtoner. Sparer op til 70% blæk sammenlignet med farve. Billeddetaljer forbliver klare. Perfekt til masseprint af kopiark. Særligt værdifuldt for store klasseværelser.
 
-Filer downloader til din computer øjeblikkeligt. Find dem i Downloads mappe. Filnavne inkluderer dato og opgavetype. Organiser downloads i mapper efter emne. Print lige så mange kopier som nødvendigt. Ingen downloadbegrænsninger med Full Access.
+Filer downloader til din computer øjeblikkeligt. Find dem i Downloads mappe. Filnavne inkluderer dato og opgavetype. Organiser downloads i mapper efter emne. Print lige så mange kopier som nødvendigt. Ingen downloadbegrænsninger med Fuld Adgang.
 
 Åbn PDF i Adobe Reader eller lignende. Kontroller forhåndsvisning før print. Vælg sidestørrelse der matcher papir. Print én kopi først for at verificere. Juster om nødvendigt og print flere. Print både opgave og facit for komplette undervisningssæt til børnehaveklasse og 1. klasse.`,
         icon: '📥',
@@ -345,7 +345,7 @@ Opret personlige sorteringsopgaver med familiefotos. Sortér familiemedlemmer ef
 
 Kombiner billedsortering med malebog aktiviteter. Print opgaver i gråtone for farvelægning. Børn farver før de sorterer. Kunstintegration tilføjer kreativitet til logisk tænkning. Afsluttede projekter bliver familiens kunstværker.
 
-Hjemmeundervisningssamarbejder deler opgaver til print. Forældre udveksler specialtilpassede sorteringsaktiviteter. Full Access abonnement dækker hele samarbejdet. Delte ressourcer reducerer individuelle omkostninger. Fællesskabsopbygning styrker hjemmeundervisningsnetværk.`,
+Hjemmeundervisningssamarbejder deler opgaver til print. Forældre udveksler specialtilpassede sorteringsaktiviteter. Fuld Adgang abonnement dækker hele samarbejdet. Delte ressourcer reducerer individuelle omkostninger. Fællesskabsopbygning styrker hjemmeundervisningsnetværk.`,
         quote: 'Én generator dækker alle mine børns behov.',
       },
       {
@@ -359,7 +359,7 @@ Lære bogstaver aktiviteter integreres naturligt. Alfabetsortering med billedst�
 
 Tosprogede klasseværelser drager fordel af visuelle sorteringer. Billeder transcenderer sprogbarrierer. Samme aktivitet fungerer på dansk og modersmål. Konceptuel forståelse udvikles uafhængigt af sprog. Oversættelse kommer naturligt gennem anvendelse.
 
-ESL studerende sorterer kulturelt relevante objekter. Mad fra forskellige lande grupperes. Transport metoder sammenlignes på tværs af kulturer. Sortering fremmer interkulturel forståelse. Sprogindlæring bliver meningsfuld og kontekstuel.`,
+Andetsprogsundervisning studerende sorterer kulturelt relevante objekter. Mad fra forskellige lande grupperes. Transport metoder sammenlignes på tværs af kulturer. Sortering fremmer interkulturel forståelse. Sprogindlæring bliver meningsfuld og kontekstuel.`,
         quote: 'Visuelle opgaver hjælper mine flersprogede elever enormt.',
       },
       {
@@ -385,11 +385,11 @@ Adfærdsmål spores gennem sorteringsaktiviteter. Fokus og opmærksomhed øges v
 
 Opret tematiske pakker med flere opgaver til print. Sæsonsamlinger sælger godt året rundt. Feriespecifikke sorteringer topper i december. Tilbage til skole pakker sælger i august. Strategisk timing maksimerer salg.
 
-Kommerciel licens inkluderet i Full Access abonnement. Sælg ubegrænset eksemplarer uden ekstra gebyrer. Ingen tilskrivning påkrævet på produkter. Professionel 300 DPI kvalitet matcher kommercielle standarder. Konkurrer med etablerede udgivere.
+Kommerciel licens inkluderet i Fuld Adgang abonnement. Sælg ubegrænset eksemplarer uden ekstra gebyrer. Ingen tilskrivning påkrævet på produkter. Professionel 300 DPI kvalitet matcher kommercielle standarder. Konkurrer med etablerede udgivere.
 
 Pinterest markedsføring driver organisk trafik gratis. Opret iøjnefaldende pins med produkteksempler. SEO optimerede beskrivelser forbedrer søgbarhed. Konsekvent posting opbygger følgere over tid. Social media konverterer til salg uden reklameomkostninger.
 
-Mange danske lærere tjener 500-5000 kr. månedligt. Nogle tjener meget mere. Kombiner opgave-salg med almindeligt lærerarbejde. Eller gå fuldtids med opgave-skabelse. Dit Full Access abonnement på 1.800 kr. årligt betaler sig selv efter få salg af arbejdsark og kopiark.`,
+Mange danske lærere tjener 500-5000 kr. månedligt. Nogle tjener meget mere. Kombiner opgave-salg med almindeligt lærerarbejde. Eller gå fuldtids med opgave-skabelse. Dit Fuld Adgang abonnement på 1.800 kr. årligt betaler sig selv efter få salg af arbejdsark og kopiark.`,
         quote: 'Mit abonnement betalte sig selv i første måned!',
       },
     ],
@@ -398,7 +398,7 @@ Mange danske lærere tjener 500-5000 kr. månedligt. Nogle tjener meget mere. Ko
   // FAQ Section - Selected FAQs from picture-sort.md
   faq: {
     sectionTitle: 'Ofte Stillede Spørgsmål om Billedsortering Opgaver til Print og Gratis Skoleopgaver',
-    sectionDescription: 'Lærere og forældre stiller almindelige spørgsmål før tilmelding. Denne sektion besvarer de mest hyppige spørgsmål. Forstå præcist hvad Full Access inkluderer. Lær hvordan billedsortering arbejdsark fungerer. Få afklaring om kommerciel brug og printrettigheder.',
+    sectionDescription: 'Lærere og forældre stiller almindelige spørgsmål før tilmelding. Denne sektion besvarer de mest hyppige spørgsmål. Forstå præcist hvad Fuld Adgang inkluderer. Lær hvordan billedsortering arbejdsark fungerer. Få afklaring om kommerciel brug og printrettigheder.',
     showMoreText: 'Vis flere spørgsmål',
     showLessText: 'Vis færre',
     badgeText: 'FAQ',
@@ -410,7 +410,7 @@ Mange danske lærere tjener 500-5000 kr. månedligt. Nogle tjener meget mere. Ko
       {
         id: '1',
         question: 'Er Denne Billedsortering Generator Virkelig Gratis at Bruge for Gratis Skoleopgaver?',
-        answer: 'Billedsorteringsgeneratoren kræver et Full Access abonnement der koster 1800 kr. årligt eller 200 kr. månedligt. Dit abonnement giver dig ubegrænset oprettelse af opgaver til print uden per-opgave gebyrer. Generer så mange gratis skoleopgaver arbejdsark som du har brug for uden ekstra omkostninger. Core Bundle inkluderer 10 populære opgavegeneratorer og koster 1080 kr. årligt. Full Access abonnement koster 1800 kr. årligt og inkluderer alle 33 generatortyper inklusive billedsortering. Begge abonnementer inkluderer kommerciel licensering, 11 sprog support og professionel 300 DPI kvalitetseksport.',
+        answer: 'Billedsorteringsgeneratoren kræver et Fuld Adgang abonnement der koster 1800 kr. årligt eller 200 kr. månedligt. Dit abonnement giver dig ubegrænset oprettelse af opgaver til print uden per-opgave gebyrer. Generer så mange gratis skoleopgaver arbejdsark som du har brug for uden ekstra omkostninger. Kernepakke inkluderer 10 populære opgavegeneratorer og koster 1080 kr. årligt. Fuld Adgang abonnement koster 1800 kr. årligt og inkluderer alle 33 generatortyper inklusive billedsortering. Begge abonnementer inkluderer kommerciel licensering, 11 sprog support og professionel 300 DPI kvalitetseksport.',
       },
       {
         id: '2',
@@ -425,7 +425,7 @@ Mange danske lærere tjener 500-5000 kr. månedligt. Nogle tjener meget mere. Ko
       {
         id: '4',
         question: 'Kan Jeg Bruge Billedsortering Opgaver til Print i Mit Klasseværelse til Børnehaveklasse, 0. Klasse og 1. Klasse Elever?',
-        answer: 'Full Access abonnement inkluderer ubegrænset klasseværelsesbrug. Print så mange kopier som din børnehaveklasse, 0. klasse eller 1. klasse har brug for. Ingen per-elev gebyrer eller downloadbegrænsninger. Brug opgaver til print i fysiske og virtuelle klasseværelser. Del opgaver digitalt til fjernundervisning. Upload til Google Classroom eller lignende platforme. Email til forældre til hjemmeøvelse. Ubegrænset distribution til dine elever. Full Access dækker alle klasseværelsesanvendelser. Opret differentierede opgaver til print for forskellige evneniveauer. Samme billedsorteringsaktivitet tilpasset begyndere og avancerede. Specialpædagogisk brug fuldt inkluderet. Modificer sværhedsgrad efter individuelle behov. Samarbejde med teamkollegaer er tilladt inden for samme skole.',
+        answer: 'Fuld Adgang abonnement inkluderer ubegrænset klasseværelsesbrug. Print så mange kopier som din børnehaveklasse, 0. klasse eller 1. klasse har brug for. Ingen per-elev gebyrer eller downloadbegrænsninger. Brug opgaver til print i fysiske og virtuelle klasseværelser. Del opgaver digitalt til fjernundervisning. Upload til Google Classroom eller lignende platforme. Email til forældre til hjemmeøvelse. Ubegrænset distribution til dine elever. Fuld Adgang dækker alle klasseværelsesanvendelser. Opret differentierede opgaver til print for forskellige evneniveauer. Samme billedsorteringsaktivitet tilpasset begyndere og avancerede. Specialpædagogisk brug fuldt inkluderet. Modificer sværhedsgrad efter individuelle behov. Samarbejde med teamkollegaer er tilladt inden for samme skole.',
       },
       {
         id: '5',
@@ -435,7 +435,7 @@ Mange danske lærere tjener 500-5000 kr. månedligt. Nogle tjener meget mere. Ko
       {
         id: '6',
         question: 'Kan Jeg Sælge Billedsortering Arbejdsark, Malebog Sider og Finmotorik Øvelser Jeg Opretter?',
-        answer: 'Ja. Full Access abonnement inkluderer fuld kommerciel print-on-demand licens uden ekstra omkostninger. Sælg dine billedsortering arbejdsark på Teachers Pay Teachers. Opret Etsy butik med printbare malebog sider. Udgiv lavindholdsarbejdsbøger med finmotorik øvelser på Amazon KDP. Ingen tilskrivning påkrævet på kommercielle produkter. Dit brand vises fremtrædende. Sælg ubegrænset antal eksemplarer. Ingen royalty betalinger ud over abonnementsgebyret. Fuld kommerciel ret til alt du opretter. Kombiner billedsortering med matematikopgaver for tematiske pakker. Par med gangetabeller for matematik samlinger. Inkluder læse og skrive aktiviteter i literacy bundles. Diversificerede produktlinjer maksimerer indtægtspotentiale. Kommerciel licens dækker alle kombinationer.',
+        answer: 'Ja. Fuld Adgang abonnement inkluderer fuld kommerciel print-on-demand licens uden ekstra omkostninger. Sælg dine billedsortering arbejdsark på Teachers Pay Teachers. Opret Etsy butik med printbare malebog sider. Udgiv lavindholdsarbejdsbøger med finmotorik øvelser på Amazon KDP. Ingen tilskrivning påkrævet på kommercielle produkter. Dit brand vises fremtrædende. Sælg ubegrænset antal eksemplarer. Ingen royalty betalinger ud over abonnementsgebyret. Fuld kommerciel ret til alt du opretter. Kombiner billedsortering med matematikopgaver for tematiske pakker. Par med gangetabeller for matematik samlinger. Inkluder læse og skrive aktiviteter i literacy bundles. Diversificerede produktlinjer maksimerer indtægtspotentiale. Kommerciel licens dækker alle kombinationer.',
       },
       {
         id: '7',
@@ -450,7 +450,7 @@ Mange danske lærere tjener 500-5000 kr. månedligt. Nogle tjener meget mere. Ko
       {
         id: '9',
         question: 'Kan Jeg Uploade Mine Egne Billeder til Læse og Skrive og Lære Bogstaver Arbejdsark?',
-        answer: 'Ja. Multi-fil upload understøtter JPEG, PNG og GIF formater. Klik Vælg Filer knappen og vælg flere billeder. Uploadede fotos vises øjeblikkeligt. Kombiner med biblioteksbilleder frit. Brug elevfotos til personlige læse og skrive aktiviteter. Sortér klassemedlemmer efter navnebogstaver. Alfabetsortering med velkendte ansigter. Lære bogstaver gennem personlig forbindelse. Engagement øges dramatisk. Upload billeder af klasseværelsesmaterialer. Sortér reelle objekter børn kender. Bøger versus legetøj fra eget rum. Mad fra cafeteriet sorteret. Relevans maksimerer læring. Ingen filstørrelsesbegrænsninger på normale fotos. Uploadede billeder forbliver tilgængelige under session. Brug på tværs af flere opgaver til print. Intet ekstra gebyr for upload eller lagring. Full Access inkluderer ubegrænset brugerdefineret billedbrug.',
+        answer: 'Ja. Multi-fil upload understøtter JPEG, PNG og GIF formater. Klik Vælg Filer knappen og vælg flere billeder. Uploadede fotos vises øjeblikkeligt. Kombiner med biblioteksbilleder frit. Brug elevfotos til personlige læse og skrive aktiviteter. Sortér klassemedlemmer efter navnebogstaver. Alfabetsortering med velkendte ansigter. Lære bogstaver gennem personlig forbindelse. Engagement øges dramatisk. Upload billeder af klasseværelsesmaterialer. Sortér reelle objekter børn kender. Bøger versus legetøj fra eget rum. Mad fra cafeteriet sorteret. Relevans maksimerer læring. Ingen filstørrelsesbegrænsninger på normale fotos. Uploadede billeder forbliver tilgængelige under session. Brug på tværs af flere opgaver til print. Intet ekstra gebyr for upload eller lagring. Fuld Adgang inkluderer ubegrænset brugerdefineret billedbrug.',
       },
       {
         id: '10',
@@ -472,7 +472,7 @@ Mange danske lærere tjener 500-5000 kr. månedligt. Nogle tjener meget mere. Ko
 
   // Pricing
   pricing: {
-    title: 'Full Access',
+    title: 'Fuld Adgang',
     price: 'kr. 1.800',
     priceInterval: '/år',
     priceSuffix: 'Faktureres årligt',
@@ -492,7 +492,7 @@ Mange danske lærere tjener 500-5000 kr. månedligt. Nogle tjener meget mere. Ko
   // Related Apps
   relatedApps: {
     sectionTitle: 'Kombiner med Andre Arbejdsark Generatorer',
-    sectionDescription: 'Opret komplette læringspakker ved at kombinere billedsortering med disse komplementære generatorer. Full Access abonnement giver dig adgang til 33 forskellige opgavegeneratorer. Kombiner billedsortering med andre værktøjer for omfattende undervisningspakker.',
+    sectionDescription: 'Opret komplette læringspakker ved at kombinere billedsortering med disse komplementære generatorer. Fuld Adgang abonnement giver dig adgang til 33 forskellige opgavegeneratorer. Kombiner billedsortering med andre værktøjer for omfattende undervisningspakker.',
     ctaTitle: 'Klar til at Lave Fantastiske Arbejdsark?',
     ctaDescription: 'Tilslut dig tusindvis af pædagoger der laver professionelle arbejdsark. Ubegrænset oprettelse, kommerciel licens inkluderet.',
     primaryCtaText: 'Start Gratis Prøve',
@@ -516,10 +516,10 @@ Mange danske lærere tjener 500-5000 kr. månedligt. Nogle tjener meget mere. Ko
       {
         id: '2',
         slug: 'matching',
-        name: 'Matching',
+        name: 'Sammensætning',
         category: 'Visuel Læring',
         icon: '🔗',
-        description: 'Styrk visuel læring ved at kombinere billedsortering med matchingøvelser for varieret læring.',
+        description: 'Styrk visuel læring ved at kombinere billedsortering med sammensætningsøvelser for varieret læring.',
       },
       {
         id: '3',

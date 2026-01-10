@@ -469,6 +469,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       it: 'caccia-tesoro-schede',
       pt: 'caca-ao-tesouro-fichas',
       nl: 'schattenjacht-werkbladen',
+      da: 'skattejagt-arbejdsark',
     },
   },
   {

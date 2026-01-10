@@ -318,6 +318,7 @@ import pictureSortDaContent from '@/content/product-pages/da/billedsortering-arb
 import prepositionsDaContent from '@/content/product-pages/da/praepositioner-arbejdsark';
 import shadowMatchDaContent from '@/content/product-pages/da/skygge-match-arbejdsark';
 import subtractionDaContent from '@/content/product-pages/da/subtraktion-arbejdsark';
+import treasureHuntDaContent from '@/content/product-pages/da/skattejagt-arbejdsark';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -1424,6 +1425,10 @@ export const contentRegistry: ContentRegistry = {
     'subtraktion-arbejdsark': subtractionDaContent,
     // Also keep old slug for backwards compatibility during transition
     'subtraction-worksheets': subtractionDaContent,
+    // Danish Treasure Hunt (Skattejagt) - uses Danish SEO slug
+    'skattejagt-arbejdsark': treasureHuntDaContent,
+    // Also keep old slug for backwards compatibility during transition
+    'treasure-hunt-worksheets': treasureHuntDaContent,
   },
 };
 

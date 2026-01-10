@@ -1512,6 +1512,12 @@ const nextConfig = {
         destination: '/da/apps/subtraktion-arbejdsark',
         permanent: true,
       },
+      // Danish: treasure-hunt-worksheets → skattejagt-arbejdsark
+      {
+        source: '/da/apps/treasure-hunt-worksheets',
+        destination: '/da/apps/skattejagt-arbejdsark',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

@@ -371,6 +371,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     it: 'caccia-tesoro-schede',
     pt: 'caca-ao-tesouro-fichas',
     nl: 'schattenjacht-werkbladen',
+    da: 'skattejagt-arbejdsark',
   },
   'word-guess': {
     en: 'word-guess-worksheets',

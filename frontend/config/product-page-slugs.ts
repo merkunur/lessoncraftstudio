@@ -154,6 +154,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       pt: 'ligar-fichas',
       nl: 'verbindings-werkbladen',
       da: 'matchning-arbejdsark',
+      no: 'kobling-arbeidsark',
     },
   },
   {

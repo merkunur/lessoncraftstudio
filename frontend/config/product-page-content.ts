@@ -330,6 +330,7 @@ import coloringNoContent from '@/content/product-pages/no/fargeleggingsbilder-ar
 import mathWorksheetsNoContent from '@/content/product-pages/no/matematikk-oppgaver-arbeidsark';
 import wordScrambleNoContent from '@/content/product-pages/no/bokstavoppgaver-arbeidsark';
 import findAndCountNoContent from '@/content/product-pages/no/finn-og-tell-arbeidsark';
+import matchingNoContent from '@/content/product-pages/no/kobling-arbeidsark';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -1478,6 +1479,10 @@ export const contentRegistry: ContentRegistry = {
     'finn-og-tell-arbeidsark': findAndCountNoContent,
     // Also keep old slug for backwards compatibility during transition
     'find-and-count-worksheets': findAndCountNoContent,
+    // Norwegian Matching (Kobling) - uses Norwegian SEO slug
+    'kobling-arbeidsark': matchingNoContent,
+    // Also keep old slug for backwards compatibility during transition
+    'matching-worksheets': matchingNoContent,
   },
 };
 

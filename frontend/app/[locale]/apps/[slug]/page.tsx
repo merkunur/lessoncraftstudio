@@ -8960,6 +8960,7 @@ export async function generateStaticParams() {
     'matematikk-oppgaver-arbeidsark', // Product page slug (Norwegian) - language-specific SEO slug for math-worksheet
     'bokstavoppgaver-arbeidsark', // Product page slug (Norwegian) - language-specific SEO slug for word-scramble
     'finn-og-tell-arbeidsark', // Product page slug (Norwegian) - language-specific SEO slug for find-and-count
+    'kobling-arbeidsark', // Product page slug (Norwegian) - language-specific SEO slug for matching
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

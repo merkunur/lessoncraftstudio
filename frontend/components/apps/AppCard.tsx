@@ -124,6 +124,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     pt: 'ligar-fichas',
     nl: 'verbindings-werkbladen',
     da: 'matchning-arbejdsark',
+    no: 'kobling-arbeidsark',
   },
   'drawing-lines': {
     en: 'drawing-lines-worksheets',

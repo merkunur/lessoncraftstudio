@@ -1554,6 +1554,12 @@ const nextConfig = {
         destination: '/no/apps/fargeleggingsbilder-arbeidsark',
         permanent: true,
       },
+      // Norwegian: math-worksheets → matematikk-oppgaver-arbeidsark
+      {
+        source: '/no/apps/math-worksheets',
+        destination: '/no/apps/matematikk-oppgaver-arbeidsark',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

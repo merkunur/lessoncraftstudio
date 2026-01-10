@@ -327,6 +327,7 @@ import wordSearchNoContent from '@/content/product-pages/no/ordsoek-arbeidsark';
 import additionNoContent from '@/content/product-pages/no/addisjon-arbeidsark';
 import alphabetTrainNoContent from '@/content/product-pages/no/alfabet-tog-arbeidsark';
 import coloringNoContent from '@/content/product-pages/no/fargeleggingsbilder-arbeidsark';
+import mathWorksheetsNoContent from '@/content/product-pages/no/matematikk-oppgaver-arbeidsark';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -1463,6 +1464,10 @@ export const contentRegistry: ContentRegistry = {
     'fargeleggingsbilder-arbeidsark': coloringNoContent,
     // Also keep old slug for backwards compatibility during transition
     'coloring-worksheets': coloringNoContent,
+    // Norwegian Math Worksheets - uses Norwegian SEO slug
+    'matematikk-oppgaver-arbeidsark': mathWorksheetsNoContent,
+    // Also keep old slug for backwards compatibility during transition
+    'math-worksheets': mathWorksheetsNoContent,
   },
 };
 

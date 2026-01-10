@@ -322,6 +322,9 @@ import treasureHuntDaContent from '@/content/product-pages/da/skattejagt-arbejds
 import wordGuessDaContent from '@/content/product-pages/da/gaet-ordet-arbejdsark';
 import writingDaContent from '@/content/product-pages/da/skriveopgaver-arbejdsark';
 
+// Norwegian content imports
+import wordSearchNoContent from '@/content/product-pages/no/ordsoek-arbeidsark';
+
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
   [locale: string]: {
@@ -1439,6 +1442,12 @@ export const contentRegistry: ContentRegistry = {
     'skriveopgaver-arbejdsark': writingDaContent,
     // Also keep old slug for backwards compatibility during transition
     'writing-worksheets': writingDaContent,
+  },
+  no: {
+    // Norwegian Word Search (Ordgåte/Ordsøk) - uses Norwegian SEO slug
+    'ordsoek-arbeidsark': wordSearchNoContent,
+    // Also keep old slug for backwards compatibility during transition
+    'word-search-worksheets': wordSearchNoContent,
   },
 };
 

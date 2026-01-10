@@ -1530,6 +1530,12 @@ const nextConfig = {
         destination: '/da/apps/skriveopgaver-arbejdsark',
         permanent: true,
       },
+      // Norwegian: word-search-worksheets → ordsoek-arbeidsark
+      {
+        source: '/no/apps/word-search-worksheets',
+        destination: '/no/apps/ordsoek-arbeidsark',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

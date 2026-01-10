@@ -497,6 +497,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       it: 'scrittura-schede',
       pt: 'caligrafia-fichas',
       nl: 'schrijfoefeningen-werkbladen',
+      da: 'skriveopgaver-arbejdsark',
     },
   },
 ];

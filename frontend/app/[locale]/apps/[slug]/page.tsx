@@ -8952,6 +8952,7 @@ export async function generateStaticParams() {
     'subtraktion-arbejdsark', // Product page slug (Danish) - language-specific SEO slug for subtraction
     'skattejagt-arbejdsark', // Product page slug (Danish) - language-specific SEO slug for treasure-hunt
     'gaet-ordet-arbejdsark', // Product page slug (Danish) - language-specific SEO slug for word-guess
+    'skriveopgaver-arbejdsark', // Product page slug (Danish) - language-specific SEO slug for writing
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

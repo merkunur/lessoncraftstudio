@@ -393,6 +393,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     it: 'scrittura-schede',
     pt: 'caligrafia-fichas',
     nl: 'schrijfoefeningen-werkbladen',
+    da: 'skriveopgaver-arbejdsark',
   },
 };
 

@@ -320,6 +320,7 @@ import shadowMatchDaContent from '@/content/product-pages/da/skygge-match-arbejd
 import subtractionDaContent from '@/content/product-pages/da/subtraktion-arbejdsark';
 import treasureHuntDaContent from '@/content/product-pages/da/skattejagt-arbejdsark';
 import wordGuessDaContent from '@/content/product-pages/da/gaet-ordet-arbejdsark';
+import writingDaContent from '@/content/product-pages/da/skriveopgaver-arbejdsark';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -1434,6 +1435,10 @@ export const contentRegistry: ContentRegistry = {
     'gaet-ordet-arbejdsark': wordGuessDaContent,
     // Also keep old slug for backwards compatibility during transition
     'word-guess-worksheets': wordGuessDaContent,
+    // Danish Writing (Skriveopgaver) - uses Danish SEO slug
+    'skriveopgaver-arbejdsark': writingDaContent,
+    // Also keep old slug for backwards compatibility during transition
+    'writing-worksheets': writingDaContent,
   },
 };
 

@@ -16,7 +16,7 @@ export const mathWorksheetDaContent: ProductPageContent = {
     slug: 'matematikopgaver-arbejdsark',
     appId: 'math-worksheet',
     title: 'Matematikopgaver Generator - Gratis Skoleopgaver til Print - Arbejdsark til 0. Klasse og 1. Klasse',
-    description: 'Lav professionelle matematikopgaver med vores matematikopgaver generator. Dit Core Bundle abonnement giver dig ubegrænset adgang til at lave opgaver til print uden ekstra gebyrer per opgave. Generer skræddersyede arbejdsark der er perfekte til børnehaveklassen, 0. klasse og 1. klasse.',
+    description: 'Lav professionelle matematikopgaver med vores matematikopgaver generator. Dit Kernepakke abonnement giver dig ubegrænset adgang til at lave opgaver til print uden ekstra gebyrer per opgave. Generer skræddersyede arbejdsark der er perfekte til børnehaveklassen, 0. klasse og 1. klasse.',
     keywords: 'matematikopgaver, gratis skoleopgaver, arbejdsark til print, 0. klasse opgaver, 1. klasse, børnehaveklassen, kopiark, finmotorik øvelser, gangetabeller, malebog, opgaver til print',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/matematikopgaver-arbejdsark',
   },
@@ -25,7 +25,7 @@ export const mathWorksheetDaContent: ProductPageContent = {
   hero: {
     title: 'Matematikopgaver Generator - Gratis Skoleopgaver',
     subtitle: 'Arbejdsark til Print til 0. Klasse og 1. Klasse',
-    description: `Lav professionelle matematikopgaver med vores matematikopgaver generator. Dit Core Bundle abonnement giver dig ubegrænset adgang til at lave opgaver til print uden ekstra gebyrer per opgave. Generer skræddersyede arbejdsark der er perfekte til børnehaveklassen, 0. klasse og 1. klasse. Download højkvalitets PDF matematikopgaver på under 3 minutter.
+    description: `Lav professionelle matematikopgaver med vores matematikopgaver generator. Dit Kernepakke abonnement giver dig ubegrænset adgang til at lave opgaver til print uden ekstra gebyrer per opgave. Generer skræddersyede arbejdsark der er perfekte til børnehaveklassen, 0. klasse og 1. klasse. Download højkvalitets PDF matematikopgaver på under 3 minutter.
 
 Matematikopgaver generatoren skaber visuelle matematikpuslespil hvor billeder repræsenterer tal. Børn løser opgaverne ved at finde ud af hvilket tal hvert billede repræsenterer. Vælg mellem addition eller addition og subtraktion. Juster sværhedsgraden fra meget let (2 symboler) til svær (4 symboler). Perfekt til indskoling.
 
@@ -83,7 +83,7 @@ Generer gratis skoleopgaver til print med temaer som børnene elsker. Over 3000 
   // Features Grid - FULL text from math-worksheet.md feature sections
   features: {
     sectionTitle: 'Matematikopgaver Generator Funktioner - Alt Du Har Brug For til Gratis Skoleopgaver og Arbejdsark',
-    sectionDescription: 'Matematikopgaver generatoren giver dig professionelle værktøjer til at lave opgaver til print. Dit Core Bundle abonnement inkluderer alle funktioner uden ekstra gebyrer. Lav matematikopgaver, kopiark og gratis skoleopgaver til børnehaveklassen, 0. klasse og 1. klasse. Kombiner med malebog aktiviteter og finmotorik øvelser for komplette læringspakker.',
+    sectionDescription: 'Matematikopgaver generatoren giver dig professionelle værktøjer til at lave opgaver til print. Dit Kernepakke abonnement inkluderer alle funktioner uden ekstra gebyrer. Lav matematikopgaver, kopiark og gratis skoleopgaver til børnehaveklassen, 0. klasse og 1. klasse. Kombiner med malebog aktiviteter og finmotorik øvelser for komplette læringspakker.',
     highlightBadgeText: 'Vigtig Funktion',
     readMoreLabel: 'Læs mere',
     showLessLabel: 'Vis mindre',
@@ -141,7 +141,7 @@ Kombiner uploads med over 3000 biblioteksbilleder. Bland egne fotos med professi
 
 Billednavne oversættes automatisk. Vælg dansk og se danske billednavne. Skift til engelsk for engelske navne. Perfekt til tosproget undervisning i børnehaveklassen og 0. klasse.
 
-Lav matematikopgaver til dansk som andetsprog elever. Brug billedbaserede opgaver til sprogindlæring. Matematiske begreber kombineret med ordforrådsopbygning. ESL lærere elsker de flersprogede muligheder.
+Lav matematikopgaver til dansk som andetsprog elever. Brug billedbaserede opgaver til sprogindlæring. Matematiske begreber kombineret med ordforrådsopbygning. DSA-lærere elsker de flersprogede muligheder.
 
 Internationale skoler får værdi fra alle 11 sprog. Lav opgaver til print på modersmålet. Skift mellem dansk og andre skandinaviske sprog. Norsk og svensk brugere finder hjemmevante grænseflader.`,
         highlighted: false,
@@ -150,7 +150,7 @@ Internationale skoler får værdi fra alle 11 sprog. Lav opgaver til print på m
         id: '5',
         icon: '💰',
         title: 'Kommerciel Licens til Matematikopgaver - Sælg Dine Arbejdsark og Kopiark',
-        description: `Core Bundle inkluderer kommerciel print-on-demand licens. Sælg dine matematikopgaver på Teachers Pay Teachers. Ingen ekstra licensgebyrer ud over dit $144 årlige abonnement.
+        description: `Kernepakke inkluderer kommerciel print-on-demand licens. Sælg dine matematikopgaver på Teachers Pay Teachers. Ingen ekstra licensgebyrer ud over dit $144 årlige abonnement.
 
 Lærerforretningsejere sælger opgaver til print som digitale downloads. List matematikopgaver på Etsy som printbare filer. Udgiv kopiark samlinger på Amazon KDP. Fuld kommerciel ret inkluderet.
 
@@ -158,7 +158,7 @@ Professionel 300 DPI kvalitet perfekt til salg. Købere får skarpe, klare print
 
 Dansk lærere tjener $500-$5000 om måneden på Teachers Pay Teachers. Matematikopgaver er blandt de bedst sælgende kategorier. Kombiner matematikopgaver med malebog sider og finmotorik øvelser. Sælg komplette opgave pakker til 0. klasse og 1. klasse.
 
-Tilskriv ikke påkrævet. Sælg under dit eget brand. Byg dit lærerforretningsimperium. Core Bundle abonnementet betaler sig selv med få salg.`,
+Tilskriv ikke påkrævet. Sælg under dit eget brand. Byg dit lærerforretningsimperium. Kernepakke abonnementet betaler sig selv med få salg.`,
         highlighted: true,
       },
       {
@@ -171,7 +171,7 @@ Vælg hele temaer med ét klik. Brug fuld tema funktion for hurtig generering. G
 
 Eller vælg individuelle billeder til præcis kontrol. Gennemse biblioteket efter specifikke symboler. Søg efter billednavn. Filter efter tema. Byg din personlige billedsamling til matematikopgaver.
 
-Alle baggrunde og rammer inkluderet. Intet ekstra gebyr for visuelle materialer. Konkurrenter opkræver $1-5 per clipart sæt. Du får alt med dit Core Bundle abonnement. Kombiner matematikopgaver med malebog baggrunde for ekstra værdi.
+Alle baggrunde og rammer inkluderet. Intet ekstra gebyr for visuelle materialer. Konkurrenter opkræver $1-5 per clipart sæt. Du får alt med dit Kernepakke abonnement. Kombiner matematikopgaver med malebog baggrunde for ekstra værdi.
 
 Biblioteket opdateres regelmæssigt. Nye temaer tilføjes løbende. Sæsonmæssige billeder til højtider. Hele året rundt indhold til dine gratis skoleopgaver og arbejdsark.`,
         highlighted: false,
@@ -195,7 +195,7 @@ Print hjemme på almindelig printer. Print på skolen på kopimaskine. Eller sen
   // How-To Guide - FULL text from math-worksheet.md step sections
   howTo: {
     sectionTitle: 'Sådan Laver Du Matematikopgaver i 5 Nemme Trin - Gratis Skoleopgaver og Opgaver til Print Klar på Minutter',
-    sectionDescription: 'Lav professionelle matematikopgaver på under 3 minutter. Ingen designerfærdigheder påkrævet. Følg disse 5 nemme trin for at lave arbejdsark til børnehaveklassen, 0. klasse og 1. klasse. Dit Core Bundle abonnement giver dig ubegrænset adgang til at generere opgaver til print.',
+    sectionDescription: 'Lav professionelle matematikopgaver på under 3 minutter. Ingen designerfærdigheder påkrævet. Følg disse 5 nemme trin for at lave arbejdsark til børnehaveklassen, 0. klasse og 1. klasse. Dit Kernepakke abonnement giver dig ubegrænset adgang til at generere opgaver til print.',
     ctaText: 'Start Nu',
     badgeText: 'Sådan Virker Det',
     stepLabel: 'Trin',
@@ -280,7 +280,7 @@ PDF format til bedste kvalitet. PDF bevarer skarphed perfekt. Professionel 300 D
 
 Gråtone mulighed sparer blæk. Aktiver Gråtone checkboksen før download. Farve matematikopgaver konverteres til sort-hvid. Samme høje kvalitet. Skolebudgetter elsker blækbesparelsen på kopiark.
 
-Print arbejdsark øjeblikkeligt. Åbn downloadet fil. Tryk Ctrl+P eller Cmd+P. Vælg din printer. Print så mange eksemplarer du behøver. Ingen per-ark gebyrer med Core Bundle. Lav ubegrænset matematikopgaver, gratis skoleopgaver og arbejdsark til børnehaveklassen, 0. klasse og 1. klasse.`,
+Print arbejdsark øjeblikkeligt. Åbn downloadet fil. Tryk Ctrl+P eller Cmd+P. Vælg din printer. Print så mange eksemplarer du behøver. Ingen per-ark gebyrer med Kernepakke. Lav ubegrænset matematikopgaver, gratis skoleopgaver og arbejdsark til børnehaveklassen, 0. klasse og 1. klasse.`,
         icon: '📥',
       },
     ],
@@ -289,7 +289,7 @@ Print arbejdsark øjeblikkeligt. Åbn downloadet fil. Tryk Ctrl+P eller Cmd+P. V
   // Use Cases - FULL text from math-worksheet.md use case sections
   useCases: {
     sectionTitle: 'Perfekt til Lærere og Forældre - Matematikopgaver og Gratis Skoleopgaver til Alle Behov',
-    sectionDescription: 'Matematikopgaver generatoren tjener forskellige brugertyper. Pædagoger i børnehaveklassen bruger den til tidlig talforståelse. Lærere i 0. klasse og 1. klasse bruger den til daglig matematiktræning. Hjemmeundervisere laver personlige opgaver til print. Alle får værdi fra Core Bundle abonnementet.',
+    sectionDescription: 'Matematikopgaver generatoren tjener forskellige brugertyper. Pædagoger i børnehaveklassen bruger den til tidlig talforståelse. Lærere i 0. klasse og 1. klasse bruger den til daglig matematiktræning. Hjemmeundervisere laver personlige opgaver til print. Alle får værdi fra Kernepakke abonnementet.',
     badgeText: 'Hvem Er Det Til',
     readMoreLabel: 'Læs mere',
     showLessLabel: 'Vis mindre',
@@ -323,7 +323,7 @@ Brug til differentiering i 1. klasse. Lave børn får addition 1-10. Mellem bør
 
 Kombiner matematikopgaver med andre arbejdsark typer. Lav komplette ugentlige pakker. Matematik, lære bogstaver, skriv bogstaver øvelser og læse og skrive aktiviteter. Stavning opgaver og gangetabeller for ældre børn i 1. klasse. 33 apps betyder ubegrænsede kombinationer.
 
-Lav ekstra øvelse til kæmpende børn. Samme matematikopgaver koncept, nemmere tal. Generer ubegrænset med Core Bundle. Ingen ekstra omkostninger for differentieringsmateriale. Gratis skoleopgaver så meget du behøver.`,
+Lav ekstra øvelse til kæmpende børn. Samme matematikopgaver koncept, nemmere tal. Generer ubegrænset med Kernepakke. Ingen ekstra omkostninger for differentieringsmateriale. Gratis skoleopgaver så meget du behøver.`,
         quote: 'Differentiering er blevet så meget nemmere med denne generator.',
       },
       {
@@ -339,7 +339,7 @@ Kombiner med hjemmeundervisningens favoritaktiviteter. Matematikopgaver om gård
 
 Lav sæsonmæssige læringspakker. Efterårs matematikopgaver med blade og græskar. Vinter opgaver med snemænd. Kombiner med malebog sider i samme tema. Finmotorik øvelser med sæsonmotiver. Komplette ugentlige emner.
 
-Core Bundle kommerciel licens giver ekstra muligheder. Sælg dine unikke hjemmeundervisnings matematikopgaver. Andre hjemmeundervisere køber tematiske pakker. Supplerér familiens indkomst mens du laver dit eget materiale.`,
+Kernepakke kommerciel licens giver ekstra muligheder. Sælg dine unikke hjemmeundervisnings matematikopgaver. Andre hjemmeundervisere køber tematiske pakker. Supplerér familiens indkomst mens du laver dit eget materiale.`,
         quote: 'Et værktøj dækker alle mine børns klassetrin.',
       },
       {
@@ -347,7 +347,7 @@ Core Bundle kommerciel licens giver ekstra muligheder. Sælg dine unikke hjemmeu
         icon: '🌍',
         title: 'Tosproget Undervisning - Matematikopgaver og Finmotorik Øvelser på 11 Sprog til Sprogindlæring',
         subtitle: 'Matematikopgaver og Finmotorik Øvelser på 11 Sprog til Sprogindlæring',
-        description: `ESL lærere bruger matematikopgaver til sprogudvikling. Billedbaserede opgaver underviser ordforråd mens børn lærer matematik. Skift sprog i grænsefladen. Se billednavne på dansk, engelsk, tysk eller 8 andre sprog.
+        description: `DSA-lærere bruger matematikopgaver til sprogudvikling. Billedbaserede opgaver underviser ordforråd mens børn lærer matematik. Skift sprog i grænsefladen. Se billednavne på dansk, engelsk, tysk eller 8 andre sprog.
 
 Dansk som andetsprog klasser får dobbelt værdi. Matematiske koncepter og danske ord læres samtidig. Børn ser "hund", "kat", "bil" mens de løser matematikopgaver. Billedkontekst hjælper med ordhukommelse.
 
@@ -379,7 +379,7 @@ Lav sociale historier med matematikopgaver. Upload billeder af barnets skoleruti
         icon: '💰',
         title: 'Lærerforretningsejere - Sælg Matematikopgaver som Arbejdsark og Kopiark på TPT',
         subtitle: 'Sælg Matematikopgaver som Arbejdsark og Kopiark på TPT',
-        description: `Lærerforretningsejere tjener indkomst med matematikopgaver. Core Bundle kommerciel licens inkluderet i $144 årlige abonnement. Sælg på Teachers Pay Teachers, Etsy og Amazon KDP. Fuld print-on-demand ret.
+        description: `Lærerforretningsejere tjener indkomst med matematikopgaver. Kernepakke kommerciel licens inkluderet i $144 årlige abonnement. Sælg på Teachers Pay Teachers, Etsy og Amazon KDP. Fuld print-on-demand ret.
 
 Lav tematiske matematikopgaver pakker. Efterårs pakke med 20 forskellige matematikopgaver. Vinter samling med snemænd og juletræer. Tema pakker sælger bedre end enkelte ark. Prissæt $3-8 per pakke.
 
@@ -408,7 +408,7 @@ Professionel 300 DPI kvalitet giver gode anmeldelser. Købere roser klare prints
       {
         id: '1',
         question: 'Er Denne Matematikopgaver Generator Virkelig Gratis at Bruge?',
-        answer: 'Matematikopgaver generatoren kræver Core Bundle abonnement til $144 årligt eller $15 månedligt. Dit abonnement giver ubegrænset matematikopgaver skabelse uden ekstra gebyrer per opgave. Generer så mange gratis skoleopgaver som du behøver uden yderligere omkostninger. Core Bundle inkluderer 10 populære opgave generatorer. Full Access abonnement koster $240 årligt og inkluderer alle 33 opgave generator typer. Begge abonnementer inkluderer kommerciel licensering, 11 sprog support og professionel 300 DPI kvalitets eksport. Ubegrænset skabelse betyder ingen per-ark gebyrer. Konkurrenter som Canva opkræver per design. Adobe opkræver per eksport. LessonCraft Studio giver ubegrænset opgaver til print for én fast pris. Generer 10 matematikopgaver eller 1000 matematikopgaver. Samme pris.',
+        answer: 'Matematikopgaver generatoren kræver Kernepakke abonnement til $144 årligt eller $15 månedligt. Dit abonnement giver ubegrænset matematikopgaver skabelse uden ekstra gebyrer per opgave. Generer så mange gratis skoleopgaver som du behøver uden yderligere omkostninger. Kernepakke inkluderer 10 populære opgave generatorer. Fuld Adgang abonnement koster $240 årligt og inkluderer alle 33 opgave generator typer. Begge abonnementer inkluderer kommerciel licensering, 11 sprog support og professionel 300 DPI kvalitets eksport. Ubegrænset skabelse betyder ingen per-ark gebyrer. Konkurrenter som Canva opkræver per design. Adobe opkræver per eksport. LessonCraft Studio giver ubegrænset opgaver til print for én fast pris. Generer 10 matematikopgaver eller 1000 matematikopgaver. Samme pris.',
       },
       {
         id: '2',
@@ -438,7 +438,7 @@ Professionel 300 DPI kvalitet giver gode anmeldelser. Købere roser klare prints
       {
         id: '7',
         question: 'Kan Jeg Printe Matematikopgaver og Opgaver til Print Hjemme?',
-        answer: 'Ja. Alle matematikopgaver downloader som højkvalitets filer. 300 DPI professionel opløsning. Print på enhver hjemme printer. Almindelige inkjet eller laser printere virker perfekt. Opgaver til print ser skarpe og klare ud. Vælg JPEG eller PDF format. JPEG til hurtig print. PDF til bedste kvalitets bevaring. Begge formater bevarer 300 DPI opløsning. Gråtone mulighed reducerer blækforbrug betydeligt. Parfekt til masseproduktion af gratis skoleopgaver. Skoleprintere og kopimaskiner også understøttet. Upload PDF til netværksprinter. Print 30 eksemplarer til hele klassen. Professionel kvalitet holder til kommerciel kopiering. Ingen kvalitetstab ved gentagelse. Print så mange som du vil. Ingen per-ark begrænsninger med Core Bundle. Print 5 eksemplarer eller 500 eksemplarer. Samme abonnement pris.',
+        answer: 'Ja. Alle matematikopgaver downloader som højkvalitets filer. 300 DPI professionel opløsning. Print på enhver hjemme printer. Almindelige inkjet eller laser printere virker perfekt. Opgaver til print ser skarpe og klare ud. Vælg JPEG eller PDF format. JPEG til hurtig print. PDF til bedste kvalitets bevaring. Begge formater bevarer 300 DPI opløsning. Gråtone mulighed reducerer blækforbrug betydeligt. Parfekt til masseproduktion af gratis skoleopgaver. Skoleprintere og kopimaskiner også understøttet. Upload PDF til netværksprinter. Print 30 eksemplarer til hele klassen. Professionel kvalitet holder til kommerciel kopiering. Ingen kvalitetstab ved gentagelse. Print så mange som du vil. Ingen per-ark begrænsninger med Kernepakke. Print 5 eksemplarer eller 500 eksemplarer. Samme abonnement pris.',
       },
       {
         id: '8',
@@ -458,19 +458,19 @@ Professionel 300 DPI kvalitet giver gode anmeldelser. Købere roser klare prints
       {
         id: '11',
         question: 'Kan Jeg Bruge Matematikopgaver i Min Børnehaveklasse, 0. Klasse eller 1. Klasse?',
-        answer: 'Ja. Core Bundle abonnement inkluderer ubegrænset klasseværelse brug. Lav matematikopgaver for din børnehaveklasse. Print til hele 0. klasse. Generer differentieringsmateriale til 1. klasse. Ingen begrænsninger på antal elever eller klasser. Skolelicenser ikke påkrævet. Ét lærerabonnement dækker alle dine klasser. Undervis 20 børn eller 200 børn. Samme abonnement. Del ikke din konto med kollegaer, men brug frit i dine egne klasser. Kombiner med alle platformens apps. Lav matematikopgaver til matematik tid. Generer malebog til kunst. Skab finmotorik øvelser til motorikstationer. Lære bogstaver og skriv bogstaver til literacy center. Læse og skrive aktiviteter til dansktime. Stavning opgaver til ordforråd. Gangetabeller til numeriske færdigheder. 33 apps dækker hele din børnehaveklasse, 0. klasse eller 1. klasse program.',
+        answer: 'Ja. Kernepakke abonnement inkluderer ubegrænset klasseværelse brug. Lav matematikopgaver for din børnehaveklasse. Print til hele 0. klasse. Generer differentieringsmateriale til 1. klasse. Ingen begrænsninger på antal elever eller klasser. Skolelicenser ikke påkrævet. Ét lærerabonnement dækker alle dine klasser. Undervis 20 børn eller 200 børn. Samme abonnement. Del ikke din konto med kollegaer, men brug frit i dine egne klasser. Kombiner med alle platformens apps. Lav matematikopgaver til matematik tid. Generer malebog til kunst. Skab finmotorik øvelser til motorikstationer. Lære bogstaver og skriv bogstaver til literacy center. Læse og skrive aktiviteter til dansktime. Stavning opgaver til ordforråd. Gangetabeller til numeriske færdigheder. 33 apps dækker hele din børnehaveklasse, 0. klasse eller 1. klasse program.',
       },
       {
         id: '12',
         question: 'Kan Jeg Sælge Matematikopgaver Jeg Laver med Denne Generator?',
-        answer: 'Ja. Core Bundle inkluderer fuld kommerciel print-on-demand licens. Sælg dine matematikopgaver på Teachers Pay Teachers. List opgaver til print på Etsy. Udgiv arbejdsark samlinger på Amazon KDP. Ingen ekstra licensgebyrer ud over dit $144 årlige abonnement. Konkurrenter opkræver $100-200 årligt ekstra for kommercielle rettigheder. LessonCraft Studio inkluderer dem i standardabonnement. Enorm besparelse for lærerforretningsejere. Start dit printables forretning uden store startomkostninger. Kombiner matematikopgaver med andre gratis skoleopgaver fra platformen. Lav tematiske pakker med matematikopgaver, gangetabeller, malebog sider, finmotorik øvelser, lære bogstaver ark, skriv bogstaver opgaver, læse og skrive aktiviteter og stavning opgaver. Stor værdi pakker sælger for $8-15. Købere elsker omfattende ressourcer. Attribution ikke påkrævet. Sælg under dit eget brand. Byg dit lærerforretningsimperium. Danske lærere sælger på skandinaviske markeder med mindre konkurrence end engelsk marked. Opgaver til print på dansk har stærk efterspørgsel og mindre udbud.',
+        answer: 'Ja. Kernepakke inkluderer fuld kommerciel print-on-demand licens. Sælg dine matematikopgaver på Teachers Pay Teachers. List opgaver til print på Etsy. Udgiv arbejdsark samlinger på Amazon KDP. Ingen ekstra licensgebyrer ud over dit $144 årlige abonnement. Konkurrenter opkræver $100-200 årligt ekstra for kommercielle rettigheder. LessonCraft Studio inkluderer dem i standardabonnement. Enorm besparelse for lærerforretningsejere. Start dit printables forretning uden store startomkostninger. Kombiner matematikopgaver med andre gratis skoleopgaver fra platformen. Lav tematiske pakker med matematikopgaver, gangetabeller, malebog sider, finmotorik øvelser, lære bogstaver ark, skriv bogstaver opgaver, læse og skrive aktiviteter og stavning opgaver. Stor værdi pakker sælger for $8-15. Købere elsker omfattende ressourcer. Attribution ikke påkrævet. Sælg under dit eget brand. Byg dit lærerforretningsimperium. Danske lærere sælger på skandinaviske markeder med mindre konkurrence end engelsk marked. Opgaver til print på dansk har stærk efterspørgsel og mindre udbud.',
       },
     ],
   },
 
   // Pricing
   pricing: {
-    title: 'Core Bundle',
+    title: 'Kernepakke',
     price: 'kr. 1.075',
     priceInterval: '/år',
     priceSuffix: 'Faktureres årligt',

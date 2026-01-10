@@ -108,6 +108,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     it: 'trova-e-conta-schede',
     pt: 'encontre-conte-fichas',
     nl: 'zoek-en-tel-werkbladen',
+    da: 'find-og-tael-arbejdsark',
   },
   'matching-app': {
     en: 'matching-worksheets',

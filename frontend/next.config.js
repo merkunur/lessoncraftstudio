@@ -1368,6 +1368,12 @@ const nextConfig = {
         destination: '/da/apps/bogstavblanding-arbejdsark',
         permanent: true,
       },
+      // Danish: find-and-count-worksheets → find-og-tael-arbejdsark
+      {
+        source: '/da/apps/find-and-count-worksheets',
+        destination: '/da/apps/find-og-tael-arbejdsark',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

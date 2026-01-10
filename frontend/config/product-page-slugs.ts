@@ -137,6 +137,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       it: 'trova-e-conta-schede',
       pt: 'encontre-conte-fichas',
       nl: 'zoek-en-tel-werkbladen',
+      da: 'find-og-tael-arbejdsark',
     },
   },
   {

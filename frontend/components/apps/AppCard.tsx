@@ -112,6 +112,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     pt: 'encontre-conte-fichas',
     nl: 'zoek-en-tel-werkbladen',
     da: 'find-og-tael-arbejdsark',
+    no: 'finn-og-tell-arbeidsark',
   },
   'matching-app': {
     en: 'matching-worksheets',

@@ -8958,6 +8958,8 @@ export async function generateStaticParams() {
     'alfabet-tog-arbeidsark', // Product page slug (Norwegian) - language-specific SEO slug for alphabet-train
     'fargeleggingsbilder-arbeidsark', // Product page slug (Norwegian) - language-specific SEO slug for coloring
     'matematikk-oppgaver-arbeidsark', // Product page slug (Norwegian) - language-specific SEO slug for math-worksheet
+    'bokstavoppgaver-arbeidsark', // Product page slug (Norwegian) - language-specific SEO slug for word-scramble
+    'finn-og-tell-arbeidsark', // Product page slug (Norwegian) - language-specific SEO slug for find-and-count
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

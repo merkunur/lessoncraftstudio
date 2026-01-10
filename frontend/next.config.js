@@ -1566,6 +1566,12 @@ const nextConfig = {
         destination: '/no/apps/bokstavoppgaver-arbeidsark',
         permanent: true,
       },
+      // Norwegian: find-and-count-worksheets → finn-og-tell-arbeidsark
+      {
+        source: '/no/apps/find-and-count-worksheets',
+        destination: '/no/apps/finn-og-tell-arbeidsark',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

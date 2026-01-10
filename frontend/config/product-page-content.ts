@@ -329,6 +329,7 @@ import alphabetTrainNoContent from '@/content/product-pages/no/alfabet-tog-arbei
 import coloringNoContent from '@/content/product-pages/no/fargeleggingsbilder-arbeidsark';
 import mathWorksheetsNoContent from '@/content/product-pages/no/matematikk-oppgaver-arbeidsark';
 import wordScrambleNoContent from '@/content/product-pages/no/bokstavoppgaver-arbeidsark';
+import findAndCountNoContent from '@/content/product-pages/no/finn-og-tell-arbeidsark';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -1473,6 +1474,10 @@ export const contentRegistry: ContentRegistry = {
     'bokstavoppgaver-arbeidsark': wordScrambleNoContent,
     // Also keep old slug for backwards compatibility during transition
     'word-scramble-worksheets': wordScrambleNoContent,
+    // Norwegian Find and Count (Finn og Tell) - uses Norwegian SEO slug
+    'finn-og-tell-arbeidsark': findAndCountNoContent,
+    // Also keep old slug for backwards compatibility during transition
+    'find-and-count-worksheets': findAndCountNoContent,
   },
 };
 

@@ -141,6 +141,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       pt: 'encontre-conte-fichas',
       nl: 'zoek-en-tel-werkbladen',
       da: 'find-og-tael-arbejdsark',
+      no: 'finn-og-tell-arbeidsark',
     },
   },
   {

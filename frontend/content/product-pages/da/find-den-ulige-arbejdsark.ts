@@ -405,69 +405,22 @@ Brug Pinterest til at drive trafik til produkter. Pin eksempler af opgaver med l
     ],
   },
 
-  // Top Reasons Section - FULL text from odd-one-out.md
-  topReasons: {
-    sectionTitle: 'Top 3 Grunde til at Pædagoger Abonnerer',
-    sectionDescription: 'Fuld Adgang abonnement koster $240 årligt eller $25 månedligt. Tusinder af danske pædagoger finder værdien compelling. Tre hovedgrunde driver abonnementsbeslutninger. Forstå hvorfor investeringen giver mening. Sammenlignet med konkurrerende platforme er Fuld Adgang overlegent. Én abonnement dækker alle 33 generatorer. Ingen skjulte gebyrer eller pay-per-worksheet modeller. Kommerciel licens inkluderet uden ekstra omkostning. Total årlig besparelse på $500-800 sammenlignet med alternative løsninger.',
-    badgeText: 'Hvorfor Abonnere',
-    readMoreLabel: 'Læs mere',
-    showLessLabel: 'Vis mindre',
-    items: [
-      {
-        id: '1',
-        icon: '🌍',
-        title: 'Undervisning på Flere Sprog',
-        description: `Danske skoler har stigende internationale elevgrupper. Tosprogede børn, flygtningebørn, expat familier. Alle har brug for modersmålsmaterialer parallelt med dansk undervisning. Fuld Adgang gør flersproget undervisning praktisk mulig.
-
-Skab matematikopgaver inklusiv gangetabeller på tyrkisk for tyrkiske elever. Samme opgaver på arabisk for arabisktalende. Polske, rumænske, somaliske børn får materialer på deres sprog. Modersmålsstøtte styrker både hjemmesprog og dansk tilegnelse.
-
-Engelskundervisere i indskolingen bruger generatoren til ordforrådsopbygning. Skab find den ulige opgaver hvor billednavne er på engelsk. Børn lærer "animals", "vehicles", "food" gennem visuel kontekst. Langt mere engagerende end traditionelle ordlister.
-
-Internationale skoler i København bruger samme abonnement til multiple sprog. Mandags matematik på dansk med gangetabeller. Tirsdags science på engelsk. Onsdags opgaver på fransk eller tysk. Ét værktøj understøtter helt curriculum på tværs af sprog.
-
-Tosprogede klasser hvor halvdelen taler arabisk får differentierede materialer. Dansk-talende børn får opgaver til print på dansk. Arabisk-talende får arabiske opgaver. Samme visuelle indhold men sprogligt tilgængeligt. Inklusiv undervisning uden ekstra forberedelse.
-
-Modersmålslærere der besøger flere skoler værdsætter mobilitet. Ét login fungerer på alle enheder. Skab polske opgaver hjemme søndag aften. Print på skole A mandag. Brug samme materiale på skole B onsdag. Effektiv ressourceudnyttelse på tværs af arbejdspladser.
-
-11-sprogs understøttelse betyder også fremtidssikring. Nye elever ankommer med uventede sprog. Ingen panik om at finde materialer. Generator har allerede 11 sprog klar. Adaptér øjeblikkeligt til nye klassesammensætninger.`,
-      },
-      {
-        id: '2',
-        icon: '💼',
-        title: 'Kommerciel Licens',
-        description: `Fuld Adgang kommercielle licens er ekstraordinær værdi. Konkurrenter opkræver $100-200 ekstra årligt for print-on-demand rettigheder. LessonCraft Studio inkluderer licens i $240 abonnement. Spar minimum $100 årligt sammenlignet med alternativer.
-
-Danske lærerentreprenører sælger opgaver internationalt på Teachers Pay Teachers. Amerikansk marked er enormt - millioner af lærere søger kvalitetsmaterialer dagligt. Find den ulige opgaver oversættes til engelsk og sælges. Månedlig indkomst på $500-3000 er realistisk.
-
-Skab produktpakker der kombinerer multiple opgavetyper. "Kindergarten Visual Discrimination Bundle" indeholder 50 find den ulige opgaver plus malebog aktiviteter. Sælges for $8-12 per pakke. 100 salg månedligt = $800-1200 indtjening. Abonnement betaler sig selv mange gange over.
-
-Etsy er anden stor platform for danske sælgere. "Printbare opgaver børnehave" søges af danske og norske købere. Skab lokaliserede produkter til skandinavisk marked. Mindre konkurrence end engelsk marked. Højere profit margins muligt.
-
-Kombinér find den ulige med finmotorik øvelser for unikke produkter. Efter at finde det ulige billede træner børn sporbare linjer. Multi-færdighedspakker sælger bedre end enkelt-opgave produkter. Differentiering øger markedsværdi betydeligt.
-
-Pinterest driver massiv trafik til produkter. Opret boards med "preschool worksheets", "kindergarten activities", "visual discrimination". Pin eksempler med link til salgsside. Organisk rækkevidde kan generere hundreder af daglige besøg. Konvertering på 2-5% er standard.
-
-300 DPI professionel kvalitet gør produkter konkurrencedygtige. Købere kan ikke se forskel fra store forlag. Men dit udviklingstid er timer ikke måneder. Skab hele produktlinje på weekender. Konkurrencemæssig fordel er enorm.`,
-      },
-      {
-        id: '3',
-        icon: '⏱️',
-        title: 'Tidsbesparelse og Produktivitet',
-        description: `Traditionel opgaveskabelse tager 30-60 minutter per opgave. Find layout, vælg billeder, design i Word eller PowerPoint. Frustrerende og tidskrævende. Generator reducerer proces til 3 minutter. 90% tidsbesparelse per opgave.
-
-Pædagoger i 0. klasse skal bruge 5-10 nye opgaver ugentligt. Traditionelt: 5 timer forberedelse per uge. Med generator: 30 minutter total. Frigjort tid bruges på elevinteraktion eller hvile. Arbejdsliv-balance forbedres dramatisk.
-
-Differentieringsbehov multiplicerer opgavemængder. Én klasse kan kræve 3 sværhedsgrader af samme tema. Traditionelt: design samme opgave 3 gange. Generator: skift indstillinger, klik generér 3 gange. Differentieringsbyrde forsvinder næsten.
-
-Specialpædagoger med 10-15 individuelle elever behøver unique tilpasninger. Traditionelt: umulig arbejdsbyrde. Generator: tilpas hurtigt til hver elevs niveau. Skab 15 forskellige versioner på 45 minutter. Individualisering bliver faktisk mulig.
-
-Vikarer og substitut-lærere får færdiglavede materialer. Stamklasselærer forbereder uges opgaver på søndag. Vikar printer og uddeler mandag. Undervisningskontinuitet bevares. Børn får kvalitetsmaterialer uanset hvem der underviser.
-
-SFO-pædagoger under ressourcepres bruger generator til hurtig aktivitetsforberedelse. 30 børn ankommer kl 15. Ingen forberedelse endnu. Brug 15 minutter til at skabe uges opgaver. Krise undgået gennem hurtig produktion.
-
-Lærere nær udbrændthed finder generator livreddende. Reduktion i forberedelsestid giver åndepusterum. Mental sundhed forbedres når arbejdsbyrde bliver håndterbar. Generator er investering i lærer-velvære ikke kun materiale-produktion.`,
-      },
+  // Pricing Section
+  pricing: {
+    title: 'Fuld Adgang',
+    price: 'kr. 1.725',
+    priceInterval: '/år',
+    priceSuffix: 'Faktureres årligt',
+    benefits: [
+      'Ubegrænset arbejdsark oprettelse',
+      'Kommerciel licens inkluderet',
+      '11 sprog understøttet',
+      '3000+ tematiske billeder',
+      '300 DPI printkvalitet',
+      'Facitark inkluderet',
     ],
+    ctaText: 'Start Nu',
+    guaranteeText: '30 dages pengene-tilbage-garanti',
   },
 
   // FAQ Section - FULL text from odd-one-out.md FAQ sections
@@ -579,15 +532,6 @@ Selvretning bliver mulig med svarnogler. Ældre børn i 1-2. klasse kan tjekke e
 Øvelsesstationer og centerlæring understøttes perfekt. Svarnogle placeres ved station. Børn arbejder selvstændigt og selv-retter. Maksimal autonomi med minimal voksensupervision.`,
       },
     ],
-  },
-
-  // CTA Section
-  cta: {
-    title: 'Skab Din Første Find Den Ulige Opgave',
-    description: 'Start med at skabe professionelle arbejdsark til din klasse i dag. Ingen designerfaring påkrævet.',
-    primaryButtonLabel: 'Kom I Gang Nu',
-    secondaryButtonLabel: 'Se Priser',
-    trustText: 'Ubegrænset opgaveskabelse med Fuld Adgang abonnement',
   },
 
   // Related Apps Section

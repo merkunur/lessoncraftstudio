@@ -466,6 +466,51 @@ const localizedFullDesc: Record<string, string> = {
   fi: "Pääsy kaikkiin 33 työarkki-generaattoriin"
 };
 
+/**
+ * Localized schema offer descriptions (for JSON-LD schema markup)
+ */
+const localizedSchemaFreeDesc: Record<string, string> = {
+  en: "Access to Word Search generator",
+  de: "Zugang zum Wortsuchrätsel-Generator",
+  fr: "Accès au générateur de mots cachés",
+  es: "Acceso al generador de sopa de letras",
+  pt: "Acesso ao gerador de caça-palavras",
+  it: "Accesso al generatore di ricerca parole",
+  nl: "Toegang tot de woordzoeker generator",
+  sv: "Tillgång till ordjakts-generatorn",
+  da: "Adgang til ordjakts-generatoren",
+  no: "Tilgang til ordjakts-generatoren",
+  fi: "Pääsy sanaristikko-generaattoriin"
+};
+
+const localizedSchemaCoreDesc: Record<string, string> = {
+  en: "Access to 10 core worksheet generators",
+  de: "Zugang zu 10 Basis-Arbeitsblatt-Generatoren",
+  fr: "Accès à 10 générateurs de fiches essentiels",
+  es: "Acceso a 10 generadores de fichas esenciales",
+  pt: "Acesso a 10 geradores de planilhas essenciais",
+  it: "Accesso a 10 generatori di schede essenziali",
+  nl: "Toegang tot 10 basis werkblad generatoren",
+  sv: "Tillgång till 10 grundläggande arbetsblads-generatorer",
+  da: "Adgang til 10 grundlæggende arbejdsark-generatorer",
+  no: "Tilgang til 10 grunnleggende arbeidsark-generatorer",
+  fi: "Pääsy 10 perus työarkki-generaattoriin"
+};
+
+const localizedSchemaFullDesc: Record<string, string> = {
+  en: "Access to all 33 worksheet generators",
+  de: "Zugang zu allen 33 Arbeitsblatt-Generatoren",
+  fr: "Accès aux 33 générateurs de fiches",
+  es: "Acceso a los 33 generadores de fichas",
+  pt: "Acesso a todos os 33 geradores de planilhas",
+  it: "Accesso a tutti i 33 generatori di schede",
+  nl: "Toegang tot alle 33 werkblad generatoren",
+  sv: "Tillgång till alla 33 arbetsblads-generatorer",
+  da: "Adgang til alle 33 arbejdsark-generatorer",
+  no: "Tilgang til alle 33 arbeidsark-generatorer",
+  fi: "Pääsy kaikkiin 33 työarkki-generaattoriin"
+};
+
 const localizedWorksheetGenerator: Record<string, string> = {
   en: "Worksheet Generator",
   de: "Arbeitsblatt-Generator",
@@ -515,7 +560,7 @@ export function generateAppProductSchemas(
           "name": localizedFreeTier[locale] || localizedFreeTier.en,
           "price": "0",
           "priceCurrency": "USD",
-          "description": "Access to Word Search generator"
+          "description": localizedSchemaFreeDesc[locale] || localizedSchemaFreeDesc.en
         },
         {
           "@type": "Offer",
@@ -528,7 +573,7 @@ export function generateAppProductSchemas(
             "priceCurrency": "USD",
             "billingDuration": "P1M"
           },
-          "description": "Access to 10 core worksheet generators"
+          "description": localizedSchemaCoreDesc[locale] || localizedSchemaCoreDesc.en
         },
         {
           "@type": "Offer",
@@ -541,7 +586,7 @@ export function generateAppProductSchemas(
             "priceCurrency": "USD",
             "billingDuration": "P1M"
           },
-          "description": "Access to all 33 worksheet generators"
+          "description": localizedSchemaFullDesc[locale] || localizedSchemaFullDesc.en
         }
       ]
     },

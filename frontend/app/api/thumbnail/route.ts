@@ -54,7 +54,14 @@ export async function GET(request: NextRequest) {
       headers.set('Cache-Control', 'public, max-age=86400, stale-while-revalidate=604800');
       headers.set('X-Cache', 'HIT');
 
-      return new Response(cached.data, { headers });
+      // Use ReadableStream for TypeScript compatibility
+      const stream = new ReadableStream({
+        start(controller) {
+          controller.enqueue(cached.data);
+          controller.close();
+        }
+      });
+      return new Response(stream, { headers });
     }
 
     // Resolve file path
@@ -109,7 +116,14 @@ export async function GET(request: NextRequest) {
     headers.set('X-Original-Size', imageBuffer.length.toString());
     headers.set('X-Thumbnail-Size', outputBuffer.length.toString());
 
-    return new Response(uint8Data, { headers });
+    // Use ReadableStream for TypeScript compatibility
+    const stream = new ReadableStream({
+      start(controller) {
+        controller.enqueue(uint8Data);
+        controller.close();
+      }
+    });
+    return new Response(stream, { headers });
 
   } catch (error) {
     console.error('Thumbnail generation error:', error);

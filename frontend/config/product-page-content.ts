@@ -312,6 +312,7 @@ import missingPiecesDaContent from '@/content/product-pages/da/manglende-brikker
 import moreLessDaContent from '@/content/product-pages/da/sammenligningsopgaver-arbejdsark';
 import oddOneOutDaContent from '@/content/product-pages/da/find-den-ulige-arbejdsark';
 import patternTrainDaContent from '@/content/product-pages/da/moenstertog-arbejdsark';
+import patternWorksheetDaContent from '@/content/product-pages/da/moenstre-arbejdsark';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -1394,6 +1395,10 @@ export const contentRegistry: ContentRegistry = {
     'moenstertog-arbejdsark': patternTrainDaContent,
     // Also keep old slug for backwards compatibility during transition
     'pattern-train-worksheets': patternTrainDaContent,
+    // Danish Pattern Worksheet (Mønster Opgaver) - uses Danish SEO slug
+    'moenstre-arbejdsark': patternWorksheetDaContent,
+    // Also keep old slug for backwards compatibility during transition
+    'pattern-worksheets': patternWorksheetDaContent,
   },
 };
 

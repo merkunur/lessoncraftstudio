@@ -385,6 +385,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       it: 'schede-pattern',
       pt: 'fichas-padroes-sequencias',
       nl: 'patronen-werkbladen',
+      da: 'moenstre-arbejdsark',
     },
   },
   {

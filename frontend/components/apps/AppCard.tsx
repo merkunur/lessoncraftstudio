@@ -305,6 +305,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     it: 'schede-pattern',
     pt: 'fichas-padroes-sequencias',
     nl: 'patronen-werkbladen',
+    da: 'moenstre-arbejdsark',
   },
   'picture-path': {
     en: 'picture-path-worksheets',

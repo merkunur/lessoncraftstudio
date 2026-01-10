@@ -189,6 +189,11 @@ JPEG format fungerer med alle enheder. Del nemt via email eller sociale medier. 
     readMoreLabel: 'Læs mere',
     showLessLabel: 'Vis mindre',
     stepLabel: 'Trin',
+    readyTime: 'Klar på under 3 minutter',
+    noSkillsNeeded: 'Intet designkendskab påkrævet',
+    ctaText: 'Start Nu',
+    completionTitle: 'Færdig!',
+    completionSubtitle: 'Dit arbejdsark er klar til download',
     steps: [
       {
         id: '1',
@@ -380,6 +385,12 @@ Kombiner sudoku med andre arbejdsark for bundne produkter. "Komplet Matematikpak
     badgeText: 'FAQ',
     readMoreLabel: 'Læs mere',
     showLessLabel: 'Vis mindre',
+    showMoreText: 'Vis flere spørgsmål',
+    ctaTitle: 'Klar til at Komme i Gang?',
+    ctaDescription: 'Prøv vores sudoku-generator gratis og oplev hvor nemt det er at lave professionelle arbejdsark.',
+    ctaText: 'Start Gratis Prøve',
+    secureCheckout: 'Sikker betaling',
+    cancelAnytime: 'Opsig når som helst',
     items: [
       {
         id: '1',

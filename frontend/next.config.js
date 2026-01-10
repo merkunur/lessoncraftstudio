@@ -1422,6 +1422,12 @@ const nextConfig = {
         destination: '/da/apps/tegn-og-farvelaeg-arbejdsark',
         permanent: true,
       },
+      // Danish: find-objects-worksheets → find-objekterne-arbejdsark
+      {
+        source: '/da/apps/find-objects-worksheets',
+        destination: '/da/apps/find-objekterne-arbejdsark',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

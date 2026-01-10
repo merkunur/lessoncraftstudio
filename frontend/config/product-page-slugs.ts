@@ -260,6 +260,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       it: 'trova-oggetti-schede',
       pt: 'encontrar-objetos-fichas',
       nl: 'zoek-voorwerpen-werkbladen',
+      da: 'find-objekterne-arbejdsark',
     },
   },
   {

@@ -32,10 +32,14 @@ export async function GET(request: Request) {
       const files = fs.readdirSync(themeDir);
       images = files
         .filter(file => /\.(png|jpe?g|gif|svg|webp)$/i.test(file))
-        .map(file => ({
-          name: path.basename(file, path.extname(file)).replace(/[-_]/g, ' '),
-          path: `/images/backgrounds/${theme}/${file}`
-        }));
+        .map(file => {
+          const imagePath = `/images/backgrounds/${theme}/${file}`;
+          return {
+            name: path.basename(file, path.extname(file)).replace(/[-_]/g, ' '),
+            path: imagePath,
+            thumbnail: `/api/thumbnail?path=${encodeURIComponent(imagePath)}&w=120&q=70`
+          };
+        });
     }
 
     return NextResponse.json(images, {

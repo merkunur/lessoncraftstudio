@@ -416,8 +416,8 @@ Lav niche-produkter der ikke findes i markedet. Temabaserede præpositionspakker
 
   // Pricing
   pricing: {
-    title: 'Kernepakke',
-    price: 'kr. 1.075',
+    title: 'Fuld Adgang',
+    price: 'kr. 1.650',
     priceInterval: '/år',
     priceSuffix: 'Faktureres årligt',
     benefits: [

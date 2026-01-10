@@ -43,7 +43,7 @@ export async function GET(request: NextRequest) {
     // Check memory cache first
     const cached = thumbnailCache.get(cacheKey);
     if (cached && Date.now() - cached.timestamp < CACHE_MAX_AGE) {
-      return new NextResponse(cached.buffer, {
+      return new Response(cached.buffer, {
         headers: {
           'Content-Type': cached.contentType,
           'Cache-Control': 'public, max-age=86400, stale-while-revalidate=604800',
@@ -101,7 +101,7 @@ export async function GET(request: NextRequest) {
     });
 
     // Return the resized image
-    return new NextResponse(uint8Array, {
+    return new Response(uint8Array, {
       headers: {
         'Content-Type': 'image/webp',
         'Cache-Control': 'public, max-age=86400, stale-while-revalidate=604800',

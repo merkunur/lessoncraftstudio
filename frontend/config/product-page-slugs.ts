@@ -427,6 +427,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       it: 'preposizioni-schede',
       pt: 'preposicoes-fichas',
       nl: 'voorzetsels-werkbladen',
+      da: 'praepositioner-arbejdsark',
     },
   },
   {

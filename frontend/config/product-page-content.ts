@@ -315,6 +315,7 @@ import patternTrainDaContent from '@/content/product-pages/da/moenstertog-arbejd
 import patternWorksheetDaContent from '@/content/product-pages/da/moenstre-arbejdsark';
 import picturePathDaContent from '@/content/product-pages/da/billedsti-arbejdsark';
 import pictureSortDaContent from '@/content/product-pages/da/billedsortering-arbejdsark';
+import prepositionsDaContent from '@/content/product-pages/da/praepositioner-arbejdsark';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -1409,6 +1410,10 @@ export const contentRegistry: ContentRegistry = {
     'billedsortering-arbejdsark': pictureSortDaContent,
     // Also keep old slug for backwards compatibility during transition
     'picture-sort-worksheets': pictureSortDaContent,
+    // Danish Prepositions (Præpositioner) - uses Danish SEO slug
+    'praepositioner-arbejdsark': prepositionsDaContent,
+    // Also keep old slug for backwards compatibility during transition
+    'prepositions-worksheets': prepositionsDaContent,
   },
 };
 

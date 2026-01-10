@@ -8947,6 +8947,7 @@ export async function generateStaticParams() {
     'moenstre-arbejdsark', // Product page slug (Danish) - language-specific SEO slug for pattern-worksheet
     'billedsti-arbejdsark', // Product page slug (Danish) - language-specific SEO slug for picture-path
     'billedsortering-arbejdsark', // Product page slug (Danish) - language-specific SEO slug for picture-sort
+    'praepositioner-arbejdsark', // Product page slug (Danish) - language-specific SEO slug for prepositions
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

@@ -8940,6 +8940,7 @@ export async function generateStaticParams() {
     'tegn-og-farvelaeg-arbejdsark', // Product page slug (Danish) - language-specific SEO slug for draw-and-color
     'find-objekterne-arbejdsark', // Product page slug (Danish) - language-specific SEO slug for find-objects
     'raster-puslespil-arbejdsark', // Product page slug (Danish) - language-specific SEO slug for grid-match
+    'krydsord-arbejdsark', // Product page slug (Danish) - language-specific SEO slug for crossword
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

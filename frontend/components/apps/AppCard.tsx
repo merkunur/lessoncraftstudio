@@ -228,6 +228,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     it: 'cruciverba-immagini-schede',
     pt: 'palavras-cruzadas-imagens-fichas',
     nl: 'kruiswoordpuzzel-werkbladen',
+    da: 'krydsord-arbejdsark',
   },
   'image-cryptogram': {
     en: 'cryptogram-worksheets',

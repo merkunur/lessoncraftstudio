@@ -305,6 +305,7 @@ import codeAdditionDaContent from '@/content/product-pages/da/kode-plusstykker-a
 import drawAndColorDaContent from '@/content/product-pages/da/tegn-og-farvelaeg-arbejdsark';
 import findObjectsDaContent from '@/content/product-pages/da/find-objekterne-arbejdsark';
 import gridMatchDaContent from '@/content/product-pages/da/raster-puslespil-arbejdsark';
+import crosswordDaContent from '@/content/product-pages/da/krydsord-arbejdsark';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -1359,6 +1360,10 @@ export const contentRegistry: ContentRegistry = {
     'raster-puslespil-arbejdsark': gridMatchDaContent,
     // Also keep old slug for backwards compatibility during transition
     'grid-match-worksheets': gridMatchDaContent,
+    // Danish Crossword (Krydsord) - uses Danish SEO slug
+    'krydsord-arbejdsark': crosswordDaContent,
+    // Also keep old slug for backwards compatibility during transition
+    'crossword-worksheets': crosswordDaContent,
   },
 };
 

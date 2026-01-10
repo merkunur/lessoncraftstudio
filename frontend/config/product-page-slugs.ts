@@ -190,6 +190,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       it: 'sudoku-bambini-schede',
       pt: 'sudoku-criancas-fichas',
       nl: 'sudoku-werkbladen',
+      da: 'sudoku-arbejdsark',
     },
   },
   {

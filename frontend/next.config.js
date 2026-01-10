@@ -1392,6 +1392,12 @@ const nextConfig = {
         destination: '/da/apps/bingo-arbejdsark',
         permanent: true,
       },
+      // Danish: sudoku-worksheets → sudoku-arbejdsark
+      {
+        source: '/da/apps/sudoku-worksheets',
+        destination: '/da/apps/sudoku-arbejdsark',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

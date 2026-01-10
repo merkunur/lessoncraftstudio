@@ -298,6 +298,7 @@ import findAndCountDaContent from '@/content/product-pages/da/find-og-tael-arbej
 import matchingDaContent from '@/content/product-pages/da/matchning-arbejdsark';
 import drawingLinesDaContent from '@/content/product-pages/da/linjetraening-arbejdsark';
 import bingoDaContent from '@/content/product-pages/da/bingo-arbejdsark';
+import sudokuDaContent from '@/content/product-pages/da/sudoku-arbejdsark';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -1324,6 +1325,10 @@ export const contentRegistry: ContentRegistry = {
     'bingo-arbejdsark': bingoDaContent,
     // Also keep old slug for backwards compatibility during transition
     'picture-bingo-worksheets': bingoDaContent,
+    // Danish Sudoku (Sudoku til Børn) - uses Danish SEO slug
+    'sudoku-arbejdsark': sudokuDaContent,
+    // Also keep old slug for backwards compatibility during transition
+    'sudoku-worksheets': sudokuDaContent,
   },
 };
 

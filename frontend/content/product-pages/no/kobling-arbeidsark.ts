@@ -16,7 +16,7 @@ export const matchingNoContent: ProductPageContent = {
     slug: 'kobling-arbeidsark',
     appId: 'matching-app',
     title: 'Arbeidsark Gratis - Matchingsoppgaver for Barn - Bokstaver Lære Skrive Aktiviteter',
-    description: 'Lag profesjonelle matchingsoppgaver med vår generator for arbeidsark. Din Core Bundle-abonnement gir deg ubegrenset tilgang til å lage matchingsoppgaver uten ekstra avgifter per ark. Generer tilpassede arbeidsark gratis perfekt for barnehage og småskoletrinnet. Last ned høykvalitets PDF-oppgaver på under 3 minutter.',
+    description: 'Lag profesjonelle matchingsoppgaver med vår generator for arbeidsark. Din Kjernepakke-abonnement gir deg ubegrenset tilgang til å lage matchingsoppgaver uten ekstra avgifter per ark. Generer tilpassede arbeidsark gratis perfekt for barnehage og småskoletrinnet. Last ned høykvalitets PDF-oppgaver på under 3 minutter.',
     keywords: 'matchingsoppgaver, arbeidsark gratis, oppgavehefter barn, bokstaver lære skrive, matematikk oppgaver, finmotorikk øvelser, småskoletrinnet, barneskolen, gangetabellen, tall og telling',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/kobling-arbeidsark',
   },
@@ -25,13 +25,13 @@ export const matchingNoContent: ProductPageContent = {
   hero: {
     title: 'Matchingsoppgaver for Barn - Arbeidsark Gratis',
     subtitle: 'Bokstaver Lære Skrive Aktiviteter',
-    description: `Lag profesjonelle matchingsoppgaver med vår generator for arbeidsark. Din Core Bundle-abonnement gir deg ubegrenset tilgang til å lage matchingsoppgaver uten ekstra avgifter per ark. Generer tilpassede arbeidsark gratis perfekt for barnehage og småskoletrinnet. Last ned høykvalitets PDF-oppgaver på under 3 minutter.
+    description: `Lag profesjonelle matchingsoppgaver med vår generator for arbeidsark. Din Kjernepakke-abonnement gir deg ubegrenset tilgang til å lage matchingsoppgaver uten ekstra avgifter per ark. Generer tilpassede arbeidsark gratis perfekt for barnehage og småskoletrinnet. Last ned høykvalitets PDF-oppgaver på under 3 minutter.
 
 Matchingsgeneratoren vår hjelper lærere med å lage arbeidsark der elevene trekker linjer for å koble sammen matchende par. Verktøyet støtter fire forskjellige matchingsmoduser. Velg mellom bilde til bokstav matching, bilde til ord matching, eller lag egne tilpassede ordpar. Hver matchingsoppgave kan tilpasses fullstendig til dine elevers behov.
 
 Oppgavene passer perfekt til barn på barneskolen som lærer bokstaver, tall, og grunnleggende konsepter. Kombiner matchingsoppgaver med finmotorikk øvelser for komplett læring. Elevene utvikler leseferdigheter mens de kobler bilder med ord eller bokstaver. Alle arbeidsark kan lastes ned som PDF eller JPEG i profesjonell 300 DPI kvalitet.
 
-Core Bundle-abonnentet inkluderer 10 populære oppgavegeneratorer. Du får tilgang til matchingsoppgaver, matematikk oppgaver, fargeleggingsbilder, og mer. Alle verktøyene støtter 11 språk inkludert norsk. Lærere kan lage ubegrensede arbeidsark gratis uten ekstra kostnader. Ingen vannmerke på oppgavene du lager og laster ned.`,
+Kjernepakke-abonnentet inkluderer 10 populære oppgavegeneratorer. Du får tilgang til matchingsoppgaver, matematikk oppgaver, fargeleggingsbilder, og mer. Alle verktøyene støtter 11 språk inkludert norsk. Lærere kan lage ubegrensede arbeidsark gratis uten ekstra kostnader. Ingen vannmerke på oppgavene du lager og laster ned.`,
     previewImageSrc: '/samples/english/matching/matching portrait.jpeg',
     ctaLabels: {
       tryFree: 'Prøv Gratis',
@@ -143,9 +143,9 @@ Bildefilnavnene følger valgt språk for innhold. Dette påvirker ordgenerering 
         id: '5',
         icon: '💰',
         title: 'Kommersiell Lisens Inkludert - Selg Oppgavehefter Barn og Fargeleggingsbilder på Nett',
-        description: `Core Bundle inkluderer full kommersiell print-on-demand lisens uten ekstra kostnad. Selg matchingsoppgaver du lager på Teachers Pay Teachers eller Etsy. Last opp oppgavehefter barn til Amazon KDP for passiv inntekt. Ingen attribusjon kreves på oppgavene du selger. Dette er perfekt for lærerentreprenører som vil bygge en biinntekt.
+        description: `Kjernepakke inkluderer full kommersiell print-on-demand lisens uten ekstra kostnad. Selg matchingsoppgaver du lager på Teachers Pay Teachers eller Etsy. Last opp oppgavehefter barn til Amazon KDP for passiv inntekt. Ingen attribusjon kreves på oppgavene du selger. Dette er perfekt for lærerentreprenører som vil bygge en biinntekt.
 
-Eksporter i 300 DPI profesjonell kvalitet egnet for kommersiell salg. Oppgavene har ingen vannmerke som forstyrrer utseendet. Lag samlinger av matematikk oppgaver eller bokstaver lære skrive pakker. Mange lærere tjener $500-$5000 per måned ved å selge tilpassede arbeidsark gratis på nettbaserte markedsplasser.`,
+Eksporter i 300 DPI profesjonell kvalitet egnet for kommersiell salg. Oppgavene har ingen vannmerke som forstyrrer utseendet. Lag samlinger av matematikk oppgaver eller bokstaver lære skrive pakker. Mange lærere tjener kr 5 000-50 000 per måned ved å selge tilpassede arbeidsark på nettbaserte markedsplasser.`,
         highlighted: true,
       },
       {
@@ -171,7 +171,7 @@ Gråtonealternativet sparer blekkostnader ved utskrift. Merk av gråtone før ne
 
   // How-To Guide - FULL text from matching.md step sections
   howTo: {
-    sectionTitle: 'Sådan Lager Du Matchingsoppgaver på 5 Enkle Trinn - Matematikk Oppgaver og Bokstaver Lære Skrive Arbeidsark',
+    sectionTitle: 'Slik Lager Du Matchingsoppgaver på 5 Enkle Trinn - Matematikk Oppgaver og Bokstaver Lære Skrive Arbeidsark',
     sectionDescription: 'Å lage profesjonelle matchingsoppgaver tar mindre enn 3 minutter fra start til nedlasting. Følg denne enkle femtrinnsprosessen for å lage arbeidsark gratis til klasserommet ditt. Ingen designferdigheter eller teknisk kunnskap kreves. Systemet guider deg gjennom hvert trinn med klare instruksjoner på norsk. Du kan lage oppgavehefter barn for hele uken på under en time. Hver oppgave kan tilpasses fullstendig til dine elevers læringsnivå.',
     ctaText: 'Start Nå',
     badgeText: 'Slik Fungerer Det',
@@ -290,7 +290,7 @@ Addisjon og subtraksjon oppgaver fungerer godt i egendefinert modus. Skriv regne
 
 Lesetrening aktiviteter er enkle å lage for barn i forskjellige aldre. Lag enkle ord matching for førsteklassinger som nettopp lærer å lese. Bruk mer komplekse ordpar for eldre barn som øver ordforråd. Last opp familiebilder for personaliserte leseoppgaver. Barn er mer motiverte når oppgavene inneholder kjente ansikter og steder.
 
-Verktøyet sparer hjemmeundervisende foreldre betydelige kostnader på læremateriell. Lag ubegrensede arbeidsark gratis i stedet for å kjøpe dyre arbeidsbøker. Core Bundle abonnementet på $144 per år erstatter hundrevis av dollar i trykte ressurser. Ti forskjellige generatorer gir deg verktøy for alle fag og aldersgrupper.`,
+Verktøyet sparer hjemmeundervisende foreldre betydelige kostnader på læremateriell. Lag ubegrensede arbeidsark gratis i stedet for å kjøpe dyre arbeidsbøker. Kjernepakke-abonnementet på kr 1 075 per år erstatter tusenvis av kroner i trykte ressurser. Ti forskjellige generatorer gir deg verktøy for alle fag og aldersgrupper.`,
         quote: 'Barna mine elsker de personaliserte oppgavene med familiebilder.',
       },
       {
@@ -310,11 +310,11 @@ Repetisjon er avgjørende for mange elever med spesielle behov. Lag flere versjo
         icon: '💰',
         title: 'Lærerentreprenører - Selg Matematikk Oppgaver og Bokstaver Lære Skrive Pakker på Teachers Pay Teachers',
         subtitle: 'Bygg passiv inntekt med matchingsoppgaver',
-        description: `Lærerentreprenører bygger passive inntektsstrømmer ved å selge oppgavehefter barn på nett. Core Bundle lisensen tillater kommersiell salg på Teachers Pay Teachers, Etsy, og Amazon KDP. Lag tematiske pakker med 20-30 matchingsoppgaver rundt populære tema. Sesongbaserte pakker som jul, påske, og høst selger godt hele året.
+        description: `Lærerentreprenører bygger passive inntektsstrømmer ved å selge oppgavehefter barn på nett. Kjernepakke lisensen tillater kommersiell salg på Teachers Pay Teachers, Etsy, og Amazon KDP. Lag tematiske pakker med 20-30 matchingsoppgaver rundt populære tema. Sesongbaserte pakker som jul, påske, og høst selger godt hele året.
 
-Matematikk oppgaver pakker er alltid etterspurte på lærermarkedsplasser. Lag komplette gangetabellen sett med alle tabeller fra 2-10. Addisjon og subtraksjon pakker organisert etter tallområde selger til lærere som trenger differensierte ressurser. Prissett pakker til $4-$8 og tjen passiv inntekt hver måned.
+Matematikk oppgaver pakker er alltid etterspurte på lærermarkedsplasser. Lag komplette gangetabellen sett med alle tabeller fra 2-10. Addisjon og subtraksjon pakker organisert etter tallområde selger til lærere som trenger differensierte ressurser. Prissett pakker til kr 40-80 og tjen passiv inntekt hver måned.
 
-Bokstaver lære skrive pakker er perfekt for lærere på 1. trinn. Lag ett matchingsark per bokstav i alfabetet - 29 ark totalt for norske bokstaver. Inkluder både store og små bokstaver i samme pakke. Mange lærere tjener $500-$2000 per måned ved å selge høykvalitets arbeidsark gratis laget med profesjonelle verktøy som dette.`,
+Bokstaver lære skrive pakker er perfekt for lærere på 1. trinn. Lag ett matchingsark per bokstav i alfabetet - 29 ark totalt for norske bokstaver. Inkluder både store og små bokstaver i samme pakke. Mange lærere tjener kr 5 000-20 000 per måned ved å selge høykvalitets arbeidsark laget med profesjonelle verktøy som dette.`,
         quote: 'Abonnementet betalte seg selv tilbake første måneden gjennom salg.',
       },
       {
@@ -347,7 +347,7 @@ ESL lærere i Norge bruker verktøyet til å lage arbeidsark gratis for nyankomn
       {
         id: '1',
         question: 'Er Denne Generatoren for Arbeidsark Gratis og Matematikk Oppgaver Virkelig Gratis å Bruke?',
-        answer: 'Matchingsgeneratoren krever et Core Bundle abonnement som koster $144 årlig eller $15 månedlig. Abonnementet ditt gir deg ubegrenset opprettelse av matchingsoppgaver uten ekstra avgifter per ark. Generer så mange arbeidsark gratis som du trenger uten tilleggskostnader. Du betaler bare abonnementsprisen uansett hvor mange oppgaver du lager. Core Bundle inkluderer 10 populære oppgavegeneratorer inkludert matching, matematikk, og fargelegging. Full Access abonnement koster $240 årlig og inkluderer alle 33 generatortyper. Begge abonnementer inkluderer kommersiell lisensering, 11 språkstøtte, og profesjonell 300 DPI kvalitetseksport. Velg Core Bundle hvis du primært trenger de 10 mest populære verktøyene.',
+        answer: 'Matchingsgeneratoren krever et Kjernepakke-abonnement som koster kr 1 075 årlig eller kr 112 månedlig. Abonnementet ditt gir deg ubegrenset opprettelse av matchingsoppgaver uten ekstra avgifter per ark. Generer så mange arbeidsark som du trenger uten tilleggskostnader. Du betaler bare abonnementsprisen uansett hvor mange oppgaver du lager. Kjernepakke inkluderer 10 populære oppgavegeneratorer inkludert matching, matematikk, og fargelegging. Full Tilgang-abonnement koster kr 1 800 årlig og inkluderer alle 33 generatortyper. Begge abonnementer inkluderer kommersiell lisensering, 11 språkstøtte, og profesjonell 300 DPI kvalitetseksport. Velg Kjernepakke hvis du primært trenger de 10 mest populære verktøyene.',
       },
       {
         id: '2',
@@ -362,7 +362,7 @@ ESL lærere i Norge bruker verktøyet til å lage arbeidsark gratis for nyankomn
       {
         id: '4',
         question: 'Kan Jeg Bruke Tall og Telling Oppgaver og Fargeleggingsbilder Barn i Mit Klasserom for Elever?',
-        answer: 'Core Bundle abonnement inkluderer ubegrenset klasseromsbruk for alle oppgaver du lager. Skriv ut så mange kopier som du trenger for elevene dine. Del digitale filer med elever og foreldre. Bruk oppgavene i alle klasseromaktiviteter og lekser. Tall og telling oppgaver fungerer perfekt for mattesentre og differensiering. Fargeleggingsbilder barn kan brukes som belønninger eller stille arbeidsaktiviteter. Ingen begrensninger på antall elever eller klassestørrelser. Abonnementet dekker all personlig og klasseromsbruk.',
+        answer: 'Kjernepakke abonnement inkluderer ubegrenset klasseromsbruk for alle oppgaver du lager. Skriv ut så mange kopier som du trenger for elevene dine. Del digitale filer med elever og foreldre. Bruk oppgavene i alle klasseromaktiviteter og lekser. Tall og telling oppgaver fungerer perfekt for mattesentre og differensiering. Fargeleggingsbilder barn kan brukes som belønninger eller stille arbeidsaktiviteter. Ingen begrensninger på antall elever eller klassestørrelser. Abonnementet dekker all personlig og klasseromsbruk.',
       },
       {
         id: '5',
@@ -372,7 +372,7 @@ ESL lærere i Norge bruker verktøyet til å lage arbeidsark gratis for nyankomn
       {
         id: '6',
         question: 'Kan Jeg Selge Oppgavehefter Barn og Gangetabellen Arbeidsark Jeg Lager med Denne Generatoren?',
-        answer: 'Ja. Core Bundle abonnement inkluderer full kommersiell print-on-demand lisensering uten ekstra kostnader. Selg alle oppgavehefter barn du lager på Teachers Pay Teachers, Etsy, og Amazon KDP. Ingen attribusjon kreves på oppgavene du selger. Gangetabellen arbeidsark er svært salgbare produkter på lærermarkedsplasser. Lag pakker og selg for $5-$8 per sett. Du beholder 100% av inntektene minus plattformavgifter. Mange lærere bygger passive inntektsstrømmer på $500-$2000 månedlig ved å selge oppgaver laget med våre verktøy.',
+        answer: 'Ja. Kjernepakke-abonnement inkluderer full kommersiell print-on-demand lisensering uten ekstra kostnader. Selg alle oppgavehefter barn du lager på Teachers Pay Teachers, Etsy, og Amazon KDP. Ingen attribusjon kreves på oppgavene du selger. Gangetabellen arbeidsark er svært salgbare produkter på lærermarkedsplasser. Lag pakker og selg for kr 50-80 per sett. Du beholder 100% av inntektene minus plattformavgifter. Mange lærere bygger passive inntektsstrømmer på kr 5 000-20 000 månedlig ved å selge oppgaver laget med våre verktøy.',
       },
       {
         id: '7',
@@ -409,7 +409,7 @@ ESL lærere i Norge bruker verktøyet til å lage arbeidsark gratis for nyankomn
 
   // Pricing
   pricing: {
-    title: 'Core Bundle',
+    title: 'Kjernepakke',
     price: 'kr 1 075',
     priceInterval: '/år',
     priceSuffix: 'Faktureres årlig',
@@ -428,7 +428,7 @@ ESL lærere i Norge bruker verktøyet til å lage arbeidsark gratis for nyankomn
   // Related Apps - From matching.md "Kombiner" section
   relatedApps: {
     sectionTitle: 'Kombiner Matchingsoppgaver med Arbeidsark Gratis og Fargeleggingsbilder Barn - Komplette Læringspakker til Småskoletrinnet',
-    sectionDescription: 'Matchingsgeneratoren fungerer best når kombinert med andre gratis verktøy på plattformen. Core Bundle gir deg tilgang til 10 forskjellige generatorer for komplett undervisningsplanlegging. Lag tematiske ukepakker som kombinerer matching med matematikk oppgaver, fargeleggingsbilder barn, og finmotorikk øvelser. Hver kombinasjon skaper mer engasjerende oppgavehefter barn for elevene dine. Variasjon holder oppmerksomheten og forsterker læringen gjennom flere modaliteter.',
+    sectionDescription: 'Matchingsgeneratoren fungerer best når kombinert med andre gratis verktøy på plattformen. Kjernepakke gir deg tilgang til 10 forskjellige generatorer for komplett undervisningsplanlegging. Lag tematiske ukepakker som kombinerer matching med matematikk oppgaver, fargeleggingsbilder barn, og finmotorikk øvelser. Hver kombinasjon skaper mer engasjerende oppgavehefter barn for elevene dine. Variasjon holder oppmerksomheten og forsterker læringen gjennom flere modaliteter.',
     ctaTitle: 'Klar til å Lage Fantastiske Arbeidsark?',
     ctaDescription: 'Bli med tusenvis av pedagoger som lager profesjonelle arbeidsark. Ubegrenset oppretting, kommersiell lisens inkludert.',
     primaryCtaText: 'Start Gratis Prøveperiode',

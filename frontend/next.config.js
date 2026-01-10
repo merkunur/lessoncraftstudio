@@ -1452,6 +1452,12 @@ const nextConfig = {
         destination: '/da/apps/matteleger-arbejdsark',
         permanent: true,
       },
+      // Danish: missing-pieces-worksheets → manglende-brikker-arbejdsark
+      {
+        source: '/da/apps/missing-pieces-worksheets',
+        destination: '/da/apps/manglende-brikker-arbejdsark',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

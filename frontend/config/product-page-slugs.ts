@@ -329,6 +329,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       it: 'pezzi-mancanti-schede',
       pt: 'pecas-faltantes-fichas',
       nl: 'ontbrekende-puzzelstukjes-werkbladen',
+      da: 'manglende-brikker-arbejdsark',
     },
   },
   {

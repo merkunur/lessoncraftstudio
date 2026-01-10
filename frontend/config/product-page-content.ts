@@ -308,6 +308,7 @@ import gridMatchDaContent from '@/content/product-pages/da/raster-puslespil-arbe
 import crosswordDaContent from '@/content/product-pages/da/krydsord-arbejdsark';
 import cryptogramDaContent from '@/content/product-pages/da/kryptogram-arbejdsark';
 import mathPuzzleDaContent from '@/content/product-pages/da/matteleger-arbejdsark';
+import missingPiecesDaContent from '@/content/product-pages/da/manglende-brikker-arbejdsark';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -1374,6 +1375,10 @@ export const contentRegistry: ContentRegistry = {
     'matteleger-arbejdsark': mathPuzzleDaContent,
     // Also keep old slug for backwards compatibility during transition
     'math-puzzle-worksheets': mathPuzzleDaContent,
+    // Danish Missing Pieces (Manglende Brikker) - uses Danish SEO slug
+    'manglende-brikker-arbejdsark': missingPiecesDaContent,
+    // Also keep old slug for backwards compatibility during transition
+    'missing-pieces-worksheets': missingPiecesDaContent,
   },
 };
 

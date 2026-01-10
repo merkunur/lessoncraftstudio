@@ -441,6 +441,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       it: 'abbinamento-ombre-schede',
       pt: 'combinar-sombras-fichas',
       nl: 'schaduw-matching-werkbladen',
+      da: 'skygge-match-arbejdsark',
     },
   },
   {

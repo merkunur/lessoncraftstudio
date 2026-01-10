@@ -349,6 +349,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     it: 'abbinamento-ombre-schede',
     pt: 'combinar-sombras-fichas',
     nl: 'schaduw-matching-werkbladen',
+    da: 'skygge-match-arbejdsark',
   },
   'subtraction': {
     en: 'subtraction-worksheets',

@@ -316,6 +316,7 @@ import patternWorksheetDaContent from '@/content/product-pages/da/moenstre-arbej
 import picturePathDaContent from '@/content/product-pages/da/billedsti-arbejdsark';
 import pictureSortDaContent from '@/content/product-pages/da/billedsortering-arbejdsark';
 import prepositionsDaContent from '@/content/product-pages/da/praepositioner-arbejdsark';
+import shadowMatchDaContent from '@/content/product-pages/da/skygge-match-arbejdsark';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -1414,6 +1415,10 @@ export const contentRegistry: ContentRegistry = {
     'praepositioner-arbejdsark': prepositionsDaContent,
     // Also keep old slug for backwards compatibility during transition
     'prepositions-worksheets': prepositionsDaContent,
+    // Danish Shadow Match (Skygge-Match) - uses Danish SEO slug
+    'skygge-match-arbejdsark': shadowMatchDaContent,
+    // Also keep old slug for backwards compatibility during transition
+    'shadow-match-worksheets': shadowMatchDaContent,
   },
 };
 

@@ -306,6 +306,7 @@ import drawAndColorDaContent from '@/content/product-pages/da/tegn-og-farvelaeg-
 import findObjectsDaContent from '@/content/product-pages/da/find-objekterne-arbejdsark';
 import gridMatchDaContent from '@/content/product-pages/da/raster-puslespil-arbejdsark';
 import crosswordDaContent from '@/content/product-pages/da/krydsord-arbejdsark';
+import cryptogramDaContent from '@/content/product-pages/da/kryptogram-arbejdsark';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -1364,6 +1365,10 @@ export const contentRegistry: ContentRegistry = {
     'krydsord-arbejdsark': crosswordDaContent,
     // Also keep old slug for backwards compatibility during transition
     'crossword-worksheets': crosswordDaContent,
+    // Danish Cryptogram (Kryptogram) - uses Danish SEO slug
+    'kryptogram-arbejdsark': cryptogramDaContent,
+    // Also keep old slug for backwards compatibility during transition
+    'cryptogram-worksheets': cryptogramDaContent,
   },
 };
 

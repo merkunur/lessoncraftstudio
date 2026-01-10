@@ -1386,6 +1386,12 @@ const nextConfig = {
         destination: '/da/apps/linjetraening-arbejdsark',
         permanent: true,
       },
+      // Danish: picture-bingo-worksheets → bingo-arbejdsark
+      {
+        source: '/da/apps/picture-bingo-worksheets',
+        destination: '/da/apps/bingo-arbejdsark',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

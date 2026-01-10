@@ -8931,6 +8931,8 @@ export async function generateStaticParams() {
     'bogstavblanding-arbejdsark', // Product page slug (Danish) - language-specific SEO slug for word-scramble
     'find-og-tael-arbejdsark', // Product page slug (Danish) - language-specific SEO slug for find-and-count
     'matchning-arbejdsark', // Product page slug (Danish) - language-specific SEO slug for matching
+    'linjetraening-arbejdsark', // Product page slug (Danish) - language-specific SEO slug for drawing-lines
+    'bingo-arbejdsark', // Product page slug (Danish) - language-specific SEO slug for picture-bingo
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

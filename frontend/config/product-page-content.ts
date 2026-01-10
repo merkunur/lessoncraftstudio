@@ -297,6 +297,7 @@ import wordScrambleDaContent from '@/content/product-pages/da/bogstavblanding-ar
 import findAndCountDaContent from '@/content/product-pages/da/find-og-tael-arbejdsark';
 import matchingDaContent from '@/content/product-pages/da/matchning-arbejdsark';
 import drawingLinesDaContent from '@/content/product-pages/da/linjetraening-arbejdsark';
+import bingoDaContent from '@/content/product-pages/da/bingo-arbejdsark';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -1319,6 +1320,10 @@ export const contentRegistry: ContentRegistry = {
     'linjetraening-arbejdsark': drawingLinesDaContent,
     // Also keep old slug for backwards compatibility during transition
     'drawing-lines-worksheets': drawingLinesDaContent,
+    // Danish Bingo (Bingo) - uses Danish SEO slug
+    'bingo-arbejdsark': bingoDaContent,
+    // Also keep old slug for backwards compatibility during transition
+    'picture-bingo-worksheets': bingoDaContent,
   },
 };
 

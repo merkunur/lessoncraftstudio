@@ -317,6 +317,7 @@ import picturePathDaContent from '@/content/product-pages/da/billedsti-arbejdsar
 import pictureSortDaContent from '@/content/product-pages/da/billedsortering-arbejdsark';
 import prepositionsDaContent from '@/content/product-pages/da/praepositioner-arbejdsark';
 import shadowMatchDaContent from '@/content/product-pages/da/skygge-match-arbejdsark';
+import subtractionDaContent from '@/content/product-pages/da/subtraktion-arbejdsark';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -1419,6 +1420,10 @@ export const contentRegistry: ContentRegistry = {
     'skygge-match-arbejdsark': shadowMatchDaContent,
     // Also keep old slug for backwards compatibility during transition
     'shadow-match-worksheets': shadowMatchDaContent,
+    // Danish Subtraction (Subtraktion) - uses Danish SEO slug
+    'subtraktion-arbejdsark': subtractionDaContent,
+    // Also keep old slug for backwards compatibility during transition
+    'subtraction-worksheets': subtractionDaContent,
   },
 };
 

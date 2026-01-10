@@ -455,6 +455,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       it: 'sottrazione-schede',
       pt: 'subtracao-fichas',
       nl: 'aftrekken-werkbladen',
+      da: 'subtraktion-arbejdsark',
     },
   },
   {

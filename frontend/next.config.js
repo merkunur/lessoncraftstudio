@@ -1506,6 +1506,12 @@ const nextConfig = {
         destination: '/da/apps/skygge-match-arbejdsark',
         permanent: true,
       },
+      // Danish: subtraction-worksheets → subtraktion-arbejdsark
+      {
+        source: '/da/apps/subtraction-worksheets',
+        destination: '/da/apps/subtraktion-arbejdsark',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

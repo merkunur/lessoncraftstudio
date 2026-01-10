@@ -360,6 +360,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     it: 'sottrazione-schede',
     pt: 'subtracao-fichas',
     nl: 'aftrekken-werkbladen',
+    da: 'subtraktion-arbejdsark',
   },
   'treasure-hunt': {
     en: 'treasure-hunt-worksheets',

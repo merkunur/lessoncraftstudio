@@ -8948,6 +8948,8 @@ export async function generateStaticParams() {
     'billedsti-arbejdsark', // Product page slug (Danish) - language-specific SEO slug for picture-path
     'billedsortering-arbejdsark', // Product page slug (Danish) - language-specific SEO slug for picture-sort
     'praepositioner-arbejdsark', // Product page slug (Danish) - language-specific SEO slug for prepositions
+    'skygge-match-arbejdsark', // Product page slug (Danish) - language-specific SEO slug for shadow-match
+    'subtraktion-arbejdsark', // Product page slug (Danish) - language-specific SEO slug for subtraction
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

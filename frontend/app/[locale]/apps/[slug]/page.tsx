@@ -8942,6 +8942,7 @@ export async function generateStaticParams() {
     'raster-puslespil-arbejdsark', // Product page slug (Danish) - language-specific SEO slug for grid-match
     'krydsord-arbejdsark', // Product page slug (Danish) - language-specific SEO slug for crossword
     'kryptogram-arbejdsark', // Product page slug (Danish) - language-specific SEO slug for cryptogram
+    'matteleger-arbejdsark', // Product page slug (Danish) - language-specific SEO slug for math-puzzle
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

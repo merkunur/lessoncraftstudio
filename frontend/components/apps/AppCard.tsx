@@ -250,6 +250,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     it: 'puzzle-matematici-schede',
     pt: 'quebra-cabeca-matematica-fichas',
     nl: 'rekenpuzzels-werkbladen',
+    da: 'matteleger-arbejdsark',
   },
   'missing-pieces': {
     en: 'missing-pieces-worksheets',

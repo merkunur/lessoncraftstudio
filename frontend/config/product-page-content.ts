@@ -307,6 +307,7 @@ import findObjectsDaContent from '@/content/product-pages/da/find-objekterne-arb
 import gridMatchDaContent from '@/content/product-pages/da/raster-puslespil-arbejdsark';
 import crosswordDaContent from '@/content/product-pages/da/krydsord-arbejdsark';
 import cryptogramDaContent from '@/content/product-pages/da/kryptogram-arbejdsark';
+import mathPuzzleDaContent from '@/content/product-pages/da/matteleger-arbejdsark';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -1369,6 +1370,10 @@ export const contentRegistry: ContentRegistry = {
     'kryptogram-arbejdsark': cryptogramDaContent,
     // Also keep old slug for backwards compatibility during transition
     'cryptogram-worksheets': cryptogramDaContent,
+    // Danish Math Puzzle (Matteleger) - uses Danish SEO slug
+    'matteleger-arbejdsark': mathPuzzleDaContent,
+    // Also keep old slug for backwards compatibility during transition
+    'math-puzzle-worksheets': mathPuzzleDaContent,
   },
 };
 

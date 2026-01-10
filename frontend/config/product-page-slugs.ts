@@ -315,6 +315,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       it: 'puzzle-matematici-schede',
       pt: 'quebra-cabeca-matematica-fichas',
       nl: 'rekenpuzzels-werkbladen',
+      da: 'matteleger-arbejdsark',
     },
   },
   {

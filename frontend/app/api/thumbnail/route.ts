@@ -7,7 +7,7 @@ export const dynamic = 'force-dynamic';
 
 // In-memory cache for thumbnails (persists across requests in same server instance)
 interface CacheEntry {
-  data: Buffer;
+  data: Uint8Array;
   contentType: string;
   timestamp: number;
 }
@@ -54,7 +54,7 @@ export async function GET(request: NextRequest) {
       headers.set('Cache-Control', 'public, max-age=86400, stale-while-revalidate=604800');
       headers.set('X-Cache', 'HIT');
 
-      return new Response(new Blob([cached.data]), { headers });
+      return new Response(cached.data, { headers });
     }
 
     // Resolve file path
@@ -92,8 +92,11 @@ export async function GET(request: NextRequest) {
       }
     }
 
+    // Convert Buffer to Uint8Array for TypeScript Response compatibility
+    const uint8Data = new Uint8Array(outputBuffer.buffer, outputBuffer.byteOffset, outputBuffer.length);
+
     thumbnailCache.set(cacheKey, {
-      data: outputBuffer,
+      data: uint8Data,
       contentType: 'image/webp',
       timestamp: Date.now(),
     });
@@ -106,7 +109,7 @@ export async function GET(request: NextRequest) {
     headers.set('X-Original-Size', imageBuffer.length.toString());
     headers.set('X-Thumbnail-Size', outputBuffer.length.toString());
 
-    return new Response(new Blob([outputBuffer]), { headers });
+    return new Response(uint8Data, { headers });
 
   } catch (error) {
     console.error('Thumbnail generation error:', error);

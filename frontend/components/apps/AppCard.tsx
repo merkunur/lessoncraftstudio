@@ -100,6 +100,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     pt: 'palavras-embaralhadas-fichas',
     nl: 'woordkruisel-werkbladen',
     da: 'bogstavblanding-arbejdsark',
+    no: 'bokstavoppgaver-arbeidsark',
   },
   'find-and-count': {
     en: 'find-and-count-worksheets',

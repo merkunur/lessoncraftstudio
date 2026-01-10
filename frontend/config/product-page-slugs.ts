@@ -126,6 +126,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       pt: 'palavras-embaralhadas-fichas',
       nl: 'woordkruisel-werkbladen',
       da: 'bogstavblanding-arbejdsark',
+      no: 'bokstavoppgaver-arbeidsark',
     },
   },
   {

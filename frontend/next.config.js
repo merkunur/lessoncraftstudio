@@ -1560,6 +1560,12 @@ const nextConfig = {
         destination: '/no/apps/matematikk-oppgaver-arbeidsark',
         permanent: true,
       },
+      // Norwegian: word-scramble-worksheets → bokstavoppgaver-arbeidsark
+      {
+        source: '/no/apps/word-scramble-worksheets',
+        destination: '/no/apps/bokstavoppgaver-arbeidsark',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

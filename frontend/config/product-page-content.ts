@@ -328,6 +328,7 @@ import additionNoContent from '@/content/product-pages/no/addisjon-arbeidsark';
 import alphabetTrainNoContent from '@/content/product-pages/no/alfabet-tog-arbeidsark';
 import coloringNoContent from '@/content/product-pages/no/fargeleggingsbilder-arbeidsark';
 import mathWorksheetsNoContent from '@/content/product-pages/no/matematikk-oppgaver-arbeidsark';
+import wordScrambleNoContent from '@/content/product-pages/no/bokstavoppgaver-arbeidsark';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -1468,6 +1469,10 @@ export const contentRegistry: ContentRegistry = {
     'matematikk-oppgaver-arbeidsark': mathWorksheetsNoContent,
     // Also keep old slug for backwards compatibility during transition
     'math-worksheets': mathWorksheetsNoContent,
+    // Norwegian Word Scramble (Bokstavoppgaver) - uses Norwegian SEO slug
+    'bokstavoppgaver-arbeidsark': wordScrambleNoContent,
+    // Also keep old slug for backwards compatibility during transition
+    'word-scramble-worksheets': wordScrambleNoContent,
   },
 };
 

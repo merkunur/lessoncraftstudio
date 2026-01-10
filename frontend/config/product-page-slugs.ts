@@ -232,6 +232,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       it: 'addizioni-immagini-schede',
       pt: 'adicao-codigo-fichas',
       nl: 'visuele-optelsommen-werkbladen',
+      da: 'kode-plusstykker-arbejdsark',
     },
   },
   {

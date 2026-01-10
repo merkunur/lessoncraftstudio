@@ -9,7 +9,7 @@ import { ProductPageContent } from '@/components/product-page/ProductPageClient'
  * FULL SEO content from: INDIVIDUAL APP PAGES/Danish/pattern-train.md
  * DO NOT SHORTEN - Every paragraph is SEO-optimized
  *
- * NOTE: This is a Full Access app ($240/year), NOT Core Bundle
+ * NOTE: This is a Fuld Adgang app ($240/year), IKKE Basispakke
  */
 
 export const patternTrainDaContent: ProductPageContent = {
@@ -18,7 +18,7 @@ export const patternTrainDaContent: ProductPageContent = {
     slug: 'moenstertog-arbejdsark',
     appId: 'pattern-train',
     title: 'Mønstertog Arbejdsark - Gratis Matematikopgaver til Print - Finmotorik Øvelser for 0. Klasse',
-    description: 'Opret professionelle mønstertog arbejdsark med vores mønstertog generator. Dit Full Access abonnement giver dig ubegrænset oprettelse af mønstertog arbejdsark uden ekstra gebyrer per opgave. Generer gratis skoleopgaver til print perfekte til børnehaveklasse, 0. klasse og 1. klasse. Download høj-kvalitets PDF opgaver til print på under 3 minutter.',
+    description: 'Opret professionelle mønstertog arbejdsark med vores mønstertog generator. Dit Fuld Adgang abonnement giver dig ubegrænset oprettelse af mønstertog arbejdsark uden ekstra gebyrer per opgave. Generer gratis skoleopgaver til print perfekte til børnehaveklasse, 0. klasse og 1. klasse. Download høj-kvalitets PDF opgaver til print på under 3 minutter.',
     keywords: 'mønstertog, arbejdsark, matematikopgaver, gratis skoleopgaver til print, finmotorik øvelser, 0. klasse, 1. klasse, børnehaveklasse, mønstergenkendelse, kopiark',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/moenstertog-arbejdsark',
   },
@@ -27,7 +27,7 @@ export const patternTrainDaContent: ProductPageContent = {
   hero: {
     title: 'Mønstertog Generator',
     subtitle: 'Gratis Matematikopgaver til Print - Finmotorik Øvelser for 0. Klasse',
-    description: `Opret professionelle mønstertog arbejdsark med vores mønstertog generator. Dit Full Access abonnement giver dig ubegrænset oprettelse af mønstertog arbejdsark uden ekstra gebyrer per opgave. Generer gratis skoleopgaver til print perfekte til børnehaveklasse, 0. klasse og 1. klasse. Download høj-kvalitets PDF opgaver til print på under 3 minutter.
+    description: `Opret professionelle mønstertog arbejdsark med vores mønstertog generator. Dit Fuld Adgang abonnement giver dig ubegrænset oprettelse af mønstertog arbejdsark uden ekstra gebyrer per opgave. Generer gratis skoleopgaver til print perfekte til børnehaveklasse, 0. klasse og 1. klasse. Download høj-kvalitets PDF opgaver til print på under 3 minutter.
 
 Mønstertog arbejdsark hjælper børn med at genkende og fortsætte mønstre. Perfekt til finmotorik øvelser og matematikopgaver i indskolingen. Vores mønstertog generator skaber kopiark med tog-billeder i forskellige mønstre. Børn lærer at se mønstre som ABAB, AAB, ABB, ABC og AABB.
 
@@ -124,7 +124,7 @@ Tilføj navn- og datofelter til dine kopiark. Rediger baggrundsfarver og rammer.
         id: '3',
         icon: '📤',
         title: 'Upload Egne Billeder til Mønstertog Arbejdsark - Personlige Matematikopgaver til Print',
-        description: `Upload dine egne billeder til mønstertog arbejdsark. Multi-fil upload understøtter JPEG, PNG og GIF formater. Kombiner biblioteksbilleder med dine egne uploadede billeder. Opret helt unikke gratis skoleopgaver til print personaliseret til dine elever.
+        description: `Upload dine egne billeder til mønstertog arbejdsark. Flere filer upload understøtter JPEG, PNG og GIF formater. Kombiner biblioteksbilleder med dine egne uploadede billeder. Opret helt unikke gratis skoleopgaver til print personaliseret til dine elever.
 
 Brug fotos af klasse genstande i dine matematikopgaver. Upload billeder af legetøj børnene kender. Brug fotos fra skoleturer eller sæsonaktiviteter. Personlige billeder gør finmotorik øvelser mere engagerende. Børn er mere motiverede når de genkender ting på kopiark.
 
@@ -139,29 +139,29 @@ Uploadede billeder fungerer præcis som biblioteksbilleder. Træk dem til tog-vo
 
 Sprog understøttelse er især vigtig for opgaver til print brugt i tosproget undervisning. Opret matematikopgaver på dansk for indskoling. Opret samme opgaver på engelsk for engelsk klasser. Skift mellem sprog når du underviser i forskellige fag. Børn lærer mønstre mens de lærer bogstaver på nye sprog.
 
-Billedbaseret indhold fungerer på tværs af alle sprog. Mønstertog logikken er universel. ABAB mønster forbliver det samme på dansk, tysk eller fransk. Dette gør gratis skoleopgaver til print ideelle til ESL og tosproget læring. Kombiner lære bogstaver aktiviteter med mønstergenkendelse på ethvert sprog.`,
+Billedbaseret indhold fungerer på tværs af alle sprog. Mønstertog logikken er universel. ABAB mønster forbliver det samme på dansk, tysk eller fransk. Dette gør gratis skoleopgaver til print ideelle til engelsk som andetsprog og tosproget læring. Kombiner lære bogstaver aktiviteter med mønstergenkendelse på ethvert sprog.`,
         highlighted: false,
       },
       {
         id: '5',
         icon: '💰',
-        title: 'POD Kommerciel Licens til Mønstertog Arbejdsark - Sælg Dine Matematikopgaver og Kopiark',
-        description: `Full Access abonnement inkluderer fuld print-on-demand kommerciel licens. Sælg dine mønstertog arbejdsark på platforme som Etsy, Teachers Pay Teachers og Amazon KDP. Ingen attribution krævet. Perfekt til lærer-iværksættere der sælger opgaver til print.
+        title: 'Print-on-Demand Kommerciel Licens til Mønstertog Arbejdsark - Sælg Dine Matematikopgaver og Kopiark',
+        description: `Fuld Adgang abonnement inkluderer fuld print-on-demand kommerciel licens. Sælg dine mønstertog arbejdsark på platforme som Etsy, Teachers Pay Teachers og Amazon KDP. Ingen attribution krævet. Perfekt til lærer-iværksættere der sælger opgaver til print.
 
 Opret unikt mønstertog arbejdsark pakker til salg. Kombiner forskellige mønster typer i læringspakker. Opret sæsonbaserede matematikopgaver samlinger. Tema baserede kopiark for højtider og begivenheder. Sælg differentierede arbejdsark sæt for børnehaveklasse gennem 3. klasse.
 
-300 DPI professionel eksport kvalitet sikrer dine produkter ser skarpe ud når printet. Kunder får krystalklare billeder og tekst. Upload til print-on-demand platforme uden kvalitetstab. Mønstertog arbejdsark kan inkluderes i activity books, workbooks eller preschool curriculum bundles. Fuld kommerciel licens er inkluderet uden ekstra licensgebyr ud over dit $240 årlige abonnement.`,
+300 DPI professionel eksport kvalitet sikrer dine produkter ser skarpe ud når printet. Kunder får krystalklare billeder og tekst. Upload til print-on-demand platforme uden kvalitetstab. Mønstertog arbejdsark kan inkluderes i aktivitetsbøger, arbejdsbøger eller børnehave læseplan pakker. Fuld kommerciel licens er inkluderet uden ekstra licensgebyr ud over dit $240 årlige abonnement.`,
         highlighted: true,
       },
       {
         id: '6',
         icon: '🎨',
         title: '3000+ Billedbibliotek til Mønstertog Arbejdsark - Massive Ressourcer til Gratis Skoleopgaver',
-        description: `Få adgang til over 3000 børnevenlige billeder inkluderet i Full Access. Temabaseret organisering med kategorier som dyr, transport, mad, tal og former. Nem tema valg for hurtig opgave til print oprettelse. Individuel billedbrowsing når du ønsker specifik kontrol.
+        description: `Få adgang til over 3000 børnevenlige billeder inkluderet i Fuld Adgang. Temabaseret organisering med kategorier som dyr, transport, mad, tal og former. Nem tema valg for hurtig opgave til print oprettelse. Individuel billedbrowsing når du ønsker specifik kontrol.
 
 Søgefunktionalitet finder hurtigt præcis de billeder du behøver. Søg efter "sommerfugl" for alle sommerfugl billeder. Søg "køretøjer" for biler, lastbiler og tog. Søg "frugt" for æbler, bananer og appelsiner. Kombiner søgning med tema filtrering for at indsnævre resultater for dine matematikopgaver.
 
-Baggrunde og rammer er inkluderet. Vælg mellem dusin af baggrundstemaer. Tilføj dekorative rammer til dine kopiark. Juster gennemsigtighed så baggrunde ikke overvælder hoved indhold. Alle visuelle materialer er inkluderet uden ekstra gebyrer. Modsat konkurrenter der opkræver per billede eller per skabelon, inkluderer Full Access alt.`,
+Baggrunde og rammer er inkluderet. Vælg mellem dusin af baggrundstemaer. Tilføj dekorative rammer til dine kopiark. Juster gennemsigtighed så baggrunde ikke overvælder hoved indhold. Alle visuelle materialer er inkluderet uden ekstra gebyrer. Modsat konkurrenter der opkræver per billede eller per skabelon, inkluderer Fuld Adgang alt.`,
         highlighted: false,
       },
       {
@@ -170,7 +170,7 @@ Baggrunde og rammer er inkluderet. Vælg mellem dusin af baggrundstemaer. Tilfø
         title: 'Professionel 300 DPI Kvalitet til Mønstertog Arbejdsark - Perfekt til Print og Salg',
         description: `Eksporter mønstertog arbejdsark i høj-opløsning 300 DPI kvalitet. Perfekt til udprint på enhver printer. Skarp tekst og klare billeder. Professionel kvalitet opgaver til print du kan være stolt af at dele. Velegnet til både klasseværelses brug og kommercielt salg.
 
-Download i JPEG eller PDF formater. JPEG til hurtig fremvisning og deling. PDF til multi-side dokumenter og print optimering. Begge formater bevarer 300 DPI kvalitet. Vælg det format der fungerer bedst til dit workflow for gratis skoleopgaver.
+Download i JPEG eller PDF formater. JPEG til hurtig fremvisning og deling. PDF til multi-side dokumenter og print optimering. Begge formater bevarer 300 DPI kvalitet. Vælg det format der fungerer bedst til din arbejdsgang for gratis skoleopgaver.
 
 Gråtone mulighed sparer blæk når du printer matematikopgaver. Konverter farve arbejdsark til sort-hvid med et klik. Børn kan stadig farvelægge mønstertog efter de løser mønsteret. Gråtone er perfekt til masseudprint af 0. klasse opgaver og 1. klasse kopiark. Spar hundreder af kroner om året på blækpatroner.`,
         highlighted: true,
@@ -211,7 +211,7 @@ Vælg mønster baseret på dit barns færdighedsniveau. Begynd med simple ABAB m
 
 Manuel metode giver fuld kontrol. Gennemse vores 3000+ billedbibliotek. Søg efter specifikke genstande. Træk og slip billeder til mønster positioner. Kombiner billeder fra forskellige temaer. Opret helt unikke opgaver til print der matcher præcis hvad du underviser i denne uge.
 
-Upload dine egne billeder for ultimate personalisering. Multi-fil upload accepterer JPEG, PNG og GIF. Brug klassefotos eller billeder af elevers arbejde. Kombiner uploadede billeder med biblioteksbilleder. Personlige kopiark øger elevengagement når børn genkender kendte genstande på arbejdsark.`,
+Upload dine egne billeder for ultimativ personalisering. Flere filer upload accepterer JPEG, PNG og GIF. Brug klassefotos eller billeder af elevers arbejde. Kombiner uploadede billeder med biblioteksbilleder. Personlige kopiark øger elevengagement når børn genkender kendte genstande på arbejdsark.`,
         icon: '🖼️',
       },
       {
@@ -290,7 +290,7 @@ Mønstertog arbejdsark perfekte til differentiering. Giv simple ABAB mønstre ti
         id: '3',
         icon: '🏠',
         title: 'Hjemmeundervisning Forældre',
-        subtitle: 'Gratis Skoleopgaver til Print for Multi-Niveau Undervisning',
+        subtitle: 'Gratis Skoleopgaver til Print for Flere Niveauer Undervisning',
         description: `Hjemmeundervisning forældre elsker mønstertog for fleksibiliteten. Opret opgaver til print for flere børn på forskellige niveauer. Simple mønstre til yngste barn i børnehaveklasse. Komplekse mønstre til ældste barn i 3. klasse. Alt fra samme generator.
 
 Mønstertog arbejdsark kombinerer flere læringmål. Mønstergenkendelse udvikler matematisk tænkning. Farvelægning udvikler finmotorik øvelser. Instruktioner på arbejdsark giver læse og skrive øvelse. Én aktivitet rammer multiple uddannelsesmål.
@@ -309,7 +309,7 @@ Kombiner mønstertog med andre gratis skoleopgaver. Opret morgen rutiner med for
 
 Mønstertog arbejdsark støtter tidlig læse og skrive udvikling. Tilføj instruktioner i målsproget. Børn læser sætninger som "Find det næste billede". Dette giver meningsfuld læseøvelse. Børn lærer at læse og skrive mens de løser matematikopgaver.
 
-Kombiner mønstertog med lære bogstaver aktiviteter. Brug billeder af genstande der starter med specifikt bogstav. A-mønster med æble, and, ahorn. Dette forbinder bogstavlæring med mønstergenkendelse. Dual læringsmål i én gratis skoleopgave til print.
+Kombiner mønstertog med lære bogstaver aktiviteter. Brug billeder af genstande der starter med specifikt bogstav. A-mønster med æble, and, ahorn. Dette forbinder bogstavlæring med mønstergenkendelse. Dobbelt læringsmål i én gratis skoleopgave til print.
 
 Flersproget indhold gør mønstertog perfekt til internationale skoler. Skift mellem dansk, svensk og norsk for skandinaviske klasser. Eller mellem dansk, tysk og fransk for central europæiske skoler. Børn lærer at mønstre er universelle på tværs af sprog.`,
         quote: 'Flersprogsunderstøttelsen er uvurderlig i min internationale klasse.',
@@ -332,14 +332,14 @@ Mønstertog opgaver til print perfekte til inkluderende klasseværelser. Alle b�
         id: '6',
         icon: '💼',
         title: 'Lærer Iværksættere',
-        subtitle: 'Sælg Mønstertog Matematikopgaver og Malebog Pakker med POD Licens',
-        description: `Lærer iværksættere sælger mønstertog arbejdsark på Teachers Pay Teachers og Etsy. Full Access inkluderer kommerciel print-on-demand licens. Opret unikke mønstertog pakker til salg. Ingen attribution krævet. Sælg dine gratis skoleopgaver til print designs som dine egne produkter.
+        subtitle: 'Sælg Mønstertog Matematikopgaver og Malebog Pakker med Print-on-Demand Licens',
+        description: `Lærer iværksættere sælger mønstertog arbejdsark på Teachers Pay Teachers og Etsy. Fuld Adgang inkluderer kommerciel print-on-demand licens. Opret unikke mønstertog pakker til salg. Ingen attribution krævet. Sælg dine gratis skoleopgaver til print designs som dine egne produkter.
 
-Opret tema baserede mønstertog samlinger. Sæson pakker som "Efterår mønstertog" eller "Jul mønstertog". Fag pakker kombinerer mønstertog med gangetabeller og lære bogstaver aktiviteter. Bundled produkter sælger bedre og kommanderer højere priser på marketplace platforme.
+Opret tema baserede mønstertog samlinger. Sæson pakker som "Efterår mønstertog" eller "Jul mønstertog". Fag pakker kombinerer mønstertog med gangetabeller og lære bogstaver aktiviteter. Samlede produkter sælger bedre og kommanderer højere priser på markedsplads platforme.
 
-Kombiner mønstertog med malebog sider til hybrid produkter. Opret "Mønster og Farve" workbooks. Børn løser mønstre og farvelægger derefter. Dette kombinerer kognitiv læring med kunstnerisk udtryk. Unique produkt differentiation i overfyldt marked.
+Kombiner mønstertog med malebog sider til hybrid produkter. Opret "Mønster og Farve" arbejdsbøger. Børn løser mønstre og farvelægger derefter. Dette kombinerer kognitiv læring med kunstnerisk udtryk. Unik produkt differentiation i overfyldt marked.
 
-300 DPI professionel kvalitet sikrer kundetilfredshed. Arbejdsark printer skarpt og klart. Kunder efterlader positive anmeldelser. Dette bygger din forretningsreputation. Kommerciel licens inkluderet i dit $240 årlige Full Access abonnement. Ingen ekstra licensgebyrer. Begynd at sælge opgaver til print øjeblikkelig efter oprettelse.`,
+300 DPI professionel kvalitet sikrer kundetilfredshed. Arbejdsark printer skarpt og klart. Kunder efterlader positive anmeldelser. Dette bygger din forretningsreputation. Kommerciel licens inkluderet i dit $240 årlige Fuld Adgang abonnement. Ingen ekstra licensgebyrer. Begynd at sælge opgaver til print øjeblikkelig efter oprettelse.`,
         quote: 'Jeg tjener nu ekstra hver måned ved at sælge mønstertog pakker online.',
       },
     ],
@@ -347,7 +347,7 @@ Kombiner mønstertog med malebog sider til hybrid produkter. Opret "Mønster og 
 
   // Pricing Section
   pricing: {
-    title: 'Full Access',
+    title: 'Fuld Adgang',
     price: 'kr. 1.725',
     priceInterval: '/år',
     priceSuffix: 'Faktureres årligt',
@@ -378,23 +378,23 @@ Kombiner mønstertog med malebog sider til hybrid produkter. Opret "Mønster og 
       {
         id: '1',
         question: 'Er Denne Mønstertog Generator Virkelig Gratis - Gratis Skoleopgaver til Print for 0. Klasse og 1. Klasse?',
-        answer: `Mønstertog generatoren kræver Full Access abonnement der koster $240 årligt eller $25 månedligt. Dit abonnement giver ubegrænset oprettelse af mønstertog arbejdsark uden ekstra gebyrer per opgave. Opret så mange gratis skoleopgaver til print som du behøver uden yderligere omkostninger. Full Access inkluderer alle 33 arbejdsarksgeneratorer på platformen.
+        answer: `Mønstertog generatoren kræver Fuld Adgang abonnement der koster $240 årligt eller $25 månedligt. Dit abonnement giver ubegrænset oprettelse af mønstertog arbejdsark uden ekstra gebyrer per opgave. Opret så mange gratis skoleopgaver til print som du behøver uden yderligere omkostninger. Fuld Adgang inkluderer alle 33 arbejdsarksgeneratorer på platformen.
 
-Full Access abonnement inkluderer kommerciel licens, 11 sprog understøttelse og professionel 300 DPI kvalitet eksporter. Du får adgang til mønstertog plus gangetabeller, malebog generatorer, matematikopgaver og meget mere. Alt inkluderet i samme $240 årlige pris. Ubegrænset oprettelse betyder ægte værdi for lærere der opretter mange opgaver til print ugentligt.`,
+Fuld Adgang abonnement inkluderer kommerciel licens, 11 sprog understøttelse og professionel 300 DPI kvalitet eksporter. Du får adgang til mønstertog plus gangetabeller, malebog generatorer, matematikopgaver og meget mere. Alt inkluderet i samme $240 årlige pris. Ubegrænset oprettelse betyder ægte værdi for lærere der opretter mange opgaver til print ugentligt.`,
       },
       {
         id: '2',
         question: 'Kan Jeg Kombinere Mønstertog med Lære Bogstaver Aktiviteter og Gangetabeller for Komplet Matematik Læring?',
-        answer: `Ja, mønstertog kombinerer perfekt med lære bogstaver aktiviteter og gangetabeller. Brug billeder af genstande der starter med specifikke bogstaver. Opret A-B mønster med Æble og Banan for at undervise både mønstre og bogstav lyde. Dette dual-læringsmål er perfekt til børnehaveklasse og 0. klasse børn.
+        answer: `Ja, mønstertog kombinerer perfekt med lære bogstaver aktiviteter og gangetabeller. Brug billeder af genstande der starter med specifikke bogstaver. Opret A-B mønster med Æble og Banan for at undervise både mønstre og bogstav lyde. Dette dobbelt læringsmål er perfekt til børnehaveklasse og 0. klasse børn.
 
-For ældre børn kombiner mønstertog med gangetabeller øvelse. Brug tallene i mønsteret til multiplikation. Eller opret separate gangetabeller arbejdsark fra samme Full Access platform. Opret komplet ugentlig matematik pakke: mønstertog mandag, gangetabeller tirsdag, blandet øvelse onsdag. Varierede aktiviteter holder børn engagerede.
+For ældre børn kombiner mønstertog med gangetabeller øvelse. Brug tallene i mønsteret til multiplikation. Eller opret separate gangetabeller arbejdsark fra samme Fuld Adgang platform. Opret komplet ugentlig matematik pakke: mønstertog mandag, gangetabeller tirsdag, blandet øvelse onsdag. Varierede aktiviteter holder børn engagerede.
 
-Full Access giver 33 forskellige generatorer. Kombiner mønstertog, gangetabeller, lære bogstaver opgaver, matematikopgaver og malebog aktiviteter. Opret tematiske læringspakker der rammer multiple kompetencemål samtidigt. Dette er hvorfor lærere elsker Full Access fleksibilitet.`,
+Fuld Adgang giver 33 forskellige generatorer. Kombiner mønstertog, gangetabeller, lære bogstaver opgaver, matematikopgaver og malebog aktiviteter. Opret tematiske læringspakker der rammer multiple kompetencemål samtidigt. Dette er hvorfor lærere elsker Fuld Adgang fleksibilitet.`,
       },
       {
         id: '3',
         question: 'Hvordan Bruger Jeg Mønstertog med Malebog og Farvelægning Aktiviteter for Finmotorik Udvikling?',
-        answer: `Mønstertog arbejdsark fungerer fantastisk som malebog aktiviteter. Download mønstertog i gråtone. Børn løser mønsteret først. Derefter farvelægger de hele toget og billeder. Dette kombinerer kognitiv læring med farvelægning finmotorik udvikling. Dual-purpose aktiviteter sparer forberedelsestid.
+        answer: `Mønstertog arbejdsark fungerer fantastisk som malebog aktiviteter. Download mønstertog i gråtone. Børn løser mønsteret først. Derefter farvelægger de hele toget og billeder. Dette kombinerer kognitiv læring med farvelægning finmotorik udvikling. Dobbelt formål aktiviteter sparer forberedelsestid.
 
 Kombiner mønstertog med dedikeret malebog generator på platformen. Opret matchende tematiske sæt. Mønstertog med dyrebilleder mandag. Malebog med samme dyr tirsdag. Børn ser forbindelse mellem aktiviteter. Tematisk kontinuitet styrker læring og engagement gennem ugen.
 
@@ -405,7 +405,7 @@ Farvelægning udvikler småmotoriske evner kritiske for skrivning. Børn øver p
         question: 'Støtter Mønstertog Læse og Skrive Udvikling - Kombination med Lære Bogstaver for Børnehaveklasse?',
         answer: `Mønstertog arbejdsark støtter stærkt læse og skrive udvikling. Tilføj instruktioner i tekst: "Find det næste billede i mønsteret". Børn læser sætninger mens de løser opgaver. De lærer at læse og skrive mønster-relaterede ord som "første", "anden", "tredje". Meningsfuld læseøvelse integreret i matematikaktiviteter.
 
-Kombiner mønstertog med lære bogstaver aktiviteter for tidlig læsning. Brug billeder startende med målbogstav. A-mønster med Æble, Ananas, Abe. Børn lærer både bogstav lyde og mønstergenkendelse. Dette dual-læringsmål accelererer både læse og skrive samt matematik udvikling.
+Kombiner mønstertog med lære bogstaver aktiviteter for tidlig læsning. Brug billeder startende med målbogstav. A-mønster med Æble, Ananas, Abe. Børn lærer både bogstav lyde og mønstergenkendelse. Dette dobbelt læringsmål accelererer både læse og skrive samt matematik udvikling.
 
 Flersprogs mønstertog støtter læse og skrive på 11 sprog. Opret samme opgave på dansk og engelsk. Børn lærer at læse og skrive mønster instruktioner på begge sprog. Perfekt til tosprogede programmer hvor børn udvikler læse og skrive evner på multiple sprog samtidigt.`,
       },
@@ -421,11 +421,11 @@ Yngre børn i børnehaveklasse og 0. klasse bruger mønstertog for grundlæggend
       {
         id: '6',
         question: 'Kan Jeg Oprette Både Gangetabeller og Mønstertog Matematikopgaver fra Samme Platform for 1. Klasse?',
-        answer: `Ja, Full Access abonnement inkluderer både mønstertog og gangetabeller generatorer. Opret mønstertog matematikopgaver for mønstergenkendelse. Opret gangetabeller arbejdsark for multiplikation øvelse. Begge fra samme platform for $240 om året. Ingen ekstra omkostninger for multiple generatorer.
+        answer: `Ja, Fuld Adgang abonnement inkluderer både mønstertog og gangetabeller generatorer. Opret mønstertog matematikopgaver for mønstergenkendelse. Opret gangetabeller arbejdsark for multiplikation øvelse. Begge fra samme platform for $240 om året. Ingen ekstra omkostninger for flere generatorer.
 
 Kombiner mønstertog og gangetabeller i ugentlige læringsplaner. Mønster mandag udvikler logisk tænkning. Gangetabeller tirsdag udvikler hurtig tilbagekaldelse. Blandet øvelse onsdag forstærker begge. Varierede matematikopgaver holder 1. klasse og 2. klasse børn engagerede gennem ugen.
 
-Full Access giver 33 generatorer totalt. Mønstertog, gangetabeller, addition, subtraktion, geometri og mere. Opret komplet matematik curriculum fra én platform. Gangetabeller til ældre klasser. Mønstertog til yngre. Alle behov dækket med ét abonnement.`,
+Fuld Adgang giver 33 generatorer totalt. Mønstertog, gangetabeller, addition, subtraktion, geometri og mere. Opret komplet matematik pensum fra én platform. Gangetabeller til ældre klasser. Mønstertog til yngre. Alle behov dækket med ét abonnement.`,
       },
       {
         id: '7',
@@ -439,7 +439,7 @@ Start med store simple mønstre til yngste børn. Færre vogner, større billede
       {
         id: '8',
         question: 'Kan Jeg Print Mønstertog som Gratis Skoleopgaver - Massudskrivning til Hele Klassen?',
-        answer: `Ja, download mønstertog arbejdsark og print ubegrænset. Dit Full Access abonnement giver ubegrænset print rettigheder. Print gratis skoleopgaver til hele klassen. Print uges værd af opgaver på forhånd. Ingen per-print gebyrer. Opret og print så meget som du behøver.
+        answer: `Ja, download mønstertog arbejdsark og print ubegrænset. Dit Fuld Adgang abonnement giver ubegrænset print rettigheder. Print gratis skoleopgaver til hele klassen. Print uges værd af opgaver på forhånd. Ingen per-print gebyrer. Opret og print så meget som du behøver.
 
 Kombiner mønstertog med gangetabeller og andre gratis skoleopgaver for komplet ugentlig pakke. Print alle mandags opgaver søndag aften. Hav mønstertog, gangetabeller, matematikopgaver og malebog klar. Massudskrivning på få minutter i stedet for timer af forberedelse.
 

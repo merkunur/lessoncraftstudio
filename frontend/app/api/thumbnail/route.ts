@@ -6,7 +6,7 @@ import fs from 'fs/promises';
 export const dynamic = 'force-dynamic';
 
 // In-memory cache for thumbnails (persists across requests in same server instance)
-const thumbnailCache = new Map<string, { buffer: Uint8Array; contentType: string; timestamp: number }>();
+const thumbnailCache = new Map<string, { buffer: ArrayBuffer; contentType: string; timestamp: number }>();
 const CACHE_MAX_AGE = 24 * 60 * 60 * 1000; // 24 hours
 const MAX_CACHE_SIZE = 500; // Max number of cached thumbnails
 
@@ -91,17 +91,20 @@ export async function GET(request: NextRequest) {
       }
     }
 
-    // Convert Buffer to Uint8Array for compatibility
-    const uint8Array = new Uint8Array(outputBuffer);
+    // Convert Buffer to ArrayBuffer for compatibility
+    const arrayBuffer = outputBuffer.buffer.slice(
+      outputBuffer.byteOffset,
+      outputBuffer.byteOffset + outputBuffer.byteLength
+    );
 
     thumbnailCache.set(cacheKey, {
-      buffer: uint8Array,
+      buffer: arrayBuffer,
       contentType: 'image/webp',
       timestamp: Date.now(),
     });
 
     // Return the resized image
-    return new Response(uint8Array, {
+    return new Response(arrayBuffer, {
       headers: {
         'Content-Type': 'image/webp',
         'Cache-Control': 'public, max-age=86400, stale-while-revalidate=604800',

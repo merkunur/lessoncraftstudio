@@ -109,6 +109,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       it: 'matematica-schede',
       pt: 'atividades-matematica-fichas',
       nl: 'rekenen-werkbladen',
+      da: 'matematikopgaver-arbejdsark',
     },
   },
   {

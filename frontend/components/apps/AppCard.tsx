@@ -86,6 +86,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     it: 'matematica-schede',
     pt: 'atividades-matematica-fichas',
     nl: 'rekenen-werkbladen',
+    da: 'matematikopgaver-arbejdsark',
   },
   'word-scramble': {
     en: 'word-scramble-worksheets',

@@ -294,6 +294,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     it: 'treno-sequenze-schede',
     pt: 'trem-padroes-fichas',
     nl: 'patroontrein-werkbladen',
+    da: 'moenstertog-arbejdsark',
   },
   'pattern-worksheet': {
     en: 'pattern-worksheets',

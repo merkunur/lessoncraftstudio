@@ -371,6 +371,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       it: 'treno-sequenze-schede',
       pt: 'trem-padroes-fichas',
       nl: 'patroontrein-werkbladen',
+      da: 'moenstertog-arbejdsark',
     },
   },
   {

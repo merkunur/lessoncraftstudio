@@ -343,6 +343,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       it: 'confronto-numeri-schede',
       pt: 'maior-menor-fichas',
       nl: 'meer-minder-werkbladen',
+      da: 'sammenligningsopgaver-arbejdsark',
     },
   },
   {

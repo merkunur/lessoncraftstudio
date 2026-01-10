@@ -309,6 +309,7 @@ import crosswordDaContent from '@/content/product-pages/da/krydsord-arbejdsark';
 import cryptogramDaContent from '@/content/product-pages/da/kryptogram-arbejdsark';
 import mathPuzzleDaContent from '@/content/product-pages/da/matteleger-arbejdsark';
 import missingPiecesDaContent from '@/content/product-pages/da/manglende-brikker-arbejdsark';
+import moreLessDaContent from '@/content/product-pages/da/sammenligningsopgaver-arbejdsark';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -1379,6 +1380,10 @@ export const contentRegistry: ContentRegistry = {
     'manglende-brikker-arbejdsark': missingPiecesDaContent,
     // Also keep old slug for backwards compatibility during transition
     'missing-pieces-worksheets': missingPiecesDaContent,
+    // Danish More Less (Sammenligningsopgaver) - uses Danish SEO slug
+    'sammenligningsopgaver-arbejdsark': moreLessDaContent,
+    // Also keep old slug for backwards compatibility during transition
+    'more-less-worksheets': moreLessDaContent,
   },
 };
 

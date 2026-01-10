@@ -304,6 +304,7 @@ import chartCountDaContent from '@/content/product-pages/da/billediagram-arbejds
 import codeAdditionDaContent from '@/content/product-pages/da/kode-plusstykker-arbejdsark';
 import drawAndColorDaContent from '@/content/product-pages/da/tegn-og-farvelaeg-arbejdsark';
 import findObjectsDaContent from '@/content/product-pages/da/find-objekterne-arbejdsark';
+import gridMatchDaContent from '@/content/product-pages/da/raster-puslespil-arbejdsark';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -1354,6 +1355,10 @@ export const contentRegistry: ContentRegistry = {
     'find-objekterne-arbejdsark': findObjectsDaContent,
     // Also keep old slug for backwards compatibility during transition
     'find-objects-worksheets': findObjectsDaContent,
+    // Danish Grid Match (Raster-Puslespil) - uses Danish SEO slug
+    'raster-puslespil-arbejdsark': gridMatchDaContent,
+    // Also keep old slug for backwards compatibility during transition
+    'grid-match-worksheets': gridMatchDaContent,
   },
 };
 

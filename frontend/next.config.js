@@ -1428,6 +1428,12 @@ const nextConfig = {
         destination: '/da/apps/find-objekterne-arbejdsark',
         permanent: true,
       },
+      // Danish: grid-match-worksheets → raster-puslespil-arbejdsark
+      {
+        source: '/da/apps/grid-match-worksheets',
+        destination: '/da/apps/raster-puslespil-arbejdsark',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

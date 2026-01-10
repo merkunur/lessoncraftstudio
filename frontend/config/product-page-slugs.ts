@@ -273,6 +273,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       it: 'griglia-abbinamento-schede',
       pt: 'quebra-cabeca-grade-fichas',
       nl: 'raster-puzzel-werkbladen',
+      da: 'raster-puslespil-arbejdsark',
     },
   },
   {

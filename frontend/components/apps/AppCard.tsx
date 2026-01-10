@@ -217,6 +217,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     it: 'griglia-abbinamento-schede',
     pt: 'quebra-cabeca-grade-fichas',
     nl: 'raster-puzzel-werkbladen',
+    da: 'raster-puslespil-arbejdsark',
   },
   'image-crossword': {
     en: 'crossword-worksheets',

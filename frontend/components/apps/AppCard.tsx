@@ -283,6 +283,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     it: 'trova-intruso-schede',
     pt: 'encontre-diferente-fichas',
     nl: 'welke-hoort-niet-bij-werkbladen',
+    da: 'find-den-ulige-arbejdsark',
   },
   'pattern-train': {
     en: 'pattern-train-worksheets',

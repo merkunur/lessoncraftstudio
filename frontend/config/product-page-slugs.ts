@@ -357,6 +357,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       it: 'trova-intruso-schede',
       pt: 'encontre-diferente-fichas',
       nl: 'welke-hoort-niet-bij-werkbladen',
+      da: 'find-den-ulige-arbejdsark',
     },
   },
   {

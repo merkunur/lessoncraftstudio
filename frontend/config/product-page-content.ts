@@ -310,6 +310,7 @@ import cryptogramDaContent from '@/content/product-pages/da/kryptogram-arbejdsar
 import mathPuzzleDaContent from '@/content/product-pages/da/matteleger-arbejdsark';
 import missingPiecesDaContent from '@/content/product-pages/da/manglende-brikker-arbejdsark';
 import moreLessDaContent from '@/content/product-pages/da/sammenligningsopgaver-arbejdsark';
+import oddOneOutDaContent from '@/content/product-pages/da/find-den-ulige-arbejdsark';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -1384,6 +1385,10 @@ export const contentRegistry: ContentRegistry = {
     'sammenligningsopgaver-arbejdsark': moreLessDaContent,
     // Also keep old slug for backwards compatibility during transition
     'more-less-worksheets': moreLessDaContent,
+    // Danish Odd One Out (Find Den Ulige) - uses Danish SEO slug
+    'find-den-ulige-arbejdsark': oddOneOutDaContent,
+    // Also keep old slug for backwards compatibility during transition
+    'odd-one-out-worksheets': oddOneOutDaContent,
   },
 };
 

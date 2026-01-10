@@ -1416,6 +1416,12 @@ const nextConfig = {
         destination: '/da/apps/kode-plusstykker-arbejdsark',
         permanent: true,
       },
+      // Danish: draw-and-color-worksheets → tegn-og-farvelaeg-arbejdsark
+      {
+        source: '/da/apps/draw-and-color-worksheets',
+        destination: '/da/apps/tegn-og-farvelaeg-arbejdsark',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

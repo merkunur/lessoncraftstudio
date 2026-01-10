@@ -302,6 +302,7 @@ import sudokuDaContent from '@/content/product-pages/da/sudoku-arbejdsark';
 import bigSmallDaContent from '@/content/product-pages/da/stor-lille-arbejdsark';
 import chartCountDaContent from '@/content/product-pages/da/billediagram-arbejdsark';
 import codeAdditionDaContent from '@/content/product-pages/da/kode-plusstykker-arbejdsark';
+import drawAndColorDaContent from '@/content/product-pages/da/tegn-og-farvelaeg-arbejdsark';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -1344,6 +1345,10 @@ export const contentRegistry: ContentRegistry = {
     'kode-plusstykker-arbejdsark': codeAdditionDaContent,
     // Also keep old slug for backwards compatibility during transition
     'code-addition-worksheets': codeAdditionDaContent,
+    // Danish Draw and Color (Tegn og Farvelæg) - uses Danish SEO slug
+    'tegn-og-farvelaeg-arbejdsark': drawAndColorDaContent,
+    // Also keep old slug for backwards compatibility during transition
+    'draw-and-color-worksheets': drawAndColorDaContent,
   },
 };
 

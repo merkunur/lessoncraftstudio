@@ -196,6 +196,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     it: 'disegno-griglia-schede',
     pt: 'desenho-grade-fichas',
     nl: 'rastertekenen-werkbladen',
+    da: 'tegn-og-farvelaeg-arbejdsark',
   },
   'find-objects': {
     en: 'find-objects-worksheets',

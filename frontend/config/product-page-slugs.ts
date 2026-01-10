@@ -246,6 +246,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       it: 'disegno-griglia-schede',
       pt: 'desenho-grade-fichas',
       nl: 'rastertekenen-werkbladen',
+      da: 'tegn-og-farvelaeg-arbejdsark',
     },
   },
   {

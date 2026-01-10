@@ -299,6 +299,7 @@ import matchingDaContent from '@/content/product-pages/da/matchning-arbejdsark';
 import drawingLinesDaContent from '@/content/product-pages/da/linjetraening-arbejdsark';
 import bingoDaContent from '@/content/product-pages/da/bingo-arbejdsark';
 import sudokuDaContent from '@/content/product-pages/da/sudoku-arbejdsark';
+import bigSmallDaContent from '@/content/product-pages/da/stor-lille-arbejdsark';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -1329,6 +1330,10 @@ export const contentRegistry: ContentRegistry = {
     'sudoku-arbejdsark': sudokuDaContent,
     // Also keep old slug for backwards compatibility during transition
     'sudoku-worksheets': sudokuDaContent,
+    // Danish Big Small (Stor og Lille) - uses Danish SEO slug
+    'stor-lille-arbejdsark': bigSmallDaContent,
+    // Also keep old slug for backwards compatibility during transition
+    'big-small-worksheets': bigSmallDaContent,
   },
 };
 

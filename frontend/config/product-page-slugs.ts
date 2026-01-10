@@ -204,6 +204,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       it: 'grande-piccolo-schede',
       pt: 'grande-pequeno-fichas',
       nl: 'groot-klein-werkbladen',
+      da: 'stor-lille-arbejdsark',
     },
   },
   {

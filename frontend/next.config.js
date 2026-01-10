@@ -1398,6 +1398,12 @@ const nextConfig = {
         destination: '/da/apps/sudoku-arbejdsark',
         permanent: true,
       },
+      // Danish: big-small-worksheets → stor-lille-arbejdsark
+      {
+        source: '/da/apps/big-small-worksheets',
+        destination: '/da/apps/stor-lille-arbejdsark',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

@@ -163,6 +163,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     it: 'grande-piccolo-schede',
     pt: 'grande-pequeno-fichas',
     nl: 'groot-klein-werkbladen',
+    da: 'stor-lille-arbejdsark',
   },
   'chart-count-color': {
     en: 'chart-count-worksheets',

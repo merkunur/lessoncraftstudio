@@ -113,6 +113,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       nl: 'rekenen-werkbladen',
       da: 'matematikopgaver-arbejdsark',
       no: 'matematikk-oppgaver-arbeidsark',
+      fi: 'matematiikka-tyoarkit',
     },
   },
   {

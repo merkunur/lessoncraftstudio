@@ -1752,6 +1752,12 @@ const nextConfig = {
         destination: '/fi/apps/varityskuvat-tyoarkit',
         permanent: true,
       },
+      // Finnish: math-worksheets → matematiikka-tyoarkit
+      {
+        source: '/fi/apps/math-worksheets',
+        destination: '/fi/apps/matematiikka-tyoarkit',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

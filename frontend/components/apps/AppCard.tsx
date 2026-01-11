@@ -90,6 +90,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     nl: 'rekenen-werkbladen',
     da: 'matematikopgaver-arbejdsark',
     no: 'matematikk-oppgaver-arbeidsark',
+    fi: 'matematiikka-tyoarkit',
   },
   'word-scramble': {
     en: 'word-scramble-worksheets',

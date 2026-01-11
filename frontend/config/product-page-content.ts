@@ -331,6 +331,7 @@ import mathWorksheetsNoContent from '@/content/product-pages/no/matematikk-oppga
 import wordScrambleNoContent from '@/content/product-pages/no/bokstavoppgaver-arbeidsark';
 import findAndCountNoContent from '@/content/product-pages/no/finn-og-tell-arbeidsark';
 import matchingNoContent from '@/content/product-pages/no/kobling-arbeidsark';
+import drawingLinesNoContent from '@/content/product-pages/no/tegning-av-linjer-arbeidsark';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -1483,6 +1484,10 @@ export const contentRegistry: ContentRegistry = {
     'kobling-arbeidsark': matchingNoContent,
     // Also keep old slug for backwards compatibility during transition
     'matching-worksheets': matchingNoContent,
+    // Norwegian Drawing Lines (Tegning av Linjer) - uses Norwegian SEO slug
+    'tegning-av-linjer-arbeidsark': drawingLinesNoContent,
+    // Also keep old slug for backwards compatibility during transition
+    'drawing-lines-worksheets': drawingLinesNoContent,
   },
 };
 

@@ -1578,6 +1578,12 @@ const nextConfig = {
         destination: '/no/apps/kobling-arbeidsark',
         permanent: true,
       },
+      // Norwegian: drawing-lines-worksheets → tegning-av-linjer-arbeidsark
+      {
+        source: '/no/apps/drawing-lines-worksheets',
+        destination: '/no/apps/tegning-av-linjer-arbeidsark',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

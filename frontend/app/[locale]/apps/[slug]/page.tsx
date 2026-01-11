@@ -212,6 +212,9 @@ import treasureHuntNlContent from '@/content/product-pages/nl/schattenjacht-werk
 import wordGuessNlContent from '@/content/product-pages/nl/woordraadsel-werkbladen';
 import writingNlContent from '@/content/product-pages/nl/schrijfoefeningen-werkbladen';
 
+// Norwegian content imports
+import drawingLinesNoContent from '@/content/product-pages/no/tegning-av-linjer-arbeidsark';
+
 interface PageProps {
   params: {
     locale: string;
@@ -8961,6 +8964,7 @@ export async function generateStaticParams() {
     'bokstavoppgaver-arbeidsark', // Product page slug (Norwegian) - language-specific SEO slug for word-scramble
     'finn-og-tell-arbeidsark', // Product page slug (Norwegian) - language-specific SEO slug for find-and-count
     'kobling-arbeidsark', // Product page slug (Norwegian) - language-specific SEO slug for matching
+    'tegning-av-linjer-arbeidsark', // Product page slug (Norwegian) - language-specific SEO slug for drawing-lines
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

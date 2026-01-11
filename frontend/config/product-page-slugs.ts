@@ -169,6 +169,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       pt: 'tracar-linhas-fichas',
       nl: 'lijnen-trekken-werkbladen',
       da: 'linjetraening-arbejdsark',
+      no: 'tegning-av-linjer-arbeidsark',
     },
   },
   {

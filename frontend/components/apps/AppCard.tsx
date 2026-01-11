@@ -136,6 +136,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     pt: 'tracar-linhas-fichas',
     nl: 'lijnen-trekken-werkbladen',
     da: 'linjetraening-arbejdsark',
+    no: 'tegning-av-linjer-arbeidsark',
   },
   'picture-bingo': {
     en: 'picture-bingo-worksheets',

@@ -16,7 +16,7 @@ export const drawingLinesNoContent: ProductPageContent = {
     slug: 'tegning-av-linjer-arbeidsark',
     appId: 'drawing-lines',
     title: 'Arbeidsark for Tegning av Linjer - Finmotorikk Øvelser og Gratis Arbeidsark for Barnehage',
-    description: 'Lag profesjonelle arbeidsark for tegning av linjer med vår tegnelinjer-generator. Din Core Bundle-abonnement gir deg ubegrenset arbeidsark uten ekstra kostnader per ark. Generer tilpassede arbeidsark for finmotorikk øvelser perfekt for barnehage og 1. trinn. Last ned arbeidsark i høy kvalitet som PDF på under 3 minutter.',
+    description: 'Lag profesjonelle arbeidsark for tegning av linjer med vår tegnelinjer-generator. Din Kjernepakke-abonnement gir deg ubegrenset arbeidsark uten ekstra kostnader per ark. Generer tilpassede arbeidsark for finmotorikk øvelser perfekt for barnehage og 1. trinn. Last ned arbeidsark i høy kvalitet som PDF på under 3 minutter.',
     keywords: 'tegning av linjer, arbeidsark gratis, finmotorikk øvelser, oppgavehefter barn, bokstaver lære skrive, lesetrening, matematikk oppgaver, fargeleggingsbilder barn, tall og telling, gangetabellen',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/tegning-av-linjer-arbeidsark',
   },
@@ -25,7 +25,7 @@ export const drawingLinesNoContent: ProductPageContent = {
   hero: {
     title: 'Arbeidsark for Tegning av Linjer - Finmotorikk Øvelser',
     subtitle: 'Gratis Arbeidsark for Barnehage',
-    description: `Lag profesjonelle arbeidsark for tegning av linjer med vår tegnelinjer-generator. Din Core Bundle-abonnement gir deg ubegrenset arbeidsark uten ekstra kostnader per ark. Generer tilpassede arbeidsark for finmotorikk øvelser perfekt for barnehage og 1. trinn. Last ned arbeidsark i høy kvalitet som PDF på under 3 minutter.
+    description: `Lag profesjonelle arbeidsark for tegning av linjer med vår tegnelinjer-generator. Ditt Kjernepakke-abonnement gir deg ubegrenset arbeidsark uten ekstra kostnader per ark. Generer tilpassede arbeidsark for finmotorikk øvelser perfekt for barnehage og 1. trinn. Last ned arbeidsark i høy kvalitet som PDF på under 3 minutter.
 
 Tegning av linjer er grunnleggende for barns skrivetrening. Vårt verktøy hjelper pedagoger med å lage engasjerende finmotorikk øvelser som forbereder barn for å lære skrive bokstaver. Velg mellom 8 ulike linjemønstre inkludert kurver, diagonaler, horisontale og vertikale linjer. Hver mal kan tilpasses med bilder fra vårt bibliotek på over 3000 barnvennlige illustrasjoner.
 
@@ -104,7 +104,7 @@ Arbeidsark for tegning av linjer støtter barnehagepedagoger og lærere i småsk
   // Features Grid - FULL text from drawing-lines.md feature sections
   features: {
     sectionTitle: 'Funksjoner for Finmotorikk Øvelser - Alt du Trenger for Arbeidsark Gratis',
-    sectionDescription: 'Tegnelinjer-generatoren vår gir barnehagepedagoger og lærere kraftige verktøy for å lage finmotorikk øvelser. Systemet kombinerer enkle kontroller med profesjonelle resultater. Lag arbeidsark for tegning av linjer på 3 minutter. Core Bundle-abonnementet inkluderer alle funksjoner uten ekstra kostnader. Hver funksjon er designet for pedagoger som trenger raske løsninger for finmotorikk øvelser og skrivetrening.',
+    sectionDescription: 'Tegnelinjer-generatoren vår gir barnehagepedagoger og lærere kraftige verktøy for å lage finmotorikk øvelser. Systemet kombinerer enkle kontroller med profesjonelle resultater. Lag arbeidsark for tegning av linjer på 3 minutter. Kjernepakke-abonnementet inkluderer alle funksjoner uten ekstra kostnader. Hver funksjon er designet for pedagoger som trenger raske løsninger for finmotorikk øvelser og skrivetrening.',
     highlightBadgeText: 'Viktig Funksjon',
     readMoreLabel: 'Les mer',
     showLessLabel: 'Vis mindre',
@@ -156,18 +156,18 @@ Bildebiblioteket lagrer opplastinger for økten. Bruk samme bilder på tvers av 
 
 Norsk grensesnitt gjør verktøyet tilgjengelig for alle norske pedagoger. Ingen engelskkunnskaper kreves. Lag finmotorikk øvelser, lesetrening og matematikk oppgaver i ditt eget språk. Bildene har norske filnavn som støtter ordforrådsutvikling.
 
-Bytt språk når som helst via innstillingsmenyen. Bruk samme verktøy for norsk, engelsk, svensk eller andre språk. Flerspråkstøtte gjør verktøyet perfekt for internasjonale skoler. Lag lesetrening og matematikk oppgaver for ulike språkgrupper. Core Bundle inkluderer alle 11 språk uten ekstra kostnad.`,
+Bytt språk når som helst via innstillingsmenyen. Bruk samme verktøy for norsk, engelsk, svensk eller andre språk. Flerspråkstøtte gjør verktøyet perfekt for internasjonale skoler. Lag lesetrening og matematikk oppgaver for ulike språkgrupper. Kjernepakke inkluderer alle 11 språk uten ekstra kostnad.`,
         highlighted: false,
       },
       {
         id: '5',
         icon: '💰',
         title: 'Kommersiell Lisens for Salg på Teachers Pay Teachers - Oppgavehefter Barn Inkludert',
-        description: `Core Bundle-abonnementet inkluderer full kommersiell print-on-demand lisens. Selg arbeidsark for tegning av linjer på Teachers Pay Teachers. List oppgavehefter barn på Etsy uten ekstra lisenskostnader. Publiser arbeidsark i lavinnholdsbøker på Amazon KDP.
+        description: `Kjernepakke-abonnementet inkluderer full kommersiell print-on-demand lisens. Selg arbeidsark for tegning av linjer på Teachers Pay Teachers. List oppgavehefter barn på Etsy uten ekstra lisenskostnader. Publiser arbeidsark i lavinnholdsbøker på Amazon KDP.
 
-Kommersiell lisens er inkludert i $144/år abonnementet. Ingen ekstra avgifter for å selge arbeidsark. Lag oppgavehefter barn og selg dem umiddelbart. 300 DPI eksport sikrer profesjonell utskriftskvalitet. Kunder mottar skarpe, klare arbeidsark.
+Kommersiell lisens er inkludert i kr 1 075/år abonnementet. Ingen ekstra avgifter for å selge arbeidsark. Lag oppgavehefter barn og selg dem umiddelbart. 300 DPI eksport sikrer profesjonell utskriftskvalitet. Kunder mottar skarpe, klare arbeidsark.
 
-Mange lærere tjener $500-$5000 per måned ved å selge arbeidsark. Lag finmotorikk øvelser, matematikk oppgaver og lesetrening pakker. Kombiner ulike arbeidsarktyper i komplette oppgavehefter barn. Core Bundle gir deg 10 generatorer for varierte produkter. Markedsfør på Pinterest og sosiale medier.`,
+Mange lærere tjener kr 5 000-50 000 per måned ved å selge arbeidsark. Lag finmotorikk øvelser, matematikk oppgaver og lesetrening pakker. Kombiner ulike arbeidsarktyper i komplette oppgavehefter barn. Kjernepakke gir deg 10 generatorer for varierte produkter. Markedsfør på Pinterest og sosiale medier.`,
         highlighted: true,
       },
       {
@@ -198,7 +198,7 @@ Last ned arbeidsark umiddelbart etter generering. Ingen ventetid for rendering. 
   // How-To Guide - FULL text from drawing-lines.md step sections
   howTo: {
     sectionTitle: 'Hvordan Lage Finmotorikk Øvelser og Arbeidsark Gratis på 5 Enkle Trinn',
-    sectionDescription: 'Lag profesjonelle arbeidsark for tegning av linjer på under 3 minutter. Følg disse fem enkle trinnene. Ingen designerfaring kreves. Systemet guider deg gjennom hele prosessen. Pedagoger lager finmotorikk øvelser raskere enn tradisjonelle metoder. Resultatet er arbeidsark gratis som en del av Core Bundle-abonnementet.',
+    sectionDescription: 'Lag profesjonelle arbeidsark for tegning av linjer på under 3 minutter. Følg disse fem enkle trinnene. Ingen designerfaring kreves. Systemet guider deg gjennom hele prosessen. Pedagoger lager finmotorikk øvelser raskere enn tradisjonelle metoder. Resultatet er arbeidsark gratis som en del av Kjernepakke-abonnementet.',
     ctaText: 'Start Nå',
     badgeText: 'Slik Fungerer Det',
     stepLabel: 'Trinn',
@@ -213,7 +213,7 @@ Last ned arbeidsark umiddelbart etter generering. Ingen ventetid for rendering. 
         id: '1',
         number: 1,
         title: 'Velg Linjemal og Bilder - Lag Finmotorikk Øvelser og Arbeidsark Gratis',
-        description: `Åpne Template & Bilder-seksjonen i venstre panel. Se 8 forskjellige linjemaler i rutenettet. Hver mal viser en forhåndsvisning av linjemønsteret. Klikk på hvilken som helst mal for å velge den. Valgt mal lyser opp med blå ramme.
+        description: `Åpne Mal og Bilder-seksjonen i venstre panel. Se 8 forskjellige linjemaler i rutenettet. Hver mal viser en forhåndsvisning av linjemønsteret. Klikk på hvilken som helst mal for å velge den. Valgt mal lyser opp med blå ramme.
 
 De 8 linjmalene tilbyr variert vanskelighetsgrad. Kurver 1-4 gir progressive kurvemønstre. Diagonale linjer 1-2 øver skrå bevegelser. Horisontale og vertikale linjer starter med de enkleste mønstrene. Velg basert på barnas ferdighetsnivå for finmotorikk øvelser.
 
@@ -224,7 +224,7 @@ Etter å ha valgt mal, tildel bilder til bildepar. Tabellen viser venstre og hø
         id: '2',
         number: 2,
         title: 'Tilpass Sideinnstillinger for Matematikk Oppgaver, Tall og Telling, og Addisjon og Subtraksjon',
-        description: `Åpne Sideoppsett-seksjonen for å justere arkstørrelse. Velg mellom Letter Portrait, Letter Landscape, A4 Portrait eller A4 Landscape. Norske skoler bruker typisk A4-formater. Landskapsorientering gir mer plass for større bilder. Portrettorientering fungerer for vertikale linjemønstre.
+        description: `Åpne Sideoppsett-seksjonen for å justere arkstørrelse. Velg mellom US Letter stående, US Letter liggende, A4 stående eller A4 liggende. Norske skoler bruker typisk A4-formater. Landskapsorientering gir mer plass for større bilder. Portrettorientering fungerer for vertikale linjemønstre.
 
 Inkluder Navn/Dato felt hvis barn skal skrive navn på arbeidsark. Denne funksjonen legger til tekstbokser øverst. Perfekt for klasseromshåndtering og organisering. Arbeidsark blir personlige for hver elev. Bruk samme innstillinger for matematikk oppgaver og tall og telling øvelser.
 
@@ -261,7 +261,7 @@ Lag komplette oppgavehefter barn ved å kombinere elementer. Legg til numre ved 
 
 Før nedlasting, vurder Gråtone-alternativet for å spare blekk. Kryss av for Gråtone i nedlastingsmenyen. Systemet konverterer fargede bilder til svart-hvitt. Utskriftskvaliteten forblir skarp og klar. Gråtone fungerer perfekt for masseutskrift av finmotorikk øvelser.
 
-Bruk samme nedlastingsprosess for alle arbeidsarktyper. Lag gangetabellen arbeidsark, matematikk oppgaver, og lesetrening på samme måte. Eksporter alt i 300 DPI profesjonell kvalitet. Filer er klare for utskrift, salg eller deling. Lag komplette oppgavehefter barn ved å kombinere flere arbeidsark i én PDF-fil. Core Bundle gir ubegrenset nedlastinger av arbeidsark gratis.`,
+Bruk samme nedlastingsprosess for alle arbeidsarktyper. Lag gangetabellen arbeidsark, matematikk oppgaver, og lesetrening på samme måte. Eksporter alt i 300 DPI profesjonell kvalitet. Filer er klare for utskrift, salg eller deling. Lag komplette oppgavehefter barn ved å kombinere flere arbeidsark i én PDF-fil. Kjernepakke gir ubegrenset nedlastinger av arbeidsark gratis.`,
         icon: '📥',
       },
     ],
@@ -270,7 +270,7 @@ Bruk samme nedlastingsprosess for alle arbeidsarktyper. Lag gangetabellen arbeid
   // Use Cases - FULL text from drawing-lines.md use case sections
   useCases: {
     sectionTitle: 'Perfekt for Pedagoger og Foreldre - Finmotorikk Øvelser og Arbeidsark Gratis for Alle Behov',
-    sectionDescription: 'Tegnelinjer-generatoren tjener ulike pedagogiske roller og utfordringer. Barnehagepedagoger, lærere i småskoletrinnet, hjemmeskolebarn foreldre og spesialpedagoger bruker alle systemet. Hver brukergruppe finner unike fordeler. Tilpass arbeidsark for finmotorikk øvelser til spesifikke klasseromsbehov. Core Bundle-abonnementet støtter alle undervisningskontekster med arbeidsark gratis.',
+    sectionDescription: 'Tegnelinjer-generatoren tjener ulike pedagogiske roller og utfordringer. Barnehagepedagoger, lærere i småskoletrinnet, hjemmeskolebarn foreldre og spesialpedagoger bruker alle systemet. Hver brukergruppe finner unike fordeler. Tilpass arbeidsark for finmotorikk øvelser til spesifikke klasseromsbehov. Kjernepakke-abonnementet støtter alle undervisningskontekster med arbeidsark gratis.',
     badgeText: 'Hvem Er Det For',
     readMoreLabel: 'Les mer',
     showLessLabel: 'Vis mindre',
@@ -296,7 +296,7 @@ Lag forskjellige vanskelighetsgrader for blandede ferdighetsnivåer. Yngre barn 
 
 Kombiner linjetrekking med lesetrening ved å bruke tema-ord. Velg dyrbilder og legg til dyrenavn som tekst. Barn sporer linjer og leser ord samtidig. Denne flerferdighetsøvingen maksimerer instruksjonstid. 2. trinn studenter drar nytte av mer komplekse mønstre.
 
-Bruk arbeidsark som morgenarbeid eller sentre rotasjoner. Tegning av linjer fungerer perfekt som uavhengig aktivitet. Barn kan fullføre uten konstant lærerveiledning. 3. trinn studenter bruker dem for kalligrafipraksis. Lag ukentlige pakker ved å kombinere ulike linjemønstre. Core Bundle gir ubegrenset arbeidsark gratis for daglige behov.`,
+Bruk arbeidsark som morgenarbeid eller sentre rotasjoner. Tegning av linjer fungerer perfekt som uavhengig aktivitet. Barn kan fullføre uten konstant lærerveiledning. 3. trinn studenter bruker dem for kalligrafipraksis. Lag ukentlige pakker ved å kombinere ulike linjemønstre. Kjernepakke gir ubegrenset arbeidsark gratis for daglige behov.`,
         quote: 'Elevene forbedrer håndskriften sin merkbart.',
       },
       {
@@ -308,7 +308,7 @@ Bruk arbeidsark som morgenarbeid eller sentre rotasjoner. Tegning av linjer fung
 
 Kombiner tegnelinjer med matematikk oppgaver for integrert læring. Legg til numre ved siden av bildepar. Barn teller bilder mens de sporer linjer. Denne kombinasjonen gjør flere ferdigheter samtidig. Spar undervisningstid med effektive oppgavehefter barn.
 
-Last opp familiebilder for meningsfullt innhold. Barn sporer linjer mellom familiemedlemmers ansikter. Personalisering øker motivasjon betydelig. Lag ukentlige hjemmelekser pakker ved å kombinere forskjellige arbeidsarktyper. En Core Bundle-abonnement dekker alle barnas behov. Spar sammenlignet med å kjøpe separate materialer for hvert barn.`,
+Last opp familiebilder for meningsfullt innhold. Barn sporer linjer mellom familiemedlemmers ansikter. Personalisering øker motivasjon betydelig. Lag ukentlige hjemmelekser pakker ved å kombinere forskjellige arbeidsarktyper. En Kjernepakke-abonnement dekker alle barnas behov. Spar sammenlignet med å kjøpe separate materialer for hvert barn.`,
         quote: 'Alle barna mine kan jobbe med tilpassede oppgaver.',
       },
       {
@@ -332,7 +332,7 @@ Lag tematiske arbeidsark som matcher språkleksjoner. Mattema denne uken får ma
 
 Juster bildestørrelse ved å dra hjørner på lerretet. Skap ekstra store bilder for barn med synsvansker. Bruk kun horisontale linjer for barn som sliter med komplekse bevegelser. Gradvis introduser diagonaler og kurver når barnet er klar. Denne progressive tilnærmingen bygger selvtillit.
 
-Lag oppgavehefter barn spesielt designet for hver elevs IEP-mål. Et barn øver venstre-til-høyre sporføring. Et annet barn fokuserer på topp-til-bunn bevegelser. Personaliser med bilder barnet elsker for økt engasjement. Dokumenter framgang ved å lagre arbeidsark over tid. Core Bundle gir ubegrenset generering for daglige intervensjoner.`,
+Lag oppgavehefter barn spesielt designet for hver elevs IEP-mål. Et barn øver venstre-til-høyre sporføring. Et annet barn fokuserer på topp-til-bunn bevegelser. Personaliser med bilder barnet elsker for økt engasjement. Dokumenter framgang ved å lagre arbeidsark over tid. Kjernepakke gir ubegrenset generering for daglige intervensjoner.`,
         quote: 'Jeg kan endelig lage perfekt tilpassede oppgaver for hver elev.',
       },
       {
@@ -340,11 +340,11 @@ Lag oppgavehefter barn spesielt designet for hver elevs IEP-mål. Et barn øver 
         icon: '💰',
         title: 'Lærere som Selger på Teachers Pay Teachers - Lag Matematikk Oppgaver, Gangetabellen og Fargeleggingsbilder Barn for Salg',
         subtitle: 'Bygg passiv inntekt med arbeidsark',
-        description: `Mange lærere tjener ekstrainntekt ved å selge arbeidsark. Teachers Pay Teachers, Etsy og Amazon KDP er populære plattformer. Core Bundle-abonnement inkluderer kommersiell lisens uten ekstra avgifter. Skap profesjonelle produkter for salg umiddelbart.
+        description: `Mange lærere tjener ekstrainntekt ved å selge arbeidsark. Teachers Pay Teachers, Etsy og Amazon KDP er populære plattformer. Kjernepakke-abonnement inkluderer kommersiell lisens uten ekstra avgifter. Skap profesjonelle produkter for salg umiddelbart.
 
-Lag tematiske oppgavehefter barn for sesongbasert salg. Høsttema i september, vinter-tema i desember. Kombiner tegnelinjer med matematikk oppgaver og gangetabellen for komplette pakker. Kjøpere betaler mer for omfattende ressurser. Ett Core Bundle-abonnement gir 10 generatorer for varierte produkter.
+Lag tematiske oppgavehefter barn for sesongbasert salg. Høsttema i september, vinter-tema i desember. Kombiner tegnelinjer med matematikk oppgaver og gangetabellen for komplette pakker. Kjøpere betaler mer for omfattende ressurser. Ett Kjernepakke-abonnement gir 10 generatorer for varierte produkter.
 
-Eksporter alt i 300 DPI profesjonell kvalitet. Kunder forventer skarpe, klare utskrifter. Lag digitale produkter eller utskriftsklare PDF-er. Kombiner tegnelinjer med fargeleggingsbilder barn for 2-i-1 produkter. Markedsfør på Pinterest med attraktive forhåndsvisninger. Mange lærere tjener $500-$5000 månedlig med Core Bundle-generatorer.`,
+Eksporter alt i 300 DPI profesjonell kvalitet. Kunder forventer skarpe, klare utskrifter. Lag digitale produkter eller utskriftsklare PDF-er. Kombiner tegnelinjer med fargeleggingsbilder barn for 2-i-1 produkter. Markedsfør på Pinterest med attraktive forhåndsvisninger. Mange lærere tjener kr 5 000-50 000 månedlig med Kjernepakke-generatorer.`,
         quote: 'Abonnementet betalte seg selv tilbake første måneden.',
       },
     ],
@@ -353,10 +353,10 @@ Eksporter alt i 300 DPI profesjonell kvalitet. Kunder forventer skarpe, klare ut
   // FAQ Section - From drawing-lines.md
   faq: {
     sectionTitle: 'Vanlige Spørsmål om Finmotorikk Øvelser, Arbeidsark Gratis og Matematikk Oppgaver',
-    sectionDescription: 'Pedagoger og foreldre stiller ofte disse spørsmålene om tegnelinjer-generatoren. Svarene klargjør funksjonalitet, abonnementskrav og brukstilfeller. Forstå hvordan systemet fungerer for finmotorikk øvelser og arbeidsark gratis. Lær hvordan du kombinerer med matematikk oppgaver, lesetrening og fargeleggingsbilder barn. Disse svarene hjelper deg med å maksimere Core Bundle-verdien.',
+    sectionDescription: 'Pedagoger og foreldre stiller ofte disse spørsmålene om tegnelinjer-generatoren. Svarene klargjør funksjonalitet, abonnementskrav og brukstilfeller. Forstå hvordan systemet fungerer for finmotorikk øvelser og arbeidsark gratis. Lær hvordan du kombinerer med matematikk oppgaver, lesetrening og fargeleggingsbilder barn. Disse svarene hjelper deg med å maksimere Kjernepakke-verdien.',
     showMoreText: 'Vis flere spørsmål',
     showLessText: 'Vis færre',
-    badgeText: 'FAQ',
+    badgeText: 'OSS',
     readMoreLabel: 'Les mer',
     showLessLabel: 'Vis mindre',
     secureCheckout: 'Sikker betaling',
@@ -365,12 +365,12 @@ Eksporter alt i 300 DPI profesjonell kvalitet. Kunder forventer skarpe, klare ut
       {
         id: '1',
         question: 'Er Denne Tegnelinjer-Generatoren Virkelig Gratis for Arbeidsark Gratis og Finmotorikk Øvelser?',
-        answer: 'Tegnelinjer-generatoren krever et Core Bundle-abonnement som koster $144 årlig eller $15 månedlig. Abonnementet ditt gir ubegrenset arbeidsarksoppretting uten per-ark avgifter. Generer så mange finmotorikk øvelser som du trenger uten ekstra kostnader. Lag daglige arbeidsark gratis som en del av abonnementet. Core Bundle inkluderer 10 populære arbeidsarkgeneratorer. Full Access-abonnement koster $240 årlig og inkluderer alle 33 generatortyper. Begge abonnementer inkluderer kommersiell lisens, 11 språkstøtte og profesjonell 300 DPI kvalitetseksport. Sammenlign med konkurrenter som krever $5-$10 per arbeidsark.',
+        answer: 'Tegnelinjer-generatoren krever et Kjernepakke-abonnement som koster kr 1 075 årlig eller kr 112 månedlig. Abonnementet ditt gir ubegrenset arbeidsarksoppretting uten per-ark avgifter. Generer så mange finmotorikk øvelser som du trenger uten ekstra kostnader. Lag daglige arbeidsark gratis som en del av abonnementet. Kjernepakke inkluderer 10 populære arbeidsarkgeneratorer. Full Tilgang-abonnement koster kr 1 800 årlig og inkluderer alle 33 generatortyper. Begge abonnementer inkluderer kommersiell lisens, 11 språkstøtte og profesjonell 300 DPI kvalitetseksport. Sammenlign med konkurrenter som krever kr 50-100 per arbeidsark.',
       },
       {
         id: '2',
         question: 'Kan Jeg Printe Arbeidsark for Bokstaver Lære Skrive og Lesetrening Hjemme på en Vanlig Skriver?',
-        answer: 'Ja, arbeidsark printer perfekt på vanlige hjemmeskrivere. Last ned som PDF eller JPEG format. Åpne filen og print direkte fra datamaskinen. Alle arbeidsark for bokstaver lære skrive og lesetrening fungerer på standard A4 eller Letter papir. Velg Gråtone-alternativ for å spare blekk. Systemet konverterer fargede bilder til svart-hvitt. Utskriftskvaliteten forblir skarp ved 300 DPI oppløsning. Standard hjemmelaserprinter håndterer volum fint. Inkjet-skrivere fungerer også men bruker mer blekk.',
+        answer: 'Ja, arbeidsark printer perfekt på vanlige hjemmeskrivere. Last ned som PDF eller JPEG format. Åpne filen og print direkte fra datamaskinen. Alle arbeidsark for bokstaver lære skrive og lesetrening fungerer på standard A4 eller US Letter-papir. Velg Gråtone-alternativ for å spare blekk. Systemet konverterer fargede bilder til svart-hvitt. Utskriftskvaliteten forblir skarp ved 300 DPI oppløsning. Standard hjemmelaserprinter håndterer volum fint. Inkjet-skrivere fungerer også men bruker mer blekk.',
       },
       {
         id: '3',
@@ -380,17 +380,17 @@ Eksporter alt i 300 DPI profesjonell kvalitet. Kunder forventer skarpe, klare ut
       {
         id: '4',
         question: 'Kan Jeg Bruke Arbeidsark for Tall og Telling og Addisjon og Subtraksjon i Klasserommet?',
-        answer: 'Core Bundle-abonnement inkluderer ubegrenset klasserombruk for alle oppgaver du lager. Lag arbeidsark for tall og telling for alle studenter. Generer addisjon og subtraksjon oppgaver for daglig øvelse. Print så mange kopier som du trenger for klasserommet. Ingen per-student eller per-kopi begrensninger. Del digitale kopier med foreldre for hjemmelekser. Send PDF-er via e-post eller læringsplattformer. Foreldre kan printe hjemme for ekstra øvelse. Arbeidsark støtter flipped classroom-modeller. Barn kan se instruksjoner hjemme og fullføre arbeidsark i klassen.',
+        answer: 'Kjernepakke-abonnement inkluderer ubegrenset klasserombruk for alle oppgaver du lager. Lag arbeidsark for tall og telling for alle studenter. Generer addisjon og subtraksjon oppgaver for daglig øvelse. Print så mange kopier som du trenger for klasserommet. Ingen per-student eller per-kopi begrensninger. Del digitale kopier med foreldre for hjemmelekser. Send PDF-er via e-post eller læringsplattformer. Foreldre kan printe hjemme for ekstra øvelse. Arbeidsark støtter omvendt undervisning. Barn kan se instruksjoner hjemme og fullføre arbeidsark i klassen.',
       },
       {
         id: '5',
         question: 'Hvilke Språk Er Tilgjengelige for Lesetrening, Gangetabellen og Matematikk Oppgaver?',
-        answer: 'Grensesnittet fungerer i 11 språk inkludert norsk. Lag lesetrening, gangetabellen og matematikk oppgaver på norsk. Bildenavnene oversettes til valgt språk automatisk. Bytt mellom norsk, engelsk, svensk, dansk, finsk, tysk, fransk, spansk, italiensk, portugisisk eller nederlandsk. Flerspråkstøtte er uvurderlig for tospråklige klasserom. Barn lærer konsepter i morsmålet sitt. Internasjonale skoler bruker samme verktøy på tvers av språkgrupper. ESL-lærere kombinerer språkinnlæring med finmotorikk. Alle 11 språk er inkludert i Core Bundle uten ekstra kostnader.',
+        answer: 'Grensesnittet fungerer i 11 språk inkludert norsk. Lag lesetrening, gangetabellen og matematikk oppgaver på norsk. Bildenavnene oversettes til valgt språk automatisk. Bytt mellom norsk, engelsk, svensk, dansk, finsk, tysk, fransk, spansk, italiensk, portugisisk eller nederlandsk. Flerspråkstøtte er uvurderlig for tospråklige klasserom. Barn lærer konsepter i morsmålet sitt. Internasjonale skoler bruker samme verktøy på tvers av språkgrupper. Andrespråkslærere kombinerer språkinnlæring med finmotorikk. Alle 11 språk er inkludert i Kjernepakke uten ekstra kostnader.',
       },
       {
         id: '6',
         question: 'Kan Jeg Selge Arbeidsark for Fargeleggingsbilder Barn, Oppgavehefter Barn og Gangetabellen Jeg Lager?',
-        answer: 'Ja. Core Bundle-abonnement inkluderer full kommersiell print-on-demand lisensering uten ekstra kostnader. Selg arbeidsark for fargeleggingsbilder barn på Teachers Pay Teachers. List oppgavehefter barn på Etsy. Publiser gangetabellen arbeidsark i lavinnholdsbøker på Amazon KDP. Ingen attribusjon kreves på solgte produkter. Ingen royalty-begrensninger eller salgsbegrensninger. Kommersielle rettigheter er inkludert i $144 årlig abonnement. Sammenlign med konkurrenter som krever $79-$150 ekstra per år for kommersielle lisenser. Spar betydelig sammenlignet med andre plattformer.',
+        answer: 'Ja. Kjernepakke-abonnement inkluderer full kommersiell print-on-demand lisensering uten ekstra kostnader. Selg arbeidsark for fargeleggingsbilder barn på Teachers Pay Teachers. List oppgavehefter barn på Etsy. Publiser gangetabellen arbeidsark i lavinnholdsbøker på Amazon KDP. Ingen attribusjon kreves på solgte produkter. Ingen royalty-begrensninger eller salgsbegrensninger. Kommersielle rettigheter er inkludert i kr 1 075 årlig abonnement. Sammenlign med konkurrenter som krever kr 800-1500 ekstra per år for kommersielle lisenser. Spar betydelig sammenlignet med andre plattformer.',
       },
       {
         id: '7',
@@ -415,7 +415,7 @@ Eksporter alt i 300 DPI profesjonell kvalitet. Kunder forventer skarpe, klare ut
       {
         id: '11',
         question: 'Inkluderer Arbeidsark for Gangetabellen og Tall og Telling Svarark?',
-        answer: 'Tegnelinjer-arbeidsark fokuserer på finmotorikk, ikke matematikkløsninger. De inkluderer ikke automatiske svarark. Men du kan lage egne svarversjoner. Lag ett arbeidsark med tomme linjer. Lag en annen versjon med fullførte linjer som svarark. For gangetabellen og tall og telling arbeidsark, bruk andre generatorer i Core Bundle. Matematikkarbeidsark-generatoren inkluderer automatiske svarark. Kombiner flere arbeidsarktyper for komplette pakker. Core Bundle gir 10 generatorer som fungerer sammen. Lag varierte oppgavehefter barn med flere generatorer.',
+        answer: 'Tegnelinjer-arbeidsark fokuserer på finmotorikk, ikke matematikkløsninger. De inkluderer ikke automatiske svarark. Men du kan lage egne svarversjoner. Lag ett arbeidsark med tomme linjer. Lag en annen versjon med fullførte linjer som svarark. For gangetabellen og tall og telling arbeidsark, bruk andre generatorer i Kjernepakke. Matematikkarbeidsark-generatoren inkluderer automatiske svarark. Kombiner flere arbeidsarktyper for komplette pakker. Kjernepakke gir 10 generatorer som fungerer sammen. Lag varierte oppgavehefter barn med flere generatorer.',
       },
       {
         id: '12',
@@ -427,7 +427,7 @@ Eksporter alt i 300 DPI profesjonell kvalitet. Kunder forventer skarpe, klare ut
 
   // Pricing
   pricing: {
-    title: 'Core Bundle',
+    title: 'Kjernepakke',
     price: 'kr 1 075',
     priceInterval: '/år',
     priceSuffix: 'Faktureres årlig',
@@ -446,7 +446,7 @@ Eksporter alt i 300 DPI profesjonell kvalitet. Kunder forventer skarpe, klare ut
   // Related Apps - From drawing-lines.md "Kombiner" section
   relatedApps: {
     sectionTitle: 'Kombiner Tegnelinjer med Andre Arbeidsark - Komplette Oppgavehefter Barn for Addisjon og Subtraksjon, Gangetabellen og Lesetrening',
-    sectionDescription: 'LessonCraft Studio tilbyr 33 gratis arbeidsarkgeneratorer på plattformen. Kombiner tegnelinjer med andre arbeidsarktyper for komplette læringsressurser. Lag oppgavehefter barn som dekker flere ferdigheter. Pedagoger kombinerer finmotorikk med addisjon og subtraksjon, gangetabellen og lesetrening. Core Bundle gir tilgang til 10 populære generatorer. Full Access inkluderer alle 33 verktøy for omfattende ressurspakker.',
+    sectionDescription: 'LessonCraft Studio tilbyr 33 gratis arbeidsarkgeneratorer på plattformen. Kombiner tegnelinjer med andre arbeidsarktyper for komplette læringsressurser. Lag oppgavehefter barn som dekker flere ferdigheter. Pedagoger kombinerer finmotorikk med addisjon og subtraksjon, gangetabellen og lesetrening. Kjernepakke gir tilgang til 10 populære generatorer. Full Tilgang inkluderer alle 33 verktøy for omfattende ressurspakker.',
     ctaTitle: 'Klar til å Lage Fantastiske Arbeidsark?',
     ctaDescription: 'Bli med tusenvis av pedagoger som lager profesjonelle arbeidsark. Ubegrenset oppretting, kommersiell lisens inkludert.',
     primaryCtaText: 'Start Gratis Prøveperiode',

@@ -273,6 +273,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       pt: 'encontrar-objetos-fichas',
       nl: 'zoek-voorwerpen-werkbladen',
       da: 'find-objekterne-arbejdsark',
+      no: 'finn-objektene-arbeidsark',
     },
   },
   {

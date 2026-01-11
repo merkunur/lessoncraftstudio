@@ -1620,6 +1620,12 @@ const nextConfig = {
         destination: '/no/apps/rutenetttegning-arbeidsark',
         permanent: true,
       },
+      // Norwegian: find-objects-worksheets → finn-objektene-arbeidsark
+      {
+        source: '/no/apps/find-objects-worksheets',
+        destination: '/no/apps/finn-objektene-arbeidsark',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

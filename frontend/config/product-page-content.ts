@@ -338,6 +338,7 @@ import bigSmallNoContent from '@/content/product-pages/no/stor-og-liten-arbeidsa
 import chartCountNoContent from '@/content/product-pages/no/bildediagram-arbeidsark';
 import codeAdditionNoContent from '@/content/product-pages/no/bildeaddisjon-arbeidsark';
 import drawAndColorNoContent from '@/content/product-pages/no/rutenetttegning-arbeidsark';
+import findObjectsNoContent from '@/content/product-pages/no/finn-objektene-arbeidsark';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -1518,6 +1519,10 @@ export const contentRegistry: ContentRegistry = {
     'rutenetttegning-arbeidsark': drawAndColorNoContent,
     // Also keep old slug for backwards compatibility during transition
     'draw-and-color-worksheets': drawAndColorNoContent,
+    // Norwegian Find Objects (Finn Objektene) - uses Norwegian SEO slug
+    'finn-objektene-arbeidsark': findObjectsNoContent,
+    // Also keep old slug for backwards compatibility during transition
+    'find-objects-worksheets': findObjectsNoContent,
   },
 };
 

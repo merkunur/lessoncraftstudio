@@ -220,6 +220,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     pt: 'encontrar-objetos-fichas',
     nl: 'zoek-voorwerpen-werkbladen',
     da: 'find-objekterne-arbejdsark',
+    no: 'finn-objektene-arbeidsark',
   },
   'grid-match': {
     en: 'grid-match-worksheets',

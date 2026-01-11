@@ -332,6 +332,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       pt: 'quebra-cabeca-matematica-fichas',
       nl: 'rekenpuzzels-werkbladen',
       da: 'matteleger-arbejdsark',
+      no: 'matematikkgater-arbeidsark',
     },
   },
   {

@@ -267,6 +267,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     pt: 'quebra-cabeca-matematica-fichas',
     nl: 'rekenpuzzels-werkbladen',
     da: 'matteleger-arbejdsark',
+    no: 'matematikkgater-arbeidsark',
   },
   'missing-pieces': {
     en: 'missing-pieces-worksheets',

@@ -342,6 +342,7 @@ import findObjectsNoContent from '@/content/product-pages/no/finn-objektene-arbe
 import gridMatchNoContent from '@/content/product-pages/no/rutenett-tilpasning-arbeidsark';
 import crosswordNoContent from '@/content/product-pages/no/bildekryssord-arbeidsark';
 import cryptogramNoContent from '@/content/product-pages/no/kryptogram-arbeidsark';
+import mathPuzzleNoContent from '@/content/product-pages/no/matematikkgater-arbeidsark';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -1538,6 +1539,10 @@ export const contentRegistry: ContentRegistry = {
     'kryptogram-arbeidsark': cryptogramNoContent,
     // Also keep old slug for backwards compatibility during transition
     'cryptogram-worksheets': cryptogramNoContent,
+    // Norwegian Math Puzzle (Matematikkgåter) - uses Norwegian SEO slug
+    'matematikkgater-arbeidsark': mathPuzzleNoContent,
+    // Also keep old slug for backwards compatibility during transition
+    'math-puzzle-worksheets': mathPuzzleNoContent,
   },
 };
 

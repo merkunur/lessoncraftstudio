@@ -335,6 +335,7 @@ import drawingLinesNoContent from '@/content/product-pages/no/tegning-av-linjer-
 import pictureBingoNoContent from '@/content/product-pages/no/bildlotto-arbeidsark';
 import sudokuNoContent from '@/content/product-pages/no/sudoku-arbeidsark';
 import bigSmallNoContent from '@/content/product-pages/no/stor-og-liten-arbeidsark';
+import chartCountNoContent from '@/content/product-pages/no/bildediagram-arbeidsark';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -1503,6 +1504,10 @@ export const contentRegistry: ContentRegistry = {
     'stor-og-liten-arbeidsark': bigSmallNoContent,
     // Also keep old slug for backwards compatibility during transition
     'big-small-worksheets': bigSmallNoContent,
+    // Norwegian Chart Count (Bildediagram) - uses Norwegian SEO slug
+    'bildediagram-arbeidsark': chartCountNoContent,
+    // Also keep old slug for backwards compatibility during transition
+    'chart-count-worksheets': chartCountNoContent,
   },
 };
 

@@ -184,6 +184,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     pt: 'grafico-pictorico-fichas',
     nl: 'telgrafieken-werkbladen',
     da: 'billediagram-arbejdsark',
+    no: 'bildediagram-arbeidsark',
   },
   'code-addition': {
     en: 'code-addition-worksheets',

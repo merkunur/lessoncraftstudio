@@ -228,6 +228,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       pt: 'grafico-pictorico-fichas',
       nl: 'telgrafieken-werkbladen',
       da: 'billediagram-arbejdsark',
+      no: 'bildediagram-arbeidsark',
     },
   },
   {

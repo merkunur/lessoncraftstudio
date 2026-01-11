@@ -355,6 +355,7 @@ import shadowMatchNoContent from '@/content/product-pages/no/skyggematching-arbe
 import subtractionNoContent from '@/content/product-pages/no/subtraksjon-arbeidsark';
 import treasureHuntNoContent from '@/content/product-pages/no/skattejakt-arbeidsark';
 import wordGuessNoContent from '@/content/product-pages/no/gjetteoppgaver-arbeidsark';
+import writingNoContent from '@/content/product-pages/no/skriveark-arbeidsark';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -1603,6 +1604,10 @@ export const contentRegistry: ContentRegistry = {
     'gjetteoppgaver-arbeidsark': wordGuessNoContent,
     // Also keep old slug for backwards compatibility during transition
     'word-guess-worksheets': wordGuessNoContent,
+    // Norwegian Writing (Skriveark) - uses Norwegian SEO slug
+    'skriveark-arbeidsark': writingNoContent,
+    // Also keep old slug for backwards compatibility during transition
+    'writing-worksheets': writingNoContent,
   },
 };
 

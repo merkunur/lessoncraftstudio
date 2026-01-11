@@ -237,6 +237,7 @@ import shadowMatchNoContent from '@/content/product-pages/no/skyggematching-arbe
 import subtractionNoContent from '@/content/product-pages/no/subtraksjon-arbeidsark';
 import treasureHuntNoContent from '@/content/product-pages/no/skattejakt-arbeidsark';
 import wordGuessNoContent from '@/content/product-pages/no/gjetteoppgaver-arbeidsark';
+import writingNoContent from '@/content/product-pages/no/skriveark-arbeidsark';
 
 interface PageProps {
   params: {
@@ -9011,6 +9012,7 @@ export async function generateStaticParams() {
     'subtraksjon-arbeidsark', // Product page slug (Norwegian) - language-specific SEO slug for subtraction
     'skattejakt-arbeidsark', // Product page slug (Norwegian) - language-specific SEO slug for treasure-hunt
     'gjetteoppgaver-arbeidsark', // Product page slug (Norwegian) - language-specific SEO slug for word-guess
+    'skriveark-arbeidsark', // Product page slug (Norwegian) - language-specific SEO slug for writing
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

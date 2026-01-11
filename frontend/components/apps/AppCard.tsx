@@ -423,6 +423,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     pt: 'caligrafia-fichas',
     nl: 'schrijfoefeningen-werkbladen',
     da: 'skriveopgaver-arbejdsark',
+    no: 'skriveark-arbeidsark',
   },
 };
 

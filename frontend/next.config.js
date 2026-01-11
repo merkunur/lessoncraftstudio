@@ -1722,6 +1722,12 @@ const nextConfig = {
         destination: '/no/apps/gjetteoppgaver-arbeidsark',
         permanent: true,
       },
+      // Norwegian: writing-worksheets → skriveark-arbeidsark
+      {
+        source: '/no/apps/writing-worksheets',
+        destination: '/no/apps/skriveark-arbeidsark',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

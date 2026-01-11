@@ -291,6 +291,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     pt: 'maior-menor-fichas',
     nl: 'meer-minder-werkbladen',
     da: 'sammenligningsopgaver-arbejdsark',
+    no: 'sammenligningsoppgaver-arbeidsark',
   },
   'odd-one-out': {
     en: 'odd-one-out-worksheets',

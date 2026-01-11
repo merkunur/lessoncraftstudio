@@ -362,6 +362,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       pt: 'maior-menor-fichas',
       nl: 'meer-minder-werkbladen',
       da: 'sammenligningsopgaver-arbejdsark',
+      no: 'sammenligningsoppgaver-arbeidsark',
     },
   },
   {

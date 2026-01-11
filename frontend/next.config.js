@@ -1656,6 +1656,12 @@ const nextConfig = {
         destination: '/no/apps/manglende-biter-arbeidsark',
         permanent: true,
       },
+      // Norwegian: more-less-worksheets → sammenligningsoppgaver-arbeidsark
+      {
+        source: '/no/apps/more-less-worksheets',
+        destination: '/no/apps/sammenligningsoppgaver-arbeidsark',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

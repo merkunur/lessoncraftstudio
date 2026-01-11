@@ -344,6 +344,7 @@ import crosswordNoContent from '@/content/product-pages/no/bildekryssord-arbeids
 import cryptogramNoContent from '@/content/product-pages/no/kryptogram-arbeidsark';
 import mathPuzzleNoContent from '@/content/product-pages/no/matematikkgater-arbeidsark';
 import missingPiecesNoContent from '@/content/product-pages/no/manglende-biter-arbeidsark';
+import moreLessNoContent from '@/content/product-pages/no/sammenligningsoppgaver-arbeidsark';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -1548,6 +1549,10 @@ export const contentRegistry: ContentRegistry = {
     'manglende-biter-arbeidsark': missingPiecesNoContent,
     // Also keep old slug for backwards compatibility during transition
     'missing-pieces-worksheets': missingPiecesNoContent,
+    // Norwegian More or Less (Sammenligningsoppgaver) - uses Norwegian SEO slug
+    'sammenligningsoppgaver-arbeidsark': moreLessNoContent,
+    // Also keep old slug for backwards compatibility during transition
+    'more-less-worksheets': moreLessNoContent,
   },
 };
 

@@ -226,6 +226,7 @@ import crosswordNoContent from '@/content/product-pages/no/bildekryssord-arbeids
 import cryptogramNoContent from '@/content/product-pages/no/kryptogram-arbeidsark';
 import mathPuzzleNoContent from '@/content/product-pages/no/matematikkgater-arbeidsark';
 import missingPiecesNoContent from '@/content/product-pages/no/manglende-biter-arbeidsark';
+import moreLessNoContent from '@/content/product-pages/no/sammenligningsoppgaver-arbeidsark';
 
 interface PageProps {
   params: {
@@ -8989,6 +8990,7 @@ export async function generateStaticParams() {
     'kryptogram-arbeidsark', // Product page slug (Norwegian) - language-specific SEO slug for cryptogram
     'matematikkgater-arbeidsark', // Product page slug (Norwegian) - language-specific SEO slug for math-puzzle
     'manglende-biter-arbeidsark', // Product page slug (Norwegian) - language-specific SEO slug for missing-pieces
+    'sammenligningsoppgaver-arbeidsark', // Product page slug (Norwegian) - language-specific SEO slug for more-less
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

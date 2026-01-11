@@ -1680,6 +1680,12 @@ const nextConfig = {
         destination: '/no/apps/monsteroppgaver-arbeidsark',
         permanent: true,
       },
+      // Norwegian: picture-path-worksheets → bildesti-arbeidsark
+      {
+        source: '/no/apps/picture-path-worksheets',
+        destination: '/no/apps/bildesti-arbeidsark',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

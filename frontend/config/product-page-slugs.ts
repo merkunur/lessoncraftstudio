@@ -422,6 +422,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       pt: 'labirinto-caminhos-fichas',
       nl: 'doolhof-werkbladen',
       da: 'billedsti-arbejdsark',
+      no: 'bildesti-arbeidsark',
     },
   },
   {

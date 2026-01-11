@@ -339,6 +339,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     pt: 'labirinto-caminhos-fichas',
     nl: 'doolhof-werkbladen',
     da: 'billedsti-arbejdsark',
+    no: 'bildesti-arbeidsark',
   },
   'picture-sort': {
     en: 'picture-sort-worksheets',

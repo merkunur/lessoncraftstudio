@@ -230,6 +230,7 @@ import moreLessNoContent from '@/content/product-pages/no/sammenligningsoppgaver
 import oddOneOutNoContent from '@/content/product-pages/no/finn-den-ulike-arbeidsark';
 import patternTrainNoContent from '@/content/product-pages/no/monstertog-arbeidsark';
 import patternWorksheetNoContent from '@/content/product-pages/no/monsteroppgaver-arbeidsark';
+import picturePathNoContent from '@/content/product-pages/no/bildesti-arbeidsark';
 
 interface PageProps {
   params: {

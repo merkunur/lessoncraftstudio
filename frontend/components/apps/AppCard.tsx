@@ -279,6 +279,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     pt: 'pecas-faltantes-fichas',
     nl: 'ontbrekende-puzzelstukjes-werkbladen',
     da: 'manglende-brikker-arbejdsark',
+    no: 'manglende-biter-arbeidsark',
   },
   'more-less': {
     en: 'more-less-worksheets',

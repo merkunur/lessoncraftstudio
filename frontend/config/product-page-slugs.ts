@@ -347,6 +347,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       pt: 'pecas-faltantes-fichas',
       nl: 'ontbrekende-puzzelstukjes-werkbladen',
       da: 'manglende-brikker-arbejdsark',
+      no: 'manglende-biter-arbeidsark',
     },
   },
   {

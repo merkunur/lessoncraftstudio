@@ -1650,6 +1650,12 @@ const nextConfig = {
         destination: '/no/apps/matematikkgater-arbeidsark',
         permanent: true,
       },
+      // Norwegian: missing-pieces-worksheets → manglende-biter-arbeidsark
+      {
+        source: '/no/apps/missing-pieces-worksheets',
+        destination: '/no/apps/manglende-biter-arbeidsark',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

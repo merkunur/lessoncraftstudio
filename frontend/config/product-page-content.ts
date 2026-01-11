@@ -343,6 +343,7 @@ import gridMatchNoContent from '@/content/product-pages/no/rutenett-tilpasning-a
 import crosswordNoContent from '@/content/product-pages/no/bildekryssord-arbeidsark';
 import cryptogramNoContent from '@/content/product-pages/no/kryptogram-arbeidsark';
 import mathPuzzleNoContent from '@/content/product-pages/no/matematikkgater-arbeidsark';
+import missingPiecesNoContent from '@/content/product-pages/no/manglende-biter-arbeidsark';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -1543,6 +1544,10 @@ export const contentRegistry: ContentRegistry = {
     'matematikkgater-arbeidsark': mathPuzzleNoContent,
     // Also keep old slug for backwards compatibility during transition
     'math-puzzle-worksheets': mathPuzzleNoContent,
+    // Norwegian Missing Pieces (Manglende Biter) - uses Norwegian SEO slug
+    'manglende-biter-arbeidsark': missingPiecesNoContent,
+    // Also keep old slug for backwards compatibility during transition
+    'missing-pieces-worksheets': missingPiecesNoContent,
   },
 };
 

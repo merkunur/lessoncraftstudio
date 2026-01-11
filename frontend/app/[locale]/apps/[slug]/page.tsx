@@ -225,6 +225,7 @@ import gridMatchNoContent from '@/content/product-pages/no/rutenett-tilpasning-a
 import crosswordNoContent from '@/content/product-pages/no/bildekryssord-arbeidsark';
 import cryptogramNoContent from '@/content/product-pages/no/kryptogram-arbeidsark';
 import mathPuzzleNoContent from '@/content/product-pages/no/matematikkgater-arbeidsark';
+import missingPiecesNoContent from '@/content/product-pages/no/manglende-biter-arbeidsark';
 
 interface PageProps {
   params: {
@@ -8987,6 +8988,7 @@ export async function generateStaticParams() {
     'bildekryssord-arbeidsark', // Product page slug (Norwegian) - language-specific SEO slug for crossword
     'kryptogram-arbeidsark', // Product page slug (Norwegian) - language-specific SEO slug for cryptogram
     'matematikkgater-arbeidsark', // Product page slug (Norwegian) - language-specific SEO slug for math-puzzle
+    'manglende-biter-arbeidsark', // Product page slug (Norwegian) - language-specific SEO slug for missing-pieces
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

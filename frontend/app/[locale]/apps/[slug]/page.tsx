@@ -542,6 +542,52 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     };
   }
 
+  // Addition Worksheets - Finnish product page SEO (new Finnish slug)
+  if (params.slug === 'yhteenlasku-tyoarkit' && params.locale === 'fi') {
+    return {
+      title: 'Yhteenlaskun Tehtävät Generaattori | Tulostettavat Matematiikka Tehtävät Alakoulu ja Esiopetus',
+      description: 'Luo ammattimaisia yhteenlaskun tehtäviä kuvilla yhteenlaskugeneraattorillamme. Peruspaketti-tilauksesi antaa sinulle rajattoman tehtävien luonnin ilman maksuja per tehtävä.',
+      keywords: 'yhteenlasku tehtävät, matematiikka tehtävät alakoulu, esiopetus materiaali ilmainen, tulostettavat tehtävät lapsille ilmainen, yhteenlasku ja vähennyslasku tehtävät, hienomotoriikka harjoitukset',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/fi/apps/yhteenlasku-tyoarkit',
+        languages: {
+          'en': 'https://www.lessoncraftstudio.com/en/apps/addition-worksheets',
+          'sv': 'https://www.lessoncraftstudio.com/sv/apps/addition-arbetsblad',
+          'de': 'https://www.lessoncraftstudio.com/de/apps/addition-arbeitsblaetter',
+          'fr': 'https://www.lessoncraftstudio.com/fr/apps/addition-fiches',
+          'fi': 'https://www.lessoncraftstudio.com/fi/apps/yhteenlasku-tyoarkit',
+          'x-default': 'https://www.lessoncraftstudio.com/en/apps/addition-worksheets',
+        },
+      },
+      openGraph: {
+        title: 'Yhteenlaskun Tehtävät Generaattori | LessonCraftStudio',
+        description: 'Luo ammattimaisia yhteenlaskun tehtäviä kuvilla. Täydellinen esiopetuksen ja alakoulun opettajille.',
+        url: 'https://www.lessoncraftstudio.com/fi/apps/yhteenlasku-tyoarkit',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Legacy: Redirect old Finnish addition slug to new slug (for backwards compatibility)
+  if (params.slug === 'addition-worksheets' && params.locale === 'fi') {
+    return {
+      title: 'Yhteenlaskun Tehtävät Generaattori | Tulostettavat Matematiikka Tehtävät',
+      description: 'Luo ammattimaisia yhteenlaskun tehtäviä kuvilla yhteenlaskugeneraattorillamme.',
+      robots: {
+        index: false, // Don't index old URL
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/fi/apps/yhteenlasku-tyoarkit', // Point to new URL
+      },
+    };
+  }
+
   // Addition Worksheets - French product page SEO (new French slug)
   if (params.slug === 'addition-fiches' && params.locale === 'fr') {
     return {
@@ -9060,6 +9106,7 @@ export async function generateStaticParams() {
     'gjetteoppgaver-arbeidsark', // Product page slug (Norwegian) - language-specific SEO slug for word-guess
     'skriveark-arbeidsark', // Product page slug (Norwegian) - language-specific SEO slug for writing
     'sananhaku-tyoarkit', // Product page slug (Finnish) - language-specific SEO slug for word-search
+    'yhteenlasku-tyoarkit', // Product page slug (Finnish) - language-specific SEO slug for addition
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

@@ -79,6 +79,7 @@ import writingSvContent from '@/content/product-pages/sv/writing-worksheets';
 
 // Finnish content imports
 import wordSearchFiContent from '@/content/product-pages/fi/word-search-worksheets';
+import additionFiContent from '@/content/product-pages/fi/yhteenlasku-tyoarkit';
 
 // German content imports
 import wordSearchDeContent from '@/content/product-pages/de/word-search-worksheets';
@@ -1617,6 +1618,10 @@ export const contentRegistry: ContentRegistry = {
     'sananhaku-tyoarkit': wordSearchFiContent,
     // Also keep English slug for backwards compatibility during transition
     'word-search-worksheets': wordSearchFiContent,
+    // Finnish Addition (Yhteenlasku) - uses Finnish SEO slug
+    'yhteenlasku-tyoarkit': additionFiContent,
+    // Also keep English slug for backwards compatibility during transition
+    'addition-worksheets': additionFiContent,
   },
 };
 

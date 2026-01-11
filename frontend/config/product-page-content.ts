@@ -86,6 +86,7 @@ import mathWorksheetsFiContent from '@/content/product-pages/fi/matematiikka-tyo
 import wordScrambleFiContent from '@/content/product-pages/fi/sanansekoitus-tyoarkit';
 import findAndCountFiContent from '@/content/product-pages/fi/etsi-ja-laske-tyoarkit';
 import matchingFiContent from '@/content/product-pages/fi/yhdista-parit-tyoarkit';
+import drawingLinesFiContent from '@/content/product-pages/fi/viivojen-piirtaminen-tyoarkit';
 
 // German content imports
 import wordSearchDeContent from '@/content/product-pages/de/word-search-worksheets';
@@ -1652,6 +1653,10 @@ export const contentRegistry: ContentRegistry = {
     'yhdista-parit-tyoarkit': matchingFiContent,
     // Also keep English slug for backwards compatibility during transition
     'matching-worksheets': matchingFiContent,
+    // Finnish Drawing Lines (Viivojen Piirtäminen) - uses Finnish SEO slug
+    'viivojen-piirtaminen-tyoarkit': drawingLinesFiContent,
+    // Also keep English slug for backwards compatibility during transition
+    'drawing-lines-worksheets': drawingLinesFiContent,
   },
 };
 

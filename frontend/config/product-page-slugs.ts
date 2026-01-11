@@ -175,6 +175,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       nl: 'lijnen-trekken-werkbladen',
       da: 'linjetraening-arbejdsark',
       no: 'tegning-av-linjer-arbeidsark',
+      fi: 'viivojen-piirtaminen-tyoarkit',
     },
   },
   {

@@ -142,6 +142,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     nl: 'lijnen-trekken-werkbladen',
     da: 'linjetraening-arbejdsark',
     no: 'tegning-av-linjer-arbeidsark',
+    fi: 'viivojen-piirtaminen-tyoarkit',
   },
   'picture-bingo': {
     en: 'picture-bingo-worksheets',

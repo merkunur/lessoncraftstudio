@@ -1776,6 +1776,12 @@ const nextConfig = {
         destination: '/fi/apps/yhdista-parit-tyoarkit',
         permanent: true,
       },
+      // Finnish: drawing-lines-worksheets → viivojen-piirtaminen-tyoarkit
+      {
+        source: '/fi/apps/drawing-lines-worksheets',
+        destination: '/fi/apps/viivojen-piirtaminen-tyoarkit',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

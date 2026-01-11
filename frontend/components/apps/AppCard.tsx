@@ -77,6 +77,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     nl: 'kleurplaten-werkbladen',
     da: 'malebog-arbejdsark',
     no: 'fargeleggingsbilder-arbeidsark',
+    fi: 'varityskuvat-tyoarkit',
   },
   'math-worksheet': {
     en: 'math-worksheets',

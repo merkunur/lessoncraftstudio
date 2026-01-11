@@ -238,6 +238,7 @@ import subtractionNoContent from '@/content/product-pages/no/subtraksjon-arbeids
 import treasureHuntNoContent from '@/content/product-pages/no/skattejakt-arbeidsark';
 import wordGuessNoContent from '@/content/product-pages/no/gjetteoppgaver-arbeidsark';
 import writingNoContent from '@/content/product-pages/no/skriveark-arbeidsark';
+import coloringFiContent from '@/content/product-pages/fi/varityskuvat-tyoarkit';
 
 interface PageProps {
   params: {
@@ -9160,6 +9161,7 @@ export async function generateStaticParams() {
     'sananhaku-tyoarkit', // Product page slug (Finnish) - language-specific SEO slug for word-search
     'yhteenlasku-tyoarkit', // Product page slug (Finnish) - language-specific SEO slug for addition
     'aakkosjuna-tyoarkit', // Product page slug (Finnish) - language-specific SEO slug for alphabet-train
+    'varityskuvat-tyoarkit', // Product page slug (Finnish) - language-specific SEO slug for coloring
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

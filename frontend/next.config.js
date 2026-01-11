@@ -1746,6 +1746,12 @@ const nextConfig = {
         destination: '/fi/apps/aakkosjuna-tyoarkit',
         permanent: true,
       },
+      // Finnish: coloring-worksheets → varityskuvat-tyoarkit
+      {
+        source: '/fi/apps/coloring-worksheets',
+        destination: '/fi/apps/varityskuvat-tyoarkit',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

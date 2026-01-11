@@ -81,6 +81,7 @@ import writingSvContent from '@/content/product-pages/sv/writing-worksheets';
 import wordSearchFiContent from '@/content/product-pages/fi/word-search-worksheets';
 import additionFiContent from '@/content/product-pages/fi/yhteenlasku-tyoarkit';
 import alphabetTrainFiContent from '@/content/product-pages/fi/aakkosjuna-tyoarkit';
+import coloringFiContent from '@/content/product-pages/fi/varityskuvat-tyoarkit';
 
 // German content imports
 import wordSearchDeContent from '@/content/product-pages/de/word-search-worksheets';
@@ -1627,6 +1628,10 @@ export const contentRegistry: ContentRegistry = {
     'aakkosjuna-tyoarkit': alphabetTrainFiContent,
     // Also keep English slug for backwards compatibility during transition
     'alphabet-train-worksheets': alphabetTrainFiContent,
+    // Finnish Coloring (Värityskuvat) - uses Finnish SEO slug
+    'varityskuvat-tyoarkit': coloringFiContent,
+    // Also keep English slug for backwards compatibility during transition
+    'coloring-worksheets': coloringFiContent,
   },
 };
 

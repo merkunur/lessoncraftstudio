@@ -97,6 +97,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       nl: 'kleurplaten-werkbladen',
       da: 'malebog-arbejdsark',
       no: 'fargeleggingsbilder-arbeidsark',
+      fi: 'varityskuvat-tyoarkit',
     },
   },
   {

@@ -333,6 +333,7 @@ import findAndCountNoContent from '@/content/product-pages/no/finn-og-tell-arbei
 import matchingNoContent from '@/content/product-pages/no/kobling-arbeidsark';
 import drawingLinesNoContent from '@/content/product-pages/no/tegning-av-linjer-arbeidsark';
 import pictureBingoNoContent from '@/content/product-pages/no/bildlotto-arbeidsark';
+import sudokuNoContent from '@/content/product-pages/no/sudoku-arbeidsark';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -1493,6 +1494,10 @@ export const contentRegistry: ContentRegistry = {
     'bildlotto-arbeidsark': pictureBingoNoContent,
     // Also keep old slug for backwards compatibility during transition
     'picture-bingo-worksheets': pictureBingoNoContent,
+    // Norwegian Sudoku - uses Norwegian SEO slug
+    'sudoku-arbeidsark': sudokuNoContent,
+    // Also keep old slug for backwards compatibility during transition
+    'sudoku-worksheets': sudokuNoContent,
   },
 };
 

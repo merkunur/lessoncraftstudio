@@ -1590,6 +1590,12 @@ const nextConfig = {
         destination: '/no/apps/bildlotto-arbeidsark',
         permanent: true,
       },
+      // Norwegian: sudoku-worksheets → sudoku-arbeidsark
+      {
+        source: '/no/apps/sudoku-worksheets',
+        destination: '/no/apps/sudoku-arbeidsark',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

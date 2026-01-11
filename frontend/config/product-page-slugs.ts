@@ -198,6 +198,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       pt: 'sudoku-criancas-fichas',
       nl: 'sudoku-werkbladen',
       da: 'sudoku-arbejdsark',
+      no: 'sudoku-arbeidsark',
     },
   },
   {

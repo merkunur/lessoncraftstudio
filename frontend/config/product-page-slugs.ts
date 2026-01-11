@@ -392,6 +392,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       pt: 'trem-padroes-fichas',
       nl: 'patroontrein-werkbladen',
       da: 'moenstertog-arbejdsark',
+      no: 'monstertog-arbeidsark',
     },
   },
   {

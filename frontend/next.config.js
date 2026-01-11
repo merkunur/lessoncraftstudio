@@ -1668,6 +1668,12 @@ const nextConfig = {
         destination: '/no/apps/finn-den-ulike-arbeidsark',
         permanent: true,
       },
+      // Norwegian: pattern-train-worksheets → monstertog-arbeidsark
+      {
+        source: '/no/apps/pattern-train-worksheets',
+        destination: '/no/apps/monstertog-arbeidsark',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

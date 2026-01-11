@@ -315,6 +315,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     pt: 'trem-padroes-fichas',
     nl: 'patroontrein-werkbladen',
     da: 'moenstertog-arbejdsark',
+    no: 'monstertog-arbeidsark',
   },
   'pattern-worksheet': {
     en: 'pattern-worksheets',

@@ -1662,6 +1662,12 @@ const nextConfig = {
         destination: '/no/apps/sammenligningsoppgaver-arbeidsark',
         permanent: true,
       },
+      // Norwegian: odd-one-out-worksheets → finn-den-ulike-arbeidsark
+      {
+        source: '/no/apps/odd-one-out-worksheets',
+        destination: '/no/apps/finn-den-ulike-arbeidsark',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

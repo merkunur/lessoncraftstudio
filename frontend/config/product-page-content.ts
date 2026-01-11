@@ -345,6 +345,7 @@ import cryptogramNoContent from '@/content/product-pages/no/kryptogram-arbeidsar
 import mathPuzzleNoContent from '@/content/product-pages/no/matematikkgater-arbeidsark';
 import missingPiecesNoContent from '@/content/product-pages/no/manglende-biter-arbeidsark';
 import moreLessNoContent from '@/content/product-pages/no/sammenligningsoppgaver-arbeidsark';
+import oddOneOutNoContent from '@/content/product-pages/no/finn-den-ulike-arbeidsark';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -1553,6 +1554,10 @@ export const contentRegistry: ContentRegistry = {
     'sammenligningsoppgaver-arbeidsark': moreLessNoContent,
     // Also keep old slug for backwards compatibility during transition
     'more-less-worksheets': moreLessNoContent,
+    // Norwegian Odd One Out (Finn den Ulike) - uses Norwegian SEO slug
+    'finn-den-ulike-arbeidsark': oddOneOutNoContent,
+    // Also keep old slug for backwards compatibility during transition
+    'odd-one-out-worksheets': oddOneOutNoContent,
   },
 };
 

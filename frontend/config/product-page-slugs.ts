@@ -377,6 +377,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       pt: 'encontre-diferente-fichas',
       nl: 'welke-hoort-niet-bij-werkbladen',
       da: 'find-den-ulige-arbejdsark',
+      no: 'finn-den-ulike-arbeidsark',
     },
   },
   {

@@ -227,6 +227,7 @@ import cryptogramNoContent from '@/content/product-pages/no/kryptogram-arbeidsar
 import mathPuzzleNoContent from '@/content/product-pages/no/matematikkgater-arbeidsark';
 import missingPiecesNoContent from '@/content/product-pages/no/manglende-biter-arbeidsark';
 import moreLessNoContent from '@/content/product-pages/no/sammenligningsoppgaver-arbeidsark';
+import oddOneOutNoContent from '@/content/product-pages/no/finn-den-ulike-arbeidsark';
 
 interface PageProps {
   params: {
@@ -8991,6 +8992,7 @@ export async function generateStaticParams() {
     'matematikkgater-arbeidsark', // Product page slug (Norwegian) - language-specific SEO slug for math-puzzle
     'manglende-biter-arbeidsark', // Product page slug (Norwegian) - language-specific SEO slug for missing-pieces
     'sammenligningsoppgaver-arbeidsark', // Product page slug (Norwegian) - language-specific SEO slug for more-less
+    'finn-den-ulike-arbeidsark', // Product page slug (Norwegian) - language-specific SEO slug for odd-one-out
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

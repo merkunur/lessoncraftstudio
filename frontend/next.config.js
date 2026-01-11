@@ -1608,6 +1608,12 @@ const nextConfig = {
         destination: '/no/apps/bildediagram-arbeidsark',
         permanent: true,
       },
+      // Norwegian: code-addition-worksheets → bildeaddisjon-arbeidsark
+      {
+        source: '/no/apps/code-addition-worksheets',
+        destination: '/no/apps/bildeaddisjon-arbeidsark',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

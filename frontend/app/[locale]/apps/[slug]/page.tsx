@@ -218,6 +218,7 @@ import pictureBingoNoContent from '@/content/product-pages/no/bildlotto-arbeidsa
 import sudokuNoContent from '@/content/product-pages/no/sudoku-arbeidsark';
 import bigSmallNoContent from '@/content/product-pages/no/stor-og-liten-arbeidsark';
 import chartCountNoContent from '@/content/product-pages/no/bildediagram-arbeidsark';
+import codeAdditionNoContent from '@/content/product-pages/no/bildeaddisjon-arbeidsark';
 
 interface PageProps {
   params: {
@@ -8973,6 +8974,7 @@ export async function generateStaticParams() {
     'sudoku-arbeidsark', // Product page slug (Norwegian) - language-specific SEO slug for sudoku
     'stor-og-liten-arbeidsark', // Product page slug (Norwegian) - language-specific SEO slug for big-small
     'bildediagram-arbeidsark', // Product page slug (Norwegian) - language-specific SEO slug for chart-count
+    'bildeaddisjon-arbeidsark', // Product page slug (Norwegian) - language-specific SEO slug for code-addition
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

@@ -243,6 +243,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       pt: 'adicao-codigo-fichas',
       nl: 'visuele-optelsommen-werkbladen',
       da: 'kode-plusstykker-arbejdsark',
+      no: 'bildeaddisjon-arbeidsark',
     },
   },
   {

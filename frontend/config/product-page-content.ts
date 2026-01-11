@@ -332,6 +332,7 @@ import wordScrambleNoContent from '@/content/product-pages/no/bokstavoppgaver-ar
 import findAndCountNoContent from '@/content/product-pages/no/finn-og-tell-arbeidsark';
 import matchingNoContent from '@/content/product-pages/no/kobling-arbeidsark';
 import drawingLinesNoContent from '@/content/product-pages/no/tegning-av-linjer-arbeidsark';
+import pictureBingoNoContent from '@/content/product-pages/no/bildlotto-arbeidsark';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -1488,6 +1489,10 @@ export const contentRegistry: ContentRegistry = {
     'tegning-av-linjer-arbeidsark': drawingLinesNoContent,
     // Also keep old slug for backwards compatibility during transition
     'drawing-lines-worksheets': drawingLinesNoContent,
+    // Norwegian Picture Bingo (Bildlotto) - uses Norwegian SEO slug
+    'bildlotto-arbeidsark': pictureBingoNoContent,
+    // Also keep old slug for backwards compatibility during transition
+    'picture-bingo-worksheets': pictureBingoNoContent,
   },
 };
 

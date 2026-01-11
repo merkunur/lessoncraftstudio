@@ -214,6 +214,7 @@ import writingNlContent from '@/content/product-pages/nl/schrijfoefeningen-werkb
 
 // Norwegian content imports
 import drawingLinesNoContent from '@/content/product-pages/no/tegning-av-linjer-arbeidsark';
+import pictureBingoNoContent from '@/content/product-pages/no/bildlotto-arbeidsark';
 
 interface PageProps {
   params: {
@@ -8965,6 +8966,7 @@ export async function generateStaticParams() {
     'finn-og-tell-arbeidsark', // Product page slug (Norwegian) - language-specific SEO slug for find-and-count
     'kobling-arbeidsark', // Product page slug (Norwegian) - language-specific SEO slug for matching
     'tegning-av-linjer-arbeidsark', // Product page slug (Norwegian) - language-specific SEO slug for drawing-lines
+    'bildlotto-arbeidsark', // Product page slug (Norwegian) - language-specific SEO slug for picture-bingo
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

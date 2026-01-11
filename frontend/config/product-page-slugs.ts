@@ -184,6 +184,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       pt: 'bingo-ilustrado-fichas',
       nl: 'plaatjes-bingo-werkbladen',
       da: 'bingo-arbejdsark',
+      no: 'bildlotto-arbeidsark',
     },
   },
   {

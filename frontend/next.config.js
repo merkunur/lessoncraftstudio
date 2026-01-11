@@ -1584,6 +1584,12 @@ const nextConfig = {
         destination: '/no/apps/tegning-av-linjer-arbeidsark',
         permanent: true,
       },
+      // Norwegian: picture-bingo-worksheets → bildlotto-arbeidsark
+      {
+        source: '/no/apps/picture-bingo-worksheets',
+        destination: '/no/apps/bildlotto-arbeidsark',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

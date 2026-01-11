@@ -148,6 +148,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     pt: 'bingo-ilustrado-fichas',
     nl: 'plaatjes-bingo-werkbladen',
     da: 'bingo-arbejdsark',
+    no: 'bildlotto-arbeidsark',
   },
   'sudoku': {
     en: 'sudoku-worksheets',

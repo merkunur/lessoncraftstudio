@@ -1626,6 +1626,12 @@ const nextConfig = {
         destination: '/no/apps/finn-objektene-arbeidsark',
         permanent: true,
       },
+      // Norwegian: grid-match-worksheets → rutenett-tilpasning-arbeidsark
+      {
+        source: '/no/apps/grid-match-worksheets',
+        destination: '/no/apps/rutenett-tilpasning-arbeidsark',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

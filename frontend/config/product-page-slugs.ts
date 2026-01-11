@@ -287,6 +287,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       pt: 'quebra-cabeca-grade-fichas',
       nl: 'raster-puzzel-werkbladen',
       da: 'raster-puslespil-arbejdsark',
+      no: 'rutenett-tilpasning-arbeidsark',
     },
   },
   {

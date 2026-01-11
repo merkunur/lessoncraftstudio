@@ -339,6 +339,7 @@ import chartCountNoContent from '@/content/product-pages/no/bildediagram-arbeids
 import codeAdditionNoContent from '@/content/product-pages/no/bildeaddisjon-arbeidsark';
 import drawAndColorNoContent from '@/content/product-pages/no/rutenetttegning-arbeidsark';
 import findObjectsNoContent from '@/content/product-pages/no/finn-objektene-arbeidsark';
+import gridMatchNoContent from '@/content/product-pages/no/rutenett-tilpasning-arbeidsark';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -1523,6 +1524,10 @@ export const contentRegistry: ContentRegistry = {
     'finn-objektene-arbeidsark': findObjectsNoContent,
     // Also keep old slug for backwards compatibility during transition
     'find-objects-worksheets': findObjectsNoContent,
+    // Norwegian Grid Match (Rutenetttilpasning) - uses Norwegian SEO slug
+    'rutenett-tilpasning-arbeidsark': gridMatchNoContent,
+    // Also keep old slug for backwards compatibility during transition
+    'grid-match-worksheets': gridMatchNoContent,
   },
 };
 

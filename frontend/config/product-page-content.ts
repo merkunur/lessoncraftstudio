@@ -334,6 +334,7 @@ import matchingNoContent from '@/content/product-pages/no/kobling-arbeidsark';
 import drawingLinesNoContent from '@/content/product-pages/no/tegning-av-linjer-arbeidsark';
 import pictureBingoNoContent from '@/content/product-pages/no/bildlotto-arbeidsark';
 import sudokuNoContent from '@/content/product-pages/no/sudoku-arbeidsark';
+import bigSmallNoContent from '@/content/product-pages/no/stor-og-liten-arbeidsark';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -1498,6 +1499,10 @@ export const contentRegistry: ContentRegistry = {
     'sudoku-arbeidsark': sudokuNoContent,
     // Also keep old slug for backwards compatibility during transition
     'sudoku-worksheets': sudokuNoContent,
+    // Norwegian Big Small (Stor og Liten) - uses Norwegian SEO slug
+    'stor-og-liten-arbeidsark': bigSmallNoContent,
+    // Also keep old slug for backwards compatibility during transition
+    'big-small-worksheets': bigSmallNoContent,
   },
 };
 

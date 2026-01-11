@@ -496,6 +496,52 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     };
   }
 
+  // Word Search Worksheets - Finnish product page SEO (new Finnish slug)
+  if (params.slug === 'sananhaku-tyoarkit' && params.locale === 'fi') {
+    return {
+      title: 'Ilmainen Sanapeli Generaattori | Tulostettavat Tehtävät Lapsille Esiopetus ja Alakoulu',
+      description: 'Luo ammattimaisia sanapelitehtäviä ilmaiseksi verkossa. Sanapeli generaattori on täydellinen esiopetuksen ja alakoulun opettajille. Tulostettavat tehtävät lapsille ilmainen versio sisältää vesileiman.',
+      keywords: 'sanapeli generaattori, tulostettavat tehtävät lapsille ilmainen, esiopetus materiaali ilmainen, matematiikka tehtävät alakoulu, kirjaimet harjoittelu esikoulu, kertotaulut tulostettava, värityskuvia lapsille tulostettava',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/fi/apps/sananhaku-tyoarkit',
+        languages: {
+          'en': 'https://www.lessoncraftstudio.com/en/apps/word-search-worksheets',
+          'sv': 'https://www.lessoncraftstudio.com/sv/apps/ordletar-arbetsblad',
+          'de': 'https://www.lessoncraftstudio.com/de/apps/suchsel-arbeitsblaetter',
+          'fr': 'https://www.lessoncraftstudio.com/fr/apps/mots-caches-fiches',
+          'fi': 'https://www.lessoncraftstudio.com/fi/apps/sananhaku-tyoarkit',
+          'x-default': 'https://www.lessoncraftstudio.com/en/apps/word-search-worksheets',
+        },
+      },
+      openGraph: {
+        title: 'Ilmainen Sanapeli Generaattori | LessonCraftStudio',
+        description: 'Luo ammattimaisia sanapelitehtäviä ilmaiseksi. Täydellinen esiopetuksen ja alakoulun opettajille.',
+        url: 'https://www.lessoncraftstudio.com/fi/apps/sananhaku-tyoarkit',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Legacy: Redirect old Finnish slug to new slug (for backwards compatibility)
+  if (params.slug === 'word-search-worksheets' && params.locale === 'fi') {
+    return {
+      title: 'Ilmainen Sanapeli Generaattori | Tulostettavat Tehtävät',
+      description: 'Luo ammattimaisia sanapelitehtäviä ilmaiseksi sanapeli generaattorilla.',
+      robots: {
+        index: false, // Don't index old URL
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/fi/apps/sananhaku-tyoarkit', // Point to new URL
+      },
+    };
+  }
+
   // Addition Worksheets - French product page SEO (new French slug)
   if (params.slug === 'addition-fiches' && params.locale === 'fr') {
     return {
@@ -9013,6 +9059,7 @@ export async function generateStaticParams() {
     'skattejakt-arbeidsark', // Product page slug (Norwegian) - language-specific SEO slug for treasure-hunt
     'gjetteoppgaver-arbeidsark', // Product page slug (Norwegian) - language-specific SEO slug for word-guess
     'skriveark-arbeidsark', // Product page slug (Norwegian) - language-specific SEO slug for writing
+    'sananhaku-tyoarkit', // Product page slug (Finnish) - language-specific SEO slug for word-search
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

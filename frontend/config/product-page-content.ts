@@ -77,6 +77,9 @@ import treasureHuntSvContent from '@/content/product-pages/sv/treasure-hunt-work
 import wordGuessSvContent from '@/content/product-pages/sv/word-guess-worksheets';
 import writingSvContent from '@/content/product-pages/sv/writing-worksheets';
 
+// Finnish content imports
+import wordSearchFiContent from '@/content/product-pages/fi/word-search-worksheets';
+
 // German content imports
 import wordSearchDeContent from '@/content/product-pages/de/word-search-worksheets';
 import additionDeContent from '@/content/product-pages/de/addition-worksheets';
@@ -1608,6 +1611,12 @@ export const contentRegistry: ContentRegistry = {
     'skriveark-arbeidsark': writingNoContent,
     // Also keep old slug for backwards compatibility during transition
     'writing-worksheets': writingNoContent,
+  },
+  fi: {
+    // Finnish Word Search (Sananhaku) - uses Finnish SEO slug
+    'sananhaku-tyoarkit': wordSearchFiContent,
+    // Also keep English slug for backwards compatibility during transition
+    'word-search-worksheets': wordSearchFiContent,
   },
 };
 

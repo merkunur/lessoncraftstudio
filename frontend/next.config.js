@@ -1728,6 +1728,12 @@ const nextConfig = {
         destination: '/no/apps/skriveark-arbeidsark',
         permanent: true,
       },
+      // Finnish: word-search-worksheets → sananhaku-tyoarkit
+      {
+        source: '/fi/apps/word-search-worksheets',
+        destination: '/fi/apps/sananhaku-tyoarkit',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

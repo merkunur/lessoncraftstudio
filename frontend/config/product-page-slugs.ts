@@ -437,6 +437,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       pt: 'classificacao-imagens-fichas',
       nl: 'sorteer-werkbladen',
       da: 'billedsortering-arbejdsark',
+      no: 'bildesortering-arbeidsark',
     },
   },
   {

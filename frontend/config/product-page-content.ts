@@ -349,6 +349,7 @@ import oddOneOutNoContent from '@/content/product-pages/no/finn-den-ulike-arbeid
 import patternTrainNoContent from '@/content/product-pages/no/monstertog-arbeidsark';
 import patternWorksheetNoContent from '@/content/product-pages/no/monsteroppgaver-arbeidsark';
 import picturePathNoContent from '@/content/product-pages/no/bildesti-arbeidsark';
+import pictureSortNoContent from '@/content/product-pages/no/bildesortering-arbeidsark';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -1573,6 +1574,10 @@ export const contentRegistry: ContentRegistry = {
     'bildesti-arbeidsark': picturePathNoContent,
     // Also keep old slug for backwards compatibility during transition
     'picture-path-worksheets': picturePathNoContent,
+    // Norwegian Picture Sort (Bildesortering) - uses Norwegian SEO slug
+    'bildesortering-arbeidsark': pictureSortNoContent,
+    // Also keep old slug for backwards compatibility during transition
+    'picture-sort-worksheets': pictureSortNoContent,
   },
 };
 

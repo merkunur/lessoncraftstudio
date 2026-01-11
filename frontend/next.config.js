@@ -1686,6 +1686,12 @@ const nextConfig = {
         destination: '/no/apps/bildesti-arbeidsark',
         permanent: true,
       },
+      // Norwegian: picture-sort-worksheets → bildesortering-arbeidsark
+      {
+        source: '/no/apps/picture-sort-worksheets',
+        destination: '/no/apps/bildesortering-arbeidsark',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

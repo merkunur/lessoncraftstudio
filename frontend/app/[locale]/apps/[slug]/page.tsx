@@ -231,6 +231,7 @@ import oddOneOutNoContent from '@/content/product-pages/no/finn-den-ulike-arbeid
 import patternTrainNoContent from '@/content/product-pages/no/monstertog-arbeidsark';
 import patternWorksheetNoContent from '@/content/product-pages/no/monsteroppgaver-arbeidsark';
 import picturePathNoContent from '@/content/product-pages/no/bildesti-arbeidsark';
+import pictureSortNoContent from '@/content/product-pages/no/bildesortering-arbeidsark';
 
 interface PageProps {
   params: {
@@ -8998,6 +8999,8 @@ export async function generateStaticParams() {
     'finn-den-ulike-arbeidsark', // Product page slug (Norwegian) - language-specific SEO slug for odd-one-out
     'monstertog-arbeidsark', // Product page slug (Norwegian) - language-specific SEO slug for pattern-train
     'monsteroppgaver-arbeidsark', // Product page slug (Norwegian) - language-specific SEO slug for pattern-worksheet
+    'bildesti-arbeidsark', // Product page slug (Norwegian) - language-specific SEO slug for picture-path
+    'bildesortering-arbeidsark', // Product page slug (Norwegian) - language-specific SEO slug for picture-sort
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

@@ -1704,6 +1704,12 @@ const nextConfig = {
         destination: '/no/apps/skyggematching-arbeidsark',
         permanent: true,
       },
+      // Norwegian: subtraction-worksheets → subtraksjon-arbeidsark
+      {
+        source: '/no/apps/subtraction-worksheets',
+        destination: '/no/apps/subtraksjon-arbeidsark',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

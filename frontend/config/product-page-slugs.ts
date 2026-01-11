@@ -482,6 +482,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       pt: 'subtracao-fichas',
       nl: 'aftrekken-werkbladen',
       da: 'subtraktion-arbejdsark',
+      no: 'subtraksjon-arbeidsark',
     },
   },
   {

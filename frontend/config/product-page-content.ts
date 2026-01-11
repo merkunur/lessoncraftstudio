@@ -352,6 +352,7 @@ import picturePathNoContent from '@/content/product-pages/no/bildesti-arbeidsark
 import pictureSortNoContent from '@/content/product-pages/no/bildesortering-arbeidsark';
 import prepositionsNoContent from '@/content/product-pages/no/preposisjoner-arbeidsark';
 import shadowMatchNoContent from '@/content/product-pages/no/skyggematching-arbeidsark';
+import subtractionNoContent from '@/content/product-pages/no/subtraksjon-arbeidsark';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -1588,6 +1589,10 @@ export const contentRegistry: ContentRegistry = {
     'skyggematching-arbeidsark': shadowMatchNoContent,
     // Also keep old slug for backwards compatibility during transition
     'shadow-match-worksheets': shadowMatchNoContent,
+    // Norwegian Subtraction (Subtraksjon) - uses Norwegian SEO slug
+    'subtraksjon-arbeidsark': subtractionNoContent,
+    // Also keep old slug for backwards compatibility during transition
+    'subtraction-worksheets': subtractionNoContent,
   },
 };
 

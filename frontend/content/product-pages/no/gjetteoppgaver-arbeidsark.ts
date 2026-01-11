@@ -331,11 +331,13 @@ Etsy er en annen salgkanal for utskriftsklare PDF-er. Lag komplette oppgavehefte
   faq: {
     sectionTitle: 'Ofte Stilte Spørsmål',
     sectionDescription: 'Svar på vanlige spørsmål om gjetteoppgaveverktøyet. Lær hvordan du lager arbeidsark til bokstaver lære skrive, matematikk oppgaver og finmotorikk øvelser. Alt fra tall og telling for førskolebarn til gangetabellen for tredjeklassinger.',
+    showMoreText: 'Vis flere spørsmål',
+    showLessText: 'Vis færre',
     badgeText: 'Vanlige Spørsmål',
-    secureCheckout: 'Sikker betaling',
-    cancelAnytime: 'Avbryt når som helst',
     readMoreLabel: 'Les mer',
     showLessLabel: 'Vis mindre',
+    secureCheckout: 'Sikker betaling',
+    cancelAnytime: 'Avbryt når som helst',
     items: [
       {
         id: '1',
@@ -404,6 +406,10 @@ Tradisjonell produksjon tar 30-60 minutter. Finn bilder, design layout, lag oppg
     sectionDescription: 'Gjetteoppgaver fungerer utmerket sammen med andre arbeidsarkverktøy. Kombiner med matematikk oppgaver, fargeleggingsbilder barn elsker og finmotorikk øvelser. Lag komplette oppgavehefter barn bruker gjennom hele uken.',
     badgeText: 'Fungerer Utmerket Med',
     exploreText: 'Utforsk alle apper',
+    ctaTitle: 'Klar til å Lage Fantastiske Arbeidsark?',
+    ctaDescription: 'Bli med tusenvis av lærere som lager profesjonelle arbeidsark. Ubegrenset generering, kommersiell lisens inkludert.',
+    primaryCtaText: 'Start Gratis Prøveperiode',
+    secondaryCtaText: 'Se Alle 33 Apper',
     trustBadges: {
       guarantee: '30 dagers garanti',
       securePayment: 'Sikker betaling',

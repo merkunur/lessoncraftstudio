@@ -1740,6 +1740,12 @@ const nextConfig = {
         destination: '/fi/apps/yhteenlasku-tyoarkit',
         permanent: true,
       },
+      // Finnish: alphabet-train-worksheets → aakkosjuna-tyoarkit
+      {
+        source: '/fi/apps/alphabet-train-worksheets',
+        destination: '/fi/apps/aakkosjuna-tyoarkit',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

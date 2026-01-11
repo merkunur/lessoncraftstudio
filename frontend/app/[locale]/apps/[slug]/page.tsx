@@ -588,6 +588,58 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     };
   }
 
+  // Alphabet Train Worksheets - Finnish product page SEO (new Finnish slug)
+  if (params.slug === 'aakkosjuna-tyoarkit' && params.locale === 'fi') {
+    return {
+      title: 'Aakkosjuna Tehtävät Generaattori | Tulostettavat Kirjaimet Harjoittelu Esikoulu ja Esiopetus Materiaali',
+      description: 'Luo ammattitasoisia aakkosjuna-tehtäviä esiopetukseen ja alakouluun. Peruspaketti-tilauksellasi saat luoda rajattomasti kirjainten harjoittelutehtäviä ilman lisämaksuja per tehtävä. Tulostettavat tehtävät lapsille soveltuvat täydellisesti esikouluikäisille ja 1. luokan oppilaille.',
+      keywords: 'aakkosjuna tehtävät, kirjaimet harjoittelu esikoulu, esiopetus materiaali ilmainen, tulostettavat tehtävät lapsille ilmainen, kirjainten tunnistus, aakkosharjoittelu',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/fi/apps/aakkosjuna-tyoarkit',
+        languages: {
+          'en': 'https://www.lessoncraftstudio.com/en/apps/alphabet-train-worksheets',
+          'sv': 'https://www.lessoncraftstudio.com/sv/apps/alfabettag-arbetsblad',
+          'de': 'https://www.lessoncraftstudio.com/de/apps/alphabet-zug-arbeitsblaetter',
+          'fr': 'https://www.lessoncraftstudio.com/fr/apps/train-alphabet-fiches',
+          'es': 'https://www.lessoncraftstudio.com/es/apps/tren-alfabeto-fichas',
+          'it': 'https://www.lessoncraftstudio.com/it/apps/treno-alfabeto-schede',
+          'pt': 'https://www.lessoncraftstudio.com/pt/apps/trem-alfabeto-fichas',
+          'nl': 'https://www.lessoncraftstudio.com/nl/apps/alfabet-trein-werkbladen',
+          'da': 'https://www.lessoncraftstudio.com/da/apps/alfabet-tog-arbejdsark',
+          'no': 'https://www.lessoncraftstudio.com/no/apps/alfabet-tog-arbeidsark',
+          'fi': 'https://www.lessoncraftstudio.com/fi/apps/aakkosjuna-tyoarkit',
+          'x-default': 'https://www.lessoncraftstudio.com/en/apps/alphabet-train-worksheets',
+        },
+      },
+      openGraph: {
+        title: 'Aakkosjuna Tehtävät Generaattori | LessonCraftStudio',
+        description: 'Luo ammattitasoisia aakkosjuna-tehtäviä esiopetukseen ja alakouluun. Kirjaimet harjoittelu esikoulu ja tulostettavat tehtävät lapsille.',
+        url: 'https://www.lessoncraftstudio.com/fi/apps/aakkosjuna-tyoarkit',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Legacy: Redirect old Finnish alphabet-train slug to new slug (for backwards compatibility)
+  if (params.slug === 'alphabet-train-worksheets' && params.locale === 'fi') {
+    return {
+      title: 'Aakkosjuna Tehtävät Generaattori - Kirjaimet Harjoittelu Esikoulu',
+      description: 'Luo ammattitasoisia aakkosjuna-tehtäviä esiopetukseen ja alakouluun.',
+      robots: {
+        index: false, // Don't index old URL
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/fi/apps/aakkosjuna-tyoarkit', // Point to new URL
+      },
+    };
+  }
+
   // Addition Worksheets - French product page SEO (new French slug)
   if (params.slug === 'addition-fiches' && params.locale === 'fr') {
     return {
@@ -9107,6 +9159,7 @@ export async function generateStaticParams() {
     'skriveark-arbeidsark', // Product page slug (Norwegian) - language-specific SEO slug for writing
     'sananhaku-tyoarkit', // Product page slug (Finnish) - language-specific SEO slug for word-search
     'yhteenlasku-tyoarkit', // Product page slug (Finnish) - language-specific SEO slug for addition
+    'aakkosjuna-tyoarkit', // Product page slug (Finnish) - language-specific SEO slug for alphabet-train
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

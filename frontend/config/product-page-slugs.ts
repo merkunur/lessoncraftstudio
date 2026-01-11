@@ -191,6 +191,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       nl: 'plaatjes-bingo-werkbladen',
       da: 'bingo-arbejdsark',
       no: 'bildlotto-arbeidsark',
+      fi: 'kuva-bingo-tyoarkit',
     },
   },
   {

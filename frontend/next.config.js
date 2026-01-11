@@ -1782,6 +1782,12 @@ const nextConfig = {
         destination: '/fi/apps/viivojen-piirtaminen-tyoarkit',
         permanent: true,
       },
+      // Finnish: picture-bingo-worksheets → kuva-bingo-tyoarkit
+      {
+        source: '/fi/apps/picture-bingo-worksheets',
+        destination: '/fi/apps/kuva-bingo-tyoarkit',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

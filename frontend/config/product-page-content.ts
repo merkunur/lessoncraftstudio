@@ -87,6 +87,7 @@ import wordScrambleFiContent from '@/content/product-pages/fi/sanansekoitus-tyoa
 import findAndCountFiContent from '@/content/product-pages/fi/etsi-ja-laske-tyoarkit';
 import matchingFiContent from '@/content/product-pages/fi/yhdista-parit-tyoarkit';
 import drawingLinesFiContent from '@/content/product-pages/fi/viivojen-piirtaminen-tyoarkit';
+import pictureBingoFiContent from '@/content/product-pages/fi/kuva-bingo-tyoarkit';
 
 // German content imports
 import wordSearchDeContent from '@/content/product-pages/de/word-search-worksheets';
@@ -1657,6 +1658,10 @@ export const contentRegistry: ContentRegistry = {
     'viivojen-piirtaminen-tyoarkit': drawingLinesFiContent,
     // Also keep English slug for backwards compatibility during transition
     'drawing-lines-worksheets': drawingLinesFiContent,
+    // Finnish Picture Bingo (Kuva-Bingo) - uses Finnish SEO slug
+    'kuva-bingo-tyoarkit': pictureBingoFiContent,
+    // Also keep English slug for backwards compatibility during transition
+    'picture-bingo-worksheets': pictureBingoFiContent,
   },
 };
 

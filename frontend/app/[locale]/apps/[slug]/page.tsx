@@ -242,6 +242,7 @@ import coloringFiContent from '@/content/product-pages/fi/varityskuvat-tyoarkit'
 import mathWorksheetsFiContent from '@/content/product-pages/fi/matematiikka-tyoarkit';
 import wordScrambleFiContent from '@/content/product-pages/fi/sanansekoitus-tyoarkit';
 import matchingFiContent from '@/content/product-pages/fi/yhdista-parit-tyoarkit';
+import pictureBingoFiContent from '@/content/product-pages/fi/kuva-bingo-tyoarkit';
 
 interface PageProps {
   params: {
@@ -730,6 +731,53 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       },
       alternates: {
         canonical: 'https://www.lessoncraftstudio.com/fi/apps/yhdista-parit-tyoarkit', // Point to new URL
+      },
+    };
+  }
+
+  // Picture Bingo Worksheets - Finnish product page SEO (new Finnish slug)
+  if (params.slug === 'kuva-bingo-tyoarkit' && params.locale === 'fi') {
+    return {
+      title: 'Tulostettavat Bingo-Tehtävät | Esiopetus Materiaali Ilmainen - Kuva-Bingo Generaattori',
+      description: 'Luo ammattimaisia bingo-pelejä lasten kuva-bingogeneraattorilla. Peruspaketti-tilauksesi antaa rajattoman bingo-pelien luomisen ilman ylimääräisiä maksuja per peli. Tulosta tulostettavat tehtävät lapsille ilmainen-tyylisiä bingo-kortteja esiopetukseen ja alakouluun.',
+      keywords: 'tulostettavat tehtävät lapsille ilmainen, esiopetus materiaali ilmainen, hienomotoriikka harjoitukset, kuva-bingo, bingo-kortit, bingo-peli lapsille',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/fi/apps/kuva-bingo-tyoarkit',
+        languages: {
+          'en': 'https://www.lessoncraftstudio.com/en/apps/picture-bingo-worksheets',
+          'sv': 'https://www.lessoncraftstudio.com/sv/apps/bildlotto-arbetsblad',
+          'de': 'https://www.lessoncraftstudio.com/de/apps/bilder-bingo-arbeitsblaetter',
+          'fr': 'https://www.lessoncraftstudio.com/fr/apps/bingo-images-fiches',
+          'es': 'https://www.lessoncraftstudio.com/es/apps/bingo-fichas',
+          'fi': 'https://www.lessoncraftstudio.com/fi/apps/kuva-bingo-tyoarkit',
+          'x-default': 'https://www.lessoncraftstudio.com/en/apps/picture-bingo-worksheets',
+        },
+      },
+      openGraph: {
+        title: 'Kuva-Bingo Generaattori | LessonCraftStudio',
+        description: 'Luo ammattimaisia bingo-pelejä lasten kuva-bingogeneraattorilla. Tulostettavat bingo-kortit esiopetukseen ja alakouluun.',
+        url: 'https://www.lessoncraftstudio.com/fi/apps/kuva-bingo-tyoarkit',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Legacy: Redirect old Finnish picture-bingo-worksheets slug to new slug (for backwards compatibility)
+  if (params.slug === 'picture-bingo-worksheets' && params.locale === 'fi') {
+    return {
+      title: 'Kuva-Bingo Tehtävät Generaattori - Tulostettavat Bingo-Kortit',
+      description: 'Luo ammattimaisia bingo-pelejä lasten kuva-bingogeneraattorilla.',
+      robots: {
+        index: false, // Don't index old URL
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/fi/apps/kuva-bingo-tyoarkit', // Point to new URL
       },
     };
   }
@@ -9259,6 +9307,8 @@ export async function generateStaticParams() {
     'sanansekoitus-tyoarkit', // Product page slug (Finnish) - language-specific SEO slug for word-scramble
     'etsi-ja-laske-tyoarkit', // Product page slug (Finnish) - language-specific SEO slug for find-and-count
     'yhdista-parit-tyoarkit', // Product page slug (Finnish) - language-specific SEO slug for matching
+    'viivojen-piirtaminen-tyoarkit', // Product page slug (Finnish) - language-specific SEO slug for drawing-lines
+    'kuva-bingo-tyoarkit', // Product page slug (Finnish) - language-specific SEO slug for picture-bingo
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

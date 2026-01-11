@@ -155,6 +155,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     nl: 'plaatjes-bingo-werkbladen',
     da: 'bingo-arbejdsark',
     no: 'bildlotto-arbeidsark',
+    fi: 'kuva-bingo-tyoarkit',
   },
   'sudoku': {
     en: 'sudoku-worksheets',

@@ -353,6 +353,7 @@ import pictureSortNoContent from '@/content/product-pages/no/bildesortering-arbe
 import prepositionsNoContent from '@/content/product-pages/no/preposisjoner-arbeidsark';
 import shadowMatchNoContent from '@/content/product-pages/no/skyggematching-arbeidsark';
 import subtractionNoContent from '@/content/product-pages/no/subtraksjon-arbeidsark';
+import treasureHuntNoContent from '@/content/product-pages/no/skattejakt-arbeidsark';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -1593,6 +1594,10 @@ export const contentRegistry: ContentRegistry = {
     'subtraksjon-arbeidsark': subtractionNoContent,
     // Also keep old slug for backwards compatibility during transition
     'subtraction-worksheets': subtractionNoContent,
+    // Norwegian Treasure Hunt (Skattejakt) - uses Norwegian SEO slug
+    'skattejakt-arbeidsark': treasureHuntNoContent,
+    // Also keep old slug for backwards compatibility during transition
+    'treasure-hunt-worksheets': treasureHuntNoContent,
   },
 };
 

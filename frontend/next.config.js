@@ -1710,6 +1710,12 @@ const nextConfig = {
         destination: '/no/apps/subtraksjon-arbeidsark',
         permanent: true,
       },
+      // Norwegian: treasure-hunt-worksheets → skattejakt-arbeidsark
+      {
+        source: '/no/apps/treasure-hunt-worksheets',
+        destination: '/no/apps/skattejakt-arbeidsark',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

@@ -243,6 +243,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     pt: 'palavras-cruzadas-imagens-fichas',
     nl: 'kruiswoordpuzzel-werkbladen',
     da: 'krydsord-arbejdsark',
+    no: 'bildekryssord-arbeidsark',
   },
   'image-cryptogram': {
     en: 'cryptogram-worksheets',

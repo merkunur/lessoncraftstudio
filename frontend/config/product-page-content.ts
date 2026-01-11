@@ -340,6 +340,7 @@ import codeAdditionNoContent from '@/content/product-pages/no/bildeaddisjon-arbe
 import drawAndColorNoContent from '@/content/product-pages/no/rutenetttegning-arbeidsark';
 import findObjectsNoContent from '@/content/product-pages/no/finn-objektene-arbeidsark';
 import gridMatchNoContent from '@/content/product-pages/no/rutenett-tilpasning-arbeidsark';
+import crosswordNoContent from '@/content/product-pages/no/bildekryssord-arbeidsark';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -1528,6 +1529,10 @@ export const contentRegistry: ContentRegistry = {
     'rutenett-tilpasning-arbeidsark': gridMatchNoContent,
     // Also keep old slug for backwards compatibility during transition
     'grid-match-worksheets': gridMatchNoContent,
+    // Norwegian Crossword (Bildekryssord) - uses Norwegian SEO slug
+    'bildekryssord-arbeidsark': crosswordNoContent,
+    // Also keep old slug for backwards compatibility during transition
+    'crossword-worksheets': crosswordNoContent,
   },
 };
 

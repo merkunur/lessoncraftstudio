@@ -1632,6 +1632,12 @@ const nextConfig = {
         destination: '/no/apps/rutenett-tilpasning-arbeidsark',
         permanent: true,
       },
+      // Norwegian: crossword-worksheets → bildekryssord-arbeidsark
+      {
+        source: '/no/apps/crossword-worksheets',
+        destination: '/no/apps/bildekryssord-arbeidsark',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

@@ -302,6 +302,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       pt: 'palavras-cruzadas-imagens-fichas',
       nl: 'kruiswoordpuzzel-werkbladen',
       da: 'krydsord-arbejdsark',
+      no: 'bildekryssord-arbeidsark',
     },
   },
   {

@@ -243,6 +243,7 @@ import mathWorksheetsFiContent from '@/content/product-pages/fi/matematiikka-tyo
 import wordScrambleFiContent from '@/content/product-pages/fi/sanansekoitus-tyoarkit';
 import matchingFiContent from '@/content/product-pages/fi/yhdista-parit-tyoarkit';
 import pictureBingoFiContent from '@/content/product-pages/fi/kuva-bingo-tyoarkit';
+import sudokuFiContent from '@/content/product-pages/fi/sudoku-tyoarkit';
 
 interface PageProps {
   params: {
@@ -778,6 +779,53 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       },
       alternates: {
         canonical: 'https://www.lessoncraftstudio.com/fi/apps/kuva-bingo-tyoarkit', // Point to new URL
+      },
+    };
+  }
+
+  // Sudoku Worksheets - Finnish product page SEO (new Finnish slug)
+  if (params.slug === 'sudoku-tyoarkit' && params.locale === 'fi') {
+    return {
+      title: 'Lasten Sudoku - Tulostettavat Tehtävät Lapsille Ilmainen | Esiopetus Materiaali',
+      description: 'Luo värikkäitä kuvasudokuja lapsille ammattimaisella tehtävägeneraattorillamme. Peruspaketti-tilauksesi antaa rajattoman mahdollisuuden luoda tulostettavia tehtäviä lapsille. Sudoku-tehtävät sopivat täydellisesti esiopetukseen ja alakoulun 1-3 luokille.',
+      keywords: 'lasten sudoku, tulostettavat tehtävät lapsille ilmainen, esiopetus materiaali ilmainen, kuvasudoku, sudoku lapsille, logiikkatehtävät lapsille',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/fi/apps/sudoku-tyoarkit',
+        languages: {
+          'en': 'https://www.lessoncraftstudio.com/en/apps/sudoku-worksheets',
+          'sv': 'https://www.lessoncraftstudio.com/sv/apps/bildsudoku-arbetsblad',
+          'de': 'https://www.lessoncraftstudio.com/de/apps/kinder-sudoku-arbeitsblaetter',
+          'es': 'https://www.lessoncraftstudio.com/es/apps/sudoku-fichas-ninos',
+          'it': 'https://www.lessoncraftstudio.com/it/apps/sudoku-bambini-schede',
+          'fi': 'https://www.lessoncraftstudio.com/fi/apps/sudoku-tyoarkit',
+          'x-default': 'https://www.lessoncraftstudio.com/en/apps/sudoku-worksheets',
+        },
+      },
+      openGraph: {
+        title: 'Lasten Sudoku Generaattori | LessonCraftStudio',
+        description: 'Luo värikkäitä kuvasudokuja lapsille ammattimaisella tehtävägeneraattorillamme. Sudoku-tehtävät sopivat täydellisesti esiopetukseen ja alakouluun.',
+        url: 'https://www.lessoncraftstudio.com/fi/apps/sudoku-tyoarkit',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Legacy: Redirect old Finnish sudoku-worksheets slug to new slug (for backwards compatibility)
+  if (params.slug === 'sudoku-worksheets' && params.locale === 'fi') {
+    return {
+      title: 'Lasten Sudoku Generaattori - Tulostettavat Sudoku-Tehtävät',
+      description: 'Luo värikkäitä kuvasudokuja lapsille ammattimaisella tehtävägeneraattorillamme.',
+      robots: {
+        index: false, // Don't index old URL
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/fi/apps/sudoku-tyoarkit', // Point to new URL
       },
     };
   }
@@ -9309,6 +9357,7 @@ export async function generateStaticParams() {
     'yhdista-parit-tyoarkit', // Product page slug (Finnish) - language-specific SEO slug for matching
     'viivojen-piirtaminen-tyoarkit', // Product page slug (Finnish) - language-specific SEO slug for drawing-lines
     'kuva-bingo-tyoarkit', // Product page slug (Finnish) - language-specific SEO slug for picture-bingo
+    'sudoku-tyoarkit', // Product page slug (Finnish) - language-specific SEO slug for sudoku
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

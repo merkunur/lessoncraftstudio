@@ -168,6 +168,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     nl: 'sudoku-werkbladen',
     da: 'sudoku-arbejdsark',
     no: 'sudoku-arbeidsark',
+    fi: 'sudoku-tyoarkit',
   },
   'big-small-app': {
     en: 'big-small-worksheets',

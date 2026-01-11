@@ -206,6 +206,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       nl: 'sudoku-werkbladen',
       da: 'sudoku-arbejdsark',
       no: 'sudoku-arbeidsark',
+      fi: 'sudoku-tyoarkit',
     },
   },
   {

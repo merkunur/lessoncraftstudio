@@ -1788,6 +1788,12 @@ const nextConfig = {
         destination: '/fi/apps/kuva-bingo-tyoarkit',
         permanent: true,
       },
+      // Finnish: sudoku-worksheets → sudoku-tyoarkit
+      {
+        source: '/fi/apps/sudoku-worksheets',
+        destination: '/fi/apps/sudoku-tyoarkit',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

@@ -88,6 +88,7 @@ import findAndCountFiContent from '@/content/product-pages/fi/etsi-ja-laske-tyoa
 import matchingFiContent from '@/content/product-pages/fi/yhdista-parit-tyoarkit';
 import drawingLinesFiContent from '@/content/product-pages/fi/viivojen-piirtaminen-tyoarkit';
 import pictureBingoFiContent from '@/content/product-pages/fi/kuva-bingo-tyoarkit';
+import sudokuFiContent from '@/content/product-pages/fi/sudoku-tyoarkit';
 
 // German content imports
 import wordSearchDeContent from '@/content/product-pages/de/word-search-worksheets';
@@ -1662,6 +1663,10 @@ export const contentRegistry: ContentRegistry = {
     'kuva-bingo-tyoarkit': pictureBingoFiContent,
     // Also keep English slug for backwards compatibility during transition
     'picture-bingo-worksheets': pictureBingoFiContent,
+    // Finnish Sudoku (Lasten Sudoku) - uses Finnish SEO slug
+    'sudoku-tyoarkit': sudokuFiContent,
+    // Also keep English slug for backwards compatibility during transition
+    'sudoku-worksheets': sudokuFiContent,
   },
 };
 

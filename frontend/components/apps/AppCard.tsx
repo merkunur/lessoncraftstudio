@@ -129,6 +129,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     nl: 'verbindings-werkbladen',
     da: 'matchning-arbejdsark',
     no: 'kobling-arbeidsark',
+    fi: 'yhdista-parit-tyoarkit',
   },
   'drawing-lines': {
     en: 'drawing-lines-worksheets',

@@ -1764,6 +1764,18 @@ const nextConfig = {
         destination: '/fi/apps/sanansekoitus-tyoarkit',
         permanent: true,
       },
+      // Finnish: find-and-count-worksheets → etsi-ja-laske-tyoarkit
+      {
+        source: '/fi/apps/find-and-count-worksheets',
+        destination: '/fi/apps/etsi-ja-laske-tyoarkit',
+        permanent: true,
+      },
+      // Finnish: matching-worksheets → yhdista-parit-tyoarkit
+      {
+        source: '/fi/apps/matching-worksheets',
+        destination: '/fi/apps/yhdista-parit-tyoarkit',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

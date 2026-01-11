@@ -159,6 +159,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       nl: 'verbindings-werkbladen',
       da: 'matchning-arbejdsark',
       no: 'kobling-arbeidsark',
+      fi: 'yhdista-parit-tyoarkit',
     },
   },
   {

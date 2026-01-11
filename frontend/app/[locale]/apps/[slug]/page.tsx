@@ -241,6 +241,7 @@ import writingNoContent from '@/content/product-pages/no/skriveark-arbeidsark';
 import coloringFiContent from '@/content/product-pages/fi/varityskuvat-tyoarkit';
 import mathWorksheetsFiContent from '@/content/product-pages/fi/matematiikka-tyoarkit';
 import wordScrambleFiContent from '@/content/product-pages/fi/sanansekoitus-tyoarkit';
+import matchingFiContent from '@/content/product-pages/fi/yhdista-parit-tyoarkit';
 
 interface PageProps {
   params: {
@@ -684,6 +685,51 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       },
       alternates: {
         canonical: 'https://www.lessoncraftstudio.com/fi/apps/matematiikka-tyoarkit', // Point to new URL
+      },
+    };
+  }
+
+  // Matching Worksheets - Finnish product page SEO (new Finnish slug)
+  if (params.slug === 'yhdista-parit-tyoarkit' && params.locale === 'fi') {
+    return {
+      title: 'Yhdistä Parit Tehtävät Generaattori | Tulostettavat Tehtävät Lapsille Ilmainen Esiopetus Materiaali',
+      description: 'Luo ammattitasoisia yhdistä parit -tehtävämonisteet MatchUp Maker -työkalulla. Peruspaketti-tilauksellasi saat rajattoman määrän tehtävämonisteiden luomista ilman lisämaksuja per tehtävä. Tulostettavat tehtävät lapsille ilmainen esiopetukseen ja alakouluun.',
+      keywords: 'yhdistä parit tehtävät, tulostettavat tehtävät lapsille ilmainen, esiopetus materiaali ilmainen, kirjaimet harjoittelu esikoulu, lukemaan oppiminen tehtävät, hienomotoriikka harjoitukset',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/fi/apps/yhdista-parit-tyoarkit',
+        languages: {
+          'en': 'https://www.lessoncraftstudio.com/en/apps/matching-worksheets',
+          'sv': 'https://www.lessoncraftstudio.com/sv/apps/matchnings-arbetsblad',
+          'de': 'https://www.lessoncraftstudio.com/de/apps/zuordnungs-arbeitsblaetter',
+          'fi': 'https://www.lessoncraftstudio.com/fi/apps/yhdista-parit-tyoarkit',
+          'x-default': 'https://www.lessoncraftstudio.com/en/apps/matching-worksheets',
+        },
+      },
+      openGraph: {
+        title: 'Yhdistä Parit Tehtävät Generaattori | LessonCraftStudio',
+        description: 'Luo ammattitasoisia yhdistä parit -tehtävämonisteet MatchUp Maker -työkalulla. Peruspaketti-tilauksellasi saat rajattoman määrän tehtävämonisteiden luomista.',
+        url: 'https://www.lessoncraftstudio.com/fi/apps/yhdista-parit-tyoarkit',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Legacy: Redirect old Finnish matching-worksheets slug to new slug (for backwards compatibility)
+  if (params.slug === 'matching-worksheets' && params.locale === 'fi') {
+    return {
+      title: 'Yhdistä Parit Tehtävät Generaattori - Tulostettavat Tehtävät',
+      description: 'Luo ammattitasoisia yhdistä parit -tehtävämonisteet MatchUp Maker -työkalulla.',
+      robots: {
+        index: false, // Don't index old URL
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/fi/apps/yhdista-parit-tyoarkit', // Point to new URL
       },
     };
   }
@@ -9211,6 +9257,8 @@ export async function generateStaticParams() {
     'varityskuvat-tyoarkit', // Product page slug (Finnish) - language-specific SEO slug for coloring
     'matematiikka-tyoarkit', // Product page slug (Finnish) - language-specific SEO slug for math worksheets
     'sanansekoitus-tyoarkit', // Product page slug (Finnish) - language-specific SEO slug for word-scramble
+    'etsi-ja-laske-tyoarkit', // Product page slug (Finnish) - language-specific SEO slug for find-and-count
+    'yhdista-parit-tyoarkit', // Product page slug (Finnish) - language-specific SEO slug for matching
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

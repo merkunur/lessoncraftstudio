@@ -85,6 +85,7 @@ import coloringFiContent from '@/content/product-pages/fi/varityskuvat-tyoarkit'
 import mathWorksheetsFiContent from '@/content/product-pages/fi/matematiikka-tyoarkit';
 import wordScrambleFiContent from '@/content/product-pages/fi/sanansekoitus-tyoarkit';
 import findAndCountFiContent from '@/content/product-pages/fi/etsi-ja-laske-tyoarkit';
+import matchingFiContent from '@/content/product-pages/fi/yhdista-parit-tyoarkit';
 
 // German content imports
 import wordSearchDeContent from '@/content/product-pages/de/word-search-worksheets';
@@ -1647,6 +1648,10 @@ export const contentRegistry: ContentRegistry = {
     'etsi-ja-laske-tyoarkit': findAndCountFiContent,
     // Also keep English slug for backwards compatibility during transition
     'find-and-count-worksheets': findAndCountFiContent,
+    // Finnish Matching (Yhdistä Parit) - uses Finnish SEO slug
+    'yhdista-parit-tyoarkit': matchingFiContent,
+    // Also keep English slug for backwards compatibility during transition
+    'matching-worksheets': matchingFiContent,
   },
 };
 

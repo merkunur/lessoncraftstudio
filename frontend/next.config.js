@@ -1716,6 +1716,12 @@ const nextConfig = {
         destination: '/no/apps/skattejakt-arbeidsark',
         permanent: true,
       },
+      // Norwegian: word-guess-worksheets → gjetteoppgaver-arbeidsark
+      {
+        source: '/no/apps/word-guess-worksheets',
+        destination: '/no/apps/gjetteoppgaver-arbeidsark',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

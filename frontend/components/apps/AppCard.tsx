@@ -411,6 +411,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     pt: 'adivinhar-palavras-fichas',
     nl: 'woordraadsel-werkbladen',
     da: 'gaet-ordet-arbejdsark',
+    no: 'gjetteoppgaver-arbeidsark',
   },
   'writing-app': {
     en: 'writing-worksheets',

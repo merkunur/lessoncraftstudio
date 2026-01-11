@@ -354,6 +354,7 @@ import prepositionsNoContent from '@/content/product-pages/no/preposisjoner-arbe
 import shadowMatchNoContent from '@/content/product-pages/no/skyggematching-arbeidsark';
 import subtractionNoContent from '@/content/product-pages/no/subtraksjon-arbeidsark';
 import treasureHuntNoContent from '@/content/product-pages/no/skattejakt-arbeidsark';
+import wordGuessNoContent from '@/content/product-pages/no/gjetteoppgaver-arbeidsark';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -1598,6 +1599,10 @@ export const contentRegistry: ContentRegistry = {
     'skattejakt-arbeidsark': treasureHuntNoContent,
     // Also keep old slug for backwards compatibility during transition
     'treasure-hunt-worksheets': treasureHuntNoContent,
+    // Norwegian Word Guess (Gjetteoppgaver) - uses Norwegian SEO slug
+    'gjetteoppgaver-arbeidsark': wordGuessNoContent,
+    // Also keep old slug for backwards compatibility during transition
+    'word-guess-worksheets': wordGuessNoContent,
   },
 };
 

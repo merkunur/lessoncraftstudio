@@ -512,6 +512,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       pt: 'adivinhar-palavras-fichas',
       nl: 'woordraadsel-werkbladen',
       da: 'gaet-ordet-arbejdsark',
+      no: 'gjetteoppgaver-arbeidsark',
     },
   },
   {

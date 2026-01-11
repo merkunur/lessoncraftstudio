@@ -116,6 +116,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     nl: 'zoek-en-tel-werkbladen',
     da: 'find-og-tael-arbejdsark',
     no: 'finn-og-tell-arbeidsark',
+    fi: 'etsi-ja-laske-tyoarkit',
   },
   'matching-app': {
     en: 'matching-worksheets',

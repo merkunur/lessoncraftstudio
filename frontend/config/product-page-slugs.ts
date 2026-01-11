@@ -145,6 +145,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       nl: 'zoek-en-tel-werkbladen',
       da: 'find-og-tael-arbejdsark',
       no: 'finn-og-tell-arbeidsark',
+      fi: 'etsi-ja-laske-tyoarkit',
     },
   },
   {

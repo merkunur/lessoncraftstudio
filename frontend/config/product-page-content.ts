@@ -84,6 +84,7 @@ import alphabetTrainFiContent from '@/content/product-pages/fi/aakkosjuna-tyoark
 import coloringFiContent from '@/content/product-pages/fi/varityskuvat-tyoarkit';
 import mathWorksheetsFiContent from '@/content/product-pages/fi/matematiikka-tyoarkit';
 import wordScrambleFiContent from '@/content/product-pages/fi/sanansekoitus-tyoarkit';
+import findAndCountFiContent from '@/content/product-pages/fi/etsi-ja-laske-tyoarkit';
 
 // German content imports
 import wordSearchDeContent from '@/content/product-pages/de/word-search-worksheets';
@@ -1642,6 +1643,10 @@ export const contentRegistry: ContentRegistry = {
     'sanansekoitus-tyoarkit': wordScrambleFiContent,
     // Also keep English slug for backwards compatibility during transition
     'word-scramble-worksheets': wordScrambleFiContent,
+    // Finnish Find and Count (Etsi ja Laske) - uses Finnish SEO slug
+    'etsi-ja-laske-tyoarkit': findAndCountFiContent,
+    // Also keep English slug for backwards compatibility during transition
+    'find-and-count-worksheets': findAndCountFiContent,
   },
 };
 

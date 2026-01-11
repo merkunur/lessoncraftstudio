@@ -375,6 +375,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     pt: 'combinar-sombras-fichas',
     nl: 'schaduw-matching-werkbladen',
     da: 'skygge-match-arbejdsark',
+    no: 'skyggematching-arbeidsark',
   },
   'subtraction': {
     en: 'subtraction-worksheets',

@@ -233,6 +233,7 @@ import patternWorksheetNoContent from '@/content/product-pages/no/monsteroppgave
 import picturePathNoContent from '@/content/product-pages/no/bildesti-arbeidsark';
 import pictureSortNoContent from '@/content/product-pages/no/bildesortering-arbeidsark';
 import prepositionsNoContent from '@/content/product-pages/no/preposisjoner-arbeidsark';
+import shadowMatchNoContent from '@/content/product-pages/no/skyggematching-arbeidsark';
 
 interface PageProps {
   params: {
@@ -9003,6 +9004,7 @@ export async function generateStaticParams() {
     'bildesti-arbeidsark', // Product page slug (Norwegian) - language-specific SEO slug for picture-path
     'bildesortering-arbeidsark', // Product page slug (Norwegian) - language-specific SEO slug for picture-sort
     'preposisjoner-arbeidsark', // Product page slug (Norwegian) - language-specific SEO slug for prepositions
+    'skyggematching-arbeidsark', // Product page slug (Norwegian) - language-specific SEO slug for shadow-match
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

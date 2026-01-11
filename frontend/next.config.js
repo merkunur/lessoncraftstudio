@@ -1698,6 +1698,12 @@ const nextConfig = {
         destination: '/no/apps/preposisjoner-arbeidsark',
         permanent: true,
       },
+      // Norwegian: shadow-match-worksheets → skyggematching-arbeidsark
+      {
+        source: '/no/apps/shadow-match-worksheets',
+        destination: '/no/apps/skyggematching-arbeidsark',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

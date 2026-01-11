@@ -351,6 +351,7 @@ import patternWorksheetNoContent from '@/content/product-pages/no/monsteroppgave
 import picturePathNoContent from '@/content/product-pages/no/bildesti-arbeidsark';
 import pictureSortNoContent from '@/content/product-pages/no/bildesortering-arbeidsark';
 import prepositionsNoContent from '@/content/product-pages/no/preposisjoner-arbeidsark';
+import shadowMatchNoContent from '@/content/product-pages/no/skyggematching-arbeidsark';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -1583,6 +1584,10 @@ export const contentRegistry: ContentRegistry = {
     'preposisjoner-arbeidsark': prepositionsNoContent,
     // Also keep old slug for backwards compatibility during transition
     'prepositions-worksheets': prepositionsNoContent,
+    // Norwegian Shadow Match (Skyggematching) - uses Norwegian SEO slug
+    'skyggematching-arbeidsark': shadowMatchNoContent,
+    // Also keep old slug for backwards compatibility during transition
+    'shadow-match-worksheets': shadowMatchNoContent,
   },
 };
 

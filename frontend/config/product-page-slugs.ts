@@ -467,6 +467,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       pt: 'combinar-sombras-fichas',
       nl: 'schaduw-matching-werkbladen',
       da: 'skygge-match-arbejdsark',
+      no: 'skyggematching-arbeidsark',
     },
   },
   {

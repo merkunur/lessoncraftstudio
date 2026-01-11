@@ -7,7 +7,7 @@ import { ProductPageContent } from '@/components/product-page/ProductPageClient'
  * URL: /no/apps/bildekryssord-arbeidsark
  *
  * FULL SEO content from: INDIVIDUAL APP PAGES/Norwegian/crossword.md
- * Crossword = Full Access app ($240/year)
+ * Crossword = Full Tilgang app ($240/year)
  * DO NOT SHORTEN - Every paragraph is SEO-optimized
  */
 
@@ -26,13 +26,13 @@ export const crosswordNoContent: ProductPageContent = {
   hero: {
     title: 'Bildekryssord Generator - Arbeidsark Gratis for Barn',
     subtitle: 'Lesetrening og Ordforståelse Oppgaver',
-    description: `Lag profesjonelle bildekryssord med vår enkle generator. Full Access-abonnementet gir deg ubegrenset tilgang til alle 33 oppgavegeneratorer for kr 1 800 årlig eller kr 188 månedlig. Perfekt for lærere som trenger arbeidsark gratis å skrive ut til småskoletrinnet. Last ned som PDF på under 3 minutter.
+    description: `Lag profesjonelle bildekryssord med vår enkle generator. Full Tilgang-abonnementet gir deg ubegrenset tilgang til alle 33 oppgavegeneratorer for kr 1 800 årlig eller kr 188 månedlig. Perfekt for lærere som trenger arbeidsark gratis å skrive ut til småskoletrinnet. Last ned som PDF på under 3 minutter.
 
 Bildekryssord kombinerer visuell læring med ordforståelse. Elevene ser på bilder og fyller inn ordene i rutenettet. Dette styrker både lesetrening og ordforråd samtidig. Ideelt for 1. til 3. trinn.
 
 Velg mellom over 3000 bilder organisert etter tema. Lag kryssord om matematikk oppgaver, bokstaver lære skrive, eller tall og telling. Tilpass vanskelighetsgrad til din klasse. Generer både oppgaveark og fasit automatisk.
 
-Full Access inkluderer kommersielle rettigheter for print-on-demand. Selg dine arbeidsark på Teachers Pay Teachers eller Etsy. Alle oppgaver lastes ned i høy kvalitet 300 DPI - perfekt for utskrift og videresalg.`,
+Full Tilgang inkluderer kommersielle rettigheter for print-on-demand. Selg dine arbeidsark på Teachers Pay Teachers eller Etsy. Alle oppgaver lastes ned i høy kvalitet 300 DPI - perfekt for utskrift og videresalg.`,
     previewImageSrc: '/samples/english/crossword/crossword_worksheet.jpeg',
     ctaLabels: {
       tryFree: 'Prøv Gratis',
@@ -86,7 +86,7 @@ Full Access inkluderer kommersielle rettigheter for print-on-demand. Selg dine a
   // Features Grid - FULL text from crossword.md feature sections
   features: {
     sectionTitle: 'Bildekryssord Funksjoner - Alt Du Trenger for Arbeidsark Gratis og Lesetrening Oppgaver',
-    sectionDescription: 'Vår bildekryssord-generator kombinerer kraftige funksjoner med enkel bruk. Lag matematikk oppgaver, bokstaver lære skrive-aktiviteter og leseforståelse-oppgaver på minutter. Full Access gir deg alle verktøyene du trenger for småskoletrinnet. Over 3000 bilder gjør det enkelt å lage varierte oppgavehefter barn elsker.',
+    sectionDescription: 'Vår bildekryssord-generator kombinerer kraftige funksjoner med enkel bruk. Lag matematikk oppgaver, bokstaver lære skrive-aktiviteter og leseforståelse-oppgaver på minutter. Full Tilgang gir deg alle verktøyene du trenger for småskoletrinnet. Over 3000 bilder gjør det enkelt å lage varierte oppgavehefter barn elsker.',
     highlightBadgeText: 'Viktig Funksjon',
     readMoreLabel: 'Les mer',
     showLessLabel: 'Vis mindre',
@@ -145,7 +145,7 @@ Dette er kritisk for lærere i internasjonale skoler. Lag samme oppgave på fler
         id: '5',
         icon: '💰',
         title: 'Kommersiell Lisens for Bildekryssord - Selg Dine Oppgavehefter Barn på TPT og Etsy',
-        description: `Full Access inkluderer print-on-demand lisens uten ekstra kostnader. Selg kryssordene dine på Teachers Pay Teachers. Last opp til Etsy som digitale nedlastinger. Bruk i Amazon KDP lavinnholdsbøker.
+        description: `Full Tilgang inkluderer print-on-demand lisens uten ekstra kostnader. Selg kryssordene dine på Teachers Pay Teachers. Last opp til Etsy som digitale nedlastinger. Bruk i Amazon KDP lavinnholdsbøker.
 
 Lærere tjener 5 000-50 000 kr månedlig på å selge arbeidsark. Lag tematiske pakker med fargeleggingsbilder barn og kryssord. Kombiner med matematikk oppgaver og tall og telling-aktiviteter. Lag oppgavehefter barn kan bruke hele året.
 
@@ -160,7 +160,7 @@ Ingen krav om kreditering eller attribusjon. 300 DPI kvalitet er perfekt for kom
 
 Alle bilder er designet for småskoletrinnet. Tydelige konturer perfekt for unge elever. Fargerike illustrasjoner holder interessen oppe. Kombineres enkelt med finmotorikk øvelser i samme pakke.
 
-Biblioteket inkluderer også bakgrunner og rammer. Legg til sesongbakgrunner for jul, påske, høst. Grenser med skolemotiv gjør arbeidsarkene mer profesjonelle. Alt inkludert i Full Access uten ekstra kostnader. Lag leseforståelse-oppgaver som ser profesjonelle ut.`,
+Biblioteket inkluderer også bakgrunner og rammer. Legg til sesongbakgrunner for jul, påske, høst. Grenser med skolemotiv gjør arbeidsarkene mer profesjonelle. Alt inkludert i Full Tilgang uten ekstra kostnader. Lag leseforståelse-oppgaver som ser profesjonelle ut.`,
         highlighted: false,
       },
       {
@@ -171,7 +171,7 @@ Biblioteket inkluderer også bakgrunner og rammer. Legg til sesongbakgrunner for
 
 Velg mellom PDF og JPEG-format. PDF bevarer vektorgrafikk for skarpest mulig kvalitet. JPEG er ideelt for deling på sosiale medier. Gråtonealternativ sparer blekkostnader. Last ned både oppgaveark og fasit samtidig.
 
-Letter Portrait, Letter Landscape, A4 Portrait og A4 Landscape støttes. Tilpasset sidestørrelse for spesielle behov. Arbeidsarkene passer perfekt i mapper og oppgavehefter barn bruker på skolen. Last ned ubegrenset uten per-ark kostnader med Full Access.`,
+Letter Portrait, Letter Landscape, A4 Portrait og A4 Landscape støttes. Tilpasset sidestørrelse for spesielle behov. Arbeidsarkene passer perfekt i mapper og oppgavehefter barn bruker på skolen. Last ned ubegrenset uten per-ark kostnader med Full Tilgang.`,
         highlighted: true,
       },
     ],
@@ -253,7 +253,7 @@ Last ned både oppgaveark og fasit separat. Velg "Kryssord (PDF)" for elevkopier
 
 Aktiver "Gråtone" før nedlasting for å spare blekkostnader. Dette konverterer alle farger til gråtoner. Perfekt når du printer mange kopier. Utskriftskvaliteten forblir profesjonell selv i gråtoner.
 
-Med Full Access kan du laste ned ubegrenset uten per-ark kostnader. Lag nye matematikk oppgaver hver dag. Kombiner med fargeleggingsbilder barn og finmotorikk øvelser. Bygg komplette oppgavehefter barn kan bruke hele skoleåret.`,
+Med Full Tilgang kan du laste ned ubegrenset uten per-ark kostnader. Lag nye matematikk oppgaver hver dag. Kombiner med fargeleggingsbilder barn og finmotorikk øvelser. Bygg komplette oppgavehefter barn kan bruke hele skoleåret.`,
         icon: '📥',
       },
     ],
@@ -278,7 +278,7 @@ Bruk bildebiblioteket til å lage tall og telling arbeidsark. Velg bilder av tal
 
 Kombiner kryssord med fargeleggingsbilder barn i samme pakke. Print kryssordet på den ene siden, fargeleggingsbilder barn på den andre. Perfekt for avdelingens stilletidsaktiviteter. Førskolebarn får øve både ordgjenkjenning og finmotorikk.
 
-Full Access lar deg lage ubegrenset med arbeidsark gratis å skrive ut. Lag nye oppgaver hver uke til de eldste barna. Bygg opp en samling tilpasset førskolens årsplan. Ingen ekstra kostnader utover abonnementet på kr 1 800 årlig.`,
+Full Tilgang lar deg lage ubegrenset med arbeidsark gratis å skrive ut. Lag nye oppgaver hver uke til de eldste barna. Bygg opp en samling tilpasset førskolens årsplan. Ingen ekstra kostnader utover abonnementet på kr 1 800 årlig.`,
         quote: 'Barna elsker å finne ordene i kryssordene!',
       },
       {
@@ -302,7 +302,7 @@ Last opp klassebilder fra skoleturer eller prosjekter. Lag kryssord med ord fra 
         subtitle: 'Fleksible bildekryssord aktiviteter for hjemmeundervisning',
         description: `Hjemmeundervisningsforeldre setter stor pris på fleksibiliteten til å lage tilpassede arbeidsark gratis. Lag kryssord som matcher barnets interesser. Barnet elsker dinosaurer? Lag dinosaurkryssord. Interessert i verdensrommet? Lag romfartskryssord.
 
-Full Access gir tilgang til alle 33 generatorer. Kombiner bildekryssord med finmotorikk øvelser, fargeleggingsbilder barn og skriveoppgaver. Bygg komplette ukentlige oppgavehefter barn. Dette sparer hundrevis av timer sammenlignet med å finne ressurser fra forskjellige kilder.
+Full Tilgang gir tilgang til alle 33 generatorer. Kombiner bildekryssord med finmotorikk øvelser, fargeleggingsbilder barn og skriveoppgaver. Bygg komplette ukentlige oppgavehefter barn. Dette sparer hundrevis av timer sammenlignet med å finne ressurser fra forskjellige kilder.
 
 Bruk kryssordene til flernivåundervisning når du har barn på forskjellige trinn. Lag lettere kryssord for yngre søsken og mer utfordrende for eldre. Samme verktøy, ulike vanskelighetsgrader. Perfekt for familier med flere barn.
 
@@ -344,7 +344,7 @@ Lås rutenettet og bildehintet før utskrift hvis eleven blir distrahert av for 
         subtitle: 'Bygg ekstrainntekt på Teachers Pay Teachers og Etsy',
         description: `Lærere som selger på Teachers Pay Teachers (TPT) eller Etsy tjener godt på bildekryssord. Lag tematiske pakker med 10-20 kryssord. Sesongpakker (jul, påske, høst) selger spesielt godt. Kombiner med addisjon og subtraksjon arbeidsark for komplett tilbud.
 
-Full Access inkluderer print-on-demand lisens på alle 33 generatorer. Lag kryssord, fargeleggingsbilder barn, matematikk oppgaver og finmotorikk øvelser. Kombiner i digitale produktpakker. Selgere rapporterer 5 000-50 000 kr månedlig inntekt.
+Full Tilgang inkluderer print-on-demand lisens på alle 33 generatorer. Lag kryssord, fargeleggingsbilder barn, matematikk oppgaver og finmotorikk øvelser. Kombiner i digitale produktpakker. Selgere rapporterer 5 000-50 000 kr månedlig inntekt.
 
 300 DPI kvalitet er essensiell for kommersiell suksess. Kjøpere forventer skarp utskrift. Vår generator sikrer profesjonell kvalitet hver gang. Ingen tilleggsprosessering nødvendig. Lag, last ned, last opp til TPT - ferdig.
 
@@ -369,7 +369,7 @@ Lag gangetabellen arbeidsark for 3. trinn som populære produkter. Kombiner med 
       {
         id: '1',
         question: 'Er Denne Bildekryssord-Generatoren Virkelig Gratis å Bruke for Arbeidsark Gratis?',
-        answer: 'Bildekryssord-generatoren krever Full Access-abonnement som koster kr 1 800 årlig eller kr 188 månedlig. Abonnementet gir ubegrenset tilgang til bildekryssord-opprettelse uten kostnader per arbeidsark. Generer så mange matematikk oppgaver og lesetrening-aktiviteter du trenger uten tilleggskostnader. Full Access inkluderer alle 33 generatorer på plattformen. Du får ikke bare bildekryssord, men også fargeleggingsbilder barn, finmotorikk øvelser, gangetabellen arbeidsark og mye mer. Grunnpakke koster kr 1 075 årlig og inkluderer 10 populære generatorer. Full Access inkluderer alle 33 generatortyper inkludert bildekryssord. Begge abonnementsnivåene inkluderer kommersiell lisens, støtte for 11 språk og profesjonell 300 DPI kvalitetseksport.',
+        answer: 'Bildekryssord-generatoren krever Full Tilgang-abonnement som koster kr 1 800 årlig eller kr 188 månedlig. Abonnementet gir ubegrenset tilgang til bildekryssord-opprettelse uten kostnader per arbeidsark. Generer så mange matematikk oppgaver og lesetrening-aktiviteter du trenger uten tilleggskostnader. Full Tilgang inkluderer alle 33 generatorer på plattformen. Du får ikke bare bildekryssord, men også fargeleggingsbilder barn, finmotorikk øvelser, gangetabellen arbeidsark og mye mer. Grunnpakke koster kr 1 075 årlig og inkluderer 10 populære generatorer. Full Tilgang inkluderer alle 33 generatortyper inkludert bildekryssord. Begge abonnementsnivåene inkluderer kommersiell lisens, støtte for 11 språk og profesjonell 300 DPI kvalitetseksport.',
       },
       {
         id: '2',
@@ -384,7 +384,7 @@ Lag gangetabellen arbeidsark for 3. trinn som populære produkter. Kombiner med 
       {
         id: '4',
         question: 'Kan Jeg Bruke Bildekryssord og Oppgavehefter Barn i Klasserommet med Elevene?',
-        answer: 'Ja, Full Access-abonnement inkluderer ubegrenset klasserombruk. Skriv ut så mange kopier du trenger til elevene. Bruk i hele barnehagen, skolen eller hjemmeskolen. Ingen begrensning på antall elever eller kopier. Del digitale filer med kolleger på samme skole. Lag oppgavehefter barn for hele trinnet. Koordiner med andre lærere om felles ressurser. Bruk bildekryssord i stasjonsundervisning. Lag forskjellige vanskelighetsgrader for differensiering. Send arbeidsark hjem som lekser eller ekstraøving.',
+        answer: 'Ja, Full Tilgang-abonnement inkluderer ubegrenset klasserombruk. Skriv ut så mange kopier du trenger til elevene. Bruk i hele barnehagen, skolen eller hjemmeskolen. Ingen begrensning på antall elever eller kopier. Del digitale filer med kolleger på samme skole. Lag oppgavehefter barn for hele trinnet. Koordiner med andre lærere om felles ressurser. Bruk bildekryssord i stasjonsundervisning. Lag forskjellige vanskelighetsgrader for differensiering. Send arbeidsark hjem som lekser eller ekstraøving.',
       },
       {
         id: '5',
@@ -394,7 +394,7 @@ Lag gangetabellen arbeidsark for 3. trinn som populære produkter. Kombiner med 
       {
         id: '6',
         question: 'Kan Jeg Selge Bildekryssord og Gangetabellen Arbeidsark Jeg Lager med Denne Generatoren?',
-        answer: 'Ja, Full Access inkluderer full kommersiell print-on-demand lisens uten ekstra kostnad. Selg kryssordene dine på Teachers Pay Teachers, Etsy eller Amazon KDP. Ingen krav om kreditering eller royalties tilbake til oss. Produktene er 100% dine. Lag tematiske pakker med gangetabellen arbeidsark for 3. trinn. Kombiner med tall og telling aktiviteter og addisjon og subtraksjon arbeidsark. TPT-selgere rapporterer 5 000-50 000 kr månedlig inntekt fra digitale produkter. Ingen lisensgebyr utover kr 1 800 årlige abonnement.',
+        answer: 'Ja, Full Tilgang inkluderer full kommersiell print-on-demand lisens uten ekstra kostnad. Selg kryssordene dine på Teachers Pay Teachers, Etsy eller Amazon KDP. Ingen krav om kreditering eller royalties tilbake til oss. Produktene er 100% dine. Lag tematiske pakker med gangetabellen arbeidsark for 3. trinn. Kombiner med tall og telling aktiviteter og addisjon og subtraksjon arbeidsark. TPT-selgere rapporterer 5 000-50 000 kr månedlig inntekt fra digitale produkter. Ingen lisensgebyr utover kr 1 800 årlige abonnement.',
       },
       {
         id: '7',
@@ -424,14 +424,14 @@ Lag gangetabellen arbeidsark for 3. trinn som populære produkter. Kombiner med 
       {
         id: '12',
         question: 'Kan Jeg Lage Fagspesifikke Bildekryssord om Matematikk Oppgaver, Gangetabellen og Bokstaver Lære Skrive?',
-        answer: 'Absolutt. Bildebiblioteket dekker mange fagtema. For matematikk oppgaver velg temaer med former, tallsymboler, geometri. Lag kryssord med ord som "trekant", "firkant", "sirkel". For gangetabellen arbeidsark lag kryssord med multiplikasjonsord. For bokstaver lære skrive velg bilder som begynner med målbokstaven. Lag "B"-kryssord med bil, ball, banan, blomst. Naturfag-kryssord bruk dyr, planter, vær-tema. Full Access gir deg verktøyet. Du bestemmer faglig innhold.',
+        answer: 'Absolutt. Bildebiblioteket dekker mange fagtema. For matematikk oppgaver velg temaer med former, tallsymboler, geometri. Lag kryssord med ord som "trekant", "firkant", "sirkel". For gangetabellen arbeidsark lag kryssord med multiplikasjonsord. For bokstaver lære skrive velg bilder som begynner med målbokstaven. Lag "B"-kryssord med bil, ball, banan, blomst. Naturfag-kryssord bruk dyr, planter, vær-tema. Full Tilgang gir deg verktøyet. Du bestemmer faglig innhold.',
       },
     ],
   },
 
   // Pricing
   pricing: {
-    title: 'Full Access',
+    title: 'Full Tilgang',
     price: 'kr 1 800',
     priceInterval: '/år',
     priceSuffix: 'Faktureres årlig',
@@ -451,7 +451,7 @@ Lag gangetabellen arbeidsark for 3. trinn som populære produkter. Kombiner med 
   // Related Apps - From crossword.md "Kombiner" section
   relatedApps: {
     sectionTitle: 'Kombiner Bildekryssord med Andre Arbeidsark Gratis - Komplette Oppgavehefter Barn og Lesetrening',
-    sectionDescription: 'Full Access gir tilgang til 33 forskjellige generatorer. Kombiner bildekryssord med fargeleggingsbilder barn, matematikk oppgaver og finmotorikk øvelser. Bygg komplette ukentlige oppgavehefter barn. Elevene får variert øving på tvers av fag og ferdigheter.',
+    sectionDescription: 'Full Tilgang gir tilgang til 33 forskjellige generatorer. Kombiner bildekryssord med fargeleggingsbilder barn, matematikk oppgaver og finmotorikk øvelser. Bygg komplette ukentlige oppgavehefter barn. Elevene får variert øving på tvers av fag og ferdigheter.',
     ctaTitle: 'Klar til å Lage Fantastiske Arbeidsark?',
     ctaDescription: 'Bli med tusenvis av pedagoger som lager profesjonelle arbeidsark. Ubegrenset oppretting, kommersiell lisens inkludert.',
     primaryCtaText: 'Start Gratis Prøveperiode',

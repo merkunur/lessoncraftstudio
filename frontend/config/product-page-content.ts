@@ -341,6 +341,7 @@ import drawAndColorNoContent from '@/content/product-pages/no/rutenetttegning-ar
 import findObjectsNoContent from '@/content/product-pages/no/finn-objektene-arbeidsark';
 import gridMatchNoContent from '@/content/product-pages/no/rutenett-tilpasning-arbeidsark';
 import crosswordNoContent from '@/content/product-pages/no/bildekryssord-arbeidsark';
+import cryptogramNoContent from '@/content/product-pages/no/kryptogram-arbeidsark';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -1533,6 +1534,10 @@ export const contentRegistry: ContentRegistry = {
     'bildekryssord-arbeidsark': crosswordNoContent,
     // Also keep old slug for backwards compatibility during transition
     'crossword-worksheets': crosswordNoContent,
+    // Norwegian Cryptogram (Kryptogram) - uses Norwegian SEO slug
+    'kryptogram-arbeidsark': cryptogramNoContent,
+    // Also keep old slug for backwards compatibility during transition
+    'cryptogram-worksheets': cryptogramNoContent,
   },
 };
 

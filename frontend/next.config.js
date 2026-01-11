@@ -1638,6 +1638,12 @@ const nextConfig = {
         destination: '/no/apps/bildekryssord-arbeidsark',
         permanent: true,
       },
+      // Norwegian: cryptogram-worksheets → kryptogram-arbeidsark
+      {
+        source: '/no/apps/cryptogram-worksheets',
+        destination: '/no/apps/kryptogram-arbeidsark',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

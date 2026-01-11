@@ -223,6 +223,7 @@ import drawAndColorNoContent from '@/content/product-pages/no/rutenetttegning-ar
 import findObjectsNoContent from '@/content/product-pages/no/finn-objektene-arbeidsark';
 import gridMatchNoContent from '@/content/product-pages/no/rutenett-tilpasning-arbeidsark';
 import crosswordNoContent from '@/content/product-pages/no/bildekryssord-arbeidsark';
+import cryptogramNoContent from '@/content/product-pages/no/kryptogram-arbeidsark';
 
 interface PageProps {
   params: {
@@ -8983,6 +8984,7 @@ export async function generateStaticParams() {
     'finn-objektene-arbeidsark', // Product page slug (Norwegian) - language-specific SEO slug for find-objects
     'rutenett-tilpasning-arbeidsark', // Product page slug (Norwegian) - language-specific SEO slug for grid-match
     'bildekryssord-arbeidsark', // Product page slug (Norwegian) - language-specific SEO slug for crossword
+    'kryptogram-arbeidsark', // Product page slug (Norwegian) - language-specific SEO slug for cryptogram
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

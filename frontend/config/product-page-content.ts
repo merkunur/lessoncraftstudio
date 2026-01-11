@@ -337,6 +337,7 @@ import sudokuNoContent from '@/content/product-pages/no/sudoku-arbeidsark';
 import bigSmallNoContent from '@/content/product-pages/no/stor-og-liten-arbeidsark';
 import chartCountNoContent from '@/content/product-pages/no/bildediagram-arbeidsark';
 import codeAdditionNoContent from '@/content/product-pages/no/bildeaddisjon-arbeidsark';
+import drawAndColorNoContent from '@/content/product-pages/no/rutenetttegning-arbeidsark';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -1513,6 +1514,10 @@ export const contentRegistry: ContentRegistry = {
     'bildeaddisjon-arbeidsark': codeAdditionNoContent,
     // Also keep old slug for backwards compatibility during transition
     'code-addition-worksheets': codeAdditionNoContent,
+    // Norwegian Draw and Color (Rutenetttegning) - uses Norwegian SEO slug
+    'rutenetttegning-arbeidsark': drawAndColorNoContent,
+    // Also keep old slug for backwards compatibility during transition
+    'draw-and-color-worksheets': drawAndColorNoContent,
   },
 };
 

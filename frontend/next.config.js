@@ -1614,6 +1614,12 @@ const nextConfig = {
         destination: '/no/apps/bildeaddisjon-arbeidsark',
         permanent: true,
       },
+      // Norwegian: draw-and-color-worksheets → rutenetttegning-arbeidsark
+      {
+        source: '/no/apps/draw-and-color-worksheets',
+        destination: '/no/apps/rutenetttegning-arbeidsark',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

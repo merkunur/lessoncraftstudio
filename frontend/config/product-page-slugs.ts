@@ -258,6 +258,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       pt: 'desenho-grade-fichas',
       nl: 'rastertekenen-werkbladen',
       da: 'tegn-og-farvelaeg-arbejdsark',
+      no: 'rutenetttegning-arbeidsark',
     },
   },
   {

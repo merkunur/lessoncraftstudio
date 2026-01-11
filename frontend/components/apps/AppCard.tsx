@@ -208,6 +208,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     pt: 'desenho-grade-fichas',
     nl: 'rastertekenen-werkbladen',
     da: 'tegn-og-farvelaeg-arbejdsark',
+    no: 'rutenetttegning-arbeidsark',
   },
   'find-objects': {
     en: 'find-objects-worksheets',

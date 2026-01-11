@@ -1692,6 +1692,12 @@ const nextConfig = {
         destination: '/no/apps/bildesortering-arbeidsark',
         permanent: true,
       },
+      // Norwegian: prepositions-worksheets → preposisjoner-arbeidsark
+      {
+        source: '/no/apps/prepositions-worksheets',
+        destination: '/no/apps/preposisjoner-arbeidsark',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

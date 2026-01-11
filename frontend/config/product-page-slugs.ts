@@ -452,6 +452,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       pt: 'preposicoes-fichas',
       nl: 'voorzetsels-werkbladen',
       da: 'praepositioner-arbejdsark',
+      no: 'preposisjoner-arbeidsark',
     },
   },
   {

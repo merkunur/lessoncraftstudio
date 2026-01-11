@@ -350,6 +350,7 @@ import patternTrainNoContent from '@/content/product-pages/no/monstertog-arbeids
 import patternWorksheetNoContent from '@/content/product-pages/no/monsteroppgaver-arbeidsark';
 import picturePathNoContent from '@/content/product-pages/no/bildesti-arbeidsark';
 import pictureSortNoContent from '@/content/product-pages/no/bildesortering-arbeidsark';
+import prepositionsNoContent from '@/content/product-pages/no/preposisjoner-arbeidsark';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -1578,6 +1579,10 @@ export const contentRegistry: ContentRegistry = {
     'bildesortering-arbeidsark': pictureSortNoContent,
     // Also keep old slug for backwards compatibility during transition
     'picture-sort-worksheets': pictureSortNoContent,
+    // Norwegian Prepositions (Preposisjoner) - uses Norwegian SEO slug
+    'preposisjoner-arbeidsark': prepositionsNoContent,
+    // Also keep old slug for backwards compatibility during transition
+    'prepositions-worksheets': prepositionsNoContent,
   },
 };
 

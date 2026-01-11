@@ -1758,6 +1758,12 @@ const nextConfig = {
         destination: '/fi/apps/matematiikka-tyoarkit',
         permanent: true,
       },
+      // Finnish: word-scramble-worksheets → sanansekoitus-tyoarkit
+      {
+        source: '/fi/apps/word-scramble-worksheets',
+        destination: '/fi/apps/sanansekoitus-tyoarkit',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

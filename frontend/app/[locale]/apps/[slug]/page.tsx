@@ -240,6 +240,7 @@ import wordGuessNoContent from '@/content/product-pages/no/gjetteoppgaver-arbeid
 import writingNoContent from '@/content/product-pages/no/skriveark-arbeidsark';
 import coloringFiContent from '@/content/product-pages/fi/varityskuvat-tyoarkit';
 import mathWorksheetsFiContent from '@/content/product-pages/fi/matematiikka-tyoarkit';
+import wordScrambleFiContent from '@/content/product-pages/fi/sanansekoitus-tyoarkit';
 
 interface PageProps {
   params: {
@@ -9209,6 +9210,7 @@ export async function generateStaticParams() {
     'aakkosjuna-tyoarkit', // Product page slug (Finnish) - language-specific SEO slug for alphabet-train
     'varityskuvat-tyoarkit', // Product page slug (Finnish) - language-specific SEO slug for coloring
     'matematiikka-tyoarkit', // Product page slug (Finnish) - language-specific SEO slug for math worksheets
+    'sanansekoitus-tyoarkit', // Product page slug (Finnish) - language-specific SEO slug for word-scramble
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

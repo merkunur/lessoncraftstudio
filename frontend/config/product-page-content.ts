@@ -83,6 +83,7 @@ import additionFiContent from '@/content/product-pages/fi/yhteenlasku-tyoarkit';
 import alphabetTrainFiContent from '@/content/product-pages/fi/aakkosjuna-tyoarkit';
 import coloringFiContent from '@/content/product-pages/fi/varityskuvat-tyoarkit';
 import mathWorksheetsFiContent from '@/content/product-pages/fi/matematiikka-tyoarkit';
+import wordScrambleFiContent from '@/content/product-pages/fi/sanansekoitus-tyoarkit';
 
 // German content imports
 import wordSearchDeContent from '@/content/product-pages/de/word-search-worksheets';
@@ -1637,6 +1638,10 @@ export const contentRegistry: ContentRegistry = {
     'matematiikka-tyoarkit': mathWorksheetsFiContent,
     // Also keep English slug for backwards compatibility during transition
     'math-worksheets': mathWorksheetsFiContent,
+    // Finnish Word Scramble (Sanansekoitus) - uses Finnish SEO slug
+    'sanansekoitus-tyoarkit': wordScrambleFiContent,
+    // Also keep English slug for backwards compatibility during transition
+    'word-scramble-worksheets': wordScrambleFiContent,
   },
 };
 

@@ -103,6 +103,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     nl: 'woordkruisel-werkbladen',
     da: 'bogstavblanding-arbejdsark',
     no: 'bokstavoppgaver-arbeidsark',
+    fi: 'sanansekoitus-tyoarkit',
   },
   'find-and-count': {
     en: 'find-and-count-worksheets',

@@ -129,6 +129,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       nl: 'woordkruisel-werkbladen',
       da: 'bogstavblanding-arbejdsark',
       no: 'bokstavoppgaver-arbeidsark',
+      fi: 'sanansekoitus-tyoarkit',
     },
   },
   {

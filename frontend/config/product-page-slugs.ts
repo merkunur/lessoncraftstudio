@@ -407,6 +407,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       pt: 'fichas-padroes-sequencias',
       nl: 'patronen-werkbladen',
       da: 'moenstre-arbejdsark',
+      no: 'monsteroppgaver-arbeidsark',
     },
   },
   {

@@ -347,6 +347,7 @@ import missingPiecesNoContent from '@/content/product-pages/no/manglende-biter-a
 import moreLessNoContent from '@/content/product-pages/no/sammenligningsoppgaver-arbeidsark';
 import oddOneOutNoContent from '@/content/product-pages/no/finn-den-ulike-arbeidsark';
 import patternTrainNoContent from '@/content/product-pages/no/monstertog-arbeidsark';
+import patternWorksheetNoContent from '@/content/product-pages/no/monsteroppgaver-arbeidsark';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -1563,6 +1564,10 @@ export const contentRegistry: ContentRegistry = {
     'monstertog-arbeidsark': patternTrainNoContent,
     // Also keep old slug for backwards compatibility during transition
     'pattern-train-worksheets': patternTrainNoContent,
+    // Norwegian Pattern Worksheet (Mønsteroppgaver) - uses Norwegian SEO slug
+    'monsteroppgaver-arbeidsark': patternWorksheetNoContent,
+    // Also keep old slug for backwards compatibility during transition
+    'pattern-worksheets': patternWorksheetNoContent,
   },
 };
 

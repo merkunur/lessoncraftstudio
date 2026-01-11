@@ -1674,6 +1674,12 @@ const nextConfig = {
         destination: '/no/apps/monstertog-arbeidsark',
         permanent: true,
       },
+      // Norwegian: pattern-worksheets → monsteroppgaver-arbeidsark
+      {
+        source: '/no/apps/pattern-worksheets',
+        destination: '/no/apps/monsteroppgaver-arbeidsark',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

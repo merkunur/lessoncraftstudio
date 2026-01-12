@@ -439,7 +439,17 @@ Teemapaketit myyvät hyvin. Luo "Eläinten yhteenlasku" -paketti 20 monisteen ka
   relatedApps: {
     sectionTitle: 'Liittyvät Matematiikkatyökalut',
     sectionDescription: 'Tutustu muihin matematiikka- ja oppimistyökaluihimme jotka täydentävät kuvapohjaista yhteenlaskugeneraattoria.',
-    badgeText: 'Lisää Työkaluja',
+    badgeText: 'Toimii Hyvin Yhdessä',
+    ctaTitle: 'Valmiina Luomaan Upeita Työarkkeja?',
+    ctaDescription: 'Liity tuhansien opettajien joukkoon, jotka luovat ammattimaisia työarkkeja. Rajoittamaton generointi, kaupallinen lisenssi sisältyy.',
+    primaryCtaText: 'Aloita Ilmainen Kokeilu',
+    secondaryCtaText: 'Katso Kaikki 33 Sovellusta',
+    exploreText: 'Tutustu kaikkiin sovelluksiin',
+    trustBadges: {
+      guarantee: '30 päivän rahat takaisin -takuu',
+      securePayment: 'Turvallinen maksu',
+      cancelAnytime: 'Peruuta milloin tahansa',
+    },
     items: [
       {
         id: '1',

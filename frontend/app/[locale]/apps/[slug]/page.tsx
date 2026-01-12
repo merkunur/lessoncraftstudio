@@ -253,6 +253,7 @@ import mathPuzzleFiContent from '@/content/product-pages/fi/matematiikkapulmat-t
 import missingPiecesFiContent from '@/content/product-pages/fi/puuttuvat-palat-tyoarkit';
 import moreLessFiContent from '@/content/product-pages/fi/enemman-vahemman-tyoarkit';
 import oddOneOutFiContent from '@/content/product-pages/fi/poikkea-joukosta-tyoarkit';
+import patternWorksheetFiContent from '@/content/product-pages/fi/kuviotehtava-tyoarkit';
 
 interface PageProps {
   params: {

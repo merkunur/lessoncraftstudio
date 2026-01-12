@@ -102,6 +102,7 @@ import missingPiecesFiContent from '@/content/product-pages/fi/puuttuvat-palat-t
 import moreLessFiContent from '@/content/product-pages/fi/enemman-vahemman-tyoarkit';
 import oddOneOutFiContent from '@/content/product-pages/fi/poikkea-joukosta-tyoarkit';
 import patternTrainFiContent from '@/content/product-pages/fi/kuviojuna-tyoarkit';
+import patternWorksheetFiContent from '@/content/product-pages/fi/kuviotehtava-tyoarkit';
 
 // German content imports
 import wordSearchDeContent from '@/content/product-pages/de/word-search-worksheets';
@@ -1732,6 +1733,10 @@ export const contentRegistry: ContentRegistry = {
     'kuviojuna-tyoarkit': patternTrainFiContent,
     // Also keep English slug for backwards compatibility during transition
     'pattern-train-worksheets': patternTrainFiContent,
+    // Finnish Pattern Worksheet (Kuviotehtävä) - uses Finnish SEO slug
+    'kuviotehtava-tyoarkit': patternWorksheetFiContent,
+    // Also keep English slug for backwards compatibility during transition
+    'pattern-worksheets': patternWorksheetFiContent,
   },
 };
 

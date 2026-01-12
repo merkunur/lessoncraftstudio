@@ -1860,6 +1860,12 @@ const nextConfig = {
         destination: '/fi/apps/poikkea-joukosta-tyoarkit',
         permanent: true,
       },
+      // Finnish: pattern-worksheets → kuviotehtava-tyoarkit
+      {
+        source: '/fi/apps/pattern-worksheets',
+        destination: '/fi/apps/kuviotehtava-tyoarkit',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

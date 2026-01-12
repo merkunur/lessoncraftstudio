@@ -349,6 +349,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     nl: 'patronen-werkbladen',
     da: 'moenstre-arbejdsark',
     no: 'monsteroppgaver-arbeidsark',
+    fi: 'kuviotehtava-tyoarkit',
   },
   'picture-path': {
     en: 'picture-path-worksheets',

@@ -429,6 +429,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       nl: 'patronen-werkbladen',
       da: 'moenstre-arbejdsark',
       no: 'monsteroppgaver-arbeidsark',
+      fi: 'kuviotehtava-tyoarkit',
     },
   },
   {

@@ -494,6 +494,7 @@ Erityisopetuksessa ruudukkopiirustustehtävät toimivat vanhemmillekin oppilaill
     trustBadges: {
       guarantee: '30 päivän takuu',
       securePayment: 'Turvallinen maksu',
+      cancelAnytime: 'Peruuta milloin tahansa',
     },
     ctaSection: {
       title: 'Valmis Aloittamaan?',

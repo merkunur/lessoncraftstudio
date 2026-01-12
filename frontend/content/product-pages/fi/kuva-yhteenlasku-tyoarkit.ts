@@ -417,6 +417,24 @@ Teemapaketit myyvät hyvin. Luo "Eläinten yhteenlasku" -paketti 20 monisteen ka
     ],
   },
 
+  // Pricing Section - Finnish translated
+  pricing: {
+    title: 'Peruspaketti',
+    price: '144€',
+    priceInterval: '/vuosi',
+    priceSuffix: 'Laskutetaan vuosittain',
+    benefits: [
+      'Rajoittamaton työarkkien luonti',
+      'Kaupallinen lisenssi sisältyy',
+      '11 kielen tuki',
+      '3000+ teemaattista kuvaa',
+      '300 DPI tulostuslaatu',
+      'Vastausavaimet sisältyvät',
+    ],
+    ctaText: 'Aloita Luominen Nyt',
+    guaranteeText: '30 päivän rahat takaisin -takuu',
+  },
+
   // Related Apps Section - Finnish translated
   relatedApps: {
     sectionTitle: 'Liittyvät Matematiikkatyökalut',

@@ -343,7 +343,6 @@ Tu suscripcion incluye acceso a mas de 3000 imagenes infantiles organizadas por 
     badgeText: 'Combina con',
     exploreText: 'Explorar todas las aplicaciones',
     trustBadges: {
-      guarantee: 'Garantia de 30 dias',
       securePayment: 'Pago seguro',
       cancelAnytime: 'Cancela cuando quieras',
     },

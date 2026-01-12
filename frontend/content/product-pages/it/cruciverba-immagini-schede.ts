@@ -399,7 +399,6 @@ Scarica sia il cruciverba che la chiave delle risposte come file separati. Quest
     badgeText: 'Funziona Perfettamente Con',
     exploreText: 'Esplora tutte le applicazioni',
     trustBadges: {
-      guarantee: 'Garanzia di rimborso 30 giorni',
       securePayment: 'Pagamento sicuro',
       cancelAnytime: 'Cancella quando vuoi',
     },

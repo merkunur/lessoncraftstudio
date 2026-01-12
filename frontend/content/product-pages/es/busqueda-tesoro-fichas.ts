@@ -409,7 +409,6 @@ Los paquetes más vendidos incluyen 20 a 30 fichas preescolar organizadas por te
     badgeText: 'Funciona Perfectamente Con',
     exploreText: 'Explorar todas las aplicaciones',
     trustBadges: {
-      guarantee: 'Garantía de devolución de 30 días',
       securePayment: 'Pago seguro',
       cancelAnytime: 'Cancela cuando quieras',
     },

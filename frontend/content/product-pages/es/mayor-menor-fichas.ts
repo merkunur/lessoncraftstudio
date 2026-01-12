@@ -381,7 +381,6 @@ Genera de 1 a 8 ejercicios por hoja según las necesidades de tu clase. Elige en
     badgeText: 'Combina con',
     exploreText: 'Explorar todas las aplicaciones',
     trustBadges: {
-      guarantee: 'Garantía de 30 días',
       securePayment: 'Pago seguro',
       cancelAnytime: 'Cancela cuando quieras',
     },

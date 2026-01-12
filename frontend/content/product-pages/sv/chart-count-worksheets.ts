@@ -427,7 +427,6 @@ Skapa målarbilder barn versioner för bredare marknad. Diagram som målarbok ti
     badgeText: 'Fungerar Utmärkt Med',
     exploreText: 'Utforska alla appar',
     trustBadges: {
-      guarantee: '30 dagars pengarna-tillbaka-garanti',
       securePayment: 'Säker betalning',
       cancelAnytime: 'Avsluta när som helst',
     },

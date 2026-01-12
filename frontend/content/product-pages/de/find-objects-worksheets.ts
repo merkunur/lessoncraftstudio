@@ -436,7 +436,6 @@ Gestalten Sie thematische Arbeitsblatt-Pakete die mehrere Aktivitätstypen kombi
     badgeText: 'Funktioniert hervorragend mit',
     exploreText: 'Alle Apps erkunden',
     trustBadges: {
-      guarantee: '30 Tage Geld-zurück-Garantie',
       securePayment: 'Sichere Bezahlung',
       cancelAnytime: 'Jederzeit kündbar',
     },

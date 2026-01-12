@@ -550,7 +550,6 @@ Selvretning bliver mulig med svarnogler. Ældre børn i 1-2. klasse kan tjekke e
     badgeText: 'Fungerer Godt Med',
     exploreText: 'Udforsk',
     trustBadges: {
-      guarantee: '30 dages garanti',
       securePayment: 'Sikker betaling',
       cancelAnytime: 'Opsig når som helst',
     },

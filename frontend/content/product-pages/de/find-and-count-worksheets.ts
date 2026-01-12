@@ -446,7 +446,6 @@ Die 300-DPI-Qualität ist essenziell für kommerzielle Produkte. Käufer erwarte
     badgeText: 'Funktioniert hervorragend mit',
     exploreText: 'Alle Apps erkunden',
     trustBadges: {
-      guarantee: '30 Tage Geld-zurück-Garantie',
       securePayment: 'Sichere Bezahlung',
       cancelAnytime: 'Jederzeit kündbar',
     },

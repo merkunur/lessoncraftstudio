@@ -408,7 +408,6 @@ Atividades para imprimir de raciocínio lógico têm demanda constante. Educador
     badgeText: 'Funciona Perfeitamente Com',
     exploreText: 'Explorar todas as aplicações',
     trustBadges: {
-      guarantee: 'Garantia de reembolso 30 dias',
       securePayment: 'Pagamento seguro',
       cancelAnytime: 'Cancele quando quiser',
     },

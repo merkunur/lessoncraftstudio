@@ -452,7 +452,6 @@ Les fiches chasse au trésor sont particulièrement recherchées sur Teachers Pa
     badgeText: 'Fonctionne Bien Avec',
     exploreText: 'Explorer toutes les applications',
     trustBadges: {
-      guarantee: 'Garantie 30 jours',
       securePayment: 'Paiement sécurisé',
       cancelAnytime: 'Annulez à tout moment',
     },

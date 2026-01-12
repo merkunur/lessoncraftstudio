@@ -499,7 +499,6 @@ Mange danske lærere tjener 500-5000 kr. månedligt. Nogle tjener meget mere. Ko
     badgeText: 'Fungerer Godt Med',
     exploreText: 'Udforsk',
     trustBadges: {
-      guarantee: '30 dages garanti',
       securePayment: 'Sikker betaling',
       cancelAnytime: 'Opsig når som helst',
     },

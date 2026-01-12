@@ -406,7 +406,6 @@ Crie pacotes temáticos com 10-20 atividades relacionadas. Adicione exercícios 
     badgeText: 'Funciona Perfeitamente Com',
     exploreText: 'Explorar todas as aplicações',
     trustBadges: {
-      guarantee: 'Garantia de reembolso 30 dias',
       securePayment: 'Pagamento seguro',
       cancelAnytime: 'Cancele quando quiser',
     },

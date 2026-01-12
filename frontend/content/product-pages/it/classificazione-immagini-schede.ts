@@ -435,7 +435,6 @@ I numeri da stampare e le schede matematica hanno domanda costante. I genitori c
     secondaryCtaText: 'Vedi Tutti i 33 Generatori',
     badgeText: 'Generatori Correlati',
     trustBadges: {
-      guarantee: 'Garanzia 30 giorni',
       securePayment: 'Pagamento sicuro',
       cancelAnytime: 'Cancella quando vuoi',
     },

@@ -444,7 +444,6 @@ Lag nisje oppgavehefter barn andre lærere søker etter. "Halloween matematikk o
     badgeText: 'Fungerer Godt Med',
     exploreText: 'Utforsk',
     trustBadges: {
-      guarantee: '30 dagers garanti',
       securePayment: 'Sikker betaling',
       cancelAnytime: 'Avbryt når som helst',
     },

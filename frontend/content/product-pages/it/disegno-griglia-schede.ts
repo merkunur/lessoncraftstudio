@@ -484,7 +484,6 @@ Usa nomi file descrittivi. Carica su Google Drive o Dropbox per accesso ovunque.
     badgeText: 'Funziona Perfettamente Con',
     exploreText: 'Esplora tutte le applicazioni',
     trustBadges: {
-      guarantee: 'Garanzia di rimborso 30 giorni',
       securePayment: 'Pagamento sicuro',
       cancelAnytime: 'Cancella quando vuoi',
     },

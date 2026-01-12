@@ -474,7 +474,6 @@ Le schede italiano classe prima possono seguire il vocabolario settimanale della
     badgeText: 'Funziona Perfettamente Con',
     exploreText: 'Esplora tutte le applicazioni',
     trustBadges: {
-      guarantee: 'Garanzia di rimborso 30 giorni',
       securePayment: 'Pagamento sicuro',
       cancelAnytime: 'Cancella quando vuoi',
     },

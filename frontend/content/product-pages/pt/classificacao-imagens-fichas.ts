@@ -454,7 +454,6 @@ Busque por palavra-chave como "dinossauro" ou "festa junina". Crie atividades pa
     badgeText: 'Combina Bem Com',
     exploreText: 'Explorar todos os apps',
     trustBadges: {
-      guarantee: 'Garantia de 30 dias',
       securePayment: 'Pagamento seguro',
       cancelAnytime: 'Cancele quando quiser',
     },

@@ -450,7 +450,6 @@ Monatliche Abos kündigen vor der nächsten Abbuchung. Jährliche Abos laufen bi
     badgeText: 'Funktioniert Perfekt Mit',
     exploreText: 'Alle Apps entdecken',
     trustBadges: {
-      guarantee: '30-Tage-Garantie',
       securePayment: 'Sichere Zahlung',
       cancelAnytime: 'Jederzeit kündbar',
     },

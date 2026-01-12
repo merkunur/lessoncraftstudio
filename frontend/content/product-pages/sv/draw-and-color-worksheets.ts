@@ -484,7 +484,6 @@ Kombinera flera sv책righetsgrader i samma paket. "25 Djur-m책larbilder Barn - F�
     badgeText: 'Fungerar Utm채rkt Med',
     exploreText: 'Utforska alla appar',
     trustBadges: {
-      guarantee: '30 dagars pengarna-tillbaka-garanti',
       securePayment: 'S채ker betalning',
       cancelAnytime: 'Avsluta n채r som helst',
     },

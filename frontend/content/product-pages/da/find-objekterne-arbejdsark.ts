@@ -445,7 +445,6 @@ Pinterest marketing driver enorm trafik til lærerressource butikker. Lav iøjne
     badgeText: 'Fungerer Godt Med',
     exploreText: 'Udforsk',
     trustBadges: {
-      guarantee: '30 dages garanti',
       securePayment: 'Sikker betaling',
       cancelAnytime: 'Opsig når som helst',
     },

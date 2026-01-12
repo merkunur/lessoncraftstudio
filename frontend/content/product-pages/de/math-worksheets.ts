@@ -444,7 +444,6 @@ Viele Lehrkräfte verdienen 500-5000 € monatlich mit druckbaren Ressourcen fü
     badgeText: 'Funktioniert hervorragend mit',
     exploreText: 'Alle Apps erkunden',
     trustBadges: {
-      guarantee: '30 Tage Geld-zurück-Garantie',
       securePayment: 'Sichere Bezahlung',
       cancelAnytime: 'Jederzeit kündbar',
     },

@@ -499,7 +499,6 @@ Progressiv tall og telling med lesetrening integrasjon. Barnehage: tall 1-5 med 
     primaryCtaText: 'Start Gratis Prøveperiode',
     secondaryCtaText: 'Se Alle 33 Apper',
     trustBadges: {
-      guarantee: '30 dagers garanti',
       securePayment: 'Sikker betaling',
       cancelAnytime: 'Avbryt når som helst',
     },

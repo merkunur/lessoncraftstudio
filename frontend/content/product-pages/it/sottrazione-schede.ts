@@ -472,7 +472,6 @@ I temi stagionali creano schede didattiche perfette per ogni periodo. Settembre 
     badgeText: 'Funziona Perfettamente Con',
     exploreText: 'Esplora tutte le applicazioni',
     trustBadges: {
-      guarantee: 'Garanzia di rimborso 30 giorni',
       securePayment: 'Pagamento sicuro',
       cancelAnytime: 'Cancella quando vuoi',
     },

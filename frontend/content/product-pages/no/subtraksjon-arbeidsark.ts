@@ -475,7 +475,6 @@ Kombiner flere verktøy for større produktpakker. Lag "Komplette 1. Trinn Matem
     badgeText: 'Fungerer Godt Med',
     exploreText: 'Utforsk',
     trustBadges: {
-      guarantee: '30 dagers garanti',
       securePayment: 'Sikker betaling',
       cancelAnytime: 'Avbryt når som helst',
     },

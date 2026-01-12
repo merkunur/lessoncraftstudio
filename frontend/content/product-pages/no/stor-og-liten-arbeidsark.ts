@@ -468,7 +468,6 @@ Full Tilgang gir deg tilgang til alle 33 arbeidsarktyper på plattformen. Lag ko
     badgeText: 'Fungerer Godt Med',
     exploreText: 'Utforsk',
     trustBadges: {
-      guarantee: '30 dagers garanti',
       securePayment: 'Sikker betaling',
       cancelAnytime: 'Avbryt når som helst',
     },

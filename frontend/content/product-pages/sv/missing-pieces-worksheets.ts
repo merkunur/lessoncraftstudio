@@ -388,7 +388,6 @@ Matte övningar för alla årskurser. Addition och subtraktion för årskurs 1-2
     badgeText: 'Fungerar Utmärkt Med',
     exploreText: 'Utforska alla appar',
     trustBadges: {
-      guarantee: '30 dagars pengarna-tillbaka-garanti',
       securePayment: 'Säker betalning',
       cancelAnytime: 'Avsluta när som helst',
     },

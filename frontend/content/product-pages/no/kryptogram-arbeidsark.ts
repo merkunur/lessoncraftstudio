@@ -462,7 +462,6 @@ Mange lærerentreprenører tjener $500-$5000 månedlig med oppgavehefter barn el
     badgeText: 'Fungerer Godt Med',
     exploreText: 'Utforsk',
     trustBadges: {
-      guarantee: '30 dagers garanti',
       securePayment: 'Sikker betaling',
       cancelAnytime: 'Avbryt når som helst',
     },

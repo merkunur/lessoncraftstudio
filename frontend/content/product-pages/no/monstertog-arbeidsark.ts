@@ -521,7 +521,6 @@ Kombiner mønsterarbeidsark med fagundervisning. Bruk gangetabellen for matemati
     badgeText: 'Fungerer Utmerket Med',
     exploreText: 'Utforsk alle apper',
     trustBadges: {
-      guarantee: '30 dagers garanti',
       securePayment: 'Sikker betaling',
       cancelAnytime: 'Avbryt når som helst',
     },

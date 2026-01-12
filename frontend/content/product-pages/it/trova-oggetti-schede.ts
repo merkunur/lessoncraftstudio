@@ -458,7 +458,6 @@ La versatilità di 33 generatori rende l'abbonamento un eccellente investimento.
     badgeText: 'Funziona Perfettamente Con',
     exploreText: 'Esplora tutte le applicazioni',
     trustBadges: {
-      guarantee: 'Garanzia di rimborso 30 giorni',
       securePayment: 'Pagamento sicuro',
       cancelAnytime: 'Cancella quando vuoi',
     },

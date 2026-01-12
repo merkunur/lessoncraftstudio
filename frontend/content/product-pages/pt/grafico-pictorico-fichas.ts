@@ -437,7 +437,6 @@ A qualidade de 300 DPI atende padrões profissionais. Suas fichas competem com e
     badgeText: 'Funciona Perfeitamente Com',
     exploreText: 'Explorar todas as aplicações',
     trustBadges: {
-      guarantee: 'Garantia de reembolso 30 dias',
       securePayment: 'Pagamento seguro',
       cancelAnytime: 'Cancele quando quiser',
     },

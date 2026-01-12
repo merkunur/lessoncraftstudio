@@ -427,7 +427,6 @@ Combine encontre e conte com desenhos para colorir em pacotes completos. Venda i
     badgeText: 'Funciona Perfeitamente Com',
     exploreText: 'Explorar todas as aplicações',
     trustBadges: {
-      guarantee: 'Garantia de reembolso 30 dias',
       securePayment: 'Pagamento seguro',
       cancelAnytime: 'Cancele quando quiser',
     },

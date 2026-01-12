@@ -446,7 +446,6 @@ Start een Etsy winkel met printbare oefenbladen. Tafels oefenen werkbladen zijn 
     badgeText: 'Werkt goed met',
     exploreText: 'Alle apps bekijken',
     trustBadges: {
-      guarantee: '30 dagen geld-terug-garantie',
       securePayment: 'Veilig betalen',
       cancelAnytime: 'Altijd opzegbaar',
     },

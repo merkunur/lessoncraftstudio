@@ -358,7 +358,6 @@ Bildlabyrint generatorn stöder svenska och tio andra språk. Bildnamn visas på
     badgeText: 'Fungerar Utmärkt Med',
     exploreText: 'Utforska alla appar',
     trustBadges: {
-      guarantee: '30 dagars garanti',
       securePayment: 'Säker betalning',
       cancelAnytime: 'Avsluta när som helst',
     },

@@ -438,7 +438,6 @@ Genera fichas preescolar sobre unidades curriculares específicas que estás ens
     badgeText: 'Combina Perfectamente Con',
     exploreText: 'Explorar todas las apps',
     trustBadges: {
-      guarantee: 'Garantía de 30 días',
       securePayment: 'Pago seguro',
       cancelAnytime: 'Cancela cuando quieras',
     },

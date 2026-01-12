@@ -435,7 +435,6 @@ Täysi Käyttöoikeus -tilaus sisältää kaupalliset käyttöoikeudet. Ei lisä
     badgeText: 'Toimii Hyvin Yhdessä',
     exploreText: 'Tutustu kaikkiin sovelluksiin',
     trustBadges: {
-      guarantee: '30 päivän rahat takaisin -takuu',
       securePayment: 'Turvallinen maksu',
       cancelAnytime: 'Peruuta milloin tahansa',
     },

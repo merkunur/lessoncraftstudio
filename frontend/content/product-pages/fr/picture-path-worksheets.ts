@@ -513,7 +513,6 @@ Les progressions d'écriture cursive suivent votre rythme de classe. Intégrez u
     badgeText: 'Fonctionne Parfaitement Avec',
     exploreText: 'Explorer toutes les applications',
     trustBadges: {
-      guarantee: 'Garantie satisfait ou remboursé 30 jours',
       securePayment: 'Paiement sécurisé',
       cancelAnytime: 'Résiliez à tout moment',
     },

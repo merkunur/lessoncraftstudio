@@ -372,7 +372,6 @@ Tu suscripción Acceso Completo incluye licencia comercial completa. Vende tus f
     badgeText: 'Combina con',
     exploreText: 'Explorar todas las aplicaciones',
     trustBadges: {
-      guarantee: 'Garantía de 30 días',
       securePayment: 'Pago seguro',
       cancelAnytime: 'Cancela cuando quieras',
     },

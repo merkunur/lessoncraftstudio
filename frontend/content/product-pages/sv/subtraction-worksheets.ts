@@ -468,7 +468,6 @@ Använd Pinterest för marknadsföring av dina produkter. Pinna exempelarbetsbla
     badgeText: 'Fungerar Utmärkt Med',
     exploreText: 'Utforska alla appar',
     trustBadges: {
-      guarantee: '30 dagars pengarna-tillbaka-garanti',
       securePayment: 'Säker betalning',
       cancelAnytime: 'Avsluta när som helst',
     },

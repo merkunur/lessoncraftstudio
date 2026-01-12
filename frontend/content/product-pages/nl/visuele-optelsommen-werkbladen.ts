@@ -442,7 +442,6 @@ De 300 DPI kwaliteit is verkoopklaar. Geen extra bewerking nodig. Download als P
     badgeText: 'Werkt goed met',
     exploreText: 'Alle apps bekijken',
     trustBadges: {
-      guarantee: '30 dagen geld-terug-garantie',
       securePayment: 'Veilig betalen',
       cancelAnytime: 'Altijd opzegbaar',
     },

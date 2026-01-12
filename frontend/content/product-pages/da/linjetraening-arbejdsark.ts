@@ -417,7 +417,6 @@ Populære produkter inkluderer julepakker, alfabetserier og motoriksamlinger. La
     badgeText: 'Fungerer Godt Med',
     exploreText: 'Udforsk',
     trustBadges: {
-      guarantee: '30 dages garanti',
       securePayment: 'Sikker betaling',
       cancelAnytime: 'Opsig når som helst',
     },

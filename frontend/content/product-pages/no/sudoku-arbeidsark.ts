@@ -439,7 +439,6 @@ Markedsføringsdifferensiering skjer gjennom nisjeinnretting. Lag sudoku-pakker 
     badgeText: 'Fungerer Godt Med',
     exploreText: 'Utforsk',
     trustBadges: {
-      guarantee: '30 dagers garanti',
       securePayment: 'Sikker betaling',
       cancelAnytime: 'Avbryt når som helst',
     },

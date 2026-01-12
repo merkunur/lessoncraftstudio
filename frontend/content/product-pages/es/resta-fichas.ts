@@ -496,7 +496,6 @@ Los maestros de educación temática aprecian particularmente esta flexibilidad.
     badgeText: 'Combina Perfectamente Con',
     exploreText: 'Explorar todas las apps',
     trustBadges: {
-      guarantee: 'Garantía de 30 días',
       securePayment: 'Pago seguro',
       cancelAnytime: 'Cancela cuando quieras',
     },

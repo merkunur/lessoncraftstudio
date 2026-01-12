@@ -374,7 +374,6 @@ Las fichas para imprimir se exportan en formato PDF y JPEG a 300 DPI. Perfectas 
     badgeText: 'Combina con',
     exploreText: 'Explorar todas las aplicaciones',
     trustBadges: {
-      guarantee: 'Garantía de 30 días',
       securePayment: 'Pago seguro',
       cancelAnytime: 'Cancela cuando quieras',
     },

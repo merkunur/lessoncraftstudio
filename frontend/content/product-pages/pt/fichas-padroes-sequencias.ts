@@ -418,7 +418,6 @@ Atividades de letra cursiva e pontilhado podem ser simplificadas. Reduza número
     badgeText: 'Funciona Perfeitamente Com',
     exploreText: 'Explorar todas as aplicações',
     trustBadges: {
-      guarantee: 'Garantia de reembolso 30 dias',
       securePayment: 'Pagamento seguro',
       cancelAnytime: 'Cancele quando quiser',
     },

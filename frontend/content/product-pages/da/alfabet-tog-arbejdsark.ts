@@ -434,7 +434,6 @@ Niche ned i specifikke sprog-markeeder for mindre konkurrence. Danske alfabetopg
     badgeText: 'Fungerer Godt Med',
     exploreText: 'Udforsk',
     trustBadges: {
-      guarantee: '30 dages garanti',
       securePayment: 'Sikker betaling',
       cancelAnytime: 'Opsig når som helst',
     },

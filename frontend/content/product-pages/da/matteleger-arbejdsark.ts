@@ -454,7 +454,6 @@ Professionel 300 DPI-kvalitet sikrer, at dine produkter ser perfekte ud. Bundle 
     badgeText: 'Fungerer Godt Med',
     exploreText: 'Udforsk',
     trustBadges: {
-      guarantee: '30 dages garanti',
       securePayment: 'Sikker betaling',
       cancelAnytime: 'Opsig når som helst',
     },

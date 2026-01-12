@@ -362,7 +362,6 @@ Grundpaketsprenumerationen kostar 144 dollar per år eller 15 dollar per månad.
     badgeText: 'Fungerar Utmärkt Med',
     exploreText: 'Utforska alla appar',
     trustBadges: {
-      guarantee: '30 dagars pengarna-tillbaka-garanti',
       securePayment: 'Säker betalning',
       cancelAnytime: 'Avsluta när som helst',
     },

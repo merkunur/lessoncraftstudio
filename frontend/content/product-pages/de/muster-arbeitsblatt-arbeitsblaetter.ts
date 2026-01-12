@@ -474,7 +474,6 @@ Für die Einmaleins Vorbereitung empfehlen wir vier bis sechs Übungen pro Blatt
     badgeText: 'Funktioniert Perfekt Mit',
     exploreText: 'Alle Apps entdecken',
     trustBadges: {
-      guarantee: '30-Tage-Garantie',
       securePayment: 'Sichere Zahlung',
       cancelAnytime: 'Jederzeit kündbar',
     },

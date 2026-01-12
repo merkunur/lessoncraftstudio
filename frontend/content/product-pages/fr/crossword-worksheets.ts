@@ -433,7 +433,6 @@ Le mode images fonctionne parfaitement pour sciences naturelles, animaux, plante
     badgeText: 'Fonctionne Parfaitement Avec',
     exploreText: 'Explorer toutes les applications',
     trustBadges: {
-      guarantee: 'Garantie satisfait ou remboursé 30 jours',
       securePayment: 'Paiement sécurisé',
       cancelAnytime: 'Résiliez à tout moment',
     },

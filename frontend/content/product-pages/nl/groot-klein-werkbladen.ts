@@ -442,7 +442,6 @@ Etsy winkels floreren met educatieve printables. Tafels oefenen voorbereidende m
     badgeText: 'Werkt goed met',
     exploreText: 'Alle apps bekijken',
     trustBadges: {
-      guarantee: '30 dagen geld-terug-garantie',
       securePayment: 'Veilig betalen',
       cancelAnytime: 'Altijd opzegbaar',
     },

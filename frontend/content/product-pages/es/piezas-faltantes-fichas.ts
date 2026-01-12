@@ -369,7 +369,6 @@ Perfecto para maestros de preescolar, educadores de educación infantil y padres
     badgeText: 'Funciona Perfectamente Con',
     exploreText: 'Explorar todas las aplicaciones',
     trustBadges: {
-      guarantee: 'Garantía de devolución de 30 días',
       securePayment: 'Pago seguro',
       cancelAnytime: 'Cancela cuando quieras',
     },

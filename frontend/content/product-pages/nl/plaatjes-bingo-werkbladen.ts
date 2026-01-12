@@ -451,7 +451,6 @@ De 300 DPI kwaliteit is professioneel genoeg voor verkoop. Maak seizoensgebonden
     badgeText: 'Werkt goed met',
     exploreText: 'Alle apps bekijken',
     trustBadges: {
-      guarantee: '30 dagen geld-terug-garantie',
       securePayment: 'Veilig betalen',
       cancelAnytime: 'Altijd opzegbaar',
     },

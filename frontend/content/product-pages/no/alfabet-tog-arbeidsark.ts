@@ -432,7 +432,6 @@ Sesongbaserte pakker selger godt. Lag alfabet-tog med høstbilder for september.
     badgeText: 'Fungerer Godt Med',
     exploreText: 'Utforsk',
     trustBadges: {
-      guarantee: '30 dagers garanti',
       securePayment: 'Sikker betaling',
       cancelAnytime: 'Avbryt når som helst',
     },

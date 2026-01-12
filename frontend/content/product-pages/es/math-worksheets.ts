@@ -478,7 +478,6 @@ Vendedores en Etsy y Amazon KDP convierten las fichas infantil en productos de i
     badgeText: 'Funciona Perfectamente Con',
     exploreText: 'Explorar todas las aplicaciones',
     trustBadges: {
-      guarantee: 'Garantía de devolución de 30 días',
       securePayment: 'Pago seguro',
       cancelAnytime: 'Cancela cuando quieras',
     },

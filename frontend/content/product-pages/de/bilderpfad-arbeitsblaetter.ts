@@ -428,7 +428,6 @@ Das Vollzugriff Abonnement für 240 Euro jährlich amortisiert sich schnell. Ber
     badgeText: 'Funktioniert Perfekt Mit',
     exploreText: 'Alle Apps entdecken',
     trustBadges: {
-      guarantee: '30-Tage-Garantie',
       securePayment: 'Sichere Zahlung',
       cancelAnytime: 'Jederzeit kündbar',
     },

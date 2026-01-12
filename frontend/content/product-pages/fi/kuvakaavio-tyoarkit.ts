@@ -459,7 +459,6 @@ Monet opettajat tienaavat 500-5000 euroa kuukaudessa. Tilauksesi maksaa itsensä
     badgeText: 'Toimii Hyvin Yhdessä',
     exploreText: 'Tutustu kaikkiin sovelluksiin',
     trustBadges: {
-      guarantee: '30 päivän rahat takaisin -takuu',
       securePayment: 'Turvallinen maksu',
       cancelAnytime: 'Peruuta milloin tahansa',
     },

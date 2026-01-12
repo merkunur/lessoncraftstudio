@@ -474,7 +474,6 @@ Lav årsplaner for sæsonopgaver. September: efterårs-sudoku og malebog. Decemb
     badgeText: 'Fungerer Godt Med',
     exploreText: 'Udforsk',
     trustBadges: {
-      guarantee: '30 dages garanti',
       securePayment: 'Sikker betaling',
       cancelAnytime: 'Opsig når som helst',
     },

@@ -427,7 +427,6 @@ Myy valmiita tehtäväkirjoja Amazon KDP:ssä. Yhdistä 50-100 prepositioharjoit
     badgeText: 'Toimii Hyvin Yhdessä',
     exploreText: 'Tutustu kaikkiin sovelluksiin',
     trustBadges: {
-      guarantee: '30 päivän rahat takaisin -takuu',
       securePayment: 'Turvallinen maksu',
       cancelAnytime: 'Peruuta milloin tahansa',
     },

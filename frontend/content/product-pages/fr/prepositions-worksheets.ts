@@ -347,7 +347,6 @@ L'abonnement Accès Complet coûte 240 € par an ou 25 € par mois. Vous accé
     badgeText: 'Fonctionne Parfaitement Avec',
     exploreText: 'Explorer toutes les applications',
     trustBadges: {
-      guarantee: 'Garantie 30 jours',
       securePayment: 'Paiement sécurisé',
       cancelAnytime: 'Résiliez à tout moment',
     },

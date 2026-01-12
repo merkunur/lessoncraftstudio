@@ -452,7 +452,6 @@ Maintenez une qualité de production cohérente en utilisant les mêmes paramèt
     badgeText: 'Fonctionne Bien Avec',
     exploreText: 'Explorer toutes les applications',
     trustBadges: {
-      guarantee: 'Garantie 30 jours',
       securePayment: 'Paiement sécurisé',
       cancelAnytime: 'Annulez à tout moment',
     },

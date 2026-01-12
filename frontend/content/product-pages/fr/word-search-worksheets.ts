@@ -437,7 +437,6 @@ Les boutiques de printables Etsy présentent des fiches de mots mêlés aux côt
     badgeText: 'Fonctionne Parfaitement Avec',
     exploreText: 'Explorer toutes les applications',
     trustBadges: {
-      guarantee: 'Garantie satisfait ou remboursé 30 jours',
       securePayment: 'Paiement sécurisé',
       cancelAnytime: 'Résiliez à tout moment',
     },

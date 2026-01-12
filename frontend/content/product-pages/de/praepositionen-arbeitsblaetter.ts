@@ -395,7 +395,6 @@ Die gewerbliche Lizenz im Vollzugriff Abonnement erlaubt unbegrenzten Verkauf. K
     badgeText: 'Funktioniert Perfekt Mit',
     exploreText: 'Alle Apps entdecken',
     trustBadges: {
-      guarantee: '30-Tage-Garantie',
       securePayment: 'Sichere Zahlung',
       cancelAnytime: 'Jederzeit kündbar',
     },

@@ -435,7 +435,6 @@ Une fois créés les PDF téléchargés s'affichent parfaitement sur tous les ap
     badgeText: 'Fonctionne Parfaitement Avec',
     exploreText: 'Explorer toutes les applications',
     trustBadges: {
-      guarantee: 'Garantie satisfait ou remboursé 30 jours',
       securePayment: 'Paiement sécurisé',
       cancelAnytime: 'Résiliez à tout moment',
     },

@@ -449,7 +449,6 @@ Exportera i högkvalitativ PDF för professionella produkter. 300 DPI-kvaliteten
     badgeText: 'Fungerar Utmärkt Med',
     exploreText: 'Utforska alla appar',
     trustBadges: {
-      guarantee: '30 dagars pengarna-tillbaka-garanti',
       securePayment: 'Säker betalning',
       cancelAnytime: 'Avsluta när som helst',
     },

@@ -524,7 +524,6 @@ Descarga "Ficha" y "Clave de Respuestas" en JPEG o PDF. Cuatro archivos totales 
     badgeText: 'Combina Con',
     exploreText: 'Explorar todas las apps',
     trustBadges: {
-      guarantee: 'Garantía de 30 días',
       securePayment: 'Pago seguro',
       cancelAnytime: 'Cancela cuando quieras',
     },

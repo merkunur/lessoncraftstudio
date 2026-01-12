@@ -488,7 +488,6 @@ Tværfaglige kopiark kombinerer flere emner. Skattejagt med matematikopgaver tæ
     badgeText: 'Fungerer Godt Med',
     exploreText: 'Udforsk alle apps',
     trustBadges: {
-      guarantee: '30 dages garanti',
       securePayment: 'Sikker betaling',
       cancelAnytime: 'Opsig når som helst',
     },

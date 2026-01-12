@@ -471,7 +471,6 @@ De 300 DPI kwaliteit is essentieel voor commerciële verkoop. Klanten verwachten
     badgeText: 'Werkt goed met',
     exploreText: 'Alle apps bekijken',
     trustBadges: {
-      guarantee: '30 dagen geld-terug-garantie',
       securePayment: 'Veilig betalen',
       cancelAnytime: 'Altijd opzegbaar',
     },

@@ -445,7 +445,6 @@ Combineer zoekwerkbladen met kleurplaten in je webshop. Maak thematische bundels
     badgeText: 'Werkt goed met',
     exploreText: 'Alle apps bekijken',
     trustBadges: {
-      guarantee: '30 dagen geld-terug-garantie',
       securePayment: 'Veilig betalen',
       cancelAnytime: 'Altijd opzegbaar',
     },

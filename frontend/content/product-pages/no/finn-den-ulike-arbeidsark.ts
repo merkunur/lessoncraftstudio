@@ -519,7 +519,6 @@ Full Tilgang-abonnement på kr 1 800 årlig betaler seg selv. Selg tre TPT-pakke
     badgeText: 'Fungerer Godt Med',
     exploreText: 'Utforsk',
     trustBadges: {
-      guarantee: '30 dagers garanti',
       securePayment: 'Sikker betaling',
       cancelAnytime: 'Avbryt når som helst',
     },

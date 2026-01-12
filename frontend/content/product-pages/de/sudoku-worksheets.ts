@@ -413,7 +413,6 @@ Berechnen Sie Ihr potentielles Einkommen aus Rätsel-Erstellung. Basis-Paket kos
     badgeText: 'Funktioniert hervorragend mit',
     exploreText: 'Alle Apps erkunden',
     trustBadges: {
-      guarantee: '30 Tage Geld-zurück-Garantie',
       securePayment: 'Sichere Bezahlung',
       cancelAnytime: 'Jederzeit kündbar',
     },

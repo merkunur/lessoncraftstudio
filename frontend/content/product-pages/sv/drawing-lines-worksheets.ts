@@ -515,7 +515,6 @@ Kombinera rita linjer-arbetsblad med andra arbetsbladstyper. Sälj "Komplett Fö
     badgeText: 'Fungerar Utmärkt Med',
     exploreText: 'Utforska alla appar',
     trustBadges: {
-      guarantee: '30 dagars pengarna-tillbaka-garanti',
       securePayment: 'Säker betalning',
       cancelAnytime: 'Avsluta när som helst',
     },

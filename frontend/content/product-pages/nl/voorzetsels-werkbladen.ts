@@ -446,7 +446,6 @@ Bouw passief inkomen met digitale downloads. Maak eenmaal 20 verschillende voorz
     badgeText: 'Werkt goed met',
     exploreText: 'Alle apps bekijken',
     trustBadges: {
-      guarantee: '30 dagen geld-terug-garantie',
       securePayment: 'Veilig betalen',
       cancelAnytime: 'Altijd opzegbaar',
     },

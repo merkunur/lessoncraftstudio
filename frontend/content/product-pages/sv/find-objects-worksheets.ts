@@ -400,7 +400,6 @@ Säljare genererar 10-20 unika arbetsblad per timme. En mångsidig produktlinje 
     badgeText: 'Fungerar Utmärkt Med',
     exploreText: 'Utforska alla appar',
     trustBadges: {
-      guarantee: '30 dagars pengarna-tillbaka-garanti',
       securePayment: 'Säker betalning',
       cancelAnytime: 'Avsluta när som helst',
     },

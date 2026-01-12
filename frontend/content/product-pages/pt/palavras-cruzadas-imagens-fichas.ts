@@ -369,7 +369,6 @@ Palavras cruzadas com imagens são perfeitas para crianças em fase de alfabetiz
     badgeText: 'Funciona Bem Com',
     exploreText: 'Explorar todos os geradores',
     trustBadges: {
-      guarantee: 'Garantia de 30 dias',
       securePayment: 'Pagamento seguro',
       cancelAnytime: 'Cancele quando quiser',
     },

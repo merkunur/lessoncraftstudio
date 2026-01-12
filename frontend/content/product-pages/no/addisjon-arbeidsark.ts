@@ -422,7 +422,6 @@ Kjernepakke inkluderer full kommersiell lisens for kr 1 075 årlig. Eksporter i 
     badgeText: 'Fungerer Godt Med',
     exploreText: 'Utforsk',
     trustBadges: {
-      guarantee: '30 dagers garanti',
       securePayment: 'Sikker betaling',
       cancelAnytime: 'Avbryt når som helst',
     },

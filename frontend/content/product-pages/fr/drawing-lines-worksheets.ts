@@ -460,7 +460,6 @@ Les fiches de tables de multiplication utilisent les images de quantités. Group
     badgeText: 'Fonctionne Parfaitement Avec',
     exploreText: 'Explorer toutes les applications',
     trustBadges: {
-      guarantee: 'Garantie satisfait ou remboursé 30 jours',
       securePayment: 'Paiement sécurisé',
       cancelAnytime: 'Résiliez à tout moment',
     },

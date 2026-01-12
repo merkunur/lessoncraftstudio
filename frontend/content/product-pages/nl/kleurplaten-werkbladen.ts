@@ -439,7 +439,6 @@ Start een Etsy winkel met printbare oefenbladen. De 300 DPI kwaliteit is profess
     badgeText: 'Werkt goed met',
     exploreText: 'Alle apps bekijken',
     trustBadges: {
-      guarantee: '30 dagen geld-terug-garantie',
       securePayment: 'Veilig betalen',
       cancelAnytime: 'Altijd opzegbaar',
     },

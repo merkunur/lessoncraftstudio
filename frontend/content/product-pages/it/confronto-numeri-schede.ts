@@ -428,7 +428,6 @@ Il mercato italiano di schede didattiche sta crescendo significativamente. Molti
     secondaryCtaText: 'Vedi Tutti i 33 Generatori',
     badgeText: 'Generatori Correlati',
     trustBadges: {
-      guarantee: 'Garanzia 30 giorni',
       securePayment: 'Pagamento sicuro',
       cancelAnytime: 'Cancella quando vuoi',
     },

@@ -425,7 +425,6 @@ Din kommercielle licens er inkluderet i Fuld Adgang-abonnement. Ingen ekstra geb
     badgeText: 'Fungerer Godt Med',
     exploreText: 'Udforsk',
     trustBadges: {
-      guarantee: '30 dages garanti',
       securePayment: 'Sikker betaling',
       cancelAnytime: 'Opsig når som helst',
     },

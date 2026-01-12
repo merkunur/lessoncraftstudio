@@ -465,7 +465,6 @@ La calidad de 300 DPI es perfecta para productos comerciales. Tus clientes obtie
     badgeText: 'Funciona Perfectamente Con',
     exploreText: 'Explorar todas las aplicaciones',
     trustBadges: {
-      guarantee: 'Garantía de devolución de 30 días',
       securePayment: 'Pago seguro',
       cancelAnytime: 'Cancela cuando quieras',
     },

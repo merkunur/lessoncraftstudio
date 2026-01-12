@@ -489,7 +489,6 @@ Maak letters leren werkbladen voor taal. Creëer schrijven oefenen materiaal voo
     badgeText: 'Werkt Uitstekend Met',
     exploreText: 'Alle apps bekijken',
     trustBadges: {
-      guarantee: '30 dagen garantie',
       securePayment: 'Veilig betalen',
       cancelAnytime: 'Altijd opzegbaar',
     },

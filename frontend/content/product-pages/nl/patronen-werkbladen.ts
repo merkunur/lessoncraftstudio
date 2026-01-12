@@ -461,7 +461,6 @@ Kleurplaten verkopen bijzonder goed op Etsy. Maak patronen kleurplaten pakketten
     badgeText: 'Werkt goed met',
     exploreText: 'Alle apps bekijken',
     trustBadges: {
-      guarantee: '30 dagen geld-terug-garantie',
       securePayment: 'Veilig betalen',
       cancelAnytime: 'Altijd opzegbaar',
     },

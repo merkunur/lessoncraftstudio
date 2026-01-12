@@ -436,7 +436,6 @@ Lag profesjonelle produktpakker med preposisjonsarbeidsark. Kombiner med matemat
     badgeText: 'Fungerer Utmerket Med',
     exploreText: 'Utforsk alle generatorer',
     trustBadges: {
-      guarantee: '30 dagers garanti',
       securePayment: 'Sikker betaling',
       cancelAnytime: 'Avbryt når som helst',
     },

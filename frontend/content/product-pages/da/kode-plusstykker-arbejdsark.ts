@@ -499,7 +499,6 @@ Mange danske lærere tjener 3000-15000 DKK månedligt fra passivt salg. Dit 1800
     badgeText: 'Fungerer Godt Med',
     exploreText: 'Udforsk',
     trustBadges: {
-      guarantee: '30 dages garanti',
       securePayment: 'Sikker betaling',
       cancelAnytime: 'Opsig når som helst',
     },

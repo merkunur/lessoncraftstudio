@@ -488,7 +488,6 @@ Amazon KDP -käsinkirjoituskirjat ovat passiivista tuloa. Luo 100-sivuinen käsi
     badgeText: 'Toimii Hyvin Yhdessä',
     exploreText: 'Tutustu kaikkiin sovelluksiin',
     trustBadges: {
-      guarantee: '30 päivän rahat takaisin -takuu',
       securePayment: 'Turvallinen maksu',
       cancelAnytime: 'Peruuta milloin tahansa',
     },

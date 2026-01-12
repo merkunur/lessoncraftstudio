@@ -436,7 +436,6 @@ Mange lærere tjener 500-5000 kroner månedlig ved å selge undervisningsmaterie
     badgeText: 'Fungerer Godt Med',
     exploreText: 'Utforsk',
     trustBadges: {
-      guarantee: '30 dagers garanti',
       securePayment: 'Sikker betaling',
       cancelAnytime: 'Avbryt når som helst',
     },

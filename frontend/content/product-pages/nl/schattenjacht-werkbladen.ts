@@ -444,7 +444,6 @@ Voor werkbladen groep 3 met specifieke fijne motoriek oefeningen voeg je extra e
     badgeText: 'Werkt Uitstekend Met',
     exploreText: 'Ontdek alle apps',
     trustBadges: {
-      guarantee: '30 dagen garantie',
       securePayment: 'Veilige betaling',
       cancelAnytime: 'Altijd opzegbaar',
     },

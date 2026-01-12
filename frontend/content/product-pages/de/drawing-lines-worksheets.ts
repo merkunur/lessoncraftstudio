@@ -445,7 +445,6 @@ Die enthaltene POD-Gewerbliche Lizenz erlaubt unbegrenzte Verkäufe ohne zusätz
     badgeText: 'Funktioniert hervorragend mit',
     exploreText: 'Alle Apps erkunden',
     trustBadges: {
-      guarantee: '30 Tage Geld-zurück-Garantie',
       securePayment: 'Sichere Bezahlung',
       cancelAnytime: 'Jederzeit kündbar',
     },

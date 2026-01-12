@@ -450,7 +450,6 @@ Danske lærere sælger på skandinaviske markeder. Norske og svenske lærere kø
     badgeText: 'Fungerer Godt Med',
     exploreText: 'Udforsk',
     trustBadges: {
-      guarantee: '30 dages garanti',
       securePayment: 'Sikker betaling',
       cancelAnytime: 'Opsig når som helst',
     },

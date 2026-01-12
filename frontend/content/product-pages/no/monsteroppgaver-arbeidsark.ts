@@ -471,7 +471,6 @@ Kombiner mønstre med læreplanstandarder på tvers av fag. Lag sesongmessige m�
     badgeText: 'Fungerer Utmerket Med',
     exploreText: 'Utforsk alle apper',
     trustBadges: {
-      guarantee: '30 dagers garanti',
       securePayment: 'Sikker betaling',
       cancelAnytime: 'Avbryt når som helst',
     },

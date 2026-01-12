@@ -450,7 +450,6 @@ Grundpaketet inkluderar kommersiell licens för målarbilder barn. Sälj dina m�
     badgeText: 'Fungerar Utmärkt Med',
     exploreText: 'Utforska alla appar',
     trustBadges: {
-      guarantee: '30 dagars pengarna-tillbaka-garanti',
       securePayment: 'Säker betalning',
       cancelAnytime: 'Avsluta när som helst',
     },

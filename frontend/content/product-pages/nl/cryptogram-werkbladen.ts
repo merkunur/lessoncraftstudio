@@ -512,7 +512,6 @@ Thematische eenheden profiteren van cryptogram integratie. Maak puzzels over sei
     badgeText: 'Werkt Uitstekend Met',
     exploreText: 'Alle apps bekijken',
     trustBadges: {
-      guarantee: '30 dagen garantie',
       securePayment: 'Veilig betalen',
       cancelAnytime: 'Altijd opzegbaar',
     },

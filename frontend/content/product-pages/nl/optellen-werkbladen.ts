@@ -476,7 +476,6 @@ Combineer optelwerkbladen met kleurplaten tot complete pakketten. Een thema-bund
     badgeText: 'Werkt goed met',
     exploreText: 'Alle apps bekijken',
     trustBadges: {
-      guarantee: '30 dagen geld-terug-garantie',
       securePayment: 'Veilig betalen',
       cancelAnytime: 'Altijd opzegbaar',
     },

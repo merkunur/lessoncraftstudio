@@ -432,7 +432,6 @@ Fritidsprogrammer setter pris på lave kostnader ved ubegrensede arbeidsark grat
     badgeText: 'Fungerer Godt Med',
     exploreText: 'Utforsk',
     trustBadges: {
-      guarantee: '30 dagers garanti',
       securePayment: 'Sikker betaling',
       cancelAnytime: 'Avbryt når som helst',
     },

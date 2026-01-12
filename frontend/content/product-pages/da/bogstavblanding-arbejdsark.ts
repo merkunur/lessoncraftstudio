@@ -477,7 +477,6 @@ Passive indkomst opbygges gennem katalog-vækst. Upload 5-10 nye produkter måne
     badgeText: 'Fungerer Godt Med',
     exploreText: 'Udforsk',
     trustBadges: {
-      guarantee: '30 dages garanti',
       securePayment: 'Sikker betaling',
       cancelAnytime: 'Opsig når som helst',
     },

@@ -445,7 +445,6 @@ Luo tehtävävihkoja myytäväksi. 20 etsi ja laske -tehtävää per vihko. Tema
     badgeText: 'Toimii Hyvin Yhdessä',
     exploreText: 'Tutustu kaikkiin sovelluksiin',
     trustBadges: {
-      guarantee: '30 päivän rahat takaisin -takuu',
       securePayment: 'Turvallinen maksu',
       cancelAnytime: 'Peruuta milloin tahansa',
     },

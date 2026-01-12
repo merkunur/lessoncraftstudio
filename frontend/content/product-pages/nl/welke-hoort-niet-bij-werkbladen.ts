@@ -481,7 +481,6 @@ Bouw een mailing lijst van trouwe klanten. Bied gratis sample werkbladen aan in 
     badgeText: 'Werkt goed met',
     exploreText: 'Alle apps bekijken',
     trustBadges: {
-      guarantee: '30 dagen geld-terug-garantie',
       securePayment: 'Veilig betalen',
       cancelAnytime: 'Altijd opzegbaar',
     },

@@ -517,7 +517,6 @@ Literacy-integration forbinder skygge-match med læse og skrive. Brug objekter s
     badgeText: 'Fungerer Godt Med',
     exploreText: 'Udforsk alle apps',
     trustBadges: {
-      guarantee: '30 dages garanti',
       securePayment: 'Sikker betaling',
       cancelAnytime: 'Opsig når som helst',
     },

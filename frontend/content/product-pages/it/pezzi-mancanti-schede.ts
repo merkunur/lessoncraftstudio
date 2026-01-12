@@ -433,7 +433,6 @@ Numeri da stampare: cifre 0-9 in stili multipli, quantità con oggetti. Pregrafi
     badgeText: 'Funziona Perfettamente Con',
     exploreText: 'Esplora tutte le applicazioni',
     trustBadges: {
-      guarantee: 'Garanzia di rimborso 30 giorni',
       securePayment: 'Pagamento sicuro',
       cancelAnytime: 'Cancella quando vuoi',
     },

@@ -407,7 +407,6 @@ Etsy printable-butikker drar nytte av profesjonell 300 DPI kvalitet. Lag sesong-
     badgeText: 'Fungerer Godt Med',
     exploreText: 'Utforsk',
     trustBadges: {
-      guarantee: '30 dagers garanti',
       securePayment: 'Sikker betaling',
       cancelAnytime: 'Avbryt når som helst',
     },

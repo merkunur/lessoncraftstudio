@@ -430,7 +430,6 @@ Syv-årige i 2. klasse håndterer ABBC og AABC mønstre. Otte-årige i 3. klasse
     badgeText: 'Fungerer Godt Med',
     exploreText: 'Udforsk',
     trustBadges: {
-      guarantee: '30 dages garanti',
       securePayment: 'Sikker betaling',
       cancelAnytime: 'Opsig når som helst',
     },

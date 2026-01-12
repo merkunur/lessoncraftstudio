@@ -463,7 +463,6 @@ La calidad profesional de 300 DPI asegura reseñas positivas de clientes. Los co
     badgeText: 'Funciona Perfectamente Con',
     exploreText: 'Explorar todas las aplicaciones',
     trustBadges: {
-      guarantee: 'Garantía de devolución de 30 días',
       securePayment: 'Pago seguro',
       cancelAnytime: 'Cancela cuando quieras',
     },

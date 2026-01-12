@@ -369,7 +369,6 @@ O gerador de criptograma oferece recursos exclusivos para educadores. Você esco
     badgeText: 'Funciona Bem Com',
     exploreText: 'Explorar todos os geradores',
     trustBadges: {
-      guarantee: 'Garantia de 30 dias',
       securePayment: 'Pagamento seguro',
       cancelAnytime: 'Cancele quando quiser',
     },

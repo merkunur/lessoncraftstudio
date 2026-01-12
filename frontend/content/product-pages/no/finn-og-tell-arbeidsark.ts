@@ -432,7 +432,6 @@ Finn og tell arbeidsark selger godt på Teachers Pay Teachers. Lærere søker et
     badgeText: 'Fungerer Godt Med',
     exploreText: 'Utforsk',
     trustBadges: {
-      guarantee: '30 dagers garanti',
       securePayment: 'Sikker betaling',
       cancelAnytime: 'Avbryt når som helst',
     },

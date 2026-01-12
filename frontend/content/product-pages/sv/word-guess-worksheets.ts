@@ -439,7 +439,6 @@ Skapa produktpaket med gissa-ordet-arbetsblad, matematik arbetsblad för additio
     badgeText: 'Fungerar Utmärkt Med',
     exploreText: 'Utforska alla appar',
     trustBadges: {
-      guarantee: '30 dagars pengarna-tillbaka-garanti',
       securePayment: 'Säker betalning',
       cancelAnytime: 'Avsluta när som helst',
     },

@@ -403,7 +403,6 @@ Guarda archivos descargados para reutilización futura. Construye bibliotecas de
     badgeText: 'Funciona Bien Con',
     exploreText: 'Explorar Todas las Apps',
     trustBadges: {
-      guarantee: 'Garantía 30 días',
       securePayment: 'Pago seguro',
       cancelAnytime: 'Cancela cuando quieras',
     },

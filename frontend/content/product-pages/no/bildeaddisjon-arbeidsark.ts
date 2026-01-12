@@ -435,7 +435,6 @@ Lag tematiske pakker som kombinerer matematikk oppgaver, lesetrening, og finmoto
     secondaryCtaText: 'Se Alle 33 Apper',
     exploreText: 'Utforsk alle apper',
     trustBadges: {
-      guarantee: '30 dagers garanti',
       securePayment: 'Sikker betaling',
       cancelAnytime: 'Avbryt når som helst',
     },

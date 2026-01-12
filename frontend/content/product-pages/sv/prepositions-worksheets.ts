@@ -367,7 +367,6 @@ Kombinera prepositionsträning med målarbilder barn gillar. Lägg till egna bil
     badgeText: 'Fungerar Utmärkt Med',
     exploreText: 'Utforska alla appar',
     trustBadges: {
-      guarantee: '30 dagars garanti',
       securePayment: 'Säker betalning',
       cancelAnytime: 'Avsluta när som helst',
     },

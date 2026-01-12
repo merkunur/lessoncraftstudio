@@ -496,7 +496,6 @@ Professionel 300 DPI kvalitet giver gode anmeldelser. Købere roser klare prints
     badgeText: 'Fungerer Godt Med',
     exploreText: 'Udforsk',
     trustBadges: {
-      guarantee: '30 dages garanti',
       securePayment: 'Sikker betaling',
       cancelAnytime: 'Opsig når som helst',
     },

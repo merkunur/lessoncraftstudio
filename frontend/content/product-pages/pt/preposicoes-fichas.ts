@@ -454,7 +454,6 @@ A qualidade 300 DPI garante impressão profissional. Compradores reconhecem e pa
     badgeText: 'Combina Bem Com',
     exploreText: 'Explorar todos os apps',
     trustBadges: {
-      guarantee: 'Garantia de 30 dias',
       securePayment: 'Pagamento seguro',
       cancelAnytime: 'Cancele quando quiser',
     },

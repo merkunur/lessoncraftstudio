@@ -355,7 +355,6 @@ El generador crea de 1 a 10 ejercicios por hoja. Usa imágenes idénticas en dif
     badgeText: 'Funciona Perfectamente Con',
     exploreText: 'Explorar todas las aplicaciones',
     trustBadges: {
-      guarantee: 'Garantía de devolución de 30 días',
       securePayment: 'Pago seguro',
       cancelAnytime: 'Cancela cuando quieras',
     },

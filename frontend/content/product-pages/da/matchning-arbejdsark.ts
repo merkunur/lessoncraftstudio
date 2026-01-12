@@ -485,7 +485,6 @@ Upload billeder med kulturel relevans for forskellige elevgrupper. Lav kopiark d
     badgeText: 'Fungerer Godt Med',
     exploreText: 'Udforsk',
     trustBadges: {
-      guarantee: '30 dages garanti',
       securePayment: 'Sikker betaling',
       cancelAnytime: 'Opsig når som helst',
     },

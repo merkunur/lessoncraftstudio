@@ -380,7 +380,6 @@ Full Tillgång-prenumerationen inkluderar kommersiell licens för utskrift-på-b
     badgeText: 'Fungerar Utmärkt Med',
     exploreText: 'Utforska alla appar',
     trustBadges: {
-      guarantee: '30 dagars garanti',
       securePayment: 'Säker betalning',
       cancelAnytime: 'Avsluta när som helst',
     },

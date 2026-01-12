@@ -462,7 +462,6 @@ Verkoop op Teachers Pay Teachers Nederland. Of bied aan via Etsy. Amazon KDP acc
     badgeText: 'Werkt goed met',
     exploreText: 'Alle apps bekijken',
     trustBadges: {
-      guarantee: '30 dagen geld-terug-garantie',
       securePayment: 'Veilig betalen',
       cancelAnytime: 'Altijd opzegbaar',
     },

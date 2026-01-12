@@ -411,7 +411,6 @@ Tradisjonell produksjon tar 30-60 minutter. Finn bilder, design layout, lag oppg
     primaryCtaText: 'Start Gratis Prøveperiode',
     secondaryCtaText: 'Se Alle 33 Apper',
     trustBadges: {
-      guarantee: '30 dagers garanti',
       securePayment: 'Sikker betaling',
       cancelAnytime: 'Avbryt når som helst',
     },

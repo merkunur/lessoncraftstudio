@@ -425,7 +425,6 @@ Etsy e Amazon KDP são canais lucrativos. Desenhos para colorir temáticos vende
     badgeText: 'Funciona Perfeitamente Com',
     exploreText: 'Explorar todas as aplicações',
     trustBadges: {
-      guarantee: 'Garantia de reembolso 30 dias',
       securePayment: 'Pagamento seguro',
       cancelAnytime: 'Cancele quando quiser',
     },

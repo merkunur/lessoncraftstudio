@@ -456,7 +456,6 @@ Tidsbaserade teman säljer också bra. Skapa "klockan lära sig" kombinationspak
     badgeText: 'Fungerar Utmärkt Med',
     exploreText: 'Utforska alla appar',
     trustBadges: {
-      guarantee: '30 dagars pengarna-tillbaka-garanti',
       securePayment: 'Säker betalning',
       cancelAnytime: 'Avsluta när som helst',
     },

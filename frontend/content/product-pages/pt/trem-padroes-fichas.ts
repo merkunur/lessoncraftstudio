@@ -456,7 +456,6 @@ Crie pacotes semanais de 5 atividades. Uma para cada dia útil. Variedade de pad
     badgeText: 'Funciona Perfeitamente Com',
     exploreText: 'Explorar todas as aplicações',
     trustBadges: {
-      guarantee: 'Garantia de reembolso 30 dias',
       securePayment: 'Pagamento seguro',
       cancelAnytime: 'Cancele quando quiser',
     },

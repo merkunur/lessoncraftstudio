@@ -505,7 +505,6 @@ Print svararket og gem det i din lærermappe. Brug det til hurtig gennemgang men
     badgeText: 'Fungerer Godt Med',
     exploreText: 'Udforsk',
     trustBadges: {
-      guarantee: '30 dages garanti',
       securePayment: 'Sikker betaling',
       cancelAnytime: 'Opsig når som helst',
     },

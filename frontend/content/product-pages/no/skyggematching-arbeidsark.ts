@@ -427,7 +427,6 @@ Lærere tjener 4 000-40 000 kr per måned med arbeidsark gratis produksjon. Full
     badgeText: 'Fungerer Godt Med',
     exploreText: 'Utforsk',
     trustBadges: {
-      guarantee: '30 dagers garanti',
       securePayment: 'Sikker betaling',
       cancelAnytime: 'Avbryt når som helst',
     },

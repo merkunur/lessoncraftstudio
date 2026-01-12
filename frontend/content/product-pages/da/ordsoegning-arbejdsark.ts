@@ -443,7 +443,6 @@ Print-on-demand licensen åbner muligheder. Sælg på Etsy som arbejdsark til pr
     badgeText: 'Fungerer Godt Med',
     exploreText: 'Udforsk',
     trustBadges: {
-      guarantee: '30 dages garanti',
       securePayment: 'Sikker betaling',
       cancelAnytime: 'Opsig når som helst',
     },

@@ -367,7 +367,6 @@ Använd sorteringsarbetsblad för förskoleklass material och lågstadiet. Kombi
     badgeText: 'Fungerar Utmärkt Med',
     exploreText: 'Utforska alla appar',
     trustBadges: {
-      guarantee: '30 dagars garanti',
       securePayment: 'Säker betalning',
       cancelAnytime: 'Avsluta när som helst',
     },

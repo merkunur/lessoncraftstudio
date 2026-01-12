@@ -457,7 +457,6 @@ Combina trova l'intruso con disegni da colorare in prodotti ibridi. Metà pagina
     secondaryCtaText: 'Vedi Tutti i 33 Generatori',
     badgeText: 'Generatori Correlati',
     trustBadges: {
-      guarantee: 'Garanzia 30 giorni',
       securePayment: 'Pagamento sicuro',
       cancelAnytime: 'Cancella quando vuoi',
     },

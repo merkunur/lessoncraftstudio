@@ -461,7 +461,6 @@ Lataa omia ainekohtaisia kuvia aiheille, joita ei kata kirjasto. Tieteen opettaj
     badgeText: 'Toimii Hyvin Yhdessä',
     exploreText: 'Tutustu kaikkiin sovelluksiin',
     trustBadges: {
-      guarantee: '30 päivän rahat takaisin -takuu',
       securePayment: 'Turvallinen maksu',
       cancelAnytime: 'Peruuta milloin tahansa',
     },

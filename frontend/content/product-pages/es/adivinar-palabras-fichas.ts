@@ -430,7 +430,6 @@ Teachers Pay Teachers valora especialmente materiales en espanol mexicano autent
     badgeText: 'Funciona Perfectamente Con',
     exploreText: 'Explorar todas las aplicaciones',
     trustBadges: {
-      guarantee: 'Garantia de devolucion de 30 dias',
       securePayment: 'Pago seguro',
       cancelAnytime: 'Cancela cuando quieras',
     },

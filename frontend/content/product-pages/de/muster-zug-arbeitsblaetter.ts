@@ -474,7 +474,6 @@ Kombinieren Sie Muster-Arbeitsblätter mit Ausmalbilder für kreative Einheiten.
     badgeText: 'Funktioniert Perfekt Mit',
     exploreText: 'Alle Apps entdecken',
     trustBadges: {
-      guarantee: '30-Tage-Garantie',
       securePayment: 'Sichere Zahlung',
       cancelAnytime: 'Jederzeit kündbar',
     },

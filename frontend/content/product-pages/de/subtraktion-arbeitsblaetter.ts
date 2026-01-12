@@ -457,7 +457,6 @@ Teilen Sie Arbeitsblätter mit Klassenstufen-Kollegen. Koordinieren Sie Unterric
     badgeText: 'Passt Gut Zusammen',
     exploreText: 'Alle Apps erkunden',
     trustBadges: {
-      guarantee: '30 Tage Geld-zurück-Garantie',
       securePayment: 'Sichere Zahlung',
       cancelAnytime: 'Jederzeit kündbar',
     },

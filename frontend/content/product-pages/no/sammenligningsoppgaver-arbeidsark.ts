@@ -452,7 +452,6 @@ Kombiner med bokstaver lære skrive, lesetrening og finmotorikk øvelser for tve
     badgeText: 'Fungerer Godt Med',
     exploreText: 'Utforsk',
     trustBadges: {
-      guarantee: '30 dagers garanti',
       securePayment: 'Sikker betaling',
       cancelAnytime: 'Avbryt når som helst',
     },

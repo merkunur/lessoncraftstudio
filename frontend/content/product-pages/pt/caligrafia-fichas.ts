@@ -467,7 +467,6 @@ Combine com imagens temáticas da biblioteca. Animais para projeto de zoologia. 
     badgeText: 'Combine Com',
     exploreText: 'Explorar todos os apps',
     trustBadges: {
-      guarantee: 'Garantia de 30 dias',
       securePayment: 'Pagamento seguro',
       cancelAnytime: 'Cancele quando quiser',
     },

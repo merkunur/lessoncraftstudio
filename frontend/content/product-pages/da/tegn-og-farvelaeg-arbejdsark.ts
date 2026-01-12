@@ -456,7 +456,6 @@ Differentierede pakker appellerer til forskellige kunde-behov. Begynder-pakker m
     badgeText: 'Fungerer Godt Med',
     exploreText: 'Udforsk',
     trustBadges: {
-      guarantee: '30 dages garanti',
       securePayment: 'Sikker betaling',
       cancelAnytime: 'Opsig når som helst',
     },

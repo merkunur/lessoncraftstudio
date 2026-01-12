@@ -457,7 +457,6 @@ Bouw een passief inkomen met telgrafiekenpakketten. Maak thematische bundels voo
     badgeText: 'Werkt goed met',
     exploreText: 'Alle apps bekijken',
     trustBadges: {
-      guarantee: '30 dagen geld-terug-garantie',
       securePayment: 'Veilig betalen',
       cancelAnytime: 'Altijd opzegbaar',
     },

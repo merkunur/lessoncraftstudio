@@ -377,9 +377,7 @@ Les enseignants de maternelle et de CP utilisent ces fiches de soustraction pour
     secondaryCtaText: 'Voir les 33 Applications',
     badgeText: 'Fonctionne Bien Avec',
     exploreText: 'Explorer toutes les applications',
-    trustBadges: {
-      guarantee: 'Garantie 30 jours',
-      securePayment: 'Paiement sécurisé',
+    trustBadges: {      securePayment: 'Paiement sécurisé',
       cancelAnytime: 'Annulez à tout moment',
     },
     items: [

@@ -444,7 +444,6 @@ De mest succesfulde sælgere laver konsistente, højkvalitets materialer. Brug p
     badgeText: 'Fungerer Godt Med',
     exploreText: 'Udforsk',
     trustBadges: {
-      guarantee: '30 dages garanti',
       securePayment: 'Sikker betaling',
       cancelAnytime: 'Opsig når som helst',
     },

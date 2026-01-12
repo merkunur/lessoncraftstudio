@@ -459,7 +459,6 @@ Professores empreendedores faturam de R$500 a R$5000 mensais. Materiais digitais
     badgeText: 'Combina Bem Com',
     exploreText: 'Explorar todos os apps',
     trustBadges: {
-      guarantee: 'Garantia de 30 dias',
       securePayment: 'Pagamento seguro',
       cancelAnytime: 'Cancele quando quiser',
     },

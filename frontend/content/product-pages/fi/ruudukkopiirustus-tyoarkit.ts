@@ -498,7 +498,6 @@ Erityisopetuksessa ruudukkopiirustustehtävät toimivat vanhemmillekin oppilaill
     primaryCtaText: 'Aloita Nyt',
     secondaryCtaText: 'Katso Kaikki 33 Sovellusta',
     trustBadges: {
-      guarantee: '30 päivän rahat takaisin -takuu',
       securePayment: 'Turvallinen maksu',
       cancelAnytime: 'Peruuta milloin tahansa',
     },

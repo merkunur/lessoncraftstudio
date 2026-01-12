@@ -411,7 +411,6 @@ Auch Schwungübungen Pakete verkaufen sich gut. Die 300 DPI Qualität erfüllt p
     badgeText: 'Funktioniert Perfekt Mit',
     exploreText: 'Alle Apps entdecken',
     trustBadges: {
-      guarantee: '30-Tage-Garantie',
       securePayment: 'Sichere Zahlung',
       cancelAnytime: 'Jederzeit kündbar',
     },

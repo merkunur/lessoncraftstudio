@@ -497,7 +497,6 @@ De commerciële licentie dekt ook bundel in curricula. Schrijf een complete "Vro
     badgeText: 'Werkt goed met',
     exploreText: 'Alle apps bekijken',
     trustBadges: {
-      guarantee: '30 dagen geld-terug-garantie',
       securePayment: 'Veilig betalen',
       cancelAnytime: 'Altijd opzegbaar',
     },

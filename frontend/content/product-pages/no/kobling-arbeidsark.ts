@@ -435,7 +435,6 @@ ESL lærere i Norge bruker verktøyet til å lage arbeidsark gratis for nyankomn
     badgeText: 'Fungerer Godt Med',
     exploreText: 'Utforsk',
     trustBadges: {
-      guarantee: '30 dagers garanti',
       securePayment: 'Sikker betaling',
       cancelAnytime: 'Avbryt når som helst',
     },

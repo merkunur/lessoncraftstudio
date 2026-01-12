@@ -411,7 +411,6 @@ Lag tematiske oppgavehefter barn med fargeleggingsbilder barn og matematikk oppg
     badgeText: 'Fungerer Godt Med',
     exploreText: 'Utforsk',
     trustBadges: {
-      guarantee: '30 dagers garanti',
       securePayment: 'Sikker betaling',
       cancelAnytime: 'Avbryt når som helst',
     },

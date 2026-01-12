@@ -450,7 +450,6 @@ Brug søgeord optimering i dine produkt beskrivelser. "Gratis skoleopgaver", "ar
     badgeText: 'Fungerer Godt Med',
     exploreText: 'Udforsk',
     trustBadges: {
-      guarantee: '30 dages garanti',
       securePayment: 'Sikker betaling',
       cancelAnytime: 'Opsig når som helst',
     },

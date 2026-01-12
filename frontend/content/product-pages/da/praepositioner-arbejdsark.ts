@@ -442,7 +442,6 @@ Lav niche-produkter der ikke findes i markedet. Temabaserede præpositionspakker
     badgeText: 'Fungerer Godt Med',
     exploreText: 'Udforsk',
     trustBadges: {
-      guarantee: '30 dages garanti',
       securePayment: 'Sikker betaling',
       cancelAnytime: 'Opsig når som helst',
     },

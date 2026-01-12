@@ -93,6 +93,7 @@ import bigSmallFiContent from '@/content/product-pages/fi/iso-pieni-tyoarkit';
 import chartCountFiContent from '@/content/product-pages/fi/kuvakaavio-tyoarkit';
 import codeAdditionFiContent from '@/content/product-pages/fi/kuva-yhteenlasku-tyoarkit';
 import drawAndColorFiContent from '@/content/product-pages/fi/ruudukkopiirustus-tyoarkit';
+import findObjectsFiContent from '@/content/product-pages/fi/etsi-esineet-tyoarkit';
 
 // German content imports
 import wordSearchDeContent from '@/content/product-pages/de/word-search-worksheets';
@@ -1687,6 +1688,10 @@ export const contentRegistry: ContentRegistry = {
     'ruudukkopiirustus-tyoarkit': drawAndColorFiContent,
     // Also keep English slug for backwards compatibility during transition
     'draw-and-color-worksheets': drawAndColorFiContent,
+    // Finnish Find Objects (Etsi Esineet) - uses Finnish SEO slug
+    'etsi-esineet-tyoarkit': findObjectsFiContent,
+    // Also keep English slug for backwards compatibility during transition
+    'find-objects-worksheets': findObjectsFiContent,
   },
 };
 

@@ -1812,6 +1812,12 @@ const nextConfig = {
         destination: '/fi/apps/ruudukkopiirustus-tyoarkit',
         permanent: true,
       },
+      // Finnish: find-objects-worksheets → etsi-esineet-tyoarkit
+      {
+        source: '/fi/apps/find-objects-worksheets',
+        destination: '/fi/apps/etsi-esineet-tyoarkit',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

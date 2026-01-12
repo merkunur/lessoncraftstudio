@@ -983,6 +983,58 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     };
   }
 
+  // Find Objects Worksheets - Finnish product page SEO (new Finnish slug)
+  if (params.slug === 'etsi-esineet-tyoarkit' && params.locale === 'fi') {
+    return {
+      title: 'Tulostettavat Tehtävät Lapsille Ilmainen - Etsi Kätketyt Esineet Esiopetus Materiaali Ilmainen',
+      description: 'Luo ammattimaisia etsintätehtäviä Find Objects -työkalumallamme. Täysi Pääsy -tilauksesi antaa sinulle rajoittamattoman tehtävien luomisen ilman maksua tehtävää kohden. Generoi mukautettuja tulostettavia tehtäviä lapsille, jotka sopivat täydellisesti esiopetukseen ja alakoulun oppilaille.',
+      keywords: 'tulostettavat tehtävät lapsille ilmainen, etsi kätketyt esineet, esiopetus materiaali ilmainen, hienomotoriikka harjoitukset, visuaalinen havainnointi, matematiikka tehtävät alakoulu',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/fi/apps/etsi-esineet-tyoarkit',
+        languages: {
+          'en': 'https://www.lessoncraftstudio.com/en/apps/find-objects-worksheets',
+          'sv': 'https://www.lessoncraftstudio.com/sv/apps/hitta-foremal-arbetsblad',
+          'de': 'https://www.lessoncraftstudio.com/de/apps/suchbilder-arbeitsblaetter',
+          'fr': 'https://www.lessoncraftstudio.com/fr/apps/cherche-objets-fiches',
+          'es': 'https://www.lessoncraftstudio.com/es/apps/buscar-objetos-fichas',
+          'it': 'https://www.lessoncraftstudio.com/it/apps/trova-oggetti-schede',
+          'pt': 'https://www.lessoncraftstudio.com/pt/apps/encontrar-objetos-fichas',
+          'nl': 'https://www.lessoncraftstudio.com/nl/apps/zoek-voorwerpen-werkbladen',
+          'da': 'https://www.lessoncraftstudio.com/da/apps/find-objekterne-arbejdsark',
+          'no': 'https://www.lessoncraftstudio.com/no/apps/finn-objektene-arbeidsark',
+          'fi': 'https://www.lessoncraftstudio.com/fi/apps/etsi-esineet-tyoarkit',
+          'x-default': 'https://www.lessoncraftstudio.com/en/apps/find-objects-worksheets',
+        },
+      },
+      openGraph: {
+        title: 'Tulostettavat Tehtävät Lapsille Ilmainen - Etsi Kätketyt Esineet | LessonCraftStudio',
+        description: 'Luo ammattimaisia etsintätehtäviä Find Objects -työkalumallamme. Täysi Pääsy -tilauksesi antaa sinulle rajoittamattoman tehtävien luomisen.',
+        url: 'https://www.lessoncraftstudio.com/fi/apps/etsi-esineet-tyoarkit',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Legacy: Redirect old Finnish find-objects slug to new slug (for backwards compatibility)
+  if (params.slug === 'find-objects-worksheets' && params.locale === 'fi') {
+    return {
+      title: 'Etsi Esineet Tehtävät - Tulostettavat Tehtävät',
+      description: 'Luo ammattimaisia etsintätehtäviä Find Objects -työkalumallamme.',
+      robots: {
+        index: false, // Don't index old URL
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/fi/apps/etsi-esineet-tyoarkit', // Point to new URL
+      },
+    };
+  }
+
   // Addition Worksheets - French product page SEO (new French slug)
   if (params.slug === 'addition-fiches' && params.locale === 'fr') {
     return {
@@ -9514,6 +9566,7 @@ export async function generateStaticParams() {
     'iso-pieni-tyoarkit', // Product page slug (Finnish) - language-specific SEO slug for big-small
     'kuva-yhteenlasku-tyoarkit', // Product page slug (Finnish) - language-specific SEO slug for code-addition
     'ruudukkopiirustus-tyoarkit', // Product page slug (Finnish) - language-specific SEO slug for draw-and-color
+    'etsi-esineet-tyoarkit', // Product page slug (Finnish) - language-specific SEO slug for find-objects
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

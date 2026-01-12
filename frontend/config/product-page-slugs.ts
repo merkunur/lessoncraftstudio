@@ -286,6 +286,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       nl: 'zoek-voorwerpen-werkbladen',
       da: 'find-objekterne-arbejdsark',
       no: 'finn-objektene-arbeidsark',
+      fi: 'etsi-esineet-tyoarkit',
     },
   },
   {

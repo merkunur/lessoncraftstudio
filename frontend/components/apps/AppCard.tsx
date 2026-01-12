@@ -233,6 +233,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     nl: 'zoek-voorwerpen-werkbladen',
     da: 'find-objekterne-arbejdsark',
     no: 'finn-objektene-arbeidsark',
+    fi: 'etsi-esineet-tyoarkit',
   },
   'grid-match': {
     en: 'grid-match-worksheets',

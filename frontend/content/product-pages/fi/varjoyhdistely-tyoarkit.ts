@@ -16,7 +16,7 @@ export const shadowMatchFiContent: ProductPageContent = {
     slug: 'varjoyhdistely-tyoarkit',
     appId: 'shadow-match',
     title: 'Varjoyhdistely Tehtävät Generaattori | Tulostettavat Tehtävät Lapsille Ilmainen Esiopetus Materiaali',
-    description: 'Luo ammattitasoisia varjoyhdistelyn tehtäviä varjoyhdistelygeneraattorillamme. Full Access -tilauksesi antaa sinulle rajattoman tehtävien luomisen ilman tehtäväkohtaisia maksuja. Tulostettavat tehtävät lapsille ilmainen esiopetukseen ja alakouluun.',
+    description: 'Luo ammattitasoisia varjoyhdistelyn tehtäviä varjoyhdistelygeneraattorillamme. Täysi Pääsy -tilauksesi antaa sinulle rajattoman tehtävien luomisen ilman tehtäväkohtaisia maksuja. Tulostettavat tehtävät lapsille ilmainen esiopetukseen ja alakouluun.',
     keywords: 'varjoyhdistely tehtävät, tulostettavat tehtävät lapsille ilmainen, esiopetus materiaali ilmainen, visuaalinen hahmotus, hienomotoriikka harjoitukset, varjokuva yhdistäminen',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fi/apps/varjoyhdistely-tyoarkit',
   },
@@ -25,9 +25,9 @@ export const shadowMatchFiContent: ProductPageContent = {
   hero: {
     title: 'Varjoyhdistely Tehtävät',
     subtitle: 'Tulostettavat Tehtävät Lapsille Ilmainen Esiopetus Materiaali',
-    description: `Luo ammattitasoisia varjoyhdistelyn tehtäviä varjoyhdistelygeneraattorillamme. Full Access -tilauksesi antaa sinulle rajattoman tehtävien luomisen ilman tehtäväkohtaisia maksuja. Luo mukautettuja tulostettavia tehtäviä täydellisiä esiopetukseen, alakouluun ja hienomotoriikka harjoituksiin. Lataa korkealaatuisia PDF-tehtäviä alle kolmessa minuutissa.
+    description: `Luo ammattitasoisia varjoyhdistelyn tehtäviä varjoyhdistelygeneraattorillamme. Täysi Pääsy -tilauksesi antaa sinulle rajattoman tehtävien luomisen ilman tehtäväkohtaisia maksuja. Luo mukautettuja tulostettavia tehtäviä täydellisiä esiopetukseen, alakouluun ja hienomotoriikka harjoituksiin. Lataa korkealaatuisia PDF-tehtäviä alle kolmessa minuutissa.
 
-Varjoyhdistely on visuaalinen hahmotusharjoitus, joka kehittää lasten näköhavaintoa, avaruudellista hahmotuskykyä ja ongelmanratkaisutaitoja. Esiopetus materiaali ilmainen ja matematiikka tehtävät alakoulu yhdistyvät täydellisesti värityskuvia lapsille tulostettava ja hienomotoriikka harjoitukset -teemoihin. Full Access -tilaus sisältää kaikki 33 tehtävägeneraattoria, kaupallisen lisenssin ja 11 kielen tuen.
+Varjoyhdistely on visuaalinen hahmotusharjoitus, joka kehittää lasten näköhavaintoa, avaruudellista hahmotuskykyä ja ongelmanratkaisutaitoja. Esiopetus materiaali ilmainen ja matematiikka tehtävät alakoulu yhdistyvät täydellisesti värityskuvia lapsille tulostettava ja hienomotoriikka harjoitukset -teemoihin. Täysi Pääsy -tilaus sisältää kaikki 33 tehtävägeneraattoria, kaupallisen lisenssin ja 11 kielen tuen.
 
 Varjoyhdistelygeneraattorimme tarjoaa kaksi harjoitustyyppiä: perinteisen varjoyhdistelyn, jossa lapset yhdistävät värilliset kuvat niiden mustiin varjoihin, sekä "Tee Kokonaiseksi" -tilan, jossa jaetut kuvat yhdistetään kokonaisiksi. Molemmat harjoitustyypit sopivat täydellisesti tulostettavat tehtävät lapsille ilmainen -hakuihin ja tukevat kirjaimet harjoittelu esikoulu, kertotaulut tulostettava ja yhteenlasku ja vähennyslasku tehtävät -oppimista.`,
     previewImageSrc: '/samples/english/shadow match/shadow-match-worksheet.jpeg',
@@ -90,7 +90,7 @@ Varjoyhdistelygeneraattorimme tarjoaa kaksi harjoitustyyppiä: perinteisen varjo
   // Features Grid - FULL text from Finnish varjoyhdistely.md feature sections
   features: {
     sectionTitle: 'Varjoyhdistelygeneraattorin Ominaisuudet - Kaikki Mitä Tarvitset Esiopetus Materiaali Ilmainen ja Matematiikka Tehtävät Alakoulu Luomiseen',
-    sectionDescription: 'Varjoyhdistelygeneraattorimme tarjoaa kattavat työkalut tulostettavat tehtävät lapsille ilmainen, värityskuvia lapsille tulostettava ja hienomotoriikka harjoitukset -luomiseen. Jokainen ominaisuus on suunniteltu säästämään aikaa ja luomaan ammattitasoisia tehtäviä. Full Access -tilaus antaa sinulle pääsyn kaikkiin työkaluihin, jotka tarvitset kirjaimet harjoittelu esikoulu, kertotaulut tulostettava, yhteenlasku ja vähennyslasku tehtävät ja pisteestä pisteeseen tehtävät -materiaalien luomiseen.',
+    sectionDescription: 'Varjoyhdistelygeneraattorimme tarjoaa kattavat työkalut tulostettavat tehtävät lapsille ilmainen, värityskuvia lapsille tulostettava ja hienomotoriikka harjoitukset -luomiseen. Jokainen ominaisuus on suunniteltu säästämään aikaa ja luomaan ammattitasoisia tehtäviä. Täysi Pääsy -tilaus antaa sinulle pääsyn kaikkiin työkaluihin, jotka tarvitset kirjaimet harjoittelu esikoulu, kertotaulut tulostettava, yhteenlasku ja vähennyslasku tehtävät ja pisteestä pisteeseen tehtävät -materiaalien luomiseen.',
     highlightBadgeText: 'Tärkeä Ominaisuus',
     readMoreLabel: 'Lue lisää',
     showLessLabel: 'Näytä vähemmän',
@@ -149,11 +149,11 @@ Kaikki painikkeet, työkaluvihjeet ja käyttöliittymätekstit käännetään au
         id: '5',
         icon: '💰',
         title: 'Kaupallinen Lisenssi Tulostettavat Tehtävät Lapsille Ilmainen Myymiseen',
-        description: `Full Access -tilaus sisältää täyden kaupallisen print-on-demand -lisenssin ilman lisäkustannuksia. Myy varjoyhdistelyn tehtäviä Teachers Pay Teachers -palvelussa, Etsyssä ja Amazon KDP:ssä. Ei attribuutiovaatimusta. Ei lisämaksuja lisensointiin.
+        description: `Täysi Pääsy -tilaus sisältää täyden kaupallisen print-on-demand -lisenssin ilman lisäkustannuksia. Myy varjoyhdistelyn tehtäviä Teachers Pay Teachers -palvelussa, Etsyssä ja Amazon KDP:ssä. Ei attribuutiovaatimusta. Ei lisämaksuja lisensointiin.
 
 Luo paketteja esiopetus materiaali ilmainen, matematiikka tehtävät alakoulu ja hienomotoriikka harjoitukset -myyntiä varten. Monet opettajat ansaitsevat 500-5000 dollaria kuukaudessa myymällä mukautettuja tehtäviä. 300 DPI -laatu varmistaa, että kirjaimet harjoittelu esikoulu, kertotaulut tulostettava ja yhteenlasku ja vähennyslasku tehtävät näyttävät ammattimaisilta.
 
-Kilpailijat veloittavat 79-199 dollaria vuodessa erillisestä kaupallisesta lisenssistä. Full Access sisältää sen 240 euron vuosimaksussa. Säästät rahaa ja aloitat myymisen välittömästi. Kaupallinen lisenssi kattaa kaikki 33 tehtävägeneraattoriamme, joten voit myydä pisteestä pisteeseen tehtävät ja lukemaan oppiminen tehtävät -materiaaleja ilman huolia.`,
+Kilpailijat veloittavat 79-199 dollaria vuodessa erillisestä kaupallisesta lisenssistä. Täysi Pääsy sisältää sen 240 euron vuosimaksussa. Säästät rahaa ja aloitat myymisen välittömästi. Kaupallinen lisenssi kattaa kaikki 33 tehtävägeneraattoriamme, joten voit myydä pisteestä pisteeseen tehtävät ja lukemaan oppiminen tehtävät -materiaaleja ilman huolia.`,
         highlighted: true,
       },
       {
@@ -294,7 +294,7 @@ Yhdistä varjoyhdistely aihealuekohtaisiin teemoihin. Tiedeviikko: varjoyhdistel
 
 Nuorimmalle lapselle (3-5 vuotta): yksinkertaiset eläinvarjot, suuret kuvat, A/B/C-tunnisteet käytössä. Keskimmäiselle lapselle (6-7 vuotta): monimutkaisemmat kuvat, Tee Kokonaiseksi -tila, ei tunnisteita. Vanhimmalle lapselle (8-9 vuotta): hyvin yksityiskohtaiset kuvat, kirjoitustehtävä jokaisesta parista.
 
-Full Access -tilaus säästää kotikoulutusvanhempien rahaa merkittävästi. Sen sijaan, että ostaisit useita työkirjoja eri aihealueille, käytä yhtä tilausta kaikkiin esiopetus materiaali ilmainen, kertotaulut tulostettava, yhteenlasku ja vähennyslasku tehtävät ja värityskuvia lapsille tulostettava -tarpeisiin.`,
+Täysi Pääsy -tilaus säästää kotikoulutusvanhempien rahaa merkittävästi. Sen sijaan, että ostaisit useita työkirjoja eri aihealueille, käytä yhtä tilausta kaikkiin esiopetus materiaali ilmainen, kertotaulut tulostettava, yhteenlasku ja vähennyslasku tehtävät ja värityskuvia lapsille tulostettava -tarpeisiin.`,
         quote: 'Yksi työkalu kaikille lapsilleni eri ikäryhmissä.',
       },
       {
@@ -326,11 +326,11 @@ Hienomotoriikka harjoitukset ovat keskeisiä monille erityisopetuksen oppilaille
         icon: '💰',
         title: 'Opettajayrittäjät',
         subtitle: 'Myy Tulostettavat Tehtävät Lapsille Ilmainen Teachers Pay Teachers -palvelussa',
-        description: `Tuhannet opettajat ansaitsevat sivutuloja tai kokoaikaisia tuloja myymällä tulostettavia tehtäviä verkossa. Teachers Pay Teachers, Etsy ja Amazon KDP ovat suosittuja alustoja. Full Access -tilaus antaa sinulle kaikki työkalut tämän liiketoiminnan aloittamiseen ilman suuria etukäteisinvestointeja.
+        description: `Tuhannet opettajat ansaitsevat sivutuloja tai kokoaikaisia tuloja myymällä tulostettavia tehtäviä verkossa. Teachers Pay Teachers, Etsy ja Amazon KDP ovat suosittuja alustoja. Täysi Pääsy -tilaus antaa sinulle kaikki työkalut tämän liiketoiminnan aloittamiseen ilman suuria etukäteisinvestointeja.
 
 Luo tehtäväpaketteja myytäväksi. Esimerkiksi: "20 Varjoyhdistelyn Tehtävää Esiopetukseen" -paketti. Sisällytä erilaisia teemoja: eläimet, ruoka, kulkuneuvot, lelut. Hinnoittele 5-15 dollaria paketista. Monet opettajat myyvät satoja paketteja kuukaudessa.
 
-Kaupallinen lisenssi on mukana Full Access -tilauksessa ilman lisämaksuja. Kilpailijat veloittavat 79-199 dollaria vuodessa erillisestä kaupallisesta lisenssistä. Full Access sisältää sen 240 euron vuosimaksussa. Tämä on valtava säästö opettajayrittäjille.`,
+Kaupallinen lisenssi on mukana Täysi Pääsy -tilauksessa ilman lisämaksuja. Kilpailijat veloittavat 79-199 dollaria vuodessa erillisestä kaupallisesta lisenssistä. Täysi Pääsy sisältää sen 240 euron vuosimaksussa. Tämä on valtava säästö opettajayrittäjille.`,
         quote: 'Tilaukseni maksoi itsensä takaisin ensimmäisessä kuussa!',
       },
     ],
@@ -351,7 +351,7 @@ Kaupallinen lisenssi on mukana Full Access -tilauksessa ilman lisämaksuja. Kilp
       {
         id: '1',
         question: 'Onko Tämä Varjoyhdistelygeneraattori Todella Ilmainen?',
-        answer: 'Varjoyhdistelygeneraattori vaatii Full Access -tilauksen, joka maksaa 240 euroa vuodessa tai 25 euroa kuukaudessa. Tilauksesi antaa sinulle rajattoman varjoyhdistelyn tehtävien luomisen ilman tehtäväkohtaisia maksuja. Luo niin monta värityskuvia lapsille tulostettava ja pisteestä pisteeseen tehtävät -materiaalia kuin tarvitset ilman lisämaksuja.',
+        answer: 'Varjoyhdistelygeneraattori vaatii Täysi Pääsy -tilauksen, joka maksaa 240 euroa vuodessa tai 25 euroa kuukaudessa. Tilauksesi antaa sinulle rajattoman varjoyhdistelyn tehtävien luomisen ilman tehtäväkohtaisia maksuja. Luo niin monta värityskuvia lapsille tulostettava ja pisteestä pisteeseen tehtävät -materiaalia kuin tarvitset ilman lisämaksuja.',
       },
       {
         id: '2',
@@ -366,7 +366,7 @@ Kaupallinen lisenssi on mukana Full Access -tilauksessa ilman lisämaksuja. Kilp
       {
         id: '4',
         question: 'Voinko Käyttää Varjoyhdistelyn Tehtäviä Luokkahuoneessani?',
-        answer: 'Full Access -tilaus sisältää rajattoman luokkahuonekäytön. Luo niin monta varjoyhdistelyn tehtävää kuin tarvitset oppilaittesi kanssa käytettäväksi. Tulosta kopioita koko luokallesi. Jaa digitaalisia versioita Learning Management System -järjestelmäsi kautta. Käytä tehtäviä ryhmätyöhön, yksilölliseen harjoitukseen tai arviointiin.',
+        answer: 'Täysi Pääsy -tilaus sisältää rajattoman luokkahuonekäytön. Luo niin monta varjoyhdistelyn tehtävää kuin tarvitset oppilaittesi kanssa käytettäväksi. Tulosta kopioita koko luokallesi. Jaa digitaalisia versioita Learning Management System -järjestelmäsi kautta. Käytä tehtäviä ryhmätyöhön, yksilölliseen harjoitukseen tai arviointiin.',
       },
       {
         id: '5',
@@ -376,7 +376,7 @@ Kaupallinen lisenssi on mukana Full Access -tilauksessa ilman lisämaksuja. Kilp
       {
         id: '6',
         question: 'Voinko Myydä Luomiani Varjoyhdistelyn Tehtäviä?',
-        answer: 'Kyllä. Full Access -tilaus sisältää täyden kaupallisen print-on-demand -lisenssin ilman lisämaksuja. Myy varjoyhdistelyn tehtäviäsi Teachers Pay Teachers -palvelussa, Etsyssä, Amazon KDP:ssä tai millä tahansa muulla alustalla. Ei attribuutiovaatimusta. Ei lisämaksuja kaupalliseen käyttöön. Ei rojaltimaksuja.',
+        answer: 'Kyllä. Täysi Pääsy -tilaus sisältää täyden kaupallisen print-on-demand -lisenssin ilman lisämaksuja. Myy varjoyhdistelyn tehtäviäsi Teachers Pay Teachers -palvelussa, Etsyssä, Amazon KDP:ssä tai millä tahansa muulla alustalla. Ei attribuutiovaatimusta. Ei lisämaksuja kaupalliseen käyttöön. Ei rojaltimaksuja.',
       },
       {
         id: '7',
@@ -411,12 +411,12 @@ Kaupallinen lisenssi on mukana Full Access -tilauksessa ilman lisämaksuja. Kilp
     ],
   },
 
-  // Pricing - Finnish Full Access terminology (NOT Core Bundle)
+  // Pricing - Finnish Täysi Pääsy terminology (NOT Core Bundle)
   pricing: {
-    title: 'Full Access',
+    title: 'Täysi Pääsy',
     price: '240€',
     priceInterval: '/vuosi',
-    priceSuffix: 'Laskutetaan vuosittain',
+    priceSuffix: 'tai 25€/kk',
     benefits: [
       'Rajoittamaton tehtävien luonti',
       'Kaikki 33 tehtävägeneraattoria',

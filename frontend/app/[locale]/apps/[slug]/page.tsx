@@ -250,6 +250,8 @@ import drawAndColorFiContent from '@/content/product-pages/fi/ruudukkopiirustus-
 import crosswordFiContent from '@/content/product-pages/fi/ristisanatehtavat-tyoarkit';
 import cryptogramFiContent from '@/content/product-pages/fi/kuvakryptogrammi-tyoarkit';
 import mathPuzzleFiContent from '@/content/product-pages/fi/matematiikkapulmat-tyoarkit';
+import missingPiecesFiContent from '@/content/product-pages/fi/puuttuvat-palat-tyoarkit';
+import moreLessFiContent from '@/content/product-pages/fi/enemman-vahemman-tyoarkit';
 
 interface PageProps {
   params: {
@@ -9730,6 +9732,7 @@ export async function generateStaticParams() {
     'kuvakryptogrammi-tyoarkit', // Product page slug (Finnish) - language-specific SEO slug for cryptogram
     'matematiikkapulmat-tyoarkit', // Product page slug (Finnish) - language-specific SEO slug for math-puzzle
     'puuttuvat-palat-tyoarkit', // Product page slug (Finnish) - language-specific SEO slug for missing-pieces
+    'enemman-vahemman-tyoarkit', // Product page slug (Finnish) - language-specific SEO slug for more-less
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

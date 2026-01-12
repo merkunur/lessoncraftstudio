@@ -310,6 +310,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     nl: 'meer-minder-werkbladen',
     da: 'sammenligningsopgaver-arbejdsark',
     no: 'sammenligningsoppgaver-arbeidsark',
+    fi: 'enemman-vahemman-tyoarkit',
   },
   'odd-one-out': {
     en: 'odd-one-out-worksheets',

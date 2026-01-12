@@ -381,6 +381,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       nl: 'meer-minder-werkbladen',
       da: 'sammenligningsopgaver-arbejdsark',
       no: 'sammenligningsoppgaver-arbeidsark',
+      fi: 'enemman-vahemman-tyoarkit',
     },
   },
   {

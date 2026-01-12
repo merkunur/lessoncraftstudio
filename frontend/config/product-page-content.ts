@@ -99,6 +99,7 @@ import crosswordFiContent from '@/content/product-pages/fi/ristisanatehtavat-tyo
 import cryptogramFiContent from '@/content/product-pages/fi/kuvakryptogrammi-tyoarkit';
 import mathPuzzleFiContent from '@/content/product-pages/fi/matematiikkapulmat-tyoarkit';
 import missingPiecesFiContent from '@/content/product-pages/fi/puuttuvat-palat-tyoarkit';
+import moreLessFiContent from '@/content/product-pages/fi/enemman-vahemman-tyoarkit';
 
 // German content imports
 import wordSearchDeContent from '@/content/product-pages/de/word-search-worksheets';
@@ -1717,6 +1718,10 @@ export const contentRegistry: ContentRegistry = {
     'puuttuvat-palat-tyoarkit': missingPiecesFiContent,
     // Also keep English slug for backwards compatibility during transition
     'missing-pieces-worksheets': missingPiecesFiContent,
+    // Finnish More Less (Enemmän vai Vähemmän) - uses Finnish SEO slug
+    'enemman-vahemman-tyoarkit': moreLessFiContent,
+    // Also keep English slug for backwards compatibility during transition
+    'more-less-worksheets': moreLessFiContent,
   },
 };
 

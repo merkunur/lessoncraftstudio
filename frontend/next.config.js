@@ -1848,6 +1848,12 @@ const nextConfig = {
         destination: '/fi/apps/puuttuvat-palat-tyoarkit',
         permanent: true,
       },
+      // Finnish: more-less-worksheets → enemman-vahemman-tyoarkit
+      {
+        source: '/fi/apps/more-less-worksheets',
+        destination: '/fi/apps/enemman-vahemman-tyoarkit',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

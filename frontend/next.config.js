@@ -1896,6 +1896,12 @@ const nextConfig = {
         destination: '/fi/apps/vahennyslasku-tyoarkit',
         permanent: true,
       },
+      // Finnish: treasure-hunt-worksheets → aarteenetsinta-tyoarkit
+      {
+        source: '/fi/apps/treasure-hunt-worksheets',
+        destination: '/fi/apps/aarteenetsinta-tyoarkit',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

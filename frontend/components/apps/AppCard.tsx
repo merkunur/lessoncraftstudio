@@ -427,6 +427,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     nl: 'schattenjacht-werkbladen',
     da: 'skattejagt-arbejdsark',
     no: 'skattejakt-arbeidsark',
+    fi: 'aarteenetsinta-tyoarkit',
   },
   'word-guess': {
     en: 'word-guess-worksheets',

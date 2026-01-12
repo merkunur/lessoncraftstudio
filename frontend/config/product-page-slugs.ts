@@ -525,6 +525,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       nl: 'schattenjacht-werkbladen',
       da: 'skattejagt-arbejdsark',
       no: 'skattejakt-arbeidsark',
+      fi: 'aarteenetsinta-tyoarkit',
     },
   },
   {

@@ -9798,6 +9798,7 @@ export async function generateStaticParams() {
     'prepositio-tyoarkit', // Product page slug (Finnish) - language-specific SEO slug for prepositions
     'varjoyhdistely-tyoarkit', // Product page slug (Finnish) - language-specific SEO slug for shadow-match
     'vahennyslasku-tyoarkit', // Product page slug (Finnish) - language-specific SEO slug for subtraction
+    'aarteenetsinta-tyoarkit', // Product page slug (Finnish) - language-specific SEO slug for treasure-hunt
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

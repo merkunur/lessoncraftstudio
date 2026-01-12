@@ -249,6 +249,7 @@ import codeAdditionFiContent from '@/content/product-pages/fi/kuva-yhteenlasku-t
 import drawAndColorFiContent from '@/content/product-pages/fi/ruudukkopiirustus-tyoarkit';
 import crosswordFiContent from '@/content/product-pages/fi/ristisanatehtavat-tyoarkit';
 import cryptogramFiContent from '@/content/product-pages/fi/kuvakryptogrammi-tyoarkit';
+import mathPuzzleFiContent from '@/content/product-pages/fi/matematiikkapulmat-tyoarkit';
 
 interface PageProps {
   params: {

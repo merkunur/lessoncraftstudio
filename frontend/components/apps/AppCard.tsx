@@ -284,6 +284,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     nl: 'rekenpuzzels-werkbladen',
     da: 'matteleger-arbejdsark',
     no: 'matematikkgater-arbeidsark',
+    fi: 'matematiikkapulmat-tyoarkit',
   },
   'missing-pieces': {
     en: 'missing-pieces-worksheets',

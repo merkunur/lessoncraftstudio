@@ -97,6 +97,7 @@ import findObjectsFiContent from '@/content/product-pages/fi/etsi-esineet-tyoark
 import gridMatchFiContent from '@/content/product-pages/fi/ruudukko-sovitus-tyoarkit';
 import crosswordFiContent from '@/content/product-pages/fi/ristisanatehtavat-tyoarkit';
 import cryptogramFiContent from '@/content/product-pages/fi/kuvakryptogrammi-tyoarkit';
+import mathPuzzleFiContent from '@/content/product-pages/fi/matematiikkapulmat-tyoarkit';
 
 // German content imports
 import wordSearchDeContent from '@/content/product-pages/de/word-search-worksheets';
@@ -1707,6 +1708,10 @@ export const contentRegistry: ContentRegistry = {
     'kuvakryptogrammi-tyoarkit': cryptogramFiContent,
     // Also keep English slug for backwards compatibility during transition
     'cryptogram-worksheets': cryptogramFiContent,
+    // Finnish Math Puzzle (Matematiikkapulmat) - uses Finnish SEO slug
+    'matematiikkapulmat-tyoarkit': mathPuzzleFiContent,
+    // Also keep English slug for backwards compatibility during transition
+    'math-puzzle-worksheets': mathPuzzleFiContent,
   },
 };
 

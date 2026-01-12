@@ -1836,6 +1836,12 @@ const nextConfig = {
         destination: '/fi/apps/kuvakryptogrammi-tyoarkit',
         permanent: true,
       },
+      // Finnish: math-puzzle-worksheets → matematiikkapulmat-tyoarkit
+      {
+        source: '/fi/apps/math-puzzle-worksheets',
+        destination: '/fi/apps/matematiikkapulmat-tyoarkit',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

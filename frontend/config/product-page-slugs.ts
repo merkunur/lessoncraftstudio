@@ -349,6 +349,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       nl: 'rekenpuzzels-werkbladen',
       da: 'matteleger-arbejdsark',
       no: 'matematikkgater-arbeidsark',
+      fi: 'matematiikkapulmat-tyoarkit',
     },
   },
   {

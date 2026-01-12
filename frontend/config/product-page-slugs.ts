@@ -557,6 +557,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       nl: 'schrijfoefeningen-werkbladen',
       da: 'skriveopgaver-arbejdsark',
       no: 'skriveark-arbeidsark',
+      fi: 'kasinkirjoitus-tyoarkit',
     },
   },
 ];

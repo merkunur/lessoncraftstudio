@@ -453,6 +453,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     nl: 'schrijfoefeningen-werkbladen',
     da: 'skriveopgaver-arbejdsark',
     no: 'skriveark-arbeidsark',
+    fi: 'kasinkirjoitus-tyoarkit',
   },
 };
 

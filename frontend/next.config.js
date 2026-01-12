@@ -1908,6 +1908,12 @@ const nextConfig = {
         destination: '/fi/apps/kuva-arvaus-tyoarkit',
         permanent: true,
       },
+      // Finnish: writing-worksheets → kasinkirjoitus-tyoarkit
+      {
+        source: '/fi/apps/writing-worksheets',
+        destination: '/fi/apps/kasinkirjoitus-tyoarkit',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

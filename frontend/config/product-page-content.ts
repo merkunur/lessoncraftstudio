@@ -110,6 +110,7 @@ import shadowMatchFiContent from '@/content/product-pages/fi/varjoyhdistely-tyoa
 import subtractionFiContent from '@/content/product-pages/fi/vahennyslasku-tyoarkit';
 import treasureHuntFiContent from '@/content/product-pages/fi/aarteenetsinta-tyoarkit';
 import wordGuessFiContent from '@/content/product-pages/fi/kuva-arvaus-tyoarkit';
+import writingFiContent from '@/content/product-pages/fi/kasinkirjoitus-tyoarkit';
 
 // German content imports
 import wordSearchDeContent from '@/content/product-pages/de/word-search-worksheets';
@@ -1772,6 +1773,10 @@ export const contentRegistry: ContentRegistry = {
     'kuva-arvaus-tyoarkit': wordGuessFiContent,
     // Also keep English slug for backwards compatibility during transition
     'word-guess-worksheets': wordGuessFiContent,
+    // Finnish Writing (Käsinkirjoitus Tehtävät) - uses Finnish SEO slug
+    'kasinkirjoitus-tyoarkit': writingFiContent,
+    // Also keep English slug for backwards compatibility during transition
+    'writing-worksheets': writingFiContent,
   },
 };
 

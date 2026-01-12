@@ -259,6 +259,7 @@ import pictureSortFiContent from '@/content/product-pages/fi/kuvalajittelu-tyoar
 import prepositionsFiContent from '@/content/product-pages/fi/prepositio-tyoarkit';
 import shadowMatchFiContent from '@/content/product-pages/fi/varjoyhdistely-tyoarkit';
 import subtractionFiContent from '@/content/product-pages/fi/vahennyslasku-tyoarkit';
+import writingFiContent from '@/content/product-pages/fi/kasinkirjoitus-tyoarkit';
 
 interface PageProps {
   params: {
@@ -9800,6 +9801,7 @@ export async function generateStaticParams() {
     'vahennyslasku-tyoarkit', // Product page slug (Finnish) - language-specific SEO slug for subtraction
     'aarteenetsinta-tyoarkit', // Product page slug (Finnish) - language-specific SEO slug for treasure-hunt
     'kuva-arvaus-tyoarkit', // Product page slug (Finnish) - language-specific SEO slug for word-guess
+    'kasinkirjoitus-tyoarkit', // Product page slug (Finnish) - language-specific SEO slug for writing
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

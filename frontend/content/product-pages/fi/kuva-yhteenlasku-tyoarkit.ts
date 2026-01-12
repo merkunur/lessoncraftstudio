@@ -473,15 +473,6 @@ Teemapaketit myyvät hyvin. Luo "Eläinten yhteenlasku" -paketti 20 monisteen ka
       },
     ],
   },
-
-  // Footer CTA - Finnish translated
-  footerCta: {
-    title: 'Aloita Kuvapohjaisten Yhteenlaskutehtävien Luominen Tänään',
-    description: 'Liity tuhansien opettajien joukkoon jotka säästävät tunteja viikossa ammattimaisella tehtävägeneraattorillamme. Peruspaketti-tilauksesi antaa rajattoman pääsyn kaikkiin työkaluihin ja ominaisuuksiin.',
-    primaryCtaLabel: 'Aloita Ilmaiseksi',
-    secondaryCtaLabel: 'Näytä Hinnoittelu',
-    guaranteeText: '14 päivän rahat takaisin -takuu',
-  },
 };
 
 export default codeAdditionFiContent;

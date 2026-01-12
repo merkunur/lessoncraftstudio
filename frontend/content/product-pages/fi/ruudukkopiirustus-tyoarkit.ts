@@ -497,6 +497,11 @@ Erityisopetuksessa ruudukkopiirustustehtävät toimivat vanhemmillekin oppilaill
     ctaDescription: 'Luo ammattimaisia ruudukkopiirustustehtäviä alle 3 minuutissa. Täysi Käyttöoikeus -tilaus antaa pääsyn kaikkiin 33 tehtävägeneraattoriin.',
     primaryCtaText: 'Aloita Nyt',
     secondaryCtaText: 'Katso Kaikki 33 Sovellusta',
+    trustBadges: {
+      guarantee: '30 päivän rahat takaisin -takuu',
+      securePayment: 'Turvallinen maksu',
+      cancelAnytime: 'Peruuta milloin tahansa',
+    },
     items: [
       {
         id: '1',

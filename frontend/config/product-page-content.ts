@@ -98,6 +98,7 @@ import gridMatchFiContent from '@/content/product-pages/fi/ruudukko-sovitus-tyoa
 import crosswordFiContent from '@/content/product-pages/fi/ristisanatehtavat-tyoarkit';
 import cryptogramFiContent from '@/content/product-pages/fi/kuvakryptogrammi-tyoarkit';
 import mathPuzzleFiContent from '@/content/product-pages/fi/matematiikkapulmat-tyoarkit';
+import missingPiecesFiContent from '@/content/product-pages/fi/puuttuvat-palat-tyoarkit';
 
 // German content imports
 import wordSearchDeContent from '@/content/product-pages/de/word-search-worksheets';
@@ -1712,6 +1713,10 @@ export const contentRegistry: ContentRegistry = {
     'matematiikkapulmat-tyoarkit': mathPuzzleFiContent,
     // Also keep English slug for backwards compatibility during transition
     'math-puzzle-worksheets': mathPuzzleFiContent,
+    // Finnish Missing Pieces (Puuttuvat Palat) - uses Finnish SEO slug
+    'puuttuvat-palat-tyoarkit': missingPiecesFiContent,
+    // Also keep English slug for backwards compatibility during transition
+    'missing-pieces-worksheets': missingPiecesFiContent,
   },
 };
 

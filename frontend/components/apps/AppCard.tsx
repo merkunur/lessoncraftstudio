@@ -297,6 +297,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     nl: 'ontbrekende-puzzelstukjes-werkbladen',
     da: 'manglende-brikker-arbejdsark',
     no: 'manglende-biter-arbeidsark',
+    fi: 'puuttuvat-palat-tyoarkit',
   },
   'more-less': {
     en: 'more-less-worksheets',

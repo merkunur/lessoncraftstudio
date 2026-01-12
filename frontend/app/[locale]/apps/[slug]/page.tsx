@@ -9728,6 +9728,8 @@ export async function generateStaticParams() {
     'ruudukko-sovitus-tyoarkit', // Product page slug (Finnish) - language-specific SEO slug for grid-match
     'ristisanatehtavat-tyoarkit', // Product page slug (Finnish) - language-specific SEO slug for crossword
     'kuvakryptogrammi-tyoarkit', // Product page slug (Finnish) - language-specific SEO slug for cryptogram
+    'matematiikkapulmat-tyoarkit', // Product page slug (Finnish) - language-specific SEO slug for math-puzzle
+    'puuttuvat-palat-tyoarkit', // Product page slug (Finnish) - language-specific SEO slug for missing-pieces
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

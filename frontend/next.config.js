@@ -1842,6 +1842,12 @@ const nextConfig = {
         destination: '/fi/apps/matematiikkapulmat-tyoarkit',
         permanent: true,
       },
+      // Finnish: missing-pieces-worksheets → puuttuvat-palat-tyoarkit
+      {
+        source: '/fi/apps/missing-pieces-worksheets',
+        destination: '/fi/apps/puuttuvat-palat-tyoarkit',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

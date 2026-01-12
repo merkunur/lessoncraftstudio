@@ -275,7 +275,6 @@ Tu suscripcion incluye acceso a mas de 3000 imagenes infantiles organizadas por 
       'Acceso a los 33 generadores',
     ],
     ctaText: 'Comenzar Ahora',
-    guaranteeText: 'Garantia de devolucion de 30 dias',
   },
 
   // FAQ Section - FULL text from prepositions.md FAQ sections

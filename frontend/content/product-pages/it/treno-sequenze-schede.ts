@@ -428,7 +428,6 @@ Crea pacchetti settimanali tematici usando più generatori. Un pacchetto a tema 
       'Soluzioni incluse',
     ],
     ctaText: 'Inizia Ora',
-    guaranteeText: 'Garanzia soddisfatti o rimborsati 30 giorni',
   },
 
   // Related Apps Section

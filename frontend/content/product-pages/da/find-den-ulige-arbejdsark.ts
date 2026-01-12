@@ -420,7 +420,6 @@ Brug Pinterest til at drive trafik til produkter. Pin eksempler af opgaver med l
       'Facitark inkluderet',
     ],
     ctaText: 'Start Nu',
-    guaranteeText: '30 dages pengene-tilbage-garanti',
   },
 
   // FAQ Section - FULL text from odd-one-out.md FAQ sections

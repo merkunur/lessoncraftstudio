@@ -392,7 +392,6 @@ Crie pacotes temáticos de atividades para imprimir para venda. Combine diferent
       'Qualidade de impressão 300 DPI',
     ],
     ctaText: 'Comece Agora',
-    guaranteeText: 'Garantia de reembolso de 30 dias',
   },
 
   // Related Apps

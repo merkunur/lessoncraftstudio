@@ -432,7 +432,6 @@ Amazon KDP eignet sich für Mathe-Rätsel Arbeitsheft-Sammlungen für den Buchma
       'Lösungsblätter inklusive',
     ],
     ctaText: 'Jetzt Erstellen',
-    guaranteeText: '30 Tage Geld-zurück-Garantie',
   },
 
   // Related Apps - Apps that work well with math puzzle

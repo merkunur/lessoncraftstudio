@@ -439,7 +439,6 @@ Bygg prenumerationsbaserad verksamhet med månatliga sudokupaket. Kunder betalar
       'Kommersiell licens ingår',
     ],
     ctaText: 'Börja Skapa Nu',
-    guaranteeText: '30 dagars pengarna-tillbaka-garanti',
   },
 
   // Related Apps

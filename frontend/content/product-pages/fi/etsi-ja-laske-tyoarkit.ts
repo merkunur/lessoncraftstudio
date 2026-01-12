@@ -432,7 +432,6 @@ Luo tehtävävihkoja myytäväksi. 20 etsi ja laske -tehtävää per vihko. Tema
       'Vastausavaimet sisältyvät',
     ],
     ctaText: 'Aloita Luominen Nyt',
-    guaranteeText: '30 päivän rahat takaisin -takuu',
   },
 
   // Related Apps

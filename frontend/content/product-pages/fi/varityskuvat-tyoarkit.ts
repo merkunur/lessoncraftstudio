@@ -496,7 +496,6 @@ Kausittaiset teemapaketit tuottavat huippumyyntiä. Luo esiopetus materiaali ilm
       '10 tehtävägeneraattoria sisältyy',
     ],
     ctaText: 'Aloita Luominen Nyt',
-    guaranteeText: '30 päivän rahat takaisin -takuu',
   },
 
   // Related Apps

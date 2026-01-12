@@ -395,7 +395,6 @@ Atividades para imprimir de raciocínio lógico têm demanda constante. Educador
       'Acesso a todos os 33 geradores',
     ],
     ctaText: 'Comece Agora',
-    guaranteeText: 'Garantia de reembolso de 30 dias',
   },
 
   // Related Apps

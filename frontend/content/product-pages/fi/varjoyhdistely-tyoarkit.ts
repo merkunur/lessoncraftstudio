@@ -427,7 +427,6 @@ Kaupallinen lisenssi on mukana Täysi Pääsy -tilauksessa ilman lisämaksuja. K
       'Vastausavaimet sisältyvät',
     ],
     ctaText: 'Aloita Luominen Nyt',
-    guaranteeText: '30 päivän rahat takaisin -takuu',
   },
 
   // Related Apps

@@ -281,7 +281,6 @@ Palavras cruzadas com imagens são perfeitas para crianças em fase de alfabetiz
       'Biblioteca com mais de 3000 imagens',
     ],
     ctaText: 'Comece Agora',
-    guaranteeText: 'Garantia de reembolso de 30 dias',
   },
 
   // FAQ Section

@@ -405,7 +405,6 @@ Professionel 300 DPI kvalitet sikrer dine produkter ser fantastiske ud. Kunder f
       'Ring-ark inkluderet',
     ],
     ctaText: 'Start Nu',
-    guaranteeText: '30 dages pengene-tilbage-garanti',
   },
 
   // Related Apps

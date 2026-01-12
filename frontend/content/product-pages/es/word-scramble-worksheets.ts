@@ -450,7 +450,6 @@ Muchos maestros emprendedores ganan $500-2000 dólares mensuales vendiendo ficha
       'Claves de respuestas incluidas',
     ],
     ctaText: 'Comenzar Ahora',
-    guaranteeText: 'Garantía de devolución de 30 días',
   },
 
   // Related Apps - FULL text from word-scramble.md related sections

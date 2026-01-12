@@ -422,7 +422,6 @@ ESL lærere i Norge bruker verktøyet til å lage arbeidsark gratis for nyankomn
       'Fasit inkludert',
     ],
     ctaText: 'Start Nå',
-    guaranteeText: '30 dagers pengene-tilbake-garanti',
   },
 
   // Related Apps - From matching.md "Kombiner" section

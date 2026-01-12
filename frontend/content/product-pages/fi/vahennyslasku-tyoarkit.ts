@@ -436,7 +436,6 @@ Kilpailijat veloittavat $100-200 vuodessa kaupallisista oikeuksista erikseen. T�
       'Kaikki 33 generaattoria',
     ],
     ctaText: 'Aloita Luominen Nyt',
-    guaranteeText: '30 päivän rahat takaisin -takuu',
   },
 
   // Related Apps

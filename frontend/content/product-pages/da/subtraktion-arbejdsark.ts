@@ -437,7 +437,6 @@ Danske lærere sælger på skandinaviske markeder. Norske og svenske lærere kø
       'Alle 33 apps inkluderet',
     ],
     ctaText: 'Start Nu',
-    guaranteeText: '30 dages pengene-tilbage-garanti',
   },
 
   // Related Apps

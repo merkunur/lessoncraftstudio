@@ -399,7 +399,6 @@ Professores empreendedores monetizam criatividade. Renda extra com atividades ed
       'Gabaritos incluídos',
     ],
     ctaText: 'Comece Agora',
-    guaranteeText: 'Garantia de reembolso de 30 dias',
   },
 
   // Related Apps

@@ -443,7 +443,6 @@ L'abbonamento Accesso Completo costa 240 euro annuali. Include tutti i 33 genera
       'Gettoni chiamata inclusi',
     ],
     ctaText: 'Inizia Ora',
-    guaranteeText: 'Garanzia soddisfatti o rimborsati 30 giorni',
   },
 
   // Related Apps Section

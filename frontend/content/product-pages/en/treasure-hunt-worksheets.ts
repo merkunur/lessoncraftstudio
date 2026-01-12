@@ -301,7 +301,6 @@ This treasure hunt generator creates unique worksheets every time you click gene
       'Two direction modes',
     ],
     ctaText: 'Start Creating Now',
-    guaranteeText: '30-day money-back guarantee',
   },
 
   // Related Apps

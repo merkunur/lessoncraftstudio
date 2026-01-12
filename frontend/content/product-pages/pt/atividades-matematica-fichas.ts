@@ -440,7 +440,6 @@ Crie pacotes completos para venda. Combine atividades vogais com exercícios num
       'Gabaritos incluídos',
     ],
     ctaText: 'Comece Agora',
-    guaranteeText: 'Garantia de reembolso de 30 dias',
   },
 
   // Related Apps

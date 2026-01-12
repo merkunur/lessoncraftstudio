@@ -417,7 +417,6 @@ Amazon KDP aceita livros de atividades em PDF. Compile diversos bingos temático
       'Fichas de sorteio incluídas',
     ],
     ctaText: 'Comece Agora',
-    guaranteeText: 'Garantia de reembolso de 30 dias',
   },
 
   // Related Apps

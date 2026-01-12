@@ -471,7 +471,6 @@ Kombinera flera svårighetsgrader i samma paket. "25 Djur-målarbilder Barn - F�
       '300 DPI utskriftskvalitet',
     ],
     ctaText: 'Börja Skapa Nu',
-    guaranteeText: '30 dagars pengarna-tillbaka-garanti',
   },
 
   // Related Apps

@@ -484,7 +484,6 @@ De commerciële licentie dekt ook bundel in curricula. Schrijf een complete "Vro
       'Alle 33 generators beschikbaar',
     ],
     ctaText: 'Nu Starten',
-    guaranteeText: '30 dagen geld-terug-garantie',
   },
 
   // Related Apps

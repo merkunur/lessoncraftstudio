@@ -450,7 +450,6 @@ La calidad profesional de 300 DPI asegura reseñas positivas de clientes. Los co
       'Hojas de respuestas incluidas',
     ],
     ctaText: 'Comenzar Ahora',
-    guaranteeText: 'Garantía de devolución de 30 días',
   },
 
   // Related Apps - FULL text from sudoku.md related sections

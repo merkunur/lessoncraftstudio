@@ -411,7 +411,6 @@ Les marchés de niche paient des prix premium pour des fiches alphabet spéciali
       'Corrigés inclus',
     ],
     ctaText: 'Commencer Maintenant',
-    guaranteeText: 'Garantie satisfait ou remboursé 30 jours',
   },
 
   // Related Apps

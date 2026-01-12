@@ -466,7 +466,6 @@ Rechnen 1. Klasse Materialien mit Rasterzeichnen sind besonders gefragt. Die Kom
       'Lösungsblätter inklusive',
     ],
     ctaText: 'Jetzt Erstellen',
-    guaranteeText: '30 Tage Geld-zurück-Garantie',
   },
 
   // Related Apps - Apps that work well with draw-and-color

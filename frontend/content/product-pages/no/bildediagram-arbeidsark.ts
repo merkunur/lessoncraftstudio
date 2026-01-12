@@ -425,7 +425,6 @@ Lag sesongbaserte produktpakker med bildediagram som kjerne. Høstpakke med bild
       'Alle 33 verktøy inkludert',
     ],
     ctaText: 'Start Nå',
-    guaranteeText: '30 dagers pengene-tilbake-garanti',
   },
 
   // Related Apps - From chart-count.md "Kombiner" section

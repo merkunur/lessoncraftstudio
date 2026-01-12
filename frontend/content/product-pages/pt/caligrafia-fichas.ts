@@ -351,7 +351,6 @@ O investimento se paga rapidamente com as primeiras vendas. Uma assinatura Acess
       'Qualidade 300 DPI para impressão profissional',
     ],
     ctaText: 'Assinar Agora',
-    guaranteeText: 'Garantia de 30 dias - devolução total',
   },
 
   // FAQ Section - FULL text from writing.md FAQ section

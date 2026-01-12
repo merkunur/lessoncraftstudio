@@ -438,7 +438,6 @@ Combineer woordzoekers met andere werkbladen tot pakketten. Een thema-bundel met
       'Antwoordbladen inbegrepen',
     ],
     ctaText: 'Nu Starten',
-    guaranteeText: '30 dagen geld-terug-garantie',
   },
 
   // Related Apps

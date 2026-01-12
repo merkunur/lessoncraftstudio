@@ -414,7 +414,6 @@ Personalize dificuldade conforme necessidade individual. Comece com instruções
       'Gabaritos incluídos',
     ],
     ctaText: 'Comece Agora',
-    guaranteeText: 'Garantia de reembolso de 30 dias',
   },
 
   // Related Apps

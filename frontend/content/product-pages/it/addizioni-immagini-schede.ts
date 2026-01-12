@@ -447,7 +447,6 @@ Sviluppa unità tematiche multidisciplinari complete. Settimana oceano: addizion
       'Qualità stampa 300 DPI',
     ],
     ctaText: 'Inizia Ora',
-    guaranteeText: 'Garanzia soddisfatti o rimborsati 30 giorni',
   },
 
   // Related Apps Section

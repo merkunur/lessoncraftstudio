@@ -434,7 +434,6 @@ Brug Pinterest til at markedsføre dine opgaver. Danske forældre søger "opgave
       'Facitark inkluderet',
     ],
     ctaText: 'Start Nu',
-    guaranteeText: '30 dages pengene-tilbage-garanti',
   },
 
   // Related Apps

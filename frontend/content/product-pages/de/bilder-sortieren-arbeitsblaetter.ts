@@ -467,7 +467,6 @@ Das Vollzugriff Abonnement für 240 Euro jährlich amortisiert sich schnell. Ber
       'Lösungsblätter inklusive',
     ],
     ctaText: 'Jetzt Erstellen',
-    guaranteeText: '30-Tage-Geld-zurück-Garantie',
   },
 };
 

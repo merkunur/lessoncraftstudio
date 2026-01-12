@@ -426,7 +426,6 @@ De professionele 300 DPI kwaliteit onderscheidt jouw producten. Geen watermerken
       '300 DPI afdrukkwaliteit',
     ],
     ctaText: 'Nu Starten',
-    guaranteeText: '30 dagen geld-terug-garantie',
   },
 
   // Related Apps

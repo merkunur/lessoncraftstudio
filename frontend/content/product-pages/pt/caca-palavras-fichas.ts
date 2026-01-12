@@ -448,7 +448,6 @@ Professores faturam de R$500 a R$5.000 por mês. Alguns transformaram em renda p
       'Gabaritos incluídos',
     ],
     ctaText: 'Comece Agora',
-    guaranteeText: 'Garantia de reembolso de 30 dias',
   },
 
   // Related Apps

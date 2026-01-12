@@ -447,7 +447,6 @@ Les fiches de tables de multiplication utilisent les images de quantités. Group
       '8 modèles de tracé différents',
     ],
     ctaText: 'Commencer Maintenant',
-    guaranteeText: 'Garantie satisfait ou remboursé 30 jours',
   },
 
   // Related Apps - From drawing-lines.md Section 7

@@ -445,7 +445,6 @@ Combina trova l'intruso con disegni da colorare in prodotti ibridi. Metà pagina
       'Chiavi di risposta incluse',
     ],
     ctaText: 'Inizia a Creare Ora',
-    guaranteeText: 'Garanzia soddisfatti o rimborsati 30 giorni',
   },
 
   // Related Apps Section

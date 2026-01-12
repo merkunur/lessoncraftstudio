@@ -510,7 +510,6 @@ Gebruik Pinterest marketing om verkoop te boosten. Pin voorbeeld werkbladen naar
       'Antwoordbladen inbegrepen',
     ],
     ctaText: 'Nu Starten',
-    guaranteeText: '30 dagen geld-terug-garantie',
   },
 
   // Related Apps

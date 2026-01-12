@@ -372,7 +372,6 @@ Avere chiavi delle risposte risparmia tempo enorme durante correzioni. Non devi 
       'Chiavi di risposta automatiche',
     ],
     ctaText: 'Inizia Ora',
-    guaranteeText: 'Garanzia soddisfatti o rimborsati 30 giorni',
   },
 
   // Related Apps Section

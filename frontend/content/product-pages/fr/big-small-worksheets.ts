@@ -512,7 +512,6 @@ Créez vos propres thèmes en important des images. Les tables de multiplication
       'Clés de correction automatiques',
     ],
     ctaText: 'Commencer Maintenant',
-    guaranteeText: 'Garantie satisfait ou remboursé 30 jours',
   },
 
   // Related Apps - From big-small.md Section 7

@@ -349,7 +349,6 @@ Unser Bilder-Bingo-Generator erstellt zwei druckbare Arbeitsblätter bei jeder G
       '10 einzigartige Bingo-Karten auf einmal',
     ],
     ctaText: 'Jetzt Erstellen',
-    guaranteeText: '30 Tage Geld-zurück-Garantie',
   },
 
   // Related Apps - FULL text from bilder-bingo.md combine apps section

@@ -487,7 +487,6 @@ Combinez fiches pour apprendre à lire et activités de coloriage à imprimer po
       'Corrigés automatiques inclus',
     ],
     ctaText: 'Commencer Maintenant',
-    guaranteeText: 'Garantie satisfait ou remboursé 30 jours',
   },
 
   // Related Apps - From matching.md Section 7

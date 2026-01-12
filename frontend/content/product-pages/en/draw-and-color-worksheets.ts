@@ -378,7 +378,6 @@ Successful sellers earn $500-$5000 monthly from worksheet sales. Generate hundre
       'All 33 worksheet generators',
     ],
     ctaText: 'Start Creating Now',
-    guaranteeText: '30-day money-back guarantee',
   },
 
   // Related Apps

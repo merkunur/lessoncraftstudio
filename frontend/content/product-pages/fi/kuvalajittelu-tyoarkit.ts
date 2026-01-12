@@ -445,7 +445,6 @@ Yhdistä eri tehtävätyyppejä. Kuvalajittelu + värityskuvia lapsille tulostet
       'Kaikki 33 generaattoria',
     ],
     ctaText: 'Aloita Luominen Nyt',
-    guaranteeText: '30 päivän rahat takaisin -takuu',
   },
 
   // Related Apps

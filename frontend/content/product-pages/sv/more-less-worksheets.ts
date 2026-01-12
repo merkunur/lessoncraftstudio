@@ -436,7 +436,6 @@ Exportera i högkvalitativ PDF för professionella produkter. 300 DPI-kvaliteten
       'Facit ingår',
     ],
     ctaText: 'Börja Skapa Nu',
-    guaranteeText: '30 dagars pengarna-tillbaka-garanti',
   },
 
   // Related Apps

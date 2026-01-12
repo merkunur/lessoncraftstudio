@@ -463,7 +463,6 @@ Lag sesongspesifikke bildlottoer. September: tilbake-til-skolen bildlotto. Oktob
       '1-10 unike kort per generering',
     ],
     ctaText: 'Start Nå',
-    guaranteeText: '30 dagers pengene-tilbake-garanti',
   },
 
   // Related Apps - From bingo.md "Kombiner" section

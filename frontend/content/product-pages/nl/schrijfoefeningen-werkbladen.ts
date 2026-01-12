@@ -482,7 +482,6 @@ Volledige Toegang commerciële licentie kost €240 per jaar totaal. Geen extra 
       '300 DPI afdrukkwaliteit',
     ],
     ctaText: 'Nu Starten',
-    guaranteeText: '30 dagen geld-terug-garantie',
   },
 
   // Related Apps

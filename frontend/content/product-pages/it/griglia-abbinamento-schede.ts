@@ -444,7 +444,6 @@ L'abbonamento include supporto in 11 lingue, biblioteca di 3000+ immagini, quali
       'Soluzioni incluse',
     ],
     ctaText: 'Inizia Ora',
-    guaranteeText: 'Garanzia soddisfatti o rimborsati 30 giorni',
   },
 
   // Related Apps Section

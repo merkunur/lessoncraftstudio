@@ -506,7 +506,6 @@ Crea productos de nicho para mayores ganancias. "Fichas Bilingües Español-Ingl
       '10 generadores de fichas populares',
     ],
     ctaText: 'Comenzar Ahora',
-    guaranteeText: 'Garantía de devolución de 30 días',
   },
 
   // Related Apps

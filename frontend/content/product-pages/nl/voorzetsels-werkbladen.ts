@@ -433,7 +433,6 @@ Bouw passief inkomen met digitale downloads. Maak eenmaal 20 verschillende voorz
       '300 DPI afdrukkwaliteit',
     ],
     ctaText: 'Nu Starten',
-    guaranteeText: '30 dagen geld-terug-garantie',
   },
 
   // Related Apps

@@ -429,7 +429,6 @@ De 300 DPI kwaliteit is verkoopklaar. Geen extra bewerking nodig. Download als P
       'Antwoordbladen inbegrepen',
     ],
     ctaText: 'Nu Starten',
-    guaranteeText: '30 dagen geld-terug-garantie',
   },
 
   // Related Apps

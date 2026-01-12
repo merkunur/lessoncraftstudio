@@ -444,7 +444,6 @@ Choisissez un thème comme les animaux ou les véhicules. L'écriture cursive de
       'Clés de correction automatiques',
     ],
     ctaText: 'Commencer Maintenant',
-    guaranteeText: 'Garantie satisfait ou remboursé 30 jours',
   },
 
   // Related Apps - From code-addition.md Section 7

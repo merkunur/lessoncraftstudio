@@ -432,7 +432,6 @@ La licencia POD incluida permite vender fichas gratis sin restricciones. No paga
       'Acceso a los 33 generadores',
     ],
     ctaText: 'Comenzar Ahora',
-    guaranteeText: 'Garantía de devolución de 30 días',
   },
 
   // Related Apps - FULL text from pattern-train.md related sections

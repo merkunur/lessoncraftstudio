@@ -460,7 +460,6 @@ Yhdistä kuviojuna muihin tehtäviin kattaviksi paketeiksi. Myy "Talven Matemati
       'Kaikki 33 työkalua käytettävissä',
     ],
     ctaText: 'Aloita Luominen Nyt',
-    guaranteeText: '30 päivän rahat takaisin -takuu',
   },
 
   // Related Apps

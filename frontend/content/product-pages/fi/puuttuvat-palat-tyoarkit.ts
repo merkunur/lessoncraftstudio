@@ -422,7 +422,6 @@ Täysi Käyttöoikeus -tilaus sisältää kaupalliset käyttöoikeudet. Ei lisä
       'Kaikki 33 työkalua käytettävissä',
     ],
     ctaText: 'Aloita Luominen Nyt',
-    guaranteeText: '30 päivän rahat takaisin -takuu',
   },
 
   // Related Apps

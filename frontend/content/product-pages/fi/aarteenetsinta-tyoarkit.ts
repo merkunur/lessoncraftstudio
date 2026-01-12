@@ -421,7 +421,6 @@ Luo temaattisia paketteja korkeampaan myyntihintaan. Eläinteemainen paketti 10 
       'Kaikki 33 generaattoria',
     ],
     ctaText: 'Aloita Luominen Nyt',
-    guaranteeText: '30 päivän rahat takaisin -takuu',
   },
 
   // Related Apps

@@ -409,7 +409,6 @@ Kjernepakke inkluderer full kommersiell lisens for kr 1 075 årlig. Eksporter i 
       'Fasit inkludert',
     ],
     ctaText: 'Start Nå',
-    guaranteeText: '30 dagers pengene-tilbake-garanti',
   },
 
   // Related Apps - From addition.md "Kombiner" section

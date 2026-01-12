@@ -303,7 +303,6 @@ Generate crossword puzzles in 11 languages including English, Spanish, French, G
       'Automatic answer keys',
     ],
     ctaText: 'Start Creating Now',
-    guaranteeText: '30-day money-back guarantee',
   },
 
   // Related Apps

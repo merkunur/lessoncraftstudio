@@ -367,7 +367,6 @@ Full Tillgång-prenumerationen inkluderar kommersiell licens för utskrift-på-b
       '2 övningslägen: Skuggmatchning & Gör det helt',
     ],
     ctaText: 'Börja Skapa Nu',
-    guaranteeText: '30 dagars pengarna-tillbaka-garanti',
   },
 
   // Related Apps

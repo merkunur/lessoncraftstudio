@@ -439,7 +439,6 @@ Kombiner med bokstaver lære skrive, lesetrening og finmotorikk øvelser for tve
       'Fasit inkludert',
     ],
     ctaText: 'Start Nå',
-    guaranteeText: '30 dagers pengene-tilbake-garanti',
   },
 
   // Related Apps - From more-less.md "Kombiner" section

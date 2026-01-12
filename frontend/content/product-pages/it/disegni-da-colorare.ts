@@ -451,7 +451,6 @@ La libreria di 3000+ immagini copre tutti i temi educativi. Animali per scienze.
       '10 generatori inclusi',
     ],
     ctaText: 'Inizia Ora',
-    guaranteeText: 'Garanzia soddisfatti o rimborsati 30 giorni',
   },
 
   // Related Apps Section

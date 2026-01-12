@@ -363,7 +363,6 @@ Téléchargez vos fiches en format JPEG ou PDF. L'option niveau de gris permet d
       'Corrigés inclus',
     ],
     ctaText: 'Commencer à Créer',
-    guaranteeText: 'Garantie satisfait ou remboursé 30 jours',
   },
 
   // Related Apps - French translations

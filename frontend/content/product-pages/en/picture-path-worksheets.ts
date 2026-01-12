@@ -317,7 +317,6 @@ The picture path worksheet maker works perfectly for differentiated instruction 
       '3 maze game modes',
     ],
     ctaText: 'Start Creating Now',
-    guaranteeText: '30-day money-back guarantee',
   },
 
   // Related Apps

@@ -368,7 +368,6 @@ Genera de 1 a 8 ejercicios por hoja según las necesidades de tu clase. Elige en
       'Acceso a los 33 generadores',
     ],
     ctaText: 'Comenzar Ahora',
-    guaranteeText: 'Garantía de devolución de 30 días',
   },
 
   // Related Apps Section

@@ -419,7 +419,6 @@ La calidad profesional de 300 DPI y formatos PDF hacen que tus productos compita
       'Sube tus propias imágenes',
     ],
     ctaText: 'Comenzar a Crear Ahora',
-    guaranteeText: 'Garantía de devolución de 30 días',
   },
 
   // Related Apps - In Spanish

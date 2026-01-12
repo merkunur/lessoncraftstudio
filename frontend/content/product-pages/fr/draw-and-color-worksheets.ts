@@ -414,7 +414,6 @@ Les vendeurs réussis gagnent 500€-5000€ mensuellement des ventes de fiches.
       'Export PDF et JPEG',
     ],
     ctaText: 'Commencer Maintenant',
-    guaranteeText: 'Garantie satisfait ou remboursé 30 jours',
   },
 
   // Related Apps

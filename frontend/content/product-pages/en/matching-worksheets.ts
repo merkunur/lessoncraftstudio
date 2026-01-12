@@ -325,7 +325,6 @@ Your Core Bundle subscription includes complete access to all visual materials. 
       'Answer keys included',
     ],
     ctaText: 'Start Creating Now',
-    guaranteeText: '30-day money-back guarantee',
   },
 
   // Related Apps

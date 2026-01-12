@@ -385,7 +385,6 @@ Multiplikationstabellen arbetsblad är mycket populära produkter. Klockan lära
       'Facit ingår',
     ],
     ctaText: 'Börja Skapa Nu',
-    guaranteeText: '30 dagars pengarna-tillbaka-garanti',
   },
 
   // Related Apps

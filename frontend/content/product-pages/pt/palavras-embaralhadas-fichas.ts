@@ -427,7 +427,6 @@ A qualidade profissional de 300 DPI garante produtos competitivos no mercado. Ex
       'Gabaritos incluídos',
     ],
     ctaText: 'Comece Agora',
-    guaranteeText: 'Garantia de reembolso de 30 dias',
   },
 
   // Related Apps

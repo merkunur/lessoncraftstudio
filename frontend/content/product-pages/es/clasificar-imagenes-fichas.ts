@@ -359,7 +359,6 @@ Tu suscripción Acceso Completo incluye licencia comercial completa. Vende tus f
       'Acceso a los 33 generadores',
     ],
     ctaText: 'Comenzar Ahora',
-    guaranteeText: 'Garantía de devolución de 30 días',
   },
 
   // Related Apps Section

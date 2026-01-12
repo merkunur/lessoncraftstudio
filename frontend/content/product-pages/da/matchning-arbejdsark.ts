@@ -472,7 +472,6 @@ Upload billeder med kulturel relevans for forskellige elevgrupper. Lav kopiark d
       'Facitark inkluderet',
     ],
     ctaText: 'Start Nu',
-    guaranteeText: '30 dages pengene-tilbage-garanti',
   },
 
   // Related Apps

@@ -432,7 +432,6 @@ Combineer zoekwerkbladen met kleurplaten in je webshop. Maak thematische bundels
       'Antwoordbladen inbegrepen',
     ],
     ctaText: 'Nu Starten',
-    guaranteeText: '30 dagen geld-terug-garantie',
   },
 
   // Related Apps

@@ -567,7 +567,6 @@ Los maestros de educación temática aprecian particularmente esta flexibilidad.
       'Exportación de 300 DPI',
     ],
     ctaText: 'Comenzar Ahora',
-    guaranteeText: 'Garantía de devolución de 30 días',
   },
 };
 

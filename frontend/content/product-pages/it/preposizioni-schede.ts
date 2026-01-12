@@ -436,7 +436,6 @@ Crea unità tematiche interdisciplinari. Combina preposizioni con pregrafismo pe
       'Chiavi di risposta automatiche',
     ],
     ctaText: 'Inizia Ora',
-    guaranteeText: 'Garanzia soddisfatti o rimborsati 30 giorni',
   },
 
   // Related Apps Section

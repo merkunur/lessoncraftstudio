@@ -491,7 +491,6 @@ Thematische eenheden profiteren van cryptogram integratie. Maak puzzels over sei
     priceInterval: '/jaar',
     priceSuffix: 'Jaarlijks gefactureerd',
     ctaText: 'Nu Starten',
-    guaranteeText: '30 dagen geld-terug-garantie',
     benefits: [
       'Alle 33 werkblad generatoren',
       'Onbeperkte downloads',

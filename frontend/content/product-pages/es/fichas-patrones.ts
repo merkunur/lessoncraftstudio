@@ -580,7 +580,6 @@ Descarga "Ficha" y "Clave de Respuestas" en JPEG o PDF. Cuatro archivos totales 
       'Acceso a los 33 generadores',
     ],
     ctaText: 'Comenzar Ahora',
-    guaranteeText: 'Garantía de devolución de 30 días',
   },
 };
 

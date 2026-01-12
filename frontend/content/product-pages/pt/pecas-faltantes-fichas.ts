@@ -393,7 +393,6 @@ Crie pacotes temáticos com 10-20 atividades relacionadas. Adicione exercícios 
       'Acesso a todos os 33 geradores',
     ],
     ctaText: 'Comece Agora',
-    guaranteeText: 'Garantia de reembolso de 30 dias',
   },
 
   // Related Apps

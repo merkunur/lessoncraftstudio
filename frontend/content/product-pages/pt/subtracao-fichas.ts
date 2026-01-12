@@ -409,7 +409,6 @@ Atividades de matemática vendem muito bem online. Tabuada ilustrada atrai pais 
       'Gabaritos incluídos',
     ],
     ctaText: 'Comece Agora',
-    guaranteeText: 'Garantia de reembolso de 30 dias',
   },
 
   // Related Apps

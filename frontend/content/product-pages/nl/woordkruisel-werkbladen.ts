@@ -435,7 +435,6 @@ Combineer woordkruisels met kleurplaten tot complete pakketten. Een thema-bundel
       'Volledig bewerkbaar canvas',
     ],
     ctaText: 'Nu Starten',
-    guaranteeText: '30 dagen geld-terug-garantie',
   },
 
   // Related Apps

@@ -451,7 +451,6 @@ Erstellen Sie Produkte mit Einmaleins und Rechnen lernen Inhalten für Mathe-fok
       'Lösungsblätter inklusive',
     ],
     ctaText: 'Jetzt Erstellen',
-    guaranteeText: '30 Tage Geld-zurück-Garantie',
   },
 
   // Related Apps - FULL text from matching.md combine apps section

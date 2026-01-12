@@ -414,7 +414,6 @@ O Grid Match produz materiais diferenciados da concorrência. Poucos geradores o
       'Qualidade de impressão 300 DPI',
     ],
     ctaText: 'Comece Agora',
-    guaranteeText: 'Garantia de reembolso de 30 dias',
   },
 
   // Related Apps

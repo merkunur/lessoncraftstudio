@@ -407,7 +407,6 @@ La calidad de 300 DPI es perfecta para productos digitales. Los compradores reci
       'Hojas de llamadas incluidas',
     ],
     ctaText: 'Comenzar Ahora',
-    guaranteeText: 'Garantía de devolución de 30 días',
   },
 
   // Related Apps - FULL text from bingo.md related sections

@@ -404,7 +404,6 @@ Maak unieke grid match bundels per thema. Seizoensgebonden puzzelpakketten verko
       '300 DPI afdrukkwaliteit',
     ],
     ctaText: 'Nu Starten',
-    guaranteeText: '30 dagen geld-terug-garantie',
   },
 
   // Related Apps

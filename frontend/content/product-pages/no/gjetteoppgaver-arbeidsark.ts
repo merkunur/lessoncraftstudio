@@ -458,7 +458,6 @@ Tradisjonell produksjon tar 30-60 minutter. Finn bilder, design layout, lag oppg
       'Over 3000 barnvennlige bilder',
     ],
     ctaText: 'Start Gratis Prøveperiode',
-    guaranteeText: '30 dagers pengene-tilbake-garanti',
   },
 };
 

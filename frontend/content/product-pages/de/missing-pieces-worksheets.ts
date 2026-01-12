@@ -467,7 +467,6 @@ Bauen Sie charakteristische Produktlinien mit konsistentem Branding auf. Laden S
       'Lösungsblätter inklusive',
     ],
     ctaText: 'Jetzt Erstellen',
-    guaranteeText: '30 Tage Geld-zurück-Garantie',
   },
 
   // Related Apps - Apps that work well with missing-pieces

@@ -306,7 +306,6 @@ The worksheet maker offers flexible comparison modes including image-to-image co
       'Answer keys included',
     ],
     ctaText: 'Start Creating Now',
-    guaranteeText: '30-day money-back guarantee',
   },
 
   // Related Apps

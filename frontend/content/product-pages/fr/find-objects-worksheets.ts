@@ -414,7 +414,6 @@ Téléversez des graphiques personnalisés pour créer des produits uniques que 
       'Corrigés inclus',
     ],
     ctaText: 'Commencer Maintenant',
-    guaranteeText: 'Garantie satisfait ou remboursé 30 jours',
   },
 
   // Related Apps

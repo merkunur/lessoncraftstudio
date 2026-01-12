@@ -443,7 +443,6 @@ Tidsbaserade teman säljer också bra. Skapa "klockan lära sig" kombinationspak
       'Facit ingår',
     ],
     ctaText: 'Börja Skapa Nu',
-    guaranteeText: '30 dagars pengarna-tillbaka-garanti',
   },
 
   // Related Apps

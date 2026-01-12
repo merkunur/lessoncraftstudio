@@ -431,7 +431,6 @@ De mest succesfulde sælgere laver konsistente, højkvalitets materialer. Brug p
       'Facitark inkluderet',
     ],
     ctaText: 'Start Nu',
-    guaranteeText: '30 dages pengene-tilbage-garanti',
   },
 
   // Related Apps

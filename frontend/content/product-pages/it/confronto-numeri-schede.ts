@@ -416,7 +416,6 @@ Il mercato italiano di schede didattiche sta crescendo significativamente. Molti
       'Chiavi di risposta incluse',
     ],
     ctaText: 'Inizia a Creare Ora',
-    guaranteeText: 'Garanzia soddisfatti o rimborsati 30 giorni',
   },
 
   // Related Apps Section

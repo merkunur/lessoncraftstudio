@@ -499,7 +499,6 @@ Kombiner mønsterarbeidsark med fagundervisning. Bruk gangetabellen for matemati
     priceInterval: '/år',
     priceSuffix: 'Faktureres årlig',
     ctaText: 'Start Nå',
-    guaranteeText: '30 dagers pengene-tilbake-garanti',
     benefits: [
       'Alle 33 arbeidsarkgeneratorer',
       'Ubegrenset opprettelse av arbeidsark',

@@ -388,7 +388,6 @@ Maak complete alfabetpakketten voor verschillende thema's. Seizoenspakketten voo
       'Antwoordbladen inbegrepen',
     ],
     ctaText: 'Nu Starten',
-    guaranteeText: '30 dagen geld-terug-garantie',
   },
 
   // Related Apps

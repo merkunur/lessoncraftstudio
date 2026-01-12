@@ -312,7 +312,6 @@ Generate worksheets in 11 languages including English, Spanish, French, and Germ
       'Answer keys included',
     ],
     ctaText: 'Start Creating Now',
-    guaranteeText: '30-day money-back guarantee',
   },
 
   // Related Apps

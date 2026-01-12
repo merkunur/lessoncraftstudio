@@ -496,7 +496,6 @@ Pinterest genera tráfico masivo hacia tus productos. Crea pines mostrando ejemp
       'Acceso a los 33 generadores',
     ],
     ctaText: 'Comenzar Ahora',
-    guaranteeText: 'Garantía de devolución de 30 días',
   },
 
   // Related Apps

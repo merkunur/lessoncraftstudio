@@ -424,7 +424,6 @@ Crea productos digitales descargables para Etsy. Sopas de letras imprimibles lis
       'Hojas de respuestas incluidas',
     ],
     ctaText: 'Comenzar Ahora',
-    guaranteeText: 'Garantía de devolución de 30 días',
   },
 
   // Related Apps

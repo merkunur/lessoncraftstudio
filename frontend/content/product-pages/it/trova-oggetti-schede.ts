@@ -445,7 +445,6 @@ La versatilità di 33 generatori rende l'abbonamento un eccellente investimento.
       'Tutti i 33 generatori',
     ],
     ctaText: 'Inizia Ora',
-    guaranteeText: 'Garanzia soddisfatti o rimborsati 30 giorni',
   },
 
   // Related Apps Section

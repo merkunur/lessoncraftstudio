@@ -440,7 +440,6 @@ Eksporter alt i 300 DPI profesjonell kvalitet. Kunder forventer skarpe, klare ut
       '8 linjemaler inkludert',
     ],
     ctaText: 'Start Nå',
-    guaranteeText: '30 dagers pengene-tilbake-garanti',
   },
 
   // Related Apps - From drawing-lines.md "Kombiner" section

@@ -387,7 +387,6 @@ Säljare genererar 10-20 unika arbetsblad per timme. En mångsidig produktlinje 
       '300 DPI utskriftskvalitet',
     ],
     ctaText: 'Börja Skapa Nu',
-    guaranteeText: '30 dagars pengarna-tillbaka-garanti',
   },
 
   // Related Apps

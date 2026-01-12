@@ -426,7 +426,6 @@ Skapa återkommande inkomst med populära teman. Addition och subtraktion arbets
       'Facit ingår',
     ],
     ctaText: 'Börja Skapa Nu',
-    guaranteeText: '30 dagars pengarna-tillbaka-garanti',
   },
 
   // Related Apps

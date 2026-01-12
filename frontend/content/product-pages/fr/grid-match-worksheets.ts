@@ -465,7 +465,6 @@ Modifiez le puzzle grille pour les élèves ayant des déficiences visuelles en 
       '33 types de générateurs',
     ],
     ctaText: 'Commencer Maintenant',
-    guaranteeText: 'Garantie satisfait ou remboursé 30 jours',
   },
 
   // Related Apps - Combined with other apps from grid-match.md Section 7

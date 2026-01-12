@@ -441,7 +441,6 @@ Professionel 300 DPI-kvalitet sikrer, at dine produkter ser perfekte ud. Bundle 
       'Facitark inkluderet',
     ],
     ctaText: 'Start Nu',
-    guaranteeText: '30 dages pengene-tilbage-garanti',
   },
 
   // Related Apps

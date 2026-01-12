@@ -393,7 +393,6 @@ Selg matematikk oppgaver bunter for gangetabellen, addisjon og subtraksjon. Seso
       'Fasit inkludert',
     ],
     ctaText: 'Start Nå',
-    guaranteeText: '30 dagers pengene-tilbake-garanti',
   },
 
   // Related Apps - From picture-path.md "Kombinér" section

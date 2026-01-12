@@ -386,7 +386,6 @@ Lag tematiske oppgavehefter barn for sesongbasert salg. Kombiner skattejakter me
       'Fasit inkludert',
     ],
     ctaText: 'Start Nå',
-    guaranteeText: '30 dagers pengene-tilbake-garanti',
   },
 
   // Related Apps

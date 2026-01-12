@@ -464,7 +464,6 @@ Monet opettajat tienaavat 500-3000 euroa kuukaudessa. Aloita pienellä tuotevali
       'Kaikki 33 generaattoria',
     ],
     ctaText: 'Aloita Luominen Nyt',
-    guaranteeText: '30 päivän rahat takaisin -takuu',
   },
 
   // Related Apps

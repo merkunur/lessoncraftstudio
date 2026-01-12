@@ -546,7 +546,6 @@ Für die Einmaleins Vorbereitung empfehlen wir vier bis sechs Übungen pro Blatt
       'Lösungsblätter inklusive',
     ],
     ctaText: 'Jetzt Erstellen',
-    guaranteeText: '30-Tage-Geld-zurück-Garantie',
   },
 };
 

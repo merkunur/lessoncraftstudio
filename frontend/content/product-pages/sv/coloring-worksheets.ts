@@ -437,7 +437,6 @@ Grundpaketet inkluderar kommersiell licens för målarbilder barn. Sälj dina m�
       'JPEG och PDF-export',
     ],
     ctaText: 'Börja Skapa Nu',
-    guaranteeText: '30 dagars pengarna-tillbaka-garanti',
   },
 
   // Related Apps

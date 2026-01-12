@@ -517,7 +517,6 @@ Lataa omia ainekohtaisia kuvia aiheille, joita ei kata kirjasto. Tieteen opettaj
       'Kaikki 33 työkalua käytettävissä',
     ],
     ctaText: 'Aloita Luominen Nyt',
-    guaranteeText: '30 päivän rahat takaisin -takuu',
   },
 };
 

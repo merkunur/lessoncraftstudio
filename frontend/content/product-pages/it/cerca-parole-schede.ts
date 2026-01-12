@@ -424,7 +424,6 @@ Amazon KDP permette pubblicazione di libri di crucipuzzle. Crea 100 crucipuzzle 
       'Soluzioni incluse',
     ],
     ctaText: 'Inizia Ora',
-    guaranteeText: 'Garanzia soddisfatti o rimborsati 30 giorni',
   },
 
   // Related Apps

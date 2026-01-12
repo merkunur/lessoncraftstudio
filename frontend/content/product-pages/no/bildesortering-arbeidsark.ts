@@ -420,7 +420,6 @@ Eksporter alt i 300 DPI profesjonell kvalitet. Kunder forventer skarpe, klare ut
       'Alle 33 arbeidsarkgeneratorer',
     ],
     ctaText: 'Start Nå',
-    guaranteeText: '30 dagers pengene-tilbake-garanti',
   },
 
   // Related Apps - From picture-sort.md "Kombiner" section

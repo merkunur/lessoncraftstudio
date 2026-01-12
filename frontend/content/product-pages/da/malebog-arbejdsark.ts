@@ -437,7 +437,6 @@ Brug søgeord optimering i dine produkt beskrivelser. "Gratis skoleopgaver", "ar
       'Alle rammer og baggrunde',
     ],
     ctaText: 'Start Nu',
-    guaranteeText: '30 dages pengene-tilbage-garanti',
   },
 
   // Related Apps

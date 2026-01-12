@@ -462,7 +462,6 @@ Pinterest-markkinointi toimii hyvin tulostettavien tehtävien kanssa. Luo kaunii
       'Vastausavaimet sisältyvät',
     ],
     ctaText: 'Aloita Luominen Nyt',
-    guaranteeText: '30 päivän rahat takaisin -takuu',
   },
 
   // Related Apps

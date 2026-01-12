@@ -464,7 +464,6 @@ L'abbonamento Accesso Completo costa 240 dollari annuali. Include tutti i 33 gen
       'Soluzioni incluse',
     ],
     ctaText: 'Inizia Ora',
-    guaranteeText: 'Garanzia soddisfatti o rimborsati 30 giorni',
   },
 
   // Related Apps Section

@@ -444,7 +444,6 @@ Bouw een passief inkomen met telgrafiekenpakketten. Maak thematische bundels voo
       'Antwoordbladen inbegrepen',
     ],
     ctaText: 'Nu Starten',
-    guaranteeText: '30 dagen geld-terug-garantie',
   },
 
   // Related Apps

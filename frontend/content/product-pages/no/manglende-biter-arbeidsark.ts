@@ -461,7 +461,6 @@ Kombiner puslespill med matematikk oppgaver for komplett produkt. Legg til tall 
       '300 DPI utskriftskvalitet',
     ],
     ctaText: 'Start Nå',
-    guaranteeText: '30 dagers pengene-tilbake-garanti',
   },
 
   // Related Apps - From missing-pieces.md "Kombiner" section

@@ -398,7 +398,6 @@ Lag tematiske oppgavehefter barn med fargeleggingsbilder barn og matematikk oppg
       'Last ned som PDF eller JPEG',
     ],
     ctaText: 'Start Nå',
-    guaranteeText: '30 dagers pengene-tilbake-garanti',
   },
 
   // Related Apps

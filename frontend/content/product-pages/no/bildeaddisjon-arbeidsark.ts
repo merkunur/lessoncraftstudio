@@ -323,7 +323,6 @@ Lag tematiske samlinger som "Vår Matematikk Oppgaver" eller "Dyr Addisjon og Su
       'PDF og JPEG eksport',
       'Automatisk fasit-generering',
     ],
-    guaranteeText: '30 dagers pengene-tilbake-garanti',
   },
 
   // FAQ Section - Full text from code-addition.md

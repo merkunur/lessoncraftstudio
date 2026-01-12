@@ -423,7 +423,6 @@ Matematiikka tehtävät alakoulu myyvät erityisen hyvin. Luo kertotaulut tulost
       'Vastausavaimet sisältyvät',
     ],
     ctaText: 'Aloita Luominen Nyt',
-    guaranteeText: '30 päivän rahat takaisin -takuu',
   },
 
   // Related Apps

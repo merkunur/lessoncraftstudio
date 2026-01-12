@@ -449,7 +449,6 @@ Mange lærerentreprenører tjener $500-$5000 månedlig med oppgavehefter barn el
       'Fasit inkludert',
     ],
     ctaText: 'Start Nå',
-    guaranteeText: '30 dagers pengene-tilbake-garanti',
   },
 
   // Related Apps - From cryptogram.md "Kombiner" section

@@ -458,7 +458,6 @@ De 300 DPI kwaliteit is essentieel voor commerciële verkoop. Klanten verwachten
       '8 lijnsjablonen beschikbaar',
     ],
     ctaText: 'Nu Starten',
-    guaranteeText: '30 dagen geld-terug-garantie',
   },
 
   // Related Apps

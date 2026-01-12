@@ -439,7 +439,6 @@ Premium-tilaus sisältää täyden kaupallisen POD-lisenssin. Ei ylimääräisi�
       'Vastausavaimet sisältyvät',
     ],
     ctaText: 'Aloita Luominen Nyt',
-    guaranteeText: '30 päivän rahat takaisin -takuu',
   },
 
   // Related Apps

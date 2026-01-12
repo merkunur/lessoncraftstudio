@@ -422,7 +422,6 @@ Differenzieren Sie Ihre Produkte durch Kombination mit anderen Arbeitsblatt-Type
       'Lösungsblätter inklusive',
     ],
     ctaText: 'Jetzt Erstellen',
-    guaranteeText: '30 Tage Geld-zurück-Garantie',
   },
 
   // Related Apps - Apps that work well with crossword

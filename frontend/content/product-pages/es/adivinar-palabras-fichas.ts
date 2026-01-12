@@ -417,7 +417,6 @@ Teachers Pay Teachers valora especialmente materiales en espanol mexicano autent
       'Acceso a los 33 generadores',
     ],
     ctaText: 'Comenzar Ahora',
-    guaranteeText: 'Garantia de devolucion de 30 dias',
   },
 
   // Related Apps

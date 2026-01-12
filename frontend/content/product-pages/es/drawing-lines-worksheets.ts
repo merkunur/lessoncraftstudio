@@ -408,7 +408,6 @@ Muchos maestros ganan entre $500 y $2,000 mensuales vendiendo solo en Teachers P
       '10 generadores de fichas populares',
     ],
     ctaText: 'Comenzar Ahora',
-    guaranteeText: 'Garantía de devolución de 30 días',
   },
 
   // Related Apps

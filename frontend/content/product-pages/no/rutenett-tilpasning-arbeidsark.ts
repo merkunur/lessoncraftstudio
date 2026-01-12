@@ -394,7 +394,6 @@ Etsy printable-butikker drar nytte av profesjonell 300 DPI kvalitet. Lag sesong-
       'Fasit inkludert',
     ],
     ctaText: 'Start Nå',
-    guaranteeText: '30 dagers pengene-tilbake-garanti',
   },
 
   // Related Apps - From grid-match.md "Kombinér" section

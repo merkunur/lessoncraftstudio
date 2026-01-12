@@ -481,7 +481,6 @@ Ajoutez des consignes d'écriture cursive en utilisant l'outil Texte avec police
       'Corrigés inclus',
     ],
     ctaText: 'Commencer Maintenant',
-    guaranteeText: 'Garantie satisfait ou remboursé 30 jours',
   },
 
   // Related Apps - From picture-sort.md Section 7

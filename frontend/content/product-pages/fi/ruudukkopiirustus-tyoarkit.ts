@@ -555,7 +555,6 @@ Erityisopetuksessa ruudukkopiirustustehtävät toimivat vanhemmillekin oppilaill
       'Täysi muokattavuus',
     ],
     ctaText: 'Tilaa Nyt',
-    guaranteeText: '30 päivän rahat takaisin -takuu',
   },
 };
 

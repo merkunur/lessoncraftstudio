@@ -446,7 +446,6 @@ Monet opettajat tienaavat 500-5000 euroa kuukaudessa. Tilauksesi maksaa itsensä
       'Vastausavaimet sisältyvät',
     ],
     ctaText: 'Aloita Luominen Nyt',
-    guaranteeText: '30 päivän rahat takaisin -takuu',
   },
 
   // Related Apps

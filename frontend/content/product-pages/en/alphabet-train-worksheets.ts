@@ -355,7 +355,6 @@ Etsy printable shops thrive with educational worksheet products. Parents search 
       'Answer keys included',
     ],
     ctaText: 'Start Creating Now',
-    guaranteeText: '30-day money-back guarantee',
   },
 
   // Related Apps

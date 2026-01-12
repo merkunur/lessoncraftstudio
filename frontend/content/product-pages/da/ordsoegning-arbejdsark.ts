@@ -430,7 +430,6 @@ Print-on-demand licensen åbner muligheder. Sælg på Etsy som arbejdsark til pr
       'Facitark inkluderet',
     ],
     ctaText: 'Start Nu',
-    guaranteeText: '30 dages pengene-tilbage-garanti',
   },
 
   // Related Apps

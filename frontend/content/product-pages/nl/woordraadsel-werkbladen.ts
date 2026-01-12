@@ -468,7 +468,6 @@ Maak letters leren werkbladen voor taal. Creëer schrijven oefenen materiaal voo
     priceInterval: '/jaar',
     priceSuffix: 'Jaarlijks gefactureerd',
     ctaText: 'Nu Starten',
-    guaranteeText: '30 dagen geld-terug-garantie',
     benefits: [
       'Alle 33 werkblad generatoren',
       'Onbeperkte downloads',

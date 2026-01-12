@@ -414,7 +414,6 @@ Skapa målarbilder barn versioner för bredare marknad. Diagram som målarbok ti
       'Kommersiell licens ingår',
     ],
     ctaText: 'Börja Skapa Nu',
-    guaranteeText: '30 dagars pengarna-tillbaka-garanti',
   },
 
   // Related Apps

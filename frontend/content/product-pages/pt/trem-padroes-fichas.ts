@@ -443,7 +443,6 @@ Crie pacotes semanais de 5 atividades. Uma para cada dia útil. Variedade de pad
       'Todos os 33 geradores',
     ],
     ctaText: 'Comece Agora',
-    guaranteeText: 'Garantia de reembolso de 30 dias',
   },
 
   // Related Apps

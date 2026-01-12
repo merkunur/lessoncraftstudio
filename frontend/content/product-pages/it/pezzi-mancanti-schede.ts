@@ -420,7 +420,6 @@ Numeri da stampare: cifre 0-9 in stili multipli, quantità con oggetti. Pregrafi
       'Soluzioni incluse',
     ],
     ctaText: 'Inizia Ora',
-    guaranteeText: 'Garanzia soddisfatti o rimborsati 30 giorni',
   },
 
   // Related Apps Section

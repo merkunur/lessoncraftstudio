@@ -441,7 +441,6 @@ Revenus mensuels 500€ à 5000€ selon investissement temps. Créez pendant va
       'Corrigés inclus',
     ],
     ctaText: 'Commencer Maintenant',
-    guaranteeText: 'Garantie satisfait ou remboursé 30 jours',
   },
 
   // Related Apps

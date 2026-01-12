@@ -299,7 +299,6 @@ Our picture bingo generator creates two printable worksheets with every generati
       'Call-out sheets included',
     ],
     ctaText: 'Start Creating Now',
-    guaranteeText: '30-day money-back guarantee',
   },
 
   // Related Apps

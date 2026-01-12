@@ -363,7 +363,6 @@ Cada ficha incluye cuatro imágenes organizadas en columnas de izquierda a derec
       'Acceso a los 33 generadores',
     ],
     ctaText: 'Comenzar Ahora',
-    guaranteeText: 'Garantía de devolución de 30 días',
   },
 
   // Related Apps

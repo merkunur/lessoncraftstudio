@@ -473,7 +473,6 @@ Rakenna asiakaspohjaa. Ensimmäinen myynti viikossa 1. Viisi myyntiä viikossa k
       'Vastausavaimet sisältyvät',
     ],
     ctaText: 'Aloita Luominen Nyt',
-    guaranteeText: '30 päivän rahat takaisin -takuu',
   },
 
   // Related Apps

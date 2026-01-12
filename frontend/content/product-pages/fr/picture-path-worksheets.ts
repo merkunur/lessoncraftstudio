@@ -500,7 +500,6 @@ Les progressions d'écriture cursive suivent votre rythme de classe. Intégrez u
       'Corrigés inclus',
     ],
     ctaText: 'Commencer Maintenant',
-    guaranteeText: 'Garantie satisfait ou remboursé 30 jours',
   },
 
   // Related Apps - From picture-path.md Section 7

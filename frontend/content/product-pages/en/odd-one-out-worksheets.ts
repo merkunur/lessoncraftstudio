@@ -327,7 +327,6 @@ The odd one out generator creates worksheets for any subject or theme. Choose fr
       'Answer keys included',
     ],
     ctaText: 'Start Creating Now',
-    guaranteeText: '30-day money-back guarantee',
   },
 
   // Related Apps

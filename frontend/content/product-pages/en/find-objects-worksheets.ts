@@ -283,7 +283,6 @@ Teachers use our find objects generator to build visual perception skills in you
       'All 33 worksheet generators',
     ],
     ctaText: 'Start Creating Now',
-    guaranteeText: '30-day money-back guarantee',
   },
 
   // Related Apps

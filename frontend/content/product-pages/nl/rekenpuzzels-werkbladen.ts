@@ -456,7 +456,6 @@ Differentieer voor verschillende niveaus. Basis pakket werkbladen kleuters groep
       'Antwoordbladen inbegrepen',
     ],
     ctaText: 'Nu Starten',
-    guaranteeText: '30 dagen geld-terug-garantie',
   },
 
   // Related Apps

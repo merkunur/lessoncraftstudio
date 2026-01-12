@@ -414,7 +414,6 @@ Combine encontre e conte com desenhos para colorir em pacotes completos. Venda i
       'Gabaritos incluídos',
     ],
     ctaText: 'Comece Agora',
-    guaranteeText: 'Garantia de reembolso de 30 dias',
   },
 
   // Related Apps

@@ -432,7 +432,6 @@ Monte combos com atividades 1º ano e 2º ano incluídas. Ofereça materiais par
       'Gabaritos incluídos',
     ],
     ctaText: 'Comece Agora',
-    guaranteeText: 'Garantia de reembolso de 30 dias',
   },
 
   // Related Apps

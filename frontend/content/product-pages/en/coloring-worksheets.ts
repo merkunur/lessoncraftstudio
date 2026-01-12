@@ -409,7 +409,6 @@ Amazon KDP low-content book publishers compile coloring worksheets into physical
       'Upload your own images',
     ],
     ctaText: 'Start Creating Now',
-    guaranteeText: '30-day money-back guarantee',
   },
 
   // Related Apps

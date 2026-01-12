@@ -320,7 +320,6 @@ The Big and Small worksheet maker offers five different question types. Students
       'Automatic answer keys',
     ],
     ctaText: 'Start Creating Now',
-    guaranteeText: '30-day money-back guarantee',
   },
 
   // Related Apps

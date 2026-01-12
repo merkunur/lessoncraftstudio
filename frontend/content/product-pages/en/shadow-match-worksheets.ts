@@ -315,7 +315,6 @@ Full Access subscription costs $240 annually or $25 monthly. This includes all 3
       'Answer keys included',
     ],
     ctaText: 'Start Creating Now',
-    guaranteeText: '30-day money-back guarantee',
   },
 
   // Related Apps

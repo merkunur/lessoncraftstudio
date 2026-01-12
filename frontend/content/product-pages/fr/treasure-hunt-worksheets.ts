@@ -430,7 +430,6 @@ Les fiches chasse au trésor sont particulièrement recherchées sur Teachers Pa
     priceInterval: '/an',
     priceSuffix: 'Facturé annuellement',
     ctaText: 'Commencer à Créer',
-    guaranteeText: 'Garantie satisfait ou remboursé 30 jours',
     benefits: [
       '33 générateurs de fiches inclus',
       'Création illimitée de fiches',

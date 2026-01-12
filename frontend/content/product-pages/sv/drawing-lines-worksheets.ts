@@ -502,7 +502,6 @@ Kombinera rita linjer-arbetsblad med andra arbetsbladstyper. Sälj "Komplett Fö
       '8 linjemallar ingår',
     ],
     ctaText: 'Börja Skapa Nu',
-    guaranteeText: '30 dagars pengarna-tillbaka-garanti',
   },
 
   // Related Apps

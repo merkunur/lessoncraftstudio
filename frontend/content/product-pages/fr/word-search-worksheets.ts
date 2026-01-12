@@ -424,7 +424,6 @@ Les boutiques de printables Etsy présentent des fiches de mots mêlés aux côt
       'Corrigés inclus',
     ],
     ctaText: 'Commencer Maintenant',
-    guaranteeText: 'Garantie satisfait ou remboursé 30 jours',
   },
 
   // Related Apps

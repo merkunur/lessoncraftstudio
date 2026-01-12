@@ -467,7 +467,6 @@ Les thèmes de la bibliothèque couvrent les sujets scolaires principaux. Animau
       'Corrigés automatiques inclus',
     ],
     ctaText: 'Commencer Maintenant',
-    guaranteeText: 'Garantie satisfait ou remboursé 30 jours',
   },
 
   // Related Apps - From word-guess.md Section 7

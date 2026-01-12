@@ -339,7 +339,6 @@ Empaqueta estas fichas para imprimir con otros generadores que ofrece tu suscrip
       '33 generadores de fichas',
     ],
     ctaText: 'Comenzar Ahora',
-    guaranteeText: 'Garantía de devolución de 30 días',
   },
 
   // FAQ Section - FULL text from code-addition.md FAQ sections

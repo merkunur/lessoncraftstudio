@@ -440,7 +440,6 @@ Desenvolva pacotes temáticos de atividades de alfabetização. Apostilas comple
       'Gabaritos incluídos',
     ],
     ctaText: 'Comece Agora',
-    guaranteeText: 'Garantia de reembolso de 30 dias',
   },
 
   // Related Apps

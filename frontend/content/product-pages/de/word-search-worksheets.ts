@@ -424,7 +424,6 @@ Die professionelle 300 DPI Qualität überzeugt Käufer. Scharfe Bilder und klar
       'Lösungsblätter inklusive',
     ],
     ctaText: 'Jetzt Erstellen',
-    guaranteeText: '30 Tage Geld-zurück-Garantie',
   },
 
   // Related Apps

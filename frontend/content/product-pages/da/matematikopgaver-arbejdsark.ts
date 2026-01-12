@@ -483,7 +483,6 @@ Professionel 300 DPI kvalitet giver gode anmeldelser. Købere roser klare prints
       'Svarnøgler inkluderet',
     ],
     ctaText: 'Start Nu',
-    guaranteeText: '30 dages pengene-tilbage-garanti',
   },
 
   // Related Apps

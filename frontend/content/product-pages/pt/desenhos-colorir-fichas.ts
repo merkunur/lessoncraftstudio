@@ -408,7 +408,6 @@ Crie pacotes de desenhos para colorir para venda. Desenvolva atividades com tabu
       'Sem gabarito necessário',
     ],
     ctaText: 'Comece Agora',
-    guaranteeText: 'Garantia de reembolso de 30 dias',
   },
 
   // Related Apps

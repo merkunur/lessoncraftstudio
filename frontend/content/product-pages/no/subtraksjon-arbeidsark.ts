@@ -462,7 +462,6 @@ Kombiner flere verktøy for større produktpakker. Lag "Komplette 1. Trinn Matem
       'Fasit inkludert',
     ],
     ctaText: 'Start Nå',
-    guaranteeText: '30 dagers pengene-tilbake-garanti',
   },
 
   // Related Apps - From subtraction.md "Kombiner" section

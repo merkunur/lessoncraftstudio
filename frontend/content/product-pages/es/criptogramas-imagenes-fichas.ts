@@ -406,7 +406,6 @@ La calidad profesional de 300 DPI garantiza satisfacción del cliente. Los compr
       'Acceso a los 33 generadores',
     ],
     ctaText: 'Comenzar Ahora',
-    guaranteeText: 'Garantía de devolución de 30 días',
   },
 
   // Related Apps

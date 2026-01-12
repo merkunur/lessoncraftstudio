@@ -455,7 +455,6 @@ Många lärare tjänar 4 000-40 000 kr per månad på Teachers Pay Teachers. Bil
       'Facit ingår',
     ],
     ctaText: 'Börja Skapa Nu',
-    guaranteeText: '30 dagars pengarna-tillbaka-garanti',
   },
 
   // Related Apps

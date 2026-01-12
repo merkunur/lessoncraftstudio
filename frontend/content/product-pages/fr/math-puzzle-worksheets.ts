@@ -410,7 +410,6 @@ Créez des ressources de programme complètes commandant des prix premium. Les p
       'Corrigés inclus',
     ],
     ctaText: 'Commencer Maintenant',
-    guaranteeText: 'Garantie satisfait ou remboursé 30 jours',
   },
 
   // Related Apps

@@ -415,7 +415,6 @@ Lag profesjonelle produktpakker med preposisjonsarbeidsark. Kombiner med matemat
     priceInterval: '/måned',
     priceSuffix: 'Faktureres årlig som kr 1 800',
     ctaText: 'Begynn Nå',
-    guaranteeText: '30 dagers pengene-tilbake-garanti',
     benefits: [
       'Alle 33 arbeidsarkgeneratorer',
       'Ubegrenset arbeidsarknedlasting',

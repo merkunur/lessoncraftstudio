@@ -419,7 +419,6 @@ Fritidsprogrammer setter pris på lave kostnader ved ubegrensede arbeidsark grat
       '300 DPI utskriftskvalitet',
     ],
     ctaText: 'Start Nå',
-    guaranteeText: '30 dagers pengene-tilbake-garanti',
   },
 
   // Related Apps - From find-objects.md "Kombinér" section

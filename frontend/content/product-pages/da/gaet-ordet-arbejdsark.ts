@@ -412,7 +412,6 @@ Din kommercielle licens er inkluderet i Fuld Adgang-abonnement. Ingen ekstra geb
       'Facitark inkluderet',
     ],
     ctaText: 'Start Nu',
-    guaranteeText: '30 dages pengene-tilbage-garanti',
   },
 
   // Related Apps

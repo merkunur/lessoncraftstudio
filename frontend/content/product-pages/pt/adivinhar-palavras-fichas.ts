@@ -427,7 +427,6 @@ Atividades de alfabetização com vocabulário específico atendem nichos lucrat
       'Todos os 33 geradores',
     ],
     ctaText: 'Comece Agora',
-    guaranteeText: 'Garantia de reembolso de 30 dias',
   },
 
   // Related Apps

@@ -306,7 +306,6 @@ This sudoku worksheet generator is perfect for kindergarten teachers, first grad
       'Automatic answer keys',
     ],
     ctaText: 'Start Creating Now',
-    guaranteeText: '30-day money-back guarantee',
   },
 
   // Related Apps

@@ -423,7 +423,6 @@ Gestalten Sie thematische Arbeitsblatt-Pakete die mehrere Aktivitätstypen kombi
       'Lösungsblätter inklusive',
     ],
     ctaText: 'Jetzt Erstellen',
-    guaranteeText: '30 Tage Geld-zurück-Garantie',
   },
 
   // Related Apps - Apps that work well with find-objects

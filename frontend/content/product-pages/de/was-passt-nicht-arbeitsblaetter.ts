@@ -525,7 +525,6 @@ Die Suchfunktion findet spezifische Bilder. Geben Sie Stichwörter ein wie "Herb
       'Lösungsblätter inklusive',
     ],
     ctaText: 'Jetzt Erstellen',
-    guaranteeText: '30-Tage-Geld-zurück-Garantie',
   },
 };
 

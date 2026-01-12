@@ -529,7 +529,6 @@ Teilen Sie Arbeitsblätter mit Klassenstufen-Kollegen. Koordinieren Sie Unterric
       'Lösungsblätter inklusive',
     ],
     ctaText: 'Jetzt Erstellen',
-    guaranteeText: '30-Tage-Geld-zurück-Garantie',
   },
 };
 

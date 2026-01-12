@@ -546,7 +546,6 @@ Alternativ geben Sie eigene Wörter ein. Bis zu 8 Wörter ohne Bilder. Fachbegri
       'Lösungsblätter inklusive',
     ],
     ctaText: 'Jetzt Erstellen',
-    guaranteeText: '30-Tage-Geld-zurück-Garantie',
   },
 };
 

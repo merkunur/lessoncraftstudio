@@ -394,7 +394,6 @@ Byg et brand omkring dine opgaver. Lav en konsekvent visuel stil. Brug samme skr
       'Alle 33 generatorer inkluderet',
     ],
     ctaText: 'Start Nu',
-    guaranteeText: '30 dages pengene-tilbage-garanti',
   },
 
   // FAQ Section - FULL text from big-small.md FAQ sections

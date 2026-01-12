@@ -472,7 +472,6 @@ Social studies integration happens through geographic and cultural vocabulary. C
       'Multiple tracing modes',
     ],
     ctaText: 'Start Creating Now',
-    guaranteeText: '30-day money-back guarantee',
   },
 
   // Related Apps

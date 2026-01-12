@@ -440,7 +440,6 @@ Prijsstrategieën variëren op basis van bundel grootte. Individuele werkbladen 
       '300 DPI afdrukkwaliteit',
     ],
     ctaText: 'Nu Starten',
-    guaranteeText: '30 dagen geld-terug-garantie',
   },
 
   // Related Apps

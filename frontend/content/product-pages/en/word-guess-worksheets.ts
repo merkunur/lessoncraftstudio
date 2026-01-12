@@ -466,7 +466,6 @@ Social studies integration happens through geographic and cultural vocabulary. C
       'Answer keys included',
     ],
     ctaText: 'Start Creating Now',
-    guaranteeText: '30-day money-back guarantee',
   },
 
   // Related Apps

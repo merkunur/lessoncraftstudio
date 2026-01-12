@@ -452,7 +452,6 @@ La calidad de 300 DPI es perfecta para productos comerciales. Tus clientes obtie
       'Acceso a los 33 generadores',
     ],
     ctaText: 'Comenzar Ahora',
-    guaranteeText: 'Garantía de devolución de 30 días',
   },
 
   // Related Apps

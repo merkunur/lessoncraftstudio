@@ -349,7 +349,6 @@ Grundpaketsprenumerationen kostar 144 dollar per år eller 15 dollar per månad.
       'Facit ingår',
     ],
     ctaText: 'Börja Skapa Nu',
-    guaranteeText: '30 dagars pengarna-tillbaka-garanti',
   },
 
   // Related Apps

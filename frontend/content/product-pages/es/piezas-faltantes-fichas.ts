@@ -356,7 +356,6 @@ Perfecto para maestros de preescolar, educadores de educación infantil y padres
       'Acceso a los 33 generadores',
     ],
     ctaText: 'Comenzar Ahora',
-    guaranteeText: 'Garantía de devolución de 30 días',
   },
 
   // Related Apps

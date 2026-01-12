@@ -419,7 +419,6 @@ Sesongbaserte pakker selger godt. Lag alfabet-tog med høstbilder for september.
       'Fasit inkludert',
     ],
     ctaText: 'Start Nå',
-    guaranteeText: '30 dagers pengene-tilbake-garanti',
   },
 
   // Related Apps - From alphabet-train.md "Kombiner" section

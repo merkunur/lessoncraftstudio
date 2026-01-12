@@ -360,7 +360,6 @@ Kombiner mønstertog med malebog sider til hybrid produkter. Opret "Mønster og 
       'Facitark inkluderet',
     ],
     ctaText: 'Start Nu',
-    guaranteeText: '30 dages pengene-tilbage-garanti',
   },
 
   // FAQ Section - FULL text from pattern-train.md FAQ sections

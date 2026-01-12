@@ -349,7 +349,6 @@ Las fichas de matemáticas con rompecabezas funcionan excepcionalmente bien para
       'Acceso a los 33 generadores',
     ],
     ctaText: 'Comenzar Ahora',
-    guaranteeText: 'Garantía de devolución de 30 días',
   },
 
   // Related Apps

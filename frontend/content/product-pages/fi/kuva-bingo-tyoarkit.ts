@@ -401,7 +401,6 @@ Yhdistä useita tehtävämonistegeneraattoreita tuotepaketteihin. Bingo plus vä
       'Huutolistat sisältyvät',
     ],
     ctaText: 'Aloita Luominen Nyt',
-    guaranteeText: '30 päivän rahat takaisin -takuu',
   },
 
   // Related Apps

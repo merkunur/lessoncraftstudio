@@ -476,7 +476,6 @@ Puoi creare schede tematiche collegando materie diverse. Tema animali con grande
       'Qualità stampa 300 DPI',
     ],
     ctaText: 'Inizia Ora',
-    guaranteeText: 'Garanzia soddisfatti o rimborsati 30 giorni',
   },
 
   // Related Apps Section

@@ -351,7 +351,6 @@ Ces fiches mathématiques fonctionnent idéalement pour les centres de numérati
       'Fiches de correction incluses',
     ],
     ctaText: 'Commencer Maintenant',
-    guaranteeText: 'Garantie satisfait ou remboursé 30 jours',
   },
 
   // Related Apps

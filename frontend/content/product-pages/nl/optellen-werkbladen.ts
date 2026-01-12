@@ -463,7 +463,6 @@ Combineer optelwerkbladen met kleurplaten tot complete pakketten. Een thema-bund
       'Antwoordbladen inbegrepen',
     ],
     ctaText: 'Nu Starten',
-    guaranteeText: '30 dagen geld-terug-garantie',
   },
 
   // Related Apps

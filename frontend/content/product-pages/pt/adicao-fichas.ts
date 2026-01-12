@@ -435,7 +435,6 @@ Exportação em 300 DPI garante qualidade profissional para venda. Nenhuma marca
       'Gabaritos incluídos',
     ],
     ctaText: 'Comece Agora',
-    guaranteeText: 'Garantia de reembolso de 30 dias',
   },
 
   // Related Apps

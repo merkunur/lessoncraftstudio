@@ -386,7 +386,6 @@ Etsy printable shops feature word search worksheets alongside coloring pages and
       'Answer keys included',
     ],
     ctaText: 'Start Creating Now',
-    guaranteeText: '30-day money-back guarantee',
   },
 
   // Related Apps

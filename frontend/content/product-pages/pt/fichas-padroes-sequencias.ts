@@ -405,7 +405,6 @@ Atividades de letra cursiva e pontilhado podem ser simplificadas. Reduza número
       'Todos os 33 geradores',
     ],
     ctaText: 'Comece Agora',
-    guaranteeText: 'Garantia de reembolso de 30 dias',
   },
 
   // Related Apps

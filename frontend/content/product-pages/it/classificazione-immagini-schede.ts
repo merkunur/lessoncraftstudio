@@ -423,7 +423,6 @@ I numeri da stampare e le schede matematica hanno domanda costante. I genitori c
       'Chiavi di risposta incluse',
     ],
     ctaText: 'Inizia a Creare Ora',
-    guaranteeText: 'Garanzia soddisfatti o rimborsati 30 giorni',
   },
 
   // Related Apps Section

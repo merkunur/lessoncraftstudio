@@ -281,7 +281,6 @@ O gerador de criptograma oferece recursos exclusivos para educadores. Você esco
       'Biblioteca com mais de 3000 imagens',
     ],
     ctaText: 'Comece Agora',
-    guaranteeText: 'Garantia de reembolso de 30 dias',
   },
 
   // FAQ Section

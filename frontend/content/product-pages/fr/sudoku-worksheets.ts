@@ -453,7 +453,6 @@ Utilisez des puzzles thématiques pour renforcer les concepts. Groupes d'objets 
       'Clés de correction automatiques',
     ],
     ctaText: 'Commencer Maintenant',
-    guaranteeText: 'Garantie satisfait ou remboursé 30 jours',
   },
 
   // Related Apps - From sudoku.md Section 7

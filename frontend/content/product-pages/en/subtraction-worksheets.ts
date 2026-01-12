@@ -315,7 +315,6 @@ Adjust difficulty settings to create kindergarten worksheets for early learners 
       'Answer keys included',
     ],
     ctaText: 'Start Creating Now',
-    guaranteeText: '30-day money-back guarantee',
   },
 
   // Related Apps

@@ -428,7 +428,6 @@ Etsy on toinen kannattava myyntikanava. Digitaaliset tulostettavat tehtävät la
       'Vastausavaimet sisältyvät',
     ],
     ctaText: 'Aloita Luominen Nyt',
-    guaranteeText: '30 päivän rahat takaisin -takuu',
   },
 
   // Related Apps

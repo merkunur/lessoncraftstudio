@@ -447,7 +447,6 @@ Plataformas como Hotmart e Educa Market aceitam arquivos PDF. Exporte em 300 DPI
       'Gabaritos incluídos',
     ],
     ctaText: 'Comece Agora',
-    guaranteeText: 'Garantia de reembolso de 30 dias',
   },
 
   // Related Apps

@@ -444,7 +444,6 @@ Differentiere opgaver efter klassetrin. Børnehaveklasse pakke med enkle puslesp
       'Facitark inkluderet',
     ],
     ctaText: 'Start Nu',
-    guaranteeText: '30 dages pengene-tilbage-garanti',
   },
 
   // Related Apps

@@ -488,7 +488,6 @@ Per schede matematica, usa vocabolario matematico. Parole come "addizione", "sot
       'Chiavi di risposta automatiche',
     ],
     ctaText: 'Inizia Ora',
-    guaranteeText: 'Garanzia soddisfatti o rimborsati 30 giorni',
   },
 };
 

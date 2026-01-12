@@ -386,7 +386,6 @@ Scarica sia il cruciverba che la chiave delle risposte come file separati. Quest
       'Chiavi di risposta automatiche',
     ],
     ctaText: 'Inizia Ora',
-    guaranteeText: 'Garanzia soddisfatti o rimborsati 30 giorni',
   },
 
   // Related Apps Section

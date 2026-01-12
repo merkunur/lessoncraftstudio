@@ -453,7 +453,6 @@ Differentieer je producten door unieke thema's te targeten die onderbedeeld zijn
       'Alle 33 generators beschikbaar',
     ],
     ctaText: 'Nu Starten',
-    guaranteeText: '30 dagen geld-terug-garantie',
   },
 
   // Related Apps

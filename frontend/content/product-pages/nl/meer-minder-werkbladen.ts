@@ -477,7 +477,6 @@ Combineer vergelijkingswerkbladen met tafels oefenen materialen voor gevorderde 
       '300 DPI afdrukkwaliteit',
     ],
     ctaText: 'Nu Starten',
-    guaranteeText: '30 dagen geld-terug-garantie',
   },
 
   // Related Apps

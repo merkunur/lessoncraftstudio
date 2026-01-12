@@ -434,7 +434,6 @@ Skapa obegränsade arbetsblad utan oro för licensbegränsningar. 300 DPI-kvalit
       'Kommersiell licens ingår',
     ],
     ctaText: 'Börja Skapa Nu',
-    guaranteeText: '30 dagars pengarna-tillbaka-garanti',
   },
 
   // Related Apps

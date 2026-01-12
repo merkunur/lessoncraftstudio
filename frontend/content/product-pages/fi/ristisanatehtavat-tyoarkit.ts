@@ -413,7 +413,6 @@ Vuodenaikaiset paketit myyvät hyvin. Joulu, Pääsiäinen, Halloween, Koulu alk
       'Vastaussivut sisältyvät',
     ],
     ctaText: 'Aloita Luominen Nyt',
-    guaranteeText: '30 päivän rahat takaisin -takuu',
   },
 
   // Related Apps

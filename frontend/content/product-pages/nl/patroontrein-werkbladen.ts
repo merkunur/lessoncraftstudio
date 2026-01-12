@@ -444,7 +444,6 @@ Pinterest marketing drijft verkeer naar uw Teachers Pay Teachers winkel. Maak vi
       'Antwoordbladen inbegrepen',
     ],
     ctaText: 'Nu Starten',
-    guaranteeText: '30 dagen geld-terug-garantie',
   },
 
   // Related Apps

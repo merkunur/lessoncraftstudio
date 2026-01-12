@@ -400,7 +400,6 @@ Berechnen Sie Ihr potentielles Einkommen aus Rätsel-Erstellung. Basis-Paket kos
       'Automatischer Lösungsschlüssel',
     ],
     ctaText: 'Jetzt Erstellen',
-    guaranteeText: '30 Tage Geld-zurück-Garantie',
   },
 
   // Related Apps - FULL text from sudoku.md combine apps section

@@ -450,7 +450,6 @@ Pinterest-markkinointi ohjaa liikennettä tuotelistauksiin. Luo visuaalisesti ho
       'Vastausavaimet sisältyvät',
     ],
     ctaText: 'Aloita Luominen Nyt',
-    guaranteeText: '30 päivän rahat takaisin -takuu',
   },
 
   // Related Apps

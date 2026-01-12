@@ -427,7 +427,6 @@ Kombiner rutenetttegning med andre generatorer for høyverdi produkter. Lag komp
       'Last ned som PDF eller JPEG',
     ],
     ctaText: 'Start Nå',
-    guaranteeText: '30 dagers pengene-tilbake-garanti',
   },
 
   // Related Apps

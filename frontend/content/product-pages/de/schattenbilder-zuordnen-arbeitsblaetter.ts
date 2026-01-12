@@ -483,7 +483,6 @@ Auch Schwungübungen Pakete verkaufen sich gut. Die 300 DPI Qualität erfüllt p
       'Lösungsblätter inklusive',
     ],
     ctaText: 'Jetzt Erstellen',
-    guaranteeText: '30-Tage-Geld-zurück-Garantie',
   },
 };
 

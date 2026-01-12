@@ -342,7 +342,6 @@ Monte lojas no Etsy com atividades para imprimir exclusivas. Tabuada visual atra
       'Acesso a todos os 33 geradores',
     ],
     ctaText: 'Comece Agora',
-    guaranteeText: 'Garantia de reembolso de 30 dias',
   },
 
   // FAQ Section

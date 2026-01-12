@@ -421,7 +421,6 @@ Empacote estas atividades para imprimir com outros geradores que sua assinatura 
       'Gabaritos incluídos',
     ],
     ctaText: 'Comece Agora',
-    guaranteeText: 'Garantia de reembolso de 30 dias',
   },
 
   // Related Apps

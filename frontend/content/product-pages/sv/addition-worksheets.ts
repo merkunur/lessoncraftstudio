@@ -486,7 +486,6 @@ Bygg prenumerationsverksamhet med månatligt nytt innehåll. Medlemmar betalar 9
       'Facit ingår',
     ],
     ctaText: 'Börja Skapa Nu',
-    guaranteeText: '30 dagars pengarna-tillbaka-garanti',
   },
 
   // Related Apps

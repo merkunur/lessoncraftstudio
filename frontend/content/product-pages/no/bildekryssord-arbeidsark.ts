@@ -445,7 +445,6 @@ Lag gangetabellen arbeidsark for 3. trinn som populære produkter. Kombiner med 
       'Fasit inkludert',
     ],
     ctaText: 'Start Nå',
-    guaranteeText: '30 dagers pengene-tilbake-garanti',
   },
 
   // Related Apps - From crossword.md "Kombiner" section

@@ -471,7 +471,6 @@ Usa nomi file descrittivi. Carica su Google Drive o Dropbox per accesso ovunque.
       'Tutti 33 generatori inclusi',
     ],
     ctaText: 'Inizia Ora',
-    guaranteeText: 'Garanzia soddisfatti o rimborsati 30 giorni',
   },
 
   // Related Apps Section

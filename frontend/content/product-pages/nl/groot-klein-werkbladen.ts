@@ -429,7 +429,6 @@ Etsy winkels floreren met educatieve printables. Tafels oefenen voorbereidende m
       '300 DPI afdrukkwaliteit',
     ],
     ctaText: 'Nu Starten',
-    guaranteeText: '30 dagen geld-terug-garantie',
   },
 
   // Related Apps

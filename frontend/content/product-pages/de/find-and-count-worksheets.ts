@@ -433,7 +433,6 @@ Die 300-DPI-Qualität ist essenziell für kommerzielle Produkte. Käufer erwarte
       'Alle 10 Core-Generatoren inklusive',
     ],
     ctaText: 'Jetzt Erstellen',
-    guaranteeText: '30 Tage Geld-zurück-Garantie',
   },
 
   // Related Apps - Kombinieren Sie Suchen-und-Zählen mit anderen Generatoren

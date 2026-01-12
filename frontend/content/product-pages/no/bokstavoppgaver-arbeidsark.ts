@@ -444,7 +444,6 @@ Norske lærere tjener 2000-8000 kr månedlig ved å selge arbeidsark. Kombiner l
       'Fasit inkludert',
     ],
     ctaText: 'Start Nå',
-    guaranteeText: '30 dagers pengene-tilbake-garanti',
   },
 
   // Related Apps - From word-scramble.md "Kombiner" section

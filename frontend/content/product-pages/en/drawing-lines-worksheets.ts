@@ -336,7 +336,6 @@ The generator includes 8 different templates with various line patterns and orie
       '300 DPI print quality',
     ],
     ctaText: 'Start Creating Now',
-    guaranteeText: '30-day money-back guarantee',
   },
 
   // Related Apps

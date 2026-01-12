@@ -41,6 +41,45 @@
 
 ---
 
+## 🛡️🛡️🛡️ MANDATORY: DEPLOYMENT COMMANDS - SEE DEPLOYMENT.md 🛡️🛡️🛡️
+
+```
+╔═══════════════════════════════════════════════════════════════════════════════════╗
+║                                                                                   ║
+║   📋 ALL DEPLOYMENT COMMANDS ARE DEFINED IN: DEPLOYMENT.md                        ║
+║   📋 THIS FILE REFERENCES DEPLOYMENT.md - IT IS THE AUTHORITATIVE SOURCE          ║
+║                                                                                   ║
+║   FOR PRODUCT PAGE DEPLOYMENTS, USE SCENARIO 1 FROM DEPLOYMENT.md:               ║
+║                                                                                   ║
+║   ═══════════════════════════════════════════════════════════════════════════     ║
+║   🟢 THE COMPLETE DEPLOYMENT COMMAND (COPY-PASTE THIS EXACTLY):                   ║
+║   ═══════════════════════════════════════════════════════════════════════════     ║
+║                                                                                   ║
+║   "C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm \                  ║
+║     -hostkey "SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU" \               ║
+║     root@65.108.5.250 "cd /opt/lessoncraftstudio && git pull && \                 ║
+║     cd frontend && npm run build && cp -r .next/static \                          ║
+║     .next/standalone/.next/static && pm2 restart lessoncraftstudio"               ║
+║                                                                                   ║
+║   ═══════════════════════════════════════════════════════════════════════════     ║
+║   🔴 THESE SHORTHAND FORMS DO NOT WORK - NEVER USE THEM:                          ║
+║   ═══════════════════════════════════════════════════════════════════════════     ║
+║                                                                                   ║
+║   ❌ plink root@server "..."        ← "server" is not a hostname!                 ║
+║   ❌ plink ... "..."                ← Incomplete command!                         ║
+║   ❌ ssh root@65.108.5.250 "..."    ← ssh doesn't work on Windows!                ║
+║   ❌ pscp ... root@server:...       ← "server" is not a hostname!                 ║
+║                                                                                   ║
+║   ═══════════════════════════════════════════════════════════════════════════     ║
+║   ⚠️  IF YOU SEE SHORTHAND COMMANDS ELSEWHERE IN THIS FILE, THEY ARE             ║
+║       PLACEHOLDERS - ALWAYS USE THE FULL COMMAND FROM DEPLOYMENT.md!             ║
+║   ═══════════════════════════════════════════════════════════════════════════     ║
+║                                                                                   ║
+╚═══════════════════════════════════════════════════════════════════════════════════╝
+```
+
+---
+
 ## 🚨🚨🚨 CRITICAL: APP NAMES MUST BE NATURAL LANGUAGE - NO LITERAL TRANSLATIONS 🚨🚨🚨
 
 ```
@@ -250,6 +289,27 @@
 ```
 ╔═══════════════════════════════════════════════════════════════════════════════════╗
 ║                                                                                   ║
+║   🔴🔴🔴 SOURCE OF TRUTH FOR ALL TRANSLATIONS: messages/[locale].json 🔴🔴🔴       ║
+║                                                                                   ║
+║   BEFORE writing ANY translation for tier names (Core Bundle, Full Access):       ║
+║                                                                                   ║
+║   1. OPEN: frontend/messages/{locale}.json                                        ║
+║   2. SEARCH for "coreBundle" or "fullAccess" key                                  ║
+║   3. COPY the EXACT value - do NOT guess or modify!                               ║
+║                                                                                   ║
+║   ❌ NEVER GUESS TRANSLATIONS - YOU WILL GET IT WRONG!                             ║
+║   ❌ "Voller Zugang" was WRONG - the correct German is "Vollzugriff"               ║
+║   ❌ DO NOT translate tier names yourself - USE the messages file!                 ║
+║                                                                                   ║
+║   COMMAND TO VERIFY (example for German):                                          ║
+║   grep -n '"coreBundle"\|"fullAccess"\|"name"' frontend/messages/de.json          ║
+║                                                                                   ║
+╚═══════════════════════════════════════════════════════════════════════════════════╝
+```
+
+```
+╔═══════════════════════════════════════════════════════════════════════════════════╗
+║                                                                                   ║
 ║   ⛔⛔⛔ CHECK BOTH FILES BEFORE EVERY COMMIT ⛔⛔⛔                                 ║
 ║                                                                                   ║
 ║   ENGLISH WORDS ON NON-ENGLISH PAGES IS A CRITICAL FAILURE.                       ║
@@ -282,7 +342,7 @@
 ║   "Full Access" translations (for $240/year subscription):                        ║
 ║   ─────────────────────────────────────────────────────────────────────────────   ║
 ║   Swedish (sv):     "Full Tillgång"                                               ║
-║   German (de):      "Voller Zugang"                                               ║
+║   German (de):      "Vollzugriff"     ← FROM messages/de.json:72 (NOT "Voller Zugang"!) ║
 ║   French (fr):      "Accès Complet"                                               ║
 ║   Spanish (es):     "Acceso Completo"                                             ║
 ║   Italian (it):     "Accesso Completo"                                            ║
@@ -407,11 +467,11 @@
 ║                                                                                   ║
 ║   □ STEP 4: git add, commit, push                                                 ║
 ║                                                                                   ║
-║   □ STEP 5: Deploy to server                                                      ║
-║             plink ... "git pull && npm run build && pm2 restart"                  ║
+║   □ STEP 5: Deploy to server (SEE DEPLOYMENT.md SCENARIO 1)                       ║
+║             Use the FULL plink command from DEPLOYMENT.md section above           ║
 ║                                                                                   ║
 ║   □ STEP 6: Copy samples to standalone directory                                  ║
-║             plink ... "cp -r samples standalone/samples"                          ║
+║             Use FULL plink command: mkdir -p && cp -r (see examples below)        ║
 ║                                                                                   ║
 ║   □ STEP 7: VERIFY LIVE URLs return HTTP 200                                      ║
 ║             • Page URL must return 200                                            ║
@@ -438,12 +498,18 @@
 
 ### Product Name Translations (NEVER use English on non-English pages!)
 
-| English | Swedish | German | French | Spanish | Italian |
-|---------|---------|--------|--------|---------|---------|
-| **Core Bundle** | Grundpaketet | Basis-Paket | Pack Essentiel | Paquete Esencial | Pacchetto Essenziale |
-| **Full Access** | Full Tillgång | Voller Zugang | Accès Complet | Acceso Completo | Accesso Completo |
+**ALL 11 LANGUAGES - Core Bundle:**
+| en | de | fr | es | it | pt | nl | da | sv | no | fi |
+|----|----|----|----|----|----|----|----|----|----|----|
+| Core Bundle | Basis-Paket | Pack Essentiel | Paquete Esencial | Pacchetto Essenziale | Pacote Essencial | Basispakket | Grundpakke | Baspaket | Grunnpakke | Peruspaketti |
+
+**ALL 11 LANGUAGES - Full Access:**
+| en | de | fr | es | it | pt | nl | da | sv | no | fi |
+|----|----|----|----|----|----|----|----|----|----|----|
+| Full Access | Vollzugriff | Accès Complet | Acceso Completo | Accesso Completo | Acesso Completo | Volledige Toegang | Fuld Adgang | Full Tillgång | Full Tilgang | Täysi Käyttöoikeus |
 
 ⚠️ **SOURCE OF TRUTH: `frontend/messages/[locale].json`** - ALWAYS verify translations there!
+⚠️ **German "Full Access" = "Vollzugriff"** (NOT "Voller Zugang" - this was a previous error!)
 
 ### Required Sample Properties (TypeScript will FAIL if missing!)
 
@@ -524,6 +590,57 @@ const titleWords = title.split(' ');
 const firstPart = titleWords.slice(0, Math.ceil(titleWords.length / 2)).join(' ');
 const secondPart = titleWords.slice(Math.ceil(titleWords.length / 2)).join(' ');
 ```
+
+---
+
+## 🔴🔴🔴 SERVER CONNECTION - MEMORIZE THIS FIRST 🔴🔴🔴
+
+```
+╔═══════════════════════════════════════════════════════════════════════════════════╗
+║                                                                                   ║
+║   🖥️ PRODUCTION SERVER DETAILS (DO NOT USE ANY OTHER!)                            ║
+║                                                                                   ║
+║   IP ADDRESS:   65.108.5.250                                                      ║
+║   USER:         root                                                              ║
+║   PASSWORD:     JfmiPF_QW4_Nhm                                                    ║
+║   HOSTKEY:      SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU                ║
+║   APP PATH:     /opt/lessoncraftstudio                                            ║
+║                                                                                   ║
+║   ═══════════════════════════════════════════════════════════════════════════     ║
+║   ❌ WRONG METHODS (DO NOT USE - THESE WILL FAIL!):                               ║
+║   ═══════════════════════════════════════════════════════════════════════════     ║
+║                                                                                   ║
+║   ❌ ssh root@217.154.12.168          ← WRONG IP - THIS SERVER DOESN'T EXIST!     ║
+║   ❌ ssh lessoncraftstudio            ← NOT A VALID HOSTNAME!                     ║
+║   ❌ plink root@server                ← "server" IS NOT A HOSTNAME!               ║
+║   ❌ plink lessoncraftstudio          ← NOT A VALID HOSTNAME!                     ║
+║   ❌ ssh root@65.108.5.250            ← SSH WON'T WORK ON WINDOWS - USE PLINK!    ║
+║                                                                                   ║
+║   ═══════════════════════════════════════════════════════════════════════════     ║
+║   ✅ CORRECT METHOD (WINDOWS - COPY THIS EXACT COMMAND):                          ║
+║   ═══════════════════════════════════════════════════════════════════════════     ║
+║                                                                                   ║
+║   "C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm \                  ║
+║     -hostkey "SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU" \               ║
+║     root@65.108.5.250 "YOUR COMMAND HERE"                                         ║
+║                                                                                   ║
+║   ⚠️ IF YOUR COMMAND SAYS "Connection timed out" OR "Host does not exist":       ║
+║      → You're using the WRONG IP address!                                         ║
+║      → The ONLY valid IP is: 65.108.5.250                                         ║
+║      → Copy the EXACT plink command from the examples below!                      ║
+║                                                                                   ║
+╚═══════════════════════════════════════════════════════════════════════════════════╝
+```
+
+### ⚠️ CONNECTION TROUBLESHOOTING
+
+| Error Message | Cause | Solution |
+|---------------|-------|----------|
+| "Connection timed out" | Wrong IP address | Use `65.108.5.250` - NOT any other IP! |
+| "Host does not exist" | Using hostname instead of IP | Use `root@65.108.5.250` - NOT `lessoncraftstudio` |
+| "Network error" | Using `ssh` on Windows | Use `plink.exe` with full path, not `ssh` |
+| "Host key verification failed" | Missing `-hostkey` parameter | Add `-hostkey "SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU"` |
+| "Unable to open connection" | Wrong format or missing -batch | Use EXACT format from examples below |
 
 ---
 
@@ -681,18 +798,23 @@ All these fields in the content file MUST be in the target language:
 | `faq.cancelAnytime` | Cancel anytime | Avsluta när som helst | Jederzeit kündbar | Annulez à tout moment |
 | `relatedApps.badgeText` | Works Great With | Fungerar Utmärkt Med | Funktioniert gut mit | Fonctionne bien avec |
 | `relatedApps.exploreText` | Explore all apps | Utforska alla appar | Alle Apps erkunden | Explorer toutes les apps |
-| `relatedApps.trustBadges.guarantee` | 30-day guarantee | 30 dagars garanti | 30-Tage-Garantie | Garantie 30 jours |
 | `relatedApps.trustBadges.securePayment` | Secure payment | Säker betalning | Sichere Zahlung | Paiement sécurisé |
 | `pricing.title` | Core Bundle | Grundpaketet | Basis-Paket | Pack Essentiel |
 
 ### Product Names MUST Be Translated (FROM messages/[locale].json!)
 
-| English | Swedish | German | French | Spanish | Italian |
-|---------|---------|--------|--------|---------|---------|
-| Core Bundle | Grundpaketet | Basis-Paket | Pack Essentiel | Paquete Esencial | Pacchetto Essenziale |
-| Full Access | Full Tillgång | Voller Zugang | Accès Complet | Acceso Completo | Accesso Completo |
+**ALL 11 LANGUAGES - Core Bundle:**
+| en | de | fr | es | it | pt | nl | da | sv | no | fi |
+|----|----|----|----|----|----|----|----|----|----|----|
+| Core Bundle | Basis-Paket | Pack Essentiel | Paquete Esencial | Pacchetto Essenziale | Pacote Essencial | Basispakket | Grundpakke | Baspaket | Grunnpakke | Peruspaketti |
+
+**ALL 11 LANGUAGES - Full Access:**
+| en | de | fr | es | it | pt | nl | da | sv | no | fi |
+|----|----|----|----|----|----|----|----|----|----|----|
+| Full Access | Vollzugriff | Accès Complet | Acceso Completo | Accesso Completo | Acesso Completo | Volledige Toegang | Fuld Adgang | Full Tillgång | Full Tilgang | Täysi Käyttöoikeus |
 
 ⚠️ **NEVER GUESS TRANSLATIONS!** Always check `frontend/messages/[locale].json` for the exact spelling!
+⚠️ **German "Full Access" = "Vollzugriff"** (NOT "Voller Zugang"!)
 
 ### How to Verify: Page Language Audit
 
@@ -1604,24 +1726,21 @@ git push origin main
 ```
 
 ### Step 8: Deploy to Server
+
+**⚠️ SEE DEPLOYMENT.md SCENARIO 1 FOR THE COMPLETE COMMAND**
+
 ```bash
-# Pull and build
-plink root@server "cd /opt/lessoncraftstudio && git pull && cd frontend && npm run build && cp -r .next/static .next/standalone/.next/static && pm2 restart lessoncraftstudio"
+# Full deployment command (copy-paste this EXACTLY):
+"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey "SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU" root@65.108.5.250 "cd /opt/lessoncraftstudio && git pull && cd frontend && npm run build && cp -r .next/static .next/standalone/.next/static && pm2 restart lessoncraftstudio"
 ```
 
-### Step 9: Upload Samples to Server
+### Step 9: Copy Samples to Standalone Directory
+
+**⚠️ CRITICAL - Samples must be copied to standalone or they won't load!**
+
 ```bash
-# Create directory on server
-plink root@server "mkdir -p /opt/lessoncraftstudio/frontend/public/samples/english/{app-name}"
-
-# Upload files
-pscp -r frontend/public/samples/english/{app-name}/* root@server:/opt/lessoncraftstudio/frontend/public/samples/english/{app-name}/
-
-# CRITICAL: Copy to standalone directory (or files won't be accessible!)
-plink root@server "cp -r /opt/lessoncraftstudio/frontend/public/samples/english/{app-name} /opt/lessoncraftstudio/frontend/.next/standalone/public/samples/english/"
-
-# Restart
-plink root@server "pm2 restart lessoncraftstudio"
+# Copy samples to standalone (replace {app-name} with actual folder name, e.g., "word scramble"):
+"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey "SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU" root@65.108.5.250 "mkdir -p '/opt/lessoncraftstudio/frontend/.next/standalone/public/samples/english/{app-name}' && cp -r '/opt/lessoncraftstudio/samples/english/{app-name}/'* '/opt/lessoncraftstudio/frontend/.next/standalone/public/samples/english/{app-name}/'"
 ```
 
 ### Step 10: Verify Everything Works
@@ -1829,18 +1948,19 @@ plink -batch -pw PASSWORD -hostkey "HOSTKEY" root@65.108.5.250 "command here"
 ```
 
 ### Full Deploy Sequence
+
+**⚠️ SEE DEPLOYMENT.md FOR AUTHORITATIVE COMMANDS**
+
 ```bash
-# 1. Pull, build, restart
-plink ... "cd /opt/lessoncraftstudio && git pull && cd frontend && npm run build && cp -r .next/static .next/standalone/.next/static && pm2 restart lessoncraftstudio"
+# 1. Pull, build, deploy static files, restart (copy-paste this EXACTLY):
+"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey "SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU" root@65.108.5.250 "cd /opt/lessoncraftstudio && git pull && cd frontend && npm run build && cp -r .next/static .next/standalone/.next/static && pm2 restart lessoncraftstudio"
 
-# 2. Upload samples
-pscp ... -r "frontend/public/samples/english/{app}/*" root@server:"/opt/lessoncraftstudio/frontend/public/samples/english/{app}/"
+# 2. Copy samples to standalone (replace {app-name} with actual folder name):
+"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey "SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU" root@65.108.5.250 "mkdir -p '/opt/lessoncraftstudio/frontend/.next/standalone/public/samples/english/{app-name}' && cp -r '/opt/lessoncraftstudio/samples/english/{app-name}/'* '/opt/lessoncraftstudio/frontend/.next/standalone/public/samples/english/{app-name}/'"
 
-# 3. Copy to standalone (CRITICAL!)
-plink ... "cp -r /opt/lessoncraftstudio/frontend/public/samples/english/{app} /opt/lessoncraftstudio/frontend/.next/standalone/public/samples/english/"
-
-# 4. Restart
-plink ... "pm2 restart lessoncraftstudio"
+# 3. Verify (run from local machine):
+curl -s -o /dev/null -w "%{http_code}" "https://www.lessoncraftstudio.com/{locale}/apps/{app-slug}"
+# Expected: 200
 ```
 
 ---
@@ -1924,7 +2044,7 @@ plink ... "pm2 restart lessoncraftstudio"
 ║   🌍 0. 100% NATIVE LANGUAGE - ZERO ENGLISH ON NON-ENGLISH PAGES 🌍               ║
 ║      EVERY word must be in the target language - including product names!         ║
 ║      "Core Bundle" → "Grundpaketet" (Swedish), "Basis-Paket" (German)            ║
-║      "Full Access" → "Full Tillgång" (Swedish), "Voller Zugang" (German)         ║
+║      "Full Access" → "Full Tillgång" (Swedish), "Vollzugriff" (German)           ║
 ║      "Read more" → "Läs mer" (Swedish), "Mehr lesen" (German)                    ║
 ║      "Features" → "Funktioner" (Swedish), "Funktionen" (German)                  ║
 ║      ALL UI LABELS, BADGES, BUTTONS - EVERYTHING IN TARGET LANGUAGE!             ║

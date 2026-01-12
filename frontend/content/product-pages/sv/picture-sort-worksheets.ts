@@ -354,7 +354,6 @@ Använd sorteringsarbetsblad för förskoleklass material och lågstadiet. Kombi
       'Dubbla genereringslägen',
     ],
     ctaText: 'Börja Skapa Nu',
-    guaranteeText: '30 dagars pengarna-tillbaka-garanti',
   },
 
   // Related Apps

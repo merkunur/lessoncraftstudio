@@ -483,7 +483,6 @@ Les parents en instruction à domicile apprécient énormément ces corrigés. L
       '33 générateurs de fiches',
     ],
     ctaText: 'Commencer Maintenant',
-    guaranteeText: 'Garantie satisfait ou remboursé 30 jours',
   },
 
   // Related Apps - From shadow-match.md Section 7

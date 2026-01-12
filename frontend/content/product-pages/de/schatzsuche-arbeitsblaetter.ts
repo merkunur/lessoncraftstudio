@@ -523,7 +523,6 @@ Die themenbasierte Bilderbibliothek organisiert Inhalte nach Fachbereich für sc
       'Lösungsblätter inklusive',
     ],
     ctaText: 'Jetzt Erstellen',
-    guaranteeText: '30-Tage-Geld-zurück-Garantie',
   },
 };
 

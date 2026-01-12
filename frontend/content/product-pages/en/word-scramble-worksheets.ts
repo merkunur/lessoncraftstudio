@@ -384,7 +384,6 @@ Many teachers subscribe specifically for the commercial licensing capability. Co
       'Answer keys included',
     ],
     ctaText: 'Start Creating Now',
-    guaranteeText: '30-day money-back guarantee',
   },
 
   // Related Apps

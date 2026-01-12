@@ -432,7 +432,6 @@ Diversifiera med andra arbetsbladstyper. Kombinera addition och subtraktion med 
       'Alla 33 arbetsbladsverktyg',
     ],
     ctaText: 'Börja Skapa Nu',
-    guaranteeText: '30 dagars pengarna-tillbaka-garanti',
   },
 
   // Related Apps

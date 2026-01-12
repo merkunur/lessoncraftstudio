@@ -450,7 +450,6 @@ Guarda archivos descargados para reutilización futura. Construye bibliotecas de
       '33 generadores de fichas',
     ],
     ctaText: 'Comenzar Ahora',
-    guaranteeText: 'Garantía de devolución de 30 días',
   },
 };
 

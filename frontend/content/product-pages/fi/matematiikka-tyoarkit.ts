@@ -455,7 +455,6 @@ Kilpailijat maksavat 79-199 dollaria vuodessa pelkästään kaupallisesta lisens
       'Vastausavaimet sisältyvät',
     ],
     ctaText: 'Aloita Luominen Nyt',
-    guaranteeText: '30 päivän rahat takaisin -takuu',
   },
 
   // Related Apps

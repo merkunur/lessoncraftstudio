@@ -354,7 +354,6 @@ Kombinera prepositionsträning med målarbilder barn gillar. Lägg till egna bil
       '8 prepositioner tillgängliga',
     ],
     ctaText: 'Börja Skapa Nu',
-    guaranteeText: '30 dagars pengarna-tillbaka-garanti',
   },
 
   // Related Apps

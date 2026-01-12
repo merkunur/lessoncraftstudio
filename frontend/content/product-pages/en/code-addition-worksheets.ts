@@ -305,7 +305,6 @@ The image addition generator creates worksheets with 3 to 10 problems per page. 
       'Answer keys included',
     ],
     ctaText: 'Start Creating Now',
-    guaranteeText: '30-day money-back guarantee',
   },
 
   // Related Apps

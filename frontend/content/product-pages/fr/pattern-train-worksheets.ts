@@ -421,7 +421,6 @@ Créez des collections saisonnières pour ventes régulières. Suites logiques d
       'Qualité d\'impression 300 DPI',
     ],
     ctaText: 'Commencer Maintenant',
-    guaranteeText: 'Garantie satisfait ou remboursé 30 jours',
   },
 
   // Related Apps

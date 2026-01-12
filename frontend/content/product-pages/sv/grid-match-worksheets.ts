@@ -427,7 +427,6 @@ Ingen kreditering krävs på sålda produkter. Ditt varumärke syns på alla fö
       '300 DPI utskriftskvalitet',
     ],
     ctaText: 'Börja Skapa Nu',
-    guaranteeText: '30 dagars pengarna-tillbaka-garanti',
   },
 
   // Related Apps

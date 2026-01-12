@@ -455,7 +455,6 @@ Full Tilgang gir deg tilgang til alle 33 arbeidsarktyper på plattformen. Lag ko
       'Fasit inkludert',
     ],
     ctaText: 'Start Nå',
-    guaranteeText: '30 dagers pengene-tilbake-garanti',
   },
 
   // Related Apps - From big-small.md "Kombiner" section

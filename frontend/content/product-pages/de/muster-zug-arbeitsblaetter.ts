@@ -546,7 +546,6 @@ Kombinieren Sie Muster-Arbeitsblätter mit Ausmalbilder für kreative Einheiten.
       'Lösungsblätter inklusive',
     ],
     ctaText: 'Jetzt Erstellen',
-    guaranteeText: '30-Tage-Geld-zurück-Garantie',
   },
 };
 

@@ -452,7 +452,6 @@ Viele Lehrkräfte verdienen 500-5000 € monatlich mit druckbaren Ressourcen fü
       'Lösungsblätter inklusive',
     ],
     ctaText: 'Jetzt Erstellen',
-    guaranteeText: '30 Tage Geld-zurück-Garantie',
   },
 
   // Related Apps - Kombinieren Sie Additions-Arbeitsblätter mit anderen Generatoren

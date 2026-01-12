@@ -299,7 +299,6 @@ Our cryptogram worksheet generator creates custom puzzles in 11 languages. Uploa
       'Automatic answer keys',
     ],
     ctaText: 'Start Creating Now',
-    guaranteeText: '30-day money-back guarantee',
   },
 
   // Related Apps

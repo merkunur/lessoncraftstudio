@@ -437,7 +437,6 @@ Desenhos para colorir combinados com traçado têm alta demanda. A qualidade pro
       '8 modelos de linhas diferentes',
     ],
     ctaText: 'Comece Agora',
-    guaranteeText: 'Garantia de reembolso de 30 dias',
   },
 
   // Related Apps

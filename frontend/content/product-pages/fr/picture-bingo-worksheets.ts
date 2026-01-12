@@ -393,7 +393,6 @@ La feuille d'appel est une fiche séparée montrant tous les éléments dans une
       'Feuilles d\'appel automatiques incluses',
     ],
     ctaText: 'Commencer Maintenant',
-    guaranteeText: 'Garantie satisfait ou remboursé 30 jours',
   },
 
   // Related Apps - From picture-bingo.md Section 7

@@ -522,7 +522,6 @@ Monatliche Abos kündigen vor der nächsten Abbuchung. Jährliche Abos laufen bi
       'Lösungsblätter inklusive',
     ],
     ctaText: 'Jetzt Erstellen',
-    guaranteeText: '30-Tage-Geld-zurück-Garantie',
   },
 };
 

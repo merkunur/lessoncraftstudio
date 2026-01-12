@@ -414,7 +414,6 @@ Myy valmiita tehtäväkirjoja Amazon KDP:ssä. Yhdistä 50-100 prepositioharjoit
       'Vastausavaimet sisältyvät',
     ],
     ctaText: 'Aloita Luominen Nyt',
-    guaranteeText: '30 päivän rahat takaisin -takuu',
   },
 
   // Related Apps

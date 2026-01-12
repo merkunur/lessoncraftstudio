@@ -420,7 +420,6 @@ Le mode images fonctionne parfaitement pour sciences naturelles, animaux, plante
       'Corrigés automatiques inclus',
     ],
     ctaText: 'Commencer Maintenant',
-    guaranteeText: 'Garantie satisfait ou remboursé 30 jours',
   },
 
   // Related Apps - From crossword.md Section 7

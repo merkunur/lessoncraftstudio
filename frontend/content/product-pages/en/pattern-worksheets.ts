@@ -301,7 +301,6 @@ Full Access subscription includes commercial licensing for Teachers Pay Teachers
       'Answer keys included',
     ],
     ctaText: 'Start Creating Now',
-    guaranteeText: '30-day money-back guarantee',
   },
 
   // Related Apps

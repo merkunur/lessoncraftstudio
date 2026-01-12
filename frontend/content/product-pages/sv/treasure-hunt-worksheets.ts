@@ -421,7 +421,6 @@ Lägg till matte övningar och siffror och tal träning i matematikskattjakt pak
       'Två riktningslägen',
     ],
     ctaText: 'Börja Skapa Nu',
-    guaranteeText: '30 dagars pengarna-tillbaka-garanti',
   },
 
   // Related Apps - Swedish translations

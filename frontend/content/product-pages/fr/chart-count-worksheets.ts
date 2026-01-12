@@ -440,7 +440,6 @@ La qualité 300 DPI garantit des impressions professionnelles pour vos clients s
       'Clés de correction automatiques',
     ],
     ctaText: 'Commencer Maintenant',
-    guaranteeText: 'Garantie satisfait ou remboursé 30 jours',
   },
 
   // Related Apps - From chart-count.md Section 7

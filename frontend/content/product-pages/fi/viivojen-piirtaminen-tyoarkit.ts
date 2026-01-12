@@ -468,7 +468,6 @@ Luo teemapaketteja. Syysteema 20 tehtävällä. Talviteema 20 tehtävällä. Kev
       '8 erilaista mallia',
     ],
     ctaText: 'Aloita Luominen Nyt',
-    guaranteeText: '30 päivän rahat takaisin -takuu',
   },
 
   // Related Apps

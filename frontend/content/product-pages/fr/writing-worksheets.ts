@@ -430,7 +430,6 @@ Maintenez une qualité de production cohérente en utilisant les mêmes paramèt
     priceInterval: '/an',
     priceSuffix: 'Facturé annuellement',
     ctaText: 'Commencer à Créer',
-    guaranteeText: 'Garantie satisfait ou remboursé 30 jours',
     benefits: [
       '33 générateurs de fiches inclus',
       'Création illimitée de fiches',

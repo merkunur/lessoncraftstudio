@@ -462,7 +462,6 @@ Använd Pinterest för att marknadsföra dina multiplikationstabellen resurser. 
       'Facit ingår',
     ],
     ctaText: 'Börja Skapa Nu',
-    guaranteeText: '30 dagars pengarna-tillbaka-garanti',
   },
 
   // Related Apps

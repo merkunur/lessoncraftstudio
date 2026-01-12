@@ -345,7 +345,6 @@ Bildlabyrint generatorn stöder svenska och tio andra språk. Bildnamn visas på
       '3 labyrint spellägen',
     ],
     ctaText: 'Börja Skapa Nu',
-    guaranteeText: '30 dagars pengarna-tillbaka-garanti',
   },
 
   // Related Apps

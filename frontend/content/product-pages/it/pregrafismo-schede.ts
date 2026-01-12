@@ -464,7 +464,6 @@ Condividi schede didattiche con colleghe della tua scuola. Stampa set multipli p
       '8 modelli di tracciamento',
     ],
     ctaText: 'Inizia Ora',
-    guaranteeText: 'Garanzia soddisfatti o rimborsati 30 giorni',
   },
 
   // Related Apps Section

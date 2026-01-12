@@ -404,7 +404,6 @@ Licença comercial POD está incluída na assinatura Acesso Completo. Sem taxas 
       'Acesso a todos os 33 geradores',
     ],
     ctaText: 'Comece Agora',
-    guaranteeText: 'Garantia de reembolso de 30 dias',
   },
 
   // Related Apps

@@ -432,7 +432,6 @@ Die enthaltene POD-Gewerbliche Lizenz erlaubt unbegrenzte Verkäufe ohne zusätz
       '300 DPI Druckqualität',
     ],
     ctaText: 'Jetzt Erstellen',
-    guaranteeText: '30 Tage Geld-zurück-Garantie',
   },
 
   // Related Apps - FULL text from linien-ziehen.md combine apps section

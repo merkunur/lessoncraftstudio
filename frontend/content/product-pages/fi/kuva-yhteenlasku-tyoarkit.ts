@@ -433,7 +433,6 @@ Teemapaketit myyvät hyvin. Luo "Eläinten yhteenlasku" -paketti 20 monisteen ka
       'Vastausavaimet sisältyvät',
     ],
     ctaText: 'Hanki Täysi Pääsy',
-    guaranteeText: '30 päivän rahat takaisin -takuu',
   },
 
   // Related Apps Section - Finnish translated

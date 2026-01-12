@@ -383,7 +383,6 @@ Monthly income builds through catalog expansion. Start with one popular theme an
       'Answer keys included',
     ],
     ctaText: 'Start Creating Now',
-    guaranteeText: '30-day money-back guarantee',
   },
 
   // Related Apps

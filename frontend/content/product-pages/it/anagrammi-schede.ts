@@ -438,7 +438,6 @@ Carica immagini personalizzate per argomenti molto specifici non coperti dalla l
       'Soluzioni incluse',
     ],
     ctaText: 'Inizia Ora',
-    guaranteeText: 'Garanzia soddisfatti o rimborsati 30 giorni',
   },
 
   // Related Apps Section

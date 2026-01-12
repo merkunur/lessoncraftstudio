@@ -546,7 +546,6 @@ Progressiv tall og telling med lesetrening integrasjon. Barnehage: tall 1-5 med 
       'Over 3000 barnvennlige bilder',
     ],
     ctaText: 'Start Gratis Prøveperiode',
-    guaranteeText: '30 dagers pengene-tilbake-garanti',
   },
 };
 

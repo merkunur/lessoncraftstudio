@@ -468,7 +468,6 @@ Bouw een mailing lijst van trouwe klanten. Bied gratis sample werkbladen aan in 
       '300 DPI afdrukkwaliteit',
     ],
     ctaText: 'Nu Starten',
-    guaranteeText: '30 dagen geld-terug-garantie',
   },
 
   // Related Apps

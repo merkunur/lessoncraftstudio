@@ -539,7 +539,6 @@ Le schede italiano classe prima possono seguire il vocabolario settimanale della
       '5 stili di carattere',
     ],
     ctaText: 'Inizia Ora',
-    guaranteeText: 'Garanzia soddisfatti o rimborsati 30 giorni',
   },
 };
 

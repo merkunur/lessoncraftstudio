@@ -392,7 +392,6 @@ Erstellen Sie thematische Pakete mit 10 bis 20 Bilddiagramm Arbeitsblättern. Sa
       'Automatischer Lösungsschlüssel',
     ],
     ctaText: 'Jetzt Erstellen',
-    guaranteeText: '30 Tage Geld-zurück-Garantie',
   },
 
   // Related Apps - FULL text from bilddiagramm.md combine apps section

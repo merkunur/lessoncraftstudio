@@ -359,7 +359,6 @@ Les enseignants choisissent l'abonnement Accès Complet pour trois raisons essen
       'Corrigés inclus',
     ],
     ctaText: 'Commencer à Créer',
-    guaranteeText: 'Garantie satisfait ou remboursé 30 jours',
   },
 
   // Related Apps - French translations

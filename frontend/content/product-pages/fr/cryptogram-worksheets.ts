@@ -422,7 +422,6 @@ Une fois créés les PDF téléchargés s'affichent parfaitement sur tous les ap
       'Corrigés automatiques inclus',
     ],
     ctaText: 'Commencer Maintenant',
-    guaranteeText: 'Garantie satisfait ou remboursé 30 jours',
   },
 
   // Related Apps - From cryptogram.md Section 7

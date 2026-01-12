@@ -426,7 +426,6 @@ Markedsføringsdifferensiering skjer gjennom nisjeinnretting. Lag sudoku-pakker 
       'Fasit inkludert',
     ],
     ctaText: 'Start Nå',
-    guaranteeText: '30 dagers pengene-tilbake-garanti',
   },
 
   // Related Apps - From sudoku.md "Kombinér" section

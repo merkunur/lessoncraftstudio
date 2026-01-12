@@ -438,7 +438,6 @@ Etsy och Amazon KDP är andra lönsamma möjligheter för arbetsblad gratis. Gra
       'Facit ingår',
     ],
     ctaText: 'Börja Skapa Nu',
-    guaranteeText: '30 dagars pengarna-tillbaka-garanti',
   },
 
   // Related Apps

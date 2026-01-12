@@ -428,7 +428,6 @@ Upload custom images to create subject-specific worksheets not covered by the li
       'Answer keys included',
     ],
     ctaText: 'Start Creating Now',
-    guaranteeText: '30-day money-back guarantee',
   },
 
   // Related Apps

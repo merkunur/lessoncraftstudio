@@ -421,7 +421,6 @@ Niche ned i specifikke sprog-markeeder for mindre konkurrence. Danske alfabetopg
       'Facitark inkluderet',
     ],
     ctaText: 'Start Nu',
-    guaranteeText: '30 dages pengene-tilbage-garanti',
   },
 
   // Related Apps

@@ -464,7 +464,6 @@ Passive indkomst opbygges gennem katalog-vækst. Upload 5-10 nye produkter måne
       'Facitark inkluderet',
     ],
     ctaText: 'Start Nu',
-    guaranteeText: '30 dages pengene-tilbage-garanti',
   },
 
   // Related Apps

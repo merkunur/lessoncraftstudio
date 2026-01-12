@@ -419,7 +419,6 @@ Sæsonbestemte kryptogrampakker sælger særligt godt. Julekryptogrammer i novem
       'Facitark inkluderet',
     ],
     ctaText: 'Start Nu',
-    guaranteeText: '30 dages pengene-tilbage-garanti',
   },
 
   // Related Apps

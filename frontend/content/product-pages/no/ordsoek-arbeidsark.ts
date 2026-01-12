@@ -424,7 +424,6 @@ Print-on-demand lisensen åpner muligheter. Selg på Etsy som arbeidsark til uts
       'Fasit inkludert',
     ],
     ctaText: 'Start Nå',
-    guaranteeText: '30 dagers pengene-tilbake-garanti',
   },
 
   // Related Apps

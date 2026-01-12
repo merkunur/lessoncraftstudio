@@ -333,7 +333,6 @@ Los docentes exitosos ganan entre $500 y $5000 mensuales vendiendo material educ
       '33 generadores de fichas',
     ],
     ctaText: 'Comenzar Ahora',
-    guaranteeText: 'Garantía de devolución de 30 días',
   },
 
   // FAQ Section - FULL text from chart-count.md FAQ sections

@@ -303,7 +303,6 @@ Perfect for kindergarten teachers and first grade educators who need quality pre
       '8 preposition types',
     ],
     ctaText: 'Start Creating Now',
-    guaranteeText: '30-day money-back guarantee',
   },
 
   // Related Apps

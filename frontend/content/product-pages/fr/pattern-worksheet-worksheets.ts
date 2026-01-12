@@ -397,7 +397,6 @@ La qualité professionnelle 300 DPI garantit satisfaction clients et bonnes crit
       'Qualité d\'impression 300 DPI',
     ],
     ctaText: 'Commencer Maintenant',
-    guaranteeText: 'Garantie satisfait ou remboursé 30 jours',
   },
 
   // Related Apps

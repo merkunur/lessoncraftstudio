@@ -375,7 +375,6 @@ Kombiner sudoku med andre arbejdsark for bundne produkter. "Komplet Matematikpak
       'Facitark inkluderet',
     ],
     ctaText: 'Start Nu',
-    guaranteeText: '30 dages pengene-tilbage-garanti',
   },
 
   // FAQ Section - FULL text from sudoku.md FAQ sections

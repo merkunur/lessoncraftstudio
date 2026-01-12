@@ -375,7 +375,6 @@ Matte övningar för alla årskurser. Addition och subtraktion för årskurs 1-2
       'Facit ingår',
     ],
     ctaText: 'Börja Skapa Nu',
-    guaranteeText: '30 dagars pengarna-tillbaka-garanti',
   },
 
   // Related Apps

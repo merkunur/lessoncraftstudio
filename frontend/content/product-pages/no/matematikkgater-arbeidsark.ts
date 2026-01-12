@@ -423,7 +423,6 @@ Mange lærere tjener 500-5000 kroner månedlig ved å selge undervisningsmaterie
       'Fasit inkludert',
     ],
     ctaText: 'Start Nå',
-    guaranteeText: '30 dagers pengene-tilbake-garanti',
   },
 
   // Related Apps - From math-puzzle.md "Kombiner" section

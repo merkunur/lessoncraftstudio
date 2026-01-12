@@ -467,7 +467,6 @@ Die gewerbliche Lizenz im Vollzugriff Abonnement erlaubt unbegrenzten Verkauf. K
       'Lösungsblätter inklusive',
     ],
     ctaText: 'Jetzt Erstellen',
-    guaranteeText: '30-Tage-Geld-zurück-Garantie',
   },
 };
 

@@ -455,7 +455,6 @@ Använd Pinterest för marknadsföring av dina produkter. Pinna exempelarbetsbla
       'Facit ingår',
     ],
     ctaText: 'Börja Skapa Nu',
-    guaranteeText: '30 dagars pengarna-tillbaka-garanti',
   },
 
   // Related Apps

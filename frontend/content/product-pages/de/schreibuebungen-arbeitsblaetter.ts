@@ -489,7 +489,6 @@ Ihr Abo beinhaltet die vollständige kommerzielle Print-on-Demand-Lizenz, 11-Spr
       'Jederzeit kündbar',
     ],
     ctaText: 'Vollzugriff Starten',
-    guaranteeText: '30 Tage Geld-zurück-Garantie',
   },
 
   // Related Apps Section

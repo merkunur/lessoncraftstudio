@@ -403,7 +403,6 @@ L'abonnement Accès Complet coûte 240 € par an ou 25 € par mois. Vous accé
       'Corrigés automatiques',
     ],
     ctaText: 'Commencer Maintenant',
-    guaranteeText: 'Garantie satisfait ou remboursé 30 jours',
   },
 };
 

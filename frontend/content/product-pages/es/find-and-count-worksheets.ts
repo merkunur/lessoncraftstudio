@@ -451,7 +451,6 @@ Amazon KDP permite crear libros de actividades físicos bajo demanda. Compila 10
       'Hojas de respuestas incluidas',
     ],
     ctaText: 'Comenzar Ahora',
-    guaranteeText: 'Garantía de devolución de 30 días',
   },
 
   // Related Apps

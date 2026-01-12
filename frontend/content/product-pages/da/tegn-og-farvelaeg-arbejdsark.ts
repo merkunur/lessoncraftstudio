@@ -443,7 +443,6 @@ Differentierede pakker appellerer til forskellige kunde-behov. Begynder-pakker m
       'Facitark inkluderet',
     ],
     ctaText: 'Start Nu',
-    guaranteeText: '30 dages pengene-tilbage-garanti',
   },
 
   // Related Apps

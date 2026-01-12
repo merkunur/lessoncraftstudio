@@ -449,7 +449,6 @@ Kombiner mønstre med læreplanstandarder på tvers av fag. Lag sesongmessige m�
     priceInterval: '/år',
     priceSuffix: 'Faktureres årlig',
     ctaText: 'Start Nå',
-    guaranteeText: '30 dagers pengene-tilbake-garanti',
     benefits: [
       'Alle 33 arbeidsarkgeneratorer',
       'Ubegrenset opprettelse av arbeidsark',

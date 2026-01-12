@@ -352,7 +352,6 @@ These printable addition worksheets work perfectly for math centers, homework pa
       'Answer keys included',
     ],
     ctaText: 'Start Creating Now',
-    guaranteeText: '30-day money-back guarantee',
   },
 
   // Related Apps

@@ -342,7 +342,6 @@ La chiave di risposta ti aiuta a verificare puzzle prima di distribuirli agli st
       'Chiavi di risposta automatiche',
     ],
     ctaText: 'Inizia Ora',
-    guaranteeText: 'Garanzia soddisfatti o rimborsati 30 giorni',
   },
 
   // Related Apps Section

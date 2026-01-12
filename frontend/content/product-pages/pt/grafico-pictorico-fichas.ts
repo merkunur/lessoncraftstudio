@@ -424,7 +424,6 @@ A qualidade de 300 DPI atende padrões profissionais. Suas fichas competem com e
       'Todos os 33 geradores inclusos',
     ],
     ctaText: 'Comece Agora',
-    guaranteeText: 'Garantia de reembolso de 30 dias',
   },
 
   // Related Apps

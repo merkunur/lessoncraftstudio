@@ -437,7 +437,6 @@ Les boutiques Etsy proposent des packs thématiques. L'alphabet illustré sédui
       'Export PDF et JPEG',
     ],
     ctaText: 'Commencer Maintenant',
-    guaranteeText: 'Garantie satisfait ou remboursé 30 jours',
   },
 
   // Related Apps

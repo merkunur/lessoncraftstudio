@@ -312,7 +312,6 @@ Opret en Etsy-butik med printbare arbejdsark. Markedsfør på Pinterest med smuk
       'Facitark inkluderet',
     ],
     ctaText: 'Start Nu',
-    guaranteeText: '30 dages pengene-tilbage-garanti',
   },
 
   // FAQ Section - FULL text from chart-count.md FAQ sections

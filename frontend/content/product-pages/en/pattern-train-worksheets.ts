@@ -301,7 +301,6 @@ Pattern worksheets help kindergarten students develop critical thinking skills a
       'Answer keys included',
     ],
     ctaText: 'Start Creating Now',
-    guaranteeText: '30-day money-back guarantee',
   },
 
   // Related Apps

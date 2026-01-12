@@ -283,7 +283,6 @@ El generador crea de 1 a 10 ejercicios por hoja. Usa imágenes idénticas en dif
       'Calidad de impresión 300 DPI',
     ],
     ctaText: 'Comenzar Ahora',
-    guaranteeText: 'Garantía de devolución de 30 días',
   },
 
   // FAQ Section - FULL text from big-small.md FAQ sections

@@ -428,7 +428,6 @@ Développez des lots thématiques pour les ventes saisonnières. Les packs de re
       'Corrigés inclus',
     ],
     ctaText: 'Commencer Maintenant',
-    guaranteeText: 'Garantie satisfait ou remboursé 30 jours',
   },
 
   // Related Apps

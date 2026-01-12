@@ -363,7 +363,6 @@ Muchos maestros ganan $500-2,000 dólares mensuales vendiendo paquetes de cuadr�
       '33 generadores de fichas',
     ],
     ctaText: 'Comenzar Ahora',
-    guaranteeText: 'Garantía de devolución de 30 días',
   },
 
   // FAQ Section - FULL text from draw-and-color.md FAQ sections

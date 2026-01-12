@@ -524,7 +524,6 @@ Kundenbewertungen betonen professionelle 300 DPI Qualität. Käufer erwarten dru
       'Lösungsblätter inklusive',
     ],
     ctaText: 'Jetzt Erstellen',
-    guaranteeText: '30 Tage Geld-zurück-Garantie',
   },
 
   // Related Apps

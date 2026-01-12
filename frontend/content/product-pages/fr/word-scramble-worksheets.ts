@@ -484,7 +484,6 @@ Pour des thèmes très spécifiques, téléversez vos propres images. Créez des
       'Corrigés automatiques inclus',
     ],
     ctaText: 'Commencer Maintenant',
-    guaranteeText: 'Garantie satisfait ou remboursé 30 jours',
   },
 
   // Related Apps - From word-scramble.md Section 7

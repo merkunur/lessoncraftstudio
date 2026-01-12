@@ -451,7 +451,6 @@ Kleurplaten thema's maken lessen visueel aantrekkelijk. Combineer verbindingsopd
       'Antwoordbladen inbegrepen',
     ],
     ctaText: 'Nu Starten',
-    guaranteeText: '30 dagen geld-terug-garantie',
   },
 
   // Related Apps

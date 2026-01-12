@@ -441,7 +441,6 @@ Gebruik 300 DPI export voor professionele werkbladen kleuters producten.`,
       'Antwoordbladen inbegrepen',
     ],
     ctaText: 'Nu Starten',
-    guaranteeText: '30 dagen geld-terug-garantie',
   },
 
   // Related Apps

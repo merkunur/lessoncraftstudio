@@ -356,7 +356,6 @@ Los maestros crean fichas gratis con cualquier tema. Practica el reconocimiento 
       'Acceso a los 33 generadores',
     ],
     ctaText: 'Comenzar Ahora',
-    guaranteeText: 'Garantía de devolución de 30 días',
   },
 
   // Related Apps

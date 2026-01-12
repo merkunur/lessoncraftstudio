@@ -449,7 +449,6 @@ Verkoop op Teachers Pay Teachers Nederland. Of bied aan via Etsy. Amazon KDP acc
       'Antwoordbladen inbegrepen',
     ],
     ctaText: 'Nu Starten',
-    guaranteeText: '30 dagen geld-terug-garantie',
   },
 
   // Related Apps

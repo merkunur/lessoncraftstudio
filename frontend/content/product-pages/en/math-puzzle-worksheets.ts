@@ -302,7 +302,6 @@ The puzzles use familiar images children love. Select from our 3000+ image libra
       'Answer keys included',
     ],
     ctaText: 'Start Creating Now',
-    guaranteeText: '30-day money-back guarantee',
   },
 
   // Related Apps

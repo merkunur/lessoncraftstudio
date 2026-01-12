@@ -465,7 +465,6 @@ Mange lærerentreprenører tjener $500-2,000 månedligt gennem opgavesalg. Nogle
       'Facitark inkluderet',
     ],
     ctaText: 'Start Nu',
-    guaranteeText: '30 dages pengene-tilbage-garanti',
   },
 
   // Related Apps

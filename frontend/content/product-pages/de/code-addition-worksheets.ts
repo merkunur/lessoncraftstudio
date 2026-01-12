@@ -435,7 +435,6 @@ Kostenlose Arbeitsblätter als Marketing-Strategie funktionieren hervorragend f�
       'Lösungsblätter inklusive',
     ],
     ctaText: 'Jetzt Erstellen',
-    guaranteeText: '30 Tage Geld-zurück-Garantie',
   },
 
   // Related Apps - Kombinieren Sie Bilder-Additions-Arbeitsblätter mit anderen Generatoren

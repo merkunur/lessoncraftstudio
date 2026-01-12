@@ -404,7 +404,6 @@ Populære produkter inkluderer julepakker, alfabetserier og motoriksamlinger. La
       '8 forskellige linjeskabeloner',
     ],
     ctaText: 'Start Nu',
-    guaranteeText: '30 dages pengene-tilbage-garanti',
   },
 
   // Related Apps

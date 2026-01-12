@@ -475,7 +475,6 @@ Amazon KDP -käsinkirjoituskirjat ovat passiivista tuloa. Luo 100-sivuinen käsi
       'Kaikki 33 tehtävägeneraattoria sisältyy',
     ],
     ctaText: 'Aloita Luominen Nyt',
-    guaranteeText: '30 päivän rahat takaisin -takuu',
   },
 
   // Related Apps

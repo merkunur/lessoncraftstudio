@@ -438,7 +438,6 @@ De 300 DPI kwaliteit is professioneel genoeg voor verkoop. Maak seizoensgebonden
       'Volledig bewerkbaar canvas',
     ],
     ctaText: 'Nu Starten',
-    guaranteeText: '30 dagen geld-terug-garantie',
   },
 
   // Related Apps

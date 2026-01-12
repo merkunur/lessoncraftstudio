@@ -430,7 +430,6 @@ Vorschul-Arbeitsblätter verpackt als saisonale Bundles generieren wiederkehrend
       'Lösungsblätter inklusive',
     ],
     ctaText: 'Jetzt Erstellen',
-    guaranteeText: '30 Tage Geld-zurück-Garantie',
   },
 
   // Related Apps - FULL text from groß-klein.md combine apps section

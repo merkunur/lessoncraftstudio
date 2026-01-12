@@ -465,7 +465,6 @@ Vendedores en Etsy y Amazon KDP convierten las fichas infantil en productos de i
       'Hojas de respuestas incluidas',
     ],
     ctaText: 'Comenzar Ahora',
-    guaranteeText: 'Garantía de devolución de 30 días',
   },
 
   // Related Apps - Combina Fichas de Matemáticas con otros generadores

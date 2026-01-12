@@ -471,7 +471,6 @@ La calidad profesional de 300 DPI asegura que tus productos compitan con editori
       'Hojas de respuestas incluidas',
     ],
     ctaText: 'Comenzar Ahora',
-    guaranteeText: 'Garantía de devolución de 30 días',
   },
 
   // Related Apps - FULL text from addition.md related sections

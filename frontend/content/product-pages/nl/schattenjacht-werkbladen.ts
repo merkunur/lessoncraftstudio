@@ -422,7 +422,6 @@ Voor werkbladen groep 3 met specifieke fijne motoriek oefeningen voeg je extra e
     priceInterval: '/jaar',
     priceSuffix: 'Jaarlijks gefactureerd',
     ctaText: 'Start Nu Met Maken',
-    guaranteeText: '30 dagen geld-terug-garantie',
     benefits: [
       'Alle 33 werkblad generators',
       'Onbeperkte werkbladen maken',

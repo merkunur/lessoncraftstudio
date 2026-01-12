@@ -423,7 +423,6 @@ Erstellen Sie thematische Pakete. Malvorlagen zu Jahreszeiten verkaufen sich gut
       'Lösungsblätter inklusive',
     ],
     ctaText: 'Jetzt Erstellen',
-    guaranteeText: '30 Tage Geld-zurück-Garantie',
   },
 
   // Related Apps - Apps that work well with grid-match

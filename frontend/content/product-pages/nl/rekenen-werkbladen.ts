@@ -426,7 +426,6 @@ Werkbladen groep 3 zijn zeer gewild. Letters leren pakketten voor kleuterleidste
       'Antwoordbladen inbegrepen',
     ],
     ctaText: 'Nu Starten',
-    guaranteeText: '30 dagen geld-terug-garantie',
   },
 
   // Related Apps

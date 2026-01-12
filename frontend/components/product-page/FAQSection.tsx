@@ -102,7 +102,7 @@ const defaultProps = {
     'Answer keys included',
   ],
   ctaText: 'Start Creating Now',
-  guaranteeText: '30-day money-back guarantee',
+  guaranteeText: '',
 };
 
 export default function FAQSection({
@@ -357,15 +357,17 @@ export default function FAQSection({
                   </Link>
                 </div>
 
-                {/* Guarantee badge */}
-                <div className="px-6 pb-6">
-                  <div className="flex items-center justify-center gap-2 py-3 px-4 bg-emerald-50 rounded-xl border border-emerald-100">
-                    <svg className="w-5 h-5 text-emerald-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
-                    </svg>
-                    <span className="text-sm font-medium text-emerald-700">{guaranteeText}</span>
+                {/* Guarantee badge - only render if guaranteeText is provided */}
+                {guaranteeText && (
+                  <div className="px-6 pb-6">
+                    <div className="flex items-center justify-center gap-2 py-3 px-4 bg-emerald-50 rounded-xl border border-emerald-100">
+                      <svg className="w-5 h-5 text-emerald-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                      </svg>
+                      <span className="text-sm font-medium text-emerald-700">{guaranteeText}</span>
+                    </div>
                   </div>
-                </div>
+                )}
 
                 {/* Decorative corner elements */}
                 <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-white/10 to-transparent rounded-bl-full pointer-events-none" />

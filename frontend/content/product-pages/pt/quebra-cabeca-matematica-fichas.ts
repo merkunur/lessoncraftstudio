@@ -281,7 +281,6 @@ O formato de grade permite configurar de 2x2 até 4x4 peças. Escolha operaçõe
       'Biblioteca com mais de 3000 imagens',
     ],
     ctaText: 'Comece Agora',
-    guaranteeText: 'Garantia de reembolso de 30 dias',
   },
 
   // FAQ Section

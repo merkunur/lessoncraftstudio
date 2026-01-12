@@ -417,65 +417,6 @@ Teemapaketit myyvät hyvin. Luo "Eläinten yhteenlasku" -paketti 20 monisteen ka
     ],
   },
 
-  // Cross-Promotion Section - Translated to Finnish
-  crossPromotion: {
-    sectionTitle: 'Yhdistä Sovelluksia Kattaviksi Oppimispaketiksi',
-    sectionDescription: 'Älä rajoitu yhteen tehtävätyyppiin. Yhdistä yhteenlaskutehtävät muihin tehtävämonisteiden tyyppeihin. Luo kokonaisvaltaisia oppimispaketteja jotka kattavat useita taitoja. Käytä kaikki generaattorit samasta tilauksesta. Maksimi joustavuus. Maksimi vaikuttavuus.',
-    badgeText: 'Yhdistelmäideat',
-    readMoreLabel: 'Lue lisää',
-    showLessLabel: 'Näytä vähemmän',
-    items: [
-      {
-        id: '1',
-        icon: '🎨',
-        title: 'Yhdistä Matematiikan Yhteenlaskutehtävät ja Värityskuvat',
-        description: `Luo teemapaketteja jotka sisältävät sekä matematiikkaa että luovaa taitoa. Esimerkki: Hedelmäteemapaketti. Sivu 1: Yhteenlaskutehtävät omena- ja banaani-aiheisilla kuvilla. Sivu 2: Värityskuvia samaisista hedelmistä. Oppilaat laskevat ensin. Sitten he värittävät.
-
-Tämä lähestymistapa monipuolistaa oppitunteja. Matematiikka kehittää loogista ajattelua. Värittäminen kehittää luovuutta ja hienomotoriikkaa. Molemmat käyttävät samaa teemaa. Oppiminen vahvistuu toistuvan visuaalisen kielen kautta.`,
-      },
-      {
-        id: '2',
-        icon: '🔤',
-        title: 'Lisää Kirjaimet Harjoittelu Esikoulu Tehtäviä Matematiikkaan',
-        description: `Esikoululaisille tarvitaan sekä numeroita että kirjaimia. Luo kaksiosaisia tehtäväpaketteja. Osa 1: Yhteenlaskutehtävät numeroilla 1-5. Osa 2: Kirjainten tunnistaminen samoilla eläinkuvilla. Esimerkki: Laske kissat yhteen. Sitten etsi kaikki K-kirjaimet.
-
-Tämä integrointi tukee kokonaisvaltaista oppimista. Esiopetus vaatii lukujen ja kirjaimien samanaikaista kehittämistä. Yksi teemapaketti kattaa molemmat.`,
-      },
-      {
-        id: '3',
-        icon: '✂️',
-        title: 'Lisää Hienomotoriikka Harjoitukset Matematiikkatehtäviin',
-        description: `Pienet lapset tarvitsevat hienomotorisen kehityksen. Yhdistä yhteenlaskutehtävät leikkaustehtäviin. Esimerkki: Sivu 1 sisältää yhteenlaskutehtävät. Sivu 2 sisältää leikattavia kuvia numeroiden edustamiseen. Oppilaat laskevat. Sitten he leikkaavat. Sitten he liimaavat.
-
-Leikkaaminen ja liimaaminen ovat tärkeitä esiopetustaitoja. Ne kehittävät käden ja silmän koordinaatiota. Ne valmistavat kirjoittamiseen. Yhdistä nämä taidot matematiikan oppimiseen.`,
-      },
-      {
-        id: '4',
-        icon: '🔢',
-        title: 'Sisällytä Pisteestä Pisteeseen Tehtävät Numeroharjoituksina',
-        description: `Pisteestä pisteeseen -tehtävät opettavat numerojärjestystä. Yhdistä ne yhteenlaskutehtäviin. Esimerkki: Sivu 1 on yhteenlaskutehtäviä numeroilla 1-10. Sivu 2 on pisteestä pisteeseen -tehtävä joka käyttää numeroita 1-20.
-
-Tämä yhdistelmä vahvistaa numerontunnistusta kahdessa kontekstissa. Yhteenlaskutehtävissä numerot edustavat määrää. Pisteestä pisteeseen -tehtävissä numerot edustavat järjestystä.`,
-      },
-      {
-        id: '5',
-        icon: '📖',
-        title: 'Integroi Lukemaan Oppiminen Tehtävät Sanastoharjoituksiksi',
-        description: `Luku- ja laskutaidot kehittyvät yhdessä. Yhdistä yhteenlaskutehtävät sanaston oppimiseen. Esimerkki: Yhteenlaskutehtävä käyttää eläinkuvia. Lukutehtävä kysyy oppilaita kirjoittamaan eläinten nimiä. KOIRA. KISSA. LINTU.
-
-Tämä kaksinkertaistaa oppimisen. Oppilaat oppivat laskemaan eläimiä. Samalla he oppivat kirjoittamaan eläinten nimet. Kaksi taitoa. Yksi teemapaketti.`,
-      },
-      {
-        id: '6',
-        icon: '✖️',
-        title: 'Yhdistä Kertotaulut Tulostettava Harjoitukset Visuaalisiin Yhteenlaskuihin',
-        description: `Näytä kuinka yhteenlasku muuttuu kertolaskuksi. Käytä visuaalisia esimerkkejä. Sivu 1: Yhteenlasku 4 + 4 + 4 = 12 päärynällä. Sivu 2: Kertolasku 3 × 4 = 12 samaisilla päärynöillä. Oppilaat näkevät yhteyden välittömästi.
-
-Luo siirtymäpaketteja. Viikot 1-2: Pelkkää yhteenlaskua. Viikot 3-4: Toistuvaa yhteenlaskua. Viikot 5-6: Esittely kertolaskuun.`,
-      },
-    ],
-  },
-
   // Related Apps Section - Finnish translated
   relatedApps: {
     sectionTitle: 'Liittyvät Matematiikkatyökalut',

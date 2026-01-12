@@ -245,6 +245,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     nl: 'raster-puzzel-werkbladen',
     da: 'raster-puslespil-arbejdsark',
     no: 'rutenett-tilpasning-arbeidsark',
+    fi: 'ruudukko-sovitus-tyoarkit',
   },
   'image-crossword': {
     en: 'crossword-worksheets',

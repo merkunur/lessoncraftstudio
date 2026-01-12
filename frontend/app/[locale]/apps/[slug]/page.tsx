@@ -1035,6 +1035,57 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     };
   }
 
+  // Grid Match Worksheets - Finnish product page SEO (new Finnish slug)
+  if (params.slug === 'ruudukko-sovitus-tyoarkit' && params.locale === 'fi') {
+    return {
+      title: 'Tulostettavat Tehtävät Lapsille Ilmainen - Visuaalinen Palapelityökalu Esiopetus Materiaali',
+      description: 'Luo ammattimaisia ruudukon sovitustehtäviä visuaalisen havainnon ja ongelmanratkaisun kehittämiseen. Grid Match -työkalu tuottaa tehtäviä, joissa lapset sovittavat puuttuvia kuvapaloja ruudukkoon. Täysi Käyttöoikeus -tilaus antaa rajattoman tehtävien luonnin.',
+      keywords: 'tulostettavat tehtävät lapsille ilmainen, ruudukkotehtävät, esiopetus materiaali, visuaalinen havainnointi, avaruudellinen päättely, matematiikka tehtävät alakoulu, hienomotoriikka harjoitukset',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/fi/apps/ruudukko-sovitus-tyoarkit',
+        languages: {
+          'en': 'https://www.lessoncraftstudio.com/en/apps/grid-match-worksheets',
+          'sv': 'https://www.lessoncraftstudio.com/sv/apps/rutnatsmatching-arbetsblad',
+          'de': 'https://www.lessoncraftstudio.com/de/apps/raster-puzzle-arbeitsblaetter',
+          'es': 'https://www.lessoncraftstudio.com/es/apps/rompecabezas-cuadricula-fichas',
+          'it': 'https://www.lessoncraftstudio.com/it/apps/griglia-abbinamento-schede',
+          'pt': 'https://www.lessoncraftstudio.com/pt/apps/quebra-cabeca-grade-fichas',
+          'nl': 'https://www.lessoncraftstudio.com/nl/apps/raster-puzzel-werkbladen',
+          'da': 'https://www.lessoncraftstudio.com/da/apps/raster-puslespil-arbejdsark',
+          'no': 'https://www.lessoncraftstudio.com/no/apps/rutenett-tilpasning-arbeidsark',
+          'fi': 'https://www.lessoncraftstudio.com/fi/apps/ruudukko-sovitus-tyoarkit',
+          'x-default': 'https://www.lessoncraftstudio.com/en/apps/grid-match-worksheets',
+        },
+      },
+      openGraph: {
+        title: 'Tulostettavat Tehtävät Lapsille Ilmainen - Ruudukko Sovitus | LessonCraftStudio',
+        description: 'Luo ammattimaisia ruudukon sovitustehtäviä visuaalisen havainnon kehittämiseen. Täysi Käyttöoikeus -tilaus antaa rajattoman tehtävien luonnin.',
+        url: 'https://www.lessoncraftstudio.com/fi/apps/ruudukko-sovitus-tyoarkit',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Legacy: Redirect old Finnish grid-match slug to new slug (for backwards compatibility)
+  if (params.slug === 'grid-match-worksheets' && params.locale === 'fi') {
+    return {
+      title: 'Ruudukko Sovitus Tehtävät - Tulostettavat Tehtävät',
+      description: 'Luo ammattimaisia ruudukon sovitustehtäviä Grid Match -työkalumallamme.',
+      robots: {
+        index: false, // Don't index old URL
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/fi/apps/ruudukko-sovitus-tyoarkit', // Point to new URL
+      },
+    };
+  }
+
   // Addition Worksheets - French product page SEO (new French slug)
   if (params.slug === 'addition-fiches' && params.locale === 'fr') {
     return {
@@ -9567,6 +9618,7 @@ export async function generateStaticParams() {
     'kuva-yhteenlasku-tyoarkit', // Product page slug (Finnish) - language-specific SEO slug for code-addition
     'ruudukkopiirustus-tyoarkit', // Product page slug (Finnish) - language-specific SEO slug for draw-and-color
     'etsi-esineet-tyoarkit', // Product page slug (Finnish) - language-specific SEO slug for find-objects
+    'ruudukko-sovitus-tyoarkit', // Product page slug (Finnish) - language-specific SEO slug for grid-match
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

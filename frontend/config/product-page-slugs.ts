@@ -301,6 +301,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       nl: 'raster-puzzel-werkbladen',
       da: 'raster-puslespil-arbejdsark',
       no: 'rutenett-tilpasning-arbeidsark',
+      fi: 'ruudukko-sovitus-tyoarkit',
     },
   },
   {

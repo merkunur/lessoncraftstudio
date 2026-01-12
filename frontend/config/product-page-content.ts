@@ -94,6 +94,7 @@ import chartCountFiContent from '@/content/product-pages/fi/kuvakaavio-tyoarkit'
 import codeAdditionFiContent from '@/content/product-pages/fi/kuva-yhteenlasku-tyoarkit';
 import drawAndColorFiContent from '@/content/product-pages/fi/ruudukkopiirustus-tyoarkit';
 import findObjectsFiContent from '@/content/product-pages/fi/etsi-esineet-tyoarkit';
+import gridMatchFiContent from '@/content/product-pages/fi/ruudukko-sovitus-tyoarkit';
 
 // German content imports
 import wordSearchDeContent from '@/content/product-pages/de/word-search-worksheets';
@@ -1692,6 +1693,10 @@ export const contentRegistry: ContentRegistry = {
     'etsi-esineet-tyoarkit': findObjectsFiContent,
     // Also keep English slug for backwards compatibility during transition
     'find-objects-worksheets': findObjectsFiContent,
+    // Finnish Grid Match (Ruudukko Sovitus) - uses Finnish SEO slug
+    'ruudukko-sovitus-tyoarkit': gridMatchFiContent,
+    // Also keep English slug for backwards compatibility during transition
+    'grid-match-worksheets': gridMatchFiContent,
   },
 };
 

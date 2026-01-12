@@ -1818,6 +1818,12 @@ const nextConfig = {
         destination: '/fi/apps/etsi-esineet-tyoarkit',
         permanent: true,
       },
+      // Finnish: grid-match-worksheets → ruudukko-sovitus-tyoarkit
+      {
+        source: '/fi/apps/grid-match-worksheets',
+        destination: '/fi/apps/ruudukko-sovitus-tyoarkit',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

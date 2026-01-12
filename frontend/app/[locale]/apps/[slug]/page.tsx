@@ -244,6 +244,7 @@ import wordScrambleFiContent from '@/content/product-pages/fi/sanansekoitus-tyoa
 import matchingFiContent from '@/content/product-pages/fi/yhdista-parit-tyoarkit';
 import pictureBingoFiContent from '@/content/product-pages/fi/kuva-bingo-tyoarkit';
 import sudokuFiContent from '@/content/product-pages/fi/sudoku-tyoarkit';
+import bigSmallFiContent from '@/content/product-pages/fi/iso-pieni-tyoarkit';
 
 interface PageProps {
   params: {
@@ -826,6 +827,58 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       },
       alternates: {
         canonical: 'https://www.lessoncraftstudio.com/fi/apps/sudoku-tyoarkit', // Point to new URL
+      },
+    };
+  }
+
+  // Big and Small Worksheets - Finnish product page SEO (new Finnish slug)
+  if (params.slug === 'iso-pieni-tyoarkit' && params.locale === 'fi') {
+    return {
+      title: 'Tulostettavat Tehtävät Lapsille Ilmainen - Iso ja Pieni Tehtävät Esiopetus - Matematiikka Tehtävät Alakoulu',
+      description: 'Luo ammattimaisia kokovertailutehtäviä Iso ja Pieni -työkalulla. Täysi Käyttöoikeus -tilaus antaa rajattoman pääsyn kaikkiin 33 tehtävämonisteen luontityökaluun. Lataa tulostettavat tehtävät PDF- tai JPEG-muodossa alle 3 minuutissa.',
+      keywords: 'tulostettavat tehtävät lapsille ilmainen, iso ja pieni tehtävät, esiopetus materiaali ilmainen, matematiikka tehtävät alakoulu, kokovertailu tehtävät, hienomotoriikka harjoitukset',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/fi/apps/iso-pieni-tyoarkit',
+        languages: {
+          'en': 'https://www.lessoncraftstudio.com/en/apps/big-small-worksheets',
+          'sv': 'https://www.lessoncraftstudio.com/sv/apps/stort-litet-arbetsblad',
+          'de': 'https://www.lessoncraftstudio.com/de/apps/gross-klein-arbeitsblaetter',
+          'fr': 'https://www.lessoncraftstudio.com/fr/apps/grand-petit-fiches',
+          'es': 'https://www.lessoncraftstudio.com/es/apps/grande-pequeno-fichas',
+          'it': 'https://www.lessoncraftstudio.com/it/apps/grande-piccolo-schede',
+          'pt': 'https://www.lessoncraftstudio.com/pt/apps/grande-pequeno-fichas',
+          'nl': 'https://www.lessoncraftstudio.com/nl/apps/groot-klein-werkbladen',
+          'da': 'https://www.lessoncraftstudio.com/da/apps/stor-lille-arbejdsark',
+          'no': 'https://www.lessoncraftstudio.com/no/apps/stor-og-liten-arbeidsark',
+          'fi': 'https://www.lessoncraftstudio.com/fi/apps/iso-pieni-tyoarkit',
+          'x-default': 'https://www.lessoncraftstudio.com/en/apps/big-small-worksheets',
+        },
+      },
+      openGraph: {
+        title: 'Iso ja Pieni Tehtävät Generaattori | LessonCraftStudio',
+        description: 'Luo ammattimaisia kokovertailutehtäviä Iso ja Pieni -työkalulla. Tulostettavat tehtävät esiopetukseen ja alakouluun.',
+        url: 'https://www.lessoncraftstudio.com/fi/apps/iso-pieni-tyoarkit',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Big and Small Worksheets - Finnish backward compatibility (old English slug)
+  if (params.slug === 'big-small-worksheets' && params.locale === 'fi') {
+    return {
+      title: 'Iso ja Pieni Tehtävät Generaattori - Tulostettavat Tehtävät',
+      description: 'Luo ammattimaisia kokovertailutehtäviä Iso ja Pieni -työkalulla.',
+      robots: {
+        index: false, // Don't index old URL
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/fi/apps/iso-pieni-tyoarkit', // Point to new URL
       },
     };
   }
@@ -9358,6 +9411,7 @@ export async function generateStaticParams() {
     'viivojen-piirtaminen-tyoarkit', // Product page slug (Finnish) - language-specific SEO slug for drawing-lines
     'kuva-bingo-tyoarkit', // Product page slug (Finnish) - language-specific SEO slug for picture-bingo
     'sudoku-tyoarkit', // Product page slug (Finnish) - language-specific SEO slug for sudoku
+    'iso-pieni-tyoarkit', // Product page slug (Finnish) - language-specific SEO slug for big-small
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

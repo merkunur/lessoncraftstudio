@@ -1794,6 +1794,12 @@ const nextConfig = {
         destination: '/fi/apps/sudoku-tyoarkit',
         permanent: true,
       },
+      // Finnish: big-small-worksheets → iso-pieni-tyoarkit
+      {
+        source: '/fi/apps/big-small-worksheets',
+        destination: '/fi/apps/iso-pieni-tyoarkit',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

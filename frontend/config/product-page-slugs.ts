@@ -222,6 +222,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       nl: 'groot-klein-werkbladen',
       da: 'stor-lille-arbejdsark',
       no: 'stor-og-liten-arbeidsark',
+      fi: 'iso-pieni-tyoarkit',
     },
   },
   {

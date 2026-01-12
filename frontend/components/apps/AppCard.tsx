@@ -181,6 +181,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     nl: 'groot-klein-werkbladen',
     da: 'stor-lille-arbejdsark',
     no: 'stor-og-liten-arbeidsark',
+    fi: 'iso-pieni-tyoarkit',
   },
   'chart-count-color': {
     en: 'chart-count-worksheets',

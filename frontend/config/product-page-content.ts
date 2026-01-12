@@ -89,6 +89,7 @@ import matchingFiContent from '@/content/product-pages/fi/yhdista-parit-tyoarkit
 import drawingLinesFiContent from '@/content/product-pages/fi/viivojen-piirtaminen-tyoarkit';
 import pictureBingoFiContent from '@/content/product-pages/fi/kuva-bingo-tyoarkit';
 import sudokuFiContent from '@/content/product-pages/fi/sudoku-tyoarkit';
+import bigSmallFiContent from '@/content/product-pages/fi/iso-pieni-tyoarkit';
 
 // German content imports
 import wordSearchDeContent from '@/content/product-pages/de/word-search-worksheets';
@@ -1667,6 +1668,10 @@ export const contentRegistry: ContentRegistry = {
     'sudoku-tyoarkit': sudokuFiContent,
     // Also keep English slug for backwards compatibility during transition
     'sudoku-worksheets': sudokuFiContent,
+    // Finnish Big and Small (Iso ja Pieni) - uses Finnish SEO slug
+    'iso-pieni-tyoarkit': bigSmallFiContent,
+    // Also keep English slug for backwards compatibility during transition
+    'big-small-worksheets': bigSmallFiContent,
   },
 };
 

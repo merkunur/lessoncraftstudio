@@ -331,6 +331,8 @@ Täysi Käyttöoikeus -tilaus sisältää kaupallisen POD-lisenssin ilman lisäm
   faq: {
     sectionTitle: 'Usein Kysytyt Kysymykset Tulostettavat Tehtävät Lapsille Ilmainen',
     sectionDescription: 'Ruudukko Sovitus herättää kysymyksiä hinnoittelusta, ominaisuuksista ja käytöstä. Nämä 12 kysymystä kattavat yleisimmät huolenaiheet opettajilta, vanhemmilta ja kasvattajilta. Vastaukset tarjoavat yksityiskohtaiset selitykset Ruudukko Sovitusin kyvyistä ja rajoituksista. Lue läpi ennen tilauksen aloittamista saadaksesi täydellisen ymmärryksen siitä, mitä Ruudukko Sovitus tarjoaa.',
+    showMoreText: 'Näytä lisää kysymyksiä',
+    showLessText: 'Näytä vähemmän',
     badgeText: 'Usein Kysytyt',
     readMoreLabel: 'Lue lisää',
     showLessLabel: 'Näytä vähemmän',

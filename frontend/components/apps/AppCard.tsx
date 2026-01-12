@@ -258,6 +258,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     nl: 'kruiswoordpuzzel-werkbladen',
     da: 'krydsord-arbejdsark',
     no: 'bildekryssord-arbeidsark',
+    fi: 'ristisanatehtavat-tyoarkit',
   },
   'image-cryptogram': {
     en: 'cryptogram-worksheets',

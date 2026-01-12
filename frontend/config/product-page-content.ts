@@ -95,6 +95,7 @@ import codeAdditionFiContent from '@/content/product-pages/fi/kuva-yhteenlasku-t
 import drawAndColorFiContent from '@/content/product-pages/fi/ruudukkopiirustus-tyoarkit';
 import findObjectsFiContent from '@/content/product-pages/fi/etsi-esineet-tyoarkit';
 import gridMatchFiContent from '@/content/product-pages/fi/ruudukko-sovitus-tyoarkit';
+import crosswordFiContent from '@/content/product-pages/fi/ristisanatehtavat-tyoarkit';
 
 // German content imports
 import wordSearchDeContent from '@/content/product-pages/de/word-search-worksheets';
@@ -1697,6 +1698,10 @@ export const contentRegistry: ContentRegistry = {
     'ruudukko-sovitus-tyoarkit': gridMatchFiContent,
     // Also keep English slug for backwards compatibility during transition
     'grid-match-worksheets': gridMatchFiContent,
+    // Finnish Crossword (Ristisanatehtävät) - uses Finnish SEO slug
+    'ristisanatehtavat-tyoarkit': crosswordFiContent,
+    // Also keep English slug for backwards compatibility during transition
+    'crossword-worksheets': crosswordFiContent,
   },
 };
 

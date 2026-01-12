@@ -1824,6 +1824,12 @@ const nextConfig = {
         destination: '/fi/apps/ruudukko-sovitus-tyoarkit',
         permanent: true,
       },
+      // Finnish: crossword-worksheets → ristisanatehtavat-tyoarkit
+      {
+        source: '/fi/apps/crossword-worksheets',
+        destination: '/fi/apps/ristisanatehtavat-tyoarkit',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

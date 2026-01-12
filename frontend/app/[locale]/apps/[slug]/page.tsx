@@ -247,6 +247,7 @@ import sudokuFiContent from '@/content/product-pages/fi/sudoku-tyoarkit';
 import bigSmallFiContent from '@/content/product-pages/fi/iso-pieni-tyoarkit';
 import codeAdditionFiContent from '@/content/product-pages/fi/kuva-yhteenlasku-tyoarkit';
 import drawAndColorFiContent from '@/content/product-pages/fi/ruudukkopiirustus-tyoarkit';
+import crosswordFiContent from '@/content/product-pages/fi/ristisanatehtavat-tyoarkit';
 
 interface PageProps {
   params: {
@@ -1082,6 +1083,58 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       },
       alternates: {
         canonical: 'https://www.lessoncraftstudio.com/fi/apps/ruudukko-sovitus-tyoarkit', // Point to new URL
+      },
+    };
+  }
+
+  // Crossword Worksheets - Finnish product page SEO (new Finnish slug)
+  if (params.slug === 'ristisanatehtavat-tyoarkit' && params.locale === 'fi') {
+    return {
+      title: 'Ristisanatehtävien Generaattori - Tulostettavat Tehtävät Lapsille Ilmainen | Esiopetus Materiaali',
+      description: 'Luo ammattimaisia ristisanatehtäviä kuvilla muutamassa minuutissa. Tulostettavat tehtävät lapsille ilmainen luominen Täysi Käyttöoikeus -tilauksella. Ristisanatehtävien generaattori on täydellinen työkalu esiopetuksen ja alakoulun opettajille.',
+      keywords: 'ristisanatehtävät, tulostettavat tehtävät lapsille ilmainen, esiopetus materiaali ilmainen, ristisanatehtävien generaattori, ristikoita lapsille, kuvallinen ristisanatehtävä',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/fi/apps/ristisanatehtavat-tyoarkit',
+        languages: {
+          'en': 'https://www.lessoncraftstudio.com/en/apps/crossword-worksheets',
+          'sv': 'https://www.lessoncraftstudio.com/sv/apps/bildkorsord-arbetsblad',
+          'de': 'https://www.lessoncraftstudio.com/de/apps/bilderkreuzwortraetsel-arbeitsblaetter',
+          'fr': 'https://www.lessoncraftstudio.com/fr/apps/mots-croises-images-fiches',
+          'es': 'https://www.lessoncraftstudio.com/es/apps/crucigramas-imagenes-fichas',
+          'it': 'https://www.lessoncraftstudio.com/it/apps/cruciverba-immagini-schede',
+          'pt': 'https://www.lessoncraftstudio.com/pt/apps/palavras-cruzadas-imagens-fichas',
+          'nl': 'https://www.lessoncraftstudio.com/nl/apps/kruiswoordpuzzel-werkbladen',
+          'da': 'https://www.lessoncraftstudio.com/da/apps/krydsord-arbejdsark',
+          'no': 'https://www.lessoncraftstudio.com/no/apps/bildekryssord-arbeidsark',
+          'fi': 'https://www.lessoncraftstudio.com/fi/apps/ristisanatehtavat-tyoarkit',
+          'x-default': 'https://www.lessoncraftstudio.com/en/apps/crossword-worksheets',
+        },
+      },
+      openGraph: {
+        title: 'Ristisanatehtävien Generaattori | LessonCraftStudio',
+        description: 'Luo ammattimaisia ristisanatehtäviä kuvilla muutamassa minuutissa. Täydellinen työkalu esiopetuksen ja alakoulun opettajille.',
+        url: 'https://www.lessoncraftstudio.com/fi/apps/ristisanatehtavat-tyoarkit',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Legacy: Redirect old Finnish crossword slug to new slug (for backwards compatibility)
+  if (params.slug === 'crossword-worksheets' && params.locale === 'fi') {
+    return {
+      title: 'Ristisanatehtävät - Tulostettavat Tehtävät',
+      description: 'Luo ammattimaisia ristisanatehtäviä kuvilla muutamassa minuutissa.',
+      robots: {
+        index: false, // Don't index old URL
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/fi/apps/ristisanatehtavat-tyoarkit', // Point to new URL
       },
     };
   }
@@ -9619,6 +9672,7 @@ export async function generateStaticParams() {
     'ruudukkopiirustus-tyoarkit', // Product page slug (Finnish) - language-specific SEO slug for draw-and-color
     'etsi-esineet-tyoarkit', // Product page slug (Finnish) - language-specific SEO slug for find-objects
     'ruudukko-sovitus-tyoarkit', // Product page slug (Finnish) - language-specific SEO slug for grid-match
+    'ristisanatehtavat-tyoarkit', // Product page slug (Finnish) - language-specific SEO slug for crossword
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

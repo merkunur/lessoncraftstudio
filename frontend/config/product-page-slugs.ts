@@ -317,6 +317,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       nl: 'kruiswoordpuzzel-werkbladen',
       da: 'krydsord-arbejdsark',
       no: 'bildekryssord-arbeidsark',
+      fi: 'ristisanatehtavat-tyoarkit',
     },
   },
   {

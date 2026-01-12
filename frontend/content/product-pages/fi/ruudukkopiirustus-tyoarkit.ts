@@ -534,11 +534,10 @@ Erityisopetuksessa ruudukkopiirustustehtävät toimivat vanhemmillekin oppilaill
   // Pricing Section - Full Access (draw-and-color requires Full Access tier)
   pricing: {
     title: 'Täysi Käyttöoikeus',
-    price: '25€',
-    period: '/kuukausi',
-    description: 'Pääsy kaikkiin 33 tehtävägeneraattoriin mukaan lukien ruudukkopiirustus, kaupallinen lisenssi ja rajattomat lataukset.',
-    ctaText: 'Tilaa Nyt',
-    features: [
+    price: '240€',
+    priceInterval: '/vuosi',
+    priceSuffix: 'Laskutetaan vuosittain',
+    benefits: [
       'Kaikki 33 tehtävägeneraattoria',
       'Ruudukkopiirustus sisältyy',
       'Kaupallinen lisenssi',
@@ -548,7 +547,8 @@ Erityisopetuksessa ruudukkopiirustustehtävät toimivat vanhemmillekin oppilaill
       'Rajattomat lataukset',
       'Täysi muokattavuus',
     ],
-    guarantee: '30 päivän rahat takaisin -takuu',
+    ctaText: 'Tilaa Nyt',
+    guaranteeText: '30 päivän rahat takaisin -takuu',
   },
 };
 

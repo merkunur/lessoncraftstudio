@@ -1,7 +1,7 @@
 import { ProductPageContent } from '@/components/product-page/ProductPageClient';
 
 /**
- * Grid Match Worksheets - Finnish Content (Ruudukkotehtävät)
+ * Ruudukko Sovitus Worksheets - Finnish Content (Ruudukkotehtävät)
  *
  * File: frontend/content/product-pages/fi/ruudukko-sovitus-tyoarkit.ts
  * URL: /fi/apps/ruudukko-sovitus-tyoarkit (Finnish SEO-optimized slug)
@@ -18,7 +18,7 @@ export const gridMatchFiContent: ProductPageContent = {
     slug: 'ruudukko-sovitus-tyoarkit',
     appId: 'grid-match',
     title: 'Tulostettavat Tehtävät Lapsille Ilmainen - Visuaalinen Palapelityökalu Esiopetus Materiaali',
-    description: 'Luo ammattimaisia ruudukon sovitustehtäviä visuaalisen havainnon ja ongelmanratkaisun kehittämiseen. Grid Match -työkalu tuottaa tehtäviä, joissa lapset sovittavat puuttuvia kuvapaloja ruudukkoon. Täysi Käyttöoikeus -tilaus antaa rajattoman tehtävien luonnin.',
+    description: 'Luo ammattimaisia ruudukon sovitustehtäviä visuaalisen havainnon ja ongelmanratkaisun kehittämiseen. Ruudukko Sovitus -työkalu tuottaa tehtäviä, joissa lapset sovittavat puuttuvia kuvapaloja ruudukkoon. Täysi Käyttöoikeus -tilaus antaa rajattoman tehtävien luonnin.',
     keywords: 'tulostettavat tehtävät lapsille ilmainen, ruudukkotehtävät, esiopetus materiaali, visuaalinen havainnointi, avaruudellinen päättely, matematiikka tehtävät alakoulu, hienomotoriikka harjoitukset',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fi/apps/ruudukko-sovitus-tyoarkit',
   },
@@ -27,11 +27,11 @@ export const gridMatchFiContent: ProductPageContent = {
   hero: {
     title: 'Ruudukko Sovitus -tehtävät',
     subtitle: 'Tulostettavat Tehtävät Lapsille Ilmainen - Visuaalinen Palapelityökalu Esiopetus Materiaali',
-    description: `Luo ammattimaisia ruudukon sovitustehtäviä visuaalisen havainnon ja ongelmanratkaisun kehittämiseen. Grid Match -työkalu tuottaa tehtäviä, joissa lapset sovittavat puuttuvia kuvapaloja ruudukkoon. Täydellinen esiopetuksen ja alakoulun oppilaille. Täysi Käyttöoikeus -tilaus antaa rajattoman tehtävien luonnin ilman maksua per tehtävä.
+    description: `Luo ammattimaisia ruudukon sovitustehtäviä visuaalisen havainnon ja ongelmanratkaisun kehittämiseen. Ruudukko Sovitus -työkalu tuottaa tehtäviä, joissa lapset sovittavat puuttuvia kuvapaloja ruudukkoon. Täydellinen esiopetuksen ja alakoulun oppilaille. Täysi Käyttöoikeus -tilaus antaa rajattoman tehtävien luonnin ilman maksua per tehtävä.
 
-Lataa valmiit tehtävät PDF- tai JPEG-muodossa alle 3 minuutissa. Grid Match kehittää visuaalista havainnointikykyä, avaruudellista päättelyä ja keskittymiskykyä lapsilla. Tilaus sisältää kaikki 33 työkalutyyppiä, kaupallisen lisenssin ja 11 kielen tuen. Säästä tunteja aikaa joka viikko luomalla mukautettuja tehtäviä nopeasti.
+Lataa valmiit tehtävät PDF- tai JPEG-muodossa alle 3 minuutissa. Ruudukko Sovitus kehittää visuaalista havainnointikykyä, avaruudellista päättelyä ja keskittymiskykyä lapsilla. Tilaus sisältää kaikki 33 työkalutyyppiä, kaupallisen lisenssin ja 11 kielen tuen. Säästä tunteja aikaa joka viikko luomalla mukautettuja tehtäviä nopeasti.
 
-Grid Match jakaa kuvan ruudukkoon ja poistaa joitain soluja. Lapset tunnistavat, mitkä palaset kuuluvat mihinkin paikkaan. Tämä harjoitus kehittää yksityiskohtien havainnointia, avaruudellista suuntautumista ja loogista ajattelua. Käytä yli 3000 lapsille sopivaa kuvaa tai lataa omia kuvia henkilökohtaiseen opetukseen.`,
+Ruudukko Sovitus jakaa kuvan ruudukkoon ja poistaa joitain soluja. Lapset tunnistavat, mitkä palaset kuuluvat mihinkin paikkaan. Tämä harjoitus kehittää yksityiskohtien havainnointia, avaruudellista suuntautumista ja loogista ajattelua. Käytä yli 3000 lapsille sopivaa kuvaa tai lataa omia kuvia henkilökohtaiseen opetukseen.`,
     previewImageSrc: '/samples/english/grid match/grid match portrait .jpeg',
     ctaLabels: {
       tryFree: 'Kokeile Ilmaiseksi',
@@ -84,8 +84,8 @@ Grid Match jakaa kuvan ruudukkoon ja poistaa joitain soluja. Lapset tunnistavat,
 
   // Features Grid - FULL text from Finnish grid-match.md feature sections
   features: {
-    sectionTitle: 'Grid Match -Ominaisuudet - Kaikki Mitä Tarvitset Tulostettaviin Tehtäviin Lapsille',
-    sectionDescription: 'Grid Match sisältää kaikki työkalut ammattimaiseen tehtävien luomiseen. Tilaus antaa pääsyn yli 3000 lapsille sopivaan kuvaan, kaupallisen lisenssin ja 11 kielen tuen. Luo tehtäviä minuuteissa sen sijaan että käyttäisit tunteja käsityöhön tai kalliisiin suunnitteluohjelmiin.',
+    sectionTitle: 'Ruudukko Sovitus -Ominaisuudet - Kaikki Mitä Tarvitset Tulostettaviin Tehtäviin Lapsille',
+    sectionDescription: 'Ruudukko Sovitus sisältää kaikki työkalut ammattimaiseen tehtävien luomiseen. Tilaus antaa pääsyn yli 3000 lapsille sopivaan kuvaan, kaupallisen lisenssin ja 11 kielen tuen. Luo tehtäviä minuuteissa sen sijaan että käyttäisit tunteja käsityöhön tai kalliisiin suunnitteluohjelmiin.',
     highlightBadgeText: 'Tärkeä Ominaisuus',
     readMoreLabel: 'Lue lisää',
     showLessLabel: 'Näytä vähemmän',
@@ -133,7 +133,7 @@ Ladatut kuvat ilmestyvät välittömästi käytettävissä oleviin kuviin. Klikk
 
 Kielivalinta vaikuttaa käyttöliittymän kieleen ja kuvatiedostojen nimiin. Tärkeää kieli-oppimissovelluksille, joissa sanasto tulee kuvatiedostojen nimistä. Luo ruudukkokohtaus suomeksi oppilaiden sanavaraston rakentamiseksi. Vaihda espanjaksi toisessa opiskelussassa monikielisen altistumisen mahdollistamiseksi.
 
-Monikieliset ominaisuudet tekevät Grid Matchista täydellisen kansainvälisille kouluille. Opeta useita kieliä samalla työkalulla – ei tarvetta erillisiin ohjelmistoihin jokaiselle kielelle. Täysi Käyttöoikeus -tilaus sisältää kaikkien 11 kielen tuen ilman lisämaksuja. Säästä rahaa ja aikaa yhdistetyillä resursseilla.`,
+Monikieliset ominaisuudet tekevät Ruudukko Sovitusista täydellisen kansainvälisille kouluille. Opeta useita kieliä samalla työkalulla – ei tarvetta erillisiin ohjelmistoihin jokaiselle kielelle. Täysi Käyttöoikeus -tilaus sisältää kaikkien 11 kielen tuen ilman lisämaksuja. Säästä rahaa ja aikaa yhdistetyillä resursseilla.`,
         highlighted: false,
       },
       {
@@ -142,9 +142,9 @@ Monikieliset ominaisuudet tekevät Grid Matchista täydellisen kansainvälisille
         title: 'Kaupallinen POD-Lisenssi - Myy Kirjaimet Harjoittelu Esikoulu Tehtäviä',
         description: `Täysi Käyttöoikeus -tilaus sisältää täyden kaupallisen tulostus-tarvittaessa -lisenssin ilman lisäkustannuksia. Myy luomiasi tehtäviä Etsyssä, Teachers Pay Teachersilla tai Amazon KDP:ssä. Ei attribuutioita tarvita – täysi omistusoikeus kaikkiin suunnitteluihisi. Täydellinen opettajayrittäjille, jotka rakentavat passiivisia tulolähteitä.
 
-300 DPI -kauppalaatuinen resoluutio varmistaa ammattimaiset tulosteet jokaisessa latauksessa. Luo tehtäväpaketteja, myy digitaalisia latauksia tai tulosta fyysiset työkirjat. Monet opettajat ansaitsevat 500–5000 dollaria kuukaudessa myymällä työkaluja, jotka on luotu Grid Matchilla ja muilla LessonCraft-generaattoreilla.
+300 DPI -kauppalaatuinen resoluutio varmistaa ammattimaiset tulosteet jokaisessa latauksessa. Luo tehtäväpaketteja, myy digitaalisia latauksia tai tulosta fyysiset työkirjat. Monet opettajat ansaitsevat 500–5000 euroa kuukaudessa myymällä työkaluja, jotka on luotu Ruudukko Sovitusilla ja muilla LessonCraft Studio-generaattoreilla.
 
-Kilpailijat veloittavat 79–199 dollaria vuodessa ylimääräisiä lisenssimaksuja. Täysi Käyttöoikeus sisältää kaupallisen lisenssin 240 dollarin vuosimaksuun – ei piilotettuja maksuja. Säästä 200+ dollaria vuodessa vertailtuna muihin alustoihin. Aloita työkaluliiketoimintasi nyt ilman ylimääräisiä esteitä.`,
+Kilpailijat veloittavat 79–199 euroa vuodessa ylimääräisiä lisenssimaksuja. Täysi Käyttöoikeus sisältää kaupallisen lisenssin 240 euron vuosimaksuun – ei piilotettuja maksuja. Säästä 200+ euroa vuodessa vertailtuna muihin alustoihin. Aloita työkaluliiketoimintasi nyt ilman ylimääräisiä esteitä.`,
         highlighted: true,
       },
       {
@@ -164,7 +164,7 @@ Kaikki kuvat optimoitu lapsille sopivaa laatua ja teemoja varten. Ei huolta epä
         title: 'Ammattimainen 300 DPI Laatu - Lukemaan Oppiminen Tehtävät Tulostus',
         description: `Korkearesoluutioinen vienti takaa kristallinkirkkaat tulosteet. Lataa PDF- tai JPEG-muodossa tarpeidesi mukaan. PDF-tiedostot säilyttävät vektorigrafiikat täydelliseen skaalautuvuuteen. JPEG-tiedostot toimivat hyvin pikaisiin tulostuksiin tai digitaaliseen jakamiseen.
 
-Harmaasävyvaihtoehto säästää mustetta säilyttäen samalla selkeän laadun. Täydellinen budjettitietoisille opettajille tai massakopiointiin. Vastausavaimia generoidaan automaattisesti ratkaisuilla Grid Match -palapeleihin. Säästä aikaa arvioinnissa valmiiden vastausten avulla.
+Harmaasävyvaihtoehto säästää mustetta säilyttäen samalla selkeän laadun. Täydellinen budjettitietoisille opettajille tai massakopiointiin. Vastausavaimia generoidaan automaattisesti ratkaisuilla Ruudukko Sovitus -palapeleihin. Säästä aikaa arvioinnissa valmiiden vastausten avulla.
 
 Jokaisessa latauksessa on ammattimaisen laatuiset tehtävät myyntikelpoisina tai luokkahuonekäyttöön. Ei vesileimoja tai brändäystä – täysi kontrolli lopullisesta tuotoksesta. Täysi Käyttöoikeus -tilaus antaa rajattoman lataukset ammattimaiseen laatuun.`,
         highlighted: true,
@@ -175,7 +175,7 @@ Jokaisessa latauksessa on ammattimaisen laatuiset tehtävät myyntikelpoisina ta
   // How-To Guide - FULL text from Finnish grid-match.md step sections
   howTo: {
     sectionTitle: 'Kuinka Luoda Tulostettavat Tehtävät Lapsille Ilmainen 5 Helpossa Vaiheessa',
-    sectionDescription: 'Luo ammattimaisia Grid Match -tehtäviä alle 3 minuutissa. Nämä vaiheet toimivat kaikille taitotasoille – ei suunnittelukokemusta tarvita. Jokaisessa vaiheessa on yksinkertaiset kontrollit ja välitön esikatselu. Noudata näitä ohjeita luodaksesi matematiikka tehtävät alakoulu tai minkä tahansa muun aihepiirin tehtäviä.',
+    sectionDescription: 'Luo ammattimaisia Ruudukko Sovitus -tehtäviä alle 3 minuutissa. Nämä vaiheet toimivat kaikille taitotasoille – ei suunnittelukokemusta tarvita. Jokaisessa vaiheessa on yksinkertaiset kontrollit ja välitön esikatselu. Noudata näitä ohjeita luodaksesi matematiikka tehtävät alakoulu tai minkä tahansa muun aihepiirin tehtäviä.',
     ctaText: 'Aloita Luominen Nyt',
     badgeText: 'Näin Se Toimii',
     stepLabel: 'Vaihe',
@@ -201,18 +201,18 @@ Valitut kuvat ilmestyvät valittujen kuvien esikatseluun. Klikkaa mitä tahansa 
         id: '2',
         number: 2,
         title: 'Mukauta Ruudukkoasetukset Esiopetus Materiaali Ilmaiseksi - Vaikeus Sopii Jokaiselle Ikätasolle',
-        description: `Avaa Grid Options -harmonikka säätääksesi ruudukkoasetuksia. Valitse rivit: 2-4 vaihtoehtoa. Valitse sarakkeet: 2-4 vaihtoehtoa. Aseta vihjeet: 1-5 solua poistettavaksi ruudukosta. Yksinkertainen 2×2 ruudukko sopii esiopetuksen oppilaille. Monimutkaisempi 4×4 ruudukko haastaa vanhempia lapsia.
+        description: `Avaa Ruudukkoasetukset -harmonikka säätääksesi ruudukkoasetuksia. Valitse rivit: 2-4 vaihtoehtoa. Valitse sarakkeet: 2-4 vaihtoehtoa. Aseta vihjeet: 1-5 solua poistettavaksi ruudukosta. Yksinkertainen 2×2 ruudukko sopii esiopetuksen oppilaille. Monimutkaisempi 4×4 ruudukko haastaa vanhempia lapsia.
 
 Vihjesolut määrittävät, kuinka monta ruudukon palaa poistetaan. Yksi vihje = helpompi palapeli esiopetukselle. Viisi vihjettä = haastavampi palapeli alakoulun oppilaille. Säädä vaikeutta oppilaittesi taitotason perusteella. Luo useita versioita eriyttämiseen luokassa.
 
-Sivu-asetusten harmonikka antaa sinun valita paperin koon. Letter Portrait tai Landscape Yhdysvalloissa. A4 Portrait tai Landscape Euroopassa. Tai mukautettu koko pikseleinä erityistarpeisiin. Tausta ja reuna-asetukset lisäävät visuaalista vetovoimaa.`,
+Sivu-asetusten harmonikka antaa sinun valita paperin koon. Letter-pystysuunta tai -vaakasuunta Yhdysvalloissa. A4-pystysuunta tai -vaakasuunta Euroopassa. Tai mukautettu koko pikseleinä erityistarpeisiin. Tausta ja reuna-asetukset lisäävät visuaalista vetovoimaa.`,
         icon: '⚙️',
       },
       {
         id: '3',
         number: 3,
         title: 'Generoi Tehtäväsi Hienomotoriikka Harjoitukset Välittömällä Esikatselulla',
-        description: `Klikkaa "Luo tehtävä" -painiketta yläoikealla. Grid Match luo ruudukkoasettelun välittömästi pohjalla. Valittu kuva jaetaan ruudukkoon ja vihjeet poistetaan. Vastausavain generoidaan automaattisesti ratkaisuilla.
+        description: `Klikkaa "Luo tehtävä" -painiketta yläoikealla. Ruudukko Sovitus luo ruudukkoasettelun välittömästi pohjalla. Valittu kuva jaetaan ruudukkoon ja vihjeet poistetaan. Vastausavain generoidaan automaattisesti ratkaisuilla.
 
 Ruudukko ilmestyy muokattavalla pohjalla sekunneissa. Ei odotusaikoja tai latauspalkkeja. Välitön palaute antaa sinun nähdä, sopiiko asettelu ennen viimeistelyä. Jos et pidä tuloksesta, klikkaa "Luo tehtävä" uudelleen erilaiseen asetteluun.
 
@@ -234,7 +234,7 @@ Tasot-kontrollit hallitsevat objektien järjestystä. Tuo eteen, tuo eteenpäin,
         id: '5',
         number: 5,
         title: 'Lataa ja Tulosta Lukemaan Oppiminen Tehtävät - Korkealaatuiset PDF ja JPEG Tiedostot',
-        description: `Klikkaa Lataa-painiketta nähdäksesi vientivaihtoehdot. Valitse Worksheet (JPEG) pikatulostusta varten. Valitse Worksheet (PDF) vektorilaadulle. Valitse Answer Key (JPEG) tai Answer Key (PDF) ratkaisuille erikseen. Molemmat muodot latautuvat 300 DPI -resoluutiossa ammattimaiseen tulostukseen.
+        description: `Klikkaa Lataa-painiketta nähdäksesi vientivaihtoehdot. Valitse Työarkki (JPEG) pikatulostusta varten. Valitse Työarkki (PDF) vektorilaadulle. Valitse Vastausavain (JPEG) tai Vastausavain (PDF) ratkaisuille erikseen. Molemmat muodot latautuvat 300 DPI -resoluutiossa ammattimaiseen tulostukseen.
 
 Harmaasävyn vaihto muuntaa värilliset suunnitelmat mustavalkoisiksi. Säästä mustekustannuksia massakopioinnissa säilyttäen samalla selkeän laadun. Täydellinen budjettitietoisille opettajille tai kouluille, joilla on rajallinen tulostusbudjetti. Harmaasävyversiot toimivat yhtä hyvin kuin väriversiot useimpiin oppimiskäyttöihin.
 
@@ -247,7 +247,7 @@ PDF-tiedostot säilyttävät tarkan asettelun ja fontit kaikilla laitteilla. Tä
   // Use Cases - FULL text from Finnish grid-match.md use case sections
   useCases: {
     sectionTitle: 'Täydellinen Opettajille, Vanhemmille ja Kasvattajille - Tulostettavat Tehtävät Lapsille Ilmainen Jokaiseen Tarpeeseen',
-    sectionDescription: 'Grid Match palvelee erilaisia käyttäjiä esiopetuksen kasvattajista alakoulun opettajiin. Jokainen käyttäjäryhmä hyötyy mukautetuista ruudukkotehtävistä räätälöidyille oppimiskäyttöihin. Visuaalinen havainnointikyky kehittyy kaikissa ikäryhmissä tehtävien adaptiivisella vaikeustasolla. Luo esiopetus materiaali ilmaiseksi lisämaksuista tai luo haastavampia tehtäviä vanhemmille alakoulun oppilaille.',
+    sectionDescription: 'Ruudukko Sovitus palvelee erilaisia käyttäjiä esiopetuksen kasvattajista alakoulun opettajiin. Jokainen käyttäjäryhmä hyötyy mukautetuista ruudukkotehtävistä räätälöidyille oppimiskäyttöihin. Visuaalinen havainnointikyky kehittyy kaikissa ikäryhmissä tehtävien adaptiivisella vaikeustasolla. Luo esiopetus materiaali ilmaiseksi lisämaksuista tai luo haastavampia tehtäviä vanhemmille alakoulun oppilaille.',
     badgeText: 'Kenelle Sopii',
     readMoreLabel: 'Lue lisää',
     showLessLabel: 'Näytä vähemmän',
@@ -257,11 +257,11 @@ PDF-tiedostot säilyttävät tarkan asettelun ja fontit kaikilla laitteilla. Tä
         icon: '👶',
         title: 'Esiopetuksen Kasvattajat - Värityskuvia Lapsille Tulostettava Varhaisoppimiseen',
         subtitle: 'Visuaalisen Havainnointikyvyn Kehittäminen 6-vuotiaille',
-        description: `Esiopetuksen kasvattajat käyttävät Grid Matchia visuaalisen havainnointikyvyn kehittämiseen 6-vuotiailla lapsilla. Yksinkertaiset 2×2 ruudukot sopivat täydellisesti esiopetus-ikäisille lapsille, jotka kehittävät avaruudellista päättelyä. Yksi tai kaksi vihjettä pitää tehtävän helposti hallittavissa uusille oppijoille. Valokuvat tutuista esineistä – eläimistä, hedelmistä, leluista – luovat yhteyden lapsen kokemukseen.
+        description: `Esiopetuksen kasvattajat käyttävät Ruudukko Sovitusia visuaalisen havainnointikyvyn kehittämiseen 6-vuotiailla lapsilla. Yksinkertaiset 2×2 ruudukot sopivat täydellisesti esiopetus-ikäisille lapsille, jotka kehittävät avaruudellista päättelyä. Yksi tai kaksi vihjettä pitää tehtävän helposti hallittavissa uusille oppijoille. Valokuvat tutuista esineistä – eläimistä, hedelmistä, leluista – luovat yhteyden lapsen kokemukseen.
 
 Luo teemapaketteja, jotka vastaavat esiopetuksen opetussuunnitelmaa. Syksyteema ruudukoilla tuo esiin omenoita, lehtiä ja kurpitsoita. Talviteema sisältää lumihiutaleita, lumilukkoeja ja talvieläimiä. Teemapohjaiset tehtävät integroivat sanaston rakentamisen visuaalisten taitojen harjoittelun kanssa.
 
-Grid Match säästää valmisteltuaikaa esiopetuksen kasvattajille. Luo viikon tehtävät 15 minuutissa sen sijaan että käyttäisit tunteja leikkaa-ja-liimaa -aktiviteetteihin. Tulosta useita kopioita eri oppimiskeskuksiin. Käytä ruudukkokohtauksia pienten ryhmien aktiviteetteihin, itsenäiseen työskentelyyn tai arvioinnin välineeksi visuaalisen havainnoinnin kehityksen seuraamiseen.`,
+Ruudukko Sovitus säästää valmisteltuaikaa esiopetuksen kasvattajille. Luo viikon tehtävät 15 minuutissa sen sijaan että käyttäisit tunteja leikkaa-ja-liimaa -aktiviteetteihin. Tulosta useita kopioita eri oppimiskeskuksiin. Käytä ruudukkokohtauksia pienten ryhmien aktiviteetteihin, itsenäiseen työskentelyyn tai arvioinnin välineeksi visuaalisen havainnoinnin kehityksen seuraamiseen.`,
         quote: 'Oppilaani rakastavat ruudukkotehtäviä!',
       },
       {
@@ -269,9 +269,9 @@ Grid Match säästää valmisteltuaikaa esiopetuksen kasvattajille. Luo viikon t
         icon: '📚',
         title: 'Alakoulun Opettajat 1-3 Luokka - Matematiikka Tehtävät Alakoulu ja Yhteenlasku Vähennyslasku Tehtävät',
         subtitle: 'Eriyttäminen Eri Taitotasoille',
-        description: `Alakoulun opettajat integroivat Grid Match -tehtävät matematiikan, lukemisen ja yleistiedon oppitunteihin. Ensimmäisen luokan opettajat käyttävät 2×3 tai 3×3 ruudukoita sopivalla haastavuudella 7-vuotiaille oppilaille. Toisen ja kolmannen luokan opettajat siirtyvät 3×4 tai 4×4 ruudukkoihin kehittyneemmille oppijoille. Säädä vihjesoluja eriyttämiseen luokassa.
+        description: `Alakoulun opettajat integroivat Ruudukko Sovitus -tehtävät matematiikan, lukemisen ja yleistiedon oppitunteihin. Ensimmäisen luokan opettajat käyttävät 2×3 tai 3×3 ruudukoita sopivalla haastavuudella 7-vuotiaille oppilaille. Toisen ja kolmannen luokan opettajat siirtyvät 3×4 tai 4×4 ruudukkoihin kehittyneemmille oppijoille. Säädä vihjesoluja eriyttämiseen luokassa.
 
-Liitä Grid Match ainekohtaiseen opetukseen. Matemaattiset käsitteet – muodot, numerot, kuviot – toimivat hyvin ruudukkomuodossa. Lukunopeus harjoitukset käyttävät kuvia, jotka edustavat sanastosanoja. Yleistiedon yksiköt eläimistä, kasveista tai yhteisöstä käyttävät teemapohjaisia ruudukoita tärkeimpien käsitteiden vahvistamiseksi.
+Liitä Ruudukko Sovitus ainekohtaiseen opetukseen. Matemaattiset käsitteet – muodot, numerot, kuviot – toimivat hyvin ruudukkomuodossa. Lukunopeus harjoitukset käyttävät kuvia, jotka edustavat sanastosanoja. Yleistiedon yksiköt eläimistä, kasveista tai yhteisöstä käyttävät teemapohjaisia ruudukoita tärkeimpien käsitteiden vahvistamiseksi.
 
 Luo eriytettyjä tehtäviä eri taitotasoille samassa luokassa. Taitavat oppijat saavat 4×4 ruudukon viidellä vihjeellä. Kamppailevat oppilaat saavat 2×2 ruudukon yhdellä vihjeellä. Sama aihe, erilainen vaikeustaso – kaikki oppilaat harjoittelevat visuaalista havainnointikykyä sopivalla tasolla. Tulosta vastausavaimet nopeaan itsenarviointiin tai vertaisarviointiin.`,
         quote: 'Eriyttäminen on nyt helppoa ja nopeaa.',
@@ -281,11 +281,11 @@ Luo eriytettyjä tehtäviä eri taitotasoille samassa luokassa. Taitavat oppijat
         icon: '🏠',
         title: 'Kotiopetuksen Vanhemmat - Kirjaimet Harjoittelu Esikoulu Monitasoiseen Opetukseen',
         subtitle: 'Monipuolisia Materiaaleja Eri-ikäisille Lapsille',
-        description: `Kotiopetuksen vanhemmat käyttävät Grid Matchia opettamaan useita lapsia eri ikätasoilla samanaikaisesti. Luo ruudukkotehtäviä, jotka vastaavat jokaisen lapsen taitotasoa 10 minuutissa. Esiopetus-ikäinen saa yksinkertaisen 2×2 eläinruudukon. Toisen luokan oppilas saa haastavamman 3×4 maantieteen ruudukon. Kolmannen luokan oppilas työskentelee 4×4 tieteellisten käsitteiden ruudukon parissa.
+        description: `Kotiopetuksen vanhemmat käyttävät Ruudukko Sovitusia opettamaan useita lapsia eri ikätasoilla samanaikaisesti. Luo ruudukkotehtäviä, jotka vastaavat jokaisen lapsen taitotasoa 10 minuutissa. Esiopetus-ikäinen saa yksinkertaisen 2×2 eläinruudukon. Toisen luokan oppilas saa haastavamman 3×4 maantieteen ruudukon. Kolmannen luokan oppilas työskentelee 4×4 tieteellisten käsitteiden ruudukon parissa.
 
-Kotiopetuksen opetussuunnitelmat hyötyvät Grid Matchin joustavuudesta. Seuraa lapsen kiinnostuksen kohteita – dinosauruksia, avaruutta, meren elämää – ja luo tehtäviä noiden teemojen ympärille. Personoi lataamalla perhevalokuvia tai lomakuvia personoituja ruudukkoja varten. Lapset ovat innostuneempia työskennellessään tutuilla kuvilla.
+Kotiopetuksen opetussuunnitelmat hyötyvät Ruudukko Sovitusin joustavuudesta. Seuraa lapsen kiinnostuksen kohteita – dinosauruksia, avaruutta, meren elämää – ja luo tehtäviä noiden teemojen ympärille. Personoi lataamalla perhevalokuvia tai lomakuvia personoituja ruudukkoja varten. Lapset ovat innostuneempia työskennellessään tutuilla kuvilla.
 
-Täysi Käyttöoikeus -tilaus on kustannustehokas kotiopetuksen perheille. Yksi tilaus palvelee kaikkia lapsia kaikilla luokka-asteilla. Ei tarvetta ostaa erillisiä työkirjoja kullekin lapselle. Luo rajattomasti tehtäviä kaikille 33 työkalutyypeille – Grid Match, Math Worksheets, Word Search ja paljon muuta. Säästä satoja dollareita vuodessa vertailtuna perinteisiin kotiopetuksen opetussuunnitelmiin.`,
+Täysi Käyttöoikeus -tilaus on kustannustehokas kotiopetuksen perheille. Yksi tilaus palvelee kaikkia lapsia kaikilla luokka-asteilla. Ei tarvetta ostaa erillisiä työkirjoja kullekin lapselle. Luo rajattomasti tehtäviä kaikille 33 työkalutyypeille – Ruudukko Sovitus, Matematiikkatehtävät, Sanaetsintä ja paljon muuta. Säästä satoja euroja vuodessa vertailtuna perinteisiin kotiopetuksen opetussuunnitelmiin.`,
         quote: 'Yksi työkalu kattaa kaikkien lasteni tarpeet.',
       },
       {
@@ -293,9 +293,9 @@ Täysi Käyttöoikeus -tilaus on kustannustehokas kotiopetuksen perheille. Yksi 
         icon: '🌍',
         title: 'ESL ja Kielten Opettajat - Hienomotoriikka Harjoitukset 11 Kielellä',
         subtitle: '11 Kielen Tuki Kieltenopetukseen',
-        description: `Englannin toisena kielenä opettajat ja maailman kielten ohjaajat käyttävät Grid Matchia sanavaraston rakentamiseen visuaalisilla vihjeillä. Kuvatiedostojen nimet muuttuvat sisällöksi valitulla kielellä. Luo espanjankielinen eläinruudukko – kuvatiedostojen nimet tarjoavat sanavaraston altistumista samalla kun oppilaat harjoittelevat visuaalista havainnointikykyä.
+        description: `Englannin toisena kielenä opettajat ja maailman kielten ohjaajat käyttävät Ruudukko Sovitusia sanavaraston rakentamiseen visuaalisilla vihjeillä. Kuvatiedostojen nimet muuttuvat sisällöksi valitulla kielellä. Luo espanjankielinen eläinruudukko – kuvatiedostojen nimet tarjoavat sanavaraston altistumista samalla kun oppilaat harjoittelevat visuaalista havainnointikykyä.
 
-11 kielen tuki tekee Grid Matchista täydellisen kaksikielisille ohjelmille. Opeta aamulla suomeksi, vaihda espanjaksi iltapäivällä. Sama ruudukkomuoto, eri kieli – oppilaat rakentavat monikielistä osaamista johdonmukaisilla aktiviteeteilla. Kansainväliset koulut käyttävät Grid Matchia opettamaan useita kieliä samalla työkalulla.
+11 kielen tuki tekee Ruudukko Sovitusista täydellisen kaksikielisille ohjelmille. Opeta aamulla suomeksi, vaihda espanjaksi iltapäivällä. Sama ruudukkomuoto, eri kieli – oppilaat rakentavat monikielistä osaamista johdonmukaisilla aktiviteeteilla. Kansainväliset koulut käyttävät Ruudukko Sovitusia opettamaan useita kieliä samalla työkalulla.
 
 Lataa kulttuurisesti merkityksellisiä kuvia kohdeyleisöllesi. ESL-oppilaat, jotka tulevat tietyistä maista, tunnistavat kuvia heidän kotikulttuureistaan. Tämä kulttuurinen yhteys lisää sitoutumista ja motivaatiota. Yhdistä kuvakirjaston kuvia omiin kulttuurisiin kuviisi inklusiiviseen opetukseen.`,
         quote: 'Monikielinen työkalu säästää aikaa ja rahaa.',
@@ -305,11 +305,11 @@ Lataa kulttuurisesti merkityksellisiä kuvia kohdeyleisöllesi. ESL-oppilaat, jo
         icon: '♿',
         title: 'Erityisopetuksen Opettajat - Pisteestä Pisteeseen Tehtävät Adaptiiviseen Oppimiseen',
         subtitle: 'Mukautettavat Tehtävät Yksilöllisiin Tarpeisiin',
-        description: `Erityisopetuksen opettajat mukauttavat Grid Match -tehtäviä yksilöllisiin oppimistarpeisiin. Yksinkertaiset 2×2 ruudukot yhdellä vihjeellä sopivat oppilaille, jotka tarvitsevat pienemmän kognitiivisen kuorman. Suuremmat kuvat ja selkeät kontrastit auttavat näköhäiriöisiä oppilaita. Tulosta suuremmassa koossa tai käytä mukautettuja koko-asetuksia vammaisopiskelijoille.
+        description: `Erityisopetuksen opettajat mukauttavat Ruudukko Sovitus -tehtäviä yksilöllisiin oppimistarpeisiin. Yksinkertaiset 2×2 ruudukot yhdellä vihjeellä sopivat oppilaille, jotka tarvitsevat pienemmän kognitiivisen kuorman. Suuremmat kuvat ja selkeät kontrastit auttavat näköhäiriöisiä oppilaita. Tulosta suuremmassa koossa tai käytä mukautettuja koko-asetuksia vammaisopiskelijoille.
 
 Ruudukon sovitustehtävät kehittävät visuaalista havainnointi- ja avaruudellista päättelykykyä asteittain. Aloita yksinkertaisimmalla tasolla – 2×2 ruudukko yhdellä vihjeellä. Kun opiskelija menestyy, lisää vaikeutta hitaasti. Siirry 2×3 ruudukkoon, sitten 3×3, sitten lisää vihjeitä. Asteittainen eteneminen rakentaa luottamusta ja taitoja ajan myötä.
 
-Luo sosiaaliset tarinat Grid Match -kuvilla opiskelijoille autismin kirjon häiriöissä. Käytä ruudukoita sekvensoinnin harjoituksiin – aseta tapahtumat oikeaan järjestykseen. Tulosta vastausavaimet parityöskentelyyn avustajien tai vertaistukijoiden kanssa. Grid Match sopii moniin erityisopetuksen interventioihin joustavilla asetuksillaan.`,
+Luo sosiaaliset tarinat Ruudukko Sovitus -kuvilla opiskelijoille autismin kirjon häiriöissä. Käytä ruudukoita sekvensoinnin harjoituksiin – aseta tapahtumat oikeaan järjestykseen. Tulosta vastausavaimet parityöskentelyyn avustajien tai vertaistukijoiden kanssa. Ruudukko Sovitus sopii moniin erityisopetuksen interventioihin joustavilla asetuksillaan.`,
         quote: 'Mukautettavuus tekee tehtävistä saavutettavia.',
       },
       {
@@ -317,11 +317,11 @@ Luo sosiaaliset tarinat Grid Match -kuvilla opiskelijoille autismin kirjon häir
         icon: '💼',
         title: 'Opettajayrittäjät - Lukemaan Oppiminen Tehtävät Myyntiin Teachers Pay Teachersilla',
         subtitle: 'Passiivisia Tuloja Digitaalisilla Latauksilla',
-        description: `Opettajayrittäjät rakentavat passiivisia tulolähteitä myymällä Grid Match -tehtäviä digitaalisina latauksina. Teachers Pay Teachers, Etsy ja Amazon KDP ovat suosittuja alustoja tulostettaville työkaluille. Luo teemapaketteja – "Kesän Grid Match -paketit", "Dinosaurus-ruudukot", "Juhlapäivien visuaaliset palapelir" – ja myy niitä 3–8 dollaria per paketti.
+        description: `Opettajayrittäjät rakentavat passiivisia tulolähteitä myymällä Ruudukko Sovitus -tehtäviä digitaalisina latauksina. Teachers Pay Teachers, Etsy ja Amazon KDP ovat suosittuja alustoja tulostettaville työkaluille. Luo teemapaketteja – "Kesän Ruudukko Sovitus -paketit", "Dinosaurus-ruudukot", "Juhlapäivien visuaaliset palapelir" – ja myy niitä 3–8 euroa per paketti.
 
-Täysi Käyttöoikeus -tilaus sisältää kaupallisen POD-lisenssin ilman lisämaksuja. Monet kilpailijat veloittavat 79–199 dollaria vuodessa ylimääräisiä lisenssimaksuja. LessonCraft sisältää kaupallisen lisenssin 240 dollarin vuosihintaan – säästä 200+ dollaria vuodessa. Ei attribuutioita tarvita – täysi omistusoikeus kaikkiin luomiisi tehtäviin.
+Täysi Käyttöoikeus -tilaus sisältää kaupallisen POD-lisenssin ilman lisämaksuja. Monet kilpailijat veloittavat 79–199 euroa vuodessa ylimääräisiä lisenssimaksuja. LessonCraft Studio sisältää kaupallisen lisenssin 240 euron vuosihintaan – säästä 200+ euroa vuodessa. Ei attribuutioita tarvita – täysi omistusoikeus kaikkiin luomiisi tehtäviin.
 
-300 DPI -kauppalaatuinen vienti varmistaa ammattimaiset digitaaliset tuotteet. Asiakkaat odottavat korkealaatuisia tulostuksia – Grid Match tarjoaa sen jokaisessa latauksessa. Luo tuotepaketteja yhdistämällä Grid Match muihin LessonCraft-työkaluihin. Täydellinen teemapaketti sisältää ruudukon sovitukset, värityskuvat, sanapulmia ja matematiikkatehtäviä – kaikki luotu samoilla työkaluilla.`,
+300 DPI -kauppalaatuinen vienti varmistaa ammattimaiset digitaaliset tuotteet. Asiakkaat odottavat korkealaatuisia tulostuksia – Ruudukko Sovitus tarjoaa sen jokaisessa latauksessa. Luo tuotepaketteja yhdistämällä Ruudukko Sovitus muihin LessonCraft Studio-työkaluihin. Täydellinen teemapaketti sisältää ruudukon sovitukset, värityskuvat, sanapulmia ja matematiikkatehtäviä – kaikki luotu samoilla työkaluilla.`,
         quote: 'Opettajayrittäjyys on nyt mahdollista kaikille.',
       },
     ],
@@ -330,7 +330,7 @@ Täysi Käyttöoikeus -tilaus sisältää kaupallisen POD-lisenssin ilman lisäm
   // FAQ Section - FULL text from Finnish grid-match.md FAQ sections
   faq: {
     sectionTitle: 'Usein Kysytyt Kysymykset Tulostettavat Tehtävät Lapsille Ilmainen',
-    sectionDescription: 'Grid Match herättää kysymyksiä hinnoittelusta, ominaisuuksista ja käytöstä. Nämä 12 kysymystä kattavat yleisimmät huolenaiheet opettajilta, vanhemmilta ja kasvattajilta. Vastaukset tarjoavat yksityiskohtaiset selitykset Grid Matchin kyvyistä ja rajoituksista. Lue läpi ennen tilauksen aloittamista saadaksesi täydellisen ymmärryksen siitä, mitä Grid Match tarjoaa.',
+    sectionDescription: 'Ruudukko Sovitus herättää kysymyksiä hinnoittelusta, ominaisuuksista ja käytöstä. Nämä 12 kysymystä kattavat yleisimmät huolenaiheet opettajilta, vanhemmilta ja kasvattajilta. Vastaukset tarjoavat yksityiskohtaiset selitykset Ruudukko Sovitusin kyvyistä ja rajoituksista. Lue läpi ennen tilauksen aloittamista saadaksesi täydellisen ymmärryksen siitä, mitä Ruudukko Sovitus tarjoaa.',
     badgeText: 'Usein Kysytyt',
     readMoreLabel: 'Lue lisää',
     showLessLabel: 'Näytä vähemmän',
@@ -339,17 +339,17 @@ Täysi Käyttöoikeus -tilaus sisältää kaupallisen POD-lisenssin ilman lisäm
     items: [
       {
         id: '1',
-        question: 'Onko Tämä Grid Match -Generaattori Todella Tulostettavat Tehtävät Lapsille Ilmainen Käyttää?',
-        answer: `Grid Match -tehtävägeneraattori vaatii Täysi Käyttöoikeus -tilauksen, joka maksaa 240 dollaria vuodessa tai 25 dollaria kuukaudessa. Tilauksesi antaa rajattoman Grid Match -tehtävien luonnin ilman maksua per tehtävä. Luo niin monta esiopetus materiaali ilmaiseksi lisämaksuista ruudukkotehtävää kuin tarvitset ilman lisäveloituksia. Ei piilotettuja maksuja tai per-lataus -veloituksia.
+        question: 'Onko Tämä Ruudukko Sovitus -Generaattori Todella Tulostettavat Tehtävät Lapsille Ilmainen Käyttää?',
+        answer: `Ruudukko Sovitus -tehtävägeneraattori vaatii Täysi Käyttöoikeus -tilauksen, joka maksaa 240 euroa vuodessa tai 25 euroa kuukaudessa. Tilauksesi antaa rajattoman Ruudukko Sovitus -tehtävien luonnin ilman maksua per tehtävä. Luo niin monta esiopetus materiaali ilmaiseksi lisämaksuista ruudukkotehtävää kuin tarvitset ilman lisäveloituksia. Ei piilotettuja maksuja tai per-lataus -veloituksia.
 
-Täysi Käyttöoikeus sisältää kaikki 33 tehtävägeneraattorityyppiä Grid Matchin lisäksi. Peruspaketti sisältää 10 suosittua generaattoria ja maksaa 144 dollaria vuodessa. Molemmat tilaukset sisältävät kaupallisen lisenssin, 11 kielen tuen ja ammattimaisen 300 DPI -laatuisen viennin. Valitse tilaus tarpeidesi perusteella.
+Täysi Käyttöoikeus sisältää kaikki 33 tehtävägeneraattorityyppiä Ruudukko Sovitusin lisäksi. Peruspaketti sisältää 10 suosittua generaattoria ja maksaa 144 euroa vuodessa. Molemmat tilaukset sisältävät kaupallisen lisenssin, 11 kielen tuen ja ammattimaisen 300 DPI -laatuisen viennin. Valitse tilaus tarpeidesi perusteella.
 
-Yksikään LessonCraft-generaattori ei ole ilmainen käyttää. Kaikki työkalut vaativat joko Peruspaketti- tai Täysi Käyttöoikeus -tilauksen. Grid Match on Täysi Käyttöoikeus -työkalu, joten Peruspaketti ei anna pääsyä. Investointi maksaa itsensä takaisin nopeasti aikasäästöillä ja ammattimaisen laadun tehtävillä.`,
+Yksikään LessonCraft Studio-generaattori ei ole ilmainen käyttää. Kaikki työkalut vaativat joko Peruspaketti- tai Täysi Käyttöoikeus -tilauksen. Ruudukko Sovitus on Täysi Käyttöoikeus -työkalu, joten Peruspaketti ei anna pääsyä. Investointi maksaa itsensä takaisin nopeasti aikasäästöillä ja ammattimaisen laadun tehtävillä.`,
       },
       {
         id: '2',
-        question: 'Voinko Tulostaa Värityskuvia Lapsille Tulostettava Grid Match -Tehtäviä Kotona Tavallisella Tulostimella?',
-        answer: `Kyllä. Grid Match -tehtävät latautuvat 300 DPI -resoluutiossa, joka tulostuu täydellisesti tavallisilla kotitulostimilla. Lataa PDF- tai JPEG-muotoinen tiedosto ja tulosta Letter- tai A4-kokoiselle paperille. Ei tarvetta erikoistulostimille tai kalliisiin laitteistoille. Mikä tahansa mustesuihku- tai lasertulostin toimii hyvin.
+        question: 'Voinko Tulostaa Värityskuvia Lapsille Tulostettava Ruudukko Sovitus -Tehtäviä Kotona Tavallisella Tulostimella?',
+        answer: `Kyllä. Ruudukko Sovitus -tehtävät latautuvat 300 DPI -resoluutiossa, joka tulostuu täydellisesti tavallisilla kotitulostimilla. Lataa PDF- tai JPEG-muotoinen tiedosto ja tulosta Letter- tai A4-kokoiselle paperille. Ei tarvetta erikoistulostimille tai kalliisiin laitteistoille. Mikä tahansa mustesuihku- tai lasertulostin toimii hyvin.
 
 Harmaasävyvaihtoehto säästää mustekustannuksia tulostettaessa massakopioita. Muunna värillinen suunnittelu mustavalkoiseksi ennen lataamista. Harmaasävyversiot tulostuvat selkeästi ja säästävät 50–70 % mustekustannuksista. Täydellinen budjettitietoisille kotiopettajille tai opettajille, jotka tulostavat kymmeniä kopioita.
 
@@ -357,43 +357,43 @@ Monet opettajat tulostavat kotona ja tuovat kopiot kouluun. Tämä välttää ko
       },
       {
         id: '3',
-        question: 'Tarvitsenko Suunnittelutaitoja Luodakseni Kirjaimet Harjoittelu Esikoulu Grid Match -Tehtäviä?',
-        answer: `Ei. Grid Match vaatii nolla suunnittelukokemusta tai teknisiä taitoja. Kaikki kontrollit ovat yksinkertaisia pudotusvalikoita, liukusäätimiä ja painikkeita. Valitse ruudukkoasetuksesi, klikkaa "Luo tehtävä" ja ruudukko ilmestyy välittömästi. Koko prosessi vie alle 3 minuuttia matematiikka tehtävät alakoulu suunnitteluun.
+        question: 'Tarvitsenko Suunnittelutaitoja Luodakseni Kirjaimet Harjoittelu Esikoulu Ruudukko Sovitus -Tehtäviä?',
+        answer: `Ei. Ruudukko Sovitus vaatii nolla suunnittelukokemusta tai teknisiä taitoja. Kaikki kontrollit ovat yksinkertaisia pudotusvalikoita, liukusäätimiä ja painikkeita. Valitse ruudukkoasetuksesi, klikkaa "Luo tehtävä" ja ruudukko ilmestyy välittömästi. Koko prosessi vie alle 3 minuuttia matematiikka tehtävät alakoulu suunnitteluun.
 
-Vedä-ja-pudota -editori tekee mukautuksesta intuitiiviseksi. Klikkaa elementtiä valitaksesi sen, vedä siirtääksesi, skaalaa kulmista kokomuutokseen. Ei tarvetta oppia monimutkaisia suunnitteluohjelmistoja kuten Photoshop tai Illustrator. Jos osaat käyttää hiirtä, voit luoda ammattilaatuisia Grid Match -tehtäviä.
+Vedä-ja-pudota -editori tekee mukautuksesta intuitiiviseksi. Klikkaa elementtiä valitaksesi sen, vedä siirtääksesi, skaalaa kulmista kokomuutokseen. Ei tarvetta oppia monimutkaisia suunnitteluohjelmistoja kuten Photoshop tai Illustrator. Jos osaat käyttää hiirtä, voit luoda ammattilaatuisia Ruudukko Sovitus -tehtäviä.
 
-Monet 60-70-vuotiaat opettajat käyttävät Grid Matchia onnistuneesti. Jos teknologia pelottaa sinua, älä huoli – Grid Match on suunniteltu käyttäjäystävälliseksi kaikille taitotasoille. Katso 3 minuutin opetusvideo ja olet valmis luomaan. Asiakastuki on saatavilla, jos tarvitset apua.`,
+Monet 60-70-vuotiaat opettajat käyttävät Ruudukko Sovitusia onnistuneesti. Jos teknologia pelottaa sinua, älä huoli – Ruudukko Sovitus on suunniteltu käyttäjäystävälliseksi kaikille taitotasoille. Katso 3 minuutin opetusvideo ja olet valmis luomaan. Asiakastuki on saatavilla, jos tarvitset apua.`,
       },
       {
         id: '4',
-        question: 'Voinko Käyttää Kertotaulut Tulostettava Grid Match -Tehtäviä Luokassani Opiskelijoille?',
-        answer: `Kyllä. Täysi Käyttöoikeus -tilaus sisältää rajattoman luokkahuonekäytön kaikille Grid Match -tehtäville. Tulosta niin monta kopiota kuin tarvitset kaikille opiskelijoillesi. Ei rajoituksia opiskelijoiden määrässä tai luokkatasoissa. Jaa digitaalisesti Google Classroomin tai Seesaw'n kautta tai tulosta fyysisiä kopioita.
+        question: 'Voinko Käyttää Kertotaulut Tulostettava Ruudukko Sovitus -Tehtäviä Luokassani Opiskelijoille?',
+        answer: `Kyllä. Täysi Käyttöoikeus -tilaus sisältää rajattoman luokkahuonekäytön kaikille Ruudukko Sovitus -tehtäville. Tulosta niin monta kopiota kuin tarvitset kaikille opiskelijoillesi. Ei rajoituksia opiskelijoiden määrässä tai luokkatasoissa. Jaa digitaalisesti Google Classroomin tai Seesaw'n kautta tai tulosta fyysisiä kopioita.
 
 Monet piirit sallivat opettajien yksilöllisten tilausten käytön luokkahuoneessa. Tarkista piirisi käytännöt varmistaaksesi vaatimustenmukaisuuden. Useimmat piirit hyväksyvät henkilökohtaiset tilaukset opetuskäyttöön. Jotkut piirit ostavat piirin laajuisia lisenssejä kaikille opettajille – kysy IT-osastoltasi.
 
-Grid Match -tehtävät toimivat hyvin kaikissa opetusmuodoissa. Käytä täydelliselle luokalle opetukseen. Tulosta eriytettyjä versioita pienryhmätyöskentelyyn. Luo itsenäisiä työskentelypaketteja oppimiskeskuksiin. Jaa digitaalisesti etäoppimiseen pandemian aikana tai lumenluontipäivinä. Täysi joustavuus kaikissa opetustilanteissa.`,
+Ruudukko Sovitus -tehtävät toimivat hyvin kaikissa opetusmuodoissa. Käytä täydelliselle luokalle opetukseen. Tulosta eriytettyjä versioita pienryhmätyöskentelyyn. Luo itsenäisiä työskentelypaketteja oppimiskeskuksiin. Jaa digitaalisesti etäoppimiseen pandemian aikana tai lumenluontipäivinä. Täysi joustavuus kaikissa opetustilanteissa.`,
       },
       {
         id: '5',
-        question: 'Mitä Kieliä Yhteenlasku Vähennyslasku Tehtävät Grid Match On Saatavilla?',
-        answer: `Grid Match tukee 11 kieltä: englanti, saksa, ranska, espanja, italia, portugali (Brasilia), hollanti, tanska, ruotsi, norja ja suomi. Vaihda kieltä milloin tahansa Sivun asetukset -harmonikassa. Koko käyttöliittymä kääntyy välittömästi valitulle kielelle. Tämä sisältää kaikki painikkeet, otsikot, työkaluvihjeet ja ohjeet.
+        question: 'Mitä Kieliä Yhteenlasku Vähennyslasku Tehtävät Ruudukko Sovitus On Saatavilla?',
+        answer: `Ruudukko Sovitus tukee 11 kieltä: englanti, saksa, ranska, espanja, italia, portugali (Brasilia), hollanti, tanska, ruotsi, norja ja suomi. Vaihda kieltä milloin tahansa Sivun asetukset -harmonikassa. Koko käyttöliittymä kääntyy välittömästi valitulle kielelle. Tämä sisältää kaikki painikkeet, otsikot, työkaluvihjeet ja ohjeet.
 
 Kielivalinta vaikuttaa kuvatiedostojen nimiin sisällön luonnissa. Valitse suomi ja kuvatiedostojen nimet näkyvät suomeksi. Vaihda espanjaksi ja samat kuvat näyttävät espanjalaisia nimiä. Tämä on tärkeää hienomotoriikka harjoitukset sanavaraston rakentamiseen ESL- ja kaksikielisessä opetuksessa.
 
-Kaikki 11 kieltä sisältyvät Täysi Käyttöoikeus -tilaukseen ilman lisämaksuja. Kilpailijat veloittavat 50–100 dollaria per lisäkieli. LessonCraft sisältää kaikki kielet samalla 240 dollarin vuosihinnalla. Vaihda kielten välillä rajattomasti – ei rajoituksia tai rajoituksia monikielisessä käytössä.`,
+Kaikki 11 kieltä sisältyvät Täysi Käyttöoikeus -tilaukseen ilman lisämaksuja. Kilpailijat veloittavat 50–100 euroa per lisäkieli. LessonCraft Studio sisältää kaikki kielet samalla 240 euron vuosihinnalla. Vaihda kielten välillä rajattomasti – ei rajoituksia tai rajoituksia monikielisessä käytössä.`,
       },
       {
         id: '6',
-        question: 'Voinko Myydä Pisteestä Pisteeseen Tehtävät Grid Match -Tehtäviä, Jotka Luon Tällä Generaattorilla?',
-        answer: `Kyllä. Täysi Käyttöoikeus -tilaus sisältää täyden kaupallisen tulostus-tarvittaessa -lisenssin ilman lisäkustannuksia. Myy Grid Match -tehtäviä Teachers Pay Teachersilla, Etsyssä, Amazon KDP:ssä tai millä tahansa digitaalisten tuotteiden alustalla. Ei attribuutioita tarvita – täysi omistusoikeus kaikkiin luomiisi suunnitteluihin.
+        question: 'Voinko Myydä Pisteestä Pisteeseen Tehtävät Ruudukko Sovitus -Tehtäviä, Jotka Luon Tällä Generaattorilla?',
+        answer: `Kyllä. Täysi Käyttöoikeus -tilaus sisältää täyden kaupallisen tulostus-tarvittaessa -lisenssin ilman lisäkustannuksia. Myy Ruudukko Sovitus -tehtäviä Teachers Pay Teachersilla, Etsyssä, Amazon KDP:ssä tai millä tahansa digitaalisten tuotteiden alustalla. Ei attribuutioita tarvita – täysi omistusoikeus kaikkiin luomiisi suunnitteluihin.
 
-300 DPI -kauppalaatuinen vienti varmistaa ammattimaiset tuotteet, jotka asiakkaat rakastavat. Lataa PDF- tai JPEG-muodoissa myyntiä varten. Luo teemapaketteja – "Kesän Grid Match -paketit", "Dinosaurus-ruudukot", "Juhlapäivien visuaaliset palapelir" – ja myy niitä 3–8 dollaria per paketti. Monet opettajayrittäjät ansaitsevat 500–5000 dollaria kuukaudessa.
+300 DPI -kauppalaatuinen vienti varmistaa ammattimaiset tuotteet, jotka asiakkaat rakastavat. Lataa PDF- tai JPEG-muodoissa myyntiä varten. Luo teemapaketteja – "Kesän Ruudukko Sovitus -paketit", "Dinosaurus-ruudukot", "Juhlapäivien visuaaliset palapelir" – ja myy niitä 3–8 euroa per paketti. Monet opettajayrittäjät ansaitsevat 500–5000 euroa kuukaudessa.
 
-Kilpailijat veloittavat 79–199 dollaria vuodessa ylimääräisiä lisenssimaksuja kaupallisiin oikeuksiin. LessonCraft sisältää kaupallisen lisenssin 240 dollarin vuosihintaan – säästä 200+ dollaria vuodessa pelkästään lisenssimaksuissa. Tilaus maksaa itsensä takaisin ensimmäisten muutaman myynnin jälkeen.`,
+Kilpailijat veloittavat 79–199 euroa vuodessa ylimääräisiä lisenssimaksuja kaupallisiin oikeuksiin. LessonCraft Studio sisältää kaupallisen lisenssin 240 euron vuosihintaan – säästä 200+ euroa vuodessa pelkästään lisenssimaksuissa. Tilaus maksaa itsensä takaisin ensimmäisten muutaman myynnin jälkeen.`,
       },
       {
         id: '7',
-        question: 'Kuinka Mukautan Tulostettavat Tehtävät Lapsille Ilmainen Grid Match -Tehtäviä Opiskelijoilleni?',
+        question: 'Kuinka Mukautan Tulostettavat Tehtävät Lapsille Ilmainen Ruudukko Sovitus -Tehtäviä Opiskelijoilleni?',
         answer: `Mukauta ruudukkoasetuksia: 2-4 riviä, 2-4 saraketta, 1-5 vihjettä. Yksinkertaiset 2×2 ruudukot sopivat esiopetukselle. Monimutkaisemmat 4×4 ruudukot haastavat alakoulun oppilaita. Säädä vaikeutta vastaamaan opiskelijoidesi taitotasoa. Luo useita versioita eriyttämiseen samassa luokassa.
 
 Muokkaa kaikkea vedä-ja-pudota -editorilla. Siirrä kuvapalasia, skaalaa elementtejä, kierrä objekteja. Lisää tekstiohjeita seitsemällä fonttivaihtoehdolla. Valitse taustateemat tai reunateemat ammattimaisen ulkoasun saavuttamiseksi. Käytä värivalitsimia mukautettuihin väreihin tai säädä läpinäkyvyyttä hienoihin vaikutuksiin.
@@ -402,16 +402,16 @@ Lataa omia kuvia personointiin. Lisää opiskelijoidesi valokuvia, luokkaretkiku
       },
       {
         id: '8',
-        question: 'Mitkä Ikäryhmät Toimivat Parhaiten Näiden Esiopetus Materiaali Ilmaiseksi Grid Match -Tehtävien Kanssa?',
-        answer: `Grid Match toimii hyvin 5-10-vuotiaille lapsille esiopetuksesta kolmanteen luokkaan. Esiopetus-ikäiset lapset (5-6-vuotiaat) työskentelevät yksinkertaisten 2×2 ruudukkojen parissa yhdellä tai kahdella vihjeellä. Ensimmäisen luokan oppilaat (6-7-vuotiaat) käsittelevät 2×3 tai 3×3 ruudukoita kahdesta neljään vihjettä.
+        question: 'Mitkä Ikäryhmät Toimivat Parhaiten Näiden Esiopetus Materiaali Ilmaiseksi Ruudukko Sovitus -Tehtävien Kanssa?',
+        answer: `Ruudukko Sovitus toimii hyvin 5-10-vuotiaille lapsille esiopetuksesta kolmanteen luokkaan. Esiopetus-ikäiset lapset (5-6-vuotiaat) työskentelevät yksinkertaisten 2×2 ruudukkojen parissa yhdellä tai kahdella vihjeellä. Ensimmäisen luokan oppilaat (6-7-vuotiaat) käsittelevät 2×3 tai 3×3 ruudukoita kahdesta neljään vihjettä.
 
 Toisen ja kolmannen luokan oppilaat (7-9-vuotiaat) nauttivat haastavammista 3×4 tai 4×4 ruudukolta viidellä vihjeellä. Säädä vaikeutta kehitystasolla eikä iällä – jotkut esiopetus-ikäiset lapset voivat käsitellä monimutkaisempia ruudukoita, kun taas jotkut alakoulun oppilaat tarvitsevat yksinkertaisempia versioita. Tarkkaile opiskelijoidesi suoritusta ja säädä vastaavasti.
 
-Erityisopetuksen oppilaat kaikilla ikätasoilla hyötyvät Grid Matchista. Yksinkertaiset ruudukot toimivat kognitiivisille viiveille tai visuaalisille havainnoinnin haasteille. Varttuneemmat oppilaat, jotka kamppailevat muiden akateemisten alueiden kanssa, nauttivat visuaalisista palapeleistä, jotka perustuvat vahvuuksiin eikä heikkouksiin. Ikä on vähemmän tärkeä kuin kehitysvalmius.`,
+Erityisopetuksen oppilaat kaikilla ikätasoilla hyötyvät Ruudukko Sovitusista. Yksinkertaiset ruudukot toimivat kognitiivisille viiveille tai visuaalisille havainnoinnin haasteille. Varttuneemmat oppilaat, jotka kamppailevat muiden akateemisten alueiden kanssa, nauttivat visuaalisista palapeleistä, jotka perustuvat vahvuuksiin eikä heikkouksiin. Ikä on vähemmän tärkeä kuin kehitysvalmius.`,
       },
       {
         id: '9',
-        question: 'Voinko Ladata Omia Kuvia Värityskuvia Lapsille Tulostettava Grid Match -Tehtäviin?',
+        question: 'Voinko Ladata Omia Kuvia Värityskuvia Lapsille Tulostettava Ruudukko Sovitus -Tehtäviin?',
         answer: `Kyllä. Monen tiedoston lataus tukee JPEG-, PNG- ja GIF-muotoja. Klikkaa "Lataa omat kuvat" -harmoniikkaa ja valitse tiedostot tietokoneeltasi. Ladatut kuvat ilmestyvät välittömästi käytettävissä oleviin kuviin. Klikkaa mitä tahansa ladattua kuvaa käyttääksesi sitä ruudukossa aivan kuten kirjastokuvien kanssa.
 
 Yhdistä kirjastokuvia omiin kuvaasi ainutlaatuisiin suunnitteluihin. Käytä 3000+ lapsille sopivaa kirjastokuvaa taustoiksi ja lisää omia kuvia kohdekohtiin. Luo tehtäviä opiskelijoidesi lemmikkieläimistä, luokkahuoneen retkistä tai koulun tapahtumista. Personoitu sisältö lisää sitoutumista ja motivaatiota merkittävästi.
@@ -420,17 +420,17 @@ Ei tiedostokokorajoituksia tai latausmaksuja. Täysi Käyttöoikeus -tilaus sis�
       },
       {
         id: '10',
-        question: 'Kuinka Kauan Kestää Luoda Kertotaulut Tulostettava Grid Match -Tehtävä?',
+        question: 'Kuinka Kauan Kestää Luoda Kertotaulut Tulostettava Ruudukko Sovitus -Tehtävä?',
         answer: `Alle 3 minuuttia alusta loppuun. Valitse ruudukkoasetuksesi: 30 sekuntia. Valitse teema tai yksittäiset kuvat kuvakirjastosta: 60 sekuntia. Klikkaa "Luo tehtävä": välitön. Pikamukautukset editorilla: 30–60 sekuntia. Lataa PDF tai JPEG: 10 sekuntia. Kokonaisaika: 2 minuuttia 30 sekuntia – 3 minuuttia.
 
-Perinteinen menetelmä – Wordilla leikkaaminen ja liittäminen, klippitaiteen haku, asettelun manuaalinen säätäminen, kuvan jakaminen ruudukkoon – vie 30–60 minuuttia samaan tehtävään. Grid Match säästää 27–57 minuuttia per tehtävä. Kerro 5 tehtävää viikossa = 135–285 minuuttia säästetty viikoittain. Se on 2–5 tuntia takaisin elämääsi joka viikko.
+Perinteinen menetelmä – Wordilla leikkaaminen ja liittäminen, klippitaiteen haku, asettelun manuaalinen säätäminen, kuvan jakaminen ruudukkoon – vie 30–60 minuuttia samaan tehtävään. Ruudukko Sovitus säästää 27–57 minuuttia per tehtävä. Kerro 5 tehtävää viikossa = 135–285 minuuttia säästetty viikoittain. Se on 2–5 tuntia takaisin elämääsi joka viikko.
 
-Nopeus paranee harjoituksen myötä. Ensimmäinen Grid Match -tehtäväsi saattaa viedä 5 minuuttia kun opit käyttöliittymän. Kymmenennellä tehtävällä luot 2 minuutissa johdonmukaisesti. Kokemuksen myötä rakennat teemapaketteja – 10 Grid Match -tehtävää samasta teemasta – 20 minuutissa yhteensä. Massiiviset aikasäästöt kertautuvat kouluvuoden mittaan.`,
+Nopeus paranee harjoituksen myötä. Ensimmäinen Ruudukko Sovitus -tehtäväsi saattaa viedä 5 minuuttia kun opit käyttöliittymän. Kymmenennellä tehtävällä luot 2 minuutissa johdonmukaisesti. Kokemuksen myötä rakennat teemapaketteja – 10 Ruudukko Sovitus -tehtävää samasta teemasta – 20 minuutissa yhteensä. Massiiviset aikasäästöt kertautuvat kouluvuoden mittaan.`,
       },
       {
         id: '11',
-        question: 'Sisältävätkö Yhteenlasku Vähennyslasku Tehtävät Grid Match -Tehtävät Vastausavaimet?',
-        answer: `Kyllä. Grid Match generoi vastausavaimet automaattisesti jokaiselle tehtävälle. Vastausavainvälilehti näyttää täydellisen kuvan ratkaisuineen. Lataa vastausavain erikseen – Vastausavain (PDF) tai Vastausavain (JPEG). Molemmat muodot latautuvat 300 DPI -resoluutiossa ammattimaiseen tulostukseen.
+        question: 'Sisältävätkö Yhteenlasku Vähennyslasku Tehtävät Ruudukko Sovitus -Tehtävät Vastausavaimet?',
+        answer: `Kyllä. Ruudukko Sovitus generoi vastausavaimet automaattisesti jokaiselle tehtävälle. Vastausavainvälilehti näyttää täydellisen kuvan ratkaisuineen. Lataa vastausavain erikseen – Vastausavain (PDF) tai Vastausavain (JPEG). Molemmat muodot latautuvat 300 DPI -resoluutiossa ammattimaiseen tulostukseen.
 
 Vastausavaimet säästävät aikaa arvioinnissa. Opiskelijat voivat tarkistaa oman työnsä vastausavainta vastaan itsenäiseen arviointiin. Vertaisarviointi toimii hyvin – opiskelijat vaihtavat tehtäviä ja tarkistavat toistensa työn vastausavainta käyttäen. Opettajat käyttävät vastausavaimia nopeaan arviointiin ilman manuaalista ratkaisun tekemistä.
 
@@ -438,8 +438,8 @@ Tulosta vastausavaimia erikseen tai sisällytä samalle sivulle tehtävän kanss
       },
       {
         id: '12',
-        question: 'Voinko Luoda Kirjaimet Harjoittelu Esikoulu, Matematiikka Tehtävät Alakoulu ja Lukemaan Oppiminen Tehtävät Grid Match -Tehtäviä Tietyistä Koulun Aineista?',
-        answer: `Kyllä. Grid Match toimii kaikille koulun aineille käyttämällä ainekohtaisia kuvia. Matematiikalle: muodot, numerot, kuviot, geometriset objektit. Lukemiselle: kirjaimet, eläimet sanavarastosanoille, toimintakuvat verbivaltaiselle sanavarastolle. Tieteelle: eläimet, kasvit, sää, planeetat, kehon osat.
+        question: 'Voinko Luoda Kirjaimet Harjoittelu Esikoulu, Matematiikka Tehtävät Alakoulu ja Lukemaan Oppiminen Tehtävät Ruudukko Sovitus -Tehtäviä Tietyistä Koulun Aineista?',
+        answer: `Kyllä. Ruudukko Sovitus toimii kaikille koulun aineille käyttämällä ainekohtaisia kuvia. Matematiikalle: muodot, numerot, kuviot, geometriset objektit. Lukemiselle: kirjaimet, eläimet sanavarastosanoille, toimintakuvat verbivaltaiselle sanavarastolle. Tieteelle: eläimet, kasvit, sää, planeetat, kehon osat.
 
 Yhteiskuntaopetukselle: karttojen symbolit, yhteisön työntekijät, maamerkit, liput. Taiteelle: värit, muodot, taidetyökalut, kuuluisia taideteoksia. Musiikille: instrumentit, nuotit, musiikin symbolit. 3000+ kuvan kirjasto kattaa useimmat koulun aiheet esiopetuksesta alakouluun.
 
@@ -450,8 +450,8 @@ Lataa omia ainekohtaisia kuvia aiheille, joita ei kata kirjasto. Tieteen opettaj
 
   // Related Apps Section
   relatedApps: {
-    sectionTitle: 'Yhdistä Grid Match Muihin Tulostettavat Tehtävät Lapsille Ilmainen Työkaluihin',
-    sectionDescription: 'LessonCraft Studio tarjoaa 33 työkalua opettajille. Yhdistä Grid Match -ruudukkotehtävät muihin työkaluihin luodaksesi täydellisiä oppimispaketteja. Täysi Käyttöoikeus -tilaus antaa pääsyn kaikkiin työkaluihin yhteen hintaan.',
+    sectionTitle: 'Yhdistä Ruudukko Sovitus Muihin Tulostettavat Tehtävät Lapsille Ilmainen Työkaluihin',
+    sectionDescription: 'LessonCraft Studio tarjoaa 33 työkalua opettajille. Yhdistä Ruudukko Sovitus -ruudukkotehtävät muihin työkaluihin luodaksesi täydellisiä oppimispaketteja. Täysi Käyttöoikeus -tilaus antaa pääsyn kaikkiin työkaluihin yhteen hintaan.',
     ctaTitle: 'Valmiina Luomaan Upeita Työarkkeja?',
     ctaDescription: 'Liity tuhansien opettajien joukkoon, jotka luovat ammattimaisia työarkkeja. Rajoittamaton generointi, kaupallinen lisenssi sisältyy.',
     primaryCtaText: 'Aloita Ilmainen Kokeilu',

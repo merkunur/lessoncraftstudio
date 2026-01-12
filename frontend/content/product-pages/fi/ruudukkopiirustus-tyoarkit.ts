@@ -406,7 +406,9 @@ Luo tehtäväpaketteja teemoittain maksimoidaksesi myyntiä. "Eläinten ruudukko
   faq: {
     sectionTitle: 'Usein Kysytyt Kysymykset',
     sectionDescription: 'Opettajat kysyvät usein samoja kysymyksiä ruudukkopiirustustehtävägeneraattorista. Hinnoittelu, tulostaminen, mukautus ja käyttö ovat yleisimpiä aiheita.',
-    badgeText: 'Usein Kysytyt Kysymykset',
+    showMoreText: 'Näytä lisää kysymyksiä',
+    showLessText: 'Näytä vähemmän',
+    badgeText: 'UKK',
     readMoreLabel: 'Lue lisää',
     showLessLabel: 'Näytä vähemmän',
     secureCheckout: 'Turvallinen maksu',

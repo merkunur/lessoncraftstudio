@@ -258,6 +258,7 @@ import picturePathFiContent from '@/content/product-pages/fi/kuvapolku-tyoarkit'
 import pictureSortFiContent from '@/content/product-pages/fi/kuvalajittelu-tyoarkit';
 import prepositionsFiContent from '@/content/product-pages/fi/prepositio-tyoarkit';
 import shadowMatchFiContent from '@/content/product-pages/fi/varjoyhdistely-tyoarkit';
+import subtractionFiContent from '@/content/product-pages/fi/vahennyslasku-tyoarkit';
 
 interface PageProps {
   params: {
@@ -9795,6 +9796,8 @@ export async function generateStaticParams() {
     'kuvapolku-tyoarkit', // Product page slug (Finnish) - language-specific SEO slug for picture-path
     'kuvalajittelu-tyoarkit', // Product page slug (Finnish) - language-specific SEO slug for picture-sort
     'prepositio-tyoarkit', // Product page slug (Finnish) - language-specific SEO slug for prepositions
+    'varjoyhdistely-tyoarkit', // Product page slug (Finnish) - language-specific SEO slug for shadow-match
+    'vahennyslasku-tyoarkit', // Product page slug (Finnish) - language-specific SEO slug for subtraction
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

@@ -107,6 +107,7 @@ import picturePathFiContent from '@/content/product-pages/fi/kuvapolku-tyoarkit'
 import pictureSortFiContent from '@/content/product-pages/fi/kuvalajittelu-tyoarkit';
 import prepositionsFiContent from '@/content/product-pages/fi/prepositio-tyoarkit';
 import shadowMatchFiContent from '@/content/product-pages/fi/varjoyhdistely-tyoarkit';
+import subtractionFiContent from '@/content/product-pages/fi/vahennyslasku-tyoarkit';
 
 // German content imports
 import wordSearchDeContent from '@/content/product-pages/de/word-search-worksheets';
@@ -1757,6 +1758,10 @@ export const contentRegistry: ContentRegistry = {
     'varjoyhdistely-tyoarkit': shadowMatchFiContent,
     // Also keep English slug for backwards compatibility during transition
     'shadow-match-worksheets': shadowMatchFiContent,
+    // Finnish Subtraction (Vähennyslasku) - uses Finnish SEO slug
+    'vahennyslasku-tyoarkit': subtractionFiContent,
+    // Also keep English slug for backwards compatibility during transition
+    'subtraction-worksheets': subtractionFiContent,
   },
 };
 

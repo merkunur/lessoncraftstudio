@@ -414,6 +414,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     nl: 'aftrekken-werkbladen',
     da: 'subtraktion-arbejdsark',
     no: 'subtraksjon-arbeidsark',
+    fi: 'vahennyslasku-tyoarkit',
   },
   'treasure-hunt': {
     en: 'treasure-hunt-worksheets',

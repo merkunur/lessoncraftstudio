@@ -1890,6 +1890,12 @@ const nextConfig = {
         destination: '/fi/apps/varjoyhdistely-tyoarkit',
         permanent: true,
       },
+      // Finnish: subtraction-worksheets → vahennyslasku-tyoarkit
+      {
+        source: '/fi/apps/subtraction-worksheets',
+        destination: '/fi/apps/vahennyslasku-tyoarkit',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

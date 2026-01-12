@@ -509,6 +509,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       nl: 'aftrekken-werkbladen',
       da: 'subtraktion-arbejdsark',
       no: 'subtraksjon-arbeidsark',
+      fi: 'vahennyslasku-tyoarkit',
     },
   },
   {

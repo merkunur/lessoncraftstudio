@@ -325,6 +325,7 @@ Harmaasävyvaihtoehto säästää mustetta tulostettaessa. Valitse ennen lataami
         id: '1',
         icon: '👶',
         title: 'Esiopetuksen Opettajat',
+        subtitle: 'Hienomotoriikka ja koordinaatio',
         description: `Esiopetuksen opettajat käyttävät ruudukkopiirustustehtäviä hienomotoristen taitojen kehittämiseen. Tarkat väritystehtävät parantavat kynäotetta. Ruudukkokoordinaattien seuraaminen kehittää silmän ja käden yhteistyötä. Nämä taidot ovat perusta kirjoituksen oppimiselle.
 
 Esiopetusikäiset lapset (5-6-vuotiaat) rakastavat värityskuvia lapsille tulostettava -tehtäviä. Yhdistää leikkiä oppimiseen. Tehtävät tuntuvat hauskalta pulmalta, ei tylsältä harjoitukselta. Oppilaat eivät edes huomaa harjoittelevansa tärkeitä esiopetus materiaali ilmainen -taitoja.
@@ -337,6 +338,7 @@ Säädettävä vaikeustaso mahdollistaa eriyttämisen esiopetusluokassa. Jotkut 
         id: '2',
         icon: '🏫',
         title: 'Alakoulun Opettajat',
+        subtitle: 'Matematiikka ja koordinaatit',
         description: `Alakoulun opettajat (1.-3. luokka) käyttävät ruudukkopiirustustehtäviä matematiikan opetuksessa. Ruudukot opettavat koordinaattijärjestelmää. Oppilaat oppivat rivejä ja sarakkeita. Nämä ovat perustaitoja myöhemmälle geometrialle ja algebralle.
 
 Matematiikka tehtävät alakoulu -aktiviteetit tekevät ruudukoista hauskoja. Perinteinen koordinaattiopetus voi olla kuivaa. Ruudukkopiirustus tekee konseptista visuaalisen ja sitouttavan.
@@ -349,6 +351,7 @@ Ensimmäisen luokan oppilaat (6-7-vuotiaat) aloittavat yksinkertaisilla ruudukoi
         id: '3',
         icon: '🏠',
         title: 'Kotiopettajat',
+        subtitle: 'Joustava monitasoinen opetus',
         description: `Kotiopettajat hyötyvät erityisesti ruudukkopiirustustehtävien mukautettavuudesta. Opeta useita lapsia eri ikäryhmistä samanaikaisesti. Luo helpompia värityskuvia lapsille tulostettava nuoremmalle lapselle. Anna haastavammat tehtävät vanhemmalle lapselle.
 
 Kotiopetuksen joustavuus mahdollistaa teemojen syväluotaamisen. Luo viikon mittainen projekti tietystä aiheesta. Maanantaina eläinruudukot. Tiistaina kasvit. Keskiviikkona ajoneuvot.
@@ -361,6 +364,7 @@ Ei aikaa vieviä valmisteluja tai kalliita materiaaleja. Lataa, tulosta ja aloit
         id: '4',
         icon: '🌐',
         title: 'Kielenopettajat',
+        subtitle: 'Monikielinen opetus',
         description: `Kielenopettajat käyttävät ruudukkopiirustustehtävien 11 kielen tukea ESL- ja kaksikielisessä opetuksessa. Lataa samat tehtävät suomeksi ja englanniksi. Opeta sanastoa molemmilla kielillä käyttäen samoja kuvia.
 
 Kuvakirjaston nimet ovat käännetty kaikille 11 kielelle. Tämä tekee lukemaan oppiminen tehtävät -luomisesta helppoa millä tahansa tuetulla kielellä. Oppilaat näkevät sanan "kissa" suomeksi ja "cat" englanniksi.
@@ -373,6 +377,7 @@ Maailmankoulut, joissa on oppilaita monista maista, käyttävät ruudukkopiirust
         id: '5',
         icon: '🧩',
         title: 'Erityisopettajat',
+        subtitle: 'Eriytetty opetus ja tuki',
         description: `Erityisopettajat käyttävät ruudukkopiirustustehtäviä eriyttävän opetuksen työkaluna. Säädä vaikeustasoa vastaamaan jokaisen oppilaan kykyjä. Isommat ruudukot ja enemmän vihjeitä oppilaille, jotka tarvitsevat lisätukea.
 
 Hienomotoriset haasteet ovat yleisiä erityisopetuksessa. Ruudukkopiirustustehtävät tarjoavat strukturoitua harjoitusta. Selkeät rajat jokaiselle ruudulle opettavat kontrollia.
@@ -385,6 +390,7 @@ Luo onnistumisen kokemuksia kaikille oppilaille. Aloita hyvin helpolla tehtävä
         id: '6',
         icon: '💼',
         title: 'Opettajayrittäjät',
+        subtitle: 'Kaupallinen lisenssi myyntiin',
         description: `Opettajayrittäjät tienaavat tuloja myymällä ruudukkopiirustustehtäviä verkossa. Teachers Pay Teachers, Etsy ja Amazon KDP ovat suosittuja alustoja. Täysi Käyttöoikeus -tilaus sisältää kaupallisen lisenssin. Ei tekijänmainintoja vaadita.
 
 Monet opettajat tienaavat 500-5000€ kuukaudessa myymällä tulostettavat tehtävät lapsille ilmainen -materiaaleja. Ruudukkopiirustustehtävät myyvät hyvin. Ainutlaatuinen tuotetyyppi, joka erottuu markkinapaikalla.

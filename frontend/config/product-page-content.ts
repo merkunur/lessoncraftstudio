@@ -100,6 +100,7 @@ import cryptogramFiContent from '@/content/product-pages/fi/kuvakryptogrammi-tyo
 import mathPuzzleFiContent from '@/content/product-pages/fi/matematiikkapulmat-tyoarkit';
 import missingPiecesFiContent from '@/content/product-pages/fi/puuttuvat-palat-tyoarkit';
 import moreLessFiContent from '@/content/product-pages/fi/enemman-vahemman-tyoarkit';
+import oddOneOutFiContent from '@/content/product-pages/fi/poikkea-joukosta-tyoarkit';
 
 // German content imports
 import wordSearchDeContent from '@/content/product-pages/de/word-search-worksheets';
@@ -1722,6 +1723,10 @@ export const contentRegistry: ContentRegistry = {
     'enemman-vahemman-tyoarkit': moreLessFiContent,
     // Also keep English slug for backwards compatibility during transition
     'more-less-worksheets': moreLessFiContent,
+    // Finnish Odd One Out (Poikkea Joukosta) - uses Finnish SEO slug
+    'poikkea-joukosta-tyoarkit': oddOneOutFiContent,
+    // Also keep English slug for backwards compatibility during transition
+    'odd-one-out-worksheets': oddOneOutFiContent,
   },
 };
 

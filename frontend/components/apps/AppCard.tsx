@@ -323,6 +323,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     nl: 'welke-hoort-niet-bij-werkbladen',
     da: 'find-den-ulige-arbejdsark',
     no: 'finn-den-ulike-arbeidsark',
+    fi: 'poikkea-joukosta-tyoarkit',
   },
   'pattern-train': {
     en: 'pattern-train-worksheets',

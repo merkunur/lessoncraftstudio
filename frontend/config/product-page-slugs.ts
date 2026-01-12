@@ -238,6 +238,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       nl: 'telgrafieken-werkbladen',
       da: 'billediagram-arbejdsark',
       no: 'bildediagram-arbeidsark',
+      fi: 'kuvakaavio-tyoarkit',
     },
   },
   {

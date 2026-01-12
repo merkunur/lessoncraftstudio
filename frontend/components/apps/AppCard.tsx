@@ -194,6 +194,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     nl: 'telgrafieken-werkbladen',
     da: 'billediagram-arbejdsark',
     no: 'bildediagram-arbeidsark',
+    fi: 'kuvakaavio-tyoarkit',
   },
   'code-addition': {
     en: 'code-addition-worksheets',

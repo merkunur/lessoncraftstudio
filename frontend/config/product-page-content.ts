@@ -90,6 +90,7 @@ import drawingLinesFiContent from '@/content/product-pages/fi/viivojen-piirtamin
 import pictureBingoFiContent from '@/content/product-pages/fi/kuva-bingo-tyoarkit';
 import sudokuFiContent from '@/content/product-pages/fi/sudoku-tyoarkit';
 import bigSmallFiContent from '@/content/product-pages/fi/iso-pieni-tyoarkit';
+import chartCountFiContent from '@/content/product-pages/fi/kuvakaavio-tyoarkit';
 
 // German content imports
 import wordSearchDeContent from '@/content/product-pages/de/word-search-worksheets';
@@ -1672,6 +1673,10 @@ export const contentRegistry: ContentRegistry = {
     'iso-pieni-tyoarkit': bigSmallFiContent,
     // Also keep English slug for backwards compatibility during transition
     'big-small-worksheets': bigSmallFiContent,
+    // Finnish Chart Count (Kuvakaavio) - uses Finnish SEO slug
+    'kuvakaavio-tyoarkit': chartCountFiContent,
+    // Also keep English slug for backwards compatibility during transition
+    'chart-count-worksheets': chartCountFiContent,
   },
 };
 

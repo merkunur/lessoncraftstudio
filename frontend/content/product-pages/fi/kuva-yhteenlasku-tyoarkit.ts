@@ -16,7 +16,7 @@ export const codeAdditionFiContent: ProductPageContent = {
     slug: 'kuva-yhteenlasku-tyoarkit',
     appId: 'code-addition',
     title: 'Kuvapohjainen Yhteenlasku Tehtävämoniste | Tulostettavat Tehtävät Lapsille Ilmainen Matematiikka Alakoulu',
-    description: 'Luo visuaalisia yhteenlaskutehtäviä käyttäen kuvia yli 3000 kuvan kirjastosta. Kuvapohjainen yhteenlaskugeneraattori tekee matematiikan oppimisesta konkreettista esiopetukseen ja alakouluun. Peruspaketti-tilauksesi antaa sinulle rajattoman pääsyn.',
+    description: 'Luo visuaalisia yhteenlaskutehtäviä käyttäen kuvia yli 3000 kuvan kirjastosta. Kuvapohjainen yhteenlaskugeneraattori tekee matematiikan oppimisesta konkreettista esiopetukseen ja alakouluun. Täysi Pääsy -tilauksesi antaa sinulle rajattoman pääsyn.',
     keywords: 'kuvapohjainen yhteenlasku, yhteenlasku ja vähennyslasku tehtävät, matematiikka tehtävät alakoulu, esiopetus materiaali ilmainen, tulostettavat tehtävät lapsille ilmainen, hienomotoriikka harjoitukset',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fi/apps/kuva-yhteenlasku-tyoarkit',
   },
@@ -25,7 +25,7 @@ export const codeAdditionFiContent: ProductPageContent = {
   hero: {
     title: 'Kuvapohjainen Yhteenlasku Tehtävämoniste',
     subtitle: 'Tulostettavat Tehtävät Lapsille Ilmainen Matematiikka Alakoulu',
-    description: `Luo visuaalisia yhteenlaskutehtäviä käyttäen kuvia yli 3000 kuvan kirjastosta. Kuvapohjainen yhteenlaskugeneraattori tekee matematiikan oppimisesta konkreettista esiopetukseen ja alakouluun. Peruspaketti-tilauksesi antaa sinulle rajattoman pääsyn luoda tulostettavat tehtävät lapsille ilmainen matematiikan harjoitteluun.
+    description: `Luo visuaalisia yhteenlaskutehtäviä käyttäen kuvia yli 3000 kuvan kirjastosta. Kuvapohjainen yhteenlaskugeneraattori tekee matematiikan oppimisesta konkreettista esiopetukseen ja alakouluun. Täysi Pääsy -tilauksesi antaa sinulle rajattoman pääsyn luoda tulostettavat tehtävät lapsille ilmainen matematiikan harjoitteluun.
 
 Yhteenlasku ja vähennyslasku tehtävät tulevat eläviksi kuvilla. Lapset näkevät kolme omenaa plus kaksi omenaa on viisi omenaa. Visuaalinen oppiminen toimii erityisen hyvin esiopetus materiaali ilmainen kehityksessä. Matematiikka tehtävät alakoulu -tasolla muuttuvat hauskemmiksi kun käytät todellisia kuvia numeroiden sijaan.
 
@@ -85,7 +85,7 @@ Jokainen tehtävä on täysin muokattavissa luomisen jälkeen. Raahaa, kierrä, 
   // Features Grid - FULL text from Finnish code-addition.md feature sections
   features: {
     sectionTitle: 'Kuvapohjaisen Yhteenlaskun Ominaisuudet - Matematiikka Tehtävät Alakoulu ja Tulostettavat Tehtävät Lapsille Ilmainen',
-    sectionDescription: 'Kuvapohjainen yhteenlaskugeneraattori tarjoaa kaiken mitä tarvitset luodaksesi ammattimaisia matematiikka tehtävät alakoulu -tasolle. Peruspaketti-tilauksesi antaa sinulle pääsyn kaikkiin ominaisuuksiin ilman lisämaksuja. Luo niin monta yhteenlasku ja vähennyslasku tehtävät -monistetta kuin tarvitset. Ei per-moniste maksuja.',
+    sectionDescription: 'Kuvapohjainen yhteenlaskugeneraattori tarjoaa kaiken mitä tarvitset luodaksesi ammattimaisia matematiikka tehtävät alakoulu -tasolle. Täysi Pääsy -tilauksesi antaa sinulle pääsyn kaikkiin ominaisuuksiin ilman lisämaksuja. Luo niin monta yhteenlasku ja vähennyslasku tehtävät -monistetta kuin tarvitset. Ei per-moniste maksuja.',
     highlightBadgeText: 'Tärkeä Ominaisuus',
     readMoreLabel: 'Lue lisää',
     showLessLabel: 'Näytä vähemmän',
@@ -144,7 +144,7 @@ Monikielinen tuki tekee generaattorista täydellisen kielikylpyluokille ja kaksi
         id: '5',
         icon: '💰',
         title: 'Kaupallinen Lisenssi Yhteenlasku ja Vähennyslasku Tehtävät Myyntiin - Tulostettavat Tehtävät Lapsille Ilmainen',
-        description: `Peruspaketti-tilauksesi sisältää täyden kaupallisen tulostuksen mukaan -lisenssin ilman lisämaksuja. Myy luomiasi tehtäviä Etsyssä, Teachers Pay Teachers -palvelussa tai Amazon KDP:ssä. Ei tarvita attribuutiota. Ei rojalteja. Kaikki kuuluu tilaukseesi.
+        description: `Täysi Pääsy -tilauksesi sisältää täyden kaupallisen tulostuksen mukaan -lisenssin ilman lisämaksuja. Myy luomiasi tehtäviä Etsyssä, Teachers Pay Teachers -palvelussa tai Amazon KDP:ssä. Ei tarvita attribuutiota. Ei rojalteja. Kaikki kuuluu tilaukseesi.
 
 300 DPI kaupallinen laatu takaa että tehtäväsi näyttävät ammattimaisilta. Asiakkaat odottavat korkeaa laatua maksaessaan tulosteista. Tämä generaattori tuottaa kirkkaat, terävät kuvat jotka tulostavat täydellisesti kotitulostimilla ja ammattipainossa.
 
@@ -332,7 +332,7 @@ Oppilaat joilla on motoriikan haasteita tarvitsevat enemmän tilaa vastauksia va
         icon: '💰',
         title: 'Opettajayrittäjät',
         subtitle: 'Matematiikka Tehtävät Alakoulu Myyntiin Kaupallisella Lisenssillä',
-        description: `Opettajayrittäjät myyvät tehtäviä Teachers Pay Teachersissa, Etsyssä ja Amazon KDP:ssä. Kaupallinen lisenssi sisältyy Peruspaketti-tilaukseen. Luo rajattomasti yhteenlaskumonisteita. Myy niitä haluamallasi hinnalla. Ei rojalteja. Ei lisämaksuja.
+        description: `Opettajayrittäjät myyvät tehtäviä Teachers Pay Teachersissa, Etsyssä ja Amazon KDP:ssä. Kaupallinen lisenssi sisältyy Täysi Pääsy -tilaukseen. Luo rajattomasti yhteenlaskumonisteita. Myy niitä haluamallasi hinnalla. Ei rojalteja. Ei lisämaksuja.
 
 Generaattorin nopeus on ratkaisevaa tuotekatalogin rakentamisessa. Luo 10 erilaista yhteenlaskumonistetta päivässä. Lataa ne myyntiin samana iltana. Rakenna 100 tuotteen katalogi kahdessa viikossa. Kilpailijat jotka tekevät kaiken manuaalisesti tarvitsevat kuukausia.
 
@@ -357,7 +357,7 @@ Teemapaketit myyvät hyvin. Luo "Eläinten yhteenlasku" -paketti 20 monisteen ka
       {
         id: '1',
         question: 'Onko Kuvapohjainen Yhteenlaskugeneraattori Todella Ilmainen Käyttää?',
-        answer: 'Kuvapohjainen yhteenlaskugeneraattori vaatii Peruspaketti-tilauksen joka maksaa 144 euroa vuodessa tai 15 euroa kuukaudessa. Tilauksesi antaa sinulle rajattoman yhteenlaskutehtävien luomisen ilman per-moniste maksuja. Luo niin monta matematiikka tehtävät alakoulu -tason monistetta kuin tarvitset ilman lisäkustannuksia.',
+        answer: 'Kuvapohjainen yhteenlaskugeneraattori vaatii Täysi Pääsy -tilauksen joka maksaa 240 euroa vuodessa tai 25 euroa kuukaudessa. Tilauksesi antaa sinulle rajattoman yhteenlaskutehtävien luomisen ilman per-moniste maksuja. Luo niin monta matematiikka tehtävät alakoulu -tason monistetta kuin tarvitset ilman lisäkustannuksia.',
       },
       {
         id: '2',
@@ -372,7 +372,7 @@ Teemapaketit myyvät hyvin. Luo "Eläinten yhteenlasku" -paketti 20 monisteen ka
       {
         id: '4',
         question: 'Voinko Käyttää Yhteenlasku ja Vähennyslasku Tehtävät Luokkahuoneessani Oppilaiden Kanssa?',
-        answer: 'Peruspaketti-tilaus sisältää rajattoman luokkahuonekäytön. Luo monisteita kaikille oppilaillesi. Tulosta niin monta kopiota kuin tarvitset. Ei rajoituksia määrään. Ei lisämaksuja per oppilas. Kaikki kuuluu 144 euron vuosimaksuun. Jaa monisteita kollegoiden kanssa samassa koulussa.',
+        answer: 'Täysi Pääsy -tilaus sisältää rajattoman luokkahuonekäytön. Luo monisteita kaikille oppilaillesi. Tulosta niin monta kopiota kuin tarvitset. Ei rajoituksia määrään. Ei lisämaksuja per oppilas. Kaikki kuuluu 240 euron vuosimaksuun. Jaa monisteita kollegoiden kanssa samassa koulussa.',
       },
       {
         id: '5',
@@ -382,7 +382,7 @@ Teemapaketit myyvät hyvin. Luo "Eläinten yhteenlasku" -paketti 20 monisteen ka
       {
         id: '6',
         question: 'Voinko Myydä Luomiani Yhteenlasku ja Vähennyslasku Tehtävät Monisteita?',
-        answer: 'Kyllä. Peruspaketti-tilaus sisältää täyden kaupallisen tulostuksen mukaan -lisenssin ilman lisämaksuja. Myy luomiasi tehtäviä Teachers Pay Teachersissa, Etsyssä, Amazon KDP:ssä tai missä tahansa muussa alustassa. Ei rojalteja. Ei attribuutiota vaaditaan. 300 DPI ammattimainen laatu takaa että tuotteesi näyttävät ammattimaisilta.',
+        answer: 'Kyllä. Täysi Pääsy -tilaus sisältää täyden kaupallisen tulostuksen mukaan -lisenssin ilman lisämaksuja. Myy luomiasi tehtäviä Teachers Pay Teachersissa, Etsyssä, Amazon KDP:ssä tai missä tahansa muussa alustassa. Ei rojalteja. Ei attribuutiota vaaditaan. 300 DPI ammattimainen laatu takaa että tuotteesi näyttävät ammattimaisilta.',
       },
       {
         id: '7',
@@ -411,19 +411,20 @@ Teemapaketit myyvät hyvin. Luo "Eläinten yhteenlasku" -paketti 20 monisteen ka
       },
       {
         id: '12',
-        question: 'Mitä Eroa On Peruspaketti- ja Täysi Käyttöoikeus -Tilauksilla?',
-        answer: 'Peruspaketti sisältää 10 suosittua generaattoria mukaan lukien kuvapohjainen yhteenlasku ja maksaa 144 euroa vuodessa. Täysi Käyttöoikeus sisältää kaikki 33 generaattoria ja maksaa 240 euroa vuodessa. Molemmat tilaukset sisältävät kaupallisen lisenssin, 11 kielen tuen ja ammattimaisen 300 DPI laadun.',
+        question: 'Mitä Eroa On Peruspaketti- ja Täysi Pääsy -Tilauksilla?',
+        answer: 'Peruspaketti sisältää 10 suosittua generaattoria ja maksaa 144 euroa vuodessa. Täysi Pääsy sisältää kaikki 33 generaattoria mukaan lukien kuvapohjainen yhteenlasku ja maksaa 240 euroa vuodessa. Molemmat tilaukset sisältävät kaupallisen lisenssin, 11 kielen tuen ja ammattimaisen 300 DPI laadun.',
       },
     ],
   },
 
-  // Pricing Section - Finnish translated
+  // Pricing Section - Finnish translated (Full Access tier - code-addition is NOT in Core Bundle)
   pricing: {
-    title: 'Peruspaketti',
-    price: '144€',
+    title: 'Täysi Pääsy',
+    price: '240€',
     priceInterval: '/vuosi',
     priceSuffix: 'Laskutetaan vuosittain',
     benefits: [
+      'Kaikki 33 generaattoria',
       'Rajoittamaton työarkkien luonti',
       'Kaupallinen lisenssi sisältyy',
       '11 kielen tuki',
@@ -431,7 +432,7 @@ Teemapaketit myyvät hyvin. Luo "Eläinten yhteenlasku" -paketti 20 monisteen ka
       '300 DPI tulostuslaatu',
       'Vastausavaimet sisältyvät',
     ],
-    ctaText: 'Aloita Luominen Nyt',
+    ctaText: 'Hanki Täysi Pääsy',
     guaranteeText: '30 päivän rahat takaisin -takuu',
   },
 

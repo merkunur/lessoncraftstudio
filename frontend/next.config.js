@@ -1800,6 +1800,12 @@ const nextConfig = {
         destination: '/fi/apps/iso-pieni-tyoarkit',
         permanent: true,
       },
+      // Finnish: code-addition-worksheets → kuva-yhteenlasku-tyoarkit
+      {
+        source: '/fi/apps/code-addition-worksheets',
+        destination: '/fi/apps/kuva-yhteenlasku-tyoarkit',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

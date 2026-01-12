@@ -207,6 +207,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     nl: 'visuele-optelsommen-werkbladen',
     da: 'kode-plusstykker-arbejdsark',
     no: 'bildeaddisjon-arbeidsark',
+    fi: 'kuva-yhteenlasku-tyoarkit',
   },
   'draw-and-color': {
     en: 'draw-and-color-worksheets',

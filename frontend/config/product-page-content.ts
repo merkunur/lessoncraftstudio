@@ -91,6 +91,7 @@ import pictureBingoFiContent from '@/content/product-pages/fi/kuva-bingo-tyoarki
 import sudokuFiContent from '@/content/product-pages/fi/sudoku-tyoarkit';
 import bigSmallFiContent from '@/content/product-pages/fi/iso-pieni-tyoarkit';
 import chartCountFiContent from '@/content/product-pages/fi/kuvakaavio-tyoarkit';
+import codeAdditionFiContent from '@/content/product-pages/fi/kuva-yhteenlasku-tyoarkit';
 
 // German content imports
 import wordSearchDeContent from '@/content/product-pages/de/word-search-worksheets';
@@ -1677,6 +1678,10 @@ export const contentRegistry: ContentRegistry = {
     'kuvakaavio-tyoarkit': chartCountFiContent,
     // Also keep English slug for backwards compatibility during transition
     'chart-count-worksheets': chartCountFiContent,
+    // Finnish Code Addition (Kuvapohjainen Yhteenlasku) - uses Finnish SEO slug
+    'kuva-yhteenlasku-tyoarkit': codeAdditionFiContent,
+    // Also keep English slug for backwards compatibility during transition
+    'code-addition-worksheets': codeAdditionFiContent,
   },
 };
 

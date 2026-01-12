@@ -245,6 +245,7 @@ import matchingFiContent from '@/content/product-pages/fi/yhdista-parit-tyoarkit
 import pictureBingoFiContent from '@/content/product-pages/fi/kuva-bingo-tyoarkit';
 import sudokuFiContent from '@/content/product-pages/fi/sudoku-tyoarkit';
 import bigSmallFiContent from '@/content/product-pages/fi/iso-pieni-tyoarkit';
+import codeAdditionFiContent from '@/content/product-pages/fi/kuva-yhteenlasku-tyoarkit';
 
 interface PageProps {
   params: {
@@ -879,6 +880,52 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       },
       alternates: {
         canonical: 'https://www.lessoncraftstudio.com/fi/apps/iso-pieni-tyoarkit', // Point to new URL
+      },
+    };
+  }
+
+  // Code Addition Worksheets - Finnish product page SEO (new Finnish slug)
+  if (params.slug === 'kuva-yhteenlasku-tyoarkit' && params.locale === 'fi') {
+    return {
+      title: 'Kuvapohjainen Yhteenlasku Tehtävämoniste | Tulostettavat Tehtävät Lapsille Ilmainen Matematiikka Alakoulu',
+      description: 'Luo visuaalisia yhteenlaskutehtäviä käyttäen kuvia yli 3000 kuvan kirjastosta. Kuvapohjainen yhteenlaskugeneraattori tekee matematiikan oppimisesta konkreettista esiopetukseen ja alakouluun. Peruspaketti-tilauksesi antaa sinulle rajattoman pääsyn.',
+      keywords: 'kuvapohjainen yhteenlasku, yhteenlasku ja vähennyslasku tehtävät, matematiikka tehtävät alakoulu, esiopetus materiaali ilmainen, tulostettavat tehtävät lapsille ilmainen, hienomotoriikka harjoitukset',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/fi/apps/kuva-yhteenlasku-tyoarkit',
+        languages: {
+          'en': 'https://www.lessoncraftstudio.com/en/apps/code-addition-worksheets',
+          'sv': 'https://www.lessoncraftstudio.com/sv/apps/kodaddition-arbetsblad',
+          'de': 'https://www.lessoncraftstudio.com/de/apps/bilder-additions-arbeitsblaetter',
+          'fr': 'https://www.lessoncraftstudio.com/fr/apps/addition-codee-fiches',
+          'fi': 'https://www.lessoncraftstudio.com/fi/apps/kuva-yhteenlasku-tyoarkit',
+          'x-default': 'https://www.lessoncraftstudio.com/en/apps/code-addition-worksheets',
+        },
+      },
+      openGraph: {
+        title: 'Kuvapohjainen Yhteenlasku Tehtävämoniste | LessonCraftStudio',
+        description: 'Luo visuaalisia yhteenlaskutehtäviä käyttäen kuvia yli 3000 kuvan kirjastosta. Kuvapohjainen yhteenlaskugeneraattori tekee matematiikan oppimisesta konkreettista esiopetukseen ja alakouluun.',
+        url: 'https://www.lessoncraftstudio.com/fi/apps/kuva-yhteenlasku-tyoarkit',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Legacy: Redirect old Finnish code-addition slug to new slug (for backwards compatibility)
+  if (params.slug === 'code-addition-worksheets' && params.locale === 'fi') {
+    return {
+      title: 'Kuvapohjainen Yhteenlasku Tehtävämoniste - Tulostettavat Tehtävät',
+      description: 'Luo visuaalisia yhteenlaskutehtäviä käyttäen kuvia yli 3000 kuvan kirjastosta.',
+      robots: {
+        index: false, // Don't index old URL
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/fi/apps/kuva-yhteenlasku-tyoarkit', // Point to new URL
       },
     };
   }
@@ -9412,6 +9459,7 @@ export async function generateStaticParams() {
     'kuva-bingo-tyoarkit', // Product page slug (Finnish) - language-specific SEO slug for picture-bingo
     'sudoku-tyoarkit', // Product page slug (Finnish) - language-specific SEO slug for sudoku
     'iso-pieni-tyoarkit', // Product page slug (Finnish) - language-specific SEO slug for big-small
+    'kuva-yhteenlasku-tyoarkit', // Product page slug (Finnish) - language-specific SEO slug for code-addition
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

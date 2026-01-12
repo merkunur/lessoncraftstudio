@@ -270,6 +270,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       nl: 'rastertekenen-werkbladen',
       da: 'tegn-og-farvelaeg-arbejdsark',
       no: 'rutenetttegning-arbeidsark',
+      fi: 'ruudukkopiirustus-tyoarkit',
     },
   },
   {

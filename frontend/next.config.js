@@ -1806,6 +1806,12 @@ const nextConfig = {
         destination: '/fi/apps/kuva-yhteenlasku-tyoarkit',
         permanent: true,
       },
+      // Finnish: draw-and-color-worksheets → ruudukkopiirustus-tyoarkit
+      {
+        source: '/fi/apps/draw-and-color-worksheets',
+        destination: '/fi/apps/ruudukkopiirustus-tyoarkit',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

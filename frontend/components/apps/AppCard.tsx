@@ -220,6 +220,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     nl: 'rastertekenen-werkbladen',
     da: 'tegn-og-farvelaeg-arbejdsark',
     no: 'rutenetttegning-arbeidsark',
+    fi: 'ruudukkopiirustus-tyoarkit',
   },
   'find-objects': {
     en: 'find-objects-worksheets',

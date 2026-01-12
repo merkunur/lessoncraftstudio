@@ -92,6 +92,7 @@ import sudokuFiContent from '@/content/product-pages/fi/sudoku-tyoarkit';
 import bigSmallFiContent from '@/content/product-pages/fi/iso-pieni-tyoarkit';
 import chartCountFiContent from '@/content/product-pages/fi/kuvakaavio-tyoarkit';
 import codeAdditionFiContent from '@/content/product-pages/fi/kuva-yhteenlasku-tyoarkit';
+import drawAndColorFiContent from '@/content/product-pages/fi/ruudukkopiirustus-tyoarkit';
 
 // German content imports
 import wordSearchDeContent from '@/content/product-pages/de/word-search-worksheets';
@@ -1682,6 +1683,10 @@ export const contentRegistry: ContentRegistry = {
     'kuva-yhteenlasku-tyoarkit': codeAdditionFiContent,
     // Also keep English slug for backwards compatibility during transition
     'code-addition-worksheets': codeAdditionFiContent,
+    // Finnish Draw and Color (Ruudukkopiirustus) - uses Finnish SEO slug
+    'ruudukkopiirustus-tyoarkit': drawAndColorFiContent,
+    // Also keep English slug for backwards compatibility during transition
+    'draw-and-color-worksheets': drawAndColorFiContent,
   },
 };
 

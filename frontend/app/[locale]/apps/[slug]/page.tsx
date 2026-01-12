@@ -246,6 +246,7 @@ import pictureBingoFiContent from '@/content/product-pages/fi/kuva-bingo-tyoarki
 import sudokuFiContent from '@/content/product-pages/fi/sudoku-tyoarkit';
 import bigSmallFiContent from '@/content/product-pages/fi/iso-pieni-tyoarkit';
 import codeAdditionFiContent from '@/content/product-pages/fi/kuva-yhteenlasku-tyoarkit';
+import drawAndColorFiContent from '@/content/product-pages/fi/ruudukkopiirustus-tyoarkit';
 
 interface PageProps {
   params: {
@@ -926,6 +927,58 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       },
       alternates: {
         canonical: 'https://www.lessoncraftstudio.com/fi/apps/kuva-yhteenlasku-tyoarkit', // Point to new URL
+      },
+    };
+  }
+
+  // Draw and Color Worksheets - Finnish product page SEO (new Finnish slug)
+  if (params.slug === 'ruudukkopiirustus-tyoarkit' && params.locale === 'fi') {
+    return {
+      title: 'Ruudukkopiirustus Tehtävät | Värityskuvia Lapsille Tulostettava - Esiopetus Materiaali Ilmainen',
+      description: 'Luo ammattimaisia ruudukkopiirustustehtäviä värityskuvia lapsille tulostettava -generaattorillamme. Täysi Käyttöoikeus -tilauksesi antaa rajattoman tehtävien luomisen. Lataa korkealaatuisia PDF-tehtäviä alle 3 minuutissa.',
+      keywords: 'ruudukkopiirustus tehtävät, värityskuvia lapsille tulostettava, tulostettavat tehtävät lapsille ilmainen, esiopetus materiaali ilmainen, hienomotoriikka harjoitukset, matematiikka tehtävät alakoulu',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/fi/apps/ruudukkopiirustus-tyoarkit',
+        languages: {
+          'en': 'https://www.lessoncraftstudio.com/en/apps/draw-and-color-worksheets',
+          'sv': 'https://www.lessoncraftstudio.com/sv/apps/rutritning-arbetsblad',
+          'de': 'https://www.lessoncraftstudio.com/de/apps/rasterzeichnen-arbeitsblaetter',
+          'fr': 'https://www.lessoncraftstudio.com/fr/apps/dessin-quadrillage-fiches',
+          'es': 'https://www.lessoncraftstudio.com/es/apps/dibujo-cuadricula-fichas',
+          'it': 'https://www.lessoncraftstudio.com/it/apps/disegno-griglia-schede',
+          'pt': 'https://www.lessoncraftstudio.com/pt/apps/desenho-grade-fichas',
+          'nl': 'https://www.lessoncraftstudio.com/nl/apps/rastertekenen-werkbladen',
+          'da': 'https://www.lessoncraftstudio.com/da/apps/tegn-og-farvelaeg-arbejdsark',
+          'no': 'https://www.lessoncraftstudio.com/no/apps/rutenetttegning-arbeidsark',
+          'fi': 'https://www.lessoncraftstudio.com/fi/apps/ruudukkopiirustus-tyoarkit',
+          'x-default': 'https://www.lessoncraftstudio.com/en/apps/draw-and-color-worksheets',
+        },
+      },
+      openGraph: {
+        title: 'Ruudukkopiirustus Tehtävät | LessonCraftStudio',
+        description: 'Luo ammattimaisia ruudukkopiirustustehtäviä värityskuvia lapsille tulostettava -generaattorillamme. Täysi Käyttöoikeus -tilauksesi antaa rajattoman tehtävien luomisen.',
+        url: 'https://www.lessoncraftstudio.com/fi/apps/ruudukkopiirustus-tyoarkit',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Legacy: Redirect old Finnish draw-and-color slug to new slug (for backwards compatibility)
+  if (params.slug === 'draw-and-color-worksheets' && params.locale === 'fi') {
+    return {
+      title: 'Ruudukkopiirustus Tehtävät - Tulostettavat Tehtävät',
+      description: 'Luo ammattimaisia ruudukkopiirustustehtäviä värityskuvia lapsille tulostettava -generaattorillamme.',
+      robots: {
+        index: false, // Don't index old URL
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/fi/apps/ruudukkopiirustus-tyoarkit', // Point to new URL
       },
     };
   }
@@ -9460,6 +9513,7 @@ export async function generateStaticParams() {
     'sudoku-tyoarkit', // Product page slug (Finnish) - language-specific SEO slug for sudoku
     'iso-pieni-tyoarkit', // Product page slug (Finnish) - language-specific SEO slug for big-small
     'kuva-yhteenlasku-tyoarkit', // Product page slug (Finnish) - language-specific SEO slug for code-addition
+    'ruudukkopiirustus-tyoarkit', // Product page slug (Finnish) - language-specific SEO slug for draw-and-color
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

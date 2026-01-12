@@ -1866,6 +1866,12 @@ const nextConfig = {
         destination: '/fi/apps/kuviotehtava-tyoarkit',
         permanent: true,
       },
+      // Finnish: picture-path-worksheets → kuvapolku-tyoarkit
+      {
+        source: '/fi/apps/picture-path-worksheets',
+        destination: '/fi/apps/kuvapolku-tyoarkit',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

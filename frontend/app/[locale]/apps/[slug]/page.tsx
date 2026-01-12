@@ -254,6 +254,7 @@ import missingPiecesFiContent from '@/content/product-pages/fi/puuttuvat-palat-t
 import moreLessFiContent from '@/content/product-pages/fi/enemman-vahemman-tyoarkit';
 import oddOneOutFiContent from '@/content/product-pages/fi/poikkea-joukosta-tyoarkit';
 import patternWorksheetFiContent from '@/content/product-pages/fi/kuviotehtava-tyoarkit';
+import picturePathFiContent from '@/content/product-pages/fi/kuvapolku-tyoarkit';
 
 interface PageProps {
   params: {
@@ -9736,6 +9737,7 @@ export async function generateStaticParams() {
     'puuttuvat-palat-tyoarkit', // Product page slug (Finnish) - language-specific SEO slug for missing-pieces
     'enemman-vahemman-tyoarkit', // Product page slug (Finnish) - language-specific SEO slug for more-less
     'poikkea-joukosta-tyoarkit', // Product page slug (Finnish) - language-specific SEO slug for odd-one-out
+    'kuvapolku-tyoarkit', // Product page slug (Finnish) - language-specific SEO slug for picture-path
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

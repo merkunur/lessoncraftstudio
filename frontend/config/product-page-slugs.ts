@@ -445,6 +445,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       nl: 'doolhof-werkbladen',
       da: 'billedsti-arbejdsark',
       no: 'bildesti-arbeidsark',
+      fi: 'kuvapolku-tyoarkit',
     },
   },
   {

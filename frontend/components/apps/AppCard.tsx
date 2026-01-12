@@ -362,6 +362,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     nl: 'doolhof-werkbladen',
     da: 'billedsti-arbejdsark',
     no: 'bildesti-arbeidsark',
+    fi: 'kuvapolku-tyoarkit',
   },
   'picture-sort': {
     en: 'picture-sort-worksheets',

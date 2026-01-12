@@ -393,6 +393,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
   'shadow-match': {
     en: 'shadow-match-worksheets',
     sv: 'skuggmatchning-arbetsblad',
+    fi: 'varjoyhdistely-tyoarkit',
     de: 'schattenbilder-zuordnen-arbeitsblaetter',
     fr: 'discrimination-visuelle-fiches',
     es: 'asociacion-sombras-fichas',

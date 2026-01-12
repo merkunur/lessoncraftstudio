@@ -106,6 +106,7 @@ import patternWorksheetFiContent from '@/content/product-pages/fi/kuviotehtava-t
 import picturePathFiContent from '@/content/product-pages/fi/kuvapolku-tyoarkit';
 import pictureSortFiContent from '@/content/product-pages/fi/kuvalajittelu-tyoarkit';
 import prepositionsFiContent from '@/content/product-pages/fi/prepositio-tyoarkit';
+import shadowMatchFiContent from '@/content/product-pages/fi/varjoyhdistely-tyoarkit';
 
 // German content imports
 import wordSearchDeContent from '@/content/product-pages/de/word-search-worksheets';
@@ -1752,6 +1753,10 @@ export const contentRegistry: ContentRegistry = {
     'prepositio-tyoarkit': prepositionsFiContent,
     // Also keep English slug for backwards compatibility during transition
     'prepositions-worksheets': prepositionsFiContent,
+    // Finnish Shadow Match (Varjoyhdistely) - uses Finnish SEO slug
+    'varjoyhdistely-tyoarkit': shadowMatchFiContent,
+    // Also keep English slug for backwards compatibility during transition
+    'shadow-match-worksheets': shadowMatchFiContent,
   },
 };
 

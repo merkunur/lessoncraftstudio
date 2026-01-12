@@ -1884,6 +1884,12 @@ const nextConfig = {
         destination: '/fi/apps/prepositio-tyoarkit',
         permanent: true,
       },
+      // Finnish: shadow-match-worksheets → varjoyhdistely-tyoarkit
+      {
+        source: '/fi/apps/shadow-match-worksheets',
+        destination: '/fi/apps/varjoyhdistely-tyoarkit',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

@@ -257,6 +257,7 @@ import patternWorksheetFiContent from '@/content/product-pages/fi/kuviotehtava-t
 import picturePathFiContent from '@/content/product-pages/fi/kuvapolku-tyoarkit';
 import pictureSortFiContent from '@/content/product-pages/fi/kuvalajittelu-tyoarkit';
 import prepositionsFiContent from '@/content/product-pages/fi/prepositio-tyoarkit';
+import shadowMatchFiContent from '@/content/product-pages/fi/varjoyhdistely-tyoarkit';
 
 interface PageProps {
   params: {

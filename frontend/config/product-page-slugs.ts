@@ -485,6 +485,7 @@ export const productPageSlugs: AppSlugConfig[] = [
     slugs: {
       en: 'shadow-match-worksheets',
       sv: 'skuggmatchning-arbetsblad',
+      fi: 'varjoyhdistely-tyoarkit',
       de: 'schattenbilder-zuordnen-arbeitsblaetter',
       fr: 'discrimination-visuelle-fiches',
       es: 'asociacion-sombras-fichas',

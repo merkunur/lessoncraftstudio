@@ -144,7 +144,7 @@ Monikielinen tuki tekee generaattorista täydellisen kielikylpyluokille ja kaksi
         id: '5',
         icon: '💰',
         title: 'Kaupallinen Lisenssi Yhteenlasku ja Vähennyslasku Tehtävät Myyntiin - Tulostettavat Tehtävät Lapsille Ilmainen',
-        description: `Peruspaketti-tilauksesi sisältää täyden kaupallisen print-on-demand -lisenssin ilman lisämaksuja. Myy luomiasi tehtäviä Etsyssä, Teachers Pay Teachers -palvelussa tai Amazon KDP:ssä. Ei tarvita attribuutiota. Ei rojalteja. Kaikki kuuluu tilaukseesi.
+        description: `Peruspaketti-tilauksesi sisältää täyden kaupallisen tulostuksen mukaan -lisenssin ilman lisämaksuja. Myy luomiasi tehtäviä Etsyssä, Teachers Pay Teachers -palvelussa tai Amazon KDP:ssä. Ei tarvita attribuutiota. Ei rojalteja. Kaikki kuuluu tilaukseesi.
 
 300 DPI kaupallinen laatu takaa että tehtäväsi näyttävät ammattimaisilta. Asiakkaat odottavat korkeaa laatua maksaessaan tulosteista. Tämä generaattori tuottaa kirkkaat, terävät kuvat jotka tulostavat täydellisesti kotitulostimilla ja ammattipainossa.
 
@@ -382,7 +382,7 @@ Teemapaketit myyvät hyvin. Luo "Eläinten yhteenlasku" -paketti 20 monisteen ka
       {
         id: '6',
         question: 'Voinko Myydä Luomiani Yhteenlasku ja Vähennyslasku Tehtävät Monisteita?',
-        answer: 'Kyllä. Peruspaketti-tilaus sisältää täyden kaupallisen print-on-demand -lisenssin ilman lisämaksuja. Myy luomiasi tehtäviä Teachers Pay Teachersissa, Etsyssä, Amazon KDP:ssä tai missä tahansa muussa alustassa. Ei rojalteja. Ei attribuutiota vaaditaan. 300 DPI ammattimainen laatu takaa että tuotteesi näyttävät ammattimaisilta.',
+        answer: 'Kyllä. Peruspaketti-tilaus sisältää täyden kaupallisen tulostuksen mukaan -lisenssin ilman lisämaksuja. Myy luomiasi tehtäviä Teachers Pay Teachersissa, Etsyssä, Amazon KDP:ssä tai missä tahansa muussa alustassa. Ei rojalteja. Ei attribuutiota vaaditaan. 300 DPI ammattimainen laatu takaa että tuotteesi näyttävät ammattimaisilta.',
       },
       {
         id: '7',
@@ -451,11 +451,11 @@ Teemapaketit myyvät hyvin. Luo "Eläinten yhteenlasku" -paketti 20 monisteen ka
       },
       {
         id: '2',
-        icon: '➖',
-        name: 'Vähennyslasku Tehtävät',
-        category: 'Matematiikka',
-        description: 'Generoi visuaalisia vähennyslaskutehtäviä kaikille tasoille',
-        slug: 'subtraction-worksheets',
+        icon: '🧩',
+        name: 'Sudoku Lapsille',
+        category: 'Logiikka',
+        description: 'Luo sudoku-tehtäviä lapsille eri vaikeustasoilla',
+        slug: 'sudoku-tyoarkit',
       },
       {
         id: '3',

@@ -96,6 +96,7 @@ import drawAndColorFiContent from '@/content/product-pages/fi/ruudukkopiirustus-
 import findObjectsFiContent from '@/content/product-pages/fi/etsi-esineet-tyoarkit';
 import gridMatchFiContent from '@/content/product-pages/fi/ruudukko-sovitus-tyoarkit';
 import crosswordFiContent from '@/content/product-pages/fi/ristisanatehtavat-tyoarkit';
+import cryptogramFiContent from '@/content/product-pages/fi/kuvakryptogrammi-tyoarkit';
 
 // German content imports
 import wordSearchDeContent from '@/content/product-pages/de/word-search-worksheets';
@@ -1702,6 +1703,10 @@ export const contentRegistry: ContentRegistry = {
     'ristisanatehtavat-tyoarkit': crosswordFiContent,
     // Also keep English slug for backwards compatibility during transition
     'crossword-worksheets': crosswordFiContent,
+    // Finnish Cryptogram (Kuvakryptogrammi) - uses Finnish SEO slug
+    'kuvakryptogrammi-tyoarkit': cryptogramFiContent,
+    // Also keep English slug for backwards compatibility during transition
+    'cryptogram-worksheets': cryptogramFiContent,
   },
 };
 

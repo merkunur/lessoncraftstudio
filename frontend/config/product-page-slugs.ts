@@ -333,6 +333,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       nl: 'cryptogram-werkbladen',
       da: 'kryptogram-arbejdsark',
       no: 'kryptogram-arbeidsark',
+      fi: 'kuvakryptogrammi-tyoarkit',
     },
   },
   {

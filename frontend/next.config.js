@@ -1830,6 +1830,12 @@ const nextConfig = {
         destination: '/fi/apps/ristisanatehtavat-tyoarkit',
         permanent: true,
       },
+      // Finnish: cryptogram-worksheets → kuvakryptogrammi-tyoarkit
+      {
+        source: '/fi/apps/cryptogram-worksheets',
+        destination: '/fi/apps/kuvakryptogrammi-tyoarkit',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

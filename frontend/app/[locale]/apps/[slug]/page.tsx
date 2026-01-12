@@ -248,6 +248,7 @@ import bigSmallFiContent from '@/content/product-pages/fi/iso-pieni-tyoarkit';
 import codeAdditionFiContent from '@/content/product-pages/fi/kuva-yhteenlasku-tyoarkit';
 import drawAndColorFiContent from '@/content/product-pages/fi/ruudukkopiirustus-tyoarkit';
 import crosswordFiContent from '@/content/product-pages/fi/ristisanatehtavat-tyoarkit';
+import cryptogramFiContent from '@/content/product-pages/fi/kuvakryptogrammi-tyoarkit';
 
 interface PageProps {
   params: {
@@ -1135,6 +1136,58 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       },
       alternates: {
         canonical: 'https://www.lessoncraftstudio.com/fi/apps/ristisanatehtavat-tyoarkit', // Point to new URL
+      },
+    };
+  }
+
+  // Cryptogram Worksheets - Finnish product page SEO (new Finnish slug)
+  if (params.slug === 'kuvakryptogrammi-tyoarkit' && params.locale === 'fi') {
+    return {
+      title: 'Kuvakryptogrammi Generaattori - Tulostettavat Tehtävät Lapsille Ilmainen | Kirjaimet Harjoittelu Esikoulu',
+      description: 'Luo ammattimaisia kuvakryptogrammi-tehtäviä, joissa kirjaimet korvataan kuvilla. Täysi Käyttöoikeus -tilauksesi antaa rajattoman kryptogrammi-tehtävien luonnin. Lataa laadukkaat PDF-tehtävät alle 3 minuutissa.',
+      keywords: 'kuvakryptogrammi, tulostettavat tehtävät lapsille ilmainen, kirjaimet harjoittelu esikoulu, esiopetus materiaali ilmainen, lukemaan oppiminen tehtävät, matematiikka tehtävät alakoulu',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/fi/apps/kuvakryptogrammi-tyoarkit',
+        languages: {
+          'en': 'https://www.lessoncraftstudio.com/en/apps/cryptogram-worksheets',
+          'sv': 'https://www.lessoncraftstudio.com/sv/apps/bildkryptogram-arbetsblad',
+          'de': 'https://www.lessoncraftstudio.com/de/apps/bildkryptogramm-arbeitsblaetter',
+          'fr': 'https://www.lessoncraftstudio.com/fr/apps/cryptogramme-images-fiches',
+          'es': 'https://www.lessoncraftstudio.com/es/apps/criptogramas-imagenes-fichas',
+          'it': 'https://www.lessoncraftstudio.com/it/apps/crittogramma-schede',
+          'pt': 'https://www.lessoncraftstudio.com/pt/apps/criptograma-imagens-fichas',
+          'nl': 'https://www.lessoncraftstudio.com/nl/apps/cryptogram-werkbladen',
+          'da': 'https://www.lessoncraftstudio.com/da/apps/kryptogram-arbejdsark',
+          'no': 'https://www.lessoncraftstudio.com/no/apps/kryptogram-arbeidsark',
+          'fi': 'https://www.lessoncraftstudio.com/fi/apps/kuvakryptogrammi-tyoarkit',
+          'x-default': 'https://www.lessoncraftstudio.com/en/apps/cryptogram-worksheets',
+        },
+      },
+      openGraph: {
+        title: 'Kuvakryptogrammi Generaattori | LessonCraftStudio',
+        description: 'Luo ammattimaisia kuvakryptogrammi-tehtäviä, joissa kirjaimet korvataan kuvilla. Täydellinen työkalu esiopetuksen ja alakoulun opettajille.',
+        url: 'https://www.lessoncraftstudio.com/fi/apps/kuvakryptogrammi-tyoarkit',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Legacy: Redirect old Finnish cryptogram slug to new slug (for backwards compatibility)
+  if (params.slug === 'cryptogram-worksheets' && params.locale === 'fi') {
+    return {
+      title: 'Kuvakryptogrammi - Tulostettavat Tehtävät',
+      description: 'Luo ammattimaisia kuvakryptogrammi-tehtäviä, joissa kirjaimet korvataan kuvilla.',
+      robots: {
+        index: false, // Don't index old URL
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/fi/apps/kuvakryptogrammi-tyoarkit', // Point to new URL
       },
     };
   }
@@ -9673,6 +9726,7 @@ export async function generateStaticParams() {
     'etsi-esineet-tyoarkit', // Product page slug (Finnish) - language-specific SEO slug for find-objects
     'ruudukko-sovitus-tyoarkit', // Product page slug (Finnish) - language-specific SEO slug for grid-match
     'ristisanatehtavat-tyoarkit', // Product page slug (Finnish) - language-specific SEO slug for crossword
+    'kuvakryptogrammi-tyoarkit', // Product page slug (Finnish) - language-specific SEO slug for cryptogram
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

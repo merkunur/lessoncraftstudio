@@ -1902,6 +1902,12 @@ const nextConfig = {
         destination: '/fi/apps/aarteenetsinta-tyoarkit',
         permanent: true,
       },
+      // Finnish: word-guess-worksheets → kuva-arvaus-tyoarkit
+      {
+        source: '/fi/apps/word-guess-worksheets',
+        destination: '/fi/apps/kuva-arvaus-tyoarkit',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

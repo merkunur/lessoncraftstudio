@@ -109,6 +109,7 @@ import prepositionsFiContent from '@/content/product-pages/fi/prepositio-tyoarki
 import shadowMatchFiContent from '@/content/product-pages/fi/varjoyhdistely-tyoarkit';
 import subtractionFiContent from '@/content/product-pages/fi/vahennyslasku-tyoarkit';
 import treasureHuntFiContent from '@/content/product-pages/fi/aarteenetsinta-tyoarkit';
+import wordGuessFiContent from '@/content/product-pages/fi/kuva-arvaus-tyoarkit';
 
 // German content imports
 import wordSearchDeContent from '@/content/product-pages/de/word-search-worksheets';
@@ -1767,6 +1768,10 @@ export const contentRegistry: ContentRegistry = {
     'aarteenetsinta-tyoarkit': treasureHuntFiContent,
     // Also keep English slug for backwards compatibility during transition
     'treasure-hunt-worksheets': treasureHuntFiContent,
+    // Finnish Word Guess (Kuva-Arvaustehtävät) - uses Finnish SEO slug
+    'kuva-arvaus-tyoarkit': wordGuessFiContent,
+    // Also keep English slug for backwards compatibility during transition
+    'word-guess-worksheets': wordGuessFiContent,
   },
 };
 

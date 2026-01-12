@@ -440,6 +440,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     nl: 'woordraadsel-werkbladen',
     da: 'gaet-ordet-arbejdsark',
     no: 'gjetteoppgaver-arbeidsark',
+    fi: 'kuva-arvaus-tyoarkit',
   },
   'writing-app': {
     en: 'writing-worksheets',

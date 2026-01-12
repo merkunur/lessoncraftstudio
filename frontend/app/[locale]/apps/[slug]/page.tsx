@@ -9799,6 +9799,7 @@ export async function generateStaticParams() {
     'varjoyhdistely-tyoarkit', // Product page slug (Finnish) - language-specific SEO slug for shadow-match
     'vahennyslasku-tyoarkit', // Product page slug (Finnish) - language-specific SEO slug for subtraction
     'aarteenetsinta-tyoarkit', // Product page slug (Finnish) - language-specific SEO slug for treasure-hunt
+    'kuva-arvaus-tyoarkit', // Product page slug (Finnish) - language-specific SEO slug for word-guess
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

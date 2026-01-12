@@ -541,6 +541,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       nl: 'woordraadsel-werkbladen',
       da: 'gaet-ordet-arbejdsark',
       no: 'gjetteoppgaver-arbeidsark',
+      fi: 'kuva-arvaus-tyoarkit',
     },
   },
   {

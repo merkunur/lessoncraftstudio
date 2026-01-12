@@ -441,7 +441,7 @@ Revenus mensuels 500€ à 5000€ selon investissement temps. Créez pendant va
       'Corrigés inclus',
     ],
     ctaText: 'Commencer Maintenant',
-    bundleDescription: 'Votre abonnement inclut l'acces a 10 generateurs de fiches:',
+    bundleDescription: 'Votre abonnement inclut l\'acces a 10 generateurs de fiches:',
     bundleApps: [
       'Addition Images',
       'Train Alphabet',
@@ -449,7 +449,7 @@ Revenus mensuels 500€ à 5000€ selon investissement temps. Créez pendant va
       'Fiches de Maths',
       'Mots Melanges',
       'Cherche et Compte',
-      'Jeu d'Association',
+      'Jeu d\'Association',
       'Tracer des Lignes',
       'Bingo Images',
       'Sudoku',

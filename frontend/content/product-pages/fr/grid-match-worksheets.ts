@@ -465,7 +465,7 @@ Modifiez le puzzle grille pour les élèves ayant des déficiences visuelles en 
       '33 types de générateurs',
     ],
     ctaText: 'Commencer Maintenant',
-    bundleDescription: 'Votre abonnement inclut l'acces a 10 generateurs de fiches:',
+    bundleDescription: 'Votre abonnement inclut l\'acces a 10 generateurs de fiches:',
     bundleApps: [
       'Addition Images',
       'Train Alphabet',
@@ -473,7 +473,7 @@ Modifiez le puzzle grille pour les élèves ayant des déficiences visuelles en 
       'Fiches de Maths',
       'Mots Melanges',
       'Cherche et Compte',
-      'Jeu d'Association',
+      'Jeu d\'Association',
       'Tracer des Lignes',
       'Bingo Images',
       'Sudoku',

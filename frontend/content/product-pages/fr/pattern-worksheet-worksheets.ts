@@ -397,7 +397,7 @@ La qualité professionnelle 300 DPI garantit satisfaction clients et bonnes crit
       'Qualité d\'impression 300 DPI',
     ],
     ctaText: 'Commencer Maintenant',
-    bundleDescription: 'Votre abonnement inclut l'acces a 10 generateurs de fiches:',
+    bundleDescription: 'Votre abonnement inclut l\'acces a 10 generateurs de fiches:',
     bundleApps: [
       'Addition Images',
       'Train Alphabet',
@@ -405,7 +405,7 @@ La qualité professionnelle 300 DPI garantit satisfaction clients et bonnes crit
       'Fiches de Maths',
       'Mots Melanges',
       'Cherche et Compte',
-      'Jeu d'Association',
+      'Jeu d\'Association',
       'Tracer des Lignes',
       'Bingo Images',
       'Sudoku',

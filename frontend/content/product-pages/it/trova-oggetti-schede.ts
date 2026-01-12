@@ -445,7 +445,7 @@ La versatilità di 33 generatori rende l'abbonamento un eccellente investimento.
       'Tutti i 33 generatori',
     ],
     ctaText: 'Inizia Ora',
-    bundleDescription: 'Il tuo abbonamento include l'accesso a tutti i 33 generatori di schede',
+    bundleDescription: 'Il tuo abbonamento include l\'accesso a tutti i 33 generatori di schede',
     bundleApps: [],
   },
 

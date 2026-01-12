@@ -444,7 +444,7 @@ Choisissez un thème comme les animaux ou les véhicules. L'écriture cursive de
       'Clés de correction automatiques',
     ],
     ctaText: 'Commencer Maintenant',
-    bundleDescription: 'Votre abonnement inclut l'acces a 10 generateurs de fiches:',
+    bundleDescription: 'Votre abonnement inclut l\'acces a 10 generateurs de fiches:',
     bundleApps: [
       'Addition Images',
       'Train Alphabet',
@@ -452,7 +452,7 @@ Choisissez un thème comme les animaux ou les véhicules. L'écriture cursive de
       'Fiches de Maths',
       'Mots Melanges',
       'Cherche et Compte',
-      'Jeu d'Association',
+      'Jeu d\'Association',
       'Tracer des Lignes',
       'Bingo Images',
       'Sudoku',

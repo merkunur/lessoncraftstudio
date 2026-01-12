@@ -430,7 +430,7 @@ Maintenez une qualité de production cohérente en utilisant les mêmes paramèt
     priceInterval: '/an',
     priceSuffix: 'Facturé annuellement',
     ctaText: 'Commencer à Créer',
-    bundleDescription: 'Votre abonnement inclut l'acces a 10 generateurs de fiches:',
+    bundleDescription: 'Votre abonnement inclut l\'acces a 10 generateurs de fiches:',
     bundleApps: [
       'Addition Images',
       'Train Alphabet',
@@ -438,7 +438,7 @@ Maintenez une qualité de production cohérente en utilisant les mêmes paramèt
       'Fiches de Maths',
       'Mots Melanges',
       'Cherche et Compte',
-      'Jeu d'Association',
+      'Jeu d\'Association',
       'Tracer des Lignes',
       'Bingo Images',
       'Sudoku',

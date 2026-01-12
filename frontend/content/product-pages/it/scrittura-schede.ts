@@ -538,7 +538,7 @@ Le schede italiano classe prima possono seguire il vocabolario settimanale della
       '5 stili di carattere',
     ],
     ctaText: 'Inizia Ora',
-    bundleDescription: 'Il tuo abbonamento include l'accesso a tutti i 33 generatori di schede',
+    bundleDescription: 'Il tuo abbonamento include l\'accesso a tutti i 33 generatori di schede',
     bundleApps: [],
   },
 };

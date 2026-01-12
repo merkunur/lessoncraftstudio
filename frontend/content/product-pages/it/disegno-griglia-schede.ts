@@ -471,7 +471,7 @@ Usa nomi file descrittivi. Carica su Google Drive o Dropbox per accesso ovunque.
       'Tutti 33 generatori inclusi',
     ],
     ctaText: 'Inizia Ora',
-    bundleDescription: 'Il tuo abbonamento include l'accesso a tutti i 33 generatori di schede',
+    bundleDescription: 'Il tuo abbonamento include l\'accesso a tutti i 33 generatori di schede',
     bundleApps: [],
   },
 

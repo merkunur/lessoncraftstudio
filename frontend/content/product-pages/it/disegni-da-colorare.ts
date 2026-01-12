@@ -451,10 +451,10 @@ La libreria di 3000+ immagini copre tutti i temi educativi. Animali per scienze.
       '10 generatori inclusi',
     ],
     ctaText: 'Inizia Ora',
-    bundleDescription: 'Il tuo abbonamento include l'accesso a 10 generatori di schede:',
+    bundleDescription: 'Il tuo abbonamento include l\'accesso a 10 generatori di schede:',
     bundleApps: [
       'Addizioni con Immagini',
-      'Treno dell'Alfabeto',
+      'Treno dell\'Alfabeto',
       'Pagine da Colorare',
       'Schede di Matematica',
       'Parole Mescolate',

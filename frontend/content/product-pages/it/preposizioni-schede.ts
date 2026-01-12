@@ -436,7 +436,7 @@ Crea unità tematiche interdisciplinari. Combina preposizioni con pregrafismo pe
       'Chiavi di risposta automatiche',
     ],
     ctaText: 'Inizia Ora',
-    bundleDescription: 'Il tuo abbonamento include l'accesso a tutti i 33 generatori di schede',
+    bundleDescription: 'Il tuo abbonamento include l\'accesso a tutti i 33 generatori di schede',
     bundleApps: [],
   },
 

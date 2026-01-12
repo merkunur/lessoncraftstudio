@@ -512,7 +512,7 @@ Créez vos propres thèmes en important des images. Les tables de multiplication
       'Clés de correction automatiques',
     ],
     ctaText: 'Commencer Maintenant',
-    bundleDescription: 'Votre abonnement inclut l'acces a 10 generateurs de fiches:',
+    bundleDescription: 'Votre abonnement inclut l\'acces a 10 generateurs de fiches:',
     bundleApps: [
       'Addition Images',
       'Train Alphabet',
@@ -520,7 +520,7 @@ Créez vos propres thèmes en important des images. Les tables de multiplication
       'Fiches de Maths',
       'Mots Melanges',
       'Cherche et Compte',
-      'Jeu d'Association',
+      'Jeu d\'Association',
       'Tracer des Lignes',
       'Bingo Images',
       'Sudoku',

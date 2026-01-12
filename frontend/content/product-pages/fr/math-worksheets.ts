@@ -351,7 +351,7 @@ Ces fiches mathématiques fonctionnent idéalement pour les centres de numérati
       'Fiches de correction incluses',
     ],
     ctaText: 'Commencer Maintenant',
-    bundleDescription: 'Votre abonnement inclut l'acces a 10 generateurs de fiches:',
+    bundleDescription: 'Votre abonnement inclut l\'acces a 10 generateurs de fiches:',
     bundleApps: [
       'Addition Images',
       'Train Alphabet',
@@ -359,7 +359,7 @@ Ces fiches mathématiques fonctionnent idéalement pour les centres de numérati
       'Fiches de Maths',
       'Mots Melanges',
       'Cherche et Compte',
-      'Jeu d'Association',
+      'Jeu d\'Association',
       'Tracer des Lignes',
       'Bingo Images',
       'Sudoku',

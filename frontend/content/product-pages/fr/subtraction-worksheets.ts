@@ -356,7 +356,7 @@ Les enseignants de maternelle et de CP utilisent ces fiches de soustraction pour
     priceInterval: '/an',
     priceSuffix: 'Facturé annuellement',
     ctaText: 'Commencer à Créer',
-    bundleDescription: 'Votre abonnement inclut l'acces a 10 generateurs de fiches:',
+    bundleDescription: 'Votre abonnement inclut l\'acces a 10 generateurs de fiches:',
     bundleApps: [
       'Addition Images',
       'Train Alphabet',
@@ -364,7 +364,7 @@ Les enseignants de maternelle et de CP utilisent ces fiches de soustraction pour
       'Fiches de Maths',
       'Mots Melanges',
       'Cherche et Compte',
-      'Jeu d'Association',
+      'Jeu d\'Association',
       'Tracer des Lignes',
       'Bingo Images',
       'Sudoku',

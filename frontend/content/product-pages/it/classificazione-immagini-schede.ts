@@ -423,7 +423,7 @@ I numeri da stampare e le schede matematica hanno domanda costante. I genitori c
       'Chiavi di risposta incluse',
     ],
     ctaText: 'Inizia a Creare Ora',
-    bundleDescription: 'Il tuo abbonamento include l'accesso a tutti i 33 generatori di schede',
+    bundleDescription: 'Il tuo abbonamento include l\'accesso a tutti i 33 generatori di schede',
     bundleApps: [],
   },
 

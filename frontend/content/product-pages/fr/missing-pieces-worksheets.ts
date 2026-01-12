@@ -363,7 +363,7 @@ Téléchargez vos fiches en format JPEG ou PDF. L'option niveau de gris permet d
       'Corrigés inclus',
     ],
     ctaText: 'Commencer à Créer',
-    bundleDescription: 'Votre abonnement inclut l'acces a 10 generateurs de fiches:',
+    bundleDescription: 'Votre abonnement inclut l\'acces a 10 generateurs de fiches:',
     bundleApps: [
       'Addition Images',
       'Train Alphabet',
@@ -371,7 +371,7 @@ Téléchargez vos fiches en format JPEG ou PDF. L'option niveau de gris permet d
       'Fiches de Maths',
       'Mots Melanges',
       'Cherche et Compte',
-      'Jeu d'Association',
+      'Jeu d\'Association',
       'Tracer des Lignes',
       'Bingo Images',
       'Sudoku',

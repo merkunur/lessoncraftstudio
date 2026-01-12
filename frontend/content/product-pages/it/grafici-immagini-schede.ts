@@ -490,7 +490,7 @@ Matematica: usa numeri da stampare e forme geometriche. Crea grafici che rinforz
       'Qualità stampa 300 DPI',
     ],
     ctaText: 'Inizia Ora',
-    bundleDescription: 'Il tuo abbonamento include l'accesso a tutti i 33 generatori di schede',
+    bundleDescription: 'Il tuo abbonamento include l\'accesso a tutti i 33 generatori di schede',
     bundleApps: [],
   },
 

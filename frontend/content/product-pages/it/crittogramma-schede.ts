@@ -342,7 +342,7 @@ La chiave di risposta ti aiuta a verificare puzzle prima di distribuirli agli st
       'Chiavi di risposta automatiche',
     ],
     ctaText: 'Inizia Ora',
-    bundleDescription: 'Il tuo abbonamento include l'accesso a tutti i 33 generatori di schede',
+    bundleDescription: 'Il tuo abbonamento include l\'accesso a tutti i 33 generatori di schede',
     bundleApps: [],
   },
 

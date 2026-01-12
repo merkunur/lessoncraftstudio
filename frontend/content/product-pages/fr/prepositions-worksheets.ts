@@ -402,7 +402,7 @@ L'abonnement Accès Complet coûte 240 € par an ou 25 € par mois. Vous accé
       'Corrigés automatiques',
     ],
     ctaText: 'Commencer Maintenant',
-    bundleDescription: 'Votre abonnement inclut l'acces a 10 generateurs de fiches:',
+    bundleDescription: 'Votre abonnement inclut l\'acces a 10 generateurs de fiches:',
     bundleApps: [
       'Addition Images',
       'Train Alphabet',
@@ -410,7 +410,7 @@ L'abonnement Accès Complet coûte 240 € par an ou 25 € par mois. Vous accé
       'Fiches de Maths',
       'Mots Melanges',
       'Cherche et Compte',
-      'Jeu d'Association',
+      'Jeu d\'Association',
       'Tracer des Lignes',
       'Bingo Images',
       'Sudoku',

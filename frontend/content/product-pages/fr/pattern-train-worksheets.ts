@@ -421,7 +421,7 @@ Créez des collections saisonnières pour ventes régulières. Suites logiques d
       'Qualité d\'impression 300 DPI',
     ],
     ctaText: 'Commencer Maintenant',
-    bundleDescription: 'Votre abonnement inclut l'acces a 10 generateurs de fiches:',
+    bundleDescription: 'Votre abonnement inclut l\'acces a 10 generateurs de fiches:',
     bundleApps: [
       'Addition Images',
       'Train Alphabet',
@@ -429,7 +429,7 @@ Créez des collections saisonnières pour ventes régulières. Suites logiques d
       'Fiches de Maths',
       'Mots Melanges',
       'Cherche et Compte',
-      'Jeu d'Association',
+      'Jeu d\'Association',
       'Tracer des Lignes',
       'Bingo Images',
       'Sudoku',

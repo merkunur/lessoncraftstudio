@@ -444,7 +444,7 @@ L'abbonamento include supporto in 11 lingue, biblioteca di 3000+ immagini, quali
       'Soluzioni incluse',
     ],
     ctaText: 'Inizia Ora',
-    bundleDescription: 'Il tuo abbonamento include l'accesso a tutti i 33 generatori di schede',
+    bundleDescription: 'Il tuo abbonamento include l\'accesso a tutti i 33 generatori di schede',
     bundleApps: [],
   },
 

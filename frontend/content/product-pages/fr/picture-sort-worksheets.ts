@@ -481,7 +481,7 @@ Ajoutez des consignes d'écriture cursive en utilisant l'outil Texte avec police
       'Corrigés inclus',
     ],
     ctaText: 'Commencer Maintenant',
-    bundleDescription: 'Votre abonnement inclut l'acces a 10 generateurs de fiches:',
+    bundleDescription: 'Votre abonnement inclut l\'acces a 10 generateurs de fiches:',
     bundleApps: [
       'Addition Images',
       'Train Alphabet',
@@ -489,7 +489,7 @@ Ajoutez des consignes d'écriture cursive en utilisant l'outil Texte avec police
       'Fiches de Maths',
       'Mots Melanges',
       'Cherche et Compte',
-      'Jeu d'Association',
+      'Jeu d\'Association',
       'Tracer des Lignes',
       'Bingo Images',
       'Sudoku',

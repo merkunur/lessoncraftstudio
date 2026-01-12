@@ -428,7 +428,7 @@ Crea pacchetti settimanali tematici usando più generatori. Un pacchetto a tema 
       'Soluzioni incluse',
     ],
     ctaText: 'Inizia Ora',
-    bundleDescription: 'Il tuo abbonamento include l'accesso a tutti i 33 generatori di schede',
+    bundleDescription: 'Il tuo abbonamento include l\'accesso a tutti i 33 generatori di schede',
     bundleApps: [],
   },
 

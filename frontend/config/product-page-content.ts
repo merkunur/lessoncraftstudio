@@ -101,6 +101,7 @@ import mathPuzzleFiContent from '@/content/product-pages/fi/matematiikkapulmat-t
 import missingPiecesFiContent from '@/content/product-pages/fi/puuttuvat-palat-tyoarkit';
 import moreLessFiContent from '@/content/product-pages/fi/enemman-vahemman-tyoarkit';
 import oddOneOutFiContent from '@/content/product-pages/fi/poikkea-joukosta-tyoarkit';
+import patternTrainFiContent from '@/content/product-pages/fi/kuviojuna-tyoarkit';
 
 // German content imports
 import wordSearchDeContent from '@/content/product-pages/de/word-search-worksheets';
@@ -1727,6 +1728,10 @@ export const contentRegistry: ContentRegistry = {
     'poikkea-joukosta-tyoarkit': oddOneOutFiContent,
     // Also keep English slug for backwards compatibility during transition
     'odd-one-out-worksheets': oddOneOutFiContent,
+    // Finnish Pattern Train (Kuviojuna) - uses Finnish SEO slug
+    'kuviojuna-tyoarkit': patternTrainFiContent,
+    // Also keep English slug for backwards compatibility during transition
+    'pattern-train-worksheets': patternTrainFiContent,
   },
 };
 

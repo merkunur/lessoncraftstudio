@@ -336,6 +336,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     nl: 'patroontrein-werkbladen',
     da: 'moenstertog-arbejdsark',
     no: 'monstertog-arbeidsark',
+    fi: 'kuviojuna-tyoarkit',
   },
   'pattern-worksheet': {
     en: 'pattern-worksheets',

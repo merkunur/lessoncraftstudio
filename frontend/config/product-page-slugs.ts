@@ -413,6 +413,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       nl: 'patroontrein-werkbladen',
       da: 'moenstertog-arbejdsark',
       no: 'monstertog-arbeidsark',
+      fi: 'kuviojuna-tyoarkit',
     },
   },
   {

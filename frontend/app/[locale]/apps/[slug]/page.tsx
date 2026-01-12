@@ -256,6 +256,7 @@ import oddOneOutFiContent from '@/content/product-pages/fi/poikkea-joukosta-tyoa
 import patternWorksheetFiContent from '@/content/product-pages/fi/kuviotehtava-tyoarkit';
 import picturePathFiContent from '@/content/product-pages/fi/kuvapolku-tyoarkit';
 import pictureSortFiContent from '@/content/product-pages/fi/kuvalajittelu-tyoarkit';
+import prepositionsFiContent from '@/content/product-pages/fi/prepositio-tyoarkit';
 
 interface PageProps {
   params: {
@@ -1195,6 +1196,58 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       },
       alternates: {
         canonical: 'https://www.lessoncraftstudio.com/fi/apps/kuvakryptogrammi-tyoarkit', // Point to new URL
+      },
+    };
+  }
+
+  // Finnish Prepositions (Prepositioharjoitukset) - Finnish SEO optimized slug
+  if (params.slug === 'prepositio-tyoarkit' && params.locale === 'fi') {
+    return {
+      title: 'Prepositioharjoitukset - Tulostettavat Tehtävät Lapsille Ilmainen | Esiopetus Materiaali',
+      description: 'Luo ammattimaisia prepositioharjoituksia alakoululaisille ja esikoululaisille. Peruspaketti-tilauksesi antaa rajattoman mahdollisuuden luoda tulostettavia tehtäviä lapsille. Prepositioharjoitukset sopivat täydellisesti esiopetukseen ja alakoulun 1-3 luokille.',
+      keywords: 'prepositioharjoitukset, tulostettavat tehtävät lapsille ilmainen, esiopetus materiaali ilmainen, sijaintisanat, prepositiot lapsille, kielioppi tehtävät',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/fi/apps/prepositio-tyoarkit',
+        languages: {
+          'en': 'https://www.lessoncraftstudio.com/en/apps/prepositions-worksheets',
+          'sv': 'https://www.lessoncraftstudio.com/sv/apps/prepositioner-arbetsblad',
+          'de': 'https://www.lessoncraftstudio.com/de/apps/praepositionen-arbeitsblaetter',
+          'fr': 'https://www.lessoncraftstudio.com/fr/apps/prepositions-exercices-fiches',
+          'es': 'https://www.lessoncraftstudio.com/es/apps/preposiciones-fichas',
+          'it': 'https://www.lessoncraftstudio.com/it/apps/preposizioni-schede',
+          'pt': 'https://www.lessoncraftstudio.com/pt/apps/preposicoes-fichas',
+          'nl': 'https://www.lessoncraftstudio.com/nl/apps/voorzetsels-werkbladen',
+          'da': 'https://www.lessoncraftstudio.com/da/apps/praepositioner-arbejdsark',
+          'no': 'https://www.lessoncraftstudio.com/no/apps/preposisjoner-arbeidsark',
+          'fi': 'https://www.lessoncraftstudio.com/fi/apps/prepositio-tyoarkit',
+          'x-default': 'https://www.lessoncraftstudio.com/en/apps/prepositions-worksheets',
+        },
+      },
+      openGraph: {
+        title: 'Prepositioharjoitukset | LessonCraftStudio',
+        description: 'Luo ammattimaisia prepositioharjoituksia alakoululaisille ja esikoululaisille. Täydellinen työkalu esiopetuksen ja alakoulun opettajille.',
+        url: 'https://www.lessoncraftstudio.com/fi/apps/prepositio-tyoarkit',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Legacy: Redirect old Finnish prepositions slug to new slug (for backwards compatibility)
+  if (params.slug === 'prepositions-worksheets' && params.locale === 'fi') {
+    return {
+      title: 'Prepositioharjoitukset - Tulostettavat Tehtävät',
+      description: 'Luo ammattimaisia prepositioharjoituksia alakoululaisille ja esikoululaisille.',
+      robots: {
+        index: false, // Don't index old URL
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/fi/apps/prepositio-tyoarkit', // Point to new URL
       },
     };
   }
@@ -9740,6 +9793,7 @@ export async function generateStaticParams() {
     'poikkea-joukosta-tyoarkit', // Product page slug (Finnish) - language-specific SEO slug for odd-one-out
     'kuvapolku-tyoarkit', // Product page slug (Finnish) - language-specific SEO slug for picture-path
     'kuvalajittelu-tyoarkit', // Product page slug (Finnish) - language-specific SEO slug for picture-sort
+    'prepositio-tyoarkit', // Product page slug (Finnish) - language-specific SEO slug for prepositions
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

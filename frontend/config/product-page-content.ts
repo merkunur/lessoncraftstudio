@@ -105,6 +105,7 @@ import patternTrainFiContent from '@/content/product-pages/fi/kuviojuna-tyoarkit
 import patternWorksheetFiContent from '@/content/product-pages/fi/kuviotehtava-tyoarkit';
 import picturePathFiContent from '@/content/product-pages/fi/kuvapolku-tyoarkit';
 import pictureSortFiContent from '@/content/product-pages/fi/kuvalajittelu-tyoarkit';
+import prepositionsFiContent from '@/content/product-pages/fi/prepositio-tyoarkit';
 
 // German content imports
 import wordSearchDeContent from '@/content/product-pages/de/word-search-worksheets';
@@ -1747,6 +1748,10 @@ export const contentRegistry: ContentRegistry = {
     'kuvalajittelu-tyoarkit': pictureSortFiContent,
     // Also keep English slug for backwards compatibility during transition
     'picture-sort-worksheets': pictureSortFiContent,
+    // Finnish Prepositions (Prepositioharjoitukset) - uses Finnish SEO slug
+    'prepositio-tyoarkit': prepositionsFiContent,
+    // Also keep English slug for backwards compatibility during transition
+    'prepositions-worksheets': prepositionsFiContent,
   },
 };
 

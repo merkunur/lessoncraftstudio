@@ -1204,7 +1204,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   if (params.slug === 'prepositio-tyoarkit' && params.locale === 'fi') {
     return {
       title: 'Prepositioharjoitukset - Tulostettavat Tehtävät Lapsille Ilmainen | Esiopetus Materiaali',
-      description: 'Luo ammattimaisia prepositioharjoituksia alakoululaisille ja esikoululaisille. Peruspaketti-tilauksesi antaa rajattoman mahdollisuuden luoda tulostettavia tehtäviä lapsille. Prepositioharjoitukset sopivat täydellisesti esiopetukseen ja alakoulun 1-3 luokille.',
+      description: 'Luo ammattimaisia prepositioharjoituksia alakoululaisille ja esikoululaisille. Täysi Käyttöoikeus -tilauksesi antaa rajattoman mahdollisuuden luoda tulostettavia tehtäviä lapsille. Prepositioharjoitukset sopivat täydellisesti esiopetukseen ja alakoulun 1-3 luokille.',
       keywords: 'prepositioharjoitukset, tulostettavat tehtävät lapsille ilmainen, esiopetus materiaali ilmainen, sijaintisanat, prepositiot lapsille, kielioppi tehtävät',
       robots: {
         index: true,

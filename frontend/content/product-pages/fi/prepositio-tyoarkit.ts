@@ -10,8 +10,8 @@ import { ProductPageContent } from '@/components/product-page/ProductPageClient'
  * DO NOT SHORTEN - Every paragraph is SEO-optimized
  *
  * TRANSLATIONS VERIFIED:
- * - "Core Bundle" → "Peruspaketti" (from messages/fi.json)
- * - "Full Access" → "Täysi Käyttöoikeus"
+ * - "Full Access" → "Täysi Käyttöoikeus" (from messages/fi.json)
+ * - Prepositions is a FULL ACCESS app ($240/year), NOT Core Bundle
  * - All UI labels in Finnish
  */
 
@@ -21,7 +21,7 @@ export const prepositionsFiContent: ProductPageContent = {
     slug: 'prepositio-tyoarkit',
     appId: 'prepositions',
     title: 'Prepositioharjoitukset - Tulostettavat Tehtävät Lapsille Ilmainen | Esiopetus Materiaali',
-    description: 'Luo ammattimaisia prepositioharjoituksia alakoululaisille ja esikoululaisille. Peruspaketti-tilauksesi antaa rajattoman mahdollisuuden luoda tulostettavia tehtäviä lapsille. Prepositioharjoitukset sopivat täydellisesti esiopetukseen ja alakoulun 1-3 luokille.',
+    description: 'Luo ammattimaisia prepositioharjoituksia alakoululaisille ja esikoululaisille. Täysi Käyttöoikeus -tilauksesi antaa rajattoman mahdollisuuden luoda tulostettavia tehtäviä lapsille. Prepositioharjoitukset sopivat täydellisesti esiopetukseen ja alakoulun 1-3 luokille.',
     keywords: 'prepositioharjoitukset, tulostettavat tehtävät lapsille ilmainen, esiopetus materiaali ilmainen, sijaintisanat, prepositiot lapsille, kielioppi tehtävät',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fi/apps/prepositio-tyoarkit',
   },
@@ -364,7 +364,7 @@ Myy valmiita tehtäväkirjoja Amazon KDP:ssä. Yhdistä 50-100 prepositioharjoit
       {
         id: '4',
         question: 'Voinko Käyttää Prepositioharjoituksia Luokassani?',
-        answer: 'Peruspaketti-tilaus ja Täysi Käyttöoikeus -tilaus sisältävät rajattoman luokkahuonekäytön. Tulosta niin monta kappaletta kuin luokassasi on oppilaita. Jaa tehtävät oppilaille. Käytä tehtäviä kotitehtävinä. Käytä tehtäviä kokeissa ja arvioinneissa. Kaikki tämä sisältyy tilaukseen.',
+        answer: 'Täysi Käyttöoikeus -tilaus sisältää rajattoman luokkahuonekäytön prepositioharjoituksille. Tulosta niin monta kappaletta kuin luokassasi on oppilaita. Jaa tehtävät oppilaille. Käytä tehtäviä kotitehtävinä. Käytä tehtäviä kokeissa ja arvioinneissa. Kaikki tämä sisältyy tilaukseen.',
       },
       {
         id: '5',
@@ -401,8 +401,8 @@ Myy valmiita tehtäväkirjoja Amazon KDP:ssä. Yhdistä 50-100 prepositioharjoit
 
   // Pricing - Finnish terminology
   pricing: {
-    title: 'Peruspaketti',
-    price: '144€',
+    title: 'Täysi Käyttöoikeus',
+    price: '240€',
     priceInterval: '/vuosi',
     priceSuffix: 'Laskutetaan vuosittain',
     benefits: [

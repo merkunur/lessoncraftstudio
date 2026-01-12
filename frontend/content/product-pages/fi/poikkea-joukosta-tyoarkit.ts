@@ -16,7 +16,7 @@ export const oddOneOutFiContent: ProductPageContent = {
     slug: 'poikkea-joukosta-tyoarkit',
     appId: 'odd-one-out',
     title: 'Tulostettavat Tehtävät Lapsille Ilmainen - Esiopetus Materiaali Ilmainen - Hienomotoriikka Harjoitukset Alakoululle',
-    description: 'Luo ammattimaisia poikkea joukosta -tehtäviä visuaalisen hahmottamisen harjoitteluun. Full Access -tilaus antaa rajattoman tehtävien luonnin ilman tehtäväkohtaisia maksuja. Jokainen tulostettava tehtävä lapsille on valmis alle kolmessa minuutissa. Täydellinen esiopetukseen ja alakoulun 1-3 luokille.',
+    description: 'Luo ammattimaisia poikkea joukosta -tehtäviä visuaalisen hahmottamisen harjoitteluun. Täysi Käyttöoikeus -tilaus antaa rajattoman tehtävien luonnin ilman tehtäväkohtaisia maksuja. Jokainen tulostettava tehtävä lapsille on valmis alle kolmessa minuutissa. Täydellinen esiopetukseen ja alakoulun 1-3 luokille.',
     keywords: 'tulostettavat tehtävät lapsille ilmainen, esiopetus materiaali ilmainen, hienomotoriikka harjoitukset, poikkea joukosta, visuaalinen hahmottaminen, matematiikka tehtävät alakoulu, lukemaan oppiminen tehtävät, kirjaimet harjoittelu esikoulu',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fi/apps/poikkea-joukosta-tyoarkit',
   },
@@ -25,11 +25,11 @@ export const oddOneOutFiContent: ProductPageContent = {
   hero: {
     title: 'Poikkea Joukosta Tehtävät',
     subtitle: 'Tulostettavat Tehtävät Lapsille Ilmainen - Esiopetus Materiaali Ilmainen',
-    description: `Luo ammattimaisia "poikkea joukosta" -tehtäviä visuaalisen hahmottamisen harjoitteluun. Full Access -tilaus antaa rajattoman tehtävien luonnin ilman tehtäväkohtaisia maksuja. Jokainen tulostettava tehtävä lapsille on valmis alle kolmessa minuutissa. Täydellinen esiopetukseen ja alakoulun 1-3 luokille.
+    description: `Luo ammattimaisia "poikkea joukosta" -tehtäviä visuaalisen hahmottamisen harjoitteluun. Täysi Käyttöoikeus -tilaus antaa rajattoman tehtävien luonnin ilman tehtäväkohtaisia maksuja. Jokainen tulostettava tehtävä lapsille on valmis alle kolmessa minuutissa. Täydellinen esiopetukseen ja alakoulun 1-3 luokille.
 
 Visuaalisen hahmottamisen tehtävät kehittävät lasten tarkkaavaisuutta ja loogista ajattelua. Oppilas etsii neljästä kuvasta sen, joka ei kuulu joukkoon. Voit luoda 5-10 harjoitusta yhdelle tehtävämonistelle. Kaksi vaikeustasoa: identtinen-tila (hankalampi) ja samankaltainen-tila (helpompi). Soveltuu erinomaisesti esiopetuksen materiaaliin ja alakoulun matematiikan, lukemisen ja hienomotoriikan harjoituksiin.
 
-Full Access -tilaus maksaa 240 dollaria vuodessa tai 25 dollaria kuukaudessa. Tilaus sisältää kaikki 33 tehtävägeneraattoria, kaupallisen lisenssin ja 11 kielen tuen. Luo niin monta tulostettavaa tehtävää lapsille kuin tarvitset ilman lisämaksuja. Jokainen tehtävämonsteri on 300 DPI -laatua ja valmis tulostettavaksi tai myytäväksi.`,
+Täysi Käyttöoikeus -tilaus maksaa 240 dollaria vuodessa tai 25 dollaria kuukaudessa. Tilaus sisältää kaikki 33 tehtävägeneraattoria, kaupallisen lisenssin ja 11 kielen tuen. Luo niin monta tulostettavaa tehtävää lapsille kuin tarvitset ilman lisämaksuja. Jokainen tehtävämonsteri on 300 DPI -laatua ja valmis tulostettavaksi tai myytäväksi.`,
     previewImageSrc: '/samples/english/odd one out/similar.jpeg',
     ctaLabels: {
       tryFree: 'Kokeile Ilmaiseksi',
@@ -83,7 +83,7 @@ Full Access -tilaus maksaa 240 dollaria vuodessa tai 25 dollaria kuukaudessa. Ti
   // Features Grid - FULL text from Finnish odd-one-out.md feature sections
   features: {
     sectionTitle: 'Ominaisuudet - Kaikki Mitä Tarvitset Tulostettaviin Tehtäviin Lapsille Ilmainen ja Esiopetus Materiaali',
-    sectionDescription: 'Poikkea joukosta -generaattori tarjoaa täydellisen työkalupakin visuaalisen hahmottamisen tehtävien luomiseen. Luo tulostettavia tehtäviä lapsille kolmessa klikkauksessa. Muokkaa kaikkea tehtävämonisterilla. Yhdistä hienomotoriikan harjoitukset, matematiikan tehtävät alakoululle ja lukemaan oppimisen tehtävät yhdelle sivulle. Full Access -tilauksesi antaa pääsyn kaikkiin ominaisuuksiin ilman rajoituksia.',
+    sectionDescription: 'Poikkea joukosta -generaattori tarjoaa täydellisen työkalupakin visuaalisen hahmottamisen tehtävien luomiseen. Luo tulostettavia tehtäviä lapsille kolmessa klikkauksessa. Muokkaa kaikkea tehtävämonisterilla. Yhdistä hienomotoriikan harjoitukset, matematiikan tehtävät alakoululle ja lukemaan oppimisen tehtävät yhdelle sivulle. Täysi Käyttöoikeus -tilauksesi antaa pääsyn kaikkiin ominaisuuksiin ilman rajoituksia.',
     highlightBadgeText: 'Tärkeä Ominaisuus',
     readMoreLabel: 'Lue lisää',
     showLessLabel: 'Näytä vähemmän',
@@ -146,13 +146,13 @@ Monikielinen tuki tekee generaattorista ainutlaatuisen. Kilpailijat tarjoavat va
         id: '5',
         icon: '💰',
         title: 'Kaupallinen Print-on-Demand -lisenssi - Myy Esiopetus Materiaali Ilmainen Teachers Pay Teachers -palvelussa',
-        description: `Full Access sisältää täyden kaupallisen lisenssin ilman lisämaksuja. Myy luomiasi tehtäviä Teachers Pay Teachers -palvelussa. Myy Etsyssä. Myy Amazon KDP:ssä. Ei attribuutiovaatimuksia.
+        description: `Täysi Käyttöoikeus sisältää täyden kaupallisen lisenssin ilman lisämaksuja. Myy luomiasi tehtäviä Teachers Pay Teachers -palvelussa. Myy Etsyssä. Myy Amazon KDP:ssä. Ei attribuutiovaatimuksia.
 
 Kilpailijat veloittavat 50-200 dollaria vuodessa kaupallisesta lisenssistä. Me sisällytämme sen 240 dollarin vuosimaksuusi. Säästät 50-200 dollaria vuodessa. Aloita opettajayrittäjyys ilman lisäkuluja.
 
 300 DPI kaupallinen laatu. Täydellinen myyntiin. Täydellinen tulostukseen. Luo tulostettavia tehtäviä lapsille ja myy niitä heti. Rakenna passiivista tuloa opetusmateriaalien myynnistä.
 
-Opettajat ansaitsevat 500-5000 dollaria kuukaudessa myymällä tehtäviä. Luo viikottain uusia tehtäviä. Rakenna tuotekatalogisi nopeasti. Full Access -tilauksesi maksaa itsensä takaisin yhdellä myydyllä tuotepaketilla.`,
+Opettajat ansaitsevat 500-5000 dollaria kuukaudessa myymällä tehtäviä. Luo viikottain uusia tehtäviä. Rakenna tuotekatalogisi nopeasti. Täysi Käyttöoikeus -tilauksesi maksaa itsensä takaisin yhdellä myydyllä tuotepaketilla.`,
         highlighted: true,
       },
       {
@@ -369,7 +369,7 @@ Luo kaksikielisiä tehtäviä. Suomi ja ruotsi samalla sivulla. Tue kaksikielisi
         icon: '💰',
         title: 'Opettajayrittäjät',
         subtitle: 'Myy Tulostettavat Tehtävät Lapsille Ilmainen Teachers Pay Teachers ja Etsy',
-        description: `Opettajayrittäjät rakentavat tuloja myymällä opetusmateriaaleja. Full Access -tilaus sisältää kaupallisen lisenssin. Myy luomiasi tehtäviä. Rakenna passiivista tuloa.
+        description: `Opettajayrittäjät rakentavat tuloja myymällä opetusmateriaaleja. Täysi Käyttöoikeus -tilaus sisältää kaupallisen lisenssin. Myy luomiasi tehtäviä. Rakenna passiivista tuloa.
 
 Teachers Pay Teachers on suosituin alusta. Lataa PDF-tehtäviä. Hinnoittele 2-5 dollaria per tehtävä. Luo tuotepaketteja 10-20 dollaria. Opettajat ostavat valmiita materiaaleja.
 
@@ -377,7 +377,7 @@ Etsy toimii myös hyvin. Etsi "printable worksheets for kids". Tuhansia tuloksia
 
 Luo teemakokoelmia. "Syksyn visuaalisen hahmottamisen tehtävät" - 20 tehtävää. "Eläinten luokittelu esikouluun" - 15 tehtävää. "Matematiikan tukitehtävät 1. luokalle" - 25 tehtävää. Hinnoittele 15-30 dollaria per kokoelma.
 
-Rakenna asiakaspohjaa. Ensimmäinen myynti viikossa 1. Viisi myyntiä viikossa kuukaudessa 3. Kaksikymmentä myyntiä viikossa kuukaudessa 6. Skaalautuva tulomalli. Full Access -tilaus maksaa itsensä takaisin nopeasti.`,
+Rakenna asiakaspohjaa. Ensimmäinen myynti viikossa 1. Viisi myyntiä viikossa kuukaudessa 3. Kaksikymmentä myyntiä viikossa kuukaudessa 6. Skaalautuva tulomalli. Täysi Käyttöoikeus -tilaus maksaa itsensä takaisin nopeasti.`,
         quote: 'Tilaukseni maksoi itsensä takaisin ensimmäisessä kuukaudessa!',
       },
     ],
@@ -386,7 +386,7 @@ Rakenna asiakaspohjaa. Ensimmäinen myynti viikossa 1. Viisi myyntiä viikossa k
   // FAQ Section - Selected FAQs from Finnish odd-one-out.md
   faq: {
     sectionTitle: 'Usein Kysytyt Kysymykset Tulostettavista Tehtävistä Lapsille Ilmainen',
-    sectionDescription: 'Opettajat kysyvät samoja kysymyksiä ennen tilaamista. Tässä vastaukset 12 yleisimpään kysymykseen. Lue nämä ennen kuin teet ostopäätöksen. Saat selkeän kuvan siitä mitä Full Access -tilaus tarjoaa.',
+    sectionDescription: 'Opettajat kysyvät samoja kysymyksiä ennen tilaamista. Tässä vastaukset 12 yleisimpään kysymykseen. Lue nämä ennen kuin teet ostopäätöksen. Saat selkeän kuvan siitä mitä Täysi Käyttöoikeus -tilaus tarjoaa.',
     showMoreText: 'Näytä lisää kysymyksiä',
     showLessText: 'Näytä vähemmän',
     badgeText: 'UKK',
@@ -398,7 +398,7 @@ Rakenna asiakaspohjaa. Ensimmäinen myynti viikossa 1. Viisi myyntiä viikossa k
       {
         id: '1',
         question: 'Onko Tämä Tulostettavat Tehtävät Lapsille Ilmainen Generaattori Todella Ilmainen?',
-        answer: 'Poikkea joukosta -generaattori vaatii Full Access -tilauksen joka maksaa 240 dollaria vuodessa tai 25 dollaria kuukaudessa. Tilauksesi antaa rajattoman tehtävien luonnin ilman tehtäväkohtaisia maksuja. Luo niin monta tulostettavaa tehtävää lapsille kuin tarvitset ilman lisämaksuja. Full Access sisältää kaikki 33 tehtävägeneraattoria. Core Bundle sisältää 10 suosituinta generaattoria ja maksaa 144 dollaria vuodessa. Molemmat tilaukset sisältävät kaupallisen lisenssin, 11 kielen tuen ja ammattimaisen 300 DPI laatuisen viennin. Ei ilmaista kokeilujaksoa. Ei ilmaista versiota rajoitetuilla ominaisuuksilla. Tilaus vaaditaan kaikille ominaisuuksille. Investointi kannattaa kun luot säännöllisesti esiopetuksen materiaalia ja hienomotoriikan harjoituksia.',
+        answer: 'Poikkea joukosta -generaattori vaatii Täysi Käyttöoikeus -tilauksen joka maksaa 240 dollaria vuodessa tai 25 dollaria kuukaudessa. Tilauksesi antaa rajattoman tehtävien luonnin ilman tehtäväkohtaisia maksuja. Luo niin monta tulostettavaa tehtävää lapsille kuin tarvitset ilman lisämaksuja. Täysi Käyttöoikeus sisältää kaikki 33 tehtävägeneraattoria. Peruspaketti sisältää 10 suosituinta generaattoria ja maksaa 144 dollaria vuodessa. Molemmat tilaukset sisältävät kaupallisen lisenssin, 11 kielen tuen ja ammattimaisen 300 DPI laatuisen viennin. Ei ilmaista kokeilujaksoa. Ei ilmaista versiota rajoitetuilla ominaisuuksilla. Tilaus vaaditaan kaikille ominaisuuksille. Investointi kannattaa kun luot säännöllisesti esiopetuksen materiaalia ja hienomotoriikan harjoituksia.',
       },
       {
         id: '2',
@@ -413,17 +413,17 @@ Rakenna asiakaspohjaa. Ensimmäinen myynti viikossa 1. Viisi myyntiä viikossa k
       {
         id: '4',
         question: 'Voinko Käyttää Hienomotoriikka Harjoitukset Luokkahuoneessani Oppilaille?',
-        answer: 'Kyllä. Full Access -tilaus sisältää rajattoman luokkahuonekäytön. Luo hienomotoriikan harjoituksia esiopetukseen. Tulosta kaikille oppilaille. Käytä päivittäin. Ei rajoituksia. Käytä yhteenlaskun ja vähennyslaskun tehtäviä matematiikantunneilla. Käytä kirjainten harjoitteluun esikoulussa lukutunneilla. Käytä pisteestä pisteeseen -tehtäviä hienomotoriikkahetkillä. Yksi tilaus, kaikki luokkahuoneen tarpeet. Jaa tehtäviä kollegoille samassa koulussa. Full Access sallii yhden opettajan käytön. Jos kollegasi haluaa luoda omia tehtäviä, hän tarvitsee oman tilauksen. Jos jaat vain valmiita PDF-tiedostoja, se on sallittua. Vanhemmille jaettavat kotitehtävät ovat sallittuja. Lähetä PDF kotiin. Vanhemmat tulostavat. Oppilaat tekevät kotona. Täysin sallittua tilauksella.',
+        answer: 'Kyllä. Täysi Käyttöoikeus -tilaus sisältää rajattoman luokkahuonekäytön. Luo hienomotoriikan harjoituksia esiopetukseen. Tulosta kaikille oppilaille. Käytä päivittäin. Ei rajoituksia. Käytä yhteenlaskun ja vähennyslaskun tehtäviä matematiikantunneilla. Käytä kirjainten harjoitteluun esikoulussa lukutunneilla. Käytä pisteestä pisteeseen -tehtäviä hienomotoriikkahetkillä. Yksi tilaus, kaikki luokkahuoneen tarpeet. Jaa tehtäviä kollegoille samassa koulussa. Täysi Käyttöoikeus sallii yhden opettajan käytön. Jos kollegasi haluaa luoda omia tehtäviä, hän tarvitsee oman tilauksen. Jos jaat vain valmiita PDF-tiedostoja, se on sallittua. Vanhemmille jaettavat kotitehtävät ovat sallittuja. Lähetä PDF kotiin. Vanhemmat tulostavat. Oppilaat tekevät kotona. Täysin sallittua tilauksella.',
       },
       {
         id: '5',
         question: 'Millä Kielillä Värityskuvia Lapsille Tulostettava On Saatavilla?',
-        answer: 'Kaikki tulostettavat tehtävät lapsille ovat saatavilla 11 kielellä. Käyttöliittymä: suomi, englanti, saksa, ranska, espanja, italia, portugali (Brasilia), hollanti, ruotsi, tanska, norja. Kuvien tiedostonimet 11 kielellä. Valitse suomi, kuvien nimet suomeksi. Valitse englanti, kuvien nimet englanniksi. Tärkeää kieltenopetukseen. Vaihda kieltä yhdellä klikkauksella. Ei tarvitse luoda uutta tiliä. Ei tarvitse maksaa erikseen. Kaikki 11 kieltä sisältyvät Full Access -tilaukseen. Luo värityskuvia lapsille tulostettavia suomeksi aamulla. Luo englanninkielisiä tehtäviä iltapäivällä. Luo ruotsinkielisiä tehtäviä keskiviikkoisin. Sama generaattori, kaikki kielet.',
+        answer: 'Kaikki tulostettavat tehtävät lapsille ovat saatavilla 11 kielellä. Käyttöliittymä: suomi, englanti, saksa, ranska, espanja, italia, portugali (Brasilia), hollanti, ruotsi, tanska, norja. Kuvien tiedostonimet 11 kielellä. Valitse suomi, kuvien nimet suomeksi. Valitse englanti, kuvien nimet englanniksi. Tärkeää kieltenopetukseen. Vaihda kieltä yhdellä klikkauksella. Ei tarvitse luoda uutta tiliä. Ei tarvitse maksaa erikseen. Kaikki 11 kieltä sisältyvät Täysi Käyttöoikeus -tilaukseen. Luo värityskuvia lapsille tulostettavia suomeksi aamulla. Luo englanninkielisiä tehtäviä iltapäivällä. Luo ruotsinkielisiä tehtäviä keskiviikkoisin. Sama generaattori, kaikki kielet.',
       },
       {
         id: '6',
         question: 'Voinko Myydä Luomiani Kertotaulut Tulostettava Tehtäviä?',
-        answer: 'Kyllä. Full Access -tilaus sisältää täyden kaupallisen print-on-demand -lisenssin ilman lisämaksuja. Myy luomiasi tehtäviä Teachers Pay Teachers -palvelussa. Myy Etsyssä. Myy Amazon KDP:ssä. Ei attribuutiovaatimuksia. Ei rojaltimaksuja. Ei rajoituksia kuinka monta tehtävää myyt. Luo kertotaulujen tulostettavia harjoituksia. Myy 5 dollaria kappale. Myy niin monta kuin haluat. 300 DPI kaupallinen laatu. Asiakkaat saavat ammattilaatuiset tuotteet. Ei valituksia. Hyvät arvostelut. Toistuvia ostoja. Kilpailijat veloittavat 50-200 dollaria vuodessa kaupallisesta lisenssistä. Full Access sisältää kaupallisen lisenssin 240 dollarin hintaan. Säästät rahaa ja saat enemmän ominaisuuksia.',
+        answer: 'Kyllä. Täysi Käyttöoikeus -tilaus sisältää täyden kaupallisen print-on-demand -lisenssin ilman lisämaksuja. Myy luomiasi tehtäviä Teachers Pay Teachers -palvelussa. Myy Etsyssä. Myy Amazon KDP:ssä. Ei attribuutiovaatimuksia. Ei rojaltimaksuja. Ei rajoituksia kuinka monta tehtävää myyt. Luo kertotaulujen tulostettavia harjoituksia. Myy 5 dollaria kappale. Myy niin monta kuin haluat. 300 DPI kaupallinen laatu. Asiakkaat saavat ammattilaatuiset tuotteet. Ei valituksia. Hyvät arvostelut. Toistuvia ostoja. Kilpailijat veloittavat 50-200 dollaria vuodessa kaupallisesta lisenssistä. Täysi Käyttöoikeus sisältää kaupallisen lisenssin 240 dollarin hintaan. Säästät rahaa ja saat enemmän ominaisuuksia.',
       },
       {
         id: '7',
@@ -458,9 +458,9 @@ Rakenna asiakaspohjaa. Ensimmäinen myynti viikossa 1. Viisi myyntiä viikossa k
     ],
   },
 
-  // Pricing - Finnish Full Access terminology
+  // Pricing - Finnish Täysi Käyttöoikeus terminology
   pricing: {
-    title: 'Full Access',
+    title: 'Täysi Käyttöoikeus',
     price: '240€',
     priceInterval: '/vuosi',
     priceSuffix: 'Laskutetaan vuosittain',

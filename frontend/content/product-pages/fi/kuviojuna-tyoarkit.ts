@@ -460,6 +460,19 @@ Yhdistä kuviojuna muihin tehtäviin kattaviksi paketeiksi. Myy "Talven Matemati
       'Kaikki 33 työkalua käytettävissä',
     ],
     ctaText: 'Aloita Luominen Nyt',
+    bundleDescription: 'Tilauksesi sisaltaa paasyn 10 tyoarkkigeneraattoriin:',
+    bundleApps: [
+      'Kuvayhdistely',
+      'Aakkosjuna',
+      'Varityskuvat',
+      'Matematiikkatehtavat',
+      'Sanansekoitus',
+      'Etsi ja Laske',
+      'Yhdistelypeli',
+      'Piirralainjoja',
+      'Kuvabingo',
+      'Sudoku',
+    ],
   },
 
   // Related Apps

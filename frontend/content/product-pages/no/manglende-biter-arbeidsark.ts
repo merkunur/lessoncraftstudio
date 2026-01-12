@@ -461,6 +461,8 @@ Kombiner puslespill med matematikk oppgaver for komplett produkt. Legg til tall 
       '300 DPI utskriftskvalitet',
     ],
     ctaText: 'Start Nå',
+    bundleDescription: 'Abonnementet ditt inkluderer tilgang til alle 33 arbeidsarkgeneratorer',
+    bundleApps: [],
   },
 
   // Related Apps - From missing-pieces.md "Kombiner" section

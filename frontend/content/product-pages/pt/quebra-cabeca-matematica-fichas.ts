@@ -281,6 +281,19 @@ O formato de grade permite configurar de 2x2 até 4x4 peças. Escolha operaçõe
       'Biblioteca com mais de 3000 imagens',
     ],
     ctaText: 'Comece Agora',
+    bundleDescription: 'Sua assinatura inclui acesso a 10 geradores de fichas:',
+    bundleApps: [
+      'Adicao com Imagens',
+      'Trem do Alfabeto',
+      'Paginas para Colorir',
+      'Fichas de Matematica',
+      'Palavras Embaralhadas',
+      'Encontre e Conte',
+      'Jogo de Associacao',
+      'Tracar Linhas',
+      'Bingo de Imagens',
+      'Sudoku',
+    ],
   },
 
   // FAQ Section

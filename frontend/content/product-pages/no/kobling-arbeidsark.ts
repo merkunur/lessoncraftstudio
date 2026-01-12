@@ -422,6 +422,19 @@ ESL lærere i Norge bruker verktøyet til å lage arbeidsark gratis for nyankomn
       'Fasit inkludert',
     ],
     ctaText: 'Start Nå',
+    bundleDescription: 'Abonnementet ditt inkluderer tilgang til 10 arbeidsarkgeneratorer:',
+    bundleApps: [
+      'Bildeaddisjon',
+      'Alfabettog',
+      'Fargeleggingssider',
+      'Matematikkoppgaver',
+      'Ordblanding',
+      'Finn og Tell',
+      'Matchingspill',
+      'Tegn Linjer',
+      'Bilde Bingo',
+      'Sudoku',
+    ],
   },
 
   // Related Apps - From matching.md "Kombiner" section

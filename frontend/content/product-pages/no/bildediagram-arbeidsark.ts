@@ -425,6 +425,8 @@ Lag sesongbaserte produktpakker med bildediagram som kjerne. Høstpakke med bild
       'Alle 33 verktøy inkludert',
     ],
     ctaText: 'Start Nå',
+    bundleDescription: 'Abonnementet ditt inkluderer tilgang til alle 33 arbeidsarkgeneratorer',
+    bundleApps: [],
   },
 
   // Related Apps - From chart-count.md "Kombiner" section

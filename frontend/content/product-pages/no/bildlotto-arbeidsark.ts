@@ -463,6 +463,19 @@ Lag sesongspesifikke bildlottoer. September: tilbake-til-skolen bildlotto. Oktob
       '1-10 unike kort per generering',
     ],
     ctaText: 'Start Nå',
+    bundleDescription: 'Abonnementet ditt inkluderer tilgang til 10 arbeidsarkgeneratorer:',
+    bundleApps: [
+      'Bildeaddisjon',
+      'Alfabettog',
+      'Fargeleggingssider',
+      'Matematikkoppgaver',
+      'Ordblanding',
+      'Finn og Tell',
+      'Matchingspill',
+      'Tegn Linjer',
+      'Bilde Bingo',
+      'Sudoku',
+    ],
   },
 
   // Related Apps - From bingo.md "Kombiner" section

@@ -342,6 +342,19 @@ Monte lojas no Etsy com atividades para imprimir exclusivas. Tabuada visual atra
       'Acesso a todos os 33 geradores',
     ],
     ctaText: 'Comece Agora',
+    bundleDescription: 'Sua assinatura inclui acesso a 10 geradores de fichas:',
+    bundleApps: [
+      'Adicao com Imagens',
+      'Trem do Alfabeto',
+      'Paginas para Colorir',
+      'Fichas de Matematica',
+      'Palavras Embaralhadas',
+      'Encontre e Conte',
+      'Jogo de Associacao',
+      'Tracar Linhas',
+      'Bingo de Imagens',
+      'Sudoku',
+    ],
   },
 
   // FAQ Section

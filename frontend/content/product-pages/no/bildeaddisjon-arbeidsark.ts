@@ -313,6 +313,8 @@ Lag tematiske samlinger som "Vår Matematikk Oppgaver" eller "Dyr Addisjon og Su
     price: '$240',
     priceInterval: '/år',
     ctaText: 'Start Nå',
+    bundleDescription: 'Abonnementet ditt inkluderer tilgang til alle 33 arbeidsarkgeneratorer',
+    bundleApps: [],
     benefits: [
       'Alle 33 oppgavegeneratorer',
       'Ubegrenset oppgaveopprettelse',

@@ -398,6 +398,19 @@ Lag tematiske oppgavehefter barn med fargeleggingsbilder barn og matematikk oppg
       'Last ned som PDF eller JPEG',
     ],
     ctaText: 'Start Nå',
+    bundleDescription: 'Abonnementet ditt inkluderer tilgang til 10 arbeidsarkgeneratorer:',
+    bundleApps: [
+      'Bildeaddisjon',
+      'Alfabettog',
+      'Fargeleggingssider',
+      'Matematikkoppgaver',
+      'Ordblanding',
+      'Finn og Tell',
+      'Matchingspill',
+      'Tegn Linjer',
+      'Bilde Bingo',
+      'Sudoku',
+    ],
   },
 
   // Related Apps

@@ -429,6 +429,19 @@ Crea pacchetti tematici stagionali combinando lettere con disegni da colorare. S
       'Soluzioni incluse',
     ],
     ctaText: 'Inizia Ora',
+    bundleDescription: 'Il tuo abbonamento include l'accesso a 10 generatori di schede:',
+    bundleApps: [
+      'Addizioni con Immagini',
+      'Treno dell'Alfabeto',
+      'Pagine da Colorare',
+      'Schede di Matematica',
+      'Parole Mescolate',
+      'Trova e Conta',
+      'Gioco di Associazione',
+      'Tracciare Linee',
+      'Bingo con Immagini',
+      'Sudoku',
+    ],
   },
 
   // Related Apps Section

@@ -499,6 +499,8 @@ Kombiner mønsterarbeidsark med fagundervisning. Bruk gangetabellen for matemati
     priceInterval: '/år',
     priceSuffix: 'Faktureres årlig',
     ctaText: 'Start Nå',
+    bundleDescription: 'Abonnementet ditt inkluderer tilgang til alle 33 arbeidsarkgeneratorer',
+    bundleApps: [],
     benefits: [
       'Alle 33 arbeidsarkgeneratorer',
       'Ubegrenset opprettelse av arbeidsark',

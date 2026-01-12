@@ -466,6 +466,19 @@ Die gewerbliche Lizenz im Vollzugriff Abonnement erlaubt unbegrenzten Verkauf. K
       'Lösungsblätter inklusive',
     ],
     ctaText: 'Jetzt Erstellen',
+    bundleDescription: 'Ihr Abonnement umfasst Zugriff auf 10 Arbeitsblatt-Generatoren:',
+    bundleApps: [
+      'Bildzusatz',
+      'Alphabet-Zug',
+      'Malvorlagen',
+      'Mathe-Arbeitsblatter',
+      'Wortsalat',
+      'Finden und Zahlen',
+      'Zuordnungsspiel',
+      'Linien Zeichnen',
+      'Bilder-Bingo',
+      'Sudoku',
+    ],
   },
 };
 

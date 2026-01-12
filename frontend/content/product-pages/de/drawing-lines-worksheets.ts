@@ -432,6 +432,19 @@ Die enthaltene POD-Gewerbliche Lizenz erlaubt unbegrenzte Verkäufe ohne zusätz
       '300 DPI Druckqualität',
     ],
     ctaText: 'Jetzt Erstellen',
+    bundleDescription: 'Ihr Abonnement umfasst Zugriff auf 10 Arbeitsblatt-Generatoren:',
+    bundleApps: [
+      'Bildzusatz',
+      'Alphabet-Zug',
+      'Malvorlagen',
+      'Mathe-Arbeitsblatter',
+      'Wortsalat',
+      'Finden und Zahlen',
+      'Zuordnungsspiel',
+      'Linien Zeichnen',
+      'Bilder-Bingo',
+      'Sudoku',
+    ],
   },
 
   // Related Apps - FULL text from linien-ziehen.md combine apps section

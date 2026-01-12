@@ -461,6 +461,19 @@ Rakenna passiivinen tulo digitaalisilla tuotteilla. Luo tehtäviä kerran myy lo
       'Kaikki 33 generaattoria',
     ],
     ctaText: 'Aloita Luominen Nyt',
+    bundleDescription: 'Tilauksesi sisaltaa paasyn 10 tyoarkkigeneraattoriin:',
+    bundleApps: [
+      'Kuvayhdistely',
+      'Aakkosjuna',
+      'Varityskuvat',
+      'Matematiikkatehtavat',
+      'Sanansekoitus',
+      'Etsi ja Laske',
+      'Yhdistelypeli',
+      'Piirralainjoja',
+      'Kuvabingo',
+      'Sudoku',
+    ],
   },
 
   // Related Apps

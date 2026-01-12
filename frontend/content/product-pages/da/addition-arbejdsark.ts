@@ -440,6 +440,19 @@ Profitable nicher på det danske marked inkluderer sæsonbestemte matematikopgav
       'Facitark inkluderet',
     ],
     ctaText: 'Start Nu',
+    bundleDescription: 'Dit abonnement inkluderer adgang til 10 arbejdsarkgeneratorer:',
+    bundleApps: [
+      'Billedaddition',
+      'Alfabettog',
+      'Malebog',
+      'Matematikopgaver',
+      'Bogstavblanding',
+      'Find og Tael',
+      'Matchningsspil',
+      'Tegn Linjer',
+      'Billede Bingo',
+      'Sudoku',
+    ],
   },
 
   // Related Apps

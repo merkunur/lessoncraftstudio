@@ -487,6 +487,8 @@ Per schede matematica, usa vocabolario matematico. Parole come "addizione", "sot
       'Chiavi di risposta automatiche',
     ],
     ctaText: 'Inizia Ora',
+    bundleDescription: 'Il tuo abbonamento include l'accesso a tutti i 33 generatori di schede',
+    bundleApps: [],
   },
 };
 

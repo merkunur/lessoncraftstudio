@@ -444,6 +444,8 @@ Bouw een passief inkomen met telgrafiekenpakketten. Maak thematische bundels voo
       'Antwoordbladen inbegrepen',
     ],
     ctaText: 'Nu Starten',
+    bundleDescription: 'Uw abonnement geeft toegang tot alle 33 werkbladgeneratoren',
+    bundleApps: [],
   },
 
   // Related Apps

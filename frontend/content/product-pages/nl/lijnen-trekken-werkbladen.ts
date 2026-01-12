@@ -458,6 +458,19 @@ De 300 DPI kwaliteit is essentieel voor commerciële verkoop. Klanten verwachten
       '8 lijnsjablonen beschikbaar',
     ],
     ctaText: 'Nu Starten',
+    bundleDescription: 'Uw abonnement geeft toegang tot 10 werkbladgeneratoren:',
+    bundleApps: [
+      'Beeldoptelling',
+      'Alfabettrein',
+      'Kleurplaten',
+      'Rekenwerkbladen',
+      'Woordkruisel',
+      'Zoek en Tel',
+      'Verbindingsspel',
+      'Lijnen Trekken',
+      'Plaatjes Bingo',
+      'Sudoku',
+    ],
   },
 
   // Related Apps

@@ -351,6 +351,19 @@ O investimento se paga rapidamente com as primeiras vendas. Uma assinatura Acess
       'Qualidade 300 DPI para impressão profissional',
     ],
     ctaText: 'Assinar Agora',
+    bundleDescription: 'Sua assinatura inclui acesso a 10 geradores de fichas:',
+    bundleApps: [
+      'Adicao com Imagens',
+      'Trem do Alfabeto',
+      'Paginas para Colorir',
+      'Fichas de Matematica',
+      'Palavras Embaralhadas',
+      'Encontre e Conte',
+      'Jogo de Associacao',
+      'Tracar Linhas',
+      'Bingo de Imagens',
+      'Sudoku',
+    ],
   },
 
   // FAQ Section - FULL text from writing.md FAQ section

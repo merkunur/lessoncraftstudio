@@ -345,6 +345,8 @@ Bildlabyrint generatorn stöder svenska och tio andra språk. Bildnamn visas på
       '3 labyrint spellägen',
     ],
     ctaText: 'Börja Skapa Nu',
+    bundleDescription: 'Din prenumeration inkluderar tillgang till alla 33 arbetsbladsverktyg',
+    bundleApps: [],
   },
 
   // Related Apps

@@ -375,6 +375,19 @@ Kombiner sudoku med andre arbejdsark for bundne produkter. "Komplet Matematikpak
       'Facitark inkluderet',
     ],
     ctaText: 'Start Nu',
+    bundleDescription: 'Dit abonnement inkluderer adgang til 10 arbejdsarkgeneratorer:',
+    bundleApps: [
+      'Billedaddition',
+      'Alfabettog',
+      'Malebog',
+      'Matematikopgaver',
+      'Bogstavblanding',
+      'Find og Tael',
+      'Matchningsspil',
+      'Tegn Linjer',
+      'Billede Bingo',
+      'Sudoku',
+    ],
   },
 
   // FAQ Section - FULL text from sudoku.md FAQ sections

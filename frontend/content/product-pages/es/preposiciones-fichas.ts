@@ -275,6 +275,8 @@ Tu suscripcion incluye acceso a mas de 3000 imagenes infantiles organizadas por 
       'Acceso a los 33 generadores',
     ],
     ctaText: 'Comenzar Ahora',
+    bundleDescription: 'Su suscripcion incluye acceso a los 33 generadores de fichas',
+    bundleApps: [],
   },
 
   // FAQ Section - FULL text from prepositions.md FAQ sections

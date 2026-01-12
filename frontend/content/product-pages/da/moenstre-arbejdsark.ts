@@ -346,6 +346,8 @@ Inkluder mønsteropgaver, matematikopgaver, og malebog-sider i samme pakke. Køb
       'Facitark inkluderet',
     ],
     ctaText: 'Start Nu',
+    bundleDescription: 'Dit abonnement inkluderer adgang til alle 33 arbejdsarkgeneratorer',
+    bundleApps: [],
   },
 
   // FAQ Section - FULL text from pattern-worksheet.md FAQ sections

@@ -516,6 +516,19 @@ Lataa omia ainekohtaisia kuvia aiheille, joita ei kata kirjasto. Tieteen opettaj
       'Kaikki 33 työkalua käytettävissä',
     ],
     ctaText: 'Aloita Luominen Nyt',
+    bundleDescription: 'Tilauksesi sisaltaa paasyn 10 tyoarkkigeneraattoriin:',
+    bundleApps: [
+      'Kuvayhdistely',
+      'Aakkosjuna',
+      'Varityskuvat',
+      'Matematiikkatehtavat',
+      'Sanansekoitus',
+      'Etsi ja Laske',
+      'Yhdistelypeli',
+      'Piirralainjoja',
+      'Kuvabingo',
+      'Sudoku',
+    ],
   },
 };
 

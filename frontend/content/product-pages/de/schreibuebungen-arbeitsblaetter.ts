@@ -489,6 +489,19 @@ Ihr Abo beinhaltet die vollständige kommerzielle Print-on-Demand-Lizenz, 11-Spr
       'Jederzeit kündbar',
     ],
     ctaText: 'Vollzugriff Starten',
+    bundleDescription: 'Ihr Abonnement umfasst Zugriff auf 10 Arbeitsblatt-Generatoren:',
+    bundleApps: [
+      'Bildzusatz',
+      'Alphabet-Zug',
+      'Malvorlagen',
+      'Mathe-Arbeitsblatter',
+      'Wortsalat',
+      'Finden und Zahlen',
+      'Zuordnungsspiel',
+      'Linien Zeichnen',
+      'Bilder-Bingo',
+      'Sudoku',
+    ],
   },
 
   // Related Apps Section

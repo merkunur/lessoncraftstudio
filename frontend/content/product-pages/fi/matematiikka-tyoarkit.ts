@@ -455,6 +455,19 @@ Kilpailijat maksavat 79-199 dollaria vuodessa pelkästään kaupallisesta lisens
       'Vastausavaimet sisältyvät',
     ],
     ctaText: 'Aloita Luominen Nyt',
+    bundleDescription: 'Tilauksesi sisaltaa paasyn 10 tyoarkkigeneraattoriin:',
+    bundleApps: [
+      'Kuvayhdistely',
+      'Aakkosjuna',
+      'Varityskuvat',
+      'Matematiikkatehtavat',
+      'Sanansekoitus',
+      'Etsi ja Laske',
+      'Yhdistelypeli',
+      'Piirralainjoja',
+      'Kuvabingo',
+      'Sudoku',
+    ],
   },
 
   // Related Apps

@@ -545,6 +545,19 @@ Alternativ geben Sie eigene Wörter ein. Bis zu 8 Wörter ohne Bilder. Fachbegri
       'Lösungsblätter inklusive',
     ],
     ctaText: 'Jetzt Erstellen',
+    bundleDescription: 'Ihr Abonnement umfasst Zugriff auf 10 Arbeitsblatt-Generatoren:',
+    bundleApps: [
+      'Bildzusatz',
+      'Alphabet-Zug',
+      'Malvorlagen',
+      'Mathe-Arbeitsblatter',
+      'Wortsalat',
+      'Finden und Zahlen',
+      'Zuordnungsspiel',
+      'Linien Zeichnen',
+      'Bilder-Bingo',
+      'Sudoku',
+    ],
   },
 };
 

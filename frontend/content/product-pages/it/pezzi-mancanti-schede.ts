@@ -420,6 +420,8 @@ Numeri da stampare: cifre 0-9 in stili multipli, quantità con oggetti. Pregrafi
       'Soluzioni incluse',
     ],
     ctaText: 'Inizia Ora',
+    bundleDescription: 'Il tuo abbonamento include l'accesso a tutti i 33 generatori di schede',
+    bundleApps: [],
   },
 
   // Related Apps Section

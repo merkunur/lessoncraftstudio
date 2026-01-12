@@ -438,6 +438,19 @@ Combineer woordzoekers met andere werkbladen tot pakketten. Een thema-bundel met
       'Antwoordbladen inbegrepen',
     ],
     ctaText: 'Nu Starten',
+    bundleDescription: 'Uw abonnement geeft toegang tot 10 werkbladgeneratoren:',
+    bundleApps: [
+      'Beeldoptelling',
+      'Alfabettrein',
+      'Kleurplaten',
+      'Rekenwerkbladen',
+      'Woordkruisel',
+      'Zoek en Tel',
+      'Verbindingsspel',
+      'Lijnen Trekken',
+      'Plaatjes Bingo',
+      'Sudoku',
+    ],
   },
 
   // Related Apps

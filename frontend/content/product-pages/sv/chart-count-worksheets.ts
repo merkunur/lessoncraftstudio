@@ -414,6 +414,8 @@ Skapa målarbilder barn versioner för bredare marknad. Diagram som målarbok ti
       'Kommersiell licens ingår',
     ],
     ctaText: 'Börja Skapa Nu',
+    bundleDescription: 'Din prenumeration inkluderar tillgang till alla 33 arbetsbladsverktyg',
+    bundleApps: [],
   },
 
   // Related Apps

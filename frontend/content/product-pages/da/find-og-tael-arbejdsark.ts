@@ -465,6 +465,19 @@ Mange lærerentreprenører tjener $500-2,000 månedligt gennem opgavesalg. Nogle
       'Facitark inkluderet',
     ],
     ctaText: 'Start Nu',
+    bundleDescription: 'Dit abonnement inkluderer adgang til 10 arbejdsarkgeneratorer:',
+    bundleApps: [
+      'Billedaddition',
+      'Alfabettog',
+      'Malebog',
+      'Matematikopgaver',
+      'Bogstavblanding',
+      'Find og Tael',
+      'Matchningsspil',
+      'Tegn Linjer',
+      'Billede Bingo',
+      'Sudoku',
+    ],
   },
 
   // Related Apps

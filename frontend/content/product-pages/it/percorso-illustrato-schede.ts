@@ -453,6 +453,8 @@ L'abbonamento Accesso Completo costa 240 euro annuali. Include tutti i 33 genera
       'Tutti i 33 generatori inclusi',
     ],
     ctaText: 'Inizia Ora',
+    bundleDescription: 'Il tuo abbonamento include l'accesso a tutti i 33 generatori di schede',
+    bundleApps: [],
   },
 
   // Related Apps Section

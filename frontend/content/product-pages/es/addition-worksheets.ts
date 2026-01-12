@@ -471,6 +471,19 @@ La calidad profesional de 300 DPI asegura que tus productos compitan con editori
       'Hojas de respuestas incluidas',
     ],
     ctaText: 'Comenzar Ahora',
+    bundleDescription: 'Su suscripcion incluye acceso a 10 generadores de fichas:',
+    bundleApps: [
+      'Sumas con Imagenes',
+      'Tren del Alfabeto',
+      'Paginas para Colorear',
+      'Fichas de Matematicas',
+      'Palabras Revueltas',
+      'Busca y Cuenta',
+      'Emparejamiento',
+      'Trazar Lineas',
+      'Bingo de Imagenes',
+      'Sudoku',
+    ],
   },
 
   // Related Apps - FULL text from addition.md related sections

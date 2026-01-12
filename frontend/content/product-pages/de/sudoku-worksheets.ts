@@ -400,6 +400,19 @@ Berechnen Sie Ihr potentielles Einkommen aus Rätsel-Erstellung. Basis-Paket kos
       'Automatischer Lösungsschlüssel',
     ],
     ctaText: 'Jetzt Erstellen',
+    bundleDescription: 'Ihr Abonnement umfasst Zugriff auf 10 Arbeitsblatt-Generatoren:',
+    bundleApps: [
+      'Bildzusatz',
+      'Alphabet-Zug',
+      'Malvorlagen',
+      'Mathe-Arbeitsblatter',
+      'Wortsalat',
+      'Finden und Zahlen',
+      'Zuordnungsspiel',
+      'Linien Zeichnen',
+      'Bilder-Bingo',
+      'Sudoku',
+    ],
   },
 
   // Related Apps - FULL text from sudoku.md combine apps section

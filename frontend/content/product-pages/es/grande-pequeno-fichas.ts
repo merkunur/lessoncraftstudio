@@ -283,6 +283,8 @@ El generador crea de 1 a 10 ejercicios por hoja. Usa imágenes idénticas en dif
       'Calidad de impresión 300 DPI',
     ],
     ctaText: 'Comenzar Ahora',
+    bundleDescription: 'Su suscripcion incluye acceso a los 33 generadores de fichas',
+    bundleApps: [],
   },
 
   // FAQ Section - FULL text from big-small.md FAQ sections

@@ -430,6 +430,19 @@ Vorschul-Arbeitsblätter verpackt als saisonale Bundles generieren wiederkehrend
       'Lösungsblätter inklusive',
     ],
     ctaText: 'Jetzt Erstellen',
+    bundleDescription: 'Ihr Abonnement umfasst Zugriff auf 10 Arbeitsblatt-Generatoren:',
+    bundleApps: [
+      'Bildzusatz',
+      'Alphabet-Zug',
+      'Malvorlagen',
+      'Mathe-Arbeitsblatter',
+      'Wortsalat',
+      'Finden und Zahlen',
+      'Zuordnungsspiel',
+      'Linien Zeichnen',
+      'Bilder-Bingo',
+      'Sudoku',
+    ],
   },
 
   // Related Apps - FULL text from groß-klein.md combine apps section

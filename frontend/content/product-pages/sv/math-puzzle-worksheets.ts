@@ -405,6 +405,8 @@ Svenska lärare som säljer arbetsblad tjänar typiskt 5000-20000 kronor per må
       'Facit ingår',
     ],
     ctaText: 'Börja Skapa Nu',
+    bundleDescription: 'Din prenumeration inkluderar tillgang till alla 33 arbetsbladsverktyg',
+    bundleApps: [],
   },
 
   // Related Apps

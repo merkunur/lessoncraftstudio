@@ -363,6 +363,8 @@ Muchos maestros ganan $500-2,000 d√≥lares mensuales vendiendo paquetes de cuadr√
       '33 generadores de fichas',
     ],
     ctaText: 'Comenzar Ahora',
+    bundleDescription: 'Su suscripcion incluye acceso a los 33 generadores de fichas',
+    bundleApps: [],
   },
 
   // FAQ Section - FULL text from draw-and-color.md FAQ sections

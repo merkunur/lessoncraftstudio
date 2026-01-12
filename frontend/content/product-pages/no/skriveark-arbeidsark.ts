@@ -545,6 +545,8 @@ Progressiv tall og telling med lesetrening integrasjon. Barnehage: tall 1-5 med 
       'Over 3000 barnvennlige bilder',
     ],
     ctaText: 'Start Gratis Prøveperiode',
+    bundleDescription: 'Abonnementet ditt inkluderer tilgang til alle 33 arbeidsarkgeneratorer',
+    bundleApps: [],
   },
 };
 

@@ -394,6 +394,8 @@ Etsy printable-butikker drar nytte av profesjonell 300 DPI kvalitet. Lag sesong-
       'Fasit inkludert',
     ],
     ctaText: 'Start Nå',
+    bundleDescription: 'Abonnementet ditt inkluderer tilgang til alle 33 arbeidsarkgeneratorer',
+    bundleApps: [],
   },
 
   // Related Apps - From grid-match.md "Kombinér" section

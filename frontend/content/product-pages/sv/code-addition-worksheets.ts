@@ -432,6 +432,8 @@ Diversifiera med andra arbetsbladstyper. Kombinera addition och subtraktion med 
       'Alla 33 arbetsbladsverktyg',
     ],
     ctaText: 'Börja Skapa Nu',
+    bundleDescription: 'Din prenumeration inkluderar tillgang till alla 33 arbetsbladsverktyg',
+    bundleApps: [],
   },
 
   // Related Apps

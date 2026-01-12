@@ -456,6 +456,8 @@ Differentieer voor verschillende niveaus. Basis pakket werkbladen kleuters groep
       'Antwoordbladen inbegrepen',
     ],
     ctaText: 'Nu Starten',
+    bundleDescription: 'Uw abonnement geeft toegang tot alle 33 werkbladgeneratoren',
+    bundleApps: [],
   },
 
   // Related Apps

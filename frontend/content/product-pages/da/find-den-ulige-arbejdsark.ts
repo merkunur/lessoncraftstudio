@@ -420,6 +420,8 @@ Brug Pinterest til at drive trafik til produkter. Pin eksempler af opgaver med l
       'Facitark inkluderet',
     ],
     ctaText: 'Start Nu',
+    bundleDescription: 'Dit abonnement inkluderer adgang til alle 33 arbejdsarkgeneratorer',
+    bundleApps: [],
   },
 
   // FAQ Section - FULL text from odd-one-out.md FAQ sections

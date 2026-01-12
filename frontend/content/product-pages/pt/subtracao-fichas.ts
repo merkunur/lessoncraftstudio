@@ -409,6 +409,19 @@ Atividades de matemática vendem muito bem online. Tabuada ilustrada atrai pais 
       'Gabaritos incluídos',
     ],
     ctaText: 'Comece Agora',
+    bundleDescription: 'Sua assinatura inclui acesso a 10 geradores de fichas:',
+    bundleApps: [
+      'Adicao com Imagens',
+      'Trem do Alfabeto',
+      'Paginas para Colorir',
+      'Fichas de Matematica',
+      'Palavras Embaralhadas',
+      'Encontre e Conte',
+      'Jogo de Associacao',
+      'Tracar Linhas',
+      'Bingo de Imagens',
+      'Sudoku',
+    ],
   },
 
   // Related Apps

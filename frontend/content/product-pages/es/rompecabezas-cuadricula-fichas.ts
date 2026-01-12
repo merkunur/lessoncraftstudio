@@ -449,6 +449,8 @@ Guarda archivos descargados para reutilización futura. Construye bibliotecas de
       '33 generadores de fichas',
     ],
     ctaText: 'Comenzar Ahora',
+    bundleDescription: 'Su suscripcion incluye acceso a los 33 generadores de fichas',
+    bundleApps: [],
   },
 };
 

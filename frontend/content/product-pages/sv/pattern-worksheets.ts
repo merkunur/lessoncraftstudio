@@ -434,6 +434,8 @@ Skapa obegränsade arbetsblad utan oro för licensbegränsningar. 300 DPI-kvalit
       'Kommersiell licens ingår',
     ],
     ctaText: 'Börja Skapa Nu',
+    bundleDescription: 'Din prenumeration inkluderar tillgang till alla 33 arbetsbladsverktyg',
+    bundleApps: [],
   },
 
   // Related Apps

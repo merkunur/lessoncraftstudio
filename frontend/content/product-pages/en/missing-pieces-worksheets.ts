@@ -312,6 +312,8 @@ Generate worksheets in 11 languages including English, Spanish, French, and Germ
       'Answer keys included',
     ],
     ctaText: 'Start Creating Now',
+    bundleDescription: 'Your subscription includes access to all 33 worksheet generators',
+    bundleApps: [],
   },
 
   // Related Apps

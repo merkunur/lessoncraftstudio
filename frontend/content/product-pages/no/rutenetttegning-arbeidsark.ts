@@ -427,6 +427,8 @@ Kombiner rutenetttegning med andre generatorer for høyverdi produkter. Lag komp
       'Last ned som PDF eller JPEG',
     ],
     ctaText: 'Start Nå',
+    bundleDescription: 'Abonnementet ditt inkluderer tilgang til alle 33 arbeidsarkgeneratorer',
+    bundleApps: [],
   },
 
   // Related Apps

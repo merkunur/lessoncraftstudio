@@ -303,6 +303,8 @@ Generate crossword puzzles in 11 languages including English, Spanish, French, G
       'Automatic answer keys',
     ],
     ctaText: 'Start Creating Now',
+    bundleDescription: 'Your subscription includes access to all 33 worksheet generators',
+    bundleApps: [],
   },
 
   // Related Apps

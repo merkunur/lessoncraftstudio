@@ -426,6 +426,19 @@ Markedsføringsdifferensiering skjer gjennom nisjeinnretting. Lag sudoku-pakker 
       'Fasit inkludert',
     ],
     ctaText: 'Start Nå',
+    bundleDescription: 'Abonnementet ditt inkluderer tilgang til 10 arbeidsarkgeneratorer:',
+    bundleApps: [
+      'Bildeaddisjon',
+      'Alfabettog',
+      'Fargeleggingssider',
+      'Matematikkoppgaver',
+      'Ordblanding',
+      'Finn og Tell',
+      'Matchingspill',
+      'Tegn Linjer',
+      'Bilde Bingo',
+      'Sudoku',
+    ],
   },
 
   // Related Apps - From sudoku.md "Kombinér" section

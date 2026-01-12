@@ -421,6 +421,19 @@ Luo temaattisia paketteja korkeampaan myyntihintaan. Eläinteemainen paketti 10 
       'Kaikki 33 generaattoria',
     ],
     ctaText: 'Aloita Luominen Nyt',
+    bundleDescription: 'Tilauksesi sisaltaa paasyn 10 tyoarkkigeneraattoriin:',
+    bundleApps: [
+      'Kuvayhdistely',
+      'Aakkosjuna',
+      'Varityskuvat',
+      'Matematiikkatehtavat',
+      'Sanansekoitus',
+      'Etsi ja Laske',
+      'Yhdistelypeli',
+      'Piirralainjoja',
+      'Kuvabingo',
+      'Sudoku',
+    ],
   },
 
   // Related Apps

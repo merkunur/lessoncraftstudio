@@ -408,6 +408,19 @@ Muchos maestros ganan entre $500 y $2,000 mensuales vendiendo solo en Teachers P
       '10 generadores de fichas populares',
     ],
     ctaText: 'Comenzar Ahora',
+    bundleDescription: 'Su suscripcion incluye acceso a 10 generadores de fichas:',
+    bundleApps: [
+      'Sumas con Imagenes',
+      'Tren del Alfabeto',
+      'Paginas para Colorear',
+      'Fichas de Matematicas',
+      'Palabras Revueltas',
+      'Busca y Cuenta',
+      'Emparejamiento',
+      'Trazar Lineas',
+      'Bingo de Imagenes',
+      'Sudoku',
+    ],
   },
 
   // Related Apps

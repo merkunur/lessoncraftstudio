@@ -462,6 +462,8 @@ Kombiner flere verktøy for større produktpakker. Lag "Komplette 1. Trinn Matem
       'Fasit inkludert',
     ],
     ctaText: 'Start Nå',
+    bundleDescription: 'Abonnementet ditt inkluderer tilgang til alle 33 arbeidsarkgeneratorer',
+    bundleApps: [],
   },
 
   // Related Apps - From subtraction.md "Kombiner" section

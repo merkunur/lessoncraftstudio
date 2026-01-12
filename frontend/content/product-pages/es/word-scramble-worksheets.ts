@@ -450,6 +450,19 @@ Muchos maestros emprendedores ganan $500-2000 dólares mensuales vendiendo ficha
       'Claves de respuestas incluidas',
     ],
     ctaText: 'Comenzar Ahora',
+    bundleDescription: 'Su suscripcion incluye acceso a 10 generadores de fichas:',
+    bundleApps: [
+      'Sumas con Imagenes',
+      'Tren del Alfabeto',
+      'Paginas para Colorear',
+      'Fichas de Matematicas',
+      'Palabras Revueltas',
+      'Busca y Cuenta',
+      'Emparejamiento',
+      'Trazar Lineas',
+      'Bingo de Imagenes',
+      'Sudoku',
+    ],
   },
 
   // Related Apps - FULL text from word-scramble.md related sections

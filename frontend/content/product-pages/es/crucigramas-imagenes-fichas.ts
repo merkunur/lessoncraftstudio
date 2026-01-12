@@ -452,6 +452,8 @@ La calidad de 300 DPI es perfecta para productos comerciales. Tus clientes obtie
       'Acceso a los 33 generadores',
     ],
     ctaText: 'Comenzar Ahora',
+    bundleDescription: 'Su suscripcion incluye acceso a los 33 generadores de fichas',
+    bundleApps: [],
   },
 
   // Related Apps

@@ -367,6 +367,8 @@ Full Tillgång-prenumerationen inkluderar kommersiell licens för utskrift-på-b
       '2 övningslägen: Skuggmatchning & Gör det helt',
     ],
     ctaText: 'Börja Skapa Nu',
+    bundleDescription: 'Din prenumeration inkluderar tillgang till alla 33 arbetsbladsverktyg',
+    bundleApps: [],
   },
 
   // Related Apps

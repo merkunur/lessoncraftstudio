@@ -301,6 +301,8 @@ Full Access subscription includes commercial licensing for Teachers Pay Teachers
       'Answer keys included',
     ],
     ctaText: 'Start Creating Now',
+    bundleDescription: 'Your subscription includes access to all 33 worksheet generators',
+    bundleApps: [],
   },
 
   // Related Apps

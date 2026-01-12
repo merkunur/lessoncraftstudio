@@ -431,6 +431,19 @@ Lag nisje oppgavehefter barn andre lærere søker etter. "Halloween matematikk o
       'Fasit inkludert',
     ],
     ctaText: 'Start Nå',
+    bundleDescription: 'Abonnementet ditt inkluderer tilgang til 10 arbeidsarkgeneratorer:',
+    bundleApps: [
+      'Bildeaddisjon',
+      'Alfabettog',
+      'Fargeleggingssider',
+      'Matematikkoppgaver',
+      'Ordblanding',
+      'Finn og Tell',
+      'Matchingspill',
+      'Tegn Linjer',
+      'Bilde Bingo',
+      'Sudoku',
+    ],
   },
 
   // Related Apps - From math-worksheet.md "Kombiner" section

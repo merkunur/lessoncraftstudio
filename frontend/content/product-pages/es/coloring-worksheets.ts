@@ -419,6 +419,19 @@ La calidad profesional de 300 DPI y formatos PDF hacen que tus productos compita
       'Sube tus propias imágenes',
     ],
     ctaText: 'Comenzar a Crear Ahora',
+    bundleDescription: 'Su suscripcion incluye acceso a 10 generadores de fichas:',
+    bundleApps: [
+      'Sumas con Imagenes',
+      'Tren del Alfabeto',
+      'Paginas para Colorear',
+      'Fichas de Matematicas',
+      'Palabras Revueltas',
+      'Busca y Cuenta',
+      'Emparejamiento',
+      'Trazar Lineas',
+      'Bingo de Imagenes',
+      'Sudoku',
+    ],
   },
 
   // Related Apps - In Spanish

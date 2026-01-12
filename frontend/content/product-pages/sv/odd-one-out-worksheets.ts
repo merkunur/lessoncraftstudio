@@ -395,6 +395,8 @@ Experimentera med olika pedagogiska upplägg för bokstäver lära sig och siffr
       'Facit ingår',
     ],
     ctaText: 'Börja Skapa Nu',
+    bundleDescription: 'Din prenumeration inkluderar tillgang till alla 33 arbetsbladsverktyg',
+    bundleApps: [],
   },
 
   // Related Apps

@@ -429,6 +429,8 @@ Lav niche-produkter der ikke findes i markedet. Temabaserede præpositionspakker
       'Facitark inkluderet',
     ],
     ctaText: 'Start Nu',
+    bundleDescription: 'Dit abonnement inkluderer adgang til alle 33 arbejdsarkgeneratorer',
+    bundleApps: [],
   },
 
   // Related Apps

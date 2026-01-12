@@ -174,6 +174,8 @@ export interface ProductPageContent {
     benefits: string[];
     ctaText: string;
     guaranteeText?: string;
+    bundleDescription?: string;
+    bundleApps?: string[];
   };
 
   // Related Apps
@@ -302,6 +304,8 @@ export default function ProductPageClient({
         ctaText={content.pricing.ctaText}
         ctaHref={`/${locale}/auth/signup`}
         guaranteeText={content.pricing.guaranteeText}
+        bundleDescription={content.pricing.bundleDescription}
+        bundleApps={content.pricing.bundleApps}
       />
 
       {/* Part 7: Related Apps & CTA */}

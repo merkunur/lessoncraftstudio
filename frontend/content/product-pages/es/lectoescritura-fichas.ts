@@ -508,6 +508,8 @@ Genera fichas preescolar sobre unidades curriculares específicas que estás ens
       'Exportación de 300 DPI',
     ],
     ctaText: 'Comenzar Ahora',
+    bundleDescription: 'Su suscripcion incluye acceso a los 33 generadores de fichas',
+    bundleApps: [],
   },
 };
 

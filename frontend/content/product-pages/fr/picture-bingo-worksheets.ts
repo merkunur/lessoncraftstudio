@@ -393,6 +393,19 @@ La feuille d'appel est une fiche séparée montrant tous les éléments dans une
       'Feuilles d\'appel automatiques incluses',
     ],
     ctaText: 'Commencer Maintenant',
+    bundleDescription: 'Votre abonnement inclut l'acces a 10 generateurs de fiches:',
+    bundleApps: [
+      'Addition Images',
+      'Train Alphabet',
+      'Coloriages',
+      'Fiches de Maths',
+      'Mots Melanges',
+      'Cherche et Compte',
+      'Jeu d'Association',
+      'Tracer des Lignes',
+      'Bingo Images',
+      'Sudoku',
+    ],
   },
 
   // Related Apps - From picture-bingo.md Section 7

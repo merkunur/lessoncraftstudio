@@ -437,6 +437,19 @@ Svenska lärare tjänar 3000-30000 kr/månad på Teachers Pay Teachers. Bildlott
       'Uppropskort ingår',
     ],
     ctaText: 'Börja Skapa Nu',
+    bundleDescription: 'Din prenumeration inkluderar tillgang till 10 arbetsbladsverktyg:',
+    bundleApps: [
+      'Bildaddition',
+      'Alfabetstandriv',
+      'Malarbilder',
+      'Matematikuppgifter',
+      'Ordtrassel',
+      'Hitta och Rakna',
+      'Matchningsspel',
+      'Rita Linjer',
+      'Bildbingo',
+      'Sudoku',
+    ],
   },
 
   // Related Apps

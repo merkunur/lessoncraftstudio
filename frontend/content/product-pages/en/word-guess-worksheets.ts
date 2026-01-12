@@ -466,6 +466,8 @@ Social studies integration happens through geographic and cultural vocabulary. C
       'Answer keys included',
     ],
     ctaText: 'Start Creating Now',
+    bundleDescription: 'Your subscription includes access to all 33 worksheet generators',
+    bundleApps: [],
   },
 
   // Related Apps

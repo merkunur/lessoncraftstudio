@@ -453,6 +453,19 @@ Utilisez des puzzles thématiques pour renforcer les concepts. Groupes d'objets 
       'Clés de correction automatiques',
     ],
     ctaText: 'Commencer Maintenant',
+    bundleDescription: 'Votre abonnement inclut l'acces a 10 generateurs de fiches:',
+    bundleApps: [
+      'Addition Images',
+      'Train Alphabet',
+      'Coloriages',
+      'Fiches de Maths',
+      'Mots Melanges',
+      'Cherche et Compte',
+      'Jeu d'Association',
+      'Tracer des Lignes',
+      'Bingo Images',
+      'Sudoku',
+    ],
   },
 
   // Related Apps - From sudoku.md Section 7

@@ -455,6 +455,8 @@ Full Tilgang gir deg tilgang til alle 33 arbeidsarktyper på plattformen. Lag ko
       'Fasit inkludert',
     ],
     ctaText: 'Start Nå',
+    bundleDescription: 'Abonnementet ditt inkluderer tilgang til alle 33 arbeidsarkgeneratorer',
+    bundleApps: [],
   },
 
   // Related Apps - From big-small.md "Kombiner" section

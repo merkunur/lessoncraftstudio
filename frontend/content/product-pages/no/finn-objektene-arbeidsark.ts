@@ -419,6 +419,8 @@ Fritidsprogrammer setter pris på lave kostnader ved ubegrensede arbeidsark grat
       '300 DPI utskriftskvalitet',
     ],
     ctaText: 'Start Nå',
+    bundleDescription: 'Abonnementet ditt inkluderer tilgang til alle 33 arbeidsarkgeneratorer',
+    bundleApps: [],
   },
 
   // Related Apps - From find-objects.md "Kombinér" section

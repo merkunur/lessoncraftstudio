@@ -433,6 +433,19 @@ Teemapaketit myyvät hyvin. Luo "Eläinten yhteenlasku" -paketti 20 monisteen ka
       'Vastausavaimet sisältyvät',
     ],
     ctaText: 'Hanki Täysi Pääsy',
+    bundleDescription: 'Tilauksesi sisaltaa paasyn 10 tyoarkkigeneraattoriin:',
+    bundleApps: [
+      'Kuvayhdistely',
+      'Aakkosjuna',
+      'Varityskuvat',
+      'Matematiikkatehtavat',
+      'Sanansekoitus',
+      'Etsi ja Laske',
+      'Yhdistelypeli',
+      'Piirralainjoja',
+      'Kuvabingo',
+      'Sudoku',
+    ],
   },
 
   // Related Apps Section - Finnish translated

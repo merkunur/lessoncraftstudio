@@ -448,6 +448,8 @@ Kleurplaten verkopen bijzonder goed op Etsy. Maak patronen kleurplaten pakketten
       'Antwoordbladen inbegrepen',
     ],
     ctaText: 'Nu Starten',
+    bundleDescription: 'Uw abonnement geeft toegang tot alle 33 werkbladgeneratoren',
+    bundleApps: [],
   },
 
   // Related Apps

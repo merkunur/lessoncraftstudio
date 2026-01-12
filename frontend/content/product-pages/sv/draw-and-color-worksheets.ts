@@ -471,6 +471,8 @@ Kombinera flera svårighetsgrader i samma paket. "25 Djur-målarbilder Barn - F�
       '300 DPI utskriftskvalitet',
     ],
     ctaText: 'Börja Skapa Nu',
+    bundleDescription: 'Din prenumeration inkluderar tillgang till alla 33 arbetsbladsverktyg',
+    bundleApps: [],
   },
 
   // Related Apps

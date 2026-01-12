@@ -437,6 +437,19 @@ Desenhos para colorir combinados com traçado têm alta demanda. A qualidade pro
       '8 modelos de linhas diferentes',
     ],
     ctaText: 'Comece Agora',
+    bundleDescription: 'Sua assinatura inclui acesso a 10 geradores de fichas:',
+    bundleApps: [
+      'Adicao com Imagens',
+      'Trem do Alfabeto',
+      'Paginas para Colorir',
+      'Fichas de Matematica',
+      'Palavras Embaralhadas',
+      'Encontre e Conte',
+      'Jogo de Associacao',
+      'Tracar Linhas',
+      'Bingo de Imagens',
+      'Sudoku',
+    ],
   },
 
   // Related Apps

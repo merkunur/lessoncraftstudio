@@ -404,6 +404,8 @@ Maak unieke grid match bundels per thema. Seizoensgebonden puzzelpakketten verko
       '300 DPI afdrukkwaliteit',
     ],
     ctaText: 'Nu Starten',
+    bundleDescription: 'Uw abonnement geeft toegang tot alle 33 werkbladgeneratoren',
+    bundleApps: [],
   },
 
   // Related Apps

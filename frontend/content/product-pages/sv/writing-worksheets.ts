@@ -472,6 +472,8 @@ Lyckosamma lärarföretagare tjänar $500-5000 per månad. Kombinera skrivarbets
       '300 DPI utskriftskvalitet',
     ],
     ctaText: 'Börja Skapa Nu',
+    bundleDescription: 'Din prenumeration inkluderar tillgang till alla 33 arbetsbladsverktyg',
+    bundleApps: [],
   },
 
   // Related Apps

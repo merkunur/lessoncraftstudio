@@ -405,6 +405,8 @@ Print-on-demand licensen åbner muligheder. Sælg på Etsy som arbejdsark til pr
       'Facitark inkluderet',
     ],
     ctaText: 'Start Nu',
+    bundleDescription: 'Dit abonnement inkluderer adgang til alle 33 arbejdsarkgeneratorer',
+    bundleApps: [],
   },
 
   // Related Apps

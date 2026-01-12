@@ -386,6 +386,8 @@ Lag tematiske oppgavehefter barn for sesongbasert salg. Kombiner skattejakter me
       'Fasit inkludert',
     ],
     ctaText: 'Start Nå',
+    bundleDescription: 'Abonnementet ditt inkluderer tilgang til alle 33 arbeidsarkgeneratorer',
+    bundleApps: [],
   },
 
   // Related Apps

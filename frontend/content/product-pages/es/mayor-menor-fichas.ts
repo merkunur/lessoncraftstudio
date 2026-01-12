@@ -368,6 +368,8 @@ Genera de 1 a 8 ejercicios por hoja según las necesidades de tu clase. Elige en
       'Acceso a los 33 generadores',
     ],
     ctaText: 'Comenzar Ahora',
+    bundleDescription: 'Su suscripcion incluye acceso a los 33 generadores de fichas',
+    bundleApps: [],
   },
 
   // Related Apps Section

@@ -352,6 +352,19 @@ These printable addition worksheets work perfectly for math centers, homework pa
       'Answer keys included',
     ],
     ctaText: 'Start Creating Now',
+    bundleDescription: 'Your subscription includes access to 10 worksheet generators:',
+    bundleApps: [
+      'Image Addition',
+      'Alphabet Train',
+      'Coloring Pages',
+      'Math Worksheets',
+      'Word Scramble',
+      'Find and Count',
+      'MatchUp Maker',
+      'Drawing Lines',
+      'Picture Bingo',
+      'Sudoku',
+    ],
   },
 
   // Related Apps

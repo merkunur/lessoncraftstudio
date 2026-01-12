@@ -402,6 +402,8 @@ Byg niche mærker omkring specifikke emner eller pædagogiske tilgange. Speciali
       '300 DPI printkvalitet',
     ],
     ctaText: 'Start Nu',
+    bundleDescription: 'Dit abonnement inkluderer adgang til alle 33 arbejdsarkgeneratorer',
+    bundleApps: [],
   },
 
   // Related Apps

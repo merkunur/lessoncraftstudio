@@ -512,6 +512,19 @@ Créez vos propres thèmes en important des images. Les tables de multiplication
       'Clés de correction automatiques',
     ],
     ctaText: 'Commencer Maintenant',
+    bundleDescription: 'Votre abonnement inclut l'acces a 10 generateurs de fiches:',
+    bundleApps: [
+      'Addition Images',
+      'Train Alphabet',
+      'Coloriages',
+      'Fiches de Maths',
+      'Mots Melanges',
+      'Cherche et Compte',
+      'Jeu d'Association',
+      'Tracer des Lignes',
+      'Bingo Images',
+      'Sudoku',
+    ],
   },
 
   // Related Apps - From big-small.md Section 7

@@ -468,6 +468,8 @@ Bouw een mailing lijst van trouwe klanten. Bied gratis sample werkbladen aan in 
       '300 DPI afdrukkwaliteit',
     ],
     ctaText: 'Nu Starten',
+    bundleDescription: 'Uw abonnement geeft toegang tot alle 33 werkbladgeneratoren',
+    bundleApps: [],
   },
 
   // Related Apps

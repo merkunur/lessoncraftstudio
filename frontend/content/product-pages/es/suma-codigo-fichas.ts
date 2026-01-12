@@ -339,6 +339,8 @@ Empaqueta estas fichas para imprimir con otros generadores que ofrece tu suscrip
       '33 generadores de fichas',
     ],
     ctaText: 'Comenzar Ahora',
+    bundleDescription: 'Su suscripcion incluye acceso a los 33 generadores de fichas',
+    bundleApps: [],
   },
 
   // FAQ Section - FULL text from code-addition.md FAQ sections

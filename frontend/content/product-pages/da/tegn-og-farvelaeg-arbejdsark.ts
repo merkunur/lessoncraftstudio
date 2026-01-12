@@ -443,6 +443,8 @@ Differentierede pakker appellerer til forskellige kunde-behov. Begynder-pakker m
       'Facitark inkluderet',
     ],
     ctaText: 'Start Nu',
+    bundleDescription: 'Dit abonnement inkluderer adgang til alle 33 arbejdsarkgeneratorer',
+    bundleApps: [],
   },
 
   // Related Apps

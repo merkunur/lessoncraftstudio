@@ -359,6 +359,8 @@ Tu suscripción Acceso Completo incluye licencia comercial completa. Vende tus f
       'Acceso a los 33 generadores',
     ],
     ctaText: 'Comenzar Ahora',
+    bundleDescription: 'Su suscripcion incluye acceso a los 33 generadores de fichas',
+    bundleApps: [],
   },
 
   // Related Apps Section

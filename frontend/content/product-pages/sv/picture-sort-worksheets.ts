@@ -354,6 +354,8 @@ Använd sorteringsarbetsblad för förskoleklass material och lågstadiet. Kombi
       'Dubbla genereringslägen',
     ],
     ctaText: 'Börja Skapa Nu',
+    bundleDescription: 'Din prenumeration inkluderar tillgang till alla 33 arbetsbladsverktyg',
+    bundleApps: [],
   },
 
   // Related Apps

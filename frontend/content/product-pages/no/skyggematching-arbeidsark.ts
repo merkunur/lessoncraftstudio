@@ -414,6 +414,8 @@ Lærere tjener 4 000-40 000 kr per måned med arbeidsark gratis produksjon. Full
       '300 DPI utskriftskvalitet',
     ],
     ctaText: 'Start Nå',
+    bundleDescription: 'Abonnementet ditt inkluderer tilgang til alle 33 arbeidsarkgeneratorer',
+    bundleApps: [],
   },
 
   // Related Apps - From shadow-match.md "Kombinér" section

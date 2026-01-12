@@ -349,6 +349,19 @@ Unser Bilder-Bingo-Generator erstellt zwei druckbare Arbeitsblätter bei jeder G
       '10 einzigartige Bingo-Karten auf einmal',
     ],
     ctaText: 'Jetzt Erstellen',
+    bundleDescription: 'Ihr Abonnement umfasst Zugriff auf 10 Arbeitsblatt-Generatoren:',
+    bundleApps: [
+      'Bildzusatz',
+      'Alphabet-Zug',
+      'Malvorlagen',
+      'Mathe-Arbeitsblatter',
+      'Wortsalat',
+      'Finden und Zahlen',
+      'Zuordnungsspiel',
+      'Linien Zeichnen',
+      'Bilder-Bingo',
+      'Sudoku',
+    ],
   },
 
   // Related Apps - FULL text from bilder-bingo.md combine apps section

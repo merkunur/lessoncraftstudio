@@ -385,6 +385,19 @@ Multiplikationstabellen arbetsblad är mycket populära produkter. Klockan lära
       'Facit ingår',
     ],
     ctaText: 'Börja Skapa Nu',
+    bundleDescription: 'Din prenumeration inkluderar tillgang till 10 arbetsbladsverktyg:',
+    bundleApps: [
+      'Bildaddition',
+      'Alfabetstandriv',
+      'Malarbilder',
+      'Matematikuppgifter',
+      'Ordtrassel',
+      'Hitta och Rakna',
+      'Matchningsspel',
+      'Rita Linjer',
+      'Bildbingo',
+      'Sudoku',
+    ],
   },
 
   // Related Apps

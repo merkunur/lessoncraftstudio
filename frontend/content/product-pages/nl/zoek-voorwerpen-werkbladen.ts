@@ -426,6 +426,8 @@ De professionele 300 DPI kwaliteit onderscheidt jouw producten. Geen watermerken
       '300 DPI afdrukkwaliteit',
     ],
     ctaText: 'Nu Starten',
+    bundleDescription: 'Uw abonnement geeft toegang tot alle 33 werkbladgeneratoren',
+    bundleApps: [],
   },
 
   // Related Apps

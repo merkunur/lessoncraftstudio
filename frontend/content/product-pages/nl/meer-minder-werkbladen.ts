@@ -477,6 +477,8 @@ Combineer vergelijkingswerkbladen met tafels oefenen materialen voor gevorderde 
       '300 DPI afdrukkwaliteit',
     ],
     ctaText: 'Nu Starten',
+    bundleDescription: 'Uw abonnement geeft toegang tot alle 33 werkbladgeneratoren',
+    bundleApps: [],
   },
 
   // Related Apps

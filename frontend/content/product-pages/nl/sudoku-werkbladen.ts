@@ -449,6 +449,19 @@ Verkoop op Teachers Pay Teachers Nederland. Of bied aan via Etsy. Amazon KDP acc
       'Antwoordbladen inbegrepen',
     ],
     ctaText: 'Nu Starten',
+    bundleDescription: 'Uw abonnement geeft toegang tot 10 werkbladgeneratoren:',
+    bundleApps: [
+      'Beeldoptelling',
+      'Alfabettrein',
+      'Kleurplaten',
+      'Rekenwerkbladen',
+      'Woordkruisel',
+      'Zoek en Tel',
+      'Verbindingsspel',
+      'Lijnen Trekken',
+      'Plaatjes Bingo',
+      'Sudoku',
+    ],
   },
 
   // Related Apps

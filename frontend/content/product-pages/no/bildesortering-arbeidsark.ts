@@ -420,6 +420,8 @@ Eksporter alt i 300 DPI profesjonell kvalitet. Kunder forventer skarpe, klare ut
       'Alle 33 arbeidsarkgeneratorer',
     ],
     ctaText: 'Start Nå',
+    bundleDescription: 'Abonnementet ditt inkluderer tilgang til alle 33 arbeidsarkgeneratorer',
+    bundleApps: [],
   },
 
   // Related Apps - From picture-sort.md "Kombiner" section

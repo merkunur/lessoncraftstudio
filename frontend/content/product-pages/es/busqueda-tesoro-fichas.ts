@@ -396,6 +396,8 @@ Los paquetes más vendidos incluyen 20 a 30 fichas preescolar organizadas por te
       'Acceso a los 33 generadores',
     ],
     ctaText: 'Comenzar Ahora',
+    bundleDescription: 'Su suscripcion incluye acceso a los 33 generadores de fichas',
+    bundleApps: [],
   },
 
   // Related Apps

@@ -445,6 +445,8 @@ Lag gangetabellen arbeidsark for 3. trinn som populære produkter. Kombiner med 
       'Fasit inkludert',
     ],
     ctaText: 'Start Nå',
+    bundleDescription: 'Abonnementet ditt inkluderer tilgang til alle 33 arbeidsarkgeneratorer',
+    bundleApps: [],
   },
 
   // Related Apps - From crossword.md "Kombiner" section

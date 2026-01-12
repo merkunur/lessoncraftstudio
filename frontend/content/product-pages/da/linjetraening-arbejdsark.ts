@@ -404,6 +404,19 @@ Populære produkter inkluderer julepakker, alfabetserier og motoriksamlinger. La
       '8 forskellige linjeskabeloner',
     ],
     ctaText: 'Start Nu',
+    bundleDescription: 'Dit abonnement inkluderer adgang til 10 arbejdsarkgeneratorer:',
+    bundleApps: [
+      'Billedaddition',
+      'Alfabettog',
+      'Malebog',
+      'Matematikopgaver',
+      'Bogstavblanding',
+      'Find og Tael',
+      'Matchningsspil',
+      'Tegn Linjer',
+      'Billede Bingo',
+      'Sudoku',
+    ],
   },
 
   // Related Apps

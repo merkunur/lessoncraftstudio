@@ -393,6 +393,8 @@ Selg matematikk oppgaver bunter for gangetabellen, addisjon og subtraksjon. Seso
       'Fasit inkludert',
     ],
     ctaText: 'Start Nå',
+    bundleDescription: 'Abonnementet ditt inkluderer tilgang til alle 33 arbeidsarkgeneratorer',
+    bundleApps: [],
   },
 
   // Related Apps - From picture-path.md "Kombinér" section

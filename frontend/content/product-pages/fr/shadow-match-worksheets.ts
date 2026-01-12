@@ -483,6 +483,19 @@ Les parents en instruction à domicile apprécient énormément ces corrigés. L
       '33 générateurs de fiches',
     ],
     ctaText: 'Commencer Maintenant',
+    bundleDescription: 'Votre abonnement inclut l'acces a 10 generateurs de fiches:',
+    bundleApps: [
+      'Addition Images',
+      'Train Alphabet',
+      'Coloriages',
+      'Fiches de Maths',
+      'Mots Melanges',
+      'Cherche et Compte',
+      'Jeu d'Association',
+      'Tracer des Lignes',
+      'Bingo Images',
+      'Sudoku',
+    ],
   },
 
   // Related Apps - From shadow-match.md Section 7

@@ -439,6 +439,8 @@ Kombiner med bokstaver lære skrive, lesetrening og finmotorikk øvelser for tve
       'Fasit inkludert',
     ],
     ctaText: 'Start Nå',
+    bundleDescription: 'Abonnementet ditt inkluderer tilgang til alle 33 arbeidsarkgeneratorer',
+    bundleApps: [],
   },
 
   // Related Apps - From more-less.md "Kombiner" section

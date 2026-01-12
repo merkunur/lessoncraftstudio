@@ -423,6 +423,8 @@ Mange lærere tjener 500-5000 kroner månedlig ved å selge undervisningsmaterie
       'Fasit inkludert',
     ],
     ctaText: 'Start Nå',
+    bundleDescription: 'Abonnementet ditt inkluderer tilgang til alle 33 arbeidsarkgeneratorer',
+    bundleApps: [],
   },
 
   // Related Apps - From math-puzzle.md "Kombiner" section

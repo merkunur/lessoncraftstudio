@@ -437,6 +437,8 @@ Danske lærere sælger på skandinaviske markeder. Norske og svenske lærere kø
       'Alle 33 apps inkluderet',
     ],
     ctaText: 'Start Nu',
+    bundleDescription: 'Dit abonnement inkluderer adgang til alle 33 arbejdsarkgeneratorer',
+    bundleApps: [],
   },
 
   // Related Apps

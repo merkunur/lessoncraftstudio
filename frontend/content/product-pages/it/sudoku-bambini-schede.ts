@@ -406,6 +406,19 @@ A differenza dei concorrenti che fanno pagare per foglio o per download, il Pacc
       'Chiavi di risposta automatiche',
     ],
     ctaText: 'Inizia Ora',
+    bundleDescription: 'Il tuo abbonamento include l'accesso a 10 generatori di schede:',
+    bundleApps: [
+      'Addizioni con Immagini',
+      'Treno dell'Alfabeto',
+      'Pagine da Colorare',
+      'Schede di Matematica',
+      'Parole Mescolate',
+      'Trova e Conta',
+      'Gioco di Associazione',
+      'Tracciare Linee',
+      'Bingo con Immagini',
+      'Sudoku',
+    ],
   },
 
   // Related Apps Section

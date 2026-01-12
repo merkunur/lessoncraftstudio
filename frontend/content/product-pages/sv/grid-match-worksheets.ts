@@ -427,6 +427,8 @@ Ingen kreditering krävs på sålda produkter. Ditt varumärke syns på alla fö
       '300 DPI utskriftskvalitet',
     ],
     ctaText: 'Börja Skapa Nu',
+    bundleDescription: 'Din prenumeration inkluderar tillgang till alla 33 arbetsbladsverktyg',
+    bundleApps: [],
   },
 
   // Related Apps

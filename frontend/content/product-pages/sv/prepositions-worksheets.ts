@@ -354,6 +354,8 @@ Kombinera prepositionsträning med målarbilder barn gillar. Lägg till egna bil
       '8 prepositioner tillgängliga',
     ],
     ctaText: 'Börja Skapa Nu',
+    bundleDescription: 'Din prenumeration inkluderar tillgang till alla 33 arbetsbladsverktyg',
+    bundleApps: [],
   },
 
   // Related Apps

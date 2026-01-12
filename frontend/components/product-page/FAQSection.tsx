@@ -78,6 +78,8 @@ interface FAQSectionProps {
   ctaText?: string;
   ctaHref?: string;
   guaranteeText?: string;
+  bundleDescription?: string;
+  bundleApps?: string[];
 }
 
 const defaultProps = {
@@ -103,6 +105,8 @@ const defaultProps = {
   ],
   ctaText: 'Start Creating Now',
   guaranteeText: '',
+  bundleDescription: '',
+  bundleApps: [] as string[],
 };
 
 export default function FAQSection({
@@ -126,6 +130,8 @@ export default function FAQSection({
   ctaText = defaultProps.ctaText,
   ctaHref,
   guaranteeText = defaultProps.guaranteeText,
+  bundleDescription = defaultProps.bundleDescription,
+  bundleApps = defaultProps.bundleApps,
 }: FAQSectionProps) {
   const [openId, setOpenId] = useState<string | null>(null);
   const [showAll, setShowAll] = useState(false);
@@ -338,6 +344,23 @@ export default function FAQSection({
                     ))}
                   </ul>
                 </div>
+
+                {/* Bundle apps list - only render if bundleApps is provided */}
+                {bundleApps && bundleApps.length > 0 && (
+                  <div className="px-6 pb-4 border-t border-stone-100 pt-4">
+                    <p className="text-sm font-medium text-stone-600 mb-3">
+                      {bundleDescription}
+                    </p>
+                    <div className="grid grid-cols-2 gap-x-3 gap-y-1.5">
+                      {bundleApps.map((app, index) => (
+                        <span key={index} className="text-xs text-stone-500 flex items-center gap-1.5">
+                          <span className="w-1.5 h-1.5 rounded-full bg-amber-400 flex-shrink-0" />
+                          {app}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+                )}
 
                 {/* CTA */}
                 <div className="px-6 pb-6">

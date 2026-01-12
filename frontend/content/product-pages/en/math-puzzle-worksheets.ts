@@ -302,6 +302,8 @@ The puzzles use familiar images children love. Select from our 3000+ image libra
       'Answer keys included',
     ],
     ctaText: 'Start Creating Now',
+    bundleDescription: 'Your subscription includes access to all 33 worksheet generators',
+    bundleApps: [],
   },
 
   // Related Apps

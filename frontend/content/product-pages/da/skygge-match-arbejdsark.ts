@@ -494,6 +494,8 @@ Literacy-integration forbinder skygge-match med læse og skrive. Brug objekter s
     priceInterval: '/år',
     priceSuffix: 'Faktureres årligt',
     ctaText: 'Start med at Skabe Nu',
+    bundleDescription: 'Dit abonnement inkluderer adgang til alle 33 arbejdsarkgeneratorer',
+    bundleApps: [],
     benefits: [
       'Ubegrænset skygge-match skabelse',
       'Alle 33 arbejdsark-generatorer',

@@ -306,6 +306,8 @@ The worksheet maker offers flexible comparison modes including image-to-image co
       'Answer keys included',
     ],
     ctaText: 'Start Creating Now',
+    bundleDescription: 'Your subscription includes access to all 33 worksheet generators',
+    bundleApps: [],
   },
 
   // Related Apps

@@ -433,6 +433,8 @@ Bouw passief inkomen met digitale downloads. Maak eenmaal 20 verschillende voorz
       '300 DPI afdrukkwaliteit',
     ],
     ctaText: 'Nu Starten',
+    bundleDescription: 'Uw abonnement geeft toegang tot alle 33 werkbladgeneratoren',
+    bundleApps: [],
   },
 
   // Related Apps

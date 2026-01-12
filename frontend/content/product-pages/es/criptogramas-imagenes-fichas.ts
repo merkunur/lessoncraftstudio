@@ -406,6 +406,8 @@ La calidad profesional de 300 DPI garantiza satisfacción del cliente. Los compr
       'Acceso a los 33 generadores',
     ],
     ctaText: 'Comenzar Ahora',
+    bundleDescription: 'Su suscripcion incluye acceso a los 33 generadores de fichas',
+    bundleApps: [],
   },
 
   // Related Apps

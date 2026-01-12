@@ -444,6 +444,8 @@ Pinterest marketing drijft verkeer naar uw Teachers Pay Teachers winkel. Maak vi
       'Antwoordbladen inbegrepen',
     ],
     ctaText: 'Nu Starten',
+    bundleDescription: 'Uw abonnement geeft toegang tot alle 33 werkbladgeneratoren',
+    bundleApps: [],
   },
 
   // Related Apps

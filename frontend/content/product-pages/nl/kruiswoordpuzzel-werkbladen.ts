@@ -510,6 +510,8 @@ Gebruik Pinterest marketing om verkoop te boosten. Pin voorbeeld werkbladen naar
       'Antwoordbladen inbegrepen',
     ],
     ctaText: 'Nu Starten',
+    bundleDescription: 'Uw abonnement geeft toegang tot alle 33 werkbladgeneratoren',
+    bundleApps: [],
   },
 
   // Related Apps

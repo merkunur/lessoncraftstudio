@@ -428,6 +428,8 @@ Upload custom images to create subject-specific worksheets not covered by the li
       'Answer keys included',
     ],
     ctaText: 'Start Creating Now',
+    bundleDescription: 'Your subscription includes access to all 33 worksheet generators',
+    bundleApps: [],
   },
 
   // Related Apps

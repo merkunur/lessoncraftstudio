@@ -434,6 +434,8 @@ Brug Pinterest til at markedsføre dine opgaver. Danske forældre søger "opgave
       'Facitark inkluderet',
     ],
     ctaText: 'Start Nu',
+    bundleDescription: 'Dit abonnement inkluderer adgang til alle 33 arbejdsarkgeneratorer',
+    bundleApps: [],
   },
 
   // Related Apps

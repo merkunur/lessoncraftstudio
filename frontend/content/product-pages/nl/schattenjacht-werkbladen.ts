@@ -422,6 +422,8 @@ Voor werkbladen groep 3 met specifieke fijne motoriek oefeningen voeg je extra e
     priceInterval: '/jaar',
     priceSuffix: 'Jaarlijks gefactureerd',
     ctaText: 'Start Nu Met Maken',
+    bundleDescription: 'Uw abonnement geeft toegang tot alle 33 werkbladgeneratoren',
+    bundleApps: [],
     benefits: [
       'Alle 33 werkblad generators',
       'Onbeperkte werkbladen maken',

@@ -356,6 +356,8 @@ Perfecto para maestros de preescolar, educadores de educación infantil y padres
       'Acceso a los 33 generadores',
     ],
     ctaText: 'Comenzar Ahora',
+    bundleDescription: 'Su suscripcion incluye acceso a los 33 generadores de fichas',
+    bundleApps: [],
   },
 
   // Related Apps

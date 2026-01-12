@@ -336,6 +336,19 @@ The generator includes 8 different templates with various line patterns and orie
       '300 DPI print quality',
     ],
     ctaText: 'Start Creating Now',
+    bundleDescription: 'Your subscription includes access to 10 worksheet generators:',
+    bundleApps: [
+      'Image Addition',
+      'Alphabet Train',
+      'Coloring Pages',
+      'Math Worksheets',
+      'Word Scramble',
+      'Find and Count',
+      'MatchUp Maker',
+      'Drawing Lines',
+      'Picture Bingo',
+      'Sudoku',
+    ],
   },
 
   // Related Apps

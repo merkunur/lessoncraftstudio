@@ -434,6 +434,8 @@ Kombinera mönster arbetsblad med målarbilder barn för premiumpaket. Varje pak
       'Kommersiell licens ingår',
     ],
     ctaText: 'Börja Skapa Nu',
+    bundleDescription: 'Din prenumeration inkluderar tillgang till alla 33 arbetsbladsverktyg',
+    bundleApps: [],
   },
 
   // Related Apps

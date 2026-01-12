@@ -455,6 +455,19 @@ Många lärare tjänar 4 000-40 000 kr per månad på Teachers Pay Teachers. Bil
       'Facit ingår',
     ],
     ctaText: 'Börja Skapa Nu',
+    bundleDescription: 'Din prenumeration inkluderar tillgang till 10 arbetsbladsverktyg:',
+    bundleApps: [
+      'Bildaddition',
+      'Alfabetstandriv',
+      'Malarbilder',
+      'Matematikuppgifter',
+      'Ordtrassel',
+      'Hitta och Rakna',
+      'Matchningsspel',
+      'Rita Linjer',
+      'Bildbingo',
+      'Sudoku',
+    ],
   },
 
   // Related Apps

@@ -506,6 +506,8 @@ Full Tilgang-abonnement på kr 1 800 årlig betaler seg selv. Selg tre TPT-pakke
       'Fasit inkludert',
     ],
     ctaText: 'Start Nå',
+    bundleDescription: 'Abonnementet ditt inkluderer tilgang til alle 33 arbeidsarkgeneratorer',
+    bundleApps: [],
   },
 
   // Related Apps - From odd-one-out.md "Kombiner" section

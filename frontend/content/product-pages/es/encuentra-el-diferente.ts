@@ -361,6 +361,8 @@ Las fichas para imprimir se exportan en formato PDF y JPEG a 300 DPI. Perfectas 
       'Acceso a los 33 generadores',
     ],
     ctaText: 'Comenzar Ahora',
+    bundleDescription: 'Su suscripcion incluye acceso a los 33 generadores de fichas',
+    bundleApps: [],
   },
 
   // Related Apps Section

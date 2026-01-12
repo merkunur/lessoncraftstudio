@@ -281,6 +281,8 @@ Teachers love grid match worksheets because they combine fun with learning. Crea
       'All 33 worksheet generators',
     ],
     ctaText: 'Start Creating Now',
+    bundleDescription: 'Your subscription includes access to all 33 worksheet generators',
+    bundleApps: [],
   },
 
   // Related Apps

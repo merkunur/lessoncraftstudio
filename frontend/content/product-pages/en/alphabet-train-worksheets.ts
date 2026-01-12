@@ -355,6 +355,19 @@ Etsy printable shops thrive with educational worksheet products. Parents search 
       'Answer keys included',
     ],
     ctaText: 'Start Creating Now',
+    bundleDescription: 'Your subscription includes access to 10 worksheet generators:',
+    bundleApps: [
+      'Image Addition',
+      'Alphabet Train',
+      'Coloring Pages',
+      'Math Worksheets',
+      'Word Scramble',
+      'Find and Count',
+      'MatchUp Maker',
+      'Drawing Lines',
+      'Picture Bingo',
+      'Sudoku',
+    ],
   },
 
   // Related Apps

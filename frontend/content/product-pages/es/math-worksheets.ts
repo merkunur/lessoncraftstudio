@@ -465,6 +465,19 @@ Vendedores en Etsy y Amazon KDP convierten las fichas infantil en productos de i
       'Hojas de respuestas incluidas',
     ],
     ctaText: 'Comenzar Ahora',
+    bundleDescription: 'Su suscripcion incluye acceso a 10 generadores de fichas:',
+    bundleApps: [
+      'Sumas con Imagenes',
+      'Tren del Alfabeto',
+      'Paginas para Colorear',
+      'Fichas de Matematicas',
+      'Palabras Revueltas',
+      'Busca y Cuenta',
+      'Emparejamiento',
+      'Trazar Lineas',
+      'Bingo de Imagenes',
+      'Sudoku',
+    ],
   },
 
   // Related Apps - Combina Fichas de Matemáticas con otros generadores

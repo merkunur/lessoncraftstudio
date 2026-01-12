@@ -426,6 +426,8 @@ Skapa produktpaket med gissa-ordet-arbetsblad, matematik arbetsblad för additio
       'Facit ingår',
     ],
     ctaText: 'Börja Skapa Nu',
+    bundleDescription: 'Din prenumeration inkluderar tillgang till alla 33 arbetsbladsverktyg',
+    bundleApps: [],
   },
 
   // Related Apps

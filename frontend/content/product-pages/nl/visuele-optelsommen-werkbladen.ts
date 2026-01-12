@@ -429,6 +429,8 @@ De 300 DPI kwaliteit is verkoopklaar. Geen extra bewerking nodig. Download als P
       'Antwoordbladen inbegrepen',
     ],
     ctaText: 'Nu Starten',
+    bundleDescription: 'Uw abonnement geeft toegang tot alle 33 werkbladgeneratoren',
+    bundleApps: [],
   },
 
   // Related Apps

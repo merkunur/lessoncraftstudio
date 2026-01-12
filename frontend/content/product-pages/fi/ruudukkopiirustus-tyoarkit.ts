@@ -554,6 +554,19 @@ Erityisopetuksessa ruudukkopiirustustehtävät toimivat vanhemmillekin oppilaill
       'Täysi muokattavuus',
     ],
     ctaText: 'Tilaa Nyt',
+    bundleDescription: 'Tilauksesi sisaltaa paasyn 10 tyoarkkigeneraattoriin:',
+    bundleApps: [
+      'Kuvayhdistely',
+      'Aakkosjuna',
+      'Varityskuvat',
+      'Matematiikkatehtavat',
+      'Sanansekoitus',
+      'Etsi ja Laske',
+      'Yhdistelypeli',
+      'Piirralainjoja',
+      'Kuvabingo',
+      'Sudoku',
+    ],
   },
 };
 

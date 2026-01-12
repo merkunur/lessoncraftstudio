@@ -412,6 +412,8 @@ Din kommercielle licens er inkluderet i Fuld Adgang-abonnement. Ingen ekstra geb
       'Facitark inkluderet',
     ],
     ctaText: 'Start Nu',
+    bundleDescription: 'Dit abonnement inkluderer adgang til alle 33 arbejdsarkgeneratorer',
+    bundleApps: [],
   },
 
   // Related Apps

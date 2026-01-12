@@ -486,6 +486,8 @@ Mange danske lærere tjener 3000-15000 DKK månedligt fra passivt salg. Dit 1800
       'Facitark inkluderet',
     ],
     ctaText: 'Start Nu',
+    bundleDescription: 'Dit abonnement inkluderer adgang til alle 33 arbejdsarkgeneratorer',
+    bundleApps: [],
   },
 
   // Related Apps

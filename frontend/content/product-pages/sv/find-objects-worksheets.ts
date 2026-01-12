@@ -387,6 +387,8 @@ Säljare genererar 10-20 unika arbetsblad per timme. En mångsidig produktlinje 
       '300 DPI utskriftskvalitet',
     ],
     ctaText: 'Börja Skapa Nu',
+    bundleDescription: 'Din prenumeration inkluderar tillgang till alla 33 arbetsbladsverktyg',
+    bundleApps: [],
   },
 
   // Related Apps

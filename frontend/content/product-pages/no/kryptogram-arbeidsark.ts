@@ -449,6 +449,8 @@ Mange lærerentreprenører tjener $500-$5000 månedlig med oppgavehefter barn el
       'Fasit inkludert',
     ],
     ctaText: 'Start Nå',
+    bundleDescription: 'Abonnementet ditt inkluderer tilgang til alle 33 arbeidsarkgeneratorer',
+    bundleApps: [],
   },
 
   // Related Apps - From cryptogram.md "Kombiner" section

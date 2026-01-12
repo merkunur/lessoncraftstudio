@@ -372,6 +372,8 @@ Avere chiavi delle risposte risparmia tempo enorme durante correzioni. Non devi 
       'Chiavi di risposta automatiche',
     ],
     ctaText: 'Inizia Ora',
+    bundleDescription: 'Il tuo abbonamento include l'accesso a tutti i 33 generatori di schede',
+    bundleApps: [],
   },
 
   // Related Apps Section

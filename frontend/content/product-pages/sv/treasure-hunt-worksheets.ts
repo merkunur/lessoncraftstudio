@@ -421,6 +421,8 @@ Lägg till matte övningar och siffror och tal träning i matematikskattjakt pak
       'Två riktningslägen',
     ],
     ctaText: 'Börja Skapa Nu',
+    bundleDescription: 'Din prenumeration inkluderar tillgang till alla 33 arbetsbladsverktyg',
+    bundleApps: [],
   },
 
   // Related Apps - Swedish translations

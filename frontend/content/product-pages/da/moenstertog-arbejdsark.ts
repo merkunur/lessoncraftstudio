@@ -360,6 +360,8 @@ Kombiner mønstertog med malebog sider til hybrid produkter. Opret "Mønster og 
       'Facitark inkluderet',
     ],
     ctaText: 'Start Nu',
+    bundleDescription: 'Dit abonnement inkluderer adgang til alle 33 arbejdsarkgeneratorer',
+    bundleApps: [],
   },
 
   // FAQ Section - FULL text from pattern-train.md FAQ sections

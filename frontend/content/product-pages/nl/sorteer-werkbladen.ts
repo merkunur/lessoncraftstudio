@@ -484,6 +484,8 @@ De commerciële licentie dekt ook bundel in curricula. Schrijf een complete "Vro
       'Alle 33 generators beschikbaar',
     ],
     ctaText: 'Nu Starten',
+    bundleDescription: 'Uw abonnement geeft toegang tot alle 33 werkbladgeneratoren',
+    bundleApps: [],
   },
 
   // Related Apps

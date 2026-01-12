@@ -483,6 +483,19 @@ Professionel 300 DPI kvalitet giver gode anmeldelser. Købere roser klare prints
       'Svarnøgler inkluderet',
     ],
     ctaText: 'Start Nu',
+    bundleDescription: 'Dit abonnement inkluderer adgang til 10 arbejdsarkgeneratorer:',
+    bundleApps: [
+      'Billedaddition',
+      'Alfabettog',
+      'Malebog',
+      'Matematikopgaver',
+      'Bogstavblanding',
+      'Find og Tael',
+      'Matchningsspil',
+      'Tegn Linjer',
+      'Billede Bingo',
+      'Sudoku',
+    ],
   },
 
   // Related Apps

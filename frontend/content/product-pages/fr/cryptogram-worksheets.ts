@@ -422,6 +422,19 @@ Une fois créés les PDF téléchargés s'affichent parfaitement sur tous les ap
       'Corrigés automatiques inclus',
     ],
     ctaText: 'Commencer Maintenant',
+    bundleDescription: 'Votre abonnement inclut l'acces a 10 generateurs de fiches:',
+    bundleApps: [
+      'Addition Images',
+      'Train Alphabet',
+      'Coloriages',
+      'Fiches de Maths',
+      'Mots Melanges',
+      'Cherche et Compte',
+      'Jeu d'Association',
+      'Tracer des Lignes',
+      'Bingo Images',
+      'Sudoku',
+    ],
   },
 
   // Related Apps - From cryptogram.md Section 7

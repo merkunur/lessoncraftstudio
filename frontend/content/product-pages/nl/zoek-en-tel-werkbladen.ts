@@ -432,6 +432,19 @@ Combineer zoekwerkbladen met kleurplaten in je webshop. Maak thematische bundels
       'Antwoordbladen inbegrepen',
     ],
     ctaText: 'Nu Starten',
+    bundleDescription: 'Uw abonnement geeft toegang tot 10 werkbladgeneratoren:',
+    bundleApps: [
+      'Beeldoptelling',
+      'Alfabettrein',
+      'Kleurplaten',
+      'Rekenwerkbladen',
+      'Woordkruisel',
+      'Zoek en Tel',
+      'Verbindingsspel',
+      'Lijnen Trekken',
+      'Plaatjes Bingo',
+      'Sudoku',
+    ],
   },
 
   // Related Apps

@@ -446,6 +446,19 @@ Professores empreendedores faturam de R$500 a R$5000 mensais. Materiais digitais
       'Exportação PDF e JPEG',
     ],
     ctaText: 'Comece a Criar Agora',
+    bundleDescription: 'Sua assinatura inclui acesso a 10 geradores de fichas:',
+    bundleApps: [
+      'Adicao com Imagens',
+      'Trem do Alfabeto',
+      'Paginas para Colorir',
+      'Fichas de Matematica',
+      'Palavras Embaralhadas',
+      'Encontre e Conte',
+      'Jogo de Associacao',
+      'Tracar Linhas',
+      'Bingo de Imagens',
+      'Sudoku',
+    ],
   },
 
   // Related Apps Section

@@ -509,6 +509,8 @@ Mange danske lærere tjener 5.000-25.000 kr månedligt. Nogle tjener meget mere.
       'Alle 33 generatorer inkluderet',
     ],
     ctaText: 'Start Nu',
+    bundleDescription: 'Dit abonnement inkluderer adgang til alle 33 arbejdsarkgeneratorer',
+    bundleApps: [],
   },
 
   // Related Apps

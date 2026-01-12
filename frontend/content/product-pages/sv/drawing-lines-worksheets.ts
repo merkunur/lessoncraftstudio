@@ -502,6 +502,19 @@ Kombinera rita linjer-arbetsblad med andra arbetsbladstyper. Sälj "Komplett Fö
       '8 linjemallar ingår',
     ],
     ctaText: 'Börja Skapa Nu',
+    bundleDescription: 'Din prenumeration inkluderar tillgang till 10 arbetsbladsverktyg:',
+    bundleApps: [
+      'Bildaddition',
+      'Alfabetstandriv',
+      'Malarbilder',
+      'Matematikuppgifter',
+      'Ordtrassel',
+      'Hitta och Rakna',
+      'Matchningsspel',
+      'Rita Linjer',
+      'Bildbingo',
+      'Sudoku',
+    ],
   },
 
   // Related Apps

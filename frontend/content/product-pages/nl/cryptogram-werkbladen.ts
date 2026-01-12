@@ -491,6 +491,8 @@ Thematische eenheden profiteren van cryptogram integratie. Maak puzzels over sei
     priceInterval: '/jaar',
     priceSuffix: 'Jaarlijks gefactureerd',
     ctaText: 'Nu Starten',
+    bundleDescription: 'Uw abonnement geeft toegang tot alle 33 werkbladgeneratoren',
+    bundleApps: [],
     benefits: [
       'Alle 33 werkblad generatoren',
       'Onbeperkte downloads',

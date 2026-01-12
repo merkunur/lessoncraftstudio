@@ -414,6 +414,19 @@ O Grid Match produz materiais diferenciados da concorrência. Poucos geradores o
       'Qualidade de impressão 300 DPI',
     ],
     ctaText: 'Comece Agora',
+    bundleDescription: 'Sua assinatura inclui acesso a 10 geradores de fichas:',
+    bundleApps: [
+      'Adicao com Imagens',
+      'Trem do Alfabeto',
+      'Paginas para Colorir',
+      'Fichas de Matematica',
+      'Palavras Embaralhadas',
+      'Encontre e Conte',
+      'Jogo de Associacao',
+      'Tracar Linhas',
+      'Bingo de Imagens',
+      'Sudoku',
+    ],
   },
 
   // Related Apps

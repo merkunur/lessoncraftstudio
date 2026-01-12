@@ -453,6 +453,8 @@ Differentieer je producten door unieke thema's te targeten die onderbedeeld zijn
       'Alle 33 generators beschikbaar',
     ],
     ctaText: 'Nu Starten',
+    bundleDescription: 'Uw abonnement geeft toegang tot alle 33 werkbladgeneratoren',
+    bundleApps: [],
   },
 
   // Related Apps

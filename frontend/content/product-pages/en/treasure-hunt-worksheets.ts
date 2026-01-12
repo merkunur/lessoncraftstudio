@@ -301,6 +301,8 @@ This treasure hunt generator creates unique worksheets every time you click gene
       'Two direction modes',
     ],
     ctaText: 'Start Creating Now',
+    bundleDescription: 'Your subscription includes access to all 33 worksheet generators',
+    bundleApps: [],
   },
 
   // Related Apps

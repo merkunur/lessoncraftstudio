@@ -465,6 +465,8 @@ Tværfaglige kopiark kombinerer flere emner. Skattejagt med matematikopgaver tæ
     priceInterval: '/år',
     priceSuffix: 'Faktureres årligt',
     ctaText: 'Start med at Skabe Nu',
+    bundleDescription: 'Dit abonnement inkluderer adgang til alle 33 arbejdsarkgeneratorer',
+    bundleApps: [],
     benefits: [
       'Ubegrænset skattejagt skabelse',
       'Alle 33 arbejdsark-generatorer',

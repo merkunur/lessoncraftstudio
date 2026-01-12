@@ -303,6 +303,8 @@ Perfect for kindergarten teachers and first grade educators who need quality pre
       '8 preposition types',
     ],
     ctaText: 'Start Creating Now',
+    bundleDescription: 'Your subscription includes access to all 33 worksheet generators',
+    bundleApps: [],
   },
 
   // Related Apps

@@ -188,7 +188,7 @@ export interface ProductPageContent {
     badgeText?: string;
     exploreText?: string;
     trustBadges?: {
-      guarantee: string;
+      guarantee?: string;
       securePayment: string;
       cancelAnytime: string;
     };

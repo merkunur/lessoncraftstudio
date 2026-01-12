@@ -461,6 +461,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       nl: 'sorteer-werkbladen',
       da: 'billedsortering-arbejdsark',
       no: 'bildesortering-arbeidsark',
+      fi: 'kuvalajittelu-tyoarkit',
     },
   },
   {

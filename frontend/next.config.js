@@ -1872,6 +1872,12 @@ const nextConfig = {
         destination: '/fi/apps/kuvapolku-tyoarkit',
         permanent: true,
       },
+      // Finnish: picture-sort-worksheets → kuvalajittelu-tyoarkit
+      {
+        source: '/fi/apps/picture-sort-worksheets',
+        destination: '/fi/apps/kuvalajittelu-tyoarkit',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

@@ -375,6 +375,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     nl: 'sorteer-werkbladen',
     da: 'billedsortering-arbejdsark',
     no: 'bildesortering-arbeidsark',
+    fi: 'kuvalajittelu-tyoarkit',
   },
   'prepositions': {
     en: 'prepositions-worksheets',

@@ -255,6 +255,7 @@ import moreLessFiContent from '@/content/product-pages/fi/enemman-vahemman-tyoar
 import oddOneOutFiContent from '@/content/product-pages/fi/poikkea-joukosta-tyoarkit';
 import patternWorksheetFiContent from '@/content/product-pages/fi/kuviotehtava-tyoarkit';
 import picturePathFiContent from '@/content/product-pages/fi/kuvapolku-tyoarkit';
+import pictureSortFiContent from '@/content/product-pages/fi/kuvalajittelu-tyoarkit';
 
 interface PageProps {
   params: {
@@ -9738,6 +9739,7 @@ export async function generateStaticParams() {
     'enemman-vahemman-tyoarkit', // Product page slug (Finnish) - language-specific SEO slug for more-less
     'poikkea-joukosta-tyoarkit', // Product page slug (Finnish) - language-specific SEO slug for odd-one-out
     'kuvapolku-tyoarkit', // Product page slug (Finnish) - language-specific SEO slug for picture-path
+    'kuvalajittelu-tyoarkit', // Product page slug (Finnish) - language-specific SEO slug for picture-sort
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

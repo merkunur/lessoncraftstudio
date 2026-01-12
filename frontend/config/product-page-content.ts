@@ -104,6 +104,7 @@ import oddOneOutFiContent from '@/content/product-pages/fi/poikkea-joukosta-tyoa
 import patternTrainFiContent from '@/content/product-pages/fi/kuviojuna-tyoarkit';
 import patternWorksheetFiContent from '@/content/product-pages/fi/kuviotehtava-tyoarkit';
 import picturePathFiContent from '@/content/product-pages/fi/kuvapolku-tyoarkit';
+import pictureSortFiContent from '@/content/product-pages/fi/kuvalajittelu-tyoarkit';
 
 // German content imports
 import wordSearchDeContent from '@/content/product-pages/de/word-search-worksheets';
@@ -1742,6 +1743,10 @@ export const contentRegistry: ContentRegistry = {
     'kuvapolku-tyoarkit': picturePathFiContent,
     // Also keep English slug for backwards compatibility during transition
     'picture-path-worksheets': picturePathFiContent,
+    // Finnish Picture Sort (Kuvalajittelu) - uses Finnish SEO slug
+    'kuvalajittelu-tyoarkit': pictureSortFiContent,
+    // Also keep English slug for backwards compatibility during transition
+    'picture-sort-worksheets': pictureSortFiContent,
   },
 };
 

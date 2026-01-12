@@ -16,7 +16,7 @@ export const moreLessFiContent: ProductPageContent = {
     slug: 'enemman-vahemman-tyoarkit',
     appId: 'more-less',
     title: 'Matematiikka Tehtävät Alakoulu - Tulostettavat Tehtävät Lapsille Ilmainen - Esiopetus Materiaali Ilmainen',
-    description: 'Luo ammattimaisia vertailutehtäviä lukujen ja määrien vertailuun. Full Access -tilauksella saat rajattomasti tehtäviä ilman yksittäisiä maksuja per tehtävä. Generoi tulostettavia matematiikkatehtäviä, jotka sopivat täydellisesti esiopetukseen ja alakoulun ensimmäisille luokille. Lataa laadukkaat PDF-tehtävät alle 3 minuutissa.',
+    description: 'Luo ammattimaisia vertailutehtäviä lukujen ja määrien vertailuun. Täysi Käyttöoikeus -tilauksella saat rajattomasti tehtäviä ilman yksittäisiä maksuja per tehtävä. Generoi tulostettavia matematiikkatehtäviä, jotka sopivat täydellisesti esiopetukseen ja alakoulun ensimmäisille luokille. Lataa laadukkaat PDF-tehtävät alle 3 minuutissa.',
     keywords: 'matematiikka tehtävät alakoulu, tulostettavat tehtävät lapsille ilmainen, esiopetus materiaali ilmainen, vertailutehtävät, enemmän vähemmän, suurempi pienempi, lukujen vertailu',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fi/apps/enemman-vahemman-tyoarkit',
   },
@@ -25,11 +25,11 @@ export const moreLessFiContent: ProductPageContent = {
   hero: {
     title: 'Enemmän vai Vähemmän Tehtävät',
     subtitle: 'Matematiikka Tehtävät Alakoulu - Tulostettavat Tehtävät Lapsille Ilmainen',
-    description: `Luo ammattimaisia vertailutehtäviä lukujen ja määrien vertailuun. Full Access -tilauksella saat rajattomasti tehtäviä ilman yksittäisiä maksuja per tehtävä. Generoi tulostettavia matematiikkatehtäviä, jotka sopivat täydellisesti esiopetukseen ja alakoulun ensimmäisille luokille. Lataa laadukkaat PDF-tehtävät alle 3 minuutissa.
+    description: `Luo ammattimaisia vertailutehtäviä lukujen ja määrien vertailuun. Täysi Käyttöoikeus -tilauksella saat rajattomasti tehtäviä ilman yksittäisiä maksuja per tehtävä. Generoi tulostettavia matematiikkatehtäviä, jotka sopivat täydellisesti esiopetukseen ja alakoulun ensimmäisille luokille. Lataa laadukkaat PDF-tehtävät alle 3 minuutissa.
 
 Lukujen vertailu on perustavanlaatuinen matemaattinen taito. Lapset oppivat ymmärtämään suurempi, pienempi ja yhtä suuri -käsitteet. Tehtävägeneraattorimme tekee vertailutehtävien luomisesta helppoa. Valitse kuvat tai teemat, aseta asetukset, ja tehtävä on valmis. Jokainen tehtävä sisältää visuaalisia elementtejä, jotka auttavat lapsia hahmottamaan määriä.
 
-Full Access -tilaus antaa sinulle pääsyn kaikkiin 33 tehtävägeneraattoriin yhteen hintaan. Luo niin monta matematiikkatehtävää kuin tarvitset. Ei piilotettuja kuluja tai rajoituksia. Kaikki kuvat, taustat ja reunukset sisältyvät tilaukseen. 300 DPI:n laatu takaa ammattimaiset tulosteet.`,
+Täysi Käyttöoikeus -tilaus antaa sinulle pääsyn kaikkiin 33 tehtävägeneraattoriin yhteen hintaan. Luo niin monta matematiikkatehtävää kuin tarvitset. Ei piilotettuja kuluja tai rajoituksia. Kaikki kuvat, taustat ja reunukset sisältyvät tilaukseen. 300 DPI:n laatu takaa ammattimaiset tulosteet.`,
     previewImageSrc: '/samples/english/more less/image to image.jpeg',
     ctaLabels: {
       tryFree: 'Kokeile Ilmaiseksi',
@@ -90,7 +90,7 @@ Full Access -tilaus antaa sinulle pääsyn kaikkiin 33 tehtävägeneraattoriin y
   // Features Grid - FULL text from Finnish more-less.md feature sections
   features: {
     sectionTitle: 'Matematiikka Tehtävät Alakoulu -ominaisuudet - Tulostettavat Tehtävät Lapsille Ilmainen Vertailutehtäviin',
-    sectionDescription: 'Vertailutehtävägeneraattorimme sisältää kaikki tarvittavat työkalut ammattimaisten matematiikkatehtävien luomiseen. Full Access -tilaus antaa sinulle pääsyn laajaan ominaisuusvalikoimaan. Luo, muokkaa ja lataa tehtäviä vaivattomasti. Jokainen ominaisuus on suunniteltu säästämään aikaa ja parantamaan tehtävien laatua. Seuraavat ominaisuudet tekevät tehtävien luomisesta helppoa ja tehokasta.',
+    sectionDescription: 'Vertailutehtävägeneraattorimme sisältää kaikki tarvittavat työkalut ammattimaisten matematiikkatehtävien luomiseen. Täysi Käyttöoikeus -tilaus antaa sinulle pääsyn laajaan ominaisuusvalikoimaan. Luo, muokkaa ja lataa tehtäviä vaivattomasti. Jokainen ominaisuus on suunniteltu säästämään aikaa ja parantamaan tehtävien laatua. Seuraavat ominaisuudet tekevät tehtävien luomisesta helppoa ja tehokasta.',
     highlightBadgeText: 'Tärkeä Ominaisuus',
     readMoreLabel: 'Lue lisää',
     showLessLabel: 'Näytä vähemmän',
@@ -131,7 +131,7 @@ Kerrosjärjestyksen hallinta antaa täyden kontrollin. Siirrä elementtejä etee
 
 Lataa luokkahuoneesi esineiden kuvia. Käytä oppilaiden lemmikkieläinten kuvia. Sisällytä paikallisia maamerkkejä tai kulttuurisia elementtejä. Ominaisuus tekee matematiikasta merkityksellisempää lapsille. He tunnistavat tutut kuvat ja pysyvät paremmin keskittyneenä.
 
-Ladatut kuvat näkyvät välittömästi kuvavalikoimassa. Käytä niitä samalla tavalla kuin kirjaston kuvia. Raahaa, skaalaa ja kierrä omia kuvia. Yhdistä ne teemoihin ja taustoihin. Mahdollisuudet ovat rajattomat Full Access -tilauksella.`,
+Ladatut kuvat näkyvät välittömästi kuvavalikoimassa. Käytä niitä samalla tavalla kuin kirjaston kuvia. Raahaa, skaalaa ja kierrä omia kuvia. Yhdistä ne teemoihin ja taustoihin. Mahdollisuudet ovat rajattomat Täysi Käyttöoikeus -tilauksella.`,
         highlighted: false,
       },
       {
@@ -140,7 +140,7 @@ Ladatut kuvat näkyvät välittömästi kuvavalikoimassa. Käytä niitä samalla
         title: '11 Kielen Tuki - Kertotaulut Tulostettava ja Monikielinen Matematiikka',
         description: `Käyttöliittymä toimii 11 eri kielellä. Suomi, ruotsi, englanti, saksa, ranska, espanja, italia, portugali, hollanti, tanska ja norja ovat kaikki mukana. Kaikki painikkeet, nimiöt ja ohjeet kääntyvät automaattisesti. Vaihda kieli missä tahansa luomisprosessin vaiheessa.
 
-Monikielinen tuki on kriittinen ESL-opettajille. Luo samoja tehtäviä eri kielillä. Tue kaksikielisiä oppilaita heidän äidinkielellään. Kansainväliset koulut hyötyvät valtavasti tästä ominaisuudesta. Kotiopettajat voivat opettaa useita kieliä samanaikaisesti.
+Monikielinen tuki on kriittinen kieltenopettajille. Luo samoja tehtäviä eri kielillä. Tue kaksikielisiä oppilaita heidän äidinkielellään. Kansainväliset koulut hyötyvät valtavasti tästä ominaisuudesta. Kotiopettajat voivat opettaa useita kieliä samanaikaisesti.
 
 Tehtävien otsikot mukautuvat valitun kielen mukaan. Suomeksi näkyy "Enemmän Vähemmän - Vertaile ja valitse oikea symboli!" Ruotsiksi otsikko muuttuu automaattisesti. Englanniksi näet "More Less - Compare and choose the right symbol!" Ammattimainen käyttökokemus jokaisella kielellä.`,
         highlighted: false,
@@ -149,7 +149,7 @@ Tehtävien otsikot mukautuvat valitun kielen mukaan. Suomeksi näkyy "Enemmän V
         id: '5',
         icon: '💰',
         title: 'Kaupallinen POD-lisenssi - Värityskuvia Lapsille Tulostettava Myyntiin',
-        description: `Full Access -tilaus sisältää täyden print-on-demand kaupallisen lisenssin. Myy luomiasi tehtäviä Teachers Pay Teachersissa. Avaa Etsy-kauppa tulostettaville matematiikkatehtäville. Julkaise Amazon KDP:ssä matalan sisällön kirjana. Ei lisälisensointimaksuja tilauksen päälle.
+        description: `Täysi Käyttöoikeus -tilaus sisältää täyden print-on-demand kaupallisen lisenssin. Myy luomiasi tehtäviä Teachers Pay Teachersissa. Avaa Etsy-kauppa tulostettaville matematiikkatehtäville. Julkaise Amazon KDP:ssä matalan sisällön kirjana. Ei lisälisensointimaksuja tilauksen päälle.
 
 300 DPI:n laatu takaa ammattimaiset tulosteet. Asiakkaasi saavat terävät, selkeät kuvat. Tekstit pysyvät luettavina kaikissa ko'oissa. Värit tulostuvat kirkkaina ja elävinä. Harmaasävyvaihtoehto tarjoaa mustevälisiä vaihtoehtoja.
 
@@ -253,7 +253,7 @@ Kerroksenhallintatyökalut järjestävät päällekkäiset objektit. Tuo eteen, 
         title: 'Lataa ja Tulosta - Hienomotoriikka Harjoitukset ja Pisteestä Pisteeseen Tehtävät Korkealaatuisina',
         description: `Viimeinen askel on lataaminen ja tulostaminen. Klikkaa lataa-pudotusvalikkoa ylhäällä oikealla. Neljä vaihtoehtoa näkyy. Tehtävä (JPEG), Vastausavain (JPEG), Tehtävä (PDF), Vastausavain (PDF).
 
-JPEG-muoto sopii nopeaan jakamiseen. Lähetä sähköpostitse vanhemmille. Jaa Google Classroomissa tai muilla alustoilla. Esikatsele tietokoneella ennen tulostamista. JPEG latautuu ja avautuu nopeasti.
+JPEG-muoto sopii nopeaan jakamiseen. Lähetä sähköpostitse vanhemmille. Jaa oppimisalustoilla tai muilla alustoilla. Esikatsele tietokoneella ennen tulostamista. JPEG latautuu ja avautuu nopeasti.
 
 PDF-muoto on paras tulostamiseen. Säilyttää tarkan ulkoasun kaikilla laitteilla. Tulostuu johdonmukaisesti kaikilla tulostimilla. Vanhemmat voivat avata PDF:t helposti kotona. Ammattimainen muoto jakamiseen ja arkistointiin.
 
@@ -318,9 +318,9 @@ Lataa perheen valokuvat personointiin. Käytä lasten nimien kuvia motivaatioon.
       {
         id: '4',
         icon: '🌍',
-        title: 'ESL- ja Kielten Opettajat',
+        title: 'Kieltenopettajat',
         subtitle: 'Kertotaulut Tulostettava ja Lukemaan Oppiminen Tehtävät',
-        description: `ESL-opettajat käyttävät visuaalisia vertailutehtäviä sanaston opetukseen. Objektien laskeminen yhdistää kielikyvyn ja matematiikan. Lapset oppivat eläinten nimiä laskiessaan kissoja ja koiria. Hedelmien nimiä vertaillessaan omenoita ja banaaneja.
+        description: `Kieltenopettajat käyttävät visuaalisia vertailutehtäviä sanaston opetukseen. Objektien laskeminen yhdistää kielikyvyn ja matematiikan. Lapset oppivat eläinten nimiä laskiessaan kissoja ja koiria. Hedelmien nimiä vertaillessaan omenoita ja banaaneja.
 
 Kuvakirjasto tarjoaa 3000+ objektia kielenoppimiseen. Jokaisella kuvalla on tiedostonimi, joka kuvastaa objektia. Opettajat käyttävät näitä nimiä sanaston harjoituksiin. Yhdistä visuaalinen tunnistaminen, kirjoitetut sanat ja puhuttu kieli.
 
@@ -348,7 +348,7 @@ Lataa henkilökohtaisia kuvia motivaation lisäämiseksi. Käytä oppilaan lempi
         icon: '💰',
         title: 'Opettajayrittäjät',
         subtitle: 'Pisteestä Pisteeseen Tehtävät Teachers Pay Teachersiin Myyntiin',
-        description: `Opettajayrittäjät myyvät tehtäviä Teachers Pay Teachersissa, Etsyssä ja Amazon KDP:ssä. Full Access -tilaus sisältää täyden kaupallisen lisenssin. Luo rajattomasti tehtäviä myyntiin. Ei ylimääräisiä lisenssimaksuja tai rojalteja.
+        description: `Opettajayrittäjät myyvät tehtäviä Teachers Pay Teachersissa, Etsyssä ja Amazon KDP:ssä. Täysi Käyttöoikeus -tilaus sisältää täyden kaupallisen lisenssin. Luo rajattomasti tehtäviä myyntiin. Ei ylimääräisiä lisenssimaksuja tai rojalteja.
 
 300 DPI:n laatu on välttämätön maksullisille tuotteille. Asiakkaat odottavat ammattimaisia, teräviä tulosteita. Kilpaile laatukustantajien kanssa. Erottaudu ainutlaatuisilla teema- ja tyylivalinnoilla. Korkea laatu johtaa parempiin arvosteluihin ja enemmän myyntiin.
 
@@ -363,7 +363,7 @@ Pinterest-markkinointi ohjaa liikennettä tuotelistauksiin. Luo visuaalisesti ho
   // FAQ Section - Selected FAQs from Finnish more-less.md
   faq: {
     sectionTitle: 'Usein Kysyttyjä Kysymyksiä - Matematiikka Tehtävät Alakoulu ja Tulostettavat Tehtävät Lapsille Ilmainen',
-    sectionDescription: 'Opettajilla ja vanhemmilla on kysymyksiä ennen tilausta. Seuraavat 12 kysymystä vastaavat yleisimpiin huolenaiheisiin. Jokainen vastaus tarjoaa selkeät, tosiasialliset tiedot. Lue nämä ymmärtääksesi täydellisesti, mitä Full Access -tilaus sisältää.',
+    sectionDescription: 'Opettajilla ja vanhemmilla on kysymyksiä ennen tilausta. Seuraavat 12 kysymystä vastaavat yleisimpiin huolenaiheisiin. Jokainen vastaus tarjoaa selkeät, tosiasialliset tiedot. Lue nämä ymmärtääksesi täydellisesti, mitä Täysi Käyttöoikeus -tilaus sisältää.',
     showMoreText: 'Näytä lisää kysymyksiä',
     showLessText: 'Näytä vähemmän',
     badgeText: 'UKK',
@@ -375,7 +375,7 @@ Pinterest-markkinointi ohjaa liikennettä tuotelistauksiin. Luo visuaalisesti ho
       {
         id: '1',
         question: 'Onko Tämä Vertailutehtävägeneraattori Todella Ilmainen Käyttää?',
-        answer: 'Vertailutehtävägeneraattori vaatii Full Access -tilauksen, joka maksaa 240 dollaria vuodessa tai 25 dollaria kuukaudessa. Tilauksesi antaa sinulle rajattoman vertailutehtävien luomisen ilman yksittäisiä maksuja per tehtävä. Generoi niin monta matematiikkatehtävää kuin tarvitset ilman lisäkuluja. Ei piilotettuja maksuja tai rajoituksia tehtävien määrässä. Core Bundle sisältää 10 suosittua tehtävägeneraattoria ja maksaa 144 dollaria vuodessa. Full Access maksaa 240 dollaria vuodessa ja sisältää kaikki 33 tehtävägeneraattorityyppiä mukaan lukien vertailutehtävägeneraattori. Molemmat tilaukset sisältävät kaupallisen lisensoinnin, 11 kielen tuen ja ammattimaisen 300 DPI:n laadun viennit.',
+        answer: 'Vertailutehtävägeneraattori vaatii Täysi Käyttöoikeus -tilauksen, joka maksaa 240 dollaria vuodessa tai 25 dollaria kuukaudessa. Tilauksesi antaa sinulle rajattoman vertailutehtävien luomisen ilman yksittäisiä maksuja per tehtävä. Generoi niin monta matematiikkatehtävää kuin tarvitset ilman lisäkuluja. Ei piilotettuja maksuja tai rajoituksia tehtävien määrässä. Peruspaketti sisältää 10 suosittua tehtävägeneraattoria ja maksaa 144 dollaria vuodessa. Täysi Käyttöoikeus maksaa 240 dollaria vuodessa ja sisältää kaikki 33 tehtävägeneraattorityyppiä mukaan lukien vertailutehtävägeneraattori. Molemmat tilaukset sisältävät kaupallisen lisensoinnin, 11 kielen tuen ja ammattimaisen 300 DPI:n laadun viennit.',
       },
       {
         id: '2',
@@ -390,7 +390,7 @@ Pinterest-markkinointi ohjaa liikennettä tuotelistauksiin. Luo visuaalisesti ho
       {
         id: '4',
         question: 'Voinko Käyttää Pisteestä Pisteeseen Tehtävät Vertailutehtäviä Luokkahuoneessani Oppilaille?',
-        answer: 'Kyllä. Full Access -tilaus sisältää rajattoman luokkahuonekäytön. Luo tehtäviä kaikille oppilaillesi. Tulosta niin monta kopiota kuin tarvitset. Käytä tehtäviä oppitunneilla, läksyinä, arviointeina ja keskuksina. Ei rajoituksia oppilaiden määrään. Opeta yhtä lasta tai 300 oppilasta. Sama tilaus kattaa kaikki. Täydellinen alakouluopettajille, jotka opettavat useita luokkia. Peruskouluopettajat, jotka opettavat 100+ oppilasta päivässä, maksavat yhä vain yhden tilauksen. Jaa tehtäviä kollegoiden kanssa luokkahuoneessasi tai koulussa. Full Access -ehdot sallivat jakamisen opetuskäyttöön. Luokka-aste tiimit voivat luoda ja jakaa tehtäviä. Yhteistyö säästää aikaa ja parantaa johdonmukaisuutta luokkahuoneiden välillä.',
+        answer: 'Kyllä. Täysi Käyttöoikeus -tilaus sisältää rajattoman luokkahuonekäytön. Luo tehtäviä kaikille oppilaillesi. Tulosta niin monta kopiota kuin tarvitset. Käytä tehtäviä oppitunneilla, läksyinä, arviointeina ja keskuksina. Ei rajoituksia oppilaiden määrään. Opeta yhtä lasta tai 300 oppilasta. Sama tilaus kattaa kaikki. Täydellinen alakouluopettajille, jotka opettavat useita luokkia. Peruskouluopettajat, jotka opettavat 100+ oppilasta päivässä, maksavat yhä vain yhden tilauksen. Jaa tehtäviä kollegoiden kanssa luokkahuoneessasi tai koulussa. Täysi Käyttöoikeus -ehdot sallivat jakamisen opetuskäyttöön. Luokka-aste tiimit voivat luoda ja jakaa tehtäviä. Yhteistyö säästää aikaa ja parantaa johdonmukaisuutta luokkahuoneiden välillä.',
       },
       {
         id: '5',
@@ -400,7 +400,7 @@ Pinterest-markkinointi ohjaa liikennettä tuotelistauksiin. Luo visuaalisesti ho
       {
         id: '6',
         question: 'Voinko Myydä Kertotaulut Tulostettava Vertailutehtäviä, Jotka Luon Tällä Generaattorilla?',
-        answer: 'Kyllä. Full Access -tilaus sisältää täyden print-on-demand kaupallisen lisenssin ilman lisäkuluja. Myy luomiasi tehtäviä Teachers Pay Teachersissa, Etsyssä, Amazon KDP:ssä tai millä tahansa alustalla. Pidä 100% voitoista. Ei rojaltimaksuja LessonCraft Studiolle. Ei attribuutiovaatimuksia tuotteissasi. Ei pakollisia vesileimoja tai mainintoja. Luo oma tuotemerkkisi omalla tyylilläsi. Opettajayrittäjät rakentavat menestyneitä liiketoimintoja käyttäen generaattoreitamme. Monet ansaitsevat 2000-5000 dollaria kuukaudessa. 300 DPI:n laatu vastaa alan standardeja kaupallisille tuotteille. Asiakkaasi saavat ammattimaisia, teräviä tulosteita. Kilpaile suurten kustantajien kanssa luottavaisesti. Korkea laatu johtaa parempiin arvosteluihin ja toistuviin asiakkaisiin.',
+        answer: 'Kyllä. Täysi Käyttöoikeus -tilaus sisältää täyden print-on-demand kaupallisen lisenssin ilman lisäkuluja. Myy luomiasi tehtäviä Teachers Pay Teachersissa, Etsyssä, Amazon KDP:ssä tai millä tahansa alustalla. Pidä 100% voitoista. Ei rojaltimaksuja LessonCraft Studiolle. Ei attribuutiovaatimuksia tuotteissasi. Ei pakollisia vesileimoja tai mainintoja. Luo oma tuotemerkkisi omalla tyylilläsi. Opettajayrittäjät rakentavat menestyneitä liiketoimintoja käyttäen generaattoreitamme. Monet ansaitsevat 2000-5000 dollaria kuukaudessa. 300 DPI:n laatu vastaa alan standardeja kaupallisille tuotteille. Asiakkaasi saavat ammattimaisia, teräviä tulosteita. Kilpaile suurten kustantajien kanssa luottavaisesti. Korkea laatu johtaa parempiin arvosteluihin ja toistuviin asiakkaisiin.',
       },
       {
         id: '7',
@@ -415,7 +415,7 @@ Pinterest-markkinointi ohjaa liikennettä tuotelistauksiin. Luo visuaalisesti ho
       {
         id: '9',
         question: 'Voinko Ladata Omia Kuvia Esiopetus Materiaali Ilmainen Vertailutehtäviin?',
-        answer: 'Kyllä. Lataa rajattomasti omia kuvia Full Access -tilauksella. Monivalinta tukee useiden tiedostojen lataamista kerralla. JPEG, PNG ja GIF muodot ovat kaikki tuettuja. Ei tiedostokokorajoituksia tai määrärajoituksia. Lataa luokkahuoneen esineiden kuvia personointia varten. Oppilaiden työt, luokkahuoneen lemmikkieläin tai koulun maskotti. Paikalliset maamerkit tai kulttuuriset symbolit. Lapset innostuvat tunnistaessaan tuttuja kohteita. Personointi lisää sitoutumista ja motivaatiota. Käytä oppilaiden valokuvia perheiden suostumuksella. Vertaile kuvia Annikasta ja Matiasta. Lapset rakastavat nähdä itsensä tehtävissä. Vahvistaa identiteettiä ja yhteyttä oppimiseen. Tehtävät tulevat henkilökohtaisiksi ja merkityksellisiksi.',
+        answer: 'Kyllä. Lataa rajattomasti omia kuvia Täysi Käyttöoikeus -tilauksella. Monivalinta tukee useiden tiedostojen lataamista kerralla. JPEG, PNG ja GIF muodot ovat kaikki tuettuja. Ei tiedostokokorajoituksia tai määrärajoituksia. Lataa luokkahuoneen esineiden kuvia personointia varten. Oppilaiden työt, luokkahuoneen lemmikkieläin tai koulun maskotti. Paikalliset maamerkit tai kulttuuriset symbolit. Lapset innostuvat tunnistaessaan tuttuja kohteita. Personointi lisää sitoutumista ja motivaatiota. Käytä oppilaiden valokuvia perheiden suostumuksella. Vertaile kuvia Annikasta ja Matiasta. Lapset rakastavat nähdä itsensä tehtävissä. Vahvistaa identiteettiä ja yhteyttä oppimiseen. Tehtävät tulevat henkilökohtaisiksi ja merkityksellisiksi.',
       },
       {
         id: '10',
@@ -435,7 +435,7 @@ Pinterest-markkinointi ohjaa liikennettä tuotelistauksiin. Luo visuaalisesti ho
     ],
   },
 
-  // Pricing - Finnish Full Access terminology
+  // Pricing - Finnish Täysi Käyttöoikeus terminology
   pricing: {
     title: 'Täysi Käyttöoikeus',
     price: '240€',

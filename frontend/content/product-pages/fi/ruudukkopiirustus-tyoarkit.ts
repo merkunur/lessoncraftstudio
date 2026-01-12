@@ -491,16 +491,10 @@ Erityisopetuksessa ruudukkopiirustustehtävät toimivat vanhemmillekin oppilaill
     sectionDescription: 'Yhdistä ruudukkopiirustustehtävät muihin tehtävägeneraattoreihin kokonaisvaltaisten oppimispakettien luomiseen',
     badgeText: 'Yhteensopivat Sovellukset',
     exploreText: 'Tutustu kaikkiin sovelluksiin',
-    trustBadges: {
-      guarantee: '30 päivän takuu',
-      securePayment: 'Turvallinen maksu',
-      cancelAnytime: 'Peruuta milloin tahansa',
-    },
-    ctaSection: {
-      title: 'Valmis Aloittamaan?',
-      description: 'Luo ammattimaisia ruudukkopiirustustehtäviä alle 3 minuutissa. Täysi Käyttöoikeus -tilaus antaa pääsyn kaikkiin 33 tehtävägeneraattoriin.',
-      buttonText: 'Aloita Nyt',
-    },
+    ctaTitle: 'Valmis Aloittamaan?',
+    ctaDescription: 'Luo ammattimaisia ruudukkopiirustustehtäviä alle 3 minuutissa. Täysi Käyttöoikeus -tilaus antaa pääsyn kaikkiin 33 tehtävägeneraattoriin.',
+    primaryCtaText: 'Aloita Nyt',
+    secondaryCtaText: 'Katso Kaikki 33 Sovellusta',
     items: [
       {
         id: '1',

@@ -21,16 +21,12 @@ const localeToFolder: Record<string, string> = {
 const appIdToFolder: Record<string, string> = {
   'addition': 'addition',
   'subtraction': 'subtraction',
-  'multiplication': 'multiplication',
-  'division': 'division',
   'math-worksheet': 'math',
   'pattern-worksheet': 'pattern',
   'wordsearch': 'wordsearch',
   'word-scramble': 'word-scramble',
   'word-guess': 'word-guess',
   'alphabet-train': 'alphabet-train',
-  'alphabet-tracing': 'alphabet-tracing',
-  'tracing-worksheet': 'tracing',
   'prepositions': 'prepositions',
   'bingo': 'bingo',
   'coloring': 'coloring',
@@ -52,6 +48,10 @@ const appIdToFolder: Record<string, string> = {
   'more-less': 'more-less',
   'picture-sort': 'picture-sort',
   'shadow-match': 'shadow-match',
+  'writing': 'writing',
+  'big-small': 'big-small',
+  'chart-count': 'chart-count',
+  'code-addition': 'code-addition',
 };
 
 // Base path for samples - production uses /opt/lessoncraftstudio/samples

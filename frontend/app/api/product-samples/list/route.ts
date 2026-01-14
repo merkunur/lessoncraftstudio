@@ -24,16 +24,12 @@ const localeToFolder: Record<string, string> = {
 const appIdToFolder: Record<string, string> = {
   'addition': 'addition',
   'subtraction': 'subtraction',
-  'multiplication': 'multiplication',
-  'division': 'division',
   'math-worksheet': 'math',
   'pattern-worksheet': 'pattern',
   'wordsearch': 'wordsearch',
   'word-scramble': 'word-scramble',
   'word-guess': 'word-guess',
   'alphabet-train': 'alphabet-train',
-  'alphabet-tracing': 'alphabet-tracing',
-  'tracing-worksheet': 'tracing',
   'prepositions': 'prepositions',
   'bingo': 'bingo',
   'coloring': 'coloring',
@@ -55,22 +51,22 @@ const appIdToFolder: Record<string, string> = {
   'more-less': 'more-less',
   'picture-sort': 'picture-sort',
   'shadow-match': 'shadow-match',
+  'writing': 'writing',
+  'big-small': 'big-small',
+  'chart-count': 'chart-count',
+  'code-addition': 'code-addition',
 };
 
 // App display names for UI
 const appDisplayNames: Record<string, string> = {
   'addition': 'Addition Worksheets',
   'subtraction': 'Subtraction Worksheets',
-  'multiplication': 'Multiplication Worksheets',
-  'division': 'Division Worksheets',
   'math-worksheet': 'Math Worksheets',
   'pattern-worksheet': 'Pattern Worksheets',
   'wordsearch': 'Word Search Worksheets',
   'word-scramble': 'Word Scramble Worksheets',
   'word-guess': 'Word Guess Worksheets',
   'alphabet-train': 'Alphabet Train Worksheets',
-  'alphabet-tracing': 'Alphabet Tracing Worksheets',
-  'tracing-worksheet': 'Tracing Worksheets',
   'prepositions': 'Prepositions Worksheets',
   'bingo': 'Picture Bingo Worksheets',
   'coloring': 'Coloring Pages',
@@ -92,6 +88,10 @@ const appDisplayNames: Record<string, string> = {
   'more-less': 'More or Less Worksheets',
   'picture-sort': 'Picture Sort Worksheets',
   'shadow-match': 'Shadow Match Worksheets',
+  'writing': 'Writing Worksheets',
+  'big-small': 'Big Small Worksheets',
+  'chart-count': 'Chart Count Worksheets',
+  'code-addition': 'Code Addition Worksheets',
 };
 
 // Number of sample slots per app

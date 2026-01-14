@@ -8,6 +8,48 @@ import UseCases from './UseCases';
 import FAQSection from './FAQSection';
 import RelatedApps from './RelatedApps';
 
+// Slug-to-appId mapping for deriving appId from URL slug
+// This allows dynamic sample loading even when content files lack seo.appId
+const slugToAppId: Record<string, string> = {
+  'addition-worksheets': 'addition',
+  'subtraction-worksheets': 'subtraction',
+  'multiplication-worksheets': 'multiplication',
+  'division-worksheets': 'division',
+  'math-worksheets': 'math-worksheet',
+  'pattern-worksheets': 'pattern-worksheet',
+  'word-search-worksheets': 'wordsearch',
+  'word-scramble-worksheets': 'word-scramble',
+  'word-guess-worksheets': 'word-guess',
+  'alphabet-train-worksheets': 'alphabet-train',
+  'alphabet-tracing-worksheets': 'alphabet-tracing',
+  'tracing-worksheets': 'tracing-worksheet',
+  'prepositions-worksheets': 'prepositions',
+  'picture-bingo-worksheets': 'bingo',
+  'coloring-worksheets': 'coloring',
+  'sudoku-worksheets': 'sudoku',
+  'treasure-hunt-worksheets': 'treasure-hunt',
+  'odd-one-out-worksheets': 'odd-one-out',
+  'picture-path-worksheets': 'picture-path',
+  'pattern-train-worksheets': 'pattern-train',
+  'crossword-worksheets': 'crossword',
+  'cryptogram-worksheets': 'cryptogram',
+  'draw-and-color-worksheets': 'draw-and-color',
+  'drawing-lines-worksheets': 'drawing-lines',
+  'find-and-count-worksheets': 'find-and-count',
+  'find-objects-worksheets': 'find-objects',
+  'grid-match-worksheets': 'grid-match',
+  'matching-worksheets': 'matching',
+  'math-puzzle-worksheets': 'math-puzzle',
+  'missing-pieces-worksheets': 'missing-pieces',
+  'more-less-worksheets': 'more-less',
+  'picture-sort-worksheets': 'picture-sort',
+  'shadow-match-worksheets': 'shadow-match',
+  'writing-worksheets': 'tracing-worksheet',
+  'big-small-worksheets': 'more-less',
+  'chart-count-worksheets': 'find-and-count',
+  'code-addition-worksheets': 'addition',
+};
+
 // Type definitions for page content
 export interface Sample {
   id: string;
@@ -204,12 +246,17 @@ export interface ProductPageContent {
 interface ProductPageClientProps {
   locale: string;
   content: ProductPageContent;
+  slug?: string;  // URL slug for deriving appId when content.seo.appId is not available
 }
 
 export default function ProductPageClient({
   locale,
   content,
+  slug,
 }: ProductPageClientProps) {
+  // Derive appId: prefer content.seo.appId, fall back to slug mapping
+  const appId = content.seo?.appId || (slug ? slugToAppId[slug] : undefined);
+
   return (
     <main className="min-h-screen bg-white">
       {/* Part 1: Hero Section */}
@@ -228,10 +275,10 @@ export default function ProductPageClient({
 
       {/* Part 2: Sample Gallery */}
       {/* Dynamic mode: use appId if available, falls back to static samples */}
-      {(content.seo?.appId || content.samples.items.length > 0) && (
+      {(appId || content.samples.items.length > 0) && (
         <SampleGallery
           locale={locale}
-          appId={content.seo?.appId}  // Enables dynamic loading from content manager
+          appId={appId}  // Enables dynamic loading from content manager
           sectionTitle={content.samples.sectionTitle}
           sectionDescription={content.samples.sectionDescription}
           downloadLabel={content.samples.downloadLabel}

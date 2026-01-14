@@ -226,7 +226,7 @@
         /* App Grid */
         .app-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            grid-template-columns: repeat(auto-fill, minmax(550px, 1fr));
             gap: 20px;
             padding: 30px;
         }
@@ -237,6 +237,7 @@
             border-radius: 12px;
             overflow: hidden;
             transition: all 0.2s;
+            min-width: 530px;  /* Ensure 5 slots fit */
         }
 
         .app-card:hover {
@@ -714,10 +715,15 @@
                 grid-template-columns: 1fr;
                 padding: 15px;
                 gap: 15px;
+                overflow-x: auto;
+            }
+
+            .app-card {
+                min-width: 530px;  /* Keep 5 slots visible, allow horizontal scroll */
             }
 
             .slots-container {
-                grid-template-columns: repeat(3, 1fr);
+                grid-template-columns: repeat(5, 1fr);  /* Keep 5 slots on small screens */
             }
         }
     </style>

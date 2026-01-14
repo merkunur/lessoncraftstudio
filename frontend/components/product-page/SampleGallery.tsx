@@ -124,19 +124,23 @@ function generateFilename(altText: string): string {
 // Convert image path to optimized thumbnail path (400px webp)
 function getThumbnailPath(src: string): string {
   if (!src) return src;
-  // Remove extension and add _thumb.webp
-  const lastDot = src.lastIndexOf('.');
+  // Split off query string if present, then replace extension
+  const [pathPart, queryPart] = src.split('?');
+  const lastDot = pathPart.lastIndexOf('.');
   if (lastDot === -1) return src;
-  return src.substring(0, lastDot) + '_thumb.webp';
+  const newPath = pathPart.substring(0, lastDot) + '_thumb.webp';
+  return queryPart ? `${newPath}?${queryPart}` : newPath;
 }
 
 // Convert image path to optimized preview path (800px webp)
 function getPreviewPath(src: string): string {
   if (!src) return src;
-  // Remove extension and add _preview.webp
-  const lastDot = src.lastIndexOf('.');
+  // Split off query string if present, then replace extension
+  const [pathPart, queryPart] = src.split('?');
+  const lastDot = pathPart.lastIndexOf('.');
   if (lastDot === -1) return src;
-  return src.substring(0, lastDot) + '_preview.webp';
+  const newPath = pathPart.substring(0, lastDot) + '_preview.webp';
+  return queryPart ? `${newPath}?${queryPart}` : newPath;
 }
 
 // Convert dynamic samples to the Sample interface for consistent rendering

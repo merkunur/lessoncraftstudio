@@ -2,6 +2,95 @@
 
 ---
 
+# 🔒🔒🔒 PROTECTED APP: picture path.html - LPF ALGORITHM 🔒🔒🔒
+
+## ⛔ CRITICAL: NEVER OVERWRITE picture path.html WITHOUT VERIFICATION ⛔
+
+**As of 2026-01-09, picture path.html contains the PROFESSIONAL LPF maze algorithm.**
+
+This algorithm was specifically developed to create challenging mazes with:
+- Longest Path First (LPF) algorithm using Two-Pass Farthest Point
+- 40-70% of maze cells in solution path
+- Guaranteed maximum winding and turns
+
+### BEFORE ANY DEPLOYMENT OF picture path.html:
+
+1. **VERIFY LPF algorithm exists** in source file:
+   ```bash
+   grep "LPF MAZE ALGORITHM" "REFERENCE APPS\picture path.html"
+   grep "generatePerfectMaze" "REFERENCE APPS\picture path.html"
+   grep "findLongestMazePath" "REFERENCE APPS\picture path.html"
+   ```
+
+2. **If ANY grep returns empty**: STOP! You are about to deploy an OLD version!
+
+3. **If verification passes**: Proceed with normal deployment workflow
+
+### VERIFICATION CHECKLIST FOR picture path.html
+
+- [ ] Contains "LPF MAZE ALGORITHM" marker at line 4 (HTML comment)
+- [ ] Contains "LPF MAZE ALGORITHM" marker at line ~4526 (JS comment)
+- [ ] Contains `generatePerfectMaze` function
+- [ ] Contains `findLongestMazePath` function
+- [ ] Contains `findFarthestMazeCell` function
+- [ ] Console logs "Picture Path: LPF Maze Algorithm v1.0"
+
+### WHY THIS MATTERS
+
+The OLD algorithm created nearly-straight, trivially easy paths.
+The NEW LPF algorithm guarantees the longest, most complex path.
+Overwriting would DESTROY professional algorithm development.
+
+### GOLDEN BACKUP LOCATION
+
+A dated backup of the LPF version exists at:
+```
+GOLDEN_BACKUPS\2026-01-09_LPF_ALGORITHM\picture path.html
+```
+
+---
+
+# 🔒🔒🔒 PROTECTED APP: find objects.html - ODD ONE OUT ALGORITHM 🔒🔒🔒
+
+## ⛔ CRITICAL: NEVER OVERWRITE find objects.html WITHOUT VERIFICATION ⛔
+
+**As of 2026-01-12, find objects.html contains critical algorithm fixes for Odd One Out mode.**
+
+These fixes ensure:
+- Pair images appear exactly TWICE (one pair per unique image)
+- Odd images appear exactly ONCE (unpaired)
+- No image can be both a pair AND an odd image
+- No blank area at bottom (legend space only reserved for I Spy mode)
+
+### BEFORE ANY DEPLOYMENT OF find objects.html:
+
+1. **VERIFY algorithm fixes exist** in source file:
+   ```bash
+   grep "CRITICAL: Ensure pairs and odd images are completely separate" "REFERENCE APPS\find objects.html"
+   grep "bottomMargin = (activityModeSelect.value === 'oddoneout')" "REFERENCE APPS\find objects.html"
+   ```
+
+2. **If ANY grep returns empty**: STOP! You are about to deploy an OLD version!
+
+3. **If verification passes**: Proceed with normal deployment workflow
+
+### VERIFICATION CHECKLIST FOR find objects.html
+
+- [ ] Contains "CRITICAL: Ensure pairs and odd images are completely separate" comment
+- [ ] Contains `pairPaths = new Set(pairs.slice(0, pairsCount).map(p => p.path))`
+- [ ] Contains `uniqueOddImages = oddImages.filter(img => !pairPaths.has(img.path))`
+- [ ] Contains `bottomMargin = (activityModeSelect.value === 'oddoneout') ? 50 : 120`
+
+### WHY THIS MATTERS
+
+The OLD version had bugs:
+- Same image could appear 3 times (as pair + odd) - BROKEN WORKSHEETS
+- Blank 120px area at bottom in Odd One Out mode - UNPROFESSIONAL
+
+The NEW version guarantees correct behavior for educational worksheets.
+
+---
+
 # 🛡️🛡️🛡️ ANTI-OVERWRITE PROTECTION ACTIVE 🛡️🛡️🛡️
 
 ## ✅ CURRENT STATE IS PROTECTED - OVERWRITES ARE IMPOSSIBLE
@@ -203,6 +292,33 @@ The REFERENCE APPS folder contains exactly **33 production apps**:
 
 **If you need to deploy any of these 33 apps, you MUST use the version from REFERENCE APPS folder.**
 
+### 📊 REFERENCE CONTENT MANAGERS FOLDER CONTENTS
+
+The REFERENCE CONTENT MANAGERS folder contains **7 production content managers**:
+
+1. admin-dashboard.html - Admin dashboard interface
+2. blog-content-manager.html - Blog post management tool
+3. content-manager-v2.html - General content management interface
+4. homepage-thumbnail-manager.html - Homepage thumbnail upload tool
+5. product-sample-manager.html - Product page sample image manager
+6. user-control.html - User administration panel
+7. ⚠️ README - DO NOT MODIFY DIRECTLY.txt - Folder usage instructions
+
+**If you need to deploy any of these content managers, you MUST use the version from REFERENCE CONTENT MANAGERS folder.**
+
+### 🗂️ CONTENT MANAGER DEPLOYMENT LOCATIONS
+
+| Content Manager | Server Path | Live URL |
+|-----------------|-------------|----------|
+| admin-dashboard.html | `/opt/.../public/admin/` | `/admin/admin-dashboard.html` |
+| blog-content-manager.html | `/opt/.../public/worksheet-generators/` | `/worksheet-generators/blog-content-manager.html` |
+| content-manager-v2.html | `/opt/.../public/worksheet-generators/` | `/worksheet-generators/content-manager-v2.html` |
+| homepage-thumbnail-manager.html | `/opt/.../public/` | `/homepage-thumbnail-manager.html` |
+| product-sample-manager.html | `/opt/.../public/admin/` | `/admin/product-sample-manager.html` |
+| user-control.html | `/opt/.../public/admin/` | `/admin/user-control.html` |
+
+**Note:** `/opt/...` = `/opt/lessoncraftstudio/frontend`
+
 ### 🔄 UPDATING REFERENCE APPS
 
 If production apps have been updated and you need to refresh REFERENCE APPS:
@@ -395,6 +511,28 @@ When modifying worksheet generators or content managers, you MUST complete ALL t
 ```
 
 **Note:** Content managers are NOT in git (added to .gitignore). Production versions live in REFERENCE CONTENT MANAGERS folder.
+
+### Scenario 3A: Admin Content Manager Updates (frontend/public/admin/)
+
+**Use this when:** Updating admin tools in the `/admin/` folder (product-sample-manager.html, etc.)
+
+**ALWAYS use REFERENCE CONTENT MANAGERS folder as source:**
+
+```bash
+# Upload admin content manager from REFERENCE CONTENT MANAGERS
+"C:\Program Files\PuTTY\pscp.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU "C:\Users\rkgen\lessoncraftstudio\REFERENCE CONTENT MANAGERS\product-sample-manager.html" root@65.108.5.250:"/opt/lessoncraftstudio/frontend/public/admin/product-sample-manager.html"
+
+# Copy to standalone and restart
+"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "cd /opt/lessoncraftstudio/frontend && cp 'public/admin/product-sample-manager.html' '.next/standalone/public/admin/product-sample-manager.html' && pm2 restart lessoncraftstudio"
+```
+
+**Server paths for admin content managers:**
+- Source: `REFERENCE CONTENT MANAGERS/product-sample-manager.html`
+- Production: `/opt/lessoncraftstudio/frontend/public/admin/product-sample-manager.html`
+- Standalone: `/opt/lessoncraftstudio/frontend/.next/standalone/public/admin/product-sample-manager.html`
+- Live URL: `https://www.lessoncraftstudio.com/admin/product-sample-manager.html`
+
+**Note:** Admin content managers are NOT in git (added to .gitignore). Production versions live in REFERENCE CONTENT MANAGERS folder.
 
 ---
 
@@ -852,7 +990,7 @@ ssh root@65.108.5.250
    - UI State: signin/signin-client.tsx (checkAuth() lines 114 & 211)
 2. **🚨 MANDATORY: UPDATE REFERENCE FOLDERS AFTER EVERY MODIFICATION** - This is OBLIGATORY, not optional. See "MANDATORY: UPDATING REFERENCE APPS AFTER MODIFICATIONS" section above. The deployment task is NOT complete until REFERENCE folders are updated!
 3. **🚨 WORKSHEET GENERATORS NOT IN GIT** - As of commit 9ce8ddf (2025-11-17), worksheet generators and translation files are NO LONGER tracked by git. Use REFERENCE APPS and REFERENCE TRANSLATIONS folders!
-4. **🚨 CONTENT MANAGERS NOT IN GIT** - As of commit [next], content managers are NO LONGER tracked by git. Use REFERENCE CONTENT MANAGERS folder!
+4. **🚨 CONTENT MANAGERS NOT IN GIT** - Content managers (including admin/*.html) are NO LONGER tracked by git. Use REFERENCE CONTENT MANAGERS folder!
 5. **🚨 NEVER `cp -r public` IN DEPLOYMENTS** - This will copy MISSING files from git! Use scenario-based commands above.
 6. **For code changes** - Use Scenario 1 command (git pull + build, NO public copy)
 7. **For worksheet updates** - Use Scenario 2 command (REFERENCE APPS upload + copy to standalone)
@@ -887,3 +1025,90 @@ ssh root@65.108.5.250
 - Updated all incorrect references in this documentation
 
 **Result:** Worksheet generators and translations are now permanently excluded from git. Code deployments will NEVER overwrite them again.
+
+---
+
+# 🤖🤖🤖 AI ASSISTANT (CLAUDE) MANDATORY RULES 🤖🤖🤖
+
+## ⛔ CRITICAL: THESE RULES MUST BE FOLLOWED BY AI ASSISTANTS ⛔
+
+```
+╔══════════════════════════════════════════════════════════════════╗
+║                                                                  ║
+║  🚨 CLAUDE: READ THIS BEFORE EVERY FILE OPERATION 🚨            ║
+║                                                                  ║
+║  1. ONLY use files from REFERENCE folders                       ║
+║  2. NEVER use legacy-apps/public or worksheet generators/apps   ║
+║  3. ALWAYS state which file you're using BEFORE editing         ║
+║  4. ALWAYS run master-sync after modifications                  ║
+║  5. When in doubt, ASK the user                                 ║
+║                                                                  ║
+║  The REFERENCE folders are the ONLY source of truth.            ║
+║  Everything else is a copy that must be synced FROM reference.  ║
+║                                                                  ║
+╚══════════════════════════════════════════════════════════════════╝
+```
+
+### BEFORE ANY FILE OPERATION:
+
+1. **READ this DEPLOYMENT.md file** (if not already read in this session)
+
+2. **STATE explicitly which source file you are using:**
+   ```
+   "I am using: REFERENCE APPS\[filename].html"
+   ```
+
+3. **VERIFY the file exists in REFERENCE folder:**
+   ```bash
+   ls "REFERENCE APPS\[filename].html"
+   ```
+
+4. **CHECK file size is reasonable:**
+   - Worksheet generators: 100-200KB typically
+   - Translation files: 10-50KB typically
+
+5. **NEVER use files from:**
+   - ❌ `legacy-apps/public/`
+   - ❌ `worksheet generators/apps/`
+   - ❌ `frontend/public/worksheet-generators/`
+   - ❌ Any file with `-current`, `-production`, `-old`, `-v2` in the name
+   - ❌ Any file NOT in a REFERENCE folder
+
+### AFTER ANY MODIFICATION:
+
+1. **Deploy to production server** (upload + copy to standalone + PM2 restart)
+
+2. **Run master-sync script to update all local copies:**
+   ```bash
+   scripts\master-sync.bat
+   ```
+
+3. **Confirm all copies are synchronized**
+
+### IF UNSURE:
+
+- **ASK the user** before proceeding
+- **Default to NOT making changes**
+- **Never guess** which file to use
+
+### SYNCHRONIZATION SCRIPTS:
+
+| Script | Purpose |
+|--------|---------|
+| `scripts/master-sync.bat` | Sync REFERENCE → all local copies (Windows) |
+| `scripts/master-sync.sh` | Sync REFERENCE → all local copies (Linux/Mac) |
+| `scripts/server-sync-standalone.sh` | Sync public → standalone on server |
+
+### WHY THIS MATTERS:
+
+Previous incidents where old versions were deployed caused:
+- ❌ Loss of months of production improvements
+- ❌ Broken functionality for users
+- ❌ Hours of debugging and rollback work
+- ❌ User complaints and frustration
+
+**Following these rules prevents all such incidents.**
+
+---
+
+**Last AI Rules Update**: 2026-01-10

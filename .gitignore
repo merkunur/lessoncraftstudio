@@ -80,6 +80,10 @@ frontend/public/worksheet-generators/js/translations.js
 # These are deployed manually from REFERENCE CONTENT MANAGERS folder
 frontend/public/homepage-content-manager.html
 
+# Admin content managers in public/admin - DEPLOYED VERSIONS (NOT tracked by git)
+# These are deployed manually from REFERENCE CONTENT MANAGERS folder
+frontend/public/admin/*.html
+
 # Note: REFERENCE APPS/ and REFERENCE CONTENT MANAGERS/ folders ARE tracked by git (source of truth)
 
 # ============================================

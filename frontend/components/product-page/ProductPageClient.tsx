@@ -44,10 +44,10 @@ const slugToAppId: Record<string, string> = {
   'more-less-worksheets': 'more-less',
   'picture-sort-worksheets': 'picture-sort',
   'shadow-match-worksheets': 'shadow-match',
-  'writing-worksheets': 'tracing-worksheet',
-  'big-small-worksheets': 'more-less',
-  'chart-count-worksheets': 'find-and-count',
-  'code-addition-worksheets': 'addition',
+  'writing-worksheets': 'writing',
+  'big-small-worksheets': 'big-small',
+  'chart-count-worksheets': 'chart-count',
+  'code-addition-worksheets': 'code-addition',
 };
 
 // Type definitions for page content

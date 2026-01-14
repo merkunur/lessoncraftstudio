@@ -14,7 +14,7 @@ export const chartCountPtContent: ProductPageContent = {
   // SEO Metadata
   seo: {
     slug: 'grafico-pictorico-fichas',
-    appId: 'chart-count-color',
+    appId: 'chart-count',
     title: 'Gerador de Gráfico Pictórico para Imprimir - Atividades de Matemática e Contagem para Educação Infantil',
     description: 'Crie fichas de gráficos pictóricos personalizadas para suas aulas de matemática. Com sua assinatura Acesso Completo, você cria quantas fichas precisar sem custos extras por atividade. Gere atividades de contagem profissionais para educação infantil e ensino fundamental.',
     keywords: 'atividades de matemática, gráfico pictórico, atividades para imprimir, educação infantil, atividades 1º ano, atividades 2º ano, contagem, interpretação de dados, fichas matemática, atividades de alfabetização',

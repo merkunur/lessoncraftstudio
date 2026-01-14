@@ -14,7 +14,7 @@ export const graficosConteoEsContent: ProductPageContent = {
   // SEO Metadata - Spanish language-specific
   seo: {
     slug: 'graficos-conteo-fichas',
-    appId: 'chart-count-color',
+    appId: 'chart-count',
     title: 'Fichas de Gráficos con Imágenes para Imprimir | Generador de Fichas de Matemáticas para Preescolar y Primaria',
     description: 'Crea fichas de gráficos con imágenes profesionales con nuestro generador especializado. Los gráficos de conteo con imágenes enseñan a los niños a contar, clasificar y representar datos visualmente. Descarga fichas gratis de alta calidad en formato PDF en menos de 3 minutos.',
     keywords: 'fichas de gráficos, gráficos con imágenes, fichas para imprimir, fichas infantil, fichas preescolar, fichas de matemáticas, ejercicios matemáticas, material educativo gratis, fichas gratis, aprender los números, grafomotricidad, lectoescritura, dibujos para colorear, tablas de multiplicar',

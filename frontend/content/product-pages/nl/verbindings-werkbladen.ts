@@ -28,7 +28,7 @@ export const matchingNlContent: ProductPageContent = {
   // SEO Metadata - Dutch language-specific
   seo: {
     slug: 'verbindings-werkbladen',
-    appId: 'matching-app',
+    appId: 'matching',
     title: 'Werkbladen Groep 3 Verbindings Generator - Oefenbladen Gratis voor Kleuters en Basisschool',
     description: 'Maak professionele verbindingswerkbladen met onze werkbladen generator. Met je Basispakket abonnement creëer je onbeperkt oefenbladen zonder extra kosten per werkblad. De generator maakt werkbladen groep 3 waarbij kinderen lijnen trekken om paren te verbinden.',
     keywords: 'verbindingswerkbladen, werkbladen groep 3, werkbladen kleuters, oefenbladen gratis, letters leren, fijne motoriek, veilig leren lezen, rekenen werkbladen, tafels oefenen, sommen tot 20',

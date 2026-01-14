@@ -14,7 +14,7 @@ export const matchingSvContent: ProductPageContent = {
   // SEO Metadata - Swedish language-specific
   seo: {
     slug: 'matchnings-arbetsblad',
-    appId: 'matching-app',
+    appId: 'matching',
     title: 'Matchningsarbetsblad Gratis - Matematik Arbetsblad och Bokstäver Lära Sig | MatchUp Maker för Förskoleklass Material',
     description: 'Skapa professionella matchningsövningar med vår arbetsblad gratis generator. Generera anpassningsbara matematik arbetsblad och bokstäver lära sig material perfekt för förskoleklass material och årskurs 1-3. Ladda ner högkvalitativa PDF-arbetsblad på under 3 minuter.',
     keywords: 'matchningsarbetsblad, arbetsblad gratis, förskoleklass material, matematik arbetsblad, bokstäver lära sig, matchningsövningar, finmotorik övningar, målarbilder barn, siffror och tal, multiplikationstabellen',

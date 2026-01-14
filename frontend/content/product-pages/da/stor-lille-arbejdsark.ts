@@ -14,7 +14,7 @@ export const bigSmallDaContent: ProductPageContent = {
   // SEO Metadata
   seo: {
     slug: 'stor-lille-arbejdsark',
-    appId: 'big-small-app',
+    appId: 'big-small',
     title: 'Gratis Opgaver til Print - Stor og Lille Arbejdsark Generator til 0. Klasse Opgaver',
     description: 'Opret professionelle stor og lille opgaver til print med vores specialiserede generator. Dit Fuld Adgang abonnement giver dig ubegrænset adgang til at lave arbejdsark om størrelsesforskelle uden ekstra omkostninger per opgave. Generer tilpassede opgaver til børnehaveklassen, 0. klasse og 1. klasse på under 3 minutter.',
     keywords: 'stor og lille, opgaver til print, gratis opgaver, arbejdsark, 0. klasse, børnehaveklasse, 1. klasse, matematikopgaver, størrelsessammenligning, finmotorik øvelser, gratis skoleopgaver',

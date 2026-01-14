@@ -14,7 +14,7 @@ export const pictureBingoItContent: ProductPageContent = {
   // SEO Metadata
   seo: {
     slug: 'bingo-immagini-schede',
-    appId: 'picture-bingo',
+    appId: 'bingo',
     title: 'Schede Didattiche Picture Bingo | Generatore Schede per Scuola Primaria e Infanzia',
     description: 'Crea schede didattiche Picture Bingo professionali con il nostro generatore. Perfette per scuola dell\'infanzia e classi prime. Genera carte bingo con immagini per sviluppare riconoscimento visivo e vocabolario.',
     keywords: 'schede didattiche bingo, generatore schede didattiche, schede scuola primaria, carte bingo immagini, scuola infanzia, schede stampabili, bingo didattico, classe prima, pregrafismo, materiale didattico',

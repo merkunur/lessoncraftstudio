@@ -14,7 +14,7 @@ export const additionDaContent: ProductPageContent = {
   // SEO Metadata
   seo: {
     slug: 'addition-arbejdsark',
-    appId: 'image-addition',
+    appId: 'addition',
     title: 'Matematikopgaver Plus – Gratis Skoleopgaver til Print og Arbejdsark til 0. Klasse',
     description: 'Lav professionelle plusstykker og matematikopgaver med vores billedbaserede opgavegenerator. Generer tilpassede matematikopgaver perfekt til børnehaveklassen, 0. klasse opgaver og 1. klasse. Download opgaveark i høj kvalitet som PDF på under 3 minutter.',
     keywords: 'matematikopgaver, plusstykker, gratis skoleopgaver, arbejdsark til print, 0. klasse opgaver, 1. klasse, addition, regning, børnehaveklassen, kopiark, finmotorik øvelser',

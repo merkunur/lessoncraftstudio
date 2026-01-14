@@ -14,7 +14,7 @@ export const writingDaContent: ProductPageContent = {
   // SEO Metadata
   seo: {
     slug: 'skriveopgaver-arbejdsark',
-    appId: 'writing-app',
+    appId: 'writing',
     title: 'Skriveopgaver og Skrifttræning Arbejdsark - Gratis Skoleopgaver til Lære Bogstaver - Finmotorik Øvelser til 0. Klasse og 1. Klasse',
     description: 'Opret professionelle skriveopgaver med vores skrifttræning generator. Dit Fuld Adgang abonnement giver dig ubegrænset oprettelse af arbejdsark uden ekstra gebyrer per opgave. Generer tilpassede opgaver til print perfekte for børnehaveklassen, 0. klasse og 1. klasse elever. Download højkvalitets PDF arbejdsark på under 3 minutter.',
     keywords: 'skriveopgaver, skrifttræning, lære bogstaver, finmotorik øvelser, 0. klasse, 1. klasse, børnehaveklassen, arbejdsark, gratis skoleopgaver, alfabetet øvelser, læse og skrive',

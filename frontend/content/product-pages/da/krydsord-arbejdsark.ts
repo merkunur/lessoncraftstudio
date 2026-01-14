@@ -14,7 +14,7 @@ export const crosswordDaContent: ProductPageContent = {
   // SEO Metadata
   seo: {
     slug: 'krydsord-arbejdsark',
-    appId: 'image-crossword',
+    appId: 'crossword',
     title: 'Opgaver til Print - Krydsord Generator - Gratis Skoleopgaver og Arbejdsark til 1. Klasse',
     description: 'Lav professionelle krydsord opgaver til print med billeder som visuelle ledetråde. Perfekt til lære bogstaver, læse og skrive øvelser, og stavning i børnehaveklasse, 1. klasse, 2. klasse og 3. klasse.',
     keywords: 'krydsord arbejdsark, opgaver til print, gratis skoleopgaver, 1 klasse opgaver, lære bogstaver, læse og skrive, stavning øvelser, krydsord generator, printklare opgaver, dansk skoleopgaver',

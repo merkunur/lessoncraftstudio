@@ -14,7 +14,7 @@ export const matchingFiContent: ProductPageContent = {
   // SEO Metadata - Finnish language-specific
   seo: {
     slug: 'yhdista-parit-tyoarkit',
-    appId: 'matching-app',
+    appId: 'matching',
     title: 'Yhdistä Parit Tehtävät Generaattori | Tulostettavat Tehtävät Lapsille Ilmainen Esiopetus',
     description: 'Luo ammattitasoisia yhdistä parit -tehtävämonisteet MatchUp Maker -työkalulla. Peruspaketti-tilauksellasi saat rajattoman määrän tehtävämonisteiden luomista ilman lisämaksuja per tehtävä. Tulostettavat tehtävät lapsille ilmainen esiopetukseen ja alakouluun.',
     keywords: 'yhdistä parit tehtävät, tulostettavat tehtävät lapsille ilmainen, esiopetus materiaali ilmainen, kirjaimet harjoittelu esikoulu, lukemaan oppiminen tehtävät, hienomotoriikka harjoitukset',

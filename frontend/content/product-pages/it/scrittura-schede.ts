@@ -14,7 +14,7 @@ export const writingItContent: ProductPageContent = {
   // SEO Metadata
   seo: {
     slug: 'scrittura-schede',
-    appId: 'writing-app',
+    appId: 'writing',
     title: 'Schede Didattiche Pregrafismo e Scrittura - Generatore di Schede Didattiche Scuola Primaria per Alfabeto e Numeri',
     description: 'Crea schede didattiche di pregrafismo professionali in pochi minuti. Con l\'abbonamento Accesso Completo puoi generare schede didattiche scuola primaria illimitate senza costi aggiuntivi. Generatore di schede per scrittura, alfabeto, lettere dell\'alfabeto, numeri da stampare. Perfetto per scuola dell\'infanzia e classe prima.',
     keywords: 'schede didattiche pregrafismo, schede didattiche scuola primaria, schede italiano classe prima, lettere dell\'alfabeto, alfabeto, numeri da stampare, pregrafismo scuola infanzia, tabelline, schede matematica, disegni da colorare, scrittura',

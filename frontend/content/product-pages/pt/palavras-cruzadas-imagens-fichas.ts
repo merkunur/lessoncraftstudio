@@ -16,7 +16,7 @@ export const crosswordPtContent: ProductPageContent = {
   // SEO Metadata
   seo: {
     slug: 'palavras-cruzadas-imagens-fichas',
-    appId: 'image-crossword',
+    appId: 'crossword',
     title: 'Gerador de Palavras Cruzadas com Imagens - Atividades para Imprimir de Alfabetização e Vocabulário',
     description: 'Crie palavras cruzadas educativas com imagens como pistas visuais. Com a assinatura Acesso Completo, você gera atividades de alfabetização ilimitadas sem taxas por folha. Baixe em PDF profissional de alta qualidade em menos de 3 minutos.',
     keywords: 'palavras cruzadas, atividades para imprimir, atividades de alfabetização, atividades educação infantil, atividades de matemática, desenhos para colorir, coordenação motora, atividades vogais, tabuada, letra cursiva, pontilhado, atividades 1º ano, atividades 2º ano',

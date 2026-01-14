@@ -14,7 +14,7 @@ export const bigSmallFiContent: ProductPageContent = {
   // SEO Metadata - Finnish language-specific
   seo: {
     slug: 'iso-pieni-tyoarkit',
-    appId: 'big-small-app',
+    appId: 'big-small',
     title: 'Tulostettavat Tehtävät Lapsille Ilmainen - Iso ja Pieni Tehtävät Esiopetus - Matematiikka Tehtävät Alakoulu',
     description: 'Luo ammattimaisia kokovertailutehtäviä Iso ja Pieni -työkalulla. Täysi Käyttöoikeus -tilaus antaa rajattoman pääsyn kaikkiin 33 tehtävämonisteen luontityökaluun. Lataa tulostettavat tehtävät PDF- tai JPEG-muodossa alle 3 minuutissa.',
     keywords: 'tulostettavat tehtävät lapsille ilmainen, iso ja pieni tehtävät, esiopetus materiaali ilmainen, matematiikka tehtävät alakoulu, kokovertailu tehtävät, hienomotoriikka harjoitukset',

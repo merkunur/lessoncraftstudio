@@ -14,7 +14,7 @@ export const writingSvContent: ProductPageContent = {
   // SEO Metadata - Swedish language-specific
   seo: {
     slug: 'skrivovningar-arbetsblad',
-    appId: 'writing-app',
+    appId: 'writing',
     title: 'Skriva Bokstäver Arbetsblad - Bokstäver Lära Sig Förskoleklass Material - Finmotorik Övningar Gratis',
     description: 'Skapa professionella arbetsblad för skrivövning med vår handstilsgenerator. Full Tillgång-prenumeration ger dig obegränsad åtkomst till alla 33 verktyg för $240 per år. Generera anpassade arbetsblad för att skriva bokstäver perfekta för förskoleklass, årskurs 1 och årskurs 2.',
     keywords: 'skriva bokstäver, arbetsblad gratis, förskoleklass material, finmotorik övningar, bokstäver lära sig, handstilsövningar, skrivarbetsblad, spårningsövningar, matematik arbetsblad, målarbilder barn',

@@ -14,7 +14,7 @@ export const matchingDaContent: ProductPageContent = {
   // SEO Metadata
   seo: {
     slug: 'matchning-arbejdsark',
-    appId: 'matching-app',
+    appId: 'matching',
     title: 'Gratis Skoleopgaver til Print – Matchingsopgaver til Børnehaveklassen og 1. Klasse',
     description: 'Lav professionelle matchingsopgaver med vores opgavegenerator til dansk folkeskole. Dit Core Bundle-abonnement giver dig ubegrænset adgang til at lave arbejdsark uden ekstra gebyrer pr. opgave. Opret tilpassede opgaver til print perfekt til børnehaveklassen og 1. klasse elever.',
     keywords: 'matchingsopgaver, gratis skoleopgaver, arbejdsark til print, 0. klasse opgaver, 1. klasse, børnehaveklassen, kopiark, finmotorik øvelser, lære bogstaver, parspil',

@@ -14,7 +14,7 @@ export const chartCountSvContent: ProductPageContent = {
   // SEO Metadata - Swedish language-specific
   seo: {
     slug: 'diagram-rakning-arbetsblad',
-    appId: 'chart-count-color',
+    appId: 'chart-count',
     title: 'Gratis Diagram med Bildräkning Generator | Arbetsblad för Förskoleklass och Matematik',
     description: 'Skapa professionella diagram med bildräkning för barn. Generera arbetsblad gratis där eleverna räknar bilder och fyller i stapeldiagram. Ladda ner högkvalitativa PDF-filer på under 3 minuter.',
     keywords: 'diagram arbetsblad, bildräkning, arbetsblad gratis, förskoleklass material, matematik arbetsblad, matte övningar, stapeldiagram, siffror och tal, finmotorik övningar, lågstadiet',

@@ -28,7 +28,7 @@ export const imageCrosswordNlContent: ProductPageContent = {
   // SEO Metadata - Dutch language-specific
   seo: {
     slug: 'kruiswoordpuzzel-werkbladen',
-    appId: 'image-crossword',
+    appId: 'crossword',
     title: 'Kruiswoordpuzzel Werkbladen - Oefenbladen Gratis voor Werkbladen Groep 3 en Kleuters',
     description: 'Maak professionele kruiswoordpuzzel werkbladen met afbeeldingen voor groep 1-3. Met uw Volledige Toegang abonnement creëert u onbeperkt kleurplaten en oefenbladen zonder extra kosten per werkblad. Download hoogwaardige PDF-bestanden in minder dan 3 minuten.',
     keywords: 'kruiswoordpuzzel werkbladen, werkbladen groep 3, werkbladen kleuters, oefenbladen gratis, letters leren, schrijven oefenen, veilig leren lezen, fijne motoriek, kleurplaten, rekenen werkbladen',

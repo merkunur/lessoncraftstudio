@@ -14,7 +14,7 @@ export const crosswordEsContent: ProductPageContent = {
   // SEO Metadata - Spanish language-specific
   seo: {
     slug: 'crucigramas-imagenes-fichas',
-    appId: 'image-crossword',
+    appId: 'crossword',
     title: 'Crucigramas con Imágenes - Fichas para Imprimir Gratis | Generador de Crucigramas para Preescolar y Primaria',
     description: 'Crea crucigramas educativos con imágenes en minutos usando nuestro generador profesional. Genera fichas para imprimir personalizadas perfectas para educación infantil, preescolar y primaria. Descarga crucigramas de alta calidad en formato PDF o JPEG en menos de 3 minutos.',
     keywords: 'crucigramas con imágenes, fichas para imprimir, crucigramas educativos, fichas preescolar, fichas infantil, material educativo gratis, lectoescritura, grafomotricidad, abecedario, vocabulario',

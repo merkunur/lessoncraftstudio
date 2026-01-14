@@ -16,7 +16,7 @@ export const bigSmallFrContent: ProductPageContent = {
   // SEO Metadata - French language-specific
   seo: {
     slug: 'grand-petit-fiches',
-    appId: 'big-small-app',
+    appId: 'big-small',
     title: 'Fiches Grand et Petit à Imprimer Gratuit - Exercices CP et Fiches Maternelle pour Comparer les Tailles',
     description: 'Créez des fiches pédagogiques pour enseigner les notions de grand et petit à vos élèves. Votre abonnement Accès Complet vous donne accès à la création illimitée de fiches sans frais supplémentaires. Générez des exercices de comparaison de tailles en moins de 3 minutes.',
     keywords: 'fiches grand et petit, fiches maternelle, fiches à imprimer gratuit, exercices CP, exercices CE1, exercices maths, graphisme maternelle, coloriage à imprimer, apprendre à lire, comparaison de tailles',

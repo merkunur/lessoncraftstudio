@@ -28,7 +28,7 @@ export const imageCryptogramNlContent: ProductPageContent = {
   // SEO Metadata - Dutch language-specific
   seo: {
     slug: 'cryptogram-werkbladen',
-    appId: 'image-cryptogram',
+    appId: 'cryptogram',
     title: 'Cryptogram Werkbladen Generator - Oefenbladen Gratis voor Werkbladen Groep 3 en Kleuters',
     description: 'Maak professionele cryptogram werkbladen met afbeeldingen met onze cryptogram generator. Met uw Volledige Toegang abonnement creëert u onbeperkt educatieve werkbladen zonder extra kosten per werkblad. Download hoogwaardige PDF werkbladen in minder dan 3 minuten.',
     keywords: 'cryptogram werkbladen, werkbladen groep 3, werkbladen kleuters, oefenbladen gratis, letters leren, schrijven oefenen, veilig leren lezen, fijne motoriek, kleurplaten, rekenen werkbladen',

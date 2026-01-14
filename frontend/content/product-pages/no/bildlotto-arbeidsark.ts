@@ -14,7 +14,7 @@ export const pictureBingoNoContent: ProductPageContent = {
   // SEO Metadata
   seo: {
     slug: 'bildlotto-arbeidsark',
-    appId: 'picture-bingo',
+    appId: 'bingo',
     title: 'Bildlotto Generator - Arbeidsark Gratis for Barnehage og Småskoletrinnet',
     description: 'Lag profesjonelle bildlottokort på minutter med vår bildlotto-generator. Grunnpakke-abonnementet ditt gir deg ubegrenset tilgang til å lage bildlotto uten ekstra kostnad per ark. Generer tilpassede bildlotto-oppgavehefter barn for barnehage og småskolen.',
     keywords: 'bildlotto, arbeidsark gratis, oppgavehefter barn, matematikk oppgaver, tall og telling, barnehage, småskoletrinnet, fargeleggingsbilder barn, lesetrening, finmotorikk øvelser',

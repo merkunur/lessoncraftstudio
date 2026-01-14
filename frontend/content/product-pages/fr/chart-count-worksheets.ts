@@ -16,7 +16,7 @@ export const chartCountFrContent: ProductPageContent = {
   // SEO Metadata - French language-specific
   seo: {
     slug: 'graphique-images-fiches',
-    appId: 'chart-count-color',
+    appId: 'chart-count',
     title: 'Graphique en Images à Imprimer - Fiches Maternelle et Exercices CP pour Apprendre à Compter et Créer des Diagrammes',
     description: 'Créez des fiches pédagogiques de graphiques en images pour enseigner la représentation des données à vos élèves. Votre abonnement Accès Complet vous donne accès à la création illimitée de fiches sans frais supplémentaires. Générez des exercices de comptage et de graphiques en moins de 3 minutes.',
     keywords: 'graphique en images, fiches maternelle, exercices CP, fiches à imprimer gratuit, exercices maths, comptage maternelle, diagramme pictogramme, apprendre à compter, coloriage à imprimer, graphisme maternelle',

@@ -18,7 +18,7 @@ export const crosswordFiContent: ProductPageContent = {
   // SEO Metadata - Finnish language-specific
   seo: {
     slug: 'ristisanatehtavat-tyoarkit',
-    appId: 'image-crossword',
+    appId: 'crossword',
     title: 'Ristisanatehtävien Generaattori - Tulostettavat Tehtävät Lapsille Ilmainen | Esiopetus Materiaali',
     description: 'Luo ammattimaisia ristisanatehtäviä kuvilla muutamassa minuutissa. Tulostettavat tehtävät lapsille ilmainen luominen Täysi Käyttöoikeus -tilauksella. Ristisanatehtävien generaattori on täydellinen työkalu esiopetuksen ja alakoulun opettajille.',
     keywords: 'ristisanatehtävät, tulostettavat tehtävät lapsille ilmainen, esiopetus materiaali ilmainen, ristisanatehtävien generaattori, ristikoita lapsille, kuvallinen ristisanatehtävä',

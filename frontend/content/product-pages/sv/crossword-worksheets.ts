@@ -14,7 +14,7 @@ export const crosswordSvContent: ProductPageContent = {
   // SEO Metadata - Swedish language-specific
   seo: {
     slug: 'bildkorsord-arbetsblad',
-    appId: 'image-crossword',
+    appId: 'crossword',
     title: 'Bildkorsord Generator - Arbetsblad Gratis för Förskoleklass Material och Bokstäver Lära Sig',
     description: 'Skapa professionella bildkorsord med vår bildkorsordsgenerator. Din Full Tillgång-prenumeration ger dig obegränsad tillgång till att skapa korsord utan extra avgifter per arbetsblad. Generera anpassade utskrivbara bildkorsord perfekta för förskoleklass material och bokstäver lära sig aktiviteter.',
     keywords: 'bildkorsord generator, arbetsblad gratis, förskoleklass material, bokstäver lära sig, korsord barn, bildkorsord, matematik arbetsblad, finmotorik övningar, målarbilder barn, ordförråd',

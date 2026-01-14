@@ -14,7 +14,7 @@ export const matchingItContent: ProductPageContent = {
   // SEO Metadata
   seo: {
     slug: 'abbinamenti-schede',
-    appId: 'matching-app',
+    appId: 'matching',
     title: 'Schede Didattiche di Abbinamenti | Generatore Schede per Scuola Primaria',
     description: 'Crea schede didattiche di abbinamenti professionali in pochi minuti. Il nostro generatore di abbinamenti permette di creare esercizi visivi perfetti per la scuola primaria e scuola dell\'infanzia. Genera schede didattiche personalizzate in formato PDF.',
     keywords: 'schede didattiche abbinamenti, schede scuola primaria, esercizi abbinamento, scuola infanzia, schede stampabili, generatore schede, abbinamento immagini, classe prima, pregrafismo, materiale didattico',

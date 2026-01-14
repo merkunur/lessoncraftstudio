@@ -16,7 +16,7 @@ export const bigSmallPtContent: ProductPageContent = {
   // SEO Metadata
   seo: {
     slug: 'grande-pequeno-fichas',
-    appId: 'big-small-app',
+    appId: 'big-small',
     title: 'Atividades de Grande e Pequeno para Imprimir - Gerador de Atividades Educação Infantil e Ensino Fundamental',
     description: 'Crie atividades de comparação de tamanho personalizadas para suas aulas. Este gerador profissional de fichas produz exercícios onde crianças identificam o maior, o menor ou ordenam objetos por tamanho. Com sua assinatura Acesso Completo, você gera quantas atividades quiser sem custos extras por ficha.',
     keywords: 'atividades de grande e pequeno, atividades para imprimir, atividades educação infantil, atividades 1º ano, atividades 2º ano, coordenação motora, comparação de tamanho, atividades de matemática, desenhos para colorir, letra cursiva, pontilhado, atividades de alfabetização',

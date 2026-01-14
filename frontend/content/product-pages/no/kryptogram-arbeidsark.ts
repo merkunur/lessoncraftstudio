@@ -15,7 +15,7 @@ export const cryptogramNoContent: ProductPageContent = {
   // SEO Metadata
   seo: {
     slug: 'kryptogram-arbeidsark',
-    appId: 'image-cryptogram',
+    appId: 'cryptogram',
     title: 'Kryptogram Generator - Arbeidsark Gratis med Bildekoder til Bokstaver Lære Skrive',
     description: 'Lag profesjonelle kryptogram-oppgaver der bokstaver erstattes med bilder. Elevene løser gåten ved å dekode hvilke bilder som representerer hvilke bokstaver. Perfekt for bokstaver lære skrive og lesetrening i småskoletrinnet.',
     keywords: 'kryptogram, kryptogram arbeidsark, arbeidsark gratis, lesetrening, matematikk oppgaver, bokstaver lære skrive, småskoletrinnet, oppgavehefter barn, gratis skoleopgaver, fargeleggingsbilder barn',

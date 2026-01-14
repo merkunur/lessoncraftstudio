@@ -26,7 +26,7 @@ export const cryptogramDeContent: ProductPageContent = {
   // SEO Metadata - German language-specific
   seo: {
     slug: 'bildkryptogramm-arbeitsblaetter',
-    appId: 'image-cryptogram',
+    appId: 'cryptogram',
     title: 'Bilder-Kryptogramm Generator - Kostenlose Arbeitsblätter Grundschule und Vorschule Arbeitsblätter',
     description: 'Erstellen Sie professionelle Bilder-Kryptogramm Arbeitsblätter mit unserem Kryptogramm-Generator. Perfekt für Arbeitsblätter Grundschule, Vorschule Arbeitsblätter und Deutsch Arbeitsblätter. Schüler entschlüsseln geheime Botschaften mit Bildcodes. Laden Sie druckfertige PDF-Dateien in unter 3 Minuten herunter.',
     keywords: 'bilder-kryptogramm, kryptogramm generator, arbeitsblätter grundschule, kostenlose arbeitsblätter, vorschule arbeitsblätter, deutsch arbeitsblätter, buchstaben lernen, mathe arbeitsblätter, schwungübungen, ausmalbilder',

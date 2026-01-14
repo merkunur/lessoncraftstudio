@@ -14,7 +14,7 @@ export const chartCountDaContent: ProductPageContent = {
   // SEO Metadata
   seo: {
     slug: 'billediagram-arbejdsark',
-    appId: 'chart-count-color',
+    appId: 'chart-count',
     title: 'Matematikopgaver Billediagram - Gratis Skoleopgaver til Print - Arbejdsark for 0. Klasse og 1. Klasse',
     description: 'Lav professionelle billediagram-opgaver til print med vores matematikgenerator. Dit Fuld Adgang-abonnement giver dig ubegrænset adgang til at lave opgaver uden ekstra gebyrer pr. opgave. Generer tilpassede matematikopgaver perfekt til børnehaveklassen, 0. klasse og 1. klasse. Download højkvalitets PDF-arbejdsark på under 3 minutter.',
     keywords: 'billediagram arbejdsark, matematikopgaver, gratis skoleopgaver, arbejdsark til print, 0. klasse, 1. klasse, børnehaveklasse, tælleopgaver, kopiark, søjlediagram',

@@ -28,7 +28,7 @@ export const writingDeContent: ProductPageContent = {
   // SEO Metadata - German language-specific
   seo: {
     slug: 'schreibuebungen-arbeitsblaetter',
-    appId: 'writing-app',
+    appId: 'writing',
     title: 'Schreibübungen Arbeitsblätter Generator - Kostenlose Schwungübungen und Buchstaben lernen zum Ausdrucken für Vorschule und Grundschule',
     description: 'Erstellen Sie professionelle Schreibübungen mit unserem Arbeitsblatt-Generator. Mit Ihrem Vollzugriff-Abo generieren Sie unbegrenzt Schwungübungen und Buchstaben lernen Materialien ohne zusätzliche Kosten pro Blatt. Perfekt für Vorschule Arbeitsblätter und Arbeitsblätter Grundschule.',
     keywords: 'schreibübungen arbeitsblätter, schwungübungen, buchstaben lernen, arbeitsblätter grundschule, kostenlose arbeitsblätter, vorschule arbeitsblätter, mathe arbeitsblätter, einmaleins, deutsch arbeitsblätter, rechnen lernen, ausmalbilder, malvorlagen',

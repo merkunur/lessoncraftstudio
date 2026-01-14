@@ -14,7 +14,7 @@ export const matchingFrContent: ProductPageContent = {
   // SEO Metadata - French language-specific
   seo: {
     slug: 'association-fiches',
-    appId: 'matching-app',
+    appId: 'matching',
     title: 'Fiches d\'Association | Fiches Maternelle et Exercices CP pour Apprendre à Lire',
     description: 'Créez des fiches d\'association professionnelles avec notre générateur MatchUp Maker. Votre abonnement Pack Essentiel vous donne un accès illimité à la création de fiches maternelle personnalisées. Téléchargez des fichiers PDF haute qualité en moins de 3 minutes.',
     keywords: 'fiches association, fiches maternelle, exercices CP, fiches à imprimer gratuit, apprendre à lire, fiches alphabet, graphisme maternelle, exercices maths, apprendre les lettres, coloriage à imprimer, écriture cursive, tables de multiplication',

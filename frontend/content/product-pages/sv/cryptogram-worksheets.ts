@@ -14,7 +14,7 @@ export const cryptogramSvContent: ProductPageContent = {
   // SEO Metadata - Swedish language-specific
   seo: {
     slug: 'bildkryptogram-arbetsblad',
-    appId: 'image-cryptogram',
+    appId: 'cryptogram',
     title: 'Bildkryptogram Generator - Arbetsblad Gratis för Bokstäver Lära Sig och Matematik Arbetsblad',
     description: 'Skapa professionella bildkryptogram med vår bildkryptogram-generator. Din Full Tillgång-prenumeration ger dig obegränsad skapande av arbetsblad utan extra avgifter per arbetsblad. Generera anpassade utskrivbara bildkryptogram perfekta för förskoleklass material och lågstadiebarn.',
     keywords: 'bildkryptogram generator, arbetsblad gratis, förskoleklass material, bokstäver lära sig, kryptogram barn, bildkryptogram, matematik arbetsblad, finmotorik övningar, målarbilder barn, bokstavsigenkänning',

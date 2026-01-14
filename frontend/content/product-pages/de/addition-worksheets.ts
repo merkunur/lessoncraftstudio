@@ -26,7 +26,7 @@ export const additionDeContent: ProductPageContent = {
   // SEO Metadata - German language-specific
   seo: {
     slug: 'addition-arbeitsblaetter',
-    appId: 'image-addition',
+    appId: 'addition',
     title: 'Additions-Generator - Kostenlose Mathe-Arbeitsblätter Grundschule - Rechnen lernen 1. Klasse',
     description: 'Erstellen Sie professionelle Additions-Arbeitsblätter für Grundschule und Vorschule mit unserem kostenlosen Generator. Perfekt für Rechnen lernen, Mathe-Arbeitsblätter und Vorschul-Arbeitsblätter. Der Additions-Generator eignet sich ideal für kostenlose Arbeitsblätter in der 1. Klasse.',
     keywords: 'additions generator, mathe arbeitsblätter, arbeitsblätter grundschule, kostenlose arbeitsblätter, vorschule arbeitsblätter, rechnen lernen, rechnen 1 klasse, einmaleins, schwungübungen, ausmalbilder',

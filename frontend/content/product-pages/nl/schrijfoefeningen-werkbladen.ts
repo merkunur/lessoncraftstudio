@@ -26,7 +26,7 @@ export const writingNlContent: ProductPageContent = {
   // SEO Metadata - Dutch language-specific
   seo: {
     slug: 'schrijfoefeningen-werkbladen',
-    appId: 'writing-app',
+    appId: 'writing',
     title: 'Schrijven Oefenen Werkbladen - Oefenbladen Gratis voor Letters Leren - Fijne Motoriek Werkbladen Kleuters',
     description: 'Maak professionele schrijfoefeningen voor letters leren met onze schrijfwerkbladen generator. Uw Volledige Toegang abonnement geeft u onbeperkte toegang tot het maken van werkbladen zonder kosten per werkblad. Creëer gepersonaliseerde oefenbladen gratis voor groep 1 2 en groep 3.',
     keywords: 'schrijven oefenen, letters leren, werkbladen kleuters, werkbladen groep 3, oefenbladen gratis, fijne motoriek, veilig leren lezen, rekenen werkbladen, tafels oefenen, sommen tot 20',

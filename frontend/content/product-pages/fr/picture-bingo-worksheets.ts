@@ -14,7 +14,7 @@ export const pictureBingoFrContent: ProductPageContent = {
   // SEO Metadata - French language-specific
   seo: {
     slug: 'bingo-images-fiches',
-    appId: 'picture-bingo',
+    appId: 'bingo',
     title: 'Générateur de Cartes Bingo Illustrées | Fiches Maternelle à Imprimer Gratuit et Exercices CP CE1',
     description: 'Créez des cartes bingo professionnelles avec notre générateur de fiches à imprimer gratuit. Votre abonnement Pack Essentiel vous offre une création illimitée de fiches maternelle sans frais supplémentaires par fiche. Téléchargez vos fiches de qualité professionnelle en PDF ou JPEG en moins de 3 minutes.',
     keywords: 'bingo images, cartes bingo, fiches maternelle, fiches à imprimer gratuit, exercices CP, exercices CE1, graphisme maternelle, jeux éducatifs, bingo alphabet, bingo maths, apprendre à lire',

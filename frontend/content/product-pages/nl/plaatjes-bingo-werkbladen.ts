@@ -28,7 +28,7 @@ export const pictureBingoNlContent: ProductPageContent = {
   // SEO Metadata - Dutch language-specific
   seo: {
     slug: 'plaatjes-bingo-werkbladen',
-    appId: 'picture-bingo',
+    appId: 'bingo',
     title: 'Plaatjes Bingo Werkbladen Generator - Gratis Printbare Oefenbladen voor Groep 1-3',
     description: 'Maak professionele bingo werkbladen met onze plaatjes bingo generator. Met je Basispakket abonnement genereer je onbeperkt werkbladen voor groep 1, 2 en 3. Download direct als PDF en print thuis of op school. Leerlingen leren spelenderwijs met visuele herkenning en woordenschat.',
     keywords: 'plaatjes bingo, werkbladen kleuters, werkbladen groep 3, oefenbladen gratis, rekenen werkbladen, letters leren, veilig leren lezen, sommen tot 20, kleurplaten, fijne motoriek, tafels oefenen, bingo generator',

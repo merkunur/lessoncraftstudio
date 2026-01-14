@@ -14,7 +14,7 @@ export const bigSmallSvContent: ProductPageContent = {
   // SEO Metadata - Swedish language-specific
   seo: {
     slug: 'stort-litet-arbetsblad',
-    appId: 'big-small-app',
+    appId: 'big-small',
     title: 'Arbetsblad Gratis för Stort och Litet - Matematik Arbetsblad och Förskoleklass Material för Storleksträning',
     description: 'Skapa professionella arbetsblad för att lära barn skilja på stort och litet. Generera anpassade matematik arbetsblad för storleksjämförelse på under 3 minuter. Ladda ner högkvalitativa PDF-filer för förskoleklass material och matte övningar.',
     keywords: 'arbetsblad gratis, stort och litet, storleksjämförelse, förskoleklass material, matematik arbetsblad, matte övningar, finmotorik övningar, målarbilder barn, siffror och tal',

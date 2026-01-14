@@ -14,7 +14,7 @@ export const chartCountNoContent: ProductPageContent = {
   // SEO Metadata
   seo: {
     slug: 'bildediagram-arbeidsark',
-    appId: 'chart-count-color',
+    appId: 'chart-count',
     title: 'Bildediagram Arbeidsark - Tall og Telling Matematikk Oppgaver - Arbeidsark Gratis for Barnehage og Småskole',
     description: 'Lag profesjonelle bildediagram arbeidsark for telling og grafisk fremstilling. Full Tilgang-abonnementet ditt gir deg ubegrenset tilgang til å lage matematikk oppgaver uten ekstra kostnad per arbeidsark. Last ned høykvalitets PDF-arbeidsark på under tre minutter.',
     keywords: 'bildediagram arbeidsark, tall og telling, matematikk oppgaver, arbeidsark gratis, oppgavehefter barn, finmotorikk øvelser, barnehage, småskoletrinnet, fargeleggingsbilder barn, gangetabellen',

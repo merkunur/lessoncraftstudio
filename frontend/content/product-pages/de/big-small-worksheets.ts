@@ -26,7 +26,7 @@ export const bigSmallDeContent: ProductPageContent = {
   // SEO Metadata - German language-specific
   seo: {
     slug: 'gross-klein-arbeitsblaetter',
-    appId: 'big-small-app',
+    appId: 'big-small',
     title: 'Groß und Klein Arbeitsblätter - Kostenlose Arbeitsblätter Grundschule - Größenvergleich Generator für Vorschule',
     description: 'Erstellen Sie professionelle Arbeitsblätter für Größenvergleich mit unserem Generator für Groß-Klein-Übungen. Perfekt für Arbeitsblätter Grundschule, Vorschul-Arbeitsblätter und Mathe-Arbeitsblätter. Laden Sie kostenlose Arbeitsblätter in unter 3 Minuten herunter.',
     keywords: 'groß klein arbeitsblätter, arbeitsblätter grundschule, kostenlose arbeitsblätter, mathe arbeitsblätter, vorschule arbeitsblätter, größenvergleich, einmaleins, schwungübungen, buchstaben lernen, ausmalbilder',

@@ -26,7 +26,7 @@ export const additionNlContent: ProductPageContent = {
   // SEO Metadata - Dutch language-specific
   seo: {
     slug: 'optellen-werkbladen',
-    appId: 'image-addition',
+    appId: 'addition',
     title: 'Optel Werkbladen Generator - Rekenen Werkbladen voor Werkbladen Groep 3 en Sommen tot 20',
     description: 'Maak professionele optelwerkbladen met plaatjes in enkele minuten. Deze rekenen werkbladen generator is perfect voor leerkrachten in het basisonderwijs. Met je Basispakket abonnement creëer je onbeperkt werkbladen groep 3 zonder extra kosten per werkblad.',
     keywords: 'optellen werkbladen, rekenen werkbladen, werkbladen groep 3, werkbladen kleuters, sommen tot 20, oefenbladen gratis, tafels oefenen, veilig leren lezen, fijne motoriek, letters leren',

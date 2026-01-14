@@ -17,7 +17,7 @@ export const writingFrContent: ProductPageContent = {
   // SEO Metadata - French language-specific
   seo: {
     slug: 'ecriture-fiches',
-    appId: 'writing-app',
+    appId: 'writing',
     title: 'Fiches d\'Écriture à Imprimer Gratuit - Graphisme Maternelle et Exercices CP pour Apprendre à Écrire',
     description: 'Créez des fiches d\'écriture professionnelles avec notre générateur de graphisme maternelle. Votre abonnement Accès Complet vous donne un accès illimité sans frais par fiche. Générez des fiches à imprimer gratuit personnalisées pour les élèves de maternelle et de CP. Téléchargez des PDF haute qualité en moins de 3 minutes. Parfait pour l\'apprentissage de l\'écriture cursive et script.',
     keywords: 'fiches écriture, fiches à imprimer gratuit, graphisme maternelle, exercices CP, apprendre à écrire, lettres alphabet, écriture cursive, fiches maternelle, mots fréquents, fiches phonétique, coloriage à imprimer, exercices maths, fiches addition, fiches alphabet',

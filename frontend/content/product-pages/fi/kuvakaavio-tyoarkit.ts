@@ -14,7 +14,7 @@ export const chartCountFiContent: ProductPageContent = {
   // SEO Metadata - Finnish language-specific
   seo: {
     slug: 'kuvakaavio-tyoarkit',
-    appId: 'chart-count-color',
+    appId: 'chart-count',
     title: 'Kuvakaavio Generaattori - Tulostettavat Tehtävät Lapsille Ilmainen - Matematiikka Tehtävät Alakoulu',
     description: 'Luo ammattimaisia kuvakaaviotehtäviä laskemisen ja tietojen visualisoinnin harjoitteluun. Täysi Käyttöoikeus -tilaus antaa rajattoman pääsyn kaikkiin 33 tehtävämonisteen luontityökaluun. Lataa tulostettavat tehtävät PDF- tai JPEG-muodossa alle 3 minuutissa.',
     keywords: 'kuvakaavio generaattori, tulostettavat tehtävät lapsille ilmainen, matematiikka tehtävät alakoulu, esiopetus materiaali ilmainen, pylväsdiagrammi tehtävät, laskeminen tehtävät',

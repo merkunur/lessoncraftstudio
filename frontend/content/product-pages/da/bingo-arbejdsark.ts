@@ -14,7 +14,7 @@ export const bingoDaContent: ProductPageContent = {
   // SEO Metadata
   seo: {
     slug: 'bingo-arbejdsark',
-    appId: 'picture-bingo',
+    appId: 'bingo',
     title: 'Bingo Opgaver til Print - Gratis Skoleopgaver Generator for Børnehaveklassen',
     description: 'Lav professionelle bingo-opgaver til print med vores bingo generator. Dit Grundpakke abonnement giver dig ubegrænset opgave-generering. Generer skræddersyede arbejdsark perfekt til børnehaveklassen, 0. klasse og 1. klasse. Download høj-kvalitets PDF opgaver på under 3 minutter.',
     keywords: 'bingo generator, bingo opgaver, gratis skoleopgaver, arbejdsark til print, børnehaveklassen, 0. klasse opgaver, 1. klasse, kopiark, billedbingo, ordbingo',

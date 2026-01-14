@@ -26,7 +26,7 @@ export const crosswordDeContent: ProductPageContent = {
   // SEO Metadata - German language-specific
   seo: {
     slug: 'bilderkreuzwortraetsel-arbeitsblaetter',
-    appId: 'image-crossword',
+    appId: 'crossword',
     title: 'Bilderkreuzworträtsel Generator - Kostenlose Arbeitsblätter Grundschule und Vorschule Arbeitsblätter',
     description: 'Erstellen Sie professionelle Bilderkreuzworträtsel mit unserem Kreuzworträtsel-Generator. Perfekt für Arbeitsblätter Grundschule, Vorschule Arbeitsblätter und Deutsch Arbeitsblätter. Kinder verbinden Bilder mit Rechtschreibung. Laden Sie druckfertige PDF-Dateien in unter 3 Minuten herunter.',
     keywords: 'bilderkreuzworträtsel, kreuzworträtsel generator, arbeitsblätter grundschule, kostenlose arbeitsblätter, vorschule arbeitsblätter, deutsch arbeitsblätter, buchstaben lernen, mathe arbeitsblätter, schwungübungen, ausmalbilder',

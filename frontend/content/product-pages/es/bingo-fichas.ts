@@ -14,7 +14,7 @@ export const bingoEsContent: ProductPageContent = {
   // SEO Metadata - Spanish language-specific
   seo: {
     slug: 'bingo-fichas',
-    appId: 'picture-bingo',
+    appId: 'bingo',
     title: 'Fichas de Bingo para Imprimir | Generador de Bingo con Imágenes para Educación Infantil y Preescolar',
     description: 'Crea fichas de bingo profesionales con nuestro generador de bingo con imágenes. Genera fichas para imprimir perfectas para educación infantil, preescolar y primaria. Descarga fichas gratis de alta calidad en formato PDF en menos de 3 minutos.',
     keywords: 'fichas de bingo, bingo con imágenes, fichas para imprimir, fichas infantil, fichas preescolar, material educativo gratis, fichas gratis, abecedario, números, grafomotricidad, lectoescritura, dibujos para colorear',

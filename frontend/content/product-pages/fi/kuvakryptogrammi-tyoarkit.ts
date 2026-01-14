@@ -18,7 +18,7 @@ export const cryptogramFiContent: ProductPageContent = {
   // SEO Metadata - Finnish language-specific
   seo: {
     slug: 'kuvakryptogrammi-tyoarkit',
-    appId: 'image-cryptogram',
+    appId: 'cryptogram',
     title: 'Kuvakryptogrammi Generaattori - Tulostettavat Tehtävät Lapsille Ilmainen | Kirjaimet Harjoittelu Esikoulu',
     description: 'Luo ammattimaisia kuvakryptogrammi-tehtäviä, joissa kirjaimet korvataan kuvilla. Täysi Käyttöoikeus -tilauksesi antaa rajattoman kryptogrammi-tehtävien luonnin. Lataa laadukkaat PDF-tehtävät alle 3 minuutissa.',
     keywords: 'kuvakryptogrammi, tulostettavat tehtävät lapsille ilmainen, kirjaimet harjoittelu esikoulu, esiopetus materiaali ilmainen, lukemaan oppiminen tehtävät, matematiikka tehtävät alakoulu',

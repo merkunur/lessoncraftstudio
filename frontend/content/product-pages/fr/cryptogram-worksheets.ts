@@ -17,7 +17,7 @@ export const cryptogramFrContent: ProductPageContent = {
   // SEO Metadata - French language-specific
   seo: {
     slug: 'cryptogramme-images-fiches',
-    appId: 'image-cryptogram',
+    appId: 'cryptogram',
     title: 'Cryptogramme en Images | Fiches Maternelle et Exercices CP pour Apprendre à Lire',
     description: 'Créez des cryptogrammes en images professionnels avec notre générateur de fiches à imprimer gratuit. Votre abonnement Accès Complet à 240 € par an vous permet de générer des fiches maternelle et exercices CP illimités. Téléchargez des fichiers PDF haute qualité en moins de 3 minutes.',
     keywords: 'cryptogramme en images, fiches maternelle, exercices CP, fiches à imprimer gratuit, apprendre à lire, fiches alphabet, graphisme maternelle, exercices maths, apprendre les lettres, coloriage à imprimer, écriture cursive, tables de multiplication, exercices CE1',

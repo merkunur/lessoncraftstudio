@@ -17,7 +17,7 @@ export const matchingEsContent: ProductPageContent = {
   // SEO Metadata - Spanish language-specific
   seo: {
     slug: 'relacionar-fichas',
-    appId: 'matching-app',
+    appId: 'matching',
     title: 'Fichas para Imprimir de Relacionar | Fichas Preescolar y Material Educativo Gratis para Lectoescritura',
     description: 'Crea fichas para imprimir profesionales de relacionar columnas con nuestro generador de fichas educativas. Genera fichas preescolar y fichas infantil personalizadas perfectas para preescolar, primer grado y segundo grado. Descarga fichas en PDF de alta calidad en menos de 3 minutos.',
     keywords: 'fichas para imprimir, fichas preescolar, fichas infantil, material educativo gratis, relacionar columnas, grafomotricidad, lectoescritura, abecedario, fichas de matemáticas, tablas de multiplicar',

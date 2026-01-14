@@ -14,7 +14,7 @@ export const cryptogramItContent: ProductPageContent = {
   // SEO Metadata
   seo: {
     slug: 'crittogramma-schede',
-    appId: 'image-cryptogram',
+    appId: 'cryptogram',
     title: 'Crittogramma con Immagini - Schede Didattiche Scuola Primaria - Pregrafismo e Lettere dell\'Alfabeto',
     description: 'Crea crittogrammi con immagini per la scuola dell\'infanzia e la scuola primaria. Il nostro generatore di crittogrammi trasforma le tue schede didattiche in attività coinvolgenti. Genera schede didattiche scuola primaria personalizzate perfette per italiano classe prima e pregrafismo.',
     keywords: 'crittogramma con immagini, schede didattiche scuola primaria, pregrafismo, lettere dell\'alfabeto, schede italiano classe prima, generatore crittogramma, schede didattiche scuola infanzia, schede stampabili, crittogramma bambini, attività didattiche, schede matematica, tabelline',

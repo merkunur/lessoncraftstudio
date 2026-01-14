@@ -14,7 +14,7 @@ export const writingFiContent: ProductPageContent = {
   // SEO Metadata - Finnish language-specific
   seo: {
     slug: 'kasinkirjoitus-tyoarkit',
-    appId: 'writing-app',
+    appId: 'writing',
     title: 'Kirjaimet Harjoittelu Esikoulu | Tulostettavat Tehtävät Lapsille Ilmainen - Hienomotoriikka Harjoitukset',
     description: 'Luo ammattitasoisia käsinkirjoituksen harjoittelutehtäviä kirjainten harjoitteluun esiopetuksessa. Täysi Pääsy -tilaus antaa sinulle rajattoman määrän käsinkirjoitustehtävien luomista. Lataa korkealaatuisia PDF-tehtäviä alle kolmessa minuutissa.',
     keywords: 'kirjaimet harjoittelu esikoulu, tulostettavat tehtävät lapsille ilmainen, hienomotoriikka harjoitukset, esiopetus materiaali ilmainen, lukemaan oppiminen tehtävät, käsinkirjoitus tehtävät',

@@ -14,7 +14,7 @@ export const additionFrContent: ProductPageContent = {
   // SEO Metadata - French language-specific
   seo: {
     slug: 'addition-fiches',
-    appId: 'image-addition',
+    appId: 'addition',
     title: 'Fiches d\'Addition à Imprimer Gratuit | Générateur d\'Exercices Maths pour Maternelle et CP',
     description: 'Créez des fiches d\'addition professionnelles avec notre générateur d\'exercices maths. Parfait pour les enseignants de maternelle, CP et CE1. Téléchargez des fiches à imprimer gratuit en PDF haute qualité en moins de trois minutes.',
     keywords: 'fiches addition, exercices maths, fiches maternelle, fiches à imprimer gratuit, exercices CP, exercices CE1, addition avec images, générateur fiches, mathématiques maternelle, calcul visuel',

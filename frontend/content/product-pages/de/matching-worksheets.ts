@@ -26,7 +26,7 @@ export const matchingDeContent: ProductPageContent = {
   // SEO Metadata - German language-specific
   seo: {
     slug: 'zuordnungs-arbeitsblaetter',
-    appId: 'matching-app',
+    appId: 'matching',
     title: 'Zuordnungs-Arbeitsblätter - Kostenlose Arbeitsblätter Grundschule - Zuordnungs-Generator für Vorschule und Buchstaben lernen',
     description: 'Erstellen Sie professionelle Zuordnungsübungen mit unserem Zuordnungs-Generator. Perfekt für Arbeitsblätter Grundschule, Vorschul-Arbeitsblätter, Buchstaben lernen und Deutsch-Arbeitsblätter. Laden Sie kostenlose Arbeitsblätter in unter 3 Minuten herunter.',
     keywords: 'zuordnungs arbeitsblätter, arbeitsblätter grundschule, kostenlose arbeitsblätter, mathe arbeitsblätter, vorschule arbeitsblätter, buchstaben lernen, deutsch arbeitsblätter, einmaleins, schwungübungen, ausmalbilder',

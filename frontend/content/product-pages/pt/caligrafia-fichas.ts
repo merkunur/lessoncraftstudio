@@ -14,7 +14,7 @@ export const writingPtContent: ProductPageContent = {
   // SEO Metadata
   seo: {
     slug: 'caligrafia-fichas',
-    appId: 'writing-app',
+    appId: 'writing',
     title: 'Atividades de Caligrafia para Imprimir - Gerador de Letra Cursiva e Pontilhado para Alfabetização',
     description: 'Crie atividades de caligrafia profissionais com nosso gerador de fichas de escrita. Sua assinatura Acesso Completo oferece criação ilimitada de atividades para imprimir sem taxas adicionais. Gere atividades de alfabetização personalizadas em menos de 3 minutos.',
     keywords: 'atividades de caligrafia, atividades para imprimir, letra cursiva, pontilhado, alfabetização, educação infantil, 1º ano, 2º ano, coordenação motora, atividades vogais, atividades alfabeto',

@@ -16,7 +16,7 @@ export const chartCountItContent: ProductPageContent = {
   // SEO Metadata
   seo: {
     slug: 'grafici-immagini-schede',
-    appId: 'chart-count-color',
+    appId: 'chart-count',
     title: 'Schede Didattiche Grafici con Immagini - Generatore Professionale per Scuola dell\'Infanzia e Scuola Primaria',
     description: 'Crea grafici con immagini professionali con il nostro generatore di schede didattiche. Genera schede didattiche scuola primaria personalizzate perfette per insegnare ai bambini a contare e visualizzare i dati. Scarica PDF di alta qualità in meno di 3 minuti.',
     keywords: 'schede didattiche grafici, grafici con immagini, schede matematica, schede scuola primaria, schede scuola infanzia, contare immagini, visualizzazione dati, grafici a barre bambini, schede didattiche scuola primaria, pregrafismo',

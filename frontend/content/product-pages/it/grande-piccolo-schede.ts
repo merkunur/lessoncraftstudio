@@ -16,7 +16,7 @@ export const bigSmallItContent: ProductPageContent = {
   // SEO Metadata
   seo: {
     slug: 'grande-piccolo-schede',
-    appId: 'big-small-app',
+    appId: 'big-small',
     title: 'Schede Didattiche Grande Piccolo - Generatore di Schede Scuola dell\'Infanzia per Confronto Dimensioni',
     description: 'Crea schede didattiche professionali per insegnare i concetti di grande e piccolo ai bambini della scuola dell\'infanzia. Generatore di schede scuola primaria con 5 tipi di esercizi di comparazione dimensioni.',
     keywords: 'schede didattiche grande piccolo, schede scuola infanzia, confronto dimensioni, schede matematica, pregrafismo, schede didattiche scuola primaria, discriminazione visiva, schede italiano classe prima, disegni da colorare, numeri da stampare',

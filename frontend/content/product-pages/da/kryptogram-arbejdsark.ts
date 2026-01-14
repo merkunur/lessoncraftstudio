@@ -14,7 +14,7 @@ export const cryptogramDaContent: ProductPageContent = {
   // SEO Metadata
   seo: {
     slug: 'kryptogram-arbejdsark',
-    appId: 'image-cryptogram',
+    appId: 'cryptogram',
     title: 'Kryptogram Opgaver til Print - Gratis Skoleopgaver for Børn i 0. Klasse og 1. Klasse',
     description: 'Opret professionelle kryptogram opgaver med vores kryptogram generator. Generer tilpassede kryptogram opgaver perfekte til børnehaveklassen, 0. klasse og 1. klasse. Download opgaver til print i PDF-format på under 3 minutter.',
     keywords: 'kryptogram arbejdsark, opgaver til print, gratis skoleopgaver, 0 klasse opgaver, 1 klasse opgaver, lære bogstaver, læse og skrive, stavning øvelser, kryptogram generator, printklare opgaver, dansk skoleopgaver',

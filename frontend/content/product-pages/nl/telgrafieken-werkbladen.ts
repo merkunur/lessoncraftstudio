@@ -26,7 +26,7 @@ export const chartCountNlContent: ProductPageContent = {
   // SEO Metadata - Dutch language-specific
   seo: {
     slug: 'telgrafieken-werkbladen',
-    appId: 'chart-count-color',
+    appId: 'chart-count',
     title: 'Telgrafieken Werkbladen Maker - Gratis Oefenbladen voor Rekenen en Tellen in Groep 3',
     description: 'Maak professionele telgrafieken werkbladen met onze werkbladen generator. Met je Volledige Toegang abonnement maak je onbeperkt werkbladen zonder extra kosten per werkblad. Deze tool is ideaal voor rekenen werkbladen waarbij kinderen leren tellen en gegevens visualiseren.',
     keywords: 'telgrafieken werkbladen, werkbladen groep 3, werkbladen kleuters, rekenen werkbladen, oefenbladen gratis, kleurplaten, letters leren, schrijven oefenen, tafels oefenen, veilig leren lezen, fijne motoriek, sommen tot 20',

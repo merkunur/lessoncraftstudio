@@ -26,7 +26,7 @@ export const chartCountDeContent: ProductPageContent = {
   // SEO Metadata - German language-specific
   seo: {
     slug: 'bilddiagramm-arbeitsblaetter',
-    appId: 'chart-count-color',
+    appId: 'chart-count',
     title: 'Bilddiagramm Arbeitsblätter Generator - Kostenlose Arbeitsblätter für Mathe in der Grundschule und Vorschule',
     description: 'Erstellen Sie professionelle Bilddiagramm Arbeitsblätter mit unserem Mathe-Arbeitsblätter Generator. Mit Ihrem Vollzugriff Abo erhalten Sie unbegrenzten Zugang ohne zusätzliche Gebühren pro Arbeitsblatt. Generieren Sie druckfertige Arbeitsblätter Grundschule und Vorschul-Arbeitsblätter perfekt zum Zählen und für Datenvisualisierung.',
     keywords: 'bilddiagramm arbeitsblätter, arbeitsblätter grundschule, kostenlose arbeitsblätter, mathe arbeitsblätter, vorschule arbeitsblätter, rechnen lernen, deutsch arbeitsblätter, einmaleins, schwungübungen, ausmalbilder',

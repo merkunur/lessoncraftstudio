@@ -16,7 +16,7 @@ export const cryptogramPtContent: ProductPageContent = {
   // SEO Metadata
   seo: {
     slug: 'criptograma-imagens-fichas',
-    appId: 'image-cryptogram',
+    appId: 'cryptogram',
     title: 'Gerador de Criptograma com Imagens - Atividades para Imprimir de Alfabetização para Educação Infantil',
     description: 'Crie atividades de criptograma com imagens profissionais em poucos minutos. Com sua assinatura Acesso Completo, você tem acesso ilimitado ao gerador de criptogramas sem taxas por atividade. Baixe em PDF de alta qualidade 300 DPI em menos de 3 minutos.',
     keywords: 'criptograma, atividades para imprimir, atividades de alfabetização, atividades educação infantil, atividades de matemática, desenhos para colorir, coordenação motora, atividades vogais, tabuada, letra cursiva, pontilhado, atividades 1º ano, atividades 2º ano',

@@ -14,7 +14,7 @@ export const matchingPtContent: ProductPageContent = {
   // SEO Metadata
   seo: {
     slug: 'ligar-fichas',
-    appId: 'matching-app',
+    appId: 'matching',
     title: 'Atividades de Ligar para Imprimir - Gerador de Atividades de Alfabetização para Educação Infantil',
     description: 'Crie atividades de ligar profissionais em menos de 3 minutos. Com sua assinatura Pacote Essencial, você tem acesso ilimitado ao gerador de atividades para imprimir. Produza fichas educativas personalizadas sem taxas por atividade.',
     keywords: 'atividades de ligar, atividades para imprimir, atividades de alfabetização, educação infantil, coordenação motora, associação, atividades vogais, 1º ano, 2º ano, desenhos para colorir, letra cursiva, pontilhado',

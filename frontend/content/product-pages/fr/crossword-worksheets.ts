@@ -17,7 +17,7 @@ export const crosswordFrContent: ProductPageContent = {
   // SEO Metadata - French language-specific
   seo: {
     slug: 'mots-croises-images-fiches',
-    appId: 'image-crossword',
+    appId: 'crossword',
     title: 'Mots Croisés en Images | Fiches à Imprimer Gratuit pour Maternelle et CP',
     description: 'Créez des mots croisés en images professionnels avec notre générateur de fiches à imprimer gratuit. Votre abonnement Accès Complet à 240 € par an vous permet de générer des fiches maternelle et exercices CP illimités. Téléchargez des fichiers PDF haute qualité en moins de 3 minutes.',
     keywords: 'mots croisés en images, fiches maternelle, exercices CP, fiches à imprimer gratuit, apprendre à lire, fiches alphabet, graphisme maternelle, exercices maths, apprendre les lettres, coloriage à imprimer, écriture cursive, tables de multiplication, exercices CE1',

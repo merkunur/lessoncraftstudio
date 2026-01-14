@@ -14,7 +14,7 @@ export const crosswordItContent: ProductPageContent = {
   // SEO Metadata
   seo: {
     slug: 'cruciverba-immagini-schede',
-    appId: 'image-crossword',
+    appId: 'crossword',
     title: 'Cruciverba con Immagini - Schede Didattiche Scuola Primaria - Pregrafismo e Lettere dell\'Alfabeto',
     description: 'Crea cruciverba con immagini per la scuola dell\'infanzia e la scuola primaria. Il nostro generatore di cruciverba trasforma le tue schede didattiche in attività coinvolgenti. Genera schede didattiche scuola primaria personalizzate perfette per italiano classe prima e pregrafismo.',
     keywords: 'cruciverba con immagini, schede didattiche scuola primaria, pregrafismo, lettere dell\'alfabeto, schede italiano classe prima, generatore cruciverba, schede didattiche scuola infanzia, schede stampabili, cruciverba bambini, attività didattiche',

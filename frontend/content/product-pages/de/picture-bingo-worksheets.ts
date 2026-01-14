@@ -26,7 +26,7 @@ export const pictureBingoDeContent: ProductPageContent = {
   // SEO Metadata - German language-specific
   seo: {
     slug: 'bilder-bingo-arbeitsblaetter',
-    appId: 'picture-bingo',
+    appId: 'bingo',
     title: 'Bilder-Bingo Generator - Kostenlose Arbeitsblätter für Vorschule und Grundschule',
     description: 'Erstellen Sie professionelle Bilder-Bingo-Karten mit unserem Bingo-Generator. Perfekt für Arbeitsblätter Grundschule, Vorschul-Arbeitsblätter, Buchstaben lernen und Rechnen lernen. Laden Sie kostenlose Arbeitsblätter in unter 3 Minuten herunter.',
     keywords: 'bilder bingo arbeitsblätter, arbeitsblätter grundschule, kostenlose arbeitsblätter, mathe arbeitsblätter, vorschule arbeitsblätter, buchstaben lernen, deutsch arbeitsblätter, einmaleins, schwungübungen, ausmalbilder',

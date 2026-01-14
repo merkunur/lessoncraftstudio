@@ -26,7 +26,7 @@ export const bigSmallNlContent: ProductPageContent = {
   // SEO Metadata - Dutch language-specific
   seo: {
     slug: 'groot-klein-werkbladen',
-    appId: 'big-small-app',
+    appId: 'big-small',
     title: 'Groot en Klein Werkbladen Generator - Oefenbladen Gratis voor Kleuters en Groep 3',
     description: 'Maak in enkele minuten professionele groot-klein werkbladen met onze Groot en Klein generator. Met je Volledige Toegang abonnement heb je onbeperkt toegang tot werkbladen kleuters en werkbladen groep 3 zonder extra kosten per werkblad. Download hoogwaardige PDF-werkbladen in minder dan 3 minuten.',
     keywords: 'groot klein werkbladen, werkbladen groep 3, werkbladen kleuters, oefenbladen gratis, fijne motoriek, rekenen werkbladen, sommen tot 20, tafels oefenen, veilig leren lezen, letters leren',

@@ -17,7 +17,7 @@ export const writingEsContent: ProductPageContent = {
   // SEO Metadata - Spanish language-specific
   seo: {
     slug: 'lectoescritura-fichas',
-    appId: 'writing-app',
+    appId: 'writing',
     title: 'Fichas de Lectoescritura para Imprimir | Generador de Fichas de Caligrafía y Abecedario para Preescolar',
     description: 'Crea fichas profesionales de lectoescritura y caligrafía con nuestro generador de fichas para imprimir. Genera fichas preescolar personalizadas de abecedario, letra cursiva y números en menos de 3 minutos. Descarga material educativo gratis en PDF de alta calidad.',
     keywords: 'fichas de lectoescritura, fichas para imprimir, fichas de caligrafía, fichas preescolar, fichas infantil, abecedario, letra cursiva, letra de molde, material educativo gratis, fichas gratis, aprender las letras',

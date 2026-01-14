@@ -12,9 +12,73 @@ interface Sample {
   pdfDownloadUrl?: string;
 }
 
+interface DynamicSample {
+  slot: number;
+  hasWorksheet: boolean;
+  hasWorksheetThumb: boolean;
+  hasWorksheetPreview: boolean;
+  hasAnswer: boolean;
+  hasAnswerThumb: boolean;
+  hasAnswerPreview: boolean;
+  hasPdf: boolean;
+}
+
+// Locale to language folder mapping for dynamic mode
+const localeToFolder: Record<string, string> = {
+  en: 'english',
+  de: 'german',
+  fr: 'french',
+  es: 'spanish',
+  it: 'italian',
+  pt: 'portuguese',
+  nl: 'dutch',
+  da: 'danish',
+  sv: 'swedish',
+  no: 'norwegian',
+  fi: 'finnish',
+};
+
+// App ID to folder mapping for dynamic mode
+const appIdToFolder: Record<string, string> = {
+  'addition': 'addition',
+  'subtraction': 'subtraction',
+  'multiplication': 'multiplication',
+  'division': 'division',
+  'math-worksheet': 'math',
+  'pattern-worksheet': 'pattern',
+  'wordsearch': 'wordsearch',
+  'word-scramble': 'word-scramble',
+  'word-guess': 'word-guess',
+  'alphabet-train': 'alphabet-train',
+  'alphabet-tracing': 'alphabet-tracing',
+  'tracing-worksheet': 'tracing',
+  'prepositions': 'prepositions',
+  'bingo': 'bingo',
+  'coloring': 'coloring',
+  'sudoku': 'sudoku',
+  'treasure-hunt': 'treasure-hunt',
+  'odd-one-out': 'odd-one-out',
+  'picture-path': 'picture-path',
+  'pattern-train': 'pattern-train',
+  'crossword': 'crossword',
+  'cryptogram': 'cryptogram',
+  'draw-and-color': 'draw-and-color',
+  'drawing-lines': 'drawing-lines',
+  'find-and-count': 'find-and-count',
+  'find-objects': 'find-objects',
+  'grid-match': 'grid-match',
+  'matching': 'matching',
+  'math-puzzle': 'math-puzzle',
+  'missing-pieces': 'missing-pieces',
+  'more-less': 'more-less',
+  'picture-sort': 'picture-sort',
+  'shadow-match': 'shadow-match',
+};
+
 interface SampleGalleryProps {
   locale: string;
-  samples: Sample[];
+  samples?: Sample[];  // Optional for backward compatibility
+  appId?: string;      // For dynamic mode - loads samples from server
   sectionTitle?: string;
   sectionDescription?: string;
   downloadLabel?: string;
@@ -75,9 +139,31 @@ function getPreviewPath(src: string): string {
   return src.substring(0, lastDot) + '_preview.webp';
 }
 
+// Convert dynamic samples to the Sample interface for consistent rendering
+function convertDynamicSamples(
+  dynamicSamples: DynamicSample[],
+  locale: string,
+  appId: string
+): Sample[] {
+  const language = localeToFolder[locale] || 'english';
+  const folder = appIdToFolder[appId] || appId;
+  const basePath = `/samples/${language}/${folder}`;
+
+  return dynamicSamples
+    .filter(s => s.hasWorksheet) // Only include slots with worksheets
+    .map(s => ({
+      id: `sample-${s.slot}`,
+      worksheetSrc: `${basePath}/sample-${s.slot}.jpeg`,
+      answerKeySrc: s.hasAnswer ? `${basePath}/sample-${s.slot}-answer.jpeg` : `${basePath}/sample-${s.slot}.jpeg`,
+      altText: `Sample worksheet ${s.slot}`,
+      pdfDownloadUrl: s.hasPdf ? `${basePath}/sample-${s.slot}.pdf` : undefined,
+    }));
+}
+
 export default function SampleGallery({
   locale,
-  samples,
+  samples: propSamples,
+  appId,
   sectionTitle = defaultLabels.sectionTitle,
   sectionDescription = defaultLabels.sectionDescription,
   downloadLabel = defaultLabels.downloadLabel,
@@ -98,9 +184,42 @@ export default function SampleGallery({
   const [downloadingId, setDownloadingId] = useState<string | null>(null);
   const [failedThumbs, setFailedThumbs] = useState<Set<string>>(new Set());
   const [failedPreviews, setFailedPreviews] = useState<Set<string>>(new Set());
+  const [dynamicSamples, setDynamicSamples] = useState<Sample[]>([]);
+  const [dynamicLoading, setDynamicLoading] = useState(!!appId);
   const thumbnailContainerRef = useRef<HTMLDivElement>(null);
   const touchStartX = useRef(0);
   const touchEndX = useRef(0);
+
+  // Fetch dynamic samples if appId is provided
+  useEffect(() => {
+    if (!appId) return;
+
+    const fetchDynamicSamples = async () => {
+      try {
+        setDynamicLoading(true);
+        const response = await fetch('/api/product-samples/list');
+        const data = await response.json();
+
+        if (data.success && data.matrix[locale]) {
+          const appData = data.matrix[locale].apps[appId];
+          if (appData && appData.slots) {
+            const converted = convertDynamicSamples(appData.slots, locale, appId);
+            setDynamicSamples(converted);
+          }
+        }
+      } catch (error) {
+        console.error('Failed to fetch dynamic samples:', error);
+      } finally {
+        setDynamicLoading(false);
+      }
+    };
+
+    fetchDynamicSamples();
+  }, [appId, locale]);
+
+  // Use dynamic samples if appId is provided and samples exist, otherwise fall back to prop samples
+  // This allows the content manager uploads to take precedence, but falls back to hardcoded samples if none uploaded
+  const samples = (appId && dynamicSamples.length > 0) ? dynamicSamples : (propSamples || []);
 
   // Count samples with PDFs available
   const samplesWithPdf = samples.filter(s => s.pdfDownloadUrl).length;
@@ -216,6 +335,25 @@ export default function SampleGallery({
       scale: 0.95,
     }),
   };
+
+  // Show loading state for dynamic samples
+  if (appId && dynamicLoading) {
+    return (
+      <section id="samples-gallery" className="py-24 relative overflow-hidden" style={{ background: 'linear-gradient(180deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%)' }}>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+          <div className="text-center">
+            <div className="inline-flex items-center gap-3 text-white/70">
+              <svg className="w-5 h-5 animate-spin" fill="none" viewBox="0 0 24 24">
+                <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
+                <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z" />
+              </svg>
+              <span>Loading samples...</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    );
+  }
 
   if (!samples || samples.length === 0) {
     return null;

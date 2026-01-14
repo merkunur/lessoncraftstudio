@@ -227,9 +227,11 @@ export default function ProductPageClient({
       />
 
       {/* Part 2: Sample Gallery */}
-      {content.samples.items.length > 0 && (
+      {/* Dynamic mode: use appId if available, falls back to static samples */}
+      {(content.seo?.appId || content.samples.items.length > 0) && (
         <SampleGallery
           locale={locale}
+          appId={content.seo?.appId}  // Enables dynamic loading from content manager
           sectionTitle={content.samples.sectionTitle}
           sectionDescription={content.samples.sectionDescription}
           downloadLabel={content.samples.downloadLabel}
@@ -241,7 +243,7 @@ export default function ProductPageClient({
           badgeText={content.samples.badgeText}
           downloadingLabel={content.samples.downloadingLabel}
           ofLabel={content.samples.ofLabel}
-          samples={content.samples.items}
+          samples={content.samples.items}  // Fallback to static samples if no dynamic ones
         />
       )}
 

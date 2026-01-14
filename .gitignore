@@ -82,6 +82,14 @@ frontend/public/homepage-content-manager.html
 
 # Note: REFERENCE APPS/ and REFERENCE CONTENT MANAGERS/ folders ARE tracked by git (source of truth)
 
+# ============================================
+# SAMPLE FILES (images/PDFs for homepage gallery)
+# ============================================
+# These are large binary files (10GB+) that should NOT be in git
+# They are uploaded directly to the server via pscp
+frontend/public/samples/
+samples/
+
 # All local working copies and variations (NOT tracked by git)
 *-MODIFIED.html
 *-CURRENT-PRODUCTION.html
@@ -91,3 +99,20 @@ frontend/public/homepage-content-manager.html
 *-production.html
 *-deployed.html
 *-current.html
+
+# ============================================
+# TEMPORARY DIRECTORIES & ARCHIVES
+# ============================================
+# Claude Code temporary working directories
+tmpclaude-*/
+tmpclaude-*-cwd/
+**/tmpclaude-*/
+**/tmpclaude-*-cwd/
+
+# Analysis and archive folders (local only)
+ANALYSIS/
+ARCHIVE/
+
+# Sample archives (deployed to server, not in git)
+*-samples.tar.gz
+frontend/public/*-samples.tar.gz

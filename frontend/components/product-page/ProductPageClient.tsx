@@ -109,8 +109,8 @@ export interface ProductPageContent {
     items: Sample[];
   };
 
-  // Features Grid
-  features: {
+  // Features Grid (optional for partial content)
+  features?: {
     sectionTitle: string;
     sectionDescription?: string;
     highlightBadgeText?: string;
@@ -125,8 +125,8 @@ export interface ProductPageContent {
     items: Feature[];
   };
 
-  // How-To Guide
-  howTo: {
+  // How-To Guide (optional for partial content)
+  howTo?: {
     sectionTitle: string;
     sectionDescription?: string;
     ctaText?: string;
@@ -141,18 +141,22 @@ export interface ProductPageContent {
     steps: Step[];
   };
 
-  // Use Cases
-  useCases: {
+  // Use Cases (optional for partial content)
+  useCases?: {
     sectionTitle: string;
     sectionDescription?: string;
     badgeText?: string;
     readMoreLabel?: string;
     showLessLabel?: string;
     items: UseCase[];
+    ctaText?: string;
+    bundleDescription?: string;
+    bundleApps?: string[];
+    benefits?: string[];
   };
 
-  // FAQ Section
-  faq: {
+  // FAQ Section (optional for partial content)
+  faq?: {
     sectionTitle: string;
     sectionDescription?: string;
     showMoreText?: string;
@@ -165,8 +169,8 @@ export interface ProductPageContent {
     items: FAQItem[];
   };
 
-  // Pricing (for FAQ section sidebar)
-  pricing: {
+  // Pricing (for FAQ section sidebar, optional for partial content)
+  pricing?: {
     title: string;
     price: string;
     priceInterval: string;
@@ -178,8 +182,8 @@ export interface ProductPageContent {
     bundleApps?: string[];
   };
 
-  // Related Apps
-  relatedApps: {
+  // Related Apps (optional for partial content)
+  relatedApps?: {
     sectionTitle: string;
     sectionDescription?: string;
     items: RelatedApp[];
@@ -241,89 +245,99 @@ export default function ProductPageClient({
         />
       )}
 
-      {/* Part 3: Features Grid */}
-      <FeaturesGrid
-        locale={locale}
-        sectionTitle={content.features.sectionTitle}
-        sectionDescription={content.features.sectionDescription}
-        features={content.features.items}
-        highlightBadgeText={content.features.highlightBadgeText}
-        readMoreLabel={content.features.readMoreLabel}
-        showLessLabel={content.features.showLessLabel}
-        badgeText={content.features.badgeText}
-        trustBadges={content.features.trustBadges}
-      />
+      {/* Part 3: Features Grid (optional) */}
+      {content.features && (
+        <FeaturesGrid
+          locale={locale}
+          sectionTitle={content.features.sectionTitle}
+          sectionDescription={content.features.sectionDescription}
+          features={content.features.items}
+          highlightBadgeText={content.features.highlightBadgeText}
+          readMoreLabel={content.features.readMoreLabel}
+          showLessLabel={content.features.showLessLabel}
+          badgeText={content.features.badgeText}
+          trustBadges={content.features.trustBadges}
+        />
+      )}
 
-      {/* Part 4: How-To Guide */}
-      <HowToGuide
-        locale={locale}
-        sectionTitle={content.howTo.sectionTitle}
-        sectionDescription={content.howTo.sectionDescription}
-        steps={content.howTo.steps}
-        ctaText={content.howTo.ctaText}
-        ctaHref={`/${locale}/auth/signup`}
-        badgeText={content.howTo.badgeText}
-        stepLabel={content.howTo.stepLabel}
-        completionTitle={content.howTo.completionTitle}
-        completionSubtitle={content.howTo.completionSubtitle}
-        readyTime={content.howTo.readyTime}
-        noSkillsNeeded={content.howTo.noSkillsNeeded}
-        readMoreLabel={content.howTo.readMoreLabel}
-        showLessLabel={content.howTo.showLessLabel}
-      />
+      {/* Part 4: How-To Guide (optional) */}
+      {content.howTo && (
+        <HowToGuide
+          locale={locale}
+          sectionTitle={content.howTo.sectionTitle}
+          sectionDescription={content.howTo.sectionDescription}
+          steps={content.howTo.steps}
+          ctaText={content.howTo.ctaText}
+          ctaHref={`/${locale}/auth/signup`}
+          badgeText={content.howTo.badgeText}
+          stepLabel={content.howTo.stepLabel}
+          completionTitle={content.howTo.completionTitle}
+          completionSubtitle={content.howTo.completionSubtitle}
+          readyTime={content.howTo.readyTime}
+          noSkillsNeeded={content.howTo.noSkillsNeeded}
+          readMoreLabel={content.howTo.readMoreLabel}
+          showLessLabel={content.howTo.showLessLabel}
+        />
+      )}
 
-      {/* Part 5: Use Cases */}
-      <UseCases
-        locale={locale}
-        sectionTitle={content.useCases.sectionTitle}
-        sectionDescription={content.useCases.sectionDescription}
-        useCases={content.useCases.items}
-        badgeText={content.useCases.badgeText}
-        readMoreLabel={content.useCases.readMoreLabel}
-        showLessLabel={content.useCases.showLessLabel}
-      />
+      {/* Part 5: Use Cases (optional) */}
+      {content.useCases && (
+        <UseCases
+          locale={locale}
+          sectionTitle={content.useCases.sectionTitle}
+          sectionDescription={content.useCases.sectionDescription}
+          useCases={content.useCases.items}
+          badgeText={content.useCases.badgeText}
+          readMoreLabel={content.useCases.readMoreLabel}
+          showLessLabel={content.useCases.showLessLabel}
+        />
+      )}
 
-      {/* Part 6: FAQ & Subscription */}
-      <FAQSection
-        locale={locale}
-        sectionTitle={content.faq.sectionTitle}
-        sectionDescription={content.faq.sectionDescription}
-        faqs={content.faq.items}
-        showMoreText={content.faq.showMoreText}
-        showLessText={content.faq.showLessText}
-        badgeText={content.faq.badgeText}
-        readMoreLabel={content.faq.readMoreLabel}
-        showLessLabel={content.faq.showLessLabel}
-        secureCheckout={content.faq.secureCheckout}
-        cancelAnytime={content.faq.cancelAnytime}
-        pricingTitle={content.pricing.title}
-        price={content.pricing.price}
-        priceInterval={content.pricing.priceInterval}
-        priceSuffix={content.pricing.priceSuffix}
-        benefits={content.pricing.benefits}
-        ctaText={content.pricing.ctaText}
-        ctaHref={`/${locale}/auth/signup`}
-        guaranteeText={content.pricing.guaranteeText}
-        bundleDescription={content.pricing.bundleDescription}
-        bundleApps={content.pricing.bundleApps}
-      />
+      {/* Part 6: FAQ & Subscription (optional) */}
+      {content.faq && content.pricing && (
+        <FAQSection
+          locale={locale}
+          sectionTitle={content.faq.sectionTitle}
+          sectionDescription={content.faq.sectionDescription}
+          faqs={content.faq.items}
+          showMoreText={content.faq.showMoreText}
+          showLessText={content.faq.showLessText}
+          badgeText={content.faq.badgeText}
+          readMoreLabel={content.faq.readMoreLabel}
+          showLessLabel={content.faq.showLessLabel}
+          secureCheckout={content.faq.secureCheckout}
+          cancelAnytime={content.faq.cancelAnytime}
+          pricingTitle={content.pricing.title}
+          price={content.pricing.price}
+          priceInterval={content.pricing.priceInterval}
+          priceSuffix={content.pricing.priceSuffix}
+          benefits={content.pricing.benefits}
+          ctaText={content.pricing.ctaText}
+          ctaHref={`/${locale}/auth/signup`}
+          guaranteeText={content.pricing.guaranteeText}
+          bundleDescription={content.pricing.bundleDescription}
+          bundleApps={content.pricing.bundleApps}
+        />
+      )}
 
-      {/* Part 7: Related Apps & CTA */}
-      <RelatedApps
-        locale={locale}
-        sectionTitle={content.relatedApps.sectionTitle}
-        sectionDescription={content.relatedApps.sectionDescription}
-        apps={content.relatedApps.items}
-        ctaTitle={content.relatedApps.ctaTitle}
-        ctaDescription={content.relatedApps.ctaDescription}
-        primaryCtaText={content.relatedApps.primaryCtaText}
-        primaryCtaHref={`/${locale}/auth/signup`}
-        secondaryCtaText={content.relatedApps.secondaryCtaText}
-        secondaryCtaHref={`/${locale}/apps`}
-        badgeText={content.relatedApps.badgeText}
-        exploreText={content.relatedApps.exploreText}
-        trustBadges={content.relatedApps.trustBadges}
-      />
+      {/* Part 7: Related Apps & CTA (optional) */}
+      {content.relatedApps && (
+        <RelatedApps
+          locale={locale}
+          sectionTitle={content.relatedApps.sectionTitle}
+          sectionDescription={content.relatedApps.sectionDescription}
+          apps={content.relatedApps.items}
+          ctaTitle={content.relatedApps.ctaTitle}
+          ctaDescription={content.relatedApps.ctaDescription}
+          primaryCtaText={content.relatedApps.primaryCtaText}
+          primaryCtaHref={`/${locale}/auth/signup`}
+          secondaryCtaText={content.relatedApps.secondaryCtaText}
+          secondaryCtaHref={`/${locale}/apps`}
+          badgeText={content.relatedApps.badgeText}
+          exploreText={content.relatedApps.exploreText}
+          trustBadges={content.relatedApps.trustBadges}
+        />
+      )}
     </main>
   );
 }

@@ -159,22 +159,42 @@ class HomepageContentManager {
     try {
       // Try to load from database first
       const dbContent = await this.loadFromDatabase();
+      let content: HomepageContent;
+
       if (dbContent) {
-        this.cachedContent = dbContent;
-        return dbContent;
+        content = dbContent;
+      } else {
+        // If no database content, return default content
+        content = this.getDefaultContent(locale);
+        // Save default content to database for future use
+        await this.saveToDatabase(content);
       }
 
-      // If no database content, return default content
-      const defaultContent = this.getDefaultContent(locale);
+      // For non-English locales, replace samples with locale-specific ones
+      if (locale !== 'en') {
+        content = {
+          ...content,
+          samples: await this.getSamples(locale)
+        };
+      }
 
-      // Save default content to database for future use
-      await this.saveToDatabase(defaultContent);
-
-      this.cachedContent = defaultContent;
-      return defaultContent;
+      this.cachedContent = content;
+      return content;
     } catch (error) {
       console.error('Error fetching homepage content:', error);
-      return this.getDefaultContent(locale);
+      const defaultContent = this.getDefaultContent(locale);
+      // For non-English locales, try to get locale-specific samples even on error
+      if (locale !== 'en') {
+        try {
+          return {
+            ...defaultContent,
+            samples: await this.getSamples(locale)
+          };
+        } catch {
+          return defaultContent;
+        }
+      }
+      return defaultContent;
     }
   }
 
@@ -583,304 +603,447 @@ class HomepageContentManager {
     ];
   }
 
-  // Get worksheet samples
+  // Get worksheet samples - returns 33 locale-specific samples for non-English languages
   private async getSamples(locale: string): Promise<WorksheetSample[]> {
-    try {
-      const response = await fetch(`${this.directusUrl}/items/homepage_samples?sort=sort_order`, {
-        headers: {
-          'Authorization': `Bearer ${this.apiToken}`
-        }
-      });
+    // Language folder mapping
+    const languageFolders: Record<string, string> = {
+      de: 'german',
+      fr: 'french',
+      es: 'spanish',
+      it: 'italian',
+      pt: 'portuguese',
+      nl: 'dutch',
+      sv: 'swedish',
+      da: 'danish',
+      no: 'norwegian',
+      fi: 'finnish',
+      en: 'english'
+    };
 
-      if (response.ok) {
-        const data = await response.json();
-        if (data.data && data.data.length > 0) {
-          return data.data;
-        }
+    // Locale-specific image samples (randomly selected worksheets, not answer keys)
+    const localeSamples: Record<string, Record<string, string>> = {
+      de: {
+        'addition': 'Additionsspa 3.jpeg',
+        'alphabet train': 'Alphabet-Zug 1.jpeg',
+        'big small': 'Groß oder Klei 2.jpeg',
+        'bingo': 'bilder-bingo 1 callout.jpeg',
+        'chart count': 'Bilddiagramm 4.jpeg',
+        'code addition': 'Code-Knacker Addition 2.jpeg',
+        'crossword': 'Bilderkreuzworträtse 1.jpeg',
+        'cryptogram': 'Bilder-Kryptogramm 2.jpeg',
+        'draw and color': 'Zeichnen und Ausmale 2.jpeg',
+        'drawing lines': 'Linien Zeichnen Üben 7.jpeg',
+        'find and count': 'Ich sehe was 3.jpeg',
+        'find objects': 'Finde das Unpassende 1.jpeg',
+        'grid match': 'Raster-Puzzle 3.jpeg',
+        'matching': 'Paare Finden 2.jpeg',
+        'math puzzle': 'Mathe-Rätsel 4.jpeg',
+        'math worksheet': 'Mathe-Übungsblatt 5.jpeg',
+        'missing pieces': 'Fehlende Teile 2.jpeg',
+        'more less': 'Mehr Weniger 1.jpeg',
+        'odd one out': 'Finde das Andere 3.jpeg',
+        'pattern train': 'Musterzug 5.jpeg',
+        'pattern worksheet': 'Musterrätsel 4.jpeg',
+        'picture path': 'Bilderpfad 1.jpeg',
+        'picture sort': 'Bilder Sortieren 2.jpeg',
+        'prepositions': 'Präpositionen 4.jpeg',
+        'shadow match': 'Schatten Zuordnen 3.jpeg',
+        'subtraction': 'Subtraktion Spaß 3.jpeg',
+        'sudoku': 'Bilder-Sudoku 3.jpeg',
+        'treasure hunt': 'Schatzsuche 1.jpeg',
+        'word guess': 'Wörter-Rätsel 2.jpeg',
+        'word scramble': 'Buchstabensala 1.jpeg',
+        'wordsearch': 'Wörter suchen 4.jpeg'
+      },
+      fr: {
+        'addition': 'Addition Amusant 2.jpeg',
+        'alphabet train': 'Train de l\'Alphabet 3.jpeg',
+        'big small': 'Grand ou Petit 3.jpeg',
+        'bingo': 'Loto d\'Images 4 callout (3).jpeg',
+        'chart count': 'worksheet.jpeg',
+        'code addition': 'Code Secret Addition 4.jpeg',
+        'crossword': 'Mots Croisés en Images 1.jpeg',
+        'cryptogram': 'Cryptogramme en Images 1.jpeg',
+        'draw and color': 'Dessine et Colorie 6.jpeg',
+        'drawing lines': 'Pratique de Tracer des Lignes 5.jpeg',
+        'find and count': 'Je vois, je voi 4.jpeg',
+        'find objects': 'Trouve l\'Intrus (2).jpeg',
+        'grid match': 'Puzzle Grille 2.jpeg',
+        'matching': 'Trouve les Paires 1.jpeg',
+        'math puzzle': 'Casse-Têtes Mathématiques 1.jpeg',
+        'math worksheet': 'Feuille de Mathématique 2.jpeg',
+        'missing pieces': 'Pièces Manquantes 2.jpeg',
+        'more less': 'Plus Moins 3.jpeg',
+        'odd one out': 'Trouve l\'Intrus 2.jpeg',
+        'pattern train': 'Train à Motifs 4.jpeg',
+        'pattern worksheet': 'Puzzles de Motifs 1.jpeg',
+        'picture path': 'Chemin d\'Images 2.jpeg',
+        'picture sort': 'Tri d\'Images 2.jpeg',
+        'prepositions': 'Prépositions 1.jpeg',
+        'shadow match': 'Trouve l\'Ombre 3.jpeg',
+        'subtraction': 'Soustractions Amusantes 4.jpeg',
+        'sudoku': 'Sudoku en Images 3.jpeg',
+        'treasure hunt': 'Chasse au Trésor 3.jpeg',
+        'word guess': 'Devine le Mot 1.jpeg',
+        'word scramble': 'Mots Mêlés 2.jpeg',
+        'wordsearch': 'Mots Cachés 3.jpeg'
+      },
+      es: {
+        'addition': 'Suma Divertida 4.jpeg',
+        'alphabet train': 'Tren del Alfabeto 4.jpeg',
+        'big small': 'Grande o Pequeño 1.jpeg',
+        'bingo': 'Bingo de Imágenes 4.jpeg',
+        'chart count': 'Gráfico de Dibujos 4.jpeg',
+        'code addition': 'Código Secreto Suma 1.jpeg',
+        'crossword': 'Crucigrama con Dibujos 1.jpeg',
+        'cryptogram': 'Criptograma de Dibujos 5.jpeg',
+        'draw and color': 'Dibuja y Colorea 12.jpeg',
+        'drawing lines': 'Practica de Dibujar Línea 4.jpeg',
+        'find and count': 'Veo Veo 2.jpeg',
+        'find objects': 'Encuentra el Diferente (3).jpeg',
+        'grid match': 'Puzzle de Cuadrícula 1.jpeg',
+        'matching': 'Encuentra Parejas 4.jpeg',
+        'math puzzle': 'Rompecabezas Matemáticos 2.jpeg',
+        'math worksheet': 'Hoja de Matemáticas 2.jpeg',
+        'missing pieces': 'Piezas Perdidas 1.jpeg',
+        'more less': 'Más Menos 2.jpeg',
+        'odd one out': 'Encuentra el Diferente 1.jpeg',
+        'pattern train': 'Tren de Patrones 4.jpeg',
+        'pattern worksheet': 'Rompecabezas de Patrones 2.jpeg',
+        'picture path': 'Camino de Imágenes 2.jpeg',
+        'picture sort': 'Clasificación de Imágenes 1.jpeg',
+        'prepositions': 'Preposiciones 3.jpeg',
+        'shadow match': 'Empareja las Sombras 1.jpeg',
+        'subtraction': 'Restas Divertidas 5.jpeg',
+        'sudoku': 'Sudoku de Imágenes 1.jpeg',
+        'treasure hunt': 'Búsqueda del Tesoro 4.jpeg',
+        'word guess': 'Adivina la Palabra 2.jpeg',
+        'word scramble': 'Palabras Revueltas 5.jpeg',
+        'wordsearch': 'Sopa de Letras 2.jpeg'
+      },
+      it: {
+        'addition': 'Addizione Divertente 2.jpeg',
+        'alphabet train': 'Treno dell\'Alfabeto 2.jpeg',
+        'big small': 'Grande o Piccolo 3.jpeg',
+        'bingo': 'tombola 3.jpeg',
+        'chart count': 'Grafico con Immagini 2.jpeg',
+        'code addition': 'Codice Segreto Addizione 3.jpeg',
+        'crossword': 'Cruciverba con Immagini 2.jpeg',
+        'cryptogram': 'Crittogramma Illustrato 1.jpeg',
+        'draw and color': 'Disegna e Colora 3.jpeg',
+        'drawing lines': 'Pratica del Disegno di Linee 3.jpeg',
+        'find and count': 'Vedo Vedo 1.jpeg',
+        'find objects': 'Trova gli Oggetti Nascosti 4.jpeg',
+        'grid match': 'Puzzle a Griglia 8.jpeg',
+        'matching': 'Trova le Coppie 4.jpeg',
+        'math puzzle': 'Rompicapi Matematici 5.jpeg',
+        'math worksheet': 'Scheda di Matematica 3.jpeg',
+        'missing pieces': 'Pezzi Mancanti 3.jpeg',
+        'more less': 'Più Meno 1.jpeg',
+        'odd one out': 'Trova il Diverso 4.jpeg',
+        'pattern train': 'Treno dei Modelli 2.jpeg',
+        'pattern worksheet': 'Puzzle di Schemi 1.jpeg',
+        'picture path': 'Percorso di Immagini 3.jpeg',
+        'picture sort': 'Classificazione Immagini 4.jpeg',
+        'prepositions': 'Preposizioni 3.jpeg',
+        'shadow match': 'Abbina le Ombre 3.jpeg',
+        'subtraction': 'Sottrazioni Divertenti 5.jpeg',
+        'sudoku': 'Sudoku con Immagini 3.jpeg',
+        'treasure hunt': 'Caccia al Tesoro 4.jpeg',
+        'word guess': 'Indovina la Parola 2.jpeg',
+        'word scramble': 'Lettere Mescolate 1.jpeg',
+        'wordsearch': 'Cerca Parole 3.jpeg'
+      },
+      pt: {
+        'addition': 'Adição Divertida 1.jpeg',
+        'alphabet train': 'Comboio do Alfabeto 4.jpeg',
+        'big small': 'Grande ou Pequeno 3.jpeg',
+        'bingo': 'Bingo de Imagenes 3 callout (2).jpeg',
+        'chart count': 'Gráfico de Figuras 2.jpeg',
+        'code addition': 'Código Secreto Adição 3.jpeg',
+        'crossword': 'Palavras Cruzadas 1.jpeg',
+        'cryptogram': 'Criptograma Ilustrado 1.jpeg',
+        'draw and color': 'Desenha e Pinta 4.jpeg',
+        'drawing lines': 'Prática de Desenhar Linhas 4.jpeg',
+        'find and count': 'Vejo, Vejo 1.jpeg',
+        'find objects': 'Encontra o Diferente.jpeg',
+        'grid match': 'Quebra-Cabeça de Grade 3.jpeg',
+        'matching': 'Encontre os Pares 1.jpeg',
+        'math puzzle': 'Quebra-Cabeças Matemático 4.jpeg',
+        'math worksheet': 'Folha de Matemática 1.jpeg',
+        'missing pieces': 'Peças em Falta 4.jpeg',
+        'more less': 'Mais Menos 2.jpeg',
+        'odd one out': 'Encontra o Diferente 6.jpeg',
+        'pattern train': 'Comboio de Padrões 5.jpeg',
+        'pattern worksheet': 'Quebra-cabeças de Padrões 2.jpeg',
+        'picture path': 'Caminho de Imagen 2.jpeg',
+        'picture sort': 'Classificação de Imagens 1.jpeg',
+        'prepositions': 'Preposições 2.jpeg',
+        'shadow match': 'Combine as Sombras 3.jpeg',
+        'subtraction': 'Subtrações Divertidas 4.jpeg',
+        'sudoku': 'Sudoku de Imagens 1.jpeg',
+        'treasure hunt': 'Caça ao Tesouro 3.jpeg',
+        'word guess': 'Adivinha a Palavra 2.jpeg',
+        'word scramble': 'Letras Embaralhadas 3.jpeg',
+        'wordsearch': 'Caça-Palavras 2.jpeg'
+      },
+      nl: {
+        'addition': 'Optellen is Leuk 5.jpeg',
+        'alphabet train': 'Alfabettrein 2.jpeg',
+        'big small': 'Groot of Klein 4.jpeg',
+        'bingo': 'Plaatjesbingo 1 callout.jpeg',
+        'chart count': 'Plaatjesgrafiek 2.jpeg',
+        'code addition': 'Geheime Code Optellen 2.jpeg',
+        'crossword': 'Plaatjes Kruiswoord 4.jpeg',
+        'cryptogram': 'Plaatjes Cryptogram 2.jpeg',
+        'draw and color': 'Teken en Kleur 5.jpeg',
+        'drawing lines': 'Lijnen Tekenen Oefenen 7.jpeg',
+        'find and count': 'Ik zie, ik zie 3.jpeg',
+        'find objects': 'Vind de Verborgen Voorwerpen 3.jpeg',
+        'grid match': 'Rasterpuzzel 3.jpeg',
+        'matching': 'Zoek de Paren 3.jpeg',
+        'math puzzle': 'Wiskundepuzzels 1.jpeg',
+        'math worksheet': 'Wiskundeblad 1.jpeg',
+        'missing pieces': 'Ontbrekende Stukjes 4.jpeg',
+        'more less': 'Meer Minder 3.jpeg',
+        'odd one out': 'Vind de Vreemde Eend 4.jpeg',
+        'pattern train': 'Patroontje 2.jpeg',
+        'pattern worksheet': 'Patroonpuzzels 3.jpeg',
+        'picture path': 'Afbeeldingspad 2.jpeg',
+        'picture sort': 'Afbeeldingen Sorteren 1.jpeg',
+        'prepositions': 'Voorzetsels 3.jpeg',
+        'shadow match': 'Schaduw Koppelen 4.jpeg',
+        'subtraction': 'Aftrekken is Leuk 3.jpeg',
+        'sudoku': 'Plaatjes Sudoku 4.jpeg',
+        'treasure hunt': 'Schattenjacht 2.jpeg',
+        'word guess': 'Raad het Woord 1.jpeg',
+        'word scramble': 'Letterzaak 1.jpeg',
+        'wordsearch': 'Woordzoeker 1.jpeg'
+      },
+      sv: {
+        'addition': 'blandat läge.jpeg',
+        'alphabet train': 'alfabetståg portrait.jpeg',
+        'big small': '2 identiska bilder.jpeg',
+        'bingo': 'bildbingo 4 callout.jpeg',
+        'chart count': 'bilddiagram 1.jpeg',
+        'crossword': 'Bildkorsord 2.jpeg',
+        'cryptogram': 'Bildkryptogram 3.jpeg',
+        'draw and color': 'Rita och Färglägg 1.jpeg',
+        'drawing lines': 'kurva 1.jpeg',
+        'find and count': 'hitta och räkna landscape.jpeg',
+        'find objects': 'Hitta den Udda (5).jpeg',
+        'grid match': 'Rutnätspussel 3.jpeg',
+        'matching': 'Matchningsspel custom.jpeg',
+        'math puzzle': 'Mattepussel 2.jpeg',
+        'math worksheet': 'mattetal landscape.jpeg',
+        'missing pieces': 'Saknade Bitar 6.jpeg',
+        'more less': 'mer mindre 1.jpeg',
+        'odd one out': 'Hitta Udda Fågeln 2.jpeg',
+        'pattern worksheet': 'Mönsterpussel 1.jpeg',
+        'picture path': 'bildväg 2.jpeg',
+        'picture sort': 'sortera bilder 1.jpeg',
+        'prepositions': 'Prepositioner 1.jpeg',
+        'shadow match': 'skuggmatchning 3.jpeg',
+        'subtraction': 'Rolig Subtraktio 3.jpeg',
+        'sudoku': 'sudoku_medel.jpeg',
+        'treasure hunt': 'Skattjakt 3.jpeg',
+        'word guess': 'Gissa Ordet 4.jpeg',
+        'word scramble': 'Ordmix custom.jpeg',
+        'wordsearch': 'ordletning custom.jpeg'
+      },
+      da: {
+        'addition': 'Sjov Addition 1.jpeg',
+        'alphabet train': 'Alfabettog 5.jpeg',
+        'big small': 'Stort eller Lille 5.jpeg',
+        'bingo': 'Billedbingo 3 callout (2).jpeg',
+        'chart count': 'Billediagram 3.jpeg',
+        'code addition': 'Hemmelig Kode Addition 3.jpeg',
+        'crossword': 'Billedkrydsord 1.jpeg',
+        'cryptogram': 'Billed-Kryptogram 2.jpeg',
+        'draw and color': 'Tegn og Farvlæg 1.jpeg',
+        'drawing lines': 'Linjetegningsøvelse 9.jpeg',
+        'find and count': 'Jeg ser, jeg ser 3.jpeg',
+        'find objects': 'Find den Ulige (4).jpeg',
+        'grid match': 'Gitterpuslespil 2.jpeg',
+        'matching': 'Find Parrene 4.jpeg',
+        'math puzzle': 'Mattepuslespil 1.jpeg',
+        'math worksheet': 'Matematikopgave 2.jpeg',
+        'missing pieces': 'Manglende Dele 6.jpeg',
+        'more less': 'Mere Mindre 4.jpeg',
+        'odd one out': 'Find den Ulige 5.jpeg',
+        'pattern train': 'Mønstertoget 4.jpeg',
+        'pattern worksheet': 'Mønstergåder 2.jpeg',
+        'picture path': 'Billedsti 3.jpeg',
+        'picture sort': 'Sorter Billeder 4.jpeg',
+        'prepositions': 'Præpositioner 3.jpeg',
+        'shadow match': 'Gør Billederne Hele 2.jpeg',
+        'subtraction': 'Sjov Subtraktion 1.jpeg',
+        'sudoku': 'Billede-Sudoku 2.jpeg',
+        'treasure hunt': 'Skattejagt 2.jpeg',
+        'word guess': 'Gæt Ordet 4.jpeg',
+        'word scramble': 'Bogstavrod 2.jpeg',
+        'wordsearch': 'Ordsøgning 4.jpeg'
+      },
+      no: {
+        'addition': 'Gøy Addisjon 6.jpeg',
+        'alphabet train': 'Alfabettog 4.jpeg',
+        'big small': 'Stort eller Lite 6.jpeg',
+        'bingo': 'bildebingo 1 callout.jpeg',
+        'chart count': 'Bildediagram 4.jpeg',
+        'code addition': 'Hemmelig Kode Addisjon 4.jpeg',
+        'crossword': 'Bildekryssord 4.jpeg',
+        'cryptogram': 'Bildekryptogram 3.jpeg',
+        'draw and color': 'Tegn og Fargelegg 5.jpeg',
+        'drawing lines': 'Linjetegningøvelse 2.jpeg',
+        'find and count': 'Jeg ser, jeg ser 3.jpeg',
+        'find objects': 'Finn den Merkelige (1).jpeg',
+        'grid match': 'Rutenettspuslespill 2.jpeg',
+        'matching': 'Finn Parene 4.jpeg',
+        'math puzzle': 'Mattepuslespill 1.jpeg',
+        'math worksheet': 'Matematikkoppgave 3.jpeg',
+        'missing pieces': 'Manglende Deler 4.jpeg',
+        'more less': 'Mer Mindre 2.jpeg',
+        'odd one out': 'Finn den Rare 3.jpeg',
+        'pattern train': 'Mønstertoget 5.jpeg',
+        'pattern worksheet': 'Mønstergåter 1.jpeg',
+        'picture path': 'Bildesti 1.jpeg',
+        'picture sort': 'Sorter Bilder 4.jpeg',
+        'prepositions': 'Preposisjoner 4.jpeg',
+        'shadow match': 'Fullfør Bildene 3.jpeg',
+        'subtraction': 'Moro med Subtraksjon 3.jpeg',
+        'sudoku': 'Bilde-Sudoku 1.jpeg',
+        'treasure hunt': 'Skattejakt 5.jpeg',
+        'word guess': 'Gjett Ordet 5.jpeg',
+        'word scramble': 'Bokstavblanding 4.jpeg',
+        'wordsearch': 'Ordleting 4.jpeg'
+      },
+      fi: {
+        'addition': 'Hauska Yhteenlasku 1.jpeg',
+        'alphabet train': 'Aakkostjuna 1.jpeg',
+        'big small': 'Iso vai Pieni 5.jpeg',
+        'bingo': 'kuvabingo 1 callout.jpeg',
+        'chart count': 'Kuvakaavio 4.jpeg',
+        'code addition': 'Salainen Koodi Yhteenlasku 6.jpeg',
+        'crossword': 'Kuvaristikko 1.jpeg',
+        'cryptogram': 'Kuvakryptogrammi 3.jpeg',
+        'draw and color': 'Piirrä ja Väritä 4.jpeg',
+        'drawing lines': 'Viivojen Piirtämisharjoitus 6.jpeg',
+        'find and count': 'Minä näen 4.jpeg',
+        'find objects': 'Löydä Outo (3).jpeg',
+        'grid match': 'Ruudukkopalapeli 3.jpeg',
+        'matching': 'Yhdistä Parit 3.jpeg',
+        'math puzzle': 'Matematiikkapulmat 4.jpeg',
+        'math worksheet': 'Matematiikkalehti 1.jpeg',
+        'missing pieces': 'Puuttuvat Palat 6.jpeg',
+        'more less': 'Enemmän Vähemmän 7.jpeg',
+        'odd one out': 'Löydä Outo Lintu 6.jpeg',
+        'pattern train': 'Kuviojuna 1.jpeg',
+        'pattern worksheet': 'Kuviotehtävät 2.jpeg',
+        'picture path': 'Kuvapolku 8.jpeg',
+        'picture sort': 'Lajittele Kuvat 5.jpeg',
+        'prepositions': 'Prepositiot 4.jpeg',
+        'shadow match': 'Täydennä Kuvat 1.jpeg',
+        'subtraction': 'Hauskaa Vähennyslaskua 4.jpeg',
+        'sudoku': 'Kuva-Sudoku 2.jpeg',
+        'treasure hunt': 'Aarteenetsintä 6.jpeg',
+        'word guess': 'Arvaa Sana 6.jpeg',
+        'word scramble': 'Kirjainsekoitus 5.jpeg',
+        'wordsearch': 'Sanahaku 5.jpeg'
       }
-    } catch (error) {
-      console.error('Error fetching samples:', error);
+    };
+
+    // App configurations with translations
+    const appConfigs: Array<{
+      app: string;
+      names: Record<string, string>;
+      descriptions: Record<string, string>;
+      category: string;
+      difficulty: 'Easy' | 'Medium' | 'Hard';
+      ageRange: Record<string, string>;
+    }> = [
+      { app: 'addition', names: { en: 'Addition', de: 'Addition', fr: 'Addition', es: 'Suma', it: 'Addizione', pt: 'Adição', nl: 'Optellen', sv: 'Addition', da: 'Addition', no: 'Addisjon', fi: 'Yhteenlasku' }, descriptions: { en: 'Fun addition practice', de: 'Spaßige Additionsübungen', fr: 'Exercices d\'addition amusants', es: 'Práctica de suma divertida', it: 'Esercizi di addizione divertenti', pt: 'Prática divertida de adição', nl: 'Leuk optellen oefenen', sv: 'Rolig additionsövning', da: 'Sjov additionsøvelse', no: 'Moro med addisjon', fi: 'Hauska yhteenlaskuharjoitus' }, category: 'math', difficulty: 'Easy', ageRange: { en: '5-7 years', de: '5-7 Jahre', fr: '5-7 ans', es: '5-7 años', it: '5-7 anni', pt: '5-7 anos', nl: '5-7 jaar', sv: '5-7 år', da: '5-7 år', no: '5-7 år', fi: '5-7 vuotta' } },
+      { app: 'alphabet train', names: { en: 'Alphabet Train', de: 'Alphabet-Zug', fr: 'Train Alphabet', es: 'Tren del Alfabeto', it: 'Treno dell\'Alfabeto', pt: 'Comboio do Alfabeto', nl: 'Alfabettrein', sv: 'Alfabetståg', da: 'Alfabettog', no: 'Alfabettog', fi: 'Aakkosjuna' }, descriptions: { en: 'Learn letters with train cars', de: 'Buchstaben lernen mit Zugwaggons', fr: 'Apprendre les lettres avec des wagons', es: 'Aprende letras con vagones', it: 'Impara le lettere con i vagoni', pt: 'Aprenda letras com vagões', nl: 'Leer letters met treinwagons', sv: 'Lär dig bokstäver med tågvagnar', da: 'Lær bogstaver med togvogne', no: 'Lær bokstaver med togvogner', fi: 'Opi kirjaimia junavaunuilla' }, category: 'literacy', difficulty: 'Easy', ageRange: { en: '3-5 years', de: '3-5 Jahre', fr: '3-5 ans', es: '3-5 años', it: '3-5 anni', pt: '3-5 anos', nl: '3-5 jaar', sv: '3-5 år', da: '3-5 år', no: '3-5 år', fi: '3-5 vuotta' } },
+      { app: 'big small', names: { en: 'Big vs Small', de: 'Groß oder Klein', fr: 'Grand ou Petit', es: 'Grande o Pequeño', it: 'Grande o Piccolo', pt: 'Grande ou Pequeno', nl: 'Groot of Klein', sv: 'Stor eller Liten', da: 'Stort eller Lille', no: 'Stort eller Lite', fi: 'Iso vai Pieni' }, descriptions: { en: 'Compare sizes and learn concepts', de: 'Größen vergleichen und Konzepte lernen', fr: 'Comparez les tailles et apprenez', es: 'Compara tamaños y aprende conceptos', it: 'Confronta le dimensioni e impara', pt: 'Compare tamanhos e aprenda conceitos', nl: 'Vergelijk formaten en leer concepten', sv: 'Jämför storlekar och lär dig koncept', da: 'Sammenlign størrelser og lær koncepter', no: 'Sammenlign størrelser og lær konsepter', fi: 'Vertaa kokoja ja opi käsitteitä' }, category: 'logic', difficulty: 'Easy', ageRange: { en: '3-5 years', de: '3-5 Jahre', fr: '3-5 ans', es: '3-5 años', it: '3-5 anni', pt: '3-5 anos', nl: '3-5 jaar', sv: '3-5 år', da: '3-5 år', no: '3-5 år', fi: '3-5 vuotta' } },
+      { app: 'bingo', names: { en: 'Picture Bingo', de: 'Bilder-Bingo', fr: 'Loto d\'Images', es: 'Bingo de Imágenes', it: 'Tombola', pt: 'Bingo de Imagens', nl: 'Plaatjesbingo', sv: 'Bildbingo', da: 'Billedbingo', no: 'Bildebingo', fi: 'Kuvabingo' }, descriptions: { en: 'Fun bingo with pictures', de: 'Spaßiges Bingo mit Bildern', fr: 'Loto amusant avec des images', es: 'Bingo divertido con imágenes', it: 'Tombola divertente con immagini', pt: 'Bingo divertido com imagens', nl: 'Leuk bingo met plaatjes', sv: 'Roligt bingo med bilder', da: 'Sjov bingo med billeder', no: 'Moro bingo med bilder', fi: 'Hauska bingo kuvilla' }, category: 'puzzle', difficulty: 'Easy', ageRange: { en: '4-8 years', de: '4-8 Jahre', fr: '4-8 ans', es: '4-8 años', it: '4-8 anni', pt: '4-8 anos', nl: '4-8 jaar', sv: '4-8 år', da: '4-8 år', no: '4-8 år', fi: '4-8 vuotta' } },
+      { app: 'chart count', names: { en: 'Chart & Count', de: 'Bilddiagramm', fr: 'Graphique & Compter', es: 'Gráfico y Contar', it: 'Grafico e Conta', pt: 'Gráfico e Contar', nl: 'Grafiek & Tellen', sv: 'Bilddiagram', da: 'Billediagram', no: 'Bildediagram', fi: 'Kuvakaavio' }, descriptions: { en: 'Learn data visualization', de: 'Datenvisualisierung lernen', fr: 'Apprendre la visualisation de données', es: 'Aprende visualización de datos', it: 'Impara visualizzazione dati', pt: 'Aprenda visualização de dados', nl: 'Leer datavisualisatie', sv: 'Lär dig datavisualisering', da: 'Lær datavisualisering', no: 'Lær datavisualisering', fi: 'Opi tiedon visualisointia' }, category: 'math', difficulty: 'Medium', ageRange: { en: '6-9 years', de: '6-9 Jahre', fr: '6-9 ans', es: '6-9 años', it: '6-9 anni', pt: '6-9 anos', nl: '6-9 jaar', sv: '6-9 år', da: '6-9 år', no: '6-9 år', fi: '6-9 vuotta' } },
+      { app: 'code addition', names: { en: 'Code Addition', de: 'Code-Addition', fr: 'Addition Codée', es: 'Código Secreto Suma', it: 'Codice Segreto Addizione', pt: 'Código Secreto Adição', nl: 'Code Optellen', sv: 'Kodaddition', da: 'Kode Addition', no: 'Kode Addisjon', fi: 'Koodi Yhteenlasku' }, descriptions: { en: 'Crack the code with math', de: 'Knacke den Code mit Mathe', fr: 'Déchiffrez le code avec les maths', es: 'Descifra el código con matemáticas', it: 'Decifra il codice con la matematica', pt: 'Decifre o código com matemática', nl: 'Kraak de code met rekenen', sv: 'Knäck koden med matte', da: 'Knæk koden med matematik', no: 'Knekk koden med matte', fi: 'Murra koodi matematiikalla' }, category: 'math', difficulty: 'Medium', ageRange: { en: '6-8 years', de: '6-8 Jahre', fr: '6-8 ans', es: '6-8 años', it: '6-8 anni', pt: '6-8 anos', nl: '6-8 jaar', sv: '6-8 år', da: '6-8 år', no: '6-8 år', fi: '6-8 vuotta' } },
+      { app: 'coloring', names: { en: 'Coloring', de: 'Ausmalen', fr: 'Coloriage', es: 'Colorear', it: 'Colorare', pt: 'Colorir', nl: 'Kleuren', sv: 'Färgläggning', da: 'Farvelægning', no: 'Fargelegging', fi: 'Värittäminen' }, descriptions: { en: 'Creative coloring pages', de: 'Kreative Ausmalbilder', fr: 'Pages de coloriage créatives', es: 'Páginas para colorear creativas', it: 'Pagine da colorare creative', pt: 'Páginas para colorir criativas', nl: 'Creatieve kleurplaten', sv: 'Kreativa målarbilder', da: 'Kreative tegninger', no: 'Kreative fargeleggingssider', fi: 'Luovat värityssivut' }, category: 'creativity', difficulty: 'Easy', ageRange: { en: '3-8 years', de: '3-8 Jahre', fr: '3-8 ans', es: '3-8 años', it: '3-8 anni', pt: '3-8 anos', nl: '3-8 jaar', sv: '3-8 år', da: '3-8 år', no: '3-8 år', fi: '3-8 vuotta' } },
+      { app: 'crossword', names: { en: 'Picture Crossword', de: 'Bilderkreuzworträtsel', fr: 'Mots Croisés', es: 'Crucigrama', it: 'Cruciverba', pt: 'Palavras Cruzadas', nl: 'Kruiswoordpuzzel', sv: 'Bildkorsord', da: 'Billedkrydsord', no: 'Bildekryssord', fi: 'Kuvaristikko' }, descriptions: { en: 'Picture-based crossword puzzles', de: 'Bildbasierte Kreuzworträtsel', fr: 'Mots croisés basés sur des images', es: 'Crucigramas basados en imágenes', it: 'Cruciverba basati su immagini', pt: 'Palavras cruzadas com imagens', nl: 'Kruiswoord met plaatjes', sv: 'Bildbaserade korsord', da: 'Billedbaserede krydsord', no: 'Bildebaserte kryssord', fi: 'Kuvapohjaiset ristikot' }, category: 'literacy', difficulty: 'Medium', ageRange: { en: '6-10 years', de: '6-10 Jahre', fr: '6-10 ans', es: '6-10 años', it: '6-10 anni', pt: '6-10 anos', nl: '6-10 jaar', sv: '6-10 år', da: '6-10 år', no: '6-10 år', fi: '6-10 vuotta' } },
+      { app: 'cryptogram', names: { en: 'Picture Cryptogram', de: 'Bilder-Kryptogramm', fr: 'Cryptogramme', es: 'Criptograma', it: 'Crittogramma', pt: 'Criptograma', nl: 'Cryptogram', sv: 'Bildkryptogram', da: 'Billed-Kryptogram', no: 'Bildekryptogram', fi: 'Kuvakryptogrammi' }, descriptions: { en: 'Decode secret picture messages', de: 'Entschlüssle geheime Bildnachrichten', fr: 'Décodez les messages secrets', es: 'Descifra mensajes secretos', it: 'Decodifica messaggi segreti', pt: 'Decodifique mensagens secretas', nl: 'Ontcijfer geheime berichten', sv: 'Avkoda hemliga meddelanden', da: 'Afkod hemmelige beskeder', no: 'Dekod hemmelige meldinger', fi: 'Pura salaiset viestit' }, category: 'puzzle', difficulty: 'Medium', ageRange: { en: '6-10 years', de: '6-10 Jahre', fr: '6-10 ans', es: '6-10 años', it: '6-10 anni', pt: '6-10 anos', nl: '6-10 jaar', sv: '6-10 år', da: '6-10 år', no: '6-10 år', fi: '6-10 vuotta' } },
+      { app: 'draw and color', names: { en: 'Draw and Color', de: 'Zeichnen und Ausmalen', fr: 'Dessine et Colorie', es: 'Dibuja y Colorea', it: 'Disegna e Colora', pt: 'Desenha e Pinta', nl: 'Teken en Kleur', sv: 'Rita och Färglägg', da: 'Tegn og Farvlæg', no: 'Tegn og Fargelegg', fi: 'Piirrä ja Väritä' }, descriptions: { en: 'Draw and color activities', de: 'Zeichen- und Malaktivitäten', fr: 'Activités de dessin et coloriage', es: 'Actividades de dibujo y coloreo', it: 'Attività di disegno e colorazione', pt: 'Atividades de desenho e pintura', nl: 'Teken- en kleuractiviteiten', sv: 'Rita och färglägg aktiviteter', da: 'Tegne og farvelæg aktiviteter', no: 'Tegne og fargelegg aktiviteter', fi: 'Piirustus- ja väritysaktiviteetit' }, category: 'creativity', difficulty: 'Easy', ageRange: { en: '4-8 years', de: '4-8 Jahre', fr: '4-8 ans', es: '4-8 años', it: '4-8 anni', pt: '4-8 anos', nl: '4-8 jaar', sv: '4-8 år', da: '4-8 år', no: '4-8 år', fi: '4-8 vuotta' } },
+      { app: 'drawing lines', names: { en: 'Drawing Lines', de: 'Linien Zeichnen', fr: 'Tracer des Lignes', es: 'Dibujar Líneas', it: 'Disegno di Linee', pt: 'Desenhar Linhas', nl: 'Lijnen Tekenen', sv: 'Rita Linjer', da: 'Tegne Linjer', no: 'Tegne Linjer', fi: 'Viivojen Piirtäminen' }, descriptions: { en: 'Practice fine motor skills', de: 'Feinmotorik üben', fr: 'Pratiquer la motricité fine', es: 'Practica motricidad fina', it: 'Pratica motricità fine', pt: 'Pratique motricidade fina', nl: 'Oefen fijne motoriek', sv: 'Träna finmotorik', da: 'Øv finmotorik', no: 'Øv finmotorikk', fi: 'Harjoittele hienomotoriikkaa' }, category: 'motor skills', difficulty: 'Easy', ageRange: { en: '3-5 years', de: '3-5 Jahre', fr: '3-5 ans', es: '3-5 años', it: '3-5 anni', pt: '3-5 anos', nl: '3-5 jaar', sv: '3-5 år', da: '3-5 år', no: '3-5 år', fi: '3-5 vuotta' } },
+      { app: 'find and count', names: { en: 'Find and Count', de: 'Suchen und Zählen', fr: 'Trouve et Compte', es: 'Encuentra y Cuenta', it: 'Trova e Conta', pt: 'Encontra e Conta', nl: 'Zoek en Tel', sv: 'Hitta och Räkna', da: 'Find og Tæl', no: 'Finn og Tell', fi: 'Etsi ja Laske' }, descriptions: { en: 'I spy counting game', de: 'Ich-sehe-was Zählspiel', fr: 'Jeu de recherche et comptage', es: 'Juego de buscar y contar', it: 'Gioco cerca e conta', pt: 'Jogo de encontrar e contar', nl: 'Zoek en tel spel', sv: 'Sök och räkna spel', da: 'Find og tæl spil', no: 'Finn og tell spill', fi: 'Etsi ja laske peli' }, category: 'math', difficulty: 'Easy', ageRange: { en: '4-7 years', de: '4-7 Jahre', fr: '4-7 ans', es: '4-7 años', it: '4-7 anni', pt: '4-7 anos', nl: '4-7 jaar', sv: '4-7 år', da: '4-7 år', no: '4-7 år', fi: '4-7 vuotta' } },
+      { app: 'find objects', names: { en: 'Find Objects', de: 'Finde die Objekte', fr: 'Trouve les Objets', es: 'Encuentra Objetos', it: 'Trova gli Oggetti', pt: 'Encontra Objetos', nl: 'Vind Objecten', sv: 'Hitta Objekt', da: 'Find Objekter', no: 'Finn Objekter', fi: 'Löydä Esineet' }, descriptions: { en: 'Hidden object search', de: 'Versteckte Objekte suchen', fr: 'Recherche d\'objets cachés', es: 'Búsqueda de objetos ocultos', it: 'Cerca oggetti nascosti', pt: 'Busca de objetos escondidos', nl: 'Verborgen objecten zoeken', sv: 'Sök gömda objekt', da: 'Søg skjulte objekter', no: 'Søk skjulte objekter', fi: 'Etsi piilotettuja esineitä' }, category: 'puzzle', difficulty: 'Easy', ageRange: { en: '5-8 years', de: '5-8 Jahre', fr: '5-8 ans', es: '5-8 años', it: '5-8 anni', pt: '5-8 anos', nl: '5-8 jaar', sv: '5-8 år', da: '5-8 år', no: '5-8 år', fi: '5-8 vuotta' } },
+      { app: 'grid match', names: { en: 'Grid Match', de: 'Raster-Puzzle', fr: 'Puzzle Grille', es: 'Puzzle de Cuadrícula', it: 'Puzzle a Griglia', pt: 'Quebra-Cabeça de Grade', nl: 'Rasterpuzzel', sv: 'Rutnätspussel', da: 'Gitterpuslespil', no: 'Rutenettspuslespill', fi: 'Ruudukkopalapeli' }, descriptions: { en: 'Match grid patterns', de: 'Rastermuster zuordnen', fr: 'Associez les motifs de grille', es: 'Combina patrones de cuadrícula', it: 'Abbina i pattern della griglia', pt: 'Combine padrões de grade', nl: 'Match rasterpatronen', sv: 'Matcha rutnätsmönster', da: 'Match gittermønstre', no: 'Match rutenettmønstre', fi: 'Yhdistä ruudukkomallit' }, category: 'logic', difficulty: 'Medium', ageRange: { en: '5-8 years', de: '5-8 Jahre', fr: '5-8 ans', es: '5-8 años', it: '5-8 anni', pt: '5-8 anos', nl: '5-8 jaar', sv: '5-8 år', da: '5-8 år', no: '5-8 år', fi: '5-8 vuotta' } },
+      { app: 'matching', names: { en: 'Matching', de: 'Paare Finden', fr: 'Associations', es: 'Encuentra Parejas', it: 'Trova le Coppie', pt: 'Encontre os Pares', nl: 'Zoek de Paren', sv: 'Matchning', da: 'Find Parrene', no: 'Finn Parene', fi: 'Yhdistä Parit' }, descriptions: { en: 'Match related pictures', de: 'Zusammengehörige Bilder finden', fr: 'Associez les images', es: 'Empareja imágenes relacionadas', it: 'Abbina immagini correlate', pt: 'Combine imagens relacionadas', nl: 'Match gerelateerde plaatjes', sv: 'Matcha relaterade bilder', da: 'Match relaterede billeder', no: 'Match relaterte bilder', fi: 'Yhdistä liittyvät kuvat' }, category: 'logic', difficulty: 'Easy', ageRange: { en: '4-7 years', de: '4-7 Jahre', fr: '4-7 ans', es: '4-7 años', it: '4-7 anni', pt: '4-7 anos', nl: '4-7 jaar', sv: '4-7 år', da: '4-7 år', no: '4-7 år', fi: '4-7 vuotta' } },
+      { app: 'math puzzle', names: { en: 'Math Puzzle', de: 'Mathe-Rätsel', fr: 'Casse-Têtes Mathématiques', es: 'Rompecabezas Matemáticos', it: 'Rompicapi Matematici', pt: 'Quebra-Cabeças Matemático', nl: 'Wiskundepuzzels', sv: 'Mattepussel', da: 'Mattepuslespil', no: 'Mattepuslespill', fi: 'Matematiikkapulmat' }, descriptions: { en: 'Fun math challenges', de: 'Spaßige Mathe-Herausforderungen', fr: 'Défis mathématiques amusants', es: 'Desafíos matemáticos divertidos', it: 'Sfide matematiche divertenti', pt: 'Desafios matemáticos divertidos', nl: 'Leuke wiskundige uitdagingen', sv: 'Roliga matteutmaningar', da: 'Sjove matteudfordringer', no: 'Morsomme matteutfordringer', fi: 'Hauskat matematiikkahaasteet' }, category: 'math', difficulty: 'Medium', ageRange: { en: '6-10 years', de: '6-10 Jahre', fr: '6-10 ans', es: '6-10 años', it: '6-10 anni', pt: '6-10 anos', nl: '6-10 jaar', sv: '6-10 år', da: '6-10 år', no: '6-10 år', fi: '6-10 vuotta' } },
+      { app: 'math worksheet', names: { en: 'Math Worksheet', de: 'Mathe-Übungsblatt', fr: 'Feuille de Mathématique', es: 'Hoja de Matemáticas', it: 'Scheda di Matematica', pt: 'Folha de Matemática', nl: 'Wiskundeblad', sv: 'Matteblad', da: 'Matematikopgave', no: 'Matematikkoppgave', fi: 'Matematiikkalehti' }, descriptions: { en: 'Practice math problems', de: 'Matheaufgaben üben', fr: 'Pratiquez les problèmes de maths', es: 'Practica problemas de matemáticas', it: 'Esercitati con problemi di matematica', pt: 'Pratique problemas de matemática', nl: 'Oefen wiskundeproblemen', sv: 'Öva mattetal', da: 'Øv matematikopgaver', no: 'Øv matteoppgaver', fi: 'Harjoittele matemaattisia tehtäviä' }, category: 'math', difficulty: 'Medium', ageRange: { en: '5-9 years', de: '5-9 Jahre', fr: '5-9 ans', es: '5-9 años', it: '5-9 anni', pt: '5-9 anos', nl: '5-9 jaar', sv: '5-9 år', da: '5-9 år', no: '5-9 år', fi: '5-9 vuotta' } },
+      { app: 'missing pieces', names: { en: 'Missing Pieces', de: 'Fehlende Teile', fr: 'Pièces Manquantes', es: 'Piezas Perdidas', it: 'Pezzi Mancanti', pt: 'Peças em Falta', nl: 'Ontbrekende Stukjes', sv: 'Saknade Bitar', da: 'Manglende Dele', no: 'Manglende Deler', fi: 'Puuttuvat Palat' }, descriptions: { en: 'Find the missing puzzle pieces', de: 'Finde die fehlenden Puzzleteile', fr: 'Trouvez les pièces manquantes', es: 'Encuentra las piezas faltantes', it: 'Trova i pezzi mancanti', pt: 'Encontre as peças em falta', nl: 'Vind de ontbrekende stukjes', sv: 'Hitta de saknade bitarna', da: 'Find de manglende dele', no: 'Finn de manglende delene', fi: 'Löydä puuttuvat palat' }, category: 'logic', difficulty: 'Medium', ageRange: { en: '5-8 years', de: '5-8 Jahre', fr: '5-8 ans', es: '5-8 años', it: '5-8 anni', pt: '5-8 anos', nl: '5-8 jaar', sv: '5-8 år', da: '5-8 år', no: '5-8 år', fi: '5-8 vuotta' } },
+      { app: 'more less', names: { en: 'More or Less', de: 'Mehr oder Weniger', fr: 'Plus ou Moins', es: 'Más o Menos', it: 'Più o Meno', pt: 'Mais ou Menos', nl: 'Meer of Minder', sv: 'Mer eller Mindre', da: 'Mere eller Mindre', no: 'Mer eller Mindre', fi: 'Enemmän vai Vähemmän' }, descriptions: { en: 'Compare quantities', de: 'Mengen vergleichen', fr: 'Comparez les quantités', es: 'Compara cantidades', it: 'Confronta le quantità', pt: 'Compare quantidades', nl: 'Vergelijk hoeveelheden', sv: 'Jämför mängder', da: 'Sammenlign mængder', no: 'Sammenlign mengder', fi: 'Vertaa määriä' }, category: 'math', difficulty: 'Easy', ageRange: { en: '4-6 years', de: '4-6 Jahre', fr: '4-6 ans', es: '4-6 años', it: '4-6 anni', pt: '4-6 anos', nl: '4-6 jaar', sv: '4-6 år', da: '4-6 år', no: '4-6 år', fi: '4-6 vuotta' } },
+      { app: 'odd one out', names: { en: 'Odd One Out', de: 'Finde das Andere', fr: 'Trouve l\'Intrus', es: 'Encuentra el Diferente', it: 'Trova il Diverso', pt: 'Encontra o Diferente', nl: 'Vind de Vreemde Eend', sv: 'Hitta Udda', da: 'Find den Ulige', no: 'Finn den Rare', fi: 'Löydä Outo' }, descriptions: { en: 'Find the different item', de: 'Finde das unterschiedliche Objekt', fr: 'Trouvez l\'élément différent', es: 'Encuentra el elemento diferente', it: 'Trova l\'elemento diverso', pt: 'Encontre o item diferente', nl: 'Vind het andere item', sv: 'Hitta det annorlunda objektet', da: 'Find det anderledes element', no: 'Finn det forskjellige elementet', fi: 'Löydä erilainen esine' }, category: 'logic', difficulty: 'Easy', ageRange: { en: '4-7 years', de: '4-7 Jahre', fr: '4-7 ans', es: '4-7 años', it: '4-7 anni', pt: '4-7 anos', nl: '4-7 jaar', sv: '4-7 år', da: '4-7 år', no: '4-7 år', fi: '4-7 vuotta' } },
+      { app: 'pattern train', names: { en: 'Pattern Train', de: 'Musterzug', fr: 'Train à Motifs', es: 'Tren de Patrones', it: 'Treno dei Modelli', pt: 'Comboio de Padrões', nl: 'Patroontrein', sv: 'Mönsterzug', da: 'Mønstertoget', no: 'Mønstertoget', fi: 'Kuviojuna' }, descriptions: { en: 'Complete pattern sequences', de: 'Mustersequenzen vervollständigen', fr: 'Complétez les séquences de motifs', es: 'Completa secuencias de patrones', it: 'Completa sequenze di modelli', pt: 'Complete sequências de padrões', nl: 'Maak patroonreeksen af', sv: 'Komplettera mönstersekvenser', da: 'Fuldfør mønstersekvenser', no: 'Fullfør mønstersekvenser', fi: 'Täydennä kuviosarjat' }, category: 'logic', difficulty: 'Medium', ageRange: { en: '5-8 years', de: '5-8 Jahre', fr: '5-8 ans', es: '5-8 años', it: '5-8 anni', pt: '5-8 anos', nl: '5-8 jaar', sv: '5-8 år', da: '5-8 år', no: '5-8 år', fi: '5-8 vuotta' } },
+      { app: 'pattern worksheet', names: { en: 'Pattern Worksheet', de: 'Musterrätsel', fr: 'Puzzles de Motifs', es: 'Rompecabezas de Patrones', it: 'Puzzle di Schemi', pt: 'Quebra-cabeças de Padrões', nl: 'Patroonpuzzels', sv: 'Mönsterpussel', da: 'Mønstergåder', no: 'Mønstergåter', fi: 'Kuviotehtävät' }, descriptions: { en: 'Pattern recognition exercises', de: 'Mustererkennung üben', fr: 'Exercices de reconnaissance de motifs', es: 'Ejercicios de reconocimiento de patrones', it: 'Esercizi di riconoscimento dei modelli', pt: 'Exercícios de reconhecimento de padrões', nl: 'Patroonherkenning oefenen', sv: 'Mönsterigenkänning övningar', da: 'Mønstergenkendelse øvelser', no: 'Mønstergjenkjenning øvelser', fi: 'Kuvion tunnistusharjoitukset' }, category: 'logic', difficulty: 'Medium', ageRange: { en: '5-8 years', de: '5-8 Jahre', fr: '5-8 ans', es: '5-8 años', it: '5-8 anni', pt: '5-8 anos', nl: '5-8 jaar', sv: '5-8 år', da: '5-8 år', no: '5-8 år', fi: '5-8 vuotta' } },
+      { app: 'picture path', names: { en: 'Picture Path', de: 'Bilderpfad', fr: 'Chemin d\'Images', es: 'Camino de Imágenes', it: 'Percorso di Immagini', pt: 'Caminho de Imagens', nl: 'Afbeeldingspad', sv: 'Bildväg', da: 'Billedsti', no: 'Bildesti', fi: 'Kuvapolku' }, descriptions: { en: 'Follow the picture maze', de: 'Folge dem Bilderlabyrinth', fr: 'Suivez le labyrinthe d\'images', es: 'Sigue el laberinto de imágenes', it: 'Segui il labirinto di immagini', pt: 'Siga o labirinto de imagens', nl: 'Volg het afbeeldingsdoolhof', sv: 'Följ bildlabyrinten', da: 'Følg billedlabyrinten', no: 'Følg bildelabyrinten', fi: 'Seuraa kuvalakyryyrittiä' }, category: 'logic', difficulty: 'Medium', ageRange: { en: '5-8 years', de: '5-8 Jahre', fr: '5-8 ans', es: '5-8 años', it: '5-8 anni', pt: '5-8 anos', nl: '5-8 jaar', sv: '5-8 år', da: '5-8 år', no: '5-8 år', fi: '5-8 vuotta' } },
+      { app: 'picture sort', names: { en: 'Picture Sort', de: 'Bilder Sortieren', fr: 'Tri d\'Images', es: 'Clasificación de Imágenes', it: 'Classificazione Immagini', pt: 'Classificação de Imagens', nl: 'Afbeeldingen Sorteren', sv: 'Sortera Bilder', da: 'Sorter Billeder', no: 'Sorter Bilder', fi: 'Lajittele Kuvat' }, descriptions: { en: 'Sort pictures by category', de: 'Bilder nach Kategorie sortieren', fr: 'Triez les images par catégorie', es: 'Clasifica imágenes por categoría', it: 'Ordina le immagini per categoria', pt: 'Classifique imagens por categoria', nl: 'Sorteer plaatjes op categorie', sv: 'Sortera bilder efter kategori', da: 'Sorter billeder efter kategori', no: 'Sorter bilder etter kategori', fi: 'Lajittele kuvat kategorioittain' }, category: 'logic', difficulty: 'Easy', ageRange: { en: '4-7 years', de: '4-7 Jahre', fr: '4-7 ans', es: '4-7 años', it: '4-7 anni', pt: '4-7 anos', nl: '4-7 jaar', sv: '4-7 år', da: '4-7 år', no: '4-7 år', fi: '4-7 vuotta' } },
+      { app: 'prepositions', names: { en: 'Prepositions', de: 'Präpositionen', fr: 'Prépositions', es: 'Preposiciones', it: 'Preposizioni', pt: 'Preposições', nl: 'Voorzetsels', sv: 'Prepositioner', da: 'Præpositioner', no: 'Preposisjoner', fi: 'Prepositiot' }, descriptions: { en: 'Learn spatial relationships', de: 'Räumliche Beziehungen lernen', fr: 'Apprenez les relations spatiales', es: 'Aprende relaciones espaciales', it: 'Impara le relazioni spaziali', pt: 'Aprenda relações espaciais', nl: 'Leer ruimtelijke relaties', sv: 'Lär dig rumsliga relationer', da: 'Lær rumlige relationer', no: 'Lær romlige relasjoner', fi: 'Opi avaruussuhteita' }, category: 'literacy', difficulty: 'Easy', ageRange: { en: '4-7 years', de: '4-7 Jahre', fr: '4-7 ans', es: '4-7 años', it: '4-7 anni', pt: '4-7 anos', nl: '4-7 jaar', sv: '4-7 år', da: '4-7 år', no: '4-7 år', fi: '4-7 vuotta' } },
+      { app: 'shadow match', names: { en: 'Shadow Match', de: 'Schatten Zuordnen', fr: 'Trouve l\'Ombre', es: 'Empareja las Sombras', it: 'Abbina le Ombre', pt: 'Combine as Sombras', nl: 'Schaduw Koppelen', sv: 'Skuggmatchning', da: 'Skyggematch', no: 'Skyggematch', fi: 'Varjoyhdistäminen' }, descriptions: { en: 'Match pictures to shadows', de: 'Bilder zu Schatten zuordnen', fr: 'Associez les images aux ombres', es: 'Empareja imágenes con sombras', it: 'Abbina le immagini alle ombre', pt: 'Combine imagens com sombras', nl: 'Match plaatjes met schaduwen', sv: 'Matcha bilder med skuggor', da: 'Match billeder til skygger', no: 'Match bilder til skygger', fi: 'Yhdistä kuvat varjoihin' }, category: 'logic', difficulty: 'Easy', ageRange: { en: '3-6 years', de: '3-6 Jahre', fr: '3-6 ans', es: '3-6 años', it: '3-6 anni', pt: '3-6 anos', nl: '3-6 jaar', sv: '3-6 år', da: '3-6 år', no: '3-6 år', fi: '3-6 vuotta' } },
+      { app: 'subtraction', names: { en: 'Subtraction', de: 'Subtraktion', fr: 'Soustraction', es: 'Resta', it: 'Sottrazione', pt: 'Subtração', nl: 'Aftrekken', sv: 'Subtraktion', da: 'Subtraktion', no: 'Subtraksjon', fi: 'Vähennyslasku' }, descriptions: { en: 'Fun subtraction practice', de: 'Spaßige Subtraktionsübungen', fr: 'Exercices de soustraction amusants', es: 'Práctica de resta divertida', it: 'Esercizi di sottrazione divertenti', pt: 'Prática divertida de subtração', nl: 'Leuk aftrekken oefenen', sv: 'Rolig subtraktionsövning', da: 'Sjov subtraktionsøvelse', no: 'Moro med subtraksjon', fi: 'Hauska vähennyslasku' }, category: 'math', difficulty: 'Easy', ageRange: { en: '5-7 years', de: '5-7 Jahre', fr: '5-7 ans', es: '5-7 años', it: '5-7 anni', pt: '5-7 anos', nl: '5-7 jaar', sv: '5-7 år', da: '5-7 år', no: '5-7 år', fi: '5-7 vuotta' } },
+      { app: 'sudoku', names: { en: 'Picture Sudoku', de: 'Bilder-Sudoku', fr: 'Sudoku en Images', es: 'Sudoku de Imágenes', it: 'Sudoku con Immagini', pt: 'Sudoku de Imagens', nl: 'Plaatjes Sudoku', sv: 'Bildsudoku', da: 'Billed-Sudoku', no: 'Bilde-Sudoku', fi: 'Kuva-Sudoku' }, descriptions: { en: 'Sudoku with pictures', de: 'Sudoku mit Bildern', fr: 'Sudoku avec des images', es: 'Sudoku con imágenes', it: 'Sudoku con immagini', pt: 'Sudoku com imagens', nl: 'Sudoku met plaatjes', sv: 'Sudoku med bilder', da: 'Sudoku med billeder', no: 'Sudoku med bilder', fi: 'Sudoku kuvilla' }, category: 'logic', difficulty: 'Hard', ageRange: { en: '6-10 years', de: '6-10 Jahre', fr: '6-10 ans', es: '6-10 años', it: '6-10 anni', pt: '6-10 anos', nl: '6-10 jaar', sv: '6-10 år', da: '6-10 år', no: '6-10 år', fi: '6-10 vuotta' } },
+      { app: 'treasure hunt', names: { en: 'Treasure Hunt', de: 'Schatzsuche', fr: 'Chasse au Trésor', es: 'Búsqueda del Tesoro', it: 'Caccia al Tesoro', pt: 'Caça ao Tesouro', nl: 'Schattenjacht', sv: 'Skattjakt', da: 'Skattejagt', no: 'Skattejakt', fi: 'Aarteenetsintä' }, descriptions: { en: 'Find the hidden treasures', de: 'Finde die versteckten Schätze', fr: 'Trouvez les trésors cachés', es: 'Encuentra los tesoros escondidos', it: 'Trova i tesori nascosti', pt: 'Encontre os tesouros escondidos', nl: 'Vind de verborgen schatten', sv: 'Hitta de gömda skatterna', da: 'Find de skjulte skatte', no: 'Finn de skjulte skattene', fi: 'Löydä piilotetut aarteet' }, category: 'puzzle', difficulty: 'Medium', ageRange: { en: '5-9 years', de: '5-9 Jahre', fr: '5-9 ans', es: '5-9 años', it: '5-9 anni', pt: '5-9 anos', nl: '5-9 jaar', sv: '5-9 år', da: '5-9 år', no: '5-9 år', fi: '5-9 vuotta' } },
+      { app: 'word guess', names: { en: 'Word Guess', de: 'Wörter-Rätsel', fr: 'Devine le Mot', es: 'Adivina la Palabra', it: 'Indovina la Parola', pt: 'Adivinha a Palavra', nl: 'Raad het Woord', sv: 'Gissa Ordet', da: 'Gæt Ordet', no: 'Gjett Ordet', fi: 'Arvaa Sana' }, descriptions: { en: 'Guess words from pictures', de: 'Wörter aus Bildern erraten', fr: 'Devinez les mots à partir des images', es: 'Adivina palabras por imágenes', it: 'Indovina parole dalle immagini', pt: 'Adivinhe palavras pelas imagens', nl: 'Raad woorden uit plaatjes', sv: 'Gissa ord från bilder', da: 'Gæt ord fra billeder', no: 'Gjett ord fra bilder', fi: 'Arvaa sanat kuvista' }, category: 'literacy', difficulty: 'Medium', ageRange: { en: '5-8 years', de: '5-8 Jahre', fr: '5-8 ans', es: '5-8 años', it: '5-8 anni', pt: '5-8 anos', nl: '5-8 jaar', sv: '5-8 år', da: '5-8 år', no: '5-8 år', fi: '5-8 vuotta' } },
+      { app: 'word scramble', names: { en: 'Word Scramble', de: 'Buchstabensalat', fr: 'Mots Mêlés', es: 'Palabras Revueltas', it: 'Lettere Mescolate', pt: 'Letras Embaralhadas', nl: 'Letterwarrel', sv: 'Ordmix', da: 'Bogstavrod', no: 'Bokstavblanding', fi: 'Kirjainsekoitus' }, descriptions: { en: 'Unscramble the letters', de: 'Buchstaben entwirren', fr: 'Démêlez les lettres', es: 'Desordena las letras', it: 'Riordina le lettere', pt: 'Desembaralhe as letras', nl: 'Ontwar de letters', sv: 'Lösa bokstavspusslet', da: 'Løs bogstavpuslespillet', no: 'Løs bokstavpuslespillet', fi: 'Ratkaise kirjainpulmia' }, category: 'literacy', difficulty: 'Medium', ageRange: { en: '6-9 years', de: '6-9 Jahre', fr: '6-9 ans', es: '6-9 años', it: '6-9 anni', pt: '6-9 anos', nl: '6-9 jaar', sv: '6-9 år', da: '6-9 år', no: '6-9 år', fi: '6-9 vuotta' } },
+      { app: 'wordsearch', names: { en: 'Word Search', de: 'Wörtersuche', fr: 'Mots Cachés', es: 'Sopa de Letras', it: 'Cerca Parole', pt: 'Caça-Palavras', nl: 'Woordzoeker', sv: 'Ordletning', da: 'Ordsøgning', no: 'Ordleting', fi: 'Sanahaku' }, descriptions: { en: 'Find hidden words', de: 'Versteckte Wörter finden', fr: 'Trouvez les mots cachés', es: 'Encuentra palabras escondidas', it: 'Trova le parole nascoste', pt: 'Encontre palavras escondidas', nl: 'Vind verborgen woorden', sv: 'Hitta gömda ord', da: 'Find skjulte ord', no: 'Finn skjulte ord', fi: 'Löydä piilotettuja sanoja' }, category: 'literacy', difficulty: 'Medium', ageRange: { en: '6-10 years', de: '6-10 Jahre', fr: '6-10 ans', es: '6-10 años', it: '6-10 anni', pt: '6-10 anos', nl: '6-10 jaar', sv: '6-10 år', da: '6-10 år', no: '6-10 år', fi: '6-10 vuotta' } },
+      { app: 'writing', names: { en: 'Writing Practice', de: 'Schreibübungen', fr: 'Pratique d\'Écriture', es: 'Práctica de Escritura', it: 'Pratica di Scrittura', pt: 'Prática de Escrita', nl: 'Schrijfoefeningen', sv: 'Skrivövningar', da: 'Skriveøvelser', no: 'Skriveøvelser', fi: 'Kirjoitusharjoitukset' }, descriptions: { en: 'Handwriting practice worksheets', de: 'Handschrift-Übungsblätter', fr: 'Feuilles de pratique d\'écriture', es: 'Hojas de práctica de escritura', it: 'Fogli di pratica di scrittura', pt: 'Folhas de prática de escrita', nl: 'Handschrift oefenbladen', sv: 'Handskrift övningsblad', da: 'Håndskrift øvelsesark', no: 'Håndskrift øvelsesark', fi: 'Käsiala harjoituslehdet' }, category: 'literacy', difficulty: 'Easy', ageRange: { en: '4-7 years', de: '4-7 Jahre', fr: '4-7 ans', es: '4-7 años', it: '4-7 anni', pt: '4-7 anos', nl: '4-7 jaar', sv: '4-7 år', da: '4-7 år', no: '4-7 år', fi: '4-7 vuotta' } }
+    ];
+
+    // For English, return just 6 default samples
+    if (locale === 'en') {
+      return [
+        { name: appConfigs[1].names, description: appConfigs[1].descriptions, category: appConfigs[1].category, difficulty: appConfigs[1].difficulty, age_range: appConfigs[1].ageRange, image_url: '/worksheet-samples/alphabet.png', featured: true, sort_order: 1 },
+        { name: appConfigs[5].names, description: appConfigs[5].descriptions, category: appConfigs[5].category, difficulty: appConfigs[5].difficulty, age_range: appConfigs[5].ageRange, image_url: '/worksheet-samples/code-addition.png', featured: false, sort_order: 2 },
+        { name: appConfigs[4].names, description: appConfigs[4].descriptions, category: appConfigs[4].category, difficulty: appConfigs[4].difficulty, age_range: appConfigs[4].ageRange, image_url: '/worksheet-samples/graph.png', featured: false, sort_order: 3 },
+        { name: appConfigs[12].names, description: appConfigs[12].descriptions, category: appConfigs[12].category, difficulty: appConfigs[12].difficulty, age_range: appConfigs[12].ageRange, image_url: '/worksheet-samples/hidden-object.png', featured: true, sort_order: 4 },
+        { name: appConfigs[11].names, description: appConfigs[11].descriptions, category: appConfigs[11].category, difficulty: appConfigs[11].difficulty, age_range: appConfigs[11].ageRange, image_url: '/worksheet-samples/i-spy.png', featured: false, sort_order: 5 },
+        { name: appConfigs[21].names, description: appConfigs[21].descriptions, category: appConfigs[21].category, difficulty: appConfigs[21].difficulty, age_range: appConfigs[21].ageRange, image_url: '/worksheet-samples/train.png', featured: true, sort_order: 6 }
+      ];
     }
 
-    // Return default samples with all 11 languages
-    return [
-      {
-        name: {
-          en: 'Alphabet Train',
-          de: 'Alphabet-Zug',
-          fr: 'Train Alphabet',
-          es: 'Tren del Alfabeto',
-          it: 'Treno dell\'Alfabeto',
-          pt: 'Trem do Alfabeto',
-          nl: 'Alfabet Trein',
-          sv: 'Alfabetståg',
-          da: 'Alfabet-tog',
-          no: 'Alfabet-tog',
-          fi: 'Aakkos-juna'
-        },
-        description: {
-          en: 'Fun alphabet learning with colorful train cars',
-          de: 'Spaßiges Alphabet-Lernen mit bunten Zugwaggons',
-          fr: 'Apprentissage amusant de l\'alphabet avec des wagons colorés',
-          es: 'Aprendizaje divertido del alfabeto con vagones coloridos',
-          it: 'Apprendimento divertente dell\'alfabeto con vagoni colorati',
-          pt: 'Aprendizagem divertida do alfabeto com vagões coloridos',
-          nl: 'Leuk alfabet leren met kleurrijke treinwagons',
-          sv: 'Rolig alfabetsinlärning med färgglada tågvagnar',
-          da: 'Sjov alfabetlæring med farverige togvogne',
-          no: 'Morsom alfabetlæring med fargerike togvogner',
-          fi: 'Hauska aakkosten oppiminen värikkäillä junavaunuilla'
-        },
-        category: 'literacy',
-        difficulty: 'Easy',
-        age_range: {
-          en: '3-5 years',
-          de: '3-5 Jahre',
-          fr: '3-5 ans',
-          es: '3-5 años',
-          it: '3-5 anni',
-          pt: '3-5 anos',
-          nl: '3-5 jaar',
-          sv: '3-5 år',
-          da: '3-5 år',
-          no: '3-5 år',
-          fi: '3-5 vuotta'
-        },
-        image_url: '/worksheet-samples/alphabet.png',
-        featured: true,
-        sort_order: 1
-      },
-      {
-        name: {
-          en: 'Code Addition',
-          de: 'Code-Addition',
-          fr: 'Addition Codée',
-          es: 'Adición Codificada',
-          it: 'Addizione in Codice',
-          pt: 'Adição Codificada',
-          nl: 'Code Optellen',
-          sv: 'Kodaddition',
-          da: 'Kode Addition',
-          no: 'Kode Addisjon',
-          fi: 'Koodi Yhteenlasku'
-        },
-        description: {
-          en: 'Crack the code with addition puzzles',
-          de: 'Knacke den Code mit Additionsrätseln',
-          fr: 'Déchiffrez le code avec des puzzles d\'addition',
-          es: 'Descifra el código con rompecabezas de suma',
-          it: 'Decifra il codice con puzzle di addizione',
-          pt: 'Decifre o código com quebra-cabeças de adição',
-          nl: 'Kraak de code met optelpuzzels',
-          sv: 'Knäck koden med additionspussel',
-          da: 'Knæk koden med additionspuslespil',
-          no: 'Knekk koden med addisjonsoppgaver',
-          fi: 'Murra koodi yhteenlaskupulmilla'
-        },
-        category: 'math',
-        difficulty: 'Medium',
-        age_range: {
-          en: '6-8 years',
-          de: '6-8 Jahre',
-          fr: '6-8 ans',
-          es: '6-8 años',
-          it: '6-8 anni',
-          pt: '6-8 anos',
-          nl: '6-8 jaar',
-          sv: '6-8 år',
-          da: '6-8 år',
-          no: '6-8 år',
-          fi: '6-8 vuotta'
-        },
-        image_url: '/worksheet-samples/code-addition.png',
-        featured: false,
-        sort_order: 2
-      },
-      {
-        name: {
-          en: 'Chart & Count',
-          de: 'Diagramm & Zählen',
-          fr: 'Graphique & Compter',
-          es: 'Gráfico y Contar',
-          it: 'Grafico e Conta',
-          pt: 'Gráfico e Contar',
-          nl: 'Grafiek & Tellen',
-          sv: 'Diagram & Räkna',
-          da: 'Diagram & Tæl',
-          no: 'Diagram & Tell',
-          fi: 'Kaavio & Laske'
-        },
-        description: {
-          en: 'Learn graphing and data visualization',
-          de: 'Lernen Sie Grafiken und Datenvisualisierung',
-          fr: 'Apprendre les graphiques et la visualisation de données',
-          es: 'Aprende gráficos y visualización de datos',
-          it: 'Impara grafici e visualizzazione dei dati',
-          pt: 'Aprenda gráficos e visualização de dados',
-          nl: 'Leer grafieken en datavisualisatie',
-          sv: 'Lär dig diagram och datavisualisering',
-          da: 'Lær diagrammer og datavisualisering',
-          no: 'Lær diagrammer og datavisualisering',
-          fi: 'Opi kaavioita ja tiedon visualisointia'
-        },
-        category: 'math',
-        difficulty: 'Medium',
-        age_range: {
-          en: '7-10 years',
-          de: '7-10 Jahre',
-          fr: '7-10 ans',
-          es: '7-10 años',
-          it: '7-10 anni',
-          pt: '7-10 anos',
-          nl: '7-10 jaar',
-          sv: '7-10 år',
-          da: '7-10 år',
-          no: '7-10 år',
-          fi: '7-10 vuotta'
-        },
-        image_url: '/worksheet-samples/graph.png',
-        featured: false,
-        sort_order: 3
-      },
-      {
-        name: {
-          en: 'Hidden Objects',
-          de: 'Versteckte Objekte',
-          fr: 'Objets Cachés',
-          es: 'Objetos Ocultos',
-          it: 'Oggetti Nascosti',
-          pt: 'Objetos Escondidos',
-          nl: 'Verborgen Objecten',
-          sv: 'Gömda Objekt',
-          da: 'Skjulte Objekter',
-          no: 'Skjulte Objekter',
-          fi: 'Piilotetut Esineet'
-        },
-        description: {
-          en: 'Find hidden objects in detailed scenes',
-          de: 'Finde versteckte Objekte in detaillierten Szenen',
-          fr: 'Trouvez des objets cachés dans des scènes détaillées',
-          es: 'Encuentra objetos ocultos en escenas detalladas',
-          it: 'Trova oggetti nascosti in scene dettagliate',
-          pt: 'Encontre objetos escondidos em cenas detalhadas',
-          nl: 'Vind verborgen objecten in gedetailleerde scènes',
-          sv: 'Hitta gömda objekt i detaljerade scener',
-          da: 'Find skjulte objekter i detaljerede scener',
-          no: 'Finn skjulte objekter i detaljerte scener',
-          fi: 'Löydä piilotettuja esineitä yksityiskohtaisista kohtauksista'
-        },
-        category: 'puzzle',
-        difficulty: 'Easy',
-        age_range: {
-          en: '5-8 years',
-          de: '5-8 Jahre',
-          fr: '5-8 ans',
-          es: '5-8 años',
-          it: '5-8 anni',
-          pt: '5-8 anos',
-          nl: '5-8 jaar',
-          sv: '5-8 år',
-          da: '5-8 år',
-          no: '5-8 år',
-          fi: '5-8 vuotta'
-        },
-        image_url: '/worksheet-samples/hidden-object.png',
-        featured: true,
-        sort_order: 4
-      },
-      {
-        name: {
-          en: 'I Spy Game',
-          de: 'Ich Sehe Was',
-          fr: 'Jeu J\'espionne',
-          es: 'Juego Veo Veo',
-          it: 'Gioco Spio',
-          pt: 'Jogo Eu Espio',
-          nl: 'Ik Zie Wat Jij Niet Ziet',
-          sv: 'Jag Ser Spel',
-          da: 'Jeg Ser Spil',
-          no: 'Jeg Ser Spill',
-          fi: 'Vakoilupeli'
-        },
-        description: {
-          en: 'Classic I Spy searching game',
-          de: 'Klassisches Ich-sehe-was Suchspiel',
-          fr: 'Jeu de recherche classique J\'espionne',
-          es: 'Clásico juego de búsqueda Veo Veo',
-          it: 'Classico gioco di ricerca Spio',
-          pt: 'Clássico jogo de busca Eu Espio',
-          nl: 'Klassiek zoekspel',
-          sv: 'Klassiskt sökspel',
-          da: 'Klassisk søgespil',
-          no: 'Klassisk søkespill',
-          fi: 'Klassinen etsintäpeli'
-        },
-        category: 'puzzle',
-        difficulty: 'Easy',
-        age_range: {
-          en: '4-7 years',
-          de: '4-7 Jahre',
-          fr: '4-7 ans',
-          es: '4-7 años',
-          it: '4-7 anni',
-          pt: '4-7 anos',
-          nl: '4-7 jaar',
-          sv: '4-7 år',
-          da: '4-7 år',
-          no: '4-7 år',
-          fi: '4-7 vuotta'
-        },
-        image_url: '/worksheet-samples/i-spy.png',
-        featured: false,
-        sort_order: 5
-      },
-      {
-        name: {
-          en: 'Pattern Train',
-          de: 'Muster-Zug',
-          fr: 'Train de Motifs',
-          es: 'Tren de Patrones',
-          it: 'Treno dei Pattern',
-          pt: 'Trem de Padrões',
-          nl: 'Patroon Trein',
-          sv: 'Mönståg',
-          da: 'Mønstertog',
-          no: 'Mønstertog',
-          fi: 'Kuviojuna'
-        },
-        description: {
-          en: 'Complete the pattern sequences',
-          de: 'Vervollständige die Mustersequenzen',
-          fr: 'Complétez les séquences de motifs',
-          es: 'Completa las secuencias de patrones',
-          it: 'Completa le sequenze di pattern',
-          pt: 'Complete as sequências de padrões',
-          nl: 'Maak de patroonreeksen af',
-          sv: 'Komplettera mönstersekvenserna',
-          da: 'Fuldfør mønstersekvenserne',
-          no: 'Fullfør mønstersekvensene',
-          fi: 'Täydennä kuviosarjat'
-        },
-        category: 'logic',
-        difficulty: 'Medium',
-        age_range: {
-          en: '5-8 years',
-          de: '5-8 Jahre',
-          fr: '5-8 ans',
-          es: '5-8 años',
-          it: '5-8 anni',
-          pt: '5-8 anos',
-          nl: '5-8 jaar',
-          sv: '5-8 år',
-          da: '5-8 år',
-          no: '5-8 år',
-          fi: '5-8 vuotta'
-        },
-        image_url: '/worksheet-samples/train.png',
-        featured: true,
-        sort_order: 6
+    // For non-English locales, return 33 samples with locale-specific images
+    const langFolder = languageFolders[locale] || 'english';
+    const langSamples = localeSamples[locale] || {};
+
+    const samples: WorksheetSample[] = [];
+    appConfigs.forEach((config, index) => {
+      // Coloring and Writing use English samples for all languages
+      let imageUrl: string;
+      if (config.app === 'coloring') {
+        imageUrl = '/samples/english/coloring/coloring landscape 3.png';
+      } else if (config.app === 'writing') {
+        imageUrl = '/samples/english/writing/writing custom.jpeg';
+      } else {
+        // Get the locale-specific sample filename
+        const filename = langSamples[config.app];
+        if (filename) {
+          imageUrl = `/samples/${langFolder}/${config.app}/${filename}`;
+        } else {
+          // Fallback to English if no locale-specific sample exists
+          imageUrl = `/samples/english/${config.app}/worksheet.jpeg`;
+        }
       }
-    ];
+
+      samples.push({
+        name: config.names,
+        description: config.descriptions,
+        category: config.category,
+        difficulty: config.difficulty,
+        age_range: config.ageRange,
+        image_url: imageUrl,
+        featured: index < 6,
+        sort_order: index + 1
+      });
+    });
+
+    return samples;
   }
 
   // Get pricing tiers

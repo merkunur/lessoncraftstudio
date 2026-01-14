@@ -1127,5 +1127,28 @@
     "successSubmit": "Support ticket submitted successfully!",
     "errorSubmit": "Failed to submit ticket",
     "errorSubmitRetry": "Failed to submit support ticket. Please try again."
+  },
+  "footer": {
+    "companyName": "LessonCraftStudio",
+    "companyTagline": "Professional worksheet generators for educational publishers.",
+    "product": {
+      "title": "Product",
+      "apps": "Generators",
+      "pricing": "Pricing",
+      "blog": "Blog"
+    },
+    "support": {
+      "title": "Support",
+      "helpCenter": "Help Center",
+      "contact": "Contact",
+      "faq": "FAQ"
+    },
+    "legal": {
+      "title": "Legal",
+      "terms": "Terms of Service",
+      "privacy": "Privacy Policy",
+      "license": "License Terms"
+    },
+    "copyright": "© 2024 LessonCraftStudio. All rights reserved."
   }
 }

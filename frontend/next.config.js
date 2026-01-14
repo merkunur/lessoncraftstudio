@@ -8,6 +8,7 @@ const nextConfig = {
 
   images: {
     domains: ['localhost', 'lessoncraftstudio.com'],
+    unoptimized: true, // Disable image optimization due to standalone mode issues
   },
 
   // Increase file upload size limit

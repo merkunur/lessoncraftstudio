@@ -180,6 +180,36 @@ const localeContent: Record<string, {
   },
 };
 
+// Locale to language folder mapping for dynamic hero images
+const localeToLanguage: Record<string, string> = {
+  en: 'english',
+  de: 'german',
+  fr: 'french',
+  es: 'spanish',
+  it: 'italian',
+  pt: 'portuguese',
+  nl: 'dutch',
+  da: 'danish',
+  sv: 'swedish',
+  no: 'norwegian',
+  fi: 'finnish',
+};
+
+// Fallback hero images - empty by default, content manager uploads provide images
+const fallbackHeroImages: Record<string, { portrait: string; landscape: string }> = {
+  en: { portrait: '', landscape: '' },
+  de: { portrait: '', landscape: '' },
+  fr: { portrait: '', landscape: '' },
+  es: { portrait: '', landscape: '' },
+  it: { portrait: '', landscape: '' },
+  pt: { portrait: '', landscape: '' },
+  nl: { portrait: '', landscape: '' },
+  sv: { portrait: '', landscape: '' },
+  da: { portrait: '', landscape: '' },
+  no: { portrait: '', landscape: '' },
+  fi: { portrait: '', landscape: '' },
+};
+
 export default function HomepageHero({ locale }: HomepageHeroProps) {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
   const [isHovered, setIsHovered] = useState<'left' | 'right' | null>(null);
@@ -187,6 +217,37 @@ export default function HomepageHero({ locale }: HomepageHeroProps) {
 
   // Get content for current locale, fallback to English
   const content = localeContent[locale] || localeContent.en;
+
+  // Get dynamic hero image paths
+  const language = localeToLanguage[locale] || 'english';
+  const fallbackImages = fallbackHeroImages[locale] || fallbackHeroImages.en;
+
+  // Initialize with fallback images, then update from API
+  const [heroImageSources, setHeroImageSources] = useState<{ portrait: string; landscape: string }>({
+    portrait: fallbackImages.portrait,
+    landscape: fallbackImages.landscape
+  });
+
+  // Fetch hero image status from server-side API (reliable, no client-side caching issues)
+  // Using explicit async function to prevent tree-shaking
+  useEffect(() => {
+    const fetchHeroImages = async () => {
+      try {
+        const response = await fetch(`/api/homepage/hero-images?locale=${locale}`);
+        const data = await response.json();
+        if (data.portraitUrl || data.landscapeUrl) {
+          setHeroImageSources({
+            portrait: data.portraitUrl || '',
+            landscape: data.landscapeUrl || '',
+          });
+        }
+      } catch (error) {
+        // On error, keep current state
+        console.debug('[HomepageHero] Hero images fetch failed:', error);
+      }
+    };
+    fetchHeroImages();
+  }, [locale]);
 
   const { scrollY } = useScroll();
   const y1 = useTransform(scrollY, [0, 500], [0, 150]);
@@ -196,6 +257,10 @@ export default function HomepageHero({ locale }: HomepageHeroProps) {
   const springConfig = { stiffness: 100, damping: 30 };
   const springX = useSpring(mousePosition.x, springConfig);
   const springY = useSpring(mousePosition.y, springConfig);
+
+  // Pre-compute inverted spring transforms at top level (hooks must not be called conditionally)
+  const invertedSpringX = useTransform(springX, v => v * -0.5);
+  const invertedSpringY = useTransform(springY, v => v * -0.5);
 
   useEffect(() => {
     const handleMouseMove = (e: MouseEvent) => {
@@ -251,18 +316,22 @@ export default function HomepageHero({ locale }: HomepageHeroProps) {
     return altTexts[type][locale as keyof typeof altTexts.addition] || altTexts[type].en;
   };
 
-  const previewWorksheets = [
+  // Check if we have any hero images to display
+  const hasHeroImages = !!(heroImageSources.portrait || heroImageSources.landscape);
+
+  // Create preview worksheets using dynamic hero images (only if available)
+  const previewWorksheets = hasHeroImages ? [
     {
-      src: '/samples/english/addition/addition_worksheet portrait.jpeg',
+      src: heroImageSources.portrait,
       alt: getAltText('addition'),
       title: content.previewTitles[0],
     },
     {
-      src: '/samples/english/wordsearch/wordsearch landscape.jpeg',
+      src: heroImageSources.landscape,
       alt: getAltText('wordsearch'),
       title: content.previewTitles[1],
     },
-  ];
+  ] : [];
 
   return (
     <section
@@ -533,7 +602,8 @@ export default function HomepageHero({ locale }: HomepageHeroProps) {
               </motion.div>
             </motion.div>
 
-            {/* Right column - Preview cards */}
+            {/* Right column - Preview cards (only shown when hero images are uploaded) */}
+            {hasHeroImages && previewWorksheets.length > 0 && (
             <motion.div
               initial={{ opacity: 0, x: 30 }}
               animate={{ opacity: 1, x: 0 }}
@@ -610,8 +680,8 @@ export default function HomepageHero({ locale }: HomepageHeroProps) {
                 <motion.div
                   className="absolute bottom-8 right-0 w-[300px]"
                   style={{
-                    x: useTransform(springX, v => v * -0.5),
-                    y: useTransform(springY, v => v * -0.5),
+                    x: invertedSpringX,
+                    y: invertedSpringY,
                     rotateY: isHovered === 'right' ? -5 : 5,
                     rotateX: isHovered === 'right' ? 5 : -5,
                   }}
@@ -680,6 +750,7 @@ export default function HomepageHero({ locale }: HomepageHeroProps) {
                 />
               </div>
             </motion.div>
+            )}
           </div>
         </div>
       </motion.div>

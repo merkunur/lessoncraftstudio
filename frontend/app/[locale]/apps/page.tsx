@@ -143,7 +143,7 @@ const apps: App[] = [
   { id: 'coloring', name: 'Coloring Pages', tier: 'core', category: 'Art & Creativity', icon: '🎨', popular: true },
   { id: 'math-worksheet', name: 'Math Worksheets', tier: 'core', category: 'Math', icon: '📐', popular: true },
   { id: 'word-scramble', name: 'Word Scramble', tier: 'core', category: 'Language Arts', icon: '🔤', popular: true },
-  { id: 'find-and-count', name: 'I Spy', tier: 'core', category: 'Visual Perception', icon: '🔢', popular: true },
+  { id: 'find-and-count', name: 'Find and Count', tier: 'core', category: 'Visual Perception', icon: '🔢', popular: true },
   { id: 'matching-app', name: 'MatchUp Maker', tier: 'core', category: 'Matching', icon: '🎯', popular: true },
   { id: 'drawing-lines', name: 'Drawing Lines', tier: 'core', category: 'Fine Motor Skills', icon: '✏️', popular: true },
   { id: 'picture-bingo', name: 'Picture Bingo', tier: 'core', category: 'Games', icon: '🎲', popular: true },

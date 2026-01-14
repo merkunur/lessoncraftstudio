@@ -57,6 +57,24 @@ function generateFilename(altText: string): string {
   return `${cleaned || 'worksheet'}-sample.pdf`;
 }
 
+// Convert image path to optimized thumbnail path (400px webp)
+function getThumbnailPath(src: string): string {
+  if (!src) return src;
+  // Remove extension and add _thumb.webp
+  const lastDot = src.lastIndexOf('.');
+  if (lastDot === -1) return src;
+  return src.substring(0, lastDot) + '_thumb.webp';
+}
+
+// Convert image path to optimized preview path (800px webp)
+function getPreviewPath(src: string): string {
+  if (!src) return src;
+  // Remove extension and add _preview.webp
+  const lastDot = src.lastIndexOf('.');
+  if (lastDot === -1) return src;
+  return src.substring(0, lastDot) + '_preview.webp';
+}
+
 export default function SampleGallery({
   locale,
   samples,
@@ -78,6 +96,8 @@ export default function SampleGallery({
   const [direction, setDirection] = useState(0);
   const [isLoading, setIsLoading] = useState(true);
   const [downloadingId, setDownloadingId] = useState<string | null>(null);
+  const [failedThumbs, setFailedThumbs] = useState<Set<string>>(new Set());
+  const [failedPreviews, setFailedPreviews] = useState<Set<string>>(new Set());
   const thumbnailContainerRef = useRef<HTMLDivElement>(null);
   const touchStartX = useRef(0);
   const touchEndX = useRef(0);
@@ -110,9 +130,12 @@ export default function SampleGallery({
   }, [downloadingId]);
 
   const currentSample = samples[currentIndex];
+  // Original source (for lightbox full quality)
   const currentImageSrc = showAnswerKey
     ? currentSample?.answerKeySrc
     : currentSample?.worksheetSrc;
+  // Optimized preview (for main preview area - 800px)
+  const currentPreviewSrc = getPreviewPath(currentImageSrc || '');
 
   // Keyboard navigation
   useEffect(() => {
@@ -294,11 +317,12 @@ export default function SampleGallery({
                   }`}
                 >
                   <Image
-                    src={sample.worksheetSrc}
+                    src={failedThumbs.has(sample.id) ? sample.worksheetSrc : getThumbnailPath(sample.worksheetSrc)}
                     alt={sample.altText}
                     fill
                     className="object-cover"
                     sizes="(max-width: 640px) 50vw, (max-width: 1024px) 25vw, 20vw"
+                    onError={() => setFailedThumbs(prev => new Set(prev).add(sample.id))}
                   />
 
                   {/* Overlay gradient */}
@@ -435,14 +459,16 @@ export default function SampleGallery({
                   }}
                   className="absolute inset-0"
                 >
-                  {currentImageSrc && (
+                  {currentPreviewSrc && (
                     <Image
-                      src={currentImageSrc}
+                      src={failedPreviews.has(`${currentSample?.id}-${showAnswerKey}`) ? currentImageSrc : currentPreviewSrc}
                       alt={currentSample?.altText || 'Worksheet sample'}
                       fill
                       className={`object-contain p-6 transition-opacity duration-300 ${isLoading ? 'opacity-0' : 'opacity-100'}`}
                       onLoad={() => setIsLoading(false)}
+                      onError={() => setFailedPreviews(prev => new Set(prev).add(`${currentSample?.id}-${showAnswerKey}`))}
                       priority={currentIndex === 0}
+                      sizes="(max-width: 1024px) 100vw, 800px"
                     />
                   )}
 

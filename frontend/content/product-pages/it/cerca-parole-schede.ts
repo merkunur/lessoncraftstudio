@@ -14,7 +14,7 @@ export const wordSearchItContent: ProductPageContent = {
   // SEO Metadata
   seo: {
     slug: 'cerca-parole-schede',
-    appId: 'word-search',
+    appId: 'wordsearch',
     title: 'Generatore di Crucipuzzle | Schede Didattiche Scuola Primaria Stampabili',
     description: 'Crea crucipuzzle professionali con il nostro generatore di schede didattiche. Genera schede didattiche scuola primaria illimitate per la scuola dell\'infanzia e la scuola primaria. Scarica schede didattiche PDF di alta qualità in meno di 3 minuti.',
     keywords: 'crucipuzzle, schede didattiche, scuola primaria, schede stampabili, generatore crucipuzzle, schede didattiche scuola primaria, schede italiano classe prima, pregrafismo, alfabeto, schede matematica',

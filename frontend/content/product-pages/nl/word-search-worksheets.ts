@@ -26,7 +26,7 @@ export const wordSearchNlContent: ProductPageContent = {
   // SEO Metadata - Dutch language-specific
   seo: {
     slug: 'woordzoeker-werkbladen',
-    appId: 'word-search',
+    appId: 'wordsearch',
     title: 'Woordzoeker Generator - Gratis Oefenbladen voor Werkbladen Groep 3 en Kleuters',
     description: 'Maak professionele woordzoekers voor het basisonderwijs. Deze gratis woordzoeker generator is perfect voor werkbladen groep 3, werkbladen kleuters en oefenbladen. Ontwerp werkbladen die kinderen uitdagen en vermaken. De woordzoeker maker werkt volledig in het Nederlands.',
     keywords: 'woordzoeker generator, werkbladen groep 3, werkbladen kleuters, oefenbladen gratis, letters leren, veilig leren lezen, rekenen werkbladen, kleurplaten, fijne motoriek, sommen tot 20',

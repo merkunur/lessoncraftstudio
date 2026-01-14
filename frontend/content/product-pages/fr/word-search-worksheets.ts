@@ -14,7 +14,7 @@ export const wordSearchFrContent: ProductPageContent = {
   // SEO Metadata - French language-specific
   seo: {
     slug: 'mots-caches-fiches',
-    appId: 'word-search',
+    appId: 'wordsearch',
     title: 'Générateur de Mots Mêlés Gratuit | Fiches à Imprimer Gratuit Maternelle et CP',
     description: 'Créez des mots mêlés professionnels avec notre générateur de fiches maternelle. Parfait pour les enseignants de maternelle, CP et CE1. Téléchargez des fiches à imprimer gratuit en PDF haute qualité en moins de trois minutes.',
     keywords: 'mots mêlés, générateur mots cachés, fiches maternelle, fiches à imprimer gratuit, exercices CP, apprendre à lire, alphabet, graphisme maternelle, tables de multiplication, coloriage à imprimer',

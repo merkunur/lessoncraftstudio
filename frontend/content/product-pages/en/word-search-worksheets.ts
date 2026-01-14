@@ -14,7 +14,7 @@ export const wordSearchEnContent: ProductPageContent = {
   // SEO Metadata
   seo: {
     slug: 'word-search-worksheets',
-    appId: 'word-search',
+    appId: 'wordsearch',
     title: 'Free Printable Word Search Worksheets | Word Search Generator for Kindergarten',
     description: 'Create professional word search worksheets in seconds with our word search generator. Perfect for kindergarten teachers, first grade educators, and homeschool parents. Generate custom word search puzzles using images or words in just three clicks.',
     keywords: 'word search worksheets, word search generator, kindergarten worksheets, printable worksheets, word search puzzles, free worksheets, first grade worksheets, vocabulary worksheets, sight words worksheets, phonics worksheets',

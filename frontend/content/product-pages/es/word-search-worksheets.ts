@@ -14,7 +14,7 @@ export const wordSearchEsContent: ProductPageContent = {
   // SEO Metadata - Spanish language-specific
   seo: {
     slug: 'sopa-letras-fichas',
-    appId: 'word-search',
+    appId: 'wordsearch',
     title: 'Generador de Sopas de Letras Gratis | Fichas para Imprimir Educación Infantil y Preescolar',
     description: 'Crea sopas de letras profesionales con nuestro generador de fichas gratis. Perfecto para maestros de educación infantil y preescolar. Genera fichas para imprimir personalizadas en PDF de alta calidad en menos de tres minutos.',
     keywords: 'sopa de letras, generador fichas gratis, fichas para imprimir, educación infantil, preescolar, fichas del abecedario, grafomotricidad, lectoescritura, tablas de multiplicar, dibujos para colorear',

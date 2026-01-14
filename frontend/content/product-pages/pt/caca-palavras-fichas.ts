@@ -14,7 +14,7 @@ export const wordSearchPtContent: ProductPageContent = {
   // SEO Metadata
   seo: {
     slug: 'caca-palavras-fichas',
-    appId: 'word-search',
+    appId: 'wordsearch',
     title: 'Gerador de Caça-Palavras Grátis | Atividades para Imprimir e Atividades de Alfabetização',
     description: 'Crie caça-palavras personalizados em poucos cliques. Baixe atividades para imprimir em PDF para educação infantil e ensino fundamental. Atividades de alfabetização com gabarito. Coordenação motora e desenvolvimento cognitivo.',
     keywords: 'caça-palavras, atividades para imprimir, atividades de alfabetização, educação infantil, ensino fundamental, 1º ano, 2º ano, coordenação motora, vogais, alfabeto, tabuada, letra cursiva, pontilhado, desenhos para colorir',

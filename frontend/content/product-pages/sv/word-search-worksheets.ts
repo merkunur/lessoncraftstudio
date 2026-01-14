@@ -14,7 +14,7 @@ export const wordSearchSvContent: ProductPageContent = {
   // SEO Metadata - Swedish language-specific
   seo: {
     slug: 'ordletar-arbetsblad',
-    appId: 'word-search',
+    appId: 'wordsearch',
     title: 'Gratis Ordletare Generator | Arbetsblad för Förskoleklass och Lågstadiet',
     description: 'Skapa professionella ordletarpussel med vår gratis ordletare generator. Perfekt för förskoleklass material och lågstadiet. Ladda ner arbetsblad gratis som högkvalitativa PDF-filer på under tre minuter.',
     keywords: 'ordletare generator, arbetsblad gratis, förskoleklass material, matematik arbetsblad, ordletarpussel, gratis arbetsblad, lågstadiet, bokstäver lära sig, skriva bokstäver, målarbilder barn',

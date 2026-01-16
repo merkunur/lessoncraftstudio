@@ -19,6 +19,8 @@ import { ProductPageContent } from '@/components/product-page/ProductPageClient'
 export const pictureBingoEnContent: ProductPageContent = {
   // SEO Metadata
   seo: {
+    slug: 'picture-bingo-worksheets',
+    appId: 'bingo',
     title: 'Free Printable Bingo Cards for Kindergarten | Bingo Worksheet Generator',
     description: 'Create free printable bingo cards with our worksheet generator. Generate kindergarten worksheets and first grade bingo cards for sight words, phonics, and math. Download PDF in 3 minutes.',
     keywords: 'bingo worksheets, printable bingo cards, kindergarten worksheets, free printable worksheets, picture bingo, first grade worksheets, sight words worksheets, phonics worksheets, alphabet worksheets, math worksheets, free worksheet, worksheet for kids, free printables',

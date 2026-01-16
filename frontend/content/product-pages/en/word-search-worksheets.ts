@@ -70,6 +70,20 @@ This word search generator works in 11 languages. Select a theme like animals or
         altText: 'Free word search worksheets with custom word list - sight words worksheets and phonics practice for first grade',
         pdfDownloadUrl: '/samples/english/wordsearch/custom word list.pdf',
       },
+      {
+        id: '4',
+        worksheetSrc: '/samples/english/wordsearch/sample-4.jpeg',
+        answerKeySrc: '/samples/english/wordsearch/sample-4-answer.jpeg',
+        altText: 'Kindergarten worksheets word search - free printable worksheets with vocabulary practice for early learners',
+        pdfDownloadUrl: '/samples/english/wordsearch/sample-4.pdf',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/english/wordsearch/sample-5.jpeg',
+        answerKeySrc: '/samples/english/wordsearch/sample-5-answer.jpeg',
+        altText: 'First grade worksheets word search puzzles - phonics worksheets and sight words practice for kids',
+        pdfDownloadUrl: '/samples/english/wordsearch/sample-5.pdf',
+      },
     ],
   },
 
@@ -102,7 +116,7 @@ The editing canvas remembers your preferences. Undo and redo buttons fix mistake
       {
         id: '3',
         icon: '🌍',
-        title: 'Free Word Search Generator: Create Printable Worksheets in 11 Languages',
+        title: 'Free Word Search Puzzles Generator: Create Printable Worksheets and Kindergarten Worksheets in 11 Languages',
         description: `Our word search generator supports 11 complete languages. English, German, French, Spanish, Portuguese, Italian, Dutch, Danish, Swedish, Norwegian, and Finnish. Both the interface and content work in your chosen language. Image names appear in your selected language on worksheets. This feature is essential for ESL teachers and bilingual classrooms.
 
 Language support matters for word search puzzles. Image filenames become the hidden words. A picture of an apple shows as "apple" in English. The same picture shows as "Apfel" in German. This creates authentic phonics worksheets in any language. Students learn vocabulary in their target language. Teachers use one tool for multiple language classes.
@@ -124,7 +138,7 @@ Teachers use custom uploads for specialized vocabulary. Upload pictures of scien
       {
         id: '5',
         icon: '💰',
-        title: 'Free Printables and First Grade Worksheets: Commercial License Included',
+        title: 'Printable Worksheets and First Grade Worksheets: Free Worksheet for Kids with Commercial License',
         description: `Core Bundle subscription includes full commercial licensing. Sell your word search worksheets on Teachers Pay Teachers. List them on Etsy printable shops. Publish worksheet books on Amazon KDP. No additional licensing fees beyond your subscription. This POD license adds real value for teacher entrepreneurs.
 
 Many teachers earn $500 to $5,000 monthly selling worksheets online. Create themed word search packs for seasonal sales. Design subject-specific bundles for math worksheets or phonics practice. Build comprehensive curriculum resources. The commercial license covers all uses. Sell individual worksheets or complete packages. No attribution required on your finished products.
@@ -188,7 +202,7 @@ Select your page format and size. Letter portrait works for standard US classroo
       {
         id: '3',
         number: 3,
-        title: 'Create Free Printables: Generate Word Search Puzzles and First Grade Worksheets',
+        title: 'Create Printable Worksheets: Generate Word Search Puzzles for Kindergarten Worksheets and First Grade',
         description: `Click the generate button to create your word search worksheet. The app builds your puzzle in seconds. Watch as images appear on the canvas. The word list generates automatically. Every element positions perfectly on the page. You see the complete worksheet immediately. No waiting or processing delays. The preview shows exactly what students will see.
 
 The word search algorithm places words intelligently. Words never overlap in confusing ways. The grid fills with random letters around hidden words. Letter distribution looks natural and balanced. Students get a clean, professional word search puzzle. The algorithm works the same whether you chose three images or eight words. Every generated worksheet maintains high quality standards.
@@ -345,7 +359,7 @@ Etsy printable shops feature word search worksheets alongside coloring pages and
       },
       {
         id: '8',
-        question: 'What Age Groups Benefit from Worksheet for Kindergarten and Phonics Worksheets?',
+        question: 'What Age Groups Benefit from Kindergarten Worksheets and First Grade Worksheets?',
         answer: 'Word search worksheets work excellently for ages 4 through 10. Preschoolers aged 4 to 5 use image-based searches without reading requirements. They find matching pictures in the grid. Worksheet for kindergarten works perfectly for ages 5 to 6 who search for simple three-letter words. First graders aged 6 to 7 work with phonics patterns and sight words. Second graders aged 7 to 8 handle larger grids with diagonal words. Third graders aged 8 to 9 complete complex puzzles with reverse words.',
       },
       {
@@ -375,17 +389,17 @@ Etsy printable shops feature word search worksheets alongside coloring pages and
       },
       {
         id: '14',
-        question: 'What Makes This the Best Word Puzzles Generator for Free Worksheet for Kids?',
+        question: 'What Makes This the Best Word Search Puzzles Generator for Printable Worksheets?',
         answer: 'Our word search generator creates the best free worksheet for kids because of several key features. Over 3000 child-friendly images organized by theme. Automatic puzzle generation in seconds. Full editing capabilities on every element. Professional 300 DPI print quality. Answer keys generated automatically. Support for 11 languages. No design skills required. Teachers create engaging worksheet for kids faster than any other method.',
       },
       {
         id: '15',
-        question: 'How Do Word Puzzles and Free Printables Help Worksheet for Kindergarten Learning?',
+        question: 'How Do Word Search Puzzles and Printable Worksheets Help Kindergarten Learning?',
         answer: 'Free printables support kindergarten learning in multiple ways. Word search puzzles develop letter recognition skills. Students practice visual discrimination finding hidden words. Fine motor skills improve through circling found items. Vocabulary expands with themed image collections. Concentration and focus build through puzzle completion. Pre-reading skills develop through letter scanning practice. The worksheet for kindergarten format makes learning feel like play.',
       },
       {
         id: '16',
-        question: 'Can I Create Vocabulary Worksheets for Worksheet for Kids in Different Themes?',
+        question: 'Can I Create Kindergarten Worksheets and First Grade Worksheets in Different Themes?',
         answer: 'Create worksheet for kindergarten in dozens of different themes. Animals include farm animals, zoo animals, ocean creatures, and pets. Transportation covers cars, trucks, planes, boats, and trains. Food themes feature fruits, vegetables, snacks, and meals. Seasonal themes include fall leaves, winter snow, spring flowers, and summer fun. Holiday themes cover major celebrations throughout the year. Each theme contains 20 to 100 related images for variety.',
       },
       {

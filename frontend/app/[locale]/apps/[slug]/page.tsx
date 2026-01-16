@@ -3,7 +3,7 @@ import AutoLaunchApp from './AutoLaunchApp';
 import { notFound, redirect } from 'next/navigation';
 import ProductPageClient from '@/components/product-page/ProductPageClient';
 import { getContentBySlug, getAllStaticParams, getAlternateLanguageUrls } from '@/config/product-page-content';
-import { generateAppProductSchemas, AppProductData } from '@/lib/schema-generator';
+import { generateAppProductSchemas, generateAllProductPageSchemas, AppProductData, ogLocaleMap, localeToLanguageFolder } from '@/lib/schema-generator';
 import additionEnContent from '@/content/product-pages/en/addition-worksheets';
 import wordSearchEnContent from '@/content/product-pages/en/word-search-worksheets';
 import alphabetTrainEnContent from '@/content/product-pages/en/alphabet-train-worksheets';
@@ -271,19 +271,61 @@ interface PageProps {
 /**
  * Schema Markup Component for SEO
  * Injects JSON-LD structured data for Google Search
+ * Includes: SoftwareApplication, BreadcrumbList, WebPage, FAQPage, HowTo, and ImageObject schemas
  */
 function SchemaScripts({
   appData,
   locale,
-  slug
+  slug,
+  content
 }: {
   appData: AppProductData;
   locale: string;
   slug: string;
+  content?: any;
 }) {
   const baseUrl = 'https://www.lessoncraftstudio.com';
   const pageUrl = `${baseUrl}/${locale}/apps/${slug}`;
-  const schemas = generateAppProductSchemas(appData, locale, pageUrl, baseUrl);
+
+  // Prepare FAQ data for schema
+  const faqs = content?.faq?.items?.map((item: any) => ({
+    question: item.question,
+    answer: item.answer
+  }));
+
+  // Prepare HowTo data for schema
+  const howTo = content?.howTo ? {
+    title: content.howTo.sectionTitle || `How to Create ${appData.name}`,
+    description: content.howTo.sectionDescription || appData.description,
+    steps: content.howTo.steps?.map((step: any) => ({
+      name: step.title,
+      text: step.description,
+      image: step.image
+    })) || []
+  } : undefined;
+
+  // Prepare sample images for ImageObject schema
+  const languageFolder = localeToLanguageFolder[locale] || 'english';
+  const sampleImages = content?.samples?.items?.map((sample: any) => ({
+    src: sample.worksheetSrc,
+    name: sample.altText?.split(' - ')[0] || `${appData.name} Sample`,
+    description: sample.altText || `Sample worksheet for ${appData.name}`,
+    caption: `Free printable ${appData.name.toLowerCase()} for educational use`,
+    thumbnailSrc: sample.worksheetSrc?.replace(/\.(jpeg|jpg|png)$/i, '_thumb.webp'),
+    width: 2480,
+    height: 3508
+  })) || [];
+
+  // Generate all schemas using the comprehensive function
+  const schemas = generateAllProductPageSchemas(
+    appData,
+    locale,
+    pageUrl,
+    faqs,
+    howTo,
+    sampleImages,
+    baseUrl
+  );
 
   return (
     <>
@@ -305,6 +347,19 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const content = getContentBySlug(params.locale, params.slug);
   if (content?.seo) {
     const alternateUrls = getAlternateLanguageUrls(content.seo.appId || params.slug, params.locale);
+    const canonicalUrl = content.seo.canonicalUrl || `https://www.lessoncraftstudio.com/${params.locale}/apps/${params.slug}`;
+
+    // Get og:image from hero preview image or first sample
+    const languageFolder = localeToLanguageFolder[params.locale] || 'english';
+    const ogImage = content.hero?.previewImageSrc
+      ? `https://www.lessoncraftstudio.com${content.hero.previewImageSrc.replace(/ /g, '%20')}`
+      : content.samples?.items?.[0]?.worksheetSrc
+        ? `https://www.lessoncraftstudio.com${content.samples.items[0].worksheetSrc.replace(/ /g, '%20')}`
+        : `https://www.lessoncraftstudio.com/opengraph-image.png`;
+
+    // Get og:locale
+    const ogLocale = ogLocaleMap[params.locale] || 'en_US';
+
     return {
       title: content.seo.title,
       description: content.seo.description,
@@ -314,20 +369,29 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
         follow: true,
       },
       alternates: {
-        canonical: content.seo.canonicalUrl || `https://www.lessoncraftstudio.com/${params.locale}/apps/${params.slug}`,
+        canonical: canonicalUrl,
         languages: alternateUrls,
       },
       openGraph: {
         title: content.seo.title,
         description: content.seo.description,
-        url: content.seo.canonicalUrl || `https://www.lessoncraftstudio.com/${params.locale}/apps/${params.slug}`,
+        url: canonicalUrl,
         siteName: 'LessonCraftStudio',
         type: 'website',
+        locale: ogLocale,
+        images: [{
+          url: ogImage,
+          width: 2480,
+          height: 3508,
+          alt: content.hero?.title || content.seo.title,
+        }],
       },
       twitter: {
         card: 'summary_large_image',
         title: content.seo.title,
         description: content.seo.description,
+        images: [ogImage],
+        site: '@lessoncraftstudio',
       },
     };
   }
@@ -5478,7 +5542,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   // Drawing Lines Worksheets product page SEO
   if (params.slug === 'drawing-lines-worksheets' && params.locale === 'en') {
     return {
-      title: 'Free Printable Drawing Lines Worksheets | Kindergarten Fine Motor Skills Generator',
+      title: 'Free Printable Drawing Lines Worksheets | Fine Motor Skills Generator',
       description: 'Create professional drawing lines worksheets with our fine motor skills generator. Generate custom printable kindergarten worksheets perfect for developing hand-eye coordination. Download high-quality PDF worksheets in under 3 minutes.',
       keywords: 'drawing lines worksheets, fine motor skills worksheets, kindergarten worksheets, printable worksheets, matching worksheets, tracing worksheets, free worksheets, first grade worksheets, pencil control, handwriting readiness',
       robots: {
@@ -5493,7 +5557,14 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
         description: 'Create professional drawing lines worksheets for fine motor skills development. Perfect for kindergarten and first grade students.',
         url: 'https://www.lessoncraftstudio.com/en/apps/drawing-lines-worksheets',
         siteName: 'LessonCraftStudio',
+        locale: 'en_US',
         type: 'website',
+        images: [{
+          url: '/samples/english/drawing lines/drawing_lines_curve 1.jpeg',
+          width: 1200,
+          height: 630,
+          alt: 'Drawing lines worksheets free printable - kindergarten fine motor skills matching exercises',
+        }],
       },
     };
   }
@@ -9232,7 +9303,7 @@ export default async function AppPage({ params: { locale, slug } }: PageProps) {
 
     return (
       <>
-        <SchemaScripts appData={schemaAppData} locale={locale} slug={slug} />
+        <SchemaScripts appData={schemaAppData} locale={locale} slug={slug} content={content} />
         <ProductPageClient locale={locale} content={content} slug={slug} />
       </>
     );

@@ -11,6 +11,15 @@ import { ProductPageContent } from '@/components/product-page/ProductPageClient'
  */
 
 export const findObjectsEnContent: ProductPageContent = {
+  // SEO Metadata
+  seo: {
+    slug: 'find-objects-worksheets',
+    appId: 'find-objects',
+    title: 'Find Objects Worksheets Free Printable | Visual Discrimination Kindergarten - LessonCraftStudio',
+    description: 'Create professional find objects worksheets with our I Spy worksheet generator. Free printable visual discrimination worksheets for kindergarten. Download PDF in 3 minutes.',
+    keywords: 'find objects worksheets, visual discrimination worksheets, I Spy worksheets, kindergarten worksheets, free printable worksheets, first grade worksheets, hidden objects worksheets, worksheet for kids, free worksheet, odd one out worksheets',
+  },
+
   // Hero Section - FULL text from find-objects.md paragraphs 1-4
   hero: {
     title: 'Free Printable Kindergarten Worksheets',
@@ -45,14 +54,14 @@ Teachers use our find objects generator to build visual perception skills in you
         id: '1',
         worksheetSrc: '/samples/english/find objects/find objects portrait.jpeg',
         answerKeySrc: '/samples/english/find objects/find objects portrait answer_key.jpeg',
-        altText: 'Find objects worksheet portrait orientation with I Spy visual discrimination activity for kindergarten',
+        altText: 'Find objects worksheets free printable - I Spy visual discrimination worksheet for kindergarten and first grade kids',
         pdfDownloadUrl: '/samples/english/find objects/find objects portrait.pdf',
       },
       {
         id: '2',
         worksheetSrc: '/samples/english/find objects/find objects landscape.jpeg',
         answerKeySrc: '/samples/english/find objects/find objects landscape answer_key.jpeg',
-        altText: 'Find objects worksheet landscape orientation with Odd One Out visual discrimination activity for first grade',
+        altText: 'Find objects worksheets odd one out mode - free worksheet for kids with visual discrimination puzzles landscape',
         pdfDownloadUrl: '/samples/english/find objects/find objects landscape.pdf',
       },
     ],

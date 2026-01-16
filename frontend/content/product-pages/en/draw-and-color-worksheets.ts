@@ -11,6 +11,16 @@ import { ProductPageContent } from '@/components/product-page/ProductPageClient'
  */
 
 export const drawAndColorEnContent: ProductPageContent = {
+  // SEO Metadata - Complete SEO object for meta tags and structured data
+  seo: {
+    appId: 'draw-and-color',
+    slug: 'draw-and-color-worksheets',
+    title: 'Free Printable Coloring Worksheets | Grid Drawing Worksheet Generator - LessonCraftStudio',
+    description: 'Create professional grid drawing coloring worksheets for kindergarten and first grade. Free printable worksheets with 3000+ images. Download PDF worksheets in 3 minutes.',
+    keywords: 'coloring worksheets, grid drawing worksheets, free printable worksheets, kindergarten worksheets, first grade worksheets, free worksheets for kids, worksheet generator, printable coloring pages, visual-spatial worksheets, fine motor skills worksheets',
+    canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/draw-and-color-worksheets',
+  },
+
   // Hero Section - FULL text from draw-and-color.md paragraphs 1-5
   hero: {
     title: 'Free Printable Coloring Worksheets',
@@ -47,42 +57,42 @@ Every worksheet downloads as a professional 300 DPI PDF file. Print at home on s
         id: '1',
         worksheetSrc: '/samples/english/draw and color/grid-drawing_worksheet.jpeg',
         answerKeySrc: '',
-        altText: 'Grid drawing coloring worksheet with clue cells for kindergarten visual-spatial skills',
+        altText: 'Free printable coloring worksheets - grid drawing worksheet for kindergarten visual-spatial skills and fine motor practice',
         pdfDownloadUrl: '/samples/english/draw and color/grid-drawing-worksheet.pdf',
       },
       {
         id: '2',
         worksheetSrc: '/samples/english/draw and color/grid-drawing_worksheet (1).jpeg',
         answerKeySrc: '',
-        altText: 'Printable grid drawing worksheet with adjustable difficulty for first grade students',
+        altText: 'Coloring worksheets free printables - grid drawing worksheet for kids with adjustable difficulty for first grade',
         pdfDownloadUrl: '/samples/english/draw and color/grid-drawing-worksheet (1).pdf',
       },
       {
         id: '3',
         worksheetSrc: '/samples/english/draw and color/grid-drawing_worksheet (2).jpeg',
         answerKeySrc: '',
-        altText: 'Grid coloring activity worksheet for kindergarten fine motor development',
+        altText: 'Free worksheet for kids - grid coloring activity worksheet for kindergarten fine motor development',
         pdfDownloadUrl: '/samples/english/draw and color/grid-drawing-worksheet (2).pdf',
       },
       {
         id: '4',
         worksheetSrc: '/samples/english/draw and color/grid-drawing_worksheet (3).jpeg',
         answerKeySrc: '',
-        altText: 'Visual-spatial reasoning worksheet with grid drawing for early childhood education',
+        altText: 'Worksheet for kindergarten - visual-spatial grid drawing coloring worksheets for early childhood education',
         pdfDownloadUrl: '/samples/english/draw and color/grid-drawing-worksheet (3).pdf',
       },
       {
         id: '5',
         worksheetSrc: '/samples/english/draw and color/grid-drawing_worksheet (4).jpeg',
         answerKeySrc: '',
-        altText: 'Pattern copying grid worksheet for kindergarten coordinate practice',
+        altText: 'Free worksheets for kids - pattern copying grid coloring worksheet for kindergarten coordinate practice',
         pdfDownloadUrl: '/samples/english/draw and color/grid-drawing-worksheet (4).pdf',
       },
       {
         id: '6',
         worksheetSrc: '/samples/english/draw and color/grid-drawing_worksheet (5).jpeg',
         answerKeySrc: '',
-        altText: 'Symmetry coloring worksheet with grid cells for first grade math integration',
+        altText: 'Coloring worksheets free printable - symmetry grid drawing worksheet for first grade math integration',
         pdfDownloadUrl: '/samples/english/draw and color/grid-drawing-worksheet (5).pdf',
       },
     ],
@@ -90,14 +100,14 @@ Every worksheet downloads as a professional 300 DPI PDF file. Print at home on s
 
   // Features Grid - FULL text from draw-and-color.md feature sections
   features: {
-    sectionTitle: 'Grid Drawing Coloring Worksheet Features - Everything You Need for Kindergarten Worksheets and First Grade Worksheets',
+    sectionTitle: 'Grid Drawing Coloring Worksheet Features - Free Worksheets for Kids and Worksheet for Kindergarten',
     sectionDescription: 'Our grid drawing generator includes professional features for creating free printable coloring worksheets. Teachers get complete control over difficulty levels and visual design. Create kindergarten worksheets with simple grids and many clues. Generate first grade worksheets with complex patterns and fewer hints. Every feature works together to produce engaging coloring worksheets that students love. Full Access subscription gives you unlimited worksheet creation for all 33 generators at $240 per year.',
     highlightBadgeText: 'Key Feature',
     items: [
       {
         id: '1',
         icon: '⚡',
-        title: 'Create Kindergarten Coloring Worksheets in 3 Clicks - Fast Free Printable Worksheets Generator',
+        title: 'Create Free Worksheet for Kids in 3 Clicks - Worksheet for Kindergarten Coloring Generator',
         description: `Generate professional grid drawing coloring worksheets in under 3 minutes. Select an image from 3000+ options or upload your own photo. Choose grid size from 3×3 for easy kindergarten worksheets to 10×10 for challenging first grade worksheets. Set clue cell percentage to control difficulty. Click create and your coloring worksheet appears instantly on the canvas. No design skills needed for free printable worksheets that look professionally made.
 
 The simple interface works perfectly for busy teachers creating kindergarten worksheets quickly. Parents generate custom coloring worksheets featuring their child's interests. Select grid dimensions that match student ability levels. Smaller grids with more clues work best for younger children. Larger grids with fewer clues challenge advanced learners. Every click produces high-quality free printable worksheets ready for classroom use.`,
@@ -115,7 +125,7 @@ Click any element on the canvas to select and modify it. Corner handles let you 
       {
         id: '3',
         icon: '📤',
-        title: 'Upload Custom Images for Personalized Coloring Worksheets - Free Printable Kindergarten Worksheets with Student Photos',
+        title: 'Upload Custom Images - Free Printables for Personalized Worksheet for Kids and Kindergarten',
         description: `Upload your own images to create truly personalized free printable coloring worksheets. Use student artwork for unique kindergarten worksheets. Add classroom mascots or school logos. Include photos of field trip locations or science experiments. The multi-file upload accepts all common formats including JPEG, PNG, and GIF. Upload once and images stay available throughout your session.
 
 Combine uploaded photos with library images on the same coloring worksheet. Create first grade worksheets featuring student interests and hobbies. Upload seasonal images for holiday-themed free printable worksheets. Teachers upload shapes and patterns for math-integrated coloring worksheets. Parents upload family photos for extra motivation. Custom images make kindergarten worksheets more engaging because students see familiar, meaningful content. Perfect for differentiated instruction and personalized learning in first grade worksheets.`,
@@ -162,14 +172,14 @@ Choose grayscale conversion to save printer ink on kindergarten worksheets and f
 
   // How-To Guide - FULL text from draw-and-color.md step sections
   howTo: {
-    sectionTitle: 'How to Create Free Printable Coloring Worksheets in 5 Easy Steps - Kindergarten Worksheets and First Grade Worksheets',
+    sectionTitle: 'How to Create Your Free Worksheet in 5 Easy Steps - Free Worksheet for Kids',
     sectionDescription: 'Creating professional grid drawing coloring worksheets takes under 3 minutes from start to download. Follow these five simple steps to generate custom free printable worksheets for kindergarten and first grade students. No technical skills required. The intuitive interface guides you through worksheet creation quickly. Teachers produce classroom-ready coloring worksheets during planning periods. Parents create engaging activities while children eat breakfast. Every step takes seconds to complete for fast, efficient kindergarten worksheets and first grade worksheets.',
     ctaText: 'Start Creating Now',
     steps: [
       {
         id: '1',
         number: 1,
-        title: 'Choose Content for Your Coloring Worksheets - Free Printable Kindergarten Worksheets with 3000+ Images',
+        title: 'Choose Content - Free Worksheet for Kids with 3000+ Images Library',
         description: `Select your worksheet image from our extensive library of 3000+ child-friendly pictures. Browse themed categories including animals, transportation, food, holidays, and nature. Use the search function to find specific images for thematic kindergarten worksheets. Click any image to select it for your grid drawing coloring worksheet. The selected image preview appears immediately.
 
 Upload custom images for personalized free printable worksheets featuring student interests. Add classroom mascots for school-specific kindergarten worksheets. Include photos from field trips or science experiments. Upload multiple images and switch between them during creation. The multi-file upload accepts JPEG, PNG, and GIF formats. Custom images create engaging first grade worksheets that connect to current curriculum units. Select your image library language from 11 options for multilingual coloring worksheets appropriate to ESL and bilingual programs.`,
@@ -294,14 +304,14 @@ Successful sellers earn $500-$5000 monthly from worksheet sales. Generate hundre
 
   // FAQ Section - Selected FAQs from draw-and-color.md
   faq: {
-    sectionTitle: 'Frequently Asked Questions About Coloring Worksheets, Math Worksheets, and Phonics Worksheets',
+    sectionTitle: 'Free Printables FAQ - Worksheet for Kindergarten and First Grade Coloring Worksheets',
     sectionDescription: 'Teachers, parents, and educators ask common questions about creating grid drawing coloring worksheets and integrating them with math worksheets, phonics worksheets, alphabet worksheets, sight words worksheets, addition worksheets, and tracing worksheets. This section answers the most frequent questions about subscription pricing, classroom use, customization options, and educational applications. Full Access subscription at $240 per year provides unlimited worksheet creation across all 33 generators with commercial licensing included.',
     showMoreText: 'Show more questions',
     showLessText: 'Show less',
     items: [
       {
         id: '1',
-        question: 'Is This Grid Drawing Coloring Worksheet Generator Really Free to Use?',
+        question: 'Is This Free Worksheet Generator Really Free to Use?',
         answer: 'The grid drawing coloring worksheet generator requires a Full Access subscription costing $240 annually or $25 monthly. Your subscription gives you unlimited worksheet creation with no per-worksheet fees. Generate as many coloring worksheets, math worksheets, phonics worksheets, alphabet worksheets, sight words worksheets, addition worksheets, and tracing worksheets as you need without additional charges. Create hundreds of worksheets monthly for the same flat subscription price. The Core Bundle includes 10 popular worksheet generators and costs $144 annually. Full Access subscription costs $240 annually and includes all 33 worksheet generator types including grid drawing coloring worksheets. Both subscriptions include commercial licensing, 11 language support, and professional 300 DPI quality exports. The unlimited creation model saves teachers thousands compared to per-worksheet or per-download pricing from competitors.',
       },
       {
@@ -358,6 +368,36 @@ Successful sellers earn $500-$5000 monthly from worksheet sales. Generate hundre
         id: '12',
         question: 'Can I Create Thematic Coloring Worksheets with Addition Worksheets, Sight Words Worksheets, and Math Worksheets?',
         answer: 'Yes, create thematic coloring worksheets integrated with addition worksheets, sight words worksheets, math worksheets, phonics worksheets, alphabet worksheets, and tracing worksheets using the extensive image library. Browse 3000+ images organized by theme including animals, holidays, seasons, food, transportation, and nature. Select images matching your curriculum units for cohesive thematic materials. Upload custom images to create unique thematic connections unavailable in the standard library. Combine grid drawing coloring worksheets with other generators from the 33-app platform to build comprehensive themed learning packets. Create Halloween math worksheets bundles, spring phonics worksheets collections, or ocean unit alphabet worksheets packages. The thematic organization increases student engagement and supports integrated curriculum planning across subject areas.',
+      },
+      {
+        id: '13',
+        question: 'How Do I Get Free Printables for My Classroom?',
+        answer: 'Access free printables and professional coloring worksheets through the Full Access subscription at $240 per year. Your subscription provides unlimited worksheet creation with no per-download fees. Generate as many free printables as your classroom needs including coloring worksheets, math worksheets, phonics worksheets, and tracing worksheets. The flat annual fee means every additional worksheet costs nothing extra. Teachers create hundreds of free printables monthly for differentiated instruction. Download PDF files instantly for immediate classroom use. The subscription model makes every worksheet essentially free after your initial investment, with the cost per worksheet approaching zero as you create more materials for your students.',
+      },
+      {
+        id: '14',
+        question: 'What Makes This the Best Free Worksheet for Kids?',
+        answer: 'This free worksheet for kids generator combines professional quality with exceptional ease of use. Create engaging grid drawing coloring worksheets in under 3 minutes with no design skills required. The 3000+ image library provides endless variety for worksheet for kids creation. Adjustable difficulty levels serve kindergarten through third grade students. Every free worksheet for kids downloads at professional 300 DPI resolution for perfect printing. The commercial license lets teachers sell their creations. Multilingual support in 11 languages serves diverse classrooms. These features together make our generator the most versatile and valuable free worksheet for kids tool available to educators.',
+      },
+      {
+        id: '15',
+        question: 'Can I Create a Worksheet for Kindergarten Students Instantly?',
+        answer: 'Yes, create a worksheet for kindergarten students in under 3 minutes from start to download. Select an age-appropriate image from the 3000+ library. Choose a simple 3×3 or 4×4 grid size perfect for young learners. Set clue percentage high at 60-80% for kindergarten success. Click generate and your worksheet for kindergarten appears instantly. The simple interface requires no technical skills. Teachers produce classroom-ready worksheet for kindergarten materials during quick planning periods. Parents create engaging activities in minutes. Every worksheet for kindergarten downloads immediately in high-quality PDF format ready for printing.',
+      },
+      {
+        id: '16',
+        question: 'Are These Free Worksheets for Kids Really High Quality?',
+        answer: 'Absolutely. All free worksheets for kids download at professional 300 DPI resolution matching commercial publishing standards. Grid lines stay crisp and clear when printed on any standard home or school printer. The quality remains excellent when photocopied multiple times for classroom distribution. Teachers selling free worksheets for kids on Teachers Pay Teachers receive five-star reviews for professional quality. The high resolution ensures coloring worksheets, math worksheets, and all other free worksheets for kids look professionally designed and printed regardless of your equipment.',
+      },
+      {
+        id: '17',
+        question: 'How Many Free Printables Can I Download Per Month?',
+        answer: 'Your Full Access subscription includes unlimited free printables downloads with no monthly caps or restrictions. Create and download as many coloring worksheets, math worksheets, phonics worksheets, and other free printables as you need. Some teachers generate 50-100 free printables monthly for differentiated instruction. Others create 200+ during curriculum development periods. The unlimited model means you never worry about running out of downloads. Generate free printables for every student, every unit, every season without additional costs. Your $240 annual subscription covers everything with no per-worksheet fees.',
+      },
+      {
+        id: '18',
+        question: 'What\'s Included in a Free Worksheet for Kids Download?',
+        answer: 'Every free worksheet for kids download includes a complete, ready-to-print PDF file at 300 DPI professional resolution. Grid drawing coloring worksheets include both the clue grid and empty drawing grid on one page. The visual answer key is the original image students referenced. PDF files print perfectly on letter or A4 paper. JPEG export option available for digital distribution. No watermarks on any free worksheet for kids. Full commercial rights included with your subscription. Each free worksheet for kids represents a complete, classroom-ready activity requiring no additional preparation before student use.',
       },
     ],
   },

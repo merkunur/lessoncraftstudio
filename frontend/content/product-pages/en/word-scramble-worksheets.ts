@@ -11,6 +11,15 @@ import { ProductPageContent } from '@/components/product-page/ProductPageClient'
  */
 
 export const wordScrambleEnContent: ProductPageContent = {
+  // SEO Metadata
+  seo: {
+    title: 'Free Printable Word Scramble Worksheets | Vocabulary Puzzle Generator',
+    description: 'Create word scramble worksheets with our free generator. Perfect for kindergarten and first grade vocabulary practice. Download PDF worksheets instantly.',
+    keywords: 'word scramble worksheets, free printable worksheets, kindergarten worksheets, vocabulary worksheets, word scramble generator, spelling worksheets, first grade worksheets, sight words worksheets, phonics worksheets, ABC worksheets',
+    appId: 'word-scramble',
+    slug: 'word-scramble-worksheets',
+  },
+
   // Hero Section - FULL text from word-scramble.md paragraphs 1-5
   hero: {
     title: 'Free Printable Word Scramble Worksheets',
@@ -47,21 +56,21 @@ Every worksheet downloads as a 300 DPI professional-quality PDF or JPEG file. In
         id: '1',
         worksheetSrc: '/samples/english/word scramble/word scramble portrait.jpeg',
         answerKeySrc: '/samples/english/word scramble/word scramble portrait answer-key.jpeg',
-        altText: 'Word scramble puzzle portrait mode with themed images for kindergarten vocabulary practice',
+        altText: 'Word scramble worksheets free printable - portrait vocabulary puzzles for kindergarten and first grade students',
         pdfDownloadUrl: '/samples/english/word scramble/word scramble portrait.pdf',
       },
       {
         id: '2',
         worksheetSrc: '/samples/english/word scramble/word scramble landscape.jpeg',
         answerKeySrc: '/samples/english/word scramble/word scramble landscape answer-key.jpeg',
-        altText: 'Landscape word scramble worksheet with colorful picture clues for first grade',
+        altText: 'Free word scramble worksheets landscape - spelling puzzles with picture clues for kindergarten kids',
         pdfDownloadUrl: '/samples/english/word scramble/word scramble landscape.pdf',
       },
       {
         id: '3',
         worksheetSrc: '/samples/english/word scramble/custom word list.jpeg',
         answerKeySrc: '/samples/english/word scramble/custom word list answer-key.jpeg',
-        altText: 'Custom word list word scramble for spelling practice and sight words',
+        altText: 'Word scramble generator printable worksheets - custom word list for sight words and vocabulary practice',
         pdfDownloadUrl: '/samples/english/word scramble/custom word list.pdf',
       },
     ],

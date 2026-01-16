@@ -5906,9 +5906,9 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   // Odd One Out Worksheets product page SEO
   if (params.slug === 'odd-one-out-worksheets' && params.locale === 'en') {
     return {
-      title: 'Free Printable Odd One Out Worksheets | Critical Thinking Worksheet Generator',
-      description: 'Create professional odd one out worksheets with our critical thinking worksheet generator. Generate custom printable worksheets perfect for kindergarten and first grade students. Download high-quality PDF worksheets in under 3 minutes.',
-      keywords: 'odd one out worksheets, critical thinking worksheets, kindergarten worksheets, visual discrimination, printable worksheets, categorization worksheets, worksheet generator, free worksheets, first grade worksheets, logic worksheets',
+      title: 'Free Odd One Out Worksheets | Visual Discrimination Worksheet Generator',
+      description: 'Create free printable odd one out worksheets with our worksheet generator. Critical thinking worksheets for kindergarten and first grade. Download PDF in 3 minutes.',
+      keywords: 'odd one out worksheets, critical thinking worksheets, kindergarten worksheets, visual discrimination worksheets, printable worksheets, categorization worksheets, worksheet generator, free worksheets, first grade worksheets, logic worksheets, worksheet for kids, free printable worksheets',
       robots: {
         index: true,
         follow: true,
@@ -5917,11 +5917,12 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
         canonical: `https://www.lessoncraftstudio.com/en/apps/odd-one-out-worksheets`,
       },
       openGraph: {
-        title: 'Free Printable Odd One Out Worksheets | LessonCraftStudio',
-        description: 'Create professional odd one out worksheets with our critical thinking worksheet generator. Perfect for kindergarten and first grade students.',
+        title: 'Free Odd One Out Worksheets | Visual Discrimination Worksheet Generator',
+        description: 'Create free printable odd one out worksheets with our worksheet generator. Critical thinking worksheets for kindergarten and first grade. Download PDF in 3 minutes.',
         url: 'https://www.lessoncraftstudio.com/en/apps/odd-one-out-worksheets',
         siteName: 'LessonCraftStudio',
         type: 'website',
+        locale: 'en_US',
       },
     };
   }

@@ -11,6 +11,15 @@ import { ProductPageContent } from '@/components/product-page/ProductPageClient'
  */
 
 export const crosswordEnContent: ProductPageContent = {
+  // SEO metadata for proper title, description, and keywords
+  seo: {
+    slug: 'crossword-worksheets',
+    appId: 'image-crossword',
+    title: 'Free Printable Crossword Worksheets | Picture Crossword Generator for Kids',
+    description: 'Create free printable crossword worksheets with our picture crossword generator. Download PDF crossword puzzles for kindergarten. Instant worksheet download in 3 minutes.',
+    keywords: 'crossword worksheets, free printable crossword, picture crossword generator, crossword for kindergarten, crossword puzzles for kids, free worksheet, worksheet for kids, kindergarten worksheets, first grade worksheets, printable crossword puzzles',
+  },
+
   // Hero Section - FULL text from crossword.md paragraphs 1-5
   hero: {
     title: 'Free Printable Crossword Worksheets',
@@ -47,14 +56,16 @@ Generate crossword puzzles in 11 languages including English, Spanish, French, G
         id: '1',
         worksheetSrc: '/samples/english/crossword/crossword_worksheet.jpeg',
         answerKeySrc: '/samples/english/crossword/crossword_answer_key.jpeg',
-        altText: 'Picture crossword puzzle worksheet with 8 image clues for kindergarten vocabulary practice',
+        altText: 'Free printable crossword worksheets with picture clues - kindergarten vocabulary worksheet for kids',
+        imageTitle: 'Free Crossword Worksheet for Kids - Picture Vocabulary Puzzle',
         pdfDownloadUrl: '/samples/english/crossword/image-crossword-worksheet.pdf',
       },
       {
         id: '2',
         worksheetSrc: '/samples/english/crossword/crossword_worksheet (1).jpeg',
         answerKeySrc: '/samples/english/crossword/crossword_answer_key (1).jpeg',
-        altText: 'Picture crossword worksheet with themed images for first grade spelling practice',
+        altText: 'Picture crossword puzzle free worksheet - first grade spelling practice worksheets for kindergarten',
+        imageTitle: 'Picture Crossword Worksheets - Free Printable Spelling Puzzle',
         pdfDownloadUrl: '/samples/english/crossword/image-crossword-worksheet (1).pdf',
       },
     ],
@@ -221,7 +232,7 @@ Generate crossword puzzles in 11 languages including English, Spanish, French, G
   // FAQ Section - ALL questions from crossword.md
   faq: {
     sectionTitle: 'Frequently Asked Questions',
-    sectionDescription: 'Teachers ask common questions about using our crossword generator for creating kindergarten worksheets and first grade worksheets. This section answers 12 frequently asked questions covering worksheet creation, customization, commercial licensing, and technical requirements. Understanding these details helps you maximize your Full Access subscription when generating phonics worksheets, sight words worksheets, and alphabet worksheets for classroom use.',
+    sectionDescription: 'Teachers ask common questions about using our crossword generator for creating kindergarten worksheets and first grade worksheets. This section answers 18 frequently asked questions covering worksheet creation, customization, commercial licensing, and technical requirements. Understanding these details helps you maximize your Full Access subscription when generating phonics worksheets, sight words worksheets, and alphabet worksheets for classroom use.',
     showMoreText: 'Show more questions',
     showLessText: 'Show less',
     items: [
@@ -284,6 +295,36 @@ Generate crossword puzzles in 11 languages including English, Spanish, French, G
         id: '12',
         question: 'How Does the Picture Crossword Generator Compare to Other Worksheet Makers?',
         answer: 'Our crossword generator offers superior value combining unlimited generation, full editing, commercial licensing, and 32 additional tools for one $240 annual subscription. Competitors charge similar prices but restrict commercial use, limit downloads, or require separate subscriptions for each worksheet type. Our comprehensive platform eliminates piecing together multiple services when creating kindergarten worksheets and first grade worksheets. Education.com charges $110 annually but prohibits commercial use entirely and limits customization options. You cannot sell worksheets created with their tools making it unsuitable for teachers building phonics worksheets or sight words worksheets businesses on Teachers Pay Teachers. Canva Pro costs $120 yearly but requires design skills and lacks educational templates specifically optimized for alphabet worksheets and addition worksheets. Our platform includes teacher-friendly features missing from general design tools. Pre-made educational templates, 3000+ child-appropriate images, automatic answer key generation, and curriculum-aligned options make creating math worksheets faster than starting from scratch in Canva. Commercial licensing, unlimited downloads, and 32 additional generators provide unmatched value for teachers creating comprehensive free printable worksheets collections.',
+      },
+      {
+        id: '13',
+        question: 'Is This Really a Free Worksheet Generator for Crossword Puzzles?',
+        answer: 'Our crossword generator operates on a subscription model that provides exceptional value for creating free printable worksheets. Your Full Access subscription includes unlimited crossword generation making each worksheet essentially free after you subscribe. We offer sample downloads so you can test our kindergarten worksheets quality before committing. Many teachers find the subscription pays for itself by eliminating the need to purchase multiple worksheet bundles. The "free worksheet" terminology reflects how teachers use our platform - generating unlimited free printable worksheets for their classrooms without per-download fees. Compare this to purchasing individual worksheet packs on Teachers Pay Teachers where costs quickly exceed $240 annually. Our model provides phonics worksheets, sight words worksheets, alphabet worksheets, and first grade worksheets all under one subscription. Subscribers create thousands of worksheets yearly making the effective cost per worksheet essentially zero.',
+      },
+      {
+        id: '14',
+        question: 'Can I Get Free Worksheets for Kids Without Signing Up?',
+        answer: 'Yes, we offer sample worksheet downloads so you can evaluate our quality before subscribing. Browse our sample gallery to download free worksheets for kids in PDF format. These free printable worksheets demonstrate the professional 300 DPI quality and educational design of our crossword puzzles. Use these samples for immediate classroom needs while deciding if a subscription fits your teaching requirements. Sample worksheets include both the puzzle and answer key so you can fully experience our kindergarten worksheets and first grade worksheets. Try our picture crossword samples with your students to see how they respond to the visual format. These free worksheet downloads require no account creation or email signup. Simply click download and receive instant PDF access for phonics worksheets testing in your classroom.',
+      },
+      {
+        id: '15',
+        question: 'What Makes This Worksheet for Kids Different from Other Crossword Makers?',
+        answer: 'Our crossword generator was specifically designed as a worksheet for kids rather than adapted from adult puzzle tools. Every feature focuses on early childhood education needs for kindergarten worksheets through first grade worksheets. Picture clues replace text definitions making crosswords accessible to pre-readers and emerging readers still developing literacy skills. The visual approach works perfectly for phonics worksheets where students connect images to sounds. Child-appropriate images from our 3000+ library ensure all crossword puzzles remain age-appropriate for young learners. Unlike general crossword makers requiring you to write definitions, our generator automatically pairs images with vocabulary for instant sight words worksheets creation. The worksheet for kids design includes larger grid squares for developing handwriting skills similar to tracing worksheets. Educational typography ensures letter formation guides match what students learn in alphabet worksheets.',
+      },
+      {
+        id: '16',
+        question: 'How Do I Print My Free Printables from the Crossword Generator?',
+        answer: 'Download your crossword worksheet as a PDF for highest print quality on your free printables. Click the download button and select PDF format for professional 300 DPI resolution. Open the downloaded file in any PDF reader and select print with default settings. For best results on kindergarten worksheets and first grade worksheets, choose "Actual Size" rather than "Fit to Page" to maintain proper proportions. Enable grayscale mode before downloading if you prefer black-and-white printing for budget-friendly classroom sets of phonics worksheets. Grayscale free printables reduce ink costs significantly when printing multiple copies for whole-class activities. Share PDF files with parents for at-home sight words worksheets practice knowing the worksheets will print identically on any printer. Our alphabet worksheets and crossword puzzles maintain consistent quality across all printing devices.',
+      },
+      {
+        id: '17',
+        question: 'Can I Create a Worksheet for Kindergarten Students with Simple Words?',
+        answer: 'Absolutely! Our crossword generator excels at creating worksheet for kindergarten students using developmentally appropriate vocabulary. Browse our image library for simple three and four letter words perfect for early literacy phonics worksheets. Select images like cat, dog, sun, and hat for CVC word practice on kindergarten worksheets. Use manual edit mode to ensure all vocabulary matches your classroom sight words worksheets word lists. Create differentiated worksheet for kindergarten learners by controlling word complexity. Generate crosswords using only simple vocabulary from our image collection for emerging readers. Build progressively challenging puzzles as students master basic sight words worksheets. The picture clue format eliminates reading requirements for clues making these crossword puzzles accessible to pre-readers still learning alphabet worksheets skills.',
+      },
+      {
+        id: '18',
+        question: 'Are These Free Worksheets Suitable for First Grade Crossword Practice?',
+        answer: 'Yes, our picture crossword generator creates perfect free worksheets for first grade crossword practice and spelling development. First grade worksheets benefit from the visual picture clues that scaffold vocabulary recall. Students connect familiar images to written words reinforcing sight words worksheets mastery. The crossword format encourages careful spelling attention as students must fit words precisely in the grid. Generate first grade worksheets using themed vocabulary that aligns with curriculum units. Create animal crosswords for science integration, food crosswords for nutrition lessons, or transportation crosswords for community studies. Our phonics worksheets support first grade spelling patterns including digraphs, blends, and word families. Download these free worksheets as PDF files for homework packets or literacy center activities combining crossword practice with other alphabet worksheets and kindergarten worksheets for comprehensive vocabulary development.',
       },
     ],
   },

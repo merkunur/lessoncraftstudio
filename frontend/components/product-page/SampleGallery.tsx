@@ -9,6 +9,7 @@ interface Sample {
   worksheetSrc: string;
   answerKeySrc: string;
   altText: string;
+  imageTitle?: string;
   pdfDownloadUrl?: string;
 }
 
@@ -453,10 +454,10 @@ export default function SampleGallery({
                 transition={{ delay: index * 0.1 }}
                 className="group relative"
               >
-                {/* Thumbnail Card */}
-                <div
+                {/* Thumbnail Card - Wrapped in figure for SEO */}
+                <figure
                   onClick={() => goToIndex(index)}
-                  className={`relative aspect-[3/4] rounded-xl overflow-hidden cursor-pointer transition-all duration-300 ${
+                  className={`relative aspect-[3/4] rounded-xl overflow-hidden cursor-pointer transition-all duration-300 m-0 ${
                     index === currentIndex
                       ? 'ring-4 ring-blue-400 ring-offset-4 ring-offset-[#16213e] scale-105 shadow-2xl shadow-blue-500/30'
                       : 'ring-1 ring-white/20 hover:ring-white/40 hover:shadow-xl hover:shadow-white/10 hover:scale-102'
@@ -465,10 +466,12 @@ export default function SampleGallery({
                   <Image
                     src={failedThumbs.has(sample.id) ? sample.worksheetSrc : getThumbnailPath(sample.worksheetSrc)}
                     alt={sample.altText}
+                    title={sample.imageTitle || sample.altText}
                     fill
                     className="object-cover"
                     sizes="(max-width: 640px) 50vw, (max-width: 1024px) 25vw, 20vw"
                     onError={() => setFailedThumbs(prev => new Set(prev).add(sample.id))}
+                    priority={index < 4}
                   />
 
                   {/* Overlay gradient */}
@@ -482,7 +485,12 @@ export default function SampleGallery({
                       animate={{ opacity: 1 }}
                     />
                   )}
-                </div>
+
+                  {/* Screen-reader only figcaption for SEO */}
+                  <figcaption className="sr-only">
+                    {sample.altText}
+                  </figcaption>
+                </figure>
 
                 {/* Download Button ON the thumbnail */}
                 {sample.pdfDownloadUrl && (
@@ -609,6 +617,7 @@ export default function SampleGallery({
                     <Image
                       src={failedPreviews.has(`${currentSample?.id}-${showAnswerKey}`) ? currentImageSrc : currentPreviewSrc}
                       alt={currentSample?.altText || 'Worksheet sample'}
+                      title={currentSample?.imageTitle || currentSample?.altText || 'Worksheet sample'}
                       fill
                       className={`object-contain p-6 transition-opacity duration-300 ${isLoading ? 'opacity-0' : 'opacity-100'}`}
                       onLoad={() => setIsLoading(false)}
@@ -805,6 +814,7 @@ export default function SampleGallery({
                     <Image
                       src={currentImageSrc}
                       alt={currentSample?.altText || 'Worksheet sample'}
+                      title={currentSample?.imageTitle || currentSample?.altText || 'Worksheet sample'}
                       fill
                       className="object-contain"
                       sizes="(max-width: 1280px) 100vw, 1280px"

@@ -13,10 +13,11 @@ import { ProductPageContent } from '@/components/product-page/ProductPageClient'
 export const additionEnContent: ProductPageContent = {
   // SEO Metadata - Optimized for search visibility
   seo: {
+    slug: 'addition-worksheets',
+    appId: 'addition',
     title: 'Free Printable Addition Worksheets | Math Worksheet Generator - LessonCraftStudio',
     description: 'Create professional addition worksheets with our math worksheet generator. Free printable worksheets for kindergarten and first grade. Download PDF in 3 minutes.',
     keywords: 'addition worksheets, math worksheets, kindergarten worksheets, free printable worksheets, first grade worksheets, addition practice, worksheet for kids, free worksheet, coloring worksheets, tracing worksheets',
-    ogImage: '/samples/english/addition/addition_worksheet portrait.jpeg',
   },
 
   // Hero Section - FULL text from addition.md paragraphs 1-4

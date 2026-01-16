@@ -649,6 +649,83 @@ samples: {
 
 ## 4. Image SEO for Google Image Search
 
+> ⚠️ **MANDATORY: IMAGE ALT TEXT OPTIMIZATION** ⚠️
+>
+> Every sample image on every product page MUST have keyword-optimized alt text.
+> This is NOT optional. Images without proper alt text will NOT appear in Google Image searches.
+> When users search for keywords like "word search worksheets" or "kindergarten worksheets",
+> our sample images MUST appear in the results.
+
+### 4.0 MANDATORY Alt Text Requirements (DO NOT SKIP)
+
+**Why This Matters:**
+- Google Image Search drives 20-30% of educational worksheet traffic
+- Users searching "[keyword] + worksheets" often click on image results first
+- Properly optimized alt text = FREE organic traffic from Google Images
+- Missing or generic alt text = INVISIBLE to Google Image Search
+
+**REQUIRED Alt Text Formula:**
+
+```
+{App-Specific Keyword} + {Universal Keyword} + {Variant/Mode} + {Educational Context}
+```
+
+**Character Length:** 80-150 characters (optimal for Google)
+
+**MANDATORY Elements in EVERY Sample Alt Text:**
+1. **Primary app-specific keyword** (e.g., "word search worksheets", "addition worksheets")
+2. **At least one universal keyword** (e.g., "free printable worksheets", "worksheet for kindergarten")
+3. **Variant description** (e.g., "portrait mode", "landscape", "with answer key")
+4. **Educational context** (e.g., "for kindergarten", "first grade math practice")
+
+**CORRECT Examples:**
+
+```typescript
+// Word Search - English
+altText: 'Word search worksheets free printable - portrait mode vocabulary puzzles for kindergarten and first grade'
+altText: 'Word search generator printable worksheets - landscape puzzle with colorful images for kids'
+altText: 'Free word search worksheets with custom word list - sight words practice for first grade'
+
+// Addition - English
+altText: 'Free printable addition worksheets for kindergarten - colorful counting pictures math practice'
+altText: 'Addition worksheets with answer key - first grade math worksheet for kids'
+
+// German Example
+altText: 'Kostenlose Arbeitsblätter Wortsuchrätsel - Grundschule Wortschatz Übungen zum Ausdrucken'
+
+// French Example
+altText: 'Fiches mots cachés gratuites à imprimer - jeux de vocabulaire maternelle et CP'
+
+// Spanish Example
+altText: 'Sopa de letras para imprimir gratis - fichas vocabulario preescolar y primaria'
+```
+
+**WRONG Examples (DO NOT USE):**
+
+```typescript
+// Too generic - no keywords
+altText: 'Word search puzzle portrait mode'  // ❌ WRONG
+
+// Missing universal keywords
+altText: 'Word search with themed images'  // ❌ WRONG
+
+// Too short - missing context
+altText: 'Addition worksheet'  // ❌ WRONG
+
+// Not language-appropriate
+altText: 'German word search worksheet'  // ❌ WRONG (should be in German!)
+```
+
+**Implementation Checklist for EACH Sample Image:**
+
+- [ ] Contains primary app-specific keyword (e.g., "word search worksheets")
+- [ ] Contains at least one universal keyword (e.g., "free printable", "worksheet for kids")
+- [ ] Describes the specific variant (portrait/landscape/custom/etc.)
+- [ ] Includes target audience (kindergarten/first grade/kids)
+- [ ] Is in the SAME LANGUAGE as the page (German pages need German alt text!)
+- [ ] Length is 80-150 characters
+- [ ] Reads naturally (not keyword stuffing)
+
 ### 4.1 Image File Naming Convention
 
 **Current:** `addition_worksheet portrait.jpeg`
@@ -660,37 +737,47 @@ samples: {
 - `mathe-arbeitsblatt-grundschule-addition-german.jpeg`
 - `fiche-addition-maternelle-cp-french.jpeg`
 
-### 4.2 Alt Text Optimization
+### 4.2 Alt Text Optimization (Reinforced)
 
-**Formula:** `{Worksheet Type} + {Mode/Variant} + {Educational Context} + {Target Audience}`
+**⚠️ REMINDER: This is MANDATORY for Google Image Search visibility!**
+
+**Formula:** `{App-Specific Keyword} + {Universal Keyword} + {Variant} + {Educational Context}`
 
 **Requirements:**
-- 80-125 characters
-- Include primary keyword
-- Be genuinely descriptive (accessibility)
-- Include language/market context
+- **80-150 characters** (optimal range)
+- **MUST include primary app-specific keyword** (e.g., "word search worksheets")
+- **MUST include at least one universal keyword** (e.g., "free printable worksheets")
+- Be genuinely descriptive (accessibility compliant)
+- **MUST be in the same language as the page** (German page = German alt text!)
 
-**Examples:**
+**Transformation Examples:**
 
-| Current Alt Text | Optimized Alt Text |
+| ❌ Generic Alt Text | ✅ Optimized Alt Text |
 |-----------------|-------------------|
-| Addition worksheet portrait mode with colorful image counting for kindergarten | Free printable addition worksheet for kindergarten - colorful counting pictures for early math learning |
-| Mixed mode addition worksheet with varied problem types | Mixed addition worksheet with pictures and numbers - kindergarten and first grade math practice |
+| Word search puzzle portrait mode with themed images | Word search worksheets free printable - portrait vocabulary puzzles for kindergarten kids |
+| Addition worksheet portrait mode with colorful image counting | Free printable addition worksheets for kindergarten - colorful counting pictures for math practice |
+| Landscape word search with picture clues | Word search generator printable worksheets - landscape puzzle with images for first grade |
+| Custom word list word search | Free word search worksheets custom word list - sight words and vocabulary practice for kids |
 
-**Language-Specific Alt Text Examples:**
+**Complete Language Examples:**
 
 ```typescript
-// English
-altText: 'Free printable addition worksheet for kindergarten - colorful counting pictures for early math learning'
+// ENGLISH - Word Search
+altText: 'Word search worksheets free printable - portrait vocabulary puzzles for kindergarten and first grade'
+altText: 'Word search generator printable worksheets - landscape word puzzle with colorful images for kids'
+altText: 'Free word search worksheets with custom word list - sight words practice worksheet for kindergarten'
 
-// German
-altText: 'Kostenlose Mathe Arbeitsblätter Grundschule - Addition mit bunten Zählbildern für Klasse 1'
+// GERMAN - Wortsuchrätsel
+altText: 'Wortsuchrätsel Arbeitsblätter kostenlos zum Ausdrucken - Hochformat Wortschatz Übungen für Grundschule'
+altText: 'Wortsuchrätsel Generator Arbeitsblatt - Querformat Buchstabenrätsel mit Bildern für Kinder'
 
-// French
-altText: 'Fiche addition maternelle gratuite à imprimer - exercices de calcul avec images colorées CP'
+// FRENCH - Mots Cachés
+altText: 'Mots cachés fiches gratuites à imprimer - puzzles vocabulaire portrait pour maternelle et CP'
+altText: 'Générateur mots cachés fiches imprimables - jeux de lettres paysage pour enfants'
 
-// Spanish
-altText: 'Fichas de suma para imprimir gratis - matemáticas preescolar con imágenes para contar'
+// SPANISH - Sopa de Letras
+altText: 'Sopa de letras fichas gratis para imprimir - puzzles vocabulario vertical para preescolar'
+altText: 'Generador sopa de letras fichas imprimibles - juegos de palabras horizontal para niños'
 ```
 
 ### 4.3 Image Title Attribute (NEW - Must Implement)

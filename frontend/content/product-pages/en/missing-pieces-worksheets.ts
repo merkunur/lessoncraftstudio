@@ -11,6 +11,15 @@ import { ProductPageContent } from '@/components/product-page/ProductPageClient'
  */
 
 export const missingPiecesEnContent: ProductPageContent = {
+  // SEO Metadata Section
+  seo: {
+    slug: 'missing-pieces-worksheets',
+    appId: 'missing-pieces',
+    title: 'Free Missing Pieces Worksheets | Visual Puzzle Generator for Kindergarten',
+    description: 'Create free printable missing pieces worksheets with our puzzle generator. Visual discrimination worksheets for kindergarten and first grade. Download PDF in 3 minutes.',
+    keywords: 'missing pieces worksheets, visual discrimination worksheets, puzzle worksheets, kindergarten worksheets, free printable worksheets, visual puzzles, spatial reasoning, first grade worksheets, free worksheets for kids, printable puzzle activities',
+  },
+
   // Hero Section - FULL text from missing-pieces.md paragraphs 1-4
   hero: {
     title: 'Free Printable Missing Pieces Worksheets',
@@ -49,14 +58,16 @@ Generate worksheets in 11 languages including English, Spanish, French, and Germ
         id: '1',
         worksheetSrc: '/samples/english/missing pieces/worksheet.jpeg',
         answerKeySrc: '/samples/english/missing pieces/answer_key.jpeg',
-        altText: 'Missing pieces puzzle worksheet with visual discrimination practice for kindergarten students',
+        altText: 'Free printable missing pieces worksheets - visual discrimination puzzle worksheet for kindergarten kids',
+        imageTitle: 'Missing Pieces Puzzle Worksheet - Free Printable Visual Discrimination Activity',
         pdfDownloadUrl: '/samples/english/missing pieces/worksheet.pdf',
       },
       {
         id: '2',
         worksheetSrc: '/samples/english/missing pieces/worksheet (1).jpeg',
         answerKeySrc: '/samples/english/missing pieces/answer_key (1).jpeg',
-        altText: 'Missing pieces worksheet with multiple choice options for spatial reasoning development',
+        altText: 'Free worksheet for kids - missing pieces puzzle with spatial reasoning practice for kindergarten',
+        imageTitle: 'Missing Pieces Worksheets - Free Visual Puzzle for Kindergarten Students',
         pdfDownloadUrl: '/samples/english/missing pieces/worksheet (1).pdf',
       },
     ],
@@ -64,63 +75,63 @@ Generate worksheets in 11 languages including English, Spanish, French, and Germ
 
   // Features Grid - FULL descriptions from missing-pieces.md H3 sections
   features: {
-    sectionTitle: 'Everything You Need for Missing Pieces Worksheets',
+    sectionTitle: 'Free Printable Missing Pieces Worksheets - Visual Discrimination Generator',
     sectionDescription: 'Our missing pieces worksheet generator includes professional features designed specifically for teachers creating kindergarten worksheets and first grade worksheets. Every feature helps you build free printable worksheets faster than traditional methods. Create visual discrimination worksheets, spatial reasoning activities, and problem-solving puzzles with the same easy-to-use tool. Access all premium features with your Full Access subscription. No per-worksheet fees, no image charges, no template costs. Generate unlimited missing pieces worksheets for all your classroom needs.',
     highlightBadgeText: 'Key Feature',
     items: [
       {
         id: '1',
         icon: '⚡',
-        title: 'Create Kindergarten Worksheets in 3 Clicks',
+        title: 'Create Free Kindergarten Worksheets for Kids in 3 Clicks',
         description: 'Select your image theme and the generator creates your worksheet instantly. Choose from animals, food, transportation, or seasonal themes. Pick difficulty level by adjusting missing pieces count. Configure solution options from 2 to 6 choices. The entire process takes under 3 minutes from start to download. Click the theme dropdown to browse organized categories. Select any image with one click. The image appears in your preview area immediately. Adjust puzzle settings in the configuration panel. Click generate and watch your kindergarten worksheet appear on canvas. Both worksheet and answer key generate simultaneously. No complicated steps or technical knowledge required. Perfect for busy teachers who need quality materials fast. Create fresh worksheets daily without spending hours on design. Generate multiple versions of the same puzzle with different difficulty levels. Use the same image with varying piece counts for differentiated instruction. First grade teachers create morning work packets in minutes instead of hours.',
         highlighted: false,
       },
       {
         id: '2',
         icon: '🧩',
-        title: 'Configure Puzzle Difficulty with 1-5 Missing Pieces',
+        title: 'Configure Missing Pieces Puzzle Difficulty for Visual Discrimination',
         description: 'Set how many pieces to remove from your image. Use the missing pieces counter to choose 1 to 5 pieces. Start with 1 missing piece for easy kindergarten worksheets. Increase to 3-5 pieces for advanced first grade students. The difficulty scales perfectly with student abilities. Choose solution options from 2 to 6 choices. Fewer options create easier puzzles for young learners. More options challenge students to look carefully at details. Adjust this setting to match your instructional goals. The flexibility supports differentiated instruction effortlessly. Select your piece shape from six options. Square shapes work well for geometric math worksheets. Circles suit alphabet worksheets and letter recognition. Rectangle portrait fits tall images beautifully. Rectangle landscape accommodates wide pictures perfectly. Ellipse shapes add variety to visual discrimination practice. Configure page size and orientation settings. Choose letter portrait for standard classroom printing. Select A4 for international schools. Pick landscape orientation for wide images.',
         highlighted: true,
       },
       {
         id: '3',
         icon: '✏️',
-        title: 'Edit Math Worksheets on Full Canvas',
+        title: 'Edit Free Printable Math Worksheets on Full Canvas',
         description: 'Every element on your worksheet canvas is fully editable. Drag images to new positions with your mouse. Resize pieces by pulling corner handles. Rotate elements to any angle. Delete unwanted items with one click. The visual editor gives you complete creative control. Click any object to activate the contextual toolbar. Use alignment buttons to position elements perfectly. Layer controls move items forward or backward. Lock important elements to prevent accidental changes. The canvas remembers your last 50 actions for unlimited undo and redo. Add text boxes for instructions or student names. Change fonts, colors, and sizes instantly. Apply outline effects for better visibility. Position text anywhere on the kindergarten worksheet canvas. Edit existing text by clicking and typing. All changes appear in real-time as you work. Customize backgrounds and borders from themed collections. Adjust opacity sliders for subtle effects. Upload your own border graphics for branded worksheets. Change page colors to match classroom themes. Every math worksheet becomes unique to your teaching style and student needs.',
         highlighted: false,
       },
       {
         id: '4',
         icon: '📤',
-        title: 'Upload Custom Images for Alphabet Worksheets',
+        title: 'Upload Custom Images for Free Worksheet Creation',
         description: 'Upload any image from your computer or device. The generator accepts JPEG, PNG, and GIF formats. Select multiple images at once for faster workflow. Your uploaded images appear in a dedicated preview area. Click any uploaded image to use it in your missing pieces puzzle. Perfect for personalizing alphabet worksheets with student photos. Create ABC worksheets featuring classroom objects. Use field trip photos for memorable learning experiences. Upload images of local landmarks for community-themed lessons. Students engage more deeply when they recognize familiar people and places. Combine uploaded images with library images in the same worksheet. Mix student artwork with professional illustrations. Create unique first grade worksheets that reflect your classroom culture. Upload seasonal photos throughout the year for relevant content. The custom upload feature makes every kindergarten worksheet feel special and personalized. Teachers building commercial worksheet products upload branded graphics. Create consistent visual styles across entire product lines. Upload custom borders and background elements. Develop signature looks that customers recognize.',
         highlighted: false,
       },
       {
         id: '5',
         icon: '🌍',
-        title: '11 Languages for Multilingual Classrooms',
+        title: 'Free Printables in 11 Languages for Multilingual Classrooms',
         description: 'Generate worksheets in English, Spanish, French, German, Italian, Portuguese, Dutch, Swedish, Danish, Norwegian, or Finnish. The interface translates to your selected language automatically. Image filenames reflect language choices for better organization. Perfect for ESL teachers creating materials for multilingual students. Bilingual classrooms benefit from switching languages instantly. Create the same math worksheet in English and Spanish for comparison. First grade dual-language programs use parallel worksheets in both languages. Students see visual puzzles with culturally appropriate images for each language. International schools access age-appropriate content in native languages. German kindergarten teachers find Deutsch-language worksheets ready to print. French immersion programs generate fiches d\'activités instantly. The 11-language support makes missing pieces worksheets accessible worldwide. Heritage language programs create supplementary materials in home languages. Saturday schools for Dutch, Italian, or Portuguese speakers generate custom worksheets. Students maintain language skills through engaging visual activities.',
         highlighted: false,
       },
       {
         id: '6',
         icon: '💰',
-        title: 'Commercial License for Teachers Pay Teachers',
+        title: 'Commercial License for Selling Free Worksheets on Teachers Pay Teachers',
         description: 'Full Access subscription includes complete commercial print-on-demand licensing. Sell missing pieces worksheets on Teachers Pay Teachers without additional fees. List products on Etsy, Amazon KDP, or your own website. Create passive income streams from worksheet products. No attribution or watermarks required on commercial products. Many teachers earn $500 to $5000 monthly selling printable worksheets. Missing pieces puzzles rank among top-selling educational resources. Bundle kindergarten worksheets into themed packs for higher prices. Create seasonal collections that sell year after year. Combine with tracing worksheets and coloring worksheets for complete activity books. The commercial license covers unlimited product creation. Generate hundreds of unique worksheets for your store. Create differentiated sets targeting different grade levels. Develop niche products like alphabet worksheets for dyslexic learners. Build entire curriculum lines using the missing pieces format. Professional 300 DPI quality ensures customer satisfaction. Buyers receive crisp, clear printable files.',
         highlighted: true,
       },
       {
         id: '7',
         icon: '🖨️',
-        title: 'Professional 300 DPI Quality with Answer Keys',
+        title: 'Professional 300 DPI Quality - Free Printable Worksheets with Answer Keys',
         description: 'Export finished worksheets at professional 300 DPI resolution. This high quality works perfectly for classroom printing. Images remain sharp and clear even at large paper sizes. Text stays crisp and readable for young students. Professional printing services accept our files without quality concerns. Download as PDF for universal compatibility. PDF files maintain exact formatting across all devices. Send files directly to school printers. Share digitally with parents for at-home learning. The PDF format preserves all colors, images, and text perfectly. Choose JPEG format for maximum flexibility. Insert JPEG worksheets into PowerPoint presentations. Add to Google Classroom assignments easily. Embed in classroom websites or learning management systems. The JPEG option works everywhere images are supported. Enable grayscale mode for printer-friendly versions. Save on color ink costs without sacrificing quality. Grayscale math worksheets print beautifully on basic printers. Students complete activities without needing color.',
         highlighted: true,
       },
       {
         id: '8',
         icon: '🎨',
-        title: '3000+ Child-Friendly Image Library',
+        title: '3000+ Images for Worksheet for Kids and Kindergarten Activities',
         description: 'Browse over 3000 child-friendly images organized by themes. Search by keyword to find specific content instantly. Click any image to preview it full-size. Select images that match your lesson objectives perfectly. All images work beautifully in missing pieces puzzles. Theme categories include animals, food, vehicles, seasons, holidays, shapes, numbers, and letters. Each theme contains dozens of related images. Create cohesive kindergarten worksheets with visually consistent graphics. Mix and match themes for creative combinations. The extensive library eliminates searching stock photo sites. Every image is designed for educational use with young learners. Graphics feature clear outlines and bright colors. Simple illustrations work better than complex photographs for visual puzzles. Age-appropriate content ensures classroom suitability. Teachers trust the library for safe, relevant imagery. Regular additions expand the library continuously. New seasonal images arrive before major holidays. Trending educational topics get visual representation.',
         highlighted: false,
       },
@@ -136,35 +147,35 @@ Generate worksheets in 11 languages including English, Spanish, French, and Germ
       {
         id: '1',
         number: 1,
-        title: 'Choose Your Image for Sight Words Worksheets',
+        title: 'Choose Your Image for Free Printable Worksheets and Visual Puzzles',
         description: 'Start by selecting the image that becomes your puzzle. Click the theme dropdown menu in the image library section. Browse organized categories including animals, food, transportation, shapes, and letters. Each theme contains dozens of child-friendly images perfect for kindergarten worksheets. Select images that match your lesson objectives. Choose apples for addition worksheets teaching counting. Pick alphabet letters for ABC recognition worksheets. Find transportation vehicles for vocabulary building sight words worksheets. The themed organization makes finding relevant images quick and easy. Use the search box to find specific content. Type "cat" to see all feline images instantly. Search "numbers" for math worksheet graphics. Enter "letters" for alphabet worksheets content. The search function scans all 3000+ images in seconds. Upload your own images for personalized puzzles. Click the custom file button to browse your computer. Select JPEG, PNG, or GIF files from field trips or classroom activities. Upload multiple images at once for efficient workflow.',
         icon: '🖼️',
       },
       {
         id: '2',
         number: 2,
-        title: 'Configure Puzzle Settings for Differentiated Instruction',
+        title: 'Configure Missing Pieces Puzzle Settings for Worksheet for Kindergarten',
         description: 'Set how many pieces to remove from your image. Use the missing pieces counter to choose 1 to 5 pieces. Start with 1 missing piece for easy kindergarten worksheets. Increase to 3-5 pieces for advanced first grade students. The difficulty scales perfectly with student abilities. Choose solution options from 2 to 6 choices. Fewer options create easier puzzles for young learners. More options challenge students to look carefully at details. Adjust this setting to match your instructional goals. The flexibility supports differentiated instruction effortlessly. Select your piece shape from six options. Square shapes work well for geometric math worksheets. Circles suit alphabet worksheets and letter recognition. Rectangle portrait fits tall images beautifully. Rectangle landscape accommodates wide pictures perfectly. Ellipse shapes add variety to visual discrimination practice. Configure page size and orientation settings. Choose letter portrait for standard classroom printing. Add backgrounds and borders from themed collections. Choose seasonal borders for holiday tracing worksheets.',
         icon: '⚙️',
       },
       {
         id: '3',
         number: 3,
-        title: 'Generate Your Free Printable Worksheets Instantly',
+        title: 'Generate Your Free Worksheets Instantly - Visual Discrimination Practice',
         description: 'Click the generate worksheet button to create your puzzle. The platform processes your image instantly. Watch as missing pieces are cut from strategic locations. See solution options arrange themselves below the main image. The entire generation takes less than 5 seconds. The worksheet canvas displays your complete puzzle immediately. The main image shows with pieces removed as white spaces. Solution options appear in a grid below. Each option shows the piece shape filled with different image sections. One option contains the correct missing piece. Others show plausible but incorrect alternatives. Both worksheet and answer key generate simultaneously. Switch to the answer key tab to see the complete image. Correct answers are circled and numbered clearly. The dual generation saves massive amounts of teacher time. No manual answer key creation required. Preview both canvases before downloading. Verify the difficulty level matches your intention. Check that solution options look distinct enough. Regenerate instantly if needed. Click generate again for different piece locations.',
         icon: '✨',
       },
       {
         id: '4',
         number: 4,
-        title: 'Edit Your Kindergarten Worksheets on Canvas',
+        title: 'Edit Your Free Worksheet for Kids on Canvas',
         description: 'Click any element on your worksheet to select it. Drag images to new positions with your mouse. Resize pieces by pulling corner handles. Rotate elements by moving the rotation handle. The intuitive controls feel natural immediately. Add text instructions directly on the worksheet. Click the add text button in the text tools section. Type your directions for students. Position the text box anywhere on the page. Change font, size, and color to match your preferences. Customize text appearance for better readability. Choose from seven child-friendly fonts. Adjust font size for different age groups. Apply outline effects for visibility on busy backgrounds. Young students read clear, large text more easily. Use alignment tools for professional layouts. Center all elements horizontally on the page. Align solution options in perfect rows. Distribute pieces evenly across the available space. The alignment buttons create polished, professional phonics worksheets instantly. Lock elements you want to preserve. Click the lock button to prevent accidental changes.',
         icon: '✏️',
       },
       {
         id: '5',
         number: 5,
-        title: 'Download Printable Worksheets and Answer Keys',
+        title: 'Download Free Printable Worksheets and Answer Keys',
         description: 'Open the download dropdown menu when editing is complete. Choose between worksheet and answer key downloads. Select PDF format for universal compatibility. Pick JPEG for maximum flexibility with presentations. Both formats export at professional 300 DPI resolution. Download the worksheet first for student distribution. Save the file to your designated folder. The worksheet includes the puzzle and solution options. Students receive everything needed to complete the activity. No additional materials required. Download the answer key separately for teacher use. Save with a clear filename for easy identification. The answer key shows the complete image with correct pieces marked. Use for grading, self-checking, or parent reference. Keep answer keys organized in a separate folder. Enable grayscale mode before downloading if preferred. This option saves color ink significantly. Grayscale worksheets print beautifully on basic printers. Print immediately or save for future use. Store digital copies in lesson plan folders. Print multiple copies for classroom centers.',
         icon: '📥',
       },
@@ -173,14 +184,14 @@ Generate worksheets in 11 languages including English, Spanish, French, and Germ
 
   // Use Cases - FULL descriptions from missing-pieces.md persona sections
   useCases: {
-    sectionTitle: 'Perfect for Teachers, Parents, and Educators',
+    sectionTitle: 'Free Worksheets for Kids - Teachers, Parents, and Educators',
     sectionDescription: 'Missing pieces worksheets serve diverse educational settings and teaching styles. Kindergarten teachers use them for literacy centers and math practice. First grade educators create differentiated assignments effortlessly. Homeschool parents generate custom materials matching their curriculum. ESL instructors build vocabulary through visual learning. Special education teachers adapt difficulty for individual needs. Teacher entrepreneurs sell professional worksheet products online. Every user type benefits from the flexible, customizable platform designed for real classroom challenges.',
     items: [
       {
         id: '1',
         icon: '👩‍🏫',
         title: 'Kindergarten and Preschool Teachers',
-        subtitle: 'Alphabet Worksheets and Phonics Worksheets for Daily Centers',
+        subtitle: 'Free Worksheets and Visual Puzzles for Daily Centers',
         description: 'Kindergarten teachers face constant demand for fresh, engaging materials. Students need daily practice with alphabet recognition and letter sounds. Missing pieces puzzles make phonics instruction interactive and fun. Children identify missing alphabet letters while developing visual discrimination skills. Use alphabet worksheets during morning work rotations. Set up literacy centers with different phonics worksheets for each station. Create weekly themed sets matching your lesson plans. Students complete puzzles independently while you work with small groups. The self-checking format builds confidence and independence. Generate new kindergarten worksheets in minutes instead of hours. Change images weekly to maintain student interest. Adjust difficulty as students progress through the year. Start with simple 1-piece puzzles in September. Increase to 3-piece challenges by spring. The scalable difficulty supports developmental growth perfectly. Perfect for mixed-ability kindergarten classrooms.',
         quote: 'My students love solving the visual puzzles during centers!',
       },
@@ -188,7 +199,7 @@ Generate worksheets in 11 languages including English, Spanish, French, and Germ
         id: '2',
         icon: '📚',
         title: 'Elementary School Teachers',
-        subtitle: 'Math Worksheets and Addition Worksheets for Differentiated Instruction',
+        subtitle: 'Free Printable Math Worksheets for Differentiated Instruction',
         description: 'First grade teachers need materials spanning wide ability ranges. Some students count to 10 while others add double digits. Missing pieces puzzles adapt to every math skill level. Use number images for counting practice. Create addition worksheets with visual representations. Elementary teachers generate math worksheets matching specific standards. Choose images showing quantities for number sense development. Pick shapes for geometry recognition practice. Select pattern images for algebraic thinking activities. The 3000+ image library supports every math concept kindergarten through third grade. Create tiered assignments quickly for differentiated math instruction. Make three versions of the same worksheet with different difficulty levels. Use 1 missing piece with 2 options for struggling students. Set 3 missing pieces with 4 options for grade-level learners. Challenge advanced students with 5 missing pieces and 6 solution options. Perfect for substitutes and emergency lesson plans.',
         quote: 'I create differentiated puzzles for all my math groups in minutes!',
       },
@@ -196,7 +207,7 @@ Generate worksheets in 11 languages including English, Spanish, French, and Germ
         id: '3',
         icon: '🏠',
         title: 'Homeschool Parents',
-        subtitle: 'First Grade Worksheets and Kindergarten Worksheets for Multi-Grade Teaching',
+        subtitle: 'Free Worksheet for Kids - Multi-Grade Teaching',
         description: 'Homeschool parents teach multiple grade levels simultaneously. Create kindergarten worksheets for your youngest child. Generate first grade sight words worksheets for older students. Use the same platform for all ages and subjects. The efficiency saves precious homeschool planning time. Personalize materials with family photos and meaningful images. Upload vacation pictures for geography lessons. Use pet photos for science vocabulary building. Include family member images for social studies activities. Custom visuals make learning personal and engaging for homeschool students. Build complete curriculum units efficiently. Create phonics worksheets for language arts time. Generate math worksheets for mathematics instruction. Make alphabet worksheets for handwriting practice. The platform replaces multiple worksheet sources with one comprehensive tool. Track progress easily with consistent worksheet formats. Students become familiar with puzzle structure quickly.',
         quote: 'One subscription covers all my kids at different grade levels!',
       },
@@ -204,7 +215,7 @@ Generate worksheets in 11 languages including English, Spanish, French, and Germ
         id: '4',
         icon: '🌍',
         title: 'ESL and Bilingual Teachers',
-        subtitle: 'Alphabet Worksheets and Sight Words Worksheets in 11 Languages',
+        subtitle: 'Worksheet for Kindergarten in 11 Languages',
         description: 'ESL teachers need materials in multiple languages constantly. Generate worksheets in English one day. Create Spanish sight words worksheets the next. Switch to French alphabet worksheets for heritage language students. The 11-language support serves diverse multilingual classrooms effortlessly. Newcomer students learn vocabulary through visual association. Missing pieces puzzles connect images with words naturally. Students see pictures representing vocabulary terms. They identify missing pieces while internalizing language. The visual format supports language acquisition effectively for beginning ESL learners. Create parallel worksheets for translation practice. Generate the same puzzle in English and Spanish. Students compare vocabulary across languages. Cognates become obvious through visual context. The bilingual approach accelerates language learning for dual-language programs. International schools serve students from many language backgrounds. Generate kindergarten worksheets in students\' home languages.',
         quote: 'The Spanish worksheets help my English learners succeed!',
       },
@@ -212,7 +223,7 @@ Generate worksheets in 11 languages including English, Spanish, French, and Germ
         id: '5',
         icon: '💜',
         title: 'Special Education Teachers',
-        subtitle: 'Phonics Worksheets and Addition Worksheets for IEP Goals',
+        subtitle: 'Free Printables and Visual Puzzles for IEP Goals',
         description: 'Special education teachers need highly customizable materials. Adapt difficulty for individual IEP objectives easily. Create extremely simple puzzles with 1 missing piece and 2 large options. Build complex challenges matching gifted IEP goals. Every student receives appropriate materials regardless of ability level. Visual processing goals benefit from missing pieces format. Students practice figure-ground discrimination naturally. Part-to-whole relationships become concrete through puzzles. Spatial reasoning develops through repeated practice. The format addresses multiple IEP objectives simultaneously through one activity type. Generate materials for non-readers easily. Use picture-only phonics worksheets without text labels. Create number recognition math worksheets with quantity images. Build color and shape alphabet worksheets for foundational skills. Visual learners access content without reading barriers. Track data collection requirements efficiently. Use consistent worksheet formats for easier progress monitoring.',
         quote: 'I can quickly adapt puzzles for each student\'s IEP goals!',
       },
@@ -220,7 +231,7 @@ Generate worksheets in 11 languages including English, Spanish, French, and Germ
         id: '6',
         icon: '💰',
         title: 'Teacher Entrepreneurs',
-        subtitle: 'Selling Kindergarten Worksheets on Teachers Pay Teachers',
+        subtitle: 'Selling Free Worksheets on Teachers Pay Teachers',
         description: 'Teacher entrepreneurs earn passive income selling worksheet products. Create professional missing pieces puzzle sets for Teachers Pay Teachers. Generate themed coloring worksheets bundles for Etsy shops. Build seasonal tracing worksheets packets for year-round sales. The commercial license supports unlimited product creation legally. Top sellers on Teachers Pay Teachers earn $500 to $5000 monthly. Missing pieces puzzles rank among best-selling resource types. Bundle 20-30 worksheets into themed packets. Price sets at $4 to $8 for strong profit margins. Customers appreciate ready-to-print formats and professional quality. Build signature product lines with consistent branding. Upload custom borders for recognizable visual style. Create series like "Alphabet Animals Missing Pieces" across all 26 letters. Develop grade-level collections from kindergarten through third grade. Repeat customers seek your products specifically when quality remains high. The 300 DPI export quality ensures customer satisfaction.',
         quote: 'I earned back my subscription cost in the first month of sales!',
       },
@@ -229,7 +240,7 @@ Generate worksheets in 11 languages including English, Spanish, French, and Germ
 
   // FAQ Section - ALL questions from missing-pieces.md
   faq: {
-    sectionTitle: 'Frequently Asked Questions',
+    sectionTitle: 'Free Printable Worksheet Questions - Missing Pieces Puzzles FAQ',
     sectionDescription: 'Teachers and parents ask common questions about creating effective educational materials. Understanding worksheet capabilities helps educators make informed decisions. These detailed answers address the most frequent concerns about missing pieces puzzle generation. Learn how the platform supports specific teaching objectives across subjects and grade levels.',
     showMoreText: 'Show more questions',
     showLessText: 'Show less',
@@ -293,6 +304,36 @@ Generate worksheets in 11 languages including English, Spanish, French, and Germ
         id: '12',
         question: 'Can I Create Worksheets for Homeschool Use?',
         answer: 'Absolutely, homeschool families represent a significant user group. Create unlimited coloring worksheets and sight words worksheets for your homeschool curriculum. Generate materials matching your chosen educational philosophy whether classical, Charlotte Mason, Montessori, or eclectic. The flexibility supports all homeschool approaches without forcing specific methodologies. Homeschool parents customize materials for individual children easily. Create sight words worksheets matching each child\'s reading level simultaneously. Generate age-appropriate coloring worksheets for different siblings. Use family photos for personalized, meaningful content. The customization capabilities exceed pre-made curriculum packages significantly while costing less. Multi-age homeschool teaching becomes manageable with one creation tool. Generate kindergarten materials during morning work time. Create first grade sight words worksheets for afternoon lessons. Build advanced coloring worksheets for artistic older students. The platform serves ages 3-10+ from single subscription. Homeschool families avoid purchasing separate grade-specific resources for each child, generating substantial cost savings.',
+      },
+      {
+        id: '13',
+        question: 'How Do I Create Free Printable Missing Pieces Worksheets?',
+        answer: 'Creating free printable missing pieces worksheets takes just 3 minutes with our visual puzzle generator. Start by selecting an image from our library of 3000+ child-friendly pictures or upload your own custom images. Choose how many pieces to remove from 1-5 for adjustable difficulty levels. Configure your solution options from 2-6 choices to match student abilities. Click generate and watch your free worksheet appear instantly on the canvas. Both the puzzle worksheet and answer key generate automatically. Download as PDF or JPEG at professional 300 DPI resolution ready for classroom printing. The entire process requires no design skills or technical knowledge. Teachers create unlimited free printable worksheets with their Full Access subscription. No per-worksheet fees or image charges apply. Generate fresh missing pieces puzzles daily for engaging classroom activities. The visual discrimination format helps kindergarten and first grade students develop spatial reasoning skills while having fun with educational puzzles.',
+      },
+      {
+        id: '14',
+        question: 'Are These Visual Discrimination Worksheets Free for Classroom Use?',
+        answer: 'Yes, visual discrimination worksheets generated through our platform are completely free for classroom use with your Full Access subscription. Create unlimited worksheets without per-download fees or additional charges. Teachers generate hundreds of unique visual discrimination activities for students throughout the school year. The subscription model provides exceptional value compared to purchasing pre-made worksheet packets individually. Visual discrimination practice helps kindergarten students identify similarities and differences in images. Missing pieces puzzles require careful observation and spatial reasoning skills. Students analyze main images, compare solution options, and select correct missing pieces. This cognitive exercise strengthens visual processing abilities essential for reading readiness and math development. Free worksheets for kids include both student puzzle sheets and teacher answer keys. Print materials at school or send home for additional practice. The commercial license even allows selling visual discrimination worksheets on Teachers Pay Teachers if desired.',
+      },
+      {
+        id: '15',
+        question: 'Can I Make Worksheet for Kids with Custom Images?',
+        answer: 'Absolutely, creating worksheet for kids with custom images adds personal relevance to learning activities. Upload any JPEG, PNG, or GIF image from your computer or device. Use classroom photos for memorable missing pieces puzzles featuring familiar faces. Add field trip pictures for geography or science connections. Include student artwork for creative expression activities. Upload images of local landmarks for community-focused lessons. Custom images transform standard worksheets into personalized learning experiences that engage young students deeply. The upload process takes seconds and supports multiple images at once. Your custom pictures appear in a dedicated preview area for easy selection. Combine uploaded images with library images in the same worksheet for variety. Teachers creating commercial products upload branded graphics for consistent visual styles. Develop signature worksheet looks that customers recognize across product lines. Custom images make every free worksheet for kids unique to your teaching style and student needs.',
+      },
+      {
+        id: '16',
+        question: 'Do Missing Pieces Puzzles Work as Worksheet for Kindergarten?',
+        answer: 'Missing pieces puzzles work exceptionally well as worksheet for kindergarten instruction. Young learners develop essential visual discrimination skills through engaging puzzle activities. Kindergarten students identify which piece completes the picture by carefully examining image details. This observation practice builds foundational skills for reading and math success. The adjustable difficulty supports developmental differences across kindergarten classrooms. Start with simple 1-piece puzzles and 2 solution options for beginning students. Progress to 3-5 missing pieces with more choices as skills develop throughout the year. Teachers configure each worksheet for kindergarten to match individual student readiness levels. The visual format eliminates reading barriers so all kindergarteners participate regardless of literacy development. Picture-based puzzles engage visual learners who struggle with text-heavy materials. Missing pieces worksheets complement phonics, math, and fine motor activities in comprehensive early childhood programs. The format supports kindergarten standards for visual processing and cognitive development.',
+      },
+      {
+        id: '17',
+        question: 'What Makes These the Best Free Worksheets for Visual Learning?',
+        answer: 'Our free worksheets excel for visual learning because every element is designed for image-based instruction. Missing pieces puzzles present content visually first and foremost without relying on text comprehension. Students analyze pictures, identify patterns, and solve problems through visual discrimination rather than reading. The format matches how visual learners naturally process information most effectively. The 3000+ image library provides diverse visual content across themes including animals, food, transportation, shapes, letters, and numbers. Every image features clear outlines, bright colors, and age-appropriate content designed specifically for young learners. Teachers select visuals matching lesson objectives perfectly. Custom image uploads add unlimited personalization possibilities. Free worksheets for visual learning include both color and grayscale options. The professional 300 DPI export quality ensures crisp, clear printing. Visual learners engage deeply with puzzle activities that feel more like games than traditional worksheets. The format increases retention and makes learning enjoyable for kindergarten through third grade students.',
+      },
+      {
+        id: '18',
+        question: 'How Do Free Printables Support Spatial Reasoning Development?',
+        answer: 'Free printables featuring missing pieces puzzles directly support spatial reasoning development in young learners. Students must mentally rotate and position pieces to determine correct solutions. This cognitive exercise strengthens the same skills needed for math, science, and reading success. Spatial reasoning helps children understand maps, graphs, geometric shapes, and written text orientation. Missing pieces activities require part-to-whole relationship understanding. Students see the complete image with pieces removed and must visualize how solutions fit into empty spaces. This mental manipulation develops spatial awareness essential for puzzle-solving, building with blocks, and understanding fractions. Free printables offer consistent practice opportunities without budget constraints. Teachers generate unlimited spatial reasoning worksheets matching curriculum goals. The adjustable difficulty allows progression from simple single-piece puzzles to complex multi-piece challenges. Kindergarten and first grade students build foundational spatial skills through engaging puzzle activities. Regular practice with free printables develops cognitive abilities that support academic achievement across subjects throughout elementary school years.',
       },
     ],
   },

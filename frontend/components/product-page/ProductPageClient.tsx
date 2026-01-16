@@ -56,6 +56,7 @@ export interface Sample {
   worksheetSrc: string;
   answerKeySrc: string;
   altText: string;
+  imageTitle?: string;
   pdfDownloadUrl?: string;
 }
 

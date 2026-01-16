@@ -14,10 +14,11 @@ import { ProductPageContent } from '@/components/product-page/ProductPageClient'
 export const coloringEnContent: ProductPageContent = {
   // SEO Metadata - CRITICAL for Google rankings
   seo: {
+    slug: 'coloring-worksheets',
+    appId: 'coloring',
     title: 'Free Printable Coloring Worksheets | Coloring Pages for Kids - LessonCraftStudio',
     description: 'Create free printable coloring worksheets for kindergarten and first grade. Generate custom coloring pages for kids with 3000+ images. Download PDF coloring worksheets in minutes.',
     keywords: 'coloring worksheets, free printable coloring pages, coloring pages for kids, kindergarten coloring worksheets, free worksheets, coloring activities, first grade worksheets, printable worksheets, free printables, worksheet for kids',
-    ogImage: '/samples/english/coloring/coloring portrait 1.png',
   },
 
   // Hero Section

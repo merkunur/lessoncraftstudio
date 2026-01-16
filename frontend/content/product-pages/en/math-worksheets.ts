@@ -11,6 +11,15 @@ import { ProductPageContent } from '@/components/product-page/ProductPageClient'
  */
 
 export const mathWorksheetsEnContent: ProductPageContent = {
+  // SEO metadata for search engines
+  seo: {
+    slug: 'math-worksheets',
+    appId: 'math-worksheet',
+    title: 'Free Printable Math Worksheets for Kindergarten | Math Puzzle Generator',
+    description: 'Create picture-based math puzzles with our math worksheet generator. Free printable worksheets for kindergarten and first grade. Download PDF in 3 minutes.',
+    keywords: 'math worksheets, free printable worksheets, kindergarten worksheets, addition worksheets, first grade worksheets, printable math worksheets, worksheet for kids, free worksheet, free worksheets, free printables',
+  },
+
   // Hero Section - FULL text from math-worksheet.md paragraphs 1-6
   hero: {
     title: 'Free Printable Math Worksheets for Kindergarten',
@@ -49,14 +58,14 @@ Each math worksheet includes a matching answer key. Perfect for classroom use or
         id: '1',
         worksheetSrc: '/samples/english/math worksheet/math worksheet portrait.jpeg',
         answerKeySrc: '/samples/english/math worksheet/math worksheet portrait answer_key.jpeg',
-        altText: 'Math worksheet portrait mode with picture-based puzzles for kindergarten',
+        altText: 'Free printable math worksheets for kindergarten - picture-based puzzles with colorful images for kids',
         pdfDownloadUrl: '/samples/english/math worksheet/math worksheet portrait.pdf',
       },
       {
         id: '2',
         worksheetSrc: '/samples/english/math worksheet/math worksheet landscape.jpeg',
         answerKeySrc: '/samples/english/math worksheet/math worksheet landscape answer_key.jpeg',
-        altText: 'Math worksheet landscape mode with symbol-based math puzzles',
+        altText: 'Math worksheets free printables landscape mode - symbol-based math puzzle generator for first grade',
         pdfDownloadUrl: '/samples/english/math worksheet/math worksheet landscape.pdf',
       },
     ],
@@ -286,6 +295,36 @@ Each math worksheet includes a matching answer key. Perfect for classroom use or
         id: '12',
         question: 'Can I Create Math Worksheets About Specific School Subjects?',
         answer: 'Yes, create subject-integrated printable math worksheets using themed images. Generate math worksheets with ocean animals during marine biology units. Use fruit images for nutrition-themed kindergarten worksheets. Select vehicle images for transportation units. The 3000+ image library covers hundreds of subject themes. Upload subject-specific images to create custom addition worksheets for any topic. Teaching solar system? Upload planet images for space-themed first grade worksheets. Studying community helpers? Upload firefighter and police officer pictures. Create printable worksheets connecting math to science, social studies, or literature topics. Cross-curricular integration makes kindergarten worksheets more meaningful for students. Math practice reinforces content from other subjects through themed printable math worksheets. Students learn math while reviewing science vocabulary through carefully chosen addition worksheets. This integrated approach maximizes learning time with efficient first grade worksheets.',
+      },
+      {
+        id: '13',
+        question: 'Where Can I Get Free Worksheets for Kids Without Signing Up?',
+        answer: 'Our platform provides free worksheets for kids through a subscription model rather than free downloads with email signups. Many "free worksheet" sites require email addresses to access limited content. Our approach offers unlimited free worksheets for kids once you subscribe to Core Bundle. Download thousands of printable math worksheets without per-download fees or email gates. The subscription model actually costs less than buying individual free worksheets for kids from various sites. Teachers appreciate not having to sign up for dozens of different free worksheet sites. Create custom math worksheets matching exactly what your students need instead of searching through generic free worksheets for kids. Every worksheet is professionally designed at 300 DPI quality, unlike many free printables available online.',
+      },
+      {
+        id: '14',
+        question: 'Are These Math Worksheets for Kindergarten Students?',
+        answer: 'Yes, these math worksheets work perfectly for kindergarten students ages 5-6. The picture-based puzzle format matches how kindergarten students think concretely. Very easy and easy difficulty levels create worksheets for kindergarten using numbers 0-10. Kindergarten teachers use these printable worksheets for math centers, morning work, and small group instruction. The visual format makes worksheets for kindergarten more engaging than traditional number-only addition problems. Students solve puzzles by figuring out what number each picture represents. This critical thinking approach suits worksheets for kindergarten developmental stages. Parents also use these worksheets for kindergarten practice at home. The colorful images keep young learners engaged with math practice.',
+      },
+      {
+        id: '15',
+        question: 'What Free Printables Are Included With This Worksheet Generator?',
+        answer: 'Your subscription includes access to free printables across 33 different worksheet generators. Math worksheets are just one type of free printables available. Create alphabet worksheets, phonics worksheets, sight words worksheets, tracing worksheets, and coloring worksheets as additional free printables. All worksheet types use the same 3000+ image library for cohesive themed free printables. Download unlimited PDF and JPEG files without per-download charges for any free printables. Answer keys count as separate free printables included with every worksheet. Generate portrait and landscape versions as different free printables from the same settings. The commercial license means you can sell your free printables on Teachers Pay Teachers. Create seasonal and holiday-themed free printables throughout the year.',
+      },
+      {
+        id: '16',
+        question: 'How Are These Worksheets for Kids Different from Regular Math Sheets?',
+        answer: 'These worksheets for kids use picture puzzles instead of traditional number problems. Regular math sheets show equations like "3 + 4 = ?" with abstract numbers. Our worksheets for kids show equations where pictures represent unknown numbers. Students must figure out what number each picture equals by analyzing the equations. This puzzle format makes worksheets for kids more engaging and develops critical thinking skills. Regular math sheets often bore students with repetitive number problems. Picture-based worksheets for kids feel like games rather than homework. The visual format helps struggling learners understand addition concepts through concrete images. Teachers report higher engagement when using these worksheets for kids compared to traditional worksheets.',
+      },
+      {
+        id: '17',
+        question: 'Can I Create Free Worksheet Downloads Every Day?',
+        answer: 'Yes, your subscription allows unlimited free worksheet downloads daily. Generate as many printable math worksheets as you need without daily limits. Create different free worksheet downloads for each day of the week with varied themes. Download both worksheets and answer keys as separate free worksheet files. Many teachers create five free worksheet downloads every Sunday for the upcoming week. The fast generation time means creating multiple free worksheet downloads takes only minutes. Save your free worksheet downloads organized by date, theme, or skill level. Build a complete library of free worksheet downloads throughout the school year. No restrictions on how many free worksheet downloads you can create or save.',
+      },
+      {
+        id: '18',
+        question: 'Is This Worksheet for Kindergarten or First Grade?',
+        answer: 'This math worksheet generator creates content for both kindergarten and first grade students. Difficulty settings let you customize each worksheet for kindergarten or first grade needs. Very easy and easy levels create the perfect worksheet for kindergarten with two symbols and numbers 0-10. Medium and hard levels generate appropriate worksheet for first grade with three to four symbols and larger numbers. Many teachers use both worksheet for kindergarten and first grade versions for differentiated instruction. The same images can create simpler worksheet for kindergarten and more complex first grade versions. Homeschool parents appreciate creating worksheet for kindergarten for younger children and harder versions for older siblings. Adjust number ranges to fine-tune any worksheet for kindergarten or first grade standards.',
       },
     ],
   },

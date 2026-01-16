@@ -11,6 +11,16 @@ import { ProductPageContent } from '@/components/product-page/ProductPageClient'
  */
 
 export const gridMatchEnContent: ProductPageContent = {
+  // SEO Metadata
+  seo: {
+    slug: 'grid-match-worksheets',
+    appId: 'grid-match',
+    title: 'Free Grid Match Worksheets | Printable Puzzle Generator for Kids',
+    description: 'Create free grid match worksheets with our puzzle generator. Free printables for kindergarten and first grade. Download PDF worksheets in 3 clicks.',
+    keywords: 'grid match worksheets, puzzle worksheets, kindergarten worksheets, free printable worksheets, visual discrimination worksheets, first grade worksheets, math worksheets, spatial reasoning worksheets, worksheet for kids, free worksheets, worksheet for kindergarten, free printables',
+    canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/grid-match-worksheets',
+  },
+
   // Hero Section - FULL text from grid-match.md paragraphs 1-3
   hero: {
     title: 'Free Printable Kindergarten Worksheets',
@@ -34,7 +44,7 @@ Teachers love grid match worksheets because they combine fun with learning. Crea
 
   // Sample Gallery - REAL file paths from samples/english/grid match/
   samples: {
-    sectionTitle: 'Worksheet Samples',
+    sectionTitle: 'Grid Match Worksheets: Free Printable Samples',
     downloadLabel: 'Download Free Sample',
     worksheetLabel: 'Worksheet',
     answerKeyLabel: 'Answer Key',
@@ -43,14 +53,16 @@ Teachers love grid match worksheets because they combine fun with learning. Crea
         id: '1',
         worksheetSrc: '/samples/english/grid match/grid match portrait .jpeg',
         answerKeySrc: '/samples/english/grid match/grid match portrait  answer_key.jpeg',
-        altText: 'Grid match puzzle worksheet portrait orientation with numbered pieces for kindergarten spatial reasoning practice',
+        altText: 'Free grid match worksheets printable - portrait puzzle for kindergarten visual discrimination and spatial reasoning practice',
+        imageTitle: 'Free Grid Match Worksheet - Portrait Mode for Kindergarten',
         pdfDownloadUrl: '/samples/english/grid match/grid match portrait .pdf',
       },
       {
         id: '2',
         worksheetSrc: '/samples/english/grid match/grid match landscape.jpeg',
         answerKeySrc: '/samples/english/grid match/grid match landscape answer_key.jpeg',
-        altText: 'Grid match puzzle worksheet landscape orientation with picture completion activity for first grade visual discrimination',
+        altText: 'Grid match puzzle worksheets free printables - landscape orientation visual matching activity for first grade kids',
+        imageTitle: 'Free Grid Match Worksheet - Landscape Mode for First Grade',
         pdfDownloadUrl: '/samples/english/grid match/grid match landscape.pdf',
       },
     ],

@@ -32,6 +32,16 @@ Our cryptogram worksheet generator creates custom puzzles in 11 languages. Uploa
     },
   },
 
+  // SEO Metadata
+  seo: {
+    slug: 'cryptogram-worksheets',
+    appId: 'cryptogram',
+    title: 'Free Cryptogram Worksheets for Kids | Picture Puzzle Worksheet Generator',
+    description: 'Create free printable cryptogram worksheets for kids. Perfect worksheet for kindergarten with picture puzzles. Download your free worksheet as PDF in 3 minutes.',
+    keywords: 'cryptogram worksheets, free worksheet for kids, picture cryptogram, worksheet for kindergarten, free printables, kindergarten worksheets, first grade worksheets, phonics worksheets, alphabet worksheets, puzzle worksheets',
+    canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/cryptogram-worksheets',
+  },
+
   // Sample Gallery - REAL file paths from samples/english/cryptogram/
   samples: {
     sectionTitle: 'Worksheet Samples',
@@ -43,14 +53,16 @@ Our cryptogram worksheet generator creates custom puzzles in 11 languages. Uploa
         id: '1',
         worksheetSrc: '/samples/english/cryptogram/cryptogram_worksheet.jpeg',
         answerKeySrc: '/samples/english/cryptogram/cryptogram_answer_key.jpeg',
-        altText: 'Picture cryptogram worksheet with image codes for kindergarten vocabulary practice',
+        altText: 'Free worksheet for kids - picture cryptogram puzzle with image codes for kindergarten vocabulary practice',
+        imageTitle: 'Free Printable Cryptogram Worksheet for Kindergarten',
         pdfDownloadUrl: '/samples/english/cryptogram/cryptogram_worksheet.pdf',
       },
       {
         id: '2',
         worksheetSrc: '/samples/english/cryptogram/cryptogram_worksheet (1).jpeg',
         answerKeySrc: '/samples/english/cryptogram/cryptogram_answer_key (1).jpeg',
-        altText: 'Picture cryptogram puzzle worksheet with themed images for first grade spelling practice',
+        altText: 'Free printables cryptogram worksheet for kids - themed picture puzzle free worksheet for first grade spelling',
+        imageTitle: 'Free Worksheet for Kids - Picture Cryptogram Puzzle',
         pdfDownloadUrl: '/samples/english/cryptogram/cryptogram_worksheet (1).pdf',
       },
     ],
@@ -280,6 +292,36 @@ Our cryptogram worksheet generator creates custom puzzles in 11 languages. Uploa
         id: '12',
         question: 'What Languages Are Supported for Picture Cryptogram Worksheets?',
         answer: 'Our picture cryptogram generator supports 11 different languages for creating multilingual kindergarten worksheets and first grade worksheets. Select from English, Spanish, French, German, Italian, Portuguese, Dutch, Danish, Swedish, Norwegian, or Finnish. Image names automatically translate to your selected language. Generate the same cryptogram puzzle in multiple languages for ESL comparison activities or dual-language programs. Language selection affects both the interface and worksheet content. Each language includes proper alphabet characters including special letters like German umlauts, Spanish ñ, and Scandinavian characters. This feature creates authentic free printable worksheets for world language classrooms and heritage language programs.',
+      },
+      {
+        id: '13',
+        question: 'Is This a Free Worksheet Generator for Picture Cryptograms?',
+        answer: 'Yes, you can create your first cryptogram as a free worksheet without any payment required. Our free worksheet option lets you explore all generator features including image selection, phrase creation, and auto-assign functionality. Download your free worksheet as a high-quality PDF to see the professional output quality. After trying the free worksheet, Full Access subscribers enjoy unlimited cryptogram creation with no per-worksheet fees. This free worksheet trial helps teachers evaluate quality before committing to a subscription.',
+      },
+      {
+        id: '14',
+        question: 'Can I Make a Free Worksheet for Kids with Custom Images?',
+        answer: 'Absolutely. Our generator creates every free worksheet for kids with full customization options including custom image uploads. Upload photos of your students, classroom objects, or themed images to personalize each free worksheet for kids. The uploaded images work exactly like library pictures in your free worksheet for kids creation. This personalization makes each free worksheet for kids more engaging than generic alternatives. Students recognize familiar faces and objects, increasing motivation during puzzle-solving activities.',
+      },
+      {
+        id: '15',
+        question: 'What Free Printables Can I Create Besides Cryptograms?',
+        answer: 'Your subscription includes 33 apps for creating diverse free printables including crossword puzzles, word searches, matching games, and bingo cards. Each app produces professional free printables with automatic answer keys. Combine cryptogram free printables with coloring worksheets, tracing activities, and math practice sheets. These free printables download instantly as PDF or JPEG files. Build comprehensive curriculum resources using multiple free printables targeting the same vocabulary or learning objectives.',
+      },
+      {
+        id: '16',
+        question: 'Is This the Best Worksheet for Kids Learning Letters?',
+        answer: 'Picture cryptograms are an excellent worksheet for kids who are visual learners discovering letter-sound connections. Each worksheet for kids combines puzzle-solving excitement with alphabet recognition practice. The picture codes create memorable associations between images and letters in this engaging worksheet for kids format. Students decode secret messages while strengthening letter knowledge, making this worksheet for kids more effective than traditional drilling methods.',
+      },
+      {
+        id: '17',
+        question: 'Can I Create a Worksheet for Kindergarten in Multiple Languages?',
+        answer: 'Yes, create any worksheet for kindergarten in 11 languages including English, Spanish, French, German, Italian, Portuguese, Dutch, Danish, Swedish, Norwegian, and Finnish. Each worksheet for kindergarten includes properly ordered alphabet letters with language-specific special characters. ESL teachers use parallel worksheet for kindergarten sets comparing home language and English. Heritage language programs create authentic worksheet for kindergarten materials maintaining cultural connections.',
+      },
+      {
+        id: '18',
+        question: 'How Do I Download My Free Worksheets After Creation?',
+        answer: 'All free worksheets download instantly as PDF or JPEG files after clicking the download button. Choose PDF format for free worksheets requiring perfect print formatting. Select JPEG for free worksheets you will share digitally or display on screens. Both formats maintain professional 300 DPI quality for crisp free worksheets output. Your free worksheets save directly to your device downloads folder ready for printing or distribution.',
       },
     ],
   },

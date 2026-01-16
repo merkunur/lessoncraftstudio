@@ -145,10 +145,12 @@ function getPreviewPath(src: string): string {
 }
 
 // Convert dynamic samples to the Sample interface for consistent rendering
+// Uses SEO-optimized alt text from propSamples if available, falling back to generic text
 function convertDynamicSamples(
   dynamicSamples: DynamicSample[],
   locale: string,
-  appId: string
+  appId: string,
+  propSamples?: Sample[]
 ): Sample[] {
   const language = localeToFolder[locale] || 'english';
   const folder = appIdToFolder[appId] || appId;
@@ -158,15 +160,22 @@ function convertDynamicSamples(
 
   return dynamicSamples
     .filter(s => s.hasWorksheet) // Only include slots with worksheets
-    .map(s => ({
-      id: `sample-${s.slot}`,
-      worksheetSrc: `${basePath}/sample-${s.slot}.jpeg${cacheBuster}`,
-      answerKeySrc: s.hasAnswer
-        ? `${basePath}/sample-${s.slot}-answer.jpeg${cacheBuster}`
-        : `${basePath}/sample-${s.slot}.jpeg${cacheBuster}`,
-      altText: `Sample worksheet ${s.slot}`,
-      pdfDownloadUrl: s.hasPdf ? `${basePath}/sample-${s.slot}.pdf` : undefined,
-    }));
+    .map((s, index) => {
+      // Use SEO-optimized alt text from content file if available (index-based mapping)
+      const seoAltText = propSamples?.[index]?.altText;
+      const seoImageTitle = propSamples?.[index]?.imageTitle;
+
+      return {
+        id: `sample-${s.slot}`,
+        worksheetSrc: `${basePath}/sample-${s.slot}.jpeg${cacheBuster}`,
+        answerKeySrc: s.hasAnswer
+          ? `${basePath}/sample-${s.slot}-answer.jpeg${cacheBuster}`
+          : `${basePath}/sample-${s.slot}.jpeg${cacheBuster}`,
+        altText: seoAltText || `Sample worksheet ${s.slot}`,
+        imageTitle: seoImageTitle,
+        pdfDownloadUrl: s.hasPdf ? `${basePath}/sample-${s.slot}.pdf` : undefined,
+      };
+    });
 }
 
 export default function SampleGallery({
@@ -212,7 +221,8 @@ export default function SampleGallery({
         if (data.success && data.matrix[locale]) {
           const appData = data.matrix[locale].apps[appId];
           if (appData && appData.slots) {
-            const converted = convertDynamicSamples(appData.slots, locale, appId);
+            // Pass propSamples to use SEO-optimized alt text from content files
+            const converted = convertDynamicSamples(appData.slots, locale, appId, propSamples);
             setDynamicSamples(converted);
           }
         }
@@ -224,7 +234,7 @@ export default function SampleGallery({
     };
 
     fetchDynamicSamples();
-  }, [appId, locale]);
+  }, [appId, locale, propSamples]);
 
   // Use dynamic samples if appId is provided and samples exist, otherwise fall back to prop samples
   // This allows the content manager uploads to take precedence, but falls back to hardcoded samples if none uploaded

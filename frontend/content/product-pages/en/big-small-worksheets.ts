@@ -11,6 +11,15 @@ import { ProductPageContent } from '@/components/product-page/ProductPageClient'
  */
 
 export const bigSmallEnContent: ProductPageContent = {
+  // SEO Metadata
+  seo: {
+    slug: 'big-small-worksheets',
+    appId: 'big-small-app',
+    title: 'Free Big and Small Worksheets for Kindergarten | Size Comparison Generator',
+    description: 'Create free printable size comparison worksheets for kids. Professional big and small worksheet generator for kindergarten. Download PDF worksheets in 3 minutes.',
+    keywords: 'free worksheet, free worksheets, free printables, worksheet for kids, worksheet for kindergarten, big and small worksheets, size comparison worksheets, kindergarten worksheets, math worksheets, preschool worksheets, first grade worksheets, visual discrimination worksheets, size sorting worksheets, big or small worksheets, free printable worksheets',
+  },
+
   // Hero Section - FULL text from big-small.md introduction paragraphs
   hero: {
     title: 'Free Printable Size Comparison Worksheets for Kindergarten',
@@ -43,21 +52,21 @@ The Big and Small worksheet maker offers five different question types. Students
         id: '1',
         worksheetSrc: '/samples/english/big small/big-small-different images.jpeg',
         answerKeySrc: '/samples/english/big small/big-small-different images answer_key.jpeg',
-        altText: 'Big and small worksheet with different images for size comparison practice',
+        altText: 'Free printable big and small worksheets - size comparison worksheet for kindergarten with different themed images for visual discrimination practice',
         pdfDownloadUrl: '/samples/english/big small/big-small-different images.pdf',
       },
       {
         id: '2',
         worksheetSrc: '/samples/english/big small/big-small identical images.jpeg',
         answerKeySrc: '/samples/english/big small/big-small identical images answer_key.jpeg',
-        altText: 'Size comparison worksheet with identical images in different sizes',
+        altText: 'Size comparison worksheets free printable - big or small worksheet for kids with identical images in different sizes for kindergarten math',
         pdfDownloadUrl: '/samples/english/big small/big-small identical images.pdf',
       },
       {
         id: '3',
         worksheetSrc: '/samples/english/big small/big-small number 1-2-3.jpeg',
         answerKeySrc: '/samples/english/big small/big-small number 1-2-3 answer_key.jpeg',
-        altText: 'Size ordering worksheet where students number objects from small to big',
+        altText: 'Free worksheet for kids - size sorting worksheets where kindergarten students number objects from smallest to biggest for math practice',
         pdfDownloadUrl: '/samples/english/big small/big-small number 1-2-3.pdf',
       },
     ],
@@ -65,14 +74,14 @@ The Big and Small worksheet maker offers five different question types. Students
 
   // Features Grid - FULL descriptions from big-small.md H3 sections
   features: {
-    sectionTitle: 'Everything You Need for Size Comparison Worksheets',
+    sectionTitle: 'Free Printable Size Comparison Worksheets - Features for Kindergarten and First Grade',
     sectionDescription: 'The Big and Small worksheet generator includes every feature teachers need to create professional size comparison activities. This section covers all the tools available in our worksheet maker. Each feature helps you create better worksheets faster. From easy generation to full editing control, these features make worksheet creation simple.',
     highlightBadgeText: 'Key Feature',
     items: [
       {
         id: '1',
         icon: '⚡',
-        title: 'Create Free Printable Worksheets in Three Clicks',
+        title: 'Create Free Worksheet for Kids: Big and Small Worksheets in Three Clicks',
         description: 'Making size comparison worksheets takes just three clicks. First, select your theme or images. Second, choose your question type. Third, click generate. Your worksheet appears instantly on the canvas. No waiting for processing or loading screens. The generator creates professional layouts automatically. Teachers save hours compared to manual worksheet creation. This speed lets you create free printable worksheets for your entire class in minutes. Kindergarten worksheets have never been this easy to produce.',
         highlighted: false,
       },
@@ -86,49 +95,49 @@ The Big and Small worksheet maker offers five different question types. Students
       {
         id: '3',
         icon: '📤',
-        title: 'Upload Custom Images for Personalized Worksheets',
+        title: 'Upload Custom Images for Free Printables and Preschool Worksheets',
         description: 'Teachers can upload their own images to any worksheet. The multi-file uploader accepts all common image formats. Use photos of classroom objects for authentic learning experiences. Upload pictures of student names for personalized alphabet worksheets. Add phonics worksheets images that match your current curriculum. Custom images make worksheets more engaging for students. Combine uploaded images with library images freely. All uploaded images remain available during your session. Create truly unique worksheets that connect to your specific teaching goals.',
         highlighted: false,
       },
       {
         id: '4',
         icon: '🌍',
-        title: 'Eleven Languages Support for Multilingual Classrooms',
+        title: 'Eleven Languages for Free Worksheets and Worksheet for Kindergarten',
         description: 'The image library supports eleven different languages. Choose from English, German, French, Spanish, Italian, Portuguese, Dutch, Swedish, Danish, Norwegian, and Finnish. Each language uses properly translated image labels. This feature benefits ESL teachers creating sight words worksheets. Bilingual classrooms use multiple language settings for ABC worksheets. International schools appreciate native language support. The language selector changes image names throughout the library. Students see vocabulary in their home language. Dual-language worksheets become simple to create.',
         highlighted: false,
       },
       {
         id: '5',
         icon: '💰',
-        title: 'Commercial License for Selling Worksheets',
+        title: 'Commercial License for Big or Small Worksheets and Free Printable Worksheets',
         description: 'Full Access subscription includes commercial print-on-demand licensing. Sell worksheets on Teachers Pay Teachers without extra fees. Open an Etsy shop featuring your original tracing worksheets. Publish addition worksheets on Amazon KDP. The commercial license covers all worksheet types you create. No attribution required on sold products. Keep one hundred percent of your sales revenue. Many teachers earn supplemental income selling worksheets. The 300 DPI export quality meets professional print standards. Your tracing worksheets will look sharp and professional.',
         highlighted: true,
       },
       {
         id: '6',
         icon: '🎨',
-        title: '3000+ Image Library with Themed Collections',
+        title: '3000+ Image Library for Free Printables and Kindergarten Worksheets',
         description: 'Access over three thousand child-friendly images organized by theme. Animal themes include farm animals, zoo animals, and pets. Food categories cover fruits, vegetables, and treats. Vehicle collections feature cars, trucks, planes, and boats. Seasonal themes change with holidays throughout the year. Each image works perfectly for coloring worksheets when printed in grayscale. Kindergarten worksheets benefit from familiar, friendly imagery. The search function helps you find specific items quickly. Browse by theme or search by keyword. New images are added regularly to expand your options.',
         highlighted: false,
       },
       {
         id: '7',
         icon: '🖨️',
-        title: 'Professional 300 DPI Quality for Print-Ready Exports',
+        title: 'Professional 300 DPI Quality for Math Worksheets and First Grade Worksheets',
         description: 'Every worksheet exports at professional 300 DPI resolution. This high quality ensures crisp lines and clear images. First grade worksheets print beautifully on any printer. Free printable worksheets look professional enough to sell. Choose between JPEG and PDF export formats. The grayscale toggle saves ink on classroom copies. Download worksheets individually or create answer keys. The answer key generator marks correct answers automatically. Both worksheet and answer key maintain consistent quality. Parents and administrators will notice the professional appearance.',
         highlighted: true,
       },
       {
         id: '8',
         icon: '🔢',
-        title: 'Five Question Types for Varied Learning Activities',
+        title: 'Five Question Types for Size Comparison Worksheets and Visual Discrimination Worksheets',
         description: 'The generator offers five different question formats. Circle the big one teaches basic size identification. Circle the small one reinforces comparison skills. Find the medium challenges students with three-way comparisons. Number one to three from small to big introduces ordering concepts. Number one to three from big to small reverses the challenge. These varied formats keep math worksheets engaging over time. Kindergarten worksheets can progress from simple to complex. Teachers can differentiate by selecting appropriate question types. Each format generates unique worksheet layouts.',
         highlighted: false,
       },
       {
         id: '9',
         icon: '✓',
-        title: 'Automatic Answer Keys for Quick Grading',
+        title: 'Automatic Answer Keys for Size Sorting Worksheets and Worksheet for Kids',
         description: 'Every worksheet includes an automatic answer key option. Generate your worksheet first, then click generate answer key. The answer key shows correct responses clearly marked. Green checkmarks appear on correct answers for identification questions. Numbers appear in correct positions for ordering questions. This feature saves enormous grading time on phonics worksheets. Alphabet worksheets with answer keys help parent volunteers assist. Substitute teachers can grade work accurately. Students can self-check their answers independently. The answer key maintains the same professional quality as the worksheet.',
         highlighted: false,
       },
@@ -137,7 +146,7 @@ The Big and Small worksheet maker offers five different question types. Students
 
   // How-To Guide - FULL text from big-small.md Step sections
   howTo: {
-    sectionTitle: 'Create Size Comparison Worksheets in Five Easy Steps',
+    sectionTitle: 'Create Free Big and Small Worksheets for Kindergarten in Five Easy Steps',
     sectionDescription: 'Creating professional size comparison worksheets takes under three minutes. This step-by-step guide walks you through the entire process. No design experience required. No complicated software to learn. Follow these five simple steps to create beautiful worksheets for your students. The Big and Small generator handles all the technical work automatically.',
     ctaText: 'Start Creating Now',
     steps: [
@@ -181,7 +190,7 @@ The Big and Small worksheet maker offers five different question types. Students
 
   // Use Cases - FULL descriptions from big-small.md persona sections
   useCases: {
-    sectionTitle: 'Perfect for Teachers, Parents, and Educators',
+    sectionTitle: 'Free Printable Worksheets for Teachers, Parents, and Educators',
     sectionDescription: 'Size comparison worksheets serve many different educational settings. Teachers, parents, and tutors all benefit from professional worksheet creation tools. This section explains how different educators use the Big and Small generator. Each user type has unique needs that our worksheet maker addresses. Discover how size comparison activities fit into your specific teaching context.',
     items: [
       {
@@ -237,7 +246,7 @@ The Big and Small worksheet maker offers five different question types. Students
 
   // FAQ Section - ALL questions from big-small.md
   faq: {
-    sectionTitle: 'Frequently Asked Questions',
+    sectionTitle: 'Frequently Asked Questions About Free Size Comparison Worksheets',
     sectionDescription: 'Teachers and parents have common questions about our worksheet generators. This FAQ section answers the most frequent inquiries we receive. Find answers about pricing, features, printing, and classroom use below. Each answer provides practical information to help you get started quickly.',
     showMoreText: 'Show more questions',
     showLessText: 'Show less',
@@ -301,6 +310,36 @@ The Big and Small worksheet maker offers five different question types. Students
         id: '12',
         question: 'Can I Create Worksheets About Specific School Subjects?',
         answer: 'The image library organizes content by themes that cover school subjects naturally. Animal themes support science and nature curriculum connections. Food categories align with health and nutrition education units. Vehicle themes connect to transportation and community helper studies. Seasonal collections match holiday and calendar learning activities. Tracing worksheets can feature subject-specific imagery you select. Coloring worksheets print in grayscale for any theme you choose. Upload custom images to create truly subject-specific worksheets. Combine the Big and Small generator with other tools for comprehensive units. The thirty-three generators cover math, literacy, and creative skill areas.',
+      },
+      {
+        id: '13',
+        question: 'Are These Big and Small Worksheets Free Printable for Kindergarten Use?',
+        answer: 'Big and small worksheets are available through our Full Access subscription which provides unlimited worksheet creation. Once subscribed, you can create and print as many free printable worksheets as you need for kindergarten classrooms. The subscription model means no per-worksheet fees ever. Kindergarten teachers appreciate the unlimited creation for multiple classes and activities. The worksheets export as PDF or JPEG files ready for any printer. Each worksheet maintains professional quality suitable for daily classroom use. Free printable worksheets save kindergarten budgets significantly compared to purchasing pre-made materials.',
+      },
+      {
+        id: '14',
+        question: 'What Makes This Worksheet for Kids Different from Other Size Comparison Tools?',
+        answer: 'This worksheet for kids generator stands apart through its combination of features tailored for young learners. The visual discrimination worksheets use child-friendly images that engage students effectively. Five different question types provide varied learning approaches for size comparison. The automatic answer key generation saves teacher preparation time significantly. Worksheet for kindergarten students includes appropriate difficulty levels and clear visual layouts. The 3000+ image library offers themed collections that connect to curriculum topics. Full canvas editing allows customization for individual student needs. Professional 300 DPI quality ensures crisp printing every time.',
+      },
+      {
+        id: '15',
+        question: 'Can I Create Free Worksheets for Multiple Kindergarten Classes?',
+        answer: 'Your Full Access subscription allows unlimited free worksheets creation for all your kindergarten classes. Create unique kindergarten worksheets for each classroom section without additional fees. Teachers handling multiple classes appreciate the ability to generate varied content quickly. Each worksheet can feature different images and question types for differentiated instruction. Free worksheets for different ability levels within the same grade are easy to produce. The subscription covers all thirty-three worksheet generators for comprehensive curriculum support. Share worksheet files with grade-level team members for collaborative planning.',
+      },
+      {
+        id: '16',
+        question: 'How Do Preschool Worksheets Differ from First Grade Worksheets in Size Comparison?',
+        answer: 'Preschool worksheets focus on basic big versus small identification with two-image comparisons. First grade worksheets introduce more complex three-image comparisons including medium-sized objects. Preschool students benefit from larger images and simpler layouts for developing visual discrimination. First grade worksheets can include ordering tasks where students number objects from smallest to biggest. The generator allows teachers to adjust exercise settings for each age group appropriately. Preschool worksheets typically use two to four exercises per page. First grade worksheets can handle six to ten exercises for extended practice sessions.',
+      },
+      {
+        id: '17',
+        question: 'What Size Sorting Worksheets Options Are Available for Math Practice?',
+        answer: 'Size sorting worksheets offer multiple options for comprehensive math practice. Circle the big one exercises teach basic size identification skills. Circle the small one activities reinforce comparison concepts from another angle. Find the medium object introduces three-way size sorting challenges. Number one to three from small to big develops sequencing and ordering skills. Number one to three from big to small reverses the ordering challenge. These math worksheets connect directly to greater than and less than concepts. Size sorting worksheets build foundational skills for measurement curriculum later. Each format generates unique layouts for repeated practice without repetition.',
+      },
+      {
+        id: '18',
+        question: 'Do Free Printables Include Visual Discrimination Worksheets for Early Learners?',
+        answer: 'Visual discrimination worksheets are a core component of our free printables collection. Size comparison activities require careful visual attention that strengthens discrimination skills. Students must observe subtle differences in object sizes to identify correct answers. The identical image mode isolates size as the only variable for focused discrimination practice. Different image mode adds object recognition alongside size comparison challenges. Visual discrimination worksheets prepare students for reading readiness and letter recognition. These free printables work excellently for early intervention programs and developmental screening. Teachers use visual discrimination worksheets alongside alphabet and phonics activities.',
       },
     ],
   },

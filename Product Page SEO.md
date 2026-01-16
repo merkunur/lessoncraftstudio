@@ -479,6 +479,71 @@ seo: {
 
 ## 3. Structured Data (JSON-LD Schemas)
 
+> ⚠️ **MANDATORY: STRUCTURED DATA VERIFICATION** ⚠️
+>
+> Every product page MUST have working JSON-LD schemas for Google rich results.
+> Schemas that don't validate = NO rich snippets in Google search results.
+> This is NOT optional. VERIFY EVERY PAGE.
+
+### 3.0 Required Schemas Checklist (DO NOT SKIP)
+
+**Every product page MUST include these 5 schemas:**
+
+| Schema | Purpose | Rich Result |
+|--------|---------|-------------|
+| SoftwareApplication | App listing | Software rich cards |
+| BreadcrumbList | Navigation | Breadcrumb trails |
+| FAQPage | FAQ section | FAQ rich snippets |
+| HowTo | Tutorial steps | How-to rich snippets |
+| ImageObject | Sample images | Google Images visibility |
+
+**How to Verify Schemas Are Working:**
+
+1. **View Page Source:** Right-click → View Page Source → Search for `"@type":"FAQPage"`
+2. **Google Rich Results Test:** https://search.google.com/test/rich-results
+3. **Schema Markup Validator:** https://validator.schema.org/
+
+**MANDATORY Verification Steps:**
+
+1. Go to https://search.google.com/test/rich-results
+2. Enter the production URL (e.g., `https://www.lessoncraftstudio.com/en/apps/word-search-worksheets`)
+3. Click "Test URL"
+4. Verify ALL of these show as valid:
+   - [ ] FAQ (X items detected)
+   - [ ] How-to (X steps detected)
+   - [ ] Software App (1 item detected)
+   - [ ] Breadcrumb (3 items detected)
+5. If ANY schema fails → FIX BEFORE DEPLOYING
+
+**What Causes Schema Failures:**
+- Empty FAQ arrays (need 18+ questions)
+- Missing HowTo steps (need 5 steps)
+- Invalid image URLs in ImageObject
+- Special characters not escaped in text
+
+**Schema Verification Commands (Run from Terminal):**
+
+```bash
+# Check if FAQPage schema exists
+curl -s "https://www.lessoncraftstudio.com/en/apps/word-search-worksheets" | grep -o '"@type":"FAQPage"'
+
+# Check if HowTo schema exists
+curl -s "https://www.lessoncraftstudio.com/en/apps/word-search-worksheets" | grep -o '"@type":"HowTo"'
+
+# Check if ImageObject schema exists
+curl -s "https://www.lessoncraftstudio.com/en/apps/word-search-worksheets" | grep -o '"@type":"ImageObject"'
+
+# Check if SoftwareApplication schema exists
+curl -s "https://www.lessoncraftstudio.com/en/apps/word-search-worksheets" | grep -o '"@type":"SoftwareApplication"'
+
+# Check if BreadcrumbList schema exists
+curl -s "https://www.lessoncraftstudio.com/en/apps/word-search-worksheets" | grep -o '"@type":"BreadcrumbList"'
+```
+
+**Expected Output:** Each command should return the schema type if present.
+
+---
+
 ### 3.1 Required Schemas per Product Page
 
 Each product page MUST include these 6 schemas:
@@ -780,7 +845,13 @@ altText: 'Sopa de letras fichas gratis para imprimir - puzzles vocabulario verti
 altText: 'Generador sopa de letras fichas imprimibles - juegos de palabras horizontal para niños'
 ```
 
-### 4.3 Image Title Attribute (NEW - Must Implement)
+### 4.3 Image Title Attribute (MANDATORY)
+
+> ⚠️ **MANDATORY: IMAGE TITLE ATTRIBUTES** ⚠️
+>
+> Every sample image MUST have a `title` attribute in addition to `alt`.
+> The `title` attribute shows on hover and helps Google understand image context.
+> This is NOT optional. VERIFY EVERY PAGE.
 
 Add `title` attribute to all images in SampleGallery.tsx:
 
@@ -795,7 +866,39 @@ Add `title` attribute to all images in SampleGallery.tsx:
 />
 ```
 
-### 4.4 Figure/Figcaption Semantic HTML (NEW - Must Implement)
+**How to Verify Title Attributes Are Present:**
+
+1. Open browser DevTools (F12)
+2. Navigate to a product page (e.g., `https://www.lessoncraftstudio.com/en/apps/word-search-worksheets`)
+3. Click on "Elements" tab
+4. Inspect any sample image thumbnail
+5. Verify the `<img>` tag has BOTH:
+   - `alt="Word search worksheets free printable..."`
+   - `title="Word search worksheets free printable..."`
+
+**What to Look For in DevTools:**
+```html
+<!-- ✅ CORRECT - Has both alt and title -->
+<img
+  alt="Word search worksheets free printable - portrait vocabulary puzzles for kindergarten"
+  title="Word search worksheets free printable - portrait vocabulary puzzles for kindergarten"
+  src="/_next/image?url=%2Fsamples%2Fenglish%2Fwordsearch%2F..."
+/>
+
+<!-- ❌ WRONG - Missing title attribute -->
+<img
+  alt="Word search worksheets free printable - portrait vocabulary puzzles for kindergarten"
+  src="/_next/image?url=%2Fsamples%2Fenglish%2Fwordsearch%2F..."
+/>
+```
+
+### 4.4 Figure/Figcaption Semantic HTML (MANDATORY)
+
+> ⚠️ **MANDATORY: SEMANTIC HTML FOR IMAGES** ⚠️
+>
+> Every sample image MUST be wrapped in `<figure>` with a `<figcaption>`.
+> This semantic HTML helps search engines understand image context and improves accessibility.
+> This is NOT optional. VERIFY EVERY PAGE.
 
 Replace current thumbnail containers with semantic HTML:
 
@@ -813,6 +916,37 @@ Replace current thumbnail containers with semantic HTML:
   </figcaption>
 </figure>
 ```
+
+**How to Verify Figure/Figcaption Is Present:**
+
+1. Open browser DevTools (F12)
+2. Navigate to a product page
+3. Inspect any sample image container
+4. Verify the structure:
+
+```html
+<!-- ✅ CORRECT - Semantic HTML structure -->
+<figure class="relative aspect-[3/4]">
+  <img
+    alt="Word search worksheets free printable..."
+    title="Word search worksheets free printable..."
+    src="..."
+  />
+  <figcaption class="sr-only">
+    Word search worksheets free printable - portrait vocabulary puzzles for kindergarten
+  </figcaption>
+</figure>
+
+<!-- ❌ WRONG - No semantic structure -->
+<div class="relative aspect-[3/4]">
+  <img alt="Word search puzzle" src="..." />
+</div>
+```
+
+**Why This Matters:**
+- Google gives higher weight to images with proper semantic HTML
+- Screen readers can provide better context to visually impaired users
+- The `sr-only` class hides the caption visually but keeps it accessible to search engines and assistive technology
 
 ### 4.5 Image Sitemap (NEW - Must Implement)
 
@@ -1287,23 +1421,39 @@ Use this checklist when optimizing each of the 363 product pages:
 - [ ] 6 use cases/personas
 - [ ] 6 related apps
 
-### Images
+### Images (⚠️ MANDATORY - DO NOT SKIP)
 
-- [ ] All sample images have optimized alt text
-- [ ] Alt text includes primary keyword
-- [ ] Alt text is language-appropriate
-- [ ] Title attributes added
-- [ ] Figure/figcaption implemented
-- [ ] ImageObject schema for each sample
+> **All image SEO items below are MANDATORY for Google Image Search visibility!**
 
-### Structured Data
+- [ ] **MANDATORY:** All sample images have keyword-optimized alt text (80-150 chars)
+- [ ] **MANDATORY:** Alt text includes primary app-specific keyword
+- [ ] **MANDATORY:** Alt text includes at least one universal keyword
+- [ ] **MANDATORY:** Alt text is in the SAME LANGUAGE as the page
+- [ ] **MANDATORY:** Title attributes present on ALL sample images
+- [ ] **MANDATORY:** Figure/figcaption semantic HTML implemented
+- [ ] **MANDATORY:** ImageObject schema for each sample image
 
-- [ ] SoftwareApplication schema present
-- [ ] BreadcrumbList schema present
-- [ ] FAQPage schema present
-- [ ] HowTo schema present
-- [ ] ImageObject schemas present
-- [ ] All schemas validate in Rich Results Test
+**Verification Required:**
+1. DevTools: Inspect images → verify `alt` AND `title` attributes present
+2. DevTools: Verify `<figure>` wrapper with `<figcaption>` exists
+
+### Structured Data (⚠️ MANDATORY - DO NOT SKIP)
+
+> **All schemas below are MANDATORY for Google rich snippets!**
+> Pages without valid schemas WILL NOT get rich results in Google search.
+
+- [ ] **MANDATORY:** SoftwareApplication schema present and valid
+- [ ] **MANDATORY:** BreadcrumbList schema present and valid
+- [ ] **MANDATORY:** FAQPage schema present and valid (18+ questions)
+- [ ] **MANDATORY:** HowTo schema present and valid (5 steps)
+- [ ] **MANDATORY:** ImageObject schemas present for ALL sample images
+- [ ] **MANDATORY:** Google Rich Results Test PASSES for ALL schemas
+
+**Verification Required:**
+1. Go to https://search.google.com/test/rich-results
+2. Enter the production URL
+3. ALL schemas must show as valid - NO errors or warnings
+4. If ANY schema fails → **FIX BEFORE DEPLOYING**
 
 ### Language/International
 
@@ -1323,6 +1473,25 @@ Use this checklist when optimizing each of the 363 product pages:
 - [ ] **UNIVERSAL keywords: 7 keywords × 5 instances = 35+ (100%+)**
 - [ ] **APP-SPECIFIC keywords: 10 keywords × 10 instances = 100+ (100%+)**
 - [ ] **GRAND TOTAL: 135+ keyword instances in H2/H3**
+
+### ⚠️ MANDATORY Schema & Image Verification (DO NOT SKIP)
+
+> **This verification step is BLOCKING. Do not deploy until ALL items pass.**
+
+**Schema Verification:**
+- [ ] **MANDATORY:** Google Rich Results Test passes at https://search.google.com/test/rich-results
+- [ ] **MANDATORY:** FAQPage schema detected (X items)
+- [ ] **MANDATORY:** HowTo schema detected (X steps)
+- [ ] **MANDATORY:** SoftwareApplication schema detected (1 item)
+- [ ] **MANDATORY:** BreadcrumbList schema detected (3 items)
+
+**Image Verification (DevTools Check):**
+- [ ] **MANDATORY:** All sample images have `title` attribute
+- [ ] **MANDATORY:** All sample images use `<figure>` wrapper
+- [ ] **MANDATORY:** All `<figure>` elements have `<figcaption>`
+- [ ] **MANDATORY:** Alt text contains primary keyword + universal keyword
+
+**If ANY of the above fails → FIX BEFORE DEPLOYING**
 
 ### Deployment (MANDATORY - DO NOT SKIP)
 
@@ -1384,6 +1553,14 @@ Use this checklist when optimizing each of the 363 product pages:
 
 ---
 
-**Document Version:** 1.0
+**Document Version:** 1.1
 **Created:** January 2026
+**Last Updated:** January 2026
 **Purpose:** Reference guide for applying professional SEO to each of 363 product pages individually
+
+**Version 1.1 Changes:**
+- Added MANDATORY Schema Verification Section (3.0)
+- Added Google Rich Results Test as required verification step
+- Added mandatory image title/figcaption verification steps
+- Made schema validation a BLOCKING deployment requirement
+- Added DevTools verification instructions for image SEO

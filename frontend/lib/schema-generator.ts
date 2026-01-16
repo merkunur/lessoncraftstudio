@@ -526,6 +526,233 @@ const localizedWorksheetGenerator: Record<string, string> = {
 };
 
 /**
+ * og:locale mapping for OpenGraph tags
+ */
+export const ogLocaleMap: Record<string, string> = {
+  en: 'en_US',
+  de: 'de_DE',
+  fr: 'fr_FR',
+  es: 'es_ES',
+  pt: 'pt_BR',
+  it: 'it_IT',
+  nl: 'nl_NL',
+  sv: 'sv_SE',
+  da: 'da_DK',
+  no: 'nb_NO',
+  fi: 'fi_FI'
+};
+
+/**
+ * Language folder mapping for sample images
+ */
+export const localeToLanguageFolder: Record<string, string> = {
+  en: 'english',
+  de: 'german',
+  fr: 'french',
+  es: 'spanish',
+  pt: 'portuguese',
+  it: 'italian',
+  nl: 'dutch',
+  sv: 'swedish',
+  da: 'danish',
+  no: 'norwegian',
+  fi: 'finnish'
+};
+
+/**
+ * Generate FAQPage Schema for product pages
+ * Enables FAQ rich snippets in Google SERPs
+ */
+export function generateProductPageFAQSchema(
+  faqs: Array<{ question: string; answer: string }>,
+  locale: string
+) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": faqs.map(faq => ({
+      "@type": "Question",
+      "name": faq.question,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": faq.answer
+      }
+    })),
+    "inLanguage": locale
+  };
+}
+
+/**
+ * HowTo Step interface for product page tutorials
+ */
+export interface HowToStepData {
+  name: string;
+  text: string;
+  image?: string;
+}
+
+/**
+ * Generate HowTo Schema for product pages
+ * Enables How-To rich snippets showing steps
+ */
+export function generateProductPageHowToSchema(
+  title: string,
+  description: string,
+  steps: HowToStepData[],
+  locale: string,
+  totalTime: string = 'PT3M'
+) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "HowTo",
+    "name": title,
+    "description": description,
+    "totalTime": totalTime,
+    "step": steps.map((step, index) => ({
+      "@type": "HowToStep",
+      "position": index + 1,
+      "name": step.name,
+      "text": step.text,
+      ...(step.image && { "image": step.image })
+    })),
+    "inLanguage": locale
+  };
+}
+
+/**
+ * Image metadata interface for sample images
+ */
+export interface SampleImageData {
+  src: string;
+  name: string;
+  description: string;
+  caption: string;
+  width?: number;
+  height?: number;
+  thumbnailSrc?: string;
+}
+
+/**
+ * Generate ImageObject Schema for sample images
+ * Critical for Google Image Search visibility
+ */
+export function generateImageObjectSchema(
+  image: SampleImageData,
+  pageUrl: string,
+  baseUrl: string = 'https://www.lessoncraftstudio.com'
+) {
+  // Encode URL properly for spaces
+  const encodedSrc = image.src.replace(/ /g, '%20');
+  const encodedThumb = image.thumbnailSrc?.replace(/ /g, '%20');
+
+  return {
+    "@context": "https://schema.org",
+    "@type": "ImageObject",
+    "contentUrl": `${baseUrl}${encodedSrc}`,
+    "url": pageUrl,
+    "name": image.name,
+    "description": image.description,
+    "caption": image.caption,
+    "width": image.width || 2480,
+    "height": image.height || 3508,
+    "encodingFormat": image.src.endsWith('.webp') ? 'image/webp' : 'image/jpeg',
+    ...(encodedThumb && { "thumbnailUrl": `${baseUrl}${encodedThumb}` }),
+    "license": `${baseUrl}/terms`,
+    "acquireLicensePage": `${baseUrl}/pricing`,
+    "creditText": "LessonCraftStudio",
+    "copyrightNotice": "© 2024-2026 LessonCraftStudio",
+    "creator": {
+      "@type": "Organization",
+      "name": "LessonCraftStudio"
+    },
+    "associatedArticle": {
+      "@type": "WebPage",
+      "url": pageUrl
+    }
+  };
+}
+
+/**
+ * Generate Product Schema for PDF downloads
+ * Marks downloadable PDFs as products for rich results
+ */
+export function generateProductSchema(
+  name: string,
+  description: string,
+  imageUrl: string,
+  pdfUrl: string,
+  category: string,
+  baseUrl: string = 'https://www.lessoncraftstudio.com'
+) {
+  const encodedImage = imageUrl.replace(/ /g, '%20');
+  const encodedPdf = pdfUrl.replace(/ /g, '%20');
+
+  return {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": name,
+    "description": description,
+    "image": `${baseUrl}${encodedImage}`,
+    "brand": {
+      "@type": "Brand",
+      "name": "LessonCraftStudio"
+    },
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD",
+      "availability": "https://schema.org/InStock",
+      "url": `${baseUrl}${encodedPdf}`
+    },
+    "category": category
+  };
+}
+
+/**
+ * Generate all schemas for a product page with full SEO
+ * Combines: SoftwareApplication, BreadcrumbList, WebPage, FAQPage, HowTo, and ImageObjects
+ */
+export function generateAllProductPageSchemas(
+  appData: AppProductData,
+  locale: string,
+  pageUrl: string,
+  faqs?: Array<{ question: string; answer: string }>,
+  howTo?: { title: string; description: string; steps: HowToStepData[] },
+  sampleImages?: SampleImageData[],
+  baseUrl: string = 'https://www.lessoncraftstudio.com'
+): object[] {
+  const schemas: object[] = [];
+
+  // 1. Core schemas (SoftwareApplication, BreadcrumbList, WebPage)
+  schemas.push(...generateAppProductSchemas(appData, locale, pageUrl, baseUrl));
+
+  // 2. FAQPage schema (if FAQ content provided)
+  if (faqs && faqs.length > 0) {
+    schemas.push(generateProductPageFAQSchema(faqs, locale));
+  }
+
+  // 3. HowTo schema (if how-to steps provided)
+  if (howTo && howTo.steps.length > 0) {
+    schemas.push(generateProductPageHowToSchema(
+      howTo.title,
+      howTo.description,
+      howTo.steps,
+      locale
+    ));
+  }
+
+  // 4. ImageObject schemas for sample images (limit to first 5 for performance)
+  if (sampleImages && sampleImages.length > 0) {
+    const imagesToProcess = sampleImages.slice(0, 5);
+    for (const image of imagesToProcess) {
+      schemas.push(generateImageObjectSchema(image, pageUrl, baseUrl));
+    }
+  }
+
+  return schemas;
+}
+
+/**
  * Generate Schema Markup for Individual App Product Pages
  * Includes: SoftwareApplication and BreadcrumbList schemas
  */

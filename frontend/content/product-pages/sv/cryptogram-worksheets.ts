@@ -442,11 +442,12 @@ Många lärare tjänar 4 000-40 000 kr per månad på Teachers Pay Teachers. Bil
 
   // Pricing
   pricing: {
-    title: 'Grundpaketet',
-    price: '2880 kr',
+    title: 'Full Tillgång',
+    price: '$240',
     priceInterval: '/år',
     priceSuffix: 'Faktureras årligen',
     benefits: [
+      'Alla 33 arbetsbladsverktyg',
       'Obegränsad arbetsbladskapning',
       'Kommersiell licens ingår',
       '11 språk stöds',
@@ -455,19 +456,8 @@ Många lärare tjänar 4 000-40 000 kr per månad på Teachers Pay Teachers. Bil
       'Facit ingår',
     ],
     ctaText: 'Börja Skapa Nu',
-    bundleDescription: 'Din prenumeration inkluderar tillgang till 10 arbetsbladsverktyg:',
-    bundleApps: [
-      'Bildaddition',
-      'Alfabetstandriv',
-      'Malarbilder',
-      'Matematikuppgifter',
-      'Ordtrassel',
-      'Hitta och Rakna',
-      'Matchningsspel',
-      'Rita Linjer',
-      'Bildbingo',
-      'Sudoku',
-    ],
+    bundleDescription: 'Din prenumeration inkluderar tillgang till alla 33 arbetsbladsverktyg',
+    bundleApps: [],
   },
 
   // Related Apps

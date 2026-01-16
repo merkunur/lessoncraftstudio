@@ -372,11 +372,12 @@ Multiplikationstabellen arbetsblad är mycket populära produkter. Klockan lära
 
   // Pricing
   pricing: {
-    title: 'Grundpaketet',
-    price: '144$',
+    title: 'Full Tillgång',
+    price: '$240',
     priceInterval: '/år',
     priceSuffix: 'Faktureras årligen',
     benefits: [
+      'Alla 33 arbetsbladsverktyg',
       'Obegränsad arbetsbladskapning',
       'Kommersiell licens ingår',
       '11 språk stöds',
@@ -385,19 +386,8 @@ Multiplikationstabellen arbetsblad är mycket populära produkter. Klockan lära
       'Facit ingår',
     ],
     ctaText: 'Börja Skapa Nu',
-    bundleDescription: 'Din prenumeration inkluderar tillgang till 10 arbetsbladsverktyg:',
-    bundleApps: [
-      'Bildaddition',
-      'Alfabetstandriv',
-      'Malarbilder',
-      'Matematikuppgifter',
-      'Ordtrassel',
-      'Hitta och Rakna',
-      'Matchningsspel',
-      'Rita Linjer',
-      'Bildbingo',
-      'Sudoku',
-    ],
+    bundleDescription: 'Din prenumeration inkluderar tillgang till alla 33 arbetsbladsverktyg',
+    bundleApps: [],
   },
 
   // Related Apps

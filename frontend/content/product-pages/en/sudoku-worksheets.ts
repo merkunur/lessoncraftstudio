@@ -11,6 +11,29 @@ import { ProductPageContent } from '@/components/product-page/ProductPageClient'
  */
 
 export const sudokuEnContent: ProductPageContent = {
+  // SEO Metadata
+  seo: {
+    appId: 'sudoku',
+    slug: 'sudoku-worksheets',
+    title: 'Free Sudoku Worksheets for Kids | Kindergarten & First Grade Puzzles',
+    description: 'Create 4x4 picture sudoku puzzles for kindergarten and first grade. Free printable worksheets with answer keys. Download PDF in 3 minutes.',
+    keywords: [
+      'sudoku worksheets',
+      'sudoku for kids',
+      'kindergarten worksheets',
+      'first grade worksheets',
+      'free printable worksheets',
+      'logic puzzles for kids',
+      'picture sudoku',
+      '4x4 sudoku puzzles',
+      'math worksheets',
+      'free worksheets for kids',
+      'sudoku worksheet generator',
+      'printable sudoku puzzles'
+    ],
+    canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/sudoku-worksheets'
+  },
+
   // Hero Section - FULL text from sudoku.md paragraphs 1-3
   hero: {
     title: 'Free Printable Sudoku for Kids',
@@ -43,21 +66,21 @@ This sudoku worksheet generator is perfect for kindergarten teachers, first grad
         id: '1',
         worksheetSrc: '/samples/english/sudoku/sudoku_easy.jpeg',
         answerKeySrc: '/samples/english/sudoku/sudoku_easy answer_key.jpeg',
-        altText: 'Easy 4x4 picture sudoku worksheet with 4 blank cells for kindergarten students',
+        altText: 'Free printable sudoku worksheets for kindergarten - easy 4x4 picture puzzle with colorful images for kids ages 4-6',
         pdfDownloadUrl: '/samples/english/sudoku/sudoku_easy.pdf',
       },
       {
         id: '2',
         worksheetSrc: '/samples/english/sudoku/sudoku medium.jpeg',
         answerKeySrc: '/samples/english/sudoku/sudoku medium answer_key.jpeg',
-        altText: 'Medium difficulty 4x4 picture sudoku worksheet with 6 blank cells for first grade',
+        altText: 'Sudoku worksheets for kids free printable - medium difficulty 4x4 picture puzzle worksheet for first grade',
         pdfDownloadUrl: '/samples/english/sudoku/sudoku medium.pdf',
       },
       {
         id: '3',
         worksheetSrc: '/samples/english/sudoku/sudoku hard.jpeg',
         answerKeySrc: '/samples/english/sudoku/sudoku hard answer_key.jpeg',
-        altText: 'Hard difficulty 4x4 picture sudoku puzzle with 8 blank cells for advanced learners',
+        altText: 'Free sudoku worksheet for kids - hard 4x4 picture logic puzzle with 8 blank cells for advanced kindergarten learners',
         pdfDownloadUrl: '/samples/english/sudoku/sudoku hard.pdf',
       },
     ],
@@ -72,7 +95,7 @@ This sudoku worksheet generator is perfect for kindergarten teachers, first grad
       {
         id: '1',
         icon: '⚡',
-        title: 'Create Sudoku Worksheets in 3 Clicks',
+        title: 'Create Free Sudoku Worksheets for Kids in 3 Clicks',
         description: 'Generate a complete sudoku worksheet with just three clicks. Select a theme from the dropdown menu. Click the generate button. Your worksheet appears on the canvas instantly. The entire process takes under 30 seconds from start to download. Choose from dozens of themes like animals, food, transportation, school supplies, or seasonal images. Each theme contains enough variety to create hundreds of unique puzzles. The generator automatically selects four random images from your chosen theme. It creates a valid 4x4 sudoku grid with the correct number of blank cells. It adds cutout images at the bottom or side of the page for students to cut and paste. This one-click generation eliminates the tedious work of manually arranging images and checking sudoku rules.',
         highlighted: false,
       },
@@ -86,35 +109,35 @@ This sudoku worksheet generator is perfect for kindergarten teachers, first grad
       {
         id: '3',
         icon: '🧩',
-        title: '4x4 Visual Sudoku Grid',
+        title: '4x4 Picture Sudoku Puzzles - Free Worksheet for Kindergarten',
         description: 'Traditional 9x9 sudoku is too complex for young children. Our 4x4 grid simplifies the logic puzzle for ages 4-8. Each puzzle uses exactly four different images instead of numbers. Students must place each image once in every row, column, and 2x2 quadrant. This simplified rule set teaches the same logical thinking skills without overwhelming beginners. The visual nature helps children who have not yet learned numbers. They can solve puzzles using pictures of animals, foods, or toys. The 4x4 grid contains only 16 cells total. Students can complete puzzles in 5-10 minutes instead of 30-60 minutes for traditional sudoku. This appropriate challenge level builds confidence and problem-solving skills. First grade worksheets use the same 4x4 format but with more blank cells for increased difficulty.',
         highlighted: true,
       },
       {
         id: '4',
         icon: '📊',
-        title: 'Easy, Medium, Hard Difficulty',
+        title: 'Easy, Medium, Hard Sudoku Worksheets for Kids - Logic Puzzles',
         description: 'Choose from three difficulty levels to match student abilities. Easy difficulty removes 4 cells from the completed grid. Students fill in only 4 blank spaces. This level works perfectly for preschool ages 4-5 or kindergarten students just learning the concept. Medium difficulty removes 6 cells. Students must deduce the correct placement for 6 images. This level suits advanced kindergarteners and most first graders ages 6-7. Hard difficulty removes 8 cells, leaving only half the grid filled. Students must use more complex logical reasoning. This level challenges advanced first graders and second graders ages 7-8. All three difficulty levels use the same 4x4 grid size. The only difference is the number of blank cells. Teachers can differentiate instruction by giving different difficulty levels to different students using the same theme. This makes heterogeneous grouping easier.',
         highlighted: false,
       },
       {
         id: '5',
         icon: '🌍',
-        title: 'Sudoku Worksheets in 11 Languages',
+        title: 'Free Printable Sudoku Worksheets in 11 Languages',
         description: 'Create sudoku worksheets in English, Spanish, French, German, Italian, Portuguese, Dutch, Danish, Swedish, Norwegian, or Finnish. The language selector changes the entire user interface to your chosen language. All buttons, labels, and instructions appear in the selected language. More importantly, all image filenames display in that language. When you select the animals theme in Spanish, image names appear as "gato", "perro", "pájaro", and "pez". The same theme in German shows "Katze", "Hund", "Vogel", and "Fisch". This language-specific naming makes these worksheets perfect for ESL instruction and foreign language classes. Students learn vocabulary while solving logic puzzles. Teachers in bilingual immersion programs can create matching worksheets in both languages. International schools can generate materials in their students\' native languages. Heritage language programs can provide authentic practice materials. Adult ESL programs can use age-appropriate images with vocabulary practice.',
         highlighted: false,
       },
       {
         id: '6',
         icon: '✅',
-        title: 'Automatic Answer Key Included',
+        title: 'Free Worksheet with Automatic Answer Key for Sudoku Puzzles',
         description: 'Click the "Create Answer Key" button after generating your worksheet. The system automatically generates a complete solution showing all cells filled in correctly. The answer key uses the same layout, backgrounds, and decorations as your worksheet. Only the blank cells are now filled with the correct images. Download the answer key as a separate file. Print it for your reference or include it with take-home packets. Parents helping with homework appreciate having answer keys. Substitute teachers can verify student work without solving puzzles themselves. Teachers selling worksheets on Teachers Pay Teachers can include answer keys in their paid products. The automatic generation saves hours of manual work. You never need to solve puzzles yourself to create answer keys.',
         highlighted: true,
       },
       {
         id: '7',
         icon: '🖨️',
-        title: 'Professional 300 DPI Quality',
+        title: 'Free Printable Math Worksheets - Professional 300 DPI Quality',
         description: 'Download your worksheets as high-resolution JPEG or PDF files. All exports use 300 DPI resolution for crisp printing. Images remain sharp when printed on regular home printers or professional copy machines. Choose Letter size (8.5×11 inches) or A4 size (210×297mm) to match your region\'s paper standard. Select portrait orientation with the grid on top and cutouts below. Or choose landscape orientation with the grid on the left and cutouts on the right. The grayscale option converts all colors to black and white before download. This saves colored ink while maintaining image clarity. Parents printing at home appreciate this ink-saving feature. The PDF format preserves all elements in perfect positions. No fonts or images shift during download. The JPEG format works for printing services that don\'t accept PDFs.',
         highlighted: false,
       },
@@ -130,35 +153,35 @@ This sudoku worksheet generator is perfect for kindergarten teachers, first grad
       {
         id: '1',
         number: 1,
-        title: 'Choose Images for Your Sudoku',
+        title: 'Choose Images for Your Free Sudoku Worksheet for Kids',
         description: 'Open the Image Library accordion section in the left sidebar. You see three ways to select your four puzzle images. The fastest method is theme-based generation. Click the "Generate from Theme" dropdown at the top. Select any theme like Animals, Food, Transportation, School Supplies, or Seasonal. The generator automatically picks four random images from that theme when you click create. Each theme contains 15-30 images, so you get different combinations every time. This method guarantees thematically consistent puzzles. All four images match visually and conceptually. The second method is individual image selection. Scroll down to see the image library with 3000+ child-friendly pictures. Use the "Filter by Theme" dropdown to narrow results. Type keywords in the search box to find specific images like "cat" or "apple". Click four images to select them. Selected images appear in the preview box with blue borders. You must select exactly four images to generate a puzzle. This method gives you complete control over which specific pictures appear. The third method is uploading custom images. Click the "Upload Custom Images" accordion section. Click the file upload button. Select one or more image files from your computer. Accepted formats include JPEG, PNG, and GIF. Your uploaded images appear in the preview area. Click four uploaded images to use them in your puzzle. Or mix uploaded images with library images by selecting some from each source. Upload classroom photos, student artwork, or themed images you found online. This customization creates truly unique worksheets matching your specific curriculum.',
         icon: '🖼️',
       },
       {
         id: '2',
         number: 2,
-        title: 'Set Difficulty Level',
+        title: 'Set Difficulty Level for Sudoku Puzzles - Easy to Hard Worksheets',
         description: 'Open the "Sudoku for Kids" accordion section. Find the "Number of blank cells" dropdown. Three difficulty options appear. Easy creates 4 blank cells, perfect for ages 4-5 learning the sudoku concept. Medium creates 6 blank cells, suitable for kindergarten ages 5-6. Hard creates 8 blank cells, appropriate for first grade ages 6-8. The difficulty selector defaults to Easy if you don\'t change it. Choose difficulty based on your students\' experience level. First-time sudoku solvers should start with Easy regardless of age. The 4 blank cells let them focus on understanding the rules without frustration. Once students master Easy puzzles, move up to Medium. The 6 blank cells require more deductive reasoning. Students must figure out cell contents based on elimination. Hard puzzles with 8 blank cells challenge advanced students. Half the grid is empty. Students must use multi-step logic and careful analysis. You can create differentiated worksheet sets using the same theme at different difficulties. Generate an Easy version for struggling learners. Create a Medium version for on-level students. Make a Hard version for advanced students. All three worksheets use the same four images and theme. Only the number of blanks differs. This differentiation strategy saves planning time while meeting diverse needs.',
         icon: '⚙️',
       },
       {
         id: '3',
         number: 3,
-        title: 'Generate Your Sudoku Worksheet',
+        title: 'Generate Your Free Printable Sudoku Worksheet in Seconds',
         description: 'Click the blue "Create" button in the top-right corner. Select "Create Worksheet" from the dropdown menu. The generator springs into action immediately. Within two seconds, your complete worksheet appears on the canvas. The system has created a valid 4x4 sudoku grid. It placed the four selected images according to sudoku rules. It removed the correct number of cells based on your difficulty setting. It generated cutout images at the bottom or side of the page. The automatic layout handles all spacing and positioning. Portrait orientation places the grid in the upper portion of the page. Cutout images arrange in a grid below the main puzzle. Landscape orientation puts the grid on the left side. Cutout images arrange vertically on the right side. The system adds a default title "Sudoku for Kids" at the top. Simple instructions explain how to solve the puzzle. Grid lines clearly separate all cells and quadrants. Every generated puzzle is unique and solvable. The algorithm creates a valid solution first. Then it removes cells to create the puzzle. It verifies that exactly one solution exists before displaying the worksheet. You never get unsolvable or ambiguous puzzles. Students can always find the correct answer using logic alone. The cutout images include only the specific images needed to fill the blanks. No extra or missing pieces.',
         icon: '✨',
       },
       {
         id: '4',
         number: 4,
-        title: 'Customize Your Worksheets',
+        title: 'Customize Free Worksheets for Kindergarten and First Grade',
         description: 'Your basic worksheet is complete, but customization makes it special. Click any element on the canvas to select it. Drag the sudoku grid to reposition it. Scale it larger or smaller using corner handles. Rotate it if desired. Click the title text to edit the words. Change "Sudoku for Kids" to include your student\'s name or classroom number. Select the text and use the Text Tools panel to change font, size, or color. Open the "Page & Scene" accordion to add visual appeal. Click the "Background Theme" dropdown. Choose from dozens of themed backgrounds like Chalkboard, Notebook Paper, Rainbow, or Clouds. Adjust the opacity slider if the background is too bold. Select the "Border Theme" dropdown. Add decorative borders like Stars, Hearts, Flowers, or School Supplies around the page edges. Adjust border opacity to make it subtle or prominent. Click the "Add Text" button in Text Tools to add instructions, due dates, or student names. Type your text in the input box. Click "Add Text" again. The text appears on the canvas. Drag it to position. Use the formatting controls to change color, size, font, outline, and effects. Add multiple text objects for titles, subtitles, and instructions. Upload additional images to use as decorations. Maybe add your school logo or mascot. Position custom images in corners or margins.',
         icon: '🎨',
       },
       {
         id: '5',
         number: 5,
-        title: 'Download with Answer Key',
+        title: 'Download Free Sudoku Worksheet for Kids with Answer Key',
         description: 'Click the "Create" button dropdown in the top-right corner. Select "Create Answer Key" from the menu. Wait two seconds while the system generates the complete solution. Click the "Answer Key" tab to preview it. The answer key shows all 16 cells filled in correctly. It uses the same backgrounds, borders, and text as your worksheet. Only the blank cells are now complete. Return to the "Worksheet" tab to verify everything looks correct. Click the "Download" dropdown button. Four options appear. "Worksheet (JPEG)" downloads the puzzle as a JPEG image file. "Answer Key (JPEG)" downloads the solution as a JPEG. "Worksheet (PDF)" creates a PDF version of the puzzle. "Answer Key (PDF)" creates a PDF of the solution. The PDF format works better for printing. The JPEG format works for digital distribution. Before downloading, check the grayscale checkbox if you want to save ink. The system converts all colors to black, white, and gray tones. Images remain clear and recognizable. This option reduces color ink usage by 100%. Download both worksheet and answer key. Print multiple copies for your class. Or save the files for later use. Create variations by changing difficulty or images and downloading again. Build a complete library of free printable worksheets matching your entire curriculum.',
         icon: '📥',
       },
@@ -230,7 +253,7 @@ This sudoku worksheet generator is perfect for kindergarten teachers, first grad
     items: [
       {
         id: '1',
-        question: 'Is This Sudoku Generator Really Free to Use?',
+        question: 'Is This Free Sudoku Worksheet Generator Really Free?',
         answer: 'Word Search is the only free app on LessonCraft Studio. Sudoku for Kids requires a Core Bundle subscription. The subscription costs $144 per year or $15 per month. "Free printable" is a search term people use when looking for worksheet resources. It refers to the output, not the generator itself. With your Core Bundle subscription, you create unlimited printable worksheets with no per-worksheet fees. You pay $144 yearly total, not per worksheet. This pricing structure differs from competitors who charge $2-5 per worksheet download. Your subscription includes commercial licensing, 11 languages, and access to 10 different worksheet generators including sudoku.',
       },
       {
@@ -240,7 +263,7 @@ This sudoku worksheet generator is perfect for kindergarten teachers, first grad
       },
       {
         id: '3',
-        question: 'Do I Need Design Skills to Create Kindergarten Worksheets?',
+        question: 'Do I Need Design Skills to Create Free Worksheets for Kids?',
         answer: 'No design skills required. The generator uses a simple three-step interface. Select a theme from the dropdown menu. Choose your difficulty level. Click the create button. Your complete worksheet appears in 2-3 seconds. The automatic layout handles all spacing, sizing, and positioning. The sudoku validation ensures every puzzle is solvable. The answer key generates with one additional click. Teachers who have never used design software create professional worksheets successfully. The optional customization features remain available for advanced users. But basic worksheet creation requires only clicking three buttons. Kindergarten teachers with minimal computer skills use this generator daily.',
       },
       {
@@ -265,7 +288,7 @@ This sudoku worksheet generator is perfect for kindergarten teachers, first grad
       },
       {
         id: '8',
-        question: 'What Age Groups Work Best with These Kindergarten Worksheets?',
+        question: 'What Age Groups Work Best with These Free Printable Worksheets for Kindergarten?',
         answer: 'Visual 4x4 sudoku works best for ages 4-8. Younger preschoolers (ages 3-4) may struggle with the logic requirements. Older students (ages 9+) find 4x4 grids too simple and prefer traditional 9x9 sudoku. The sweet spot is kindergarten through second grade (ages 5-8). Easy difficulty (4 blanks) suits ages 4-5 or kindergarten students new to sudoku. Medium difficulty (6 blanks) works for ages 6-7 or advanced kindergarteners and most first graders. Hard difficulty (8 blanks) challenges ages 7-8 or second grade students and advanced first graders. Adjust difficulty based on individual student abilities rather than strict age guidelines. Some advanced 5-year-olds complete Hard puzzles while some struggling 7-year-olds need Easy difficulty.',
       },
       {
@@ -275,7 +298,7 @@ This sudoku worksheet generator is perfect for kindergarten teachers, first grad
       },
       {
         id: '10',
-        question: 'How Long Does It Take to Create a Sudoku Worksheet for First Grade?',
+        question: 'How Long Does It Take to Create a Free First Grade Worksheet?',
         answer: 'Complete worksheet creation takes under 3 minutes from start to downloaded file. Theme selection takes 10 seconds. Difficulty selection takes 5 seconds. Generation takes 2-3 seconds. Optional customization adds 1-2 minutes. Answer key generation takes 2 seconds. Download takes 5 seconds. Total time averages 2-3 minutes for basic worksheets. Advanced customization with backgrounds, borders, and text additions extends time to 5-6 minutes maximum. Compare this to 45-60 minutes required for manual sudoku creation. The time savings makes daily puzzle creation practical. Generate themed puzzles matching your weekly curriculum topics without sacrificing planning time for other subjects.',
       },
       {

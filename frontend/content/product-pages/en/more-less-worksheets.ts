@@ -17,7 +17,6 @@ export const moreLessEnContent: ProductPageContent = {
     description: 'Create free printable comparison worksheets for kindergarten. Generate greater than less than math worksheets in minutes. Download PDF worksheet for kids now.',
     keywords: 'comparison worksheets, greater than less than worksheets, math worksheets, kindergarten worksheets, first grade worksheets, number comparison, printable worksheets, worksheet generator, counting worksheets, more or less worksheets',
     canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/more-less-worksheets',
-    locale: 'en_US',
   },
 
   // Hero Section - FULL text from more-less.md paragraphs 1-4

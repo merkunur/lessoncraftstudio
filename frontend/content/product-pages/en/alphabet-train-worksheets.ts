@@ -15,7 +15,7 @@ export const alphabetTrainEnContent: ProductPageContent = {
   seo: {
     slug: 'alphabet-train-worksheets',
     appId: 'alphabet-train',
-    title: 'Free ABC Worksheets for Kindergarten | Alphabet Train Generator - LessonCraftStudio',
+    title: 'Free Alphabet Train Worksheets for Kindergarten | ABC Worksheet Generator',
     description: 'Create free printable alphabet worksheets for kids. Professional ABC worksheet generator for kindergarten. Download letter recognition worksheets in 3 minutes.',
     keywords: 'free worksheet, free worksheets, free printables, worksheet for kids, worksheet for kindergarten, ABC worksheets, alphabet worksheets, kindergarten worksheets, phonics worksheets, tracing worksheets, coloring worksheets, first grade worksheets',
   },
@@ -50,14 +50,14 @@ The Alphabet Train worksheet maker transforms alphabet learning into an exciting
         id: '1',
         worksheetSrc: '/samples/english/alphabet-train/alphabet train portrait.jpeg',
         answerKeySrc: '/samples/english/alphabet-train/alphabet train portrait answer_key.jpeg',
-        altText: 'Alphabet train worksheet portrait mode with letter-image matching for kindergarten',
+        altText: 'Free printable alphabet train worksheets for kindergarten - portrait mode ABC letter matching worksheet for kids ages 4-6',
         pdfDownloadUrl: '/samples/english/alphabet-train/alphabet train portrait.pdf',
       },
       {
         id: '2',
         worksheetSrc: '/samples/english/alphabet-train/alphabet train landscape.jpeg',
         answerKeySrc: '/samples/english/alphabet-train/alphabet train landscape answer_key.jpeg',
-        altText: 'Landscape alphabet train worksheet with colorful train wagons for first grade',
+        altText: 'Alphabet train free worksheet for kids - landscape ABC worksheets with colorful train wagons for first grade students',
         pdfDownloadUrl: '/samples/english/alphabet-train/alphabet train landscape.pdf',
       },
     ],
@@ -201,7 +201,7 @@ Enable the grayscale checkbox before downloading to save ink. This converts all 
 
   // Use Cases - FULL text from alphabet-train.md use case sections
   useCases: {
-    sectionTitle: 'Perfect for Teachers and Parents',
+    sectionTitle: 'Worksheet for Kids: Perfect for Teachers and Parents',
     sectionDescription: 'The Alphabet Train generator serves educators across many settings. Classroom teachers use it daily for literacy centers. Parents create practice materials for home learning. Tutors build custom resources for individual students. Each user finds unique value in our flexible worksheet creation tools.',
     items: [
       {

@@ -472,7 +472,16 @@ Kombinera flera svårighetsgrader i samma paket. "25 Djur-målarbilder Barn - F�
     ],
     ctaText: 'Börja Skapa Nu',
     bundleDescription: 'Din prenumeration inkluderar tillgang till alla 33 arbetsbladsverktyg',
-    bundleApps: [],
+    bundleApps: [
+      'Bildaddition', 'Alfabetståg', 'Stor eller liten', 'Bildbingo',
+      'Räknediagram', 'Kodaddition', 'Målarbilder', 'Bildkorsord',
+      'Bildkryptogram', 'Rita och färglägg', 'Rita linjer', 'Hitta och räkna',
+      'Hitta föremålen', 'Rutnätsmatchning', 'Matchningsspel', 'Mattepussel',
+      'Matteuppgifter', 'Saknade bitar', 'Mer eller mindre', 'Vilket hör inte hemma',
+      'Mönsterståg', 'Mönsterövningar', 'Bildväg', 'Sortera bilder',
+      'Prepositioner', 'Skuggmatchning', 'Subtraktion', 'Barnsudoku',
+      'Skattjakt', 'Gissa ordet', 'Ordmix', 'Ordletare', 'Skrivövningar',
+    ],
   },
 
   // Related Apps

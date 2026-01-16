@@ -103,11 +103,67 @@ git push
 "C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "bash /opt/lessoncraftstudio/deploy.sh"
 ```
 
+> ⚠️ **CRITICAL: VERIFY COMMIT AND PUSH SUCCESS** ⚠️
+>
+> Commits and pushes often fail silently. You MUST verify each step succeeded.
+> **DO NOT PROCEED** to the next step until you confirm success.
+
+**How to Verify COMMIT Succeeded:**
+
+Look for output like this:
+```
+[main abc1234] SEO: Optimize wordsearch page for English
+ 1 file changed, 50 insertions(+), 20 deletions(-)
+```
+
+If you see `nothing to commit` or an error → The commit FAILED. Fix and retry.
+
+**How to Verify PUSH Succeeded:**
+
+Look for output like this:
+```
+To https://github.com/merkunur/lessoncraftstudio.git
+   abc1234..def5678  main -> main
+```
+
+If you see any of these, the push FAILED:
+- `error: failed to push`
+- `rejected`
+- `fatal:`
+- `Could not read from remote repository`
+- No output at all
+
+**If Push Fails, Run These Commands:**
+
+```bash
+# Check current status
+git status
+
+# Check if there are unpushed commits
+git log origin/main..HEAD --oneline
+
+# If unpushed commits exist, try pushing again
+git push
+
+# If still fails, check remote connection
+git remote -v
+```
+
+**MANDATORY Verification After Push:**
+
+```bash
+# Confirm local and remote are in sync (should show nothing)
+git log origin/main..HEAD --oneline
+
+# If this shows commits, they are NOT pushed - push again!
+```
+
 **Why this is mandatory:**
 - SEO changes have no value until they're live
 - Uncommitted changes can be lost
 - Google can only index deployed content
 - Partial implementations cause confusion
+- **Unpushed commits will NOT be deployed** - the server pulls from remote, not your local machine
 
 ### Output Format
 
@@ -1495,10 +1551,18 @@ Use this checklist when optimizing each of the 363 product pages:
 
 ### Deployment (MANDATORY - DO NOT SKIP)
 
-- [ ] Changes committed to git with descriptive message
-- [ ] Changes pushed to remote repository
-- [ ] Deployment script executed successfully
-- [ ] Live page verified at production URL
+> ⚠️ **CRITICAL: VERIFY EACH STEP SUCCEEDED** ⚠️
+>
+> Do NOT assume commit/push worked. VERIFY the output!
+
+- [ ] **COMMIT:** Run `git commit` and verify output shows `[main xxxxxxx] SEO: ...`
+- [ ] **VERIFY COMMIT:** Output must show file changes (e.g., `1 file changed, 50 insertions(+)`)
+- [ ] **PUSH:** Run `git push` and verify output shows `main -> main`
+- [ ] **VERIFY PUSH:** Run `git log origin/main..HEAD --oneline` - must show NOTHING (empty = success)
+- [ ] **DEPLOY:** Run deployment script and verify `PM2 Successfully started` in output
+- [ ] **VERIFY LIVE:** Check production URL loads correctly
+
+**If `git log origin/main..HEAD` shows commits → Push FAILED! Run `git push` again.**
 
 ---
 

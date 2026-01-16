@@ -19,7 +19,6 @@ export const wordSearchEnContent: ProductPageContent = {
     description: 'Create free word search worksheets for kids with our word search generator. Free printables for kindergarten and first grade. Download PDF in 3 clicks.',
     keywords: 'word search worksheets, word search generator, kindergarten worksheets, printable worksheets, word search puzzles, free worksheets, first grade worksheets, vocabulary worksheets, sight words worksheets, phonics worksheets, free worksheet for kids, free printables, worksheet for kindergarten, word puzzles',
     canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/word-search-worksheets',
-    ogImage: '/samples/english/wordsearch/wordsearch portrait_preview.webp',
   },
 
   // Hero Section - FULL text from wordsearch.md paragraphs 1-3

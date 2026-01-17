@@ -22,9 +22,29 @@ export const sudokuEnContent: ProductPageContent = {
     appId: 'sudoku',
     slug: 'sudoku-worksheets',
     title: 'Free Sudoku Worksheets for Kids | 4x4 Logic Puzzles Kindergarten',
-    description: 'Create free printable sudoku worksheets for kindergarten and first grade. 4x4 picture sudoku puzzles with answer keys. Download PDF worksheets for kids in 3 minutes.',
+    description: 'Create free printable sudoku worksheets for kindergarten. 4x4 picture puzzles with answer keys. Download PDF worksheets for kids in 3 minutes.',
     keywords: 'sudoku worksheets, sudoku for kids, kindergarten worksheets, first grade worksheets, free printable worksheets, logic puzzles for kids, picture sudoku, 4x4 sudoku puzzles, math worksheets, free worksheets for kids, sudoku worksheet generator, printable sudoku puzzles, free worksheet, free worksheet for kids, puzzle worksheets',
-    canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/sudoku-worksheets'
+    canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/sudoku-worksheets',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/sudoku/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Free printable sudoku worksheets for kindergarten - 4x4 picture puzzle logic worksheets for kids ages 4-6'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/sudoku/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Sudoku worksheets for kids free printable - picture sudoku puzzle worksheet for first grade math practice'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/sudoku/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Free worksheet for kindergarten - 4x4 sudoku puzzles with colorful images for logic and problem solving'
+      }
+    ]
   },
 
   // Hero Section - FULL text from sudoku.md paragraphs 1-3
@@ -95,7 +115,7 @@ This sudoku worksheet generator is perfect for kindergarten teachers, first grad
 
   // Features Grid - OPTIMIZED titles from sudoku.md H3 sections
   features: {
-    sectionTitle: 'Sudoku for Kids Features',
+    sectionTitle: 'Sudoku for Kids Features - Free Math Worksheets',
     sectionDescription: 'Your sudoku worksheet generator includes all the professional features kindergarten and first grade teachers need. Create custom logic puzzles in minutes with full control over images, difficulty, layout, and design. Every feature works together to help you generate free printable worksheets that match your exact classroom needs. Edit everything on the canvas after generation. Add backgrounds, borders, and text. Download high-quality PDF and JPEG files ready for printing or selling.',
     highlightBadgeText: 'Key Feature',
     items: [
@@ -153,7 +173,7 @@ This sudoku worksheet generator is perfect for kindergarten teachers, first grad
 
   // How-To Guide - OPTIMIZED titles from sudoku.md Step sections
   howTo: {
-    sectionTitle: 'How to Create Sudoku Worksheets in 5 Easy Steps',
+    sectionTitle: 'How to Create Sudoku Worksheets for Kindergarten in 5 Easy Steps',
     sectionDescription: 'Creating professional sudoku worksheets takes less than three minutes from start to download. No design skills required. No sudoku expertise needed. The generator handles all the complex logic and layout automatically. You focus on choosing images and difficulty level. Follow these five simple steps to create custom kindergarten worksheets and first grade worksheets. Each step takes only seconds. The entire workflow is designed for speed and simplicity.',
     ctaText: 'Start Creating Now',
     steps: [
@@ -204,7 +224,7 @@ This sudoku worksheet generator is perfect for kindergarten teachers, first grad
         id: '1',
         icon: '👩‍🏫',
         title: 'Kindergarten Teachers',
-        subtitle: 'Free Printable Logic Puzzles for Kids Worksheets',
+        subtitle: 'Free Printables - Math Worksheets and Logic Puzzles for Kids',
         description: 'Use sudoku puzzles in your kindergarten logic and reasoning centers. Place laminated copies at the center with dry-erase markers. Students solve puzzles repeatedly without wasting paper. Create weekly themed puzzles matching your curriculum topics. Teaching farm animals this week? Generate sudoku with cow, pig, chicken, and horse images. Studying weather next week? Create puzzles with sun, cloud, rain, and snow pictures. The thematic connection reinforces vocabulary while building critical thinking skills. Differentiate for your mixed-ability kindergarten classroom easily. Print Easy difficulty puzzles for students still learning the concept. Provide Medium difficulty for students who have mastered the basics. Keep Hard difficulty puzzles on hand for your advanced learners who finish other work quickly. All students work with the same animal or food theme. Only the number of blank cells differs. This approach maintains classroom community while meeting individual needs. Use sudoku as assessment tools to track logical reasoning development. Observe which students can complete Easy puzzles independently. Note who needs support with Medium difficulty. Track progress over the school year as students advance through difficulty levels. The concrete, visual nature makes sudoku perfect for kindergarten ages 4-6 who think in pictures rather than abstractions. The cut-and-paste format develops fine motor skills essential for writing readiness.',
         quote: 'My students love the animal-themed sudoku puzzles in our logic center!',
       },
@@ -348,6 +368,16 @@ This sudoku worksheet generator is perfect for kindergarten teachers, first grad
         question: 'How Do First Grade Worksheets Differ from Kindergarten Worksheets in Sudoku?',
         answer: 'First grade worksheets typically use Medium or Hard difficulty with 6-8 blank cells. Kindergarten worksheets use Easy difficulty with only 4 blank cells. Both use the same 4x4 grid and picture-based format. The difference is challenge level, not format. First graders have more developed logical reasoning and can handle multi-step deduction. They analyze entire rows and columns before placing images. Kindergarteners focus on one cell at a time with simpler elimination. First grade worksheets may include more detailed themes matching first grade curriculum. Kindergarten worksheets often use simpler, high-contrast images. Both age groups benefit from the visual, hands-on cut-and-paste format. Differentiate within mixed-age classrooms by printing different difficulty levels from the same theme.',
       },
+      {
+        id: '19',
+        question: 'Can Sudoku Worksheets Be Combined with Math Worksheets and Addition Worksheets?',
+        answer: 'Yes, sudoku worksheets combine perfectly with math worksheets and addition worksheets for comprehensive math instruction. Use sudoku puzzles as warm-up activities before addition practice. The logical reasoning required for sudoku prepares students for mathematical thinking. Students who complete sudoku puzzles first show improved focus on subsequent addition worksheets. Create math center rotations that include sudoku for logic, addition worksheets for computation, and other math worksheets for varied practice. The visual nature of picture sudoku makes it accessible even before students master number recognition required for traditional addition worksheets. Build weekly packets combining 2-3 sudoku puzzles with addition worksheets for complete take-home practice covering both logical reasoning and computation skills.',
+      },
+      {
+        id: '20',
+        question: 'How Do Sudoku Worksheets Support Phonics Worksheets and Alphabet Worksheets Learning?',
+        answer: 'Sudoku worksheets complement phonics worksheets and alphabet worksheets by building the cognitive skills needed for reading success. The visual discrimination required in picture sudoku directly supports letter recognition in alphabet worksheets. Students practice identifying differences between similar images, the same skill needed to distinguish between letters like b, d, p, and q. The systematic thinking developed through sudoku transfers to decoding patterns in phonics worksheets. Create integrated literacy packets combining alphabet worksheets for letter practice, phonics worksheets for sound-symbol connections, and sudoku puzzles for cognitive development. Use letter-themed images in sudoku puzzles to reinforce alphabet learning. The variety keeps young learners engaged while building foundational reading skills from multiple angles.',
+      },
     ],
   },
 
@@ -404,7 +434,7 @@ This sudoku worksheet generator is perfect for kindergarten teachers, first grad
         name: 'Word Search',
         category: 'Language Arts',
         icon: '🔍',
-        description: 'Pair sudoku logic puzzles with word search worksheets for integrated vocabulary learning. Students solve logic puzzles then find vocabulary words. Create themed packets using matching images across both worksheet types.',
+        description: 'Pair sudoku logic puzzles with word search worksheets for integrated vocabulary learning. Students solve logic puzzles then find vocabulary words. Combine with phonics worksheets to create complete literacy packets using matching images across multiple worksheet types.',
       },
       {
         id: '3',
@@ -412,7 +442,7 @@ This sudoku worksheet generator is perfect for kindergarten teachers, first grad
         name: 'Alphabet Train',
         category: 'Early Learning',
         icon: '🚂',
-        description: 'Combine sudoku with alphabet worksheets for comprehensive letter learning. Use letter-themed images in sudoku puzzles then practice letter recognition on alphabet train worksheets. Build complete literacy packets.',
+        description: 'Combine sudoku with alphabet worksheets for comprehensive letter learning. Use letter-themed images in sudoku puzzles then practice letter recognition on alphabet train worksheets. Build complete literacy packets alongside phonics worksheets and tracing worksheets.',
       },
       {
         id: '4',
@@ -420,7 +450,7 @@ This sudoku worksheet generator is perfect for kindergarten teachers, first grad
         name: 'Coloring Pages',
         category: 'Art & Creativity',
         icon: '🎨',
-        description: 'Pair sudoku puzzles with coloring worksheets for balanced left-brain and right-brain activities. Students engage logical thinking solving sudoku puzzles. Then they relax with creative coloring worksheets.',
+        description: 'Pair sudoku puzzles with coloring worksheets for balanced left-brain and right-brain activities. Students engage logical thinking solving sudoku puzzles. Then they relax with creative coloring worksheets. Include tracing worksheets for complete fine motor skill development.',
       },
       {
         id: '5',

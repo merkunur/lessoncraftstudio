@@ -15,8 +15,8 @@ export const additionEnContent: ProductPageContent = {
   seo: {
     slug: 'addition-worksheets',
     appId: 'addition',
-    title: 'Addition Worksheets Free Printable | Kindergarten Math - LessonCraftStudio',
-    description: 'Create professional addition worksheets with our math worksheet generator. Free printable worksheets for kindergarten and first grade. Download PDF in 3 minutes.',
+    title: 'Addition Worksheets Free Printable | Kindergarten Math Generator',
+    description: 'Create professional addition worksheets for kindergarten and first grade. Free printable math worksheets with answer keys. Download PDF in 3 minutes.',
     keywords: 'addition worksheets, math worksheets, kindergarten worksheets, free printable worksheets, first grade worksheets, addition practice, worksheet for kids, free worksheet, coloring worksheets, tracing worksheets',
   },
 
@@ -55,6 +55,7 @@ These printable addition worksheets work perfectly for math centers, homework pa
         worksheetSrc: '/samples/english/addition/addition_worksheet portrait.jpeg',
         answerKeySrc: '/samples/english/addition/addition_answer_key portrait.jpeg',
         altText: 'Addition worksheets free printable - kindergarten worksheets portrait mode with colorful counting images for kids',
+        imageTitle: 'Free Printable Addition Worksheet Portrait - Kindergarten Counting Practice',
         pdfDownloadUrl: '/samples/english/addition/addition_worksheet portrait.pdf',
       },
       {
@@ -62,6 +63,7 @@ These printable addition worksheets work perfectly for math centers, homework pa
         worksheetSrc: '/samples/english/addition/addition_worksheet landscape.jpeg',
         answerKeySrc: '/samples/english/addition/addition_answer_key landscape.jpeg',
         altText: 'Addition worksheets landscape mode - free printable worksheets with visual math problems for first grade worksheets',
+        imageTitle: 'Addition Worksheets Landscape - First Grade Visual Math Problems',
         pdfDownloadUrl: '/samples/english/addition/addition_worksheet landscape.pdf',
       },
       {
@@ -69,6 +71,7 @@ These printable addition worksheets work perfectly for math centers, homework pa
         worksheetSrc: '/samples/english/addition/find addend.jpeg',
         answerKeySrc: '/samples/english/addition/find addend answer_key.jpeg',
         altText: 'Addition worksheets find addend mode - kindergarten worksheets with free printable missing number problems',
+        imageTitle: 'Find Addend Addition Worksheets - Free Printable Missing Number Practice',
         pdfDownloadUrl: '/samples/english/addition/find addend.pdf',
       },
       {
@@ -76,6 +79,7 @@ These printable addition worksheets work perfectly for math centers, homework pa
         worksheetSrc: '/samples/english/addition/image and number.jpeg',
         answerKeySrc: '/samples/english/addition/image and number answer_key.jpeg',
         altText: 'Addition worksheets image and number mode - first grade worksheets combining pictures with numerals for kindergarten',
+        imageTitle: 'Image and Number Addition Worksheets - First Grade Math Practice',
         pdfDownloadUrl: '/samples/english/addition/image and number.pdf',
       },
       {
@@ -83,6 +87,7 @@ These printable addition worksheets work perfectly for math centers, homework pa
         worksheetSrc: '/samples/english/addition/mixed mode.jpeg',
         answerKeySrc: '/samples/english/addition/mixed mode answer_key.jpeg',
         altText: 'Addition worksheets mixed mode - math worksheets for kids with varied free printable problem types',
+        imageTitle: 'Mixed Mode Addition Worksheets - Varied Math Problems for Kids',
         pdfDownloadUrl: '/samples/english/addition/mixed mode.pdf',
       },
     ],

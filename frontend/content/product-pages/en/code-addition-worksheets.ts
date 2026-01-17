@@ -15,8 +15,8 @@ export const codeAdditionEnContent: ProductPageContent = {
   seo: {
     slug: 'code-addition-worksheets',
     appId: 'code-addition',
-    title: 'Free Printable Addition Worksheets for Kids | Image Math Worksheet Generator - LessonCraftStudio',
-    description: 'Create free printable addition worksheets for kindergarten and first grade. Visual math worksheet generator with counting pictures. Download PDF worksheets for kids in 3 minutes.',
+    title: 'Free Addition Worksheets for Kids | Math Worksheet Generator',
+    description: 'Create free addition worksheets for kindergarten. Visual math worksheet generator with counting pictures. Download printable PDF worksheets in 3 minutes.',
     keywords: 'addition worksheets, math worksheets, kindergarten worksheets, first grade worksheets, free printable worksheets, image addition worksheets, picture counting worksheets, visual math worksheets, worksheet generator, counting worksheets',
   },
 
@@ -35,7 +35,7 @@ These printable addition worksheets work perfectly for math centers, morning wor
 Visual math worksheets help kindergarten and first grade students develop number sense naturally. Counting pictures makes addition concrete and understandable. Students see that 2 apples plus 3 apples equals 5 apples. This picture-based approach prepares children for more abstract math worksheets later. Research shows visual learning accelerates math comprehension for young children.
 
 The image addition generator creates worksheets with 3 to 10 problems per page. Set minimum and maximum numbers from 1 to 20 based on student ability. Choose themed images or upload your own classroom photos. Generate unique worksheets each time you click create. Download as PDF or JPEG at professional 300 DPI quality. Every worksheet prints perfectly on standard classroom printers.`,
-    previewImageSrc: '/samples/english/code addition/code addition portrait.jpeg',
+    previewImageSrc: '/samples/english/code-addition/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Try Free',
       viewSamples: 'View Samples',
@@ -47,7 +47,7 @@ The image addition generator creates worksheets with 3 to 10 problems per page. 
     },
   },
 
-  // Sample Gallery - REAL file paths from samples/english/code addition/
+  // Sample Gallery - REAL file paths from samples/english/code-addition/
   samples: {
     sectionTitle: 'Worksheet Samples',
     downloadLabel: 'Download Free Sample',
@@ -56,17 +56,38 @@ The image addition generator creates worksheets with 3 to 10 problems per page. 
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/code addition/code addition portrait.jpeg',
-        answerKeySrc: '/samples/english/code addition/code addition portrait answer_key.jpeg',
-        altText: 'Free printable addition worksheets for kindergarten - image counting math worksheet for kids with colorful pictures in portrait mode',
-        pdfDownloadUrl: '/samples/english/code addition/code addition portrait.pdf',
+        worksheetSrc: '/samples/english/code-addition/sample-1.jpeg',
+        answerKeySrc: '/samples/english/code-addition/sample-1-answer.jpeg',
+        altText: 'Free printable addition worksheets for kindergarten - image counting math worksheet for kids with colorful pictures',
+        pdfDownloadUrl: '/samples/english/code-addition/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/code addition/code addition landscape.jpeg',
-        answerKeySrc: '/samples/english/code addition/code addition landscape answer_key.jpeg',
-        altText: 'Addition worksheets free printable - visual math worksheet for first grade with picture counting in landscape mode',
-        pdfDownloadUrl: '/samples/english/code addition/code addition landscape.pdf',
+        worksheetSrc: '/samples/english/code-addition/sample-2.jpeg',
+        answerKeySrc: '/samples/english/code-addition/sample-2-answer.jpeg',
+        altText: 'Addition worksheets free printable - visual math worksheet for first grade with picture counting activities',
+        pdfDownloadUrl: '/samples/english/code-addition/sample-2.pdf',
+      },
+      {
+        id: '3',
+        worksheetSrc: '/samples/english/code-addition/sample-3.jpeg',
+        answerKeySrc: '/samples/english/code-addition/sample-3-answer.jpeg',
+        altText: 'Free worksheet for kids - image addition math worksheets with colorful counting pictures for kindergarten practice',
+        pdfDownloadUrl: '/samples/english/code-addition/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/english/code-addition/sample-4.jpeg',
+        answerKeySrc: '/samples/english/code-addition/sample-4-answer.jpeg',
+        altText: 'Free printables math worksheets - visual addition worksheet for kindergarten with picture counting for first grade',
+        pdfDownloadUrl: '/samples/english/code-addition/sample-4.pdf',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/english/code-addition/sample-5.jpeg',
+        answerKeySrc: '/samples/english/code-addition/sample-5-answer.jpeg',
+        altText: 'Worksheet for kindergarten - free addition worksheets with image counting activities for kids learning math',
+        pdfDownloadUrl: '/samples/english/code-addition/sample-5.pdf',
       },
     ],
   },
@@ -295,6 +316,36 @@ The image addition generator creates worksheets with 3 to 10 problems per page. 
         id: '12',
         question: 'Can I Create Addition Worksheets About Specific Math Topics?',
         answer: 'Yes, theme selection lets you create topic-specific addition worksheets. Choose animals for zoo unit math integration. Select food images for nutrition lesson connections. Use seasonal themes for holiday-related practice activities. Search functionality finds specific images for targeted worksheets. Type keywords to locate particular objects in our library. Combine search results with theme browsing for precise image selection. Create addition worksheets matching any curriculum topic. Upload custom images for complete topic control when needed. Add pictures directly related to current classroom studies. Build cross-curricular connections between math and content areas naturally.',
+      },
+      {
+        id: '13',
+        question: 'How Do Free Worksheets Help Kindergarten Students Learn Addition?',
+        answer: 'Free worksheets provide essential practice for kindergarten students developing early math skills. Visual addition worksheets help children connect concrete counting with abstract number concepts. Students count colorful pictures like apples, animals, or toys to understand what addition means. This hands-on approach builds number sense before moving to symbolic equations. Free worksheets allow unlimited practice without cost concerns. Teachers can print multiple copies for every student. Parents can provide extra practice at home without subscription fees. Repeated exposure through free worksheets builds fluency and confidence. Picture-based addition helps kindergarten students see that combining groups creates larger totals.',
+      },
+      {
+        id: '14',
+        question: 'Can I Create a Free Worksheet for Kids Learning to Count?',
+        answer: 'Yes, our generator creates the perfect free worksheet for kids at any counting level. Set minimum and maximum numbers based on where your child is in their counting journey. Begin with numbers 1 through 3 for very beginning counters. Progress to numbers up to 5 as skills develop. A free worksheet for kids learning to count uses colorful, engaging images they enjoy. Children count apples, dinosaurs, cars, or any theme that captures their interest. Each free worksheet for kids includes adjustable difficulty settings. Create simpler problems for struggling students and more challenging ones for advanced learners.',
+      },
+      {
+        id: '15',
+        question: 'Are These Free Printables Suitable for First Grade Math Practice?',
+        answer: 'These free printables work perfectly for first grade math practice and skill development. First graders benefit from picture-based addition as they transition toward mental math. Free printables let you create differentiated materials for diverse classroom needs. Some first graders still need visual support while others are ready for larger numbers. Adjust problem difficulty from simple addition through 10 up to sums of 20. Free printables include varying numbers of problems per page. Choose 3 problems for focused practice or up to 10 for fluency building. First grade teachers appreciate having unlimited free printables for homework, centers, and assessments.',
+      },
+      {
+        id: '16',
+        question: 'What Makes This Worksheet for Kindergarten Different from Other Generators?',
+        answer: 'This worksheet for kindergarten stands apart through comprehensive customization and professional quality. Every worksheet for kindergarten exports at 300 DPI resolution for crisp, clear images. Children see colorful pictures that engage visual learners effectively. Full canvas editing lets you customize every element on the worksheet for kindergarten needs. Add student names, classroom instructions, or custom text anywhere. Unlike basic worksheet for kindergarten tools, ours includes 3000+ themed images. Create worksheet for kindergarten activities matching any curriculum unit or theme. Commercial licensing means you can sell the worksheet for kindergarten materials you create.',
+      },
+      {
+        id: '17',
+        question: 'How Many Free Worksheets Can I Create with My Subscription?',
+        answer: 'Your Full Access subscription includes unlimited free worksheets creation with no per-worksheet limits. Generate as many free worksheets as your classroom needs throughout the entire year. Create different free worksheets for every student if differentiation requires it. No caps on downloads, no restrictions on printing quantities. Free worksheets for morning work, homework, assessments, and extra practice. Create free worksheets for multiple grade levels simultaneously. Generate free worksheets in different languages for diverse learners. Your subscription covers all 33 worksheet generator types, not just addition. Build a complete library of free worksheets across all subject areas.',
+      },
+      {
+        id: '18',
+        question: 'Can Parents Use These Worksheets for Kids at Home?',
+        answer: 'Parents find these worksheets for kids perfect for home learning support. Create worksheets for kids matching exactly what they are learning at school. Customize difficulty levels based on your child\'s current abilities. Generate themed worksheets for kids featuring their favorite animals, foods, or characters. Home printing produces professional quality worksheets for kids on any standard printer. Worksheets for kids include automatic answer keys for easy parent grading. Track progress by creating progressively challenging worksheets for kids. Summer practice prevents learning loss with engaging worksheets for kids. Worksheets for kids work perfectly alongside tutoring or homeschool programs.',
       },
     ],
   },

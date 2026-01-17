@@ -11,6 +11,48 @@ import { ProductPageContent } from '@/components/product-page/ProductPageClient'
  */
 
 export const shadowMatchEnContent: ProductPageContent = {
+  // SEO Metadata for Google Image Thumbnails
+  seo: {
+    slug: 'shadow-match-worksheets',
+    appId: 'shadow-match',
+    title: 'Free Shadow Match Worksheets for Kindergarten | Visual Perception Generator',
+    description: 'Create professional shadow match worksheets for kindergarten and first grade. Free printable visual perception activities with answer keys. Download PDF in 3 minutes.',
+    keywords: 'shadow match worksheets, free worksheets, kindergarten worksheets, visual perception, free printable worksheets, first grade worksheets, worksheet for kids, silhouette matching, shape recognition worksheets, free printables',
+    canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/shadow-match-worksheets',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/shadow-match/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Free shadow match worksheets for kindergarten - visual perception silhouette matching activity'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/shadow-match/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Shadow matching worksheet for first grade - free printable visual discrimination practice'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/shadow-match/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Free printable shadow match worksheet - shape recognition for kindergarten kids'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/shadow-match/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Visual perception worksheets free printable - shadow matching activity for kids'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/shadow-match/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Kindergarten shadow match worksheets - free silhouette matching worksheet for kids'
+      }
+    ]
+  },
+
   // Hero Section - FULL text from shadow-match.md paragraphs 1-4
   hero: {
     title: 'Free Printable Shadow Match Worksheets',
@@ -22,7 +64,7 @@ Shadow match worksheets help young learners develop critical visual perception s
 Teachers choose our shadow matching worksheet generator for its unique dual-mode functionality and professional quality output. Select four images from our 3000+ image library or upload your own classroom photos. Customize page size, add decorative backgrounds and borders, and include name and date fields. Generate both the worksheet and answer key with one click. Edit every element on the canvas before downloading as PDF or JPEG files in stunning 300 DPI resolution.
 
 Full Access subscription costs $240 annually or $25 monthly. This includes all 33 worksheet generator types with commercial licensing. Create unlimited kindergarten worksheets, math worksheets, phonics worksheets, and more without additional fees. Your subscription includes the complete image library, all backgrounds and borders, and professional export quality perfect for classroom use or selling on Teachers Pay Teachers.`,
-    previewImageSrc: '/samples/english/shadow match/shadow-match-worksheet.jpeg',
+    previewImageSrc: '/samples/english/shadow-match/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Try Free',
       viewSamples: 'View Samples',
@@ -43,24 +85,38 @@ Full Access subscription costs $240 annually or $25 monthly. This includes all 3
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/shadow match/shadow-match-worksheet.jpeg',
-        answerKeySrc: '/samples/english/shadow match/shadow-match-answer-key.jpeg',
-        altText: 'Shadow match worksheet with colorful images and black silhouettes for kindergarten visual discrimination practice',
-        pdfDownloadUrl: '/samples/english/shadow match/shadow-match-worksheet.pdf',
+        worksheetSrc: '/samples/english/shadow-match/sample-1.jpeg',
+        answerKeySrc: '/samples/english/shadow-match/sample-1-answer.jpeg',
+        altText: 'Free shadow match worksheets - visual perception silhouette matching activity for kindergarten',
+        pdfDownloadUrl: '/samples/english/shadow-match/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/shadow match/shadow-match-horizontal.jpeg',
-        answerKeySrc: '/samples/english/shadow match/shadow-match-horizontal answer-key.jpeg',
-        altText: 'Make It Whole worksheet with horizontal cut images for spatial reasoning development',
-        pdfDownloadUrl: '/samples/english/shadow match/shadow-match-horizontal.pdf',
+        worksheetSrc: '/samples/english/shadow-match/sample-2.jpeg',
+        answerKeySrc: '/samples/english/shadow-match/sample-2-answer.jpeg',
+        altText: 'Free printable shadow matching worksheet - visual discrimination practice for first grade',
+        pdfDownloadUrl: '/samples/english/shadow-match/sample-2.pdf',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/shadow match/shadow-match-vertical.jpeg',
-        answerKeySrc: '/samples/english/shadow match/shadow-match-vertical answer-key.jpeg',
-        altText: 'Make It Whole worksheet with vertical cut images for part-to-whole recognition',
-        pdfDownloadUrl: '/samples/english/shadow match/shadow-match-vertical.pdf',
+        worksheetSrc: '/samples/english/shadow-match/sample-3.jpeg',
+        answerKeySrc: '/samples/english/shadow-match/sample-3-answer.jpeg',
+        altText: 'Shadow match worksheets for kids - free printable shape recognition activity',
+        pdfDownloadUrl: '/samples/english/shadow-match/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/english/shadow-match/sample-4.jpeg',
+        answerKeySrc: '/samples/english/shadow-match/sample-4-answer.jpeg',
+        altText: 'Kindergarten shadow worksheets free printable - silhouette matching visual perception exercise',
+        pdfDownloadUrl: '/samples/english/shadow-match/sample-4.pdf',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/english/shadow-match/sample-5.jpeg',
+        answerKeySrc: '/samples/english/shadow-match/sample-5-answer.jpeg',
+        altText: 'Visual perception worksheets for kindergarten - free shadow match printable activity',
+        pdfDownloadUrl: '/samples/english/shadow-match/sample-5.pdf',
       },
     ],
   },

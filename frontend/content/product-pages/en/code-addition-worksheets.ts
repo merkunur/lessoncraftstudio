@@ -18,6 +18,27 @@ export const codeAdditionEnContent: ProductPageContent = {
     title: 'Free Addition Worksheets for Kids | Math Worksheet Generator',
     description: 'Create free addition worksheets for kindergarten. Visual math worksheet generator with counting pictures. Download printable PDF worksheets in 3 minutes.',
     keywords: 'addition worksheets, math worksheets, kindergarten worksheets, first grade worksheets, free printable worksheets, image addition worksheets, picture counting worksheets, visual math worksheets, worksheet generator, counting worksheets',
+    canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/code-addition-worksheets',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/code-addition/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Free printable addition worksheets for kindergarten - image counting math worksheet with colorful pictures'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/code-addition/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Addition worksheets free printable - visual math worksheet for first grade with picture counting'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/code-addition/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Free worksheet for kids - image addition math worksheets for kindergarten practice'
+      }
+    ],
   },
 
   // Hero Section - FULL text from code-addition.md paragraphs 1-4

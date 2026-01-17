@@ -33,6 +33,26 @@ export const alphabetTrainDeContent: ProductPageContent = {
     description: 'Erstellen Sie professionelle Arbeitsblätter zum Buchstaben lernen mit unserem Alphabet-Zug Generator. Perfekt für Vorschul-Arbeitsblätter und Arbeitsblätter Grundschule. Kombinieren Sie mit Schwungübungen und Ausmalbilder für komplette Lernpakete.',
     keywords: 'alphabet zug, buchstaben lernen, arbeitsblätter grundschule, vorschule arbeitsblätter, kostenlose arbeitsblätter, deutsch arbeitsblätter, schwungübungen, ausmalbilder, abc lernen, alphabet arbeitsblätter',
     canonicalUrl: 'https://www.lessoncraftstudio.com/de/apps/alphabet-zug-arbeitsblaetter',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/german/alphabet-train/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Kostenloses Alphabet-Zug Arbeitsblatt Grundschule - Buchstaben lernen mit bunten Waggons für Vorschule und 1. Klasse'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/german/alphabet-train/sample-2.jpeg',
+        width: 3508,
+        height: 2480,
+        caption: 'Alphabet-Zug Arbeitsblatt Querformat - Vorschul-Arbeitsblätter zum Buchstaben lernen mit ABC-Bildern'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/german/alphabet-train/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Kostenlose Arbeitsblätter Buchstaben lernen - Alphabet-Zug Generator für Arbeitsblätter Grundschule'
+      }
+    ],
   },
 
   // Hero Section - FULL text from alphabet-train.md paragraphs 1-4
@@ -44,7 +64,7 @@ export const alphabetTrainDeContent: ProductPageContent = {
 Unser Generator für Buchstaben lernen macht die Erstellung kinderleicht. Wählen Sie 11 Buchstaben aus dem deutschen Alphabet aus. Der Alphabet-Zug zeigt dann jeden Buchstaben mit einem passenden Bild auf einem bunten Waggon. Kinder lernen so Buchstaben und verbinden sie gleichzeitig mit Bildern. Diese Verbindung von visuellen und sprachlichen Elementen unterstützt den Lernprozess nachhaltig.
 
 Die Arbeitsblätter eignen sich hervorragend für Vorschul-Arbeitsblätter und Deutsch-Arbeitsblätter in der Grundschule. Laden Sie hochauflösende PDF-Dateien in professioneller 300 DPI Qualität herunter. Drucken Sie Ihre kostenlose Arbeitsblätter zu Hause oder in der Schule aus. Jedes Arbeitsblatt enthält einen Lösungsschlüssel für schnelle Kontrolle.`,
-    previewImageSrc: '/samples/english/alphabet-train/alphabet train portrait.jpeg',
+    previewImageSrc: '/samples/german/alphabet-train/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Kostenlos Testen',
       viewSamples: 'Beispiele Ansehen',
@@ -79,17 +99,38 @@ Die Arbeitsblätter eignen sich hervorragend für Vorschul-Arbeitsblätter und D
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/alphabet-train/alphabet train portrait.jpeg',
-        answerKeySrc: '/samples/english/alphabet-train/alphabet train portrait answer_key.jpeg',
-        altText: 'Alphabet-Zug Arbeitsblatt im Hochformat für Buchstaben lernen in der Vorschule und Grundschule',
-        pdfDownloadUrl: '/samples/english/alphabet-train/alphabet train portrait.pdf',
+        worksheetSrc: '/samples/german/alphabet-train/sample-1.jpeg',
+        answerKeySrc: '/samples/german/alphabet-train/sample-1-answer.jpeg',
+        altText: 'Alphabet-Zug Arbeitsblatt Grundschule Hochformat - Kostenloses Arbeitsblatt zum Buchstaben lernen für Vorschule',
+        pdfDownloadUrl: '/samples/german/alphabet-train/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/alphabet-train/alphabet train landscape.jpeg',
-        answerKeySrc: '/samples/english/alphabet-train/alphabet train landscape answer_key.jpeg',
-        altText: 'Alphabet-Zug Arbeitsblatt im Querformat mit bunten Waggons für Arbeitsblätter Grundschule',
-        pdfDownloadUrl: '/samples/english/alphabet-train/alphabet train landscape.pdf',
+        worksheetSrc: '/samples/german/alphabet-train/sample-2.jpeg',
+        answerKeySrc: '/samples/german/alphabet-train/sample-2-answer.jpeg',
+        altText: 'Alphabet-Zug Vorschul-Arbeitsblätter Querformat - Buchstaben lernen mit bunten ABC-Waggons',
+        pdfDownloadUrl: '/samples/german/alphabet-train/sample-2.pdf',
+      },
+      {
+        id: '3',
+        worksheetSrc: '/samples/german/alphabet-train/sample-3.jpeg',
+        answerKeySrc: '/samples/german/alphabet-train/sample-3-answer.jpeg',
+        altText: 'Kostenlose Arbeitsblätter Alphabet-Zug - Deutsch-Arbeitsblätter für Buchstaben lernen Grundschule',
+        pdfDownloadUrl: '/samples/german/alphabet-train/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/german/alphabet-train/sample-4.jpeg',
+        answerKeySrc: '/samples/german/alphabet-train/sample-4-answer.jpeg',
+        altText: 'Alphabet-Zug Arbeitsblätter Grundschule mit Schwungübungen - Buchstaben lernen für 1. Klasse',
+        pdfDownloadUrl: '/samples/german/alphabet-train/sample-4.pdf',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/german/alphabet-train/sample-5.jpeg',
+        answerKeySrc: '/samples/german/alphabet-train/sample-5-answer.jpeg',
+        altText: 'Vorschule Arbeitsblätter Alphabet-Zug - Kostenlose Druckvorlagen zum ABC lernen mit Ausmalbilder',
+        pdfDownloadUrl: '/samples/german/alphabet-train/sample-5.pdf',
       },
     ],
   },

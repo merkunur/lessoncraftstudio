@@ -110,6 +110,12 @@ export interface ProductPageContent {
     description: string;    // Meta description
     keywords?: string;      // Meta keywords
     canonicalUrl?: string;  // Canonical URL
+    images?: Array<{        // Images for Google Image Thumbnails in search results
+      url: string;
+      width: number;
+      height: number;
+      caption?: string;
+    }>;
   };
 
   // Hero Section

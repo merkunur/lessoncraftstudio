@@ -19,6 +19,27 @@ export const wordSearchEnContent: ProductPageContent = {
     description: 'Create free word search worksheets for kids with our word search generator. Free printables for kindergarten and first grade. Download PDF in 3 clicks.',
     keywords: 'word search worksheets, word search generator, kindergarten worksheets, printable worksheets, word search puzzles, free worksheets, first grade worksheets, vocabulary worksheets, sight words worksheets, phonics worksheets, free worksheet for kids, free printables, worksheet for kindergarten, word puzzles',
     canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/word-search-worksheets',
+    // Images for Google Image Thumbnails in search results
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/wordsearch/wordsearch%20portrait.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Free printable word search worksheets for kindergarten - vocabulary puzzles with colorful themed images'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/wordsearch/wordsearch%20landscape.jpeg',
+        width: 3508,
+        height: 2480,
+        caption: 'Word search generator printable worksheets - word puzzles for first grade kids with picture clues'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/wordsearch/custom%20word%20list.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Free word search worksheets - sight words and phonics practice for kindergarten students'
+      }
+    ],
   },
 
   // Hero Section - FULL text from wordsearch.md paragraphs 1-3
@@ -53,35 +74,35 @@ This word search generator works in 11 languages. Select a theme like animals or
         id: '1',
         worksheetSrc: '/samples/english/wordsearch/wordsearch portrait.jpeg',
         answerKeySrc: '/samples/english/wordsearch/wordsearch portrait answer_key.jpeg',
-        altText: 'Word search worksheets free printable - portrait mode vocabulary puzzles for kindergarten and first grade kids',
+        altText: 'Word search worksheets free printable - portrait vocabulary puzzles for kindergarten and first grade kids',
         pdfDownloadUrl: '/samples/english/wordsearch/wordsearch portrait.pdf',
       },
       {
         id: '2',
         worksheetSrc: '/samples/english/wordsearch/wordsearch landscape.jpeg',
         answerKeySrc: '/samples/english/wordsearch/wordsearch landscape answer_key.jpeg',
-        altText: 'Word search generator printable worksheets - landscape word puzzle with colorful images for kindergarten worksheets',
+        altText: 'Word search generator printable worksheets - word puzzles with colorful themed images for kids',
         pdfDownloadUrl: '/samples/english/wordsearch/wordsearch landscape.pdf',
       },
       {
         id: '3',
         worksheetSrc: '/samples/english/wordsearch/custom word list.jpeg',
         answerKeySrc: '/samples/english/wordsearch/custom word list answer_key.jpeg',
-        altText: 'Free word search worksheets with custom word list - sight words worksheets and phonics practice for first grade',
+        altText: 'Free word search worksheets with custom themes - sight words worksheets and phonics practice for first grade',
         pdfDownloadUrl: '/samples/english/wordsearch/custom word list.pdf',
       },
       {
         id: '4',
         worksheetSrc: '/samples/english/wordsearch/sample-4.jpeg',
         answerKeySrc: '/samples/english/wordsearch/sample-4-answer.jpeg',
-        altText: 'Kindergarten worksheets word search - free printable worksheets with vocabulary practice for early learners',
+        altText: 'Word search worksheets free printable - kindergarten vocabulary worksheets with themed images for kids',
         pdfDownloadUrl: '/samples/english/wordsearch/sample-4.pdf',
       },
       {
         id: '5',
         worksheetSrc: '/samples/english/wordsearch/sample-5.jpeg',
         answerKeySrc: '/samples/english/wordsearch/sample-5-answer.jpeg',
-        altText: 'First grade worksheets word search puzzles - phonics worksheets and sight words practice for kids',
+        altText: 'Word search puzzles printable worksheets - first grade sight words worksheets and phonics practice for kids',
         pdfDownloadUrl: '/samples/english/wordsearch/sample-5.pdf',
       },
     ],
@@ -96,7 +117,7 @@ This word search generator works in 11 languages. Select a theme like animals or
       {
         id: '1',
         icon: '⚡',
-        title: 'Create Word Search Worksheets with Our Free Worksheet Generator',
+        title: 'Create Word Search Worksheets with Our Free Worksheet for Kids Generator',
         description: `Generate word search puzzles in seconds with three simple steps. Select a theme from our library. Click generate to create your word search worksheet. Download your finished worksheet immediately. No design skills needed. Perfect for busy kindergarten teachers and first grade educators. Create free printable worksheets during planning periods. Each word search takes under three minutes from start to finish.
 
 Choose from automatic theme selection or manual image picking. The random theme option creates instant worksheets. Pick specific images for vocabulary-focused lessons. Upload your own pictures for personalized word searches. Every method produces professional kindergarten worksheets. Teachers love how fast this word search generator works. Spend less time creating and more time teaching.`,
@@ -105,7 +126,7 @@ Choose from automatic theme selection or manual image picking. The random theme 
       {
         id: '2',
         icon: '✏️',
-        title: 'Word Search Puzzles: Free Worksheets and Word Puzzles with Full Editing',
+        title: 'Word Search Puzzles: Free Printable Worksheets and Word Puzzles for Kids with Full Editing',
         description: `Every element on your word search worksheet is fully editable. Click any text to change fonts and colors. Drag images to new positions. Resize the word search grid. Delete elements you don't need. Add custom text anywhere on the page. This flexibility creates unique first grade worksheets every time.
 
 Change background colors to match classroom themes. Add borders from our themed collection. Adjust the opacity of backgrounds and borders. Move the word list to different positions. Edit individual letter colors in the grid. Scale images larger or smaller. Rotate text and pictures at any angle. Your word search worksheets look exactly how you want them.
@@ -127,7 +148,7 @@ Create sight words worksheets in Spanish for dual-language programs. Generate ph
       {
         id: '4',
         icon: '📤',
-        title: 'Sight Words Worksheets: Upload Custom Images for Vocabulary Word Puzzles',
+        title: 'Sight Words Worksheets and Phonics Worksheets: Upload Custom Images for Vocabulary Word Puzzles',
         description: `Upload your own images to create customized word search worksheets. Use student photos for name recognition practice. Add pictures from recent field trips. Include images of classroom pets or school mascots. Upload pictures of math manipulatives for math vocabulary. The custom upload feature personalizes every worksheet.
 
 Multi-file upload accepts all common image formats. JPEG, PNG, and GIF files all work perfectly. Upload multiple images at once. Combine uploaded pictures with library images. Create mixed word searches with personal and stock images. Your uploaded images appear in the selection area immediately. Drag them onto your word search worksheet like any library image.
@@ -149,7 +170,7 @@ Export at professional 300 DPI resolution for commercial printing. Your word sea
       {
         id: '6',
         icon: '🎨',
-        title: 'Kindergarten Worksheets: 3000+ Images for Word Search Generator',
+        title: 'Kindergarten Worksheets and First Grade Worksheets: 3000+ Images for Word Search Generator',
         description: `Access over 3000 professional images organized by theme. Animals, transportation, food, school supplies, seasons, holidays, and dozens more categories. Every image is child-appropriate and classroom-ready. Browse by theme or search by keyword. The image library saves hours of searching for pictures online.
 
 Theme-based organization makes worksheet creation fast. Select "Farm Animals" for agriculture vocabulary. Choose "Transportation" for vehicle words. Pick "Fruits and Vegetables" for nutrition lessons. Each theme contains 20 to 100 related images. The themed approach creates cohesive word search worksheets. Students see connected vocabulary in each puzzle.
@@ -256,7 +277,7 @@ Generate alphabet worksheets using letter images for letter recognition practice
         id: '2',
         icon: '📚',
         title: 'Word Search Generator for First Grade Teachers',
-        subtitle: 'First Grade Worksheets: Vocabulary Worksheets and Phonics Word Puzzles Made Easy',
+        subtitle: 'First Grade Worksheets: Vocabulary Worksheets, Sight Words Worksheets, and Phonics Worksheets Made Easy',
         description: `First grade teachers rely on word searches for phonics instruction. Students search for CVC words like cat, dog, and sun. They find word family patterns like -at, -an, and -ot. Word searches reinforce spelling patterns from phonics lessons. First graders see words multiple times during the search process. This repetition strengthens orthographic mapping. Students remember correct spellings better after completing word search activities. First grade worksheets from this tool support structured literacy approaches.
 
 Second grade educators use word searches for sight word practice. High-frequency words become hidden puzzle elements. Students search for the, and, is, are, and was. They find said, have, like, and go. Dolch and Fry sight word lists convert easily into word searches. Generate different puzzles for each list level. Second graders complete word searches during independent work time. Parents appreciate homework that feels like games rather than drill. These sight words worksheets make essential practice more engaging.
@@ -292,7 +313,7 @@ Heritage language programs use word searches to maintain native language skills.
         id: '5',
         icon: '💜',
         title: 'Word Search Worksheets for Special Education',
-        subtitle: 'Worksheet for Kindergarten: Sight Words Worksheets and Word Puzzles',
+        subtitle: 'Worksheet for Kindergarten: Sight Words Worksheets, Phonics Worksheets, and Word Puzzles',
         description: `Special education teachers need highly customizable materials for IEP goals. Word searches adapt to individual student needs perfectly. Adjust grid size from 5x5 for emerging skills to larger grids for grade-level work. Control word direction to match student abilities. Horizontal-only searches for students just learning to scan. Add diagonal words when students demonstrate readiness for increased complexity. The customization creates appropriate challenges for diverse learners.
 
 Visual learners with reading difficulties succeed with image-based word searches. Students with dyslexia find pictures instead of struggling with letter confusion. The visual approach builds confidence while developing vocabulary. Occupational therapy goals incorporate word search activities for fine motor practice. Students work on pencil grip while circling found words. The worksheets address multiple IEP objectives simultaneously. Special education teachers document progress through completed word search collections.
@@ -379,7 +400,7 @@ Etsy printable shops feature word search worksheets alongside coloring pages and
       },
       {
         id: '12',
-        question: 'Can I Create Word Puzzles for Sight Words Worksheets and Vocabulary Worksheets?',
+        question: 'Can I Create Word Search Puzzles for Sight Words Worksheets, Phonics Worksheets, and Vocabulary Worksheets?',
         answer: 'Create subject-specific word search worksheets for any curriculum area. Math vocabulary word searches feature number words, shape names, and operation terms. Science word searches include animal names, weather terms, and plant vocabulary. Social studies word searches incorporate geography and community helper terms. Reading word searches use phonics patterns, sight words, and story vocabulary. Enter custom word lists matching your exact curriculum for perfectly aligned educational materials.',
       },
       {
@@ -404,7 +425,7 @@ Etsy printable shops feature word search worksheets alongside coloring pages and
       },
       {
         id: '17',
-        question: 'Are Word Puzzles Suitable for First Grade Worksheets and Sight Words Worksheets Practice?',
+        question: 'Are Word Search Puzzles Suitable for First Grade Worksheets, Sight Words Worksheets, and Phonics Practice?',
         answer: 'Free worksheets are perfectly suitable for first grade students. Adjust grid size from 8x8 to 15x15 for appropriate challenge. Enable diagonal words for advanced readers. Include longer vocabulary words matching first grade curriculum. Generate sight word puzzles for reading practice. Create phonics-based word searches for spelling development. First grade teachers use free worksheets for independent work time, learning centers, and homework assignments.',
       },
       {

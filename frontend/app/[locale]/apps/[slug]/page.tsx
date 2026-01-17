@@ -349,13 +349,28 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     const alternateUrls = getAlternateLanguageUrls(content.seo.appId || params.slug, params.locale);
     const canonicalUrl = content.seo.canonicalUrl || `https://www.lessoncraftstudio.com/${params.locale}/apps/${params.slug}`;
 
-    // Get og:image from hero preview image or first sample
+    // Get og:image - prefer seo.images array, fall back to hero preview image or first sample
     const languageFolder = localeToLanguageFolder[params.locale] || 'english';
-    const ogImage = content.hero?.previewImageSrc
+    const fallbackOgImage = content.hero?.previewImageSrc
       ? `https://www.lessoncraftstudio.com${content.hero.previewImageSrc.replace(/ /g, '%20')}`
       : content.samples?.items?.[0]?.worksheetSrc
         ? `https://www.lessoncraftstudio.com${content.samples.items[0].worksheetSrc.replace(/ /g, '%20')}`
         : `https://www.lessoncraftstudio.com/opengraph-image.png`;
+
+    // Use seo.images if available for Google Image Thumbnails, otherwise use fallback
+    const ogImages = content.seo.images?.length
+      ? content.seo.images.map(img => ({
+          url: img.url,
+          width: img.width,
+          height: img.height,
+          alt: img.caption || content.hero?.title || content.seo.title,
+        }))
+      : [{
+          url: fallbackOgImage,
+          width: 2480,
+          height: 3508,
+          alt: content.hero?.title || content.seo.title,
+        }];
 
     // Get og:locale
     const ogLocale = ogLocaleMap[params.locale] || 'en_US';
@@ -379,18 +394,13 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
         siteName: 'LessonCraftStudio',
         type: 'website',
         locale: ogLocale,
-        images: [{
-          url: ogImage,
-          width: 2480,
-          height: 3508,
-          alt: content.hero?.title || content.seo.title,
-        }],
+        images: ogImages,
       },
       twitter: {
         card: 'summary_large_image',
         title: content.seo.title,
         description: content.seo.description,
-        images: [ogImage],
+        images: ogImages.map(img => img.url),
         site: '@lessoncraftstudio',
       },
     };

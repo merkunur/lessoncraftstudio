@@ -358,18 +358,19 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
         : `https://www.lessoncraftstudio.com/opengraph-image.png`;
 
     // Use seo.images if available for Google Image Thumbnails, otherwise use fallback
+    const seoTitle = content.seo.title;
     const ogImages = content.seo.images?.length
       ? content.seo.images.map(img => ({
           url: img.url,
           width: img.width,
           height: img.height,
-          alt: img.caption || content.hero?.title || content.seo.title,
+          alt: img.caption || content.hero?.title || seoTitle,
         }))
       : [{
           url: fallbackOgImage,
           width: 2480,
           height: 3508,
-          alt: content.hero?.title || content.seo.title,
+          alt: content.hero?.title || seoTitle,
         }];
 
     // Get og:locale

@@ -19,6 +19,26 @@ export const coloringEnContent: ProductPageContent = {
     title: 'Free Printable Coloring Worksheets for Kids | Coloring Pages Generator',
     description: 'Create free printable coloring worksheets for kindergarten and first grade. Generate coloring pages for kids with 3000+ images. Download PDF worksheets in 3 min.',
     keywords: 'coloring worksheets, free printable coloring pages, coloring pages for kids, kindergarten coloring worksheets, free worksheets, coloring activities, first grade worksheets, printable worksheets, free printables, worksheet for kids',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/coloring/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Free printable coloring worksheets for kindergarten - coloring pages for kids developing fine motor skills'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/coloring/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Kindergarten coloring worksheets free printables - coloring activities for preschool and early childhood'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/coloring/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Printable coloring pages for kids - free worksheet for kindergarten with educational coloring activities'
+      }
+    ],
   },
 
   // Hero Section

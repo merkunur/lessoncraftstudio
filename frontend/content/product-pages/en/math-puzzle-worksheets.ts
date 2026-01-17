@@ -11,6 +11,36 @@ import { ProductPageContent } from '@/components/product-page/ProductPageClient'
  */
 
 export const mathPuzzleEnContent: ProductPageContent = {
+  // SEO Metadata
+  seo: {
+    slug: 'math-puzzle-worksheets',
+    appId: 'math-puzzle',
+    title: 'Free Math Puzzle Worksheets | Printable Math Worksheet Generator',
+    description: 'Create math puzzle worksheets for kindergarten with our free worksheet generator. Download printable math worksheets PDF in 3 minutes. Try now!',
+    keywords: 'math puzzle worksheets, math worksheets, free printable worksheets, kindergarten worksheets, first grade worksheets, addition worksheets, free worksheet for kids, math puzzle generator, printable math activities, worksheet for kindergarten',
+    canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/math-puzzle-worksheets',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/math%20puzzle/worksheet.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Free printable math puzzle worksheets for kindergarten - addition grid with colorful counting images for kids'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/math%20puzzle/worksheet%20(1).jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Math puzzle worksheets free printable - subtraction practice worksheet for first grade math'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/math%20puzzle/worksheet%20(2).jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Free math worksheets for kids - mixed operations puzzle worksheet for kindergarten and first grade'
+      }
+    ]
+  },
+
   // Hero Section - FULL text from math-puzzle.md
   hero: {
     title: 'Free Printable Math Worksheets - Math Puzzle Generator',
@@ -36,7 +66,7 @@ The puzzles use familiar images children love. Select from our 3000+ image libra
 
   // Sample Gallery - REAL file paths from samples/english/math puzzle/
   samples: {
-    sectionTitle: 'Worksheet Samples',
+    sectionTitle: 'Math Puzzle Worksheets: Free Printable Samples for Kids',
     downloadLabel: 'Download Free Sample',
     worksheetLabel: 'Worksheet',
     answerKeyLabel: 'Answer Key',

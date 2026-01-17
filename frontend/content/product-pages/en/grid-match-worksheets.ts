@@ -19,6 +19,38 @@ export const gridMatchEnContent: ProductPageContent = {
     description: 'Create free grid match worksheets with our puzzle generator. Free printables for kindergarten and first grade. Download PDF worksheets in 3 clicks.',
     keywords: 'grid match worksheets, puzzle worksheets, kindergarten worksheets, free printable worksheets, visual discrimination worksheets, first grade worksheets, math worksheets, spatial reasoning worksheets, worksheet for kids, free worksheets, worksheet for kindergarten, free printables',
     canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/grid-match-worksheets',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/grid-match/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Free printable grid match worksheets - visual discrimination puzzle for kindergarten spatial reasoning practice'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/grid-match/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Grid match puzzle worksheets for kids - free printable visual matching activity for first grade'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/grid-match/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Visual discrimination worksheets free - grid match puzzle printables for kindergarten pattern recognition'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/grid-match/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Free worksheet for kids - grid match visual spatial puzzle activity for kindergarten students'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/grid-match/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Grid match free printables - visual matching puzzle worksheet for kids spatial skills development'
+      }
+    ],
   },
 
   // Hero Section - FULL text from grid-match.md paragraphs 1-3

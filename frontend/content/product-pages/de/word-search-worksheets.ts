@@ -27,10 +27,30 @@ export const wordSearchDeContent: ProductPageContent = {
   seo: {
     slug: 'suchsel-arbeitsblaetter',
     appId: 'wordsearch',
-    title: 'Suchsel Generator - Kostenlose Arbeitsblätter Grundschule - Buchstaben lernen und Deutsch-Arbeitsblätter',
-    description: 'Erstellen Sie professionelle Suchsel-Arbeitsblätter für die Grundschule mit unserem kostenlosen Generator. Perfekt für Buchstaben lernen, Deutsch-Arbeitsblätter und Vorschul-Arbeitsblätter. Der Suchsel Generator eignet sich ideal für kostenlose Arbeitsblätter in der 1. Klasse bis 3. Klasse.',
+    title: 'Suchsel Generator | Kostenlose Arbeitsblätter Grundschule erstellen',
+    description: 'Erstellen Sie kostenlose Suchsel-Arbeitsblätter für die Grundschule in 3 Minuten. Perfekt zum Buchstaben lernen. PDF-Download sofort. 11 Sprachen verfügbar.',
     keywords: 'suchsel generator, arbeitsblätter grundschule, kostenlose arbeitsblätter, mathe arbeitsblätter, vorschule arbeitsblätter, buchstaben lernen, deutsch arbeitsblätter, einmaleins, schwungübungen, ausmalbilder',
     canonicalUrl: 'https://www.lessoncraftstudio.com/de/apps/suchsel-arbeitsblaetter',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/german/wordsearch/sample-1.jpeg',
+        width: 3672,
+        height: 4752,
+        caption: 'Kostenloses Suchsel Arbeitsblatt Grundschule - Wortschatz Übungen mit bunten Bildern für Kinder'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/german/wordsearch/sample-2.jpeg',
+        width: 3672,
+        height: 4752,
+        caption: 'Suchsel Generator Arbeitsblatt - Buchstaben lernen und Deutsch-Arbeitsblätter für die Vorschule'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/german/wordsearch/sample-3.jpeg',
+        width: 3672,
+        height: 4752,
+        caption: 'Kostenlose Druckvorlagen Wortsuchrätsel - Arbeitsblatt für Kinder mit thematischen Bildern'
+      }
+    ],
   },
 
   // Hero Section - FULL text from wordsearch.md paragraphs 1-4
@@ -42,7 +62,7 @@ export const wordSearchDeContent: ProductPageContent = {
 Mit dem Suchsel Generator erstellen Sie in weniger als 3 Minuten druckfertige Arbeitsblätter Grundschule. Der Generator kombiniert spielerisch Buchstaben lernen mit Wortschatzübungen. Laden Sie fertige Suchsel als PDF oder JPEG herunter. Jedes Arbeitsblatt kann individuell angepasst werden.
 
 Unser kostenloser Suchsel Generator bietet über 3000 kindgerechte Bilder für Arbeitsblätter Grundschule. Erstellen Sie thematische Suchsel für Mathe-Arbeitsblätter, Deutsch-Arbeitsblätter oder Vorschul-Arbeitsblätter. Der Generator funktioniert in 11 Sprachen und ist ideal für mehrsprachigen Unterricht geeignet.`,
-    previewImageSrc: '/samples/english/wordsearch/wordsearch portrait.jpeg',
+    previewImageSrc: '/samples/german/wordsearch/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Kostenlos Testen',
       viewSamples: 'Beispiele Ansehen',
@@ -61,7 +81,7 @@ Unser kostenloser Suchsel Generator bietet über 3000 kindgerechte Bilder für A
     },
   },
 
-  // Sample Gallery - REAL file paths from samples/english/wordsearch/
+  // Sample Gallery - REAL file paths from samples/german/wordsearch/
   samples: {
     sectionTitle: 'Suchsel Arbeitsblätter Beispiele',
     sectionDescription: 'Laden Sie kostenlose Beispiel-Arbeitsblätter herunter, um unsere professionelle Qualität zu sehen',
@@ -77,24 +97,38 @@ Unser kostenloser Suchsel Generator bietet über 3000 kindgerechte Bilder für A
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/wordsearch/wordsearch portrait.jpeg',
-        answerKeySrc: '/samples/english/wordsearch/wordsearch portrait answer_key.jpeg',
-        altText: 'Suchsel im Hochformat mit thematischen Bildern für Vorschul-Arbeitsblätter und Wortschatztraining',
-        pdfDownloadUrl: '/samples/english/wordsearch/wordsearch portrait.pdf',
+        worksheetSrc: '/samples/german/wordsearch/sample-1.jpeg',
+        answerKeySrc: '/samples/german/wordsearch/sample-1-answer.jpeg',
+        altText: 'Suchsel Arbeitsblätter kostenlos - Wortsuchrätsel im Hochformat für Grundschule und Buchstaben lernen mit Bildern',
+        pdfDownloadUrl: '/samples/german/wordsearch/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/wordsearch/wordsearch landscape.jpeg',
-        answerKeySrc: '/samples/english/wordsearch/wordsearch landscape answer_key.jpeg',
-        altText: 'Suchsel Arbeitsblatt im Querformat mit bunten Bildhinweisen für die Grundschule',
-        pdfDownloadUrl: '/samples/english/wordsearch/wordsearch landscape.pdf',
+        worksheetSrc: '/samples/german/wordsearch/sample-2.jpeg',
+        answerKeySrc: '/samples/german/wordsearch/sample-2-answer.jpeg',
+        altText: 'Kostenlose Arbeitsblätter Suchsel Generator - Deutsch-Arbeitsblätter mit bunten thematischen Bildern für Kinder',
+        pdfDownloadUrl: '/samples/german/wordsearch/sample-2.pdf',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/wordsearch/custom word list.jpeg',
-        answerKeySrc: '/samples/english/wordsearch/custom word list answer_key.jpeg',
-        altText: 'Suchsel mit eigener Wortliste für Rechtschreibübungen und Deutsch-Arbeitsblätter',
-        pdfDownloadUrl: '/samples/english/wordsearch/custom word list.pdf',
+        worksheetSrc: '/samples/german/wordsearch/sample-3.jpeg',
+        answerKeySrc: '/samples/german/wordsearch/sample-3-answer.jpeg',
+        altText: 'Wortsuchrätsel Arbeitsblatt für Vorschule - kostenlose Druckvorlagen zum Buchstaben lernen und Wortschatz üben',
+        pdfDownloadUrl: '/samples/german/wordsearch/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/german/wordsearch/sample-4.jpeg',
+        answerKeySrc: '/samples/german/wordsearch/sample-4-answer.jpeg',
+        altText: 'Suchsel Grundschule Arbeitsblatt für Kinder - Vorschul-Arbeitsblätter mit kindgerechten Bildhinweisen kostenlos',
+        pdfDownloadUrl: '/samples/german/wordsearch/sample-4.pdf',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/german/wordsearch/sample-5.jpeg',
+        answerKeySrc: '/samples/german/wordsearch/sample-5-answer.jpeg',
+        altText: 'Kostenloses Arbeitsblatt Suchsel - Deutsch-Arbeitsblätter Wortschatzübungen für 1. Klasse bis 3. Klasse Grundschule',
+        pdfDownloadUrl: '/samples/german/wordsearch/sample-5.pdf',
       },
     ],
   },

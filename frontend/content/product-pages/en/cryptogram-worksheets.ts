@@ -20,7 +20,7 @@ export const cryptogramEnContent: ProductPageContent = {
 Picture cryptogram worksheets turn code-breaking into a visual learning adventure. Each cryptogram uses pictures instead of letters to create secret codes. Students match images to letters and decode hidden phrases. This combines alphabet worksheets practice with critical thinking skills. Perfect for kindergarten through first grade classrooms.
 
 Our cryptogram worksheet generator creates custom puzzles in 11 languages. Upload your own images or choose from 3000+ child-friendly pictures. Every cryptogram worksheet downloads as a high-quality PDF or JPEG file. Create math worksheets connections, phonics worksheets activities, and sight words worksheets practice using picture codes. Your students will love solving these engaging free printable worksheets.`,
-    previewImageSrc: '/samples/english/cryptogram/cryptogram_worksheet.jpeg',
+    previewImageSrc: '/samples/english/cryptogram/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Try Free',
       viewSamples: 'View Samples',
@@ -36,7 +36,7 @@ Our cryptogram worksheet generator creates custom puzzles in 11 languages. Uploa
   seo: {
     slug: 'cryptogram-worksheets',
     appId: 'cryptogram',
-    title: 'Free Cryptogram Worksheets for Kids | Picture Puzzle Worksheet Generator',
+    title: 'Free Cryptogram Worksheets for Kids | Picture Puzzle Generator',
     description: 'Create free printable cryptogram worksheets for kids. Perfect worksheet for kindergarten with picture puzzles. Download your free worksheet as PDF in 3 minutes.',
     keywords: 'cryptogram worksheets, free worksheet for kids, picture cryptogram, worksheet for kindergarten, free printables, kindergarten worksheets, first grade worksheets, phonics worksheets, alphabet worksheets, puzzle worksheets',
     canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/cryptogram-worksheets',
@@ -51,19 +51,43 @@ Our cryptogram worksheet generator creates custom puzzles in 11 languages. Uploa
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/cryptogram/cryptogram_worksheet.jpeg',
-        answerKeySrc: '/samples/english/cryptogram/cryptogram_answer_key.jpeg',
-        altText: 'Free worksheet for kids - picture cryptogram puzzle with image codes for kindergarten vocabulary practice',
+        worksheetSrc: '/samples/english/cryptogram/sample-1.jpeg',
+        answerKeySrc: '/samples/english/cryptogram/sample-1-answer.jpeg',
+        altText: 'Free cryptogram puzzle worksheets for kids - picture code worksheet for kindergarten vocabulary practice',
         imageTitle: 'Free Printable Cryptogram Worksheet for Kindergarten',
-        pdfDownloadUrl: '/samples/english/cryptogram/cryptogram_worksheet.pdf',
+        pdfDownloadUrl: '/samples/english/cryptogram/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/cryptogram/cryptogram_worksheet (1).jpeg',
-        answerKeySrc: '/samples/english/cryptogram/cryptogram_answer_key (1).jpeg',
-        altText: 'Free printables cryptogram worksheet for kids - themed picture puzzle free worksheet for first grade spelling',
+        worksheetSrc: '/samples/english/cryptogram/sample-2.jpeg',
+        answerKeySrc: '/samples/english/cryptogram/sample-2-answer.jpeg',
+        altText: 'Free printable cryptogram puzzle worksheets - picture code worksheet for kids first grade spelling',
         imageTitle: 'Free Worksheet for Kids - Picture Cryptogram Puzzle',
-        pdfDownloadUrl: '/samples/english/cryptogram/cryptogram_worksheet (1).pdf',
+        pdfDownloadUrl: '/samples/english/cryptogram/sample-2.pdf',
+      },
+      {
+        id: '3',
+        worksheetSrc: '/samples/english/cryptogram/sample-3.jpeg',
+        answerKeySrc: '/samples/english/cryptogram/sample-3-answer.jpeg',
+        altText: 'Picture cryptogram free worksheet for kids - puzzle worksheets with alphabet code for first grade',
+        imageTitle: 'Puzzle Worksheets - First Grade Picture Cryptogram',
+        pdfDownloadUrl: '/samples/english/cryptogram/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/english/cryptogram/sample-4.jpeg',
+        answerKeySrc: '/samples/english/cryptogram/sample-4-answer.jpeg',
+        altText: 'Free cryptogram puzzle worksheets kindergarten - picture code worksheet for kids alphabet practice',
+        imageTitle: 'Puzzle Worksheets - Kindergarten Picture Cryptogram',
+        pdfDownloadUrl: '/samples/english/cryptogram/sample-4.pdf',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/english/cryptogram/sample-5.jpeg',
+        answerKeySrc: '/samples/english/cryptogram/sample-5-answer.jpeg',
+        altText: 'Worksheet for kids cryptogram puzzles - free printable picture code puzzle worksheets first grade',
+        imageTitle: 'Free Printable Cryptogram Puzzle Worksheets',
+        pdfDownloadUrl: '/samples/english/cryptogram/sample-5.pdf',
       },
     ],
   },
@@ -235,7 +259,7 @@ Our cryptogram worksheet generator creates custom puzzles in 11 languages. Uploa
     items: [
       {
         id: '1',
-        question: 'Can I Combine Picture Cryptograms with Tracing Worksheets and Alphabet Worksheets for Complete Letter Learning?',
+        question: 'Can I Combine Picture Cryptogram Puzzle Worksheets with Tracing Worksheets and Alphabet Worksheets for Complete Letter Learning?',
         answer: 'Yes. Picture cryptograms work perfectly alongside letter tracing worksheets for comprehensive alphabet instruction. Students decode cryptogram messages using letter recognition skills. Then complete tracing worksheets to practice forming those same letters. This combination reinforces letter knowledge through multiple modalities for effective alphabet worksheets instruction. Create matching sets where cryptogram vocabulary appears in subsequent tracing worksheets. Students decode "CAT" in the cryptogram then trace those three letters repeatedly. The visual memory from picture codes transfers to handwriting practice. This integrated approach strengthens kindergarten worksheets outcomes better than isolated activities for free printable worksheets instruction.',
       },
       {
@@ -270,7 +294,7 @@ Our cryptogram worksheet generator creates custom puzzles in 11 languages. Uploa
       },
       {
         id: '8',
-        question: 'Are Picture Cryptograms Suitable for Creating Coloring Worksheets Activities and Kindergarten Worksheets Centers?',
+        question: 'Are Picture Cryptogram Puzzle Worksheets Suitable for Creating Coloring Worksheets Activities and Kindergarten Worksheets Centers?',
         answer: 'Yes. Picture cryptograms work excellently in literacy centers alongside coloring worksheets. Create center rotations where students alternate between cryptogram solving and thematic coloring activities. Both worksheet types reinforce the same vocabulary through different modalities for engaging kindergarten worksheets stations using free printable worksheets. Package cryptograms with corresponding coloring worksheets in center folders. Students decode animal name cryptograms then color matching animal pictures. This extension activity keeps early finishers productively engaged. The variety prevents kindergarten boredom while reinforcing learning objectives through diverse free printable worksheets experiences.',
       },
       {
@@ -300,8 +324,8 @@ Our cryptogram worksheet generator creates custom puzzles in 11 languages. Uploa
       },
       {
         id: '14',
-        question: 'Can I Make a Free Worksheet for Kids with Custom Images?',
-        answer: 'Absolutely. Our generator creates every free worksheet for kids with full customization options including custom image uploads. Upload photos of your students, classroom objects, or themed images to personalize each free worksheet for kids. The uploaded images work exactly like library pictures in your free worksheet for kids creation. This personalization makes each free worksheet for kids more engaging than generic alternatives. Students recognize familiar faces and objects, increasing motivation during puzzle-solving activities.',
+        question: 'Can I Make Free Puzzle Worksheets for Kids with Custom Images?',
+        answer: 'Absolutely. Our generator creates every free puzzle worksheets for kids with full customization options including custom image uploads. Upload photos of your students, classroom objects, or themed images to personalize each puzzle worksheets for kids activity. The uploaded images work exactly like library pictures in your free puzzle worksheets for kids creation. This personalization makes each free worksheet for kids more engaging than generic alternatives. Students recognize familiar faces and objects, increasing motivation during puzzle-solving activities.',
       },
       {
         id: '15',

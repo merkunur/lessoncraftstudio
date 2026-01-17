@@ -11,6 +11,48 @@ import { ProductPageContent } from '@/components/product-page/ProductPageClient'
  */
 
 export const prepositionsEnContent: ProductPageContent = {
+  // SEO metadata for search engines and social sharing
+  seo: {
+    slug: 'prepositions-worksheets',
+    appId: 'prepositions',
+    title: 'Free Prepositions Worksheets for Kindergarten | Spatial Concepts PDF Generator',
+    description: 'Create professional prepositions worksheets for kindergarten and first grade. Free printable spatial concepts activities with answer keys. Download PDF in 3 minutes.',
+    keywords: 'prepositions worksheets, free worksheets, kindergarten worksheets, spatial concepts, free printable worksheets, first grade worksheets, worksheet for kids, position words, in on under worksheets, free printables',
+    canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/prepositions-worksheets',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/prepositions/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Free prepositions worksheets for kindergarten - spatial concepts fill-in-the-blank activity'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/prepositions/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Prepositions multiple choice worksheet for first grade - in on under practice'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/prepositions/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Free printable prepositions worksheet - spatial vocabulary practice for kids'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/prepositions/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Kindergarten prepositions worksheet - position words learning activity'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/prepositions/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'First grade spatial concepts worksheet - prepositions practice with pictures'
+      }
+    ]
+  },
+
   // Hero Section - FULL text from prepositions.md paragraphs 1-4
   hero: {
     title: 'Free Printable Prepositions Worksheets for Kindergarten',
@@ -22,7 +64,7 @@ Teaching prepositions to kindergarten and first grade students becomes simple wi
 Teachers save hours creating prepositions worksheets manually. Our generator produces professional kindergarten worksheets in minutes instead of hours. Choose from fill-in-the-blank or multiple choice formats. Select specific prepositions to target or practice all eight concepts together. Your Full Access subscription includes unlimited downloads and commercial licensing for selling worksheets online.
 
 Perfect for kindergarten teachers and first grade educators who need quality prepositions worksheets quickly. Create worksheets for whole class instruction or individual practice. Customize every element on the canvas. Drag, rotate, and resize images to create unique layouts. Add your own text and choose from seven child-friendly fonts.`,
-    previewImageSrc: '/samples/english/prepositions/prepositions_worksheet.jpeg',
+    previewImageSrc: '/samples/english/prepositions/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Try Free',
       viewSamples: 'View Samples',
@@ -43,17 +85,38 @@ Perfect for kindergarten teachers and first grade educators who need quality pre
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/prepositions/prepositions_worksheet.jpeg',
-        answerKeySrc: '/samples/english/prepositions/prepositions_answer_key.jpeg',
-        altText: 'Prepositions fill-in-the-blank worksheet for kindergarten spatial concepts',
-        pdfDownloadUrl: '/samples/english/prepositions/prepositions_worksheet.pdf',
+        worksheetSrc: '/samples/english/prepositions/sample-1.jpeg',
+        answerKeySrc: '/samples/english/prepositions/sample-1-answer.jpeg',
+        altText: 'Free prepositions worksheets - spatial concepts fill-in-the-blank activity for kindergarten',
+        pdfDownloadUrl: '/samples/english/prepositions/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/prepositions/prepositions multiple choice.jpeg',
-        answerKeySrc: '/samples/english/prepositions/prepositions multiple choice answer_key.jpeg',
-        altText: 'Prepositions multiple choice worksheet for first grade spatial learning',
-        pdfDownloadUrl: '/samples/english/prepositions/prepositions multiple choice.pdf',
+        worksheetSrc: '/samples/english/prepositions/sample-2.jpeg',
+        answerKeySrc: '/samples/english/prepositions/sample-2-answer.jpeg',
+        altText: 'Free printable prepositions worksheet - multiple choice format for first grade students',
+        pdfDownloadUrl: '/samples/english/prepositions/sample-2.pdf',
+      },
+      {
+        id: '3',
+        worksheetSrc: '/samples/english/prepositions/sample-3.jpeg',
+        answerKeySrc: '/samples/english/prepositions/sample-3-answer.jpeg',
+        altText: 'Kindergarten prepositions worksheet - in on under practice with colorful images',
+        pdfDownloadUrl: '/samples/english/prepositions/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/english/prepositions/sample-4.jpeg',
+        answerKeySrc: '/samples/english/prepositions/sample-4-answer.jpeg',
+        altText: 'Free worksheet for kids - position words learning activity for kindergarten',
+        pdfDownloadUrl: '/samples/english/prepositions/sample-4.pdf',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/english/prepositions/sample-5.jpeg',
+        answerKeySrc: '/samples/english/prepositions/sample-5-answer.jpeg',
+        altText: 'First grade prepositions worksheet - spatial vocabulary practice with pictures',
+        pdfDownloadUrl: '/samples/english/prepositions/sample-5.pdf',
       },
     ],
   },

@@ -18,6 +18,39 @@ export const findObjectsEnContent: ProductPageContent = {
     title: 'Find Objects Worksheets Free Printable | I Spy Visual Discrimination',
     description: 'Create I Spy and Odd One Out worksheets with our visual discrimination worksheet generator. Free printable hidden objects worksheets for kindergarten. Download now!',
     keywords: 'find objects worksheets, visual discrimination worksheets, I Spy worksheets, kindergarten worksheets, free printable worksheets, first grade worksheets, hidden objects worksheets, worksheet for kids, free worksheet, odd one out worksheets',
+    canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/find-objects-worksheets',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/find-objects/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Free printable find objects worksheets - I Spy visual discrimination worksheet for kindergarten kids',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/find-objects/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Visual discrimination worksheet generator - odd one out worksheets for first grade students',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/find-objects/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'I Spy worksheets free printable - hidden objects worksheet for kids visual scanning practice',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/find-objects/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Hidden objects worksheets for kindergarten - free worksheet for kids attention skills',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/find-objects/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Free printables visual discrimination - find objects worksheet generator for early learning',
+      },
+    ],
   },
 
   // Hero Section - FULL text from find-objects.md paragraphs 1-4

@@ -11,6 +11,36 @@ import { ProductPageContent } from '@/components/product-page/ProductPageClient'
  */
 
 export const wordGuessEnContent: ProductPageContent = {
+  // SEO Metadata
+  seo: {
+    slug: 'word-guess-worksheets',
+    appId: 'word-guess',
+    title: 'Free Word Guess Worksheets | Printable Spelling Puzzle Generator',
+    description: 'Create professional word guess worksheets for kindergarten and first grade. Generate spelling puzzles with picture clues. Download free printable PDF in 3 minutes.',
+    keywords: 'word guess worksheets, spelling worksheets, vocabulary worksheets, kindergarten worksheets, first grade worksheets, free printable worksheets, phonics worksheets, sight words worksheets, alphabet worksheets, worksheet for kids',
+    canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/word-guess-worksheets',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/word%20guess/clue-grid_worksheet.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Free printable word guess worksheet with picture clues for kindergarten vocabulary practice'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/word%20guess/landscape.jpeg',
+        width: 3508,
+        height: 2480,
+        caption: 'Landscape word guess spelling worksheet for first grade phonics practice'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/word%20guess/custom%20word%20list.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Custom word list word guess worksheet for sight words and spelling practice'
+      }
+    ]
+  },
+
   // Hero Section - FULL text from word-guess.md paragraphs 1-5
   hero: {
     title: 'Free Printable Word Guess Worksheets',
@@ -47,21 +77,21 @@ Generate 1-10 puzzles per page with automatic layout optimization. Add name and 
         id: '1',
         worksheetSrc: '/samples/english/word guess/clue-grid_worksheet.jpeg',
         answerKeySrc: '/samples/english/word guess/clue-grid_answer-key.jpeg',
-        altText: 'Word guess puzzle clue grid with picture clues for kindergarten vocabulary practice',
+        altText: 'Free printable word guess worksheets - clue grid puzzle with picture clues for kindergarten vocabulary practice',
         pdfDownloadUrl: '/samples/english/word guess/clue-grid_worksheet.pdf',
       },
       {
         id: '2',
         worksheetSrc: '/samples/english/word guess/landscape.jpeg',
         answerKeySrc: '/samples/english/word guess/landscape answer-key.jpeg',
-        altText: 'Landscape word guess worksheet with colorful picture clues for first grade',
+        altText: 'Word guess worksheet for kids - landscape spelling puzzle with colorful images for first grade phonics',
         pdfDownloadUrl: '/samples/english/word guess/landscape.pdf',
       },
       {
         id: '3',
         worksheetSrc: '/samples/english/word guess/custom word list.jpeg',
         answerKeySrc: '/samples/english/word guess/custom word list answer-key.jpeg',
-        altText: 'Custom word list word guess for spelling practice and sight words',
+        altText: 'Custom word list word guess worksheets - sight words spelling practice free printable for kindergarten',
         pdfDownloadUrl: '/samples/english/word guess/custom word list.pdf',
       },
     ],
@@ -447,6 +477,60 @@ Science teachers create worksheets featuring terminology from current units. Gen
 Math teachers use addition worksheets teaching operation vocabulary and number words. Create puzzles featuring add, sum, plus, total, and equals. Generate worksheets with number words from one to twenty. Produce geometric shape names with corresponding images. Math vocabulary develops through repeated exposure in engaging formats. The picture clues support mathematical language acquisition.
 
 Social studies integration happens through geographic and cultural vocabulary. Create worksheets featuring country names with flag images. Generate state capitals with landmark pictures. Produce historical figure names with portrait images. The cross-curricular applications extend word guess beyond pure literacy instruction. Every subject area benefits from vocabulary-building activities using visual support.`,
+      },
+      {
+        id: '13',
+        question: 'How Do I Get Free Printable Word Guess Worksheets?',
+        answer: `Access free printable word guess worksheets through the Full Access subscription at $240 annually. Your subscription removes all per-worksheet fees. Generate unlimited word guess worksheets for kindergarten and first grade students. Download professional 300 DPI PDF files instantly. The subscription cost averages less than $0.50 per worksheet for regular users creating materials weekly.
+
+Start with the free trial to explore worksheet creation capabilities. Experience the full generator interface without payment commitment. Create sample kindergarten worksheets to evaluate quality. Test phonics worksheets and sight words worksheets features. The trial demonstrates professional output quality before subscription purchase. Teachers confirm the platform meets their free printable worksheets needs before investing.
+
+Compare the subscription value against commercial worksheet purchases. Individual worksheet packets cost $3 to $15 on Teachers Pay Teachers. Creating ten worksheets weekly would cost $150 to $750 monthly purchasing elsewhere. The $20 monthly subscription cost delivers massive savings. Generate alphabet worksheets, sight words worksheets, and phonics worksheets for less than one commercial purchase price. The unlimited creation model maximizes educational value.`,
+      },
+      {
+        id: '14',
+        question: 'What Makes Word Guess Better Than Other Spelling Worksheets?',
+        answer: `Word guess worksheets combine visual learning with spelling practice creating dual-coding benefits. Picture clues activate visual memory pathways. Letter boxes engage kinesthetic learning through writing. This multisensory approach outperforms traditional spelling worksheets using text only. Students remember vocabulary better when multiple brain regions participate in learning.
+
+The customization options surpass basic spelling worksheets generators. Four difficulty levels serve differentiated instruction needs. Custom word lists target specific curriculum vocabulary. The 3000+ image library provides themed content instantly. Upload personal photos for culturally relevant kindergarten worksheets. These features create truly personalized learning experiences.
+
+Professional quality distinguishes word guess from free online alternatives. 300 DPI resolution ensures sharp printing on any device. Automatic layout optimization positions elements perfectly. Answer key generation saves teacher preparation time. Commercial licensing enables selling created materials. These professional features justify the subscription cost versus free limited alternatives producing lower quality first grade worksheets.`,
+      },
+      {
+        id: '15',
+        question: 'Are These Vocabulary Worksheets Suitable for ESL Students?',
+        answer: `Yes. Word guess worksheets excel for ESL instruction through visual vocabulary support. Picture clues provide context without requiring English reading comprehension. Students identify objects using universal visual recognition. The image-based format bridges language gaps effectively. Beginning English learners succeed with word guess before mastering reading fluency.
+
+Eleven language options support ESL transition strategies. Create native language alphabet worksheets for heritage language maintenance. Generate bilingual sight words worksheets showing English with native language comparison. Produce scaffolded phonics worksheets transitioning between languages gradually. The multilingual support serves diverse classroom populations and dual language programs.
+
+Difficulty customization accommodates varied English proficiency levels. Newcomers use maximum clue support showing most letters. Intermediate students work with partial hints developing independence. Advanced ESL learners tackle challenging puzzles requiring minimal support. Generate differentiated kindergarten worksheets serving multiple proficiency levels from identical vocabulary lists. The flexibility supports responsive ESL instruction.`,
+      },
+      {
+        id: '16',
+        question: 'How Can I Create Custom Phonics Worksheets with Word Guess?',
+        answer: `Create targeted phonics worksheets using the custom word list feature. Activate custom word mode in the generator settings. Type specific word families into the text area. Enter one word per line up to eight words maximum. The generator creates puzzles from your typed vocabulary without requiring images. This method ensures precise phonics pattern targeting.
+
+Target specific phonics patterns through strategic vocabulary selection. Create CVC word family phonics worksheets with cat, bat, hat, sat, mat, rat. Generate blend phonics worksheets featuring stop, step, stem, spin, spot, span. Build digraph worksheets including ship, shop, shed, shin, shell, shark. The custom word feature transforms word guess into a phonics-focused spelling tool.
+
+Combine custom words with themed images for visual phonics worksheets. Upload pictures representing your target word family. Select library images matching phonics patterns. The visual clues reinforce letter-sound connections through picture association. Students see objects while spelling words strengthening phonemic awareness. This dual approach accelerates phonics skill development in kindergarten worksheets and first grade worksheets.`,
+      },
+      {
+        id: '17',
+        question: 'Do I Need Design Skills to Make Alphabet Worksheets?',
+        answer: `No design skills required for professional alphabet worksheets creation. The word guess generator handles all layout decisions automatically. Select images from themed collections with one click. Choose difficulty settings using simple dropdown menus. Click generate to create polished worksheets instantly. The entire process requires only point-and-click interactions.
+
+Preset themes eliminate visual design decisions completely. Select the animals theme for cohesive alphabet worksheets featuring creatures. Choose classroom objects for practical vocabulary recognition. Pick food items for engaging kindergarten worksheets content. The curated collections ensure professional color coordination and image quality. Teachers create publisher-quality materials without graphic design knowledge.
+
+Automatic algorithms position all worksheet elements perfectly. The generator calculates optimal image sizes based on word length. Letter boxes align correctly without manual adjustment. Exercise numbers position appropriately for easy reference. Name and date fields appear in logical header locations. These sophisticated calculations happen invisibly producing professional first grade worksheets every time.`,
+      },
+      {
+        id: '18',
+        question: 'Can I Create Themed Worksheets for Seasonal Learning Units?',
+        answer: `Yes. The 3000+ image library includes extensive seasonal themes for holiday and seasonal alphabet worksheets. Access fall collections featuring pumpkins, leaves, apples, and harvest vocabulary. Generate winter phonics worksheets with snowflakes, mittens, and holiday items. Create spring sight words worksheets using flowers, butterflies, and garden themes. Build summer kindergarten worksheets featuring beach, sun, and vacation vocabulary.
+
+Holiday-specific images support classroom celebrations throughout the year. Create Halloween word guess puzzles with spooky but age-appropriate images. Generate Thanksgiving vocabulary worksheets featuring feast and gratitude themes. Build Christmas and Hanukkah materials for December celebrations. Produce Valentine's Day first grade worksheets with hearts and friendship vocabulary. The seasonal variety maintains student engagement year-round.
+
+Combine seasonal themes with curriculum vocabulary for integrated units. Create fall math worksheets counting pumpkins and apples. Generate winter science vocabulary featuring weather and animals. Build spring life cycle worksheets with garden and butterfly themes. The themed approach makes abstract curriculum concepts concrete through familiar seasonal contexts. Students connect academic vocabulary to real-world experiences.`,
       },
     ],
   },

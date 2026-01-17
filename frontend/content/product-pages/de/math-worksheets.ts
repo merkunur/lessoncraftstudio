@@ -27,10 +27,30 @@ export const mathWorksheetsDeContent: ProductPageContent = {
   seo: {
     slug: 'mathe-arbeitsblaetter',
     appId: 'math-worksheet',
-    title: 'Mathe-Rätsel Generator - Kostenlose Mathe-Arbeitsblätter Grundschule - Rechnen lernen Vorschule',
-    description: 'Erstellen Sie professionelle Mathe-Arbeitsblätter mit visuellen Rechenrätseln für Grundschule und Vorschule. Perfekt für Rechnen lernen, Arbeitsblätter Grundschule und Vorschul-Arbeitsblätter. Der Mathe-Rätsel Generator eignet sich ideal für kostenlose Arbeitsblätter in der 1. Klasse.',
+    title: 'Kostenlose Mathe-Arbeitsblätter Grundschule | Mathe-Rätsel Generator',
+    description: 'Erstellen Sie kostenlose Mathe-Arbeitsblätter für Grundschule und Vorschule. Mathe-Rätsel Generator mit Bildersymbolen. PDF-Download in unter 3 Minuten.',
     keywords: 'mathe arbeitsblätter, arbeitsblätter grundschule, kostenlose arbeitsblätter, vorschule arbeitsblätter, rechnen lernen, rechnen 1 klasse, einmaleins, schwungübungen, ausmalbilder, deutsch arbeitsblätter',
     canonicalUrl: 'https://www.lessoncraftstudio.com/de/apps/mathe-arbeitsblaetter',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/german/math/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Kostenlose Mathe-Arbeitsblätter Grundschule - Mathe-Rätsel mit Symbolen für Rechnen lernen',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/german/math/sample-2.jpeg',
+        width: 3508,
+        height: 2480,
+        caption: 'Mathe-Arbeitsblätter Querformat - Visuelle Rechenaufgaben für Vorschul-Arbeitsblätter',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/german/math/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Arbeitsblätter Grundschule Mathematik - Rechnen 1. Klasse mit Bildsymbolen',
+      },
+    ],
   },
 
   // Hero Section - FULL text from mathe-arbeitsblätter.md paragraphs 1-4
@@ -42,7 +62,7 @@ export const mathWorksheetsDeContent: ProductPageContent = {
 Der Generator erstellt Mathe-Rätsel, bei denen Symbole Zahlen darstellen. Kinder lösen die Gleichungen und lernen spielerisch Rechnen. Jedes Rätsel kombiniert visuelle Elemente mit mathematischen Konzepten. Das fördert logisches Denken und Problemlösungskompetenz. Ideal für Rechnen 1. Klasse und frühe mathematische Förderung.
 
 Sie wählen Schwierigkeitsstufen von sehr leicht bis schwer. Der Generator passt sich an das Niveau Ihrer Schüler an. Addition und Subtraktion sind als Rechenarten verfügbar. Sie bestimmen den Zahlenraum selbst. Wählen Sie aus über 3000 kindgerechten Bildern. Laden Sie eigene Bilder hoch für personalisierte Mathe-Arbeitsblätter.`,
-    previewImageSrc: '/samples/english/math worksheet/math worksheet portrait.jpeg',
+    previewImageSrc: '/samples/german/math/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Kostenlos Testen',
       viewSamples: 'Beispiele Ansehen',
@@ -77,17 +97,38 @@ Sie wählen Schwierigkeitsstufen von sehr leicht bis schwer. Der Generator passt
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/math worksheet/math worksheet portrait.jpeg',
-        answerKeySrc: '/samples/english/math worksheet/math worksheet portrait answer_key.jpeg',
-        altText: 'Mathe-Rätsel Arbeitsblatt im Hochformat mit Symbol-Gleichungen für Vorschul-Arbeitsblätter und Rechnen lernen',
-        pdfDownloadUrl: '/samples/english/math worksheet/math worksheet portrait.pdf',
+        worksheetSrc: '/samples/german/math/sample-1.jpeg',
+        answerKeySrc: '/samples/german/math/sample-1-answer.jpeg',
+        altText: 'Kostenlose Mathe-Arbeitsblätter Grundschule - Mathe-Rätsel Hochformat mit Symbol-Gleichungen für Rechnen lernen Vorschule',
+        pdfDownloadUrl: '/samples/german/math/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/math worksheet/math worksheet landscape.jpeg',
-        answerKeySrc: '/samples/english/math worksheet/math worksheet landscape answer_key.jpeg',
-        altText: 'Mathe-Rätsel Arbeitsblatt im Querformat mit visuellen Rechenaufgaben für die Grundschule',
-        pdfDownloadUrl: '/samples/english/math worksheet/math worksheet landscape.pdf',
+        worksheetSrc: '/samples/german/math/sample-2.jpeg',
+        answerKeySrc: '/samples/german/math/sample-2-answer.jpeg',
+        altText: 'Mathe-Arbeitsblätter Querformat - Arbeitsblätter Grundschule mit visuellen Rechenrätseln für Kinder',
+        pdfDownloadUrl: '/samples/german/math/sample-2.pdf',
+      },
+      {
+        id: '3',
+        worksheetSrc: '/samples/german/math/sample-3.jpeg',
+        answerKeySrc: '/samples/german/math/sample-3-answer.jpeg',
+        altText: 'Vorschul-Arbeitsblätter Mathematik - Kostenloses Arbeitsblatt für Kinder mit Bildersymbolen zum Rechnen',
+        pdfDownloadUrl: '/samples/german/math/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/german/math/sample-4.jpeg',
+        answerKeySrc: '/samples/german/math/sample-4-answer.jpeg',
+        altText: 'Arbeitsblätter Grundschule Mathe-Rätsel - Rechnen 1. Klasse mit farbigen Symbolen und Gleichungen',
+        pdfDownloadUrl: '/samples/german/math/sample-4.pdf',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/german/math/sample-5.jpeg',
+        answerKeySrc: '/samples/german/math/sample-5-answer.jpeg',
+        altText: 'Kostenlose Arbeitsblätter Mathematik Grundschule - Mathe-Arbeitsblätter zum Ausdrucken für Vorschule',
+        pdfDownloadUrl: '/samples/german/math/sample-5.pdf',
       },
     ],
   },

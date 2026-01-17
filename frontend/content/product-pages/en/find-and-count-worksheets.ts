@@ -19,6 +19,26 @@ export const findAndCountEnContent: ProductPageContent = {
     description: 'Create free find and count worksheets with our I Spy worksheet generator. Perfect for kindergarten counting practice. Download printable PDF in 3 minutes.',
     keywords: 'find and count worksheets, I Spy worksheets, kindergarten worksheets, counting worksheets, visual discrimination worksheets, hidden object worksheets, math worksheets, first grade worksheets, free printable worksheets, counting practice, free worksheets for kids, worksheet for kindergarten',
     canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/find-and-count-worksheets',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/find-and-count/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Find and count worksheets free printable - I Spy counting worksheet for kindergarten with hidden objects'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/find-and-count/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Free I Spy worksheets for kids - visual discrimination counting worksheet for first grade'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/find-and-count/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Hidden object worksheets free printable - kindergarten counting practice worksheet'
+      }
+    ],
   },
 
   // Hero Section - FULL text from find-and-count.md paragraphs 1-6

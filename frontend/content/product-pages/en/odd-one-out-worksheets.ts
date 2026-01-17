@@ -40,6 +40,20 @@ The odd one out generator creates worksheets for any subject or theme. Choose fr
     description: 'Create free odd one out worksheets for kindergarten visual discrimination. Generate printable critical thinking worksheets for kids. Download PDF in 3 minutes.',
     keywords: 'odd one out worksheets, visual discrimination worksheets, critical thinking worksheets, categorization worksheets, logic worksheets, kindergarten worksheets, first grade worksheets, free printable worksheets, worksheet generator, printable worksheets',
     canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/odd-one-out-worksheets',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/odd one out/similar.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Free odd one out worksheets for kindergarten - visual discrimination activity with themed categorization exercises'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/odd one out/identical.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Odd one out worksheet printable - critical thinking puzzles for kids with identical mode logic exercises'
+      }
+    ],
   },
 
   // Sample Gallery - REAL file paths from samples/english/odd one out/
@@ -110,7 +124,7 @@ The odd one out generator creates worksheets for any subject or theme. Choose fr
       {
         id: '6',
         icon: '🎨',
-        title: '3000+ Images for Critical Thinking Worksheets and Categorization Worksheets',
+        title: '3000+ Images for Logic Worksheets and Critical Thinking Activities',
         description: 'Browse over 3000 child-friendly images organized by theme. Find perfect pictures for math worksheets, phonics worksheets, and alphabet worksheets instantly. Theme categories include animals, food, transportation, classroom items, and seasonal content. Search by keyword to locate specific images quickly. The image library eliminates hours of internet searching. Every image is professionally selected for kindergarten worksheets quality. Use the same images across addition worksheets, sight words worksheets, and other worksheet types. Consistent image quality creates professional-looking first grade worksheets every time. New images added regularly expand your creation options. Seasonal themes support holiday tracing worksheets and coloring worksheets. Subject-specific images enhance math worksheets and phonics worksheets accuracy. The complete library ensures you never run out of free printable worksheets content.',
         highlighted: false,
       },
@@ -161,7 +175,7 @@ The odd one out generator creates worksheets for any subject or theme. Choose fr
       {
         id: '5',
         number: 5,
-        title: 'Configure Options for Critical Thinking Worksheets',
+        title: 'Configure Options for Critical Thinking and Logic Worksheets',
         description: 'Check "Include Exercise Numbers" to add numbered labels to your kindergarten worksheets. Numbers help students track progress on first grade worksheets. This option improves organization on multi-exercise free printable worksheets. Enable "Include Name/Date Fields" for classroom-ready phonics worksheets and sight words worksheets. These fields appear at the top of addition worksheets and math worksheets. Students fill in their information before starting alphabet worksheets and ABC worksheets. Choose between Identical and Similar modes for different worksheet difficulty levels. Identical mode creates easier tracing worksheets and coloring worksheets for young learners. Similar mode produces challenging kindergarten worksheets requiring deeper thinking.',
         icon: '⚙️',
       },

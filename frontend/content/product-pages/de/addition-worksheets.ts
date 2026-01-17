@@ -27,10 +27,30 @@ export const additionDeContent: ProductPageContent = {
   seo: {
     slug: 'addition-arbeitsblaetter',
     appId: 'addition',
-    title: 'Additions-Generator - Kostenlose Mathe-Arbeitsblätter Grundschule - Rechnen lernen 1. Klasse',
-    description: 'Erstellen Sie professionelle Additions-Arbeitsblätter für Grundschule und Vorschule mit unserem kostenlosen Generator. Perfekt für Rechnen lernen, Mathe-Arbeitsblätter und Vorschul-Arbeitsblätter. Der Additions-Generator eignet sich ideal für kostenlose Arbeitsblätter in der 1. Klasse.',
+    title: 'Additions-Arbeitsblätter Generator - Kostenlose Mathe-Arbeitsblätter',
+    description: 'Erstellen Sie Additions-Arbeitsblätter für Grundschule und Vorschule. Kostenlose Mathe-Arbeitsblätter mit Lösungsblatt. PDF in 3 Minuten herunterladen.',
     keywords: 'additions generator, mathe arbeitsblätter, arbeitsblätter grundschule, kostenlose arbeitsblätter, vorschule arbeitsblätter, rechnen lernen, rechnen 1 klasse, einmaleins, schwungübungen, ausmalbilder',
     canonicalUrl: 'https://www.lessoncraftstudio.com/de/apps/addition-arbeitsblaetter',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/german/addition/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Kostenlose Additions-Arbeitsblätter für Vorschule - Mathe-Arbeitsblätter mit Bildrechnen für Rechnen lernen'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/german/addition/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Arbeitsblätter Grundschule Addition - Kostenlose Arbeitsblätter mit Lösungsblatt für 1. Klasse'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/german/addition/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Vorschul-Arbeitsblätter Mathe - Kostenlose Druckvorlagen für Rechnen lernen mit Bildern'
+      }
+    ],
   },
 
   // Hero Section - FULL text from addition.md paragraphs 1-4
@@ -42,7 +62,7 @@ export const additionDeContent: ProductPageContent = {
 Mit dem Additions-Generator erstellen Sie in weniger als 3 Minuten druckfertige Arbeitsblätter Grundschule. Der Generator kombiniert spielerisch Rechnen lernen mit visuellen Bilddarstellungen. Laden Sie fertige Additions-Arbeitsblätter als PDF oder JPEG herunter. Jedes Arbeitsblatt enthält automatisch ein Lösungsblatt für schnelle Korrektur.
 
 Unser kostenloser Additions-Generator bietet über 3000 kindgerechte Bilder für Mathe-Arbeitsblätter. Erstellen Sie thematische Additions-Übungen für Vorschul-Arbeitsblätter oder Arbeitsblätter Grundschule. Der Generator funktioniert in 11 Sprachen und ist ideal für mehrsprachigen Mathematikunterricht geeignet.`,
-    previewImageSrc: '/samples/english/addition/addition_worksheet portrait.jpeg',
+    previewImageSrc: '/samples/german/addition/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Kostenlos Testen',
       viewSamples: 'Beispiele Ansehen',
@@ -63,7 +83,7 @@ Unser kostenloser Additions-Generator bietet über 3000 kindgerechte Bilder für
 
   // Sample Gallery - REAL file paths from samples/english/addition/
   samples: {
-    sectionTitle: 'Additions-Arbeitsblätter Beispiele',
+    sectionTitle: 'Kostenlose Additions-Arbeitsblätter Beispiele - Mathe-Arbeitsblätter herunterladen',
     sectionDescription: 'Laden Sie kostenlose Beispiel-Arbeitsblätter herunter, um unsere professionelle Qualität zu sehen',
     downloadLabel: 'Kostenloses Beispiel Herunterladen',
     worksheetLabel: 'Arbeitsblatt',
@@ -77,38 +97,38 @@ Unser kostenloser Additions-Generator bietet über 3000 kindgerechte Bilder für
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/addition/addition_worksheet portrait.jpeg',
-        answerKeySrc: '/samples/english/addition/addition_answer_key portrait.jpeg',
-        altText: 'Additions-Arbeitsblatt im Hochformat mit bildbasierter Addition für Vorschul-Arbeitsblätter und Rechnen lernen',
-        pdfDownloadUrl: '/samples/english/addition/addition_worksheet portrait.pdf',
+        worksheetSrc: '/samples/german/addition/sample-1.jpeg',
+        answerKeySrc: '/samples/german/addition/sample-1-answer.jpeg',
+        altText: 'Additions-Arbeitsblätter kostenlos - Arbeitsblätter Grundschule mit Bildrechnen für Vorschul-Arbeitsblätter und Mathe-Arbeitsblätter zum Rechnen lernen',
+        pdfDownloadUrl: '/samples/german/addition/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/addition/addition_worksheet landscape.jpeg',
-        answerKeySrc: '/samples/english/addition/addition_answer_key landscape.jpeg',
-        altText: 'Additions-Arbeitsblatt im Querformat mit bunten Bildern für die Grundschule',
-        pdfDownloadUrl: '/samples/english/addition/addition_worksheet landscape.pdf',
+        worksheetSrc: '/samples/german/addition/sample-2.jpeg',
+        answerKeySrc: '/samples/german/addition/sample-2-answer.jpeg',
+        altText: 'Kostenlose Arbeitsblätter Addition - Vorschule Arbeitsblätter mit Rechnen 1. Klasse Übungen für Arbeitsblätter Grundschule',
+        pdfDownloadUrl: '/samples/german/addition/sample-2.pdf',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/addition/image and number.jpeg',
-        answerKeySrc: '/samples/english/addition/image and number answer_key.jpeg',
-        altText: 'Bild-plus-Zahl Additions-Arbeitsblatt für den Übergang von konkretem zu abstraktem Rechnen',
-        pdfDownloadUrl: '/samples/english/addition/image and number.pdf',
+        worksheetSrc: '/samples/german/addition/sample-3.jpeg',
+        answerKeySrc: '/samples/german/addition/sample-3-answer.jpeg',
+        altText: 'Mathe-Arbeitsblätter Addition - Kostenlose Druckvorlagen für Arbeitsblätter Grundschule mit Rechnen lernen',
+        pdfDownloadUrl: '/samples/german/addition/sample-3.pdf',
       },
       {
         id: '4',
-        worksheetSrc: '/samples/english/addition/find addend.jpeg',
-        answerKeySrc: '/samples/english/addition/find addend answer_key.jpeg',
-        altText: 'Addend-finden Arbeitsblatt für fortgeschrittenes Rechnen lernen in der 1. Klasse',
-        pdfDownloadUrl: '/samples/english/addition/find addend.pdf',
+        worksheetSrc: '/samples/german/addition/sample-4.jpeg',
+        answerKeySrc: '/samples/german/addition/sample-4-answer.jpeg',
+        altText: 'Arbeitsblatt für Kinder Addition - Kostenlose Arbeitsblätter mit Mathe-Arbeitsblätter für Rechnen 1. Klasse',
+        pdfDownloadUrl: '/samples/german/addition/sample-4.pdf',
       },
       {
         id: '5',
-        worksheetSrc: '/samples/english/addition/mixed mode.jpeg',
-        answerKeySrc: '/samples/english/addition/mixed mode answer_key.jpeg',
-        altText: 'Gemischte Additions-Modi Arbeitsblatt für differenzierten Mathematikunterricht',
-        pdfDownloadUrl: '/samples/english/addition/mixed mode.pdf',
+        worksheetSrc: '/samples/german/addition/sample-5.jpeg',
+        answerKeySrc: '/samples/german/addition/sample-5-answer.jpeg',
+        altText: 'Vorschul-Arbeitsblätter Rechnen lernen - Kostenlose Mathe-Arbeitsblätter für Arbeitsblätter Grundschule',
+        pdfDownloadUrl: '/samples/german/addition/sample-5.pdf',
       },
     ],
   },
@@ -281,7 +301,7 @@ Mit dem Basis-Paket für 144 € jährlich erhalten Sie wasserzeichenfreie Downl
 
   // Use Cases - FULL text from addition.md use case sections
   useCases: {
-    sectionTitle: 'Perfekt für Lehrkräfte und Eltern - Kostenlose Mathe-Arbeitsblätter für jeden Bedarf',
+    sectionTitle: 'Arbeitsblätter Grundschule und Vorschul-Arbeitsblätter - Kostenlose Mathe-Arbeitsblätter für Lehrkräfte und Eltern',
     sectionDescription: 'Der Additions-Generator eignet sich für verschiedene Nutzergruppen. Erzieher in der Vorschule. Lehrkräfte an Grundschulen. Homeschooling-Eltern. DaZ-Lehrkräfte. Sonderpädagogen. Jeder profitiert von kostenlosen Arbeitsblättern.',
     badgeText: 'Anwendungsbereiche',
     readMoreLabel: 'Mehr lesen',

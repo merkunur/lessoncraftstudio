@@ -11,6 +11,36 @@ import { ProductPageContent } from '@/components/product-page/ProductPageClient'
  */
 
 export const pictureSortEnContent: ProductPageContent = {
+  // SEO Section - Google Image Thumbnails and metadata
+  seo: {
+    slug: 'picture-sort-worksheets',
+    appId: 'picture-sort',
+    title: 'Free Sorting Worksheets Printable | Picture Sort Generator for Kids',
+    description: 'Create professional sorting worksheets for kindergarten and first grade. Free printable picture classification activities with answer keys. Download PDF in 3 minutes.',
+    keywords: 'sorting worksheets, picture sort, classification worksheets, free worksheet, free worksheets, free printables, worksheet for kids, worksheet for kindergarten, kindergarten worksheets, first grade worksheets',
+    canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/picture-sort-worksheets',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/picture-sort/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Free printable sorting worksheets for kindergarten - picture classification activity with colorful images'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/picture-sort/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Free worksheet for kids - picture sort categorization activity for first grade critical thinking'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/picture-sort/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Free printables for kindergarten - sorting worksheet with cut and paste classification for kids'
+      }
+    ],
+  },
+
   // Hero Section - FULL text from picture-sort.md paragraphs 1-4
   hero: {
     title: 'Free Printable Kindergarten Worksheets for Sorting Activities',
@@ -22,7 +52,7 @@ Picture sorting activities help young learners develop critical thinking skills.
 Teachers use picture sort worksheets to build classification skills in early learners. The visual nature of sorting activities makes them ideal for kindergarten worksheets and first grade worksheets. Create unlimited variations to keep students engaged and challenged.
 
 Full Access subscription costs $240 annually or $25 monthly. This includes all 33 worksheet generator types with commercial licensing. Generate as many picture sorting worksheets as your students need without additional fees.`,
-    previewImageSrc: '/samples/english/picture sort/picture sort portrait.jpeg',
+    previewImageSrc: '/samples/english/picture-sort/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Try Free',
       viewSamples: 'View Samples',
@@ -34,7 +64,7 @@ Full Access subscription costs $240 annually or $25 monthly. This includes all 3
     },
   },
 
-  // Sample Gallery - REAL file paths from samples/english/picture sort/
+  // Sample Gallery - REAL file paths from samples/english/picture-sort/
   samples: {
     sectionTitle: 'Worksheet Samples',
     downloadLabel: 'Download Free Sample',
@@ -43,17 +73,38 @@ Full Access subscription costs $240 annually or $25 monthly. This includes all 3
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/picture sort/picture sort portrait.jpeg',
-        answerKeySrc: '/samples/english/picture sort/picture sort portrait answer_key.jpeg',
-        altText: 'Picture sort portrait worksheet for kindergarten classification activities',
-        pdfDownloadUrl: '/samples/english/picture sort/picture sort portrait.pdf',
+        worksheetSrc: '/samples/english/picture-sort/sample-1.jpeg',
+        answerKeySrc: '/samples/english/picture-sort/sample-1-answer.jpeg',
+        altText: 'Free printable sorting worksheet for kindergarten - picture classification activity with colorful images for kids',
+        pdfDownloadUrl: '/samples/english/picture-sort/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/picture sort/picture sort landscape.jpeg',
-        answerKeySrc: '/samples/english/picture sort/picture sort landscape answer_key.jpeg',
-        altText: 'Picture sort landscape worksheet for first grade sorting practice',
-        pdfDownloadUrl: '/samples/english/picture sort/picture sort landscape.pdf',
+        worksheetSrc: '/samples/english/picture-sort/sample-2.jpeg',
+        answerKeySrc: '/samples/english/picture-sort/sample-2-answer.jpeg',
+        altText: 'Free sorting worksheet for kids - picture sort categorization practice for first grade',
+        pdfDownloadUrl: '/samples/english/picture-sort/sample-2.pdf',
+      },
+      {
+        id: '3',
+        worksheetSrc: '/samples/english/picture-sort/sample-3.jpeg',
+        answerKeySrc: '/samples/english/picture-sort/sample-3-answer.jpeg',
+        altText: 'Free worksheet for kindergarten - cut and paste sorting activity with classification categories',
+        pdfDownloadUrl: '/samples/english/picture-sort/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/english/picture-sort/sample-4.jpeg',
+        answerKeySrc: '/samples/english/picture-sort/sample-4-answer.jpeg',
+        altText: 'Free printables for kids - picture sorting worksheet with themed categorization activity',
+        pdfDownloadUrl: '/samples/english/picture-sort/sample-4.pdf',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/english/picture-sort/sample-5.jpeg',
+        answerKeySrc: '/samples/english/picture-sort/sample-5-answer.jpeg',
+        altText: 'Free sorting activity worksheet - picture classification for kindergarten and first grade',
+        pdfDownloadUrl: '/samples/english/picture-sort/sample-5.pdf',
       },
     ],
   },

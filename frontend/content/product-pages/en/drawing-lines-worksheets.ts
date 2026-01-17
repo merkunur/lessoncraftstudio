@@ -11,6 +11,16 @@ import { ProductPageContent } from '@/components/product-page/ProductPageClient'
  */
 
 export const drawingLinesEnContent: ProductPageContent = {
+  // SEO Metadata
+  seo: {
+    slug: 'drawing-lines-worksheets',
+    appId: 'drawing-lines',
+    title: 'Free Drawing Lines Worksheets | Kindergarten Fine Motor Skills Generator',
+    description: 'Create free printable drawing lines worksheets for kindergarten fine motor skills. Generate matching worksheets with 8 templates. Download PDF instantly.',
+    keywords: 'drawing lines worksheets, free drawing lines worksheets, fine motor skills worksheets, matching worksheets kindergarten, drawing lines for kids, kindergarten worksheets free printable, line drawing worksheets, pencil control worksheets, free worksheets for kids, first grade worksheets',
+    canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/drawing-lines-worksheets',
+  },
+
   // Hero Section - FULL text from drawing-lines.md paragraphs 1-4
   hero: {
     title: 'Free Printable Drawing Lines Worksheets',
@@ -22,7 +32,7 @@ Our drawing lines worksheet generator helps children develop essential fine moto
 Drawing lines worksheets are essential tools for early childhood education. They bridge the gap between simple tracing worksheets and more complex writing tasks. Students must control their pencil to draw accurate connecting lines. This builds the fine motor strength needed for handwriting success. Occupational therapists recommend drawing lines exercises for motor skill development. The worksheets work perfectly for preschool, kindergarten, and first grade classrooms. Special education teachers use them for differentiated instruction and skill-building activities.
 
 The generator includes 8 different templates with various line patterns and orientations. Choose curve templates for landscape orientation worksheets with flowing line patterns. Select diagonal templates for portrait layouts with slanted connection challenges. Pick horizontal templates for left-to-right line drawing practice. Use vertical templates for up-and-down matching exercises. Each template creates a unique matching challenge for your students. Customize every worksheet with your own uploaded images or choose from our library. Add borders, backgrounds, and personalized text elements to each page. Your Core Bundle subscription includes access to 3000+ child-friendly images organized by theme. Create unlimited worksheet variations for different skill levels, themes, and curriculum topics. Generate worksheets in 11 languages for multilingual classrooms and ESL instruction.`,
-    previewImageSrc: '/samples/english/drawing lines/drawing_lines_curve 1.jpeg',
+    previewImageSrc: '/samples/english/drawing-lines/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Try Free',
       viewSamples: 'View Samples',
@@ -34,7 +44,7 @@ The generator includes 8 different templates with various line patterns and orie
     },
   },
 
-  // Sample Gallery - REAL file paths from samples/english/drawing lines/
+  // Sample Gallery - REAL file paths from samples/english/drawing-lines/
   samples: {
     sectionTitle: 'Worksheet Samples',
     downloadLabel: 'Download Free Sample',
@@ -43,45 +53,38 @@ The generator includes 8 different templates with various line patterns and orie
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/drawing lines/drawing_lines_curve 1.jpeg',
+        worksheetSrc: '/samples/english/drawing-lines/sample-1.jpeg',
         answerKeySrc: '',
-        altText: 'Drawing lines worksheets free printable - curve pattern matching exercises for kindergarten fine motor skills',
-        pdfDownloadUrl: '/samples/english/drawing lines/drawing_lines_curve 1.pdf',
+        altText: 'Drawing lines worksheets free printable - curved matching lines for kindergarten fine motor skills development',
+        pdfDownloadUrl: '/samples/english/drawing-lines/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/drawing lines/drawing_lines_curve 2.jpeg',
+        worksheetSrc: '/samples/english/drawing-lines/sample-2.jpeg',
         answerKeySrc: '',
-        altText: 'Free printable drawing lines worksheets - curved matching exercise worksheet for kindergarten kids',
-        pdfDownloadUrl: '/samples/english/drawing lines/drawing_lines_curve 2.pdf',
+        altText: 'Free drawing lines worksheets for kids - matching worksheet with colorful images for first grade',
+        pdfDownloadUrl: '/samples/english/drawing-lines/sample-2.pdf',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/drawing lines/drawing_lines_diagonal 1.jpeg',
+        worksheetSrc: '/samples/english/drawing-lines/sample-3.jpeg',
         answerKeySrc: '',
-        altText: 'Drawing lines worksheets for kindergarten - diagonal template free worksheet for fine motor practice',
-        pdfDownloadUrl: '/samples/english/drawing lines/drawing_lines_diagonal 1.pdf',
+        altText: 'Worksheet for kindergarten drawing lines - diagonal pattern matching exercise for pencil control',
+        pdfDownloadUrl: '/samples/english/drawing-lines/sample-3.pdf',
       },
       {
         id: '4',
-        worksheetSrc: '/samples/english/drawing lines/drawing_lines_diagonal 2.jpeg',
+        worksheetSrc: '/samples/english/drawing-lines/sample-4.jpeg',
         answerKeySrc: '',
-        altText: 'Free drawing lines worksheets for kids - diagonal matching exercise for first grade fine motor skills',
-        pdfDownloadUrl: '/samples/english/drawing lines/drawing_lines_diagonal 2.pdf',
+        altText: 'Free printable drawing lines worksheets - horizontal matching lines worksheet for kids',
+        pdfDownloadUrl: '/samples/english/drawing-lines/sample-4.pdf',
       },
       {
         id: '5',
-        worksheetSrc: '/samples/english/drawing lines/drawing_lines_horizontal.jpeg',
+        worksheetSrc: '/samples/english/drawing-lines/sample-5.jpeg',
         answerKeySrc: '',
-        altText: 'Drawing lines worksheets free printable - horizontal matching worksheet for kindergarten pencil control',
-        pdfDownloadUrl: '/samples/english/drawing lines/drawing_lines_horizontal.pdf',
-      },
-      {
-        id: '6',
-        worksheetSrc: '/samples/english/drawing lines/drawing_lines_vertical.jpeg',
-        answerKeySrc: '',
-        altText: 'Free printable worksheets for kids - vertical drawing lines matching exercise for kindergarten',
-        pdfDownloadUrl: '/samples/english/drawing lines/drawing_lines_vertical.pdf',
+        altText: 'Drawing lines worksheet for kindergarten - vertical pattern free printable fine motor activity',
+        pdfDownloadUrl: '/samples/english/drawing-lines/sample-5.pdf',
       },
     ],
   },

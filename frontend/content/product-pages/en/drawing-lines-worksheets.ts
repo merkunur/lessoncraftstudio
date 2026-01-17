@@ -19,6 +19,26 @@ export const drawingLinesEnContent: ProductPageContent = {
     description: 'Create free printable drawing lines worksheets for kindergarten fine motor skills. Generate matching worksheets with 8 templates. Download PDF instantly.',
     keywords: 'drawing lines worksheets, free drawing lines worksheets, fine motor skills worksheets, matching worksheets kindergarten, drawing lines for kids, kindergarten worksheets free printable, line drawing worksheets, pencil control worksheets, free worksheets for kids, first grade worksheets',
     canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/drawing-lines-worksheets',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/drawing-lines/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Free printable drawing lines worksheets for kindergarten - curved matching lines for fine motor skills development'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/drawing-lines/sample-2.jpeg',
+        width: 3508,
+        height: 2480,
+        caption: 'Drawing lines worksheet for kids - landscape format matching exercise with colorful images'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/drawing-lines/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Free worksheet for kindergarten - diagonal pattern drawing lines for pencil control practice'
+      }
+    ],
   },
 
   // Hero Section - FULL text from drawing-lines.md paragraphs 1-4

@@ -36,7 +36,7 @@ The I Spy worksheet generator offers four different task types for variety. Stud
 Create customized kindergarten worksheets in minutes without any design experience. Select 1-4 hidden objects from our library of 3000+ child-friendly images. Choose your grid size from 5×5 to 10×10 cells for different difficulty levels. Pick image themes that match your curriculum topics. Add custom text, borders, and backgrounds to personalize each worksheet. Your first grade worksheets will look professionally designed every time.
 
 Our math worksheets help young students master early counting skills through visual activities. The find and count format makes number practice fun and engaging. Children stay focused while searching for hidden objects in colorful grids. Parents and teachers see improved counting accuracy after regular practice. Download your first free printable worksheet today and watch students enjoy learning to count.`,
-    previewImageSrc: '/samples/english/find and count/find and count portrait.jpeg',
+    previewImageSrc: '/samples/english/find-and-count/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Try Free',
       viewSamples: 'View Samples',
@@ -48,40 +48,61 @@ Our math worksheets help young students master early counting skills through vis
     },
   },
 
-  // Sample Gallery - REAL file paths from samples/english/find and count/
+  // Sample Gallery - REAL file paths from samples/english/find-and-count/
   samples: {
-    sectionTitle: 'Find and Count Worksheet Samples: Free Printable Worksheets for Kids',
+    sectionTitle: 'I Spy Worksheet Samples: Free Printable Hidden Object Worksheets for Kids',
     downloadLabel: 'Download Free Sample',
     worksheetLabel: 'Worksheet',
     answerKeyLabel: 'Answer Key',
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/find and count/find and count portrait.jpeg',
-        answerKeySrc: '/samples/english/find and count/find and count portrait answer_key.jpeg',
+        worksheetSrc: '/samples/english/find-and-count/sample-1.jpeg',
+        answerKeySrc: '/samples/english/find-and-count/sample-1-answer.jpeg',
         altText: 'Find and count worksheets free printable - I Spy counting worksheet for kindergarten kids with colorful hidden objects',
-        pdfDownloadUrl: '/samples/english/find and count/find and count portrait.pdf',
+        pdfDownloadUrl: '/samples/english/find-and-count/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/find and count/find and count landscape.jpeg',
-        answerKeySrc: '/samples/english/find and count/find and count landscape answer_key.jpeg',
-        altText: 'Free I Spy worksheets landscape - find and count visual discrimination worksheet for first grade math practice',
-        pdfDownloadUrl: '/samples/english/find and count/find and count landscape.pdf',
+        worksheetSrc: '/samples/english/find-and-count/sample-2.jpeg',
+        answerKeySrc: '/samples/english/find-and-count/sample-2-answer.jpeg',
+        altText: 'Free I Spy worksheets landscape - visual discrimination worksheet for first grade counting practice',
+        pdfDownloadUrl: '/samples/english/find-and-count/sample-2.pdf',
+      },
+      {
+        id: '3',
+        worksheetSrc: '/samples/english/find-and-count/sample-3.jpeg',
+        answerKeySrc: '/samples/english/find-and-count/sample-3-answer.jpeg',
+        altText: 'Counting worksheets free printable for kids - hidden object worksheet for kindergarten visual learning',
+        pdfDownloadUrl: '/samples/english/find-and-count/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/english/find-and-count/sample-4.jpeg',
+        answerKeySrc: '/samples/english/find-and-count/sample-4-answer.jpeg',
+        altText: 'Free worksheet for kindergarten - math worksheet with colorful images for counting practice activities',
+        pdfDownloadUrl: '/samples/english/find-and-count/sample-4.pdf',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/english/find-and-count/sample-5.jpeg',
+        answerKeySrc: '/samples/english/find-and-count/sample-5-answer.jpeg',
+        altText: 'I Spy counting practice worksheets - free printable visual discrimination worksheet for first grade students',
+        pdfDownloadUrl: '/samples/english/find-and-count/sample-5.pdf',
       },
     ],
   },
 
   // Features Grid - FULL text from find-and-count.md feature sections
   features: {
-    sectionTitle: 'Find and Count Worksheet Features: Free Worksheets for Kids and Kindergarten',
+    sectionTitle: 'Visual Discrimination Worksheet Features: Free Counting Worksheets for Kindergarten',
     sectionDescription: 'Our find and count worksheet generator includes every feature teachers need to create professional kindergarten worksheets quickly. Generate unlimited free printable worksheets with your Core Bundle subscription. Each tool works together to save time while producing high-quality educational materials. The generator combines ease of use with powerful customization options. Create engaging first grade worksheets in minutes instead of hours. All features work on any device with internet access.',
     highlightBadgeText: 'Key Feature',
     items: [
       {
         id: '1',
         icon: '⚡',
-        title: 'Create Free Find and Count Worksheets in 3 Clicks',
+        title: 'Create Free I Spy Worksheets and Hidden Object Worksheets in 3 Clicks',
         description: `Making kindergarten worksheets takes less than three minutes from start to finish. Select your theme from categories like animals, food, or transportation. Click 1-4 images to be your hidden objects. Assign each object a task type like circle, count, or cross out. Click Generate and your free printable worksheet appears instantly. No design skills needed to create professional-looking math worksheets. The simple three-step process lets you focus on teaching instead of designing. First grade worksheets generate just as quickly as kindergarten materials.
 
 Teachers appreciate the speed when preparing multiple activities. Create different difficulty levels by changing grid sizes from 5×5 to 10×10. Use the same hidden objects with different task types for variety. Generate fresh worksheets daily without repeating content. The fast creation process means you always have engaging materials ready. Your Core Bundle subscription includes unlimited worksheet generation with no per-worksheet costs.`,
@@ -90,7 +111,7 @@ Teachers appreciate the speed when preparing multiple activities. Create differe
       {
         id: '2',
         icon: '✏️',
-        title: 'Edit Your Free Printable Worksheets with Full Customization',
+        title: 'Edit Your Free Printable Worksheets for Kids with Full Customization',
         description: `Every element on the canvas moves, resizes, rotates, and deletes easily. Click any image to select it and drag to reposition. Grab corner handles to make objects larger or smaller. Use the rotation handle to tilt images at any angle. Delete unwanted elements with one click. Add custom text anywhere on your free printable worksheets. Change text color, size, and font to match your style.
 
 The editing tools work like familiar design software but simpler. Layer controls let you bring images forward or send them backward. Alignment tools help arrange elements perfectly straight. Lock objects in place once positioned correctly. Unlock all objects to make sweeping changes quickly. Your first grade worksheets stay editable even after generation. Come back later to adjust colors, add borders, or change text. The canvas preserves all customizations for future modifications.`,
@@ -99,7 +120,7 @@ The editing tools work like familiar design software but simpler. Layer controls
       {
         id: '3',
         icon: '📤',
-        title: 'Upload Images for Your Free Worksheet for Kids',
+        title: 'Upload Custom Images for Visual Discrimination Worksheets and Counting Practice',
         description: `Add personal photos and custom graphics to any worksheet. The multi-file upload accepts JPEG, PNG, GIF and other common formats. Upload pictures of classroom objects for extra relevance. Include photos of students' favorite toys or pets. Add custom alphabet worksheets graphics that match your teaching style. Combine uploaded images with library images in the same grid. Create highly personalized phonics worksheets featuring familiar items.
 
 Custom images make worksheets more engaging for your specific students. Upload seasonal photos to match current holidays or weather. Include images from recent field trips for memorable activities. Add photos of classroom pets or school mascots. Students pay closer attention when they recognize familiar objects. Your uploaded images integrate seamlessly with the 3000+ library graphics. The system handles all sizing and formatting automatically.`,
@@ -108,7 +129,7 @@ Custom images make worksheets more engaging for your specific students. Upload s
       {
         id: '4',
         icon: '🌍',
-        title: 'Create I Spy Worksheets in 11 Languages',
+        title: 'Create I Spy Worksheets and Counting Worksheets in 11 Languages',
         description: `The complete interface translates into English, Spanish, French, German, Italian, Portuguese, Dutch, Danish, Swedish, Norwegian, and Finnish. Image names display in the selected language for easier browsing. Theme categories translate automatically to match your language preference. Generate sight words worksheets with vocabulary in any supported language. ESL teachers create materials in students' native languages. Bilingual classrooms benefit from instant language switching.
 
 The language feature extends beyond interface translation. Image filenames follow language-specific naming conventions. Search results adapt to your selected language automatically. Create alphabet worksheets showing letters from different language systems. Generate math worksheets with number words in various languages. World language teachers use the tool for vocabulary building activities. Dual-language immersion programs appreciate the flexible language options.`,
@@ -117,7 +138,7 @@ The language feature extends beyond interface translation. Image filenames follo
       {
         id: '5',
         icon: '💰',
-        title: 'Sell Your Kindergarten Worksheets and Counting Worksheets',
+        title: 'Sell Your Counting Practice Worksheets and Math Worksheets Online',
         description: `Your Core Bundle subscription includes full print-on-demand commercial rights. Sell worksheets on Teachers Pay Teachers without extra licensing fees. List products on Etsy as digital downloads or printables. Create low-content books for Amazon KDP. Bundle multiple addition worksheets into paid curriculum packages. Design coloring worksheets for commercial sale. No attribution required when selling your creations.
 
 The commercial license covers unlimited worksheet creation and sales. Teachers earn $500-$5000 monthly selling educational printables online. Create themed worksheet bundles for seasonal markets. Package find and count activities with other free printable worksheets. Build a passive income stream using materials you already create. The 300 DPI quality ensures professional results customers love. Your Core Bundle investment pays for itself through sales revenue.`,
@@ -126,7 +147,7 @@ The commercial license covers unlimited worksheet creation and sales. Teachers e
       {
         id: '6',
         icon: '🎨',
-        title: 'Access 3000+ Images for Free Printables and Counting Worksheets',
+        title: 'Access 3000+ Images for Hidden Object Worksheets and Free Printables',
         description: `Browse over 3000 professionally illustrated images organized by themes. Categories include animals, vehicles, food, household items, toys, nature, and more. Each image works perfectly for ABC worksheets showing letter sounds. Use themed collections to teach vocabulary and concepts. The search function finds specific objects instantly across all themes. All graphics feature child-friendly art styles with bright colors. Images load quickly and display clearly at any size.
 
 The extensive library eliminates the need for external clipart subscriptions. Find seasonal images for holiday-themed tracing worksheets. Locate specific objects to match curriculum topics. Mix and match images from different themes in one worksheet. Every image includes transparent backgrounds for clean layouts. The library grows regularly with new additions. Access the complete collection with your Core Bundle subscription. Create letter tracing worksheets using alphabet-themed graphics from the library.`,
@@ -135,7 +156,7 @@ The extensive library eliminates the need for external clipart subscriptions. Fi
       {
         id: '7',
         icon: '🖨️',
-        title: 'Download Free Printable Worksheets at 300 DPI Quality',
+        title: 'Download Free Worksheet for Kids with Visual Discrimination Practice',
         description: `Export worksheets as PDF or JPEG files at print-quality 300 DPI resolution. The high resolution ensures crisp text and clear images when printed. Choose full color for vibrant kindergarten worksheets. Select grayscale mode to save printer ink. Download includes both the worksheet and answer key. File sizes optimize for easy sharing via email or cloud storage. Professional quality makes your math worksheets look store-bought.
 
 The export process completes in seconds with one click. Downloaded files work with any printer or copy machine. Share digital files with parents for home practice. Upload to learning management systems for remote learning. Print multiple copies without quality degradation. The PDF format preserves all formatting across different devices. First grade worksheets maintain professional appearance whether viewed on screen or paper. Your downloaded materials rival commercially published educational products.`,
@@ -146,14 +167,14 @@ The export process completes in seconds with one click. Downloaded files work wi
 
   // How-To Guide - FULL text from find-and-count.md step sections
   howTo: {
-    sectionTitle: 'How to Create Find and Count Worksheets: Free Worksheet for Kids in 5 Steps',
+    sectionTitle: 'How to Create I Spy Worksheets: Hidden Object Worksheets for Kids in 5 Steps',
     sectionDescription: 'Creating professional kindergarten worksheets takes under three minutes total time. The five-step process requires no design experience or special software. Teachers complete all steps directly in their web browser. Each step builds on the previous one for smooth workflow. The generator saves your progress automatically between steps. Free printable worksheets appear instantly when finished. First grade worksheets follow the exact same simple creation process. Your Core Bundle subscription unlocks unlimited worksheet generation without per-worksheet charges.',
     ctaText: 'Start Creating Now',
     steps: [
       {
         id: '1',
         number: 1,
-        title: 'Select Hidden Objects for Your Find and Count Worksheets',
+        title: 'Select Hidden Objects for I Spy Worksheets and Counting Practice',
         description: `Start by selecting which theme matches your teaching goals. Browse categories including animals, food, vehicles, toys, household items, and nature. Click the theme dropdown to see all available options. The animals theme works perfectly for beginning kindergarten worksheets. Each theme contains dozens of related images organized alphabetically. All images feature bright colors and child-friendly illustrations.
 
 Search for specific objects using the search box. Type any keyword to find matching images across all themes. The search works in all 11 supported languages. Results appear instantly as you type. Click any image thumbnail to select it as a hidden object. Selected images display a blue border to confirm your choice. You can select between 1 and 4 hidden objects total.
@@ -166,7 +187,7 @@ Clear your selection anytime to start over fresh. The clear button removes all s
       {
         id: '2',
         number: 2,
-        title: 'Customize Grid Settings for Kindergarten Worksheets',
+        title: 'Customize Grid Settings for Visual Discrimination Worksheets',
         description: `Set your grid dimensions using the row and column controls. Drag the sliders or type numbers directly into the boxes. Rows range from 5 to 10 for varying difficulty. Columns range from 5 to 10 as well. A 6×6 grid creates 36 total cells to fill. Larger grids make worksheets more challenging for students. Smaller grids work better for kindergarten worksheets introducing the activity.
 
 Choose your page size from the dropdown menu. Letter portrait (8.5×11 inches) works for most classroom printers. A4 portrait fits European standard paper sizes. Landscape orientations provide wider worksheet layouts. Square formats create unique visual designs. Custom dimensions let you specify exact pixel measurements. The page size affects how large grid images appear. Math worksheets typically use letter portrait for consistent formatting.
@@ -181,7 +202,7 @@ Mix different task types for varied skill practice. Use circle and square tasks 
       {
         id: '3',
         number: 3,
-        title: 'Generate Free I Spy Worksheets Instantly',
+        title: 'Generate Free I Spy Worksheets and Counting Worksheets Instantly',
         description: `Click the Generate button to create your worksheet instantly. The system builds your grid in under 3 seconds. Hidden objects appear twice each throughout the grid. Other images from your selected theme fill remaining cells. The grid arranges images in random positions each time. A professional header displays "I Spy" or equivalent in your language. The header includes instructions for students automatically.
 
 Review the generated worksheet on your screen. Zoom in and out using the zoom controls. The worksheet displays at actual print size. All images load in full color with clear details. Text appears crisp and readable at any zoom level. The layout automatically centers on the page. Grid cells maintain equal spacing for clean appearance. Your kindergarten worksheets look professionally designed without any effort.
@@ -196,7 +217,7 @@ Preview the automatic answer key before downloading. Click the Answer Key tab to
       {
         id: '4',
         number: 4,
-        title: 'Edit Your Free Printable Counting Worksheets on Canvas',
+        title: 'Edit Your Hidden Object Worksheets and Math Worksheets on Canvas',
         description: `Click any element on the canvas to select it. Selected objects display corner handles and a rotation control. Drag objects to new positions anywhere on the page. Images can overlap or spread out as needed. The drag function works smoothly for quick repositioning. Move text, borders, backgrounds, and grid images freely. Everything stays editable even after worksheet generation completes.
 
 Resize objects using the corner handles. Drag corners outward to make images larger. Pull corners inward to shrink images smaller. Hold Shift while dragging to maintain proportions. Release Shift to stretch width or height independently. Resize individual grid images for emphasis. Make hidden objects slightly larger as hints. Adjust text size for better readability on kindergarten worksheets.
@@ -213,7 +234,7 @@ Lock objects to prevent accidental changes. Click the lock icon after positionin
       {
         id: '5',
         number: 5,
-        title: 'Download Your Free Worksheets and Answer Keys',
+        title: 'Download Free Printable Worksheets and Counting Practice Answer Keys',
         description: `Open the Download dropdown menu when your worksheet looks perfect. Select Worksheet JPEG for a single image file. Choose Worksheet PDF for print-ready format. The PDF option works best for most kindergarten worksheets. JPEG files load quickly for digital sharing. Both formats export at professional 300 DPI quality. High resolution ensures crisp printing on any printer.
 
 Download the answer key using the same dropdown menu. Select Answer Key JPEG or Answer Key PDF. The answer key uses identical format to your worksheet. Visual markers show where hidden objects appear. Teachers use answer keys for quick grading. Parents appreciate answer keys for homework help. Both worksheet and answer key download as separate files.
@@ -230,13 +251,13 @@ Print multiple copies for your entire class. The 300 DPI quality handles repeate
 
   // Use Cases - FULL text from find-and-count.md use case sections
   useCases: {
-    sectionTitle: 'Perfect for Find and Count Worksheets: Free Worksheets for Teachers, Parents, and Kids',
+    sectionTitle: 'Perfect for Counting Practice: Free Visual Discrimination Worksheets for Teachers and Kids',
     sectionDescription: 'Find and count worksheets serve diverse educational settings and teaching styles. Kindergarten teachers use them for morning work and centers. First grade teachers incorporate them into math stations. Homeschool parents appreciate the quick prep time. ESL instructors value the visual learning approach. Special education teachers customize difficulty levels easily. Teacher entrepreneurs sell them as premium products. Your Core Bundle subscription provides unlimited worksheet creation for all these applications.',
     items: [
       {
         id: '1',
         icon: '👩‍🏫',
-        title: 'Kindergarten Teachers Love Find and Count Worksheets',
+        title: 'Kindergarten Teachers Love I Spy Worksheets and Counting Practice',
         subtitle: 'Visual First Grade Worksheets and Sight Words Worksheets for Learning',
         description: `Kindergarten classrooms thrive on engaging visual activities. Find and count worksheets keep students focused during independent work time. Young children practice multiple skills in one activity. Counting reinforces number recognition naturally. Visual discrimination develops while scanning for hidden objects. Fine motor skills improve through circling and marking tasks. Your kindergarten worksheets fit perfectly into daily center rotations.
 
@@ -248,7 +269,7 @@ Assessment gets easier with built-in answer keys. Check student work quickly aga
       {
         id: '2',
         icon: '📚',
-        title: 'First Grade Worksheets: I Spy Counting Practice',
+        title: 'First Grade Math Worksheets: I Spy and Visual Discrimination Worksheets',
         subtitle: 'Phonics Worksheets, ABC Worksheets, Tracing Worksheets for Number Practice',
         description: `First grade curriculum demands more advanced counting skills. Find and count worksheets adapt easily to higher expectations. Use larger grids (8×8 or 10×10) for more challenge. Select 3-4 hidden objects instead of just 2. Mix all four task types in one worksheet. Students handle the increased complexity with the familiar format. Your first grade worksheets grow with student abilities.
 
@@ -260,7 +281,7 @@ Differentiation happens naturally with adjustable difficulty. Create easier vers
       {
         id: '3',
         icon: '🏠',
-        title: 'Homeschool Parents: Free Printable Worksheets Made Easy',
+        title: 'Homeschool Parents: Free Worksheet for Kids and Hidden Object Worksheets Made Easy',
         subtitle: 'Quick Sight Words Worksheets and First Grade Worksheets Activities',
         description: `Homeschool families juggle multiple grade levels simultaneously. Find and count worksheets work for ages 4-8 with simple adjustments. Create kindergarten worksheets for your youngest child. Make first grade worksheets for the older sibling. Both children work on similar activities at their own level. You prep once but serve multiple students effectively.
 
@@ -272,7 +293,7 @@ Cost savings add up quickly compared to workbook purchases. Published workbooks 
       {
         id: '4',
         icon: '🌍',
-        title: 'ESL Teachers: Free Worksheet for Kids in 11 Languages',
+        title: 'ESL Teachers: Counting Worksheets and Free Printables in 11 Languages',
         subtitle: 'Phonics Worksheets, ABC Worksheets, Addition Worksheets, Tracing Worksheets Practice',
         description: `English language learners benefit from visual vocabulary practice. Find and count worksheets teach object names through images. Students connect English words with familiar items. The search activity reinforces word recognition naturally. Counting tasks add number word practice. Your sight words worksheets support dual learning goals simultaneously. ESL students gain confidence through successful completion.
 
@@ -284,7 +305,7 @@ Multilingual support helps native language connections. Switch the interface to 
       {
         id: '5',
         icon: '💜',
-        title: 'Special Education: Worksheet for Kindergarten Adapted Learning',
+        title: 'Special Education: Visual Discrimination Worksheets for Kindergarten Learning',
         subtitle: 'Adapted First Grade Worksheets, Sight Words Worksheets for Learning',
         description: `Special needs students require carefully tailored materials. Find and count worksheets adjust easily for various abilities. Create simple 5×5 grids for students with processing challenges. Use just one hidden object to reduce cognitive load. Select circle tasks only for fine motor practice. The customization supports individualized education plans perfectly. Your kindergarten worksheets adapt to any student need.
 
@@ -296,7 +317,7 @@ Progress monitoring becomes straightforward with consistent formats. Use the sam
       {
         id: '6',
         icon: '💰',
-        title: 'Teacher Entrepreneurs: Sell Free Printables and Counting Worksheets',
+        title: 'Teacher Entrepreneurs: Sell Hidden Object Worksheets and I Spy Worksheets',
         subtitle: 'Build Passive Income with ABC Worksheets, Addition Worksheets, Tracing Worksheets Bundles',
         description: `Teachers Pay Teachers sellers earn significant income from printables. Find and count worksheets sell well as individual products or bundles. Create seasonal themed packets for holiday markets. Design subject-specific collections around curriculum topics. Package 20-30 worksheets together for higher prices. Your commercial license allows unlimited product creation. The print-on-demand rights support various sales platforms.
 
@@ -310,69 +331,69 @@ Monthly income builds through catalog expansion. Start with one popular theme an
 
   // FAQ Section - Selected FAQs from find-and-count.md
   faq: {
-    sectionTitle: 'Frequently Asked Questions About Find and Count Worksheets and Free Printable Worksheets',
+    sectionTitle: 'FAQ: I Spy Worksheets, Counting Worksheets, and Hidden Object Worksheets',
     sectionDescription: 'Everything you need to know about our find and count worksheet generator.',
     showMoreText: 'Show more questions',
     showLessText: 'Show less',
     items: [
       {
         id: '1',
-        question: 'Is This Find and Count Worksheet Generator Really Free to Use for Kindergarten Worksheets?',
+        question: 'Are I Spy Worksheets and Hidden Object Worksheets Really Free for Kindergarten?',
         answer: `The find and count worksheet generator requires a Core Bundle subscription. Core Bundle costs $144 per year or $15 monthly. Only the word search generator offers a free tier with limited features. All other apps including find and count require paid access. The subscription includes unlimited worksheet creation with no per-worksheet fees. Generate as many free printable kindergarten worksheets as you need daily. The term "free printable" describes the worksheets themselves, not the generator tool. Once you subscribe, create unlimited worksheets without additional charges. Your Core Bundle subscription also includes commercial licensing rights at no extra cost.`,
       },
       {
         id: '2',
-        question: 'Can I Print Free Printable Math Worksheets and Kindergarten Worksheets at Home on a Regular Printer?',
+        question: 'Can I Print Counting Worksheets and Visual Discrimination Worksheets at Home?',
         answer: `All find and count worksheets print perfectly on standard home printers. The 300 DPI quality works with inkjet or laser printers. Use regular 8.5×11 inch printer paper for letter-sized worksheets. A4 paper works for A4-sized worksheet downloads. Color printers produce vibrant kindergarten worksheets with bright images. Black-and-white printers create clear grayscale versions automatically. The grayscale option reduces color ink consumption significantly. Downloaded PDF files print directly without special software. Most worksheets use one page of paper per activity. Print multiple copies for classroom use or homework packets. The high-resolution export ensures text stays crisp when printed. Your math worksheets look professionally printed on any home printer.`,
       },
       {
         id: '3',
-        question: 'Do I Need Design Skills to Create Tracing Worksheets, Addition Worksheets, Coloring Worksheets, Sight Words Worksheets?',
+        question: 'Do I Need Design Skills to Create I Spy Worksheets and Counting Practice Worksheets?',
         answer: `No design experience required to create professional kindergarten worksheets. The generator handles all layout and formatting automatically. Select your theme and hidden objects with simple clicks. Choose task types from dropdown menus. Click Generate and the worksheet appears instantly. The interface works like browsing online shopping sites. Anyone comfortable using a computer can create first grade worksheets. Teachers report generating their first worksheet within 5 minutes of signup. The editing tools use familiar drag-and-drop interactions. No graphic design software knowledge needed. The system produces professional-quality results every time. Your free printable worksheets rival commercially published materials.`,
       },
       {
         id: '4',
-        question: 'Can I Use First Grade Worksheets, Phonics Worksheets, ABC Worksheets in My Classroom for Kindergarten Students?',
+        question: 'Can I Use Hidden Object Worksheets and Math Worksheets for Kindergarten Students?',
         answer: `Yes, classroom use is fully allowed with your Core Bundle subscription. Print unlimited copies for all students in your classes. Use worksheets for morning work, centers, homework, and assessments. Share digital copies with students via learning management systems. Create differentiated versions for various ability levels. The worksheets work for whole-class instruction or small groups. Laminate copies for reusable center activities. Store worksheets in substitute teacher emergency folders. Your kindergarten worksheets serve any educational purpose needed. The subscription covers personal classroom use comprehensively. Commercial use requires understanding the licensing terms. Selling worksheets needs the commercial license included with Core Bundle.`,
       },
       {
         id: '5',
-        question: 'What Languages Are Available for Math Worksheets, Addition Worksheets, Tracing Worksheets, Sight Words Worksheets, Coloring Worksheets?',
+        question: 'What Languages Support I Spy Worksheets and Visual Discrimination Worksheets?',
         answer: `The generator supports 11 complete languages for interface and content. Available languages include English, Spanish, French, German, Italian, Portuguese, Dutch, Danish, Swedish, Norwegian, and Finnish. The entire interface translates to your selected language. Image names display in the chosen language automatically. Theme categories translate for easier browsing. Generate kindergarten worksheets with vocabulary in any supported language. ESL teachers create materials in students' native languages. Switch between languages anytime without losing work. The language setting affects both UI elements and content. Create math worksheets with number words in various languages. Bilingual teachers generate parallel materials in two languages. The multilingual support makes this tool unique among worksheet generators.`,
       },
       {
         id: '6',
-        question: 'Can I Sell First Grade Worksheets, Phonics Worksheets, ABC Worksheets I Create with This Generator?',
+        question: 'Can I Sell Counting Worksheets and Hidden Object Worksheets I Create?',
         answer: `Core Bundle subscription includes full print-on-demand commercial licensing. Sell worksheets on Teachers Pay Teachers without extra fees. List products on Etsy as digital downloads or printables. Publish low-content books on Amazon KDP. Create curriculum bundles for your own website. The commercial license covers unlimited worksheet sales. No attribution required when selling your creations. Earn passive income selling kindergarten worksheets you already create. Many teachers generate $500-$5000 monthly through TPT sales. The licensing terms allow individual and bundled product sales. Your subscription investment pays for itself through sales revenue. First grade worksheets sell particularly well in seasonal themed bundles.`,
       },
       {
         id: '7',
-        question: 'How Do I Customize Addition Worksheets, Tracing Worksheets, Coloring Worksheets, Sight Words Worksheets for Kindergarten Students?',
+        question: 'How Do I Customize I Spy Worksheets for Counting Practice Activities?',
         answer: `Customization starts with selecting appropriate hidden objects and themes. Choose themes matching current curriculum topics or student interests. Select 1-4 hidden objects based on difficulty desired. Assign task types appropriate for student skill levels. Adjust grid size from 5×5 to 10×10 for varying challenge. Add custom text with student names for personalization. Upload photos of classroom objects for extra relevance. Change background colors or add decorative borders. Resize images to emphasize certain elements. The canvas editing tools allow complete customization. Your free printable kindergarten worksheets match your exact teaching needs. Save time while maintaining complete creative control.`,
       },
       {
         id: '8',
-        question: 'What Age Groups Work Best with These First Grade Worksheets, Phonics Worksheets, ABC Worksheets, Addition Worksheets?',
+        question: 'What Age Groups Work Best with Visual Discrimination Worksheets and Counting Worksheets?',
         answer: `Find and count worksheets work best for ages 4-8. Preschool students (ages 4-5) handle simple 5×5 grids well. Kindergarten students (ages 5-6) manage 6×6 grids comfortably. First grade students (ages 6-7) succeed with 7×7 or 8×8 grids. Second grade students (ages 7-8) challenge themselves with 10×10 grids. Adjust difficulty through grid size and object quantity. Younger children need 1-2 hidden objects maximum. Older elementary students handle 3-4 hidden objects easily. The task types also affect age appropriateness. Circle and count tasks work for youngest students. Square and cross-out tasks suit slightly older children. Your kindergarten worksheets adapt to any age within this range.`,
       },
       {
         id: '9',
-        question: 'Can I Upload My Own Images to Tracing Worksheets, Coloring Worksheets, Sight Words Worksheets, ABC Worksheets?',
+        question: 'Can I Upload Images for Hidden Object Worksheets and I Spy Worksheets?',
         answer: `The multi-file upload feature accepts your personal photos and graphics. Upload JPEG, PNG, GIF and other common image formats. Select multiple files at once for efficient workflow. Add pictures of classroom objects, student artwork, or school mascots. Include photos from recent field trips or seasonal events. Combine uploaded images with library images in worksheets. The system automatically sizes and formats uploaded pictures. Uploaded images integrate seamlessly into grid layouts. Students pay closer attention when recognizing familiar objects. Your kindergarten worksheets become highly personalized with custom photos. The upload feature transforms generic activities into classroom-specific materials. Create first grade worksheets featuring your actual students' interests.`,
       },
       {
         id: '10',
-        question: 'How Long Does It Take to Create First Grade Worksheets, Addition Worksheets, Phonics Worksheets, Tracing Worksheets?',
+        question: 'How Long Does It Take to Create Counting Worksheets and Math Worksheets?',
         answer: `Most teachers complete worksheets in under 3 minutes total. Select theme and images in 30-60 seconds. Assign task types in another 30 seconds. Generate worksheet instantly with one click. Review and download takes 30-60 seconds. The entire process rarely exceeds 3 minutes from start to finish. Creating traditional worksheets manually takes 30-60 minutes minimum. The time savings equals 27-57 minutes per worksheet. Generate 5 worksheets weekly and save 2-4 hours. Your Core Bundle subscription dramatically reduces prep time. Spend recovered hours on lesson planning or personal rest. Create math worksheets faster than searching online for downloads.`,
       },
       {
         id: '11',
-        question: 'Do Coloring Worksheets, Sight Words Worksheets, ABC Worksheets Include Answer Keys for Kindergarten Teachers?',
+        question: 'Do I Spy Worksheets and Counting Practice Worksheets Include Answer Keys?',
         answer: `Every generated worksheet includes an automatic answer key. The answer key shows exactly where hidden objects appear. Visual markers indicate circles, squares, crosses, or numbers. The answer key matches your worksheet layout precisely. Download both worksheet and answer key as separate files. Teachers use answer keys for quick grading accuracy. Substitute teachers appreciate provided solutions. Parents helping with homework find answer keys valuable. The answer key generation happens automatically with each worksheet. Both tabs remain editable for customization needs. Your kindergarten worksheets always include complete answer solutions. The paired files save time during grading and assessment.`,
       },
       {
         id: '12',
-        question: 'Can I Create Free Printable Math Worksheets About Specific School Subjects for Kindergarten Worksheets?',
+        question: 'Can I Create Visual Discrimination Worksheets and Free Printables for Any Subject?',
         answer: `Themed worksheets align perfectly with curriculum subjects. Create math worksheets using number and shape themes. Generate science activities with animal, plant, or weather themes. Design social studies worksheets featuring community helpers or transportation. Make health worksheets using food and nutrition themes. Align kindergarten worksheets with weekly lesson topics. The 3000+ image library covers all elementary subject areas. Search for specific curriculum vocabulary within themes. Upload subject-specific images when library options don't match. Your free printable worksheets integrate seamlessly into existing lesson plans. Subject-aligned materials increase student engagement significantly. First grade worksheets support cross-curricular teaching approaches naturally.`,
       },
     ],

@@ -13,11 +13,32 @@ import { ProductPageContent } from '@/components/product-page/ProductPageClient'
 export const wordScrambleEnContent: ProductPageContent = {
   // SEO Metadata
   seo: {
+    slug: 'word-scramble-worksheets',
+    appId: 'word-scramble',
     title: 'Free Word Scramble Worksheets | Printable Vocabulary Puzzle Maker',
     description: 'Create free word scramble worksheets for kindergarten and first grade. Generate printable vocabulary puzzles with answer keys. Download PDF worksheets instantly.',
     keywords: 'word scramble worksheets, free printable worksheets, kindergarten worksheets, vocabulary worksheets, word scramble generator, spelling worksheets, first grade worksheets, sight words worksheets, phonics worksheets, ABC worksheets',
-    appId: 'word-scramble',
-    slug: 'word-scramble-worksheets',
+    canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/word-scramble-worksheets',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/word%20scramble/word%20scramble%20portrait.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Free printable word scramble worksheets for kindergarten - vocabulary puzzle with picture clues'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/word%20scramble/word%20scramble%20landscape.jpeg',
+        width: 3508,
+        height: 2480,
+        caption: 'Word scramble worksheets landscape - spelling puzzles for first grade vocabulary practice'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/word%20scramble/custom%20word%20list.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Free word scramble worksheet custom word list - sight words practice for kids'
+      }
+    ]
   },
 
   // Hero Section - FULL text from word-scramble.md paragraphs 1-5

@@ -11,6 +11,48 @@ import { ProductPageContent } from '@/components/product-page/ProductPageClient'
  */
 
 export const subtractionEnContent: ProductPageContent = {
+  // SEO Metadata for Google Image Thumbnails
+  seo: {
+    slug: 'subtraction-worksheets',
+    appId: 'subtraction',
+    title: 'Free Subtraction Worksheets for Kindergarten | Math Worksheet Generator',
+    description: 'Create professional subtraction worksheets for kindergarten and first grade. Free printable math worksheets with answer keys. Download PDF in 3 minutes.',
+    keywords: 'subtraction worksheets, math worksheets, kindergarten worksheets, free printable worksheets, first grade worksheets, free worksheets, worksheet for kids, math worksheet generator, free printables, worksheet for kindergarten',
+    canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/subtraction-worksheets',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/subtraction/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Free subtraction worksheets for kindergarten - cross-out counting math practice for kids'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/subtraction/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Subtraction worksheets with pictures - free printable image-number format for first grade'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/subtraction/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Free printable subtraction worksheets - find the subtrahend math practice for kindergarten'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/subtraction/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Mixed mode subtraction worksheets - free math worksheet for kids with varied problem types'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/subtraction/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Kindergarten subtraction worksheets free printable - visual math practice worksheet'
+      }
+    ]
+  },
+
   // Hero Section - FULL text from subtraction.md paragraphs 1-4
   hero: {
     title: 'Free Printable Subtraction Worksheets',
@@ -22,7 +64,7 @@ Our subtraction worksheet maker helps kindergarten teachers and first grade teac
 Every subtraction worksheet generated includes an automatic answer key. No need to manually calculate answers or create separate solution sheets. Switch between worksheet view and answer key view with one click. Download both versions as separate files. This saves teachers valuable time when preparing math worksheets for daily lessons, homework packets, or assessment materials. First grade worksheets often require differentiation across reading levels. Our answer keys help teaching assistants and parent volunteers support students without prior math worksheet familiarity.
 
 Adjust difficulty settings to create kindergarten worksheets for early learners or first grade worksheets for advancing students. Set maximum numbers from 2 to 20 to control problem complexity. Kindergarten worksheets typically use 2-10 range for beginning subtraction. First grade worksheets expand to 5-15 range as students master basic concepts. Second grade teachers push to 10-20 range for fluency practice. This flexibility means one math worksheet generator serves multiple grade levels without purchasing separate tools.`,
-    previewImageSrc: '/samples/english/subtraction/cross out.jpeg',
+    previewImageSrc: '/samples/english/subtraction/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Try Free',
       viewSamples: 'View Samples',
@@ -43,31 +85,38 @@ Adjust difficulty settings to create kindergarten worksheets for early learners 
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/subtraction/cross out.jpeg',
-        answerKeySrc: '/samples/english/subtraction/cross out answer_key.jpeg',
-        altText: 'Cross-out subtraction worksheet with visual counting for kindergarten',
-        pdfDownloadUrl: '/samples/english/subtraction/cross out.pdf',
+        worksheetSrc: '/samples/english/subtraction/sample-1.jpeg',
+        answerKeySrc: '/samples/english/subtraction/sample-1-answer.jpeg',
+        altText: 'Free subtraction worksheets for kindergarten - cross-out counting math practice with colorful pictures',
+        pdfDownloadUrl: '/samples/english/subtraction/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/subtraction/image number.jpeg',
-        answerKeySrc: '/samples/english/subtraction/image number answer_key.jpeg',
-        altText: 'Image and number subtraction worksheet combining pictures with numerals',
-        pdfDownloadUrl: '/samples/english/subtraction/image number.pdf',
+        worksheetSrc: '/samples/english/subtraction/sample-2.jpeg',
+        answerKeySrc: '/samples/english/subtraction/sample-2-answer.jpeg',
+        altText: 'Subtraction worksheets free printable - image-number format math worksheet for first grade kids',
+        pdfDownloadUrl: '/samples/english/subtraction/sample-2.pdf',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/subtraction/find subtrahend.jpeg',
-        answerKeySrc: '/samples/english/subtraction/find subtrahend answer_key.jpeg',
-        altText: 'Find subtrahend worksheet with missing number subtraction problems',
-        pdfDownloadUrl: '/samples/english/subtraction/find subtrahend.pdf',
+        worksheetSrc: '/samples/english/subtraction/sample-3.jpeg',
+        answerKeySrc: '/samples/english/subtraction/sample-3-answer.jpeg',
+        altText: 'Free printable subtraction worksheets - find the subtrahend missing number practice for kindergarten',
+        pdfDownloadUrl: '/samples/english/subtraction/sample-3.pdf',
       },
       {
         id: '4',
-        worksheetSrc: '/samples/english/subtraction/mixed.jpeg',
-        answerKeySrc: '/samples/english/subtraction/mixed answer_key.jpeg',
-        altText: 'Mixed mode subtraction worksheet with varied problem types',
-        pdfDownloadUrl: '/samples/english/subtraction/mixed.pdf',
+        worksheetSrc: '/samples/english/subtraction/sample-4.jpeg',
+        answerKeySrc: '/samples/english/subtraction/sample-4-answer.jpeg',
+        altText: 'Math worksheets subtraction free printable - mixed mode varied problem types for first grade worksheets',
+        pdfDownloadUrl: '/samples/english/subtraction/sample-4.pdf',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/english/subtraction/sample-5.jpeg',
+        answerKeySrc: '/samples/english/subtraction/sample-5-answer.jpeg',
+        altText: 'Kindergarten worksheets subtraction free - visual counting take-away math worksheet for kids',
+        pdfDownloadUrl: '/samples/english/subtraction/sample-5.pdf',
       },
     ],
   },

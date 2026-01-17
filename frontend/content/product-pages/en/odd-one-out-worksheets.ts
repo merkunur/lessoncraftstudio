@@ -32,6 +32,17 @@ The odd one out generator creates worksheets for any subject or theme. Choose fr
     },
   },
 
+  // SEO Metadata
+  seo: {
+    slug: 'odd-one-out-worksheets',
+    appId: 'odd-one-out',
+    title: 'Free Odd One Out Worksheets | Critical Thinking Printables for Kids',
+    description: 'Create free odd one out worksheets for kindergarten visual discrimination. Generate printable critical thinking worksheets for kids. Download PDF in 3 minutes.',
+    keywords: 'odd one out worksheets, visual discrimination worksheets, critical thinking worksheets, categorization worksheets, logic worksheets, kindergarten worksheets, first grade worksheets, free printable worksheets, worksheet generator, printable worksheets',
+    canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/odd-one-out-worksheets',
+    ogImage: '/samples/english/odd one out/similar.jpeg',
+  },
+
   // Sample Gallery - REAL file paths from samples/english/odd one out/
   samples: {
     sectionTitle: 'Worksheet Samples',
@@ -58,14 +69,14 @@ The odd one out generator creates worksheets for any subject or theme. Choose fr
 
   // Features Grid - FULL descriptions from odd-one-out.md H3 sections
   features: {
-    sectionTitle: 'Free Printable Worksheets for Critical Thinking and Visual Discrimination',
+    sectionTitle: 'Free Odd One Out Worksheets for Critical Thinking and Visual Discrimination Practice',
     sectionDescription: 'The odd one out worksheet generator combines powerful features with simple controls. Create professional kindergarten worksheets in minutes instead of hours. Each feature works together to give you complete control over worksheet design. Generate free printable worksheets perfectly customized for your classroom needs. Teachers use our odd one out maker to create math worksheets, phonics worksheets, and alphabet worksheets. The same tool creates sight words worksheets, addition worksheets, and first grade worksheets. Built-in features handle everything from image selection to final PDF export. Your Full Access subscription unlocks all premium capabilities with no per-worksheet charges.',
     highlightBadgeText: 'Key Feature',
     items: [
       {
         id: '1',
         icon: '⚡',
-        title: 'Create Free Kindergarten Worksheets for Visual Discrimination in 3 Clicks',
+        title: 'Create Free Odd One Out Worksheets for Visual Discrimination in 3 Clicks',
         description: 'Generate odd one out worksheets with three simple steps. Select your theme from animals, food, or classroom objects. Choose how many exercises appear on each worksheet. Click generate and download your free printable worksheets immediately. The quick creation process saves teachers hours every week. No design skills needed to create professional kindergarten worksheets. The generator handles all layout and spacing automatically. Perfect for creating math worksheets, phonics worksheets, and alphabet worksheets on demand. Teachers create complete worksheet sets in under 5 minutes. Generate multiple versions with different images for differentiation. Each worksheet maintains consistent professional quality. Download as many first grade worksheets as your classroom needs. The automated process removes technical barriers to worksheet creation. No software installation or learning curve required. Everything works directly in your web browser. Start creating professional kindergarten worksheets immediately after subscribing.',
         highlighted: false,
       },
@@ -79,7 +90,7 @@ The odd one out generator creates worksheets for any subject or theme. Choose fr
       {
         id: '3',
         icon: '📤',
-        title: 'Upload Images for Printable Worksheets and Logic Worksheets',
+        title: 'Upload Images for Printable Logic Worksheets and Categorization Worksheets',
         description: 'Upload your own images to create truly personalized kindergarten worksheets. Add student photos for name recognition exercises. Include classroom objects students interact with daily. Combine uploaded images with library pictures on the same worksheet. The multi-file upload accepts all common image formats. JPEG, PNG, and GIF files work perfectly. Upload dozens of images at once for faster worksheet creation. Your uploaded images integrate seamlessly with math worksheets and phonics worksheets themes. Custom image upload makes differentiation easy for first grade worksheets. Create versions featuring students\' favorite characters or interests. Upload images matching current units or seasons. This personalization increases engagement with addition worksheets and sight words worksheets.',
         highlighted: false,
       },
@@ -107,7 +118,7 @@ The odd one out generator creates worksheets for any subject or theme. Choose fr
       {
         id: '7',
         icon: '🖨️',
-        title: 'Professional 300 DPI Quality for First Grade Worksheets',
+        title: 'Professional 300 DPI Quality for Free Printable First Grade Worksheets',
         description: 'All worksheets export at professional 300 DPI resolution. Perfect for printing addition worksheets and math worksheets at home. Commercial-quality output works for selling sight words worksheets and phonics worksheets online. Choose JPEG or PDF format for maximum compatibility. The high resolution ensures alphabet worksheets remain crisp when printed. Text stays sharp on first grade worksheets at any size. Images maintain clarity on tracing worksheets and coloring worksheets. Professional quality builds parent and administrator confidence. Optional grayscale conversion saves ink when printing kindergarten worksheets. Black and white mode works perfectly for coloring worksheets and tracing worksheets. Download the same worksheet in both color and grayscale. Your Full Access subscription includes unlimited high-quality free printable worksheets downloads.',
         highlighted: true,
       },
@@ -188,7 +199,7 @@ The odd one out generator creates worksheets for any subject or theme. Choose fr
 
   // Use Cases - FULL descriptions from odd-one-out.md persona sections
   useCases: {
-    sectionTitle: 'Worksheet for Kids: Perfect for Teachers, Parents, and Educators',
+    sectionTitle: 'Free Worksheet for Kids: Odd One Out for Teachers, Parents, and Educators',
     sectionDescription: 'Teachers discover new applications for odd one out worksheets every day. These versatile tools work across grade levels and subject areas. From sight words worksheets in reading centers to tracing worksheets in occupational therapy sessions, the possibilities expand constantly. This section explores real-world applications from kindergarten through first grade classrooms. Learn how teachers integrate odd one out exercises into phonics worksheets, addition worksheets, and alphabet worksheets. These proven strategies work for math worksheets, coloring worksheets, and free printable worksheets in any educational setting.',
     items: [
       {
@@ -244,7 +255,7 @@ The odd one out generator creates worksheets for any subject or theme. Choose fr
 
   // FAQ Section - ALL questions from odd-one-out.md
   faq: {
-    sectionTitle: 'Frequently Asked Questions',
+    sectionTitle: 'Free Printable Worksheets FAQ: Odd One Out Questions Answered',
     sectionDescription: 'Teachers and parents commonly ask questions about creating odd one out worksheets before subscribing. These answers address pricing, classroom use, customization options, and technical requirements. Understanding subscription benefits helps educators decide if the worksheet maker meets their teaching needs.',
     showMoreText: 'Show more questions',
     showLessText: 'Show less',
@@ -261,7 +272,7 @@ The odd one out generator creates worksheets for any subject or theme. Choose fr
       },
       {
         id: '3',
-        question: 'Do I Need Design Skills for Kindergarten Worksheets and Free Printables?',
+        question: 'Do I Need Design Skills for Free Printable Kindergarten Worksheets?',
         answer: 'Creating odd one out worksheets requires absolutely no design skills or technical knowledge. The simple three-step process guides you through image selection, settings configuration, and generation. Create professional kindergarten worksheets as easily as using a photocopier. No graphic design background needed for beautiful results. The interface uses clear labels and intuitive controls. Select images from organized theme categories. Checkboxes and dropdown menus handle all settings. Click generate and your worksheet appears ready to use. Even technology-hesitant teachers master the system within minutes.',
       },
       {
@@ -311,12 +322,12 @@ The odd one out generator creates worksheets for any subject or theme. Choose fr
       },
       {
         id: '13',
-        question: 'How Do Free Printable Worksheets Help with Visual Discrimination Skills?',
+        question: 'How Do Free Odd One Out Worksheets Help with Visual Discrimination Skills?',
         answer: 'Free printable worksheets for visual discrimination help children identify differences between similar objects. Our odd one out worksheets train the brain to notice subtle differences in shape, color, and size. Visual discrimination worksheets are essential for reading readiness and categorization skills development. These critical thinking worksheets build the visual perception needed for letter recognition and handwriting success.',
       },
       {
         id: '14',
-        question: 'Are These Kindergarten Worksheets Good for Critical Thinking Development?',
+        question: 'Are These Free Kindergarten Worksheets Good for Critical Thinking Development?',
         answer: 'Yes, our kindergarten worksheets specifically target critical thinking development. Odd one out activities require children to analyze, compare, and make logical decisions. These critical thinking worksheets build foundational reasoning skills that benefit all academic areas. The visual discrimination worksheets help young learners develop systematic thinking approaches.',
       },
       {

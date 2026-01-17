@@ -19,6 +19,26 @@ export const matchingEnContent: ProductPageContent = {
     description: 'Create free matching worksheets for kids with our matching generator. Free printables for kindergarten and first grade. Download PDF worksheet in 3 clicks.',
     keywords: 'matching worksheets, matching worksheet generator, kindergarten worksheets, first grade worksheets, free printable worksheets, alphabet worksheets, sight words worksheets, phonics worksheets, math worksheets, free worksheet for kids, free printables, worksheet for kindergarten, tracing worksheets, addition worksheets',
     canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/matching-worksheets',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/matching/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Free printable matching worksheets for kindergarten - alphabet letter recognition practice'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/matching/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Matching worksheet generator for kids - sight words and vocabulary practice for first grade'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/matching/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Free matching worksheets with custom vocabulary - phonics worksheets for kindergarten'
+      }
+    ],
   },
 
   // Hero Section - FULL text from matching.md paragraphs 1-4
@@ -279,7 +299,7 @@ Your Core Bundle subscription includes complete access to all visual materials. 
       {
         id: '4',
         question: 'Can I Use Free Worksheets and Worksheet for Kindergarten in My Classroom?',
-        answer: 'Yes, Core Bundle subscription specifically designed for classroom use. Create unlimited matching worksheets for all students in your classes. Generate kindergarten worksheets for 20-30 students daily without additional costs. Build first grade worksheets for multiple class periods. Design differentiated alphabet worksheets for small groups. No per-student fees or licensing restrictions for classroom distribution. Teachers legally photocopy matching worksheets for entire classes. Print one master copy and photocopy for 25 students. Create sets of phonics worksheets for literacy centers. Share digital matching worksheets through Google Classroom, Seesaw, or school learning management systems. Upload JPEG files for students to complete on tablets.',
+        answer: 'Yes, Core Bundle subscription specifically designed for classroom use. Create unlimited matching worksheets for all students in your classes. Generate kindergarten worksheets for 20-30 students daily without additional costs. Build first grade worksheets for multiple class periods. Design differentiated alphabet worksheets for small groups. Create sight words worksheets for reading intervention groups. No per-student fees or licensing restrictions for classroom distribution. Teachers legally photocopy matching worksheets for entire classes. Print one master copy and photocopy for 25 students. Create sets of phonics worksheets for literacy centers. Share digital matching worksheets through Google Classroom, Seesaw, or school learning management systems. Upload JPEG files for students to complete on tablets.',
       },
       {
         id: '5',
@@ -299,17 +319,17 @@ Your Core Bundle subscription includes complete access to all visual materials. 
       {
         id: '8',
         question: 'What Age Groups Work Best with Free Worksheet for Kids and Kindergarten Worksheets?',
-        answer: 'Matching worksheets work excellently for preschool through third grade students ages 3-9. Preschool students ages 3-4 benefit from simple four-pair matching with large familiar images. Kindergarten students ages 5-6 handle standard six-pair alphabet worksheets with beginning letter matching. First grade students ages 6-7 complete complex sight words worksheets and phonics worksheets. Second through third grade students ages 7-9 tackle vocabulary matching and subject-specific content. Younger preschool students need concrete image-to-image matching. Use Image Plus Word mode showing identical pictures for visual discrimination practice. Kindergarten represents prime age for alphabet worksheets and beginning letter recognition.',
+        answer: 'Matching worksheets work excellently for preschool through third grade students ages 3-9. Preschool students ages 3-4 benefit from simple four-pair matching with large familiar images. Kindergarten students ages 5-6 handle standard six-pair alphabet worksheets with beginning letter matching. First grade students ages 6-7 complete complex sight words worksheets and phonics worksheets. First grade worksheets can include more challenging vocabulary and multi-step activities. Second through third grade students ages 7-9 tackle vocabulary matching and subject-specific content. Younger preschool students need concrete image-to-image matching. Use Image Plus Word mode showing identical pictures for visual discrimination practice. Kindergarten represents prime age for alphabet worksheets and beginning letter recognition.',
       },
       {
         id: '9',
         question: 'Can I Upload Images for Free Printable Sight Words Worksheets and Math Worksheets?',
-        answer: 'Yes, upload unlimited personal images to matching worksheets. Multi-file upload supports JPEG, PNG, and GIF formats. Add photos from your computer, phone, or tablet. Upload classroom pictures, student artwork, field trip photos, or family images. Combine uploaded images with 3000+ library images in same worksheet. Custom image upload personalizes kindergarten worksheets for specific student groups. Photograph classroom objects for familiar vocabulary matching. Upload pictures of school playground equipment for location-based alphabet worksheets. Create culturally responsive matching worksheets reflecting student backgrounds. Upload images representing diverse family structures. Add cultural foods, celebrations, and traditions from students\' communities.',
+        answer: 'Yes, upload unlimited personal images to matching worksheets. Multi-file upload supports JPEG, PNG, and GIF formats. Add photos from your computer, phone, or tablet. Upload classroom pictures, student artwork, field trip photos, or family images. Combine uploaded images with 3000+ library images in same worksheet. Custom image upload personalizes kindergarten worksheets for specific student groups. Personalize sight words worksheets with photos of familiar classroom objects. Photograph classroom objects for familiar vocabulary matching. Upload pictures of school playground equipment for location-based alphabet worksheets. Create culturally responsive matching worksheets reflecting student backgrounds. Upload images representing diverse family structures. Add cultural foods, celebrations, and traditions from students\' communities.',
       },
       {
         id: '10',
         question: 'How Long Does Free Worksheet Creation Take for Addition Worksheets?',
-        answer: 'Complete matching worksheet creation takes under 3 minutes from start to download. Choose matching mode and settings in 30 seconds. Select images or configure pairs in 60 seconds. Click generate and worksheet appears in 15 seconds. Optional editing adds 30-60 seconds for customization. Download in 15 seconds. Total time 2.5-3 minutes for professional kindergarten worksheets. Quick generation enables creating multiple differentiated first grade worksheets rapidly. Generate easier version for intervention group in 3 minutes. Create grade-level alphabet worksheets for main class in another 3 minutes. Time savings compared to traditional worksheet creation proves substantial. Word processor-based matching worksheets take 30-60 minutes aligning images and text manually.',
+        answer: 'Complete matching worksheet creation takes under 3 minutes from start to download. Choose matching mode and settings in 30 seconds. Select images or configure pairs in 60 seconds. Click generate and worksheet appears in 15 seconds. Optional editing adds 30-60 seconds for customization. Download in 15 seconds. Total time 2.5-3 minutes for professional kindergarten worksheets. Quick generation enables creating multiple differentiated first grade worksheets rapidly. Generate addition worksheets matching problems to answers just as quickly. Generate easier version for intervention group in 3 minutes. Create grade-level alphabet worksheets for main class in another 3 minutes. Time savings compared to traditional worksheet creation proves substantial. Word processor-based matching worksheets take 30-60 minutes aligning images and text manually.',
       },
       {
         id: '11',
@@ -319,22 +339,22 @@ Your Core Bundle subscription includes complete access to all visual materials. 
       {
         id: '12',
         question: 'Can I Create Free Math Worksheets and Tracing Worksheets with Custom Vocabulary?',
-        answer: 'Yes, Custom Word mode enables subject-specific matching across all curriculum areas. Create math worksheets matching geometric shapes to mathematical names. Build science matching connecting animals to habitats or life cycle stages. Design social studies worksheets matching states to capitals or historical figures to events. Generate grammar matching linking parts of speech to examples. Math applications include matching number words to numerals for kindergarten. Match addition problems to answers for first grade fact fluency. Connect fractions to visual models for upper elementary. Science matching worksheets cover life science, earth science, and physical science. Social studies and language arts benefit from vocabulary matching worksheets.',
+        answer: 'Yes, Custom Word mode enables subject-specific matching across all curriculum areas. Create math worksheets matching geometric shapes to mathematical names. Build science matching connecting animals to habitats or life cycle stages. Design social studies worksheets matching states to capitals or historical figures to events. Generate grammar matching linking parts of speech to examples. Math applications include matching number words to numerals for kindergarten. Match addition problems to answers for first grade fact fluency. Addition worksheets help students practice number bonds and basic operations. Connect fractions to visual models for upper elementary. Science matching worksheets cover life science, earth science, and physical science. Social studies and language arts benefit from vocabulary matching worksheets.',
       },
       {
         id: '13',
         question: 'Are Free Printables Like Tracing Worksheets and Alphabet Worksheets Included?',
-        answer: 'Core Bundle subscription includes access to separate coloring worksheets and tracing worksheets generators alongside MatchUp Maker. Create coordinated ABC worksheets using the Alphabet Train app for letter tracing practice. Generate themed coloring worksheets using Coloring Creator app. Build comprehensive learning packets combining matching, tracing worksheets, and coloring worksheets. All tools share same 3000+ image library ensuring visual consistency across worksheet types.',
+        answer: 'Core Bundle subscription includes access to separate coloring worksheets and tracing worksheets generators alongside MatchUp Maker. Create coordinated ABC worksheets using the Alphabet Train app for letter tracing practice. Generate themed coloring worksheets using Coloring Creator app. Build sight words worksheets paired with tracing practice for literacy development. Build comprehensive learning packets combining matching, tracing worksheets, and coloring worksheets. All tools share same 3000+ image library ensuring visual consistency across worksheet types.',
       },
       {
         id: '14',
         question: 'Can I Make Free Worksheets Including Sight Words and Phonics Worksheets for First Grade?',
-        answer: 'Yes, MatchUp Maker excels at creating sight words worksheets for first grade reading instruction. Use Custom Word mode matching high-frequency words to picture representations. Generate phonics worksheets teaching letter combinations and sounds. Build alphabet worksheets introducing new letters systematically. Create comprehensive first grade literacy programs through varied worksheet combinations.',
+        answer: 'Yes, MatchUp Maker excels at creating sight words worksheets for first grade reading instruction. Use Custom Word mode matching high-frequency words to picture representations. Generate phonics worksheets teaching letter combinations and sounds. Build alphabet worksheets introducing new letters systematically. First grade worksheets support Dolch and Fry word list mastery. Create comprehensive first grade literacy programs through varied worksheet combinations.',
       },
       {
         id: '15',
         question: 'What Makes This the Best Free Worksheet Generator for Kindergarten Worksheets?',
-        answer: 'Our matching worksheet generator creates the best free worksheet for kids because of several key features. Over 3000 child-friendly images organized by theme. Automatic puzzle generation in seconds. Full editing capabilities on every element. Professional 300 DPI print quality. Answer keys generated automatically. Support for 11 languages. No design skills required. Teachers create engaging kindergarten worksheets and first grade worksheets faster than any other method. The free printable worksheets rival commercially published materials.',
+        answer: 'Our matching worksheet generator creates the best free worksheet for kids because of several key features. Over 3000 child-friendly images organized by theme. Automatic puzzle generation in seconds. Full editing capabilities on every element. Professional 300 DPI print quality. Answer keys generated automatically. Support for 11 languages. No design skills required. Teachers create engaging kindergarten worksheets and first grade worksheets faster than any other method. Download free printable worksheets ready for immediate classroom use. The free printable worksheets rival commercially published materials.',
       },
       {
         id: '16',
@@ -344,17 +364,17 @@ Your Core Bundle subscription includes complete access to all visual materials. 
       {
         id: '17',
         question: 'Can I Create Free Worksheet for Kids in Different Themes for Addition Worksheets?',
-        answer: 'Create free worksheet for kids in dozens of different themes. Animals include farm animals, zoo animals, ocean creatures, and pets. Transportation covers cars, trucks, planes, boats, and trains. Food themes feature fruits, vegetables, snacks, and meals. Seasonal themes include fall leaves, winter snow, spring flowers, and summer fun. Math themes support addition worksheets and number recognition. Each theme contains 20 to 100 related images for variety. Perfect for creating engaging kindergarten worksheets and first grade worksheets.',
+        answer: 'Create free worksheet for kids in dozens of different themes. Animals include farm animals, zoo animals, ocean creatures, and pets. Transportation covers cars, trucks, planes, boats, and trains. Food themes feature fruits, vegetables, snacks, and meals. Seasonal themes include fall leaves, winter snow, spring flowers, and summer fun. Math themes support addition worksheets and number recognition. Create themed addition worksheets with seasonal images to boost engagement. Each theme contains 20 to 100 related images for variety. Perfect for creating engaging kindergarten worksheets and first grade worksheets.',
       },
       {
         id: '18',
         question: 'How Do I Get Started Creating Free Printable Worksheets with the Matching Generator?',
-        answer: 'Getting started with the free worksheet generator takes just minutes. No complex signup required for basic use. Visit the matching worksheet generator page and select your matching mode. Choose images from our 3000+ library or upload your own. Click generate to create an instant matching worksheet. Edit any element by clicking directly on the canvas. Download your finished free printables as PDF or JPEG. The entire process from start to finished free worksheets takes under three minutes. Start creating alphabet worksheets, phonics worksheets, and sight words worksheets immediately.',
+        answer: 'Getting started with the free worksheet generator takes just minutes. No complex signup required for basic use. Visit the matching worksheet generator page and select your matching mode. Choose images from our 3000+ library or upload your own. Click generate to create an instant matching worksheet. Edit any element by clicking directly on the canvas. Download your finished free printables as PDF or JPEG. The entire process from start to finished free worksheets takes under three minutes. Teachers can build complete sight words worksheets collections in a single session. Start creating alphabet worksheets, phonics worksheets, and sight words worksheets immediately.',
       },
       {
         id: '19',
         question: 'How Does the Matching Worksheet Generator Compare to Traditional Methods?',
-        answer: 'The matching worksheet generator saves hours compared to creating worksheets manually in Word or PowerPoint. Traditional methods require finding images, formatting tables, aligning elements, and creating answer keys separately. Our matching worksheet generator handles everything automatically. Generate complete kindergarten worksheets in under three minutes instead of thirty. The matching worksheet generator includes auto-generation of answer keys, professional layout, and 3000+ ready-to-use images. Teachers who switched from manual creation report saving 5-10 hours weekly. The matching worksheet generator also produces higher quality output at 300 DPI compared to typical copy-paste results.',
+        answer: 'The matching worksheet generator saves hours compared to creating worksheets manually in Word or PowerPoint. Traditional methods require finding images, formatting tables, aligning elements, and creating answer keys separately. Our matching worksheet generator handles everything automatically. Generate complete kindergarten worksheets in under three minutes instead of thirty. Create math matching and addition worksheets with the same speed and ease. The matching worksheet generator includes auto-generation of answer keys, professional layout, and 3000+ ready-to-use images. Teachers who switched from manual creation report saving 5-10 hours weekly. The matching worksheet generator also produces higher quality output at 300 DPI compared to typical copy-paste results.',
       },
       {
         id: '20',

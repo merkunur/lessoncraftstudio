@@ -18,6 +18,27 @@ export const additionEnContent: ProductPageContent = {
     title: 'Addition Worksheets Free Printable | Kindergarten Math Generator',
     description: 'Create professional addition worksheets for kindergarten and first grade. Free printable math worksheets with answer keys. Download PDF in 3 minutes.',
     keywords: 'addition worksheets, math worksheets, kindergarten worksheets, free printable worksheets, first grade worksheets, addition practice, worksheet for kids, free worksheet, coloring worksheets, tracing worksheets',
+    canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/addition-worksheets',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/addition/addition_worksheet%20portrait.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Free printable addition worksheets for kindergarten - colorful counting pictures for math practice'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/addition/addition_worksheet%20landscape.jpeg',
+        width: 3508,
+        height: 2480,
+        caption: 'Addition worksheets landscape mode - first grade math worksheet with visual counting'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/addition/find%20addend.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Free worksheet for kids - addition practice with answer key for kindergarten'
+      }
+    ],
   },
 
   // Hero Section - FULL text from addition.md paragraphs 1-4

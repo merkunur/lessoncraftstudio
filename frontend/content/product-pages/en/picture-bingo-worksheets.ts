@@ -24,6 +24,27 @@ export const pictureBingoEnContent: ProductPageContent = {
     title: 'Free Printable Bingo Cards for Kindergarten | Bingo Worksheet Generator',
     description: 'Create free printable bingo cards with our worksheet generator. Generate kindergarten and first grade bingo worksheets for sight words and math. Download PDF now.',
     keywords: 'bingo worksheets, printable bingo cards, kindergarten worksheets, free printable worksheets, picture bingo, first grade worksheets, sight words worksheets, phonics worksheets, alphabet worksheets, math worksheets, free worksheet, worksheet for kids, free printables',
+    canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/picture-bingo-worksheets',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/bingo/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Free printable bingo cards for kindergarten - picture bingo worksheet with colorful images for visual learning'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/bingo/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Bingo worksheets for first grade - printable picture bingo cards with word labels for sight words practice'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/bingo/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Free worksheet for kids - kindergarten bingo cards with educational images and calling chips'
+      }
+    ],
   },
 
   // Hero Section

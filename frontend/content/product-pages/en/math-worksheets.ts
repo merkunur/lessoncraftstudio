@@ -15,9 +15,9 @@ export const mathWorksheetsEnContent: ProductPageContent = {
   seo: {
     slug: 'math-worksheets',
     appId: 'math-worksheet',
-    title: 'Free Printable Math Worksheets for Kindergarten | Math Puzzle Generator',
+    title: 'Free Math Worksheets for Kindergarten | Math Puzzle Generator',
     description: 'Create picture-based math puzzles with our math worksheet generator. Free printable worksheets for kindergarten and first grade. Download PDF in 3 minutes.',
-    keywords: 'math worksheets, free printable worksheets, kindergarten worksheets, addition worksheets, first grade worksheets, printable math worksheets, worksheet for kids, free worksheet, free worksheets, free printables',
+    keywords: 'math worksheets, free printable worksheets, kindergarten worksheets, first grade worksheets, printable math worksheets, worksheet for kids, free worksheet, free worksheets, free printables, math puzzle worksheets',
   },
 
   // Hero Section - FULL text from math-worksheet.md paragraphs 1-6
@@ -35,7 +35,7 @@ Create free printable worksheets for kindergarten through third grade. Choose fr
 Generate professional math worksheets in minutes instead of hours. Select difficulty level, choose operations, pick images, and click generate. Edit everything on the canvas by dragging, rotating, or resizing elements. Add text for student names or instructions. Download as PDF or JPEG at 300 DPI professional quality.
 
 Each math worksheet includes a matching answer key. Perfect for classroom use or homework packets. These printable worksheets work great as morning work, math centers, or substitute teacher activities. Special education teachers use these visual math worksheets for differentiated instruction. Homeschool parents appreciate the flexibility to create age-appropriate puzzles.`,
-    previewImageSrc: '/samples/english/math worksheet/math worksheet portrait.jpeg',
+    previewImageSrc: '/samples/english/math/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Try Free',
       viewSamples: 'View Samples',
@@ -47,7 +47,7 @@ Each math worksheet includes a matching answer key. Perfect for classroom use or
     },
   },
 
-  // Sample Gallery - REAL file paths from samples/english/math worksheet/
+  // Sample Gallery - REAL file paths from samples/english/math/
   samples: {
     sectionTitle: 'Worksheet Samples',
     downloadLabel: 'Download Free Sample',
@@ -56,17 +56,43 @@ Each math worksheet includes a matching answer key. Perfect for classroom use or
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/math worksheet/math worksheet portrait.jpeg',
-        answerKeySrc: '/samples/english/math worksheet/math worksheet portrait answer_key.jpeg',
-        altText: 'Free printable math worksheets for kindergarten - picture-based puzzles with colorful images for kids',
-        pdfDownloadUrl: '/samples/english/math worksheet/math worksheet portrait.pdf',
+        worksheetSrc: '/samples/english/math/sample-1.jpeg',
+        answerKeySrc: '/samples/english/math/sample-1-answer.jpeg',
+        altText: 'Math worksheets free printable - kindergarten worksheets with picture-based puzzles for kids',
+        imageTitle: 'Free Math Worksheet Sample 1 - Kindergarten Picture Puzzles',
+        pdfDownloadUrl: '/samples/english/math/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/math worksheet/math worksheet landscape.jpeg',
-        answerKeySrc: '/samples/english/math worksheet/math worksheet landscape answer_key.jpeg',
-        altText: 'Math worksheets free printables landscape mode - symbol-based math puzzle generator for first grade',
-        pdfDownloadUrl: '/samples/english/math worksheet/math worksheet landscape.pdf',
+        worksheetSrc: '/samples/english/math/sample-2.jpeg',
+        answerKeySrc: '/samples/english/math/sample-2-answer.jpeg',
+        altText: 'Free printable math worksheets - symbol-based math puzzle generator for first grade worksheets',
+        imageTitle: 'Free Math Worksheet Sample 2 - First Grade Symbol Puzzles',
+        pdfDownloadUrl: '/samples/english/math/sample-2.pdf',
+      },
+      {
+        id: '3',
+        worksheetSrc: '/samples/english/math/sample-3.jpeg',
+        answerKeySrc: '/samples/english/math/sample-3-answer.jpeg',
+        altText: 'Math puzzle worksheets free printables - kindergarten worksheets with visual equation practice',
+        imageTitle: 'Free Math Worksheet Sample 3 - Visual Equation Practice',
+        pdfDownloadUrl: '/samples/english/math/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/english/math/sample-4.jpeg',
+        answerKeySrc: '/samples/english/math/sample-4-answer.jpeg',
+        altText: 'Worksheet for kids math puzzles - free worksheets with picture-to-number problems for kindergarten',
+        imageTitle: 'Free Math Worksheet Sample 4 - Picture Number Problems',
+        pdfDownloadUrl: '/samples/english/math/sample-4.pdf',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/english/math/sample-5.jpeg',
+        answerKeySrc: '/samples/english/math/sample-5-answer.jpeg',
+        altText: 'Free worksheet for kindergarten math - printable math worksheets with symbol equations for kids',
+        imageTitle: 'Free Math Worksheet Sample 5 - Symbol Equation Practice',
+        pdfDownloadUrl: '/samples/english/math/sample-5.pdf',
       },
     ],
   },

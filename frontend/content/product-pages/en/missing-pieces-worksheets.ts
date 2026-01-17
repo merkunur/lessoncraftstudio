@@ -18,6 +18,27 @@ export const missingPiecesEnContent: ProductPageContent = {
     title: 'Free Missing Pieces Worksheets | Visual Puzzle Generator for Kids',
     description: 'Create free printable missing pieces worksheets with our visual puzzle generator. Kindergarten visual discrimination activities. Download PDF in 3 minutes.',
     keywords: 'missing pieces worksheets, visual discrimination worksheets, puzzle worksheets, kindergarten worksheets, free printable worksheets, visual puzzles, spatial reasoning, first grade worksheets, free worksheets for kids, printable puzzle activities',
+    canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/missing-pieces-worksheets',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/missing-pieces/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Free printable missing pieces worksheets for kindergarten - visual discrimination puzzle with spatial reasoning practice for kids'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/missing-pieces/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Missing pieces puzzle worksheets free printable - visual learning worksheet for first grade spatial reasoning'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/missing-pieces/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Visual discrimination worksheets for kindergarten - free missing pieces puzzle activity for kids'
+      }
+    ],
   },
 
   // Hero Section - FULL text from missing-pieces.md paragraphs 1-4
@@ -49,7 +70,7 @@ Generate worksheets in 11 languages including English, Spanish, French, and Germ
 
   // Sample Gallery - REAL file paths from samples/english/missing pieces/
   samples: {
-    sectionTitle: 'Worksheet Samples',
+    sectionTitle: 'Missing Pieces Worksheets: Free Printable Samples for Kids',
     downloadLabel: 'Download Free Sample',
     worksheetLabel: 'Worksheet',
     answerKeyLabel: 'Answer Key',

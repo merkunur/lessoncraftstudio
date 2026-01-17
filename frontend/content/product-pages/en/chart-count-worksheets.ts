@@ -18,6 +18,26 @@ export const chartCountEnContent: ProductPageContent = {
     title: 'Picture Graph Worksheets Free Printable | Kindergarten Math Generator',
     description: 'Create picture graph worksheets with our math worksheet generator. Free printable counting and graphing worksheets for kindergarten. Download PDF in 3 minutes.',
     keywords: 'picture graph worksheets, graphing worksheets, counting worksheets, math worksheets, kindergarten worksheets, free printable worksheets, data worksheets, bar graph worksheets, worksheet for kids, first grade worksheets',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/chart-count/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Free printable picture graph worksheets for kindergarten - counting and graphing activity with colorful images'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/chart-count/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Picture graph worksheet with answer key for first grade math data visualization practice'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/chart-count/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Math worksheets free printable - kindergarten graphing worksheet for counting and coloring'
+      }
+    ],
   },
 
   // Hero Section - FULL text from chart-count.md opening paragraphs
@@ -106,7 +126,7 @@ Most kindergarten math worksheets require 30 to 60 minutes to create from scratc
       {
         id: '2',
         icon: '✏️',
-        title: 'Edit Free Printable Worksheets: Graphing Worksheets and Counting Worksheets',
+        title: 'Edit Picture Graph Worksheets: Free Printable Math Worksheets and Counting Worksheets',
         description: `Every element on your picture graph worksheet is fully editable on the canvas. Click any object to select it. Drag to move. Rotate using the corner handle. Scale by dragging the corner handles. Delete by pressing the Delete key or clicking the trash icon. Add custom text instructions using the Text Tools panel. Change font, size, color, and outline. Move the image grid and graph components anywhere on the page. Resize both components proportionally to fit your preferred layout.
 
 The contextual toolbar appears when you select an object. Use alignment tools to line up multiple elements perfectly. Layer controls bring objects forward or send them backward. Lock objects to prevent accidental changes. Center objects on the page horizontally or vertically with one click. All editing happens in real-time on the canvas. Your kindergarten math worksheets look exactly how you design them. First grade teachers customize worksheets for specific student needs, adding extra instructions or modifying layouts for students with visual processing differences.`,
@@ -142,7 +162,7 @@ Teacher entrepreneurs build successful worksheet businesses selling kindergarten
       {
         id: '6',
         icon: '🎨',
-        title: '3000+ Images for Worksheet for Kids: Graphing Worksheets Library',
+        title: '3000+ Math Worksheets Images for Kindergarten: Picture Graph Worksheets Library',
         description: `Access over 3,000 child-friendly images organized into dozens of themes. Browse by theme or search by keyword. Every image works perfectly in picture graph worksheets. Themes include animals, transportation, food, toys, school supplies, shapes, seasons, holidays, and many more. All images feature bright colors and clear outlines that young students easily recognize and count. The same images work beautifully as coloring worksheets because students color the graph boxes as part of the learning activity.
 
 Select a theme and the generator randomly chooses 6 images from that category. Or browse the entire library and manually select exactly 6 images that match your lesson plans. Kindergarten teachers choose themes matching science units. Create animal graphing worksheets during the farm unit. Generate transportation graphs during the community helpers unit. First grade teachers coordinate picture graph themes with reading comprehension lessons. Students graph story elements, character appearances, or vocabulary words represented visually. Every theme includes enough variety to create dozens of unique worksheets.`,
@@ -151,7 +171,7 @@ Select a theme and the generator randomly chooses 6 images from that category. O
       {
         id: '7',
         icon: '🖨️',
-        title: 'Professional 300 DPI Free Printables: Counting Worksheets Quality',
+        title: 'Professional 300 DPI Picture Graph Worksheets: First Grade Math Worksheets Quality',
         description: `Download picture graph worksheets as professional 300 DPI files in PDF or JPEG format. This resolution ensures crisp, clear printing on any home or school printer. Print on standard Letter size paper (8.5x11 inches) or A4 paper (210x297mm). Choose portrait or landscape orientation. Select the grayscale option to save printer ink while maintaining perfect clarity. The high resolution makes worksheets suitable for commercial printing if selling on print-on-demand platforms.
 
 Every worksheet download includes both the student worksheet and the answer key. The answer key shows the correct graph with boxes colored yellow up to the correct count for each image category. Teachers print answer keys for quick grading or display them on document cameras to review answers with the class. Kindergarten teachers appreciate the visual answer key because it helps explain the correct graphing technique to young students. First grade teachers use answer keys for student self-checking during math centers. The automatic answer key generation saves hours compared to manually creating solutions for every worksheet.`,
@@ -169,7 +189,7 @@ Every worksheet download includes both the student worksheet and the answer key.
       {
         id: '1',
         number: 1,
-        title: 'Choose 6 Images for Your Worksheet for Kindergarten: Free Worksheet Selection',
+        title: 'Choose 6 Images for Picture Graph Worksheets: Free Kindergarten Worksheets Selection',
         description: `Start by selecting exactly 6 images for your picture graph worksheet. You have three selection methods. The fastest method uses theme-based selection. Open the Worksheet Image Source dropdown in the Image Library section. Choose any theme from the list. The generator automatically selects 6 random images from that theme. Themes include animals, transportation, food, toys, shapes, seasons, and dozens more options. Each theme contains enough images to create hundreds of unique worksheet variations.
 
 The second method provides complete control through manual image selection. Leave the Worksheet Image Source set to Manual Selection Below. Browse images using the Image Browser Theme dropdown to filter by category. Or use the search box to find specific images by typing keywords like apple, car, or dog. Click any image in the Available Images area to add it to your selection. The selected image moves to the Selected Images preview area below. Click selected images again to remove them. The counter shows your progress toward the required 6 images. You must select exactly 6 images for the generator to work.
@@ -197,7 +217,7 @@ Choose your page color using the color picker if you want a solid color backgrou
       {
         id: '3',
         number: 3,
-        title: 'Generate Free Printable Worksheets with Our Worksheet Generator',
+        title: 'Generate Picture Graph Worksheets and Math Worksheets with Our Worksheet Generator',
         description: `Click the Create button in the header actions area. The dropdown shows two options: New Worksheet and Answer Key. Select New Worksheet. The generator processes your settings and creates your picture graph worksheet in seconds. A progress message appears briefly. The worksheet appears on the canvas showing both components: the 20-image grid on one side and the blank counting graph on the other side.
 
 The image grid displays your 6 selected images repeated randomly to create 20 total pictures. The grid uses a 4-column layout with 5 rows. A decorative dashed border surrounds the entire grid. Large, clear images make counting easy for young students. Each picture includes enough detail for students to identify and differentiate the categories.
@@ -210,7 +230,7 @@ The worksheet header appears at the top in your selected language. Portrait layo
       {
         id: '4',
         number: 4,
-        title: 'Edit First Grade Worksheets and Free Worksheets on Canvas',
+        title: 'Edit First Grade Worksheets and Kindergarten Math Worksheets on Canvas',
         description: `Customize your generated worksheet using the canvas editing tools. Click any element to select it. Blue selection handles appear around the object. Drag the object anywhere on the canvas to reposition it. Kindergarten teachers often move the graph higher or lower to accommodate different paper sizes or to make room for additional instructions.
 
 Rotate any element by clicking and dragging the rotation handle that appears when an object is selected. Rotation works well for creating slightly tilted elements that look more playful and less formal. Scale objects proportionally by dragging the corner handles. Make the image grid larger for students with visual processing challenges. Make the graph smaller to fit more content on the page.
@@ -223,7 +243,7 @@ Delete any element by selecting it and clicking the trash icon in the contextual
       {
         id: '5',
         number: 5,
-        title: 'Download Free Printables: Graphing Worksheets and Counting Worksheets',
+        title: 'Download Picture Graph Worksheets: Bar Graph Worksheets and Data Worksheets',
         description: `Download your completed worksheet by clicking the Download button in the header. The dropdown shows four main options: Worksheet (JPEG), Answer Key (JPEG), Worksheet (PDF), and Answer Key (PDF). Select Worksheet (PDF) for the highest quality printable file. PDF format preserves all fonts, colors, and layouts perfectly. Print directly from the PDF or send it to students' families for home printing.
 
 The JPEG format works better for inserting worksheets into PowerPoint presentations or Google Slides. Download Worksheet (JPEG) to embed your kindergarten math worksheet in digital lesson materials. JPEG files also upload easily to learning management systems like Google Classroom or Seesaw.
@@ -246,7 +266,7 @@ All downloads export at professional 300 DPI resolution. This high quality ensur
       {
         id: '1',
         icon: '👩‍🏫',
-        title: 'Kindergarten Teachers: Free Worksheet for Kids Makes Graphing Worksheets Easy',
+        title: 'Kindergarten Teachers: Picture Graph Worksheets Make Math Worksheets Easy',
         subtitle: 'Free Printable Math Worksheets for Counting Practice',
         description: `Kindergarten teachers need daily math activities that build counting skills and introduce data concepts. Picture graph worksheets perfectly address both learning objectives simultaneously. Students count objects in the image grid, practicing one-to-one correspondence and number recognition up to 5. Then they represent their counting data visually by coloring graph boxes. This concrete-to-representational progression matches how young children learn mathematics best.
 
@@ -274,7 +294,7 @@ Create assessment portfolios by having students complete one picture graph works
       {
         id: '3',
         icon: '🏠',
-        title: 'Homeschool Parents: Free Printable Worksheets as Worksheet for Kindergarten',
+        title: 'Homeschool Parents: Picture Graph Worksheets and First Grade Worksheets',
         subtitle: 'Free Printable Kindergarten and First Grade Graphing Activities',
         description: `Homeschool families need flexible, customizable learning materials that match their children's specific interests and learning pace. Picture graph worksheets offer exactly this flexibility. Upload photos of your child's toys, pets, or favorite objects. Create counting activities featuring personally relevant images that engage your student far more than generic worksheets do.
 
@@ -302,7 +322,7 @@ Bilingual classroom teachers generate worksheets in both program languages. Dual
       {
         id: '5',
         icon: '💜',
-        title: 'Special Education: Worksheet for Kids and Data Worksheets for All Learners',
+        title: 'Special Education: Math Worksheets and Bar Graph Worksheets for All Learners',
         subtitle: 'Accessible Kindergarten Worksheets for All Learners',
         description: `Special education teachers need highly adaptable materials that meet individual student needs. Picture graph worksheets offer extensive customization for accessibility. Upload images matching students' communication boards or augmentative communication devices. Create counting activities using the exact symbols students already use for communication. This consistency across learning contexts improves comprehension and retention.
 
@@ -316,7 +336,7 @@ Create personalized social stories using picture graphs. Upload photos from a sc
       {
         id: '6',
         icon: '💰',
-        title: 'Teacher Entrepreneurs: Sell Free Printables and Graphing Worksheets on TPT',
+        title: 'Teacher Entrepreneurs: Sell Picture Graph Worksheets and Data Worksheets on TPT',
         subtitle: 'Commercial License for Math Worksheets and Coloring Worksheets',
         description: `Teachers Pay Teachers sellers need high-quality, professional products that fill specific market gaps. Picture graph worksheets sell extremely well because teachers search constantly for ready-made graphing activities with answer keys included. Your Full Access commercial license lets you create and sell unlimited worksheet bundles without additional fees.
 

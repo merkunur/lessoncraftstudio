@@ -5680,22 +5680,50 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   // Chart Count (Picture Graph) Worksheets product page SEO
   if (params.slug === 'chart-count-worksheets' && params.locale === 'en') {
     return {
-      title: 'Free Printable Picture Graph Worksheets | Math Worksheet Generator for Kindergarten',
-      description: 'Create professional picture graph worksheets with our math worksheet generator. Generate custom printable kindergarten and first grade worksheets for counting and graphing. Download high-quality PDF worksheets with answer keys in under 3 minutes.',
-      keywords: 'picture graph worksheets, chart count worksheets, kindergarten worksheets, printable worksheets, graphing worksheets, counting worksheets, math worksheets, first grade worksheets, data worksheets, coloring worksheets',
+      title: 'Picture Graph Worksheets Free Printable | Kindergarten Math Generator',
+      description: 'Create picture graph worksheets with our math worksheet generator. Free printable counting and graphing worksheets for kindergarten. Download PDF in 3 minutes.',
+      keywords: 'picture graph worksheets, graphing worksheets, counting worksheets, math worksheets, kindergarten worksheets, free printable worksheets, data worksheets, bar graph worksheets, worksheet for kids, first grade worksheets',
       robots: {
         index: true,
         follow: true,
       },
       alternates: {
-        canonical: `https://www.lessoncraftstudio.com/en/apps/chart-count-worksheets`,
+        canonical: 'https://www.lessoncraftstudio.com/en/apps/chart-count-worksheets',
+        languages: {
+          'en': 'https://www.lessoncraftstudio.com/en/apps/chart-count-worksheets',
+          'de': 'https://www.lessoncraftstudio.com/de/apps/bilddiagramm-arbeitsblaetter',
+          'fr': 'https://www.lessoncraftstudio.com/fr/apps/graphique-images-fiches',
+          'es': 'https://www.lessoncraftstudio.com/es/apps/graficos-imagenes-fichas',
+          'pt': 'https://www.lessoncraftstudio.com/pt/apps/grafico-imagens-atividades',
+          'it': 'https://www.lessoncraftstudio.com/it/apps/grafici-immagini-schede',
+          'nl': 'https://www.lessoncraftstudio.com/nl/apps/plaatjesgrafiek-werkbladen',
+          'sv': 'https://www.lessoncraftstudio.com/sv/apps/bilddiagram-arbetsblad',
+          'da': 'https://www.lessoncraftstudio.com/da/apps/billeddiagram-arbejdsark',
+          'no': 'https://www.lessoncraftstudio.com/no/apps/bildediagram-arbeidsark',
+          'fi': 'https://www.lessoncraftstudio.com/fi/apps/kuvakaavio-tyoarkit',
+        },
       },
       openGraph: {
-        title: 'Free Printable Picture Graph Worksheets | LessonCraftStudio',
-        description: 'Create professional picture graph worksheets with our math worksheet generator. Perfect for kindergarten and first grade students learning counting and graphing.',
+        title: 'Picture Graph Worksheets Free Printable | LessonCraftStudio',
+        description: 'Create picture graph worksheets with our math worksheet generator. Free printable counting and graphing worksheets for kindergarten and first grade.',
         url: 'https://www.lessoncraftstudio.com/en/apps/chart-count-worksheets',
         siteName: 'LessonCraftStudio',
         type: 'website',
+        locale: 'en_US',
+        images: [
+          {
+            url: 'https://www.lessoncraftstudio.com/samples/english/chart-count/sample-1.jpeg',
+            width: 2480,
+            height: 3508,
+            alt: 'Free printable picture graph worksheets for kindergarten math',
+          }
+        ],
+      },
+      twitter: {
+        card: 'summary_large_image',
+        title: 'Picture Graph Worksheets Free Printable | LessonCraftStudio',
+        description: 'Create picture graph worksheets with our math worksheet generator. Free printable counting and graphing worksheets for kindergarten.',
+        images: ['https://www.lessoncraftstudio.com/samples/english/chart-count/sample-1.jpeg'],
       },
     };
   }

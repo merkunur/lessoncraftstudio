@@ -18,6 +18,39 @@ export const alphabetTrainEnContent: ProductPageContent = {
     title: 'Free Alphabet Train Worksheets for Kindergarten | ABC Worksheet Generator',
     description: 'Create free printable alphabet worksheets for kids. Professional ABC worksheet generator for kindergarten. Download letter recognition worksheets in 3 minutes.',
     keywords: 'free worksheet, free worksheets, free printables, worksheet for kids, worksheet for kindergarten, ABC worksheets, alphabet worksheets, kindergarten worksheets, phonics worksheets, tracing worksheets, coloring worksheets, first grade worksheets',
+    canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/alphabet-train-worksheets',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/alphabet-train/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Free printable alphabet train worksheets for kindergarten - ABC letter matching cut and paste activity'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/alphabet-train/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'ABC worksheets free printable - alphabet train letter recognition worksheet for first grade'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/alphabet-train/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Phonics worksheets for kindergarten - alphabet train matching letters to pictures activity'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/alphabet-train/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Free worksheets for kids - alphabet train tracing and letter recognition practice'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/alphabet-train/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Alphabet worksheets for kindergarten - letter-sound matching train activity worksheet'
+      }
+    ],
   },
 
   // Hero Section - FULL text from alphabet-train.md paragraphs 1-3
@@ -74,7 +107,7 @@ The Alphabet Train worksheet maker transforms alphabet learning into an exciting
         id: '4',
         worksheetSrc: '/samples/english/alphabet-train/sample-4.jpeg',
         answerKeySrc: '/samples/english/alphabet-train/sample-4-answer.jpeg',
-        altText: 'Free worksheets for kids - tracing and coloring alphabet train letters worksheet for preschool',
+        altText: 'Tracing worksheets free printable - alphabet train letters coloring worksheet for kindergarten kids',
         imageTitle: 'Tracing Worksheets - Alphabet Train Coloring Activity',
         pdfDownloadUrl: '/samples/english/alphabet-train/sample-4.pdf',
       },
@@ -97,7 +130,7 @@ The Alphabet Train worksheet maker transforms alphabet learning into an exciting
       {
         id: '1',
         icon: '⚡',
-        title: 'Free Worksheet Generator: Create ABC Worksheets in 3 Clicks',
+        title: 'Alphabet Worksheets Generator: Create Free ABC Worksheets in 3 Clicks',
         description: `Creating alphabet train worksheets takes just three simple steps. First, select your letters from the alphabet grid. Second, click images to assign them to each letter. Third, hit the generate button. Your complete worksheet appears instantly on screen. The entire process takes under three minutes from start to finish.
 
 The auto-create mode makes it even faster. Check one box and select a theme. The generator picks 11 random letters and matching images automatically. Perfect for when you need quick kindergarten worksheets without fuss. Both manual and auto modes produce identical professional results.`,
@@ -106,7 +139,7 @@ The auto-create mode makes it even faster. Check one box and select a theme. The
       {
         id: '2',
         icon: '✏️',
-        title: 'Free Worksheet for Kids: Full Canvas Editing for ABC Customization',
+        title: 'ABC Worksheets for Kids: Full Canvas Editing and Letter Recognition Customization',
         description: `Every element on your worksheet is fully editable. Drag images to new positions anywhere on the page. Rotate objects to any angle you prefer. Scale elements larger or smaller with simple controls. Delete anything you do not want with one click.
 
 The contextual toolbar appears when you select objects. Access layer controls to arrange overlapping items. Use alignment tools to line up elements perfectly. Lock objects in place to prevent accidental moves. The undo and redo buttons let you experiment freely without worry.`,
@@ -115,7 +148,7 @@ The contextual toolbar appears when you select objects. Access layer controls to
       {
         id: '3',
         icon: '📤',
-        title: 'Worksheet for Kindergarten: Upload Custom Images for Alphabet Practice',
+        title: 'Kindergarten Worksheets: Upload Custom Images for Alphabet and Phonics Practice',
         description: `Make worksheets uniquely yours by uploading custom images. Add photos of classroom items students recognize. Include pictures of student names for personalized practice. Upload images of sight words vocabulary for reading connections. Any JPEG, PNG, or GIF file works perfectly.
 
 The upload process handles multiple files at once. Your images appear in a preview panel immediately. Click any uploaded image to assign it to a letter. Mix library images with your uploads on the same worksheet. Custom images export at the same professional quality as library content.`,
@@ -124,7 +157,7 @@ The upload process handles multiple files at once. Your images appear in a previ
       {
         id: '4',
         icon: '🌍',
-        title: 'Free Printables in 11 Languages for ESL ABC Worksheets',
+        title: 'Free Printable Worksheets in 11 Languages: Phonics and ABC Worksheets for ESL',
         description: `Language support sets our generator apart from competitors. Create alphabet worksheets in English, German, French, Spanish, Portuguese, Italian, Dutch, Swedish, Danish, Norwegian, and Finnish. Each language displays its complete alphabet with special characters. German shows umlauts in proper positions. Spanish includes the letter N with tilde after N. Scandinavian languages show their unique ending letters.
 
 The image library translates automatically with language selection. An apple image shows "apple" in English but "Apfel" in German. This means letter-image matching works correctly in every language. ESL teachers create bilingual worksheets by switching between languages.`,
@@ -133,7 +166,7 @@ The image library translates automatically with language selection. An apple ima
       {
         id: '5',
         icon: '💰',
-        title: 'Free Worksheets with Commercial License: Sell Your ABC Creations',
+        title: 'First Grade Worksheets with Commercial License: Sell ABC and Tracing Worksheets',
         description: `Your Core Bundle subscription includes full commercial licensing. Sell the worksheets you create on Teachers Pay Teachers. List alphabet train printables in your Etsy shop. Include them in Amazon KDP activity books. No extra licensing fees apply beyond your subscription.
 
 The 300 DPI export quality meets commercial printing standards. Your worksheets look professional whether printed at home or by a commercial printer. The POD license covers unlimited commercial use. Build a passive income stream selling educational materials you create.`,
@@ -142,7 +175,7 @@ The 300 DPI export quality meets commercial printing standards. Your worksheets 
       {
         id: '6',
         icon: '🎨',
-        title: 'Worksheet for Kids: Access 3000+ Images for ABC Creation',
+        title: 'Letter Recognition Worksheets: Access 3000+ Images for ABC and Tracing Creation',
         description: `The image library contains over 3000 child-friendly illustrations. Every image is organized into easy-to-browse themes. Find animals, food, vehicles, nature, and dozens more categories. The search function locates specific images instantly. Type "elephant" and matching images appear immediately.
 
 Each image was designed for educational worksheets. Clean outlines work great for coloring worksheets activities. Simple shapes help young learners identify objects quickly. Consistent art style creates cohesive looking materials. New images are added regularly to expand your options.`,
@@ -151,7 +184,7 @@ Each image was designed for educational worksheets. Clean outlines work great fo
       {
         id: '7',
         icon: '🖨️',
-        title: 'Free Printable Worksheets with Professional 300 DPI Quality',
+        title: 'Coloring Worksheets and Alphabet Worksheets: Free Printable 300 DPI Quality',
         description: `Export quality makes or breaks educational materials. Our generator produces 300 DPI resolution files. This matches professional publishing standards exactly. Text stays crisp and readable at any print size. Images remain sharp without pixelation or blur.
 
 Download worksheets as JPEG or PDF files. The PDF format preserves perfect quality across all devices. JPEG works great for quick digital sharing. The grayscale toggle converts colors to black and white. This option saves significant ink when printing classroom sets of free printable worksheets.`,
@@ -169,7 +202,7 @@ Download worksheets as JPEG or PDF files. The PDF format preserves perfect quali
       {
         id: '1',
         number: 1,
-        title: 'Free Worksheet Step 1: Select Letters and Images for ABC Practice',
+        title: 'ABC Worksheets Step 1: Select Letters for Alphabet and Phonics Practice',
         description: `Start by choosing which letters your students will practice. The alphabet grid shows all available letters for your selected language. Click any letter to select it for your worksheet. You must choose exactly 11 letters to fill all train wagons. The counter shows how many letters you have selected.
 
 Next, browse the image library to find pictures for each letter. Select a theme from the dropdown menu to narrow your choices. Animals, food, and everyday objects are popular options. Click the search box and type specific words to find exact images. When you click an image, it automatically assigns to the matching letter.
@@ -180,7 +213,7 @@ Watch the assigned images panel to track your progress. Each letter shows its pa
       {
         id: '2',
         number: 2,
-        title: 'Worksheet for Kindergarten: Configure Your Free Printable Settings',
+        title: 'Kindergarten Worksheets: Configure Free Printable and Letter Recognition Settings',
         description: `Adjust settings to match your classroom needs perfectly. The clue count slider controls worksheet difficulty. Set it to 3 for a challenging puzzle with few hints. Raise it to 11 to show all letters as an easier activity. Most teachers start around 5-7 clues for kindergarten students.
 
 Choose your paper size from standard options. Letter size works for US classrooms. A4 fits European standards. Landscape orientation gives more horizontal space. The square format creates unique social media ready content. Custom dimensions let you specify exact pixel measurements.
@@ -191,7 +224,7 @@ Check the name and date box to add student fields. These lines appear at the top
       {
         id: '3',
         number: 3,
-        title: 'Free Worksheets Customization: Add Backgrounds and Borders',
+        title: 'Tracing Worksheets Customization: Add Backgrounds to ABC Worksheets',
         description: `Backgrounds and borders transform plain worksheets into engaging materials. Open the page setup accordion section. Select a background theme from the dropdown menu. Thumbnails appear showing available options in that theme. Click any thumbnail to apply it to your worksheet.
 
 Adjust the opacity slider to control background intensity. Lower opacity keeps backgrounds subtle behind the train. Higher opacity creates bolder visual impact. Find the balance that keeps content readable while adding visual interest.
@@ -202,7 +235,7 @@ Border themes work the same way. Pick a theme and click a border design. Decorat
       {
         id: '4',
         number: 4,
-        title: 'Free Worksheet for Kids: Generate and Edit on Canvas',
+        title: 'Letter Recognition Worksheets: Generate Cut and Paste Activities for Kids',
         description: `Click the generate button to create your worksheet. The train appears on the canvas within seconds. Each wagon displays your selected letter and image. Hidden letters show as empty spaces on the main worksheet. Cut-out blocks appear at the bottom for the matching activity.
 
 Now customize your creation with full canvas editing. Click any element to select it. Drag objects to reposition them anywhere on the page. Use corner handles to resize images larger or smaller. Rotation handles let you angle elements for visual variety.
@@ -213,7 +246,7 @@ Add text elements for titles and instructions. Type your worksheet name in the t
       {
         id: '5',
         number: 5,
-        title: 'Free Printables Download: Get Your Worksheet as PDF',
+        title: 'Free Printable Worksheets Download: Get Alphabet and First Grade Worksheets as PDF',
         description: `Generate the answer key before downloading. Click the answer key button in the generate menu. This creates a second page showing all letters filled in. Switch between tabs to view each version. Make final edits to either canvas as needed.
 
 Open the download dropdown to see all options. Choose worksheet JPEG or PDF for the main activity page. Select answer key JPEG or PDF for the solution page. PDF format preserves perfect quality for printing. JPEG works great for digital distribution and email attachments.
@@ -233,7 +266,7 @@ Enable the grayscale checkbox before downloading to save ink. This converts all 
         id: '1',
         icon: '👩‍🏫',
         title: 'Kindergarten Teachers',
-        subtitle: 'Free Worksheet for Kids: ABC Letter Recognition Activities',
+        subtitle: 'Alphabet Worksheets for Kids: ABC Letter Recognition and Phonics Activities',
         description: `Kindergarten classrooms need constant supplies of alphabet practice materials. The Alphabet Train fits perfectly into letter-of-the-week curriculum plans. Create worksheets featuring your focus letter plus review letters. Students recognize the train theme and get excited to work.
 
 The adjustable clue count supports kindergarten differentiation needs. Beginning learners get more clues to build confidence. Advanced students tackle fewer clues for a challenge. The cut-and-paste format builds fine motor skills alongside letter knowledge. Teachers save hours compared to creating materials by hand.
@@ -245,7 +278,7 @@ Morning work folders stay fresh with new alphabet worksheets each week. Center r
         id: '2',
         icon: '📚',
         title: 'First Grade and Elementary Teachers',
-        subtitle: 'Free Worksheets and Sight Words Practice for Reading',
+        subtitle: 'First Grade Worksheets: Sight Words and Letter Tracing Practice for Reading',
         description: `First grade teachers extend alphabet learning into reading foundations. The Alphabet Train reinforces letter-sound connections students need for decoding. Pair train worksheets with sight words worksheets for comprehensive literacy practice. Beginning readers strengthen skills while having fun with the train theme.
 
 Second and third grade teachers use the generator for struggling readers. Quick review activities reinforce foundational skills without stigma. The engaging train format feels like a game rather than remediation. Students catch up on letter knowledge while classmates work on other tasks.
@@ -257,7 +290,7 @@ Substitute teacher folders benefit from ready-to-use alphabet worksheets. Emerge
         id: '3',
         icon: '🏠',
         title: 'Homeschool Parents',
-        subtitle: 'Free Worksheet for Kindergarten: Tracing and ABC Practice at Home',
+        subtitle: 'Kindergarten Worksheets: Tracing Worksheets and Alphabet Practice at Home',
         description: `Homeschool families appreciate the flexibility of on-demand worksheet creation. Parents create alphabet worksheets matched to their teaching schedule. No waiting for curriculum shipments or searching through workbooks. Generate exactly what your child needs right when you need it.
 
 Multi-age homeschools benefit from adjustable difficulty settings. Younger children get more clues while older siblings tackle harder versions. The same train theme works across age groups for family learning time. Parents save money compared to buying separate curriculum for each child.
@@ -269,7 +302,7 @@ The 11 language options open doors for homeschool foreign language study. Create
         id: '4',
         icon: '🌍',
         title: 'ESL Teachers',
-        subtitle: 'Free Printables: Alphabet and Phonics Worksheets in 11 Languages',
+        subtitle: 'Free Printable Worksheets: Phonics and Letter Recognition in 11 Languages',
         description: `English language learners face unique alphabet challenges. Many arrive knowing different writing systems entirely. The Alphabet Train provides visual scaffolding for English letter learning. Picture clues help students connect sounds to letters without relying on English reading ability.
 
 The multilingual support transforms ESL instruction possibilities. Create worksheets in a student's home language first. Build confidence with familiar letters before introducing English. Bilingual worksheets show connections between language systems. Students see that alphabet knowledge transfers across languages.
@@ -281,7 +314,7 @@ Adult ESL programs use the train worksheets for low-literacy learners. The clear
         id: '5',
         icon: '💜',
         title: 'Special Education Teachers',
-        subtitle: 'Worksheet for Kids: Tracing and Coloring for Differentiation',
+        subtitle: 'Tracing Worksheets for Kids: Coloring and Letter Recognition Differentiation',
         description: `Special education classrooms require highly individualized materials. The Alphabet Train generator creates targeted practice for IEP goals. Focus on specific letters a student needs to master. Adjust difficulty precisely to match current ability levels.
 
 The cut-and-paste format supports multiple learning modalities. Visual learners benefit from picture-letter associations. Kinesthetic learners engage through the hands-on cutting and gluing. The structured activity provides predictable routines that many students need.
@@ -293,7 +326,7 @@ Students with fine motor challenges practice scissor skills naturally. The grays
         id: '6',
         icon: '💰',
         title: 'Teacher Entrepreneurs',
-        subtitle: 'Free Worksheets to Sell: Professional Quality ABC Products',
+        subtitle: 'ABC Worksheets to Sell: Alphabet and Kindergarten Worksheets for TPT',
         description: `Teachers Pay Teachers sellers need professional-quality resources to compete. The Alphabet Train generator produces commercial-grade worksheets instantly. Your Core Bundle subscription includes full POD licensing rights. Sell unlimited train worksheets in your online store.
 
 The 300 DPI export quality meets marketplace standards. Buyers receive crisp, professional printables they feel good purchasing. Create themed bundles for seasonal sales opportunities. Back-to-school alphabet packs sell especially well each August.
@@ -348,7 +381,7 @@ Etsy printable shops thrive with educational worksheet products. Parents search 
       },
       {
         id: '8',
-        question: 'What Age Groups Work Best with Free Worksheets for Kids?',
+        question: 'What Age Groups Work Best with Alphabet Worksheets and Cut and Paste Worksheets?',
         answer: 'The Alphabet Train works perfectly for ages 4 through 8. Preschoolers enjoy the train theme while learning letters. Kindergarteners practice letter recognition and beginning sounds. First graders reinforce foundational skills through engaging activities. Second and third graders benefit from review activities. ESL students of any age use alphabet trains for English letter learning. Special education students enjoy the structured, predictable format. The adjustable difficulty makes worksheets appropriate across ability levels.',
       },
       {
@@ -358,7 +391,7 @@ Etsy printable shops thrive with educational worksheet products. Parents search 
       },
       {
         id: '10',
-        question: 'How Long Does It Take to Create Free Worksheets with This Tool?',
+        question: 'How Long Does It Take to Create Tracing Worksheets and Alphabet Worksheets?',
         answer: 'Most worksheets take under 3 minutes from start to finish. The auto-create mode generates complete worksheets in seconds. Manual letter and image selection takes slightly longer but offers more control. Experienced users create worksheets even faster. After learning the interface, generation becomes almost instant. Batch creation of themed sets takes just minutes. You save hours compared to traditional worksheet creation methods.',
       },
       {
@@ -368,7 +401,7 @@ Etsy printable shops thrive with educational worksheet products. Parents search 
       },
       {
         id: '12',
-        question: 'Can I Create Themed Free Printables with Alphabet Trains?',
+        question: 'Can I Create Themed Coloring Worksheets and Cut and Paste Alphabet Trains?',
         answer: 'Absolutely. The image library organizes content by themes. Animals, food, vehicles, nature, and seasons are popular options. Holiday themes create timely seasonal materials. School subject themes connect to curriculum units. The grayscale download option turns any worksheet into coloring worksheets. Students complete the letter matching activity first. Then they add colors to the train images as a bonus activity. One worksheet serves multiple educational purposes efficiently.',
       },
       {
@@ -378,7 +411,7 @@ Etsy printable shops thrive with educational worksheet products. Parents search 
       },
       {
         id: '14',
-        question: 'What Makes This Worksheet for Kindergarten Different from Others?',
+        question: 'What Makes These Kindergarten Worksheets and Letter Tracing Worksheets Different?',
         answer: 'Our alphabet train worksheets combine letter recognition with hands-on cut-and-paste activities. The train theme engages young learners while building fine motor skills. Unlike static worksheets, you create custom free printables matched to your curriculum. Professional 300 DPI quality ensures crisp printing every time.',
       },
       {
@@ -388,7 +421,7 @@ Etsy printable shops thrive with educational worksheet products. Parents search 
       },
       {
         id: '16',
-        question: 'Can Teachers Share Free Worksheets with Other Educators?',
+        question: 'Can Teachers Share Sight Words Worksheets and Phonics Worksheets with Educators?',
         answer: 'Your subscription allows sharing printed worksheets within your school. Other teachers can use copies you provide for their classrooms. For digital sharing, each educator needs their own subscription. The free worksheet samples above can be shared freely with anyone.',
       },
       {

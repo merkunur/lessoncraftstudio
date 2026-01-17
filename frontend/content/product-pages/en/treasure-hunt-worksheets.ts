@@ -11,6 +11,30 @@ import { ProductPageContent } from '@/components/product-page/ProductPageClient'
  */
 
 export const treasureHuntEnContent: ProductPageContent = {
+  // SEO metadata for Google Image Thumbnails and rich results
+  seo: {
+    slug: 'treasure-hunt-worksheets',
+    appId: 'treasure-hunt',
+    title: 'Free Treasure Hunt Worksheets | Following Directions Worksheet Generator',
+    description: 'Create professional treasure hunt worksheets for kindergarten. Free printable following directions worksheets with answer keys. Download PDF in 3 minutes.',
+    keywords: 'treasure hunt worksheets, following directions worksheets, kindergarten worksheets, free printable worksheets, directional vocabulary worksheets, first grade worksheets, free worksheets, worksheet for kids, spatial awareness, navigation worksheets',
+    canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/treasure-hunt-worksheets',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/treasure hunt/up down.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Free treasure hunt worksheets for kindergarten - up down left right directions practice'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/treasure hunt/north south.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Following directions worksheets free printable - cardinal directions for first grade'
+      }
+    ]
+  },
+
   // Hero Section - FULL text from treasure-hunt.md paragraphs 1-4
   hero: {
     title: 'Free Printable Following Directions Worksheets',
@@ -43,14 +67,14 @@ This treasure hunt generator creates unique worksheets every time you click gene
         id: '1',
         worksheetSrc: '/samples/english/treasure hunt/up down.jpeg',
         answerKeySrc: '/samples/english/treasure hunt/up down answer_key.jpeg',
-        altText: 'Treasure hunt worksheet with up down left right directions for kindergarten',
+        altText: 'Free treasure hunt worksheets for kindergarten - up down left right directions practice printable',
         pdfDownloadUrl: '/samples/english/treasure hunt/up down.pdf',
       },
       {
         id: '2',
         worksheetSrc: '/samples/english/treasure hunt/north south.jpeg',
         answerKeySrc: '/samples/english/treasure hunt/north south answer_key.jpeg',
-        altText: 'Treasure hunt worksheet with cardinal directions north south east west for first grade',
+        altText: 'Following directions worksheets free printable - cardinal directions north south east west for kids',
         pdfDownloadUrl: '/samples/english/treasure hunt/north south.pdf',
       },
     ],

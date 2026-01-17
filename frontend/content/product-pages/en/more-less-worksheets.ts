@@ -29,7 +29,7 @@ export const moreLessEnContent: ProductPageContent = {
 Our comparison worksheet generator helps teachers create engaging math worksheets where students compare quantities and choose the correct symbol. Generate worksheets with greater than, less than, and equal to symbols using colorful images or traditional mathematical symbols. Perfect for kindergarten worksheets and first grade worksheets focused on early math skills.
 
 The worksheet maker offers flexible comparison modes including image-to-image comparisons and image-to-number comparisons. Teachers can customize every aspect including the number of exercises, symbol display style, and whether students fill in blanks or circle the correct answer. Create free printable worksheets that make learning math comparison fun and visual for young learners.`,
-    previewImageSrc: '/samples/english/more less/image to image.jpeg',
+    previewImageSrc: '/samples/english/more-less/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Try Free',
       viewSamples: 'View Samples',
@@ -41,7 +41,7 @@ The worksheet maker offers flexible comparison modes including image-to-image co
     },
   },
 
-  // Sample Gallery - REAL file paths from samples/english/more less/
+  // Sample Gallery - REAL file paths from samples/english/more-less/
   samples: {
     sectionTitle: 'Worksheet Samples',
     downloadLabel: 'Download Free Sample',
@@ -50,24 +50,38 @@ The worksheet maker offers flexible comparison modes including image-to-image co
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/more less/image to image.jpeg',
-        answerKeySrc: '/samples/english/more less/image to image answer_key.jpeg',
-        altText: 'Free printable comparison worksheets for kindergarten - greater than less than symbols worksheet for kids with colorful images',
-        pdfDownloadUrl: '/samples/english/more less/image to image.pdf',
+        worksheetSrc: '/samples/english/more-less/sample-1.jpeg',
+        answerKeySrc: '/samples/english/more-less/sample-1-answer.jpeg',
+        altText: 'Free printable comparison worksheets for kindergarten - greater than less than math worksheet for kids with colorful counting images',
+        pdfDownloadUrl: '/samples/english/more-less/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/more less/image to number.jpeg',
-        answerKeySrc: '/samples/english/more less/image to number answer_key.jpeg',
-        altText: 'Greater than less than worksheets for first grade - free printable number comparison math worksheet for kids with counting practice',
-        pdfDownloadUrl: '/samples/english/more less/image to number.pdf',
+        worksheetSrc: '/samples/english/more-less/sample-2.jpeg',
+        answerKeySrc: '/samples/english/more-less/sample-2-answer.jpeg',
+        altText: 'Greater than less than worksheets for first grade - free printable number comparison worksheet generator for kids learning math',
+        pdfDownloadUrl: '/samples/english/more-less/sample-2.pdf',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/more less/illustration.jpeg',
-        answerKeySrc: '/samples/english/more less/illustration answer_key.jpeg',
-        altText: 'Free comparison worksheet for kindergarten - illustrated more or less worksheets printable math worksheet for kids',
-        pdfDownloadUrl: '/samples/english/more less/illustration.pdf',
+        worksheetSrc: '/samples/english/more-less/sample-3.jpeg',
+        answerKeySrc: '/samples/english/more-less/sample-3-answer.jpeg',
+        altText: 'More or less worksheets free printables - counting worksheets for kindergarten with visual math comparison activities',
+        pdfDownloadUrl: '/samples/english/more-less/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/english/more-less/sample-4.jpeg',
+        answerKeySrc: '/samples/english/more-less/sample-4-answer.jpeg',
+        altText: 'Free worksheet for kindergarten number comparison - printable worksheets for kids learning greater than less than symbols',
+        pdfDownloadUrl: '/samples/english/more-less/sample-4.pdf',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/english/more-less/sample-5.jpeg',
+        answerKeySrc: '/samples/english/more-less/sample-5-answer.jpeg',
+        altText: 'Counting worksheets and comparison math worksheets - free worksheet for kids with number comparison practice for first grade',
+        pdfDownloadUrl: '/samples/english/more-less/sample-5.pdf',
       },
     ],
   },

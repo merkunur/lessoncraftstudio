@@ -15,8 +15,8 @@ export const drawAndColorEnContent: ProductPageContent = {
   seo: {
     appId: 'draw-and-color',
     slug: 'draw-and-color-worksheets',
-    title: 'Free Printable Coloring Worksheets | Grid Drawing Worksheet Generator - LessonCraftStudio',
-    description: 'Create professional grid drawing coloring worksheets for kindergarten and first grade. Free printable worksheets with 3000+ images. Download PDF worksheets in 3 minutes.',
+    title: 'Free Coloring Worksheets | Grid Drawing Worksheet Generator - LessonCraftStudio',
+    description: 'Create professional grid drawing coloring worksheets for kindergarten and first grade. Free printable worksheets with 3000+ images. Download PDF in 3 minutes.',
     keywords: 'coloring worksheets, grid drawing worksheets, free printable worksheets, kindergarten worksheets, first grade worksheets, free worksheets for kids, worksheet generator, printable coloring pages, visual-spatial worksheets, fine motor skills worksheets',
     canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/draw-and-color-worksheets',
   },
@@ -34,7 +34,7 @@ Our grid drawing generator creates free printable worksheets with adjustable dif
 Grid drawing teaches essential kindergarten and first grade skills. Students practice counting grid cells and identifying positions. They develop hand-eye coordination through precise coloring. Visual-spatial reasoning improves as children analyze patterns. These coloring worksheets work perfectly for morning work activities. Use them as quiet time tasks or early finisher challenges. Teachers love grid drawing for differentiated instruction across multiple ability levels.
 
 Every worksheet downloads as a professional 300 DPI PDF file. Print at home on standard letter or A4 paper. The high-resolution format works perfectly for classroom printing or commercial selling. Teachers create worksheets in under 3 minutes from start to download. Parents generate custom activities featuring their child's favorite subjects. Full Access subscribers can sell these coloring worksheets on Teachers Pay Teachers and Etsy. The commercial license comes included with your subscription at no extra cost.`,
-    previewImageSrc: '/samples/english/draw and color/grid-drawing_worksheet.jpeg',
+    previewImageSrc: '/samples/english/draw-and-color/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Try Free',
       viewSamples: 'View Samples',
@@ -46,7 +46,7 @@ Every worksheet downloads as a professional 300 DPI PDF file. Print at home on s
     },
   },
 
-  // Sample Gallery - REAL file paths from samples/english/draw and color/
+  // Sample Gallery - REAL file paths from samples/english/draw-and-color/
   samples: {
     sectionTitle: 'Grid Drawing Coloring Worksheet Samples',
     downloadLabel: 'Download Free Sample',
@@ -55,59 +55,52 @@ Every worksheet downloads as a professional 300 DPI PDF file. Print at home on s
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/draw and color/grid-drawing_worksheet.jpeg',
+        worksheetSrc: '/samples/english/draw-and-color/sample-1.jpeg',
         answerKeySrc: '',
-        altText: 'Free printable coloring worksheets - grid drawing worksheet for kindergarten visual-spatial skills and fine motor practice',
-        pdfDownloadUrl: '/samples/english/draw and color/grid-drawing-worksheet.pdf',
+        altText: 'Grid drawing worksheet generator free printable - coloring worksheets for kindergarten visual-spatial skills and fine motor development',
+        pdfDownloadUrl: '/samples/english/draw-and-color/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/draw and color/grid-drawing_worksheet (1).jpeg',
+        worksheetSrc: '/samples/english/draw-and-color/sample-2.jpeg',
         answerKeySrc: '',
-        altText: 'Coloring worksheets free printables - grid drawing worksheet for kids with adjustable difficulty for first grade',
-        pdfDownloadUrl: '/samples/english/draw and color/grid-drawing-worksheet (1).pdf',
+        altText: 'Printable coloring pages for kids - grid drawing coloring worksheets for first grade fine motor skills practice',
+        pdfDownloadUrl: '/samples/english/draw-and-color/sample-2.pdf',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/draw and color/grid-drawing_worksheet (2).jpeg',
+        worksheetSrc: '/samples/english/draw-and-color/sample-3.jpeg',
         answerKeySrc: '',
-        altText: 'Free worksheet for kids - grid coloring activity worksheet for kindergarten fine motor development',
-        pdfDownloadUrl: '/samples/english/draw and color/grid-drawing-worksheet (2).pdf',
+        altText: 'Free printable coloring worksheets - visual-spatial worksheets for kindergarten grid drawing and pattern recognition',
+        pdfDownloadUrl: '/samples/english/draw-and-color/sample-3.pdf',
       },
       {
         id: '4',
-        worksheetSrc: '/samples/english/draw and color/grid-drawing_worksheet (3).jpeg',
+        worksheetSrc: '/samples/english/draw-and-color/sample-4.jpeg',
         answerKeySrc: '',
-        altText: 'Worksheet for kindergarten - visual-spatial grid drawing coloring worksheets for early childhood education',
-        pdfDownloadUrl: '/samples/english/draw and color/grid-drawing-worksheet (3).pdf',
+        altText: 'Worksheet generator coloring pages - fine motor skills worksheets for kindergarten and first grade students',
+        pdfDownloadUrl: '/samples/english/draw-and-color/sample-4.pdf',
       },
       {
         id: '5',
-        worksheetSrc: '/samples/english/draw and color/grid-drawing_worksheet (4).jpeg',
+        worksheetSrc: '/samples/english/draw-and-color/sample-5.jpeg',
         answerKeySrc: '',
-        altText: 'Free worksheets for kids - pattern copying grid coloring worksheet for kindergarten coordinate practice',
-        pdfDownloadUrl: '/samples/english/draw and color/grid-drawing-worksheet (4).pdf',
-      },
-      {
-        id: '6',
-        worksheetSrc: '/samples/english/draw and color/grid-drawing_worksheet (5).jpeg',
-        answerKeySrc: '',
-        altText: 'Coloring worksheets free printable - symmetry grid drawing worksheet for first grade math integration',
-        pdfDownloadUrl: '/samples/english/draw and color/grid-drawing-worksheet (5).pdf',
+        altText: 'Grid drawing free printables - printable coloring pages for kids with visual-spatial skills development',
+        pdfDownloadUrl: '/samples/english/draw-and-color/sample-5.pdf',
       },
     ],
   },
 
   // Features Grid - FULL text from draw-and-color.md feature sections
   features: {
-    sectionTitle: 'Grid Drawing Coloring Worksheet Features - Free Worksheets for Kids and Worksheet for Kindergarten',
+    sectionTitle: 'Grid Drawing Worksheet Generator Features - Free Printable Coloring Worksheets for Kids',
     sectionDescription: 'Our grid drawing generator includes professional features for creating free printable coloring worksheets. Teachers get complete control over difficulty levels and visual design. Create kindergarten worksheets with simple grids and many clues. Generate first grade worksheets with complex patterns and fewer hints. Every feature works together to produce engaging coloring worksheets that students love. Full Access subscription gives you unlimited worksheet creation for all 33 generators at $240 per year.',
     highlightBadgeText: 'Key Feature',
     items: [
       {
         id: '1',
         icon: '⚡',
-        title: 'Create Free Worksheet for Kids in 3 Clicks - Worksheet for Kindergarten Coloring Generator',
+        title: 'Grid Drawing Worksheet Generator - Create Printable Coloring Pages in 3 Clicks',
         description: `Generate professional grid drawing coloring worksheets in under 3 minutes. Select an image from 3000+ options or upload your own photo. Choose grid size from 3×3 for easy kindergarten worksheets to 10×10 for challenging first grade worksheets. Set clue cell percentage to control difficulty. Click create and your coloring worksheet appears instantly on the canvas. No design skills needed for free printable worksheets that look professionally made.
 
 The simple interface works perfectly for busy teachers creating kindergarten worksheets quickly. Parents generate custom coloring worksheets featuring their child's interests. Select grid dimensions that match student ability levels. Smaller grids with more clues work best for younger children. Larger grids with fewer clues challenge advanced learners. Every click produces high-quality free printable worksheets ready for classroom use.`,
@@ -116,7 +109,7 @@ The simple interface works perfectly for busy teachers creating kindergarten wor
       {
         id: '2',
         icon: '✏️',
-        title: 'Edit Everything on Your Coloring Worksheets - Full Customization for Kindergarten and First Grade Worksheets',
+        title: 'Edit Your Free Printable Coloring Worksheets - Visual-Spatial Worksheets Customization',
         description: `Full canvas editing gives you complete control over coloring worksheet design. Drag the grids to reposition them anywhere on the page. Rotate elements to create interesting layouts. Resize grids to fit multiple activities per sheet. Add text boxes with instructions or student name fields. Change colors to match classroom themes or seasonal decorations. Delete elements you don't need for cleaner kindergarten worksheets.
 
 Click any element on the canvas to select and modify it. Corner handles let you resize proportionally. Rotation controls create dynamic free printable worksheets with visual interest. Layer management brings important elements forward or sends backgrounds behind. Undo and redo buttons fix mistakes instantly. Lock elements to prevent accidental changes. This complete editability makes every coloring worksheet perfectly customized for first grade worksheets and kindergarten worksheets alike.`,
@@ -125,7 +118,7 @@ Click any element on the canvas to select and modify it. Corner handles let you 
       {
         id: '3',
         icon: '📤',
-        title: 'Upload Custom Images - Free Printables for Personalized Worksheet for Kids and Kindergarten',
+        title: 'Upload Images for Printable Coloring Pages - Fine Motor Skills Worksheets',
         description: `Upload your own images to create truly personalized free printable coloring worksheets. Use student artwork for unique kindergarten worksheets. Add classroom mascots or school logos. Include photos of field trip locations or science experiments. The multi-file upload accepts all common formats including JPEG, PNG, and GIF. Upload once and images stay available throughout your session.
 
 Combine uploaded photos with library images on the same coloring worksheet. Create first grade worksheets featuring student interests and hobbies. Upload seasonal images for holiday-themed free printable worksheets. Teachers upload shapes and patterns for math-integrated coloring worksheets. Parents upload family photos for extra motivation. Custom images make kindergarten worksheets more engaging because students see familiar, meaningful content. Perfect for differentiated instruction and personalized learning in first grade worksheets.`,
@@ -398,6 +391,16 @@ Successful sellers earn $500-$5000 monthly from worksheet sales. Generate hundre
         id: '18',
         question: 'What\'s Included in a Free Worksheet for Kids Download?',
         answer: 'Every free worksheet for kids download includes a complete, ready-to-print PDF file at 300 DPI professional resolution. Grid drawing coloring worksheets include both the clue grid and empty drawing grid on one page. The visual answer key is the original image students referenced. PDF files print perfectly on letter or A4 paper. JPEG export option available for digital distribution. No watermarks on any free worksheet for kids. Full commercial rights included with your subscription. Each free worksheet for kids represents a complete, classroom-ready activity requiring no additional preparation before student use.',
+      },
+      {
+        id: '19',
+        question: 'What Visual-Spatial Skills Do Grid Drawing Worksheets Develop?',
+        answer: 'Grid drawing worksheets develop essential visual-spatial skills including spatial awareness, pattern recognition, and coordinate understanding. Students learn to analyze images section by section and transfer visual information accurately. These visual-spatial worksheets strengthen the ability to perceive relationships between objects in space. Children practice mental rotation as they copy patterns from clue grids to empty grids. Grid drawing coloring worksheets also develop figure-ground discrimination as students focus on specific cells while ignoring surrounding information. The progressive difficulty settings help build visual-spatial reasoning from simple kindergarten worksheets to complex first grade challenges. These skills transfer directly to mathematics, reading maps, science diagrams, and everyday problem-solving tasks.',
+      },
+      {
+        id: '20',
+        question: 'How Do Printable Coloring Pages Build Fine Motor Skills?',
+        answer: 'Printable coloring pages build fine motor skills through precise hand movements required for accurate coloring within grid cells. Grid drawing worksheets specifically strengthen hand-eye coordination as students match visual input with motor output. The small cell sizes in fine motor skills worksheets require controlled pencil grip and deliberate strokes. Students develop pencil pressure awareness while coloring different sections of the grid. These coloring worksheets improve bilateral coordination as children stabilize the paper with one hand while coloring with the other. The repetitive practice builds muscle memory essential for handwriting development. Kindergarten worksheets with larger grids introduce fine motor concepts gradually, while challenging first grade worksheets with smaller cells advance precision. Regular practice with printable coloring pages strengthens the small muscles in hands and fingers needed for writing, cutting, and other classroom tasks.',
       },
     ],
   },

@@ -22,7 +22,7 @@ export const pictureBingoEnContent: ProductPageContent = {
     slug: 'picture-bingo-worksheets',
     appId: 'bingo',
     title: 'Free Printable Bingo Cards for Kindergarten | Bingo Worksheet Generator',
-    description: 'Create free printable bingo cards with our worksheet generator. Generate kindergarten worksheets and first grade bingo cards for sight words, phonics, and math. Download PDF in 3 minutes.',
+    description: 'Create free printable bingo cards with our worksheet generator. Generate kindergarten and first grade bingo worksheets for sight words and math. Download PDF now.',
     keywords: 'bingo worksheets, printable bingo cards, kindergarten worksheets, free printable worksheets, picture bingo, first grade worksheets, sight words worksheets, phonics worksheets, alphabet worksheets, math worksheets, free worksheet, worksheet for kids, free printables',
   },
 
@@ -35,7 +35,7 @@ export const pictureBingoEnContent: ProductPageContent = {
 Picture bingo worksheets combine visual learning with interactive gameplay. Teachers use printable bingo cards to reinforce sight words worksheets, phonics worksheets, alphabet worksheets, and math worksheets concepts. Each free worksheet includes a customizable grid and matching calling chips on a single printable page. Generate 1 to 10 unique bingo cards at once for whole-class activities. Your students stay engaged while practicing essential kindergarten and first grade skills through hands-on bingo games.
 
 Our picture bingo generator creates two free printable worksheets with every generation. The main bingo card worksheet features your chosen images or words in a grid format with matching circular calling chips below. The separate call-out sheet displays all items for the teacher to use during gameplay. Both worksheets are fully editable after generation. Customize colors, add text, upload your own images, and adjust layouts to match your lesson plans. Create unlimited free printables for math worksheets, phonics worksheets, sight words worksheets, alphabet practice, and more with your Core Bundle subscription.`,
-    previewImageSrc: '/samples/english/bingo/image and image.jpeg',
+    previewImageSrc: '/samples/english/bingo/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Try Free',
       viewSamples: 'View Samples',
@@ -56,17 +56,38 @@ Our picture bingo generator creates two free printable worksheets with every gen
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/bingo/image and image.jpeg',
-        answerKeySrc: '/samples/english/bingo/image and image callout.jpeg',
+        worksheetSrc: '/samples/english/bingo/sample-1.jpeg',
+        answerKeySrc: '/samples/english/bingo/sample-1-answer.jpeg',
         altText: 'Free printable bingo cards for kindergarten - picture bingo worksheet with colorful images for visual learning and vocabulary development',
-        pdfDownloadUrl: '/samples/english/bingo/image and image.pdf',
+        pdfDownloadUrl: '/samples/english/bingo/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/bingo/image and word.jpeg',
-        answerKeySrc: '/samples/english/bingo/image and word callout.jpeg',
-        altText: 'Bingo worksheets free printable for first grade - picture bingo cards with images and word labels for sight words and literacy practice',
-        pdfDownloadUrl: '/samples/english/bingo/image and word.pdf',
+        worksheetSrc: '/samples/english/bingo/sample-2.jpeg',
+        answerKeySrc: '/samples/english/bingo/sample-2-answer.jpeg',
+        altText: 'Bingo worksheets free printable for first grade - picture bingo cards with images and word labels for sight words practice',
+        pdfDownloadUrl: '/samples/english/bingo/sample-2.pdf',
+      },
+      {
+        id: '3',
+        worksheetSrc: '/samples/english/bingo/sample-3.jpeg',
+        answerKeySrc: '/samples/english/bingo/sample-3-answer.jpeg',
+        altText: 'Kindergarten worksheets bingo printable - free worksheet for kids with educational picture grid and call-out chips',
+        pdfDownloadUrl: '/samples/english/bingo/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/english/bingo/sample-4.jpeg',
+        answerKeySrc: '/samples/english/bingo/sample-4-answer.jpeg',
+        altText: 'Free printable worksheets bingo cards - worksheet for kindergarten with colorful animal and object images for vocabulary',
+        pdfDownloadUrl: '/samples/english/bingo/sample-4.pdf',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/english/bingo/sample-5.jpeg',
+        answerKeySrc: '/samples/english/bingo/sample-5-answer.jpeg',
+        altText: 'Picture bingo free printables - first grade worksheets with custom grid layout for classroom games and learning activities',
+        pdfDownloadUrl: '/samples/english/bingo/sample-5.pdf',
       },
     ],
   },

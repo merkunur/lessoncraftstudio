@@ -40,7 +40,6 @@ The odd one out generator creates worksheets for any subject or theme. Choose fr
     description: 'Create free odd one out worksheets for kindergarten visual discrimination. Generate printable critical thinking worksheets for kids. Download PDF in 3 minutes.',
     keywords: 'odd one out worksheets, visual discrimination worksheets, critical thinking worksheets, categorization worksheets, logic worksheets, kindergarten worksheets, first grade worksheets, free printable worksheets, worksheet generator, printable worksheets',
     canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/odd-one-out-worksheets',
-    ogImage: '/samples/english/odd one out/similar.jpeg',
   },
 
   // Sample Gallery - REAL file paths from samples/english/odd one out/

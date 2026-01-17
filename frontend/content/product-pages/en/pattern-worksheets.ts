@@ -11,6 +11,48 @@ import { ProductPageContent } from '@/components/product-page/ProductPageClient'
  */
 
 export const patternWorksheetsEnContent: ProductPageContent = {
+  // SEO Section - Critical for Google Image Thumbnails and metadata
+  seo: {
+    slug: 'pattern-worksheets',
+    appId: 'pattern-worksheet',
+    title: 'Free Pattern Worksheets | Printable Pattern Recognition for Kindergarten',
+    description: 'Create free pattern worksheets for kids with our pattern recognition generator. Free printables with AB, ABC, ABCD patterns. Download worksheet for kindergarten in 3 clicks.',
+    keywords: 'pattern worksheets, pattern recognition worksheets, free worksheets, free printables, worksheet for kids, worksheet for kindergarten, free worksheet for kids, math worksheets, kindergarten worksheets, first grade worksheets',
+    canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/pattern-worksheets',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/pattern%20worksheet/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Free pattern worksheets for kindergarten - AB pattern recognition worksheet for kids',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/pattern%20worksheet/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Free printable pattern worksheets - ABC pattern worksheet for first grade math',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/pattern%20worksheet/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Pattern recognition worksheet for kids - ABCD pattern completion free printables',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/pattern%20worksheet/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Worksheet for kindergarten - visual pattern recognition math worksheet free',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/pattern%20worksheet/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Free worksheet for kids - pattern recognition printable for classroom use',
+      },
+    ],
+  },
+
   // Hero Section - FULL text from pattern-worksheet.md paragraphs 1-4
   hero: {
     title: 'Free Printable Math Worksheets for Kindergarten and First Grade',
@@ -22,7 +64,7 @@ Pattern recognition is a foundational math skill for kindergarten and first grad
 The pattern worksheet generator offers complete customization for math instruction. Upload your own images or browse 3000+ themed images in 11 languages. Create free printable worksheets for kindergarten math, first grade math practice, or homework assignments. Each worksheet downloads as 300 DPI professional quality JPEG or PDF files.
 
 Full Access subscription includes commercial licensing for Teachers Pay Teachers sales. Create and sell pattern worksheets, math worksheets, and kindergarten worksheets without extra licensing fees. Pattern worksheet generator saves 85% of traditional worksheet creation time compared to design software and clipart searches.`,
-    previewImageSrc: '/samples/english/pattern worksheet/pattern_worksheet portrait.jpeg',
+    previewImageSrc: '/samples/english/pattern worksheet/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Try Free',
       viewSamples: 'View Samples',
@@ -36,24 +78,45 @@ Full Access subscription includes commercial licensing for Teachers Pay Teachers
 
   // Sample Gallery - REAL file paths from samples/english/pattern worksheet/
   samples: {
-    sectionTitle: 'Worksheet Samples',
+    sectionTitle: 'Free Pattern Worksheet Samples',
     downloadLabel: 'Download Free Sample',
     worksheetLabel: 'Worksheet',
     answerKeyLabel: 'Answer Key',
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/pattern worksheet/pattern_worksheet portrait.jpeg',
-        answerKeySrc: '/samples/english/pattern worksheet/pattern_worksheet portrait answer_key.jpeg',
-        altText: 'Pattern recognition worksheet in portrait orientation with blank box and multiple choice pattern completion',
-        pdfDownloadUrl: '/samples/english/pattern worksheet/pattern_worksheet portrait.pdf',
+        worksheetSrc: '/samples/english/pattern worksheet/sample-1.jpeg',
+        answerKeySrc: '/samples/english/pattern worksheet/sample-1-answer.jpeg',
+        altText: 'Free pattern worksheets for kindergarten - AB pattern recognition worksheet for kids with colorful images',
+        pdfDownloadUrl: '/samples/english/pattern worksheet/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/pattern worksheet/pattern_worksheet landscape.jpeg',
-        answerKeySrc: '/samples/english/pattern worksheet/pattern_worksheet landscape answer_key (1).jpeg',
-        altText: 'Pattern recognition worksheet in landscape orientation with more exercises per page',
-        pdfDownloadUrl: '/samples/english/pattern worksheet/pattern_worksheet landscape.pdf',
+        worksheetSrc: '/samples/english/pattern worksheet/sample-2.jpeg',
+        answerKeySrc: '/samples/english/pattern worksheet/sample-2-answer.jpeg',
+        altText: 'Free printable pattern worksheets - ABC pattern worksheet for first grade math practice',
+        pdfDownloadUrl: '/samples/english/pattern worksheet/sample-2.pdf',
+      },
+      {
+        id: '3',
+        worksheetSrc: '/samples/english/pattern worksheet/sample-3.jpeg',
+        answerKeySrc: '/samples/english/pattern worksheet/sample-3-answer.jpeg',
+        altText: 'Pattern recognition worksheet for kids - ABCD pattern completion free printables for classroom',
+        pdfDownloadUrl: '/samples/english/pattern worksheet/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/english/pattern worksheet/sample-4.jpeg',
+        answerKeySrc: '/samples/english/pattern worksheet/sample-4-answer.jpeg',
+        altText: 'Worksheet for kindergarten - visual pattern recognition math worksheet free download',
+        pdfDownloadUrl: '/samples/english/pattern worksheet/sample-4.pdf',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/english/pattern worksheet/sample-5.jpeg',
+        answerKeySrc: '/samples/english/pattern worksheet/sample-5-answer.jpeg',
+        altText: 'Free worksheet for kids - pattern recognition printable worksheet for kindergarten math',
+        pdfDownloadUrl: '/samples/english/pattern worksheet/sample-5.pdf',
       },
     ],
   },
@@ -118,7 +181,7 @@ Full Access subscription includes commercial licensing for Teachers Pay Teachers
 
   // How-To Guide - FULL text from pattern-worksheet.md Step sections
   howTo: {
-    sectionTitle: 'How to Create Pattern Worksheets in 5 Easy Steps',
+    sectionTitle: 'How to Create Free Pattern Worksheets for Kids in 5 Easy Steps',
     sectionDescription: 'Creating professional pattern worksheets takes under 3 minutes from start to download. Follow five simple steps to generate custom kindergarten worksheets and first grade math practice sheets. No design experience required to create free printable worksheets. Each step offers customization options for differentiated instruction and personalized learning.',
     ctaText: 'Start Creating Now',
     steps: [
@@ -162,7 +225,7 @@ Full Access subscription includes commercial licensing for Teachers Pay Teachers
 
   // Use Cases - FULL descriptions from pattern-worksheet.md persona sections
   useCases: {
-    sectionTitle: 'Perfect for Teachers, Parents, and Educators',
+    sectionTitle: 'Free Worksheets for Teachers, Parents, and Educators',
     sectionDescription: 'Pattern worksheet generator serves six distinct user groups with specialized worksheet needs. Kindergarten teachers create alphabet worksheets and phonics worksheets for early literacy. First grade teachers generate math worksheets and addition worksheets for elementary math practice. Homeschool parents download free printable worksheets for multi-grade teaching. ESL teachers design sight words worksheets in 11 languages. Special education teachers customize tracing worksheets and coloring worksheets for differentiated learning. Teacher entrepreneurs sell pattern worksheets on Teachers Pay Teachers using included commercial licensing.',
     items: [
       {

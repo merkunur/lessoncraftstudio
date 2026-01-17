@@ -27,10 +27,30 @@ export const coloringDeContent: ProductPageContent = {
   seo: {
     slug: 'malvorlagen-arbeitsblaetter',
     appId: 'coloring',
-    title: 'Malvorlagen-Generator - Kostenlose Ausmalbilder für Arbeitsblätter Grundschule und Vorschul-Arbeitsblätter',
-    description: 'Erstelle professionelle Malvorlagen und Ausmalbilder mit unserem Malvorlagen-Generator für Arbeitsblätter Grundschule. Kombiniere Ausmalbilder mit Schwungübungen, Buchstaben lernen und Mathe-Arbeitsblättern. Perfekt für Vorschul-Arbeitsblätter und kostenlose Arbeitsblätter 1. Klasse.',
+    title: 'Malvorlagen-Generator - Kostenlose Ausmalbilder Arbeitsblätter',
+    description: 'Erstellen Sie Malvorlagen und Ausmalbilder für Arbeitsblätter Grundschule. Kostenlose Druckvorlagen in 3 Minuten. Jetzt kostenlos testen!',
     keywords: 'malvorlagen generator, ausmalbilder, arbeitsblätter grundschule, kostenlose arbeitsblätter, vorschule arbeitsblätter, schwungübungen, buchstaben lernen, mathe arbeitsblätter, deutsch arbeitsblätter, einmaleins',
     canonicalUrl: 'https://www.lessoncraftstudio.com/de/apps/malvorlagen-arbeitsblaetter',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/german/coloring/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Kostenlose Malvorlagen Arbeitsblätter Grundschule - Ausmalbilder zum Ausdrucken für Vorschul-Arbeitsblätter'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/german/coloring/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Malvorlagen-Generator für kostenlose Arbeitsblätter - Ausmalbilder für Buchstaben lernen und Schwungübungen'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/german/coloring/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Vorschul-Arbeitsblätter mit Ausmalbildern - Kostenlose Druckvorlagen für Mathe-Arbeitsblätter'
+      }
+    ],
   },
 
   // Hero Section - FULL text from coloring.md paragraphs 1-4
@@ -44,7 +64,7 @@ Der Malvorlagen-Generator bietet über 3000 kindgerechte Bilder für Ausmalbilde
 Vollständige Arbeitsflächen-Bearbeitung macht Malvorlagen individuell anpassbar. Verschiebe Bilder per Drag & Drop an beliebige Positionen. Ändere Größen durch Ziehen der Ecken. Drehe Elemente in jeden gewünschten Winkel. Füge dekorative Rahmen aus unserer Rahmenbibliothek hinzu. Kombiniere Ausmalbilder mit Schwungübungen-Linien für feinmotorische Übungen.
 
 Exportiere fertige Malvorlagen als hochauflösende PDF oder JPEG Dateien. Professionelle 300 DPI Druckqualität garantiert scharfe Linien auf jedem Drucker. Schwarz-Weiß-Modus spart Druckertinte bei großen Klassensätzen. Das Basis-Paket Abonnement für 144 € jährlich bietet unbegrenzte Malvorlagen-Erstellung mit kommerzieller Lizenz für Teachers Pay Teachers Verkäufe.`,
-    previewImageSrc: '/samples/english/coloring/coloring portrait 1.png',
+    previewImageSrc: '/samples/german/coloring/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Kostenlos Testen',
       viewSamples: 'Beispiele Ansehen',
@@ -79,44 +99,37 @@ Exportiere fertige Malvorlagen als hochauflösende PDF oder JPEG Dateien. Profes
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/coloring/coloring portrait 1.png',
+        worksheetSrc: '/samples/german/coloring/sample-1.jpeg',
         answerKeySrc: '',
-        altText: 'Hochformat Malvorlage mit thematischen Bildern für Vorschul-Arbeitsblätter und Feinmotorik-Entwicklung',
+        altText: 'Kostenlose Malvorlagen Arbeitsblätter Grundschule - Ausmalbilder zum Ausdrucken für Vorschul-Arbeitsblätter',
         pdfDownloadUrl: '',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/coloring/coloring portrait 2.png',
+        worksheetSrc: '/samples/german/coloring/sample-2.jpeg',
         answerKeySrc: '',
-        altText: 'Druckbare Ausmalbilder mit kindgerechten Motiven für Kindergarten und Vorschule',
+        altText: 'Kostenlose Arbeitsblätter mit Ausmalbildern - Malvorlagen für Buchstaben lernen und Schwungübungen',
         pdfDownloadUrl: '',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/coloring/coloring landscape 1.png',
+        worksheetSrc: '/samples/german/coloring/sample-3.jpeg',
         answerKeySrc: '',
-        altText: 'Querformat Malvorlage mit mehreren Bildern für Arbeitsblätter Grundschule',
+        altText: 'Vorschul-Arbeitsblätter Malvorlagen - Kostenlose Druckvorlagen für Mathe-Arbeitsblätter Grundschule',
         pdfDownloadUrl: '',
       },
       {
         id: '4',
-        worksheetSrc: '/samples/english/coloring/coloring portrait 3.png',
+        worksheetSrc: '/samples/german/coloring/sample-4.jpeg',
         answerKeySrc: '',
-        altText: 'Thematische Ausmalbilder für frühkindliche Bildung und Homeschool',
+        altText: 'Arbeitsblatt für Kinder Ausmalbilder - Kostenlose Malvorlagen für Arbeitsblätter Grundschule',
         pdfDownloadUrl: '',
       },
       {
         id: '5',
-        worksheetSrc: '/samples/english/coloring/coloring landscape 2.png',
+        worksheetSrc: '/samples/german/coloring/sample-5.jpeg',
         answerKeySrc: '',
-        altText: 'Querformat Malvorlagen für Klassenzimmer-Aktivitäten und Gruppenarbeit',
-        pdfDownloadUrl: '',
-      },
-      {
-        id: '6',
-        worksheetSrc: '/samples/english/coloring/coloring portrait 4.png',
-        answerKeySrc: '',
-        altText: 'Professionelle Malvorlagen für Lehrer und Eltern mit anpassbarem Layout',
+        altText: 'Kostenlose Druckvorlagen Malvorlagen - Ausmalbilder für Vorschul-Arbeitsblätter und Feinmotorik',
         pdfDownloadUrl: '',
       },
     ],

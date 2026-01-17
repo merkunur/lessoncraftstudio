@@ -16,8 +16,29 @@ export const bigSmallEnContent: ProductPageContent = {
     slug: 'big-small-worksheets',
     appId: 'big-small-app',
     title: 'Big and Small Worksheets - Free Printable Size Comparison Generator',
-    description: 'Create free printable big and small worksheets for kindergarten. Professional size comparison worksheet generator with visual discrimination activities. Download PDFs instantly.',
+    description: 'Create free big and small worksheets for kindergarten. Size comparison generator with visual discrimination activities. Download PDF worksheets in 3 minutes.',
     keywords: 'free worksheet, free worksheets, free printables, worksheet for kids, worksheet for kindergarten, big and small worksheets, size comparison worksheets, kindergarten worksheets, math worksheets, preschool worksheets, first grade worksheets, visual discrimination worksheets, size sorting worksheets, big or small worksheets, free printable worksheets',
+    canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/big-small-worksheets',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/big-small/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Free printable big and small worksheets for kindergarten - size comparison circle the big one activity'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/big-small/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Size comparison worksheets for kids - big or small worksheet with visual discrimination practice'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/big-small/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Free worksheet for kindergarten - size sorting worksheets for first grade math foundations'
+      }
+    ]
   },
 
   // Hero Section - FULL text from big-small.md introduction paragraphs

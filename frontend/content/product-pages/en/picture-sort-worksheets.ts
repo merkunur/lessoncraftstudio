@@ -16,7 +16,7 @@ export const pictureSortEnContent: ProductPageContent = {
     slug: 'picture-sort-worksheets',
     appId: 'picture-sort',
     title: 'Free Sorting Worksheets Printable | Picture Sort Generator for Kids',
-    description: 'Create professional sorting worksheets for kindergarten and first grade. Free printable picture classification activities with answer keys. Download PDF in 3 minutes.',
+    description: 'Create sorting worksheets for kindergarten and first grade. Free printable classification activities with answer keys. Download PDF in 3 minutes.',
     keywords: 'sorting worksheets, picture sort, classification worksheets, free worksheet, free worksheets, free printables, worksheet for kids, worksheet for kindergarten, kindergarten worksheets, first grade worksheets',
     canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/picture-sort-worksheets',
     images: [
@@ -37,6 +37,18 @@ export const pictureSortEnContent: ProductPageContent = {
         width: 2480,
         height: 3508,
         caption: 'Free printables for kindergarten - sorting worksheet with cut and paste classification for kids'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/picture-sort/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Sorting worksheets free printable - picture classification activity for first grade math'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/picture-sort/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Free worksheet for kindergarten - picture sort educational activity with answer key'
       }
     ],
   },
@@ -111,56 +123,56 @@ Full Access subscription costs $240 annually or $25 monthly. This includes all 3
 
   // Features Grid - FULL descriptions from picture-sort.md H3 sections
   features: {
-    sectionTitle: 'Everything You Need for Picture Sort Worksheets',
+    sectionTitle: 'Picture Sort Features - Free Printable Kindergarten Worksheets and First Grade Worksheets',
     sectionDescription: 'Our picture sorting worksheet generator includes powerful features for creating educational materials. Teachers create professional kindergarten worksheets and first grade worksheets in minutes. Every feature supports your classroom needs from preschool through early elementary. Full Access subscription gives you complete control over worksheet design.',
     highlightBadgeText: 'Key Feature',
     items: [
       {
         id: '1',
         icon: '⚡',
-        title: 'Create Sorting Worksheets in 3 Clicks',
+        title: 'Create Sorting Worksheets in 3 Clicks - Fast Picture Sort Generator for Math Worksheets and Phonics Worksheets',
         description: 'Generate complete picture sorting worksheets with just three clicks. Select your images, choose categories, and click generate. The entire process takes under 3 minutes from start to download. Teachers choose between automatic theme-based generation or manual image selection. Theme mode automatically selects images from two categories. Manual mode lets you handpick specific images and assign them to left or right categories. The generator handles all layout calculations automatically. Category frames and mixed sorting areas position perfectly on every page size. You focus on content while the generator handles design. Fast picture sort generator perfect for math worksheets and phonics worksheets integration.',
         highlighted: true,
       },
       {
         id: '2',
         icon: '✏️',
-        title: 'Edit Everything on Your Sorting Worksheet',
+        title: 'Edit Everything on Your Sorting Worksheet - Full Customization for Alphabet Worksheets and Sight Words Worksheets',
         description: 'Every element on your worksheet is fully editable after generation. Drag images to new positions. Resize any picture with your mouse. Rotate elements to any angle for custom layouts. Change text labels for alphabet worksheets or sight words worksheets. Adjust font sizes and colors to match your classroom theme. Add custom instructions or student name fields anywhere on the page. Lock elements you want to keep in place. This prevents accidental changes while editing other parts. The contextual toolbar provides professional editing controls including layers, alignment, and precise positioning. Full customization for alphabet worksheets and sight words worksheets.',
         highlighted: false,
       },
       {
         id: '3',
         icon: '📤',
-        title: 'Upload Your Own Images',
+        title: 'Upload Your Own Images - Custom Picture Sort Worksheets for Addition Worksheets and Tracing Worksheets',
         description: 'Upload images from your computer to create personalized sorting activities. Use photos of your students work, classroom objects, or custom illustrations. The generator accepts JPEG, PNG, and GIF formats. Combine uploaded images with library images for unique worksheets. Create addition worksheets with student handwriting samples. Design tracing worksheets featuring familiar classroom items. Multi-file upload lets you add several images at once. Your uploaded images appear in the selection area like library images. Click to add them to your sorting categories. Custom picture sort worksheets for addition worksheets and tracing worksheets.',
         highlighted: false,
       },
       {
         id: '4',
         icon: '🌍',
-        title: 'Picture Sort Worksheets in 11 Languages',
+        title: 'Picture Sort Worksheets in 11 Languages - Multilingual Free Printable Worksheets',
         description: 'Generate sorting worksheets in 11 different languages. The image library includes translated names for every picture. This feature proves essential for ESL classrooms and dual-language programs. Available languages include English, German, French, Spanish, Italian, Portuguese, Dutch, Danish, Swedish, Norwegian, and Finnish. Switch between languages instantly to create materials for different student groups. Image names automatically translate when you change the language setting. This ensures vocabulary matches your students learning language. Perfect for creating coloring worksheets and other visual learning materials in multiple languages. Multilingual free printable worksheets for diverse classrooms.',
         highlighted: false,
       },
       {
         id: '5',
         icon: '💰',
-        title: 'Commercial License Included',
+        title: 'Commercial License Included - Sell Your Picture Sort Worksheets on Teachers Pay Teachers',
         description: 'Full Access subscription includes print-on-demand commercial licensing at no extra cost. Sell your picture sorting worksheets on Teachers Pay Teachers, Etsy, or Amazon KDP. No attribution required for commercial use. Many teachers generate passive income selling custom sorting worksheets. Picture sort activities sell well because teachers need fresh variations. Create themed sets for seasons, holidays, or curriculum units. The 300 DPI export quality meets commercial printing standards. Download as PDF or JPEG for digital or print sales. Grayscale option included for customers who prefer black and white printing. Sell your picture sort worksheets on Teachers Pay Teachers.',
         highlighted: true,
       },
       {
         id: '6',
         icon: '📚',
-        title: '3000+ Image Library',
+        title: '3000+ Image Library - Professional Images for All Kindergarten Worksheets and First Grade Worksheets',
         description: 'Access over 3000 child-friendly images organized by theme. Browse categories like animals, food, transportation, shapes, and colors. The search function finds specific images instantly. Every image works perfectly for kindergarten worksheets and first grade worksheets. Professional illustrations maintain consistent style across all themes. Images scale cleanly to any size without pixelation. Theme-based organization speeds worksheet creation. Select two themes for automatic sorting worksheet generation. The system randomly picks images from each theme and creates balanced activities. Professional images for all kindergarten worksheets and first grade worksheets.',
         highlighted: false,
       },
       {
         id: '7',
         icon: '🖨️',
-        title: 'Professional 300 DPI Quality',
+        title: 'Professional 300 DPI Quality - High-Resolution Math Worksheets and Phonics Worksheets',
         description: 'Export worksheets at professional 300 DPI resolution perfect for printing. Both JPEG and PDF formats supported for maximum compatibility. Colors print vibrant and crisp on any printer. The grayscale conversion option saves ink costs. Black and white versions print clearly while maintaining all visual details. Ideal for schools managing printing budgets. Choose from six page sizes including Letter, A4, and custom dimensions. Portrait and landscape orientations available for all formats. Every export maintains perfect quality regardless of page size. High-resolution math worksheets and phonics worksheets for professional classroom materials.',
         highlighted: true,
       },
@@ -169,42 +181,42 @@ Full Access subscription costs $240 annually or $25 monthly. This includes all 3
 
   // How-To Guide - FULL text from picture-sort.md Step sections
   howTo: {
-    sectionTitle: 'Create Picture Sort Worksheets in 5 Easy Steps',
+    sectionTitle: 'How to Create Picture Sort Worksheets in 5 Easy Steps - Free Printable Kindergarten Worksheets',
     sectionDescription: 'Creating picture sorting worksheets takes less than 3 minutes from start to download. The simple five-step process works for all grade levels. Teachers create professional sorting activities without design experience. Each step offers customization options to match your teaching goals. Build math worksheets for number sorting. Design phonics worksheets for initial sound categorization. Create alphabet worksheets for uppercase and lowercase matching.',
     ctaText: 'Start Creating Now',
     steps: [
       {
         id: '1',
         number: 1,
-        title: 'Select Images and Categories',
+        title: 'Step 1: Select Images and Categories - Choose Pictures for Math Worksheets and Addition Worksheets',
         description: 'Start by choosing how you want to select images. Theme mode automatically generates worksheets from two categories. Manual mode lets you handpick specific images. For theme mode, select a category theme for the left side. Choose a different theme for the right side. The generator randomly picks images from each theme and creates a balanced sorting activity. Manual mode gives complete control over every image. Browse the 3000+ image library by theme or search for specific items. Click images to add them to your selection. Assign each image to either the left or right category. Upload your own images to create personalized sorting worksheets. Combine library images with classroom photos. Use student work samples or custom illustrations. Mix uploaded images with theme selections for unique activities. Choose pictures for math worksheets and addition worksheets.',
         icon: '🖼️',
       },
       {
         id: '2',
         number: 2,
-        title: 'Customize Page Setup',
+        title: 'Step 2: Customize Page Setup - Configure Settings for First Grade Worksheets and Coloring Worksheets',
         description: 'Choose your page size from six preset options. Letter Portrait and Letter Landscape work for US classrooms. A4 Portrait and A4 Landscape suit international schools. Square format creates social media-ready content. Custom dimensions accommodate specialty paper. Select a page background color or add a themed background image. Browse background themes that complement your sorting content. Adjust opacity to create subtle or bold effects. Backgrounds enhance visual appeal for coloring worksheets. Add decorative borders from the border theme library. Border designs frame your worksheet professionally. Control border opacity to balance decoration with functionality. Borders make worksheets more engaging for young learners. Toggle the name and date fields on or off. These fields help with classroom organization. Students write their names before starting the activity. Date fields track when worksheets were completed. Configure settings for first grade worksheets and coloring worksheets.',
         icon: '⚙️',
       },
       {
         id: '3',
         number: 3,
-        title: 'Generate Your Sorting Worksheet',
+        title: 'Step 3: Generate Your Sorting Worksheet - Instant Creation for Sight Words Worksheets and Phonics Worksheets',
         description: 'Click the generate button to create your worksheet instantly. The generator builds the complete layout in seconds. Category frames appear at the top for sorted items. Mixed pictures display in a grid below for students to cut and paste. The layout automatically adjusts to your page size. Portrait pages stack categories vertically. Landscape pages arrange categories side by side. All spacing and sizing calculations happen automatically. Preview your worksheet before downloading. The canvas shows exactly how the final PDF will look. Check that images appear correctly. Verify category labels match your teaching objective. Generate an answer key showing the correct sorting solution. The answer key displays all pictures in their proper categories. This helps with quick grading and self-checking activities. Instant creation for sight words worksheets and phonics worksheets.',
         icon: '✨',
       },
       {
         id: '4',
         number: 4,
-        title: 'Edit on Canvas',
+        title: 'Step 4: Edit on Canvas - Customize Alphabet Worksheets and Tracing Worksheets',
         description: 'Every element on the canvas is fully editable. Drag images to reposition them. Click and drag corner handles to resize pictures. Rotate images by dragging the rotation handle. Add text labels for alphabet worksheets or tracing worksheets. Type instructions, category names, or learning objectives. Choose from seven professional fonts. Adjust text size, color, and outline width. Use the contextual toolbar for precise control. Align multiple selected images with one click. Send elements forward or backward to control layering. Lock elements you want to keep in place. The zoom controls let you work at any detail level. Zoom in to adjust small elements precisely. Zoom out to view the complete layout. Reset zoom to 100 percent instantly. Undo and redo buttons track every change you make. Experiment freely knowing you can reverse any edit. The full history system captures every action for complete control. Customize alphabet worksheets and tracing worksheets with professional editing tools.',
         icon: '✏️',
       },
       {
         id: '5',
         number: 5,
-        title: 'Download and Print',
+        title: 'Step 5: Download and Print - High-Quality PDF Files for Free Printable Worksheets and Coloring Worksheets',
         description: 'Download your worksheet as JPEG or PDF format. JPEG works for digital sharing and online learning platforms. PDF maintains perfect quality for printing and ensures consistent appearance on all devices. Toggle grayscale mode before downloading to save printer ink. The grayscale conversion maintains all visual clarity. Black and white versions work perfectly for traditional worksheet packets. Download the answer key using the same format options. Answer keys help with grading and student self-assessment. Print answer keys on different colored paper for easy identification. All downloads export at professional 300 DPI resolution. Colors print vibrant and sharp on any printer. Images remain crisp even when printed on large format paper. High-quality PDF files for free printable worksheets and coloring worksheets.',
         icon: '📥',
       },
@@ -394,7 +406,7 @@ Full Access subscription costs $240 annually or $25 monthly. This includes all 3
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Combine with Other Worksheet Generators',
+    sectionTitle: 'Combine Picture Sort Worksheets with Other Free Printable Worksheets - Complete Learning Packets for Kindergarten Worksheets, Math Worksheets, and First Grade Worksheets',
     sectionDescription: 'Our platform offers 33 different worksheet generators beyond picture sorting. Your Full Access subscription provides access to all generators for creating comprehensive learning packets. Combine sorting worksheets with math worksheets, phonics worksheets, and coloring worksheets. Build complete themed units mixing classification practice with literacy and math activities.',
     ctaTitle: 'Ready to Create Amazing Worksheets?',
     ctaDescription: 'Join educators creating professional worksheets. Unlimited generation, commercial license included.',

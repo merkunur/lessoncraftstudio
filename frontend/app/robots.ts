@@ -5,7 +5,7 @@ import { MetadataRoute } from 'next';
  * Controls how search engines crawl and index the site
  */
 export default function robots(): MetadataRoute.Robots {
-  const baseUrl = process.env.NEXT_PUBLIC_APP_URL || 'https://lessoncraftstudio.com';
+  const baseUrl = process.env.NEXT_PUBLIC_APP_URL || 'https://www.lessoncraftstudio.com';
 
   return {
     rules: [

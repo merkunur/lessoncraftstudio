@@ -82,7 +82,7 @@ export default function middleware(request: NextRequest) {
   if (pagesNeedingLocale.includes(pathname)) {
     const preferredLang = request.cookies.get('preferredLanguage')?.value || defaultLocale;
     const newUrl = new URL(`/${preferredLang}${pathname}`, request.url);
-    return NextResponse.redirect(newUrl);
+    return NextResponse.redirect(newUrl, { status: 301 });
   }
 
   // Protect content manager - require authentication

@@ -99,19 +99,35 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       },
     });
 
-    // Generate sitemap entries for each blog post in all locales with language-specific slugs
+    // Generate sitemap entries for each blog post ONLY in locales with actual translations
     blogRoutes = blogPosts.flatMap((post) => {
       const translations = post.translations as any;
 
-      // Build alternates map with language-specific slugs for this post
+      // Only include locales that have actual translation content (title AND slug must exist)
+      const availableLocales = locales.filter((locale) => {
+        const translation = translations[locale];
+        // Require at least title and slug for a valid translation
+        return translation?.title && translation?.slug;
+      });
+
+      // If no translations exist, skip this post entirely
+      if (availableLocales.length === 0) {
+        return [];
+      }
+
+      // Build alternates map ONLY for locales with actual translations
       const blogAlternates: Record<string, string> = {};
-      for (const lang of locales) {
+      for (const lang of availableLocales) {
         const langSlug = translations[lang]?.slug || post.slug;
         blogAlternates[lang] = `${baseUrl}/${lang}/blog/${langSlug}`;
       }
 
-      return locales.map((locale) => {
-        // Use language-specific slug if available, otherwise fallback to primary slug
+      // Add x-default pointing to first available locale (usually English if present)
+      const defaultLocale = availableLocales.includes('en') ? 'en' : availableLocales[0];
+      blogAlternates['x-default'] = blogAlternates[defaultLocale];
+
+      return availableLocales.map((locale) => {
+        // Use language-specific slug
         const localeSlug = translations[locale]?.slug || post.slug;
 
         return {

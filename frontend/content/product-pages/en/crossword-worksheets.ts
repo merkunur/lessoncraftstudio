@@ -37,6 +37,18 @@ export const crosswordEnContent: ProductPageContent = {
         width: 2480,
         height: 3508,
         caption: 'Vocabulary worksheets free printables - crossword for kids spelling worksheets for kindergarten word puzzle practice'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/crossword/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Spelling worksheets for kindergarten - free printables crossword puzzles with word puzzle worksheets for kids vocabulary practice'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/crossword/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Word puzzle worksheets for first grade - crossword for kindergarten with vocabulary worksheets and free worksheet for kids spelling'
       }
     ],
   },

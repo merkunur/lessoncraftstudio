@@ -58,6 +58,18 @@ Our cryptogram worksheet generator creates custom puzzles in 11 languages. Uploa
         width: 2480,
         height: 3508,
         caption: 'Picture cryptogram free printables - puzzle worksheets with alphabet codes for kindergarten phonics practice'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/cryptogram/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Cryptogram worksheets for kindergarten - free worksheet for kids with picture code puzzles for alphabet practice'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/cryptogram/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Free printables cryptogram puzzle worksheets - worksheet for kids with picture codes for first grade phonics'
       }
     ],
   },

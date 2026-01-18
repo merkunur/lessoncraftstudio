@@ -27,8 +27,8 @@ export const sudokuDeContent: ProductPageContent = {
   seo: {
     slug: 'kinder-sudoku-arbeitsblaetter',
     appId: 'sudoku',
-    title: 'Kinder-Sudoku Generator - Kostenlose Arbeitsblätter für Vorschule und Grundschule',
-    description: 'Erstellen Sie visuelle 4x4 Sudoku-Rätsel mit unserem Sudoku-Generator für Kinder. Perfekt für Arbeitsblätter Grundschule, Vorschul-Arbeitsblätter, Rechnen lernen und Logik-Übungen. Laden Sie kostenlose Arbeitsblätter mit Lösungsschlüssel in unter 3 Minuten herunter.',
+    title: 'Kinder-Sudoku Generator - Kostenloses Arbeitsblatt Grundschule',
+    description: 'Erstellen Sie 4x4 Kinder-Sudoku Arbeitsblätter Grundschule und Vorschule. Kostenlose Druckvorlagen mit Lösungsschlüssel. PDF-Download in unter 3 Minuten.',
     keywords: 'kinder sudoku arbeitsblätter, arbeitsblätter grundschule, kostenlose arbeitsblätter, mathe arbeitsblätter, vorschule arbeitsblätter, rechnen lernen, deutsch arbeitsblätter, einmaleins, schwungübungen, ausmalbilder',
     canonicalUrl: 'https://www.lessoncraftstudio.com/de/apps/kinder-sudoku-arbeitsblaetter',
     images: [
@@ -95,7 +95,7 @@ Dieser Sudoku-Arbeitsblatt-Generator ist perfekt für Erzieher, Grundschullehrer
 
   // Sample Gallery - REAL file paths from samples/english/sudoku/
   samples: {
-    sectionTitle: 'Kinder-Sudoku-Arbeitsblätter Beispiele',
+    sectionTitle: 'Kostenloses Arbeitsblatt für Kinder - Kinder-Sudoku Beispiele',
     sectionDescription: 'Laden Sie kostenlose Beispiel-Arbeitsblätter herunter, um unsere professionelle Qualität zu sehen',
     downloadLabel: 'Kostenloses Beispiel Herunterladen',
     worksheetLabel: 'Arbeitsblatt',
@@ -147,7 +147,7 @@ Dieser Sudoku-Arbeitsblatt-Generator ist perfekt für Erzieher, Grundschullehrer
 
   // Features Grid - FULL text from sudoku.md feature sections
   features: {
-    sectionTitle: 'Sudoku-Funktionen für Kinder - Kostenlose Arbeitsblätter Grundschule und Vorschule',
+    sectionTitle: 'Sudoku-Funktionen - Kostenlose Druckvorlagen und Arbeitsblatt für Kinder',
     sectionDescription: 'Ihr Sudoku-Arbeitsblatt-Generator enthält alle professionellen Funktionen die Erzieher und Grundschullehrer benötigen. Erstellen Sie individuelle Logikrätsel in Minuten mit voller Kontrolle über Bilder, Schwierigkeit, Layout und Design. Jede Funktion arbeitet zusammen um Ihnen zu helfen kostenlose Arbeitsblätter zu generieren die exakt Ihren Klassenzimmer-Bedürfnissen entsprechen. Bearbeiten Sie alles auf der Leinwand nach der Generierung. Fügen Sie Hintergründe, Rahmen und Text hinzu. Laden Sie hochwertige PDF- und JPEG-Dateien herunter bereit zum Drucken oder Verkaufen.',
     highlightBadgeText: 'Hauptfunktion',
     readMoreLabel: 'Mehr lesen',
@@ -285,7 +285,7 @@ Vor dem Herunterladen aktivieren Sie die Graustufen-Checkbox wenn Sie Tinte spar
 
   // Use Cases - FULL descriptions from sudoku.md persona sections
   useCases: {
-    sectionTitle: 'Arbeitsblatt für Vorschule und Grundschule - Kostenlose Druckvorlagen für Einmaleins, Buchstaben lernen, Schwungübungen und Ausmalbilder',
+    sectionTitle: 'Kostenloses Arbeitsblatt für Vorschule - Kostenlose Druckvorlagen für Einmaleins und Buchstaben lernen',
     sectionDescription: 'Visuelle Sudoku-Rätsel dienen vielen Zwecken über verschiedene Bildungseinstellungen. Erzieher verwenden sie für Logik-Zentren. Grundschullehrer weisen sie als Frühfertig-Aktivitäten zu. Deutsch-als-Fremdsprache Lehrer integrieren sie in Vokabel-Lektionen. Eltern die zuhause unterrichten schätzen das selbstgesteuerte Lernen. Sonderpädagogen schätzen das visuelle, konkrete Format. Lehrer-Unternehmer verkaufen angepasste Versionen online. Jede Benutzergruppe profitiert von den Flexibilitäts- und Anpassungsoptionen. Das 4x4 Format funktioniert perfekt für Alter 4-8 über alle Lernumgebungen kombiniert mit Mathe-Arbeitsblättern, Deutsch-Arbeitsblätter, Ausmalbilder und Schwungübungen.',
     badgeText: 'Anwendungsbereiche',
     readMoreLabel: 'Mehr lesen',
@@ -295,7 +295,7 @@ Vor dem Herunterladen aktivieren Sie die Graustufen-Checkbox wenn Sie Tinte spar
         id: '1',
         icon: '👶',
         title: 'Erzieher und Vorschullehrer',
-        subtitle: 'Kostenlose Vorschul-Arbeitsblätter für Buchstaben lernen und Schwungübungen kombiniert mit Logik',
+        subtitle: 'Kostenloses Arbeitsblatt für Kinder - Arbeitsblatt für Vorschule mit Logik',
         description: `Verwenden Sie Sudoku-Rätsel in Ihren Vorschul-Logik- und Denk-Zentren. Platzieren Sie laminierte Kopien am Zentrum mit abwischbaren Markern. Schüler lösen Rätsel wiederholt ohne Papier zu verschwenden. Erstellen Sie wöchentliche thematische Rätsel passend zu Ihren Lehrplan-Themen. Unterrichten Sie Bauernhof-Tiere diese Woche? Generieren Sie Sudoku mit Kuh, Schwein, Huhn und Pferd Bildern. Studieren Sie Wetter nächste Woche? Erstellen Sie Rätsel mit Sonne, Wolke, Regen und Schnee Bildern. Die thematische Verbindung verstärkt Vokabular während kritische Denkfähigkeiten aufgebaut werden.
 
 Differenzieren Sie für Ihr gemischte-Fähigkeiten Vorschul-Klassenzimmer einfach. Drucken Sie Einfache Schwierigkeit Rätsel für Schüler die noch das Konzept lernen. Bieten Sie Mittlere Schwierigkeit für Schüler die die Grundlagen gemeistert haben. Halten Sie Schwere Schwierigkeit Rätsel bereit für Ihre fortgeschrittenen Lerner die andere Arbeit schnell beenden. Alle Schüler arbeiten mit demselben Tier- oder Essen-Thema. Nur die Anzahl leerer Zellen unterscheidet sich. Kombinieren Sie diese kostenlosen Vorschul-Arbeitsblätter mit Schwungübungen für Feinmotorik-Entwicklung und Buchstaben lernen Aktivitäten für komplette Alphabetisierungs-Vorbereitung.
@@ -307,7 +307,7 @@ Verwenden Sie Sudoku als Bewertungswerkzeuge um logische Denk-Entwicklung zu ver
         id: '2',
         icon: '📚',
         title: 'Grundschullehrer 1. bis 3. Klasse',
-        subtitle: 'Arbeitsblätter Grundschule für Einmaleins, Rechnen lernen und Mathe-Arbeitsblätter',
+        subtitle: 'Kostenloses Arbeitsblatt Grundschule - Arbeitsblatt für Kinder mit Einmaleins',
         description: `Integrieren Sie visuelles Sudoku in Ihren Grundschul-Mathe-Lehrplan als Problemlösungs-Übung. Sudoku lehrt dieselben logischen Denkfähigkeiten wie traditionelle Mathe-Arbeitsblätter. Schüler müssen deduktives Denken und Eliminierungsprozess verwenden. Sie lernen ihre Arbeit systematisch zu überprüfen. Sie entwickeln Ausdauer wenn sie mit Herausforderungen konfrontiert werden. Diese übertragbaren Fähigkeiten gelten für Textaufgaben, Muster und mentales Rechnen lernen. Kombinieren Sie Sudoku-Logik mit Einmaleins Übung für vollständige mathematische Entwicklung.
 
 Verwenden Sie Sudoku als Frühfertig-Aktivitäten für Ihre schnellen Arbeiter. Halten Sie einen Ordner vorgefertigter Rätsel bei verschiedenen Schwierigkeitsstufen bereit. Schüler die zugewiesene Arbeit vervollständigen wählen ein Sudoku-Rätsel. Dies hält fortgeschrittene Lerner engagiert und herausgefordert während Sie mit schwächeren Schülern arbeiten. Die selbstprüfende Natur bedeutet Schüler können ihre eigenen Antworten mit dem Lösungsschlüssel verifizieren. Dies baut Unabhängigkeit und metakognitive Fähigkeiten auf. Erstellen Sie thematische Rätsel-Pakete die Einmaleins Übung, Mathe-Arbeitsblätter und Rechnen 1. Klasse Konzepte integrieren.
@@ -319,7 +319,7 @@ Erstellen Sie thematische Rätsel-Pakete für Vertretungslehrer oder Elternhelfe
         id: '3',
         icon: '🏠',
         title: 'Eltern die zuhause unterrichten',
-        subtitle: 'Kostenlose Arbeitsblätter für Buchstaben lernen, Einmaleins und Schwungübungen kombiniert',
+        subtitle: 'Kostenlose Druckvorlagen für Arbeitsblatt für Kinder und Arbeitsblatt für Vorschule',
         description: `Eltern die zuhause unterrichten und mehrere Klassenstufen gleichzeitig lehren profitieren von Sudokus Flexibilität. Erstellen Sie Einfache Rätsel für Ihren Vorschüler während Ihr Erstklässler an Schweren Rätseln arbeitet. Beide Kinder engagieren sich mit demselben Aktivitätstyp bei unterschiedlichen Niveaus. Diese parallele Aktivitäts-Struktur maximiert Ihre begrenzte Unterrichtszeit. Sie erklären Sudoku-Regeln einmal. Dann arbeitet jedes Kind unabhängig in seinem eigenen Tempo. Kombinieren Sie mit Einmaleins Übung, Buchstaben lernen Aktivitäten und Schwungübungen für umfassende Heimschul-Tage.
 
 Verwenden Sie eigene Bild-Uploads um hochgradig personalisierte Arbeitsblätter zu erstellen. Laden Sie Fotos von Familien-Haustieren, Lieblingsspielzeug oder Urlaubs-Erinnerungen hoch. Ihre Kinder lösen Sudoku-Rätsel mit vertrauten, bedeutungsvollen Bildern. Diese persönliche Verbindung erhöht Engagement und Motivation. Erstellen Sie Rätsel über Ihr aktuelles Vorlesebuch. Machen Sie Rätsel mit Charakteren aus Geschichts-Lektionen. Generieren Sie thematische Rätsel für Feiertags-Feiern oder Familien-Traditionen. Integrieren Sie mit Deutsch-Arbeitsblätter für Vokabular-Übung und Mathe-Arbeitsblätter für Rechnen lernen.
@@ -331,7 +331,7 @@ Verfolgen Sie Fortschritt über Ihr Heimschul-Jahr indem Sie vervollständigte R
         id: '4',
         icon: '🌍',
         title: 'DaZ-Lehrkräfte',
-        subtitle: 'Deutsch-Arbeitsblätter für Buchstaben lernen und Vokabular mit Ausmalbilder',
+        subtitle: 'Kostenloses Arbeitsblatt für Kinder - Arbeitsblatt für Vorschule mit Vokabular',
         description: `Deutsch-als-Fremdsprache und Fremdsprachen-Lehrer verwenden Sudoku für authentische Vokabular-Übung. Generieren Sie Rätsel auf Deutsch mit dem Sprachauswähler. Deutsch-Lehrer erstellen Rätsel mit Tiernamen auf Deutsch. Schüler sehen Ziel-Sprache Vokabular während sie Logikrätsel lösen. Diese duale Verarbeitung stärkt Gedächtnis-Bildung und Erinnerung. Kombinieren Sie mit traditionellen Deutsch-Arbeitsblätter für umfassende Sprach-Entwicklung und Buchstaben lernen auf Deutsch.
 
 Erstellen Sie passende Rätsel-Sets in mehreren Sprachen zum Vergleich. Generieren Sie dasselbe thematische Rätsel auf Deutsch und Englisch. Schüler lösen beide Versionen. Sie entdecken dass "Katze", "Hund", "Vogel" und "Fisch" auf Deutsch englische Äquivalente haben. Die identische Rätsel-Struktur hilft Schülern Vokabular über Sprachen zu verbinden. Sie sehen wie Wörter zwischen ihrer Muttersprache und der Zielsprache mappen. Integrieren Sie Ausmalbilder mit denselben Vokabular-Wörtern für multi-sensorisches Lernen.
@@ -343,7 +343,7 @@ Verwenden Sie Sudoku in bilingualen Immersions-Programmen wo Schüler Fächer in
         id: '5',
         icon: '💜',
         title: 'Sonderpädagogen',
-        subtitle: 'Kostenlose Vorschul-Arbeitsblätter und Arbeitsblätter Grundschule für visuelle Lerner mit Schwungübungen',
+        subtitle: 'Kostenlose Druckvorlagen - Arbeitsblatt für Kinder und Arbeitsblatt für Vorschule',
         description: `Sonderpädagogen schätzen Sudoku für konkrete, visuelle Lerner die mit abstraktem Denken kämpfen. Das bildbasierte Format eliminiert Sprach-Barrieren. Schüler die mit Lesen kämpfen können Rätsel erfolgreich lösen. Die Ausschneiden-und-Einkleben Methode bietet taktiles, kinästhetisches Engagement. Schüler manipulieren physisch Stücke statt Antworten zu schreiben. Dieser praktische Ansatz passt zu diversen Lern-Stilen und motorischen Fähigkeits-Niveaus. Kombinieren Sie mit Schwungübungen für Feinmotorik-Entwicklung und Ausmalbilder für Hand-Stärke.
 
 Erstellen Sie hochgradig strukturierte abgestufte Instruktion mit Schwierigkeits-Progression. Starten Sie alle Schüler mit Einfachen 4-Leer Rätseln unabhängig vom Alter. Sobald Schüler Einfache Rätsel konsistent meistern führen Sie Mittlere 6-Leer Rätsel ein. Schreiten Sie nur zu Schweren 8-Leer Rätseln nach demonstriertem Mittel-Erfolg fort. Diese schrittweise Progression baut Selbstvertrauen durch Meisterung. Schüler erfahren Erfolg bevor sie erhöhter Herausforderung begegnen. Integrieren Sie mit kostenlose Arbeitsblätter für Einmaleins, Mathe-Arbeitsblätter und Rechnen lernen für vollständige Mathematik-Instruktion.
@@ -355,7 +355,7 @@ Verwenden Sie Sudoku um exekutive Funktions-Fähigkeiten wie Planung, Organisati
         id: '6',
         icon: '💰',
         title: 'Lehrkräfte-Unternehmer',
-        subtitle: 'Kostenlose Arbeitsblätter Grundschule und Vorschul-Arbeitsblätter verkaufen mit Einmaleins und Ausmalbilder',
+        subtitle: 'Kostenlose Druckvorlagen und Kostenloses Arbeitsblatt verkaufen für Kinder',
         description: `Lehrer-Verkäufer auf Eduki, Etsy und Amazon KDP verwenden diesen Generator für Produkt-Erstellung. Ihr Basis-Paket Abonnement enthält volle kommerzielle Lizenzierung für Print-on-Demand Nutzung. Erstellen Sie thematische Arbeitsblatt-Bündel für saisonale Verkäufe. Generieren Sie 20 verschiedene Herbst-thematische Sudoku-Rätsel für Herbst. Machen Sie 30 Ozean-thematische Rätsel für Sommer. Produzieren Sie 25 Feiertags-Rätsel für Dezember-Verkäufe. Jedes Bündel dauert weniger als eine Stunde zu erstellen aber verkauft für 3-8 Euro auf Eduki. Kombinieren Sie mit Einmaleins Arbeitsblättern, Ausmalbilder und Mathe-Arbeitsblätter für umfassende Produkt-Bündel.
 
 Differenzieren Sie Ihre Produkte von Konkurrenten indem Sie Lösungsschlüssel und mehrere Schwierigkeitsstufen anbieten. Bündeln Sie drei Versionen jedes Themas: Einfach, Mittel und Schwer. Schließen Sie Lösungsschlüssel für alle Arbeitsblätter ein. Fügen Sie farbenfrohe Deckblätter mit denselben Bild-Themen hinzu. Schreiben Sie detaillierte Produkt-Beschreibungen die die bildungsrelevanten Vorteile erklären. Ihre Schüler werden Ihre Beta-Tester. Verwenden Sie erfolgreiche Klassenzimmer-Rätsel als Grundlage für kommerzielle Produkte. Integrieren Sie kostenlose Arbeitsblätter für Buchstaben lernen, Schwungübungen und Deutsch-Arbeitsblätter in Premium-Paketen.
@@ -368,7 +368,7 @@ Berechnen Sie Ihr potentielles Einkommen aus Rätsel-Erstellung. Basis-Paket kos
 
   // FAQ Section - FULL FAQs from sudoku.md
   faq: {
-    sectionTitle: 'Häufig gestellte Fragen über kostenlose Arbeitsblätter Grundschule - Einmaleins, Mathe-Arbeitsblätter und Deutsch-Arbeitsblätter',
+    sectionTitle: 'Häufig gestellte Fragen - Kostenloses Arbeitsblatt und Arbeitsblatt für Kinder',
     sectionDescription: 'Lehrer und Eltern stellen häufige Fragen über visuelle Sudoku-Rätsel bevor sie den Generator ausprobieren. Diese Antworten liefern klare, ehrliche Information über Abonnement-Anforderungen, Druck-Optionen, Schwierigkeitsstufen und Anpassungs-Fähigkeiten. Verständnis dieser Details hilft Ihnen zu entscheiden ob dieser Sudoku-Generator Ihre Klassenzimmer- oder Heimschul-Bedürfnisse erfüllt für Mathe-Arbeitsblätter, Einmaleins Übung, Deutsch-Arbeitsblätter, Schwungübungen und Buchstaben lernen. Alle Antworten basieren auf tatsächlichen App-Funktionen nicht Marketing-Versprechen.',
     showMoreText: 'Mehr Fragen anzeigen',
     showLessText: 'Weniger anzeigen',
@@ -463,7 +463,7 @@ Berechnen Sie Ihr potentielles Einkommen aus Rätsel-Erstellung. Basis-Paket kos
 
   // Related Apps - FULL text from sudoku.md combine apps section
   relatedApps: {
-    sectionTitle: 'Sudoku kombinieren mit Kostenlose Druckvorlagen - Arbeitsblatt für Vorschule mit Malvorlagen, Schwungübungen und Buchstaben lernen',
+    sectionTitle: 'Sudoku kombinieren - Kostenloses Arbeitsblatt für Kinder und Arbeitsblatt für Vorschule',
     sectionDescription: 'LessonCraft Studio bietet 33 verschiedene Arbeitsblatt-Generatoren mit Ihrem Abonnement. Lehrer erstellen umfassende Lern-Pakete durch Kombination multipler Arbeitsblatt-Typen. Sudoku-Rätsel funktionieren perfekt neben Lese-Schreib-Arbeitsblättern, Mathe-Arbeitsblättern und Feinmotor-Aktivitäten. Bauen Sie thematische wöchentliche Pakete die alle Fach-Bereiche abdecken. Schüler erhalten verschiedene Übung die Engagement über das Paket erhält. Das 4x4 visuelle Sudoku-Format paart natürlich mit anderen Vorschul- und Grundschul-Aktivitäten. Erstellen Sie vollständige Lern-Erfahrungen statt isolierter Arbeitsblatt-Übung durch Kombination mit Rechnen lernen Materialien, Schwungübungen für Feinmotorik und Ausmalbilder für kreative Entwicklung.',
     ctaTitle: 'Bereit, fantastische Sudoku-Arbeitsblätter zu erstellen?',
     ctaDescription: 'Schließen Sie sich tausenden Lehrkräften an, die professionelle Arbeitsblätter erstellen. Unbegrenzte Generierung, kommerzielle Lizenz inklusive.',

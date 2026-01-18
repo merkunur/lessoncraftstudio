@@ -50,6 +50,18 @@ export const mathWorksheetsDeContent: ProductPageContent = {
         height: 3508,
         caption: 'Arbeitsblätter Grundschule Mathematik - Rechnen 1. Klasse mit Bildsymbolen',
       },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/german/math/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Arbeitsblätter Grundschule Mathe-Rätsel - Rechnen 1. Klasse mit Symbolen und Gleichungen',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/german/math/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Kostenlose Arbeitsblätter Mathematik Grundschule - Mathe-Arbeitsblätter zum Ausdrucken',
+      },
     ],
   },
 
@@ -453,6 +465,36 @@ Viele Lehrkräfte verdienen 500-5000 € monatlich mit druckbaren Ressourcen fü
         id: '12',
         question: 'Kann ich Mathe-Arbeitsblätter mit Ausmalbildern, Schwungübungen, Buchstaben lernen oder Einmaleins kombinieren?',
         answer: 'Ja, die Plattform bietet 33 verschiedene Generatoren für Arbeitsblätter Grundschule. Kombinieren Sie Mathe-Arbeitsblätter mit Ausmalbildern für ganzheitliche Förderung. Fügen Sie Schwungübungen für Feinmotorik-Training hinzu. Erstellen Sie Lernpakete mit Buchstaben lernen Arbeitsblättern für Vorschul-Arbeitsblätter. Auch Einmaleins-Übungen sind verfügbar. Kombinieren Sie Rechnen lernen mit Deutsch-Arbeitsblättern für integrierten Unterricht.',
+      },
+      {
+        id: '13',
+        question: 'Wie bereiten Mathe-Arbeitsblätter Kinder auf das Einmaleins vor?',
+        answer: 'Unsere Mathe-Arbeitsblätter legen das Fundament für späteres Einmaleins-Lernen. Symbol-Rätsel trainieren Mustererkennung und logisches Denken. Kinder verstehen durch visuelle Gleichungen die Beziehungen zwischen Zahlen. Die Rechenoperationen Addition und Subtraktion sind Grundbausteine für Multiplikation. Mit Arbeitsblätter Grundschule entwickeln Schüler Zahlensinn und Rechenflüssigkeit. Diese Fähigkeiten erleichtern später das Auswendiglernen von Einmaleins-Reihen. Kombinieren Sie Mathe-Rätsel mit spezifischen Einmaleins-Übungen aus dem Vollzugriff-Paket.',
+      },
+      {
+        id: '14',
+        question: 'Welche Schwungübungen ergänzen Mathe-Arbeitsblätter optimal für Vorschul-Arbeitsblätter?',
+        answer: 'Schwungübungen und Mathe-Arbeitsblätter ergänzen sich perfekt für Vorschul-Arbeitsblätter. Vor dem Rechnen trainieren Schwungübungen die Feinmotorik und Stifthaltung. Kinder können Zahlen und Rechenzeichen sauberer schreiben. Der Schreibübungen-Generator erstellt passende Schwungübungen für jede Altersgruppe. Kombinieren Sie 10 Minuten Schwungübungen mit 15 Minuten Mathe-Rätsel. Diese Reihenfolge bereitet die Hand optimal auf das Schreiben vor. Arbeitsblätter Grundschule werden so zu ganzheitlichen Lernerlebnissen.',
+      },
+      {
+        id: '15',
+        question: 'Wie nutze ich Ausmalbilder als Belohnung nach Mathe-Arbeitsblättern?',
+        answer: 'Ausmalbilder sind ideale Belohnungen nach abgeschlossenen Mathe-Arbeitsblättern. Kinder erhalten Malvorlagen nach erfolgreicher Lösung der Rätsel. Der Ausmalbilder-Generator erstellt thematisch passende Motive. Wählen Sie gleiche Kategorien für beide Arbeitsblätter Grundschule. Zoo-Mathe-Rätsel kombiniert mit Zoo-Ausmalbildern verstärken das Themenlernen. Die kreative Pause zwischen Rechenaufgaben erhöht die Konzentration. Ausmalbilder reduzieren Mathe-Angst durch positive Assoziationen mit dem Fach.',
+      },
+      {
+        id: '16',
+        question: 'Kann ich Buchstaben lernen mit Mathe-Arbeitsblättern für integrierten Vorschulunterricht verbinden?',
+        answer: 'Ja, Buchstaben lernen und Mathe-Arbeitsblätter lassen sich hervorragend kombinieren für Vorschul-Arbeitsblätter. Der Alphabet-Zug-Generator erstellt Übungen zum Buchstaben lernen. Erstellen Sie Wochenthemen die beide Bereiche abdecken. Beispiel: Tiere-Woche mit Tier-Buchstaben und Tier-Mathe-Symbolen. Kinder sehen Verbindungen zwischen Fächern. Vorschul-Arbeitsblätter werden so zu ganzheitlichen Lernerlebnissen. Kombinieren Sie 15 Minuten Buchstaben lernen mit 15 Minuten Rechnen lernen für ausgewogene Förderung.',
+      },
+      {
+        id: '17',
+        question: 'Welche Deutsch-Arbeitsblätter passen zu Mathe-Arbeitsblättern für DaZ-Unterricht?',
+        answer: 'Deutsch-Arbeitsblätter und Mathe-Arbeitsblätter ergänzen sich ideal für DaZ-Schüler. Symbol-Rätsel funktionieren sprachunabhängig für Arbeitsblätter Grundschule. Schüler lernen mathematische Konzepte ohne perfekte Deutschkenntnisse. Kombinieren Sie mit Deutsch-Arbeitsblättern zum Zahlwörter lernen. Der Generator erstellt Arbeitsblätter in 11 Sprachen für Vergleichsmöglichkeiten. Erstellen Sie zweisprachige Lernpakete für Herkunftssprache und Deutsch. Visuelles Lernen mit Bildsymbolen überbrückt Sprachbarrieren effektiv.',
+      },
+      {
+        id: '18',
+        question: 'Wie erstelle ich Arbeitsblätter Grundschule mit Malvorlagen für ganzheitliches Lernen?',
+        answer: 'Kombinieren Sie Mathe-Arbeitsblätter mit Malvorlagen für abwechslungsreiche Arbeitsblätter Grundschule. Der Generator erlaubt thematische Koordination beider Materialtypen. Erstellen Sie Herbst-Bundles mit Kürbis-Rechnen und Blätter-Malvorlagen. Nutzen Sie Ausmalbilder als Belohnung nach erfolgreichem Rechnen lernen. Die 3000+ Bilder-Bibliothek bietet passende Motive für jedes Thema. Drucken Sie beide Arbeitsblätter auf einem Doppelblatt für Vorschul-Arbeitsblätter. Kinder erleben Mathematik und Kreativität als zusammengehörig.',
       },
     ],
   },

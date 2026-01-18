@@ -31,6 +31,26 @@ export const wordScrambleDeContent: ProductPageContent = {
     description: 'Erstellen Sie professionelle Buchstabensalat-Arbeitsblätter mit unserem Arbeitsblatt-Generator. Ihr Basis-Paket Abonnement ermöglicht unbegrenzte Erstellung ohne zusätzliche Kosten pro Arbeitsblatt. Generieren Sie kostenlose Arbeitsblätter für Vorschule und Grundschule in wenigen Minuten.',
     keywords: 'buchstabensalat generator, arbeitsblätter grundschule, kostenlose arbeitsblätter, mathe arbeitsblätter, vorschule arbeitsblätter, buchstaben lernen, deutsch arbeitsblätter, einmaleins, schwungübungen, ausmalbilder',
     canonicalUrl: 'https://www.lessoncraftstudio.com/de/apps/buchstabensalat-arbeitsblaetter',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/german/word-scramble/sample-1.jpeg',
+        width: 3672,
+        height: 4752,
+        caption: 'Kostenloses Buchstabensalat Arbeitsblatt Grundschule - Buchstaben lernen mit bunten Bildern für Kinder'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/german/word-scramble/sample-2.jpeg',
+        width: 3672,
+        height: 4752,
+        caption: 'Buchstabensalat Generator Arbeitsblatt - Deutsch-Arbeitsblätter für Vorschule und 1. Klasse'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/german/word-scramble/sample-3.jpeg',
+        width: 3672,
+        height: 4752,
+        caption: 'Kostenlose Druckvorlagen Wortsalat - Arbeitsblatt für Kinder mit thematischen Bildhinweisen'
+      }
+    ],
   },
 
   // Hero Section - FULL text from word-scramble.md paragraphs 1-4
@@ -44,7 +64,7 @@ Unser Buchstabensalat-Generator kombiniert Bildhinweise mit durcheinandergewürf
 Der Generator funktioniert in 11 Sprachen. Die Bilddateinamen passen sich automatisch Ihrer gewählten Sprache an. Wenn Sie Deutsch wählen, verwendet die App deutsche Wörter für die Buchstabensalat-Rätsel. Dies macht unsere Arbeitsblätter Grundschule ideal für Deutschunterricht, Vorschul-Arbeitsblätter und Sprachförderung.
 
 Lehrer nutzen unseren Generator für Rechtschreibübungen, Wortschatzerweiterung und Buchstaben lernen. Die einstellbaren Schwierigkeitsgrade passen zu verschiedenen Klassenstufen. Von einfachen Vorschul-Arbeitsblätter bis zu anspruchsvollen Deutsch-Arbeitsblätter für die 3. Klasse. Erstellen Sie kostenlose Arbeitsblätter für jeden Lernbedarf.`,
-    previewImageSrc: '/samples/english/word scramble/word scramble portrait.jpeg',
+    previewImageSrc: '/samples/german/word-scramble/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Kostenlos Testen',
       viewSamples: 'Beispiele Ansehen',
@@ -63,7 +83,7 @@ Lehrer nutzen unseren Generator für Rechtschreibübungen, Wortschatzerweiterung
     },
   },
 
-  // Sample Gallery - REAL file paths from samples/english/word scramble/
+  // Sample Gallery - REAL file paths from samples/german/word-scramble/
   samples: {
     sectionTitle: 'Buchstabensalat Arbeitsblätter Beispiele',
     sectionDescription: 'Laden Sie kostenlose Beispiel-Arbeitsblätter herunter, um unsere professionelle Qualität zu sehen',
@@ -79,24 +99,38 @@ Lehrer nutzen unseren Generator für Rechtschreibübungen, Wortschatzerweiterung
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/word scramble/word scramble portrait.jpeg',
-        answerKeySrc: '/samples/english/word scramble/word scramble portrait answer-key.jpeg',
-        altText: 'Buchstabensalat im Hochformat mit thematischen Bildern für Vorschul-Arbeitsblätter und Wortschatztraining',
-        pdfDownloadUrl: '/samples/english/word scramble/word scramble portrait.pdf',
+        worksheetSrc: '/samples/german/word-scramble/sample-1.jpeg',
+        answerKeySrc: '/samples/german/word-scramble/sample-1-answer.jpeg',
+        altText: 'Kostenloses Buchstabensalat Arbeitsblatt Grundschule - Buchstaben lernen mit bunten Bildern für Kinder und Vorschule',
+        pdfDownloadUrl: '/samples/german/word-scramble/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/word scramble/word scramble landscape.jpeg',
-        answerKeySrc: '/samples/english/word scramble/word scramble landscape answer-key.jpeg',
-        altText: 'Buchstabensalat Arbeitsblatt im Querformat mit bunten Bildhinweisen für die Grundschule',
-        pdfDownloadUrl: '/samples/english/word scramble/word scramble landscape.pdf',
+        worksheetSrc: '/samples/german/word-scramble/sample-2.jpeg',
+        answerKeySrc: '/samples/german/word-scramble/sample-2-answer.jpeg',
+        altText: 'Buchstabensalat Generator Arbeitsblatt für Kinder - Kostenlose Arbeitsblätter Deutsch-Arbeitsblätter 1. Klasse',
+        pdfDownloadUrl: '/samples/german/word-scramble/sample-2.pdf',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/word scramble/custom word list.jpeg',
-        answerKeySrc: '/samples/english/word scramble/custom word list answer-key.jpeg',
-        altText: 'Buchstabensalat mit eigener Wortliste für Rechtschreibübungen und Deutsch-Arbeitsblätter',
-        pdfDownloadUrl: '/samples/english/word scramble/custom word list.pdf',
+        worksheetSrc: '/samples/german/word-scramble/sample-3.jpeg',
+        answerKeySrc: '/samples/german/word-scramble/sample-3-answer.jpeg',
+        altText: 'Kostenlose Druckvorlagen Wortsalat - Arbeitsblatt für Vorschule mit thematischen Bildhinweisen zum Buchstaben lernen',
+        pdfDownloadUrl: '/samples/german/word-scramble/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/german/word-scramble/sample-4.jpeg',
+        answerKeySrc: '/samples/german/word-scramble/sample-4-answer.jpeg',
+        altText: 'Kostenloses Arbeitsblatt Buchstabensalat - Arbeitsblätter Grundschule für Wortschatztraining und Rechtschreibung',
+        pdfDownloadUrl: '/samples/german/word-scramble/sample-4.pdf',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/german/word-scramble/sample-5.jpeg',
+        answerKeySrc: '/samples/german/word-scramble/sample-5-answer.jpeg',
+        altText: 'Buchstabensalat Arbeitsblatt für Kinder - Kostenlose Arbeitsblätter mit bunten Bildern für Deutsch und Vorschule',
+        pdfDownloadUrl: '/samples/german/word-scramble/sample-5.pdf',
       },
     ],
   },

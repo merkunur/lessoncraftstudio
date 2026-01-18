@@ -36,8 +36,21 @@ export const chartCountEnContent: ProductPageContent = {
         width: 2480,
         height: 3508,
         caption: 'Math worksheets free printable - kindergarten graphing worksheet for counting and coloring'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/chart-count/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Free printable kindergarten picture graph worksheet - colorful counting activity with answer key'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/chart-count/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Picture graph worksheets for kids - data visualization and counting practice for first grade math'
       }
     ],
+    canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/chart-count-worksheets',
   },
 
   // Hero Section - FULL text from chart-count.md opening paragraphs

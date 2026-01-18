@@ -346,7 +346,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   // This handles all product pages with content files (including non-English pages)
   const content = getContentBySlug(params.locale, params.slug);
   if (content?.seo) {
-    const alternateUrls = getAlternateLanguageUrls(content.seo.appId || params.slug, params.locale);
+    const alternateUrls = getAlternateLanguageUrls(content.seo.appId || params.slug);
     const canonicalUrl = content.seo.canonicalUrl || `https://www.lessoncraftstudio.com/${params.locale}/apps/${params.slug}`;
 
     // Get og:image - prefer seo.images array, fall back to hero preview image or first sample

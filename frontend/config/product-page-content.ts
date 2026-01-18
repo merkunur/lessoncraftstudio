@@ -1829,6 +1829,11 @@ export function getAlternateLanguageUrls(
     }
   }
 
+  // Add x-default pointing to English version for unspecified regions
+  if (alternates['en']) {
+    alternates['x-default'] = alternates['en'];
+  }
+
   return alternates;
 }
 

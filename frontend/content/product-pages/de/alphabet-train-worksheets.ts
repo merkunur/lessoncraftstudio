@@ -29,8 +29,8 @@ export const alphabetTrainDeContent: ProductPageContent = {
   seo: {
     slug: 'alphabet-zug-arbeitsblaetter',
     appId: 'alphabet-train',
-    title: 'Alphabet-Zug Generator - Kostenlose Arbeitsblätter Grundschule zum Buchstaben lernen',
-    description: 'Erstellen Sie professionelle Arbeitsblätter zum Buchstaben lernen mit unserem Alphabet-Zug Generator. Perfekt für Vorschul-Arbeitsblätter und Arbeitsblätter Grundschule. Kombinieren Sie mit Schwungübungen und Ausmalbilder für komplette Lernpakete.',
+    title: 'Alphabet-Zug Generator | Kostenlose Arbeitsblätter Grundschule',
+    description: 'Erstellen Sie kostenlose Alphabet-Zug Arbeitsblätter in 3 Minuten. Perfekt für Buchstaben lernen in Vorschule und Grundschule. PDF-Download sofort verfügbar.',
     keywords: 'alphabet zug, buchstaben lernen, arbeitsblätter grundschule, vorschule arbeitsblätter, kostenlose arbeitsblätter, deutsch arbeitsblätter, schwungübungen, ausmalbilder, abc lernen, alphabet arbeitsblätter',
     canonicalUrl: 'https://www.lessoncraftstudio.com/de/apps/alphabet-zug-arbeitsblaetter',
     images: [
@@ -51,7 +51,19 @@ export const alphabetTrainDeContent: ProductPageContent = {
         width: 2480,
         height: 3508,
         caption: 'Kostenlose Arbeitsblätter Buchstaben lernen - Alphabet-Zug Generator für Arbeitsblätter Grundschule'
-      }
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/german/alphabet-train/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Alphabet-Zug Arbeitsblatt für Kinder - Kostenlose Druckvorlagen zum Buchstaben lernen für Vorschule'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/german/alphabet-train/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Arbeitsblatt für Vorschule Alphabet-Zug - Kostenlose Arbeitsblätter Grundschule mit ABC-Waggons'
+      },
     ],
   },
 

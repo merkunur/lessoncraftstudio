@@ -37,6 +37,18 @@ export const drawingLinesEnContent: ProductPageContent = {
         width: 2480,
         height: 3508,
         caption: 'Free worksheet for kindergarten - diagonal pattern drawing lines for pencil control practice'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/drawing-lines/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Free worksheet for kids - horizontal matching lines for kindergarten fine motor skills practice'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/drawing-lines/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Free printable drawing lines worksheet - vertical pattern matching for kindergarten pencil control'
       }
     ],
   },

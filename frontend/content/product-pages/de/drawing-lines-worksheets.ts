@@ -27,8 +27,8 @@ export const drawingLinesDeContent: ProductPageContent = {
   seo: {
     slug: 'linien-ziehen-arbeitsblaetter',
     appId: 'drawing-lines',
-    title: 'Kostenlose Arbeitsblätter für Schwungübungen - Vorschul-Arbeitsblätter Generator - Arbeitsblätter Grundschule',
-    description: 'Erstellen Sie professionelle Schwungübungen und Zuordnungsaufgaben mit unserem einfachen Generator. Perfekt für Arbeitsblätter Grundschule, Vorschul-Arbeitsblätter und Buchstaben lernen. Laden Sie kostenlose Arbeitsblätter in unter 3 Minuten herunter.',
+    title: 'Schwungübungen Arbeitsblätter Kostenlos | Generator für Grundschule',
+    description: 'Erstellen Sie Schwungübungen Arbeitsblätter in 3 Minuten. Kostenlose Arbeitsblätter für Grundschule und Vorschule. 3000+ Bilder, 11 Sprachen. Jetzt testen!',
     keywords: 'schwungübungen, arbeitsblätter grundschule, kostenlose arbeitsblätter, mathe arbeitsblätter, vorschule arbeitsblätter, buchstaben lernen, deutsch arbeitsblätter, einmaleins, ausmalbilder, rechnen lernen',
     canonicalUrl: 'https://www.lessoncraftstudio.com/de/apps/linien-ziehen-arbeitsblaetter',
     images: [
@@ -49,6 +49,18 @@ export const drawingLinesDeContent: ProductPageContent = {
         width: 2480,
         height: 3508,
         caption: 'Arbeitsblatt für Kinder Grundschule - Schwungübungen mit Diagonallinien für Feinmotorik-Entwicklung'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/german/drawing-lines/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Kostenloses Arbeitsblatt Linien-Ziehen - Horizontale Schwungübungen für Arbeitsblatt für Vorschule'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/german/drawing-lines/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Kostenlose Druckvorlagen Schwungübungen - Vertikale Linien-Zuordnung als Arbeitsblatt für Kinder'
       }
     ],
   },
@@ -99,35 +111,35 @@ Der Generator umfasst 8 verschiedene Vorlagen mit verschiedenen Linienmustern un
         id: '1',
         worksheetSrc: '/samples/german/drawing-lines/sample-1.jpeg',
         answerKeySrc: '',
-        altText: 'Schwungübungen Arbeitsblätter Grundschule kostenlos - Kurvenlinien-Zuordnung für Vorschule Feinmotorik-Entwicklung mit Buchstaben lernen Vorbereitung',
+        altText: 'Schwungübungen Kostenloses Arbeitsblatt für Kinder - Kurvenlinien-Zuordnung für Arbeitsblatt für Vorschule Feinmotorik-Entwicklung',
         pdfDownloadUrl: '/samples/german/drawing-lines/sample-1.pdf',
       },
       {
         id: '2',
         worksheetSrc: '/samples/german/drawing-lines/sample-2.jpeg',
         answerKeySrc: '',
-        altText: 'Kostenlose Arbeitsblätter Vorschule - Schwungübungen mit geschwungenen Linien für Arbeitsblätter Grundschule und Deutsch-Arbeitsblätter Vorbereitung',
+        altText: 'Kostenlose Druckvorlagen Schwungübungen - Arbeitsblatt für Kinder mit geschwungenen Linien für Deutsch-Arbeitsblätter Vorbereitung',
         pdfDownloadUrl: '/samples/german/drawing-lines/sample-2.pdf',
       },
       {
         id: '3',
         worksheetSrc: '/samples/german/drawing-lines/sample-3.jpeg',
         answerKeySrc: '',
-        altText: 'Vorschul-Arbeitsblätter Schwungübungen kostenlos - Diagonallinien-Zuordnung für Arbeitsblätter Grundschule Feinmotorik-Kontrolle Übung',
+        altText: 'Arbeitsblatt für Vorschule Schwungübungen - Kostenloses Arbeitsblatt mit Diagonallinien für Feinmotorik-Kontrolle Übung',
         pdfDownloadUrl: '/samples/german/drawing-lines/sample-3.pdf',
       },
       {
         id: '4',
         worksheetSrc: '/samples/german/drawing-lines/sample-4.jpeg',
         answerKeySrc: '',
-        altText: 'Arbeitsblätter Grundschule Schwungübungen - Kostenlose Arbeitsblätter für Kinder mit Linien-Zuordnung für Buchstaben lernen Vorbereitung',
+        altText: 'Kostenloses Arbeitsblatt für Kinder Schwungübungen - Arbeitsblatt für Grundschule mit Linien-Zuordnung für Buchstaben lernen',
         pdfDownloadUrl: '/samples/german/drawing-lines/sample-4.pdf',
       },
       {
         id: '5',
         worksheetSrc: '/samples/german/drawing-lines/sample-5.jpeg',
         answerKeySrc: '',
-        altText: 'Kostenlose Druckvorlagen Schwungübungen - Vorschul-Arbeitsblätter und Arbeitsblätter Grundschule für Hand-Augen-Koordination Entwicklung',
+        altText: 'Kostenlose Druckvorlagen Schwungübungen - Arbeitsblatt für Vorschule und Arbeitsblatt für Kinder Hand-Augen-Koordination',
         pdfDownloadUrl: '/samples/german/drawing-lines/sample-5.pdf',
       },
     ],
@@ -135,7 +147,7 @@ Der Generator umfasst 8 verschiedene Vorlagen mit verschiedenen Linienmustern un
 
   // Features Grid - FULL text from linien-ziehen.md feature sections
   features: {
-    sectionTitle: 'Schwungübungen-Generator Funktionen - Alles für Vorschul-Arbeitsblätter und Arbeitsblätter Grundschule',
+    sectionTitle: 'Kostenloses Arbeitsblatt für Kinder - Schwungübungen Generator Funktionen für Arbeitsblatt für Vorschule',
     sectionDescription: 'Unser Generator für Schwungübungen bietet umfassende Funktionen für die Erstellung professioneller Arbeitsblätter für Vorschule und Grundschule. Lehrkräfte erstellen maßgeschneiderte Zuordnungsübungen in weniger als 3 Minuten mit unserer benutzerfreundlichen Plattform. Jede Funktion konzentriert sich darauf, Zeit zu sparen und gleichzeitig hohe Qualität für den Unterrichtseinsatz zu gewährleisten. Ihr Basis-Paket Abonnement ermöglicht unbegrenzte Erstellung von Arbeitsblättern ohne Zusatzkosten pro Arbeitsblatt. Generieren Sie Schwungübungen zusammen mit anderen Arbeitsblättern für Buchstaben lernen, Mathe und Deutsch auf derselben Plattform. Das komplette Werkzeugset unterstützt alle Ihre Bedürfnisse für kostenlose Arbeitsblätter von der Vorschule bis zur 3. Klasse.',
     highlightBadgeText: 'Hauptfunktion',
     readMoreLabel: 'Mehr lesen',
@@ -150,7 +162,7 @@ Der Generator umfasst 8 verschiedene Vorlagen mit verschiedenen Linienmustern un
       {
         id: '1',
         icon: '⚡',
-        title: 'Erstellen Sie kostenlose Arbeitsblätter in 3 Klicks - Vorschul-Arbeitsblätter und Arbeitsblätter Grundschule',
+        title: 'Kostenloses Arbeitsblatt in 3 Klicks - Arbeitsblatt für Kinder und Arbeitsblatt für Vorschule',
         description: `Generieren Sie vollständige Schwungübungen mit nur drei einfachen Klicks. Zuerst wählen Sie eine der 8 Vorlagenmuster aus dem visuellen Vorlagenraster. Zweitens wählen Sie Ihre Zuordnungsbilder aus über 3000 Optionen oder laden Sie eigene Bilder hoch. Drittens klicken Sie auf die Generieren-Schaltfläche, um Ihr Arbeitsblatt sofort zu erstellen. Der gesamte Prozess dauert weniger als 90 Sekunden für grundlegende Arbeitsblätter.
 
 Diese Geschwindigkeit macht den Generator perfekt für beschäftigte Lehrkräfte, die täglich Vorschul-Arbeitsblätter und Arbeitsblätter Grundschule vorbereiten. Erstellen Sie mehrere Variationen für differenzierten Unterricht in wenigen Minuten. Die schnelle Generierung unterstützt die Unterrichtsplanung für verschiedene Fächer und Themen. Keine Designkenntnisse erforderlich, um jedes Mal professionell aussehende Zuordnungsübungen zu erstellen.`,
@@ -159,7 +171,7 @@ Diese Geschwindigkeit macht den Generator perfekt für beschäftigte Lehrkräfte
       {
         id: '2',
         icon: '✏️',
-        title: 'Bearbeiten Sie Schwungübungen und alle Arbeitsblätter - Vollständige Anpassung für Vorschule und Grundschule',
+        title: 'Bearbeiten Sie jedes Arbeitsblatt - Kostenloses Arbeitsblatt für Kinder anpassen',
         description: `Jedes Element auf generierten Schwungübungen ist vollständig auf der Arbeitsfläche bearbeitbar. Ziehen Sie Bilder, um sie beliebig auf der Seite neu zu positionieren. Ändern Sie die Größe von Bildern mit einfachen Maussteuerungen. Drehen Sie Bilder in jeden Winkel für kreative Arbeitsblattlayouts. Fügen Sie benutzerdefinierte Textfelder für Schülernamen, Anweisungen oder Lerninhalte hinzu.
 
 Ändern Sie Farben, Schriftarten und Textgrößen, um sie an Ihr Klassenthema anzupassen. Löschen Sie jedes Element, das Sie auf dem endgültigen Arbeitsblatt nicht möchten. Diese vollständige Bearbeitbarkeit unterscheidet unsere Plattform von starren vorlagenbasierten Generatoren. Lehrkräfte kombinieren Schwungübungen mit anderen Aktivitäten auf derselben Seite. Die Flexibilität funktioniert für die Erstellung umfassender Arbeitsblätter, die mehrere Lernziele gleichzeitig ansprechen.`,
@@ -168,7 +180,7 @@ Diese Geschwindigkeit macht den Generator perfekt für beschäftigte Lehrkräfte
       {
         id: '3',
         icon: '📤',
-        title: 'Laden Sie eigene Bilder hoch für Arbeitsblätter Grundschule, Mathe-Arbeitsblätter und Ausmalbilder',
+        title: 'Eigene Bilder hochladen - Kostenlose Druckvorlagen und Arbeitsblatt für Vorschule erstellen',
         description: `Laden Sie unbegrenzt viele eigene Bilder hoch, um Ihre Arbeitsblätter für Ihre Schüler zu personalisieren. Die Mehrfachdatei-Upload-Funktion ermöglicht es Ihnen, Dutzende von Bildern auf einmal hinzuzufügen. Verwenden Sie Fotos von Klassenzimmerobjekten für relevante Zuordnungsübungen. Laden Sie Schülerkunstwerke hoch, um ansprechende personalisierte Arbeitsblätter zu erstellen.
 
 Fügen Sie Bilder aus aktuellen Unterrichtseinheiten für thematische Zuordnungsaktivitäten hinzu. Kombinieren Sie hochgeladene Bilder mit unserer 3000+ Bildbibliothek für unbegrenzte Vielfalt. Diese Funktion macht den Generator unverzichtbar für die Erstellung maßgeschneiderter Mathe-Arbeitsblätter und Ausmalbilder mit vertrauten Bildern. Lehrkräfte fotografieren Unterrichtsmaterialien und laden sie hoch, um konkrete Lernprogression zu erstellen. Die benutzerdefinierte Upload-Funktion verwandelt generische Arbeitsblätter in zielgerichtete Lernwerkzeuge.`,
@@ -177,7 +189,7 @@ Fügen Sie Bilder aus aktuellen Unterrichtseinheiten für thematische Zuordnungs
       {
         id: '4',
         icon: '🌍',
-        title: 'Arbeitsblätter in 11 Sprachen - Deutsch-Arbeitsblätter, Mathe und kostenlose Arbeitsblätter für alle',
+        title: 'Kostenloses Arbeitsblatt in 11 Sprachen - Arbeitsblatt für Kinder mehrsprachig',
         description: `Generieren Sie Schwungübungen in 11 verschiedenen Sprachen für mehrsprachige Klassenzimmer. Die Benutzeroberfläche und der Arbeitsblatttext werden automatisch in Deutsch, Englisch, Französisch, Spanisch, Italienisch, Portugiesisch, Niederländisch, Dänisch, Schwedisch, Norwegisch und Finnisch übersetzt. DaZ-Lehrkräfte erstellen dieselbe Zuordnungsübung in mehreren Sprachen für differenzierten Unterricht.
 
 Zweisprachige Immersionsprogramme nutzen den Generator für konsistente Materialien in beiden Sprachen. Herkunftssprachenprogramme erstellen Deutsch-Arbeitsblätter für den muttersprachlichen Unterricht. Fremdsprachenlehrkräfte generieren Vokabel-Zuordnungsübungen mit Zielsprachenbeschriftungen. Die mehrsprachige Unterstützung erstreckt sich über Schwungübungen hinaus auf alle Arbeitsblatttypen auf der Plattform. Erstellen Sie Mathe-Arbeitsblätter auf Deutsch, kostenlose Arbeitsblätter auf Englisch und mehr mit einem Abonnement.`,
@@ -204,7 +216,7 @@ Jedes Bild funktioniert perfekt für Zuordnungsübungen in Schwungübungen. Dies
       {
         id: '7',
         icon: '🖨️',
-        title: 'Professionelle 300 DPI Qualität - Druckfertige Vorschul-Arbeitsblätter und kostenlose Arbeitsblätter',
+        title: '300 DPI Qualität - Kostenlose Druckvorlagen als professionelles Arbeitsblatt drucken',
         description: `Exportieren Sie alle Schwungübungen in echter 300 DPI Auflösung für gestochen scharfen, professionellen Druck. Wählen Sie zwischen PDF-Format für einfaches Drucken im Klassenzimmer oder JPEG für digitale Verbreitung. Die hohe Auflösung gewährleistet klare Bilder und scharfen Text auf jeder gedruckten Seite.
 
 Aktivieren Sie die Graustufenoption, um Druckertinte zu sparen und gleichzeitig die Arbeitsblattqualität beizubehalten. Der 300 DPI Standard macht Arbeitsblätter für kommerziellen Druck und Veröffentlichung geeignet. Erstellen Sie Vorschul-Arbeitsblätter und andere kostenlose Arbeitsblätter mit derselben professionellen Qualität. Drucken Sie Arbeitsblätter auf Standard-Klassendruckern oder senden Sie sie an kommerzielle Druckereien. Die Qualität entspricht teuren pädagogischen Verlagen und kostet einen Bruchteil des Preises mit Ihrem Abonnement.`,
@@ -224,7 +236,7 @@ Horizontalvorlagen ordnen Bilder in Links-Rechts-Spalten mit geraden Verbindunge
 
   // How-To Guide - FULL text from linien-ziehen.md step sections
   howTo: {
-    sectionTitle: 'So erstellen Sie kostenlose Arbeitsblätter in 5 einfachen Schritten',
+    sectionTitle: 'Kostenloses Arbeitsblatt für Kinder in 5 Schritten erstellen',
     sectionDescription: 'Erstellen Sie professionelle Schwungübungen in weniger als 3 Minuten mit unserem schrittweisen Prozess. Der Generator führt Sie durch jeden Schritt von der Vorlagenauswahl bis zum endgültigen Download. Keine Designerfahrung erforderlich, um hochwertige Vorschul-Arbeitsblätter und Arbeitsblätter Grundschule zu erstellen.',
     ctaText: 'Jetzt Erstellen',
     badgeText: 'So funktioniert es',
@@ -239,7 +251,7 @@ Horizontalvorlagen ordnen Bilder in Links-Rechts-Spalten mit geraden Verbindunge
       {
         id: '1',
         number: 1,
-        title: 'Wählen Sie Ihre Schwungübungen-Vorlage',
+        title: 'Wählen Sie Ihre Vorlage - Arbeitsblatt für Vorschule oder Grundschule',
         description: `Klicken Sie auf den Abschnitt Vorlagen und Bilder in der linken Seitenleiste, um alle 8 Linienzieh-Vorlagen anzuzeigen. Das visuelle Raster zeigt Miniaturansichten jedes Vorlagenmusters. Kurvenvorlagen zeigen fließende, wellige Linien, die linke und rechte Spalten im Querformat verbinden. Diagonalvorlagen zeigen schräge Verbindungen im Hochformat für anspruchsvolle Zuordnungsübungen.
 
 Horizontalvorlagen ordnen Bilder in Links-Rechts-Spalten mit geraden Verbindungen an. Vertikalvorlagen positionieren Bilder in Oben-Unten-Reihen für Auf-Ab-Linienziehen. Jede Vorlagen-Miniaturansicht zeigt genau, wie die Zuordnungspaare auf Ihrem Arbeitsblatt angeordnet werden. Klicken Sie auf eine beliebige Vorlage, um sie als Grundlage Ihres Arbeitsblatts auszuwählen. Wählen Sie einfachere horizontale Muster für Vorschulkinder, die grundlegendes Linienziehen üben. Wählen Sie anspruchsvolle diagonale oder Kurvenmuster für fortgeschrittene Arbeitsblätter Grundschule.`,
@@ -296,7 +308,7 @@ Alle Arbeitsblätter werden in professioneller 300 DPI Auflösung für gestochen
         id: '1',
         icon: '👶',
         title: 'Vorschule und Kindergarten-Erzieher',
-        subtitle: 'Kostenlose Arbeitsblätter für Schwungübungen und Buchstaben lernen',
+        subtitle: 'Kostenloses Arbeitsblatt für Kinder - Arbeitsblatt für Vorschule und Buchstaben lernen',
         description: `Kindergarten-Erzieher nutzen Schwungübungen täglich für Feinmotorik-Übungen und visuelle Unterscheidungstraining. Erstellen Sie Morgenarbeitspakete mit thematischen Zuordnungsübungen unter Verwendung saisonaler Bilder. Generieren Sie Stationsaktivitäten mit verschiedenen Schwierigkeitsstufen für differenzierte Kleingruppenarbeit. Drucken Sie Hausaufgaben-Übungsblätter für Schüler, die Schwierigkeiten mit der Stifthaltung haben.
 
 Verwenden Sie die 8 verschiedenen Vorlagen, um das ganze Schuljahr über Abwechslung zu bieten. Beginnen Sie das Jahr mit einfachen horizontalen Vorlagen für grundlegendes Links-nach-Rechts-Linienziehen. Schreiten Sie zu anspruchsvollen diagonalen und Kurvenmustern fort, wenn sich die Schülerfähigkeiten verbessern. Kombinieren Sie Schwungübungen mit Arbeitsblättern für Buchstaben lernen für Buchstabenerkennungsstationen.`,
@@ -306,7 +318,7 @@ Verwenden Sie die 8 verschiedenen Vorlagen, um das ganze Schuljahr über Abwechs
         id: '2',
         icon: '📚',
         title: 'Grundschullehrkräfte 1. bis 3. Klasse',
-        subtitle: 'Arbeitsblätter Grundschule für Deutsch-Arbeitsblätter, Mathe und Rechnen lernen',
+        subtitle: 'Kostenloses Arbeitsblatt - Arbeitsblatt für Kinder mit Deutsch und Mathe',
         description: `Erstklasslehrkräfte integrieren Schwungübungen in Literacy-Stationen für Vokabelentwicklung. Erstellen Sie Zuordnungsübungen für Deutsch-Arbeitsblätter, die Wörter mit entsprechenden Bildern paaren. Generieren Sie Arbeitsblätter für Buchstaben lernen, die Anfangslaute mit Bildern für Laut-Buchstaben-Zuordnung abgleichen. Entwerfen Sie Mathe-Arbeitsblätter für Rechnen lernen unter Verwendung von Bildgruppen, die Schüler zählen, bevor sie Verbindungslinien ziehen.
 
 Zweitklasslehrkräfte verwenden den Generator für fachspezifisches Vokabular in Sachkunde- und Sozialkundeeinheiten. Laden Sie Bilder aus aktuellen Einheiten hoch und erstellen Sie benutzerdefinierte Zuordnungs-Terminologieübungen. Generieren Sie differenzierte Versionen desselben Arbeitsblatts für Schüler mit Schwierigkeiten, auf Klassenstufe und fortgeschrittene Lernende gleichzeitig.`,
@@ -316,7 +328,7 @@ Zweitklasslehrkräfte verwenden den Generator für fachspezifisches Vokabular in
         id: '3',
         icon: '🏠',
         title: 'Homeschool-Eltern',
-        subtitle: 'Vorschul-Arbeitsblätter, kostenlose Arbeitsblätter für Buchstaben lernen und Rechnen lernen zu Hause',
+        subtitle: 'Kostenlose Druckvorlagen - Arbeitsblatt für Vorschule und Arbeitsblatt für Kinder zu Hause',
         description: `Homeschool-Eltern verwalten mehrere Kinder auf verschiedenen Klassenstufen unter Verwendung des Schwungübungen-Generators für individualisierten Unterricht. Erstellen Sie maßgeschneiderte Vorschul-Arbeitsblätter mit Familienfotos, Haustieren oder vertrauten Haushaltsobjekten für personalisiertes Lernen. Generieren Sie Arbeitsblätter Grundschule, die auf Ihren gewählten Lehrplanumfang und Ihre Reihenfolge abgestimmt sind.
 
 Die 11-Sprachunterstützung hilft Familien, die Herkunftssprachen oder Weltsprachenprogramme zu Hause unterrichten. Generieren Sie dieselbe Zuordnungsübung auf Deutsch und Spanisch für zweisprachige Kompetenzentwicklung. Die Möglichkeit, eigene Bilder hochzuladen, macht jedes Arbeitsblatt für Ihre Schüler persönlich bedeutungsvoll. Drucken Sie unbegrenzt Arbeitsblätter ohne Kosten pro Arbeitsblatt und sparen Sie Hunderte im Vergleich zu Verbrauchsmaterial-Lehrplanbüchern.`,
@@ -326,7 +338,7 @@ Die 11-Sprachunterstützung hilft Familien, die Herkunftssprachen oder Weltsprac
         id: '4',
         icon: '🌍',
         title: 'DaZ- und Sprachlehrkräfte',
-        subtitle: 'Mehrsprachige Deutsch-Arbeitsblätter und kostenlose Arbeitsblätter in 11 Sprachen',
+        subtitle: 'Kostenloses Arbeitsblatt für Kinder - Kostenlose Druckvorlagen in 11 Sprachen',
         description: `DaZ-Lehrkräfte generieren Vokabel-Zuordnungsarbeitsblätter in den Herkunftssprachen der Schüler zur Verständnisunterstützung. Erstellen Sie zweisprachige Arbeitsblätter, die dieselben Bilder mit Beschriftungen sowohl auf Deutsch als auch in der Muttersprache zeigen. Entwerfen Sie Anfangs-Deutsch-Vokabelübungen unter Verwendung alltäglicher Objekte, die Neuankömmlingen vertraut sind.
 
 Die 11-Sprachoberfläche ermöglicht es Schülern, Anweisungen in ihrer Muttersprache zu sehen, was Angst reduziert. Erstellen Sie gestaffelte Arbeitsblatt-Sets, bei denen Zuordnungspaare zunehmend anspruchsvoller werden. Zweisprachige Immersionsprogramme verwenden den Generator für konsistente Materialien in beiden Programmsprachen. Weltsprachenlehrkräfte auf Mittel- und Oberschulebene verwenden den Generator für Anfangsvokabelpraxis.`,
@@ -336,7 +348,7 @@ Die 11-Sprachoberfläche ermöglicht es Schülern, Anweisungen in ihrer Muttersp
         id: '5',
         icon: '💜',
         title: 'Sonderpädagogen',
-        subtitle: 'Individualisierte Vorschul-Arbeitsblätter, Mathe-Arbeitsblätter für Einmaleins und Rechnen lernen',
+        subtitle: 'Kostenloses Arbeitsblatt - Arbeitsblatt für Vorschule individuell anpassen',
         description: `Sonderpädagogen erstellen hochgradig individualisierte Schwungübungen, die auf spezifische Förderpläne-Ziele abzielen. Entwerfen Sie Lebenskompetenz-Zuordnungsübungen, die alltägliche Objekte mit ihren Verwendungen oder Standorten paaren. Generieren Sie funktionale Vokabel-Arbeitsblätter, die Sicherheitsschilder mit ihren Bedeutungen abgleichen. Laden Sie Fotos von tatsächlichen Klassenmaterialien für relevante, konkrete Übung hoch.
 
 Die vollständige Bearbeitbarkeit der Arbeitsfläche ermöglicht Modifikationen nach der Generierung für perfekte Barrierefreiheit. Vergrößern Sie spezifische Bilder für Schüler mit Sehbeeinträchtigungen. Fügen Sie zusätzliche Texthinweise oder Farbcodierung für Schüler hinzu, die zusätzliche Unterstützung benötigen. Der Generator unterstützt die Erstellung mehrerer Versionen auf verschiedenen Schwierigkeitsstufen für Fortschrittsüberwachung.`,
@@ -346,7 +358,7 @@ Die vollständige Bearbeitbarkeit der Arbeitsfläche ermöglicht Modifikationen 
         id: '6',
         icon: '💰',
         title: 'Lehrer-Unternehmer',
-        subtitle: 'Verkauf von kostenlosen Arbeitsblättern auf Eduki mit Einmaleins und Rechnen lernen Inhalten',
+        subtitle: 'Kostenlose Druckvorlagen verkaufen - Arbeitsblatt für Kinder auf Eduki anbieten',
         description: `Lehrkräfte, die Unterrichtsmaterialien verkaufen, bauen profitable Geschäfte auf, indem sie Arbeitsblätter-Pakete mit dem Schwungübungen-Generator erstellen. Entwerfen Sie thematische saisonale Arbeitsblätter-Bundles für Schuljahresbeginn, Halloween, Weihnachten und Schuljahresende-Verkäufe. Erstellen Sie umfassende Vorschul-Arbeitsblätter-Pakete, die nach Kompetenzprogression von einfach bis komplex organisiert sind.
 
 Die enthaltene POD-Gewerbliche Lizenz erlaubt unbegrenzte Verkäufe ohne zusätzliche Lizenzgebühren. Viele Lehrkräfte verdienen 500-2000 Euro monatlich allein durch Verkäufe auf Eduki. Top-Verkäufer generieren 5000-10000 Euro monatlich mit umfassenden Arbeitsblätter-Sammlungen über mehrere Apps hinweg. Die 300 DPI Export-Qualität gewährleistet professionelle Ergebnisse, die teuren veröffentlichten Materialien entsprechen.`,

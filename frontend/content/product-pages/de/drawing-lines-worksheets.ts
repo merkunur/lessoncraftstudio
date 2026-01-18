@@ -31,6 +31,26 @@ export const drawingLinesDeContent: ProductPageContent = {
     description: 'Erstellen Sie professionelle Schwungübungen und Zuordnungsaufgaben mit unserem einfachen Generator. Perfekt für Arbeitsblätter Grundschule, Vorschul-Arbeitsblätter und Buchstaben lernen. Laden Sie kostenlose Arbeitsblätter in unter 3 Minuten herunter.',
     keywords: 'schwungübungen, arbeitsblätter grundschule, kostenlose arbeitsblätter, mathe arbeitsblätter, vorschule arbeitsblätter, buchstaben lernen, deutsch arbeitsblätter, einmaleins, ausmalbilder, rechnen lernen',
     canonicalUrl: 'https://www.lessoncraftstudio.com/de/apps/linien-ziehen-arbeitsblaetter',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/german/drawing-lines/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Schwungübungen Arbeitsblätter Grundschule - Kostenlose Arbeitsblätter für Vorschule mit Kurvenlinien-Zuordnung'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/german/drawing-lines/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Kostenlose Arbeitsblätter für Kinder - Vorschul-Arbeitsblätter Linien ziehen für Buchstaben lernen'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/german/drawing-lines/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Arbeitsblatt für Kinder Grundschule - Schwungübungen mit Diagonallinien für Feinmotorik-Entwicklung'
+      }
+    ],
   },
 
   // Hero Section - FULL text from linien-ziehen.md paragraphs 1-4
@@ -42,7 +62,7 @@ export const drawingLinesDeContent: ProductPageContent = {
 Unser Generator für Schwungübungen hilft Kindern, wichtige feinmotorische Fähigkeiten durch ansprechende Zuordnungsübungen zu entwickeln. Kinder ziehen Linien, um passende Bilder zu verbinden, die in zwei Spalten auf dem Arbeitsblatt angeordnet sind. Diese einfache und effektive Aktivität stärkt die Stifthaltung und Hand-Augen-Koordination. Erzieher nutzen diese Arbeitsblätter für Vorschule und Grundschule täglich in ihrem Unterricht. Das Zuordnungsformat macht das Lernen spielerisch und hält junge Schüler bei der Sache. Schüler üben visuelle Unterscheidung und verbessern gleichzeitig ihre Fähigkeit, Linien zu ziehen. Jedes Arbeitsblatt bietet mehrere Zuordnungspaare zum Bearbeiten. Die Vielfalt an Linienmustern fordert Schüler auf unterschiedlichen Entwicklungsstufen.
 
 Der Generator umfasst 8 verschiedene Vorlagen mit verschiedenen Linienmustern und Ausrichtungen. Wählen Sie Kurvenvorlagen für Arbeitsblätter im Querformat mit fließenden Linienmustern. Nutzen Sie Diagonalvorlagen für Hochformat-Layouts mit schrägen Verbindungslinien. Verwenden Sie Horizontalvorlagen für Links-nach-Rechts-Übungen. Setzen Sie Vertikalvorlagen für Auf-und-Ab-Zuordnungsübungen ein. Jede Vorlage erstellt eine einzigartige Zuordnungsaufgabe für Ihre Schüler. Passen Sie jedes Arbeitsblatt mit Ihren eigenen hochgeladenen Bildern an oder wählen Sie aus unserer Bibliothek. Fügen Sie Rahmen, Hintergründe und personalisierte Textelemente hinzu. Ihr Basis-Paket Abonnement beinhaltet Zugriff auf über 3000 kinderfreundliche Bilder, organisiert nach Themen. Erstellen Sie unbegrenzt viele Arbeitsblattsvariationen für verschiedene Schwierigkeitsstufen, Themen und Lehrplaninhalte. Generieren Sie Arbeitsblätter in 11 Sprachen für mehrsprachige Klassenzimmer.`,
-    previewImageSrc: '/samples/english/drawing lines/drawing_lines_curve 1.jpeg',
+    previewImageSrc: '/samples/german/drawing-lines/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Kostenlos Testen',
       viewSamples: 'Beispiele Ansehen',
@@ -77,45 +97,38 @@ Der Generator umfasst 8 verschiedene Vorlagen mit verschiedenen Linienmustern un
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/drawing lines/drawing_lines_curve 1.jpeg',
+        worksheetSrc: '/samples/german/drawing-lines/sample-1.jpeg',
         answerKeySrc: '',
-        altText: 'Schwungübungen Kurven-Arbeitsblatt mit fließenden Linienmustern für Vorschule Feinmotorik-Entwicklung',
-        pdfDownloadUrl: '/samples/english/drawing lines/drawing_lines_curve 1.pdf',
+        altText: 'Schwungübungen Arbeitsblätter Grundschule kostenlos - Kurvenlinien-Zuordnung für Vorschule Feinmotorik-Entwicklung mit Buchstaben lernen Vorbereitung',
+        pdfDownloadUrl: '/samples/german/drawing-lines/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/drawing lines/drawing_lines_curve 2.jpeg',
+        worksheetSrc: '/samples/german/drawing-lines/sample-2.jpeg',
         answerKeySrc: '',
-        altText: 'Schwungübungen geschwungene Zuordnung für Vorschule und Kindergarten Schüler',
-        pdfDownloadUrl: '/samples/english/drawing lines/drawing_lines_curve 2.pdf',
+        altText: 'Kostenlose Arbeitsblätter Vorschule - Schwungübungen mit geschwungenen Linien für Arbeitsblätter Grundschule und Deutsch-Arbeitsblätter Vorbereitung',
+        pdfDownloadUrl: '/samples/german/drawing-lines/sample-2.pdf',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/drawing lines/drawing_lines_diagonal 1.jpeg',
+        worksheetSrc: '/samples/german/drawing-lines/sample-3.jpeg',
         answerKeySrc: '',
-        altText: 'Schwungübungen Diagonalvorlage Arbeitsblatt für Feinmotorik-Kontrolle Übung',
-        pdfDownloadUrl: '/samples/english/drawing lines/drawing_lines_diagonal 1.pdf',
+        altText: 'Vorschul-Arbeitsblätter Schwungübungen kostenlos - Diagonallinien-Zuordnung für Arbeitsblätter Grundschule Feinmotorik-Kontrolle Übung',
+        pdfDownloadUrl: '/samples/german/drawing-lines/sample-3.pdf',
       },
       {
         id: '4',
-        worksheetSrc: '/samples/english/drawing lines/drawing_lines_diagonal 2.jpeg',
+        worksheetSrc: '/samples/german/drawing-lines/sample-4.jpeg',
         answerKeySrc: '',
-        altText: 'Diagonale Linien-Zuordnung Arbeitsblatt für Grundschule Schüler',
-        pdfDownloadUrl: '/samples/english/drawing lines/drawing_lines_diagonal 2.pdf',
+        altText: 'Arbeitsblätter Grundschule Schwungübungen - Kostenlose Arbeitsblätter für Kinder mit Linien-Zuordnung für Buchstaben lernen Vorbereitung',
+        pdfDownloadUrl: '/samples/german/drawing-lines/sample-4.pdf',
       },
       {
         id: '5',
-        worksheetSrc: '/samples/english/drawing lines/drawing_lines_horizontal.jpeg',
+        worksheetSrc: '/samples/german/drawing-lines/sample-5.jpeg',
         answerKeySrc: '',
-        altText: 'Horizontale Schwungübungen Arbeitsblatt für Links-nach-Rechts Linienziehen Übung',
-        pdfDownloadUrl: '/samples/english/drawing lines/drawing_lines_horizontal.pdf',
-      },
-      {
-        id: '6',
-        worksheetSrc: '/samples/english/drawing lines/drawing_lines_vertical.jpeg',
-        answerKeySrc: '',
-        altText: 'Vertikale Schwungübungen Arbeitsblatt für Auf-und-Ab Zuordnungsübungen',
-        pdfDownloadUrl: '/samples/english/drawing lines/drawing_lines_vertical.pdf',
+        altText: 'Kostenlose Druckvorlagen Schwungübungen - Vorschul-Arbeitsblätter und Arbeitsblätter Grundschule für Hand-Augen-Koordination Entwicklung',
+        pdfDownloadUrl: '/samples/german/drawing-lines/sample-5.pdf',
       },
     ],
   },

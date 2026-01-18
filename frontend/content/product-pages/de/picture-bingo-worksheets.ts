@@ -49,6 +49,18 @@ export const pictureBingoDeContent: ProductPageContent = {
         width: 2480,
         height: 3508,
         caption: 'Vorschul-Arbeitsblätter Bilder-Bingo druckbar - kostenloses Arbeitsblatt für Kindergarten mit Ausmalbilder'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/german/bingo/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Bilder-Bingo Arbeitsblatt für Vorschule und Grundschule - kostenlose Druckvorlage mit Einmaleins und Rechnen 1. Klasse'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/german/bingo/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Deutsch-Arbeitsblätter Bilder-Bingo Generator - kostenloses Arbeitsblatt für Schwungübungen und Klassenaktivitäten'
       }
     ],
   },

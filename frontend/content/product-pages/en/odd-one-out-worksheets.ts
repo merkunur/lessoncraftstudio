@@ -103,7 +103,7 @@ The odd one out generator creates worksheets for any subject or theme. Choose fr
       {
         id: '3',
         icon: '📤',
-        title: 'Upload Images for Printable Logic Worksheets and Categorization Worksheets',
+        title: 'Upload Images for Free Printables and Categorization Worksheets',
         description: 'Upload your own images to create truly personalized kindergarten worksheets. Add student photos for name recognition exercises. Include classroom objects students interact with daily. Combine uploaded images with library pictures on the same worksheet. The multi-file upload accepts all common image formats. JPEG, PNG, and GIF files work perfectly. Upload dozens of images at once for faster worksheet creation. Your uploaded images integrate seamlessly with math worksheets and phonics worksheets themes. Custom image upload makes differentiation easy for first grade worksheets. Create versions featuring students\' favorite characters or interests. Upload images matching current units or seasons. This personalization increases engagement with addition worksheets and sight words worksheets.',
         highlighted: false,
       },
@@ -295,7 +295,7 @@ The odd one out generator creates worksheets for any subject or theme. Choose fr
       },
       {
         id: '5',
-        question: 'What Languages Are Available for Printable Worksheets?',
+        question: 'What Languages Are Available for Free Printables?',
         answer: 'Odd one out worksheets generate in 11 different languages supporting multilingual classrooms. The complete interface translates to English, Spanish, French, German, Portuguese, Italian, Dutch, Swedish, Danish, Norwegian, and Finnish. All buttons, labels, and instructions appear in your selected language. Switch languages instantly for different student groups. Create morning worksheets in Spanish for dual-language immersion programs. Generate afternoon versions in English for ESL transition students. Combine with phonics worksheets and sight words worksheets in target languages.',
       },
       {
@@ -305,7 +305,7 @@ The odd one out generator creates worksheets for any subject or theme. Choose fr
       },
       {
         id: '7',
-        question: 'How Do I Customize Visual Discrimination Worksheets?',
+        question: 'How Do I Customize My Worksheet for Kindergarten?',
         answer: 'Customize worksheets extensively through generation settings and post-generation editing. Choose individual images or theme-based random selection. Adjust exercise numbers from 1 to 10 per worksheet. Configure mode selection between Identical and Similar difficulty levels. After generation, edit any element on the worksheet canvas. Add custom text for student names or special instructions. Change colors matching classroom themes. Delete unwanted elements or add decorative borders. Upload custom images personalizing worksheets for specific students.',
       },
       {
@@ -315,12 +315,12 @@ The odd one out generator creates worksheets for any subject or theme. Choose fr
       },
       {
         id: '9',
-        question: 'Can I Upload Images to the Worksheet Generator?',
+        question: 'Can I Upload Images to Create Free Worksheet for Kids?',
         answer: 'Upload custom images freely through the multi-file upload feature. Add photos of classroom manipulatives students recognize. Include pictures from current curriculum units. Upload student artwork or family photos for personalized worksheets. The system accepts JPEG, PNG, and GIF formats simultaneously. Combine uploaded images with the 3000+ library images on same worksheets. Create phonics worksheets using images representing sound patterns being taught. Design alphabet worksheets with pictures matching letter names.',
       },
       {
         id: '10',
-        question: 'How Long to Create Categorization Worksheets with the Generator?',
+        question: 'How Long Does It Take to Create Free Printables?',
         answer: 'Creating odd one out worksheets takes under 3 minutes from start to download. Select images in under one minute. Configure settings in 30 seconds. Generate instantly with one click. Simple edits add another minute. Total time investment remains under 3 minutes for complete worksheets ready to print. This speed advantage multiplies across school years creating enormous time savings. Generate weekly worksheets in 15 minutes total. Add alphabet worksheets, tracing worksheets, and coloring worksheets from the same platform in minutes more.',
       },
       {
@@ -330,7 +330,7 @@ The odd one out generator creates worksheets for any subject or theme. Choose fr
       },
       {
         id: '12',
-        question: 'What\'s the Difference Between Modes in Critical Thinking Worksheets?',
+        question: 'What Are the Different Modes for Worksheet for Kindergarten?',
         answer: 'Identical mode uses three copies of one image with one different image from the same theme. Similar mode combines three images from Theme A with one from Theme B creating harder worksheets requiring deeper thinking. Use Identical mode for introducing odd one out concepts on kindergarten worksheets. Progress to Similar mode for challenging phonics worksheets and sight words worksheets. Both modes work across alphabet worksheets, tracing worksheets, and coloring worksheets.',
       },
       {
@@ -345,7 +345,7 @@ The odd one out generator creates worksheets for any subject or theme. Choose fr
       },
       {
         id: '15',
-        question: 'Can I Create Categorization Worksheets for Different Subjects?',
+        question: 'Can I Create Worksheet for Kindergarten in Different Subjects?',
         answer: 'Absolutely. Our worksheet generator creates categorization worksheets for any subject. Choose from animals, food, transportation, or upload custom images. Categorization worksheets help children understand how objects relate and differ, building essential logic worksheets skills. Create free printable worksheets matching current curriculum themes across all subjects.',
       },
       {

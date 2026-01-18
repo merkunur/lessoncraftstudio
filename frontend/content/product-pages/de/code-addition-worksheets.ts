@@ -34,6 +34,26 @@ export const codeAdditionDeContent: ProductPageContent = {
     description: 'Erstellen Sie professionelle Bilder-Additions-Arbeitsblätter für Grundschule und Vorschule mit unserem Generator. Perfekt für Rechnen lernen, Mathe-Arbeitsblätter und Vorschul-Arbeitsblätter. Der Bilder-Additions-Generator eignet sich ideal für kostenlose Arbeitsblätter mit visueller Mathematik.',
     keywords: 'bilder addition generator, mathe arbeitsblätter, arbeitsblätter grundschule, kostenlose arbeitsblätter, vorschule arbeitsblätter, rechnen lernen, rechnen 1 klasse, einmaleins, schwungübungen, ausmalbilder',
     canonicalUrl: 'https://www.lessoncraftstudio.com/de/apps/bilder-additions-arbeitsblaetter',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/german/code-addition/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Bilder-Additions-Arbeitsblatt kostenlos - Mathe-Arbeitsblätter für Grundschule zum Ausdrucken',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/german/code-addition/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Kostenlose Arbeitsblätter Bilder-Addition - Rechnen lernen mit Bildern für Vorschule',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/german/code-addition/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Bilder-Additions-Generator Arbeitsblatt - Arbeitsblätter Grundschule Mathematik',
+      },
+    ],
   },
 
   // Hero Section - FULL text from code-addition.md paragraphs 1-4
@@ -45,7 +65,7 @@ export const codeAdditionDeContent: ProductPageContent = {
 Der Bilder-Additions-Generator verwandelt das Rechnen lernen in ein spannendes Abenteuer. Kinder zählen bunte Bilder wie Äpfel, Autos oder Tiere. Dann schreiben sie die passende Additionsaufgabe. Diese Methode verbindet visuelles Lernen mit mathematischem Denken.
 
 Unsere Bildbibliothek umfasst über 3000 Bilder. Alle Bilder sind kindgerecht und thematisch sortiert. Wählen Sie Tiere, Fahrzeuge, Obst, Spielzeug oder saisonale Themen. Jedes Bild funktioniert perfekt auf Ihren Mathe-Arbeitsblättern.`,
-    previewImageSrc: '/samples/english/code addition/code addition portrait.jpeg',
+    previewImageSrc: '/samples/german/code-addition/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Kostenlos Testen',
       viewSamples: 'Beispiele Ansehen',
@@ -64,7 +84,7 @@ Unsere Bildbibliothek umfasst über 3000 Bilder. Alle Bilder sind kindgerecht un
     },
   },
 
-  // Sample Gallery - REAL file paths from samples/english/code addition/
+  // Sample Gallery - REAL file paths from samples/german/code-addition/
   samples: {
     sectionTitle: 'Bilder-Additions-Arbeitsblätter Beispiele',
     sectionDescription: 'Laden Sie kostenlose Beispiel-Arbeitsblätter herunter, um unsere professionelle Qualität zu sehen',
@@ -80,17 +100,38 @@ Unsere Bildbibliothek umfasst über 3000 Bilder. Alle Bilder sind kindgerecht un
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/code addition/code addition portrait.jpeg',
-        answerKeySrc: '/samples/english/code addition/code addition portrait answer_key.jpeg',
-        altText: 'Bilder-Additions-Arbeitsblatt im Hochformat mit Bild-zu-Zahl-Zuordnung für Vorschul-Arbeitsblätter und Rechnen lernen',
-        pdfDownloadUrl: '/samples/english/code addition/code addition portrait.pdf',
+        worksheetSrc: '/samples/german/code-addition/sample-1.jpeg',
+        answerKeySrc: '/samples/german/code-addition/sample-1-answer.jpeg',
+        altText: 'Bilder-Additions-Arbeitsblatt kostenlos zum Ausdrucken - Mathe-Arbeitsblätter Grundschule mit visueller Bild-zu-Zahl-Zuordnung für Rechnen lernen',
+        pdfDownloadUrl: '/samples/german/code-addition/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/code addition/code addition landscape.jpeg',
-        answerKeySrc: '/samples/english/code addition/code addition landscape answer_key.jpeg',
-        altText: 'Bilder-Additions-Arbeitsblatt im Querformat mit bunten Bildern für die Grundschule',
-        pdfDownloadUrl: '/samples/english/code addition/code addition landscape.pdf',
+        worksheetSrc: '/samples/german/code-addition/sample-2.jpeg',
+        answerKeySrc: '/samples/german/code-addition/sample-2-answer.jpeg',
+        altText: 'Kostenlose Arbeitsblätter Bilder-Addition - Vorschul-Arbeitsblätter und Arbeitsblatt für Kinder mit bunten Bildern zum Zählen',
+        pdfDownloadUrl: '/samples/german/code-addition/sample-2.pdf',
+      },
+      {
+        id: '3',
+        worksheetSrc: '/samples/german/code-addition/sample-3.jpeg',
+        answerKeySrc: '/samples/german/code-addition/sample-3-answer.jpeg',
+        altText: 'Arbeitsblätter Grundschule Bilder-Addition - Kostenloses Arbeitsblatt für Vorschule und 1. Klasse mit Rechnen lernen',
+        pdfDownloadUrl: '/samples/german/code-addition/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/german/code-addition/sample-4.jpeg',
+        answerKeySrc: '/samples/german/code-addition/sample-4-answer.jpeg',
+        altText: 'Mathe-Arbeitsblätter Bilder-Addition Generator - Kostenlose Druckvorlagen für Grundschule mit visuellen Aufgaben',
+        pdfDownloadUrl: '/samples/german/code-addition/sample-4.pdf',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/german/code-addition/sample-5.jpeg',
+        answerKeySrc: '/samples/german/code-addition/sample-5-answer.jpeg',
+        altText: 'Arbeitsblatt für Kinder Bilder-Addition - Rechnen 1. Klasse kostenlose Arbeitsblätter mit Bilderzählen',
+        pdfDownloadUrl: '/samples/german/code-addition/sample-5.pdf',
       },
     ],
   },

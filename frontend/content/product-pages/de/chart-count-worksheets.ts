@@ -27,10 +27,30 @@ export const chartCountDeContent: ProductPageContent = {
   seo: {
     slug: 'bilddiagramm-arbeitsblaetter',
     appId: 'chart-count',
-    title: 'Bilddiagramm Arbeitsblätter Generator - Kostenlose Arbeitsblätter für Mathe in der Grundschule und Vorschule',
-    description: 'Erstellen Sie professionelle Bilddiagramm Arbeitsblätter mit unserem Mathe-Arbeitsblätter Generator. Mit Ihrem Vollzugriff Abo erhalten Sie unbegrenzten Zugang ohne zusätzliche Gebühren pro Arbeitsblatt. Generieren Sie druckfertige Arbeitsblätter Grundschule und Vorschul-Arbeitsblätter perfekt zum Zählen und für Datenvisualisierung.',
+    title: 'Bilddiagramm Arbeitsblätter Kostenlos | Mathe Grundschule Generator',
+    description: 'Erstellen Sie Bilddiagramm Arbeitsblätter für Grundschule und Vorschule. Kostenlose Mathe-Arbeitsblätter zum Ausdrucken. PDF-Download in 3 Minuten.',
     keywords: 'bilddiagramm arbeitsblätter, arbeitsblätter grundschule, kostenlose arbeitsblätter, mathe arbeitsblätter, vorschule arbeitsblätter, rechnen lernen, deutsch arbeitsblätter, einmaleins, schwungübungen, ausmalbilder',
     canonicalUrl: 'https://www.lessoncraftstudio.com/de/apps/bilddiagramm-arbeitsblaetter',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/german/chart count/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Bilddiagramm Arbeitsblatt kostenlos - Mathe Arbeitsblätter für Vorschule und Grundschule zum Ausdrucken'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/german/chart count/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Kostenloses Arbeitsblatt Bilddiagramm - Zählen lernen Vorschul-Arbeitsblätter mit bunten Bildern'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/german/chart count/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Bilddiagramm Mathe Arbeitsblätter Grundschule - Kostenlose Arbeitsblätter zum Rechnen lernen'
+      }
+    ],
   },
 
   // Hero Section - FULL text from bilddiagramm.md paragraphs 1-3
@@ -42,7 +62,7 @@ export const chartCountDeContent: ProductPageContent = {
 Bilddiagramm Arbeitsblätter vermitteln Kindern das Zählen und die visuelle Darstellung von Daten. Jedes Arbeitsblatt enthält ein Bildergitter mit 20 zufälligen Bildern aus 6 verschiedenen Kategorien. Die Schüler zählen, wie oft jedes Bild vorkommt. Dann malen sie die entsprechende Anzahl von Kästchen im Diagramm aus. Diese praktische Zähl- und Malaktivität entwickelt grundlegende Mathe Fähigkeiten. Perfekt für die Grundschule und Vorschule. Das Ausmalen der Kästchen verbindet Rechnen lernen mit kreativen Ausmalbilder Aktivitäten.
 
 Unser Bilddiagramm Arbeitsblätter Generator erstellt zweiteilige Arbeitsblätter ideal für die 1. Klasse und Vorschule. Der erste Teil zeigt ein Gitter mit bunten Bildern. Der zweite Teil zeigt ein leeres Diagramm mit Spalten für jede Bildkategorie. Die Zeilen sind von 1 bis 5 nummeriert. Schüler zählen die Bilder im Gitter. Dann malen sie die Diagrammkästchen entsprechend ihrer Zählergebnisse aus. Der Generator erstellt automatisch einen Lösungsschlüssel mit vorausgefüllten Kästchen. Das macht die Korrektur für Lehrkräfte schnell und einfach. Die bunten Malvorlagen motivieren Kinder zum selbstständigen Arbeiten.`,
-    previewImageSrc: '/samples/english/chart count/chart count.jpeg',
+    previewImageSrc: '/samples/german/chart count/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Kostenlos Testen',
       viewSamples: 'Beispiele Ansehen',
@@ -77,10 +97,38 @@ Unser Bilddiagramm Arbeitsblätter Generator erstellt zweiteilige Arbeitsblätte
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/chart count/chart count.jpeg',
-        answerKeySrc: '/samples/english/chart count/chart count answer_key.jpeg',
-        altText: 'Bilddiagramm-Arbeitsblatt für Vorschul-Arbeitsblätter und Rechnen lernen mit bunten Bildern',
-        pdfDownloadUrl: '/samples/english/chart count/chart count.pdf',
+        worksheetSrc: '/samples/german/chart count/sample-1.jpeg',
+        answerKeySrc: '/samples/german/chart count/sample-1-answer.jpeg',
+        altText: 'Bilddiagramm Arbeitsblatt kostenlos zum Ausdrucken - Mathe Arbeitsblätter Grundschule mit bunten Zählbildern für Vorschule',
+        pdfDownloadUrl: '/samples/german/chart count/sample-1.pdf',
+      },
+      {
+        id: '2',
+        worksheetSrc: '/samples/german/chart count/sample-2.jpeg',
+        answerKeySrc: '/samples/german/chart count/sample-2-answer.jpeg',
+        altText: 'Kostenlose Arbeitsblätter Bilddiagramm Generator - Vorschul-Arbeitsblätter Rechnen lernen mit Diagrammen',
+        pdfDownloadUrl: '/samples/german/chart count/sample-2.pdf',
+      },
+      {
+        id: '3',
+        worksheetSrc: '/samples/german/chart count/sample-3.jpeg',
+        answerKeySrc: '/samples/german/chart count/sample-3-answer.jpeg',
+        altText: 'Mathe-Arbeitsblätter Bilddiagramm kostenlos - Arbeitsblatt für Kinder Grundschule Zählen und Diagramme',
+        pdfDownloadUrl: '/samples/german/chart count/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/german/chart count/sample-4.jpeg',
+        answerKeySrc: '/samples/german/chart count/sample-4-answer.jpeg',
+        altText: 'Bilddiagramm Arbeitsblätter Vorschule kostenlos - Kostenlose Druckvorlagen Mathe für Kindergarten',
+        pdfDownloadUrl: '/samples/german/chart count/sample-4.pdf',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/german/chart count/sample-5.jpeg',
+        answerKeySrc: '/samples/german/chart count/sample-5-answer.jpeg',
+        altText: 'Arbeitsblätter Grundschule Bilddiagramm Generator - Mathe-Arbeitsblätter Zählen für 1. Klasse und Vorschule',
+        pdfDownloadUrl: '/samples/german/chart count/sample-5.pdf',
       },
     ],
   },

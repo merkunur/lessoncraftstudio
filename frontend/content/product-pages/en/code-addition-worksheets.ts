@@ -37,6 +37,18 @@ export const codeAdditionEnContent: ProductPageContent = {
         width: 2480,
         height: 3508,
         caption: 'Free worksheet for kids - image addition math worksheets for kindergarten practice'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/code-addition/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Free printables math worksheets - visual addition worksheet for kindergarten with picture counting'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/code-addition/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Worksheet for kindergarten - free addition worksheets with image counting activities for kids'
       }
     ],
   },

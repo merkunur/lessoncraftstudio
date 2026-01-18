@@ -30,8 +30,8 @@ export const codeAdditionDeContent: ProductPageContent = {
   seo: {
     slug: 'bilder-additions-arbeitsblaetter',
     appId: 'code-addition',
-    title: 'Bilder-Additions-Generator - Mathe-Arbeitsblätter Grundschule - Rechnen lernen mit Bildern',
-    description: 'Erstellen Sie professionelle Bilder-Additions-Arbeitsblätter für Grundschule und Vorschule mit unserem Generator. Perfekt für Rechnen lernen, Mathe-Arbeitsblätter und Vorschul-Arbeitsblätter. Der Bilder-Additions-Generator eignet sich ideal für kostenlose Arbeitsblätter mit visueller Mathematik.',
+    title: 'Bilder-Additions-Arbeitsblätter | Kostenlose Mathe-Arbeitsblätter',
+    description: 'Erstellen Sie kostenlose Bilder-Additions-Arbeitsblätter für Grundschule und Vorschule. Mathe-Arbeitsblätter mit 3000+ Bildern in unter 3 Minuten erstellen.',
     keywords: 'bilder addition generator, mathe arbeitsblätter, arbeitsblätter grundschule, kostenlose arbeitsblätter, vorschule arbeitsblätter, rechnen lernen, rechnen 1 klasse, einmaleins, schwungübungen, ausmalbilder',
     canonicalUrl: 'https://www.lessoncraftstudio.com/de/apps/bilder-additions-arbeitsblaetter',
     images: [
@@ -52,6 +52,18 @@ export const codeAdditionDeContent: ProductPageContent = {
         width: 2480,
         height: 3508,
         caption: 'Bilder-Additions-Generator Arbeitsblatt - Arbeitsblätter Grundschule Mathematik',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/german/code-addition/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Bilder-Additions-Arbeitsblatt - Rechnen lernen Arbeitsblätter Grundschule zum Ausdrucken',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/german/code-addition/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Mathe-Arbeitsblätter Bilder-Addition - Kostenlose Arbeitsblätter für Vorschule und 1. Klasse',
       },
     ],
   },

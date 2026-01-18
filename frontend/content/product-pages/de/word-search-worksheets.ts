@@ -49,6 +49,18 @@ export const wordSearchDeContent: ProductPageContent = {
         width: 3672,
         height: 4752,
         caption: 'Kostenlose Druckvorlagen Wortsuchrätsel - Arbeitsblatt für Kinder mit thematischen Bildern'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/german/wordsearch/sample-4.jpeg',
+        width: 3672,
+        height: 4752,
+        caption: 'Suchsel Arbeitsblatt für Kinder - Wortsuchrätsel mit bunten Bildhinweisen für Vorschule und Grundschule'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/german/wordsearch/sample-5.jpeg',
+        width: 3672,
+        height: 4752,
+        caption: 'Kostenloses Arbeitsblatt Wortsuchrätsel - Deutsch-Arbeitsblätter Wortschatz für 1. bis 3. Klasse Grundschule'
       }
     ],
   },
@@ -439,6 +451,36 @@ Die professionelle 300 DPI Qualität überzeugt Käufer. Scharfe Bilder und klar
         id: '12',
         question: 'Kann ich Suchsel zu spezifischen Schulthemen erstellen mit Mathe-Arbeitsblättern und Schwungübungen?',
         answer: 'Ja, wählen Sie aus über 50 Themen. Tiere, Natur, Fahrzeuge, Essen, Berufe, Jahreszeiten. Oder erstellen Sie eigene Wortlisten. Kombinieren Sie thematische Suchsel mit Mathe-Arbeitsblättern. Nutzen Sie Suchsel für Sachunterricht-Themen. Weltraum, Dinosaurier, Körper, Wetter. Integrieren Sie Schwungübungen zum gleichen Thema. Ganzheitliches Lernen wird gefördert. Erstellen Sie Suchsel zum aktuellen Lehrplan. Rechtschreibwörter der Woche. Einmaleins-Reihen als Zahlen-Suchsel. Fächerübergreifende Arbeitsblätter Grundschule entstehen mühelos.',
+      },
+      {
+        id: '13',
+        question: 'Ist der Suchsel Generator wirklich das beste Arbeitsblatt für Kinder zum Buchstaben lernen?',
+        answer: 'Der Suchsel Generator ist ideal als Arbeitsblatt für Kinder zum Buchstaben lernen. Die visuelle Verbindung von Bildern und Wörtern hilft beim Einprägen. Kinder suchen Buchstaben im Kontext echter Wörter. Dies fördert das orthografische Gedächtnis. Das spielerische Format hält die Motivation hoch. Kostenlose Arbeitsblätter ermöglichen tägliches Üben. Die Rastergröße kann an das Niveau angepasst werden. Einfache 5×5 Raster für Anfänger. Komplexere Raster für fortgeschrittene Schüler. Das Arbeitsblatt für Vorschule bis 3. Klasse geeignet.',
+      },
+      {
+        id: '14',
+        question: 'Wie erstelle ich kostenlose Druckvorlagen für Wortsuchrätsel mit dem Suchsel Generator?',
+        answer: 'Kostenlose Druckvorlagen für Wortsuchrätsel entstehen in wenigen Schritten. Wählen Sie ein Thema aus über 50 Kategorien. Der Generator platziert automatisch 8 Bilder. Klicken Sie auf Generieren für das fertige Suchsel. Die kostenlose Version enthält ein Wasserzeichen. Laden Sie das Arbeitsblatt als PDF herunter. Die 300 DPI Qualität garantiert perfekte Ausdrucke. Nutzen Sie die Graustufen-Option für Tintenersparnis. Jede kostenlose Druckvorlage enthält automatisch ein Lösungsblatt. Die Arbeitsblätter sind sofort einsatzbereit.',
+      },
+      {
+        id: '15',
+        question: 'Welche Vorteile bietet der Suchsel Generator für Arbeitsblatt für Vorschule und Kindergarten?',
+        answer: 'Das Arbeitsblatt für Vorschule bietet viele pädagogische Vorteile. Die bunten Bilder wecken Interesse bei Vorschulkindern. Einfache Wörter mit 3-5 Buchstaben sind altersgerecht. Kleine 5×5 oder 8×8 Raster überfordern nicht. Die visuelle Suche trainiert Konzentration. Buchstabenerkennung wird spielerisch gefördert. Kinder lernen Links-Rechts-Leserichtung. Die Feinmotorik verbessert sich beim Einkreisen. Jedes Arbeitsblatt für Vorschule kann individuell angepasst werden. Deaktivieren Sie diagonale Wörter für Anfänger.',
+      },
+      {
+        id: '16',
+        question: 'Kann ich Suchsel-Arbeitsblätter als kostenloses Arbeitsblatt für Kinder im Homeschooling nutzen?',
+        answer: 'Ja, der Suchsel Generator ist ideal für Homeschooling. Erstellen Sie unbegrenzt kostenloses Arbeitsblatt für Kinder. Die kostenlose Version reicht für private Nutzung. Passen Sie Themen an den Lehrplan an. Erstellen Sie altersgerechte Arbeitsblätter für jedes Kind. Kombinieren Sie Suchsel mit Schreibübungen. Die gefundenen Wörter können abgeschrieben werden. Die 11 Sprachen unterstützen mehrsprachige Familien. Jedes kostenloses Arbeitsblatt für Kinder enthält automatisch Lösungen. Eltern können schnell kontrollieren.',
+      },
+      {
+        id: '17',
+        question: 'Wie kombiniere ich Suchsel mit anderen Arbeitsblättern Grundschule für ganzheitliches Lernen?',
+        answer: 'Kombinieren Sie Suchsel mit anderen Arbeitsblättern Grundschule für maximalen Lerneffekt. Nutzen Sie den Suchsel Generator zusammen mit Ausmalbildern zum gleichen Thema. Fügen Sie Schwungübungen für Schreibvorbereitung hinzu. Erstellen Sie Mathe-Arbeitsblätter mit den gleichen Themenbildern. Die 33 Generatoren im Vollzugang ermöglichen komplette Unterrichtseinheiten. Erstellen Sie wöchentliche Themenpakete. Tiere, Jahreszeiten, Berufe als durchgängiges Thema. Jedes Arbeitsblätter Grundschule ergänzt die anderen.',
+      },
+      {
+        id: '18',
+        question: 'Was ist der Unterschied zwischen Suchsel und anderen Wortsuchrätsel-Generatoren für Deutsch-Arbeitsblätter?',
+        answer: 'Unser Suchsel Generator bietet einzigartige Vorteile für Deutsch-Arbeitsblätter. Über 3000 kindgerechte Bilder statt nur Text. Die visuelle Unterstützung hilft beim Wortschatz-Lernen. 11 Sprachen für DaZ und Fremdsprachenunterricht. Vollständige Bearbeitbarkeit aller Elemente. Professionelle 300 DPI Druckqualität. Automatische Lösungsblätter bei jedem Deutsch-Arbeitsblätter. Kommerzielle Lizenz im Abonnement enthalten. Kein anderer Generator bietet diese Kombination für Deutsch-Arbeitsblätter.',
       },
     ],
   },

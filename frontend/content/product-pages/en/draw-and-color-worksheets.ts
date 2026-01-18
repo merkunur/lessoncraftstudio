@@ -96,7 +96,7 @@ Every worksheet downloads as a professional 300 DPI PDF file. Print at home on s
         id: '2',
         worksheetSrc: '/samples/english/draw-and-color/sample-2.jpeg',
         answerKeySrc: '',
-        altText: 'Printable coloring pages for kids - grid drawing coloring worksheets for first grade fine motor skills practice',
+        altText: 'Free worksheet for kids - grid drawing coloring worksheets for first grade fine motor skills practice',
         pdfDownloadUrl: '/samples/english/draw-and-color/sample-2.pdf',
       },
       {
@@ -110,7 +110,7 @@ Every worksheet downloads as a professional 300 DPI PDF file. Print at home on s
         id: '4',
         worksheetSrc: '/samples/english/draw-and-color/sample-4.jpeg',
         answerKeySrc: '',
-        altText: 'Worksheet generator coloring pages - fine motor skills worksheets for kindergarten and first grade students',
+        altText: 'Free worksheets - worksheet for kindergarten coloring pages with fine motor skills for first grade students',
         pdfDownloadUrl: '/samples/english/draw-and-color/sample-4.pdf',
       },
       {
@@ -150,7 +150,7 @@ Click any element on the canvas to select and modify it. Corner handles let you 
       {
         id: '3',
         icon: '📤',
-        title: 'Upload Images for Printable Coloring Pages - Fine Motor Skills Worksheets and Visual-Spatial Worksheets',
+        title: 'Upload Images for Free Printables - Fine Motor Skills Worksheets and Visual-Spatial Worksheets for Kids',
         description: `Upload your own images to create truly personalized free printable coloring worksheets. Use student artwork for unique kindergarten worksheets. Add classroom mascots or school logos. Include photos of field trip locations or science experiments. The multi-file upload accepts all common formats including JPEG, PNG, and GIF. Upload once and images stay available throughout your session.
 
 Combine uploaded photos with library images on the same coloring worksheet. Create first grade worksheets featuring student interests and hobbies. Upload seasonal images for holiday-themed free printable worksheets. Teachers upload shapes and patterns for math-integrated coloring worksheets. Parents upload family photos for extra motivation. Custom images make kindergarten worksheets more engaging because students see familiar, meaningful content. Perfect for differentiated instruction and personalized learning in first grade worksheets.`,
@@ -186,7 +186,7 @@ All library images come included with your Full Access subscription at no per-im
       {
         id: '7',
         icon: '🖨️',
-        title: 'Professional 300 DPI Quality - Print-Perfect Printable Coloring Pages and Fine Motor Skills Worksheets',
+        title: 'Professional 300 DPI Quality - Free Worksheets and Free Printables with Print-Perfect Fine Motor Skills Worksheets',
         description: `Every coloring worksheet downloads at professional 300 DPI resolution for perfect printing. Export as high-quality PDF files or JPEG images. The crisp, clear quality works beautifully for classroom printing or commercial selling. Lines stay sharp when printed on standard home printers. Professional print shops handle these free printable worksheets without quality loss.
 
 Choose grayscale conversion to save printer ink on kindergarten worksheets and first grade worksheets. Standard letter and A4 paper sizes work on any classroom printer. The high resolution ensures coloring worksheets look professional whether printed once or reproduced 30 times. Parents appreciate the quality when printing free printable worksheets at home. Teachers selling on Teachers Pay Teachers receive positive reviews for professional-quality kindergarten coloring worksheets and first grade materials.`,
@@ -213,7 +213,7 @@ Upload custom images for personalized free printable worksheets featuring studen
       {
         id: '2',
         number: 2,
-        title: 'Customize Grid Settings - Tracing Worksheets, Math Worksheets, and Fine Motor Skills Worksheets for Kindergarten',
+        title: 'Customize Grid Settings - Worksheet for Kindergarten with Tracing Worksheets and Math Worksheets',
         description: `Set your grid dimensions from 3×3 to 10×10 cells based on student ability. Smaller 3×3 or 4×4 grids work perfectly for kindergarten worksheets and younger learners. Larger 8×8 or 10×10 grids challenge first grade students with stronger fine motor skills. The grid size controls both difficulty and the time needed to complete coloring worksheets. Choose dimensions that match available classroom time and student stamina.
 
 Adjust the clue cell percentage using the slider from 10% to 90%. More clue cells create easier free printable worksheets for struggling students. Fewer clues produce challenging puzzles for gifted learners. Set clues at 40-50% for average kindergarten worksheets. Reduce to 20-30% for advanced first grade worksheets. Enable mirror options to create symmetrical patterns. Horizontal or vertical mirroring produces balanced, aesthetically pleasing coloring worksheets. Select which half of the grid reveals clues. Symmetry helps younger students succeed with tracing worksheets and pattern recognition activities.
@@ -233,7 +233,7 @@ The instant preview shows exactly how your free printable worksheet will look wh
       {
         id: '4',
         number: 4,
-        title: 'Edit on Canvas - Customize Tracing Worksheets, Math Worksheets, and Fine Motor Skills Worksheets',
+        title: 'Edit on Canvas - Customize Free Worksheet for Kids with Tracing Worksheets and Math Worksheets',
         description: `Full canvas editing lets you perfect every detail of coloring worksheets. Drag grids to reposition them anywhere on the page. Create space for additional math worksheets or tracing worksheets on the same sheet. Resize elements by clicking and dragging corner handles. Smaller grids fit multiple activities per page for comprehensive kindergarten worksheets.
 
 Add text boxes with custom instructions for first grade worksheets. Include student names for personalized free printable worksheets. Type titles that identify the activity or learning objective. Change font styles from 7 available options. Adjust text colors to match seasonal themes or classroom décor. Add outlines to make text readable over busy backgrounds on coloring worksheets.
@@ -268,7 +268,7 @@ Print one copy to verify quality before reproducing for entire classes. The 300 
         id: '1',
         icon: '👶',
         title: 'Kindergarten Teachers and Preschool Educators',
-        subtitle: 'Coloring Worksheets for Early Learning and Fine Motor Skills Worksheets',
+        subtitle: 'Free Printables for Early Learning and Worksheet for Kindergarten Fine Motor Skills',
         description: `Kindergarten teachers love grid drawing coloring worksheets for morning work and center activities. The adjustable difficulty perfectly matches varied student abilities within one classroom. Use 3×3 grids with high clue percentages for struggling students. Challenge advanced learners with 5×5 grids and fewer clues. Every student works at appropriate levels with free printable worksheets designed for differentiation.
 
 Grid drawing develops essential kindergarten skills including hand-eye coordination and spatial awareness. Students practice counting cells and identifying positions using grid coordinates. The coloring activity strengthens fine motor skills needed for handwriting. Visual discrimination improves as children analyze clue patterns. These coloring worksheets prepare students for first grade math concepts while providing engaging art activities. Use them during transitions, as early finisher tasks, or for substitute teacher lesson plans.`,
@@ -288,7 +288,7 @@ Create thematic first grade worksheets that connect to current science and socia
         id: '3',
         icon: '🏠',
         title: 'Homeschool Parents',
-        subtitle: 'Tracing Worksheets, Math Worksheets, and Coloring Worksheets for Multi-Grade Teaching',
+        subtitle: 'Free Worksheets for Kids with Tracing Worksheets and Coloring Worksheets for Multi-Grade Teaching',
         description: `Homeschool parents create custom coloring worksheets for multiple children at different ability levels. Generate easy kindergarten grids and challenging first grade puzzles simultaneously. Use the same image with different grid sizes and clue percentages. This efficient approach creates age-appropriate free printable worksheets for all students with minimal preparation time.
 
 Grid drawing coloring worksheets work beautifully for quiet independent work during homeschool days. Older children complete complex grids while parents work with younger students. The self-checking nature helps children work independently. Students compare finished coloring worksheets to the original image to verify accuracy. This builds self-assessment skills and mathematical reasoning. Combine with tracing worksheets and math worksheets for complete morning work packets that cover multiple skill areas in engaging formats.`,

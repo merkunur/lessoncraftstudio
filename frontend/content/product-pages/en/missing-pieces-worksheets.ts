@@ -37,6 +37,18 @@ export const missingPiecesEnContent: ProductPageContent = {
         width: 2480,
         height: 3508,
         caption: 'Visual discrimination worksheets for kindergarten - free missing pieces puzzle activity for kids'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/missing-pieces/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Free printable missing pieces worksheets - spatial reasoning puzzle for kindergarten visual learning'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/missing-pieces/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Visual discrimination worksheets free printable - missing pieces puzzle activity for first grade kids'
       }
     ],
   },

@@ -6130,8 +6130,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   // Treasure Hunt Worksheets product page SEO
   if (params.slug === 'treasure-hunt-worksheets' && params.locale === 'en') {
     return {
-      title: 'Free Printable Following Directions Worksheets | Treasure Hunt Generator for Kindergarten',
-      description: 'Create professional treasure hunt worksheets with our following directions worksheet generator. Generate custom printable treasure hunt worksheets perfect for kindergarten and first grade students learning directional vocabulary and reading comprehension. Download high-quality PDF worksheets in under 3 minutes.',
+      title: 'Free Treasure Hunt Worksheets | Following Directions Printables',
+      description: 'Create free printable treasure hunt worksheets for kindergarten. Following directions generator with answer keys. Download PDF in 3 minutes. No design skills needed.',
       keywords: 'treasure hunt worksheets, following directions worksheets, kindergarten worksheets, printable worksheets, directional vocabulary, free worksheets, first grade worksheets, spatial awareness, reading comprehension, navigation worksheets',
       robots: {
         index: true,
@@ -6139,10 +6139,24 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       },
       alternates: {
         canonical: `https://www.lessoncraftstudio.com/en/apps/treasure-hunt-worksheets`,
+        languages: {
+          'en': 'https://www.lessoncraftstudio.com/en/apps/treasure-hunt-worksheets',
+          'de': 'https://www.lessoncraftstudio.com/de/apps/schatzsuche-arbeitsblaetter',
+          'es': 'https://www.lessoncraftstudio.com/es/apps/busqueda-tesoro-fichas',
+          'it': 'https://www.lessoncraftstudio.com/it/apps/caccia-tesoro-schede',
+          'fr': 'https://www.lessoncraftstudio.com/fr/apps/chasse-au-tresor-fiches',
+          'pt': 'https://www.lessoncraftstudio.com/pt/apps/caca-ao-tesouro-fichas',
+          'nl': 'https://www.lessoncraftstudio.com/nl/apps/schattenjacht-werkbladen',
+          'sv': 'https://www.lessoncraftstudio.com/sv/apps/skattjakt-arbetsblad',
+          'da': 'https://www.lessoncraftstudio.com/da/apps/skattejagt-arbejdsark',
+          'no': 'https://www.lessoncraftstudio.com/no/apps/skattejakt-arbeidsark',
+          'fi': 'https://www.lessoncraftstudio.com/fi/apps/aarteenetsinta-tyoarkit',
+          'x-default': 'https://www.lessoncraftstudio.com/en/apps/treasure-hunt-worksheets',
+        },
       },
       openGraph: {
-        title: 'Free Printable Treasure Hunt Worksheets | LessonCraftStudio',
-        description: 'Create professional treasure hunt worksheets with our following directions generator. Perfect for kindergarten and first grade students learning directional vocabulary.',
+        title: 'Free Treasure Hunt Worksheets | LessonCraftStudio',
+        description: 'Create free printable treasure hunt worksheets for kindergarten. Following directions generator with answer keys. Download PDF in 3 minutes.',
         url: 'https://www.lessoncraftstudio.com/en/apps/treasure-hunt-worksheets',
         siteName: 'LessonCraftStudio',
         type: 'website',

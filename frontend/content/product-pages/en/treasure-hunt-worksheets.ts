@@ -67,14 +67,14 @@ This treasure hunt generator creates unique worksheets every time you click gene
         id: '1',
         worksheetSrc: '/samples/english/treasure hunt/up down.jpeg',
         answerKeySrc: '/samples/english/treasure hunt/up down answer_key.jpeg',
-        altText: 'Free treasure hunt worksheets for kindergarten - up down left right directions practice printable',
+        altText: 'Free printable treasure hunt worksheets for kindergarten - up down left right directions practice for kids',
         pdfDownloadUrl: '/samples/english/treasure hunt/up down.pdf',
       },
       {
         id: '2',
         worksheetSrc: '/samples/english/treasure hunt/north south.jpeg',
         answerKeySrc: '/samples/english/treasure hunt/north south answer_key.jpeg',
-        altText: 'Following directions worksheets free printable - cardinal directions north south east west for kids',
+        altText: 'Following directions worksheets free printable - cardinal directions north south east west worksheet for kids',
         pdfDownloadUrl: '/samples/english/treasure hunt/north south.pdf',
       },
     ],
@@ -241,7 +241,7 @@ This treasure hunt generator creates unique worksheets every time you click gene
   // FAQ Section - ALL questions from treasure-hunt.md
   faq: {
     sectionTitle: 'Frequently Asked Questions',
-    sectionDescription: 'Teachers commonly ask twelve questions about creating treasure hunt worksheets and using the generator effectively. These answers address pricing, usage rights, customization options, and technical details. Understanding these fundamentals helps you maximize your Full Access subscription value and create better educational materials for your students.',
+    sectionDescription: 'Teachers commonly ask eighteen questions about creating treasure hunt worksheets and using the generator effectively. These answers address pricing, usage rights, customization options, and technical details. Understanding these fundamentals helps you maximize your Full Access subscription value and create better educational materials for your students.',
     showMoreText: 'Show more questions',
     showLessText: 'Show less',
     items: [
@@ -304,6 +304,36 @@ This treasure hunt generator creates unique worksheets every time you click gene
         id: '12',
         question: 'Can I Create Treasure Hunt Worksheets About Specific Subjects?',
         answer: 'Absolutely. Create subject-specific treasure hunt worksheets by selecting themed images related to any curriculum area. Math treasure hunts feature number images, geometric shapes, or counting objects. Science worksheets showcase animals, plants, weather symbols, or laboratory equipment. Social studies treasure hunts include maps, flags, historical figures, or cultural symbols. The theme-based image library organizes content by subject area for quick selection. Search functionality helps you find specific vocabulary words needed for targeted lessons. Upload subject-specific images to create treasure hunts perfectly aligned with your exact curriculum standards. Combine treasure hunt directional practice with content-area vocabulary reinforcement for integrated cross-curricular learning activities.',
+      },
+      {
+        id: '13',
+        question: 'What Makes These Free Worksheets Different From Other Following Directions Worksheet Generators?',
+        answer: 'Our treasure hunt generator stands apart through several unique features that other free worksheets and following directions worksheet generators lack. The 5x5 grid format provides 25 cells for navigation practice, giving students more directional moves than typical 3x3 or 4x4 grids. Choose between two directional vocabulary modes: basic up/down/left/right for kindergarten students or cardinal north/south/east/west for first grade worksheets and map skills curriculum. Access over 3000 child-friendly images organized by themes, far exceeding the limited clip art in most free printable worksheets. Upload your own photographs to create personalized treasure hunts featuring classroom-specific content. The automatic algorithm ensures no adjacent cells contain identical images, preventing confusion during direction-following activities. Every worksheet includes professional 300 DPI resolution matching commercial publishers, plus automatic answer key generation that marks the treasure location clearly for quick teacher reference.',
+      },
+      {
+        id: '14',
+        question: 'How Do Free Printable Worksheets Help Kindergarten Students Learn Spatial Awareness?',
+        answer: 'Treasure hunt free printable worksheets build spatial awareness through active directional navigation practice that engages multiple cognitive skills simultaneously. Students must visualize their position on the grid, understand directional vocabulary in context, and track their movement across the 5x5 image array. This multi-step process develops working memory as kindergarten students hold previous moves in mind while processing new directions. The visual grid format provides concrete reference points that help young learners internalize abstract spatial concepts like up/down and left/right orientation. Research shows that worksheet for kindergarten activities combining reading comprehension with spatial reasoning strengthen neural pathways essential for mathematics and geography. Students practice transferable skills they will use when reading maps, following written instructions, and navigating physical spaces. The worksheet for kids format allows repeated practice sessions that reinforce spatial vocabulary until directional terms become automatic.',
+      },
+      {
+        id: '15',
+        question: 'Can I Create Worksheet for Kids in Different Difficulty Levels Using One Tool?',
+        answer: 'Yes, the treasure hunt generator creates worksheet for kids at multiple difficulty levels using the same intuitive tool. Adjust difficulty through three main settings: directional vocabulary type, number of moves, and image complexity. Preschool and early kindergarten worksheets use basic up/down/left/right vocabulary with 3-4 directional moves for simpler navigation paths. Standard kindergarten worksheets include 5-6 moves mixing all four basic directions. First grade worksheets introduce cardinal directions with north/south/east/west vocabulary for students learning map skills. Advanced second graders handle 7-8 move sequences using exclusively cardinal terminology. Image selection also affects difficulty level. Choose simple, highly recognizable images for struggling readers and emerging English learners. Select detailed or similar-looking images for advanced students who need extra visual discrimination practice. This flexibility lets teachers create differentiated free worksheets for diverse learners in the same classroom using one tool.',
+      },
+      {
+        id: '16',
+        question: 'Are These Free Worksheets Suitable for Worksheet for Kindergarten Programs?',
+        answer: 'These treasure hunt activities align perfectly with worksheet for kindergarten curriculum standards across all fifty states and international early childhood programs. The worksheets address Common Core State Standards for reading comprehension, specifically the ability to follow multi-step written directions. They support kindergarten mathematics standards involving positional vocabulary and spatial relationships. The visual format meets Universal Design for Learning guidelines by combining text, images, and spatial reasoning in one engaging activity. Kindergarten teachers use these free worksheets during literacy centers, math stations, and whole-group instruction. The activities work equally well for assessment purposes, intervention programs, and enrichment activities. Special education teachers appreciate the built-in differentiation options that accommodate diverse learning needs within inclusive kindergarten classrooms. Homeschool families find the worksheets perfect for structured learning time that feels like play.',
+      },
+      {
+        id: '17',
+        question: 'How Many Free Printables Can I Generate With a Full Access Subscription?',
+        answer: 'Your Full Access subscription includes unlimited treasure hunt worksheet generation with no per-worksheet fees or monthly caps. Generate as many free printables as your teaching requires without worrying about running out of downloads or hitting usage limits. Create dozens of themed treasure hunts for year-round curriculum coverage. Generate differentiated versions at multiple difficulty levels for diverse learner needs. Produce seasonal variations using holiday and themed images throughout the school year. The unlimited generation extends to all 33 worksheet generators included in Full Access, not just treasure hunt activities. Create unlimited math worksheets, alphabet worksheets, phonics worksheets, and coloring worksheets alongside your treasure hunt materials. Many teachers generate 50-100 worksheets monthly during peak curriculum planning periods. The commercial license included with your subscription means you can even sell the unlimited free printables you create on Teachers Pay Teachers or other educational marketplaces.',
+      },
+      {
+        id: '18',
+        question: 'What File Formats Are Available for These Free Worksheets for Kids?',
+        answer: 'Download treasure hunt free worksheets for kids in two professional formats: high-resolution JPEG images and print-ready PDF documents. JPEG files work best for digital classroom platforms, Google Slides presentations, Seesaw assignments, and online learning management systems. The 300 DPI resolution ensures crisp display on interactive whiteboards and student devices. PDF downloads provide optimal print quality with embedded fonts and precise formatting that prints identically across all printers. Choose PDF format for physical worksheet distribution, homework packets, and learning center materials. Both formats include grayscale export options that reduce color ink consumption while maintaining excellent clarity for budget-conscious printing. The answer key generates as a separate file in your chosen format, keeping student worksheets and teacher materials organized. Every export maintains professional publishing standards whether you are printing at home, at school, or through commercial printing services.',
       },
     ],
   },

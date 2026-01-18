@@ -27,8 +27,8 @@ export const bigSmallDeContent: ProductPageContent = {
   seo: {
     slug: 'gross-klein-arbeitsblaetter',
     appId: 'big-small',
-    title: 'Groß und Klein Arbeitsblätter - Kostenlose Arbeitsblätter Grundschule - Größenvergleich Generator für Vorschule',
-    description: 'Erstellen Sie professionelle Arbeitsblätter für Größenvergleich mit unserem Generator für Groß-Klein-Übungen. Perfekt für Arbeitsblätter Grundschule, Vorschul-Arbeitsblätter und Mathe-Arbeitsblätter. Laden Sie kostenlose Arbeitsblätter in unter 3 Minuten herunter.',
+    title: 'Groß Klein Arbeitsblätter | Kostenlose Vorschul-Arbeitsblätter',
+    description: 'Kostenlose Groß-Klein Arbeitsblätter für Grundschule & Vorschule erstellen. Größenvergleich Generator mit 3000+ Bildern. Download in unter 3 Minuten!',
     keywords: 'groß klein arbeitsblätter, arbeitsblätter grundschule, kostenlose arbeitsblätter, mathe arbeitsblätter, vorschule arbeitsblätter, größenvergleich, einmaleins, schwungübungen, buchstaben lernen, ausmalbilder',
     canonicalUrl: 'https://www.lessoncraftstudio.com/de/apps/gross-klein-arbeitsblaetter',
     images: [
@@ -49,6 +49,18 @@ export const bigSmallDeContent: ProductPageContent = {
         width: 2480,
         height: 3508,
         caption: 'Vorschul-Arbeitsblätter groß und klein - Arbeitsblätter Grundschule zum Ausdrucken'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/german/big-small/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Arbeitsblatt für Kinder Größenvergleich - kostenlose Arbeitsblätter Vorschule zum Ausdrucken'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/german/big-small/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Mathe-Arbeitsblätter groß klein - Arbeitsblatt für Vorschule und Grundschule kostenlos'
       }
     ],
   },

@@ -28,7 +28,7 @@ export const coloringDeContent: ProductPageContent = {
     slug: 'malvorlagen-arbeitsblaetter',
     appId: 'coloring',
     title: 'Malvorlagen-Generator - Kostenlose Ausmalbilder Arbeitsblätter',
-    description: 'Erstellen Sie Malvorlagen und Ausmalbilder für Arbeitsblätter Grundschule. Kostenlose Druckvorlagen in 3 Minuten. Jetzt kostenlos testen!',
+    description: 'Erstellen Sie professionelle Malvorlagen und Ausmalbilder für Arbeitsblätter Grundschule. Kostenlose Druckvorlagen in 3 Minuten erstellen. Jetzt kostenlos testen!',
     keywords: 'malvorlagen generator, ausmalbilder, arbeitsblätter grundschule, kostenlose arbeitsblätter, vorschule arbeitsblätter, schwungübungen, buchstaben lernen, mathe arbeitsblätter, deutsch arbeitsblätter, einmaleins',
     canonicalUrl: 'https://www.lessoncraftstudio.com/de/apps/malvorlagen-arbeitsblaetter',
     images: [
@@ -49,6 +49,18 @@ export const coloringDeContent: ProductPageContent = {
         width: 2480,
         height: 3508,
         caption: 'Vorschul-Arbeitsblätter mit Ausmalbildern - Kostenlose Druckvorlagen für Mathe-Arbeitsblätter'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/german/coloring/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Arbeitsblatt für Kinder Ausmalbilder - Kostenlose Malvorlagen für Arbeitsblätter Grundschule'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/german/coloring/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Kostenlose Druckvorlagen Malvorlagen - Ausmalbilder für Vorschul-Arbeitsblätter und Feinmotorik'
       }
     ],
   },

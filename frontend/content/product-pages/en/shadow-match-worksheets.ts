@@ -15,8 +15,8 @@ export const shadowMatchEnContent: ProductPageContent = {
   seo: {
     slug: 'shadow-match-worksheets',
     appId: 'shadow-match',
-    title: 'Free Shadow Match Worksheets for Kindergarten | Visual Perception Generator',
-    description: 'Create professional shadow match worksheets for kindergarten and first grade. Free printable visual perception activities with answer keys. Download PDF in 3 minutes.',
+    title: 'Free Shadow Match Worksheets for Kindergarten | Printable PDF Generator',
+    description: 'Create shadow match worksheets for kindergarten and first grade. Free printable visual perception activities with answer keys. Download PDF in 3 minutes.',
     keywords: 'shadow match worksheets, free worksheets, kindergarten worksheets, visual perception, free printable worksheets, first grade worksheets, worksheet for kids, silhouette matching, shape recognition worksheets, free printables',
     canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/shadow-match-worksheets',
     images: [
@@ -101,7 +101,7 @@ Full Access subscription costs $240 annually or $25 monthly. This includes all 3
         id: '3',
         worksheetSrc: '/samples/english/shadow-match/sample-3.jpeg',
         answerKeySrc: '/samples/english/shadow-match/sample-3-answer.jpeg',
-        altText: 'Shadow match worksheets for kids - free printable shape recognition activity',
+        altText: 'Shadow match worksheets for kids - free printable shape recognition visual perception activity',
         pdfDownloadUrl: '/samples/english/shadow-match/sample-3.pdf',
       },
       {
@@ -123,56 +123,56 @@ Full Access subscription costs $240 annually or $25 monthly. This includes all 3
 
   // Features Grid - FULL descriptions from shadow-match.md H3 sections
   features: {
-    sectionTitle: 'Everything You Need for Shadow Match Worksheets',
+    sectionTitle: 'Shadow Match Worksheet Features - Everything You Need for Kindergarten Worksheets and First Grade Worksheets',
     sectionDescription: 'Our shadow matching worksheet generator combines powerful features with simple controls to create professional free printable worksheets in minutes. Teachers using our platform create kindergarten worksheets, first grade worksheets, and preschool activities without design experience. The shadow match generator includes dual exercise modes, complete customization, and professional quality exports perfect for classroom teaching or commercial sales. Full Access subscription gives you unlimited worksheet creation across all 33 apps including math worksheets, phonics worksheets, sight words worksheets, alphabet worksheets, addition worksheets, tracing worksheets, and coloring worksheets.',
     highlightBadgeText: 'Key Feature',
     items: [
       {
         id: '1',
         icon: '⚡',
-        title: 'Create Free Printable Worksheets in Three Clicks',
+        title: 'Create Free Printable Worksheets in Three Clicks - Fast Shadow Match Generator for Kindergarten Worksheets',
         description: 'Shadow matching worksheets generate in seconds with our streamlined creation process. Select four images from themes or upload your own photos. Choose Shadow Match mode for classic silhouette matching or Make It Whole mode for split-image puzzles. Click generate and your worksheet appears instantly on the editing canvas. The entire process takes under three minutes from start to finished PDF. No design skills needed to create professional kindergarten worksheets and first grade worksheets students love. Teachers create free printable worksheets faster than traditional methods. Our theme-based image library organizes 3000+ child-friendly images by category. Select images individually or choose a complete theme with one click. Upload classroom photos to personalize worksheets for your students. Combine library images with uploaded photos for unlimited variety. Every worksheet includes an automatically generated answer key showing correct matches.',
         highlighted: true,
       },
       {
         id: '2',
         icon: '✏️',
-        title: 'Edit Everything on Your Shadow Match Worksheet',
+        title: 'Edit Everything on Your Shadow Match Worksheet - Full Customization for Math Worksheets and Phonics Worksheets',
         description: 'Complete canvas editing gives you control over every element on your worksheet. Drag images to new positions with your mouse. Rotate objects to any angle. Scale images larger or smaller. Delete unwanted elements instantly. Add text boxes with custom fonts and colors. Change backgrounds and borders with one click. Adjust opacity levels for decorative elements. Every object on the canvas is fully editable. The editing toolbar provides professional layout controls. Align selected objects to each other or center elements on the page. Bring images forward or send them backward to control layering. Lock finished elements to prevent accidental changes. Use undo and redo to experiment freely. Create perfectly aligned kindergarten worksheets and first grade worksheets with professional appearance. The same editing power works across all worksheet types including addition worksheets, tracing worksheets, and coloring worksheets.',
         highlighted: false,
       },
       {
         id: '3',
         icon: '📤',
-        title: 'Upload Custom Images for Personalized Worksheets',
+        title: 'Upload Custom Images for Personalized Kindergarten Worksheets and First Grade Worksheets',
         description: 'Multi-file image upload lets you add classroom-specific content to worksheets. Upload photos of students, classroom objects, or school mascots. Add pictures from field trips or science experiments. Include images relevant to current units or themes. The generator accepts JPEG, PNG, and GIF formats. Upload multiple files simultaneously for faster workflow. Combine uploaded images with library images in the same worksheet. Create highly personalized free printable worksheets that engage your specific students. Upload photos once and reuse them across multiple worksheet types. Create custom alphabet worksheets with student photos. Design personalized math worksheets featuring familiar classroom objects. Build sight words worksheets using images your students recognize. Custom image upload makes every worksheet feel designed specifically for your classroom.',
         highlighted: false,
       },
       {
         id: '4',
         icon: '🌍',
-        title: 'Shadow Match Worksheets in 11 Languages',
+        title: 'Shadow Match Worksheets in 11 Languages - Multilingual Support for Phonics Worksheets and Alphabet Worksheets',
         description: 'Full user interface support in 11 languages makes our platform accessible worldwide. Switch between English, German, French, Spanish, Portuguese, Italian, Dutch, Swedish, Danish, Norwegian, and Finnish with one click. All controls, labels, and buttons translate automatically. Create worksheets in your preferred language for maximum efficiency. Language support particularly benefits teachers creating alphabet worksheets, phonics worksheets, and sight words worksheets for multilingual classrooms. ESL teachers generate materials in students\' native languages. International schools create kindergarten worksheets matching their curriculum language. Heritage language programs produce first grade worksheets in community languages. The image-based nature of shadow matching makes these worksheets universally effective across all 11 supported languages.',
         highlighted: false,
       },
       {
         id: '5',
         icon: '💰',
-        title: 'Commercial License for Selling Worksheets',
+        title: 'Commercial License for Selling Free Printable Worksheets on Teachers Pay Teachers and Etsy',
         description: 'Full Access subscription includes complete print-on-demand commercial licensing at no additional cost. Sell shadow match worksheets you create on Teachers Pay Teachers, Etsy, or Amazon KDP. No attribution required. No extra licensing fees beyond your $240 annual subscription. Create worksheet packets, activity books, or themed collections. Build a teacher entrepreneur business selling kindergarten worksheets and first grade worksheets. The commercial license covers all worksheet types including math worksheets, addition worksheets, phonics worksheets, alphabet worksheets, sight words worksheets, tracing worksheets, and coloring worksheets. Export at professional 300 DPI quality perfect for commercial printing. Create comprehensive learning packets combining multiple worksheet types. Price your products competitively knowing all visual content is licensed. Many teachers supplement their income selling free printable worksheets they create with our generators. Some successful sellers earn $500 to $5,000 monthly from worksheet sales.',
         highlighted: true,
       },
       {
         id: '6',
         icon: '🖼️',
-        title: '3000+ Image Library with Theme Organization',
+        title: '3000+ Image Library - Theme-Organized Pictures for Math Worksheets and Addition Worksheets',
         description: 'Access over 3000 child-friendly images organized into convenient themes. Browse categories like animals, food, toys, transportation, nature, and holidays. Search by keyword to find specific images quickly. Preview thumbnails before selecting. Choose images individually or select entire themes. Every image is professionally illustrated and optimized for kindergarten worksheets and first grade worksheets. The extensive library supports creating varied free printable worksheets without repetition. Generate math worksheets with different number concepts. Create addition worksheets using manipulative images. Design alphabet worksheets featuring objects starting with target letters. Build phonics worksheets showing beginning sounds. Develop sight words worksheets with supporting visuals. Make tracing worksheets with engaging reward images. Produce coloring worksheets from line-art variations. Theme organization makes finding appropriate images effortless even with thousands of options.',
         highlighted: false,
       },
       {
         id: '7',
         icon: '🖨️',
-        title: 'Professional 300 DPI Quality Exports',
+        title: 'Professional 300 DPI Quality - High-Resolution Kindergarten Worksheets and First Grade Worksheets',
         description: 'Export worksheets as publication-quality PDF or JPEG files at 300 DPI resolution. This professional standard ensures crisp printing at any size. Sharp details and clean lines make worksheets look professionally published. Text remains readable. Images stay clear. Perfect for classroom duplication or commercial printing. Download options include both color and grayscale formats. Grayscale mode saves printer ink while maintaining visual quality. Choose JPEG for quick sharing via email. Select PDF for archival quality and consistent formatting. Generate separate files for worksheets and answer keys. Export free printable worksheets ready for immediate classroom use or commercial sale. The same 300 DPI quality applies to all generator types including math worksheets, phonics worksheets, addition worksheets, alphabet worksheets, and coloring worksheets.',
         highlighted: true,
       },
@@ -188,42 +188,42 @@ Full Access subscription costs $240 annually or $25 monthly. This includes all 3
 
   // How-To Guide - FULL text from shadow-match.md Step sections
   howTo: {
-    sectionTitle: 'Create Shadow Match Worksheets in 5 Easy Steps',
+    sectionTitle: 'How to Create Free Printable Worksheets in 5 Easy Steps - Shadow Match Generator for Kindergarten Worksheets',
     sectionDescription: 'Creating professional shadow matching worksheets takes under three minutes with our streamlined workflow. Teachers generate kindergarten worksheets, first grade worksheets, and preschool activities without technical skills. The five-step process guides you from image selection through final PDF download. Each step offers customization options while maintaining simplicity. Follow this workflow to create math worksheets, phonics worksheets, sight words worksheets, alphabet worksheets, addition worksheets, tracing worksheets, and coloring worksheets across all 33 generator types.',
     ctaText: 'Start Creating Now',
     steps: [
       {
         id: '1',
         number: 1,
-        title: 'Choose Images for Your Shadow Match Worksheet',
+        title: 'Choose Images for Your Shadow Match Worksheet - Free Printable Kindergarten Worksheets and Math Worksheets',
         description: 'Begin by selecting four images for your worksheet from three convenient sources. Browse the theme dropdown to explore organized categories like animals, food, toys, transportation, and holidays. Select four images from a single theme for cohesive worksheets. Mix images from different themes for variety. Use the search box to find specific objects by keyword. Click images to select them and watch the counter update showing your selections. Upload your own images as the second selection method. Click the upload button to choose files from your computer. Select multiple photos simultaneously for faster workflow. Upload classroom objects to create personalized kindergarten worksheets. Add student artwork for custom alphabet worksheets. Include manipulatives for hands-on math worksheets. Combine uploaded photos with library images in the same worksheet. This flexibility lets you create sight words worksheets using familiar classroom items or addition worksheets featuring objects your students recognize. The image library contains over 3000 child-friendly illustrations perfect for creating free printable worksheets. Every image is professionally drawn and optimized for educational use. Select images appropriate to student age and ability levels. Choose simple shapes for preschool activities. Pick detailed objects for first grade worksheets. Theme-based organization helps you quickly create phonics worksheets with beginning sound images or tracing worksheets with letter-related objects. Four-image selection creates perfectly sized worksheets with clear visual elements.',
         icon: '🖼️',
       },
       {
         id: '2',
         number: 2,
-        title: 'Select Exercise Mode and Settings',
+        title: 'Select Exercise Mode and Settings - Customizable Kindergarten Worksheets and First Grade Worksheets',
         description: 'Choose between two distinct exercise modes depending on your learning objectives. Shadow Match mode creates classic silhouette matching where students connect colored objects to their black shadows. This mode develops visual discrimination and figure-ground perception. Make It Whole mode splits each image into two pieces students must mentally reassemble. This exercises spatial reasoning and part-to-whole understanding. Both modes create engaging free printable worksheets suitable for kindergarten through second grade. Configure cut direction when using Make It Whole mode. Select horizontal cutting to split images into top and bottom halves. Choose vertical cutting for left and right pieces. Cut direction affects difficulty level and targets different spatial skills. Horizontal cuts work well for symmetrical objects. Vertical cuts challenge students with orientation recognition. Experiment with both options to create varied alphabet worksheets, math worksheets, and phonics worksheets maintaining student engagement. Enable optional visual aids with two checkbox settings. Show labels adds letter markers and number markers to matching elements. Labels help younger students track their work and communicate answers. Include name and date fields adds these standard classroom worksheet elements at the top. These settings help you create professional addition worksheets, sight words worksheets, and coloring worksheets matching traditional worksheet formats. Customize settings differently for varied ability levels within your classroom creating differentiated tracing worksheets and first grade worksheets.',
         icon: '⚙️',
       },
       {
         id: '3',
         number: 3,
-        title: 'Generate Your Worksheet Instantly',
+        title: 'Generate Your Worksheet Instantly - Fast Creation of Math Worksheets and Phonics Worksheets',
         description: 'Click the Generate button to create your worksheet instantly. The generator processes your images and settings in seconds. Shadow Match mode arranges colored images on the left with randomized black silhouettes on the right. Make It Whole mode splits each image and randomizes piece positions. The worksheet appears on your editing canvas ready for customization. An answer key generates automatically showing correct matches. Page setup options let you choose paper size before or after generation. Select Letter Portrait or Landscape for US classrooms. Choose A4 Portrait or Landscape for international schools. Pick Square format for social media sharing. Specify custom dimensions for special projects. Change page background color to create themed kindergarten worksheets. Add decorative backgrounds from the theme library to make attractive free printable worksheets. Adjust background opacity to prevent overwhelming worksheet content. Border themes add finishing touches to your worksheets. Browse border options organized by theme and holiday. Select seasonal borders for timely addition worksheets and alphabet worksheets. Choose neutral frames for evergreen sight words worksheets and tracing worksheets. Adjust border opacity to balance decoration with functionality. These design options help you create visually appealing phonics worksheets and coloring worksheets students enjoy completing. Professional appearance increases student motivation and worksheet completion rates.',
         icon: '✨',
       },
       {
         id: '4',
         number: 4,
-        title: 'Edit Everything on Canvas',
+        title: 'Edit Everything on Canvas - Perfect Your Free Printable Worksheets for Kindergarten and First Grade',
         description: 'Full canvas editing gives you complete control over worksheet layout. Click any element to select it. Drag images to new positions. Rotate objects using corner handles. Scale elements larger or smaller. Delete unwanted items with one keystroke. Every object on the canvas is fully editable including images, text, backgrounds, and borders. Create perfectly customized kindergarten worksheets and first grade worksheets matching your exact specifications. Add text elements to personalize worksheets further. Type instructions specific to your lesson. Add student names for individualized math worksheets. Include vocabulary words for sight words worksheets. Create titles for themed alphabet worksheets. Format text using seven professional fonts. Adjust font size, color, and outline width. Position text boxes anywhere on the page. Text tools help you create labeled addition worksheets, annotated phonics worksheets, and customized tracing worksheets reinforcing current learning objectives. Use alignment tools to create professional layouts. Align selected objects to each other or center elements on the page. Distribute images evenly for balanced appearance. Lock finished elements to prevent accidental changes. Bring important elements forward or send backgrounds backward. Undo and redo buttons let you experiment freely. These editing capabilities help you create precisely formatted free printable worksheets matching professional standards. The same editing power works across all worksheet types including coloring worksheets and first grade worksheets.',
         icon: '✏️',
       },
       {
         id: '5',
         number: 5,
-        title: 'Download and Print Your Shadow Match Worksheets',
+        title: 'Download and Print Your Shadow Match Worksheets - High-Quality Kindergarten Worksheets and Math Worksheets',
         description: 'Download your completed worksheet using the Download dropdown menu. Choose JPEG format for quick digital sharing via email or learning management systems. Select PDF format for archival quality and consistent printing. Both formats export at professional 300 DPI resolution ensuring sharp details. Download the worksheet and answer key as separate files. Teachers typically print worksheets for students while keeping answer keys digital. Enable grayscale mode before downloading to save printer ink. This converts all colors to shades of gray while maintaining visual clarity. Grayscale works perfectly for shadow matching since the exercise depends on shapes rather than colors. Regular grayscale printing saves significant costs when creating multiple free printable worksheets. Generate color versions for classroom displays or digital distribution. Create grayscale copies for student take-home practice including alphabet worksheets, phonics worksheets, and addition worksheets. Print worksheets immediately or save files for future use. Organize downloaded PDFs by topic, theme, or learning objective. Build digital libraries of sight words worksheets, tracing worksheets, and coloring worksheets ready for any lesson. Share files with teaching teams or grade-level partners. Upload to Teachers Pay Teachers if you have commercial licensing. Distribute to parents for home practice support. The three-minute creation process lets you generate fresh kindergarten worksheets and math worksheets whenever needed without advance planning or preparation time.',
         icon: '📥',
       },
@@ -232,7 +232,7 @@ Full Access subscription costs $240 annually or $25 monthly. This includes all 3
 
   // Use Cases - FULL descriptions from shadow-match.md persona sections
   useCases: {
-    sectionTitle: 'Perfect for Teachers, Parents, and Educators',
+    sectionTitle: 'Perfect for Teachers, Parents, and Educators - Free Printable Worksheets for Every Classroom Need',
     sectionDescription: 'Shadow matching worksheets serve diverse educational settings from preschool through elementary school. Teachers use our generator to create sight words worksheets, phonics worksheets, alphabet worksheets, addition worksheets, tracing worksheets, and coloring worksheets supporting multiple learning objectives. The visual perception focus makes shadow match activities ideal for kindergarten worksheets and first grade worksheets. Homeschool parents appreciate the quick creation of math worksheets without subscription complexity. Special education teachers customize free printable worksheets for individualized learning plans. Teacher entrepreneurs build profitable businesses selling worksheet packets on Teachers Pay Teachers.',
     items: [
       {
@@ -288,7 +288,7 @@ Full Access subscription costs $240 annually or $25 monthly. This includes all 3
 
   // FAQ Section - ALL questions from shadow-match.md
   faq: {
-    sectionTitle: 'Frequently Asked Questions',
+    sectionTitle: 'Frequently Asked Questions About Shadow Match Worksheets, Coloring Worksheets, and Tracing Worksheets',
     sectionDescription: 'Teachers frequently ask about subscription requirements, classroom usage, customization options, and commercial licensing for shadow matching worksheets. Full Access subscription provides unlimited creation of coloring worksheets, tracing worksheets, sight words worksheets, phonics worksheets, alphabet worksheets, addition worksheets, and all 33 worksheet types. The professional quality and flexible features support diverse educational needs from kindergarten through elementary school. These answers address common questions helping teachers decide if Full Access subscription meets their classroom requirements.',
     showMoreText: 'Show more questions',
     showLessText: 'Show less',

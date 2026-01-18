@@ -68,7 +68,7 @@ Every worksheet downloads as a 300 DPI professional-quality PDF or JPEG file. In
 
   // Sample Gallery - REAL file paths from samples/english/word scramble/
   samples: {
-    sectionTitle: 'Word Scramble Worksheet Samples',
+    sectionTitle: 'Free Printable Word Scramble Worksheet Samples',
     downloadLabel: 'Download Free Sample',
     worksheetLabel: 'Worksheet',
     answerKeyLabel: 'Answer Key',
@@ -334,8 +334,8 @@ Many teachers subscribe specifically for the commercial licensing capability. Co
 
   // FAQ Section - Selected FAQs from word-scramble.md
   faq: {
-    sectionTitle: 'Frequently Asked Questions',
-    sectionDescription: 'Everything you need to know about our word scramble worksheet generator.',
+    sectionTitle: 'Frequently Asked Questions About Free Word Scramble Worksheets',
+    sectionDescription: 'Teachers ask important questions before creating word scramble worksheets for kindergarten and first grade. These answers address common concerns about free worksheet creation, pricing, customization options, and educational uses.',
     showMoreText: 'Show more questions',
     showLessText: 'Show less',
     items: [
@@ -464,8 +464,8 @@ Many teachers subscribe specifically for the commercial licensing capability. Co
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Combine with Other Worksheet Generators',
-    sectionDescription: 'Create complete learning packets by combining word scramble worksheets with these complementary generators.',
+    sectionTitle: 'Combine Word Scramble Worksheets with Free Printables',
+    sectionDescription: 'Create complete learning packets by combining word scramble worksheets with free printable worksheets. Mix vocabulary puzzles with math worksheets, alphabet worksheets, and coloring worksheets for comprehensive kindergarten and first grade practice.',
     ctaTitle: 'Ready to Create Amazing Worksheets?',
     ctaDescription: 'Join thousands of educators creating professional worksheets. Unlimited generation, commercial license included.',
     primaryCtaText: 'Start Free Trial',

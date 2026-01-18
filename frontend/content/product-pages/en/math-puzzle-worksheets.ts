@@ -16,27 +16,39 @@ export const mathPuzzleEnContent: ProductPageContent = {
     slug: 'math-puzzle-worksheets',
     appId: 'math-puzzle',
     title: 'Free Math Puzzle Worksheets | Printable Math Worksheet Generator',
-    description: 'Create math puzzle worksheets for kindergarten with our free worksheet generator. Download printable math worksheets PDF in 3 minutes. Try now!',
+    description: 'Create free math puzzle worksheets for kindergarten and first grade with our worksheet generator. Download printable math worksheets PDF in 3 minutes. Start now!',
     keywords: 'math puzzle worksheets, math worksheets, free printable worksheets, kindergarten worksheets, first grade worksheets, addition worksheets, free worksheet for kids, math puzzle generator, printable math activities, worksheet for kindergarten',
     canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/math-puzzle-worksheets',
     images: [
       {
-        url: 'https://www.lessoncraftstudio.com/samples/english/math%20puzzle/worksheet.jpeg',
+        url: 'https://www.lessoncraftstudio.com/samples/english/math-puzzle/sample-1.jpeg',
         width: 2480,
         height: 3508,
-        caption: 'Free printable math puzzle worksheets for kindergarten - addition grid with colorful counting images for kids'
+        caption: 'Free math puzzle worksheets for kindergarten - printable addition grid worksheet for kids'
       },
       {
-        url: 'https://www.lessoncraftstudio.com/samples/english/math%20puzzle/worksheet%20(1).jpeg',
+        url: 'https://www.lessoncraftstudio.com/samples/english/math-puzzle/sample-2.jpeg',
         width: 2480,
         height: 3508,
-        caption: 'Math puzzle worksheets free printable - subtraction practice worksheet for first grade math'
+        caption: 'Math puzzle worksheets free printable - subtraction practice worksheet for first grade students'
       },
       {
-        url: 'https://www.lessoncraftstudio.com/samples/english/math%20puzzle/worksheet%20(2).jpeg',
+        url: 'https://www.lessoncraftstudio.com/samples/english/math-puzzle/sample-3.jpeg',
         width: 2480,
         height: 3508,
-        caption: 'Free math worksheets for kids - mixed operations puzzle worksheet for kindergarten and first grade'
+        caption: 'Free worksheets for kids - mixed operations math puzzle for kindergarten and first grade'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/math-puzzle/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Free printables math puzzle worksheet - visual addition practice for kindergarten kids'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/math-puzzle/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Worksheet for kindergarten math puzzle - free worksheet for kids with colorful images'
       }
     ]
   },
@@ -52,7 +64,7 @@ Our math puzzle worksheet maker combines visual learning with math practice. Stu
 Math puzzle worksheets combine visual puzzles with addition worksheets and subtraction practice. Each worksheet shows a grid of identical images. Every image has a different math problem. Students solve the problems to complete the puzzle. These free printable worksheets work perfectly for kindergarten worksheets and first grade math.
 
 The puzzles use familiar images children love. Select from our 3000+ image library. Choose animals, food, vehicles, or holiday themes. Each math worksheet adapts to your lesson plan. The visual format keeps students engaged longer than traditional math worksheets.`,
-    previewImageSrc: '/samples/english/math puzzle/worksheet.jpeg',
+    previewImageSrc: '/samples/english/math-puzzle/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Try Free',
       viewSamples: 'View Samples',
@@ -73,43 +85,43 @@ The puzzles use familiar images children love. Select from our 3000+ image libra
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/math puzzle/worksheet.jpeg',
-        answerKeySrc: '/samples/english/math puzzle/answer_key.jpeg',
-        altText: 'Free printable math puzzle worksheets for kindergarten - addition worksheet grid with colorful counting practice for kids',
-        imageTitle: 'Math Puzzle Worksheet - Addition Practice for Kindergarten',
-        pdfDownloadUrl: '/samples/english/math puzzle/worksheet.pdf',
+        worksheetSrc: '/samples/english/math-puzzle/sample-1.jpeg',
+        answerKeySrc: '/samples/english/math-puzzle/sample-1-answer.jpeg',
+        altText: 'Free math puzzle worksheets for kindergarten - printable addition grid worksheet for kids with colorful counting images',
+        imageTitle: 'Math Puzzle Worksheet - Free Printable Addition Practice',
+        pdfDownloadUrl: '/samples/english/math-puzzle/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/math puzzle/worksheet (1).jpeg',
-        answerKeySrc: '/samples/english/math puzzle/answer_key (1).jpeg',
-        altText: 'Free worksheet for first grade math practice - subtraction puzzle worksheets with visual learning and phonics worksheets integration',
-        imageTitle: 'Math Puzzle Worksheet - Subtraction Practice for First Grade',
-        pdfDownloadUrl: '/samples/english/math puzzle/worksheet (1).pdf',
+        worksheetSrc: '/samples/english/math-puzzle/sample-2.jpeg',
+        answerKeySrc: '/samples/english/math-puzzle/sample-2-answer.jpeg',
+        altText: 'Free worksheet for kids math puzzle - subtraction practice worksheets for first grade with visual learning elements',
+        imageTitle: 'Math Puzzle Worksheet - Free Worksheets Subtraction Practice',
+        pdfDownloadUrl: '/samples/english/math-puzzle/sample-2.pdf',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/math puzzle/worksheet (2).jpeg',
-        answerKeySrc: '/samples/english/math puzzle/answer_key (2).jpeg',
-        altText: 'Math worksheets free printable - kindergarten worksheets puzzle format with addition worksheets and tracing worksheets compatible design',
-        imageTitle: 'Math Puzzle Worksheet - Mixed Operations for Kids',
-        pdfDownloadUrl: '/samples/english/math puzzle/worksheet (2).pdf',
+        worksheetSrc: '/samples/english/math-puzzle/sample-3.jpeg',
+        answerKeySrc: '/samples/english/math-puzzle/sample-3-answer.jpeg',
+        altText: 'Free worksheets math puzzle for kindergarten - mixed operations free printables with addition and subtraction practice',
+        imageTitle: 'Math Puzzle Worksheet - Free Printables Mixed Operations',
+        pdfDownloadUrl: '/samples/english/math-puzzle/sample-3.pdf',
       },
       {
         id: '4',
-        worksheetSrc: '/samples/english/math puzzle/worksheet (3).jpeg',
-        answerKeySrc: '/samples/english/math puzzle/answer_key (3).jpeg',
-        altText: 'Free printables math puzzle - first grade worksheets with sight words worksheets and alphabet worksheets curriculum alignment',
-        imageTitle: 'Math Puzzle Worksheet - Advanced Grid for First Grade',
-        pdfDownloadUrl: '/samples/english/math puzzle/worksheet (3).pdf',
+        worksheetSrc: '/samples/english/math-puzzle/sample-4.jpeg',
+        answerKeySrc: '/samples/english/math-puzzle/sample-4-answer.jpeg',
+        altText: 'Free printables math puzzle worksheets - worksheet for kindergarten with colorful images for visual learning kids',
+        imageTitle: 'Math Puzzle Worksheet - Free Worksheet for Kids Visual',
+        pdfDownloadUrl: '/samples/english/math-puzzle/sample-4.pdf',
       },
       {
         id: '5',
-        worksheetSrc: '/samples/english/math puzzle/worksheet (4).jpeg',
-        answerKeySrc: '/samples/english/math puzzle/answer_key (4).jpeg',
-        altText: 'Worksheet for kindergarten math puzzle - coloring worksheets style grid with free worksheet for kids at multiple difficulty levels',
-        imageTitle: 'Math Puzzle Worksheet - Easy Grid for Young Learners',
-        pdfDownloadUrl: '/samples/english/math puzzle/worksheet (4).pdf',
+        worksheetSrc: '/samples/english/math-puzzle/sample-5.jpeg',
+        answerKeySrc: '/samples/english/math-puzzle/sample-5-answer.jpeg',
+        altText: 'Worksheet for kindergarten math puzzle - free worksheet for kids with multiple difficulty levels for first grade',
+        imageTitle: 'Math Puzzle Worksheet - Free Worksheets Easy Grid',
+        pdfDownloadUrl: '/samples/english/math-puzzle/sample-5.pdf',
       },
     ],
   },
@@ -123,21 +135,21 @@ The puzzles use familiar images children love. Select from our 3000+ image libra
       {
         id: '1',
         icon: '⚡',
-        title: 'Free Worksheet Generator: Create Math Worksheets and Addition Worksheets in 3 Clicks',
+        title: 'Free Worksheet for Kids Generator: Create Math Puzzles and Addition Worksheets in 3 Clicks',
         description: 'Creating math puzzle worksheets takes less than 3 minutes. Select your grid size from 2x2 to 4x4. Choose addition, subtraction, or both operations. Pick one image from our 3000+ library. Click generate. Your printable math worksheets appear instantly. No design skills needed for these kindergarten worksheets. The interface guides you through each step. First grade teachers create professional addition worksheets without training. Select your preferences and generate. The math worksheet maker handles all the complex formatting. You focus on teaching while we handle worksheet design. Each math puzzle worksheet includes clear instructions. Students understand what to do immediately. The puzzle format makes math worksheets more engaging than traditional practice sheets. Children stay focused longer on these free printable worksheets. Parents report better completion rates with puzzle-based math practice.',
         highlighted: false,
       },
       {
         id: '2',
         icon: '✏️',
-        title: 'Free Worksheets with Full Editing: Customize Kindergarten Worksheets and First Grade Worksheets',
+        title: 'Free Worksheets for Kids with Full Editing: Customize Worksheet for Kindergarten and First Grade',
         description: 'Every element on your math worksheets is fully editable. Click any object to select it. Drag to move images or text anywhere. Rotate objects with your mouse. Scale items larger or smaller. Delete elements you do not need. This complete control makes every worksheet unique. Add custom text to your kindergarten worksheets. Type student names, special instructions, or learning objectives. Choose from seven professional fonts. Adjust text size, color, and outline. Position text exactly where you want it. Your first grade worksheets look professionally designed. The canvas editor works like familiar design software. Click and drag to reposition elements. Use corner handles to resize images. Rotation handles let you angle objects perfectly. Multi-select with Ctrl+click to move several items together. These editing features give you complete creative control over math worksheets. Change backgrounds and borders after generation. Adjust opacity to make elements lighter or darker. Layer objects by bringing items forward or sending them back. This flexibility means your free printable math worksheets never look generic. Every worksheet you create is customized for your specific students and lessons.',
         highlighted: false,
       },
       {
         id: '3',
         icon: '📤',
-        title: 'Free Printables with Custom Images: Create Phonics Worksheets and Alphabet Worksheets',
+        title: 'Free Printables for Math Practice: Create Custom Free Worksheet for Kids with Your Images',
         description: 'Upload unlimited custom images to personalize math worksheets. Click the upload button and select multiple files at once. Add classroom photos, student artwork, or curriculum-specific graphics. Your uploaded images combine seamlessly with our 3000+ library. Create truly unique kindergarten worksheets and first grade materials. Multi-file upload saves significant time. Select 10 or 20 images simultaneously. All formats work including JPEG, PNG, and GIF. Large files process quickly. Your custom images appear in the preview panel immediately. Click any uploaded image to add it to your addition worksheets. Teachers upload school mascots, local landmarks, and cultural images. ESL teachers add images matching their students backgrounds. Special education teachers upload familiar objects their students recognize. This customization makes math worksheets more relatable and engaging. Students connect better with personalized printable worksheets. Your uploaded images stay available during your session. Switch between library images and custom uploads easily. Combine both types in a single worksheet. Create themed learning packets using your own photos. This flexibility makes the math worksheet generator incredibly versatile for any teaching situation.',
         highlighted: false,
       },
@@ -151,14 +163,14 @@ The puzzles use familiar images children love. Select from our 3000+ image libra
       {
         id: '5',
         icon: '💰',
-        title: 'Free Printable Worksheets with Commercial License: Sell Coloring Worksheets and Math Worksheets',
+        title: 'Free Printables Commercial License: Sell Free Worksheet for Kids and Math Materials Online',
         description: 'Your Full Access subscription includes commercial print-on-demand licensing. Sell your math worksheets on Teachers Pay Teachers, Etsy, or Amazon KDP. No extra licensing fees beyond your $240 annual subscription. Create products, sell them, and keep your profits. Perfect for teacher entrepreneurs. Many teachers earn $500 to $5,000 monthly selling printable worksheets online. Create themed math puzzle packs for kindergarten and first grade. Bundle addition worksheets with seasonal themes. Package free printable worksheet designs and sell them. Your commercial license covers unlimited sales with no attribution required. The 300 DPI export quality ensures your math worksheets look professional. Customers expect crisp, clear printables. Our generator delivers that quality consistently. Upload your finished worksheets to Teachers Pay Teachers immediately. No additional editing needed. Print-ready files every time. Teacher entrepreneurs appreciate the unlimited creation feature. Generate hundreds of unique kindergarten worksheets without extra costs. Test different themes and formats. See what sells best. Iterate quickly based on customer feedback. Your subscription pays for itself with just a few sales monthly.',
         highlighted: true,
       },
       {
         id: '6',
         icon: '🎨',
-        title: '3000+ Images for Free Worksheet Creation: Phonics Worksheets and Tracing Worksheets',
+        title: '3000+ Images for Free Worksheets Creation: Free Printables Library for Worksheet for Kids',
         description: 'Access over 3000 child-friendly images included with your subscription. Browse by theme or search by keyword. Categories include animals, food, vehicles, holidays, school supplies, and more. Every image works perfectly for kindergarten worksheets and first grade math materials. Theme-based browsing makes selection fast. Click "Farm Animals" to see cows, pigs, chickens, and horses. Choose "Transportation" for cars, trucks, planes, and boats. Holiday themes provide seasonal options for your math worksheets. Students stay engaged with age-appropriate, colorful graphics. The search function finds specific images instantly. Type "apple" to see all apple variations. Search "dog" for different dog breeds and styles. This helps you match addition worksheets to your current curriculum unit. Teaching about ocean animals? Search "fish" or "ocean" for relevant images. All images feature child-friendly design styles. Bright colors attract young learners. Simple shapes work well for kindergarten students. Clean outlines make objects easy to identify. These professionally designed graphics make your free printable math worksheets look polished and appealing. No clipart hunting needed.',
         highlighted: false,
       },
@@ -188,7 +200,7 @@ The puzzles use familiar images children love. Select from our 3000+ image libra
       {
         id: '2',
         number: 2,
-        title: 'Free Worksheets Image Library: Images for Coloring Worksheets, Alphabet Worksheets, and Phonics Worksheets',
+        title: 'Free Worksheets Image Library: Free Printables Images for Worksheet for Kids and Math Practice',
         description: 'Browse our 3000+ image library for the perfect picture. Click the Image Library accordion section. Choose a theme from the dropdown menu. Animals, food, holidays, and school themes all work wonderfully. Select one image that matches your current curriculum unit. The theme selector organizes images into categories. Click "Farm Animals" to see cows, pigs, horses, and chickens. Choose "Ocean Life" for fish, whales, and dolphins. Holiday themes provide seasonal options for kindergarten worksheets. Students love familiar, colorful images on their math worksheets. Use the search box to find specific images quickly. Type "apple" to see all apple images. Search "car" for vehicle options. This helps match addition worksheets to your lesson topic. Teaching a unit about pets? Search "dog" or "cat" for relevant images. Click any image to select it for your math puzzle worksheet. The selected image appears in the preview box below. Only one image per worksheet creates the puzzle effect. That single image repeats in the grid with different numbers. Students solve problems to understand the complete pattern. Upload your own images if you prefer custom graphics. Click the Upload section and choose files from your computer. Add classroom photos, student artwork, or curriculum-specific pictures. Your uploaded images work exactly like library images. Create truly personalized kindergarten worksheets and first grade materials with custom graphics.',
         icon: '🖼️',
       },
@@ -202,7 +214,7 @@ The puzzles use familiar images children love. Select from our 3000+ image libra
       {
         id: '4',
         number: 4,
-        title: 'Generate Free Printable Math Worksheets and Addition Worksheets Instantly',
+        title: 'Generate Free Printables Math Puzzles: Free Worksheet for Kids and Addition Practice Instantly',
         description: 'Click the blue Generate button in the top right corner. Select "New Worksheet" from the dropdown menu. Your math puzzle worksheet appears instantly on the canvas. The generator creates the grid layout automatically. Each cell contains your selected image with a different math problem. The worksheet generation takes less than five seconds. All math problems use age-appropriate numbers. Kindergarten addition worksheets typically use numbers 1-10. First grade worksheets might include numbers up to 20. The generator ensures problems match the difficulty level you selected. Review the generated worksheet carefully before downloading. Check that all math problems are visible and clear. Verify the image appears correctly in each grid cell. Make sure text is readable and numbers are sized appropriately. The preview shows exactly what prints on your free printable worksheet. Edit the worksheet if needed using the canvas tools. Click any element to select it. Drag objects to reposition them anywhere. Resize images or text using corner handles. Rotate elements for creative layouts. These editing features let you perfect every detail of your kindergarten worksheets. Add custom text to personalize the worksheet. Type student names, dates, or special instructions. Click Add Text and type your content. Choose font, size, and color from the text tools. Position text anywhere on your addition worksheet. This customization makes each worksheet unique.',
         icon: '✨',
       },

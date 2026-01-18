@@ -31,6 +31,26 @@ export const matchingDeContent: ProductPageContent = {
     description: 'Erstellen Sie professionelle Zuordnungsübungen mit unserem Zuordnungs-Generator. Perfekt für Arbeitsblätter Grundschule, Vorschul-Arbeitsblätter, Buchstaben lernen und Deutsch-Arbeitsblätter. Laden Sie kostenlose Arbeitsblätter in unter 3 Minuten herunter.',
     keywords: 'zuordnungs arbeitsblätter, arbeitsblätter grundschule, kostenlose arbeitsblätter, mathe arbeitsblätter, vorschule arbeitsblätter, buchstaben lernen, deutsch arbeitsblätter, einmaleins, schwungübungen, ausmalbilder',
     canonicalUrl: 'https://www.lessoncraftstudio.com/de/apps/zuordnungs-arbeitsblaetter',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/german/matching/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Zuordnungs-Arbeitsblätter kostenlos - Bild-zu-Buchstabe-Zuordnung für Arbeitsblätter Grundschule'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/german/matching/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Kostenlose Arbeitsblätter für Kinder - Zuordnungsübungen für Vorschule'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/german/matching/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Arbeitsblatt für Kinder - Bild-Wort-Zuordnung für Deutsch-Arbeitsblätter'
+      }
+    ],
   },
 
   // Hero Section - FULL text from matching.md paragraphs 1-4
@@ -42,7 +62,7 @@ export const matchingDeContent: ProductPageContent = {
 Unser Zuordnungsübungen-Generator hilft Lehrkräften beim Erstellen von Arbeitsblättern, bei denen Schüler Linien ziehen, um passende Paare zu verbinden. Wählen Sie aus vier verschiedenen Zuordnungsmodi, einschließlich Bild-zu-Buchstabe für Arbeitsblätter zum Buchstaben lernen. Nutzen Sie Bild-zu-Wort-Zuordnung für Deutsch-Arbeitsblätter und Leseübungen. Verwenden Sie eigene Vokabeln für Mathe-Arbeitsblätter und Sachunterricht. Perfekt für die Entwicklung von Lese- und Schreibfähigkeiten in der Grundschule.
 
 Der Zuordnungs-Generator bietet flexible Inhaltserstellung für jedes Fach. Erstellen Sie Mathe-Arbeitsblätter mit visueller Zuordnung für Zahlenerkennung und Rechnen lernen. Generieren Sie Arbeitsblätter, bei denen Schüler Aufgaben den Lösungen zuordnen. Gestalten Sie Arbeitsblätter zum Buchstaben lernen für die Vorschule. Kombinieren Sie Schwungübungen mit Zuordnungsaktivitäten für die Entwicklung der Feinmotorik. Alle Inhalte nutzen unsere Bibliothek mit über 3000 kindgerechten Bildern.`,
-    previewImageSrc: '/samples/english/matching/matching portrait.jpeg',
+    previewImageSrc: '/samples/german/matching/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Kostenlos Testen',
       viewSamples: 'Beispiele Ansehen',
@@ -77,24 +97,38 @@ Der Zuordnungs-Generator bietet flexible Inhaltserstellung für jedes Fach. Erst
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/matching/matching portrait.jpeg',
-        answerKeySrc: '/samples/english/matching/matching portrait answer_key.jpeg',
-        altText: 'Zuordnungsarbeitsblatt im Hochformat mit Bild-zu-Buchstabe-Zuordnung für Arbeitsblätter zum Buchstaben lernen',
-        pdfDownloadUrl: '/samples/english/matching/matching portrait.pdf',
+        worksheetSrc: '/samples/german/matching/sample-1.jpeg',
+        answerKeySrc: '/samples/german/matching/sample-1-answer.jpeg',
+        altText: 'Zuordnungs-Arbeitsblätter kostenlos zum Ausdrucken - Hochformat Bild-zu-Buchstabe-Zuordnung für Arbeitsblätter Grundschule und Vorschule',
+        pdfDownloadUrl: '/samples/german/matching/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/matching/image and word.jpeg',
-        answerKeySrc: '/samples/english/matching/image and word answer_key.jpeg',
-        altText: 'Bild-und-Wort-Zuordnungsarbeitsblatt für Deutsch-Arbeitsblätter und Vokabelpraxis',
-        pdfDownloadUrl: '/samples/english/matching/image and word.pdf',
+        worksheetSrc: '/samples/german/matching/sample-2.jpeg',
+        answerKeySrc: '/samples/german/matching/sample-2-answer.jpeg',
+        altText: 'Kostenlose Arbeitsblätter für Kinder - Zuordnungsübungen mit bunten Bildern für Vorschul-Arbeitsblätter',
+        pdfDownloadUrl: '/samples/german/matching/sample-2.pdf',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/matching/image and custom word.jpeg',
-        answerKeySrc: '/samples/english/matching/image and custom word answer_key.jpeg',
-        altText: 'Benutzerdefinierte Vokabel-Zuordnung für Mathe-Arbeitsblätter und thematische Einheiten',
-        pdfDownloadUrl: '/samples/english/matching/image and custom word.pdf',
+        worksheetSrc: '/samples/german/matching/sample-3.jpeg',
+        answerKeySrc: '/samples/german/matching/sample-3-answer.jpeg',
+        altText: 'Arbeitsblatt für Kinder - Bild-Wort-Zuordnung für Deutsch-Arbeitsblätter und Buchstaben lernen',
+        pdfDownloadUrl: '/samples/german/matching/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/german/matching/sample-4.jpeg',
+        answerKeySrc: '/samples/german/matching/sample-4-answer.jpeg',
+        altText: 'Kostenlose Druckvorlagen Zuordnung - Mathe-Arbeitsblätter mit visueller Zuordnung für Rechnen lernen',
+        pdfDownloadUrl: '/samples/german/matching/sample-4.pdf',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/german/matching/sample-5.jpeg',
+        answerKeySrc: '/samples/german/matching/sample-5-answer.jpeg',
+        altText: 'Arbeitsblatt für Vorschule - Zuordnungsarbeitsblatt mit Bildern für kostenlose Arbeitsblätter Grundschule',
+        pdfDownloadUrl: '/samples/german/matching/sample-5.pdf',
       },
     ],
   },

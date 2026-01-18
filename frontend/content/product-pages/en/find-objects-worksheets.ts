@@ -16,7 +16,7 @@ export const findObjectsEnContent: ProductPageContent = {
     slug: 'find-objects-worksheets',
     appId: 'find-objects',
     title: 'Find Objects Worksheets Free Printable | I Spy Visual Discrimination',
-    description: 'Create I Spy and Odd One Out worksheets with our visual discrimination worksheet generator. Free printable hidden objects worksheets for kindergarten. Download now!',
+    description: 'Create I Spy and Odd One Out worksheets with our visual discrimination worksheet generator. Free printable hidden objects worksheets for kindergarten. Try free!',
     keywords: 'find objects worksheets, visual discrimination worksheets, I Spy worksheets, kindergarten worksheets, free printable worksheets, first grade worksheets, hidden objects worksheets, worksheet for kids, free worksheet, odd one out worksheets',
     canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/find-objects-worksheets',
     images: [

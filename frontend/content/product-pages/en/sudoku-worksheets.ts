@@ -22,7 +22,7 @@ export const sudokuEnContent: ProductPageContent = {
     appId: 'sudoku',
     slug: 'sudoku-worksheets',
     title: 'Free Sudoku Worksheets for Kids | 4x4 Logic Puzzles Kindergarten',
-    description: 'Create free printable sudoku worksheets for kindergarten. 4x4 picture puzzles with answer keys. Download PDF worksheets for kids in 3 minutes.',
+    description: 'Create free printable sudoku worksheets for kindergarten and first grade. 4x4 picture puzzles with answer keys. Download PDF worksheets for kids in minutes.',
     keywords: 'sudoku worksheets, sudoku for kids, kindergarten worksheets, first grade worksheets, free printable worksheets, logic puzzles for kids, picture sudoku, 4x4 sudoku puzzles, math worksheets, free worksheets for kids, sudoku worksheet generator, printable sudoku puzzles, free worksheet, free worksheet for kids, puzzle worksheets',
     canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/sudoku-worksheets',
     images: [
@@ -43,6 +43,18 @@ export const sudokuEnContent: ProductPageContent = {
         width: 2480,
         height: 3508,
         caption: 'Free worksheet for kindergarten - 4x4 sudoku puzzles with colorful images for logic and problem solving'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/sudoku/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'First grade worksheets free printable - sudoku for kids with easy medium hard difficulty levels'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/sudoku/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Free printable worksheets - picture sudoku logic puzzles for kindergarten and first grade students'
       }
     ]
   },

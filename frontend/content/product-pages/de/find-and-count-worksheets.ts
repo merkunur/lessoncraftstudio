@@ -27,10 +27,30 @@ export const findAndCountDeContent: ProductPageContent = {
   seo: {
     slug: 'suchen-und-zaehlen-arbeitsblaetter',
     appId: 'find-and-count',
-    title: 'Zählübungen-Generator - Kostenlose Arbeitsblätter Grundschule für Vorschule und Mathe-Arbeitsblätter',
-    description: 'Erstellen Sie professionelle Suchen-und-Zählen-Arbeitsblätter mit unserem Generator für Arbeitsblätter Grundschule. Kombinieren Sie visuelle Diskriminierung mit Zählübungen für Vorschul-Arbeitsblätter. Perfekt für Mathe-Arbeitsblätter und kostenlose Arbeitsblätter 1. Klasse.',
+    title: 'Suchen und Zählen Arbeitsblätter - Kostenlose Mathe-Arbeitsblätter',
+    description: 'Erstellen Sie Suchen-und-Zählen-Arbeitsblätter für Grundschule und Vorschule. Kostenlose Mathe-Arbeitsblätter mit Lösungsblatt. PDF in 3 Minuten.',
     keywords: 'suchen und zählen generator, arbeitsblätter grundschule, kostenlose arbeitsblätter, mathe arbeitsblätter, vorschule arbeitsblätter, rechnen lernen, ich sehe was was du nicht siehst, zählen lernen, visuelle wahrnehmung, einmaleins',
     canonicalUrl: 'https://www.lessoncraftstudio.com/de/apps/suchen-und-zaehlen-arbeitsblaetter',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/german/find-and-count/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Kostenlose Suchen-und-Zählen-Arbeitsblätter für Vorschule - Arbeitsblätter Grundschule mit visueller Wahrnehmung'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/german/find-and-count/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Arbeitsblätter Grundschule Zählübungen - Kostenlose Arbeitsblätter mit Lösungsblatt für Vorschul-Arbeitsblätter'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/german/find-and-count/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Mathe-Arbeitsblätter Suchen und Zählen - Kostenlose Druckvorlagen für Rechnen lernen'
+      }
+    ],
   },
 
   // Hero Section - FULL text from suchen-und-zaehlen.md paragraphs 1-4
@@ -44,7 +64,7 @@ Das Suchen-und-Zählen-Format kombiniert visuelle Diskriminierung mit Zählübun
 Unser Generator erstellt Arbeitsblätter Grundschule in wenigen Sekunden. Wählen Sie 1-4 Objekte aus unserer Bildbibliothek oder laden Sie eigene Bilder hoch. Passen Sie die Rastergröße an die Fähigkeiten Ihrer Schüler an. Das System erstellt automatisch einen Lösungsschlüssel mit visuellen Markierungen. Jedes Arbeitsblatt ist vollständig editierbar auf der Leinwand.
 
 Die Arbeitsblätter unterstützen verschiedene pädagogische Ziele. Fördern Sie visuelle Wahrnehmung und Aufmerksamkeit für Details. Üben Sie Zahlenerkennung und grundlegende Zählfähigkeiten. Entwickeln Sie Feinmotorik durch Zeichenaufgaben. Kombinieren Sie Suchen-und-Zählen mit thematischem Lernen in allen Schulfächern.`,
-    previewImageSrc: '/samples/english/find and count/find and count portrait.jpeg',
+    previewImageSrc: '/samples/german/find-and-count/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Kostenlos Testen',
       viewSamples: 'Beispiele Ansehen',
@@ -79,17 +99,38 @@ Die Arbeitsblätter unterstützen verschiedene pädagogische Ziele. Fördern Sie
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/find and count/find and count portrait.jpeg',
-        answerKeySrc: '/samples/english/find and count/find and count portrait answer_key.jpeg',
-        altText: 'Hochformat Suchen und Zählen Arbeitsblatt für Vorschul-Arbeitsblätter und visuelle Wahrnehmung',
-        pdfDownloadUrl: '/samples/english/find and count/find and count portrait.pdf',
+        worksheetSrc: '/samples/german/find-and-count/sample-1.jpeg',
+        answerKeySrc: '/samples/german/find-and-count/sample-1-answer.jpeg',
+        altText: 'Suchen und Zählen Arbeitsblätter kostenlos - Arbeitsblätter Grundschule mit Bildsuche für Vorschul-Arbeitsblätter und Mathe-Arbeitsblätter',
+        pdfDownloadUrl: '/samples/german/find-and-count/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/find and count/find and count landscape.jpeg',
-        answerKeySrc: '/samples/english/find and count/find and count landscape answer_key.jpeg',
-        altText: 'Querformat Suchen und Zählen Arbeitsblatt für Arbeitsblätter Grundschule und Mathe-Arbeitsblätter',
-        pdfDownloadUrl: '/samples/english/find and count/find and count landscape.pdf',
+        worksheetSrc: '/samples/german/find-and-count/sample-2.jpeg',
+        answerKeySrc: '/samples/german/find-and-count/sample-2-answer.jpeg',
+        altText: 'Kostenlose Arbeitsblätter Zählübungen - Vorschul-Arbeitsblätter mit Rechnen lernen für Arbeitsblätter Grundschule',
+        pdfDownloadUrl: '/samples/german/find-and-count/sample-2.pdf',
+      },
+      {
+        id: '3',
+        worksheetSrc: '/samples/german/find-and-count/sample-3.jpeg',
+        answerKeySrc: '/samples/german/find-and-count/sample-3-answer.jpeg',
+        altText: 'Mathe-Arbeitsblätter Suchen und Zählen - Kostenlose Druckvorlagen für Arbeitsblätter Grundschule mit Schwungübungen',
+        pdfDownloadUrl: '/samples/german/find-and-count/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/german/find-and-count/sample-4.jpeg',
+        answerKeySrc: '/samples/german/find-and-count/sample-4-answer.jpeg',
+        altText: 'Arbeitsblatt für Kinder Suchen und Zählen - Kostenlose Arbeitsblätter für Vorschule mit Buchstaben lernen',
+        pdfDownloadUrl: '/samples/german/find-and-count/sample-4.pdf',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/german/find-and-count/sample-5.jpeg',
+        answerKeySrc: '/samples/german/find-and-count/sample-5-answer.jpeg',
+        altText: 'Vorschul-Arbeitsblätter Zählübungen - Kostenlose Mathe-Arbeitsblätter für Arbeitsblätter Grundschule mit Ausmalbilder',
+        pdfDownloadUrl: '/samples/german/find-and-count/sample-5.pdf',
       },
     ],
   },
@@ -414,6 +455,36 @@ Die 300-DPI-Qualität ist essenziell für kommerzielle Produkte. Käufer erwarte
         id: '12',
         question: 'Wie kann ich Deutsch-Arbeitsblätter und Buchstaben lernen Aktivitäten für meine Schüler anpassen?',
         answer: 'Deutsch-Arbeitsblätter und Buchstaben lernen Aktivitäten sind vollständig anpassbar. Wählen Sie Buchstaben-Bilder aus der Bibliothek für Phonetik-Übungen. Laden Sie eigene Fotos von Gegenständen hoch die mit bestimmten Buchstaben beginnen. Fügen Sie benutzerdefinierten Text für spezielle Anweisungen hinzu.',
+      },
+      {
+        id: '13',
+        question: 'Wie unterstützen Suchen-und-Zählen-Arbeitsblätter das Einmaleins für Mathe-Arbeitsblätter?',
+        answer: 'Die Zählübungen bilden die Grundlage für das Einmaleins. Kinder zählen zunächst Objekte und verstehen dann Multiplikation als wiederholte Addition. Das visuelle Zählen in den Mathe-Arbeitsblättern macht den Übergang zum Einmaleins natürlich und anschaulich.',
+      },
+      {
+        id: '14',
+        question: 'Können Schwungübungen mit Arbeitsblätter Grundschule kombiniert werden?',
+        answer: 'Ja, Schwungübungen lassen sich perfekt mit Suchen-und-Zählen kombinieren. Die Einkreis-Aufgabe trainiert kreisförmige Bewegungen als Vorbereitung zum Schreiben. So verbinden die Arbeitsblätter Grundschule kognitive Fähigkeiten mit Feinmotorik.',
+      },
+      {
+        id: '15',
+        question: 'Eignen sich die Zählübungen für Buchstaben lernen und Deutsch-Arbeitsblätter?',
+        answer: 'Ja, erstellen Sie thematische Arbeitsblätter mit Buchstaben-Bildern. Kinder suchen Objekte die mit bestimmten Buchstaben beginnen. Diese Kombination aus Buchstaben lernen und visueller Suche ist ideal für Deutsch-Arbeitsblätter.',
+      },
+      {
+        id: '16',
+        question: 'Wie helfen Ausmalbilder bei Vorschul-Arbeitsblätter mit Suchen und Zählen?',
+        answer: 'Nach dem Suchen und Zählen können Kinder die gefundenen Objekte ausmalen. Diese Ausmalbilder-Erweiterung verbindet kognitive mit kreativen Fähigkeiten. Die Vorschul-Arbeitsblätter fördern so Konzentration und Feinmotorik gleichzeitig.',
+      },
+      {
+        id: '17',
+        question: 'Welche Rechnen lernen Aktivitäten sind für Kostenlose Arbeitsblätter verfügbar?',
+        answer: 'Das Rechnen lernen beginnt mit Zählen. Unsere Kostenlose Arbeitsblätter bieten verschiedene Zählaufgaben. Kinder schreiben Zahlen, vergleichen Mengen und entwickeln grundlegendes Zahlenverständnis. Perfekt als Vorbereitung für Addition und Subtraktion.',
+      },
+      {
+        id: '18',
+        question: 'Kann ich Arbeitsblatt für Kinder mit Malvorlagen und Zählübungen erstellen?',
+        answer: 'Ja, jedes Arbeitsblatt für Kinder kann Malvorlagen integrieren. Die Bildelemente in den Zählübungen eignen sich auch zum Ausmalen. Laden Sie das Arbeitsblatt herunter und lassen Sie Kinder nach dem Zählen kreativ werden.',
       },
     ],
   },

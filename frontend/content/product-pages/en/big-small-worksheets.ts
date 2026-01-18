@@ -37,6 +37,18 @@ export const bigSmallEnContent: ProductPageContent = {
         width: 2480,
         height: 3508,
         caption: 'Free worksheet for kindergarten - size sorting worksheets for first grade math foundations'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/big-small/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Math worksheets for size comparison - free printable visual discrimination worksheets with three objects for preschool and kindergarten learning'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/big-small/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Kindergarten worksheets free printable - big and small size comparison activity with themed images for first grade visual discrimination skills'
       }
     ]
   },

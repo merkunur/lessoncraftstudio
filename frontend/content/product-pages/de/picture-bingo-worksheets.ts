@@ -27,10 +27,30 @@ export const pictureBingoDeContent: ProductPageContent = {
   seo: {
     slug: 'bilder-bingo-arbeitsblaetter',
     appId: 'bingo',
-    title: 'Bilder-Bingo Generator - Kostenlose Arbeitsblätter für Vorschule und Grundschule',
-    description: 'Erstellen Sie professionelle Bilder-Bingo-Karten mit unserem Bingo-Generator. Perfekt für Arbeitsblätter Grundschule, Vorschul-Arbeitsblätter, Buchstaben lernen und Rechnen lernen. Laden Sie kostenlose Arbeitsblätter in unter 3 Minuten herunter.',
+    title: 'Bilder-Bingo Arbeitsblätter | Kostenloser Generator für Grundschule',
+    description: 'Erstellen Sie professionelle Bilder-Bingo-Karten mit unserem Generator. Kostenlose Arbeitsblätter für Vorschule und Grundschule. PDF in 3 Minuten.',
     keywords: 'bilder bingo arbeitsblätter, arbeitsblätter grundschule, kostenlose arbeitsblätter, mathe arbeitsblätter, vorschule arbeitsblätter, buchstaben lernen, deutsch arbeitsblätter, einmaleins, schwungübungen, ausmalbilder',
     canonicalUrl: 'https://www.lessoncraftstudio.com/de/apps/bilder-bingo-arbeitsblaetter',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/german/bingo/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Bilder-Bingo Arbeitsblätter kostenlos für Grundschule - Arbeitsblatt mit bunten Bildern für Buchstaben lernen und Vorschule'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/german/bingo/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Kostenlose Arbeitsblätter Bilder-Bingo für Kinder - Mathe-Arbeitsblätter mit Bild-und-Wort-Zuordnung für Rechnen lernen'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/german/bingo/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Vorschul-Arbeitsblätter Bilder-Bingo druckbar - kostenloses Arbeitsblatt für Kindergarten mit Ausmalbilder'
+      }
+    ],
   },
 
   // Hero Section - FULL text from bilder-bingo.md paragraphs 1-4
@@ -42,7 +62,7 @@ export const pictureBingoDeContent: ProductPageContent = {
 Bilder-Bingo-Arbeitsblätter kombinieren visuelles Lernen mit interaktivem Spielspaß. Lehrkräfte nutzen Bingo-Karten um Buchstaben lernen, Rechnen lernen und Wortschatz zu festigen. Jedes Bingo-Arbeitsblatt enthält ein anpassbares Raster und passende Ziehchips auf einer druckbaren Seite. Generieren Sie 1 bis 10 einzigartige Bingo-Karten auf einmal für Aktivitäten mit der ganzen Klasse. Ihre Schüler bleiben motiviert während sie wichtige Fähigkeiten durch praktische Bingo-Spiele üben.
 
 Unser Bilder-Bingo-Generator erstellt zwei druckbare Arbeitsblätter bei jeder Generierung. Das Haupt-Bingo-Kartenarbeitsblatt zeigt Ihre gewählten Bilder oder Wörter im Rasterformat mit passenden kreisförmigen Ziehchips darunter. Das separate Vorleseblatt zeigt alle Elemente für die Lehrkraft zur Verwendung während des Spiels. Beide Arbeitsblätter sind nach der Generierung vollständig bearbeitbar. Passen Sie Farben an, fügen Sie Text hinzu, laden Sie eigene Bilder hoch und justieren Sie Layouts passend zu Ihren Unterrichtsplänen. Erstellen Sie unbegrenzte kostenlose Arbeitsblätter für Mathe-Arbeitsblätter, Deutsch-Arbeitsblätter, Schwungübungen, Buchstaben lernen und mehr mit Ihrem Basis-Paket Abonnement.`,
-    previewImageSrc: '/samples/english/bingo/image and image.jpeg',
+    previewImageSrc: '/samples/german/bingo/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Kostenlos Testen',
       viewSamples: 'Beispiele Ansehen',
@@ -77,17 +97,38 @@ Unser Bilder-Bingo-Generator erstellt zwei druckbare Arbeitsblätter bei jeder G
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/bingo/image and image.jpeg',
-        answerKeySrc: '/samples/english/bingo/image and image callout.jpeg',
-        altText: 'Bilder-Bingo-Arbeitsblatt mit Bild-zu-Bild-Zuordnung für Vorschul-Arbeitsblätter und Buchstaben lernen',
-        pdfDownloadUrl: '/samples/english/bingo/image and image.pdf',
+        worksheetSrc: '/samples/german/bingo/sample-1.jpeg',
+        answerKeySrc: '/samples/german/bingo/sample-1-answer.jpeg',
+        altText: 'Bilder-Bingo Arbeitsblätter kostenlos für Grundschule - Arbeitsblatt mit bunten Bildern für Buchstaben lernen und Vorschule',
+        pdfDownloadUrl: '/samples/german/bingo/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/bingo/image and word.jpeg',
-        answerKeySrc: '/samples/english/bingo/image and word callout.jpeg',
-        altText: 'Bilder-Bingo-Arbeitsblatt mit Bild-und-Wort-Zuordnung für Deutsch-Arbeitsblätter und Vokabelübungen',
-        pdfDownloadUrl: '/samples/english/bingo/image and word.pdf',
+        worksheetSrc: '/samples/german/bingo/sample-2.jpeg',
+        answerKeySrc: '/samples/german/bingo/sample-2-answer.jpeg',
+        altText: 'Kostenlose Arbeitsblätter Bilder-Bingo für Kinder - Mathe-Arbeitsblätter mit Bild-und-Wort-Zuordnung für Rechnen lernen',
+        pdfDownloadUrl: '/samples/german/bingo/sample-2.pdf',
+      },
+      {
+        id: '3',
+        worksheetSrc: '/samples/german/bingo/sample-3.jpeg',
+        answerKeySrc: '/samples/german/bingo/sample-3-answer.jpeg',
+        altText: 'Vorschul-Arbeitsblätter Bilder-Bingo druckbar - kostenloses Arbeitsblatt für Kindergarten mit Ausmalbilder Elementen',
+        pdfDownloadUrl: '/samples/german/bingo/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/german/bingo/sample-4.jpeg',
+        answerKeySrc: '/samples/german/bingo/sample-4-answer.jpeg',
+        altText: 'Bilder-Bingo Arbeitsblatt für Vorschule und Grundschule - kostenlose Druckvorlage mit Einmaleins und Rechnen 1. Klasse',
+        pdfDownloadUrl: '/samples/german/bingo/sample-4.pdf',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/german/bingo/sample-5.jpeg',
+        answerKeySrc: '/samples/german/bingo/sample-5-answer.jpeg',
+        altText: 'Deutsch-Arbeitsblätter Bilder-Bingo Generator - kostenloses Arbeitsblatt für Schwungübungen und Klassenaktivitäten',
+        pdfDownloadUrl: '/samples/german/bingo/sample-5.pdf',
       },
     ],
   },

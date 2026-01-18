@@ -49,6 +49,18 @@ export const findAndCountDeContent: ProductPageContent = {
         width: 2480,
         height: 3508,
         caption: 'Mathe-Arbeitsblätter Suchen und Zählen - Kostenlose Druckvorlagen für Rechnen lernen'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/german/find-and-count/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Arbeitsblatt für Kinder Suchen und Zählen - Vorschule Arbeitsblätter mit Zählübungen für Grundschule'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/german/find-and-count/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Vorschul-Arbeitsblätter Zählübungen - Kostenlose Mathe-Arbeitsblätter mit Einmaleins für Grundschule'
       }
     ],
   },

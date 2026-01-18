@@ -16,7 +16,7 @@ export const wordGuessEnContent: ProductPageContent = {
     slug: 'word-guess-worksheets',
     appId: 'word-guess',
     title: 'Free Word Guess Worksheets | Printable Spelling Puzzle Generator',
-    description: 'Create professional word guess worksheets for kindergarten and first grade. Generate spelling puzzles with picture clues. Download free printable PDF in 3 minutes.',
+    description: 'Create word guess worksheets for kindergarten. Generate spelling puzzles with picture clues. Download free printable PDF worksheets in 3 minutes.',
     keywords: 'word guess worksheets, spelling worksheets, vocabulary worksheets, kindergarten worksheets, first grade worksheets, free printable worksheets, phonics worksheets, sight words worksheets, alphabet worksheets, worksheet for kids',
     canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/word-guess-worksheets',
     images: [

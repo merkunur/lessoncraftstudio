@@ -15,8 +15,8 @@ export const findAndCountEnContent: ProductPageContent = {
   seo: {
     slug: 'find-and-count-worksheets',
     appId: 'find-and-count',
-    title: 'Find and Count Worksheets | Free I Spy Counting Worksheets for Kids',
-    description: 'Create free find and count worksheets with our I Spy worksheet generator. Perfect for kindergarten counting practice. Download printable PDF in 3 minutes.',
+    title: 'Free Printable Find and Count Worksheets | I Spy Counting for Kids',
+    description: 'Create free printable find and count worksheets for kindergarten and first grade. Generate I Spy counting worksheets for kids with answer keys. Try free now!',
     keywords: 'find and count worksheets, I Spy worksheets, kindergarten worksheets, counting worksheets, visual discrimination worksheets, hidden object worksheets, math worksheets, first grade worksheets, free printable worksheets, counting practice, free worksheets for kids, worksheet for kindergarten',
     canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/find-and-count-worksheets',
     images: [
@@ -24,27 +24,27 @@ export const findAndCountEnContent: ProductPageContent = {
         url: 'https://www.lessoncraftstudio.com/samples/english/find-and-count/sample-1.jpeg',
         width: 2480,
         height: 3508,
-        caption: 'Find and count worksheets free printable - I Spy counting worksheet for kindergarten with hidden objects'
+        caption: 'Free printable find and count worksheets for kindergarten - I Spy counting worksheet for kids with hidden objects'
       },
       {
         url: 'https://www.lessoncraftstudio.com/samples/english/find-and-count/sample-2.jpeg',
         width: 2480,
         height: 3508,
-        caption: 'Free I Spy worksheets for kids - visual discrimination counting worksheet for first grade'
+        caption: 'Free worksheets for kids - visual discrimination counting worksheet for first grade with colorful images'
       },
       {
         url: 'https://www.lessoncraftstudio.com/samples/english/find-and-count/sample-3.jpeg',
         width: 2480,
         height: 3508,
-        caption: 'Hidden object worksheets free printable - kindergarten counting practice worksheet'
+        caption: 'Free printables I Spy worksheets - hidden object counting practice worksheet for kindergarten'
       }
     ],
   },
 
   // Hero Section - FULL text from find-and-count.md paragraphs 1-6
   hero: {
-    title: 'Free Printable Kindergarten Worksheets',
-    subtitle: 'Find and Count Worksheet Generator - I Spy Worksheets for First Grade',
+    title: 'Free Printable Find and Count Worksheets for Kids',
+    subtitle: 'Free Worksheet Generator for Kindergarten I Spy Counting Practice',
     description: `Create professional find and count worksheets with our I Spy worksheet generator. Your Core Bundle subscription gives you unlimited worksheet creation with no per-worksheet fees. Generate custom printable kindergarten worksheets perfect for visual discrimination and counting practice. Download high-quality PDF worksheets in under 3 minutes.
 
 Our find and count worksheet maker creates engaging I Spy activities for kindergarten and first grade students. Each worksheet features a grid of colorful images where students search for hidden objects. Young learners practice counting, visual scanning, and following directions. The generator produces free printable worksheets ready to download and use immediately.
@@ -79,35 +79,35 @@ Our math worksheets help young students master early counting skills through vis
         id: '1',
         worksheetSrc: '/samples/english/find-and-count/sample-1.jpeg',
         answerKeySrc: '/samples/english/find-and-count/sample-1-answer.jpeg',
-        altText: 'Find and count worksheets free printable - I Spy counting worksheet for kindergarten kids with colorful hidden objects',
+        altText: 'Free printable find and count worksheets for kindergarten - I Spy counting worksheet for kids with colorful hidden objects to circle',
         pdfDownloadUrl: '/samples/english/find-and-count/sample-1.pdf',
       },
       {
         id: '2',
         worksheetSrc: '/samples/english/find-and-count/sample-2.jpeg',
         answerKeySrc: '/samples/english/find-and-count/sample-2-answer.jpeg',
-        altText: 'Free I Spy worksheets landscape - visual discrimination worksheet for first grade counting practice',
+        altText: 'Free worksheets for kids I Spy landscape - visual discrimination counting practice worksheet for first grade with themed images',
         pdfDownloadUrl: '/samples/english/find-and-count/sample-2.pdf',
       },
       {
         id: '3',
         worksheetSrc: '/samples/english/find-and-count/sample-3.jpeg',
         answerKeySrc: '/samples/english/find-and-count/sample-3-answer.jpeg',
-        altText: 'Counting worksheets free printable for kids - hidden object worksheet for kindergarten visual learning',
+        altText: 'Counting worksheets free printables for kids - hidden object worksheet for kindergarten visual learning and number practice',
         pdfDownloadUrl: '/samples/english/find-and-count/sample-3.pdf',
       },
       {
         id: '4',
         worksheetSrc: '/samples/english/find-and-count/sample-4.jpeg',
         answerKeySrc: '/samples/english/find-and-count/sample-4-answer.jpeg',
-        altText: 'Free worksheet for kindergarten - math worksheet with colorful images for counting practice activities',
+        altText: 'Free worksheet for kindergarten math counting - I Spy find and count worksheet for kids with colorful images and activities',
         pdfDownloadUrl: '/samples/english/find-and-count/sample-4.pdf',
       },
       {
         id: '5',
         worksheetSrc: '/samples/english/find-and-count/sample-5.jpeg',
         answerKeySrc: '/samples/english/find-and-count/sample-5-answer.jpeg',
-        altText: 'I Spy counting practice worksheets - free printable visual discrimination worksheet for first grade students',
+        altText: 'I Spy counting practice free printable worksheets - visual discrimination find and count worksheet for first grade students',
         pdfDownloadUrl: '/samples/english/find-and-count/sample-5.pdf',
       },
     ],
@@ -115,7 +115,7 @@ Our math worksheets help young students master early counting skills through vis
 
   // Features Grid - FULL text from find-and-count.md feature sections
   features: {
-    sectionTitle: 'Visual Discrimination Worksheet Features: Free Counting Worksheets for Kindergarten',
+    sectionTitle: 'Free Worksheet for Kids Features: Find and Count Worksheets and Free Printables for Kindergarten',
     sectionDescription: 'Our find and count worksheet generator includes every feature teachers need to create professional kindergarten worksheets quickly. Generate unlimited free printable worksheets with your Core Bundle subscription. Each tool works together to save time while producing high-quality educational materials. The generator combines ease of use with powerful customization options. Create engaging first grade worksheets in minutes instead of hours. All features work on any device with internet access.',
     highlightBadgeText: 'Key Feature',
     items: [
@@ -187,7 +187,7 @@ The export process completes in seconds with one click. Downloaded files work wi
 
   // How-To Guide - FULL text from find-and-count.md step sections
   howTo: {
-    sectionTitle: 'How to Create I Spy Worksheets: Hidden Object Worksheets for Kids in 5 Steps',
+    sectionTitle: 'How to Create Free Worksheets for Kids: Find and Count Worksheets in 5 Easy Steps',
     sectionDescription: 'Creating professional kindergarten worksheets takes under three minutes total time. The five-step process requires no design experience or special software. Teachers complete all steps directly in their web browser. Each step builds on the previous one for smooth workflow. The generator saves your progress automatically between steps. Free printable worksheets appear instantly when finished. First grade worksheets follow the exact same simple creation process. Your Core Bundle subscription unlocks unlimited worksheet generation without per-worksheet charges.',
     ctaText: 'Start Creating Now',
     steps: [
@@ -271,7 +271,7 @@ Print multiple copies for your entire class. The 300 DPI quality handles repeate
 
   // Use Cases - FULL text from find-and-count.md use case sections
   useCases: {
-    sectionTitle: 'Perfect for Counting Practice: Free Visual Discrimination Worksheets for Teachers and Kids',
+    sectionTitle: 'Perfect for Free Printables: Find and Count Worksheets for Kindergarten Teachers and Kids',
     sectionDescription: 'Find and count worksheets serve diverse educational settings and teaching styles. Kindergarten teachers use them for morning work and centers. First grade teachers incorporate them into math stations. Homeschool parents appreciate the quick prep time. ESL instructors value the visual learning approach. Special education teachers customize difficulty levels easily. Teacher entrepreneurs sell them as premium products. Your Core Bundle subscription provides unlimited worksheet creation for all these applications.',
     items: [
       {
@@ -351,7 +351,7 @@ Monthly income builds through catalog expansion. Start with one popular theme an
 
   // FAQ Section - Selected FAQs from find-and-count.md
   faq: {
-    sectionTitle: 'FAQ: I Spy Worksheets, Counting Worksheets, and Hidden Object Worksheets',
+    sectionTitle: 'FAQ: Free Worksheets for Kids - Find and Count Worksheets and Free Printables',
     sectionDescription: 'Everything you need to know about our find and count worksheet generator.',
     showMoreText: 'Show more questions',
     showLessText: 'Show less',
@@ -415,6 +415,36 @@ Monthly income builds through catalog expansion. Start with one popular theme an
         id: '12',
         question: 'Can I Create Visual Discrimination Worksheets and Free Printables for Any Subject?',
         answer: `Themed worksheets align perfectly with curriculum subjects. Create math worksheets using number and shape themes. Generate science activities with animal, plant, or weather themes. Design social studies worksheets featuring community helpers or transportation. Make health worksheets using food and nutrition themes. Align kindergarten worksheets with weekly lesson topics. The 3000+ image library covers all elementary subject areas. Search for specific curriculum vocabulary within themes. Upload subject-specific images when library options don't match. Your free printable worksheets integrate seamlessly into existing lesson plans. Subject-aligned materials increase student engagement significantly. First grade worksheets support cross-curricular teaching approaches naturally.`,
+      },
+      {
+        id: '13',
+        question: 'Can I Create Find and Count Worksheets and Free Printables for Multiple Subjects?',
+        answer: `Yes, create themed free printables for any curriculum subject using our find and count worksheet generator. Generate science worksheets with animal and nature themes. Create social studies activities featuring community helpers and transportation. Design health worksheets using food and nutrition images. The 3000+ image library covers all elementary subject areas comprehensively. Your free worksheets for kids integrate seamlessly with existing lesson plans. Teachers use themed worksheets to reinforce vocabulary across multiple subjects simultaneously.`,
+      },
+      {
+        id: '14',
+        question: 'What Makes These Free Worksheets for Kids Different from Other I Spy Generators?',
+        answer: `Our free worksheet for kids generator stands out with 3000+ child-friendly images, full 11-language support, and complete canvas editing tools. Unlike basic templates, you customize every element including grid size, task types, backgrounds, and borders. The commercial license included with Core Bundle allows selling worksheets on Teachers Pay Teachers. Export at professional 300 DPI quality with automatic answer keys. No other generator offers this combination of flexibility, quality, and commercial rights for free printables.`,
+      },
+      {
+        id: '15',
+        question: 'How Do Find and Count Worksheets Help with Visual Discrimination for Kindergarten?',
+        answer: `Visual discrimination worksheets like find and count activities train kindergarten students to identify specific items among similar objects. This skill is essential for reading readiness and letter recognition. Children scan grids searching for hidden objects, developing the same visual scanning needed for reading text. Regular practice with free printable worksheets improves attention to detail and focus. Teachers observe significant gains in students who complete visual discrimination activities daily.`,
+      },
+      {
+        id: '16',
+        question: 'Can I Combine Find and Count with Coloring Worksheets and Tracing Worksheets?',
+        answer: `Absolutely! Your Core Bundle subscription includes access to coloring worksheets, tracing worksheets, and 30+ other generators. Create complete learning packets by combining find and count with complementary activities. Use the same theme across all worksheet types for cohesive lessons. Students complete counting practice then reinforce vocabulary through coloring. The combined free printables provide 20-30 minutes of engaged learning per topic.`,
+      },
+      {
+        id: '17',
+        question: 'Are Free Printable Find and Count Worksheets Suitable for Homeschool Families?',
+        answer: `Homeschool families love our free printable find and count worksheets because they work for multiple ages with simple difficulty adjustments. Create kindergarten worksheets for your youngest child and first grade worksheets for older siblings using the same theme. The quick 3-minute creation process fits busy homeschool schedules. Generate a week of materials in under 15 minutes. Your Core Bundle subscription replaces expensive workbook purchases with unlimited custom worksheets for all subjects.`,
+      },
+      {
+        id: '18',
+        question: 'How Do I Print Free Worksheets for Kids in the Best Quality?',
+        answer: `Download free worksheets for kids as PDF files for the highest print quality at 300 DPI resolution. Use standard printer paper or cardstock for durability. Color printers produce vibrant kindergarten worksheets with bright images. Enable grayscale mode to save ink while maintaining clarity. The PDF format preserves all formatting across different printers and devices. Laminate printed worksheets for reusable center activities that last the entire school year.`,
       },
     ],
   },

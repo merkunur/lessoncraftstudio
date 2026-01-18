@@ -37,6 +37,18 @@ export const matchingEnContent: ProductPageContent = {
         width: 2480,
         height: 3508,
         caption: 'Free matching worksheets with custom vocabulary - phonics worksheets for kindergarten'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/matching/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Free worksheet for kids matching activity - kindergarten alphabet learning worksheets'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/matching/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Free printables matching worksheets - first grade phonics and sight words practice'
       }
     ],
   },

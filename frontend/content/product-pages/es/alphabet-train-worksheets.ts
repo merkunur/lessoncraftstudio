@@ -17,10 +17,36 @@ export const alphabetTrainEsContent: ProductPageContent = {
   seo: {
     slug: 'tren-alfabeto-fichas',
     appId: 'alphabet-train',
-    title: 'Fichas del Tren del Abecedario para Imprimir | Generador de Fichas Gratis para Aprender las Letras en Preescolar',
-    description: 'Crea fichas profesionales del tren del abecedario con nuestro generador de material educativo gratis. Genera fichas preescolar personalizadas perfectas para enseñar lectoescritura y el abecedario a niños de educación infantil. Descarga fichas de alta calidad en PDF en menos de 3 minutos.',
+    title: 'Fichas del Tren del Abecedario para Imprimir | Generador Gratis',
+    description: 'Crea fichas del tren del abecedario con nuestro generador gratis. Descarga fichas para imprimir de lectoescritura en PDF de 300 DPI en menos de 3 minutos.',
     keywords: 'fichas para imprimir, fichas infantil, fichas preescolar, grafomotricidad, lectoescritura, abecedario, aprender las letras, fichas gratis, material educativo gratis, dibujos para colorear, tren del alfabeto, números, educación infantil',
     canonicalUrl: 'https://www.lessoncraftstudio.com/es/apps/tren-alfabeto-fichas',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/spanish/alphabet-train/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Ficha gratis del tren del abecedario para imprimir - aprender las letras para preescolar',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/spanish/alphabet-train/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fichas infantil del abecedario para imprimir - lectoescritura para niños',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/spanish/alphabet-train/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fichas para niños del tren del abecedario - grafomotricidad y aprender las letras',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/spanish/alphabet-train/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Imprimibles gratis del abecedario - fichas preescolar de lectoescritura',
+      },
+    ],
   },
 
   // Hero Section - FULL text from alphabet-train.md paragraphs 1-3
@@ -32,7 +58,7 @@ export const alphabetTrainEsContent: ProductPageContent = {
 El tren del abecedario es una herramienta visual poderosa para enseñar las letras del alfabeto a niños pequeños. Cada vagón del tren presenta una letra diferente junto con una imagen que comienza con esa letra. Este método de enseñanza combina el aprendizaje visual con la asociación de palabras. Los niños aprenden a reconocer las letras mientras desarrollan vocabulario. Las fichas infantil del tren del abecedario ayudan a construir bases sólidas de lectoescritura.
 
 Nuestro generador hace que crear fichas para imprimir sea increíblemente fácil. Selecciona exactamente 11 letras del abecedario que quieres enseñar. Elige un tema visual para las imágenes que acompañan cada letra. El sistema genera tu ficha del tren del abecedario al instante. Descarga como PDF o JPEG listo para usar en clase. Todo el proceso toma menos de 3 minutos de principio a fin.`,
-    previewImageSrc: '/samples/english/alphabet train/alphabet train portrait.jpeg',
+    previewImageSrc: '/samples/spanish/alphabet-train/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Probar Gratis',
       viewSamples: 'Ver Ejemplos',
@@ -54,7 +80,7 @@ Nuestro generador hace que crear fichas para imprimir sea increíblemente fácil
   // Sample Gallery - REAL file paths from samples/english/alphabet train/
   samples: {
     sectionTitle: 'Ejemplos de Fichas del Tren del Abecedario',
-    sectionDescription: 'Descarga ejemplos gratuitos para ver nuestra calidad profesional de fichas para aprender las letras',
+    sectionDescription: 'Descarga fichas gratis del tren del abecedario para ver nuestra calidad profesional - fichas para imprimir de lectoescritura y grafomotricidad para niños',
     downloadLabel: 'Descargar Ejemplo Gratis',
     worksheetLabel: 'Ficha',
     answerKeyLabel: 'Respuestas',
@@ -67,17 +93,31 @@ Nuestro generador hace que crear fichas para imprimir sea increíblemente fácil
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/alphabet train/alphabet train portrait.jpeg',
-        answerKeySrc: '/samples/english/alphabet train/alphabet train portrait answer_key.jpeg',
-        altText: 'Ficha del tren del abecedario en formato vertical con imágenes temáticas para aprender las letras en preescolar',
-        pdfDownloadUrl: '/samples/english/alphabet train/alphabet train portrait.pdf',
+        worksheetSrc: '/samples/spanish/alphabet-train/sample-1.jpeg',
+        answerKeySrc: '/samples/spanish/alphabet-train/sample-1-answer.jpeg',
+        altText: 'Ficha gratis del tren del abecedario para imprimir - aprender las letras con fichas preescolar para niños de educación infantil',
+        pdfDownloadUrl: '/samples/spanish/alphabet-train/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/alphabet train/alphabet train landscape.jpeg',
-        answerKeySrc: '/samples/english/alphabet train/alphabet train landscape answer_key.jpeg',
-        altText: 'Ficha del tren del abecedario en formato horizontal para practicar lectoescritura con imágenes coloridas',
-        pdfDownloadUrl: '/samples/english/alphabet train/alphabet train landscape.pdf',
+        worksheetSrc: '/samples/spanish/alphabet-train/sample-2.jpeg',
+        answerKeySrc: '/samples/spanish/alphabet-train/sample-2-answer.jpeg',
+        altText: 'Fichas infantil del abecedario para imprimir - lectoescritura y grafomotricidad para niños de preescolar',
+        pdfDownloadUrl: '/samples/spanish/alphabet-train/sample-2.pdf',
+      },
+      {
+        id: '3',
+        worksheetSrc: '/samples/spanish/alphabet-train/sample-3.jpeg',
+        answerKeySrc: '/samples/spanish/alphabet-train/sample-3-answer.jpeg',
+        altText: 'Fichas para niños del tren del abecedario gratis - aprender las letras imprimibles para educación infantil',
+        pdfDownloadUrl: '/samples/spanish/alphabet-train/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/spanish/alphabet-train/sample-4.jpeg',
+        answerKeySrc: '/samples/spanish/alphabet-train/sample-4-answer.jpeg',
+        altText: 'Imprimibles gratis del abecedario para preescolar - fichas de lectoescritura del tren de letras para niños',
+        pdfDownloadUrl: '/samples/spanish/alphabet-train/sample-4.pdf',
       },
     ],
   },
@@ -366,6 +406,36 @@ Tiendas exitosas en Etsy venden paquetes de fichas infantil descargables. Alguno
         id: '12',
         question: '¿Puedo Crear Fichas Infantil sobre Materias Escolares con Fichas de Matemáticas, Tablas de Multiplicar, Números y Dibujos para Colorear?',
         answer: 'Sí, personaliza completamente el contenido seleccionando temas visuales específicos. Elige tema de números para fichas de matemáticas enfocadas en conceptos numéricos. Selecciona tema de animales para unidades de ciencias naturales. Tema de alimentos funciona perfectamente para lecciones de nutrición o salud. El generador incluye docenas de temas organizados por materia educativa. Maestros creativos integran tablas de multiplicar usando los vagones numerados del tren. Combina letras del abecedario con ejercicios de números para aprendizaje integrado. Los dibujos para colorear temáticos refuerzan vocabulario de cualquier materia escolar. Las fichas infantil se adaptan a cualquier contenido curricular que enseñes.',
+      },
+      {
+        id: '13',
+        question: '¿Puedo Descargar Fichas del Tren del Abecedario Sin Registrarme o Crear Cuenta?',
+        answer: 'Para descargar fichas del abecedario necesitas crear una cuenta gratuita. El registro solo toma 30 segundos con tu correo electrónico. Una vez registrado, puedes probar el generador antes de suscribirte. Las muestras gratuitas en esta página están disponibles para descargar sin cuenta. El Paquete Esencial te da acceso completo a todas las funciones de personalización. El proceso de registro es seguro y no compartimos tu información con terceros.',
+      },
+      {
+        id: '14',
+        question: '¿Qué Hace Diferentes a Estas Fichas del Abecedario de Otros Recursos Gratuitos en Internet?',
+        answer: 'Nuestras fichas del tren del abecedario se distinguen por varias razones clave. La calidad de 300 DPI supera la mayoría de recursos gratuitos que ofrecen 72 DPI. La personalización completa permite adaptar cada ficha a tus necesidades específicas. Incluye licencia comercial para vender tu trabajo, algo que recursos gratuitos nunca ofrecen. La biblioteca de 3000+ imágenes temáticas garantiza variedad infinita. El soporte en 11 idiomas es único en el mercado de fichas educativas. Las claves de respuestas automáticas ahorran horas de preparación.',
+      },
+      {
+        id: '15',
+        question: '¿Las Fichas del Abecedario Son Apropiadas para Educación en Casa y Homeschooling?',
+        answer: 'Las fichas del tren del abecedario son perfectas para familias que educan en casa. La flexibilidad de personalización se adapta al ritmo individual de cada niño. Padres pueden crear fichas progresivas siguiendo el avance de su hijo. El costo de suscripción es más económico que comprar cuadernos comerciales. Las fichas se imprimen ilimitadamente para múltiples hijos de diferentes edades. Los 11 idiomas disponibles apoyan educación bilingüe en casa. El formato PDF funciona perfectamente para aprendizaje a distancia o viajes educativos.',
+      },
+      {
+        id: '16',
+        question: '¿Puedo Compartir las Fichas del Abecedario que Creo con Otros Maestros de mi Escuela?',
+        answer: 'Sí, tu suscripción permite compartir fichas del abecedario con colegas en tu misma institución. Imprime copias para compartir en reuniones de planeación pedagógica. Envía archivos PDF por correo electrónico a maestros de tu equipo. Las fichas pueden usarse en toda la escuela sin límites de estudiantes. Lo que no está permitido es compartir tu cuenta de suscripción con otros usuarios. Cada maestro que quiera crear sus propias fichas personalizadas necesita su propia suscripción.',
+      },
+      {
+        id: '17',
+        question: '¿Con Qué Frecuencia Se Agregan Nuevas Imágenes y Temas al Generador de Fichas del Abecedario?',
+        answer: 'Actualizamos la biblioteca de imágenes regularmente con nuevos temas y contenido. Cada trimestre añadimos aproximadamente 100 a 200 nuevas ilustraciones temáticas. Los temas estacionales se actualizan antes de cada época del año escolar. Escuchamos sugerencias de maestros para crear contenido que realmente necesitan. Las actualizaciones son automáticas y no requieren acción de tu parte. Tu suscripción incluye acceso a todo el contenido nuevo sin costo adicional.',
+      },
+      {
+        id: '18',
+        question: '¿Cuáles Son las Mejores Opciones para Estudiantes que Apenas Comienzan a Aprender las Letras?',
+        answer: 'Para estudiantes principiantes, recomendamos comenzar con fichas enfocadas en vocales A, E, I, O, U. Usa imágenes grandes y coloridas que sean fáciles de identificar visualmente. Selecciona temas con objetos familiares del entorno cotidiano del niño. Activa la opción de pistas visuales para ayudar con el emparejamiento inicial. Genera fichas con menos letras al principio, aumentando gradualmente la cantidad. Las fichas de grafomotricidad con líneas punteadas ayudan a desarrollar control motor fino antes de escribir letras completas.',
       },
     ],
   },

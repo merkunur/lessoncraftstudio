@@ -18,10 +18,42 @@ export const moreLessFrContent: ProductPageContent = {
   seo: {
     slug: 'comparaison-quantites-fiches',
     appId: 'more-less',
-    title: 'Fiches à Imprimer Gratuit de Comparaison - Exercices Maths Plus Moins Égal - Fiches Maternelle et Exercices CP',
-    description: 'Créez des fiches de comparaison mathématique professionnelles avec notre générateur d\'exercices maths. Générez des exercices CP de comparaison de quantités parfaits pour la maternelle et le CP. Téléchargez des fichiers PDF de haute qualité en moins de 3 minutes.',
+    title: 'Fiches Comparaison Plus Moins Égal | Exercices Maths Gratuits',
+    description: 'Créez des fiches de comparaison plus/moins/égal professionnelles. Exercices maths maternelle et CP. PDF haute qualité en 3 minutes. Essai gratuit !',
     keywords: 'fiches à imprimer gratuit, fiches maternelle, exercices maths, exercices CP, plus moins égal, comparaison, graphisme maternelle, coloriage à imprimer, apprendre à lire, alphabet, écriture cursive, tables de multiplication, exercices CE1',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fr/apps/comparaison-quantites-fiches',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/more-less/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fiche de comparaison de quantités plus moins égal - exercices maths pour maternelle'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/more-less/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fiche gratuite comparaison mathématique - exercices CP pour enfants'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/more-less/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fiche maternelle plus grand plus petit - fiches à imprimer gratuites'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/more-less/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Exercices de comparaison de quantités - fiche pour enfants avec corrigé'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/more-less/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Comparaison plus moins égal fiches gratuites - exercices maths maternelle CP'
+      }
+    ],
   },
 
   // Hero Section - FULL text from French more-less.md Section 1
@@ -35,7 +67,7 @@ Les exercices maths de comparaison enseignent aux élèves à comparer deux quan
 Notre générateur de fiches à imprimer offre deux modes de comparaison distincts. Comparez des groupes d'images entre eux pour renforcer le comptage. Comparez des images à des chiffres écrits pour apprendre à lire les nombres. Choisissez des symboles illustrés colorés ou des symboles mathématiques traditionnels. Personnalisez complètement vos fiches maternelle avec notre éditeur sur canevas.
 
 Les enseignants choisissent l'abonnement Accès Complet pour trois raisons essentielles. Premièrement, la création d'exercices maths en 11 langues facilite l'enseignement multilingue et l'apprentissage du français langue étrangère. Deuxièmement, la licence commerciale incluse permet de vendre vos fiches à imprimer sur Teachers Pay Teachers et Etsy. Troisièmement, le gain de temps considérable vous permet de créer des exercices CP professionnels en 3 minutes au lieu de 30 minutes avec les méthodes traditionnelles.`,
-    previewImageSrc: '/samples/english/more less/image to image.jpeg',
+    previewImageSrc: '/samples/french/more-less/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Essayer Gratuitement',
       viewSamples: 'Voir les Exemples',
@@ -54,7 +86,7 @@ Les enseignants choisissent l'abonnement Accès Complet pour trois raisons essen
     },
   },
 
-  // Sample Gallery - REAL file paths from samples/english/more less/
+  // Sample Gallery - REAL file paths from samples/french/more-less/
   samples: {
     sectionTitle: 'Exemples de Fiches de Comparaison',
     sectionDescription: 'Téléchargez des exemples gratuits pour voir notre qualité professionnelle',
@@ -70,24 +102,38 @@ Les enseignants choisissent l'abonnement Accès Complet pour trois raisons essen
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/more less/image to image.jpeg',
-        answerKeySrc: '/samples/english/more less/image to image answer_key.jpeg',
-        altText: 'Fiche de comparaison image contre image avec symboles plus moins égal pour la maternelle',
-        pdfDownloadUrl: '/samples/english/more less/image to image.pdf',
+        worksheetSrc: '/samples/french/more-less/sample-1.jpeg',
+        answerKeySrc: '/samples/french/more-less/sample-1-answer.jpeg',
+        altText: 'Fiche de comparaison plus moins égal gratuite - exercices maths de quantités pour maternelle et CP',
+        pdfDownloadUrl: '/samples/french/more-less/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/more less/image to number.jpeg',
-        answerKeySrc: '/samples/english/more less/image to number answer_key.jpeg',
-        altText: 'Fiche de comparaison image contre nombre pour apprendre à lire les chiffres en CP',
-        pdfDownloadUrl: '/samples/english/more less/image to number.pdf',
+        worksheetSrc: '/samples/french/more-less/sample-2.jpeg',
+        answerKeySrc: '/samples/french/more-less/sample-2-answer.jpeg',
+        altText: 'Fiches maternelle comparaison de quantités à imprimer - exercices CP plus grand plus petit',
+        pdfDownloadUrl: '/samples/french/more-less/sample-2.pdf',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/more less/illustration.jpeg',
-        answerKeySrc: '/samples/english/more less/illustration answer_key.jpeg',
-        altText: 'Fiche de comparaison avec symboles illustrés colorés pour les apprenants visuels',
-        pdfDownloadUrl: '/samples/english/more less/illustration.pdf',
+        worksheetSrc: '/samples/french/more-less/sample-3.jpeg',
+        answerKeySrc: '/samples/french/more-less/sample-3-answer.jpeg',
+        altText: 'Fiches à imprimer gratuit comparaison mathématique - exercices maths pour enfants',
+        pdfDownloadUrl: '/samples/french/more-less/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/french/more-less/sample-4.jpeg',
+        answerKeySrc: '/samples/french/more-less/sample-4-answer.jpeg',
+        altText: 'Fiche gratuite plus moins égal avec corrigé - exercices CP de comparaison',
+        pdfDownloadUrl: '/samples/french/more-less/sample-4.pdf',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/french/more-less/sample-5.jpeg',
+        answerKeySrc: '/samples/french/more-less/sample-5-answer.jpeg',
+        altText: 'Exercices maths comparaison fiches maternelle - plus grand plus petit égal pour enfants',
+        pdfDownloadUrl: '/samples/french/more-less/sample-5.pdf',
       },
     ],
   },

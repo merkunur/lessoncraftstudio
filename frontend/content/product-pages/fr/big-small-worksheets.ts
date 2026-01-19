@@ -17,10 +17,42 @@ export const bigSmallFrContent: ProductPageContent = {
   seo: {
     slug: 'grand-petit-fiches',
     appId: 'big-small',
-    title: 'Fiches Grand et Petit à Imprimer Gratuit - Exercices CP et Fiches Maternelle pour Comparer les Tailles',
-    description: 'Créez des fiches pédagogiques pour enseigner les notions de grand et petit à vos élèves. Votre abonnement Accès Complet vous donne accès à la création illimitée de fiches sans frais supplémentaires. Générez des exercices de comparaison de tailles en moins de 3 minutes.',
+    title: 'Fiches Grand Petit Gratuit | Exercices CP Maternelle - LessonCraft',
+    description: 'Créez des fiches grand petit gratuites en 3 minutes. Exercices de comparaison de tailles pour maternelle et CP. 3000+ images, corrigé automatique, PDF 300 DPI.',
     keywords: 'fiches grand et petit, fiches maternelle, fiches à imprimer gratuit, exercices CP, exercices CE1, exercices maths, graphisme maternelle, coloriage à imprimer, apprendre à lire, comparaison de tailles',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fr/apps/grand-petit-fiches',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/big-small/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fiche grand et petit gratuite - exercice comparaison de tailles pour maternelle'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/big-small/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fiche gratuite pour enfants - fiches de comparaison grand petit pour CP'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/big-small/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fiches gratuites grand petit - classement par taille avec numerotation'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/big-small/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Imprimables gratuits comparaison de tailles - graphisme maternelle'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/big-small/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fiche pour maternelle - exercices grand petit discrimination visuelle'
+      }
+    ],
   },
 
   // Hero Section - FULL text from big-small.md paragraphs 1-3
@@ -32,7 +64,7 @@ export const bigSmallFrContent: ProductPageContent = {
 Les exercices de comparaison de tailles sont essentiels au développement cognitif des enfants. Cette compétence mathématique fondamentale prépare les élèves aux concepts de mesure et de numération. Notre générateur de fiches simplifie la création de ces activités pédagogiques.
 
 Les fiches de comparaison de tailles conviennent parfaitement aux classes de maternelle. De la Petite Section à la Grande Section, les enfants apprennent à distinguer le grand du petit. Ces exercices développent le sens de l'observation et la discrimination visuelle.`,
-    previewImageSrc: '/samples/english/big small/big-small-different images.jpeg',
+    previewImageSrc: '/samples/french/big-small/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Essayer Gratuitement',
       viewSamples: 'Voir les Exemples',
@@ -67,24 +99,38 @@ Les fiches de comparaison de tailles conviennent parfaitement aux classes de mat
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/big small/big-small-different images.jpeg',
-        answerKeySrc: '/samples/english/big small/big-small-different images answer_key.jpeg',
-        altText: 'Fiche grand et petit avec images différentes pour comparaison de tailles maternelle',
-        pdfDownloadUrl: '/samples/english/big small/big-small-different images.pdf',
+        worksheetSrc: '/samples/french/big-small/sample-1.jpeg',
+        answerKeySrc: '/samples/french/big-small/sample-1-answer.jpeg',
+        altText: 'Fiche grand et petit gratuite - exercice comparaison de tailles pour maternelle et CP',
+        pdfDownloadUrl: '/samples/french/big-small/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/big small/big-small identical images.jpeg',
-        answerKeySrc: '/samples/english/big small/big-small identical images answer_key.jpeg',
-        altText: 'Exercice de comparaison avec images identiques de tailles variées pour CP',
-        pdfDownloadUrl: '/samples/english/big small/big-small identical images.pdf',
+        worksheetSrc: '/samples/french/big-small/sample-2.jpeg',
+        answerKeySrc: '/samples/french/big-small/sample-2-answer.jpeg',
+        altText: 'Fiche gratuite pour enfants - comparer grand et petit avec images variées',
+        pdfDownloadUrl: '/samples/french/big-small/sample-2.pdf',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/big small/big-small number 1-2-3.jpeg',
-        answerKeySrc: '/samples/english/big small/big-small number 1-2-3 answer_key.jpeg',
-        altText: 'Fiche de classement par taille avec numérotation 1-2-3 pour exercices maths',
-        pdfDownloadUrl: '/samples/english/big small/big-small number 1-2-3.pdf',
+        worksheetSrc: '/samples/french/big-small/sample-3.jpeg',
+        answerKeySrc: '/samples/french/big-small/sample-3-answer.jpeg',
+        altText: 'Fiche pour maternelle grand petit - classement par taille avec numérotation',
+        pdfDownloadUrl: '/samples/french/big-small/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/french/big-small/sample-4.jpeg',
+        answerKeySrc: '/samples/french/big-small/sample-4-answer.jpeg',
+        altText: 'Imprimables gratuits comparaison tailles - exercices CP graphisme maternelle',
+        pdfDownloadUrl: '/samples/french/big-small/sample-4.pdf',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/french/big-small/sample-5.jpeg',
+        answerKeySrc: '/samples/french/big-small/sample-5-answer.jpeg',
+        altText: 'Fiches gratuites grand petit - discrimination visuelle pour enfants maternelle',
+        pdfDownloadUrl: '/samples/french/big-small/sample-5.pdf',
       },
     ],
   },

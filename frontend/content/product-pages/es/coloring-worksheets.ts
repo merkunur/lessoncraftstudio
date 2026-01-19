@@ -16,9 +16,41 @@ export const coloringEsContent: ProductPageContent = {
     appId: 'coloring',
     slug: 'dibujos-colorear-fichas',
     title: 'Dibujos para Colorear Gratis | Creador de Fichas para Imprimir - Preescolar y Primaria',
-    description: 'Crea dibujos para colorear profesionales con nuestro generador de páginas de colorear. Tu suscripción Paquete Esencial te permite crear fichas para imprimir ilimitadas. Genera material educativo gratis en PDF de alta calidad para educación infantil y primaria.',
+    description: 'Crea dibujos para colorear gratis con nuestro generador de fichas para imprimir. Descarga fichas preescolar en PDF de 300 DPI en menos de 3 minutos.',
     keywords: 'dibujos para colorear, fichas para imprimir, páginas de colorear, fichas preescolar, fichas infantil, material educativo gratis, grafomotricidad, lectoescritura, abecedario para aprender las letras, ejercicios matemáticas',
     canonicalUrl: 'https://www.lessoncraftstudio.com/es/apps/dibujos-colorear-fichas',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/spanish/coloring/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Ficha gratis de dibujos para colorear para imprimir - páginas de colorear para preescolar',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/spanish/coloring/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fichas para imprimir de colorear gratis - material educativo de motricidad fina',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/spanish/coloring/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fichas preescolar de dibujos para colorear - fichas gratis para educación infantil',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/spanish/coloring/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Páginas para colorear gratis para imprimir - fichas infantil de colorear',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/spanish/coloring/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Dibujos para colorear gratis para niños - fichas para imprimir de colorear',
+      },
+    ],
   },
 
   // Hero Section - FULL text from coloring.md paragraphs 1-2
@@ -30,7 +62,7 @@ export const coloringEsContent: ProductPageContent = {
 Nuestro creador de fichas infantil te da control total sobre cada elemento del diseño. Selecciona imágenes de nuestra biblioteca con más de 3000 ilustraciones amigables para niños. Arrastra y posiciona cada imagen exactamente donde la necesitas. Personaliza el tamaño de página, añade texto educativo, y crea fichas preescolar únicas para tus estudiantes. Todo el proceso es intuitivo y rápido.
 
 Las páginas de colorear que creas son completamente editables. Cambia tamaños, rota imágenes, ajusta posiciones, y elimina elementos con simples clics. Añade campos de nombre y líneas de escritura con un solo botón. Sube tus propias imágenes para personalizar las fichas gratis según las necesidades específicas de tu grupo. Combina múltiples elementos para crear actividades de grafomotricidad y lectoescritura integradas con colorear.`,
-    previewImageSrc: '/samples/english/coloring/coloring portrait 1.png',
+    previewImageSrc: '/samples/spanish/coloring/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Probar Gratis',
       viewSamples: 'Ver Ejemplos',
@@ -49,7 +81,7 @@ Las páginas de colorear que creas son completamente editables. Cambia tamaños,
     },
   },
 
-  // Sample Gallery - REAL file paths from samples/english/coloring/
+  // Sample Gallery - REAL file paths from samples/spanish/coloring/
   samples: {
     sectionTitle: 'Ejemplos de Dibujos para Colorear',
     sectionDescription: 'Descarga ejemplos gratuitos para ver nuestra calidad profesional',
@@ -65,31 +97,38 @@ Las páginas de colorear que creas son completamente editables. Cambia tamaños,
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/coloring/coloring portrait 1.png',
+        worksheetSrc: '/samples/spanish/coloring/sample-1.jpeg',
         answerKeySrc: '',
-        altText: 'Página de colorear vertical con imágenes temáticas para desarrollo de motricidad fina en preescolar',
-        pdfDownloadUrl: '/samples/english/coloring/coloring portrait 1.pdf',
+        altText: 'Ficha gratis de dibujos para colorear para imprimir - fichas preescolar de colorear para educación infantil',
+        pdfDownloadUrl: '/samples/spanish/coloring/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/coloring/coloring portrait 2.png',
+        worksheetSrc: '/samples/spanish/coloring/sample-2.jpeg',
         answerKeySrc: '',
-        altText: 'Ficha de colorear imprimible con imágenes amigables para niños de preescolar y kinder',
-        pdfDownloadUrl: '/samples/english/coloring/coloring portrait 2.pdf',
+        altText: 'Fichas para imprimir de páginas de colorear gratis - dibujos para colorear para niños de preescolar',
+        pdfDownloadUrl: '/samples/spanish/coloring/sample-2.pdf',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/coloring/coloring landscape 1.png',
+        worksheetSrc: '/samples/spanish/coloring/sample-3.jpeg',
         answerKeySrc: '',
-        altText: 'Página de colorear horizontal con múltiples imágenes para actividades en el aula',
-        pdfDownloadUrl: '/samples/english/coloring/coloring landscape 1.pdf',
+        altText: 'Fichas gratis de dibujos para colorear para imprimir - material educativo de colorear para primaria',
+        pdfDownloadUrl: '/samples/spanish/coloring/sample-3.pdf',
       },
       {
         id: '4',
-        worksheetSrc: '/samples/english/coloring/coloring portrait 3.png',
+        worksheetSrc: '/samples/spanish/coloring/sample-4.jpeg',
         answerKeySrc: '',
-        altText: 'Ficha de colorear temática para educación infantil y escuela en casa',
-        pdfDownloadUrl: '/samples/english/coloring/coloring portrait 3.pdf',
+        altText: 'Páginas para colorear gratis para imprimir - fichas infantil de colorear temáticas',
+        pdfDownloadUrl: '/samples/spanish/coloring/sample-4.pdf',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/spanish/coloring/sample-5.jpeg',
+        answerKeySrc: '',
+        altText: 'Dibujos para colorear fichas gratis para niños - páginas de colorear para preescolar y primaria',
+        pdfDownloadUrl: '/samples/spanish/coloring/sample-5.pdf',
       },
     ],
   },

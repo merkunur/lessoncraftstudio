@@ -19,6 +19,38 @@ export const pictureBingoFrContent: ProductPageContent = {
     description: 'Créez des cartes bingo professionnelles avec notre générateur de fiches à imprimer gratuit. Votre abonnement Pack Essentiel vous offre une création illimitée de fiches maternelle sans frais supplémentaires par fiche. Téléchargez vos fiches de qualité professionnelle en PDF ou JPEG en moins de 3 minutes.',
     keywords: 'bingo images, cartes bingo, fiches maternelle, fiches à imprimer gratuit, exercices CP, exercices CE1, graphisme maternelle, jeux éducatifs, bingo alphabet, bingo maths, apprendre à lire',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fr/apps/bingo-images-fiches',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/bingo/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fiche gratuite de bingo images pour maternelle - cartes bingo illustrées avec jetons d\'appel',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/bingo/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fiche gratuite pour enfants - bingo images thématique pour exercices CP CE1',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/bingo/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fiches gratuites de bingo - cartes bingo pour fiches maternelle et graphisme',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/bingo/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fiche pour maternelle - bingo images éducatif avec feuille d\'appel',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/bingo/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Imprimables gratuits de bingo - fiches à imprimer gratuit pour exercices maths',
+      },
+    ],
   },
 
   // Hero Section - FULL text from picture-bingo.md paragraphs 1-3
@@ -30,7 +62,7 @@ export const pictureBingoFrContent: ProductPageContent = {
 Les cartes bingo illustrées combinent apprentissage visuel et jeu interactif. Les enseignants utilisent ces fiches maternelle pour renforcer la reconnaissance de l'alphabet, les exercices maths, le graphisme maternelle et l'apprentissage de la lecture. Chaque fiche bingo comprend une grille personnalisable et des jetons d'appel assortis sur une seule page imprimable. Générez de 1 à 10 cartes bingo uniques en un seul clic pour des activités en classe entière. Vos élèves restent motivés tout en pratiquant les compétences essentielles de maternelle et CP grâce à des jeux de bingo ludiques.
 
 Notre générateur de bingo illustré crée deux fiches à imprimer à chaque génération. La fiche principale présente vos images ou mots choisis dans un format grille avec des jetons d'appel circulaires en dessous. La feuille d'appel séparée affiche tous les éléments pour que l'enseignant puisse les utiliser pendant le jeu. Les deux fiches sont entièrement modifiables après génération. Personnalisez les couleurs, ajoutez du texte, téléchargez vos propres images et ajustez la mise en page selon vos plans de cours. Créez des fiches à imprimer gratuit illimitées pour les exercices maths, les exercices CP, l'alphabet, le graphisme maternelle et bien plus avec votre abonnement Pack Essentiel.`,
-    previewImageSrc: '/samples/english/bingo/image and image.jpeg',
+    previewImageSrc: '/samples/french/bingo/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Essayer Gratuitement',
       viewSamples: 'Voir les Exemples',
@@ -65,17 +97,38 @@ Notre générateur de bingo illustré crée deux fiches à imprimer à chaque g�
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/bingo/image and image.jpeg',
-        answerKeySrc: '/samples/english/bingo/image and image callout.jpeg',
-        altText: 'Carte bingo avec images thématiques pour la reconnaissance visuelle en maternelle',
-        pdfDownloadUrl: '/samples/english/bingo/image and image.pdf',
+        worksheetSrc: '/samples/french/bingo/sample-1.jpeg',
+        answerKeySrc: '/samples/french/bingo/sample-1-answer.jpeg',
+        altText: 'Fiche gratuite de bingo images pour maternelle - cartes bingo illustrées avec jetons d\'appel circulaires pour la reconnaissance visuelle',
+        pdfDownloadUrl: '/samples/french/bingo/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/bingo/image and word.jpeg',
-        answerKeySrc: '/samples/english/bingo/image and word callout.jpeg',
-        altText: 'Carte bingo image et mot pour le vocabulaire et les exercices CP de lecture',
-        pdfDownloadUrl: '/samples/english/bingo/image and word.pdf',
+        worksheetSrc: '/samples/french/bingo/sample-2.jpeg',
+        answerKeySrc: '/samples/french/bingo/sample-2-answer.jpeg',
+        altText: 'Fiche gratuite pour enfants - bingo images thématique pour exercices CP CE1 et apprentissage du vocabulaire',
+        pdfDownloadUrl: '/samples/french/bingo/sample-2.pdf',
+      },
+      {
+        id: '3',
+        worksheetSrc: '/samples/french/bingo/sample-3.jpeg',
+        answerKeySrc: '/samples/french/bingo/sample-3-answer.jpeg',
+        altText: 'Fiches gratuites de bingo images - cartes bingo pour fiches maternelle et graphisme maternelle',
+        pdfDownloadUrl: '/samples/french/bingo/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/french/bingo/sample-4.jpeg',
+        answerKeySrc: '/samples/french/bingo/sample-4-answer.jpeg',
+        altText: 'Fiche pour maternelle - bingo images éducatif avec feuille d\'appel pour exercices maths',
+        pdfDownloadUrl: '/samples/french/bingo/sample-4.pdf',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/french/bingo/sample-5.jpeg',
+        answerKeySrc: '/samples/french/bingo/sample-5-answer.jpeg',
+        altText: 'Imprimables gratuits de bingo images - fiches à imprimer gratuit pour apprendre à lire et coloriage à imprimer',
+        pdfDownloadUrl: '/samples/french/bingo/sample-5.pdf',
       },
     ],
   },
@@ -374,6 +427,62 @@ Réviser vos fiches prend 30 secondes. Faire des modifications prend 30 à 60 se
         answer: `Oui, notre générateur de bingo illustré crée deux fiches séparées qui fonctionnent ensemble pendant le jeu de tables de multiplication. La fiche principale de carte bingo comprend votre grille avec des images ou des mots dans les cases plus des jetons d'appel circulaires assortis arrangés sous la grille sur la même page.
 
 La feuille d'appel est une fiche séparée montrant tous les éléments dans une grille organisée pour que l'enseignant les utilise lors de l'appel des éléments pendant le jeu de bingo de tables de multiplication. Les deux fiches sont entièrement modifiables et se téléchargent ensemble ou séparément.`,
+      },
+      {
+        id: '11',
+        question: 'Puis-je Utiliser les Cartes Bingo pour Apprendre à Lire dans ma Classe ?',
+        answer: `Oui, les cartes bingo illustrées sont excellentes pour apprendre à lire. Créez des bingo de phonologie en associant des images aux sons initiaux des mots. Générez des bingo de syllabes où les élèves associent des images aux syllabes correspondantes. Utilisez des bingo de mots fréquents avec des images et des mots pour renforcer la reconnaissance automatique.
+
+Les enseignants de CP et CE1 utilisent régulièrement nos cartes bingo pour l'apprentissage de la lecture. La combinaison image-mot aide les élèves à créer des connexions visuelles durables. Créez des fiches pour apprendre à lire progressives en commençant par des grilles 3x3 simples puis en augmentant vers des grilles 5x5 plus complexes.`,
+      },
+      {
+        id: '12',
+        question: 'Puis-je Créer des Cartes Bingo sur des Sujets Scolaires Spécifiques ?',
+        answer: `Oui, créez des cartes bingo personnalisées sur n'importe quel sujet scolaire. Téléchargez vos propres images correspondant à votre unité de sciences, histoire-géographie ou éducation civique. Utilisez notre bibliothèque thématique pour trouver des images sur les animaux, les plantes, les formes géométriques, les moyens de transport et bien plus.
+
+Générez des bingo de vocabulaire scientifique avec des images de la nature. Créez des bingo d'histoire avec des images d'événements ou de personnages historiques. Faites des bingo de géographie avec des drapeaux, des monuments ou des cartes. La flexibilité de téléchargement d'images permet de créer des fiches maternelle et exercices CP CE1 parfaitement adaptés à votre programme.`,
+      },
+      {
+        id: '13',
+        question: 'Comment Choisir la Bonne Taille de Grille Bingo pour mes Fiches Maternelle ?',
+        answer: `La taille de grille idéale dépend de l'âge et du niveau de vos élèves. Pour la petite section et moyenne section de maternelle (3-4 ans), utilisez des grilles 3x3 avec 9 cases simples et des images grandes et claires. Pour la grande section de maternelle (5-6 ans), les grilles 3x3 ou 4x4 fonctionnent parfaitement pour les fiches maternelle.
+
+Pour les exercices CP (6-7 ans), utilisez des grilles 4x4 standard avec 16 cases. Pour les exercices CE1 et CE2 (7-9 ans), les grilles 5x5 avec 25 cases offrent un défi approprié. Notre générateur vous permet d'ajuster facilement entre ces tailles pour créer des fiches à imprimer gratuit adaptées à chaque niveau.`,
+      },
+      {
+        id: '14',
+        question: 'Les Fiches Bingo Fonctionnent-elles pour le Graphisme Maternelle ?',
+        answer: `Oui, les cartes bingo complètent parfaitement les activités de graphisme maternelle. Après un jeu de bingo sur les formes, les élèves peuvent tracer ces formes sur des fiches de graphisme coordonnées. Utilisez des bingo de lettres puis enchaînez avec des fiches de tracé de lettres.
+
+Créez des séquences d'apprentissage complètes en combinant bingo illustré et graphisme maternelle. Les élèves reconnaissent d'abord les formes ou lettres pendant le jeu de bingo, puis pratiquent leur tracé sur des fiches dédiées. Cette approche multisensorielle renforce l'apprentissage du graphisme maternelle de manière ludique.`,
+      },
+      {
+        id: '15',
+        question: 'Puis-je Générer Plusieurs Cartes Bingo Uniques pour une Classe Entière ?',
+        answer: `Oui, générez de 1 à 10 cartes bingo uniques en un seul clic pour des jeux de bingo en classe entière. Chaque carte présente un arrangement différent des mêmes images, évitant ainsi que tous les élèves gagnent en même temps. Le sélecteur de nombre de cartes vous permet de choisir exactement combien de cartes uniques créer.
+
+Pour une classe de 25 élèves, générez 10 cartes puis imprimez certaines cartes en plusieurs exemplaires. Chaque élève reçoit une carte différente de ses voisins immédiats. Cette fonction est parfaite pour créer des fiches maternelle et exercices CP CE1 engageants pour toute la classe.`,
+      },
+      {
+        id: '16',
+        question: 'Comment Utiliser les Cartes Bingo pour les Exercices CP CE1 ?',
+        answer: `Les cartes bingo sont polyvalentes pour les exercices CP CE1. En CP, créez des bingo de phonologie pour les sons complexes, des bingo de mots outils et des bingo de calcul mental. En CE1, générez des bingo de tables de multiplication, des bingo de vocabulaire thématique et des bingo de conjugaison.
+
+Pour les exercices maths, utilisez des images de quantités que les élèves doivent reconnaître rapidement. Pour la lecture, créez des bingo associant images et mots du vocabulaire de la semaine. Les exercices CP CE1 en format bingo transforment la révision en jeu motivant pour les élèves.`,
+      },
+      {
+        id: '17',
+        question: 'Les Fiches Bingo Incluent-elles des Options pour le Coloriage à Imprimer ?',
+        answer: `Oui, vous pouvez créer des versions de cartes bingo adaptées au coloriage à imprimer. Activez l'option niveaux de gris avant le téléchargement pour convertir vos cartes bingo colorées en noir et blanc. Les élèves peuvent ensuite colorier les images sur leurs cartes bingo, combinant ainsi jeu et coloriage à imprimer.
+
+Cette option est parfaite pour économiser l'encre couleur tout en offrant une activité supplémentaire. Les élèves peuvent colorier leur carte bingo avant de jouer ou colorier les cases gagnantes pendant le jeu. Combinez fiches bingo et coloriage à imprimer pour des activités plus longues et engageantes.`,
+      },
+      {
+        id: '18',
+        question: 'Comment les Cartes Bingo Aident-elles à Apprendre les Lettres ?',
+        answer: `Les cartes bingo sont un outil puissant pour apprendre les lettres et développer la conscience phonologique. Créez des bingo alphabet où les élèves associent des images aux lettres initiales correspondantes. Générez des bingo de lettres majuscules et minuscules pour la reconnaissance des deux formes.
+
+Utilisez des fiches bingo pour apprendre les lettres de manière progressive : commencez par les voyelles, puis ajoutez les consonnes fréquentes, et enfin les lettres moins courantes. Les élèves de maternelle adorent chercher les images correspondant aux lettres appelées. Cette approche ludique pour apprendre les lettres crée des associations durables entre sons et symboles.`,
       },
     ],
   },

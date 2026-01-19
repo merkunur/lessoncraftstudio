@@ -29,10 +29,42 @@ export const shadowMatchDeContent: ProductPageContent = {
   seo: {
     slug: 'schattenbilder-zuordnen-arbeitsblaetter',
     appId: 'shadow-match',
-    title: 'Schattenbilder Generator - Kostenlose Arbeitsblätter für Vorschule und Arbeitsblätter Grundschule',
-    description: 'Erstellen Sie professionelle Schattenbilder-Arbeitsblätter mit unserem Generator. Mit Ihrem Vollzugriff Abonnement gestalten Sie unbegrenzt druckbare Arbeitsblätter für visuelle Wahrnehmung. Zwei Übungsmodi: Schatten zuordnen und Bild zusammenfügen.',
+    title: 'Schattenbilder Arbeitsblätter Kostenlos | Generator für Grundschule',
+    description: 'Erstellen Sie Schattenbilder-Arbeitsblätter in 3 Minuten. Generator für Vorschule & Grundschule. Visuelle Wahrnehmung üben - kostenlos testen!',
     keywords: 'schattenbilder arbeitsblätter, visuelle wahrnehmung übungen, arbeitsblätter grundschule, kostenlose arbeitsblätter, vorschule arbeitsblätter, räumliches denken, wahrnehmungsübungen, silhouetten zuordnen, mathe arbeitsblätter, deutsch arbeitsblätter',
     canonicalUrl: 'https://www.lessoncraftstudio.com/de/apps/schattenbilder-zuordnen-arbeitsblaetter',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/german/shadow-match/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Schattenbilder Arbeitsblätter kostenlos zum Ausdrucken - Silhouetten zuordnen für Vorschule und Grundschule',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/german/shadow-match/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Schattenbilder Zuordnung Arbeitsblätter für Kinder - Visuelle Wahrnehmung üben für Arbeitsblätter Grundschule',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/german/shadow-match/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Kostenlose Schattenbilder Übungsblätter - Bild zusammenfügen für Vorschule Arbeitsblätter',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/german/shadow-match/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Schattenbilder Arbeitsblätter Grundschule - Räumliches Denken spielerisch lernen',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/german/shadow-match/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Druckbare Schattenbilder Arbeitsblätter - Kostenlose Arbeitsblätter für Wahrnehmungsübungen',
+      },
+    ],
   },
 
   // Hero Section - FULL text from schattenbilder-zuordnen.md
@@ -46,7 +78,7 @@ Der Schattenbilder Generator ist ideal für Vorschule Arbeitsblätter und Arbeit
 Schattenbilder-Arbeitsblätter verbinden verschiedene Lernbereiche. Als Ergänzung zu Mathe Arbeitsblättern trainieren Kinder Formenerkennung. Kombiniert mit Deutsch Arbeitsblättern üben sie Wortschatz durch Bildmaterial. Für die Vorschule sind diese Übungen besonders wertvoll. Sie bereiten Kinder optimal auf schulische Anforderungen vor. Die visuelle Diskriminierung ist grundlegend für das spätere Lesen.
 
 Mit Ihrem Abonnement erhalten Sie Zugang zu über 3000 kindgerechten Bildern. Die Ausmalbilder und Malvorlagen lassen sich als Vorlagen nutzen. Der Generator wandelt jedes Bild automatisch in eine Silhouette um. Erstellen Sie individuelle Arbeitsblätter für Ihre Klasse. Der Generator bietet professionelle 300 DPI Qualität für den Druck. Alle Materialien sind sofort einsatzbereit.`,
-    previewImageSrc: '/samples/english/shadow match/shadow-match-worksheet.jpeg',
+    previewImageSrc: '/samples/german/shadow-match/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Kostenlos Testen',
       viewSamples: 'Beispiele Ansehen',
@@ -81,24 +113,38 @@ Mit Ihrem Abonnement erhalten Sie Zugang zu über 3000 kindgerechten Bildern. Di
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/shadow match/shadow-match-worksheet.jpeg',
-        answerKeySrc: '/samples/english/shadow match/shadow-match-answer-key.jpeg',
+        worksheetSrc: '/samples/german/shadow-match/sample-1.jpeg',
+        answerKeySrc: '/samples/german/shadow-match/sample-1-answer.jpeg',
         altText: 'Schattenbilder Zuordnung Arbeitsblatt für Arbeitsblätter Grundschule und Vorschule Arbeitsblätter - Visuelle Wahrnehmung',
-        pdfDownloadUrl: '/samples/english/shadow match/shadow-match-worksheet.pdf',
+        pdfDownloadUrl: '/samples/german/shadow-match/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/shadow match/shadow-match-horizontal.jpeg',
-        answerKeySrc: '/samples/english/shadow match/shadow-match-horizontal answer-key.jpeg',
-        altText: 'Bild zusammenfügen Arbeitsblatt horizontal für räumliches Denken und Wahrnehmungsübungen',
-        pdfDownloadUrl: '/samples/english/shadow match/shadow-match-horizontal.pdf',
+        worksheetSrc: '/samples/german/shadow-match/sample-2.jpeg',
+        answerKeySrc: '/samples/german/shadow-match/sample-2-answer.jpeg',
+        altText: 'Schattenbilder Silhouetten Arbeitsblatt für Mathe Arbeitsblätter und kostenlose Arbeitsblätter Grundschule',
+        pdfDownloadUrl: '/samples/german/shadow-match/sample-2.pdf',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/shadow match/shadow-match-vertical.jpeg',
-        answerKeySrc: '/samples/english/shadow match/shadow-match-vertical answer-key.jpeg',
-        altText: 'Bild zusammenfügen Arbeitsblatt vertikal für Mathe Arbeitsblätter und kostenlose Arbeitsblätter',
-        pdfDownloadUrl: '/samples/english/shadow match/shadow-match-vertical.pdf',
+        worksheetSrc: '/samples/german/shadow-match/sample-3.jpeg',
+        answerKeySrc: '/samples/german/shadow-match/sample-3-answer.jpeg',
+        altText: 'Bild zusammenfügen Arbeitsblatt für Vorschule - räumliches Denken und Wahrnehmungsübungen kostenlos',
+        pdfDownloadUrl: '/samples/german/shadow-match/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/german/shadow-match/sample-4.jpeg',
+        answerKeySrc: '/samples/german/shadow-match/sample-4-answer.jpeg',
+        altText: 'Schattenbilder Übungen Arbeitsblatt Grundschule - Schwungübungen und Buchstaben lernen Ergänzung',
+        pdfDownloadUrl: '/samples/german/shadow-match/sample-4.pdf',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/german/shadow-match/sample-5.jpeg',
+        answerKeySrc: '/samples/german/shadow-match/sample-5-answer.jpeg',
+        altText: 'Kostenlose Schattenbilder Arbeitsblätter für Deutsch Arbeitsblätter und Rechnen lernen Vorschule',
+        pdfDownloadUrl: '/samples/german/shadow-match/sample-5.pdf',
       },
     ],
   },

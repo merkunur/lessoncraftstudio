@@ -18,9 +18,35 @@ export const pictureSortFrContent: ProductPageContent = {
     slug: 'tri-images-fiches',
     appId: 'picture-sort',
     title: 'Fiches de Tri d\'Images - Générateur de Fiches Maternelle pour Apprendre à Classer',
-    description: 'Créez des fiches de tri d\'images professionnelles avec notre générateur de fiches maternelle. Votre abonnement Accès Complet à 240€/an vous permet de générer des fiches à imprimer gratuit en illimité. Concevez des exercices CP personnalisés parfaits pour la maternelle et l\'école élémentaire.',
-    keywords: 'fiches à imprimer gratuit, fiches maternelle, exercices CP, tri images, graphisme maternelle, exercices maths, coloriage à imprimer, apprendre à lire, alphabet, écriture cursive, tables de multiplication',
+    description: 'Créez des fiches de tri d\'images gratuites pour maternelle et CP. Générateur professionnel avec corrigés inclus. Téléchargez en PDF haute qualité en 3 min.',
+    keywords: 'fiches à imprimer gratuit, fiches maternelle, exercices CP, tri images, graphisme maternelle, exercices maths, coloriage à imprimer, apprendre à lire, alphabet, écriture cursive, tables de multiplication, fiche gratuite pour enfants, imprimables gratuits, fiche pour enfants',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fr/apps/tri-images-fiches',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/picture-sort/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fiche de tri d\'images gratuite pour maternelle - classement et catégorisation pour enfants'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/picture-sort/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Exercices CP tri d\'images - fiches gratuites pour enfants avec classification'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/picture-sort/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fiche gratuite tri d\'images pour enfants - graphisme maternelle et logique'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/picture-sort/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fiches gratuites classification images - exercices CE1 et coloriage à imprimer'
+      }
+    ],
   },
 
   // Hero Section - FULL text from picture-sort.md paragraphs 1-4
@@ -69,17 +95,31 @@ Notre générateur s'adresse aux enseignants de maternelle GS, CP et CE1. Les fi
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/picture sort/picture sort portrait.jpeg',
-        answerKeySrc: '/samples/english/picture sort/picture sort portrait answer_key.jpeg',
-        altText: 'Fiche de tri d\'images format portrait pour maternelle avec corrigé - classification et catégorisation',
-        pdfDownloadUrl: '/samples/english/picture sort/picture sort portrait.pdf',
+        worksheetSrc: '/samples/french/picture-sort/sample-1.jpeg',
+        answerKeySrc: '/samples/french/picture-sort/sample-1-answer.jpeg',
+        altText: 'Fiche de tri d\'images gratuite pour maternelle - exercices classification et catégorisation pour enfants',
+        pdfDownloadUrl: '/samples/french/picture-sort/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/picture sort/picture sort landscape.jpeg',
-        answerKeySrc: '/samples/english/picture sort/picture sort landscape answer_key.jpeg',
-        altText: 'Fiche de tri d\'images format paysage pour exercices CP avec corrigé - logique et raisonnement',
-        pdfDownloadUrl: '/samples/english/picture sort/picture sort landscape.pdf',
+        worksheetSrc: '/samples/french/picture-sort/sample-2.jpeg',
+        answerKeySrc: '/samples/french/picture-sort/sample-2-answer.jpeg',
+        altText: 'Exercices CP tri d\'images - fiche gratuite classification pour enfants avec corrigé inclus',
+        pdfDownloadUrl: '/samples/french/picture-sort/sample-2.pdf',
+      },
+      {
+        id: '3',
+        worksheetSrc: '/samples/french/picture-sort/sample-3.jpeg',
+        answerKeySrc: '/samples/french/picture-sort/sample-3-answer.jpeg',
+        altText: 'Fiches gratuites tri d\'images pour maternelle - graphisme et logique de classement pour enfants',
+        pdfDownloadUrl: '/samples/french/picture-sort/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/french/picture-sort/sample-4.jpeg',
+        answerKeySrc: '/samples/french/picture-sort/sample-4-answer.jpeg',
+        altText: 'Fiche pour enfants tri d\'images - exercices CE1 classification avec imprimables gratuits',
+        pdfDownloadUrl: '/samples/french/picture-sort/sample-4.pdf',
       },
     ],
   },

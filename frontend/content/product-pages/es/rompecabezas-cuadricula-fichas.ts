@@ -22,6 +22,32 @@ export const gridMatchEsContent: ProductPageContent = {
     description: 'Crea rompecabezas de cuadrícula profesionales con nuestro generador de fichas para imprimir. Tu suscripción Acceso Completo te da acceso ilimitado a todas las herramientas por $240 al año. Genera fichas de matemáticas personalizadas con rompecabezas visuales perfectos para educación infantil y primaria.',
     keywords: 'rompecabezas cuadrícula, fichas para imprimir, fichas preescolar, fichas infantil, material educativo gratis, fichas de matemáticas, grafomotricidad, lectoescritura, abecedario, números',
     canonicalUrl: 'https://www.lessoncraftstudio.com/es/apps/rompecabezas-cuadricula-fichas',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/spanish/grid-match/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Rompecabezas de cuadricula fichas gratis para imprimir - ejercicio de razonamiento espacial para preescolar',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/spanish/grid-match/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fichas infantil de rompecabezas cuadricula - material educativo gratis para grafomotricidad',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/spanish/grid-match/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fichas preescolar de rompecabezas con cuadricula - fichas de matematicas visuales para primaria',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/spanish/grid-match/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Rompecabezas de cuadricula fichas para imprimir - lectoescritura y numeros para educacion infantil',
+      },
+    ],
   },
 
   // Hero Section - FULL text from grid-match.md
@@ -33,7 +59,7 @@ export const gridMatchEsContent: ProductPageContent = {
 Los rompecabezas de cuadrícula desarrollan habilidades de razonamiento espacial en niños de preescolar y primaria. Este generador de fichas infantil combina aprendizaje visual con grafomotricidad. Perfecta para maestros que necesitan fichas preescolar y ejercicios matemáticas con elementos visuales. Las fichas gratis para imprimir incluyen una clave de respuestas completa.
 
 Los estudiantes combinan piezas mezcladas para completar imágenes. Cada ficha incluye células de pista correctamente colocadas. Ajusta el tamaño de la cuadrícula de 2x2 a 4x4 cuadrados. El material educativo gratis incluye formatos PDF y JPEG para imprimir. Perfecto para lectoescritura visual, números, abecedario y colorear como actividad complementaria.`,
-    previewImageSrc: '/samples/english/grid match/grid match portrait .jpeg',
+    previewImageSrc: '/samples/spanish/grid-match/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Probar Gratis',
       viewSamples: 'Ver Ejemplos',
@@ -68,17 +94,31 @@ Los estudiantes combinan piezas mezcladas para completar imágenes. Cada ficha i
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/grid match/grid match portrait .jpeg',
-        answerKeySrc: '/samples/english/grid match/grid match portrait  answer_key.jpeg',
-        altText: 'Ficha de rompecabezas de cuadrícula en formato vertical para desarrollar razonamiento espacial en preescolar',
-        pdfDownloadUrl: '/samples/english/grid match/grid match portrait .pdf',
+        worksheetSrc: '/samples/spanish/grid-match/sample-1.jpeg',
+        answerKeySrc: '/samples/spanish/grid-match/sample-1-answer.jpeg',
+        altText: 'Rompecabezas de cuadricula fichas gratis para imprimir - ejercicio de razonamiento espacial para preescolar',
+        pdfDownloadUrl: '/samples/spanish/grid-match/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/grid match/grid match landscape.jpeg',
-        answerKeySrc: '/samples/english/grid match/grid match landscape answer_key.jpeg',
-        altText: 'Ficha de rompecabezas de cuadrícula en formato horizontal para fichas de matemáticas y ejercicios visuales',
-        pdfDownloadUrl: '/samples/english/grid match/grid match landscape.pdf',
+        worksheetSrc: '/samples/spanish/grid-match/sample-2.jpeg',
+        answerKeySrc: '/samples/spanish/grid-match/sample-2-answer.jpeg',
+        altText: 'Fichas infantil de rompecabezas cuadricula - material educativo gratis para grafomotricidad visual',
+        pdfDownloadUrl: '/samples/spanish/grid-match/sample-2.pdf',
+      },
+      {
+        id: '3',
+        worksheetSrc: '/samples/spanish/grid-match/sample-3.jpeg',
+        answerKeySrc: '/samples/spanish/grid-match/sample-3-answer.jpeg',
+        altText: 'Fichas preescolar de rompecabezas con cuadricula - fichas de matematicas visuales para primaria',
+        pdfDownloadUrl: '/samples/spanish/grid-match/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/spanish/grid-match/sample-4.jpeg',
+        answerKeySrc: '/samples/spanish/grid-match/sample-4-answer.jpeg',
+        altText: 'Rompecabezas de cuadricula fichas para imprimir - lectoescritura y numeros para educacion infantil',
+        pdfDownloadUrl: '/samples/spanish/grid-match/sample-4.pdf',
       },
     ],
   },

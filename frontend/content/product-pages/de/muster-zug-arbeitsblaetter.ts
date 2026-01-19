@@ -29,10 +29,36 @@ export const patternTrainDeContent: ProductPageContent = {
   seo: {
     slug: 'muster-zug-arbeitsblaetter',
     appId: 'pattern-train',
-    title: 'Muster-Zug Generator - Kostenlose Arbeitsblätter für Mustererkennung - Arbeitsblätter Grundschule und Vorschule',
-    description: 'Erstellen Sie professionelle Muster-Arbeitsblätter mit dem Muster-Zug Generator. Mit Ihrem Vollzugriff Abo generieren Sie unbegrenzt Arbeitsblätter ohne zusätzliche Kosten. Perfekt für Vorschule Arbeitsblätter und Arbeitsblätter Grundschule.',
+    title: 'Muster-Zug Arbeitsblätter Kostenlos | Generator Grundschule Vorschule',
+    description: 'Muster-Zug Arbeitsblätter in 3 Minuten erstellen. 5 Mustertypen, 3000+ Bilder, 300 DPI. Perfekt für Vorschule und Grundschule. Jetzt testen!',
     keywords: 'muster zug arbeitsblätter, arbeitsblätter grundschule, kostenlose arbeitsblätter, mathe arbeitsblätter, vorschule arbeitsblätter, einmaleins, schwungübungen, buchstaben lernen, rechnen lernen, ausmalbilder',
     canonicalUrl: 'https://www.lessoncraftstudio.com/de/apps/muster-zug-arbeitsblaetter',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/pattern%20train/pattern_train%20portrait.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Muster-Zug Arbeitsblatt Hochformat - Kostenlose Arbeitsblätter für Arbeitsblätter Grundschule und Vorschule'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/pattern%20train/pattern_train%20landscape.jpeg',
+        width: 3508,
+        height: 2480,
+        caption: 'Muster-Zug Arbeitsblatt Querformat - Kostenlose Arbeitsblätter für Mathe Arbeitsblätter'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/pattern%20train/pattern_train%20portrait%20answer_key.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Muster-Zug Lösungsblatt Hochformat - Arbeitsblätter Grundschule mit Antworten'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/pattern%20train/pattern_train%20landscape%20answer_key.jpeg',
+        width: 3508,
+        height: 2480,
+        caption: 'Muster-Zug Lösungsblatt Querformat - Kostenlose Arbeitsblätter mit Lösungen'
+      },
+    ],
   },
 
   // Hero Section - FULL text from muster-zug.md
@@ -459,6 +485,48 @@ Für Rechnen lernen und Musterübungen ist der Lösungsschlüssel besonders wert
         answer: `Die themenbasierte Bildbibliothek ermöglicht fächerübergreifende Arbeitsblätter. Wählen Sie Tierbilder für den Sachunterricht. Nutzen Sie Obst und Gemüse für Ernährungsthemen. Fahrzeuge eignen sich für Verkehrserziehung.
 
 Kombinieren Sie Muster-Arbeitsblätter mit Ausmalbilder für kreative Einheiten. Kinder malen die Bilder vor dem Ausschneiden aus. Jahreszeitliche Themen wie Herbst oder Weihnachten sind verfügbar. So integrieren Sie Musterübungen in jeden Unterrichtskontext.`,
+      },
+      {
+        id: '13',
+        question: 'Welche Mustertypen kann ich mit dem Generator für Arbeitsblätter Grundschule erstellen?',
+        answer: `Der Generator unterstützt fünf verschiedene Mustertypen für unterschiedliche Schwierigkeitsstufen. Das einfache AB-Muster eignet sich für Anfänger und jüngere Kinder. AAB und ABB Muster bieten eine mittlere Herausforderung für Vorschule Arbeitsblätter.
+
+Für fortgeschrittene Schüler stehen ABC und AABB Muster zur Verfügung. Diese komplexen Muster fördern das mathematische Denken. Die Auswahl des Mustertyps erfolgt über ein einfaches Dropdown-Menü. So erstellen Sie differenzierte Arbeitsblätter Grundschule für jede Lerngruppe.`,
+      },
+      {
+        id: '14',
+        question: 'Kann ich die erstellten Kostenlose Arbeitsblätter digital teilen?',
+        answer: `Ja, beide Exportformate eignen sich für digitale Verteilung. JPEG-Dateien können per E-Mail oder Messenger versendet werden. PDF-Dateien sind ideal für Lernplattformen und digitale Klassenzimmer.
+
+Die 300 DPI Qualität bleibt auch bei digitaler Ansicht erhalten. Teilen Sie kostenlose Arbeitsblätter mit Eltern für Hausaufgaben. Nutzen Sie die Dateien für Online-Unterricht und Fernlernen. Die Dateigröße ist für schnellen Download optimiert.`,
+      },
+      {
+        id: '15',
+        question: 'Wie funktioniert die automatische Themenwahl für Vorschule Arbeitsblätter?',
+        answer: `Die automatische Themenwahl ist der schnellste Weg zu fertigen Arbeitsblättern. Wählen Sie einfach ein Thema aus dem Dropdown-Menü. Das System wählt automatisch passende Bilder aus der Bibliothek aus.
+
+Alle ausgewählten Bilder harmonieren thematisch miteinander. Für Vorschule Arbeitsblätter stehen kinderfreundliche Themen bereit. Tiere, Fahrzeuge, Obst, Jahreszeiten und viele mehr. In Sekunden entstehen optisch ansprechende Muster-Arbeitsblätter ohne manuelle Bildauswahl.`,
+      },
+      {
+        id: '16',
+        question: 'Gibt es eine Testversion des Muster-Zug Generators für Mathe Arbeitsblätter?',
+        answer: `Das Vollzugriff Abo kann jederzeit gekündigt werden. Sie können den Generator und alle 33 Apps vollständig testen. Bei monatlicher Zahlung beträgt der Preis 25 Euro. So probieren Sie alle Funktionen für Mathe Arbeitsblätter ohne langfristige Bindung aus.
+
+Die Kündigung erfolgt unkompliziert über Ihr Kundenkonto. Keine versteckten Kosten oder Kündigungsfristen. Alle während des Abonnements erstellten Arbeitsblätter bleiben Ihnen erhalten. Die kommerzielle Lizenz gilt auch nach Kündigung weiter für bereits erstellte Materialien.`,
+      },
+      {
+        id: '17',
+        question: 'Kann ich den Schwierigkeitsgrad der Arbeitsblätter für Rechnen lernen anpassen?',
+        answer: `Ja, mehrere Einstellungen ermöglichen die Anpassung der Schwierigkeit. Die Hinweisanzahl steuert, wie viele Musterelemente vorgegeben sind. Vier bis zehn Hinweise sind einstellbar. Mehr Hinweise erleichtern die Aufgabe für jüngere Kinder.
+
+Der Mustertyp bestimmt die Komplexität grundlegend. AB-Muster für Einsteiger, AABB für Fortgeschrittene. Diese Kombination ermöglicht perfekte Differenzierung. So bereiten Sie Arbeitsblätter für Rechnen lernen auf jedem Niveau vor.`,
+      },
+      {
+        id: '18',
+        question: 'Funktioniert der Generator auf Tablet und Smartphone für Kostenlose Druckvorlagen?',
+        answer: `Der Generator ist für Desktop-Browser optimiert. Die umfangreichen Bearbeitungsfunktionen erfordern einen größeren Bildschirm. Auf Tablets mit großem Display funktioniert die Bedienung ebenfalls gut.
+
+Smartphones eignen sich weniger für die Erstellung komplexer Arbeitsblätter. Die Vorschau und Download-Funktionen sind aber mobil nutzbar. Erstellen Sie kostenlose Druckvorlagen am Computer und laden Sie sie überall herunter. Die fertigen Arbeitsblätter können von jedem Gerät gedruckt werden.`,
       },
     ],
   },

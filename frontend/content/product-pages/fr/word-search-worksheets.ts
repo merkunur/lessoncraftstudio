@@ -15,10 +15,42 @@ export const wordSearchFrContent: ProductPageContent = {
   seo: {
     slug: 'mots-caches-fiches',
     appId: 'wordsearch',
-    title: 'Générateur de Mots Mêlés Gratuit | Fiches à Imprimer Gratuit Maternelle et CP',
-    description: 'Créez des mots mêlés professionnels avec notre générateur de fiches maternelle. Parfait pour les enseignants de maternelle, CP et CE1. Téléchargez des fiches à imprimer gratuit en PDF haute qualité en moins de trois minutes.',
+    title: 'Mots Mêlés Fiches Gratuites | Générateur Maternelle CP - LessonCraft',
+    description: 'Créez des mots mêlés professionnels en 3 clics. Fiches gratuites maternelle et CP à imprimer. 3000+ images, 11 langues. Téléchargez en PDF 300 DPI maintenant.',
     keywords: 'mots mêlés, générateur mots cachés, fiches maternelle, fiches à imprimer gratuit, exercices CP, apprendre à lire, alphabet, graphisme maternelle, tables de multiplication, coloriage à imprimer',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fr/apps/mots-caches-fiches',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/wordsearch/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Mots mêlés fiches gratuites - puzzle vocabulaire format portrait pour maternelle'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/wordsearch/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Générateur mots mêlés - fiche gratuite avec images thématiques pour CP'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/wordsearch/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Mots cachés fiches pour enfants - grille de lettres éducative pour CE1'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/wordsearch/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fiches vocabulaire mots mêlés - puzzle recherche de mots pour primaire'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/wordsearch/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Jeu de mots fiches gratuites - activité vocabulaire personnalisable pour classe'
+      }
+    ],
   },
 
   // Hero Section - FULL text from wordsearch.md paragraphs 1-4
@@ -30,7 +62,7 @@ export const wordSearchFrContent: ProductPageContent = {
 Notre outil de création de mots mêlés aide à concevoir des activités d'apprentissage captivantes pour les jeunes élèves. Choisissez parmi plus de 3000 images adaptées aux enfants et organisées par thème. Chaque fiche de mots mêlés se télécharge en PDF ou JPEG haute qualité à 300 DPI. Vos élèves adoreront chercher les mots cachés associés à des images colorées. Les fiches maternelle deviennent des outils pédagogiques professionnels. Les exercices CP et CE1 gagnent en attrait avec des visuels engageants.
 
 Ce générateur de mots mêlés fonctionne en 11 langues complètes. Français, anglais, allemand, espagnol, portugais, italien, néerlandais, danois, suédois, norvégien et finnois. Sélectionnez un thème comme les animaux, les transports ou les fruits. L'application crée un puzzle complet avec sa fiche de correction automatique. Modifiez tout sur le canevas avant le téléchargement. Ajoutez du texte personnalisé avec différentes polices. Changez les couleurs et les arrière-plans. Téléversez vos propres images pour des fiches à imprimer gratuit personnalisées.`,
-    previewImageSrc: '/samples/english/wordsearch/wordsearch portrait.jpeg',
+    previewImageSrc: '/samples/french/wordsearch/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Essayer Gratuitement',
       viewSamples: 'Voir les Exemples',
@@ -65,24 +97,38 @@ Ce générateur de mots mêlés fonctionne en 11 langues complètes. Français, 
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/wordsearch/wordsearch portrait.jpeg',
-        answerKeySrc: '/samples/english/wordsearch/wordsearch portrait answer_key.jpeg',
-        altText: 'Mots mêlés en format portrait avec images thématiques pour le vocabulaire maternelle',
-        pdfDownloadUrl: '/samples/english/wordsearch/wordsearch portrait.pdf',
+        worksheetSrc: '/samples/french/wordsearch/sample-1.jpeg',
+        answerKeySrc: '/samples/french/wordsearch/sample-1-answer.jpeg',
+        altText: 'Mots mêlés fiches gratuites pour maternelle - puzzle vocabulaire format portrait avec images thématiques colorées',
+        pdfDownloadUrl: '/samples/french/wordsearch/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/wordsearch/wordsearch landscape.jpeg',
-        answerKeySrc: '/samples/english/wordsearch/wordsearch landscape answer_key.jpeg',
-        altText: 'Fiche de mots mêlés en format paysage avec indices visuels colorés pour le CP',
-        pdfDownloadUrl: '/samples/english/wordsearch/wordsearch landscape.pdf',
+        worksheetSrc: '/samples/french/wordsearch/sample-2.jpeg',
+        answerKeySrc: '/samples/french/wordsearch/sample-2-answer.jpeg',
+        altText: 'Générateur mots cachés fiche gratuite pour enfants - grille de lettres éducative avec vocabulaire CP',
+        pdfDownloadUrl: '/samples/french/wordsearch/sample-2.pdf',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/wordsearch/custom word list.jpeg',
-        answerKeySrc: '/samples/english/wordsearch/custom word list answer_key.jpeg',
-        altText: 'Mots mêlés avec liste de mots personnalisée pour la pratique de l\'orthographe et du vocabulaire',
-        pdfDownloadUrl: '/samples/english/wordsearch/custom word list.pdf',
+        worksheetSrc: '/samples/french/wordsearch/sample-3.jpeg',
+        answerKeySrc: '/samples/french/wordsearch/sample-3-answer.jpeg',
+        altText: 'Mots mêlés fiches pour enfants format paysage - recherche de mots avec indices visuels pour CE1',
+        pdfDownloadUrl: '/samples/french/wordsearch/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/french/wordsearch/sample-4.jpeg',
+        answerKeySrc: '/samples/french/wordsearch/sample-4-answer.jpeg',
+        altText: 'Puzzle vocabulaire mots cachés fiche gratuite - jeu de mots éducatif pour primaire avec images',
+        pdfDownloadUrl: '/samples/french/wordsearch/sample-4.pdf',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/french/wordsearch/sample-5.jpeg',
+        answerKeySrc: '/samples/french/wordsearch/sample-5-answer.jpeg',
+        altText: 'Activité vocabulaire mots mêlés fiches gratuites - grille de lettres personnalisable pour classe',
+        pdfDownloadUrl: '/samples/french/wordsearch/sample-5.pdf',
       },
     ],
   },
@@ -405,6 +451,36 @@ Les boutiques de printables Etsy présentent des fiches de mots mêlés aux côt
         id: '12',
         question: 'Les Fiches d\'Alphabet Fonctionnent-Elles Bien avec les Fiches de Graphisme pour la Maternelle ?',
         answer: 'Les fiches d\'alphabet se combinent excellemment avec les activités de graphisme. L\'apprentissage des lettres combine les mots mêlés avec une pratique complète des lettres. Créez des mots mêlés ABC utilisant des images pour chaque lettre de l\'alphabet. Pomme et avion pour A. Ballon et banane pour B. Chat et camion pour C. Suivez avec des fiches d\'alphabet pratiquant les noms et sons des lettres. Les paquets complets d\'apprentissage de l\'alphabet incluent plusieurs types de fiches. Les mots mêlés fournissent une pratique de reconnaissance des lettres par identification d\'images.',
+      },
+      {
+        id: '13',
+        question: 'Comment Ajuster le Niveau de Difficulté des Mots Mêlés pour Différents Âges ?',
+        answer: 'Le générateur offre plusieurs paramètres pour ajuster la difficulté. Modifiez la taille de grille de 5x5 pour les débutants jusqu\'à 30x30 pour les élèves avancés. Activez ou désactivez les mots en diagonale selon le niveau de lecture. Les mots inversés augmentent la complexité pour les CE1 et CE2. Les grilles plus petites avec uniquement des mots horizontaux et verticaux conviennent aux PS et MS. Augmentez progressivement la difficulté au fil de l\'année scolaire. Chaque paramètre s\'ajuste indépendamment pour une personnalisation précise.',
+      },
+      {
+        id: '14',
+        question: 'Puis-Je Utiliser les Mots Mêlés en Classe Entière avec le Vidéoprojecteur ?',
+        answer: 'Les fiches de mots mêlés fonctionnent parfaitement pour l\'enseignement en classe entière. Projetez la fiche sur le tableau blanc ou l\'écran interactif. Les élèves cherchent les mots ensemble pendant les activités de groupe. Utilisez le format JPEG pour l\'affichage sur vidéoprojecteur. La haute résolution 300 DPI reste nette même agrandie. Les enseignants annotent les fiches projetées avec des outils de TBI. C\'est parfait pour les leçons de vocabulaire collectif et les jeux de classe.',
+      },
+      {
+        id: '15',
+        question: 'Le Générateur de Mots Mêlés Fonctionne-t-Il sur Tablette et Téléphone ?',
+        answer: 'Le générateur de mots mêlés fonctionne sur tous les appareils avec navigateur web. Les tablettes iPad et Android affichent l\'interface complète. Les smartphones permettent la génération rapide de fiches. L\'édition complète fonctionne mieux sur écran plus grand. Téléchargez les fiches directement sur votre appareil mobile. Envoyez les fichiers par email ou stockez dans le cloud. L\'application s\'adapte automatiquement à la taille de l\'écran.',
+      },
+      {
+        id: '16',
+        question: 'Comment Créer des Mots Mêlés avec Mes Propres Listes de Vocabulaire ?',
+        answer: 'Entrez vos propres mots de vocabulaire au lieu d\'utiliser les images de la bibliothèque. Tapez chaque mot dans le champ de saisie dédié. Séparez les mots par des virgules ou des retours à la ligne. L\'application génère automatiquement le puzzle avec vos termes. Parfait pour les listes de vocabulaire des manuels scolaires. Créez des mots mêlés pour les devoirs d\'orthographe hebdomadaires. Utilisez les mots fréquents spécifiques à votre programme de lecture.',
+      },
+      {
+        id: '17',
+        question: 'Les Mots Mêlés Sont-Ils Alignés sur les Programmes de l\'Éducation Nationale ?',
+        answer: 'Les mots mêlés soutiennent de nombreux objectifs des programmes officiels français. La reconnaissance visuelle et le balayage développent les compétences de pré-lecture. La recherche de vocabulaire renforce l\'acquisition de nouveaux mots. L\'identification des patterns de lettres aide l\'apprentissage phonétique. Les activités développent la concentration et la persévérance. Les enseignants adaptent le contenu aux objectifs spécifiques du cycle. Les thèmes de la bibliothèque d\'images couvrent les sujets des programmes.',
+      },
+      {
+        id: '18',
+        question: 'Puis-Je Sauvegarder Mes Fiches de Mots Mêlés pour les Réutiliser Plus Tard ?',
+        answer: 'Téléchargez chaque fiche pour la conserver indéfiniment. Les fichiers JPEG et PDF se stockent sur votre ordinateur ou cloud. Organisez vos fiches par thème ou niveau dans des dossiers. Réimprimez les mêmes fiches année après année. Partagez les fichiers avec les collègues de votre équipe pédagogique. Créez une bibliothèque de ressources personnalisée. Les fiches téléchargées n\'expirent jamais et restent utilisables sans abonnement actif.',
       },
     ],
   },

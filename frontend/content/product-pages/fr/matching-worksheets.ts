@@ -19,6 +19,38 @@ export const matchingFrContent: ProductPageContent = {
     description: 'Créez des fiches d\'association professionnelles avec notre générateur MatchUp Maker. Votre abonnement Pack Essentiel vous donne un accès illimité à la création de fiches maternelle personnalisées. Téléchargez des fichiers PDF haute qualité en moins de 3 minutes.',
     keywords: 'fiches association, fiches maternelle, exercices CP, fiches à imprimer gratuit, apprendre à lire, fiches alphabet, graphisme maternelle, exercices maths, apprendre les lettres, coloriage à imprimer, écriture cursive, tables de multiplication',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fr/apps/association-fiches',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/matching/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fiche d\'association gratuite - exercice image vers lettre pour maternelle'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/matching/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fiche d\'association gratuite - exercice image et mot pour CP'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/matching/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fiche d\'association gratuite - vocabulaire personnalisé pour enfants'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/matching/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fiche d\'association gratuite - graphisme maternelle et reconnaissance des lettres'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/matching/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fiche d\'association gratuite - fiches maternelle pour apprendre à lire'
+      }
+    ],
   },
 
   // Hero Section - FULL text from matching.md paragraphs 1-6
@@ -65,24 +97,38 @@ MatchUp Maker offre une création de contenu flexible pour toutes les matières.
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/matching/matching portrait.jpeg',
-        answerKeySrc: '/samples/english/matching/matching portrait answer_key.jpeg',
-        altText: 'Fiche d\'association en format portrait avec images thématiques pour la reconnaissance des lettres en maternelle',
-        pdfDownloadUrl: '/samples/english/matching/matching portrait.pdf',
+        worksheetSrc: '/samples/french/matching/sample-1.jpeg',
+        answerKeySrc: '/samples/french/matching/sample-1-answer.jpeg',
+        altText: 'Fiche d\'association gratuite fiches maternelle - exercice image vers lettre pour apprendre les lettres',
+        pdfDownloadUrl: '/samples/french/matching/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/matching/image and word.jpeg',
-        answerKeySrc: '/samples/english/matching/image and word answer_key.jpeg',
-        altText: 'Fiche d\'association image et mot pour le vocabulaire et les exercices CP de lecture',
-        pdfDownloadUrl: '/samples/english/matching/image and word.pdf',
+        worksheetSrc: '/samples/french/matching/sample-2.jpeg',
+        answerKeySrc: '/samples/french/matching/sample-2-answer.jpeg',
+        altText: 'Fiche d\'association gratuite exercices CP - association image et mot pour apprendre à lire',
+        pdfDownloadUrl: '/samples/french/matching/sample-2.pdf',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/matching/image and custom word.jpeg',
-        answerKeySrc: '/samples/english/matching/image and custom word answer_key.jpeg',
-        altText: 'Fiche d\'association avec mots personnalisés pour le vocabulaire spécifique aux matières',
-        pdfDownloadUrl: '/samples/english/matching/image and custom word.pdf',
+        worksheetSrc: '/samples/french/matching/sample-3.jpeg',
+        answerKeySrc: '/samples/french/matching/sample-3-answer.jpeg',
+        altText: 'Fiche d\'association gratuite fiches pour enfants - vocabulaire personnalisé et exercices maths',
+        pdfDownloadUrl: '/samples/french/matching/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/french/matching/sample-4.jpeg',
+        answerKeySrc: '/samples/french/matching/sample-4-answer.jpeg',
+        altText: 'Fiche d\'association gratuite graphisme maternelle - reconnaissance des lettres et alphabet',
+        pdfDownloadUrl: '/samples/french/matching/sample-4.pdf',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/french/matching/sample-5.jpeg',
+        answerKeySrc: '/samples/french/matching/sample-5-answer.jpeg',
+        altText: 'Fiche d\'association gratuite fiches à imprimer - coloriage à imprimer et exercices CP',
+        pdfDownloadUrl: '/samples/french/matching/sample-5.pdf',
       },
     ],
   },

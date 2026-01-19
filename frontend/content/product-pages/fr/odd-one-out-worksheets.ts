@@ -21,6 +21,38 @@ export const oddOneOutFrContent: ProductPageContent = {
     description: 'Créez des fiches à imprimer gratuit pour trouver l\'intrus en quelques clics. Votre abonnement Accès Complet à 240€/an vous donne accès illimité à ce générateur professionnel. Générez des fiches maternelle personnalisées parfaites pour développer l\'observation et la logique.',
     keywords: 'fiches à imprimer gratuit, fiches maternelle, exercices CP, intrus, graphisme maternelle, exercices maths, coloriage à imprimer, apprendre à lire, alphabet, écriture cursive, tables de multiplication',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fr/apps/intrus-fiches',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/odd-one-out/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fiche intrus gratuite à imprimer - exercice observation maternelle avec correction'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/odd-one-out/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fiches maternelle intrus gratuites - activité logique pour enfants CP CE1'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/odd-one-out/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Exercices CP intrus fiches gratuites - discrimination visuelle pour maternelle'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/odd-one-out/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fiche gratuite intrus pour enfants - exercice logique maternelle à imprimer'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/odd-one-out/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fiches à imprimer gratuit intrus - exercices observation CP maternelle'
+      }
+    ],
   },
 
   // Hero Section - FULL text from odd-one-out.md paragraphs 1-4
@@ -34,7 +66,7 @@ Notre générateur de fiches intrus transforme la création d'exercices pédagog
 Les fiches maternelle intrus sont essentielles pour l'apprentissage précoce. Les élèves apprennent à comparer, catégoriser et identifier les différences. Ces compétences sont fondamentales pour apprendre à lire et calculer. Le graphisme maternelle se développe naturellement en manipulant ces exercices. Les exercices CP renforcent la discrimination visuelle nécessaire à la lecture.
 
 Créez des fiches personnalisées avec plus de 3000 images thématiques. Choisissez parmi des thèmes variés : animaux, nourriture, objets quotidiens, formes géométriques. Combinez deux thèmes pour créer des exercices de difficulté progressive. Ajoutez vos propres images pour personnaliser selon vos élèves. Modifiez tous les éléments directement sur le canevas.`,
-    previewImageSrc: '/samples/english/odd one out/identical.jpeg',
+    previewImageSrc: '/samples/french/odd-one-out/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Essayer Gratuitement',
       viewSamples: 'Voir les Exemples',
@@ -53,7 +85,7 @@ Créez des fiches personnalisées avec plus de 3000 images thématiques. Choisis
     },
   },
 
-  // Sample Gallery - REAL file paths from samples/english/odd one out/
+  // Sample Gallery - REAL file paths from samples/french/odd-one-out/
   samples: {
     sectionTitle: 'Exemples de Fiches Intrus',
     sectionDescription: 'Téléchargez des exemples gratuits pour voir notre qualité professionnelle',
@@ -69,17 +101,38 @@ Créez des fiches personnalisées avec plus de 3000 images thématiques. Choisis
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/odd one out/identical.jpeg',
-        answerKeySrc: '/samples/english/odd one out/identical answer-key.jpeg',
-        altText: 'Fiche intrus mode identique pour maternelle avec corrigé',
-        pdfDownloadUrl: '/samples/english/odd one out/identical.pdf',
+        worksheetSrc: '/samples/french/odd-one-out/sample-1.jpeg',
+        answerKeySrc: '/samples/french/odd-one-out/sample-1-answer.jpeg',
+        altText: 'Fiche intrus fiches gratuites à imprimer - exercice observation logique pour maternelle avec corrigé',
+        pdfDownloadUrl: '/samples/french/odd-one-out/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/odd one out/similar.jpeg',
-        answerKeySrc: '/samples/english/odd one out/similar answer-key.jpeg',
-        altText: 'Fiche intrus mode similaire pour exercices CP avec corrigé',
-        pdfDownloadUrl: '/samples/english/odd one out/similar.pdf',
+        worksheetSrc: '/samples/french/odd-one-out/sample-2.jpeg',
+        answerKeySrc: '/samples/french/odd-one-out/sample-2-answer.jpeg',
+        altText: 'Fiches maternelle intrus gratuites pour enfants - exercice discrimination visuelle CP avec réponses',
+        pdfDownloadUrl: '/samples/french/odd-one-out/sample-2.pdf',
+      },
+      {
+        id: '3',
+        worksheetSrc: '/samples/french/odd-one-out/sample-3.jpeg',
+        answerKeySrc: '/samples/french/odd-one-out/sample-3-answer.jpeg',
+        altText: 'Exercices CP intrus fiche gratuite à imprimer - activité logique maternelle avec correction',
+        pdfDownloadUrl: '/samples/french/odd-one-out/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/french/odd-one-out/sample-4.jpeg',
+        answerKeySrc: '/samples/french/odd-one-out/sample-4-answer.jpeg',
+        altText: 'Fiche pour enfants intrus gratuite - exercices observation maternelle CP avec corrigé',
+        pdfDownloadUrl: '/samples/french/odd-one-out/sample-4.pdf',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/french/odd-one-out/sample-5.jpeg',
+        answerKeySrc: '/samples/french/odd-one-out/sample-5-answer.jpeg',
+        altText: 'Fiches à imprimer gratuit intrus pour maternelle - exercice logique CP CE1 avec réponses',
+        pdfDownloadUrl: '/samples/french/odd-one-out/sample-5.pdf',
       },
     ],
   },

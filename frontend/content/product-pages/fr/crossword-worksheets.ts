@@ -17,11 +17,43 @@ export const crosswordFrContent: ProductPageContent = {
   // SEO Metadata - French language-specific
   seo: {
     slug: 'mots-croises-images-fiches',
-    appId: 'crossword',
-    title: 'Mots Croisés en Images | Fiches à Imprimer Gratuit pour Maternelle et CP',
-    description: 'Créez des mots croisés en images professionnels avec notre générateur de fiches à imprimer gratuit. Votre abonnement Accès Complet à 240 € par an vous permet de générer des fiches maternelle et exercices CP illimités. Téléchargez des fichiers PDF haute qualité en moins de 3 minutes.',
+    appId: 'image-crossword',
+    title: 'Mots Croisés en Images | Fiches Gratuites Maternelle CP - Créateur',
+    description: 'Créez des mots croisés en images professionnels. Fiches gratuites maternelle et CP à imprimer. 3000+ images, 11 langues, licence commerciale. PDF en 3 minutes.',
     keywords: 'mots croisés en images, fiches maternelle, exercices CP, fiches à imprimer gratuit, apprendre à lire, fiches alphabet, graphisme maternelle, exercices maths, apprendre les lettres, coloriage à imprimer, écriture cursive, tables de multiplication, exercices CE1',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fr/apps/mots-croises-images-fiches',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/crossword/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Mots croisés en images fiches gratuites - exercices vocabulaire pour maternelle et CP'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/crossword/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fiches mots croisés à imprimer gratuit - apprendre les lettres pour enfants'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/crossword/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Mots croisés vocabulaire fiches maternelle - exercices CP graphisme'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/crossword/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fiches alphabet mots croisés images - apprendre à lire pour maternelle'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/crossword/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Mots croisés en images exercices CP - fiches à imprimer gratuit pour enfants'
+      }
+    ],
   },
 
   // Hero Section - FULL text from crossword.md paragraphs 1-4
@@ -35,7 +67,7 @@ Notre générateur de mots croisés combine l'apprentissage du vocabulaire avec 
 Les enseignants utilisent nos mots croisés en images pour créer des exercices CP et exercices CE1 adaptés à leurs thèmes d'enseignement. Sélectionnez parmi 3000 images ou téléchargez vos propres photos. Générez des fiches à imprimer gratuit qui correspondent parfaitement à votre programme de classe. Chaque fiche est entièrement personnalisable avec des arrière-plans, des bordures et du texte.
 
 Générez votre premier mot croisé en images en 3 clics. Choisissez un thème ou sélectionnez 8 images individuelles. Cliquez sur Générer et téléchargez votre fiche PDF. Simple, rapide et professionnel pour toutes vos fiches maternelle.`,
-    previewImageSrc: '/samples/english/crossword/crossword_worksheet.jpeg',
+    previewImageSrc: '/samples/french/crossword/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Essayer Gratuitement',
       viewSamples: 'Voir les Exemples',
@@ -54,7 +86,7 @@ Générez votre premier mot croisé en images en 3 clics. Choisissez un thème o
     },
   },
 
-  // Sample Gallery - REAL file paths from samples/english/crossword/
+  // Sample Gallery - REAL file paths from samples/french/crossword/
   samples: {
     sectionTitle: 'Exemples de Mots Croisés en Images',
     sectionDescription: 'Téléchargez des exemples gratuits pour voir notre qualité professionnelle',
@@ -70,17 +102,38 @@ Générez votre premier mot croisé en images en 3 clics. Choisissez un thème o
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/crossword/crossword_worksheet.jpeg',
-        answerKeySrc: '/samples/english/crossword/crossword_answer_key.jpeg',
-        altText: 'Mots croisés en images avec 8 indices visuels pour la pratique du vocabulaire en maternelle',
-        pdfDownloadUrl: '/samples/english/crossword/image-crossword-worksheet.pdf',
+        worksheetSrc: '/samples/french/crossword/sample-1.jpeg',
+        answerKeySrc: '/samples/french/crossword/sample-1-answer.jpeg',
+        altText: 'Mots croisés en images fiches gratuites - exercices vocabulaire maternelle avec images colorées pour apprendre les lettres',
+        pdfDownloadUrl: '/samples/french/crossword/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/crossword/crossword_worksheet (1).jpeg',
-        answerKeySrc: '/samples/english/crossword/crossword_answer_key (1).jpeg',
-        altText: 'Fiche de mots croisés en images thématiques pour la pratique de l\'orthographe en CP',
-        pdfDownloadUrl: '/samples/english/crossword/image-crossword-worksheet (1).pdf',
+        worksheetSrc: '/samples/french/crossword/sample-2.jpeg',
+        answerKeySrc: '/samples/french/crossword/sample-2-answer.jpeg',
+        altText: 'Fiches mots croisés à imprimer gratuit - exercices CP apprendre à lire avec grille et images thématiques',
+        pdfDownloadUrl: '/samples/french/crossword/sample-2.pdf',
+      },
+      {
+        id: '3',
+        worksheetSrc: '/samples/french/crossword/sample-3.jpeg',
+        answerKeySrc: '/samples/french/crossword/sample-3-answer.jpeg',
+        altText: 'Mots croisés vocabulaire fiches maternelle - graphisme et reconnaissance des lettres pour enfants',
+        pdfDownloadUrl: '/samples/french/crossword/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/french/crossword/sample-4.jpeg',
+        answerKeySrc: '/samples/french/crossword/sample-4-answer.jpeg',
+        altText: 'Fiches alphabet mots croisés images - exercices CE1 vocabulaire et orthographe à imprimer',
+        pdfDownloadUrl: '/samples/french/crossword/sample-4.pdf',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/french/crossword/sample-5.jpeg',
+        answerKeySrc: '/samples/french/crossword/sample-5-answer.jpeg',
+        altText: 'Mots croisés en images exercices CP - fiches à imprimer gratuit alphabet et vocabulaire thématique',
+        pdfDownloadUrl: '/samples/french/crossword/sample-5.pdf',
       },
     ],
   },
@@ -401,6 +454,48 @@ Les corrigés facilitent énormément la notation et l'autocorrection. Les élè
         answer: `Absolument. Utilisez le mode liste de mots personnalisés pour créer des mots croisés sur n'importe quelle matière. Sciences avec vocabulaire scientifique et indices éducatifs. Géographie avec noms de pays, villes et caractéristiques géographiques. Histoire avec personnages historiques et événements. Mathématiques avec termes mathématiques et définitions. Littérature avec personnages de livres et éléments d'histoire.
 
 Le mode images fonctionne parfaitement pour sciences naturelles, animaux, plantes, météo, corps humain et alimentation. Sélectionnez des images thématiques depuis notre bibliothèque de 3000 illustrations. Sciences physiques comme outils, machines et matériaux. Géographie avec monuments célèbres et caractéristiques naturelles. La flexibilité permet des mots croisés pour littéralement toute matière enseignée de la maternelle au CE2.`,
+      },
+      {
+        id: '13',
+        question: 'Comment les Mots Croisés Aident-ils au Développement de l\'Écriture Cursive?',
+        answer: `Les mots croisés sont excellents pour développer l'écriture cursive chez les jeunes enfants. Chaque case de la grille exige une formation soignée des lettres. Les élèves doivent écrire dans un espace délimité, ce qui développe le contrôle du crayon. Les cases alignées encouragent une écriture régulière et lisible. Cette pratique structurée complète parfaitement les exercices de graphisme maternelle.
+
+Combinez les mots croisés avec nos générateurs de fiches d'écriture pour une approche complète. Les fiches d'écriture enseignent la formation des lettres individuelles. Les mots croisés appliquent ces compétences dans un contexte significatif. Les élèves voient comment les lettres se combinent en mots réels. Cette connexion motive l'apprentissage et renforce la mémoire musculaire nécessaire pour une écriture fluide.`,
+      },
+      {
+        id: '14',
+        question: 'Puis-je Créer des Packs Thématiques pour les Vacances Scolaires?',
+        answer: `Absolument. Les packs thématiques de vacances sont très populaires auprès des parents et enseignants. Créez des collections pour les vacances d'été, Noël, Pâques, Toussaint et février. Chaque pack peut contenir 10 à 20 mots croisés sur des thèmes saisonniers. Plage et océan pour l'été. Sapins et cadeaux pour Noël. Lapins et œufs pour Pâques. Les enfants adorent ces activités thématiques.
+
+Ces packs se vendent particulièrement bien sur Etsy et Teachers Pay Teachers. Les parents cherchent des activités éducatives pour occuper leurs enfants pendant les vacances. Les fiches à imprimer gratuit maintiennent les compétences en lecture et vocabulaire pendant les pauses scolaires. Créez vos packs plusieurs semaines avant chaque période de vacances pour maximiser les ventes. La licence commerciale incluse vous permet de vendre sans restriction.`,
+      },
+      {
+        id: '15',
+        question: 'Combien de Mots les Mots Croisés Peuvent-ils Contenir?',
+        answer: `Nos mots croisés standard contiennent 8 mots parfaitement disposés dans une grille 15×15. Ce nombre est idéal pour les fiches maternelle et exercices CP. Assez de mots pour créer un défi intéressant sans surcharger les jeunes apprenants. La grille 15×15 offre suffisamment d'espace pour que les mots se croisent naturellement. Chaque mot correspond à une image numérotée pour une résolution facile.
+
+Le nombre de 8 mots a été optimisé après des tests avec des enseignants. Moins de mots ne créent pas assez de croisements intéressants. Plus de mots rendent la grille trop complexe pour les jeunes enfants. Les 8 mots offrent l'équilibre parfait. Les élèves de maternelle complètent généralement un mot croisé en 10 à 15 minutes. Les élèves de CP terminent en 5 à 10 minutes. Ce temps de concentration est adapté à chaque tranche d'âge.`,
+      },
+      {
+        id: '16',
+        question: 'Les Mots Croisés Sont-ils Adaptés aux Programmes Scolaires Français?',
+        answer: `Oui, nos mots croisés s'alignent parfaitement avec les programmes de l'Éducation nationale française. En maternelle, ils développent la conscience phonologique et la reconnaissance des lettres exigées par le programme. En CP, ils renforcent le décodage et l'encodage des mots conformément aux attendus de fin de cycle. En CE1, ils consolident l'orthographe et le vocabulaire.
+
+La bibliothèque de 3000 images couvre tous les thèmes du programme. Animaux, nature, école, famille, alimentation, transports et corps humain. Les thèmes correspondent aux unités d'apprentissage standard. Les enseignants créent facilement des fiches maternelle et exercices CP qui complètent leurs manuels. La personnalisation permet d'adapter le vocabulaire exact aux progressions de classe. Parfait pour différencier selon les besoins de chaque élève.`,
+      },
+      {
+        id: '17',
+        question: 'Comment Utiliser les Mots Croisés en Centres d\'Apprentissage Autonome?',
+        answer: `Les mots croisés sont parfaits pour les centres d'apprentissage autonome. Placez plusieurs copies de différents mots croisés dans un bac ou dossier. Les élèves choisissent une fiche et travaillent indépendamment. Le corrigé est disponible pour l'autocorrection immédiate. Les élèves apprennent à vérifier leur propre travail. Cette autonomie développe des compétences métacognitives importantes.
+
+Créez plusieurs niveaux de difficulté pour le même thème. Niveau 1 avec mots de 3 à 4 lettres pour les élèves en difficulté. Niveau 2 avec mots de 4 à 6 lettres pour le niveau standard. Niveau 3 avec mots de 6 à 8 lettres pour les élèves avancés. Chaque élève choisit son niveau ou suit votre recommandation. Cette différenciation naturelle permet à tous de réussir. Les centres autonomes libèrent du temps pour les interventions en petit groupe.`,
+      },
+      {
+        id: '18',
+        question: 'Puis-je Combiner les Mots Croisés avec d\'Autres Générateurs de la Plateforme?',
+        answer: `Absolument. Notre plateforme offre 33 générateurs différents tous accessibles avec l'abonnement Accès Complet. Les combinaisons les plus populaires incluent mots croisés plus exercices maths pour des packs mathématiques complets. Mots croisés plus coloriage à imprimer pour des activités calmes variées. Mots croisés plus fiches alphabet pour développer l'écriture et la lecture simultanément.
+
+Créez des packs thématiques hebdomadaires combinant 5 types d'activités différentes. Lundi mots croisés de vocabulaire. Mardi exercices maths comptant les images du thème. Mercredi graphisme maternelle avec formes du thème. Jeudi coloriage à imprimer de scènes thématiques. Vendredi révision avec un nouveau mot croisé. Cette rotation maintient l'engagement tout en renforçant le même vocabulaire sous différents angles. Les élèves retiennent mieux avec cette approche multisensorielle.`,
       },
     ],
   },

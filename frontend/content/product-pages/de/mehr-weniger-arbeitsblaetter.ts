@@ -35,34 +35,22 @@ export const moreLessDeContent: ProductPageContent = {
     canonicalUrl: 'https://www.lessoncraftstudio.com/de/apps/mehr-weniger-arbeitsblaetter',
     images: [
       {
-        url: 'https://www.lessoncraftstudio.com/samples/english/more-less/sample-1.jpeg',
+        url: 'https://www.lessoncraftstudio.com/samples/german/more-less/sample-1.jpeg',
         width: 2480,
         height: 3508,
         caption: 'Vergleichs-Arbeitsblätter Grundschule - kostenlose Mathe Druckvorlagen Größer Kleiner Gleich',
       },
       {
-        url: 'https://www.lessoncraftstudio.com/samples/english/more-less/sample-2.jpeg',
+        url: 'https://www.lessoncraftstudio.com/samples/german/more-less/sample-2.jpeg',
         width: 2480,
         height: 3508,
         caption: 'Mathe Arbeitsblätter Generator - Bild-zu-Zahl Vergleichsübungen für Rechnen lernen',
       },
       {
-        url: 'https://www.lessoncraftstudio.com/samples/english/more-less/sample-3.jpeg',
+        url: 'https://www.lessoncraftstudio.com/samples/german/more-less/sample-3.jpeg',
         width: 2480,
         height: 3508,
         caption: 'Arbeitsblätter Grundschule - illustrierte Vergleichssymbole für Vorschule',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/more-less/sample-4.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Kostenlose Arbeitsblätter - Größer Kleiner Gleich Übungen zum Ausdrucken',
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/more-less/sample-5.jpeg',
-        width: 2480,
-        height: 3508,
-        caption: 'Vorschule Arbeitsblätter - Mengenvergleich mit kindgerechten Bildern',
       },
     ],
   },
@@ -80,7 +68,7 @@ Der Arbeitsblatt-Generator bietet flexible Vergleichsmodi. Erstellen Sie Bild-zu
 Der Generator enthält über 3000 kindgerechte Bilder. Organisiert nach Themen wie Tiere, Essen, Spielzeug und Jahreszeiten. Wählen Sie einzelne Bilder oder komplette Themenpakete. Die Bilder werden automatisch für abwechslungsreiche Vergleichsaufgaben ausgewählt. Laden Sie eigene Bilder hoch für maximale Personalisierung. Kombinieren Sie Bibliotheksbilder mit eigenen Fotos auf demselben Arbeitsblatt.
 
 Die Benutzeroberfläche ist komplett auf Deutsch verfügbar. Alle Schaltflächen, Beschriftungen und Anleitungen erscheinen in deutscher Sprache. Erstellen Sie Mathe Arbeitsblätter mit deutschen Anweisungen und Überschriften. Insgesamt unterstützt der Generator elf Sprachen für mehrsprachigen Unterricht. Ihr Vollzugriff Abo beinhaltet alle Sprachen ohne zusätzliche Gebühren. Laden Sie Arbeitsblätter im professionellen 300-DPI-Format herunter. Perfekt zum Ausdrucken oder für den digitalen Einsatz.`,
-    previewImageSrc: '/samples/english/more-less/sample-1.jpeg',
+    previewImageSrc: '/samples/german/more-less/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Kostenlos Testen',
       viewSamples: 'Beispiele Ansehen',
@@ -99,7 +87,7 @@ Die Benutzeroberfläche ist komplett auf Deutsch verfügbar. Alle Schaltflächen
     },
   },
 
-  // Sample Gallery - REAL file paths from samples/english/more less/
+  // Sample Gallery - REAL file paths from samples/german/more-less/
   samples: {
     sectionTitle: 'Vergleichs-Arbeitsblätter Beispiele',
     sectionDescription: 'Laden Sie kostenlose Beispiel-Arbeitsblätter herunter, um unsere professionelle Qualität zu sehen',
@@ -115,38 +103,24 @@ Die Benutzeroberfläche ist komplett auf Deutsch verfügbar. Alle Schaltflächen
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/more-less/sample-1.jpeg',
-        answerKeySrc: '/samples/english/more-less/sample-1-answer.jpeg',
+        worksheetSrc: '/samples/german/more-less/sample-1.jpeg',
+        answerKeySrc: '/samples/german/more-less/sample-1_answer-key.jpeg',
         altText: 'Vergleichs-Arbeitsblätter kostenlose Arbeitsblätter - Bild-zu-Bild Mathe Arbeitsblätter für Grundschule',
-        pdfDownloadUrl: '/samples/english/more-less/sample-1.pdf',
+        pdfDownloadUrl: '/samples/german/more-less/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/more-less/sample-2.jpeg',
-        answerKeySrc: '/samples/english/more-less/sample-2-answer.jpeg',
+        worksheetSrc: '/samples/german/more-less/sample-2.jpeg',
+        answerKeySrc: '/samples/german/more-less/sample-2_answer-key.jpeg',
         altText: 'Arbeitsblätter Grundschule mit Bild-zu-Zahl-Vergleich für Rechnen lernen und Vorschule Arbeitsblätter',
-        pdfDownloadUrl: '/samples/english/more-less/sample-2.pdf',
+        pdfDownloadUrl: '/samples/german/more-less/sample-2.pdf',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/more-less/sample-3.jpeg',
-        answerKeySrc: '/samples/english/more-less/sample-3-answer.jpeg',
+        worksheetSrc: '/samples/german/more-less/sample-3.jpeg',
+        answerKeySrc: '/samples/german/more-less/sample-3_answer-key.jpeg',
         altText: 'Kostenlose Arbeitsblätter mit illustrierten Symbolen für Mathe Arbeitsblätter Grundschule',
-        pdfDownloadUrl: '/samples/english/more-less/sample-3.pdf',
-      },
-      {
-        id: '4',
-        worksheetSrc: '/samples/english/more-less/sample-4.jpeg',
-        answerKeySrc: '/samples/english/more-less/sample-4-answer.jpeg',
-        altText: 'Mathe Arbeitsblätter Größer Kleiner Gleich - kostenlose Vorschule Arbeitsblätter zum Ausdrucken',
-        pdfDownloadUrl: '/samples/english/more-less/sample-4.pdf',
-      },
-      {
-        id: '5',
-        worksheetSrc: '/samples/english/more-less/sample-5.jpeg',
-        answerKeySrc: '/samples/english/more-less/sample-5-answer.jpeg',
-        altText: 'Vergleichs-Arbeitsblätter Generator - Rechnen lernen für Arbeitsblätter Grundschule',
-        pdfDownloadUrl: '/samples/english/more-less/sample-5.pdf',
+        pdfDownloadUrl: '/samples/german/more-less/sample-3.pdf',
       },
     ],
   },

@@ -35,28 +35,22 @@ export const patternTrainDeContent: ProductPageContent = {
     canonicalUrl: 'https://www.lessoncraftstudio.com/de/apps/muster-zug-arbeitsblaetter',
     images: [
       {
-        url: 'https://www.lessoncraftstudio.com/samples/english/pattern%20train/pattern_train%20portrait.jpeg',
+        url: 'https://www.lessoncraftstudio.com/samples/german/pattern-train/sample-1.jpeg',
         width: 2480,
         height: 3508,
         caption: 'Muster-Zug Arbeitsblatt Hochformat - Kostenlose Arbeitsblätter für Arbeitsblätter Grundschule und Vorschule'
       },
       {
-        url: 'https://www.lessoncraftstudio.com/samples/english/pattern%20train/pattern_train%20landscape.jpeg',
-        width: 3508,
-        height: 2480,
+        url: 'https://www.lessoncraftstudio.com/samples/german/pattern-train/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
         caption: 'Muster-Zug Arbeitsblatt Querformat - Kostenlose Arbeitsblätter für Mathe Arbeitsblätter'
       },
       {
-        url: 'https://www.lessoncraftstudio.com/samples/english/pattern%20train/pattern_train%20portrait%20answer_key.jpeg',
+        url: 'https://www.lessoncraftstudio.com/samples/german/pattern-train/sample-3.jpeg',
         width: 2480,
         height: 3508,
         caption: 'Muster-Zug Lösungsblatt Hochformat - Arbeitsblätter Grundschule mit Antworten'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/pattern%20train/pattern_train%20landscape%20answer_key.jpeg',
-        width: 3508,
-        height: 2480,
-        caption: 'Muster-Zug Lösungsblatt Querformat - Kostenlose Arbeitsblätter mit Lösungen'
       },
     ],
   },
@@ -70,7 +64,7 @@ export const patternTrainDeContent: ProductPageContent = {
 Der Muster-Zug Generator ist perfekt für Vorschule Arbeitsblätter und Arbeitsblätter Grundschule. Kinder ordnen Bilder nach Mustern in die Waggons ein. Ausschneiden und Aufkleben trainiert die Feinmotorik. Fünf verschiedene Mustertypen bieten passende Schwierigkeitsstufen.
 
 Dieses Lernwerkzeug verbindet Mustererkennung mit praktischem Basteln. Die fertigen Arbeitsblätter eignen sich für den Unterricht und für zu Hause. Mit über 3000 kindgerechten Bildern erstellen Sie abwechslungsreiche Übungen. Export in 300 DPI Qualität ermöglicht professionellen Druck.`,
-    previewImageSrc: '/samples/english/pattern train/pattern_train portrait.jpeg',
+    previewImageSrc: '/samples/german/pattern-train/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Kostenlos Testen',
       viewSamples: 'Beispiele Ansehen',
@@ -89,7 +83,7 @@ Dieses Lernwerkzeug verbindet Mustererkennung mit praktischem Basteln. Die ferti
     },
   },
 
-  // Sample Gallery - REAL file paths from samples/english/pattern train/
+  // Sample Gallery - REAL file paths from samples/german/pattern-train/
   samples: {
     sectionTitle: 'Muster-Zug Arbeitsblätter Beispiele',
     sectionDescription: 'Laden Sie kostenlose Beispiel-Arbeitsblätter herunter, um unsere professionelle Qualität zu sehen',
@@ -105,17 +99,24 @@ Dieses Lernwerkzeug verbindet Mustererkennung mit praktischem Basteln. Die ferti
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/pattern train/pattern_train portrait.jpeg',
-        answerKeySrc: '/samples/english/pattern train/pattern_train portrait answer_key.jpeg',
+        worksheetSrc: '/samples/german/pattern-train/sample-1.jpeg',
+        answerKeySrc: '/samples/german/pattern-train/sample-1_answer-key.jpeg',
         altText: 'Muster-Zug Arbeitsblatt Hochformat für Arbeitsblätter Grundschule und Vorschule Arbeitsblätter',
-        pdfDownloadUrl: '/samples/english/pattern train/pattern_train portrait.pdf',
+        pdfDownloadUrl: '/samples/german/pattern-train/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/pattern train/pattern_train landscape.jpeg',
-        answerKeySrc: '/samples/english/pattern train/pattern_train landscape answer_key.jpeg',
+        worksheetSrc: '/samples/german/pattern-train/sample-2.jpeg',
+        answerKeySrc: '/samples/german/pattern-train/sample-2_answer-key.jpeg',
         altText: 'Muster-Zug Arbeitsblatt Querformat für Mathe Arbeitsblätter und kostenlose Arbeitsblätter',
-        pdfDownloadUrl: '/samples/english/pattern train/pattern_train landscape.pdf',
+        pdfDownloadUrl: '/samples/german/pattern-train/sample-2.pdf',
+      },
+      {
+        id: '3',
+        worksheetSrc: '/samples/german/pattern-train/sample-3.jpeg',
+        answerKeySrc: '/samples/german/pattern-train/sample-3_answer-key.jpeg',
+        altText: 'Muster-Zug Arbeitsblatt für Schwungübungen und Buchstaben lernen',
+        pdfDownloadUrl: '/samples/german/pattern-train/sample-3.pdf',
       },
     ],
   },

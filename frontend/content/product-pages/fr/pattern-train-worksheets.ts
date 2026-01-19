@@ -19,6 +19,38 @@ export const patternTrainFrContent: ProductPageContent = {
     description: 'Créez des fiches maternelle professionnelles de reconnaissance de suites logiques avec notre générateur de train à motifs. Générez des exercices CP personnalisés parfaits pour la maternelle et le CP. Téléchargez des fiches de haute qualité en PDF en moins de 3 minutes.',
     keywords: 'fiches maternelle, suites logiques, fiches à imprimer gratuit, exercices CP, train à motifs, reconnaissance de motifs, maternelle, CP, générateur fiches, suites AB ABC',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fr/apps/train-suites-logiques-fiches',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/pattern-train/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fiche suites logiques train gratuite - exercice CP de reconnaissance de motifs pour maternelle',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/pattern-train/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fiches maternelle suites logiques train - fiches à imprimer gratuit pour enfants',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/pattern-train/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Exercices CP suites logiques train - fiche gratuite pour maternelle et CP',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/pattern-train/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fiche gratuite suites logiques train - exercice maternelle reconnaissance de motifs',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/pattern-train/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fiches pour enfants suites logiques train - fiche maternelle à imprimer gratuit',
+      },
+    ],
   },
 
   // Hero Section - FULL text from pattern-train.md paragraphs 1-4
@@ -32,7 +64,7 @@ Notre générateur permet aux enseignants de créer des fiches maternelle de sui
 Le générateur s'adapte à tous les niveaux de maternelle. Créez des fiches maternelle simples avec des suites AB pour les petits. Développez des exercices CP plus complexes avec des suites ABC pour les grands. Chaque fiche inclut des images colorées, des instructions claires et une correction automatique.
 
 Les enseignants gagnent du temps précieux. Créer des fiches maternelle de suites logiques manuellement prend 30-60 minutes. Notre générateur produit des fiches à imprimer gratuit professionnelles en 3 minutes. Ajustez la difficulté, choisissez les thèmes visuels et téléchargez instantanément. Vos exercices CP sont prêts pour la classe.`,
-    previewImageSrc: '/samples/english/pattern train/pattern_train portrait.jpeg',
+    previewImageSrc: '/samples/french/pattern-train/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Essayer Gratuitement',
       viewSamples: 'Voir les Exemples',
@@ -67,17 +99,38 @@ Les enseignants gagnent du temps précieux. Créer des fiches maternelle de suit
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/pattern train/pattern_train portrait.jpeg',
-        answerKeySrc: '/samples/english/pattern train/pattern_train portrait answer_key.jpeg',
-        altText: 'Fiche suites logiques train en format portrait avec images colorées pour la maternelle et le CP',
-        pdfDownloadUrl: '/samples/english/pattern train/pattern_train portrait.pdf',
+        worksheetSrc: '/samples/french/pattern-train/sample-1.jpeg',
+        answerKeySrc: '/samples/french/pattern-train/sample-1-answer.jpeg',
+        altText: 'Fiche suites logiques gratuite train - exercice CP reconnaissance de motifs pour maternelle',
+        pdfDownloadUrl: '/samples/french/pattern-train/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/pattern train/pattern_train landscape.jpeg',
-        answerKeySrc: '/samples/english/pattern train/pattern_train landscape answer_key.jpeg',
-        altText: 'Fiche suites logiques train en format paysage pour les exercices de reconnaissance de motifs',
-        pdfDownloadUrl: '/samples/english/pattern train/pattern_train landscape.pdf',
+        worksheetSrc: '/samples/french/pattern-train/sample-2.jpeg',
+        answerKeySrc: '/samples/french/pattern-train/sample-2-answer.jpeg',
+        altText: 'Fiches maternelle suites logiques train - fiches à imprimer gratuit pour enfants',
+        pdfDownloadUrl: '/samples/french/pattern-train/sample-2.pdf',
+      },
+      {
+        id: '3',
+        worksheetSrc: '/samples/french/pattern-train/sample-3.jpeg',
+        answerKeySrc: '/samples/french/pattern-train/sample-3-answer.jpeg',
+        altText: 'Exercices CP suites logiques train - fiche gratuite pour maternelle et CP',
+        pdfDownloadUrl: '/samples/french/pattern-train/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/french/pattern-train/sample-4.jpeg',
+        answerKeySrc: '/samples/french/pattern-train/sample-4-answer.jpeg',
+        altText: 'Fiche gratuite suites logiques train - exercice maternelle reconnaissance de motifs',
+        pdfDownloadUrl: '/samples/french/pattern-train/sample-4.pdf',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/french/pattern-train/sample-5.jpeg',
+        answerKeySrc: '/samples/french/pattern-train/sample-5-answer.jpeg',
+        altText: 'Fiches pour enfants suites logiques train - fiche maternelle à imprimer gratuit',
+        pdfDownloadUrl: '/samples/french/pattern-train/sample-5.pdf',
       },
     ],
   },

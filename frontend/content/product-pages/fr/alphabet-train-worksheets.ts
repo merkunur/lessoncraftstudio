@@ -15,10 +15,42 @@ export const alphabetTrainFrContent: ProductPageContent = {
   seo: {
     slug: 'train-alphabet-fiches',
     appId: 'alphabet-train',
-    title: 'Fiches Alphabet à Imprimer Gratuit | Générateur de Fiches Maternelle pour Apprendre les Lettres',
-    description: 'Créez des fiches alphabet professionnelles avec notre générateur de train alphabet multilingue. Parfait pour les enseignants de maternelle, CP et CE1. Téléchargez des fiches à imprimer gratuit en PDF haute qualité en moins de trois minutes.',
+    title: 'Fiches Alphabet à Imprimer Gratuit | Générateur Train Alphabet Maternelle',
+    description: 'Créez des fiches alphabet professionnelles avec notre générateur de train alphabet. Téléchargez vos fiches maternelle en PDF haute qualité en moins de 3 minutes.',
     keywords: 'fiches alphabet, fiches maternelle, apprendre les lettres, fiches à imprimer gratuit, exercices CP, exercices CE1, train alphabet, générateur fiches, graphisme maternelle, coloriage à imprimer',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fr/apps/train-alphabet-fiches',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/alphabet-train/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fiche alphabet train gratuite pour maternelle - exercice de correspondance lettre-image pour apprendre les lettres',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/alphabet-train/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fiches alphabet gratuites à imprimer - train des lettres avec images thématiques pour la maternelle et le CP',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/alphabet-train/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fiche gratuite pour enfants - train alphabet avec exercice de découpage et collage pour apprendre les lettres',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/alphabet-train/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fiches maternelle train alphabet - reconnaissance des lettres avec images pour exercices CP gratuits',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/alphabet-train/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Imprimables gratuits train des lettres - fiche alphabet multilingue pour graphisme maternelle et apprendre à lire',
+      },
+    ],
   },
 
   // Hero Section - FULL text from alphabet-train.md paragraphs 1-5
@@ -32,7 +64,7 @@ Notre générateur de train alphabet prend en charge onze alphabets complets ave
 La bibliothèque d'images s'adapte automatiquement à la langue sélectionnée. Choisissez l'allemand et voyez les images étiquetées en allemand. Choisissez l'espagnol et voyez les images étiquetées en espagnol. Plus de 3000 images traduites dans les onze langues. Cela rend nos fiches alphabet parfaites pour l'apprentissage des langues en maternelle et en CP.
 
 Chaque fiche alphabet présente un modèle de train coloré avec onze wagons. Les élèves associent les lettres aux images sur le train. Le design du train rend l'apprentissage de l'alphabet amusant et engageant. Parfait pour les fiches maternelle, les exercices CP et les exercices CE1.`,
-    previewImageSrc: '/samples/english/alphabet train/alphabet train portrait.jpeg',
+    previewImageSrc: '/samples/french/alphabet-train/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Essayer Gratuitement',
       viewSamples: 'Voir les Exemples',
@@ -67,17 +99,38 @@ Chaque fiche alphabet présente un modèle de train coloré avec onze wagons. Le
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/alphabet train/alphabet train portrait.jpeg',
-        answerKeySrc: '/samples/english/alphabet train/alphabet train portrait answer_key.jpeg',
-        altText: 'Fiche alphabet train en format portrait avec lettres colorées pour la maternelle et le CP',
-        pdfDownloadUrl: '/samples/english/alphabet train/alphabet train portrait.pdf',
+        worksheetSrc: '/samples/french/alphabet-train/sample-1.jpeg',
+        answerKeySrc: '/samples/french/alphabet-train/sample-1-answer.jpeg',
+        altText: 'Fiche alphabet train gratuite pour maternelle - exercice de correspondance lettre-image pour apprendre les lettres',
+        pdfDownloadUrl: '/samples/french/alphabet-train/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/alphabet train/alphabet train landscape.jpeg',
-        answerKeySrc: '/samples/english/alphabet train/alphabet train landscape answer_key.jpeg',
-        altText: 'Fiche alphabet train en format paysage pour les exercices de reconnaissance des lettres',
-        pdfDownloadUrl: '/samples/english/alphabet train/alphabet train landscape.pdf',
+        worksheetSrc: '/samples/french/alphabet-train/sample-2.jpeg',
+        answerKeySrc: '/samples/french/alphabet-train/sample-2-answer.jpeg',
+        altText: 'Fiches alphabet gratuites à imprimer - train des lettres avec images thématiques pour la maternelle et le CP',
+        pdfDownloadUrl: '/samples/french/alphabet-train/sample-2.pdf',
+      },
+      {
+        id: '3',
+        worksheetSrc: '/samples/french/alphabet-train/sample-3.jpeg',
+        answerKeySrc: '/samples/french/alphabet-train/sample-3-answer.jpeg',
+        altText: 'Fiche gratuite pour enfants - train alphabet avec exercice de découpage et collage pour apprendre les lettres',
+        pdfDownloadUrl: '/samples/french/alphabet-train/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/french/alphabet-train/sample-4.jpeg',
+        answerKeySrc: '/samples/french/alphabet-train/sample-4-answer.jpeg',
+        altText: 'Fiches maternelle train alphabet - reconnaissance des lettres avec images pour exercices CP gratuits',
+        pdfDownloadUrl: '/samples/french/alphabet-train/sample-4.pdf',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/french/alphabet-train/sample-5.jpeg',
+        answerKeySrc: '/samples/french/alphabet-train/sample-5-answer.jpeg',
+        altText: 'Imprimables gratuits train des lettres - fiche alphabet multilingue pour graphisme maternelle et apprendre à lire',
+        pdfDownloadUrl: '/samples/french/alphabet-train/sample-5.pdf',
       },
     ],
   },

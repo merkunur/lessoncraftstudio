@@ -29,10 +29,42 @@ export const oddOneOutDeContent: ProductPageContent = {
   seo: {
     slug: 'was-passt-nicht-arbeitsblaetter',
     appId: 'odd-one-out',
-    title: 'Was passt nicht Arbeitsblätter Generator - Kostenlose Arbeitsblätter für Vorschule und Grundschule',
-    description: 'Erstellen Sie professionelle "Was passt nicht"-Arbeitsblätter mit unserem Generator für Arbeitsblätter Grundschule. Perfekt für Vorschule Arbeitsblätter und Mathe Arbeitsblätter. Laden Sie druckfertige PDF-Arbeitsblätter in weniger als 3 Minuten herunter.',
+    title: 'Was passt nicht Arbeitsblätter | Kostenloser Generator',
+    description: 'Erstellen Sie Was passt nicht Arbeitsblätter in unter 3 Minuten. Kostenlose Logik-Übungen für Grundschule und Vorschule. Jetzt Generator testen!',
     keywords: 'was passt nicht arbeitsblätter, arbeitsblätter grundschule, kostenlose arbeitsblätter, mathe arbeitsblätter, vorschule arbeitsblätter, einmaleins, schwungübungen, buchstaben lernen, rechnen lernen, ausmalbilder',
     canonicalUrl: 'https://www.lessoncraftstudio.com/de/apps/was-passt-nicht-arbeitsblaetter',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/german/odd-one-out/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Was passt nicht Arbeitsblätter Grundschule - kostenlose Logik-Übungen zum Ausdrucken',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/german/odd-one-out/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Vorschule Arbeitsblätter Was passt nicht - visuelle Wahrnehmungsübungen für Kinder',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/german/odd-one-out/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Mathe Arbeitsblätter mit Kategorisierung - kostenlose Arbeitsblätter Generator',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/german/odd-one-out/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Kostenlose Arbeitsblätter Logik - Was passt nicht Übungen für Grundschule',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/german/odd-one-out/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Arbeitsblätter Grundschule Konzentration - Was passt nicht für Vorschule',
+      },
+    ],
   },
 
   // Hero Section - FULL text from was-passt-nicht.md
@@ -46,7 +78,7 @@ Der Was passt nicht Generator ist ein vielseitiges Werkzeug für Pädagogen. Kin
 Unser Generator bietet zwei verschiedene Modi für maximale Flexibilität. Im Identisch-Modus sehen Kinder drei identische Bilder plus ein abweichendes. Im Ähnlich-Modus stammen drei Bilder aus einer Kategorie, das vierte aus einer anderen. Wählen Sie zwischen 5 und 10 Übungen pro Arbeitsblatt. Das System verhindert automatisch Bildwiederholungen.
 
 Die umfangreiche Bildbibliothek enthält über 3000 kindgerechte Bilder. Alle Bilder sind speziell für den Bildungsbereich erstellt. Sie können auch eigene Bilder hochladen und mit der Bibliothek kombinieren. Das macht jedes Arbeitsblatt einzigartig und passend zu Ihrem Unterrichtsthema.`,
-    previewImageSrc: '/samples/english/odd one out/similar.jpeg',
+    previewImageSrc: '/samples/german/odd-one-out/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Kostenlos Testen',
       viewSamples: 'Beispiele Ansehen',
@@ -81,17 +113,38 @@ Die umfangreiche Bildbibliothek enthält über 3000 kindgerechte Bilder. Alle Bi
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/odd one out/similar.jpeg',
-        answerKeySrc: '/samples/english/odd one out/similar answer-key.jpeg',
-        altText: 'Was passt nicht Arbeitsblatt im Ähnlich-Modus für Arbeitsblätter Grundschule und Vorschule Arbeitsblätter',
-        pdfDownloadUrl: '/samples/english/odd one out/similar.pdf',
+        worksheetSrc: '/samples/german/odd-one-out/sample-1.jpeg',
+        answerKeySrc: '/samples/german/odd-one-out/sample-1-answer.jpeg',
+        altText: 'Was passt nicht Arbeitsblätter Grundschule - kostenlose Arbeitsblätter Logik-Übungen für Vorschule',
+        pdfDownloadUrl: '/samples/german/odd-one-out/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/odd one out/identical.jpeg',
-        answerKeySrc: '/samples/english/odd one out/identical answer-key.jpeg',
-        altText: 'Was passt nicht Arbeitsblatt im Identisch-Modus für Mathe Arbeitsblätter und kostenlose Arbeitsblätter',
-        pdfDownloadUrl: '/samples/english/odd one out/identical.pdf',
+        worksheetSrc: '/samples/german/odd-one-out/sample-2.jpeg',
+        answerKeySrc: '/samples/german/odd-one-out/sample-2-answer.jpeg',
+        altText: 'Vorschule Arbeitsblätter visuelle Wahrnehmung - Mathe Arbeitsblätter Kategorisierung für Kinder',
+        pdfDownloadUrl: '/samples/german/odd-one-out/sample-2.pdf',
+      },
+      {
+        id: '3',
+        worksheetSrc: '/samples/german/odd-one-out/sample-3.jpeg',
+        answerKeySrc: '/samples/german/odd-one-out/sample-3-answer.jpeg',
+        altText: 'Kostenlose Arbeitsblätter Was passt nicht - Arbeitsblätter Grundschule Konzentration zum Ausdrucken',
+        pdfDownloadUrl: '/samples/german/odd-one-out/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/german/odd-one-out/sample-4.jpeg',
+        answerKeySrc: '/samples/german/odd-one-out/sample-4-answer.jpeg',
+        altText: 'Mathe Arbeitsblätter Logik-Übungen - kostenlose Vorschule Arbeitsblätter Generator',
+        pdfDownloadUrl: '/samples/german/odd-one-out/sample-4.pdf',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/german/odd-one-out/sample-5.jpeg',
+        answerKeySrc: '/samples/german/odd-one-out/sample-5-answer.jpeg',
+        altText: 'Arbeitsblätter Grundschule Was passt nicht - Rechnen lernen visuelle Unterscheidung',
+        pdfDownloadUrl: '/samples/german/odd-one-out/sample-5.pdf',
       },
     ],
   },

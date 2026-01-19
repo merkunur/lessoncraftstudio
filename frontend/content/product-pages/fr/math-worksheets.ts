@@ -21,6 +21,38 @@ export const mathWorksheetsFrContent: ProductPageContent = {
     description: 'Créez des exercices maths avec notre générateur de fiches maternelle. Fiches à imprimer gratuit pour CP et CE1. Puzzles de décodage visuels. PDF 300 DPI. Licence commerciale incluse.',
     keywords: 'exercices maths, fiches maternelle, fiches à imprimer gratuit, exercices CP, exercices CE1, générateur fiches maths, puzzles mathématiques, calcul maternelle, graphisme maternelle, tables de multiplication, coloriage à imprimer, écriture cursive, apprendre à lire, alphabet maternelle',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fr/apps/exercices-maths-fiches',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/math/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Exercices maths fiches gratuites à imprimer - puzzles décodage pour maternelle'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/math/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fiches exercices maths CP CE1 gratuites - activités calcul pour enfants'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/math/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Exercices maths maternelle fiches gratuites - puzzles symboles éducatifs'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/math/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fiches calcul gratuites à imprimer - exercices maths pour enfants'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/math/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Exercices maths fiches maternelle gratuites - tables multiplication préparation'
+      }
+    ],
   },
 
   // Hero Section - FULL text from math-worksheet.md paragraphs 1-6
@@ -34,7 +66,7 @@ Notre créateur de fiches maths utilise un système unique de décodage par symb
 Le générateur crée des puzzles mathématiques avec 1 à 6 exercices par page. Choisissez parmi quatre niveaux de difficulté selon l'âge des élèves. Le mode très facile utilise seulement deux symboles pour les débutants. Le mode difficile présente quatre symboles pour les élèves avancés. Sélectionnez entre addition seule ou addition et soustraction combinées. Les exercices CP et exercices CE1 s'adaptent parfaitement aux programmes officiels français.
 
 Ces fiches mathématiques fonctionnent idéalement pour les centres de numération et la pratique en autonomie. Les enseignants économisent des heures de préparation chaque semaine. Aucune compétence en design requise pour créer du matériel professionnel. Sélectionnez simplement vos paramètres, choisissez vos images et générez des fiches instantanément. Votre abonnement Pack Essentiel inclut une licence commerciale pour vendre vos créations sur Teachers Pay Teachers ou Etsy.`,
-    previewImageSrc: '/samples/english/math worksheet/math worksheet portrait.jpeg',
+    previewImageSrc: '/samples/french/math/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Essai Gratuit',
       viewSamples: 'Voir les Exemples',
@@ -69,17 +101,38 @@ Ces fiches mathématiques fonctionnent idéalement pour les centres de numérati
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/math worksheet/math worksheet portrait.jpeg',
-        answerKeySrc: '/samples/english/math worksheet/math worksheet portrait answer_key.jpeg',
-        altText: 'Fiche exercices maths format portrait avec puzzles visuels pour maternelle',
-        pdfDownloadUrl: '/samples/english/math worksheet/math worksheet portrait.pdf',
+        worksheetSrc: '/samples/french/math/sample-1.jpeg',
+        answerKeySrc: '/samples/french/math/sample-1-answer.jpeg',
+        altText: 'Exercices maths fiche gratuite pour maternelle - puzzles décodage symboles',
+        pdfDownloadUrl: '/samples/french/math/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/math worksheet/math worksheet landscape.jpeg',
-        answerKeySrc: '/samples/english/math worksheet/math worksheet landscape answer_key.jpeg',
-        altText: 'Fiche exercices maths format paysage avec puzzles symboles',
-        pdfDownloadUrl: '/samples/english/math worksheet/math worksheet landscape.pdf',
+        worksheetSrc: '/samples/french/math/sample-2.jpeg',
+        answerKeySrc: '/samples/french/math/sample-2-answer.jpeg',
+        altText: 'Fiches exercices maths CP gratuites à imprimer - calcul pour enfants',
+        pdfDownloadUrl: '/samples/french/math/sample-2.pdf',
+      },
+      {
+        id: '3',
+        worksheetSrc: '/samples/french/math/sample-3.jpeg',
+        answerKeySrc: '/samples/french/math/sample-3-answer.jpeg',
+        altText: 'Exercices maths CE1 fiche gratuite - tables multiplication préparation',
+        pdfDownloadUrl: '/samples/french/math/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/french/math/sample-4.jpeg',
+        answerKeySrc: '/samples/french/math/sample-4-answer.jpeg',
+        altText: 'Fiches maternelle exercices maths gratuites - graphisme et calcul',
+        pdfDownloadUrl: '/samples/french/math/sample-4.pdf',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/french/math/sample-5.jpeg',
+        answerKeySrc: '/samples/french/math/sample-5-answer.jpeg',
+        altText: 'Exercices maths fiches à imprimer gratuit - puzzles éducatifs enfants',
+        pdfDownloadUrl: '/samples/french/math/sample-5.pdf',
       },
     ],
   },
@@ -332,6 +385,36 @@ Ces fiches mathématiques fonctionnent idéalement pour les centres de numérati
         id: '12',
         question: 'Puis-je créer des exercices maths sur des sujets scolaires spécifiques ?',
         answer: 'Oui, créez des fiches maths intégrées aux matières en utilisant des images thématiques. Générez des fiches avec des animaux marins pendant les unités de biologie marine. Utilisez des images de fruits pour des fiches maternelle sur le thème de la nutrition. Sélectionnez des images de véhicules pour les unités sur les transports. La bibliothèque de plus de 3000 images couvre des centaines de thèmes de matières. Téléversez des images spécifiques aux matières pour créer des exercices personnalisés sur n\'importe quel sujet. Vous enseignez le système solaire ? Téléversez des images de planètes pour des fiches CP sur le thème de l\'espace. Vous étudiez les métiers ? Téléversez des images de pompiers et de policiers. Créez des fiches connectant les maths aux sciences, aux études sociales ou aux sujets littéraires. L\'intégration interdisciplinaire rend les fiches maternelle plus significatives pour les élèves. La pratique des maths renforce le contenu des autres matières grâce à des fiches maths soigneusement choisies avec des thèmes. Les élèves apprennent les maths tout en révisant le vocabulaire scientifique grâce à des exercices bien choisis.',
+      },
+      {
+        id: '13',
+        question: 'Comment les exercices maths développent-ils le calcul mental pour les fiches maternelle ?',
+        answer: 'Les exercices maths de décodage développent le calcul mental de manière progressive et engageante. Chaque puzzle présente des équations visuelles que les élèves résolvent mentalement. Les symboles représentant des nombres obligent les enfants à maintenir plusieurs valeurs en mémoire. Cette gymnastique cognitive renforce les capacités de calcul mental essentielles. Les fiches maternelle utilisent des nombres simples de 0 à 10 pour commencer. Les élèves additionnent et soustraient mentalement pour trouver les valeurs secrètes. Au fur et à mesure de leur progression, les puzzles deviennent plus complexes. Les exercices maths avec trois ou quatre symboles challengent la mémoire de travail. Cette approche prépare naturellement aux tables de multiplication en CE1 et CE2. Le calcul mental développé à travers nos fiches gratuites devient une compétence automatique.',
+      },
+      {
+        id: '14',
+        question: 'Quels formats de fiches à imprimer gratuit sont disponibles pour les exercices CP ?',
+        answer: 'Les exercices CP sont disponibles en plusieurs formats adaptés aux besoins de votre classe. Choisissez le format Portrait A4 pour les cahiers standard français. Sélectionnez Portrait Lettre pour la compatibilité avec les imprimantes américaines. Le format Paysage offre plus d\'espace horizontal pour les puzzles complexes. Le format Carré convient parfaitement aux affichages numériques et tableaux interactifs. Exportez vos fiches à imprimer gratuit en PDF haute résolution 300 DPI pour une qualité d\'impression professionnelle. Le format JPEG fonctionne pour tous les appareils et systèmes. Activez le mode niveaux de gris pour économiser l\'encre tout en conservant la lisibilité. Chaque format s\'adapte automatiquement à la taille de page sélectionnée. Les exercices CP maintiennent leur qualité et leur mise en page optimale quel que soit le format choisi.',
+      },
+      {
+        id: '15',
+        question: 'Les exercices CE1 sont-ils adaptés aux tables de multiplication débutantes ?',
+        answer: 'Oui, les exercices CE1 préparent efficacement aux tables de multiplication. Les puzzles de décodage développent la compréhension des relations numériques essentielles pour la multiplication. Les élèves voient les connexions entre addition répétée et multiplication. Un symbole valant 3 apparaissant deux fois équivaut à 3+3=6 ou 3×2=6. Cette visualisation construit les fondations conceptuelles des tables de multiplication. Augmentez progressivement la difficulté pour préparer les élèves aux tables de multiplication de 2, 5 et 10. Utilisez des valeurs de symboles correspondant aux produits de tables fréquents. Les exercices CE1 avec des résultats comme 12, 15, 20 renforcent les faits multiplicatifs. Combinez les puzzles de décodage avec des fiches de tables de multiplication traditionnelles. Cette approche multi-modale accélère la mémorisation des tables de multiplication en CE2.',
+      },
+      {
+        id: '16',
+        question: 'Puis-je créer des fiches maternelle avec du graphisme maternelle intégré ?',
+        answer: 'Absolument, créez des fiches maternelle combinant exercices maths et graphisme maternelle. Ajoutez des éléments décoratifs et des bordures aux puzzles de décodage. Intégrez des espaces de traçage pour que les élèves écrivent leurs réponses. Utilisez des polices adaptées au graphisme maternelle pour les instructions. Combinez les exercices maths avec des activités de motricité fine sur la même fiche. Les élèves résolvent le puzzle puis tracent les nombres correspondants. Cette approche intégrée développe simultanément le raisonnement logique et la coordination œil-main. Téléversez vos propres images de graphisme maternelle pour personnaliser les fiches. Créez des packs d\'activités complets incluant puzzles mathématiques, traçage de nombres et coloriage à imprimer. Votre abonnement donne accès à tous les générateurs pour créer du matériel coordonné.',
+      },
+      {
+        id: '17',
+        question: 'Comment personnaliser les exercices maths pour les élèves qui apprennent à lire ?',
+        answer: 'Personnalisez les exercices maths pour soutenir les élèves qui apprennent à lire de plusieurs façons. Utilisez des images familières que les enfants reconnaissent sans lire. Les visuels permettent aux pré-lecteurs de réussir les puzzles mathématiques. Ajoutez des instructions visuelles avec des icônes au lieu de texte long. Sélectionnez des polices claires et lisibles comme les polices adaptées aux enfants. Augmentez la taille du texte pour les instructions essentielles. Les élèves qui apprennent à lire bénéficient des connexions visuelles entre images et nombres. Créez des fiches avec un minimum de texte pour réduire la charge cognitive. Utilisez des symboles universels comme les flèches et les coches pour guider les élèves. Cette approche permet aux enfants de se concentrer sur les maths sans être bloqués par la lecture.',
+      },
+      {
+        id: '18',
+        question: 'Les fiches incluent-elles des activités de coloriage à imprimer pour récompenser les élèves ?',
+        answer: 'Les exercices maths peuvent être combinés avec du coloriage à imprimer pour des packs d\'activités motivants. Générez des puzzles de décodage utilisant des images en noir et blanc que les élèves colorient après résolution. Créez des fiches bonus de coloriage correspondant au thème mathématique. Les élèves résolvent les puzzles maths puis colorient les images comme récompense. Cette combinaison maintient l\'engagement et développe la motricité fine. Utilisez le générateur de coloriage inclus dans votre abonnement Pack Essentiel. Créez des images à colorier utilisant les mêmes thèmes que vos exercices maths. Les animaux du puzzle mathématique deviennent des pages de coloriage détaillées. Cette approche thématique cohérente renforce l\'apprentissage à travers plusieurs modalités. Les fiches à imprimer gratuit combinant maths et coloriage sont particulièrement populaires en maternelle et CP.',
       },
     ],
   },

@@ -19,6 +19,38 @@ export const bingoEsContent: ProductPageContent = {
     description: 'Crea fichas de bingo profesionales con nuestro generador de bingo con imágenes. Genera fichas para imprimir perfectas para educación infantil, preescolar y primaria. Descarga fichas gratis de alta calidad en formato PDF en menos de 3 minutos.',
     keywords: 'fichas de bingo, bingo con imágenes, fichas para imprimir, fichas infantil, fichas preescolar, material educativo gratis, fichas gratis, abecedario, números, grafomotricidad, lectoescritura, dibujos para colorear',
     canonicalUrl: 'https://www.lessoncraftstudio.com/es/apps/bingo-fichas',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/spanish/bingo/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fichas de bingo para imprimir gratis - bingo con imágenes para educación infantil',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/spanish/bingo/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Bingo de imágenes fichas gratis - material educativo con abecedario y números',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/spanish/bingo/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fichas de bingo infantil - lectoescritura y grafomotricidad para preescolar',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/spanish/bingo/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Bingo educativo fichas para imprimir - colorear y ejercicios matemáticas',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/spanish/bingo/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fichas de bingo para preescolar - tablas de multiplicar y números',
+      },
+    ],
   },
 
   // Hero Section - FULL text from bingo.md paragraphs 1-3
@@ -30,7 +62,7 @@ export const bingoEsContent: ProductPageContent = {
 El bingo con imágenes es una herramienta educativa poderosa para maestros de preescolar. Cada ficha de bingo que creas ayuda a los niños a desarrollar vocabulario y reconocimiento visual. Nuestro generador de fichas infantil combina diversión y aprendizaje. Las fichas de bingo funcionan para enseñar el abecedario, números, colores y temas educativos. Maestros de educación infantil usan fichas de bingo para practicar lectoescritura. Los niños aprenden las letras del abecedario mientras juegan. Cada ficha preescolar incluye imágenes coloridas y atractivas. El material educativo gratis que creas mantiene a los estudiantes comprometidos.
 
 Tu suscripción Paquete Esencial cuesta $144 al año o $15 al mes. Incluye 10 generadores de fichas populares con licencia comercial. Crea material educativo para imprimir sin límites. Todas las fichas infantil se exportan en calidad profesional de 300 DPI. Perfecto para maestros que necesitan fichas gratis para usar en el aula. Cada ficha de bingo que generas es completamente personalizable. Sube tus propias imágenes o elige de nuestra biblioteca de 3000+ imágenes. Las fichas para imprimir funcionan en impresoras caseras y comerciales. Descarga en formato PDF o JPEG según necesites.`,
-    previewImageSrc: '/samples/english/bingo/image and image.jpeg',
+    previewImageSrc: '/samples/spanish/bingo/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Probar Gratis',
       viewSamples: 'Ver Ejemplos',
@@ -49,7 +81,7 @@ Tu suscripción Paquete Esencial cuesta $144 al año o $15 al mes. Incluye 10 ge
     },
   },
 
-  // Sample Gallery - REAL file paths from samples/english/bingo/
+  // Sample Gallery - REAL file paths from samples/spanish/bingo/
   samples: {
     sectionTitle: 'Ejemplos de Fichas de Bingo',
     sectionDescription: 'Descarga ejemplos gratuitos para ver nuestra calidad profesional',
@@ -65,17 +97,38 @@ Tu suscripción Paquete Esencial cuesta $144 al año o $15 al mes. Incluye 10 ge
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/bingo/image and image.jpeg',
-        answerKeySrc: '/samples/english/bingo/image and image callout.jpeg',
-        altText: 'Ficha de bingo con imágenes en formato de cuadrícula para educación infantil',
-        pdfDownloadUrl: '/samples/english/bingo/image and image.pdf',
+        worksheetSrc: '/samples/spanish/bingo/sample-1.jpeg',
+        answerKeySrc: '/samples/spanish/bingo/sample-1-answer.jpeg',
+        altText: 'Fichas de bingo para imprimir gratis - bingo con imágenes para educación infantil y preescolar',
+        pdfDownloadUrl: '/samples/spanish/bingo/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/bingo/image and word.jpeg',
-        answerKeySrc: '/samples/english/bingo/image and word callout.jpeg',
-        altText: 'Ficha de bingo con imágenes y palabras para práctica de lectoescritura',
-        pdfDownloadUrl: '/samples/english/bingo/image and word.pdf',
+        worksheetSrc: '/samples/spanish/bingo/sample-2.jpeg',
+        answerKeySrc: '/samples/spanish/bingo/sample-2-answer.jpeg',
+        altText: 'Bingo de imágenes fichas gratis para niños - material educativo con abecedario y números',
+        pdfDownloadUrl: '/samples/spanish/bingo/sample-2.pdf',
+      },
+      {
+        id: '3',
+        worksheetSrc: '/samples/spanish/bingo/sample-3.jpeg',
+        answerKeySrc: '/samples/spanish/bingo/sample-3-answer.jpeg',
+        altText: 'Fichas de bingo infantil gratis - lectoescritura y grafomotricidad para preescolar',
+        pdfDownloadUrl: '/samples/spanish/bingo/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/spanish/bingo/sample-4.jpeg',
+        answerKeySrc: '/samples/spanish/bingo/sample-4-answer.jpeg',
+        altText: 'Bingo educativo fichas para imprimir - colorear y ejercicios matemáticas para primaria',
+        pdfDownloadUrl: '/samples/spanish/bingo/sample-4.pdf',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/spanish/bingo/sample-5.jpeg',
+        answerKeySrc: '/samples/spanish/bingo/sample-5-answer.jpeg',
+        altText: 'Fichas de bingo para preescolar gratis - tablas de multiplicar y números para niños',
+        pdfDownloadUrl: '/samples/spanish/bingo/sample-5.pdf',
       },
     ],
   },

@@ -281,6 +281,15 @@ export default async function BlogPostPage({
 
   const translations = post.translations as any;
   const translation = translations[locale] || translations['en'] || {};
+
+  // SEO FIX: Redirect to correct slug if accessed via wrong language's slug
+  // This prevents Google from showing scrambled navigation text instead of meta descriptions
+  // when a URL like /sv/blog/[Norwegian-slug] is accessed instead of /sv/blog/[Swedish-slug]
+  const localeSlug = translation.slug || post.slug;
+  if (slug !== localeSlug) {
+    redirect(`/${locale}/blog/${localeSlug}`);
+  }
+
   let htmlContent = translation.content || '';
 
   // Extract styles and body content from the complete HTML page

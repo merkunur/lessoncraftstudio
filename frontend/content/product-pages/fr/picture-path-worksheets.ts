@@ -21,6 +21,38 @@ export const picturePathFrContent: ProductPageContent = {
     description: 'Créez des parcours d\'images professionnels en quelques clics. Notre générateur transforme vos fiches maternelle en activités ludiques et éducatives. Parfait pour le graphisme maternelle et les exercices CP. Téléchargez en PDF haute résolution en 3 minutes.',
     keywords: 'fiches à imprimer gratuit, fiches maternelle, parcours images, labyrinthe, exercices CP, graphisme maternelle, motricité fine, coloriage à imprimer, exercices maths, apprendre à lire, alphabet, tables de multiplication',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fr/apps/parcours-images-fiches',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/picture-path/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Parcours images fiche gratuite - labyrinthe maternelle exercices graphisme'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/picture-path/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fiche labyrinthe gratuite pour enfants - exercices CP raisonnement spatial'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/picture-path/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fiches maternelle gratuites - parcours images graphisme PS MS GS'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/picture-path/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Labyrinthe fiche pour enfants - imprimables gratuits concentration'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/picture-path/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Parcours images fiches gratuites maternelle - coloriage à imprimer'
+      },
+    ],
   },
 
   // Hero Section - FULL text from picture-path.md paragraphs 1-4
@@ -34,7 +66,7 @@ Votre abonnement Accès Complet vous donne un accès illimité. Créez autant de
 Le générateur propose trois modes de jeu différents. Le mode Parcours d'Images crée des chemins entre images. Le mode Labyrinthe Classique génère des labyrinthes avec images à collectionner. Le mode Choisir le Bon Chemin propose plusieurs chemins dont un seul est correct. Chaque mode s'adapte aux besoins de vos élèves.
 
 Les fiches maternelle créées développent plusieurs compétences. Le graphisme maternelle progresse en suivant les lignes. La motricité fine s'améliore avec le tracé des chemins. La concentration augmente en cherchant le bon parcours. Les exercices CP renforcent la logique et le raisonnement spatial.`,
-    previewImageSrc: '/samples/english/picture path/picture path.jpeg',
+    previewImageSrc: '/samples/french/picture-path/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Essayer Gratuitement',
       viewSamples: 'Voir les Exemples',
@@ -53,7 +85,7 @@ Les fiches maternelle créées développent plusieurs compétences. Le graphisme
     },
   },
 
-  // Sample Gallery - REAL file paths from samples/english/picture path/
+  // Sample Gallery - REAL file paths from samples/french/picture-path/
   samples: {
     sectionTitle: 'Exemples de Fiches Parcours d\'Images',
     sectionDescription: 'Téléchargez des exemples gratuits pour voir notre qualité professionnelle',
@@ -69,24 +101,38 @@ Les fiches maternelle créées développent plusieurs compétences. Le graphisme
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/picture path/picture path.jpeg',
-        answerKeySrc: '/samples/english/picture path/picture path answer_key.jpeg',
-        altText: 'Fiche parcours d\'images pour maternelle avec corrigé - graphisme et motricité fine',
-        pdfDownloadUrl: '/samples/english/picture path/picture path.pdf',
+        worksheetSrc: '/samples/french/picture-path/sample-1.jpeg',
+        answerKeySrc: '/samples/french/picture-path/sample-1-answer.jpeg',
+        altText: 'Parcours images fiches gratuites - labyrinthe maternelle avec corrigé pour graphisme et motricité fine',
+        pdfDownloadUrl: '/samples/french/picture-path/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/picture path/classic maze.jpeg',
-        answerKeySrc: '/samples/english/picture path/classic maze answer_key.jpeg',
-        altText: 'Fiche labyrinthe classique avec corrigé pour exercices CP et raisonnement spatial',
-        pdfDownloadUrl: '/samples/english/picture path/classic maze.pdf',
+        worksheetSrc: '/samples/french/picture-path/sample-2.jpeg',
+        answerKeySrc: '/samples/french/picture-path/sample-2-answer.jpeg',
+        altText: 'Fiche labyrinthe gratuite pour enfants - exercices CP logique et raisonnement spatial',
+        pdfDownloadUrl: '/samples/french/picture-path/sample-2.pdf',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/picture path/right path.jpeg',
-        answerKeySrc: '/samples/english/picture path/right path answer_key.jpeg',
-        altText: 'Fiche choisir le bon chemin avec corrigé - logique et concentration pour maternelle',
-        pdfDownloadUrl: '/samples/english/picture path/right path.pdf',
+        worksheetSrc: '/samples/french/picture-path/sample-3.jpeg',
+        answerKeySrc: '/samples/french/picture-path/sample-3-answer.jpeg',
+        altText: 'Fiches maternelle gratuites parcours images - activité graphisme pour PS MS GS',
+        pdfDownloadUrl: '/samples/french/picture-path/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/french/picture-path/sample-4.jpeg',
+        answerKeySrc: '/samples/french/picture-path/sample-4-answer.jpeg',
+        altText: 'Labyrinthe fiches pour enfants - imprimables gratuits exercices concentration',
+        pdfDownloadUrl: '/samples/french/picture-path/sample-4.pdf',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/french/picture-path/sample-5.jpeg',
+        answerKeySrc: '/samples/french/picture-path/sample-5-answer.jpeg',
+        altText: 'Parcours images fiche gratuite maternelle - tracé chemin et coloriage à imprimer',
+        pdfDownloadUrl: '/samples/french/picture-path/sample-5.pdf',
       },
     ],
   },
@@ -480,6 +526,48 @@ Les parcours syllabiques se complexifient progressivement. Commencez avec syllab
 L'écriture cursive bénéficie de l'échauffement manuel. Le coloriage préliminaire réchauffe la main. Le tracé des lettres exerce la précision. Le parcours renforce la fluidité gestuelle. La main est parfaitement préparée. La qualité d'écriture s'améliore de 30 à 40%.
 
 Les progressions d'écriture cursive suivent votre rythme de classe. Intégrez une nouvelle lettre chaque semaine. Les parcours accompagnent chaque apprentissage. La cohérence pédagogique se maintient. Les élèves progressent régulièrement sans confusion.`,
+      },
+      {
+        id: '13',
+        question: 'Combien de temps faut-il pour créer un labyrinthe de parcours d\'images ?',
+        answer: `La création d'un labyrinthe de parcours d'images prend moins de 3 minutes. Sélectionnez vos images en 1 minute. Configurez les paramètres en 30 secondes. Le système génère instantanément votre fiche. Le téléchargement en PDF haute résolution prend quelques secondes. Votre fiche maternelle est prête pour l'impression immédiatement.
+
+La génération automatique économise des heures de travail. Sans générateur, créer manuellement un labyrinthe demande 30 à 60 minutes. Avec notre outil, multipliez votre productivité par 10. Créez 20 fiches en une heure au lieu de 2.`,
+      },
+      {
+        id: '14',
+        question: 'Les parcours d\'images fonctionnent-ils pour les élèves dyspraxiques ?',
+        answer: `Oui, les parcours d'images s'adaptent parfaitement aux élèves dyspraxiques. Augmentez l'épaisseur des murs du labyrinthe pour une meilleure visibilité. Agrandissez les espaces entre les chemins pour faciliter le tracé. Réduisez le nombre d'images distractrices pour diminuer la surcharge visuelle.
+
+Les paramètres personnalisables permettent une différenciation pédagogique complète. Chaque enfant peut recevoir une fiche adaptée à ses besoins spécifiques. La motricité fine progresse à un rythme approprié. Les fiches gratuites pour enfants deviennent accessibles à tous les profils d'apprenants.`,
+      },
+      {
+        id: '15',
+        question: 'Puis-je utiliser les fiches de parcours pour l\'instruction en famille (IEF) ?',
+        answer: `Absolument, les fiches de parcours sont idéales pour l'instruction en famille. Créez des activités personnalisées selon les centres d'intérêt de votre enfant. Générez des labyrinthes thématiques sur les dinosaures, l'espace ou les animaux. Adaptez le niveau de difficulté en temps réel selon les progrès.
+
+L'abonnement Accès Complet couvre tous les besoins d'une famille IEF. Créez des fiches maternelle pour les plus jeunes. Générez des exercices CP pour les aînés. Un seul abonnement remplace des centaines d'euros de manuels et cahiers d'activités.`,
+      },
+      {
+        id: '16',
+        question: 'Comment les parcours d\'images aident-ils à développer la concentration ?',
+        answer: `Les parcours d'images développent la concentration par l'engagement actif. L'enfant doit observer attentivement toutes les images pour trouver le bon chemin. La recherche visuelle mobilise l'attention soutenue pendant 10 à 20 minutes. Le tracé du chemin maintient la concentration jusqu'à la fin.
+
+Les fiches gratuites pour enfants créent des moments de calme en classe. Les élèves restent absorbés par l'activité sans distraction. L'aspect ludique du labyrinthe maintient la motivation. La réussite finale renforce la confiance et encourage la persévérance.`,
+      },
+      {
+        id: '17',
+        question: 'Les parcours d\'images sont-ils compatibles avec les programmes de maternelle français ?',
+        answer: `Oui, les parcours d'images correspondent parfaitement au programme de maternelle français. Le graphisme maternelle figure explicitement dans les attendus de fin de cycle. Le tracé de chemins développe la motricité fine requise. La reconnaissance d'images renforce le vocabulaire thématique travaillé en classe.
+
+Les fiches maternelle couvrent tous les domaines d'apprentissage. Le graphisme prépare à l'écriture (domaine 1). Les images thématiques enrichissent l'exploration du monde (domaine 5). La résolution de labyrinthes développe la logique mathématique (domaine 4). Un seul outil pour de multiples objectifs pédagogiques.`,
+      },
+      {
+        id: '18',
+        question: 'Comment partager les fiches créées avec d\'autres enseignants ?',
+        answer: `Le partage des fiches créées est simple et autorisé pour un usage pédagogique. Téléchargez vos fiches en format PDF haute résolution. Envoyez-les par email à vos collègues. Déposez-les sur votre ENT ou plateforme collaborative. Les fiches gratuites peuvent être partagées librement au sein de votre établissement.
+
+Avec la licence commerciale incluse, vous pouvez aussi vendre vos créations. Publiez sur Teachers Pay Teachers ou Etsy. Créez des packs thématiques pour d'autres enseignants. Vos collègues bénéficient de votre travail pendant que vous générez des revenus complémentaires.`,
       },
     ],
   },

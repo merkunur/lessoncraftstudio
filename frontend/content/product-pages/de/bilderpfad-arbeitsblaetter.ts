@@ -29,10 +29,42 @@ export const picturePathDeContent: ProductPageContent = {
   seo: {
     slug: 'bilderpfad-arbeitsblaetter',
     appId: 'picture-path',
-    title: 'Bilderpfad Labyrinth Generator - Kostenlose Arbeitsblätter zum Ausdrucken für Vorschule und Grundschule',
-    description: 'Erstellen Sie professionelle Labyrinth-Arbeitsblätter mit dem Bilderpfad Generator. Mit Ihrem Vollzugriff Abonnement gestalten Sie unbegrenzt druckbare Arbeitsblätter für die Vorschule und Grundschule. Kinder navigieren von einem Startbild zum Zielbild und folgen dabei dem richtigen Weg.',
+    title: 'Bilderpfad Arbeitsblätter Kostenlos | Labyrinth Generator',
+    description: 'Bilderpfad Labyrinth-Arbeitsblätter in 3 Minuten erstellen. 3 Spielmodi, 3000+ Bilder, 300 DPI Qualität. Perfekt für Vorschule und Grundschule. Jetzt testen!',
     keywords: 'bilderpfad arbeitsblätter, labyrinth arbeitsblätter, arbeitsblätter grundschule, kostenlose arbeitsblätter, mathe arbeitsblätter, vorschule arbeitsblätter, einmaleins, schwungübungen, buchstaben lernen, rechnen lernen, ausmalbilder',
     canonicalUrl: 'https://www.lessoncraftstudio.com/de/apps/bilderpfad-arbeitsblaetter',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/german/picture-path/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Bilderpfad Arbeitsblatt - Kostenlose Arbeitsblätter für Arbeitsblätter Grundschule',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/german/picture-path/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Klassisches Labyrinth Arbeitsblatt - Mathe Arbeitsblätter für Vorschule',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/german/picture-path/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Wähle den richtigen Weg Arbeitsblatt - Kostenlose Arbeitsblätter zum Ausdrucken',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/german/picture-path/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Bilderpfad Labyrinth für Einmaleins - Vorschule Arbeitsblätter',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/german/picture-path/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Labyrinth Arbeitsblatt für Kinder - Deutsch Arbeitsblätter und Schwungübungen',
+      },
+    ],
   },
 
   // Hero Section - FULL text from bilderpfad.md
@@ -48,7 +80,7 @@ Mit dem Bilderpfad Generator erstellen Sie Arbeitsblätter für das Rechnen lern
 Alle Arbeitsblätter erscheinen in professioneller 300 DPI Qualität. Sie drucken gestochen scharfe Linien und klare Bilder. Der Export erfolgt als JPEG oder PDF. Eine Graustufen-Option spart Druckertinte. Die enthaltene Lösungsanzeige hilft bei der Kontrolle. Lehrkräfte und Eltern nutzen diese Arbeitsblätter für den Unterricht, zur Förderung und für Hausaufgaben.
 
 Das Vollzugriff Abonnement kostet 240 Euro pro Jahr oder 25 Euro monatlich. Es umfasst alle 33 Arbeitsblatt-Generatoren auf der Plattform. Eine kommerzielle Lizenz ist enthalten. Sie verkaufen Ihre Arbeitsblätter auf Teachers Pay Teachers, Etsy oder Amazon KDP ohne zusätzliche Gebühren. Über 3000 kindgerechte Bilder stehen in der Bibliothek bereit. Eigene Bilder laden Sie ebenfalls hoch.`,
-    previewImageSrc: '/samples/english/picture path/picture path.jpeg',
+    previewImageSrc: '/samples/german/picture-path/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Kostenlos Testen',
       viewSamples: 'Beispiele Ansehen',
@@ -83,24 +115,38 @@ Das Vollzugriff Abonnement kostet 240 Euro pro Jahr oder 25 Euro monatlich. Es u
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/picture path/picture path.jpeg',
-        answerKeySrc: '/samples/english/picture path/picture path answer_key.jpeg',
-        altText: 'Bilderpfad Arbeitsblatt für Arbeitsblätter Grundschule und Vorschule Arbeitsblätter',
-        pdfDownloadUrl: '/samples/english/picture path/picture path.pdf',
+        worksheetSrc: '/samples/german/picture-path/sample-1.jpeg',
+        answerKeySrc: '/samples/german/picture-path/sample-1-answer.jpeg',
+        altText: 'Bilderpfad Arbeitsblatt für Arbeitsblätter Grundschule und Vorschule - Kostenlose Arbeitsblätter',
+        pdfDownloadUrl: '/samples/german/picture-path/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/picture path/classic maze.jpeg',
-        answerKeySrc: '/samples/english/picture path/classic maze answer_key.jpeg',
-        altText: 'Klassisches Labyrinth Arbeitsblatt für Mathe Arbeitsblätter und kostenlose Arbeitsblätter',
-        pdfDownloadUrl: '/samples/english/picture path/classic maze.pdf',
+        worksheetSrc: '/samples/german/picture-path/sample-2.jpeg',
+        answerKeySrc: '/samples/german/picture-path/sample-2-answer.jpeg',
+        altText: 'Klassisches Labyrinth Arbeitsblatt für Mathe Arbeitsblätter - Einmaleins und Schwungübungen',
+        pdfDownloadUrl: '/samples/german/picture-path/sample-2.pdf',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/picture path/right path.jpeg',
-        answerKeySrc: '/samples/english/picture path/right path answer_key.jpeg',
-        altText: 'Wähle den richtigen Weg Arbeitsblatt für Deutsch Arbeitsblätter und Schwungübungen',
-        pdfDownloadUrl: '/samples/english/picture path/right path.pdf',
+        worksheetSrc: '/samples/german/picture-path/sample-3.jpeg',
+        answerKeySrc: '/samples/german/picture-path/sample-3-answer.jpeg',
+        altText: 'Wähle den richtigen Weg Arbeitsblatt für Deutsch Arbeitsblätter und Buchstaben lernen',
+        pdfDownloadUrl: '/samples/german/picture-path/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/german/picture-path/sample-4.jpeg',
+        answerKeySrc: '/samples/german/picture-path/sample-4-answer.jpeg',
+        altText: 'Bilderpfad Labyrinth für Vorschule Arbeitsblätter - Rechnen lernen mit Kostenlose Arbeitsblätter',
+        pdfDownloadUrl: '/samples/german/picture-path/sample-4.pdf',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/german/picture-path/sample-5.jpeg',
+        answerKeySrc: '/samples/german/picture-path/sample-5-answer.jpeg',
+        altText: 'Labyrinth Arbeitsblatt für Kinder - Ausmalbilder und Malvorlagen mit Kostenlose Arbeitsblätter',
+        pdfDownloadUrl: '/samples/german/picture-path/sample-5.pdf',
       },
     ],
   },

@@ -29,10 +29,42 @@ export const pictureSortDeContent: ProductPageContent = {
   seo: {
     slug: 'bilder-sortieren-arbeitsblaetter',
     appId: 'picture-sort',
-    title: 'Sortierübungen Generator - Kostenlose Arbeitsblätter für Vorschule und Arbeitsblätter Grundschule',
-    description: 'Erstellen Sie professionelle Sortierarbeitsblätter mit dem Sortierübungen Generator. Mit Ihrem Vollzugriff Abonnement gestalten Sie unbegrenzt druckbare Arbeitsblätter für die Vorschule und Grundschule. Kinder lernen spielerisch das Kategorisieren von Bildern in zwei Gruppen.',
+    title: 'Bilder Sortieren Arbeitsblätter Kostenlos | Sortierübungen Generator',
+    description: 'Sortierarbeitsblätter in 3 Minuten erstellen. 3000+ Bilder, 300 DPI Qualität. Perfekt für Arbeitsblätter Grundschule und Vorschule. Jetzt kostenlos testen!',
     keywords: 'bilder sortieren arbeitsblätter, sortierarbeitsblätter, arbeitsblätter grundschule, kostenlose arbeitsblätter, mathe arbeitsblätter, vorschule arbeitsblätter, einmaleins, schwungübungen, buchstaben lernen, rechnen lernen, ausmalbilder',
     canonicalUrl: 'https://www.lessoncraftstudio.com/de/apps/bilder-sortieren-arbeitsblaetter',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/german/picture-sort/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Bilder Sortieren Arbeitsblatt - Kostenlose Arbeitsblätter für Grundschule',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/german/picture-sort/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Sortierübungen Arbeitsblatt - Vorschule Arbeitsblätter zum Ausdrucken',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/german/picture-sort/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Kategorisieren Arbeitsblatt - Mathe Arbeitsblätter für Kinder',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/german/picture-sort/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Bilder Sortieren Übung - Kostenlose Druckvorlagen für Einmaleins',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/german/picture-sort/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Sortierarbeitsblatt - Deutsch Arbeitsblätter und Schwungübungen',
+      },
+    ],
   },
 
   // Hero Section - FULL text from bilder-sortieren.md
@@ -46,7 +78,7 @@ Der Sortierübungen Generator ist ideal für Vorschule Arbeitsblätter und Arbei
 Sortierarbeitsblätter verbinden verschiedene Lernbereiche miteinander. Als Mathe Arbeitsblätter trainieren Kinder das Zählen und Gruppieren. Als Deutsch Arbeitsblätter üben sie Wortschatz und Kategorisierung. Für die Vorschule sind diese Übungen besonders wertvoll. Sie bereiten Kinder optimal auf die 1. Klasse vor.
 
 Mit Ihrem Abonnement erhalten Sie Zugang zu über 3000 kindgerechten Bildern. Die Ausmalbilder und Malvorlagen lassen sich mit Sortieraufgaben kombinieren. Erstellen Sie individuelle Arbeitsblätter für Ihre Klasse. Der Generator bietet professionelle 300 DPI Qualität für den Druck. Alle Materialien sind sofort einsatzbereit.`,
-    previewImageSrc: '/samples/english/picture sort/picture sort portrait.jpeg',
+    previewImageSrc: '/samples/german/picture-sort/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Kostenlos Testen',
       viewSamples: 'Beispiele Ansehen',
@@ -81,17 +113,38 @@ Mit Ihrem Abonnement erhalten Sie Zugang zu über 3000 kindgerechten Bildern. Di
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/picture sort/picture sort portrait.jpeg',
-        answerKeySrc: '/samples/english/picture sort/picture sort portrait answer_key.jpeg',
-        altText: 'Bilder Sortieren Hochformat Arbeitsblatt für Arbeitsblätter Grundschule und Vorschule Arbeitsblätter',
-        pdfDownloadUrl: '/samples/english/picture sort/picture sort portrait.pdf',
+        worksheetSrc: '/samples/german/picture-sort/sample-1.jpeg',
+        answerKeySrc: '/samples/german/picture-sort/sample-1-answer.jpeg',
+        altText: 'Bilder Sortieren Arbeitsblatt kostenlos - Sortierübungen für Arbeitsblätter Grundschule und Vorschule',
+        pdfDownloadUrl: '/samples/german/picture-sort/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/picture sort/picture sort landscape.jpeg',
-        answerKeySrc: '/samples/english/picture sort/picture sort landscape answer_key.jpeg',
-        altText: 'Bilder Sortieren Querformat Arbeitsblatt für Mathe Arbeitsblätter und kostenlose Arbeitsblätter',
-        pdfDownloadUrl: '/samples/english/picture sort/picture sort landscape.pdf',
+        worksheetSrc: '/samples/german/picture-sort/sample-2.jpeg',
+        answerKeySrc: '/samples/german/picture-sort/sample-2-answer.jpeg',
+        altText: 'Sortierarbeitsblatt für Kinder - Mathe Arbeitsblätter und Kostenlose Arbeitsblätter zum Ausdrucken',
+        pdfDownloadUrl: '/samples/german/picture-sort/sample-2.pdf',
+      },
+      {
+        id: '3',
+        worksheetSrc: '/samples/german/picture-sort/sample-3.jpeg',
+        answerKeySrc: '/samples/german/picture-sort/sample-3-answer.jpeg',
+        altText: 'Kategorisieren Übungsblatt - Vorschule Arbeitsblätter mit Einmaleins und Rechnen lernen',
+        pdfDownloadUrl: '/samples/german/picture-sort/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/german/picture-sort/sample-4.jpeg',
+        answerKeySrc: '/samples/german/picture-sort/sample-4-answer.jpeg',
+        altText: 'Bilder Zuordnen Arbeitsblatt - Deutsch Arbeitsblätter und Schwungübungen für Grundschule',
+        pdfDownloadUrl: '/samples/german/picture-sort/sample-4.pdf',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/german/picture-sort/sample-5.jpeg',
+        answerKeySrc: '/samples/german/picture-sort/sample-5-answer.jpeg',
+        altText: 'Sortierübungen Generator Beispiel - Buchstaben lernen und Ausmalbilder Arbeitsblätter',
+        pdfDownloadUrl: '/samples/german/picture-sort/sample-5.pdf',
       },
     ],
   },

@@ -16,10 +16,30 @@ export const mathPuzzleFrContent: ProductPageContent = {
   seo: {
     slug: 'puzzle-maths-fiches',
     appId: 'math-puzzle',
-    title: 'Puzzle Maths à Imprimer | Générateur d\'Exercices de Décodage pour Maternelle et CP',
-    description: 'Créez des puzzles mathématiques de décodage par symboles avec notre générateur. Parfait pour les enseignants de maternelle, CP et CE1. Téléchargez des fiches à imprimer gratuit en PDF haute qualité.',
+    title: 'Puzzle Maths à Imprimer | Exercices Décodage Maternelle CP',
+    description: 'Créez des puzzles maths de décodage par symboles avec notre générateur. Parfait pour maternelle, CP et CE1. Fiches à imprimer gratuit PDF.',
     keywords: 'puzzle maths, exercices maths, décodage symboles, fiches maternelle, fiches à imprimer gratuit, exercices CP, exercices CE1, énigmes mathématiques, générateur fiches, calcul visuel',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fr/apps/puzzle-maths-fiches',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/math-puzzle/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Puzzle maths fiches gratuites - décodage symboles pour maternelle et CP'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/math-puzzle/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Exercices maths fiche à imprimer gratuit - puzzle décodage pour enfants CE1'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/math-puzzle/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fiches maternelle puzzle maths - exercices décodage symboles colorés'
+      }
+    ],
   },
 
   // Hero Section - FULL text from math-worksheet.md paragraphs 1-4
@@ -31,7 +51,7 @@ export const mathPuzzleFrContent: ProductPageContent = {
 Notre créateur de fiches maths utilise un système unique de décodage par symboles. Chaque image représente un nombre secret que les élèves doivent découvrir. Les enfants analysent les équations visuelles pour trouver la valeur de chaque symbole. Cette approche développe le raisonnement logique et la pensée mathématique. Les fiches maternelle deviennent des énigmes passionnantes qui captivent les jeunes apprenants.
 
 Le générateur crée des puzzles mathématiques avec 1 à 6 exercices par page. Choisissez parmi quatre niveaux de difficulté selon l'âge des élèves. Le mode très facile utilise seulement deux symboles pour les débutants. Le mode difficile présente quatre symboles pour les élèves avancés. Sélectionnez entre addition seule ou addition et soustraction combinées. Les exercices CP et exercices CE1 s'adaptent parfaitement aux programmes officiels français.`,
-    previewImageSrc: '/samples/english/math puzzle/worksheet.jpeg',
+    previewImageSrc: '/samples/french/math-puzzle/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Essayer Gratuitement',
       viewSamples: 'Voir les Exemples',
@@ -66,17 +86,17 @@ Le générateur crée des puzzles mathématiques avec 1 à 6 exercices par page.
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/math puzzle/worksheet.jpeg',
-        answerKeySrc: '/samples/english/math puzzle/answer_key.jpeg',
-        altText: 'Puzzle maths de décodage par symboles pour maternelle et CP avec corrigé',
-        pdfDownloadUrl: '/samples/english/math puzzle/worksheet.pdf',
+        worksheetSrc: '/samples/french/math-puzzle/sample-1.jpeg',
+        answerKeySrc: '/samples/french/math-puzzle/sample-1-answer.jpeg',
+        altText: 'Puzzle maths fiches gratuites - décodage symboles pour maternelle et CP avec exercices calcul visuel',
+        pdfDownloadUrl: '/samples/french/math-puzzle/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/math puzzle/worksheet (1).jpeg',
-        answerKeySrc: '/samples/english/math puzzle/answer_key (1).jpeg',
-        altText: 'Exercice maths de décodage avec symboles colorés pour exercices CE1',
-        pdfDownloadUrl: '/samples/english/math puzzle/worksheet (1).pdf',
+        worksheetSrc: '/samples/french/math-puzzle/sample-2.jpeg',
+        answerKeySrc: '/samples/french/math-puzzle/sample-2-answer.jpeg',
+        altText: 'Exercices maths fiche à imprimer gratuit - puzzle décodage pour enfants CE1 avec symboles colorés',
+        pdfDownloadUrl: '/samples/french/math-puzzle/sample-2.pdf',
       },
     ],
   },

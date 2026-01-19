@@ -21,6 +21,38 @@ export const prepositionsFrContent: ProductPageContent = {
     description: 'Créez des fiches d\'exercices sur les prépositions spatiales en quelques clics. Votre abonnement Accès Complet à 240 € par an vous permet de générer des exercices illimités. Téléchargez des PDF haute qualité en moins de 3 minutes.',
     keywords: 'fiches à imprimer gratuit, fiches maternelle, exercices CP, prépositions spatiales, graphisme maternelle, coloriage à imprimer, apprendre à lire, alphabet, écriture cursive, exercices maths',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fr/apps/prepositions-exercices-fiches',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/prepositions/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fiche exercices prépositions spatiales maternelle - fiches à imprimer gratuit pour enfants',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/prepositions/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Exercices CP prépositions - fiche gratuite avec images colorées',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/prepositions/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fiche maternelle prépositions dans sous sur - graphisme maternelle',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/prepositions/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Prépositions spatiales exercices CP - fiche pour enfants à imprimer',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/prepositions/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fiches gratuites prépositions maternelle - apprendre à lire les prépositions',
+      },
+    ],
   },
 
   // Hero Section - FULL text from prepositions.md paragraphs 1-4
@@ -34,7 +66,7 @@ Les prépositions constituent un élément fondamental de l'apprentissage du fra
 Chaque fiche maternelle comprend des images colorées et attrayantes tirées de notre bibliothèque de plus de 3000 illustrations adaptées aux enfants. Sélectionnez des thèmes familiers pour vos élèves. Ajoutez vos propres photos de classe. Personnalisez chaque élément directement sur le canevas. Les exercices CP s'adaptent parfaitement au niveau de vos élèves.
 
 L'abonnement Accès Complet coûte 240 € par an ou 25 € par mois. Vous accédez aux 33 générateurs de fiches pédagogiques de la plateforme. Créez autant de fiches à imprimer gratuit que nécessaire. Aucun frais par fiche. Les corrigés se génèrent automatiquement. La qualité professionnelle 300 DPI garantit une impression nette. L'interface en français facilite la création rapide d'exercices adaptés à vos besoins pédagogiques.`,
-    previewImageSrc: '/samples/english/prepositions/prepositions_worksheet.jpeg',
+    previewImageSrc: '/samples/french/prepositions/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Essayer Gratuitement',
       viewSamples: 'Voir les Exemples',
@@ -69,17 +101,38 @@ L'abonnement Accès Complet coûte 240 € par an ou 25 € par mois. Vous accé
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/prepositions/prepositions_worksheet.jpeg',
-        answerKeySrc: '/samples/english/prepositions/prepositions_answer_key.jpeg',
-        altText: 'Fiche exercices sur les prépositions spatiales pour maternelle avec corrigé',
-        pdfDownloadUrl: '/samples/english/prepositions/prepositions_worksheet.pdf',
+        worksheetSrc: '/samples/french/prepositions/sample-1.jpeg',
+        answerKeySrc: '/samples/french/prepositions/sample-1-answer.jpeg',
+        altText: 'Fiche exercices prépositions spatiales fiches à imprimer gratuit pour maternelle avec corrigé',
+        pdfDownloadUrl: '/samples/french/prepositions/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/prepositions/prepositions multiple choice.jpeg',
-        answerKeySrc: '/samples/english/prepositions/prepositions multiple choice answer_key.jpeg',
-        altText: 'Fiche prépositions choix multiples pour exercices CP avec corrigé',
-        pdfDownloadUrl: '/samples/english/prepositions/prepositions multiple choice.pdf',
+        worksheetSrc: '/samples/french/prepositions/sample-2.jpeg',
+        answerKeySrc: '/samples/french/prepositions/sample-2-answer.jpeg',
+        altText: 'Exercices CP prépositions fiche gratuite pour enfants avec images colorées',
+        pdfDownloadUrl: '/samples/french/prepositions/sample-2.pdf',
+      },
+      {
+        id: '3',
+        worksheetSrc: '/samples/french/prepositions/sample-3.jpeg',
+        answerKeySrc: '/samples/french/prepositions/sample-3-answer.jpeg',
+        altText: 'Fiches maternelle prépositions dans sous sur graphisme maternelle activité',
+        pdfDownloadUrl: '/samples/french/prepositions/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/french/prepositions/sample-4.jpeg',
+        answerKeySrc: '/samples/french/prepositions/sample-4-answer.jpeg',
+        altText: 'Prépositions spatiales exercices CP fiche pour enfants coloriage à imprimer',
+        pdfDownloadUrl: '/samples/french/prepositions/sample-4.pdf',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/french/prepositions/sample-5.jpeg',
+        answerKeySrc: '/samples/french/prepositions/sample-5-answer.jpeg',
+        altText: 'Fiches gratuites prépositions maternelle apprendre à lire écriture cursive',
+        pdfDownloadUrl: '/samples/french/prepositions/sample-5.pdf',
       },
     ],
   },
@@ -332,6 +385,36 @@ L'abonnement Accès Complet coûte 240 € par an ou 25 € par mois. Vous accé
         id: '12',
         question: 'Les exercices incluent-ils des corrigés automatiques pour faciliter la correction en classe ?',
         answer: `Oui. Chaque fiche générée dispose d'un corrigé automatique créé simultanément. Cliquez sur Générer Corrigé dans le menu déroulant. Le système produit instantanément la version complétée avec toutes les réponses. Les deux onglets vous permettent de basculer entre la fiche d'exercice et le corrigé. Vérifiez que les réponses correspondent à vos attentes pédagogiques. Téléchargez les deux fichiers séparément. La fiche d'exercice va aux élèves. Le corrigé reste pour vous ou pour l'autocorrection. Les corrigés automatiques économisent un temps considérable. Pas besoin de créer manuellement une deuxième version. Pas de risque d'erreur dans le corrigé. Le système remplit automatiquement toutes les bonnes prépositions. Les élèves de CE1 utilisent les corrigés pour l'autocorrection. Développez leur autonomie en leur donnant accès au corrigé après avoir terminé. Ils vérifient eux-mêmes leurs réponses et identifient leurs erreurs. Les enseignants avec plusieurs niveaux apprécient particulièrement cette fonctionnalité. Distribuez différentes fiches à différents groupes. Chaque fiche a son propre corrigé. Vous gérez l'hétérogénéité sans augmenter votre charge de correction. Les parents en instruction à domicile utilisent les corrigés pour vérifier le travail de leurs enfants. Même sans formation pédagogique formelle ils peuvent superviser les exercices efficacement.`,
+      },
+      {
+        id: '13',
+        question: 'Les fiches sont-elles compatibles avec les programmes officiels de l\'Éducation nationale française ?',
+        answer: `Les fiches à imprimer gratuit sur les prépositions s'alignent parfaitement avec les programmes officiels de l'Éducation nationale. Le domaine Mobiliser le langage dans toutes ses dimensions du cycle 1 inclut explicitement l'apprentissage du vocabulaire spatial. Les prépositions constituent un objectif central des attendus de fin de maternelle. Le programme précise que les élèves doivent comprendre et utiliser les prépositions de lieu. Les fiches maternelle couvrent toutes les prépositions essentielles mentionnées dans les repères de progression. En CP et CE1 le programme de français renforce la maîtrise des prépositions dans le cadre de l'étude de la langue. Nos exercices CP répondent aux attendus de la compétence Comprendre le sens des mots et des expressions. Les situations spatiales illustrées développent également les compétences du domaine Explorer le monde de l'espace. La structuration de l'espace fait partie intégrante des apprentissages fondamentaux. Utilisez ces fiches en complément de vos séquences officielles. Elles constituent des supports d'entraînement et d'évaluation formative. Les inspecteurs apprécient la variété des supports pédagogiques utilisés. Montrez votre professionnalisme en proposant des ressources adaptées aux instructions officielles.`,
+      },
+      {
+        id: '14',
+        question: 'Puis-je utiliser ces fiches pour des élèves dyslexiques ou dyspraxiques en adaptation pédagogique ?',
+        answer: `Absolument. Le générateur offre une flexibilité totale pour adapter les fiches aux élèves à besoins éducatifs particuliers. Pour les élèves dyslexiques agrandissez les polices et espacez davantage les éléments. Utilisez des couleurs contrastées pour faciliter la lecture. Le mode choix multiples évite la surcharge cognitive liée à l'écriture. Les élèves dyslexiques peuvent pointer ou entourer la bonne réponse. Pour les élèves dyspraxiques simplifiez la mise en page. Réduisez le nombre de questions par fiche à 4 ou 5 maximum. Agrandissez les zones de réponse pour faciliter l'écriture. Les espaces généreux compensent les difficultés de coordination motrice. Importez des images très contrastées avec des contours nets. Évitez les fonds complexes qui perturbent la perception visuelle. Créez des versions différenciées de la même fiche selon les besoins. Un élève travaille la version complète pendant qu'un autre utilise la version simplifiée. Les fiches à imprimer gratuit permettent de multiplier les adaptations sans contrainte budgétaire. Imprimez sur papier épais ou plastifiez pour les élèves qui appuient fort. Collaborez avec les AESH pour créer des supports parfaitement adaptés à chaque élève accompagné.`,
+      },
+      {
+        id: '15',
+        question: 'Comment organiser une progression annuelle avec ces fiches maternelle sur les prépositions ?',
+        answer: `Une progression annuelle efficace structure l'apprentissage des prépositions de septembre à juin. Période 1 introduisez les prépositions les plus concrètes sur et sous. Les élèves manipulent d'abord des objets réels avant de passer aux fiches. Utilisez 2 à 3 fiches maternelle par semaine avec seulement ces deux prépositions. Période 2 ajoutez dans et devant. Les situations spatiales deviennent plus variées. Augmentez progressivement le nombre de questions par fiche. Période 3 introduisez derrière et à côté de. Ces prépositions demandent une compréhension spatiale plus fine. Combinez avec des activités de motricité en salle. Période 4 travaillez entre et au-dessus et en dessous. Les élèves maîtrisent maintenant un vocabulaire spatial complet. Proposez des fiches mélangeant toutes les prépositions apprises. Période 5 consolidez et évaluez les acquis. Créez des fiches d'évaluation formative couvrant l'ensemble des prépositions. Les exercices CP utilisent le mode texte à trou pour les élèves de grande section prêts à écrire. Cette progression spiralaire garantit une acquisition durable. Chaque nouvelle préposition s'appuie sur les acquis précédents tout en les réactivant régulièrement.`,
+      },
+      {
+        id: '16',
+        question: 'Les fiches fonctionnent-elles sur tablette et téléphone pour un usage numérique en classe ?',
+        answer: `Le générateur fonctionne parfaitement sur tous les appareils connectés à Internet. Accédez à l'interface depuis votre tablette iPad ou Android. Créez vos fiches maternelle directement sur l'appareil de la classe. L'écran tactile facilite la manipulation des éléments sur le canevas. Déplacez les images du bout du doigt. Redimensionnez intuitivement en écartant ou rapprochant deux doigts. Le téléphone portable convient pour des modifications rapides en déplacement. Ajustez une fiche existante pendant votre trajet vers l'école. Les fichiers PDF téléchargés s'ouvrent sur tous les appareils. Projetez directement depuis votre tablette sur le TBI de la classe. Les élèves visualisent l'exercice en grand format avant de travailler sur papier. Certains enseignants utilisent les PDF sur tablettes pour des exercices interactifs. Les élèves pointent les réponses directement sur l'écran. Cette approche hybride combine numérique et papier selon les objectifs pédagogiques. La connexion Internet reste nécessaire pour accéder au générateur. Une fois les PDF téléchargés ils restent accessibles hors ligne. Enregistrez vos créations favorites dans le cloud pour y accéder depuis n'importe quel appareil.`,
+      },
+      {
+        id: '17',
+        question: 'Puis-je partager ces fiches avec d\'autres enseignants de mon école ou de ma circonscription ?',
+        answer: `Votre abonnement Accès Complet autorise l'utilisation personnelle et au sein de votre établissement. Partagez librement les fiches imprimées avec vos collègues de l'école. Fournissez des photocopies aux autres classes de maternelle et CP. L'usage reste limité à votre établissement scolaire. Pour un partage plus large au niveau de la circonscription ou de l'académie des licences spécifiques existent. Contactez le support pour discuter des options de licence établissement ou groupement. Les fichiers numériques ne doivent pas être redistribués sur des plateformes publiques. Ne publiez pas les PDF sur des sites de partage gratuit de ressources. Ces restrictions protègent la viabilité du service et permettent son amélioration continue. En revanche vous pouvez recommander la plateforme à vos collègues. Chaque enseignant intéressé souscrit son propre abonnement. Les coordinateurs de cycle peuvent demander un abonnement école. Cette formule permet à plusieurs enseignants d'accéder au générateur. Le partage de bonnes pratiques entre collègues reste encouragé. Expliquez votre démarche pédagogique avec les fiches à imprimer gratuit sur les prépositions.`,
+      },
+      {
+        id: '18',
+        question: 'Quelle est la différence entre les modes texte à trou et choix multiples pour les exercices sur les prépositions ?',
+        answer: `Les deux modes d'exercice répondent à des objectifs pédagogiques différents. Le mode texte à trou présente une phrase avec un espace vide. L'élève doit écrire la préposition manquante. Ce mode développe simultanément la compréhension la production écrite et l'orthographe. Il convient aux élèves de grande section maîtrisant le geste graphique et aux élèves de CP et CE1. L'exercice demande un effort cognitif plus important car l'élève doit produire la réponse sans indices. Le mode choix multiples propose plusieurs prépositions parmi lesquelles l'élève sélectionne la bonne réponse. Ce mode facilite l'apprentissage initial des prépositions. Les élèves de petite et moyenne section peuvent participer sans savoir écrire. Ils entourent ou pointent la réponse correcte. Ce mode permet également de travailler la discrimination entre prépositions proches. L'élève doit distinguer sur de sous ou devant de derrière. Les deux modes se complètent dans une progression pédagogique. Commencez par les choix multiples pour installer la compréhension. Passez ensuite au texte à trou pour développer la production. Alternez régulièrement les deux modes pour maintenir l'engagement et consolider les apprentissages.`,
       },
     ],
   },

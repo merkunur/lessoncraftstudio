@@ -17,9 +17,41 @@ export const findAndCountFrContent: ProductPageContent = {
     slug: 'cherche-et-compte-fiches',
     appId: 'find-and-count',
     title: 'Fiches Cherche et Compte à Imprimer Gratuit | Générateur de Fiches Maternelle et Exercices CP',
-    description: 'Créez des fiches de cherche et compte personnalisées avec notre générateur professionnel. Parfait pour les enseignants de maternelle, CP et CE1. Téléchargez des PDF haute qualité en moins de 3 minutes.',
+    description: 'Créez des fiches cherche et compte personnalisées avec 3000+ images. Générateur maternelle CP gratuit en PDF 300 DPI. Parfait pour enseignants et parents.',
     keywords: 'fiches cherche et compte, fiches maternelle, fiches à imprimer gratuit, exercices CP, exercices CE1, graphisme maternelle, coloriage à imprimer, apprendre à compter, dénombrement, générateur fiches',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fr/apps/cherche-et-compte-fiches',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/find-and-count/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fiche cherche et compte gratuite - exercices dénombrement maternelle',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/find-and-count/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fiches maternelle cherche et compte - fiches à imprimer gratuit pour enfants',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/find-and-count/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Exercices CP cherche et compte - fiche pour maternelle avec images',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/find-and-count/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fiche gratuite cherche et compte - graphisme maternelle et dénombrement',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/find-and-count/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fiches gratuites cherche et compte - exercices maths CP CE1 à imprimer',
+      },
+    ],
   },
 
   // Hero Section - FULL text from find-and-count.md paragraphs 1-4
@@ -33,7 +65,7 @@ Les activités de cherche et compte captivent les jeunes enfants. Ce type d'exer
 Le dénombrement constitue une compétence fondamentale en mathématiques. Nos fiches à imprimer gratuit transforment cet apprentissage en jeu. Les enfants adorent chercher et compter des objets cachés dans une grille colorée. Chaque fiche devient une aventure visuelle qui renforce les exercices maths de façon ludique.
 
 Combinez le cherche et compte avec des activités de graphisme maternelle. Nos fiches s'intègrent parfaitement dans une séquence pédagogique complète. Après avoir compté les objets, les élèves peuvent colorier les éléments trouvés. Cette approche multi-sensorielle renforce l'apprentissage. Le coloriage à imprimer développe également la motricité fine.`,
-    previewImageSrc: '/samples/english/find and count/find and count portrait.jpeg',
+    previewImageSrc: '/samples/french/find-and-count/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Essayer Gratuitement',
       viewSamples: 'Voir les Exemples',
@@ -68,17 +100,38 @@ Combinez le cherche et compte avec des activités de graphisme maternelle. Nos f
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/find and count/find and count portrait.jpeg',
-        answerKeySrc: '/samples/english/find and count/find and count portrait answer_key.jpeg',
-        altText: 'Fiche cherche et compte format portrait pour maternelle avec corrigé',
-        pdfDownloadUrl: '/samples/english/find and count/find and count portrait.pdf',
+        worksheetSrc: '/samples/french/find-and-count/sample-1.jpeg',
+        answerKeySrc: '/samples/french/find-and-count/sample-1-answer.jpeg',
+        altText: 'Fiche cherche et compte fiches gratuites - exercices dénombrement pour maternelle',
+        pdfDownloadUrl: '/samples/french/find-and-count/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/find and count/find and count landscape.jpeg',
-        answerKeySrc: '/samples/english/find and count/find and count landscape answer_key.jpeg',
-        altText: 'Fiche cherche et compte format paysage pour exercices CP avec corrigé',
-        pdfDownloadUrl: '/samples/english/find and count/find and count landscape.pdf',
+        worksheetSrc: '/samples/french/find-and-count/sample-2.jpeg',
+        answerKeySrc: '/samples/french/find-and-count/sample-2-answer.jpeg',
+        altText: 'Fiches maternelle cherche et compte - fiche gratuite pour enfants à imprimer',
+        pdfDownloadUrl: '/samples/french/find-and-count/sample-2.pdf',
+      },
+      {
+        id: '3',
+        worksheetSrc: '/samples/french/find-and-count/sample-3.jpeg',
+        answerKeySrc: '/samples/french/find-and-count/sample-3-answer.jpeg',
+        altText: 'Exercices CP cherche et compte - fiches à imprimer gratuit avec corrigé',
+        pdfDownloadUrl: '/samples/french/find-and-count/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/french/find-and-count/sample-4.jpeg',
+        answerKeySrc: '/samples/french/find-and-count/sample-4-answer.jpeg',
+        altText: 'Fiche pour maternelle cherche et compte - graphisme maternelle et calcul',
+        pdfDownloadUrl: '/samples/french/find-and-count/sample-4.pdf',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/french/find-and-count/sample-5.jpeg',
+        answerKeySrc: '/samples/french/find-and-count/sample-5-answer.jpeg',
+        altText: 'Fiches gratuites cherche et compte - exercices maths CP CE1 imprimables gratuits',
+        pdfDownloadUrl: '/samples/french/find-and-count/sample-5.pdf',
       },
     ],
   },
@@ -409,6 +462,41 @@ Développez des lots thématiques pour les ventes saisonnières. Les packs de re
         id: '11',
         question: 'Les Fiches Incluent-elles un Corrigé ?',
         answer: 'Chaque fiche générée dispose de son corrigé automatique. Le corrigé affiche exactement les mêmes images que la fiche élève. Chaque objet à chercher montre sa quantité correcte bien visible. Les enseignants corrigent rapidement sans recompter manuellement. Téléchargez fiche et corrigé séparément au format de votre choix.',
+      },
+      {
+        id: '12',
+        question: 'Comment Personnaliser les Fiches Cherche et Compte pour Différents Niveaux ?',
+        answer: 'La personnalisation par niveau s\'effectue facilement avec notre générateur. Pour la maternelle, choisissez des grilles 5x5 avec 2-3 objets à chercher et des images simples. Pour le CP, utilisez des grilles 7x7 avec 3-4 objets et des thèmes variés. Pour le CE1, optez pour des grilles 8x8 à 10x10 avec 4 objets différents. Ajustez également la taille des images et le nombre d\'occurrences selon les capacités de chaque groupe d\'élèves.',
+      },
+      {
+        id: '13',
+        question: 'Le Générateur Cherche et Compte Fonctionne-t-il sur Tablette et Mobile ?',
+        answer: 'Notre générateur fonctionne parfaitement sur tous les appareils. Sur ordinateur, vous bénéficiez de l\'interface complète avec toutes les fonctionnalités. Sur tablette, l\'interface s\'adapte automatiquement pour une utilisation tactile confortable. Sur smartphone, créez des fiches basiques rapidement. Pour une expérience optimale avec les outils de personnalisation avancés, nous recommandons un ordinateur ou une tablette avec écran large.',
+      },
+      {
+        id: '14',
+        question: 'Puis-je Partager mes Fiches Cherche et Compte avec mes Collègues ?',
+        answer: 'Le partage avec vos collègues est autorisé dans le cadre de votre établissement scolaire. Envoyez les fichiers PDF par email ou partagez-les via votre ENT. Chaque enseignant peut imprimer les fiches pour sa classe. Pour un usage à grande échelle (académie, réseau d\'écoles), chaque utilisateur doit disposer de son propre abonnement. La licence commerciale permet également de vendre vos créations sur les plateformes éducatives.',
+      },
+      {
+        id: '15',
+        question: 'Comment Téléverser mes Propres Images Personnalisées ?',
+        answer: 'Le téléversement d\'images personnalisées est simple et rapide. Cliquez sur le bouton "Téléverser" dans la bibliothèque d\'images. Sélectionnez un ou plusieurs fichiers depuis votre ordinateur. Les formats JPEG, PNG et GIF sont acceptés. Vos images apparaissent instantanément dans une section personnalisée. Combinez-les avec les 3000+ images de notre bibliothèque pour créer des fiches uniques à votre classe ou projet pédagogique.',
+      },
+      {
+        id: '16',
+        question: 'Quelle Est la Différence Entre le Pack Essentiel et l\'Accès Complet ?',
+        answer: 'Le Pack Essentiel à 144€/an inclut 10 générateurs populaires dont le Cherche et Compte, ainsi que la licence commerciale et l\'export 300 DPI. L\'Accès Complet à 240€/an donne accès aux 33 générateurs disponibles sur la plateforme. Les deux formules offrent la création illimitée, les 11 langues et le téléversement d\'images personnalisées. Choisissez le Pack Essentiel si les 10 outils inclus correspondent à vos besoins, ou l\'Accès Complet pour une flexibilité maximale.',
+      },
+      {
+        id: '17',
+        question: 'Les Fiches Sont-elles Compatibles avec les Programmes Scolaires Français ?',
+        answer: 'Nos fiches cherche et compte s\'alignent parfaitement avec les programmes de l\'Éducation Nationale. En maternelle, elles développent le dénombrement et la reconnaissance visuelle conformément au domaine "Construire les premiers outils pour structurer sa pensée". En CP et CE1, elles renforcent les compétences numériques du cycle 2. Les enseignants peuvent facilement intégrer ces fiches dans leurs progressions annuelles et leurs séquences pédagogiques.',
+      },
+      {
+        id: '18',
+        question: 'Comment Utiliser les Fiches Cherche et Compte en Atelier Autonome ?',
+        answer: 'Les fiches cherche et compte sont idéales pour les ateliers autonomes. Imprimez plusieurs exemplaires de fiches différentes avec des niveaux variés. Plastifiez-les pour une utilisation durable avec des feutres effaçables. Les élèves peuvent travailler seuls ou en binômes. Préparez les corrigés pour l\'autocorrection. Organisez les fiches par niveau de difficulté dans des pochettes colorées. Cette organisation permet une rotation fluide pendant que vous travaillez en groupe dirigé.',
       },
     ],
   },

@@ -16,9 +16,41 @@ export const coloringFrContent: ProductPageContent = {
     slug: 'coloriage-fiches',
     appId: 'coloring',
     title: 'Coloriage à Imprimer Gratuit | Générateur de Fiches Maternelle et CP',
-    description: 'Créez des pages de coloriage personnalisées avec notre générateur de fiches maternelle. Plus de 3000 images adaptées aux enfants. Téléchargez en PDF haute qualité 300 DPI. Parfait pour les enseignants de maternelle, CP et CE1.',
+    description: 'Créez des coloriages personnalisés avec 3000+ images. Générateur de fiches maternelle gratuit en PDF 300 DPI. Parfait pour enseignants et parents.',
     keywords: 'coloriage à imprimer, fiches maternelle, graphisme maternelle, fiches à imprimer gratuit, exercices CP, exercices CE1, coloriage enfant, générateur coloriage, coloriage maternelle, pages de coloriage',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fr/apps/coloriage-fiches',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/coloring/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Coloriage à imprimer gratuit - fiche maternelle portrait avec scène thématique pour enfants'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/coloring/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fiches à imprimer gratuit - coloriage éducatif pour exercices CP et graphisme maternelle'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/coloring/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Coloriage enfant personnalisé - fiche maternelle avec images adaptées aux petits'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/coloring/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Générateur coloriage - fiches maternelle thématiques pour apprendre les lettres'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/coloring/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Pages de coloriage imprimables - exercices CE1 et graphisme maternelle en PDF 300 DPI'
+      },
+    ],
   },
 
   // Hero Section - FULL text from coloring.md paragraphs 1-3
@@ -30,7 +62,7 @@ export const coloringFrContent: ProductPageContent = {
 Les enseignants de maternelle et CP adorent cet outil. Fini les heures passées à chercher des coloriages adaptés. Votre abonnement vous donne accès illimité à la création de fiches à imprimer gratuit. Aucun frais supplémentaire par fiche créée.
 
 Le créateur de coloriage fonctionne en 11 langues. Parfait pour les classes bilingues et l'enseignement du français langue étrangère. Téléchargez vos créations en PDF haute qualité 300 DPI. Idéal pour l'impression professionnelle et la vente sur Teachers Pay Teachers.`,
-    previewImageSrc: '/samples/english/coloring/coloring portrait 1.png',
+    previewImageSrc: '/samples/french/coloring/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Essayer Gratuitement',
       viewSamples: 'Voir les Exemples',
@@ -65,24 +97,38 @@ Le créateur de coloriage fonctionne en 11 langues. Parfait pour les classes bil
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/coloring/coloring portrait 1.png',
+        worksheetSrc: '/samples/french/coloring/sample-1.jpeg',
         answerKeySrc: '',
-        pdfDownloadUrl: '/samples/english/coloring/coloring portrait 1.png',
-        altText: 'Coloriage enfant format portrait avec scène de Noël pour maternelle',
+        pdfDownloadUrl: '/samples/french/coloring/sample-1.pdf',
+        altText: 'Coloriage à imprimer gratuit - fiche maternelle portrait pour enfants de CP',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/coloring/coloring portrait 2.png',
+        worksheetSrc: '/samples/french/coloring/sample-2.jpeg',
         answerKeySrc: '',
-        pdfDownloadUrl: '/samples/english/coloring/coloring portrait 2.png',
-        altText: 'Coloriage à imprimer format portrait avec animaux pour exercices CP',
+        pdfDownloadUrl: '/samples/french/coloring/sample-2.pdf',
+        altText: 'Fiches à imprimer gratuit - coloriage enfant avec graphisme maternelle',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/coloring/coloring landscape 1.png',
+        worksheetSrc: '/samples/french/coloring/sample-3.jpeg',
         answerKeySrc: '',
-        pdfDownloadUrl: '/samples/english/coloring/coloring landscape 1.png',
-        altText: 'Coloriage paysage format horizontal pour fiches maternelle thématiques',
+        pdfDownloadUrl: '/samples/french/coloring/sample-3.pdf',
+        altText: 'Coloriage maternelle personnalisé - fiche gratuite pour exercices CP et CE1',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/french/coloring/sample-4.jpeg',
+        answerKeySrc: '',
+        pdfDownloadUrl: '/samples/french/coloring/sample-4.pdf',
+        altText: 'Générateur coloriage à imprimer - fiches maternelle thématiques PDF 300 DPI',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/french/coloring/sample-5.jpeg',
+        answerKeySrc: '',
+        pdfDownloadUrl: '/samples/french/coloring/sample-5.pdf',
+        altText: 'Pages de coloriage imprimables - exercices graphisme maternelle pour enfants',
       },
     ],
   },
@@ -418,6 +464,46 @@ Les boutiques Etsy proposent des packs thématiques. L'alphabet illustré sédui
         id: '10',
         question: 'Puis-je Ajouter des Lignes pour l\'Écriture Cursive sur mes Coloriages ?',
         answer: 'Oui, cliquez sur "Ajouter Lignes d\'Écriture" pour insérer des lignes d\'écriture pré-formatées. Trois lignes parallèles apparaissent avec une ligne pointillée centrale guidant la formation des lettres. Les élèves pratiquent l\'écriture cursive, les mots ou phrases sur les coloriages. Les lignes transforment des pages de coloriage simples en fiches maternelle polyvalentes.',
+      },
+      {
+        id: '11',
+        question: 'Comment Personnaliser les Coloriages pour le Calcul et les Exercices CP ?',
+        answer: 'Utilisez les images de fruits, animaux ou objets pour créer des exercices de comptage visuels. Ajoutez plusieurs éléments identiques sur la page pour les exercices d\'addition. Les enfants colorient puis comptent les objets. Combinez avec des chiffres écrits pour renforcer l\'apprentissage des nombres. Les fiches maternelle deviennent des supports mathématiques complets.',
+      },
+      {
+        id: '12',
+        question: 'Le Générateur de Coloriage Fonctionne-t-il sur Tablette et Mobile ?',
+        answer: 'Oui, le générateur est entièrement responsive et fonctionne sur tous les appareils. Sur tablette, l\'interface tactile permet de déplacer les images du bout du doigt. Sur smartphone, l\'édition reste possible mais un écran plus grand offre plus de confort. Les téléchargements fonctionnent sur tous les navigateurs modernes. Créez vos fiches maternelle où que vous soyez.',
+      },
+      {
+        id: '13',
+        question: 'Puis-je Partager mes Créations de Coloriage avec mes Collègues ?',
+        answer: 'Oui, partagez librement vos fichiers PDF et JPEG téléchargés avec vos collègues enseignants. L\'abonnement Pack Essentiel autorise le partage au sein de votre établissement. Envoyez les fichiers par email ou via votre espace numérique de travail. Vos collègues peuvent imprimer sans limite. Le partage commercial sur les plateformes de vente reste réservé aux abonnés.',
+      },
+      {
+        id: '14',
+        question: 'Comment Téléverser mes Propres Images Personnalisées pour les Coloriages ?',
+        answer: 'Cliquez sur le bouton "Importer Image" dans la barre d\'outils supérieure. Sélectionnez un ou plusieurs fichiers JPEG, PNG ou GIF depuis votre ordinateur. Les images apparaissent dans votre galerie personnelle immédiatement. Cliquez sur une image importée pour l\'ajouter au canevas. Vos photos de classe personnalisent les fiches maternelle de manière unique.',
+      },
+      {
+        id: '15',
+        question: 'Quelle est la Différence entre Export JPEG et PDF pour les Coloriages ?',
+        answer: 'Le format JPEG convient au partage numérique et aux aperçus rapides. Le PDF offre une qualité d\'impression optimale avec des textes nets à toute taille. Pour l\'impression professionnelle, choisissez toujours le PDF. Pour les réseaux sociaux ou l\'envoi par email, le JPEG suffit. Les deux formats conservent la résolution 300 DPI pour des fiches maternelle impeccables.',
+      },
+      {
+        id: '16',
+        question: 'Puis-je Créer des Coloriages Thématiques pour les Fêtes et Saisons ?',
+        answer: 'Oui, la bibliothèque contient des milliers d\'images saisonnières et festives. Noël, Pâques, Halloween et carnaval sont richement illustrés. Les saisons offrent des thèmes de nature variés. Cherchez "printemps", "automne" ou "hiver" pour des résultats adaptés. Créez des fiches maternelle en lien avec le calendrier scolaire toute l\'année.',
+      },
+      {
+        id: '17',
+        question: 'Comment Ajouter du Texte et des Consignes sur mes Coloriages ?',
+        answer: 'Cliquez sur "Ajouter Texte" dans la barre d\'outils pour insérer une zone de texte. Tapez votre consigne ou titre dans le champ qui apparaît. Choisissez parmi 7 polices adaptées aux enfants. Ajustez la taille du texte avec le curseur. Déplacez et redimensionnez le texte comme n\'importe quel autre élément sur la page.',
+      },
+      {
+        id: '18',
+        question: 'L\'Abonnement Inclut-il les Mises à Jour de la Bibliothèque d\'Images ?',
+        answer: 'Oui, votre abonnement Pack Essentiel inclut toutes les mises à jour de la bibliothèque sans frais supplémentaires. De nouvelles images sont ajoutées régulièrement selon les demandes des utilisateurs. Les thèmes saisonniers s\'enrichissent avant chaque période festive. Vos fiches maternelle bénéficient automatiquement des nouveaux contenus. Aucune action requise de votre part.',
       },
     ],
   },

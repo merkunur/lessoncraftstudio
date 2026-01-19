@@ -2,7 +2,7 @@ import { notFound, redirect } from 'next/navigation';
 import Link from 'next/link';
 import { cache } from 'react';
 import { prisma } from '@/lib/prisma';
-import { generateBlogSchemas } from '@/lib/schema-generator';
+import { generateBlogSchemas, getHreflangCode, ogLocaleMap } from '@/lib/schema-generator';
 import Breadcrumb from '@/components/Breadcrumb';
 
 // Enable ISR - revalidate every 30 minutes (reduced from 1 hour for faster updates)
@@ -762,6 +762,7 @@ export async function generateMetadata({ params }: BlogPostPageProps) {
     const canonicalUrl = `${baseUrl}/${locale}/blog/${localeSlug}`;
 
     // Build language alternates ONLY for locales with actual translations (Bug 1 fix)
+    // Uses proper hreflang codes (pt-BR, es-MX) for regional targeting (SEO fix)
     const languageAlternates: { [key: string]: string } = {};
     const locales = ['en', 'de', 'fr', 'es', 'pt', 'it', 'nl', 'sv', 'da', 'no', 'fi'];
 
@@ -770,14 +771,16 @@ export async function generateMetadata({ params }: BlogPostPageProps) {
       // ONLY include if translation has actual content (title AND content required)
       if (langTranslation?.title && langTranslation?.content) {
         const langSlug = langTranslation.slug || post.slug;
-        languageAlternates[lang] = `${baseUrl}/${lang}/blog/${langSlug}`;
+        // Use proper hreflang code (e.g., pt-BR, es-MX) as the key
+        const hreflangCode = getHreflangCode(lang);
+        languageAlternates[hreflangCode] = `${baseUrl}/${lang}/blog/${langSlug}`;
       }
     }
 
     // Add x-default pointing to English (or first available locale) (Bug 2 fix)
-    const defaultLocale = languageAlternates['en'] ? 'en' : Object.keys(languageAlternates)[0];
-    if (defaultLocale) {
-      languageAlternates['x-default'] = languageAlternates[defaultLocale];
+    const defaultHreflang = languageAlternates['en'] ? 'en' : Object.keys(languageAlternates)[0];
+    if (defaultHreflang) {
+      languageAlternates['x-default'] = languageAlternates[defaultHreflang];
     }
 
     return {
@@ -796,7 +799,7 @@ export async function generateMetadata({ params }: BlogPostPageProps) {
         type: 'article',
         url: canonicalUrl,
         siteName: 'LessonCraftStudio',
-        locale,
+        locale: ogLocaleMap[locale] || locale,
         // AUTOMATED: Article dates (content freshness signal)
         publishedTime: post.createdAt.toISOString(),
         modifiedTime: post.updatedAt.toISOString(),

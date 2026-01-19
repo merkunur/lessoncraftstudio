@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import { Button } from '@/components/ui/Button';
 import { getTranslations } from 'next-intl/server';
 import AppCard from '@/components/apps/AppCard';
-import { generateAppsCollectionSchema } from '@/lib/schema-generator';
+import { generateAppsCollectionSchema, getHreflangCode, ogLocaleMap } from '@/lib/schema-generator';
 
 // Localized SEO metadata for all 11 languages
 // Keywords focus on PLATFORM-LEVEL terms to avoid cannibalization with individual product pages
@@ -71,26 +71,22 @@ export async function generateMetadata({ params }: { params: { locale: string } 
   // Get localized metadata
   const meta = appsMetadata[locale] || appsMetadata.en;
 
+  // Generate hreflang alternates with proper regional codes (pt-BR, es-MX)
+  const locales = ['en', 'de', 'fr', 'es', 'pt', 'it', 'nl', 'sv', 'da', 'no', 'fi'];
+  const hreflangAlternates: Record<string, string> = {};
+  for (const lang of locales) {
+    const hreflangCode = getHreflangCode(lang);
+    hreflangAlternates[hreflangCode] = `${baseUrl}/${lang}/apps`;
+  }
+  hreflangAlternates['x-default'] = `${baseUrl}/en/apps`;
+
   return {
     title: meta.title,
     description: meta.description,
     keywords: meta.keywords,
     alternates: {
       canonical: `${baseUrl}/${locale}/apps`,
-      languages: {
-        'en': `${baseUrl}/en/apps`,
-        'de': `${baseUrl}/de/apps`,
-        'fr': `${baseUrl}/fr/apps`,
-        'es': `${baseUrl}/es/apps`,
-        'pt': `${baseUrl}/pt/apps`,
-        'it': `${baseUrl}/it/apps`,
-        'nl': `${baseUrl}/nl/apps`,
-        'sv': `${baseUrl}/sv/apps`,
-        'da': `${baseUrl}/da/apps`,
-        'no': `${baseUrl}/no/apps`,
-        'fi': `${baseUrl}/fi/apps`,
-        'x-default': `${baseUrl}/en/apps`
-      }
+      languages: hreflangAlternates
     },
     openGraph: {
       title: meta.title,
@@ -98,8 +94,8 @@ export async function generateMetadata({ params }: { params: { locale: string } 
       type: 'website',
       url: `${baseUrl}/${locale}/apps`,
       siteName: 'LessonCraftStudio',
-      locale: locale,
-      alternateLocale: ['en', 'de', 'fr', 'es', 'pt', 'it', 'nl', 'sv', 'da', 'no', 'fi'].filter(l => l !== locale),
+      locale: ogLocaleMap[locale] || locale,
+      alternateLocale: locales.filter(l => l !== locale).map(l => ogLocaleMap[l] || l),
       images: [{
         url: `${baseUrl}/opengraph-image.png`,
         width: 1200,

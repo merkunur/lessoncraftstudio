@@ -10,6 +10,8 @@
  * - German: /de/apps/wortsuche-arbeitsblaetter
  */
 
+import { getHreflangCode } from '@/lib/schema-generator';
+
 export interface AppSlugConfig {
   appId: string;  // Internal app identifier
   slugs: {
@@ -604,6 +606,7 @@ export function getAllProductPageSlugs(): { locale: SupportedLocale; slug: strin
 
 /**
  * Get alternate language URLs for hreflang tags
+ * Uses regional hreflang codes for pt-BR and es-MX
  */
 export function getAlternateUrls(appId: string, baseUrl: string = 'https://www.lessoncraftstudio.com'): Record<string, string> {
   const config = productPageSlugs.find(c => c.appId === appId);
@@ -612,7 +615,9 @@ export function getAlternateUrls(appId: string, baseUrl: string = 'https://www.l
   const alternates: Record<string, string> = {};
   for (const [locale, slug] of Object.entries(config.slugs)) {
     if (slug) {
-      alternates[locale] = `${baseUrl}/${locale}/apps/${slug}`;
+      // Use proper hreflang code (e.g., pt-BR, es-MX) as the key
+      const hreflangCode = getHreflangCode(locale);
+      alternates[hreflangCode] = `${baseUrl}/${locale}/apps/${slug}`;
     }
   }
 

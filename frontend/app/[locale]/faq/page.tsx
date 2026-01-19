@@ -3,11 +3,21 @@ import { getTranslations } from 'next-intl/server';
 import FAQAccordion from '@/components/FAQAccordion';
 import { Button } from '@/components/ui/Button';
 import Link from 'next/link';
+import { getHreflangCode, ogLocaleMap } from '@/lib/schema-generator';
 
 export async function generateMetadata({ params }: { params: { locale: string } }): Promise<Metadata> {
   const locale = params.locale || 'en';
   const baseUrl = 'https://www.lessoncraftstudio.com';
   const t = await getTranslations({ locale, namespace: 'faq' });
+
+  // Generate hreflang alternates with proper regional codes (pt-BR, es-MX)
+  const locales = ['en', 'de', 'fr', 'es', 'pt', 'it', 'nl', 'sv', 'da', 'no', 'fi'];
+  const hreflangAlternates: Record<string, string> = {};
+  for (const lang of locales) {
+    const hreflangCode = getHreflangCode(lang);
+    hreflangAlternates[hreflangCode] = `${baseUrl}/${lang}/faq`;
+  }
+  hreflangAlternates['x-default'] = `${baseUrl}/en/faq`;
 
   return {
     title: t('metaTitle'),
@@ -15,20 +25,7 @@ export async function generateMetadata({ params }: { params: { locale: string } 
     keywords: t('metaKeywords'),
     alternates: {
       canonical: `${baseUrl}/${locale}/faq`,
-      languages: {
-        'en': `${baseUrl}/en/faq`,
-        'de': `${baseUrl}/de/faq`,
-        'fr': `${baseUrl}/fr/faq`,
-        'es': `${baseUrl}/es/faq`,
-        'pt': `${baseUrl}/pt/faq`,
-        'it': `${baseUrl}/it/faq`,
-        'nl': `${baseUrl}/nl/faq`,
-        'sv': `${baseUrl}/sv/faq`,
-        'da': `${baseUrl}/da/faq`,
-        'no': `${baseUrl}/no/faq`,
-        'fi': `${baseUrl}/fi/faq`,
-        'x-default': `${baseUrl}/en/faq`
-      }
+      languages: hreflangAlternates
     },
     openGraph: {
       title: t('metaTitle'),
@@ -36,8 +33,8 @@ export async function generateMetadata({ params }: { params: { locale: string } 
       type: 'website',
       url: `${baseUrl}/${locale}/faq`,
       siteName: 'LessonCraftStudio',
-      locale: locale,
-      alternateLocale: ['en', 'de', 'fr', 'es', 'pt', 'it', 'nl', 'sv', 'da', 'no', 'fi'].filter(l => l !== locale)
+      locale: ogLocaleMap[locale] || locale,
+      alternateLocale: locales.filter(l => l !== locale).map(l => ogLocaleMap[l] || l)
     }
   };
 }

@@ -1,6 +1,7 @@
 import { MetadataRoute } from 'next';
 import { prisma } from '@/lib/prisma';
 import { productPageSlugs, getAlternateUrls } from '@/config/product-page-slugs';
+import { getHreflangCode } from '@/lib/schema-generator';
 
 // Enable ISR for sitemap - revalidate every 30 minutes (reduced for faster updates)
 export const revalidate = 1800;
@@ -28,11 +29,16 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const currentDate = new Date();
 
   // Helper to generate language alternates for static pages
+  // Uses regional hreflang codes (pt-BR, es-MX) for better SEO in target markets
   function generateStaticAlternates(path: string): Record<string, string> {
     const alternates: Record<string, string> = {};
     for (const lang of locales) {
-      alternates[lang] = `${baseUrl}/${lang}${path}`;
+      // Use proper hreflang code (e.g., pt-BR, es-MX) as the key
+      const hreflangCode = getHreflangCode(lang);
+      alternates[hreflangCode] = `${baseUrl}/${lang}${path}`;
     }
+    // Add x-default for unspecified regions
+    alternates['x-default'] = `${baseUrl}/en${path}`;
     return alternates;
   }
 
@@ -116,15 +122,19 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       }
 
       // Build alternates map ONLY for locales with actual translations
+      // Uses regional hreflang codes (pt-BR, es-MX) for better SEO in target markets
       const blogAlternates: Record<string, string> = {};
       for (const lang of availableLocales) {
         const langSlug = translations[lang]?.slug || post.slug;
-        blogAlternates[lang] = `${baseUrl}/${lang}/blog/${langSlug}`;
+        // Use proper hreflang code (e.g., pt-BR, es-MX) as the key
+        const hreflangCode = getHreflangCode(lang);
+        blogAlternates[hreflangCode] = `${baseUrl}/${lang}/blog/${langSlug}`;
       }
 
       // Add x-default pointing to first available locale (usually English if present)
       const defaultLocale = availableLocales.includes('en') ? 'en' : availableLocales[0];
-      blogAlternates['x-default'] = blogAlternates[defaultLocale];
+      const defaultHreflang = getHreflangCode(defaultLocale);
+      blogAlternates['x-default'] = blogAlternates[defaultHreflang];
 
       return availableLocales.map((locale) => {
         // Use language-specific slug

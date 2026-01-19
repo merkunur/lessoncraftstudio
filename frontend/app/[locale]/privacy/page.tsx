@@ -1,30 +1,27 @@
 import { getTranslations } from 'next-intl/server';
 import { Metadata } from 'next';
+import { getHreflangCode, ogLocaleMap } from '@/lib/schema-generator';
 
 export async function generateMetadata({ params }: { params: { locale: string } }): Promise<Metadata> {
   const locale = params.locale || 'en';
   const baseUrl = 'https://www.lessoncraftstudio.com';
   const t = await getTranslations({ locale, namespace: 'privacy' });
 
+  // Generate hreflang alternates with proper regional codes (pt-BR, es-MX)
+  const locales = ['en', 'de', 'fr', 'es', 'pt', 'it', 'nl', 'sv', 'da', 'no', 'fi'];
+  const hreflangAlternates: Record<string, string> = {};
+  for (const lang of locales) {
+    const hreflangCode = getHreflangCode(lang);
+    hreflangAlternates[hreflangCode] = `${baseUrl}/${lang}/privacy`;
+  }
+  hreflangAlternates['x-default'] = `${baseUrl}/en/privacy`;
+
   return {
     title: t('title'),
     description: t('introduction.content'),
     alternates: {
       canonical: `${baseUrl}/${locale}/privacy`,
-      languages: {
-        'en': `${baseUrl}/en/privacy`,
-        'de': `${baseUrl}/de/privacy`,
-        'fr': `${baseUrl}/fr/privacy`,
-        'es': `${baseUrl}/es/privacy`,
-        'pt': `${baseUrl}/pt/privacy`,
-        'it': `${baseUrl}/it/privacy`,
-        'nl': `${baseUrl}/nl/privacy`,
-        'sv': `${baseUrl}/sv/privacy`,
-        'da': `${baseUrl}/da/privacy`,
-        'no': `${baseUrl}/no/privacy`,
-        'fi': `${baseUrl}/fi/privacy`,
-        'x-default': `${baseUrl}/en/privacy`
-      }
+      languages: hreflangAlternates
     },
     openGraph: {
       title: t('title'),
@@ -32,8 +29,8 @@ export async function generateMetadata({ params }: { params: { locale: string } 
       type: 'website',
       url: `${baseUrl}/${locale}/privacy`,
       siteName: 'LessonCraftStudio',
-      locale: locale,
-      alternateLocale: ['en', 'de', 'fr', 'es', 'pt', 'it', 'nl', 'sv', 'da', 'no', 'fi'].filter(l => l !== locale)
+      locale: ogLocaleMap[locale] || locale,
+      alternateLocale: locales.filter(l => l !== locale).map(l => ogLocaleMap[l] || l)
     }
   };
 }

@@ -6,6 +6,7 @@
  */
 
 import { ProductPageContent } from '@/components/product-page/ProductPageClient';
+import { getHreflangCode } from '@/lib/schema-generator';
 
 // English content imports
 import wordSearchEnContent from '@/content/product-pages/en/word-search-worksheets';
@@ -1812,6 +1813,7 @@ export function getAllStaticParams(): { locale: string; slug: string }[] {
 /**
  * Get alternate URLs for hreflang tags
  * Returns all available language versions of the same app
+ * Uses regional hreflang codes (pt-BR, es-MX) for better SEO in target markets
  */
 export function getAlternateLanguageUrls(
   appId: string,
@@ -1823,7 +1825,9 @@ export function getAlternateLanguageUrls(
     for (const [slug, content] of Object.entries(slugs)) {
       // Check if this content matches the appId
       if (content.seo?.appId === appId) {
-        alternates[locale] = `${baseUrl}/${locale}/apps/${content.seo.slug}`;
+        // Use proper hreflang code (e.g., pt-BR, es-MX) as the key
+        const hreflangCode = getHreflangCode(locale);
+        alternates[hreflangCode] = `${baseUrl}/${locale}/apps/${content.seo.slug}`;
         break; // Only one URL per locale
       }
     }

@@ -3,6 +3,7 @@ import type { Metadata } from 'next';
 import BlogPageClient from './BlogPageClient';
 import { getBlogPostsForLocale, getBlogCategoriesForLocale } from '@/lib/blog-data';
 import Breadcrumb from '@/components/Breadcrumb';
+import { getHreflangCode, ogLocaleMap } from '@/lib/schema-generator';
 
 // Enable ISR - revalidate every 30 minutes (reduced from 1 hour for faster updates)
 export const revalidate = 1800;
@@ -100,25 +101,21 @@ export async function generateMetadata({ params, searchParams }: BlogPageProps):
     otherLinks.next = `${baseUrl}/${locale}/blog?page=${currentPage + 1}`;
   }
 
+  // Generate hreflang alternates with proper regional codes (pt-BR, es-MX)
+  const locales = ['en', 'de', 'fr', 'es', 'pt', 'it', 'nl', 'sv', 'da', 'no', 'fi'];
+  const hreflangAlternates: Record<string, string> = {};
+  for (const lang of locales) {
+    const hreflangCode = getHreflangCode(lang);
+    hreflangAlternates[hreflangCode] = `${baseUrl}/${lang}/blog${currentPage > 1 ? `?page=${currentPage}` : ''}`;
+  }
+  hreflangAlternates['x-default'] = `${baseUrl}/en/blog${currentPage > 1 ? `?page=${currentPage}` : ''}`;
+
   return {
     title: pageTitle,
     description: localeMeta.description,
     alternates: {
       canonical: canonicalUrl,
-      languages: {
-        'en': `${baseUrl}/en/blog${currentPage > 1 ? `?page=${currentPage}` : ''}`,
-        'de': `${baseUrl}/de/blog${currentPage > 1 ? `?page=${currentPage}` : ''}`,
-        'fr': `${baseUrl}/fr/blog${currentPage > 1 ? `?page=${currentPage}` : ''}`,
-        'es': `${baseUrl}/es/blog${currentPage > 1 ? `?page=${currentPage}` : ''}`,
-        'pt': `${baseUrl}/pt/blog${currentPage > 1 ? `?page=${currentPage}` : ''}`,
-        'it': `${baseUrl}/it/blog${currentPage > 1 ? `?page=${currentPage}` : ''}`,
-        'nl': `${baseUrl}/nl/blog${currentPage > 1 ? `?page=${currentPage}` : ''}`,
-        'sv': `${baseUrl}/sv/blog${currentPage > 1 ? `?page=${currentPage}` : ''}`,
-        'da': `${baseUrl}/da/blog${currentPage > 1 ? `?page=${currentPage}` : ''}`,
-        'no': `${baseUrl}/no/blog${currentPage > 1 ? `?page=${currentPage}` : ''}`,
-        'fi': `${baseUrl}/fi/blog${currentPage > 1 ? `?page=${currentPage}` : ''}`,
-        'x-default': `${baseUrl}/en/blog${currentPage > 1 ? `?page=${currentPage}` : ''}`
-      }
+      languages: hreflangAlternates
     },
     openGraph: {
       title: pageTitle,
@@ -126,8 +123,8 @@ export async function generateMetadata({ params, searchParams }: BlogPageProps):
       type: 'website',
       url: canonicalUrl,
       siteName: 'LessonCraftStudio',
-      locale: locale,
-      alternateLocale: ['en', 'de', 'fr', 'es', 'pt', 'it', 'nl', 'sv', 'da', 'no', 'fi'].filter(l => l !== locale)
+      locale: ogLocaleMap[locale] || locale,
+      alternateLocale: locales.filter(l => l !== locale).map(l => ogLocaleMap[l] || l)
     },
     other: otherLinks
   };

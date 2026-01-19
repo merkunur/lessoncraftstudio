@@ -527,12 +527,13 @@ const localizedWorksheetGenerator: Record<string, string> = {
 
 /**
  * og:locale mapping for OpenGraph tags
+ * Note: es targets Mexico (es_MX) for Latin America market
  */
 export const ogLocaleMap: Record<string, string> = {
   en: 'en_US',
   de: 'de_DE',
   fr: 'fr_FR',
-  es: 'es_ES',
+  es: 'es_MX',  // Changed from es_ES - targeting Mexico/Latin America
   pt: 'pt_BR',
   it: 'it_IT',
   nl: 'nl_NL',
@@ -541,6 +542,33 @@ export const ogLocaleMap: Record<string, string> = {
   no: 'nb_NO',
   fi: 'fi_FI'
 };
+
+/**
+ * Hreflang mapping for language alternates
+ * Uses regional codes for Portuguese (Brazil) and Spanish (Mexico/Latin America)
+ * This is critical for SEO in target markets
+ */
+export const hreflangMap: Record<string, string> = {
+  en: 'en',
+  de: 'de',
+  fr: 'fr',
+  es: 'es-MX',    // Mexican Spanish for Latin America market
+  pt: 'pt-BR',    // Brazilian Portuguese
+  it: 'it',
+  nl: 'nl',
+  sv: 'sv',
+  da: 'da',
+  no: 'no',
+  fi: 'fi',
+};
+
+/**
+ * Get the proper hreflang code for a locale
+ * Converts internal locale codes to proper hreflang format
+ */
+export function getHreflangCode(locale: string): string {
+  return hreflangMap[locale] || locale;
+}
 
 /**
  * Language folder mapping for sample images

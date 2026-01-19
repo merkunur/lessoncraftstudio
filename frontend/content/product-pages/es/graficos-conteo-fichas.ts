@@ -19,6 +19,38 @@ export const graficosConteoEsContent: ProductPageContent = {
     description: 'Crea fichas de gráficos con imágenes profesionales con nuestro generador especializado. Los gráficos de conteo con imágenes enseñan a los niños a contar, clasificar y representar datos visualmente. Descarga fichas gratis de alta calidad en formato PDF en menos de 3 minutos.',
     keywords: 'fichas de gráficos, gráficos con imágenes, fichas para imprimir, fichas infantil, fichas preescolar, fichas de matemáticas, ejercicios matemáticas, material educativo gratis, fichas gratis, aprender los números, grafomotricidad, lectoescritura, dibujos para colorear, tablas de multiplicar',
     canonicalUrl: 'https://www.lessoncraftstudio.com/es/apps/graficos-conteo-fichas',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/spanish/chart-count/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fichas de gráficos con imágenes gratis para imprimir - ejercicios de conteo para preescolar',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/spanish/chart-count/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gráficos de conteo fichas para imprimir gratis - material educativo matemáticas infantil',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/spanish/chart-count/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fichas de matemáticas para preescolar gratis - gráficos con imágenes para niños',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/spanish/chart-count/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gráficos para contar fichas gratis para imprimir - ejercicios visuales educación infantil',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/spanish/chart-count/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fichas infantil de gráficos de conteo gratis - material educativo para primaria',
+      },
+    ],
   },
 
   // Hero Section - FULL text from chart-count.md paragraphs 1-4
@@ -32,7 +64,7 @@ Genera fichas de matemáticas con gráficos personalizados en menos de 3 minutos
 Las fichas preescolar de gráficos preparan a los niños para conceptos matemáticos más avanzados. Los estudiantes aprenden los números mediante representaciones visuales concretas. Las fichas infantil incluyen imágenes atractivas que mantienen el interés de los pequeños. El generador crea ejercicios matemáticas progresivos desde conteo básico hasta introducción a estadísticas simples.
 
 Los maestros de preescolar usan estas fichas para imprimir para enseñar clasificación y conteo. Los docentes de primaria las utilizan para introducir conceptos de datos y gráficos. Los padres que educan en casa encuentran en estas fichas de matemáticas un recurso valioso para desarrollar el pensamiento lógico matemático. Cada hoja incluye una clave de respuestas generada automáticamente para facilitar la corrección.`,
-    previewImageSrc: '/samples/english/chart count/chart count.jpeg',
+    previewImageSrc: '/samples/spanish/chart-count/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Probar Gratis',
       viewSamples: 'Ver Ejemplos',
@@ -67,10 +99,38 @@ Los maestros de preescolar usan estas fichas para imprimir para enseñar clasifi
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/chart count/chart count.jpeg',
-        answerKeySrc: '/samples/english/chart count/chart count answer_key.jpeg',
-        altText: 'Ficha de gráficos con imágenes para contar y clasificar objetos visualmente',
-        pdfDownloadUrl: '/samples/english/chart count/chart count.pdf',
+        worksheetSrc: '/samples/spanish/chart-count/sample-1.jpeg',
+        answerKeySrc: '/samples/spanish/chart-count/sample-1-answer.jpeg',
+        altText: 'Fichas de gráficos con imágenes gratis para imprimir - ejercicios conteo preescolar',
+        pdfDownloadUrl: '/samples/spanish/chart-count/sample-1.pdf',
+      },
+      {
+        id: '2',
+        worksheetSrc: '/samples/spanish/chart-count/sample-2.jpeg',
+        answerKeySrc: '/samples/spanish/chart-count/sample-2-answer.jpeg',
+        altText: 'Gráficos de conteo fichas para imprimir gratis - material educativo infantil',
+        pdfDownloadUrl: '/samples/spanish/chart-count/sample-2.pdf',
+      },
+      {
+        id: '3',
+        worksheetSrc: '/samples/spanish/chart-count/sample-3.jpeg',
+        answerKeySrc: '/samples/spanish/chart-count/sample-3-answer.jpeg',
+        altText: 'Fichas de matemáticas preescolar gratis - gráficos imágenes para niños',
+        pdfDownloadUrl: '/samples/spanish/chart-count/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/spanish/chart-count/sample-4.jpeg',
+        answerKeySrc: '/samples/spanish/chart-count/sample-4-answer.jpeg',
+        altText: 'Gráficos para contar fichas gratis - ejercicios visuales educación infantil',
+        pdfDownloadUrl: '/samples/spanish/chart-count/sample-4.pdf',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/spanish/chart-count/sample-5.jpeg',
+        answerKeySrc: '/samples/spanish/chart-count/sample-5-answer.jpeg',
+        altText: 'Fichas infantil gráficos conteo gratis - material educativo primaria',
+        pdfDownloadUrl: '/samples/spanish/chart-count/sample-5.pdf',
       },
     ],
   },

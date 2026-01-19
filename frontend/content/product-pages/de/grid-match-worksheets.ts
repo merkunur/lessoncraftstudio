@@ -27,10 +27,42 @@ export const gridMatchDeContent: ProductPageContent = {
   seo: {
     slug: 'raster-puzzle-arbeitsblaetter',
     appId: 'grid-match',
-    title: 'Raster-Puzzle Generator - Kostenlose Arbeitsblätter Grundschule - Vorschul-Arbeitsblätter für räumliches Denken',
-    description: 'Erstellen Sie professionelle Raster-Puzzle-Arbeitsblätter mit unserem Generator. Perfekt für Arbeitsblätter Grundschule, Vorschul-Arbeitsblätter und Mathe-Arbeitsblätter. Generieren Sie Puzzle-Aktivitäten für räumliches Denken. Laden Sie druckfertige PDF-Dateien in unter 3 Minuten herunter.',
+    title: 'Raster-Puzzle Arbeitsblätter | Kostenlose Vorschul-Arbeitsblätter',
+    description: 'Erstellen Sie professionelle Raster-Puzzle-Arbeitsblätter für Grundschule und Vorschule. Räumliches Denken Generator. PDF Download in unter 3 Minuten.',
     keywords: 'raster-puzzle arbeitsblätter, arbeitsblätter grundschule, kostenlose arbeitsblätter, vorschule arbeitsblätter, mathe arbeitsblätter, räumliches denken, puzzle arbeitsblätter, schwungübungen, ausmalbilder, einmaleins',
     canonicalUrl: 'https://www.lessoncraftstudio.com/de/apps/raster-puzzle-arbeitsblaetter',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/german/grid-match/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Raster-Puzzle Arbeitsblätter Grundschule - Kostenloses Arbeitsblatt für räumliches Denken'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/german/grid-match/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Kostenlose Arbeitsblätter Raster-Puzzle - Arbeitsblatt für Kinder Vorschule'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/german/grid-match/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Vorschul-Arbeitsblätter Raster-Puzzle - Kostenlose Druckvorlagen räumliches Denken'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/german/grid-match/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Arbeitsblatt für Vorschule Raster-Puzzle - Kostenloses Arbeitsblatt für Kinder'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/german/grid-match/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Mathe-Arbeitsblätter Raster-Puzzle - Arbeitsblatt Grundschule zum Ausdrucken'
+      },
+    ],
   },
 
   // Hero Section - FULL text from raster-puzzle.md
@@ -42,7 +74,7 @@ export const gridMatchDeContent: ProductPageContent = {
 Kinder lieben Puzzle. Mit unserem Raster-Puzzle Generator erstellen Sie Lernmaterialien in wenigen Minuten. Die Kinder ordnen nummerierte Puzzleteile dem richtigen Rasterfeld zu. So trainieren sie spielerisch räumliches Denken. Das Puzzle bereitet auf Mathe-Arbeitsblätter und Einmaleins vor.
 
 Das Vollzugriff Abonnement enthält alle 33 Arbeitsblatt-Generatoren. Kombinieren Sie Raster-Puzzle mit Schwungübungen, Deutsch-Arbeitsblättern und Arbeitsblättern zum Buchstaben lernen. Ihr Abonnement beinhaltet die kommerzielle Lizenz für den Verkauf auf Teachers Pay Teachers und Etsy. Professionelle 300 DPI Qualität garantiert perfektes Drucken.`,
-    previewImageSrc: '/samples/english/grid match/grid match portrait .jpeg',
+    previewImageSrc: '/samples/german/grid-match/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Kostenlos Testen',
       viewSamples: 'Beispiele Ansehen',
@@ -77,17 +109,38 @@ Das Vollzugriff Abonnement enthält alle 33 Arbeitsblatt-Generatoren. Kombiniere
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/grid match/grid match portrait .jpeg',
-        answerKeySrc: '/samples/english/grid match/grid match portrait  answer_key.jpeg',
-        altText: 'Raster-Puzzle Arbeitsblatt Hochformat für Vorschul-Arbeitsblätter und räumliches Denken',
-        pdfDownloadUrl: '/samples/english/grid match/grid match portrait .pdf',
+        worksheetSrc: '/samples/german/grid-match/sample-1.jpeg',
+        answerKeySrc: '/samples/german/grid-match/sample-1-answer.jpeg',
+        altText: 'Raster-Puzzle Arbeitsblätter Grundschule - Kostenloses Arbeitsblatt für räumliches Denken',
+        pdfDownloadUrl: '/samples/german/grid-match/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/grid match/grid match landscape.jpeg',
-        answerKeySrc: '/samples/english/grid match/grid match landscape answer_key.jpeg',
-        altText: 'Arbeitsblätter Grundschule Raster-Puzzle Querformat mit visueller Wahrnehmungsübung',
-        pdfDownloadUrl: '/samples/english/grid match/grid match landscape.pdf',
+        worksheetSrc: '/samples/german/grid-match/sample-2.jpeg',
+        answerKeySrc: '/samples/german/grid-match/sample-2-answer.jpeg',
+        altText: 'Kostenlose Arbeitsblätter Raster-Puzzle - Arbeitsblatt für Kinder Vorschule',
+        pdfDownloadUrl: '/samples/german/grid-match/sample-2.pdf',
+      },
+      {
+        id: '3',
+        worksheetSrc: '/samples/german/grid-match/sample-3.jpeg',
+        answerKeySrc: '/samples/german/grid-match/sample-3-answer.jpeg',
+        altText: 'Vorschul-Arbeitsblätter Raster-Puzzle - Kostenlose Druckvorlagen räumliches Denken',
+        pdfDownloadUrl: '/samples/german/grid-match/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/german/grid-match/sample-4.jpeg',
+        answerKeySrc: '/samples/german/grid-match/sample-4-answer.jpeg',
+        altText: 'Arbeitsblatt für Vorschule Raster-Puzzle - Kostenloses Arbeitsblatt für Kinder',
+        pdfDownloadUrl: '/samples/german/grid-match/sample-4.pdf',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/german/grid-match/sample-5.jpeg',
+        answerKeySrc: '/samples/german/grid-match/sample-5-answer.jpeg',
+        altText: 'Mathe-Arbeitsblätter Raster-Puzzle - Arbeitsblatt Grundschule zum Ausdrucken',
+        pdfDownloadUrl: '/samples/german/grid-match/sample-5.pdf',
       },
     ],
   },

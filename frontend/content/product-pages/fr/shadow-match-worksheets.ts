@@ -21,6 +21,38 @@ export const shadowMatchFrContent: ProductPageContent = {
     description: 'Créez des fiches de reconnaissance visuelle professionnelles pour la maternelle. Votre abonnement Accès Complet vous donne accès à ce générateur de fiches d\'association d\'ombres. Créez des exercices de discrimination visuelle adaptés à la petite section, moyenne section et grande section de maternelle. Téléchargez des fiches PDF de haute qualité en moins de 3 minutes.',
     keywords: 'fiches maternelle, discrimination visuelle, reconnaissance visuelle, association ombres, exercices CP, fiches à imprimer gratuit, graphisme maternelle, apprendre à lire, alphabet, coloriage à imprimer, écriture cursive, tables de multiplication, exercices maths',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fr/apps/discrimination-visuelle-fiches',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/shadow-match/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fiche discrimination visuelle gratuite - association d\'ombres pour maternelle'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/shadow-match/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Exercice discrimination visuelle fiches maternelle - reconnaissance visuelle'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/shadow-match/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fiches gratuites discrimination visuelle CP - exercices graphisme maternelle'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/shadow-match/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fiche pour maternelle association ombres - discrimination visuelle à imprimer'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/shadow-match/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fiches reconnaissance visuelle gratuites pour enfants - exercices CP'
+      },
+    ],
   },
 
   // Hero Section - FULL text from shadow-match.md paragraphs 1-4
@@ -32,7 +64,7 @@ export const shadowMatchFrContent: ProductPageContent = {
 Le générateur Shadow Match propose deux modes d'exercices uniques. Le mode association d'ombres développe la perception visuelle des enfants. Les élèves associent des images en couleur à leurs silhouettes noires. Le mode reconstitution d'images développe le raisonnement spatial. Les enfants assemblent des moitiés d'images pour former l'objet complet.
 
 Ces fiches maternelle travaillent les compétences essentielles du programme de maternelle. La discrimination visuelle prépare à la lecture et l'écriture. Le raisonnement spatial soutient les apprentissages mathématiques. Ces exercices conviennent parfaitement aux élèves de PS, MS et GS. Les enseignants utilisent ces fiches pour différencier les activités selon le niveau.`,
-    previewImageSrc: '/samples/english/shadow match/shadow-match-worksheet.jpeg',
+    previewImageSrc: '/samples/french/shadow-match/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Essayer Gratuitement',
       viewSamples: 'Voir les Exemples',
@@ -51,7 +83,7 @@ Ces fiches maternelle travaillent les compétences essentielles du programme de 
     },
   },
 
-  // Sample Gallery - REAL file paths from samples/english/shadow match/
+  // Sample Gallery - REAL file paths from samples/french/shadow-match/
   samples: {
     sectionTitle: 'Exemples de Fiches de Discrimination Visuelle',
     sectionDescription: 'Téléchargez des exemples gratuits pour voir notre qualité professionnelle',
@@ -67,24 +99,38 @@ Ces fiches maternelle travaillent les compétences essentielles du programme de 
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/shadow match/shadow-match-worksheet.jpeg',
-        answerKeySrc: '/samples/english/shadow match/shadow-match-answer-key.jpeg',
-        altText: 'Fiche de discrimination visuelle avec association d\'ombres pour la maternelle',
-        pdfDownloadUrl: '/samples/english/shadow match/shadow-match-worksheet.pdf',
+        worksheetSrc: '/samples/french/shadow-match/sample-1.jpeg',
+        answerKeySrc: '/samples/french/shadow-match/sample-1-answer.jpeg',
+        altText: 'Fiche discrimination visuelle gratuite - association d\'ombres pour maternelle PS MS GS',
+        pdfDownloadUrl: '/samples/french/shadow-match/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/shadow match/shadow-match-horizontal.jpeg',
-        answerKeySrc: '/samples/english/shadow match/shadow-match-horizontal answer-key.jpeg',
-        altText: 'Fiche de reconstitution d\'images avec coupe horizontale pour exercices CP',
-        pdfDownloadUrl: '/samples/english/shadow match/shadow-match-horizontal.pdf',
+        worksheetSrc: '/samples/french/shadow-match/sample-2.jpeg',
+        answerKeySrc: '/samples/french/shadow-match/sample-2-answer.jpeg',
+        altText: 'Exercice discrimination visuelle fiches maternelle - reconnaissance visuelle pour enfants',
+        pdfDownloadUrl: '/samples/french/shadow-match/sample-2.pdf',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/shadow match/shadow-match-vertical.jpeg',
-        answerKeySrc: '/samples/english/shadow match/shadow-match-vertical answer-key.jpeg',
-        altText: 'Fiche de reconstitution d\'images avec coupe verticale pour graphisme maternelle',
-        pdfDownloadUrl: '/samples/english/shadow match/shadow-match-vertical.pdf',
+        worksheetSrc: '/samples/french/shadow-match/sample-3.jpeg',
+        answerKeySrc: '/samples/french/shadow-match/sample-3-answer.jpeg',
+        altText: 'Fiches gratuites discrimination visuelle CP - exercices graphisme maternelle',
+        pdfDownloadUrl: '/samples/french/shadow-match/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/french/shadow-match/sample-4.jpeg',
+        answerKeySrc: '/samples/french/shadow-match/sample-4-answer.jpeg',
+        altText: 'Fiche pour maternelle association ombres - discrimination visuelle à imprimer gratuit',
+        pdfDownloadUrl: '/samples/french/shadow-match/sample-4.pdf',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/french/shadow-match/sample-5.jpeg',
+        answerKeySrc: '/samples/french/shadow-match/sample-5-answer.jpeg',
+        altText: 'Fiches reconnaissance visuelle gratuites pour enfants - exercices CP discrimination',
+        pdfDownloadUrl: '/samples/french/shadow-match/sample-5.pdf',
       },
     ],
   },

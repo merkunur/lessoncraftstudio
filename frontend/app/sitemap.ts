@@ -10,13 +10,13 @@ export const revalidate = 1800;
  * Includes all public pages, blog posts, product pages, and multilingual routes
  * Each entry includes alternates to all language versions for better SEO
  *
- * Priority structure (optimized for Google):
- * - 1.0: Homepages (11 pages)
- * - 0.95: Apps collection pages (11 pages)
- * - 0.9: Individual app product pages (112+ pages)
- * - 0.85: Pricing pages (11 pages)
- * - 0.7: Blog index (11 pages)
- * - 0.6: Blog posts (1000+ pages)
+ * Priority structure (optimized for product pages):
+ * - 1.0: Individual app product pages (363 pages) - HIGHEST, conversion targets
+ * - 0.8: Homepages (11 pages)
+ * - 0.6: Pricing pages (11 pages)
+ * - 0.5: Apps collection pages (11 pages) - navigation hub only
+ * - 0.5: Blog index (11 pages)
+ * - 0.5: Blog posts (1000+ pages)
  * - 0.3: Legal pages (terms, privacy)
  */
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
@@ -38,12 +38,12 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
   // Static routes for each locale with hreflang alternates
   const staticRoutes: MetadataRoute.Sitemap = [];
-  // Optimized priority values for Google
+  // Optimized priority values - product pages are highest priority
   const staticPages = [
-    { path: '', priority: 1.0, changeFreq: 'daily' as const }, // Homepage - highest priority
-    { path: '/apps', priority: 0.95, changeFreq: 'weekly' as const }, // Apps collection - very high
-    { path: '/pricing', priority: 0.85, changeFreq: 'weekly' as const }, // Pricing
-    { path: '/blog', priority: 0.7, changeFreq: 'daily' as const }, // Blog index
+    { path: '', priority: 0.8, changeFreq: 'daily' as const }, // Homepage
+    { path: '/apps', priority: 0.5, changeFreq: 'weekly' as const }, // Apps collection - navigation hub only
+    { path: '/pricing', priority: 0.6, changeFreq: 'weekly' as const }, // Pricing
+    { path: '/blog', priority: 0.5, changeFreq: 'daily' as const }, // Blog index
     { path: '/terms', priority: 0.3, changeFreq: 'monthly' as const }, // Legal
     { path: '/privacy', priority: 0.3, changeFreq: 'monthly' as const }, // Legal
   ];
@@ -76,7 +76,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
           url: `${baseUrl}/${locale}/apps/${slug}`,
           lastModified: currentDate,
           changeFrequency: 'weekly' as const,
-          priority: 0.9, // High priority for conversion pages
+          priority: 1.0, // Highest priority - these are the conversion target pages
           alternates: {
             languages: appAlternates,
           },
@@ -134,7 +134,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
           url: `${baseUrl}/${locale}/blog/${localeSlug}`,
           lastModified: post.updatedAt,
           changeFrequency: 'weekly' as const,
-          priority: 0.6, // Lower than product pages, higher than legal
+          priority: 0.5, // Blog posts - support content
           alternates: {
             languages: blogAlternates,
           },

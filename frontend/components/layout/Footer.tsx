@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useState, useEffect } from 'react';
 import { useTranslations } from 'next-intl';
+import { getSlugForLocale, type SupportedLocale } from '@/config/product-page-slugs';
 
 interface FooterContent {
   companyName?: string;
@@ -96,6 +97,31 @@ export function Footer() {
     }
   };
 
+  // Popular generators configuration with locale-specific labels
+  const popularGenerators = [
+    { appId: 'word-search', labels: { en: 'Word Search', de: 'Wortsuche', fr: 'Mots Cachés', es: 'Sopa de Letras', it: 'Cerca Parole', pt: 'Caça-Palavras', nl: 'Woordzoeker', sv: 'Ordjakt', da: 'Ordsøgning', no: 'Ordsøk', fi: 'Sananhaku' } },
+    { appId: 'image-addition', labels: { en: 'Addition', de: 'Addition', fr: 'Addition', es: 'Suma', it: 'Addizione', pt: 'Adição', nl: 'Optellen', sv: 'Addition', da: 'Addition', no: 'Addisjon', fi: 'Yhteenlasku' } },
+    { appId: 'coloring', labels: { en: 'Coloring', de: 'Malvorlagen', fr: 'Coloriage', es: 'Colorear', it: 'Colorare', pt: 'Colorir', nl: 'Kleurplaten', sv: 'Målarbilder', da: 'Malebog', no: 'Fargelegging', fi: 'Väritys' } },
+    { appId: 'math-worksheet', labels: { en: 'Math', de: 'Mathe', fr: 'Maths', es: 'Matemáticas', it: 'Matematica', pt: 'Matemática', nl: 'Rekenen', sv: 'Matte', da: 'Matematik', no: 'Matte', fi: 'Matematiikka' } },
+    { appId: 'matching-app', labels: { en: 'Matching', de: 'Zuordnung', fr: 'Association', es: 'Relacionar', it: 'Abbinamento', pt: 'Ligar', nl: 'Verbinden', sv: 'Matchning', da: 'Matchning', no: 'Kobling', fi: 'Yhdistä' } },
+    { appId: 'image-crossword', labels: { en: 'Crossword', de: 'Kreuzworträtsel', fr: 'Mots Croisés', es: 'Crucigrama', it: 'Cruciverba', pt: 'Palavras Cruzadas', nl: 'Kruiswoordpuzzel', sv: 'Korsord', da: 'Krydsord', no: 'Kryssord', fi: 'Ristikko' } },
+  ];
+
+  // Get localized title for Popular Generators section
+  const popularGeneratorsTitle: Record<string, string> = {
+    en: 'Popular Generators',
+    de: 'Beliebte Generatoren',
+    fr: 'Générateurs Populaires',
+    es: 'Generadores Populares',
+    it: 'Generatori Popolari',
+    pt: 'Geradores Populares',
+    nl: 'Populaire Generatoren',
+    sv: 'Populära Generatorer',
+    da: 'Populære Generatorer',
+    no: 'Populære Generatorer',
+    fi: 'Suositut Generaattorit'
+  };
+
   if (isLoading) {
     return (
       <footer className="bg-gray-900 text-gray-300 py-12 mt-20">
@@ -103,8 +129,8 @@ export function Footer() {
           <div className="animate-pulse">
             <div className="h-4 bg-gray-700 rounded w-1/4 mb-4"></div>
             <div className="h-3 bg-gray-700 rounded w-1/2 mb-8"></div>
-            <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-              {[1, 2, 3, 4].map(i => (
+            <div className="grid grid-cols-1 md:grid-cols-5 gap-8">
+              {[1, 2, 3, 4, 5].map(i => (
                 <div key={i}>
                   <div className="h-4 bg-gray-700 rounded w-1/2 mb-4"></div>
                   <div className="space-y-2">
@@ -124,11 +150,32 @@ export function Footer() {
   return (
     <footer className="bg-gray-900 text-gray-300 py-12 mt-20">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-5 gap-8">
           {/* Company Info */}
           <div>
             <h3 className="text-white font-semibold mb-4">{companyName}</h3>
             <p className="text-sm">{tagline}</p>
+          </div>
+
+          {/* Popular Generators Section - Direct links to product pages for SEO */}
+          <div>
+            <h4 className="text-white font-semibold mb-4">
+              {popularGeneratorsTitle[locale] || 'Popular Generators'}
+            </h4>
+            <ul className="space-y-2 text-sm">
+              {popularGenerators.map(generator => {
+                const slug = getSlugForLocale(generator.appId, locale as SupportedLocale);
+                const label = generator.labels[locale as keyof typeof generator.labels] || generator.labels.en;
+                if (!slug) return null;
+                return (
+                  <li key={generator.appId}>
+                    <Link href={`/${locale}/apps/${slug}`} className="hover:text-white">
+                      {label}
+                    </Link>
+                  </li>
+                );
+              })}
+            </ul>
           </div>
 
           {/* Product Section */}

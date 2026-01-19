@@ -5,61 +5,62 @@ import AppCard from '@/components/apps/AppCard';
 import { generateAppsCollectionSchema } from '@/lib/schema-generator';
 
 // Localized SEO metadata for all 11 languages
+// Keywords focus on PLATFORM-LEVEL terms to avoid cannibalization with individual product pages
 const appsMetadata: Record<string, { title: string; description: string; keywords: string }> = {
   en: {
     title: '33 Free Worksheet Generators - Educational Apps | LessonCraftStudio',
     description: 'Browse all 33 professional worksheet generators. Word search, crossword, math puzzles, and more. Free for teachers and parents.',
-    keywords: 'kindergarten worksheets, math worksheets, free printable worksheets, alphabet worksheets, first grade worksheets, worksheet generators, addition worksheets, coloring worksheets, phonics worksheets, tracing worksheets'
+    keywords: 'worksheet generator platform, educational app suite, teacher worksheet tools, classroom resource creator, all-in-one worksheet maker, 33 worksheet generators, printable activity creator, educational technology platform, teacher resource hub, worksheet creation software'
   },
   de: {
     title: '33 Kostenlose Arbeitsblatt-Generatoren | LessonCraftStudio',
     description: 'Entdecken Sie 33 professionelle Arbeitsblatt-Generatoren. Wortsuchrätsel, Kreuzworträtsel, Mathe-Puzzles und mehr.',
-    keywords: 'Arbeitsblätter Grundschule, Mathe Arbeitsblätter, kostenlose Arbeitsblätter, Vorschule Arbeitsblätter, Ausmalbilder, Buchstaben lernen, Schwungübungen, Einmaleins, Rechnen 1. Klasse, Arbeitsblatt-Generatoren'
+    keywords: 'Arbeitsblatt-Generator-Plattform, Lehrmittel-Software, Unterrichtsmaterial-Ersteller, 33 Generatoren, Klassenzimmer-Tools, pädagogische App-Suite, Lehrer-Ressourcen-Plattform, Bildungstechnologie, Arbeitsblatt-Erstellung, digitale Lernwerkzeuge'
   },
   fr: {
     title: '33 Générateurs de Fiches Gratuits | LessonCraftStudio',
     description: 'Découvrez 33 générateurs de fiches professionnels. Mots cachés, mots croisés, puzzles mathématiques et plus.',
-    keywords: 'fiches maternelle, exercices CP CE1, coloriage à imprimer, fiches à imprimer gratuit, graphisme maternelle, apprendre à lire, exercices maths, alphabet, tables de multiplication, générateurs de fiches'
+    keywords: 'plateforme générateur de fiches, suite éducative, outils pédagogiques enseignants, 33 générateurs, créateur ressources classe, logiciel création fiches, technologie éducative, plateforme enseignants, outils numériques école, application éducative'
   },
   es: {
     title: '33 Generadores de Fichas Gratis | LessonCraftStudio',
     description: 'Explore 33 generadores de fichas profesionales. Sopa de letras, crucigramas, puzzles matemáticos y más.',
-    keywords: 'fichas para imprimir, fichas infantil, fichas preescolar, grafomotricidad, ejercicios matemáticas, dibujos para colorear, abecedario, fichas gratis, lectoescritura, tablas de multiplicar'
+    keywords: 'plataforma generador fichas, suite educativa, herramientas docentes, 33 generadores, creador recursos aula, software educativo, tecnología educativa, plataforma profesores, herramientas digitales escuela, aplicación pedagógica'
   },
   pt: {
     title: '33 Geradores de Planilhas Grátis | LessonCraftStudio',
     description: 'Descubra 33 geradores de planilhas profissionais. Caça-palavras, palavras cruzadas, quebra-cabeças de matemática e mais.',
-    keywords: 'atividades para imprimir, atividades educação infantil, atividades de alfabetização, atividades de matemática, desenhos para colorir, coordenação motora, atividades 1º ano, tabuada, letra cursiva, atividades grátis'
+    keywords: 'plataforma gerador atividades, suite educacional, ferramentas professores, 33 geradores, criador recursos sala aula, software educacional, tecnologia educacional, plataforma docentes, ferramentas digitais escola, aplicativo pedagógico'
   },
   it: {
     title: '33 Generatori di Schede Gratis | LessonCraftStudio',
     description: 'Scopri 33 generatori di schede professionali. Ricerca di parole, cruciverba, puzzle matematici e altro.',
-    keywords: 'schede didattiche, schede didattiche scuola primaria, pregrafismo, schede matematica, disegni da colorare, tabelline, alfabeto, scuola dell\'infanzia, numeri da stampare, generatori di schede'
+    keywords: 'piattaforma generatore schede, suite educativa, strumenti didattici insegnanti, 33 generatori, creatore risorse classe, software educativo, tecnologia didattica, piattaforma docenti, strumenti digitali scuola, applicazione pedagogica'
   },
   nl: {
     title: '33 Gratis Werkblad Generatoren | LessonCraftStudio',
     description: 'Ontdek 33 professionele werkblad generatoren. Woordzoekers, kruiswoordpuzzels, rekenpuzzels en meer.',
-    keywords: 'werkbladen groep 3, werkbladen kleuters, rekenen werkbladen, kleurplaten, oefenbladen gratis, letters leren, tafels oefenen, fijne motoriek, sommen tot 20, werkblad generatoren'
+    keywords: 'werkblad generator platform, educatieve software suite, leerkracht hulpmiddelen, 33 generatoren, lesmaterialen creator, onderwijstechnologie, leerkrachten platform, digitale leermiddelen, educatieve applicatie, klaslokaal tools'
   },
   sv: {
     title: '33 Gratis Arbetsblad Generatorer | LessonCraftStudio',
     description: 'Utforska 33 professionella arbetsblad generatorer. Ordjaktar, korsord, mattepussel och mer.',
-    keywords: 'arbetsblad gratis, matematik arbetsblad, målarbilder barn, förskoleklass material, bokstäver lära sig, multiplikationstabellen, finmotorik övningar, addition subtraktion, siffror tal, arbetsblad generatorer'
+    keywords: 'arbetsblad generator plattform, pedagogisk mjukvara, lärarverktyg, 33 generatorer, lärresurser skapare, utbildningsteknik, lärarplattform, digitala läromedel, pedagogisk applikation, klassrumsverktyg'
   },
   da: {
     title: '33 Gratis Arbejdsark Generatorer | LessonCraftStudio',
     description: 'Udforsk 33 professionelle arbejdsark generatorer. Ordsøgning, krydsord, matematikpuslespil og mere.',
-    keywords: 'opgaver til print, matematikopgaver, gratis skoleopgaver, arbejdsark, 0. klasse opgaver, 1. klasse, malebog, gangetabeller, finmotorik øvelser, lære bogstaver'
+    keywords: 'arbejdsark generator platform, pædagogisk software, lærerværktøjer, 33 generatorer, undervisningsressourcer skaber, uddannelsesteknologi, lærerplatform, digitale læringsmaterialer, pædagogisk applikation, klasseværelses værktøjer'
   },
   no: {
     title: '33 Gratis Arbeidsark Generatorer | LessonCraftStudio',
     description: 'Utforsk 33 profesjonelle arbeidsark generatorer. Ordsøking, kryssord, mattepuslespill og mer.',
-    keywords: 'arbeidsark gratis, matteoppgaver, fargeleggingsbilder barn, oppgavehefter barn, gangetabellen, addisjon subtraksjon, finmotorikk øvelser, bokstaver lære skrive, lesetrening, arbeidsark generatorer'
+    keywords: 'arbeidsark generator plattform, pedagogisk programvare, lærerverktøy, 33 generatorer, undervisningsressurser skaper, utdanningsteknologi, lærerplattform, digitale læringsmaterialer, pedagogisk applikasjon, klasseromverktøy'
   },
   fi: {
     title: '33 Ilmaista Työarkki Generaattoria | LessonCraftStudio',
     description: 'Tutustu 33 ammattimaiseen työarkki generaattoriin. Sanaristikot, ristisanatehtävät, matemaattiset pulmat ja muuta.',
-    keywords: 'tulostettavat tehtävät lapsille ilmainen, esiopetus materiaali, matematiikka tehtävät alakoulu, värityskuvia lapsille, kertotaulut, hienomotoriikka harjoitukset, kirjaimet harjoittelu, yhteenlasku vähennyslasku, lukemaan oppiminen, työarkki generaattorit'
+    keywords: 'tehtäväarkki generaattori alusta, opetusohjelma suite, opettajan työkalut, 33 generaattoria, opetusresurssien luoja, opetusteknologia, opettajien alusta, digitaaliset oppimateriaalit, pedagoginen sovellus, luokkahuonetyökalut'
   }
 };
 

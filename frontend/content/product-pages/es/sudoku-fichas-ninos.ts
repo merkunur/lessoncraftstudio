@@ -19,6 +19,32 @@ export const sudokuEsContent: ProductPageContent = {
     description: 'Crea rompecabezas de sudoku visual coloridos diseñados específicamente para niños de preescolar y educación primaria. Tu suscripción Paquete Esencial te permite generar fichas de sudoku ilimitadas. Descarga fichas para imprimir de alta calidad en menos de 3 minutos.',
     keywords: 'sudoku para niños, sudoku visual, fichas de sudoku, fichas para imprimir, fichas infantil, fichas preescolar, material educativo gratis, fichas gratis, rompecabezas lógica, pensamiento crítico, números, abecedario',
     canonicalUrl: 'https://www.lessoncraftstudio.com/es/apps/sudoku-fichas-ninos',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/spanish/sudoku/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Sudoku visual fichas gratis para imprimir - rompecabezas lógica para niños de preescolar',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/spanish/sudoku/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Sudoku para niños fichas para imprimir gratis - material educativo pensamiento crítico',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/spanish/sudoku/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fichas de sudoku para preescolar imprimibles gratis - ejercicios de lógica educación infantil',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/spanish/sudoku/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Sudoku visual para niños ficha gratis - rompecabezas con grafomotricidad primaria',
+      },
+    ],
   },
 
   // Hero Section - FULL text from sudoku.md paragraphs 1-3
@@ -30,7 +56,7 @@ export const sudokuEsContent: ProductPageContent = {
 El sudoku visual desarrolla habilidades de pensamiento lógico desde edades tempranas. Los niños aprenden patrones, razonamiento espacial y resolución de problemas mientras se divierten con imágenes coloridas. Cada rompecabeza de sudoku usa una cuadrícula simple de 4×4 perfecta para niños de 4 a 8 años. Selecciona el nivel de dificultad apropiado y genera fichas educativas profesionales al instante.
 
 Maestros de preescolar y primaria usan nuestras fichas de sudoku para desarrollar el pensamiento crítico. Padres que educan en casa descargan fichas gratis semanalmente para práctica de lógica. Cada ficha infantil incluye instrucciones claras e imágenes grandes que los niños pequeños pueden entender fácilmente. Tu suscripción incluye acceso a más de 3000 imágenes temáticas diseñadas para niños.`,
-    previewImageSrc: '/samples/english/sudoku/sudoku_easy.jpeg',
+    previewImageSrc: '/samples/spanish/sudoku/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Probar Gratis',
       viewSamples: 'Ver Ejemplos',
@@ -65,24 +91,31 @@ Maestros de preescolar y primaria usan nuestras fichas de sudoku para desarrolla
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/sudoku/sudoku_easy.jpeg',
-        answerKeySrc: '/samples/english/sudoku/sudoku_easy answer_key.jpeg',
-        altText: 'Ficha de sudoku visual nivel fácil para niños de preescolar',
-        pdfDownloadUrl: '/samples/english/sudoku/sudoku_easy.pdf',
+        worksheetSrc: '/samples/spanish/sudoku/sample-1.jpeg',
+        answerKeySrc: '/samples/spanish/sudoku/sample-1-answer.jpeg',
+        altText: 'Sudoku visual fichas gratis para imprimir - nivel fácil para niños de preescolar',
+        pdfDownloadUrl: '/samples/spanish/sudoku/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/sudoku/sudoku medium.jpeg',
-        answerKeySrc: '/samples/english/sudoku/sudoku medium answer_key.jpeg',
-        altText: 'Ficha de sudoku visual nivel medio para niños de kindergarten',
-        pdfDownloadUrl: '/samples/english/sudoku/sudoku medium.pdf',
+        worksheetSrc: '/samples/spanish/sudoku/sample-2.jpeg',
+        answerKeySrc: '/samples/spanish/sudoku/sample-2-answer.jpeg',
+        altText: 'Sudoku para niños fichas para imprimir gratis - rompecabezas lógica educación infantil',
+        pdfDownloadUrl: '/samples/spanish/sudoku/sample-2.pdf',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/sudoku/sudoku hard.jpeg',
-        answerKeySrc: '/samples/english/sudoku/sudoku hard answer_key.jpeg',
-        altText: 'Ficha de sudoku visual nivel difícil para estudiantes de primaria',
-        pdfDownloadUrl: '/samples/english/sudoku/sudoku hard.pdf',
+        worksheetSrc: '/samples/spanish/sudoku/sample-3.jpeg',
+        answerKeySrc: '/samples/spanish/sudoku/sample-3-answer.jpeg',
+        altText: 'Fichas de sudoku para niños material educativo gratis - pensamiento crítico preescolar',
+        pdfDownloadUrl: '/samples/spanish/sudoku/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/spanish/sudoku/sample-4.jpeg',
+        answerKeySrc: '/samples/spanish/sudoku/sample-4-answer.jpeg',
+        altText: 'Sudoku visual imprimibles gratis - ficha para niños con grafomotricidad',
+        pdfDownloadUrl: '/samples/spanish/sudoku/sample-4.pdf',
       },
     ],
   },

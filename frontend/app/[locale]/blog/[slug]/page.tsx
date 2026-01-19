@@ -748,15 +748,27 @@ export async function generateMetadata({ params }: BlogPostPageProps) {
     const keywords = focusKeyword
       ? (generalKeywords ? `${focusKeyword}, ${generalKeywords}` : focusKeyword)
       : generalKeywords;
-    const canonicalUrl = `${baseUrl}/${locale}/blog/${slug}`;
+    // Use translation slug for canonical URL (Bug 3 fix)
+    const localeSlug = translation.slug || post.slug;
+    const canonicalUrl = `${baseUrl}/${locale}/blog/${localeSlug}`;
 
-    // Build language alternates with language-specific slugs
+    // Build language alternates ONLY for locales with actual translations (Bug 1 fix)
     const languageAlternates: { [key: string]: string } = {};
     const locales = ['en', 'de', 'fr', 'es', 'pt', 'it', 'nl', 'sv', 'da', 'no', 'fi'];
 
     for (const lang of locales) {
-      const langSlug = translations[lang]?.slug || post.slug;
-      languageAlternates[lang] = `${baseUrl}/${lang}/blog/${langSlug}`;
+      const langTranslation = translations[lang];
+      // ONLY include if translation has actual content (title AND content required)
+      if (langTranslation?.title && langTranslation?.content) {
+        const langSlug = langTranslation.slug || post.slug;
+        languageAlternates[lang] = `${baseUrl}/${lang}/blog/${langSlug}`;
+      }
+    }
+
+    // Add x-default pointing to English (or first available locale) (Bug 2 fix)
+    const defaultLocale = languageAlternates['en'] ? 'en' : Object.keys(languageAlternates)[0];
+    if (defaultLocale) {
+      languageAlternates['x-default'] = languageAlternates[defaultLocale];
     }
 
     return {

@@ -90,7 +90,7 @@ const WORKSHEET_TRANSLATIONS: Record<string, { title: string; subtitle: string; 
 };
 
 // Generate static HTML file for a blog post
-async function generateStaticHTML(data: any, locale: string): Promise<string> {
+async function generateStaticHTML(data: any, locale: string, allLanguages: Record<string, any> = {}): Promise<string> {
   const {
     title,
     content,
@@ -105,10 +105,21 @@ async function generateStaticHTML(data: any, locale: string): Promise<string> {
     slug
   } = data;
 
-  // Generate hreflang links for all language versions
-  const hreflangLinks = LOCALES.map(lang =>
-    `  <link rel="alternate" hreflang="${lang}" href="https://lessoncraftstudio.com/${lang}/blog/${slug}" />`
-  ).join('\n');
+  // Generate hreflang links using language-specific slugs (Bug 4 fix)
+  // Only include languages that have actual translations with title AND content
+  const hreflangLinks = LOCALES
+    .filter(lang => allLanguages[lang]?.title && allLanguages[lang]?.content)
+    .map(lang => {
+      const langSlug = allLanguages[lang]?.slug || slug;
+      return `  <link rel="alternate" hreflang="${lang}" href="https://lessoncraftstudio.com/${lang}/blog/${langSlug}" />`;
+    }).join('\n');
+
+  // Add x-default pointing to English (or primary slug if no English)
+  const defaultSlug = allLanguages['en']?.slug || slug;
+  const xDefaultLink = allLanguages['en']?.title && allLanguages['en']?.content
+    ? `  <link rel="alternate" hreflang="x-default" href="https://lessoncraftstudio.com/en/blog/${defaultSlug}" />`
+    : `  <link rel="alternate" hreflang="x-default" href="https://lessoncraftstudio.com/en/blog/${slug}" />`;
+  const allHreflangLinks = hreflangLinks + (hreflangLinks ? '\n' : '') + xDefaultLink;
 
   // Fetch PDFs for this language from database
   const post = await prisma.blogPost.findUnique({
@@ -231,10 +242,10 @@ async function generateStaticHTML(data: any, locale: string): Promise<string> {
   <meta name="readTime" content="${readTime}">
 
   <!-- Canonical URL -->
-  <link rel="canonical" href="https://lessoncraftstudio.com/${locale}/blog/${slug}" />
+  <link rel="canonical" href="https://lessoncraftstudio.com/${locale}/blog/${data.slug || slug}" />
 
   <!-- Hreflang tags for all languages -->
-${hreflangLinks}
+${allHreflangLinks}
 
   <!-- Open Graph Meta Tags -->
   <meta property="og:title" content="${metaTitle || title}">
@@ -746,8 +757,8 @@ export async function POST(request: NextRequest) {
         continue;
       }
 
-      // Generate the HTML content
-      const html = await generateStaticHTML({ ...data, slug }, locale);
+      // Generate the HTML content (pass all languages for hreflang generation)
+      const html = await generateStaticHTML({ ...data, slug }, locale, languages as Record<string, any>);
 
       // Create directory if it doesn't exist
       const blogDir = path.join(process.cwd(), 'public', 'blog', locale);

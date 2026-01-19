@@ -19,6 +19,32 @@ export const findAndCountEsContent: ProductPageContent = {
     description: 'Crea fichas para imprimir de buscar y contar objetos con nuestro generador profesional. Perfecto para maestros de educación infantil y preescolar. Genera fichas gratis ilimitadas en PDF de alta calidad en menos de 3 minutos.',
     keywords: 'fichas para imprimir, veo veo, buscar y contar, fichas preescolar, fichas infantil, fichas gratis, material educativo gratis, grafomotricidad, números, ejercicios matemáticas',
     canonicalUrl: 'https://www.lessoncraftstudio.com/es/apps/buscar-contar-fichas',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/spanish/find-and-count/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Ficha Veo Veo gratis para imprimir - fichas infantil de buscar y contar objetos para preescolar',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/spanish/find-and-count/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Ficha para niños de buscar y contar - material educativo gratis con cuadrícula de imágenes',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/spanish/find-and-count/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fichas gratis Veo Veo - imprimibles gratis de grafomotricidad para educación infantil',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/spanish/find-and-count/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Ficha para preescolar de buscar objetos - fichas para imprimir con números y conteo',
+      },
+    ],
   },
 
   // Hero Section - FULL text from find-and-count.md paragraphs 1-4
@@ -32,7 +58,7 @@ Nuestro generador de fichas para imprimir te permite crear actividades tipo "Veo
 Las fichas infantil creadas con nuestra herramienta desarrollan múltiples habilidades simultáneamente. Los niños practican discriminación visual al buscar objetos específicos entre muchas imágenes. Desarrollan habilidades de conteo y reconocimiento de números. Siguen instrucciones de varios pasos para completar diferentes tareas. Fortalecen la motricidad fina al encerrar objetos en círculos o cuadrados. Tu suscripción incluye más de 3000 imágenes infantiles apropiadas para crear fichas gratis variadas.
 
 El generador produce fichas para imprimir con calidad profesional de 300 DPI ideal para vender en plataformas educativas. Las fichas preescolar descargan en formato PDF o JPEG según tus necesidades. La herramienta incluye licencia comercial POD sin costo adicional en tu suscripción Paquete Esencial. Crea material educativo gratis para tu aula o para vender en Teachers Pay Teachers y Etsy.`,
-    previewImageSrc: '/samples/english/find and count/find and count portrait.jpeg',
+    previewImageSrc: '/samples/spanish/find-and-count/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Probar Gratis',
       viewSamples: 'Ver Ejemplos',
@@ -51,7 +77,7 @@ El generador produce fichas para imprimir con calidad profesional de 300 DPI ide
     },
   },
 
-  // Sample Gallery - REAL file paths from samples/english/find and count/
+  // Sample Gallery - REAL file paths from samples/spanish/find-and-count/
   samples: {
     sectionTitle: 'Ejemplos de Fichas Veo Veo',
     sectionDescription: 'Descarga ejemplos gratuitos para ver nuestra calidad profesional',
@@ -67,17 +93,31 @@ El generador produce fichas para imprimir con calidad profesional de 300 DPI ide
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/find and count/find and count portrait.jpeg',
-        answerKeySrc: '/samples/english/find and count/find and count portrait answer_key.jpeg',
-        altText: 'Ficha Veo Veo en formato vertical con imágenes temáticas para buscar y contar objetos en educación infantil',
-        pdfDownloadUrl: '/samples/english/find and count/find and count portrait.pdf',
+        worksheetSrc: '/samples/spanish/find-and-count/sample-1.jpeg',
+        answerKeySrc: '/samples/spanish/find-and-count/sample-1-answer.jpeg',
+        altText: 'Ficha Veo Veo fichas gratis para niños - cuadrícula de buscar y contar objetos para preescolar',
+        pdfDownloadUrl: '/samples/spanish/find-and-count/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/find and count/find and count landscape.jpeg',
-        answerKeySrc: '/samples/english/find and count/find and count landscape answer_key.jpeg',
-        altText: 'Ficha de buscar y contar en formato horizontal con pistas visuales coloridas para preescolar',
-        pdfDownloadUrl: '/samples/english/find and count/find and count landscape.pdf',
+        worksheetSrc: '/samples/spanish/find-and-count/sample-2.jpeg',
+        answerKeySrc: '',
+        altText: 'Ficha para niños imprimibles gratis - actividad de encontrar y contar imágenes para educación infantil',
+        pdfDownloadUrl: '/samples/spanish/find-and-count/sample-2.pdf',
+      },
+      {
+        id: '3',
+        worksheetSrc: '/samples/spanish/find-and-count/sample-3.jpeg',
+        answerKeySrc: '',
+        altText: 'Fichas gratis Veo Veo ficha para preescolar - ejercicio de discriminación visual con números',
+        pdfDownloadUrl: '/samples/spanish/find-and-count/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/spanish/find-and-count/sample-4.jpeg',
+        answerKeySrc: '',
+        altText: 'Ficha gratis para niños material educativo - buscar objetos y contar para grafomotricidad',
+        pdfDownloadUrl: '/samples/spanish/find-and-count/sample-4.pdf',
       },
     ],
   },

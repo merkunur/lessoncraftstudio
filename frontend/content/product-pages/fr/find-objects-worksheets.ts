@@ -17,10 +17,42 @@ export const findObjectsFrContent: ProductPageContent = {
   seo: {
     slug: 'cherche-objets-fiches',
     appId: 'find-objects',
-    title: 'Fiches à Imprimer Gratuit | Générateur de Fiches Maternelle pour Apprendre à Lire',
-    description: 'Créez des fiches professionnelles de discrimination visuelle avec notre générateur. Votre abonnement Accès Complet vous donne un accès illimité. Téléchargez des PDF haute qualité en moins de 3 minutes.',
+    title: 'Fiches Cherche Objets Gratuites | Générateur Maternelle CP',
+    description: 'Créez des fiches cherche les objets gratuites avec notre générateur. PDF haute qualité en 3 minutes. Parfait pour maternelle et CP. Essayez maintenant !',
     keywords: 'fiches à imprimer gratuit, fiches maternelle, exercices CP, discrimination visuelle, je vois, intrus, graphisme maternelle, coloriage à imprimer, apprendre à lire, alphabet',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fr/apps/cherche-objets-fiches',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/find-objects/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fiche cherche les objets gratuite - discrimination visuelle maternelle avec corrigé PDF',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/find-objects/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fiche cherche les objets gratuite - exercices CP discrimination visuelle imprimable',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/find-objects/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fiche gratuite cherche les objets - activité attention visuelle pour enfants',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/find-objects/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fiche cherche les objets gratuite pour maternelle - jeu de perception visuelle',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/find-objects/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fiche cherche les objets gratuite CP - discrimination visuelle avec corrigé inclus',
+      },
+    ],
   },
 
   // Hero Section - FULL text from find-objects.md paragraphs 1-4
@@ -34,7 +66,7 @@ Notre créateur de fiches à imprimer gratuit aide les enseignants à créer deu
 L'abonnement Accès Complet inclut les 33 types de générateurs de fiches. Créez des activités de discrimination visuelle combinées avec des exercices maths, apprendre à lire, et alphabet. Votre abonnement comprend la licence commerciale pour vendre vos fiches sur Teachers Pay Teachers et Etsy. La qualité professionnelle 300 DPI garantit une impression parfaite à chaque fois.
 
 Les enseignants utilisent notre générateur pour développer les compétences de perception visuelle chez les jeunes apprenants. Les enseignants de maternelle créent des fiches simples avec moins d'objets pour développer l'attention. Les enseignants de CP conçoivent des fiches complexes avec plus d'objets et des distracteurs difficiles. Toutes les fiches se téléchargent en PDF prêtes pour la classe ou la vente commerciale.`,
-    previewImageSrc: '/samples/english/find objects/find objects portrait.jpeg',
+    previewImageSrc: '/samples/french/find-objects/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Essayer Gratuitement',
       viewSamples: 'Voir les Exemples',
@@ -69,17 +101,38 @@ Les enseignants utilisent notre générateur pour développer les compétences d
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/find objects/find objects portrait.jpeg',
-        answerKeySrc: '/samples/english/find objects/find objects portrait answer_key.jpeg',
-        altText: 'Fiche cherche les objets format portrait pour maternelle avec corrigé',
-        pdfDownloadUrl: '/samples/english/find objects/find objects portrait.pdf',
+        worksheetSrc: '/samples/french/find-objects/sample-1.jpeg',
+        answerKeySrc: '/samples/french/find-objects/sample-1-answer.jpeg',
+        altText: 'Fiche cherche les objets gratuite format portrait - discrimination visuelle pour maternelle avec corrigé inclus',
+        pdfDownloadUrl: '/samples/french/find-objects/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/find objects/find objects landscape.jpeg',
-        answerKeySrc: '/samples/english/find objects/find objects landscape answer_key.jpeg',
-        altText: 'Fiche cherche les objets format paysage pour exercices CP avec corrigé',
-        pdfDownloadUrl: '/samples/english/find objects/find objects landscape.pdf',
+        worksheetSrc: '/samples/french/find-objects/sample-2.jpeg',
+        answerKeySrc: '/samples/french/find-objects/sample-2-answer.jpeg',
+        altText: 'Fiche cherche les objets gratuite - exercices CP discrimination visuelle avec corrigé PDF imprimable',
+        pdfDownloadUrl: '/samples/french/find-objects/sample-2.pdf',
+      },
+      {
+        id: '3',
+        worksheetSrc: '/samples/french/find-objects/sample-3.jpeg',
+        answerKeySrc: '/samples/french/find-objects/sample-3-answer.jpeg',
+        altText: 'Fiche gratuite cherche les objets pour enfants - activité attention visuelle maternelle avec solution',
+        pdfDownloadUrl: '/samples/french/find-objects/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/french/find-objects/sample-4.jpeg',
+        answerKeySrc: '/samples/french/find-objects/sample-4-answer.jpeg',
+        altText: 'Fiche cherche les objets gratuite pour maternelle - jeu de perception visuelle avec corrigé',
+        pdfDownloadUrl: '/samples/french/find-objects/sample-4.pdf',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/french/find-objects/sample-5.jpeg',
+        answerKeySrc: '/samples/french/find-objects/sample-5-answer.jpeg',
+        altText: 'Fiche cherche les objets gratuite CP - discrimination visuelle haute qualité avec corrigé inclus',
+        pdfDownloadUrl: '/samples/french/find-objects/sample-5.pdf',
       },
     ],
   },

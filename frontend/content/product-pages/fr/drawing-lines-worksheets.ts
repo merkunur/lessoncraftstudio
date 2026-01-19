@@ -15,10 +15,42 @@ export const drawingLinesFrContent: ProductPageContent = {
   seo: {
     slug: 'graphisme-fiches',
     appId: 'drawing-lines',
-    title: 'Fiches de Graphisme Maternelle | Fiches à Imprimer Gratuit pour l\'Écriture et la Motricité Fine',
-    description: 'Créez des fiches de graphisme maternelle professionnelles avec notre générateur en ligne. Votre abonnement Pack Essentiel vous donne accès à la création illimitée de fiches pédagogiques. Téléchargez des exercices de tracé de lignes en PDF haute résolution en moins de 3 minutes.',
-    keywords: 'fiches maternelle, graphisme maternelle, fiches à imprimer gratuit, écriture cursive, exercices CP, motricité fine, coloriage à imprimer, exercices maths, apprendre les lettres, tables de multiplication, exercices CE1, alphabet',
+    title: 'Fiches de Graphisme Maternelle | Fiches Gratuites à Imprimer',
+    description: 'Créez des fiches gratuites de graphisme maternelle avec notre générateur. Téléchargez des exercices CP de tracé en PDF haute résolution en moins de 3 minutes.',
+    keywords: 'fiches maternelle, graphisme maternelle, fiches à imprimer gratuit, écriture cursive, exercices CP, motricité fine, coloriage à imprimer, exercices maths, apprendre les lettres, tables de multiplication, exercices CE1, alphabet, fiche gratuite, fiches gratuites, fiche pour enfants, fiche pour maternelle, imprimables gratuits',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fr/apps/graphisme-fiches',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/drawing-lines/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fiche gratuite de graphisme maternelle - tracé de lignes courbes pour la motricité fine',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/drawing-lines/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fiche gratuite pour enfants - graphisme avec lignes diagonales pour maternelle',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/drawing-lines/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fiches gratuites de tracé de lignes - préparation à l\'écriture cursive',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/drawing-lines/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fiche pour maternelle - exercices de graphisme et motricité fine',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/drawing-lines/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Imprimables gratuits de graphisme - fiches de tracé pour PS MS GS',
+      },
+    ],
   },
 
   // Hero Section - FULL text from drawing-lines.md paragraphs 1-6
@@ -30,7 +62,7 @@ export const drawingLinesFrContent: ProductPageContent = {
 Les fiches de tracé de lignes constituent un pilier du graphisme maternelle. Elles préparent les enfants à l'écriture cursive dès la petite section. Notre générateur simplifie la création de ces exercices essentiels. Choisissez parmi 8 modèles différents. Ajoutez vos propres images ou utilisez notre bibliothèque de 3000 illustrations.
 
 Le graphisme en maternelle pose les bases de l'écriture. Les enfants tracent des lignes courbes et droites. Ils relient des images identiques. Cette activité développe la coordination œil-main. Elle renforce la tenue du crayon. Nos fiches à imprimer sont adaptées aux élèves de PS, MS et GS.`,
-    previewImageSrc: '/samples/english/drawing lines/drawing_lines_curve 1.jpeg',
+    previewImageSrc: '/samples/french/drawing-lines/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Essayer Gratuitement',
       viewSamples: 'Voir les Exemples',
@@ -49,9 +81,9 @@ Le graphisme en maternelle pose les bases de l'écriture. Les enfants tracent de
     },
   },
 
-  // Sample Gallery - REAL file paths from samples/english/drawing lines/
+  // Sample Gallery - REAL file paths from samples/french/drawing-lines/
   samples: {
-    sectionTitle: 'Exemples de Fiches de Graphisme',
+    sectionTitle: 'Exemples de Fiches Gratuites de Graphisme Maternelle',
     sectionDescription: 'Téléchargez des exemples gratuits pour voir notre qualité professionnelle',
     downloadLabel: 'Télécharger Exemple Gratuit',
     worksheetLabel: 'Fiche',
@@ -65,45 +97,45 @@ Le graphisme en maternelle pose les bases de l'écriture. Les enfants tracent de
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/drawing lines/drawing_lines_curve 1.jpeg',
+        worksheetSrc: '/samples/french/drawing-lines/sample-1.jpeg',
         answerKeySrc: '',
-        altText: 'Fiche de graphisme avec tracé de lignes courbes pour la motricité fine en maternelle',
-        pdfDownloadUrl: '/samples/english/drawing lines/drawing_lines_curve 1.pdf',
+        altText: 'Fiche gratuite de graphisme maternelle - tracé de lignes courbes pour la motricité fine des enfants',
+        pdfDownloadUrl: '/samples/french/drawing-lines/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/drawing lines/drawing_lines_curve 2.jpeg',
+        worksheetSrc: '/samples/french/drawing-lines/sample-2.jpeg',
         answerKeySrc: '',
-        altText: 'Fiche de tracé de lignes courbes pour le graphisme maternelle et préparation à l\'écriture',
-        pdfDownloadUrl: '/samples/english/drawing lines/drawing_lines_curve 2.pdf',
+        altText: 'Fiche gratuite pour enfants - graphisme avec lignes diagonales pour maternelle et CP',
+        pdfDownloadUrl: '/samples/french/drawing-lines/sample-2.pdf',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/drawing lines/drawing_lines_diagonal 1.jpeg',
+        worksheetSrc: '/samples/french/drawing-lines/sample-3.jpeg',
         answerKeySrc: '',
-        altText: 'Fiche de graphisme avec lignes diagonales pour développer la coordination œil-main',
-        pdfDownloadUrl: '/samples/english/drawing lines/drawing_lines_diagonal 1.pdf',
+        altText: 'Fiches gratuites de tracé - préparation à l\'écriture cursive pour maternelle',
+        pdfDownloadUrl: '/samples/french/drawing-lines/sample-3.pdf',
       },
       {
         id: '4',
-        worksheetSrc: '/samples/english/drawing lines/drawing_lines_horizontal.jpeg',
+        worksheetSrc: '/samples/french/drawing-lines/sample-4.jpeg',
         answerKeySrc: '',
-        altText: 'Fiche de tracé de lignes horizontales pour la préparation à l\'écriture cursive',
-        pdfDownloadUrl: '/samples/english/drawing lines/drawing_lines_horizontal.pdf',
+        altText: 'Fiche pour maternelle - exercices de graphisme et motricité fine gratuits',
+        pdfDownloadUrl: '/samples/french/drawing-lines/sample-4.pdf',
       },
       {
         id: '5',
-        worksheetSrc: '/samples/english/drawing lines/drawing_lines_vertical.jpeg',
+        worksheetSrc: '/samples/french/drawing-lines/sample-5.jpeg',
         answerKeySrc: '',
-        altText: 'Fiche de graphisme avec lignes verticales pour la motricité fine en maternelle',
-        pdfDownloadUrl: '/samples/english/drawing lines/drawing_lines_vertical.pdf',
+        altText: 'Imprimables gratuits de graphisme maternelle - fiches de tracé pour PS MS GS',
+        pdfDownloadUrl: '/samples/french/drawing-lines/sample-5.pdf',
       },
     ],
   },
 
   // Features Grid - FULL text from drawing-lines.md feature sections
   features: {
-    sectionTitle: 'Fonctionnalités du Générateur - Tout pour Créer des Fiches de Graphisme et d\'Écriture',
+    sectionTitle: 'Fonctionnalités - Créez des Fiches Gratuites de Graphisme pour Enfants',
     sectionDescription: 'Notre générateur de fiches de tracé offre des fonctionnalités complètes. Chaque outil a été conçu pour les enseignants de maternelle et de CP. Découvrez comment créer des fiches à imprimer gratuit de qualité professionnelle. Personnalisez chaque élément selon vos besoins pédagogiques.',
     highlightBadgeText: 'Fonctionnalité Clé',
     readMoreLabel: 'Lire la suite',
@@ -118,7 +150,7 @@ Le graphisme en maternelle pose les bases de l'écriture. Les enfants tracent de
       {
         id: '1',
         icon: '⚡',
-        title: 'Création Facile de Fiches Maternelle et Graphisme en 3 Clics',
+        title: 'Création Facile de Fiches Gratuites Maternelle - Graphisme en 3 Clics',
         description: `La création de fiches maternelle ne prend que quelques minutes. Sélectionnez un modèle parmi nos 8 templates. Choisissez un thème d'images dans notre bibliothèque. Cliquez sur générer. Votre fiche de graphisme maternelle apparaît instantanément. L'option de remplissage automatique place les images pour vous. Plus besoin de glisser-déposer manuellement chaque illustration.
 
 Les 8 modèles couvrent tous les types de tracés. Les courbes préparent les boucles de l'écriture cursive. Les diagonales travaillent l'inclinaison. Les lignes horizontales et verticales stabilisent le geste. Chaque modèle propose 4 ou 5 paires d'images à relier.`,
@@ -136,7 +168,7 @@ Les outils de texte enrichissent vos fiches d'écriture cursive. Ajoutez des con
       {
         id: '3',
         icon: '📤',
-        title: 'Importez Vos Propres Images pour les Exercices CP',
+        title: 'Importez Vos Images - Fiches Gratuites pour Enfants et Exercices CP',
         description: `L'importation d'images personnalise vos fiches de graphisme maternelle. Téléchargez les photos de vos élèves. Ajoutez des images liées à votre projet de classe. Importez plusieurs fichiers en une seule fois. Les formats JPEG, PNG et GIF sont acceptés. Combinez vos images avec celles de notre bibliothèque.
 
 Cette fonctionnalité transforme les exercices CP en activités personnalisées. Créez des fiches avec les prénoms de vos élèves. Utilisez des photos de la sortie scolaire. Intégrez les mascottes de votre classe. Les enfants s'impliquent davantage dans des activités qui leur ressemblent.`,
@@ -163,7 +195,7 @@ Les fiches de coloriage à imprimer que vous créez vous appartiennent. La quali
       {
         id: '6',
         icon: '🎨',
-        title: 'Bibliothèque de 3000+ Images pour le Graphisme et l\'Alphabet',
+        title: 'Bibliothèque de 3000+ Images - Apprendre les Lettres et l\'Alphabet',
         description: `Notre bibliothèque contient plus de 3000 illustrations. Chaque image est adaptée aux enfants. Les thèmes couvrent tous les sujets scolaires. Animaux, fruits, véhicules, formes, lettres de l'alphabet. Trouvez l'image parfaite grâce à la recherche par mot-clé.
 
 Les images de l'alphabet enrichissent vos fiches de graphisme maternelle. Les enfants relient la lettre majuscule à la minuscule. Ils associent la lettre à un objet commençant par ce son. Ces exercices préparent l'apprentissage de la lecture. La reconnaissance des lettres devient un jeu.`,
@@ -192,7 +224,7 @@ Les outils d'alignement créent des fiches pour apprendre les lettres parfaiteme
 
   // How-To Guide - FULL text from drawing-lines.md step sections
   howTo: {
-    sectionTitle: 'Comment Créer des Fiches de Graphisme en 5 Étapes Simples',
+    sectionTitle: 'Comment Créer des Fiches Gratuites de Graphisme en 5 Étapes',
     sectionDescription: 'La création de fiches de graphisme prend moins de 3 minutes. Suivez ce guide étape par étape. Vous obtiendrez des fiches maternelle professionnelles sans effort. Aucune compétence technique requise. L\'interface intuitive guide chaque action.',
     ctaText: 'Commencer Maintenant',
     badgeText: 'Guide Étape par Étape',
@@ -264,7 +296,7 @@ Le fichier se télécharge sur votre ordinateur. Imprimez directement sur votre 
 
   // Use Cases - FULL text from drawing-lines.md use case sections
   useCases: {
-    sectionTitle: 'Parfait pour Enseignants, Parents et Éducateurs',
+    sectionTitle: 'Fiches Gratuites pour Enfants - Enseignants, Parents et Éducateurs',
     sectionDescription: 'Les fiches de tracé de lignes s\'adressent à un large public. Enseignants de maternelle et d\'élémentaire. Parents pratiquant l\'instruction en famille. Orthophonistes et psychomotriciens. Chaque profil trouve des applications spécifiques. Découvrez comment notre générateur répond à vos besoins.',
     badgeText: 'Cas d\'Utilisation',
     readMoreLabel: 'Lire la suite',
@@ -428,6 +460,48 @@ Les fiches d'alphabet pour les exercices CP fonctionnent sur le même principe. 
         answer: `Notre bibliothèque couvre tous les sujets scolaires classiques. Les animaux, les fruits, les véhicules, les formes géométriques. Les lettres, les chiffres, les couleurs, les saisons. Les fêtes, les métiers, les sports, la nature. Plus de 3000 images organisées par thèmes.
 
 Les fiches de tables de multiplication utilisent les images de quantités. Groupez des pommes pour illustrer 3×4. Alignez des voitures pour représenter 5×2. Le graphisme devient support d'apprentissage mathématique. Les tables de multiplication s'ancrent visuellement dans la mémoire des enfants.`,
+      },
+      {
+        id: '13',
+        question: 'Quelles Fiches Gratuites de Graphisme Proposez-vous pour la Maternelle ?',
+        answer: `Nos fiches gratuites de graphisme maternelle couvrent tous les types de tracés essentiels. Les lignes droites horizontales et verticales forment la base. Les courbes préparent les boucles de l'écriture cursive. Les diagonales travaillent l'inclinaison du geste.
+
+Chaque fiche gratuite pour enfants est disponible en format PDF haute résolution. La qualité 300 DPI garantit une impression parfaite. Les fiches pour maternelle s'adaptent aux niveaux PS, MS et GS. Téléchargez les imprimables gratuits et commencez immédiatement.`,
+      },
+      {
+        id: '14',
+        question: 'Comment Utiliser les Fiches Gratuites pour Enfants en Classe ?',
+        answer: `Les fiches gratuites pour enfants s'intègrent facilement dans votre routine de classe. En atelier autonome, les élèves travaillent seuls le tracé. En atelier dirigé, vous accompagnez les premiers essais. Les fiches pour maternelle conviennent aux deux formats.
+
+Imprimez plusieurs copies de chaque fiche gratuite pour la classe. Les exercices CP de tracé renforcent l'écriture quotidienne. Distribuez les imprimables gratuits en début de semaine. Variez les thèmes selon vos projets pédagogiques.`,
+      },
+      {
+        id: '15',
+        question: 'Les Fiches pour Maternelle Sont-elles Adaptées aux Différents Niveaux ?',
+        answer: `Nos fiches pour maternelle s'adaptent à tous les niveaux. En Petite Section, les tracés simples développent la prise en main. Les fiches gratuites proposent des lignes droites basiques. En Moyenne Section, les courbes apparaissent progressivement.
+
+La Grande Section travaille les tracés complexes pour apprendre les lettres. Les exercices CP poursuivent cette progression. Les imprimables gratuits permettent de différencier selon les besoins. Chaque fiche gratuite pour enfants trouve sa place dans votre programmation.`,
+      },
+      {
+        id: '16',
+        question: 'Puis-je Télécharger des Imprimables Gratuits pour l\'Écriture Cursive ?',
+        answer: `Les imprimables gratuits de graphisme préparent directement l'écriture cursive. Les courbes anticipent les boucles du l et du e. Les diagonales travaillent l'inclinaison des lettres. Les tracés fluides développent la souplesse du poignet.
+
+Téléchargez les fiches gratuites en PDF pour une qualité optimale. Les exercices CP de préparation à l'écriture sont essentiels. Les fiches pour maternelle posent les bases du geste. Utilisez ces imprimables gratuits pour apprendre les lettres progressivement.`,
+      },
+      {
+        id: '17',
+        question: 'Quelles Fiches Gratuites pour Enfants Incluent des Exercices CP ?',
+        answer: `Nos fiches gratuites pour enfants proposent de nombreux exercices CP. Les tracés de correspondance développent le vocabulaire. L'enfant relie l'image au mot pour apprendre à lire. Les fiches pour maternelle et CP partagent cette approche visuelle.
+
+Les exercices CP de graphisme renforcent la fluidité du geste. Les imprimables gratuits incluent des niveaux progressifs. Les fiches gratuites avec tables de multiplication combinent motricité et calcul. Chaque fiche gratuite pour enfants soutient les apprentissages fondamentaux.`,
+      },
+      {
+        id: '18',
+        question: 'Comment Combiner Fiches Gratuites de Graphisme et Tables de Multiplication ?',
+        answer: `Les fiches gratuites de graphisme s'associent naturellement aux tables de multiplication. Créez des exercices où les enfants relient des groupes d'images. 3 groupes de 4 pommes illustrent visuellement 3×4. Les tables de multiplication deviennent concrètes.
+
+Les imprimables gratuits permettent de varier les supports. Une fiche gratuite pour enfants peut combiner tracé et calcul. Les exercices CP de cette nature renforcent deux compétences simultanément. Les fiches pour maternelle introduisent les premières notions multiplicatives.`,
       },
     ],
   },

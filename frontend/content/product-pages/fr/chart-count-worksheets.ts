@@ -17,10 +17,42 @@ export const chartCountFrContent: ProductPageContent = {
   seo: {
     slug: 'graphique-images-fiches',
     appId: 'chart-count',
-    title: 'Graphique en Images à Imprimer - Fiches Maternelle et Exercices CP pour Apprendre à Compter et Créer des Diagrammes',
-    description: 'Créez des fiches pédagogiques de graphiques en images pour enseigner la représentation des données à vos élèves. Votre abonnement Accès Complet vous donne accès à la création illimitée de fiches sans frais supplémentaires. Générez des exercices de comptage et de graphiques en moins de 3 minutes.',
+    title: 'Graphique en Images Fiches Gratuites | Générateur Maternelle CP',
+    description: 'Créez des fiches de graphique en images pour maternelle et CP. Générateur gratuit avec corrigé automatique. Téléchargez des PDF en moins de 3 minutes.',
     keywords: 'graphique en images, fiches maternelle, exercices CP, fiches à imprimer gratuit, exercices maths, comptage maternelle, diagramme pictogramme, apprendre à compter, coloriage à imprimer, graphisme maternelle',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fr/apps/graphique-images-fiches',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/chart-count/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fiche gratuite graphique en images pour maternelle - exercice de comptage et coloriage de diagramme'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/chart-count/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fiches gratuites de graphique pictogramme pour CP - activité comptage avec images colorées'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/chart-count/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Imprimables gratuits graphique en images - fiche pour enfants avec diagramme et comptage'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/chart-count/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fiche gratuite pour enfants graphique comptage - exercice maternelle avec corrigé automatique'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/chart-count/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fiche pour maternelle graphique en images - diagramme pictogramme et comptage pour CP'
+      }
+    ],
   },
 
   // Hero Section - FULL text from chart-count.md paragraphs 1-4
@@ -34,7 +66,7 @@ Les graphiques en images constituent une introduction essentielle aux mathémati
 Chaque fiche de graphique en images comporte deux parties distinctes. La première partie présente une grille de 20 images réparties en 6 catégories. Les élèves comptent combien de fois chaque image apparaît. La deuxième partie propose un tableau à cases vides. Les enfants colorient le nombre de cases correspondant à leur comptage.
 
 Cette méthode d'apprentissage par la visualisation aide les enfants à comprendre les nombres. Les élèves établissent une connexion concrète entre le comptage et la représentation graphique. Les graphiques en images posent les bases de la lecture de tableaux et de diagrammes plus complexes.`,
-    previewImageSrc: '/samples/english/chart count/chart count.jpeg',
+    previewImageSrc: '/samples/english/chart-count/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Essayer Gratuitement',
       viewSamples: 'Voir les Exemples',
@@ -69,10 +101,38 @@ Cette méthode d'apprentissage par la visualisation aide les enfants à comprend
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/chart count/chart count.jpeg',
-        answerKeySrc: '/samples/english/chart count/chart count answer_key.jpeg',
-        altText: 'Fiche graphique en images avec comptage et diagramme pour maternelle et CP',
-        pdfDownloadUrl: '/samples/english/chart count/chart count.pdf',
+        worksheetSrc: '/samples/english/chart-count/sample-1.jpeg',
+        answerKeySrc: '/samples/english/chart-count/sample-1-answer.jpeg',
+        altText: 'Graphique en images fiches gratuites à imprimer - comptage et diagramme pour maternelle et CP',
+        pdfDownloadUrl: '/samples/english/chart-count/sample-1.pdf',
+      },
+      {
+        id: '2',
+        worksheetSrc: '/samples/english/chart-count/sample-2.jpeg',
+        answerKeySrc: '/samples/english/chart-count/sample-2-answer.jpeg',
+        altText: 'Graphique en images fiche gratuite pour enfants - exercices de comptage pour GS et CP',
+        pdfDownloadUrl: '/samples/english/chart-count/sample-2.pdf',
+      },
+      {
+        id: '3',
+        worksheetSrc: '/samples/english/chart-count/sample-3.jpeg',
+        answerKeySrc: '/samples/english/chart-count/sample-3-answer.jpeg',
+        altText: 'Fiches de graphique pictogramme gratuites - activité coloriage et comptage pour maternelle',
+        pdfDownloadUrl: '/samples/english/chart-count/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/english/chart-count/sample-4.jpeg',
+        answerKeySrc: '/samples/english/chart-count/sample-4-answer.jpeg',
+        altText: 'Exercices graphique en images fiche pour maternelle - diagramme en barre pour enfants',
+        pdfDownloadUrl: '/samples/english/chart-count/sample-4.pdf',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/english/chart-count/sample-5.jpeg',
+        answerKeySrc: '/samples/english/chart-count/sample-5-answer.jpeg',
+        altText: 'Graphique en images imprimables gratuits - fiche comptage et représentation de données CP',
+        pdfDownloadUrl: '/samples/english/chart-count/sample-5.pdf',
       },
     ],
   },
@@ -420,6 +480,36 @@ La qualité 300 DPI garantit des impressions professionnelles pour vos clients s
         id: '12',
         question: 'Les Fiches de Graphiques Conviennent-elles à ma Classe de Maternelle ou CP ?',
         answer: `Les fiches de graphiques s'adaptent parfaitement aux classes de maternelle et de CP. De la Petite Section au CE1, chaque niveau trouve des exercices appropriés. La difficulté se règle selon les besoins et le niveau de vos élèves. L'abonnement Accès Complet autorise une utilisation illimitée en classe sans restriction de copies.`,
+      },
+      {
+        id: '13',
+        question: 'Le Générateur de Graphiques en Images est-il une Fiche Gratuite pour Enfants ou Payante ?',
+        answer: `Vous pouvez tester le générateur gratuitement avec des téléchargements d'exemples sans engagement. Les fiches gratuites pour enfants vous permettent de découvrir la qualité professionnelle de nos ressources. Pour une création illimitée de graphiques, l'abonnement Accès Complet offre un excellent rapport qualité-prix. Les enseignants créent autant de fiches qu'ils souhaitent chaque jour.`,
+      },
+      {
+        id: '14',
+        question: 'Puis-je Télécharger des Fiches Gratuites de Graphiques sans Abonnement pour Tester ?',
+        answer: `Oui, plusieurs fiches gratuites de graphiques sont disponibles en téléchargement immédiat. Ces exemples gratuits vous permettent de vérifier la qualité avant tout engagement. Les fiches gratuites incluent le graphique complet et le corrigé automatique. Testez notre générateur sans risque et découvrez la qualité professionnelle de nos ressources.`,
+      },
+      {
+        id: '15',
+        question: 'Les Imprimables Gratuits de Graphiques Incluent-ils le Corrigé pour la Maternelle ?',
+        answer: `Tous les imprimables gratuits de graphiques incluent le corrigé automatique généré en un clic. Le corrigé montre les cases colorées en jaune pour une vérification rapide. Les enseignants de maternelle gagnent un temps précieux sur la correction des exercices. Cette fonctionnalité est incluse sans frais supplémentaires dans tous les téléchargements.`,
+      },
+      {
+        id: '16',
+        question: 'Comment Utiliser les Fiches pour Maternelle de Graphiques en Centres d\'Activités ?',
+        answer: `Les fiches pour maternelle de graphiques fonctionnent parfaitement en ateliers autonomes. Imprimez plusieurs copies pour votre centre de mathématiques en libre accès. Les élèves travaillent à leur rythme sur le comptage et le coloriage des cases. Le corrigé permet l'auto-correction et développe l'autonomie des enfants en classe.`,
+      },
+      {
+        id: '17',
+        question: 'Le Générateur Crée-t-il des Fiches Gratuites pour Enfants Adaptées aux Différents Niveaux ?',
+        answer: `Le générateur s'adapte à tous les niveaux de la Petite Section au CE1. Les fiches gratuites pour enfants proposent des images simples pour les plus jeunes. La complexité augmente progressivement avec des catégories plus nombreuses pour les grands. Chaque fiche correspond aux compétences attendues à chaque niveau scolaire.`,
+      },
+      {
+        id: '18',
+        question: 'Les Fiches Gratuites de Graphiques Respectent-elles les Programmes Scolaires Français ?',
+        answer: `Nos fiches gratuites de graphiques sont alignées sur les programmes de l'Éducation Nationale. Les compétences de représentation des données sont couvertes dès la maternelle. Le comptage et le coloriage développent la numération exigée au cycle 1 et 2. Les graphiques en images préparent aux tableaux et diagrammes du cycle 3.`,
       },
     ],
   },

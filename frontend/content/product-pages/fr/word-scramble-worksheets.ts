@@ -15,10 +15,42 @@ export const wordScrambleFrContent: ProductPageContent = {
   seo: {
     slug: 'mots-melanges-fiches',
     appId: 'word-scramble',
-    title: 'Générateur de Mots Mélangés | Fiches à Imprimer Gratuit pour Maternelle et CP',
-    description: 'Créez des exercices de mots mélangés en quelques clics. Votre abonnement Pack Essentiel vous donne accès à la création illimitée de fiches maternelle et exercices CP. Téléchargez vos fiches à imprimer gratuit en format PDF haute qualité.',
+    title: 'Mots Mélangés Fiches Gratuites | Générateur Maternelle CP - LCS',
+    description: 'Créez des mots mélangés en 3 clics. Fiches gratuites pour maternelle et CP. Téléchargez PDF 300 DPI. Licence commerciale incluse. Essai gratuit disponible.',
     keywords: 'mots mélangés, générateur mots mélangés, fiches maternelle, fiches à imprimer gratuit, exercices CP, exercices CE1, apprendre à lire, alphabet, apprendre les lettres, graphisme maternelle, écriture cursive, coloriage à imprimer, exercices maths, tables de multiplication',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fr/apps/mots-melanges-fiches',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/word-scramble/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Mots mélangés fiche gratuite - exercices vocabulaire maternelle CP',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/word-scramble/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Mots mélangés fiches gratuites pour enfants - orthographe CP CE1',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/word-scramble/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Mots mélangés fiche pour maternelle - apprendre les lettres',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/word-scramble/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Mots mélangés imprimables gratuits - alphabet pour enfants',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/word-scramble/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Mots mélangés fiche gratuite pour enfants - vocabulaire thématique',
+      },
+    ],
   },
 
   // Hero Section - FULL text from word-scramble.md paragraphs 1-4
@@ -30,7 +62,7 @@ export const wordScrambleFrContent: ProductPageContent = {
 Les mots mélangés sont parfaits pour apprendre à lire. Les élèves remettent les lettres dans le bon ordre. Chaque exercice inclut une image comme indice visuel. Cet outil pédagogique renforce le vocabulaire et l'orthographe.
 
 Notre générateur propose 11 langues. L'interface et le contenu s'adaptent à votre langue. Les fiches maternelle utilisent des images adaptées aux enfants. Parfait pour les classes bilingues et l'apprentissage du français langue étrangère.`,
-    previewImageSrc: '/samples/english/word scramble/word scramble portrait.jpeg',
+    previewImageSrc: '/samples/french/word-scramble/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Essayer Gratuitement',
       viewSamples: 'Voir les Exemples',
@@ -65,24 +97,38 @@ Notre générateur propose 11 langues. L'interface et le contenu s'adaptent à v
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/word scramble/word scramble portrait.jpeg',
-        answerKeySrc: '/samples/english/word scramble/word scramble portrait answer-key.jpeg',
-        altText: 'Mots mélangés en format portrait avec images thématiques pour le vocabulaire maternelle',
-        pdfDownloadUrl: '/samples/english/word scramble/word scramble portrait.pdf',
+        worksheetSrc: '/samples/french/word-scramble/sample-1.jpeg',
+        answerKeySrc: '/samples/french/word-scramble/sample-1-answer.jpeg',
+        altText: 'Mots mélangés fiche gratuite à imprimer - vocabulaire animaux pour maternelle CP',
+        pdfDownloadUrl: '/samples/french/word-scramble/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/word scramble/word scramble landscape.jpeg',
-        answerKeySrc: '/samples/english/word scramble/word scramble landscape answer-key.jpeg',
-        altText: 'Fiche de mots mélangés en format paysage avec indices visuels colorés pour le CP',
-        pdfDownloadUrl: '/samples/english/word scramble/word scramble landscape.pdf',
+        worksheetSrc: '/samples/french/word-scramble/sample-2.jpeg',
+        answerKeySrc: '/samples/french/word-scramble/sample-2-answer.jpeg',
+        altText: 'Mots mélangés fiches gratuites pour enfants - exercices orthographe CP CE1',
+        pdfDownloadUrl: '/samples/french/word-scramble/sample-2.pdf',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/word scramble/custom word list.jpeg',
-        answerKeySrc: '/samples/english/word scramble/custom word list answer-key.jpeg',
-        altText: 'Mots mélangés avec liste de mots personnalisée pour la pratique de l\'orthographe',
-        pdfDownloadUrl: '/samples/english/word scramble/custom word list.pdf',
+        worksheetSrc: '/samples/french/word-scramble/sample-3.jpeg',
+        answerKeySrc: '/samples/french/word-scramble/sample-3-answer.jpeg',
+        altText: 'Mots mélangés fiche pour maternelle - apprendre à lire avec images',
+        pdfDownloadUrl: '/samples/french/word-scramble/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/french/word-scramble/sample-4.jpeg',
+        answerKeySrc: '/samples/french/word-scramble/sample-4-answer.jpeg',
+        altText: 'Mots mélangés imprimables gratuits - lettres alphabet pour enfants',
+        pdfDownloadUrl: '/samples/french/word-scramble/sample-4.pdf',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/french/word-scramble/sample-5.jpeg',
+        answerKeySrc: '/samples/french/word-scramble/sample-5-answer.jpeg',
+        altText: 'Mots mélangés fiche gratuite pour enfants - vocabulaire thématique école',
+        pdfDownloadUrl: '/samples/french/word-scramble/sample-5.pdf',
       },
     ],
   },

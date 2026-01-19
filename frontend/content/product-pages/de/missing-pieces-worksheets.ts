@@ -31,6 +31,38 @@ export const missingPiecesDeContent: ProductPageContent = {
     description: 'Erstellen Sie professionelle Puzzle-Arbeitsblätter mit unserem Generator für fehlende Puzzleteile. Perfekt für Arbeitsblätter Grundschule, Vorschule Arbeitsblätter und Mathe Arbeitsblätter. Generieren Sie visuelle Wahrnehmungs-Aktivitäten. Laden Sie druckfertige PDF-Dateien in unter 3 Minuten herunter.',
     keywords: 'fehlende puzzleteile arbeitsblätter, arbeitsblätter grundschule, kostenlose arbeitsblätter, vorschule arbeitsblätter, mathe arbeitsblätter, visuelle wahrnehmung, puzzle arbeitsblätter, schwungübungen, ausmalbilder, buchstaben lernen',
     canonicalUrl: 'https://www.lessoncraftstudio.com/de/apps/fehlende-puzzleteile-arbeitsblaetter',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/german/missing-pieces/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fehlende Puzzleteile Arbeitsblätter Grundschule - kostenlose Druckvorlagen'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/german/missing-pieces/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Puzzle-Arbeitsblätter Vorschule - visuelle Wahrnehmung für Kinder'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/german/missing-pieces/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Kostenlose Arbeitsblätter fehlende Teile - Mathe Arbeitsblätter visuelles Denken'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/german/missing-pieces/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Vorschule Arbeitsblätter Puzzle-Generator - räumliches Denken fördern'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/german/missing-pieces/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fehlende Puzzleteile Arbeitsblätter PDF - Problemlösung für Grundschule'
+      },
+    ],
   },
 
   // Hero Section - FULL text from fehlende-puzzleteile.md
@@ -44,7 +76,7 @@ Puzzles mit fehlenden Teilen fördern die visuelle Wahrnehmung von Kindern. Die 
 Unser Arbeitsblatt-Generator erstellt automatisch das Puzzle und den Lösungsschlüssel. Wählen Sie ein Bild aus unserer Bibliothek mit über 3000 kindgerechten Motiven. Bestimmen Sie, wie viele Teile fehlen sollen. Legen Sie den Schwierigkeitsgrad fest. Der Generator erstellt das Arbeitsblatt sofort. Download als PDF oder JPEG für den Ausdruck zu Hause oder in der Schule.
 
 Ideal für Erzieherinnen in der Vorschule, Grundschullehrkräfte und Eltern im Homeschooling. Erstellen Sie unbegrenzt Puzzle-Arbeitsblätter für Mathe Arbeitsblätter, Buchstaben lernen oder Deutsch Arbeitsblätter. Jedes Arbeitsblatt enthält den Lösungsschlüssel. Keine Designkenntnisse erforderlich. Professionelle Ergebnisse in wenigen Minuten.`,
-    previewImageSrc: '/samples/english/missing pieces/worksheet.jpeg',
+    previewImageSrc: '/samples/german/missing-pieces/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Kostenlos Testen',
       viewSamples: 'Beispiele Ansehen',
@@ -63,7 +95,7 @@ Ideal für Erzieherinnen in der Vorschule, Grundschullehrkräfte und Eltern im H
     },
   },
 
-  // Sample Gallery - REAL file paths from samples/english/missing pieces/
+  // Sample Gallery - REAL file paths from samples/german/missing-pieces/
   samples: {
     sectionTitle: 'Fehlende Puzzleteile Arbeitsblätter Beispiele',
     sectionDescription: 'Laden Sie kostenlose Beispiel-Arbeitsblätter herunter, um unsere professionelle Qualität zu sehen',
@@ -79,17 +111,38 @@ Ideal für Erzieherinnen in der Vorschule, Grundschullehrkräfte und Eltern im H
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/missing pieces/worksheet.jpeg',
-        answerKeySrc: '/samples/english/missing pieces/answer_key.jpeg',
-        altText: 'Fehlende Puzzleteile Arbeitsblatt für Vorschule Arbeitsblätter und visuelle Wahrnehmung',
-        pdfDownloadUrl: '/samples/english/missing pieces/worksheet.pdf',
+        worksheetSrc: '/samples/german/missing-pieces/sample-1.jpeg',
+        answerKeySrc: '/samples/german/missing-pieces/sample-1-answer.jpeg',
+        altText: 'Fehlende Puzzleteile Arbeitsblatt kostenlos zum Ausdrucken - visuelle Wahrnehmung für Vorschule',
+        pdfDownloadUrl: '/samples/german/missing-pieces/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/missing pieces/worksheet (1).jpeg',
-        answerKeySrc: '/samples/english/missing pieces/answer_key (1).jpeg',
-        altText: 'Arbeitsblätter Grundschule Puzzle mit fehlenden Teilen für Problemlösung',
-        pdfDownloadUrl: '/samples/english/missing pieces/worksheet (1).pdf',
+        worksheetSrc: '/samples/german/missing-pieces/sample-2.jpeg',
+        answerKeySrc: '/samples/german/missing-pieces/sample-2-answer.jpeg',
+        altText: 'Arbeitsblätter Grundschule Puzzle mit fehlenden Teilen - Problemlösung für Kinder',
+        pdfDownloadUrl: '/samples/german/missing-pieces/sample-2.pdf',
+      },
+      {
+        id: '3',
+        worksheetSrc: '/samples/german/missing-pieces/sample-3.jpeg',
+        answerKeySrc: '/samples/german/missing-pieces/sample-3-answer.jpeg',
+        altText: 'Kostenlose Arbeitsblätter fehlende Puzzleteile - Mathe Arbeitsblätter visuelles Denken',
+        pdfDownloadUrl: '/samples/german/missing-pieces/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/german/missing-pieces/sample-4.jpeg',
+        answerKeySrc: '/samples/german/missing-pieces/sample-4-answer.jpeg',
+        altText: 'Vorschule Arbeitsblätter Puzzle-Generator - räumliches Denken für Kinder',
+        pdfDownloadUrl: '/samples/german/missing-pieces/sample-4.pdf',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/german/missing-pieces/sample-5.jpeg',
+        answerKeySrc: '/samples/german/missing-pieces/sample-5-answer.jpeg',
+        altText: 'Fehlende Puzzleteile Arbeitsblätter Grundschule - kostenlose Druckvorlagen PDF',
+        pdfDownloadUrl: '/samples/german/missing-pieces/sample-5.pdf',
       },
     ],
   },
@@ -447,6 +500,36 @@ Bauen Sie charakteristische Produktlinien mit konsistentem Branding auf. Laden S
         id: '12',
         question: 'Funktionieren Ausmalbilder und Kostenlose Arbeitsblätter auch für Homeschooling-Familien?',
         answer: 'Homeschooling-Eltern gehören zu den begeistertsten Nutzern der Plattform. Erstellen Sie personalisierte Ausmalbilder Puzzles mit Familienfotos. Generieren Sie thematische Arbeitsblätter passend zum individuellen Lehrplan. Das Abonnement deckt unbegrenzte Arbeitsblatterstellung für alle Fächer und Altersstufen ab. Familien mit mehreren Kindern profitieren besonders stark.',
+      },
+      {
+        id: '13',
+        question: 'Welche Arbeitsblatt für Kinder Materialien kann ich mit dem Puzzle-Generator erstellen?',
+        answer: 'Der Generator erstellt vielfältige Arbeitsblatt für Kinder Materialien für alle Altersgruppen. Wählen Sie aus über 3000 kindgerechten Bildern in verschiedenen Kategorien. Erstellen Sie Puzzles mit Tieren, Fahrzeugen, Essen, Formen oder saisonalen Themen. Jedes Arbeitsblatt für Kinder ist pädagogisch wertvoll und fördert visuelle Wahrnehmung, Konzentration und logisches Denken. Die Schwierigkeitsstufen passen sich dem Entwicklungsstand der Kinder an.',
+      },
+      {
+        id: '14',
+        question: 'Eignen sich Arbeitsblatt für Vorschule Materialien zur Schulvorbereitung?',
+        answer: 'Puzzle-Arbeitsblätter sind ideale Arbeitsblatt für Vorschule Materialien zur Schulvorbereitung. Kinder entwickeln wichtige Vorläuferfähigkeiten wie visuelle Unterscheidung und Teil-Ganzes-Verständnis. Das Arbeitsblatt für Vorschule Format trainiert Konzentration und Ausdauer spielerisch. Erzieherinnen nutzen die Puzzles für tägliche Lernstationen. Die anpassbare Schwierigkeit ermöglicht individuelles Arbeitsblatt für Vorschule Training für jedes Kind.',
+      },
+      {
+        id: '15',
+        question: 'Wo finde ich kostenlose Druckvorlagen für fehlende Puzzleteile Arbeitsblätter?',
+        answer: 'Auf unserer Website können Sie kostenlose Beispiel-Druckvorlagen herunterladen, um die Qualität zu testen. Das Vollzugriff Abonnement enthält dann unbegrenzte kostenlose Druckvorlagen für alle 33 Arbeitsblatt-Generatoren. Alle kostenlose Druckvorlagen exportieren in professioneller 300 DPI Qualität. Jede kostenlose Druckvorlagen Datei enthält automatisch einen Lösungsschlüssel. Speichern Sie Ihre kostenlose Druckvorlagen als PDF oder JPEG für verschiedene Verwendungszwecke.',
+      },
+      {
+        id: '16',
+        question: 'Bietet die Plattform Kostenlose Arbeitsblätter für Kinder in verschiedenen Schwierigkeitsstufen?',
+        answer: 'Ja, Sie können Kostenlose Arbeitsblätter für Kinder in allen Schwierigkeitsstufen generieren. Wählen Sie 1 bis 5 fehlende Teile je nach Alter und Fähigkeit. Kostenlose Arbeitsblätter für Kinder im Vorschulalter nutzen 1-2 fehlende Teile mit 2-3 Optionen. Ältere Kinder arbeiten mit komplexeren Kostenlose Arbeitsblätter für Kinder Puzzles. Die Flexibilität ermöglicht differenziertes Lernen für gemischte Gruppen.',
+      },
+      {
+        id: '17',
+        question: 'Welche Druckqualität haben die generierten Puzzle-Arbeitsblätter?',
+        answer: 'Alle generierten Arbeitsblätter exportieren in professioneller 300 DPI Auflösung. Diese hohe Qualität garantiert gestochen scharfe Bilder und klaren Text beim Ausdruck. Die Dateien funktionieren mit allen Druckertypen vom Heim-Tintenstrahldrucker bis zum Schul-Laserdrucker. Kommerzielle Druckereien akzeptieren unsere Dateien ohne Qualitätseinschränkungen. Wählen Sie zwischen PDF für universelle Kompatibilität oder JPEG für Präsentationen.',
+      },
+      {
+        id: '18',
+        question: 'Wie funktioniert das Abonnement und welche Vorteile bietet es?',
+        answer: 'Das Vollzugriff Abonnement kostet 240€ pro Jahr und schaltet alle 33 Arbeitsblatt-Generatoren frei. Sie erhalten unbegrenzte Arbeitsblatterstellung ohne zusätzliche Kosten pro Download. Die kommerzielle Lizenz ist inklusive für den Verkauf auf Lehrermarktplätzen. Alle 11 Sprachversionen sind verfügbar. Das Abonnement verlängert sich jährlich und ist jederzeit kündbar. Der Zugang zur Bildbibliothek mit über 3000 Motiven ist ebenfalls enthalten.',
       },
     ],
   },

@@ -19,6 +19,38 @@ export const findObjectsEsContent: ProductPageContent = {
     description: 'Crea fichas para imprimir de buscar objetos con nuestro generador profesional. Genera fichas preescolar de Veo Veo y encuentra el diferente. Descarga fichas de alta calidad en PDF en menos de 3 minutos. Ideal para educación infantil y primaria.',
     keywords: 'fichas para imprimir, buscar objetos, veo veo, encuentra el diferente, fichas preescolar, fichas infantil, material educativo gratis, discriminación visual, grafomotricidad, observación visual',
     canonicalUrl: 'https://www.lessoncraftstudio.com/es/apps/buscar-objetos-fichas',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/spanish/find-objects/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fichas para imprimir de buscar objetos - actividad Veo Veo para preescolar',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/spanish/find-objects/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fichas infantil de encuentra el diferente - discriminación visual para primaria',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/spanish/find-objects/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fichas preescolar de buscar objetos - ejercicio de observación visual gratis',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/spanish/find-objects/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Material educativo gratis de Veo Veo - fichas para imprimir con grafomotricidad',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/spanish/find-objects/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fichas gratis de buscar objetos - actividad de discriminación visual infantil',
+      },
+    ],
   },
 
   // Hero Section - FULL text from find-objects.md paragraphs 1-5
@@ -34,7 +66,7 @@ La plataforma incluye más de 3000 imágenes infantiles organizadas por temas. S
 Cada ficha incluye clave de respuestas generada automáticamente. Perfecto para maestros que necesitan material educativo gratis preparado para usar. Descarga en formato PDF o JPEG con calidad profesional de 300 DPI. Ideal para imprimir en casa o vender en plataformas como Teachers Pay Teachers.
 
 El generador funciona en 11 idiomas diferentes. Los nombres de las imágenes se adaptan al idioma seleccionado. Esto hace que las fichas sean perfectas para enseñanza de vocabulario y desarrollo de lenguaje. Las fichas para imprimir que creas son 100% editables después de generarse.`,
-    previewImageSrc: '/samples/english/find objects/find objects portrait.jpeg',
+    previewImageSrc: '/samples/spanish/find-objects/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Probar Gratis',
       viewSamples: 'Ver Ejemplos',
@@ -69,17 +101,38 @@ El generador funciona en 11 idiomas diferentes. Los nombres de las imágenes se 
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/find objects/find objects portrait.jpeg',
-        answerKeySrc: '/samples/english/find objects/find objects portrait answer_key.jpeg',
-        altText: 'Ficha de buscar objetos en formato vertical con actividad tipo Veo Veo para discriminación visual en preescolar',
-        pdfDownloadUrl: '/samples/english/find objects/find objects portrait.pdf',
+        worksheetSrc: '/samples/spanish/find-objects/sample-1.jpeg',
+        answerKeySrc: '/samples/spanish/find-objects/sample-1-answer.jpeg',
+        altText: 'Fichas para imprimir de buscar objetos gratis - Veo Veo con discriminación visual para preescolar',
+        pdfDownloadUrl: '/samples/spanish/find-objects/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/find objects/find objects landscape.jpeg',
-        answerKeySrc: '/samples/english/find objects/find objects landscape answer_key.jpeg',
-        altText: 'Ficha de encuentra el diferente en formato horizontal con imágenes coloridas para educación primaria',
-        pdfDownloadUrl: '/samples/english/find objects/find objects landscape.pdf',
+        worksheetSrc: '/samples/spanish/find-objects/sample-2.jpeg',
+        answerKeySrc: '/samples/spanish/find-objects/sample-2-answer.jpeg',
+        altText: 'Fichas infantil de encuentra el diferente para imprimir - actividad de observación visual para primaria',
+        pdfDownloadUrl: '/samples/spanish/find-objects/sample-2.pdf',
+      },
+      {
+        id: '3',
+        worksheetSrc: '/samples/spanish/find-objects/sample-3.jpeg',
+        answerKeySrc: '/samples/spanish/find-objects/sample-3-answer.jpeg',
+        altText: 'Fichas preescolar de buscar objetos con grafomotricidad - ejercicio Veo Veo gratis para niños',
+        pdfDownloadUrl: '/samples/spanish/find-objects/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/spanish/find-objects/sample-4.jpeg',
+        answerKeySrc: '/samples/spanish/find-objects/sample-4-answer.jpeg',
+        altText: 'Material educativo gratis de buscar objetos - ficha de discriminación visual para educación infantil',
+        pdfDownloadUrl: '/samples/spanish/find-objects/sample-4.pdf',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/spanish/find-objects/sample-5.jpeg',
+        answerKeySrc: '/samples/spanish/find-objects/sample-5-answer.jpeg',
+        altText: 'Fichas gratis para imprimir de Veo Veo - actividad de observación visual para kindergarten',
+        pdfDownloadUrl: '/samples/spanish/find-objects/sample-5.pdf',
       },
     ],
   },

@@ -190,6 +190,21 @@ export interface ProductPageContent {
     steps: Step[];
   };
 
+  // Tips Section (optional for SEO keyword density)
+  tips?: {
+    sectionTitle: string;
+    sectionDescription?: string;
+    badgeText?: string;
+    readMoreLabel?: string;
+    showLessLabel?: string;
+    items: Array<{
+      id: string;
+      icon: string;
+      title: string;
+      description: string;
+    }>;
+  };
+
   // Use Cases (optional for partial content)
   useCases?: {
     sectionTitle: string;
@@ -346,6 +361,22 @@ export default function ProductPageClient({
           badgeText={content.useCases.badgeText}
           readMoreLabel={content.useCases.readMoreLabel}
           showLessLabel={content.useCases.showLessLabel}
+        />
+      )}
+
+      {/* Part 5b: Tips Section (optional, SEO-focused) */}
+      {content.tips && (
+        <FeaturesGrid
+          locale={locale}
+          sectionTitle={content.tips.sectionTitle}
+          sectionDescription={content.tips.sectionDescription}
+          features={content.tips.items.map(item => ({
+            ...item,
+            highlighted: false,
+          }))}
+          badgeText={content.tips.badgeText}
+          readMoreLabel={content.tips.readMoreLabel}
+          showLessLabel={content.tips.showLessLabel}
         />
       )}
 

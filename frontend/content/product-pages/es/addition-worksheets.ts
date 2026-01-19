@@ -19,6 +19,38 @@ export const additionEsContent: ProductPageContent = {
     description: 'Crea fichas de sumas profesionales con imágenes usando nuestro generador de ejercicios matemáticas. Genera fichas para imprimir personalizadas perfectas para preescolar y primaria. Descarga fichas gratis en PDF de alta calidad en menos de 3 minutos.',
     keywords: 'fichas de sumas, fichas para imprimir, ejercicios matemáticas, fichas de matemáticas, fichas infantil, fichas preescolar, grafomotricidad, lectoescritura, aprender los números, tablas de multiplicar, dibujos para colorear, fichas gratis, material educativo gratis',
     canonicalUrl: 'https://www.lessoncraftstudio.com/es/apps/suma-fichas',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/spanish/addition/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Ficha de sumas gratis para imprimir - ejercicios matemáticas con imágenes para preescolar',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/spanish/addition/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fichas infantil de sumas para imprimir - fichas de matemáticas para educación infantil',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/spanish/addition/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fichas preescolar de sumas gratis - material educativo de grafomotricidad',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/spanish/addition/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Ejercicios matemáticas de sumas para imprimir - fichas gratis para primaria',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/spanish/addition/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fichas de sumas para imprimir gratis - aprender los números con fichas infantil',
+      },
+    ],
   },
 
   // Hero Section - FULL text from addition.md paragraphs 1-3
@@ -30,7 +62,7 @@ export const additionEsContent: ProductPageContent = {
 Nuestro generador de fichas de sumas utiliza más de 3000 imágenes infantiles para hacer que el aprendizaje de matemáticas sea divertido y visual. Los niños aprenden mejor cuando pueden contar objetos reales en lugar de solo números abstractos. Cada ficha de matemáticas incluye imágenes coloridas que los estudiantes pueden contar, ayudándoles a comprender los conceptos de suma de manera natural y entretenida.
 
 El generador crea fichas para imprimir completamente personalizables en segundos. Selecciona temas de imágenes, ajusta la dificultad cambiando el rango de números, elige el tamaño de página y descarga tus ejercicios matemáticas listos para usar. Perfecto para maestros de educación infantil, docentes de primaria, padres educadores en casa y profesionales que venden material educativo en plataformas como Teachers Pay Teachers y Etsy.`,
-    previewImageSrc: '/samples/english/addition/addition_worksheet portrait.jpeg',
+    previewImageSrc: '/samples/spanish/addition/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Probar Gratis',
       viewSamples: 'Ver Ejemplos',
@@ -65,31 +97,38 @@ El generador crea fichas para imprimir completamente personalizables en segundos
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/addition/addition_worksheet portrait.jpeg',
-        answerKeySrc: '/samples/english/addition/addition_answer_key portrait.jpeg',
-        altText: 'Ficha de sumas en formato vertical con imágenes temáticas para contar y sumar en educación infantil',
-        pdfDownloadUrl: '/samples/english/addition/addition_worksheet portrait.pdf',
+        worksheetSrc: '/samples/spanish/addition/sample-1.jpeg',
+        answerKeySrc: '/samples/spanish/addition/sample-1-answer.jpeg',
+        altText: 'Ficha de sumas gratis para imprimir - ejercicios matemáticas con imágenes para preescolar y primaria',
+        pdfDownloadUrl: '/samples/spanish/addition/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/addition/image and number.jpeg',
-        answerKeySrc: '/samples/english/addition/image and number answer_key.jpeg',
-        altText: 'Ficha de sumas con modo imagen y número para práctica de matemáticas en preescolar',
-        pdfDownloadUrl: '/samples/english/addition/image and number.pdf',
+        worksheetSrc: '/samples/spanish/addition/sample-2.jpeg',
+        answerKeySrc: '/samples/spanish/addition/sample-2-answer.jpeg',
+        altText: 'Fichas infantil de sumas para imprimir - fichas de matemáticas con dibujos para colorear',
+        pdfDownloadUrl: '/samples/spanish/addition/sample-2.pdf',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/addition/find addend.jpeg',
-        answerKeySrc: '/samples/english/addition/find addend answer_key.jpeg',
-        altText: 'Ficha de encontrar sumando con ejercicios para resolver incógnitas en sumas básicas',
-        pdfDownloadUrl: '/samples/english/addition/find addend.pdf',
+        worksheetSrc: '/samples/spanish/addition/sample-3.jpeg',
+        answerKeySrc: '/samples/spanish/addition/sample-3-answer.jpeg',
+        altText: 'Fichas preescolar de sumas gratis - material educativo de grafomotricidad y números',
+        pdfDownloadUrl: '/samples/spanish/addition/sample-3.pdf',
       },
       {
         id: '4',
-        worksheetSrc: '/samples/english/addition/mixed mode.jpeg',
-        answerKeySrc: '/samples/english/addition/mixed mode answer_key.jpeg',
-        altText: 'Ficha de sumas en modo mixto combinando diferentes tipos de ejercicios matemáticos',
-        pdfDownloadUrl: '/samples/english/addition/mixed mode.pdf',
+        worksheetSrc: '/samples/spanish/addition/sample-4.jpeg',
+        answerKeySrc: '/samples/spanish/addition/sample-4-answer.jpeg',
+        altText: 'Ejercicios matemáticas de sumas para imprimir - fichas gratis para educación infantil',
+        pdfDownloadUrl: '/samples/spanish/addition/sample-4.pdf',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/spanish/addition/sample-5.jpeg',
+        answerKeySrc: '/samples/spanish/addition/sample-5-answer.jpeg',
+        altText: 'Fichas de sumas para imprimir gratis - aprender los números con fichas infantil',
+        pdfDownloadUrl: '/samples/spanish/addition/sample-5.pdf',
       },
     ],
   },

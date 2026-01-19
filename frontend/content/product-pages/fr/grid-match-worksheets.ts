@@ -17,10 +17,47 @@ export const gridMatchFrContent: ProductPageContent = {
   seo: {
     slug: 'puzzle-grille-fiches',
     appId: 'grid-match',
-    title: 'Puzzle Grille - Fiches à Imprimer Gratuit pour Maternelle et Exercices CP',
-    description: 'Créez des fiches puzzle grille professionnelles avec notre générateur avancé. Votre abonnement Accès Complet vous donne une création illimitée de fiches sans frais par fiche. Téléchargez des fiches PDF de haute qualité en moins de 3 minutes.',
+    title: 'Puzzle Grille Fiches Gratuites | Générateur Maternelle CP',
+    description: 'Créez des fiches puzzle grille gratuites avec notre générateur. PDF haute qualité en 3 minutes. Parfait pour maternelle et CP. Essayez maintenant !',
     keywords: 'fiches maternelle, exercices CP, graphisme maternelle, coloriage à imprimer, apprendre à lire, exercices maths, alphabet, tables de multiplication, fiches à imprimer gratuit, écriture cursive',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fr/apps/puzzle-grille-fiches',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/grid-match/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        alt: 'Fiche gratuite puzzle grille pour maternelle avec corrigé - exercice de discrimination visuelle',
+        caption: 'Fiche gratuite puzzle grille pour discrimination visuelle et raisonnement spatial',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/grid-match/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        alt: 'Fiches gratuites puzzle grille exercices CP - activité graphisme maternelle',
+        caption: 'Fiches gratuites puzzle grille pour exercices CP et graphisme maternelle',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/grid-match/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        alt: 'Fiche pour maternelle puzzle grille - imprimables gratuits raisonnement spatial',
+        caption: 'Fiche pour maternelle puzzle grille avec imprimables gratuits',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/grid-match/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        alt: 'Fiche pour enfants puzzle grille exercices maths - graphisme maternelle gratuit',
+        caption: 'Fiche pour enfants puzzle grille combinant exercices maths et graphisme',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/grid-match/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        alt: 'Imprimables gratuits puzzle grille fiches maternelle - exercices CP discrimination visuelle',
+        caption: 'Imprimables gratuits puzzle grille pour fiches maternelle et exercices CP',
+      },
+    ],
   },
 
   // Hero Section - FULL text from grid-match.md paragraphs 1-3
@@ -32,7 +69,7 @@ export const gridMatchFrContent: ProductPageContent = {
 Les puzzles grille aident les jeunes apprenants à développer la discrimination visuelle et le raisonnement spatial. Les élèves associent les pièces numérotées pour compléter les images. Chaque fiche comprend le puzzle et le corrigé. Parfait pour le travail du matin et les ateliers.
 
 Les enseignants adorent les fiches puzzle grille car elles combinent plaisir et apprentissage. Créez des variations illimitées avec notre bibliothèque de 3000+ images. Personnalisez chaque élément incluant la taille de la grille et le niveau de difficulté. Exportez en PDF ou JPEG pour l'impression ou l'usage numérique.`,
-    previewImageSrc: '/samples/english/grid match/grid match portrait .jpeg',
+    previewImageSrc: '/samples/french/grid-match/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Essayer Gratuitement',
       viewSamples: 'Voir les Exemples',
@@ -67,17 +104,38 @@ Les enseignants adorent les fiches puzzle grille car elles combinent plaisir et 
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/grid match/grid match portrait .jpeg',
-        answerKeySrc: '/samples/english/grid match/grid match portrait  answer_key.jpeg',
-        altText: 'Fiche puzzle grille format portrait pour maternelle avec corrigé',
-        pdfDownloadUrl: '/samples/english/grid match/grid match portrait .pdf',
+        worksheetSrc: '/samples/french/grid-match/sample-1.jpeg',
+        answerKeySrc: '/samples/french/grid-match/sample-1-answer.jpeg',
+        altText: 'Fiche gratuite puzzle grille pour maternelle - exercice discrimination visuelle et graphisme maternelle avec corrigé',
+        pdfDownloadUrl: '/samples/french/grid-match/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/grid match/grid match landscape.jpeg',
-        answerKeySrc: '/samples/english/grid match/grid match landscape answer_key.jpeg',
-        altText: 'Fiche puzzle grille format paysage pour exercices CP avec corrigé',
-        pdfDownloadUrl: '/samples/english/grid match/grid match landscape.pdf',
+        worksheetSrc: '/samples/french/grid-match/sample-2.jpeg',
+        answerKeySrc: '/samples/french/grid-match/sample-2-answer.jpeg',
+        altText: 'Fiches gratuites puzzle grille exercices CP - activité raisonnement spatial et fiches maternelle avec corrigé',
+        pdfDownloadUrl: '/samples/french/grid-match/sample-2.pdf',
+      },
+      {
+        id: '3',
+        worksheetSrc: '/samples/french/grid-match/sample-3.jpeg',
+        answerKeySrc: '/samples/french/grid-match/sample-3-answer.jpeg',
+        altText: 'Fiche pour maternelle puzzle grille - imprimables gratuits et exercices CP discrimination visuelle avec corrigé',
+        pdfDownloadUrl: '/samples/french/grid-match/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/french/grid-match/sample-4.jpeg',
+        answerKeySrc: '/samples/french/grid-match/sample-4-answer.jpeg',
+        altText: 'Fiche pour enfants puzzle grille graphisme maternelle - fiches gratuites exercices maths avec corrigé',
+        pdfDownloadUrl: '/samples/french/grid-match/sample-4.pdf',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/french/grid-match/sample-5.jpeg',
+        answerKeySrc: '/samples/french/grid-match/sample-5-answer.jpeg',
+        altText: 'Imprimables gratuits puzzle grille fiches maternelle - fiche gratuite exercices CP raisonnement spatial avec corrigé',
+        pdfDownloadUrl: '/samples/french/grid-match/sample-5.pdf',
       },
     ],
   },
@@ -444,6 +502,36 @@ Modifiez le puzzle grille pour les élèves ayant des déficiences visuelles en 
         id: '12',
         question: 'Puis-je Créer des Fiches d\'Alphabet et Apprendre à Lire sur des Sujets Scolaires Spécifiques ?',
         answer: 'Oui absolument. Notre bibliothèque de 3000+ images couvre tous les sujets scolaires. Sciences animaux plantes cycles de vie habitats. Mathématiques formes nombres motifs mesures. Études sociales communautés métiers transport géographie. Littérature personnages d\'histoires contes thèmes. Créez des fiches d\'alphabet thématiques correspondant aux unités actuelles. Apprenez la lettre A avec des animaux. La lettre B avec des bâtiments. La lettre C avec des voitures. Cette intégration curriculaire renforce l\'apprentissage sur plusieurs matières simultanément. Téléchargez des images personnalisées pour des sujets spécialisés. Ajoutez des diagrammes scientifiques. Incluez des cartes géographiques. Téléchargez des illustrations historiques. Créez des fiches pour apprendre à lire parfaitement alignées sur votre programme spécifique. Cette personnalisation maximise la pertinence pédagogique.',
+      },
+      {
+        id: '13',
+        question: 'Le Générateur de Puzzle Grille Fonctionne-t-il sur Mobile et Tablette ?',
+        answer: 'Oui le générateur de puzzle grille fonctionne parfaitement sur tous les appareils. Utilisez votre ordinateur de bureau pour une édition détaillée avec un grand écran. Créez des fiches rapidement sur votre tablette pendant les réunions ou la pause déjeuner. Consultez et téléchargez des fiches existantes sur votre smartphone. L\'interface responsive s\'adapte automatiquement à la taille de votre écran. Toutes les fonctionnalités restent accessibles sur mobile. La bibliothèque d\'images se parcourt facilement avec des gestes tactiles. L\'éditeur de canvas répond aux interactions au doigt. Téléchargez les PDF directement sur votre appareil pour impression immédiate. Cette flexibilité multi-appareils vous permet de créer des fiches maternelle et exercices CP n\'importe où n\'importe quand.',
+      },
+      {
+        id: '14',
+        question: 'Puis-je Partager les Fiches de Graphisme Maternelle avec Mes Collègues ?',
+        answer: 'Oui absolument. Votre abonnement Accès Complet vous permet de partager librement les fiches téléchargées avec vos collègues. Envoyez les PDF par e-mail aux autres enseignants de votre école. Partagez via Google Drive ou Dropbox. Publiez dans les dossiers partagés de votre établissement. Vos collègues peuvent imprimer et utiliser les fiches dans leurs classes. Cependant chaque enseignant a besoin de son propre abonnement pour accéder au générateur et créer de nouvelles fiches. Les fiches créées restent vôtres pour toujours même après résiliation de l\'abonnement. Cette politique de partage généreuse soutient la collaboration entre enseignants tout en maintenant un modèle d\'abonnement équitable.',
+      },
+      {
+        id: '15',
+        question: 'Quelle est la Différence entre les Formats JPEG et PDF pour les Fiches Maternelle ?',
+        answer: 'Le format PDF garantit des résultats d\'impression cohérents sur tous les appareils et imprimantes. Les marges et dimensions restent exactes. Le texte reste net à toute échelle. Choisissez PDF pour l\'impression en classe et les supports officiels. Le format JPEG offre une compatibilité maximale pour la distribution numérique. Partagez facilement sur les réseaux sociaux ou plateformes d\'enseignement. Intégrez dans des présentations ou documents. Les JPEG s\'affichent directement dans les navigateurs sans lecteur PDF. Utilisez JPEG pour les aperçus numériques et les fiches pour écran. Les deux formats exportent à 300 DPI pour une qualité professionnelle identique. Téléchargez les deux formats pour chaque fiche selon vos besoins de distribution.',
+      },
+      {
+        id: '16',
+        question: 'Existe-t-il des Thèmes Saisonniers et de Vacances pour les Fiches d\'Exercices CP ?',
+        answer: 'Oui notre bibliothèque de 3000+ images comprend de nombreux thèmes saisonniers et de vacances. Trouvez des images pour Noël Pâques Halloween la rentrée scolaire et plus encore. Les thèmes saisonniers incluent printemps été automne et hiver avec la nature correspondante. Créez des fiches puzzle grille thématiques pour chaque période de l\'année. Les fêtes françaises comme le 14 juillet ou la Chandeleur sont représentées. Combinez les thèmes saisonniers avec les objectifs d\'apprentissage. Les feuilles d\'automne enseignent les couleurs et le comptage. Les flocons de neige présentent les formes géométriques. Les fleurs de printemps introduisent le vocabulaire botanique. Votre classe reste engagée avec des fiches pertinentes tout au long de l\'année scolaire.',
+      },
+      {
+        id: '17',
+        question: 'Comment Ajouter du Texte et des Instructions Personnalisées aux Fiches de Coloriage ?',
+        answer: 'L\'éditeur de canvas permet d\'ajouter du texte n\'importe où sur la fiche. Cliquez sur l\'outil texte et tapez vos instructions. Choisissez parmi des dizaines de polices adaptées aux enfants. Ajustez la taille du texte avec un curseur simple. Changez les couleurs pour correspondre à votre thème. Positionnez le texte en glissant librement sur le canvas. Ajoutez des lignes de nom et des champs de date. Incluez des instructions spécifiques pour chaque activité. Créez des en-têtes personnalisés pour votre classe ou école. Le texte s\'exporte parfaitement en PDF et JPEG. Ces possibilités de personnalisation transforment des fiches génériques en supports parfaitement adaptés à vos besoins pédagogiques.',
+      },
+      {
+        id: '18',
+        question: 'Les Mises à Jour de la Bibliothèque d\'Images sont-elles Incluses dans Mon Abonnement ?',
+        answer: 'Oui absolument. Votre abonnement Accès Complet inclut toutes les mises à jour de la bibliothèque sans frais supplémentaires. Nous ajoutons régulièrement de nouvelles images et thèmes. Les nouvelles catégories apparaissent automatiquement dans votre compte. Les améliorations du générateur sont déployées instantanément. Aucune mise à jour manuelle requise de votre part. Les nouveaux cliparts et illustrations enrichissent continuellement vos options créatives. Les demandes populaires des enseignants guident nos ajouts à la bibliothèque. Suggérez des thèmes ou images que vous aimeriez voir ajouter. Notre équipe évalue toutes les suggestions des abonnés. Cette bibliothèque en croissance constante augmente la valeur de votre abonnement au fil du temps.',
       },
     ],
   },

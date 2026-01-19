@@ -27,10 +27,42 @@ export const cryptogramDeContent: ProductPageContent = {
   seo: {
     slug: 'bildkryptogramm-arbeitsblaetter',
     appId: 'cryptogram',
-    title: 'Bilder-Kryptogramm Generator - Kostenlose Arbeitsblätter Grundschule und Vorschule Arbeitsblätter',
-    description: 'Erstellen Sie professionelle Bilder-Kryptogramm Arbeitsblätter mit unserem Kryptogramm-Generator. Perfekt für Arbeitsblätter Grundschule, Vorschule Arbeitsblätter und Deutsch Arbeitsblätter. Schüler entschlüsseln geheime Botschaften mit Bildcodes. Laden Sie druckfertige PDF-Dateien in unter 3 Minuten herunter.',
+    title: 'Bilder-Kryptogramm Arbeitsblätter | Kostenlos Erstellen',
+    description: 'Erstellen Sie professionelle Bilder-Kryptogramm Arbeitsblätter kostenlos. Perfekt für Grundschule und Vorschule. PDF in 3 Minuten herunterladen!',
     keywords: 'bilder-kryptogramm, kryptogramm generator, arbeitsblätter grundschule, kostenlose arbeitsblätter, vorschule arbeitsblätter, deutsch arbeitsblätter, buchstaben lernen, mathe arbeitsblätter, schwungübungen, ausmalbilder',
     canonicalUrl: 'https://www.lessoncraftstudio.com/de/apps/bildkryptogramm-arbeitsblaetter',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/german/cryptogram/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Bilder-Kryptogramm Arbeitsblatt - Kostenlose Arbeitsblätter für Grundschule und Vorschule',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/german/cryptogram/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Kryptogramm Rätsel Arbeitsblatt - Buchstaben lernen mit Bildcodes für Kinder',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/german/cryptogram/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Geheimschrift Arbeitsblatt - Arbeitsblätter Grundschule mit visuellen Hinweisen',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/german/cryptogram/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Bilder-Code Rätsel - Vorschule Arbeitsblätter zum Entschlüsseln',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/german/cryptogram/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Kryptogramm für Kinder - Deutsch Arbeitsblätter mit Bilderrätseln',
+      },
+    ],
   },
 
   // Hero Section - FULL text from kryptogramm.md
@@ -42,7 +74,7 @@ export const cryptogramDeContent: ProductPageContent = {
 Bilder-Kryptogramme verwandeln Geheimschrift-Rätsel in visuelle Lernabenteuer. Jedes Kryptogramm nutzt Bilder anstelle von Buchstaben für geheime Codes. Schüler ordnen Bilder den Buchstaben zu und entschlüsseln versteckte Botschaften. Das kombiniert Buchstaben lernen Übungen mit kritischem Denken. Perfekt für Vorschule bis zur Grundschule.
 
 Unser Kryptogramm-Generator erstellt individuelle Rätsel in 11 Sprachen. Laden Sie eigene Bilder hoch oder wählen Sie aus über 3000 kindgerechten Bildern. Jedes Kryptogramm wird als hochwertige PDF oder JPEG exportiert. Erstellen Sie Mathe Arbeitsblätter Verbindungen, Deutsch Arbeitsblätter Aktivitäten und Buchstaben lernen Übungen mit Bildcodes. Ihre Schüler werden begeistert diese kostenlose Arbeitsblätter lösen.`,
-    previewImageSrc: '/samples/english/cryptogram/cryptogram_worksheet.jpeg',
+    previewImageSrc: '/samples/german/cryptogram/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Kostenlos Testen',
       viewSamples: 'Beispiele Ansehen',
@@ -77,17 +109,38 @@ Unser Kryptogramm-Generator erstellt individuelle Rätsel in 11 Sprachen. Laden 
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/cryptogram/cryptogram_worksheet.jpeg',
-        answerKeySrc: '/samples/english/cryptogram/cryptogram_answer_key.jpeg',
-        altText: 'Bilder-Kryptogramm Arbeitsblatt für Buchstaben lernen und Deutsch Arbeitsblätter',
-        pdfDownloadUrl: '/samples/english/cryptogram/cryptogram_worksheet.pdf',
+        worksheetSrc: '/samples/german/cryptogram/sample-1.jpeg',
+        answerKeySrc: '/samples/german/cryptogram/sample-1-answer.jpeg',
+        altText: 'Bilder-Kryptogramm kostenlose Arbeitsblätter - Buchstaben lernen Übung für Grundschule',
+        pdfDownloadUrl: '/samples/german/cryptogram/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/cryptogram/cryptogram_worksheet (1).jpeg',
-        answerKeySrc: '/samples/english/cryptogram/cryptogram_answer_key (1).jpeg',
-        altText: 'Arbeitsblätter Grundschule Kryptogramm mit Bildhinweisen für Vorschule',
-        pdfDownloadUrl: '/samples/english/cryptogram/cryptogram_worksheet (1).pdf',
+        worksheetSrc: '/samples/german/cryptogram/sample-2.jpeg',
+        answerKeySrc: '/samples/german/cryptogram/sample-2-answer.jpeg',
+        altText: 'Kryptogramm Arbeitsblätter Grundschule - Geheimschrift Rätsel mit Bildcodes',
+        pdfDownloadUrl: '/samples/german/cryptogram/sample-2.pdf',
+      },
+      {
+        id: '3',
+        worksheetSrc: '/samples/german/cryptogram/sample-3.jpeg',
+        answerKeySrc: '/samples/german/cryptogram/sample-3-answer.jpeg',
+        altText: 'Vorschule Arbeitsblätter Kryptogramm - Deutsch Arbeitsblätter zum Entschlüsseln',
+        pdfDownloadUrl: '/samples/german/cryptogram/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/german/cryptogram/sample-4.jpeg',
+        answerKeySrc: '/samples/german/cryptogram/sample-4-answer.jpeg',
+        altText: 'Bilder-Code Rätsel kostenlose Arbeitsblätter - Mathe Arbeitsblätter mit Bildhinweisen',
+        pdfDownloadUrl: '/samples/german/cryptogram/sample-4.pdf',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/german/cryptogram/sample-5.jpeg',
+        answerKeySrc: '/samples/german/cryptogram/sample-5-answer.jpeg',
+        altText: 'Kryptogramm für Kinder Arbeitsblätter - Schwungübungen und Buchstaben lernen',
+        pdfDownloadUrl: '/samples/german/cryptogram/sample-5.pdf',
       },
     ],
   },

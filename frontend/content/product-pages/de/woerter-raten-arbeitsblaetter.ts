@@ -29,10 +29,42 @@ export const wordGuessDeContent: ProductPageContent = {
   seo: {
     slug: 'woerter-raten-arbeitsblaetter',
     appId: 'word-guess',
-    title: 'Worträtsel-Generator - Kostenlose Arbeitsblätter zum Ausdrucken für die Grundschule',
-    description: 'Erstellen Sie professionelle Worträtsel mit Bildhinweisen für Ihre Schüler. Der Worträtsel-Generator von LessonCraft Studio ist Ihr Werkzeug für Arbeitsblätter Grundschule. Mit Ihrem Vollzugriff Abo generieren Sie unbegrenzt Arbeitsblätter ohne zusätzliche Kosten.',
+    title: 'Wörter Raten Arbeitsblätter Kostenlos | Generator für Grundschule',
+    description: 'Wörter Raten Arbeitsblätter in 3 Minuten erstellen. Worträtsel mit Bildhinweisen für Vorschule & Grundschule. 3000+ Bilder, 300 DPI. Jetzt kostenlos testen!',
     keywords: 'wörter raten arbeitsblätter, worträtsel arbeitsblätter, arbeitsblätter grundschule, kostenlose arbeitsblätter, mathe arbeitsblätter, vorschule arbeitsblätter, einmaleins, schwungübungen, buchstaben lernen, rechnen lernen, deutsch arbeitsblätter',
     canonicalUrl: 'https://www.lessoncraftstudio.com/de/apps/woerter-raten-arbeitsblaetter',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/german/word-guess/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Wörter Raten Arbeitsblatt - Kostenloses Arbeitsblatt für Buchstaben lernen in der Grundschule',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/german/word-guess/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Worträtsel Kostenlose Druckvorlagen - Deutsch Arbeitsblätter für Vorschule',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/german/word-guess/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Wörter Raten Arbeitsblatt für Kinder - Wortschatz spielerisch erweitern',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/german/word-guess/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Worträtsel Arbeitsblatt für Vorschule - Buchstaben und Bilder kombinieren',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/german/word-guess/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Wörter Raten Kostenloses Arbeitsblatt - Leseverständnis und Schreibübungen',
+      },
+    ],
   },
 
   // Hero Section - FULL text from woerter-raten.md
@@ -44,7 +76,7 @@ export const wordGuessDeContent: ProductPageContent = {
 Kinder lieben Rätsel. Worträtsel mit Bildhinweisen verbinden Spaß mit Lernen. Ein Bild zeigt einen Gegenstand. Daneben stehen leere Kästchen für jeden Buchstaben. Die Kinder erraten das Wort und schreiben es auf.
 
 Der Worträtsel-Generator erstellt Arbeitsblätter für die Grundschule in Sekunden. Wählen Sie Bilder aus über 3.000 kindgerechten Motiven. Das System extrahiert automatisch die Wörter. Sie können die Wörter auch manuell anpassen.`,
-    previewImageSrc: '/samples/english/word guess/clue-grid_worksheet.jpeg',
+    previewImageSrc: '/samples/german/word-guess/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Kostenlos Testen',
       viewSamples: 'Beispiele Ansehen',
@@ -79,24 +111,38 @@ Der Worträtsel-Generator erstellt Arbeitsblätter für die Grundschule in Sekun
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/word guess/clue-grid_worksheet.jpeg',
-        answerKeySrc: '/samples/english/word guess/clue-grid_answer-key.jpeg',
-        altText: 'Worträtsel-Arbeitsblatt mit Hinweisraster für Arbeitsblätter Grundschule und Buchstaben lernen',
-        pdfDownloadUrl: '/samples/english/word guess/clue-grid_worksheet.pdf',
+        worksheetSrc: '/samples/german/word-guess/sample-1.jpeg',
+        answerKeySrc: '/samples/german/word-guess/sample-1-answer.jpeg',
+        altText: 'Wörter Raten Arbeitsblatt - Kostenloses Arbeitsblatt für Buchstaben lernen und Wortschatz Grundschule',
+        pdfDownloadUrl: '/samples/german/word-guess/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/word guess/landscape.jpeg',
-        answerKeySrc: '/samples/english/word guess/landscape answer-key.jpeg',
-        altText: 'Worträtsel-Arbeitsblatt im Querformat für Deutsch Arbeitsblätter und Vorschule Arbeitsblätter',
-        pdfDownloadUrl: '/samples/english/word guess/landscape.pdf',
+        worksheetSrc: '/samples/german/word-guess/sample-2.jpeg',
+        answerKeySrc: '/samples/german/word-guess/sample-2-answer.jpeg',
+        altText: 'Worträtsel Kostenlose Druckvorlagen - Deutsch Arbeitsblätter für Vorschule zum Ausdrucken',
+        pdfDownloadUrl: '/samples/german/word-guess/sample-2.pdf',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/word guess/custom word list.jpeg',
-        answerKeySrc: '/samples/english/word guess/custom word list answer-key.jpeg',
-        altText: 'Worträtsel-Arbeitsblatt mit eigener Wortliste für Kostenlose Arbeitsblätter und Mathe Arbeitsblätter',
-        pdfDownloadUrl: '/samples/english/word guess/custom word list.pdf',
+        worksheetSrc: '/samples/german/word-guess/sample-3.jpeg',
+        answerKeySrc: '/samples/german/word-guess/sample-3-answer.jpeg',
+        altText: 'Wörter Raten Arbeitsblatt für Kinder - Worträtsel mit Bildhinweisen zum Buchstaben lernen',
+        pdfDownloadUrl: '/samples/german/word-guess/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/german/word-guess/sample-4.jpeg',
+        answerKeySrc: '/samples/german/word-guess/sample-4-answer.jpeg',
+        altText: 'Worträtsel Arbeitsblatt für Vorschule - Kostenlose Arbeitsblätter zum Wortschatz üben',
+        pdfDownloadUrl: '/samples/german/word-guess/sample-4.pdf',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/german/word-guess/sample-5.jpeg',
+        answerKeySrc: '/samples/german/word-guess/sample-5-answer.jpeg',
+        altText: 'Wörter Raten Kostenloses Arbeitsblatt - Leseverständnis und Schreibübungen für Arbeitsblätter Grundschule',
+        pdfDownloadUrl: '/samples/german/word-guess/sample-5.pdf',
       },
     ],
   },

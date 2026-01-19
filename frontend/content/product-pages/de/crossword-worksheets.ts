@@ -27,10 +27,42 @@ export const crosswordDeContent: ProductPageContent = {
   seo: {
     slug: 'bilderkreuzwortraetsel-arbeitsblaetter',
     appId: 'crossword',
-    title: 'Bilderkreuzworträtsel Generator - Kostenlose Arbeitsblätter Grundschule und Vorschule Arbeitsblätter',
-    description: 'Erstellen Sie professionelle Bilderkreuzworträtsel mit unserem Kreuzworträtsel-Generator. Perfekt für Arbeitsblätter Grundschule, Vorschule Arbeitsblätter und Deutsch Arbeitsblätter. Kinder verbinden Bilder mit Rechtschreibung. Laden Sie druckfertige PDF-Dateien in unter 3 Minuten herunter.',
+    title: 'Bilderkreuzworträtsel Generator - Kostenlose Arbeitsblätter',
+    description: 'Bilderkreuzworträtsel Generator für Arbeitsblätter Grundschule. Kostenlose Vorschule Arbeitsblätter mit Lösungsblatt. PDF in unter 3 Minuten!',
     keywords: 'bilderkreuzworträtsel, kreuzworträtsel generator, arbeitsblätter grundschule, kostenlose arbeitsblätter, vorschule arbeitsblätter, deutsch arbeitsblätter, buchstaben lernen, mathe arbeitsblätter, schwungübungen, ausmalbilder',
     canonicalUrl: 'https://www.lessoncraftstudio.com/de/apps/bilderkreuzwortraetsel-arbeitsblaetter',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/german/crossword/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Bilderkreuzworträtsel Arbeitsblätter kostenlos - Buchstaben lernen Übungen für Arbeitsblätter Grundschule'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/german/crossword/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Kostenlose Arbeitsblätter Kreuzworträtsel - Vorschule Arbeitsblätter für Deutsch Arbeitsblätter'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/german/crossword/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Arbeitsblätter Grundschule Bilderkreuzworträtsel - Mathe Arbeitsblätter und Rechnen lernen'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/german/crossword/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Vorschule Arbeitsblätter Kreuzworträtsel - Kostenlose Druckvorlagen für Einmaleins und Schwungübungen'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/german/crossword/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Kostenloses Arbeitsblatt Kreuzworträtsel - Deutsch Arbeitsblätter mit Ausmalbilder für Kinder'
+      }
+    ],
   },
 
   // Hero Section - FULL text from kreuzwortraetsel.md
@@ -42,7 +74,7 @@ export const crosswordDeContent: ProductPageContent = {
 Unser Bilderkreuzworträtsel-Generator verbindet Bilder mit Worträtseln. Lehrer nutzen den Generator um Buchstaben lernen Aktivitäten, Mathe Arbeitsblätter und Deutsch Arbeitsblätter mit visuellen Hinweisen zu erstellen. Jedes Bilderkreuzworträtsel hilft Kindern Bilder mit Rechtschreibung zu verbinden. Das Kreuzworträtsel-Format eignet sich perfekt zur Kombination mit Rechnen lernen Übungen, Schwungübungen und Ausmalbilder.
 
 Bilderkreuzworträtsel machen das Lernen für Leseanfänger spannend. Schüler betrachten nummerierte Bilder und schreiben die passenden Wörter ins Rätselgitter. Dieser visuelle Ansatz funktioniert besonders gut für Vorschule Arbeitsblätter und Arbeitsblätter Grundschule. Kinder die noch lesen lernen profitieren von den Bildhinweisen. Unser Generator erstellt automatisch sowohl das Rätsel als auch den Lösungsschlüssel.`,
-    previewImageSrc: '/samples/english/crossword/crossword_worksheet.jpeg',
+    previewImageSrc: '/samples/german/crossword/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Kostenlos Testen',
       viewSamples: 'Beispiele Ansehen',
@@ -77,17 +109,38 @@ Bilderkreuzworträtsel machen das Lernen für Leseanfänger spannend. Schüler b
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/crossword/crossword_worksheet.jpeg',
-        answerKeySrc: '/samples/english/crossword/crossword_answer_key.jpeg',
-        altText: 'Bilderkreuzworträtsel Arbeitsblatt für Buchstaben lernen und Deutsch Arbeitsblätter',
-        pdfDownloadUrl: '/samples/english/crossword/image-crossword-worksheet.pdf',
+        worksheetSrc: '/samples/german/crossword/sample-1.jpeg',
+        answerKeySrc: '/samples/german/crossword/sample-1-answer.jpeg',
+        altText: 'Bilderkreuzworträtsel Arbeitsblätter kostenlos - Arbeitsblätter Grundschule mit Bildhinweisen für Buchstaben lernen und Vorschule',
+        pdfDownloadUrl: '/samples/german/crossword/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/crossword/crossword_worksheet (1).jpeg',
-        answerKeySrc: '/samples/english/crossword/crossword_answer_key (1).jpeg',
-        altText: 'Arbeitsblätter Grundschule Kreuzworträtsel mit Bildhinweisen für Vorschule',
-        pdfDownloadUrl: '/samples/english/crossword/image-crossword-worksheet (1).pdf',
+        worksheetSrc: '/samples/german/crossword/sample-2.jpeg',
+        answerKeySrc: '/samples/german/crossword/sample-2-answer.jpeg',
+        altText: 'Kostenlose Arbeitsblätter Kreuzworträtsel - Vorschule Arbeitsblätter für Deutsch Arbeitsblätter und Buchstaben lernen',
+        pdfDownloadUrl: '/samples/german/crossword/sample-2.pdf',
+      },
+      {
+        id: '3',
+        worksheetSrc: '/samples/german/crossword/sample-3.jpeg',
+        answerKeySrc: '/samples/german/crossword/sample-3-answer.jpeg',
+        altText: 'Arbeitsblätter Grundschule Bilderkreuzworträtsel - Kostenlose Druckvorlagen für Mathe Arbeitsblätter und Einmaleins',
+        pdfDownloadUrl: '/samples/german/crossword/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/german/crossword/sample-4.jpeg',
+        answerKeySrc: '/samples/german/crossword/sample-4-answer.jpeg',
+        altText: 'Vorschule Arbeitsblätter Kreuzworträtsel - Kostenlose Arbeitsblätter mit Schwungübungen und Ausmalbilder',
+        pdfDownloadUrl: '/samples/german/crossword/sample-4.pdf',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/german/crossword/sample-5.jpeg',
+        answerKeySrc: '/samples/german/crossword/sample-5-answer.jpeg',
+        altText: 'Kostenloses Arbeitsblatt Bilderkreuzworträtsel - Rechnen lernen und Deutsch Arbeitsblätter für Kinder',
+        pdfDownloadUrl: '/samples/german/crossword/sample-5.pdf',
       },
     ],
   },

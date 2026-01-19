@@ -29,10 +29,42 @@ export const prepositionsDeContent: ProductPageContent = {
   seo: {
     slug: 'praepositionen-arbeitsblaetter',
     appId: 'prepositions',
-    title: 'Präpositionen Generator - Kostenlose Arbeitsblätter für Vorschule und Arbeitsblätter Grundschule',
-    description: 'Erstellen Sie professionelle Präpositionen-Arbeitsblätter mit unserem Generator. Mit Ihrem Vollzugriff Abonnement gestalten Sie unbegrenzt druckbare Arbeitsblätter für Vorschule und Grundschule. Kinder lernen räumliche Konzepte wie in, auf, unter und neben.',
+    title: 'Präpositionen Arbeitsblätter Kostenlos | Generator für Grundschule',
+    description: 'Erstellen Sie Präpositionen-Arbeitsblätter in 3 Minuten. Generator für Vorschule & Grundschule. Räumliche Begriffe üben - kostenlos testen!',
     keywords: 'präpositionen arbeitsblätter, räumliche begriffe arbeitsblätter, arbeitsblätter grundschule, kostenlose arbeitsblätter, mathe arbeitsblätter, vorschule arbeitsblätter, deutsch arbeitsblätter, schwungübungen, buchstaben lernen, rechnen lernen',
     canonicalUrl: 'https://www.lessoncraftstudio.com/de/apps/praepositionen-arbeitsblaetter',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/german/prepositions/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Präpositionen Arbeitsblätter kostenlos zum Ausdrucken - Lückentext Übungen für Vorschule und Grundschule',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/german/prepositions/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Präpositionen Multiple-Choice Arbeitsblätter für Kinder - Räumliche Begriffe üben für Arbeitsblätter Grundschule',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/german/prepositions/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Kostenlose Präpositionen Übungsblätter - In, auf, unter, neben für Vorschule Arbeitsblätter',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/german/prepositions/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Präpositionen Arbeitsblätter Grundschule - Räumliche Beziehungen spielerisch lernen',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/german/prepositions/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Druckbare Präpositionen Arbeitsblätter - Kostenlose Arbeitsblätter für Deutsch Unterricht',
+      },
+    ],
   },
 
   // Hero Section - FULL text from praepositionen.md
@@ -46,7 +78,7 @@ Der Präpositionen-Generator vermittelt Kindern acht grundlegende räumliche Beg
 Lehrkräfte sparen Stunden bei der manuellen Erstellung von Präpositionen-Arbeitsblättern. Unser Generator erstellt professionelle Arbeitsblätter Grundschule in Minuten statt Stunden. Wählen Sie zwischen Lückentext oder Multiple-Choice-Formaten. Bestimmen Sie selbst, welche Präpositionen geübt werden sollen, oder kombinieren Sie alle acht Begriffe in einer Übung. Ihr Vollzugriff Abonnement für 240 Euro jährlich oder 25 Euro monatlich beinhaltet unbegrenzte Downloads und eine gewerbliche Lizenz für den Verkauf Ihrer Arbeitsblätter.
 
 Perfekt für Erzieher in der Vorschule und Lehrkräfte in der Grundschule, die schnell qualitativ hochwertige Präpositionen-Arbeitsblätter benötigen. Erstellen Sie Materialien für den Klassenunterricht oder für individuelle Förderung. Passen Sie jedes Element auf der Arbeitsfläche individuell an. Verschieben, drehen und skalieren Sie Bilder für einzigartige Layouts. Fügen Sie eigene Texte hinzu und wählen Sie aus sieben kindgerechten Schriftarten.`,
-    previewImageSrc: '/samples/english/prepositions/prepositions_worksheet.jpeg',
+    previewImageSrc: '/samples/german/prepositions/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Kostenlos Testen',
       viewSamples: 'Beispiele Ansehen',
@@ -81,17 +113,38 @@ Perfekt für Erzieher in der Vorschule und Lehrkräfte in der Grundschule, die s
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/prepositions/prepositions_worksheet.jpeg',
-        answerKeySrc: '/samples/english/prepositions/prepositions_answer_key.jpeg',
+        worksheetSrc: '/samples/german/prepositions/sample-1.jpeg',
+        answerKeySrc: '/samples/german/prepositions/sample-1-answer.jpeg',
         altText: 'Präpositionen Lückentext Arbeitsblatt für Arbeitsblätter Grundschule und Vorschule Arbeitsblätter',
-        pdfDownloadUrl: '/samples/english/prepositions/prepositions_worksheet.pdf',
+        pdfDownloadUrl: '/samples/german/prepositions/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/prepositions/prepositions multiple choice.jpeg',
-        answerKeySrc: '/samples/english/prepositions/prepositions multiple choice answer_key.jpeg',
+        worksheetSrc: '/samples/german/prepositions/sample-2.jpeg',
+        answerKeySrc: '/samples/german/prepositions/sample-2-answer.jpeg',
         altText: 'Präpositionen Multiple-Choice Arbeitsblatt für Mathe Arbeitsblätter und kostenlose Arbeitsblätter',
-        pdfDownloadUrl: '/samples/english/prepositions/prepositions multiple choice.pdf',
+        pdfDownloadUrl: '/samples/german/prepositions/sample-2.pdf',
+      },
+      {
+        id: '3',
+        worksheetSrc: '/samples/german/prepositions/sample-3.jpeg',
+        answerKeySrc: '/samples/german/prepositions/sample-3-answer.jpeg',
+        altText: 'Präpositionen Übungen Arbeitsblatt für Vorschule - räumliche Begriffe kostenlos',
+        pdfDownloadUrl: '/samples/german/prepositions/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/german/prepositions/sample-4.jpeg',
+        answerKeySrc: '/samples/german/prepositions/sample-4-answer.jpeg',
+        altText: 'Räumliche Präpositionen Arbeitsblatt Grundschule - in auf unter neben',
+        pdfDownloadUrl: '/samples/german/prepositions/sample-4.pdf',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/german/prepositions/sample-5.jpeg',
+        answerKeySrc: '/samples/german/prepositions/sample-5-answer.jpeg',
+        altText: 'Kostenlose Präpositionen Arbeitsblätter für Deutsch Unterricht Grundschule',
+        pdfDownloadUrl: '/samples/german/prepositions/sample-5.pdf',
       },
     ],
   },

@@ -18,10 +18,36 @@ export const matchingEsContent: ProductPageContent = {
   seo: {
     slug: 'relacionar-fichas',
     appId: 'matching',
-    title: 'Fichas para Imprimir de Relacionar | Fichas Preescolar y Material Educativo Gratis para Lectoescritura',
-    description: 'Crea fichas para imprimir profesionales de relacionar columnas con nuestro generador de fichas educativas. Genera fichas preescolar y fichas infantil personalizadas perfectas para preescolar, primer grado y segundo grado. Descarga fichas en PDF de alta calidad en menos de 3 minutos.',
+    title: 'Fichas de Relacionar Gratis para Imprimir | Generador Preescolar',
+    description: 'Crea fichas de relacionar profesionales con nuestro generador gratuito. Fichas para imprimir personalizadas para preescolar y primaria. Descarga PDF en 3 min.',
     keywords: 'fichas para imprimir, fichas preescolar, fichas infantil, material educativo gratis, relacionar columnas, grafomotricidad, lectoescritura, abecedario, fichas de matemáticas, tablas de multiplicar',
     canonicalUrl: 'https://www.lessoncraftstudio.com/es/apps/relacionar-fichas',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/spanish/matching/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Ficha de relacionar imagen con letra - ficha gratis para preescolar',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/spanish/matching/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Ficha de relacionar imagen con palabra - fichas gratis para lectoescritura',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/spanish/matching/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Ficha de relacionar columnas - ficha para niños con grafomotricidad',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/spanish/matching/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Ficha de relacionar personalizada - imprimibles gratis de matemáticas',
+      },
+    ],
   },
 
   // Hero Section - FULL text from matching.md paragraphs 1-6
@@ -39,7 +65,7 @@ El generador funciona para grafomotricidad y preparación para escritura. Usa la
 Tu suscripción al Paquete Esencial cuesta $144 anuales o $15 mensuales. Incluye acceso a 10 generadores populares de fichas. Crea fichas gratis ilimitadas sin límite de descargas. Todas las fichas para imprimir se exportan en 300 DPI de calidad profesional. Perfectas para imprimir en casa o vender en plataformas educativas.
 
 El generador incluye soporte para 11 idiomas. Perfecto para clases bilingües de español-inglés. Los nombres de las imágenes cambian según el idioma seleccionado. Esto hace que las fichas para imprimir funcionen naturalmente para enseñanza de inglés como segundo idioma. Cambia entre español e inglés con un clic.`,
-    previewImageSrc: '/samples/english/matching/matching portrait.jpeg',
+    previewImageSrc: '/samples/spanish/matching/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Probar Gratis',
       viewSamples: 'Ver Ejemplos',
@@ -74,24 +100,31 @@ El generador incluye soporte para 11 idiomas. Perfecto para clases bilingües de
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/matching/matching portrait.jpeg',
-        answerKeySrc: '/samples/english/matching/matching portrait answer_key.jpeg',
-        altText: 'Ficha de relacionar imagen con letra inicial en formato vertical para practicar el abecedario en preescolar',
-        pdfDownloadUrl: '/samples/english/matching/matching portrait.pdf',
+        worksheetSrc: '/samples/spanish/matching/sample-1.jpeg',
+        answerKeySrc: '/samples/spanish/matching/sample-1-answer.jpeg',
+        altText: 'Ficha de relacionar imagen con letra inicial - ficha gratis para niños y preescolar',
+        pdfDownloadUrl: '/samples/spanish/matching/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/matching/image and word.jpeg',
-        answerKeySrc: '/samples/english/matching/image and word answer_key.jpeg',
-        altText: 'Ficha de relacionar imagen con palabra para lectoescritura y desarrollo de vocabulario',
-        pdfDownloadUrl: '/samples/english/matching/image and word.pdf',
+        worksheetSrc: '/samples/spanish/matching/sample-2.jpeg',
+        answerKeySrc: '/samples/spanish/matching/sample-2-answer.jpeg',
+        altText: 'Ficha de relacionar imagen con palabra - fichas gratis para lectoescritura infantil',
+        pdfDownloadUrl: '/samples/spanish/matching/sample-2.pdf',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/matching/image and custom word.jpeg',
-        answerKeySrc: '/samples/english/matching/image and custom word answer_key.jpeg',
-        altText: 'Ficha de relacionar imagen con texto personalizado para fichas de matemáticas y vocabulario específico',
-        pdfDownloadUrl: '/samples/english/matching/image and custom word.pdf',
+        worksheetSrc: '/samples/spanish/matching/sample-3.jpeg',
+        answerKeySrc: '/samples/spanish/matching/sample-3-answer.jpeg',
+        altText: 'Ficha de relacionar columnas - ficha para preescolar con grafomotricidad',
+        pdfDownloadUrl: '/samples/spanish/matching/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/spanish/matching/sample-4.jpeg',
+        answerKeySrc: '/samples/spanish/matching/sample-4-answer.jpeg',
+        altText: 'Ficha de relacionar personalizada - imprimibles gratis para fichas de matemáticas',
+        pdfDownloadUrl: '/samples/spanish/matching/sample-4.pdf',
       },
     ],
   },

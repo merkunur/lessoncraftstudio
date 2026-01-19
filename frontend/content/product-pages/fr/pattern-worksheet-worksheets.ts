@@ -15,10 +15,42 @@ export const patternWorksheetFrContent: ProductPageContent = {
   seo: {
     slug: 'sequences-logiques-fiches',
     appId: 'pattern-worksheet',
-    title: 'Générateur de Fiches de Séquences | Fiches Maternelle et Exercices Maths à Imprimer Gratuit',
-    description: 'Créez des fiches de séquences professionnelles avec notre générateur. Générez des fiches maternelle et exercices maths personnalisés parfaits pour la maternelle et le CP. Téléchargez des fiches à imprimer gratuit de haute qualité en PDF en moins de 3 minutes.',
+    title: 'Fiches de Séquences Logiques Gratuites | Générateur Fiches Maternelle',
+    description: 'Créez des fiches de séquences logiques professionnelles en 3 minutes. Exercices maths et CP gratuits à imprimer. Téléchargez PDF haute qualité maintenant.',
     keywords: 'fiches maternelle, exercices maths, fiches à imprimer gratuit, exercices CP, exercices CE1, séquences logiques, graphisme maternelle, tables de multiplication, apprendre à lire, coloriage à imprimer',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fr/apps/sequences-logiques-fiches',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/pattern/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fiches de séquences logiques gratuites - exercices maths pour maternelle et CP',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/pattern/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fiches maternelle séquences logiques - fiches à imprimer gratuit pour enfants',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/pattern/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Exercices CP séquences logiques - fiche gratuite pour maternelle et CP',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/pattern/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fiche gratuite séquences logiques - exercice maternelle reconnaissance de motifs',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/pattern/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fiches pour enfants séquences logiques - fiche maternelle à imprimer gratuit',
+      },
+    ],
   },
 
   // Hero Section - FULL text from pattern-worksheet.md paragraphs 1-4
@@ -32,7 +64,7 @@ Notre générateur de fiches de séquences aide les enfants à reconnaître et c
 Les fiches de séquences combinent l'apprentissage visuel avec la logique mathématique. Les enfants apprennent à identifier les motifs AB simples ou les séquences ABCD complexes. Ces exercices préparent pour apprendre à lire et l'écriture cursive. Utilisez notre bibliothèque de 3000+ images adaptées aux enfants pour créer des fiches engageantes. Téléchargez en format PDF ou JPEG avec une qualité professionnelle de 300 DPI.
 
 Les fiches de séquences développent la reconnaissance de motifs dès la petite section. Les enfants qui maîtrisent les séquences visuelles réussissent mieux en calcul et exercices maths. Cette compétence fondamentale prépare pour les tables de multiplication et la numération.`,
-    previewImageSrc: '/samples/english/pattern worksheet/pattern_worksheet portrait.jpeg',
+    previewImageSrc: '/samples/french/pattern/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Essayer Gratuitement',
       viewSamples: 'Voir les Exemples',
@@ -51,7 +83,7 @@ Les fiches de séquences développent la reconnaissance de motifs dès la petite
     },
   },
 
-  // Sample Gallery - REAL file paths from samples/english/pattern worksheet/
+  // Sample Gallery - REAL file paths from samples/french/pattern/
   samples: {
     sectionTitle: 'Exemples de Fiches de Séquences',
     sectionDescription: 'Téléchargez des exemples gratuits pour voir notre qualité professionnelle',
@@ -67,17 +99,38 @@ Les fiches de séquences développent la reconnaissance de motifs dès la petite
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/pattern worksheet/pattern_worksheet portrait.jpeg',
-        answerKeySrc: '/samples/english/pattern worksheet/pattern_worksheet portrait answer_key.jpeg',
-        altText: 'Fiche de séquences logiques en format portrait avec exercices de reconnaissance de motifs pour la maternelle',
-        pdfDownloadUrl: '/samples/english/pattern worksheet/pattern_worksheet portrait.pdf',
+        worksheetSrc: '/samples/french/pattern/sample-1.jpeg',
+        answerKeySrc: '/samples/french/pattern/sample-1-answer.jpeg',
+        altText: 'Fiches de séquences logiques gratuites à imprimer - exercices maths pour maternelle et CP',
+        pdfDownloadUrl: '/samples/french/pattern/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/pattern worksheet/pattern_worksheet landscape.jpeg',
-        answerKeySrc: '/samples/english/pattern worksheet/pattern_worksheet landscape answer_key (1).jpeg',
-        altText: 'Fiche de séquences logiques en format paysage pour les exercices maths et exercices CP',
-        pdfDownloadUrl: '/samples/english/pattern worksheet/pattern_worksheet landscape.pdf',
+        worksheetSrc: '/samples/french/pattern/sample-2.jpeg',
+        answerKeySrc: '/samples/french/pattern/sample-2-answer.jpeg',
+        altText: 'Fiches maternelle séquences logiques - fiches à imprimer gratuit pour enfants',
+        pdfDownloadUrl: '/samples/french/pattern/sample-2.pdf',
+      },
+      {
+        id: '3',
+        worksheetSrc: '/samples/french/pattern/sample-3.jpeg',
+        answerKeySrc: '/samples/french/pattern/sample-3-answer.jpeg',
+        altText: 'Exercices CP séquences logiques - fiche gratuite pour maternelle et CP',
+        pdfDownloadUrl: '/samples/french/pattern/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/french/pattern/sample-4.jpeg',
+        answerKeySrc: '/samples/french/pattern/sample-4-answer.jpeg',
+        altText: 'Fiche gratuite séquences logiques - exercice maternelle reconnaissance de motifs',
+        pdfDownloadUrl: '/samples/french/pattern/sample-4.pdf',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/french/pattern/sample-5.jpeg',
+        answerKeySrc: '/samples/french/pattern/sample-5-answer.jpeg',
+        altText: 'Fiches pour enfants séquences logiques - fiche maternelle à imprimer gratuit',
+        pdfDownloadUrl: '/samples/french/pattern/sample-5.pdf',
       },
     ],
   },

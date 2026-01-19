@@ -22,6 +22,38 @@ export const missingPiecesFrContent: ProductPageContent = {
     description: 'Créez des fiches d\'exercices de pièces manquantes professionnelles en quelques clics. Notre générateur transforme n\'importe quelle image en puzzle éducatif. Les élèves identifient les morceaux manquants et choisissent la bonne pièce parmi plusieurs options. Un outil idéal pour développer l\'observation visuelle et la discrimination.',
     keywords: 'fiches à imprimer gratuit, fiches maternelle, exercices CP, pièces manquantes, puzzles éducatifs, discrimination visuelle, exercices CE1, observation visuelle, graphisme maternelle, exercices maths, apprendre à lire, tables de multiplication, écriture cursive, alphabet, coloriage',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fr/apps/pieces-manquantes-fiches',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/missing-pieces/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fiche pièces manquantes gratuite pour maternelle - exercice discrimination visuelle'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/missing-pieces/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fiches gratuites puzzle visuel pour enfants - exercices CP et maternelle'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/missing-pieces/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fiche gratuite pièces manquantes avec graphisme maternelle et coloriage'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/missing-pieces/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fiches à imprimer gratuit pièces manquantes - exercices maths pour CE1'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/missing-pieces/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fiche pièces manquantes pour apprendre à lire - puzzle éducatif maternelle'
+      }
+    ],
   },
 
   // Hero Section - FULL text from French missing-pieces.md paragraphs 1-7
@@ -39,7 +71,7 @@ Ajustez la difficulté selon le niveau de vos élèves. Configurez de 1 à 5 pi�
 Utilisez notre bibliothèque de plus de 3000 images thématiques. Animaux, transport, nourriture, objets du quotidien. Ou téléchargez vos propres images pour personnaliser vos fiches. Combinez les images de la bibliothèque avec vos photos personnelles. Créez des exercices adaptés aux intérêts de votre classe.
 
 Téléchargez vos fiches en format JPEG ou PDF. L'option niveau de gris permet d'économiser l'encre à l'impression. Chaque puzzle génère automatiquement un corrigé. Les élèves peuvent vérifier leurs réponses de manière autonome. Gagnez un temps précieux dans la préparation de vos supports pédagogiques.`,
-    previewImageSrc: '/samples/english/missing pieces/worksheet.jpeg',
+    previewImageSrc: '/samples/french/missing-pieces/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Essayer Gratuitement',
       viewSamples: 'Voir les Exemples',
@@ -74,17 +106,38 @@ Téléchargez vos fiches en format JPEG ou PDF. L'option niveau de gris permet d
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/missing pieces/worksheet.jpeg',
-        answerKeySrc: '/samples/english/missing pieces/answer_key.jpeg',
-        altText: 'Fiche de pièces manquantes avec exercice de discrimination visuelle pour la maternelle',
-        pdfDownloadUrl: '/samples/english/missing pieces/worksheet.pdf',
+        worksheetSrc: '/samples/french/missing-pieces/sample-1.jpeg',
+        answerKeySrc: '/samples/french/missing-pieces/sample-1-answer.jpeg',
+        altText: 'Fiche pièces manquantes gratuite pour maternelle - puzzle discrimination visuelle avec exercices CP',
+        pdfDownloadUrl: '/samples/french/missing-pieces/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/missing pieces/worksheet (1).jpeg',
-        answerKeySrc: '/samples/english/missing pieces/answer_key (1).jpeg',
-        altText: 'Fiche de puzzle avec options multiples pour le développement du raisonnement spatial',
-        pdfDownloadUrl: '/samples/english/missing pieces/worksheet (1).pdf',
+        worksheetSrc: '/samples/french/missing-pieces/sample-2.jpeg',
+        answerKeySrc: '/samples/french/missing-pieces/sample-2-answer.jpeg',
+        altText: 'Fiches gratuites pièces manquantes pour enfants - exercice observation visuelle maternelle',
+        pdfDownloadUrl: '/samples/french/missing-pieces/sample-2.pdf',
+      },
+      {
+        id: '3',
+        worksheetSrc: '/samples/french/missing-pieces/sample-3.jpeg',
+        answerKeySrc: '/samples/french/missing-pieces/sample-3-answer.jpeg',
+        altText: 'Fiche gratuite puzzle images maternelle - pièces manquantes graphisme et coloriage',
+        pdfDownloadUrl: '/samples/french/missing-pieces/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/french/missing-pieces/sample-4.jpeg',
+        answerKeySrc: '/samples/french/missing-pieces/sample-4-answer.jpeg',
+        altText: 'Fiches à imprimer gratuit pièces manquantes - exercices maths et alphabet pour CP CE1',
+        pdfDownloadUrl: '/samples/french/missing-pieces/sample-4.pdf',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/french/missing-pieces/sample-5.jpeg',
+        answerKeySrc: '/samples/french/missing-pieces/sample-5-answer.jpeg',
+        altText: 'Fiche pour enfants pièces manquantes gratuite - discrimination visuelle apprendre à lire',
+        pdfDownloadUrl: '/samples/french/missing-pieces/sample-5.pdf',
       },
     ],
   },

@@ -24,25 +24,25 @@ export const subtractionFrContent: ProductPageContent = {
     canonicalUrl: 'https://www.lessoncraftstudio.com/fr/apps/soustraction-fiches',
     images: [
       {
-        url: 'https://www.lessoncraftstudio.com/samples/english/subtraction/sample-1.jpeg',
+        url: 'https://www.lessoncraftstudio.com/samples/french/subtraction/sample-1.jpeg',
         width: 2480,
         height: 3508,
         caption: 'Fiches soustraction gratuites - exercices maths barrer des images pour maternelle'
       },
       {
-        url: 'https://www.lessoncraftstudio.com/samples/english/subtraction/sample-2.jpeg',
+        url: 'https://www.lessoncraftstudio.com/samples/french/subtraction/sample-2.jpeg',
         width: 2480,
         height: 3508,
         caption: 'Fiche soustraction gratuite pour enfants - exercices CP image moins chiffre'
       },
       {
-        url: 'https://www.lessoncraftstudio.com/samples/english/subtraction/sample-3.jpeg',
+        url: 'https://www.lessoncraftstudio.com/samples/french/subtraction/sample-3.jpeg',
         width: 2480,
         height: 3508,
         caption: 'Fiches gratuites soustraction - exercices CE1 trouver le nombre soustrait'
       },
       {
-        url: 'https://www.lessoncraftstudio.com/samples/english/subtraction/sample-4.jpeg',
+        url: 'https://www.lessoncraftstudio.com/samples/french/subtraction/sample-4.jpeg',
         width: 2480,
         height: 3508,
         caption: 'Fiche pour maternelle soustraction - exercices maths mixtes imprimables gratuits'
@@ -59,7 +59,7 @@ export const subtractionFrContent: ProductPageContent = {
 Notre générateur transforme la soustraction en activité visuelle captivante pour les jeunes élèves. Utilisez plus de 3000 images adaptées aux enfants pour créer des exercices de calcul où les élèves peuvent voir physiquement le concept de retirer des objets. Choisissez parmi quatre modes différents : barrer des images (traditionnel), image moins chiffre, trouver le nombre soustrait, ou exercices mixtes. Personnalisez le niveau de difficulté de 2 à 20 pour correspondre exactement aux capacités de vos élèves. Chaque fiche génère automatiquement un corrigé, vous faisant gagner un temps précieux.
 
 Les enseignants de maternelle et de CP utilisent ces fiches de soustraction pour enseigner les premières notions de calcul. Les images concrètes aident les enfants à comprendre que soustraire signifie enlever ou retirer. Parfait pour compléter vos exercices maths quotidiens, ces fiches à imprimer offrent une approche multisensorielle de la soustraction. Modifiez chaque élément sur le canevas après génération : déplacez les images, changez les couleurs, ajoutez du texte personnalisé. Exportez en 300 DPI pour une qualité professionnelle parfaite pour l'impression en classe ou la vente sur Teachers Pay Teachers.`,
-    previewImageSrc: '/samples/english/subtraction/sample-1.jpeg',
+    previewImageSrc: '/samples/french/subtraction/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Essayer Gratuitement',
       viewSamples: 'Voir les Exemples',
@@ -78,7 +78,7 @@ Les enseignants de maternelle et de CP utilisent ces fiches de soustraction pour
     },
   },
 
-  // Sample Gallery - REAL file paths from samples/english/subtraction/
+  // Sample Gallery - REAL file paths from samples/french/subtraction/
   samples: {
     sectionTitle: 'Exemples de Fiches de Soustraction',
     sectionDescription: 'Téléchargez des exemples gratuits pour voir notre qualité professionnelle',
@@ -94,31 +94,31 @@ Les enseignants de maternelle et de CP utilisent ces fiches de soustraction pour
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/subtraction/sample-1.jpeg',
-        answerKeySrc: '/samples/english/subtraction/sample-1_answer-key.jpeg',
+        worksheetSrc: '/samples/french/subtraction/sample-1.jpeg',
+        answerKeySrc: '/samples/french/subtraction/sample-1_answer-key.jpeg',
         altText: 'Fiches soustraction gratuites pour enfants - exercices maths barrer des images mode maternelle avec images thématiques',
-        pdfDownloadUrl: '/samples/english/subtraction/sample-1.pdf',
+        pdfDownloadUrl: '/samples/french/subtraction/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/subtraction/sample-2.jpeg',
-        answerKeySrc: '/samples/english/subtraction/sample-2_answer-key.jpeg',
+        worksheetSrc: '/samples/french/subtraction/sample-2.jpeg',
+        answerKeySrc: '/samples/french/subtraction/sample-2_answer-key.jpeg',
         altText: 'Fiche soustraction gratuite pour maternelle - exercices CP image moins chiffre avec calcul visuel',
-        pdfDownloadUrl: '/samples/english/subtraction/sample-2.pdf',
+        pdfDownloadUrl: '/samples/french/subtraction/sample-2.pdf',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/subtraction/sample-3.jpeg',
-        answerKeySrc: '/samples/english/subtraction/sample-3_answer-key.jpeg',
+        worksheetSrc: '/samples/french/subtraction/sample-3.jpeg',
+        answerKeySrc: '/samples/french/subtraction/sample-3_answer-key.jpeg',
         altText: 'Imprimables gratuits soustraction - exercices CE1 trouver le nombre soustrait fiche pour enfants',
-        pdfDownloadUrl: '/samples/english/subtraction/sample-3.pdf',
+        pdfDownloadUrl: '/samples/french/subtraction/sample-3.pdf',
       },
       {
         id: '4',
-        worksheetSrc: '/samples/english/subtraction/sample-4.jpeg',
-        answerKeySrc: '/samples/english/subtraction/sample-4_answer-key.jpeg',
+        worksheetSrc: '/samples/french/subtraction/sample-4.jpeg',
+        answerKeySrc: '/samples/french/subtraction/sample-4_answer-key.jpeg',
         altText: 'Fiches gratuites soustraction exercices mixtes - fiches à imprimer gratuit pour exercices maths CP',
-        pdfDownloadUrl: '/samples/english/subtraction/sample-4.pdf',
+        pdfDownloadUrl: '/samples/french/subtraction/sample-4.pdf',
       },
     ],
   },

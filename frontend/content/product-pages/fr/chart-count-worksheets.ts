@@ -23,31 +23,31 @@ export const chartCountFrContent: ProductPageContent = {
     canonicalUrl: 'https://www.lessoncraftstudio.com/fr/apps/graphique-images-fiches',
     images: [
       {
-        url: 'https://www.lessoncraftstudio.com/samples/english/chart-count/sample-1.jpeg',
+        url: 'https://www.lessoncraftstudio.com/samples/french/chart-count/sample-1.jpeg',
         width: 2480,
         height: 3508,
         caption: 'Fiche gratuite graphique en images pour maternelle - exercice de comptage et coloriage de diagramme'
       },
       {
-        url: 'https://www.lessoncraftstudio.com/samples/english/chart-count/sample-2.jpeg',
+        url: 'https://www.lessoncraftstudio.com/samples/french/chart-count/sample-2.jpeg',
         width: 2480,
         height: 3508,
         caption: 'Fiches gratuites de graphique pictogramme pour CP - activité comptage avec images colorées'
       },
       {
-        url: 'https://www.lessoncraftstudio.com/samples/english/chart-count/sample-3.jpeg',
+        url: 'https://www.lessoncraftstudio.com/samples/french/chart-count/sample-3.jpeg',
         width: 2480,
         height: 3508,
         caption: 'Imprimables gratuits graphique en images - fiche pour enfants avec diagramme et comptage'
       },
       {
-        url: 'https://www.lessoncraftstudio.com/samples/english/chart-count/sample-4.jpeg',
+        url: 'https://www.lessoncraftstudio.com/samples/french/chart-count/sample-4.jpeg',
         width: 2480,
         height: 3508,
         caption: 'Fiche gratuite pour enfants graphique comptage - exercice maternelle avec corrigé automatique'
       },
       {
-        url: 'https://www.lessoncraftstudio.com/samples/english/chart-count/sample-5.jpeg',
+        url: 'https://www.lessoncraftstudio.com/samples/french/chart-count/sample-5.jpeg',
         width: 2480,
         height: 3508,
         caption: 'Fiche pour maternelle graphique en images - diagramme pictogramme et comptage pour CP'
@@ -66,7 +66,7 @@ Les graphiques en images constituent une introduction essentielle aux mathémati
 Chaque fiche de graphique en images comporte deux parties distinctes. La première partie présente une grille de 20 images réparties en 6 catégories. Les élèves comptent combien de fois chaque image apparaît. La deuxième partie propose un tableau à cases vides. Les enfants colorient le nombre de cases correspondant à leur comptage.
 
 Cette méthode d'apprentissage par la visualisation aide les enfants à comprendre les nombres. Les élèves établissent une connexion concrète entre le comptage et la représentation graphique. Les graphiques en images posent les bases de la lecture de tableaux et de diagrammes plus complexes.`,
-    previewImageSrc: '/samples/english/chart-count/sample-1.jpeg',
+    previewImageSrc: '/samples/french/chart-count/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Essayer Gratuitement',
       viewSamples: 'Voir les Exemples',
@@ -101,38 +101,38 @@ Cette méthode d'apprentissage par la visualisation aide les enfants à comprend
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/chart-count/sample-1.jpeg',
-        answerKeySrc: '/samples/english/chart-count/sample-1-answer.jpeg',
+        worksheetSrc: '/samples/french/chart-count/sample-1.jpeg',
+        answerKeySrc: '/samples/french/chart-count/sample-1-answer.jpeg',
         altText: 'Graphique en images fiches gratuites à imprimer - comptage et diagramme pour maternelle et CP',
-        pdfDownloadUrl: '/samples/english/chart-count/sample-1.pdf',
+        pdfDownloadUrl: '/samples/french/chart-count/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/chart-count/sample-2.jpeg',
-        answerKeySrc: '/samples/english/chart-count/sample-2-answer.jpeg',
+        worksheetSrc: '/samples/french/chart-count/sample-2.jpeg',
+        answerKeySrc: '/samples/french/chart-count/sample-2-answer.jpeg',
         altText: 'Graphique en images fiche gratuite pour enfants - exercices de comptage pour GS et CP',
-        pdfDownloadUrl: '/samples/english/chart-count/sample-2.pdf',
+        pdfDownloadUrl: '/samples/french/chart-count/sample-2.pdf',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/chart-count/sample-3.jpeg',
-        answerKeySrc: '/samples/english/chart-count/sample-3-answer.jpeg',
+        worksheetSrc: '/samples/french/chart-count/sample-3.jpeg',
+        answerKeySrc: '/samples/french/chart-count/sample-3-answer.jpeg',
         altText: 'Fiches de graphique pictogramme gratuites - activité coloriage et comptage pour maternelle',
-        pdfDownloadUrl: '/samples/english/chart-count/sample-3.pdf',
+        pdfDownloadUrl: '/samples/french/chart-count/sample-3.pdf',
       },
       {
         id: '4',
-        worksheetSrc: '/samples/english/chart-count/sample-4.jpeg',
-        answerKeySrc: '/samples/english/chart-count/sample-4-answer.jpeg',
+        worksheetSrc: '/samples/french/chart-count/sample-4.jpeg',
+        answerKeySrc: '/samples/french/chart-count/sample-4-answer.jpeg',
         altText: 'Exercices graphique en images fiche pour maternelle - diagramme en barre pour enfants',
-        pdfDownloadUrl: '/samples/english/chart-count/sample-4.pdf',
+        pdfDownloadUrl: '/samples/french/chart-count/sample-4.pdf',
       },
       {
         id: '5',
-        worksheetSrc: '/samples/english/chart-count/sample-5.jpeg',
-        answerKeySrc: '/samples/english/chart-count/sample-5-answer.jpeg',
+        worksheetSrc: '/samples/french/chart-count/sample-5.jpeg',
+        answerKeySrc: '/samples/french/chart-count/sample-5-answer.jpeg',
         altText: 'Graphique en images imprimables gratuits - fiche comptage et représentation de données CP',
-        pdfDownloadUrl: '/samples/english/chart-count/sample-5.pdf',
+        pdfDownloadUrl: '/samples/french/chart-count/sample-5.pdf',
       },
     ],
   },

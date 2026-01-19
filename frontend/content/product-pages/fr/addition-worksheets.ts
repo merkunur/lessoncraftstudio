@@ -21,31 +21,31 @@ export const additionFrContent: ProductPageContent = {
     canonicalUrl: 'https://www.lessoncraftstudio.com/fr/apps/addition-fiches',
     images: [
       {
-        url: 'https://www.lessoncraftstudio.com/samples/english/addition/sample-1.jpeg',
+        url: 'https://www.lessoncraftstudio.com/samples/french/addition/sample-1.jpeg',
         width: 2480,
         height: 3508,
         caption: 'Fiche d\'addition gratuite format portrait pour maternelle et CP',
       },
       {
-        url: 'https://www.lessoncraftstudio.com/samples/english/addition/sample-2.jpeg',
+        url: 'https://www.lessoncraftstudio.com/samples/french/addition/sample-2.jpeg',
         width: 3508,
         height: 2480,
         caption: 'Fiche d\'addition gratuite format paysage avec exercices maths visuels',
       },
       {
-        url: 'https://www.lessoncraftstudio.com/samples/english/addition/sample-3.jpeg',
+        url: 'https://www.lessoncraftstudio.com/samples/french/addition/sample-3.jpeg',
         width: 2480,
         height: 3508,
         caption: 'Fiche d\'addition gratuite mode image plus nombre pour enfants',
       },
       {
-        url: 'https://www.lessoncraftstudio.com/samples/english/addition/sample-4.jpeg',
+        url: 'https://www.lessoncraftstudio.com/samples/french/addition/sample-4.jpeg',
         width: 2480,
         height: 3508,
         caption: 'Fiche d\'addition gratuite mode trouver l\'addend pour CP',
       },
       {
-        url: 'https://www.lessoncraftstudio.com/samples/english/addition/sample-5.jpeg',
+        url: 'https://www.lessoncraftstudio.com/samples/french/addition/sample-5.jpeg',
         width: 2480,
         height: 3508,
         caption: 'Fiche d\'addition gratuite mode mixte pour exercices maths variés',
@@ -62,7 +62,7 @@ export const additionFrContent: ProductPageContent = {
 Notre créateur de fiches d'addition utilise des images colorées pour enseigner les concepts mathématiques fondamentaux. Les jeunes élèves comptent des objets visuels avant d'écrire leurs réponses. Choisissez parmi quatre modes d'exercices différents. Le mode image plus image montre des dessins pour les deux nombres. Le mode image plus nombre combine images et chiffres. Le mode trouver l'addend crée des problèmes à trous. Le mode mixte mélange différents types sur une même fiche.
 
 Les fiches maternelle deviennent des outils pédagogiques attrayants avec notre générateur. Chaque fiche inclut automatiquement une fiche de correction pour gagner du temps de vérification. Configurez de 1 à 10 problèmes par page selon le niveau des élèves. Ajustez les nombres minimum et maximum pour contrôler la difficulté. Les exercices CP et exercices CE1 s'adaptent parfaitement aux programmes officiels français.`,
-    previewImageSrc: '/samples/english/addition/sample-1.jpeg',
+    previewImageSrc: '/samples/french/addition/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Essayer Gratuitement',
       viewSamples: 'Voir les Exemples',
@@ -81,7 +81,7 @@ Les fiches maternelle deviennent des outils pédagogiques attrayants avec notre 
     },
   },
 
-  // Sample Gallery - REAL file paths from samples/english/addition/
+  // Sample Gallery - REAL file paths from samples/french/addition/
   samples: {
     sectionTitle: 'Exemples de Fiches d\'Addition',
     sectionDescription: 'Téléchargez des exemples gratuits pour voir notre qualité professionnelle',
@@ -97,38 +97,38 @@ Les fiches maternelle deviennent des outils pédagogiques attrayants avec notre 
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/addition/sample-1.jpeg',
-        answerKeySrc: '/samples/english/addition/sample-1-answer.jpeg',
+        worksheetSrc: '/samples/french/addition/sample-1.jpeg',
+        answerKeySrc: '/samples/french/addition/sample-1-answer.jpeg',
         altText: 'Fiche d\'addition gratuite format portrait avec images colorées pour maternelle et CP',
-        pdfDownloadUrl: '/samples/english/addition/sample-1.pdf',
+        pdfDownloadUrl: '/samples/french/addition/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/addition/sample-2.jpeg',
-        answerKeySrc: '/samples/english/addition/sample-2-answer.jpeg',
+        worksheetSrc: '/samples/french/addition/sample-2.jpeg',
+        answerKeySrc: '/samples/french/addition/sample-2-answer.jpeg',
         altText: 'Fiche d\'addition gratuite format paysage avec problèmes visuels pour exercices maths',
-        pdfDownloadUrl: '/samples/english/addition/sample-2.pdf',
+        pdfDownloadUrl: '/samples/french/addition/sample-2.pdf',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/addition/sample-3.jpeg',
-        answerKeySrc: '/samples/english/addition/sample-3-answer.jpeg',
+        worksheetSrc: '/samples/french/addition/sample-3.jpeg',
+        answerKeySrc: '/samples/french/addition/sample-3-answer.jpeg',
         altText: 'Fiche d\'addition gratuite mode image plus nombre combinant illustrations et chiffres',
-        pdfDownloadUrl: '/samples/english/addition/sample-3.pdf',
+        pdfDownloadUrl: '/samples/french/addition/sample-3.pdf',
       },
       {
         id: '4',
-        worksheetSrc: '/samples/english/addition/sample-4.jpeg',
-        answerKeySrc: '/samples/english/addition/sample-4-answer.jpeg',
+        worksheetSrc: '/samples/french/addition/sample-4.jpeg',
+        answerKeySrc: '/samples/french/addition/sample-4-answer.jpeg',
         altText: 'Fiche d\'addition gratuite mode trouver l\'addend avec problèmes à trous pour le CP',
-        pdfDownloadUrl: '/samples/english/addition/sample-4.pdf',
+        pdfDownloadUrl: '/samples/french/addition/sample-4.pdf',
       },
       {
         id: '5',
-        worksheetSrc: '/samples/english/addition/sample-5.jpeg',
-        answerKeySrc: '/samples/english/addition/sample-5-answer.jpeg',
+        worksheetSrc: '/samples/french/addition/sample-5.jpeg',
+        answerKeySrc: '/samples/french/addition/sample-5-answer.jpeg',
         altText: 'Fiche d\'addition gratuite mode mixte mélangeant différents types de problèmes mathématiques',
-        pdfDownloadUrl: '/samples/english/addition/sample-5.pdf',
+        pdfDownloadUrl: '/samples/french/addition/sample-5.pdf',
       },
     ],
   },

@@ -21,31 +21,31 @@ export const drawAndColorFrContent: ProductPageContent = {
     canonicalUrl: 'https://www.lessoncraftstudio.com/fr/apps/dessin-quadrillage-fiches',
     images: [
       {
-        url: 'https://www.lessoncraftstudio.com/samples/english/draw-and-color/sample-1.jpeg',
+        url: 'https://www.lessoncraftstudio.com/samples/french/draw-and-color/sample-1.jpeg',
         width: 2480,
         height: 3508,
         caption: 'Fiche de dessin sur quadrillage gratuite pour maternelle - coloriage à imprimer',
       },
       {
-        url: 'https://www.lessoncraftstudio.com/samples/english/draw-and-color/sample-2.jpeg',
+        url: 'https://www.lessoncraftstudio.com/samples/french/draw-and-color/sample-2.jpeg',
         width: 2480,
         height: 3508,
         caption: 'Coloriage à imprimer sur quadrillage avec difficulté ajustable - fiche gratuite CP',
       },
       {
-        url: 'https://www.lessoncraftstudio.com/samples/english/draw-and-color/sample-3.jpeg',
+        url: 'https://www.lessoncraftstudio.com/samples/french/draw-and-color/sample-3.jpeg',
         width: 2480,
         height: 3508,
         caption: 'Fiche gratuite de dessin sur grille pour graphisme maternelle à imprimer',
       },
       {
-        url: 'https://www.lessoncraftstudio.com/samples/english/draw-and-color/sample-4.jpeg',
+        url: 'https://www.lessoncraftstudio.com/samples/french/draw-and-color/sample-4.jpeg',
         width: 2480,
         height: 3508,
         caption: 'Fiche de raisonnement visuospatial gratuite - coloriage sur quadrillage enfants',
       },
       {
-        url: 'https://www.lessoncraftstudio.com/samples/english/draw-and-color/sample-5.jpeg',
+        url: 'https://www.lessoncraftstudio.com/samples/french/draw-and-color/sample-5.jpeg',
         width: 2480,
         height: 3508,
         caption: 'Fiche gratuite de reproduction de motifs sur grille à imprimer pour maternelle',
@@ -66,7 +66,7 @@ Notre générateur crée des fiches à imprimer gratuit avec niveaux de difficul
 Le dessin sur quadrillage enseigne des compétences essentielles pour la maternelle et le CP. Les élèves pratiquent le comptage des cellules et l'identification des positions. Ils développent la coordination œil-main grâce au coloriage précis. Le raisonnement visuospatial s'améliore pendant que les enfants analysent les motifs. Ces exercices CP fonctionnent parfaitement pour les activités du matin. Utilisez-les comme tâches silencieuses ou défis pour ceux qui finissent tôt. Les enseignants adorent le dessin sur quadrillage pour l'enseignement différencié à travers plusieurs niveaux d'aptitude.
 
 Chaque fiche se télécharge sous forme de fichier PDF professionnel 300 DPI. Imprimez à la maison sur papier standard letter ou A4. Le format haute résolution fonctionne parfaitement pour l'impression en classe ou la vente commerciale. Les enseignants créent des fiches en moins de 3 minutes du début au téléchargement. Les parents génèrent des activités personnalisées sur les sujets préférés de leur enfant. Les abonnés Accès Complet peuvent vendre ces fiches à imprimer gratuit sur Teachers Pay Teachers et Etsy. La licence commerciale est incluse dans votre abonnement sans coût supplémentaire.`,
-    previewImageSrc: '/samples/english/draw-and-color/sample-1.jpeg',
+    previewImageSrc: '/samples/french/draw-and-color/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Essayer Gratuitement',
       viewSamples: 'Voir les Exemples',
@@ -101,37 +101,37 @@ Chaque fiche se télécharge sous forme de fichier PDF professionnel 300 DPI. Im
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/draw-and-color/sample-1.jpeg',
+        worksheetSrc: '/samples/french/draw-and-color/sample-1.jpeg',
         answerKeySrc: '',
-        pdfDownloadUrl: '/samples/english/draw-and-color/sample-1.pdf',
+        pdfDownloadUrl: '/samples/french/draw-and-color/sample-1.pdf',
         altText: 'Fiche de dessin sur quadrillage gratuite à imprimer - coloriage pour maternelle avec compétences visuospatiales',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/draw-and-color/sample-2.jpeg',
+        worksheetSrc: '/samples/french/draw-and-color/sample-2.jpeg',
         answerKeySrc: '',
-        pdfDownloadUrl: '/samples/english/draw-and-color/sample-2.pdf',
+        pdfDownloadUrl: '/samples/french/draw-and-color/sample-2.pdf',
         altText: 'Coloriage à imprimer gratuit sur quadrillage avec difficulté ajustable - fiche pour enfants CP',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/draw-and-color/sample-3.jpeg',
+        worksheetSrc: '/samples/french/draw-and-color/sample-3.jpeg',
         answerKeySrc: '',
-        pdfDownloadUrl: '/samples/english/draw-and-color/sample-3.pdf',
+        pdfDownloadUrl: '/samples/french/draw-and-color/sample-3.pdf',
         altText: 'Fiche gratuite de dessin sur grille à imprimer - graphisme maternelle et motricité fine',
       },
       {
         id: '4',
-        worksheetSrc: '/samples/english/draw-and-color/sample-4.jpeg',
+        worksheetSrc: '/samples/french/draw-and-color/sample-4.jpeg',
         answerKeySrc: '',
-        pdfDownloadUrl: '/samples/english/draw-and-color/sample-4.pdf',
+        pdfDownloadUrl: '/samples/french/draw-and-color/sample-4.pdf',
         altText: 'Fiche de raisonnement visuospatial gratuite à imprimer - dessin sur quadrillage pour enfants',
       },
       {
         id: '5',
-        worksheetSrc: '/samples/english/draw-and-color/sample-5.jpeg',
+        worksheetSrc: '/samples/french/draw-and-color/sample-5.jpeg',
         answerKeySrc: '',
-        pdfDownloadUrl: '/samples/english/draw-and-color/sample-5.pdf',
+        pdfDownloadUrl: '/samples/french/draw-and-color/sample-5.pdf',
         altText: 'Fiche gratuite de reproduction de motifs sur grille à imprimer - coloriage maternelle et CP',
       },
     ],

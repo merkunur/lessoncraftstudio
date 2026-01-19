@@ -23,31 +23,31 @@ export const codeAdditionFrContent: ProductPageContent = {
     canonicalUrl: 'https://www.lessoncraftstudio.com/fr/apps/addition-codee-fiches',
     images: [
       {
-        url: 'https://www.lessoncraftstudio.com/samples/english/code-addition/sample-1.jpeg',
+        url: 'https://www.lessoncraftstudio.com/samples/french/code-addition/sample-1.jpeg',
         width: 2480,
         height: 3508,
         caption: 'Fiche addition codée fiches maternelle avec exercices maths et images pour enfants'
       },
       {
-        url: 'https://www.lessoncraftstudio.com/samples/english/code-addition/sample-2.jpeg',
+        url: 'https://www.lessoncraftstudio.com/samples/french/code-addition/sample-2.jpeg',
         width: 2480,
         height: 3508,
         caption: 'Fiches à imprimer gratuit addition codée exercices CP avec légende décodage'
       },
       {
-        url: 'https://www.lessoncraftstudio.com/samples/english/code-addition/sample-3.jpeg',
+        url: 'https://www.lessoncraftstudio.com/samples/french/code-addition/sample-3.jpeg',
         width: 2480,
         height: 3508,
         caption: 'Exercices maths maternelle coloriage à imprimer fiches addition images'
       },
       {
-        url: 'https://www.lessoncraftstudio.com/samples/english/code-addition/sample-4.jpeg',
+        url: 'https://www.lessoncraftstudio.com/samples/french/code-addition/sample-4.jpeg',
         width: 2480,
         height: 3508,
         caption: 'Graphisme maternelle calcul fiches maternelle addition codée pour enfants'
       },
       {
-        url: 'https://www.lessoncraftstudio.com/samples/english/code-addition/sample-5.jpeg',
+        url: 'https://www.lessoncraftstudio.com/samples/french/code-addition/sample-5.jpeg',
         width: 2480,
         height: 3508,
         caption: 'Fiche apprendre à lire nombres exercices CP CE1 addition avec images'
@@ -66,7 +66,7 @@ Le concept unique de ce générateur transforme l'apprentissage des exercices ma
 Cette approche développe plusieurs compétences simultanément. La reconnaissance visuelle améliore la mémoire de travail. Le décodage de symboles prépare à la lecture et aux exercices CP. Le calcul mental renforce les bases mathématiques. Les fiches maternelle deviennent ainsi des outils d'apprentissage complets et ludiques.
 
 Notre générateur propose des fiches à imprimer gratuit adaptées à tous les niveaux. Pour la maternelle grande section, choisissez des nombres de 1 à 5. Pour les exercices CP, élargissez la plage de 1 à 10. Les exercices CE1 peuvent utiliser des nombres jusqu'à 20. Chaque fiche s'adapte automatiquement au niveau de difficulté choisi.`,
-    previewImageSrc: '/samples/english/code-addition/sample-1.jpeg',
+    previewImageSrc: '/samples/french/code-addition/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Essayer Gratuitement',
       viewSamples: 'Voir les Exemples',
@@ -101,38 +101,38 @@ Notre générateur propose des fiches à imprimer gratuit adaptées à tous les 
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/code-addition/sample-1.jpeg',
-        answerKeySrc: '/samples/english/code-addition/sample-1-answer.jpeg',
+        worksheetSrc: '/samples/french/code-addition/sample-1.jpeg',
+        answerKeySrc: '/samples/french/code-addition/sample-1-answer.jpeg',
         altText: 'Fiche addition codée fiches maternelle - exercices maths avec images pour grande section',
-        pdfDownloadUrl: '/samples/english/code-addition/sample-1.pdf',
+        pdfDownloadUrl: '/samples/french/code-addition/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/code-addition/sample-2.jpeg',
-        answerKeySrc: '/samples/english/code-addition/sample-2-answer.jpeg',
+        worksheetSrc: '/samples/french/code-addition/sample-2.jpeg',
+        answerKeySrc: '/samples/french/code-addition/sample-2-answer.jpeg',
         altText: 'Fiches à imprimer gratuit addition codée - exercices CP avec légende à décoder',
-        pdfDownloadUrl: '/samples/english/code-addition/sample-2.pdf',
+        pdfDownloadUrl: '/samples/french/code-addition/sample-2.pdf',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/code-addition/sample-3.jpeg',
-        answerKeySrc: '/samples/english/code-addition/sample-3-answer.jpeg',
+        worksheetSrc: '/samples/french/code-addition/sample-3.jpeg',
+        answerKeySrc: '/samples/french/code-addition/sample-3-answer.jpeg',
         altText: 'Exercices maths maternelle avec coloriage à imprimer - fiches addition images',
-        pdfDownloadUrl: '/samples/english/code-addition/sample-3.pdf',
+        pdfDownloadUrl: '/samples/french/code-addition/sample-3.pdf',
       },
       {
         id: '4',
-        worksheetSrc: '/samples/english/code-addition/sample-4.jpeg',
-        answerKeySrc: '/samples/english/code-addition/sample-4-answer.jpeg',
+        worksheetSrc: '/samples/french/code-addition/sample-4.jpeg',
+        answerKeySrc: '/samples/french/code-addition/sample-4-answer.jpeg',
         altText: 'Graphisme maternelle et calcul - fiches maternelle addition codée pour enfants',
-        pdfDownloadUrl: '/samples/english/code-addition/sample-4.pdf',
+        pdfDownloadUrl: '/samples/french/code-addition/sample-4.pdf',
       },
       {
         id: '5',
-        worksheetSrc: '/samples/english/code-addition/sample-5.jpeg',
-        answerKeySrc: '/samples/english/code-addition/sample-5-answer.jpeg',
+        worksheetSrc: '/samples/french/code-addition/sample-5.jpeg',
+        answerKeySrc: '/samples/french/code-addition/sample-5-answer.jpeg',
         altText: 'Fiche pour apprendre à lire les nombres - exercices CP CE1 addition avec images',
-        pdfDownloadUrl: '/samples/english/code-addition/sample-5.pdf',
+        pdfDownloadUrl: '/samples/french/code-addition/sample-5.pdf',
       },
     ],
   },

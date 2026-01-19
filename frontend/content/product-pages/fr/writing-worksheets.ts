@@ -18,10 +18,30 @@ export const writingFrContent: ProductPageContent = {
   seo: {
     slug: 'ecriture-fiches',
     appId: 'writing',
-    title: 'Fiches d\'Écriture à Imprimer Gratuit - Graphisme Maternelle et Exercices CP pour Apprendre à Écrire',
-    description: 'Créez des fiches d\'écriture professionnelles avec notre générateur de graphisme maternelle. Votre abonnement Accès Complet vous donne un accès illimité sans frais par fiche. Générez des fiches à imprimer gratuit personnalisées pour les élèves de maternelle et de CP. Téléchargez des PDF haute qualité en moins de 3 minutes. Parfait pour l\'apprentissage de l\'écriture cursive et script.',
-    keywords: 'fiches écriture, fiches à imprimer gratuit, graphisme maternelle, exercices CP, apprendre à écrire, lettres alphabet, écriture cursive, fiches maternelle, mots fréquents, fiches phonétique, coloriage à imprimer, exercices maths, fiches addition, fiches alphabet',
+    title: 'Fiches Écriture Gratuites Maternelle CP | Générateur Graphisme',
+    description: 'Créez des fiches écriture gratuites pour maternelle et CP. Graphisme, lettres alphabet, mots fréquents. Téléchargez PDF 300 DPI en 3 minutes.',
+    keywords: 'fiches écriture, fiches gratuites, graphisme maternelle, exercices CP, apprendre à écrire, lettres alphabet, écriture cursive, fiches maternelle, mots fréquents, fiches phonétique, coloriage à imprimer, exercices maths, fiches addition, fiches alphabet',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fr/apps/ecriture-fiches',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/writing/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fiches écriture gratuites graphisme maternelle exercices CP pour apprendre à écrire'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/writing/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fiches écriture personnalisées exercices CP graphisme maternelle fiches gratuites pour enfants'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/writing/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fiches alphabet gratuites lettres maternelle exercices CP pour apprendre les lettres'
+      }
+    ]
   },
 
   // Hero Section - FULL text from French writing.md Section 1
@@ -33,7 +53,7 @@ export const writingFrContent: ProductPageContent = {
 Notre générateur de fiches d'écriture aide les enseignants à créer des activités de graphisme maternelle avec des lignes d'écriture guidées. Choisissez entre les polices script ou cursive avec plusieurs modes de traçage. Chaque fiche d'écriture inclut des lignes de base pour une formation correcte des lettres. Idéal pour l'enseignement de l'écriture à tous les niveaux scolaires.
 
 Générez des fiches d'écriture pour les lettres de l'alphabet, les mots ou le texte personnalisé. Votre abonnement Accès Complet inclut l'accès aux 33 générateurs de fiches plus la licence commerciale. Créez des exercices CP illimités pour la classe ou la vente sur Teachers Pay Teachers. Les fiches maternelle deviennent des outils pédagogiques professionnels en quelques clics.`,
-    previewImageSrc: '/samples/english/writing/writing.jpeg',
+    previewImageSrc: '/samples/french/writing/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Essayer Gratuitement',
       viewSamples: 'Voir les Exemples',
@@ -52,7 +72,7 @@ Générez des fiches d'écriture pour les lettres de l'alphabet, les mots ou le 
     },
   },
 
-  // Sample Gallery - REAL file paths from samples/english/writing/
+  // Sample Gallery - REAL file paths from samples/french/writing/
   samples: {
     sectionTitle: 'Exemples de Fiches d\'Écriture',
     sectionDescription: 'Téléchargez des exemples gratuits pour voir notre qualité professionnelle',
@@ -68,24 +88,24 @@ Générez des fiches d'écriture pour les lettres de l'alphabet, les mots ou le 
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/writing/writing.jpeg',
-        answerKeySrc: '/samples/english/writing/writing.jpeg',
-        altText: 'Fiche écriture graphisme maternelle avec lignes guidées pour CP',
-        pdfDownloadUrl: '/samples/english/writing/writing.pdf',
+        worksheetSrc: '/samples/french/writing/sample-1.jpeg',
+        answerKeySrc: '/samples/french/writing/sample-1.jpeg',
+        altText: 'Fiches écriture gratuites graphisme maternelle - lignes guidées exercices CP pour apprendre à écrire',
+        pdfDownloadUrl: '/samples/french/writing/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/writing/writing custom.jpeg',
-        answerKeySrc: '/samples/english/writing/writing custom.jpeg',
-        altText: 'Fiche écriture personnalisée avec texte custom pour exercices CP',
-        pdfDownloadUrl: '/samples/english/writing/writing custom.pdf',
+        worksheetSrc: '/samples/french/writing/sample-2.jpeg',
+        answerKeySrc: '/samples/french/writing/sample-2.jpeg',
+        altText: 'Fiches écriture gratuites pour enfants - exercices CP personnalisés graphisme maternelle',
+        pdfDownloadUrl: '/samples/french/writing/sample-2.pdf',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/writing/writing beginning letter.jpeg',
-        answerKeySrc: '/samples/english/writing/writing beginning letter.jpeg',
-        altText: 'Fiche alphabet lettres initiales avec images pour maternelle',
-        pdfDownloadUrl: '/samples/english/writing/writing beginning letter.pdf',
+        worksheetSrc: '/samples/french/writing/sample-3.jpeg',
+        answerKeySrc: '/samples/french/writing/sample-3.jpeg',
+        altText: 'Fiches alphabet gratuites lettres à imprimer - exercices maternelle pour apprendre les lettres',
+        pdfDownloadUrl: '/samples/french/writing/sample-3.pdf',
       },
     ],
   },

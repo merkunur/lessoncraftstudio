@@ -18,10 +18,42 @@ export const drawingLinesEsContent: ProductPageContent = {
   seo: {
     slug: 'grafomotricidad-fichas',
     appId: 'drawing-lines',
-    title: 'Fichas de Grafomotricidad para Imprimir Gratis | Ejercicios de Trazos para Preescolar y Material Educativo de Lectoescritura',
-    description: 'Crea fichas de grafomotricidad profesionales con nuestro generador en línea. Genera fichas infantil perfectas para el desarrollo de la motricidad fina en segundos. Descarga material educativo gratis de alta calidad en formato PDF o JPEG a 300 DPI.',
+    title: 'Fichas de Grafomotricidad Gratis | Ejercicios de Trazos Preescolar',
+    description: 'Crea fichas de grafomotricidad profesionales en segundos. Genera fichas infantil para motricidad fina. Descarga gratis en PDF 300 DPI. ¡Prueba ahora!',
     keywords: 'fichas de grafomotricidad, fichas para imprimir, fichas preescolar, fichas infantil, material educativo gratis, ejercicios de trazos, motricidad fina, lectoescritura, fichas gratis, dibujos para colorear',
     canonicalUrl: 'https://www.lessoncraftstudio.com/es/apps/grafomotricidad-fichas',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/spanish/drawing-lines/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fichas de grafomotricidad gratis para imprimir - ejercicios de trazos curvas para preescolar'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/spanish/drawing-lines/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fichas infantil de grafomotricidad - trazos diagonales para kinder y motricidad fina'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/spanish/drawing-lines/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Material educativo gratis de grafomotricidad - líneas horizontales para lectoescritura'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/spanish/drawing-lines/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fichas preescolar de trazos - ejercicios verticales para coordinación ojo-mano'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/spanish/drawing-lines/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fichas gratis para niños - grafomotricidad y desarrollo de motricidad fina'
+      }
+    ],
   },
 
   // Hero Section - FULL text from drawing-lines.md paragraphs 1-4
@@ -35,7 +67,7 @@ Nuestro generador de fichas de grafomotricidad ayuda a los niños a desarrollar 
 Las fichas de grafomotricidad son herramientas esenciales para la educación infantil temprana. Sirven como puente entre las simples fichas gratis de trazado y las tareas de escritura más complejas. Los estudiantes deben controlar su lápiz para trazar líneas de conexión precisas. Esto desarrolla la fuerza de motricidad fina necesaria para el éxito en la escritura. Los terapeutas ocupacionales recomiendan ejercicios de trazado de líneas para el desarrollo de habilidades motoras. Las fichas infantil funcionan perfectamente para aulas de preescolar, kinder y primer grado de primaria. Los maestros de educación especial las usan para instrucción diferenciada y actividades de desarrollo de habilidades.
 
 El generador incluye 8 plantillas diferentes con varios patrones de líneas y orientaciones. Elige plantillas curvas para fichas para imprimir en orientación horizontal con patrones de líneas fluidas. Selecciona plantillas diagonales para diseños verticales con desafíos de conexión inclinados. Escoge plantillas horizontales para practicar el trazado de líneas de izquierda a derecha. Usa plantillas verticales para ejercicios de emparejamiento de arriba hacia abajo. Cada plantilla crea un desafío de emparejamiento único para tus estudiantes. Personaliza cada ficha con tus propias imágenes cargadas o elige de nuestra biblioteca. Agrega bordes, fondos y elementos de texto personalizados a cada página. Tu suscripción Paquete Esencial incluye acceso a más de 3000 imágenes apropiadas para niños organizadas por tema.`,
-    previewImageSrc: '/samples/english/drawing lines/drawing_lines_curve 1.jpeg',
+    previewImageSrc: '/samples/spanish/drawing-lines/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Probar Gratis',
       viewSamples: 'Ver Ejemplos',
@@ -70,24 +102,38 @@ El generador incluye 8 plantillas diferentes con varios patrones de líneas y or
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/drawing lines/drawing_lines_curve 1.jpeg',
+        worksheetSrc: '/samples/spanish/drawing-lines/sample-1.jpeg',
         answerKeySrc: '',
-        altText: 'Ficha de grafomotricidad con líneas curvas para desarrollar motricidad fina en preescolar',
-        pdfDownloadUrl: '/samples/english/drawing lines/drawing_lines_curve 1.pdf',
+        altText: 'Fichas de grafomotricidad gratis para imprimir - líneas curvas para desarrollar motricidad fina en preescolar',
+        pdfDownloadUrl: '/samples/spanish/drawing-lines/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/drawing lines/drawing_lines_diagonal 1.jpeg',
+        worksheetSrc: '/samples/spanish/drawing-lines/sample-2.jpeg',
         answerKeySrc: '',
-        altText: 'Ficha de trazos diagonales para ejercicios de coordinación ojo-mano en kinder',
-        pdfDownloadUrl: '/samples/english/drawing lines/drawing_lines_diagonal 1.pdf',
+        altText: 'Fichas infantil de grafomotricidad gratis - trazos diagonales para ejercicios de coordinación ojo-mano en kinder',
+        pdfDownloadUrl: '/samples/spanish/drawing-lines/sample-2.pdf',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/drawing lines/drawing_lines_horizontal.jpeg',
+        worksheetSrc: '/samples/spanish/drawing-lines/sample-3.jpeg',
         answerKeySrc: '',
-        altText: 'Ficha de líneas horizontales para practicar trazado de izquierda a derecha',
-        pdfDownloadUrl: '/samples/english/drawing lines/drawing_lines_horizontal.pdf',
+        altText: 'Fichas para niños de grafomotricidad - líneas horizontales para practicar trazado de izquierda a derecha',
+        pdfDownloadUrl: '/samples/spanish/drawing-lines/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/spanish/drawing-lines/sample-4.jpeg',
+        answerKeySrc: '',
+        altText: 'Fichas de grafomotricidad gratis para imprimir - trazos verticales para preescolar y desarrollo motor',
+        pdfDownloadUrl: '/samples/spanish/drawing-lines/sample-4.pdf',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/spanish/drawing-lines/sample-5.jpeg',
+        answerKeySrc: '',
+        altText: 'Material educativo gratis de grafomotricidad - ejercicios de trazos para lectoescritura infantil',
+        pdfDownloadUrl: '/samples/spanish/drawing-lines/sample-5.pdf',
       },
     ],
   },
@@ -388,6 +434,46 @@ Muchos maestros ganan entre $500 y $2,000 mensuales vendiendo solo en Teachers P
         id: '10',
         question: '¿Puedo Crear Fichas para Imprimir sobre Temas Específicos como Tablas de Multiplicar y Números?',
         answer: 'Nuestra biblioteca contiene más de 3000 imágenes organizadas en docenas de categorías temáticas cubriendo todos los tópicos escolares comunes. Las categorías incluyen animales, comida, transporte, estaciones, días festivos, formas, colores, números y conceptos educativos. Busca la biblioteca usando palabras clave para encontrar imágenes perfectas para cualquier unidad curricular. Carga tus propias imágenes para tópicos especializados no representados en la biblioteca.',
+      },
+      {
+        id: '11',
+        question: '¿Puedo Imprimir Fichas de Grafomotricidad en Blanco y Negro para Ahorrar Tinta?',
+        answer: 'Sí, el generador incluye una opción de escala de grises que convierte cualquier ficha para imprimir a blanco y negro antes de descargar. Activa la casilla de escala de grises en el menú de descarga para convertir automáticamente colores a tonos grises. Esta función ahorra significativamente tinta de impresora manteniendo líneas nítidas y claras para trazado. Los maestros usan frecuentemente modo blanco y negro para fichas gratis de práctica diaria, reservando impresiones a color para actividades especiales de fichas infantil.',
+      },
+      {
+        id: '12',
+        question: '¿Cuántas Plantillas de Líneas Diferentes Ofrece el Generador de Fichas Preescolar?',
+        answer: 'El generador de fichas de grafomotricidad incluye 8 plantillas diferentes de patrones de líneas para variedad durante todo el año. Las opciones incluyen líneas curvas fluidas, trazos diagonales inclinados, líneas horizontales de izquierda a derecha y líneas verticales de arriba hacia abajo. Cada plantilla está disponible en orientaciones vertical y horizontal. Los maestros progresan de patrones horizontales simples para estudiantes principiantes de preescolar hacia desafíos curvos y diagonales más complejos para estudiantes avanzados de fichas infantil.',
+      },
+      {
+        id: '13',
+        question: '¿Cómo Uso las Fichas de Grafomotricidad para Instrucción Diferenciada en Mi Aula?',
+        answer: 'El generador facilita la diferenciación permitiendo crear múltiples versiones de fichas para imprimir con diferentes niveles de dificultad. Crea versiones fáciles con menos pares de emparejamiento e imágenes más grandes para estudiantes que luchan con motricidad fina. Genera versiones desafiantes con más pares y patrones de líneas complejos para estudiantes avanzados. Usa la misma temática de imágenes pero diferentes plantillas para que todos los estudiantes participen en la misma lección de fichas preescolar a su nivel apropiado.',
+      },
+      {
+        id: '14',
+        question: '¿Las Fichas de Grafomotricidad Ayudan a Preparar a los Niños para la Escritura y Lectoescritura?',
+        answer: 'Las fichas de grafomotricidad desarrollan habilidades fundamentales de motricidad fina que son prerrequisitos esenciales para la escritura a mano. Trazar líneas fortalece los músculos pequeños de la mano necesarios para sujetar correctamente el lápiz. Los patrones de líneas horizontales establecen la progresión de izquierda a derecha requerida para la lectoescritura. Las líneas verticales y diagonales desarrollan control direccional para formar letras. Los terapeutas ocupacionales recomiendan actividades de trazado de líneas como preparación para el abecedario.',
+      },
+      {
+        id: '15',
+        question: '¿Puedo Adaptar Fichas Infantil para Estudiantes con Necesidades Especiales de Educación?',
+        answer: 'La editabilidad completa del lienzo permite adaptar cualquier ficha de grafomotricidad para necesidades especiales de aprendizaje. Amplía imágenes específicas para estudiantes con discapacidades visuales. Reduce el número de pares para estudiantes con dificultades de atención. Agrega codificación de colores o señales visuales adicionales para apoyo de procesamiento. Carga fotos de objetos familiares del entorno del estudiante para relevancia y conexión emocional en fichas preescolar individualizadas.',
+      },
+      {
+        id: '16',
+        question: '¿Las Fichas para Imprimir Se Alinean con Estándares Curriculares de Preescolar y Primaria?',
+        answer: 'Las fichas de grafomotricidad apoyan estándares curriculares de desarrollo motor fino y preparación para la alfabetización adoptados ampliamente en programas de preescolar y primaria. Las actividades de trazado de líneas cumplen objetivos de desarrollo físico relacionados con control de movimientos pequeños. Los ejercicios de emparejamiento de imágenes apoyan estándares de discriminación visual. El formato de conexión izquierda-derecha refuerza conceptos de direccionalidad de lectura para lectoescritura requeridos en estándares de alfabetización temprana.',
+      },
+      {
+        id: '17',
+        question: '¿Puedo Crear Múltiples Fichas de Grafomotricidad Rápidamente para Toda la Semana?',
+        answer: 'Sí, el generador permite crear fichas infantil rápidamente gracias a la función de auto-llenado y generación instantánea. Crea 5 fichas diferentes en menos de 10 minutos seleccionando diferentes plantillas y temas de imágenes. Usa la misma plantilla con diferentes categorías de imágenes para variedad temática diaria. Los maestros preparan paquetes semanales de fichas para imprimir en una sola sesión de planificación, ahorrando horas comparado con buscar recursos en línea.',
+      },
+      {
+        id: '18',
+        question: '¿Qué Habilidades Específicas de Motricidad Fina Desarrollan las Fichas Preescolar de Grafomotricidad?',
+        answer: 'Las fichas de grafomotricidad desarrollan múltiples habilidades de motricidad fina simultáneamente. El agarre del lápiz se fortalece a través de trazado repetitivo. La coordinación ojo-mano mejora al seguir patrones visuales con el lápiz. El control de presión se desarrolla manteniendo líneas consistentes. La fluidez del movimiento aumenta con práctica de trazos curvos. La precisión direccional se refina siguiendo líneas horizontales, verticales y diagonales. Estas habilidades son fundamentales para escritura, dibujo y manipulación de objetos pequeños.',
       },
     ],
   },

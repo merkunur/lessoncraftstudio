@@ -35,31 +35,31 @@ export const patternWorksheetDeContent: ProductPageContent = {
     canonicalUrl: 'https://www.lessoncraftstudio.com/de/apps/muster-arbeitsblatt-arbeitsblaetter',
     images: [
       {
-        url: 'https://www.lessoncraftstudio.com/samples/english/pattern%20worksheet/sample-1.jpeg',
+        url: 'https://www.lessoncraftstudio.com/samples/german/pattern/sample-1.jpeg',
         width: 2480,
         height: 3508,
         caption: 'Muster-Arbeitsblatt Hochformat - Kostenlose Arbeitsblätter für Arbeitsblätter Grundschule und Vorschule',
       },
       {
-        url: 'https://www.lessoncraftstudio.com/samples/english/pattern%20worksheet/sample-2.jpeg',
+        url: 'https://www.lessoncraftstudio.com/samples/german/pattern/sample-2.jpeg',
         width: 2480,
         height: 3508,
         caption: 'Muster-Arbeitsblatt Variante 2 - Mathe Arbeitsblätter für Mustererkennung',
       },
       {
-        url: 'https://www.lessoncraftstudio.com/samples/english/pattern%20worksheet/sample-3.jpeg',
+        url: 'https://www.lessoncraftstudio.com/samples/german/pattern/sample-3.jpeg',
         width: 2480,
         height: 3508,
         caption: 'Muster-Arbeitsblatt Variante 3 - Vorschule Arbeitsblätter mit Mustern',
       },
       {
-        url: 'https://www.lessoncraftstudio.com/samples/english/pattern%20worksheet/sample-4.jpeg',
+        url: 'https://www.lessoncraftstudio.com/samples/german/pattern/sample-4.jpeg',
         width: 2480,
         height: 3508,
         caption: 'Muster-Arbeitsblatt Variante 4 - Kostenlose Arbeitsblätter zum Ausdrucken',
       },
       {
-        url: 'https://www.lessoncraftstudio.com/samples/english/pattern%20worksheet/sample-5.jpeg',
+        url: 'https://www.lessoncraftstudio.com/samples/german/pattern/sample-5.jpeg',
         width: 2480,
         height: 3508,
         caption: 'Muster-Arbeitsblatt Variante 5 - Arbeitsblätter Grundschule mit Lösungen',
@@ -76,7 +76,7 @@ export const patternWorksheetDeContent: ProductPageContent = {
 Der Muster-Arbeitsblatt Generator bietet neun verschiedene Mustertypen. Vom einfachen AB-Muster bis zum komplexen ABCD-Muster ist alles dabei. Die Schwierigkeit passt sich dem Alter der Kinder an. Vorschule Arbeitsblätter beginnen mit zwei Elementen. Arbeitsblätter Grundschule können vier verschiedene Elemente enthalten.
 
 Mustererkennung ist eine Schlüsselkompetenz im frühen Mathematikunterricht. Kinder, die Muster verstehen, lernen das Rechnen leichter. Der Zusammenhang zwischen visuellen Mustern und Zahlenreihen ist wissenschaftlich belegt. Unser Generator macht dieses wichtige Thema zugänglich und ansprechend.`,
-    previewImageSrc: '/samples/english/pattern worksheet/sample-1.jpeg',
+    previewImageSrc: '/samples/german/pattern/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Kostenlos Testen',
       viewSamples: 'Beispiele Ansehen',
@@ -95,7 +95,7 @@ Mustererkennung ist eine Schlüsselkompetenz im frühen Mathematikunterricht. Ki
     },
   },
 
-  // Sample Gallery - REAL file paths from samples/english/pattern worksheet/
+  // Sample Gallery - REAL file paths from samples/german/pattern/
   samples: {
     sectionTitle: 'Muster-Arbeitsblätter Beispiele',
     sectionDescription: 'Laden Sie kostenlose Beispiel-Arbeitsblätter herunter, um unsere professionelle Qualität zu sehen',
@@ -111,38 +111,38 @@ Mustererkennung ist eine Schlüsselkompetenz im frühen Mathematikunterricht. Ki
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/pattern worksheet/sample-1.jpeg',
-        answerKeySrc: '/samples/english/pattern worksheet/sample-1-answer.jpeg',
+        worksheetSrc: '/samples/german/pattern/sample-1.jpeg',
+        answerKeySrc: '/samples/german/pattern/sample-1-answer.jpeg',
         altText: 'Muster-Arbeitsblatt Hochformat für Arbeitsblätter Grundschule und Vorschule - Kostenlose Arbeitsblätter',
-        pdfDownloadUrl: '/samples/english/pattern worksheet/sample-1.pdf',
+        pdfDownloadUrl: '/samples/german/pattern/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/pattern worksheet/sample-2.jpeg',
-        answerKeySrc: '/samples/english/pattern worksheet/sample-2-answer.jpeg',
+        worksheetSrc: '/samples/german/pattern/sample-2.jpeg',
+        answerKeySrc: '/samples/german/pattern/sample-2-answer.jpeg',
         altText: 'Muster-Arbeitsblatt Variante für Mathe Arbeitsblätter und kostenlose Arbeitsblätter - Mustererkennung',
-        pdfDownloadUrl: '/samples/english/pattern worksheet/sample-2.pdf',
+        pdfDownloadUrl: '/samples/german/pattern/sample-2.pdf',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/pattern worksheet/sample-3.jpeg',
-        answerKeySrc: '/samples/english/pattern worksheet/sample-3-answer.jpeg',
+        worksheetSrc: '/samples/german/pattern/sample-3.jpeg',
+        answerKeySrc: '/samples/german/pattern/sample-3-answer.jpeg',
         altText: 'Muster-Arbeitsblatt für Vorschule Arbeitsblätter - Einmaleins Vorbereitung und Schwungübungen',
-        pdfDownloadUrl: '/samples/english/pattern worksheet/sample-3.pdf',
+        pdfDownloadUrl: '/samples/german/pattern/sample-3.pdf',
       },
       {
         id: '4',
-        worksheetSrc: '/samples/english/pattern worksheet/sample-4.jpeg',
-        answerKeySrc: '/samples/english/pattern worksheet/sample-4-answer.jpeg',
+        worksheetSrc: '/samples/german/pattern/sample-4.jpeg',
+        answerKeySrc: '/samples/german/pattern/sample-4-answer.jpeg',
         altText: 'Muster-Arbeitsblatt für Buchstaben lernen und Deutsch Arbeitsblätter - Kostenlose Druckvorlagen',
-        pdfDownloadUrl: '/samples/english/pattern worksheet/sample-4.pdf',
+        pdfDownloadUrl: '/samples/german/pattern/sample-4.pdf',
       },
       {
         id: '5',
-        worksheetSrc: '/samples/english/pattern worksheet/sample-5.jpeg',
-        answerKeySrc: '/samples/english/pattern worksheet/sample-5-answer.jpeg',
+        worksheetSrc: '/samples/german/pattern/sample-5.jpeg',
+        answerKeySrc: '/samples/german/pattern/sample-5-answer.jpeg',
         altText: 'Muster-Arbeitsblatt für Rechnen lernen und Arbeitsblatt für Kinder - Ausmalbilder ergänzend',
-        pdfDownloadUrl: '/samples/english/pattern worksheet/sample-5.pdf',
+        pdfDownloadUrl: '/samples/german/pattern/sample-5.pdf',
       },
     ],
   },

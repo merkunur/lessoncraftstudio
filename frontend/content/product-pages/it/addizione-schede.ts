@@ -15,22 +15,48 @@ export const additionItContent: ProductPageContent = {
   seo: {
     slug: 'addizione-schede',
     appId: 'addition',
-    title: 'Schede Didattiche di Addizioni Stampabili | Generatore di Schede Matematica per Scuola dell\'Infanzia e Primaria',
-    description: 'Crea schede didattiche di addizioni professionali con immagini per la scuola dell\'infanzia e primaria. Genera schede matematica illimitate con il nostro generatore. Scarica PDF di alta qualità in meno di 3 minuti.',
+    title: 'Schede Gratuite Addizioni - Generatore Stampabili Gratuiti Matematica',
+    description: 'Crea schede gratuite di addizioni per bambini. Generatore di stampabili gratuiti per scuola dell\'infanzia e primaria. Scarica scheda gratuita PDF in 3 minuti.',
     keywords: 'schede didattiche addizioni, schede matematica, scuola primaria, scuola infanzia, schede stampabili, generatore schede, addizioni immagini, classe prima, esercizi matematica, numeri da stampare',
     canonicalUrl: 'https://www.lessoncraftstudio.com/it/apps/addizione-schede',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/italian/addition/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Scheda gratuita di addizioni per bambini - stampabili gratuiti matematica scuola infanzia'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/italian/addition/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Schede gratuite addizioni stampabili - scheda per bambini scuola primaria classe prima'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/italian/addition/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Scheda gratuita per bambini - esercizi addizioni con immagini stampabili gratuiti'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/italian/addition/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Stampabili gratuiti matematica - schede gratuite addizioni per scuola dell\'infanzia'
+      }
+    ],
   },
 
   // Hero Section - FULL text from addition.md paragraphs 1-3
   hero: {
-    title: 'Generatore di Schede Didattiche di Addizioni',
-    subtitle: 'Schede Matematica Stampabili per Scuola dell\'Infanzia e Primaria',
+    title: 'Schede Gratuite di Addizioni - Generatore Stampabili Gratuiti per Bambini',
+    subtitle: 'Scheda Gratuita per Bambini - Matematica Stampabile Scuola Infanzia e Primaria',
     description: `Crea schede didattiche di addizioni professionali con immagini per la scuola dell'infanzia e primaria. Il nostro generatore di schede matematica richiede un abbonamento Pacchetto Essenziale che costa 144 dollari all'anno o 15 dollari al mese. Con il tuo abbonamento puoi generare schede didattiche illimitate senza costi aggiuntivi per ogni scheda. Le schede di addizioni stampabili sono perfette per bambini dai 5 agli 8 anni.
 
 Il generatore permette di creare quattro tipi diversi di esercizi di matematica. Schede con immagine più immagine per l'apprendimento visivo concreto. Schede con immagine più numero per la transizione verso l'astrazione. Esercizi trova l'addendo mancante per sviluppare il pensiero critico. Modalità mista che combina tutti i tipi di esercizi in una sola scheda.
 
 Ogni scheda didattica si scarica in formato PDF o JPEG di alta qualità. Perfetto per stampare a casa o a scuola. Le schede matematica includono chiavi di risposta automatiche che risparmiano tempo agli insegnanti. Ideale per compiti a casa, lavoro in classe, esercitazioni individuali e centri di apprendimento matematico.`,
-    previewImageSrc: '/samples/english/addition/addition_worksheet portrait.jpeg',
+    previewImageSrc: '/samples/italian/addition/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Prova Gratis',
       viewSamples: 'Vedi Esempi',
@@ -49,9 +75,9 @@ Ogni scheda didattica si scarica in formato PDF o JPEG di alta qualità. Perfett
     },
   },
 
-  // Sample Gallery - REAL file paths from samples/english/addition/
+  // Sample Gallery - REAL file paths from samples/italian/addition/
   samples: {
-    sectionTitle: 'Esempi di Schede Didattiche di Addizioni',
+    sectionTitle: 'Esempi Scheda Gratuita di Addizioni - Stampabili Gratuiti Download',
     sectionDescription: 'Scarica esempi gratuiti per vedere la nostra qualità professionale',
     downloadLabel: 'Scarica Esempio Gratuito',
     worksheetLabel: 'Scheda',
@@ -65,45 +91,38 @@ Ogni scheda didattica si scarica in formato PDF o JPEG di alta qualità. Perfett
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/addition/addition_worksheet portrait.jpeg',
-        answerKeySrc: '/samples/english/addition/addition_answer_key portrait.jpeg',
-        altText: 'Scheda didattica addizioni formato verticale con immagini per scuola infanzia',
-        pdfDownloadUrl: '/samples/english/addition/addition_worksheet portrait.pdf',
+        worksheetSrc: '/samples/italian/addition/sample-1.jpeg',
+        answerKeySrc: '/samples/italian/addition/sample-1-answer.jpeg',
+        altText: 'Scheda gratuita addizioni verticale - stampabili gratuiti matematica per scuola dell\'infanzia',
+        pdfDownloadUrl: '/samples/italian/addition/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/addition/addition_worksheet landscape.jpeg',
-        answerKeySrc: '/samples/english/addition/addition_answer_key landscape.jpeg',
-        altText: 'Scheda didattica addizioni formato orizzontale per scuola primaria',
-        pdfDownloadUrl: '/samples/english/addition/addition_worksheet landscape.pdf',
+        worksheetSrc: '/samples/italian/addition/sample-2.jpeg',
+        answerKeySrc: '/samples/italian/addition/sample-2-answer.jpeg',
+        altText: 'Schede gratuite addizioni orizzontale - scheda per bambini scuola primaria classe prima',
+        pdfDownloadUrl: '/samples/italian/addition/sample-2.pdf',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/addition/image and number.jpeg',
-        answerKeySrc: '/samples/english/addition/image and number answer_key.jpeg',
-        altText: 'Esercizi addizioni immagine più numero per transizione al pensiero astratto',
-        pdfDownloadUrl: '/samples/english/addition/image and number.pdf',
+        worksheetSrc: '/samples/italian/addition/sample-3.jpeg',
+        answerKeySrc: '/samples/italian/addition/sample-3-answer.jpeg',
+        altText: 'Scheda gratuita per bambini - esercizi addizioni immagine più numero stampabili gratuiti',
+        pdfDownloadUrl: '/samples/italian/addition/sample-3.pdf',
       },
       {
         id: '4',
-        worksheetSrc: '/samples/english/addition/find addend.jpeg',
-        answerKeySrc: '/samples/english/addition/find addend answer_key.jpeg',
-        altText: 'Trova l\'addendo mancante - esercizi problem solving matematica',
-        pdfDownloadUrl: '/samples/english/addition/find addend.pdf',
-      },
-      {
-        id: '5',
-        worksheetSrc: '/samples/english/addition/mixed mode.jpeg',
-        answerKeySrc: '/samples/english/addition/mixed mode answer_key.jpeg',
-        altText: 'Modalità mista con tutti i tipi di esercizi addizioni',
-        pdfDownloadUrl: '/samples/english/addition/mixed mode.pdf',
+        worksheetSrc: '/samples/italian/addition/sample-4.jpeg',
+        answerKeySrc: '/samples/italian/addition/sample-4-answer.jpeg',
+        altText: 'Stampabili gratuiti addizioni - scheda gratuita trova l\'addendo mancante per bambini',
+        pdfDownloadUrl: '/samples/italian/addition/sample-4.pdf',
       },
     ],
   },
 
   // Features Grid - FULL text from addition.md feature sections
   features: {
-    sectionTitle: 'Funzionalità Complete delle Schede Didattiche',
+    sectionTitle: 'Funzionalità - Schede Gratuite e Stampabili Gratuiti per Bambini',
     sectionDescription: 'Il generatore di schede didattiche di addizioni include sette funzionalità essenziali per maestre e maestri. Ogni funzione è stata progettata per risparmiare tempo e creare materiali didattici di qualità professionale. L\'abbonamento Pacchetto Essenziale da 144 dollari all\'anno ti dà accesso completo a tutte queste funzionalità senza limiti di utilizzo.',
     highlightBadgeText: 'Funzionalità Chiave',
     readMoreLabel: 'Leggi di più',
@@ -197,7 +216,7 @@ L'opzione scala di grigi è inclusa per ridurre consumo di inchiostro. Le schede
 
   // How-To Guide Section - FULL text from addition.md "How to Create" section
   howTo: {
-    sectionTitle: 'Come Creare Schede Didattiche in 5 Semplici Passi',
+    sectionTitle: 'Come Creare Schede Gratuite per Bambini in 5 Passi - Stampabili Gratuiti',
     sectionDescription: 'Creare schede didattiche professionali con il nostro generatore è velocissimo. L\'intero processo richiede meno di 3 minuti dal login al download. Nessuna competenza tecnica richiesta.',
     ctaText: 'Inizia Ora',
     badgeText: 'Guida Passo-Passo',
@@ -269,7 +288,7 @@ Dopo il download le schede sono tue per sempre. Usale infinite volte senza costi
 
   // Use Cases Section - FULL text from addition.md "Perfect For" section
   useCases: {
-    sectionTitle: 'Perfetto per Insegnanti, Genitori ed Educatori',
+    sectionTitle: 'Scheda Gratuita per Bambini - Perfetta per Insegnanti e Genitori',
     sectionDescription: 'Il generatore di schede didattiche di addizioni serve diverse categorie di educatori. Maestre di scuola dell\'infanzia che insegnano concetti matematici di base. Maestri di scuola primaria che sviluppano competenze di calcolo. Genitori homeschooler che educano a casa. Insegnanti di sostegno che creano materiali personalizzati.',
     badgeText: 'Chi Usa le Nostre Schede',
     readMoreLabel: 'Leggi di più',
@@ -352,7 +371,7 @@ La qualità professionale 300 DPI è essenziale per prodotti commerciali. Gli ac
 
   // FAQ Section - FULL text from addition.md FAQ section
   faq: {
-    sectionTitle: 'Domande Frequenti sulle Schede Didattiche di Addizioni',
+    sectionTitle: 'FAQ Schede Gratuite Addizioni - Stampabili Gratuiti per Bambini',
     sectionDescription: 'Risposte alle domande più comuni sul nostro generatore di schede matematica',
     showMoreText: 'Mostra altre domande',
     showLessText: 'Mostra meno domande',
@@ -481,7 +500,7 @@ L'abbonamento Accesso Completo costa 240 dollari annuali. Include tutti i 33 gen
 
   // Related Apps Section
   relatedApps: {
-    sectionTitle: 'Combina Schede di Addizioni con Altri Materiali Stampabili',
+    sectionTitle: 'Combina Schede Gratuite con Altri Stampabili Gratuiti per Bambini',
     sectionDescription: 'Il generatore di addizioni funziona magnificamente combinato con altri tipi di schede didattiche. La piattaforma offre 33 generatori diversi per materiali stampabili. Crea pacchetti tematici coordinati che integrano matematica, alfabetizzazione, pregrafismo, disegni da colorare e molto altro.',
     ctaTitle: 'Pronto a Creare Schede Straordinarie?',
     ctaDescription: 'Unisciti a migliaia di educatori che creano schede professionali. Generazione illimitata, licenza commerciale inclusa.',

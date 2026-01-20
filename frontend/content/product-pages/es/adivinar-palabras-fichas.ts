@@ -15,10 +15,30 @@ export const wordGuessEsContent: ProductPageContent = {
   seo: {
     slug: 'adivinar-palabras-fichas',
     appId: 'word-guess',
-    title: 'Fichas de Adivina la Palabra para Imprimir | Generador de Fichas Gratis para Lectoescritura y Abecedario',
-    description: 'Crea fichas de adivina la palabra profesionales con nuestro generador de material educativo gratis. Tu suscripcion Acceso Completo te permite crear fichas para imprimir ilimitadas sin cargos adicionales por ficha. Genera fichas infantil personalizadas perfectas para preescolar y primaria en minutos.',
+    title: 'Fichas Gratis de Adivina la Palabra | Ficha para Ninos y Preescolar',
+    description: 'Crea fichas gratis de adivina la palabra para ninos. Genera imprimibles gratis de lectoescritura para preescolar. Descarga ficha para ninos PDF en 3 minutos.',
     keywords: 'fichas para imprimir, adivina la palabra, fichas gratis, lectoescritura, abecedario, fichas infantil, fichas preescolar, material educativo gratis, grafomotricidad, ejercicios matematicas',
     canonicalUrl: 'https://www.lessoncraftstudio.com/es/apps/adivinar-palabras-fichas',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/word%20guess/clue-grid_worksheet.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Ficha gratis de adivina la palabra con cuadricula de pistas para lectoescritura infantil'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/word%20guess/landscape.jpeg',
+        width: 3508,
+        height: 2480,
+        caption: 'Ficha gratis para ninos de adivina la palabra formato horizontal para preescolar'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/word%20guess/custom%20word%20list.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Imprimibles gratis de adivina la palabra con lista personalizada para educacion infantil'
+      }
+    ],
   },
 
   // Hero Section - FULL text from word-guess.md paragraphs 1-6
@@ -53,7 +73,7 @@ Tu suscripcion Acceso Completo incluye licencia comercial completa. Puedes vende
 
   // Sample Gallery - REAL file paths from samples/english/word guess/
   samples: {
-    sectionTitle: 'Ejemplos de Fichas de Adivina la Palabra',
+    sectionTitle: 'Ejemplos de Fichas Gratis de Adivina la Palabra - Imprimibles Gratis para Ninos',
     sectionDescription: 'Descarga ejemplos gratuitos para ver nuestra calidad profesional',
     downloadLabel: 'Descargar Ejemplo Gratis',
     worksheetLabel: 'Ficha',
@@ -69,21 +89,21 @@ Tu suscripcion Acceso Completo incluye licencia comercial completa. Puedes vende
         id: '1',
         worksheetSrc: '/samples/english/word guess/clue-grid_worksheet.jpeg',
         answerKeySrc: '/samples/english/word guess/clue-grid_answer-key.jpeg',
-        altText: 'Ficha de adivina la palabra con cuadricula de pistas para lectoescritura y abecedario',
+        altText: 'Ficha gratis de adivina la palabra con cuadricula de pistas - ficha para ninos de lectoescritura',
         pdfDownloadUrl: '/samples/english/word guess/clue-grid_worksheet.pdf',
       },
       {
         id: '2',
         worksheetSrc: '/samples/english/word guess/landscape.jpeg',
         answerKeySrc: '/samples/english/word guess/landscape answer-key.jpeg',
-        altText: 'Ficha de adivina la palabra formato horizontal para preescolar y primaria',
+        altText: 'Ficha para preescolar de adivina la palabra formato horizontal - imprimibles gratis',
         pdfDownloadUrl: '/samples/english/word guess/landscape.pdf',
       },
       {
         id: '3',
         worksheetSrc: '/samples/english/word guess/custom word list.jpeg',
         answerKeySrc: '/samples/english/word guess/custom word list answer-key.jpeg',
-        altText: 'Ficha de adivina la palabra con lista de palabras personalizada para ejercicios de lectoescritura',
+        altText: 'Ficha gratis para ninos de adivina la palabra con lista personalizada - ficha para preescolar',
         pdfDownloadUrl: '/samples/english/word guess/custom word list.pdf',
       },
     ],
@@ -91,7 +111,7 @@ Tu suscripcion Acceso Completo incluye licencia comercial completa. Puedes vende
 
   // Features Grid - FULL text from word-guess.md feature sections
   features: {
-    sectionTitle: 'Caracteristicas del Generador de Fichas para Imprimir - Todo lo que Necesitas para Fichas Gratis de Lectoescritura',
+    sectionTitle: 'Caracteristicas del Generador - Ficha Gratis para Ninos y Ficha para Preescolar de Lectoescritura',
     sectionDescription: 'Nuestro generador de fichas de adivina la palabra ofrece todas las herramientas que los maestros mexicanos necesitan para crear material educativo gratis de calidad profesional. Cada caracteristica ha sido disenada pensando en las necesidades reales del aula. Desde la seleccion de imagenes hasta la descarga final, todo el proceso es intuitivo y rapido. Las fichas para imprimir resultantes superan la calidad de materiales comerciales costosos. Tu suscripcion Acceso Completo desbloquea acceso completo a todas estas caracteristicas poderosas sin limitaciones ni cargos adicionales.',
     highlightBadgeText: 'Caracteristica Clave',
     readMoreLabel: 'Leer mas',
@@ -106,7 +126,7 @@ Tu suscripcion Acceso Completo incluye licencia comercial completa. Puedes vende
       {
         id: '1',
         icon: '⚡',
-        title: 'Crea Fichas Infantil en 3 Clics - Generador Rapido de Material Educativo Gratis',
+        title: 'Crea Fichas Infantil en 3 Clics - Ficha Gratis para Ninos de Material Educativo',
         description: `El proceso de creacion de fichas para imprimir es sorprendentemente simple. Selecciona un tema de la biblioteca o busca imagenes especificas. Configura el numero de ejercicios que necesitas. Haz clic en generar y tus fichas infantil aparecen instantaneamente. No se requieren habilidades de diseno ni conocimientos tecnicos. Todo esta disenado para que maestros ocupados creen fichas preescolar profesionales en minutos, no horas.
 
 La rapidez del generador no sacrifica calidad ni opciones de personalizacion. Cada ficha se construye con precision profesional. Las cuadriculas de letras se dimensionan automaticamente segun la longitud de cada palabra. El espaciado entre ejercicios se optimiza para maxima legibilidad. Los estudiantes reciben fichas gratis para imprimir que lucen tan profesionales como materiales comerciales que cuestan cientos de pesos.
@@ -128,7 +148,7 @@ Anade texto personalizado a tus fichas gratis usando las herramientas de texto i
       {
         id: '3',
         icon: '📤',
-        title: 'Sube Imagenes Personalizadas - Fichas Preescolar Adaptadas a tus Estudiantes',
+        title: 'Sube Imagenes Personalizadas - Ficha para Preescolar Adaptada a tus Estudiantes',
         description: `La funcion de carga de imagenes personalizadas transforma el generador en herramienta completamente personalizable. Sube fotos de objetos familiares en tu comunidad mexicana. Usa imagenes de comida local, animales regionales, o lugares conocidos. Los estudiantes se conectan mejor con vocabulario representado por imagenes culturalmente relevantes. Esta personalizacion mejora significativamente el aprendizaje y retencion.
 
 Sube multiples imagenes simultaneamente para maxima eficiencia. El sistema acepta formatos JPEG, PNG y GIF. No hay limite en el numero de imagenes que puedes usar durante tu sesion. Las imagenes cargadas se guardan temporalmente, permitiendote crear multiples conjuntos de fichas para imprimir sin volver a cargarlas. Combina imagenes personalizadas con las de nuestra biblioteca de 3000+ ilustraciones para variedad infinita.
@@ -150,7 +170,7 @@ Escuelas internacionales en Mexico usan el generador para crear fichas gratis en
       {
         id: '5',
         icon: '💰',
-        title: 'Licencia Comercial Incluida - Vende Fichas de Abecedario en Teachers Pay Teachers y Etsy',
+        title: 'Licencia Comercial Incluida - Imprimibles Gratis para Vender en Teachers Pay Teachers',
         description: `Tu suscripcion Acceso Completo de $240 anuales incluye licencia comercial completa de impresion bajo demanda. Esto significa que puedes vender legalmente todas las fichas para imprimir que creas. No hay costos adicionales de licencia. No se requiere atribucion. No hay limites en cuantas fichas puedes vender. Esta licencia profesional convierte el generador en herramienta de negocio ademas de recurso educativo.
 
 Maestros emprendedores mexicanos estan construyendo negocios exitosos vendiendo fichas gratis personalizadas en Teachers Pay Teachers. Crea paquetes tematicos de fichas de abecedario para diferentes niveles. Vende colecciones de fichas de lectoescritura organizadas por nivel de dificultad. Los compradores valoran materiales en espanol mexicano autentico. Un paquete bien disenado de 20-30 fichas infantil puede venderse por 50-150 pesos, generando ingresos pasivos significativos.
@@ -172,7 +192,7 @@ Las imagenes cubren vocabulario esencial para fichas de numeros, aprendizaje del
       {
         id: '7',
         icon: '🖨️',
-        title: 'Calidad Profesional 300 DPI - Fichas Gratis para Imprimir en Alta Resolucion',
+        title: 'Calidad Profesional 300 DPI - Ficha Gratis para Ninos en Alta Resolucion',
         description: `Todas las fichas para imprimir se generan en resolucion profesional de 300 DPI. Esta calidad asegura texto nitido y bordes claros cuando imprimes. Las imagenes se ven profesionales, no borrosas ni pixeladas. Los estudiantes reciben materiales que parecen publicados comercialmente. La alta resolucion tambien es esencial si planeas vender tus fichas infantil, ya que los compradores esperan calidad profesional.
 
 El sistema ofrece multiples formatos de descarga para maxima flexibilidad. Descarga como JPEG para uso rapido e impresion inmediata. Exporta como PDF para compartir digitalmente o imprimir en servicios profesionales. Ambos formatos mantienen la resolucion completa de 300 DPI. El PDF es ideal para enviar por correo electronico a padres o compartir en plataformas de aprendizaje digital.
@@ -185,7 +205,7 @@ La opcion de escala de grises ahorra tinta significativamente sin sacrificar leg
 
   // How-To Guide - FULL text from word-guess.md step sections
   howTo: {
-    sectionTitle: 'Como Crear Fichas para Imprimir de Adivina la Palabra en 5 Pasos Faciles - Genera Fichas Infantil y Fichas de Lectoescritura',
+    sectionTitle: 'Como Crear Ficha para Ninos de Adivina la Palabra en 5 Pasos Faciles - Genera Fichas de Lectoescritura',
     sectionDescription: 'Crear fichas para imprimir profesionales con nuestro generador es extraordinariamente simple. El proceso completo toma menos de 3 minutos desde inicio hasta descarga. No se requieren habilidades tecnicas ni experiencia en diseno grafico. Simplemente sigue estos cinco pasos y tendras fichas infantil de calidad lista para usar en tu aula. Miles de maestros mexicanos ya estan usando este sistema para crear material educativo gratis personalizado diariamente. Tu suscripcion Acceso Completo te da acceso completo a todas las funciones sin restricciones.',
     ctaText: 'Comenzar Ahora',
     badgeText: 'Como Funciona',
@@ -222,7 +242,7 @@ Selecciona el formato de letra: mayusculas o minusculas. Para estudiantes de pre
       {
         id: '3',
         number: 3,
-        title: 'Genera tu Ficha - Fichas Gratis Instantaneas con Tablas de Multiplicar y Ejercicios de Lectoescritura',
+        title: 'Genera tu Ficha para Ninos - Fichas Gratis Instantaneas con Ejercicios de Lectoescritura',
         description: `Una vez que has configurado todas las opciones, haz clic en el boton morado "Generar" en la parte superior derecha. El sistema procesa tu solicitud instantaneamente. En menos de 2 segundos, tu ficha para imprimir completa aparece en el lienzo central. No hay esperas ni demoras. El generador crea disenos profesionales inmediatamente sin importar cuantos ejercicios solicitaste.
 
 La ficha generada muestra cada imagen claramente con su cuadricula de letras correspondiente. Las pistas aparecen segun el nivel de dificultad que seleccionaste. Los espacios en blanco indican donde los estudiantes deben escribir las letras faltantes. El diseno es limpio y profesional. El espaciado esta optimizado para escritura comoda. Todo esta listo para descargar e imprimir sin ajustes adicionales.
@@ -328,7 +348,7 @@ Teachers Pay Teachers valora especialmente materiales en espanol mexicano autent
 
   // FAQ Section - Selected FAQs from word-guess.md
   faq: {
-    sectionTitle: 'Preguntas Frecuentes',
+    sectionTitle: 'Preguntas Frecuentes sobre Fichas Gratis para Ninos e Imprimibles Gratis de Adivina la Palabra',
     sectionDescription: 'Preguntas frecuentes sobre nuestro generador de fichas de adivina la palabra y fichas para imprimir.',
     showMoreText: 'Ver mas preguntas',
     showLessText: 'Ver menos',
@@ -340,27 +360,27 @@ Teachers Pay Teachers valora especialmente materiales en espanol mexicano autent
     items: [
       {
         id: '1',
-        question: 'El Generador de Fichas para Imprimir es Realmente Gratis de Usar?',
+        question: 'El Generador de Ficha Gratis para Ninos es Realmente Gratis de Usar?',
         answer: 'El generador de fichas de adivina la palabra requiere una suscripcion Acceso Completo que cuesta $240 USD anuales o $25 USD mensuales. Tu suscripcion te da creacion ilimitada de fichas para imprimir sin cargos adicionales por ficha. Genera tantas fichas gratis como necesites sin costos extras. Este modelo de suscripcion es mas economico que pagar por cada ficha individualmente como requieren otros servicios. La suscripcion Paquete Esencial incluye 10 generadores populares y cuesta $144 USD anuales. Acceso Completo cuesta $240 USD anuales e incluye los 33 tipos de generadores de fichas incluyendo el generador de adivina la palabra. Ambas suscripciones incluyen licencia comercial, soporte en 11 idiomas, y exportacion de calidad profesional 300 DPI.',
       },
       {
         id: '2',
-        question: 'Puedo Imprimir Fichas Infantil y Dibujos para Colorear en Casa con Impresora Regular?',
+        question: 'Puedo Imprimir Ficha Gratis y Dibujos para Colorear en Casa con Impresora Regular?',
         answer: 'Si, todas las fichas infantil generadas se disenan especificamente para impresion en impresoras domesticas estandar. La resolucion de 300 DPI asegura texto nitido y bordes claros en cualquier impresora moderna. No necesitas impresora profesional ni equipo especial. Impresoras inkjet y laser estandar producen resultados excelentes. Las fichas se ven profesionales en papel regular de oficina o papel para impresora mas grueso. La opcion de escala de grises reduce costos de tinta dramaticamente. Activa esta opcion antes de descargar y las fichas se convierten automaticamente a blanco y negro de alto contraste.',
       },
       {
         id: '3',
-        question: 'Necesito Habilidades de Diseno para Crear Fichas de Grafomotricidad y Ejercicios de Matematicas?',
+        question: 'Necesito Habilidades de Diseno para Crear Ficha para Preescolar e Imprimibles Gratis?',
         answer: 'No se requieren absolutamente ningunas habilidades de diseno o experiencia tecnica. El generador esta disenado especificamente para maestros sin entrenamiento en diseno grafico. La interfaz es intuitiva y facil de usar. Si puedes usar Word o PowerPoint basico, puedes usar nuestro generador sin problemas. Todos los controles son visuales con botones claros en espanol. Las fichas de grafomotricidad se generan automaticamente con espaciado y dimensiones apropiados. El sistema calcula el tamano optimo de cuadriculas basandose en la longitud de cada palabra.',
       },
       {
         id: '4',
-        question: 'Puedo Usar Fichas Preescolar con Numeros en Mi Aula para Estudiantes?',
+        question: 'Puedo Usar Ficha para Ninos e Imprimibles Gratis en Mi Aula para Estudiantes?',
         answer: 'Absolutamente si. Tu suscripcion Acceso Completo incluye uso ilimitado en aula sin restricciones. Imprime tantas copias como necesites para tus estudiantes. Crea fichas nuevas diariamente si deseas. No hay limites por estudiante, por aula, o por escuela. La licencia cubre todo uso educativo personal que un maestro normalmente necesita. Esto incluye fichas preescolar, material para primaria, y actividades de todos los niveles. Puedes compartir fichas impresas con estudiantes libremente. Envia copias a casa como tarea. Usa fichas en centros de aprendizaje en aula.',
       },
       {
         id: '5',
-        question: 'En Que Idiomas Estan Disponibles las Fichas de Abecedario y Lectoescritura?',
+        question: 'En Que Idiomas Estan Disponibles la Ficha Gratis para Ninos y Fichas de Lectoescritura?',
         answer: 'El generador funciona completamente en 11 idiomas diferentes: espanol, ingles, aleman, frances, italiano, portugues brasileno, holandes, sueco, danes, noruego, y fines. Cambias el idioma con un simple clic en el menu desplegable. El sistema regenera automaticamente las palabras en el idioma seleccionado basandose en los nombres de archivos de las imagenes. Esta capacidad multilingue hace el generador invaluable para programas bilingues, escuelas internacionales, y maestros de ESL.',
       },
       {
@@ -370,12 +390,12 @@ Teachers Pay Teachers valora especialmente materiales en espanol mexicano autent
       },
       {
         id: '7',
-        question: 'Como Personalizo Fichas para Imprimir y Dibujos para Colorear para Mis Estudiantes?',
+        question: 'Como Personalizo Ficha para Preescolar e Imprimibles Gratis para Mis Estudiantes?',
         answer: 'La personalizacion empieza con seleccion de imagenes relevantes culturalmente. En lugar de usar temas genericos, sube fotos de objetos familiares en tu comunidad mexicana. Usa imagenes de comida local, animales regionales, o lugares que tus estudiantes conocen. Las herramientas de texto permiten anadir instrucciones especificas en espanol mexicano natural. Escribe exactamente lo que quieres que tus estudiantes hagan. Ajusta tamano de fuente segun nivel de lectura de tu grupo. La lista de palabras personalizada es herramienta de personalizacion mas poderosa.',
       },
       {
         id: '8',
-        question: 'Para Que Grupos de Edad Funcionan Mejor las Fichas Infantil con Grafomotricidad y Numeros?',
+        question: 'Para Que Grupos de Edad Funcionan Mejor la Ficha Gratis para Ninos y Ficha para Preescolar?',
         answer: 'Las fichas infantil funcionan excelentemente para ninos de 4 a 9 anos, cubriendo preescolar hasta tercer grado de primaria. Esta es la ventana critica para desarrollo de literacidad y habilidades de grafomotricidad. Estudiantes mas jovenes usan nivel facil con muchas pistas. Estudiantes mayores enfrentan desafios con nivel dificil mostrando pocas letras. La flexibilidad de dificultad hace que las fichas se adapten a amplio rango de edades. Para preescolar (4-5 anos), usa imagenes simples con palabras de 3-5 letras.',
       },
       {
@@ -457,7 +477,7 @@ Teachers Pay Teachers valora especialmente materiales en espanol mexicano autent
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Combina con Otros Generadores de Fichas',
+    sectionTitle: 'Combina con Otros Generadores - Ficha Gratis para Preescolar e Imprimibles Gratis',
     sectionDescription: 'Crea paquetes de aprendizaje completos combinando las fichas de adivina la palabra con estos generadores complementarios.',
     ctaTitle: 'Listo para Crear Fichas Increibles?',
     ctaDescription: 'Unete a miles de maestros que crean fichas profesionales. Generacion ilimitada, licencia comercial incluida.',

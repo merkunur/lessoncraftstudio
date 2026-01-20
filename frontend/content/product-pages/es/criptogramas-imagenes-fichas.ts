@@ -19,6 +19,38 @@ export const cryptogramEsContent: ProductPageContent = {
     description: 'Crea criptogramas profesionales con imágenes usando nuestro generador de fichas para imprimir. Genera fichas infantil únicas perfectas para lectoescritura y desarrollo cognitivo. Descarga fichas gratis de alta calidad en formato PDF en menos de 3 minutos.',
     keywords: 'criptogramas de imágenes, fichas para imprimir, fichas preescolar, fichas infantil, lectoescritura, grafomotricidad, material educativo gratis, abecedario, desarrollo cognitivo, fichas gratis',
     canonicalUrl: 'https://www.lessoncraftstudio.com/es/apps/criptogramas-imagenes-fichas',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/spanish/cryptogram/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Criptograma de imágenes ficha gratis - ejercicio de lectoescritura para preescolar',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/spanish/cryptogram/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Criptograma con imágenes fichas para imprimir - actividad de vocabulario para niños',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/spanish/cryptogram/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Criptograma educativo fichas gratis para niños - ejercicio de pensamiento lógico',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/spanish/cryptogram/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Criptograma infantil fichas para preescolar - actividad de descifrado con imágenes',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/spanish/cryptogram/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Criptograma de letras material educativo gratis - ejercicio de abecedario visual',
+      },
+    ],
   },
 
   // Hero Section - FULL text from cryptogram.md paragraphs 1-5
@@ -30,7 +62,7 @@ export const cryptogramEsContent: ProductPageContent = {
 Los criptogramas de imágenes combinan rompecabezas de lógica con reconocimiento visual. Perfectos para preescolar y educación primaria. Cada letra se representa con una imagen diferente. Los estudiantes descifran el mensaje usando las pistas visuales. Excelente para desarrollar habilidades de pensamiento crítico.
 
 Nuestro generador ofrece personalización completa. Elija entre más de 3000 imágenes infantiles. Suba sus propias imágenes personalizadas. Asigne imágenes específicas a cada letra del abecedario. Cree fichas para imprimir profesionales adaptadas a sus necesidades educativas.`,
-    previewImageSrc: '/samples/english/cryptogram/cryptogram_worksheet.jpeg',
+    previewImageSrc: '/samples/spanish/cryptogram/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Probar Gratis',
       viewSamples: 'Ver Ejemplos',
@@ -49,7 +81,7 @@ Nuestro generador ofrece personalización completa. Elija entre más de 3000 im�
     },
   },
 
-  // Sample Gallery - REAL file paths from samples/english/cryptogram/
+  // Sample Gallery - REAL file paths from samples/spanish/cryptogram/
   samples: {
     sectionTitle: 'Ejemplos de Criptogramas con Imágenes',
     sectionDescription: 'Descarga ejemplos gratuitos para ver nuestra calidad profesional',
@@ -65,17 +97,38 @@ Nuestro generador ofrece personalización completa. Elija entre más de 3000 im�
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/cryptogram/cryptogram_worksheet.jpeg',
-        answerKeySrc: '/samples/english/cryptogram/cryptogram_answer_key.jpeg',
-        altText: 'Criptograma con imágenes educativas para niños de preescolar y primaria con pistas visuales',
-        pdfDownloadUrl: '/samples/english/cryptogram/cryptogram_worksheet.pdf',
+        worksheetSrc: '/samples/spanish/cryptogram/sample-1.jpeg',
+        answerKeySrc: '/samples/spanish/cryptogram/sample-1-answer.jpeg',
+        altText: 'Criptograma de imágenes ficha gratis para imprimir - ejercicio de lectoescritura para preescolar',
+        pdfDownloadUrl: '/samples/spanish/cryptogram/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/cryptogram/cryptogram_worksheet (1).jpeg',
-        answerKeySrc: '/samples/english/cryptogram/cryptogram_answer_key (1).jpeg',
-        altText: 'Criptograma de lectoescritura con imágenes coloridas para practicar el abecedario y vocabulario',
-        pdfDownloadUrl: '/samples/english/cryptogram/cryptogram_worksheet (1).pdf',
+        worksheetSrc: '/samples/spanish/cryptogram/sample-2.jpeg',
+        answerKeySrc: '/samples/spanish/cryptogram/sample-2-answer.jpeg',
+        altText: 'Criptograma con imágenes fichas para niños - actividad de vocabulario y abecedario visual',
+        pdfDownloadUrl: '/samples/spanish/cryptogram/sample-2.pdf',
+      },
+      {
+        id: '3',
+        worksheetSrc: '/samples/spanish/cryptogram/sample-3.jpeg',
+        answerKeySrc: '/samples/spanish/cryptogram/sample-3-answer.jpeg',
+        altText: 'Criptograma educativo fichas infantil - ejercicio de pensamiento lógico para primaria',
+        pdfDownloadUrl: '/samples/spanish/cryptogram/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/spanish/cryptogram/sample-4.jpeg',
+        answerKeySrc: '/samples/spanish/cryptogram/sample-4-answer.jpeg',
+        altText: 'Criptograma para preescolar material educativo gratis - actividad de descifrado visual',
+        pdfDownloadUrl: '/samples/spanish/cryptogram/sample-4.pdf',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/spanish/cryptogram/sample-5.jpeg',
+        answerKeySrc: '/samples/spanish/cryptogram/sample-5-answer.jpeg',
+        altText: 'Criptograma del abecedario imprimibles gratis - ficha de grafomotricidad y vocabulario',
+        pdfDownloadUrl: '/samples/spanish/cryptogram/sample-5.pdf',
       },
     ],
   },

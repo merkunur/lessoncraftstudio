@@ -6,8 +6,8 @@ import { ProductPageContent } from '@/components/product-page/ProductPageClient'
  * File: frontend/content/product-pages/it/schede-pattern.ts
  * URL: /it/apps/schede-pattern
  *
- * FULL SEO content from: INDIVIDUAL APP PAGES/Italian/pattern-worksheet.md
- * DO NOT SHORTEN - Every paragraph is SEO-optimized
+ * SEO OPTIMIZED - Universal Italian keywords injected into titles
+ * Keywords: scheda gratuita, schede gratuite, stampabili gratuiti, scheda per bambini, scheda per scuola dell'infanzia
  */
 
 export const patternWorksheetsItContent: ProductPageContent = {
@@ -15,22 +15,48 @@ export const patternWorksheetsItContent: ProductPageContent = {
   seo: {
     slug: 'schede-pattern',
     appId: 'pattern-worksheet',
-    title: 'Schede Didattiche sui Pattern | Generatore Schede Scuola Primaria - Pregrafismo',
-    description: 'Crea schede didattiche sui pattern professionali con il nostro generatore di schede didattiche scuola primaria. Schede didattiche per scuola dell\'infanzia e classe prima. Scarica PDF 300 DPI in meno di 3 minuti.',
-    keywords: 'schede didattiche pattern, schede scuola primaria, pregrafismo, scuola infanzia, classe prima, sequenze logiche, schede stampabili, generatore schede, riconoscimento pattern',
+    title: 'Schede Gratuite Pattern | Generatore Stampabili Gratuiti per Bambini - Scheda per Scuola dell\'Infanzia',
+    description: 'Crea schede gratuite pattern con il nostro generatore. Stampabili gratuiti per bambini della scuola dell\'infanzia e classe prima. Scheda gratuita per bambini con sequenze AB, AAB, ABC. Scarica PDF 300 DPI in meno di 3 minuti.',
+    keywords: 'schede gratuite pattern, scheda gratuita bambini, stampabili gratuiti scuola infanzia, scheda per bambini pattern, schede didattiche sequenze, scuola primaria, classe prima, riconoscimento pattern, pregrafismo',
     canonicalUrl: 'https://www.lessoncraftstudio.com/it/apps/schede-pattern',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/italian/pattern/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Scheda gratuita pattern per bambini - sequenze AB scuola dell\'infanzia'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/italian/pattern/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Schede gratuite pattern - stampabili gratuiti sequenza AAB'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/italian/pattern/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Scheda per bambini pattern - sequenza ABB classe prima gratuita'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/italian/pattern/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Stampabili gratuiti pattern - scheda per scuola dell\'infanzia ABC'
+      }
+    ],
   },
 
-  // Hero Section - FULL text from pattern-worksheet.md
+  // Hero Section
   hero: {
-    title: 'Generatore Schede Pattern',
-    subtitle: 'Schede Didattiche sui Pattern per Scuola dell\'Infanzia e Classe Prima',
-    description: `Crea schede didattiche sui pattern professionali con il nostro generatore di schede didattiche scuola primaria. Il tuo abbonamento Accesso Completo ti permette di creare schede didattiche illimitate senza costi aggiuntivi per singola scheda. Genera schede didattiche personalizzate perfette per la scuola dell'infanzia e la classe prima. Ideali per attività di pregrafismo e riconoscimento dei pattern.
+    title: 'Generatore Schede Gratuite Pattern',
+    subtitle: 'Stampabili Gratuiti per Bambini - Scheda per Scuola dell\'Infanzia e Classe Prima',
+    description: `Crea schede gratuite pattern con il nostro generatore professionale. Il tuo abbonamento Accesso Completo ti consente di creare stampabili gratuiti illimitati senza costi aggiuntivi per ogni scheda. Genera schede per bambini personalizzate perfette per la scuola dell'infanzia e la classe prima. Scarica scheda gratuita in PDF di alta qualità in meno di 3 minuti.
 
-Il generatore di schede sui pattern offre 9 tipi di sequenze diverse. Scegli tra pattern semplici AB per bambini piccoli e pattern ABCD complessi per studenti più grandi. Ogni scheda didattica insegna il pensiero logico e le abilità di riconoscimento visivo. I pattern sono fondamentali per la matematica, incluse le tabelline. Il tuo abbonamento include schede matematica, disegni da colorare e numeri da stampare.
+Il generatore di schede gratuite pattern offre 9 tipi di sequenze diverse. Scegli tra pattern semplici AB per bambini piccoli e pattern ABCD complessi per studenti più grandi. Ogni scheda per bambini insegna il pensiero logico e le abilità di riconoscimento visivo. I pattern sono fondamentali per la matematica, incluse le tabelline. Il tuo abbonamento include stampabili gratuiti per matematica, disegni da colorare e numeri da stampare.
 
-Scarica schede didattiche di alta qualità in formato PDF o JPEG. Ogni foglio di lavoro viene esportato a 300 DPI per una stampa perfetta. Crea schede italiano classe prima con immagini personalizzate. Usa la nostra libreria di oltre 3000 immagini adatte ai bambini. Oppure carica le tue immagini per creare schede didattiche uniche. Tutte le schede includono chiavi di risposta per facilitare la correzione.`,
-    previewImageSrc: '/samples/english/pattern worksheet/pattern_worksheet portrait.jpeg',
+Scarica schede gratuite di alta qualità in formato PDF o JPEG. Ogni foglio di lavoro viene esportato a 300 DPI per una stampa perfetta. Crea schede per scuola dell'infanzia con immagini personalizzate. Usa la nostra libreria di oltre 3000 immagini adatte ai bambini. Oppure carica le tue immagini per creare stampabili gratuiti unici. Tutte le schede per bambini includono chiavi di risposta per facilitare la correzione.`,
+    previewImageSrc: '/samples/italian/pattern/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Prova Gratis',
       viewSamples: 'Vedi Esempi',
@@ -49,41 +75,55 @@ Scarica schede didattiche di alta qualità in formato PDF o JPEG. Ogni foglio di
     },
   },
 
-  // Sample Gallery - REAL file paths from samples/english/pattern worksheet/
+  // Sample Gallery - Italian samples from /samples/italian/pattern/
   samples: {
-    sectionTitle: 'Esempi di Schede Didattiche Pattern',
-    sectionDescription: 'Scarica esempi gratuiti per vedere la nostra qualità professionale',
-    downloadLabel: 'Scarica Esempio Gratuito',
+    sectionTitle: 'Schede Gratuite Pattern - Stampabili Gratuiti da Scaricare',
+    sectionDescription: 'Scarica schede gratuite per bambini per vedere la nostra qualità professionale',
+    downloadLabel: 'Scarica Scheda Gratuita',
     worksheetLabel: 'Scheda',
     answerKeyLabel: 'Soluzioni',
     viewAllLabel: 'Ingrandisci',
     noPdfLabel: 'Solo anteprima',
     freePdfCountLabel: 'download gratuiti',
-    badgeText: 'Esempi Gratuiti',
+    badgeText: 'Stampabili Gratuiti',
     downloadingLabel: 'Scaricamento...',
     ofLabel: 'di',
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/pattern worksheet/pattern_worksheet portrait.jpeg',
-        answerKeySrc: '/samples/english/pattern worksheet/pattern_worksheet portrait answer_key.jpeg',
-        altText: 'Scheda didattica pattern formato verticale per scuola infanzia',
-        pdfDownloadUrl: '/samples/english/pattern worksheet/pattern_worksheet portrait.pdf',
+        worksheetSrc: '/samples/italian/pattern/sample-1.jpeg',
+        answerKeySrc: '/samples/italian/pattern/sample-1-answer.jpeg',
+        altText: 'Scheda gratuita pattern per bambini - sequenze AB scuola dell\'infanzia',
+        pdfDownloadUrl: '/samples/italian/pattern/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/pattern worksheet/pattern_worksheet landscape.jpeg',
-        answerKeySrc: '/samples/english/pattern worksheet/pattern_worksheet landscape answer_key (1).jpeg',
-        altText: 'Scheda didattica pattern formato orizzontale per classe prima',
-        pdfDownloadUrl: '/samples/english/pattern worksheet/pattern_worksheet landscape.pdf',
+        worksheetSrc: '/samples/italian/pattern/sample-2.jpeg',
+        answerKeySrc: '/samples/italian/pattern/sample-2-answer.jpeg',
+        altText: 'Schede gratuite pattern - stampabili gratuiti sequenza AAB per bambini',
+        pdfDownloadUrl: '/samples/italian/pattern/sample-2.pdf',
+      },
+      {
+        id: '3',
+        worksheetSrc: '/samples/italian/pattern/sample-3.jpeg',
+        answerKeySrc: '/samples/italian/pattern/sample-3-answer.jpeg',
+        altText: 'Scheda per bambini pattern - sequenza ABB classe prima gratuita',
+        pdfDownloadUrl: '/samples/italian/pattern/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/italian/pattern/sample-4.jpeg',
+        answerKeySrc: '/samples/italian/pattern/sample-4-answer.jpeg',
+        altText: 'Stampabili gratuiti pattern - scheda per scuola dell\'infanzia ABC',
+        pdfDownloadUrl: '/samples/italian/pattern/sample-4.pdf',
       },
     ],
   },
 
-  // Features Grid - FULL text from pattern-worksheet.md feature sections
+  // Features Grid
   features: {
-    sectionTitle: 'Funzionalità del Generatore di Schede Didattiche Pattern',
-    sectionDescription: 'Il nostro generatore di schede didattiche sui pattern offre sette funzionalità essenziali per insegnanti. Ogni funzione è stata progettata per semplificare la creazione di materiale didattico. Le schede didattiche scuola primaria generate professionalmente aiutano gli studenti a sviluppare abilità di riconoscimento dei pattern. Questi strumenti supportano attività di pregrafismo e preparazione matematica. L\'abbonamento Accesso Completo include tutte le funzionalità premium senza costi aggiuntivi.',
+    sectionTitle: 'Funzionalità del Generatore - Schede Gratuite Pattern da Stampare',
+    sectionDescription: 'Il nostro generatore di schede gratuite pattern offre funzionalità complete per creare stampabili gratuiti professionali. Ogni funzione è stata progettata pensando agli insegnanti della scuola dell\'infanzia e della scuola primaria. Crea schede per bambini personalizzate che soddisfano le esigenze specifiche dei tuoi studenti.',
     highlightBadgeText: 'Funzionalità Chiave',
     readMoreLabel: 'Leggi di più',
     showLessLabel: 'Mostra meno',
@@ -96,93 +136,79 @@ Scarica schede didattiche di alta qualità in formato PDF o JPEG. Ogni foglio di
     items: [
       {
         id: '1',
-        title: 'Crea Schede Didattiche Scuola Primaria in 3 Clic',
-        description: `Crea schede didattiche sui pattern in tre semplici passaggi. Primo, scegli il tipo di pattern tra 9 opzioni diverse. Secondo, seleziona le immagini dalla libreria tematica. Terzo, clicca su genera e la tua scheda didattica appare istantaneamente.
+        title: 'Crea Schede Gratuite per Bambini - Pattern in 3 Clic',
+        description: `Genera schede gratuite pattern in meno di 3 minuti. Scegli un tipo di sequenza dal menu a discesa. Seleziona le immagini dalla nostra libreria o carica le tue immagini personalizzate. Fai clic su Crea e la tua scheda per bambini appare immediatamente. Il generatore di stampabili gratuiti funziona così velocemente che puoi creare più schede per scuola dell'infanzia in una singola sessione di pianificazione.
 
-Le schede didattiche scuola primaria sono pronte in meno di 3 minuti. Non servono competenze di design o software complessi. Il generatore crea automaticamente pattern AB, AAB, ABB, ABC e altri. Perfetto per insegnanti impegnati che hanno bisogno di materiale didattico velocemente.
-
-Ogni scheda didattica include numeri per i puzzle opzionali. Puoi creare da 1 a 8 esercizi per foglio. Scegli se usare caselle vuote o opzioni a scelta multipla. Il sistema genera automaticamente anche la chiave di risposta corrispondente.`,
+Gli insegnanti apprezzano quanto sia rapido creare schede gratuite per la scuola dell'infanzia. Non servono competenze di progettazione grafica. Non servono software complicati. Bastano tre semplici clic per generare schede per bambini professionali. Ogni scheda gratuita include sequenze di immagini e chiavi di risposta per l'attività degli studenti.`,
         icon: '⚡',
         highlighted: true,
       },
       {
         id: '2',
-        title: 'Modifica Completa delle Schede di Pregrafismo',
-        description: `Ogni elemento sulla scheda didattica è completamente modificabile. Trascina, ridimensiona e ruota qualsiasi immagine o testo. Cancella elementi che non ti servono con un solo clic. Aggiungi testo personalizzato con caratteri a misura di bambino.
+        title: 'Personalizza Ogni Elemento della Scheda Gratuita',
+        description: `Ogni elemento sulla scheda gratuita è completamente modificabile. Trascina le immagini per riposizionarle. Ruota gli elementi usando le maniglie d'angolo. Ridimensiona qualsiasi oggetto per adattarlo al tuo design. Questa flessibilità ti consente di creare stampabili gratuiti unici per ogni lezione.
 
-Le attività di pregrafismo richiedono precisione visiva. Il nostro editor canvas permette di posizionare ogni elemento esattamente dove serve. Regola la dimensione delle immagini per bambini più piccoli della scuola dell'infanzia. Aumenta la spaziatura per esercizi più facili.
-
-Cambia colori, font e dimensioni del testo istantaneamente. Aggiungi bordi decorativi o sfondi a tema. Ogni modifica si vede in tempo reale sul canvas. I pulsanti Annulla e Ripeti proteggono il tuo lavoro da errori.`,
+Aggiungi testo personalizzato ovunque sulla scheda per bambini. Cambia i colori del testo per abbinarli al tema della lezione. Regola le dimensioni dei caratteri per renderle più leggibili per i bambini piccoli. Scegli tra 7 famiglie di caratteri diverse. Le schede per scuola dell'infanzia richiedono questa personalizzazione per soddisfare le diverse esigenze degli studenti.`,
         icon: '✏️',
         highlighted: false,
       },
       {
         id: '3',
-        title: 'Carica Immagini Personalizzate',
-        description: `Carica le tue foto e illustrazioni personali. Il sistema accetta file JPEG, PNG e GIF. Carica più file contemporaneamente per lavorare più velocemente. Le immagini caricate appaiono nella tua area upload personale.
+        title: 'Carica Immagini per Stampabili Gratuiti Personalizzati',
+        description: `Carica le tue foto e immagini personalizzate per creare schede gratuite uniche. Il caricamento di più file funziona con tutti i formati immagine comuni. Carica foto degli studenti, della classe o degli oggetti della vita reale. Combina immagini caricate con immagini della libreria per creare schede per bambini davvero personalizzate.
 
-Combina immagini caricate con quelle della libreria. Perfetto per creare schede matematica con oggetti familiari ai tuoi studenti. Oppure usa foto di oggetti della classe per pattern più riconoscibili. I bambini si impegnano di più con materiale personalizzato.
-
-Crea disegni da colorare personalizzati usando le tue illustrazioni. Aggiungi foto dei giocattoli preferiti dai bambini. Usa immagini di animali domestici o oggetti stagionali. Le possibilità di personalizzazione sono infinite.`,
+Gli insegnanti della scuola dell'infanzia caricano foto di oggetti della classe. Gli insegnanti di classe prima caricano foto legate alle unità di studio. Gli insegnanti di educazione speciale caricano immagini che risuonano con studenti specifici. Questa personalizzazione rende le schede gratuite più coinvolgenti e pertinenti per i tuoi studenti.`,
         icon: '📤',
         highlighted: false,
       },
       {
         id: '4',
-        title: '11 Lingue per Schede Italiano Classe Prima',
-        description: `L'interfaccia utente funziona in 11 lingue diverse. Scegli tra italiano, inglese, tedesco, francese, spagnolo, portoghese, olandese, svedese, danese, norvegese e finlandese. Perfetto per insegnanti di lingua straniera e scuole internazionali.
+        title: 'Schede Gratuite Pattern in 11 Lingue',
+        description: `Il generatore di schede gratuite pattern supporta 11 lingue per il contenuto. Crea stampabili gratuiti in italiano per i tuoi studenti italiani. L'interfaccia utente cambia per corrispondere alla lingua selezionata. I nomi dei file di immagine nella libreria corrispondono alla lingua scelta.
 
-Crea schede italiano classe prima con interfaccia completamente in italiano. I nomi dei file delle immagini supportano tutti i caratteri dell'alfabeto italiano. Questo è fondamentale quando lavori con lettere dell'alfabeto accentate. Il sistema preserva correttamente à, è, é, ì, ò, ù.
-
-Gli insegnanti di lingue straniere creano pattern usando l'alfabeto specifico di ogni lingua. Genera materiale per corsi ESL usando pattern di oggetti comuni. Le scuole bilingue usano pattern per insegnamento immersivo. Il supporto multilingue amplia le possibilità didattiche enormemente.`,
+Questo supporto linguistico è particolarmente importante per insegnanti che lavorano con studenti ESL. Crea schede per bambini nella lingua madre dello studente. Aiuta i bambini a imparare le sequenze mentre sviluppano competenze linguistiche. Le lingue supportate includono italiano, inglese, tedesco, francese, spagnolo, portoghese, olandese, svedese, danese, norvegese e finlandese.`,
         icon: '🌍',
         highlighted: false,
       },
       {
         id: '5',
-        title: 'Licenza Commerciale POD',
-        description: `L'abbonamento Accesso Completo include licenza commerciale print-on-demand completa. Vendi le tue schede didattiche su Etsy, Teachers Pay Teachers e Amazon KDP. Nessun costo di licenza aggiuntivo oltre all'abbonamento di €240 all'anno.
+        title: 'Licenza Commerciale per Schede per Bambini POD',
+        description: `L'abbonamento Accesso Completo include una licenza commerciale completa print-on-demand. Vendi le schede gratuite che crei su Teachers Pay Teachers. Vendi su Etsy come prodotti digitali stampabili. Crea libri Amazon KDP a basso contenuto con le tue schede pattern. Non serve attribuzione.
 
-Molti insegnanti guadagnano €500-€5000 al mese vendendo schede didattiche scuola primaria. I pattern sono particolarmente popolari su piattaforme di materiale educativo. Crea pacchetti tematici di schede sui pattern per massimizzare le vendite. La qualità 300 DPI garantisce stampe professionali.
-
-Non serve attribuzione o watermark sui materiali venduti. I tuoi clienti ricevono schede didattiche dall'aspetto completamente professionale. Costruisci il tuo business educativo con il nostro generatore. La licenza commerciale è inclusa nell'abbonamento Accesso Completo.`,
+Molti insegnanti guadagnano 500-5000 euro al mese vendendo stampabili gratuiti su piattaforme come Teachers Pay Teachers. Combina schede pattern con disegni da colorare e schede matematica per creare pacchetti completi. La qualità professionale a 300 DPI rende le tue schede per scuola dell'infanzia perfette per la vendita.`,
         icon: '📜',
         highlighted: false,
       },
       {
         id: '6',
-        title: 'Libreria di 3000+ Immagini',
-        description: `Accedi a oltre 3000 immagini adatte ai bambini. La libreria include categorie tematiche per ogni argomento. Trova rapidamente immagini di animali, cibo, giocattoli, veicoli e altro. Ogni tema contiene decine di illustrazioni colorate.
+        title: 'Libreria di 3000+ Immagini per Schede per Scuola dell\'Infanzia',
+        description: `Accedi a oltre 3000 immagini adatte ai bambini incluse nel tuo abbonamento. Le immagini sono organizzate per tema per una navigazione facile. Cerca immagini specifiche usando la barra di ricerca. Ogni immagine è stata scelta per essere appropriata e coinvolgente per i bambini piccoli.
 
-La collezione include tabelline visive e numeri da stampare. Perfetto per creare pattern matematici che preparano alla moltiplicazione. Usa numeri colorati per pattern numerici invece di pattern con oggetti. Combina tabelline con forme geometriche per varietà.
-
-Cerca immagini specifiche usando la barra di ricerca. Filtra per tema per navigare più velocemente. Ogni immagine è ottimizzata per la stampa. I colori vivaci attirano l'attenzione dei bambini piccoli.`,
+I temi includono animali, cibo, trasporti, forme, numeri da stampare e molto altro. Usa il tema numeri per creare schede gratuite matematiche con sequenze numeriche. Usa il tema animali per schede per bambini divertenti e coinvolgenti. Combina temi diversi per creare stampabili gratuiti unici.`,
         icon: '🖼️',
         highlighted: false,
       },
       {
         id: '7',
-        title: 'Qualità Professionale 300 DPI',
-        description: `Esporta ogni scheda didattica a 300 DPI per qualità di stampa professionale. Scegli formato PDF per conservare la massima qualità. Oppure scarica JPEG per condivisione digitale rapida. Entrambi i formati mantengono nitidezza perfetta.
+        title: 'Qualità Professionale 300 DPI per Stampabili Gratuiti',
+        description: `Tutte le schede gratuite vengono esportate a 300 DPI per una qualità di stampa professionale. Scarica come file JPEG o PDF. L'opzione scala di grigi risparmia inchiostro della stampante mantenendo la chiarezza. Ogni scheda per bambini ha un aspetto nitido e professionale quando viene stampata.
 
-L'opzione scala di grigi risparmia inchiostro della stampante. Particolarmente utile quando stampi grandi quantità di schede didattiche. I bordi rimangono nitidi anche in bianco e nero. I bambini completano facilmente gli esercizi senza confusione visiva.
-
-Ogni scheda didattica include automaticamente la chiave di risposta. Scarica sia il foglio di lavoro che la soluzione. Correggi rapidamente il lavoro degli studenti con risposte chiare. La doppia esportazione fa risparmiare tempo di preparazione.`,
+La qualità professionale è importante per le schede per scuola dell'infanzia. I bambini piccoli hanno bisogno di immagini chiare e nitide per identificare le sequenze. Crea chiavi di risposta insieme ai fogli di lavoro. Le chiavi di risposta mostrano la sequenza completa per la correzione dell'insegnante.`,
         icon: '✨',
         highlighted: false,
       },
     ],
   },
 
-  // How-To Guide Section - FULL text from pattern-worksheet.md
+  // How-To Guide Section
   howTo: {
-    sectionTitle: 'Come Creare Schede Didattiche sui Pattern in 5 Semplici Passaggi',
-    sectionDescription: 'Crea schede didattiche professionali sui pattern in meno di 3 minuti. Il processo è semplice e intuitivo anche per chi non ha esperienza di design. Segui questi cinque passaggi per generare materiale didattico di qualità. Il nostro sistema guida ogni insegnante attraverso la creazione passo dopo passo. Le schede didattiche scuola primaria risultanti sono pronte per la stampa immediata.',
+    sectionTitle: 'Come Creare Schede Gratuite Pattern - Stampabili per Bambini in 5 Passi',
+    sectionDescription: 'Crea schede gratuite pattern professionali in meno di 3 minuti seguendo questi 5 semplici passaggi. Non servono competenze di progettazione grafica. Non serve esperienza con software complicati. Segui questi passaggi e avrai stampabili gratuiti per bambini pronti per la stampa.',
     ctaText: 'Inizia Ora',
     badgeText: 'Guida Passo-Passo',
     stepLabel: 'Passo',
-    completionTitle: 'Scheda Pronta!',
-    completionSubtitle: 'La tua scheda didattica è pronta per il download',
+    completionTitle: 'Scheda Gratuita Pronta!',
+    completionSubtitle: 'La tua scheda per bambini è pronta per il download',
     readyTime: 'Pronta in meno di 3 minuti',
     noSkillsNeeded: 'Nessuna competenza di design richiesta',
     readMoreLabel: 'Leggi di più',
@@ -191,76 +217,66 @@ Ogni scheda didattica include automaticamente la chiave di risposta. Scarica sia
       {
         id: '1',
         number: 1,
-        title: 'Scegli il Contenuto per Schede di Pregrafismo',
-        description: `Inizia selezionando il tipo di pattern che vuoi creare. Il generatore offre 9 pattern diversi dalla semplicità del pattern AB alla complessità del pattern ABCD. Per bambini della scuola dell'infanzia scegli pattern AB o AAB. Per studenti di classe prima e seconda usa pattern ABC o AABB.
+        title: 'Scegli il Tipo di Pattern per la Scheda Gratuita',
+        description: `Inizia selezionando il tipo di pattern per le tue schede gratuite. Scegli tra 9 tipi di sequenze diversi. La sequenza AB è perfetta per la scuola dell'infanzia e gli studenti giovani. Le sequenze AAB e ABB funzionano bene per la classe prima. Le sequenze ABC, AABB e ABCD sfidano gli studenti della classe seconda e terza.
 
-Decidi quanti esercizi vuoi sulla scheda didattica. Puoi creare da 1 a 8 esercizi per foglio. Le schede di pregrafismo per bambini piccoli funzionano meglio con 2-4 esercizi grandi. Le schede per studenti più grandi possono includere 6-8 esercizi più piccoli.
+Decidi se usare la selezione automatica del tema o la selezione manuale delle immagini. La selezione automatica del tema sceglie immagini coordinate dalla nostra libreria di 3000+ immagini. La selezione manuale ti dà controllo completo sulle immagini per schede per bambini personalizzate.
 
-Scegli se vuoi usare un tema generale per tutte le schede didattiche. Oppure configura ogni esercizio individualmente con temi diversi. Il tema generale accelera la creazione. La configurazione individuale offre massima varietà didattica.
-
-Seleziona il tipo di domanda per ogni esercizio. Le caselle vuote richiedono che i bambini disegnino o incollino la risposta. Le opzioni a scelta multipla permettono ai bambini di scegliere tra 3-4 immagini. Puoi anche randomizzare la posizione della casella vuota per maggiore varietà.`,
+Regola il numero di esercizi da 1 a 8 per foglio. Meno esercizi creano stampabili gratuiti con elementi più grandi per bambini piccoli. Più esercizi rendono le schede per scuola dell'infanzia più impegnative.`,
         icon: '🖼️',
       },
       {
         id: '2',
         number: 2,
-        title: 'Personalizza le Impostazioni delle Schede',
-        description: `Configura la dimensione della pagina secondo le tue preferenze. Scegli formato Letter Portrait per stampanti americane. Oppure seleziona A4 Portrait per stampanti europee. Il formato landscape funziona bene per pattern più lunghi orizzontalmente.
+        title: 'Personalizza le Impostazioni della Scheda per Bambini',
+        description: `Seleziona il formato della pagina per le tue schede gratuite. Scegli Lettera Verticale per stampabili gratuiti standard. Scegli A4 Verticale per schede europee. Il formato orizzontale funziona bene per pattern più lunghi in pacchetti di apprendimento.
 
-Decidi se includere i numeri dei puzzle sulle schede didattiche. I numeri aiutano i bambini a navigare esercizi multipli. Sono particolarmente utili quando crei pacchetti di schede matematica correlate. I numeri possono anche essere usati per insegnare la sequenza numerica.
+Imposta la lingua per il contenuto delle schede per bambini. La lingua influisce sui nomi delle immagini nella libreria. Crea schede per scuola dell'infanzia in italiano per studenti italiani. La libreria di immagini si aggiorna automaticamente per corrispondere alla lingua selezionata.
 
-Aggiungi sfondi tematici alle tue schede didattiche. La libreria include oltre 50 temi di sfondo diversi. Sfondi stagionali funzionano bene per unità tematiche. Sfondi semplici mantengono il focus sui pattern stessi. Regola l'opacità dello sfondo se sembra troppo intenso.
-
-Seleziona bordi decorativi per rendere le schede più attraenti. I bordi colorati attirano l'attenzione dei bambini. Bordi tematici collegano visivamente schede di un'unità didattica. Puoi anche lasciare le schede senza bordi per massima semplicità.`,
+Scegli il colore di sfondo della pagina per le tue schede gratuite. Seleziona temi di sfondo e bordi opzionali. I temi di sfondo aggiungono interesse visivo ai stampabili gratuiti per bambini.`,
         icon: '⚙️',
       },
       {
         id: '3',
         number: 3,
-        title: 'Genera la Tua Scheda Didattica',
-        description: `Clicca il pulsante Crea per generare la scheda didattica. Il sistema crea automaticamente il foglio di lavoro in 2-3 secondi. L'anteprima appare immediatamente sul canvas di editing. Controlla che tutti i pattern siano corretti e ben formati.
+        title: 'Seleziona le Immagini per Stampabili Gratuiti',
+        description: `Sfoglia la libreria di immagini per tema. I temi includono animali, cibo, trasporti, forme, numeri da stampare e altro. Ogni tema contiene dozzine di immagini coordinate. Usa il tema numeri per creare schede gratuite matematiche con sequenze numeriche. Usa i temi animali o cibo per schede per bambini coinvolgenti.
 
-Il generatore crea automaticamente anche la chiave di risposta. La soluzione mostra tutti i pattern completati correttamente. Usa la scheda soluzione per correzione rapida del lavoro degli studenti. Le schede didattiche scuola primaria includono sempre entrambe le versioni.
+Cerca immagini specifiche usando la barra di ricerca. Digita parole chiave come "mela", "gatto" o "cerchio". Il motore di ricerca trova immagini corrispondenti istantaneamente.
 
-Se qualcosa non sembra giusto, modifica le impostazioni e rigenera. Ogni nuova generazione crea pattern completamente diversi. Questo è perfetto quando vuoi creare multiple schede didattiche sullo stesso argomento. Gli studenti ricevono pratica variata senza ripetizioni.
-
-Alterna tra la scheda Foglio di Lavoro e la scheda Chiave di Risposta. Controlla che le soluzioni siano chiare e facili da comprendere. Verifica che le immagini siano appropriate e riconoscibili. Le schede di pregrafismo devono avere immagini nitide e ben definite.`,
-        icon: '✨',
+Fai clic sulle immagini per assegnarle agli elementi della sequenza. Per una sequenza AB, seleziona due immagini diverse. Per una sequenza ABC, seleziona tre immagini diverse. Carica le tue immagini personalizzate se la libreria non ha quello che ti serve per la tua scheda per scuola dell'infanzia.`,
+        icon: '🎨',
       },
       {
         id: '4',
         number: 4,
-        title: 'Modifica sul Canvas',
-        description: `Personalizza ogni elemento della scheda didattica usando l'editor visuale. Clicca su qualsiasi immagine per selezionarla. Trascina le immagini per riposizionarle esattamente dove vuoi. Ridimensiona le immagini usando i punti di controllo agli angoli.
+        title: 'Genera e Modifica la Scheda Gratuita per Bambini',
+        description: `Fai clic sul pulsante Crea per generare la tua scheda gratuita. Il generatore crea il pattern istantaneamente. Vedrai le sequenze di immagini disposte sul foglio di lavoro. Ogni scheda per bambini include anche caselle vuote o opzioni a scelta multipla.
 
-Aggiungi testo personalizzato alle schede italiano classe prima. Scrivi istruzioni specifiche per i tuoi studenti. Cambia dimensione, colore e font del testo. Posiziona le istruzioni in alto o in basso secondo necessità. Il testo può essere in qualsiasi delle 11 lingue supportate.
+Ogni elemento sulla scheda gratuita è completamente modificabile. Trascina le immagini per riposizionarle. Ruota gli elementi usando le maniglie d'angolo. Ridimensiona qualsiasi oggetto per adattarlo al tuo design. Aggiungi testo personalizzato ovunque sui stampabili gratuiti.
 
-Carica le tue immagini personalizzate per pattern unici. Usa foto di oggetti della classe per rendere i pattern riconoscibili. Aggiungi disegni da colorare creati appositamente per i tuoi studenti. Le immagini personalizzate aumentano l'engagement degli studenti enormemente.
-
-Modifica colori di sfondo e bordi direttamente sul canvas. Cambia l'opacità se gli sfondi distraggono dai pattern. Aggiungi elementi decorativi extra come stelle o adesivi. Ogni modifica si vede immediatamente nell'anteprima. Usa Annulla se fai un errore durante l'editing.`,
-        icon: '🎨',
+Usa gli strumenti di allineamento per posizionare gli elementi in modo preciso. Blocca gli elementi che vuoi mantenere fissi. Usa Annulla se commetti un errore durante la modifica della scheda per scuola dell'infanzia.`,
+        icon: '✨',
       },
       {
         id: '5',
         number: 5,
-        title: 'Scarica e Stampa Schede Didattiche',
-        description: `Clicca il menu Download per vedere tutte le opzioni di esportazione. Scegli Foglio di Lavoro PDF per qualità massima di stampa. Oppure seleziona Foglio di Lavoro JPEG per condivisione digitale veloce. Scarica anche la Chiave di Risposta nello stesso formato.
+        title: 'Scarica e Stampa la Scheda Gratuita',
+        description: `Genera la chiave di risposta prima di scaricare. Fai clic su Chiave di Risposta nel menu a discesa Crea. Il generatore crea una versione completa della sequenza. La chiave di risposta mostra tutte le posizioni della sequenza riempite correttamente per la scheda per bambini.
 
-Attiva l'opzione scala di grigi prima di scaricare per risparmiare inchiostro. La versione in bianco e nero mantiene tutti i dettagli visivi. I pattern rimangono chiaramente distinguibili anche senza colore. Perfetto quando stampi grandi quantità di schede didattiche.
+Scegli il tuo formato di download per lo stampabile gratuito. JPEG funziona bene per la condivisione digitale. PDF funziona meglio per la stampa. Seleziona la casella Scala di Grigi se vuoi risparmiare inchiostro della stampante.
 
-Tutti i file vengono esportati a 300 DPI per qualità professionale. I bordi delle immagini rimangono nitidi quando stampati. Il testo è leggibile perfettamente a qualsiasi dimensione. Le schede didattiche stampate sembrano prodotte professionalmente non fatte in casa.
-
-Scarica multiple versioni della stessa scheda didattica. Crea una versione a colori per l'anteprima in classe. Poi scarica versione in scala di grigi per copie degli studenti. Organizza i file in cartelle tematiche sul tuo computer.`,
+Fai clic su Scarica per salvare la tua scheda gratuita. Il file scarica sul tuo computer immediatamente. Tutte le schede per scuola dell'infanzia vengono esportate a 300 DPI per qualità professionale.`,
         icon: '📥',
       },
     ],
   },
 
-  // Use Cases Section - FULL text from pattern-worksheet.md
+  // Use Cases Section
   useCases: {
-    sectionTitle: 'Perfetto per Insegnanti, Genitori ed Educatori',
-    sectionDescription: 'Il generatore di schede didattiche sui pattern serve diversi gruppi di educatori. Ogni categoria di utente trova valore specifico in questo strumento versatile. Le schede didattiche scuola primaria funzionano perfettamente per bambini dai 3 agli 9 anni. Gli insegnanti risparmiano ore di preparazione ogni settimana. I genitori creano materiale educativo di qualità per casa. Gli imprenditori costruiscono business vendendo schede didattiche personalizzate.',
-    badgeText: 'Chi Usa le Nostre Schede',
+    sectionTitle: 'Schede Gratuite Pattern - Stampabili per Insegnanti, Genitori ed Educatori',
+    sectionDescription: 'Il generatore di schede gratuite pattern serve insegnanti, genitori ed educatori in tutta Italia. Ogni gruppo di utenti trova valore unico nei nostri stampabili gratuiti per bambini. Gli insegnanti della scuola dell\'infanzia creano attività di riconoscimento sequenze per bambini piccoli. Gli insegnanti di scuola primaria usano le nostre schede per bambini per rafforzare le abilità di pensiero logico.',
+    badgeText: 'Chi Usa le Nostre Schede Gratuite',
     readMoreLabel: 'Leggi di più',
     showLessLabel: 'Mostra meno',
     items: [
@@ -268,81 +284,79 @@ Scarica multiple versioni della stessa scheda didattica. Crea una versione a col
         id: '1',
         icon: '👩‍🏫',
         title: 'Insegnanti Scuola dell\'Infanzia',
-        subtitle: 'Schede di Pregrafismo e Pattern AB per Bambini Piccoli',
-        description: `Gli insegnanti della scuola dell'infanzia usano schede di pregrafismo ogni giorno. I pattern AB e AAB sono perfetti per bambini di 3-5 anni. Questi esercizi sviluppano il riconoscimento visivo fondamentale. Le attività di pregrafismo preparano le mani piccole per la scrittura futura.
+        subtitle: 'Schede Gratuite Pattern per Bambini 3-6 Anni',
+        description: `Gli insegnanti della scuola dell'infanzia usano schede gratuite pattern per introdurre i concetti di sequenze. I bambini di 3-6 anni imparano a riconoscere sequenze semplici attraverso immagini colorate. Le sequenze AB sono perfette per gli studenti della scuola dell'infanzia che stanno appena iniziando a identificare pattern. Le attività sviluppano le abilità motorie fini essenziali per il pregrafismo.
 
-Crea schede con immagini grandi e colorate per catturare l'attenzione. I bambini della scuola dell'infanzia hanno bisogno di elementi visivi chiari. Usa temi familiari come animali, giocattoli e cibo. Le immagini riconoscibili aiutano i bambini a completare i pattern con successo.
-
-Le schede di pregrafismo supportano lo sviluppo della motricità fine. I bambini tracciano linee tra le immagini del pattern. Colorano gli elementi del pattern per rinforzare l'apprendimento. Incollano adesivi o disegnano per completare le sequenze. Ogni attività rafforza le abilità pre-matematiche essenziali.`,
-        quote: 'I bambini adorano lavorare con i pattern colorati!',
+Combina stampabili gratuiti pattern con numeri da stampare per insegnare sequenze numeriche. I bambini vedono la sequenza 1-2-1-2 rappresentata visivamente. Questa rappresentazione concreta aiuta i bambini piccoli a comprendere concetti matematici astratti. Usa le schede per bambini per attività di centro durante il tempo di lavoro indipendente.`,
+        quote: 'I miei bambini adorano lavorare con i pattern colorati!',
       },
       {
         id: '2',
         icon: '📚',
-        title: 'Insegnanti Scuola Primaria',
-        subtitle: 'Schede Didattiche per Classe Prima, Seconda e Terza',
-        description: `Gli insegnanti della scuola primaria usano pattern per matematica base. Le schede didattiche per classe prima introducono pattern ABC più complessi. Gli studenti di seconda imparano pattern AABB e ABBC. La terza classe affronta pattern ABCD a quattro elementi.
+        title: 'Insegnanti Scuola Primaria Classe Prima',
+        subtitle: 'Schede per Bambini Classe Prima - Pattern Avanzati Gratuiti',
+        description: `Gli insegnanti di classe prima usano schede gratuite pattern per sviluppare il pensiero logico. Gli studenti di classe prima sono pronti per sequenze più complesse come AAB, ABB e ABC. Queste sequenze sfidano gli studenti a pensare in modo critico sui modelli e le relazioni. Le schede per bambini classe prima possono incorporare sequenze di forme geometriche.
 
-I pattern preparano gli studenti per le tabelline e la moltiplicazione. Un pattern AAAA è essenzialmente 4×A. I bambini vedono questa connessione visivamente prima di imparare la matematica formale. Le schede didattiche scuola primaria costruiscono fondamenta matematiche solide.
+Integra stampabili gratuiti pattern con schede matematica per praticare sequenze numeriche. Crea sequenze usando numeri da stampare come 2-4-2-4. Gli studenti di classe prima vedono come le sequenze si applicano alla matematica, alla lettura e ad altre materie.
 
-Usa le schede pattern per differenziazione in classe. Gli studenti avanzati ricevono pattern complessi a quattro elementi. Gli studenti che necessitano supporto extra lavorano con pattern AB semplici. Tutti imparano allo stesso argomento ma a livelli appropriati. Le schede didattiche permettono insegnamento individualizzato efficace.`,
+Usa schede per scuola dell'infanzia e primaria per valutazioni formative. Regola la difficoltà delle schede gratuite per soddisfare le diverse abilità degli studenti.`,
         quote: 'Le schede differenziate risparmiano ore di preparazione.',
       },
       {
         id: '3',
         icon: '🏠',
         title: 'Genitori Homeschool',
-        subtitle: 'Schede Matematica Personalizzate per Casa',
-        description: `I genitori homeschool creano curriculum personalizzati con queste schede matematica. Ogni bambino progredisce al proprio ritmo attraverso i livelli di pattern. Le famiglie risparmiano centinaia di euro non comprando libri di esercizi costosi. L'abbonamento Accesso Completo costa meno di tre quaderni commerciali.
+        subtitle: 'Stampabili Gratuiti per Educazione a Casa',
+        description: `I genitori homeschool apprezzano la flessibilità del generatore di schede gratuite pattern. Crea stampabili gratuiti che corrispondono esattamente al livello di tuo figlio. Carica foto di oggetti di casa per rendere le schede per bambini personalmente rilevanti per tuo figlio. Combina schede pattern con tabelline e altre risorse di matematica per un curriculum completo.
 
-Integra le schede pattern nelle tue unità tematiche homeschool. Crea pattern di foglie durante l'unità autunnale. Usa pattern di cuori per San Valentino. I pattern di fiocchi di neve funzionano perfettamente per l'unità invernale. Le tabelline visive rendono la matematica concreta e comprensibile.
+L'abbonamento Accesso Completo ti dà accesso a tutti i 33 tipi di generatori di schede gratuite. Crea schede per scuola dell'infanzia per matematica, alfabeto, disegni da colorare e altro tutto da un unico abbonamento.
 
-Le schede matematica supportano apprendimento multi-sensoriale a casa. I bambini manipolano oggetti fisici che corrispondono ai pattern. Creano i loro pattern usando Lego o blocchi. Poi completano le schede didattiche per consolidare la comprensione. L'apprendimento pratico supporta la ritenzione a lungo termine.`,
+Usa le schede gratuite pattern come parte della valutazione continua. Osserva come tuo figlio affronta sequenze sempre più complesse nel tempo.`,
         quote: 'Creo schede personalizzate per ogni bambino in minuti.',
       },
       {
         id: '4',
         icon: '🌍',
-        title: 'Insegnanti di Lingua',
-        subtitle: 'Schede Italiano Classe Prima con Alfabeto Multilingue',
-        description: `Gli insegnanti di italiano come seconda lingua usano pattern per vocabolario. Le schede italiano classe prima insegnano nomi di oggetti attraverso ripetizione visiva. I bambini vedono la stessa parola più volte nel pattern. L'alfabeto italiano viene rinforzato attraverso i nomi delle immagini.
+        title: 'Insegnanti ESL e Lingue',
+        subtitle: 'Schede per Bambini Multilingue - Stampabili Gratuiti',
+        description: `Gli insegnanti ESL e di lingue usano schede gratuite pattern per insegnare le sequenze mentre sviluppano competenze linguistiche. Crea stampabili gratuiti in italiano per studenti che imparano l'italiano. Usa immagini della libreria con nomi tradotti per esporre gli studenti al vocabolario italiano. Le sequenze con temi di alfabeto aiutano gli studenti a imparare l'ordine delle lettere.
 
-Le scuole internazionali creano schede in 11 lingue diverse. Un insegnante genera la stessa scheda in italiano, inglese e francese. Gli studenti bilingue ricevono supporto nella loro lingua madre. Le lettere dell'alfabeto con accenti italiani (à, è, ì, ò, ù) sono preservate correttamente.
+Le schede per bambini multilingue supportano classi bilingue e immersione. Crea lo stesso foglio di lavoro di sequenze in italiano e inglese per confrontare il vocabolario. Gli studenti vedono come i nomi delle immagini cambiano tra le lingue mentre il concetto di sequenza rimane lo stesso.
 
-I programmi di immersione linguistica usano pattern per acquisizione naturale. I bambini apprendono vocabolario attraverso contesto visivo non traduzione. Le schede didattiche presentano oggetti familiari con etichette italiane. Il riconoscimento dei pattern supporta l'acquisizione della struttura linguistica naturalmente.`,
+Usa schede per scuola dell'infanzia gratuite per studenti di italiano di livello principiante. Le istruzioni visive chiare significano che gli studenti possono completare le attività anche con competenze linguistiche limitate.`,
         quote: 'Il supporto multilingue è perfetto per le mie classi.',
       },
       {
         id: '5',
         icon: '💚',
         title: 'Insegnanti di Sostegno',
-        subtitle: 'Schede Didattiche Differenziate',
-        description: `Gli insegnanti di sostegno adattano le schede didattiche per bisogni speciali. Ingrandisci le immagini per studenti con deficit visivo. Riduci il numero di esercizi per evitare sovraccarico cognitivo. Aggiungi disegni da colorare per integrare stimolazione sensoriale calmante.
+        subtitle: 'Schede Gratuite Differenziate per Bambini',
+        description: `Gli insegnanti di educazione speciale usano schede gratuite pattern per creare materiali differenziati. Studenti con diverse abilità necessitano di diversi livelli di supporto. Regola il numero di esercizi per rendere i stampabili gratuiti più facili o più difficili. Usa immagini grandi e chiare per studenti con difficoltà di elaborazione visiva.
 
-Gli studenti autistici beneficiano dalla prevedibilità dei pattern. Le sequenze ripetitive forniscono struttura confortante. I pattern visivi supportano studenti con elaborazione verbale debole. Le schede didattiche scuola primaria offrono successo accessibile per tutti i livelli.
+Carica foto di oggetti familiari allo studente per creare connessioni personali nelle schede per bambini. Studenti con autismo o altre disabilità dello sviluppo rispondono bene a materiali personalizzati. Usa foto di membri della famiglia, oggetti preferiti o routine quotidiane nelle sequenze.
 
-Personalizza le schede usando interessi speciali degli studenti. Un bambino ossessionato dai treni riceve pattern di locomotive. Un'altra studentessa che ama i gatti lavora con pattern felini. La personalizzazione aumenta motivazione ed engagement drammaticamente. I disegni da colorare offrono pausa sensoriale tra esercizi cognitivi.`,
+Le attività di pregrafismo nelle schede per scuola dell'infanzia pattern sviluppano abilità motorie fini. Completare le sequenze rafforza i muscoli della mano necessari per scrivere.`,
         quote: 'Finalmente materiali che posso adattare completamente.',
       },
       {
         id: '6',
         icon: '💼',
         title: 'Insegnanti Imprenditori',
-        subtitle: 'Vendita di Schede Didattiche Online',
-        description: `Gli insegnanti imprenditori vendono schede didattiche su Teachers Pay Teachers ed Etsy. Le schede pattern sono prodotti bestseller perché ogni insegnante ne ha bisogno. Crea pacchetti tematici di 20-30 schede per massimizzare profitto. Includi numeri da stampare e tabelline per valore aggiunto.
+        subtitle: 'Vendita di Schede per Bambini Online - Stampabili Gratuiti POD',
+        description: `Gli insegnanti imprenditori usano schede gratuite pattern per creare prodotti da vendere online. L'abbonamento Accesso Completo include una licenza commerciale completa print-on-demand. Vendi stampabili gratuiti su Teachers Pay Teachers, Etsy o il tuo sito web. Crea pacchetti a tema combinando schede pattern con schede matematica, tabelline e altri tipi di schede per bambini.
 
-Molti venditori guadagnano €500-€3000 al mese vendendo materiale didattico. Le schede didattiche digitali hanno margini di profitto del 100%. Crei il prodotto una volta e lo vendi infinite volte. La licenza commerciale Accesso Completo permette vendite illimitate senza royalty.
+Molti insegnanti guadagnano 500-5000 euro al mese vendendo schede per scuola dell'infanzia online. Le sequenze sono un argomento sempre richiesto per insegnanti della scuola dell'infanzia e di classe prima. Crea pacchetti stagionali con temi natalizi, primaverili, estivi e autunnali.
 
-Differenzia i tuoi prodotti usando immagini personalizzate caricate. Crea stili visivi unici che i clienti riconoscono. Offri sia versioni a colori che in scala di grigi nello stesso pacchetto. I numeri da stampare e le tabelline attraggono insegnanti di matematica. Costruisci recensioni positive fornendo qualità costante professionale.`,
+La qualità professionale a 300 DPI rende le tue schede gratuite competitive sul mercato. L'abbonamento si ripaga dopo solo poche vendite su Teachers Pay Teachers o Etsy.`,
         quote: 'Ho guadagnato più di 2000 euro il primo anno.',
       },
     ],
   },
 
-  // FAQ Section - FULL text from pattern-worksheet.md FAQ section
+  // FAQ Section
   faq: {
-    sectionTitle: 'Domande Frequenti sulle Schede Didattiche Pattern',
-    sectionDescription: 'Risposte alle domande più comuni sul nostro generatore di schede didattiche sui pattern',
+    sectionTitle: 'Domande Frequenti - Schede Gratuite Pattern per Bambini',
+    sectionDescription: 'Risposte alle domande più comuni sui nostri stampabili gratuiti per sequenze',
     showMoreText: 'Mostra altre domande',
     showLessText: 'Mostra meno domande',
     badgeText: 'FAQ',
@@ -353,92 +367,92 @@ Differenzia i tuoi prodotti usando immagini personalizzate caricate. Crea stili 
     items: [
       {
         id: '1',
-        question: 'Questo Generatore di Schede Didattiche sui Pattern è Davvero Gratuito?',
-        answer: `Il generatore di schede didattiche sui pattern richiede abbonamento Accesso Completo costando €240 annualmente o €25 mensili. Il tuo abbonamento ti permette creazione illimitata di schede didattiche scuola primaria senza costi per singola scheda. Genera tutte le schede di cui hai bisogno senza addebiti aggiuntivi.
+        question: 'Quali Tipi di Sequenze Posso Creare con il Generatore di Schede Gratuite Pattern?',
+        answer: `Il generatore di schede gratuite pattern offre 9 tipi di sequenze: AB, AAB, ABB, ABC, AABB, ABBC, ABCD e altri. Ogni tipo di sequenza si adatta a diversi livelli di classe. Le sequenze AB sono perfette per la scuola dell'infanzia. Le sequenze AAB e ABB funzionano bene per classe prima. Le sequenze ABC sfidano studenti di classe seconda. Le sequenze ABCD sono per studenti avanzati.
 
-L'abbonamento Accesso Completo include tutti i 33 generatori di fogli di lavoro. Il Pacchetto Essenziale include 10 generatori popolari e costa €144 annualmente. Entrambi gli abbonamenti includono licenza commerciale, supporto per 11 lingue ed esportazione qualità professionale 300 DPI. Il valore fornito supera ampiamente il costo dell'abbonamento.`,
+Combina tipi di sequenze con numeri da stampare per schede per bambini matematiche. Crea sequenze numeriche 1-2-1-2 per sequenze AB. Crea sequenze 1-1-2-1-1-2 per sequenze AAB. Le sequenze numeriche visive aiutano i bambini a comprendere concetti matematici astratti.`,
       },
       {
         id: '2',
-        question: 'Posso Stampare Schede di Pregrafismo a Casa con Stampante Normale?',
-        answer: `Assolutamente. Le schede di pregrafismo si stampano perfettamente su stampanti domestiche standard. I file PDF mantengono qualità 300 DPI su qualsiasi stampante. Le schede per la scuola dell'infanzia stampano chiaramente sia a colori che in scala di grigi.
+        question: 'Posso Stampare Schede Gratuite Pattern a Casa con Stampante Normale?',
+        answer: `Sì. Tutte le schede gratuite pattern stampano perfettamente su stampanti domestiche normali. Scarica come PDF per migliore qualità di stampa. La risoluzione 300 DPI assicura testo nitido e immagini chiare su qualsiasi stampante. Stampa schede per bambini classe prima, schede matematica e stampabili gratuiti per sequenze a casa o a scuola.
 
-L'opzione scala di grigi risparmia inchiostro quando stampi grandi quantità. I pattern rimangono distinguibili chiaramente anche in bianco e nero. La maggior parte degli insegnanti stampa versioni in scala di grigi per copie studenti. Conserva una versione a colori come master per riferimento.`,
+Usa l'opzione scala di grigi per risparmiare inchiostro colorato quando stampi schede per scuola dell'infanzia. Il modo scala di grigi mantiene tutti i dettagli pur utilizzando meno inchiostro. Stampa su carta normale per schede gratuite quotidiane.`,
       },
       {
         id: '3',
-        question: 'Serve Esperienza di Design per Creare Schede Pattern?',
-        answer: `Zero competenze di design necessarie. Il generatore crea schede matematica professionali con 3 clic. Scegli impostazioni, seleziona immagini e clicca genera. Il sistema fa tutto il lavoro di layout e design automaticamente.
+        question: 'Ho Bisogno di Competenze di Design per Creare Stampabili Gratuiti Pattern?',
+        answer: `No. Il generatore di schede gratuite pattern è progettato per insegnanti senza competenze di design. Clicca pulsanti semplici per creare schede per bambini di aspetto professionale. La modalità creazione automatica genera stampabili gratuiti completi in 3 clic. Nessun software di design necessario per schede per scuola dell'infanzia o schede pregrafismo.
 
-L'editor canvas permette personalizzazione semplice senza formazione. Trascina elementi con il mouse. Ridimensiona usando maniglie angolari. Aggiungi disegni da colorare senza competenze artistiche. L'interfaccia è intuitiva come usare un elaboratore testi base.`,
+Ogni passaggio usa controlli intuitivi che gli insegnanti della scuola dell'infanzia padroneggiano in minuti. Seleziona sequenze cliccando pulsanti. Scegli immagini da temi organizzati. Genera schede gratuite con un clic.`,
       },
       {
         id: '4',
-        question: 'Posso Usare Queste Schede Pattern nella Mia Classe?',
-        answer: `L'abbonamento Accesso Completo include uso illimitato in classe. Stampa tutte le copie necessarie per i tuoi studenti. Usa le schede matematica con pattern per lezioni, compiti a casa e valutazioni. Nessuna restrizione sul numero di studenti o classi.
+        question: 'Posso Usare Schede Gratuite Pattern nella Mia Classe?',
+        answer: `Sì. L'abbonamento Accesso Completo include utilizzo illimitato in classe di schede gratuite pattern. Crea e stampa tutte le schede per bambini di cui hai bisogno per i tuoi studenti. Nessuna restrizione sul numero di copie di stampabili gratuiti che stampi. Usa schede matematica, schede alfabeto e schede per sequenze con tutti i tuoi studenti.
 
-Molti insegnanti creano set completi di schede pattern per l'intero anno. Organizzano le schede per difficoltà crescente. Gli studenti progrediscono da pattern AB semplici a pattern ABCD complessi. I pattern preparano per la matematica futura.`,
+Condividi file PDF digitali di schede per scuola dell'infanzia con studenti e genitori. Carica stampabili gratuiti su sistemi di gestione dell'apprendimento. Invia schede gratuite classe prima a casa per compiti.`,
       },
       {
         id: '5',
-        question: 'Quali Lingue Sono Disponibili per le Schede Pattern?',
-        answer: `L'interfaccia e il contenuto funzionano in 11 lingue diverse. Crea schede italiano classe prima completamente in italiano. L'alfabeto italiano con accenti (à, è, ì, ò, ù) è supportato perfettamente. I nomi file delle immagini preservano caratteri speciali.
+        question: 'Quali Lingue sono Disponibili per Schede per Bambini Pattern?',
+        answer: `Il generatore di schede gratuite pattern supporta 11 lingue complete. Interfaccia utente disponibile in italiano, inglese, tedesco, francese, spagnolo, portoghese brasiliano, olandese, danese, svedese, norvegese e finlandese. Ogni lingua usa i nomi di immagine corretti per i stampabili gratuiti.
 
-Le 11 lingue disponibili sono: italiano, inglese, tedesco, francese, spagnolo, portoghese, olandese, svedese, danese, norvegese e finlandese. Gli insegnanti di lingua straniera generano la stessa scheda in lingue multiple. Le scuole internazionali creano materiali per programmi multilingue.`,
+Perfetto per insegnanti di scuola dell'infanzia e scuola primaria in programmi bilingui. Genera schede per bambini classe prima per studenti italiani. Passa allo spagnolo per studenti di lingua spagnola. Le schede per scuola dell'infanzia gratuite funzionano in tutte le lingue supportate.`,
       },
       {
         id: '6',
-        question: 'Posso Vendere le Schede Pattern che Creo?',
-        answer: `Sì. L'abbonamento Accesso Completo include licenza commerciale print-on-demand completa. Vendi schede didattiche su Etsy, Teachers Pay Teachers e Amazon KDP. Nessun costo di licenza aggiuntivo oltre all'abbonamento €240 annuale.
+        question: 'Posso Vendere le Schede Gratuite Pattern che Creo?',
+        answer: `Sì. L'abbonamento Accesso Completo include licenza commerciale print-on-demand completa senza costi extra. Vendi schede gratuite pattern su Teachers Pay Teachers, Etsy e Amazon KDP. Nessuna tariffa di licenza aggiuntiva oltre ai 240 euro annuali. Crea e vendi stampabili gratuiti, schede per bambini, schede matematica per reddito passivo.
 
-Le schede pattern sono bestseller su piattaforme educative. Molti insegnanti guadagnano €500-€3000 mensili vendendo materiali. Crea pacchetti tematici di 20-30 schede per massimo profitto. Non serve attribuzione o watermark sui prodotti venduti.`,
+Nessuna attribuzione richiesta quando vendi schede per scuola dell'infanzia. Marchia le schede con il tuo logo. Vendi su più piattaforme simultaneamente con la stessa licenza.`,
       },
       {
         id: '7',
-        question: 'Quali Tipi di Pattern Posso Creare?',
-        answer: `Il generatore offre 9 tipi di pattern diversi. Pattern AB e AAB sono perfetti per la scuola dell'infanzia. Pattern ABB e ABC funzionano bene per classe prima. Pattern AABB, ABBC e ABCD sfidano studenti più grandi.
+        question: 'Come Regolo la Difficoltà per Schede Gratuite Pattern Scuola dell\'Infanzia?',
+        answer: `Il numero di esercizi regolabile (1-8) controlla la difficoltà delle schede gratuite. Meno esercizi con elementi più grandi rendono i stampabili gratuiti più facili per bambini piccoli. Più esercizi creano schede per bambini più impegnative per studenti avanzati.
 
-Ogni tipo di pattern supporta diversi livelli di difficoltà. Puoi creare da 1 a 8 esercizi per foglio. Scegli caselle vuote o opzioni a scelta multipla. Il sistema genera automaticamente chiavi di risposta per ogni scheda.`,
+Inizia con 2-4 esercizi grandi per introdurre nuovi concetti di sequenze nelle schede per scuola dell'infanzia. Gli studenti della scuola dell'infanzia necessitano di elementi visivi chiari per identificare la sequenza. Aumenta gradualmente a 6-8 esercizi man mano che padroneggiano il concetto.`,
       },
       {
         id: '8',
-        question: 'Quali Fasce d\'Età Funzionano Meglio con Queste Schede?',
-        answer: `Le schede di pregrafismo per la scuola dell'infanzia funzionano per età 3-5 anni. Pattern AB e AAB sono perfetti per bambini piccoli. Pattern ABC e AABB si adattano a studenti di classe prima età 6-7. Pattern ABCD complessi sfidano studenti di seconda e terza età 7-9.
+        question: 'Per Quali Fasce d\'Età Funzionano i Stampabili Gratuiti Pattern?',
+        answer: `Le schede gratuite pattern funzionano meglio per bambini di 3-9 anni nella scuola dell'infanzia e primi anni di scuola primaria. I bambini di 3-5 anni della scuola dell'infanzia usano sequenze AB con elementi grandi. Gli studenti di 6-7 anni di classe prima gestiscono sequenze più complesse come AAB e ABB. Gli studenti di 7-9 anni possono affrontare sequenze ABC e ABCD.
 
-Differenzia all'interno della stessa classe usando complessità di pattern diverse. Studenti avanzati ricevono pattern a quattro elementi. Studenti che necessitano supporto lavorano con pattern semplici a due elementi. Tutti apprendono riconoscimento pattern al proprio livello appropriato.`,
+Regola la difficoltà delle schede per bambini per qualsiasi livello di età cambiando il tipo di sequenza e il numero di esercizi. Le attività sviluppano le abilità motorie fini e il pensiero logico essenziali per la matematica.`,
       },
       {
         id: '9',
-        question: 'Posso Caricare le Mie Immagini per Schede Pattern?',
-        answer: `Sì. Il sistema accetta caricamento multi-file di JPEG, PNG e GIF. Carica dozzine di immagini contemporaneamente. Le tue immagini appaiono nell'area upload personale. Combinale con immagini della libreria nelle stesse schede.
+        question: 'Posso Caricare le Mie Immagini per Schede per Scuola dell\'Infanzia Pattern Gratuite?',
+        answer: `Sì. Carica le tue immagini per creare schede gratuite pattern completamente personalizzate. Il caricamento multi-file consente di aggiungere più immagini contemporaneamente. Tutti i formati comuni sono supportati: JPEG, PNG, GIF. Combina immagini caricate con immagini della libreria per stampabili gratuiti unici.
 
-Usa foto personalizzate per creare schede pattern uniche. Carica illustrazioni create appositamente per i tuoi studenti. Aggiungi foto di mascotte della classe o oggetti familiari. Le immagini personalizzate aumentano engagement e riconoscimento drammaticamente.`,
+Usa foto dei tuoi studenti per schede per bambini personalizzate. Carica foto di oggetti della classe per schede per scuola dell'infanzia più coinvolgenti. Le immagini caricate rimangono disponibili durante la tua sessione.`,
       },
       {
         id: '10',
-        question: 'Quanto Tempo Serve per Creare Schede Pattern Professionali?',
-        answer: `Genera schede pattern professionali in meno di 3 minuti. Seleziona tipo di pattern e immagini in 30 secondi. Il sistema genera automaticamente la scheda in 2-3 secondi. Personalizza sul canvas in 1-2 minuti se necessario. Scarica file pronti per la stampa immediatamente.
+        question: 'Quanto Tempo Ci Vuole per Creare Schede Gratuite Pattern?',
+        answer: `Creare schede gratuite pattern complete richiede meno di 3 minuti dall'inizio al download. La modalità creazione automatica genera stampabili gratuiti in secondi. La selezione manuale di immagini aggiunge 1-2 minuti per schede per bambini personalizzate. Scarica schede per scuola dell'infanzia finite in formato PDF o JPEG immediatamente.
 
-Metodi manuali richiedono 30-60 minuti per scheda. Risparmi 27-57 minuti ogni volta che usi il generatore. Moltiplicato per 20-30 schede mensili, risparmi 9-28 ore di lavoro.`,
+Crea 10 schede gratuite diverse in 30 minuti totali. Genera stampabili gratuiti per sequenze, schede matematica e schede pregrafismo per l'intera settimana in un'ora.`,
       },
       {
         id: '11',
-        question: 'Le Schede Pattern Includono Chiavi di Risposta?',
-        answer: `Sì. Ogni scheda didattica genera automaticamente chiave di risposta corrispondente. La scheda soluzione mostra tutti i pattern completati correttamente. Scarica sia foglio di lavoro che soluzione in formato PDF o JPEG.
+        question: 'Le Schede Gratuite Pattern Includono Chiavi di Risposta?',
+        answer: `Sì. Il generatore crea automaticamente chiavi di risposta per tutte le schede gratuite pattern. Ogni stampabile gratuito per sequenze ha una chiave di risposta corrispondente che mostra la sequenza completa. Le chiavi di risposta aiutano con la valutazione veloce di schede per bambini classe prima. Scarica sia la scheda che la chiave di risposta insieme.
 
-Le chiavi di risposta aiutano con la correzione rapida del lavoro studenti. Gli studenti possono anche usare soluzioni per auto-correzione. La doppia esportazione fa risparmiare tempo di preparazione significativo.`,
+Le chiavi di risposta mostrano le stesse immagini con la sequenza completata nelle posizioni corrette. Perfetto per autovalutazione degli studenti di scuola primaria. I genitori usano chiavi di risposta per verificare il lavoro a casa delle schede per scuola dell'infanzia.`,
       },
       {
         id: '12',
-        question: 'Come Si Integrano le Schede Pattern con Altri Generatori?',
-        answer: `Le schede pattern si integrano perfettamente con gli altri 32 generatori di schede didattiche. Combina pattern con schede matematica per pacchetti completi. Aggiungi generatori di tabelline per pratica di moltiplicazione. Combina con disegni da colorare per pacchetti creativi.
+        question: 'Le Schede Pattern si Integrano con Altri Generatori di Schede Gratuite?',
+        answer: `Sì! Le schede pattern si integrano perfettamente con gli altri 32 generatori di schede gratuite. Combina stampabili gratuiti pattern con schede matematica per pacchetti di matematica completi. Aggiungi generatori di tabelline per pratica di moltiplicazione. Combina con disegni da colorare per pacchetti creativi di schede per bambini.
 
-Crea pacchetti settimanali tematici usando più generatori. Un pacchetto a tema autunnale può includere pattern con immagini autunnali, disegni da colorare autunnali e schede matematica stagionali. Il tuo abbonamento Accesso Completo ti dà tutti questi strumenti.`,
+Crea pacchetti settimanali tematici usando più generatori. Un pacchetto a tema autunnale può includere schede pattern con immagini autunnali, disegni da colorare autunnali e schede per scuola dell'infanzia matematiche con temi stagionali. Il tuo abbonamento Accesso Completo ti dà tutti questi strumenti.`,
       },
     ],
   },
 
-  // Pricing Section - FULL ACCESS ($240/year) for pattern-worksheet
+  // Pricing Section
   pricing: {
     title: 'Accesso Completo',
     price: '€240',
@@ -494,10 +508,10 @@ Crea pacchetti settimanali tematici usando più generatori. Un pacchetto a tema 
 
   // Related Apps Section
   relatedApps: {
-    sectionTitle: 'Combina Schede Pattern con Altri Materiali Stampabili',
-    sectionDescription: 'Il generatore di schede didattiche pattern funziona magnificamente combinato con altri tipi di schede didattiche. La piattaforma offre 33 generatori diversi per materiali stampabili. Crea pacchetti tematici coordinati che integrano pattern, matematica, pregrafismo, disegni da colorare e molto altro.',
-    ctaTitle: 'Pronto a Creare Schede Straordinarie?',
-    ctaDescription: 'Unisciti a migliaia di educatori che creano schede professionali. Generazione illimitata, licenza commerciale inclusa.',
+    sectionTitle: 'Combina Schede Gratuite Pattern con Altri Stampabili per Bambini',
+    sectionDescription: 'Il generatore di schede gratuite pattern funziona magnificamente combinato con altri tipi di stampabili gratuiti. La piattaforma offre 33 generatori diversi per materiali stampabili. Crea pacchetti tematici coordinati che integrano pattern, matematica, pregrafismo, disegni da colorare e molto altro.',
+    ctaTitle: 'Pronto a Creare Schede per Bambini Straordinarie?',
+    ctaDescription: 'Unisciti a migliaia di educatori che creano schede gratuite professionali. Generazione illimitata, licenza commerciale inclusa.',
     primaryCtaText: 'Inizia la Prova Gratuita',
     secondaryCtaText: 'Vedi Tutti i 33 Generatori',
     badgeText: 'Funziona Perfettamente Con',
@@ -513,7 +527,7 @@ Crea pacchetti settimanali tematici usando più generatori. Un pacchetto a tema 
         name: 'Addizioni',
         category: 'Matematica',
         icon: '➕',
-        description: 'Combina pratica dei pattern con matematica per apprendimento integrato. Le stesse immagini funzionano perfettamente in entrambi i generatori.',
+        description: 'Combina pratica delle sequenze con matematica per apprendimento integrato. Le stesse immagini funzionano perfettamente in entrambi i generatori.',
       },
       {
         id: '2',
@@ -521,7 +535,7 @@ Crea pacchetti settimanali tematici usando più generatori. Un pacchetto a tema 
         name: 'Disegni da Colorare',
         category: 'Arte e Creatività',
         icon: '🎨',
-        description: 'Aggiungi attività di colorazione dopo le schede pattern. I bambini praticano pattern poi rilassano con l\'arte.',
+        description: 'Aggiungi attività di colorazione dopo le schede pattern. I bambini praticano sequenze poi rilassano con l\'arte.',
       },
       {
         id: '3',
@@ -529,15 +543,15 @@ Crea pacchetti settimanali tematici usando più generatori. Un pacchetto a tema 
         name: 'Abbinamenti',
         category: 'Logica',
         icon: '🔗',
-        description: 'Rinforza il riconoscimento dei pattern con attività di abbinamento. Usa le stesse immagini per consistenza tematica.',
+        description: 'Rinforza il riconoscimento delle sequenze con attività di abbinamento. Usa le stesse immagini per consistenza tematica.',
       },
       {
         id: '4',
         slug: 'pattern-train',
-        name: 'Pattern Train',
+        name: 'Treno delle Sequenze',
         category: 'Sequenze',
         icon: '🚂',
-        description: 'Combina fogli di lavoro pattern con attività Pattern Train. Perfetto per varietà mantenendo lo stesso argomento.',
+        description: 'Combina fogli di lavoro pattern con attività Treno delle Sequenze. Perfetto per varietà mantenendo lo stesso argomento.',
       },
       {
         id: '5',
@@ -545,7 +559,7 @@ Crea pacchetti settimanali tematici usando più generatori. Un pacchetto a tema 
         name: 'Pregrafismo',
         category: 'Pregrafismo',
         icon: '✏️',
-        description: 'Sviluppa controllo motorio fine insieme al riconoscimento dei pattern. Competenze complementari per la scuola dell\'infanzia.',
+        description: 'Sviluppa controllo motorio fine insieme al riconoscimento delle sequenze. Competenze complementari per la scuola dell\'infanzia.',
       },
       {
         id: '6',
@@ -553,7 +567,7 @@ Crea pacchetti settimanali tematici usando più generatori. Un pacchetto a tema 
         name: 'Trova e Conta',
         category: 'Matematica',
         icon: '🔍',
-        description: 'Combina pratica dei pattern con competenze di conteggio. Perfetto per sviluppare il pensiero logico.',
+        description: 'Combina pratica delle sequenze con competenze di conteggio. Perfetto per sviluppare il pensiero logico.',
       },
     ],
   },

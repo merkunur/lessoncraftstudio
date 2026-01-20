@@ -17,9 +17,35 @@ export const oddOneOutEsContent: ProductPageContent = {
   seo: {
     slug: 'encuentra-el-diferente-fichas',
     appId: 'odd-one-out',
-    title: 'Generador de Fichas para Imprimir de Encuentra el Diferente - Fichas Gratis para Preescolar y Primaria',
-    description: 'Crea fichas para imprimir de encuentra el diferente profesionales con nuestro generador especializado. Genera fichas preescolar personalizadas perfectas para educación infantil y primaria. Descarga fichas gratis en PDF de alta calidad en menos de 3 minutos.',
+    title: 'Fichas Encuentra el Diferente Gratis | Generador para Imprimir',
+    description: 'Crea fichas de encuentra el diferente gratis para imprimir. Generador de discriminación visual para preescolar. Descarga PDF en 300 DPI en 3 minutos.',
     keywords: 'fichas para imprimir, encuentra el diferente, fichas preescolar, fichas infantil, material educativo gratis, fichas gratis, discriminación visual, grafomotricidad, lectoescritura, ejercicios cognitivos, dibujos para colorear',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/spanish/odd-one-out/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Ficha gratis de encuentra el diferente para imprimir - ejercicio de discriminación visual para preescolar',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/spanish/odd-one-out/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Ficha gratis para niños de encuentra el diferente - actividad de pensamiento crítico para infantil',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/spanish/odd-one-out/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fichas gratis de discriminación visual para imprimir - material educativo para preescolar',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/spanish/odd-one-out/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Imprimibles gratis de encuentra el diferente - fichas para niños de lógica y categorización',
+      },
+    ],
     canonicalUrl: 'https://www.lessoncraftstudio.com/es/apps/encuentra-el-diferente-fichas',
   },
 
@@ -36,7 +62,7 @@ El generador incluye dos modos de dificultad para fichas preescolar. El modo Id�
 Tu suscripción Acceso Completo incluye más de 3000 imágenes infantiles organizadas por temas. Sube tus propias imágenes para personalizar las fichas gratis. Agrega texto, fondos temáticos y bordes decorativos. Edita todo en el lienzo con arrastrar, rotar y escalar. Crea material educativo gratis profesional para tu salón de clases sin habilidades de diseño.
 
 Las fichas para imprimir se exportan en formato PDF y JPEG a 300 DPI. Perfectas para imprimir en casa o en la escuela. Incluye clave de respuestas automática que muestra cuál es el diferente. Disponible en 11 idiomas incluyendo español para maestros bilingües. La suscripción Acceso Completo cuesta $240 al año o $25 al mes e incluye licencia comercial completa.`,
-    previewImageSrc: '/samples/english/odd one out/identical.jpeg',
+    previewImageSrc: '/samples/spanish/odd-one-out/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Probar Gratis',
       viewSamples: 'Ver Ejemplos',
@@ -71,17 +97,31 @@ Las fichas para imprimir se exportan en formato PDF y JPEG a 300 DPI. Perfectas 
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/odd one out/identical.jpeg',
-        answerKeySrc: '/samples/english/odd one out/identical answer-key.jpeg',
-        altText: 'Ficha de encuentra el diferente modo idéntico para preescolar',
-        pdfDownloadUrl: '/samples/english/odd one out/identical.pdf',
+        worksheetSrc: '/samples/spanish/odd-one-out/sample-1.jpeg',
+        answerKeySrc: '/samples/spanish/odd-one-out/sample-1-answer.jpeg',
+        altText: 'Ficha gratis de encuentra el diferente para imprimir - ejercicio de discriminación visual modo idéntico para preescolar',
+        pdfDownloadUrl: '/samples/spanish/odd-one-out/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/odd one out/similar.jpeg',
-        answerKeySrc: '/samples/english/odd one out/similar answer-key.jpeg',
-        altText: 'Ficha de encuentra el diferente modo similar para primaria',
-        pdfDownloadUrl: '/samples/english/odd one out/similar.pdf',
+        worksheetSrc: '/samples/spanish/odd-one-out/sample-2.jpeg',
+        answerKeySrc: '/samples/spanish/odd-one-out/sample-2-answer.jpeg',
+        altText: 'Ficha gratis para niños de encuentra el diferente - actividad de pensamiento crítico modo similar para infantil',
+        pdfDownloadUrl: '/samples/spanish/odd-one-out/sample-2.pdf',
+      },
+      {
+        id: '3',
+        worksheetSrc: '/samples/spanish/odd-one-out/sample-3.jpeg',
+        answerKeySrc: '/samples/spanish/odd-one-out/sample-3-answer.jpeg',
+        altText: 'Fichas gratis de discriminación visual para imprimir - material educativo de categorización para primaria',
+        pdfDownloadUrl: '/samples/spanish/odd-one-out/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/spanish/odd-one-out/sample-4.jpeg',
+        answerKeySrc: '/samples/spanish/odd-one-out/sample-4-answer.jpeg',
+        altText: 'Imprimibles gratis de encuentra el diferente - fichas para preescolar con ejercicios de lógica visual',
+        pdfDownloadUrl: '/samples/spanish/odd-one-out/sample-4.pdf',
       },
     ],
   },

@@ -8,6 +8,13 @@ import { ProductPageContent } from '@/components/product-page/ProductPageClient'
  *
  * FULL SEO content from: INDIVIDUAL APP PAGES/Italian/grid-match.md
  * DO NOT SHORTEN - Every paragraph is SEO-optimized
+ *
+ * SEO OPTIMIZED: Universal Italian keywords injected throughout
+ * - Scheda gratuita / Schede gratuite
+ * - Scheda gratuita per bambini
+ * - Stampabili gratuiti
+ * - Scheda per bambini
+ * - Scheda per scuola dell'infanzia
  */
 
 export const gridMatchItContent: ProductPageContent = {
@@ -15,22 +22,54 @@ export const gridMatchItContent: ProductPageContent = {
   seo: {
     slug: 'griglia-abbinamento-schede',
     appId: 'grid-match',
-    title: 'Schede Didattiche Griglia Abbinamento | Generatore Schede per Scuola Primaria',
-    description: 'Crea schede didattiche griglia abbinamento professionali con il nostro generatore. Perfetto per scuola primaria e scuola dell\'infanzia. Genera schede personalizzate in formato PDF in meno di 3 minuti.',
-    keywords: 'schede didattiche griglia abbinamento, schede scuola primaria, puzzle griglia, scuola infanzia, schede stampabili, generatore schede, abbinamento immagini, classe prima, pregrafismo, materiale didattico',
+    title: 'Schede Gratuite Griglia Abbinamento | Scheda Gratuita per Bambini Scuola Primaria',
+    description: 'Crea schede gratuite griglia abbinamento con il nostro generatore. Stampabili gratuiti personalizzabili perfetti per scuola dell\'infanzia e scuola primaria. Scarica scheda gratuita per bambini in PDF in 3 minuti!',
+    keywords: 'schede gratuite griglia abbinamento, scheda gratuita per bambini, stampabili gratuiti, scheda per bambini, scheda per scuola dell\'infanzia, puzzle griglia, schede stampabili, generatore schede, abbinamento immagini, classe prima, pregrafismo',
     canonicalUrl: 'https://www.lessoncraftstudio.com/it/apps/griglia-abbinamento-schede',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/italian/grid-match/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Scheda gratuita griglia abbinamento - schede gratuite puzzle visivo per bambini scuola primaria'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/italian/grid-match/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Stampabili gratuiti griglia abbinamento - scheda gratuita per bambini scuola dell\'infanzia'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/italian/grid-match/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Scheda per bambini griglia abbinamento - schede gratuite educative per classe prima'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/italian/grid-match/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Scheda gratuita per bambini - stampabili gratuiti puzzle griglia scuola primaria'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/italian/grid-match/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Schede gratuite griglia abbinamento - scheda per scuola dell\'infanzia stampabile'
+      },
+    ],
   },
 
   // Hero Section
   hero: {
-    title: 'Generatore di Schede Didattiche Griglia Abbinamento',
-    subtitle: 'Schede per Scuola Primaria e Scuola dell\'Infanzia',
-    description: `Crea schede didattiche griglia abbinamento professionali con il nostro generatore di schede didattiche. L'abbonamento Accesso Completo ti consente di creare schede illimitate senza costi aggiuntivi per singola scheda. Genera schede didattiche scuola primaria personalizzate perfette per ogni livello di apprendimento. Scarica schede matematica, schede italiano classe prima e pregrafismo di alta qualità in meno di 3 minuti.
+    title: 'Schede Gratuite Griglia Abbinamento - Generatore di Schede Didattiche',
+    subtitle: 'Scheda Gratuita per Bambini - Scuola Primaria e Scuola dell\'Infanzia',
+    description: `Crea schede gratuite griglia abbinamento con il nostro generatore di schede didattiche. L'abbonamento Accesso Completo ti consente di creare schede gratuite illimitate senza costi aggiuntivi per singola scheda. Genera stampabili gratuiti personalizzati perfetti per ogni livello di apprendimento. Scarica scheda gratuita per bambini in PDF in meno di 3 minuti.
 
-Le schede didattiche griglia abbinamento aiutano i bambini a sviluppare abilità di corrispondenza visiva e riconoscimento. Ogni scheda didattica presenta una griglia con immagini e celle indizio che i bambini abbinano. Gli insegnanti della scuola dell'infanzia utilizzano queste schede per sviluppare competenze cognitive essenziali. Perfette per pregrafismo e preparazione alla scrittura.
+Le schede gratuite griglia abbinamento aiutano i bambini a sviluppare abilità di corrispondenza visiva e riconoscimento. Ogni scheda gratuita per bambini presenta una griglia con immagini e celle indizio che i bambini abbinano. Gli insegnanti della scuola dell'infanzia utilizzano queste schede per bambini per sviluppare competenze cognitive essenziali. Perfette stampabili gratuiti per pregrafismo e preparazione alla scrittura.
 
-Il nostro generatore di schede didattiche offre personalizzazione completa per ogni esigenza didattica. Modifica dimensioni griglia da 2×2 a 4×4 con celle indizio personalizzabili. Aggiungi disegni da colorare, numeri da stampare e lettere dell'alfabeto alle tue schede. Combina schede matematica con tabelline per lezioni di matematica complete. Crea schede didattiche scuola primaria per classe prima, seconda e terza in pochi clic.`,
-    previewImageSrc: '/samples/english/grid match/grid match portrait .jpeg',
+Il nostro generatore di schede gratuite offre personalizzazione completa per ogni esigenza didattica. Modifica dimensioni griglia da 2×2 a 4×4 con celle indizio personalizzabili. Aggiungi disegni da colorare, numeri da stampare e lettere dell'alfabeto alle tue schede per bambini. Combina schede gratuite con tabelline per lezioni di matematica complete. Crea stampabili gratuiti per classe prima, seconda e terza in pochi clic.`,
+    previewImageSrc: '/samples/italian/grid-match/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Prova Gratis',
       viewSamples: 'Vedi Esempi',
@@ -51,39 +90,60 @@ Il nostro generatore di schede didattiche offre personalizzazione completa per o
 
   // Sample Gallery
   samples: {
-    sectionTitle: 'Esempi di Schede Didattiche Griglia Abbinamento',
-    sectionDescription: 'Scarica esempi gratuiti per vedere la nostra qualità professionale',
-    downloadLabel: 'Scarica Esempio Gratuito',
+    sectionTitle: 'Schede Gratuite Griglia Abbinamento - Esempi Stampabili Gratuiti',
+    sectionDescription: 'Scarica schede gratuite per bambini e vedi la nostra qualità professionale',
+    downloadLabel: 'Scarica Scheda Gratuita',
     worksheetLabel: 'Scheda',
     answerKeyLabel: 'Soluzioni',
     viewAllLabel: 'Ingrandisci',
     noPdfLabel: 'Solo anteprima',
     freePdfCountLabel: 'download gratuiti',
-    badgeText: 'Esempi Gratuiti',
+    badgeText: 'Stampabili Gratuiti',
     downloadingLabel: 'Scaricamento...',
     ofLabel: 'di',
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/grid match/grid match portrait .jpeg',
-        answerKeySrc: '/samples/english/grid match/grid match portrait  answer_key.jpeg',
-        altText: 'Scheda didattica griglia abbinamento formato verticale per scuola primaria',
-        pdfDownloadUrl: '/samples/english/grid match/grid match portrait .pdf',
+        worksheetSrc: '/samples/italian/grid-match/sample-1.jpeg',
+        answerKeySrc: '/samples/italian/grid-match/sample-1-answer.jpeg',
+        altText: 'Scheda gratuita griglia abbinamento - stampabili gratuiti puzzle visivo per scuola dell\'infanzia',
+        pdfDownloadUrl: '/samples/italian/grid-match/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/grid match/grid match landscape.jpeg',
-        answerKeySrc: '/samples/english/grid match/grid match landscape answer_key.jpeg',
-        altText: 'Scheda griglia abbinamento formato orizzontale per scuola dell\'infanzia',
-        pdfDownloadUrl: '/samples/english/grid match/grid match landscape.pdf',
+        worksheetSrc: '/samples/italian/grid-match/sample-2.jpeg',
+        answerKeySrc: '/samples/italian/grid-match/sample-2-answer.jpeg',
+        altText: 'Schede gratuite griglia abbinamento per bambini - scheda gratuita scuola primaria',
+        pdfDownloadUrl: '/samples/italian/grid-match/sample-2.pdf',
+      },
+      {
+        id: '3',
+        worksheetSrc: '/samples/italian/grid-match/sample-3.jpeg',
+        answerKeySrc: '/samples/italian/grid-match/sample-3-answer.jpeg',
+        altText: 'Stampabili gratuiti griglia abbinamento - scheda per bambini classe prima',
+        pdfDownloadUrl: '/samples/italian/grid-match/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/italian/grid-match/sample-4.jpeg',
+        answerKeySrc: '/samples/italian/grid-match/sample-4-answer.jpeg',
+        altText: 'Scheda gratuita per bambini griglia abbinamento - schede gratuite puzzle visivo',
+        pdfDownloadUrl: '/samples/italian/grid-match/sample-4.pdf',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/italian/grid-match/sample-5.jpeg',
+        answerKeySrc: '/samples/italian/grid-match/sample-5-answer.jpeg',
+        altText: 'Schede gratuite per scuola dell\'infanzia - stampabili gratuiti griglia abbinamento',
+        pdfDownloadUrl: '/samples/italian/grid-match/sample-5.pdf',
       },
     ],
   },
 
   // Features Grid
   features: {
-    sectionTitle: 'Funzionalità del Generatore di Schede Griglia Abbinamento',
-    sectionDescription: 'Il nostro generatore di schede didattiche griglia abbinamento offre funzionalità complete per insegnanti della scuola primaria e scuola dell\'infanzia. Crea schede didattiche personalizzate per ogni materia e livello di apprendimento. Ogni funzionalità è progettata per semplificare la creazione di materiale didattico professionale. Gli insegnanti risparmiano ore di lavoro generando schede didattiche scuola primaria in pochi minuti.',
+    sectionTitle: 'Funzionalità Schede Gratuite Griglia Abbinamento - Stampabili Gratuiti',
+    sectionDescription: 'Il nostro generatore di schede gratuite griglia abbinamento offre funzionalità complete per insegnanti della scuola primaria e scuola dell\'infanzia. Crea schede gratuite per bambini personalizzate per ogni materia e livello di apprendimento. Ogni funzionalità è progettata per stampabili gratuiti professionali. Gli insegnanti risparmiano ore di lavoro generando schede per bambini in pochi minuti.',
     highlightBadgeText: 'Funzionalità Chiave',
     readMoreLabel: 'Leggi di più',
     showLessLabel: 'Mostra meno',
@@ -96,78 +156,78 @@ Il nostro generatore di schede didattiche offre personalizzazione completa per o
     items: [
       {
         id: '1',
-        title: 'Crea Schede Didattiche in 3 Clic',
-        description: `La creazione di schede didattiche richiede solo tre clic. Seleziona un tema dalla biblioteca di 3000+ immagini. Configura le dimensioni della griglia da 2×2 a 4×4. Clicca genera e la tua scheda didattica appare immediatamente. Gli insegnanti della scuola dell'infanzia creano schede pregrafismo senza competenze tecniche. Il processo è così semplice che anche chi usa il computer raramente può creare schede professionali.
+        title: 'Crea Schede Gratuite in 3 Clic - Stampabili Gratuiti per Bambini',
+        description: `La creazione di schede gratuite richiede solo tre clic. Seleziona un tema dalla biblioteca di 3000+ immagini. Configura le dimensioni della griglia da 2×2 a 4×4. Clicca genera e la tua scheda gratuita per bambini appare immediatamente. Gli insegnanti della scuola dell'infanzia creano stampabili gratuiti pregrafismo senza competenze tecniche. Il processo è così semplice che anche chi usa il computer raramente può creare schede per bambini professionali.
 
-Nessun corso di formazione necessario. Basta selezionare, configurare e scaricare le tue schede didattiche personalizzate. Il generatore funziona per qualsiasi livello scolastico. Crea schede per la scuola dell'infanzia in secondi. Perfetto per classe prima, classe seconda e classe terza. Gli insegnanti risparmiano ore di preparazione.
+Nessun corso di formazione necessario. Basta selezionare, configurare e scaricare le tue schede gratuite personalizzate. Il generatore funziona per qualsiasi livello scolastico. Crea stampabili gratuiti per la scuola dell'infanzia in secondi. Perfetto per classe prima, classe seconda e classe terza. Gli insegnanti risparmiano ore di preparazione con schede gratuite.
 
-L'interfaccia è intuitiva e facile da usare. Combina con disegni da colorare per attività complete. Aggiungi esercizi di pregrafismo alla stessa pagina. Crea schede per le tabelline e la matematica. Tutto in un unico strumento semplice. Le schede didattiche scuola primaria sono pronte per la stampa immediata.`,
+L'interfaccia è intuitiva e facile da usare. Combina con disegni da colorare per attività complete. Aggiungi esercizi di pregrafismo alla stessa pagina. Crea scheda gratuita per bambini con tabelline e matematica. Tutto in un unico strumento semplice. Le schede per bambini sono pronte per la stampa immediata.`,
         icon: '⚡',
         highlighted: true,
       },
       {
         id: '2',
-        title: 'Modifica Schede su Tela Completa',
-        description: `Ogni elemento sulle tue schede didattiche scuola primaria è completamente modificabile. Trascina immagini, ridimensiona elementi, ruota oggetti con il mouse. Aggiungi testo personalizzato per schede italiano classe prima. Modifica colori, caratteri e dimensioni di ogni elemento grafico. Le schede pregrafismo includono funzioni di modifica avanzate per adattare ogni esercizio al livello degli studenti.
+        title: 'Modifica Schede Gratuite su Tela - Scheda Gratuita Personalizzabile',
+        description: `Ogni elemento sulle tue schede gratuite per bambini è completamente modificabile. Trascina immagini, ridimensiona elementi, ruota oggetti con il mouse. Aggiungi testo personalizzato per scheda gratuita per bambini italiano classe prima. Modifica colori, caratteri e dimensioni di ogni elemento grafico. I stampabili gratuiti pregrafismo includono funzioni di modifica avanzate per adattare ogni esercizio al livello degli studenti.
 
-Sposta celle della griglia per creare layout personalizzati. Cancella e ricomincia con un clic. Ogni modifica è reversibile con undo illimitato. Gli strumenti di allineamento aiutano a posizionare gli elementi. Porta oggetti in primo piano o sullo sfondo. Allinea le immagini perfettamente.
+Sposta celle della griglia per creare layout personalizzati nelle tue schede gratuite. Cancella e ricomincia con un clic. Ogni modifica è reversibile con undo illimitato. Gli strumenti di allineamento aiutano a posizionare gli elementi. Porta oggetti in primo piano o sullo sfondo. Allinea le immagini perfettamente nelle schede per bambini.
 
-Blocca elementi che non vuoi spostare. Annulla e ripeti modifiche illimitate. Crea schede didattiche professionali senza essere un designer. Personalizza tutto per le esigenze specifiche della tua classe. Le schede didattiche scuola primaria riflettono il tuo stile di insegnamento.`,
+Blocca elementi che non vuoi spostare. Annulla e ripeti modifiche illimitate. Crea stampabili gratuiti professionali senza essere un designer. Personalizza tutto per le esigenze specifiche della tua classe. Le schede gratuite per bambini riflettono il tuo stile di insegnamento.`,
         icon: '✏️',
         highlighted: false,
       },
       {
         id: '3',
-        title: 'Carica Immagini Personalizzate',
-        description: `Carica le tue immagini personalizzate in formato JPEG, PNG o GIF. Combina immagini caricate con la biblioteca integrata. Crea schede didattiche con foto dei tuoi studenti per personalizzazione massima. Aggiungi disegni da colorare specifici per la tua classe. Carica numeri da stampare personalizzati con font speciali.
+        title: 'Carica Immagini - Schede Gratuite per Bambini Personalizzate',
+        description: `Carica le tue immagini personalizzate in formato JPEG, PNG o GIF per schede gratuite uniche. Combina immagini caricate con la biblioteca integrata. Crea scheda gratuita per bambini con foto dei tuoi studenti per personalizzazione massima. Aggiungi disegni da colorare specifici per la tua classe nei stampabili gratuiti.
 
-Il sistema supporta caricamento multiplo di file. Trascina e rilascia fino a 50 immagini contemporaneamente. Le immagini caricate restano disponibili per tutte le tue schede didattiche. Perfetto per schede italiano classe prima con nomi degli studenti. Personalizza attività di pregrafismo con le loro foto.
+Il sistema supporta caricamento multiplo di file per schede gratuite efficienti. Trascina e rilascia fino a 50 immagini contemporaneamente. Le immagini caricate restano disponibili per tutte le tue schede per bambini. Perfetto per scheda gratuita italiano classe prima con nomi degli studenti. Personalizza attività di pregrafismo con le loro foto.
 
-Il sistema accetta tutti i formati comuni. JPEG, PNG e GIF funzionano perfettamente. Ridimensiona automaticamente le immagini troppo grandi. Combina con disegni da colorare dalla raccolta. Perfetto per schede didattiche scuola dell'infanzia personalizzate.`,
+Il sistema accetta tutti i formati comuni per stampabili gratuiti. JPEG, PNG e GIF funzionano perfettamente. Ridimensiona automaticamente le immagini troppo grandi. Combina con disegni da colorare dalla raccolta per schede gratuite complete.`,
         icon: '📤',
         highlighted: false,
       },
       {
         id: '4',
-        title: 'Supporto 11 Lingue',
-        description: `Il generatore supporta 11 lingue per interfaccia e contenuto. Crea schede didattiche in italiano, inglese, tedesco, francese, spagnolo, portoghese, olandese, danese, svedese, norvegese e finlandese. Perfetto per insegnamento dell'alfabeto e lettere dell'alfabeto in più lingue. Insegnanti di lingue straniere creano materiale multilingue facilmente.
+        title: '11 Lingue - Scheda Gratuita Multilingue per Scuola dell\'Infanzia',
+        description: `Il generatore supporta 11 lingue per schede gratuite multilingue. Crea scheda gratuita per bambini in italiano, inglese, tedesco, francese, spagnolo, portoghese, olandese, danese, svedese, norvegese e finlandese. Perfetti stampabili gratuiti per insegnamento dell'alfabeto e lettere in più lingue.
 
-Gli archivi immagini sono organizzati per lingua. Cambia lingua con un clic per accedere a vocabolario specifico. Ideale per scuole internazionali e programmi bilingue. Crea schede di alfabeto in inglese, tedesco, francese. Perfetto per insegnare lettere dell'alfabeto in spagnolo.
+Gli archivi immagini sono organizzati per lingua nelle schede gratuite. Cambia lingua con un clic per accedere a vocabolario specifico. Ideale per scuole internazionali che necessitano schede per bambini bilingue. Crea stampabili gratuiti di alfabeto in inglese, tedesco, francese.
 
-Genera schede italiano classe prima per studenti ESL. Ottimo per esercizi di pregrafismo multilingue. Le schede didattiche scuola primaria funzionano in qualsiasi lingua. I nomi delle immagini si adattano automaticamente.`,
+Genera scheda gratuita per bambini italiano per studenti ESL. Ottimo per esercizi di pregrafismo multilingue. Le schede gratuite funzionano in qualsiasi lingua. I nomi delle immagini si adattano automaticamente.`,
         icon: '🌍',
         highlighted: false,
       },
       {
         id: '5',
-        title: 'Licenza Commerciale Inclusa',
-        description: `L'abbonamento Accesso Completo include licenza commerciale print-on-demand senza costi aggiuntivi. Vendi le tue schede matematica su Teachers Pay Teachers. Crea pacchetti di tabelline per Etsy. Pubblica libri di attività su Amazon KDP. Nessun costo di licenza oltre l'abbonamento annuale. La qualità 300 DPI è perfetta per la vendita commerciale.
+        title: 'Licenza Commerciale - Vendi Schede Gratuite Create',
+        description: `L'abbonamento Accesso Completo include licenza commerciale per le tue schede gratuite. Vendi le tue schede per bambini su Teachers Pay Teachers. Crea pacchetti di stampabili gratuiti per Etsy. Pubblica libri di attività con scheda gratuita per bambini su Amazon KDP.
 
-Molti insegnanti guadagnano 500-5000 euro mensili vendendo schede didattiche personalizzate. Nessuna attribuzione richiesta sui materiali venduti. Crea schede didattiche scuola primaria e vendile online. Genera pacchetti di schede matematica per Teachers Pay Teachers.
+Molti insegnanti guadagnano 500-5000 euro mensili vendendo schede gratuite personalizzate. Nessuna attribuzione richiesta sui materiali venduti. Crea schede per bambini e vendile online. Genera pacchetti di stampabili gratuiti per Teachers Pay Teachers.
 
-Vendi raccolte di schede italiano classe prima. Crea prodotti con alfabeto e lettere dell'alfabeto. Combina con disegni da colorare per pacchetti completi. La licenza commerciale vale per vita dell'abbonamento attivo.`,
+Vendi raccolte di scheda gratuita italiano classe prima. Crea prodotti con alfabeto e lettere. Combina con disegni da colorare per pacchetti completi. La licenza commerciale vale per vita dell'abbonamento attivo.`,
         icon: '📜',
         highlighted: false,
       },
       {
         id: '6',
-        title: 'Biblioteca di 3000+ Immagini',
-        description: `Accedi a oltre 3000 immagini adatte ai bambini organizzate per tema. Ogni immagine è ottimizzata per schede didattiche scuola primaria. La biblioteca include grafica per schede italiano classe prima, matematica, scienze e geografia. Immagini vettoriali nitide perfette per la stampa.
+        title: '3000+ Immagini - Stampabili Gratuiti Professionali',
+        description: `Accedi a oltre 3000 immagini per schede gratuite professionali. Ogni immagine è ottimizzata per schede per bambini stampabili. La biblioteca include grafica per scheda gratuita per bambini italiano, matematica, scienze e geografia.
 
-Cerca immagini per parola chiave in tutte le 11 lingue supportate. Temi stagionali aggiornati regolarmente. Sfondi e cornici decorative inclusi. Nessun costo aggiuntivo per accedere all'intera biblioteca. Ogni tema include 20-50 immagini correlate.
+Cerca immagini per parola chiave per i tuoi stampabili gratuiti. Temi stagionali aggiornati regolarmente. Sfondi e cornici decorative inclusi per schede gratuite accattivanti. Ogni tema include 20-50 immagini correlate per schede per bambini.
 
-Animali, cibo, trasporti, natura. Perfetto per la scuola dell'infanzia. La raccolta include immagini per alfabeto completo. Tutte le lettere dell'alfabeto con immagini corrispondenti. Numeri da stampare da 0 a 100.`,
+Animali, cibo, trasporti, natura. Perfetto per scheda gratuita per scuola dell'infanzia. La raccolta include immagini per alfabeto completo nei stampabili gratuiti. Numeri da stampare da 0 a 100.`,
         icon: '🖼️',
         highlighted: false,
       },
       {
         id: '7',
-        title: 'Qualità Professionale 300 DPI',
-        description: `Tutte le schede didattiche si esportano in qualità professionale 300 DPI. Perfetto per stampa domestica e tipografie professionali. Scegli formato JPEG o PDF per download. L'opzione scala di grigi risparmia inchiostro della stampante. Le schede didattiche scuola primaria mantengono nitidezza perfetta su ogni formato carta.
+        title: 'Qualità 300 DPI - Scheda Gratuita per Bambini Alta Risoluzione',
+        description: `Tutte le schede gratuite si esportano in qualità professionale 300 DPI. Perfetto per stampa domestica di stampabili gratuiti. Scegli formato JPEG o PDF per download. L'opzione scala di grigi risparmia inchiostro per schede per bambini economiche.
 
-Stampa su Letter, A4 o formati personalizzati. I file PDF preservano qualità vettoriale per ingrandimenti. Risultati professionali indistinguibili da materiale stampato commercialmente. Scarica sia scheda che soluzioni. La scheda per gli studenti.
+Stampa scheda gratuita per bambini su Letter, A4 o formati personalizzati. I file PDF preservano qualità per stampabili gratuiti nitidi. Risultati professionali indistinguibili da materiale commerciale. Scarica sia schede gratuite che soluzioni.
 
-Le soluzioni per correzione veloce. Perfetto per schede con risposte. Ottimo per verifiche di alfabeto. Ideale per esercizi di pregrafismo con modelli. La qualità 300 DPI garantisce testo nitido e immagini chiare.`,
+Le soluzioni per correzione veloce. Perfetto per schede gratuite con risposte. Ottimo per verifiche di alfabeto. La qualità 300 DPI garantisce scheda gratuita per bambini con testo nitido e immagini chiare.`,
         icon: '✨',
         highlighted: false,
       },
@@ -176,13 +236,13 @@ Le soluzioni per correzione veloce. Perfetto per schede con risposte. Ottimo per
 
   // How-To Guide Section
   howTo: {
-    sectionTitle: 'Come Creare Schede Griglia Abbinamento in 5 Passaggi',
-    sectionDescription: 'Creare schede didattiche griglia abbinamento professionali richiede meno di 3 minuti. Il processo è semplificato in cinque passaggi intuitivi. Nessuna competenza tecnica necessaria. Gli insegnanti della scuola primaria e scuola dell\'infanzia creano materiale didattico personalizzato immediatamente.',
+    sectionTitle: 'Come Creare Schede Gratuite per Bambini - Guida Stampabili Gratuiti',
+    sectionDescription: 'Creare schede gratuite griglia abbinamento professionali richiede meno di 3 minuti. Il processo per stampabili gratuiti è semplificato in cinque passaggi intuitivi. Nessuna competenza tecnica necessaria. Gli insegnanti creano scheda gratuita per bambini personalizzata immediatamente.',
     ctaText: 'Inizia Ora',
     badgeText: 'Guida Passo-Passo',
     stepLabel: 'Passo',
-    completionTitle: 'Scheda Pronta!',
-    completionSubtitle: 'La tua scheda didattica è pronta per il download',
+    completionTitle: 'Scheda Gratuita Pronta!',
+    completionSubtitle: 'La tua scheda gratuita per bambini è pronta per il download',
     readyTime: 'Pronta in meno di 3 minuti',
     noSkillsNeeded: 'Nessuna competenza di design richiesta',
     readMoreLabel: 'Leggi di più',
@@ -191,56 +251,56 @@ Le soluzioni per correzione veloce. Perfetto per schede con risposte. Ottimo per
       {
         id: '1',
         number: 1,
-        title: 'Scegli Contenuto per le Schede',
-        description: `Il primo passaggio è selezionare il contenuto per le tue schede didattiche scuola primaria. Apri il menu Biblioteca Immagini nella barra laterale. Scegli un tema dalla lista a discesa. Temi popolari includono animali, alfabeto, numeri da stampare, frutta, veicoli e stagioni. Ogni tema contiene immagini curate per età e livello.
+        title: 'Scegli Contenuto - Schede Gratuite Tematiche',
+        description: `Il primo passaggio è selezionare il contenuto per le tue schede gratuite. Apri il menu Biblioteca Immagini nella barra laterale. Scegli un tema dalla lista a discesa per scheda gratuita per bambini. Temi popolari includono animali, alfabeto, numeri da stampare, frutta, veicoli e stagioni per stampabili gratuiti.
 
-Per schede italiano classe prima, seleziona temi con lettere dell'alfabeto chiare. Per schede matematica, scegli temi numerici con quantità visibili. Usa la funzione ricerca per trovare immagini specifiche. Digita parole chiave come "mela", "gatto" o "numero cinque".
+Per schede gratuite italiano classe prima, seleziona temi con lettere dell'alfabeto chiare. Per schede per bambini matematica, scegli temi numerici con quantità visibili. Usa la funzione ricerca per trovare immagini specifiche nei tuoi stampabili gratuiti.
 
-Il sistema cerca in tutta la biblioteca di 3000+ immagini. I risultati appaiono immediatamente sotto la barra di ricerca. Clicca su un'immagine per selezionarla. Carica immagini personalizzate se preferisci contenuto specifico.`,
+Il sistema cerca in tutta la biblioteca di 3000+ immagini. I risultati appaiono immediatamente per la tua scheda gratuita. Clicca su un'immagine per selezionarla nelle schede gratuite per bambini.`,
         icon: '🖼️',
       },
       {
         id: '2',
         number: 2,
-        title: 'Personalizza Impostazioni Griglia',
-        description: `Configura le dimensioni della griglia nel menu Opzioni Griglia. Scegli tra 2×2, 3×3 o 4×4 celle. Griglie più piccole (2×2) funzionano meglio per scuola dell'infanzia e pregrafismo iniziale. Griglie medie (3×3) sono ideali per classe prima scuola primaria. Griglie grandi (4×4) sfidano studenti di classe seconda e terza.
+        title: 'Personalizza Griglia - Stampabili Gratuiti Configurabili',
+        description: `Configura le dimensioni della griglia per le tue schede gratuite. Scegli tra 2×2, 3×3 o 4×4 celle. Griglie più piccole funzionano meglio per scheda gratuita per scuola dell'infanzia. Griglie medie sono ideali per schede per bambini classe prima scuola primaria.
 
-Modifica righe e colonne indipendentemente per layout personalizzati. Imposta il numero di celle indizio da 1 a 5. Le celle indizio mostrano piccole versioni delle immagini che i bambini devono abbinare. Più celle indizio creano esercizi più complessi.
+Modifica righe e colonne indipendentemente per stampabili gratuiti personalizzati. Imposta il numero di celle indizio da 1 a 5 nelle tue schede gratuite. Le celle indizio mostrano piccole versioni delle immagini per scheda gratuita per bambini.
 
-Per schede didattiche scuola dell'infanzia, usa 1-2 celle indizio. Per schede didattiche scuola primaria avanzate, usa 3-5 celle indizio. Configura formato pagina nel menu Impostazioni Pagina. Scegli Letter Portrait, Letter Landscape, A4 Portrait o A4 Landscape.`,
+Per schede gratuite scuola dell'infanzia, usa 1-2 celle indizio. Per stampabili gratuiti avanzati, usa 3-5 celle indizio. Configura formato pagina per schede per bambini.`,
         icon: '⚙️',
       },
       {
         id: '3',
         number: 3,
-        title: 'Genera la Scheda Didattica',
-        description: `Clicca il pulsante Crea per generare la tua scheda didattica. Il sistema crea automaticamente la griglia abbinamento in secondi. L'anteprima appare nella scheda Foglio di Lavoro. La griglia mostra l'immagine selezionata ripetuta in celle casuali. Le celle indizio appaiono in posizione separata.
+        title: 'Genera Scheda Gratuita per Bambini Istantanea',
+        description: `Clicca il pulsante Crea per generare la tua scheda gratuita. Il sistema crea automaticamente stampabili gratuiti in secondi. L'anteprima delle schede gratuite appare nella scheda Foglio di Lavoro. La griglia mostra l'immagine per scheda per bambini ripetuta in celle casuali.
 
-Gli studenti abbineranno le celle indizio alle immagini corrispondenti nella griglia. Il generatore applica automaticamente spaziatura uniforme tra celle. Ogni cella ha dimensioni identiche per layout professionale. I bordi della griglia sono nitidi e chiari.
+Gli studenti abbineranno le celle indizio nelle schede gratuite. Il generatore applica automaticamente spaziatura uniforme. Ogni scheda gratuita per bambini ha layout professionale con bordi nitidi.
 
-Le immagini sono centrate perfettamente in ogni cella. Nessun aggiustamento manuale necessario per layout base. Genera una chiave delle risposte cliccando Chiave delle Risposte nel menu. La chiave mostra la soluzione corretta dell'esercizio.`,
+Le immagini sono centrate perfettamente in ogni cella dei stampabili gratuiti. Genera una chiave delle risposte per le tue schede gratuite cliccando nel menu.`,
         icon: '✨',
       },
       {
         id: '4',
         number: 4,
-        title: 'Modifica sulla Tela',
-        description: `Personalizza ogni elemento direttamente sulla tela di modifica. Clicca qualsiasi immagine per selezionarla. Maniglie di ridimensionamento appaiono agli angoli. Trascina per ingrandire o rimpicciolire. Ruota usando il controllo circolare sopra l'immagine. Sposta trascinando l'immagine nella nuova posizione.
+        title: 'Modifica Schede Gratuite - Personalizzazione Completa',
+        description: `Personalizza ogni elemento delle tue schede gratuite sulla tela. Clicca qualsiasi immagine nella scheda gratuita per bambini per selezionarla. Maniglie di ridimensionamento appaiono per stampabili gratuiti. Ruota e sposta elementi nelle schede per bambini.
 
-Ogni modifica è fluida e immediata. Aggiungi testo personalizzato aprendo il menu Strumenti Testo. Scrivi contenuto nella casella di input. Clicca Aggiungi Testo al Foglio di Lavoro. Il testo appare al centro della tela. Trascinalo dove necessario.
+Aggiungi testo personalizzato alle tue schede gratuite. Scrivi contenuto per scheda gratuita per bambini. Il testo appare al centro della tela nei stampabili gratuiti. Trascinalo dove necessario.
 
-Perfetto per aggiungere titoli, istruzioni o domande personalizzate. Le schede italiano classe prima beneficiano di istruzioni chiare in italiano. Modifica proprietà testo selezionandolo sulla tela. Cambia colore, dimensione font e stile.`,
+Perfetto per aggiungere istruzioni alle schede gratuite. Le schede per bambini beneficiano di istruzioni chiare. Modifica proprietà testo per scheda gratuita personalizzata.`,
         icon: '✏️',
       },
       {
         id: '5',
         number: 5,
-        title: 'Scarica e Stampa',
-        description: `Esporta schede didattiche cliccando il menu Download. Quattro opzioni di esportazione disponibili. Scarica Foglio di Lavoro in formato JPEG per condivisione digitale. Scarica Foglio di Lavoro in formato PDF per stampa professionale. Scarica Chiave delle Risposte in JPEG o PDF separatamente.
+        title: 'Scarica Scheda Gratuita PDF per Stampare',
+        description: `Esporta schede gratuite cliccando il menu Download. Quattro opzioni per stampabili gratuiti disponibili. Scarica scheda gratuita per bambini in JPEG per condivisione digitale. Scarica schede gratuite in PDF per stampa professionale.
 
-Ogni formato mantiene qualità 300 DPI completa. Attiva opzione Scala di Grigi prima dell'esportazione per risparmiare inchiostro. Il sistema converte automaticamente tutti i colori in tonalità grigie. Perfetto per stampa economica di schede pregrafismo.
+Ogni formato mantiene qualità 300 DPI per schede per bambini nitide. Attiva scala di grigi per stampabili gratuiti economici. Il sistema converte automaticamente colori per scheda gratuita.
 
-Stampa schede didattiche scuola primaria su qualsiasi stampante domestica. Il formato PDF mantiene dimensioni esatte della pagina. Nessun ridimensionamento necessario. La qualità 300 DPI garantisce testo nitido e immagini chiare.`,
+Stampa schede gratuite su qualsiasi stampante domestica. Il formato PDF mantiene dimensioni esatte per scheda gratuita per bambini. La qualità 300 DPI garantisce stampabili gratuiti perfetti.`,
         icon: '📥',
       },
     ],
@@ -248,94 +308,94 @@ Stampa schede didattiche scuola primaria su qualsiasi stampante domestica. Il fo
 
   // Use Cases Section
   useCases: {
-    sectionTitle: 'Perfetto per Insegnanti, Genitori ed Educatori',
-    sectionDescription: 'Le schede didattiche griglia abbinamento servono diversi tipi di educatori e contesti didattici. Insegnanti della scuola primaria utilizzano queste schede per sviluppare abilità cognitive essenziali. Educatori della scuola dell\'infanzia integrano griglie abbinamento in attività pregrafismo. Genitori homeschooler creano curriculum personalizzati con schede matematica.',
-    badgeText: 'Chi Usa le Nostre Schede',
+    sectionTitle: 'Schede Gratuite per Insegnanti, Genitori ed Educatori',
+    sectionDescription: 'Le schede gratuite griglia abbinamento servono diversi tipi di educatori. Insegnanti utilizzano queste schede per bambini per sviluppare abilità cognitive. Educatori creano stampabili gratuiti per attività pregrafismo. Genitori scaricano scheda gratuita per bambini per curriculum personalizzati.',
+    badgeText: 'Chi Usa le Schede Gratuite',
     readMoreLabel: 'Leggi di più',
     showLessLabel: 'Mostra meno',
     items: [
       {
         id: '1',
         icon: '👶',
-        title: 'Insegnanti della Scuola dell\'Infanzia',
-        subtitle: 'Pregrafismo, Sviluppo Cognitivo e Riconoscimento Visivo',
-        description: `Gli insegnanti della scuola dell'infanzia utilizzano schede griglia abbinamento per sviluppare abilità di corrispondenza visiva. I bambini dai 3 ai 6 anni imparano a riconoscere pattern e abbinare immagini identiche. Le schede pregrafismo preparano alla scrittura sviluppando coordinazione occhio-mano. Le griglie 2×2 semplici funzionano perfettamente per bambini di 3-4 anni.
+        title: 'Insegnanti Scuola dell\'Infanzia - Schede Gratuite Pregrafismo',
+        subtitle: 'Stampabili Gratuiti per Sviluppo Cognitivo e Riconoscimento Visivo',
+        description: `Gli insegnanti della scuola dell'infanzia utilizzano schede gratuite griglia abbinamento per sviluppare abilità di corrispondenza visiva. I bambini dai 3 ai 6 anni imparano con scheda gratuita per bambini a riconoscere pattern. Le schede per bambini pregrafismo preparano alla scrittura. Le griglie 2×2 nei stampabili gratuiti funzionano per bambini di 3-4 anni.
 
-Gli educatori combinano griglie abbinamento con disegni da colorare per attività multisensoriali. I bambini prima abbinano le immagini, poi colorano le celle corrispondenti. Questo rinforza riconoscimento visivo attraverso attività motoria fine. Le schede con temi familiari come animali domestici, frutta e giocattoli coinvolgono maggiormente i bambini piccoli.
+Gli educatori combinano schede gratuite con disegni da colorare. I bambini prima abbinano le immagini nella scheda gratuita per bambini, poi colorano. Questo rinforza riconoscimento visivo nei stampabili gratuiti. Le schede per bambini con temi familiari coinvolgono maggiormente.
 
-La funzione upload immagini personalizzate permette di creare schede con foto dei bambini stessi. Riconoscere compagni di classe in griglie abbinamento aumenta coinvolgimento e autostima. Il risultato è materiale perfettamente allineato al programma Indicazioni Nazionali per la scuola dell'infanzia.`,
-        quote: 'I bambini adorano completare le griglie con le immagini!',
+La funzione upload permette di creare schede gratuite con foto dei bambini. Riconoscere compagni aumenta coinvolgimento con scheda gratuita. Materiale perfettamente allineato al programma con stampabili gratuiti.`,
+        quote: 'I bambini adorano completare le schede gratuite con le immagini!',
       },
       {
         id: '2',
         icon: '👩‍🏫',
-        title: 'Insegnanti Scuola Primaria',
-        subtitle: 'Schede Italiano, Matematica e Apprendimento Interdisciplinare',
-        description: `Gli insegnanti della scuola primaria utilizzano griglie abbinamento per classe prima, seconda e terza. Le schede didattiche scuola primaria supportano insegnamento di italiano, matematica, scienze e geografia. Per classe prima, le griglie abbinano lettere dell'alfabeto maiuscole con minuscole. Le schede italiano classe prima includono esercizi di riconoscimento sillabico con immagini corrispondenti.
+        title: 'Insegnanti Scuola Primaria - Scheda Gratuita per Bambini',
+        subtitle: 'Schede Gratuite Italiano, Matematica e Apprendimento',
+        description: `Gli insegnanti della scuola primaria utilizzano schede gratuite per classe prima, seconda e terza. Le scheda gratuita per bambini supportano italiano, matematica, scienze. Per classe prima, i stampabili gratuiti abbinano lettere maiuscole con minuscole. Le schede per bambini includono riconoscimento sillabico.
 
-In classe seconda, le griglie diventano più complesse con 3×3 o 4×4 celle. Gli studenti abbinano immagini a parole scritte, sviluppando competenze di lettura. Le schede supportano programma di italiano con vocabolario tematico organizzato per unità didattiche. Temi come stagioni, corpo umano, mestieri e mezzi di trasporto allineano con curriculum nazionale.
+In classe seconda, le schede gratuite diventano più complesse. Gli studenti abbinano immagini a parole con scheda gratuita per bambini. I stampabili gratuiti supportano vocabolario tematico. Temi come stagioni, corpo umano nelle schede per bambini.
 
-Per classe terza, le griglie abbinamento supportano apprendimento interdisciplinare. Abbinare immagini storiche a periodi temporali insegna storia visivamente. La versatilità delle griglie abbinamento le rende strumento didattico prezioso per tutte le discipline.`,
-        quote: 'Le schede aiutano tutti i livelli della classe.',
+Per classe terza, le schede gratuite supportano apprendimento interdisciplinare. Scheda gratuita per bambini abbina immagini storiche a periodi. La versatilità dei stampabili gratuiti le rende strumento prezioso.`,
+        quote: 'Le schede gratuite aiutano tutti i livelli della classe.',
       },
       {
         id: '3',
         icon: '🏠',
-        title: 'Genitori Homeschool',
-        subtitle: 'Schede Matematica con Tabelline e Numeri',
-        description: `I genitori homeschool apprezzano la flessibilità di creare materiale didattico personalizzato. Le schede matematica con griglie abbinamento insegnano concetti numerici visivamente. I bambini abbinano numeri da stampare a quantità rappresentate con oggetti. Questo consolida comprensione della corrispondenza numero-quantità essenziale per matematica elementare.
+        title: 'Genitori Homeschool - Stampabili Gratuiti Matematica',
+        subtitle: 'Schede Gratuite con Tabelline e Numeri per Bambini',
+        description: `I genitori homeschool apprezzano schede gratuite personalizzabili. Le scheda gratuita per bambini matematica insegnano concetti numerici. I bambini abbinano numeri a quantità nei stampabili gratuiti. Questo consolida comprensione nelle schede per bambini essenziale per matematica.
 
-Le griglie abbinamento supportano memorizzazione delle tabelline attraverso pratica ripetuta. Creare griglie che abbinano moltiplicazioni a risultati rinforza fatti matematici. Ad esempio, abbinare "3×4" all'immagine con 12 oggetti. I genitori generano set multipli di schede matematica con difficoltà crescente.
+Le schede gratuite supportano memorizzazione tabelline. Creare scheda gratuita per bambini che abbina moltiplicazioni rinforza fatti. I stampabili gratuiti con difficoltà crescente. Genitori generano set multipli di schede per bambini.
 
-L'homeschooling multi-età beneficia particolarmente dalla personalizzazione. Genitori creano schede matematica base per bambino di 6 anni e tabelline avanzate per bambino di 9 anni usando lo stesso strumento. Il risparmio di tempo è significativo rispetto a cercare risorse separate per ogni livello.`,
-        quote: 'Creo schede su misura per ogni figlio.',
+L'homeschooling multi-età beneficia dalle schede gratuite personalizzabili. Genitori creano scheda gratuita per bambini base e stampabili gratuiti avanzati usando stesso strumento.`,
+        quote: 'Creo schede gratuite su misura per ogni figlio.',
       },
       {
         id: '4',
         icon: '🌍',
-        title: 'Insegnanti Lingue Straniere',
-        subtitle: 'Alfabeto e Vocabolario in 11 Lingue',
-        description: `Gli insegnanti di lingue straniere utilizzano griglie abbinamento per insegnare alfabeto e vocabolario. Il supporto multilingue in 11 lingue permette di creare schede in lingua target direttamente. Gli studenti abbinano lettere dell'alfabeto maiuscole a minuscole in inglese, francese, tedesco o spagnolo.
+        title: 'Insegnanti Lingue - Schede Gratuite Multilingue',
+        subtitle: 'Scheda Gratuita per Bambini Alfabeto in 11 Lingue',
+        description: `Gli insegnanti di lingue utilizzano schede gratuite per insegnare alfabeto e vocabolario. Il supporto multilingue permette scheda gratuita per bambini in lingua target. I stampabili gratuiti abbinano lettere maiuscole a minuscole. Schede per bambini disponibili in inglese, francese, tedesco.
 
-Per vocabolario, le griglie abbinano parole straniere a immagini corrispondenti. Gli studenti di inglese abbinano "apple" all'immagine della mela. Questo metodo di apprendimento visivo funziona meglio di liste di parole astratte. La ripetizione attraverso griglie multiple con stesso vocabolario consolida memorizzazione a lungo termine.
+Per vocabolario, le schede gratuite abbinano parole a immagini. Scheda gratuita per bambini abbina "apple" alla mela. Questo metodo nei stampabili gratuiti funziona meglio di liste astratte. Schede per bambini con vocabolario consolidano memorizzazione.
 
-Le scuole internazionali e programmi bilingue creano materiale in più lingue simultaneamente. Un insegnante genera la stessa griglia in italiano e inglese per studenti bilingui. Questa capacità di cambiare lingua interfaccia separatamente da lingua contenuto è particolarmente preziosa.`,
-        quote: 'Perfetto per insegnare vocabolario visivamente.',
+Scuole internazionali creano schede gratuite in più lingue. Insegnante genera scheda gratuita per bambini in italiano e inglese. Stampabili gratuiti per studenti bilingui.`,
+        quote: 'Schede gratuite perfette per insegnare vocabolario visivamente.',
       },
       {
         id: '5',
         icon: '💚',
-        title: 'Insegnanti di Sostegno',
-        subtitle: 'Schede Differenziate per Bisogni Speciali',
-        description: `Gli insegnanti di sostegno personalizzano schede didattiche per studenti con bisogni educativi speciali. La modifica completa su tela permette di ingrandire immagini per ipovedenti. Font extra-large per testo migliora leggibilità per studenti con dislessia. I disegni da colorare integrati forniscono attività calmante per studenti con ADHD dopo completamento esercizio.
+        title: 'Insegnanti Sostegno - Scheda Gratuita Differenziata',
+        subtitle: 'Stampabili Gratuiti per Bisogni Speciali',
+        description: `Gli insegnanti di sostegno personalizzano schede gratuite per studenti con bisogni speciali. Scheda gratuita per bambini permette di ingrandire immagini per ipovedenti. I stampabili gratuiti con font extra-large per dislessia. Schede per bambini con disegni da colorare per ADHD.
 
-La flessibilità di difficoltà è essenziale per differenziazione. Studenti con disabilità cognitive lavorano su griglie 2×2 semplici. Studenti dotati della stessa classe affrontano griglie 4×4 complesse. L'insegnante genera entrambe le versioni in minuti dallo stesso strumento.
+La flessibilità delle schede gratuite è essenziale. Studenti con disabilità cognitive usano scheda gratuita per bambini 2×2 semplici. Stampabili gratuiti 4×4 per studenti dotati. Schede per bambini generate in minuti.
 
-L'upload di immagini personalizzate permette di creare materiale con interessi specifici dello studente. Un bambino appassionato di dinosauri impara meglio con griglie contenenti solo dinosauri. Questa personalizzazione aumenta motivazione e coinvolgimento drammaticamente.`,
-        quote: 'Finalmente materiali che posso adattare completamente.',
+Upload immagini permette schede gratuite con interessi specifici. Scheda gratuita per bambini con dinosauri per chi li ama. Stampabili gratuiti personalizzati aumentano motivazione.`,
+        quote: 'Finalmente schede gratuite che posso adattare completamente.',
       },
       {
         id: '6',
         icon: '💼',
-        title: 'Imprenditori Educativi',
-        subtitle: 'Vendi su Teachers Pay Teachers ed Etsy',
-        description: `I teacher entrepreneurs utilizzano il generatore per creare prodotti digitali vendibili. La licenza commerciale Accesso Completo permette di vendere schede create su Teachers Pay Teachers, Etsy e Amazon KDP. Molti insegnanti guadagnano reddito extra vendendo pacchetti tematici di schede didattiche.
+        title: 'Imprenditori Educativi - Vendi Stampabili Gratuiti',
+        subtitle: 'Schede Gratuite per Teachers Pay Teachers ed Etsy',
+        description: `I teacher entrepreneurs utilizzano schede gratuite per prodotti vendibili. La licenza permette vendere scheda gratuita per bambini su Teachers Pay Teachers. I stampabili gratuiti vendono bene su Etsy e Amazon KDP. Molti guadagnano vendendo schede per bambini.
 
-La qualità professionale 300 DPI è essenziale per vendite commerciali. Gli acquirenti si aspettano materiale stampabile nitido indistinguibile da prodotti editoriali. Il generatore produce esattamente questa qualità senza competenze design grafico. Teacher entrepreneurs senza background artistico creano prodotti visivamente attraenti.
+La qualità professionale delle schede gratuite è essenziale per vendite. Acquirenti si aspettano scheda gratuita per bambini stampabile nitida. I stampabili gratuiti hanno qualità editoriale. Schede per bambini senza background artistico.
 
-Il processo di creazione rapido permette di costruire catalogo prodotti velocemente. Un teacher entrepreneur genera 50 schede didattiche diverse in un pomeriggio. Con prezzi medi di 3-5 euro per pacchetto, vendere 100 copie mensili genera 300-500 euro reddito passivo.`,
-        quote: 'Ho guadagnato più di 2000 euro il primo anno.',
+Processo rapido per schede gratuite permette catalogo veloce. Scheda gratuita per bambini generate in un pomeriggio. Stampabili gratuiti con prezzi medi di 3-5 euro generano reddito.`,
+        quote: 'Ho guadagnato più di 2000 euro con schede gratuite il primo anno.',
       },
     ],
   },
 
   // FAQ Section
   faq: {
-    sectionTitle: 'Domande Frequenti sulle Schede Griglia Abbinamento',
-    sectionDescription: 'Risposte alle domande più comuni sul nostro generatore di schede didattiche griglia abbinamento',
+    sectionTitle: 'Domande Frequenti sulle Schede Gratuite Griglia Abbinamento',
+    sectionDescription: 'Risposte alle domande più comuni su scheda gratuita per bambini e stampabili gratuiti del nostro generatore',
     showMoreText: 'Mostra altre domande',
     showLessText: 'Mostra meno domande',
-    badgeText: 'FAQ',
+    badgeText: 'FAQ Schede Gratuite',
     readMoreLabel: 'Leggi di più',
     showLessLabel: 'Mostra meno',
     secureCheckout: 'Pagamento sicuro',
@@ -343,87 +403,87 @@ Il processo di creazione rapido permette di costruire catalogo prodotti veloceme
     items: [
       {
         id: '1',
-        question: 'Questo Generatore di Schede Didattiche è Gratuito?',
-        answer: `Il generatore di schede didattiche richiede abbonamento Accesso Completo che costa 240 euro annui o 25 euro mensili. L'abbonamento ti permette creazione illimitata di schede didattiche scuola primaria senza costi per singola scheda. Genera tutte le schede pregrafismo, schede matematica e schede italiano classe prima che necessiti senza addebiti aggiuntivi.
+        question: 'Le Schede Gratuite Griglia Abbinamento Sono Davvero Gratuite?',
+        answer: `Le schede gratuite campione sono scaricabili senza costo. Per creazione illimitata di scheda gratuita per bambini personalizzate, l'abbonamento Accesso Completo costa 240 euro annui o 25 euro mensili. Genera tutti i stampabili gratuiti che necessiti senza costi per singola scheda.
 
-L'abbonamento Accesso Completo include accesso a tutti i 33 generatori di schede didattiche. Questo significa che oltre alle griglie abbinamento, accedi a generatori per tabelline, alfabeto, numeri da stampare e molto altro. Il costo di 240 euro annui si divide tra tutti questi strumenti.`,
+L'abbonamento include accesso a tutti i 33 generatori di schede per bambini. Oltre alle schede gratuite griglia abbinamento, accedi a generatori per tabelline, alfabeto, numeri. Il costo si divide tra tutti questi strumenti per scheda gratuita per bambini.`,
       },
       {
         id: '2',
-        question: 'Posso Stampare Schede Pregrafismo a Casa su Stampante Normale?',
-        answer: `Le schede pregrafismo stampano perfettamente su qualsiasi stampante domestica standard. Il formato PDF mantiene dimensioni esatte della pagina per stampa senza ridimensionamento. La qualità 300 DPI garantisce testo nitido e linee chiare essenziali per pregrafismo. Le griglie stampano con bordi precisi che i bambini vedono chiaramente.
+        question: 'Posso Stampare Schede Gratuite Pregrafismo a Casa?',
+        answer: `Le schede gratuite stampano perfettamente su qualsiasi stampante domestica. La scheda gratuita per bambini mantiene dimensioni esatte per stampa senza ridimensionamento. I stampabili gratuiti a 300 DPI garantiscono linee chiare per pregrafismo. Le schede per bambini stampano con bordi precisi.
 
-Per risparmiare inchiostro, attiva opzione scala di grigi prima dell'esportazione. Le schede convertono automaticamente in tonalità grigie perfette. La qualità rimane identica ma il costo per pagina diminuisce drasticamente. Una cartuccia inchiostro nero standard stampa 200-300 schede pregrafismo prima di esaurirsi.`,
+Per risparmiare inchiostro sulle schede gratuite, attiva scala di grigi. La scheda gratuita per bambini converte in tonalità grigie. I stampabili gratuiti costano meno per pagina. Schede per bambini stampabili prima di esaurire cartuccia.`,
       },
       {
         id: '3',
-        question: 'Servono Competenze di Design Grafico?',
-        answer: `Non servono competenze design grafico per creare schede matematica e griglie professionali. Il generatore automatizza completamente il layout e la formattazione. Selezioni immagini dalla biblioteca, configuri dimensioni griglia e clicchi genera. Il sistema crea automaticamente schede con spaziatura perfetta e allineamento professionale.
+        question: 'Servono Competenze per Creare Schede Gratuite?',
+        answer: `Non servono competenze per creare schede gratuite professionali. La scheda gratuita per bambini si crea automaticamente. I stampabili gratuiti hanno layout perfetto automatico. Selezioni immagini, configuri griglia, clicchi genera per schede per bambini.
 
-La curva di apprendimento è praticamente inesistente. La prima scheda richiede 5-10 minuti esplorando le funzionalità. Dalla seconda scheda in poi, il processo richiede meno di 3 minuti. Insegnanti che non hanno mai usato software grafico creano pacchetti completi il primo giorno.`,
+La curva di apprendimento per schede gratuite è inesistente. La prima scheda gratuita per bambini richiede 5-10 minuti. Dalla seconda, stampabili gratuiti in meno di 3 minuti. Insegnanti creano schede per bambini il primo giorno.`,
       },
       {
         id: '4',
-        question: 'Posso Usare le Schede in Classe con gli Studenti?',
-        answer: `L'abbonamento Accesso Completo include uso illimitato in classe con i tuoi studenti. Stampa tutte le schede didattiche scuola dell'infanzia che necessiti per attività quotidiane. Distribuisci schede alfabeto e lettere dell'alfabeto a ogni bambino della classe. Nessun limite sul numero di copie o studenti che utilizzano il materiale.
+        question: 'Posso Usare Schede Gratuite in Classe con Studenti?',
+        answer: `L'abbonamento include uso illimitato delle schede gratuite in classe. Stampa tutte le scheda gratuita per bambini che necessiti. Distribuisci stampabili gratuiti a ogni bambino. Nessun limite per schede per bambini o studenti.
 
-La licenza copre uso educativo personale completo. Questo include distribuzione a studenti, uso in centri di apprendimento, compiti a casa e attività extra. Condividi le schede con colleghi della tua scuola. Crea pacchetti di schede didattiche per genitori da usare a casa con i bambini.`,
+La licenza copre uso educativo completo delle schede gratuite. Questo include distribuzione, centri di apprendimento, compiti. Condividi scheda gratuita per bambini con colleghi. I stampabili gratuiti anche per genitori.`,
       },
       {
         id: '5',
-        question: 'Quali Lingue Sono Disponibili?',
-        answer: `Le schede didattiche sono disponibili in 11 lingue. Le lingue supportate includono italiano, inglese, tedesco, francese, spagnolo, portoghese brasiliano, olandese, danese, svedese, norvegese e finlandese. Cambi lingua interfaccia e lingua contenuto indipendentemente con un clic.
+        question: 'In Quali Lingue Sono Disponibili le Schede Gratuite?',
+        answer: `Le schede gratuite sono disponibili in 11 lingue. Scheda gratuita per bambini in italiano, inglese, tedesco, francese, spagnolo, portoghese, olandese, danese, svedese, norvegese, finlandese. Cambi lingua per stampabili gratuiti con un clic.
 
-Per schede italiano classe prima, selezioni italiano come lingua contenuto. La biblioteca immagini mostra vocabolario italiano con nomi file italiani. Le lettere dell'alfabeto includono caratteri speciali se necessari. Il sistema riconosce automaticamente requisiti linguistici e adatta contenuto appropriatamente.`,
+Per schede per bambini italiano, selezioni italiano come lingua. La biblioteca mostra vocabolario italiano. Le schede gratuite includono caratteri speciali. Scheda gratuita per bambini adatta contenuto automaticamente.`,
       },
       {
         id: '6',
-        question: 'Posso Vendere le Schede Didattiche Che Creo?',
-        answer: `L'abbonamento Accesso Completo include licenza commerciale print-on-demand completa senza costi aggiuntivi. Vendi schede didattiche su Teachers Pay Teachers, Etsy e Amazon KDP liberamente. Nessuna attribuzione richiesta e nessuna percentuale su vendite. La licenza commerciale vale per vita dell'abbonamento attivo.
+        question: 'Posso Vendere le Schede Gratuite Che Creo?',
+        answer: `L'abbonamento include licenza commerciale per schede gratuite. Vendi scheda gratuita per bambini su Teachers Pay Teachers, Etsy, Amazon KDP. Nessuna attribuzione richiesta sui stampabili gratuiti venduti. Le schede per bambini commerciali senza percentuale.
 
-La qualità 300 DPI è perfetta per vendite commerciali professionali. Gli acquirenti si aspettano materiale stampabile nitido comparabile a prodotti editoriali. I requisiti per vendita sono minimi. Crea le schede, esportale come PDF, caricale su piattaforma vendita.`,
+La qualità delle schede gratuite è perfetta per vendite. Acquirenti si aspettano scheda gratuita per bambini nitida. I stampabili gratuiti sono professionali. Requisiti minimi per vendere schede per bambini.`,
       },
       {
         id: '7',
-        question: 'Come Personalizzo le Schede per Studenti Specifici?',
-        answer: `Personalizza schede modificando ogni elemento direttamente su tela. Clicca qualsiasi immagine per selezionarla e ridimensionarla. Trascina celle griglia per riposizionarle. Aggiungi testo personalizzato con nome studente o istruzioni specifiche. Cambia colori per evidenziare elementi particolari.
+        question: 'Come Personalizzo le Schede Gratuite per Studenti?',
+        answer: `Personalizza schede gratuite modificando ogni elemento. Clicca immagini nella scheda gratuita per bambini per ridimensionare. Trascina celle nei stampabili gratuiti. Aggiungi testo personalizzato alle schede per bambini.
 
-La flessibilità completa permette differenziazione perfetta all'interno stessa classe. Ogni studente riceve materiale appropriato al suo livello. La funzione upload immagini permette personalizzazione basata su interessi specifici dello studente.`,
+La flessibilità delle schede gratuite permette differenziazione. Ogni studente riceve scheda gratuita per bambini appropriata. I stampabili gratuiti con interessi specifici. Upload immagini per schede per bambini personalizzate.`,
       },
       {
         id: '8',
-        question: 'Quali Fasce d\'Età Funzionano Meglio con Queste Schede?',
-        answer: `Le schede griglia abbinamento funzionano perfettamente per bambini dai 3 ai 10 anni. Bambini di 3-4 anni utilizzano griglie 2×2 semplici con immagini grandi. Bambini di 4-5 anni affrontano griglie 3×3 medie. Bambini di 5-6 anni pronti per scuola primaria completano griglie 4×4 complesse.
+        question: 'Quali Età Funzionano con le Schede Gratuite?',
+        answer: `Le schede gratuite funzionano per bambini dai 3 ai 10 anni. Scheda gratuita per bambini 3-4 anni usa griglie 2×2. I stampabili gratuiti 3×3 per 4-5 anni. Schede per bambini 4×4 per 5-6 anni.
 
-Per scuola primaria, le griglie abbinamento supportano studenti fino a classe terza. La difficoltà si regola facilmente modificando dimensione griglia e numero celle indizio. Stessa attività base adatta da scuola dell'infanzia a classe terza semplicemente cambiando configurazione.`,
+Per scuola primaria, schede gratuite fino a classe terza. Scheda gratuita per bambini con difficoltà regolabile. I stampabili gratuiti stessa attività per tutte le età. Schede per bambini semplicemente cambiando configurazione.`,
       },
       {
         id: '9',
-        question: 'Posso Caricare le Mie Immagini Personalizzate?',
-        answer: `Carichi immagini personalizzate in formato JPEG, PNG o GIF. Il sistema supporta caricamento multiplo fino a 50 file contemporaneamente. Trascini e rilasci file direttamente nell'interfaccia. Le immagini appaiono immediatamente nella galleria immagini caricate pronte per uso.
+        question: 'Posso Caricare Immagini per le Schede Gratuite?',
+        answer: `Carichi immagini personalizzate per schede gratuite in JPEG, PNG o GIF. Scheda gratuita per bambini con fino a 50 file. I stampabili gratuiti accettano drag and drop. Le schede per bambini mostrano immagini immediatamente.
 
-Le immagini caricate restano disponibili per tutti progetti futuri. Non devi ricaricarle ogni volta. Costruisci biblioteca personale di contenuto personalizzato nel tempo. Questa galleria privata complementa biblioteca condivisa di 3000+ immagini.`,
+Le immagini restano disponibili per future schede gratuite. Costruisci biblioteca per scheda gratuita per bambini. I stampabili gratuiti con contenuto personalizzato. Schede per bambini complementano 3000+ immagini.`,
       },
       {
         id: '10',
-        question: 'Quanto Tempo Serve per Creare una Scheda Completa?',
-        answer: `Creare schede didattiche complete richiede meno di 3 minuti dall'inizio al download. Selezioni tema dalla biblioteca. Configuri griglia 3×3 o 4×4. Clicchi genera. La scheda appare istantaneamente. Modifichi eventualmente alcuni elementi. Esporti come PDF. Totale 2-3 minuti per scheda professionale completa.
+        question: 'Quanto Tempo per Creare Schede Gratuite Complete?',
+        answer: `Creare schede gratuite richiede meno di 3 minuti. Scheda gratuita per bambini: seleziona tema, configura griglia, genera. I stampabili gratuiti appaiono istantaneamente. Modifica schede per bambini ed esporta PDF in 2-3 minuti.
 
-Per pacchetto di 10 schede diverse, il tempo totale è circa 20-30 minuti. Questo include generazione di tutte le variazioni, revisione qualità e esportazione file. La velocità aumenta con pratica. Dopo prime 5-10 schede, il processo diventa automatico.`,
+Per pacchetto di 10 schede gratuite, circa 20-30 minuti. Scheda gratuita per bambini con revisione e esportazione. I stampabili gratuiti più veloci con pratica. Schede per bambini processo automatico.`,
       },
       {
         id: '11',
-        question: 'Le Schede Includono le Chiavi delle Risposte?',
-        answer: `Le schede didattiche includono generazione automatica chiave delle risposte. Dopo aver creato foglio di lavoro, clicchi "Genera Chiave delle Risposte" nel menu. Il sistema crea automaticamente versione con soluzioni corrette evidenziate. La chiave esporta separatamente dal foglio di lavoro principale.
+        question: 'Le Schede Gratuite Includono Chiavi delle Risposte?',
+        answer: `Le schede gratuite includono chiave risposte automatica. Dopo scheda gratuita per bambini, clicca "Genera Chiave". I stampabili gratuiti creano versione con soluzioni. Le schede per bambini esportano chiave separatamente.
 
-Gli insegnanti usano queste chiavi per correzione rapida. Gli studenti utilizzano chiavi per autovalutazione e apprendimento indipendente. Le chiavi risparmiano tempo significativo rispetto a correzione manuale. La chiave mantiene formattazione identica al foglio di lavoro originale.`,
+Insegnanti usano chiavi per correzione delle schede gratuite. Studenti usano per autovalutazione della scheda gratuita per bambini. I stampabili gratuiti risparmiano tempo. Schede per bambini con chiave formattazione identica.`,
       },
       {
         id: '12',
-        question: 'Quanto Costa l\'Abbonamento?',
-        answer: `L'abbonamento Accesso Completo costa 240 euro all'anno oppure 25 euro al mese. Include accesso illimitato a tutti i 33 generatori di schede didattiche. Genera tutte le schede che vuoi senza limiti. Licenza commerciale inclusa per vendere le tue creazioni.
+        question: 'Quanto Costa l\'Abbonamento per Schede Gratuite?',
+        answer: `L'abbonamento per schede gratuite illimitate costa 240 euro/anno o 25 euro/mese. Scheda gratuita per bambini senza limiti. Tutti 33 generatori di stampabili gratuiti inclusi. Licenza commerciale per schede per bambini.
 
-L'abbonamento include supporto in 11 lingue, biblioteca di 3000+ immagini, qualità professionale 300 DPI e soluzioni automatiche. Più schede crei, maggiore è il valore dell'abbonamento. Il costo si ripaga rapidamente rispetto all'acquisto di materiale didattico commerciale.`,
+L'abbonamento include biblioteca 3000+ immagini per schede gratuite. Qualità 300 DPI per scheda gratuita per bambini. Soluzioni automatiche nei stampabili gratuiti. Più schede per bambini crei, maggiore valore.`,
       },
     ],
   },
@@ -435,7 +495,7 @@ L'abbonamento include supporto in 11 lingue, biblioteca di 3000+ immagini, quali
     priceInterval: '/anno',
     priceSuffix: 'Fatturato annualmente',
     benefits: [
-      'Creazione schede illimitata',
+      'Creazione schede gratuite illimitata',
       'Tutti i 33 generatori inclusi',
       'Licenza commerciale inclusa',
       '11 lingue supportate',
@@ -484,13 +544,13 @@ L'abbonamento include supporto in 11 lingue, biblioteca di 3000+ immagini, quali
 
   // Related Apps Section
   relatedApps: {
-    sectionTitle: 'Combina le Schede Griglia Abbinamento con Altri Generatori',
-    sectionDescription: 'L\'abbonamento Accesso Completo include tutti i 33 generatori. Combina il generatore di griglia abbinamento con altri strumenti. Crea pacchetti completi di schede didattiche. Perfetto per unità tematiche. Ottimo per centri di apprendimento. Risparmia ancora più tempo.',
-    ctaTitle: 'Pronto a Creare Schede Straordinarie?',
-    ctaDescription: 'Unisciti a migliaia di educatori che creano schede professionali. Generazione illimitata, licenza commerciale inclusa.',
+    sectionTitle: 'Combina Schede Gratuite Griglia Abbinamento con Altri Generatori',
+    sectionDescription: 'L\'abbonamento Accesso Completo include tutti i 33 generatori di schede gratuite. Combina scheda gratuita per bambini griglia abbinamento con altri strumenti. Crea pacchetti completi di stampabili gratuiti. Perfetto per unità tematiche di schede per bambini.',
+    ctaTitle: 'Pronto a Creare Schede Gratuite Straordinarie?',
+    ctaDescription: 'Unisciti a migliaia di educatori che creano scheda gratuita per bambini professionali. Stampabili gratuiti illimitati, licenza commerciale inclusa.',
     primaryCtaText: 'Inizia la Prova Gratuita',
     secondaryCtaText: 'Vedi Tutti i 33 Generatori',
-    badgeText: 'Funziona Perfettamente Con',
+    badgeText: 'Funziona con Schede Gratuite',
     exploreText: 'Esplora tutte le applicazioni',
     trustBadges: {
       securePayment: 'Pagamento sicuro',
@@ -503,7 +563,7 @@ L'abbonamento include supporto in 11 lingue, biblioteca di 3000+ immagini, quali
         name: 'Abbinamenti',
         category: 'Logica e Ragionamento',
         icon: '🔗',
-        description: 'Crea schede di abbinamenti classiche per completare le attività di corrispondenza visiva.',
+        description: 'Crea schede gratuite di abbinamenti classiche per completare le attività di corrispondenza visiva.',
       },
       {
         id: '2',
@@ -511,7 +571,7 @@ L'abbonamento include supporto in 11 lingue, biblioteca di 3000+ immagini, quali
         name: 'Pezzi Mancanti',
         category: 'Puzzle Visivi',
         icon: '🧩',
-        description: 'Aggiungi puzzle con pezzi mancanti per sviluppare percezione visiva.',
+        description: 'Aggiungi stampabili gratuiti con pezzi mancanti per sviluppare percezione visiva.',
       },
       {
         id: '3',
@@ -519,7 +579,7 @@ L'abbonamento include supporto in 11 lingue, biblioteca di 3000+ immagini, quali
         name: 'Trova e Conta',
         category: 'Matematica',
         icon: '🔍',
-        description: 'Combina griglie con esercizi di conteggio per matematica completa.',
+        description: 'Combina scheda gratuita per bambini griglie con esercizi di conteggio per matematica completa.',
       },
       {
         id: '4',
@@ -527,7 +587,7 @@ L'abbonamento include supporto in 11 lingue, biblioteca di 3000+ immagini, quali
         name: 'Disegni da Colorare',
         category: 'Arte e Creatività',
         icon: '🎨',
-        description: 'Aggiungi attività artistiche dopo esercizi di griglia. Transizione perfetta.',
+        description: 'Aggiungi schede per bambini artistiche dopo esercizi di griglia. Transizione perfetta.',
       },
       {
         id: '5',
@@ -535,7 +595,7 @@ L'abbonamento include supporto in 11 lingue, biblioteca di 3000+ immagini, quali
         name: 'Pregrafismo',
         category: 'Pregrafismo',
         icon: '✏️',
-        description: 'Sviluppa motricità fine con schede di pregrafismo e tracciamento linee.',
+        description: 'Sviluppa motricità fine con schede gratuite pregrafismo e tracciamento linee.',
       },
     ],
   },

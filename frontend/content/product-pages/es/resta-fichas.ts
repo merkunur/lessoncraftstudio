@@ -21,6 +21,38 @@ export const subtractionEsContent: ProductPageContent = {
     description: 'Crea fichas de restas profesionales con imágenes usando nuestro generador de ejercicios matemáticas. Genera fichas para imprimir personalizadas perfectas para preescolar y primaria. Descarga material educativo gratis en PDF de alta calidad en menos de 3 minutos.',
     keywords: 'fichas de restas, fichas para imprimir, ejercicios matemáticas, fichas de matemáticas, fichas infantil, fichas preescolar, grafomotricidad, lectoescritura, aprender los números, tablas de multiplicar, dibujos para colorear, fichas gratis, material educativo gratis',
     canonicalUrl: 'https://www.lessoncraftstudio.com/es/apps/resta-fichas',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/spanish/subtraction/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fichas de restas gratis para imprimir - ejercicios matemáticas modo tachar para preescolar y primaria'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/spanish/subtraction/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fichas de restas para niños - ejercicios matemáticas modo imagen-número para educación infantil'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/spanish/subtraction/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fichas de restas para preescolar - ejercicios matemáticas modo encontrar sustraendo para primaria'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/spanish/subtraction/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fichas de restas imprimibles gratis - ejercicios matemáticas modo mixto para educación inicial'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/spanish/subtraction/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fichas de matemáticas gratis para niños - ejercicios de restas con imágenes para preescolar'
+      },
+    ],
   },
 
   // Hero Section - FULL text from subtraction.md paragraphs 1-3
@@ -32,7 +64,7 @@ export const subtractionEsContent: ProductPageContent = {
 Nuestro generador de fichas de restas ofrece cuatro modos únicos de ejercicio. El modo tradicional permite a los estudiantes tachar imágenes. El modo imagen-número combina ilustraciones con números. El modo encuentra-el-sustraendo presenta formato de imagen - ? = resultado. Los maestros pueden crear fichas de matemáticas adaptadas al nivel exacto de sus alumnos.
 
 La plataforma incluye más de 3000 imágenes apropiadas para niños. Selecciona temas completos o imágenes individuales para tus fichas para imprimir. Ajusta la dificultad desde 2 hasta 20 para el número máximo. Cada hoja incluye clave de respuestas generada automáticamente. Tu suscripción Acceso Completo incluye licencia comercial para vender en plataformas como Etsy y Teachers Pay Teachers.`,
-    previewImageSrc: '/samples/english/subtraction/cross out.jpeg',
+    previewImageSrc: '/samples/spanish/subtraction/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Probar Gratis',
       viewSamples: 'Ver Ejemplos',
@@ -67,31 +99,38 @@ La plataforma incluye más de 3000 imágenes apropiadas para niños. Selecciona 
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/subtraction/cross out.jpeg',
-        answerKeySrc: '/samples/english/subtraction/cross out answer_key.jpeg',
-        altText: 'Ficha de restas modo tachar con imágenes para educación infantil y preescolar',
-        pdfDownloadUrl: '/samples/english/subtraction/cross out.pdf',
+        worksheetSrc: '/samples/spanish/subtraction/sample-1.jpeg',
+        answerKeySrc: '/samples/spanish/subtraction/sample-1-answer.jpeg',
+        altText: 'Fichas de restas gratis para imprimir - ejercicios matemáticas modo tachar para preescolar y primaria',
+        pdfDownloadUrl: '/samples/spanish/subtraction/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/subtraction/image number.jpeg',
-        answerKeySrc: '/samples/english/subtraction/image number answer_key.jpeg',
-        altText: 'Ficha de restas con modo imagen y número para práctica de matemáticas en primaria',
-        pdfDownloadUrl: '/samples/english/subtraction/image number.pdf',
+        worksheetSrc: '/samples/spanish/subtraction/sample-2.jpeg',
+        answerKeySrc: '/samples/spanish/subtraction/sample-2-answer.jpeg',
+        altText: 'Fichas de restas para niños - ejercicios matemáticas modo imagen-número para educación infantil',
+        pdfDownloadUrl: '/samples/spanish/subtraction/sample-2.pdf',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/subtraction/find subtrahend.jpeg',
-        answerKeySrc: '/samples/english/subtraction/find subtrahend answer_key.jpeg',
-        altText: 'Ficha de encontrar sustraendo con ejercicios para resolver incógnitas en restas básicas',
-        pdfDownloadUrl: '/samples/english/subtraction/find subtrahend.pdf',
+        worksheetSrc: '/samples/spanish/subtraction/sample-3.jpeg',
+        answerKeySrc: '/samples/spanish/subtraction/sample-3-answer.jpeg',
+        altText: 'Fichas de restas para preescolar - ejercicios matemáticas modo encontrar sustraendo para primaria',
+        pdfDownloadUrl: '/samples/spanish/subtraction/sample-3.pdf',
       },
       {
         id: '4',
-        worksheetSrc: '/samples/english/subtraction/mixed.jpeg',
-        answerKeySrc: '/samples/english/subtraction/mixed answer_key.jpeg',
-        altText: 'Ficha de restas en modo mixto combinando diferentes tipos de ejercicios matemáticos',
-        pdfDownloadUrl: '/samples/english/subtraction/mixed.pdf',
+        worksheetSrc: '/samples/spanish/subtraction/sample-4.jpeg',
+        answerKeySrc: '/samples/spanish/subtraction/sample-4-answer.jpeg',
+        altText: 'Fichas de restas imprimibles gratis - ejercicios matemáticas modo mixto para educación inicial',
+        pdfDownloadUrl: '/samples/spanish/subtraction/sample-4.pdf',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/spanish/subtraction/sample-5.jpeg',
+        answerKeySrc: '/samples/spanish/subtraction/sample-5-answer.jpeg',
+        altText: 'Fichas de matemáticas gratis para niños - ejercicios de restas con imágenes para preescolar',
+        pdfDownloadUrl: '/samples/spanish/subtraction/sample-5.pdf',
       },
     ],
   },

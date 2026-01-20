@@ -19,6 +19,38 @@ export const patternTrainEsContent: ProductPageContent = {
     description: 'Crea fichas de patrones profesionales con nuestro generador de fichas para imprimir. Genera fichas de matemáticas con patrones visuales perfectas para preescolar y educación primaria. Descarga fichas gratis en PDF de alta calidad en menos de 3 minutos.',
     keywords: 'fichas de patrones, tren de patrones, fichas para imprimir, fichas infantil, fichas preescolar, material educativo gratis, fichas gratis, ejercicios matemáticas, grafomotricidad, lectoescritura, patrones AB, patrones ABC',
     canonicalUrl: 'https://www.lessoncraftstudio.com/es/apps/tren-patrones-fichas',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/spanish/pattern-train/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Ficha de tren de patrones gratis para preescolar - ejercicio de secuencias AB',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/spanish/pattern-train/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fichas de patrones para imprimir - práctica de secuencias AAB para educación infantil',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/spanish/pattern-train/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Material educativo gratis de patrones - fichas infantil con secuencias ABB',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/spanish/pattern-train/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Ejercicios matemáticas de patrones ABC - fichas gratis para preescolar',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/spanish/pattern-train/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fichas preescolar de patrones AABB - tren de patrones para imprimir',
+      },
+    ],
   },
 
   // Hero Section - FULL text from pattern-train.md paragraphs 1-4
@@ -32,7 +64,7 @@ El generador de tren de patrones crea fichas para imprimir enfocadas en reconoci
 Las fichas preescolar de patrones ayudan a desarrollar habilidades de pensamiento lógico. Los patrones visuales son fundamentales en el aprendizaje de matemáticas tempranas. Nuestro material educativo gratis incluye más de 3000 imágenes para crear fichas de matemáticas atractivas. Los estudiantes practican reconocimiento de patrones con imágenes que pueden personalizar según cualquier tema.
 
 Las fichas infantil generadas incluyen clave de respuestas automática. Los maestros descargan tanto la hoja de trabajo como las respuestas en formato PDF o JPEG. Cada ficha para imprimir se exporta en calidad profesional de 300 DPI, perfecta para uso en el aula o venta comercial. La suscripción Acceso Completo incluye licencia comercial POD sin costos adicionales.`,
-    previewImageSrc: '/samples/english/pattern train/pattern_train portrait.jpeg',
+    previewImageSrc: '/samples/spanish/pattern-train/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Probar Gratis',
       viewSamples: 'Ver Ejemplos',
@@ -67,17 +99,38 @@ Las fichas infantil generadas incluyen clave de respuestas automática. Los maes
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/pattern train/pattern_train portrait.jpeg',
-        answerKeySrc: '/samples/english/pattern train/pattern_train portrait answer_key.jpeg',
-        altText: 'Ficha de tren de patrones en formato vertical para educación infantil',
-        pdfDownloadUrl: '/samples/english/pattern train/pattern_train portrait.pdf',
+        worksheetSrc: '/samples/spanish/pattern-train/sample-1.jpeg',
+        answerKeySrc: '/samples/spanish/pattern-train/sample-1-answer.jpeg',
+        altText: 'Fichas de patrones gratis para imprimir - tren de patrones secuencia AB para preescolar',
+        pdfDownloadUrl: '/samples/spanish/pattern-train/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/pattern train/pattern_train landscape.jpeg',
-        answerKeySrc: '/samples/english/pattern train/pattern_train landscape answer_key.jpeg',
-        altText: 'Ficha de tren de patrones en formato horizontal para práctica de secuencias',
-        pdfDownloadUrl: '/samples/english/pattern train/pattern_train landscape.pdf',
+        worksheetSrc: '/samples/spanish/pattern-train/sample-2.jpeg',
+        answerKeySrc: '/samples/spanish/pattern-train/sample-2-answer.jpeg',
+        altText: 'Ficha infantil de patrones AAB - ejercicio matemáticas gratis para educación infantil',
+        pdfDownloadUrl: '/samples/spanish/pattern-train/sample-2.pdf',
+      },
+      {
+        id: '3',
+        worksheetSrc: '/samples/spanish/pattern-train/sample-3.jpeg',
+        answerKeySrc: '/samples/spanish/pattern-train/sample-3-answer.jpeg',
+        altText: 'Material educativo gratis de patrones ABB - fichas preescolar para imprimir',
+        pdfDownloadUrl: '/samples/spanish/pattern-train/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/spanish/pattern-train/sample-4.jpeg',
+        answerKeySrc: '/samples/spanish/pattern-train/sample-4-answer.jpeg',
+        altText: 'Fichas de matemáticas de patrones ABC - ficha gratis para niños de preescolar',
+        pdfDownloadUrl: '/samples/spanish/pattern-train/sample-4.pdf',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/spanish/pattern-train/sample-5.jpeg',
+        answerKeySrc: '/samples/spanish/pattern-train/sample-5-answer.jpeg',
+        altText: 'Tren de patrones AABB para imprimir - fichas gratis de secuencias para educación infantil',
+        pdfDownloadUrl: '/samples/spanish/pattern-train/sample-5.pdf',
       },
     ],
   },

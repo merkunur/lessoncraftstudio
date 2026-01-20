@@ -17,16 +17,48 @@ export const oddOneOutItContent: ProductPageContent = {
   seo: {
     slug: 'trova-intruso-schede',
     appId: 'odd-one-out',
-    title: 'Generatore di Schede Didattiche Trova l\'Intruso - Schede Didattiche per Scuola dell\'Infanzia e Scuola Primaria',
-    description: 'Crea schede didattiche trova l\'intruso professionali con il nostro generatore online. Schede didattiche scuola primaria e scuola dell\'infanzia personalizzate perfette per sviluppare le capacità di discriminazione visiva e ragionamento logico.',
-    keywords: 'schede didattiche trova l\'intruso, schede didattiche scuola primaria, schede scuola infanzia, discriminazione visiva, ragionamento logico, schede matematica, pregrafismo, tabelline, alfabeto, disegni da colorare',
+    title: 'Schede Gratuite Trova l\'Intruso | Scheda Gratuita per Bambini Scuola Primaria',
+    description: 'Crea schede gratuite trova l\'intruso con il nostro generatore. Stampabili gratuiti per discriminazione visiva. Scheda gratuita per bambini e scheda per scuola dell\'infanzia. Scarica PDF in 3 minuti.',
+    keywords: 'trova l\'intruso, schede gratuite, scheda gratuita, stampabili gratuiti, scheda per bambini, scheda per scuola dell\'infanzia, discriminazione visiva, ragionamento logico',
     canonicalUrl: 'https://www.lessoncraftstudio.com/it/apps/trova-intruso-schede',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/italian/odd-one-out/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Scheda Gratuita Trova l\'Intruso - Stampabili Gratuiti Scuola Primaria',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/italian/odd-one-out/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Schede Gratuite Trova l\'Intruso - Scheda per Bambini Discriminazione Visiva',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/italian/odd-one-out/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Stampabili Gratuiti Trova l\'Intruso - Scheda per Scuola dell\'Infanzia',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/italian/odd-one-out/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Scheda Gratuita per Bambini - Trova l\'Intruso Ragionamento Logico',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/italian/odd-one-out/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Schede Gratuite Discriminazione Visiva - Stampabili Gratuiti Trova l\'Intruso',
+      },
+    ],
   },
 
   // Hero Section
   hero: {
-    title: 'Schede Trova l\'Intruso',
-    subtitle: 'Generatore per Scuola dell\'Infanzia e Primaria',
+    title: 'Schede Gratuite Trova l\'Intruso - Generatore Scheda Gratuita per Bambini',
+    subtitle: 'Stampabili Gratuiti Trova l\'Intruso - Scheda per Scuola dell\'Infanzia e Primaria',
     description: `Crea schede didattiche trova l'intruso professionali con il nostro generatore online. L'abbonamento Accesso Completo ti permette di generare schede didattiche illimitate senza costi aggiuntivi per singola scheda. Genera schede didattiche scuola primaria e scuola dell'infanzia personalizzate perfette per sviluppare le capacità di discriminazione visiva e ragionamento logico. Scarica schede didattiche in formato PDF di alta qualità in meno di 3 minuti.
 
 Il trova l'intruso è un'attività fondamentale per lo sviluppo cognitivo dei bambini. Aiuta a migliorare l'attenzione ai dettagli, il pensiero critico e le capacità di categorizzazione. Il nostro generatore rende semplicissimo creare esercizi personalizzati per qualsiasi livello scolastico.
@@ -34,7 +66,7 @@ Il trova l'intruso è un'attività fondamentale per lo sviluppo cognitivo dei ba
 Con oltre 3000 immagini adatte ai bambini, puoi creare schede didattiche su qualsiasi tema. Scegli tra categorie come animali, oggetti, forme, colori e molto altro. Ogni scheda include automaticamente la chiave delle risposte per facilitare la correzione.
 
 L'editor completo ti permette di personalizzare ogni elemento sulla pagina. Aggiungi testi personalizzati, cambia i colori, modifica le dimensioni e posiziona gli elementi esattamente dove vuoi. Crea materiale didattico unico che risponde perfettamente alle esigenze dei tuoi studenti.`,
-    previewImageSrc: '/samples/english/odd one out/similar.jpeg',
+    previewImageSrc: '/samples/italian/odd-one-out/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Prova Gratis',
       viewSamples: 'Vedi Esempi',
@@ -55,7 +87,7 @@ L'editor completo ti permette di personalizzare ogni elemento sulla pagina. Aggi
 
   // Sample Gallery
   samples: {
-    sectionTitle: 'Esempi di Schede Didattiche Trova l\'Intruso',
+    sectionTitle: 'Schede Gratuite Trova l\'Intruso - Stampabili Gratuiti da Scaricare',
     sectionDescription: 'Scarica esempi gratuiti per vedere la nostra qualità professionale',
     downloadLabel: 'Scarica Esempio Gratuito',
     worksheetLabel: 'Scheda',
@@ -69,24 +101,45 @@ L'editor completo ti permette di personalizzare ogni elemento sulla pagina. Aggi
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/odd one out/similar.jpeg',
-        answerKeySrc: '/samples/english/odd one out/similar answer-key.jpeg',
-        altText: 'Scheda didattica trova l\'intruso modalità simile per discriminazione visiva',
-        pdfDownloadUrl: '/samples/english/odd one out/similar.pdf',
+        worksheetSrc: '/samples/italian/odd-one-out/sample-1.jpeg',
+        answerKeySrc: '/samples/italian/odd-one-out/sample-1-answer.jpeg',
+        altText: 'Scheda Gratuita Trova l\'Intruso - Stampabili Gratuiti Discriminazione Visiva',
+        pdfDownloadUrl: '/samples/italian/odd-one-out/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/odd one out/identical.jpeg',
-        answerKeySrc: '/samples/english/odd one out/identical answer-key.jpeg',
-        altText: 'Scheda didattica trova l\'intruso modalità identico per attenzione ai dettagli',
-        pdfDownloadUrl: '/samples/english/odd one out/identical.pdf',
+        worksheetSrc: '/samples/italian/odd-one-out/sample-2.jpeg',
+        answerKeySrc: '/samples/italian/odd-one-out/sample-2-answer.jpeg',
+        altText: 'Schede Gratuite Trova l\'Intruso - Scheda per Bambini Ragionamento Logico',
+        pdfDownloadUrl: '/samples/italian/odd-one-out/sample-2.pdf',
+      },
+      {
+        id: '3',
+        worksheetSrc: '/samples/italian/odd-one-out/sample-3.jpeg',
+        answerKeySrc: '/samples/italian/odd-one-out/sample-3-answer.jpeg',
+        altText: 'Stampabili Gratuiti Trova l\'Intruso - Scheda per Scuola dell\'Infanzia',
+        pdfDownloadUrl: '/samples/italian/odd-one-out/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/italian/odd-one-out/sample-4.jpeg',
+        answerKeySrc: '/samples/italian/odd-one-out/sample-4-answer.jpeg',
+        altText: 'Scheda Gratuita per Bambini - Trova l\'Intruso Attenzione ai Dettagli',
+        pdfDownloadUrl: '/samples/italian/odd-one-out/sample-4.pdf',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/italian/odd-one-out/sample-5.jpeg',
+        answerKeySrc: '/samples/italian/odd-one-out/sample-5-answer.jpeg',
+        altText: 'Schede Gratuite Discriminazione Visiva - Stampabili Gratuiti Trova l\'Intruso',
+        pdfDownloadUrl: '/samples/italian/odd-one-out/sample-5.pdf',
       },
     ],
   },
 
   // Features Grid
   features: {
-    sectionTitle: 'Funzionalità del Generatore di Schede Didattiche Trova l\'Intruso - Tutto per Scuola dell\'Infanzia e Scuola Primaria',
+    sectionTitle: 'Funzionalità Schede Gratuite Trova l\'Intruso - Stampabili Gratuiti per Bambini',
     sectionDescription: 'Il nostro generatore di schede didattiche trova l\'intruso offre tutte le funzionalità necessarie per creare materiale didattico professionale. Che tu insegni alla scuola dell\'infanzia o alla scuola primaria, troverai gli strumenti perfetti per le tue esigenze. Ogni funzionalità è stata progettata pensando agli insegnanti italiani.',
     highlightBadgeText: 'Funzionalità Chiave',
     readMoreLabel: 'Leggi di più',
@@ -100,7 +153,7 @@ L'editor completo ti permette di personalizzare ogni elemento sulla pagina. Aggi
     items: [
       {
         id: '1',
-        title: 'Crea Schede Didattiche in 3 Clic - Generatore Rapido per Scuola dell\'Infanzia',
+        title: 'Crea Schede Gratuite in 3 Clic - Stampabili Gratuiti Veloci',
         description: `Creare schede didattiche trova l'intruso è semplicissimo. Seleziona il tema delle immagini, scegli quanti esercizi vuoi per pagina e clicca genera. Il generatore crea automaticamente schede didattiche scuola primaria pronte per la stampa. Non servono competenze di design o programmi complicati.
 
 Puoi scegliere tra 5 e 10 esercizi per foglio. Perfetto per creare schede didattiche personalizzate per diversi livelli di difficoltà. Gli insegnanti della scuola dell'infanzia preferiscono 5-6 esercizi per pagina. Gli insegnanti della scuola primaria spesso scelgono 8-10 esercizi.
@@ -111,7 +164,7 @@ Il generatore offre due modalità di difficoltà. La modalità "Identico" mostra
       },
       {
         id: '2',
-        title: 'Modifica Tutto sulla Tua Scheda Didattica - Personalizzazione Completa per Schede Italiano Classe Prima',
+        title: 'Modifica Completa - Personalizza Scheda Gratuita per Bambini',
         description: `Ogni elemento sulla scheda è completamente modificabile. Trascina, ruota, ridimensiona o elimina qualsiasi immagine o testo. Perfetto per creare schede didattiche scuola primaria personalizzate per studenti con esigenze speciali. L'editor ti dà controllo totale sul design.
 
 Aggiungi testi personalizzati con font adatti ai bambini. Scegli tra 7 caratteri diversi ottimizzati per la leggibilità. Cambia dimensioni, colore e bordo del testo. Puoi aggiungere istruzioni in italiano, nomi degli studenti o note per genitori.
@@ -122,7 +175,7 @@ Modifica lo sfondo e i bordi della scheda. Scegli tra centinaia di sfondi temati
       },
       {
         id: '3',
-        title: 'Carica le Tue Immagini Personalizzate - Schede Didattiche Uniche per Scuola dell\'Infanzia',
+        title: 'Carica Immagini - Schede Gratuite Uniche per Bambini',
         description: `Oltre alle 3000+ immagini nella libreria, puoi caricare le tue foto. Carica foto della classe, degli animali domestici degli studenti o oggetti locali. Crea schede didattiche super personalizzate che i bambini riconoscono immediatamente.
 
 Il caricamento multiplo ti permette di aggiungere tante immagini contemporaneamente. Tutti i formati comuni sono supportati: JPEG, PNG, GIF. Combina immagini caricate con quelle della libreria sulla stessa scheda. Perfetto per temi specifici non disponibili nella libreria standard.
@@ -133,7 +186,7 @@ Le immagini caricate rimangono disponibili durante tutta la sessione. Puoi usarl
       },
       {
         id: '4',
-        title: 'Schede Didattiche in 11 Lingue - Perfetto per Scuola dell\'Infanzia Multilingue',
+        title: 'Supporto 11 Lingue - Scheda Gratuita per Scuola dell\'Infanzia Multilingue',
         description: `L'interfaccia e i contenuti sono disponibili in 11 lingue. Oltre all'italiano, trovi inglese, tedesco, francese, spagnolo, portoghese, olandese, danese, svedese, norvegese e finlandese. Fondamentale per scuole internazionali e insegnamento delle lingue straniere.
 
 I nomi dei file immagine appaiono nella lingua selezionata. Questo rende il generatore perfetto per creare schede didattiche per l'insegnamento dell'inglese. Gli studenti vedono le parole inglesi accanto alle immagini. Ottimo per vocabolario e comprensione.
@@ -144,7 +197,7 @@ Puoi passare da una lingua all'altra istantaneamente. Crea la stessa scheda in i
       },
       {
         id: '5',
-        title: 'Licenza Commerciale POD Inclusa - Vendi Schede Didattiche su Teachers Pay Teachers',
+        title: 'Licenza Commerciale - Vendi i Tuoi Stampabili Gratuiti',
         description: `L'abbonamento Accesso Completo include licenza commerciale print-on-demand senza costi extra. Puoi vendere le schede didattiche che crei su Etsy, Teachers Pay Teachers e Amazon KDP. Qualità professionale 300 DPI perfetta per la vendita. Nessuna attribuzione richiesta.
 
 Molti insegnanti italiani guadagnano vendendo materiale didattico online. Con il nostro generatore crei schede didattiche scuola primaria professionali in minuti invece di ore. Alcuni insegnanti guadagnano 500-2000€ al mese vendendo schede su marketplace educativi.
@@ -155,7 +208,7 @@ La licenza copre vendita online e stampa fisica. Puoi creare libri di attività,
       },
       {
         id: '6',
-        title: 'Libreria di 3000+ Immagini - Temi per Schede Didattiche Scuola dell\'Infanzia',
+        title: 'Libreria 3000+ Immagini - Schede Gratuite Sempre Diverse',
         description: `Oltre 3000 immagini adatte ai bambini organizzate per tema. Animali, veicoli, cibo, oggetti della casa, forme, colori e molto altro. Ogni tema ha decine di immagini tra cui scegliere. Perfetto per creare schede didattiche su qualsiasi argomento scolastico.
 
 Seleziona un tema e il generatore mostra tutte le immagini disponibili. Puoi anche cercare immagini specifiche con la funzione di ricerca. Trova rapidamente ciò che ti serve senza scorrere centinaia di immagini.
@@ -166,7 +219,7 @@ Tutte le immagini sono disegnate con stile semplice e chiaro. Ideale per bambini
       },
       {
         id: '7',
-        title: 'Qualità Professionale 300 DPI - Schede Didattiche Perfette per la Stampa',
+        title: 'Qualità 300 DPI - Scheda per Bambini Nitida e Stampabili Gratuiti',
         description: `Tutte le schede didattiche si scaricano in alta risoluzione 300 DPI. Qualità tipografica professionale perfetta per stampa e vendita. Scegli formato PDF o JPEG secondo le tue esigenze. Entrambi i formati mantengono massima qualità.
 
 L'opzione scala di grigi ti fa risparmiare inchiostro. Perfetta quando stampi grandi quantità di schede didattiche scuola primaria. La qualità rimane eccellente anche in bianco e nero. Gli studenti possono colorare le immagini come disegni da colorare.
@@ -180,7 +233,7 @@ Ogni scheda include la chiave delle risposte automatica. Si genera insieme alla 
 
   // How-To Guide Section
   howTo: {
-    sectionTitle: 'Come Creare Schede Didattiche Scuola Primaria Trova l\'Intruso in 5 Passaggi Semplici',
+    sectionTitle: 'Come Creare Schede Gratuite Trova l\'Intruso - 5 Passi per Stampabili Gratuiti',
     sectionDescription: 'Creare schede didattiche scuola primaria professionali è facilissimo con il nostro generatore. Bastano 5 semplici passaggi e meno di 3 minuti del tuo tempo. Non servono competenze tecniche o programmi di grafica. Segui questa guida passo-passo per creare la tua prima scheda.',
     ctaText: 'Inizia Ora',
     badgeText: 'Guida Passo-Passo',
@@ -195,7 +248,7 @@ Ogni scheda include la chiave delle risposte automatica. Si genera insieme alla 
       {
         id: '1',
         number: 1,
-        title: 'Scegli il Contenuto per Schede Didattiche Scuola Primaria - Tema o Immagini Singole',
+        title: 'Scegli Contenuto per Schede Gratuite - Temi per Scheda Gratuita',
         description: `Inizia selezionando le immagini per i tuoi esercizi trova l'intruso. Hai due opzioni principali. Puoi selezionare un tema dalla libreria e il generatore sceglie automaticamente immagini adatte. Oppure puoi selezionare manualmente ogni singola immagine per controllo totale.
 
 La selezione per tema è più veloce. Scegli "Animali della fattoria" e ottieni automaticamente mucche, maiali, pecore e galline. Perfetto quando vuoi creare schede didattiche rapidamente. Il generatore sceglie immagini complementari che funzionano bene insieme.
@@ -208,7 +261,7 @@ Decidi anche la modalità di difficoltà. La modalità "Simile" è perfetta per 
       {
         id: '2',
         number: 2,
-        title: 'Personalizza Impostazioni per Schede Didattiche Scuola dell\'Infanzia - Numero Esercizi e Formato Pagina',
+        title: 'Personalizza Impostazioni - Scheda per Scuola dell\'Infanzia e Stampabili Gratuiti',
         description: `Scegli quanti esercizi vuoi per foglio. Puoi creare da 5 a 10 esercizi per pagina. Per bambini piccoli della scuola dell'infanzia, 5-6 esercizi sono ideali. Non sovraccarica la pagina e mantiene l'attenzione alta. Per studenti più grandi, 8-10 esercizi massimizzano l'uso del foglio.
 
 Seleziona il formato pagina. Scegli tra Letter o A4, orientamento verticale o orizzontale. Il formato verticale è standard per schede didattiche scuola primaria. Il formato orizzontale funziona bene quando usi immagini larghe o vuoi più spazio per esercizio.
@@ -221,7 +274,7 @@ Decidi se includere campo nome e data. Utile per compiti a casa o verifiche form
       {
         id: '3',
         number: 3,
-        title: 'Genera le Tue Schede Didattiche - Anteprima Istantanea',
+        title: 'Genera Schede Gratuite - Anteprima Istantanea Stampabili Gratuiti',
         description: `Clicca il pulsante "Genera" e la tua scheda appare istantaneamente. Il generatore crea automaticamente la scheda completa con tutti gli esercizi. Vedi immediatamente come apparirà la scheda stampata. L'anteprima mostra esattamente ciò che otterrai nel PDF.
 
 Il generatore crea anche la chiave delle risposte automaticamente. Mostra quale immagine è l'intruso in ogni esercizio. Risparmia tempo prezioso durante la correzione. Puoi stampare la chiave separatamente o tenerla digitale.
@@ -234,7 +287,7 @@ La generazione è istantanea. Non devi aspettare rendering o elaborazione. Quest
       {
         id: '4',
         number: 4,
-        title: 'Modifica sulla Tela per Schede Italiano Classe Prima - Personalizzazione Completa',
+        title: 'Modifica su Tela - Perfeziona Scheda Gratuita per Bambini',
         description: `Ora personalizza ogni elemento direttamente sulla tela. Clicca su qualsiasi immagine per selezionarla. Trascinala in una nuova posizione, ruotala, ridimensionala o eliminala. Ogni elemento è completamente modificabile.
 
 Aggiungi testi personalizzati alle schede didattiche. Scrivi istruzioni specifiche in italiano. Aggiungi vocabolario correlato per esercizi di lingua. Cambia font, dimensione e colore del testo. Puoi aggiungere bordi al testo per maggiore leggibilità.
@@ -247,7 +300,7 @@ Usa gli strumenti di allineamento per layout perfetto. Allinea oggetti tra loro 
       {
         id: '5',
         number: 5,
-        title: 'Scarica Schede Didattiche per Scuola dell\'Infanzia - PDF e JPEG Alta Qualità',
+        title: 'Scarica Schede Gratuite - PDF Stampabili Gratuiti Alta Qualità',
         description: `Quando sei soddisfatto, scarica la scheda. Scegli formato PDF per stampa professionale. Il PDF mantiene qualità perfetta a qualsiasi dimensione. Oppure scegli JPEG per inserire la scheda in presentazioni o documenti digitali.
 
 Entrambi i formati sono 300 DPI. Qualità tipografica perfetta per stampa e vendita. Le immagini rimangono nitide anche stampate in grande formato. I colori sono vivaci e accurati.
@@ -262,7 +315,7 @@ Scarica anche la chiave delle risposte. Si scarica separatamente dalla scheda pr
 
   // Use Cases Section
   useCases: {
-    sectionTitle: 'Perfetto per Insegnanti e Genitori - Schede Didattiche Scuola Primaria per Ogni Esigenza',
+    sectionTitle: 'Schede Gratuite per Insegnanti - Stampabili Gratuiti Trova l\'Intruso per Educatori',
     sectionDescription: 'Il generatore trova l\'intruso serve insegnanti di tutti i livelli scolastici. Dalla scuola dell\'infanzia alla scuola primaria, troverai usi perfetti per le tue lezioni. Anche genitori homeschool e insegnanti di sostegno traggono grande beneficio. Ogni gruppo ha esigenze specifiche che il generatore soddisfa perfettamente.',
     badgeText: 'Per Chi È',
     readMoreLabel: 'Leggi di più',
@@ -272,7 +325,7 @@ Scarica anche la chiave delle risposte. Si scarica separatamente dalla scheda pr
         id: '1',
         icon: '👶',
         title: 'Insegnanti Scuola dell\'Infanzia',
-        subtitle: 'Schede Didattiche con Disegni da Colorare per Pregrafismo',
+        subtitle: 'Schede Gratuite e Stampabili Gratuiti per Bambini 3-6 Anni',
         description: `Gli insegnanti della scuola dell'infanzia usano le schede trova l'intruso per sviluppo cognitivo precoce. Bambini dai 3 ai 5 anni beneficiano enormemente di esercizi di discriminazione visiva. Aiuta a preparare la mente per lettura e matematica successive.
 
 Combina trova l'intruso con disegni da colorare. Dopo aver identificato l'intruso, gli studenti colorano tutte le immagini. Sviluppa discriminazione visiva e motricità fine contemporaneamente. Perfetto per centri di apprendimento o attività mattutine.
@@ -286,7 +339,7 @@ Crea routine settimanali con temi diversi. Lunedì animali, martedì cibo, merco
         id: '2',
         icon: '📚',
         title: 'Insegnanti Classe Prima Scuola Primaria',
-        subtitle: 'Schede Italiano con Alfabeto e Lettere dell\'Alfabeto',
+        subtitle: 'Scheda Gratuita per Bambini - Stampabili Gratuiti Classe Prima',
         description: `Gli insegnanti di classe prima usano trova l'intruso per insegnamento alfabeto. Tre immagini iniziano con la lettera M, una con N. Gli studenti identificano l'intruso mentre imparano lettere dell'alfabeto. Rinforza riconoscimento fonologico in modo visivo e coinvolgente.
 
 Crea schede italiano classe prima che integrano vocabolario. Ogni immagine insegna una parola nuova in italiano. Tre parole della stessa categoria, una diversa. Gli studenti espandono vocabolario mentre esercitano categorizzazione.
@@ -300,7 +353,7 @@ Combina con schede matematica semplici. Dopo trova l'intruso, gli studenti conta
         id: '3',
         icon: '🏠',
         title: 'Genitori Homeschool',
-        subtitle: 'Schede Didattiche Scuola Primaria Personalizzate con Alfabeto e Numeri da Stampare',
+        subtitle: 'Schede Gratuite per Homeschool - Scheda per Bambini Personalizzata',
         description: `I genitori homeschool adorano la flessibilità totale del generatore. Crea schede didattiche scuola primaria perfettamente adattate al livello specifico di tuo figlio. Non sei limitato a materiale commerciale generico. Ogni scheda si adatta alle esigenze individuali.
 
 Crea percorsi di apprendimento personalizzati. Tuo figlio ama i dinosauri? Crea 20 schede trova l'intruso sui dinosauri. Integra apprendimento alfabeto, numeri da stampare e categorizzazione scientifica. L'interesse personale aumenta motivazione e ritenzione.
@@ -314,7 +367,7 @@ Combina trova l'intruso con altre materie. Usa immagini storiche per storia. Ani
         id: '4',
         icon: '💜',
         title: 'Insegnanti di Sostegno',
-        subtitle: 'Disegni da Colorare e Pregrafismo per Bisogni Speciali',
+        subtitle: 'Scheda Gratuita per Scuola dell\'Infanzia - Stampabili Gratuiti Adattabili',
         description: `Gli insegnanti di sostegno trovano il generatore perfetto per differenziazione. Crea schede con difficoltà variabile per studenti con bisogni diversi. Immagini grandi e chiare per studenti con difficoltà visive. Meno esercizi per pagina per ridurre sovraccarico cognitivo.
 
 Combina trova l'intruso con disegni da colorare terapeutici. La colorazione calma studenti ansiosi. Il riconoscimento dell'intruso fornisce successo cognitivo. Combinazione perfetta per studenti con ADHD o disturbi dello spettro autistico.
@@ -328,7 +381,7 @@ Crea routine prevedibili con schede didattiche consistenti. Studenti con autismo
         id: '5',
         icon: '🌍',
         title: 'Insegnanti di Inglese e Lingue Straniere',
-        subtitle: 'Alfabeto e Lettere dell\'Alfabeto Multilingue',
+        subtitle: 'Schede Gratuite per ESL - Stampabili Gratuiti Multilingue',
         description: `Gli insegnanti ESL usano trova l'intruso per vocabolario visivo. Le immagini hanno nomi in 11 lingue diverse. Seleziona inglese e gli studenti imparano parole inglesi. Ottimo per principianti che hanno bisogno di agganci visivi forti.
 
 Insegna alfabeto inglese con metodo visivo. Tre immagini che iniziano con B: ball, book, banana. Una con C: cat. Gli studenti identificano l'intruso mentre imparano lettere dell'alfabeto inglese e pronuncia iniziale.
@@ -342,7 +395,7 @@ Combina con disegni da colorare per vocabolario. Gli studenti colorano mentre ri
         id: '6',
         icon: '💰',
         title: 'Insegnanti Imprenditori',
-        subtitle: 'Vendi Schede Didattiche Scuola Primaria su Teachers Pay Teachers con Tabelline e Alfabeto',
+        subtitle: 'Vendi Schede Gratuite - Stampabili Gratuiti su TPT e Etsy',
         description: `Molti insegnanti italiani vendono schede didattiche create con il nostro generatore. La licenza commerciale Accesso Completo ti permette di vendere su Etsy, Teachers Pay Teachers e Amazon KDP. Crea prodotti professionali rapidamente senza costi di design.
 
 Crea pacchetti tematici di schede matematica. 30 schede trova l'intruso per insegnamento tabelline. Vendile come bundle digitale a 4-6€. Gli insegnanti cercano sempre materiale tabelline coinvolgente. Il tuo tempo di creazione è minuti, il prezzo di vendita è competitivo.
@@ -357,7 +410,7 @@ Combina trova l'intruso con disegni da colorare in prodotti ibridi. Metà pagina
 
   // FAQ Section
   faq: {
-    sectionTitle: 'Domande Frequenti sulle Schede Didattiche Trova l\'Intruso per Scuola Primaria',
+    sectionTitle: 'FAQ Schede Gratuite Trova l\'Intruso - Stampabili Gratuiti per Bambini',
     sectionDescription: 'Gli insegnanti italiani fanno spesso domande sul generatore trova l\'intruso. Abbiamo raccolto le 12 domande più comuni con risposte dettagliate. Queste risposte ti aiutano a capire come funziona il generatore e come integrarlo nella tua didattica.',
     showMoreText: 'Mostra altre domande',
     showLessText: 'Mostra meno',
@@ -369,62 +422,62 @@ Combina trova l'intruso con disegni da colorare in prodotti ibridi. Metà pagina
     items: [
       {
         id: '1',
-        question: 'Il Generatore di Schede Didattiche Scuola Primaria è Davvero Gratuito?',
+        question: 'Questo Generatore di Schede Gratuite è Davvero Gratuito?',
         answer: 'Il generatore trova l\'intruso richiede abbonamento Accesso Completo che costa 240 euro annualmente o 25 euro mensili. L\'abbonamento ti dà creazione illimitata di schede didattiche senza costi per singola scheda. Genera tutte le schede didattiche scuola primaria che ti servono senza costi aggiuntivi. Accesso Completo include tutti i 33 generatori sulla piattaforma. Crea schede matematica, disegni da colorare, schede pregrafismo, tabelline, alfabeto, numeri da stampare e molto altro. Tutto incluso nell\'abbonamento unico a €240 annuali. L\'abbonamento include anche licenza commerciale completa. Vendi le schede che crei su Etsy, Teachers Pay Teachers e Amazon KDP. Supporto per 11 lingue diverse. Qualità professionale 300 DPI. Oltre 3000 immagini incluse.',
       },
       {
         id: '2',
-        question: 'Posso Stampare le Schede Didattiche Scuola dell\'Infanzia su Stampante Normale?',
+        question: 'Posso Stampare Schede Gratuite e Stampabili Gratuiti a Casa?',
         answer: 'Sì. Tutte le schede didattiche scuola dell\'infanzia si stampano perfettamente su qualsiasi stampante casalinga o scolastica. Scarichi PDF ottimizzato per carta Letter o A4 secondo preferenza. La qualità 300 DPI garantisce risultati eccellenti anche su stampanti economiche. Usa l\'opzione scala di grigi per risparmiare inchiostro colorato. Le schede rimangono chiarissime in bianco e nero. Perfetto quando stampi grandi quantità per tutta la classe. Gli studenti possono anche colorare le immagini come disegni da colorare aggiuntivi. Per risultati migliori, usa carta comune da 80g. Non serve carta speciale o costosa. Le stampanti inkjet e laser funzionano ugualmente bene. Stampa fronte-retro per risparmiare carta se la tua stampante lo supporta.',
       },
       {
         id: '3',
-        question: 'Servono Competenze di Design per Creare Schede Matematica e Tabelline?',
+        question: 'Servono Competenze per Creare Scheda Gratuita per Bambini?',
         answer: 'No. Il generatore è progettato per insegnanti senza competenze tecniche. Clicca pulsanti, scegli immagini, genera schede. Non servono programmi di grafica o formazione speciale. Se sai usare email, sai usare il generatore. Crea schede matematica professionali in 3 clic. Seleziona tema numerico, scegli difficoltà, genera. Il generatore crea automaticamente esercizi perfetti. Anche insegnanti che hanno paura della tecnologia trovano il generatore facilissimo. Le schede tabelline si creano altrettanto facilmente. Seleziona immagini raggruppate per rappresentare moltiplicazione. Il generatore organizza tutto automaticamente. Tu devi solo stampare e distribuire. L\'editor avanzato offre personalizzazione completa per chi vuole. Ma non è obbligatorio. Puoi usare schede generate automaticamente senza toccare nulla.',
       },
       {
         id: '4',
-        question: 'Posso Usare Schede Didattiche con Disegni da Colorare e Pregrafismo in Classe?',
+        question: 'Posso Usare Schede Gratuite in Classe con i Miei Studenti?',
         answer: 'Sì. L\'abbonamento Accesso Completo include uso illimitato in classe. Stampa quante copie servono per tutti i tuoi studenti. Nessun limite sul numero di stampe o studenti. Usa le schede per lezioni quotidiane, compiti, centri di apprendimento o verifiche. Combina trova l\'intruso con disegni da colorare per attività integrate. Dopo aver identificato l\'intruso, gli studenti colorano tutte le immagini. Sviluppa discriminazione visiva e motricità fine contemporaneamente. Perfetto per scuola dell\'infanzia. Integra con schede pregrafismo per sviluppo completo. Gli studenti tracciano linee dall\'intruso a un contenitore. Oppure cerchiano l\'intruso con movimenti circolari. Combina riconoscimento visivo con preparazione alla scrittura. Condividi schede con colleghi della stessa scuola.',
       },
       {
         id: '5',
-        question: 'Quali Lingue Supportano le Schede Didattiche con Alfabeto e Lettere dell\'Alfabeto?',
+        question: 'Quali Lingue Supportano le Schede Gratuite e Stampabili Gratuiti?',
         answer: 'Il generatore supporta 11 lingue diverse. Italiano, inglese, tedesco, francese, spagnolo, portoghese brasiliano, olandese, danese, svedese, norvegese e finlandese. Cambia lingua con un clic nell\'interfaccia. Le schede alfabeto funzionano perfettamente in tutte le lingue. Crea esercizi dove l\'intruso inizia con lettera diversa. Tre immagini iniziano con M, una con N. Gli studenti identificano l\'intruso mentre imparano lettere dell\'alfabeto in qualsiasi lingua. I nomi delle immagini appaiono nella lingua selezionata. Fondamentale per insegnamento lingue straniere. Gli studenti vedono vocabolario inglese, tedesco o francese accanto alle immagini. Metodo visivo perfetto per principianti. Crea la stessa scheda in più lingue per confronto. Perfetto per classi bilingue o insegnamento lingue.',
       },
       {
         id: '6',
-        question: 'Posso Vendere Schede Didattiche Scuola Primaria con Numeri da Stampare che Creo?',
+        question: 'Posso Vendere Schede Gratuite e Scheda per Bambini che Creo?',
         answer: 'Sì. L\'abbonamento Accesso Completo include licenza commerciale print-on-demand completa senza costi extra. Vendi schede didattiche scuola primaria su Etsy, Teachers Pay Teachers, Amazon KDP e altre piattaforme. Nessuna attribuzione richiesta. Nessun limite su quante schede vendi. Crea pacchetti di numeri da stampare e vendili come bundle. 30 schede trova l\'intruso per riconoscimento numerico. Vendile a €4-6 su Teachers Pay Teachers. Crea raccolte tematiche complete e vendile come libri di attività su Amazon KDP. La qualità 300 DPI è perfetta per vendita. Qualità tipografica professionale che i clienti adorano. Molti insegnanti italiani guadagnano €500-2000 al mese vendendo schede create con il generatore. La licenza copre vendita digitale e stampa fisica.',
       },
       {
         id: '7',
-        question: 'Come Personalizzo Schede Italiano Classe Prima per i Miei Studenti?',
+        question: 'Come Personalizzo Schede Gratuite per i Miei Studenti?',
         answer: 'L\'editor completo ti dà controllo totale su ogni elemento. Clicca su qualsiasi immagine o testo per modificarlo. Trascina, ruota, ridimensiona o elimina. Aggiungi testi personalizzati con istruzioni in italiano specifiche per i tuoi studenti. Carica foto dei tuoi studenti o della classe. Crea schede italiano classe prima super personalizzate con immagini che i bambini riconoscono. Carica foto di gite scolastiche, progetti di classe o animali domestici degli studenti. Modifica sfondo e bordi per temi specifici. Colori della tua classe, logo della scuola o temi stagionali. Crea serie coordinate di schede con stesso design. Consistenza visiva che gli studenti riconoscono immediatamente. Adatta difficoltà per studenti specifici. Personalizzazione infinita per inclusione completa.',
       },
       {
         id: '8',
-        question: 'Quali Fasce d\'Età Funzionano Meglio con Schede Didattiche con Tabelline e Pregrafismo?',
+        question: 'Quali Età Funzionano con Schede Gratuite e Scheda per Scuola dell\'Infanzia?',
         answer: 'Le schede trova l\'intruso funzionano da 3 a 9 anni. Scuola dell\'infanzia (3-6 anni) usa modalità "Simile" con categorie diverse. Facile e perfetta per sviluppo cognitivo precoce. Combina con schede pregrafismo per sviluppo motorio. Classe prima scuola primaria (6-7 anni) usa entrambe le modalità. Inizia con "Simile" a settembre, passa a "Identico" durante l\'anno. Integra con alfabeto e numeri per apprendimento completo. Classe seconda e terza (7-9 anni) eccelle con modalità "Identico". Discriminazione visiva fine e ragionamento avanzato. Combina con schede tabelline per matematica visiva. Crea esercizi dove l\'intruso rompe pattern matematico. Anche studenti più grandi con bisogni speciali beneficiano. Il generatore cresce con i tuoi studenti.',
       },
       {
         id: '9',
-        question: 'Posso Caricare le Mie Immagini per Schede Matematica e Disegni da Colorare?',
+        question: 'Posso Caricare Mie Immagini per Schede Gratuite e Stampabili Gratuiti?',
         answer: 'Sì. Il generatore supporta caricamento multiplo di immagini personalizzate. Carica foto in formato JPEG, PNG o GIF. Tutte le dimensioni funzionano bene. Il sistema ottimizza automaticamente per qualità migliore. Carica foto per schede matematica personalizzate. Foto di oggetti da contare, forme geometriche fotografate o numeri scritti a mano. Crea esercizi matematici con immagini che i tuoi studenti conoscono. Combina immagini caricate con disegni da colorare dalla libreria. Metà immagini personali, metà dalla libreria. Crea schede uniche impossibili da trovare altrove. Perfetto per temi locali o culturalmente specifici. Le immagini caricate rimangono disponibili durante sessione. Usale in più schede senza ricaricare.',
       },
       {
         id: '10',
-        question: 'Quanto Tempo Serve per Creare Schede Didattiche Scuola dell\'Infanzia con Alfabeto?',
+        question: 'Quanto Tempo per Creare Scheda Gratuita per Bambini?',
         answer: 'Meno di 3 minuti per scheda completa. Seleziona tema alfabeto, scegli numero esercizi, clicca genera. La scheda appare istantaneamente. Scarica PDF e sei pronto per stampare. Più veloce che fare caffè. Crea schede didattiche scuola dell\'infanzia complete per settimana in 20 minuti. Lunedì lettera A, martedì lettera B, e così via. Serie completa di 26 schede alfabeto in meno di un\'ora. Con metodi tradizionali servirebbero 10-15 ore. La personalizzazione aggiunge minuti, non ore. Anche modifiche estese richiedono 5-10 minuti. Totale di 8-13 minuti per scheda altamente personalizzata. Ancora 80-90% più veloce di creazione manuale. Il tempo risparmiato si accumula rapidamente. Valore inestimabile per insegnanti oberati.',
       },
       {
         id: '11',
-        question: 'Le Schede Includono Chiave delle Risposte per Numeri da Stampare e Tabelline?',
+        question: 'Le Schede Gratuite Includono Chiave delle Risposte?',
         answer: 'Sì. Ogni scheda genera automaticamente chiave delle risposte corrispondente. La chiave mostra quale immagine è l\'intruso in ogni esercizio. Si scarica separatamente dalla scheda principale. Formato identico per facile confronto. Le schede numeri da stampare includono chiave con quantità corrette evidenziate. Vedi immediatamente quale gruppo ha numero diverso. Perfetto per correzione rapida o auto-correzione studenti. Le schede tabelline mostrano quale numero rompe il pattern. La chiave evidenzia l\'intruso e spiega perché non appartiene. Aiuta studenti a capire errori invece di solo segnalarli. Distribuisci chiave per compiti a casa. I genitori verificano lavoro senza confusione. Oppure usa per auto-correzione in classe.',
       },
       {
         id: '12',
-        question: 'Posso Creare Schede su Materie Specifiche con Disegni da Colorare e Pregrafismo?',
+        question: 'Posso Creare Schede Gratuite per Materie Specifiche?',
         answer: 'Sì. La libreria di 3000+ immagini copre praticamente ogni materia scolastica. Scienze: animali, piante, corpo umano, meteo. Studi sociali: professioni, trasporti, edifici. Matematica: forme, numeri, pattern. Arte: colori, strumenti, tecniche. Combina trova l\'intruso con disegni da colorare per lezioni integrate. Scienze: identifica intruso tra animali vertebrati, poi colora. Arte: trova intruso tra colori caldi, poi crea composizione. Integra materie multiple in attività singola. Crea schede pregrafismo tematiche per qualsiasi argomento. Tracci percorsi tra animali dello stesso habitat. Cerchi forme geometriche specifiche. Colleghi oggetti della stessa categoria. Sviluppa motricità fine mentre impari contenuti accademici. Carica immagini per temi non in libreria.',
       },
     ],
@@ -485,7 +538,7 @@ Combina trova l'intruso con disegni da colorare in prodotti ibridi. Metà pagina
 
   // Related Apps Section
   relatedApps: {
-    sectionTitle: 'Combina con Altri Generatori di Schede Didattiche',
+    sectionTitle: 'Altri Generatori di Schede Gratuite - Stampabili Gratuiti Correlati',
     sectionDescription: 'La nostra piattaforma offre 33 diversi generatori di schede didattiche oltre al trova l\'intruso. Il tuo abbonamento Accesso Completo fornisce accesso a tutti i generatori per creare pacchetti di apprendimento completi. Combina schede trova l\'intruso con addizioni, alfabeto e attività di conteggio. Costruisci unità tematiche complete mescolando discriminazione visiva con altre competenze cognitive.',
     ctaTitle: 'Pronto a Creare Schede Didattiche Straordinarie?',
     ctaDescription: 'Unisciti agli educatori che creano schede professionali. Generazione illimitata, licenza commerciale inclusa.',

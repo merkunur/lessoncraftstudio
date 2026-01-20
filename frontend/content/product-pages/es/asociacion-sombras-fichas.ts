@@ -19,6 +19,38 @@ export const shadowMatchEsContent: ProductPageContent = {
     description: 'Crea fichas profesionales de asociación de sombras con nuestro generador de fichas educativas. Genera fichas gratis personalizadas perfectas para estudiantes de educación infantil y preescolar. Descarga fichas de alta calidad en PDF en menos de 3 minutos.',
     keywords: 'fichas para imprimir, asociación de sombras, fichas preescolar, fichas infantil, percepción visual, material educativo gratis, fichas de matemáticas, lectoescritura, abecedario, grafomotricidad, dibujos para colorear, tablas de multiplicar, fichas gratis',
     canonicalUrl: 'https://www.lessoncraftstudio.com/es/apps/asociacion-sombras-fichas',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/spanish/shadow-match/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Ficha gratis de asociación de sombras para imprimir - ejercicio de percepción visual para preescolar',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/spanish/shadow-match/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Ficha de asociación de sombras para educación infantil - actividad de discriminación visual gratis',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/spanish/shadow-match/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Ficha gratis para niños de asociación de sombras - material educativo de percepción visual',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/spanish/shadow-match/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Ficha para preescolar de asociación de sombras - ejercicio de razonamiento espacial gratis',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/spanish/shadow-match/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Imprimibles gratis de asociación de sombras - ficha de discriminación visual para educación infantil',
+      },
+    ],
   },
 
   // Hero Section
@@ -32,7 +64,7 @@ Nuestro generador de asociación de sombras crea dos tipos de ejercicios diferen
 Las fichas de asociación de sombras funcionan perfectamente para maestros de preescolar que necesitan material educativo gratis. Desarrollan discriminación visual y reconocimiento de patrones. Estas fichas educativas apoyan el desarrollo cognitivo temprano. Son herramientas ideales para el aprendizaje en el aula y en casa.
 
 Cada ficha incluye cuatro imágenes organizadas en columnas de izquierda a derecha. Los estudiantes emparejan las imágenes correspondientes trazando líneas o escribiendo números. El generador crea automáticamente hojas de respuestas. Tus fichas para imprimir mantienen calidad profesional de 300 DPI perfecta para vender o compartir.`,
-    previewImageSrc: '/samples/english/shadow match/shadow-match-worksheet.jpeg',
+    previewImageSrc: '/samples/spanish/shadow-match/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Probar Gratis',
       viewSamples: 'Ver Ejemplos',
@@ -67,24 +99,38 @@ Cada ficha incluye cuatro imágenes organizadas en columnas de izquierda a derec
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/shadow match/shadow-match-worksheet.jpeg',
-        answerKeySrc: '/samples/english/shadow match/shadow-match-answer-key.jpeg',
-        altText: 'Ficha de asociación de sombras con ejercicio de percepción visual para preescolar',
-        pdfDownloadUrl: '/samples/english/shadow match/shadow-match-worksheet.pdf',
+        worksheetSrc: '/samples/spanish/shadow-match/sample-1.jpeg',
+        answerKeySrc: '/samples/spanish/shadow-match/sample-1-answer.jpeg',
+        altText: 'Ficha gratis de asociación de sombras - ejercicio de percepción visual para preescolar',
+        pdfDownloadUrl: '/samples/spanish/shadow-match/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/shadow match/shadow-match-horizontal.jpeg',
-        answerKeySrc: '/samples/english/shadow match/shadow-match-horizontal answer-key.jpeg',
-        altText: 'Ficha de asociación de sombras horizontal con actividad de discriminación visual',
-        pdfDownloadUrl: '/samples/english/shadow match/shadow-match-horizontal.pdf',
+        worksheetSrc: '/samples/spanish/shadow-match/sample-2.jpeg',
+        answerKeySrc: '/samples/spanish/shadow-match/sample-2-answer.jpeg',
+        altText: 'Ficha de asociación de sombras fichas gratis - actividad de discriminación visual para educación infantil',
+        pdfDownloadUrl: '/samples/spanish/shadow-match/sample-2.pdf',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/shadow match/shadow-match-vertical.jpeg',
-        answerKeySrc: '/samples/english/shadow match/shadow-match-vertical answer-key.jpeg',
-        altText: 'Ficha de asociación de sombras vertical con ejercicio de razonamiento espacial',
-        pdfDownloadUrl: '/samples/english/shadow match/shadow-match-vertical.pdf',
+        worksheetSrc: '/samples/spanish/shadow-match/sample-3.jpeg',
+        answerKeySrc: '/samples/spanish/shadow-match/sample-3-answer.jpeg',
+        altText: 'Ficha gratis para niños de asociación de sombras - ejercicio de razonamiento espacial',
+        pdfDownloadUrl: '/samples/spanish/shadow-match/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/spanish/shadow-match/sample-4.jpeg',
+        answerKeySrc: '/samples/spanish/shadow-match/sample-4-answer.jpeg',
+        altText: 'Ficha para preescolar de asociación de sombras - material educativo gratis de percepción visual',
+        pdfDownloadUrl: '/samples/spanish/shadow-match/sample-4.pdf',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/spanish/shadow-match/sample-5.jpeg',
+        answerKeySrc: '/samples/spanish/shadow-match/sample-5-answer.jpeg',
+        altText: 'Imprimibles gratis de asociación de sombras - ficha de discriminación visual para niños',
+        pdfDownloadUrl: '/samples/spanish/shadow-match/sample-5.pdf',
       },
     ],
   },

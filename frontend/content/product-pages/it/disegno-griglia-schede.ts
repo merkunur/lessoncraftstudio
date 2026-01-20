@@ -15,22 +15,54 @@ export const drawAndColorItContent: ProductPageContent = {
   seo: {
     slug: 'disegno-griglia-schede',
     appId: 'draw-and-color',
-    title: 'Disegni da Colorare con Griglia | Pregrafismo Schede Didattiche Scuola dell\'Infanzia',
-    description: 'Crea schede didattiche professionali di disegno con griglia per bambini. Genera pregrafismo e disegni da colorare per scuola dell\'infanzia in meno di 3 minuti. Scarica PDF a 300 DPI.',
-    keywords: 'disegno griglia, pregrafismo, schede didattiche, scuola infanzia, scuola primaria, disegni da colorare, schede matematica, alfabeto, numeri da stampare',
+    title: 'Disegni con Griglia Schede Gratuite | Scheda Gratuita per Bambini Pregrafismo',
+    description: 'Crea schede gratuite professionali di disegno con griglia per bambini. Genera pregrafismo e disegni da colorare per scuola dell\'infanzia in meno di 3 minuti. Scarica PDF a 300 DPI. Stampabili gratuiti per scuola primaria.',
+    keywords: 'disegno griglia, pregrafismo, schede didattiche, scuola infanzia, scuola primaria, disegni da colorare, schede matematica, alfabeto, numeri da stampare, scheda gratuita, schede gratuite, stampabili gratuiti, scheda per bambini',
     canonicalUrl: 'https://www.lessoncraftstudio.com/it/apps/disegno-griglia-schede',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/italian/draw-and-color/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Disegni con griglia schede gratuite - scheda gratuita pregrafismo per bambini scuola infanzia'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/italian/draw-and-color/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Scheda gratuita disegno griglia per bambini - stampabili gratuiti scuola primaria'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/italian/draw-and-color/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Pregrafismo schede gratuite disegno griglia - scheda per scuola dell\'infanzia'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/italian/draw-and-color/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Schede gratuite disegni da colorare griglia - scheda gratuita per bambini'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/italian/draw-and-color/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Disegno griglia scheda gratuita bambini - stampabili gratuiti pregrafismo'
+      },
+    ],
   },
 
   // Hero Section
   hero: {
-    title: 'Generatore di Disegni con Griglia',
-    subtitle: 'Pregrafismo e Schede Didattiche per Scuola dell\'Infanzia',
+    title: 'Generatore Schede Gratuite Disegni con Griglia - Scheda Gratuita per Bambini',
+    subtitle: 'Pregrafismo e Schede per Scuola dell\'Infanzia - Stampabili Gratuiti',
     description: `Crea schede didattiche professionali di disegno con griglia per bambini. Il nostro generatore di schede didattiche rende facile creare pregrafismo e disegni da colorare per la scuola dell'infanzia. Con l'abbonamento Accesso Completo a 240 dollari all'anno, generi schede didattiche scuola primaria illimitate senza costi per scheda. Scarica schede matematica, alfabeto e numeri da stampare in meno di tre minuti.
 
 Le schede didattiche di disegno con griglia aiutano i bambini a sviluppare competenze visuo-spaziali. Ogni scheda italiano classe prima include celle con indizi che guidano il disegno. I bambini completano la griglia copiando il modello nelle celle vuote. Questo metodo migliora le abilità di pregrafismo e coordinazione occhio-mano.
 
 Perfetto per insegnanti della scuola dell'infanzia che hanno bisogno di materiale didattico veloce. Crea disegni da colorare personalizzati con immagini dalla nostra biblioteca di oltre 3000 elementi. Ogni scheda didattica è completamente modificabile prima del download. Aggiungi testo, cambia colori e regola la difficoltà della griglia.`,
-    previewImageSrc: '/samples/english/draw and color/grid-drawing_worksheet.jpeg',
+    previewImageSrc: '/samples/italian/draw-and-color/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Prova Gratis',
       viewSamples: 'Vedi Esempi',
@@ -51,7 +83,7 @@ Perfetto per insegnanti della scuola dell'infanzia che hanno bisogno di material
 
   // Sample Gallery
   samples: {
-    sectionTitle: 'Esempi di Schede Didattiche con Griglia',
+    sectionTitle: 'Esempi Schede Gratuite Disegni con Griglia - Scheda Gratuita per Bambini',
     sectionDescription: 'Scarica esempi gratuiti per vedere la nostra qualità professionale',
     downloadLabel: 'Scarica Esempio Gratuito',
     worksheetLabel: 'Scheda',
@@ -65,52 +97,45 @@ Perfetto per insegnanti della scuola dell'infanzia che hanno bisogno di material
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/draw and color/grid-drawing_worksheet.jpeg',
+        worksheetSrc: '/samples/italian/draw-and-color/sample-1.jpeg',
         answerKeySrc: '',
-        altText: 'Scheda didattica disegno griglia pregrafismo scuola infanzia',
-        pdfDownloadUrl: '/samples/english/draw and color/grid-drawing-worksheet.pdf',
+        altText: 'Schede gratuite disegno griglia pregrafismo - scheda gratuita per bambini scuola infanzia',
+        pdfDownloadUrl: '/samples/italian/draw-and-color/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/draw and color/grid-drawing_worksheet (1).jpeg',
+        worksheetSrc: '/samples/italian/draw-and-color/sample-2.jpeg',
         answerKeySrc: '',
-        altText: 'Disegno con griglia per bambini scuola primaria',
-        pdfDownloadUrl: '/samples/english/draw and color/grid-drawing-worksheet (1).pdf',
+        altText: 'Disegno con griglia scheda gratuita per bambini - stampabili gratuiti scuola primaria',
+        pdfDownloadUrl: '/samples/italian/draw-and-color/sample-2.pdf',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/draw and color/grid-drawing_worksheet (2).jpeg',
+        worksheetSrc: '/samples/italian/draw-and-color/sample-3.jpeg',
         answerKeySrc: '',
-        altText: 'Pregrafismo griglia attività motricità fine',
-        pdfDownloadUrl: '/samples/english/draw and color/grid-drawing-worksheet (2).pdf',
+        altText: 'Pregrafismo schede gratuite griglia - scheda per scuola dell\'infanzia bambini',
+        pdfDownloadUrl: '/samples/italian/draw-and-color/sample-3.pdf',
       },
       {
         id: '4',
-        worksheetSrc: '/samples/english/draw and color/grid-drawing_worksheet (3).jpeg',
+        worksheetSrc: '/samples/italian/draw-and-color/sample-4.jpeg',
         answerKeySrc: '',
-        altText: 'Scheda colorare griglia coordinazione occhio-mano',
-        pdfDownloadUrl: '/samples/english/draw and color/grid-drawing-worksheet (3).pdf',
+        altText: 'Scheda gratuita colorare griglia - stampabili gratuiti coordinazione occhio-mano',
+        pdfDownloadUrl: '/samples/italian/draw-and-color/sample-4.pdf',
       },
       {
         id: '5',
-        worksheetSrc: '/samples/english/draw and color/grid-drawing_worksheet (4).jpeg',
+        worksheetSrc: '/samples/italian/draw-and-color/sample-5.jpeg',
         answerKeySrc: '',
-        altText: 'Disegno griglia sviluppo competenze visuo-spaziali',
-        pdfDownloadUrl: '/samples/english/draw and color/grid-drawing-worksheet (4).pdf',
-      },
-      {
-        id: '6',
-        worksheetSrc: '/samples/english/draw and color/grid-drawing_worksheet (5).jpeg',
-        answerKeySrc: '',
-        altText: 'Scheda didattica disegno copia modello griglia',
-        pdfDownloadUrl: '/samples/english/draw and color/grid-drawing-worksheet (5).pdf',
+        altText: 'Disegno griglia schede gratuite per bambini - scheda gratuita competenze visuo-spaziali',
+        pdfDownloadUrl: '/samples/italian/draw-and-color/sample-5.pdf',
       },
     ],
   },
 
   // Features Grid
   features: {
-    sectionTitle: 'Funzionalità del Generatore di Disegni con Griglia',
+    sectionTitle: 'Funzionalità Generatore Schede Gratuite - Scheda Gratuita per Bambini',
     sectionDescription: 'Il nostro generatore di schede didattiche scuola primaria offre funzionalità complete per insegnanti. Crea disegni da colorare personalizzati con controllo totale su ogni elemento. Le schede didattiche includono griglie modificabili per tutti i livelli. Perfetto per scuola dell\'infanzia e classe prima.',
     highlightBadgeText: 'Funzionalità Chiave',
     readMoreLabel: 'Leggi di più',
@@ -204,7 +229,7 @@ Funzioni undo e redo illimitate durante l'editing. Zoom per modifiche precise. O
 
   // How-To Guide Section
   howTo: {
-    sectionTitle: 'Come Creare Schede Didattiche con Griglia in 5 Passaggi',
+    sectionTitle: 'Come Creare Schede Gratuite Disegni con Griglia in 5 Passaggi',
     sectionDescription: 'Creare schede didattiche professionali richiede meno di tre minuti. Segui questi cinque passaggi semplici. Genera disegni da colorare, pregrafismo, schede matematica e alfabeto. Non serve esperienza di design grafico.',
     ctaText: 'Inizia Ora',
     badgeText: 'Guida Passo-Passo',
@@ -276,7 +301,7 @@ Scegli scala di grigi per risparmiare inchiostro. Pregrafismo in bianco e nero s
 
   // Use Cases Section
   useCases: {
-    sectionTitle: 'Perfetto per Insegnanti, Genitori ed Educatori',
+    sectionTitle: 'Perfetto per Insegnanti - Schede Gratuite per Scuola dell\'Infanzia',
     sectionDescription: 'Le schede didattiche con griglia servono insegnanti, genitori ed educatori in tutta Italia. Dalla scuola dell\'infanzia alla classe terza, tutti trovano valore in questo generatore. Crea pregrafismo personalizzato per ogni livello.',
     badgeText: 'Chi Usa le Nostre Schede',
     readMoreLabel: 'Leggi di più',
@@ -359,7 +384,7 @@ La qualità 300 DPI è cruciale per vendite commerciali. I clienti si aspettano 
 
   // FAQ Section
   faq: {
-    sectionTitle: 'Domande Frequenti sui Disegni con Griglia e Pregrafismo',
+    sectionTitle: 'Domande Frequenti Schede Gratuite Disegni con Griglia',
     sectionDescription: 'Risposte alle domande più comuni sul nostro generatore di schede didattiche con griglia',
     showMoreText: 'Mostra altre domande',
     showLessText: 'Mostra meno domande',
@@ -511,7 +536,7 @@ Usa nomi file descrittivi. Carica su Google Drive o Dropbox per accesso ovunque.
 
   // Related Apps Section
   relatedApps: {
-    sectionTitle: 'Combina con Altri Generatori di Schede',
+    sectionTitle: 'Combina con Altri Generatori - Schede Gratuite per Bambini',
     sectionDescription: 'L\'abbonamento Accesso Completo include 33 generatori di schede didattiche diversi. Le schede di disegno con griglia funzionano magnificamente con altri strumenti. Combina pregrafismo con tracciamento lettere. Usa disegni da colorare insieme a schede matematica.',
     ctaTitle: 'Pronto a Creare Schede Didattiche Straordinarie?',
     ctaDescription: 'Unisciti a migliaia di educatori che creano schede professionali. Generazione illimitata, licenza commerciale inclusa.',

@@ -15,16 +15,42 @@ export const treasureHuntEsContent: ProductPageContent = {
   seo: {
     slug: 'busqueda-tesoro-fichas',
     appId: 'treasure-hunt',
-    title: 'Fichas para Imprimir de Búsqueda del Tesoro | Generador de Fichas Infantil con Direcciones',
-    description: 'Crea fichas para imprimir profesionales de búsqueda del tesoro con nuestro generador especializado. Genera fichas gratis personalizadas perfectas para educación infantil y primaria. Descarga material educativo en PDF de alta calidad en menos de 3 minutos.',
+    title: 'Búsqueda del Tesoro Fichas Gratis | Generador de Fichas para Niños',
+    description: 'Crea fichas gratis de búsqueda del tesoro para niños. Generador de fichas para preescolar con direcciones. Descarga fichas gratis para imprimir en 3 minutos.',
     keywords: 'fichas para imprimir, búsqueda del tesoro, fichas infantil, fichas preescolar, direcciones, material educativo gratis, grafomotricidad, lectoescritura, ejercicios matemáticas, fichas gratis',
     canonicalUrl: 'https://www.lessoncraftstudio.com/es/apps/busqueda-tesoro-fichas',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/spanish/treasure-hunt/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fichas gratis de búsqueda del tesoro para niños - direcciones básicas arriba abajo para preescolar'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/spanish/treasure-hunt/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Ficha gratis para niños de búsqueda del tesoro - direcciones cardinales norte sur para primaria'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/spanish/treasure-hunt/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Ficha para preescolar de búsqueda del tesoro - ejercicios de direccionalidad espacial'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/spanish/treasure-hunt/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Imprimibles gratis de búsqueda del tesoro - fichas de direcciones para educación infantil'
+      },
+    ],
   },
 
   // Hero Section - FULL text from treasure-hunt.md paragraphs 1-4
   hero: {
     title: 'Fichas de Búsqueda del Tesoro',
-    subtitle: 'Generador de Fichas Infantil con Direcciones',
+    subtitle: 'Generador de Ficha Gratis para Niños con Direcciones Espaciales',
     description: `Crea fichas para imprimir profesionales de búsqueda del tesoro con nuestro generador especializado. Tu suscripción Acceso Completo te da creación ilimitada de fichas educativas sin cargos por ficha individual. Genera fichas gratis personalizadas de búsqueda del tesoro perfectas para educación infantil y educación primaria. Descarga material educativo gratis de alta calidad en PDF en menos de 3 minutos.
 
 Las fichas de búsqueda del tesoro enseñan a los niños a seguir direcciones paso a paso mientras practican vocabulario espacial. Los estudiantes leen instrucciones como "mueve 2 hacia arriba" o "mueve 1 a la derecha" para encontrar el tesoro escondido en una cuadrícula de 5×5. Cada ficha para imprimir combina comprensión lectora con conceptos de direccionalidad. Los maestros utilizan estas fichas preescolar para desarrollar habilidades de seguimiento de instrucciones.
@@ -32,7 +58,7 @@ Las fichas de búsqueda del tesoro enseñan a los niños a seguir direcciones pa
 El generador ofrece dos tipos de direcciones según la edad de los estudiantes. Las direcciones básicas utilizan arriba abajo izquierda derecha para niños de preescolar a primer grado. Las direcciones cardinales usan norte sur este oeste para estudiantes de segundo grado en adelante. Ambas opciones crean fichas infantil efectivas que refuerzan conceptos espaciales. Elige el nivel apropiado para tus estudiantes y genera material educativo profesional.
 
 Cada ficha incluye seis pasos de direcciones y una cuadrícula visual con imágenes temáticas. Los estudiantes marcan su camino siguiendo las instrucciones escritas. El generador crea automáticamente una clave de respuestas con un marcador rojo mostrando la ubicación del tesoro. Descarga fichas para imprimir personalizadas con tus propias imágenes o selecciona de nuestra biblioteca de 3000 imágenes. Acceso Completo incluye todos los generadores de fichas más licencia comercial para vender en plataformas digitales.`,
-    previewImageSrc: '/samples/english/treasure hunt/up down.jpeg',
+    previewImageSrc: '/samples/spanish/treasure-hunt/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Probar Gratis',
       viewSamples: 'Ver Ejemplos',
@@ -53,7 +79,7 @@ Cada ficha incluye seis pasos de direcciones y una cuadrícula visual con imáge
 
   // Sample Gallery - REAL file paths from samples/english/treasure hunt/
   samples: {
-    sectionTitle: 'Ejemplos de Fichas de Búsqueda del Tesoro',
+    sectionTitle: 'Ejemplos de Fichas Gratis de Búsqueda del Tesoro para Niños',
     sectionDescription: 'Descarga ejemplos gratuitos para ver nuestra calidad profesional',
     downloadLabel: 'Descargar Ejemplo Gratis',
     worksheetLabel: 'Ficha',
@@ -67,24 +93,38 @@ Cada ficha incluye seis pasos de direcciones y una cuadrícula visual con imáge
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/treasure hunt/up down.jpeg',
-        answerKeySrc: '/samples/english/treasure hunt/up down answer_key.jpeg',
-        altText: 'Ficha de búsqueda del tesoro con direcciones básicas arriba abajo izquierda derecha para preescolar',
-        pdfDownloadUrl: '/samples/english/treasure hunt/up down.pdf',
+        worksheetSrc: '/samples/spanish/treasure-hunt/sample-1.jpeg',
+        answerKeySrc: '/samples/spanish/treasure-hunt/sample-1-answer.jpeg',
+        altText: 'Fichas gratis de búsqueda del tesoro para niños - direcciones básicas arriba abajo izquierda derecha para preescolar',
+        pdfDownloadUrl: '/samples/spanish/treasure-hunt/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/treasure hunt/north south.jpeg',
-        answerKeySrc: '/samples/english/treasure hunt/north south answer_key.jpeg',
-        altText: 'Ficha de búsqueda del tesoro con direcciones cardinales norte sur este oeste para primaria',
-        pdfDownloadUrl: '/samples/english/treasure hunt/north south.pdf',
+        worksheetSrc: '/samples/spanish/treasure-hunt/sample-2.jpeg',
+        answerKeySrc: '/samples/spanish/treasure-hunt/sample-2-answer.jpeg',
+        altText: 'Ficha gratis para niños de búsqueda del tesoro - direcciones cardinales norte sur este oeste para primaria',
+        pdfDownloadUrl: '/samples/spanish/treasure-hunt/sample-2.pdf',
+      },
+      {
+        id: '3',
+        worksheetSrc: '/samples/spanish/treasure-hunt/sample-3.jpeg',
+        answerKeySrc: '/samples/spanish/treasure-hunt/sample-3-answer.jpeg',
+        altText: 'Ficha para preescolar de búsqueda del tesoro - ejercicios de direccionalidad espacial para educación infantil',
+        pdfDownloadUrl: '/samples/spanish/treasure-hunt/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/spanish/treasure-hunt/sample-4.jpeg',
+        answerKeySrc: '/samples/spanish/treasure-hunt/sample-4-answer.jpeg',
+        altText: 'Imprimibles gratis de búsqueda del tesoro - fichas de direcciones para niños con cuadrícula 5x5',
+        pdfDownloadUrl: '/samples/spanish/treasure-hunt/sample-4.pdf',
       },
     ],
   },
 
   // Features Grid - FULL text from treasure-hunt.md feature sections
   features: {
-    sectionTitle: 'Características del Generador de Fichas para Imprimir - Todo lo que Necesitas para Material Educativo Gratis',
+    sectionTitle: 'Características del Generador - Fichas Gratis para Niños de Material Educativo',
     sectionDescription: 'Nuestro generador de búsqueda del tesoro incluye todas las herramientas profesionales que los maestros necesitan. Crea fichas para imprimir personalizadas en minutos sin experiencia en diseño. Acceso Completo te da acceso a funciones avanzadas para crear material educativo de calidad. Los docentes de educación infantil y primaria utilizan estas características diariamente para crear fichas gratis efectivas.',
     highlightBadgeText: 'Característica Clave',
     readMoreLabel: 'Leer más',
@@ -164,7 +204,7 @@ Los archivos PDF mantienen proporciones perfectas sin distorsión. Las exportaci
 
   // How-To Guide - FULL text from treasure-hunt.md step sections
   howTo: {
-    sectionTitle: 'Cómo Crear Fichas para Imprimir de Búsqueda del Tesoro - Guía Paso a Paso',
+    sectionTitle: 'Cómo Crear Ficha Gratis para Niños de Búsqueda del Tesoro - Guía Paso a Paso',
     sectionDescription: 'Crear fichas infantil profesionales toma menos de cinco minutos con nuestro generador. Este proceso simple permite a maestros sin experiencia en diseño producir material educativo de calidad. Combina búsqueda del tesoro con ejercicios matemáticas y lectoescritura para lecciones completas. Cada paso está optimizado para eficiencia permitiendo crear múltiples fichas para imprimir en una sesión.',
     ctaText: 'Comenzar Ahora',
     badgeText: 'Cómo Funciona',
@@ -307,7 +347,7 @@ Los paquetes más vendidos incluyen 20 a 30 fichas preescolar organizadas por te
 
   // FAQ Section - Selected FAQs from treasure-hunt.md
   faq: {
-    sectionTitle: 'Preguntas Frecuentes',
+    sectionTitle: 'Preguntas Frecuentes sobre Fichas Gratis de Búsqueda del Tesoro para Preescolar',
     sectionDescription: 'Preguntas frecuentes sobre nuestro generador de fichas de búsqueda del tesoro y fichas para imprimir.',
     showMoreText: 'Ver más preguntas',
     showLessText: 'Ver menos',
@@ -319,17 +359,17 @@ Los paquetes más vendidos incluyen 20 a 30 fichas preescolar organizadas por te
     items: [
       {
         id: '1',
-        question: '¿Este Generador de Fichas Infantil con Tablas de Multiplicar es Realmente Gratis?',
+        question: '¿Es Este Generador de Ficha Gratis para Niños Realmente Gratuito?',
         answer: 'El generador de búsqueda del tesoro requiere suscripción Acceso Completo costando $240 anuales o $25 mensuales. Tu suscripción te da creación ilimitada de fichas para imprimir sin cargos por ficha individual. Genera tantas fichas gratis de búsqueda del tesoro números abecedario y colorear como necesites sin cargos adicionales. El valor excepcional se multiplica cuando consideras acceso a todos los 33 generadores de material educativo profesional. El Paquete Esencial incluye 10 generadores populares y cuesta $144 anuales. Acceso Completo cuesta $240 anuales e incluye todos los 33 tipos de generadores de fichas incluyendo búsqueda del tesoro. Ambas suscripciones incluyen licencia comercial soporte de 11 idiomas y exportaciones de calidad profesional de 300 DPI. Tu inversión elimina necesidad de comprar libros de trabajo costosos o suscripciones múltiples para diferentes tipos de fichas infantil.',
       },
       {
         id: '2',
-        question: '¿Puedo Imprimir Fichas Preescolar con Grafomotricidad en Casa en una Impresora Normal?',
+        question: '¿Puedo Imprimir Ficha para Preescolar con Grafomotricidad en Casa?',
         answer: 'Sí. Todas las fichas para imprimir descargan en formato PDF o JPEG optimizado para impresoras domésticas estándar. La calidad de 300 DPI asegura texto nítido e imágenes claras en cualquier impresora. Imprime en papel carta estándar o A4 según tu región. Las fichas gratis se ven profesionales impresas en impresoras de inyección de tinta o láser económicas sin equipo especial. Activa la opción de escala de grises para ahorrar tinta de color costosa. Las fichas infantil en blanco y negro mantienen perfecta legibilidad para estudiantes. Muchos maestros imprimen versiones en blanco y negro para trabajo diario guardando color para ocasiones especiales. Combina búsqueda del tesoro con dibujos para colorear permitiendo a estudiantes agregar su propio color con crayones o marcadores después de completar la actividad direccional.',
       },
       {
         id: '3',
-        question: '¿Necesito Habilidades de Diseño para Crear Fichas de Matemáticas con Números y Lectoescritura?',
+        question: '¿Necesito Habilidades para Crear Imprimibles Gratis de Búsqueda del Tesoro?',
         answer: 'No. El generador requiere cero experiencia en diseño o habilidades técnicas. Selecciona un tema haz clic en generar y tu ficha aparece instantáneamente completa. La interfaz intuitiva guía cada paso del proceso. Maestros sin conocimiento de computadoras crean fichas para imprimir profesionales en minutos. Todo el diseño formateo y organización sucede automáticamente. El lienzo editable usa controles de arrastrar y soltar que cualquiera entiende. Mueve imágenes con tu ratón como moverías papeles en un escritorio físico. Cambiar colores y fuentes requiere solo clics simples sin terminología técnica. Las fichas preescolar que creas se ven tan profesionales como materiales publicados comercialmente. Enfócate en contenido educativo mientras el generador maneja todos los aspectos técnicos de diseño y formato.',
       },
       {
@@ -436,7 +476,7 @@ Los paquetes más vendidos incluyen 20 a 30 fichas preescolar organizadas por te
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Combina con Otros Generadores de Fichas',
+    sectionTitle: 'Combina con Otros Generadores de Fichas Gratis para Niños',
     sectionDescription: 'Crea paquetes de aprendizaje completos combinando las fichas de búsqueda del tesoro con estos generadores complementarios.',
     ctaTitle: '¿Listo para Crear Fichas Increíbles?',
     ctaDescription: 'Únete a miles de maestros que crean fichas profesionales. Generación ilimitada, licencia comercial incluida.',

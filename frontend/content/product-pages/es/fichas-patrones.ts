@@ -19,6 +19,38 @@ export const patternWorksheetEsContent: ProductPageContent = {
     description: 'Crea fichas de patrones profesionales con nuestro generador de ejercicios de patrones. Genera fichas para imprimir personalizadas perfectas para educación infantil y educación primaria. Descarga ejercicios de matemáticas de alta calidad en formato PDF en menos de 3 minutos.',
     keywords: 'fichas de patrones, ejercicios de patrones, fichas para imprimir, fichas infantil, fichas preescolar, material educativo gratis, fichas gratis, ejercicios matemáticas, grafomotricidad, lectoescritura, patrones AB, patrones ABC, tablas de multiplicar, abecedario, números',
     canonicalUrl: 'https://www.lessoncraftstudio.com/es/apps/fichas-patrones',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/spanish/pattern/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Ficha gratis de patrones para imprimir - ejercicio de secuencias AB para preescolar',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/spanish/pattern/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Ficha gratis para niños de patrones - actividad de secuencias ABC para infantil',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/spanish/pattern/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fichas gratis de ejercicios de patrones - material educativo para educación primaria',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/spanish/pattern/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Imprimibles gratis de fichas de patrones - ejercicios de grafomotricidad para preescolar',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/spanish/pattern/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Ficha para niños de patrones - fichas para imprimir con secuencias ABCD',
+      },
+    ],
   },
 
   // Hero Section - FULL text from pattern-worksheet.md paragraphs 1-4
@@ -30,7 +62,7 @@ export const patternWorksheetEsContent: ProductPageContent = {
 Los patrones son fundamentales en el desarrollo del pensamiento lógico de los niños. Nuestro generador permite crear fichas infantil con 9 tipos diferentes de patrones desde simples (AB) hasta complejos (ABCD). Cada ficha preescolar puede incluir de 1 a 8 ejercicios en una sola hoja. Perfecto para maestros que necesitan fichas de matemáticas personalizadas para diferentes niveles.
 
 El reconocimiento de patrones desarrolla habilidades matemáticas esenciales. Estudios muestran que los niños que dominan patrones visuales aprenden las tablas de multiplicar más fácilmente. Nuestras fichas para imprimir ayudan a construir esta base desde preescolar hasta tercer grado. Con Acceso Completo ($240 anuales o $25 mensuales) creas actividades ilimitadas con licencia comercial incluida.`,
-    previewImageSrc: '/samples/english/pattern worksheet/pattern_worksheet portrait.jpeg',
+    previewImageSrc: '/samples/spanish/pattern/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Probar Gratis',
       viewSamples: 'Ver Ejemplos',
@@ -49,7 +81,7 @@ El reconocimiento de patrones desarrolla habilidades matemáticas esenciales. Es
     },
   },
 
-  // Sample Gallery - REAL file paths from samples/english/pattern worksheet/
+  // Sample Gallery - REAL file paths from samples/spanish/pattern/
   samples: {
     sectionTitle: 'Ejemplos de Fichas de Patrones',
     sectionDescription: 'Descarga ejemplos gratuitos para ver nuestra calidad profesional',
@@ -65,17 +97,38 @@ El reconocimiento de patrones desarrolla habilidades matemáticas esenciales. Es
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/pattern worksheet/pattern_worksheet portrait.jpeg',
-        answerKeySrc: '/samples/english/pattern worksheet/pattern_worksheet portrait answer_key.jpeg',
-        altText: 'Ficha de patrones en formato vertical para educación infantil',
-        pdfDownloadUrl: '/samples/english/pattern worksheet/pattern_worksheet portrait.pdf',
+        worksheetSrc: '/samples/spanish/pattern/sample-1.jpeg',
+        answerKeySrc: '/samples/spanish/pattern/sample-1-answer.jpeg',
+        altText: 'Ficha gratis de patrones para imprimir - ejercicio de secuencias AB para preescolar con grafomotricidad',
+        pdfDownloadUrl: '/samples/spanish/pattern/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/pattern worksheet/pattern_worksheet landscape.jpeg',
-        answerKeySrc: '/samples/english/pattern worksheet/pattern_worksheet landscape answer_key (1).jpeg',
-        altText: 'Ficha de patrones en formato horizontal para práctica de secuencias',
-        pdfDownloadUrl: '/samples/english/pattern worksheet/pattern_worksheet landscape.pdf',
+        worksheetSrc: '/samples/spanish/pattern/sample-2.jpeg',
+        answerKeySrc: '/samples/spanish/pattern/sample-2-answer.jpeg',
+        altText: 'Ficha gratis para niños de patrones - actividad de secuencias ABC para educación infantil',
+        pdfDownloadUrl: '/samples/spanish/pattern/sample-2.pdf',
+      },
+      {
+        id: '3',
+        worksheetSrc: '/samples/spanish/pattern/sample-3.jpeg',
+        answerKeySrc: '/samples/spanish/pattern/sample-3-answer.jpeg',
+        altText: 'Fichas gratis de ejercicios de patrones - material educativo para primaria con tablas de multiplicar',
+        pdfDownloadUrl: '/samples/spanish/pattern/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/spanish/pattern/sample-4.jpeg',
+        answerKeySrc: '/samples/spanish/pattern/sample-4-answer.jpeg',
+        altText: 'Imprimibles gratis de fichas de patrones - ejercicios de lectoescritura para preescolar',
+        pdfDownloadUrl: '/samples/spanish/pattern/sample-4.pdf',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/spanish/pattern/sample-5.jpeg',
+        answerKeySrc: '/samples/spanish/pattern/sample-5-answer.jpeg',
+        altText: 'Ficha para niños de patrones ABCD - fichas para imprimir con números y abecedario',
+        pdfDownloadUrl: '/samples/spanish/pattern/sample-5.pdf',
       },
     ],
   },

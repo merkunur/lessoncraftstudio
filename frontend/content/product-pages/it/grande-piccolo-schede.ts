@@ -17,22 +17,48 @@ export const bigSmallItContent: ProductPageContent = {
   seo: {
     slug: 'grande-piccolo-schede',
     appId: 'big-small',
-    title: 'Schede Didattiche Grande Piccolo - Generatore di Schede Scuola dell\'Infanzia per Confronto Dimensioni',
-    description: 'Crea schede didattiche professionali per insegnare i concetti di grande e piccolo ai bambini della scuola dell\'infanzia. Generatore di schede scuola primaria con 5 tipi di esercizi di comparazione dimensioni.',
+    title: 'Schede Gratuite Grande Piccolo | Scheda Gratuita per Bambini',
+    description: 'Crea schede gratuite grande piccolo per bambini. Generatore stampabili gratuiti confronto dimensioni scuola infanzia. Scarica scheda gratuita in 3 minuti!',
     keywords: 'schede didattiche grande piccolo, schede scuola infanzia, confronto dimensioni, schede matematica, pregrafismo, schede didattiche scuola primaria, discriminazione visiva, schede italiano classe prima, disegni da colorare, numeri da stampare',
     canonicalUrl: 'https://www.lessoncraftstudio.com/it/apps/grande-piccolo-schede',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/italian/big-small/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Scheda gratuita grande piccolo per bambini - confronto dimensioni scuola infanzia'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/italian/big-small/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Schede gratuite grande piccolo immagini diverse - stampabili gratuiti scuola infanzia'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/italian/big-small/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Scheda per bambini ordinamento grande piccolo - scheda gratuita scuola primaria'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/italian/big-small/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Stampabili gratuiti grande piccolo medio - schede gratuite scuola dell\'infanzia'
+      }
+    ],
   },
 
   // Hero Section
   hero: {
-    title: 'Generatore Schede Grande Piccolo',
-    subtitle: 'Schede Didattiche Scuola dell\'Infanzia per Confronto Dimensioni',
+    title: 'Schede Gratuite Grande Piccolo - Generatore Professionale',
+    subtitle: 'Scheda Gratuita per Bambini - Stampabili Gratuiti Confronto Dimensioni',
     description: `Crea schede didattiche professionali per insegnare i concetti di grande e piccolo ai bambini della scuola dell'infanzia. Il nostro generatore di schede didattiche scuola primaria richiede un abbonamento Accesso Completo che costa 240 euro all'anno o 25 euro al mese. Con il tuo abbonamento puoi generare schede didattiche illimitate senza costi aggiuntivi per ogni scheda. Accedi a tutti i 33 tipi di generatori di schede inclusi nell'abbonamento Accesso Completo.
 
 Le schede grande e piccolo sono perfette per bambini dai 3 ai 6 anni che stanno sviluppando competenze di discriminazione visiva. Il generatore crea cinque tipi diversi di esercizi di comparazione. Cerchia l'oggetto piccolo per identificazione del più piccolo. Cerchia l'oggetto grande per riconoscimento del più grande. Cerchia l'oggetto medio quando usi tre immagini. Ordina da piccolo a grande per sequenze crescenti. Ordina da grande a piccolo per sequenze decrescenti.
 
 Ogni scheda didattica si scarica in formato PDF o JPEG di alta qualità professionale. Perfetto per stampare a casa o a scuola per attività di pregrafismo e sviluppo cognitivo. Le schede matematica e schede scuola dell'infanzia includono chiavi di risposta automatiche. Ideale per centri di apprendimento, attività individuali, valutazioni e compiti a casa. Il sistema funziona con oltre 3000 immagini adatte ai bambini organizzate per temi. Scegli animali, frutta, giocattoli, veicoli e oggetti quotidiani. Oppure carica le tue immagini personalizzate per creare schede didattiche uniche.`,
-    previewImageSrc: '/samples/english/big small/big-small identical images.jpeg',
+    previewImageSrc: '/samples/italian/big-small/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Prova Gratis',
       viewSamples: 'Vedi Esempi',
@@ -53,8 +79,8 @@ Ogni scheda didattica si scarica in formato PDF o JPEG di alta qualità professi
 
   // Sample Gallery
   samples: {
-    sectionTitle: 'Esempi di Schede Didattiche Grande Piccolo',
-    sectionDescription: 'Scarica esempi gratuiti per vedere la nostra qualità professionale',
+    sectionTitle: 'Schede Gratuite Grande Piccolo - Stampabili Gratuiti per Bambini',
+    sectionDescription: 'Scarica scheda gratuita per vedere la nostra qualità professionale',
     downloadLabel: 'Scarica Esempio Gratuito',
     worksheetLabel: 'Scheda',
     answerKeyLabel: 'Chiave di Risposta',
@@ -67,31 +93,38 @@ Ogni scheda didattica si scarica in formato PDF o JPEG di alta qualità professi
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/big small/big-small identical images.jpeg',
-        answerKeySrc: '/samples/english/big small/big-small identical images answer_key.jpeg',
-        altText: 'Scheda didattica grande piccolo con immagini identiche per scuola dell\'infanzia',
-        pdfDownloadUrl: '/samples/english/big small/big-small identical images.pdf',
+        worksheetSrc: '/samples/italian/big-small/sample-1.jpeg',
+        answerKeySrc: '/samples/italian/big-small/sample-1-answer.jpeg',
+        altText: 'Scheda gratuita grande piccolo immagini identiche - stampabili gratuiti scuola infanzia',
+        pdfDownloadUrl: '/samples/italian/big-small/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/big small/big-small-different images.jpeg',
-        answerKeySrc: '/samples/english/big small/big-small-different images answer_key.jpeg',
-        altText: 'Scheda didattica grande piccolo con immagini diverse per discriminazione visiva',
-        pdfDownloadUrl: '/samples/english/big small/big-small-different images.pdf',
+        worksheetSrc: '/samples/italian/big-small/sample-2.jpeg',
+        answerKeySrc: '/samples/italian/big-small/sample-2-answer.jpeg',
+        altText: 'Schede gratuite grande piccolo immagini diverse - scheda per bambini scuola infanzia',
+        pdfDownloadUrl: '/samples/italian/big-small/sample-2.pdf',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/big small/big-small number 1-2-3.jpeg',
-        answerKeySrc: '/samples/english/big small/big-small number 1-2-3 answer_key.jpeg',
-        altText: 'Scheda didattica grande piccolo con ordinamento numeri 1-2-3',
-        pdfDownloadUrl: '/samples/english/big small/big-small number 1-2-3.pdf',
+        worksheetSrc: '/samples/italian/big-small/sample-3.jpeg',
+        answerKeySrc: '/samples/italian/big-small/sample-3-answer.jpeg',
+        altText: 'Scheda gratuita per bambini ordinamento grande piccolo - stampabili gratuiti',
+        pdfDownloadUrl: '/samples/italian/big-small/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/italian/big-small/sample-4.jpeg',
+        answerKeySrc: '/samples/italian/big-small/sample-4-answer.jpeg',
+        altText: 'Schede gratuite grande piccolo medio - scheda per scuola dell\'infanzia',
+        pdfDownloadUrl: '/samples/italian/big-small/sample-4.pdf',
       },
     ],
   },
 
   // Features Grid
   features: {
-    sectionTitle: 'Funzionalità Complete delle Schede Didattiche Grande Piccolo - Tutto per Creare Schede Scuola dell\'Infanzia Professionali',
+    sectionTitle: 'Funzionalità Generatore Schede Gratuite - Scheda per Bambini Grande Piccolo',
     sectionDescription: 'Il generatore di schede didattiche grande piccolo include sette funzionalità essenziali per maestre e maestri della scuola dell\'infanzia e primaria. Ogni funzione è stata progettata per risparmiare tempo e creare materiali didattici di qualità professionale. L\'abbonamento Accesso Completo da 240 euro all\'anno ti dà accesso completo a tutte queste funzionalità per tutti i 33 tipi di generatori di schede. Nessun limite di utilizzo. Nessun costo aggiuntivo per scheda creata.',
     highlightBadgeText: 'Funzionalità Chiave',
     readMoreLabel: 'Leggi di più',
@@ -105,7 +138,7 @@ Ogni scheda didattica si scarica in formato PDF o JPEG di alta qualità professi
     items: [
       {
         id: '1',
-        title: 'Crea Schede Didattiche Scuola dell\'Infanzia in 3 Clic - Generazione Rapida per Attività di Pregrafismo',
+        title: 'Crea Schede Gratuite Grande Piccolo in 3 Clic - Scheda Gratuita per Bambini',
         description: `Il processo di creazione è estremamente semplice e veloce. Seleziona un tema di immagini dalla biblioteca di oltre 3000 illustrazioni adatte ai bambini. Configura le impostazioni degli esercizi secondo l'età e il livello di sviluppo dei tuoi bambini. Clicca genera e la tua scheda didattica appare istantaneamente sul canvas digitale.
 
 Non servono competenze tecniche o esperienza di design grafico. L'interfaccia è intuitiva e pensata specificamente per insegnanti occupati della scuola dell'infanzia. Dalla selezione delle immagini al download finale servono meno di 3 minuti. Perfetto per maestre che devono preparare schede matematica e attività di pregrafismo velocemente tra una lezione e l'altra.
@@ -116,7 +149,7 @@ Il sistema genera automaticamente esercizi bilanciati di confronto dimensioni. L
       },
       {
         id: '2',
-        title: 'Modifica Schede Didattiche Scuola Primaria sul Canvas - Controllo Totale su Ogni Elemento',
+        title: 'Modifica Schede Gratuite sul Canvas - Stampabili Gratuiti Personalizzati',
         description: `Ogni elemento sulla scheda didattica è completamente modificabile. Trascina immagini per riposizionarle dove preferisci. Ridimensiona oggetti cliccando e trascinando gli angoli. Ruota elementi per creare layout più dinamici e interessanti visivamente. Elimina qualsiasi cosa non ti serve con un semplice clic del mouse.
 
 Aggiungi testo personalizzato ovunque sulla scheda. Cambia colore, dimensione e font del testo secondo le tue preferenze didattiche. Inserisci istruzioni specifiche in italiano per i tuoi studenti della classe prima. Aggiungi il nome della scuola o della sezione. Crea intestazioni personalizzate che riflettono il tuo stile didattico personale.
@@ -127,7 +160,7 @@ Il canvas funziona come un editor grafico professionale ma semplificato per inse
       },
       {
         id: '3',
-        title: 'Carica Immagini Personalizzate - Schede Scuola dell\'Infanzia Uniche per i Tuoi Bambini',
+        title: 'Carica Immagini - Schede Gratuite per Scuola dell\'Infanzia',
         description: `La funzione di caricamento immagini ti permette di usare le tue foto e illustrazioni personali. Carica foto degli oggetti della tua classe o sezione. Usa immagini che i tuoi bambini della scuola dell'infanzia conoscono e riconoscono quotidianamente. Crea schede didattiche tematiche collegate alle unità didattiche che stai insegnando.
 
 Il sistema accetta tutti i formati immagine comuni come JPEG, PNG e GIF. Puoi caricare più file contemporaneamente con un solo clic. Le immagini caricate si mescolano con quelle della biblioteca integrata. Combina immagini personali con illustrazioni professionali per risultati unici e personalizzati.
@@ -138,7 +171,7 @@ Questa funzione è particolarmente utile per bambini con bisogni educativi speci
       },
       {
         id: '4',
-        title: 'Schede Didattiche in 11 Lingue - Supporto Multilingue per Scuola dell\'Infanzia Internazionale',
+        title: 'Schede Gratuite in 11 Lingue - Scheda per Bambini Multilingue',
         description: `Il generatore supporta 11 lingue diverse per interfaccia e contenuti. Italiano, inglese, tedesco, francese, spagnolo, portoghese brasiliano, olandese, danese, svedese, norvegese e finlandese. Cambia lingua con un semplice clic dal menu impostazioni nel pannello laterale.
 
 Questa funzionalità è essenziale per scuole internazionali e programmi bilingue della scuola primaria. Crea le stesse schede didattiche in lingue diverse per sezioni multilingue. Supporta bambini che stanno imparando l'italiano come seconda lingua nella classe prima. Perfetto per scuole dell'infanzia con bambini di background linguistici diversi.
@@ -149,7 +182,7 @@ Le etichette e le istruzioni delle schede matematica cambiano automaticamente ne
       },
       {
         id: '5',
-        title: 'Licenza Commerciale Inclusa - Vendi Schede Didattiche Scuola dell\'Infanzia su Etsy e Teachers Pay Teachers',
+        title: 'Licenza Commerciale - Vendi Schede Gratuite Grande Piccolo',
         description: `L'abbonamento Accesso Completo include una licenza commerciale print-on-demand completa senza costi aggiuntivi. Puoi vendere le schede didattiche che crei su piattaforme come Etsy, Teachers Pay Teachers e Amazon KDP. Nessuna attribuzione richiesta sui tuoi prodotti digitali. Trattieni il 100% dei profitti dalle vendite.
 
 Molti insegnanti italiani guadagnano vendendo schede didattiche scuola primaria e materiali per la scuola dell'infanzia online. Teachers Pay Teachers è un mercato globale con milioni di insegnanti acquirenti. Le schede di pregrafismo, schede matematica e disegni da colorare sono tra i prodotti più venduti. Insegnanti di successo guadagnano da 500 a 5000 euro al mese vendendo risorse didattiche.
@@ -160,7 +193,7 @@ La qualità professionale 300 DPI è perfetta per prodotti digitali commerciali.
       },
       {
         id: '6',
-        title: 'Biblioteca di 3000+ Immagini - Schede Didattiche e Disegni da Colorare Integrati per Scuola dell\'Infanzia',
+        title: '3000+ Immagini - Crea Schede Gratuite per Bambini',
         description: `La biblioteca integrata contiene oltre 3000 immagini professionali adatte ai bambini della scuola dell'infanzia. Organizzate per temi educativi: animali domestici, animali della fattoria, animali selvatici, frutta, verdura, trasporti, oggetti scolastici, giocattoli, natura e molto altro. Ogni immagine è stata selezionata per essere chiara, riconoscibile e appropriata per l'età prescolare.
 
 Seleziona per tema per creare schede didattiche tematiche coordinate. Scegli tema animali della fattoria per unità didattiche sull'agricoltura. Usa tema frutta e verdura per educazione alimentare nella scuola dell'infanzia. Seleziona veicoli per progetti sui trasporti. Le schede matematica tematiche aumentano l'interesse e rinforzano apprendimenti trasversali.
@@ -171,7 +204,7 @@ Molte immagini funzionano perfettamente anche come disegni da colorare dopo gli 
       },
       {
         id: '7',
-        title: 'Qualità Professionale 300 DPI - Schede Didattiche Scuola Primaria Pronte per Stampa e Vendita',
+        title: 'Qualità 300 DPI - Stampabili Gratuiti Professionali',
         description: `Tutte le schede didattiche si scaricano in risoluzione professionale 300 DPI. Questa è qualità da tipografia per stampa nitida e chiara. Le immagini mantengono dettagli perfetti anche quando stampate a grandezza naturale. I bordi degli oggetti sono netti per facilitare la discriminazione visiva. I colori sono vivaci e attraenti per i bambini della scuola dell'infanzia.
 
 Scegli formato JPEG per stampa rapida immediata o PDF per documenti multipagina organizzati. Il formato PDF mantiene dimensioni esatte della pagina A4 o Letter. JPEG funziona con qualsiasi stampante casalinga senza programmi speciali. Entrambi i formati mantengono la qualità professionale 300 DPI per schede matematica e pregrafismo.
@@ -185,7 +218,7 @@ L'opzione scala di grigi è inclusa per ridurre drasticamente il consumo di inch
 
   // How-To Guide Section
   howTo: {
-    sectionTitle: 'Come Creare Schede Didattiche Grande Piccolo in 5 Semplici Passi - Schede Scuola dell\'Infanzia Pronte in 3 Minuti',
+    sectionTitle: 'Come Creare Schede Gratuite Grande Piccolo - Scheda Gratuita per Bambini',
     sectionDescription: 'Creare schede didattiche professionali per insegnare i concetti di dimensione richiede meno di 3 minuti. L\'intero processo dal login al download è velocissimo e intuitivo. Nessuna competenza tecnica richiesta per generare schede matematica e attività di pregrafismo. Segui questi cinque passi semplici e avrai schede didattiche scuola primaria personalizzate pronte per i tuoi studenti della scuola dell\'infanzia.',
     ctaText: 'Inizia Ora',
     badgeText: 'Guida Passo-Passo',
@@ -200,7 +233,7 @@ L'opzione scala di grigi è inclusa per ridurre drasticamente il consumo di inch
       {
         id: '1',
         number: 1,
-        title: 'Seleziona Immagini per Schede Didattiche Scuola dell\'Infanzia - Temi o Selezione Personalizzata',
+        title: 'Scegli Immagini - Schede Gratuite per Scuola dell\'Infanzia',
         description: `Il primo passo è selezionare le immagini che appariranno nelle tue schede grande e piccolo. Hai tre opzioni principali per scegliere le immagini. Seleziona un tema completo dalla biblioteca organizzata. Scegli immagini individuali sfogliando la collezione di 3000 illustrazioni. Oppure carica le tue foto personalizzate dalla classe o da casa.
 
 La selezione per tema è la più veloce per creare schede didattiche. Clicca sul menu a tendina temi e scegli una categoria educativa. Temi disponibili includono animali domestici, animali della fattoria, animali selvatici, frutta, verdura, giocattoli, veicoli, oggetti scolastici, natura e molti altri. Ogni tema contiene 20-50 immagini coordinate visivamente perfette per la scuola dell'infanzia.
@@ -211,7 +244,7 @@ Una volta selezionato il tema il sistema mostra tutte le immagini disponibili in
       {
         id: '2',
         number: 2,
-        title: 'Configura Impostazioni Esercizi Grande Piccolo - Schede Didattiche Personalizzate per Ogni Livello',
+        title: 'Imposta Difficoltà - Scheda per Bambini Personalizzata',
         description: `Il secondo passo è configurare come funzioneranno gli esercizi di confronto dimensioni. Queste impostazioni controllano la difficoltà e il formato delle schede didattiche scuola dell'infanzia. Tutte le opzioni hanno valori predefiniti intelligenti che funzionano bene per la maggior parte delle situazioni educative.
 
 Scegli il numero di esercizi per pagina da 1 a 10. Per bambini piccoli della scuola dell'infanzia 3-4 esercizi per pagina funzionano bene. Lascia spazio sufficiente per i bambini di lavorare senza sentirsi sopraffatti. Per classe prima 5-6 esercizi sono appropriati. Per esercitazioni intensive o compiti a casa usa fino a 8-10 esercizi per creare schede matematica complete.
@@ -222,7 +255,7 @@ Scegli se usare 2 o 3 immagini per esercizio nelle tue schede didattiche. Con 2 
       {
         id: '3',
         number: 3,
-        title: 'Genera Schede Didattiche Scuola dell\'Infanzia - Creazione Istantanea con Numeri da Stampare',
+        title: 'Genera Scheda Gratuita - Stampabili Gratuiti Istantanei',
         description: `Il terzo passo è generare la scheda grande piccolo. Clicca il grande pulsante verde Genera Scheda nel pannello laterale. Il sistema elabora le tue impostazioni e crea la scheda didattica in 2-3 secondi. La scheda appare sul canvas digitale pronta per revisione e modifica immediata.
 
 Il sistema distribuisce automaticamente gli esercizi sulla pagina in modo bilanciato. Lo spacing è ottimizzato per chiarezza e facilità d'uso da parte dei bambini. Ogni esercizio ha spazio sufficiente per le risposte. Il layout è professionale senza intervento manuale. Perfetto per creare velocemente schede didattiche scuola primaria di alta qualità.
@@ -233,7 +266,7 @@ Le immagini che hai selezionato vengono assegnate casualmente agli esercizi. Ogn
       {
         id: '4',
         number: 4,
-        title: 'Modifica Schede Scuola dell\'Infanzia sul Canvas - Personalizza Attività di Pregrafismo Completamente',
+        title: 'Personalizza Schede Gratuite - Scheda Gratuita per Bambini',
         description: `Il quarto passo è modificare la scheda didattica sul canvas digitale interattivo. Questo passo è completamente opzionale per creare schede didattiche scuola primaria. Se la scheda generata è perfetta puoi saltare direttamente al download. Ma la possibilità di modificare ti dà controllo creativo totale sulle tue schede matematica.
 
 Clicca qualsiasi elemento per selezionarlo sul canvas. Immagini, cerchi per le risposte, numeri, testo. Tutto è modificabile nelle schede scuola dell'infanzia. Trascina elementi selezionati per riposizionarli dove preferisci. Usa i punti di controllo agli angoli per ridimensionare. Ruota elementi usando l'icona di rotazione circolare. Elimina elementi con il tasto Canc o pulsante elimina nella barra strumenti.
@@ -244,7 +277,7 @@ Aggiungi testo personalizzato cliccando il pulsante Aggiungi Testo. Digita istru
       {
         id: '5',
         number: 5,
-        title: 'Scarica Schede Didattiche Scuola Primaria - PDF e JPEG di Qualità Professionale 300 DPI',
+        title: 'Scarica Stampabili Gratuiti - Schede Gratuite PDF',
         description: `Il quinto passo finale è scaricare le schede didattiche per stampa o condivisione. Clicca il menu a tendina Download nella barra superiore. Scegli tra quattro opzioni di download per le tue schede scuola dell'infanzia. Scheda esercizi in formato JPEG. Scheda esercizi in formato PDF. Chiave di risposta in JPEG. Chiave di risposta in PDF.
 
 Il formato JPEG è perfetto per stampa rapida immediata delle schede didattiche scuola primaria. Funziona con qualsiasi stampante casalinga senza programmi speciali. Apri il file e stampa direttamente. Ideale per stampare una singola scheda matematica velocemente. I file JPEG si aprono in qualsiasi dispositivo per massima compatibilità.
@@ -257,7 +290,7 @@ Il formato PDF mantiene dimensioni esatte della pagina A4 o Letter. Perfetto per
 
   // Use Cases Section
   useCases: {
-    sectionTitle: 'Perfetto per Maestre e Genitori - Schede Didattiche Scuola dell\'Infanzia per Ogni Esigenza Educativa',
+    sectionTitle: 'Perfetto per Maestre - Schede Gratuite Grande Piccolo Scuola Infanzia',
     sectionDescription: 'Il generatore di schede grande piccolo è ideale per diversi tipi di educatori e contesti didattici. Maestre della scuola dell\'infanzia usano le schede per insegnare concetti matematici fondamentali. Insegnanti di scuola primaria creano materiali per pregrafismo e discriminazione visiva. Genitori homeschooler personalizzano schede didattiche per i loro bambini. Educatori di sostegno adattano le attività per bisogni speciali.',
     badgeText: 'Chi Usa le Nostre Schede',
     readMoreLabel: 'Leggi di più',
@@ -267,7 +300,7 @@ Il formato PDF mantiene dimensioni esatte della pagina A4 o Letter. Perfetto per
         id: '1',
         icon: '👶',
         title: 'Maestre di Scuola dell\'Infanzia - Schede Didattiche e Attività di Pregrafismo per Bambini 3-6 Anni',
-        subtitle: 'Pregrafismo, Discriminazione Visiva e Concetti Matematici',
+        subtitle: 'Schede Gratuite Pregrafismo e Stampabili Gratuiti',
         description: `Le maestre della scuola dell'infanzia usano il generatore quotidianamente per attività di discriminazione visiva. Creano schede grande piccolo per introdurre concetti matematici di base. I bambini di 3-4 anni iniziano con esercizi semplici usando 2 immagini. I bambini di 5-6 anni progrediscono a esercizi con 3 immagini includendo il concetto di medio.
 
 Le schede didattiche supportano lo sviluppo cognitivo e le attività di pregrafismo. Cerchiare l'immagine corretta sviluppa controllo motorio fine. Ordinare immagini da piccolo a grande insegna sequenze e relazioni spaziali. Queste competenze sono fondamentali per la preparazione alla scuola primaria e alla classe prima.
@@ -279,7 +312,7 @@ Le maestre apprezzano particolarmente la velocità di creazione. Preparare sched
         id: '2',
         icon: '👩‍🏫',
         title: 'Insegnanti di Scuola Primaria - Schede Didattiche Scuola Primaria per Matematica e Discriminazione Visiva',
-        subtitle: 'Schede Matematica con Tabelline e Numeri da Stampare',
+        subtitle: 'Scheda Gratuita Matematica - Stampabili Gratuiti Numeri',
         description: `Gli insegnanti di classe prima e classe seconda usano le schede grande piccolo per rafforzare concetti matematici. La discriminazione dimensioni è collegata a competenze di misurazione e confronto quantitativo. I bambini che padroneggiano grande-piccolo-medio hanno basi solide per comprendere numeri da stampare, tabelline e operazioni matematiche.
 
 Le schede didattiche scuola primaria funzionano bene come riscaldamento matematico all'inizio della lezione. Cinque minuti di attività grande piccolo attivano il pensiero logico. I bambini si concentrano e sono pronti per concetti più complessi. Perfetto anche come pausa cervello tra attività impegnative di alfabeto o italiano.
@@ -291,7 +324,7 @@ Molti insegnanti di classe prima combinano schede grande piccolo con schede mate
         id: '3',
         icon: '🏠',
         title: 'Genitori Homeschooler - Schede Scuola dell\'Infanzia Personalizzate per Educazione Domiciliare',
-        subtitle: 'Schede Didattiche Scuola Primaria con Alfabeto e Lettere',
+        subtitle: 'Schede Gratuite Scuola Primaria - Scheda per Bambini',
         description: `I genitori che educano a casa apprezzano la flessibilità completa del generatore. Creano schede didattiche perfettamente calibrate sul livello del loro bambino. Nessun compromesso per adattarsi a gruppi classe eterogenei. Ogni scheda è personalizzata per il ritmo di apprendimento individuale del bambino.
 
 La possibilità di caricare immagini personali è particolarmente preziosa per homeschooling. Fotografa giocattoli preferiti del bambino per schede grande piccolo. Usa foto di oggetti di casa per esercizi contestualizzati. Crea schede matematica con immagini di fratelli o animali domestici. La personalizzazione aumenta drasticamente motivazione e comprensione.
@@ -303,7 +336,7 @@ I genitori homeschooler usano l'abbonamento Accesso Completo per accesso a tutti
         id: '4',
         icon: '💚',
         title: 'Educatori di Sostegno - Schede Didattiche Adattate per Bisogni Educativi Speciali',
-        subtitle: 'Schede Didattiche Differenziate con Pregrafismo Adattato',
+        subtitle: 'Scheda Gratuita Differenziata - Schede per Scuola Infanzia',
         description: `Gli educatori di sostegno trovano il generatore estremamente utile per differenziazione. Bambini con bisogni speciali necessitano materiali adattati al loro livello. Le schede grande piccolo si personalizzano completamente per ogni studente. Crea esercizi molto semplici con 2 immagini grandi e chiaramente diverse per bambini con difficoltà cognitive.
 
 La possibilità di modificare ogni elemento sul canvas è essenziale per adattamenti. Ingrandisci immagini per bambini con difficoltà visive. Semplifica layout rimuovendo elementi distraenti. Aggiungi supporti visivi extra come frecce colorate o bordi evidenziati. Personalizza istruzioni con linguaggio semplificato o pittogrammi.
@@ -315,7 +348,7 @@ Le schede didattiche con immagini personalizzate supportano bambini con autismo.
         id: '5',
         icon: '🌍',
         title: 'Insegnanti di Italiano L2 - Schede Italiano Classe Prima e Vocabolario Dimensioni',
-        subtitle: 'Schede Multilingue per Apprendimento della Lingua Italiana',
+        subtitle: 'Schede Gratuite Italiano - Stampabili Gratuiti Multilingue',
         description: `Gli insegnanti di italiano come seconda lingua usano schede grande piccolo per insegnare vocabolario di base. I concetti di dimensione sono tra i primi aggettivi che bambini stranieri imparano. Grande, piccolo, medio sono parole fondamentali ad alta frequenza. Le schede didattiche forniscono pratica visiva concreta per acquisizione linguistica.
 
 Le schede funzionano perfettamente in contesti multilingue. L'abbonamento include 11 lingue di interfaccia. Crea schede italiano classe prima per studenti italofoni. Crea le stesse schede in inglese, arabo o cinese per confronto. I bambini vedono che concetti di dimensione sono universali mentre parole cambiano tra lingue.
@@ -327,7 +360,7 @@ Molti insegnanti L2 combinano schede grande piccolo con schede alfabeto e letter
         id: '6',
         icon: '💼',
         title: 'Insegnanti Imprenditori - Vendi Schede Didattiche Scuola dell\'Infanzia su Etsy e Teachers Pay Teachers',
-        subtitle: 'Vendi Schede Didattiche con Tabelline e Disegni da Colorare',
+        subtitle: 'Vendi Schede Gratuite - Scheda per Bambini Commerciale',
         description: `Molti insegnanti italiani stanno costruendo business online vendendo schede didattiche. Teachers Pay Teachers e Etsy sono mercati globali con domanda enorme per materiali educativi di qualità. Le schede matematica, pregrafismo, alfabeto, tabelline e disegni da colorare sono tra i prodotti più venduti.
 
 L'abbonamento Accesso Completo include licenza commerciale completa. Crea centinaia di schede didattiche scuola primaria diverse da vendere. Nessun costo aggiuntivo oltre ai 240 euro annuali. Nessuna attribuzione richiesta. Trattieni 100% dei profitti dalle vendite. Molti insegnanti guadagnano da 500 a 5000 euro al mese vendendo risorse digitali.
@@ -340,7 +373,7 @@ La strategia vincente è creare pacchetti tematici completi. Pacchetto autunno c
 
   // FAQ Section
   faq: {
-    sectionTitle: 'Domande Frequenti su Schede Didattiche Scuola Primaria e Pregrafismo - Risposte Complete per Insegnanti',
+    sectionTitle: 'Domande Frequenti Schede Gratuite Grande Piccolo - Stampabili Gratuiti',
     sectionDescription: 'Gli insegnanti hanno domande specifiche prima di abbonarsi al generatore di schede grande piccolo. Questa sezione risponde alle domande più comuni su schede didattiche scuola dell\'infanzia, schede matematica, alfabeto, tabelline, pregrafismo e disegni da colorare.',
     showMoreText: 'Mostra altre domande',
     showLessText: 'Mostra meno domande',
@@ -352,7 +385,7 @@ La strategia vincente è creare pacchetti tematici completi. Pacchetto autunno c
     items: [
       {
         id: '1',
-        question: 'Il Generatore di Schede Didattiche Scuola Primaria è Davvero Gratuito da Usare?',
+        question: 'Posso Scaricare Schede Gratuite Grande Piccolo - Scheda Gratuita per Bambini?',
         answer: `Il generatore di schede grande piccolo richiede un abbonamento Accesso Completo che costa 240 euro all'anno o 25 euro al mese. L'abbonamento ti dà accesso illimitato alla creazione di schede didattiche scuola primaria senza costi aggiuntivi per singola scheda. Genera tutte le schede matematica, alfabeto, tabelline, pregrafismo, disegni da colorare, schede italiano classe prima e numeri da stampare di cui hai bisogno senza limiti.
 
 L'abbonamento Accesso Completo include tutti i 33 generatori di schede sulla piattaforma. Non solo grande piccolo ma anche addizioni, sottrazioni, lettere dell'alfabeto, vocabolario, pattern, labirinti e molti altri. Un singolo abbonamento copre tutte le esigenze di materiali didattici per scuola dell'infanzia e scuola primaria durante tutto l'anno scolastico.
@@ -361,7 +394,7 @@ Entrambi gli abbonamenti includono licenza commerciale completa. Puoi vendere le
       },
       {
         id: '2',
-        question: 'Posso Stampare Schede Matematica e Pregrafismo a Casa con Stampante Normale?',
+        question: 'Come Stampare Schede Gratuite a Casa - Stampabili Gratuiti per Bambini?',
         answer: `Sì, tutte le schede didattiche funzionano perfettamente con stampanti domestiche normali. Le schede matematica, pregrafismo, alfabeto e disegni da colorare si scaricano in formato PDF o JPEG. Entrambi i formati sono compatibili con qualsiasi stampante inkjet o laser. Apri il file scaricato e stampa direttamente senza programmi speciali.
 
 Le schede si adattano automaticamente ai formati pagina standard. Scegli formato Letter per stampanti americane o A4 per stampanti europee. Le dimensioni sono preimpostate correttamente. Non serve ridimensionare o regolare margini. La stampa è semplice come qualsiasi documento normale.
@@ -370,7 +403,7 @@ L'opzione scala di grigi riduce drasticamente consumo di inchiostro. Le schede d
       },
       {
         id: '3',
-        question: 'Servono Competenze di Design per Creare Schede Matematica, Tabelline e Alfabeto?',
+        question: 'Servono Competenze di Design per Creare Schede Gratuite per Bambini?',
         answer: `No, non servono competenze di design grafico per creare schede didattiche professionali. Il generatore è stato progettato specificamente per insegnanti senza esperienza tecnica. L'interfaccia è intuitiva e guidata passo-passo. Seleziona immagini, configura impostazioni, clicca genera. Le schede matematica, tabelline, alfabeto e pregrafismo appaiono pronte in 3 minuti.
 
 Il sistema gestisce automaticamente tutta l'impaginazione professionale. Distribuisce esercizi sulla pagina in modo bilanciato. Ottimizza spacing per chiarezza. Ridimensiona immagini proporzionalmente. Crea layout puliti senza intervento manuale. Anche insegnanti che non hanno mai usato programmi grafici creano schede didattiche scuola primaria di qualità eccellente.
@@ -379,7 +412,7 @@ Se vuoi personalizzare ulteriormente le schede l'editor canvas è semplice. Tras
       },
       {
         id: '4',
-        question: 'Posso Usare Schede Alfabeto e Lettere dell\'Alfabeto nella Mia Classe con Studenti?',
+        question: 'Posso Usare Schede Gratuite Scuola Infanzia con i Miei Studenti?',
         answer: `Sì, l'abbonamento Accesso Completo include utilizzo illimitato in classe con i tuoi studenti. Crea tutte le schede alfabeto, lettere dell'alfabeto, tabelline, schede matematica, pregrafismo e disegni da colorare che servono. Stampa copie multiple per tutta la classe. Usa le schede didattiche scuola primaria per lezioni, centri di apprendimento, compiti a casa e valutazioni.
 
 La licenza copre uso educativo completo in contesti scolastici. Scuole pubbliche, private, charter e religiose. Programmi homeschool e educazione parentale. Doposcuola e tutoring privato. Centri estivi educativi. Qualsiasi contesto dove insegni a bambini della scuola dell'infanzia o primaria.
@@ -388,7 +421,7 @@ Puoi anche condividere schede didattiche con colleghi della tua scuola. Genera s
       },
       {
         id: '5',
-        question: 'Quali Lingue Supportano le Schede Matematica, Tabelline e Numeri da Stampare?',
+        question: 'Quali Lingue Supportano le Schede Gratuite - Scheda per Bambini Multilingue?',
         answer: `Il generatore supporta 11 lingue per interfaccia e contenuti delle schede didattiche. Italiano, inglese, tedesco, francese, spagnolo, portoghese brasiliano, olandese, danese, svedese, norvegese e finlandese. Cambia lingua con un clic dal menu impostazioni. Tutte le etichette, istruzioni e elementi di testo cambiano automaticamente nella lingua selezionata.
 
 Questa funzionalità è essenziale per scuole internazionali e programmi bilingue. Genera schede matematica in italiano per studenti italofoni. Crea tabelline in inglese per sezioni internazionali. Prepara schede alfabeto in francese per programmi di immersione linguistica. Le stesse immagini funzionano in tutte le lingue quindi crei facilmente materiali paralleli.
@@ -397,7 +430,7 @@ Gli insegnanti di italiano L2 trovano il supporto multilingue particolarmente pr
       },
       {
         id: '6',
-        question: 'Posso Vendere Schede Didattiche Scuola Primaria e Disegni da Colorare che Creo?',
+        question: 'Posso Vendere le Schede Gratuite Grande Piccolo che Creo?',
         answer: `Sì, l'abbonamento Accesso Completo include licenza commerciale print-on-demand completa. Puoi vendere schede didattiche scuola primaria, disegni da colorare, schede matematica, tabelline, alfabeto, pregrafismo e numeri da stampare su piattaforme commerciali. Etsy, Teachers Pay Teachers e Amazon KDP sono i mercati più popolari per insegnanti imprenditori.
 
 Nessun costo aggiuntivo oltre all'abbonamento annuale da 240 euro. Nessuna attribuzione richiesta sui tuoi prodotti. Trattieni 100% dei profitti dalle vendite dopo le commissioni delle piattaforme di vendita. Molti insegnanti guadagnano da 500 a 5000 euro mensili vendendo risorse didattiche digitali.
@@ -406,7 +439,7 @@ La strategia vincente è creare pacchetti completi tematici. Bundle matematica p
       },
       {
         id: '7',
-        question: 'Come Posso Personalizzare Schede Italiano Classe Prima e Lettere dell\'Alfabeto per i Miei Studenti?',
+        question: 'Come Personalizzare Schede Gratuite - Scheda Gratuita per Bambini?',
         answer: `Le schede didattiche sono completamente personalizzabili sul canvas digitale. Ogni elemento è modificabile. Trascina immagini per riposizionarle. Ridimensiona elementi cliccando angoli. Ruota oggetti per layout dinamici. Elimina qualsiasi cosa non serva. Aggiungi testo personalizzato ovunque sulla scheda italiano classe prima o lettere dell'alfabeto.
 
 Carica le tue immagini personalizzate per schede uniche. Fotografa oggetti dalla tua classe. Usa foto di mascotte scolastiche. Carica disegni creati dai bambini. Le immagini personali si mescolano con la biblioteca di 3000 illustrazioni professionali. Combina per risultati completamente personalizzati.
@@ -415,7 +448,7 @@ Modifica colori, font e dimensioni di tutto il testo. Cambia colore sfondo per t
       },
       {
         id: '8',
-        question: 'Quali Gruppi di Età Funzionano Meglio con Schede Pregrafismo e Numeri da Stampare?',
+        question: 'Quali Età per Schede Gratuite Grande Piccolo - Stampabili Gratuiti?',
         answer: `Le schede grande piccolo sono perfette per bambini dai 3 ai 7 anni. Bambini di 3-4 anni della scuola dell'infanzia lavorano su discriminazione visiva di base. Esercizi semplici con 2 immagini grandi e chiaramente diverse. Cerchiare l'oggetto grande o piccolo sviluppa competenze di osservazione e pregrafismo fondamentali.
 
 Bambini di 5-6 anni progrediscono a esercizi più complessi. Tre immagini includendo il concetto di medio. Ordinare da piccolo a grande insegna sequenze. Queste attività preparano per matematica formale con numeri da stampare e tabelline. Sviluppano pensiero logico necessario per classe prima.
@@ -424,7 +457,7 @@ Bambini di classe prima e seconda usano schede per rafforzare competenze. La dis
       },
       {
         id: '9',
-        question: 'Posso Caricare Mie Immagini per Schede Alfabeto, Pregrafismo e Disegni da Colorare?',
+        question: 'Posso Caricare Mie Immagini per Schede Gratuite per Bambini?',
         answer: `Sì, la funzione di caricamento immagini personalizzate è inclusa nell'abbonamento. Carica foto in formato JPEG, PNG o GIF. Caricamento multiplo permette di aggiungere molte immagini contemporaneamente. Le tue immagini appaiono insieme alla biblioteca integrata. Selezionale per schede alfabeto, pregrafismo, disegni da colorare o qualsiasi altro tipo di scheda didattica.
 
 Questa funzione è particolarmente utile per temi specifici. Fotografa oggetti dall'aula per schede contestualizzate. Usa foto di gite scolastiche per attività di follow-up. Carica immagini di feste culturali per unità multiculturali. Crea schede italiano classe prima con vocabolario specifico al tuo curriculum locale.
@@ -433,7 +466,7 @@ Le immagini personalizzate supportano bambini con bisogni speciali. Usa foto dal
       },
       {
         id: '10',
-        question: 'Quanto Tempo Serve per Creare Schede Matematica, Tabelline e Lettere dell\'Alfabeto?',
+        question: 'Quanto Tempo per Creare Schede Gratuite - Stampabili Gratuiti Veloci?',
         answer: `Creare una scheda didattica richiede meno di 3 minuti dall'inizio alla fine. Seleziona tema o immagini - 30 secondi. Configura impostazioni per schede matematica, tabelline o lettere dell'alfabeto - 30 secondi. Clicca genera - 5 secondi. Rivedi scheda sul canvas - 30 secondi. Scarica PDF o JPEG - 30 secondi. Totale circa 2-3 minuti per scheda completa.
 
 Questo è drasticamente più veloce dei metodi tradizionali. Creare schede manualmente richiede 30-60 minuti. Cercare clipart online. Impaginare in Word o PowerPoint. Formattare per stampa. Correggere errori di allineamento. Con il generatore risparmi 90% del tempo preparando schede didattiche scuola primaria, pregrafismo e numeri da stampare.
@@ -442,7 +475,7 @@ Se vuoi personalizzare aggiungi 2-5 minuti. Modifica testo, sposta immagini, cam
       },
       {
         id: '11',
-        question: 'Le Schede Grande Piccolo Includono Chiavi di Risposta?',
+        question: 'Le Schede Gratuite Grande Piccolo Includono Chiavi di Risposta?',
         answer: `Sì, il generatore crea automaticamente chiavi di risposta per schede grande piccolo. Dopo aver generato la scheda esercizi clicca il pulsante Genera Chiave di Risposta. Il sistema crea una seconda scheda identica ma con soluzioni evidenziate. Per esercizi cerchia appare segno di spunta verde sull'immagine corretta. Per esercizi ordinamento appaiono numeri 1-2-3 nelle posizioni corrette.
 
 Le chiavi di risposta hanno stesso formato e qualità delle schede esercizi. Puoi scaricare entrambe in PDF o JPEG. Ideale per correzione rapida, autovalutazione studenti e lavoro indipendente. Questo vale anche per schede matematica, tabelline, alfabeto, numeri da stampare e tutti gli altri 33 generatori sulla piattaforma.
@@ -451,7 +484,7 @@ Il risparmio tempo con chiavi automatiche è significativo. Non devi calcolare m
       },
       {
         id: '12',
-        question: 'Posso Creare Schede Didattiche Scuola Primaria su Matematica, Alfabeto e Altre Materie Specifiche?',
+        question: 'Posso Creare Schede Gratuite per Scuola Infanzia - Scheda per Bambini?',
         answer: `Sì, l'abbonamento Accesso Completo include 33 generatori diversi per tutte le materie principali. Schede matematica includono addizioni, sottrazioni, moltiplicazioni, divisioni, tabelline, numeri da stampare e frazioni. Schede alfabeto e lettere dell'alfabeto coprono literacy. Schede italiano classe prima includono vocabolario, grammatica e lettura. Pregrafismo e disegni da colorare supportano sviluppo motorio e artistico.
 
 Ogni generatore è specializzato per una competenza specifica. Grande piccolo insegna discriminazione dimensioni. Pattern insegna sequenze logiche. Labirinti sviluppano problem solving. Trova e conta sviluppa abilità di conteggio. Combina diversi generatori per creare curriculum completi per scuola dell'infanzia e primaria.
@@ -516,7 +549,7 @@ Puoi creare schede tematiche collegando materie diverse. Tema animali con grande
 
   // Related Apps Section
   relatedApps: {
-    sectionTitle: 'Combina Grande Piccolo con Altri Generatori',
+    sectionTitle: 'Combina Schede Gratuite Grande Piccolo con Altri Stampabili Gratuiti',
     sectionDescription: 'L\'abbonamento Accesso Completo include 33 generatori. Combina il generatore Grande Piccolo con altri strumenti. Crea pacchetti completi di schede didattiche. Perfetto per unità tematiche. Ottimo per centri di apprendimento.',
     ctaTitle: 'Pronto a Creare Schede Straordinarie?',
     ctaDescription: 'Unisciti a migliaia di educatori che creano schede professionali. Generazione illimitata, licenza commerciale inclusa.',

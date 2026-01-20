@@ -15,22 +15,42 @@ export const wordSearchItContent: ProductPageContent = {
   seo: {
     slug: 'cerca-parole-schede',
     appId: 'wordsearch',
-    title: 'Generatore di Crucipuzzle | Schede Didattiche Scuola Primaria Stampabili',
+    title: 'Crucipuzzle Scheda Gratuita per Bambini - Stampabili Gratuiti di Schede Gratuite',
     description: 'Crea crucipuzzle professionali con il nostro generatore di schede didattiche. Genera schede didattiche scuola primaria illimitate per la scuola dell\'infanzia e la scuola primaria. Scarica schede didattiche PDF di alta qualità in meno di 3 minuti.',
     keywords: 'crucipuzzle, schede didattiche, scuola primaria, schede stampabili, generatore crucipuzzle, schede didattiche scuola primaria, schede italiano classe prima, pregrafismo, alfabeto, schede matematica',
     canonicalUrl: 'https://www.lessoncraftstudio.com/it/apps/cerca-parole-schede',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/italian/wordsearch/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Scheda gratuita di crucipuzzle per bambini - stampabili gratuiti per scuola dell\'infanzia',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/italian/wordsearch/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Schede gratuite di crucipuzzle - scheda per bambini stampabile',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/italian/wordsearch/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Stampabili gratuiti di crucipuzzle - scheda gratuita per scuola dell\'infanzia',
+      },
+    ],
   },
 
   // Hero Section - FULL text from wordsearch.md paragraphs 1-3
   hero: {
-    title: 'Generatore di Crucipuzzle',
-    subtitle: 'Schede Didattiche Scuola Primaria Stampabili',
+    title: 'Scheda Gratuita di Crucipuzzle per Bambini - Stampabili Gratuiti',
+    subtitle: 'Generatore di Schede Gratuite per Scuola dell\'Infanzia - Scheda per Bambini',
     description: `Crea crucipuzzle professionali con il nostro generatore di schede didattiche. Il tuo abbonamento Pacchetto Essenziale ti permette di generare schede didattiche scuola primaria illimitate senza costi aggiuntivi per ogni foglio. Genera crucipuzzle stampabili personalizzati perfetti per la scuola dell'infanzia e la scuola primaria. Scarica schede didattiche PDF di alta qualità in meno di 3 minuti.
 
 Il nostro generatore di crucipuzzle rende facile creare schede didattiche personalizzate per i tuoi studenti. Ogni crucipuzzle può includere immagini dalla nostra biblioteca di oltre 3000 elementi oppure le tue immagini caricate. Gli insegnanti della scuola primaria usano il nostro strumento per creare schede matematica, schede italiano classe prima, e attività di pregrafismo. Il generatore supporta 11 lingue diverse per contenuti multilingue e insegnamento ESL.
 
 Le schede didattiche scuola primaria create con il nostro generatore sono stampabili immediatamente. Scarica in formato PDF o JPEG con qualità professionale 300 DPI. Ogni crucipuzzle generato può essere completamente modificato sulla tela digitale. Trascina elementi, ridimensiona immagini, cambia colori e font. Gli insegnanti della scuola dell'infanzia apprezzano la facilità di creare schede didattiche tematiche in pochi clic.`,
-    previewImageSrc: '/samples/english/wordsearch/wordsearch portrait.jpeg',
+    previewImageSrc: '/samples/italian/wordsearch/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Prova Gratis',
       viewSamples: 'Vedi Esempi',
@@ -49,9 +69,9 @@ Le schede didattiche scuola primaria create con il nostro generatore sono stampa
     },
   },
 
-  // Sample Gallery - REAL file paths from samples/english/wordsearch/
+  // Sample Gallery - REAL file paths from samples/italian/wordsearch/
   samples: {
-    sectionTitle: 'Esempi di Crucipuzzle',
+    sectionTitle: 'Esempi di Scheda Gratuita di Crucipuzzle - Schede Gratuite per Bambini',
     sectionDescription: 'Scarica esempi gratuiti per vedere la nostra qualità professionale',
     downloadLabel: 'Scarica Esempio Gratuito',
     worksheetLabel: 'Scheda',
@@ -65,31 +85,31 @@ Le schede didattiche scuola primaria create con il nostro generatore sono stampa
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/wordsearch/wordsearch portrait.jpeg',
-        answerKeySrc: '/samples/english/wordsearch/wordsearch portrait answer_key.jpeg',
-        altText: 'Crucipuzzle formato verticale con immagini tematiche per pratica vocabolario scuola infanzia',
-        pdfDownloadUrl: '/samples/english/wordsearch/wordsearch portrait.pdf',
+        worksheetSrc: '/samples/italian/wordsearch/sample-1.jpeg',
+        answerKeySrc: '/samples/italian/wordsearch/sample-1-answer.jpeg',
+        altText: 'Scheda gratuita di crucipuzzle per bambini - stampabili gratuiti per scuola dell\'infanzia',
+        pdfDownloadUrl: '/samples/italian/wordsearch/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/wordsearch/wordsearch landscape.jpeg',
-        answerKeySrc: '/samples/english/wordsearch/wordsearch landscape answer_key.jpeg',
-        altText: 'Crucipuzzle formato orizzontale con immagini colorate per scuola primaria',
-        pdfDownloadUrl: '/samples/english/wordsearch/wordsearch landscape.pdf',
+        worksheetSrc: '/samples/italian/wordsearch/sample-2.jpeg',
+        answerKeySrc: '/samples/italian/wordsearch/sample-2-answer.jpeg',
+        altText: 'Schede gratuite di crucipuzzle - scheda per bambini con immagini tematiche',
+        pdfDownloadUrl: '/samples/italian/wordsearch/sample-2.pdf',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/wordsearch/custom word list.jpeg',
-        answerKeySrc: '/samples/english/wordsearch/custom word list answer_key.jpeg',
-        altText: 'Crucipuzzle con lista parole personalizzata per pratica ortografia',
-        pdfDownloadUrl: '/samples/english/wordsearch/custom word list.pdf',
+        worksheetSrc: '/samples/italian/wordsearch/sample-3.jpeg',
+        answerKeySrc: '/samples/italian/wordsearch/sample-3-answer.jpeg',
+        altText: 'Stampabili gratuiti di crucipuzzle - scheda gratuita per scuola dell\'infanzia',
+        pdfDownloadUrl: '/samples/italian/wordsearch/sample-3.pdf',
       },
     ],
   },
 
   // Features Grid - FULL text from wordsearch.md feature sections
   features: {
-    sectionTitle: 'Tutto il Necessario per Schede Didattiche Scuola Primaria',
+    sectionTitle: 'Caratteristiche del Generatore - Scheda Gratuita per Bambini e Stampabili Gratuiti',
     sectionDescription: 'Il nostro generatore di crucipuzzle include tutte le funzionalità necessarie per creare schede didattiche professionali. Ogni caratteristica è stata progettata pensando agli insegnanti. Genera schede didattiche scuola primaria in minuti invece di ore.',
     highlightBadgeText: 'Funzionalità Chiave',
     readMoreLabel: 'Leggi di più',
@@ -104,7 +124,7 @@ Le schede didattiche scuola primaria create con il nostro generatore sono stampa
       {
         id: '1',
         icon: '⚡',
-        title: 'Crea Schede Didattiche in 3 Clic',
+        title: 'Crea Scheda Gratuita in 3 Clic - Generatore di Schede Gratuite',
         description: `La creazione di crucipuzzle è incredibilmente semplice con il nostro generatore. Seleziona un tema dalla nostra biblioteca. Clicca genera. Scarica la tua scheda didattica. Questi tre passaggi richiedono meno di 3 minuti. Gli insegnanti della scuola dell'infanzia apprezzano la velocità di creazione. Scegli tra oltre 50 temi educativi organizzati per materia. Ogni tema contiene immagini curate appropriate per l'età. Il generatore seleziona automaticamente 8 immagini e crea il crucipuzzle.
 
 Le schede didattiche generate automaticamente sono pronte per la stampa immediata. Nessuna modifica richiesta se sei soddisfatto del risultato. Ogni crucipuzzle include la lista delle parole da cercare. Le immagini appaiono accanto alle parole corrispondenti. Questa associazione visiva aiuta gli studenti più giovani. La dimensione predefinita della griglia funziona perfettamente per la scuola dell'infanzia. Gli insegnanti risparmiano tempo prezioso usando la generazione automatica per attività quotidiane.`,
@@ -113,7 +133,7 @@ Le schede didattiche generate automaticamente sono pronte per la stampa immediat
       {
         id: '2',
         icon: '✏️',
-        title: 'Modifica Schede sulla Tela Digitale',
+        title: 'Modifica la Scheda per Bambini - Stampabili Gratuiti Personalizzabili',
         description: `Ogni crucipuzzle generato può essere completamente modificato sulla tela digitale. Clicca su qualsiasi elemento per selezionarlo. Trascina immagini per riposizionarle. Ridimensiona gli elementi trascinando gli angoli. Ruota le immagini per un orientamento perfetto. Elimina elementi che non desideri. Questa editabilità completa ti dà controllo totale sul design finale.
 
 Le schede didattiche scuola primaria spesso richiedono personalizzazione per studenti diversi. Modifica le dimensioni del testo per studenti ipovedenti. Aumenta la dimensione delle immagini per principianti. Riduci la complessità della griglia per studenti con bisogni speciali. Cambia i colori per migliorare il contrasto. Ogni modifica avviene istantaneamente sulla tela. Vedi immediatamente i risultati delle tue modifiche.
@@ -124,7 +144,7 @@ Il sistema di annulla/ripristina protegge il tuo lavoro. Prova diverse disposizi
       {
         id: '3',
         icon: '🌍',
-        title: 'Crucipuzzle in 11 Lingue',
+        title: 'Scheda Gratuita per Bambini in 11 Lingue - Crucipuzzle Multilingue',
         description: `Il generatore supporta 11 lingue diverse per i contenuti. Crea crucipuzzle in italiano per schede italiano classe prima. Genera attività in inglese per lezioni ESL. Passa facilmente tra lingue diverse. Ogni immagine nella nostra biblioteca ha nomi in tutte le 11 lingue. Il sistema usa automaticamente la lingua selezionata per i nomi delle parole.
 
 Questo supporto multilingue è perfetto per insegnanti di lingua straniera. Crea crucipuzzle per studenti che imparano inglese, tedesco, francese, spagnolo, portoghese, italiano, olandese, danese, svedese, norvegese o finlandese. Ogni crucipuzzle generato usa vocabolario nativo. Gli studenti imparano parole corrette nella loro lingua target. L'associazione di immagini e parole rafforza l'apprendimento del vocabolario.
@@ -135,7 +155,7 @@ Le scuole internazionali beneficiano enormemente di questa funzionalità. Crea m
       {
         id: '4',
         icon: '📤',
-        title: 'Carica Immagini Personalizzate',
+        title: 'Carica Immagini per Scheda per Scuola dell\'Infanzia - Schede Gratuite',
         description: `Carica le tue immagini per schede didattiche completamente personalizzate. Clicca il pulsante di caricamento. Seleziona uno o più file immagine. Le tue immagini appaiono immediatamente nella biblioteca. Usa formati JPEG, PNG o GIF. Carica foto dei tuoi studenti per crucipuzzle personalizzati. Includi immagini specifiche per le tue lezioni.
 
 Gli insegnanti caricano immagini per schede matematica con forme geometriche personalizzate. Crea crucipuzzle con vocabolario matematico specifico. Carica illustrazioni di concetti che stai insegnando. Combina immagini caricate con la nostra biblioteca. Gli insegnanti d'arte caricano disegni da colorare creati dagli studenti. Trasforma il lavoro degli studenti in attività di apprendimento.
@@ -146,7 +166,7 @@ Le immagini caricate rimangono disponibili durante la tua sessione. Riutilizza l
       {
         id: '5',
         icon: '💰',
-        title: 'Licenza Commerciale Inclusa',
+        title: 'Licenza Commerciale per Stampabili Gratuiti - Vendi Schede Gratuite',
         description: `Il tuo abbonamento Pacchetto Essenziale include una licenza commerciale completa. Vendi schede didattiche che crei con il nostro generatore. Pubblica su Teachers Pay Teachers senza costi aggiuntivi. Apri un negozio Etsy per fogli stampabili. Crea libri di attività per Amazon KDP. La licenza copre tutti gli usi di stampa su richiesta.
 
 Gli insegnanti vendono pacchetti di crucipuzzle con lettere dell'alfabeto per scuola dell'infanzia. Crea serie tematiche di attività per ogni lettera. Vendi crucipuzzle matematici con numeri e forme. Genera pacchetti di tabelline per studenti di scuola primaria. Ogni crucipuzzle che crei può essere venduto commercialmente. Nessuna attribuzione richiesta sui tuoi prodotti.
@@ -157,7 +177,7 @@ Questa licenza commerciale rappresenta un valore enorme rispetto ai concorrenti.
       {
         id: '6',
         icon: '🎨',
-        title: 'Biblioteca di 3000+ Immagini',
+        title: '3000+ Immagini per Scheda Gratuita - Scheda per Scuola dell\'Infanzia',
         description: `Accedi a oltre 3000 immagini adatte ai bambini nella nostra biblioteca. Ogni immagine è stata selezionata per uso educativo. Trova immagini per qualsiasi materia o tema. Cerca per parola chiave per trovare esattamente ciò di cui hai bisogno. Filtra per tema per vedere collezioni curate. Tutte le immagini sono ottimizzate per la stampa in alta qualità.
 
 La biblioteca include immagini complete per esercizi di pregrafismo. Trova forme, linee e modelli per lo sviluppo della motricità fine. Accedi a numeri da stampare da 0 a 100 in vari stili. Usa lettere dell'alfabeto maiuscole e minuscole. Ogni lettera disponibile in diversi font e stili. Le immagini coprono animali, cibo, trasporti, professioni, sport, natura e molto altro.
@@ -168,7 +188,7 @@ Le immagini sono organizzate per facilità d'uso. Sfoglia per categoria per ispi
       {
         id: '7',
         icon: '🖨️',
-        title: 'Qualità Professionale 300 DPI',
+        title: 'Qualità 300 DPI per Scheda per Bambini - Stampabili Gratuiti Professionali',
         description: `Ogni crucipuzzle viene esportato a 300 DPI per qualità professionale. Questa alta risoluzione garantisce testo nitido e immagini chiare. Stampa su qualsiasi stampante domestica o professionale. Le schede didattiche scuola primaria hanno un aspetto professionale, non fatto in casa. I genitori apprezzano la qualità visiva dei materiali.
 
 Scegli tra formati PDF e JPEG per il download. I PDF mantengono la massima qualità per la stampa. I file JPEG funzionano bene per la condivisione digitale. L'opzione scala di grigi risparmia inchiostro mantenendo la qualità. Utile per classi che stampano molte copie. Ogni formato di esportazione mantiene la risoluzione 300 DPI.
@@ -181,7 +201,7 @@ La qualità professionale è essenziale per vendere schede didattiche. I clienti
 
   // How-To Guide - FULL text from wordsearch.md step sections
   howTo: {
-    sectionTitle: 'Crea Schede Didattiche in 5 Semplici Passaggi',
+    sectionTitle: 'Come Creare Scheda Gratuita per Bambini in 5 Passaggi - Stampabili Gratuiti',
     sectionDescription: 'Creare crucipuzzle professionali con il nostro generatore richiede meno di 3 minuti. Segui questi cinque passaggi per produrre schede didattiche scuola primaria di alta qualità. Non sono necessarie competenze di design. Non è richiesta esperienza tecnica.',
     ctaText: 'Inizia Ora',
     badgeText: 'Come Funziona',
@@ -196,7 +216,7 @@ La qualità professionale è essenziale per vendere schede didattiche. I clienti
       {
         id: '1',
         number: 1,
-        title: 'Scegli il Contenuto per le Schede',
+        title: 'Scegli il Contenuto - Scheda Gratuita o Schede Gratuite Tematiche',
         description: `Il primo passaggio è selezionare il contenuto per il tuo crucipuzzle. Hai tre opzioni potenti per creare schede didattiche scuola primaria. Scegli un tema dalla nostra biblioteca per generazione automatica veloce. Seleziona immagini individuali per schede didattiche mirate alle tue lezioni. Carica le tue immagini personalizzate per contenuti completamente unici. Ogni metodo produce crucipuzzle professionali pronti per la stampa.
 
 La selezione del tema è la più veloce. Clicca il menu a tendina "Tema". Sfoglia oltre 50 temi educativi organizzati per categoria. Seleziona "Animali della fattoria" per lezioni di scienze. Scegli "Lettere dell'alfabeto" per attività di alfabetizzazione. Prendi "Forme geometriche" per schede matematica.
@@ -207,7 +227,7 @@ La selezione individuale di immagini offre controllo preciso. Clicca il pulsante
       {
         id: '2',
         number: 2,
-        title: 'Personalizza le Impostazioni',
+        title: 'Personalizza Scheda per Bambini - Stampabili Gratuiti per Ogni Livello',
         description: `Il secondo passaggio personalizza le impostazioni del crucipuzzle per i tuoi studenti. Regola la dimensione della griglia per abbinare il livello di abilità. Modifica il formato della pagina per le tue esigenze di stampa. Attiva opzioni del puzzle per la difficoltà appropriata. Ogni impostazione ti dà controllo completo sul prodotto finale.
 
 La dimensione della griglia determina la difficoltà del crucipuzzle. Le griglie più piccole sono più facili per i giovani studenti. Imposta 8×8 per la scuola dell'infanzia. Usa 10×10 per la prima classe. Prova 12×12 per studenti di seconda e terza classe. Le griglie più grandi creano puzzle più impegnativi.
@@ -218,7 +238,7 @@ Le opzioni del puzzle controllano la complessità della ricerca delle parole. Sp
       {
         id: '3',
         number: 3,
-        title: 'Genera la Scheda Didattica',
+        title: 'Genera Scheda per Scuola dell\'Infanzia - Scheda Gratuita Istantanea',
         description: `Il terzo passaggio genera il tuo crucipuzzle con un singolo clic. Clicca il grande pulsante "Genera Crucipuzzle". Il generatore crea il tuo puzzle in 2-3 secondi. L'anteprima appare istantaneamente sulla tela. Vedi esattamente come apparirà il tuo crucipuzzle stampato. La griglia mostra tutte le parole nascoste nelle lettere casuali.
 
 Il processo di generazione è completamente automatico. L'algoritmo posiziona parole nella griglia rispettando le tue impostazioni. Le parole si incrociano naturalmente quando possibile. Gli spazi vuoti si riempiono con lettere casuali. Il layout professionale avviene istantaneamente.
@@ -229,7 +249,7 @@ La generazione automatica del tema produce crucipuzzle completi in un clic. Il s
       {
         id: '4',
         number: 4,
-        title: 'Modifica sulla Tela',
+        title: 'Modifica Scheda Gratuita per Bambini - Personalizza Schede Gratuite',
         description: `Il quarto passaggio modifica il crucipuzzle generato sulla tela digitale. Questa editabilità completa distingue il nostro generatore dagli strumenti di base. Clicca su qualsiasi elemento per selezionarlo. Trascina per riposizionare. Ridimensiona trascinando gli angoli. Ruota usando la maniglia di rotazione. Elimina premendo il tasto Canc.
 
 La modifica del testo permette personalizzazione completa della formattazione. Clicca sul titolo per modificare il testo. Cambia "Crucipuzzle" in "Cerca Parole di Matematica". Personalizza per la tua lezione specifica. Clicca su qualsiasi testo per modificare dimensione del font, famiglia di caratteri e colore.
@@ -240,7 +260,7 @@ La modifica delle immagini offre controllo completo del posizionamento. Trascina
       {
         id: '5',
         number: 5,
-        title: 'Scarica e Stampa',
+        title: 'Scarica Stampabili Gratuiti - Schede Gratuite PDF e JPEG',
         description: `Il quinto passaggio scarica il tuo crucipuzzle finito per la stampa. Clicca il pulsante "Scarica PDF" per la massima qualità di stampa. Il file PDF mantiene la risoluzione 300 DPI completa. Stampa su qualsiasi stampante domestica o professionale. I colori appaiono vibranti e il testo rimane nitido.
 
 L'opzione JPEG offre flessibilità per la condivisione digitale. Clicca "Scarica JPEG" per formato immagine. Condividi facilmente via email con i genitori. Carica su piattaforme di apprendimento digitale. I file JPEG mantengono la qualità 300 DPI per la stampa.
@@ -253,7 +273,7 @@ L'opzione scala di grigi risparmia inchiostro colorato mantenendo la qualità. S
 
   // Use Cases - FULL text from wordsearch.md use case sections
   useCases: {
-    sectionTitle: 'Perfetto per Insegnanti, Genitori ed Educatori',
+    sectionTitle: 'Chi Usa Schede Gratuite - Scheda Gratuita per Bambini per Ogni Esigenza',
     sectionDescription: 'Il generatore di crucipuzzle serve educatori in contesti diversi. Gli insegnanti della scuola dell\'infanzia creano attività di pregrafismo. Gli insegnanti di scuola primaria generano schede matematica. I genitori homeschool producono disegni da colorare.',
     badgeText: 'Per Chi',
     readMoreLabel: 'Leggi di più',
@@ -262,8 +282,8 @@ L'opzione scala di grigi risparmia inchiostro colorato mantenendo la qualità. S
       {
         id: '1',
         icon: '👩‍🏫',
-        title: 'Insegnanti della Scuola dell\'Infanzia',
-        subtitle: 'Pregrafismo, Alfabeto e Attività di Alfabetizzazione Precoce',
+        title: 'Insegnanti - Scheda per Scuola dell\'Infanzia',
+        subtitle: 'Scheda Gratuita di Pregrafismo e Alfabeto per Bambini',
         description: `Gli insegnanti della scuola dell'infanzia usano il generatore per creare attività di pregrafismo essenziali. I crucipuzzle sviluppano abilità di riconoscimento visivo necessarie per la lettura. I giovani studenti scansionano la griglia cercando lettere dell'alfabeto. Questa pratica rafforza il riconoscimento delle lettere. Le immagini nel crucipuzzle forniscono indizi visivi per parole.
 
 Le attività di pregrafismo preparano gli studenti per la scrittura. Cerchiare parole trovate sviluppa il controllo motorio fine. Tracciare da lettera a lettera migliora la coordinazione occhio-mano. Gli insegnanti creano crucipuzzle con lettere dell'alfabeto grandi e chiare.
@@ -274,8 +294,8 @@ I temi della scuola dell'infanzia funzionano perfettamente con il generatore. Cr
       {
         id: '2',
         icon: '📚',
-        title: 'Insegnanti di Scuola Primaria',
-        subtitle: 'Schede Matematica, Tabelline e Numeri da Stampare',
+        title: 'Scuola Primaria - Schede Gratuite',
+        subtitle: 'Scheda Gratuita per Bambini con Matematica',
         description: `Gli insegnanti di scuola primaria creano schede matematica usando crucipuzzle tematici. Genera puzzle con numeri da stampare da 1-100. Gli studenti cercano numeri nella griglia per la pratica di riconoscimento. Crea crucipuzzle di "Forme geometriche" per vocabolario matematico.
 
 I crucipuzzle con tabelline offrono pratica di moltiplicazione coinvolgente. Usa liste di parole personalizzate per fatti di moltiplicazione. Scrivi "DUE PER TRE", "DUE PER QUATTRO", "DUE PER CINQUE" come parole. Gli studenti trovano ogni fatto di moltiplicazione nella griglia.
@@ -286,8 +306,8 @@ Le schede matematica con elementi visivi migliorano la comprensione concettuale.
       {
         id: '3',
         icon: '🏠',
-        title: 'Genitori Homeschool',
-        subtitle: 'Schede Didattiche e Disegni da Colorare per Apprendimento a Casa',
+        title: 'Genitori - Stampabili Gratuiti',
+        subtitle: 'Scheda per Bambini per Apprendimento a Casa',
         description: `I genitori homeschool apprezzano la velocità di creazione di schede didattiche. Insegni tre figli a livelli diversi simultaneamente. Genera crucipuzzle appropriati per ogni età in minuti. Crea puzzle 8×8 facile per il bambino di 5 anni. Genera griglia 12×12 media per il bambino di 7 anni.
 
 La combinazione di crucipuzzle e disegni da colorare crea pacchetti di apprendimento completi. Genera un crucipuzzle su "Animali della giungla". Scarica fogli di disegni da colorare degli stessi animali dalla nostra biblioteca. Il bambino completa il crucipuzzle poi colora le immagini abbinate.
@@ -298,8 +318,8 @@ Le schede didattiche personalizzate si adattano agli interessi dei bambini. Tuo 
       {
         id: '4',
         icon: '🌍',
-        title: 'Insegnanti ESL e Lingua Straniera',
-        subtitle: 'Crucipuzzle Multilingue per Acquisizione Vocabolario',
+        title: 'ESL - Scheda Gratuita Multilingue',
+        subtitle: 'Schede Gratuite per Vocabolario Straniero',
         description: `Gli insegnanti ESL sfruttano il supporto di 11 lingue del generatore. Insegni inglese a studenti di lingua italiana. Crea crucipuzzle identici in italiano e inglese. Gli studenti completano prima la versione italiana per fiducia. Poi affrontano la versione inglese con vocabolario familiare.
 
 I crucipuzzle tematici costruiscono campi semantici in lingua straniera. Crea serie di "Cibo" con frutti, verdure, bevande. Genera puzzle di "Abbigliamento" con indumenti e accessori. Produce attività di "Famiglia" con termini di parentela.
@@ -310,8 +330,8 @@ Le scuole internazionali usano crucipuzzle per programmi di immersione bilingue.
       {
         id: '5',
         icon: '💜',
-        title: 'Insegnanti di Sostegno',
-        subtitle: 'Schede Italiano Classe Prima e Materiali Differenziati',
+        title: 'Sostegno - Scheda per Bambini Speciali',
+        subtitle: 'Scheda Gratuita per Scuola dell\'Infanzia Personalizzata',
         description: `Gli insegnanti di sostegno personalizzano schede italiano classe prima per studenti con bisogni diversi. Carica foto dello studente per motivazione personale. Includi immagini di oggetti familiari dall'ambiente domestico dello studente. Usa lettere dell'alfabeto extra grandi per studenti ipovedenti.
 
 I crucipuzzle con alfabeto aiutano studenti che lottano con il riconoscimento delle lettere. Crea puzzle singola lettera per pratica focalizzata. Genera griglia con solo la lettera A ripetuta. Lo studente la trova ogni volta che appare. Passa alla lettera B dopo il successo.
@@ -322,8 +342,8 @@ La modifica manuale dei nomi delle immagini supporta obiettivi IEP specifici. Un
       {
         id: '6',
         icon: '💰',
-        title: 'Insegnanti-Imprenditori',
-        subtitle: 'Vendere Schede Didattiche su Teachers Pay Teachers',
+        title: 'Imprenditori - Stampabili Gratuiti',
+        subtitle: 'Schede Gratuite con Licenza Commerciale',
         description: `Gli insegnanti-imprenditori usano il generatore per creare prodotti vendibili. La licenza commerciale Pacchetto Essenziale copre tutte le vendite di stampa su richiesta. Crea pacchetti di crucipuzzle a tema per Teachers Pay Teachers. Genera 20 crucipuzzle su "Animali dell'oceano".
 
 I negozi Etsy prosperano con schede didattiche stampabili. Genera serie di crucipuzzle stagionali. Crea 12 puzzle a tema autunnale. Produce 12 design invernali. Sviluppa 12 attività primaverili. Genera 12 crucipuzzle estivi. Elenca ogni serie separatamente su Etsy.
@@ -336,7 +356,7 @@ Amazon KDP permette pubblicazione di libri di crucipuzzle. Crea 100 crucipuzzle 
 
   // FAQ Section - Selected FAQs from wordsearch.md
   faq: {
-    sectionTitle: 'Domande Frequenti',
+    sectionTitle: 'Domande su Schede Gratuite e Stampabili Gratuiti di Crucipuzzle',
     sectionDescription: 'Tutto quello che devi sapere sul nostro generatore di crucipuzzle.',
     showMoreText: 'Mostra altre domande',
     showLessText: 'Mostra meno',
@@ -348,62 +368,62 @@ Amazon KDP permette pubblicazione di libri di crucipuzzle. Crea 100 crucipuzzle 
     items: [
       {
         id: '1',
-        question: 'Questo generatore di schede didattiche è gratuito da usare?',
+        question: 'Questa scheda gratuita di crucipuzzle è davvero gratis?',
         answer: 'Il generatore di crucipuzzle richiede un abbonamento Pacchetto Essenziale che costa 144 euro annualmente o 15 euro mensili. Il tuo abbonamento ti dà creazione illimitata di crucipuzzle senza costi per foglio. Genera tutte le schede didattiche scuola primaria di cui hai bisogno senza costi aggiuntivi. Nessun limite sul numero di crucipuzzle creati. Nessun limite sul numero di download.',
       },
       {
         id: '2',
-        question: 'Posso stampare schede didattiche a casa su una stampante normale?',
+        question: 'Posso stampare schede gratuite a casa su una stampante normale?',
         answer: 'Sì. Tutte le schede didattiche scaricano come file PDF o JPEG ottimizzati per la stampa domestica. Stampa su qualsiasi stampante inkjet o laser standard. I formati Letter e A4 si adattano a stampanti comuni. La qualità 300 DPI garantisce testo nitido e immagini chiare. L\'opzione scala di grigi risparmia inchiostro colorato mantenendo la qualità.',
       },
       {
         id: '3',
-        question: 'Ho bisogno di competenze di design per creare schede didattiche?',
+        question: 'Ho bisogno di competenze per creare scheda per bambini?',
         answer: 'No. Il generatore non richiede competenze di design per creare schede didattiche o crucipuzzle. Clicca tre pulsanti: seleziona tema, genera, scarica. Il sistema gestisce automaticamente tutto il design professionale. Nessuna conoscenza di software di grafica necessaria. Gli insegnanti senza competenze tecniche creano materiali dall\'aspetto professionale facilmente.',
       },
       {
         id: '4',
-        question: 'Posso usare crucipuzzle e schede didattiche nella mia classe?',
+        question: 'Posso usare stampabili gratuiti nella mia classe?',
         answer: 'Sì. L\'abbonamento Pacchetto Essenziale include uso in classe illimitato per schede didattiche con pregrafismo e alfabeto. Stampa copie per tutti i tuoi studenti. Condividi con colleghi nel tuo edificio scolastico. Usa materiali per istruzione in classe, compiti, centri di apprendimento. Nessuna limitazione su utilizzo educativo.',
       },
       {
         id: '5',
-        question: 'Quali lingue sono disponibili per le schede didattiche?',
+        question: 'Quali lingue per scheda gratuita per bambini sono disponibili?',
         answer: 'Le schede didattiche sono disponibili in 11 lingue per contenuti multilingue. Crea schede italiano classe prima in italiano. Genera materiali in inglese, tedesco, francese, spagnolo, portoghese, olandese, danese, svedese, norvegese o finlandese. Ogni immagine nella biblioteca ha nomi in tutte le lingue supportate.',
       },
       {
         id: '6',
-        question: 'Posso vendere le schede didattiche che creo?',
+        question: 'Posso vendere le schede gratuite che creo?',
         answer: 'Sì. L\'abbonamento Pacchetto Essenziale include licenza commerciale completa di stampa su richiesta. Vendi schede didattiche su Teachers Pay Teachers. Crea pacchetti per Etsy. Pubblica libri di attività su Amazon KDP. La licenza copre tutte le piattaforme di vendita online. Nessun costo aggiuntivo per diritti commerciali.',
       },
       {
         id: '7',
-        question: 'Come personalizzo le schede didattiche per studenti diversi?',
+        question: 'Come personalizzo scheda per scuola dell\'infanzia?',
         answer: 'Personalizza schede didattiche modificando dimensioni griglia, difficoltà e contenuto. Riduci dimensioni griglia a 8×8 per studenti in difficoltà. Aumenta a 16×16 per studenti avanzati. Disabilita parole diagonali e inverse per principianti. Carica immagini personalizzate per interessi specifici degli studenti. Modifica dimensioni font per studenti ipovedenti.',
       },
       {
         id: '8',
-        question: 'Quali fasce d\'età funzionano meglio con i crucipuzzle?',
+        question: 'Quali età per scheda gratuita per bambini funzionano meglio?',
         answer: 'Le schede didattiche con pregrafismo funzionano meglio per bambini di 4-6 anni. I crucipuzzle sviluppano abilità di riconoscimento visivo necessarie per la lettura. Gli studenti di scuola primaria dalla prima alla terza classe beneficiano di crucipuzzle più complessi con griglie più grandi e parole più difficili. Il generatore si adatta a tutte le età regolando impostazioni.',
       },
       {
         id: '9',
-        question: 'Posso caricare le mie immagini per crucipuzzle personalizzati?',
+        question: 'Posso caricare immagini per stampabili gratuiti personalizzati?',
         answer: 'Sì. Carica le tue immagini per creare schede didattiche completamente personalizzate. Clicca il pulsante caricamento. Seleziona file JPEG, PNG o GIF. Le tue immagini appaiono nella biblioteca. Usa con immagini della nostra biblioteca o da sole. Carica foto degli studenti, manipolativi matematici o illustrazioni specifiche per le tue lezioni.',
       },
       {
         id: '10',
-        question: 'Quanto tempo serve per creare una scheda didattica?',
+        question: 'Quanto tempo per creare schede gratuite?',
         answer: 'Creare schede didattiche richiede meno di 3 minuti. Seleziona tema con lettere dell\'alfabeto. Clicca genera. Scarica. Tre passaggi semplici producono crucipuzzle professionale. La selezione di immagini individuali aggiunge 2-3 minuti. Anche con personalizzazione completa, i crucipuzzle finiscono in 10 minuti.',
       },
       {
         id: '11',
-        question: 'Le schede didattiche includono fogli delle risposte?',
+        question: 'Le schede gratuite includono fogli delle risposte?',
         answer: 'Sì. Tutti i crucipuzzle includono opzione foglio delle risposte. Clicca "Scarica Foglio delle Risposte" dopo generazione. Ricevi versione con tutte le parole evidenziate nella griglia. Usa per correzione rapida. Condividi con assistenti didattici. I fogli delle risposte corrispondono esattamente al crucipuzzle dello studente.',
       },
       {
         id: '12',
-        question: 'Posso creare crucipuzzle su materie scolastiche specifiche?',
+        question: 'Posso creare scheda per bambini su materie specifiche?',
         answer: 'Sì. Crea schede didattiche su materie specifiche usando temi mirati e liste di parole personalizzate. Genera crucipuzzle di tabelline con fatti di moltiplicazione. Usa temi matematici per vocabolario geometrico. Carica immagini di concetti scientifici che stai insegnando. Ogni argomento diventa attività coinvolgente di crucipuzzle.',
       },
     ],
@@ -441,7 +461,7 @@ Amazon KDP permette pubblicazione di libri di crucipuzzle. Crea 100 crucipuzzle 
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Combina con Altri Generatori di Schede',
+    sectionTitle: 'Combina Schede Gratuite con Altri Generatori - Stampabili Gratuiti Complementari',
     sectionDescription: 'Crea pacchetti di apprendimento completi combinando crucipuzzle con questi generatori complementari.',
     ctaTitle: 'Pronto a Creare Schede Straordinarie?',
     ctaDescription: 'Unisciti a migliaia di educatori che creano schede professionali. Generazione illimitata, licenza commerciale inclusa.',

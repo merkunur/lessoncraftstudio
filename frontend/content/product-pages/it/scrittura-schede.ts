@@ -15,24 +15,44 @@ export const writingItContent: ProductPageContent = {
   seo: {
     slug: 'scrittura-schede',
     appId: 'writing',
-    title: 'Schede Didattiche Pregrafismo e Scrittura - Generatore di Schede Didattiche Scuola Primaria per Alfabeto e Numeri',
-    description: 'Crea schede didattiche di pregrafismo professionali in pochi minuti. Con l\'abbonamento Accesso Completo puoi generare schede didattiche scuola primaria illimitate senza costi aggiuntivi. Generatore di schede per scrittura, alfabeto, lettere dell\'alfabeto, numeri da stampare. Perfetto per scuola dell\'infanzia e classe prima.',
-    keywords: 'schede didattiche pregrafismo, schede didattiche scuola primaria, schede italiano classe prima, lettere dell\'alfabeto, alfabeto, numeri da stampare, pregrafismo scuola infanzia, tabelline, schede matematica, disegni da colorare, scrittura',
+    title: 'Schede Gratuite Scrittura | Generatore Schede per Bambini | Stampabili Gratuiti Pregrafismo',
+    description: 'Crea schede gratuite scrittura e pregrafismo per bambini. Stampabili gratuiti per scuola dell\'infanzia. Scarica scheda gratuita PDF in 3 minuti. Schede didattiche scuola primaria con lettere dell\'alfabeto e numeri da stampare.',
+    keywords: 'schede gratuite scrittura, scheda gratuita per bambini, stampabili gratuiti, scheda per scuola dell\'infanzia, schede didattiche pregrafismo, schede didattiche scuola primaria, schede italiano classe prima, lettere dell\'alfabeto, numeri da stampare, pregrafismo scuola infanzia',
     canonicalUrl: 'https://www.lessoncraftstudio.com/it/apps/scrittura-schede',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/italian/writing/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Schede gratuite scrittura - pregrafismo stampabili gratuiti per scuola dell\'infanzia'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/italian/writing/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Scheda gratuita per bambini - scrittura lettere dell\'alfabeto per scuola primaria'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/italian/writing/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Schede didattiche pregrafismo - stampabili gratuiti numeri da stampare per bambini'
+      }
+    ],
   },
 
   // Hero Section
   hero: {
-    title: 'Generatore Schede Didattiche Pregrafismo e Scrittura',
-    subtitle: 'Schede Didattiche Scuola Primaria per Alfabeto e Numeri',
-    description: `Crea schede didattiche di pregrafismo professionali in pochi minuti. Con l'abbonamento Accesso Completo di LessonCraft Studio puoi generare schede didattiche scuola primaria illimitate senza costi aggiuntivi per singola scheda. Questo generatore ti permette di creare materiale didattico per l'apprendimento della scrittura, perfetto per insegnanti e genitori.
+    title: 'Schede Gratuite Scrittura e Pregrafismo - Stampabili Gratuiti per Bambini',
+    subtitle: 'Scheda Gratuita per Scuola dell\'Infanzia - Generatore Professionale',
+    description: `Crea schede gratuite scrittura e pregrafismo per insegnare ai tuoi studenti. Il tuo abbonamento Accesso Completo ti permette di creare stampabili gratuiti illimitati senza costi aggiuntivi. Genera scheda gratuita per bambini personalizzata perfetta per la scuola dell'infanzia e la classe prima. Scarica schede gratuite di alta qualità in formato PDF in meno di 3 minuti.
 
-Le schede didattiche per il pregrafismo sono fondamentali per lo sviluppo delle abilità grafomotorie dei bambini. Ogni bambino ha bisogno di esercizi progressivi per imparare a scrivere. Le nostre schede didattiche scuola primaria offrono diversi tipi di righe, stili di carattere e contenuti personalizzabili.
+Il nostro generatore di schede gratuite rende facile l'insegnamento del pregrafismo e della scrittura. Cinque stili di carattere disponibili: stampatello regolare, con frecce, tratteggiato, tratteggiato con frecce e corsivo. Ogni scheda gratuita per bambini combina immagini chiare con esercizi efficaci. Gli studenti imparano le lettere dell'alfabeto e i numeri da stampare attraverso attività visive coinvolgenti.
 
-Il pregrafismo rappresenta la fase preparatoria all'apprendimento della scrittura vera e propria. I bambini della scuola dell'infanzia iniziano con tracciati semplici come linee verticali, orizzontali e cerchi. Questi esercizi sviluppano la coordinazione occhio-mano necessaria per scrivere lettere e numeri.
+Personalizza completamente i tuoi stampabili gratuiti per scuola primaria. Scegli tra migliaia di immagini dalla nostra biblioteca. Carica le tue foto personali per rendere le schede più familiari. Modifica ogni elemento direttamente sulla tela: trascina, ridimensiona, ruota qualsiasi oggetto. Crea schede gratuite uniche perfette per i tuoi studenti della scuola dell'infanzia.
 
-Con il nostro generatore puoi creare schede didattiche di pregrafismo con diversi tipi di tracciato. Le linee verticali insegnano il movimento dall'alto verso il basso. Le linee orizzontali sviluppano il controllo laterale. I cerchi preparano alle lettere curve come la O e la C. Lo zigzag allena i cambi di direzione essenziali per le lettere dell'alfabeto.`,
-    previewImageSrc: '/samples/english/writing/writing.jpeg',
+Il generatore funziona in 11 lingue diverse. Le schede didattiche pregrafismo vengono tradotte automaticamente nella lingua selezionata. Ideale per insegnanti di italiano come lingua seconda. Scarica scheda per scuola dell'infanzia in formato PDF o JPEG con qualità professionale a 300 DPI. Risparmia ore di preparazione e crea schede gratuite professionali in pochi minuti.`,
+    previewImageSrc: '/samples/italian/writing/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Prova Gratis',
       viewSamples: 'Vedi Esempi',
@@ -53,46 +73,46 @@ Con il nostro generatore puoi creare schede didattiche di pregrafismo con divers
 
   // Sample Gallery
   samples: {
-    sectionTitle: 'Esempi di Schede Didattiche Pregrafismo e Scrittura',
-    sectionDescription: 'Scarica esempi gratuiti per vedere la nostra qualità professionale',
-    downloadLabel: 'Scarica Esempio Gratuito',
+    sectionTitle: 'Schede Gratuite Scrittura - Stampabili Gratuiti da Scaricare',
+    sectionDescription: 'Scarica schede gratuite per vedere la nostra qualità professionale - stampabili gratuiti PDF',
+    downloadLabel: 'Scarica Scheda Gratuita',
     worksheetLabel: 'Scheda',
     answerKeyLabel: 'Chiave di Risposta',
     viewAllLabel: 'Ingrandisci',
     noPdfLabel: 'Solo anteprima',
     freePdfCountLabel: 'download gratuiti',
-    badgeText: 'Esempi Gratuiti',
+    badgeText: 'Schede Gratuite',
     downloadingLabel: 'Scaricamento...',
     ofLabel: 'di',
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/writing/writing.jpeg',
+        worksheetSrc: '/samples/italian/writing/sample-1.jpeg',
         answerKeySrc: '',
-        altText: 'Schede didattiche pregrafismo e scrittura per scuola primaria',
-        pdfDownloadUrl: '/samples/english/writing/writing.pdf',
+        altText: 'Schede gratuite scrittura per bambini - pregrafismo stampabili gratuiti per scuola dell\'infanzia',
+        pdfDownloadUrl: '/samples/italian/writing/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/writing/writing custom.jpeg',
-        answerKeySrc: '',
-        altText: 'Schede didattiche scrittura personalizzate per scuola infanzia',
-        pdfDownloadUrl: '/samples/english/writing/writing custom.pdf',
+        worksheetSrc: '/samples/italian/writing/sample-2.jpeg',
+        answerKeySrc: '/samples/italian/writing/sample-2-answer.jpeg',
+        altText: 'Scheda gratuita scrittura scuola primaria - stampabili gratuiti lettere dell\'alfabeto per bambini',
+        pdfDownloadUrl: '/samples/italian/writing/sample-2.pdf',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/writing/writing beginning letter.jpeg',
+        worksheetSrc: '/samples/italian/writing/sample-3.jpeg',
         answerKeySrc: '',
-        altText: 'Schede didattiche lettere dell\'alfabeto per classe prima',
-        pdfDownloadUrl: '/samples/english/writing/writing beginning letter.pdf',
+        altText: 'Schede didattiche pregrafismo - scheda per scuola dell\'infanzia numeri da stampare PDF',
+        pdfDownloadUrl: '/samples/italian/writing/sample-3.pdf',
       },
     ],
   },
 
   // Features Grid
   features: {
-    sectionTitle: 'Funzionalità del Generatore di Schede Didattiche Pregrafismo e Alfabeto',
-    sectionDescription: 'Il generatore di schede didattiche offre funzionalità complete per creare materiale educativo di alta qualità. Ogni strumento è pensato per semplificare il lavoro degli insegnanti. Scopri tutte le caratteristiche che rendono questo generatore indispensabile per la scuola dell\'infanzia e la scuola primaria.',
+    sectionTitle: 'Funzionalità Generatore - Schede Gratuite per Bambini e Stampabili Gratuiti',
+    sectionDescription: 'Il nostro generatore di schede gratuite offre funzionalità complete per creare materiale educativo professionale. Ogni strumento è progettato pensando agli insegnanti della scuola dell\'infanzia e della scuola primaria. Crea scheda gratuita per bambini per pregrafismo e scrittura in pochi clic. Personalizza ogni elemento per adattarlo alle esigenze dei tuoi studenti. Combina facilmente con stampabili gratuiti, schede matematica e disegni da colorare per pacchetti didattici completi.',
     highlightBadgeText: 'Funzionalità Chiave',
     readMoreLabel: 'Leggi di più',
     showLessLabel: 'Mostra meno',
@@ -105,7 +125,7 @@ Con il nostro generatore puoi creare schede didattiche di pregrafismo con divers
     items: [
       {
         id: '1',
-        title: 'Crea Schede Didattiche di Pregrafismo in 3 Click - Generazione Rapida',
+        title: 'Crea Schede Gratuite in 3 Clic - Stampabili Gratuiti per Bambini',
         description: `Creare schede didattiche di pregrafismo richiede solo tre semplici passaggi. Prima scegli il tipo di riga e lo stile di carattere. Poi inserisci il contenuto desiderato come lettere dell'alfabeto o testo personalizzato. Infine clicca su genera e la tua scheda è pronta.
 
 Il processo è intuitivo e veloce. Non servono competenze tecniche o di grafica. In meno di tre minuti puoi avere una scheda didattica professionale pronta da stampare. Gli insegnanti della scuola dell'infanzia risparmiano ore di lavoro ogni settimana.
@@ -116,7 +136,7 @@ Il sistema include funzione di riempimento automatico. Seleziona un tema dalla l
       },
       {
         id: '2',
-        title: 'Pregrafismo per Scuola dell\'Infanzia con Personalizzazione Completa',
+        title: 'Modifica Scheda Gratuita - Personalizzazione Completa Stampabili Gratuiti',
         description: `Le schede di pregrafismo per la scuola dell'infanzia sono completamente personalizzabili. Puoi modificare ogni elemento presente sulla scheda. Trascina le immagini dove preferisci. Ridimensiona i testi e le righe di scrittura. Ruota gli elementi per creare layout unici.
 
 Ogni oggetto sulla scheda è editabile. Aggiungi titoli personalizzati per ogni attività. Modifica i colori dei testi per adattarli al tema scelto. Elimina gli elementi che non ti servono. La flessibilità totale ti permette di creare schede didattiche perfette per ogni esigenza.
@@ -127,7 +147,7 @@ Il canvas digitale offre controllo completo. Allinea gli oggetti perfettamente c
       },
       {
         id: '3',
-        title: 'Lettere dell\'Alfabeto per Schede Didattiche Scuola Primaria - Carica le Tue Immagini',
+        title: 'Carica Immagini - Schede Gratuite per Scuola dell\'Infanzia Personalizzate',
         description: `Le schede didattiche scuola primaria con lettere dell'alfabeto diventano ancora più efficaci con immagini personalizzate. Carica foto dei tuoi studenti per esercizi sul nome proprio. Usa immagini specifiche per progetti tematici della classe. Combina foto caricate con le oltre 3000 immagini della libreria.
 
 Il caricamento supporta tutti i formati comuni come JPEG, PNG e GIF. Puoi caricare più file contemporaneamente. Le immagini caricate si integrano perfettamente con il resto della scheda. Personalizza le schede didattiche per renderle uniche per ogni studente.
@@ -138,7 +158,7 @@ Le immagini caricate rimangono disponibili durante la sessione. Riutilizzale per
       },
       {
         id: '4',
-        title: 'Schede Italiano Classe Prima con Pregrafismo in 11 Lingue',
+        title: 'Schede Gratuite in 11 Lingue - Scheda Gratuita per Bambini Multilingue',
         description: `Le schede italiano classe prima con pregrafismo sono disponibili in 11 lingue diverse. L'interfaccia del generatore si adatta alla lingua selezionata. Questo è particolarmente utile per classi multilingue o scuole internazionali.
 
 Le lingue supportate includono italiano, inglese, tedesco, francese, spagnolo e portoghese brasiliano. Sono disponibili anche olandese, danese, svedese, norvegese e finlandese. I nomi dei file delle immagini vengono tradotti automaticamente nella lingua scelta.
@@ -149,7 +169,7 @@ Crea schede didattiche scuola primaria per studenti di qualsiasi provenienza lin
       },
       {
         id: '5',
-        title: 'Schede Didattiche con Alfabeto - Licenza Commerciale POD Inclusa',
+        title: 'Licenza Commerciale POD - Vendi Schede Gratuite e Stampabili Gratuiti su Etsy',
         description: `Le schede didattiche con alfabeto create includono la licenza commerciale print-on-demand. Con l'abbonamento Accesso Completo puoi vendere le tue schede su piattaforme come Teachers Pay Teachers. Pubblica su Etsy e raggiungi clienti in tutto il mondo. Crea libri di attività per Amazon KDP.
 
 Non ci sono costi aggiuntivi per la licenza commerciale. È inclusa nell'abbonamento Accesso Completo da 240 euro all'anno. Ogni scheda esportata a 300 DPI è pronta per la stampa professionale.
@@ -160,7 +180,7 @@ Gli insegnanti imprenditori possono generare entrate extra con il loro materiale
       },
       {
         id: '6',
-        title: 'Pregrafismo e Lettere dell\'Alfabeto - Libreria con Oltre 3000 Immagini',
+        title: 'Biblioteca di 3000+ Immagini - Schede Gratuite per Bambini con Immagini Adatte',
         description: `Il generatore include una libreria con oltre 3000 immagini adatte ai bambini. Le immagini sono organizzate per tema per una ricerca veloce. Trova animali, oggetti quotidiani, cibo, mezzi di trasporto e molto altro.
 
 Ogni immagine è ottimizzata per l'uso didattico. I disegni sono chiari e riconoscibili anche in piccole dimensioni. Puoi cercare immagini specifiche o sfogliare le categorie tematiche.
@@ -171,7 +191,7 @@ La libreria include anche sfondi decorativi e cornici per abbellire le schede di
       },
       {
         id: '7',
-        title: 'Schede Didattiche Scuola Primaria per Alfabeto - Qualità Professionale 300 DPI',
+        title: 'Qualità 300 DPI - Scheda per Bambini Stampabili Gratuiti Alta Qualità',
         description: `Le schede didattiche scuola primaria per alfabeto vengono esportate in qualità 300 DPI. Questa risoluzione garantisce stampe nitide e professionali. I dettagli delle lettere dell'alfabeto rimangono perfettamente leggibili.
 
 Puoi scaricare in formato PDF per stampe multiple. Il formato JPEG è ideale per condivisione digitale. L'opzione scala di grigi permette di risparmiare inchiostro a colori.
@@ -185,8 +205,8 @@ Ogni scheda mantiene la qualità anche con ingrandimenti. Il risultato è materi
 
   // How-To Guide Section
   howTo: {
-    sectionTitle: 'Come Creare Schede Didattiche di Pregrafismo in 5 Semplici Passaggi',
-    sectionDescription: 'Creare schede didattiche di pregrafismo professionale richiede meno di tre minuti. Segui questa guida passo dopo passo per generare materiale didattico perfetto. Il processo è semplice e adatto anche a chi non ha esperienza con strumenti digitali.',
+    sectionTitle: 'Come Creare Schede Gratuite Scrittura in 5 Passi - Stampabili Gratuiti',
+    sectionDescription: 'Creare schede gratuite professionali per scrittura e pregrafismo richiede meno di tre minuti. Segui questi cinque semplici passi per generare stampabili gratuiti perfetti. Non serve esperienza di design grafico. Il processo è intuitivo per tutti gli insegnanti della scuola dell\'infanzia e della scuola primaria. Combina facilmente con scheda gratuita per bambini, schede matematica e disegni da colorare per pacchetti completi.',
     ctaText: 'Inizia Ora',
     badgeText: 'Guida Passo-Passo',
     stepLabel: 'Passaggio',
@@ -200,7 +220,7 @@ Ogni scheda mantiene la qualità anche con ingrandimenti. Il risultato è materi
       {
         id: '1',
         number: 1,
-        title: 'Scegliere il Tipo di Riga per Schede Didattiche Scuola Primaria con Alfabeto',
+        title: 'Scegli Contenuto - Schede Gratuite Scrittura e Stampabili Gratuiti',
         description: `Il primo passo per creare schede didattiche scuola primaria con alfabeto è selezionare il tipo di riga. Il generatore offre tre modalità principali per le righe di scrittura. Ogni modalità serve a obiettivi didattici specifici.
 
 La modalità "Ricalco" presenta lettere dell'alfabeto complete da tracciare. I bambini seguono la forma della lettera con la matita. Questa modalità è perfetta per la scuola dell'infanzia e i primi mesi di classe prima.
@@ -213,7 +233,7 @@ La modalità "Copia Guidata" presenta solo la prima lettera come modello. Il res
       {
         id: '2',
         number: 2,
-        title: 'Selezionare lo Stile di Carattere per Pregrafismo e Lettere dell\'Alfabeto',
+        title: 'Personalizza Impostazioni - Scheda Gratuita per Bambini Ogni Livello',
         description: `Il secondo passo riguarda la scelta dello stile di carattere per pregrafismo e lettere dell'alfabeto. Cinque opzioni diverse coprono tutte le esigenze didattiche della scuola primaria italiana.
 
 Lo "Stampatello Regolare" presenta lettere piene e chiare. Lo "Stampatello con Frecce" aggiunge indicatori di direzione per ogni tratto. Lo "Stampatello Tratteggiato" mostra lettere dell'alfabeto con linea punteggiata da seguire.
@@ -224,7 +244,7 @@ Lo "Stampatello Tratteggiato con Frecce" combina tracciato e guida direzionale. 
       {
         id: '3',
         number: 3,
-        title: 'Inserire il Contenuto per Schede Didattiche Pregrafismo Personalizzate',
+        title: 'Genera Scheda Gratuita - Anteprima Istantanea Scheda per Scuola dell\'Infanzia',
         description: `Il terzo passo è inserire il contenuto per schede didattiche pregrafismo personalizzate. Quattro opzioni di contenuto permettono di creare esercizi diversificati per ogni lezione.
 
 L'opzione "Vuoto" crea righe senza contenuto prestampato. Perfetta per dettati o esercizi di scrittura libera. L'opzione "Lettera Iniziale" mostra solo la prima lettera del nome dell'immagine selezionata.
@@ -235,7 +255,7 @@ L'opzione "Nome Completo" stampa l'intera parola associata all'immagine. Utile p
       {
         id: '4',
         number: 4,
-        title: 'Personalizzare la Scheda con Alfabeto e Numeri da Stampare',
+        title: 'Modifica sulla Tela - Stampabili Gratuiti Completamente Personalizzabili',
         description: `Il quarto passo permette di personalizzare la scheda con alfabeto e numeri da stampare. Le opzioni di formattazione della pagina sono complete e flessibili.
 
 Scegli tra formato Lettera americano o A4 europeo. Seleziona orientamento verticale o orizzontale. Imposta dimensioni personalizzate per esigenze specifiche.
@@ -246,7 +266,7 @@ Aggiungi sfondi tematici dalla libreria di oltre 3000 immagini. Gli sfondi rendo
       {
         id: '5',
         number: 5,
-        title: 'Scaricare Schede Didattiche Scuola Primaria per Alfabeto in PDF',
+        title: 'Scarica e Stampa - Schede Gratuite e Stampabili Gratuiti in Alta Qualità',
         description: `Il quinto passo è scaricare schede didattiche scuola primaria per alfabeto in formato PDF o JPEG. Le opzioni di esportazione soddisfano ogni necessità di stampa e condivisione.
 
 Il formato PDF è ideale per stampare più copie. La qualità 300 DPI garantisce dettagli nitidi delle lettere dell'alfabeto. Ogni tratteggio e ogni freccia rimane perfettamente visibile.
@@ -259,8 +279,8 @@ Il formato JPEG funziona bene per condivisione digitale. L'opzione scala di grig
 
   // Use Cases Section
   useCases: {
-    sectionTitle: 'Chi Utilizza le Schede Didattiche di Pregrafismo - Insegnanti, Genitori ed Educatori',
-    sectionDescription: 'Le schede didattiche di pregrafismo servono a diverse categorie di educatori. Ogni gruppo ha esigenze specifiche che il generatore soddisfa. Scopri come professionisti e genitori utilizzano questo strumento per creare materiale educativo efficace.',
+    sectionTitle: 'Perfetto per Insegnanti - Schede Gratuite per Scuola dell\'Infanzia e Stampabili Gratuiti',
+    sectionDescription: 'Il nostro generatore di schede gratuite serve diverse categorie di educatori. Insegnanti della scuola dell\'infanzia, maestre di scuola primaria, genitori homeschooler e insegnanti di sostegno. Tutti trovano valore nelle schede gratuite personalizzabili per scrittura e pregrafismo. Combina facilmente con stampabili gratuiti, scheda per bambini, schede matematica e disegni da colorare. Crea pacchetti didattici completi per ogni situazione educativa.',
     badgeText: 'Casi d\'Uso',
     readMoreLabel: 'Leggi di più',
     showLessLabel: 'Mostra meno',
@@ -268,8 +288,8 @@ Il formato JPEG funziona bene per condivisione digitale. L'opzione scala di grig
       {
         id: '1',
         icon: '👶',
-        title: 'Insegnanti della Scuola dell\'Infanzia - Schede Didattiche Pregrafismo per i Più Piccoli',
-        subtitle: 'Per Bambini dai 3 ai 6 Anni',
+        title: 'Insegnanti Scuola dell\'Infanzia - Schede Gratuite e Stampabili Gratuiti',
+        subtitle: 'Scheda Gratuita per Bambini dai 3 ai 6 Anni',
         description: `Gli insegnanti della scuola dell'infanzia utilizzano schede didattiche pregrafismo quotidianamente. I bambini dai 3 ai 6 anni hanno bisogno di esercizi specifici per sviluppare la motricità fine. Le attività di pregrafismo preparano la mano alla scrittura futura.
 
 Le schede per la scuola dell'infanzia includono tracciati semplici come linee e cerchi. I disegni da colorare accompagnano spesso gli esercizi di pregrafismo. I bambini associano il piacere del colore all'apprendimento dei movimenti grafici.
@@ -280,8 +300,8 @@ Gli insegnanti creano percorsi progressivi dalle forme base alle lettere dell'al
       {
         id: '2',
         icon: '📚',
-        title: 'Insegnanti Scuola Primaria - Schede Didattiche Scuola Primaria per Alfabeto e Scrittura',
-        subtitle: 'Per Studenti dai 6 ai 10 Anni',
+        title: 'Maestre Scuola Primaria - Schede Gratuite e Scheda per Bambini',
+        subtitle: 'Stampabili Gratuiti per Studenti dai 6 ai 10 Anni',
         description: `Gli insegnanti della scuola primaria usano schede didattiche scuola primaria per alfabeto e scrittura ogni giorno. La classe prima richiede materiale intensivo per l'apprendimento delle lettere. Le schede italiano classe prima coprono stampatello e corsivo.
 
 Le schede didattiche scuola primaria servono anche per la classe seconda e terza. Gli studenti consolidano la scrittura con esercizi di ricalco e copia. Il corsivo richiede pratica costante durante tutto il primo ciclo.
@@ -292,8 +312,8 @@ Gli insegnanti apprezzano la possibilità di creare schede personalizzate con i 
       {
         id: '3',
         icon: '🏠',
-        title: 'Genitori Homeschooler - Schede Didattiche Pregrafismo per l\'Educazione Domestica',
-        subtitle: 'Materiale Didattico Flessibile per Casa',
+        title: 'Genitori Homeschool - Schede Gratuite con Stampabili Gratuiti per Casa',
+        subtitle: 'Scheda Gratuita per Bambini - Materiale Flessibile',
         description: `I genitori che educano a casa usano schede didattiche pregrafismo come risorsa principale. L'homeschooling richiede materiale strutturato per seguire un programma completo. Il generatore permette di creare esattamente ciò che serve per ogni figlio.
 
 Le famiglie con più figli di età diverse beneficiano della personalizzazione. Crea schede di pregrafismo per il più piccolo e schede italiano classe prima per il maggiore. Ogni bambino riceve materiale adatto al proprio livello.
@@ -304,8 +324,8 @@ I genitori possono seguire il curriculum della scuola primaria italiana. Le sche
       {
         id: '4',
         icon: '🌍',
-        title: 'Insegnanti di Italiano L2 - Schede Didattiche con Alfabeto per Studenti Stranieri',
-        subtitle: 'Per Studenti Stranieri e Programmi Bilingui',
+        title: 'Insegnanti di Italiano L2 - Schede Gratuite in 11 Lingue per Bambini',
+        subtitle: 'Stampabili Gratuiti per Studenti Stranieri e Bilingui',
         description: `Gli insegnanti di italiano come lingua seconda utilizzano schede didattiche con alfabeto per studenti stranieri. I bambini che imparano l'italiano hanno bisogno di materiale specifico. Le lettere dell'alfabeto italiano includono accenti e combinazioni particolari.
 
 Le schede italiano classe prima funzionano bene anche per studenti più grandi che iniziano con l'italiano. Il supporto delle 11 lingue dell'interfaccia aiuta insegnanti e studenti.
@@ -316,8 +336,8 @@ Gli esercizi di pregrafismo sono utili anche per adulti che imparano a scrivere 
       {
         id: '5',
         icon: '💚',
-        title: 'Insegnanti di Sostegno - Schede Didattiche Pregrafismo per Bisogni Educativi Speciali',
-        subtitle: 'Materiale Personalizzato per Bisogni Speciali',
+        title: 'Insegnanti di Sostegno - Schede Gratuite per Scuola dell\'Infanzia Differenziate',
+        subtitle: 'Scheda Gratuita per Bambini con Bisogni Speciali',
         description: `Gli insegnanti di sostegno creano schede didattiche pregrafismo personalizzate per studenti con BES. Ogni bambino con bisogni educativi speciali richiede materiale adattato. Il generatore permette di modificare dimensioni, spaziatura e complessità.
 
 Le righe più grandi facilitano il lavoro per bambini con difficoltà motorie. I caratteri tratteggiati con frecce guidano studenti che hanno bisogno di supporto visivo extra.
@@ -328,8 +348,8 @@ I disegni da colorare integrati nelle schede di pregrafismo offrono pause creati
       {
         id: '6',
         icon: '💼',
-        title: 'Insegnanti Imprenditori - Vendere Schede Didattiche Scuola Primaria con Alfabeto Online',
-        subtitle: 'Monetizza la Tua Creatività Educativa',
+        title: 'Insegnanti Imprenditori - Vendi Schede Gratuite e Stampabili Gratuiti su Etsy',
+        subtitle: 'Scheda per Bambini - Monetizza la Tua Creatività',
         description: `Gli insegnanti imprenditori vendono schede didattiche scuola primaria con alfabeto su piattaforme online. Teachers Pay Teachers è il marketplace più popolare per materiale didattico. Etsy raggiunge genitori e insegnanti in tutto il mondo.
 
 L'abbonamento Accesso Completo include la licenza commerciale per vendere le schede create. Nessun costo aggiuntivo per i diritti di vendita. Le schede didattiche di pregrafismo esportate a 300 DPI soddisfano gli standard professionali.
@@ -342,8 +362,8 @@ Amazon KDP permette di pubblicare libri di attività con schede italiano classe 
 
   // FAQ Section
   faq: {
-    sectionTitle: 'Domande Frequenti sulle Schede Didattiche di Pregrafismo e Scrittura',
-    sectionDescription: 'Ecco le risposte alle domande più comuni sul generatore di schede didattiche. Gli insegnanti e i genitori vogliono sapere tutto prima di iniziare. Trova le informazioni che cerchi su funzionalità, prezzi e utilizzo.',
+    sectionTitle: 'Domande Frequenti - Schede Gratuite Scrittura e Stampabili Gratuiti',
+    sectionDescription: 'Gli insegnanti hanno domande comuni sul generatore di schede gratuite. Qui rispondiamo alle 12 domande più frequenti. Copriamo tutto da prezzi e utilizzo in classe a combinazioni con stampabili gratuiti, scheda gratuita per bambini, pregrafismo e disegni da colorare. Scopri come massimizzare il valore del tuo abbonamento Accesso Completo.',
     showMoreText: 'Mostra altre domande',
     showLessText: 'Mostra meno domande',
     badgeText: 'FAQ',
@@ -354,7 +374,7 @@ Amazon KDP permette di pubblicare libri di attività con schede italiano classe 
     items: [
       {
         id: '1',
-        question: 'Il Generatore di Schede Didattiche Scuola Primaria per Alfabeto è Gratuito?',
+        question: 'Questo Generatore di Schede Gratuite È Davvero Gratuito per Bambini?',
         answer: `Il generatore di schede didattiche scuola primaria per alfabeto richiede un abbonamento Accesso Completo. Il costo è di 240 euro all'anno oppure 25 euro al mese. L'abbonamento ti permette di creare schede illimitate senza costi per singola scheda.
 
 L'Accesso Completo include tutti i 33 generatori della piattaforma LessonCraft Studio. Oltre alle schede di pregrafismo hai accesso a schede matematica, disegni da colorare e tabelline. Il Pacchetto Essenziale costa 144 euro all'anno e include 10 generatori, ma non include questo generatore di scrittura.
@@ -363,7 +383,7 @@ Entrambi gli abbonamenti includono licenza commerciale, supporto per 11 lingue e
       },
       {
         id: '2',
-        question: 'Posso Stampare le Schede Didattiche Pregrafismo a Casa con una Stampante Normale?',
+        question: 'Posso Stampare Schede Gratuite per Scuola dell\'Infanzia a Casa?',
         answer: `Sì, puoi stampare le schede didattiche pregrafismo a casa con qualsiasi stampante. Il formato PDF è ottimizzato per stampa domestica. La qualità 300 DPI garantisce lettere dell'alfabeto nitide anche su stampanti economiche.
 
 Consigliamo carta da 80-100 grammi per risultati migliori. Le schede di pregrafismo richiedono carta resistente per sopportare la pressione della matita. L'opzione scala di grigi riduce il consumo di inchiostro colorato.
@@ -372,7 +392,7 @@ Le schede didattiche per la scuola dell'infanzia stampano bene sia in formato A4
       },
       {
         id: '3',
-        question: 'Servono Competenze di Grafica per Creare Schede Didattiche con Lettere dell\'Alfabeto?',
+        question: 'Serve Esperienza per Creare Schede Gratuite e Stampabili Gratuiti?',
         answer: `No, non servono competenze di grafica per creare schede didattiche con lettere dell'alfabeto. L'interfaccia è progettata per insegnanti senza esperienza tecnica. Tre click bastano per generare una scheda professionale.
 
 Selezioni il tipo di riga, lo stile di carattere e il contenuto. Il generatore crea automaticamente la scheda con numeri da stampare o lettere dell'alfabeto. Puoi personalizzare ulteriormente trascinando e ridimensionando gli elementi.
@@ -381,7 +401,7 @@ Anche aggiungere disegni da colorare è semplice e immediato. Scegli un'immagine
       },
       {
         id: '4',
-        question: 'Posso Usare le Schede Didattiche Scuola Primaria in Classe con gli Studenti?',
+        question: 'Posso Usare Schede Gratuite in Classe per Scuola dell\'Infanzia?',
         answer: `L'abbonamento Accesso Completo include uso illimitato in classe delle schede didattiche scuola primaria. Stampa tutte le copie necessarie per i tuoi studenti. Non ci sono limiti al numero di schede o di stampe.
 
 Le schede didattiche di pregrafismo funzionano perfettamente per attività individuali e di gruppo. Distribuisci schede personalizzate con i nomi degli studenti. Crea versioni differenziate per livelli diversi nella stessa classe.
@@ -390,7 +410,7 @@ Puoi condividere le schede in formato digitale su piattaforme scolastiche. Googl
       },
       {
         id: '5',
-        question: 'In Quali Lingue Sono Disponibili le Schede Didattiche con Alfabeto e Numeri da Stampare?',
+        question: 'In Quali Lingue Sono Disponibili le Schede Gratuite per Bambini?',
         answer: `Le schede didattiche con alfabeto e numeri da stampare sono disponibili in 11 lingue. L'interfaccia del generatore si traduce completamente nella lingua selezionata. I nomi delle immagini appaiono nella lingua scelta.
 
 Le lingue supportate sono italiano, inglese, tedesco, francese, spagnolo, portoghese brasiliano, olandese, danese, svedese, norvegese e finlandese. Le schede didattiche per la scuola dell'infanzia funzionano in tutte queste lingue.
@@ -399,7 +419,7 @@ Questa funzione è particolarmente utile per insegnanti di lingue straniere. Cre
       },
       {
         id: '6',
-        question: 'Posso Vendere le Schede Didattiche Pregrafismo che Creo con il Generatore?',
+        question: 'Posso Vendere Schede Gratuite e Stampabili Gratuiti Che Creo?',
         answer: `Sì, l'abbonamento Accesso Completo include licenza commerciale completa per le schede didattiche pregrafismo. Puoi vendere su Teachers Pay Teachers, Etsy e Amazon KDP. Non ci sono costi aggiuntivi per i diritti commerciali.
 
 Le schede matematica con tabelline e le schede di scrittura hanno ottimo potenziale commerciale. I pacchetti che combinano pregrafismo, alfabeto e disegni da colorare si vendono particolarmente bene.
@@ -408,7 +428,7 @@ La qualità 300 DPI soddisfa gli standard professionali richiesti dai marketplac
       },
       {
         id: '7',
-        question: 'Come Personalizzo le Schede Didattiche per la Scuola dell\'Infanzia con Pregrafismo?',
+        question: 'Come Personalizzo Schede Gratuite e Scheda per Bambini per Miei Studenti?',
         answer: `Personalizzare le schede didattiche per la scuola dell'infanzia con pregrafismo è semplice e veloce. Scegli tra quattro tipi di tracciato: linee verticali, orizzontali, cerchi e zigzag. Ogni tipo sviluppa competenze grafomotorie specifiche.
 
 Aggiungi immagini dalla libreria di oltre 3000 disegni. I disegni da colorare rendono le schede più coinvolgenti per i bambini piccoli. Combina esercizi di pregrafismo con attività di colorazione nella stessa scheda.
@@ -417,7 +437,7 @@ Personalizza sfondi e cornici per temi stagionali o festivi. Le schede didattich
       },
       {
         id: '8',
-        question: 'Quali Età Sono Adatte per le Schede Didattiche con Lettere dell\'Alfabeto?',
+        question: 'Per Quale Fascia d\'Età Funzionano Meglio Schede Gratuite per Scuola dell\'Infanzia?',
         answer: `Le schede didattiche con lettere dell'alfabeto sono adatte dai 3 ai 8 anni. I bambini della scuola dell'infanzia iniziano con pregrafismo e forme semplici. Progressivamente passano alle lettere dell'alfabeto maiuscole e poi minuscole.
 
 Le schede italiano classe prima coprono stampatello maiuscolo, minuscolo e corsivo. Gli studenti di classe seconda e terza consolidano la scrittura corsiva. Le schede didattiche scuola primaria si adattano a ogni livello.
@@ -426,7 +446,7 @@ Anche studenti più grandi con bisogni educativi speciali beneficiano di queste 
       },
       {
         id: '9',
-        question: 'Posso Caricare le Mie Immagini nelle Schede Didattiche di Pregrafismo?',
+        question: 'Posso Caricare Immagini Personali per Schede Gratuite e Stampabili Gratuiti?',
         answer: `Sì, puoi caricare le tue immagini nelle schede didattiche di pregrafismo. Il generatore accetta formati JPEG, PNG e GIF. Carica foto degli studenti per esercizi personalizzati con i loro nomi.
 
 Le immagini caricate si integrano perfettamente con la libreria esistente. Combina foto personali con i disegni da colorare della piattaforma. Crea schede didattiche uniche per progetti speciali della classe.
@@ -435,7 +455,7 @@ Il caricamento multiplo permette di aggiungere molte immagini contemporaneamente
       },
       {
         id: '10',
-        question: 'Quanto Tempo Serve per Creare Schede Didattiche Scuola Primaria per Alfabeto?',
+        question: 'Quanto Tempo Serve per Creare Schede Gratuite e Stampabili Gratuiti?',
         answer: `Creare schede didattiche scuola primaria per alfabeto richiede meno di 3 minuti. Tre click per impostare riga, carattere e contenuto. La generazione è istantanea dopo la configurazione.
 
 Le schede di pregrafismo più elaborate con immagini e decorazioni richiedono 5-10 minuti. Aggiungere disegni da colorare e personalizzare lo sfondo allunga leggermente i tempi. Il risultato è comunque molto più veloce della creazione manuale.
@@ -444,7 +464,7 @@ Confronta con i 30-60 minuti necessari per creare schede a mano. Le schede matem
       },
       {
         id: '11',
-        question: 'Le Schede Didattiche con Numeri da Stampare Includono Anche le Tabelline?',
+        question: 'Le Schede Gratuite Includono Chiavi di Risposta per Bambini?',
         answer: `Le schede didattiche con numeri da stampare del generatore Writing si concentrano sulla scrittura dei numeri. Per le tabelline complete esistono generatori dedicati nella piattaforma Accesso Completo. Le schede matematica offrono esercizi di calcolo specifici.
 
 Con il generatore Writing puoi creare schede per tracciare i numeri da 0 a 9. I bambini della scuola dell'infanzia imparano la forma corretta di ogni cifra. Le schede didattiche scuola primaria estendono la pratica ai numeri più grandi.
@@ -453,7 +473,7 @@ Combina le schede di scrittura numerica con le schede matematica e tabelline deg
       },
       {
         id: '12',
-        question: 'Posso Creare Schede Didattiche Pregrafismo su Argomenti Scolastici Specifici?',
+        question: 'Posso Creare Schede Gratuite su Materie Specifiche con Stampabili Gratuiti?',
         answer: `Sì, puoi creare schede didattiche pregrafismo su qualsiasi argomento scolastico. L'opzione testo personalizzato permette di inserire parole a tema. Crea schede sugli animali, le stagioni, i mestieri o qualsiasi altro argomento.
 
 La libreria di oltre 3000 immagini copre innumerevoli temi educativi. Trova disegni da colorare per scienze, geografia e storia. Le lettere dell'alfabeto si associano a immagini tematiche per apprendimento contestualizzato.
@@ -465,8 +485,8 @@ Le schede italiano classe prima possono seguire il vocabolario settimanale della
 
   // Related Apps Section
   relatedApps: {
-    sectionTitle: 'Combinare le Schede Didattiche Pregrafismo con Altri Generatori della Piattaforma',
-    sectionDescription: 'L\'abbonamento Accesso Completo include 33 generatori diversi oltre alle schede didattiche pregrafismo. Combinare più generatori crea pacchetti didattici completi. Scopri quali strumenti si integrano perfettamente con le schede di scrittura.',
+    sectionTitle: 'Combina Schede Gratuite Scrittura con Altri Generatori',
+    sectionDescription: 'L\'abbonamento Accesso Completo include 33 generatori. Combina il generatore di Schede Gratuite Scrittura con altri strumenti. Crea pacchetti completi di schede didattiche. Perfetto per unità tematiche. Ottimo per centri di apprendimento.',
     ctaTitle: 'Pronto a Creare Schede Straordinarie?',
     ctaDescription: 'Unisciti a migliaia di educatori che creano schede professionali. Generazione illimitata, licenza commerciale inclusa.',
     primaryCtaText: 'Inizia la Prova Gratuita',
@@ -538,7 +558,7 @@ Le schede italiano classe prima possono seguire il vocabolario settimanale della
       '5 stili di carattere',
     ],
     ctaText: 'Inizia Ora',
-    bundleDescription: 'Il tuo abbonamento include l\'accesso a tutti i 33 generatori di schede:',
+    bundleDescription: 'Il tuo abbonamento include accesso a tutti i 33 generatori - crea scheda per bambini illimitata:',
     bundleApps: [
       'Addizioni illustrate',
       'Trenino dell\'alfabeto',

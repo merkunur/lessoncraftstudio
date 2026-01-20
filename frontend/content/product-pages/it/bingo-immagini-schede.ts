@@ -15,22 +15,48 @@ export const pictureBingoItContent: ProductPageContent = {
   seo: {
     slug: 'bingo-immagini-schede',
     appId: 'bingo',
-    title: 'Schede Didattiche Picture Bingo | Generatore Schede per Scuola Primaria e Infanzia',
+    title: 'Schede Gratuite Bingo Immagini | Scheda Gratuita per Bambini - Generatore Didattico',
     description: 'Crea schede didattiche Picture Bingo professionali con il nostro generatore. Perfette per scuola dell\'infanzia e classi prime. Genera carte bingo con immagini per sviluppare riconoscimento visivo e vocabolario.',
     keywords: 'schede didattiche bingo, generatore schede didattiche, schede scuola primaria, carte bingo immagini, scuola infanzia, schede stampabili, bingo didattico, classe prima, pregrafismo, materiale didattico',
     canonicalUrl: 'https://www.lessoncraftstudio.com/it/apps/bingo-immagini-schede',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/italian/bingo/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Scheda gratuita bingo immagini per bambini - carte bingo scuola dell\'infanzia'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/italian/bingo/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Schede gratuite bingo didattico - stampabili gratuiti per scuola primaria'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/italian/bingo/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Scheda per bambini bingo con immagini - schede didattiche scuola infanzia'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/italian/bingo/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Stampabili gratuiti bingo educativo - scheda per scuola dell\'infanzia'
+      }
+    ],
   },
 
   // Hero Section
   hero: {
-    title: 'Generatore Schede Picture Bingo',
-    subtitle: 'Schede per Scuola Primaria e Scuola dell\'Infanzia',
+    title: 'Schede Gratuite Bingo Immagini - Generatore Schede per Bambini',
+    subtitle: 'Scheda Gratuita per Scuola dell\'Infanzia e Scuola Primaria',
     description: `Crea schede didattiche Picture Bingo professionali con il nostro generatore di schede didattiche. Il tuo abbonamento Pacchetto Essenziale ti offre creazione illimitata di schede didattiche senza costi aggiuntivi per ogni scheda. Genera schede didattiche scuola primaria personalizzate perfette per la scuola dell'infanzia e le classi prime. Le carte bingo con immagini aiutano i bambini a sviluppare il riconoscimento visivo e il vocabolario.
 
 Il nostro generatore di schede didattiche crea carte bingo uniche con immagini o parole. Scegli dalla nostra libreria di 3000+ immagini adatte ai bambini o carica le tue foto. Perfetto per insegnanti della scuola dell'infanzia che necessitano di schede matematica, schede italiano classe prima, attività con l'alfabeto e pregrafismo. Ogni carta bingo è diversa per garantire un gioco coinvolgente in classe.
 
 Genera da 1 a 10 carte bingo in pochi minuti. Scegli griglie da 3x3 a 5x5. Personalizza ogni elemento sul canvas. Scarica schede didattiche di alta qualità in formato PDF o JPEG. Le tue schede didattiche scuola primaria sono pronte per la stampa in meno di 3 minuti.`,
-    previewImageSrc: '/samples/english/bingo/image and image.jpeg',
+    previewImageSrc: '/samples/italian/bingo/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Prova Gratis',
       viewSamples: 'Vedi Esempi',
@@ -51,7 +77,7 @@ Genera da 1 a 10 carte bingo in pochi minuti. Scegli griglie da 3x3 a 5x5. Perso
 
   // Sample Gallery
   samples: {
-    sectionTitle: 'Esempi di Schede Didattiche Picture Bingo',
+    sectionTitle: 'Schede Gratuite di Bingo Immagini - Stampabili Gratuiti per Bambini',
     sectionDescription: 'Scarica esempi gratuiti per vedere la nostra qualità professionale',
     downloadLabel: 'Scarica Esempio Gratuito',
     worksheetLabel: 'Scheda',
@@ -65,24 +91,38 @@ Genera da 1 a 10 carte bingo in pochi minuti. Scegli griglie da 3x3 a 5x5. Perso
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/bingo/image and image.jpeg',
-        answerKeySrc: '/samples/english/bingo/image and image callout.jpeg',
-        altText: 'Scheda didattica bingo con immagini formato carte e gettoni chiamata',
-        pdfDownloadUrl: '/samples/english/bingo/image and image.pdf',
+        worksheetSrc: '/samples/italian/bingo/sample-1.jpeg',
+        answerKeySrc: '/samples/italian/bingo/sample-1-answer.jpeg',
+        altText: 'Scheda gratuita bingo immagini per bambini - carte bingo con immagini scuola dell\'infanzia',
+        pdfDownloadUrl: '/samples/italian/bingo/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/bingo/image and word.jpeg',
-        answerKeySrc: '/samples/english/bingo/image and word callout.jpeg',
-        altText: 'Scheda bingo con immagini e parole per scuola dell\'infanzia',
-        pdfDownloadUrl: '/samples/english/bingo/image and word.pdf',
+        worksheetSrc: '/samples/italian/bingo/sample-2.jpeg',
+        answerKeySrc: '/samples/italian/bingo/sample-2-answer.jpeg',
+        altText: 'Schede gratuite bingo didattico - stampabili gratuiti per scuola primaria',
+        pdfDownloadUrl: '/samples/italian/bingo/sample-2.pdf',
+      },
+      {
+        id: '3',
+        worksheetSrc: '/samples/italian/bingo/sample-3.jpeg',
+        answerKeySrc: '/samples/italian/bingo/sample-3-answer.jpeg',
+        altText: 'Scheda per bambini bingo con parole - schede didattiche scuola infanzia',
+        pdfDownloadUrl: '/samples/italian/bingo/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/italian/bingo/sample-4.jpeg',
+        answerKeySrc: '/samples/italian/bingo/sample-4-answer.jpeg',
+        altText: 'Stampabili gratuiti bingo educativo - scheda per scuola dell\'infanzia',
+        pdfDownloadUrl: '/samples/italian/bingo/sample-4.pdf',
       },
     ],
   },
 
   // Features Grid
   features: {
-    sectionTitle: 'Funzionalità Generatore Schede Didattiche Picture Bingo',
+    sectionTitle: 'Funzionalità Generatore Schede Gratuite Bingo - Scheda per Bambini',
     sectionDescription: 'Il nostro generatore di schede didattiche Picture Bingo include tutte le funzionalità necessarie per creare schede didattiche scuola primaria professionali. Ogni funzione è stata progettata pensando alle maestre della scuola dell\'infanzia e delle classi prime. Crea carte bingo per schede matematica, schede italiano classe prima, attività con l\'alfabeto e pregrafismo.',
     highlightBadgeText: 'Funzionalità Chiave',
     readMoreLabel: 'Leggi di più',
@@ -96,7 +136,7 @@ Genera da 1 a 10 carte bingo in pochi minuti. Scegli griglie da 3x3 a 5x5. Perso
     items: [
       {
         id: '1',
-        title: 'Crea Schede Picture Bingo in 3 Clic',
+        title: 'Crea Schede Gratuite Bingo in 3 Clic - Scheda per Bambini',
         description: `Creare schede didattiche Picture Bingo è semplicissimo anche per chi non ha esperienza di design. Scegli la dimensione della griglia da 3x3 a 5x5 per schede didattiche scuola primaria. Seleziona il numero di carte da generare tra 1 e 10. Scegli se riempire le celle con immagini o parole per schede didattiche personalizzate.
 
 Il generatore crea automaticamente carte bingo uniche in pochi secondi. Ogni carta ha una disposizione diversa delle immagini. Perfetto per schede matematica con numeri da stampare. Ideale per schede italiano classe prima con lettere dell'alfabeto. Ottimo per attività di pregrafismo e riconoscimento visivo nella scuola dell'infanzia.
@@ -107,7 +147,7 @@ Non serve software complicato. Non servono competenze tecniche. Il nostro genera
       },
       {
         id: '2',
-        title: 'Modifica Schede sul Canvas',
+        title: 'Modifica Schede sul Canvas - Stampabili Gratuiti Personalizzati',
         description: `Ogni elemento sulle tue schede didattiche Picture Bingo è completamente modificabile sul canvas digitale. Trascina immagini per riposizionarle sulle carte bingo. Ridimensiona elementi con i punti di ancoraggio negli angoli. Ruota immagini e testi per orientamenti personalizzati.
 
 Aggiungi testi personalizzati alle schede didattiche scuola primaria. Perfetto per titoli su schede matematica con tabelline. Ideale per intestazioni su schede italiano classe prima con alfabeto. Ottimo per istruzioni su attività di pregrafismo. Cambia colori, dimensioni carattere e stili di contorno dei testi.
@@ -118,7 +158,7 @@ Elimina elementi indesiderati con un clic. Blocca elementi per evitare modifiche
       },
       {
         id: '3',
-        title: 'Carica Immagini Personalizzate',
+        title: 'Carica Immagini - Schede Gratuite per Scuola dell\'Infanzia',
         description: `Carica le tue immagini per creare schede didattiche Picture Bingo completamente personalizzate. Usa foto dei tuoi studenti per giochi di riconoscimento nomi. Carica foto di oggetti della classe per vocabolario contestualizzato. Aggiungi immagini tematiche per unità didattiche specifiche.
 
 Il sistema accetta formati JPEG, PNG e GIF. Carica più file contemporaneamente per risparmiare tempo. Combina immagini caricate con la nostra libreria di 3000+ immagini. Perfetto per schede didattiche scuola primaria personalizzate. Ideale per creare schede matematica con oggetti familiari agli studenti.
@@ -129,7 +169,7 @@ Le tue immagini caricate si integrano perfettamente con disegni da colorare e nu
       },
       {
         id: '4',
-        title: 'Schede Didattiche in 11 Lingue',
+        title: 'Schede Gratuite in 11 Lingue - Scheda per Bambini Multilingue',
         description: `Il generatore di schede didattiche Picture Bingo supporta 11 lingue per l'interfaccia e i contenuti. Scegli tra italiano, inglese, tedesco, francese, spagnolo, portoghese, olandese, svedese, danese, norvegese e finlandese. Fondamentale per insegnanti di lingue straniere e programmi bilingue nella scuola dell'infanzia.
 
 Crea schede didattiche scuola primaria in italiano per alfabeto e vocabolario base. Genera schede matematica con numeri da stampare in lingua madre degli studenti. Sviluppa schede italiano classe prima per studenti non madrelingua. Il supporto multilingue trasforma le carte bingo in potenti strumenti per l'apprendimento linguistico.
@@ -140,7 +180,7 @@ I nomi dei file delle immagini cambiano automaticamente in base alla lingua sele
       },
       {
         id: '5',
-        title: 'Licenza Commerciale Inclusa',
+        title: 'Licenza Commerciale - Vendi Schede Gratuite Bingo',
         description: `L'abbonamento Pacchetto Essenziale include licenza commerciale print-on-demand completa senza costi aggiuntivi. Vendi le tue schede didattiche Picture Bingo su Teachers Pay Teachers, Etsy e Amazon KDP. Nessuna attribuzione richiesta. Qualità commerciale 300 DPI perfetta per venditori professionisti.
 
 Crea pacchetti tematici di schede didattiche scuola primaria da vendere. Combina carte bingo con schede matematica, disegni da colorare e tabelline. Sviluppa risorse per schede italiano classe prima con alfabeto e pregrafismo. Le insegnanti imprenditrici guadagnano 500-5000 euro al mese vendendo schede didattiche.
@@ -151,7 +191,7 @@ La licenza commerciale è inclusa nel prezzo dell'abbonamento Pacchetto Essenzia
       },
       {
         id: '6',
-        title: 'Libreria di 3000+ Immagini',
+        title: '3000+ Immagini - Crea Schede Gratuite per Bambini',
         description: `Accedi a oltre 3000 immagini adatte ai bambini organizzate per temi. Scegli tra animali, frutta, verdura, veicoli, giocattoli, oggetti scolastici e molto altro. Ogni tema include decine di immagini perfette per schede didattiche scuola dell'infanzia e primaria.
 
 La libreria include numeri da stampare per schede matematica e tabelline. Contiene lettere dell'alfabeto per schede italiano classe prima. Offre forme geometriche per attività di pregrafismo. Include disegni semplici perfetti come base per disegni da colorare. Ogni immagine è stata selezionata pensando ai bambini dai 3 agli 8 anni.
@@ -162,7 +202,7 @@ Cerca immagini specifiche con la funzione di ricerca integrata. Filtra per tema 
       },
       {
         id: '7',
-        title: 'Qualità Professionale 300 DPI',
+        title: 'Qualità 300 DPI - Stampabili Gratuiti Professionali',
         description: `Scarica schede didattiche Picture Bingo in qualità professionale 300 DPI. Perfetto per stampa nitida a casa o in copisteria. Ideale per vendere schede didattiche scuola primaria su piattaforme online. Le carte bingo mantengono dettagli chiari anche quando stampate in grande formato.
 
 Scegli tra formato JPEG e PDF per le tue schede didattiche. Il PDF preserva la qualità vettoriale per stampa professionale. Il JPEG è compatibile con qualsiasi dispositivo. Entrambi i formati sono ottimizzati per schede matematica, schede italiano classe prima e attività per scuola dell'infanzia.
@@ -176,7 +216,7 @@ L'opzione scala di grigi riduce consumo di inchiostro della stampante. Perfetta 
 
   // How-To Guide Section
   howTo: {
-    sectionTitle: 'Come Creare Schede Picture Bingo in 5 Semplici Passi',
+    sectionTitle: 'Come Creare Schede Gratuite Bingo in 5 Passi - Stampabili per Bambini',
     sectionDescription: 'Creare schede didattiche Picture Bingo professionali richiede meno di 3 minuti dall\'inizio al download. Nessuna esperienza di design necessaria. Il nostro generatore di schede didattiche scuola primaria guida ogni passo del processo.',
     ctaText: 'Inizia Ora',
     badgeText: 'Guida Passo-Passo',
@@ -248,7 +288,7 @@ Attiva opzione scala di grigi per schede didattiche da usare quotidianamente. Ri
 
   // Use Cases Section
   useCases: {
-    sectionTitle: 'Perfetto per Insegnanti, Genitori ed Educatori',
+    sectionTitle: 'Perfetto per Insegnanti - Schede Gratuite per Scuola dell\'Infanzia',
     sectionDescription: 'Le schede didattiche Picture Bingo si adattano perfettamente alle esigenze di insegnanti, genitori e educatori. Ogni gruppo trova valore unico nelle carte bingo personalizzabili. Perfette per schede italiano classe prima con alfabeto e lettura.',
     badgeText: 'Chi Usa le Nostre Schede',
     readMoreLabel: 'Leggi di più',
@@ -331,7 +371,7 @@ Le carte Picture Bingo 300 DPI sono qualità premium. Gli acquirenti Teachers Pa
 
   // FAQ Section
   faq: {
-    sectionTitle: 'Domande Frequenti sulle Schede Picture Bingo',
+    sectionTitle: 'Domande Frequenti - Schede Gratuite Bingo Immagini per Bambini',
     sectionDescription: 'Risposte alle domande più comuni sul nostro generatore di schede didattiche Picture Bingo',
     showMoreText: 'Mostra altre domande',
     showLessText: 'Mostra meno domande',
@@ -460,7 +500,7 @@ L'abbonamento Accesso Completo costa 240 euro annuali. Include tutti i 33 genera
 
   // Related Apps Section
   relatedApps: {
-    sectionTitle: 'Combina Picture Bingo con Altri Generatori',
+    sectionTitle: 'Combina Bingo con Altre Schede Gratuite per Bambini',
     sectionDescription: 'L\'abbonamento Pacchetto Essenziale include 10 generatori. Combina il generatore Picture Bingo con altri strumenti. Crea pacchetti completi di schede didattiche. Perfetto per unità tematiche. Ottimo per centri di apprendimento.',
     ctaTitle: 'Pronto a Creare Schede Straordinarie?',
     ctaDescription: 'Unisciti a migliaia di educatori che creano schede professionali. Generazione illimitata, licenza commerciale inclusa.',

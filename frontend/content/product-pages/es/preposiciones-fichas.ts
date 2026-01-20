@@ -21,6 +21,32 @@ export const prepositionsEsContent: ProductPageContent = {
     description: 'Crea fichas de preposiciones profesionales con nuestro generador de fichas para imprimir. Genera fichas infantil personalizadas perfectas para preescolar y primaria. Descarga fichas para imprimir de alta calidad en PDF en menos de 3 minutos.',
     keywords: 'fichas para imprimir, fichas de preposiciones, fichas infantil, material educativo gratis, fichas preescolar, fichas gratis, grafomotricidad, lectoescritura, abecedario, números, tablas de multiplicar, dibujos para colorear, ejercicios matemáticas',
     canonicalUrl: 'https://www.lessoncraftstudio.com/es/apps/preposiciones-fichas',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/spanish/prepositions/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Ficha gratis de preposiciones para imprimir - ejercicio de relaciones espaciales para preescolar',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/spanish/prepositions/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Ficha gratis para ninos de preposiciones - actividad de vocabulario espacial para educacion infantil',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/spanish/prepositions/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fichas gratis de preposiciones espaciales - material educativo para imprimir',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/spanish/prepositions/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Imprimibles gratis de preposiciones - ficha de vocabulario espacial para preescolar',
+      },
+    ],
   },
 
   // Hero Section - FULL text from prepositions.md paragraphs 1-6
@@ -38,7 +64,7 @@ El generador ofrece dos modos de ejercicio. El modo de completar espacios permit
 Cada ficha incluye escenas visuales claras que muestran las relaciones espaciales. Los estudiantes ven objetos posicionados de diferentes maneras y aprenden el vocabulario correcto. El sistema genera de 1 a 8 ejercicios por hoja, adaptandose a las necesidades de tu grupo.
 
 Tu suscripcion incluye acceso a mas de 3000 imagenes infantiles organizadas por temas. Desde animales hasta utiles escolares, toda la biblioteca esta disponible sin costos adicionales. Tambien puedes subir tus propias fotos para personalizar las fichas segun tu salon de clases.`,
-    previewImageSrc: '/samples/english/prepositions/prepositions_worksheet.jpeg',
+    previewImageSrc: '/samples/spanish/prepositions/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Probar Gratis',
       viewSamples: 'Ver Ejemplos',
@@ -57,7 +83,7 @@ Tu suscripcion incluye acceso a mas de 3000 imagenes infantiles organizadas por 
     },
   },
 
-  // Sample Gallery - REAL file paths from samples/english/prepositions/
+  // Sample Gallery - REAL file paths from samples/spanish/prepositions/
   samples: {
     sectionTitle: 'Ejemplos de Fichas de Preposiciones',
     sectionDescription: 'Descarga ejemplos de fichas gratis para ver nuestra calidad profesional',
@@ -73,17 +99,31 @@ Tu suscripcion incluye acceso a mas de 3000 imagenes infantiles organizadas por 
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/prepositions/prepositions_worksheet.jpeg',
-        answerKeySrc: '/samples/english/prepositions/prepositions_answer_key.jpeg',
-        altText: 'Ficha de preposiciones para completar espacios en blanco para preescolar',
-        pdfDownloadUrl: '/samples/english/prepositions/prepositions_worksheet.pdf',
+        worksheetSrc: '/samples/spanish/prepositions/sample-1.jpeg',
+        answerKeySrc: '/samples/spanish/prepositions/sample-1-answer.jpeg',
+        altText: 'Ficha gratis de preposiciones para imprimir - ejercicio de completar espacios para preescolar',
+        pdfDownloadUrl: '/samples/spanish/prepositions/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/prepositions/prepositions multiple choice.jpeg',
-        answerKeySrc: '/samples/english/prepositions/prepositions multiple choice answer_key.jpeg',
-        altText: 'Ficha de preposiciones opcion multiple para educacion inicial',
-        pdfDownloadUrl: '/samples/english/prepositions/prepositions multiple choice.pdf',
+        worksheetSrc: '/samples/spanish/prepositions/sample-2.jpeg',
+        answerKeySrc: '/samples/spanish/prepositions/sample-2-answer.jpeg',
+        altText: 'Ficha gratis para ninos de preposiciones - ejercicio de opcion multiple para educacion infantil',
+        pdfDownloadUrl: '/samples/spanish/prepositions/sample-2.pdf',
+      },
+      {
+        id: '3',
+        worksheetSrc: '/samples/spanish/prepositions/sample-3.jpeg',
+        answerKeySrc: '/samples/spanish/prepositions/sample-3-answer.jpeg',
+        altText: 'Fichas gratis de preposiciones espaciales - material educativo para primaria',
+        pdfDownloadUrl: '/samples/spanish/prepositions/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/spanish/prepositions/sample-4.jpeg',
+        answerKeySrc: '/samples/spanish/prepositions/sample-4-answer.jpeg',
+        altText: 'Imprimibles gratis de preposiciones - ficha de vocabulario espacial para ninos',
+        pdfDownloadUrl: '/samples/spanish/prepositions/sample-4.pdf',
       },
     ],
   },

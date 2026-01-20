@@ -15,16 +15,42 @@ export const treasureHuntItContent: ProductPageContent = {
   seo: {
     slug: 'caccia-tesoro-schede',
     appId: 'treasure-hunt',
-    title: 'Schede Didattiche Caccia al Tesoro - Generatore di Schede per Scuola dell\'Infanzia e Scuola Primaria',
+    title: 'Schede Gratuite Caccia al Tesoro | Stampabili Gratuiti Scuola Primaria e Infanzia',
     description: 'Crea schede didattiche caccia al tesoro con il nostro generatore professionale. Il tuo abbonamento Accesso Completo ti consente di creare schede illimitate senza costi aggiuntivi per singola scheda. Genera schede didattiche personalizzate perfette per la scuola dell\'infanzia e la scuola primaria. Scarica schede di alta qualità in formato PDF in meno di 3 minuti.',
     keywords: 'schede didattiche caccia al tesoro, schede didattiche scuola primaria, schede didattiche scuola infanzia, orientamento spaziale, ragionamento spaziale, vocabolario direzionale, schede italiano classe prima, schede matematica, disegni da colorare, pregrafismo, seguire istruzioni',
     canonicalUrl: 'https://www.lessoncraftstudio.com/it/apps/caccia-tesoro-schede',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/italian/treasure-hunt/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Scheda gratuita caccia al tesoro - orientamento spaziale per scuola dell\'infanzia'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/italian/treasure-hunt/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Schede gratuite caccia al tesoro - scheda per bambini scuola primaria'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/italian/treasure-hunt/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Stampabili gratuiti caccia al tesoro - scheda per scuola dell\'infanzia'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/italian/treasure-hunt/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Scheda per bambini - scheda gratuita per bambini orientamento'
+      },
+    ],
   },
 
   // Hero Section
   hero: {
-    title: 'Generatore Schede Didattiche Caccia al Tesoro',
-    subtitle: 'Schede Didattiche Scuola Primaria e Scuola dell\'Infanzia',
+    title: 'Schede Gratuite di Caccia al Tesoro per Bambini',
+    subtitle: 'Scheda Gratuita per Scuola dell\'Infanzia e Stampabili Orientamento Primaria',
     description: `Crea schede didattiche caccia al tesoro con il nostro generatore professionale. Il tuo abbonamento Accesso Completo ti consente di creare schede illimitate senza costi aggiuntivi per singola scheda. Genera schede didattiche personalizzate perfette per la scuola dell'infanzia e la scuola primaria. Scarica schede di alta qualità in formato PDF in meno di 3 minuti.
 
 Le schede didattiche caccia al tesoro aiutano i bambini a sviluppare il ragionamento spaziale. Gli studenti seguono istruzioni scritte per navigare attraverso una griglia. Ogni scheda insegna vocabolario direzionale come su, giù, sinistra, destra. Per gli studenti più grandi, usa indicazioni cardinali come nord, sud, est, ovest.
@@ -32,7 +58,7 @@ Le schede didattiche caccia al tesoro aiutano i bambini a sviluppare il ragionam
 Il generatore crea automaticamente percorsi educativi con istruzioni passo dopo passo. Seleziona un tema e 6 immagini appaiono sulla griglia. Il sistema genera istruzioni di navigazione complete. Gli studenti leggono, contano i passi e trovano oggetti nascosti. Questo combina comprensione della lettura con abilità matematiche spaziali.
 
 Perfetto per insegnanti di scuola dell'infanzia che necessitano di attività di ragionamento spaziale. Ideale per insegnanti di scuola primaria che insegnano orientamento e mappe. Gli educatori homeschool utilizzano queste schede per lezioni di geografia. Gli insegnanti di italiano come lingua straniera praticano vocabolario direzionale. Crea pacchetti tematici stagionali per tutto l'anno scolastico.`,
-    previewImageSrc: '/samples/english/treasure hunt/up down.jpeg',
+    previewImageSrc: '/samples/italian/treasure-hunt/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Prova Gratis',
       viewSamples: 'Vedi Esempi',
@@ -53,8 +79,8 @@ Perfetto per insegnanti di scuola dell'infanzia che necessitano di attività di 
 
   // Sample Gallery
   samples: {
-    sectionTitle: 'Esempi di Schede Didattiche Caccia al Tesoro',
-    sectionDescription: 'Scarica esempi gratuiti per vedere la nostra qualità professionale',
+    sectionTitle: 'Stampabili Gratuiti: Esempi di Schede Caccia al Tesoro',
+    sectionDescription: 'Scarica scheda gratuita per bambini e scheda per scuola dell\'infanzia - schede per bambini di alta qualità professionale',
     downloadLabel: 'Scarica Esempio Gratuito',
     worksheetLabel: 'Scheda',
     answerKeyLabel: 'Chiave di Risposta',
@@ -67,25 +93,39 @@ Perfetto per insegnanti di scuola dell'infanzia che necessitano di attività di 
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/treasure hunt/up down.jpeg',
-        answerKeySrc: '/samples/english/treasure hunt/up down answer_key.jpeg',
-        altText: 'Schede didattiche caccia al tesoro per scuola primaria - indicazioni su e giù',
-        pdfDownloadUrl: '/samples/english/treasure hunt/up down.pdf',
+        worksheetSrc: '/samples/italian/treasure-hunt/sample-1.jpeg',
+        answerKeySrc: '/samples/italian/treasure-hunt/sample-1-answer.jpeg',
+        altText: 'Scheda gratuita caccia al tesoro - indicazioni su giù per scuola dell\'infanzia',
+        pdfDownloadUrl: '/samples/italian/treasure-hunt/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/treasure hunt/north south.jpeg',
-        answerKeySrc: '/samples/english/treasure hunt/north south answer_key.jpeg',
-        altText: 'Schede didattiche caccia al tesoro scuola infanzia - indicazioni cardinali nord sud',
-        pdfDownloadUrl: '/samples/english/treasure hunt/north south.pdf',
+        worksheetSrc: '/samples/italian/treasure-hunt/sample-2.jpeg',
+        answerKeySrc: '/samples/italian/treasure-hunt/sample-2-answer.jpeg',
+        altText: 'Scheda per bambini - schede gratuite caccia al tesoro orientamento spaziale',
+        pdfDownloadUrl: '/samples/italian/treasure-hunt/sample-2.pdf',
+      },
+      {
+        id: '3',
+        worksheetSrc: '/samples/italian/treasure-hunt/sample-3.jpeg',
+        answerKeySrc: '/samples/italian/treasure-hunt/sample-3-answer.jpeg',
+        altText: 'Stampabili gratuiti caccia al tesoro - scheda per scuola dell\'infanzia',
+        pdfDownloadUrl: '/samples/italian/treasure-hunt/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/italian/treasure-hunt/sample-4.jpeg',
+        answerKeySrc: '/samples/italian/treasure-hunt/sample-4-answer.jpeg',
+        altText: 'Scheda per scuola dell\'infanzia - scheda gratuita per bambini orientamento',
+        pdfDownloadUrl: '/samples/italian/treasure-hunt/sample-4.pdf',
       },
     ],
   },
 
   // Features Grid
   features: {
-    sectionTitle: 'Funzionalità del Generatore di Schede Didattiche Caccia al Tesoro - Tutto Ciò che Serve per Schede Didattiche Scuola Primaria',
-    sectionDescription: 'Il generatore di schede didattiche caccia al tesoro offre funzionalità complete per insegnanti. Crea schede didattiche scuola primaria in pochi minuti senza competenze di design. Ogni funzionalità è progettata per risparmiare tempo agli educatori. Il sistema combina facilità d\'uso con personalizzazione professionale. Genera attività educative di alta qualità per la scuola dell\'infanzia e la scuola primaria.',
+    sectionTitle: 'Funzionalità della Scheda Gratuita Caccia al Tesoro - Schede Gratuite per Scuola Primaria',
+    sectionDescription: 'Il generatore di schede caccia al tesoro offre funzionalità complete per insegnanti. Crea scheda per bambini e scheda per scuola dell\'infanzia in pochi minuti senza competenze di design. Ogni scheda gratuita per bambini è progettata per risparmiare tempo agli educatori. Genera scheda per scuola dell\'infanzia di alta qualità per scuola primaria.',
     highlightBadgeText: 'Funzionalità Chiave',
     readMoreLabel: 'Leggi di più',
     showLessLabel: 'Mostra meno',
@@ -167,8 +207,8 @@ Ogni immagine è progettata professionalmente per attrattiva educativa. Stili ar
 
   // How-To Guide Section
   howTo: {
-    sectionTitle: 'Come Creare Schede Didattiche Scuola Primaria in 5 Semplici Passaggi - Schede Didattiche per Scuola dell\'Infanzia Pronte in 3 Minuti',
-    sectionDescription: 'Creare schede didattiche caccia al tesoro richiede meno di tre minuti dall\'inizio alla fine. Il processo è progettato per insegnanti occupati che necessitano di materiali di qualità rapidamente. Ogni passaggio è intuitivo e non richiede formazione tecnica. Segui questi cinque semplici passaggi per generare schede didattiche scuola primaria professionali. Il tuo flusso di lavoro diventa efficiente con pratica regolare.',
+    sectionTitle: 'Come Creare Schede Gratuite Caccia al Tesoro in 5 Passaggi - Stampabili Gratuiti in 3 Minuti',
+    sectionDescription: 'Creare scheda gratuita per bambini richiede meno di tre minuti dall\'inizio alla fine. Il processo per scheda per scuola dell\'infanzia è progettato per insegnanti occupati. Segui questi cinque passaggi per generare scheda per bambini professionali. Ogni scheda per scuola dell\'infanzia è pronta con pratica regolare.',
     ctaText: 'Inizia Ora',
     badgeText: 'Guida Passo-Passo',
     stepLabel: 'Passaggio',
@@ -239,8 +279,8 @@ I file PDF mantengono qualità perfetta per stampa professionale. Scarica PDF pe
 
   // Use Cases Section
   useCases: {
-    sectionTitle: 'Perfetto per Insegnanti, Genitori ed Educatori - Schede Didattiche Scuola Primaria e Scuola dell\'Infanzia per Ogni Esigenza',
-    sectionDescription: 'Il generatore di schede didattiche caccia al tesoro serve educatori in contesti diversi. Ogni gruppo di utenti trova valore unico in questa risorsa flessibile. Insegnanti di scuola dell\'infanzia sviluppano ragionamento spaziale nei bambini piccoli. Insegnanti di scuola primaria insegnano abilità cartografiche e vocabolario geografico. Genitori homeschool creano lezioni personalizzate per apprendimento a casa. Insegnanti di lingue praticano vocabolario direzionale in italiano e altre lingue.',
+    sectionTitle: 'Perfetto per Insegnanti e Genitori - Scheda Gratuita per Bambini e Scuola Primaria',
+    sectionDescription: 'Il generatore di schede caccia al tesoro serve educatori in contesti diversi. Ogni scheda gratuita per bambini offre valore unico. Scheda per scuola dell\'infanzia per ragionamento spaziale. Scheda per bambini per abilità cartografiche. Genitori homeschool creano lezioni con schede gratuite.',
     badgeText: 'Chi Usa le Nostre Schede',
     readMoreLabel: 'Leggi di più',
     showLessLabel: 'Mostra meno',
@@ -322,8 +362,8 @@ Crea prodotti differenziati con livelli di difficoltà multipli. Pacchetto base 
 
   // FAQ Section
   faq: {
-    sectionTitle: 'Domande Frequenti sulle Schede Didattiche Caccia al Tesoro - Schede Didattiche Scuola Primaria',
-    sectionDescription: 'Gli insegnanti pongono domande simili quando scoprono il generatore di schede caccia al tesoro. Queste risposte forniscono informazioni dettagliate sull\'abbonamento Accesso Completo. Ogni domanda affronta preoccupazioni comuni riguardo funzionalità e valore. Le risposte chiariscono cosa è incluso nel tuo abbonamento €240 annuale. Comprendi esattamente cosa ricevi prima di investire nella piattaforma.',
+    sectionTitle: 'Domande Frequenti sulle Schede Gratuite Caccia al Tesoro - Scheda per Bambini e Scuola dell\'Infanzia',
+    sectionDescription: 'Gli insegnanti pongono domande su scheda gratuita per bambini e stampabili gratuiti. Scheda per scuola dell\'infanzia e scheda per bambini sono incluse nell\'abbonamento Accesso Completo. Le risposte chiariscono cosa è incluso nel tuo abbonamento €240 annuale.',
     showMoreText: 'Mostra altre domande',
     showLessText: 'Mostra meno domande',
     badgeText: 'FAQ',

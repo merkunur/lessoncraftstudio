@@ -19,6 +19,38 @@ export const drawingLinesPtContent: ProductPageContent = {
     description: 'Crie atividades de traçar linhas profissionais com nosso gerador de fichas educativas. Com sua assinatura Pacote Essencial, você produz atividades para imprimir ilimitadas sem custo adicional por ficha. Desenvolva a coordenação motora das crianças com exercícios de ligar pontos personalizados.',
     keywords: 'atividades de coordenação motora, atividades para imprimir, atividades educação infantil, traçar linhas, pontilhado, letra cursiva, atividades de alfabetização, atividades 1º ano, atividades 2º ano, desenhos para colorir, atividades vogais, atividades de matemática, tabuada',
     canonicalUrl: 'https://www.lessoncraftstudio.com/pt/apps/tracar-linhas-fichas',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/portuguese/drawing-lines/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Atividade grátis de traçar linhas curvas para coordenação motora - atividade para educação infantil',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/portuguese/drawing-lines/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Atividade grátis para crianças de traçar linhas diagonais - imprimíveis grátis para alfabetização',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/portuguese/drawing-lines/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Atividades grátis de traçar linhas horizontais - atividade para crianças da pré-escola',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/portuguese/drawing-lines/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Imprimíveis grátis de coordenação motora fina - atividade para educação infantil com pontilhado',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/portuguese/drawing-lines/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Atividade grátis de traçar caminhos - atividades grátis de ligar imagens para crianças',
+      },
+    ],
   },
 
   // Hero Section
@@ -30,7 +62,7 @@ export const drawingLinesPtContent: ProductPageContent = {
 O gerador de atividades de traçar linhas transforma a preparação de materiais didáticos. Professores de educação infantil e ensino fundamental criam fichas de coordenação motora em segundos. A ferramenta oferece modelos variados com linhas curvas, diagonais e horizontais.
 
 Cada atividade trabalha habilidades essenciais para a alfabetização. As crianças traçam caminhos conectando imagens do lado esquerdo ao lado direito da página. Este exercício fortalece o controle do lápis e prepara para a letra cursiva.`,
-    previewImageSrc: '/samples/english/drawing lines/drawing_lines_curve 1.jpeg',
+    previewImageSrc: '/samples/portuguese/drawing-lines/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Experimente Grátis',
       viewSamples: 'Ver Exemplos',
@@ -65,24 +97,38 @@ Cada atividade trabalha habilidades essenciais para a alfabetização. As crian�
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/drawing lines/drawing_lines_curve 1.jpeg',
+        worksheetSrc: '/samples/portuguese/drawing-lines/sample-1.jpeg',
         answerKeySrc: '',
-        altText: 'Atividade de traçar linhas curvas para coordenação motora',
-        pdfDownloadUrl: '/samples/english/drawing lines/drawing_lines_curve 1.pdf',
+        altText: 'Atividade grátis de traçar linhas curvas - atividade para educação infantil de coordenação motora',
+        pdfDownloadUrl: '/samples/portuguese/drawing-lines/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/drawing lines/drawing_lines_diagonal 1.jpeg',
+        worksheetSrc: '/samples/portuguese/drawing-lines/sample-2.jpeg',
         answerKeySrc: '',
-        altText: 'Atividade de traçar linhas diagonais para educação infantil',
-        pdfDownloadUrl: '/samples/english/drawing lines/drawing_lines_diagonal 1.pdf',
+        altText: 'Atividade grátis para crianças de traçar linhas diagonais - imprimíveis grátis para pré-escola',
+        pdfDownloadUrl: '/samples/portuguese/drawing-lines/sample-2.pdf',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/drawing lines/drawing_lines_horizontal.jpeg',
+        worksheetSrc: '/samples/portuguese/drawing-lines/sample-3.jpeg',
         answerKeySrc: '',
-        altText: 'Atividade de traçar linhas horizontais para alfabetização',
-        pdfDownloadUrl: '/samples/english/drawing lines/drawing_lines_horizontal.pdf',
+        altText: 'Atividades grátis de traçar linhas horizontais - atividade para crianças de alfabetização',
+        pdfDownloadUrl: '/samples/portuguese/drawing-lines/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/portuguese/drawing-lines/sample-4.jpeg',
+        answerKeySrc: '',
+        altText: 'Imprimíveis grátis de coordenação motora fina - atividade para educação infantil com pontilhado',
+        pdfDownloadUrl: '/samples/portuguese/drawing-lines/sample-4.pdf',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/portuguese/drawing-lines/sample-5.jpeg',
+        answerKeySrc: '',
+        altText: 'Atividade grátis de traçar caminhos - atividades grátis de ligar imagens para crianças',
+        pdfDownloadUrl: '/samples/portuguese/drawing-lines/sample-5.pdf',
       },
     ],
   },

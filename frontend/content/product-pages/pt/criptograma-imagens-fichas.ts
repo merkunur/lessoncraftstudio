@@ -17,22 +17,54 @@ export const cryptogramPtContent: ProductPageContent = {
   seo: {
     slug: 'criptograma-imagens-fichas',
     appId: 'cryptogram',
-    title: 'Gerador de Criptograma com Imagens - Atividades para Imprimir de Alfabetização para Educação Infantil',
+    title: 'Criptograma com Imagens - Atividade Grátis para Educação Infantil e Crianças',
     description: 'Crie atividades de criptograma com imagens profissionais em poucos minutos. Com sua assinatura Acesso Completo, você tem acesso ilimitado ao gerador de criptogramas sem taxas por atividade. Baixe em PDF de alta qualidade 300 DPI em menos de 3 minutos.',
     keywords: 'criptograma, atividades para imprimir, atividades de alfabetização, atividades educação infantil, atividades de matemática, desenhos para colorir, coordenação motora, atividades vogais, tabuada, letra cursiva, pontilhado, atividades 1º ano, atividades 2º ano',
     canonicalUrl: 'https://www.lessoncraftstudio.com/pt/apps/criptograma-imagens-fichas',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/portuguese/cryptogram/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Atividade grátis de criptograma com imagens - alfabetização para educação infantil',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/portuguese/cryptogram/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Atividades grátis de criptograma para crianças - decodificação de letras',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/portuguese/cryptogram/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Imprimíveis grátis de criptograma - atividade para educação infantil',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/portuguese/cryptogram/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Atividade para crianças grátis - criptograma com código de imagens',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/portuguese/cryptogram/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Atividade grátis de criptograma para alfabetização - 1º e 2º ano',
+      },
+    ],
   },
 
   // Hero Section
   hero: {
-    title: 'Gerador de Criptograma com Imagens',
-    subtitle: 'Atividades para Imprimir de Alfabetização para Educação Infantil',
+    title: 'Criptograma com Imagens - Atividades Grátis para Crianças',
+    subtitle: 'Gerador de Atividades Grátis de Alfabetização e Imprimíveis Grátis',
     description: `Crie atividades de criptograma com imagens profissionais em poucos minutos. Com sua assinatura Acesso Completo, você tem acesso ilimitado ao gerador de criptogramas sem taxas por atividade. Transforme qualquer frase ou palavra em um quebra-cabeça divertido onde as crianças decifram códigos usando pistas visuais. Perfeito para professores que buscam atividades para imprimir envolventes para educação infantil e ensino fundamental.
 
 O criptograma com imagens é uma ferramenta pedagógica poderosa. Cada letra do alfabeto é representada por uma figura. As crianças usam a legenda para descobrir quais letras correspondem a cada imagem. Esse processo desenvolve raciocínio lógico e reconhecimento de letras simultaneamente. Suas atividades de alfabetização ficam muito mais interessantes com esse recurso visual. O formato de quebra-cabeça mantém os alunos motivados enquanto praticam habilidades essenciais de leitura.
 
 O gerador de criptograma oferece recursos exclusivos para educadores. Você escolhe quantas letras revelar como pistas. Isso permite ajustar a dificuldade conforme a idade dos alunos. Crianças da educação infantil podem ter mais letras reveladas. Alunos do 1º ano e 2º ano recebem menos pistas para um desafio maior. A personalização é simples e rápida no painel lateral.`,
-    previewImageSrc: '/samples/english/cryptogram/cryptogram_worksheet.jpeg',
+    previewImageSrc: '/samples/portuguese/cryptogram/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Experimente Grátis',
       viewSamples: 'Ver Exemplos',
@@ -53,7 +85,7 @@ O gerador de criptograma oferece recursos exclusivos para educadores. Você esco
 
   // Sample Gallery
   samples: {
-    sectionTitle: 'Exemplos de Criptogramas com Imagens',
+    sectionTitle: 'Exemplos de Criptograma - Atividades Grátis para Educação Infantil e Crianças',
     sectionDescription: 'Baixe exemplos gratuitos para ver nossa qualidade profissional',
     downloadLabel: 'Baixar Exemplo Grátis',
     worksheetLabel: 'Atividade',
@@ -67,24 +99,45 @@ O gerador de criptograma oferece recursos exclusivos para educadores. Você esco
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/cryptogram/cryptogram_worksheet.jpeg',
-        answerKeySrc: '/samples/english/cryptogram/cryptogram_answer_key.jpeg',
-        altText: 'Criptograma com imagens para educação infantil',
-        pdfDownloadUrl: '/samples/english/cryptogram/cryptogram_worksheet.pdf',
+        worksheetSrc: '/samples/portuguese/cryptogram/sample-1.jpeg',
+        answerKeySrc: '/samples/portuguese/cryptogram/sample-1-answer.jpeg',
+        altText: 'Atividade grátis de criptograma com imagens para educação infantil',
+        pdfDownloadUrl: '/samples/portuguese/cryptogram/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/cryptogram/cryptogram_worksheet (1).jpeg',
-        answerKeySrc: '/samples/english/cryptogram/cryptogram_answer_key (1).jpeg',
-        altText: 'Criptograma educativo para atividades de alfabetização',
-        pdfDownloadUrl: '/samples/english/cryptogram/cryptogram_worksheet (1).pdf',
+        worksheetSrc: '/samples/portuguese/cryptogram/sample-2.jpeg',
+        answerKeySrc: '/samples/portuguese/cryptogram/sample-2-answer.jpeg',
+        altText: 'Atividades grátis de criptograma para crianças - decodificação',
+        pdfDownloadUrl: '/samples/portuguese/cryptogram/sample-2.pdf',
+      },
+      {
+        id: '3',
+        worksheetSrc: '/samples/portuguese/cryptogram/sample-3.jpeg',
+        answerKeySrc: '/samples/portuguese/cryptogram/sample-3-answer.jpeg',
+        altText: 'Imprimíveis grátis de criptograma - atividade para crianças',
+        pdfDownloadUrl: '/samples/portuguese/cryptogram/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/portuguese/cryptogram/sample-4.jpeg',
+        answerKeySrc: '/samples/portuguese/cryptogram/sample-4-answer.jpeg',
+        altText: 'Atividade para educação infantil grátis - código de imagens',
+        pdfDownloadUrl: '/samples/portuguese/cryptogram/sample-4.pdf',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/portuguese/cryptogram/sample-5.jpeg',
+        answerKeySrc: '/samples/portuguese/cryptogram/sample-5-answer.jpeg',
+        altText: 'Atividade grátis para crianças - criptograma alfabetização 1º ano',
+        pdfDownloadUrl: '/samples/portuguese/cryptogram/sample-5.pdf',
       },
     ],
   },
 
   // Features Grid
   features: {
-    sectionTitle: 'Recursos do Gerador de Criptograma',
+    sectionTitle: 'Recursos do Gerador - Atividades Grátis de Criptograma para Educação Infantil',
     sectionDescription: 'O gerador de criptograma oferece recursos profissionais para criar atividades para imprimir de alta qualidade. Cada funcionalidade foi desenvolvida pensando em professores da educação infantil e ensino fundamental. A interface intuitiva permite criar materiais pedagógicos em minutos.',
     highlightBadgeText: 'Recurso Principal',
     readMoreLabel: 'Leia mais',
@@ -157,7 +210,7 @@ O gerador de criptograma oferece recursos exclusivos para educadores. Você esco
 
   // How-To Guide
   howTo: {
-    sectionTitle: 'Como Criar Criptogramas em 5 Passos Simples',
+    sectionTitle: 'Como Criar Atividades Grátis de Criptograma em 5 Passos',
     sectionDescription: 'Criar criptogramas profissionais leva menos de 3 minutos. O processo é intuitivo e não exige conhecimentos técnicos. Professores da educação infantil e ensino fundamental dominam a ferramenta rapidamente.',
     ctaText: 'Comece Agora',
     badgeText: 'Como Funciona',
@@ -209,7 +262,7 @@ O gerador de criptograma oferece recursos exclusivos para educadores. Você esco
 
   // Use Cases
   useCases: {
-    sectionTitle: 'Quem Usa o Gerador de Criptograma',
+    sectionTitle: 'Quem Usa Atividades Grátis de Criptograma - Imprimíveis para Crianças',
     sectionDescription: 'O gerador de criptograma atende diversos perfis de educadores no Brasil. Professores da educação infantil ao ensino fundamental encontram valor na ferramenta. Pais que educam em casa também aproveitam os recursos.',
     badgeText: 'Casos de Uso',
     readMoreLabel: 'Leia mais',
@@ -321,7 +374,7 @@ O gerador de criptograma oferece recursos exclusivos para educadores. Você esco
 
   // FAQ Section
   faq: {
-    sectionTitle: 'Perguntas Frequentes sobre Criptogramas',
+    sectionTitle: 'Perguntas Frequentes sobre Atividades Grátis de Criptograma para Crianças',
     sectionDescription: 'Respondemos as perguntas mais frequentes sobre o gerador de criptogramas e recursos disponíveis.',
     showMoreText: 'Ver mais perguntas',
     showLessText: 'Ver menos',
@@ -396,7 +449,7 @@ O gerador de criptograma oferece recursos exclusivos para educadores. Você esco
 
   // Related Apps Section
   relatedApps: {
-    sectionTitle: 'Atividades Relacionadas',
+    sectionTitle: 'Atividades Grátis Relacionadas - Imprimíveis para Educação Infantil',
     sectionDescription: 'Combine criptogramas com outras atividades para pacotes completos de aprendizado.',
     ctaTitle: 'Pronto para Criar Atividades Incríveis?',
     ctaDescription: 'Junte-se a milhares de educadores que criam atividades profissionais todos os dias.',

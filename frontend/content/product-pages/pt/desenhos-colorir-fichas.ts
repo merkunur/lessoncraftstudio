@@ -15,10 +15,42 @@ export const coloringPtContent: ProductPageContent = {
   seo: {
     slug: 'desenhos-colorir-fichas',
     appId: 'coloring',
-    title: 'Desenhos para Colorir - Gerador de Atividades para Imprimir - Páginas de Colorir para Educação Infantil',
-    description: 'Crie desenhos para colorir profissionais com nosso gerador de atividades para imprimir. Com sua assinatura Pacote Essencial, você gera páginas de colorir ilimitadas sem taxas por atividade. Produza atividades educação infantil personalizadas em menos de 3 minutos.',
+    title: 'Desenhos para Colorir - Atividades Grátis para Imprimir - Páginas de Colorir para Educação Infantil',
+    description: 'Crie desenhos para colorir profissionais com nosso gerador de atividades grátis para imprimir. Com sua assinatura, gere páginas de colorir ilimitadas. Produza atividades grátis para crianças personalizadas em menos de 3 minutos.',
     keywords: 'desenhos para colorir, atividades para imprimir, atividades educação infantil, coordenação motora, atividades de alfabetização, atividades vogais, letra cursiva, pontilhado, tabuada, atividades de matemática, 1º ano, 2º ano',
     canonicalUrl: 'https://www.lessoncraftstudio.com/pt/apps/desenhos-colorir-fichas',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/portuguese/coloring/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Desenhos para colorir atividade grátis - página de colorir para educação infantil',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/portuguese/coloring/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Atividade grátis para crianças de colorir - coordenação motora fina',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/portuguese/coloring/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Desenhos para colorir imprimíveis grátis para pré-escola',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/portuguese/coloring/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Atividades grátis de colorir para sala de aula',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/portuguese/coloring/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Atividade para crianças de colorir - atividade para educação infantil',
+      },
+    ],
   },
 
   // Hero Section - FULL text from coloring.md
@@ -30,7 +62,7 @@ export const coloringPtContent: ProductPageContent = {
 Professores de educação infantil buscam desenhos para colorir de qualidade. Nosso gerador cria atividades para imprimir em segundos. Cada página desenvolve coordenação motora fina. Crianças praticam o controle do lápis enquanto se divertem. Os desenhos para colorir são essenciais no desenvolvimento infantil.
 
 Nossa biblioteca oferece mais de 3000 imagens infantis. Escolha temas como animais, frutas, transportes e profissões. Todos os desenhos para colorir são adequados para crianças. Combine imagens da biblioteca com seus próprios arquivos. Crie atividades educação infantil únicas para sua turma.`,
-    previewImageSrc: '/samples/english/coloring/coloring portrait 1.png',
+    previewImageSrc: '/samples/portuguese/coloring/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Experimente Grátis',
       viewSamples: 'Ver Exemplos',
@@ -49,9 +81,9 @@ Nossa biblioteca oferece mais de 3000 imagens infantis. Escolha temas como anima
     },
   },
 
-  // Sample Gallery - REAL file paths from samples/english/coloring/
+  // Sample Gallery - Portuguese coloring samples
   samples: {
-    sectionTitle: 'Exemplos de Desenhos para Colorir',
+    sectionTitle: 'Exemplos de Desenhos para Colorir - Atividades Grátis para Educação Infantil',
     sectionDescription: 'Baixe exemplos gratuitos para ver nossa qualidade profissional',
     downloadLabel: 'Baixar Exemplo Grátis',
     worksheetLabel: 'Desenho',
@@ -65,46 +97,45 @@ Nossa biblioteca oferece mais de 3000 imagens infantis. Escolha temas como anima
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/coloring/coloring portrait 1.png',
+        worksheetSrc: '/samples/portuguese/coloring/sample-1.jpeg',
         answerKeySrc: '',
-        altText: 'Desenho para colorir formato retrato para educação infantil',
+        altText: 'Desenhos para colorir atividade grátis - formato retrato para educação infantil',
+        pdfDownloadUrl: '/samples/portuguese/coloring/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/coloring/coloring portrait 2.png',
+        worksheetSrc: '/samples/portuguese/coloring/sample-2.jpeg',
         answerKeySrc: '',
-        altText: 'Página de colorir com tema infantil para coordenação motora',
+        altText: 'Página de colorir atividade grátis para crianças - coordenação motora',
+        pdfDownloadUrl: '/samples/portuguese/coloring/sample-2.pdf',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/coloring/coloring portrait 3.png',
+        worksheetSrc: '/samples/portuguese/coloring/sample-3.jpeg',
         answerKeySrc: '',
-        altText: 'Atividade de colorir para pré-escola e 1º ano',
+        altText: 'Atividade de colorir grátis para pré-escola e educação infantil',
+        pdfDownloadUrl: '/samples/portuguese/coloring/sample-3.pdf',
       },
       {
         id: '4',
-        worksheetSrc: '/samples/english/coloring/coloring landscape 1.png',
+        worksheetSrc: '/samples/portuguese/coloring/sample-4.jpeg',
         answerKeySrc: '',
-        altText: 'Desenho para colorir formato paisagem para sala de aula',
+        altText: 'Desenho para colorir imprimível grátis para sala de aula',
+        pdfDownloadUrl: '/samples/portuguese/coloring/sample-4.pdf',
       },
       {
         id: '5',
-        worksheetSrc: '/samples/english/coloring/coloring landscape 2.png',
+        worksheetSrc: '/samples/portuguese/coloring/sample-5.jpeg',
         answerKeySrc: '',
-        altText: 'Página de colorir temática para atividades educacionais',
-      },
-      {
-        id: '6',
-        worksheetSrc: '/samples/english/coloring/coloring portrait 4.png',
-        answerKeySrc: '',
-        altText: 'Desenho para colorir para desenvolvimento da coordenação motora fina',
+        altText: 'Atividade para crianças de colorir - desenvolvimento da coordenação motora fina',
+        pdfDownloadUrl: '/samples/portuguese/coloring/sample-5.pdf',
       },
     ],
   },
 
   // Features Grid - FULL text from coloring.md feature sections
   features: {
-    sectionTitle: 'Recursos do Gerador de Desenhos para Colorir',
+    sectionTitle: 'Recursos do Gerador de Desenhos para Colorir - Atividades Grátis para Imprimir',
     sectionDescription: 'Nosso gerador de desenhos para colorir oferece recursos completos para educadores. Crie atividades para imprimir personalizadas em minutos. Cada ferramenta foi desenvolvida pensando em professores de educação infantil. Descubra como transformar sua rotina de preparação de materiais.',
     highlightBadgeText: 'Recurso Principal',
     readMoreLabel: 'Leia mais',
@@ -119,35 +150,35 @@ Nossa biblioteca oferece mais de 3000 imagens infantis. Escolha temas como anima
       {
         id: '1',
         icon: '⚡',
-        title: 'Crie Desenhos para Colorir em 3 Cliques',
+        title: 'Crie Atividade Grátis de Desenhos para Colorir em 3 Cliques',
         description: `Selecione um tema da biblioteca de imagens. Clique em gerar e seu desenho para colorir aparece instantaneamente. Adicione elementos extras arrastando imagens para a tela. Todo o processo leva menos de 3 minutos. Professores de educação infantil economizam horas de trabalho. Crie atividades para imprimir sem complicação.`,
         highlighted: false,
       },
       {
         id: '2',
         icon: '✏️',
-        title: 'Desenhos para Colorir Totalmente Editáveis',
+        title: 'Desenhos para Colorir Imprimíveis Grátis Totalmente Editáveis',
         description: `Cada elemento na tela é completamente editável. Arraste, gire e redimensione qualquer imagem. Delete elementos que não deseja. Ajuste a opacidade de cada objeto. Organize camadas movendo itens para frente ou para trás. Seus desenhos para colorir ficam exatamente como você imaginou. Atividades para imprimir únicas toda vez.`,
         highlighted: false,
       },
       {
         id: '3',
         icon: '📝',
-        title: 'Atividades de Coordenação Motora com Letra Cursiva',
+        title: 'Atividade para Crianças de Coordenação Motora com Letra Cursiva',
         description: `Adicione linhas de caligrafia aos seus desenhos para colorir. Combine colorir com prática de letra cursiva. Inclua exercícios de pontilhado na mesma página. Desenvolva coordenação motora de forma integrada. Perfeito para transição entre atividades. Crianças praticam múltiplas habilidades em uma folha.`,
         highlighted: true,
       },
       {
         id: '4',
         icon: '📤',
-        title: 'Upload de Imagens Próprias',
+        title: 'Upload de Imagens para Atividade Grátis',
         description: `Envie suas próprias imagens para o gerador. Aceita formatos JPEG, PNG e GIF. Faça upload de múltiplos arquivos de uma vez. Combine fotos da turma com desenhos para colorir. Crie atividades educação infantil com rostos familiares. Personalize atividades para imprimir para cada aluno.`,
         highlighted: false,
       },
       {
         id: '5',
         icon: '🌍',
-        title: 'Desenhos para Colorir em 11 Idiomas',
+        title: 'Atividade para Educação Infantil em 11 Idiomas',
         description: `Interface disponível em português brasileiro e mais 10 idiomas. Biblioteca de imagens traduzida para facilitar buscas. Crie desenhos para colorir com vocabulário internacional. Ideal para atividades de alfabetização em escolas bilíngues. Suporte a alemão, francês, espanhol, italiano e mais. Perfeito para programas de imersão linguística.`,
         highlighted: false,
       },
@@ -161,14 +192,14 @@ Nossa biblioteca oferece mais de 3000 imagens infantis. Escolha temas como anima
       {
         id: '7',
         icon: '🎨',
-        title: 'Biblioteca com 3000+ Imagens',
+        title: 'Biblioteca com 3000+ Imagens para Atividade para Crianças',
         description: `Acesse mais de 3000 imagens infantis organizadas por tema. Encontre ilustrações para atividades vogais e alfabeto. Imagens de animais, números, formas e profissões. Busque por palavra-chave em português. Todas as imagens são adequadas para crianças. Crie desenhos para colorir variados sem repetição.`,
         highlighted: false,
       },
       {
         id: '8',
         icon: '🖨️',
-        title: 'Qualidade Profissional 300 DPI',
+        title: 'Imprimíveis Grátis com Qualidade Profissional 300 DPI',
         description: `Exporte em JPEG ou PDF com resolução profissional. Qualidade 300 DPI perfeita para impressão. Opção escala de cinza para economizar tinta. Ideal para cópias em grande quantidade. Desenhos para colorir com linhas nítidas e definidas. Atividades para imprimir que impressionam pais e coordenadores.`,
         highlighted: false,
       },
@@ -177,7 +208,7 @@ Nossa biblioteca oferece mais de 3000 imagens infantis. Escolha temas como anima
 
   // How-To Guide - FULL text from coloring.md step sections
   howTo: {
-    sectionTitle: 'Como Criar Desenhos para Colorir em 5 Passos',
+    sectionTitle: 'Como Criar Atividades Grátis de Desenhos para Colorir em 5 Passos',
     sectionDescription: 'Aprenda a criar desenhos para colorir profissionais em menos de 3 minutos. Este guia passo a passo mostra como produzir atividades para imprimir de qualidade. Ideal para professores de educação infantil e ensino fundamental. Siga cada etapa e transforme sua preparação de materiais.',
     ctaText: 'Comece Agora',
     badgeText: 'Como Funciona',
@@ -249,7 +280,7 @@ Escolha PDF para impressão física. Perfeito para atividades com tabuada impres
 
   // Use Cases - FULL text from coloring.md use case sections
   useCases: {
-    sectionTitle: 'Quem Usa Nosso Gerador de Desenhos para Colorir',
+    sectionTitle: 'Quem Usa Nosso Gerador de Atividades Grátis de Desenhos para Colorir',
     sectionDescription: 'Nosso gerador de desenhos para colorir atende diversos perfis de educadores. De professores de educação infantil a empreendedores educacionais. Descubra como cada grupo utiliza atividades para imprimir em sua rotina. Encontre inspiração para sua própria prática pedagógica.',
     badgeText: 'Para Quem',
     readMoreLabel: 'Leia mais',
@@ -320,7 +351,7 @@ Crie pacotes de desenhos para colorir para venda. Desenvolva atividades com tabu
 
   // FAQ Section - Selected FAQs from coloring.md
   faq: {
-    sectionTitle: 'Perguntas Frequentes',
+    sectionTitle: 'Perguntas Frequentes sobre Atividades Grátis de Desenhos para Colorir',
     sectionDescription: 'Respondemos as dúvidas mais comuns sobre nosso gerador de desenhos para colorir. Descubra tudo sobre atividades para imprimir, preços e recursos. Informações claras para ajudar sua decisão.',
     showMoreText: 'Mostrar mais perguntas',
     showLessText: 'Mostrar menos',
@@ -337,12 +368,12 @@ Crie pacotes de desenhos para colorir para venda. Desenvolva atividades com tabu
       },
       {
         id: '2',
-        question: 'Posso Imprimir Desenhos para Colorir em Casa com Impressora Comum?',
+        question: 'Posso Imprimir Atividade para Crianças de Colorir em Casa com Impressora Comum?',
         answer: 'Sim. Nossos desenhos para colorir são otimizados para impressoras domésticas. Exporte em formato PDF para melhor qualidade de impressão. A opção escala de cinza economiza tinta colorida. Atividades para imprimir ficam nítidas em papel comum. Qualidade profissional sem equipamento especial.',
       },
       {
         id: '3',
-        question: 'Preciso de Habilidades de Design para Criar Desenhos para Colorir e Atividades de Matemática?',
+        question: 'Preciso de Habilidades de Design para Criar Atividade Grátis de Desenhos para Colorir?',
         answer: 'Não. O gerador foi criado para professores sem experiência em design. Selecione imagens, arraste para a tela e pronto. Crie atividades de matemática visuais em minutos. Desenhos para colorir profissionais sem conhecimento técnico. Interface intuitiva para qualquer educador.',
       },
       {
@@ -352,42 +383,42 @@ Crie pacotes de desenhos para colorir para venda. Desenvolva atividades com tabu
       },
       {
         id: '5',
-        question: 'Quais Idiomas Estão Disponíveis para Desenhos para Colorir e Atividades de Alfabetização?',
+        question: 'Quais Idiomas Estão Disponíveis para Atividade para Educação Infantil de Colorir?',
         answer: 'O gerador suporta 11 idiomas: português brasileiro, inglês, alemão, francês, espanhol, italiano, holandês, sueco, dinamarquês, norueguês e finlandês. Interface traduzida completamente para cada idioma. Biblioteca de imagens com nomes em todos os idiomas. Perfeito para atividades de alfabetização multilíngues. Desenhos para colorir em qualquer língua suportada.',
       },
       {
         id: '6',
-        question: 'Posso Vender Desenhos para Colorir e Atividades 1º Ano 2º Ano que Criar?',
+        question: 'Posso Vender Imprimíveis Grátis e Desenhos para Colorir que Criar?',
         answer: 'Sim. A assinatura Pacote Essencial inclui licença comercial print-on-demand completa sem custo extra. Venda desenhos para colorir no Teachers Pay Teachers. Comercialize atividades 1º ano e 2º ano na Etsy. Publique no Amazon KDP sem taxas de licenciamento. Crie renda passiva com seus materiais educacionais.',
       },
       {
         id: '7',
-        question: 'Como Personalizo Desenhos para Colorir com Letra Cursiva Pontilhado?',
+        question: 'Como Personalizo Atividade para Crianças de Colorir com Letra Cursiva?',
         answer: 'Adicione linhas de caligrafia usando o botão "Adicionar Linhas de Escrita". Combine desenhos para colorir com prática de letra cursiva. Inclua exercícios de pontilhado na mesma página. Ajuste posição arrastando elementos. Personalize cada atividade para imprimir completamente. Letra cursiva e pontilhado integrados facilmente.',
       },
       {
         id: '8',
-        question: 'Quais Faixas Etárias Funcionam Melhor com Desenhos para Colorir e Atividades Educação Infantil?',
+        question: 'Quais Faixas Etárias Funcionam Melhor com Atividade para Educação Infantil de Colorir?',
         answer: 'Desenhos para colorir funcionam para crianças de 3 a 10 anos. Atividades educação infantil são ideais para pré-escola. Alunos de 1º ano e 2º ano aproveitam páginas mais detalhadas. Ajuste complexidade das imagens para cada idade. Linhas mais grossas para crianças menores. Detalhes finos para alunos mais velhos.',
       },
       {
         id: '9',
-        question: 'Posso Enviar Minhas Próprias Imagens para Desenhos para Colorir e Atividades para Imprimir?',
+        question: 'Posso Enviar Minhas Próprias Imagens para Atividade Grátis de Colorir?',
         answer: 'Sim. O gerador aceita upload de imagens próprias. Formatos suportados incluem JPEG, PNG e GIF. Envie múltiplos arquivos de uma vez. Combine fotos pessoais com imagens da biblioteca. Crie desenhos para colorir com rostos da turma. Atividades para imprimir verdadeiramente personalizadas.',
       },
       {
         id: '10',
-        question: 'Quanto Tempo Leva para Criar Desenhos para Colorir com Atividades de Matemática?',
+        question: 'Quanto Tempo Leva para Criar Imprimíveis Grátis de Desenhos para Colorir?',
         answer: 'A maioria dos desenhos para colorir fica pronta em 3 minutos ou menos. Selecione tema, adicione imagens e baixe. Atividades de matemática visuais são igualmente rápidas. Sem espera por processamento demorado. Desenhos para colorir instantâneos para qualquer necessidade. Preparação de materiais em tempo recorde.',
       },
       {
         id: '11',
-        question: 'Desenhos para Colorir Incluem Gabarito como Atividades 1º Ano 2º Ano Tradicionais?',
+        question: 'Atividade para Educação Infantil de Colorir Inclui Gabarito?',
         answer: 'Desenhos para colorir não requerem gabarito pois são atividades criativas abertas. Diferente de atividades 1º ano e 2º ano com respostas certas. Cada criança colore de forma única e válida. Atividades para imprimir que celebram criatividade individual. Sem certo ou errado em desenhos para colorir.',
       },
       {
         id: '12',
-        question: 'Posso Criar Desenhos para Colorir sobre Atividades Vogais Alfabeto e Tabuada Específicas?',
+        question: 'Posso Criar Imprimíveis Grátis sobre Atividades Vogais Alfabeto e Tabuada?',
         answer: 'Sim. Combine desenhos para colorir com qualquer tema educacional. Crie páginas focadas em atividades vogais e alfabeto. Desenvolva materiais visuais para tabuada. Adicione texto personalizado sobre qualquer assunto. Desenhos para colorir adaptáveis para todo o currículo. Atividades para imprimir interdisciplinares.',
       },
     ],
@@ -425,7 +456,7 @@ Crie pacotes de desenhos para colorir para venda. Desenvolva atividades com tabu
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Combine com Outros Geradores de Atividades',
+    sectionTitle: 'Combine com Outros Geradores de Atividades Grátis para Imprimir',
     sectionDescription: 'Crie pacotes de aprendizagem completos combinando desenhos para colorir com estes geradores complementares.',
     ctaTitle: 'Pronto para Criar Atividades Incríveis?',
     ctaDescription: 'Junte-se a milhares de educadores que criam atividades profissionais. Geração ilimitada, licença comercial incluída.',

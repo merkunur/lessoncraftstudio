@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <meta name="robots" content="noindex, nofollow">
   <title>Picture Bingo Worksheet Generator</title>
 
   <!-- Core Libraries -->
@@ -1488,8 +1489,11 @@
                     // Handle both 'path' and 'url' properties
                     const imagePath = asset.path || asset.url;
                     const imageName = asset.name || 'image';
-                    item.innerHTML = `<img src="${imagePath}" alt="${imageName}" loading="lazy" />`;
+                    // Use thumbnail for fast preview, full path when applying to canvas
+                    const thumbSrc = asset.thumbnail || imagePath;
+                    item.innerHTML = `<img src="${thumbSrc}" alt="${imageName}" loading="lazy" />`;
                     item.onclick = () => {
+                        // Use original full-res for canvas (professional quality)
                         addFunc(imagePath);
                         document.querySelectorAll(`#${dictionaryEl.id} .border-thumbnail-item.selected`).forEach(el => el.classList.remove('selected'));
                         item.classList.add('selected');

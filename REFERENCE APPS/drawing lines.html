@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8" />
+    <meta name="robots" content="noindex, nofollow">
     <title>Drawing Lines Worksheet Generator</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
@@ -1560,8 +1561,11 @@ document.addEventListener("DOMContentLoaded", async function() {
         borders.forEach(border => {
             const item = document.createElement("div");
             item.className = "border-thumbnail-item";
-            item.innerHTML = `<img src="${border.path}" alt="${border.name}" loading="lazy" />`;
+            // Use thumbnail for fast preview, full path when applying to canvas
+            const thumbSrc = border.thumbnail || border.path;
+            item.innerHTML = `<img src="${thumbSrc}" alt="${border.name}" loading="lazy" />`;
             item.onclick = () => {
+                // Use original full-res for canvas (professional quality)
                 addBorderToCanvas(border.path);
                 document.querySelectorAll('.border-thumbnail-item.selected').forEach(el => el.classList.remove('selected'));
                 item.classList.add('selected');

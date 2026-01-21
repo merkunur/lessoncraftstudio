@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <meta name="robots" content="noindex, nofollow">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title data-translate="alphabetTrainWorksheet">Alphabet Train Worksheet App</title>
   <script src="js/translations-alphabet-train-complete.js"></script>
@@ -3814,7 +3815,9 @@ async function downloadPDF(canvasToExport, fileName) {
             const item = document.createElement("div");
             item.className = "border-thumbnail-item";
             const imgElement = document.createElement("img");
-            imgElement.src = border.path;
+            // Use thumbnail for fast preview, full path when applying to canvas
+            const thumbSrc = border.thumbnail || border.path;
+            imgElement.src = thumbSrc;
             imgElement.alt = border.name;
             imgElement.loading = "lazy";
             imgElement.onerror = () => {
@@ -3823,6 +3826,7 @@ async function downloadPDF(canvasToExport, fileName) {
             };
             item.appendChild(imgElement);
             item.onclick = () => {
+                // Use original full-res for canvas (professional quality)
                 addBorderToCanvas(border.path);
                 document.querySelectorAll('#borderDictionary .border-thumbnail-item.selected').forEach(el => el.classList.remove('selected'));
                 item.classList.add('selected');
@@ -3978,7 +3982,9 @@ async function downloadPDF(canvasToExport, fileName) {
             const item = document.createElement("div");
             item.className = "border-thumbnail-item";
             const imgElement = document.createElement("img");
-            imgElement.src = bg.path;
+            // Use thumbnail for fast preview, full path when applying to canvas
+            const thumbSrc = bg.thumbnail || bg.path;
+            imgElement.src = thumbSrc;
             imgElement.alt = bg.name;
             imgElement.loading = "lazy";
             imgElement.onerror = () => {
@@ -3987,6 +3993,7 @@ async function downloadPDF(canvasToExport, fileName) {
             };
             item.appendChild(imgElement);
             item.onclick = () => {
+                // Use original full-res for canvas (professional quality)
                 addBackgroundToCanvas(bg.path);
                 document.querySelectorAll('#backgroundDictionary .border-thumbnail-item.selected').forEach(el => el.classList.remove('selected'));
                 item.classList.add('selected');

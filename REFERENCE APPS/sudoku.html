@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8" />
+    <meta name="robots" content="noindex, nofollow">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title data-translate="sudoku.page.title">Sudoku for Kids - Create Colorful Visual Sudoku Puzzles</title>
 
@@ -3509,8 +3510,11 @@ document.addEventListener("DOMContentLoaded", function() {
                     // Handle both 'path' and 'url' properties
                     const imagePath = asset.path || asset.url;
                     const imageName = asset.name || 'image';
-                    item.innerHTML = `<img src="${imagePath}" alt="${imageName}" loading="lazy" />`;
+                    // Use thumbnail for fast preview, full path when applying to canvas
+                    const thumbSrc = asset.thumbnail || imagePath;
+                    item.innerHTML = `<img src="${thumbSrc}" alt="${imageName}" loading="lazy" />`;
                     item.onclick = () => {
+                        // Use original full-res for canvas (professional quality)
                         addFunc(imagePath);
                          dictionaryEl.querySelectorAll('.thumbnail-item.selected').forEach(el => el.classList.remove('selected'));
                         item.classList.add('selected');

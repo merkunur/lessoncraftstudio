@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <meta name="robots" content="noindex, nofollow">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title data-translate="pattern.worksheet.page.title">Pattern Worksheet Generator</title>
   <script src="js/translations-pattern-worksheet.js?v=5"></script>
@@ -3464,7 +3465,9 @@ async function downloadPDF(canvasToExport, filename = 'download.pdf') {
                     const item = document.createElement("div");
                     item.className = "border-thumbnail-item";
                     const imgPath = imgData.url || imgData.path;
-                    item.innerHTML = `<img src="${imgPath}" alt="${imgData.name}" loading="lazy" />`;
+                    // Use thumbnail for fast preview, full path when applying to canvas
+                    const thumbSrc = imgData.thumbnail || imgPath;
+                    item.innerHTML = `<img src="${thumbSrc}" alt="${imgData.name}" loading="lazy" />`;
                     item.onclick = () => {
                         addFunction(imgPath);
                         dictionaryDiv.querySelectorAll('.selected').forEach(el => el.classList.remove('selected'));

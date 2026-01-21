@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <meta name="robots" content="noindex, nofollow">
   <title data-translate="bigsmall.page.title">Big & Small Worksheet Generator</title>
   <!-- Set locales BEFORE any scripts load -->
   <!-- uiLocale = Interface language (from main app's language selector in header) -->
@@ -2464,8 +2465,11 @@
                     if (images.length === 0) { dictionaryEl.innerHTML = `<p class="dictionary-message">${formatTranslation(t('bigsmall.asset.none'), {type: type})}</p>`; return; }
                     images.forEach(asset => {
                         const item = document.createElement("div"); item.className = "border-thumbnail-item";
-                        item.innerHTML = `<img src="${asset.path}" alt="${asset.name}" loading="lazy" />`;
+                        // Use thumbnail for fast preview, full path when applying to canvas
+                        const thumbSrc = asset.thumbnail || asset.path;
+                        item.innerHTML = `<img src="${thumbSrc}" alt="${asset.name}" loading="lazy" />`;
                         item.onclick = () => {
+                            // Use original full-res for canvas (professional quality)
                             addFunc(asset.path);
                             document.querySelectorAll('.border-thumbnail-item.selected').forEach(el => el.classList.remove('selected'));
                             item.classList.add('selected');

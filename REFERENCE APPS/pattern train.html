@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <meta name="robots" content="noindex, nofollow">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pattern Train Worksheet App</title>
   <script src="js/translations-pattern-train.js?v=5"></script>
@@ -1969,7 +1970,8 @@
                 selectable: true,
                 editable: true,
                 hasControls: true,
-                isHeaderDesc: true
+                isHeaderDesc: true,
+                isHeaderElement: true
             });
             objects.push(descText);
 
@@ -2994,25 +2996,15 @@
 
         isGenerating = true; // Prevent undo/redo state saving during generation
 
-        // --- Part B, Step 1: Preserve State ---
-        const oldTransforms = {};
-        worksheetCanvas.getObjects().forEach(obj => {
-            if (obj.isTrainGeneratedItem && obj.generationId) {
-                oldTransforms[obj.generationId] = {
-                    left: obj.left, top: obj.top,
-                    scaleX: obj.scaleX, scaleY: obj.scaleY,
-                    angle: obj.angle
-                };
-            }
-        });
-        const userAddedObjects = worksheetCanvas.getObjects().filter(o => !o.isTrainGeneratedItem && !o.isBorder && !o.isBackground && !o.isPageBorder && !o.isHeaderElement);
+        // Collect user-added objects to bring to front later
+        const userAddedObjects = worksheetCanvas.getObjects().filter(o => !o.isTrainGeneratedItem && !o.isBorder && !o.isBackground && !o.isPageBorder && !o.isHeaderElement && !o.isHeaderDesc);
 
         // --- Part B, Step 2: Precise Removal ---
         const oldGeneratedItems = worksheetCanvas.getObjects().filter(o => o.isTrainGeneratedItem);
         oldGeneratedItems.forEach(o => worksheetCanvas.remove(o));
 
         // Remove old header objects before creating new ones
-        const oldHeaderObjects = worksheetCanvas.getObjects().filter(o => o.isPageBorder || o.isHeaderElement);
+        const oldHeaderObjects = worksheetCanvas.getObjects().filter(o => o.isPageBorder || o.isHeaderElement || o.isHeaderDesc);
         oldHeaderObjects.forEach(o => worksheetCanvas.remove(o));
 
         // Create and add header objects
@@ -3209,11 +3201,6 @@
             if (nameDateGroup) { newGeneratedItems.push(nameDateGroup); }
             
             newGeneratedItems.forEach(group => {
-                if(oldTransforms[group.generationId]) {
-                    // Only restore position and angle, NOT scale (images may have changed after shuffle)
-                    const { left, top, angle } = oldTransforms[group.generationId];
-                    group.set({ left, top, angle });
-                }
                 worksheetCanvas.add(group);
             });
 
@@ -3236,21 +3223,11 @@
 
         isGenerating = true; // Prevent undo/redo state saving during generation
 
-        // --- Part C, Step 1: Preserve State ---
-        const oldTransforms = {};
-        answerKeyCanvas.getObjects().forEach(obj => {
-            if (obj.isAnswerKeyItem && obj.generationId) {
-                oldTransforms[obj.generationId] = {
-                    left: obj.left, top: obj.top,
-                    scaleX: obj.scaleX, scaleY: obj.scaleY,
-                    angle: obj.angle
-                };
-            }
-        });
-        const userAddedObjects = answerKeyCanvas.getObjects().filter(o => !o.isAnswerKeyItem && !o.isBorder && !o.isBackground && !o.isPageBorder && !o.isHeaderElement);
+        // Collect user-added objects to bring to front later
+        const userAddedObjects = answerKeyCanvas.getObjects().filter(o => !o.isAnswerKeyItem && !o.isBorder && !o.isBackground && !o.isPageBorder && !o.isHeaderElement && !o.isHeaderDesc);
 
         // --- Part C, Step 2: Precise Removal ---
-        const objectsToRemove = answerKeyCanvas.getObjects().filter(o => o.isAnswerKeyItem || o.isBorder || o.isBackground || o.isPageBorder || o.isHeaderElement);
+        const objectsToRemove = answerKeyCanvas.getObjects().filter(o => o.isAnswerKeyItem || o.isBorder || o.isBackground || o.isPageBorder || o.isHeaderElement || o.isHeaderDesc);
         objectsToRemove.forEach(o => answerKeyCanvas.remove(o));
 
         try {
@@ -3376,13 +3353,7 @@
                     isAnswerKeyItem: true,
                     generationId: index === 0 ? 'answerKeyTrain' : `answerKeyWagon_${index-1}`
                 });
-                
-                if(oldTransforms[item.generationId]){
-                    // Only restore position and angle, NOT scale (images may have changed after shuffle)
-                    const { left, top, angle } = oldTransforms[item.generationId];
-                    item.set({ left, top, angle });
-                }
-                
+
                 answerKeyCanvas.add(item);
             });
             
@@ -3749,8 +3720,11 @@ async function downloadPDF(canvasToExport, baseFilename) {
         borders.forEach(border => {
             const item = document.createElement("div");
             item.className = "border-thumbnail-item";
-            item.innerHTML = `<img src="${border.path}" alt="${border.name}" loading="lazy" />`;
+            // Use thumbnail for fast preview, full path when applying to canvas
+            const thumbSrc = border.thumbnail || border.path;
+            item.innerHTML = `<img src="${thumbSrc}" alt="${border.name}" loading="lazy" />`;
             item.onclick = () => {
+                // Use original full-res for canvas (professional quality)
                 addBorderToCanvas(border.path);
                 document.querySelectorAll('#borderDictionary .border-thumbnail-item.selected').forEach(el => el.classList.remove('selected'));
                 item.classList.add('selected');
@@ -3869,8 +3843,11 @@ async function downloadPDF(canvasToExport, baseFilename) {
         backgrounds.forEach(bg => {
             const item = document.createElement("div");
             item.className = "border-thumbnail-item";
-            item.innerHTML = `<img src="${bg.path}" alt="${bg.name}" loading="lazy" />`;
+            // Use thumbnail for fast preview, full path when applying to canvas
+            const thumbSrc = bg.thumbnail || bg.path;
+            item.innerHTML = `<img src="${thumbSrc}" alt="${bg.name}" loading="lazy" />`;
             item.onclick = () => {
+                // Use original full-res for canvas (professional quality)
                 addBackgroundToCanvas(bg.path);
                 document.querySelectorAll('#backgroundDictionary .border-thumbnail-item.selected').forEach(el => el.classList.remove('selected'));
                 item.classList.add('selected');

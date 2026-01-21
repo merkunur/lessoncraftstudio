@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8" />
+    <meta name="robots" content="noindex, nofollow">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title data-translate="page.title">Writing Worksheet Generator</title>
     <script src="js/translations-writing.js"></script>
@@ -3582,8 +3583,11 @@ function loadAssetImages(type, theme, dictionaryEl, addFunc) {
             images.forEach(asset => {
                 const item = document.createElement("div");
                 item.className = "border-thumbnail-item"; // Reusing class, but it applies to backgrounds too
-                item.innerHTML = `<img src="${asset.path}" alt="${asset.name}" loading="lazy" />`;
+                // Use thumbnail for fast preview, full path when applying to canvas
+                const thumbSrc = asset.thumbnail || asset.path;
+                item.innerHTML = `<img src="${thumbSrc}" alt="${asset.name}" loading="lazy" />`;
                 item.onclick = () => {
+                    // Use original full-res for canvas (professional quality)
                     addFunc(asset.path);
                     dictionaryEl.querySelectorAll('.selected').forEach(el => el.classList.remove('selected'));
                     item.classList.add('selected');

@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <meta name="robots" content="noindex, nofollow">
   <title>Math Puzzle Worksheet Generator</title>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
@@ -2683,7 +2684,9 @@ document.addEventListener("DOMContentLoaded", function() {
         assets.forEach(asset => {
             const item = document.createElement("div");
             item.className = "border-thumbnail-item"; // Re-using style for consistency
-            item.innerHTML = `<img src="${asset.path}" alt="${asset.name}" loading="lazy"/>`;
+            // Use thumbnail for fast preview, full path when applying to canvas
+            const thumbSrc = asset.thumbnail || asset.path;
+            item.innerHTML = `<img src="${thumbSrc}" alt="${asset.name}" loading="lazy"/>`;
             item.onclick = () => {
                 addFunction(asset.path);
                 container.querySelectorAll('.border-thumbnail-item.selected').forEach(el => el.classList.remove('selected'));

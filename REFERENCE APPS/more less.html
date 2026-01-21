@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <meta name="robots" content="noindex, nofollow">
   <title>Compare Numbers Worksheet</title>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
@@ -2549,8 +2550,11 @@
                     item.className = "border-thumbnail-item";
                     const imagePath = asset.path || asset.url || '/images/placeholder.png';
                     const displayName = asset.name || asset.displayName || 'Asset';
-                    item.innerHTML = `<img src="${imagePath}" alt="${displayName}" loading="lazy" />`;
+                    // Use thumbnail for fast sidebar preview
+                    const thumbSrc = asset.thumbnail || imagePath;
+                    item.innerHTML = `<img src="${thumbSrc}" alt="${displayName}" loading="lazy" />`;
                     item.onclick = () => {
+                        // Use original full-res for canvas (professional quality)
                         addFunc(imagePath);
                         dictionaryEl.querySelectorAll('.selected').forEach(el => el.classList.remove('selected'));
                         item.classList.add('selected');
@@ -3252,7 +3256,9 @@
                 images.forEach(img => {
                     const item = document.createElement("div");
                     item.className = "border-thumbnail-item";
-                    item.innerHTML = `<img src="${img.path}" alt="${img.name}" loading="lazy" />`;
+                    // Use thumbnail for fast preview, full path when applying to canvas
+                    const thumbSrc = img.thumbnail || img.path;
+                    item.innerHTML = `<img src="${thumbSrc}" alt="${img.name}" loading="lazy" />`;
                     item.onclick = () => {
                         addBorderToCanvas(img.path);
                         document.querySelectorAll('#borderDictionary .selected').forEach(el => el.classList.remove('selected'));
@@ -3287,7 +3293,9 @@
                 images.forEach(img => {
                     const item = document.createElement("div");
                     item.className = "border-thumbnail-item";
-                    item.innerHTML = `<img src="${img.path}" alt="${img.name}" loading="lazy" />`;
+                    // Use thumbnail for fast preview, full path when applying to canvas
+                    const thumbSrc = img.thumbnail || img.path;
+                    item.innerHTML = `<img src="${thumbSrc}" alt="${img.name}" loading="lazy" />`;
                     item.onclick = () => {
                         addBackgroundToCanvas(img.path);
                         document.querySelectorAll('#backgroundDictionary .selected').forEach(el => el.classList.remove('selected'));

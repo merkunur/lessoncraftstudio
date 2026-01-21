@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <meta name="robots" content="noindex, nofollow">
   <title data-translate="shadow.match.page.title">Shadow Match Worksheet Generator</title>
   <script src="js/translations-shadow-match.js?v=3"></script>
   <script src="js/bulletproof-loader.js"></script>
@@ -3654,7 +3655,9 @@
                 item.className = "border-thumbnail-item";
                 const displayName = border.name || border.word;
                 const imageSrc = border.url || border.path; // Handle both url and path
-                item.innerHTML = `<img src="${imageSrc}" alt="${displayName}" loading="lazy" crossorigin="anonymous" />`;
+                // Use small thumbnail for fast sidebar preview
+                const thumbSrc = border.thumbnail || `/api/thumbnail?path=${encodeURIComponent(imageSrc)}&w=120&q=70`;
+                item.innerHTML = `<img src="${thumbSrc}" alt="${displayName}" loading="lazy" crossorigin="anonymous" />`;
                 item.onclick = () => { addBorderToCanvas(imageSrc); document.querySelectorAll('#borderDictionary .border-thumbnail-item.selected').forEach(el => el.classList.remove('selected')); item.classList.add('selected'); };
                 fragment.appendChild(item);
             });
@@ -3679,7 +3682,9 @@
                 item.className = "border-thumbnail-item";
                 const displayName = bg.name || bg.word;
                 const imageSrc = bg.url || bg.path; // Handle both url and path
-                item.innerHTML = `<img src="${imageSrc}" alt="${displayName}" loading="lazy" crossorigin="anonymous" />`;
+                // Use small thumbnail for fast sidebar preview
+                const thumbSrc = bg.thumbnail || `/api/thumbnail?path=${encodeURIComponent(imageSrc)}&w=120&q=70`;
+                item.innerHTML = `<img src="${thumbSrc}" alt="${displayName}" loading="lazy" crossorigin="anonymous" />`;
                 item.onclick = () => { addBackgroundToCanvas(imageSrc); document.querySelectorAll('#backgroundDictionary .border-thumbnail-item.selected').forEach(el => el.classList.remove('selected')); item.classList.add('selected'); };
                 fragment.appendChild(item);
             });
@@ -4202,10 +4207,9 @@ async function downloadPDF(canvasToExport) {
           clearAll();
           await loadThemes();
           loadDictionary(); // Load images after themes are loaded
-          loadBorderThemes();
-          loadBackgroundThemes();
+          // NOTE: Border/Background themes handled by BulletproofLoader only (avoid duplicates)
 
-          // Initialize BulletproofLoader after everything is set up
+          // Initialize BulletproofLoader to handle border/background themes
           if (window.BulletproofLoader) {
               await window.BulletproofLoader.init({
                   borderSelect: borderThemeSelect,

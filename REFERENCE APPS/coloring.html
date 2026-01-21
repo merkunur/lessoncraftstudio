@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8" />
+    <meta name="robots" content="noindex, nofollow">
     <title data-translate="coloringPageDesigner">Coloring Page Designer</title>
     <script src="js/translations-coloring-complete.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
@@ -1664,8 +1665,11 @@ document.addEventListener("DOMContentLoaded", function() {
             images.forEach(border => {
                 const item = document.createElement("div");
                 item.className = "border-thumbnail-item";
-                item.innerHTML = `<img src="${border.path}" alt="${border.name}" loading="lazy" />`;
+                // Use thumbnail for fast sidebar preview
+                const thumbSrc = border.thumbnail || border.path;
+                item.innerHTML = `<img src="${thumbSrc}" alt="${border.name}" loading="lazy" />`;
                 item.onclick = () => {
+                    // Use original full-res for canvas (professional quality)
                     addBorderToCanvas(border.path);
                     document.querySelectorAll('.border-thumbnail-item.selected').forEach(el => el.classList.remove('selected'));
                     item.classList.add('selected');

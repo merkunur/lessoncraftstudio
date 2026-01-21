@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <meta name="robots" content="noindex, nofollow">
   <title data-translate="additionGenerator">Image Addition Worksheet Generator</title>
   <script src="js/translations-addition-complete.js"></script>
   <script>
@@ -4036,8 +4037,11 @@
         borders.forEach(border => {
             const item = document.createElement("div");
             item.className = "border-thumbnail-item";
-            item.innerHTML = `<img src="${border.path}" alt="${border.name}" loading="lazy" />`;
+            // Use thumbnail for fast preview
+            const thumbSrc = border.thumbnail || border.path;
+            item.innerHTML = `<img src="${thumbSrc}" alt="${border.name}" loading="lazy" />`;
             item.onclick = () => {
+                // Use original full-res for canvas (professional quality)
                 addBorderToCanvas(border.path);
                 document.querySelectorAll('#borderDictionary .border-thumbnail-item.selected').forEach(el => el.classList.remove('selected'));
                 item.classList.add('selected');
@@ -4052,8 +4056,11 @@
         backgrounds.forEach(bg => {
             const item = document.createElement("div");
             item.className = "border-thumbnail-item";
-            item.innerHTML = `<img src="${bg.path}" alt="${bg.name}" loading="lazy" />`;
+            // Use thumbnail for fast preview
+            const thumbSrc = bg.thumbnail || bg.path;
+            item.innerHTML = `<img src="${thumbSrc}" alt="${bg.name}" loading="lazy" />`;
             item.onclick = () => {
+                // Use original full-res for canvas (professional quality)
                 addBackgroundToCanvas(bg.path);
                 document.querySelectorAll('#backgroundDictionary .border-thumbnail-item.selected').forEach(el => el.classList.remove('selected'));
                 item.classList.add('selected');

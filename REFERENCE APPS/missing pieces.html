@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <meta name="robots" content="noindex, nofollow">
   <title>Missing Pieces Worksheet Generator</title>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
@@ -2291,7 +2292,9 @@
                 borderDictionary.innerHTML = "";
                 images.forEach(img => {
                     const item = document.createElement("div"); item.className = "border-thumbnail-item";
-                    item.innerHTML = `<img src="${img.path}" alt="${img.name}" loading="lazy" />`;
+                    // Use small thumbnail for fast sidebar preview
+                    const thumbSrc = img.thumbnail || `/api/thumbnail?path=${encodeURIComponent(img.path)}&w=120&q=70`;
+                    item.innerHTML = `<img src="${thumbSrc}" alt="${img.name}" loading="lazy" />`;
                     item.onclick = () => { addBorderToCanvas(img.path); document.querySelectorAll('#borderDictionary .selected').forEach(el => el.classList.remove('selected')); item.classList.add('selected'); };
                     borderDictionary.appendChild(item);
                 });
@@ -2309,7 +2312,9 @@
                 backgroundDictionary.innerHTML = "";
                 images.forEach(img => {
                     const item = document.createElement("div"); item.className = "border-thumbnail-item";
-                    item.innerHTML = `<img src="${img.path}" alt="${img.name}" loading="lazy" />`;
+                    // Use small thumbnail for fast sidebar preview
+                    const thumbSrc = img.thumbnail || `/api/thumbnail?path=${encodeURIComponent(img.path)}&w=120&q=70`;
+                    item.innerHTML = `<img src="${thumbSrc}" alt="${img.name}" loading="lazy" />`;
                     item.onclick = () => { addBackgroundToCanvas(img.path); document.querySelectorAll('#backgroundDictionary .selected').forEach(el => el.classList.remove('selected')); item.classList.add('selected'); };
                     backgroundDictionary.appendChild(item);
                 });

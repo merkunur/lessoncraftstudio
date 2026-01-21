@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8" />
+    <meta name="robots" content="noindex, nofollow">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grid-Match Worksheet Generator</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
@@ -1831,11 +1832,14 @@
                     const item = document.createElement('div');
                     item.className = 'border-gallery-item';
                     if (currentBorder.path === path) item.classList.add('selected');
-                    item.innerHTML = `<img src='${path}' alt='${displayName}'>`;
+                    // Use thumbnail for fast sidebar preview
+                    const thumbSrc = imgData.thumbnail || `/api/thumbnail?path=${encodeURIComponent(path)}&w=120&q=70`;
+                    item.innerHTML = `<img src='${thumbSrc}' alt='${displayName}'>`;
                     item.onclick = () => {
                         document.querySelectorAll('.border-gallery-item').forEach(el => el.classList.remove('selected'));
                         item.classList.add('selected');
                         currentBorder = { path, theme };
+                        // Use original full-res for canvas (professional quality)
                         addBorderToCanvas(path);
                     };
                     borderGallery.appendChild(item);
@@ -1874,11 +1878,14 @@
                     const item = document.createElement('div');
                     item.className = 'thumbnail-item';
                     if (currentBackground.path === path) item.classList.add('selected');
-                    item.innerHTML = `<img src='${path}' alt='${displayName}'>`;
+                    // Use thumbnail for fast sidebar preview
+                    const thumbSrc = imgData.thumbnail || `/api/thumbnail?path=${encodeURIComponent(path)}&w=120&q=70`;
+                    item.innerHTML = `<img src='${thumbSrc}' alt='${displayName}'>`;
                     item.onclick = () => {
                         document.querySelectorAll('#backgroundDictionary .thumbnail-item').forEach(el => el.classList.remove('selected'));
                         item.classList.add('selected');
                         currentBackground = { path, theme };
+                        // Use original full-res for canvas (professional quality)
                         addBackgroundToCanvas(path);
                     };
                     backgroundDictionary.appendChild(item);
@@ -2871,11 +2878,16 @@
                 }
             }
 
+            // Extend only right/bottom edges by half stroke width to fix corner connection
+            const halfStroke = 1; // strokeWidth / 2
+
+            // Horizontal lines - extend only right endpoint
             for(let i = 0; i <= appState.config.rows; i++) {
-                gridElements.push(new fabric.Line([0, i*cellH, GRID_W, i*cellH], {stroke: '#000', strokeWidth: 2, selectable: false, evented: false}));
+                gridElements.push(new fabric.Line([0, i*cellH, GRID_W + halfStroke, i*cellH], {stroke: '#000', strokeWidth: 2, selectable: false, evented: false}));
             }
+            // Vertical lines - extend only bottom endpoint
             for(let i = 0; i <= appState.config.cols; i++) {
-                gridElements.push(new fabric.Line([i*cellW, 0, i*cellW, GRID_H], {stroke: '#000', strokeWidth: 2, selectable: false, evented: false}));
+                gridElements.push(new fabric.Line([i*cellW, 0, i*cellW, GRID_H + halfStroke], {stroke: '#000', strokeWidth: 2, selectable: false, evented: false}));
             }
             
             const gridGroupConfig = {
@@ -3005,19 +3017,24 @@
             const itemHeight = allItems[0].height;
             
             let PALETTE_COLS, paletteLeft, paletteTop;
-            
+
+            // Special case for 3x3 grid (9 items): use 5+4 layout
+            const is3x3Layout = allItems.length === 9;
+
             if (isLandscape) {
                 // Landscape: palette on the right side of grid
                 // Determine best column count for right side
                 const rightSpaceWidth = canvasWidth - (GRID_LEFT + GRID_W) - sideMargin;
                 PALETTE_COLS = Math.floor(rightSpaceWidth / (itemWidth + PADDING_BETWEEN_ITEMS));
                 PALETTE_COLS = Math.max(2, Math.min(PALETTE_COLS, 4)); // Between 2-4 columns
-                
+
                 // Calculate palette group dimensions
-                const paletteRows = Math.ceil(allItems.length / PALETTE_COLS);
-                const paletteGroupWidth = PALETTE_COLS * itemWidth + (PALETTE_COLS - 1) * PADDING_BETWEEN_ITEMS;
+                // For 3x3: 5 columns wide, 2 rows
+                const effectiveCols = is3x3Layout ? 5 : PALETTE_COLS;
+                const paletteRows = is3x3Layout ? 2 : Math.ceil(allItems.length / PALETTE_COLS);
+                const paletteGroupWidth = effectiveCols * itemWidth + (effectiveCols - 1) * PADDING_BETWEEN_ITEMS;
                 const paletteGroupHeight = paletteRows * itemHeight + (paletteRows - 1) * PADDING_BETWEEN_ITEMS;
-                
+
                 // Center palette in right space
                 paletteLeft = GRID_LEFT + GRID_W + (rightSpaceWidth - paletteGroupWidth) / 2;
                 // Center vertically aligned with grid
@@ -3026,12 +3043,14 @@
                 // Portrait: palette below grid
                 PALETTE_COLS = Math.min(4, Math.floor(availableWidth / (itemWidth + PADDING_BETWEEN_ITEMS)));
                 PALETTE_COLS = Math.max(2, PALETTE_COLS);
-                
+
                 // Calculate palette group dimensions
-                const paletteRows = Math.ceil(allItems.length / PALETTE_COLS);
-                const paletteGroupWidth = PALETTE_COLS * itemWidth + (PALETTE_COLS - 1) * PADDING_BETWEEN_ITEMS;
+                // For 3x3: 5 columns wide, 2 rows
+                const effectiveCols = is3x3Layout ? 5 : PALETTE_COLS;
+                const paletteRows = is3x3Layout ? 2 : Math.ceil(allItems.length / PALETTE_COLS);
+                const paletteGroupWidth = effectiveCols * itemWidth + (effectiveCols - 1) * PADDING_BETWEEN_ITEMS;
                 const paletteGroupHeight = paletteRows * itemHeight + (paletteRows - 1) * PADDING_BETWEEN_ITEMS;
-                
+
                 // Center horizontally
                 paletteLeft = sideMargin + (availableWidth - paletteGroupWidth) / 2;
                 // Position below grid with some spacing
@@ -3039,11 +3058,33 @@
                 paletteTop = GRID_TOP + GRID_H + (spaceBelow - paletteGroupHeight) / 2;
             }
 
+            // Special layout for 3x3 grid (9 items): 5 on top row, 4 on bottom row centered
+            const is3x3Grid = allItems.length === 9;
+
             allItems.forEach((item, i) => {
-                const col = i % PALETTE_COLS;
-                const row = Math.floor(i / PALETTE_COLS);
-                const newX = col * (itemWidth + PADDING_BETWEEN_ITEMS);
-                const newY = row * (itemHeight + PADDING_BETWEEN_ITEMS);
+                let newX, newY;
+
+                if (is3x3Grid) {
+                    // 3x3 grid: 5 items on row 1, 4 items on row 2 (centered)
+                    if (i < 5) {
+                        // First row: 5 items
+                        newX = i * (itemWidth + PADDING_BETWEEN_ITEMS);
+                        newY = 0;
+                    } else {
+                        // Second row: 4 items, centered (offset by half item width + half padding)
+                        const secondRowIndex = i - 5;
+                        const centerOffset = (itemWidth + PADDING_BETWEEN_ITEMS) / 2;
+                        newX = secondRowIndex * (itemWidth + PADDING_BETWEEN_ITEMS) + centerOffset;
+                        newY = itemHeight + PADDING_BETWEEN_ITEMS;
+                    }
+                } else {
+                    // Standard grid layout for other configurations
+                    const col = i % PALETTE_COLS;
+                    const row = Math.floor(i / PALETTE_COLS);
+                    newX = col * (itemWidth + PADDING_BETWEEN_ITEMS);
+                    newY = row * (itemHeight + PADDING_BETWEEN_ITEMS);
+                }
+
                 item.set({ left: newX, top: newY });
             });
             

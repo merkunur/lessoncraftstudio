@@ -2,10 +2,17 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <meta name="robots" content="noindex, nofollow">
   <title>Math Worksheet Generator</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="js/translations-math-worksheet-final.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <!-- Enhancement scripts for robust integration -->
+  <script src="js/bulletproof-loader.js"></script>
+  <script src="js/unified-language-manager.js"></script>
+  <script src="js/border-background-sizer.js"></script>
+  <script src="js/auto-fix-system.js"></script>
   <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&family=Fredoka:wght@400;500;600&family=Lexend+Deca&family=Nunito:wght@400;700&family=Quicksand:wght@300..700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" xintegrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <style>
@@ -624,7 +631,7 @@
       padding: 0 20px;
       border-bottom: 1px solid var(--app-border-light);
       background-color: var(--app-surface-light);
-      margin-top: 60px;
+      margin-top: 0;
     }
     .tab-button {
       padding: 12px 18px;
@@ -661,17 +668,17 @@
       display: none;
       width: 100%;
       height: 100%;
-      margin: 0 auto;
     }
     .tab.active { display: flex; flex-direction: column; }
 
     .canvas-container-wrapper {
         border: none;
         background-color: var(--app-surface-light);
-        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
         border-radius: 8px;
-        overflow: hidden; /* Changed from auto to hidden for consistent sizing */
+        overflow: visible;
         margin: auto;
+        position: relative;
     }
     canvas { display: block; }
 
@@ -705,9 +712,9 @@
     }
     /* START: Contextual Toolbar CSS */
     #object-context-toolbar {
-        position: absolute;
-        top: 72px; /* Adjusted to be below the tabs */
-        left: 50%;
+        position: fixed;
+        top: 65px;
+        left: calc(var(--sidebar-width) + 50vw - var(--sidebar-width) / 2);
         transform: translateX(-50%);
         background-color: var(--app-surface-light);
         border-radius: 6px;
@@ -716,7 +723,7 @@
         display: flex;
         flex-direction: row;
         gap: 4px;
-        z-index: 100;
+        z-index: 15000;
         align-items: center;
         border: 1px solid var(--app-border-light);
     }
@@ -815,6 +822,298 @@
         display: none; /* Managed by JS/Fabric.js now, or kept for PDF HTML2Canvas only if that path remains */
     }
 
+    /* ============================================
+       MODERN UNIFIED HEADER STYLES
+       ============================================ */
+    .tab-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 14px 24px;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        box-shadow: 0 2px 12px rgba(0, 0, 0, 0.15);
+        position: relative;
+        z-index: 15;
+    }
+    .tab-buttons-container {
+        display: flex;
+        gap: 8px;
+        align-items: center;
+    }
+    .tab-button {
+        padding: 10px 20px;
+        background: rgba(255, 255, 255, 0.1);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        border-radius: 6px;
+        color: rgba(255, 255, 255, 0.8);
+        font-size: 14px;
+        font-weight: 500;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        backdrop-filter: blur(10px);
+    }
+    .tab-button:hover {
+        background: rgba(255, 255, 255, 0.15);
+        color: white;
+    }
+    .tab-button.active {
+        background: rgba(255, 255, 255, 0.95);
+        color: #667eea;
+        border-color: rgba(255, 255, 255, 0.95);
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    }
+
+    /* Header Actions Container */
+    .header-actions {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+
+    /* Zoom Controls */
+    .zoom-controls {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        padding: 4px 12px;
+        background: rgba(255, 255, 255, 0.15);
+        border-radius: 8px;
+        backdrop-filter: blur(10px);
+    }
+
+    .zoom-btn {
+        width: 28px;
+        height: 28px;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 18px;
+        font-weight: 600;
+        background: rgba(255, 255, 255, 0.2);
+        color: white;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        transition: all 0.2s ease;
+    }
+
+    .zoom-btn:hover {
+        background: rgba(255, 255, 255, 0.3);
+        transform: scale(1.05);
+    }
+
+    .zoom-percentage {
+        min-width: 45px;
+        text-align: center;
+        font-size: 13px;
+        font-weight: 600;
+        color: white;
+        user-select: none;
+    }
+
+    .history-controls {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        padding: 4px 12px;
+        background: rgba(255, 255, 255, 0.15);
+        border-radius: 8px;
+        backdrop-filter: blur(10px);
+    }
+
+    .history-btn {
+        width: 28px;
+        height: 28px;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 16px;
+        background: rgba(255, 255, 255, 0.2);
+        color: white;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        transition: all 0.2s ease;
+    }
+
+    .history-btn:hover:not(:disabled) {
+        background: rgba(255, 255, 255, 0.3);
+        transform: scale(1.05);
+    }
+
+    .history-btn:disabled {
+        opacity: 0.4;
+        cursor: not-allowed;
+    }
+
+    /* Unlock All Button */
+    .unlock-all-controls {
+        display: none; /* Hidden by default */
+        align-items: center;
+        gap: 6px;
+        padding: 4px 12px;
+        background: rgba(255, 165, 0, 0.25);
+        border-radius: 8px;
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 165, 0, 0.4);
+    }
+
+    .unlock-all-controls.visible {
+        display: flex;
+    }
+
+    .unlock-all-btn {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        padding: 4px 10px;
+        background: rgba(255, 255, 255, 0.2);
+        color: white;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        font-size: 12px;
+        font-weight: 500;
+        transition: all 0.2s ease;
+        white-space: nowrap;
+    }
+
+    .unlock-all-btn:hover {
+        background: rgba(255, 255, 255, 0.3);
+        transform: scale(1.05);
+    }
+
+    .unlock-all-btn i {
+        font-size: 14px;
+    }
+
+    /* Action Buttons in Header */
+    .header-actions .action-button {
+        padding: 8px 16px;
+        font-size: 13px;
+        font-weight: 500;
+        border-radius: 6px;
+        border: none;
+        cursor: pointer;
+        transition: all 0.2s ease;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+    }
+
+    .header-actions .action-button.accent {
+        background-color: var(--app-accent-primary);
+        color: white;
+    }
+
+    .header-actions .action-button.accent:hover {
+        background-color: var(--app-accent-primary-hover);
+        box-shadow: 0 2px 6px rgba(0, 122, 255, 0.3);
+    }
+
+    .header-actions .action-button.download-btn {
+        background: rgba(255, 255, 255, 0.95);
+        color: #667eea;
+        border: 2px solid rgba(255, 255, 255, 0.5);
+    }
+
+    .header-actions .action-button.download-btn:hover {
+        background: white;
+        transform: translateY(-2px);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    }
+
+    .header-actions .action-button.danger {
+        background: rgba(255, 255, 255, 0.2);
+        color: white;
+        border: 2px solid rgba(255, 255, 255, 0.3);
+    }
+
+    .header-actions .action-button.danger:hover {
+        background: rgba(255, 59, 48, 0.9);
+        transform: translateY(-2px);
+        box-shadow: 0 4px 12px rgba(255, 59, 48, 0.3);
+    }
+
+    /* Dropdown styling for header */
+    .dropdown-container {
+        position: relative;
+        display: inline-block;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        right: 0;
+        top: calc(100% + 5px);
+        background-color: var(--app-surface-light);
+        min-width: 200px;
+        box-shadow: 0px 5px 15px rgba(0,0,0,0.15);
+        border: 1px solid var(--app-border-light);
+        border-radius: 6px;
+        padding: 8px;
+        z-index: 25;
+    }
+
+    .dropdown-content button {
+        width: 100%;
+        padding: 8px 12px;
+        font-size: 13px;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-bottom: 6px;
+        background-color: transparent;
+        color: var(--app-text-primary-light-theme);
+        border: none;
+        cursor: pointer;
+        text-align: left;
+        font-weight: 400;
+        transition: background-color 0.15s ease;
+    }
+
+    .dropdown-content button:last-of-type {
+        margin-bottom: 0;
+    }
+
+    .dropdown-content button:hover {
+        background-color: rgba(0,0,0,0.05);
+    }
+
+    .dropdown-content button:disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+    }
+
+    .dropdown-content hr {
+        margin: 6px 0;
+        border: none;
+        border-top: 1px solid var(--app-border-light);
+    }
+
+    .dropdown-content .checkbox-label {
+        display: flex;
+        align-items: center;
+        font-size: 13px;
+        font-weight: 400;
+        padding: 6px 12px;
+        margin-top: 4px;
+        margin-bottom: 0;
+        cursor: pointer;
+        color: var(--app-text-primary-light-theme);
+        border-radius: 4px;
+    }
+
+    .dropdown-content .checkbox-label:hover {
+        background-color: rgba(0,0,0,0.05);
+    }
+
+    .dropdown-content .checkbox-label input[type="checkbox"] {
+        width: auto;
+        margin-right: 8px;
+        vertical-align: middle;
+        accent-color: var(--app-accent-primary);
+    }
+
   </style>
 </head>
 <body>
@@ -822,66 +1121,103 @@
     <div id="menuOverlay" class="menu-overlay"></div>
     <div class="panel">
       <div class="panel-header">
-        <h2>Worksheet Settings</h2>
+        <h2 data-translate="worksheetSettings">Worksheet Settings</h2>
         <button id="menuCloseBtn" class="menu-close-btn">&times;</button>
       </div>
       <div class="panel-content">
 
+        <!-- Language Selection -->
         <div class="accordion-item">
-            <button class="accordion-button active">Page Setup</button>
+            <button class="accordion-button active" data-translate="languageSettings">Language Settings</button>
             <div class="accordion-content active">
-                <label for="pageSizeSelect">Page Size:</label>
-                <select id="pageSizeSelect">
-                    <option value="612x792">Letter Portrait (612x792)</option>
-                    <option value="800x1000">Default Worksheet (800x1000)</option>
-                    <option value="595x842">A4 Portrait (595x842)</option>
-                    <option value="842x595">A4 Landscape (842x595)</option>
-                    <option value="792x612">Letter Landscape (792x612)</option>
-                    <option value="1200x1200">Square (1200x1200)</option>
-                    <option value="custom">Custom</option>
+                <h4 data-translate="selectLanguage">Select Language</h4>
+                <label for="languageSelect" data-translate="imageLibraryLanguage">Image Library Language:</label>
+                <select id="languageSelect">
+                    <option value="en">English</option>
+                    <option value="de">Deutsch (German)</option>
+                    <option value="fr">Français (French)</option>
+                    <option value="es">Español (Spanish)</option>
+                    <option value="pt">Português (Portuguese)</option>
+                    <option value="it">Italiano (Italian)</option>
+                    <option value="nl">Nederlands (Dutch)</option>
+                    <option value="sv">Svenska (Swedish)</option>
+                    <option value="da">Dansk (Danish)</option>
+                    <option value="no">Norsk (Norwegian)</option>
+                    <option value="fi">Suomi (Finnish)</option>
                 </select>
-                <div id="customPageSizeInputs" style="display:none;">
-                    <label for="pageWidth">Width (px):</label>
-                    <input type="number" id="pageWidth" value="612">
-                    <label for="pageHeight">Height (px):</label>
-                    <input type="number" id="pageHeight" value="792">
-                </div>
-                <label for="pageColor">Page Color:</label>
-                <input type="color" id="pageColor" value="#FFFFFF">
-                <button id="setPageSizeBtn">Apply Size</button>
-
-                <h4>Background</h4>
-                <label for="backgroundThemeSelect">Background Theme:</label>
-                <select id="backgroundThemeSelect">
-                    <option value="none">None</option>
-                </select>
-                <div id="backgroundDictionary"><p class="dictionary-message">Select a theme for backgrounds.</p></div>
-                <label for="backgroundOpacitySlider">Background Opacity:</label>
-                <input type="range" id="backgroundOpacitySlider" min="0" max="1" step="0.05" value="1" disabled>
-
-                <h4>Border</h4>
-                <label for="borderThemeSelect">Border Theme:</label>
-                <select id="borderThemeSelect">
-                    <option value="none">None</option>
-                </select>
-                <div id="borderDictionary">
-                    <p class="dictionary-message">Select a theme to see borders.</p>
-                </div>
-                <label for="borderOpacitySlider">Border Opacity:</label>
-                <input type="range" id="borderOpacitySlider" min="0" max="1" value="1" step="0.05" disabled>
             </div>
         </div>
 
         <div class="accordion-item">
-            <button class="accordion-button">Text Tools</button>
+            <button class="accordion-button" data-translate="pageSetup">Page Setup</button>
             <div class="accordion-content">
-                <h4>Add New Text</h4>
-                <label for="textInput">Content:</label><input type="text" id="textInput" placeholder="Hello!">
-                <button id="addTextBtn">Add Text</button>
-                <h4>Selected Text Properties</h4>
-                <label for="textColor">Color:</label><input type="color" id="textColor" value="#333333" disabled>
-                <label for="fontSize">Size:</label><input type="number" id="fontSize" value="48" min="8" disabled>
-                <label for="fontFamily">Font:</label>
+                <label for="pageSizeSelect" data-translate="pageSize">Page Size:</label>
+                <select id="pageSizeSelect">
+                    <option value="612x792" data-translate="letterPortrait">Letter Portrait (8.5×11")</option>
+                    <option value="800x1000" data-translate="defaultWorksheet">Default Worksheet (800x1000)</option>
+                    <option value="595x842" data-translate="a4Portrait">A4 Portrait (210×297mm)</option>
+                    <option value="842x595" data-translate="a4Landscape">A4 Landscape (297×210mm)</option>
+                    <option value="792x612" data-translate="letterLandscape">Letter Landscape (11×8.5")</option>
+                    <option value="1200x1200" data-translate="square">Square (1200x1200)</option>
+                    <option value="custom" data-translate="custom">Custom</option>
+                </select>
+                <div id="customPageSizeInputs" style="display:none;">
+                    <label for="pageWidth" data-translate="widthPx">Width (px):</label>
+                    <input type="number" id="pageWidth" value="612">
+                    <label for="pageHeight" data-translate="heightPx">Height (px):</label>
+                    <input type="number" id="pageHeight" value="792">
+                </div>
+                <label for="pageColor" data-translate="pageColor">Page Color:</label>
+                <input type="color" id="pageColor" value="#FFFFFF">
+                <button id="setPageSizeBtn" data-translate="applySize">Apply Size</button>
+
+                <h4 data-translate="background">Background</h4>
+                <label for="backgroundThemeSelect" data-translate="backgroundTheme">Background Theme:</label>
+                <select id="backgroundThemeSelect">
+                    <option value="none" data-translate="none">None</option>
+                </select>
+                <div id="backgroundDictionary"><p class="dictionary-message" data-translate="selectThemeForBackgrounds">Select a theme for backgrounds.</p></div>
+                <label for="backgroundOpacitySlider" data-translate="backgroundOpacity">Background Opacity:</label>
+                <input type="range" id="backgroundOpacitySlider" min="0" max="1" step="0.05" value="1" disabled>
+
+                <h4 data-translate="border">Border</h4>
+                <label for="borderThemeSelect" data-translate="borderTheme">Border Theme:</label>
+                <select id="borderThemeSelect">
+                    <option value="none" data-translate="none">None</option>
+                </select>
+                <div id="borderDictionary">
+                    <p class="dictionary-message" data-translate="selectThemeToSeeBorders">Select a theme to see borders.</p>
+                </div>
+                <label for="borderOpacitySlider" data-translate="borderOpacity">Border Opacity:</label>
+                <input type="range" id="borderOpacitySlider" min="0" max="1" value="1" step="0.05" disabled>
+
+                <!-- Header section hidden -->
+                <div style="display: none;">
+                    <h4 data-translate="header">Header</h4>
+                    <label class="checkbox-label">
+                        <input type="checkbox" id="showHeaderCheckbox" checked>
+                        <span data-translate="showHeader">Show Header</span>
+                    </label>
+                    <div id="headerControls" style="display: block;">
+                        <label for="headerTitleInput" data-translate="headerTitle">Header Title:</label>
+                        <input type="text" id="headerTitleInput" placeholder="Math Puzzles" data-translate-placeholder="mathPuzzles">
+                        <label for="headerDescriptionInput" data-translate="headerDescription">Header Description:</label>
+                        <textarea id="headerDescriptionInput" rows="2" placeholder="Solve the picture puzzles below!" data-translate-placeholder="solvePicturePuzzles"></textarea>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <button class="accordion-button" data-translate="textTools">Text Tools</button>
+            <div class="accordion-content">
+                <h4 data-translate="addNewText">Add New Text</h4>
+                <label for="textInput" data-translate="content">Content:</label><input type="text" id="textInput" placeholder="Hello!" data-translate-placeholder="textPlaceholder">
+                <button id="addTextBtn" data-translate="addText">Add Text</button>
+                <h4 data-translate="selectedTextProperties">Selected Text Properties</h4>
+                <label for="textColor" data-translate="color">Color:</label><input type="color" id="textColor" value="#333333" disabled>
+                <label for="fontSize" data-translate="size">Size:</label><input type="number" id="fontSize" value="48" min="8" disabled>
+                <label for="fontFamily" data-translate="font">Font:</label>
                 <select id="fontFamily" disabled>
                     <option value="Lexend Deca">Lexend Deca</option>
                     <option value="Baloo 2">Baloo 2</option>
@@ -891,79 +1227,96 @@
                     <option value="Arial">Arial</option>
                     <option value="Verdana">Verdana</option>
                 </select>
-                <label for="textStrokeColor">Outline Color:</label><input type="color" id="textStrokeColor" value="#000000" disabled>
-                <label for="textStrokeWidth">Outline (0-10):</label><input type="range" id="textStrokeWidth" min="0" max="10" value="0" step="0.5" disabled>
+                <label for="textStrokeColor" data-translate="outlineColor">Outline Color:</label><input type="color" id="textStrokeColor" value="#000000" disabled>
+                <label for="textStrokeWidth" data-translate="outlineThickness">Outline (0-10):</label><input type="range" id="textStrokeWidth" min="0" max="10" value="0" step="0.5" disabled>
             </div>
         </div>
 
         <div class="accordion-item">
-            <button class="accordion-button">Puzzle Configuration</button>
+            <button class="accordion-button" data-translate="puzzleConfiguration">Puzzle Configuration</button>
             <div class="accordion-content">
-                <label for="difficulty">Difficulty Level:</label>
+                <label for="difficulty" data-translate="difficultyLevel">Difficulty Level:</label>
                 <select id="difficulty">
-                    <option value="veryeasy">Very Easy (2 Symbols)</option>
-                    <option value="easy">Easy (2 Symbols)</option>
-                    <option selected="" value="medium">Medium (3 Symbols)</option>
-                    <option value="hard">Hard (4 Symbols)</option>
+                    <option value="veryeasy" data-translate="veryEasy">Very Easy (2 Symbols)</option>
+                    <option value="easy" data-translate="easy">Easy (2 Symbols)</option>
+                    <option selected="" value="medium" data-translate="medium">Medium (3 Symbols)</option>
+                    <option value="hard" data-translate="hard">Hard (4 Symbols)</option>
                 </select>
-                <label for="numExercises">Number of Exercises (1-6):</label>
+                <label for="numExercises" data-translate="numberOfExercises">Number of Exercises (1-6):</label>
                 <input type="number" id="numExercises" value="2" min="1" max="6">
-                <label for="operations">Operations:</label>
+                <label for="operations" data-translate="operations">Operations:</label>
                 <select id="operations">
-                    <option value="add">Addition Only</option>
-                    <option value="addsub">Addition &amp; Subtraction</option>
+                    <option value="add" data-translate="additionOnly">Addition Only</option>
+                    <option value="addsub" data-translate="additionSubtraction">Addition &amp; Subtraction</option>
                 </select>
                 <div id="imageSelectionModeContainer" style="border-bottom: none; padding-bottom: 0;">
-                    <div><label>Image Selection Method:</label></div>
+                    <div><label data-translate="imageSelectionMethod">Image Selection Method:</label></div>
                     <div>
                         <input checked="" id="selectIndividual" name="imageMode" type="radio" value="individual"/>
-                        <label for="selectIndividual">Select Images Individually</label>
+                        <label for="selectIndividual" data-translate="selectImagesIndividually">Select Images Individually</label>
                     </div>
                     <div>
                         <input id="selectTheme" name="imageMode" type="radio" value="theme"/>
-                        <label for="selectTheme">Use Full Theme</label>
+                        <label for="selectTheme" data-translate="useFullTheme">Use Full Theme</label>
                     </div>
                 </div>
                 <div id="themeSelectionContainer" style="margin-top: 10px; border: 1px solid var(--app-border-dark); border-radius: 5px; padding: 15px; background-color: var(--app-surface-dark);">
-                    <label for="worksheetImageTheme" style="color: var(--app-text-secondary-dark-theme);">Select Image Theme:</label>
+                    <label for="worksheetImageTheme" style="color: var(--app-text-secondary-dark-theme);" data-translate="selectImageTheme">Select Image Theme:</label>
                     <select id="worksheetImageTheme" style="background-color: var(--app-surface-dark); color: var(--app-text-primary-dark-theme); border: 1px solid var(--app-border-dark);"></select>
                 </div>
                 <div id="individualImageSelectionContainer" style="margin-top: 10px; border: 1px solid var(--app-border-dark); border-radius: 5px; padding: 15px; background-color: var(--app-surface-dark);">
                     <div id="selectedImagePoolPreviewContainer" style="margin-top: 0; padding: 10px; border: 1px dashed var(--app-accent-primary); border-radius: 5px; background-color: rgba(0, 122, 255, 0.1);">
-                        <h4 style="color: var(--app-text-primary-dark-theme); border-bottom: 1px solid var(--app-border-dark); padding-bottom: 5px; margin-bottom: 10px;">Selected Images Pool:</h4>
+                        <h4 style="color: var(--app-text-primary-dark-theme); border-bottom: 1px solid var(--app-border-dark); padding-bottom: 5px; margin-bottom: 10px;" data-translate="selectedImagesPool">Selected Images Pool:</h4>
                         <div class="selected-images-pool-grid" id="selectedImagesPoolGrid">
-                            <span class="placeholder" style="color: var(--app-text-secondary-dark-theme);">Select images from the library below.</span>
+                            <span class="placeholder" style="color: var(--app-text-secondary-dark-theme);" data-translate="selectImagesFromLibrary">Select images from the library below.</span>
                         </div>
                     </div>
                     <div id="dictPanel" style="margin-top: 15px;">
-                        <label for="dictTheme" style="color: var(--app-text-secondary-dark-theme);">Filter Library By Theme:</label>
+                        <label for="dictTheme" style="color: var(--app-text-secondary-dark-theme);" data-translate="filterLibraryByTheme">Filter Library By Theme:</label>
                         <select id="dictTheme" style="background-color: var(--app-surface-dark); color: var(--app-text-primary-dark-theme); border: 1px solid var(--app-border-dark);">
-                            <option value="all">All Themes</option>
+                            <option value="all" data-translate="allThemes">All Themes</option>
                         </select>
                         <div class="dict-filter-container" style="margin-top:8px; margin-bottom: 12px;">
-                            <label for="dictSearch" style="color: var(--app-text-secondary-dark-theme);">Search Images:</label>
-                            <input id="dictSearch" placeholder="e.g., apple, car" type="text" style="background-color: var(--app-surface-dark); color: var(--app-text-primary-dark-theme); border: 1px solid var(--app-border-dark);"/>
+                            <label for="dictSearch" style="color: var(--app-text-secondary-dark-theme);" data-translate="searchImages">Search Images:</label>
+                            <input id="dictSearch" placeholder="e.g., apple, car" type="text" style="background-color: var(--app-surface-dark); color: var(--app-text-primary-dark-theme); border: 1px solid var(--app-border-dark);" data-translate-placeholder="searchImagesPlaceholder"/>
                         </div>
                         <div class="dictionary" id="dictionary">
-                            <p class='dictionary-message'>Loading images...</p>
+                            <p class='dictionary-message' data-translate="loadingImages">Loading images...</p>
                         </div>
                     </div>
-                     <h4 style="margin-top:15px;">Custom Images</h4>
-                     <label for="imageUploadInput">Select image(s) to upload:</label>
-                    <input type="file" id="imageUploadInput" multiple accept="image/*">
-                    <label style="margin-top:10px;">Your Uploaded Images (Click to use):</label>
+                     <h4 style="margin-top:15px;" data-translate="customImages">Custom Images</h4>
+                     <label for="imageUploadInput" data-translate="selectImagesToUpload">Select image(s) to upload:</label>
+                    <div style="position: relative; margin: 10px 0;">
+                        <button type="button" id="customFileButton" class="action-button" style="padding: 8px 16px; font-size: 14px;" data-translate="chooseFiles">Choose Files</button>
+                        <span id="fileSelectionText" style="margin-left: 10px; color: var(--app-text-secondary-dark-theme);" data-translate="noFileChosen">No file chosen</span>
+                        <input type="file" id="imageUploadInput" multiple accept="image/*" style="position: absolute; left: -9999px;">
+                    </div>
+                    <label style="margin-top:10px;" data-translate="yourUploadedImages">Your Uploaded Images (Click to use):</label>
                     <div id="uploadedImagesPreview" class="dictionary">
-                        <p class="dictionary-message">Your uploaded images will appear here.</p>
+                        <p class="dictionary-message" data-translate="yourUploadedImagesWillAppear">Your uploaded images will appear here.</p>
                     </div>
                 </div>
-                <label class="checkbox-label"><input id="allowNegative" type="checkbox"/> Allow negative results</label>
+                <label class="checkbox-label"><input id="allowNegative" type="checkbox"/> <span data-translate="allowNegativeResults">Allow negative results</span></label>
                 <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 12px;">
-                    <label for="minValue" style="margin-bottom:0; flex-shrink: 0; color: var(--app-text-secondary-dark-theme);">Min value:</label>
+                    <label for="minValue" style="margin-bottom:0; flex-shrink: 0; color: var(--app-text-secondary-dark-theme);" data-translate="minValue">Min value:</label>
                     <input id="minValue" type="number" value="0" style="width: 80px; flex-grow: 0;"/>
-                    <label for="maxValue" style="margin-bottom:0; flex-shrink: 0; color: var(--app-text-secondary-dark-theme);">Max value:</label>
+                    <label for="maxValue" style="margin-bottom:0; flex-shrink: 0; color: var(--app-text-secondary-dark-theme);" data-translate="maxValue">Max value:</label>
                     <input id="maxValue" type="number" value="20" style="width: 80px; flex-grow: 0;"/>
                 </div>
-                <label class="checkbox-label" style="margin-top: 10px;"><input id="showAnswers" type="checkbox"/> Show Answers in Worksheet</label>
+                <label class="checkbox-label" style="margin-top: 10px;"><input id="showAnswers" type="checkbox"/> <span data-translate="showAnswersInWorksheet">Show Answers in Worksheet</span></label>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <button class="accordion-button" data-translate="puzzleNumbering">Puzzle Numbering</button>
+            <div class="accordion-content">
+                <label for="puzzleLabel" data-translate="puzzleLabel">Puzzle Label:</label>
+                <input type="text" id="puzzleLabel" value="" placeholder="Puzzle" data-translate-placeholder="puzzle" style="margin-bottom: 10px;">
+
+                <label for="puzzleStartNumber" data-translate="startingNumber">Starting Number:</label>
+                <input type="number" id="puzzleStartNumber" value="1" min="0" max="99" style="width: 80px;">
+
+                <p style="font-size: 12px; color: var(--app-text-secondary-dark-theme); margin-top: 10px; font-style: italic;" data-translate="puzzleNumberingExample">Example: "Puzzle 1", "Problem 1", "Aufgabe 1"</p>
             </div>
         </div>
 
@@ -976,72 +1329,129 @@
     <div class="main">
       <button id="menuToggleBtn" class="menu-toggle-btn"><i class="fas fa-bars"></i></button>
 
+      <!-- MODERN UNIFIED HEADER -->
+      <div class="tab-row">
+        <div class="tab-buttons-container">
+            <button class="tab-button active" data-tab="worksheetTabContent" data-translate="worksheet">Worksheet</button>
+            <button class="tab-button" data-tab="answerTabContent" data-translate="answerKey">Answer Key</button>
+        </div>
+        <div class="header-actions">
+            <!-- Zoom Controls -->
+            <div class="zoom-controls">
+                <button id="zoomOutBtn" class="zoom-btn" title="Zoom Out" data-translate-title="zoomOut"><i class="fas fa-search-minus"></i></button>
+                <span id="zoomPercentage" class="zoom-percentage">100%</span>
+                <button id="zoomInBtn" class="zoom-btn" title="Zoom In" data-translate-title="zoomIn"><i class="fas fa-search-plus"></i></button>
+                <button id="zoomResetBtn" class="zoom-btn" title="Reset Zoom" data-translate-title="resetZoom"><i class="fas fa-compress-arrows-alt"></i></button>
+            </div>
+            <!-- History Controls -->
+            <div class="history-controls">
+                <button id="undoBtn" class="history-btn" title="Undo (Ctrl+Z)" data-translate-title="undo" disabled><i class="fas fa-undo"></i></button>
+                <button id="redoBtn" class="history-btn" title="Redo (Ctrl+Y)" data-translate-title="redo" disabled><i class="fas fa-redo"></i></button>
+            </div>
+
+            <!-- Unlock All Button (shown when objects are locked) -->
+            <div id="unlockAllControls" class="unlock-all-controls">
+                <button id="unlockAllBtn" class="unlock-all-btn" data-translate-title="unlockAll" title="Unlock All Locked Objects">
+                    <i class="fas fa-unlock"></i>
+                    <span data-translate="unlockAll">Unlock All</span>
+                </button>
+            </div>
+
+            <!-- Generate Dropdown -->
+            <div class="dropdown-container">
+                <button id="generateDropdownBtn" class="action-button accent"><span data-translate="generate">Generate</span> <i class="fas fa-caret-down" style="margin-left: 5px;"></i></button>
+                <div id="generateDropdownContent" class="dropdown-content">
+                    <button id="generateWorksheetBtn" data-translate="generateWorksheet">Generate Worksheet</button>
+                    <button id="generateAnswerKeyBtn" disabled data-translate="generateAnswerKey">Generate Answer Key</button>
+                </div>
+            </div>
+            <!-- Download Dropdown -->
+            <div class="dropdown-container">
+                <button id="downloadDropdownBtn" class="action-button download-btn"><span data-translate="download">Download</span> <i class="fas fa-caret-down" style="margin-left: 5px;"></i></button>
+                <div id="downloadDropdownContent" class="dropdown-content">
+                    <button id="downloadWorksheetJpegBtn" disabled data-translate="worksheetJPEG">Worksheet (JPEG)</button>
+                    <button id="downloadAnswerKeyJpegBtn" disabled data-translate="answerKeyJPEG">Answer Key (JPEG)</button>
+                    <hr style="margin: 6px 0; border-color: #eee;">
+                    <button id="downloadWorksheetPdfBtn" disabled data-translate="worksheetPDF">Worksheet (PDF)</button>
+                    <button id="downloadAnswerKeyPdfBtn" disabled data-translate="answerKeyPDF">Answer Key (PDF)</button>
+                    <hr style="margin: 6px 0; border-color: #eee;">
+                    <label class="checkbox-label">
+                        <input type="checkbox" id="grayscaleToggle" /><span data-translate="grayscale">Grayscale</span>
+                    </label>
+                </div>
+            </div>
+            <!-- Clear All Button -->
+            <button id="clearBtn" class="action-button danger" data-translate="clearAll">Clear All</button>
+        </div>
+      </div>
+
       <div id="object-context-toolbar" style="display:none;">
           <div class="toolbar-group">
               <div class="toolbar-item">
-                  <button class="context-btn" id="layersBtn" title="Layers"><i class="fas fa-layer-group"></i></button>
+                  <button class="context-btn" id="layersBtn" data-translate-title="layers" title="Layers"><i class="fas fa-layer-group"></i></button>
                   <div class="dropdown-content" id="layersDropdown">
-                          <button id="toolbarBringForwardBtn">Bring Forward</button>
-                          <button id="toolbarSendBackwardBtn">Send Backward</button>
+                          <button id="toolbarBringToFrontBtn" data-translate="bringToFront">Bring to Front</button>
+                          <button id="toolbarBringForwardBtn" data-translate="bringForward">Bring Forward</button>
+                          <button id="toolbarSendBackwardBtn" data-translate="sendBackward">Send Backward</button>
+                          <button id="toolbarSendToBackBtn" data-translate="sendToBack">Send to Back</button>
                   </div>
               </div>
           </div>
           <div class="toolbar-group">
               <div class="toolbar-item">
-                  <button class="context-btn" id="alignBtn" title="Align"><i class="fas fa-th"></i></button>
+                  <button class="context-btn" id="alignBtn" data-translate-title="align" title="Align"><i class="fas fa-th"></i></button>
                   <div class="dropdown-content" id="alignDropdown" style="min-width: 220px; padding: 12px;">
-                          <p style="font-size:11px; margin-bottom:5px; color:#555;">Align Selected:</p>
+                          <p style="font-size:11px; margin-bottom:5px; color:#555;" data-translate="alignSelected">Align Selected:</p>
                           <div>
-                                  <button class="context-btn" id="alignLeftBtn" title="Align Left"><i class="fas fa-align-left"></i></button>
-                                  <button class="context-btn" id="alignHCenterBtn" title="Center Horizontally"><i class="fas fa-align-center"></i></button>
-                                  <button class="context-btn" id="alignRightBtn" title="Align Right"><i class="fas fa-align-right"></i></button>
+                                  <button class="context-btn" id="alignLeftBtn" data-translate-title="alignLeft" title="Align Left"><i class="fas fa-align-left"></i></button>
+                                  <button class="context-btn" id="alignHCenterBtn" data-translate-title="centerHorizontally" title="Center Horizontally"><i class="fas fa-align-center"></i></button>
+                                  <button class="context-btn" id="alignRightBtn" data-translate-title="alignRight" title="Align Right"><i class="fas fa-align-right"></i></button>
                           </div>
                           <div style="margin-top: 5px;">
-                                  <button class="context-btn" id="alignTopBtn" title="Align Top"><i class="fas fa-long-arrow-alt-up"></i></button>
-                                  <button class="context-btn" id="alignVCenterBtn" title="Center Vertically"><i class="fas fa-grip-lines"></i></button>
-                                  <button class="context-btn" id="alignBottomBtn" title="Align Bottom"><i class="fas fa-long-arrow-alt-down"></i></button>
+                                  <button class="context-btn" id="alignTopBtn" data-translate-title="alignTop" title="Align Top"><i class="fas fa-long-arrow-alt-up"></i></button>
+                                  <button class="context-btn" id="alignVCenterBtn" data-translate-title="centerVertically" title="Center Vertically"><i class="fas fa-grip-lines"></i></button>
+                                  <button class="context-btn" id="alignBottomBtn" data-translate-title="alignBottom" title="Align Bottom"><i class="fas fa-long-arrow-alt-down"></i></button>
                           </div>
                           <hr style="margin:8px 0; border:none; border-top:1px solid #eee;">
-                          <p style="font-size:11px; margin-bottom:5px; color:#555;">Align to Page:</p>
+                          <p style="font-size:11px; margin-bottom:5px; color:#555;" data-translate="alignToPage">Align to Page:</p>
                           <div>
-                                  <button class="context-btn" id="centerHCanvasBtn" title="Center on Page Horizontally"><i class="fas fa-arrows-alt-h"></i></button>
-                                  <button class="context-btn" id="centerVCanvasBtn" title="Center on Page Vertically"><i class="fas fa-arrows-alt-v"></i></button>
+                                  <button class="context-btn" id="centerHCanvasBtn" data-translate-title="centerOnPageHorizontally" title="Center on Page Horizontally"><i class="fas fa-arrows-alt-h"></i></button>
+                                  <button class="context-btn" id="centerVCanvasBtn" data-translate-title="centerOnPageVertically" title="Center on Page Vertically"><i class="fas fa-arrows-alt-v"></i></button>
                           </div>
                   </div>
               </div>
           </div>
           <div class="toolbar-group">
-              <button class="context-btn" id="toolbarDeleteBtn" title="Delete Selected"><i class="fas fa-trash-alt"></i></button>
+              <button class="context-btn" id="toolbarLockBtn" data-translate-title="lockUnlock" title="Lock/Unlock"><i class="fas fa-lock-open"></i></button>
+          </div>
+          <div class="toolbar-group">
+              <button class="context-btn" id="toolbarDeleteBtn" data-translate-title="deleteSelected" title="Delete Selected"><i class="fas fa-trash-alt"></i></button>
           </div>
       </div>
-      <div class="top-right-actions">
+      <!-- OLD top-right-actions - Hidden, controls moved to unified header -->
+      <div class="top-right-actions" style="display: none;">
           <div class="dropdown-container">
-            <button id="generateDropdownBtn" class="action-button accent">Generate <i class="fas fa-caret-down"></i></button>
-            <div id="generateDropdownContent" class="dropdown-content">
-                <button id="generateWorksheetBtn">Generate Worksheet</button>
-                <button id="generateAnswerKeyBtn" disabled>Generate Answer Key</button>
+            <button id="oldGenerateDropdownBtn" class="action-button accent"><span data-translate="generate">Generate</span> <i class="fas fa-caret-down"></i></button>
+            <div id="oldGenerateDropdownContent" class="dropdown-content">
+                <button id="oldGenerateWorksheetBtn" data-translate="generateWorksheet">Generate Worksheet</button>
+                <button id="oldGenerateAnswerKeyBtn" disabled data-translate="generateAnswerKey">Generate Answer Key</button>
             </div>
           </div>
         <div class="dropdown-container">
-            <button id="downloadDropdownBtn" class="action-button secondary">Download <i class="fas fa-caret-down"></i></button>
-            <div id="downloadDropdownContent" class="dropdown-content">
-                <button id="downloadWorksheetJpegBtn" disabled>Worksheet (JPEG)</button>
-                <button id="downloadAnswerKeyJpegBtn" disabled>Answer Key (JPEG)</button>
-                <button id="downloadWorksheetPdfBtn" disabled>Worksheet (PDF)</button>
-                <button id="downloadAnswerKeyPdfBtn" disabled>Answer Key (PDF)</button>
+            <button id="oldDownloadDropdownBtn" class="action-button secondary" data-translate="download">Download <i class="fas fa-caret-down"></i></button>
+            <div id="oldDownloadDropdownContent" class="dropdown-content">
+                <button id="oldDownloadWorksheetJpegBtn" disabled data-translate="worksheetJPEG">Worksheet (JPEG)</button>
+                <button id="oldDownloadAnswerKeyJpegBtn" disabled data-translate="answerKeyJPEG">Answer Key (JPEG)</button>
+                <button id="oldDownloadWorksheetPdfBtn" disabled data-translate="worksheetPDF">Worksheet (PDF)</button>
+                <button id="oldDownloadAnswerKeyPdfBtn" disabled data-translate="answerKeyPDF">Answer Key (PDF)</button>
                 <label class="checkbox-label" style="margin-top:8px; border-top:1px solid var(--app-border-light); padding-top:8px;">
-                    <input type="checkbox" id="grayscaleToggle" />Grayscale
+                    <input type="checkbox" id="oldGrayscaleToggle" /><span data-translate="grayscale">Grayscale</span>
                 </label>
             </div>
         </div>
-        <button id="clearBtn" class="action-button danger">Clear All</button>
+        <button id="oldClearBtn" class="action-button danger" data-translate="clearAll">Clear All</button>
       </div>
 
-
-      <div class="tab-row">
-        <button class="tab-button active" data-tab="worksheetTabContent">Worksheet</button>
-        <button class="tab-button" data-tab="answerTabContent">Answer Key</button>
-      </div>
       <div class="tab-content-wrapper">
         <div class="tab active" id="worksheetTabContent">
             <div class="canvas-container-wrapper" id="worksheetCanvasWrapper">
@@ -1063,8 +1473,88 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
 
   <script>
+    // Set locales globally BEFORE DOMContentLoaded
+    // uiLocale = Interface language (from main app's language selector in header)
+    // currentLocale = Content language for image library (from sidebar selector)
+    const urlParams = new URLSearchParams(window.location.search);
+
+    // UI locale comes from the main app (via URL parameter)
+    let uiLocale = urlParams.get('locale') || urlParams.get('ui') || 'en';
+
+    // Content locale can be different (initially same as UI for simplicity)
+    let currentLocale = urlParams.get('content') || uiLocale;
+
+    window.uiLocale = uiLocale;
+    window.currentLocale = currentLocale; // Make it globally accessible for BulletproofLoader
+    console.log('Global uiLocale set to:', uiLocale);
+    console.log('Global currentLocale set to:', currentLocale);
+
+    // Define global t() function for translations (uses uiLocale for UI translations)
+    window.t = function(key) {
+        if (typeof translations === 'undefined') {
+            console.warn('Translations not loaded, returning key:', key);
+            return key;
+        }
+        const translation = (translations[uiLocale] && translations[uiLocale][key]) ||
+                           (translations.en && translations.en[key]) ||
+                           key;
+        return translation;
+    };
+  </script>
+
+  <script>
     document.addEventListener('DOMContentLoaded', async () => {
       const $ = id => document.getElementById(id);
+
+      // currentLocale is already set globally before DOMContentLoaded
+
+      // Initialize translations
+      function initializeTranslations() {
+          console.log('Initializing translations...');
+          console.log('Current locale:', window.currentLocale);
+          console.log('Translations available:', typeof translations !== 'undefined');
+          console.log('t() function available:', typeof t !== 'undefined');
+
+          // Translate all elements with data-translate attribute
+          const elements = document.querySelectorAll('[data-translate]');
+          console.log('Found elements to translate:', elements.length);
+
+          elements.forEach(element => {
+              const key = element.getAttribute('data-translate');
+              if (key && typeof t !== 'undefined') {
+                  if (element.tagName === 'INPUT' || element.tagName === 'BUTTON') {
+                      if (element.type === 'button' || element.type === 'submit' || element.tagName === 'BUTTON') {
+                          element.textContent = t(key);
+                      } else {
+                          element.value = t(key);
+                      }
+                  } else if (element.tagName === 'OPTION') {
+                      element.textContent = t(key);
+                  } else {
+                      element.textContent = t(key);
+                  }
+              }
+          });
+
+          // Translate placeholders
+          document.querySelectorAll('[data-translate-placeholder]').forEach(element => {
+              const key = element.getAttribute('data-translate-placeholder');
+              if (key && typeof t !== 'undefined') {
+                  element.placeholder = t(key);
+              }
+          });
+
+          // Translate titles
+          document.querySelectorAll('[data-translate-title]').forEach(element => {
+              const key = element.getAttribute('data-translate-title');
+              if (key && typeof t !== 'undefined') {
+                  element.title = t(key);
+              }
+          });
+      }
+
+      // Call initialization
+      initializeTranslations();
 
       const MIN_INDIVIDUAL_IMAGES = 8;
       
@@ -1095,8 +1585,10 @@
       let uploadedImages = []; // Stores user-uploaded images for the session
       let isAnswerKeyGenerated = false;
 
+      // Zoom functionality (user-controlled zoom level)
+      let userZoomLevel = 1.0;  // 100% = 1.0
+
       // DOM Elements - Renamed/Reorganized to match new structure
-      const accordionButtons = document.querySelectorAll('.accordion-button');
       const panel = document.querySelector('.panel');
       const menuToggleBtn = $('menuToggleBtn');
       const menuCloseBtn = $('menuCloseBtn');
@@ -1120,6 +1612,12 @@
       const borderDictionary = $('borderDictionary');
       const borderOpacitySlider = $('borderOpacitySlider');
 
+      // Header Elements
+      const showHeaderCheckbox = $('showHeaderCheckbox');
+      const headerControls = $('headerControls');
+      const headerTitleInput = $('headerTitleInput');
+      const headerDescriptionInput = $('headerDescriptionInput');
+
       // Text Tools Elements
       const textInput = $('textInput');
       const addTextBtn = $('addTextBtn');
@@ -1137,6 +1635,8 @@
       const minValueEl = $('minValue');
       const maxValueEl = $('maxValue');
       const showAnswersCheck = $('showAnswers');
+      const puzzleLabelInput = $('puzzleLabel');
+      const puzzleStartNumberInput = $('puzzleStartNumber');
       const imageModeRadios = document.querySelectorAll('input[name="imageMode"]');
       const worksheetImageThemeEl = $('worksheetImageTheme');
       const themeSelectionContainerEl = $('themeSelectionContainer');
@@ -1148,6 +1648,9 @@
       const selectedImagesPoolGridEl = $('selectedImagesPoolGrid');
       const uploadedImagesPreviewDiv = $('uploadedImagesPreview');
       const imageUploadInput = $('imageUploadInput');
+      
+      // Language Selection
+      const languageSelect = $('languageSelect');
 
       // Top Right Actions
       const generateDropdownBtn = $('generateDropdownBtn');
@@ -1163,6 +1666,12 @@
       const grayscaleToggle = $('grayscaleToggle');
       const clearBtn = $('clearBtn');
 
+      // Zoom Controls
+      const zoomInBtn = $('zoomInBtn');
+      const zoomOutBtn = $('zoomOutBtn');
+      const zoomResetBtn = $('zoomResetBtn');
+      const zoomPercentage = $('zoomPercentage');
+
       // Canvas Elements
       const worksheetCanvasWrapper = $('worksheetCanvasWrapper');
       const worksheetCanvasElement = $('worksheetCanvasElement');
@@ -1172,6 +1681,14 @@
       let worksheetCanvas;
       let answerKeyCanvas;
       let currentCanvasConfig = { width: 612, height: 792 }; // Default Letter Portrait
+
+      // Undo/Redo functionality
+      let historyStack = [];
+      let redoStack = [];
+      const MAX_HISTORY = 20;
+      let isRestoringState = false; // Flag to prevent saving state during restoration
+      let isGenerating = false; // Flag to prevent saving state during bulk generation
+
       let puzzlesData = []; // Renamed from 'puzzles' for clarity with Fabric.js objects
       const downloadMultiplier = 6; // For higher resolution downloads
 
@@ -1179,10 +1696,13 @@
       const objectContextToolbar = $('object-context-toolbar');
       const layersBtn = $('layersBtn');
       const layersDropdown = $('layersDropdown');
+      const toolbarBringToFrontBtn = $('toolbarBringToFrontBtn');
       const toolbarBringForwardBtn = $('toolbarBringForwardBtn');
       const toolbarSendBackwardBtn = $('toolbarSendBackwardBtn');
+      const toolbarSendToBackBtn = $('toolbarSendToBackBtn');
       const alignBtn = $('alignBtn');
       const alignDropdown = $('alignDropdown');
+      const toolbarLockBtn = $('toolbarLockBtn');
       const toolbarDeleteBtn = $('toolbarDeleteBtn');
       const allToolbarButtons = objectContextToolbar.querySelectorAll('.context-btn');
 
@@ -1205,21 +1725,124 @@
         // If the answer key tab is active, return that canvas, otherwise default to the worksheet canvas.
         return activeTab && activeTab.id === 'answerTabContent' ? answerKeyCanvas : worksheetCanvas;
       }
-      
+
+      // Undo/Redo functions
+      function saveCanvasState() {
+          if (isRestoringState || isGenerating) return; // Don't save during undo/redo or generation
+
+          const activeCanvas = getActiveCanvas();
+          if (!activeCanvas) return;
+
+          const state = {
+              canvasJSON: activeCanvas.toJSON(['isGeneratedItem', 'isMathPuzzle', 'isAnswerKeyItem', 'isPageBorder', 'isHeaderDesc', 'isHeaderElement', 'isBorder', 'isBackground']),
+              canvasType: activeCanvas === worksheetCanvas ? 'worksheet' : 'answerKey',
+              timestamp: Date.now()
+          };
+
+          historyStack.push(state);
+          if (historyStack.length > MAX_HISTORY) {
+              historyStack.shift(); // Remove oldest state
+          }
+
+          redoStack = []; // Clear redo stack on new action
+          updateHistoryButtons();
+      }
+
+      function undo() {
+          if (historyStack.length === 0) return;
+
+          const activeCanvas = getActiveCanvas();
+          if (!activeCanvas) return;
+
+          // Save current state to redo stack before undoing
+          const currentState = {
+              canvasJSON: activeCanvas.toJSON(['isMathPuzzle', 'isAnswerKeyItem', 'isPageBorder', 'isHeaderDesc', 'isHeaderElement', 'isBorder', 'isBackground']),
+              canvasType: activeCanvas === worksheetCanvas ? 'worksheet' : 'answerKey',
+              timestamp: Date.now()
+          };
+          redoStack.push(currentState);
+
+          const previousState = historyStack.pop();
+          restoreCanvasState(previousState);
+
+          updateHistoryButtons();
+          showMessage(t('undoAction') || 'Undo', 'info');
+      }
+
+      function redo() {
+          if (redoStack.length === 0) return;
+
+          const activeCanvas = getActiveCanvas();
+          if (!activeCanvas) return;
+
+          // Save current state to history stack
+          const currentState = {
+              canvasJSON: activeCanvas.toJSON(['isMathPuzzle', 'isAnswerKeyItem', 'isPageBorder', 'isHeaderDesc', 'isHeaderElement', 'isBorder', 'isBackground']),
+              canvasType: activeCanvas === worksheetCanvas ? 'worksheet' : 'answerKey',
+              timestamp: Date.now()
+          };
+          historyStack.push(currentState);
+
+          const nextState = redoStack.pop();
+          restoreCanvasState(nextState);
+
+          updateHistoryButtons();
+          showMessage(t('redoAction') || 'Redo', 'info');
+      }
+
+      function restoreCanvasState(state) {
+          if (!state) return;
+
+          isRestoringState = true;
+
+          const targetCanvas = state.canvasType === 'worksheet' ? worksheetCanvas : answerKeyCanvas;
+          if (!targetCanvas) {
+              isRestoringState = false;
+              return;
+          }
+
+          targetCanvas.loadFromJSON(state.canvasJSON, function() {
+              targetCanvas.renderAll();
+              isRestoringState = false;
+              updateHistoryButtons();
+          });
+      }
+
+      function updateHistoryButtons() {
+          const undoBtn = document.getElementById('undoBtn');
+          const redoBtn = document.getElementById('redoBtn');
+
+          if (undoBtn) {
+              undoBtn.disabled = historyStack.length === 0;
+          }
+          if (redoBtn) {
+              redoBtn.disabled = redoStack.length === 0;
+          }
+      }
+
       function enforceZOrder(canvas) {
           if (!canvas) return;
+
+          // Send background to back
           const background = canvas.getObjects().find(o => o.isBackground);
           if (background) canvas.sendToBack(background);
-      
+
+          // Send page borders to back (but above background)
+          const pageBorders = canvas.getObjects().filter(o => o.isPageBorder);
+          pageBorders.forEach(border => {
+              canvas.sendToBack(border);
+              if (background) canvas.bringForward(border);
+          });
+
           const border = canvas.getObjects().find(o => o.isBorder);
           if (border) {
               canvas.bringToFront(border); // Bring to top first
-              const userContent = canvas.getObjects().filter(o => !o.isGeneratedItem && !o.isAnswerKeyItem && !o.isBorder && !o.isBackground);
+              const userContent = canvas.getObjects().filter(o => !o.isGeneratedItem && !o.isAnswerKeyItem && !o.isBorder && !o.isBackground && !o.isPageBorder && !o.isHeaderDesc && !o.isHeaderElement);
               const generatedContent = canvas.getObjects().filter(o => o.isGeneratedItem || o.isAnswerKeyItem);
-      
+
               // Send border back one level for each object that is not background or border itself
               [...userContent, ...generatedContent].forEach(() => canvas.sendBackwards(border));
-      
+
               if (background) canvas.sendToBack(background); // Ensure background is always last
           }
       }
@@ -1273,19 +1896,171 @@
           closeAllPopovers();
       }
 
+      function bringObjectToFront() {
+          const activeCanvas = getActiveCanvas();
+          const activeObject = activeCanvas.getActiveObject();
+          if (activeObject) {
+              console.log('[Z-ORDER] Bring to Front - Before index:', activeCanvas.getObjects().indexOf(activeObject));
+              activeCanvas.bringToFront(activeObject);
+              console.log('[Z-ORDER] After index:', activeCanvas.getObjects().indexOf(activeObject));
+              activeCanvas.renderAll();
+          }
+          closeAllPopovers();
+      }
+
+      function sendObjectToBack() {
+          const activeCanvas = getActiveCanvas();
+          const activeObject = activeCanvas.getActiveObject();
+          if (activeObject) {
+              console.log('[Z-ORDER] Send to Back - Before index:', activeCanvas.getObjects().indexOf(activeObject));
+              activeCanvas.sendToBack(activeObject);
+              console.log('[Z-ORDER] After index:', activeCanvas.getObjects().indexOf(activeObject));
+              activeCanvas.renderAll();
+          }
+          closeAllPopovers();
+      }
+
       function deleteSelectedObjects() {
           const activeCanvas = getActiveCanvas();
           const activeObjects = activeCanvas.getActiveObjects();
           if (activeObjects.length > 0) {
               activeObjects.forEach(obj => {
-                // Protect borders and backgrounds from deletion
-                if (!obj.isBorder && !obj.isBackground) { 
-                    activeCanvas.remove(obj);
+                // Allow deletion of all objects including borders and backgrounds
+                activeCanvas.remove(obj);
+
+                // If we deleted a border or background, update the UI
+                if (obj.isBorder) {
+                    borderThemeSelect.value = 'none';
+                    borderDictionary.innerHTML = '';
+                    borderOpacitySlider.disabled = true;
+                }
+                if (obj.isBackground) {
+                    backgroundThemeSelect.value = 'none';
+                    backgroundDictionary.innerHTML = '';
+                    backgroundOpacitySlider.disabled = true;
                 }
               });
               activeCanvas.discardActiveObject().renderAll();
           }
           closeAllPopovers();
+      }
+
+      function toggleLockSelectedObjects() {
+          const canvas = getActiveCanvas();
+          const activeObject = canvas.getActiveObject();
+
+          // If nothing is selected, unlock ALL locked objects on the canvas
+          if (!activeObject) {
+              const allObjects = canvas.getObjects();
+              const lockedObjects = allObjects.filter(obj => obj.lockMovementX === true);
+
+              if (lockedObjects.length > 0) {
+                  lockedObjects.forEach(obj => {
+                      obj.set({
+                          lockMovementX: false,
+                          lockMovementY: false,
+                          lockRotation: false,
+                          lockScalingX: false,
+                          lockScalingY: false,
+                          hasControls: true,
+                          hasBorders: true,
+                          selectable: true,
+                          evented: true
+                      });
+                  });
+
+                  // Update button icon to unlocked
+                  const lockIcon = toolbarLockBtn.querySelector('i');
+                  lockIcon.classList.remove('fa-lock');
+                  lockIcon.classList.add('fa-lock-open');
+
+                  canvas.renderAll();
+                  console.log(`Unlocked ${lockedObjects.length} objects`);
+              }
+
+              closeAllPopovers();
+              updateUnlockAllButtonVisibility();
+              return;
+          }
+
+          // Handle both single objects and groups
+          const objectsToLock = activeObject.type === 'activeSelection'
+              ? activeObject.getObjects()
+              : [activeObject];
+
+          // Check if any object is currently locked
+          const isAnyLocked = objectsToLock.some(obj => obj.lockMovementX === true);
+
+          // Toggle lock state (opposite of current state)
+          const shouldLock = !isAnyLocked;
+
+          objectsToLock.forEach(obj => {
+              // When locking, make objects completely non-interactive
+              // This prevents them from blocking mouse drag selections
+              obj.set({
+                  lockMovementX: shouldLock,
+                  lockMovementY: shouldLock,
+                  lockRotation: shouldLock,
+                  lockScalingX: shouldLock,
+                  lockScalingY: shouldLock,
+                  hasControls: !shouldLock,
+                  hasBorders: !shouldLock,
+                  selectable: !shouldLock,  // Locked objects are not selectable
+                  evented: !shouldLock      // Locked objects don't capture mouse events
+              });
+          });
+
+          // Update button icon
+          const lockIcon = toolbarLockBtn.querySelector('i');
+          if (shouldLock) {
+              lockIcon.classList.remove('fa-lock-open');
+              lockIcon.classList.add('fa-lock');
+          } else {
+              lockIcon.classList.remove('fa-lock');
+              lockIcon.classList.add('fa-lock-open');
+          }
+
+          canvas.renderAll();
+          closeAllPopovers();
+          updateUnlockAllButtonVisibility();
+      }
+
+      function unlockAllObjects() {
+          const canvas = getActiveCanvas();
+          const allObjects = canvas.getObjects();
+          const lockedObjects = allObjects.filter(obj => obj.lockMovementX === true);
+
+          if (lockedObjects.length > 0) {
+              lockedObjects.forEach(obj => {
+                  obj.set({
+                      lockMovementX: false,
+                      lockMovementY: false,
+                      lockRotation: false,
+                      lockScalingX: false,
+                      lockScalingY: false,
+                      hasControls: true,
+                      hasBorders: true,
+                      selectable: true,
+                      evented: true
+                  });
+              });
+
+              canvas.renderAll();
+              console.log(`Unlocked ${lockedObjects.length} objects`);
+              updateUnlockAllButtonVisibility();
+          }
+      }
+
+      function updateUnlockAllButtonVisibility() {
+          const canvas = getActiveCanvas();
+          const allObjects = canvas.getObjects();
+          const hasLockedObjects = allObjects.some(obj => obj.lockMovementX === true);
+
+          if (hasLockedObjects) {
+              unlockAllControls.classList.add('visible');
+          } else {
+              unlockAllControls.classList.remove('visible');
+          }
       }
 
       function alignObjects(type) {
@@ -1296,8 +2071,23 @@
           if (type.includes('Canvas')) {
               // Protect borders and backgrounds from this alignment
               if (activeObj.isBorder || activeObj.isBackground) return; 
-              if (type === 'centerHCanvas') activeObj.centerH();
-              if (type === 'centerVCanvas') activeObj.centerV();
+              
+              // Use actual page dimensions for centering
+              const pageWidth = currentCanvasConfig.width;
+              const pageHeight = currentCanvasConfig.height;
+              
+              if (type === 'centerHCanvas') {
+                  activeObj.set({
+                      left: pageWidth / 2,
+                      originX: 'center'
+                  });
+              }
+              if (type === 'centerVCanvas') {
+                  activeObj.set({
+                      top: pageHeight / 2,
+                      originY: 'center'
+                  });
+              }
           }
           else if (activeObj.type === 'activeSelection') {
               const group = activeObj;
@@ -1319,11 +2109,227 @@
           closeAllPopovers();
       }
 
+      // ========================================
+      // Header & Border Functions
+      // ========================================
+
+      function createHeaderGroup(canvas) {
+          const defaultHeaders = {
+              en: { title: 'Math Worksheet', description: 'Count, add, and subtract to solve fun math problems!' },
+              de: { title: 'Mathe-Übungsblatt', description: 'Zähle, addiere und subtrahiere, um Matheaufgaben zu lösen!' },
+              fr: { title: 'Feuille de Mathématiques', description: 'Compte, additionne et soustrais pour résoudre les problèmes!' },
+              es: { title: 'Hoja de Matemáticas', description: 'Cuenta, suma y resta para resolver problemas divertidos!' },
+              it: { title: 'Scheda di Matematica', description: 'Conta, somma e sottrai per risolvere i problemi!' },
+              pt: { title: 'Folha de Matemática', description: 'Conta, soma e subtrai para resolver problemas divertidos!' },
+              nl: { title: 'Wiskundeblad', description: 'Tel, tel op en trek af om leuke sommen op te lossen!' },
+              sv: { title: 'Mattetal', description: 'Räkna, addera och subtrahera för att lösa roliga matteproblem!' },
+              da: { title: 'Matematikopgave', description: 'Tæl, læg sammen og træk fra for at løse sjove opgaver!' },
+              no: { title: 'Matematikkoppgave', description: 'Tell, legg sammen og trekk fra for å løse morsomme oppgaver!' },
+              fi: { title: 'Matematiikkalehti', description: 'Laske, lisää ja vähennä ratkaisemaan hauskoja tehtäviä!' }
+          };
+
+          const locale = currentLocale || 'en';
+          const defaults = defaultHeaders[locale] || defaultHeaders.en;
+          const title = defaults.title;
+          const description = defaults.description;
+
+          const pageWidth = currentCanvasConfig.width;
+          const pageHeight = currentCanvasConfig.height;
+          const isLandscape = pageWidth > pageHeight;
+
+          const objects = [];
+
+          // RESPONSIVE BORDERS based on canvas size
+          const borderMargin = 34;
+          const outerBorderWidth = pageWidth - (borderMargin * 2);
+          const outerBorderHeight = pageHeight - (borderMargin * 2);
+
+          // Outer border - Bright energetic blue for math
+          const outerBorder = new fabric.Rect({
+              left: borderMargin,
+              top: borderMargin,
+              width: outerBorderWidth,
+              height: outerBorderHeight,
+              fill: 'transparent',
+              stroke: '#4A90E2',
+              strokeWidth: 8,
+              rx: 12,
+              ry: 12,
+              selectable: true,
+              hasControls: true,
+              isPageBorder: true
+          });
+          objects.push(outerBorder);
+
+          // Inner border - Cheerful orange accent
+          const innerBorderMargin = borderMargin + 12.5;
+          const innerBorder = new fabric.Rect({
+              left: innerBorderMargin + 2,  // Offset 2px to the right
+              top: innerBorderMargin + 3,   // Offset 3px downward
+              width: pageWidth - (innerBorderMargin * 2),
+              height: pageHeight - (innerBorderMargin * 2),
+              fill: 'transparent',
+              stroke: '#FF9F43',
+              strokeWidth: 3,
+              rx: 8,
+              ry: 8,
+              selectable: true,
+              hasControls: true,
+              isPageBorder: true
+          });
+          objects.push(innerBorder);
+
+          // RESPONSIVE HEADER - Landscape vs Portrait
+          if (isLandscape) {
+              // LANDSCAPE: Compact centered header
+              const maxHeaderWidth = Math.min(500, pageWidth * 0.6);
+              const headerLeft = (pageWidth - maxHeaderWidth) / 2;
+              const headerTop = 60;
+              const headerHeight = 90;
+
+              // Header background - Vibrant purple
+              const bgRect = new fabric.Rect({
+                  left: headerLeft,
+                  top: headerTop,
+                  width: maxHeaderWidth,
+                  height: headerHeight,
+                  fill: '#9B59B6',
+                  rx: 15,
+                  ry: 15,
+                  selectable: true,
+                  isHeaderElement: true
+              });
+              objects.push(bgRect);
+
+              // White pill for title
+              const pillMargin = 10;
+              const whitePill = new fabric.Rect({
+                  left: headerLeft + pillMargin,
+                  top: headerTop + pillMargin,
+                  width: maxHeaderWidth - (pillMargin * 2),
+                  height: headerHeight - (pillMargin * 2),
+                  fill: '#FFFFFF',
+                  rx: 35,
+                  ry: 35,
+                  selectable: true,
+                  isHeaderElement: true
+              });
+              objects.push(whitePill);
+
+              // Title - Compact size for landscape
+              let titleFontSize = 32;
+              if (title.length > 15) titleFontSize = 28;
+              if (title.length > 20) titleFontSize = 24;
+
+              const titleText = new fabric.IText(title, {
+                  left: pageWidth / 2,
+                  top: headerTop + (headerHeight / 2),
+                  fontSize: titleFontSize,
+                  fontFamily: 'Fredoka, sans-serif',
+                  fontWeight: '700',
+                  fill: '#2C3E50',
+                  textAlign: 'center',
+                  originX: 'center',
+                  originY: 'center',
+                  selectable: true,
+                  editable: true,
+                  isHeaderElement: true
+              });
+              objects.push(titleText);
+
+              // NO description in landscape mode to keep it compact
+          } else {
+              // PORTRAIT: Full-width professional header
+              const headerMargin = 70;
+              const headerWidth = pageWidth - (headerMargin * 2);
+              const headerTop = 70;
+              const headerHeight = 100;
+
+              // Header background - Vibrant purple
+              const bgRect = new fabric.Rect({
+                  left: headerMargin,
+                  top: headerTop,
+                  width: headerWidth,
+                  height: headerHeight,
+                  fill: '#9B59B6',
+                  rx: 15,
+                  ry: 15,
+                  selectable: true,
+                  isHeaderElement: true
+              });
+              objects.push(bgRect);
+
+              // White pill for title
+              const pillMargin = 15;
+              const whitePill = new fabric.Rect({
+                  left: headerMargin + pillMargin,
+                  top: headerTop + 15,
+                  width: headerWidth - (pillMargin * 2),
+                  height: 70,
+                  fill: '#FFFFFF',
+                  rx: 35,
+                  ry: 35,
+                  selectable: true,
+                  isHeaderElement: true
+              });
+              objects.push(whitePill);
+
+              // Title - Dynamic size based on length
+              let titleFontSize = 48;
+              if (title.length > 12) titleFontSize = 40;
+              if (title.length > 15) titleFontSize = 36;
+              if (title.length > 18) titleFontSize = 32;
+              if (title.length > 22) titleFontSize = 28;
+
+              const titleText = new fabric.IText(title, {
+                  left: pageWidth / 2,
+                  top: headerTop + 50,
+                  fontSize: titleFontSize,
+                  fontFamily: 'Fredoka, sans-serif',
+                  fontWeight: '700',
+                  fill: '#2C3E50',
+                  textAlign: 'center',
+                  originX: 'center',
+                  originY: 'center',
+                  selectable: true,
+                  editable: true,
+                  isHeaderElement: true
+              });
+              objects.push(titleText);
+
+              // Description text
+              const descText = new fabric.Textbox(description, {
+                  left: pageWidth / 2,
+                  top: headerTop + 120,
+                  width: Math.min(450, pageWidth - 120),
+                  fontSize: 20,
+                  fontFamily: 'Quicksand, sans-serif',
+                  fontWeight: '500',
+                  fill: '#4A4A4A',
+                  textAlign: 'center',
+                  originX: 'center',
+                  originY: 'top',
+                  selectable: true,
+                  editable: true,
+                  hasControls: true,
+                  isHeaderDesc: true
+              });
+              objects.push(descText);
+          }
+
+          return objects;
+      }
+
+      function createPageBorder() {
+          // No page border for math worksheet app
+          return null;
+      }
+
 
       function initializeCanvas(canvasEl) {
           return new fabric.Canvas(canvasEl, {
-              width: currentCanvasConfig.width,
-              height: currentCanvasConfig.height,
+              width: 600,  // Start with a visible size
+              height: 800, // Will be adjusted by updateCanvasDisplayDimensions
               backgroundColor: pageColorInput.value || '#FFFFFF', /* Ensure white default */
               preserveObjectStacking: true,
               enableRetinaScaling: true // For high fidelity previews
@@ -1334,20 +2340,54 @@
           currentCanvasConfig.width = width;
           currentCanvasConfig.height = height;
 
-          const mainContentAreaStyle = getComputedStyle(document.querySelector('.tab-content-wrapper'));
-          const availableWidth = parseFloat(mainContentAreaStyle.width) - parseFloat(mainContentAreaStyle.paddingLeft) - parseFloat(mainContentAreaStyle.paddingRight) - 10;
-          const availableHeight = parseFloat(mainContentAreaStyle.height) - parseFloat(mainContentAreaStyle.paddingTop) - parseFloat(mainContentAreaStyle.paddingBottom) - 10;
-          const displayWidth = Math.min(width, availableWidth);
-          const displayHeight = Math.min(height, availableHeight);
+          const tabContentWrapper = document.querySelector('.tab-content-wrapper');
+          if (!tabContentWrapper) return;
+          
+          const availableWidth = tabContentWrapper.clientWidth - 50;
+          const availableHeight = tabContentWrapper.clientHeight - 50;
+          
+          // Apply 25% scaling for better visibility
+          // Extra 25% for landscape orientations
+          const isLandscape = width > height;
+          const baseScale = 1.25; // Base 25% larger for all
+          const landscapeBonus = isLandscape ? 1.25 : 1.0; // Additional 25% for landscape
+          const displayScale = baseScale * landscapeBonus;
+          
+          // Calculate display dimensions with scaling
+          const scaledWidth = width * displayScale;
+          const scaledHeight = height * displayScale;
+          
+          // Ensure it fits in available space
+          const scaleRatio = Math.min(availableWidth / scaledWidth, availableHeight / scaledHeight, 1);
+
+          // Apply user zoom level to the display dimensions
+          const displayWidth = scaledWidth * scaleRatio * userZoomLevel;
+          const displayHeight = scaledHeight * scaleRatio * userZoomLevel;
 
           [worksheetCanvas, answerKeyCanvas].forEach(c => {
               if (c) {
-                  c.setWidth(width); c.setHeight(height); c.calcOffset(); c.renderAll();
+                  // Apply zoom for display scaling
+                  const finalZoom = (displayWidth / width);
+                  c.setZoom(finalZoom);
+                  
+                  // Set dimensions AFTER zoom to ensure viewport matches zoomed size
+                  c.setDimensions({
+                      width: displayWidth,
+                      height: displayHeight
+                  });
+
+                  // DON'T rescale/reposition user-added backgrounds and borders
+                  // They should maintain their size and position as set by the user
+                  // Canvas zoom will automatically scale them visually
+
+                  c.calcOffset();
+                  c.renderAll();
               }
           });
           [worksheetCanvasWrapper, answerKeyCanvasWrapper].forEach(w => {
               if(w) {
-                  w.style.width = displayWidth + 'px'; w.style.height = displayHeight + 'px';
+                  w.style.width = displayWidth + 'px';
+                  w.style.height = displayHeight + 'px';
               }
           });
 
@@ -1359,7 +2399,7 @@
           answerKeyCanvas.renderAll();
       }
 
-      pageSizeSelect.addEventListener('change', function() {
+      pageSizeSelect.addEventListener('change', async function() {
           const selectedValue = this.value;
           if (selectedValue === 'custom') {
               customPageSizeInputsDiv.style.display = 'block';
@@ -1367,10 +2407,21 @@
               customPageSizeInputsDiv.style.display = 'none';
               const [w, h] = selectedValue.split('x').map(Number);
               updateCanvasDisplayDimensions(w, h);
+
+              // Auto-regenerate if worksheet exists
+              if (puzzlesData && puzzlesData.length > 0) {
+                  await renderPuzzleCanvases();
+
+                  // Also regenerate answer key if it exists
+                  const hasAnswerKey = answerKeyCanvas && answerKeyCanvas.getObjects().some(o => o.isAnswerKeyItem);
+                  if (hasAnswerKey) {
+                      await generateAnswerKeyFromCanvas();
+                  }
+              }
           }
       });
 
-      setPageSizeBtn.addEventListener('click', () => {
+      setPageSizeBtn.addEventListener('click', async () => {
           let newWidth, newHeight;
           if (pageSizeSelect.value === 'custom' || customPageSizeInputsDiv.style.display === 'block') {
               newWidth = parseInt(pageWidthInput.value, 10) || currentCanvasConfig.width;
@@ -1379,6 +2430,17 @@
               [newWidth, newHeight] = pageSizeSelect.value.split('x').map(Number);
           }
           updateCanvasDisplayDimensions(newWidth, newHeight);
+
+          // Auto-regenerate if worksheet exists
+          if (puzzlesData && puzzlesData.length > 0) {
+              await renderPuzzleCanvases();
+
+              // Also regenerate answer key if it exists
+              const hasAnswerKey = answerKeyCanvas && answerKeyCanvas.getObjects().some(o => o.isAnswerKeyItem);
+              if (hasAnswerKey) {
+                  await generateAnswerKeyFromCanvas();
+              }
+          }
       });
 
       pageColorInput.addEventListener('input', () => {
@@ -1398,28 +2460,39 @@
           if (!activeCanvas) return;
           const textContent = textInput.value.trim() || 'New Text';
           const textObject = new fabric.Textbox(textContent, {
-              left: fabric.util.getRandomInt(30, Math.max(30, activeCanvas.width - 230)),
-              top: fabric.util.getRandomInt(30, Math.max(30, activeCanvas.height - 80)),
+              // Position - Always centered
+              left: (currentCanvasConfig.width - 250) / 2,
+              top: (currentCanvasConfig.height - 100) / 2,
+
+              // Typography - Always consistent
               fontSize: 48,
               fill: '#333333',
-              fontFamily: fontFamilySelect.options[fontFamilySelect.selectedIndex].value,
-              width: 200,
+              fontFamily: 'Arial',  // Standardized font
+
+              // Dimensions - Prevent text wrapping
+              width: 250,
               padding: 8,
+
+              // Styling - Professional appearance
               borderColor: 'var(--app-accent-primary)',
               cornerColor: 'var(--app-accent-primary)',
               cornerSize: 10,
               transparentCorners: false,
               cornerStyle: 'circle',
+
+              // Stroke - No outline by default
               stroke: '#000000',
               strokeWidth: 0,
-              isPuzzleElement: false, 
+
+              // App-specific properties
+              isPuzzleElement: false,
               objectCaching: false 
           });
           activeCanvas.add(textObject);
           activeCanvas.setActiveObject(textObject);
           activeCanvas.renderAll();
           textInput.value = '';
-          showMessage('Text added to worksheet.', 'success', 1500);
+          showMessage(t('textAddedToWorksheet'), 'success', 1500);
       }
       
       addTextBtn.addEventListener('click', addText);
@@ -1484,6 +2557,18 @@
 
       function setupGlobalKeydownListener() {
         window.addEventListener('keydown', function(e) {
+            // Undo/Redo keyboard shortcuts
+            if (e.ctrlKey && e.key === 'z' && !e.shiftKey) {
+                e.preventDefault();
+                undo();
+                return;
+            }
+            if (e.ctrlKey && e.key === 'y') {
+                e.preventDefault();
+                redo();
+                return;
+            }
+
             const activeCanvas = getActiveCanvas();
             if (!activeCanvas) return;
             const activeElement = document.activeElement;
@@ -1505,8 +2590,8 @@
 
       function handleObjectSelection(e, canvas) {
           const activeObject = e.target || canvas.getActiveObject();
-          // Do not show toolbar for borders or backgrounds
-          if (!activeObject || activeObject.isBorder || activeObject.isBackground) {
+          // Show toolbar for all objects
+          if (!activeObject) {
               handleSelectionCleared(null, canvas);
               return;
           }
@@ -1570,7 +2655,22 @@
         canvas.on({
             'selection:created': function(e) { handleObjectSelection(e, this); },
             'selection:updated': function(e) { handleObjectSelection(e, this); },
-            'selection:cleared': function(e) { handleSelectionCleared(e, this); }
+            'selection:cleared': function(e) { handleSelectionCleared(e, this); },
+            'mouse:down': function(e) {
+                if (e.target) {
+                    saveCanvasState();
+                }
+            },
+            'object:added': function(e) {
+                if (!isRestoringState && !isGenerating) {
+                    setTimeout(() => saveCanvasState(), 100);
+                }
+            },
+            'object:removed': function(e) {
+                if (!isRestoringState && !isGenerating) {
+                    setTimeout(() => saveCanvasState(), 100);
+                }
+            }
         });
       }
 
@@ -1590,24 +2690,24 @@
       // --- Theme Loading (for Image Library & Worksheet Theme) ---
       async function loadThemes() {
         try {
-          const response = await fetch('/api/themes/nested');
+          const response = await fetch(`/api/themes-translated?locale=${currentLocale}`);
           if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
-          themes = await response.json();
-          if (!Array.isArray(themes)) throw new Error("Themes data is not an array");
+          const data = await response.json();
+          // Store full theme objects with value and displayName
+          themes = Array.isArray(data) ? data : (data.themes || []);
 
-          worksheetImageThemeEl.innerHTML = '<option value="">-- Select Theme --</option>';
-          dictThemeEl.innerHTML = '<option value="all">All Themes</option>';
+          worksheetImageThemeEl.innerHTML = `<option value="">${t('selectTheme')}</option>`;
+          dictThemeEl.innerHTML = '<option value="all" data-translate="allThemes">' + t('allThemes') + '</option>';
           if (themes.length > 0) {
-             themes.forEach(themePath => {
-               const displayName = themePath
-                   .split('/')
-                   .map(part => part.charAt(0).toUpperCase() + part.slice(1))
-                   .join(' / ');
-               dictThemeEl.add(new Option(displayName, themePath));
-               worksheetImageThemeEl.add(new Option(displayName, themePath));
+             themes.forEach(theme => {
+               // Use displayName from API for localized display
+               const displayName = theme.displayName || theme.value || theme;
+               const themeValue = theme.value || theme;
+               dictThemeEl.add(new Option(displayName, themeValue));
+               worksheetImageThemeEl.add(new Option(displayName, themeValue));
              });
           } else {
-              showMessage("No image themes found. API might be unavailable or empty.", "info");
+              showMessage(t('noImageThemesFound'), "info");
               $('selectTheme').disabled = true; // Disable theme selection mode if no themes
               $('selectIndividual').checked = true; // Force individual selection
               updateImageSelectionUI();
@@ -1617,7 +2717,7 @@
              loadDictionaryImages();
           }
         } catch (error) {
-          showMessage(`Error loading themes: ${error.message}.`, "error");
+          showMessage(t('errorLoadingThemes') + ': ' + error.message, "error");
           console.error("Error loading themes:", error);
           themes = [];
           $('selectTheme').disabled = true;
@@ -1636,34 +2736,53 @@
 
         if (selectedFilterTheme === 'all') {
             if (!query) {
-                dictionaryDisplayEl.innerHTML = '<p class="dictionary-message">Type to search all images.</p>';
-                allImagesFromAPI = [];
-                return;
-            }
-            dictionaryDisplayEl.innerHTML = '<p class="dictionary-message">Searching...</p>';
-            try {
-                const response = await fetch(`/api/images?search=${encodeURIComponent(query)}`);
-                if (!response.ok) throw new Error(`Failed to search for "${query}"`);
-                imagesToRender = await response.json();
-                allImagesFromAPI = []; // Clear local cache when searching all
-            } catch (err) {
-                 console.error("Error searching images:", err);
-                 showMessage(`Error during search: ${err.message}`, 'error');
-                 dictionaryDisplayEl.innerHTML = `<p class='dictionary-message'>Error during search.</p>`;
-                 allImagesFromAPI = [];
-                 return;
+                // Load animals theme by default when "All Themes" is selected with no search
+                dictionaryDisplayEl.innerHTML = `<p class="dictionary-message">${t('loadingDefaultTheme')}</p>`;
+                try {
+                    const response = await fetch(`/api/images?theme=animals&locale=${currentLocale}`);
+                    if (!response.ok) throw new Error(`Failed to load default theme`);
+                    const data = await response.json();
+                    imagesToRender = data.images || data;
+                    allImagesFromAPI = imagesToRender;
+                } catch (err) {
+                    console.error("Error loading default theme:", err);
+                    dictionaryDisplayEl.innerHTML = `<p class="dictionary-message">${t('typeToSearchAllImages')}</p>`;
+                    allImagesFromAPI = [];
+                    return;
+                }
+            } else {
+                dictionaryDisplayEl.innerHTML = `<p class="dictionary-message">${t('searching')}</p>`;
+                try {
+                    // Use standard API for proper translations
+                    const response = await fetch(`/api/images?search=${encodeURIComponent(query)}&locale=${currentLocale}`);
+                    if (!response.ok) throw new Error(`Failed to search for "${query}"`);
+                    const data = await response.json();
+                    imagesToRender = data.images || data;
+                    allImagesFromAPI = []; // Clear local cache when searching all
+                } catch (err) {
+                     console.error("Error searching images:", err);
+                     showMessage(t('errorDuringSearch') + ': ' + err.message, 'error');
+                     dictionaryDisplayEl.innerHTML = `<p class='dictionary-message'>${t('errorDuringSearch')}</p>`;
+                     allImagesFromAPI = [];
+                     return;
+                }
             }
         } else {
-            dictionaryDisplayEl.innerHTML = `<p class='dictionary-message'>Loading images for theme: ${dictThemeEl.options[dictThemeEl.selectedIndex].text}... Please wait.</p>`;
+            dictionaryDisplayEl.innerHTML = `<p class='dictionary-message'>${t('loadingImagesForTheme').replace('{theme}', dictThemeEl.options[dictThemeEl.selectedIndex].text)}</p>`;
             try {
-                const response = await fetch(`/api/images?theme=${encodeURIComponent(selectedFilterTheme)}`);
+                // Use standard API for proper translations
+                const response = await fetch(`/api/images?theme=${encodeURIComponent(selectedFilterTheme)}&locale=${currentLocale}`);
                 if (!response.ok) throw new Error(`Failed to load images for theme`);
-                const themeImages = await response.json();
+                const data = await response.json();
+                const themeImages = data.images || data;
                 allImagesFromAPI = themeImages; // Store for local filtering
-                imagesToRender = query ? themeImages.filter(img => img.word.toLowerCase().includes(query)) : themeImages;
+                imagesToRender = query ? themeImages.filter(img => {
+                    const displayName = img.name || img.word;
+                    return displayName.toLowerCase().includes(query);
+                }) : themeImages;
             } catch (err) {
                 console.error("Error loading dictionary:", err);
-                dictionaryDisplayEl.innerHTML = `<p class='dictionary-message'>Error loading images.</p>`;
+                dictionaryDisplayEl.innerHTML = `<p class='dictionary-message'>${t('errorLoadingImages')}</p>`;
                 allImagesFromAPI = [];
                 return;
             }
@@ -1671,7 +2790,7 @@
 
         dictionaryDisplayEl.innerHTML = "";
         if (imagesToRender.length === 0) {
-            dictionaryDisplayEl.innerHTML = `<p class="dictionary-message">No images found${query ? ` matching "${query}"` : ''}.</p>`;
+            dictionaryDisplayEl.innerHTML = `<p class="dictionary-message">${t('noImagesFound')}${query ? ` ${t('matching')} "${query}"` : ''}.</p>`;
             return;
         }
 
@@ -1681,7 +2800,8 @@
             const isSelected = userSelectedImagePool.some(selImg => selImg.path === imgData.path);
             if (isSelected) item.classList.add('selected');
 
-            item.innerHTML = `<img src="${imgData.path}" alt="${imgData.word}" loading="lazy"/><span>${imgData.word}</span>`;
+            const displayName = imgData.name || imgData.word;
+            item.innerHTML = `<img src="${imgData.path}" alt="${displayName}" loading="lazy"/><span>${displayName}</span>`;
             item.onclick = () => handleDictionaryImageClick(imgData, item); // Pass item for class toggling
             dictionaryDisplayEl.appendChild(item);
         });
@@ -1693,7 +2813,7 @@
             userSelectedImagePool.splice(existingImageIndex, 1);
             itemElement.classList.remove('selected');
         } else {
-            userSelectedImagePool.push({ path: imgData.path, word: imgData.word });
+            userSelectedImagePool.push({ path: imgData.path, word: imgData.word, name: imgData.name });
             itemElement.classList.add('selected');
         }
         renderSelectedImagePoolPreview();
@@ -1715,14 +2835,15 @@
       function renderSelectedImagePoolPreview() {
         selectedImagesPoolGridEl.innerHTML = '';
         if (userSelectedImagePool.length === 0) {
-            selectedImagesPoolGridEl.innerHTML = '<span class="placeholder">Select images from the library.</span>';
+            selectedImagesPoolGridEl.innerHTML = '<span class="placeholder" data-translate="selectImagesFromTheLibrary">' + t('selectImagesFromTheLibrary') + '</span>';
             return;
         }
         userSelectedImagePool.forEach(imgData => {
             const imgEl = document.createElement('img');
             imgEl.src = imgData.path;
-            imgEl.alt = imgData.word;
-            imgEl.title = `Selected: ${imgData.word}`;
+            const imgDisplayName = imgData.name || imgData.word;
+            imgEl.alt = imgDisplayName;
+            imgEl.title = `Selected: ${imgDisplayName}`;
             imgEl.onclick = () => {
                 const allItems = [...dictionaryDisplayEl.querySelectorAll('.dictionary-item'), ...uploadedImagesPreviewDiv.querySelectorAll('.dictionary-item')];
                 const originalItem = allItems.find(item => item.querySelector('img')?.src === imgData.path);
@@ -1735,7 +2856,7 @@
       function renderUploadedImages() {
         uploadedImagesPreviewDiv.innerHTML = "";
         if (uploadedImages.length === 0) {
-            uploadedImagesPreviewDiv.innerHTML = `<p class="dictionary-message">Your uploaded images will appear here.</p>`;
+            uploadedImagesPreviewDiv.innerHTML = `<p class="dictionary-message">${t('yourUploadedImagesWillAppear')}</p>`;
             return;
         }
         uploadedImages.forEach(img => {
@@ -1744,7 +2865,8 @@
             const isSelected = userSelectedImagePool.some(selImg => selImg.path === img.path);
             if (isSelected) item.classList.add('selected');
 
-            item.innerHTML = `<img src="${img.path}" alt="${img.word}" loading="lazy"/><span>${img.word}</span>`;
+            const imgDisplayName = img.name || img.word;
+            item.innerHTML = `<img src="${img.path}" alt="${imgDisplayName}" loading="lazy"/><span>${imgDisplayName}</span>`;
             item.onclick = () => handleDictionaryImageClick(img, item);
             uploadedImagesPreviewDiv.appendChild(item);
         });
@@ -1756,14 +2878,35 @@
         this.searchTimeout = setTimeout(loadDictionaryImages, 300);
       };
 
+      // Custom file button handlers
+      const customFileButton = document.getElementById('customFileButton');
+      const fileSelectionText = document.getElementById('fileSelectionText');
+
+      if (customFileButton) {
+          customFileButton.addEventListener('click', () => {
+              imageUploadInput.click();
+          });
+      }
+
       imageUploadInput.addEventListener('change', (e) => {
           const files = e.target.files;
+
+          // Update file selection text
+          if (fileSelectionText) {
+              const fileCount = files ? files.length : 0;
+              if (fileCount > 0) {
+                  fileSelectionText.textContent = t('filesSelected').replace('{count}', fileCount);
+              } else {
+                  fileSelectionText.textContent = t('noFileChosen');
+              }
+          }
+
           if(!files || files.length === 0) return;
 
           let filesToLoad = Array.from(files).filter(f => f.type.startsWith('image/')).length;
           if(filesToLoad === 0) return;
 
-          showMessage(`Loading ${filesToLoad} image(s)...`, 'info', 0);
+          showMessage(t('loadingXImages').replace('{count}', filesToLoad), 'info', 0);
           
           for(const file of files) {
               if(!file.type.startsWith('image/')) continue;
@@ -1776,12 +2919,12 @@
                   filesToLoad--;
                   if (filesToLoad === 0) {
                       renderUploadedImages();
-                      showMessage(`${uploadedImages.length} custom image(s) available.`, 'success');
+                      showMessage(t('customImagesAvailable').replace('{count}', uploadedImages.length), 'success');
                   }
               };
               reader.onerror = () => {
                   filesToLoad--;
-                  showMessage(`Error reading file: ${file.name}`, 'error');
+                  showMessage(t('errorReadingFile') + ': ' + file.name, 'error');
               };
               reader.readAsDataURL(file);
           }
@@ -1832,34 +2975,38 @@
         if (selectedMode === 'theme') {
             const selectedThemeName = worksheetImageThemeEl.value;
             if (!selectedThemeName) {
-                showMessage("Please select a theme.", "error"); return false;
+                showMessage(t('pleaseSelectTheme'), "error"); return false;
             }
-            if (!allThemeImages[selectedThemeName]) {
-                 showMessage(`Loading images for theme: ${selectedThemeName}...`, "info", 0);
+            // Include locale in cache key to ensure correct language names
+            const cacheKey = `${selectedThemeName}-${currentLocale}`;
+            if (!allThemeImages[cacheKey]) {
+                 showMessage(t('loadingImagesForTheme').replace('{theme}', selectedThemeName), "info", 0);
                  try {
-                     const response = await fetch(`/api/images?theme=${encodeURIComponent(selectedThemeName)}`);
+                     // Use standard API for proper translations
+                     const response = await fetch(`/api/images?theme=${encodeURIComponent(selectedThemeName)}&locale=${currentLocale}`);
                      if (!response.ok) throw new Error(`HTTP error loading theme images! status: ${response.status}`);
-                     const themeImages = await response.json();
+                     const data = await response.json();
+                     const themeImages = data.images || data;
                      if (!Array.isArray(themeImages)) throw new Error("Theme image data is not an array");
-                     allThemeImages[selectedThemeName] = themeImages;
-                     showMessage(`Theme '${selectedThemeName}' images loaded.`, "success");
+                     allThemeImages[cacheKey] = themeImages;
+                     showMessage(t('themeImagesLoaded').replace('{theme}', selectedThemeName), "success");
                  } catch (error) {
-                     showMessage(`Error loading theme images: ${error.message}.`, "error");
+                     showMessage(t('errorLoadingThemeImages') + ': ' + error.message, "error");
                      console.error("Error loading theme images:", error);
                      return false;
                  }
             }
-            imageSourcePool = allThemeImages[selectedThemeName] || [];
+            imageSourcePool = allThemeImages[cacheKey] || [];
 
             if (imageSourcePool.length < requiredSymbolCount) {
-                showMessage(`Theme '${selectedThemeName}' has only ${imageSourcePool.length} images, but ${requiredSymbolCount} are needed for this difficulty. Choose a different theme or difficulty.`, "error");
+                showMessage(t('notEnoughImagesInTheme').replace('{theme}', selectedThemeName).replace('{available}', imageSourcePool.length).replace('{required}', requiredSymbolCount), "error");
                 return false;
             }
 
         } else { // individual mode
             imageSourcePool = userSelectedImagePool; 
              if (imageSourcePool.length < requiredSymbolCount) {
-                showMessage(`Please select at least ${requiredSymbolCount} images for the pool. You have selected ${imageSourcePool.length}.`, "error");
+                showMessage(t('selectMoreImages').replace('{required}', requiredSymbolCount).replace('{selected}', imageSourcePool.length), "error");
                 return false;
             }
         }
@@ -1872,7 +3019,7 @@
             if (i < shuffledPool.length) {
                 symbolImageMap[activeSymbolsForPuzzle[i]] = shuffledPool[i];
             } else {
-                showMessage("Not enough unique images available for all symbols.", "error");
+                showMessage(t('notEnoughUniqueImages'), "error");
                 return false;
             }
         }
@@ -1880,8 +3027,160 @@
       }
       // --- End Symbol Preparation ---
 
+      // --- Algebraic Solver for Unique Solvability Validation ---
+      /**
+       * Validates that a system of equations has EXACTLY ONE unique solution
+       * This ensures kids never have to guess - every symbol has only one possible value
+       *
+       * @param {Array} equations - Array of {expr: string, result: number} objects
+       * @param {Array} symbolsUsed - Array of symbol strings (e.g., ['A', 'B', 'C'])
+       * @param {Object} knownValues - Object mapping symbols to their intended values
+       * @returns {boolean} - true if puzzle is uniquely solvable, false otherwise
+       */
+      function isPuzzleUniquelySolvable(equations, symbolsUsed, knownValues) {
+        if (!equations || equations.length === 0 || !symbolsUsed || symbolsUsed.length === 0) {
+          return false;
+        }
+
+        // Step 1: Parse equations into a structured format
+        // Each equation becomes: {terms: [{symbol: 'A', coefficient: 1}, ...], constant: 0, result: number}
+        const parsedEquations = [];
+
+        for (const eq of equations) {
+          const { expr, result } = eq;
+          const terms = [];
+          let constant = 0;
+
+          // Parse expression like "A + A + 2" or "B - 3 + C"
+          const parts = expr.split(/\s+/); // Split by whitespace
+          let currentOp = '+';
+
+          for (const part of parts) {
+            if (part === '+' || part === '-') {
+              currentOp = part;
+            } else {
+              // Check if it's a symbol (letter) or number
+              if (/^[A-Z]$/.test(part)) {
+                // It's a symbol
+                const symbolIndex = terms.findIndex(t => t.symbol === part);
+                const coefficient = (currentOp === '+' ? 1 : -1);
+
+                if (symbolIndex >= 0) {
+                  // Symbol already exists, add to its coefficient
+                  terms[symbolIndex].coefficient += coefficient;
+                } else {
+                  // New symbol
+                  terms.push({ symbol: part, coefficient });
+                }
+              } else {
+                // It's a number (constant)
+                const numValue = parseInt(part, 10);
+                if (!isNaN(numValue)) {
+                  constant += (currentOp === '+' ? numValue : -numValue);
+                }
+              }
+              currentOp = '+'; // Reset to default after processing
+            }
+          }
+
+          parsedEquations.push({ terms, constant, result });
+        }
+
+        // Step 2: Iterative substitution solver
+        // Try to solve for each symbol step by step
+        const solvedValues = {}; // Will store solved symbol values
+        const maxIterations = symbolsUsed.length * 2; // Prevent infinite loops
+        let iteration = 0;
+        let progressMade = true;
+
+        while (progressMade && Object.keys(solvedValues).length < symbolsUsed.length && iteration < maxIterations) {
+          progressMade = false;
+          iteration++;
+
+          for (const eq of parsedEquations) {
+            const { terms, constant, result } = eq;
+
+            // Substitute known values
+            let unknownTerms = [];
+            let knownSum = constant;
+
+            for (const term of terms) {
+              if (solvedValues.hasOwnProperty(term.symbol)) {
+                // Symbol is known, add to known sum
+                knownSum += term.coefficient * solvedValues[term.symbol];
+              } else {
+                // Symbol is unknown
+                unknownTerms.push(term);
+              }
+            }
+
+            // Check if we can solve for a single unknown
+            if (unknownTerms.length === 1) {
+              const unknownTerm = unknownTerms[0];
+              const { symbol, coefficient } = unknownTerm;
+
+              // Solve: coefficient * symbol + knownSum = result
+              // symbol = (result - knownSum) / coefficient
+              if (coefficient !== 0) {
+                const solvedValue = (result - knownSum) / coefficient;
+
+                // Check if solution is an integer (must be for valid puzzle values)
+                if (Number.isInteger(solvedValue)) {
+                  // Check for consistency: if we already solved this symbol differently, puzzle is inconsistent
+                  if (solvedValues.hasOwnProperty(symbol) && solvedValues[symbol] !== solvedValue) {
+                    return false; // Inconsistent system
+                  }
+
+                  solvedValues[symbol] = solvedValue;
+                  progressMade = true;
+                }
+              }
+            } else if (unknownTerms.length === 0) {
+              // All terms are known - verify equation is satisfied
+              if (Math.abs(knownSum - result) > 0.001) {
+                return false; // Equation not satisfied - inconsistent system
+              }
+            }
+          }
+        }
+
+        // Step 3: Verify we solved ALL symbols
+        if (Object.keys(solvedValues).length !== symbolsUsed.length) {
+          return false; // Underdetermined system - some symbols can't be uniquely determined
+        }
+
+        // Step 4: Verify solved values match the intended values (final consistency check)
+        for (const symbol of symbolsUsed) {
+          if (!solvedValues.hasOwnProperty(symbol)) {
+            return false; // Symbol not solved
+          }
+          if (solvedValues[symbol] !== knownValues[symbol]) {
+            return false; // Solved value doesn't match intended value
+          }
+        }
+
+        // Step 5: Final verification - substitute all solved values into ALL equations
+        for (const eq of parsedEquations) {
+          const { terms, constant, result } = eq;
+          let sum = constant;
+
+          for (const term of terms) {
+            sum += term.coefficient * solvedValues[term.symbol];
+          }
+
+          if (Math.abs(sum - result) > 0.001) {
+            return false; // Equation not satisfied
+          }
+        }
+
+        // SUCCESS: Puzzle is uniquely solvable!
+        return true;
+      }
+      // --- End Algebraic Solver ---
+
       // --- Puzzle Generation Logic ---
       async function generatePuzzlesLogic() {
+        isGenerating = true;
         const minVal = parseInt(minValueEl.value, 10);
         const maxVal = parseInt(maxValueEl.value, 10);
         const numSymbols = getSymbolCountBasedOnDifficulty();
@@ -1893,19 +3192,25 @@
         const isHard = currentDifficultyValue === "hard";
 
         if ((maxVal - minVal + 1) < numSymbols) {
-            showMessage(`Value range (${minVal}-${maxVal}) is too small for ${numSymbols} unique symbols. Please increase Max Value or decrease Min Value.`, "error");
+            showMessage(t('valueRangeTooSmall').replace('{min}', minVal).replace('{max}', maxVal).replace('{symbols}', numSymbols), "error");
+            isGenerating = false;
             return;
         }
 
         const symbolsPrepared = await prepareSymbolsForGeneration();
-        if (!symbolsPrepared) { 
-            puzzlesData = []; 
+        if (!symbolsPrepared) {
+            puzzlesData = [];
             await renderPuzzleCanvases(); // Call render even if prep fails, to clear old items
-            return; 
+            isGenerating = false;
+            return;
         }
 
         const ops = operationsSelect.value === "addsub" ? ["+", "-"] : ["+"];
         const puzzleCount = parseInt(numExercisesEl.value, 10) || 2;
+
+        // CRITICAL FIX: Dynamic equation count based on symbol count for unique solvability
+        // For N symbols, we need N equations to guarantee a unique solution
+        const targetEquationCount = numSymbols; // 2 symbols → 2 equations, 3 → 3, 4 → 4
 
         puzzlesData = [];
         let generationAttempts = 0;
@@ -1930,10 +3235,12 @@
             if (!assignmentSuccessful) { continue; } // Try a new puzzle block if value assignment failed
 
             const equations = [];
+            const usedEquations = new Set(); // Track unique equations to prevent duplicates
+            let hasDirectlySolvableEquation = false; // Track if we have at least one directly solvable equation
             let puzzleBlockAttempts = 0;
             const maxPuzzleBlockAttempts = 300;
 
-            while (equations.length < 3 && puzzleBlockAttempts < maxPuzzleBlockAttempts) {
+            while (equations.length < targetEquationCount && puzzleBlockAttempts < maxPuzzleBlockAttempts) {
                 puzzleBlockAttempts++;
                 let numTerms;
 
@@ -1942,36 +3249,100 @@
                 else numTerms = randInt(2, 3);
 
                 const terms = [];
-                let currentSymbolsInEquationPool = [...activeSymbolsForPuzzle];
                 let equationSymbolsUsed = new Set();
                 let hasNumber = false;
+                const symbolsAvailableForReuse = [...activeSymbolsForPuzzle];
 
-                for (let i = 0; i < numTerms; i++) {
+                // CRITICAL FIX: If we're on the last equation and still no directly solvable equation, FORCE one
+                const mustForceSolvableEquation = equations.length === (targetEquationCount - 1) && !hasDirectlySolvableEquation;
+
+                // Encourage directly solvable equations ONLY for first equations to get exactly ONE per puzzle
+                const encourageDirectlySolvable = !hasDirectlySolvableEquation && equations.length < (targetEquationCount - 1);
+
+                // If we MUST have a directly solvable equation, generate one explicitly
+                if (mustForceSolvableEquation && activeSymbolsForPuzzle.length > 0) {
+                    // Pick one symbol to use
+                    const chosenSymbol = activeSymbolsForPuzzle[Math.floor(Math.random() * activeSymbolsForPuzzle.length)];
+
+                    // Randomly choose method: 30% chance doubled (A+A), 70% chance single with number (A+3)
+                    // Prefer single+numbers to create more variety
+                    const useDoubledMethod = Math.random() < 0.3;
+
+                    if (useDoubledMethod) {
+                        // Method 1: Doubled symbol (A + A = X or A + A + number = X)
+                        const symbolCount = Math.random() < 0.5 ? 2 : (numTerms >= 3 ? 2 : 2);
+                        for (let i = 0; i < symbolCount; i++) {
+                            const op = i === 0 ? '' : '+';
+                            terms.push({value: chosenSymbol, op: op});
+                        }
+                        equationSymbolsUsed.add(chosenSymbol);
+
+                        // Optionally add a number
+                        if (numTerms > symbolCount && Math.random() < 0.5) {
+                            const addNumber = randInt(1, (isVeryEasy || isEasy ? 5 : 10));
+                            terms.push({value: addNumber, op: '+'});
+                            hasNumber = true;
+                        }
+                    } else {
+                        // Method 2: Single symbol with number (A + 3 = X or A - 2 = X)
+                        terms.push({value: chosenSymbol, op: ''});
+                        equationSymbolsUsed.add(chosenSymbol);
+
+                        // Add one or two numbers
+                        const numberCount = Math.min(numTerms - 1, randInt(1, 2));
+                        for (let i = 0; i < numberCount; i++) {
+                            const numOp = Math.random() < 0.7 ? '+' : '-';
+                            const numValue = randInt(1, (isVeryEasy || isEasy ? 9 : 15));
+                            terms.push({value: numValue, op: numOp});
+                            hasNumber = true;
+                        }
+                    }
+                } else {
+                    // Normal generation logic
+                    for (let i = 0; i < numTerms; i++) {
                   const op = i === 0 ? '' : ops[Math.floor(Math.random() * ops.length)];
                   let termContent;
-                  const canAddSymbol = currentSymbolsInEquationPool.length > 0;
                   const shouldAddNumber = (isVeryEasy || isEasy) && !hasNumber && (terms.length > 0 && Math.random() < 0.5);
 
-                  if (canAddSymbol && !shouldAddNumber) {
-                    const symIndex = Math.floor(Math.random() * currentSymbolsInEquationPool.length);
-                    termContent = currentSymbolsInEquationPool.splice(symIndex, 1)[0];
+                  // Allow reusing symbols from earlier in the SAME equation to create A+A patterns
+                  // LOW probability (0.2 = 20%) to avoid creating too many doubled equations
+                  const canReuseSymbol = encourageDirectlySolvable && equationSymbolsUsed.size > 0 && i > 0 && !shouldAddNumber && Math.random() < 0.2;
+
+                  if (canReuseSymbol) {
+                    // Reuse a symbol from this equation (e.g., if term 0 was 'A', term 1 can also be 'A')
+                    const usedSymbols = Array.from(equationSymbolsUsed);
+                    termContent = usedSymbols[Math.floor(Math.random() * usedSymbols.length)];
+                  } else if (symbolsAvailableForReuse.length > 0 && !shouldAddNumber) {
+                    const symIndex = Math.floor(Math.random() * symbolsAvailableForReuse.length);
+                    termContent = symbolsAvailableForReuse[symIndex];
                     equationSymbolsUsed.add(termContent);
-                  } else if (shouldAddNumber || (terms.length > 0 && !canAddSymbol && Math.random() < 0.8)) { // Encourage numbers if no symbols left
+                    // Remove to prefer variety, but keep in symbolsAvailableForReuse for potential reuse
+                    symbolsAvailableForReuse.splice(symIndex, 1);
+                  } else if (shouldAddNumber || (terms.length > 0 && symbolsAvailableForReuse.length === 0 && Math.random() < 0.8)) {
                     termContent = randInt(1, (isVeryEasy || isEasy ? 9 : (isHard ? 19 : 15)));
                     hasNumber = true;
-                  } else if (i === 0 && canAddSymbol) {
-                    const symIndex = Math.floor(Math.random() * currentSymbolsInEquationPool.length);
-                    termContent = currentSymbolsInEquationPool.splice(symIndex, 1)[0];
+                  } else if (i === 0 && activeSymbolsForPuzzle.length > 0) {
+                    termContent = activeSymbolsForPuzzle[0];
                     equationSymbolsUsed.add(termContent);
-                  } else { break; } // Fail this equation attempt
+                  } else { break; }
                   terms.push({value: termContent, op: op});
-                }
+                    }
+                } // End of else block for normal generation
 
                 if (terms.length !== numTerms) continue;
                 if (equationSymbolsUsed.size === 0 && terms.length > 0) continue;
 
                 const exprStringForEval = terms.map(t => (t.op ? t.op + " " : "") + (typeof t.value === 'string' ? values[t.value] : t.value)).join(" ");
                 const exprStringForDisplay = terms.map(t => (t.op ? t.op + " " : "") + t.value).join(" ");
+
+                // Create a normalized version for duplicate detection (sort terms to detect A+B = B+A as duplicate)
+                const normalizedExpr = exprStringForDisplay.split(' ').sort().join(' ');
+                const equationKey = `${normalizedExpr} = ${eval(exprStringForEval)}`;
+
+                // Check if this equation already exists (prevents duplicates)
+                if (usedEquations.has(equationKey)) {
+                    continue; // Skip duplicate equations
+                }
 
                 let result;
                 try { result = eval(exprStringForEval); } catch (e) { result = null; }
@@ -1983,15 +3354,87 @@
                     else { isValidResult = result >= minThreshold && result < (isVeryEasy || isEasy ? 20 : 40); }
                 }
 
+                // PEDAGOGICAL FIX: When negative numbers are not allowed,
+                // validate ALL intermediate results to prevent equations like "2 - 6 + 10"
+                // which requires computing "2 - 6 = -4" as an intermediate step
+                if (isValidResult && !allowNegativeEl.checked) {
+                    // Evaluate left-to-right checking each intermediate result
+                    let runningTotal = null;
+                    for (let i = 0; i < terms.length; i++) {
+                        const term = terms[i];
+                        const termValue = typeof term.value === 'string' ? values[term.value] : term.value;
+
+                        if (i === 0) {
+                            runningTotal = termValue;
+                        } else {
+                            if (term.op === '+') {
+                                runningTotal += termValue;
+                            } else if (term.op === '-') {
+                                runningTotal -= termValue;
+                            }
+                        }
+
+                        // Check if any intermediate result is negative
+                        if (runningTotal < 0) {
+                            isValidResult = false;
+                            break;
+                        }
+                    }
+                }
+
                 if (isValidResult) {
                    if ((currentDifficultyValue === "medium" || isHard) && activeSymbolsForPuzzle.length > 1 && equationSymbolsUsed.size < Math.min(2, activeSymbolsForPuzzle.length) && puzzleBlockAttempts < maxPuzzleBlockAttempts - 50) continue;
+
+                   // Check if this equation is directly solvable (gives unique value for one symbol)
+                   const symbolCounts = {};
+                   terms.forEach(t => {
+                       if (typeof t.value === 'string') {
+                           symbolCounts[t.value] = (symbolCounts[t.value] || 0) + 1;
+                       }
+                   });
+                   const hasDoubled = Object.values(symbolCounts).some(count => count > 1);
+                   const uniqueSymbolsInEquation = Object.keys(symbolCounts).length;
+
+                   // CRITICAL FIX: A directly solvable equation can be:
+                   // Method 1 (Doubled): One symbol repeated (A + A = 10 or A + A + 2 = 12)
+                   //   - hasDoubled = true AND uniqueSymbolsInEquation = 1
+                   // Method 2 (Single with numbers): One symbol appears ONCE with only numbers (A + 3 = 8 or A - 2 = 5)
+                   //   - hasDoubled = false AND uniqueSymbolsInEquation = 1
+                   const isDoubledMethod = hasDoubled && uniqueSymbolsInEquation === 1;
+                   const isSingleWithNumbers = !hasDoubled && uniqueSymbolsInEquation === 1; // NOT doubled AND one unique symbol
+                   const isDirectlySolvable = isDoubledMethod || isSingleWithNumbers;
+
+                   // Only mark as having directly solvable equation if we don't already have one
+                   if (isDirectlySolvable && !hasDirectlySolvableEquation) {
+                       hasDirectlySolvableEquation = true;
+                   }
+
+                   usedEquations.add(equationKey); // Mark this equation as used
                    equations.push({ expr: exprStringForDisplay, result });
                 }
             }
 
-            if (equations.length === 3) {
+            if (equations.length === targetEquationCount) {
                 let puzzleBlockIsValid = true;
-                if (isVeryEasy || isEasy) {
+
+                // CRITICAL: Ensure at least one directly solvable equation for unique solution
+                // This prevents cases like "pig + dog = 12" which has multiple solutions
+                // We need either: "pig + pig = 10" (doubled) OR "pig + 3 = 8" (single with numbers)
+                if (!hasDirectlySolvableEquation) {
+                    puzzleBlockIsValid = false;
+                }
+
+                // NEW VALIDATION: Use algebraic solver to verify UNIQUE solvability
+                // This ensures ALL symbols can be uniquely determined - kids never have to guess!
+                if (puzzleBlockIsValid) {
+                    const isUniquelySolvable = isPuzzleUniquelySolvable(equations, activeSymbolsForPuzzle, values);
+                    if (!isUniquelySolvable) {
+                        puzzleBlockIsValid = false; // Reject puzzle - system is underdetermined or inconsistent
+                    }
+                }
+
+                // Additional difficulty-specific checks
+                if (puzzleBlockIsValid && (isVeryEasy || isEasy)) {
                     const symbolsInBlock = new Set();
                      equations.forEach(eq => {
                         const eqSymbols = eq.expr.match(/[A-Z]/g) || [];
@@ -2000,7 +3443,7 @@
                     if (activeSymbolsForPuzzle.some(sym => !symbolsInBlock.has(sym))) {
                         puzzleBlockIsValid = false;
                     }
-                } else if (isHard && activeSymbolsForPuzzle.length === 4) {
+                } else if (puzzleBlockIsValid && isHard && activeSymbolsForPuzzle.length === 4) {
                      const symbolsInBlock = new Set();
                       equations.forEach(eq => {
                          const eqSymbols = eq.expr.match(/[A-Z]/g) || [];
@@ -2017,13 +3460,13 @@
         }
 
         if (generationAttempts >= maxGenerationAttempts && puzzlesData.length < puzzleCount) {
-             showMessage(`Could not generate all requested puzzles (${puzzlesData.length}/${puzzleCount}). Try different settings or increase value range for unique symbols.`, "error");
+             showMessage(t('couldNotGenerateAllPuzzles').replace('{generated}', puzzlesData.length).replace('{requested}', puzzleCount), "error");
         } else if (puzzlesData.length === 0 && puzzleCount > 0) {
-            showMessage("Could not generate any valid puzzles. Try different settings or increase value range.", "error");
+            showMessage(t('couldNotGeneratePuzzles'), "error");
         } else if (puzzlesData.length < puzzleCount && puzzlesData.length > 0) {
-            showMessage(`Generated ${puzzlesData.length} of ${puzzleCount} puzzles. Some settings might be restrictive.`, 'info');
+            showMessage(t('generatedPartialPuzzles').replace('{generated}', puzzlesData.length).replace('{requested}', puzzleCount), 'info');
         } else if (puzzlesData.length > 0) {
-            showMessage(`Successfully generated ${puzzlesData.length} puzzles!`, 'success');
+            showMessage(t('successfullyGeneratedPuzzles').replace('{count}', puzzlesData.length), 'success');
         }
 
         await renderPuzzleCanvases();
@@ -2032,6 +3475,8 @@
         downloadWorksheetJpegBtn.disabled = !hasWorksheetContent;
         downloadWorksheetPdfBtn.disabled = !hasWorksheetContent;
         generateAnswerKeyBtn.disabled = puzzlesData.length === 0;
+        isGenerating = false;
+        saveCanvasState();
       }
       // --- End Puzzle Generation ---
       
@@ -2040,18 +3485,25 @@
           const numPuzzles = puzzleBlocks.length;
           if (numPuzzles === 0) return;
 
+          // Account for header height - responsive to orientation
+          const isLandscape = currentCanvasConfig.width > currentCanvasConfig.height;
+          const headerHeight = isLandscape ? 150 : 220;
           const vMargin = 40, hMargin = 40, puzzleGap = 25;
-          const availableWidth = targetCanvas.width - (2 * hMargin);
-          const availableHeight = targetCanvas.height - (2 * vMargin);
+          // Use the actual page dimensions, not the zoomed canvas dimensions
+          const pageWidth = currentCanvasConfig.width;
+          const pageHeight = currentCanvasConfig.height;
+          const availableWidth = pageWidth - (2 * hMargin);
+          const availableHeight = pageHeight - (2 * vMargin) - headerHeight;
 
           let cols, rows;
           
-          if (targetCanvas.width > targetCanvas.height * 1.2) { // Landscape check
+          if (pageWidth > pageHeight * 1.2) { // Landscape check
               if (numPuzzles <= 3) { cols = numPuzzles; rows = 1; } 
               else if (numPuzzles === 4) { cols = 2; rows = 2; }
               else { cols = 3; rows = 2; } // For 5, 6
           } else { // Portrait check
-              if (numPuzzles <= 3) { cols = 1; rows = numPuzzles; }
+              if (numPuzzles <= 2) { cols = 1; rows = numPuzzles; }
+              else if (numPuzzles === 3) { cols = 1; rows = 3; }
               else if (numPuzzles === 4) { cols = 2; rows = 2; }
               else { cols = 2; rows = 3; } // For 5, 6
           }
@@ -2072,12 +3524,12 @@
                   if (block.left === 0 && block.top === 0 && block.scaleX === 1 && block.scaleY === 1 && block.angle === 0) {
                       const scaleX = cellWidth / block.width;
                       const scaleY = cellHeight / block.height;
-                      const scale = Math.min(scaleX, scaleY) * 0.95; // 5% inner padding in cell
+                      const scale = Math.min(scaleX, scaleY) * 0.85; // 15% inner padding to ensure fit
                       
                       block.scale(scale);
 
                       const cellLeft = hMargin + c * (cellWidth + puzzleGap);
-                      const cellTop = vMargin + r * (cellHeight + puzzleGap);
+                      const cellTop = vMargin + headerHeight + r * (cellHeight + puzzleGap);
                       
                       block.left = cellLeft + (cellWidth / 2);
                       block.top = cellTop + (cellHeight / 2);
@@ -2094,9 +3546,16 @@
       // --- Canvas Rendering Functions ---
       async function renderPuzzleCanvases() {
           // --- PRESERVATION STEP ---
+          // Check if canvas dimensions changed - if so, don't restore transforms
+          const oldCanvasWidth = worksheetCanvas.getWidth();
+          const oldCanvasHeight = worksheetCanvas.getHeight();
+          const canvasDimensionsChanged = (oldCanvasWidth !== currentCanvasConfig.width || oldCanvasHeight !== currentCanvasConfig.height);
+
           const oldTransforms = {};
+          let oldPuzzleCount = 0;
           worksheetCanvas.getObjects().forEach(obj => {
               if (obj.isGeneratedItem) {
+                  oldPuzzleCount++;
                   oldTransforms[obj.originalIndex] = {
                       left: obj.left, top: obj.top,
                       scaleX: obj.scaleX, scaleY: obj.scaleY,
@@ -2106,11 +3565,29 @@
                   };
               }
           });
-          const userAddedObjects = worksheetCanvas.getObjects().filter(o => !o.isGeneratedItem && !o.isBorder && !o.isBackground);
+
+          // Only preserve transforms if the number of puzzles hasn't changed AND canvas dimensions haven't changed
+          const shouldPreserveTransforms = (oldPuzzleCount === puzzlesData.length) && !canvasDimensionsChanged;
+
+          const userAddedObjects = worksheetCanvas.getObjects().filter(o => !o.isGeneratedItem && !o.isBorder && !o.isBackground && !o.isPageBorder && !o.isHeaderDesc && !o.isHeaderElement);
 
           // --- PRECISE REMOVAL ---
           const oldGeneratedItems = worksheetCanvas.getObjects().filter(o => o.isGeneratedItem);
           oldGeneratedItems.forEach(o => worksheetCanvas.remove(o));
+
+          // Remove old header/border objects if they exist
+          const oldHeaderObjects = worksheetCanvas.getObjects().filter(o =>
+              o.isPageBorder ||
+              o.isHeaderDesc ||
+              o.isHeaderElement
+          );
+          oldHeaderObjects.forEach(o => worksheetCanvas.remove(o));
+
+          // Create and add header (BEFORE the early return check)
+          const headerObjects = createHeaderGroup(worksheetCanvas);
+          if (headerObjects) {
+              headerObjects.forEach(obj => worksheetCanvas.add(obj));
+          }
 
           if (puzzlesData.length === 0) {
               worksheetCanvas.renderAll();
@@ -2121,9 +3598,15 @@
           const allPuzzleBlocks = await Promise.all(puzzlesData.map(async (puzzle, idx) => {
               const symbolSize = 40, textFontSize = 24, eqGap = 10, solutionRowGap = 8, innerPadding = 20;
 
-              const rowElements = []; 
+              const rowElements = [];
 
-              const titleText = new fabric.Text(`Puzzle ${idx + 1}`, { fontSize: 20, fontWeight: '600', fill: 'var(--app-accent-primary)', fontFamily: 'Fredoka' });
+              // Use custom puzzle label and starting number
+              // Get translated "Puzzle" based on content locale (currentLocale)
+              const defaultPuzzleLabel = translations[currentLocale]?.puzzle || translations.en?.puzzle || 'Puzzle';
+              const puzzleLabel = puzzleLabelInput.value.trim() || defaultPuzzleLabel;
+              const startNumber = parseInt(puzzleStartNumberInput.value, 10) || 1;
+              const puzzleNumber = startNumber + idx;
+              const titleText = new fabric.Text(`${puzzleLabel} ${puzzleNumber}`, { fontSize: 20, fontWeight: '600', fill: 'var(--app-accent-primary)', fontFamily: 'Fredoka' });
               rowElements.push(new fabric.Group([titleText], { isGeneratedItem: true, objectCaching: false }));
 
               for (const eq of puzzle.equations) {
@@ -2191,10 +3674,13 @@
                       originX: 'left', originY: 'top'
                   });
                   positionedElements.push(el);
-                  const spacing = (i === 0) ? 20 : (i < rowElements.length - 2 ? 15 : 25);
+                  // ADJUSTED: Tighter spacing for 4-equation puzzles (Hard mode)
+                  const numEquations = puzzle.equations.length;
+                  const baseSpacing = numEquations === 4 ? 12 : 15; // Reduce spacing for 4 equations
+                  const spacing = (i === 0) ? 18 : (i < rowElements.length - 2 ? baseSpacing : 22);
                   currentYInCard += el.height + spacing;
               });
-              const cardContentHeight = currentYInCard - 25 + innerPadding;
+              const cardContentHeight = currentYInCard - 22 + innerPadding;
 
               const backgroundRect = new fabric.Rect({
                   width: maxRowWidth + (2 * innerPadding), height: cardContentHeight,
@@ -2210,8 +3696,8 @@
                   isGeneratedItem: true, objectCaching: false, originalIndex: idx
               });
 
-              // --- RE-APPLY TRANSFORMS ---
-              if (oldTransforms[idx]) {
+              // --- RE-APPLY TRANSFORMS (only if puzzle count unchanged) ---
+              if (shouldPreserveTransforms && oldTransforms[idx]) {
                   finalGroup.set(oldTransforms[idx]);
               }
 
@@ -2228,11 +3714,23 @@
       }
 
       async function generateAnswerKeyFromCanvas() {
-          if (puzzlesData.length === 0) { showMessage("Please generate puzzles first.", "error"); return; }
-          
+          isGenerating = true;
+          if (puzzlesData.length === 0) {
+              showMessage(t('pleaseGeneratePuzzlesFirst'), "error");
+              isGenerating = false;
+              return;
+          }
+
+          // Check if canvas dimensions changed - if so, don't restore transforms
+          const oldCanvasWidth = answerKeyCanvas.getWidth();
+          const oldCanvasHeight = answerKeyCanvas.getHeight();
+          const canvasDimensionsChanged = (oldCanvasWidth !== currentCanvasConfig.width || oldCanvasHeight !== currentCanvasConfig.height);
+
           const oldTransforms = {};
+          let oldAnswerKeyCount = 0;
           answerKeyCanvas.getObjects().forEach(obj => {
               if (obj.isAnswerKeyItem) {
+                  oldAnswerKeyCount++;
                   oldTransforms[obj.originalIndex] = {
                       left: obj.left, top: obj.top,
                       scaleX: obj.scaleX, scaleY: obj.scaleY,
@@ -2242,11 +3740,15 @@
                   };
               }
           });
-          const userAddedObjects = answerKeyCanvas.getObjects().filter(o => !o.isAnswerKeyItem && !o.isBorder && !o.isBackground);
 
-          const objectsToRemove = answerKeyCanvas.getObjects().filter(o => o.isAnswerKeyItem || o.isBorder || o.isBackground);
+          // Only preserve transforms if the number of puzzles hasn't changed AND canvas dimensions haven't changed
+          const shouldPreserveTransforms = (oldAnswerKeyCount === puzzlesData.length) && !canvasDimensionsChanged;
+
+          const userAddedObjects = answerKeyCanvas.getObjects().filter(o => !o.isAnswerKeyItem && !o.isBorder && !o.isBackground && !o.isPageBorder && !o.isHeaderDesc && !o.isHeaderElement);
+
+          const objectsToRemove = answerKeyCanvas.getObjects().filter(o => o.isAnswerKeyItem || o.isBorder || o.isBackground || o.isPageBorder || o.isHeaderDesc || o.isHeaderElement);
           objectsToRemove.forEach(o => answerKeyCanvas.remove(o));
-          
+
           // --- CLONE DECORATIVES ---
           const background = worksheetCanvas.getObjects().find(o => o.isBackground);
           if (background) {
@@ -2264,12 +3766,36 @@
                   resolve();
               }));
           }
+          // Clone all header objects (borders, background, title, description)
+          const headerObjects = worksheetCanvas.getObjects().filter(o => o.isPageBorder || o.isHeaderDesc || o.isHeaderElement);
+          for (const obj of headerObjects) {
+              await new Promise(resolve => obj.clone(cloned => {
+                  // Preserve all properties
+                  cloned.set({
+                      isPageBorder: obj.isPageBorder,
+                      isHeaderDesc: obj.isHeaderDesc,
+                      isHeaderElement: obj.isHeaderElement
+                  });
+                  answerKeyCanvas.add(cloned);
+                  resolve();
+              }));
+          }
 
-          const allAnswerKeyBlocks = await Promise.all(puzzlesData.map(async (puzzle, idx) => {
+          // First pass: find the maximum width and height among all cards
+          let maxCardWidth = 0;
+          let maxCardHeight = 0;
+          
+          const allAnswerKeyContent = await Promise.all(puzzlesData.map(async (puzzle, idx) => {
               const symbolSize = 40, textFontSize = 24, eqGap = 10, solutionRowGap = 8, innerPadding = 20;
               const rowElements = [];
 
-              const titleText = new fabric.Text(`Puzzle ${idx + 1} - Answers`, { fontSize: 20, fontWeight: '600', fill: 'var(--app-accent-primary)', fontFamily: 'Fredoka' });
+              // Use custom puzzle label and starting number
+              // Get translated "Puzzle" based on content locale (currentLocale)
+              const defaultPuzzleLabel = translations[currentLocale]?.puzzle || translations.en?.puzzle || 'Puzzle';
+              const puzzleLabel = puzzleLabelInput.value.trim() || defaultPuzzleLabel;
+              const startNumber = parseInt(puzzleStartNumberInput.value, 10) || 1;
+              const puzzleNumber = startNumber + idx;
+              const titleText = new fabric.Text(`${puzzleLabel} ${puzzleNumber}`, { fontSize: 20, fontWeight: '600', fill: 'var(--app-accent-primary)', fontFamily: 'Fredoka' });
               rowElements.push(new fabric.Group([titleText], { isAnswerKeyItem: true, objectCaching: false }));
 
               for (const eq of puzzle.equations) {
@@ -2332,31 +3858,60 @@
                       originX: 'left', originY: 'top'
                   });
                   positionedElements.push(el);
-                  const spacing = (i === 0) ? 20 : (i < rowElements.length - 2 ? 15 : 25);
+                  // ADJUSTED: Tighter spacing for 4-equation puzzles (Hard mode) - matches worksheet canvas
+                  const numEquations = puzzle.equations.length;
+                  const baseSpacing = numEquations === 4 ? 12 : 15; // Reduce spacing for 4 equations
+                  const spacing = (i === 0) ? 18 : (i < rowElements.length - 2 ? baseSpacing : 22);
                   currentYInCard += el.height + spacing;
               });
-              const cardContentHeight = currentYInCard - 25 + innerPadding;
+              const cardContentHeight = currentYInCard - 22 + innerPadding;
 
+              // Store content data for later creation with uniform size
+              return {
+                  rowElements,
+                  positionedElements,
+                  width: maxRowWidth + (2 * innerPadding),
+                  height: cardContentHeight,
+                  idx
+              };
+          }));
+          
+          // Find maximum dimensions
+          allAnswerKeyContent.forEach(content => {
+              if (content.width > maxCardWidth) maxCardWidth = content.width;
+              if (content.height > maxCardHeight) maxCardHeight = content.height;
+          });
+          
+          // Second pass: create cards with uniform size
+          const allAnswerKeyBlocks = allAnswerKeyContent.map(content => {
               const backgroundRect = new fabric.Rect({
-                  width: maxRowWidth + (2 * innerPadding), height: cardContentHeight,
+                  width: maxCardWidth, 
+                  height: maxCardHeight,
                   fill: '#ffffff', stroke: '#dce1e6', strokeWidth: 1, rx: 8, ry: 8,
                   shadow: 'rgba(0,0,0,0.07) 2px 2px 5px',
                   originX: 'left', originY: 'top'
               });
               
-              const finalGroup = new fabric.Group([backgroundRect, ...positionedElements], {
+              // Center content vertically within the uniform card
+              const verticalOffset = (maxCardHeight - content.height) / 2;
+              content.positionedElements.forEach(el => {
+                  el.set({ top: el.top + verticalOffset });
+              });
+              
+              const finalGroup = new fabric.Group([backgroundRect, ...content.positionedElements], {
                   selectable: true, hasControls: true, hasBorders: true,
                   borderColor: 'var(--app-accent-primary)', cornerColor: 'var(--app-accent-primary)',
                   cornerSize: 10, transparentCorners: false, cornerStyle: 'circle',
-                  isAnswerKeyItem: true, objectCaching: false, originalIndex: idx
+                  isAnswerKeyItem: true, objectCaching: false, originalIndex: content.idx
               });
 
-              if (oldTransforms[idx]) {
-                  finalGroup.set(oldTransforms[idx]);
+              // Only apply old transforms if puzzle count unchanged
+              if (shouldPreserveTransforms && oldTransforms[content.idx]) {
+                  finalGroup.set(oldTransforms[content.idx]);
               }
 
               return finalGroup;
-          }));
+          });
           
           layoutAndRenderPuzzles(answerKeyCanvas, allAnswerKeyBlocks);
           enforceZOrder(answerKeyCanvas);
@@ -2364,11 +3919,13 @@
 
           answerKeyCanvas.renderAll();
           document.querySelector('.tab-button[data-tab="answerTabContent"]').click();
-          showMessage("Answer key generated!", "success");
-          
+          showMessage(t('answerKeyGenerated'), "success");
+
           isAnswerKeyGenerated = true;
           downloadAnswerKeyJpegBtn.disabled = false;
           downloadAnswerKeyPdfBtn.disabled = false;
+          isGenerating = false;
+          saveCanvasState();
       }
 
       async function getCanvasDataURL(canvasInstance, exportOpts) {
@@ -2413,94 +3970,138 @@
 
       async function downloadAsJpeg(canvasToExport, filename = 'download.jpeg') {
         if (!canvasToExport || canvasToExport.getObjects().length === 0) {
-            showMessage(`Cannot download, the canvas is empty.`, 'info');
+            showMessage(t('cannotDownloadEmptyCanvas'), 'info');
             return;
         }
-        showMessage('Preparing JPEG... Please wait.', 'info', 0);
-        const exportOptions = { multiplier: downloadMultiplier };
+        showMessage(t('preparingJPEG'), 'info', 0);
+        
         try {
+            // Save current state
+            const currentZoom = canvasToExport.getZoom();
+            const currentWidth = canvasToExport.getWidth();
+            const currentHeight = canvasToExport.getHeight();
+            
+            // Reset for export at exact dimensions
+            canvasToExport.setZoom(1);
+            canvasToExport.setDimensions({
+                width: currentCanvasConfig.width,
+                height: currentCanvasConfig.height
+            });
+            
+            const exportOptions = { multiplier: downloadMultiplier };
             const dataURL = await getCanvasDataURL(canvasToExport, exportOptions);
+            
+            // Restore display state
+            canvasToExport.setZoom(currentZoom);
+            canvasToExport.setDimensions({
+                width: currentWidth,
+                height: currentHeight
+            });
+            
             const link = document.createElement('a');
             link.download = filename; 
             link.href = dataURL;
             link.click();
-            showMessage('JPEG Download Initiated!', 'success', 3000);
+            showMessage(t('jpegDownloadInitiated'), 'success', 3000);
         } catch (error) {
-            showMessage(`Error preparing JPEG: ${error.message}`, 'error');
+            showMessage(t('errorPreparingJPEG') + ': ' + error.message, 'error');
         }
       }
 
       async function downloadAsPdf(canvasToExport, filename = 'download.pdf') {
         if (!canvasToExport || canvasToExport.getObjects().length === 0) {
-            showMessage(`Cannot download, the canvas is empty.`, 'info');
+            showMessage(t('cannotDownloadEmptyCanvas'), 'info');
             return;
         }
-        showMessage('Preparing PDF... Please wait.', 'info', 0);
+        showMessage(t('preparingPDF'), 'info', 0);
 
         try {
             const { jsPDF } = window.jspdf;
-            const orientation = canvasToExport.width > canvasToExport.height ? 'l' : 'p';
-            const pdf = new jsPDF({ orientation, unit: 'pt', format: [canvasToExport.width, canvasToExport.height] });
+            
+            // Save current state
+            const currentZoom = canvasToExport.getZoom();
+            const currentWidth = canvasToExport.getWidth();
+            const currentHeight = canvasToExport.getHeight();
+            
+            // Reset to actual size for export
+            canvasToExport.setZoom(1);
+            canvasToExport.setDimensions({
+                width: currentCanvasConfig.width,
+                height: currentCanvasConfig.height
+            });
+            
+            // Determine orientation based on actual dimensions
+            const orientation = currentCanvasConfig.width > currentCanvasConfig.height ? 'landscape' : 'portrait';
+            
+            // Create PDF with user-selected dimensions (exact for publishing)
+            const pdf = new jsPDF({ 
+                orientation: orientation, 
+                unit: 'pt', 
+                format: [currentCanvasConfig.width, currentCanvasConfig.height] 
+            });
 
             const exportOptions = { multiplier: downloadMultiplier };
             const imgData = await getCanvasDataURL(canvasToExport, exportOptions);
-            pdf.addImage(imgData, 'JPEG', 0, 0, canvasToExport.width, canvasToExport.height);
+            
+            // Add image at exact user-selected dimensions
+            pdf.addImage(imgData, 'JPEG', 0, 0, currentCanvasConfig.width, currentCanvasConfig.height);
+            
+            // Restore display state
+            canvasToExport.setZoom(currentZoom);
+            canvasToExport.setDimensions({
+                width: currentWidth,
+                height: currentHeight
+            });
             
             pdf.save(filename);
-            showMessage('PDF Downloaded!', 'success', 3000);
+            showMessage(t('pdfDownloaded'), 'success', 3000);
 
         } catch (error) {
-            showMessage(`Error creating PDF: ${error.message}`, "error");
+            showMessage(t('errorCreatingPDF') + ': ' + error.message, "error");
         }
       }
 
       // --- BORDER & BACKGROUND LOGIC ---
-      function loadBorderThemes() {
-          fetch('/api/borders/themes')
-              .then(res => {
-                  if (!res.ok) throw new Error('Failed to load border themes');
-                  return res.json();
-              })
-              .then(themes => {
-                  borderThemeSelect.innerHTML = '<option value="none">None</option>';
-                  themes.forEach(theme => {
-                      const opt = document.createElement("option");
-                      opt.value = theme;
-                      opt.textContent = theme.charAt(0).toUpperCase() + theme.slice(1);
-                      borderThemeSelect.appendChild(opt);
-                  });
-              })
-              .catch(err => {
-                  console.error("Error loading border themes:", err);
-                  showMessage("Could not load border themes.", 'error');
+      async function loadBorderThemes() {
+          try {
+              borderThemeSelect.innerHTML = `<option value="none">${t('none')}</option>`;
+              const response = await fetch(`/api/borders/themes`);
+              if (!response.ok) {
+                  console.error('Failed to load border themes');
+                  return;
+              }
+              const themes = await response.json();
+              themes.forEach(theme => {
+                  const displayName = theme.charAt(0).toUpperCase() + theme.slice(1);
+                  borderThemeSelect.innerHTML += `<option value="${theme}">${displayName}</option>`;
               });
+          } catch (error) {
+              console.error('Error loading border themes:', error);
+          }
       }
 
-      function loadBackgroundThemes() {
-          fetch('/api/backgrounds/themes')
-              .then(res => {
-                  if (!res.ok) throw new Error('Failed to load background themes');
-                  return res.json();
-              })
-              .then(themes => {
-                  backgroundThemeSelect.innerHTML = '<option value="none">None</option>';
-                  themes.forEach(theme => {
-                      const opt = document.createElement("option");
-                      opt.value = theme;
-                      opt.textContent = theme.charAt(0).toUpperCase() + theme.slice(1);
-                      backgroundThemeSelect.appendChild(opt);
-                  });
-              })
-              .catch(err => {
-                  console.error("Error loading background themes:", err);
-                  showMessage("Could not load background themes.", 'error');
+      async function loadBackgroundThemes() {
+          try {
+              backgroundThemeSelect.innerHTML = `<option value="none">${t('none')}</option>`;
+              const response = await fetch(`/api/backgrounds/themes`);
+              if (!response.ok) {
+                  console.error('Failed to load background themes');
+                  return;
+              }
+              const themes = await response.json();
+              themes.forEach(theme => {
+                  const displayName = theme.charAt(0).toUpperCase() + theme.slice(1);
+                  backgroundThemeSelect.innerHTML += `<option value="${theme}">${displayName}</option>`;
               });
+          } catch (error) {
+              console.error('Error loading background themes:', error);
+          }
       }
 
-      function loadBorderImages() {
+      async function loadBorderImages() {
           const theme = borderThemeSelect.value;
           if (theme === 'none') {
-              borderDictionary.innerHTML = '<p class="dictionary-message">Select a theme to see borders.</p>';
+              borderDictionary.innerHTML = `<p class="dictionary-message">${t('selectThemeToSeeBorders')}</p>`;
               const existingBorder = worksheetCanvas.getObjects().find(obj => obj.isBorder);
               if (existingBorder) {
                   worksheetCanvas.remove(existingBorder).renderAll();
@@ -2514,22 +4115,26 @@
               return;
           }
 
-          borderDictionary.innerHTML = `<p class="dictionary-message">Loading ${theme} borders...</p>`;
-          fetch(`/api/borders/images?theme=${theme}`)
-              .then(res => { if (!res.ok) throw new Error(`Failed to load images for border theme`); return res.json(); })
-              .then(images => {
-                  renderBorderThumbnails(images);
-              })
-              .catch(err => {
-                  console.error('Error loading border images:', err);
-                  borderDictionary.innerHTML = '<p class="dictionary-message">Error loading borders.</p>';
-              });
+          borderDictionary.innerHTML = `<p class="dictionary-message">${t('loadingBorders')}</p>`;
+
+          const apiUrl = `/api/borders/images?theme=${theme}`;
+
+          try {
+              const response = await fetch(apiUrl);
+              if (!response.ok) throw new Error('Failed to load borders');
+              const data = await response.json();
+              const images = data.images || data;
+              renderBorderThumbnails(images);
+          } catch (err) {
+              console.error('Error loading border images:', err);
+              borderDictionary.innerHTML = `<p class="dictionary-message">${t('errorLoadingBorders')}</p>`;
+          }
       }
 
-      function loadBackgroundImages() {
+      async function loadBackgroundImages() {
           const theme = backgroundThemeSelect.value;
           if (theme === 'none') {
-              backgroundDictionary.innerHTML = '<p class="dictionary-message">Select a theme for backgrounds.</p>';
+              backgroundDictionary.innerHTML = `<p class="dictionary-message">${t('selectThemeForBackgrounds')}</p>`;
               [worksheetCanvas, answerKeyCanvas].forEach(c => {
                    const existingBg = c.getObjects().find(obj => obj.isBackground);
                    if (existingBg) c.remove(existingBg).renderAll();
@@ -2539,26 +4144,33 @@
               return;
           }
 
-          backgroundDictionary.innerHTML = `<p class="dictionary-message">Loading ${theme} backgrounds...</p>`;
-          fetch(`/api/backgrounds/images?theme=${theme}`)
-              .then(res => { if (!res.ok) throw new Error(`Failed to load images for background theme`); return res.json(); })
-              .then(images => {
-                  renderBackgroundThumbnails(images);
-              })
-              .catch(err => {
-                  console.error('Error loading background images:', err);
-                  backgroundDictionary.innerHTML = '<p class="dictionary-message">Error loading backgrounds.</p>';
-              });
+          backgroundDictionary.innerHTML = `<p class="dictionary-message">${t('loadingBackgrounds')}</p>`;
+
+          const apiUrl = `/api/backgrounds/images?theme=${theme}`;
+
+          try {
+              const response = await fetch(apiUrl);
+              if (!response.ok) throw new Error('Failed to load backgrounds');
+              const data = await response.json();
+              const images = data.images || data;
+              renderBackgroundThumbnails(images);
+          } catch (err) {
+              console.error('Error loading background images:', err);
+              backgroundDictionary.innerHTML = `<p class="dictionary-message">${t('errorLoadingBackgrounds')}</p>`;
+          }
       }
 
       function renderBorderThumbnails(borders) {
           borderDictionary.innerHTML = "";
-          if (borders.length === 0) { borderDictionary.innerHTML = '<p class="dictionary-message">No borders in this theme.</p>'; return; }
+          if (borders.length === 0) { borderDictionary.innerHTML = `<p class="dictionary-message">${t('noBordersInTheme')}</p>`; return; }
           borders.forEach(border => {
               const item = document.createElement("div");
               item.className = "border-thumbnail-item";
-              item.innerHTML = `<img src="${border.path}" alt="${border.name}" loading="lazy" />`;
+              // Use thumbnail for fast preview, full path when applying to canvas
+              const thumbSrc = border.thumbnail || border.path;
+              item.innerHTML = `<img src="${thumbSrc}" alt="${border.name}" loading="lazy" />`;
               item.onclick = () => {
+                  // Use original full-res for canvas (professional quality)
                   addBorderToCanvas(border.path);
                   document.querySelectorAll('#borderDictionary .border-thumbnail-item.selected').forEach(el => el.classList.remove('selected'));
                   item.classList.add('selected');
@@ -2569,12 +4181,15 @@
 
       function renderBackgroundThumbnails(backgrounds) {
           backgroundDictionary.innerHTML = "";
-          if (backgrounds.length === 0) { backgroundDictionary.innerHTML = '<p class="dictionary-message">No backgrounds in this theme.</p>'; return; }
+          if (backgrounds.length === 0) { backgroundDictionary.innerHTML = `<p class="dictionary-message">${t('noBackgroundsInTheme')}</p>`; return; }
           backgrounds.forEach(bg => {
               const item = document.createElement("div");
               item.className = "border-thumbnail-item";
-              item.innerHTML = `<img src="${bg.path}" alt="${bg.name}" loading="lazy" />`;
+              // Use thumbnail for fast preview, full path when applying to canvas
+              const thumbSrc = bg.thumbnail || bg.path;
+              item.innerHTML = `<img src="${thumbSrc}" alt="${bg.name}" loading="lazy" />`;
               item.onclick = () => {
+                  // Use original full-res for canvas (professional quality)
                   addBackgroundToCanvas(bg.path);
                   document.querySelectorAll('#backgroundDictionary .border-thumbnail-item.selected').forEach(el => el.classList.remove('selected'));
                   item.classList.add('selected');
@@ -2583,59 +4198,77 @@
           });
       }
 
-      function addBorderToCanvas(path) {
+      // Unified overlay function for borders and backgrounds with proper centering
+      async function addOverlayToCanvas(path, propName, opacitySlider) {
           if (!worksheetCanvas || !answerKeyCanvas) return;
-          
+
+          const img = await new Promise((resolve) =>
+              fabric.Image.fromURL(path, resolve, { crossOrigin: 'anonymous' })
+          );
+
+          if (!img) {
+              showMessage(`Failed to load ${propName === 'isBorder' ? 'border' : 'background'} image.`, 'error');
+              return;
+          }
+
+          const applyOverlay = (canvas, isEditable) => {
+              // Remove existing overlay of the same type
+              const existing = canvas.getObjects().find(obj => obj[propName]);
+              if (existing) canvas.remove(existing);
+
+              // Use ACTUAL canvas dimensions from currentCanvasConfig, not display dimensions
+              const actualWidth = currentCanvasConfig.width;
+              const actualHeight = currentCanvasConfig.height;
+
+              img.clone((clonedImg) => {
+                  // Scale to 70% of ACTUAL canvas height while preserving aspect ratio
+                  const targetHeight = actualHeight * 0.7;
+                  const scaleFactor = targetHeight / img.height;
+
+                  clonedImg.set({
+                      [propName]: true,
+                      originX: 'center',
+                      originY: 'center',
+                      left: actualWidth / 2,
+                      top: actualHeight / 2,
+                      scaleX: scaleFactor,
+                      scaleY: scaleFactor,
+                      selectable: isEditable,
+                      evented: isEditable,
+                      opacity: parseFloat(opacitySlider.value),
+                      borderColor: 'var(--app-accent-primary)',
+                      cornerColor: 'var(--app-accent-primary)',
+                      cornerSize: 10,
+                      transparentCorners: false,
+                      cornerStyle: 'circle',
+                      objectCaching: false
+                  });
+
+                  canvas.add(clonedImg);
+                  // FIXED: Bring to front so user can select it immediately
+                  clonedImg.bringToFront();
+                  canvas.renderAll();
+                  console.log(`[ADD OVERLAY] ${propName} added and brought to front`);
+              });
+          };
+
+          // Apply to active canvas
           const activeCanvas = getActiveCanvas();
-          const existingBorder = activeCanvas.getObjects().find(obj => obj.isBorder);
-          if (existingBorder) activeCanvas.remove(existingBorder);
+          applyOverlay(activeCanvas, true);
 
-          fabric.Image.fromURL(path, (img) => {
-              if (!img) { showMessage('Failed to load border image.', 'error'); return; }
+          // Enable opacity slider
+          opacitySlider.disabled = false;
 
-              const borderConfig = {
-                  left: activeCanvas.width / 2, top: activeCanvas.height / 2,
-                  originX: 'center', originY: 'center',
-                  selectable: true, evented: true, isBorder: true,
-                  opacity: parseFloat(borderOpacitySlider.value),
-                  borderColor: 'var(--app-accent-primary)', cornerColor: 'var(--app-accent-primary)',
-                  cornerSize: 10, transparentCorners: false, cornerStyle: 'circle',
-                  objectCaching: false
-              };
-              img.set(borderConfig).scaleToWidth(activeCanvas.width);
-              activeCanvas.add(img);
-              enforceZOrder(activeCanvas);
-              activeCanvas.renderAll();
-              borderOpacitySlider.disabled = false;
-          }, { crossOrigin: 'anonymous' });
+          const overlayType = propName === 'isBorder' ? 'Border' : 'Background';
+          showMessage(`${overlayType} added.`, 'success', 1500);
+      }
+
+      function addBorderToCanvas(path) {
+          addOverlayToCanvas(path, 'isBorder', borderOpacitySlider);
       }
 
       function addBackgroundToCanvas(path) {
-          if (!worksheetCanvas || !answerKeyCanvas) return;
-
-          const activeCanvas = getActiveCanvas();
-          const existing = activeCanvas.getObjects().find(obj => obj.isBackground);
-          if (existing) activeCanvas.remove(existing);
-
-          fabric.Image.fromURL(path, (img) => {
-              if (!img) { showMessage('Failed to load background image.', 'error'); return; }
-
-              const config = {
-                  left: activeCanvas.width / 2, top: activeCanvas.height / 2,
-                  originX: 'center', originY: 'center',
-                  selectable: true, evented: true, isBackground: true,
-                  opacity: parseFloat(backgroundOpacitySlider.value),
-                  borderColor: 'var(--app-accent-primary)', cornerColor: 'var(--app-accent-primary)',
-                  cornerSize: 10, transparentCorners: false, cornerStyle: 'circle',
-                  objectCaching: false
-              };
-              img.set(config).scaleToWidth(activeCanvas.width);
-              activeCanvas.add(img);
-              enforceZOrder(activeCanvas);
-              activeCanvas.renderAll();
-              backgroundOpacitySlider.disabled = false;
-              showMessage('Background added.', 'success', 1500);
-          }, { crossOrigin: 'anonymous' });
+          addOverlayToCanvas(path, 'isBackground', backgroundOpacitySlider);
       }
 
       function applyBackgroundOpacity() {
@@ -2701,13 +4334,13 @@
 
         // Reset borders
         borderThemeSelect.value = "none";
-        borderDictionary.innerHTML = '<p class="dictionary-message">Select a theme to see borders.</p>';
+        borderDictionary.innerHTML = `<p class="dictionary-message">${t('selectThemeToSeeBorders')}</p>`;
         borderOpacitySlider.value = 1;
         borderOpacitySlider.disabled = true;
 
         // Reset backgrounds
         backgroundThemeSelect.value = "none";
-        backgroundDictionary.innerHTML = '<p class="dictionary-message">Select a theme for backgrounds.</p>';
+        backgroundDictionary.innerHTML = `<p class="dictionary-message">${t('selectThemeForBackgrounds')}</p>`;
         backgroundOpacitySlider.value = 1;
         backgroundOpacitySlider.disabled = true;
 
@@ -2737,7 +4370,7 @@
         if (generateDropdownContent) generateDropdownContent.style.display = 'none';
         if (downloadDropdownContent) downloadDropdownContent.style.display = 'none';
 
-        showMessage("All settings cleared and canvases reset.", "success", 2000);
+        showMessage(t('allSettingsCleared'), "success", 2000);
       }
 
 
@@ -2760,6 +4393,8 @@
 
 
       // --- Event Listeners ---
+      // Setup accordions
+      const accordionButtons = document.querySelectorAll('.accordion-button');
       accordionButtons.forEach(button => {
           button.addEventListener('click', () => {
               const content = button.nextElementSibling;
@@ -2774,16 +4409,103 @@
             accordionButtons[0].nextElementSibling.classList.add('active');
           }
       }
+      
+      // Initialize image library language selector (sidebar)
+      // This selector ONLY changes the image library language, NOT the UI language
+      if (languageSelect) {
+          languageSelect.value = currentLocale;
+          languageSelect.addEventListener('change', async () => {
+              const oldLocale = currentLocale;
+              currentLocale = languageSelect.value;
+              window.currentLocale = currentLocale; // Update global locale
+              console.log('Image library language changed to:', currentLocale);
+
+              // DO NOT call initializeTranslations() - UI language is controlled by header selector
+
+              // Update puzzle label placeholder to match the new content language
+              const newPuzzleTranslation = translations[currentLocale]?.puzzle || translations.en?.puzzle || 'Puzzle';
+              if (puzzleLabelInput) {
+                  puzzleLabelInput.placeholder = newPuzzleTranslation;
+                  // If the input is empty, it will use the new translated default
+              }
+
+              // Clear cached theme images to force reload with new translations
+              allThemeImages = {};
+
+              // Reload themes with new language
+              await loadThemes();
+              
+              // Update selected images with new translations if any are selected
+              if (userSelectedImagePool.length > 0) {
+                  // Store paths to re-fetch with new translations
+                  const selectedPaths = userSelectedImagePool.map(img => img.path);
+                  userSelectedImagePool = []; // Clear old data
+                  
+                  // Re-fetch the images with new locale to get updated translations
+                  for (const path of selectedPaths) {
+                      // Extract filename from path for searching
+                      const filename = path.split('/').pop().replace('.png', '');
+                      try {
+                          const response = await fetch(`/api/images?search=${encodeURIComponent(filename)}&locale=${currentLocale}`);
+                          if (response.ok) {
+                              const data = await response.json();
+                              const results = data.images || data;
+                              const matchingImg = results.find(img => img.path === path);
+                              if (matchingImg) {
+                                  userSelectedImagePool.push({ path: matchingImg.path, word: matchingImg.word, name: matchingImg.name });
+                              }
+                          }
+                      } catch (err) {
+                          console.error('Error updating image translation:', err);
+                      }
+                  }
+                  renderSelectedImagePoolPreview();
+              }
+              
+              // Clear and reload dictionary with new translations
+              loadDictionaryImages();
+          });
+      }
+
+      // ============================================
+      // ZOOM FUNCTIONALITY
+      // ============================================
+
+      function updateZoomDisplay() {
+          const percentage = Math.round(userZoomLevel * 100);
+          zoomPercentage.textContent = `${percentage}%`;
+      }
+
+      function zoomIn() {
+          // Increase zoom by 25%, max 300%
+          userZoomLevel = Math.min(userZoomLevel + 0.25, 3.0);
+          updateZoomDisplay();
+          updateCanvasDisplayDimensions(currentCanvasConfig.width, currentCanvasConfig.height);
+      }
+
+      function zoomOut() {
+          // Decrease zoom by 25%, min 25%
+          userZoomLevel = Math.max(userZoomLevel - 0.25, 0.25);
+          updateZoomDisplay();
+          updateCanvasDisplayDimensions(currentCanvasConfig.width, currentCanvasConfig.height);
+      }
+
+      function resetZoom() {
+          // Reset to 100%
+          userZoomLevel = 1.0;
+          updateZoomDisplay();
+          updateCanvasDisplayDimensions(currentCanvasConfig.width, currentCanvasConfig.height);
+      }
 
       generateWorksheetBtn.addEventListener("click", async () => {
         if (generateDropdownContent) generateDropdownContent.style.display = 'none';
         try { await generatePuzzlesLogic(); }
-        catch (e) { console.error("Error generating worksheet:", e); showMessage("Error during generation: " + e.message, 'error'); }
+        catch (e) { console.error("Error generating worksheet:", e); showMessage(t('errorDuringGeneration') + ': ' + e.message, 'error'); }
       });
       generateAnswerKeyBtn.addEventListener("click", async () => {
         if (generateDropdownContent) generateDropdownContent.style.display = 'none';
         try { await generateAnswerKeyFromCanvas(); }
-        catch (e) { console.error("Error generating answer key:", e); showMessage("Error during generation: " + e.message, 'error'); }
+        catch (e) { console.error("Error generating answer key:", e); showMessage(t('errorDuringGeneration') + ': ' + e.message, 'error'); }
       });
       
       downloadWorksheetJpegBtn.addEventListener("click", () => downloadAsJpeg(worksheetCanvas, 'worksheet.jpeg'));
@@ -2792,6 +4514,19 @@
       downloadAnswerKeyPdfBtn.addEventListener("click", () => downloadAsPdf(answerKeyCanvas, 'answer_key.pdf'));
 
       clearBtn.addEventListener("click", clearAll);
+
+      // Zoom Controls
+      zoomInBtn.addEventListener('click', zoomIn);
+      zoomOutBtn.addEventListener('click', zoomOut);
+      zoomResetBtn.addEventListener('click', resetZoom);
+
+      // History Controls (Undo/Redo)
+      const undoBtn = document.getElementById('undoBtn');
+      const redoBtn = document.getElementById('redoBtn');
+      const unlockAllBtn = document.getElementById('unlockAllBtn');
+      const unlockAllControls = document.getElementById('unlockAllControls');
+      if (undoBtn) undoBtn.addEventListener('click', undo);
+      if (redoBtn) redoBtn.addEventListener('click', redo);
 
       showAnswersCheck.onchange = renderPuzzleCanvases; 
       difficultySelect.onchange = () => { /* No direct action, handled by generatePuzzlesLogic */ };
@@ -2803,9 +4538,13 @@
       // Toolbar Listeners
       layersBtn.addEventListener('click', (e) => { e.stopPropagation(); togglePopover(layersDropdown); });
       alignBtn.addEventListener('click', (e) => { e.stopPropagation(); togglePopover(alignDropdown); });
+      toolbarBringToFrontBtn.addEventListener('click', bringObjectToFront);
       toolbarBringForwardBtn.addEventListener('click', bringObjectForward);
       toolbarSendBackwardBtn.addEventListener('click', sendObjectBackward);
+      toolbarSendToBackBtn.addEventListener('click', sendObjectToBack);
+      toolbarLockBtn.addEventListener('click', toggleLockSelectedObjects);
       toolbarDeleteBtn.addEventListener('click', deleteSelectedObjects);
+      unlockAllBtn.addEventListener('click', unlockAllObjects);
       document.querySelectorAll('#alignDropdown button').forEach(button => {
           button.addEventListener('click', (e) => {
               const type = e.currentTarget.id.replace('Btn', '');
@@ -2819,7 +4558,26 @@
       backgroundThemeSelect.addEventListener("change", loadBackgroundImages);
       backgroundOpacitySlider.addEventListener('input', applyBackgroundOpacity);
 
+      // Header listeners
+      showHeaderCheckbox.addEventListener('change', () => {
+          headerControls.style.display = showHeaderCheckbox.checked ? 'block' : 'none';
+          renderPuzzleCanvases();
+      });
+      headerTitleInput.addEventListener('input', renderPuzzleCanvases);
+      headerDescriptionInput.addEventListener('input', renderPuzzleCanvases);
+
       // --- Initial Load ---
+      // Set language if provided
+      if (languageSelect) {
+          languageSelect.value = currentLocale;
+      }
+
+      // Set initial puzzle label placeholder based on currentLocale
+      if (puzzleLabelInput) {
+          const initialPuzzleTranslation = translations[currentLocale]?.puzzle || translations.en?.puzzle || 'Puzzle';
+          puzzleLabelInput.placeholder = initialPuzzleTranslation;
+      }
+
       pageColorInput.value = '#FFFFFF'; 
       worksheetCanvas = initializeCanvas(worksheetCanvasElement);
       answerKeyCanvas = initializeCanvas(answerKeyCanvasElement);
@@ -2828,15 +4586,231 @@
       setupCanvasEventListeners(answerKeyCanvas);
 
       setupGlobalKeydownListener();
-      updateCanvasDisplayDimensions(currentCanvasConfig.width, currentCanvasConfig.height);
+      
+      // Delay canvas sizing to ensure layout is ready
+      setTimeout(() => {
+          updateCanvasDisplayDimensions(currentCanvasConfig.width, currentCanvasConfig.height);
+      }, 100);
 
-      loadThemes(); 
-      loadBorderThemes();
-      loadBackgroundThemes();
-      initializeAppUI(); 
-      renderPuzzleCanvases(); 
+      loadThemes();
+
+      // Generate initial default worksheet function
+      async function generateInitialWorksheet() {
+          try {
+              // Wait for themes to be loaded
+              await new Promise(resolve => {
+                  const checkThemes = () => {
+                      if (worksheetImageThemeEl && worksheetImageThemeEl.options.length > 1) {
+                          resolve();
+                      } else {
+                          setTimeout(checkThemes, 100);
+                      }
+                  };
+                  checkThemes();
+              });
+
+              // Add a small delay to ensure everything is fully initialized
+              await new Promise(resolve => setTimeout(resolve, 200));
+
+              // Set default values: Animals theme (random), Letter portrait, Medium (3 symbols), 2 exercises, Addition & Subtraction, Min 1, Max 9
+              worksheetImageThemeEl.value = 'animals';
+              pageSizeSelect.value = '612x792'; // Letter portrait
+              difficultySelect.value = 'medium';
+              numExercisesEl.value = 2;
+              operationsSelect.value = 'addsub';
+              minValueEl.value = 1;
+              maxValueEl.value = 9;
+
+              // Apply page size
+              const selectedOption = pageSizeSelect.options[pageSizeSelect.selectedIndex];
+              const [w, h] = selectedOption.value.split('x').map(Number);
+              currentCanvasConfig.width = w;
+              currentCanvasConfig.height = h;
+              updateCanvasDisplayDimensions(w, h);
+
+              // Set theme selection mode
+              const selectThemeRadio = $('selectTheme');
+              if (selectThemeRadio) {
+                  selectThemeRadio.checked = true;
+                  updateImageSelectionUI();
+              }
+
+              // Generate worksheet
+              await generatePuzzlesLogic();
+
+          } catch (error) {
+              console.error('Error generating initial worksheet:', error);
+          }
+      }
+
+      // Initialize BulletproofLoader for border and background themes
+      if (window.BulletproofLoader) {
+          window.BulletproofLoader.init({
+              borderSelect: document.getElementById('borderThemeSelect'),
+              backgroundSelect: document.getElementById('backgroundThemeSelect')
+          }).then(async () => {
+              initializeAppUI();
+              renderPuzzleCanvases();
+
+              // Generate initial default worksheet after everything is loaded
+              await generateInitialWorksheet();
+          }).catch(err => {
+              console.error('BulletproofLoader failed:', err);
+              initializeAppUI();
+              renderPuzzleCanvases();
+          });
+      } else {
+          // Fallback if BulletproofLoader not available
+          loadBorderThemes();
+          loadBackgroundThemes();
+          initializeAppUI();
+          renderPuzzleCanvases();
+
+          // Still try to generate initial worksheet
+          generateInitialWorksheet().catch(err => console.warn('Initial worksheet generation failed:', err));
+      }
 
     });
-  </script>
+
+    // Check if user is on free tier
+    function isFreeTier() {
+        const urlParams = new URLSearchParams(window.location.search);
+        return urlParams.get('tier') === 'free';
+    }
+
+    // Add watermark to canvas before export
+    function addWatermarkToCanvas(canvas) {
+        if (!isFreeTier()) return;
+        
+        const watermarkText = new fabric.Text('FREE VERSION - LessonCraftStudio.com', {
+            fontSize: 40,
+            fill: 'rgba(0, 0, 0, 0.2)',
+            angle: -45,
+            left: canvas.width / 2,
+            top: canvas.height / 2,
+            originX: 'center',
+            originY: 'center',
+            selectable: false,
+            evented: false,
+            fontFamily: 'Arial, sans-serif',
+            fontWeight: 'bold'
+        });
+        
+        // Add multiple watermarks across the canvas
+        const watermarks = [];
+        const spacing = 250;
+        for (let x = 0; x < canvas.width; x += spacing) {
+            for (let y = 0; y < canvas.height; y += spacing) {
+                const wm = new fabric.Text('FREE VERSION', {
+                    fontSize: 20,
+                    fill: 'rgba(0, 0, 0, 0.15)',
+                    angle: -45,
+                    left: x,
+                    top: y,
+                    selectable: false,
+                    evented: false,
+                    fontFamily: 'Arial, sans-serif'
+                });
+                watermarks.push(wm);
+                canvas.add(wm);
+            }
+        }
+        
+        // Add main watermark
+        canvas.add(watermarkText);
+        canvas.renderAll();
+        
+        return { mainWatermark: watermarkText, watermarks };
+    }
+
+    // Remove watermark after export
+    function removeWatermarkFromCanvas(canvas, watermarkData) {
+        if (!watermarkData) return;
+        
+        if (watermarkData.mainWatermark) {
+            canvas.remove(watermarkData.mainWatermark);
+        }
+        if (watermarkData.watermarks) {
+            watermarkData.watermarks.forEach(wm => canvas.remove(wm));
+        }
+        canvas.renderAll();
+    }
+
+    // Override the original downloadPDF function
+    const originalDownloadPDF = typeof downloadPDF !== 'undefined' ? downloadPDF : null;
+    if (originalDownloadPDF) {
+        window.downloadPDF = async function(canvasToExport, fileName) {
+            if (!canvasToExport || canvasToExport.getObjects().length === 0) {
+                return showMessage(t('pleaseGenerateContentFirst'), 'error');
+            }
+            showMessage(t('preparingPDF'), 'info', 0);
+            
+            // Add watermark if free tier
+            const watermarkData = addWatermarkToCanvas(canvasToExport);
+            
+            try {
+                const { jsPDF } = window.jspdf;
+                const orientation = canvasToExport.width > canvasToExport.height ? 'l' : 'p';
+                const pdf = new jsPDF({ 
+                    orientation, 
+                    unit: 'pt', 
+                    format: [canvasToExport.width, canvasToExport.height] 
+                });
+
+                const exportOptions = { 
+                    multiplier: typeof downloadMultiplier !== 'undefined' ? downloadMultiplier : 6, 
+                    applyGrayscale: typeof grayscaleToggle !== 'undefined' && grayscaleToggle.checked 
+                };
+                
+                const dataURL = await getCanvasDataURLWithOptions(canvasToExport, exportOptions);
+                pdf.addImage(dataURL, 'JPEG', 0, 0, canvasToExport.width, canvasToExport.height);
+                
+                pdf.save(fileName);
+                showMessage(t('pdfDownloaded'), 'success');
+            } catch(e) { 
+                showMessage(t('errorCreatingPDF'), 'error'); 
+                console.error(e); 
+            } finally {
+                // Remove watermark after export
+                removeWatermarkFromCanvas(canvasToExport, watermarkData);
+            }
+        };
+    }
+
+    // Override the original downloadJPEG function if it exists
+    const originalDownloadJPEG = typeof downloadJPEG !== 'undefined' ? downloadJPEG : null;
+    if (originalDownloadJPEG) {
+        window.downloadJPEG = async function(canvasToExport, fileName) {
+            if (!canvasToExport || canvasToExport.getObjects().length === 0) {
+                return showMessage(t('pleaseGenerateWorksheetFirst'), 'error');
+            }
+            showMessage(t('preparingJPEG'), 'info', 0);
+            
+            // Add watermark if free tier
+            const watermarkData = addWatermarkToCanvas(canvasToExport);
+            
+            try {
+                const exportOptions = { 
+                    multiplier: typeof downloadMultiplier !== 'undefined' ? downloadMultiplier : 6, 
+                    applyGrayscale: typeof grayscaleToggle !== 'undefined' && grayscaleToggle.checked 
+                };
+                const dataURL = await getCanvasDataURLWithOptions(canvasToExport, exportOptions);
+                
+                const link = document.createElement('a');
+                link.href = dataURL;
+                link.download = fileName;
+                link.click();
+                showMessage(t('jpegDownloadInitiated'), 'success');
+            } catch(e) { 
+                showMessage(t('errorPreparingJPEG'), 'error'); 
+                console.error(e); 
+            } finally {
+                // Remove watermark after export
+                removeWatermarkFromCanvas(canvasToExport, watermarkData);
+            }
+        };
+    }
+
+</script>
 </body>
 </html>

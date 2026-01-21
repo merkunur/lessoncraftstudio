@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <meta name="robots" content="noindex, nofollow">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title data-translate="codeaddition.page.title">Image Addition Worksheet Generator</title>
   
@@ -4475,7 +4476,9 @@ async function downloadPDF(canvasInstance, baseFileName) {
                     const item = document.createElement('div');
                     item.className = 'thumbnail-item';
                     const displayName = imgData.name || imgData.word;
-                    item.innerHTML = `<div class="thumbnail-image-container"><img src="${imgData.path}" alt="${displayName}" /></div><span class="thumbnail-label">${displayName}</span>`;
+                    // Use small thumbnail for fast sidebar preview (no text label)
+                    const thumbSrc = imgData.thumbnail || `/api/thumbnail?path=${encodeURIComponent(imgData.path)}&w=120&q=70`;
+                    item.innerHTML = `<div class="thumbnail-image-container"><img src="${thumbSrc}" alt="${displayName}" /></div>`;
                     
                     item.onclick = () => {
                         const currentActiveCanvas = getActiveCanvas();

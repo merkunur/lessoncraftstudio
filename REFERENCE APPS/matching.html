@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8" />
+    <meta name="robots" content="noindex, nofollow">
     <title>MatchUp Maker</title>
     <!-- Load complete professional translations -->
     <script src="js/translations-matchup-maker.js"></script>
@@ -2023,8 +2024,11 @@
             
             images.forEach(asset => {
                 const item = document.createElement("div"); item.className = "thumbnail-item";
-                item.innerHTML = `<img src="${asset.path}" alt="${asset.name}" loading="lazy" />`;
+                // Use small thumbnail for sidebar preview
+                const thumbSrc = asset.thumbnail || asset.path;
+                item.innerHTML = `<img src="${thumbSrc}" alt="${asset.name}" loading="lazy" />`;
                 item.onclick = () => {
+                    // Use original full-res for canvas (professional quality)
                     addFunc(asset.path);
                     dictionaryEl.querySelectorAll('.thumbnail-item.selected').forEach(el => el.classList.remove('selected'));
                     item.classList.add('selected');

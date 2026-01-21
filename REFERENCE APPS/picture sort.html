@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <meta name="robots" content="noindex, nofollow">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title data-translate="picture.sort.page.title">Picture-Sort Worksheet Generator</title>
   <script src="js/translations-picture-sort.js?v=2"></script>
@@ -2550,8 +2551,11 @@ document.addEventListener('DOMContentLoaded', () => {
                 const i = document.createElement("div");
                 i.className = "border-thumbnail-item";
                 const imgPath = d.url || d.path;
-                i.innerHTML = `<img src="${imgPath}" alt="${d.name}" />`;
+                // Use thumbnail for fast sidebar preview
+                const thumbSrc = d.thumbnail || `/api/thumbnail?path=${encodeURIComponent(imgPath)}&w=120&q=70`;
+                i.innerHTML = `<img src="${thumbSrc}" alt="${d.name}" />`;
                 i.onclick = () => {
+                    // Use original full-res for canvas (professional quality)
                     addBorderToCanvas(imgPath);
                     document.querySelectorAll('#borderDictionary .border-thumbnail-item.selected').forEach(el => el.classList.remove('selected'));
                     i.classList.add('selected');
@@ -2583,8 +2587,11 @@ document.addEventListener('DOMContentLoaded', () => {
                 const i = document.createElement("div");
                 i.className = "border-thumbnail-item";
                 const imgPath = d.url || d.path;
-                i.innerHTML = `<img src="${imgPath}" alt="${d.name}" />`;
+                // Use thumbnail for fast sidebar preview
+                const thumbSrc = d.thumbnail || `/api/thumbnail?path=${encodeURIComponent(imgPath)}&w=120&q=70`;
+                i.innerHTML = `<img src="${thumbSrc}" alt="${d.name}" />`;
                 i.onclick = () => {
+                    // Use original full-res for canvas (professional quality)
                     addBackgroundToCanvas(imgPath);
                     document.querySelectorAll('#backgroundDictionary .border-thumbnail-item.selected').forEach(el => el.classList.remove('selected'));
                     i.classList.add('selected');

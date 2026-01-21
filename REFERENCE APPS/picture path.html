@@ -1,7 +1,25 @@
 <!DOCTYPE html>
+<!--
+  ╔══════════════════════════════════════════════════════════════════════════╗
+  ║  🔒 PROTECTED: LPF MAZE ALGORITHM v1.0 - IMPLEMENTED 2026-01-09          ║
+  ║                                                                          ║
+  ║  This file contains the PROFESSIONAL maze generation algorithm using     ║
+  ║  Longest Path First (LPF) / Two-Pass Farthest Point Algorithm.           ║
+  ║                                                                          ║
+  ║  ⛔ DO NOT OVERWRITE WITH OLDER VERSIONS!                                 ║
+  ║                                                                          ║
+  ║  Before ANY deployment, verify this marker exists. If deploying from     ║
+  ║  another source, it MUST contain "generatePerfectMaze" and               ║
+  ║  "findLongestMazePath" functions.                                        ║
+  ║                                                                          ║
+  ║  Verification command:                                                   ║
+  ║  grep "LPF MAZE ALGORITHM" "REFERENCE APPS\picture path.html"            ║
+  ╚══════════════════════════════════════════════════════════════════════════╝
+-->
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <meta name="robots" content="noindex, nofollow">
   <title data-translate="picture.pathway.page.title">Picture Pathway</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <script src="js/translations-picture-pathway.js?v=3"></script>
@@ -1194,10 +1212,19 @@
           <h4 data-translate="picture.pathway.maze.settings">Maze Settings</h4>
           <label for="mazeGridSize" data-translate="picture.pathway.grid.size">Grid Size:</label>
           <select id="mazeGridSize">
-            <option value="12" selected data-translate="picture.pathway.option.grid.12">12×12 (Recommended)</option>
-            <option value="13" data-translate="picture.pathway.option.grid.13">13×13</option>
-            <option value="14" data-translate="picture.pathway.option.grid.14">14×14</option>
-            <option value="15" data-translate="picture.pathway.option.grid.15">15×15</option>
+            <option value="15" selected data-translate="picture.pathway.option.grid.15">15×15 (Default)</option>
+            <option value="16" data-translate="picture.pathway.option.grid.16">16×16</option>
+            <option value="17" data-translate="picture.pathway.option.grid.17">17×17</option>
+            <option value="18" data-translate="picture.pathway.option.grid.18">18×18</option>
+            <option value="19" data-translate="picture.pathway.option.grid.19">19×19</option>
+            <option value="20" data-translate="picture.pathway.option.grid.20">20×20</option>
+          </select>
+
+          <label for="mazeNumPaths" style="margin-top:15px;" data-translate="picture.pathway.num.paths">Number of Paths:</label>
+          <select id="mazeNumPaths">
+            <option value="1" selected data-translate="picture.pathway.option.paths.1">1 Path</option>
+            <option value="2" data-translate="picture.pathway.option.paths.2">2 Paths (1 correct, 1 dead-end)</option>
+            <option value="3" data-translate="picture.pathway.option.paths.3">3 Paths (1 correct, 2 dead-ends)</option>
           </select>
 
           <h4 style="margin-top:20px;" data-translate="picture.pathway.collectible.settings">Collectible Settings</h4>
@@ -1275,10 +1302,19 @@
 
           <label for="choosePathGridSize" style="margin-top:15px;" data-translate="picture.pathway.grid.size">Grid Size:</label>
           <select id="choosePathGridSize">
-            <option value="12" selected data-translate="picture.pathway.option.grid.12">12×12 (Recommended)</option>
-            <option value="13" data-translate="picture.pathway.option.grid.13">13×13</option>
-            <option value="14" data-translate="picture.pathway.option.grid.14">14×14</option>
-            <option value="15" data-translate="picture.pathway.option.grid.15">15×15</option>
+            <option value="15" selected data-translate="picture.pathway.option.grid.15">15×15 (Default)</option>
+            <option value="16" data-translate="picture.pathway.option.grid.16">16×16</option>
+            <option value="17" data-translate="picture.pathway.option.grid.17">17×17</option>
+            <option value="18" data-translate="picture.pathway.option.grid.18">18×18</option>
+            <option value="19" data-translate="picture.pathway.option.grid.19">19×19</option>
+            <option value="20" data-translate="picture.pathway.option.grid.20">20×20</option>
+          </select>
+
+          <label for="choosePathNumPaths" style="margin-top:15px;" data-translate="picture.pathway.num.paths">Number of Paths:</label>
+          <select id="choosePathNumPaths">
+            <option value="1" data-translate="picture.pathway.option.paths.1">1 Path</option>
+            <option value="2" data-translate="picture.pathway.option.paths.2">2 Paths (1 correct, 1 dead-end)</option>
+            <option value="3" selected data-translate="picture.pathway.option.paths.3">3 Paths (1 correct, 2 dead-ends)</option>
           </select>
 
           <h4 style="margin-top:20px;" data-translate="picture.pathway.wall.appearance">Wall Appearance</h4>
@@ -4487,233 +4523,769 @@ document.addEventListener("DOMContentLoaded", function() {
     return res;
   }
 
+  // =============================================================================
+  // 🔒 PROTECTED: LPF MAZE ALGORITHM v1.0 - IMPLEMENTED 2026-01-09
+  // =============================================================================
+  // PROFESSIONAL MAZE GENERATION - LONGEST PATH FIRST (LPF) ALGORITHM
+  // =============================================================================
+  // This algorithm creates genuinely challenging mazes by:
+  // 1. Generating a perfect maze (preserving its structure)
+  // 2. Finding the LONGEST possible path (maze diameter)
+  // 3. Using that naturally winding path as the solution
+  // =============================================================================
+  // ⛔ DO NOT OVERWRITE - Contains professional algorithm development
+  // Verify: grep "LPF MAZE ALGORITHM" "REFERENCE APPS\picture path.html"
+  // =============================================================================
+
+  // LPF Algorithm Version Check - logs on first maze generation
+  (function() {
+    const LPF_VERSION = '1.0';
+    const LPF_DATE = '2026-01-09';
+    if (!window._lpfVersionLogged) {
+      console.log(`✅ Picture Path: LPF Maze Algorithm v${LPF_VERSION} (${LPF_DATE})`);
+      console.log('   Features: generatePerfectMaze, findLongestMazePath, Two-Pass Farthest Point');
+      window._lpfVersionLogged = true;
+    }
+  })();
+
   function generateClassicMaze(config) {
-    // config: { rows, cols, collectiblesCount, obstaclesCount, copiesMin, copiesMax, startImage, endImage, pathImages, distractorImages }
-    // This generates a TRUE WALL-BASED MAZE with corridors
+    const {
+      rows, cols, numPaths = 1, copiesMin = 1, copiesMax = 5,
+      startImage, endImage, pathImages, distractorImages
+    } = config;
 
-    const { rows, cols, collectiblesCount, obstaclesCount, copiesMin = 1, copiesMax = 5, startImage, endImage, pathImages, distractorImages } = config;
+    console.log('=== PROFESSIONAL MAZE GENERATION (LPF Algorithm) ===');
+    console.log('Config:', { rows, cols, numPaths });
 
-    console.log('=== MAZE GENERATION DEBUG ===');
-    console.log('Config:', { rows, cols, collectiblesCount, obstaclesCount, copiesMin, copiesMax });
-    console.log('pathImages:', pathImages);
-    console.log('distractorImages:', distractorImages);
+    // STEP 1: Generate a perfect maze (preserved, not overwritten)
+    const maze = generatePerfectMaze(rows, cols);
+    console.log('Perfect maze generated');
 
-    // Generate maze using recursive backtracking
-    const maze = generateMazeWalls(rows, cols);
-    console.log('Maze generated successfully');
+    // STEP 2: Find the LONGEST path - this becomes the solution
+    const { startCell, endCell, solutionPath } = findLongestMazePath(maze, rows, cols);
 
-    // RANDOMIZED start position - left edge, random row
-    const startCell = {
-        r: Math.floor(Math.random() * rows),
-        c: 0
-    };
+    const pathPercent = Math.round(solutionPath.length * 100 / (rows * cols));
+    const turns = countPathTurns(solutionPath);
+    console.log(`Solution path: ${solutionPath.length} cells (${pathPercent}% of maze)`);
+    console.log(`Turns in solution: ${turns}`);
 
-    // RANDOMIZED end position - right edge, random row
-    const endCell = {
-        r: Math.floor(Math.random() * rows),
-        c: cols - 1
-    };
+    // STEP 3: Open border walls for start and end
+    maze[startCell.r][startCell.c].left = false;
+    maze[endCell.r][endCell.c].right = false;
 
-    console.log('Start cell:', startCell);
-    console.log('End cell:', endCell);
+    // STEP 4: For multi-path mode, add decoy exits
+    let endPositions = [endCell];
+    let correctIndex = 0;
 
-    // ENSURE START AND END CELLS HAVE OPENINGS INTO THE MAZE
-    // Start cell (left edge) must have RIGHT wall open to enter maze
-    if (startCell.c === 0) {
-        maze[startCell.r][startCell.c].right = false;
-        // Also ensure neighbor cell has its LEFT wall open
-        if (startCell.c + 1 < cols) {
-            maze[startCell.r][startCell.c + 1].left = false;
-        }
-    }
-
-    // End cell (right edge) must have LEFT wall open to reach it
-    if (endCell.c === cols - 1) {
-        maze[endCell.r][endCell.c].left = false;
-        // Also ensure neighbor cell has its RIGHT wall open
-        if (endCell.c - 1 >= 0) {
-            maze[endCell.r][endCell.c - 1].right = false;
-        }
-    }
-
-    console.log('After ensuring openings - Start cell walls:', maze[startCell.r][startCell.c]);
-    console.log('After ensuring openings - End cell walls:', maze[endCell.r][endCell.c]);
-
-    // Find the solution path from start to end
-    const solutionPath = findMazeSolution(maze, startCell, endCell, rows, cols);
-
-    console.log('Solution path length:', solutionPath.length);
-    if (solutionPath.length > 0) {
-      console.log('Solution path:', solutionPath);
-    }
-
-    if (solutionPath.length === 0) {
-      console.error('❌ No solution path found in maze!');
-      console.error('Start cell walls:', maze[startCell.r][startCell.c]);
-      console.error('End cell walls:', maze[endCell.r][endCell.c]);
-      console.error('Maze structure sample (first few cells):', maze.slice(0, 2));
-      return null;
-    }
-
-    const itemPositions = [];
-
-    // Place COLLECTIBLES: ZONE-BASED PROPORTIONAL DISTRIBUTION
-    // Divide maze into zones and distribute items proportionally across all zones
-    // Ensures collectibles are scattered evenly, not clustered in one area
-    if (pathImages && pathImages.length > 0) {
-      // Helper function to check if adjacent cell has the same image
-      const hasAdjacentSameImage = (r, c, imagePath) => {
-        const adjacentOffsets = [
-          { dr: -1, dc: 0 },  // Up
-          { dr: 1, dc: 0 },   // Down
-          { dr: 0, dc: -1 },  // Left
-          { dr: 0, dc: 1 }    // Right
-        ];
-
-        for (const offset of adjacentOffsets) {
-          const adjR = r + offset.dr;
-          const adjC = c + offset.dc;
-
-          if (adjR >= 0 && adjR < rows && adjC >= 0 && adjC < cols) {
-            const adjacentItem = itemPositions.find(item => item.r === adjR && item.c === adjC);
-            if (adjacentItem && adjacentItem.image.path === imagePath) {
-              return true;
-            }
-          }
-        }
-        return false;
-      };
-
-      // ENHANCED ZONE-BASED DISTRIBUTION: Divide maze into fine-grain zones for maximum even distribution
-      // Use 4x4 zones (16 zones) for excellent spatial coverage
-      const zoneRows = 4;
-      const zoneCols = 4;
-      const rowsPerZone = Math.ceil(rows / zoneRows);
-      const colsPerZone = Math.ceil(cols / zoneCols);
-
-      // Create zones and populate with available cells
-      const zones = [];
-      const zoneItemCounts = []; // Track items per zone for strict limit enforcement
-
-      for (let zr = 0; zr < zoneRows; zr++) {
-        for (let zc = 0; zc < zoneCols; zc++) {
-          const zoneCells = [];
-          const startRow = zr * rowsPerZone;
-          const endRow = Math.min((zr + 1) * rowsPerZone, rows);
-          const startCol = zc * colsPerZone;
-          const endCol = Math.min((zc + 1) * colsPerZone, cols);
-
-          for (let r = startRow; r < endRow; r++) {
-            for (let c = startCol; c < endCol; c++) {
-              // Exclude start and end cells
-              if (!((r === startCell.r && c === startCell.c) || (r === endCell.r && c === endCell.c))) {
-                zoneCells.push({ r, c });
-              }
-            }
-          }
-
-          // Shuffle cells within this zone
-          zones.push(zoneCells.sort(() => Math.random() - 0.5));
-          zoneItemCounts.push(0);
-        }
-      }
-
-      console.log(`Created ${zones.length} zones for optimal distribution`);
-
-      // ROUND-ROBIN DISTRIBUTION: Place items one-by-one across zones in rotation
-      // This ensures maximum spreading across the entire maze
-      for (const img of pathImages) {
-        const copies = Math.floor(Math.random() * (copiesMax - copiesMin + 1)) + copiesMin;
-        console.log(`Placing ${copies} copies of "${img.word}" - using round-robin zone distribution`);
-
-        let placedCopies = 0;
-        let zoneIndex = Math.floor(Math.random() * zones.length); // Start from random zone
+    if (numPaths > 1) {
+      const usedRows = new Set([endCell.r]);
+      for (let i = 1; i < numPaths; i++) {
+        // Find a row for decoy that's not too close to correct end
+        let decoyRow;
         let attempts = 0;
-        const maxAttempts = zones.length * 50; // Safety limit
-
-        // Round-robin through zones until all copies placed
-        while (placedCopies < copies && attempts < maxAttempts) {
-          const zoneCells = zones[zoneIndex];
-          const currentZoneCount = zoneItemCounts[zoneIndex];
-
-          // Calculate dynamic zone limit based on total items and zones
-          const totalItemsTarget = pathImages.length * ((copiesMin + copiesMax) / 2);
-          const maxItemsPerZone = Math.ceil(totalItemsTarget / zones.length) + 2; // +2 buffer for flexibility
-
-          // Try to place one item in current zone if under limit
-          if (currentZoneCount < maxItemsPerZone && zoneCells.length > 0) {
-            let placed = false;
-
-            for (let i = 0; i < zoneCells.length && !placed; i++) {
-              const cell = zoneCells[i];
-              const cellOccupied = itemPositions.some(item => item.r === cell.r && item.c === cell.c);
-
-              if (!cellOccupied && !hasAdjacentSameImage(cell.r, cell.c, img.path)) {
-                itemPositions.push({
-                  r: cell.r,
-                  c: cell.c,
-                  image: img,
-                  type: 'collectible'
-                });
-                placedCopies++;
-                zoneItemCounts[zoneIndex]++;
-                placed = true;
-              }
-            }
-          }
-
-          // Move to next zone in round-robin fashion
-          zoneIndex = (zoneIndex + 1) % zones.length;
+        do {
+          decoyRow = Math.floor(Math.random() * (rows - 2)) + 1;
           attempts++;
-        }
+        } while (usedRows.has(decoyRow) && attempts < 20);
 
-        console.log(`Successfully placed ${placedCopies}/${copies} copies of "${img.word}" - evenly distributed`);
-      }
-
-      // Log zone distribution for verification
-      const zoneStats = zoneItemCounts.map((count, idx) => `Z${idx}:${count}`).join(' ');
-      console.log(`Total collectibles: ${itemPositions.length} across ${zones.length} zones [${zoneStats}]`);
-    }
-
-    // Place OBSTACLES in corridor cells that are NOT on the solution path
-    if (obstaclesCount > 0 && distractorImages && distractorImages.length > 0) {
-      // Find all cells that are NOT on the solution path
-      const solutionPathSet = new Set(solutionPath.map(c => `${c.r},${c.c}`));
-      const offPathCells = [];
-
-      for (let r = 0; r < rows; r++) {
-        for (let c = 0; c < cols; c++) {
-          if (!solutionPathSet.has(`${r},${c}`)) {
-            offPathCells.push({ r, c });
-          }
-        }
-      }
-
-      // Shuffle and place obstacles
-      const shuffled = offPathCells.sort(() => Math.random() - 0.5);
-      for (let i = 0; i < Math.min(obstaclesCount, shuffled.length); i++) {
-        const cell = shuffled[i];
-        const img = distractorImages[Math.floor(Math.random() * distractorImages.length)];
-        itemPositions.push({
-          r: cell.r,
-          c: cell.c,
-          image: img,
-          type: 'obstacle'
-        });
+        usedRows.add(decoyRow);
+        const decoyEnd = { r: decoyRow, c: cols - 1 };
+        maze[decoyEnd.r][decoyEnd.c].right = false;
+        endPositions.push(decoyEnd);
+        console.log(`Decoy exit ${i}: row ${decoyRow}`);
       }
     }
+
+    // STEP 5: Place collectibles
+    const itemPositions = placeCollectiblesLPF(
+      rows, cols, startCell, endPositions, pathImages, copiesMin, copiesMax
+    );
 
     return {
       mazeWalls: maze,
       startCell,
       endCell,
+      endPositions,
+      correctPathIndex: correctIndex,
       items: itemPositions,
       rows,
       cols,
+      numPaths,
+      solutionPath,
       selectedStartImage: startImage,
       selectedEndImage: endImage,
-      isMazeMode: true  // Flag to indicate this is a wall-based maze
+      isMazeMode: true
     };
+  }
+
+  // Generate a perfect maze optimized for long winding corridors
+  function generatePerfectMaze(rows, cols) {
+    const cells = Array.from({ length: rows }, () =>
+      Array.from({ length: cols }, () => ({
+        top: true, right: true, bottom: true, left: true, visited: false
+      }))
+    );
+
+    const directions = [
+      { dr: -1, dc: 0, wall: 'top', opposite: 'bottom' },
+      { dr: 0, dc: 1, wall: 'right', opposite: 'left' },
+      { dr: 1, dc: 0, wall: 'bottom', opposite: 'top' },
+      { dr: 0, dc: -1, wall: 'left', opposite: 'right' }
+    ];
+
+    // Start from corner for more interesting structure
+    const activeCells = [];
+    cells[0][0].visited = true;
+    activeCells.push({ r: 0, c: 0 });
+
+    while (activeCells.length > 0) {
+      // CRITICAL: Cell selection strategy for maximum path complexity
+      // 50% newest (creates long winding corridors like DFS)
+      // 30% oldest (creates branches that loop back - KEY for complexity!)
+      // 20% random (adds unpredictability)
+      let currentIndex;
+      const rand = Math.random();
+      if (rand < 0.50) {
+        currentIndex = activeCells.length - 1; // Newest
+      } else if (rand < 0.80) {
+        currentIndex = 0; // Oldest - creates longer paths!
+      } else {
+        currentIndex = Math.floor(Math.random() * activeCells.length);
+      }
+
+      const current = activeCells[currentIndex];
+      const shuffledDirs = [...directions].sort(() => Math.random() - 0.5);
+      const unvisitedNeighbors = [];
+
+      for (const dir of shuffledDirs) {
+        const newR = current.r + dir.dr;
+        const newC = current.c + dir.dc;
+        if (newR >= 0 && newR < rows && newC >= 0 && newC < cols && !cells[newR][newC].visited) {
+          unvisitedNeighbors.push({ r: newR, c: newC, wall: dir.wall, opposite: dir.opposite });
+        }
+      }
+
+      if (unvisitedNeighbors.length > 0) {
+        const chosen = unvisitedNeighbors[Math.floor(Math.random() * unvisitedNeighbors.length)];
+        cells[current.r][current.c][chosen.wall] = false;
+        cells[chosen.r][chosen.c][chosen.opposite] = false;
+        cells[chosen.r][chosen.c].visited = true;
+        activeCells.push({ r: chosen.r, c: chosen.c });
+      } else {
+        activeCells.splice(currentIndex, 1);
+      }
+    }
+
+    return cells;
+  }
+
+  // Find the longest possible path in the maze (diameter algorithm)
+  function findLongestMazePath(maze, rows, cols) {
+    // Two-pass farthest point algorithm - proven to find maze diameter
+
+    // Pass 1: Find the farthest cell from top-left corner
+    const farthest1 = findFarthestMazeCell(maze, { r: 0, c: 0 }, rows, cols);
+    console.log(`Pass 1: Farthest from (0,0) is (${farthest1.cell.r},${farthest1.cell.c}) at distance ${farthest1.dist}`);
+
+    // Pass 2: Find the farthest cell from THAT point
+    const farthest2 = findFarthestMazeCell(maze, farthest1.cell, rows, cols);
+    console.log(`Pass 2: Farthest from (${farthest1.cell.r},${farthest1.cell.c}) is (${farthest2.cell.r},${farthest2.cell.c}) at distance ${farthest2.dist}`);
+
+    // The path between these two points is the longest in the maze
+    let startCell = farthest1.cell;
+    let endCell = farthest2.cell;
+
+    // Ensure start is on left side, end on right side (swap if needed)
+    if (startCell.c > endCell.c) {
+      [startCell, endCell] = [endCell, startCell];
+    }
+
+    // Adjust to edge cells for proper maze entry/exit
+    startCell = findNearestLeftEdge(maze, startCell, rows, cols);
+    endCell = findNearestRightEdge(maze, endCell, rows, cols);
+
+    // Get the actual solution path
+    const solutionPath = findMazePathBFS(maze, startCell, endCell, rows, cols);
+
+    console.log(`Final path: (${startCell.r},${startCell.c}) -> (${endCell.r},${endCell.c}), length: ${solutionPath.length}`);
+
+    return { startCell, endCell, solutionPath };
+  }
+
+  // BFS to find the farthest reachable cell from a starting point
+  function findFarthestMazeCell(maze, start, rows, cols) {
+    const queue = [{ cell: start, dist: 0 }];
+    const visited = new Set([`${start.r},${start.c}`]);
+    let farthest = { cell: start, dist: 0 };
+
+    const directions = [
+      { dr: -1, dc: 0, wall: 'top' },
+      { dr: 0, dc: 1, wall: 'right' },
+      { dr: 1, dc: 0, wall: 'bottom' },
+      { dr: 0, dc: -1, wall: 'left' }
+    ];
+
+    while (queue.length > 0) {
+      const { cell: current, dist } = queue.shift();
+      if (dist > farthest.dist) {
+        farthest = { cell: current, dist };
+      }
+
+      const mazeCell = maze[current.r][current.c];
+      for (const dir of directions) {
+        if (!mazeCell[dir.wall]) { // Wall is open
+          const nr = current.r + dir.dr;
+          const nc = current.c + dir.dc;
+          const key = `${nr},${nc}`;
+          if (nr >= 0 && nr < rows && nc >= 0 && nc < cols && !visited.has(key)) {
+            visited.add(key);
+            queue.push({ cell: { r: nr, c: nc }, dist: dist + 1 });
+          }
+        }
+      }
+    }
+    return farthest;
+  }
+
+  // BFS to find the path between two cells
+  function findMazePathBFS(maze, start, end, rows, cols) {
+    const queue = [[start]];
+    const visited = new Set([`${start.r},${start.c}`]);
+
+    const directions = [
+      { dr: -1, dc: 0, wall: 'top' },
+      { dr: 0, dc: 1, wall: 'right' },
+      { dr: 1, dc: 0, wall: 'bottom' },
+      { dr: 0, dc: -1, wall: 'left' }
+    ];
+
+    while (queue.length > 0) {
+      const path = queue.shift();
+      const current = path[path.length - 1];
+
+      if (current.r === end.r && current.c === end.c) {
+        return path;
+      }
+
+      const cell = maze[current.r][current.c];
+      for (const dir of directions) {
+        if (!cell[dir.wall]) {
+          const nr = current.r + dir.dr;
+          const nc = current.c + dir.dc;
+          const key = `${nr},${nc}`;
+          if (nr >= 0 && nr < rows && nc >= 0 && nc < cols && !visited.has(key)) {
+            visited.add(key);
+            queue.push([...path, { r: nr, c: nc }]);
+          }
+        }
+      }
+    }
+    return [start, end]; // Fallback
+  }
+
+  // Find nearest cell on left edge
+  function findNearestLeftEdge(maze, cell, rows, cols) {
+    if (cell.c === 0) return cell;
+    let best = null, bestDist = Infinity;
+    for (let r = 0; r < rows; r++) {
+      const path = findMazePathBFS(maze, cell, { r, c: 0 }, rows, cols);
+      if (path.length < bestDist) {
+        bestDist = path.length;
+        best = { r, c: 0 };
+      }
+    }
+    return best || cell;
+  }
+
+  // Find nearest cell on right edge
+  function findNearestRightEdge(maze, cell, rows, cols) {
+    if (cell.c === cols - 1) return cell;
+    let best = null, bestDist = Infinity;
+    for (let r = 0; r < rows; r++) {
+      const path = findMazePathBFS(maze, cell, { r, c: cols - 1 }, rows, cols);
+      if (path.length < bestDist) {
+        bestDist = path.length;
+        best = { r, c: cols - 1 };
+      }
+    }
+    return best || cell;
+  }
+
+  // Count direction changes (turns) in a path
+  function countPathTurns(path) {
+    if (path.length < 3) return 0;
+    let turns = 0;
+    for (let i = 1; i < path.length - 1; i++) {
+      const prev = path[i - 1], curr = path[i], next = path[i + 1];
+      const dir1 = { r: curr.r - prev.r, c: curr.c - prev.c };
+      const dir2 = { r: next.r - curr.r, c: next.c - curr.c };
+      if (dir1.r !== dir2.r || dir1.c !== dir2.c) turns++;
+    }
+    return turns;
+  }
+
+  // Place collectibles evenly across the maze
+  function placeCollectiblesLPF(rows, cols, startCell, endPositions, pathImages, copiesMin, copiesMax) {
+    if (!pathImages || pathImages.length === 0) return [];
+
+    const itemPositions = [];
+    const endCellSet = new Set(endPositions.map(e => `${e.r},${e.c}`));
+
+    // Build available cells list (excluding start and end cells)
+    const availableCells = [];
+    for (let r = 0; r < rows; r++) {
+      for (let c = 0; c < cols; c++) {
+        if (!(r === startCell.r && c === startCell.c) && !endCellSet.has(`${r},${c}`)) {
+          availableCells.push({ r, c });
+        }
+      }
+    }
+
+    // Shuffle for random distribution
+    availableCells.sort(() => Math.random() - 0.5);
+
+    // Place items
+    let cellIndex = 0;
+    for (const img of pathImages) {
+      const copies = Math.floor(Math.random() * (copiesMax - copiesMin + 1)) + copiesMin;
+      for (let i = 0; i < copies && cellIndex < availableCells.length; i++) {
+        const cell = availableCells[cellIndex++];
+        itemPositions.push({ r: cell.r, c: cell.c, image: img, type: 'collectible' });
+      }
+    }
+
+    console.log(`Placed ${itemPositions.length} collectibles`);
+    return itemPositions;
+  }
+
+  // =============================================================================
+  // END OF LPF ALGORITHM
+  // =============================================================================
+
+  // Generate evenly-spaced end positions on the right edge
+  function generateEndPositions(rows, cols, numPaths) {
+    const positions = [];
+    const spacing = Math.floor(rows / (numPaths + 1));
+
+    for (let i = 1; i <= numPaths; i++) {
+      const baseRow = spacing * i;
+      // Add small random offset for variety (±1 row)
+      const offset = Math.floor(Math.random() * 3) - 1;
+      const row = Math.max(1, Math.min(rows - 2, baseRow + offset));
+      positions.push({ r: row, c: cols - 1 });
+    }
+
+    console.log(`Generated ${numPaths} end positions:`, positions);
+    return positions;
+  }
+
+  // Create distinct paths from start toward each end position
+  function createMultiPathStructure(maze, startCell, endPositions, rows, cols, numPaths) {
+    // Calculate branch zone (25-40% into the maze)
+    const branchZoneStart = Math.floor(cols * 0.25);
+    const branchZoneEnd = Math.floor(cols * 0.40);
+    const branchCol = branchZoneStart + Math.floor(Math.random() * (branchZoneEnd - branchZoneStart));
+
+    console.log(`Creating ${numPaths} paths with branch zone at column ${branchCol}`);
+
+    // Carve main trunk from start to branch point
+    const trunk = carveMainTrunk(maze, startCell, branchCol, rows, cols);
+    const branchPoint = trunk[trunk.length - 1];
+    console.log(`Branch point: (${branchPoint.r}, ${branchPoint.c})`);
+
+    // Create distinct paths from branch point to each end
+    const paths = [];
+    for (let i = 0; i < numPaths; i++) {
+      const targetEnd = endPositions[i];
+      const branch = carvePathToEnd(maze, branchPoint, targetEnd, i, numPaths, rows, cols);
+
+      paths.push({
+        index: i,
+        trunk: [...trunk],
+        branch: branch,
+        fullPath: [...trunk, ...branch],
+        endPosition: targetEnd,
+        length: trunk.length + branch.length,
+        isCorrect: false
+      });
+
+      console.log(`Path ${i}: ${branch.length} cells from branch to (${targetEnd.r}, ${targetEnd.c})`);
+    }
+
+    return { trunk, branchPoint, paths };
+  }
+
+  // Carve main trunk corridor from start - IMPROVED ALGORITHM
+  // Creates winding paths instead of straight lines
+  function carveMainTrunk(maze, startCell, targetCol, rows, cols) {
+    const trunk = [{ ...startCell }];
+    let current = { ...startCell };
+    let lastDirection = null;
+    let consecutiveSameDir = 0;
+    const MAX_CONSECUTIVE = 2; // Force direction change after 2 consecutive same-direction moves
+
+    // Ensure start cell opens into maze
+    carvePassageBetween(maze, current, { r: current.r, c: current.c + 1 });
+
+    // Move with balanced bias - much more winding than before
+    while (current.c < targetCol && trunk.length < cols * 3) {
+      const directions = [];
+
+      // Reduced rightward bias (40% instead of 70%) - creates more vertical movement
+      if (current.c + 1 < cols - 2) {
+        // Further reduce weight if we've been going right too long
+        const rightWeight = (lastDirection === 'right' && consecutiveSameDir >= MAX_CONSECUTIVE) ? 10 : 40;
+        directions.push({ dr: 0, dc: 1, weight: rightWeight, name: 'right' });
+      }
+      // Increased vertical movement (30% each instead of 15%) - creates winding paths
+      if (current.r > 1) {
+        const upWeight = (lastDirection === 'up' && consecutiveSameDir >= MAX_CONSECUTIVE) ? 10 : 30;
+        directions.push({ dr: -1, dc: 0, weight: upWeight, name: 'up' });
+      }
+      if (current.r < rows - 2) {
+        const downWeight = (lastDirection === 'down' && consecutiveSameDir >= MAX_CONSECUTIVE) ? 10 : 30;
+        directions.push({ dr: 1, dc: 0, weight: downWeight, name: 'down' });
+      }
+
+      const chosen = weightedRandomSelect(directions);
+      if (!chosen) break;
+
+      // Track consecutive same-direction moves to force variety
+      if (chosen.name === lastDirection) {
+        consecutiveSameDir++;
+      } else {
+        consecutiveSameDir = 1;
+        lastDirection = chosen.name;
+      }
+
+      const next = { r: current.r + chosen.dr, c: current.c + chosen.dc };
+      carvePassageBetween(maze, current, next);
+      trunk.push(next);
+      current = next;
+    }
+
+    return trunk;
+  }
+
+  // Carve path from branch point to target end - IMPROVED ALGORITHM
+  // Creates winding, complex paths that are harder to trace visually
+  function carvePathToEnd(maze, branchPoint, targetEnd, pathIndex, totalPaths, rows, cols) {
+    const path = [];
+    let current = { ...branchPoint };
+    let lastDirection = null;
+    let consecutiveSameDir = 0;
+    const MAX_CONSECUTIVE = 2; // Force direction changes for winding paths
+
+    // Calculate vertical separation for this path
+    const verticalOffset = Math.floor((pathIndex - (totalPaths - 1) / 2) * 4);
+    const targetRow = Math.max(1, Math.min(rows - 2, branchPoint.r + verticalOffset));
+
+    // First, move vertically with some horizontal wandering for variety
+    while (current.r !== targetRow && path.length < 20) {
+      const dir = current.r < targetRow ? 1 : -1;
+
+      // 70% chance to move toward target row, 30% chance to meander horizontally
+      if (Math.random() < 0.7 || current.c >= cols - 3) {
+        const next = { r: current.r + dir, c: current.c };
+        if (next.r >= 0 && next.r < rows) {
+          carvePassageBetween(maze, current, next);
+          path.push(next);
+          current = next;
+        }
+      } else {
+        // Meander right occasionally during vertical movement
+        const next = { r: current.r, c: current.c + 1 };
+        if (next.c < cols - 1) {
+          carvePassageBetween(maze, current, next);
+          path.push(next);
+          current = next;
+        }
+      }
+    }
+
+    // Progress with heavy meandering - creates winding paths
+    while (current.c < cols - 2 && path.length < rows * 4) {
+      const directions = [];
+
+      // Greatly reduced rightward bias (35% instead of 60%) - much more winding
+      if (current.c + 1 < cols) {
+        const rightWeight = (lastDirection === 'right' && consecutiveSameDir >= MAX_CONSECUTIVE) ? 10 : 35;
+        directions.push({ dr: 0, dc: 1, weight: rightWeight, name: 'right' });
+      }
+      // Increased vertical movement (32-33% each instead of 20%) - balanced distribution
+      if (current.r > 1) {
+        const upWeight = (lastDirection === 'up' && consecutiveSameDir >= MAX_CONSECUTIVE) ? 10 : 32;
+        directions.push({ dr: -1, dc: 0, weight: upWeight, name: 'up' });
+      }
+      if (current.r < rows - 2) {
+        const downWeight = (lastDirection === 'down' && consecutiveSameDir >= MAX_CONSECUTIVE) ? 10 : 33;
+        directions.push({ dr: 1, dc: 0, weight: downWeight, name: 'down' });
+      }
+
+      const chosen = weightedRandomSelect(directions);
+      if (!chosen) break;
+
+      // Track consecutive same-direction moves
+      if (chosen.name === lastDirection) {
+        consecutiveSameDir++;
+      } else {
+        consecutiveSameDir = 1;
+        lastDirection = chosen.name;
+      }
+
+      const next = { r: current.r + chosen.dr, c: current.c + chosen.dc };
+      carvePassageBetween(maze, current, next);
+      path.push(next);
+      current = next;
+    }
+
+    // Connect to target end position with some final wandering
+    let finalMoves = 0;
+    while (current.r !== targetEnd.r || current.c !== targetEnd.c) {
+      let next;
+
+      // Add final wandering - 20% chance to take a detour if not at edge
+      if (finalMoves < 5 && Math.random() < 0.2 && current.c < targetEnd.c - 1) {
+        // Take a vertical detour
+        if (current.r > 1 && Math.random() < 0.5) {
+          next = { r: current.r - 1, c: current.c };
+        } else if (current.r < rows - 2) {
+          next = { r: current.r + 1, c: current.c };
+        } else {
+          next = { r: current.r, c: current.c + 1 };
+        }
+      } else if (current.c < targetEnd.c) {
+        next = { r: current.r, c: current.c + 1 };
+      } else if (current.r < targetEnd.r) {
+        next = { r: current.r + 1, c: current.c };
+      } else if (current.r > targetEnd.r) {
+        next = { r: current.r - 1, c: current.c };
+      } else {
+        break;
+      }
+
+      carvePassageBetween(maze, current, next);
+      path.push(next);
+      current = next;
+      finalMoves++;
+
+      if (path.length > rows * 5) break;
+    }
+
+    return path;
+  }
+
+  // Helper to carve passage between two adjacent cells
+  function carvePassageBetween(maze, from, to) {
+    const dr = to.r - from.r;
+    const dc = to.c - from.c;
+
+    // Validate cells are adjacent
+    if (Math.abs(dr) + Math.abs(dc) !== 1) return;
+
+    // Validate cells are in bounds
+    if (from.r < 0 || from.r >= maze.length || from.c < 0 || from.c >= maze[0].length) return;
+    if (to.r < 0 || to.r >= maze.length || to.c < 0 || to.c >= maze[0].length) return;
+
+    if (dr === -1) {  // Moving up
+      maze[from.r][from.c].top = false;
+      maze[to.r][to.c].bottom = false;
+    } else if (dr === 1) {  // Moving down
+      maze[from.r][from.c].bottom = false;
+      maze[to.r][to.c].top = false;
+    } else if (dc === -1) {  // Moving left
+      maze[from.r][from.c].left = false;
+      maze[to.r][to.c].right = false;
+    } else if (dc === 1) {  // Moving right
+      maze[from.r][from.c].right = false;
+      maze[to.r][to.c].left = false;
+    }
+  }
+
+  // Weighted random selection
+  function weightedRandomSelect(options) {
+    if (!options || options.length === 0) return null;
+
+    const totalWeight = options.reduce((sum, opt) => sum + opt.weight, 0);
+    let random = Math.random() * totalWeight;
+
+    for (const option of options) {
+      random -= option.weight;
+      if (random <= 0) return option;
+    }
+    return options[0];
+  }
+
+  // Select the correct path based on complexity metrics
+  function selectCorrectPath(pathStructure, endPositions) {
+    const { paths } = pathStructure;
+
+    // Score paths by: length, turns, coverage
+    const scores = paths.map((pathData, idx) => {
+      const fullPath = pathData.fullPath;
+      const length = fullPath.length;
+
+      // Count turns
+      let turns = 0;
+      for (let i = 1; i < fullPath.length - 1; i++) {
+        const prev = fullPath[i - 1];
+        const curr = fullPath[i];
+        const next = fullPath[i + 1];
+        const dir1 = { r: curr.r - prev.r, c: curr.c - prev.c };
+        const dir2 = { r: next.r - curr.r, c: next.c - curr.c };
+        if (dir1.r !== dir2.r || dir1.c !== dir2.c) turns++;
+      }
+
+      // Score formula (higher = better)
+      const score = length * 2 + turns * 8;
+
+      console.log(`Path ${idx}: length=${length}, turns=${turns}, score=${score}`);
+      return { index: idx, score, endCell: endPositions[idx] };
+    });
+
+    // Highest score = correct path
+    scores.sort((a, b) => b.score - a.score);
+    const correctIndex = scores[0].index;
+    paths[correctIndex].isCorrect = true;
+
+    return { correctIndex, correctEndCell: scores[0].endCell };
+  }
+
+  // Block dead-end paths convincingly
+  function blockDeadEndPaths(maze, pathStructure, correctIndex, rows, cols) {
+    const { paths } = pathStructure;
+    const correctPath = paths[correctIndex];
+    const correctPathSet = new Set(correctPath.fullPath.map(c => `${c.r},${c.c}`));
+
+    console.log('=== BLOCKING DEAD-END PATHS ===');
+
+    paths.forEach((pathData, idx) => {
+      if (idx === correctIndex) {
+        console.log(`Path ${idx}: CORRECT - no blocking`);
+        return;
+      }
+
+      console.log(`Path ${idx}: Creating dead-end...`);
+
+      // Find blocking point (60-85% along the branch)
+      const branchLength = pathData.branch.length;
+      if (branchLength < 3) {
+        console.warn(`Path ${idx}: Branch too short to block`);
+        return;
+      }
+
+      const blockPercent = 0.6 + Math.random() * 0.25;
+      const blockDepth = Math.max(2, Math.min(Math.floor(branchLength * blockPercent), branchLength - 2));
+      let blockCell = pathData.branch[blockDepth];
+
+      // Ensure blocking cell is NOT on correct path
+      let attempts = 0;
+      while (correctPathSet.has(`${blockCell.r},${blockCell.c}`) && attempts < 10) {
+        const newDepth = Math.max(1, blockDepth - attempts - 1);
+        blockCell = pathData.branch[newDepth];
+        attempts++;
+      }
+
+      if (correctPathSet.has(`${blockCell.r},${blockCell.c}`)) {
+        console.warn(`Path ${idx}: Cannot find safe blocking point`);
+        return;
+      }
+
+      // Block at this cell - close all walls
+      maze[blockCell.r][blockCell.c].top = true;
+      maze[blockCell.r][blockCell.c].right = true;
+      maze[blockCell.r][blockCell.c].bottom = true;
+      maze[blockCell.r][blockCell.c].left = true;
+
+      // Re-open wall back toward start
+      const blockIdx = pathData.branch.indexOf(blockCell);
+      if (blockIdx > 0) {
+        const prevCell = pathData.branch[blockIdx - 1];
+        carvePassageBetween(maze, blockCell, prevCell);
+      }
+
+      // Add small alcove for visual interest
+      addDeadEndAlcove(maze, blockCell, rows, cols);
+
+      console.log(`  Blocked at (${blockCell.r}, ${blockCell.c})`);
+    });
+  }
+
+  // Add small alcove at dead-end for visual interest
+  function addDeadEndAlcove(maze, blockCell, rows, cols) {
+    const perpendicular = [];
+
+    if (blockCell.r > 1) perpendicular.push({ dr: -1, dc: 0 });
+    if (blockCell.r < rows - 2) perpendicular.push({ dr: 1, dc: 0 });
+    if (blockCell.c > 1) perpendicular.push({ dr: 0, dc: -1 });
+    if (blockCell.c < cols - 2) perpendicular.push({ dr: 0, dc: 1 });
+
+    if (perpendicular.length === 0) return;
+
+    const alcoveDir = perpendicular[Math.floor(Math.random() * perpendicular.length)];
+    const alcoveCell = {
+      r: blockCell.r + alcoveDir.dr,
+      c: blockCell.c + alcoveDir.dc
+    };
+
+    if (alcoveCell.r >= 0 && alcoveCell.r < rows && alcoveCell.c >= 0 && alcoveCell.c < cols) {
+      carvePassageBetween(maze, blockCell, alcoveCell);
+      // Close far side of alcove
+      maze[alcoveCell.r][alcoveCell.c].top = true;
+      maze[alcoveCell.r][alcoveCell.c].right = true;
+      maze[alcoveCell.r][alcoveCell.c].bottom = true;
+      maze[alcoveCell.r][alcoveCell.c].left = true;
+      // Re-open toward block cell
+      carvePassageBetween(maze, alcoveCell, blockCell);
+    }
+  }
+
+  // Emergency path carving if no solution exists
+  function carveEmergencyPath(maze, startCell, endCell, rows, cols) {
+    console.log('Carving emergency path...');
+    let current = { ...startCell };
+
+    while (current.r !== endCell.r || current.c !== endCell.c) {
+      let next;
+      if (current.c < endCell.c) {
+        next = { r: current.r, c: current.c + 1 };
+      } else if (current.r < endCell.r) {
+        next = { r: current.r + 1, c: current.c };
+      } else if (current.r > endCell.r) {
+        next = { r: current.r - 1, c: current.c };
+      } else {
+        break;
+      }
+
+      carvePassageBetween(maze, current, next);
+      current = next;
+    }
+    console.log('Emergency path carved successfully');
+  }
+
+  // Add extra blocking if dead-end is still reachable
+  function addExtraBlocking(maze, deadPath, correctPath, rows, cols) {
+    const correctPathSet = new Set(correctPath.map(c => `${c.r},${c.c}`));
+
+    // Find a cell on dead path that's not on correct path
+    for (let i = Math.floor(deadPath.length * 0.5); i < deadPath.length - 1; i++) {
+      const cell = deadPath[i];
+      if (!correctPathSet.has(`${cell.r},${cell.c}`)) {
+        // Block this cell
+        maze[cell.r][cell.c].top = true;
+        maze[cell.r][cell.c].right = true;
+        maze[cell.r][cell.c].bottom = true;
+        maze[cell.r][cell.c].left = true;
+
+        // Re-open toward previous cell
+        if (i > 0) {
+          carvePassageBetween(maze, cell, deadPath[i - 1]);
+        }
+
+        console.log(`  Extra blocking at (${cell.r}, ${cell.c})`);
+        return;
+      }
+    }
   }
 
   // Generate maze walls using recursive backtracking
@@ -4945,13 +5517,13 @@ document.addEventListener("DOMContentLoaded", function() {
     // config: { rows, cols, wrongPathBehavior, startImage, endImage, pathImages, distractorImages, obstaclesImages }
     // This generates a WALL-BASED MAZE with direction-aware START and END positions
 
-    const { rows, cols, wrongPathBehavior, startImage, endImage, pathImages, distractorImages, obstaclesImages } = config;
+    const { rows, cols, numPaths = 3, wrongPathBehavior, startImage, endImage, pathImages, distractorImages, obstaclesImages } = config;
 
     // Get maze direction from UI
     const mazeDirection = document.getElementById('mazeDirection').value;
 
     console.log('=== CHOOSE THE RIGHT PATH MAZE GENERATION ===');
-    console.log('Config:', { rows, cols, wrongPathBehavior, mazeDirection });
+    console.log('Config:', { rows, cols, numPaths, wrongPathBehavior, mazeDirection });
 
     // Generate wall-based maze using recursive backtracking
     const maze = generateMazeWalls(rows, cols);
@@ -5017,9 +5589,9 @@ document.addEventListener("DOMContentLoaded", function() {
     let startCell, endCells, startBorderSide, endBorderSide, startOutsideMarker, endOutsideMarker;
 
     if (mazeDirection === 'bottom-top') {
-      // START at bottom (1 corridor), ENDs at top (3 corridors)
+      // START at bottom (1 corridor), ENDs at top (numPaths corridors)
       const startCol = Math.floor(Math.random() * (cols - 2)) + 1;
-      const endColumns = generateRandomPositions(3, cols);
+      const endColumns = generateRandomPositions(numPaths, cols);
 
       startCell = { r: rows - 1, c: startCol };
       endCells = endColumns.map((c, idx) => ({ r: 0, c: c, label: `Position ${idx + 1}` }));
@@ -5029,9 +5601,9 @@ document.addEventListener("DOMContentLoaded", function() {
       endOutsideMarker = (c) => ({ r: -1, c: c });    // Above grid
 
     } else if (mazeDirection === 'top-bottom') {
-      // START at top (1 corridor), ENDs at bottom (3 corridors)
+      // START at top (1 corridor), ENDs at bottom (numPaths corridors)
       const startCol = Math.floor(Math.random() * (cols - 2)) + 1;
-      const endColumns = generateRandomPositions(3, cols);
+      const endColumns = generateRandomPositions(numPaths, cols);
 
       startCell = { r: 0, c: startCol };
       endCells = endColumns.map((c, idx) => ({ r: rows - 1, c: c, label: `Position ${idx + 1}` }));
@@ -5041,9 +5613,9 @@ document.addEventListener("DOMContentLoaded", function() {
       endOutsideMarker = (c) => ({ r: rows, c: c });  // Below grid
 
     } else if (mazeDirection === 'left-right') {
-      // START at left (1 corridor), ENDs at right (3 corridors)
+      // START at left (1 corridor), ENDs at right (numPaths corridors)
       const startRow = Math.floor(Math.random() * (rows - 2)) + 1;
-      const endRows = generateRandomPositions(3, rows);
+      const endRows = generateRandomPositions(numPaths, rows);
 
       startCell = { r: startRow, c: 0 };
       endCells = endRows.map((r, idx) => ({ r: r, c: cols - 1, label: `Position ${idx + 1}` }));
@@ -5053,9 +5625,9 @@ document.addEventListener("DOMContentLoaded", function() {
       endOutsideMarker = (r) => ({ r: r, c: cols });  // Right of grid
 
     } else { // 'right-left'
-      // START at right (1 corridor), ENDs at left (3 corridors)
+      // START at right (1 corridor), ENDs at left (numPaths corridors)
       const startRow = Math.floor(Math.random() * (rows - 2)) + 1;
-      const endRows = generateRandomPositions(3, rows);
+      const endRows = generateRandomPositions(numPaths, rows);
 
       startCell = { r: startRow, c: cols - 1 };
       endCells = endRows.map((r, idx) => ({ r: r, c: 0, label: `Position ${idx + 1}` }));
@@ -5803,9 +6375,12 @@ document.addEventListener("DOMContentLoaded", function() {
     // Route to appropriate generation function based on game mode
     if (gameMode === 'classic-maze') {
         // Get Classic Maze settings
-        const gridSize = parseInt(document.getElementById('mazeGridSize').value) || 10;
+        const gridSize = parseInt(document.getElementById('mazeGridSize').value) || 15;
         rows = gridSize;
         cols = gridSize;
+
+        // Get number of paths (1-3, only 1 is correct, others are dead-ends)
+        const numPaths = parseInt(document.getElementById('mazeNumPaths').value) || 1;
 
         // Get user-selected copy range for collectibles
         const copiesMin = parseInt(document.getElementById('copiesPerImageMin').value) || 1;
@@ -5817,6 +6392,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
         const config = {
             rows, cols,
+            numPaths,              // Number of paths (1-3), only 1 correct
             collectiblesCount: 0,  // Not used
             obstaclesCount: 0,     // Not used - no obstacles in Classic Maze
             copiesMin,             // User-selected minimum copies per image
@@ -5844,9 +6420,13 @@ document.addEventListener("DOMContentLoaded", function() {
         await autoPopulateChoosePathImages();
 
         // Get Choose the Right Path settings
-        const gridSize = parseInt(document.getElementById('choosePathGridSize').value) || 12;
+        const gridSize = parseInt(document.getElementById('choosePathGridSize').value) || 15;
         rows = gridSize;
         cols = gridSize;
+
+        // Get number of paths (1-3, only 1 is correct, others are dead-ends)
+        const numPaths = parseInt(document.getElementById('choosePathNumPaths').value) || 3;
+
         // Use default path length values (advanced settings removed)
         const pathMin = 6;
         const pathMax = 10;
@@ -5854,7 +6434,7 @@ document.addEventListener("DOMContentLoaded", function() {
         const wrongPathBehavior = 'dead-end';
 
         const config = {
-            rows, cols, pathMin, pathMax, wrongPathBehavior,
+            rows, cols, numPaths, pathMin, pathMax, wrongPathBehavior,
             startImage: selectedStartImage || null,
             endImage: selectedEndImage || null,
             pathImages: selectedPathImages,
@@ -6381,8 +6961,11 @@ async function downloadPDF(canvasToExport, fileName) {
       borders.forEach(border => {
           const item = document.createElement("div");
           item.className = "border-thumbnail-item";
-          item.innerHTML = `<img src="${border.path}" alt="${border.name}" loading="lazy" />`;
+          // Use thumbnail for fast preview, full path when applying to canvas
+          const thumbSrc = border.thumbnail || border.path;
+          item.innerHTML = `<img src="${thumbSrc}" alt="${border.name}" loading="lazy" />`;
           item.onclick = () => {
+              // Use original full-res for canvas (professional quality)
               addBorderToCanvas(border.path);
               document.querySelectorAll('#borderDictionary .border-thumbnail-item.selected').forEach(el => el.classList.remove('selected'));
               item.classList.add('selected');
@@ -6397,8 +6980,11 @@ async function downloadPDF(canvasToExport, fileName) {
       backgrounds.forEach(bg => {
           const item = document.createElement("div");
           item.className = "border-thumbnail-item";
-          item.innerHTML = `<img src="${bg.path}" alt="${bg.name}" loading="lazy" />`;
+          // Use thumbnail for fast preview, full path when applying to canvas
+          const thumbSrc = bg.thumbnail || bg.path;
+          item.innerHTML = `<img src="${thumbSrc}" alt="${bg.name}" loading="lazy" />`;
           item.onclick = () => {
+              // Use original full-res for canvas (professional quality)
               addBackgroundToCanvas(bg.path);
               document.querySelectorAll('#backgroundDictionary .border-thumbnail-item.selected').forEach(el => el.classList.remove('selected'));
               item.classList.add('selected');
@@ -6715,18 +7301,22 @@ async function downloadPDF(canvasToExport, fileName) {
       // Get user-selected number of collectible images (1-4)
       const numImages = parseInt(document.getElementById('numCollectibleImages').value) || 4;
 
-      // Auto-select random fruits images for collectibles
-      const fruitsImages = await getThemeImages('fruits');
-      if (fruitsImages.length >= numImages) {
-        const shuffledFruits = [...fruitsImages].sort(() => Math.random() - 0.5);
-        selectedPathImages = shuffledFruits.slice(0, numImages);
-        console.log(`Auto-selected ${numImages} collectibles from fruits theme:`, selectedPathImages.map(img => img.word));
-      } else if (fruitsImages.length > 0) {
+      // Get the user's selected theme (use 'fruits' as fallback if 'all' is selected)
+      const selectedTheme = themeSelect.value;
+      const themeToUse = (selectedTheme && selectedTheme !== 'all') ? selectedTheme : 'fruits';
+
+      // Auto-select random images from user-selected theme for collectibles
+      const themeImages = await getThemeImages(themeToUse);
+      if (themeImages.length >= numImages) {
+        const shuffledImages = [...themeImages].sort(() => Math.random() - 0.5);
+        selectedPathImages = shuffledImages.slice(0, numImages);
+        console.log(`Auto-selected ${numImages} collectibles from ${themeToUse} theme:`, selectedPathImages.map(img => img.word));
+      } else if (themeImages.length > 0) {
         // If less than requested images available, use what we have
-        selectedPathImages = [...fruitsImages];
-        console.log('Auto-selected', selectedPathImages.length, `collectibles from fruits theme (less than ${numImages} available)`);
+        selectedPathImages = [...themeImages];
+        console.log('Auto-selected', selectedPathImages.length, `collectibles from ${themeToUse} theme (less than ${numImages} available)`);
       } else {
-        console.error('No fruits images available for collectibles');
+        console.error(`No ${themeToUse} images available for collectibles`);
       }
 
       // Update preview to reflect changes
@@ -6757,24 +7347,28 @@ async function downloadPDF(canvasToExport, fileName) {
       selectedPathImages = [];
       selectedDistractorImages = [];
 
-      // Choose Path needs 3 END images from fruits theme
-      // Auto-select 3 DIFFERENT random fruits each time
-      const fruitsImages = await getThemeImages('fruits');
+      // Choose Path needs 3 END images from user-selected theme
+      // Get the user's selected theme (use 'fruits' as fallback if 'all' is selected)
+      const selectedTheme = themeSelect.value;
+      const themeToUse = (selectedTheme && selectedTheme !== 'all') ? selectedTheme : 'fruits';
 
-      if (fruitsImages.length >= 3) {
-        // Shuffle all fruits and take first 3 (ensures different fruits each time)
-        const shuffled = [...fruitsImages].sort(() => Math.random() - 0.5);
+      // Auto-select 3 DIFFERENT random images from selected theme each time
+      const themeImages = await getThemeImages(themeToUse);
+
+      if (themeImages.length >= 3) {
+        // Shuffle all images and take first 3 (ensures different images each time)
+        const shuffled = [...themeImages].sort(() => Math.random() - 0.5);
         selectedPathImages.push(shuffled[0]);
         selectedPathImages.push(shuffled[1]);
         selectedPathImages.push(shuffled[2]);
-        console.log(`Auto-selected 3 random END images from fruits theme:`,
+        console.log(`Auto-selected 3 random END images from ${themeToUse} theme:`,
           shuffled[0].word, shuffled[1].word, shuffled[2].word);
       } else {
-        console.warn('Not enough fruits images available, using all available');
-        selectedPathImages.push(...fruitsImages);
+        console.warn(`Not enough ${themeToUse} images available, using all available`);
+        selectedPathImages.push(...themeImages);
       }
 
-      console.log(`Auto-selected ${selectedPathImages.length} END images for Choose Path mode`);
+      console.log(`Auto-selected ${selectedPathImages.length} END images for Choose Path mode from ${themeToUse} theme`);
 
       // Update preview to reflect changes
       updateSelectionPreviews();

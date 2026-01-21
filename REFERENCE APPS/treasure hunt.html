@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <meta name="robots" content="noindex, nofollow">
   <title data-translate="page.title">Treasure Hunt Worksheet Generator</title>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
@@ -2920,8 +2921,13 @@
                 images.forEach(imgData => {
                     const item = document.createElement("div");
                     item.className = "border-thumbnail-item";
-                    item.innerHTML = `<img src="${imgData.path}" alt="${imgData.name}" loading="lazy" />`;
-                    item.onclick = () => { addBorderOrBackground(type, imgData.path); };
+                    // Use thumbnail for fast sidebar preview
+                    const thumbSrc = imgData.thumbnail || `/api/thumbnail?path=${encodeURIComponent(imgData.path)}&w=120&q=70`;
+                    item.innerHTML = `<img src="${thumbSrc}" alt="${imgData.name}" loading="lazy" />`;
+                    item.onclick = () => {
+                        // Use original full-res for canvas (professional quality)
+                        addBorderOrBackground(type, imgData.path);
+                    };
                     dictionaryEl.appendChild(item);
                 });
             })

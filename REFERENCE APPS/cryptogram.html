@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <meta name="robots" content="noindex, nofollow">
   <title>Image Cryptogram Worksheet Generator</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
@@ -3588,8 +3589,11 @@ async function downloadPDF(canvasToExport, fileName) {
                     if (images.length === 0) { dictionaryEl.innerHTML = `<p class="dictionary-message">${t("cryptogram.asset.none", {type}) || `No ${type} in this theme.`}</p>`; return; }
                     images.forEach(asset => {
                         const item = document.createElement("div"); item.className = "border-thumbnail-item";
-                        item.innerHTML = `<img src="${asset.path}" alt="${asset.name}" loading="lazy" />`;
+                        // Use thumbnail for fast preview, full path when applying to canvas
+                        const thumbSrc = asset.thumbnail || asset.path;
+                        item.innerHTML = `<img src="${thumbSrc}" alt="${asset.name}" loading="lazy" />`;
                         item.onclick = () => {
+                            // Use original full-res for canvas (professional quality)
                             addFunc(asset.path);
                              dictionaryEl.querySelectorAll('.thumbnail-item.selected').forEach(el => el.classList.remove('selected'));
                             item.classList.add('selected');

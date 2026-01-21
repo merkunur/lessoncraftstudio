@@ -2,8 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8" />
+    <meta name="robots" content="noindex, nofollow">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Writing Worksheet Generator</title>
+    <title data-translate="page.title">Writing Worksheet Generator</title>
+    <script src="js/translations-writing.js"></script>
+    <script src="js/bulletproof-loader.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&family=Fredoka:wght@400;500;600&family=Lexend+Deca&family=Nunito:wght@400;700&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
@@ -192,6 +195,43 @@
         background-color: #cccccc !important; color: #888888 !important;
         border-color: #cccccc !important; cursor: not-allowed;
       }
+      /* Zoom Controls */
+      .zoom-controls {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        background-color: var(--app-surface-light);
+        border: 1px solid var(--app-border-light);
+        border-radius: 6px;
+        padding: 5px 10px;
+      }
+      .zoom-btn {
+        background: transparent;
+        border: 1px solid var(--app-border-light);
+        border-radius: 4px;
+        padding: 6px 10px;
+        font-size: 14px;
+        cursor: pointer;
+        color: var(--app-text-primary-light-theme);
+        transition: all 0.2s ease;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .zoom-btn:hover {
+        background-color: #e8e8ed;
+        border-color: var(--app-border-light);
+      }
+      .zoom-btn:active {
+        background-color: #d8d8dd;
+      }
+      .zoom-percentage {
+        font-size: 13px;
+        font-weight: 600;
+        min-width: 50px;
+        text-align: center;
+        color: var(--app-text-primary-light-theme);
+      }
       /* New Dropdown Styles */
       .dropdown-container { position: relative; display: inline-block; }
       .dropdown-content {
@@ -219,7 +259,7 @@
       }
 
       .tab-content-wrapper {
-        flex-grow: 1; display: flex; align-items: flex-start; justify-content: center;
+        flex-grow: 1; display: flex; align-items: center; justify-content: center;
         padding: 25px; overflow-y: auto; margin-top: 50px;
       }
       .canvas-container-wrapper {
@@ -229,9 +269,16 @@
         border-radius: 8px;
         overflow: hidden;
         margin: auto;
-        position: relative; /* Needed for absolute positioning of children */
-        transform-origin: top center;
-        transform: scale(0.75);
+        display: inline-block;
+        /* Wrapper will size to fit the worksheet */
+      }
+
+      #worksheet {
+        position: relative;
+        background-color: white;
+        transform-origin: top left;
+        display: block;
+        /* Width, height, and transform scale set dynamically by JavaScript */
       }
 
       #object-context-toolbar {
@@ -411,14 +458,22 @@
     .editable-block.selected .resize-handle { display: block; }
     .resize-handle-se { bottom: -6px; right: -6px; cursor: se-resize; }
     .editable-block > *:not(.resize-handle) { width: 100%; height: 100%; } /* Removed cursor:move from here */
-    .text-block-wrapper { display: flex; align-items: flex-start; justify-content: center; }
+    .text-block-wrapper { display: flex; align-items: center; justify-content: center; }
     .editable-text-box {
         width: 100%;
-        height: auto;
-        padding: 5px;
-        white-space: pre-wrap;
-        border: none; background: transparent; text-align: center;
+        height: 100%;
+        padding: 8px;
+        white-space: nowrap; /* Force single line */
+        overflow: hidden; /* Hide overflow */
+        text-overflow: ellipsis; /* Show ellipsis for long text */
+        border: none;
+        background: transparent;
+        text-align: center;
         cursor: inherit; /* Inherit cursor from parent .editable-block */
+        display: flex;
+        align-items: center; /* Vertically center the text */
+        justify-content: center; /* Horizontally center the text */
+        line-height: 1.2;
     }
     .editable-text-box.selected, .editable-block.selected .editable-text-box { outline: none; }
     .editable-text-box:focus {
@@ -441,26 +496,456 @@
       justify-content: flex-start;
       overflow: visible;
     }
-    .row .guide { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+    .row .guide { position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 1; }
     .row .guide .line-top,
     .row .guide .line-bottom { position: absolute; left: 0; width: 100%; height: 2px; background: #aaa; }
     .row .guide .line-bottom { bottom: 0; }
     .row .guide .line-middle { position: absolute; top: 50%; left: 0; width: 100%; height: 2px; transform: translateY(-50%); border-top: 2px dashed #aaa; background: none; }
-    .row.trace .letters, .row.fading-trace .letters, .row.guided-copy .letters { display: flex; justify-content: flex-start; align-items: center; height: 100%; gap: 0; padding-left: 8px; }
+    .row.trace .letters, .row.fading-trace .letters, .row.guided-copy .letters { display: flex; justify-content: flex-start; align-items: center; height: 100%; gap: 0; padding-left: 8px; position: relative; z-index: 2; }
     .row.trace .letters img:not(.lowercase), .row.fading-trace .letters img:not(.lowercase), .row.guided-copy .letters img:not(.lowercase),
     .row.trace .letters canvas:not(.lowercase), .row.fading-trace .letters canvas:not(.lowercase), .row.guided-copy .letters canvas:not(.lowercase) {
         position: relative;
         top: 0;
-        transform: translateY(0);
+        transform: translateY(0); /* Universal baseline alignment */
     }
-    .row.trace[data-content="custom"] .letters img:not(.lowercase),
-    .row.trace[data-content="custom"] .letters canvas:not(.lowercase) {
-        transform: translateY(2px);
-    }
+
     .row.trace .letters img, .row.fading-trace .letters img, .row.guided-copy .letters img,
     .row.trace .letters canvas, .row.fading-trace .letters canvas, .row.guided-copy .letters canvas {
-      height: calc(100% - 4px); width: auto; object-fit: contain; display: inline-block; flex-shrink: 0;
+      height: 85%; width: auto; object-fit: contain; display: inline-block; flex-shrink: 0;
     }
+
+    /* Increase height by 5% for specific uppercase Print Arrow letters, expanding downward */
+    .row.trace .letters img:not(.lowercase).font-print-regular-arrow[alt="A"],
+    .row.trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="A"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-regular-arrow[alt="A"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="A"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-regular-arrow[alt="A"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-regular-arrow[alt="A"],
+    .row.trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="A"],
+    .row.trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="A"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="A"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="A"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-tracing-arrow[alt="A"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="A"],
+    .row.trace .letters img:not(.lowercase).font-print-regular-arrow[alt="B"],
+    .row.trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="B"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-regular-arrow[alt="B"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="B"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-regular-arrow[alt="B"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-regular-arrow[alt="B"],
+    .row.trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="B"],
+    .row.trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="B"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="B"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="B"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-tracing-arrow[alt="B"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="B"],
+    .row.trace .letters img:not(.lowercase).font-print-regular-arrow[alt="C"],
+    .row.trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="C"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-regular-arrow[alt="C"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="C"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-regular-arrow[alt="C"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-regular-arrow[alt="C"],
+    .row.trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="C"],
+    .row.trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="C"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="C"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="C"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-tracing-arrow[alt="C"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="C"],
+    .row.trace .letters img:not(.lowercase).font-print-regular-arrow[alt="D"],
+    .row.trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="D"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-regular-arrow[alt="D"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="D"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-regular-arrow[alt="D"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-regular-arrow[alt="D"],
+    .row.trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="D"],
+    .row.trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="D"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="D"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="D"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-tracing-arrow[alt="D"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="D"],
+    .row.trace .letters img:not(.lowercase).font-print-regular-arrow[alt="E"],
+    .row.trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="E"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-regular-arrow[alt="E"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="E"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-regular-arrow[alt="E"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-regular-arrow[alt="E"],
+    .row.trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="E"],
+    .row.trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="E"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="E"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="E"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-tracing-arrow[alt="E"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="E"],
+    .row.trace .letters img:not(.lowercase).font-print-regular-arrow[alt="F"],
+    .row.trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="F"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-regular-arrow[alt="F"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="F"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-regular-arrow[alt="F"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-regular-arrow[alt="F"],
+    .row.trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="F"],
+    .row.trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="F"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="F"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="F"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-tracing-arrow[alt="F"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="F"],
+    .row.trace .letters img:not(.lowercase).font-print-regular-arrow[alt="G"],
+    .row.trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="G"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-regular-arrow[alt="G"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="G"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-regular-arrow[alt="G"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-regular-arrow[alt="G"],
+    .row.trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="G"],
+    .row.trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="G"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="G"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="G"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-tracing-arrow[alt="G"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="G"],
+    .row.trace .letters img:not(.lowercase).font-print-regular-arrow[alt="H"],
+    .row.trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="H"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-regular-arrow[alt="H"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="H"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-regular-arrow[alt="H"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-regular-arrow[alt="H"],
+    .row.trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="H"],
+    .row.trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="H"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="H"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="H"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-tracing-arrow[alt="H"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="H"],
+    .row.trace .letters img:not(.lowercase).font-print-regular-arrow[alt="I"],
+    .row.trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="I"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-regular-arrow[alt="I"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="I"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-regular-arrow[alt="I"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-regular-arrow[alt="I"],
+    .row.trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="I"],
+    .row.trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="I"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="I"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="I"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-tracing-arrow[alt="I"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="I"],
+    .row.trace .letters img:not(.lowercase).font-print-regular-arrow[alt="J"],
+    .row.trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="J"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-regular-arrow[alt="J"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="J"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-regular-arrow[alt="J"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-regular-arrow[alt="J"],
+    .row.trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="J"],
+    .row.trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="J"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="J"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="J"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-tracing-arrow[alt="J"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="J"],
+    .row.trace .letters img:not(.lowercase).font-print-regular-arrow[alt="K"],
+    .row.trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="K"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-regular-arrow[alt="K"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="K"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-regular-arrow[alt="K"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-regular-arrow[alt="K"],
+    .row.trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="K"],
+    .row.trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="K"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="K"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="K"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-tracing-arrow[alt="K"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="K"],
+    .row.trace .letters img:not(.lowercase).font-print-regular-arrow[alt="M"],
+    .row.trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="M"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-regular-arrow[alt="M"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="M"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-regular-arrow[alt="M"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-regular-arrow[alt="M"],
+    .row.trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="M"],
+    .row.trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="M"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="M"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="M"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-tracing-arrow[alt="M"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="M"],
+    .row.trace .letters img:not(.lowercase).font-print-regular-arrow[alt="N"],
+    .row.trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="N"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-regular-arrow[alt="N"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="N"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-regular-arrow[alt="N"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-regular-arrow[alt="N"],
+    .row.trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="N"],
+    .row.trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="N"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="N"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="N"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-tracing-arrow[alt="N"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="N"],
+    .row.trace .letters img:not(.lowercase).font-print-regular-arrow[alt="O"],
+    .row.trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="O"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-regular-arrow[alt="O"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="O"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-regular-arrow[alt="O"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-regular-arrow[alt="O"],
+    .row.trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="O"],
+    .row.trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="O"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="O"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="O"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-tracing-arrow[alt="O"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="O"],
+    .row.trace .letters img:not(.lowercase).font-print-regular-arrow[alt="P"],
+    .row.trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="P"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-regular-arrow[alt="P"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="P"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-regular-arrow[alt="P"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-regular-arrow[alt="P"],
+    .row.trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="P"],
+    .row.trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="P"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="P"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="P"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-tracing-arrow[alt="P"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="P"],
+    .row.trace .letters img:not(.lowercase).font-print-regular-arrow[alt="Q"],
+    .row.trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="Q"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-regular-arrow[alt="Q"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="Q"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-regular-arrow[alt="Q"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-regular-arrow[alt="Q"],
+    .row.trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="Q"],
+    .row.trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="Q"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="Q"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="Q"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-tracing-arrow[alt="Q"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="Q"],
+    .row.trace .letters img:not(.lowercase).font-print-regular-arrow[alt="R"],
+    .row.trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="R"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-regular-arrow[alt="R"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="R"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-regular-arrow[alt="R"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-regular-arrow[alt="R"],
+    .row.trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="R"],
+    .row.trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="R"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="R"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="R"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-tracing-arrow[alt="R"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="R"],
+    .row.trace .letters img:not(.lowercase).font-print-regular-arrow[alt="S"],
+    .row.trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="S"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-regular-arrow[alt="S"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="S"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-regular-arrow[alt="S"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-regular-arrow[alt="S"],
+    .row.trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="S"],
+    .row.trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="S"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="S"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="S"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-tracing-arrow[alt="S"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="S"],
+    .row.trace .letters img:not(.lowercase).font-print-regular-arrow[alt="T"],
+    .row.trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="T"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-regular-arrow[alt="T"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="T"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-regular-arrow[alt="T"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-regular-arrow[alt="T"],
+    .row.trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="T"],
+    .row.trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="T"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="T"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="T"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-tracing-arrow[alt="T"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="T"],
+    .row.trace .letters img:not(.lowercase).font-print-regular-arrow[alt="U"],
+    .row.trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="U"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-regular-arrow[alt="U"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="U"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-regular-arrow[alt="U"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-regular-arrow[alt="U"],
+    .row.trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="U"],
+    .row.trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="U"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="U"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="U"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-tracing-arrow[alt="U"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="U"],
+    .row.trace .letters img:not(.lowercase).font-print-regular-arrow[alt="X"],
+    .row.trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="X"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-regular-arrow[alt="X"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="X"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-regular-arrow[alt="X"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-regular-arrow[alt="X"],
+    .row.trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="X"],
+    .row.trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="X"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="X"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="X"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-tracing-arrow[alt="X"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="X"],
+    .row.trace .letters img:not(.lowercase).font-print-regular-arrow[alt="Y"],
+    .row.trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="Y"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-regular-arrow[alt="Y"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="Y"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-regular-arrow[alt="Y"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-regular-arrow[alt="Y"],
+    .row.trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="Y"],
+    .row.trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="Y"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="Y"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="Y"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-tracing-arrow[alt="Y"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="Y"],
+    .row.trace .letters img:not(.lowercase).font-print-regular-arrow[alt="Z"],
+    .row.trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="Z"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-regular-arrow[alt="Z"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="Z"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-regular-arrow[alt="Z"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-regular-arrow[alt="Z"],
+    .row.trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="Z"],
+    .row.trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="Z"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="Z"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="Z"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-tracing-arrow[alt="Z"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="Z"] {
+        height: 93.7125% !important; /* 89.25% * 1.05 = another 5% increase */
+        transform: translateY(4.35625%) !important; /* Shift down to keep top position fixed */
+    }
+
+    /* Move "A" down by 7% of its height */
+    .row.trace .letters img:not(.lowercase).font-print-regular-arrow[alt="A"],
+    .row.trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="A"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-regular-arrow[alt="A"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="A"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-regular-arrow[alt="A"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-regular-arrow[alt="A"],
+    .row.trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="A"],
+    .row.trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="A"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="A"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="A"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-tracing-arrow[alt="A"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="A"] {
+        transform: translateY(10.916125%) !important; /* 4.35625% + 7% of height (6.559875%) */
+    }
+
+    /* Move "S" down by 7% of its height */
+    .row.trace .letters img:not(.lowercase).font-print-regular-arrow[alt="S"],
+    .row.trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="S"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-regular-arrow[alt="S"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="S"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-regular-arrow[alt="S"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-regular-arrow[alt="S"],
+    .row.trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="S"],
+    .row.trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="S"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="S"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="S"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-tracing-arrow[alt="S"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="S"] {
+        transform: translateY(10.916125%) !important; /* 4.35625% + 7% of height (6.559875%) */
+    }
+
+    /* Increase "V" height by 8% (95.4975% * 1.08 = 103.1373%), expanding downward */
+    .row.trace .letters img:not(.lowercase).font-print-regular-arrow[alt="V"],
+    .row.trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="V"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-regular-arrow[alt="V"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="V"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-regular-arrow[alt="V"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-regular-arrow[alt="V"],
+    .row.trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="V"],
+    .row.trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="V"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="V"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="V"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-tracing-arrow[alt="V"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="V"] {
+        height: 103.1373% !important; /* 95.4975% * 1.08 */
+        transform: translateY(-0.954975%) !important; /* -4.774875% + 3.8199% (expanding downward) */
+    }
+
+    /* Increase "X" height by 5% (93.7125% * 1.05 = 98.398125%), expanding upward */
+    .row.trace .letters img:not(.lowercase).font-print-regular-arrow[alt="X"],
+    .row.trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="X"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-regular-arrow[alt="X"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="X"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-regular-arrow[alt="X"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-regular-arrow[alt="X"],
+    .row.trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="X"],
+    .row.trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="X"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="X"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="X"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-tracing-arrow[alt="X"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="X"] {
+        height: 98.398125% !important; /* 93.7125% * 1.05 */
+        transform: translateY(-0.563656%) !important; /* 4.35625% - 4.919906% (expanding upward) */
+    }
+
+    /* Increase "C" height by 8% (98.398125% * 1.08 = 106.269975%), expanding downward */
+    .row.trace .letters img:not(.lowercase).font-print-regular-arrow[alt="C"],
+    .row.trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="C"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-regular-arrow[alt="C"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="C"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-regular-arrow[alt="C"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-regular-arrow[alt="C"],
+    .row.trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="C"],
+    .row.trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="C"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="C"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="C"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-tracing-arrow[alt="C"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="C"] {
+        height: 106.269975% !important; /* 98.398125% * 1.08 */
+        transform: translateY(3.372269%) !important; /* -0.563656% + 3.935925% (expanding downward) */
+    }
+
+    /* Increase "I" height by 10% (133.8353929% * 1.10 = 147.21893219%), expanding downward */
+    .row.trace .letters img:not(.lowercase).font-print-regular-arrow[alt="I"],
+    .row.trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="I"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-regular-arrow[alt="I"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="I"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-regular-arrow[alt="I"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-regular-arrow[alt="I"],
+    .row.trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="I"],
+    .row.trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="I"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="I"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="I"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-tracing-arrow[alt="I"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="I"] {
+        height: 147.21893219% !important; /* 133.8353929% * 1.10 */
+        transform: translateY(4.566575%) !important; /* Keeping top position fixed while expanding downward */
+    }
+
+    /* Increase "L" height by 5% (85% * 1.05 = 89.25%), expanding downward */
+    .row.trace .letters img:not(.lowercase).font-print-regular-arrow[alt="L"],
+    .row.trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="L"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-regular-arrow[alt="L"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="L"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-regular-arrow[alt="L"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-regular-arrow[alt="L"],
+    .row.trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="L"],
+    .row.trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="L"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="L"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="L"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-tracing-arrow[alt="L"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="L"] {
+        height: 89.25% !important; /* 85% * 1.05 */
+        transform: translateY(4.4625%) !important; /* Expanding downward */
+    }
+
+    /* Increase "W" height by 7% (89.25% * 1.07 = 95.4975%), expanding upward */
+    .row.trace .letters img:not(.lowercase).font-print-regular-arrow[alt="W"],
+    .row.trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="W"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-regular-arrow[alt="W"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="W"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-regular-arrow[alt="W"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-regular-arrow[alt="W"],
+    .row.trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="W"],
+    .row.trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="W"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="W"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="W"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-tracing-arrow[alt="W"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="W"] {
+        height: 95.4975% !important; /* 89.25% * 1.07 */
+        transform: translateY(-1.9975%) !important; /* 4.25% - 6.2475% (moving up) */
+    }
+
+    /* Move "Y" up by 7% of its height */
+    .row.trace .letters img:not(.lowercase).font-print-regular-arrow[alt="Y"],
+    .row.trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="Y"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-regular-arrow[alt="Y"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="Y"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-regular-arrow[alt="Y"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-regular-arrow[alt="Y"],
+    .row.trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="Y"],
+    .row.trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="Y"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="Y"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="Y"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-tracing-arrow[alt="Y"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="Y"] {
+        height: 98.398125% !important; /* 93.7125% * 1.05 */
+        transform: translateY(2.154006%) !important; /* 9.041875% - 6.887869% (moving up by 7%) */
+    }
+
     /* Filter for tracing images is now handled conditionally in JS createLetterImg */
 
 
@@ -472,7 +957,7 @@
         color: #333; /* Default text color */
         align-items: flex-end; /* Align cursive to baseline */
         position: relative; /* Needed for 'top' property to work */
-        top: calc(var(--row-height-px) * 0.33);
+        top: calc(var(--row-height-px) * 0.2); /* Reduced from 0.33 to better align with writing lines */
     }
     .row .letters.cursive-font.tracing {
         color: #ccc; /* Lighter color for tracing */
@@ -485,6 +970,48 @@
     }
     .row.guided-copy .letters.cursive-font span:not(:first-child) {
         opacity: 0.4;
+    }
+    /* Optimize cursive beginning letters size */
+    .row.trace[data-content="beginning"] .letters.cursive-font,
+    .row.fading-trace[data-content="beginning"] .letters.cursive-font,
+    .row.guided-copy[data-content="beginning"] .letters.cursive-font {
+        font-size: calc(var(--row-height-px, 40.32px) * 1.05 + 3px) !important;
+    }
+    /* Lowercase cursive letters need additional height - increased by 12% */
+    .row.trace[data-content="beginning"][data-casing="lowercase"] .letters.cursive-font,
+    .row.fading-trace[data-content="beginning"][data-casing="lowercase"] .letters.cursive-font,
+    .row.guided-copy[data-content="beginning"][data-casing="lowercase"] .letters.cursive-font {
+        font-size: calc((var(--row-height-px, 40.32px) * 1.05 + 6px) * 1.12) !important;
+    }
+    /* Move cursive custom text downward by 12% of their height */
+    .row.trace[data-content="custom"] .letters.cursive-font,
+    .row.fading-trace[data-content="custom"] .letters.cursive-font,
+    .row.guided-copy[data-content="custom"] .letters.cursive-font {
+        transform: translateY(12%) !important;
+    }
+    /* Decrease all cursive uppercase letters height by 10% */
+    .row.trace[data-casing="uppercase"] .letters.cursive-font,
+    .row.fading-trace[data-casing="uppercase"] .letters.cursive-font,
+    .row.guided-copy[data-casing="uppercase"] .letters.cursive-font {
+        transform: scaleY(0.90) !important;
+    }
+    /* Combine transforms for cursive uppercase custom text (both downward movement and height reduction) */
+    .row.trace[data-content="custom"][data-casing="uppercase"] .letters.cursive-font,
+    .row.fading-trace[data-content="custom"][data-casing="uppercase"] .letters.cursive-font,
+    .row.guided-copy[data-content="custom"][data-casing="uppercase"] .letters.cursive-font {
+        transform: translateY(12%) scaleY(0.90) !important;
+    }
+    /* Further reduce cursive uppercase filename letters by additional 3% (total 13% reduction) */
+    .row.trace[data-content="filename"][data-casing="uppercase"] .letters.cursive-font,
+    .row.fading-trace[data-content="filename"][data-casing="uppercase"] .letters.cursive-font,
+    .row.guided-copy[data-content="filename"][data-casing="uppercase"] .letters.cursive-font {
+        transform: scaleY(0.87) !important;
+    }
+    /* Increase cursive uppercase beginning letter height by 10% from base (0.90 * 1.10 = 0.99, only 1% reduction) */
+    .row.trace[data-content="beginning"][data-casing="uppercase"] .letters.cursive-font,
+    .row.fading-trace[data-content="beginning"][data-casing="uppercase"] .letters.cursive-font,
+    .row.guided-copy[data-content="beginning"][data-casing="uppercase"] .letters.cursive-font {
+        transform: scaleY(0.99) !important;
     }
     /* Ensure Lexend Deca font is used for general print text rows */
     .row.trace .letters.lexend-deca-font,
@@ -509,7 +1036,7 @@
     .row.fill .text-line.cursive-font {
         position: relative;
         transform: none;
-        top: calc(var(--row-height-px) * 0.33);
+        top: calc(var(--row-height-px) * 0.2); /* Reduced from 0.33 to match other cursive alignment */
         left: 0;
         padding-left: 8px;
         font-size: calc(var(--row-height-px, 40.32px) * 1.279202);
@@ -535,8 +1062,246 @@
         padding-bottom: calc(var(--row-height-px, 40.32px) * 0.078);
     }
     .row.trace[data-content="filename"] .letters, .row.fading-trace[data-content="filename"] .letters, .row.guided-copy[data-content="filename"] .letters { display: flex !important; gap: 8.5px !important; align-items: center !important; }
-    .row.trace[data-content="beginning"] .letters, .row.fading-trace[data-content="beginning"] .letters, .row.guided-copy[data-content="beginning"] .letters { display: flex !important; gap: 110px !important; align-items: center !important; }
-    .row.trace[data-content="beginning"][data-casing="uppercase"] .letters, .row.fading-trace[data-content="beginning"][data-casing="uppercase"] .letters, .guided-copy[data-content="beginning"][data-casing="uppercase"] .letters { display: flex !important; gap: 95px !important; align-items: center !important; }
+    /* Beginning letters distributed across full width of writing block */
+    .row.trace[data-content="beginning"] .letters,
+    .row.fading-trace[data-content="beginning"] .letters,
+    .row.guided-copy[data-content="beginning"] .letters {
+        display: flex !important;
+        justify-content: space-between !important;
+        align-items: center !important;
+        gap: 0 !important;
+        padding-left: 12px !important;
+        padding-right: 12px !important;
+        width: 100% !important;
+        box-sizing: border-box !important;
+    }
+
+    /* Letter sizing - space-between handles all spacing */
+    .row.trace[data-content="beginning"] .letters img, .row.fading-trace[data-content="beginning"] .letters img, .row.guided-copy[data-content="beginning"] .letters img,
+    .row.trace[data-content="beginning"] .letters canvas, .row.fading-trace[data-content="beginning"] .letters canvas, .row.guided-copy[data-content="beginning"] .letters canvas {
+        max-width: 90px !important;
+        flex-shrink: 0 !important;
+    }
+
+    /* Uppercase letters */
+    .row.trace[data-content="beginning"][data-casing="uppercase"] .letters img, .row.fading-trace[data-content="beginning"][data-casing="uppercase"] .letters img, .row.guided-copy[data-content="beginning"][data-casing="uppercase"] .letters img,
+    .row.trace[data-content="beginning"][data-casing="uppercase"] .letters canvas, .row.fading-trace[data-content="beginning"][data-casing="uppercase"] .letters canvas, .row.guided-copy[data-content="beginning"][data-casing="uppercase"] .letters canvas {
+        max-width: 80px !important;
+        flex-shrink: 0 !important;
+        align-self: flex-end !important;
+        margin-bottom: 2px !important;
+    }
+
+    /* Increase height by 18% for uppercase beginning letters (non-cursive fonts only) */
+    .row.trace[data-content="beginning"][data-casing="uppercase"] .letters img:not(.cursive-font),
+    .row.fading-trace[data-content="beginning"][data-casing="uppercase"] .letters img:not(.cursive-font),
+    .row.guided-copy[data-content="beginning"][data-casing="uppercase"] .letters img:not(.cursive-font),
+    .row.trace[data-content="beginning"][data-casing="uppercase"] .letters canvas:not(.cursive-font),
+    .row.fading-trace[data-content="beginning"][data-casing="uppercase"] .letters canvas:not(.cursive-font),
+    .row.guided-copy[data-content="beginning"][data-casing="uppercase"] .letters canvas:not(.cursive-font) {
+        height: 101% !important;
+    }
+
+    /* Adjusted height for Print Regular and Print Tracing (decreased by 8% total) */
+    .row.trace[data-content="beginning"][data-casing="uppercase"] .letters img.font-print-regular:not(.font-print-regular-arrow),
+    .row.fading-trace[data-content="beginning"][data-casing="uppercase"] .letters img.font-print-regular:not(.font-print-regular-arrow),
+    .row.guided-copy[data-content="beginning"][data-casing="uppercase"] .letters img.font-print-regular:not(.font-print-regular-arrow),
+    .row.trace[data-content="beginning"][data-casing="uppercase"] .letters canvas.font-print-regular:not(.font-print-regular-arrow),
+    .row.fading-trace[data-content="beginning"][data-casing="uppercase"] .letters canvas.font-print-regular:not(.font-print-regular-arrow),
+    .row.guided-copy[data-content="beginning"][data-casing="uppercase"] .letters canvas.font-print-regular:not(.font-print-regular-arrow),
+    .row.trace[data-content="beginning"][data-casing="uppercase"] .letters img.font-print-tracing:not(.font-print-tracing-arrow),
+    .row.fading-trace[data-content="beginning"][data-casing="uppercase"] .letters img.font-print-tracing:not(.font-print-tracing-arrow),
+    .row.guided-copy[data-content="beginning"][data-casing="uppercase"] .letters img.font-print-tracing:not(.font-print-tracing-arrow),
+    .row.trace[data-content="beginning"][data-casing="uppercase"] .letters canvas.font-print-tracing:not(.font-print-tracing-arrow),
+    .row.fading-trace[data-content="beginning"][data-casing="uppercase"] .letters canvas.font-print-tracing:not(.font-print-tracing-arrow),
+    .row.guided-copy[data-content="beginning"][data-casing="uppercase"] .letters canvas.font-print-tracing:not(.font-print-tracing-arrow) {
+        height: 98% !important;
+        transform: translateY(2%) !important;
+    }
+
+    /* Adjusted height for Print Tracing Arrow (decreased by 4%) */
+    .row.trace[data-content="beginning"][data-casing="uppercase"] .letters img.font-print-tracing-arrow,
+    .row.fading-trace[data-content="beginning"][data-casing="uppercase"] .letters img.font-print-tracing-arrow,
+    .row.guided-copy[data-content="beginning"][data-casing="uppercase"] .letters img.font-print-tracing-arrow,
+    .row.trace[data-content="beginning"][data-casing="uppercase"] .letters canvas.font-print-tracing-arrow,
+    .row.fading-trace[data-content="beginning"][data-casing="uppercase"] .letters canvas.font-print-tracing-arrow,
+    .row.guided-copy[data-content="beginning"][data-casing="uppercase"] .letters canvas.font-print-tracing-arrow {
+        height: 103% !important;
+        transform: translateY(14%) !important;
+    }
+
+    /* Adjusted height for Print Regular Arrow (decreased by 4%) */
+    .row.trace[data-content="beginning"][data-casing="uppercase"] .letters img.font-print-regular-arrow,
+    .row.fading-trace[data-content="beginning"][data-casing="uppercase"] .letters img.font-print-regular-arrow,
+    .row.guided-copy[data-content="beginning"][data-casing="uppercase"] .letters img.font-print-regular-arrow,
+    .row.trace[data-content="beginning"][data-casing="uppercase"] .letters canvas.font-print-regular-arrow,
+    .row.fading-trace[data-content="beginning"][data-casing="uppercase"] .letters canvas.font-print-regular-arrow,
+    .row.guided-copy[data-content="beginning"][data-casing="uppercase"] .letters canvas.font-print-regular-arrow {
+        height: 108% !important;
+        transform: translateY(14%) !important;
+    }
+
+    /* Reduce height by 5% for V, W, X, Y uppercase arrow fonts in beginning letter option */
+    .row.trace[data-content="beginning"][data-casing="uppercase"] .letters img.font-print-tracing-arrow[alt="V"],
+    .row.trace[data-content="beginning"][data-casing="uppercase"] .letters canvas.font-print-tracing-arrow[alt="V"],
+    .row.fading-trace[data-content="beginning"][data-casing="uppercase"] .letters img.font-print-tracing-arrow[alt="V"],
+    .row.fading-trace[data-content="beginning"][data-casing="uppercase"] .letters canvas.font-print-tracing-arrow[alt="V"],
+    .row.guided-copy[data-content="beginning"][data-casing="uppercase"] .letters img.font-print-tracing-arrow[alt="V"],
+    .row.guided-copy[data-content="beginning"][data-casing="uppercase"] .letters canvas.font-print-tracing-arrow[alt="V"],
+    .row.trace[data-content="beginning"][data-casing="uppercase"] .letters img.font-print-tracing-arrow[alt="W"],
+    .row.trace[data-content="beginning"][data-casing="uppercase"] .letters canvas.font-print-tracing-arrow[alt="W"],
+    .row.fading-trace[data-content="beginning"][data-casing="uppercase"] .letters img.font-print-tracing-arrow[alt="W"],
+    .row.fading-trace[data-content="beginning"][data-casing="uppercase"] .letters canvas.font-print-tracing-arrow[alt="W"],
+    .row.guided-copy[data-content="beginning"][data-casing="uppercase"] .letters img.font-print-tracing-arrow[alt="W"],
+    .row.guided-copy[data-content="beginning"][data-casing="uppercase"] .letters canvas.font-print-tracing-arrow[alt="W"],
+    .row.trace[data-content="beginning"][data-casing="uppercase"] .letters img.font-print-tracing-arrow[alt="X"],
+    .row.trace[data-content="beginning"][data-casing="uppercase"] .letters canvas.font-print-tracing-arrow[alt="X"],
+    .row.fading-trace[data-content="beginning"][data-casing="uppercase"] .letters img.font-print-tracing-arrow[alt="X"],
+    .row.fading-trace[data-content="beginning"][data-casing="uppercase"] .letters canvas.font-print-tracing-arrow[alt="X"],
+    .row.guided-copy[data-content="beginning"][data-casing="uppercase"] .letters img.font-print-tracing-arrow[alt="X"],
+    .row.guided-copy[data-content="beginning"][data-casing="uppercase"] .letters canvas.font-print-tracing-arrow[alt="X"],
+    .row.trace[data-content="beginning"][data-casing="uppercase"] .letters img.font-print-tracing-arrow[alt="Y"],
+    .row.trace[data-content="beginning"][data-casing="uppercase"] .letters canvas.font-print-tracing-arrow[alt="Y"],
+    .row.fading-trace[data-content="beginning"][data-casing="uppercase"] .letters img.font-print-tracing-arrow[alt="Y"],
+    .row.fading-trace[data-content="beginning"][data-casing="uppercase"] .letters canvas.font-print-tracing-arrow[alt="Y"],
+    .row.guided-copy[data-content="beginning"][data-casing="uppercase"] .letters img.font-print-tracing-arrow[alt="Y"],
+    .row.guided-copy[data-content="beginning"][data-casing="uppercase"] .letters canvas.font-print-tracing-arrow[alt="Y"],
+    .row.trace[data-content="beginning"][data-casing="uppercase"] .letters img.font-print-regular-arrow[alt="V"],
+    .row.trace[data-content="beginning"][data-casing="uppercase"] .letters canvas.font-print-regular-arrow[alt="V"],
+    .row.fading-trace[data-content="beginning"][data-casing="uppercase"] .letters img.font-print-regular-arrow[alt="V"],
+    .row.fading-trace[data-content="beginning"][data-casing="uppercase"] .letters canvas.font-print-regular-arrow[alt="V"],
+    .row.guided-copy[data-content="beginning"][data-casing="uppercase"] .letters img.font-print-regular-arrow[alt="V"],
+    .row.guided-copy[data-content="beginning"][data-casing="uppercase"] .letters canvas.font-print-regular-arrow[alt="V"],
+    .row.trace[data-content="beginning"][data-casing="uppercase"] .letters img.font-print-regular-arrow[alt="W"],
+    .row.trace[data-content="beginning"][data-casing="uppercase"] .letters canvas.font-print-regular-arrow[alt="W"],
+    .row.fading-trace[data-content="beginning"][data-casing="uppercase"] .letters img.font-print-regular-arrow[alt="W"],
+    .row.fading-trace[data-content="beginning"][data-casing="uppercase"] .letters canvas.font-print-regular-arrow[alt="W"],
+    .row.guided-copy[data-content="beginning"][data-casing="uppercase"] .letters img.font-print-regular-arrow[alt="W"],
+    .row.guided-copy[data-content="beginning"][data-casing="uppercase"] .letters canvas.font-print-regular-arrow[alt="W"],
+    .row.trace[data-content="beginning"][data-casing="uppercase"] .letters img.font-print-regular-arrow[alt="X"],
+    .row.trace[data-content="beginning"][data-casing="uppercase"] .letters canvas.font-print-regular-arrow[alt="X"],
+    .row.fading-trace[data-content="beginning"][data-casing="uppercase"] .letters img.font-print-regular-arrow[alt="X"],
+    .row.fading-trace[data-content="beginning"][data-casing="uppercase"] .letters canvas.font-print-regular-arrow[alt="X"],
+    .row.guided-copy[data-content="beginning"][data-casing="uppercase"] .letters img.font-print-regular-arrow[alt="X"],
+    .row.guided-copy[data-content="beginning"][data-casing="uppercase"] .letters canvas.font-print-regular-arrow[alt="X"],
+    .row.trace[data-content="beginning"][data-casing="uppercase"] .letters img.font-print-regular-arrow[alt="Y"],
+    .row.trace[data-content="beginning"][data-casing="uppercase"] .letters canvas.font-print-regular-arrow[alt="Y"],
+    .row.fading-trace[data-content="beginning"][data-casing="uppercase"] .letters img.font-print-regular-arrow[alt="Y"],
+    .row.fading-trace[data-content="beginning"][data-casing="uppercase"] .letters canvas.font-print-regular-arrow[alt="Y"],
+    .row.guided-copy[data-content="beginning"][data-casing="uppercase"] .letters img.font-print-regular-arrow[alt="Y"],
+    .row.guided-copy[data-content="beginning"][data-casing="uppercase"] .letters canvas.font-print-regular-arrow[alt="Y"] {
+        transform: translateY(9%) scaleY(0.92) !important;
+    }
+
+    /* Move A and S down by 3% for uppercase arrow fonts in beginning letter option */
+    .row.trace[data-content="beginning"][data-casing="uppercase"] .letters img.font-print-tracing-arrow[alt="A"],
+    .row.trace[data-content="beginning"][data-casing="uppercase"] .letters canvas.font-print-tracing-arrow[alt="A"],
+    .row.fading-trace[data-content="beginning"][data-casing="uppercase"] .letters img.font-print-tracing-arrow[alt="A"],
+    .row.fading-trace[data-content="beginning"][data-casing="uppercase"] .letters canvas.font-print-tracing-arrow[alt="A"],
+    .row.guided-copy[data-content="beginning"][data-casing="uppercase"] .letters img.font-print-tracing-arrow[alt="A"],
+    .row.guided-copy[data-content="beginning"][data-casing="uppercase"] .letters canvas.font-print-tracing-arrow[alt="A"],
+    .row.trace[data-content="beginning"][data-casing="uppercase"] .letters img.font-print-tracing-arrow[alt="S"],
+    .row.trace[data-content="beginning"][data-casing="uppercase"] .letters canvas.font-print-tracing-arrow[alt="S"],
+    .row.fading-trace[data-content="beginning"][data-casing="uppercase"] .letters img.font-print-tracing-arrow[alt="S"],
+    .row.fading-trace[data-content="beginning"][data-casing="uppercase"] .letters canvas.font-print-tracing-arrow[alt="S"],
+    .row.guided-copy[data-content="beginning"][data-casing="uppercase"] .letters img.font-print-tracing-arrow[alt="S"],
+    .row.guided-copy[data-content="beginning"][data-casing="uppercase"] .letters canvas.font-print-tracing-arrow[alt="S"],
+    .row.trace[data-content="beginning"][data-casing="uppercase"] .letters img.font-print-regular-arrow[alt="A"],
+    .row.trace[data-content="beginning"][data-casing="uppercase"] .letters canvas.font-print-regular-arrow[alt="A"],
+    .row.fading-trace[data-content="beginning"][data-casing="uppercase"] .letters img.font-print-regular-arrow[alt="A"],
+    .row.fading-trace[data-content="beginning"][data-casing="uppercase"] .letters canvas.font-print-regular-arrow[alt="A"],
+    .row.guided-copy[data-content="beginning"][data-casing="uppercase"] .letters img.font-print-regular-arrow[alt="A"],
+    .row.guided-copy[data-content="beginning"][data-casing="uppercase"] .letters canvas.font-print-regular-arrow[alt="A"],
+    .row.trace[data-content="beginning"][data-casing="uppercase"] .letters img.font-print-regular-arrow[alt="S"],
+    .row.trace[data-content="beginning"][data-casing="uppercase"] .letters canvas.font-print-regular-arrow[alt="S"],
+    .row.fading-trace[data-content="beginning"][data-casing="uppercase"] .letters img.font-print-regular-arrow[alt="S"],
+    .row.fading-trace[data-content="beginning"][data-casing="uppercase"] .letters canvas.font-print-regular-arrow[alt="S"],
+    .row.guided-copy[data-content="beginning"][data-casing="uppercase"] .letters img.font-print-regular-arrow[alt="S"],
+    .row.guided-copy[data-content="beginning"][data-casing="uppercase"] .letters canvas.font-print-regular-arrow[alt="S"] {
+        transform: translateY(17%) !important;
+    }
+
+    /* Adjusted height for specific lowercase 'b' and 'h' letters in Print Regular Arrow beginning letters */
+    .row.trace[data-content="beginning"][data-casing="lowercase"] .letters img.lowercase.font-print-regular-arrow[alt="b"],
+    .row.trace[data-content="beginning"][data-casing="lowercase"] .letters img.lowercase.font-print-regular-arrow[alt="h"],
+    .row.fading-trace[data-content="beginning"][data-casing="lowercase"] .letters img.lowercase.font-print-regular-arrow[alt="b"],
+    .row.fading-trace[data-content="beginning"][data-casing="lowercase"] .letters img.lowercase.font-print-regular-arrow[alt="h"],
+    .row.guided-copy[data-content="beginning"][data-casing="lowercase"] .letters img.lowercase.font-print-regular-arrow[alt="b"],
+    .row.guided-copy[data-content="beginning"][data-casing="lowercase"] .letters img.lowercase.font-print-regular-arrow[alt="h"],
+    .row.trace[data-content="beginning"][data-casing="lowercase"] .letters canvas.lowercase.font-print-regular-arrow[alt="b"],
+    .row.trace[data-content="beginning"][data-casing="lowercase"] .letters canvas.lowercase.font-print-regular-arrow[alt="h"],
+    .row.fading-trace[data-content="beginning"][data-casing="lowercase"] .letters canvas.lowercase.font-print-regular-arrow[alt="b"],
+    .row.fading-trace[data-content="beginning"][data-casing="lowercase"] .letters canvas.lowercase.font-print-regular-arrow[alt="h"],
+    .row.guided-copy[data-content="beginning"][data-casing="lowercase"] .letters canvas.lowercase.font-print-regular-arrow[alt="b"],
+    .row.guided-copy[data-content="beginning"][data-casing="lowercase"] .letters canvas.lowercase.font-print-regular-arrow[alt="h"] {
+        height: 111% !important;
+        align-self: flex-end !important;
+    }
+
+    /* Adjusted height for Print Regular and Print Tracing uppercase letters in custom text content */
+    .row.trace[data-content="custom"] .letters img:not(.lowercase).font-print-regular:not(.font-print-regular-arrow),
+    .row.fading-trace[data-content="custom"] .letters img:not(.lowercase).font-print-regular:not(.font-print-regular-arrow),
+    .row.guided-copy[data-content="custom"] .letters img:not(.lowercase).font-print-regular:not(.font-print-regular-arrow),
+    .row.trace[data-content="custom"] .letters canvas:not(.lowercase).font-print-regular:not(.font-print-regular-arrow),
+    .row.fading-trace[data-content="custom"] .letters canvas:not(.lowercase).font-print-regular:not(.font-print-regular-arrow),
+    .row.guided-copy[data-content="custom"] .letters canvas:not(.lowercase).font-print-regular:not(.font-print-regular-arrow),
+    .row.trace[data-content="custom"] .letters img:not(.lowercase).font-print-tracing:not(.font-print-tracing-arrow),
+    .row.fading-trace[data-content="custom"] .letters img:not(.lowercase).font-print-tracing:not(.font-print-tracing-arrow),
+    .row.guided-copy[data-content="custom"] .letters img:not(.lowercase).font-print-tracing:not(.font-print-tracing-arrow),
+    .row.trace[data-content="custom"] .letters canvas:not(.lowercase).font-print-tracing:not(.font-print-tracing-arrow),
+    .row.fading-trace[data-content="custom"] .letters canvas:not(.lowercase).font-print-tracing:not(.font-print-tracing-arrow),
+    .row.guided-copy[data-content="custom"] .letters canvas:not(.lowercase).font-print-tracing:not(.font-print-tracing-arrow) {
+        height: 100% !important;
+        align-self: flex-end !important;
+    }
+
+    /* Adjusted height for Print Regular and Print Tracing uppercase letters in whole file name content */
+    .row.trace[data-content="filename"] .letters img:not(.lowercase).font-print-regular:not(.font-print-regular-arrow),
+    .row.fading-trace[data-content="filename"] .letters img:not(.lowercase).font-print-regular:not(.font-print-regular-arrow),
+    .row.guided-copy[data-content="filename"] .letters img:not(.lowercase).font-print-regular:not(.font-print-regular-arrow),
+    .row.trace[data-content="filename"] .letters canvas:not(.lowercase).font-print-regular:not(.font-print-regular-arrow),
+    .row.fading-trace[data-content="filename"] .letters canvas:not(.lowercase).font-print-regular:not(.font-print-regular-arrow),
+    .row.guided-copy[data-content="filename"] .letters canvas:not(.lowercase).font-print-regular:not(.font-print-regular-arrow),
+    .row.trace[data-content="filename"] .letters img:not(.lowercase).font-print-tracing:not(.font-print-tracing-arrow),
+    .row.fading-trace[data-content="filename"] .letters img:not(.lowercase).font-print-tracing:not(.font-print-tracing-arrow),
+    .row.guided-copy[data-content="filename"] .letters img:not(.lowercase).font-print-tracing:not(.font-print-tracing-arrow),
+    .row.trace[data-content="filename"] .letters canvas:not(.lowercase).font-print-tracing:not(.font-print-tracing-arrow),
+    .row.fading-trace[data-content="filename"] .letters canvas:not(.lowercase).font-print-tracing:not(.font-print-tracing-arrow),
+    .row.guided-copy[data-content="filename"] .letters canvas:not(.lowercase).font-print-tracing:not(.font-print-tracing-arrow) {
+        height: 100% !important;
+        align-self: flex-end !important;
+    }
+
+    /* REMOVED: Incorrect positioning override that made letters sit too low
+     * All modes now use the correct custom mode positioning (translateY(2px))
+     * This was causing inconsistency between beginning/filename/custom modes
+     */
+    /* .row.trace[data-content="beginning"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-regular-arrow,
+    .row.trace[data-content="beginning"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-regular-arrow,
+    .row.fading-trace[data-content="beginning"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-regular-arrow,
+    .row.fading-trace[data-content="beginning"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-regular-arrow,
+    .row.guided-copy[data-content="beginning"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-regular-arrow,
+    .row.guided-copy[data-content="beginning"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-regular-arrow,
+    .row.trace[data-content="beginning"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-tracing-arrow,
+    .row.trace[data-content="beginning"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-tracing-arrow,
+    .row.fading-trace[data-content="beginning"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-tracing-arrow,
+    .row.fading-trace[data-content="beginning"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-tracing-arrow,
+    .row.guided-copy[data-content="beginning"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-tracing-arrow,
+    .row.guided-copy[data-content="beginning"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-tracing-arrow,
+    .row.trace[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-regular-arrow,
+    .row.trace[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-regular-arrow,
+    .row.fading-trace[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-regular-arrow,
+    .row.fading-trace[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-regular-arrow,
+    .row.guided-copy[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-regular-arrow,
+    .row.guided-copy[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-regular-arrow,
+    .row.trace[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-tracing-arrow,
+    .row.trace[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-tracing-arrow,
+    .row.fading-trace[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-tracing-arrow,
+    .row.fading-trace[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-tracing-arrow,
+    .row.guided-copy[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-tracing-arrow,
+    .row.guided-copy[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-tracing-arrow {
+        top: -3% !important;
+    } */
     .row.trace .letters img.larger, .row.fading-trace .letters img.larger, .row.guided-copy .letters img.larger { height: 65% !important; align-self: flex-end !important; }
     .row.fill[data-content="filename"] .text-line span,
     .row.fill[data-content="custom"] .text-line span { font-family: 'Quicksand', sans-serif; color: #555; }
@@ -1050,6 +1815,32 @@
         height: 112.7% !important;
     }
 
+    /* REMOVED: Filename-specific height and transform overrides (lines 1140-1338)
+     * These overrides created inconsistency with custom and beginning modes.
+     * All modes now use the same baseline positioning (transform: translateY(2px) from custom mode).
+     * This eliminates 200+ lines of per-letter compensation that were needed because
+     * the height: 115% and translateY(-4px) approach was fundamentally incompatible.
+     */
+    /*
+    .row.trace[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-regular-arrow,
+    .row.trace[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-regular-arrow,
+    .row.fading-trace[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-regular-arrow,
+    .row.fading-trace[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-regular-arrow,
+    .row.guided-copy[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-regular-arrow,
+    .row.guided-copy[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-regular-arrow,
+    .row.trace[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-tracing-arrow,
+    .row.trace[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-tracing-arrow,
+    .row.fading-trace[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-tracing-arrow,
+    .row.fading-trace[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-tracing-arrow,
+    .row.guided-copy[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-tracing-arrow,
+    .row.guided-copy[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-tracing-arrow {
+        height: 115% !important;
+        transform: translateY(-4px) !important;
+    }
+
+    [... plus 180+ lines of per-letter adjustments for I, A, Y, S, W, C, G, V, X, L, H ...]
+    */
+
     /* Original rule for specified UPPERCASE arrow fonts to move them up by 15% */
     .row.trace .letters img:not(.lowercase).font-print-regular-arrow[alt="A"],
     .row.trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="A"],
@@ -1418,98 +2209,102 @@
     </style>
 </head>
 <body>
+<div id="menuOverlay" class="menu-overlay"></div>
 <div class="layout">
-    <div id="menuOverlay" class="menu-overlay"></div>
     <div class="panel">
         <div class="panel-header">
-            <h2>Writing Worksheet</h2>
+            <h2 data-translate="settings.title">Writing Worksheet</h2>
             <button id="menuCloseBtn" class="menu-close-btn">&times;</button>
         </div>
         <div class="panel-content">
             <div class="accordion-item">
-                <button class="accordion-button">Page Setup</button>
+                <button class="accordion-button" data-translate="settings.pageSetup">Page Setup</button>
                 <div class="accordion-content">
-                    <label for="pageSizeSelect">Page Size:</label>
+                    <label for="pageSizeSelect" data-translate="settings.pageSize">Page Size:</label>
                     <select id="pageSizeSelect">
-                        <option value="letter">Letter (Portrait)</option>
-                        <option value="letter-landscape">Letter (Landscape)</option>
-                        <option value="a4">A4 (Portrait)</option>
-                        <option value="a4-landscape">A4 (Landscape)</option>
-                        <option value="custom">Custom</option>
+                        <option value="letter" selected data-translate="pageSize.letterPortrait">Letter Portrait (8.5×11")</option>
+                        <option value="letter-landscape" data-translate="pageSize.letterLandscape">Letter Landscape (11×8.5")</option>
+                        <option value="a4" data-translate="pageSize.a4Portrait">A4 Portrait (210×297mm)</option>
+                        <option value="a4-landscape" data-translate="pageSize.a4Landscape">A4 Landscape (297×210mm)</option>
+                        <option value="custom" data-translate="pageSize.custom">Custom</option>
                     </select>
                     <div id="customPageSizeInputs" style="display:none; margin-top: 10px; display:flex; flex-direction:column; gap:10px;">
                         <div>
-                            <label for="customWidth">Width (px):</label>
+                            <label for="customWidth" data-translate="settings.width">Width (px):</label>
                             <input type="number" id="customWidth" value="816" min="100">
                         </div>
                         <div>
-                            <label for="customHeight">Height (px):</label>
+                            <label for="customHeight" data-translate="settings.height">Height (px):</label>
                             <input type="number" id="customHeight" value="1056" min="100">
                         </div>
                     </div>
-                    <h4 style="margin-top:20px;">Background</h4>
-                    <label for="backgroundThemeSelect">Background Theme:</label>
+                    <h4 style="margin-top:20px;" data-translate="decoration.background">Background</h4>
+                    <label for="backgroundThemeSelect" data-translate="decoration.backgroundTheme">Background Theme:</label>
                     <select id="backgroundThemeSelect">
-                        <option value="none">None</option>
+                        <option value="none" data-translate="decoration.none">None</option>
                     </select>
-                    <div id="backgroundDictionary"><div style="padding:10px; text-align:center; color:var(--app-text-secondary-dark-theme);">Select a theme for backgrounds.</div></div>
-                    <label for="backgroundOpacitySlider">Background Opacity:</label>
+                    <div id="backgroundDictionary"><div style="padding:10px; text-align:center; color:var(--app-text-secondary-dark-theme);" data-translate="message.selectBackgroundTheme">Select a theme for backgrounds.</div></div>
+                    <label for="backgroundOpacitySlider" data-translate="decoration.backgroundOpacity">Background Opacity:</label>
                     <input type="range" id="backgroundOpacitySlider" min="0" max="1" step="0.05" value="1" disabled>
 
-                    <h4 style="margin-top:20px;">Border</h4>
-                    <label for="borderThemeSelect">Border Theme:</label>
+                    <h4 style="margin-top:20px;" data-translate="decoration.border">Border</h4>
+                    <label for="borderThemeSelect" data-translate="decoration.borderTheme">Border Theme:</label>
                     <select id="borderThemeSelect">
-                        <option value="none">None</option>
+                        <option value="none" data-translate="decoration.none">None</option>
                     </select>
-                    <div id="borderDictionary"><div style="padding:10px; text-align:center; color:var(--app-text-secondary-dark-theme);">Select a theme to see borders.</div></div>
-                    <label for="borderOpacitySlider">Border Opacity:</label>
+                    <div id="borderDictionary"><div style="padding:10px; text-align:center; color:var(--app-text-secondary-dark-theme);" data-translate="message.selectBorderTheme">Select a theme to see borders.</div></div>
+                    <label for="borderOpacitySlider" data-translate="decoration.borderOpacity">Border Opacity:</label>
                     <input type="range" id="borderOpacitySlider" min="0" max="1" value="1" step="0.05" disabled>
                 </div>
             </div>
 
             <div class="accordion-item">
-                <button class="accordion-button">Image Library</button>
+                <button class="accordion-button" data-translate="library.title">Image Library</button>
                 <div class="accordion-content">
-                    <label>Image Mode:</label>
+                    <label data-translate="library.imageMode">Image Mode:</label>
                     <div class="radio-group">
                         <input type="radio" id="exerciseImageMode" name="imageMode" value="exercise" checked>
-                        <label for="exerciseImageMode">Exercise Image</label>
+                        <label for="exerciseImageMode" data-translate="imageMode.exercise">Exercise Image</label>
                     </div>
                     <div class="radio-group">
                         <input type="radio" id="customImageMode" name="imageMode" value="custom">
-                        <label for="customImageMode">Custom Images</label>
+                        <label for="customImageMode" data-translate="imageMode.custom">Custom Images</label>
                     </div>
 
                     <div id="exerciseImageSection" style="margin-top: 15px;">
-                        <label>Pick an exercise image (optional):</label>
+                        <label data-translate="library.pickExercise">Pick an exercise image (optional):</label>
                         <select id="themeSelect"></select>
-                        <input id="searchInput" placeholder="Search images..." style="margin-top:10px;"/>
+                        <input id="searchInput" data-translate-placeholder="library.searchPlaceholder" placeholder="Search images..." style="margin-top:10px;"/>
                         <div id="imageFeedback" style="display:none; border:1px solid var(--app-border-dark); padding:10px; text-align:center; margin-top:10px;">
                             <img id="thumbnailPreview" style="width:100%; height:140px; object-fit:contain; margin-bottom:8px; background:white; border-radius:4px;"/>
                             <div id="imageStatusText" style="margin-bottom:8px;"></div>
-                            <button onclick="unselectImage()" style="background:var(--app-accent-danger); border:none; color:white; padding:5px 10px; border-radius:4px; cursor:pointer;">Unselect Image</button>
+                            <button onclick="unselectImage()" style="background:var(--app-accent-danger); border:none; color:white; padding:5px 10px; border-radius:4px; cursor:pointer;" data-translate="button.unselectImage">Unselect Image</button>
                         </div>
-                        <div id="imagePrompt" style="font-size:13px; color:var(--app-text-secondary-dark-theme); margin-top:10px;">Please select an image to include.</div>
+                        <div id="imagePrompt" style="font-size:13px; color:var(--app-text-secondary-dark-theme); margin-top:10px;" data-translate="message.selectImageToInclude">Please select an image to include.</div>
                     </div>
                      <div id="customImageSection" style="display: none; margin-top: 15px;">
                         <div id="customImageSelectionPreview" style="display:none; border:1px solid var(--app-border-dark); padding:10px; text-align:center; margin-bottom:10px;">
                             <img id="customImageThumbnailPreview" style="width:100%; height:80px; object-fit:contain; margin-bottom:8px; background:white; border-radius:4px;"/>
                             <div id="customImageStatusText" style="margin-bottom:8px;"></div>
-                            <button id="clearCustomImageSelectionBtn" style="background:var(--app-accent-danger); border:none; color:white; padding:5px 10px; border-radius:4px; cursor:pointer;">Clear Selection</button>
+                            <button id="clearCustomImageSelectionBtn" style="background:var(--app-accent-danger); border:none; color:white; padding:5px 10px; border-radius:4px; cursor:pointer;" data-translate="button.clearSelection">Clear Selection</button>
                         </div>
                         <p style="font-size:13px; color:var(--app-text-secondary-dark-theme); margin-bottom:10px;">Select an image below and click 'Add' to place it on the page.</p>
-                        <button id="addSelectedCustomImageBtn" style="background: var(--app-accent-primary); color: white;" disabled>Add Selected Image</button>
+                        <button id="addSelectedCustomImageBtn" style="background: var(--app-accent-primary); color: white;" disabled data-translate="button.addSelectedImage">Add Selected Image</button>
                     </div>
                     <div id="dictionary"></div>
                 </div>
             </div>
 
             <div class="accordion-item">
-                <button class="accordion-button">Upload Custom Images</button>
+                <button class="accordion-button" data-translate="library.uploadTitle">Upload Custom Images</button>
                 <div class="accordion-content">
-                    <label for="imageUploadInput">Select image(s) to upload:</label>
-                    <input type="file" id="imageUploadInput" multiple accept="image/*">
-                    <label style="margin-top:10px;">Your Uploaded Images:</label>
+                    <label data-translate="library.selectUpload">Select image(s) to upload:</label>
+                    <div style="margin: 10px 0;">
+                        <button type="button" id="customFileButton" class="action-button" style="padding: 8px 16px; font-size: 14px;" data-translate="library.chooseFiles">Choose Files</button>
+                        <span id="fileSelectionText" style="margin-left: 10px; color: var(--app-text-secondary-dark-theme);" data-translate="library.noFileChosen">No file chosen</span>
+                        <input type="file" id="imageUploadInput" multiple accept="image/*" style="position: absolute; left: -9999px;">
+                    </div>
+                    <label style="margin-top:10px;" data-translate="library.uploadedImages">Your Uploaded Images:</label>
                     <div id="uploadedImagesPreview"></div>
                 </div>
             </div>
@@ -1526,59 +2321,67 @@
 
         <div id="object-context-toolbar">
             <div class="toolbar-group">
-                <button id="bringForwardBtn" title="Bring Forward" class="context-btn"><i class="fas fa-layer-group" style="transform: translateY(-2px);"></i></button>
-                <button id="sendBackwardBtn" title="Send Backward" class="context-btn"><i class="fas fa-layer-group" style="transform: translateY(2px) scaleY(-1);"></i></button>
+                <button id="bringForwardBtn" data-translate-title="toolbar.bringForward" title="Bring Forward" class="context-btn"><i class="fas fa-layer-group" style="transform: translateY(-2px);"></i></button>
+                <button id="sendBackwardBtn" data-translate-title="toolbar.sendBackward" title="Send Backward" class="context-btn"><i class="fas fa-layer-group" style="transform: translateY(2px) scaleY(-1);"></i></button>
             </div>
             <div class="toolbar-group">
                 <div class="toolbar-item">
-                    <button class="context-btn" id="alignBtn" title="Align"><i class="fas fa-th"></i></button>
+                    <button class="context-btn" id="alignBtn" data-translate-title="toolbar.align" title="Align"><i class="fas fa-th"></i></button>
                     <div class="dropdown-content" id="alignDropdown" style="min-width: 220px; padding: 12px;">
                         <p style="font-size:11px; margin-bottom:5px; color:#555;">Align Selected:</p>
                         <div>
-                            <button class="context-btn" id="alignLeftBtn" title="Align Left"><i class="fas fa-align-left"></i></button>
-                            <button class="context-btn" id="alignHCenterBtn" title="Center Horizontally"><i class="fas fa-align-center"></i></button>
-                            <button class="context-btn" id="alignRightBtn" title="Align Right"><i class="fas fa-align-right"></i></button>
+                            <button class="context-btn" id="alignLeftBtn" data-translate-title="toolbar.alignLeft" title="Align Left"><i class="fas fa-align-left"></i></button>
+                            <button class="context-btn" id="alignHCenterBtn" data-translate-title="toolbar.centerH" title="Center Horizontally"><i class="fas fa-align-center"></i></button>
+                            <button class="context-btn" id="alignRightBtn" data-translate-title="toolbar.alignRight" title="Align Right"><i class="fas fa-align-right"></i></button>
                         </div>
                         <div style="margin-top: 5px;">
-                            <button class="context-btn" id="alignTopBtn" title="Align Top"><i class="fas fa-long-arrow-alt-up"></i></button>
-                            <button class="context-btn" id="alignVCenterBtn" title="Center Vertically"><i class="fas fa-grip-lines-vertical"></i></button>
-                            <button class="context-btn" id="alignBottomBtn" title="Align Bottom"><i class="fas fa-long-arrow-alt-down"></i></button>
+                            <button class="context-btn" id="alignTopBtn" data-translate-title="toolbar.alignTop" title="Align Top"><i class="fas fa-long-arrow-alt-up"></i></button>
+                            <button class="context-btn" id="alignVCenterBtn" data-translate-title="toolbar.centerV" title="Center Vertically"><i class="fas fa-grip-lines-vertical"></i></button>
+                            <button class="context-btn" id="alignBottomBtn" data-translate-title="toolbar.alignBottom" title="Align Bottom"><i class="fas fa-long-arrow-alt-down"></i></button>
                         </div>
                         <hr style="margin:8px 0; border:none; border-top:1px solid #eee;">
                         <p style="font-size:11px; margin-bottom:5px; color:#555;">Align to Page:</p>
                         <div>
-                            <button class="context-btn" id="centerHCanvasBtn" title="Center on Page Horizontally"><i class="fas fa-arrows-alt-h"></i></button>
-                            <button class="context-btn" id="centerVCanvasBtn" title="Center on Page Vertically"><i class="fas fa-arrows-alt-v"></i></button>
+                            <button class="context-btn" id="centerHCanvasBtn" data-translate-title="toolbar.centerPageH" title="Center on Page Horizontally"><i class="fas fa-arrows-alt-h"></i></button>
+                            <button class="context-btn" id="centerVCanvasBtn" data-translate-title="toolbar.centerPageV" title="Center on Page Vertically"><i class="fas fa-arrows-alt-v"></i></button>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="toolbar-group">
-                <button id="cropBtn" title="Crop Overflow" class="context-btn" style="display: none;"><i class="fas fa-crop-alt"></i></button>
-                <button id="lockBtn" title="Lock" class="context-btn">
+                <button id="cropBtn" data-translate-title="toolbar.cropOverflow" title="Crop Overflow" class="context-btn" style="display: none;"><i class="fas fa-crop-alt"></i></button>
+                <button id="lockBtn" data-translate-title="toolbar.lock" title="Lock" class="context-btn">
                     <i id="lockIcon" class="fas fa-lock-open"></i>
                 </button>
-                <button id="toolbarDeleteBtn" title="Delete" class="context-btn"><i class="fas fa-trash-alt"></i></button>
+                <button id="toolbarDeleteBtn" data-translate-title="toolbar.delete" title="Delete" class="context-btn"><i class="fas fa-trash-alt"></i></button>
             </div>
         </div>
 
         <div class="top-right-actions">
-            <button id="addRowBtn" class="action-button accent"><i class="fas fa-pen-square"></i> Add Row</button>
+            <div class="zoom-controls">
+                <button id="zoomOutBtn" class="zoom-btn" title="Zoom Out" data-translate-title="toolbar.zoomOut"><i class="fas fa-search-minus"></i></button>
+                <span id="zoomPercentage" class="zoom-percentage">100%</span>
+                <button id="zoomInBtn" class="zoom-btn" title="Zoom In" data-translate-title="toolbar.zoomIn"><i class="fas fa-search-plus"></i></button>
+                <button id="zoomResetBtn" class="zoom-btn" title="Reset Zoom" data-translate-title="toolbar.resetZoom"><i class="fas fa-compress-arrows-alt"></i></button>
+            </div>
+            <button id="addRowBtn" class="action-button accent" data-translate="button.addRow"><i class="fas fa-pen-square"></i> Add Row</button>
             <div class="dropdown-container">
-                <button id="downloadDropdownBtn" class="action-button secondary">Download <i class="fas fa-caret-down" style="margin-left: 5px;"></i></button>
+                <button id="downloadDropdownBtn" class="action-button secondary" data-translate="button.download">Download <i class="fas fa-caret-down" style="margin-left: 5px;"></i></button>
                 <div id="downloadDropdownContent" class="dropdown-content">
-                    <button id="downloadPdfBtn">Download as PDF</button>
-                    <button id="downloadJpegBtn">Download as JPEG</button>
+                    <button id="downloadPdfBtn" data-translate="button.downloadPdf">Download as PDF</button>
+                    <button id="downloadJpegBtn" data-translate="button.downloadJpeg">Download as JPEG</button>
                     <label class="checkbox-label">
-                        <input type="checkbox" id="grayscaleToggle" />Grayscale
+                        <input type="checkbox" id="grayscaleToggle" /><span data-translate="settings.grayscale">Grayscale</span>
                     </label>
                 </div>
             </div>
-            <button id="clearAllBtn" class="action-button danger">Clear All</button>
+            <button id="clearAllBtn" class="action-button danger" data-translate="button.clearAll">Clear All</button>
         </div>
 
         <div class="tab-content-wrapper">
-            <div class="canvas-container-wrapper" id="worksheet"></div>
+            <div class="canvas-container-wrapper">
+                <div id="worksheet"></div>
+            </div>
         </div>
     </div>
 </div>
@@ -1587,75 +2390,73 @@
     <div class="accordion-item">
         <button class="accordion-button">Row 1</button>
         <div class="accordion-content">
-            <label>Row Type:</label>
+            <label data-translate="row.type">Row Type:</label>
             <select class="mode">
-                <option value="trace">Trace</option>
-                <option value="fading-trace">Fading Trace</option>
-                <option value="guided-copy">Guided Copy</option>
-                <option value="fill"></option>
+                <option value="trace" data-translate="rowType.trace">Trace</option>
+                <option value="fading-trace" data-translate="rowType.fadingTrace">Fading Trace</option>
+                <option value="guided-copy" data-translate="rowType.guidedCopy">Guided Copy</option>
             </select>
-            <label>Font Style:</label>
+            <label data-translate="row.fontStyle">Font Style:</label>
             <select class="font-style">
-                <option value="print/regular">Print Regular</option>
-                <option value="print/regular arrow">Print Regular Arrow</option>
-                <option value="print/tracing">Print Tracing</option>
-                <option value="print/tracing arrow">Print Tracing Arrow</option>
-                <option value="cursive">Cursive</option>
+                <option value="print/regular" data-translate="fontStyle.printRegular">Print Regular</option>
+                <option value="print/regular arrow" data-translate="fontStyle.printRegularArrow">Print Regular Arrow</option>
+                <option value="print/tracing" data-translate="fontStyle.printTracing">Print Tracing</option>
+                <option value="print/tracing arrow" data-translate="fontStyle.printTracingArrow">Print Tracing Arrow</option>
+                <option value="cursive" data-translate="fontStyle.cursive">Cursive</option>
             </select>
-            <label>Content:</label>
+            <label data-translate="row.content">Content:</label>
             <select class="content">
-                <option value="empty">Empty</option>
-                <option value="beginning">Beginning Letter</option>
-                <option value="filename">Whole File Name</option>
-                <option value="custom">Custom Text</option>
-                <option value="pre-writing"></option>
+                <option value="empty" data-translate="content.empty">Empty</option>
+                <option value="beginning" data-translate="content.beginningLetter">Beginning Letter</option>
+                <option value="filename" data-translate="content.wholeFileName">Whole File Name</option>
+                <option value="custom" data-translate="content.customText">Custom Text</option>
             </select>
             <div class="case-options">
-                <label>Case:</label>
+                <label data-translate="row.case">Case:</label>
                 <select class="case">
-                    <option value="uppercase">Upper-case</option>
-                    <option value="lowercase">Lower-case</option>
-                    <option value="title">Title Case</option>
+                    <option value="uppercase" data-translate="case.uppercase">Upper-case</option>
+                    <option value="lowercase" data-translate="case.lowercase">Lower-case</option>
+                    <option value="title" data-translate="case.titleCase">Title Case</option>
                 </select>
             </div>
             <div class="stroke-options" style="display:none;">
-                <label>Stroke Type:</label>
+                <label data-translate="row.strokeType">Stroke Type:</label>
                 <select class="stroke-type">
-                    <option value="vertical">Vertical Line</option>
-                    <option value="horizontal">Horizontal Line</option>
-                    <option value="circle">Circle</option>
-                    <option value="zigzag">Zig-Zag Line</option>
+                    <option value="vertical" data-translate="stroke.vertical">Vertical Line</option>
+                    <option value="horizontal" data-translate="stroke.horizontal">Horizontal Line</option>
+                    <option value="circle" data-translate="stroke.circle">Circle</option>
+                    <option value="zigzag" data-translate="stroke.zigzag">Zig-Zag Line</option>
                 </select>
             </div>
-            <textarea class="custom-text-input" placeholder="Enter custom trace text here..." style="display:none; margin-top: 10px;"></textarea>
-            <button class="delete-row-btn" style="background-color: var(--app-accent-danger); color: white; border: none;">Delete Row</button>
+            <textarea class="custom-text-input" data-translate-placeholder="row.customTextPlaceholder" placeholder="Enter custom trace text here..." style="display:none; margin-top: 10px;"></textarea>
+            <button class="delete-row-btn" style="background-color: var(--app-accent-danger); color: white; border: none;" data-translate="button.deleteRow">Delete Row</button>
         </div>
     </div>
 </template>
 
 <template id="textToolsTpl">
     <div class="accordion-item">
-        <button class="accordion-button">Text Tools</button>
+        <button class="accordion-button" data-translate="settings.textTools">Text Tools</button>
         <div class="accordion-content">
-            <h4>Add New Text</h4>
-            <label for="textInput">Content:</label><input type="text" id="textInput" placeholder="Hello!">
-            <button id="addTextBtn">Add Text to Worksheet</button>
-            <h4 style="margin-top:20px;">Selected Text Properties</h4>
-            <label for="textColor">Color:</label><input type="color" id="textColor" value="#333333" disabled>
-            <label for="fontSize">Size:</label><input type="number" id="fontSize" value="48" min="8" disabled>
-            <label for="fontFamily">Font:</label>
+            <h4 data-translate="text.addNewTitle">Add New Text</h4>
+            <label for="textInput" data-translate="text.content">Content:</label><input type="text" id="textInput" data-translate-placeholder="text.placeholder" placeholder="New Text">
+            <button id="addTextBtn" data-translate="button.addText">Add Text to Worksheet</button>
+            <h4 style="margin-top:20px;" data-translate="text.selectedProperties">Selected Text Properties</h4>
+            <label for="textColor" data-translate="text.color">Color:</label><input type="color" id="textColor" value="#333333" disabled>
+            <label for="fontSize" data-translate="text.size">Size:</label><input type="number" id="fontSize" value="48" min="8" disabled readonly>
+            <label for="fontFamily" data-translate="text.font">Font:</label>
             <select id="fontFamily" disabled>
+                <option value="Arial" selected>Arial</option>
+                <option value="Verdana">Verdana</option>
                 <option value="Lexend Deca">Lexend Deca</option>
                 <option value="Baloo 2">Baloo 2</option>
                 <option value="Nunito">Nunito</option>
                 <option value="Quicksand">Quicksand</option>
                 <option value="Fredoka">Fredoka</option>
-                <option value="Arial">Arial</option>
-                <option value="Verdana">Verdana</option>
             </select>
-            <label for="textStrokeColor">Outline Color:</label><input type="color" id="textStrokeColor" value="#000000" disabled>
-            <label for="textStrokeWidth">Outline (0-10):</label><input type="range" id="textStrokeWidth" min="0" max="10" value="0" step="0.5" disabled>
-            <button id="toolbarDeleteSelectedTextBtn" style="background:var(--app-accent-danger); color:white; margin-top:15px; display:none;">Delete Selected Text</button>
+            <label for="textStrokeColor" data-translate="text.outlineColor">Outline Color:</label><input type="color" id="textStrokeColor" value="#000000" disabled>
+            <label for="textStrokeWidth" data-translate="text.outlineWidth">Outline (0-10):</label><input type="range" id="textStrokeWidth" min="0" max="10" value="0" step="0.5" disabled>
+            <button id="toolbarDeleteSelectedTextBtn" style="background:var(--app-accent-danger); color:white; margin-top:15px; display:none;" data-translate="button.deleteSelectedText">Delete Selected Text</button>
         </div>
     </div>
 </template>
@@ -1672,7 +2473,9 @@
  */
 async function replaceLetterImagesWithCanvases() {
   // Only target SVG images that are still being used (i.e., not for cursive font which is now text)
-  const letterImgs = document.querySelectorAll('#worksheet img[src$=".svg"]');
+  const letterImgs = document.querySelectorAll('#worksheet img[src*=".svg"]');
+  console.log(`[SVG-TO-CANVAS] Found ${letterImgs.length} SVG images to convert`);
+  let converted = 0;
   for (const img of letterImgs) {
     try {
       // FIX: Get computed opacity and filter from the original element before it's replaced.
@@ -1695,15 +2498,11 @@ async function replaceLetterImagesWithCanvases() {
       canvas.width = image.width * (canvas.height / image.height);
 
       const ctx = canvas.getContext("2d");
-      // Apply the captured filter to the canvas context before drawing for optimal download clarity
-      if (filter && filter !== 'none') {
-        ctx.filter = filter;
-      }
+      // FIXED: Do NOT apply filter to canvas - it causes dark blocks in downloads
+      // The raw SVG renders correctly with just opacity applied
       ctx.globalAlpha = opacity;
 
-
       ctx.drawImage(image, 0, 0, canvas.width, canvas.height);
-      ctx.filter = 'none'; // Reset filter after drawing for subsequent operations
 
       canvas.className = img.className;
       canvas.setAttribute("alt", img.getAttribute("alt") || "");
@@ -1744,15 +2543,82 @@ async function captureWorksheetAsCanvas() {
         setTimeout(async () => {
             const worksheet = document.getElementById('worksheet');
             const originalTransform = worksheet.style.transform;
+            const originalTransformOrigin = worksheet.style.transformOrigin;
             worksheet.style.transform = 'scale(1)';
+            worksheet.style.transformOrigin = 'top left';
 
             try {
                 const canvas = await html2canvas(worksheet, {
                     scale: 6, // For ~300 DPI quality
                     useCORS: true,
+                    allowTaint: true,
                     backgroundColor: "#ffffff",
-                    logging: false,
+                    logging: true,
                     onclone: (clonedDoc) => {
+                        // FIX: Reset BOTH transform-origin and flex alignment for proper cursive positioning in downloads
+                        const clonedWorksheet = clonedDoc.getElementById('worksheet');
+                        if (clonedWorksheet) {
+                            clonedWorksheet.style.transformOrigin = 'top left';
+                        }
+
+                        // Also reset flex alignment to flex-start (was changed to center for screen display)
+                        const clonedWrapper = clonedDoc.querySelector('.tab-content-wrapper');
+                        if (clonedWrapper) {
+                            clonedWrapper.style.alignItems = 'flex-start';
+                        }
+
+                        // FIX: Copy CSS variable --row-height-px from original blocks to cloned blocks
+                        // html2canvas doesn't properly copy CSS custom properties
+                        const originalBlocks = document.querySelectorAll('.editable-block.row-block');
+                        const clonedBlocks = clonedDoc.querySelectorAll('.editable-block.row-block');
+                        console.log('[CURSIVE DEBUG] Original blocks:', originalBlocks.length, 'Cloned blocks:', clonedBlocks.length);
+                        originalBlocks.forEach((originalBlock, index) => {
+                            if (clonedBlocks[index]) {
+                                const rowHeightValue = window.getComputedStyle(originalBlock).getPropertyValue('--row-height-px');
+                                console.log(`[CURSIVE DEBUG] Block ${index}: ORIGINAL --row-height-px = "${rowHeightValue}"`);
+
+                                // Copy the variable to clone FIRST
+                                if (rowHeightValue) {
+                                    clonedBlocks[index].style.setProperty('--row-height-px', rowHeightValue);
+                                }
+
+                                // Now check both original and cloned cursive elements
+                                const originalCursive = originalBlock.querySelector('.cursive-font');
+                                const clonedCursive = clonedBlocks[index].querySelector('.cursive-font');
+
+                                if (originalCursive && clonedCursive) {
+                                    const originalTransform = window.getComputedStyle(originalCursive).transform;
+                                    const originalTop = window.getComputedStyle(originalCursive).top;
+
+                                    console.log(`[CURSIVE DEBUG] Block ${index} transform = "${originalTransform}", top = "${originalTop}"`);
+
+                                    // Check if this is custom text with translateY transform
+                                    // Computed style returns "matrix" or "none", not "translateY"
+                                    if (originalTransform && originalTransform !== 'none') {
+                                        // For custom text cursive with translateY(12%), the matrix is: matrix(1, 0, 0, 1, 0, Y)
+                                        // where Y is the vertical translation in pixels
+                                        const matrixMatch = originalTransform.match(/matrix\([^,]+,\s*[^,]+,\s*[^,]+,\s*[^,]+,\s*[^,]+,\s*([^)]+)\)/);
+
+                                        if (matrixMatch) {
+                                            const translateYPx = parseFloat(matrixMatch[1]);
+                                            console.log(`[CURSIVE DEBUG] Block ${index} Matrix translateY = ${translateYPx}px`);
+
+                                            if (Math.abs(translateYPx) > 0.1) {
+                                                // FIX: Remove transform and add 84% of it to top
+                                                // Full transform (1.0) makes it too low, 0.81 still slightly too high
+                                                clonedCursive.style.setProperty('transform', 'none', 'important');
+                                                const currentTopPx = parseFloat(originalTop);
+                                                const transformOffset = translateYPx * 0.84;
+                                                const newTopPx = currentTopPx + transformOffset;
+                                                clonedCursive.style.top = `${newTopPx}px`;
+                                                console.log(`[CURSIVE DEBUG] Block ${index} FIXED: Removed transform, adjusted top from ${originalTop} to ${newTopPx}px (added 84%: ${transformOffset.toFixed(2)}px)`);
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        });
+
                         clonedDoc.querySelectorAll('.editable-block.row-block').forEach(block => {
                             const containerWidth = block.clientWidth;
                             const contentContainer = block.querySelector('.letters, .text-line');
@@ -1813,6 +2679,7 @@ async function captureWorksheetAsCanvas() {
                     }
                 });
                 worksheet.style.transform = originalTransform;
+                worksheet.style.transformOrigin = originalTransformOrigin;
                 // Re-render the worksheet to restore original interactive elements (like SVGs)
                 // after the canvas capture is complete.
                 justDownloaded = true;
@@ -1821,6 +2688,7 @@ async function captureWorksheetAsCanvas() {
                 resolve(canvas);
             } catch (error) {
                 worksheet.style.transform = originalTransform;
+                worksheet.style.transformOrigin = originalTransformOrigin;
                 renderWorksheet();
                 reject(error);
             }
@@ -1926,9 +2794,15 @@ const searchInput   = document.getElementById('searchInput');
 const dictDiv       = document.getElementById('dictionary');
 const thumbnailPreview = document.getElementById('thumbnailPreview');
 const worksheetEl   = document.getElementById('worksheet');
+console.log('[INIT] worksheetEl:', worksheetEl);
 const rowsContainer = document.getElementById('rowsContainer');
 const rowTpl        = document.getElementById('rowTpl').content;
 const addRowBtn     = document.getElementById('addRowBtn');
+const zoomInBtn     = document.getElementById('zoomInBtn');
+const zoomOutBtn    = document.getElementById('zoomOutBtn');
+const zoomResetBtn  = document.getElementById('zoomResetBtn');
+const zoomPercentage = document.getElementById('zoomPercentage');
+let userZoomLevel = 1.0; // User-controlled zoom level (100% = 1.0)
 const exerciseImageMode = document.getElementById('exerciseImageMode');
 const customImageMode = document.getElementById('customImageMode');
 const exerciseImageSection = document.getElementById('exerciseImageSection');
@@ -2144,14 +3018,20 @@ function makeTextBoxEditable(box) {
         box.style.cursor = 'text';
     });
 
+    // Prevent Enter key from creating new lines
+    box.addEventListener('keydown', e => {
+        if (e.key === 'Enter') {
+            e.preventDefault();
+            box.blur(); // Exit editing mode on Enter
+        }
+    });
+
     box.addEventListener('input', () => {
-        box.style.height = 'auto';
-        box.style.height = `${box.scrollHeight}px`;
-        wrapper.style.height = box.style.height;
+        // Keep height fixed for single-line text
+        // Don't auto-adjust height
         const blockId = parseInt(wrapper.dataset.blockId);
         let state = blocksState.find(s => s.id === blockId);
         if (state) {
-            state.height = wrapper.clientHeight;
             state.text = box.innerText;
         }
     });
@@ -2171,33 +3051,58 @@ function makeTextBoxEditable(box) {
 
 function addTextToCanvas() {
     const textInput = document.getElementById('textInput');
+
+    // Standardized text box properties
+    const textContent = textInput.value.trim() || 'New Text';
+    const standardWidth = 250;
+    const standardHeight = 60; // Fixed height for single line
+    const standardFontSize = 48;
+    const standardFontFamily = 'Arial';
+    const standardColor = '#333333';
+
+    // Get actual worksheet dimensions
+    const worksheetWidth = parseFloat(worksheetEl.style.width) || 612;
+    const worksheetHeight = parseFloat(worksheetEl.style.height) || 792;
+
+    // Center the text box on the worksheet
+    const initialLeft = (worksheetWidth - standardWidth) / 2;
+    const initialTop = (worksheetHeight - standardHeight) / 2;
+
+    // Create text box with standardized properties
     const box = document.createElement('div');
     box.contentEditable = false;
     box.className = 'editable-text-box';
-    box.innerText = textInput.value || 'New Text';
-    box.style.fontFamily = document.getElementById('fontFamily').value;
-    box.style.fontSize = `${document.getElementById('fontSize').value}px`;
-    box.style.color = document.getElementById('textColor').value;
-
-    const worksheetRect = worksheetEl.getBoundingClientRect();
-    const currentScale = parseFloat(window.getComputedStyle(worksheetEl).transform.match(/scale\(([^)]+)\)/)?.[1] || 1) || 0.75;
-    const initialLeft = (worksheetRect.width / currentScale / 2) - 100;
-    const initialTop = (worksheetRect.height / currentScale / 2) - 50;
+    box.innerText = textContent;
+    box.style.fontFamily = standardFontFamily;
+    box.style.fontSize = `${standardFontSize}px`;
+    box.style.color = standardColor;
+    box.style.lineHeight = '1.2';
+    box.style.whiteSpace = 'nowrap'; // Prevent text wrapping
+    box.style.overflow = 'hidden'; // Hide overflow text
+    box.style.textOverflow = 'ellipsis'; // Show ellipsis for long text
 
     const state = {
         id: blockIdCounter++,
         type: 'text',
-        x: initialLeft, y: initialTop,
-        width: 200, height: 50, // Start with a reasonable height
+        x: initialLeft,
+        y: initialTop,
+        width: standardWidth,
+        height: standardHeight,
         zIndex: highestZ++,
         locked: false,
-        text: box.innerText, style: box.style.cssText
+        text: box.innerText,
+        style: box.style.cssText
     };
     blocksState.push(state);
 
     const block = createBlockFromState(state);
     worksheetEl.appendChild(block);
-    
+
+    // Update the form fields to reflect standard values
+    document.getElementById('fontSize').value = standardFontSize;
+    document.getElementById('fontFamily').value = standardFontFamily;
+    document.getElementById('textColor').value = standardColor;
+
     const newBox = block.querySelector('.editable-text-box');
     if(newBox) {
         newBox.dispatchEvent(new Event('input', { bubbles: true }));
@@ -2379,9 +3284,9 @@ function addSelectedCustomImageToWorksheet() {
 }
 
 function addNewRowControl() {
-    const defaultRowHeight = vhToPixels(4.48);
     const worksheetWidth = worksheetEl.clientWidth;
     const worksheetHeight = worksheetEl.clientHeight;
+    const defaultRowHeight = worksheetHeight * 0.0448; // 4.48% of worksheet height (maintains aspect ratio across all screen sizes)
     const rowWidth = worksheetWidth * 0.9;
 
     // Calculate center position for the new row
@@ -2459,7 +3364,7 @@ function renderRowControls() {
         const panel = newAccordion.querySelector('.accordion-content');
 
         newAccordion.dataset.stateId = state.id;
-        header.textContent = `Row ${index + 1}`;
+        header.textContent = formatTranslation(t('row.title'), { number: index + 1 });
 
         const wasOpen = openAccordionHeaders.some(h => h.parentElement.dataset.stateId === String(state.id));
         if (wasOpen) {
@@ -2517,18 +3422,40 @@ function renderRowControls() {
 
         rowsContainer.appendChild(newAccordion);
     });
+
+    // Apply translations to all newly added row controls
+    applyTranslations();
+
     document.querySelectorAll('#rowsContainer .accordion-button').forEach(btn => setupAccordion(btn.parentElement.querySelector('.accordion-button')));
 }
 
 
-fetch('/api/themes')
+// Get locale from URL parameter or default to 'en'
+const urlParams = new URLSearchParams(window.location.search);
+const currentLocale = urlParams.get('locale') || 'en';
+window.currentLocale = currentLocale;
+
+// IMPORTANT: Writing app image library should ALWAYS use English locale
+// This is an English writing practice app, so image file names should be in English
+const imageLibraryLocale = 'en';
+
+fetch(`/api/themes-translated?locale=${imageLibraryLocale}`)
     .then(r=>r.json())
-    .then(t=> {
-    themes = t;
+    .then(themes => {
     themeSelect.innerHTML = '';
-    themeSelect.add(new Option('All Themes','all'));
-    t.forEach(x=> themeSelect.add(new Option(x,x)));
+    const allThemesOption = new Option(t('library.allThemes'),'all');
+    themeSelect.add(allThemesOption);
+    themes.forEach(theme => {
+        const opt = document.createElement("option");
+        opt.value = theme.value;
+        opt.textContent = theme.displayName;
+        themeSelect.appendChild(opt);
+    });
     loadDictionary();
+})
+.catch(err => {
+    console.error('Failed to load themes:', err);
+    // Continue anyway - worksheet should still work without themes
 });
 themeSelect.onchange = loadDictionary;
 searchInput.oninput = loadDictionary;
@@ -2572,9 +3499,11 @@ function loadDictionary(){
 
   let fetchPromise;
   if (q) {
-      fetchPromise = fetch(`/api/images?search=${q}`).then(r => r.json());
+      // Always use English locale for image library
+      fetchPromise = fetch(`/api/images?search=${q}&locale=${imageLibraryLocale}`).then(r => r.json()).then(data => data.images || data);
   } else if (theme !== 'all') {
-      fetchPromise = fetch(`/api/images?theme=${theme}`).then(r => r.json());
+      // Always use English locale for image library
+      fetchPromise = fetch(`/api/images?theme=${theme}&locale=${imageLibraryLocale}`).then(r => r.json()).then(data => data.images || data);
   } else {
       fetchPromise = Promise.resolve([]);
   }
@@ -2607,25 +3536,35 @@ function loadDictionary(){
           dictDiv.appendChild(d);
         });
         if (dictDiv.innerHTML === '') {
-             dictDiv.innerHTML = '<div style="padding:10px; text-align:center; color:var(--app-text-secondary-dark-theme);">No images found. Select a theme or try a different search.</div>';
+             dictDiv.innerHTML = `<div style="padding:10px; text-align:center; color:var(--app-text-secondary-dark-theme);">${t('message.noImages')}</div>`;
         }
     }).catch(e => console.error(e));
 }
 
 // NEW: Functions to load asset themes and images (copied from more less.html, adapted for writing.html)
 function loadAssetThemes(type, selectEl) {
-    fetch(`/api/${type}/themes`)
-        .then(res => res.ok ? res.json() : Promise.reject())
+    // Always use English locale for borders and backgrounds
+    fetch(`/api/${type}/themes?locale=${imageLibraryLocale}`)
+        .then(response => response.json())
         .then(themes => {
-            selectEl.innerHTML = '<option value="none">None</option>';
-            themes.forEach(theme => selectEl.add(new Option(theme.charAt(0).toUpperCase() + theme.slice(1), theme)));
-        }).catch(() => console.error(`Error loading ${type} themes.`));
+            selectEl.innerHTML = `<option value="none">${t('none')}</option>`;
+            themes.forEach(theme => {
+                const option = document.createElement('option');
+                option.value = theme.value;
+                option.textContent = theme.displayName;
+                selectEl.appendChild(option);
+            });
+        })
+        .catch(err => {
+            console.error(formatTranslation(t('message.themeLoadError'), { type: type }), err);
+            selectEl.innerHTML = `<option value="none">${t('none')}</option>`;
+        });
 }
 
 function loadAssetImages(type, theme, dictionaryEl, addFunc) {
     const assetName = type.slice(0, -1); // 'border' or 'background'
     if (theme === 'none') {
-        dictionaryEl.innerHTML = `<div style="padding:10px; text-align:center; color:var(--app-text-secondary-dark-theme);">Select a theme.</div>`;
+        dictionaryEl.innerHTML = `<div style="padding:10px; text-align:center; color:var(--app-text-secondary-dark-theme);">${t('message.selectTheme')}</div>`;
         // Remove existing asset from blocksState
         blocksState = blocksState.filter(s => s.type !== assetName);
         renderWorksheet();
@@ -2634,66 +3573,89 @@ function loadAssetImages(type, theme, dictionaryEl, addFunc) {
         if (type === 'backgrounds') backgroundOpacitySlider.disabled = true;
         return;
     }
-    dictionaryEl.innerHTML = `<div style="padding:10px; text-align:center; color:var(--app-text-secondary-dark-theme);">Loading...</div>`;
-    fetch(`/api/${type}/images?theme=${theme}`)
+    dictionaryEl.innerHTML = `<div style="padding:10px; text-align:center; color:var(--app-text-secondary-dark-theme);">${t('message.loading')}</div>`;
+    // Always use English locale for image library
+    fetch(`/api/${type}/images?theme=${theme}&locale=${imageLibraryLocale}`)
         .then(res => res.ok ? res.json() : Promise.reject())
-        .then(images => {
+        .then(data => {
+            const images = data.images || data; // Handle both API response formats
             dictionaryEl.innerHTML = images.length === 0 ? `<div style="padding:10px; text-align:center; color:var(--app-text-secondary-dark-theme);">No ${type} in this theme.</div>` : "";
             images.forEach(asset => {
                 const item = document.createElement("div");
                 item.className = "border-thumbnail-item"; // Reusing class, but it applies to backgrounds too
-                item.innerHTML = `<img src="${asset.path}" alt="${asset.name}" loading="lazy" />`;
+                // Use thumbnail for fast preview, full path when applying to canvas
+                const thumbSrc = asset.thumbnail || asset.path;
+                item.innerHTML = `<img src="${thumbSrc}" alt="${asset.name}" loading="lazy" />`;
                 item.onclick = () => {
+                    // Use original full-res for canvas (professional quality)
                     addFunc(asset.path);
                     dictionaryEl.querySelectorAll('.selected').forEach(el => el.classList.remove('selected'));
                     item.classList.add('selected');
                 };
                 dictionaryEl.appendChild(item);
             });
-        }).catch(() => dictionaryEl.innerHTML = `<div style="padding:10px; text-align:center; color:var(--app-text-secondary-dark-theme);">Error loading ${type}.</div>`);
+        }).catch(() => dictionaryEl.innerHTML = `<div style="padding:10px; text-align:center; color:var(--app-text-secondary-dark-theme);">${formatTranslation(t('message.loadError'), { type: type })}</div>`);
 }
 
 // NEW: Functions to add border and background to worksheet (adapted for DOM)
 function addBorderToCanvas(path) {
     blocksState = blocksState.filter(s => s.type !== 'border');
-    const defaultWidth = worksheetEl.clientWidth * 0.9;
-    const defaultHeight = worksheetEl.clientHeight * 0.9;
-    const state = {
-        id: blockIdCounter++,
-        type: 'border',
-        src: path,
-        x: (worksheetEl.clientWidth - defaultWidth) / 2,
-        y: (worksheetEl.clientHeight - defaultHeight) / 2,
-        width: defaultWidth,
-        height: defaultHeight,
-        zIndex: highestZ++,
-        locked: false,
-        opacity: parseFloat(borderOpacitySlider.value)
+
+    // Load image to get natural dimensions for aspect ratio
+    const img = new Image();
+    img.onload = () => {
+        // Scale to 70% of page height while preserving aspect ratio
+        const targetHeight = worksheetEl.clientHeight * 0.7;
+        const aspectRatio = img.width / img.height;
+        const targetWidth = targetHeight * aspectRatio;
+
+        const state = {
+            id: blockIdCounter++,
+            type: 'border',
+            src: path,
+            x: (worksheetEl.clientWidth - targetWidth) / 2,
+            y: (worksheetEl.clientHeight - targetHeight) / 2,
+            width: targetWidth,
+            height: targetHeight,
+            zIndex: highestZ++,
+            locked: false,
+            opacity: parseFloat(borderOpacitySlider.value)
+        };
+        blocksState.push(state);
+        renderWorksheet();
+        borderOpacitySlider.disabled = false;
     };
-    blocksState.push(state);
-    renderWorksheet();
-    borderOpacitySlider.disabled = false;
+    img.src = path;
 }
 
 function addBackgroundToCanvas(path) {
     blocksState = blocksState.filter(s => s.type !== 'background');
-    const defaultWidth = worksheetEl.clientWidth * 0.9;
-    const defaultHeight = worksheetEl.clientHeight * 0.9;
-    const state = {
-        id: blockIdCounter++,
-        type: 'background',
-        src: path,
-        x: (worksheetEl.clientWidth - defaultWidth) / 2,
-        y: (worksheetEl.clientHeight - defaultHeight) / 2,
-        width: defaultWidth,
-        height: defaultHeight,
-        zIndex: highestZ++,
-        locked: false,
-        opacity: parseFloat(backgroundOpacitySlider.value)
+
+    // Load image to get natural dimensions for aspect ratio
+    const img = new Image();
+    img.onload = () => {
+        // Scale to 70% of page height while preserving aspect ratio
+        const targetHeight = worksheetEl.clientHeight * 0.7;
+        const aspectRatio = img.width / img.height;
+        const targetWidth = targetHeight * aspectRatio;
+
+        const state = {
+            id: blockIdCounter++,
+            type: 'background',
+            src: path,
+            x: (worksheetEl.clientWidth - targetWidth) / 2,
+            y: (worksheetEl.clientHeight - targetHeight) / 2,
+            width: targetWidth,
+            height: targetHeight,
+            zIndex: highestZ++,
+            locked: false,
+            opacity: parseFloat(backgroundOpacitySlider.value)
+        };
+        blocksState.push(state);
+        renderWorksheet();
+        backgroundOpacitySlider.disabled = false;
     };
-    blocksState.push(state);
-    renderWorksheet();
-    backgroundOpacitySlider.disabled = false;
+    img.src = path;
 }
 
 // NEW: Function to apply opacity (adapted for DOM)
@@ -2754,7 +3716,160 @@ function updateWorksheetPageSize() {
     }
     worksheetEl.style.width = `${widthPx}px`;
     worksheetEl.style.height = `${heightPx}px`;
+
+    console.log('[Writing App] Worksheet size set to:', widthPx, 'x', heightPx);
+    console.log('[Writing App] worksheetEl actual computed size:', worksheetEl.offsetWidth, 'x', worksheetEl.offsetHeight);
+
+    // Reposition and resize all row blocks to match new worksheet dimensions
+    const rowStates = blocksState.filter(state => state.type === 'row');
+
+    rowStates.forEach(state => {
+        const newRowWidth = widthPx * 0.9; // Rows are always 90% of worksheet width
+        const newCenterX = (widthPx - newRowWidth) / 2;
+        state.width = newRowWidth;
+        state.x = newCenterX;
+    });
+
+    // Redistribute rows with equal spacing and proper margins
+    if (rowStates.length > 0) {
+        // Sort rows by their current Y position
+        rowStates.sort((a, b) => a.y - b.y);
+
+        // Find all image blocks to determine where rows should start
+        const imageBlocks = blocksState.filter(state =>
+            state.type === 'exerciseImage' || state.type === 'customImage'
+        );
+
+        let startY;
+        if (imageBlocks.length > 0) {
+            // Find the bottom of the lowest image
+            const imageBottomY = Math.max(...imageBlocks.map(img => img.y + img.height));
+            // Add margin below image (approximately 40px or 5% of height)
+            startY = imageBottomY + Math.max(40, heightPx * 0.05);
+        } else {
+            // No images, start from top with margin
+            startY = heightPx * 0.05;
+        }
+
+        // Calculate available height for rows (from startY to bottom with margin)
+        const bottomMargin = heightPx * 0.05;
+        const availableHeight = heightPx - startY - bottomMargin;
+
+        // Calculate total height of all rows
+        const totalRowHeight = rowStates.reduce((sum, state) => sum + state.height, 0);
+
+        // Calculate spacing between rows
+        const spacing = rowStates.length > 1
+            ? (availableHeight - totalRowHeight) / (rowStates.length - 1)
+            : 0;
+
+        // Reposition rows with equal spacing below the image
+        let currentY = startY;
+        rowStates.forEach((state, index) => {
+            state.y = currentY;
+            currentY += state.height + spacing;
+        });
+    }
+
+    // Update display scaling to match standard from other apps
+    updateWorksheetDisplayScaling(widthPx, heightPx);
+
     renderWorksheet();
+}
+
+// Function to update worksheet display scaling - matches standard from Fabric.js apps
+function updateWorksheetDisplayScaling(width, height) {
+    // Get available space in the content wrapper
+    const contentWrapper = document.querySelector('.tab-content-wrapper');
+    const wrapperStyle = getComputedStyle(contentWrapper);
+    const availableWidth = parseFloat(wrapperStyle.width) - parseFloat(wrapperStyle.paddingLeft) - parseFloat(wrapperStyle.paddingRight) - 10;
+    const availableHeight = parseFloat(wrapperStyle.height) - parseFloat(wrapperStyle.paddingTop) - parseFloat(wrapperStyle.paddingBottom) - 10;
+
+    // Based on user feedback:
+    // - 1.25 was 15% too big
+    // - 0.75 was too small
+    // - Correct scale is approximately 1.087 (1.25 / 1.15)
+
+    const isLandscape = width > height;
+
+    // Match the exact visual appearance of other apps
+    const baseScale = 1.087; // Empirically determined to match other apps
+    const landscapeBonus = isLandscape ? 1.25 : 1.0; // Additional scaling for landscape
+    const displayScale = baseScale * landscapeBonus;
+
+    // Calculate scaled dimensions
+    const scaledWidth = width * displayScale;
+    const scaledHeight = height * displayScale;
+
+    // Ensure it fits in available space
+    const scaleRatio = Math.min(availableWidth / scaledWidth, availableHeight / scaledHeight, 1);
+
+    // Apply the final scale
+    const finalScale = displayScale * scaleRatio;
+
+    // Apply user zoom level
+    const finalScaleWithZoom = finalScale * userZoomLevel;
+
+    // Calculate the visual dimensions after scaling and zoom
+    const visualWidth = width * finalScaleWithZoom;
+    const visualHeight = height * finalScaleWithZoom;
+
+    // Keep worksheet at original dimensions (preserves font alignment)
+    worksheetEl.style.width = `${width}px`;
+    worksheetEl.style.height = `${height}px`;
+
+    // Apply scale transform with zoom and top-left origin (prevents overflow)
+    worksheetEl.style.transformOrigin = 'top left';
+    worksheetEl.style.transform = `scale(${finalScaleWithZoom})`;
+
+    // Size the wrapper to match visual dimensions
+    const wrapper = document.querySelector('.canvas-container-wrapper');
+    if (wrapper) {
+        wrapper.style.width = `${visualWidth}px`;
+        wrapper.style.height = `${visualHeight}px`;
+        wrapper.style.overflow = 'hidden'; // Ensure no overflow
+    }
+
+    console.log('[Writing App] Worksheet scaled to:', finalScaleWithZoom, '(base:', finalScale, 'zoom:', userZoomLevel + 'x)', 'Visual size:', visualWidth, 'x', visualHeight, 'Available space:', availableWidth, 'x', availableHeight);
+}
+
+// --- ZOOM FUNCTIONS ---
+function updateZoomDisplay() {
+    const percentage = Math.round(userZoomLevel * 100);
+    zoomPercentage.textContent = `${percentage}%`;
+}
+
+function zoomIn() {
+    // Increase zoom by 25%, max 300%
+    userZoomLevel = Math.min(userZoomLevel + 0.25, 3.0);
+    updateZoomDisplay();
+    const widthPx = parseFloat(worksheetEl.style.width);
+    const heightPx = parseFloat(worksheetEl.style.height);
+    if (widthPx && heightPx) {
+        updateWorksheetDisplayScaling(widthPx, heightPx);
+    }
+}
+
+function zoomOut() {
+    // Decrease zoom by 25%, min 25%
+    userZoomLevel = Math.max(userZoomLevel - 0.25, 0.25);
+    updateZoomDisplay();
+    const widthPx = parseFloat(worksheetEl.style.width);
+    const heightPx = parseFloat(worksheetEl.style.height);
+    if (widthPx && heightPx) {
+        updateWorksheetDisplayScaling(widthPx, heightPx);
+    }
+}
+
+function zoomReset() {
+    // Reset to 100%
+    userZoomLevel = 1.0;
+    updateZoomDisplay();
+    const widthPx = parseFloat(worksheetEl.style.width);
+    const heightPx = parseFloat(worksheetEl.style.height);
+    if (widthPx && heightPx) {
+        updateWorksheetDisplayScaling(widthPx, heightPx);
+    }
 }
 
 function renderWorksheet(options = {}){
@@ -2832,6 +3947,10 @@ function createBlockFromState(state) {
             contentElement.className = 'editable-text-box';
             contentElement.style.cssText = state.style;
             contentElement.innerText = state.text;
+            // Ensure single-line properties are maintained
+            contentElement.style.whiteSpace = 'nowrap';
+            contentElement.style.overflow = 'hidden';
+            contentElement.style.textOverflow = 'ellipsis';
             block.appendChild(contentElement);
             makeTextBoxEditable(contentElement);
             break;
@@ -2959,12 +4078,12 @@ function createRowFromState(state) {
         }
         
         const img = document.createElement('img');
-        img.src = `/images/alphabetsvg/${currentFontStyle}/${svgCase}/${safeChar}.svg`;
+        img.src = `/images/alphabetsvg/${currentFontStyle}/${svgCase}/${safeChar}.svg?v=${Date.now()}`;
         img.alt = ch;
         img.classList.add(fontClass);
 
         if (currentFontStyle.includes('tracing')) {
-            img.style.filter = 'grayscale(100%) brightness(0) contrast(100%) drop-shadow(0 0 0.1px black)';
+            img.style.filter = 'grayscale(100%) brightness(0.2) contrast(100%) drop-shadow(0 0 0.8px rgba(0,0,0,0.6)) drop-shadow(0 0 0.4px rgba(0,0,0,0.4))';
         }
 
         if (svgCase === 'lowercase') {
@@ -3008,6 +4127,13 @@ function createRowFromState(state) {
                  secondPart.textContent = base;
                  secondPart.style.opacity = '0.4';
                  lettersDiv.append(firstPart, secondPart);
+            } else if (content === 'beginning') {
+                 // Wrap each character in a span for flex distribution
+                 for (let char of textToRender) {
+                     const charSpan = document.createElement('span');
+                     charSpan.textContent = char;
+                     lettersDiv.appendChild(charSpan);
+                 }
             } else {
                  lettersDiv.textContent = textToRender;
             }
@@ -3130,7 +4256,7 @@ function updateContextualToolbar() {
 
         const lockIconEl = document.getElementById('lockIcon');
         lockIconEl.className = `fas ${isLocked ? 'fa-lock' : 'fa-lock-open'}`;
-        lockBtn.title = isLocked ? 'Unlock' : 'Lock';
+        lockBtn.title = isLocked ? t('toolbar.unlock') : t('toolbar.lock');
 
         document.querySelectorAll('#object-context-toolbar .context-btn:not(#lockBtn)').forEach(btn => {
             btn.disabled = isLocked;
@@ -3269,7 +4395,7 @@ function cropRowBlock() {
     const config = state.rowConfig;
 
     if (!state || config.mode === 'guided-copy') {
-        showMessage("Cropping is not supported for this row type.", "error");
+        showMessage(t("message.cropNotSupported"), "error");
         return;
     }
     
@@ -3277,7 +4403,7 @@ function cropRowBlock() {
     const contentContainer = block.querySelector(selector);
 
     if (!contentContainer) {
-        showMessage("This row has no content to crop.", "info");
+        showMessage(t("message.noContentToCrop"), "info");
         return;
     }
     
@@ -3299,7 +4425,7 @@ function cropRowBlock() {
     const numItemsToKeep = lastVisibleIndex + 1;
 
     if (numItemsToKeep === children.length) {
-        showMessage("No overflow to crop.", "info");
+        showMessage(t("message.noOverflow"), "info");
         return;
     }
 
@@ -3331,28 +4457,36 @@ function cropRowBlock() {
     }
 
     renderWorksheet();
-    showMessage("Row cropped successfully.", "success");
+    showMessage(t("message.rowCropped"), "success");
 }
 
 
 function clearAll() {
-    showMessage("Are you sure you want to clear the worksheet? This cannot be undone.", "info-confirm");
+    showMessage(t("message.confirmClear"), "info-confirm");
 }
 function confirmClearAll() {
     blocksState = [];
     selectedImage = null;
     backgroundThemeSelect.value = 'none';
-    backgroundDictionary.innerHTML = '<div style="padding:10px; text-align:center; color:var(--app-text-secondary-dark-theme);">Select a theme for backgrounds.</div>';
+    backgroundDictionary.innerHTML = `<div style="padding:10px; text-align:center; color:var(--app-text-secondary-dark-theme);">${t('message.selectBackgroundTheme')}</div>`;
     backgroundOpacitySlider.value = 1;
     backgroundOpacitySlider.disabled = true;
     borderThemeSelect.value = 'none';
-    borderDictionary.innerHTML = '<div style="padding:10px; text-align:center; color:var(--app-text-secondary-dark-theme);">Select a theme to see borders.</div>';
+    borderDictionary.innerHTML = `<div style="padding:10px; text-align:center; color:var(--app-text-secondary-dark-theme);">${t('message.selectBorderTheme')}</div>`;
     borderOpacitySlider.value = 1;
     borderOpacitySlider.disabled = true;
 
+    // Reset text input fields to defaults
+    document.getElementById('textInput').value = '';
+    document.getElementById('fontSize').value = 48;
+    document.getElementById('fontFamily').value = 'Arial';
+    document.getElementById('textColor').value = '#333333';
+    document.getElementById('textStrokeColor').value = '#000000';
+    document.getElementById('textStrokeWidth').value = 0;
+
     renderWorksheet();
     deselectAll();
-    showMessage("Worksheet cleared.", "success");
+    showMessage(t("message.worksheetCleared"), "success");
 }
 
 function showMessage(msg, type = 'info', duration = 3000) {
@@ -3363,7 +4497,7 @@ function showMessage(msg, type = 'info', duration = 3000) {
 
     if (type === 'info-confirm') {
         const confirmBtn = document.createElement('button');
-        confirmBtn.textContent = 'Yes, Clear All';
+        confirmBtn.textContent = t('button.clearAll');
         confirmBtn.style.cssText = 'background: var(--app-accent-danger); color: white; margin-left: 10px; padding: 4px 8px; font-size: 12px;';
         confirmBtn.onclick = confirmClearAll;
         messageEl.appendChild(confirmBtn);
@@ -3398,6 +4532,72 @@ function setupPopover(button, content) {
         }
     });
 }
+
+// --- Translation Helper Functions ---
+function t(key) {
+    if (typeof translations === 'undefined') {
+        console.warn('translations not loaded, returning key:', key);
+        return key;
+    }
+    const locale = window.currentLocale || 'en';
+    const translation = (translations[locale] && translations[locale][key]) ||
+                       (translations.en && translations.en[key]) ||
+                       key;
+    return translation;
+}
+
+function formatTranslation(text, params) {
+    let formatted = text;
+    for (const [key, value] of Object.entries(params)) {
+        formatted = formatted.replace(new RegExp(`\\{${key}\\}`, 'g'), value);
+    }
+    return formatted;
+}
+
+function applyTranslations() {
+    document.querySelectorAll('[data-translate]').forEach(element => {
+        const key = element.getAttribute('data-translate');
+        const translation = t(key);
+
+        // Handle special cases for row title with number
+        if (key === 'row.title') {
+            const rowNumber = element.textContent.match(/\d+/);
+            if (rowNumber) {
+                element.textContent = formatTranslation(translation, { number: rowNumber[0] });
+                return;
+            }
+        }
+
+        if (element.tagName === 'OPTION' || element.tagName === 'SPAN' || element.tagName === 'LABEL') {
+            element.textContent = translation;
+        } else if (element.tagName === 'INPUT' || element.tagName === 'BUTTON') {
+            if (element.type !== 'checkbox' && element.type !== 'radio' && element.type !== 'file') {
+                element.textContent = translation;
+            }
+        } else if (element.hasAttribute('title')) {
+            element.setAttribute('title', translation);
+        } else {
+            element.textContent = translation;
+        }
+    });
+
+    document.querySelectorAll('[data-translate-placeholder]').forEach(element => {
+        const key = element.getAttribute('data-translate-placeholder');
+        element.placeholder = t(key);
+    });
+
+    document.querySelectorAll('[data-translate-title]').forEach(element => {
+        const key = element.getAttribute('data-translate-title');
+        element.setAttribute('title', t(key));
+    });
+
+    const titleElement = document.querySelector('title[data-translate]');
+    if (titleElement) {
+        const key = titleElement.getAttribute('data-translate');
+        titleElement.textContent = t(key);
+    }
+}
+
 // --- Final Initialization ---
 document.addEventListener('DOMContentLoaded', () => {
     const textToolsContainer = document.getElementById('textToolsContainer');
@@ -3437,6 +4637,12 @@ document.addEventListener('DOMContentLoaded', () => {
     });
     document.getElementById('downloadPdfBtn').addEventListener('click', () => downloadFile('pdf'));
     document.getElementById('downloadJpegBtn').addEventListener('click', () => downloadFile('jpeg'));
+
+    // Zoom Controls
+    zoomInBtn.addEventListener('click', zoomIn);
+    zoomOutBtn.addEventListener('click', zoomOut);
+    zoomResetBtn.addEventListener('click', zoomReset);
+
     document.addEventListener('click', (e) => {
         if (downloadDropdownBtn && !downloadDropdownBtn.contains(e.target)) {
             downloadDropdownContent.style.display = 'none';
@@ -3451,9 +4657,30 @@ document.addEventListener('DOMContentLoaded', () => {
 
     addSelectedCustomImageBtn.addEventListener('click', addSelectedCustomImageToWorksheet);
     clearCustomImageSelectionBtn.addEventListener('click', clearCustomImageSelection);
+
+    // Custom file button handlers
+    const customFileButton = document.getElementById('customFileButton');
+    const fileSelectionText = document.getElementById('fileSelectionText');
+
+    if (customFileButton) {
+        customFileButton.addEventListener('click', () => {
+            imageUploadInput.click();
+        });
+    }
+
     imageUploadInput.addEventListener('change', (e) => {
         const files = e.target.files;
         if (!files) return;
+
+        // Update file selection text
+        if (fileSelectionText) {
+            const fileCount = files.length;
+            if (fileCount > 0) {
+                fileSelectionText.textContent = formatTranslation(t('library.filesSelected'), { x: fileCount });
+            } else {
+                fileSelectionText.textContent = t('library.noFileChosen');
+            }
+        }
 
         Promise.all(Array.from(files).filter(f => f.type.startsWith('image/')).map(file => new Promise((resolve, reject) => {
             const reader = new FileReader();
@@ -3472,25 +4699,37 @@ document.addEventListener('DOMContentLoaded', () => {
     borderThemeSelect.addEventListener("change", () => loadAssetImages('borders', borderThemeSelect.value, borderDictionary, addBorderToCanvas));
     borderOpacitySlider.addEventListener('input', () => applyOpacity(borderOpacitySlider, 'border'));
 
-    // NEW: Initial load of themes for background and border
-    loadAssetThemes('borders', borderThemeSelect);
+    // Load border and background themes on initialization
     loadAssetThemes('backgrounds', backgroundThemeSelect);
+    loadAssetThemes('borders', borderThemeSelect);
 
     updateUIMode();
     updateWorksheetPageSize();
     renderWorksheet(); // Initial render to apply any default page size/background/border
+
+    // Handle window resize to maintain proper scaling
+    window.addEventListener('resize', () => {
+        const widthPx = parseFloat(worksheetEl.style.width);
+        const heightPx = parseFloat(worksheetEl.style.height);
+        if (widthPx && heightPx) {
+            updateWorksheetDisplayScaling(widthPx, heightPx);
+        }
+    });
 
     const openMenu = () => { document.querySelector('.panel').classList.add('is-open'); document.getElementById('menuOverlay').classList.add('is-active'); };
     const closeMenu = () => { document.querySelector('.panel').classList.remove('is-open'); document.getElementById('menuOverlay').classList.remove('is-active'); };
     document.getElementById('menuToggleBtn').addEventListener('click', openMenu);
     document.getElementById('menuCloseBtn').addEventListener('click', closeMenu);
     document.getElementById('menuOverlay').addEventListener('click', closeMenu);
+
+    // Apply translations after DOM is ready
+    applyTranslations();
 });
 
 function renderUploadedImages() {
     uploadedImagesPreviewDiv.innerHTML = '';
     if (uploadedImages.length === 0) {
-        uploadedImagesPreviewDiv.innerHTML = '<div style="padding:10px; text-align:center; color:var(--app-text-secondary-dark-theme); width:100%;">Your uploaded images will appear here.</div>';
+        uploadedImagesPreviewDiv.innerHTML = `<div style="padding:10px; text-align:center; color:var(--app-text-secondary-dark-theme); width:100%;">${t('library.uploadedImages')}</div>`;
         return;
     }
     uploadedImages.forEach(imgData => {
@@ -3504,7 +4743,7 @@ function renderUploadedImages() {
                 d.style.backgroundColor = 'rgba(0,122,255,0.15)';
                 selectedCustomImage = imgData;
                 customImageThumbnailPreview.src = imgData.path;
-                customImageStatusText.textContent = `Selected: ${imgData.word}`;
+                customImageStatusText.textContent = formatTranslation(t('library.selectedStatus'), { word: imgData.word });
                 customImageSelectionPreview.style.display = 'block';
                 addSelectedCustomImageBtn.disabled = false;
              }
@@ -3514,6 +4753,272 @@ function renderUploadedImages() {
 }
 
 window.addEventListener('resize', renderWorksheet);
+
+    // Check if user is on free tier
+    function isFreeTier() {
+        const urlParams = new URLSearchParams(window.location.search);
+        return urlParams.get('tier') === 'free';
+    }
+
+    // Add watermark to canvas before export
+    function addWatermarkToCanvas(canvas) {
+        if (!isFreeTier()) return;
+
+        const watermarkText = new fabric.Text(t('watermark.free'), {
+            fontSize: 40,
+            fill: 'rgba(0, 0, 0, 0.2)',
+            angle: -45,
+            left: canvas.width / 2,
+            top: canvas.height / 2,
+            originX: 'center',
+            originY: 'center',
+            selectable: false,
+            evented: false,
+            fontFamily: 'Arial, sans-serif',
+            fontWeight: 'bold'
+        });
+        
+        // Add multiple watermarks across the canvas
+        const watermarks = [];
+        const spacing = 250;
+        for (let x = 0; x < canvas.width; x += spacing) {
+            for (let y = 0; y < canvas.height; y += spacing) {
+                const wm = new fabric.Text(t('watermark.freeShort'), {
+                    fontSize: 20,
+                    fill: 'rgba(0, 0, 0, 0.15)',
+                    angle: -45,
+                    left: x,
+                    top: y,
+                    selectable: false,
+                    evented: false,
+                    fontFamily: 'Arial, sans-serif'
+                });
+                watermarks.push(wm);
+                canvas.add(wm);
+            }
+        }
+        
+        // Add main watermark
+        canvas.add(watermarkText);
+        canvas.renderAll();
+        
+        return { mainWatermark: watermarkText, watermarks };
+    }
+
+    // Remove watermark after export
+    function removeWatermarkFromCanvas(canvas, watermarkData) {
+        if (!watermarkData) return;
+        
+        if (watermarkData.mainWatermark) {
+            canvas.remove(watermarkData.mainWatermark);
+        }
+        if (watermarkData.watermarks) {
+            watermarkData.watermarks.forEach(wm => canvas.remove(wm));
+        }
+        canvas.renderAll();
+    }
+
+    // Override the original downloadPDF function
+    const originalDownloadPDF = typeof downloadPDF !== 'undefined' ? downloadPDF : null;
+    if (originalDownloadPDF) {
+        window.downloadPDF = async function(canvasToExport, fileName) {
+            if (!canvasToExport || canvasToExport.getObjects().length === 0) {
+                return showMessage(t('message.generateContent'), 'error');
+            }
+            showMessage(t('message.preparingPdf'), 'info', 0);
+            
+            // Add watermark if free tier
+            const watermarkData = addWatermarkToCanvas(canvasToExport);
+            
+            try {
+                const { jsPDF } = window.jspdf;
+                const orientation = canvasToExport.width > canvasToExport.height ? 'l' : 'p';
+                const pdf = new jsPDF({ 
+                    orientation, 
+                    unit: 'pt', 
+                    format: [canvasToExport.width, canvasToExport.height] 
+                });
+
+                const exportOptions = { 
+                    multiplier: typeof downloadMultiplier !== 'undefined' ? downloadMultiplier : 6, 
+                    applyGrayscale: typeof grayscaleToggle !== 'undefined' && grayscaleToggle.checked 
+                };
+                
+                const dataURL = await getCanvasDataURLWithOptions(canvasToExport, exportOptions);
+                pdf.addImage(dataURL, 'JPEG', 0, 0, canvasToExport.width, canvasToExport.height);
+                
+                pdf.save(fileName);
+                showMessage(t('message.pdfDownloaded'), 'success');
+            } catch(e) {
+                showMessage(t('message.pdfError'), 'error'); 
+                console.error(e); 
+            } finally {
+                // Remove watermark after export
+                removeWatermarkFromCanvas(canvasToExport, watermarkData);
+            }
+        };
+    }
+
+    // Override the original downloadJPEG function if it exists
+    const originalDownloadJPEG = typeof downloadJPEG !== 'undefined' ? downloadJPEG : null;
+    if (originalDownloadJPEG) {
+        window.downloadJPEG = async function(canvasToExport, fileName) {
+            if (!canvasToExport || canvasToExport.getObjects().length === 0) {
+                return showMessage(t('message.generateWorksheet'), 'error');
+            }
+            showMessage(t('message.preparingJpeg'), 'info', 0);
+            
+            // Add watermark if free tier
+            const watermarkData = addWatermarkToCanvas(canvasToExport);
+            
+            try {
+                const exportOptions = { 
+                    multiplier: typeof downloadMultiplier !== 'undefined' ? downloadMultiplier : 6, 
+                    applyGrayscale: typeof grayscaleToggle !== 'undefined' && grayscaleToggle.checked 
+                };
+                const dataURL = await getCanvasDataURLWithOptions(canvasToExport, exportOptions);
+                
+                const link = document.createElement('a');
+                link.href = dataURL;
+                link.download = fileName;
+                link.click();
+                showMessage(t('message.jpegDownloaded'), 'success');
+            } catch(e) {
+                showMessage(t('message.jpegError'), 'error'); 
+                console.error(e); 
+            } finally {
+                // Remove watermark after export
+                removeWatermarkFromCanvas(canvasToExport, watermarkData);
+            }
+        };
+    }
+
+    async function generateInitialWorksheet() {
+        try {
+            console.log('Starting initial worksheet generation...');
+
+            // Set page size to Letter portrait (612x792) - already default
+            pageSizeSelect.value = '612x792';
+            updateWorksheetPageSize();
+
+            // Set theme to Animals and fetch images
+            themeSelect.value = 'animals';
+
+            // Fetch Animals theme images
+            const response = await fetch(`/api/images?theme=animals&locale=${imageLibraryLocale}`);
+            const data = await response.json();
+            const animalImages = data.images || data;
+
+            // Select a random animal image
+            if (animalImages && animalImages.length > 0) {
+                const randomIndex = Math.floor(Math.random() * animalImages.length);
+                selectedImage = {
+                    word: animalImages[randomIndex].word,
+                    path: animalImages[randomIndex].path
+                };
+                console.log('Selected image:', selectedImage);
+
+                // Add the image to the worksheet
+                showImageFeedback();
+            }
+
+            // Wait a bit for the image to load
+            await new Promise(resolve => setTimeout(resolve, 500));
+
+            // Calculate dimensions like addNewRowControl does
+            const worksheetWidth = worksheetEl.clientWidth;
+            const worksheetHeight = worksheetEl.clientHeight;
+            const defaultRowHeight = worksheetHeight * 0.0448; // 4.48% of worksheet height (maintains aspect ratio across all screen sizes)
+            const rowWidth = worksheetWidth * 0.9;
+            const centerX = (worksheetWidth - rowWidth) / 2;
+
+            // Calculate Y positions for 3 rows, positioned below the image
+            // Image takes up approximately 29.575% of height + 20px top offset
+            const imageHeight = worksheetHeight * 0.29575;
+            const imageBottomY = 20 + imageHeight;
+            const availableHeight = worksheetHeight - imageBottomY - 40; // 40px bottom margin
+            const totalRowsHeight = defaultRowHeight * 3;
+            const spacing = (availableHeight - totalRowsHeight) / 4; // spacing between rows
+            const startY = imageBottomY + spacing;
+
+            // Add Row 1: Trace, Print Regular, Beginning Letter, Lower Case
+            blocksState.push({
+                id: blockIdCounter++,
+                type: 'row',
+                x: centerX,
+                y: startY,
+                width: rowWidth,
+                height: defaultRowHeight,
+                zIndex: highestZ++,
+                locked: false,
+                rowConfig: {
+                    mode: 'trace',
+                    fontStyle: 'print/regular',
+                    content: 'beginning',
+                    case: 'lowercase',
+                    strokeType: 'vertical',
+                    customText: '',
+                    letterCount: null,
+                    strokeCount: null
+                }
+            });
+
+            // Add Row 2: Trace, Print Tracing, Beginning Letter, Uppercase
+            blocksState.push({
+                id: blockIdCounter++,
+                type: 'row',
+                x: centerX,
+                y: startY + defaultRowHeight + spacing,
+                width: rowWidth,
+                height: defaultRowHeight,
+                zIndex: highestZ++,
+                locked: false,
+                rowConfig: {
+                    mode: 'trace',
+                    fontStyle: 'print/tracing',
+                    content: 'beginning',
+                    case: 'uppercase',
+                    strokeType: 'vertical',
+                    customText: '',
+                    letterCount: null,
+                    strokeCount: null
+                }
+            });
+
+            // Add Row 3: Trace, Print Tracing, Whole File Name, Lower Case
+            blocksState.push({
+                id: blockIdCounter++,
+                type: 'row',
+                x: centerX,
+                y: startY + (defaultRowHeight + spacing) * 2,
+                width: rowWidth,
+                height: defaultRowHeight,
+                zIndex: highestZ++,
+                locked: false,
+                rowConfig: {
+                    mode: 'trace',
+                    fontStyle: 'print/tracing',
+                    content: 'filename',
+                    case: 'lowercase',
+                    strokeType: 'vertical',
+                    customText: '',
+                    letterCount: null,
+                    strokeCount: null
+                }
+            });
+
+            // Render the worksheet with all rows
+            renderWorksheet();
+            renderRowControls();
+
+            console.log('Initial worksheet generated successfully');
+        } catch (error) {
+            console.error('Error generating initial worksheet:', error);
+        }
+    }
+
+    setTimeout(() => generateInitialWorksheet(), 1000);
+
 </script>
 </body>
 </html>

@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <meta name="robots" content="noindex, nofollow">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title data-translate="page.title">Image Subtraction Worksheet Generator</title>
   <!-- Translation Infrastructure - MUST load before other scripts -->
@@ -1441,9 +1442,9 @@
         }
       }
 
-      // Load themes on page load
-      loadBorderThemes();
-      loadBackgroundThemes();
+      // NOTE: Border/Background themes handled by BulletproofLoader only (avoid duplicates)
+      // loadBorderThemes(); // Removed - causes duplicates with BulletproofLoader
+      // loadBackgroundThemes(); // Removed - causes duplicates with BulletproofLoader
 
       // --- Accordion & Responsive Sidebar Logic ---
       const accordionButtons = document.querySelectorAll('.accordion-button');
@@ -3936,7 +3937,9 @@ async function downloadPDF(canvasToExport, fileName) {
                     const imageSrc = image.url || image.path; // Handle both url and path
                     const item = document.createElement("div");
                     item.className = "border-thumbnail-item";
-                    item.innerHTML = `<img src="${imageSrc}" alt="${displayName}" loading="lazy" crossorigin="anonymous" />`;
+                    // Use thumbnail for fast preview, full path when applying to canvas
+                    const thumbSrc = image.thumbnail || imageSrc;
+                    item.innerHTML = `<img src="${thumbSrc}" alt="${displayName}" loading="lazy" crossorigin="anonymous" />`;
                     item.onclick = () => {
                         clickHandler(imageSrc);
                         document.querySelectorAll(`#${dictionaryElement.id} .border-thumbnail-item.selected`).forEach(el => el.classList.remove('selected'));
@@ -4493,10 +4496,9 @@ async function downloadPDF(canvasToExport, fileName) {
           setupEventListeners();
 
           loadThemes();
-          loadAssetThemes('borders', borderThemeSelect);
-          loadAssetThemes('backgrounds', backgroundThemeSelect);
+          // NOTE: Border/Background themes handled by BulletproofLoader only (avoid duplicates)
 
-          // Initialize BulletproofLoader after app setup
+          // Initialize BulletproofLoader to handle border/background themes
           if (window.BulletproofLoader) {
               window.BulletproofLoader.init({
                   borderSelect: borderThemeSelect,

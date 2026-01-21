@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8" />
+    <meta name="robots" content="noindex, nofollow">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>I Spy Worksheet Generator</title>
     <script src="js/translations-find-and-count.js"></script>
@@ -3873,8 +3874,11 @@ async function downloadPDF(canvasToExport, filename) {
         borders.forEach(border => {
             const item = document.createElement("div");
             item.className = "border-thumbnail-item";
-            item.innerHTML = `<img src="${border.path}" alt="${border.name}" loading="lazy" />`;
+            // Use thumbnail for fast preview, full path when applying to canvas
+            const thumbSrc = border.thumbnail || border.path;
+            item.innerHTML = `<img src="${thumbSrc}" alt="${border.name}" loading="lazy" />`;
             item.onclick = (e) => {
+                // Use original full-res for canvas (professional quality)
                 addBorderToCanvas(border.path);
                 document.querySelectorAll('#borderDictionary .border-thumbnail-item.selected').forEach(el => el.classList.remove('selected'));
                 e.currentTarget.classList.add('selected');

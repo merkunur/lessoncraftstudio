@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <meta name="robots" content="noindex, nofollow">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Image Word Scramble Worksheet</title>
   <script src="js/translations-word-scramble-complete.js"></script>
@@ -3212,8 +3213,11 @@
                 images.forEach(img => {
                     const item = document.createElement("div");
                     item.className = "border-thumbnail-item";
-                    item.innerHTML = `<img src="${img.path}" alt="${img.name}" />`;
+                    // Use small thumbnail for fast sidebar preview
+                    const thumbSrc = img.thumbnail || `/api/thumbnail?path=${encodeURIComponent(img.path)}&w=120&q=70`;
+                    item.innerHTML = `<img src="${thumbSrc}" alt="${img.name}" />`;
                     item.onclick = () => {
+                        // Use original full-res for canvas (professional quality)
                         addBorderToCanvas(img.path);
                         document.querySelectorAll('#borderDictionary .border-thumbnail-item.selected').forEach(el => el.classList.remove('selected'));
                         item.classList.add('selected');

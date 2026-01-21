@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <meta name="robots" content="noindex, nofollow">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title data-translate="findobjects.page.title">SpotWorks - Find the Objects Generator</title>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
@@ -2970,13 +2971,22 @@ function updateTranslations() {
             }
 
             // If theme selected for odd images, get random images
+            // IMPORTANT: Exclude any images already used in pairs to prevent overlap
             if (oddImagesThemeSelect.value) {
                 const themeImages = await getImagesFromTheme(oddImagesThemeSelect.value, 'odd images');
                 if (!themeImages || themeImages.length < oddCount) {
                     showMessage(`Not enough images in theme for ${oddCount} odd images.`, 'error');
                     return null;
                 }
-                oddImages = getRandomSubset(themeImages, oddCount);
+                // Get paths of already selected pairs to exclude them
+                const pairPathsForExclusion = new Set(pairs.map(p => p.path));
+                // Filter theme images to exclude any that are already used as pairs
+                const availableOddImages = themeImages.filter(img => !pairPathsForExclusion.has(img.path));
+                if (availableOddImages.length < oddCount) {
+                    showMessage(`Not enough unique images in theme. Need ${oddCount} odd images different from pairs.`, 'error');
+                    return null;
+                }
+                oddImages = getRandomSubset(availableOddImages, oddCount);
             }
 
             // Validation
@@ -2988,6 +2998,23 @@ function updateTranslations() {
                 showMessage(`Please select at least ${oddCount} odd images.`, 'error');
                 return null;
             }
+
+            // CRITICAL: Ensure pairs and odd images are completely separate
+            // An image cannot be both a pair AND an odd image
+            // Pair image = appears exactly 2 times, Odd image = appears exactly 1 time
+            const pairPaths = new Set(pairs.slice(0, pairsCount).map(p => p.path));
+
+            // Filter out any odd images that also appear in pairs
+            const uniqueOddImages = oddImages.filter(img => !pairPaths.has(img.path));
+
+            if (uniqueOddImages.length < oddCount) {
+                // Not enough unique odd images after filtering out pair overlaps
+                showMessage(`Error: Some odd images overlap with pair images. Please select ${oddCount} odd images that are different from the pair images.`, 'error');
+                return null;
+            }
+
+            // Use the filtered unique odd images
+            oddImages = uniqueOddImages;
 
             // Create the final image list: each pair appears twice + odd images appear once
             let allImages = [];
@@ -3491,7 +3518,8 @@ function updateTranslations() {
             // Professional margins - account for header height
             const headerHeight = isLandscape ? 145 : 220;
             const topMargin = headerHeight + (includeNameDate.checked ? 20 : 10);
-            const bottomMargin = 120; // Space for legend
+            // For odd one out mode, use smaller bottom margin since no legend is displayed
+            const bottomMargin = (activityModeSelect.value === 'oddoneout') ? 50 : 120; // Space for legend (only in I Spy mode)
             const sideMargin = isLandscape ? 60 : 50;
             
             // Content area with proper boundaries
@@ -4267,8 +4295,11 @@ function showMessage(msg, type = 'info', duration = 3000) {
                     if (images.length === 0) { dictionaryEl.innerHTML = `<p class="dictionary-message">No ${type} in this theme.</p>`; return; }
                     images.forEach(asset => {
                         const item = document.createElement("div"); item.className = "thumbnail-item";
-                        item.innerHTML = `<img src="${asset.path}" alt="${asset.name}" loading="lazy" />`;
+                        // Use thumbnail for fast preview, full path when applying to canvas
+                        const thumbSrc = asset.thumbnail || asset.path;
+                        item.innerHTML = `<img src="${thumbSrc}" alt="${asset.name}" loading="lazy" />`;
                         item.onclick = () => {
+                            // Use original full-res for canvas (professional quality)
                             addFunc(asset.path);
                              dictionaryEl.querySelectorAll('.thumbnail-item.selected').forEach(el => el.classList.remove('selected'));
                             item.classList.add('selected');

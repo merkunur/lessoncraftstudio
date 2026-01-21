@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8" />
+    <meta name="robots" content="noindex, nofollow">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title data-translate="prepositions.page.title">Prepositions Worksheet Generator</title>
     <script src="js/translations-prepositions.js?v=4"></script>
@@ -1982,7 +1983,9 @@
             images.forEach(imgData => {
                 const displayName = imgData.name || imgData.word;
                 const imageSrc = imgData.url || imgData.path; // Handle both url and path properties
-                const item = document.createElement("div"); item.className = "border-thumbnail-item"; item.innerHTML = `<img src="${imageSrc}" alt="${displayName}" loading="lazy" crossorigin="anonymous" />`;
+                // Use small thumbnail for fast sidebar preview
+                const thumbSrc = imgData.thumbnail || `/api/thumbnail?path=${encodeURIComponent(imageSrc)}&w=120&q=70`;
+                const item = document.createElement("div"); item.className = "border-thumbnail-item"; item.innerHTML = `<img src="${thumbSrc}" alt="${displayName}" loading="lazy" crossorigin="anonymous" />`;
                 item.onclick = () => { addSpecialImageToCanvas(imageSrc, `is${type.charAt(0).toUpperCase() + type.slice(1)}`, type); document.querySelectorAll(`#${type}Dictionary .border-thumbnail-item.selected`).forEach(el => el.classList.remove('selected')); item.classList.add('selected'); };
                 container.appendChild(item);
             });

@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <meta name="robots" content="noindex, nofollow">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title data-translate="chartcount.page.title">Picture Graph Playground</title>
   <script src="js/translations.js"></script>
@@ -3342,8 +3343,11 @@ document.addEventListener('DOMContentLoaded', function() {
             images.forEach(bgData => {
                 const item = document.createElement("div");
                 item.className = "border-thumbnail-item";
-                item.innerHTML = `<img src="${bgData.path}" alt="${bgData.name}" loading="lazy" />`;
+                // Use thumbnail for fast sidebar preview
+                const thumbSrc = bgData.thumbnail || `/api/thumbnail?path=${encodeURIComponent(bgData.path)}&w=120&q=70`;
+                item.innerHTML = `<img src="${thumbSrc}" alt="${bgData.name}" loading="lazy" />`;
                 item.onclick = () => {
+                    // Use original full-res for canvas (professional quality)
                     addBackgroundToCanvas(bgData.path);
                     document.querySelectorAll('#backgroundDictionary .border-thumbnail-item.selected').forEach(el => el.classList.remove('selected'));
                     item.classList.add('selected');
@@ -3434,8 +3438,11 @@ document.addEventListener('DOMContentLoaded', function() {
             images.forEach(borderData => {
                 const item = document.createElement("div");
                 item.className = "border-thumbnail-item";
-                item.innerHTML = `<img src="${borderData.path}" alt="${borderData.name}" loading="lazy" />`;
+                // Use thumbnail for fast sidebar preview
+                const thumbSrc = borderData.thumbnail || `/api/thumbnail?path=${encodeURIComponent(borderData.path)}&w=120&q=70`;
+                item.innerHTML = `<img src="${thumbSrc}" alt="${borderData.name}" loading="lazy" />`;
                 item.onclick = () => {
+                    // Use original full-res for canvas (professional quality)
                     addBorderToCanvas(borderData.path);
                     document.querySelectorAll('#borderDictionary .border-thumbnail-item.selected').forEach(el => el.classList.remove('selected'));
                     item.classList.add('selected');

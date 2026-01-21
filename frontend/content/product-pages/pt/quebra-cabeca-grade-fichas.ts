@@ -17,20 +17,40 @@ export const gridMatchPtContent: ProductPageContent = {
   seo: {
     slug: 'quebra-cabeca-grade-fichas',
     appId: 'grid-match',
-    title: 'Gerador de Atividades Quebra-Cabeça Grid Match - Atividades para Imprimir Educação Infantil e Ensino Fundamental',
+    title: 'Quebra-Cabeca Grid Match - Atividade Gratis para Educacao Infantil e Criancas',
     description: 'Crie atividades de quebra-cabeça visual para seus alunos com o gerador Grid Match. Com sua assinatura Acesso Completo, você produz atividades para imprimir ilimitadas sem taxas adicionais por folha. Desenvolva habilidades de raciocínio espacial, coordenação motora e percepção visual em crianças da educação infantil e anos iniciais do ensino fundamental.',
-    keywords: 'grid match, quebra-cabeça, atividades para imprimir, atividades educação infantil, atividades de alfabetização, atividades de matemática, coordenação motora, desenhos para colorir, atividades 1º ano, atividades 2º ano, atividades vogais, tabuada, letra cursiva, pontilhado, raciocínio espacial, percepção visual',
+    keywords: 'atividade gratis, atividade gratis para criancas, atividades gratis, imprimiveis gratis, atividade para criancas, atividade para educacao infantil, grid match, quebra-cabeça, atividades para imprimir, coordenação motora, atividades de alfabetização, atividades de matemática, desenhos para colorir, atividades 1º ano, atividades 2º ano',
     canonicalUrl: 'https://www.lessoncraftstudio.com/pt/apps/quebra-cabeca-grade-fichas',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/portuguese/grid-match/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Atividade gratis de quebra-cabeca grid match - coordenacao motora para educacao infantil'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/portuguese/grid-match/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Atividades gratis de grid match para criancas - percepcao visual e raciocinio espacial'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/portuguese/grid-match/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Imprimiveis gratis de quebra-cabeca visual para atividade para educacao infantil'
+      }
+    ],
   },
 
   // Hero Section
   hero: {
-    title: 'Atividades para Imprimir Quebra-Cabeça Grid Match',
-    subtitle: 'Atividades Educação Infantil e Ensino Fundamental',
+    title: 'Quebra-Cabeca Grid Match - Atividade Gratis para Criancas',
+    subtitle: 'Gerador de Atividades Gratis e Imprimiveis Gratis',
     description: `Crie atividades de quebra-cabeça visual para seus alunos com o gerador Grid Match. Com sua assinatura Acesso Completo, você produz atividades para imprimir ilimitadas sem taxas adicionais por folha. Desenvolva habilidades de raciocínio espacial, coordenação motora e percepção visual em crianças da educação infantil e anos iniciais do ensino fundamental.
 
 O Grid Match transforma qualquer imagem em um desafio pedagógico envolvente. Uma imagem é dividida em uma grade, e algumas peças são removidas. As crianças precisam identificar qual peça corresponde a cada espaço vazio. Esta ferramenta profissional gera atividades de alfabetização visual e atividades de matemática conceitual em menos de 3 minutos.`,
-    previewImageSrc: '/samples/english/grid match/grid match landscape.jpeg',
+    previewImageSrc: '/samples/portuguese/grid-match/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Experimente Grátis',
       viewSamples: 'Ver Exemplos',
@@ -51,7 +71,7 @@ O Grid Match transforma qualquer imagem em um desafio pedagógico envolvente. Um
 
   // Sample Gallery
   samples: {
-    sectionTitle: 'Exemplos de Atividades Grid Match',
+    sectionTitle: 'Exemplos de Grid Match - Atividades Gratis para Educacao Infantil',
     sectionDescription: 'Baixe exemplos gratuitos para ver nossa qualidade profissional',
     downloadLabel: 'Baixar Exemplo Grátis',
     worksheetLabel: 'Atividade',
@@ -65,24 +85,31 @@ O Grid Match transforma qualquer imagem em um desafio pedagógico envolvente. Um
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/grid match/grid match portrait .jpeg',
-        answerKeySrc: '/samples/english/grid match/grid match portrait  answer_key.jpeg',
-        altText: 'Atividade de quebra-cabeça grid match formato retrato para educação infantil',
-        pdfDownloadUrl: '/samples/english/grid match/grid match portrait .pdf',
+        worksheetSrc: '/samples/portuguese/grid-match/sample-1.jpeg',
+        answerKeySrc: '/samples/portuguese/grid-match/sample-1-answer.jpeg',
+        altText: 'Atividade gratis de quebra-cabeca grid match - coordenacao motora para criancas',
+        pdfDownloadUrl: '/samples/portuguese/grid-match/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/grid match/grid match landscape.jpeg',
-        answerKeySrc: '/samples/english/grid match/grid match landscape answer_key.jpeg',
-        altText: 'Atividade de quebra-cabeça grid match formato paisagem para atividades de matemática',
-        pdfDownloadUrl: '/samples/english/grid match/grid match landscape.pdf',
+        worksheetSrc: '/samples/portuguese/grid-match/sample-2.jpeg',
+        answerKeySrc: '/samples/portuguese/grid-match/sample-2-answer.jpeg',
+        altText: 'Atividades gratis de grid match para educacao infantil - percepcao visual',
+        pdfDownloadUrl: '/samples/portuguese/grid-match/sample-2.pdf',
+      },
+      {
+        id: '3',
+        worksheetSrc: '/samples/portuguese/grid-match/sample-3.jpeg',
+        answerKeySrc: '/samples/portuguese/grid-match/sample-3-answer.jpeg',
+        altText: 'Imprimiveis gratis de quebra-cabeca visual - atividade para criancas',
+        pdfDownloadUrl: '/samples/portuguese/grid-match/sample-3.pdf',
       },
     ],
   },
 
   // Features Grid
   features: {
-    sectionTitle: 'Recursos do Gerador Grid Match - Atividades para Imprimir com Ferramentas Profissionais',
+    sectionTitle: 'Recursos do Gerador - Atividades Gratis para Criancas e Imprimiveis Gratis',
     sectionDescription: 'O gerador Grid Match oferece recursos completos para criar atividades educação infantil e ensino fundamental. Cada ferramenta foi desenvolvida pensando em professores que precisam de praticidade. Com sua assinatura Acesso Completo, você acessa todos os recursos sem limitações. Produza atividades para imprimir profissionais em minutos, não em horas.',
     highlightBadgeText: 'Recurso Principal',
     readMoreLabel: 'Leia mais',
@@ -171,7 +198,7 @@ Formatos de página incluem Carta e A4 em retrato ou paisagem. Dimensões person
 
   // How-To Guide
   howTo: {
-    sectionTitle: 'Como Criar Atividades para Imprimir Grid Match em 5 Passos Simples',
+    sectionTitle: 'Como Criar Atividades Gratis de Grid Match em 5 Passos',
     sectionDescription: 'Aprenda a criar atividades educação infantil profissionais em menos de 3 minutos. Este guia passo a passo mostra exatamente como usar o gerador Grid Match. Não é necessária experiência em design gráfico. Qualquer professor consegue produzir atividades para imprimir de qualidade comercial seguindo estas instruções.',
     ctaText: 'Comece Agora',
     badgeText: 'Como Funciona',
@@ -243,7 +270,7 @@ Exporte também o gabarito separadamente nos mesmos formatos. Ative a opção "E
 
   // Use Cases
   useCases: {
-    sectionTitle: 'Quem Usa o Grid Match - Atividades para Imprimir para Professores, Pais e Educadores',
+    sectionTitle: 'Quem Usa - Atividades Gratis para Professores e Pais',
     sectionDescription: 'O gerador Grid Match atende diferentes perfis de educadores no Brasil. Professores de educação infantil encontram recursos para desenvolvimento visual. Docentes do ensino fundamental criam atividades para imprimir alinhadas à BNCC. Pais que educam em casa produzem materiais personalizados. Cada usuário aproveita os recursos de forma única.',
     badgeText: 'Para Quem',
     readMoreLabel: 'Leia mais',
@@ -326,7 +353,7 @@ O Grid Match produz materiais diferenciados da concorrência. Poucos geradores o
 
   // FAQ Section
   faq: {
-    sectionTitle: 'Perguntas Frequentes sobre Atividades de Alfabetização e Coordenação Motora com Grid Match',
+    sectionTitle: 'Perguntas Frequentes sobre Atividades Gratis de Grid Match',
     sectionDescription: 'Reunimos as dúvidas mais comuns sobre o gerador Grid Match e atividades de alfabetização. Professores brasileiros perguntam sobre preços, funcionalidades e uso pedagógico. Cada resposta esclarece aspectos importantes sobre coordenação motora e outros benefícios. Encontre informações detalhadas para tomar sua decisão.',
     showMoreText: 'Mostrar mais perguntas',
     showLessText: 'Mostrar menos',
@@ -454,7 +481,7 @@ O Grid Match produz materiais diferenciados da concorrência. Poucos geradores o
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Combine Grid Match com Outros Geradores de Atividades',
+    sectionTitle: 'Outros Geradores de Atividades Gratis',
     sectionDescription: 'O LessonCraft Studio oferece 33 geradores de atividades na assinatura Acesso Completo. Combine Grid Match com atividades de matemática para pacotes curriculares completos. Integre com geradores de tabuada e coordenação motora para desenvolvimento integral.',
     ctaTitle: 'Pronto para Criar Atividades Incríveis?',
     ctaDescription: 'Junte-se a milhares de educadores que criam atividades profissionais. Criação ilimitada, licença comercial incluída.',

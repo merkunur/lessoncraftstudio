@@ -27,22 +27,54 @@ export const wordScrambleNlContent: ProductPageContent = {
   seo: {
     slug: 'woordkruisel-werkbladen',
     appId: 'word-scramble',
-    title: 'Woordkruisel Generator - Oefenbladen Gratis voor Werkbladen Groep 3 en Letters Leren',
+    title: 'Woordkruisel Generator - Gratis Werkblad voor Kinderen met Werkbladen Groep 3',
     description: 'Maak in enkele klikken professionele woordkruisels voor je leerlingen. Deze woordkruisel generator is perfect voor leerkrachten in het basisonderwijs. Met je Basispakket abonnement ontwerp je onbeperkt werkbladen groep 3 die kinderen uitdagen en vermaken.',
     keywords: 'woordkruisel generator, werkbladen groep 3, werkbladen kleuters, oefenbladen gratis, fijne motoriek, letters leren, schrijven oefenen, rekenen werkbladen, veilig leren lezen, sommen tot 20, tafels oefenen',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/woordkruisel-werkbladen',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/dutch/word-scramble/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis werkblad woordkruisel - werkbladen groep 3 voor letters leren',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/dutch/word-scramble/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis werkbladen voor kinderen - woordkruisel met werkbladen kleuters',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/dutch/word-scramble/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis printables woordkruisel - werkblad voor kleuters met fijne motoriek',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/dutch/word-scramble/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Werkblad voor kinderen woordkruisel - oefenbladen gratis kwaliteit',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/dutch/word-scramble/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis werkblad voor kinderen - woordkruisel werkbladen groep 3',
+      },
+    ],
   },
 
   // Hero Section - FULL text from word-scramble.md paragraphs 1-4
   hero: {
-    title: 'Woordkruisel Generator',
-    subtitle: 'Oefenbladen Gratis voor Werkbladen Groep 3 en Letters Leren',
+    title: 'Woordkruisel Generator - Gratis Werkbladen Maker',
+    subtitle: 'Gratis Werkblad voor Kinderen - Werkblad voor Kleuters en Groep 3',
     description: `Maak in enkele klikken professionele woordkruisels voor je leerlingen. Deze woordkruisel generator is perfect voor leerkrachten in het basisonderwijs. Met je Basispakket abonnement ontwerp je onbeperkt werkbladen groep 3 die kinderen uitdagen en vermaken.
 
 De woordkruisel maker werkt volledig in het Nederlands. Je kiest een thema of uploadt eigen afbeeldingen. Binnen drie minuten heb je een afdrukbaar werkblad klaar. Ideaal voor werkbladen kleuters en groep 1 2 die net beginnen met letters leren.
 
 Bij een woordkruisel zien kinderen een afbeelding met daaronder de letters van het woord door elkaar gehusseld. Ze moeten de letters in de juiste volgorde zetten. Dit combineert visueel leren met taalvaardigheid.`,
-    previewImageSrc: '/samples/english/word scramble/word scramble portrait.jpeg',
+    previewImageSrc: '/samples/dutch/word-scramble/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Gratis Uitproberen',
       viewSamples: 'Voorbeelden Bekijken',
@@ -61,9 +93,9 @@ Bij een woordkruisel zien kinderen een afbeelding met daaronder de letters van h
     },
   },
 
-  // Sample Gallery - REAL file paths from samples/english/word scramble/
+  // Sample Gallery - REAL file paths from samples/dutch/word-scramble/
   samples: {
-    sectionTitle: 'Woordkruisel Voorbeelden',
+    sectionTitle: 'Gratis Werkbladen Woordkruisel - Werkblad voor Kinderen Voorbeelden',
     sectionDescription: 'Download gratis voorbeeldwerkbladen om onze professionele kwaliteit te ervaren',
     downloadLabel: 'Gratis Voorbeeld Downloaden',
     worksheetLabel: 'Werkblad',
@@ -77,28 +109,45 @@ Bij een woordkruisel zien kinderen een afbeelding met daaronder de letters van h
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/word scramble/word scramble portrait.jpeg',
-        answerKeySrc: '/samples/english/word scramble/word scramble portrait answer-key.jpeg',
-        altText: 'Woordkruisel portret formaat voor werkbladen kleuters en fijne motoriek',
+        worksheetSrc: '/samples/dutch/word-scramble/sample-1.jpeg',
+        answerKeySrc: '/samples/dutch/word-scramble/sample-1-answer-key.jpeg',
+        pdfSrc: '/samples/dutch/word-scramble/sample-1.pdf',
+        altText: 'Gratis woordkruisel werkblad voor kinderen - werkbladen groep 3 voor fijne motoriek',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/word scramble/word scramble landscape.jpeg',
-        answerKeySrc: '/samples/english/word scramble/word scramble landscape answer-key.jpeg',
-        altText: 'Woordkruisel landschap formaat voor werkbladen groep 3 met kindvriendelijke afbeeldingen',
+        worksheetSrc: '/samples/dutch/word-scramble/sample-2.jpeg',
+        answerKeySrc: '/samples/dutch/word-scramble/sample-2-answer-key.jpeg',
+        pdfSrc: '/samples/dutch/word-scramble/sample-2.pdf',
+        altText: 'Gratis werkbladen woordkruisel - werkblad voor kleuters met letters leren',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/word scramble/custom word list.jpeg',
-        answerKeySrc: '/samples/english/word scramble/custom word list answer-key.jpeg',
-        altText: 'Woordkruisel met eigen woordenlijst voor letters leren en veilig leren lezen',
+        worksheetSrc: '/samples/dutch/word-scramble/sample-3.jpeg',
+        answerKeySrc: '/samples/dutch/word-scramble/sample-3-answer-key.jpeg',
+        pdfSrc: '/samples/dutch/word-scramble/sample-3.pdf',
+        altText: 'Gratis printables woordkruisel - werkblad voor kinderen met veilig leren lezen',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/dutch/word-scramble/sample-4.jpeg',
+        answerKeySrc: '/samples/dutch/word-scramble/sample-4-answer-key.jpeg',
+        pdfSrc: '/samples/dutch/word-scramble/sample-4.pdf',
+        altText: 'Gratis werkblad woordkruisel - werkblad voor kleuters met schrijven oefenen',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/dutch/word-scramble/sample-5.jpeg',
+        answerKeySrc: '/samples/dutch/word-scramble/sample-5-answer-key.jpeg',
+        pdfSrc: '/samples/dutch/word-scramble/sample-5.pdf',
+        altText: 'Gratis werkblad voor kinderen - woordkruisel oefenbladen met fijne motoriek',
       },
     ],
   },
 
   // Features Grid - FULL text from word-scramble.md feature sections
   features: {
-    sectionTitle: 'Functies van de Woordkruisel Generator - Alles voor Werkbladen Groep 3 en Oefenbladen Gratis',
+    sectionTitle: 'Functies - Gratis Werkblad voor Kinderen en Werkblad voor Kleuters Woordkruisel',
     sectionDescription: 'Deze woordkruisel maker biedt alle functies die je nodig hebt. Van simpele puzzels voor kleuters tot uitdagende woordkruisels voor groep 5. Ontdek hoe je in enkele minuten professionele werkbladen maakt met volledige bewerkingsmogelijkheden.',
     highlightBadgeText: 'Uitgelicht',
     readMoreLabel: 'Lees meer',
@@ -113,7 +162,7 @@ Bij een woordkruisel zien kinderen een afbeelding met daaronder de letters van h
       {
         id: '1',
         icon: '⚡',
-        title: 'Werkbladen Kleuters Maken in 3 Klikken - Snel Letters Leren met Fijne Motoriek Oefeningen',
+        title: 'Gratis Werkblad Maken in 3 Klikken - Werkblad voor Kinderen met Fijne Motoriek',
         description: `Het maken van een woordkruisel kost geen technische kennis. Je selecteert een thema uit de bibliotheek. De generator doet de rest automatisch. Binnen drie klikken heb je een complete puzzel.
 
 Kies bijvoorbeeld het thema "Dieren" of "Fruit". De tool selecteert passende afbeeldingen met Nederlandse woorden. Perfect voor werkbladen kleuters die net beginnen met letters leren. De woorden zijn afgestemd op het niveau van groep 1 2.
@@ -124,7 +173,7 @@ Je bepaalt zelf het aantal puzzels per pagina. Kies 1 tot 10 woordkruisels per w
       {
         id: '2',
         icon: '✏️',
-        title: 'Volledig Bewerkbaar Canvas voor Rekenen Werkbladen en Kleurplaten Combinaties',
+        title: 'Gratis Werkbladen Bewerkbaar Canvas - Werkblad voor Kleuters Aanpassen',
         description: `Na het genereren kun je alles aanpassen op het canvas. Sleep afbeeldingen naar een andere positie. Vergroot of verklein elementen met je muis. Draai objecten of verwijder ze volledig.
 
 Deze flexibiliteit maakt de tool perfect voor gecombineerde werkbladen. Voeg een titel toe bovenaan je puzzel. Plaats instructies voor de leerlingen. Of combineer de woordkruisel met rekenen werkbladen elementen en kleurplaten.
@@ -135,7 +184,7 @@ Je kunt ook eigen teksten toevoegen. Kies uit zeven verschillende lettertypen. P
       {
         id: '3',
         icon: '📤',
-        title: 'Eigen Afbeeldingen Uploaden voor Werkbladen Groep 3 met Schrijven Oefenen Activiteiten',
+        title: 'Gratis Printables met Eigen Afbeeldingen - Werkblad voor Kinderen Personaliseren',
         description: `Wil je een gepersonaliseerde woordkruisel maken? Upload je eigen afbeeldingen. De tool accepteert JPG, PNG en GIF bestanden. Je kunt meerdere bestanden tegelijk uploaden.
 
 Dit is ideaal voor thematische werkbladen groep 3. Gebruik foto's van een schooluitje. Of maak een puzzel met namen van klasgenoten. Kinderen vinden het extra leuk om bekende gezichten te ontrafelen.
@@ -146,7 +195,7 @@ De uploadfunctie werkt ook voor schrijven oefenen activiteiten. Upload afbeeldin
       {
         id: '4',
         icon: '🌍',
-        title: '11 Talen Ondersteuning - Veilig Leren Lezen in het Nederlands en Sommen tot 20 Thema\'s',
+        title: 'Gratis Werkblad voor Kinderen in 11 Talen - Werkblad voor Kleuters Meertalig',
         description: `De woordkruisel generator ondersteunt elf talen. Nederlands staat natuurlijk voorop. Maar je maakt ook puzzels in het Duits, Frans, Engels of Spaans. Ideaal voor meertalig onderwijs en internationale scholen.
 
 Voor Nederlandse basisscholen is de tool perfect afgestemd op Veilig leren lezen. De woorden in de bibliotheek passen bij de woordenschat van groep 3. Kinderen herkennen de woorden uit hun leesmethode.
@@ -157,7 +206,7 @@ De interface is volledig in het Nederlands beschikbaar. Alle knoppen en menu's z
       {
         id: '5',
         icon: '🧮',
-        title: 'Commerciele Licentie voor Tafels Oefenen Materialen en Oefenbladen Gratis Verkopen',
+        title: 'Gratis Werkbladen Commerciele Licentie - Werkblad voor Kinderen Verkopen',
         description: `Met je Basispakket abonnement krijg je een commerciele licentie. Dit betekent dat je jouw werkbladen mag verkopen. Denk aan platforms zoals Teachers Pay Teachers, Etsy of Amazon KDP.
 
 De licentie geldt voor alle werkbladen die je maakt. Ook voor tafels oefenen materialen en andere educatieve content. Je hoeft geen extra kosten te betalen per werkblad. Alles zit inbegrepen in je €144 per jaar abonnement.
@@ -168,7 +217,7 @@ Veel leerkrachten verdienen extra inkomen met hun materialen. Ze maken werkblade
       {
         id: '6',
         icon: '🎨',
-        title: 'Meer dan 3000 Afbeeldingen - Van Letters Leren tot Kleurplaten Thema\'s voor Alle Leeftijden',
+        title: 'Gratis Printables met 3000+ Afbeeldingen - Werkblad voor Kleuters Thema\'s',
         description: `De beeldbibliotheek bevat meer dan drieduizend afbeeldingen. Ze zijn georganiseerd in thema's. Van dieren en voertuigen tot seizoenen en feestdagen. Er is altijd iets dat past bij je les.
 
 Voor letters leren activiteiten zijn de afbeeldingen speciaal geselecteerd. Elk plaatje heeft een duidelijke Nederlandse naam. Kinderen herkennen het woord direct. Dit ondersteunt het leesproces in groep 3.
@@ -179,7 +228,7 @@ De bibliotheek bevat ook achtergronden en kaders. Maak je werkbladen extra aantr
       {
         id: '7',
         icon: '🖨️',
-        title: 'Professionele 300 DPI Kwaliteit voor Fijne Motoriek en Veilig Leren Lezen Werkbladen',
+        title: 'Gratis Werkblad 300 DPI Kwaliteit - Werkblad voor Kinderen Professioneel Printen',
         description: `Alle werkbladen worden geexporteerd in 300 DPI. Dit is de standaard voor professioneel drukwerk. Je puzzels zien er scherp en helder uit op papier.
 
 Deze kwaliteit is belangrijk voor fijne motoriek activiteiten. De letters in de puzzel zijn goed leesbaar. Kinderen kunnen de antwoorden netjes opschrijven. Ook fijne details blijven zichtbaar bij het printen.
@@ -192,7 +241,7 @@ Je downloadt werkbladen als PDF of JPEG. De PDF-optie is ideaal voor printen. JP
 
   // How-To Guide - FULL text from word-scramble.md step sections
   howTo: {
-    sectionTitle: 'Hoe Maak Je Woordkruisels - Werkbladen Kleuters tot Groep 3 in 5 Eenvoudige Stappen',
+    sectionTitle: 'Gratis Werkblad Maken - Werkblad voor Kleuters in 5 Stappen',
     sectionDescription: 'Het maken van een woordkruisel duurt minder dan drie minuten. Volg deze vijf stappen en je hebt een professioneel werkblad klaar. Geen technische kennis vereist. De generator doet het zware werk voor je.',
     ctaText: 'Nu Starten',
     badgeText: 'Zo werkt het',
@@ -207,7 +256,7 @@ Je downloadt werkbladen als PDF of JPEG. De PDF-optie is ideaal voor printen. JP
       {
         id: '1',
         number: 1,
-        title: 'Stap 1: Kies Je Inhoud voor Oefenbladen Gratis - Thema, Afbeeldingen of Eigen Woorden voor Letters Leren',
+        title: 'Stap 1: Gratis Werkblad Inhoud Kiezen - Werkblad voor Kinderen Thema Selecteren',
         description: `Begin met het selecteren van je inhoud. Je hebt drie opties. Kies een thema uit de bibliotheek. Selecteer individuele afbeeldingen. Of typ je eigen woordenlijst zonder afbeeldingen.
 
 De thema-optie werkt het snelst voor oefenbladen gratis. Selecteer bijvoorbeeld "Boerderij" of "School". De generator kiest automatisch passende woorden en afbeeldingen. Ideaal voor snelle werkbladen kleuters en groep 3.
@@ -218,7 +267,7 @@ Voor letters leren activiteiten werkt de individuele selectie goed. Zoek afbeeld
       {
         id: '2',
         number: 2,
-        title: 'Stap 2: Pas Instellingen Aan voor Sommen tot 20 Thema\'s en Tafels Oefenen Combinaties',
+        title: 'Stap 2: Gratis Werkbladen Instellingen - Werkblad voor Kleuters Aanpassen',
         description: `Nu stel je de puzzelinstellingen in. Begin met het aantal puzzels per pagina. Kies 1 tot 10 woordkruisels. Minder puzzels betekent grotere afbeeldingen en letters.
 
 Voor werkbladen kleuters adviseren we 4 tot 6 puzzels per pagina. De afbeeldingen zijn dan groot genoeg. Kinderen kunnen de letters makkelijk herkennen. Perfect voor fijne motoriek oefeningen met grote schrijfruimte.
@@ -229,7 +278,7 @@ Kies de moeilijkheidsgraad via het hintsysteem. "Geen hints" voor de grootste ui
       {
         id: '3',
         number: 3,
-        title: 'Stap 3: Genereer Je Werkblad met Kleurplaten Elementen en Rekenen Werkbladen Stijl',
+        title: 'Stap 3: Gratis Printables Genereren - Werkblad voor Kinderen Aanmaken',
         description: `Klik op de knop "Aanmaken" om je puzzel te genereren. De woordkruisel verschijnt direct op het canvas. Je ziet de afbeeldingen met daaronder de door elkaar gehusselde letters.
 
 De letters worden willekeurig gerangschikt. Elke keer dat je genereert krijg je een nieuwe variant. Dit is handig voor differentiatie in de klas. Maak meerdere versies voor verschillende leerlingen.
@@ -240,7 +289,7 @@ De generator maakt ook automatisch een antwoordblad. Hierop staan de correcte wo
       {
         id: '4',
         number: 4,
-        title: 'Stap 4: Bewerk op Canvas - Werkbladen Groep 3 Personaliseren met Schrijven Oefenen Ruimte',
+        title: 'Stap 4: Gratis Werkblad voor Kinderen Bewerken - Werkblad voor Kleuters Canvas',
         description: `Na het genereren kun je alles aanpassen. Het canvas werkt als een eenvoudig tekenprogramma. Sleep elementen met je muis. Vergroot of verklein ze naar wens.
 
 Voeg een titel toe aan je werkbladen groep 3. Typ bijvoorbeeld "Woordkruisel Week 5" bovenaan. Kies een leuk lettertype uit de zeven beschikbare opties. Pas de kleur aan bij je thema.
@@ -251,7 +300,7 @@ Maak ruimte voor schrijven oefenen onder de puzzels. Voeg extra lijnen toe voor 
       {
         id: '5',
         number: 5,
-        title: 'Stap 5: Download en Print - Oefenbladen Gratis als PDF met Fijne Motoriek Oefeningen en Antwoordblad',
+        title: 'Stap 5: Gratis Werkbladen Downloaden - Werkblad voor Kinderen PDF Printen',
         description: `Je werkblad is klaar. Nu download je het in hoge kwaliteit. Kies tussen PDF en JPEG formaat. PDF werkt het beste voor printen op school of thuis.
 
 Klik op "Download" en selecteer "Werkblad (PDF)". Het bestand wordt opgeslagen op je computer. Open het en print direct. De kwaliteit is 300 DPI voor scherpe letters en afbeeldingen.
@@ -264,7 +313,7 @@ Download ook het antwoordblad als je dat wilt. Klik op "Antwoordblad (PDF)". Bew
 
   // Use Cases - FULL text from word-scramble.md use case sections
   useCases: {
-    sectionTitle: 'Perfect voor Leerkrachten en Ouders - Werkbladen Groep 3 en Kleurplaten voor Iedereen',
+    sectionTitle: 'Gratis Werkblad voor Kinderen - Werkblad voor Kleuters voor Leerkrachten',
     sectionDescription: 'De woordkruisel generator is ontworpen voor verschillende gebruikers. Van kleuterjuffen tot ouders die thuisonderwijs geven. Ontdek hoe deze tool past bij jouw situatie en onderwijsdoelen.',
     badgeText: 'Voor wie',
     readMoreLabel: 'Lees meer',
@@ -273,7 +322,7 @@ Download ook het antwoordblad als je dat wilt. Klik op "Antwoordblad (PDF)". Bew
       {
         id: '1',
         icon: '👶',
-        title: 'Leerkrachten Groep 1 2 - Werkbladen Kleuters met Fijne Motoriek en Veilig Leren Lezen Voorbereiding',
+        title: 'Gratis Werkblad voor Kinderen Groep 1 2 - Werkblad voor Kleuters met Fijne Motoriek',
         subtitle: 'Werkbladen kleuters en fijne motoriek',
         description: `Werk je met kleuters in groep 1 of 2? Dan ken je de uitdaging van leuke leeractiviteiten. Werkbladen kleuters moeten speels zijn. Maar ook educatief waardevol voor de ontwikkeling.
 
@@ -285,7 +334,7 @@ Voor letters leren in de kleuterklas maak je eenvoudige puzzels. Gebruik grote a
       {
         id: '2',
         icon: '📚',
-        title: 'Leerkrachten Groep 3 - Veilig Leren Lezen Ondersteunen met Oefenbladen Gratis en Letters Leren',
+        title: 'Gratis Werkbladen Groep 3 - Werkblad voor Kinderen Veilig Leren Lezen',
         subtitle: 'Werkbladen groep 3 en Veilig leren lezen',
         description: `Groep 3 is het jaar van leren lezen. Methodes zoals Veilig leren lezen vormen de basis. Woordkruisels zijn een perfecte aanvulling op deze methodes voor extra oefening.
 
@@ -297,7 +346,7 @@ De oefenbladen gratis mogelijkheid is ideaal voor differentiatie. Print puzzels 
       {
         id: '3',
         icon: '🧮',
-        title: 'Leerkrachten Groep 4 en 5 - Tafels Oefenen en Sommen tot 20 met Woordpuzzels Combineren',
+        title: 'Gratis Printables Groep 4 5 - Werkblad voor Kinderen Tafels Oefenen',
         subtitle: 'Tafels oefenen en rekenen werkbladen',
         description: `In groep 4 en 5 worden de puzzels uitdagender. Meer woorden per pagina met langere spellingen. Kinderen vinden dit een leuke afwisseling van standaard taalwerk.
 
@@ -309,7 +358,7 @@ Voor sommen tot 20 integratie kies je getalswoorden. "Twaalf", "vijftien" en "ac
       {
         id: '4',
         icon: '🏠',
-        title: 'Ouders met Thuisonderwijs - Werkbladen Kleuters en Schrijven Oefenen voor Thuis',
+        title: 'Gratis Werkblad Thuisonderwijs - Werkblad voor Kleuters en Kinderen Thuis',
         subtitle: 'Oefenbladen gratis voor thuis',
         description: `Geef je thuisonderwijs? Dan weet je hoe belangrijk variatie is. Dezelfde werkbladen worden snel saai. De woordkruisel generator biedt eindeloze mogelijkheden.
 
@@ -321,7 +370,7 @@ Combineer puzzels met schrijven oefenen voor een productieve middag. De woordkru
       {
         id: '5',
         icon: '🌐',
-        title: 'Remedial Teachers - Veilig Leren Lezen Extra Oefening met Fijne Motoriek Ondersteuning',
+        title: 'Gratis Werkbladen Remedial Teaching - Werkblad voor Kinderen Extra Oefening',
         subtitle: 'Werkbladen voor remedial teaching',
         description: `Werk je met kinderen die extra ondersteuning nodig hebben? Woordkruisels zijn een waardevolle tool. Ze bieden herhaling zonder verveling of frustratie.
 
@@ -333,7 +382,7 @@ Fijne motoriek ondersteuning gaat samen met woordkruisels. Kinderen oefenen lett
       {
         id: '6',
         icon: '💰',
-        title: 'Onderwijsondernemers - Oefenbladen Gratis Maken en Kleurplaten Verkopen met Commerciele Licentie',
+        title: 'Gratis Werkblad voor Kinderen Verkopen - Gratis Printables Commerciele Licentie',
         subtitle: 'Commerciele licentie voor ondernemers',
         description: `Wil je geld verdienen met je lesmateriaal? De woordkruisel generator maakt dit mogelijk. Met een Basispakket abonnement krijg je een commerciele licentie voor €144 per jaar.
 
@@ -347,7 +396,7 @@ Combineer woordkruisels met kleurplaten tot complete pakketten. Een thema-bundel
 
   // FAQ Section - FULL FAQs from word-scramble.md
   faq: {
-    sectionTitle: 'Veelgestelde Vragen over Woordkruisels - Oefenbladen Gratis en Werkbladen Groep 3 Antwoorden',
+    sectionTitle: 'Veelgestelde Vragen - Gratis Werkblad voor Kinderen en Gratis Werkbladen',
     sectionDescription: 'Heb je vragen over de woordkruisel generator? Hieronder vind je antwoorden op de meest gestelde vragen. Van prijzen tot functies en alles daartussenin.',
     showMoreText: 'Meer vragen tonen',
     showLessText: 'Minder tonen',
@@ -359,62 +408,62 @@ Combineer woordkruisels met kleurplaten tot complete pakketten. Een thema-bundel
     items: [
       {
         id: '1',
-        question: 'Is Deze Woordkruisel Generator Echt Gratis voor Oefenbladen Gratis en Kleurplaten?',
+        question: 'Is Deze Woordkruisel Generator Gratis Werkblad voor Kinderen en Gratis Werkbladen?',
         answer: 'De woordkruisel generator vereist een Basispakket abonnement van €144 per jaar of €15 per maand. Met je abonnement maak je onbeperkt woordkruisels zonder extra kosten per werkblad. Genereer zoveel oefenbladen als je nodig hebt. De Basispakket bevat tien populaire werkbladgenerators. De Volledige Toegang versie kost €240 per jaar en bevat alle 33 generators. Beide abonnementen bevatten een commerciele licentie, ondersteuning voor 11 talen en professionele 300 DPI exports.',
       },
       {
         id: '2',
-        question: 'Kan Ik Werkbladen Kleuters Thuis Printen op een Gewone Printer met Fijne Motoriek Oefeningen?',
+        question: 'Kan Ik Gratis Werkblad voor Kinderen Thuis Printen - Werkblad voor Kleuters?',
         answer: 'Ja, alle werkbladen kleuters zijn ontworpen voor thuisprinten. De generator exporteert in 300 DPI kwaliteit. Dit werkt perfect op elke standaard inkjet of laserprinter. Voor fijne motoriek oefeningen adviseren we stevig papier van 100 gram. Kinderen kunnen dan beter schrijven zonder doordrukken. De lijnen en letters blijven scherp zichtbaar. De grijswaarden optie bespaart inkt voor grote aantallen.',
       },
       {
         id: '3',
-        question: 'Heb Ik Ontwerpvaardigheden Nodig voor Werkbladen Groep 3 met Veilig Leren Lezen Woorden?',
+        question: 'Heb Ik Ontwerpvaardigheden Nodig voor Gratis Werkbladen en Werkblad voor Kinderen?',
         answer: 'Nee, geen enkele ontwerpervaring is nodig. De generator doet al het werk voor je. Kies een thema, stel het aantal puzzels in en klik op genereren. Voor werkbladen groep 3 met Veilig leren lezen woorden selecteer je simpelweg de juiste afbeeldingen. De tool husselt de letters automatisch door elkaar. Je hebt binnen drie minuten een compleet werkblad. Het canvas is intuïtief te bedienen.',
       },
       {
         id: '4',
-        question: 'Mag Ik Woordkruisels Gebruiken in Mijn Klas voor Sommen tot 20 en Tafels Oefenen Thema\'s?',
+        question: 'Mag Ik Gratis Printables Gebruiken in Mijn Klas - Werkblad voor Kleuters?',
         answer: 'Ja, je Basispakket abonnement bevat onbeperkt klassikaal gebruik. Print zoveel exemplaren als je nodig hebt. Voor elke leerling een eigen werkblad. Voor sommen tot 20 thema\'s maak je woordkruisels met getalswoorden. Kinderen leren de spelling van twaalf, vijftien en achttien. Bij tafels oefenen integratie gebruik je rekenwoordenschat. Vermenigvuldigen, delen, product en quotient in puzzelvorm.',
       },
       {
         id: '5',
-        question: 'In Welke Talen Zijn Woordkruisels Beschikbaar voor Rekenen Werkbladen en Letters Leren?',
+        question: 'In Welke Talen Zijn Gratis Werkblad voor Kinderen en Gratis Werkbladen Beschikbaar?',
         answer: 'De generator ondersteunt elf talen volledig. Nederlands, Duits, Frans, Engels, Spaans, Portugees, Italiaans, Zweeds, Deens, Noors en Fins. De interface en alle afbeeldingsnamen zijn vertaald. Voor rekenen werkbladen in andere talen kies je de gewenste taal. De getalswoorden en rekentermen verschijnen in die taal. Perfect voor meertalig onderwijs en letters leren in vreemde talen.',
       },
       {
         id: '6',
-        question: 'Kan Ik Mijn Woordkruisels Verkopen als Oefenbladen Gratis Downloaden voor Klanten?',
+        question: 'Kan Ik Gratis Werkblad voor Kinderen Verkopen - Werkblad voor Kleuters Licentie?',
         answer: 'Ja, je Basispakket abonnement bevat een volledige commerciele licentie. Verkoop je werkbladen op Teachers Pay Teachers, Etsy of Amazon KDP. Geen extra licentiekosten. Je oefenbladen kun je aanbieden als digitale downloads. Klanten betalen en downloaden direct. Ze printen thuis hun eigen exemplaren. De 300 DPI kwaliteit is professioneel genoeg voor verkoop.',
       },
       {
         id: '7',
-        question: 'Hoe Pas Ik Werkbladen Kleuters Aan voor Mijn Leerlingen met Schrijven Oefenen?',
+        question: 'Hoe Pas Ik Gratis Werkbladen Aan - Werkblad voor Kleuters Personaliseren?',
         answer: 'De generator biedt uitgebreide aanpassingsmogelijkheden. Kies het aantal puzzels per pagina. Stel de moeilijkheidsgraad in via hints. Selecteer hoofdletters of kleine letters. Voor schrijven oefenen voeg je extra lijnen toe onder de puzzels. Kinderen schrijven de gevonden woorden over. Upload eigen afbeeldingen voor gepersonaliseerde werkbladen kleuters. Foto\'s van klasgenoten of schooluitjes.',
       },
       {
         id: '8',
-        question: 'Welke Leeftijden Werken het Best met Woordkruisels voor Fijne Motoriek en Veilig Leren Lezen?',
+        question: 'Welke Leeftijden Werken het Best met Gratis Printables en Werkblad voor Kinderen?',
         answer: 'Woordkruisels zijn perfect voor kinderen van 4 tot 10 jaar. Kleuters beginnen met eenvoudige puzzels van drie letters. Groep 5 leerlingen krijgen langere woorden. Voor fijne motoriek ontwikkeling zijn woordkruisels ideaal vanaf groep 1. Kinderen oefenen nauwkeurig kijken en schrijven. Bij Veilig leren lezen ondersteuning past de tool perfect bij groep 3.',
       },
       {
         id: '9',
-        question: 'Kan Ik Eigen Afbeeldingen Uploaden voor Werkbladen Groep 3 met Tafels Oefenen Woorden?',
+        question: 'Kan Ik Eigen Afbeeldingen Uploaden voor Gratis Werkblad en Werkblad voor Kinderen?',
         answer: 'Ja, de uploadfunctie accepteert JPG, PNG en GIF bestanden. Upload meerdere afbeeldingen tegelijk. Combineer ze met afbeeldingen uit de bibliotheek. Voor werkbladen groep 3 upload je thematische foto\'s. Van een schooluitje of seizoensactiviteit. Bij tafels oefenen woorden typ je een eigen woordenlijst. De generator maakt puzzels zonder afbeeldingen.',
       },
       {
         id: '10',
-        question: 'Hoe Lang Duurt het om een Woordkruisel te Maken met Rekenen Werkbladen Elementen?',
+        question: 'Hoe Lang Duurt het om Gratis Werkbladen te Maken - Werkblad voor Kleuters Snel?',
         answer: 'Een complete woordkruisel maak je in minder dan drie minuten. Selecteer afbeeldingen, kies instellingen en klik op genereren. De puzzel verschijnt direct. Voor rekenen werkbladen elementen voeg je na het genereren extra content toe. Sommen of getalllijnen naast de puzzel. Dit kost nog eens twee minuten extra. Vergelijk dit met handmatig werken dat dertig minuten duurt.',
       },
       {
         id: '11',
-        question: 'Bevatten Woordkruisels een Antwoordblad voor Sommen tot 20 en Kleurplaten Combinaties?',
+        question: 'Bevat Gratis Werkblad voor Kinderen een Antwoordblad - Gratis Printables Download?',
         answer: 'Ja, de generator maakt automatisch een antwoordblad. Hierop staan alle correcte woorden uitgeschreven. Download het apart of samen met het werkblad. Voor sommen tot 20 combinaties print je het antwoordblad voor zelfcorrectie. Kinderen controleren hun eigen werk. Bij kleurplaten combinaties werkt het antwoordblad als controle-instrument.',
       },
       {
         id: '12',
-        question: 'Kan Ik Woordkruisels Maken over Specifieke Schoolvakken zoals Oefenbladen Gratis voor Aardrijkskunde?',
+        question: 'Kan Ik Gratis Werkbladen Maken voor Specifieke Vakken - Werkblad voor Kinderen Thema?',
         answer: 'Ja, de themabibliotheek bevat duizenden afbeeldingen. Van dieren en planten tot landen en beroepen. Er is altijd iets dat past bij je les. Voor oefenbladen over aardrijkskunde kies je landschappen en werelddelen. Of upload eigen kaarten en foto\'s. De eigen woordenlijst functie biedt maximale flexibiliteit. Typ vakjargon of themawoorden.',
       },
     ],
@@ -452,7 +501,7 @@ Combineer woordkruisels met kleurplaten tot complete pakketten. Een thema-bundel
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Combineer met Andere Generators - Werkbladen Kleuters en Tafels Oefenen Complete Lespakketten',
+    sectionTitle: 'Combineer Generators - Gratis Werkblad voor Kinderen en Gratis Printables Pakketten',
     sectionDescription: 'Je Basispakket abonnement bevat tien populaire werkbladgenerators die perfect samenwerken. Combineer woordkruisels met andere tools voor complete lespakketten. Ontdek hoe je thematische bundels maakt voor elke lesweek.',
     ctaTitle: 'Klaar om geweldige werkbladen te maken?',
     ctaDescription: 'Sluit je aan bij duizenden leerkrachten die professionele werkbladen maken. Onbeperkt genereren, commerciele licentie inbegrepen.',

@@ -21,23 +21,29 @@ export const wordGuessEsContent: ProductPageContent = {
     canonicalUrl: 'https://www.lessoncraftstudio.com/es/apps/adivinar-palabras-fichas',
     images: [
       {
-        url: 'https://www.lessoncraftstudio.com/samples/english/word%20guess/clue-grid_worksheet.jpeg',
+        url: 'https://www.lessoncraftstudio.com/samples/spanish/word-guess/sample-1.jpeg',
         width: 2480,
         height: 3508,
-        caption: 'Ficha gratis de adivina la palabra con cuadricula de pistas para lectoescritura infantil'
+        caption: 'Ficha gratis de adivina la palabra con cuadricula de pistas para lectoescritura infantil',
       },
       {
-        url: 'https://www.lessoncraftstudio.com/samples/english/word%20guess/landscape.jpeg',
-        width: 3508,
-        height: 2480,
-        caption: 'Ficha gratis para ninos de adivina la palabra formato horizontal para preescolar'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/word%20guess/custom%20word%20list.jpeg',
+        url: 'https://www.lessoncraftstudio.com/samples/spanish/word-guess/sample-2.jpeg',
         width: 2480,
         height: 3508,
-        caption: 'Imprimibles gratis de adivina la palabra con lista personalizada para educacion infantil'
-      }
+        caption: 'Ficha gratis para niños de adivina la palabra para preescolar',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/spanish/word-guess/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Imprimibles gratis de adivina la palabra con lista personalizada para educación infantil',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/spanish/word-guess/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fichas para imprimir adivina la palabra - ejercicios vocabulario para primaria',
+      },
     ],
   },
 

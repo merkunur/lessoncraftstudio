@@ -15,10 +15,42 @@ export const picturePathEsContent: ProductPageContent = {
   seo: {
     slug: 'laberintos-imagenes-fichas',
     appId: 'picture-path',
-    title: 'Fichas de Laberintos para Imprimir - Generador de Laberintos con Imágenes - Fichas Gratis para Preescolar y Primaria',
+    title: 'Fichas de Laberintos Gratis para Imprimir | Generador Profesional',
     description: 'Crea laberintos educativos con nuestro generador de caminos visuales. Genera fichas para imprimir personalizadas perfectas para educación infantil. Descarga actividades de grafomotricidad en PDF de alta calidad en menos de 3 minutos.',
     keywords: 'fichas para imprimir, laberintos, fichas preescolar, fichas infantil, camino visual, material educativo gratis, fichas de matemáticas, lectoescritura, abecedario, grafomotricidad, dibujos para colorear, tablas de multiplicar, fichas gratis',
     canonicalUrl: 'https://www.lessoncraftstudio.com/es/apps/laberintos-imagenes-fichas',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/spanish/picture-path/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fichas de laberintos gratis para imprimir - camino visual para preescolar',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/spanish/picture-path/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Ficha de laberinto clásico gratis - ejercicio de grafomotricidad para primaria',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/spanish/picture-path/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fichas para imprimir de laberintos - elige el camino correcto para fichas infantil',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/spanish/picture-path/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Material educativo gratis de laberintos - fichas preescolar con imágenes',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/spanish/picture-path/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Ficha gratis de laberintos para niños - ejercicios de lectoescritura visual',
+      },
+    ],
   },
 
   // Hero Section
@@ -32,7 +64,7 @@ Nuestro generador ofrece tres modos de juego diferentes. El modo Camino Visual c
 Las fichas infantil funcionan perfectamente para preescolar. Los ejercicios matemáticas integran números con laberintos visuales. Las actividades de lectoescritura combinan letras del abecedario con caminos divertidos. Todo personalizable para tus estudiantes.
 
 Los maestros crean fichas gratis con cualquier tema. Practica el reconocimiento de números y aprender los números. Trabaja las tablas de multiplicar con caminos numéricos. Combina colorear con actividades de laberinto. La suscripción Acceso Completo incluye licencia comercial para vender en Teachers Pay Teachers.`,
-    previewImageSrc: '/samples/english/picture path/picture path.jpeg',
+    previewImageSrc: '/samples/spanish/picture-path/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Probar Gratis',
       viewSamples: 'Ver Ejemplos',
@@ -67,24 +99,38 @@ Los maestros crean fichas gratis con cualquier tema. Practica el reconocimiento 
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/picture path/picture path.jpeg',
-        answerKeySrc: '/samples/english/picture path/picture path answer_key.jpeg',
-        altText: 'Ficha de laberinto visual con camino de imágenes para preescolar',
-        pdfDownloadUrl: '/samples/english/picture path/picture path.pdf',
+        worksheetSrc: '/samples/spanish/picture-path/sample-1.jpeg',
+        answerKeySrc: '/samples/spanish/picture-path/sample-1-answer.jpeg',
+        altText: 'Fichas de laberintos gratis para imprimir - camino visual con imágenes para preescolar',
+        pdfDownloadUrl: '/samples/spanish/picture-path/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/picture path/classic maze.jpeg',
-        answerKeySrc: '/samples/english/picture path/classic maze answer_key.jpeg',
-        altText: 'Ficha de laberinto clásico con objetos coleccionables para primaria',
-        pdfDownloadUrl: '/samples/english/picture path/classic maze.pdf',
+        worksheetSrc: '/samples/spanish/picture-path/sample-2.jpeg',
+        answerKeySrc: '/samples/spanish/picture-path/sample-2-answer.jpeg',
+        altText: 'Ficha de laberinto clásico gratis - ejercicio de grafomotricidad para fichas infantil',
+        pdfDownloadUrl: '/samples/spanish/picture-path/sample-2.pdf',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/picture path/right path.jpeg',
-        answerKeySrc: '/samples/english/picture path/right path answer_key.jpeg',
-        altText: 'Ficha de elegir el camino correcto con múltiples opciones',
-        pdfDownloadUrl: '/samples/english/picture path/right path.pdf',
+        worksheetSrc: '/samples/spanish/picture-path/sample-3.jpeg',
+        answerKeySrc: '/samples/spanish/picture-path/sample-3-answer.jpeg',
+        altText: 'Fichas para imprimir de laberintos - elige el camino correcto para primaria',
+        pdfDownloadUrl: '/samples/spanish/picture-path/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/spanish/picture-path/sample-4.jpeg',
+        answerKeySrc: '/samples/spanish/picture-path/sample-4-answer.jpeg',
+        altText: 'Material educativo gratis de laberintos con imágenes - ficha para preescolar',
+        pdfDownloadUrl: '/samples/spanish/picture-path/sample-4.pdf',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/spanish/picture-path/sample-5.jpeg',
+        answerKeySrc: '/samples/spanish/picture-path/sample-5-answer.jpeg',
+        altText: 'Ficha gratis de laberintos para niños - ejercicios de lectoescritura visual',
+        pdfDownloadUrl: '/samples/spanish/picture-path/sample-5.pdf',
       },
     ],
   },

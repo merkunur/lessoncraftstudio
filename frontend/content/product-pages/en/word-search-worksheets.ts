@@ -22,23 +22,35 @@ export const wordSearchEnContent: ProductPageContent = {
     // Images for Google Image Thumbnails in search results
     images: [
       {
-        url: 'https://www.lessoncraftstudio.com/samples/english/wordsearch/wordsearch%20portrait.jpeg',
+        url: 'https://www.lessoncraftstudio.com/samples/english/wordsearch/sample-1.jpeg',
         width: 2480,
         height: 3508,
-        caption: 'Free printable word search worksheets for kindergarten - vocabulary puzzles with colorful themed images'
+        caption: 'Free printable word search worksheets for kindergarten - vocabulary puzzles with colorful themed images',
       },
       {
-        url: 'https://www.lessoncraftstudio.com/samples/english/wordsearch/wordsearch%20landscape.jpeg',
-        width: 3508,
-        height: 2480,
-        caption: 'Word search generator printable worksheets - word puzzles for first grade kids with picture clues'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/wordsearch/custom%20word%20list.jpeg',
+        url: 'https://www.lessoncraftstudio.com/samples/english/wordsearch/sample-2.jpeg',
         width: 2480,
         height: 3508,
-        caption: 'Free word search worksheets - sight words and phonics practice for kindergarten students'
-      }
+        caption: 'Word search generator printable worksheets - word puzzles for first grade kids with picture clues',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/wordsearch/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Free word search worksheets - sight words and phonics practice for kindergarten students',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/wordsearch/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Word search printable free - vocabulary word puzzle for preschool learning',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/wordsearch/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Free word puzzles for kids - word search worksheet for kindergarten vocabulary building',
+      },
     ],
   },
 

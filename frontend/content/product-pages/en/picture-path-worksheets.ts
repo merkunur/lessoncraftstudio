@@ -24,20 +24,32 @@ export const picturePathEnContent: ProductPageContent = {
         url: 'https://www.lessoncraftstudio.com/samples/english/picture-path/sample-1.jpeg',
         width: 2480,
         height: 3508,
-        caption: 'Free printable maze worksheets for kindergarten - picture path visual tracking activity with colorful images'
+        caption: 'Free printable maze worksheets for kindergarten - picture path visual tracking activity with colorful images',
       },
       {
         url: 'https://www.lessoncraftstudio.com/samples/english/picture-path/sample-2.jpeg',
         width: 2480,
         height: 3508,
-        caption: 'Free worksheet for kids - classic maze with collectible counting for first grade math integration'
+        caption: 'Free worksheet for kids - classic maze with collectible counting for first grade math integration',
       },
       {
         url: 'https://www.lessoncraftstudio.com/samples/english/picture-path/sample-3.jpeg',
         width: 2480,
         height: 3508,
-        caption: 'Free printables for kindergarten - choose the right path maze worksheet for critical thinking'
-      }
+        caption: 'Free printables for kindergarten - choose the right path maze worksheet for critical thinking',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/picture-path/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Maze worksheets printable free - picture path activity for preschool visual tracking',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/picture-path/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Free maze printables for kids - picture path worksheet for kindergarten fine motor skills',
+      },
     ],
   },
 

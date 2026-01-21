@@ -24,20 +24,32 @@ export const wordGuessEnContent: ProductPageContent = {
         url: 'https://www.lessoncraftstudio.com/samples/english/word-guess/sample-1.jpeg',
         width: 2480,
         height: 3508,
-        caption: 'Free printable word guess worksheet with picture clues for kindergarten vocabulary practice'
+        caption: 'Free printable word guess worksheet with picture clues for kindergarten vocabulary practice',
       },
       {
         url: 'https://www.lessoncraftstudio.com/samples/english/word-guess/sample-2.jpeg',
-        width: 3508,
-        height: 2480,
-        caption: 'Landscape word guess spelling worksheet for first grade phonics practice'
+        width: 2480,
+        height: 3508,
+        caption: 'Word guess spelling worksheet for first grade phonics practice',
       },
       {
         url: 'https://www.lessoncraftstudio.com/samples/english/word-guess/sample-3.jpeg',
         width: 2480,
         height: 3508,
-        caption: 'Custom word list word guess worksheet for sight words and spelling practice'
-      }
+        caption: 'Custom word list word guess worksheet for sight words and spelling practice',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/word-guess/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Word guess printable free - vocabulary worksheet for preschool letter recognition',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/word-guess/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Free spelling worksheets - word guess puzzle for kindergarten vocabulary building',
+      },
     ]
   },
 

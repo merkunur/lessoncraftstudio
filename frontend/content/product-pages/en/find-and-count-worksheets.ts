@@ -24,20 +24,32 @@ export const findAndCountEnContent: ProductPageContent = {
         url: 'https://www.lessoncraftstudio.com/samples/english/find-and-count/sample-1.jpeg',
         width: 2480,
         height: 3508,
-        caption: 'Free printable find and count worksheets for kindergarten - I Spy counting worksheet for kids with hidden objects'
+        caption: 'Free printable find and count worksheets for kindergarten - I Spy counting worksheet for kids with hidden objects',
       },
       {
         url: 'https://www.lessoncraftstudio.com/samples/english/find-and-count/sample-2.jpeg',
         width: 2480,
         height: 3508,
-        caption: 'Free worksheets for kids - visual discrimination counting worksheet for first grade with colorful images'
+        caption: 'Free worksheets for kids - visual discrimination counting worksheet for first grade with colorful images',
       },
       {
         url: 'https://www.lessoncraftstudio.com/samples/english/find-and-count/sample-3.jpeg',
         width: 2480,
         height: 3508,
-        caption: 'Free printables I Spy worksheets - hidden object counting practice worksheet for kindergarten'
-      }
+        caption: 'Free printables I Spy worksheets - hidden object counting practice worksheet for kindergarten',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/find-and-count/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Find and count worksheets free - I Spy activity for preschool counting and visual scanning',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/find-and-count/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Counting worksheets kindergarten - free printable find and count with hidden pictures',
+      },
     ],
   },
 

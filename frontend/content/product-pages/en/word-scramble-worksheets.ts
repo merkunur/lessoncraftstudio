@@ -24,20 +24,32 @@ export const wordScrambleEnContent: ProductPageContent = {
         url: 'https://www.lessoncraftstudio.com/samples/english/word-scramble/sample-1.jpeg',
         width: 2480,
         height: 3508,
-        caption: 'Free printable word scramble worksheets for kindergarten - vocabulary puzzle with picture clues'
+        caption: 'Free printable word scramble worksheets for kindergarten - vocabulary puzzle with picture clues',
       },
       {
         url: 'https://www.lessoncraftstudio.com/samples/english/word-scramble/sample-2.jpeg',
-        width: 3508,
-        height: 2480,
-        caption: 'Word scramble worksheets landscape - spelling puzzles for first grade vocabulary practice'
+        width: 2480,
+        height: 3508,
+        caption: 'Word scramble worksheets - spelling puzzles for first grade vocabulary practice',
       },
       {
         url: 'https://www.lessoncraftstudio.com/samples/english/word-scramble/sample-3.jpeg',
         width: 2480,
         height: 3508,
-        caption: 'Free word scramble worksheet custom word list - sight words practice for kids'
-      }
+        caption: 'Free word scramble worksheet custom word list - sight words practice for kids',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/word-scramble/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Word scramble printable free - vocabulary unscramble worksheet for preschool',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/word-scramble/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Free spelling worksheets - word scramble puzzle for kindergarten phonics',
+      },
     ]
   },
 

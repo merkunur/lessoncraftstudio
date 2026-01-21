@@ -24,20 +24,32 @@ export const coloringEnContent: ProductPageContent = {
         url: 'https://www.lessoncraftstudio.com/samples/english/coloring/sample-1.jpeg',
         width: 2480,
         height: 3508,
-        caption: 'Free printable coloring worksheets for kindergarten - coloring pages for kids developing fine motor skills'
+        caption: 'Free printable coloring worksheets for kindergarten - coloring pages for kids developing fine motor skills',
       },
       {
         url: 'https://www.lessoncraftstudio.com/samples/english/coloring/sample-2.jpeg',
         width: 2480,
         height: 3508,
-        caption: 'Kindergarten coloring worksheets free printables - coloring activities for preschool and early childhood'
+        caption: 'Kindergarten coloring worksheets free printables - coloring activities for preschool and early childhood',
       },
       {
         url: 'https://www.lessoncraftstudio.com/samples/english/coloring/sample-3.jpeg',
         width: 2480,
         height: 3508,
-        caption: 'Printable coloring pages for kids - free worksheet for kindergarten with educational coloring activities'
-      }
+        caption: 'Printable coloring pages for kids - free worksheet for kindergarten with educational coloring activities',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/coloring/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Free coloring worksheets for kids - printable coloring pages for preschool fine motor development',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/coloring/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Coloring pages printable free - kindergarten coloring worksheets for creative learning',
+      },
     ],
   },
 

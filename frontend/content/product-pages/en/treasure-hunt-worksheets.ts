@@ -24,14 +24,32 @@ export const treasureHuntEnContent: ProductPageContent = {
         url: 'https://www.lessoncraftstudio.com/samples/english/treasure-hunt/sample-1.jpeg',
         width: 2480,
         height: 3508,
-        caption: 'Free treasure hunt worksheets for kindergarten - up down left right directions practice'
+        caption: 'Free treasure hunt worksheets for kindergarten - up down left right directions practice',
       },
       {
         url: 'https://www.lessoncraftstudio.com/samples/english/treasure-hunt/sample-2.jpeg',
         width: 2480,
         height: 3508,
-        caption: 'Following directions worksheets free printable - cardinal directions for first grade'
-      }
+        caption: 'Following directions worksheets free printable - cardinal directions for first grade',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/treasure-hunt/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Treasure hunt printable free - directional vocabulary worksheet for preschool',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/treasure-hunt/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Free following directions worksheets - treasure hunt navigation activity for kids',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/treasure-hunt/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Direction worksheets kindergarten - free printable treasure hunt with spatial awareness',
+      },
     ]
   },
 

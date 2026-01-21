@@ -25,20 +25,32 @@ export const mathWorksheetsEnContent: ProductPageContent = {
         url: 'https://www.lessoncraftstudio.com/samples/english/math/sample-1.jpeg',
         width: 2480,
         height: 3508,
-        caption: 'Free math worksheets for kindergarten - picture-based math puzzle with symbols for kids'
+        caption: 'Free math worksheets for kindergarten - picture-based math puzzle with symbols for kids',
       },
       {
         url: 'https://www.lessoncraftstudio.com/samples/english/math/sample-2.jpeg',
         width: 2480,
         height: 3508,
-        caption: 'Printable math worksheets - visual equation puzzles for first grade students'
+        caption: 'Printable math worksheets - visual equation puzzles for first grade students',
       },
       {
         url: 'https://www.lessoncraftstudio.com/samples/english/math/sample-3.jpeg',
         width: 2480,
         height: 3508,
-        caption: 'Free worksheet for kids - math puzzle generator output with answer key'
-      }
+        caption: 'Free worksheet for kids - math puzzle generator output with answer key',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/math/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Math worksheets free printable - picture math puzzles for kindergarten problem solving',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/math/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Free printables math worksheet - visual equation worksheet for first grade',
+      },
     ],
   },
 

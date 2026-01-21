@@ -21,23 +21,35 @@ export const additionEnContent: ProductPageContent = {
     canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/addition-worksheets',
     images: [
       {
-        url: 'https://www.lessoncraftstudio.com/samples/english/addition/addition_worksheet%20portrait.jpeg',
+        url: 'https://www.lessoncraftstudio.com/samples/english/addition/sample-1.jpeg',
         width: 2480,
         height: 3508,
-        caption: 'Free printable addition worksheets for kindergarten - colorful counting pictures for math practice'
+        caption: 'Free printable addition worksheets for kindergarten - colorful counting pictures for math practice',
       },
       {
-        url: 'https://www.lessoncraftstudio.com/samples/english/addition/addition_worksheet%20landscape.jpeg',
-        width: 3508,
-        height: 2480,
-        caption: 'Addition worksheets landscape mode - first grade math worksheet with visual counting'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/addition/find%20addend.jpeg',
+        url: 'https://www.lessoncraftstudio.com/samples/english/addition/sample-2.jpeg',
         width: 2480,
         height: 3508,
-        caption: 'Free worksheet for kids - addition practice with answer key for kindergarten'
-      }
+        caption: 'Addition worksheets for first grade - math worksheet with visual counting exercises',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/addition/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Free worksheet for kids - addition practice with answer key for kindergarten',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/addition/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Printable addition worksheets - kindergarten math with picture-based counting',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/addition/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Free printables addition worksheet - first grade math practice with visual aids',
+      },
     ],
   },
 

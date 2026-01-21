@@ -45,14 +45,32 @@ The odd one out generator creates worksheets for any subject or theme. Choose fr
         url: 'https://www.lessoncraftstudio.com/samples/english/odd-one-out/sample-1.jpeg',
         width: 2480,
         height: 3508,
-        caption: 'Free odd one out worksheets for kindergarten - visual discrimination activity with themed categorization exercises'
+        caption: 'Free odd one out worksheets for kindergarten - visual discrimination activity with themed categorization exercises',
       },
       {
         url: 'https://www.lessoncraftstudio.com/samples/english/odd-one-out/sample-2.jpeg',
         width: 2480,
         height: 3508,
-        caption: 'Odd one out worksheet printable - critical thinking puzzles for kids with identical mode logic exercises'
-      }
+        caption: 'Odd one out worksheet printable - critical thinking puzzles for kids with identical mode logic exercises',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/odd-one-out/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Free printable odd one out worksheets - categorization worksheet for preschool visual learning',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/odd-one-out/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Odd one out printable free - critical thinking worksheets for kindergarten logic practice',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/odd-one-out/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Which one is different worksheet - free odd one out puzzles for kids visual discrimination',
+      },
     ],
   },
 

@@ -17,22 +17,48 @@ export const subtractionPtContent: ProductPageContent = {
   seo: {
     slug: 'subtracao-fichas',
     appId: 'subtraction',
-    title: 'Gerador de Atividades de Subtração - Atividades de Matemática para Imprimir em PDF',
+    title: 'Atividades de Subtração Grátis para Imprimir - Gerador de Atividades de Matemática',
     description: 'Crie atividades de subtração profissionais para seus alunos em menos de 3 minutos. Com sua assinatura Acesso Completo, você tem acesso ilimitado para gerar quantas fichas precisar sem custos extras por atividade. Baixe em PDF de alta qualidade.',
     keywords: 'atividades de subtração, atividades de matemática, atividades para imprimir, educação infantil, 1º ano, 2º ano, coordenação motora, tabuada, desenhos para colorir, atividades de alfabetização, letra cursiva, pontilhado',
     canonicalUrl: 'https://www.lessoncraftstudio.com/pt/apps/subtracao-fichas',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/portuguese/subtraction/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Atividade de subtração grátis para imprimir - exercícios de matemática para educação infantil'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/portuguese/subtraction/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Atividade grátis de subtração com imagens - atividade para crianças do 1º ano'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/portuguese/subtraction/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Atividades grátis de matemática - imprimíveis grátis para educação infantil'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/portuguese/subtraction/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Atividade de subtração para crianças - ficha de matemática grátis para imprimir'
+      },
+    ],
   },
 
   // Hero Section - FULL text from subtraction.md paragraphs 1-3
   hero: {
-    title: 'Gerador de Atividades de Subtração',
-    subtitle: 'Atividades de Matemática para Imprimir em PDF',
+    title: 'Atividades de Subtração Grátis para Imprimir',
+    subtitle: 'Gerador de Atividades Grátis de Matemática para Crianças - Educação Infantil e 1º Ano',
     description: `Crie atividades de subtração profissionais para seus alunos em menos de 3 minutos. Com sua assinatura Acesso Completo, você tem acesso ilimitado para gerar quantas fichas precisar sem custos extras por atividade. Nosso gerador de atividades de matemática oferece quatro modos diferentes de exercícios de subtração. Baixe em PDF de alta qualidade ou JPEG para impressão imediata.
 
 O gerador de atividades de subtração do LessonCraft Studio transforma a criação de materiais didáticos. Professores de educação infantil e ensino fundamental criam fichas personalizadas rapidamente. As atividades de matemática geradas são perfeitas para alunos do 1º ano e 2º ano. Cada ficha usa imagens coloridas que engajam as crianças.
 
 Nosso gerador cria atividades de subtração usando imagens temáticas. As crianças aprendem matemática de forma visual e divertida. Você escolhe entre mais de 3.000 imagens da biblioteca. Também pode fazer upload das suas próprias imagens para personalizar ainda mais. O gerador funciona em português brasileiro e mais 10 idiomas.`,
-    previewImageSrc: '/samples/english/subtraction/cross out.jpeg',
+    previewImageSrc: '/samples/portuguese/subtraction/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Experimente Grátis',
       viewSamples: 'Ver Exemplos',
@@ -53,7 +79,7 @@ Nosso gerador cria atividades de subtração usando imagens temáticas. As crian
 
   // Sample Gallery - REAL file paths from samples/english/subtraction/
   samples: {
-    sectionTitle: 'Exemplos de Atividades de Subtração',
+    sectionTitle: 'Exemplos de Atividades de Subtração Grátis para Imprimir',
     sectionDescription: 'Baixe exemplos gratuitos para ver nossa qualidade profissional',
     downloadLabel: 'Baixar Exemplo Grátis',
     worksheetLabel: 'Atividade',
@@ -67,38 +93,38 @@ Nosso gerador cria atividades de subtração usando imagens temáticas. As crian
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/subtraction/cross out.jpeg',
-        answerKeySrc: '/samples/english/subtraction/cross out answer_key.jpeg',
-        altText: 'Atividade de subtração modo riscar para educação infantil e pré-escola',
-        pdfDownloadUrl: '/samples/english/subtraction/cross out.pdf',
+        worksheetSrc: '/samples/portuguese/subtraction/sample-1.jpeg',
+        answerKeySrc: '/samples/portuguese/subtraction/sample-1-answer.jpeg',
+        altText: 'Atividade grátis de subtração para imprimir - exercícios de matemática para crianças da educação infantil',
+        pdfDownloadUrl: '/samples/portuguese/subtraction/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/subtraction/image number.jpeg',
-        answerKeySrc: '/samples/english/subtraction/image number answer_key.jpeg',
-        altText: 'Exercícios de subtração imagem e número para ensino fundamental',
-        pdfDownloadUrl: '/samples/english/subtraction/image number.pdf',
+        worksheetSrc: '/samples/portuguese/subtraction/sample-2.jpeg',
+        answerKeySrc: '/samples/portuguese/subtraction/sample-2-answer.jpeg',
+        altText: 'Atividades grátis de subtração com imagens - atividade para crianças do 1º ano e 2º ano',
+        pdfDownloadUrl: '/samples/portuguese/subtraction/sample-2.pdf',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/subtraction/find subtrahend.jpeg',
-        answerKeySrc: '/samples/english/subtraction/find subtrahend answer_key.jpeg',
-        altText: 'Atividade encontre o subtraendo para raciocínio matemático',
-        pdfDownloadUrl: '/samples/english/subtraction/find subtrahend.pdf',
+        worksheetSrc: '/samples/portuguese/subtraction/sample-3.jpeg',
+        answerKeySrc: '/samples/portuguese/subtraction/sample-3-answer.jpeg',
+        altText: 'Imprimíveis grátis de subtração - atividade para educação infantil e ensino fundamental',
+        pdfDownloadUrl: '/samples/portuguese/subtraction/sample-3.pdf',
       },
       {
         id: '4',
-        worksheetSrc: '/samples/english/subtraction/mixed.jpeg',
-        answerKeySrc: '/samples/english/subtraction/mixed answer_key.jpeg',
-        altText: 'Atividade de subtração modo misto com variedade de exercícios',
-        pdfDownloadUrl: '/samples/english/subtraction/mixed.pdf',
+        worksheetSrc: '/samples/portuguese/subtraction/sample-4.jpeg',
+        answerKeySrc: '/samples/portuguese/subtraction/sample-4-answer.jpeg',
+        altText: 'Atividade grátis para crianças - fichas de subtração para imprimir em PDF',
+        pdfDownloadUrl: '/samples/portuguese/subtraction/sample-4.pdf',
       },
     ],
   },
 
   // Features Grid - FULL text from subtraction.md feature sections
   features: {
-    sectionTitle: 'Recursos do Gerador de Atividades de Matemática',
+    sectionTitle: 'Recursos do Gerador de Atividades Grátis de Matemática para Crianças',
     sectionDescription: 'O gerador de atividades de subtração oferece recursos completos para criar materiais profissionais. Professores de educação infantil e ensino fundamental encontram todas as ferramentas necessárias. Cada recurso foi pensado para facilitar seu trabalho diário. Conheça os principais recursos que tornam nosso gerador único.',
     highlightBadgeText: 'Recurso Principal',
     readMoreLabel: 'Leia mais',
@@ -187,7 +213,7 @@ Gabaritos são gerados automaticamente para cada atividade. Baixe a ficha do alu
 
   // How-To Guide - FULL text from subtraction.md step sections
   howTo: {
-    sectionTitle: 'Como Criar Atividades de Matemática em 5 Passos Simples',
+    sectionTitle: 'Como Criar Atividades Grátis de Matemática em 5 Passos - Imprimíveis para Crianças',
     sectionDescription: 'Criar atividades de subtração profissionais é rápido e fácil. Todo o processo leva menos de 3 minutos do início ao fim. Siga nosso guia passo a passo para criar suas primeiras fichas. Professores de educação infantil e ensino fundamental dominam o gerador rapidamente.',
     ctaText: 'Comece Agora',
     badgeText: 'Como Funciona',
@@ -249,7 +275,7 @@ Ative a opção escala de cinza para economizar tinta. Baixe o gabarito separada
 
   // Use Cases - FULL text from subtraction.md use case sections
   useCases: {
-    sectionTitle: 'Quem Usa o Gerador de Atividades de Subtração',
+    sectionTitle: 'Quem Usa Nosso Gerador de Atividades Grátis de Subtração para Imprimir',
     sectionDescription: 'O gerador de atividades de subtração atende diversos perfis de educadores. Professores de escolas públicas e particulares usam a ferramenta diariamente. Pais que educam em casa encontram recursos valiosos. Empreendedores criam materiais para venda online. Conheça como cada grupo aproveita nosso gerador.',
     badgeText: 'Para Quem',
     readMoreLabel: 'Leia mais',
@@ -320,7 +346,7 @@ Atividades de matemática vendem muito bem online. Tabuada ilustrada atrai pais 
 
   // FAQ Section - Selected FAQs from subtraction.md
   faq: {
-    sectionTitle: 'Perguntas Frequentes',
+    sectionTitle: 'Perguntas Frequentes sobre Atividades de Subtração Grátis para Crianças',
     sectionDescription: 'Professores têm dúvidas comuns sobre o gerador de atividades. Reunimos as perguntas mais frequentes com respostas detalhadas. Encontre informações sobre preços, recursos e funcionalidades.',
     showMoreText: 'Mostrar mais perguntas',
     showLessText: 'Mostrar menos',

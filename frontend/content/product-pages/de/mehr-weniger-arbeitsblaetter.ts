@@ -52,6 +52,18 @@ export const moreLessDeContent: ProductPageContent = {
         height: 3508,
         caption: 'Arbeitsblätter Grundschule - illustrierte Vergleichssymbole für Vorschule',
       },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/german/more-less/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Mehr oder weniger Arbeitsblatt kostenlos - Zahlenvergleich Übung für Vorschule',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/german/more-less/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Größer kleiner gleich Arbeitsblatt - Mathe Übung für Kindergarten',
+      },
     ],
   },
 

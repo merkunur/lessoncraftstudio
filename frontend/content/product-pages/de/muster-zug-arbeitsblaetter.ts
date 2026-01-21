@@ -38,19 +38,31 @@ export const patternTrainDeContent: ProductPageContent = {
         url: 'https://www.lessoncraftstudio.com/samples/german/pattern-train/sample-1.jpeg',
         width: 2480,
         height: 3508,
-        caption: 'Muster-Zug Arbeitsblatt Hochformat - Kostenlose Arbeitsblätter für Arbeitsblätter Grundschule und Vorschule'
+        caption: 'Muster-Zug Arbeitsblatt Hochformat - Kostenlose Arbeitsblätter für Arbeitsblätter Grundschule und Vorschule',
       },
       {
         url: 'https://www.lessoncraftstudio.com/samples/german/pattern-train/sample-2.jpeg',
         width: 2480,
         height: 3508,
-        caption: 'Muster-Zug Arbeitsblatt Querformat - Kostenlose Arbeitsblätter für Mathe Arbeitsblätter'
+        caption: 'Muster-Zug Arbeitsblatt Querformat - Kostenlose Arbeitsblätter für Mathe Arbeitsblätter',
       },
       {
         url: 'https://www.lessoncraftstudio.com/samples/german/pattern-train/sample-3.jpeg',
         width: 2480,
         height: 3508,
-        caption: 'Muster-Zug Lösungsblatt Hochformat - Arbeitsblätter Grundschule mit Antworten'
+        caption: 'Muster-Zug Lösungsblatt Hochformat - Arbeitsblätter Grundschule mit Antworten',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/german/pattern-train/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Muster Zug Arbeitsblatt kostenlos - Muster erkennen Übung für Kindergarten',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/german/pattern-train/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Mustererkennung Arbeitsblatt - ABC Muster Übung für Vorschule',
       },
     ],
   },

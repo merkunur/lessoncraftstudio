@@ -9,7 +9,7 @@ import { ProductPageContent } from '@/components/product-page/ProductPageClient'
  * FULL SEO content from: INDIVIDUAL APP PAGES/Portuguese/more-less.md
  * DO NOT SHORTEN - Every paragraph is SEO-optimized
  *
- * Tier: Full Access (Acesso Completo) - R$240/ano or R$25/mês
+ * Tier: Full Access (Acesso Completo) - R$1.200/ano or R$125/mês
  */
 
 export const moreLessPtContent: ProductPageContent = {
@@ -17,22 +17,54 @@ export const moreLessPtContent: ProductPageContent = {
   seo: {
     slug: 'maior-menor-fichas',
     appId: 'more-less',
-    title: 'Atividades de Matemática Maior e Menor para Imprimir - Gerador de Atividades Educação Infantil e 1º Ano',
-    description: 'Crie atividades de matemática profissionais para comparar quantidades. O gerador de fichas Maior e Menor permite criar atividades para imprimir em menos de 3 minutos. Sua assinatura Acesso Completo oferece criação ilimitada de fichas sem cobranças adicionais por folha.',
-    keywords: 'atividades de matemática, maior e menor, atividades para imprimir, atividades educação infantil, atividades 1º ano, atividades 2º ano, coordenação motora, atividades de alfabetização, desenhos para colorir, letra cursiva, pontilhado, tabuada',
+    title: 'Atividade Grátis de Maior e Menor - Atividade para Educação Infantil | Gerador de Atividades',
+    description: 'Crie atividades grátis de maior e menor profissionais em poucos minutos com nosso gerador de atividades para imprimir. Atividade grátis para crianças com sua assinatura Acesso Completo. Baixe imprimíveis grátis de alta qualidade prontas para comparação de quantidades.',
+    keywords: 'atividade grátis, atividade grátis para crianças, atividades grátis, imprimíveis grátis, atividade para crianças, atividade para educação infantil, atividade, maior e menor, atividades para imprimir, atividades educação infantil, coordenação motora, comparação de quantidades',
     canonicalUrl: 'https://www.lessoncraftstudio.com/pt/apps/maior-menor-fichas',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/portuguese/more-less/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Atividade grátis de maior e menor - comparação de quantidades para educação infantil'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/portuguese/more-less/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Atividade grátis para crianças - maior e menor com imagens coloridas'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/portuguese/more-less/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Atividades grátis de comparação - discriminação visual para pré-escola'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/portuguese/more-less/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Atividade para crianças - maior menor e igual para imprimir'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/portuguese/more-less/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Imprimíveis grátis de maior e menor - atividade para educação infantil'
+      }
+    ]
   },
 
   // Hero Section - FULL text from more-less.md paragraphs
   hero: {
-    title: 'Atividades de Matemática Maior e Menor para Imprimir',
-    subtitle: 'Gerador de Atividades Educação Infantil e 1º Ano com Comparação de Quantidades',
-    description: `Crie atividades de matemática profissionais para comparar quantidades. O gerador de fichas Maior e Menor permite criar atividades para imprimir em menos de 3 minutos. Sua assinatura Acesso Completo oferece criação ilimitada de fichas sem cobranças adicionais por folha. Ideal para professores de educação infantil e ensino fundamental que precisam de atividades de comparação de números.
+    title: 'Atividade Grátis de Maior e Menor - Atividade Grátis para Crianças e Imprimíveis Grátis',
+    subtitle: 'Gerador de Atividade Grátis para Educação Infantil com Comparação de Quantidades',
+    description: `Crie atividades grátis de maior e menor profissionais em poucos minutos com nosso gerador de atividades para imprimir. Com sua assinatura Acesso Completo, você gera quantas atividades quiser sem taxas adicionais. Baixe imprimíveis grátis de alta qualidade prontas para usar na sala de aula ou em casa. O formato PDF permite impressão em qualquer impressora doméstica.
 
-O aplicativo Maior e Menor é uma ferramenta completa para criar atividades de matemática focadas em comparação. Professores usam este gerador para criar fichas onde alunos comparam grupos de imagens. Os estudantes escolhem o símbolo correto: maior (>), menor (<) ou igual (=). As atividades para imprimir incluem gabarito com respostas.
+O aplicativo Maior e Menor é uma ferramenta completa para criar atividade grátis focada em comparação. Professores usam este gerador para criar fichas onde alunos comparam grupos de imagens. Os estudantes escolhem o símbolo correto: maior (>), menor (<) ou igual (=). As atividades grátis para imprimir incluem gabarito com respostas.
 
-Crianças da educação infantil aprendem melhor com recursos visuais. Este gerador cria atividades educação infantil com imagens coloridas. Os alunos contam objetos em cada lado. Depois escolhem se um grupo tem mais, menos ou igual quantidade. As atividades educação infantil são perfeitas para pré-escola e 1º ano.`,
-    previewImageSrc: '/samples/english/more less/image to image.jpeg',
+Crianças da educação infantil aprendem melhor com recursos visuais. Este gerador cria atividade para educação infantil com imagens coloridas. Os alunos contam objetos em cada lado. Depois escolhem se um grupo tem mais, menos ou igual quantidade. As atividade grátis para crianças são perfeitas para pré-escola e 1º ano.`,
+    previewImageSrc: '/samples/portuguese/more-less/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Experimente Grátis',
       viewSamples: 'Ver Exemplos',
@@ -51,10 +83,10 @@ Crianças da educação infantil aprendem melhor com recursos visuais. Este gera
     },
   },
 
-  // Sample Gallery - REAL file paths from samples/english/more less/
+  // Sample Gallery - REAL file paths from samples/portuguese/more-less/
   samples: {
-    sectionTitle: 'Exemplos de Atividades de Maior e Menor',
-    sectionDescription: 'Baixe exemplos gratuitos para ver nossa qualidade profissional',
+    sectionTitle: 'Exemplos de Atividades Grátis de Maior e Menor - Atividade para Crianças',
+    sectionDescription: 'Baixe exemplos de atividades grátis para ver nossa qualidade profissional',
     downloadLabel: 'Baixar Exemplo Grátis',
     worksheetLabel: 'Atividade',
     answerKeyLabel: 'Gabarito',
@@ -67,32 +99,46 @@ Crianças da educação infantil aprendem melhor com recursos visuais. Este gera
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/more less/image to image.jpeg',
-        answerKeySrc: '/samples/english/more less/image to image answer_key.jpeg',
-        altText: 'Atividade de maior e menor comparando imagens para educação infantil',
-        pdfDownloadUrl: '/samples/english/more less/image to image.pdf',
+        worksheetSrc: '/samples/portuguese/more-less/sample-1.jpeg',
+        answerKeySrc: '/samples/portuguese/more-less/sample-1-answer.jpeg',
+        altText: 'Atividade grátis de maior e menor - comparação de imagens para educação infantil',
+        pdfDownloadUrl: '/samples/portuguese/more-less/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/more less/image to number.jpeg',
-        answerKeySrc: '/samples/english/more less/image to number answer_key.jpeg',
-        altText: 'Atividade de maior e menor comparando imagens com números',
-        pdfDownloadUrl: '/samples/english/more less/image to number.pdf',
+        worksheetSrc: '/samples/portuguese/more-less/sample-2.jpeg',
+        answerKeySrc: '/samples/portuguese/more-less/sample-2-answer.jpeg',
+        altText: 'Atividade grátis para crianças - maior e menor comparando imagens com números',
+        pdfDownloadUrl: '/samples/portuguese/more-less/sample-2.pdf',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/more less/illustration.jpeg',
-        answerKeySrc: '/samples/english/more less/illustration answer_key.jpeg',
-        altText: 'Atividade de comparação de quantidades com ilustrações coloridas',
-        pdfDownloadUrl: '/samples/english/more less/illustration.pdf',
+        worksheetSrc: '/samples/portuguese/more-less/sample-3.jpeg',
+        answerKeySrc: '/samples/portuguese/more-less/sample-3-answer.jpeg',
+        altText: 'Atividades grátis de comparação de quantidades com ilustrações coloridas',
+        pdfDownloadUrl: '/samples/portuguese/more-less/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/portuguese/more-less/sample-4.jpeg',
+        answerKeySrc: '/samples/portuguese/more-less/sample-4-answer.jpeg',
+        altText: 'Atividade para crianças - maior menor e igual para imprimir grátis',
+        pdfDownloadUrl: '/samples/portuguese/more-less/sample-4.pdf',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/portuguese/more-less/sample-5.jpeg',
+        answerKeySrc: '/samples/portuguese/more-less/sample-5-answer.jpeg',
+        altText: 'Imprimíveis grátis de maior e menor - atividade para educação infantil',
+        pdfDownloadUrl: '/samples/portuguese/more-less/sample-5.pdf',
       },
     ],
   },
 
   // Features Grid - FULL text from more-less.md feature sections
   features: {
-    sectionTitle: 'Recursos do Gerador Maior e Menor - Tudo para Criar Atividades de Matemática Profissionais',
-    sectionDescription: 'O gerador Maior e Menor oferece recursos completos para professores. Cada funcionalidade foi desenvolvida pensando em educadores. Crie atividades de matemática personalizadas em minutos. O sistema permite total controle sobre cada elemento da ficha. Professores de educação infantil e ensino fundamental usam diariamente.',
+    sectionTitle: 'Recursos do Gerador de Atividades Grátis - Atividade para Educação Infantil',
+    sectionDescription: 'O gerador Maior e Menor oferece recursos completos para criar atividade grátis de qualidade. Cada funcionalidade foi desenvolvida pensando em educadores brasileiros. Crie atividade grátis para crianças personalizadas em minutos. O sistema permite total controle sobre cada elemento da ficha. Professores de educação infantil e ensino fundamental usam diariamente.',
     highlightBadgeText: 'Recurso Principal',
     readMoreLabel: 'Leia mais',
     showLessLabel: 'Mostrar menos',
@@ -106,73 +152,73 @@ Crianças da educação infantil aprendem melhor com recursos visuais. Este gera
       {
         id: '1',
         icon: '⚡',
-        title: 'Criação Fácil de Atividades Educação Infantil - Atividades de Matemática em 3 Cliques',
-        description: `Criar atividades educação infantil nunca foi tão simples. O processo de criação leva apenas 3 cliques. Primeiro, selecione as imagens ou tema desejado. Segundo, configure o número de exercícios por página. Terceiro, clique em gerar. Suas atividades educação infantil ficam prontas instantaneamente.
+        title: 'Criação Fácil de Atividade Grátis em 3 Cliques - Imprimíveis Grátis Rápidas',
+        description: `Criar atividade grátis nunca foi tão simples. O processo de criação leva apenas 3 cliques. Primeiro, selecione as imagens ou tema desejado. Segundo, configure o número de exercícios por página. Terceiro, clique em gerar. Suas atividades grátis ficam prontas instantaneamente.
 
-O gerador cria de 1 a 8 exercícios por folha. Atividades educação infantil geralmente usam 4 a 5 exercícios. Cada exercício mostra dois grupos de imagens para comparar. O sistema gera quantidades aleatórias de 1 a 6 objetos. Perfeito para atividades de matemática iniciais.`,
+O gerador cria de 1 a 8 exercícios por folha. Atividade para educação infantil geralmente usam 4 a 5 exercícios. Cada exercício mostra dois grupos de imagens para comparar. O sistema gera quantidades aleatórias de 1 a 6 objetos. Perfeito para atividade grátis para crianças iniciais.`,
         highlighted: false,
       },
       {
         id: '2',
         icon: '✏️',
-        title: 'Atividades para Imprimir Totalmente Editáveis - Personalize Cada Elemento no Canvas',
-        description: `Todas as atividades para imprimir são completamente editáveis. O canvas interativo permite arrastar qualquer elemento. Redimensione imagens com facilidade. Gire objetos para qualquer ângulo. Delete elementos indesejados com um clique. Suas atividades para imprimir ficam exatamente como você imaginou.
+        title: 'Edição Completa de Atividade Grátis para Crianças - Atividade para Educação Infantil',
+        description: `Todas as atividades grátis são completamente editáveis. O canvas interativo permite arrastar qualquer elemento. Redimensione imagens com facilidade. Gire objetos para qualquer ângulo. Delete elementos indesejados com um clique. Suas atividade grátis para crianças ficam exatamente como você imaginou.
 
-O sistema de camadas organiza os elementos. Traga objetos para frente ou envie para trás. Alinhe múltiplos elementos automaticamente. Centralize na página com precisão. As atividades para imprimir ganham aparência profissional sem esforço.`,
+O sistema de camadas organiza os elementos. Traga objetos para frente ou envie para trás. Alinhe múltiplos elementos automaticamente. Centralize na página com precisão. As imprimíveis grátis ganham aparência profissional sem esforço.`,
         highlighted: false,
       },
       {
         id: '3',
         icon: '📤',
-        title: 'Atividades de Alfabetização com Upload de Imagens Próprias - Personalize com Fotos da Turma',
-        description: `O gerador aceita upload de imagens personalizadas. Professores podem usar fotos dos próprios alunos. Atividades de alfabetização ficam mais significativas assim. Formatos JPEG, PNG e GIF são aceitos. Upload múltiplo de arquivos disponível.
+        title: 'Envio de Imagens Próprias para Atividades Grátis - Atividade para Crianças Personalizada',
+        description: `O gerador aceita upload de imagens personalizadas. Professores podem usar fotos dos próprios alunos. Atividade grátis fica mais significativa assim. Formatos JPEG, PNG e GIF são aceitos. Upload múltiplo de arquivos disponível.
 
-Combine imagens próprias com a biblioteca do sistema. Atividades de alfabetização ganham contexto local. Use fotos de objetos da sala de aula. Crie conexões entre matemática e vocabulário. As atividades de alfabetização personalizadas engajam mais os alunos.`,
+Combine imagens próprias com a biblioteca do sistema. Atividades grátis ganham contexto local. Use fotos de objetos da sala de aula. Crie conexões entre matemática e vocabulário. As atividade grátis para crianças personalizadas engajam mais os alunos.`,
         highlighted: true,
       },
       {
         id: '4',
         icon: '🌍',
-        title: 'Atividades 1º Ano e 2º Ano em 11 Idiomas - Interface Completa em Português',
-        description: `O aplicativo funciona em 11 idiomas diferentes. A interface está totalmente traduzida para português brasileiro. Atividades 1º ano podem ser criadas em qualquer idioma. Professores de escolas bilíngues adoram este recurso. Atividades 2º ano também disponíveis em todos os idiomas.
+        title: 'Atividade para Educação Infantil em 11 Idiomas - Atividades Grátis Multilíngue',
+        description: `O aplicativo funciona em 11 idiomas diferentes. A interface está totalmente traduzida para português brasileiro. Atividade para educação infantil pode ser criada em qualquer idioma. Professores de escolas bilíngues adoram este recurso. Atividade grátis também disponíveis em todos os idiomas.
 
-Os idiomas incluem português, inglês, espanhol e alemão. Francês, italiano e holandês também disponíveis. Sueco, dinamarquês, norueguês e finlandês completam a lista. Atividades 1º ano para alunos de diferentes origens. Interface intuitiva em português brasileiro nativo.`,
+Os idiomas incluem português, inglês, espanhol e alemão. Francês, italiano e holandês também disponíveis. Sueco, dinamarquês, norueguês e finlandês completam a lista. Atividades grátis para alunos de diferentes origens. Interface intuitiva em português brasileiro nativo.`,
         highlighted: false,
       },
       {
         id: '5',
         icon: '💰',
-        title: 'Licença Comercial para Atividades de Matemática - Venda suas Fichas no Teachers Pay Teachers',
-        description: `A assinatura Acesso Completo inclui licença comercial completa. Venda suas atividades de matemática no Teachers Pay Teachers. Crie produtos para Etsy e Amazon KDP. Nenhuma taxa adicional de licenciamento. Suas atividades de matemática podem gerar renda extra.
+        title: 'Licença Comercial para Imprimíveis Grátis - Venda suas Atividades Grátis',
+        description: `A assinatura Acesso Completo inclui licença comercial completa. Venda suas atividade grátis no Teachers Pay Teachers. Crie produtos para Etsy e Amazon KDP. Nenhuma taxa adicional de licenciamento. Suas atividades grátis podem gerar renda extra.
 
-A qualidade 300 DPI é ideal para venda. Atividades de matemática profissionais impressionam compradores. Professores empreendedores faturam de R$500 a R$5.000 mensais. A licença cobre uso comercial print-on-demand. Todas as atividades de matemática criadas são suas para comercializar.`,
+A qualidade 300 DPI é ideal para venda. Atividade grátis para crianças profissionais impressionam compradores. Professores empreendedores faturam de R$500 a R$5.000 mensais. A licença cobre uso comercial print-on-demand. A licença comercial está incluída nos R$1.200 anuais da assinatura Acesso Completo.`,
         highlighted: true,
       },
       {
         id: '6',
         icon: '🎨',
-        title: 'Biblioteca com 3000+ Imagens para Desenhos para Colorir e Atividades Visuais',
-        description: `O sistema inclui mais de 3000 imagens infantis. Desenhos para colorir podem ser integrados às atividades. Temas variados como animais, frutas e veículos. Desenhos para colorir em preto e branco disponíveis. Opção de escala de cinza economiza tinta.
+        title: 'Biblioteca com 3000+ Imagens para Atividade Grátis - Atividade para Crianças Visual',
+        description: `O sistema inclui mais de 3000 imagens infantis. Desenhos para colorir podem ser integrados às atividades grátis. Temas variados como animais, frutas e veículos. Desenhos para colorir em preto e branco disponíveis. Opção de escala de cinza economiza tinta.
 
-As imagens são organizadas por temas. Desenhos para colorir de estações do ano incluídos. Natal, Páscoa e outras datas comemorativas. Desenhos para colorir combinam com qualquer disciplina. Pesquisa rápida encontra a imagem perfeita. Desenhos para colorir engajam visualmente os alunos.`,
+As imagens são organizadas por temas. Imprimíveis grátis de estações do ano incluídos. Natal, Páscoa e outras datas comemorativas. Atividade grátis combina com qualquer disciplina. Pesquisa rápida encontra a imagem perfeita. Atividade para crianças engajam visualmente os alunos.`,
         highlighted: false,
       },
       {
         id: '7',
         icon: '🖨️',
-        title: 'Coordenação Motora com Atividades de Qualidade Profissional 300 DPI',
+        title: 'Qualidade Profissional 300 DPI para Atividade para Educação Infantil - Imprimíveis Grátis em PDF',
         description: `Todas as fichas são exportadas em 300 DPI. Coordenação motora requer linhas nítidas para circular. A qualidade profissional garante impressões perfeitas. Coordenação motora fina é desenvolvida ao circular símbolos. Formato PDF ideal para impressão.
 
-O formato JPEG também está disponível. Coordenação motora praticada em cada exercício. Opção de escala de cinza reduz custos. Coordenação motora e raciocínio em uma só atividade. Download separado de folha e gabarito. Qualidade comercial em todas as fichas.`,
+O formato JPEG também está disponível. Coordenação motora praticada em cada exercício. Opção de escala de cinza reduz custos. Atividade grátis e raciocínio em uma só atividade. Download separado de folha e gabarito. Qualidade comercial em todas as atividades grátis.`,
         highlighted: false,
       },
       {
         id: '8',
         icon: '🔢',
-        title: 'Três Modos de Comparação - Imagem-para-Imagem, Imagem-para-Número e Ilustração',
-        description: `O gerador oferece três modos diferentes de comparação. O modo imagem-para-imagem compara dois grupos de objetos visuais. Crianças contam e comparam quantidades visualmente. Perfeito para educação infantil e iniciantes.
+        title: 'Três Modos de Comparação - Atividade Grátis para Crianças com Variedade',
+        description: `O gerador oferece três modos diferentes de comparação para atividade grátis. O modo imagem-para-imagem compara dois grupos de objetos visuais. Crianças contam e comparam quantidades visualmente. Perfeito para atividade para educação infantil e iniciantes.
 
-O modo imagem-para-número compara objetos com numerais escritos. Alunos mais avançados praticam reconhecimento de números. O modo ilustração usa símbolos coloridos e atraentes. Cada modo desenvolve habilidades matemáticas específicas.`,
+O modo imagem-para-número compara objetos com numerais escritos. Alunos mais avançados praticam reconhecimento de números. O modo ilustração usa símbolos coloridos e atraentes. Cada modo desenvolve habilidades matemáticas específicas em atividades grátis.`,
         highlighted: false,
       },
     ],
@@ -180,8 +226,8 @@ O modo imagem-para-número compara objetos com numerais escritos. Alunos mais av
 
   // How-To Guide - FULL text from more-less.md step sections
   howTo: {
-    sectionTitle: 'Como Criar Atividades para Imprimir de Maior e Menor em 5 Passos',
-    sectionDescription: 'Criar atividades para imprimir leva menos de 3 minutos. O processo é simples e intuitivo. Professores sem experiência em design conseguem criar fichas profissionais. Siga os 5 passos abaixo para suas primeiras atividades de matemática. Cada etapa foi pensada para economizar seu tempo.',
+    sectionTitle: 'Como Criar Atividade Grátis para Crianças em 5 Passos - Guia de Imprimíveis Grátis',
+    sectionDescription: 'Criar atividade grátis de maior e menor leva menos de 3 minutos. O processo é simples e intuitivo. Professores sem experiência em design conseguem criar fichas profissionais. Siga os 5 passos abaixo para suas primeiras atividades grátis. Cada etapa foi pensada para economizar seu tempo.',
     ctaText: 'Comece Agora',
     badgeText: 'Como Funciona',
     stepLabel: 'Passo',
@@ -195,56 +241,56 @@ O modo imagem-para-número compara objetos com numerais escritos. Alunos mais av
       {
         id: '1',
         number: 1,
-        title: 'Selecione Imagens para Atividades Educação Infantil - Escolha por Tema ou Individualmente',
-        description: `O primeiro passo é escolher as imagens. Atividades educação infantil ficam mais atraentes com imagens coloridas. Você tem duas opções de seleção. Modo individual permite escolher imagens específicas. Modo tema seleciona aleatoriamente de uma categoria.
+        title: 'Escolha Imagens para Atividade Grátis - Atividades Grátis com Biblioteca ou Envio',
+        description: `O primeiro passo é escolher as imagens. Atividade grátis fica mais atraente com imagens coloridas. Você tem duas opções de seleção. Modo individual permite escolher imagens específicas. Modo tema seleciona aleatoriamente de uma categoria.
 
-No modo individual, navegue pela biblioteca de imagens. Atividades educação infantil combinam bem com animais fofos. Selecione de 1 a 5 imagens diferentes. O contador mostra quantas você selecionou. Atividades educação infantil com frutas também são populares.
+No modo individual, navegue pela biblioteca de imagens. Atividade grátis para crianças combina bem com animais fofos. Selecione de 1 a 5 imagens diferentes. O contador mostra quantas você selecionou. Atividades grátis com frutas também são populares.
 
-No modo tema, escolha uma categoria completa. Animais da fazenda, animais selvagens ou do oceano. Atividades educação infantil com veículos engajam meninos. Flores e borboletas agradam meninas. O sistema escolhe imagens aleatórias do tema selecionado.`,
+No modo tema, escolha uma categoria completa. Animais da fazenda, animais selvagens ou do oceano. Atividade para educação infantil com veículos engajam meninos. Flores e borboletas agradam meninas. O sistema escolhe imagens aleatórias do tema selecionado.`,
         icon: '🖼️',
       },
       {
         id: '2',
         number: 2,
-        title: 'Configure Atividades 1º Ano e 2º Ano - Ajuste Número de Exercícios e Símbolos',
-        description: `O segundo passo é configurar os exercícios. Atividades 1º ano geralmente usam 4 a 5 exercícios por página. Atividades 2º ano podem ter até 8 exercícios. Digite o número desejado no campo apropriado.
+        title: 'Configure a Dificuldade da Atividade para Crianças - Atividade para Educação Infantil',
+        description: `O segundo passo é configurar os exercícios. Atividade grátis geralmente usa 4 a 5 exercícios por página. Atividades grátis mais avançadas podem ter até 8 exercícios. Digite o número desejado no campo apropriado.
 
-Selecione quais símbolos incluir nas atividades. Atividades 1º ano podem focar apenas em maior e menor. Atividades 2º ano incluem o símbolo de igual também. Marque ou desmarque as caixas conforme necessário. Atividades 1º ano iniciais podem usar apenas um símbolo.
+Selecione quais símbolos incluir nas atividade grátis para crianças. Atividade para educação infantil pode focar apenas em maior e menor. Atividades mais avançadas incluem o símbolo de igual também. Marque ou desmarque as caixas conforme necessário. Imprimíveis grátis iniciais podem usar apenas um símbolo.
 
-Escolha o modo de exibição dos símbolos. Atividades 2º ano podem usar símbolos normais (>, <, =). Crianças menores preferem ilustrações coloridas. Os símbolos ilustrados são mais intuitivos. Atividades 1º ano funcionam melhor com ilustrações.`,
+Escolha o modo de exibição dos símbolos. Atividade grátis pode usar símbolos normais (>, <, =). Crianças menores preferem ilustrações coloridas. Os símbolos ilustrados são mais intuitivos. Atividade para crianças funciona melhor com ilustrações.`,
         icon: '⚙️',
       },
       {
         id: '3',
         number: 3,
-        title: 'Gere Atividades de Alfabetização Matemática - Visualize Instantaneamente sua Ficha',
-        description: `Clique no botão "Criar Atividade" para gerar. Atividades de alfabetização matemática aparecem instantaneamente. O sistema cria quantidades aleatórias de 1 a 6 objetos. Cada exercício mostra dois grupos para comparar. A prévia mostra exatamente como ficará impresso.
+        title: 'Gere a Atividade Grátis - Visualização Instantânea de Imprimíveis Grátis',
+        description: `Clique no botão "Criar Atividade" para gerar. Atividade grátis de matemática aparece instantaneamente. O sistema cria quantidades aleatórias de 1 a 6 objetos. Cada exercício mostra dois grupos para comparar. A prévia mostra exatamente como ficará impresso.
 
-O modo de comparação afeta as atividades de alfabetização. Imagem-para-imagem compara dois grupos de objetos. Imagem-para-número compara objetos com numerais. Atividades de alfabetização numérica usam o segundo modo. Escolha conforme o nível da turma.
+O modo de comparação afeta as atividades grátis. Imagem-para-imagem compara dois grupos de objetos. Imagem-para-número compara objetos com numerais. Atividade grátis para crianças de alfabetização numérica usa o segundo modo. Escolha conforme o nível da turma.
 
-A variedade de imagens também é configurável. Atividades de alfabetização podem usar mesmas imagens nos dois lados. Ou imagens diferentes para maior desafio. Cinco gatos versus sete gatos é mais simples. Três maçãs versus cinco bananas exige mais atenção.`,
+A variedade de imagens também é configurável. Imprimíveis grátis podem usar mesmas imagens nos dois lados. Ou imagens diferentes para maior desafio. Cinco gatos versus sete gatos é mais simples. Três maçãs versus cinco bananas exige mais atenção.`,
         icon: '✨',
       },
       {
         id: '4',
         number: 4,
-        title: 'Edite Coordenação Motora e Desenhos para Colorir - Personalize no Canvas Interativo',
-        description: `Após gerar, edite livremente no canvas. Coordenação motora é desenvolvida ao circular símbolos. Adicione opção de circular o símbolo correto. Desenhos para colorir podem ser adicionados como decoração. O canvas permite total personalização.
+        title: 'Personalize a Atividade para Educação Infantil - Edite Atividades Grátis na Tela',
+        description: `Após gerar, edite livremente no canvas. Coordenação motora é desenvolvida ao circular símbolos. Adicione opção de circular o símbolo correto. Atividade grátis pode receber decorações adicionais. O canvas permite total personalização.
 
-Arraste elementos para reposicionar. Coordenação motora requer espaçamento adequado. Redimensione imagens conforme necessário. Desenhos para colorir nas bordas decoram a página. Gire objetos para layouts criativos. Coordenação motora fina praticada ao completar.
+Arraste elementos para reposicionar. Coordenação motora requer espaçamento adequado. Redimensione imagens conforme necessário. Imprimíveis grátis nas bordas decoram a página. Gire objetos para layouts criativos. Atividade grátis para crianças fica única com personalização.
 
-Adicione texto personalizado às atividades. Coordenação motora pode incluir instruções escritas. "Circule o símbolo correto" como orientação. Desenhos para colorir no cabeçalho atraem atenção. Nome e data podem ser incluídos. Desenhos para colorir temáticos por estação.`,
+Adicione texto personalizado às atividades grátis. Coordenação motora pode incluir instruções escritas. "Circule o símbolo correto" como orientação. Atividade para educação infantil no cabeçalho atrai atenção. Nome e data podem ser incluídos. Atividade para crianças temáticas por estação.`,
         icon: '✏️',
       },
       {
         id: '5',
         number: 5,
-        title: 'Baixe Atividades para Imprimir em PDF - Atividades de Matemática Prontas para Sala de Aula',
-        description: `O último passo é baixar suas atividades. Atividades para imprimir estão disponíveis em PDF. Atividades de matemática também podem ser baixadas em JPEG. O formato PDF é ideal para impressão. Atividades para imprimir ficam nítidas em qualquer impressora.
+        title: 'Baixe Atividade Grátis em PDF - Imprimíveis Grátis com Gabarito Inclusos',
+        description: `O último passo é baixar suas atividades grátis. Imprimíveis grátis estão disponíveis em PDF. Atividade grátis também pode ser baixada em JPEG. O formato PDF é ideal para impressão. Atividade grátis para crianças fica nítida em qualquer impressora.
 
-Baixe o gabarito separadamente. Atividades de matemática incluem folha de respostas. O gabarito mostra os símbolos corretos. Atividades para imprimir e gabarito em arquivos distintos. Facilita a correção pelo professor.
+Baixe o gabarito separadamente. Atividades grátis incluem folha de respostas. O gabarito mostra os símbolos corretos. Atividade para educação infantil e gabarito em arquivos distintos. Facilita a correção pelo professor.
 
-A opção de escala de cinza economiza tinta. Atividades de matemática em preto e branco são econômicas. Atividades para imprimir coloridas engajam mais. Escolha conforme seu orçamento. Ambas as opções mantêm qualidade 300 DPI.`,
+A opção de escala de cinza economiza tinta. Atividade grátis em preto e branco são econômicas. Imprimíveis grátis coloridas engajam mais. Escolha conforme seu orçamento. Ambas as opções mantêm qualidade 300 DPI.`,
         icon: '📥',
       },
     ],
@@ -252,8 +298,8 @@ A opção de escala de cinza economiza tinta. Atividades de matemática em preto
 
   // Use Cases - FULL text from more-less.md use case sections
   useCases: {
-    sectionTitle: 'Quem Usa o Gerador Maior e Menor - Atividades para Imprimir para Professores, Pais e Educadores',
-    sectionDescription: 'O gerador Maior e Menor atende diversos perfis de educadores. Professores de educação infantil usam diariamente. Pais que educam em casa adoram a praticidade. Atividades para imprimir servem múltiplos contextos educacionais. Cada usuário encontra valor único na ferramenta.',
+    sectionTitle: 'Quem Usa Atividade Grátis de Maior e Menor - Atividade para Educação Infantil',
+    sectionDescription: 'O gerador Maior e Menor atende diversos perfis de educadores brasileiros. Professores de atividade para educação infantil usam diariamente. Pais que educam em casa adoram a praticidade. Atividade grátis serve múltiplos contextos educacionais. Cada usuário encontra valor único na ferramenta.',
     badgeText: 'Para Quem',
     readMoreLabel: 'Leia mais',
     showLessLabel: 'Mostrar menos',
@@ -262,60 +308,60 @@ A opção de escala de cinza economiza tinta. Atividades de matemática em preto
         id: '1',
         icon: '👩‍🏫',
         title: 'Professores de Educação Infantil',
-        subtitle: 'Atividades Educação Infantil para Pré-Escola e Creche',
-        description: `Professores de educação infantil são os principais usuários. Atividades educação infantil para pré-escola focam em contagem básica. Crianças de 4 e 5 anos aprendem conceitos de quantidade. Atividades educação infantil usam imagens coloridas e atraentes.
+        subtitle: 'Atividade Grátis para Crianças com Coordenação Motora',
+        description: `Professores de atividade para educação infantil são os principais usuários. Atividade grátis para crianças para pré-escola focam em contagem básica. Crianças de 4 e 5 anos aprendem conceitos de quantidade. Atividades grátis usam imagens coloridas e atraentes.
 
-O currículo da BNCC inclui comparação de quantidades. Atividades educação infantil atendem às diretrizes nacionais. Professores de creche introduzem conceitos de mais e menos. Atividades educação infantil desenvolvem raciocínio lógico precoce. A pré-escola prepara para a alfabetização matemática.`,
+O currículo da BNCC inclui comparação de quantidades. Atividade para educação infantil atendem às diretrizes nacionais. Professores de creche introduzem conceitos de mais e menos. Imprimíveis grátis desenvolvem raciocínio lógico precoce. A pré-escola prepara para a alfabetização matemática.`,
         quote: 'Meus alunos adoram comparar as quantidades coloridas!',
       },
       {
         id: '2',
         icon: '📚',
         title: 'Professores de 1º Ano e 2º Ano',
-        subtitle: 'Atividades de Matemática para Ensino Fundamental',
-        description: `Professores de 1º ano usam para consolidar comparações. Atividades 1º ano reforçam maior, menor e igual. O ensino fundamental exige atividades de matemática estruturadas. Atividades 2º ano aumentam a complexidade gradualmente.
+        subtitle: 'Atividades Grátis de Matemática para Ensino Fundamental',
+        description: `Professores de atividade grátis para 1º ano usam para consolidar comparações. Atividades grátis reforçam maior, menor e igual. O ensino fundamental exige atividade grátis estruturadas. Atividade para crianças de 2º ano aumentam a complexidade gradualmente.
 
-A BNCC estabelece habilidades específicas para cada ano. Atividades 1º ano trabalham números até 20. Atividades de matemática para 2º ano expandem para centenas. Professores de 1º ano apreciam o gabarito automático. Atividades 2º ano preparam para operações mais avançadas.`,
+A BNCC estabelece habilidades específicas para cada ano. Atividade grátis para crianças de 1º ano trabalham números até 20. Atividades grátis para 2º ano expandem para centenas. Professores de 1º ano apreciam o gabarito automático. Imprimíveis grátis preparam para operações mais avançadas.`,
         quote: 'A progressão de dificuldade acompanha o desenvolvimento dos alunos.',
       },
       {
         id: '3',
         icon: '🏠',
         title: 'Pais Homeschoolers',
-        subtitle: 'Atividades para Imprimir em Casa com Qualidade Profissional',
-        description: `Famílias que educam em casa precisam de recursos. Atividades para imprimir substituem materiais caros. Pais criam atividades de matemática personalizadas. Atividades para imprimir atendem múltiplos filhos de idades diferentes.
+        subtitle: 'Atividade Grátis de Matemática e Imprimíveis Grátis em Casa',
+        description: `Famílias que educam em casa precisam de recursos. Atividade grátis substitui materiais caros. Pais criam atividades grátis de matemática personalizadas. Imprimíveis grátis atendem múltiplos filhos de idades diferentes.
 
-O ensino domiciliar requer flexibilidade. Atividades para imprimir são adaptáveis ao ritmo da criança. Pais homeschoolers valorizam a economia de tempo. Atividades de matemática prontas em minutos. Crianças aprendem no conforto do lar.`,
+O ensino domiciliar requer flexibilidade. Atividade grátis para crianças são adaptáveis ao ritmo da criança. Pais homeschoolers valorizam a economia de tempo. Atividades grátis prontas em minutos. Crianças aprendem no conforto do lar.`,
         quote: 'Uma ferramenta perfeita para educação domiciliar.',
       },
       {
         id: '4',
         icon: '🌍',
         title: 'Professores de Alfabetização',
-        subtitle: 'Atividades de Alfabetização Matemática Integrada',
-        description: `Alfabetizadores integram letras e números. Atividades de alfabetização incluem reconhecimento de quantidades. A alfabetização matemática é tão importante quanto a linguística. Atividades de alfabetização desenvolvem múltiplas habilidades.
+        subtitle: 'Atividade Grátis de Matemática Integrada com Alfabetização',
+        description: `Alfabetizadores integram letras e números. Atividade grátis incluem reconhecimento de quantidades. A alfabetização matemática é tão importante quanto a linguística. Atividades grátis desenvolvem múltiplas habilidades.
 
-Professores de alfabetização usam imagens com nomes. Atividades de alfabetização conectam palavras e quantidades. "Três maçãs" reforça número e vocabulário. Atividades de alfabetização criam pontes entre disciplinas. A integração acelera o aprendizado.`,
+Professores de alfabetização usam imagens com nomes. Atividade grátis para crianças conectam palavras e quantidades. "Três maçãs" reforça número e vocabulário. Imprimíveis grátis criam pontes entre disciplinas. A integração acelera o aprendizado.`,
         quote: 'A integração de matemática com alfabetização é perfeita.',
       },
       {
         id: '5',
         icon: '💜',
         title: 'Professores de Educação Especial',
-        subtitle: 'Coordenação Motora e Atividades Adaptadas',
-        description: `Educação especial requer materiais diferenciados. Coordenação motora é trabalhada em cada atividade. Alunos com necessidades especiais se beneficiam de recursos visuais. Coordenação motora fina desenvolvida ao circular símbolos.
+        subtitle: 'Atividade para Educação Infantil com Adaptações',
+        description: `Educação especial requer materiais diferenciados. Coordenação motora é trabalhada em cada atividade grátis. Alunos com necessidades especiais se beneficiam de recursos visuais. Coordenação motora fina desenvolvida ao circular símbolos.
 
-A opção de circular facilita para alunos especiais. Coordenação motora praticada sem pressão. Imagens grandes e claras ajudam na compreensão. Coordenação motora e cognição trabalhadas juntas. Professores de AEE adaptam conforme necessário.`,
-        quote: 'Posso adaptar rapidamente as atividades para cada aluno.',
+A opção de circular facilita para alunos especiais. Atividade grátis praticada sem pressão. Imagens grandes e claras ajudam na compreensão. Atividade para crianças e cognição trabalhadas juntas. Professores de AEE adaptam conforme necessário.`,
+        quote: 'Posso adaptar rapidamente as atividades grátis para cada aluno.',
       },
       {
         id: '6',
         icon: '💰',
         title: 'Professores Empreendedores',
-        subtitle: 'Desenhos para Colorir e Atividades para Vender',
-        description: `Muitos professores vendem materiais online. Desenhos para colorir combinados com matemática são populares. A licença comercial permite venda no Teachers Pay Teachers. Desenhos para colorir em atividades atraem compradores.
+        subtitle: 'Atividade Grátis para Crianças e Imprimíveis Grátis para Vender Online',
+        description: `Muitos professores vendem materiais online. Atividade grátis combinadas com matemática são populares. A licença comercial permite venda no Teachers Pay Teachers. Imprimíveis grátis em atividades atraem compradores.
 
-Etsy e Amazon KDP são canais lucrativos. Desenhos para colorir temáticos vendem bem em datas especiais. Natal, Páscoa e volta às aulas são períodos fortes. Desenhos para colorir com exercícios matemáticos diferenciam produtos. Renda extra de R$500 a R$5.000 mensais é possível.`,
+Etsy e Amazon KDP são canais lucrativos. Atividades grátis temáticas vendem bem em datas especiais. Natal, Páscoa e volta às aulas são períodos fortes. Atividade grátis para crianças com exercícios matemáticos diferenciam produtos. Renda extra de R$500 a R$5.000 mensais é possível.`,
         quote: 'Minha assinatura se pagou no primeiro mês de vendas!',
       },
     ],
@@ -323,8 +369,8 @@ Etsy e Amazon KDP são canais lucrativos. Desenhos para colorir temáticos vende
 
   // FAQ Section - Selected FAQs from more-less.md
   faq: {
-    sectionTitle: 'Perguntas Frequentes sobre Atividades para Imprimir - FAQ Completo sobre Atividades de Matemática Maior e Menor',
-    sectionDescription: 'Professores têm dúvidas comuns sobre o gerador. Esta seção responde às perguntas mais frequentes. Atividades para imprimir são o foco principal. Atividades de matemática de comparação explicadas em detalhes. Leia antes de começar a criar suas fichas.',
+    sectionTitle: 'Perguntas sobre Atividades Grátis - Dúvidas sobre Atividade para Crianças de Maior e Menor',
+    sectionDescription: 'Professores têm dúvidas comuns sobre o gerador de atividade grátis. Esta seção responde às perguntas mais frequentes. Atividades grátis para imprimir são o foco principal. Atividade grátis para crianças de comparação explicadas em detalhes. Leia antes de começar a criar suas fichas.',
     showMoreText: 'Mostrar mais perguntas',
     showLessText: 'Mostrar menos',
     badgeText: 'FAQ',
@@ -335,63 +381,63 @@ Etsy e Amazon KDP são canais lucrativos. Desenhos para colorir temáticos vende
     items: [
       {
         id: '1',
-        question: 'O gerador de atividades de matemática Maior e Menor é gratuito?',
-        answer: 'O gerador Maior e Menor requer assinatura Acesso Completo. O custo é R$240 por ano ou R$25 por mês. Sua assinatura oferece criação ilimitada de atividades de matemática. Não há cobranças extras por ficha gerada. Crie quantas atividades de matemática precisar. O Acesso Completo inclui todos os 33 geradores de atividades. O Pacote Essencial custa R$144 por ano e inclui 10 aplicativos. A assinatura Acesso Completo é necessária para o Maior e Menor. Ambas as assinaturas incluem licença comercial. Atividades de matemática ilimitadas com qualidade profissional 300 DPI.',
+        question: 'O Gerador de Atividade Grátis Maior e Menor é Gratuito? Quanto Custam as Imprimíveis Grátis?',
+        answer: 'O gerador de atividade grátis Maior e Menor requer assinatura Acesso Completo. O custo é R$1.200 por ano ou R$125 por mês. Sua assinatura oferece criação ilimitada de atividades grátis. Não há cobranças extras por ficha gerada. Crie quantas atividade grátis para crianças precisar. O Acesso Completo inclui todos os 33 geradores de atividades grátis. Ambas as assinaturas incluem licença comercial. Imprimíveis grátis ilimitadas com qualidade profissional 300 DPI.',
       },
       {
         id: '2',
-        question: 'Posso imprimir atividades educação infantil em casa na impressora comum?',
-        answer: 'Sim, todas as atividades educação infantil funcionam em impressoras caseiras. O formato PDF é otimizado para impressão doméstica. Atividades educação infantil ficam perfeitas em papel comum. Tamanho A4 ou Carta disponíveis. A opção de escala de cinza economiza tinta colorida. Atividades educação infantil em preto e branco são econômicas. Qualidade 300 DPI garante nitidez. Atividades educação infantil impressas em casa parecem profissionais. Nenhuma impressora especial é necessária.',
+        question: 'Posso Imprimir Atividade Grátis para Crianças e Imprimíveis Grátis em Casa?',
+        answer: 'Sim, todas as atividade grátis para crianças funcionam em impressoras caseiras. O formato PDF é otimizado para impressão doméstica. Atividades grátis ficam perfeitas em papel comum. Tamanho A4 ou Carta disponíveis. A opção de escala de cinza economiza tinta colorida. Atividade grátis em preto e branco são econômicas. Qualidade 300 DPI garante nitidez. Imprimíveis grátis impressas em casa parecem profissionais. Nenhuma impressora especial é necessária.',
       },
       {
         id: '3',
-        question: 'Preciso de habilidades de design para criar atividades para imprimir?',
-        answer: 'Não, nenhuma habilidade de design é necessária. Atividades para imprimir são criadas automaticamente. O sistema gera layouts profissionais. Atividades para imprimir prontas em 3 cliques. O canvas permite edição opcional. Atividades para imprimir podem ser personalizadas se desejar. Arraste e solte elementos facilmente. Atividades para imprimir são intuitivas para qualquer usuário. Interface simples em português brasileiro.',
+        question: 'Preciso de Conhecimentos de Design para Criar Atividades Grátis?',
+        answer: 'Não, nenhuma habilidade de design é necessária. Atividades grátis são criadas automaticamente. O sistema gera layouts profissionais. Atividade grátis prontas em 3 cliques. O canvas permite edição opcional. Imprimíveis grátis podem ser personalizadas se desejar. Arraste e solte elementos facilmente. Atividade grátis para crianças são intuitivas para qualquer usuário. Interface simples em português brasileiro.',
       },
       {
         id: '4',
-        question: 'Posso usar atividades 1º ano e 2º ano na sala de aula?',
-        answer: 'A assinatura Acesso Completo inclui uso ilimitado em sala de aula. Atividades 1º ano para todos os seus alunos. Imprima quantas cópias precisar. Atividades 2º ano para múltiplas turmas. Nenhuma restrição de quantidade de impressões. Atividades 1º ano para reforço escolar também. Use em aulas particulares. Atividades 2º ano para grupos de estudo. Licença educacional completa incluída.',
+        question: 'Posso Usar Atividade Grátis para Crianças na Sala de Aula? A Licença Permite Uso Escolar?',
+        answer: 'A assinatura Acesso Completo inclui uso ilimitado em sala de aula. Atividade grátis para todos os seus alunos. Imprima quantas cópias precisar. Atividades grátis para múltiplas turmas. Nenhuma restrição de quantidade de impressões. Atividade grátis para crianças para reforço escolar também. Use em aulas particulares. Imprimíveis grátis para grupos de estudo. Licença educacional completa incluída.',
       },
       {
         id: '5',
-        question: 'Em quais idiomas as atividades de alfabetização estão disponíveis?',
-        answer: 'As atividades de alfabetização estão disponíveis em 11 idiomas. Português brasileiro é totalmente suportado. Atividades de alfabetização em inglês para escolas bilíngues. Espanhol e alemão também disponíveis. Francês, italiano e holandês completam as opções europeias. Atividades de alfabetização em idiomas nórdicos também. Sueco, dinamarquês, norueguês e finlandês. Atividades de alfabetização adaptadas para cada cultura. Interface traduzida nativamente.',
+        question: 'Quais Idiomas Estão Disponíveis para Atividade para Educação Infantil?',
+        answer: 'As atividade para educação infantil estão disponíveis em 11 idiomas. Português brasileiro é totalmente suportado. Atividade grátis em inglês para escolas bilíngues. Espanhol e alemão também disponíveis. Francês, italiano e holandês completam as opções europeias. Atividades grátis em idiomas nórdicos também. Sueco, dinamarquês, norueguês e finlandês. Atividade grátis para crianças adaptadas para cada cultura. Interface traduzida nativamente.',
       },
       {
         id: '6',
-        question: 'Posso vender desenhos para colorir e atividades que eu criar?',
-        answer: 'Sim, a assinatura Acesso Completo inclui licença comercial completa. Desenhos para colorir combinados com matemática podem ser vendidos. Venda no Teachers Pay Teachers sem taxas extras. Desenhos para colorir em Etsy e Amazon KDP. A licença cobre uso print-on-demand. Desenhos para colorir em apostilas físicas. Produtos digitais para download. Desenhos para colorir sem necessidade de atribuição. Seus clientes recebem qualidade profissional 300 DPI.',
+        question: 'Posso Vender Atividades Grátis e Imprimíveis Grátis Criadas no Gerador?',
+        answer: 'Sim, a assinatura Acesso Completo inclui licença comercial completa. Atividades grátis combinadas com matemática podem ser vendidas. Venda no Teachers Pay Teachers sem taxas extras. Imprimíveis grátis em Etsy e Amazon KDP. A licença cobre uso print-on-demand. Atividade grátis em apostilas físicas. Produtos digitais para download. Atividade grátis para crianças sem necessidade de atribuição. Seus clientes recebem qualidade profissional 300 DPI.',
       },
       {
         id: '7',
-        question: 'Como personalizar coordenação motora e atividades para meus alunos?',
-        answer: 'A personalização é completa no canvas interativo. Coordenação motora é ativada com opção de circular símbolos. Adicione instruções específicas para sua turma. Coordenação motora adaptada para diferentes níveis. Redimensione elementos conforme necessário. Coordenação motora para alunos especiais com imagens maiores. Adicione campos de nome e data. Coordenação motora e identificação em uma ficha. Texto personalizado em qualquer posição.',
+        question: 'Como Personalizo Atividade Grátis e Atividade para Educação Infantil para Meus Alunos?',
+        answer: 'A personalização é completa no canvas interativo. Coordenação motora é ativada com opção de circular símbolos. Adicione instruções específicas para sua turma. Atividade grátis adaptada para diferentes níveis. Redimensione elementos conforme necessário. Atividade grátis para crianças com imagens maiores para alunos especiais. Adicione campos de nome e data. Imprimíveis grátis e identificação em uma ficha. Texto personalizado em qualquer posição.',
       },
       {
         id: '8',
-        question: 'Quais idades funcionam melhor com atividades de maior e menor?',
-        answer: 'As atividades são ideais para crianças de 4 a 8 anos. Pré-escola e educação infantil são o público principal. Atividades de comparação para crianças em fase de alfabetização matemática. 1º ano usa frequentemente. Atividades para reconhecimento de quantidades. Atividades integradas com contagem numérica. Crianças de 5 anos adoram as imagens coloridas. Atividades até o 2º ano. Reforço para alunos com dificuldades.',
+        question: 'Qual Faixa Etária Funciona Melhor com Atividade Grátis de Maior e Menor?',
+        answer: 'As atividade grátis são ideais para crianças de 4 a 8 anos. Pré-escola e atividade para educação infantil são o público principal. Atividades grátis para crianças em fase de alfabetização matemática. 1º ano usa frequentemente. Atividade grátis para crianças para reconhecimento de quantidades. Imprimíveis grátis integradas com contagem numérica. Crianças de 5 anos adoram as imagens coloridas. Atividades grátis até o 2º ano. Reforço para alunos com dificuldades.',
       },
       {
         id: '9',
-        question: 'Posso fazer upload de imagens para atividades educação infantil?',
-        answer: 'Sim, upload de imagens personalizadas é permitido. Atividades educação infantil com fotos dos alunos engajam mais. Formatos JPEG, PNG e GIF aceitos. Atividades educação infantil com objetos da sala de aula. Upload múltiplo de arquivos disponível. Atividades educação infantil com mascote da escola. Combine imagens próprias com a biblioteca. Atividades educação infantil personalizadas para sua realidade. Fotos de passeios e eventos também funcionam.',
+        question: 'Posso Fazer Upload de Imagens para Atividades Grátis?',
+        answer: 'Sim, upload de imagens personalizadas é permitido. Atividades grátis com fotos dos alunos engajam mais. Formatos JPEG, PNG e GIF aceitos. Atividade grátis para crianças com objetos da sala de aula. Upload múltiplo de arquivos disponível. Atividade para educação infantil com mascote da escola. Combine imagens próprias com a biblioteca. Imprimíveis grátis personalizadas para sua realidade. Fotos de passeios e eventos também funcionam.',
       },
       {
         id: '10',
-        question: 'Quanto tempo leva para criar atividades de matemática?',
-        answer: 'Criar atividades de matemática leva menos de 3 minutos. Selecione imagens em 30 segundos. Configure opções em mais 30 segundos. Atividades de matemática geradas instantaneamente. Edição opcional adiciona 1-2 minutos. Atividades de matemática com personalização completa em 5 minutos. Download imediato após gerar. Atividades de matemática prontas para impressão. Gabarito gerado automaticamente.',
+        question: 'Quanto Tempo Leva para Criar Atividades Grátis de Maior e Menor?',
+        answer: 'Criar atividades grátis leva menos de 3 minutos. Selecione imagens em 30 segundos. Configure opções em mais 30 segundos. Atividade grátis geradas instantaneamente. Edição opcional adiciona 1-2 minutos. Atividade grátis para crianças com personalização completa em 5 minutos. Download imediato após gerar. Imprimíveis grátis prontas para impressão. Gabarito gerado automaticamente.',
       },
       {
         id: '11',
-        question: 'As atividades de maior e menor incluem gabarito?',
-        answer: 'Sim, todas as atividades incluem gabarito automático. O gabarito mostra os símbolos corretos marcados. Download separado de ficha e gabarito. Correção facilitada para professores. Respostas claras em cada exercício. Compartilhe gabarito com pais para estudo em casa. Qualidade profissional em ambos os arquivos.',
+        question: 'As Atividade Grátis de Maior e Menor Incluem Gabarito?',
+        answer: 'Sim, todas as atividade grátis incluem gabarito automático. O gabarito mostra os símbolos corretos marcados. Download separado de ficha e gabarito. Correção facilitada para professores. Respostas claras em cada exercício. Compartilhe gabarito com pais para estudo em casa. Qualidade profissional em ambos os arquivos de atividades grátis.',
       },
       {
         id: '12',
-        question: 'Posso criar atividades para imprimir sobre tabuada e outros temas?',
-        answer: 'O gerador Maior e Menor foca em comparação de quantidades. Tabuada requer outro gerador da plataforma. Atividades para imprimir de multiplicação no Math Worksheets. A assinatura Acesso Completo dá acesso a todos. Combine diferentes geradores para tabuada completa. Atividades para imprimir de adição e subtração disponíveis. Tabuada no gerador específico de matemática. Atividades para imprimir de diversos tipos. 33 geradores no Acesso Completo.',
+        question: 'Posso Criar Atividade Grátis para Crianças sobre Outros Temas de Matemática?',
+        answer: 'O gerador Maior e Menor foca em comparação de quantidades para atividade grátis. Tabuada requer outro gerador da plataforma. Imprimíveis grátis de multiplicação no Math Worksheets. A assinatura Acesso Completo dá acesso a todos. Combine diferentes geradores para atividades grátis completas. Atividade grátis de adição e subtração disponíveis. Tabuada no gerador específico de matemática. Atividade grátis para crianças de diversos tipos. 33 geradores no Acesso Completo.',
       },
     ],
   },
@@ -399,7 +445,7 @@ Etsy e Amazon KDP são canais lucrativos. Desenhos para colorir temáticos vende
   // Pricing - Full Access (Acesso Completo)
   pricing: {
     title: 'Acesso Completo',
-    price: 'R$240',
+    price: 'R$1.200',
     priceInterval: '/ano',
     priceSuffix: 'Cobrado anualmente',
     benefits: [
@@ -452,10 +498,10 @@ Etsy e Amazon KDP são canais lucrativos. Desenhos para colorir temáticos vende
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Combine Maior e Menor com Outros Geradores - Pacotes Completos de Atividades',
-    sectionDescription: 'Maximize o valor do seu Acesso Completo combinando geradores. Crie pacotes completos de atividades de alfabetização e coordenação motora usando múltiplos apps.',
-    ctaTitle: 'Pronto para Criar Atividades Incríveis?',
-    ctaDescription: 'Junte-se a milhares de educadores que criam atividades profissionais. Geração ilimitada, licença comercial incluída.',
+    sectionTitle: 'Combine Atividade Grátis de Maior e Menor - Imprimíveis Grátis para Educação Infantil',
+    sectionDescription: 'Maximize o valor do seu Acesso Completo combinando geradores. Crie pacotes completos de atividades grátis de alfabetização e coordenação motora usando múltiplos apps para atividade grátis para crianças.',
+    ctaTitle: 'Pronto para Criar Atividade Grátis de Maior e Menor Incríveis?',
+    ctaDescription: 'Junte-se a milhares de educadores que criam atividade grátis para crianças profissionais. Geração ilimitada, licença comercial incluída.',
     primaryCtaText: 'Iniciar Teste Gratuito',
     secondaryCtaText: 'Ver Todos os 33 Geradores',
     badgeText: 'Funciona Perfeitamente Com',
@@ -471,7 +517,7 @@ Etsy e Amazon KDP são canais lucrativos. Desenhos para colorir temáticos vende
         name: 'Atividades de Matemática',
         category: 'Matemática',
         icon: '🔢',
-        description: 'Combine atividades de comparação com fichas de operações matemáticas para pacotes completos de raciocínio lógico.',
+        description: 'Combine atividade grátis de comparação com fichas de operações matemáticas para pacotes completos de raciocínio lógico.',
       },
       {
         id: '2',
@@ -479,7 +525,7 @@ Etsy e Amazon KDP são canais lucrativos. Desenhos para colorir temáticos vende
         name: 'Trenzinho do Alfabeto',
         category: 'Alfabetização',
         icon: '🚂',
-        description: 'O Alphabet Train gera atividades de treino de letras que complementam perfeitamente as atividades de comparação.',
+        description: 'O Alphabet Train gera atividades grátis de treino de letras que complementam perfeitamente as atividade grátis de comparação.',
       },
       {
         id: '3',
@@ -487,7 +533,7 @@ Etsy e Amazon KDP são canais lucrativos. Desenhos para colorir temáticos vende
         name: 'Desenhos para Colorir',
         category: 'Criativo',
         icon: '🎨',
-        description: 'Combine atividades de maior e menor com desenhos para colorir para atividades multifuncionais.',
+        description: 'Combine atividade grátis de maior e menor com desenhos para colorir para imprimíveis grátis multifuncionais.',
       },
       {
         id: '4',
@@ -495,7 +541,7 @@ Etsy e Amazon KDP são canais lucrativos. Desenhos para colorir temáticos vende
         name: 'Encontre e Conte',
         category: 'Matemática',
         icon: '🔍',
-        description: 'Atividades de contagem complementam exercícios de comparação de quantidades.',
+        description: 'Atividades grátis de contagem complementam exercícios de comparação de quantidades para atividade para crianças completa.',
       },
     ],
   },

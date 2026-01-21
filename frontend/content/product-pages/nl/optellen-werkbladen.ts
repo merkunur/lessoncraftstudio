@@ -27,22 +27,54 @@ export const additionNlContent: ProductPageContent = {
   seo: {
     slug: 'optellen-werkbladen',
     appId: 'addition',
-    title: 'Optel Werkbladen Generator - Rekenen Werkbladen voor Werkbladen Groep 3 en Sommen tot 20',
+    title: 'Optel Werkbladen Generator - Gratis Werkbladen Optellen voor Werkbladen Groep 3 en Sommen tot 20',
     description: 'Maak professionele optelwerkbladen met plaatjes in enkele minuten. Deze rekenen werkbladen generator is perfect voor leerkrachten in het basisonderwijs. Met je Basispakket abonnement creëer je onbeperkt werkbladen groep 3 zonder extra kosten per werkblad.',
-    keywords: 'optellen werkbladen, rekenen werkbladen, werkbladen groep 3, werkbladen kleuters, sommen tot 20, oefenbladen gratis, tafels oefenen, veilig leren lezen, fijne motoriek, letters leren',
+    keywords: 'optellen werkbladen, rekenen werkbladen, werkbladen groep 3, werkbladen kleuters, sommen tot 20, oefenbladen gratis, tafels oefenen, veilig leren lezen, fijne motoriek, letters leren, gratis werkblad, gratis werkbladen, gratis printables, werkblad voor kinderen, werkblad voor kleuters',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/optellen-werkbladen',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/dutch/addition/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis werkblad optellen - rekenen werkbladen voor werkbladen groep 3',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/dutch/addition/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis werkbladen voor kinderen - optelwerkblad met plaatjes en sommen tot 20',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/dutch/addition/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis printables optellen - werkblad voor kleuters met afbeeldingen',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/dutch/addition/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Werkblad voor kinderen optellen - oefenbladen gratis kwaliteit',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/dutch/addition/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis werkblad voor kinderen - rekenen werkbladen groep 3',
+      },
+    ],
   },
 
   // Hero Section - FULL text from addition.md paragraphs 1-4
   hero: {
-    title: 'Optel Werkbladen Generator',
-    subtitle: 'Rekenen Werkbladen voor Werkbladen Groep 3 en Sommen tot 20',
-    description: `Maak professionele optelwerkbladen met plaatjes in enkele minuten. Deze rekenen werkbladen generator is perfect voor leerkrachten in het basisonderwijs. Met je Basispakket abonnement creëer je onbeperkt werkbladen groep 3 zonder extra kosten per werkblad.
+    title: 'Gratis Optelwerkbladen Generator - Rekenen Werkbladen Maker',
+    subtitle: 'Gratis Werkbladen voor Kinderen - Sommen tot 20 voor Groep 3',
+    description: `Maak professionele optelwerkbladen met plaatjes in enkele minuten. Deze gratis werkbladen generator is perfect voor leerkrachten in het basisonderwijs. Met je Basispakket abonnement creëer je onbeperkt werkbladen groep 3 zonder extra kosten per werkblad.
 
 De optelwerkbladen maker werkt volledig in het Nederlands. Je kiest afbeeldingen uit de bibliotheek of uploadt eigen plaatjes. Kinderen tellen de afbeeldingen bij elkaar op en schrijven het antwoord. Ideaal voor sommen tot 20 oefeningen in groep 3 en groep 4.
 
 Rekenen met plaatjes maakt abstract tellen concreet. Kinderen zien drie appels plus twee appels. Ze begrijpen direct wat optellen betekent. Deze visuele aanpak werkt beter dan alleen cijfers.`,
-    previewImageSrc: '/samples/english/addition/addition_worksheet portrait.jpeg',
+    previewImageSrc: '/samples/dutch/addition/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Gratis Uitproberen',
       viewSamples: 'Voorbeelden Bekijken',
@@ -61,10 +93,10 @@ Rekenen met plaatjes maakt abstract tellen concreet. Kinderen zien drie appels p
     },
   },
 
-  // Sample Gallery - REAL file paths from samples/english/addition/
+  // Sample Gallery - REAL file paths from samples/dutch/addition/
   samples: {
-    sectionTitle: 'Optelwerkbladen Voorbeelden',
-    sectionDescription: 'Download gratis voorbeeldwerkbladen om onze professionele kwaliteit te ervaren',
+    sectionTitle: 'Gratis Optelwerkbladen Voorbeelden - Werkblad voor Kinderen Downloaden',
+    sectionDescription: 'Download gratis werkbladen om onze professionele kwaliteit te ervaren. Elk gratis printables voorbeeld toont de hoge kwaliteit van onze werkblad voor kinderen.',
     downloadLabel: 'Gratis Voorbeeld Downloaden',
     worksheetLabel: 'Werkblad',
     answerKeyLabel: 'Antwoordblad',
@@ -77,46 +109,46 @@ Rekenen met plaatjes maakt abstract tellen concreet. Kinderen zien drie appels p
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/addition/addition_worksheet portrait.jpeg',
-        answerKeySrc: '/samples/english/addition/addition_answer_key portrait.jpeg',
-        altText: 'Optelwerkblad portret met plaatjes voor werkbladen groep 3 en sommen tot 20',
-        pdfDownloadUrl: '/samples/english/addition/addition_worksheet portrait.pdf',
+        worksheetSrc: '/samples/dutch/addition/sample-1.jpeg',
+        answerKeySrc: '/samples/dutch/addition/sample-1-answer.jpeg',
+        altText: 'Gratis optelwerkblad voor kinderen - rekenen werkbladen groep 3 met sommen tot 20',
+        pdfDownloadUrl: '/samples/dutch/addition/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/addition/addition_worksheet landscape.jpeg',
-        answerKeySrc: '/samples/english/addition/addition_answer_key landscape.jpeg',
-        altText: 'Optelwerkblad landschap met rekenen werkbladen voor werkbladen kleuters',
-        pdfDownloadUrl: '/samples/english/addition/addition_worksheet landscape.pdf',
+        worksheetSrc: '/samples/dutch/addition/sample-2.jpeg',
+        answerKeySrc: '/samples/dutch/addition/sample-2-answer.jpeg',
+        altText: 'Gratis werkblad optellen met plaatjes - werkblad voor kleuters en fijne motoriek',
+        pdfDownloadUrl: '/samples/dutch/addition/sample-2.pdf',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/addition/image and number.jpeg',
-        answerKeySrc: '/samples/english/addition/image and number answer_key.jpeg',
-        altText: 'Optelwerkblad met afbeelding en getal voor oefenbladen gratis kwaliteit',
-        pdfDownloadUrl: '/samples/english/addition/image and number.pdf',
+        worksheetSrc: '/samples/dutch/addition/sample-3.jpeg',
+        answerKeySrc: '/samples/dutch/addition/sample-3-answer.jpeg',
+        altText: 'Gratis werkbladen sommen tot 20 - oefenbladen gratis niveau kwaliteit',
+        pdfDownloadUrl: '/samples/dutch/addition/sample-3.pdf',
       },
       {
         id: '4',
-        worksheetSrc: '/samples/english/addition/find addend.jpeg',
-        answerKeySrc: '/samples/english/addition/find addend answer_key.jpeg',
-        altText: 'Vind het ontbrekende getal werkblad voor sommen tot 20 oefeningen',
-        pdfDownloadUrl: '/samples/english/addition/find addend.pdf',
+        worksheetSrc: '/samples/dutch/addition/sample-4.jpeg',
+        answerKeySrc: '/samples/dutch/addition/sample-4-answer.jpeg',
+        altText: 'Gratis printables optellen - werkblad voor kinderen met afbeeldingen',
+        pdfDownloadUrl: '/samples/dutch/addition/sample-4.pdf',
       },
       {
         id: '5',
-        worksheetSrc: '/samples/english/addition/mixed mode.jpeg',
-        answerKeySrc: '/samples/english/addition/mixed mode answer_key.jpeg',
-        altText: 'Gemengde modus optelwerkblad met variatie voor rekenen werkbladen',
-        pdfDownloadUrl: '/samples/english/addition/mixed mode.pdf',
+        worksheetSrc: '/samples/dutch/addition/sample-5.jpeg',
+        answerKeySrc: '/samples/dutch/addition/sample-5-answer.jpeg',
+        altText: 'Gratis werkblad voor kinderen - rekenen werkbladen kleuters sommen tot 20',
+        pdfDownloadUrl: '/samples/dutch/addition/sample-5.pdf',
       },
     ],
   },
 
   // Features Grid - FULL text from addition.md feature sections
   features: {
-    sectionTitle: 'Functies van de Optelwerkbladen Generator - Alles voor Rekenen Werkbladen en Werkbladen Groep 3',
-    sectionDescription: 'Deze optelwerkbladen maker biedt alle functies die je nodig hebt voor effectief rekenonderwijs. Van eenvoudige telwerkbladen voor kleuters tot uitdagende sommen tot 20 voor groep 4. Ontdek hoe je in enkele minuten professionele rekenen werkbladen maakt met vier verschillende oefenmodi.',
+    sectionTitle: 'Functies - Gratis Werkbladen Optellen voor Werkbladen Groep 3',
+    sectionDescription: 'Deze optelwerkbladen maker biedt alle functies die je nodig hebt voor effectief rekenonderwijs. Van gratis werkblad voor kleuters tot uitdagende sommen tot 20 voor groep 4. Ontdek hoe je in enkele minuten professionele gratis werkbladen maakt met vier verschillende oefenmodi.',
     highlightBadgeText: 'Uitgelicht',
     readMoreLabel: 'Lees meer',
     showLessLabel: 'Minder tonen',
@@ -130,7 +162,7 @@ Rekenen met plaatjes maakt abstract tellen concreet. Kinderen zien drie appels p
       {
         id: '1',
         icon: '⚡',
-        title: 'Werkbladen Kleuters Maken in 3 Klikken - Snel Rekenen Werkbladen met Plaatjes',
+        title: 'Gratis Werkblad voor Kleuters Maken in 3 Klikken - Rekenen Werkbladen met Plaatjes',
         description: `Het maken van een optelwerkblad kost geen technische kennis. Je selecteert een thema uit de bibliotheek met meer dan 3000 afbeeldingen. Kies het aantal opgaven en het getallenbereik. Klik op genereren en je werkblad is klaar.
 
 De generator biedt vier oefenmodi voor werkbladen kleuters. De modus "Afbeelding + Afbeelding" toont twee groepen plaatjes. Kinderen tellen beide groepen en schrijven de som. Perfect voor visuele leerlingen in groep 1 2.
@@ -141,7 +173,7 @@ De modus "Afbeelding + Getal" combineert plaatjes met cijfers. Eén groep toont 
       {
         id: '2',
         icon: '🔢',
-        title: 'Vier Oefenmodi voor Sommen tot 20 - Van Werkbladen Kleuters tot Werkbladen Groep 3',
+        title: 'Vier Oefenmodi voor Gratis Werkbladen - Van Werkblad voor Kleuters tot Groep 3',
         description: `De modus "Vind het Ontbrekende Getal" daagt leerlingen extra uit. Ze zien een deel van de som en moeten het missende getal invullen. Ideaal voor sommen tot 20 begrip in werkbladen groep 3.
 
 De "Gemengde Modus" wisselt alle oefentypes af op één werkblad. Kinderen krijgen variatie zonder dat jij extra werkbladen hoeft te maken. Elke opgave is anders, wat de aandacht vasthoudt.
@@ -152,7 +184,7 @@ Je bepaalt zelf hoeveel opgaven elk werkblad bevat. Kies een tot tien oefeningen
       {
         id: '3',
         icon: '✏️',
-        title: 'Volledig Bewerkbaar Canvas voor Oefenbladen Gratis Kwaliteit en Fijne Motoriek',
+        title: 'Volledig Bewerkbaar Canvas voor Gratis Printables en Werkblad voor Kinderen',
         description: `Na het genereren kun je alles aanpassen op het canvas. Sleep afbeeldingen naar een andere positie. Vergroot of verklein elementen met je muis. Draai objecten of verwijder ze volledig.
 
 Deze flexibiliteit is perfect voor fijne motoriek werkbladen. Voeg extra schrijflijnen toe onder de sommen. Maak ruimte voor antwoordvakjes waar kinderen kunnen schrijven. Combineer rekenen met schrijfoefeningen.
@@ -163,7 +195,7 @@ Je kunt ook eigen teksten toevoegen voor oefenbladen gratis niveau kwaliteit. Ki
       {
         id: '4',
         icon: '📤',
-        title: 'Eigen Afbeeldingen Uploaden voor Werkbladen Groep 3 met Letters Leren Thema\'s',
+        title: 'Eigen Afbeeldingen Uploaden voor Gratis Werkbladen met Letters Leren Thema\'s',
         description: `Wil je gepersonaliseerde optelwerkbladen maken? Upload je eigen afbeeldingen. De tool accepteert JPG, PNG en GIF bestanden. Je kunt meerdere bestanden tegelijk uploaden.
 
 Dit is ideaal voor thematische werkbladen groep 3 met letters leren elementen. Gebruik foto's van voorwerpen die beginnen met de letter van de week. Kinderen tellen appels terwijl ze de A herkennen. Rekenen en lezen gecombineerd.
@@ -174,7 +206,7 @@ De uploadfunctie werkt ook voor seizoensgebonden materialen. Upload herfstblader
       {
         id: '5',
         icon: '🌍',
-        title: '11 Talen Ondersteuning - Veilig Leren Lezen Combineren met Rekenen Werkbladen',
+        title: '11 Talen voor Gratis Werkblad voor Kinderen - Veilig Leren Lezen met Rekenen',
         description: `De optelwerkbladen generator ondersteunt elf talen volledig. Nederlands staat voorop met afbeeldingsnamen die aansluiten bij Veilig leren lezen woordenschat. Maar je maakt ook werkbladen in het Duits, Frans of Engels.
 
 Voor meertalig onderwijs is dit goud waard. Maak rekenen werkbladen in het Nederlands voor de ochtend. Dezelfde sommen in het Engels voor de middag. Kinderen leren rekentaal in meerdere talen.
@@ -185,7 +217,7 @@ De interface is volledig in het Nederlands beschikbaar. Alle knoppen en menu's z
       {
         id: '6',
         icon: '💼',
-        title: 'Commerciële Licentie voor Kleurplaten en Rekenen Werkbladen Verkopen',
+        title: 'Commerciële Licentie voor Gratis Werkbladen en Rekenen Werkbladen Verkopen',
         description: `Met je Basispakket abonnement krijg je een commerciële licentie inbegrepen. Dit betekent dat je jouw werkbladen mag verkopen. Op platforms zoals Etsy, Teachers Pay Teachers of Amazon KDP.
 
 De licentie geldt voor alle werkbladen die je maakt. Ook voor kleurplaten en andere materialen uit de tien Basispakket generators. Je hoeft geen extra kosten te betalen per werkblad.
@@ -220,7 +252,7 @@ Je downloadt werkbladen als PDF of JPEG. De PDF-optie is ideaal voor printen. JP
 
   // How-To Guide - FULL text from addition.md step sections
   howTo: {
-    sectionTitle: 'Hoe Maak Je Optelwerkbladen - Rekenen Werkbladen voor Werkbladen Groep 3 in 5 Stappen',
+    sectionTitle: 'Hoe Maak Je Gratis Optelwerkbladen voor Kinderen in 5 Stappen',
     sectionDescription: 'Het maken van een optelwerkblad duurt minder dan drie minuten. Volg deze vijf stappen en je hebt een professioneel werkblad klaar. Geen technische kennis vereist. Van thema kiezen tot downloaden in een paar klikken.',
     ctaText: 'Nu Starten',
     badgeText: 'Zo werkt het',
@@ -235,7 +267,7 @@ Je downloadt werkbladen als PDF of JPEG. De PDF-optie is ideaal voor printen. JP
       {
         id: '1',
         number: 1,
-        title: 'Stap 1: Kies Je Afbeeldingen voor Sommen tot 20 - Thema of Eigen Plaatjes voor Werkbladen Kleuters',
+        title: 'Stap 1: Kies Je Afbeeldingen voor Gratis Werkblad - Thema of Eigen Plaatjes voor Werkblad voor Kleuters',
         description: `Begin met het selecteren van je afbeeldingen. Je hebt twee opties. Kies een thema uit de bibliotheek. Of upload je eigen plaatjes voor gepersonaliseerde werkbladen kleuters.
 
 De thema-optie werkt het snelst voor sommen tot 20 werkbladen. Selecteer bijvoorbeeld "Fruit" of "Dieren". De generator toont alle beschikbare afbeeldingen in dat thema. Klik op de plaatjes die je wilt gebruiken.
@@ -246,7 +278,7 @@ Voor werkbladen groep 3 met specifieke thema's werkt de zoekfunctie handig. Typ 
       {
         id: '2',
         number: 2,
-        title: 'Stap 2: Stel Oefening In voor Oefenbladen Gratis Kwaliteit - Van Fijne Motoriek tot Rekenen Werkbladen',
+        title: 'Stap 2: Stel Oefening In voor Gratis Werkbladen - Van Werkblad voor Kinderen tot Rekenen',
         description: `Nu configureer je de oefening. Begin met het aantal opgaven. Kies een tot tien sommen per werkblad. Voor oefenbladen gratis niveau kwaliteit adviseren we zes tot acht opgaven.
 
 Bepaal het getallenbereik voor je rekenen werkbladen. Stel het minimum en maximum aantal items per groep in. Voor kleuters kies je een tot vijf. Voor groep 3 kun je tot tien gaan.
@@ -257,7 +289,7 @@ Selecteer de oefenmodus die past bij je les. "Afbeelding + Afbeelding" voor visu
       {
         id: '3',
         number: 3,
-        title: 'Stap 3: Genereer Je Werkblad met Sommen tot 20 - Direct Klaar voor Werkbladen Groep 3',
+        title: 'Stap 3: Genereer Je Gratis Printables met Sommen tot 20 - Direct Klaar voor Groep 3',
         description: `Klik op de knop "Genereren" om je optelwerkblad te maken. Het werkblad verschijnt direct op het canvas. Je ziet alle sommen met afbeeldingen. De antwoordvakjes staan klaar.
 
 De generator plaatst de afbeeldingen automatisch in groepen. Twee appels plus drie appels bijvoorbeeld. Het plusteken staat ertussen als je dat hebt gekozen. Het is-gelijkteken wijst naar het antwoordvak.
@@ -268,7 +300,7 @@ Elke keer dat je genereert krijg je een nieuwe variant. De volgorde van afbeeldi
       {
         id: '4',
         number: 4,
-        title: 'Stap 4: Bewerk op Canvas - Kleurplaten Elementen Toevoegen aan Rekenen Werkbladen',
+        title: 'Stap 4: Bewerk op Canvas - Gratis Werkblad voor Kinderen Personaliseren',
         description: `Na het genereren kun je alles aanpassen. Het canvas werkt intuïtief. Sleep elementen met je muis. Vergroot of verklein ze door aan de hoeken te trekken.
 
 Voeg een titel toe aan je rekenen werkbladen. Typ bijvoorbeeld "Optellen met Dieren" bovenaan. Kies een kindvriendelijk lettertype. Pas de kleur aan bij je thema.
@@ -279,7 +311,7 @@ Combineer je optelwerkblad met kleurplaten elementen. Voeg decoratieve afbeeldin
       {
         id: '5',
         number: 5,
-        title: 'Stap 5: Download en Print - Oefenbladen Gratis Niveau als PDF met Tafels Oefenen Combinaties',
+        title: 'Stap 5: Download en Print - Gratis Werkbladen als PDF met Professionele Kwaliteit',
         description: `Je werkblad is klaar voor downloaden. Kies tussen PDF en JPEG formaat. PDF werkt het beste voor printen. De kwaliteit is 300 DPI voor scherpe resultaten.
 
 Klik op "Download" en selecteer "Werkblad (PDF)". Het bestand wordt opgeslagen op je computer. Open het en print direct. De afbeeldingen en tekst zijn helder en scherp.
@@ -292,7 +324,7 @@ Download ook het antwoordenblad apart. Klik op "Antwoordblad (PDF)". Bewaar dit 
 
   // Use Cases - FULL text from addition.md use case sections
   useCases: {
-    sectionTitle: 'Perfect voor Leerkrachten en Ouders - Werkbladen Kleuters tot Sommen tot 20 voor Iedereen',
+    sectionTitle: 'Perfect voor Leerkrachten - Gratis Werkbladen van Kleuters tot Groep 3',
     sectionDescription: 'De optelwerkbladen generator is ontworpen voor verschillende gebruikers. Van kleuterjuffen tot ouders die thuisonderwijs geven. Ontdek hoe deze tool past bij jouw situatie en onderwijsdoelen.',
     badgeText: 'Voor wie',
     readMoreLabel: 'Lees meer',
@@ -302,7 +334,7 @@ Download ook het antwoordenblad apart. Klik op "Antwoordblad (PDF)". Bewaar dit 
         id: '1',
         icon: '👶',
         title: 'Leerkrachten Groep 1 2 - Werkbladen Kleuters met Fijne Motoriek en Letters Leren Combinaties',
-        subtitle: 'Werkbladen kleuters en fijne motoriek',
+        subtitle: 'Gratis werkblad voor kleuters en fijne motoriek',
         description: `Werk je met kleuters in groep 1 of 2? Dan weet je hoe belangrijk visueel leren is. Werkbladen kleuters moeten concreet en aansprekend zijn. Abstracte cijfers werken nog niet.
 
 De optelwerkbladen met plaatjes zijn perfect voor deze leeftijd. Kinderen tellen bekende voorwerpen. Appels, bloemen, dieren. Ze begrijpen wat optellen betekent voordat ze met cijfers werken.
@@ -314,7 +346,7 @@ Combineer de werkbladen met fijne motoriek oefeningen. Laat kinderen de plaatjes
         id: '2',
         icon: '📚',
         title: 'Leerkrachten Groep 3 - Veilig Leren Lezen Ondersteunen met Rekenen Werkbladen en Sommen tot 20',
-        subtitle: 'Werkbladen groep 3 en Veilig leren lezen',
+        subtitle: 'Gratis werkbladen groep 3 en Veilig leren lezen',
         description: `Groep 3 is een cruciaal jaar. Kinderen leren lezen én rekenen tegelijk. De optelwerkbladen ondersteunen beide vaardigheden. Ze zijn perfect afgestemd op het niveau van deze groep.
 
 Maak werkbladen die aansluiten bij Veilig leren lezen thema's. Gebruik afbeeldingen met woorden uit de actuele kern. Kinderen herkennen de plaatjes én de woorden. Taal en rekenen versterken elkaar.
@@ -326,7 +358,7 @@ De sommen tot 20 zijn precies goed voor groep 3. Begin met getallen tot tien. Bo
         id: '3',
         icon: '🧮',
         title: 'Leerkrachten Groep 4 en 5 - Tafels Oefenen Voorbereiden met Optelwerkbladen en Kleurplaten',
-        subtitle: 'Tafels oefenen en kleurplaten',
+        subtitle: 'Gratis werkbladen tafels oefenen en kleurplaten',
         description: `In groep 4 en 5 worden de sommen complexer. Kinderen werken met grotere getallen. De optelwerkbladen bereiden voor op vermenigvuldigen. Optellen is immers herhaald tellen.
 
 Gebruik de werkbladen als opwarming voor tafels oefenen. Laat kinderen eerst vijf plus vijf optellen. Dan drie keer vijf. Ze zien de verbinding tussen optellen en vermenigvuldigen.
@@ -338,7 +370,7 @@ Combineer optelwerkbladen met kleurplaten voor ontspanning. Na het serieuze reke
         id: '4',
         icon: '🏠',
         title: 'Ouders met Thuisonderwijs - Oefenbladen Gratis Niveau voor Schrijven Oefenen en Rekenen',
-        subtitle: 'Oefenbladen gratis voor thuis',
+        subtitle: 'Gratis werkblad voor kinderen thuis',
         description: `Geef je thuisonderwijs? Dan weet je hoe belangrijk variatie is. Dezelfde werkbladen worden snel saai. De optelwerkbladen generator biedt eindeloze mogelijkheden.
 
 Maak oefenbladen gratis niveau kwaliteit die aansluiten bij jullie thema. Behandel je deze week de boerderij? Genereer optelwerkbladen met boerderijdieren. Kinderen leren spelenderwijs.
@@ -350,7 +382,7 @@ Combineer rekenen met schrijven oefenen. Laat kinderen na elke som het antwoord 
         id: '5',
         icon: '🌐',
         title: 'NT2-Docenten - Veilig Leren Lezen voor Anderstaligen met Werkbladen Groep 3 Niveau',
-        subtitle: 'Werkbladen groep 3 voor NT2',
+        subtitle: 'Gratis werkbladen groep 3 voor NT2',
         description: `Werk je met nieuwkomers of anderstalige leerlingen? De optelwerkbladen zijn ideaal voor taalondersteuning. Rekenen is universeel. Getallen werken in elke taal hetzelfde.
 
 Gebruik de werkbladen om Veilig leren lezen woordenschat te oefenen. Kies afbeeldingen met eenvoudige Nederlandse namen. Appel, boom, vis. Kinderen leren woorden terwijl ze rekenen.
@@ -362,7 +394,7 @@ De visuele aanpak overstijgt taalbarrières. Kinderen begrijpen de opdracht door
         id: '6',
         icon: '💰',
         title: 'Onderwijsondernemers - Kleurplaten en Oefenbladen Gratis Maken voor Verkoop met Commerciële Licentie',
-        subtitle: 'Commerciële licentie voor ondernemers',
+        subtitle: 'Gratis printables verkopen met commerciële licentie',
         description: `Wil je geld verdienen met je lesmateriaal? De optelwerkbladen generator maakt dit mogelijk. Met je Basispakket abonnement krijg je een commerciële licentie inbegrepen.
 
 Maak unieke oefenbladen en verkoop ze online. Teachers Pay Teachers is populair bij Nederlandse docenten. Ook Etsy werkt goed voor printables. De kwaliteit is professioneel genoeg.
@@ -375,7 +407,7 @@ Combineer optelwerkbladen met kleurplaten tot complete pakketten. Een thema-bund
 
   // FAQ Section - FULL FAQs from addition.md
   faq: {
-    sectionTitle: 'Veelgestelde Vragen over Optelwerkbladen - Oefenbladen Gratis en Kleurplaten Antwoorden',
+    sectionTitle: 'Veelgestelde Vragen over Gratis Optelwerkbladen voor Kinderen',
     sectionDescription: 'Heb je vragen over de optelwerkbladen generator? Hier vind je antwoorden op de meest gestelde vragen. Van abonnementskosten tot technische mogelijkheden.',
     showMoreText: 'Meer vragen tonen',
     showLessText: 'Minder tonen',
@@ -387,62 +419,62 @@ Combineer optelwerkbladen met kleurplaten tot complete pakketten. Een thema-bund
     items: [
       {
         id: '1',
-        question: 'Is Deze Optelwerkbladen Generator Echt Gratis voor Sommen tot 20 en Werkbladen Groep 3?',
+        question: 'Is Deze Gratis Werkbladen Generator Echt Gratis voor Sommen tot 20 en Werkbladen Groep 3?',
         answer: 'De optelwerkbladen generator vereist een Basispakket abonnement van €144 per jaar of €15 per maand. Je abonnement geeft je onbeperkte werkbladen creatie zonder extra kosten per download. Genereer zoveel werkbladen groep 3 als je nodig hebt. Sommen tot 20, sommen tot 10, of complexere opgaven. Alles zit inbegrepen. Geen verborgen kosten of limieten. Het Basispakket bevat tien populaire werkblad generators. Het Volledige Toegang abonnement kost €240 per jaar en bevat alle 33 generators. Beide abonnementen bevatten commerciële licentie, elf talen ondersteuning, en 300 DPI kwaliteit.',
       },
       {
         id: '2',
-        question: 'Kan Ik Optelwerkbladen Thuis Printen met Kleurplaten op een Gewone Printer?',
+        question: 'Kan Ik Gratis Werkblad voor Kinderen Thuis Printen op een Gewone Printer?',
         answer: 'Ja, alle werkbladen zijn geoptimaliseerd voor thuisprinters. De PDF-bestanden printen perfect op standaard A4-papier. Ook op oudere inkjetprinters krijg je goede resultaten. Combineer optelwerkbladen met kleurplaten op één vel. Print in kleur voor de beste ervaring. Of gebruik de grijswaarden optie om inkt te besparen. Beide opties leveren scherpe resultaten. De 300 DPI resolutie garandeert professionele kwaliteit.',
       },
       {
         id: '3',
-        question: 'Heb Ik Ontwerpvaardigheden Nodig voor Werkbladen Kleuters met Fijne Motoriek?',
+        question: 'Heb Ik Ontwerpvaardigheden Nodig voor Gratis Werkblad voor Kleuters met Fijne Motoriek?',
         answer: 'Nee, de generator doet al het ontwerpwerk automatisch. Je selecteert afbeeldingen en klikt op genereren. Het werkblad verschijnt direct klaar voor gebruik. Voor werkbladen kleuters met fijne motoriek elementen hoef je niets te tekenen. Kies een thema en de tool maakt de layout. Voeg eventueel decoraties toe met simpele klikken. De bewerkingsfuncties zijn intuïtief. Slepen, vergroten, verkleinen. Alles werkt met je muis.',
       },
       {
         id: '4',
-        question: 'Mag Ik Optelwerkbladen Gebruiken in Mijn Klas voor Tafels Oefenen Voorbereiding?',
+        question: 'Mag Ik Gratis Werkbladen Gebruiken in Mijn Klas voor Tafels Oefenen Voorbereiding?',
         answer: 'Ja, je Basispakket abonnement bevat onbeperkt klassikaal gebruik. Print werkbladen voor al je leerlingen. Deel ze digitaal via je leerlingportaal. Geen extra licentie nodig. Gebruik de optelwerkbladen als voorbereiding op tafels oefenen. Kinderen begrijpen eerst optellen. Daarna is vermenigvuldigen logischer. Je mag werkbladen ook delen met collega\'s binnen je school.',
       },
       {
         id: '5',
-        question: 'In Welke Talen Zijn Optelwerkbladen Beschikbaar voor Veilig Leren Lezen?',
+        question: 'In Welke Talen Zijn Gratis Printables Beschikbaar voor Veilig Leren Lezen?',
         answer: 'De generator ondersteunt elf talen volledig. Nederlands, Engels, Duits, Frans, Spaans, Portugees, Italiaans, Zweeds, Deens, Noors en Fins. Elke taal werkt perfect. Voor Veilig leren lezen integratie kies je Nederlands. De afbeeldingsnamen sluiten aan bij de woordenschat van groep 3. Kinderen herkennen woorden uit hun leesmethode. Wissel tussen talen voor meertalig onderwijs.',
       },
       {
         id: '6',
-        question: 'Kan Ik Optelwerkbladen Verkopen met Kleurplaten voor Commercieel Gebruik?',
+        question: 'Kan Ik Gratis Werkbladen Verkopen met Kleurplaten voor Commercieel Gebruik?',
         answer: 'Ja, je Basispakket abonnement bevat een volledige commerciële licentie. Verkoop je werkbladen op Teachers Pay Teachers, Etsy of Amazon KDP. Geen extra kosten. Combineer optelwerkbladen met kleurplaten tot complete pakketten. Themabundels verkopen beter dan losse werkbladen. Voeg waarde toe en verhoog je prijzen. De 300 DPI kwaliteit is professioneel genoeg voor verkoop.',
       },
       {
         id: '7',
-        question: 'Hoe Pas Ik Optelwerkbladen Aan voor Letters Leren en Schrijven Oefenen?',
+        question: 'Hoe Pas Ik Gratis Werkblad voor Kinderen Aan voor Letters Leren en Schrijven Oefenen?',
         answer: 'De canvas-editor biedt volledige aanpassingsmogelijkheden. Voeg tekst toe, wijzig kleuren, verplaats elementen. Alles is bewerkbaar na het genereren. Voor letters leren integratie kies je thematische afbeeldingen. Alle woorden die beginnen met dezelfde letter. Kinderen oefenen letterherkenning én rekenen tegelijk. Voeg schrijflijnen toe voor schrijven oefenen onder de sommen.',
       },
       {
         id: '8',
-        question: 'Welke Leeftijdsgroepen Werken Het Beste met Werkbladen Kleuters en Sommen tot 20?',
+        question: 'Welke Leeftijdsgroepen Werken Het Beste met Gratis Werkblad voor Kleuters en Sommen tot 20?',
         answer: 'De optelwerkbladen zijn perfect voor kinderen van 4 tot 10 jaar. Werkbladen kleuters bevatten eenvoudige sommen met grote plaatjes. Getallen tot vijf zijn ideaal voor deze leeftijd. Groep 3 en 4 leerlingen werken met sommen tot 20. Ze begrijpen grotere getallen. De visuele ondersteuning helpt bij het ontwikkelen van rekenbegrip. Groep 5 en hoger gebruiken de werkbladen als opwarming.',
       },
       {
         id: '9',
-        question: 'Kan Ik Eigen Afbeeldingen Uploaden voor Oefenbladen Gratis Niveau Werkbladen?',
+        question: 'Kan Ik Eigen Afbeeldingen Uploaden voor Gratis Werkbladen Kwaliteit?',
         answer: 'Ja, de uploadfunctie accepteert JPG, PNG en GIF bestanden. Upload meerdere afbeeldingen tegelijk. Combineer ze met bibliotheekplaatjes voor unieke werkbladen. Je geüploade afbeeldingen worden gebruikt in de optelwerkbladen. Foto\'s van klasactiviteiten, schooluitjes of themaprojecten. Kinderen herkennen bekende plaatjes. De kwaliteit hangt af van je uploads. Gebruik afbeeldingen van minimaal 200x200 pixels.',
       },
       {
         id: '10',
-        question: 'Hoe Lang Duurt Het om een Optelwerkblad te Maken met Fijne Motoriek Oefeningen?',
+        question: 'Hoe Lang Duurt Het om een Gratis Werkblad voor Kinderen te Maken met Fijne Motoriek Oefeningen?',
         answer: 'Het basisproces duurt minder dan drie minuten. Selecteer afbeeldingen, stel opties in, genereer. Je werkblad is direct klaar voor downloaden. Voor uitgebreide werkbladen met fijne motoriek oefeningen reken je vijf tot tien minuten. Voeg decoraties toe, pas teksten aan, combineer met kleuractiviteiten. Na wat oefening maak je een heel weekpakket in dertig minuten.',
       },
       {
         id: '11',
-        question: 'Bevatten Optelwerkbladen Antwoordbladen voor Tafels Oefenen Controle?',
+        question: 'Bevatten Gratis Printables Antwoordbladen voor Tafels Oefenen Controle?',
         answer: 'Ja, de generator maakt automatisch een antwoordenblad. Alle sommen staan ingevuld met correcte antwoorden. Download het apart of samen met het werkblad. Het antwoordenblad is handig voor snelle correctie. Leg het naast de leerlingwerkbladen. Nakijken gaat in seconden. Ideaal voor drukke leerkrachten. Voor tafels oefenen voorbereiding gebruik je de antwoorden als controle.',
       },
       {
         id: '12',
-        question: 'Kan Ik Optelwerkbladen Maken over Specifieke Vakken met Veilig Leren Lezen Thema\'s?',
+        question: 'Kan Ik Gratis Werkbladen Maken over Specifieke Vakken met Veilig Leren Lezen Thema\'s?',
         answer: 'Ja, de themabibliotheek bevat afbeeldingen voor elk schoolvak. Dieren voor biologie. Vormen voor meetkunde. Fruit voor gezonde voeding. Seizoenen voor aardrijkskunde. Voor Veilig leren lezen integratie kies je afbeeldingen die passen bij de actuele kern. Woorden die kinderen net hebben geleerd. Rekenen versterkt het leesonderwijs. Maak vakoverstijgende werkbladen voor complete lessen.',
       },
     ],
@@ -480,7 +512,7 @@ Combineer optelwerkbladen met kleurplaten tot complete pakketten. Een thema-bund
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Combineer Optelwerkbladen met Andere Generators - Complete Werkbladen Pakketten',
+    sectionTitle: 'Combineer met Andere Gratis Werkbladen Generators',
     sectionDescription: 'De Basispakket bevat tien werkblad generators die perfect samenwerken. Combineer optelwerkbladen met andere tools voor complete leerpakketten. Ontdek hoe je thematische bundels maakt voor elke lesweek.',
     ctaTitle: 'Klaar om geweldige werkbladen te maken?',
     ctaDescription: 'Sluit je aan bij duizenden leerkrachten die professionele werkbladen maken. Onbeperkt genereren, commerciële licentie inbegrepen.',

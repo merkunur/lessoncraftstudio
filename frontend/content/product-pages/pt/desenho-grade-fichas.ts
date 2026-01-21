@@ -17,22 +17,54 @@ export const drawAndColorPtContent: ProductPageContent = {
   seo: {
     slug: 'desenho-grade-fichas',
     appId: 'draw-and-color',
-    title: 'Gerador de Atividades para Imprimir - Desenhos para Colorir em Grade - Atividades Educação Infantil e 1º Ano',
+    title: 'Desenho em Grade - Atividade Gratis para Educacao Infantil e Criancas',
     description: 'Crie atividades de desenho em grade com nosso gerador profissional. Sua assinatura Acesso Completo oferece criação ilimitada de fichas sem taxas por atividade. Gere desenhos para colorir personalizados perfeitos para educação infantil e ensino fundamental.',
     keywords: 'atividades para imprimir, desenhos para colorir, educação infantil, coordenação motora, atividades de matemática, 1º ano, 2º ano, pontilhado, tabuada, atividades de alfabetização, atividades vogais, letra cursiva',
     canonicalUrl: 'https://www.lessoncraftstudio.com/pt/apps/desenho-grade-fichas',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/portuguese/draw-and-color/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Atividade gratis de desenho em grade - coordenacao motora para educacao infantil'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/portuguese/draw-and-color/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Atividades gratis de desenho em grade para criancas - imprimiveis gratis'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/portuguese/draw-and-color/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Atividade para criancas de colorir em grade - atividade gratis para educacao infantil'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/portuguese/draw-and-color/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Atividade gratis para criancas de desenho em grade com coordenacao motora'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/portuguese/draw-and-color/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Imprimiveis gratis de desenho em grade - atividades gratis para criancas'
+      }
+    ],
   },
 
   // Hero Section
   hero: {
-    title: 'Gerador de Atividades para Imprimir',
-    subtitle: 'Desenhos para Colorir em Grade - Atividades Educação Infantil e 1º Ano',
+    title: 'Desenho em Grade - Atividade Gratis para Criancas',
+    subtitle: 'Gerador de Atividades Gratis e Imprimiveis Gratis para Educacao Infantil',
     description: `Crie atividades de desenho em grade com nosso gerador profissional. Sua assinatura Acesso Completo oferece criação ilimitada de fichas sem taxas por atividade. Gere desenhos para colorir personalizados perfeitos para educação infantil e ensino fundamental. Baixe PDFs de alta qualidade em menos de 3 minutos.
 
 O gerador de desenhos em grade cria fichas educativas com duas grades lado a lado. Na grade da esquerda, aparecem pistas coloridas mostrando parte de uma imagem. Na grade da direita, o aluno reproduz o desenho copiando as cores nas células correspondentes. É uma forma divertida de desenvolver coordenação motora fina.
 
 As atividades de desenho em grade combinam arte com matemática básica. Enquanto os alunos copiam os padrões, eles praticam contagem de linhas e colunas. Desenvolvem noção de espaço e direção. Trabalham concentração e atenção aos detalhes. Tudo isso enquanto se divertem colorindo.`,
-    previewImageSrc: '/samples/english/draw and color/grid-drawing_worksheet.jpeg',
+    previewImageSrc: '/samples/portuguese/draw-and-color/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Experimente Grátis',
       viewSamples: 'Ver Exemplos',
@@ -53,7 +85,7 @@ As atividades de desenho em grade combinam arte com matemática básica. Enquant
 
   // Sample Gallery
   samples: {
-    sectionTitle: 'Exemplos de Atividades de Desenho em Grade',
+    sectionTitle: 'Exemplos de Desenho em Grade - Atividades Gratis para Criancas',
     sectionDescription: 'Baixe exemplos gratuitos para ver nossa qualidade profissional',
     downloadLabel: 'Baixar Exemplo Grátis',
     worksheetLabel: 'Atividade',
@@ -67,52 +99,45 @@ As atividades de desenho em grade combinam arte com matemática básica. Enquant
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/draw and color/grid-drawing_worksheet.jpeg',
+        worksheetSrc: '/samples/portuguese/draw-and-color/sample-1.jpeg',
         answerKeySrc: '',
-        altText: 'Atividade de desenho em grade para educação infantil',
-        pdfDownloadUrl: '/samples/english/draw and color/grid-drawing-worksheet.pdf',
+        altText: 'Atividade gratis de desenho em grade - atividade para criancas com coordenacao motora',
+        pdfDownloadUrl: '/samples/portuguese/draw-and-color/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/draw and color/grid-drawing_worksheet (1).jpeg',
+        worksheetSrc: '/samples/portuguese/draw-and-color/sample-2.jpeg',
         answerKeySrc: '',
-        altText: 'Atividade de desenho em grade com coordenação motora',
-        pdfDownloadUrl: '/samples/english/draw and color/grid-drawing-worksheet (1).pdf',
+        altText: 'Atividades gratis de desenho em grade para criancas - imprimiveis gratis',
+        pdfDownloadUrl: '/samples/portuguese/draw-and-color/sample-2.pdf',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/draw and color/grid-drawing_worksheet (2).jpeg',
+        worksheetSrc: '/samples/portuguese/draw-and-color/sample-3.jpeg',
         answerKeySrc: '',
-        altText: 'Atividade de desenho em grade para 1º ano',
-        pdfDownloadUrl: '/samples/english/draw and color/grid-drawing-worksheet (2).pdf',
+        altText: 'Atividade para criancas de colorir em grade - atividade gratis para educacao infantil',
+        pdfDownloadUrl: '/samples/portuguese/draw-and-color/sample-3.pdf',
       },
       {
         id: '4',
-        worksheetSrc: '/samples/english/draw and color/grid-drawing_worksheet (3).jpeg',
+        worksheetSrc: '/samples/portuguese/draw-and-color/sample-4.jpeg',
         answerKeySrc: '',
-        altText: 'Desenhos para colorir em grade para ensino fundamental',
-        pdfDownloadUrl: '/samples/english/draw and color/grid-drawing-worksheet (3).pdf',
+        altText: 'Atividade gratis para criancas de desenho em grade - atividade para educacao infantil',
+        pdfDownloadUrl: '/samples/portuguese/draw-and-color/sample-4.pdf',
       },
       {
         id: '5',
-        worksheetSrc: '/samples/english/draw and color/grid-drawing_worksheet (4).jpeg',
+        worksheetSrc: '/samples/portuguese/draw-and-color/sample-5.jpeg',
         answerKeySrc: '',
-        altText: 'Atividade de coordenação motora em grade',
-        pdfDownloadUrl: '/samples/english/draw and color/grid-drawing-worksheet (4).pdf',
-      },
-      {
-        id: '6',
-        worksheetSrc: '/samples/english/draw and color/grid-drawing_worksheet (5).jpeg',
-        answerKeySrc: '',
-        altText: 'Atividade de desenho em grade para 2º ano',
-        pdfDownloadUrl: '/samples/english/draw and color/grid-drawing-worksheet (5).pdf',
+        altText: 'Imprimiveis gratis de desenho em grade - atividades gratis para educacao infantil',
+        pdfDownloadUrl: '/samples/portuguese/draw-and-color/sample-5.pdf',
       },
     ],
   },
 
   // Features Grid
   features: {
-    sectionTitle: 'Recursos do Gerador de Desenhos para Colorir',
+    sectionTitle: 'Recursos do Gerador - Atividade Gratis para Imprimir com Imprimiveis Gratis',
     sectionDescription: 'O gerador Draw and Color oferece ferramentas completas para educadores. Crie atividades educação infantil personalizadas em minutos. Cada recurso foi pensado para facilitar o trabalho do professor. Sua assinatura Acesso Completo libera todas as funcionalidades sem limitações.',
     highlightBadgeText: 'Recurso Principal',
     readMoreLabel: 'Leia mais',
@@ -201,7 +226,7 @@ Escolha entre formatos PDF e JPEG. A opção escala de cinza economiza tinta col
 
   // How-To Guide
   howTo: {
-    sectionTitle: 'Como Criar Atividades para Imprimir em 5 Passos',
+    sectionTitle: 'Como Criar Atividades Gratis para Imprimir em 5 Passos',
     sectionDescription: 'Criar fichas de desenho em grade é rápido e intuitivo. Todo o processo leva menos de 3 minutos. Siga este guia passo a passo para suas primeiras atividades educação infantil. Você dominará o gerador em poucos minutos.',
     ctaText: 'Comece Agora',
     badgeText: 'Como Funciona',
@@ -273,7 +298,7 @@ Salve o arquivo no seu computador. Imprima quantas cópias precisar. Distribua p
 
   // Use Cases
   useCases: {
-    sectionTitle: 'Quem Usa o Gerador de Desenhos para Colorir',
+    sectionTitle: 'Quem Usa Atividades Gratis de Desenho em Grade - Imprimiveis Gratis para Educadores',
     sectionDescription: 'O gerador Draw and Color atende diversos perfis de educadores. Professores de educação infantil criam fichas de coordenação motora. Alfabetizadores usam imagens para reforçar letras e sons. Pais que educam em casa encontram atividades prontas. Cada usuário adapta as fichas para suas necessidades específicas.',
     badgeText: 'Para Quem',
     readMoreLabel: 'Leia mais',
@@ -356,7 +381,7 @@ Professores empreendedores faturam de R$500 a R$5000 mensais. Materiais digitais
 
   // FAQ Section
   faq: {
-    sectionTitle: 'Perguntas Frequentes',
+    sectionTitle: 'Perguntas Frequentes sobre Atividades Gratis de Desenho em Grade',
     sectionDescription: 'Respondemos as dúvidas mais comuns sobre o gerador Draw and Color. Encontre informações sobre assinatura, uso comercial e recursos educativos. Cada resposta ajuda você a aproveitar melhor a ferramenta.',
     showMoreText: 'Mostrar mais perguntas',
     showLessText: 'Mostrar menos',
@@ -486,7 +511,7 @@ Professores empreendedores faturam de R$500 a R$5000 mensais. Materiais digitais
 
   // Related Apps Section
   relatedApps: {
-    sectionTitle: 'Combine com Outros Geradores',
+    sectionTitle: 'Combine com Outros Geradores de Atividades Gratis',
     sectionDescription: 'A plataforma LessonCraft Studio oferece 33 geradores de fichas educativas. Combine desenhos em grade com outros aplicativos para pacotes completos. Sua assinatura Acesso Completo libera todos os recursos.',
     ctaTitle: 'Pronto para Criar Atividades Incríveis?',
     ctaDescription: 'Junte-se a milhares de educadores que criam atividades profissionais com o LessonCraft Studio.',

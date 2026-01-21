@@ -16,22 +16,48 @@ export const codeAdditionPtContent: ProductPageContent = {
   seo: {
     slug: 'adicao-codigo-fichas',
     appId: 'code-addition',
-    title: 'Atividades de Matemática com Código de Imagens - Gerador de Atividades para Imprimir com Exercícios de Soma para Educação Infantil',
+    title: 'Codigo de Imagens - Atividade Gratis para Educacao Infantil e Criancas',
     description: 'Crie atividades de matemática exclusivas com nosso gerador de código de imagens. Sua assinatura Acesso Completo oferece criação ilimitada de atividades para imprimir sem custo adicional por atividade. Gere atividades educação infantil personalizadas perfeitas para alunos da pré-escola e 1º ano.',
     keywords: 'atividades de matemática, atividades para imprimir, atividades educação infantil, exercícios de soma, 1º ano, 2º ano, coordenação motora, tabuada, desenhos para colorir, atividades de alfabetização, atividades vogais, letra cursiva, pontilhado',
     canonicalUrl: 'https://www.lessoncraftstudio.com/pt/apps/adicao-codigo-fichas',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/portuguese/code-addition/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Atividade gratis de codigo de imagens - exercicios de soma para educacao infantil'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/portuguese/code-addition/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Atividades gratis de codigo de soma para criancas - matematica visual'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/portuguese/code-addition/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Imprimiveis gratis de matematica com codigo de imagens'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/portuguese/code-addition/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Atividade para criancas com codigo de soma para educacao infantil'
+      }
+    ],
   },
 
   // Hero Section
   hero: {
-    title: 'Atividades de Matemática com Código de Imagens',
-    subtitle: 'Gerador de Atividades para Imprimir com Exercícios de Soma para Educação Infantil',
+    title: 'Codigo de Imagens - Atividade Gratis para Criancas',
+    subtitle: 'Gerador de Atividades Gratis de Matematica e Imprimiveis Gratis',
     description: `Crie atividades de matemática exclusivas com nosso gerador de código de imagens. Sua assinatura Acesso Completo oferece criação ilimitada de atividades para imprimir sem custo adicional por atividade. Gere atividades educação infantil personalizadas perfeitas para alunos da pré-escola e 1º ano que estão aprendendo soma através de problemas visuais. Baixe atividades em PDF de alta qualidade em menos de 3 minutos.
 
 Nosso gerador de atividades de matemática combina a prática tradicional com aprendizado visual. Os alunos decodificam uma legenda que mostra quais imagens representam quais números. Em seguida, resolvem problemas de soma usando essas imagens. Esse processo de duas etapas desenvolve habilidades de reconhecimento numérico e fluência em adição ao mesmo tempo.
 
 Os professores adoram essas atividades para imprimir porque engajam os aprendizes visuais. Crianças da educação infantil contam imagens familiares como maçãs e carros. Alunos do 1º ano praticam fatos de adição enquanto lembram o código da legenda. Professores de educação especial usam imagens temáticas para manter o interesse durante a prática de atividades de matemática.`,
-    previewImageSrc: '/samples/english/code addition/code addition portrait.jpeg',
+    previewImageSrc: '/samples/portuguese/code-addition/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Experimente Grátis',
       viewSamples: 'Ver Exemplos',
@@ -52,7 +78,7 @@ Os professores adoram essas atividades para imprimir porque engajam os aprendize
 
   // Sample Gallery
   samples: {
-    sectionTitle: 'Exemplos de Atividades com Código de Imagens',
+    sectionTitle: 'Exemplos de Codigo de Imagens - Atividades Gratis para Educacao Infantil',
     sectionDescription: 'Baixe exemplos gratuitos para ver nossa qualidade profissional',
     downloadLabel: 'Baixar Exemplo Grátis',
     worksheetLabel: 'Atividade',
@@ -66,24 +92,38 @@ Os professores adoram essas atividades para imprimir porque engajam os aprendize
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/code addition/code addition portrait.jpeg',
-        answerKeySrc: '/samples/english/code addition/code addition portrait answer_key.jpeg',
-        altText: 'Atividade de código de imagens formato retrato com exercícios de soma para educação infantil',
-        pdfDownloadUrl: '/samples/english/code addition/code addition portrait.pdf',
+        worksheetSrc: '/samples/portuguese/code-addition/sample-1.jpeg',
+        answerKeySrc: '/samples/portuguese/code-addition/sample-1-answer.jpeg',
+        altText: 'Atividade para criancas gratis - codigo de imagens com exercicios de soma',
+        pdfDownloadUrl: '/samples/portuguese/code-addition/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/code addition/code addition landscape.jpeg',
-        answerKeySrc: '/samples/english/code addition/code addition landscape answer_key.jpeg',
-        altText: 'Atividade de código de imagens formato paisagem para ensino fundamental',
-        pdfDownloadUrl: '/samples/english/code addition/code addition landscape.pdf',
+        worksheetSrc: '/samples/portuguese/code-addition/sample-2.jpeg',
+        answerKeySrc: '/samples/portuguese/code-addition/sample-2-answer.jpeg',
+        altText: 'Atividades gratis de codigo de soma para criancas - matematica visual',
+        pdfDownloadUrl: '/samples/portuguese/code-addition/sample-2.pdf',
+      },
+      {
+        id: '3',
+        worksheetSrc: '/samples/portuguese/code-addition/sample-3.jpeg',
+        answerKeySrc: '/samples/portuguese/code-addition/sample-3-answer.jpeg',
+        altText: 'Atividade para criancas - imprimiveis gratis de matematica com codigo',
+        pdfDownloadUrl: '/samples/portuguese/code-addition/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/portuguese/code-addition/sample-4.jpeg',
+        answerKeySrc: '/samples/portuguese/code-addition/sample-4-answer.jpeg',
+        altText: 'Atividade para criancas com codigo de soma - atividade para educacao infantil',
+        pdfDownloadUrl: '/samples/portuguese/code-addition/sample-4.pdf',
       },
     ],
   },
 
   // Features Grid
   features: {
-    sectionTitle: 'Recursos do Gerador de Atividades para Imprimir',
+    sectionTitle: 'Recursos do Gerador - Atividade Gratis para Criancas e Imprimiveis Gratis',
     sectionDescription: 'Nosso gerador de atividades de matemática inclui recursos poderosos para criar atividades educação infantil e material didático para 1º ano e 2º ano. Cada função trabalha em conjunto para ajudá-lo a criar atividades para imprimir mais rápido que métodos tradicionais.',
     highlightBadgeText: 'Recurso Principal',
     readMoreLabel: 'Leia mais',
@@ -98,7 +138,7 @@ Os professores adoram essas atividades para imprimir porque engajam os aprendize
       {
         id: '1',
         icon: '⚡',
-        title: 'Crie Atividades de Matemática em 3 Cliques',
+        title: 'Crie Atividade Gratis em 3 Cliques',
         description: `Gere atividades de matemática completas em menos de 3 minutos. Clique para selecionar seu tema. Clique para escolher suas configurações. Clique para criar sua atividade. O gerador de atividades para imprimir cuida automaticamente de todo o trabalho de design complexo.
 
 Selecione de 3 a 10 exercícios por atividade. Ajuste o intervalo de números de 1 a 20 conforme o nível de habilidade do aluno. O gerador cria uma legenda mostrando quais imagens representam quais números. Em seguida, gera problemas de soma usando essas imagens em todo o conjunto de exercícios.
@@ -109,7 +149,7 @@ Professores de educação infantil começam com intervalos pequenos como 1 a 5. 
       {
         id: '2',
         icon: '✏️',
-        title: 'Edite Tudo nas Atividades de Matemática',
+        title: 'Edite Tudo nas Atividades Gratis',
         description: `Cada elemento nas suas atividades de matemática é editável. Clique em qualquer imagem para movê-la. Arraste os cantos para redimensionar. Gire objetos para qualquer ângulo. A edição completa do canvas dá controle total sobre o design das atividades para imprimir.
 
 Selecione múltiplos elementos de uma vez. Alinhe-os à esquerda, direita ou centro com um clique. Organize objetos em camadas trazendo-os para frente ou enviando-os para trás. Adicione texto em qualquer lugar da página com sua escolha de 7 fontes infantis.
@@ -120,7 +160,7 @@ Mude o tema de fundo e ajuste a opacidade. Adicione bordas decorativas que combi
       {
         id: '3',
         icon: '📤',
-        title: 'Envie Imagens Personalizadas',
+        title: 'Envie Imagens para Atividade para Criancas',
         description: `Envie qualquer imagem do seu computador em formato JPEG, PNG ou GIF. Selecione múltiplos arquivos de uma vez para upload mais rápido. Suas imagens enviadas aparecem instantaneamente na galeria prontas para uso.
 
 Combine imagens enviadas com nossas mais de 3000 imagens da biblioteca. Use fotos dos brinquedos favoritos dos seus alunos. Adicione imagens de materiais manipulativos da sala que eles reconheçam. Envie imagens sazonais para atividades de matemática temáticas de feriados. O upload de múltiplos arquivos processa todas as suas imagens em segundos.
@@ -131,7 +171,7 @@ Professores enviam imagens de mascotes escolares para atividades educação infa
       {
         id: '4',
         icon: '🌍',
-        title: '11 Idiomas para Atividades de Matemática',
+        title: '11 Idiomas para Atividades Gratis',
         description: `Crie atividades educação infantil em 11 idiomas diferentes. Português, inglês, espanhol, francês, alemão, italiano, holandês, dinamarquês, sueco, norueguês e finlandês. A biblioteca de imagens inclui nomes de arquivo traduzidos para cada idioma. Esse suporte de idiomas ajuda professores de idiomas e escolas internacionais.
 
 Selecione seu idioma no menu suspenso. Todas as mais de 3000 imagens carregam com nomes nesse idioma. Alunos aprendendo inglês veem "apple" enquanto alunos brasileiros veem "maçã" para a mesma imagem. Essa construção de vocabulário se combina naturalmente com atividades de alfabetização e prática de atividades de matemática.
@@ -142,7 +182,7 @@ Professores bilíngues criam atividades de matemática em ambos os idiomas para 
       {
         id: '5',
         icon: '💰',
-        title: 'Licença Comercial para Atividades para Imprimir',
+        title: 'Licenca Comercial - Venda Imprimiveis Gratis',
         description: `A assinatura Acesso Completo inclui licença comercial completa. Venda suas atividades de código de soma no Teachers Pay Teachers, Etsy ou Amazon KDP. Não é necessária atribuição e não há taxas de licença adicionais além da sua assinatura.
 
 Crie pacotes de atividades educação infantil para renda passiva. Agrupe atividades de matemática com desenhos para colorir e outros recursos. Empacote atividades para imprimir por tema para vendas sazonais. Muitos professores ganham de R$2.500 a R$10.000 mensais vendendo materiais criados com LessonCraft Studio.
@@ -153,7 +193,7 @@ A qualidade profissional de 300 DPI garante que suas atividades pareçam perfeit
       {
         id: '6',
         icon: '🎨',
-        title: 'Mais de 3000 Imagens para Atividades',
+        title: '3000+ Imagens para Atividade para Educacao Infantil',
         description: `Acesse mais de 3000 imagens infantis organizadas por tema. Animais, comida, brinquedos, veículos, natureza, feriados e muito mais. Cada imagem funciona perfeitamente em atividades educação infantil e materiais de aprendizado do 1º ano. A biblioteca de imagens pesquisável ajuda você a encontrar exatamente o que precisa.
 
 Escolha conjuntos de imagens temáticas que combinem com seus planos de aula. Selecione "animais da fazenda" para unidades de ciências. Escolha "veículos" para temas de transporte. Encontre imagens de "frutas" para lições de nutrição. Cada tema inclui dezenas de imagens para que suas atividades nunca pareçam repetitivas.
@@ -164,7 +204,7 @@ Combine atividades de código de soma com outras atividades. Adicione elementos 
       {
         id: '7',
         icon: '🖨️',
-        title: 'Qualidade Profissional 300 DPI',
+        title: '300 DPI - Atividade Gratis Profissional',
         description: `Exporte atividades como arquivos JPEG ou PDF de alta resolução. A qualidade de 300 DPI garante impressão nítida em qualquer impressora. O texto permanece claro e as imagens parecem vibrantes. Qualidade profissional importa para atividades que você vende ou usa em sala de aula.
 
 Baixe versões de atividade e gabarito. O gabarito mostra todas as soluções para correção rápida. Habilite o modo escala de cinza para economizar tinta mantendo a qualidade. Ambos os formatos JPEG e PDF funcionam com qualquer configuração tecnológica de sala de aula.
@@ -177,7 +217,7 @@ Professores do 1º ano imprimem atividades em papel comum. Pais que fazem educa�
 
   // How-To Guide
   howTo: {
-    sectionTitle: 'Como Criar Atividades de Matemática e Atividades para Imprimir em 5 Passos Fáceis',
+    sectionTitle: 'Como Criar Atividade Gratis de Matematica em 5 Passos',
     sectionDescription: 'Criar atividades de código de soma leva menos de 3 minutos do início ao download. Siga estes cinco passos simples para gerar atividades educação infantil, atividades 1º ano e 2º ano, e material educativo para qualquer aula de matemática.',
     ctaText: 'Comece Agora',
     badgeText: 'Como Funciona',
@@ -192,7 +232,7 @@ Professores do 1º ano imprimem atividades em papel comum. Pais que fazem educa�
       {
         id: '1',
         number: 1,
-        title: 'Selecione Imagens para Atividades de Matemática',
+        title: 'Selecione Imagens - Atividade Gratis para Criancas',
         description: `Comece escolhendo imagens para sua atividade de matemática. Clique na seção acordeão de Biblioteca de Imagens. Selecione seu idioma preferido no menu suspenso. Navegue por mais de 3000 imagens infantis organizadas por tema.
 
 Escolha um tema que combine com seu plano de aula. Selecione "animais" para atividades de integração com ciências. Escolha "comida" para atividades de matemática de unidades de nutrição. Escolha "brinquedos" para reconhecimento de objetos familiares. Clique em imagens individuais até ter exatamente 5 imagens selecionadas. O gerador mostra sua contagem de seleção.
@@ -203,7 +243,7 @@ Envie suas próprias imagens se preferir conteúdo personalizado. Clique no bot�
       {
         id: '2',
         number: 2,
-        title: 'Configure Ajustes para Atividades 1º Ano e 2º Ano',
+        title: 'Configure - Atividade para Educacao Infantil',
         description: `Abra o acordeão de Conteúdo da Atividade para ajustar suas configurações. Escolha quantos exercícios você quer de 3 a 10 problemas por página. Professores de educação infantil geralmente começam com 5 exercícios. Professores do 1º ano e 2º ano aumentam para 8 ou 10 para prática estendida.
 
 Defina seu número mínimo entre 1 e 20. Defina seu número máximo no mesmo intervalo. Alunos iniciantes da educação infantil trabalham melhor com números 1 a 5. Alunos avançados do 1º ano lidam facilmente com números 1 a 20. O gerador atribui a cada uma das suas 5 imagens um número aleatório dentro deste intervalo.
@@ -214,7 +254,7 @@ Habilite os campos de nome e data se você rastreia o trabalho dos alunos. Mante
       {
         id: '3',
         number: 3,
-        title: 'Gere Sua Atividade de Matemática',
+        title: 'Gere Sua Atividade Gratis',
         description: `Clique no botão Criar na barra de ferramentas superior. O gerador constrói sua atividade em segundos. Observe enquanto cria uma legenda mostrando qual imagem equivale a qual número. O sistema gera problemas de soma usando suas 5 imagens selecionadas em todo o conjunto de exercícios.
 
 A legenda aparece na parte superior da sua atividade. Os alunos referenciam esta legenda para resolver cada problema. Se a legenda mostra que maçã equivale a 3 e carro equivale a 5, os alunos veem maçã mais carro e escrevem 8 como resposta. Este sistema de código visual torna a soma abstrata concreta para aprendizes jovens. Esta base prepara alunos para conceitos futuros de tabuada.
@@ -225,7 +265,7 @@ Cada problema usa duas das suas imagens em combinações aleatórias. O layout s
       {
         id: '4',
         number: 4,
-        title: 'Edite Seu Canvas de Atividades Educação Infantil',
+        title: 'Edite Atividades Gratis no Canvas',
         description: `Clique em qualquer elemento da sua atividade gerada para personalizá-lo. Arraste a legenda para uma posição diferente. Redimensione imagens de exercício puxando os cantos. Gire elementos para layouts criativos. Cada objeto no canvas é completamente editável.
 
 Adicione elementos de texto em qualquer lugar da sua atividade de matemática. Escreva instruções para os alunos. Adicione texto de título com fontes divertidas. Inclua notas para os pais em atividades de lição de casa. Mude cores de texto para combinar com temas da sala de aula. Ajuste tamanhos de fonte para melhor visibilidade ou para caber mais conteúdo.
@@ -236,7 +276,7 @@ Envie imagens decorativas para melhorar suas atividades educação infantil. Adi
       {
         id: '5',
         number: 5,
-        title: 'Baixe Atividades para Imprimir',
+        title: 'Baixe Imprimiveis Gratis',
         description: `Gere o gabarito clicando em Criar Gabarito no menu suspenso. O gabarito mostra os mesmos problemas com soluções completadas. Isso economiza seu tempo de correção e ajuda voluntários pais ou assistentes de ensino a verificar o trabalho dos alunos com precisão.
 
 Clique no botão Baixar e escolha seu formato preferido. Selecione JPEG para arquivos de imagem simples. Escolha PDF para formato de documento profissional. Habilite a caixa de escala de cinza para economizar tinta da impressora mantendo a qualidade. Ambos os formatos exportam em qualidade de impressão profissional de 300 DPI.
@@ -249,7 +289,7 @@ Baixe ambos os arquivos de atividade e gabarito. Salve-os no seu computador para
 
   // Use Cases
   useCases: {
-    sectionTitle: 'Quem Usa Estas Atividades Educação Infantil',
+    sectionTitle: 'Quem Usa Estas Atividades Gratis para Criancas',
     sectionDescription: 'As atividades de código de soma servem diferentes públicos educacionais. Desde professores de educação infantil até famílias que fazem educação domiciliar. Cada grupo encontra valor único nestas atividades para imprimir personalizáveis. Descubra como diferentes educadores usam estas atividades de matemática em seus ambientes de ensino.',
     badgeText: 'Para Quem',
     readMoreLabel: 'Leia mais',
@@ -259,7 +299,7 @@ Baixe ambos os arquivos de atividade e gabarito. Salve-os no seu computador para
         id: '1',
         icon: '👩‍🏫',
         title: 'Professores de Educação Infantil e Pré-Escola',
-        subtitle: 'Atividades de Alfabetização com Coordenação Motora e Atividades Vogais Alfabeto',
+        subtitle: 'Atividade Gratis com Coordenacao Motora',
         description: `Professores de educação infantil usam estas atividades para introduzir conceitos básicos de soma. Os intervalos de números 1 a 5 combinam perfeitamente com os níveis de desenvolvimento da pré-escola. As imagens visuais ajudam crianças pequenas a entender que números representam quantidades. O sistema de código de legenda desenvolve habilidades de referência visual que apoiam a leitura futura.
 
 Combine estas atividades de matemática com atividades de alfabetização. Após completar problemas de soma, os alunos praticam atividades vogais alfabeto na mesma folha. Esta integração economiza tempo de planejamento de aulas. As atividades educação infantil se tornam ferramentas de aprendizado de múltiplas habilidades. O desenvolvimento de coordenação motora reforça o reconhecimento de números aprendido durante problemas de soma.
@@ -271,7 +311,7 @@ Professores da pré-escola usam intervalos de números mais altos como 1 a 10. O
         id: '2',
         icon: '📚',
         title: 'Professores do 1º Ano e 2º Ano',
-        subtitle: 'Integre Atividades de Alfabetização, Desenhos para Colorir e Tabuada',
+        subtitle: 'Atividades Gratis de Alfabetizacao',
         description: `Professores do 1º ano e 2º ano integram estas atividades de matemática com desenvolvimento de alfabetização. Os nomes das imagens na legenda se tornam prática de vocabulário de leitura. Os alunos leem "maçã" ou "carro" enquanto resolvem problemas matemáticos. Esta instrução integrada maximiza o tempo de aprendizado com atividades de alfabetização naturais.
 
 Adicione componentes de desenhos para colorir após os alunos completarem problemas. Os alunos colorem as imagens da legenda usando cores específicas que você determina. "Colorir todas as maçãs de vermelho. Colorir todos os carros de azul." Esta instrução de acompanhamento desenvolve habilidades de escuta. Os desenhos para colorir também proporcionam pausas cerebrais necessárias durante trabalho matemático intenso.
@@ -283,7 +323,7 @@ Use estas atividades 1º ano e 2º ano para preparação de tabuada e consciênc
         id: '3',
         icon: '🏠',
         title: 'Famílias de Educação Domiciliar',
-        subtitle: 'Atividades para Imprimir com Letra Cursiva Pontilhado e Atividades Vogais Alfabeto',
+        subtitle: 'Atividade Gratis para Criancas em Casa',
         description: `Famílias de educação domiciliar adoram a flexibilidade destas atividades educação infantil. Crie exatamente o número de exercícios que seu filho consegue manejar. Ajuste intervalos de números baseado no domínio atual. As atividades para imprimir personalizadas combinam com o ritmo individual de aprendizado do seu filho sem desperdício de materiais pré-fabricados.
 
 Integre letra cursiva pontilhado através da prática de escrita de números. Após seu filho resolver cada problema, trace números 1 a 10 na parte inferior da página. Combine prática de letra cursiva e pontilhado adicionando nomes de imagens abaixo de cada imagem da legenda. Seu filho copia "maçã" abaixo da imagem da maçã. Esta escrita multimodal reforça habilidades de atividades de alfabetização.
@@ -295,7 +335,7 @@ Use estas atividades para imprimir para atividades vogais alfabeto em instruçã
         id: '4',
         icon: '💜',
         title: 'Professores de Educação Especial',
-        subtitle: 'Atividades de Matemática com Desenhos para Colorir e Coordenação Motora',
+        subtitle: 'Atividade para Educacao Infantil Adaptavel',
         description: `Educadores de educação especial apreciam o suporte visual que estas atividades de matemática proporcionam. Alunos com dificuldades de aprendizagem frequentemente se destacam com instrução matemática visual concreta. A legenda fornece referência constante para alunos com desafios de memória de trabalho. Reduzir a carga cognitiva ajuda alunos a focar no conceito de soma.
 
 Adicione elementos de desenhos para colorir para recompensa e pausas sensoriais. Após completar 3 problemas, os alunos colorem uma imagem. Este reforço positivo mantém engajamento durante prática matemática. Os desenhos para colorir também proporcionam entrada proprioceptiva calmante para alunos com necessidades de processamento sensorial. A coordenação motora fina se desenvolve naturalmente.
@@ -307,7 +347,7 @@ Ajuste a contagem de exercícios baseado em períodos de atenção individuais. 
         id: '5',
         icon: '🌍',
         title: 'Professores Bilíngues',
-        subtitle: 'Atividades de Alfabetização para Atividades Vogais Alfabeto e Tabuada em Dois Idiomas',
+        subtitle: 'Atividades Gratis em 11 Idiomas',
         description: `Programas de imersão dual e português para estrangeiros encontram estas atividades invaluáveis. Mude o idioma da interface para criar a mesma atividade em múltiplos idiomas. Os alunos veem nomes de imagens no seu idioma-alvo. Esta construção de vocabulário ocorre naturalmente durante prática de atividades de matemática com atividades de alfabetização integradas.
 
 Crie atividades paralelas para comparação linguística. Gere uma atividade de matemática em português na segunda-feira. Crie a mesma atividade com nomes de imagens em inglês na terça. Os alunos comparam como o vocabulário do alfabeto difere entre idiomas. Esta consciência metalinguística apoia desenvolvimento de atividades de alfabetização em ambos os idiomas. Atividades vogais alfabeto reforçam sons de letras.
@@ -319,7 +359,7 @@ Programas de língua de herança usam estas atividades para manter habilidades d
         id: '6',
         icon: '💰',
         title: 'Professores Empreendedores',
-        subtitle: 'Venda Atividades para Imprimir com Tabuada e Letra Cursiva Pontilhado',
+        subtitle: 'Venda Imprimiveis Gratis',
         description: `Professores construindo negócios de recursos educativos usam estas atividades para produtos comerciais. A licença comercial incluída permite vendas ilimitadas no Teachers Pay Teachers. Crie pacotes de atividades educação infantil agrupadas por tema ou nível de série. Compradores buscam atividades para imprimir de alta qualidade para download.
 
 Desenhe sequências progressivas que vão de soma até preparação para tabuada. Crie pacotes de "fundamentos matemáticos" que começam com estas atividades de código de soma. Depois direcione compradores para seus produtos de tabuada de nível superior. Este funil de produtos constrói lealdade de clientes enquanto ajuda alunos a progredir através de marcos matemáticos. Inclua prática de letra cursiva pontilhado para valor agregado.
@@ -332,7 +372,7 @@ Empacote estas atividades para imprimir com outros geradores que sua assinatura 
 
   // FAQ Section
   faq: {
-    sectionTitle: 'Perguntas Frequentes Sobre Atividades de Matemática e Atividades para Imprimir',
+    sectionTitle: 'Perguntas Frequentes - Atividade Gratis e Imprimiveis Gratis',
     sectionDescription: 'Professores e pais frequentemente têm perguntas sobre nosso gerador de atividades de código de soma. Estas respostas cobrem tudo que você precisa saber sobre criar atividades educação infantil, atividades 1º ano e 2º ano, e material educativo.',
     showMoreText: 'Mostrar mais perguntas',
     showLessText: 'Mostrar menos',
@@ -344,62 +384,62 @@ Empacote estas atividades para imprimir com outros geradores que sua assinatura 
     items: [
       {
         id: '1',
-        question: 'Este Gerador de Atividades de Matemática É Realmente Gratuito para Atividades para Imprimir?',
+        question: 'Este Gerador de Atividade Gratis de Matematica E Realmente Gratuito?',
         answer: 'O gerador de atividades de código de soma requer uma assinatura Acesso Completo custando R$1.200 anuais ou R$120 mensais. Sua assinatura dá criação ilimitada de atividades de matemática sem taxas por atividade. Gere quantas atividades para imprimir precisar sem custos adicionais. Esta é uma das melhores propostas de valor para professores criando material educativo. O Acesso Completo inclui todos os 33 geradores de atividades na plataforma. Você pode criar atividades de matemática, atividades de alfabetização, desenhos para colorir, e muito mais. Ambas as assinaturas incluem licenciamento comercial, suporte a 11 idiomas, e exportações profissionais de 300 DPI.',
       },
       {
         id: '2',
-        question: 'Posso Imprimir Atividades 1º Ano e 2º Ano em Casa com Impressora Comum?',
+        question: 'Posso Imprimir Atividade Gratis para Criancas em Casa?',
         answer: 'Sim. As atividades 1º ano e 2º ano exportam como arquivos PDF ou JPEG otimizados para impressão doméstica. A qualidade de 300 DPI garante texto nítido e imagens claras em qualquer impressora. Use papel comum para prática diária ou papel cartão para atividades que serão reutilizadas. Habilite o modo escala de cinza para economizar tinta colorida. As atividades mantêm clareza e legibilidade mesmo em preto e branco. Professores imprimem centenas de atividades 1º ano e 2º ano por mês sem custos excessivos de tinta. A opção de escala de cinza torna impressão em volume acessível para qualquer orçamento de sala de aula ou família.',
       },
       {
         id: '3',
-        question: 'Preciso de Habilidades de Design para Criar Atividades Educação Infantil com Coordenação Motora?',
+        question: 'Preciso de Habilidades de Design para Criar Atividade para Educacao Infantil?',
         answer: 'Não. O gerador cria atividades educação infantil automaticamente. Você seleciona imagens, escolhe configurações, e clica para gerar. Nenhuma experiência em design gráfico é necessária. O sistema posiciona todos os elementos profissionalmente em segundos. A edição completa de canvas está disponível se você quiser personalizar. Arraste elementos para novas posições. Redimensione imagens puxando cantos. Adicione texto com sua escolha de fontes. Mesmo sem habilidades de design, você pode criar atividades educação infantil com elementos de coordenação motora que parecem profissionalmente desenhadas.',
       },
       {
         id: '4',
-        question: 'Posso Usar Atividades de Alfabetização com Atividades Vogais Alfabeto na Minha Sala de Aula?',
+        question: 'Posso Usar Atividades Gratis de Alfabetizacao na Minha Sala de Aula?',
         answer: 'A assinatura Acesso Completo inclui uso ilimitado em sala de aula. Imprima quantas cópias precisar para seus alunos. Use atividades de alfabetização para instrução em grupo inteiro ou centros de aprendizado. Distribua atividades vogais alfabeto para prática independente ou lição de casa. Combine atividades de matemática com atividades de alfabetização para aprendizado integrado. Os nomes das imagens na legenda se tornam vocabulário de leitura. Alunos praticam atividades vogais alfabeto enquanto resolvem problemas de soma. Esta instrução multi-habilidade maximiza tempo de aprendizado.',
       },
       {
         id: '5',
-        question: 'Quais Idiomas Estão Disponíveis para Atividades de Matemática e Letra Cursiva Pontilhado?',
+        question: 'Quais Idiomas Estao Disponiveis para Atividade Gratis para Criancas?',
         answer: 'O gerador suporta 11 idiomas: português, inglês, espanhol, francês, alemão, italiano, holandês, sueco, dinamarquês, norueguês e finlandês. Cada idioma inclui nomes de imagens traduzidos profissionalmente. Mude idiomas instantaneamente do menu suspenso. Crie atividades de matemática em qualquer idioma para instrução multilíngue. Combine prática numérica com desenvolvimento de vocabulário em idioma-alvo. Adicione prática de letra cursiva pontilhado com nomes de imagens em qualquer idioma. O suporte multilíngue torna estas atividades perfeitas para programas de ESL e imersão.',
       },
       {
         id: '6',
-        question: 'Posso Vender Atividades para Imprimir com Desenhos para Colorir que Eu Criar?',
+        question: 'Posso Vender Imprimiveis Gratis com Desenhos para Colorir que Eu Criar?',
         answer: 'Sim. A assinatura Acesso Completo inclui licença comercial completa de print-on-demand sem custo extra. Venda suas atividades para imprimir no Teachers Pay Teachers, Etsy ou Amazon KDP. Nenhuma atribuição é necessária. Você mantém todos os lucros das suas vendas. Empacote atividades de soma com desenhos para colorir para produtos de maior valor. Compradores amam recursos que combinam matemática com atividades artísticas. Adicione desenhos para colorir relacionados ao tema das imagens da atividade. Crie pacotes completos que incluem atividades de matemática, desenhos para colorir e gabaritos.',
       },
       {
         id: '7',
-        question: 'Como Personalizo Atividades 1º Ano e 2º Ano para Diferentes Níveis de Habilidade?',
+        question: 'Como Personalizo Atividade para Educacao Infantil para Diferentes Niveis?',
         answer: 'Ajuste o intervalo de números para diferentes níveis de habilidade. Defina números 1-5 para iniciantes de educação infantil. Use 1-10 para atividades 1º ano padrão. Aumente para 1-20 para atividades 2º ano desafiadoras. Cada configuração cria dificuldade apropriada para o nível do aluno. Mude a contagem de exercícios baseado em períodos de atenção. Comece com 3-5 problemas para aprendizes jovens. Aumente para 8-10 problemas para atividades 1º ano e 2º ano de alunos mais velhos. A diferenciação leva segundos. Crie múltiplas versões da mesma atividade para grupos de habilidade mista em sua sala de aula.',
       },
       {
         id: '8',
-        question: 'Quais Faixas Etárias Funcionam Melhor com Atividades Educação Infantil e Tabuada?',
+        question: 'Quais Faixas Etarias Funcionam Melhor com Atividade Gratis para Criancas?',
         answer: 'Atividades educação infantil funcionam melhor para crianças de 4 a 6 anos. Use intervalos de números baixos como 1-5 para esta faixa etária. Imagens visuais ajudam aprendizes jovens a entender conceitos de quantidade. O sistema de código de legenda desenvolve habilidades de referência visual. Atividades de soma preparam alunos para sucesso futuro com tabuada. A fluência em adição constrói a base para conceitos de multiplicação. Alunos que dominam soma visual progridem mais facilmente para tabuada abstrata. Use estas atividades dos 4 aos 8 anos para construir habilidades matemáticas progressivamente até domínio completo da tabuada.',
       },
       {
         id: '9',
-        question: 'Posso Enviar Minhas Próprias Imagens para Atividades para Imprimir com Letra Cursiva Pontilhado?',
+        question: 'Posso Enviar Minhas Proprias Imagens para Atividades Gratis?',
         answer: 'Sim. Envie qualquer imagem JPEG, PNG ou GIF do seu computador. Selecione múltiplos arquivos de uma vez para upload rápido. Suas imagens aparecem instantaneamente na galeria prontas para seleção. Combine imagens enviadas com nossa biblioteca de mais de 3000 imagens. Use fotos de objetos familiares para atividades para imprimir personalizadas. Envie imagens de mascotes escolares, fotos de família, ou brinquedos favoritos. Adicione prática de letra cursiva pontilhado escrevendo nomes das imagens enviadas. A personalização aumenta engajamento e motivação do aluno.',
       },
       {
         id: '10',
-        question: 'Quanto Tempo Leva para Criar Atividades de Matemática com Coordenação Motora?',
+        question: 'Quanto Tempo Leva para Criar Atividade Gratis de Matematica?',
         answer: 'Menos de 3 minutos do início ao download. Selecione suas imagens em 30 segundos. Ajuste configurações em 15 segundos. Clique para gerar em 1 segundo. Edite e personalize conforme desejado. Baixe sua atividade de matemática pronta para impressão. Adicionar elementos de coordenação motora leva apenas segundos extras. Envie uma borda de traçado da biblioteca. Adicione linhas pontilhadas para prática de escrita. A coordenação motora se integra perfeitamente ao fluxo de criação. Professores criam pacotes completos de atividades multi-habilidade em menos de 5 minutos.',
       },
       {
         id: '11',
-        question: 'As Atividades de Alfabetização Incluem Gabarito para Atividades Vogais Alfabeto?',
+        question: 'As Atividades Gratis Incluem Gabarito?',
         answer: 'Sim. Cada atividade de matemática gera automaticamente um gabarito correspondente. Clique em "Criar Gabarito" do menu suspenso. O gabarito mostra todos os problemas com soluções completadas. Baixe ambos os arquivos de atividade e gabarito separadamente. Use o gabarito para correção rápida de atividades de alfabetização combinadas. Voluntários pais ou assistentes verificam trabalho com precisão. Alunos podem auto-corrigir para aprendizado independente. O gabarito economiza horas de tempo de correção semanal.',
       },
       {
         id: '12',
-        question: 'Posso Criar Atividades para Imprimir Sobre Temas Específicos com Desenhos para Colorir e Tabuada?',
+        question: 'Posso Criar Imprimiveis Gratis Sobre Temas Especificos?',
         answer: 'Sim. A biblioteca de imagens inclui dezenas de temas. Animais, comida, veículos, natureza, esportes, feriados e muito mais. Selecione qualquer tema para criar atividades para imprimir tematicamente coesas. Cada tema inclui imagens suficientes para variedade. Adicione desenhos para colorir do mesmo tema para pacotes completos. Crie unidades temáticas que combinam matemática, arte e alfabetização. Inclua preparação para tabuada através de prática progressiva de adição. Suas atividades para imprimir mantêm alunos engajados através de conteúdo visualmente atraente.',
       },
     ],
@@ -461,7 +501,7 @@ Empacote estas atividades para imprimir com outros geradores que sua assinatura 
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Combine com Outros Geradores de Atividades',
+    sectionTitle: 'Outros Geradores de Atividades Gratis',
     sectionDescription: 'Crie pacotes de aprendizagem completos combinando atividades de código de soma com estes geradores complementares.',
     ctaTitle: 'Pronto para Criar Atividades Incríveis?',
     ctaDescription: 'Junte-se a milhares de educadores que criam atividades profissionais. Geração ilimitada, licença comercial incluída.',

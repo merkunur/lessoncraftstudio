@@ -20,6 +20,56 @@ export const bingoPtContent: ProductPageContent = {
     title: 'Gerador de Bingo Ilustrado - Atividades para Imprimir de Alfabetização e Atividades Educação Infantil',
     description: 'Crie cartelas de bingo personalizadas com imagens educativas para suas aulas. Com sua assinatura Pacote Essencial, você gera atividades para imprimir ilimitadas sem custos extras por material. Produza atividades de alfabetização profissionais em menos de 3 minutos.',
     keywords: 'bingo ilustrado, atividades para imprimir, atividades educação infantil, atividades de alfabetização, atividades de matemática, desenhos para colorir, coordenação motora, atividades vogais, tabuada, letra cursiva, pontilhado, atividades 1º ano, atividades 2º ano',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/portuguese/bingo/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Atividades grátis de bingo ilustrado - atividade para crianças com cartelas educativas',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/portuguese/bingo/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Atividade grátis para crianças de bingo com imagens - imprimíveis grátis para alfabetização',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/portuguese/bingo/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Atividades grátis de bingo educativo - atividade para crianças com reconhecimento visual',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/portuguese/bingo/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Atividade grátis para crianças de bingo ilustrado - imprimíveis grátis com vocabulário',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/portuguese/bingo/sample-1-answer.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Imprimíveis grátis de fichas de sorteio - atividade para crianças de bingo para pré-escola',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/portuguese/bingo/sample-2-answer.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Atividades grátis de bingo - atividade para educação infantil com fichas recortáveis',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/portuguese/bingo/sample-3-answer.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Atividade grátis para crianças de bingo - atividade para educação infantil imprimíveis grátis',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/portuguese/bingo/sample-4-answer.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Imprimíveis grátis de bingo - atividade para educação infantil com gabarito completo',
+      },
+    ],
     canonicalUrl: 'https://www.lessoncraftstudio.com/pt/apps/bingo-ilustrado-fichas',
   },
 
@@ -32,7 +82,7 @@ export const bingoPtContent: ProductPageContent = {
 O gerador de bingo ilustrado transforma a aprendizagem em diversão. Professores usam esse recurso para criar atividades educação infantil envolventes. O bingo funciona como ferramenta pedagógica para ensinar vocabulário, letras, números e muito mais. Seus alunos aprendem enquanto brincam.
 
 O bingo educativo serve múltiplos propósitos pedagógicos. Use-o para reforçar atividades de alfabetização com imagens de letras e vogais. Aplique em atividades de matemática para praticar reconhecimento de números. Combine com desenhos para colorir criando materiais multifuncionais. A versatilidade torna esse gerador essencial para qualquer educador.`,
-    previewImageSrc: '/samples/english/bingo/image and image.jpeg',
+    previewImageSrc: '/samples/portuguese/bingo/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Experimente Grátis',
       viewSamples: 'Ver Exemplos',
@@ -67,17 +117,31 @@ O bingo educativo serve múltiplos propósitos pedagógicos. Use-o para reforça
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/bingo/image and image.jpeg',
-        answerKeySrc: '/samples/english/bingo/image and image callout.jpeg',
-        altText: 'Cartela de bingo ilustrado com imagens para educação infantil',
-        pdfDownloadUrl: '/samples/english/bingo/image and image.pdf',
+        worksheetSrc: '/samples/portuguese/bingo/sample-1.jpeg',
+        answerKeySrc: '/samples/portuguese/bingo/sample-1-answer.jpeg',
+        altText: 'Atividade grátis para crianças de bingo ilustrado - atividade para educação infantil e alfabetização',
+        pdfDownloadUrl: '/samples/portuguese/bingo/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/bingo/image and word.jpeg',
-        answerKeySrc: '/samples/english/bingo/image and word callout.jpeg',
-        altText: 'Cartela de bingo com imagem e palavra para atividades de alfabetização',
-        pdfDownloadUrl: '/samples/english/bingo/image and word.pdf',
+        worksheetSrc: '/samples/portuguese/bingo/sample-2.jpeg',
+        answerKeySrc: '/samples/portuguese/bingo/sample-2-answer.jpeg',
+        altText: 'Atividades grátis de bingo com imagens - atividade para crianças de reconhecimento visual',
+        pdfDownloadUrl: '/samples/portuguese/bingo/sample-2.pdf',
+      },
+      {
+        id: '3',
+        worksheetSrc: '/samples/portuguese/bingo/sample-3.jpeg',
+        answerKeySrc: '/samples/portuguese/bingo/sample-3-answer.jpeg',
+        altText: 'Atividade grátis para crianças de bingo educativo - atividade para educação infantil',
+        pdfDownloadUrl: '/samples/portuguese/bingo/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/portuguese/bingo/sample-4.jpeg',
+        answerKeySrc: '/samples/portuguese/bingo/sample-4-answer.jpeg',
+        altText: 'Atividades grátis de bingo ilustrado para educação infantil - atividade para crianças com vocabulário',
+        pdfDownloadUrl: '/samples/portuguese/bingo/sample-4.pdf',
       },
     ],
   },

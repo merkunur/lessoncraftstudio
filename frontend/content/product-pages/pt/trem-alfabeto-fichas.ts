@@ -17,22 +17,48 @@ export const alphabetTrainPtContent: ProductPageContent = {
   seo: {
     slug: 'trem-alfabeto-fichas',
     appId: 'alphabet-train',
-    title: 'Gerador Trenzinho do Alfabeto - Atividades de Alfabetização para Imprimir com Educação Infantil',
+    title: 'Atividades do Trenzinho do Alfabeto Grátis - Gerador de Atividades de Alfabetização para Imprimir',
     description: 'Crie atividades de alfabetização profissionais com nosso gerador de trenzinho do alfabeto. Sua assinatura Pacote Essencial oferece criação ilimitada de atividades para imprimir sem taxas extras. Produza atividades vogais e alfabeto personalizadas em menos de 3 minutos.',
     keywords: 'atividades de alfabetização, atividades para imprimir, atividades educação infantil, atividades vogais, alfabeto, coordenação motora, desenhos para colorir, letra cursiva, pontilhado, 1º ano, 2º ano, trenzinho do alfabeto',
     canonicalUrl: 'https://www.lessoncraftstudio.com/pt/apps/trem-alfabeto-fichas',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/portuguese/alphabet-train/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Atividade do trenzinho do alfabeto grátis para imprimir - exercícios de alfabetização para educação infantil',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/portuguese/alphabet-train/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Atividade grátis do trenzinho do alfabeto para crianças - imprimíveis grátis para pré-escola',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/portuguese/alphabet-train/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Atividade para educação infantil grátis - trenzinho do alfabeto para imprimir',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/portuguese/alphabet-train/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Imprimíveis grátis do trenzinho do alfabeto - atividades de alfabetização para crianças',
+      },
+    ],
   },
 
   // Hero Section - FULL text from alphabet-train.md
   hero: {
-    title: 'Gerador Trenzinho do Alfabeto',
-    subtitle: 'Atividades de Alfabetização para Imprimir com Educação Infantil',
+    title: 'Atividades do Trenzinho do Alfabeto Grátis para Imprimir',
+    subtitle: 'Gerador de Atividades Grátis de Alfabetização para Crianças - Educação Infantil e 1º Ano',
     description: `Crie atividades de alfabetização profissionais com nosso gerador de trenzinho do alfabeto. Com sua assinatura Pacote Essencial, você gera atividades para imprimir ilimitadas sem taxas extras. Produza atividades vogais e alfabeto personalizadas em menos de 3 minutos. Baixe PDFs de alta qualidade prontos para a sala de aula.
 
 O trenzinho do alfabeto transforma o aprendizado das letras em diversão. Cada vagão carrega uma letra diferente. As crianças adoram esse formato lúdico. Ideal para atividades educação infantil e atividades 1º ano.
 
 O gerador de trenzinho do alfabeto cria fichas educativas de forma rápida. Selecione 11 letras para formar seu trem. Associe cada letra a uma imagem correspondente. O sistema oferece mais de 3000 imagens para escolher.`,
-    previewImageSrc: '/samples/english/alphabet train/alphabet train portrait.jpeg',
+    previewImageSrc: '/samples/portuguese/alphabet-train/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Experimente Grátis',
       viewSamples: 'Ver Exemplos',
@@ -51,9 +77,9 @@ O gerador de trenzinho do alfabeto cria fichas educativas de forma rápida. Sele
     },
   },
 
-  // Sample Gallery - REAL file paths from samples/english/alphabet train/
+  // Sample Gallery - Portuguese samples from samples/portuguese/alphabet-train/
   samples: {
-    sectionTitle: 'Exemplos de Atividades do Trenzinho do Alfabeto',
+    sectionTitle: 'Exemplos de Atividades do Trenzinho do Alfabeto Grátis para Imprimir',
     sectionDescription: 'Baixe exemplos gratuitos para ver nossa qualidade profissional',
     downloadLabel: 'Baixar Exemplo Grátis',
     worksheetLabel: 'Atividade',
@@ -67,24 +93,38 @@ O gerador de trenzinho do alfabeto cria fichas educativas de forma rápida. Sele
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/alphabet train/alphabet train portrait.jpeg',
-        answerKeySrc: '/samples/english/alphabet train/alphabet train portrait answer_key.jpeg',
-        altText: 'Atividade trenzinho do alfabeto formato retrato para educação infantil',
-        pdfDownloadUrl: '/samples/english/alphabet train/alphabet train portrait.pdf',
+        worksheetSrc: '/samples/portuguese/alphabet-train/sample-1.jpeg',
+        answerKeySrc: '/samples/portuguese/alphabet-train/sample-1-answer.jpeg',
+        altText: 'Atividade do trenzinho do alfabeto grátis - formato retrato para educação infantil',
+        pdfDownloadUrl: '/samples/portuguese/alphabet-train/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/alphabet train/alphabet train landscape.jpeg',
-        answerKeySrc: '/samples/english/alphabet train/alphabet train landscape answer_key.jpeg',
-        altText: 'Atividade trenzinho do alfabeto formato paisagem para 1º ano',
-        pdfDownloadUrl: '/samples/english/alphabet train/alphabet train landscape.pdf',
+        worksheetSrc: '/samples/portuguese/alphabet-train/sample-2.jpeg',
+        answerKeySrc: '/samples/portuguese/alphabet-train/sample-2-answer.jpeg',
+        altText: 'Atividade grátis do trenzinho do alfabeto para crianças - imprimíveis para pré-escola',
+        pdfDownloadUrl: '/samples/portuguese/alphabet-train/sample-2.pdf',
+      },
+      {
+        id: '3',
+        worksheetSrc: '/samples/portuguese/alphabet-train/sample-3.jpeg',
+        answerKeySrc: '/samples/portuguese/alphabet-train/sample-3-answer.jpeg',
+        altText: 'Atividade para educação infantil grátis - trenzinho do alfabeto para 1º ano',
+        pdfDownloadUrl: '/samples/portuguese/alphabet-train/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/portuguese/alphabet-train/sample-4.jpeg',
+        answerKeySrc: '/samples/portuguese/alphabet-train/sample-4-answer.jpeg',
+        altText: 'Imprimíveis grátis do trenzinho do alfabeto - atividades de alfabetização para crianças',
+        pdfDownloadUrl: '/samples/portuguese/alphabet-train/sample-4.pdf',
       },
     ],
   },
 
   // Features Grid - FULL text from alphabet-train.md feature sections
   features: {
-    sectionTitle: 'Recursos do Gerador de Trenzinho do Alfabeto',
+    sectionTitle: 'Recursos do Gerador de Atividades Grátis do Trenzinho do Alfabeto para Crianças',
     sectionDescription: 'O gerador de trenzinho do alfabeto oferece recursos completos para educadores. Crie atividades educação infantil personalizadas em minutos. Cada ferramenta foi pensada para facilitar seu trabalho. Descubra como transformar suas aulas com atividades vogais e alfabeto profissionais.',
     highlightBadgeText: 'Recurso Principal',
     readMoreLabel: 'Leia mais',
@@ -189,7 +229,7 @@ Recursos de desfazer e refazer para segurança. Zoom para trabalhar em detalhes 
 
   // How-To Guide - FULL text from alphabet-train.md step sections
   howTo: {
-    sectionTitle: 'Como Criar Atividades de Alfabetização em 5 Passos',
+    sectionTitle: 'Como Criar Atividades Grátis de Alfabetização em 5 Passos - Imprimíveis para Educação Infantil',
     sectionDescription: 'Aprenda a criar atividades de alfabetização profissionais em menos de 3 minutos. Este guia passo a passo mostra cada etapa do processo. Perfeito para professores de atividades educação infantil iniciantes. Ideal também para veteranos que buscam agilidade.',
     ctaText: 'Comece Agora',
     badgeText: 'Como Funciona',
@@ -261,7 +301,7 @@ Ative a opção de escala de cinza quando necessário. Economiza tinta colorida 
 
   // Use Cases - FULL text from alphabet-train.md use case sections
   useCases: {
-    sectionTitle: 'Quem Usa o Gerador de Trenzinho do Alfabeto',
+    sectionTitle: 'Quem Usa Nosso Gerador de Atividades Grátis do Trenzinho do Alfabeto para Imprimir',
     sectionDescription: 'O gerador de trenzinho do alfabeto atende diversos perfis de educadores. Professores de atividades educação infantil encontram recursos ideais. Pais que educam em casa ganham materiais profissionais. Descubra como cada grupo usa atividades para imprimir do trenzinho.',
     badgeText: 'Para Quem',
     readMoreLabel: 'Leia mais',
@@ -344,7 +384,7 @@ Monte combos com atividades 1º ano e 2º ano incluídas. Ofereça materiais par
 
   // FAQ Section - FULL text from alphabet-train.md FAQ sections
   faq: {
-    sectionTitle: 'Perguntas Frequentes sobre o Trenzinho do Alfabeto',
+    sectionTitle: 'Perguntas Frequentes sobre Atividades Grátis do Trenzinho do Alfabeto',
     sectionDescription: 'Respondemos as dúvidas mais comuns sobre o gerador de trenzinho do alfabeto. Descubra tudo sobre atividades para imprimir, preços e recursos. Tire suas dúvidas antes de começar a criar atividades educação infantil profissionais.',
     showMoreText: 'Mostrar mais perguntas',
     showLessText: 'Mostrar menos',
@@ -449,7 +489,7 @@ Monte combos com atividades 1º ano e 2º ano incluídas. Ofereça materiais par
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Combine com Outros Geradores de Atividades',
+    sectionTitle: 'Combine com Outros Geradores de Atividades Grátis para Imprimir',
     sectionDescription: 'Crie pacotes de aprendizagem completos combinando o trenzinho do alfabeto com estes geradores complementares.',
     ctaTitle: 'Pronto para Criar Atividades Incríveis?',
     ctaDescription: 'Junte-se a milhares de educadores que criam atividades profissionais. Geração ilimitada, licença comercial incluída.',

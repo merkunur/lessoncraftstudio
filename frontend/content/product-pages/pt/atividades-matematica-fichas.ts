@@ -15,22 +15,48 @@ export const mathWorksheetsPtContent: ProductPageContent = {
   seo: {
     slug: 'atividades-matematica-fichas',
     appId: 'math-worksheet',
-    title: 'Gerador de Atividades de Matemática - Atividades para Imprimir Grátis para Educação Infantil e 1º Ano',
-    description: 'Crie atividades de matemática profissionais em minutos. Sua assinatura Pacote Essencial oferece criação ilimitada de fichas matemáticas para imprimir. Gere atividades de adição, subtração e tabuada para educação infantil e ensino fundamental.',
+    title: 'Atividade Grátis de Matemática | Gerador de Fichas para Educação Infantil',
+    description: 'Crie atividades grátis de matemática em minutos. Gerador de fichas para imprimir com tabuada e operações. Perfeito para educação infantil e 1º ano. 300 DPI.',
     keywords: 'atividades de matemática, atividades para imprimir, atividades educação infantil, atividades 1º ano, atividades 2º ano, coordenação motora, tabuada, desenhos para colorir, atividades de alfabetização, atividades vogais, letra cursiva, pontilhado',
     canonicalUrl: 'https://www.lessoncraftstudio.com/pt/apps/atividades-matematica-fichas',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/portuguese/math/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Atividade grátis de matemática para imprimir - exercícios para educação infantil'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/portuguese/math/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Atividades grátis de matemática com tabuada - atividade para crianças do 1º ano'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/portuguese/math/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Imprimíveis grátis de matemática - atividade para educação infantil com desenhos'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/portuguese/math/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Atividade grátis para crianças - fichas de matemática para imprimir'
+      },
+    ],
   },
 
   // Hero Section - FULL text from math-worksheet.md paragraphs 1-3
   hero: {
-    title: 'Gerador de Atividades de Matemática',
-    subtitle: 'Atividades para Imprimir Grátis para Educação Infantil e 1º Ano',
-    description: `Crie atividades de matemática profissionais em minutos. Este gerador de fichas matemáticas transforma a preparação de aulas. A sua assinatura Pacote Essencial dá acesso ilimitado a todas as funcionalidades. Gere atividades para imprimir personalizadas sem taxas adicionais por ficha.
+    title: 'Atividade Grátis de Matemática para Imprimir',
+    subtitle: 'Atividades Grátis para Crianças - Gerador de Imprimíveis Grátis para Educação Infantil',
+    description: `Crie atividades grátis de matemática profissionais em minutos. Este gerador de fichas matemáticas transforma a preparação de aulas. A sua assinatura Pacote Essencial dá acesso ilimitado a todas as funcionalidades. Gere imprimíveis grátis personalizados sem taxas adicionais por ficha.
 
-O nosso criador de atividades de matemática é perfeito para professores ocupados. Funciona para educação infantil até o 3º ano. Escolha entre mais de 3000 imagens temáticas para criar fichas únicas. As atividades educação infantil ganham vida com visuais coloridos e atraentes.
+O nosso criador de atividades de matemática é perfeito para professores ocupados. Funciona para educação infantil até o 3º ano. Escolha entre mais de 3000 imagens temáticas para criar fichas únicas. As atividades para educação infantil ganham vida com visuais coloridos e atraentes.
 
 Cada atividade de matemática que você cria é 100% editável. Arraste, redimensione e gire qualquer elemento na tela. Adicione texto personalizado com fontes divertidas. Escolha entre fundos e bordas temáticos para cada estação do ano. Exporte em PDF ou JPEG de alta qualidade para impressão profissional.`,
-    previewImageSrc: '/samples/english/math worksheet/math worksheet portrait.jpeg',
+    previewImageSrc: '/samples/portuguese/math/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Experimente Grátis',
       viewSamples: 'Ver Exemplos',
@@ -49,9 +75,9 @@ Cada atividade de matemática que você cria é 100% editável. Arraste, redimen
     },
   },
 
-  // Sample Gallery - REAL file paths from samples/english/math worksheet/
+  // Sample Gallery - REAL file paths from samples/portuguese/math/
   samples: {
-    sectionTitle: 'Exemplos de Atividades de Matemática',
+    sectionTitle: 'Exemplos de Atividades Grátis de Matemática para Crianças',
     sectionDescription: 'Baixe exemplos gratuitos para ver nossa qualidade profissional',
     downloadLabel: 'Baixar Exemplo Grátis',
     worksheetLabel: 'Atividade',
@@ -65,24 +91,38 @@ Cada atividade de matemática que você cria é 100% editável. Arraste, redimen
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/math worksheet/math worksheet portrait.jpeg',
-        answerKeySrc: '/samples/english/math worksheet/math worksheet portrait answer_key.jpeg',
-        altText: 'Atividade de matemática formato retrato com equações visuais para educação infantil',
-        pdfDownloadUrl: '/samples/english/math worksheet/math worksheet portrait.pdf',
+        worksheetSrc: '/samples/portuguese/math/sample-1.jpeg',
+        answerKeySrc: '/samples/portuguese/math/sample-1-answer.jpeg',
+        altText: 'Atividade grátis de matemática formato retrato - fichas para imprimir para educação infantil com desenhos para colorir',
+        pdfDownloadUrl: '/samples/portuguese/math/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/math worksheet/math worksheet landscape.jpeg',
-        answerKeySrc: '/samples/english/math worksheet/math worksheet landscape answer_key.jpeg',
-        altText: 'Atividade de matemática formato paisagem para ensino fundamental',
-        pdfDownloadUrl: '/samples/english/math worksheet/math worksheet landscape.pdf',
+        worksheetSrc: '/samples/portuguese/math/sample-2.jpeg',
+        answerKeySrc: '/samples/portuguese/math/sample-2-answer.jpeg',
+        altText: 'Atividade grátis para crianças - exercícios de matemática com tabuada para 1º ano',
+        pdfDownloadUrl: '/samples/portuguese/math/sample-2.pdf',
+      },
+      {
+        id: '3',
+        worksheetSrc: '/samples/portuguese/math/sample-3.jpeg',
+        answerKeySrc: '/samples/portuguese/math/sample-3-answer.jpeg',
+        altText: 'Atividades grátis de matemática formato paisagem - imprimíveis grátis para educação infantil',
+        pdfDownloadUrl: '/samples/portuguese/math/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/portuguese/math/sample-4.jpeg',
+        answerKeySrc: '/samples/portuguese/math/sample-4-answer.jpeg',
+        altText: 'Imprimíveis grátis de matemática - atividade para educação infantil com operações',
+        pdfDownloadUrl: '/samples/portuguese/math/sample-4.pdf',
       },
     ],
   },
 
   // Features Grid - FULL text from math-worksheet.md feature sections
   features: {
-    sectionTitle: 'Funcionalidades do Gerador de Atividades de Matemática',
+    sectionTitle: 'Funcionalidades do Gerador de Atividades Grátis de Matemática',
     sectionDescription: 'O gerador de atividades de matemática oferece ferramentas completas para educadores. Cada funcionalidade foi pensada para economizar tempo e melhorar resultados. Professores de educação infantil e ensino fundamental encontram tudo o que precisam. Veja como cada recurso transforma a criação de atividades para imprimir.',
     highlightBadgeText: 'Recurso Principal',
     readMoreLabel: 'Leia mais',
@@ -97,7 +137,7 @@ Cada atividade de matemática que você cria é 100% editável. Arraste, redimen
       {
         id: '1',
         icon: '⚡',
-        title: 'Criação Fácil de Atividades de Matemática em 3 Cliques',
+        title: 'Crie Atividade Grátis de Matemática em 3 Cliques',
         description: `Criar atividades de matemática nunca foi tão simples. Selecione um tema de imagens da biblioteca. Escolha o nível de dificuldade desejado. Clique em gerar e sua atividade educação infantil está pronta. O processo inteiro leva menos de 3 minutos.
 
 O gerador oferece quatro níveis de dificuldade. "Muito Fácil" usa apenas 2 símbolos para atividades educação infantil. "Fácil" também usa 2 símbolos com números maiores. "Médio" aumenta para 3 símbolos. "Difícil" desafia com 4 símbolos diferentes.
@@ -108,7 +148,7 @@ Você controla quantos exercícios aparecem por página. Escolha de 1 a 6 proble
       {
         id: '2',
         icon: '✏️',
-        title: 'Atividades para Imprimir Totalmente Editáveis',
+        title: 'Atividades Grátis para Imprimir Totalmente Editáveis',
         description: `Cada elemento na tela é completamente editável. Clique em qualquer imagem para movê-la. Arraste para reposicionar onde preferir. Use as alças para redimensionar proporcionalmente. Gire elementos para criar layouts únicos.
 
 A personalização vai além das imagens. Adicione texto com fontes divertidas como Baloo 2 e Fredoka. Escolha cores vibrantes para títulos e instruções. Ajuste o contorno do texto para melhor legibilidade. Combine atividades de alfabetização com atividades de matemática na mesma página.
@@ -119,7 +159,7 @@ O sistema de camadas dá controle total. Traga elementos para frente ou envie pa
       {
         id: '3',
         icon: '🎨',
-        title: 'Atividades de Matemática com Desenhos para Colorir',
+        title: 'Atividade Grátis para Crianças com Desenhos para Colorir',
         description: `Os desenhos para colorir tornam as atividades de matemática irresistíveis. Cada imagem da biblioteca funciona como desenho para colorir. Exporte em escala de cinza para economia de tinta. Alunos do 1º ano e 2º ano adoram colorir enquanto aprendem.
 
 A biblioteca inclui mais de 3000 imagens temáticas. Animais, frutas, veículos, natureza e muito mais. Cada tema oferece dezenas de desenhos para colorir coordenados. Crie atividades de matemática visualmente consistentes e atraentes.
@@ -130,7 +170,7 @@ O modo escala de cinza transforma qualquer ficha em atividade para colorir. Marq
       {
         id: '4',
         icon: '🌍',
-        title: 'Atividades de Matemática em 11 Idiomas',
+        title: 'Imprimíveis Grátis de Matemática em 11 Idiomas',
         description: `O gerador funciona em 11 idiomas diferentes. Português brasileiro é totalmente suportado. A interface traduz automaticamente ao selecionar o idioma. Todas as imagens têm nomes traduzidos para busca fácil.
 
 Os idiomas disponíveis incluem português, inglês, alemão e francês. Também espanhol, italiano, holandês e sueco. Dinamarquês, norueguês e finlandês completam a lista. Perfeito para escolas bilíngues e internacionais.
@@ -141,7 +181,7 @@ Combine atividades de matemática com atividades vogais em outro idioma. Crie ma
       {
         id: '5',
         icon: '📤',
-        title: 'Upload de Imagens Próprias para Atividades Personalizadas',
+        title: 'Upload de Imagens para Atividade para Educação Infantil',
         description: `Personalize suas atividades para imprimir com fotos próprias. Faça upload de múltiplos arquivos de uma vez. Formatos JPEG, PNG e GIF são aceitos. Combine imagens próprias com a biblioteca para atividades únicas.
 
 Use fotos dos próprios alunos para atividades de coordenação motora. Imagens familiares aumentam o engajamento. Crie atividades temáticas para eventos da escola. Celebrações, projetos e datas comemorativas ganham fichas personalizadas.
@@ -152,7 +192,7 @@ As imagens carregadas ficam salvas na sessão. Use-as em várias atividades dife
       {
         id: '6',
         icon: '💰',
-        title: 'Licença Comercial para Venda de Atividades de Matemática',
+        title: 'Licença Comercial para Venda de Atividades Grátis',
         description: `A assinatura Pacote Essencial inclui licença comercial completa. Venda suas atividades para imprimir no Teachers Pay Teachers. Crie produtos para Etsy e Amazon KDP. Nenhuma atribuição é necessária.
 
 A qualidade de exportação é profissional. Resolução de 300 DPI para impressão perfeita. Formatos PDF e JPEG disponíveis. Suas atividades de matemática competem com produtos comerciais premium.
@@ -163,7 +203,7 @@ A licença cobre uso print-on-demand. Imprima sob demanda sem limites. Crie livr
       {
         id: '7',
         icon: '📚',
-        title: 'Biblioteca com 3000+ Imagens para Atividades Educação Infantil',
+        title: 'Biblioteca com 3000+ Imagens para Atividade para Crianças',
         description: `A biblioteca oferece mais de 3000 imagens infantis. Cada imagem é apropriada para educação infantil até o fundamental. Temas organizados facilitam a busca. Encontre exatamente o que precisa rapidamente.
 
 Temas incluem animais domésticos e selvagens. Frutas, vegetais e alimentos variados. Meios de transporte e veículos. Natureza, estações e clima. Objetos do cotidiano e escola. Material esportivo e brinquedos.
@@ -174,7 +214,7 @@ Use a busca para encontrar imagens específicas. Digite palavras-chave em portug
       {
         id: '8',
         icon: '🖨️',
-        title: 'Qualidade Profissional 300 DPI',
+        title: 'Atividade Grátis para Crianças em Qualidade 300 DPI',
         description: `A exportação em 300 DPI garante qualidade profissional. Cada linha e detalhe fica nítido na impressão. Perfeito para atividades de letra cursiva que exigem precisão. O pontilhado sai perfeito em qualquer impressora.
 
 Escolha entre formatos PDF e JPEG. PDF é ideal para impressão múltipla. JPEG funciona bem para uso digital. Ambos mantêm a qualidade de 300 DPI.
@@ -187,7 +227,7 @@ O modo escala de cinza economiza tinta colorida. Atividades de matemática ficam
 
   // How-To Guide - FULL text from math-worksheet.md step sections
   howTo: {
-    sectionTitle: 'Como Criar Atividades de Matemática em 5 Passos Simples',
+    sectionTitle: 'Como Criar Atividade Grátis de Matemática em 5 Passos',
     sectionDescription: 'Criar atividades de matemática profissionais é mais fácil do que você imagina. Este guia passo a passo mostra exatamente como fazer. Em menos de 3 minutos, você terá fichas prontas para imprimir. Professores de educação infantil e ensino fundamental seguem o mesmo processo simples.',
     ctaText: 'Comece Agora',
     badgeText: 'Como Funciona',
@@ -202,7 +242,7 @@ O modo escala de cinza economiza tinta colorida. Atividades de matemática ficam
       {
         id: '1',
         number: 1,
-        title: 'Escolha o Conteúdo para Atividades Educação Infantil',
+        title: 'Escolha o Conteúdo para Atividade para Educação Infantil',
         description: `O primeiro passo é selecionar as imagens para sua atividade. Você tem duas opções de seleção. Escolha um tema completo para usar todas as imagens relacionadas. Ou selecione imagens individuais para personalização total.
 
 Para atividades educação infantil, temas coloridos funcionam melhor. Animais são favoritos universais entre crianças pequenas. Frutas e alimentos também engajam alunos de pré-escola. Os desenhos para colorir desses temas são especialmente atraentes.
@@ -215,7 +255,7 @@ Se preferir personalização, selecione imagens individualmente. Clique em cada 
       {
         id: '2',
         number: 2,
-        title: 'Configure as Atividades de Matemática - Tabuada, Adição e Dificuldade',
+        title: 'Configure Atividade Grátis para Crianças - Tabuada e Adição',
         description: `O segundo passo define os parâmetros matemáticos da atividade. Escolha o nível de dificuldade adequado para sua turma. Configure operações e limites numéricos. Personalize a quantidade de exercícios por página.
 
 Para atividades de matemática básicas, selecione "Muito Fácil" ou "Fácil". Estes níveis usam apenas 2 símbolos nas equações. Perfeito para introduzir conceitos de adição. Alunos de educação infantil começam aqui.
@@ -228,7 +268,7 @@ Configure o número de exercícios de 1 a 6 por página. Menos exercícios permi
       {
         id: '3',
         number: 3,
-        title: 'Gere Atividades para Imprimir com Desenhos para Colorir',
+        title: 'Gere Imprimíveis Grátis com Desenhos para Colorir',
         description: `O terceiro passo é onde a mágica acontece. Clique no botão "Criar" para gerar sua atividade. A ficha aparece instantaneamente na tela. Visualize os desenhos para colorir e exercícios gerados.
 
 O gerador cria equações únicas a cada clique. Nenhuma atividade para imprimir é igual à anterior. Os desenhos para colorir são distribuídos automaticamente. O layout profissional organiza tudo perfeitamente.
@@ -241,7 +281,7 @@ A aba "Gabarito" mostra as respostas corretas. Gere o gabarito após aprovar a a
       {
         id: '4',
         number: 4,
-        title: 'Edite e Personalize Atividades de Alfabetização e Coordenação Motora',
+        title: 'Edite Atividades Grátis - Personalize Coordenação Motora',
         description: `O quarto passo oferece personalização completa na tela. Cada elemento é editável individualmente. Mova, redimensione e gire qualquer imagem. Adicione texto personalizado com instruções específicas.
 
 Clique em qualquer imagem para selecioná-la. Arraste para nova posição na página. Use as alças de canto para redimensionar. Gire usando a alça superior para ângulos criativos.
@@ -254,7 +294,7 @@ O painel de texto permite adicionar instruções. Escolha fontes divertidas como
       {
         id: '5',
         number: 5,
-        title: 'Baixe Atividades 1º Ano e 2º Ano - PDF e JPEG Profissionais',
+        title: 'Baixe Atividade Grátis para Imprimir - PDF e JPEG 300 DPI',
         description: `O quinto passo finaliza sua atividade para impressão. Escolha entre formatos PDF e JPEG. Ambos exportam em qualidade profissional de 300 DPI. Suas atividades 1º ano ficam prontas para a gráfica.
 
 O formato PDF é ideal para impressão em lote. Mantenha qualidade perfeita em qualquer impressora. Compartilhe facilmente por e-mail ou plataformas digitais. Atividades 2º ano chegam aos pais sem perda de qualidade.
@@ -269,7 +309,7 @@ A opção escala de cinza transforma a atividade. Desenhos para colorir ficam pr
 
   // Use Cases - FULL text from math-worksheet.md use case sections
   useCases: {
-    sectionTitle: 'Quem Usa o Gerador de Atividades de Matemática',
+    sectionTitle: 'Quem Usa o Gerador de Atividades Grátis de Matemática',
     sectionDescription: 'O gerador de atividades de matemática atende educadores de todos os contextos. Professores, pais e empreendedores encontram valor na ferramenta. Cada perfil de usuário aproveita recursos específicos. Veja como diferentes educadores usam atividades para imprimir no dia a dia.',
     badgeText: 'Para Quem',
     readMoreLabel: 'Leia mais',
@@ -279,7 +319,7 @@ A opção escala de cinza transforma a atividade. Desenhos para colorir ficam pr
         id: '1',
         icon: '👩‍🏫',
         title: 'Professores de Educação Infantil',
-        subtitle: 'Atividades Vogais e Alfabeto com Matemática Integrada',
+        subtitle: 'Atividade Grátis para Crianças com Vogais e Alfabeto',
         description: `Professores de educação infantil são os maiores usuários do gerador. Crianças de 4 a 6 anos precisam de materiais visuais e coloridos. As atividades vogais combinadas com números criam conexões poderosas. O alfabeto aparece naturalmente junto aos exercícios matemáticos.
 
 A pré-escola exige atividades lúdicas e atraentes. Os desenhos para colorir mantêm a atenção das crianças. Cada ficha desenvolve múltiplas habilidades simultaneamente. Atividades educação infantil integram alfabetização e matemática naturalmente.
@@ -291,7 +331,7 @@ Use imagens que começam com vogais específicas. Abelha para A, elefante para E
         id: '2',
         icon: '📚',
         title: 'Professores do 1º Ano e 2º Ano',
-        subtitle: 'Atividades de Matemática com Tabuada e Operações',
+        subtitle: 'Atividade Grátis de Matemática com Tabuada e Operações',
         description: `Professores de atividades 1º ano encontram o nível perfeito de desafio. A transição da educação infantil para o fundamental requer materiais adequados. Atividades de matemática com adição simples consolidam aprendizados. O gerador adapta-se a cada fase do desenvolvimento.
 
 No 1º ano, alunos avançam de contagem para operações. Atividades de matemática introduzem adição com suporte visual. Cada imagem representa uma quantidade concreta. A abstração numérica desenvolve-se gradualmente com apoio.
@@ -303,7 +343,7 @@ Para atividades 2º ano, a tabuada entra em cena. Exercícios de multiplicação
         id: '3',
         icon: '🏠',
         title: 'Pais que Educam em Casa',
-        subtitle: 'Atividades de Alfabetização e Coordenação Motora',
+        subtitle: 'Atividades Grátis de Alfabetização e Coordenação Motora',
         description: `Famílias que praticam educação domiciliar adoram o gerador. A flexibilidade permite criar materiais personalizados. Atividades de alfabetização e matemática na mesma sessão economizam tempo. A coordenação motora desenvolve-se em casa com qualidade profissional.
 
 O homeschooling exige materiais para múltiplas idades. O gerador atende desde educação infantil até o 3º ano. Crie atividades de alfabetização para o filho mais novo. Gere exercícios de tabuada para o mais velho na mesma sessão.
@@ -315,7 +355,7 @@ A personalização é crucial para educação em casa. Upload de fotos familiare
         id: '4',
         icon: '📝',
         title: 'Professores de Reforço Escolar',
-        subtitle: 'Desenhos para Colorir e Atividades para Imprimir Diferenciadas',
+        subtitle: 'Imprimíveis Grátis com Desenhos para Colorir Diferenciados',
         description: `Professores de reforço precisam de materiais diferenciados. Cada aluno chega com necessidades específicas. Atividades para imprimir personalizadas atendem lacunas individuais. Os desenhos para colorir tornam o reforço menos intimidador.
 
 Alunos que lutam com matemática precisam de abordagens visuais. Os desenhos para colorir reduzem a ansiedade matemática. Cores e imagens criam associações positivas com números. Atividades para imprimir transformam reforço em diversão.
@@ -327,7 +367,7 @@ A diferenciação acontece rapidamente no gerador. Crie fichas mais fáceis para
         id: '5',
         icon: '💜',
         title: 'Professores de Educação Especial',
-        subtitle: 'Letra Cursiva, Pontilhado e Coordenação Motora Adaptada',
+        subtitle: 'Atividade para Educação Infantil com Letra Cursiva Adaptada',
         description: `A educação especial exige materiais altamente adaptáveis. O gerador oferece controle total sobre cada elemento. Atividades de letra cursiva podem ser simplificadas. O pontilhado adapta-se a diferentes níveis de coordenação motora.
 
 Alunos com necessidades especiais se beneficiam de repetição visual. Os mesmos temas em múltiplas atividades criam familiaridade. A coordenação motora desenvolve-se no ritmo individual. Cada avanço é celebrado com novas fichas personalizadas.
@@ -339,7 +379,7 @@ O pontilhado pode ser ajustado para diferentes necessidades. Linhas mais grossas
         id: '6',
         icon: '💰',
         title: 'Professores Empreendedores',
-        subtitle: 'Venda Atividades de Matemática no Teachers Pay Teachers',
+        subtitle: 'Venda Atividade para Crianças no Teachers Pay Teachers',
         description: `Professores empreendedores usam o gerador para criar produtos. A licença comercial permite venda no Teachers Pay Teachers. Atividades de matemática profissionais competem no mercado. Atividades vogais e tabuada têm alta demanda.
 
 O mercado de atividades educacionais cresce constantemente. Professores brasileiros buscam materiais prontos para imprimir. Atividades de matemática com temáticas sazonais vendem especialmente bem. A tabuada é busca constante entre pais e professores.
@@ -352,7 +392,7 @@ Crie pacotes completos para venda. Combine atividades vogais com exercícios num
 
   // FAQ Section - Selected FAQs from math-worksheet.md
   faq: {
-    sectionTitle: 'Perguntas Frequentes sobre Atividades de Matemática',
+    sectionTitle: 'Perguntas Frequentes sobre Atividades Grátis de Matemática',
     sectionDescription: 'Professores têm dúvidas comuns sobre o gerador de atividades de matemática. Esta seção responde às perguntas mais frequentes. Encontre informações sobre assinatura, uso e funcionalidades.',
     showMoreText: 'Mostrar mais perguntas',
     showLessText: 'Mostrar menos',
@@ -364,62 +404,62 @@ Crie pacotes completos para venda. Combine atividades vogais com exercícios num
     items: [
       {
         id: '1',
-        question: 'O Gerador de Atividades de Matemática É Gratuito para Usar?',
+        question: 'As Atividades Grátis de Matemática São Gratuitas para Usar?',
         answer: 'O gerador de atividades de matemática requer assinatura Pacote Essencial. O custo é R$144 por ano ou R$15 por mês. Sua assinatura oferece criação ilimitada de atividades de matemática sem taxas por ficha. Gere quantas atividades precisar sem cobranças adicionais. O Pacote Essencial inclui 10 geradores de atividades populares. O Acesso Completo custa R$240 por ano e inclui todos os 33 tipos de geradores. Ambas as assinaturas incluem licença comercial, suporte a 11 idiomas e exportação profissional em 300 DPI.',
       },
       {
         id: '2',
-        question: 'Posso Imprimir Atividades de Alfabetização e Desenhos para Colorir em Casa?',
+        question: 'Posso Imprimir Atividade Grátis para Crianças em Casa?',
         answer: 'Sim. As atividades de alfabetização imprimem perfeitamente em impressoras domésticas. Os desenhos para colorir ficam nítidos em qualquer impressora jato de tinta ou laser. A qualidade de 300 DPI garante linhas precisas e imagens claras. Use papel comum ou cartolina para melhores resultados. Atividades de alfabetização em papel mais grosso duram mais tempo. Desenhos para colorir em cartolina permitem uso de canetinhas sem vazamento. A opção escala de cinza economiza tinta colorida.',
       },
       {
         id: '3',
-        question: 'Preciso de Habilidades de Design para Criar Atividades Educação Infantil?',
+        question: 'Preciso de Habilidades para Criar Atividade para Educação Infantil?',
         answer: 'Não. O gerador cria atividades educação infantil automaticamente. Selecione um tema e clique em gerar. Atividades educação infantil profissionais surgem instantaneamente. Nenhuma experiência em design gráfico é necessária. A interface é intuitiva e amigável. Arraste e solte para personalizar. Atividades educação infantil personalizadas levam minutos. Qualquer professor consegue criar fichas de qualidade profissional.',
       },
       {
         id: '4',
-        question: 'Posso Usar Atividades de Matemática com Tabuada na Minha Sala de Aula?',
+        question: 'Posso Usar Atividade Grátis de Matemática na Minha Sala de Aula?',
         answer: 'Sim. A assinatura Pacote Essencial inclui uso ilimitado em sala de aula. Crie atividades de matemática para todos os seus alunos. Exercícios de tabuada podem ser impressos em quantidades ilimitadas. Nenhuma taxa adicional por cópia ou aluno. Distribua fichas de tabuada para toda a turma. Crie versões diferenciadas por nível. A tabuada do 2 ao 10 está disponível em todas as dificuldades.',
       },
       {
         id: '5',
-        question: 'Quais Idiomas Estão Disponíveis para Atividades Vogais e Alfabeto?',
+        question: 'Quais Idiomas Estão Disponíveis para Imprimíveis Grátis?',
         answer: 'O gerador suporta 11 idiomas para atividades vogais e alfabeto. Português brasileiro é totalmente suportado. Inglês, alemão, francês e espanhol também disponíveis. Italiano, holandês, sueco, dinamarquês, norueguês e finlandês completam a lista. As atividades vogais mudam conforme o idioma selecionado. O alfabeto adapta-se a cada sistema linguístico. Nomes de imagens traduzem automaticamente.',
       },
       {
         id: '6',
-        question: 'Posso Vender as Atividades para Imprimir que Eu Criar?',
+        question: 'Posso Vender Atividades Grátis para Imprimir que Eu Criar?',
         answer: 'Sim. A assinatura Pacote Essencial inclui licença comercial completa. Venda suas atividades para imprimir no Teachers Pay Teachers livremente. Comercialize no Etsy sem taxas extras. Publique no Amazon KDP com direitos completos. Nenhuma atribuição necessária em produtos vendidos. A licença cobre uso print-on-demand em todas as plataformas.',
       },
       {
         id: '7',
-        question: 'Como Personalizo Atividades 1º Ano e 2º Ano para Meus Alunos?',
+        question: 'Como Personalizo Atividade Grátis para Crianças do 1º Ano?',
         answer: 'Cada elemento nas atividades 1º ano é editável. Clique em qualquer imagem para mover ou redimensionar. Adicione texto personalizado com instruções específicas. Atividades 2º ano podem incluir nomes de alunos ou temas especiais. Use fotos próprias para personalização máxima. Upload de imagens da turma aumenta engajamento. Atividades 1º ano com rostos familiares motivam prática.',
       },
       {
         id: '8',
-        question: 'Qual Faixa Etária Funciona Melhor com Desenhos para Colorir Matemáticos?',
+        question: 'Qual Faixa Etária Funciona Melhor com Atividade Grátis?',
         answer: 'Desenhos para colorir matemáticos funcionam de 4 a 9 anos. Educação infantil (4-6 anos) usa níveis "Muito Fácil" e "Fácil". Alunos do 1º ao 3º ano aproveitam níveis "Médio" e "Difícil". Desenhos para colorir mantêm engajamento em todas as idades. Ajuste a complexidade conforme a turma. Menos exercícios com desenhos para colorir maiores para crianças menores.',
       },
       {
         id: '9',
-        question: 'Posso Fazer Upload de Imagens para Atividades de Alfabetização Personalizadas?',
+        question: 'Posso Fazer Upload de Imagens para Atividade para Crianças?',
         answer: 'Sim. Faça upload de múltiplas imagens simultaneamente. Formatos JPEG, PNG e GIF são aceitos. Combine fotos próprias com a biblioteca para atividades de alfabetização únicas. Suas imagens aparecem no painel de seleção. Use fotos de objetos que começam com letras específicas. Atividades de alfabetização com contexto pessoal engajam mais.',
       },
       {
         id: '10',
-        question: 'Quanto Tempo Leva para Criar Atividades com Letra Cursiva e Pontilhado?',
+        question: 'Quanto Tempo Leva para Criar Imprimíveis Grátis de Matemática?',
         answer: 'Menos de 3 minutos. Selecione tema, configure dificuldade, clique gerar. Atividades com letra cursiva e pontilhado aparecem instantaneamente. A edição adicional leva mais alguns minutos se desejada. A velocidade aumenta com prática. Professores experientes criam fichas de letra cursiva em 60 segundos.',
       },
       {
         id: '11',
-        question: 'As Atividades de Matemática Incluem Gabarito com Tabuada Resolvida?',
+        question: 'Atividades Grátis de Matemática Incluem Gabarito com Tabuada?',
         answer: 'Sim. Cada atividade de matemática tem gabarito correspondente. A tabuada aparece resolvida na versão de respostas. Gere o gabarito após aprovar a atividade principal. Ambas as versões usam as mesmas imagens. O gabarito facilita correção rápida. Alunos podem usar para autocorreção. A tabuada resolvida ajuda pais em casa.',
       },
       {
         id: '12',
-        question: 'Posso Criar Atividades de Coordenação Motora sobre Temas Específicos?',
+        question: 'Posso Criar Atividade Grátis para Educação Infantil Temática?',
         answer: 'Sim. A biblioteca oferece mais de 20 temas diferentes. Crie atividades de coordenação motora com animais, frutas, veículos e mais. Temas sazonais incluem Natal, Páscoa e férias de verão. Coordenação motora desenvolve-se com contexto atraente. Combine temas para projetos interdisciplinares.',
       },
     ],
@@ -457,7 +497,7 @@ Crie pacotes completos para venda. Combine atividades vogais com exercícios num
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Combine com Outros Geradores de Atividades',
+    sectionTitle: 'Combine com Outros Geradores de Atividades Grátis',
     sectionDescription: 'Crie pacotes de aprendizagem completos combinando atividades de matemática com estes geradores complementares.',
     ctaTitle: 'Pronto para Criar Atividades Incríveis?',
     ctaDescription: 'Junte-se a milhares de educadores que criam atividades profissionais. Geração ilimitada, licença comercial incluída.',

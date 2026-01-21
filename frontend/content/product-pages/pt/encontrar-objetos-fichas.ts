@@ -17,20 +17,52 @@ export const findObjectsPtContent: ProductPageContent = {
   seo: {
     slug: 'encontrar-objetos-fichas',
     appId: 'find-objects',
-    title: 'Atividades para Imprimir de Encontrar Objetos - Atividades Educação Infantil e Atividades de Alfabetização',
+    title: 'Encontrar Objetos - Atividade Grátis para Crianças de Educação Infantil e Alfabetização',
     description: 'Crie atividades para imprimir profissionais de encontrar objetos com nosso gerador de fichas educativas. Sua assinatura Acesso Completo permite criar atividades educação infantil ilimitadas sem taxas adicionais. Produza atividades de alfabetização personalizadas que desenvolvem atenção visual e concentração.',
     keywords: 'encontrar objetos, atividades para imprimir, atividades educação infantil, atividades de alfabetização, atividades de matemática, coordenação motora, desenhos para colorir, atividades 1º ano, atividades 2º ano, atividades vogais, tabuada, letra cursiva, pontilhado',
     canonicalUrl: 'https://www.lessoncraftstudio.com/pt/apps/encontrar-objetos-fichas',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/portuguese/find-objects/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Atividade grátis de encontrar objetos para crianças - modo Eu Espio para educação infantil',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/portuguese/find-objects/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Atividade grátis para crianças de encontrar objetos - imprimíveis grátis para 1º ano',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/portuguese/find-objects/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Atividades grátis de encontrar objetos infantil - atividade para educação infantil',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/portuguese/find-objects/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Imprimíveis grátis de encontrar objetos - modo Qual é o Diferente para crianças',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/portuguese/find-objects/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Atividade grátis para educação infantil de encontrar objetos - fichas com gabarito',
+      },
+    ],
   },
 
   // Hero Section
   hero: {
-    title: 'Atividades para Imprimir de Encontrar Objetos',
-    subtitle: 'Atividades Educação Infantil e Atividades de Alfabetização',
+    title: 'Encontrar Objetos - Atividade Grátis para Crianças',
+    subtitle: 'Atividades Grátis para Imprimir de Educação Infantil e Alfabetização',
     description: `Crie atividades para imprimir profissionais de encontrar objetos com nosso gerador de fichas educativas. Sua assinatura Acesso Completo permite criar atividades educação infantil ilimitadas sem taxas adicionais. Produza atividades de alfabetização personalizadas que desenvolvem atenção visual e concentração. Baixe fichas em PDF de alta qualidade em menos de 3 minutos.
 
 O gerador de atividades para imprimir de encontrar objetos oferece dois modos de atividade distintos. O modo "Eu Espio" desafia as crianças a encontrar objetos escondidos entre distratores visuais. O modo "Qual é o Diferente" pede que identifiquem imagens sem par. Ambos os modos desenvolvem habilidades cognitivas essenciais para atividades educação infantil e atividades 1º ano.`,
-    previewImageSrc: '/samples/english/find objects/find objects portrait.jpeg',
+    previewImageSrc: '/samples/portuguese/find-objects/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Experimente Grátis',
       viewSamples: 'Ver Exemplos',
@@ -51,7 +83,7 @@ O gerador de atividades para imprimir de encontrar objetos oferece dois modos de
 
   // Sample Gallery
   samples: {
-    sectionTitle: 'Exemplos de Atividades de Encontrar Objetos',
+    sectionTitle: 'Exemplos de Atividades Grátis de Encontrar Objetos para Crianças',
     sectionDescription: 'Baixe exemplos gratuitos para ver nossa qualidade profissional',
     downloadLabel: 'Baixar Exemplo Grátis',
     worksheetLabel: 'Atividade',
@@ -65,24 +97,45 @@ O gerador de atividades para imprimir de encontrar objetos oferece dois modos de
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/find objects/find objects portrait.jpeg',
-        answerKeySrc: '/samples/english/find objects/find objects portrait answer_key.jpeg',
-        altText: 'Atividade de encontrar objetos formato retrato para educação infantil',
-        pdfDownloadUrl: '/samples/english/find objects/find objects portrait.pdf',
+        worksheetSrc: '/samples/portuguese/find-objects/sample-1.jpeg',
+        answerKeySrc: '/samples/portuguese/find-objects/sample-1-answer.jpeg',
+        altText: 'Encontrar objetos atividade grátis - modo Eu Espio para educação infantil',
+        pdfDownloadUrl: '/samples/portuguese/find-objects/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/find objects/find objects landscape.jpeg',
-        answerKeySrc: '/samples/english/find objects/find objects landscape answer_key.jpeg',
-        altText: 'Atividade de encontrar objetos formato paisagem para atividades de alfabetização',
-        pdfDownloadUrl: '/samples/english/find objects/find objects landscape.pdf',
+        worksheetSrc: '/samples/portuguese/find-objects/sample-2.jpeg',
+        answerKeySrc: '/samples/portuguese/find-objects/sample-2-answer.jpeg',
+        altText: 'Atividade grátis para crianças de encontrar objetos - busca visual para 1º ano',
+        pdfDownloadUrl: '/samples/portuguese/find-objects/sample-2.pdf',
+      },
+      {
+        id: '3',
+        worksheetSrc: '/samples/portuguese/find-objects/sample-3.jpeg',
+        answerKeySrc: '/samples/portuguese/find-objects/sample-3-answer.jpeg',
+        altText: 'Imprimíveis grátis de encontrar objetos infantil - atividade para educação infantil',
+        pdfDownloadUrl: '/samples/portuguese/find-objects/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/portuguese/find-objects/sample-4.jpeg',
+        answerKeySrc: '/samples/portuguese/find-objects/sample-4-answer.jpeg',
+        altText: 'Atividades grátis de encontrar objetos para crianças - modo Qual é o Diferente',
+        pdfDownloadUrl: '/samples/portuguese/find-objects/sample-4.pdf',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/portuguese/find-objects/sample-5.jpeg',
+        answerKeySrc: '/samples/portuguese/find-objects/sample-5-answer.jpeg',
+        altText: 'Atividade grátis para educação infantil de encontrar objetos - fichas com gabarito',
+        pdfDownloadUrl: '/samples/portuguese/find-objects/sample-5.pdf',
       },
     ],
   },
 
   // Features Grid
   features: {
-    sectionTitle: 'Recursos do Gerador de Atividades para Imprimir',
+    sectionTitle: 'Recursos do Gerador - Imprimíveis Grátis de Encontrar Objetos',
     sectionDescription: 'O gerador de atividades de encontrar objetos oferece recursos completos para professores de educação infantil e ensino fundamental. Cada recurso foi desenvolvido pensando na praticidade do dia a dia escolar. Crie atividades para imprimir profissionais sem precisar de habilidades de design. A interface intuitiva permite criar fichas em menos de 3 minutos.',
     highlightBadgeText: 'Recurso Principal',
     readMoreLabel: 'Leia mais',
@@ -97,7 +150,7 @@ O gerador de atividades para imprimir de encontrar objetos oferece dois modos de
       {
         id: '1',
         icon: '⚡',
-        title: 'Criação Simples de Atividades para Imprimir em 3 Cliques',
+        title: 'Criação Rápida de Atividade Grátis em 3 Cliques',
         description: `O processo de criação de atividades para imprimir é extremamente simples. Primeiro, selecione o modo de atividade desejado. Segundo, escolha as imagens da biblioteca ou faça upload das suas. Terceiro, clique em criar e sua atividade está pronta. Não precisa de conhecimento técnico ou experiência em design gráfico.
 
 O modo "Eu Espio" permite selecionar de 8 a 12 imagens distratoras. Adicione de 1 a 5 objetos para as crianças encontrarem. O modo "Qual é o Diferente" trabalha com 8 a 12 pares de imagens. Escolha de 1 a 3 imagens ímpares para identificação.`,
@@ -106,7 +159,7 @@ O modo "Eu Espio" permite selecionar de 8 a 12 imagens distratoras. Adicione de 
       {
         id: '2',
         icon: '✏️',
-        title: 'Atividades de Alfabetização com Edição Completa no Canvas',
+        title: 'Atividade Grátis Totalmente Editável no Canvas',
         description: `Cada elemento das atividades de alfabetização pode ser editado diretamente no canvas. Arraste imagens para reposicioná-las onde preferir. Redimensione objetos para ajustar o tamanho conforme necessário. Gire elementos para criar composições visuais mais interessantes.
 
 A barra de ferramentas oferece controles de camadas completos. Traga objetos para frente ou envie para trás. Alinhe múltiplos elementos horizontalmente ou verticalmente. Centralize objetos na página com um clique. Delete elementos indesejados facilmente.`,
@@ -115,7 +168,7 @@ A barra de ferramentas oferece controles de camadas completos. Traga objetos par
       {
         id: '3',
         icon: '🎯',
-        title: 'Atividades Educação Infantil com Dois Modos de Jogo',
+        title: 'Atividade Grátis para Crianças - Dois Modos de Jogo',
         description: `Professores de educação infantil precisam de variedade nas atividades para imprimir. Nosso gerador oferece o modo clássico de objetos escondidos e o modo de encontrar o diferente. O modo "Eu Espio" usa de 8 a 12 distratores e de 1 a 5 objetos escondidos. As crianças desenvolvem atenção visual enquanto procuram os itens específicos.
 
 O modo "Qual é o Diferente" é excelente para atividades de matemática visual. Configure o número de pares de imagens primeiro. Crianças precisam identificar quais imagens não têm correspondente. Essa atividade desenvolve raciocínio lógico e atenção visual.`,
@@ -124,7 +177,7 @@ O modo "Qual é o Diferente" é excelente para atividades de matemática visual.
       {
         id: '4',
         icon: '🌍',
-        title: 'Atividades de Matemática em 11 Idiomas Diferentes',
+        title: 'Atividades Grátis de Encontrar Objetos em 11 Idiomas',
         description: `O gerador suporta interface e conteúdo em 11 idiomas. Português brasileiro, inglês, alemão, francês, espanhol e italiano estão incluídos. Holandês, sueco, dinamarquês, norueguês e finlandês também. Perfeito para atividades de matemática em escolas bilíngues.
 
 Os nomes das imagens aparecem no idioma selecionado. Professores de línguas estrangeiras usam para ensinar vocabulário. Escolas internacionais criam materiais multilíngues facilmente. Programas de educação bilíngue encontram recursos valiosos aqui.`,
@@ -133,7 +186,7 @@ Os nomes das imagens aparecem no idioma selecionado. Professores de línguas est
       {
         id: '5',
         icon: '📤',
-        title: 'Atividades Educação Infantil com Upload de Imagens Personalizadas',
+        title: 'Upload de Imagens - Imprimíveis Grátis Personalizados',
         description: `Professores de educação infantil podem fazer upload de imagens próprias. O sistema aceita arquivos JPEG, PNG e GIF. Faça upload de múltiplos arquivos de uma só vez. Combine suas imagens com a biblioteca de 3000+ imagens incluídas.
 
 Use fotos dos próprios alunos para personalizar as atividades educação infantil. Adicione imagens de projetos escolares específicos. Inclua mascotes ou personagens da sua escola. As imagens enviadas ficam disponíveis durante toda a sessão de trabalho.`,
@@ -142,7 +195,7 @@ Use fotos dos próprios alunos para personalizar as atividades educação infant
       {
         id: '6',
         icon: '💰',
-        title: 'Coordenação Motora e Licença Comercial POD Incluída',
+        title: 'Licença Comercial POD - Venda Atividades Grátis',
         description: `Sua assinatura Acesso Completo inclui licença comercial para impressão sob demanda. Venda suas atividades de coordenação motora no Teachers Pay Teachers. Crie produtos para Etsy ou Amazon KDP sem taxas extras. A licença comercial está incluída no valor da assinatura.
 
 Professores empreendedores geram renda extra com seus materiais. Não precisa pagar royalties ou taxas de licenciamento. Cada atividade de coordenação motora que você cria é 100% sua para comercializar. Qualidade profissional de 300 DPI garante excelentes resultados de impressão.`,
@@ -151,7 +204,7 @@ Professores empreendedores geram renda extra com seus materiais. Não precisa pa
       {
         id: '7',
         icon: '🎨',
-        title: 'Desenhos para Colorir com Biblioteca de 3000+ Imagens',
+        title: '3000+ Imagens para Atividades Grátis para Crianças',
         description: `A biblioteca contém mais de 3000 imagens temáticas para desenhos para colorir e atividades de busca. Todas as imagens são adequadas para crianças e uso educacional. Organize por temas como animais, alimentos, transportes ou natureza. Use a busca por palavras-chave para encontrar imagens específicas.
 
 Cada tema oferece dezenas de opções diferentes. Fundos decorativos infantis estão incluídos. Bordas temáticas complementam suas atividades. Combine elementos de diferentes temas para criar composições únicas.`,
@@ -160,7 +213,7 @@ Cada tema oferece dezenas de opções diferentes. Fundos decorativos infantis es
       {
         id: '8',
         icon: '🖨️',
-        title: 'Atividades 1º Ano com Qualidade Profissional 300 DPI',
+        title: 'Qualidade 300 DPI - Atividade Grátis para Educação Infantil',
         description: `Todas as atividades 1º ano são exportadas em qualidade profissional de 300 DPI. Essa resolução garante impressões nítidas e claras. Perfeito para materiais que serão vendidos ou distribuídos. A qualidade é idêntica a produtos comerciais profissionais.
 
 Escolha entre formato JPEG ou PDF para download. A opção de escala de cinza economiza tinta colorida. Exporte a ficha de atividades e o gabarito separadamente. O gabarito mostra exatamente onde estão os objetos escondidos.`,
@@ -171,7 +224,7 @@ Escolha entre formato JPEG ou PDF para download. A opção de escala de cinza ec
 
   // How-To Guide
   howTo: {
-    sectionTitle: 'Como Criar Atividades para Imprimir de Encontrar Objetos em 5 Passos',
+    sectionTitle: 'Como Criar Atividades Grátis de Encontrar Objetos em 5 Passos',
     sectionDescription: 'Criar atividades para imprimir profissionais nunca foi tão fácil. O processo completo leva menos de 3 minutos do início ao download. Siga este guia passo a passo para criar suas primeiras atividades educação infantil. Não precisa de experiência em design ou conhecimento técnico.',
     ctaText: 'Comece Agora',
     badgeText: 'Como Funciona',
@@ -186,7 +239,7 @@ Escolha entre formato JPEG ou PDF para download. A opção de escala de cinza ec
       {
         id: '1',
         number: 1,
-        title: 'Escolha o Modo de Atividade para Atividades de Alfabetização',
+        title: 'Escolha Imagens - Atividade Grátis para Crianças',
         description: `O primeiro passo é selecionar o modo de atividade desejado. O gerador oferece duas opções principais para atividades de alfabetização. O modo "Eu Espio" é ideal para busca de objetos escondidos. O modo "Qual é o Diferente" trabalha com pares e identificação de elementos ímpares.
 
 Para atividades de alfabetização tradicionais, escolha o modo "Eu Espio". Selecione imagens que representem palavras do vocabulário atual. Crianças procuram objetos enquanto reforçam o reconhecimento visual. Cada imagem tem nome no idioma selecionado.`,
@@ -195,7 +248,7 @@ Para atividades de alfabetização tradicionais, escolha o modo "Eu Espio". Sele
       {
         id: '2',
         number: 2,
-        title: 'Personalize a Página com Coordenação Motora em Mente',
+        title: 'Configure Sua Atividade Grátis - Dificuldade e Formato',
         description: `O segundo passo envolve configurar as opções de página e cena. Escolha o tamanho de página adequado para suas atividades de coordenação motora. Formato Carta retrato é ideal para uso em sala de aula. Formato A4 é padrão em muitos países.
 
 Ative a opção "Usar Decorações Infantis" para fundos coloridos. Selecione um tema de fundo da lista disponível. Ajuste a opacidade do fundo conforme preferência. Fundos mais claros facilitam a visualização dos objetos.`,
@@ -204,7 +257,7 @@ Ative a opção "Usar Decorações Infantis" para fundos coloridos. Selecione um
       {
         id: '3',
         number: 3,
-        title: 'Gere sua Atividade de Atividades Vogais e Alfabeto',
+        title: 'Gere Atividades Grátis de Encontrar Objetos Instantaneamente',
         description: `O terceiro passo é clicar no botão "Criar" para gerar a atividade. O sistema processa suas seleções instantaneamente. Sua atividade de atividades vogais aparece na área de visualização. O canvas mostra exatamente como ficará a impressão.
 
 Para atividades alfabeto, verifique se todos os objetos estão visíveis. Confira se as imagens estão bem distribuídas na página. O modo de visualização permite avaliar a dificuldade. Ajuste se necessário antes de continuar.`,
@@ -213,7 +266,7 @@ Para atividades alfabeto, verifique se todos os objetos estão visíveis. Confir
       {
         id: '4',
         number: 4,
-        title: 'Edite no Canvas para Atividades 1º Ano Personalizadas',
+        title: 'Edite Sua Atividade Grátis para Educação Infantil',
         description: `O quarto passo permite edições completas no canvas. Todas as atividades 1º ano podem ser personalizadas após geração. Clique em qualquer elemento para selecioná-lo. Use a barra de ferramentas para opções de edição.
 
 Arraste imagens para reposicioná-las na página. Redimensione objetos arrastando os cantos. Gire elementos usando o controle de rotação. Delete itens indesejados com o botão de lixeira.`,
@@ -222,7 +275,7 @@ Arraste imagens para reposicioná-las na página. Redimensione objetos arrastand
       {
         id: '5',
         number: 5,
-        title: 'Baixe Atividades para Imprimir em PDF ou JPEG',
+        title: 'Baixe Imprimíveis Grátis em Alta Qualidade 300 DPI',
         description: `O quinto e último passo é baixar sua atividade pronta. Clique no menu de download para ver as opções. Escolha entre formato JPEG ou PDF para atividades para imprimir. Ambos os formatos têm qualidade profissional de 300 DPI.
 
 Baixe a ficha de atividade e o gabarito separadamente. A opção de escala de cinza economiza tinta colorida. Atividades para imprimir em preto e branco são ideais para cópias. Arquivos PDF são perfeitos para impressão profissional.`,
@@ -233,7 +286,7 @@ Baixe a ficha de atividade e o gabarito separadamente. A opção de escala de ci
 
   // Use Cases
   useCases: {
-    sectionTitle: 'Quem Usa Atividades para Imprimir de Encontrar Objetos',
+    sectionTitle: 'Quem Usa Atividades Grátis de Encontrar Objetos para Crianças',
     sectionDescription: 'Professores, pais e educadores de todo o Brasil usam nosso gerador de atividades para imprimir. Cada grupo encontra benefícios específicos para suas necessidades. Das creches às escolas particulares, as atividades educação infantil se adaptam a qualquer contexto.',
     badgeText: 'Para Quem',
     readMoreLabel: 'Leia mais',
@@ -243,7 +296,7 @@ Baixe a ficha de atividade e o gabarito separadamente. A opção de escala de ci
         id: '1',
         icon: '👩‍🏫',
         title: 'Professores de Educação Infantil',
-        subtitle: 'Atividades de Alfabetização para Pré-Escola',
+        subtitle: 'Atividades Grátis para Imprimir na Pré-escola',
         description: `Professores de educação infantil encontram recursos valiosos para pré-escola. As atividades de alfabetização desenvolvem reconhecimento visual de imagens e palavras. Crianças de 4 e 5 anos adoram buscar objetos escondidos. A atividade prende a atenção enquanto ensina vocabulário.
 
 O modo "Eu Espio" é perfeito para atividades de alfabetização na pré-escola. Selecione imagens de objetos do cotidiano infantil. Crianças associam imagens a palavras naturalmente. Use temas como animais, frutas ou brinquedos familiares.`,
@@ -253,7 +306,7 @@ O modo "Eu Espio" é perfeito para atividades de alfabetização na pré-escola.
         id: '2',
         icon: '📚',
         title: 'Professores do Ensino Fundamental',
-        subtitle: 'Atividades de Matemática para 1º ao 3º Ano',
+        subtitle: 'Atividades Grátis de Matemática para Crianças',
         description: `Professores do ensino fundamental usam atividades de matemática integradas. O modo de busca visual reforça conceitos de contagem. Peça que alunos contem quantos objetos de cada tipo encontraram. Atividades de matemática visuais complementam exercícios tradicionais.
 
 Para turmas de 1º ano, configure atividades de matemática com poucos elementos. Para 2º e 3º ano, aumente a complexidade gradualmente. O modo "Qual é o Diferente" trabalha conceitos de pares e correspondência. Raciocínio lógico se desenvolve através da brincadeira.`,
@@ -263,7 +316,7 @@ Para turmas de 1º ano, configure atividades de matemática com poucos elementos
         id: '3',
         icon: '🏠',
         title: 'Pais que Fazem Homeschool',
-        subtitle: 'Atividades Vogais e Alfabeto em Casa',
+        subtitle: 'Imprimíveis Grátis para Educação Domiciliar',
         description: `Famílias que praticam educação domiciliar encontram recursos essenciais. Atividades vogais e alfabeto complementam o currículo caseiro. Pais criam materiais personalizados para cada filho. O gerador economiza tempo precioso de planejamento.
 
 Para atividades alfabeto personalizadas, use fotos da família. Faça upload de imagens de objetos da própria casa. Crianças reconhecem elementos familiares nas atividades vogais. A personalização aumenta o engajamento.`,
@@ -273,7 +326,7 @@ Para atividades alfabeto personalizadas, use fotos da família. Faça upload de 
         id: '4',
         icon: '🌍',
         title: 'Professores de Línguas Estrangeiras',
-        subtitle: 'Atividades 2º Ano Bilíngues',
+        subtitle: 'Atividades Grátis Bilíngues em 11 Idiomas',
         description: `Professores de inglês e espanhol usam atividades 2º ano para ensinar vocabulário. Os nomes das imagens aparecem no idioma selecionado. Crianças aprendem palavras novas enquanto buscam objetos. Atividades 2º ano bilíngues são altamente eficazes.
 
 Escolas com programas de imersão linguística se beneficiam especialmente. Configure o gerador no idioma alvo da aula. Atividades 2º ano em língua estrangeira reforçam aprendizado. A associação visual-verbal acelera a memorização.`,
@@ -283,7 +336,7 @@ Escolas com programas de imersão linguística se beneficiam especialmente. Conf
         id: '5',
         icon: '💜',
         title: 'Professores de Educação Especial',
-        subtitle: 'Pontilhado para Necessidades Especiais',
+        subtitle: 'Atividade Grátis para Educação Infantil Inclusiva',
         description: `Professores de educação especial adaptam atividades com pontilhado para diferentes necessidades. Ajuste a quantidade de elementos conforme cada aluno. Use imagens maiores para crianças com dificuldades visuais. Atividades pontilhado simplificadas atendem necessidades específicas.
 
 O modo de edição permite personalização completa. Aumente espaçamento entre elementos quando necessário. Reduza distratores para alunos com TDAH. Atividades de pontilhado adaptadas respeitam ritmos individuais.`,
@@ -293,7 +346,7 @@ O modo de edição permite personalização completa. Aumente espaçamento entre
         id: '6',
         icon: '💰',
         title: 'Professores Empreendedores',
-        subtitle: 'Atividades para Imprimir para Venda Online',
+        subtitle: 'Venda Atividades Grátis - Empreendedorismo Docente',
         description: `Professores que vendem materiais digitais encontram oportunidade comercial. Atividades para imprimir criadas no gerador podem ser vendidas. A licença comercial POD está incluída na assinatura Acesso Completo. Plataformas como Teachers Pay Teachers aceitam os materiais.
 
 Crie pacotes temáticos de atividades para imprimir para venda. Combine diferentes modos e temas em coleções. A qualidade 300 DPI atende padrões profissionais. Atividades para imprimir comerciais geram renda extra.`,
@@ -304,7 +357,7 @@ Crie pacotes temáticos de atividades para imprimir para venda. Combine diferent
 
   // FAQ Section
   faq: {
-    sectionTitle: 'Perguntas Frequentes sobre Atividades de Encontrar Objetos',
+    sectionTitle: 'Perguntas Frequentes sobre Atividades Grátis de Encontrar Objetos',
     sectionDescription: 'Reunimos as dúvidas mais comuns sobre o gerador de atividades para imprimir. Cada resposta ajuda você a entender melhor a ferramenta. Descubra como criar atividades educação infantil profissionais.',
     showMoreText: 'Mostrar mais perguntas',
     showLessText: 'Mostrar menos',
@@ -316,57 +369,57 @@ Crie pacotes temáticos de atividades para imprimir para venda. Combine diferent
     items: [
       {
         id: '1',
-        question: 'O Gerador de Atividades de Alfabetização é Gratuito?',
+        question: 'O gerador de atividades grátis de encontrar objetos é gratuito para usar?',
         answer: 'O gerador de atividades de alfabetização requer assinatura Acesso Completo. O custo é de R$1.200 por ano ou R$125 por mês. Sua assinatura permite criar atividades de alfabetização ilimitadas sem taxas adicionais. Não há cobrança por atividade gerada ou baixada. O Acesso Completo inclui todos os 33 geradores de atividades disponíveis. A assinatura Pacote Essencial custa R$720 por ano e inclui 10 aplicativos populares. O gerador de encontrar objetos está disponível apenas no Acesso Completo. Ambas as assinaturas incluem licença comercial e suporte a 11 idiomas.',
       },
       {
         id: '2',
-        question: 'Posso Imprimir Atividades Educação Infantil em Casa?',
+        question: 'Posso imprimir atividades grátis de encontrar objetos em impressora comum?',
         answer: 'Sim, todas as atividades educação infantil podem ser impressas em impressoras domésticas comuns. A qualidade 300 DPI garante resultados profissionais em qualquer impressora. Impressoras jato de tinta ou laser funcionam igualmente bem. Use papel sulfite comum para economia. Para atividades educação infantil coloridas, impressoras coloridas são recomendadas. A opção de escala de cinza permite imprimir em preto e branco. Isso economiza tinta significativamente para uso diário.',
       },
       {
         id: '3',
-        question: 'Preciso de Habilidades de Design para Atividades de Matemática?',
+        question: 'Preciso de habilidades de design para criar atividades grátis?',
         answer: 'Não precisa de nenhuma habilidade de design para criar atividades de matemática. O gerador automatiza todo o processo de criação. Selecione imagens, clique em criar, e sua atividade está pronta. A interface é intuitiva para qualquer usuário. Mesmo professores sem experiência em computadores criam atividades de matemática profissionais. Os temas e layouts são pré-configurados para resultados garantidos.',
       },
       {
         id: '4',
-        question: 'Posso Usar Coordenação Motora na Sala de Aula?',
+        question: 'Posso usar atividades grátis de encontrar objetos para crianças na sala de aula?',
         answer: 'Sua assinatura Acesso Completo inclui uso ilimitado em sala de aula. Atividades de coordenação motora podem ser impressas para todos os alunos. Não há limite de cópias ou distribuição para fins educacionais. Use as atividades em quantas turmas precisar. Cada atividade de coordenação motora pode ser reimpressa indefinidamente. Faça cópias para alunos, para a biblioteca de classe, ou para tarefas de casa.',
       },
       {
         id: '5',
-        question: 'Quais Idiomas Estão Disponíveis para Desenhos para Colorir?',
+        question: 'Quais idiomas estão disponíveis para atividades grátis de encontrar objetos?',
         answer: 'Os desenhos para colorir e atividades de busca estão disponíveis em 11 idiomas. Português brasileiro é totalmente suportado como idioma nativo. Inglês, alemão, francês, espanhol e italiano estão incluídos. Holandês, sueco, dinamarquês, norueguês e finlandês completam a lista. Os nomes das imagens nos desenhos para colorir aparecem no idioma selecionado. Professores de línguas estrangeiras usam para ensinar vocabulário visual.',
       },
       {
         id: '6',
-        question: 'Posso Vender Atividades Vogais e Alfabeto que Eu Criar?',
+        question: 'Posso vender imprimíveis grátis de encontrar objetos que criar?',
         answer: 'Sim, sua assinatura Acesso Completo inclui licença comercial completa para impressão sob demanda. Atividades vogais e alfabeto podem ser vendidas em qualquer plataforma. Teachers Pay Teachers, Etsy e Amazon KDP são opções populares. Não há taxas extras ou royalties a pagar. A licença comercial para atividades alfabeto está incluída no preço da assinatura. Você mantém 100% dos lucros das vendas.',
       },
       {
         id: '7',
-        question: 'Como Personalizar Letra Cursiva para Meus Alunos?',
+        question: 'Como personalizo atividades grátis para crianças de encontrar objetos?',
         answer: 'A personalização de atividades com letra cursiva acontece em múltiplas etapas. Primeiro, selecione imagens relevantes para sua turma. Segundo, adicione texto personalizado usando a ferramenta de texto. Terceiro, edite no canvas para ajustes finais. Para atividades de letra cursiva específicas, use o campo de texto para instruções. Escolha entre 7 fontes adequadas para crianças. Ajuste tamanho e cor conforme necessidade.',
       },
       {
         id: '8',
-        question: 'Qual Faixa Etária Funciona Melhor com Pontilhado?',
+        question: 'Qual faixa etária funciona melhor para atividade grátis de encontrar objetos?',
         answer: 'Atividades com pontilhado funcionam melhor para crianças de 3 a 8 anos. A pré-escola e educação infantil são faixas ideais. O 1º e 2º ano do ensino fundamental também se beneficiam. Ajuste a complexidade conforme a idade. Para crianças menores, use menos elementos e objetos maiores no pontilhado. Para crianças mais velhas, aumente a quantidade de distratores.',
       },
       {
         id: '9',
-        question: 'Posso Fazer Upload de Minhas Imagens para Atividades 1º Ano?',
+        question: 'Posso fazer upload de imagens para atividade grátis para educação infantil?',
         answer: 'Sim, o upload de imagens personalizadas está disponível para atividades 1º ano. O sistema aceita arquivos JPEG, PNG e GIF. Faça upload de múltiplos arquivos simultaneamente. Combine suas imagens com a biblioteca de 3000+ imagens. Use fotos de projetos escolares em atividades 1º ano personalizadas. Inclua imagens de mascotes ou personagens da escola.',
       },
       {
         id: '10',
-        question: 'Quanto Tempo para Criar Atividades 2º Ano?',
+        question: 'Quanto tempo leva para criar atividades grátis de encontrar objetos para crianças?',
         answer: 'Atividades 2º ano ficam prontas em menos de 3 minutos. O processo é rápido do início ao download. Selecione o modo de atividade em segundos. Escolha imagens da biblioteca ou por tema automaticamente. A geração de atividades 2º ano é instantânea após clicar em criar. Edições no canvas adicionam alguns minutos se desejado. Comparado a 30-60 minutos de criação manual, a economia é enorme.',
       },
       {
         id: '11',
-        question: 'Atividades de Tabuada Incluem Gabarito de Respostas?',
+        question: 'As atividades grátis de encontrar objetos para crianças incluem gabarito?',
         answer: 'Sim, todas as atividades incluindo tabuada visual têm gabarito automático. Após criar a atividade principal, gere o gabarito com um clique. O sistema marca automaticamente a localização dos objetos. Para tabuada no modo "Qual é o Diferente", destaca as imagens ímpares. O gabarito de atividades tabuada pode ser baixado separadamente. Professores usam para correção rápida e precisa.',
       },
       {
@@ -432,7 +485,7 @@ Crie pacotes temáticos de atividades para imprimir para venda. Combine diferent
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Combine com Outros Geradores de Atividades',
+    sectionTitle: 'Combine com Outros Geradores de Atividades Grátis para Crianças',
     sectionDescription: 'Crie pacotes de aprendizagem completos combinando encontrar objetos com estes geradores complementares.',
     ctaTitle: 'Pronto para Criar Atividades Incríveis?',
     ctaDescription: 'Junte-se a milhares de educadores que criam atividades profissionais. Geração ilimitada, licença comercial incluída.',

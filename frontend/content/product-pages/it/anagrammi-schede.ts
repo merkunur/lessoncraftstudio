@@ -21,23 +21,29 @@ export const wordScrambleItContent: ProductPageContent = {
     canonicalUrl: 'https://www.lessoncraftstudio.com/it/apps/anagrammi-schede',
     images: [
       {
-        url: 'https://www.lessoncraftstudio.com/samples/english/word scramble/word scramble portrait.jpeg',
+        url: 'https://www.lessoncraftstudio.com/samples/italian/word-scramble/sample-1.jpeg',
         width: 2480,
         height: 3508,
-        caption: 'Scheda gratuita anagrammi per bambini - stampabili gratuiti formato verticale'
+        caption: 'Scheda gratuita anagrammi per bambini - stampabili gratuiti scuola infanzia',
       },
       {
-        url: 'https://www.lessoncraftstudio.com/samples/english/word scramble/word scramble landscape.jpeg',
-        width: 3508,
-        height: 2480,
-        caption: 'Schede gratuite anagrammi - stampabili gratuiti formato orizzontale'
-      },
-      {
-        url: 'https://www.lessoncraftstudio.com/samples/english/word scramble/custom word list.jpeg',
+        url: 'https://www.lessoncraftstudio.com/samples/italian/word-scramble/sample-2.jpeg',
         width: 2480,
         height: 3508,
-        caption: 'Scheda gratuita per bambini - anagrammi parole personalizzate'
-      }
+        caption: 'Schede gratuite anagrammi - stampabili gratuiti scuola primaria',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/italian/word-scramble/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Scheda gratuita per bambini - anagrammi parole personalizzate',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/italian/word-scramble/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Anagrammi schede didattiche - stampabili gratuiti lettere alfabeto',
+      },
     ],
   },
 

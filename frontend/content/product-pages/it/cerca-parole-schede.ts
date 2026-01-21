@@ -38,6 +38,18 @@ export const wordSearchItContent: ProductPageContent = {
         height: 3508,
         caption: 'Stampabili gratuiti di crucipuzzle - scheda gratuita per scuola dell\'infanzia',
       },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/italian/wordsearch/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Crucipuzzle schede didattiche - scheda gratuita vocabolario scuola primaria',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/italian/wordsearch/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Generatore crucipuzzle gratuito - stampabili gratuiti per bambini',
+      },
     ],
   },
 

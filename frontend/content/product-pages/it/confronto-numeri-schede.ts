@@ -26,25 +26,31 @@ export const moreLessItContent: ProductPageContent = {
         url: 'https://www.lessoncraftstudio.com/samples/italian/more-less/sample-1.jpeg',
         width: 2480,
         height: 3508,
-        caption: 'Scheda gratuita confronto numeri - stampabili gratuiti maggiore minore per scuola dell\'infanzia'
+        caption: 'Scheda gratuita confronto numeri - stampabili gratuiti maggiore minore per scuola dell\'infanzia',
       },
       {
         url: 'https://www.lessoncraftstudio.com/samples/italian/more-less/sample-2.jpeg',
         width: 2480,
         height: 3508,
-        caption: 'Schede gratuite confronto immagini e numeri - scheda gratuita per bambini'
+        caption: 'Schede gratuite confronto immagini e numeri - scheda gratuita per bambini',
       },
       {
         url: 'https://www.lessoncraftstudio.com/samples/italian/more-less/sample-3.jpeg',
         width: 2480,
         height: 3508,
-        caption: 'Stampabili gratuiti matematica - scheda per bambini confronto quantità'
+        caption: 'Stampabili gratuiti matematica - scheda per bambini confronto quantità',
       },
       {
         url: 'https://www.lessoncraftstudio.com/samples/italian/more-less/sample-4.jpeg',
         width: 2480,
         height: 3508,
-        caption: 'Scheda gratuita per scuola dell\'infanzia - esercizi maggiore minore uguale'
+        caption: 'Scheda gratuita per scuola dell\'infanzia - esercizi maggiore minore uguale',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/italian/more-less/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Schede gratuite matematica - confronto numeri stampabili per scuola primaria',
       },
     ],
   },

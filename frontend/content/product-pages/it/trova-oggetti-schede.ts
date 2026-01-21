@@ -26,26 +26,32 @@ export const findObjectsItContent: ProductPageContent = {
         url: 'https://www.lessoncraftstudio.com/samples/italian/find-objects/sample-1.jpeg',
         width: 2480,
         height: 3508,
-        caption: 'Scheda gratuita trova gli oggetti - attività visiva per scuola dell\'infanzia'
+        caption: 'Scheda gratuita trova gli oggetti - attività visiva per scuola dell\'infanzia',
       },
       {
         url: 'https://www.lessoncraftstudio.com/samples/italian/find-objects/sample-2.jpeg',
         width: 2480,
         height: 3508,
-        caption: 'Schede gratuite cerca oggetti - stampabili gratuiti per bambini scuola primaria'
+        caption: 'Schede gratuite cerca oggetti - stampabili gratuiti per bambini scuola primaria',
       },
       {
         url: 'https://www.lessoncraftstudio.com/samples/italian/find-objects/sample-3.jpeg',
         width: 2480,
         height: 3508,
-        caption: 'Scheda per bambini trova l\'intruso - schede gratuite discriminazione visiva'
+        caption: 'Scheda per bambini trova l\'intruso - schede gratuite discriminazione visiva',
       },
       {
         url: 'https://www.lessoncraftstudio.com/samples/italian/find-objects/sample-4.jpeg',
         width: 2480,
         height: 3508,
-        caption: 'Stampabili gratuiti trova oggetti - scheda gratuita per scuola dell\'infanzia'
-      }
+        caption: 'Stampabili gratuiti trova oggetti - scheda gratuita per scuola dell\'infanzia',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/italian/find-objects/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Schede gratuite cerca oggetti nascosti - stampabili gratuiti scuola primaria',
+      },
     ],
   },
 

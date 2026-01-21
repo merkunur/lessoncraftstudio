@@ -27,26 +27,32 @@ export const subtractionFrContent: ProductPageContent = {
         url: 'https://www.lessoncraftstudio.com/samples/french/subtraction/sample-1.jpeg',
         width: 2480,
         height: 3508,
-        caption: 'Fiches soustraction gratuites - exercices maths barrer des images pour maternelle'
+        caption: 'Fiches soustraction gratuites - exercices maths barrer des images pour maternelle',
       },
       {
         url: 'https://www.lessoncraftstudio.com/samples/french/subtraction/sample-2.jpeg',
         width: 2480,
         height: 3508,
-        caption: 'Fiche soustraction gratuite pour enfants - exercices CP image moins chiffre'
+        caption: 'Fiche soustraction gratuite pour enfants - exercices CP image moins chiffre',
       },
       {
         url: 'https://www.lessoncraftstudio.com/samples/french/subtraction/sample-3.jpeg',
         width: 2480,
         height: 3508,
-        caption: 'Fiches gratuites soustraction - exercices CE1 trouver le nombre soustrait'
+        caption: 'Fiches gratuites soustraction - exercices CE1 trouver le nombre soustrait',
       },
       {
         url: 'https://www.lessoncraftstudio.com/samples/french/subtraction/sample-4.jpeg',
         width: 2480,
         height: 3508,
-        caption: 'Fiche pour maternelle soustraction - exercices maths mixtes imprimables gratuits'
-      }
+        caption: 'Fiche pour maternelle soustraction - exercices maths mixtes imprimables gratuits',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/subtraction/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fiches soustraction à imprimer - exercices calcul visuel pour CP et CE1',
+      },
     ],
   },
 

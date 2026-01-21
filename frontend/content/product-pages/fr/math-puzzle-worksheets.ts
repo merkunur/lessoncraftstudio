@@ -25,20 +25,32 @@ export const mathPuzzleFrContent: ProductPageContent = {
         url: 'https://www.lessoncraftstudio.com/samples/french/math-puzzle/sample-1.jpeg',
         width: 2480,
         height: 3508,
-        caption: 'Puzzle maths fiches gratuites - décodage symboles pour maternelle et CP'
+        caption: 'Puzzle maths fiches gratuites - décodage symboles pour maternelle et CP',
       },
       {
         url: 'https://www.lessoncraftstudio.com/samples/french/math-puzzle/sample-2.jpeg',
         width: 2480,
         height: 3508,
-        caption: 'Exercices maths fiche à imprimer gratuit - puzzle décodage pour enfants CE1'
+        caption: 'Exercices maths fiche à imprimer gratuit - puzzle décodage pour enfants CE1',
       },
       {
         url: 'https://www.lessoncraftstudio.com/samples/french/math-puzzle/sample-3.jpeg',
         width: 2480,
         height: 3508,
-        caption: 'Fiches maternelle puzzle maths - exercices décodage symboles colorés'
-      }
+        caption: 'Fiches maternelle puzzle maths - exercices décodage symboles colorés',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/math-puzzle/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Puzzle maths à imprimer - énigmes mathématiques pour CP et CE1',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/french/math-puzzle/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fiches gratuites puzzle maths - exercices décodage calcul visuel maternelle',
+      },
     ],
   },
 

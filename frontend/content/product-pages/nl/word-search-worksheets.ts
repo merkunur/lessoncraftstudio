@@ -27,22 +27,48 @@ export const wordSearchNlContent: ProductPageContent = {
   seo: {
     slug: 'woordzoeker-werkbladen',
     appId: 'wordsearch',
-    title: 'Woordzoeker Generator - Gratis Oefenbladen voor Werkbladen Groep 3 en Kleuters',
+    title: 'Woordzoeker Generator - Gratis Werkblad voor Kinderen | Werkbladen Groep 3 en Kleuters',
     description: 'Maak professionele woordzoekers voor het basisonderwijs. Deze gratis woordzoeker generator is perfect voor werkbladen groep 3, werkbladen kleuters en oefenbladen. Ontwerp werkbladen die kinderen uitdagen en vermaken. De woordzoeker maker werkt volledig in het Nederlands.',
     keywords: 'woordzoeker generator, werkbladen groep 3, werkbladen kleuters, oefenbladen gratis, letters leren, veilig leren lezen, rekenen werkbladen, kleurplaten, fijne motoriek, sommen tot 20',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/woordzoeker-werkbladen',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/dutch/wordsearch/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Woordzoeker gratis werkblad - portret formaat puzzel voor werkbladen kleuters en letters leren'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/dutch/wordsearch/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Woordzoeker gratis werkbladen - landschap puzzel voor werkbladen groep 3 en oefenbladen gratis'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/dutch/wordsearch/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Woordzoeker werkblad voor kinderen - thematische woordpuzzel met fijne motoriek oefeningen'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/dutch/wordsearch/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Woordzoeker oefenbladen gratis - werkblad voor kleuters en veilig leren lezen ondersteuning'
+      },
+    ],
   },
 
   // Hero Section - FULL text from wordsearch.md paragraphs 1-4
   hero: {
     title: 'Woordzoeker Generator',
-    subtitle: 'Gratis Oefenbladen voor Werkbladen Groep 3 en Kleuters',
+    subtitle: 'Gratis Werkbladen voor Kinderen - Oefenbladen voor Werkbladen Groep 3 en Kleuters',
     description: `Maak in een paar klikken professionele woordzoekers voor je leerlingen. Deze gratis woordzoeker generator is perfect voor leerkrachten in het basisonderwijs. Ontwerp werkbladen groep 3 die kinderen uitdagen en vermaken tegelijk.
 
 De woordzoeker maker werkt volledig in het Nederlands. Je kiest een thema of uploadt eigen afbeeldingen. Binnen drie minuten heb je een afdrukbare puzzel klaar. Ideaal voor werkbladen kleuters en groep 1 2 die net beginnen met letters leren.
 
 Traditionele werkbladen kosten veel tijd om te maken. Met deze tool bespaar je uren werk. De generator maakt automatisch een puzzelrooster met de woorden die jij kiest. Je downloadt het resultaat als PDF of afbeelding.`,
-    previewImageSrc: '/samples/english/wordsearch/wordsearch portrait.jpeg',
+    previewImageSrc: '/samples/dutch/wordsearch/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Gratis Uitproberen',
       viewSamples: 'Voorbeelden Bekijken',
@@ -61,9 +87,9 @@ Traditionele werkbladen kosten veel tijd om te maken. Met deze tool bespaar je u
     },
   },
 
-  // Sample Gallery - REAL file paths from samples/english/wordsearch/
+  // Sample Gallery - REAL file paths from samples/dutch/wordsearch/
   samples: {
-    sectionTitle: 'Woordzoeker Werkbladen Voorbeelden',
+    sectionTitle: 'Woordzoeker Gratis Werkbladen Voorbeelden - Werkblad voor Kinderen',
     sectionDescription: 'Download gratis voorbeeldwerkbladen om onze professionele kwaliteit te ervaren',
     downloadLabel: 'Gratis Voorbeeld Downloaden',
     worksheetLabel: 'Werkblad',
@@ -77,24 +103,31 @@ Traditionele werkbladen kosten veel tijd om te maken. Met deze tool bespaar je u
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/wordsearch/wordsearch portrait.jpeg',
-        answerKeySrc: '/samples/english/wordsearch/wordsearch portrait answer_key.jpeg',
-        altText: 'Woordzoeker portret met thematische afbeeldingen voor werkbladen kleuters en woordenschat',
-        pdfDownloadUrl: '/samples/english/wordsearch/wordsearch portrait.pdf',
+        worksheetSrc: '/samples/dutch/wordsearch/sample-1.jpeg',
+        answerKeySrc: '/samples/dutch/wordsearch/sample-1-answer.jpeg',
+        altText: 'Woordzoeker gratis werkblad - portret formaat puzzel voor werkbladen kleuters',
+        pdfDownloadUrl: '/samples/dutch/wordsearch/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/wordsearch/wordsearch landscape.jpeg',
-        answerKeySrc: '/samples/english/wordsearch/wordsearch landscape answer_key.jpeg',
-        altText: 'Woordzoeker werkblad landschap met kleurrijke hints voor werkbladen groep 3',
-        pdfDownloadUrl: '/samples/english/wordsearch/wordsearch landscape.pdf',
+        worksheetSrc: '/samples/dutch/wordsearch/sample-2.jpeg',
+        answerKeySrc: '/samples/dutch/wordsearch/sample-2-answer.jpeg',
+        altText: 'Woordzoeker gratis werkbladen - landschap puzzel voor werkbladen groep 3',
+        pdfDownloadUrl: '/samples/dutch/wordsearch/sample-2.pdf',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/wordsearch/custom word list.jpeg',
-        answerKeySrc: '/samples/english/wordsearch/custom word list answer_key.jpeg',
-        altText: 'Woordzoeker met eigen woordenlijst voor spelling oefeningen en oefenbladen',
-        pdfDownloadUrl: '/samples/english/wordsearch/custom word list.pdf',
+        worksheetSrc: '/samples/dutch/wordsearch/sample-3.jpeg',
+        answerKeySrc: '/samples/dutch/wordsearch/sample-3-answer.jpeg',
+        altText: 'Woordzoeker werkblad voor kinderen - thematische woordpuzzel met kleurplaten',
+        pdfDownloadUrl: '/samples/dutch/wordsearch/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/dutch/wordsearch/sample-4.jpeg',
+        answerKeySrc: '/samples/dutch/wordsearch/sample-4-answer.jpeg',
+        altText: 'Woordzoeker oefenbladen gratis - letters leren puzzel voor fijne motoriek',
+        pdfDownloadUrl: '/samples/dutch/wordsearch/sample-4.pdf',
       },
     ],
   },
@@ -267,7 +300,7 @@ De gratis versie bevat een klein watermerk. Dit is niet storend voor klassikaal 
 
   // Use Cases - FULL text from wordsearch.md use case sections
   useCases: {
-    sectionTitle: 'Perfect voor Leerkrachten en Ouders - Werkbladen Kleuters tot Groep 5 voor Iedereen',
+    sectionTitle: 'Perfect voor Leerkrachten en Ouders - Gratis Werkbladen voor Kleuters tot Groep 5',
     sectionDescription: 'De woordzoeker generator is ontworpen voor verschillende gebruikers. Van kleuterjuffen tot ouders die thuisonderwijs geven. Ontdek hoe deze tool past bij jouw situatie.',
     badgeText: 'Voor wie',
     readMoreLabel: 'Lees meer',
@@ -455,7 +488,7 @@ Combineer woordzoekers met andere werkbladen tot pakketten. Een thema-bundel met
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Combineer Woordzoekers met Andere Generatoren - Complete Werkbladen Pakketten',
+    sectionTitle: 'Combineer Woordzoekers met Andere Gratis Werkbladen Generatoren',
     sectionDescription: 'Met een abonnement krijg je toegang tot 33 generatoren. Combineer verschillende werkblad-typen voor maximale impact. Woordzoekers alleen zijn al waardevol. In combinatie met andere apps ontstaat echte meerwaarde.',
     ctaTitle: 'Klaar om geweldige werkbladen te maken?',
     ctaDescription: 'Sluit je aan bij duizenden leerkrachten die professionele werkbladen maken. Onbeperkt genereren, commerciële licentie inbegrepen.',

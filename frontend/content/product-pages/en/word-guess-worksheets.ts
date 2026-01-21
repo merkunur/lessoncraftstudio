@@ -21,19 +21,19 @@ export const wordGuessEnContent: ProductPageContent = {
     canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/word-guess-worksheets',
     images: [
       {
-        url: 'https://www.lessoncraftstudio.com/samples/english/word%20guess/clue-grid_worksheet.jpeg',
+        url: 'https://www.lessoncraftstudio.com/samples/english/word-guess/sample-1.jpeg',
         width: 2480,
         height: 3508,
         caption: 'Free printable word guess worksheet with picture clues for kindergarten vocabulary practice'
       },
       {
-        url: 'https://www.lessoncraftstudio.com/samples/english/word%20guess/landscape.jpeg',
+        url: 'https://www.lessoncraftstudio.com/samples/english/word-guess/sample-2.jpeg',
         width: 3508,
         height: 2480,
         caption: 'Landscape word guess spelling worksheet for first grade phonics practice'
       },
       {
-        url: 'https://www.lessoncraftstudio.com/samples/english/word%20guess/custom%20word%20list.jpeg',
+        url: 'https://www.lessoncraftstudio.com/samples/english/word-guess/sample-3.jpeg',
         width: 2480,
         height: 3508,
         caption: 'Custom word list word guess worksheet for sight words and spelling practice'
@@ -54,7 +54,7 @@ Our word guess maker creates worksheets for phonics worksheets practice and sigh
 Customize difficulty levels from simple 3-letter words to challenging 8-letter vocabulary. Choose between four difficulty settings with partial letter clues. Adjust for kindergarten worksheets through first grade worksheets skill levels. Upload your own images or select from our 3000+ image library. Create themed learning packets combining word guess with coloring worksheets and tracing worksheets practice.
 
 Generate 1-10 puzzles per page with automatic layout optimization. Add name and date fields for classroom organization. Include exercise numbers for easy reference. Choose uppercase or lowercase letters to match your curriculum. Download as PDF or JPEG in professional 300 DPI quality. Create both student worksheets and answer keys instantly. Free printable worksheets download in seconds with your subscription.`,
-    previewImageSrc: '/samples/english/word guess/clue-grid_worksheet.jpeg',
+    previewImageSrc: '/samples/english/word-guess/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Try Free',
       viewSamples: 'View Samples',
@@ -66,7 +66,7 @@ Generate 1-10 puzzles per page with automatic layout optimization. Add name and 
     },
   },
 
-  // Sample Gallery - REAL file paths from samples/english/word guess/
+  // Sample Gallery - REAL file paths from samples/english/word-guess/
   samples: {
     sectionTitle: 'Word Guess Worksheet Samples',
     downloadLabel: 'Download Free Sample',
@@ -75,24 +75,38 @@ Generate 1-10 puzzles per page with automatic layout optimization. Add name and 
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/word guess/clue-grid_worksheet.jpeg',
-        answerKeySrc: '/samples/english/word guess/clue-grid_answer-key.jpeg',
+        worksheetSrc: '/samples/english/word-guess/sample-1.jpeg',
+        answerKeySrc: '/samples/english/word-guess/sample-1-answer.jpeg',
         altText: 'Free printable word guess worksheets - clue grid puzzle with picture clues for kindergarten vocabulary practice',
-        pdfDownloadUrl: '/samples/english/word guess/clue-grid_worksheet.pdf',
+        pdfDownloadUrl: '/samples/english/word-guess/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/word guess/landscape.jpeg',
-        answerKeySrc: '/samples/english/word guess/landscape answer-key.jpeg',
+        worksheetSrc: '/samples/english/word-guess/sample-2.jpeg',
+        answerKeySrc: '/samples/english/word-guess/sample-2-answer.jpeg',
         altText: 'Word guess worksheet for kids - landscape spelling puzzle with colorful images for first grade phonics',
-        pdfDownloadUrl: '/samples/english/word guess/landscape.pdf',
+        pdfDownloadUrl: '/samples/english/word-guess/sample-2.pdf',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/word guess/custom word list.jpeg',
-        answerKeySrc: '/samples/english/word guess/custom word list answer-key.jpeg',
+        worksheetSrc: '/samples/english/word-guess/sample-3.jpeg',
+        answerKeySrc: '/samples/english/word-guess/sample-3-answer.jpeg',
         altText: 'Custom word list word guess worksheets - sight words spelling practice free printable for kindergarten',
-        pdfDownloadUrl: '/samples/english/word guess/custom word list.pdf',
+        pdfDownloadUrl: '/samples/english/word-guess/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/english/word-guess/sample-4.jpeg',
+        answerKeySrc: '/samples/english/word-guess/sample-4-answer.jpeg',
+        altText: 'Word guess free printable worksheet - vocabulary building activity for preschool and kindergarten',
+        pdfDownloadUrl: '/samples/english/word-guess/sample-4.pdf',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/english/word-guess/sample-5.jpeg',
+        answerKeySrc: '/samples/english/word-guess/sample-5-answer.jpeg',
+        altText: 'Spelling puzzle worksheet for kids - word guess activity with picture clues for first grade',
+        pdfDownloadUrl: '/samples/english/word-guess/sample-5.pdf',
       },
     ],
   },

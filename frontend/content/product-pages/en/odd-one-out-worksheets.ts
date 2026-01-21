@@ -20,7 +20,7 @@ export const oddOneOutEnContent: ProductPageContent = {
 Our odd one out worksheet maker helps teachers create engaging critical thinking exercises. Students identify which item doesn't belong in each group. Perfect for visual discrimination practice and categorization skills. Each worksheet includes professional formatting and clear exercise layouts.
 
 The odd one out generator creates worksheets for any subject or theme. Choose from 3000+ images or upload your own pictures. Generate worksheets in 11 languages with complete customization. Your Full Access subscription includes commercial licensing for selling worksheets on Teachers Pay Teachers, Etsy, and Amazon KDP.`,
-    previewImageSrc: '/samples/english/odd one out/similar.jpeg',
+    previewImageSrc: '/samples/english/odd-one-out/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Try Free',
       viewSamples: 'View Samples',
@@ -42,13 +42,13 @@ The odd one out generator creates worksheets for any subject or theme. Choose fr
     canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/odd-one-out-worksheets',
     images: [
       {
-        url: 'https://www.lessoncraftstudio.com/samples/english/odd one out/similar.jpeg',
+        url: 'https://www.lessoncraftstudio.com/samples/english/odd-one-out/sample-1.jpeg',
         width: 2480,
         height: 3508,
         caption: 'Free odd one out worksheets for kindergarten - visual discrimination activity with themed categorization exercises'
       },
       {
-        url: 'https://www.lessoncraftstudio.com/samples/english/odd one out/identical.jpeg',
+        url: 'https://www.lessoncraftstudio.com/samples/english/odd-one-out/sample-2.jpeg',
         width: 2480,
         height: 3508,
         caption: 'Odd one out worksheet printable - critical thinking puzzles for kids with identical mode logic exercises'
@@ -56,7 +56,7 @@ The odd one out generator creates worksheets for any subject or theme. Choose fr
     ],
   },
 
-  // Sample Gallery - REAL file paths from samples/english/odd one out/
+  // Sample Gallery - REAL file paths from samples/english/odd-one-out/
   samples: {
     sectionTitle: 'Worksheet Samples',
     downloadLabel: 'Download Free Sample',
@@ -65,17 +65,38 @@ The odd one out generator creates worksheets for any subject or theme. Choose fr
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/odd one out/similar.jpeg',
-        answerKeySrc: '/samples/english/odd one out/similar answer-key.jpeg',
+        worksheetSrc: '/samples/english/odd-one-out/sample-1.jpeg',
+        answerKeySrc: '/samples/english/odd-one-out/sample-1-answer.jpeg',
         altText: 'Free odd one out worksheets for kindergarten - similar mode visual discrimination worksheet for kids with themed categorization exercises',
-        pdfDownloadUrl: '/samples/english/odd one out/similar.pdf',
+        pdfDownloadUrl: '/samples/english/odd-one-out/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/odd one out/identical.jpeg',
-        answerKeySrc: '/samples/english/odd one out/identical answer-key.jpeg',
+        worksheetSrc: '/samples/english/odd-one-out/sample-2.jpeg',
+        answerKeySrc: '/samples/english/odd-one-out/sample-2-answer.jpeg',
         altText: 'Free printable odd one out worksheet - identical mode critical thinking activity for first grade with logic puzzles for kids',
-        pdfDownloadUrl: '/samples/english/odd one out/identical.pdf',
+        pdfDownloadUrl: '/samples/english/odd-one-out/sample-2.pdf',
+      },
+      {
+        id: '3',
+        worksheetSrc: '/samples/english/odd-one-out/sample-3.jpeg',
+        answerKeySrc: '/samples/english/odd-one-out/sample-3-answer.jpeg',
+        altText: 'Odd one out printable worksheet - visual discrimination activity for preschool and kindergarten critical thinking practice',
+        pdfDownloadUrl: '/samples/english/odd-one-out/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/english/odd-one-out/sample-4.jpeg',
+        answerKeySrc: '/samples/english/odd-one-out/sample-4-answer.jpeg',
+        altText: 'Free odd one out worksheet for kids - categorization exercises with colorful images for early learning',
+        pdfDownloadUrl: '/samples/english/odd-one-out/sample-4.pdf',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/english/odd-one-out/sample-5.jpeg',
+        answerKeySrc: '/samples/english/odd-one-out/sample-5-answer.jpeg',
+        altText: 'Odd one out activity sheet - free printable logic worksheet for kindergarten and first grade students',
+        pdfDownloadUrl: '/samples/english/odd-one-out/sample-5.pdf',
       },
     ],
   },

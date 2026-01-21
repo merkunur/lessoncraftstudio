@@ -21,19 +21,19 @@ export const picturePathEnContent: ProductPageContent = {
     canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/picture-path-worksheets',
     images: [
       {
-        url: 'https://www.lessoncraftstudio.com/samples/english/picture%20path/picture%20path.jpeg',
+        url: 'https://www.lessoncraftstudio.com/samples/english/picture-path/sample-1.jpeg',
         width: 2480,
         height: 3508,
         caption: 'Free printable maze worksheets for kindergarten - picture path visual tracking activity with colorful images'
       },
       {
-        url: 'https://www.lessoncraftstudio.com/samples/english/picture%20path/classic%20maze.jpeg',
+        url: 'https://www.lessoncraftstudio.com/samples/english/picture-path/sample-2.jpeg',
         width: 2480,
         height: 3508,
         caption: 'Free worksheet for kids - classic maze with collectible counting for first grade math integration'
       },
       {
-        url: 'https://www.lessoncraftstudio.com/samples/english/picture%20path/right%20path.jpeg',
+        url: 'https://www.lessoncraftstudio.com/samples/english/picture-path/sample-3.jpeg',
         width: 2480,
         height: 3508,
         caption: 'Free printables for kindergarten - choose the right path maze worksheet for critical thinking'
@@ -52,7 +52,7 @@ Picture Path transforms traditional maze worksheets into engaging visual learnin
 Teachers use our maze generator to create free printable worksheets that combine visual pathfinding with academic content. Add alphabet worksheets practice by labeling path images with letters. Integrate math worksheets concepts by placing addition worksheets problems along the maze route. Include sight words worksheets vocabulary as students navigate through the pathway. Combine phonics worksheets elements by using themed images that reinforce letter sounds.
 
 The picture path worksheet maker works perfectly for differentiated instruction across grade levels. Kindergarten worksheets benefit from simple grid sizes and clear visual pathways. First grade worksheets can feature more complex mazes with multiple collectible items. Adjust grid complexity from 12x12 for beginners to 15x15 for advanced students. Every maze supports custom text addition for integrating tracing worksheets practice or coloring worksheets elements.`,
-    previewImageSrc: '/samples/english/picture path/picture path.jpeg',
+    previewImageSrc: '/samples/english/picture-path/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Try Free',
       viewSamples: 'View Samples',
@@ -64,7 +64,7 @@ The picture path worksheet maker works perfectly for differentiated instruction 
     },
   },
 
-  // Sample Gallery - REAL file paths from samples/english/picture path/
+  // Sample Gallery - REAL file paths from samples/english/picture-path/
   samples: {
     sectionTitle: 'Worksheet Samples',
     downloadLabel: 'Download Free Sample',
@@ -73,24 +73,38 @@ The picture path worksheet maker works perfectly for differentiated instruction 
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/picture path/picture path.jpeg',
-        answerKeySrc: '/samples/english/picture path/picture path answer_key.jpeg',
+        worksheetSrc: '/samples/english/picture-path/sample-1.jpeg',
+        answerKeySrc: '/samples/english/picture-path/sample-1-answer.jpeg',
         altText: 'Free printable maze worksheet for kindergarten - picture pathway visual tracking activity for kids',
-        pdfDownloadUrl: '/samples/english/picture path/picture path.pdf',
+        pdfDownloadUrl: '/samples/english/picture-path/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/picture path/classic maze.jpeg',
-        answerKeySrc: '/samples/english/picture path/classic maze answer_key.jpeg',
+        worksheetSrc: '/samples/english/picture-path/sample-2.jpeg',
+        answerKeySrc: '/samples/english/picture-path/sample-2-answer.jpeg',
         altText: 'Free worksheet for kids - classic maze with collectible counting for kindergarten math practice',
-        pdfDownloadUrl: '/samples/english/picture path/classic maze.pdf',
+        pdfDownloadUrl: '/samples/english/picture-path/sample-2.pdf',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/picture path/right path.jpeg',
-        answerKeySrc: '/samples/english/picture path/right path answer_key.jpeg',
+        worksheetSrc: '/samples/english/picture-path/sample-3.jpeg',
+        answerKeySrc: '/samples/english/picture-path/sample-3-answer.jpeg',
         altText: 'Free printable worksheet for kindergarten - choose the right path maze for first grade critical thinking',
-        pdfDownloadUrl: '/samples/english/picture path/right path.pdf',
+        pdfDownloadUrl: '/samples/english/picture-path/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/english/picture-path/sample-4.jpeg',
+        answerKeySrc: '/samples/english/picture-path/sample-4-answer.jpeg',
+        altText: 'Picture path maze free printable - visual navigation worksheet for preschool and kindergarten',
+        pdfDownloadUrl: '/samples/english/picture-path/sample-4.pdf',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/english/picture-path/sample-5.jpeg',
+        answerKeySrc: '/samples/english/picture-path/sample-5-answer.jpeg',
+        altText: 'Maze worksheet for kids - free printable picture path activity for first grade problem solving',
+        pdfDownloadUrl: '/samples/english/picture-path/sample-5.pdf',
       },
     ],
   },

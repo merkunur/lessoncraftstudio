@@ -21,13 +21,13 @@ export const treasureHuntEnContent: ProductPageContent = {
     canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/treasure-hunt-worksheets',
     images: [
       {
-        url: 'https://www.lessoncraftstudio.com/samples/english/treasure hunt/up down.jpeg',
+        url: 'https://www.lessoncraftstudio.com/samples/english/treasure-hunt/sample-1.jpeg',
         width: 2480,
         height: 3508,
         caption: 'Free treasure hunt worksheets for kindergarten - up down left right directions practice'
       },
       {
-        url: 'https://www.lessoncraftstudio.com/samples/english/treasure hunt/north south.jpeg',
+        url: 'https://www.lessoncraftstudio.com/samples/english/treasure-hunt/sample-2.jpeg',
         width: 2480,
         height: 3508,
         caption: 'Following directions worksheets free printable - cardinal directions for first grade'
@@ -44,7 +44,7 @@ export const treasureHuntEnContent: ProductPageContent = {
 Treasure hunt worksheets help young learners practice following multi-step directions while building spatial awareness and directional vocabulary. Students read written instructions and navigate through a 5x5 grid of images to find the hidden treasure. Each worksheet combines reading comprehension practice with visual learning in an engaging puzzle format that keeps children motivated.
 
 This treasure hunt generator creates unique worksheets every time you click generate. Choose from thousands of child-friendly images organized by theme or upload your own pictures to personalize worksheets for your students. Perfect for kindergarten teachers, first grade teachers, homeschool parents, and special education instructors who need differentiated following directions practice materials.`,
-    previewImageSrc: '/samples/english/treasure hunt/up down.jpeg',
+    previewImageSrc: '/samples/english/treasure-hunt/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Try Free',
       viewSamples: 'View Samples',
@@ -56,7 +56,7 @@ This treasure hunt generator creates unique worksheets every time you click gene
     },
   },
 
-  // Sample Gallery - REAL file paths from samples/english/treasure hunt/
+  // Sample Gallery - REAL file paths from samples/english/treasure-hunt/
   samples: {
     sectionTitle: 'Worksheet Samples',
     downloadLabel: 'Download Free Sample',
@@ -65,17 +65,38 @@ This treasure hunt generator creates unique worksheets every time you click gene
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/treasure hunt/up down.jpeg',
-        answerKeySrc: '/samples/english/treasure hunt/up down answer_key.jpeg',
+        worksheetSrc: '/samples/english/treasure-hunt/sample-1.jpeg',
+        answerKeySrc: '/samples/english/treasure-hunt/sample-1-answer.jpeg',
         altText: 'Free printable treasure hunt worksheets for kindergarten - up down left right directions practice for kids',
-        pdfDownloadUrl: '/samples/english/treasure hunt/up down.pdf',
+        pdfDownloadUrl: '/samples/english/treasure-hunt/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/treasure hunt/north south.jpeg',
-        answerKeySrc: '/samples/english/treasure hunt/north south answer_key.jpeg',
+        worksheetSrc: '/samples/english/treasure-hunt/sample-2.jpeg',
+        answerKeySrc: '/samples/english/treasure-hunt/sample-2-answer.jpeg',
         altText: 'Following directions worksheets free printable - cardinal directions north south east west worksheet for kids',
-        pdfDownloadUrl: '/samples/english/treasure hunt/north south.pdf',
+        pdfDownloadUrl: '/samples/english/treasure-hunt/sample-2.pdf',
+      },
+      {
+        id: '3',
+        worksheetSrc: '/samples/english/treasure-hunt/sample-3.jpeg',
+        answerKeySrc: '/samples/english/treasure-hunt/sample-3-answer.jpeg',
+        altText: 'Treasure hunt free printable worksheet - navigation activity for preschool and kindergarten spatial awareness',
+        pdfDownloadUrl: '/samples/english/treasure-hunt/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/english/treasure-hunt/sample-4.jpeg',
+        answerKeySrc: '/samples/english/treasure-hunt/sample-4-answer.jpeg',
+        altText: 'Free treasure hunt worksheet for kids - directional vocabulary practice with colorful grid',
+        pdfDownloadUrl: '/samples/english/treasure-hunt/sample-4.pdf',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/english/treasure-hunt/sample-5.jpeg',
+        answerKeySrc: '/samples/english/treasure-hunt/sample-5-answer.jpeg',
+        altText: 'Treasure hunt activity sheet - following directions free printable for kindergarten and first grade',
+        pdfDownloadUrl: '/samples/english/treasure-hunt/sample-5.pdf',
       },
     ],
   },

@@ -21,19 +21,19 @@ export const wordScrambleEnContent: ProductPageContent = {
     canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/word-scramble-worksheets',
     images: [
       {
-        url: 'https://www.lessoncraftstudio.com/samples/english/word%20scramble/word%20scramble%20portrait.jpeg',
+        url: 'https://www.lessoncraftstudio.com/samples/english/word-scramble/sample-1.jpeg',
         width: 2480,
         height: 3508,
         caption: 'Free printable word scramble worksheets for kindergarten - vocabulary puzzle with picture clues'
       },
       {
-        url: 'https://www.lessoncraftstudio.com/samples/english/word%20scramble/word%20scramble%20landscape.jpeg',
+        url: 'https://www.lessoncraftstudio.com/samples/english/word-scramble/sample-2.jpeg',
         width: 3508,
         height: 2480,
         caption: 'Word scramble worksheets landscape - spelling puzzles for first grade vocabulary practice'
       },
       {
-        url: 'https://www.lessoncraftstudio.com/samples/english/word%20scramble/custom%20word%20list.jpeg',
+        url: 'https://www.lessoncraftstudio.com/samples/english/word-scramble/sample-3.jpeg',
         width: 2480,
         height: 3508,
         caption: 'Free word scramble worksheet custom word list - sight words practice for kids'
@@ -54,7 +54,7 @@ Core Bundle subscribers create unlimited word scramble worksheets for classroom 
 Our word scramble maker generates worksheets showing scrambled letters with optional image clues. Students unscramble letters to spell words correctly. You control difficulty by choosing how many letter clues to reveal. Easy mode reveals half the letters. Normal mode reveals one-quarter of letters. Tough mode reveals one-sixth of letters. No clues mode challenges advanced students to unscramble with zero hints.
 
 Every worksheet downloads as a 300 DPI professional-quality PDF or JPEG file. Include answer keys showing correct spellings. Add name and date fields for student accountability. Your Core Bundle subscription costs $144 per year and includes commercial licensing for selling worksheets on Teachers Pay Teachers, Etsy, and Amazon KDP. Generate as many word scramble worksheets as you need with one affordable subscription.`,
-    previewImageSrc: '/samples/english/word scramble/word scramble portrait.jpeg',
+    previewImageSrc: '/samples/english/word-scramble/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Try Free',
       viewSamples: 'View Samples',
@@ -66,7 +66,7 @@ Every worksheet downloads as a 300 DPI professional-quality PDF or JPEG file. In
     },
   },
 
-  // Sample Gallery - REAL file paths from samples/english/word scramble/
+  // Sample Gallery - REAL file paths from samples/english/word-scramble/
   samples: {
     sectionTitle: 'Free Printable Word Scramble Worksheet Samples',
     downloadLabel: 'Download Free Sample',
@@ -75,27 +75,43 @@ Every worksheet downloads as a 300 DPI professional-quality PDF or JPEG file. In
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/word scramble/word scramble portrait.jpeg',
-        answerKeySrc: '/samples/english/word scramble/word scramble portrait answer-key.jpeg',
+        worksheetSrc: '/samples/english/word-scramble/sample-1.jpeg',
+        answerKeySrc: '/samples/english/word-scramble/sample-1-answer.jpeg',
         altText: 'Word scramble worksheets free printable - portrait vocabulary puzzles for kindergarten and first grade students',
         imageTitle: 'Free Word Scramble Worksheet Portrait - Kindergarten Vocabulary Puzzle Printable',
-        pdfDownloadUrl: '/samples/english/word scramble/word scramble portrait.pdf',
+        pdfDownloadUrl: '/samples/english/word-scramble/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/word scramble/word scramble landscape.jpeg',
-        answerKeySrc: '/samples/english/word scramble/word scramble landscape answer-key.jpeg',
+        worksheetSrc: '/samples/english/word-scramble/sample-2.jpeg',
+        answerKeySrc: '/samples/english/word-scramble/sample-2-answer.jpeg',
         altText: 'Free word scramble worksheets landscape - spelling puzzles with picture clues for kindergarten kids',
         imageTitle: 'Free Printable Word Scramble Worksheet Landscape - Spelling Puzzles for Kids',
-        pdfDownloadUrl: '/samples/english/word scramble/word scramble landscape.pdf',
+        pdfDownloadUrl: '/samples/english/word-scramble/sample-2.pdf',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/word scramble/custom word list.jpeg',
-        answerKeySrc: '/samples/english/word scramble/custom word list answer-key.jpeg',
+        worksheetSrc: '/samples/english/word-scramble/sample-3.jpeg',
+        answerKeySrc: '/samples/english/word-scramble/sample-3-answer.jpeg',
         altText: 'Free word scramble worksheets custom word list - printable sight words worksheet for kindergarten vocabulary practice',
         imageTitle: 'Free Printable Word Scramble Worksheet Custom Words - Sight Words Practice for Kids',
-        pdfDownloadUrl: '/samples/english/word scramble/custom word list.pdf',
+        pdfDownloadUrl: '/samples/english/word-scramble/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/english/word-scramble/sample-4.jpeg',
+        answerKeySrc: '/samples/english/word-scramble/sample-4-answer.jpeg',
+        altText: 'Word scramble free printable worksheet - unscramble vocabulary activity for preschool and kindergarten',
+        imageTitle: 'Free Word Scramble Printable - Vocabulary Building for Kids',
+        pdfDownloadUrl: '/samples/english/word-scramble/sample-4.pdf',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/english/word-scramble/sample-5.jpeg',
+        answerKeySrc: '/samples/english/word-scramble/sample-5-answer.jpeg',
+        altText: 'Spelling puzzle worksheet for kids - word scramble activity with letter boxes for first grade',
+        imageTitle: 'Free Printable Word Scramble - First Grade Spelling Practice',
+        pdfDownloadUrl: '/samples/english/word-scramble/sample-5.pdf',
       },
     ],
   },

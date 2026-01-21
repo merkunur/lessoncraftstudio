@@ -117,6 +117,7 @@ The Alphabet Train worksheet maker transforms alphabet learning into an exciting
         answerKeySrc: '/samples/english/alphabet-train/sample-5-answer.jpeg',
         altText: 'Free printable sight words worksheets and alphabet worksheets for kids - train theme literacy activity',
         imageTitle: 'Sight Words Worksheets - Alphabet Train Literacy Activity',
+        pdfDownloadUrl: '/samples/english/alphabet-train/sample-5.pdf',
       },
     ],
   },

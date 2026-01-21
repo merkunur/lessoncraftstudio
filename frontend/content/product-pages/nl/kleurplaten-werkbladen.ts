@@ -27,22 +27,29 @@ export const coloringNlContent: ProductPageContent = {
   seo: {
     slug: 'kleurplaten-werkbladen',
     appId: 'coloring',
-    title: 'Kleurplaten Generator - Gratis Printbare Kleurplaten voor Kleuters en Groep 3',
-    description: 'Maak professionele kleurplaten met onze gebruiksvriendelijke kleurplaten generator. Met je Basispakket abonnement krijg je onbeperkt toegang tot het maken van werkbladen zonder extra kosten per werkblad. Download kleurplaten als PDF of JPEG en print ze direct uit.',
-    keywords: 'kleurplaten, werkbladen groep 3, werkbladen kleuters, oefenbladen gratis, fijne motoriek, letters leren, schrijven oefenen, rekenen werkbladen, veilig leren lezen, sommen tot 20',
+    title: 'Kleurplaten Gratis Werkblad Generator - Gratis Werkbladen voor Kinderen en Kleuters',
+    description: 'Maak professionele kleurplaten met onze gratis werkbladen generator. Met je Basispakket abonnement krijg je onbeperkt toegang tot werkblad voor kinderen maken. Download gratis printables als PDF of JPEG.',
+    keywords: 'kleurplaten, gratis werkblad, gratis werkbladen, gratis printables, werkblad voor kinderen, werkblad voor kleuters, werkbladen groep 3, werkbladen kleuters, oefenbladen gratis, fijne motoriek',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/kleurplaten-werkbladen',
+    images: [
+      { url: 'https://www.lessoncraftstudio.com/samples/dutch/coloring/sample-1.jpeg', width: 2480, height: 3508, caption: 'Gratis werkblad kleurplaat - werkblad voor kinderen met dierenthema' },
+      { url: 'https://www.lessoncraftstudio.com/samples/dutch/coloring/sample-2.jpeg', width: 2480, height: 3508, caption: 'Gratis werkbladen kleurplaat - werkblad voor kleuters met fijne motoriek' },
+      { url: 'https://www.lessoncraftstudio.com/samples/dutch/coloring/sample-3.jpeg', width: 2480, height: 3508, caption: 'Gratis printables kleurplaat - oefenbladen gratis voor werkbladen groep 3' },
+      { url: 'https://www.lessoncraftstudio.com/samples/dutch/coloring/sample-4.jpeg', width: 2480, height: 3508, caption: 'Werkblad voor kinderen kleurplaat - gratis werkblad met seizoensthema' },
+      { url: 'https://www.lessoncraftstudio.com/samples/dutch/coloring/sample-5.jpeg', width: 2480, height: 3508, caption: 'Gratis werkblad voor kinderen - kleurplaat voor fijne motoriek' },
+    ],
   },
 
   // Hero Section - FULL text from coloring.md paragraphs 1-4
   hero: {
-    title: 'Kleurplaten Generator',
-    subtitle: 'Gratis Printbare Kleurplaten voor Kleuters en Groep 3',
-    description: `Maak professionele kleurplaten met onze gebruiksvriendelijke kleurplaten generator. Met je Basispakket abonnement krijg je onbeperkt toegang tot het maken van werkbladen zonder extra kosten per werkblad. Download kleurplaten als PDF of JPEG en print ze direct uit. Ideaal voor leerkrachten die werkbladen kleuters nodig hebben.
+    title: 'Gratis Werkblad Kleurplaten Generator - Gratis Werkbladen Maken',
+    subtitle: 'Gratis Printables Kleurplaten - Werkblad voor Kinderen en Werkblad voor Kleuters',
+    description: `Maak professionele kleurplaten met onze gratis werkbladen generator. Met je Basispakket abonnement krijg je onbeperkt toegang tot werkblad voor kinderen maken zonder extra kosten. Download gratis printables als PDF of JPEG en print ze direct uit. Ideaal voor leerkrachten die werkblad voor kleuters nodig hebben.
 
-Onze kleurplaten generator is speciaal ontwikkeld voor het basisonderwijs. Leerkrachten van groep 1 en 2 gebruiken deze tool dagelijks. Met meer dan 3000 kindvriendelijke afbeeldingen maak je in enkele minuten prachtige werkbladen groep 3. De generator ondersteunt 11 talen waaronder Nederlands.
+Onze kleurplaten generator is speciaal ontwikkeld voor het basisonderwijs als gratis werkblad oplossing. Leerkrachten van groep 1 en 2 gebruiken deze tool dagelijks. Met meer dan 3000 kindvriendelijke afbeeldingen maak je in enkele minuten prachtige gratis werkbladen groep 3. De generator ondersteunt 11 talen waaronder Nederlands.
 
-Kleurplaten zijn essentieel voor de ontwikkeling van jonge kinderen. Ze stimuleren de fijne motoriek en creativiteit. Onze werkbladen kleuters bevatten thema's die aansluiten bij het schooljaar. Denk aan seizoenen, dieren, voertuigen en feestdagen. Elk werkblad is bewerkbaar op het canvas.`,
-    previewImageSrc: '/samples/english/coloring/coloring portrait 1.png',
+Kleurplaten zijn essentieel voor de ontwikkeling van jonge kinderen. Ze stimuleren de fijne motoriek en creativiteit. Onze gratis printables werkbladen kleuters bevatten thema's die aansluiten bij het schooljaar. Denk aan seizoenen, dieren, voertuigen en feestdagen. Elk werkblad voor kinderen is bewerkbaar op het canvas.`,
+    previewImageSrc: '/samples/dutch/coloring/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Gratis Uitproberen',
       viewSamples: 'Voorbeelden Bekijken',
@@ -61,9 +68,9 @@ Kleurplaten zijn essentieel voor de ontwikkeling van jonge kinderen. Ze stimuler
     },
   },
 
-  // Sample Gallery - REAL file paths from samples/english/coloring/
+  // Sample Gallery - REAL file paths from samples/dutch/coloring/
   samples: {
-    sectionTitle: 'Kleurplaten Voorbeelden',
+    sectionTitle: 'Gratis Werkbladen Kleurplaten Voorbeelden - Werkblad voor Kinderen Downloaden',
     sectionDescription: 'Download gratis voorbeeldwerkbladen om onze professionele kwaliteit te ervaren',
     downloadLabel: 'Gratis Voorbeeld Downloaden',
     worksheetLabel: 'Werkblad',
@@ -77,46 +84,45 @@ Kleurplaten zijn essentieel voor de ontwikkeling van jonge kinderen. Ze stimuler
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/coloring/coloring portrait 1.png',
+        worksheetSrc: '/samples/dutch/coloring/sample-1.jpeg',
         answerKeySrc: '',
-        altText: 'Kleurplaat portret formaat voor werkbladen kleuters en fijne motoriek',
+        altText: 'Gratis werkblad kleurplaat - werkblad voor kinderen met dierenthema voor fijne motoriek',
+        pdfDownloadUrl: '/samples/dutch/coloring/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/coloring/coloring portrait 2.png',
+        worksheetSrc: '/samples/dutch/coloring/sample-2.jpeg',
         answerKeySrc: '',
-        altText: 'Kleurplaat portret voor werkbladen groep 3 met kindvriendelijke afbeeldingen',
+        altText: 'Gratis werkbladen kleurplaat - werkblad voor kleuters met seizoensthema',
+        pdfDownloadUrl: '/samples/dutch/coloring/sample-2.pdf',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/coloring/coloring portrait 3.png',
+        worksheetSrc: '/samples/dutch/coloring/sample-3.jpeg',
         answerKeySrc: '',
-        altText: 'Kleurplaat werkblad voor oefenbladen gratis kwaliteit in het basisonderwijs',
+        altText: 'Gratis printables kleurplaat - oefenbladen gratis voor letters leren',
+        pdfDownloadUrl: '/samples/dutch/coloring/sample-3.pdf',
       },
       {
         id: '4',
-        worksheetSrc: '/samples/english/coloring/coloring landscape 1.png',
+        worksheetSrc: '/samples/dutch/coloring/sample-4.jpeg',
         answerKeySrc: '',
-        altText: 'Kleurplaat landschap formaat voor fijne motoriek ontwikkeling',
+        altText: 'Werkblad voor kinderen kleurplaat - gratis werkblad voor veilig leren lezen',
+        pdfDownloadUrl: '/samples/dutch/coloring/sample-4.pdf',
       },
       {
         id: '5',
-        worksheetSrc: '/samples/english/coloring/coloring landscape 2.png',
+        worksheetSrc: '/samples/dutch/coloring/sample-5.jpeg',
         answerKeySrc: '',
-        altText: 'Kleurplaat landschap voor creatieve werkbladen kleuters',
-      },
-      {
-        id: '6',
-        worksheetSrc: '/samples/english/coloring/coloring portrait 4.png',
-        answerKeySrc: '',
-        altText: 'Kleurplaat met thematische afbeeldingen voor letters leren combinaties',
+        altText: 'Gratis werkblad voor kinderen - kleurplaat werkblad voor kleuters',
+        pdfDownloadUrl: '/samples/dutch/coloring/sample-5.pdf',
       },
     ],
   },
 
   // Features Grid - FULL text from coloring.md feature sections
   features: {
-    sectionTitle: 'Kleurplaten Generator Functies - Alles Wat Je Nodig Hebt voor Werkbladen Groep 3',
+    sectionTitle: 'Functies Gratis Werkblad Kleurplaten Generator - Alles voor Werkbladen Groep 3',
     sectionDescription: 'Onze kleurplaten generator biedt alle functies die leerkrachten nodig hebben. Van eenvoudig maken tot volledig aanpassen. Hieronder vind je de belangrijkste mogelijkheden. Elke functie is ontworpen met het basisonderwijs in gedachten. Leerkrachten besparen uren per week met deze tool.',
     highlightBadgeText: 'Uitgelicht',
     readMoreLabel: 'Lees meer',
@@ -131,7 +137,7 @@ Kleurplaten zijn essentieel voor de ontwikkeling van jonge kinderen. Ze stimuler
       {
         id: '1',
         icon: '⚡',
-        title: 'Kleurplaten Maken in 3 Klikken - Werkbladen Kleuters Snel Genereren',
+        title: 'Gratis Werkblad Kleurplaten Maken in 3 Klikken - Werkblad voor Kleuters Snel Genereren',
         description: `Het maken van kleurplaten is verrassend eenvoudig. Kies een thema uit de bibliotheek. Selecteer de afbeeldingen die je wilt gebruiken. Klik op toevoegen en je kleurplaat verschijnt op het canvas.
 
 Binnen 3 minuten heb je een compleet werkblad. Werkbladen kleuters maken was nog nooit zo snel. Je hoeft geen ontwerpvaardigheden te hebben. De generator doet het zware werk voor je.`,
@@ -140,7 +146,7 @@ Binnen 3 minuten heb je een compleet werkblad. Werkbladen kleuters maken was nog
       {
         id: '2',
         icon: '✏️',
-        title: 'Volledig Bewerkbaar Canvas voor Kleurplaten - Oefenbladen Gratis Aanpassen',
+        title: 'Gratis Werkbladen Canvas voor Kleurplaten - Werkblad voor Kinderen Aanpassen',
         description: `Elk element op het canvas is volledig bewerkbaar. Sleep afbeeldingen naar de gewenste positie. Draai ze, vergroot of verklein ze. Verwijder wat je niet nodig hebt.
 
 Voeg tekst toe met 7 verschillende lettertypen. De oefenbladen gratis aanpassen gaat intuïtief. Je hebt volledige controle over het eindresultaat. Dit maakt elke kleurplaat uniek voor jouw klas.`,
@@ -149,7 +155,7 @@ Voeg tekst toe met 7 verschillende lettertypen. De oefenbladen gratis aanpassen 
       {
         id: '3',
         icon: '📤',
-        title: 'Upload Eigen Afbeeldingen voor Kleurplaten - Werkbladen Groep 3 Personaliseren',
+        title: 'Gratis Printables Upload Afbeeldingen - Werkblad voor Kinderen Personaliseren',
         description: `Wil je specifieke afbeeldingen gebruiken? Upload je eigen plaatjes. De generator accepteert JPEG, PNG en GIF bestanden. Je kunt meerdere bestanden tegelijk uploaden.
 
 Combineer eigen afbeeldingen met de bibliotheek. Dit is perfect voor werkbladen groep 3 over lokale thema's. Denk aan de mascotte van je school of foto's van een uitje.`,
@@ -158,7 +164,7 @@ Combineer eigen afbeeldingen met de bibliotheek. Dit is perfect voor werkbladen 
       {
         id: '4',
         icon: '🌍',
-        title: 'Kleurplaten in 11 Talen - Veilig Leren Lezen met Nederlandse Woordenschat',
+        title: 'Gratis Werkblad Kleurplaten in 11 Talen - Werkblad voor Kleuters Meertalig',
         description: `De generator ondersteunt 11 talen volledig. Nederlands is natuurlijk beschikbaar. Maar ook Duits, Frans, Spaans en meer. Dit is ideaal voor tweetalig onderwijs.
 
 Afbeeldingsnamen verschijnen in de gekozen taal. Kinderen kunnen zo veilig leren lezen met bekende woorden. Combineer kleurplaten met woordenschatoefeningen. De hele interface past zich aan de gekozen taal aan.`,
@@ -167,7 +173,7 @@ Afbeeldingsnamen verschijnen in de gekozen taal. Kinderen kunnen zo veilig leren
       {
         id: '5',
         icon: '🧮',
-        title: 'Tafels Oefenen met Kleurplaten - Rekenen Werkbladen Visueel Maken',
+        title: 'Gratis Werkbladen Tafels Oefenen - Werkblad voor Kinderen Rekenen Visueel',
         description: `Maak tafels oefenen leuk met kleurplaten. Voeg getallen toe aan je werkblad. Laat kinderen de uitkomst kleuren in een bepaalde kleur. Bijvoorbeeld: alle antwoorden van de tafel van 3 worden blauw.
 
 Dit maakt rekenen werkbladen interactief. Kinderen onthouden de tafels beter door de visuele associatie. Tafels oefenen wordt zo een creatieve activiteit.`,
@@ -176,7 +182,7 @@ Dit maakt rekenen werkbladen interactief. Kinderen onthouden de tafels beter doo
       {
         id: '6',
         icon: '💼',
-        title: 'Commerciële Licentie voor Kleurplaten - Oefenbladen Gratis Verkopen op Etsy',
+        title: 'Gratis Printables Commerciële Licentie - Gratis Werkbladen Verkopen op Etsy',
         description: `Je Basispakket abonnement bevat een volledige commerciële licentie. Verkoop je kleurplaten op Teachers Pay Teachers. Start een Etsy winkel met printbare werkbladen. Publiceer op Amazon KDP.
 
 Geen extra licentiekosten of naamsvermelding nodig. Oefenbladen gratis van extra kosten verkopen is mogelijk. De 300 DPI kwaliteit is professioneel genoeg voor commerciële verkoop.`,
@@ -185,7 +191,7 @@ Geen extra licentiekosten of naamsvermelding nodig. Oefenbladen gratis van extra
       {
         id: '7',
         icon: '🎨',
-        title: '3000+ Afbeeldingen voor Kleurplaten - Werkbladen Kleuters met Thema\'s',
+        title: 'Gratis Werkblad 3000+ Afbeeldingen - Werkblad voor Kleuters met Thema\'s',
         description: `De afbeeldingenbibliotheek bevat meer dan 3000 kindvriendelijke plaatjes. Alle afbeeldingen zijn georganiseerd per thema. Kies uit dieren, voertuigen, seizoenen, feestdagen en meer.
 
 Elk thema bevat tientallen afbeeldingen. De werkbladen kleuters bibliotheek groeit regelmatig. Je vindt altijd passende afbeeldingen voor je les. Zoek op trefwoord om snel te vinden wat je nodig hebt.`,
@@ -194,7 +200,7 @@ Elk thema bevat tientallen afbeeldingen. De werkbladen kleuters bibliotheek groe
       {
         id: '8',
         icon: '🖨️',
-        title: 'Professionele 300 DPI Kwaliteit - Werkbladen Groep 3 Printen zonder Kwaliteitsverlies',
+        title: 'Gratis Werkbladen 300 DPI Kwaliteit - Werkblad voor Kinderen Printen zonder Kwaliteitsverlies',
         description: `Alle kleurplaten worden geëxporteerd in 300 DPI. Dit is de standaard voor professioneel drukwerk. Print thuis of op school zonder kwaliteitsverlies.
 
 Kies tussen PDF of JPEG formaat. De grijswaarden optie bespaart inkt. Werkbladen groep 3 zien er altijd scherp en duidelijk uit. Ook na kopiëren blijft de kwaliteit behouden.`,
@@ -205,7 +211,7 @@ Kies tussen PDF of JPEG formaat. De grijswaarden optie bespaart inkt. Werkbladen
 
   // How-To Guide - FULL text from coloring.md step sections
   howTo: {
-    sectionTitle: 'Kleurplaten Maken in 5 Eenvoudige Stappen - Werkbladen Kleuters en Groep 3 binnen 3 Minuten',
+    sectionTitle: 'Gratis Werkbladen Kleurplaten Maken - Gratis Printables in 5 Stappen',
     sectionDescription: 'Het maken van professionele kleurplaten kost minder dan 3 minuten. Volg deze vijf stappen en je hebt een compleet werkblad. Geen ontwerpervaring nodig. De generator doet het zware werk voor je.',
     ctaText: 'Nu Starten',
     badgeText: 'Zo werkt het',
@@ -220,7 +226,7 @@ Kies tussen PDF of JPEG formaat. De grijswaarden optie bespaart inkt. Werkbladen
       {
         id: '1',
         number: 1,
-        title: 'Stap 1: Kies Je Thema voor Kleurplaten - Werkbladen Groep 3 met Dieren of Seizoenen',
+        title: 'Stap 1: Gratis Werkblad Thema Kiezen - Werkblad voor Kinderen met Dieren of Seizoenen',
         description: `Begin met het kiezen van een thema uit de bibliotheek. Je vindt meer dan 30 thema's. Populaire keuzes zijn dieren, voertuigen en seizoenen.
 
 Elk thema bevat tientallen afbeeldingen. Voor werkbladen groep 3 zijn de schoolthema's ideaal. Kleuters houden van dieren en sprookjes. Selecteer het thema dat past bij je les.`,
@@ -229,7 +235,7 @@ Elk thema bevat tientallen afbeeldingen. Voor werkbladen groep 3 zijn de schoolt
       {
         id: '2',
         number: 2,
-        title: 'Stap 2: Selecteer Afbeeldingen voor Oefenbladen Gratis - Letters Leren met Plaatjes',
+        title: 'Stap 2: Gratis Werkbladen Afbeeldingen Selecteren - Werkblad voor Kleuters met Plaatjes',
         description: `Na het kiezen van een thema zie je alle beschikbare afbeeldingen. Klik op een afbeelding om deze toe te voegen aan je canvas. Je kunt meerdere afbeeldingen combineren.
 
 Voor letters leren kies je afbeeldingen die beginnen met die letter. Bijvoorbeeld een appel voor de letter A. Oefenbladen gratis maken met thematische afbeeldingen is zo eenvoudig.`,
@@ -238,7 +244,7 @@ Voor letters leren kies je afbeeldingen die beginnen met die letter. Bijvoorbeel
       {
         id: '3',
         number: 3,
-        title: 'Stap 3: Pas Pagina-instellingen Aan - Rekenen Werkbladen met Sommen tot 20 Toevoegen',
+        title: 'Stap 3: Gratis Printables Pagina-instellingen - Werkblad voor Kinderen Aanpassen',
         description: `Kies het juiste paginaformaat voor je doel. Letter of A4 formaat is beschikbaar. Portret of liggend oriëntatie kun je selecteren.
 
 Pas de achtergrondkleur aan indien gewenst. Voeg een decoratieve rand toe uit de bibliotheek. Voor rekenen werkbladen voeg je tekstvelden toe met sommen tot 20. Zo combineer je kleuren met rekenen.`,
@@ -247,7 +253,7 @@ Pas de achtergrondkleur aan indien gewenst. Voeg een decoratieve rand toe uit de
       {
         id: '4',
         number: 4,
-        title: 'Stap 4: Bewerk Alles op het Canvas - Fijne Motoriek Werkbladen Kleuters Perfectioneren',
+        title: 'Stap 4: Gratis Werkblad Canvas Bewerken - Werkblad voor Kleuters Perfectioneren',
         description: `Nu komt het creatieve gedeelte. Sleep afbeeldingen naar de juiste positie. Vergroot of verklein ze met de hoekpunten. Draai afbeeldingen voor een speelse look.
 
 Voeg tekst toe met de gewenste lettertype. Voor fijne motoriek werkbladen voeg je schrijflijnen toe. Werkbladen kleuters krijgen vaak een naamveld bovenaan. Alles is aanpasbaar tot het perfect is.`,
@@ -256,7 +262,7 @@ Voeg tekst toe met de gewenste lettertype. Voor fijne motoriek werkbladen voeg j
       {
         id: '5',
         number: 5,
-        title: 'Stap 5: Download Je Kleurplaten - Oefenbladen Gratis Printen in Hoge Kwaliteit',
+        title: 'Stap 5: Gratis Werkbladen Download - Gratis Printables Printen in Hoge Kwaliteit',
         description: `Je kleurplaat is klaar om te downloaden. Kies tussen PDF of JPEG formaat. PDF is ideaal voor printen op school. JPEG werkt goed voor digitaal delen.
 
 Selecteer grijswaarden om inkt te besparen. De oefenbladen gratis downloaden gaat met een klik. Print direct uit op je thuisprinter of op school.`,
@@ -267,7 +273,7 @@ Selecteer grijswaarden om inkt te besparen. De oefenbladen gratis downloaden gaa
 
   // Use Cases - FULL text from coloring.md use case sections
   useCases: {
-    sectionTitle: 'Kleurplaten voor Leerkrachten, Ouders en Ondernemers - Werkbladen Groep 3 en Kleuters voor Iedereen',
+    sectionTitle: 'Gratis Werkblad voor Kinderen - Kleurplaten voor Leerkrachten en Ouders',
     sectionDescription: 'Onze kleurplaten generator is ontworpen voor verschillende gebruikers. Van kleuterjuffen tot thuisonderwijzende ouders. Ontdek hoe verschillende groepen de tool gebruiken.',
     badgeText: 'Voor wie',
     readMoreLabel: 'Lees meer',
@@ -277,7 +283,7 @@ Selecteer grijswaarden om inkt te besparen. De oefenbladen gratis downloaden gaa
         id: '1',
         icon: '👶',
         title: 'Leerkrachten Groep 1 en 2 - Werkbladen Kleuters voor Fijne Motoriek en Letters Leren',
-        subtitle: 'Werkbladen kleuters en fijne motoriek',
+        subtitle: 'Gratis werkblad voor kleuters en fijne motoriek',
         description: `Kleuterjuffen en -meesters gebruiken kleurplaten dagelijks. De werkbladen kleuters ondersteunen de ontwikkeling van fijne motoriek. Kinderen leren hun pengreep verbeteren door te kleuren.
 
 Combineer kleurplaten met letters leren voor het alfabet. De grote, duidelijke afbeeldingen zijn perfect voor jonge kinderen. Leerkrachten groep 1 en 2 besparen uren voorbereidingstijd.`,
@@ -287,7 +293,7 @@ Combineer kleurplaten met letters leren voor het alfabet. De grote, duidelijke a
         id: '2',
         icon: '📚',
         title: 'Leerkrachten Groep 3 - Veilig Leren Lezen met Kleurplaten en Sommen tot 20',
-        subtitle: 'Werkbladen groep 3 en Veilig leren lezen',
+        subtitle: 'Gratis werkbladen groep 3 en werkblad voor kinderen',
         description: `In groep 3 leren kinderen lezen en rekenen tegelijk. Kleurplaten ondersteunen veilig leren lezen door woord-beeld associaties. Voeg woordjes toe onder elke afbeelding.
 
 Kinderen lezen en kleuren tegelijk. Voor rekenen maak je werkbladen met sommen tot 20. Laat kinderen het antwoord berekenen en dan kleuren. Leerkrachten groep 3 vinden dit een effectieve methode.`,
@@ -297,7 +303,7 @@ Kinderen lezen en kleuren tegelijk. Voor rekenen maak je werkbladen met sommen t
         id: '3',
         icon: '🧮',
         title: 'Leerkrachten Groep 4 en 5 - Tafels Oefenen met Kleurplaten en Rekenen Werkbladen',
-        subtitle: 'Tafels oefenen en rekenen werkbladen',
+        subtitle: 'Gratis werkblad tafels oefenen en werkblad voor kinderen',
         description: `Voor de hogere groepen zijn kleurplaten ook waardevol. Tafels oefenen wordt leuker met een kleurplaat erbij. Maak rekenen werkbladen met vermenigvuldigingen.
 
 Kinderen kleuren het antwoord in een bepaalde kleur. De tafel van 3 wordt rood, de tafel van 7 wordt groen. Tafels oefenen met visuele beloningen werkt motiverend.`,
@@ -307,7 +313,7 @@ Kinderen kleuren het antwoord in een bepaalde kleur. De tafel van 3 wordt rood, 
         id: '4',
         icon: '🏠',
         title: 'Thuisonderwijs Ouders - Oefenbladen Gratis voor Letters Leren en Schrijven Oefenen',
-        subtitle: 'Oefenbladen gratis voor thuis',
+        subtitle: 'Gratis printables en gratis werkbladen voor thuis',
         description: `Ouders die thuisonderwijs geven hebben flexibele materialen nodig. Met de kleurplaten generator maak je precies wat je kind nodig heeft. Oefenbladen gratis downloaden bespaart geld.
 
 Combineer letters leren met thema's die je kind interessant vindt. Schrijven oefenen gaat beter met motiverende afbeeldingen. Thuisonderwijs ouders waarderen de aanpasbaarheid van elk werkblad.`,
@@ -317,7 +323,7 @@ Combineer letters leren met thema's die je kind interessant vindt. Schrijven oef
         id: '5',
         icon: '🌐',
         title: 'NT2 en Taalleerkrachten - Veilig Leren Lezen in 11 Talen met Kleurplaten',
-        subtitle: 'Werkbladen voor NT2 onderwijs',
+        subtitle: 'Gratis werkbladen voor NT2 onderwijs en werkblad voor kinderen',
         description: `Voor NT2 onderwijs zijn kleurplaten een krachtig hulpmiddel. De generator ondersteunt 11 talen volledig. Maak werkbladen voor veilig leren lezen in het Nederlands.
 
 Of combineer twee talen voor tweetalig onderwijs. Afbeeldingsnamen verschijnen in de gekozen taal. Kinderen leren nieuwe woorden terwijl ze kleuren.`,
@@ -327,7 +333,7 @@ Of combineer twee talen voor tweetalig onderwijs. Afbeeldingsnamen verschijnen i
         id: '6',
         icon: '💰',
         title: 'Ondernemende Leerkrachten - Oefenbladen Gratis Verkopen met Commerciële Licentie',
-        subtitle: 'Commerciële licentie voor ondernemers',
+        subtitle: 'Gratis werkblad verkopen met commerciële licentie',
         description: `Veel leerkrachten verdienen bij met het verkopen van werkbladen. De Basispakket bevat een volledige commerciële licentie. Verkoop je kleurplaten op Teachers Pay Teachers.
 
 Start een Etsy winkel met printbare oefenbladen. De 300 DPI kwaliteit is professioneel genoeg voor verkoop. Sommige leerkrachten verdienen honderden euro's per maand.`,
@@ -338,7 +344,7 @@ Start een Etsy winkel met printbare oefenbladen. De 300 DPI kwaliteit is profess
 
   // FAQ Section - FULL FAQs from coloring.md
   faq: {
-    sectionTitle: 'Veelgestelde Vragen over Kleurplaten en Werkbladen - Alles over Tafels Oefenen en Fijne Motoriek',
+    sectionTitle: 'Gratis Werkbladen FAQ - Veelgestelde Vragen over Kleurplaten en Werkblad voor Kleuters',
     sectionDescription: 'Hieronder beantwoorden we de meest gestelde vragen over onze kleurplaten generator. Van abonnementskosten tot printmogelijkheden.',
     showMoreText: 'Meer vragen tonen',
     showLessText: 'Minder tonen',
@@ -350,62 +356,62 @@ Start een Etsy winkel met printbare oefenbladen. De 300 DPI kwaliteit is profess
     items: [
       {
         id: '1',
-        question: 'Is de Kleurplaten Generator Echt Gratis te Gebruiken?',
+        question: 'Is de Gratis Werkblad Kleurplaten Generator Echt Gratis te Gebruiken?',
         answer: 'De kleurplaten generator vereist een Basispakket abonnement. Dit kost €144 per jaar of €15 per maand. Met je abonnement maak je onbeperkt kleurplaten zonder extra kosten per werkblad. Er zijn geen verborgen kosten. Het Basispakket bevat 10 populaire generators inclusief kleurplaten. Het Volledige Toegang abonnement kost €240 per jaar en bevat alle 33 generators. Beide abonnementen bevatten een commerciële licentie en ondersteuning voor 11 talen.',
       },
       {
         id: '2',
-        question: 'Kan Ik Kleurplaten Thuis Printen op een Gewone Printer?',
+        question: 'Kan Ik Gratis Werkbladen Kleurplaten Thuis Printen op een Gewone Printer?',
         answer: 'Ja, alle kleurplaten zijn ontworpen voor thuisprinters. De 300 DPI kwaliteit print scherp op elke inkjet of laserprinter. Kies PDF formaat voor beste resultaten. De grijswaarden optie bespaart inkt. Gebruik gewoon kopieerpapier of iets dikker papier. Kleurplaten printen perfect op A4 of Letter formaat. Geen speciale printer of papier nodig.',
       },
       {
         id: '3',
-        question: 'Heb Ik Ontwerpvaardigheden Nodig voor Kleurplaten Maken?',
+        question: 'Heb Ik Ontwerpvaardigheden Nodig voor Gratis Printables Kleurplaten Maken?',
         answer: 'Nee, geen enkele ontwerpervaring is nodig. De generator doet al het werk. Kies een thema en selecteer afbeeldingen. Sleep ze naar de gewenste positie. Voeg tekst toe als je wilt. Download en print. Het hele proces duurt 3 minuten. Zelfs de minst technische gebruiker kan professionele kleurplaten maken. De interface is intuïtief en gebruiksvriendelijk.',
       },
       {
         id: '4',
-        question: 'Kan Ik Kleurplaten Gebruiken in Mijn Klas voor Leerlingen?',
+        question: 'Kan Ik Werkblad voor Kinderen Kleurplaten Gebruiken in Mijn Klas?',
         answer: 'Je Basispakket abonnement bevat onbeperkt klasgebruik. Print zoveel kopieën als je nodig hebt. Gebruik kleurplaten voor fijne motoriek oefeningen. Combineer ze met tafels oefenen opdrachten. Deel ze digitaal via je leerlingvolgsysteem. Er zijn geen beperkingen op het aantal leerlingen. Elke leerkracht met een abonnement mag de werkbladen gebruiken in de klas.',
       },
       {
         id: '5',
-        question: 'In Welke Talen Zijn Kleurplaten Beschikbaar - Veilig Leren Lezen in 11 Talen',
+        question: 'In Welke Talen Zijn Gratis Werkbladen Kleurplaten Beschikbaar?',
         answer: 'De generator ondersteunt 11 talen volledig. Nederlands, Duits, Frans, Spaans, Portugees, Italiaans, Engels, Zweeds, Deens, Noors en Fins. De hele interface past zich aan. Afbeeldingsnamen verschijnen in de gekozen taal. Dit is ideaal voor veilig leren lezen in meerdere talen. NT2 leerlingen profiteren van meertalige ondersteuning.',
       },
       {
         id: '6',
-        question: 'Kan Ik Kleurplaten Verkopen die Ik Maak met Deze Generator?',
+        question: 'Kan Ik Gratis Printables Kleurplaten Verkopen die Ik Maak?',
         answer: 'Ja, je Basispakket abonnement bevat een volledige commerciële licentie. Verkoop je kleurplaten op Teachers Pay Teachers. Start een Etsy winkel met printbare werkbladen. Publiceer activiteitenboeken op Amazon KDP. Geen extra licentiekosten of naamsvermelding nodig. De 300 DPI kwaliteit is professioneel genoeg voor verkoop. Veel leerkrachten verdienen honderden euro\'s per maand.',
       },
       {
         id: '7',
-        question: 'Hoe Pas Ik Kleurplaten Aan voor Mijn Leerlingen - Rekenen Werkbladen Personaliseren',
+        question: 'Hoe Pas Ik Werkblad voor Kinderen Kleurplaten Aan voor Mijn Leerlingen?',
         answer: 'Elk element op het canvas is aanpasbaar. Sleep afbeeldingen naar de gewenste positie. Vergroot of verklein ze. Voeg tekst toe met verschillende lettertypen. Maak rekenen werkbladen door sommen toe te voegen. Voeg een naamveld toe bovenaan. Pas de achtergrondkleur aan. Upload eigen afbeeldingen voor persoonlijke thema\'s.',
       },
       {
         id: '8',
-        question: 'Welke Leeftijdsgroepen Werken het Beste met Kleurplaten - Sommen tot 20 voor Groep 3',
+        question: 'Welke Leeftijdsgroepen Werken het Beste met Werkblad voor Kleuters Kleurplaten?',
         answer: 'Kleurplaten zijn geschikt voor kinderen van 3 tot 10 jaar. Kleuters profiteren van grote, eenvoudige afbeeldingen. Groep 3 combineert kleuren met sommen tot 20. Oudere kinderen gebruiken complexere ontwerpen. De generator past zich aan elke leeftijd aan. Kies eenvoudige afbeeldingen voor jongere kinderen. Voeg meer detail toe voor ouderen.',
       },
       {
         id: '9',
-        question: 'Kan Ik Eigen Afbeeldingen Uploaden naar Kleurplaten - Tafels Oefenen met Eigen Plaatjes',
+        question: 'Kan Ik Gratis Werkblad Eigen Afbeeldingen Uploaden naar Kleurplaten?',
         answer: 'Ja, de generator ondersteunt eigen uploads. Upload JPEG, PNG of GIF bestanden. Combineer ze met de bibliotheek van 3000+ afbeeldingen. Dit is perfect voor tafels oefenen met schoolmascotte. Of foto\'s van een klasuitje als thema. Meerdere bestanden tegelijk uploaden is mogelijk.',
       },
       {
         id: '10',
-        question: 'Hoe Lang Duurt het om een Kleurplaat te Maken - Fijne Motoriek Werkbladen Snel',
+        question: 'Hoe Lang Duurt het om een Gratis Werkbladen Kleurplaat te Maken?',
         answer: 'Het maken van een kleurplaat duurt gemiddeld 3 minuten. Kies een thema in 30 seconden. Selecteer afbeeldingen in 1 minuut. Pas aan en download in 1,5 minuut. Fijne motoriek werkbladen zijn even snel gemaakt. Geen wachttijd bij het genereren. Download start direct na klikken.',
       },
       {
         id: '11',
-        question: 'Bevatten Kleurplaten Antwoordsleutels - Rekenen Werkbladen met Sommen',
+        question: 'Bevatten Werkblad voor Kinderen Kleurplaten Antwoordsleutels?',
         answer: 'Kleurplaten zelf hebben geen antwoordsleutels nodig. Maar voor rekenen werkbladen met sommen kun je een aparte versie maken. Voeg de antwoorden toe aan een tweede kleurplaat. Print deze apart als docentenversie. Voor sommen tot 20 werkbladen is dit handig.',
       },
       {
         id: '12',
-        question: 'Kan Ik Kleurplaten Maken over Specifieke Schoolvakken - Tafels Oefenen en Meer',
+        question: 'Kan Ik Gratis Printables Kleurplaten Maken over Specifieke Schoolvakken?',
         answer: 'Ja, de thema\'s dekken alle schoolvakken. Dieren en planten voor biologie. Getallen voor tafels oefenen en rekenen. Letters voor taalonderwijs. Seizoenen voor wereldoriëntatie. De zoekfunctie vindt specifieke afbeeldingen snel. Combineer thema\'s voor geïntegreerd onderwijs.',
       },
     ],
@@ -443,7 +449,7 @@ Start een Etsy winkel met printbare oefenbladen. De 300 DPI kwaliteit is profess
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Combineer Kleurplaten met Andere Generators - Complete Werkbladen Pakketten',
+    sectionTitle: 'Gratis Printables Pakketten - Combineer Kleurplaten met Andere Gratis Werkbladen',
     sectionDescription: 'Het Basispakket bevat tien werkblad generators die perfect samenwerken. Combineer kleurplaten met andere tools voor complete leerpakketten. Ontdek hoe je thematische bundels maakt voor elke lesweek.',
     ctaTitle: 'Klaar om geweldige werkbladen te maken?',
     ctaDescription: 'Sluit je aan bij duizenden leerkrachten die professionele werkbladen maken. Onbeperkt genereren, commerciële licentie inbegrepen.',

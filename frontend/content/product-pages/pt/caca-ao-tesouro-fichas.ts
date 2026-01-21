@@ -15,22 +15,48 @@ export const treasureHuntPtContent: ProductPageContent = {
   seo: {
     slug: 'caca-ao-tesouro-fichas',
     appId: 'treasure-hunt',
-    title: 'Gerador de Caça ao Tesouro - Atividades para Imprimir de Alfabetização e Orientação Espacial',
-    description: 'Crie atividades de caça ao tesouro personalizadas com o gerador de fichas do LessonCraft Studio. Com sua assinatura Acesso Completo, você produz atividades para imprimir ilimitadas para educação infantil e ensino fundamental. Gere atividades de alfabetização em português brasileiro em menos de 3 minutos.',
+    title: 'Caça ao Tesouro Atividades Grátis para Imprimir - Educação Infantil',
+    description: 'Crie atividades grátis de caça ao tesouro para imprimir em PDF. Gerador de fichas de orientação espacial para educação infantil e 1º ano. Baixe em 3 minutos.',
     keywords: 'caça ao tesouro, atividades para imprimir, atividades educação infantil, atividades de alfabetização, atividades de matemática, coordenação motora, desenhos para colorir, atividades 1º ano, atividades 2º ano, atividades vogais, tabuada, letra cursiva, pontilhado, orientação espacial',
     canonicalUrl: 'https://www.lessoncraftstudio.com/pt/apps/caca-ao-tesouro-fichas',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/portuguese/treasure-hunt/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Atividade grátis de caça ao tesouro - orientação espacial para educação infantil',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/portuguese/treasure-hunt/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Atividade grátis para crianças de caça ao tesouro - direções básicas',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/portuguese/treasure-hunt/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Atividades grátis de orientação espacial - imprimíveis grátis para 1º ano',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/portuguese/treasure-hunt/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Atividade para crianças de caça ao tesouro - pontos cardeais para 2º ano',
+      },
+    ],
   },
 
   // Hero Section - FULL text from treasure-hunt.md paragraphs 1-3
   hero: {
-    title: 'Caça ao Tesouro Atividades',
-    subtitle: 'Atividades para Imprimir de Alfabetização e Orientação Espacial',
+    title: 'Caça ao Tesouro Atividades Grátis para Imprimir',
+    subtitle: 'Atividades Grátis para Crianças - Orientação Espacial e Alfabetização',
     description: `Crie atividades de caça ao tesouro personalizadas com o gerador de fichas do LessonCraft Studio. Com sua assinatura Acesso Completo, você produz atividades para imprimir ilimitadas para educação infantil e ensino fundamental. Gere atividades de alfabetização em português brasileiro em menos de 3 minutos. Baixe PDFs profissionais em 300 DPI prontos para impressão.
 
 O gerador de caça ao tesouro transforma o aprendizado de orientação espacial em brincadeira. Crianças seguem pistas direcionais para encontrar o tesouro escondido na grade. Perfeito para desenvolver coordenação motora, compreensão de leitura e vocabulário direcional. Suas atividades educação infantil ficam prontas para a sala de aula instantaneamente.
 
 Esta ferramenta cria fichas que ensinam conceitos importantes. Alunos praticam seguir instruções passo a passo. Desenvolvem habilidades de raciocínio espacial essenciais para matemática. O vocabulário direcional prepara crianças para leitura de mapas. Atividades 1º ano e 2º ano ficam mais divertidas com esse formato de jogo educativo.`,
-    previewImageSrc: '/samples/english/treasure hunt/up down.jpeg',
+    previewImageSrc: '/samples/portuguese/treasure-hunt/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Experimente Grátis',
       viewSamples: 'Ver Exemplos',
@@ -51,7 +77,7 @@ Esta ferramenta cria fichas que ensinam conceitos importantes. Alunos praticam s
 
   // Sample Gallery - REAL file paths from samples/english/treasure hunt/
   samples: {
-    sectionTitle: 'Exemplos de Atividades de Caça ao Tesouro',
+    sectionTitle: 'Exemplos de Atividades Grátis de Caça ao Tesouro para Crianças',
     sectionDescription: 'Baixe exemplos gratuitos para ver nossa qualidade profissional',
     downloadLabel: 'Baixar Exemplo Grátis',
     worksheetLabel: 'Atividade',
@@ -65,24 +91,38 @@ Esta ferramenta cria fichas que ensinam conceitos importantes. Alunos praticam s
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/treasure hunt/up down.jpeg',
-        answerKeySrc: '/samples/english/treasure hunt/up down answer_key.jpeg',
-        altText: 'Atividade de caça ao tesouro com direções cima e baixo para educação infantil',
-        pdfDownloadUrl: '/samples/english/treasure hunt/up down.pdf',
+        worksheetSrc: '/samples/portuguese/treasure-hunt/sample-1.jpeg',
+        answerKeySrc: '/samples/portuguese/treasure-hunt/sample-1-answer.jpeg',
+        altText: 'Atividade grátis de caça ao tesouro para imprimir - direções básicas para educação infantil',
+        pdfDownloadUrl: '/samples/portuguese/treasure-hunt/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/treasure hunt/north south.jpeg',
-        answerKeySrc: '/samples/english/treasure hunt/north south answer_key.jpeg',
-        altText: 'Atividade de caça ao tesouro com pontos cardeais norte e sul para ensino fundamental',
-        pdfDownloadUrl: '/samples/english/treasure hunt/north south.pdf',
+        worksheetSrc: '/samples/portuguese/treasure-hunt/sample-2.jpeg',
+        answerKeySrc: '/samples/portuguese/treasure-hunt/sample-2-answer.jpeg',
+        altText: 'Atividade grátis para crianças de caça ao tesouro - orientação espacial',
+        pdfDownloadUrl: '/samples/portuguese/treasure-hunt/sample-2.pdf',
+      },
+      {
+        id: '3',
+        worksheetSrc: '/samples/portuguese/treasure-hunt/sample-3.jpeg',
+        answerKeySrc: '/samples/portuguese/treasure-hunt/sample-3-answer.jpeg',
+        altText: 'Atividades grátis de orientação espacial - caça ao tesouro para 1º ano',
+        pdfDownloadUrl: '/samples/portuguese/treasure-hunt/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/portuguese/treasure-hunt/sample-4.jpeg',
+        answerKeySrc: '/samples/portuguese/treasure-hunt/sample-4-answer.jpeg',
+        altText: 'Imprimíveis grátis de caça ao tesouro - atividade para crianças',
+        pdfDownloadUrl: '/samples/portuguese/treasure-hunt/sample-4.pdf',
       },
     ],
   },
 
   // Features Grid - FULL text from treasure-hunt.md feature sections
   features: {
-    sectionTitle: 'Recursos do Gerador de Caça ao Tesouro',
+    sectionTitle: 'Recursos do Gerador de Atividades Grátis de Caça ao Tesouro',
     sectionDescription: 'O gerador de caça ao tesouro oferece recursos completos para criar atividades educação infantil e ensino fundamental. Cada funcionalidade foi desenvolvida pensando em professores brasileiros. Você cria atividades de alfabetização personalizadas sem conhecimento técnico. Todas as ferramentas funcionam de forma intuitiva e rápida.',
     highlightBadgeText: 'Recurso Principal',
     readMoreLabel: 'Leia mais',
@@ -171,7 +211,7 @@ Suas atividades para imprimir ficam nítidas e claras. Linhas da grade aparecem 
 
   // How-To Guide - FULL text from treasure-hunt.md step sections
   howTo: {
-    sectionTitle: 'Como Criar Atividades de Caça ao Tesouro em 5 Passos',
+    sectionTitle: 'Como Criar Atividades Grátis de Caça ao Tesouro em 5 Passos',
     sectionDescription: 'Criar atividades educação infantil e ensino fundamental leva menos de 3 minutos. O processo é intuitivo e não exige conhecimento técnico. Siga estes 5 passos para gerar suas atividades de alfabetização personalizadas.',
     ctaText: 'Comece Agora',
     badgeText: 'Como Funciona',
@@ -243,7 +283,7 @@ A opção escala de cinza economiza tinta colorida. Ative antes do download para
 
   // Use Cases - FULL text from treasure-hunt.md use case sections
   useCases: {
-    sectionTitle: 'Quem Usa o Gerador de Caça ao Tesouro',
+    sectionTitle: 'Quem Usa Atividades Grátis de Caça ao Tesouro para Crianças',
     sectionDescription: 'O gerador de caça ao tesouro atende diversos perfis de educadores. Cada profissional encontra aplicações específicas para suas necessidades. Descubra como diferentes usuários aproveitam a ferramenta para criar atividades educação infantil e ensino fundamental personalizadas.',
     badgeText: 'Para Quem',
     readMoreLabel: 'Leia mais',
@@ -326,7 +366,7 @@ Personalize dificuldade conforme necessidade individual. Comece com instruções
 
   // FAQ Section - Selected FAQs from treasure-hunt.md
   faq: {
-    sectionTitle: 'Perguntas Frequentes',
+    sectionTitle: 'Perguntas Frequentes sobre Atividades Grátis de Caça ao Tesouro',
     sectionDescription: 'Encontre respostas para as dúvidas mais comuns sobre o gerador de caça ao tesouro. Cada pergunta aborda aspectos práticos de uso da ferramenta para criar atividades educação infantil e ensino fundamental de qualidade profissional.',
     showMoreText: 'Mostrar mais perguntas',
     showLessText: 'Mostrar menos',
@@ -454,7 +494,7 @@ Personalize dificuldade conforme necessidade individual. Comece com instruções
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Combine com Outros Geradores de Atividades',
+    sectionTitle: 'Combine com Outros Geradores de Atividades Grátis',
     sectionDescription: 'Crie pacotes de aprendizagem completos combinando atividades de caça ao tesouro com estes geradores complementares.',
     ctaTitle: 'Pronto para Criar Atividades Incríveis?',
     ctaDescription: 'Junte-se a milhares de educadores que criam atividades profissionais. Geração ilimitada, licença comercial incluída.',

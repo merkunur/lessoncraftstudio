@@ -27,10 +27,30 @@ export const gridMatchNlContent: ProductPageContent = {
   seo: {
     slug: 'raster-puzzel-werkbladen',
     appId: 'grid-match',
-    title: 'Grid Match Werkbladen Generator - Gratis Oefenbladen voor Visueel Leren en Fijne Motoriek',
-    description: 'Maak professionele grid match werkbladen met onze gebruiksvriendelijke generator. Met je Volledige Toegang abonnement creëer je onbeperkt puzzelwerkbladen zonder extra kosten per werkblad. Deze unieke werkbladen ontwikkelen het visueel onderscheidend vermogen van kinderen. Download hoogwaardige PDF werkbladen in minder dan 3 minuten.',
-    keywords: 'grid match werkbladen, puzzelwerkbladen, werkbladen groep 3, werkbladen kleuters, oefenbladen gratis, fijne motoriek, visuele puzzels, veilig leren lezen, rekenen werkbladen, ruimtelijk inzicht',
+    title: 'Gratis Werkblad Raster-Puzzel Generator | Werkbladen Kleuters Groep 3',
+    description: 'Maak gratis werkbladen raster-puzzel in 3 minuten. Visuele puzzels voor werkbladen kleuters en groep 3. Download PDF werkbladen direct - geen ontwerpkennis nodig.',
+    keywords: 'grid match werkbladen, puzzelwerkbladen, werkbladen groep 3, werkbladen kleuters, oefenbladen gratis, fijne motoriek, visuele puzzels, veilig leren lezen, rekenen werkbladen, ruimtelijk inzicht, gratis werkblad, gratis werkbladen, werkblad voor kinderen, werkblad voor kleuters',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/raster-puzzel-werkbladen',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/dutch/grid-match/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis werkblad raster-puzzel - visuele puzzel werkbladen voor kleuters en groep 3'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/dutch/grid-match/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis werkblad voor kinderen - raster-puzzel werkblad met visuele oefening'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/dutch/grid-match/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Werkblad voor kleuters - gratis printables raster-puzzel voor fijne motoriek'
+      },
+    ],
   },
 
   // Hero Section - FULL text from grid-match.md paragraphs 1-2
@@ -42,7 +62,7 @@ export const gridMatchNlContent: ProductPageContent = {
 Grid match werkbladen zijn visuele puzzels waarbij kinderen ontbrekende stukjes moeten vinden. Een afbeelding wordt verdeeld in een raster. Sommige vakjes worden verwijderd. Kinderen bepalen welk puzzelstukje waar hoort. Dit versterkt het ruimtelijk inzicht en probleemoplossend denken.
 
 De grid match generator maakt werkbladen kleuters en werkbladen groep 3 met aanpasbare moeilijkheidsgraden. Kies tussen 2x2, 3x3 of 4x4 rasters. Selecteer het aantal ontbrekende stukjes. Werkbladen groep 3 krijgen meer uitdaging met grotere rasters. Werkbladen kleuters beginnen eenvoudig met 2x2 puzzels.`,
-    previewImageSrc: '/samples/english/grid match/grid match portrait .jpeg',
+    previewImageSrc: '/samples/dutch/grid-match/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Gratis Uitproberen',
       viewSamples: 'Voorbeelden Bekijken',
@@ -77,17 +97,24 @@ De grid match generator maakt werkbladen kleuters en werkbladen groep 3 met aanp
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/grid match/grid match portrait .jpeg',
-        answerKeySrc: '/samples/english/grid match/grid match portrait  answer_key.jpeg',
-        altText: 'Grid match puzzelwerkblad portret voor werkbladen groep 3 en oefenbladen gratis',
-        pdfDownloadUrl: '/samples/english/grid match/grid match portrait .pdf',
+        worksheetSrc: '/samples/dutch/grid-match/sample-1.jpeg',
+        answerKeySrc: '/samples/dutch/grid-match/sample-1-answer.jpeg',
+        altText: 'Gratis werkblad raster-puzzel - werkblad voor kinderen en werkblad voor kleuters groep 3',
+        pdfDownloadUrl: '/samples/dutch/grid-match/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/grid match/grid match landscape.jpeg',
-        answerKeySrc: '/samples/english/grid match/grid match landscape answer_key.jpeg',
-        altText: 'Grid match puzzelwerkblad landschap met visuele puzzels voor werkbladen kleuters',
-        pdfDownloadUrl: '/samples/english/grid match/grid match landscape.pdf',
+        worksheetSrc: '/samples/dutch/grid-match/sample-2.jpeg',
+        answerKeySrc: '/samples/dutch/grid-match/sample-2-answer.jpeg',
+        altText: 'Gratis werkbladen visuele puzzel - werkblad voor kleuters met fijne motoriek oefening',
+        pdfDownloadUrl: '/samples/dutch/grid-match/sample-2.pdf',
+      },
+      {
+        id: '3',
+        worksheetSrc: '/samples/dutch/grid-match/sample-3.jpeg',
+        answerKeySrc: '/samples/dutch/grid-match/sample-3-answer.jpeg',
+        altText: 'Gratis printables raster-puzzel - werkblad voor kinderen met visuele discriminatie',
+        pdfDownloadUrl: '/samples/dutch/grid-match/sample-3.pdf',
       },
     ],
   },

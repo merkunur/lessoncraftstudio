@@ -29,22 +29,42 @@ export const matchingNlContent: ProductPageContent = {
   seo: {
     slug: 'verbindings-werkbladen',
     appId: 'matching',
-    title: 'Werkbladen Groep 3 Verbindings Generator - Oefenbladen Gratis voor Kleuters en Basisschool',
+    title: 'Gratis Werkbladen Verbindings Generator - Werkblad voor Kinderen en Kleuters | Lesson Craft Studio',
     description: 'Maak professionele verbindingswerkbladen met onze werkbladen generator. Met je Basispakket abonnement creëer je onbeperkt oefenbladen zonder extra kosten per werkblad. De generator maakt werkbladen groep 3 waarbij kinderen lijnen trekken om paren te verbinden.',
     keywords: 'verbindingswerkbladen, werkbladen groep 3, werkbladen kleuters, oefenbladen gratis, letters leren, fijne motoriek, veilig leren lezen, rekenen werkbladen, tafels oefenen, sommen tot 20',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/verbindings-werkbladen',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/dutch/matching/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis werkblad verbindingsopdracht - werkblad voor kinderen met afbeeldingen koppelen'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/dutch/matching/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis werkbladen verbindingspuzzel - werkblad voor kleuters letters leren'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/dutch/matching/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis printables verbindingswerkblad - werkblad voor kinderen woordenschat'
+      }
+    ]
   },
 
   // Hero Section
   hero: {
-    title: 'Werkbladen Groep 3 Verbindings Generator',
-    subtitle: 'Oefenbladen Gratis voor Kleuters en Basisschool',
+    title: 'Gratis Werkbladen Verbindings Generator - Werkblad voor Kinderen',
+    subtitle: 'Gratis Werkblad voor Kinderen en Werkblad voor Kleuters - Gratis Printables',
     description: `Maak professionele verbindingswerkbladen met onze werkbladen generator. Met je Basispakket abonnement creëer je onbeperkt oefenbladen zonder extra kosten per werkblad. De generator maakt werkbladen groep 3 waarbij kinderen lijnen trekken om paren te verbinden. Binnen drie minuten download je hoogwaardige PDF werkbladen klaar voor de printer.
 
 Verbindingswerkbladen zijn ideaal voor werkbladen kleuters en groep 1 2. Kinderen leren visuele herkenning door afbeeldingen te koppelen aan woorden of letters. Dit stimuleert de fijne motoriek omdat leerlingen precieze lijnen moeten trekken. Onze generator biedt vier verschillende verbindingsmodi.
 
 Ontwerp werkbladen groep 3 die perfect aansluiten bij jouw lesmateriaal. Kies uit meer dan 3000 kindvriendelijke afbeeldingen georganiseerd per thema. De generator ondersteunt elf talen inclusief Nederlands. Ideaal voor tweetalig onderwijs en meertalige klaslokalen.`,
-    previewImageSrc: '/samples/english/matching/matching portrait.jpeg',
+    previewImageSrc: '/samples/dutch/matching/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Gratis Uitproberen',
       viewSamples: 'Voorbeelden Bekijken',
@@ -65,7 +85,7 @@ Ontwerp werkbladen groep 3 die perfect aansluiten bij jouw lesmateriaal. Kies ui
 
   // Sample Gallery
   samples: {
-    sectionTitle: 'Verbindingswerkbladen Voorbeelden',
+    sectionTitle: 'Gratis Werkbladen Voorbeelden - Verbindingswerkbladen voor Kinderen',
     sectionDescription: 'Download gratis voorbeeldwerkbladen om onze professionele kwaliteit te ervaren',
     downloadLabel: 'Gratis Voorbeeld Downloaden',
     worksheetLabel: 'Werkblad',
@@ -79,31 +99,31 @@ Ontwerp werkbladen groep 3 die perfect aansluiten bij jouw lesmateriaal. Kies ui
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/matching/matching portrait.jpeg',
-        answerKeySrc: '/samples/english/matching/matching portrait answer_key.jpeg',
-        altText: 'Verbindingswerkblad portret voor werkbladen groep 3 en letters leren',
-        pdfDownloadUrl: '/samples/english/matching/matching portrait.pdf',
+        worksheetSrc: '/samples/dutch/matching/sample-1.jpeg',
+        answerKeySrc: '/samples/dutch/matching/sample-1-answer.jpeg',
+        altText: 'Gratis werkblad verbindingsopdracht - werkblad voor kinderen portret formaat',
+        pdfDownloadUrl: '/samples/dutch/matching/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/matching/image and word.jpeg',
-        answerKeySrc: '/samples/english/matching/image and word answer_key.jpeg',
-        altText: 'Afbeelding en woord verbindingswerkblad voor veilig leren lezen',
-        pdfDownloadUrl: '/samples/english/matching/image and word.pdf',
+        worksheetSrc: '/samples/dutch/matching/sample-2.jpeg',
+        answerKeySrc: '/samples/dutch/matching/sample-2-answer.jpeg',
+        altText: 'Gratis werkbladen afbeelding-woord koppelen - werkblad voor kleuters letters leren',
+        pdfDownloadUrl: '/samples/dutch/matching/sample-2.pdf',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/matching/image and custom word.jpeg',
-        answerKeySrc: '/samples/english/matching/image and custom word answer_key.jpeg',
-        altText: 'Aangepast verbindingswerkblad voor werkbladen kleuters en fijne motoriek',
-        pdfDownloadUrl: '/samples/english/matching/image and custom word.pdf',
+        worksheetSrc: '/samples/dutch/matching/sample-3.jpeg',
+        answerKeySrc: '/samples/dutch/matching/sample-3-answer.jpeg',
+        altText: 'Gratis printables verbindingspuzzel - werkblad voor kinderen woordenschat oefenen',
+        pdfDownloadUrl: '/samples/dutch/matching/sample-3.pdf',
       },
     ],
   },
 
   // Features Grid
   features: {
-    sectionTitle: 'Functies van de Verbindingswerkbladen Generator - Oefenbladen Gratis Maken voor Werkbladen Groep 3',
+    sectionTitle: 'Functies van de Gratis Werkbladen Generator - Werkblad voor Kinderen en Kleuters Maken',
     sectionDescription: 'Onze verbindingswerkbladen generator bevat alle functies die leerkrachten nodig hebben. Van werkbladen kleuters tot werkbladen groep 3 en hoger. Hieronder vind je een overzicht van de zeven belangrijkste functies. Elke functie is ontworpen om tijd te besparen en professionele resultaten te leveren.',
     highlightBadgeText: 'Uitgelicht',
     readMoreLabel: 'Lees meer',
@@ -118,7 +138,7 @@ Ontwerp werkbladen groep 3 die perfect aansluiten bij jouw lesmateriaal. Kies ui
       {
         id: '1',
         icon: '⚡',
-        title: 'Werkbladen Groep 3 in Drie Klikken - Snelle Creatie voor Oefenbladen Gratis',
+        title: 'Gratis Werkblad in Drie Klikken - Werkblad voor Kinderen Snel Creëren',
         description: `Maak werkbladen groep 3 in slechts drie eenvoudige stappen. Kies eerst je thema uit de uitgebreide afbeeldingenbibliotheek. Selecteer vervolgens de verbindingsmodus die past bij je les. Klik op genereren en je werkblad verschijnt direct.
 
 De hele procedure duurt minder dan drie minuten. Je hoeft geen designvaardigheden te hebben. De generator doet het zware werk automatisch. Werkbladen kleuters en groep 1 2 zijn net zo snel gemaakt.
@@ -129,7 +149,7 @@ Vier verschillende verbindingsmodi bieden flexibiliteit. Koppel afbeeldingen aan
       {
         id: '2',
         icon: '✏️',
-        title: 'Volledige Bewerkbaarheid - Werkbladen Kleuters en Rekenen Werkbladen Aanpassen',
+        title: 'Volledige Bewerkbaarheid - Werkblad voor Kleuters en Gratis Werkbladen Aanpassen',
         description: `Elk element op je werkblad is volledig bewerkbaar. Versleep afbeeldingen naar de gewenste positie. Roteer elementen door te slepen aan de hoeken. Vergroot of verklein afbeeldingen naar de juiste maat.
 
 Deze flexibiliteit maakt werkbladen kleuters perfect aanpasbaar. Ook rekenen werkbladen kunnen exact worden afgestemd. Voeg tekstvelden toe met eigen instructies. Kies uit zeven verschillende lettertypes.
@@ -140,7 +160,7 @@ De bewerkingstools zijn intuïtief en eenvoudig. Gebruik de laagfuncties om elem
       {
         id: '3',
         icon: '📤',
-        title: 'Eigen Afbeeldingen Uploaden - Oefenbladen Gratis Personaliseren met Fijne Motoriek Focus',
+        title: 'Eigen Afbeeldingen Uploaden - Gratis Printables Personaliseren voor Werkblad voor Kinderen',
         description: `Upload je eigen afbeeldingen voor gepersonaliseerde oefenbladen. Ondersteunde formaten zijn JPEG, PNG en GIF. Upload meerdere bestanden tegelijk voor efficiëntie.
 
 Maak werkbladen met foto's van klasgenoten of huisdieren. Ideaal voor fijne motoriek oefeningen met herkenbare afbeeldingen. Geüploade afbeeldingen verschijnen in een apart voorbeeldvenster.
@@ -151,7 +171,7 @@ Personalisatie verhoogt de motivatie van leerlingen aanzienlijk. Fijne motoriek 
       {
         id: '4',
         icon: '🌍',
-        title: 'Elf Talen Ondersteuning - Werkbladen Groep 3 voor Veilig Leren Lezen in Meerdere Talen',
+        title: 'Elf Talen Ondersteuning - Gratis Werkblad voor Kinderen in Meerdere Talen',
         description: `De generator ondersteunt elf talen volledig. Nederlands, Engels, Duits, Frans, Spaans, Italiaans, Portugees, Zweeds, Deens, Noors en Fins. Zowel de interface als de afbeeldingsnamen zijn vertaald.
 
 Dit is essentieel voor veilig leren lezen in meertalige omgevingen. Afbeeldingsnamen bepalen de verbindingsletters en woorden. Een appel heet "appel" in het Nederlands en "apple" in het Engels.
@@ -162,7 +182,7 @@ Werkbladen groep 3 voor Engels leren worden moeiteloos gemaakt. Internationale s
       {
         id: '5',
         icon: '💼',
-        title: 'Commerciële Licentie - Oefenbladen Gratis Verkopen op Teachers Pay Teachers en Etsy',
+        title: 'Commerciële Licentie - Gratis Werkbladen Verkopen op Teachers Pay Teachers en Etsy',
         description: `Je Basispakket abonnement bevat een volledige commerciële print-on-demand licentie. Verkoop je werkbladen op Teachers Pay Teachers zonder extra kosten. Publiceer op Etsy en bouw een passief inkomen op.
 
 Oefenbladen gratis van royaltykosten creëren winstpotentieel. Veel leerkrachten verdienen €500 tot €5000 per maand met educatieve materialen. Werkbladen groep 3 zijn zeer gewild op onderwijsplatforms.
@@ -173,7 +193,7 @@ De 300 DPI exportkwaliteit voldoet aan professionele drukvereisten. Maak onbeper
       {
         id: '6',
         icon: '🎨',
-        title: 'Meer dan 3000 Afbeeldingen - Werkbladen Kleuters en Kleurplaten Thema\'s',
+        title: 'Meer dan 3000 Afbeeldingen - Werkblad voor Kleuters en Gratis Printables Thema\'s',
         description: `Toegang tot een bibliotheek met meer dan 3000 kindvriendelijke afbeeldingen. Alle afbeeldingen zijn georganiseerd per thema. Kies uit dieren, voertuigen, voedsel, natuur, seizoenen en meer.
 
 Werkbladen kleuters profiteren van de schattige illustratiestijl. Kleurplaten thema's sluiten naadloos aan bij verbindingswerkbladen. Elk thema bevat tientallen gerelateerde afbeeldingen.
@@ -184,7 +204,7 @@ Seizoensgebonden thema's ondersteunen feestdagen en speciale gelegenheden. Kerst
       {
         id: '7',
         icon: '🖨️',
-        title: 'Professionele 300 DPI Kwaliteit - Rekenen Werkbladen en Sommen tot 20 Drukklaar',
+        title: 'Professionele 300 DPI Kwaliteit - Gratis Werkblad voor Kinderen Drukklaar',
         description: `Alle werkbladen worden geëxporteerd in 300 DPI resolutie. Dit is de industriestandaard voor professioneel drukwerk. Scherpe lijnen en heldere afbeeldingen bij elke afdruk.
 
 Rekenen werkbladen met sommen tot 20 printen kristalhelder. Fijne motoriek lijnoefeningen tonen elk detail. Werkbladen groep 3 zien er professioneel uit.
@@ -195,7 +215,7 @@ Het antwoordblad wordt apart gegenereerd. Download werkblad en antwoordblad afzo
       {
         id: '8',
         icon: '✨',
-        title: 'Vier Verbindingsmodi - Letters Leren en Tafels Oefenen met Flexibele Opties',
+        title: 'Vier Verbindingsmodi - Gratis Werkbladen met Werkblad voor Kleuters Opties',
         description: `Kies tussen vier verschillende verbindingsmodi voor je werkbladen. De modus "Afbeelding naar Beginletter" is perfect voor letters leren. Kinderen verbinden plaatjes aan de juiste beginletter.
 
 De modus "Afbeelding plus Woord" ondersteunt veilig leren lezen. Leerlingen koppelen afbeeldingen aan het bijbehorende woord. Voor tafels oefenen gebruik je de aangepaste tekstmodus.
@@ -208,7 +228,7 @@ Selecteer vier, vijf of zes paren per werkblad. Werkbladen kleuters beginnen met
 
   // How-To Guide
   howTo: {
-    sectionTitle: 'Werkbladen Groep 3 Maken in Vijf Stappen - Oefenbladen Gratis voor Letters Leren en Veilig Leren Lezen',
+    sectionTitle: 'Gratis Werkblad Maken in Vijf Stappen - Werkblad voor Kinderen met Gratis Printables',
     sectionDescription: 'Volg deze vijf eenvoudige stappen om professionele verbindingswerkbladen te maken. Het hele proces duurt minder dan drie minuten. Geen technische kennis of designervaring nodig. Werkbladen groep 3, werkbladen kleuters en alle andere niveaus volgen dezelfde stappen.',
     ctaText: 'Nu Starten',
     badgeText: 'Zo werkt het',
@@ -280,7 +300,7 @@ Alle exports zijn 300 DPI resolutie. Dit is professionele drukkwaliteit. Perfect
 
   // Use Cases
   useCases: {
-    sectionTitle: 'Wie Gebruikt Verbindingswerkbladen - Oefenbladen Gratis voor Tafels Oefenen en Veilig Leren Lezen',
+    sectionTitle: 'Wie Gebruikt Gratis Werkbladen - Werkblad voor Kinderen en Werkblad voor Kleuters',
     sectionDescription: 'Verbindingswerkbladen worden gebruikt door diverse groepen in het onderwijs. Leerkrachten, ouders, bijlesdocenten en speciale onderwijsprofessionals profiteren allemaal. Ontdek hoe elke groep de generator gebruikt voor werkbladen groep 3 en werkbladen kleuters.',
     badgeText: 'Voor wie',
     readMoreLabel: 'Lees meer',
@@ -363,7 +383,7 @@ Kleurplaten thema's maken lessen visueel aantrekkelijk. Combineer verbindingsopd
 
   // FAQ Section
   faq: {
-    sectionTitle: 'Veelgestelde Vragen over Verbindingswerkbladen - Werkbladen Kleuters en Tafels Oefenen',
+    sectionTitle: 'Veelgestelde Vragen over Gratis Werkbladen - Werkblad voor Kinderen en Gratis Printables',
     sectionDescription: 'Hieronder beantwoorden we de meest gestelde vragen over onze verbindingswerkbladen generator. Van werkbladen kleuters tot rekenen werkbladen voor hogere groepen. Vind antwoorden op al je vragen over tafels oefenen, letters leren en meer.',
     showMoreText: 'Meer vragen tonen',
     showLessText: 'Minder tonen',
@@ -375,62 +395,62 @@ Kleurplaten thema's maken lessen visueel aantrekkelijk. Combineer verbindingsopd
     items: [
       {
         id: '1',
-        question: 'Hoe Maak Ik Werkbladen Kleuters voor Fijne Motoriek en Letters Leren?',
+        question: 'Hoe Maak Ik Gratis Werkblad voor Kleuters en Werkblad voor Kinderen?',
         answer: 'Werkbladen kleuters maken is eenvoudig met onze generator. Selecteer de modus "Afbeelding naar Beginletter" voor letters leren. Kies een kleutervriendelijk thema zoals dieren of speelgoed. Stel het aantal paren in op vier voor jonge kinderen. Fijne motoriek ontwikkelt zich door het trekken van verbindingslijnen. De dikke opsommingstekens maken het verbindingspunt duidelijk zichtbaar. Grotere afbeeldingen zijn beschikbaar via canvasbewerking. Upload eigen foto\'s voor herkenbare afbeeldingen.',
       },
       {
         id: '2',
-        question: 'Kan Ik Rekenen Werkbladen Maken voor Tafels Oefenen en Sommen tot 20?',
+        question: 'Kan Ik Gratis Werkbladen Maken voor Werkblad voor Kinderen Rekenen?',
         answer: 'Rekenen werkbladen zijn mogelijk met de aangepaste woordmodus. Maak werkbladen voor tafels oefenen door tafelsommen als tekst in te voeren. Bijvoorbeeld "3 x 4" links en "12" rechts. Sommen tot 20 werken op dezelfde manier. Voer "7 + 8" in aan de ene kant en "15" aan de andere. De generator plaatst items automatisch in willekeurige volgorde. Leerlingen verbinden sommen aan de juiste antwoorden.',
       },
       {
         id: '3',
-        question: 'Ondersteunt de Generator Veilig Leren Lezen Methodes?',
+        question: 'Ondersteunt de Gratis Werkbladen Generator Veilig Leren Lezen Methodes?',
         answer: 'Veilig leren lezen wordt uitstekend ondersteund door onze generator. De modus "Afbeelding plus Woord" toont afbeeldingen met woordlabels. Leerlingen zien het woord direct bij de afbeelding. Dit versterkt de woord-beeld associatie. De modus "Afbeelding naar Beginletter" ondersteunt fonemisch bewustzijn. Kinderen leren welke letter bij welk woord hoort. De elf talen ondersteuning maakt meertalig leren mogelijk.',
       },
       {
         id: '4',
-        question: 'Zijn de Werkbladen Geschikt voor Schrijven Oefenen en Kleurplaten Activiteiten?',
+        question: 'Zijn Gratis Printables Geschikt voor Werkblad voor Kinderen Schrijven Oefenen?',
         answer: 'Schrijven oefenen wordt indirect ondersteund door verbindingswerkbladen. Het trekken van lijnen ontwikkelt dezelfde handmotoriek als schrijven. Kinderen oefenen pencontrole en hand-oog coördinatie. Combineer verbindingsopdrachten met kleurplaten voor complete activiteiten. De grijswaarde export maakt werkbladen geschikt als kleurplaten. Kinderen kunnen afbeeldingen inkleuren na het verbinden.',
       },
       {
         id: '5',
-        question: 'Hoeveel Verbindingsparen Kan Ik Gebruiken voor Sommen tot 20 Werkbladen?',
+        question: 'Hoeveel Verbindingsparen Kan Ik Gebruiken voor Gratis Werkblad voor Kinderen?',
         answer: 'Kies tussen vier, vijf of zes verbindingsparen per werkblad. Vier paren zijn ideaal voor werkbladen kleuters en beginnende leerlingen. Vijf paren bieden een gemiddelde uitdaging. Zes paren zijn geschikt voor gevorderde oefeningen. Sommen tot 20 werkbladen werken goed met alle aantallen. Tafels oefenen opdrachten kunnen meer paren bevatten voor intensievere oefening.',
       },
       {
         id: '6',
-        question: 'Kan Ik Kleurplaten Thema\'s Combineren met Rekenen Werkbladen?',
+        question: 'Kan Ik Gratis Printables Thema\'s Combineren met Werkblad voor Kleuters?',
         answer: 'Kleurplaten thema\'s zijn beschikbaar als achtergronden voor alle werkbladtypes. Selecteer een thematische achtergrond in de pagina-instellingen. Rekenen werkbladen krijgen een speelse uitstraling. Tafels oefenen wordt leuker met seizoensgebonden decoraties. Kerstmis, Pasen en zomer thema\'s beschikbaar. De achtergrond dekking is aanpasbaar om tekst leesbaar te houden.',
       },
       {
         id: '7',
-        question: 'Hoe Werkt de Generator voor Fijne Motoriek Oefeningen bij Groep 1 2?',
+        question: 'Hoe Werkt de Gratis Werkbladen Generator voor Werkblad voor Kleuters?',
         answer: 'Fijne motoriek oefeningen zijn de kern van verbindingswerkbladen. Kinderen in groep 1 2 ontwikkelen motorische vaardigheden door lijnen te trekken. De afstand tussen verbindingspunten kan worden aangepast. Werkbladen kleuters bevatten duidelijke startpunten. De opsommingstekens markeren waar lijnen beginnen en eindigen. Letters leren combineert cognitieve en motorische ontwikkeling.',
       },
       {
         id: '8',
-        question: 'Welke Exportkwaliteit Krijg Ik voor Veilig Leren Lezen Materialen?',
+        question: 'Welke Exportkwaliteit Krijg Ik voor Gratis Werkblad voor Kinderen?',
         answer: 'Alle werkbladen exporteren in 300 DPI professionele kwaliteit. Veilig leren lezen materialen printen met scherpe tekst. Afbeeldingen zijn helder en gedetailleerd. De PDF optie biedt de beste afdrukkwaliteit. JPEG is geschikt voor digitaal delen. Grijswaarde export bespaart inkt bij veelvuldig printen.',
       },
       {
         id: '9',
-        question: 'Mag Ik Tafels Oefenen Werkbladen Verkopen op Teachers Pay Teachers?',
+        question: 'Mag Ik Gratis Werkbladen en Gratis Printables Verkopen op Teachers Pay Teachers?',
         answer: 'De Basispakket licentie staat volledige commerciële verkoop toe. Tafels oefenen werkbladen verkopen uitstekend op TPT. Sommen tot 20 bundels zijn populair bij ouders en leerkrachten. Letters leren pakketten voor werkbladen kleuters zijn gewild. Geen naamsvermelding vereist op je producten. Maak onbeperkt werkbladen voor verkoop.',
       },
       {
         id: '10',
-        question: 'Is Deze Verbindingswerkbladen Generator Echt Gratis voor Werkbladen Groep 3?',
+        question: 'Is Deze Gratis Werkbladen Generator Echt Gratis voor Werkblad voor Kinderen?',
         answer: 'De verbindingswerkbladen generator vereist een Basispakket abonnement van €144 per jaar of €15 per maand. Je abonnement geeft je onbeperkte werkbladen creatie zonder extra kosten per download. Genereer zoveel werkbladen groep 3 als je nodig hebt. Alles zit inbegrepen. Geen verborgen kosten of limieten. Het Basispakket bevat tien populaire werkblad generators. Het Volledige Toegang abonnement kost €240 per jaar en bevat alle 33 generators.',
       },
       {
         id: '11',
-        question: 'Kan Ik Eigen Afbeeldingen Uploaden voor Oefenbladen Gratis van Licentiekosten?',
+        question: 'Kan Ik Eigen Afbeeldingen Uploaden voor Gratis Werkblad voor Kinderen?',
         answer: 'Ja, de uploadfunctie accepteert JPEG, PNG en GIF bestanden. Upload meerdere afbeeldingen tegelijk voor efficiëntie. Je geüploade afbeeldingen worden gebruikt in de verbindingswerkbladen zonder extra licentiekosten. Combineer met bibliotheekafbeeldingen voor unieke werkbladen. Maak werkbladen met foto\'s van klasactiviteiten of schooluitjes.',
       },
       {
         id: '12',
-        question: 'In Welke Talen Kan Ik Werkbladen Kleuters Maken voor Letters Leren?',
+        question: 'In Welke Talen Kan Ik Gratis Werkbladen en Werkblad voor Kleuters Maken?',
         answer: 'De generator ondersteunt elf talen volledig. Nederlands, Engels, Duits, Frans, Spaans, Italiaans, Portugees, Zweeds, Deens, Noors en Fins. Elke taal werkt perfect voor werkbladen kleuters. De afbeeldingsnamen veranderen per taal. Dit is essentieel voor letters leren in verschillende talen. Internationale scholen profiteren van deze meertaligheid.',
       },
     ],
@@ -468,7 +488,7 @@ Kleurplaten thema's maken lessen visueel aantrekkelijk. Combineer verbindingsopd
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Combineer Apps voor Complete Lespakketten - Tafels Oefenen met Veilig Leren Lezen en Fijne Motoriek',
+    sectionTitle: 'Combineer Gratis Werkbladen Apps - Werkblad voor Kinderen met Gratis Printables',
     sectionDescription: 'De Basispakket bevat tien werkbladgeneratoren die perfect samenwerken. Combineer verbindingswerkbladen met andere tools voor gevarieerde lessen. Maak complete lespakketten voor werkbladen kleuters en hogere groepen.',
     ctaTitle: 'Klaar om geweldige werkbladen te maken?',
     ctaDescription: 'Sluit je aan bij duizenden leerkrachten die professionele werkbladen maken. Onbeperkt genereren, commerciële licentie inbegrepen.',

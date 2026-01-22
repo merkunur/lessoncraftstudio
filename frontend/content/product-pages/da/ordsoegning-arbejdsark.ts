@@ -19,18 +19,38 @@ export const wordSearchDaContent: ProductPageContent = {
     description: 'Lav professionelle ordsøgningsopgaver til børnehaveklassen og indskolingen med vores gratis generator. Perfekt til gratis skoleopgaver, arbejdsark til print og opgaver til 0. klasse og 1. klasse. Ordsøgningsgeneratoren egner sig til lære bogstaver, læse og skrive og stavning.',
     keywords: 'ordsøgning arbejdsark, gratis skoleopgaver, arbejdsark til print, opgaver til 0 klasse, opgaver til 1 klasse, lære bogstaver, læse og skrive, ordsøgningsgenerator, printklare opgaver, dansk skoleopgaver',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/ordsoegning-arbejdsark',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/wordsearch/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Ordsøgning arbejdsark gratis til print - portrætformat til børnehaveklassen',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/wordsearch/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Ordsøgning gratis arbejdsark - tematisk ordforrådsøvelse til 0. klasse og 1. klasse',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/wordsearch/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis arbejdsark ordsøgning - brugerdefineret ordliste til stavning',
+      },
+    ],
   },
 
   // Hero Section - FULL text from wordsearch.md paragraphs 1-3
   hero: {
-    title: 'Gratis Ordsøgningsopgaver til Print',
+    title: 'Gratis Arbejdsark: Ordsøgningsopgaver til Print',
     subtitle: 'Arbejdsark til Børnehaveklassen, 0. Klasse og 1. Klasse',
     description: `Lav professionelle ordsøgningsopgaver til børnehaveklassen og indskolingen med vores gratis generator. Perfekt til gratis skoleopgaver, arbejdsark til print og opgaver til 0. klasse og 1. klasse. Ordsøgningsgeneratoren egner sig til lære bogstaver, læse og skrive og stavning.
 
 Med ordsøgningsgeneratoren laver du printklare opgaver til print på under 3 minutter. Generatoren kombinerer lære bogstaver med ordforrådsøvelser. Download færdige ordsøgninger som PDF eller JPEG. Hvert arbejdsark kan tilpasses individuelt.
 
 Vores gratis ordsøgningsgenerator tilbyder over 3000 børnevenlige billeder til arbejdsark. Lav tematiske opgaver til matematikopgaver, læse og skrive eller farvelægning. Generatoren fungerer på 11 sprog. Ideel til flersproget undervisning.`,
-    previewImageSrc: '/samples/english/wordsearch/wordsearch portrait.jpeg',
+    previewImageSrc: '/samples/danish/wordsearch/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Prøv Gratis',
       viewSamples: 'Se Eksempler',
@@ -65,24 +85,24 @@ Vores gratis ordsøgningsgenerator tilbyder over 3000 børnevenlige billeder til
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/wordsearch/wordsearch portrait.jpeg',
-        answerKeySrc: '/samples/english/wordsearch/wordsearch portrait answer_key.jpeg',
-        altText: 'Ordsøgning portrætformat med tematiske billeder til ordforrådsøvelser i børnehaveklassen',
-        pdfDownloadUrl: '/samples/english/wordsearch/wordsearch portrait.pdf',
+        worksheetSrc: '/samples/danish/wordsearch/sample-1.jpeg',
+        answerKeySrc: '/samples/danish/wordsearch/sample-1-answer.jpeg',
+        altText: 'Ordsøgning gratis arbejdsark til print - portrætformat til børnehaveklassen og 0. klasse',
+        pdfDownloadUrl: '/samples/danish/wordsearch/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/wordsearch/wordsearch landscape.jpeg',
-        answerKeySrc: '/samples/english/wordsearch/wordsearch landscape answer_key.jpeg',
-        altText: 'Ordsøgning landskabsformat med farverige billedledetråde til 0. klasse og 1. klasse',
-        pdfDownloadUrl: '/samples/english/wordsearch/wordsearch landscape.pdf',
+        worksheetSrc: '/samples/danish/wordsearch/sample-2.jpeg',
+        answerKeySrc: '/samples/danish/wordsearch/sample-2-answer.jpeg',
+        altText: 'Ordsøgning gratis arbejdsark - landskabsformat til 0. klasse og 1. klasse',
+        pdfDownloadUrl: '/samples/danish/wordsearch/sample-2.pdf',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/wordsearch/custom word list.jpeg',
-        answerKeySrc: '/samples/english/wordsearch/custom word list answer_key.jpeg',
-        altText: 'Brugerdefineret ordliste ordsøgning til staveøvelser og de 120 ord',
-        pdfDownloadUrl: '/samples/english/wordsearch/custom word list.pdf',
+        worksheetSrc: '/samples/danish/wordsearch/sample-3.jpeg',
+        answerKeySrc: '/samples/danish/wordsearch/sample-3-answer.jpeg',
+        altText: 'Gratis arbejdsark ordsøgning - brugerdefineret ordliste til stavning og læse og skrive',
+        pdfDownloadUrl: '/samples/danish/wordsearch/sample-3.pdf',
       },
     ],
   },
@@ -183,7 +203,7 @@ Ingen pixelerede billeder. Ingen uskarpe linjer. Professionel kvalitet hver gang
 
   // How-To Guide - FULL text from wordsearch.md step sections
   howTo: {
-    sectionTitle: 'Lav Gratis Skoleopgaver i 5 Nemme Trin',
+    sectionTitle: 'Lav Gratis Arbejdsark i 5 Nemme Trin',
     sectionDescription: 'Lav professionelle opgaver til print på under 3 minutter. Følg disse 5 simple trin. Intet designkendskab påkrævet. Perfekt til gratis skoleopgaver til 0. klasse og 1. klasse.',
     ctaText: 'Start Nu',
     badgeText: 'Sådan Virker Det',
@@ -259,7 +279,7 @@ Download arbejdsarket til din computer. Download også facitarket til rettelse. 
 
   // Use Cases - FULL text from wordsearch.md use case sections
   useCases: {
-    sectionTitle: 'Perfekt til Pædagoger, Lærere og Forældre',
+    sectionTitle: 'Gratis Arbejdsark til Pædagoger, Lærere og Forældre',
     sectionDescription: 'Ordsøgningsopgaver passer til mange forskellige brugere. Pædagoger i børnehaveklassen elsker de visuelle opgaver. Lærere i indskolingen bruger dem til lære bogstaver. Forældre kombinerer dem med farvelægning hjemme. Hver brugergruppe finder unikke måder at bruge gratis skoleopgaver på.',
     badgeText: 'Hvem Er Det Til',
     readMoreLabel: 'Læs mere',
@@ -269,7 +289,7 @@ Download arbejdsarket til din computer. Download også facitarket til rettelse. 
         id: '1',
         icon: '👩‍🏫',
         title: 'Pædagoger i Børnehaveklassen',
-        subtitle: 'Gratis Skoleopgaver med Farvelægning og Lære Bogstaver',
+        subtitle: 'Gratis Arbejdsark med Farvelægning og Lære Bogstaver',
         description: `Pædagoger i børnehaveklassen elsker ordsøgningsopgaver. Perfekt til at introducere lære bogstaver. Børnene genkender billeder før de kan læse ordene. Kombiner ordsøgninger med farvelægning for ekstra engagement.
 
 Brug store gitre til børnehaveklassen. 5x5 eller 6x6 er perfekte størrelser. Korte ord som DYR, SOL, HUS virker bedst. Børnene elsker at cirkle ordene de finder som finmotorik øvelser.
@@ -281,7 +301,7 @@ Kombiner ordsøgninger med farvelægning aktiviteter. Print ordsøgningen og lad
         id: '2',
         icon: '📚',
         title: 'Lærere i 0. Klasse og 1. Klasse',
-        subtitle: 'Læse og Skrive Øvelser og De 120 Ord',
+        subtitle: 'Arbejdsark til Læse og Skrive Øvelser og De 120 Ord',
         description: `Lærere i indskolingen bruger ordsøgninger til mange formål. Perfekt til lære bogstaver og læse og skrive øvelser. Kombiner ordsøgninger med matematikopgaver om talord. Lav opgaver til print til gangetabeller når eleverne lærer dem.
 
 I 0. klasse start med simple ordsøgninger. Brug billeder fra elevernes hverdag. Skoleting, legetøj, fødevarer. Kombiner med de 120 ord eleverne skal kende. Perfekt til gratis skoleopgaver hver uge.
@@ -305,7 +325,7 @@ Kommerciel licens giver ekstra værdi. Mange hjemmeundervisende forældre sælge
         id: '4',
         icon: '🌍',
         title: 'Fremmedsprogs- og DSA-lærere',
-        subtitle: 'Flersprogede Gratis Skoleopgaver til Læse og Skrive',
+        subtitle: 'Flersprogede Gratis Arbejdsark til Læse og Skrive',
         description: `Fremmedsprogslærere finder ordsøgningsgeneratoren uvurderlig. Skift sprog med et klik. Lav samme ordsøgning på dansk og engelsk. Perfekt til at sammenligne ord på forskellige sprog. Fantastisk til gratis skoleopgaver i sprogundervisning.
 
 Brug ordsøgninger til ordforråd øvelser. Nye ord visualiseres med billeder. Eleverne lærer stavning gennem søgning. Kombiner med læse og skrive øvelser på fremmedsproget. Perfekt til begynderundervisning i nye sprog.
@@ -317,7 +337,7 @@ Lav tematiske sprogpakker. Farver på engelsk med ordsøgning. Tal på tysk med 
         id: '5',
         icon: '💜',
         title: 'Specialpædagoger',
-        subtitle: 'Tilpassede Opgaver til Print med Finmotorik Øvelser',
+        subtitle: 'Tilpassede Arbejdsark til Print med Finmotorik Øvelser',
         description: `Specialpædagoger værdsætter den fulde tilpasningsmulighed. Lav store gitre for elever med synsvanskeligheder. Store bogstaver og tydelige billeder. Kombiner ordsøgninger med farvelægning for finmotorik øvelser. Hver opgave kan tilpasses individuelle behov.
 
 Visuel læring fungerer fantastisk. Billeder støtter ordgenkendelse. Elever med læsevanskeligheder finder ordene lettere. Kombiner ordsøgninger med farvelægning for variation. Multi-sensorisk tilgang til gratis skoleopgaver.
@@ -342,7 +362,7 @@ Print-on-demand licensen åbner muligheder. Sælg på Etsy som arbejdsark til pr
 
   // FAQ Section - Selected FAQs from wordsearch.md
   faq: {
-    sectionTitle: 'Ofte Stillede Spørgsmål',
+    sectionTitle: 'Ofte Stillede Spørgsmål om Gratis Arbejdsark',
     sectionDescription: 'Her er svar på de mest almindelige spørgsmål om ordsøgningsgeneratoren. Lær om gratis muligheder, abonnementer og hvordan du bruger opgaver til print i din undervisning.',
     showMoreText: 'Vis flere spørgsmål',
     showLessText: 'Vis færre',
@@ -354,12 +374,12 @@ Print-on-demand licensen åbner muligheder. Sælg på Etsy som arbejdsark til pr
     items: [
       {
         id: '1',
-        question: 'Er ordsøgningsgeneratoren gratis at bruge til gratis skoleopgaver?',
+        question: 'Er ordsøgningsgeneratoren gratis at bruge til gratis arbejdsark?',
         answer: 'Ordsøgningsgeneratoren er gratis at bruge med vandmærke på opgaverne. Kun til privat brug i dit hjem eller klasseværelse. Du kan lave ubegrænsede ordsøgninger gratis. Vandmærke vises diskret på hver side af gratis skoleopgaver. Kernepakke abonnement koster kr. 1075 årligt eller kr. 112 månedligt og fjerner vandmærke fra alle opgaver til print. Inkluderer 10 populære værktøjer og giver kommerciel licens til salg af arbejdsark.',
       },
       {
         id: '2',
-        question: 'Kan jeg printe gratis skoleopgaver hjemme på normal printer?',
+        question: 'Kan jeg printe gratis arbejdsark hjemme på normal printer?',
         answer: 'Ja, alle ordsøgninger kan printes hjemme. Standard A4 printer fungerer perfekt til gratis skoleopgaver. 300 DPI kvalitet sikrer skarpe udskrifter. PDF format er optimeret til print. Brug almindeligt kopipapir til daglig brug. Tykkere papir til opgaver til print du vil gemme. Farveprinter giver flotteste resultat. Sort-hvid printer virker også fint med gråtoneoption.',
       },
       {
@@ -369,22 +389,22 @@ Print-on-demand licensen åbner muligheder. Sælg på Etsy som arbejdsark til pr
       },
       {
         id: '4',
-        question: 'Kan jeg bruge gratis skoleopgaver i mit klasseværelse til eleverne?',
+        question: 'Kan jeg bruge gratis arbejdsark i mit klasseværelse til eleverne?',
         answer: 'Ja, gratis version kan bruges i klasseværelset. Print ubegrænset antal kopier til dine elever. Vandmærke vises på opgaverne men forstyrrer ikke læsning. Perfekt til daglig undervisningsbrug af gratis skoleopgaver. Abonnement fjerner vandmærke fra arbejdsark og giver mere professionelt udseende. Elever og forældre ser polerede opgaver til print.',
       },
       {
         id: '5',
-        question: 'Hvilke sprog er gratis skoleopgaver tilgængelige på til lære bogstaver?',
+        question: 'Hvilke sprog er gratis arbejdsark tilgængelige på til lære bogstaver?',
         answer: 'Ordsøgningsgeneratoren understøtter 11 sprog. Dansk, engelsk, tysk, fransk, spansk, italiensk, portugisisk, hollandsk, svensk, norsk, finsk. Perfekt til lære bogstaver på flere sprog i gratis skoleopgaver. Skift sprog med et klik. Billednavne ændres automatisk. Samme ordsøgning på forskellige sprog. Fantastisk til sprogundervisning med arbejdsark til print.',
       },
       {
         id: '6',
-        question: 'Kan jeg sælge gratis skoleopgaver jeg laver med generatoren?',
+        question: 'Kan jeg sælge gratis arbejdsark jeg laver med generatoren?',
         answer: 'Gratis version tillader ikke kommercielt salg. Kun privat og klasseværelsesbrug af gratis skoleopgaver. Vandmærkede opgaver kan ikke sælges lovligt. Kernepakke og Fuld Adgang inkluderer kommerciel licens. Sælg dine opgaver til print på Teachers Pay Teachers. Byg Etsy shop med arbejdsark. Lav Amazon KDP bøger. Ingen ekstra licensomkostninger.',
       },
       {
         id: '7',
-        question: 'Hvordan tilpasser jeg gratis skoleopgaver til mine elever i 0. klasse?',
+        question: 'Hvordan tilpasser jeg gratis arbejdsark til mine elever i 0. klasse?',
         answer: 'Start med små gitre til 0. klasse. 5x5 eller 6x6 passer perfekt. Korte simple ord virker bedst. DYR, SOL, HUS, BIL er ideelle til gratis skoleopgaver. Brug billeder i stedet for tekstliste. Børn i 0. klasse genkender billeder før ord. Farverige illustrationer holder opmærksomhed. Perfekt til visuel læring med arbejdsark til print.',
       },
       {
@@ -394,17 +414,17 @@ Print-on-demand licensen åbner muligheder. Sælg på Etsy som arbejdsark til pr
       },
       {
         id: '9',
-        question: 'Inkluderer gratis skoleopgaver facitark til læse og skrive øvelser?',
+        question: 'Inkluderer gratis arbejdsark facitark til læse og skrive øvelser?',
         answer: 'Ja, automatisk facitark genereres. Ord er farvemarkeret i gitteret. Perfekt til hurtig rettelse af gratis skoleopgaver. Download både opgave og facit samtidig. Facitark viser præcis hvor ord er placeret. Forskellige farver til hvert ord. Let at se diagonale og baglæns ord. Spar tid på rettelse af arbejdsark til print.',
       },
       {
         id: '10',
-        question: 'Kan jeg uploade mine egne billeder til gratis skoleopgaver?',
+        question: 'Kan jeg uploade mine egne billeder til gratis arbejdsark?',
         answer: 'Ja, ubegrænset billedupload inkluderet. JPEG, PNG, GIF formater understøttes. Kombiner dine billeder med biblioteket. Lav ultra-personlige gratis skoleopgaver til din klasse. Multi-upload funktion sparer tid. Upload 10-20 billeder samtidig. Perfekt til tematiske arbejdsark om klasseprojekt. Brug fotos fra ekskursion i opgaver til print.',
       },
       {
         id: '11',
-        question: 'Hvilke aldersgrupper passer gratis skoleopgaver til bedst?',
+        question: 'Hvilke aldersgrupper passer gratis arbejdsark til bedst?',
         answer: 'Børnehaveklassen elsker simple ordsøgninger. 5x5 gitre med 5-6 ord. Billeder i stedet for tekst. Kombiner med farvelægning og finmotorik øvelser. Perfekt introduktion til lære bogstaver. 0. klasse og 1. klasse er ideelle aldersgrupper. 8x8 til 12x12 gitre. Korte ord de lærer. Kombiner med læse og skrive øvelser. Gratis skoleopgaver støtter alfabetisering perfekt.',
       },
       {

@@ -15,10 +15,42 @@ export const drawingLinesDaContent: ProductPageContent = {
   seo: {
     slug: 'linjetraening-arbejdsark',
     appId: 'drawing-lines',
-    title: 'Finmotorik Øvelser - Gratis Opgaver til Print - Arbejdsark til Børnehaveklassen og 1. Klasse',
-    description: 'Lav professionelle opgaver til print med linjer og finmotorik øvelser til børnehaveklassen. Generer tilpassede finmotorik øvelser perfekt til 0. klasse og 1. klasse. Download kvalitetsopgaver som PDF på under 3 minutter.',
+    title: 'Linjetræning Gratis Arbejdsark - Finmotorik Øvelser til Børnehaveklasse',
+    description: 'Lav professionelle linjetræning gratis arbejdsark til børn. Download gratis printables til finmotorik øvelser. Arbejdsark til børnehaveklasse.',
     keywords: 'finmotorik øvelser, linjetræning, opgaver til print, tegn linjer, arbejdsark børnehaveklassen, 0. klasse, 1. klasse, gratis skoleopgaver, blyantgreb, hånd-øje koordination',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/linjetraening-arbejdsark',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/drawing-lines/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Linjetræning gratis arbejdsark - finmotorik øvelser til børnehaveklasse'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/drawing-lines/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Tegn linjer gratis arbejdsark til børn - arbejdsark til 0. klasse'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/drawing-lines/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Diagonal linjetræning - gratis printables til finmotorik øvelser'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/drawing-lines/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Kurvede linjer gratis arbejdsark - arbejdsark til børnehaveklasse'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/drawing-lines/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Linjetræning øvelser - gratis arbejdsark til børn og 1. klasse'
+      },
+    ],
   },
 
   // Hero Section - FULL text from drawing-lines.md paragraphs 1-3
@@ -30,7 +62,7 @@ export const drawingLinesDaContent: ProductPageContent = {
 Vores linjetræningsværktøj hjælper børn udvikle finmotorik gennem sjove opgaver til print. Børn forbinder billeder med linjer og styrker deres blyantgreb. Perfekt til gratis skoleopgaver i børnehaveklassen og indskolingen. Lærere bruger disse arbejdsark til daglig motoriktræning.
 
 Tegn linjer opgaver kombinerer finmotorik øvelser med sjove billeder børn elsker. Vælg mellem 8 forskellige linjeskabeloner. Tilføj dine egne billeder eller brug vores bibliotek med 3000+ børnevenlige motiver. Værktøjet genererer professionelle opgaver til print klar til download på få sekunder. Spar timer hver uge med automatisk opgavegenerering til din klasse.`,
-    previewImageSrc: '/samples/english/drawing lines/drawing_lines_horizontal.jpeg',
+    previewImageSrc: '/samples/danish/drawing-lines/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Prøv Gratis',
       viewSamples: 'Se Eksempler',
@@ -51,7 +83,7 @@ Tegn linjer opgaver kombinerer finmotorik øvelser med sjove billeder børn elsk
 
   // Sample Gallery - REAL file paths from samples/english/drawing lines/
   samples: {
-    sectionTitle: 'Finmotorik Øvelser Eksempler',
+    sectionTitle: 'Gratis Arbejdsark Eksempler - Finmotorik Øvelser',
     sectionDescription: 'Download gratis eksempler på arbejdsark for at se vores professionelle kvalitet',
     badgeText: 'Gratis Eksempler',
     downloadLabel: 'Download Gratis Eksempel',
@@ -65,45 +97,45 @@ Tegn linjer opgaver kombinerer finmotorik øvelser med sjove billeder børn elsk
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/drawing lines/drawing_lines_horizontal.jpeg',
+        worksheetSrc: '/samples/danish/drawing-lines/sample-1.jpeg',
         answerKeySrc: '',
-        altText: 'Horisontale linjer arbejdsark til finmotorik øvelser i børnehaveklassen',
-        pdfDownloadUrl: '/samples/english/drawing lines/drawing_lines_horizontal.pdf',
+        altText: 'Linjetræning gratis arbejdsark - finmotorik øvelser til børnehaveklasse',
+        pdfDownloadUrl: '/samples/danish/drawing-lines/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/drawing lines/drawing_lines_vertical.jpeg',
+        worksheetSrc: '/samples/danish/drawing-lines/sample-2.jpeg',
         answerKeySrc: '',
-        altText: 'Vertikale linjer arbejdsark til linjetræning i 0. klasse',
-        pdfDownloadUrl: '/samples/english/drawing lines/drawing_lines_vertical.pdf',
+        altText: 'Tegn linjer gratis arbejdsark til børn - arbejdsark til 0. klasse',
+        pdfDownloadUrl: '/samples/danish/drawing-lines/sample-2.pdf',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/drawing lines/drawing_lines_diagonal 1.jpeg',
+        worksheetSrc: '/samples/danish/drawing-lines/sample-3.jpeg',
         answerKeySrc: '',
-        altText: 'Diagonale linjer arbejdsark til hånd-øje koordination',
-        pdfDownloadUrl: '/samples/english/drawing lines/drawing_lines_diagonal 1.pdf',
+        altText: 'Diagonal linjetræning - gratis printables til finmotorik øvelser',
+        pdfDownloadUrl: '/samples/danish/drawing-lines/sample-3.pdf',
       },
       {
         id: '4',
-        worksheetSrc: '/samples/english/drawing lines/drawing_lines_curve 1.jpeg',
+        worksheetSrc: '/samples/danish/drawing-lines/sample-4.jpeg',
         answerKeySrc: '',
-        altText: 'Kurvede linjer arbejdsark til avancerede finmotorik øvelser',
-        pdfDownloadUrl: '/samples/english/drawing lines/drawing_lines_curve 1.pdf',
+        altText: 'Kurvede linjer gratis arbejdsark - arbejdsark til børnehaveklasse',
+        pdfDownloadUrl: '/samples/danish/drawing-lines/sample-4.pdf',
       },
       {
         id: '5',
-        worksheetSrc: '/samples/english/drawing lines/drawing_lines_curve 2.jpeg',
+        worksheetSrc: '/samples/danish/drawing-lines/sample-5.jpeg',
         answerKeySrc: '',
-        altText: 'Varierede kurvelinjer arbejdsark til 1. klasse motoriktræning',
-        pdfDownloadUrl: '/samples/english/drawing lines/drawing_lines_curve 2.pdf',
+        altText: 'Linjetræning øvelser - gratis arbejdsark til børn og 1. klasse',
+        pdfDownloadUrl: '/samples/danish/drawing-lines/sample-5.pdf',
       },
     ],
   },
 
   // Features Grid - FULL text from drawing-lines.md feature sections
   features: {
-    sectionTitle: 'Finmotorik Øvelser Funktioner - Alt Du Behøver til Gratis Opgaver til Print og Arbejdsark',
+    sectionTitle: 'Gratis Arbejdsark til Børn Funktioner - Finmotorik Øvelser og Gratis Printables',
     sectionDescription: 'Vores linjetræningsværktøj giver dig alle funktioner til at skabe professionelle finmotorik øvelser. Grundpakke-abonnementet inkluderer ubegrænset oprettelse af opgaver til print uden ekstra omkostninger. Skab tilpassede arbejdsark til børnehaveklassen og 1. klasse på få minutter. Værktøjet kombinerer enkelhed med professionelle resultater til din undervisning.',
     highlightBadgeText: 'Vigtig Funktion',
     readMoreLabel: 'Læs mere',
@@ -183,7 +215,7 @@ PDF-format bevarer alle elementer i perfekt kvalitet. JPEG fungerer perfekt til 
 
   // How-To Guide - FULL text from drawing-lines.md step sections
   howTo: {
-    sectionTitle: 'Sådan Laver Du Finmotorik Øvelser og Opgaver til Print i 5 Nemme Trin',
+    sectionTitle: 'Sådan Laver Du Gratis Printables og Arbejdsark til Børn i 5 Nemme Trin',
     sectionDescription: 'Opret professionelle arbejdsark med linjetræning på under 3 minutter. Ingen designerfærdigheder kræves. Følg disse fem enkle trin for at generere finmotorik øvelser til børnehaveklassen. Værktøjet guides dig gennem hele processen fra valg af skabelon til færdig download. Børn i 0. klasse og 1. klasse får opgaver perfekt tilpasset deres færdighedsniveau.',
     ctaText: 'Start Nu',
     badgeText: 'Sådan Virker Det',
@@ -421,7 +453,7 @@ Populære produkter inkluderer julepakker, alfabetserier og motoriksamlinger. La
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Kombiner med Andre Arbejdsark Generatorer',
+    sectionTitle: 'Kombiner med Andre Gratis Arbejdsark Generatorer',
     sectionDescription: 'Lav komplette læringspakker ved at kombinere finmotorik øvelser med disse komplementære generatorer.',
     ctaTitle: 'Klar til at Lave Fantastiske Arbejdsark?',
     ctaDescription: 'Tilslut dig tusindvis af pædagoger der laver professionelle arbejdsark. Ubegrænset oprettelse, kommerciel licens inkluderet.',

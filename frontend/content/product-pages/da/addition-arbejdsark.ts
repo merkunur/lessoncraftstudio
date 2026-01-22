@@ -15,22 +15,54 @@ export const additionDaContent: ProductPageContent = {
   seo: {
     slug: 'addition-arbejdsark',
     appId: 'addition',
-    title: 'Matematikopgaver Plus – Gratis Skoleopgaver til Print og Arbejdsark til 0. Klasse',
-    description: 'Lav professionelle plusstykker og matematikopgaver med vores billedbaserede opgavegenerator. Generer tilpassede matematikopgaver perfekt til børnehaveklassen, 0. klasse opgaver og 1. klasse. Download opgaveark i høj kvalitet som PDF på under 3 minutter.',
-    keywords: 'matematikopgaver, plusstykker, gratis skoleopgaver, arbejdsark til print, 0. klasse opgaver, 1. klasse, addition, regning, børnehaveklassen, kopiark, finmotorik øvelser',
+    title: 'Addition Arbejdsark - Gratis Arbejdsark til Børn og Børnehaveklasse | LessonCraftStudio',
+    description: 'Lav professionelle plusstykker og matematikopgaver med vores billedbaserede opgavegenerator. Gratis arbejdsark til børn og gratis arbejdsark til børnehaveklasse perfekt til 0. klasse opgaver og 1. klasse. Download gratis printables i høj kvalitet som PDF på under 3 minutter.',
+    keywords: 'gratis arbejdsark, gratis arbejdsark til børn, arbejdsark til børn, arbejdsark til børnehaveklasse, gratis printables, matematikopgaver, plusstykker, 0. klasse opgaver, addition, regning',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/addition-arbejdsark',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/addition/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis arbejdsark til børn - billedbaseret addition matematik',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/addition/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis arbejdsark til børnehaveklasse - plusstykker matematikopgaver',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/addition/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Arbejdsark til børn - billede og tal addition opgave',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/addition/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis printables - find manglende led addition arbejdsark',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/addition/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Arbejdsark til børnehaveklasse - blandet tilstand matematikopgaver',
+      },
+    ],
   },
 
   // Hero Section - FULL text from addition.md paragraphs 1-3
   hero: {
-    title: 'Matematikopgaver Plus – Gratis Skoleopgaver',
-    subtitle: 'Arbejdsark til Print til Børnehaveklassen og 0. Klasse',
-    description: `Lav professionelle plusstykker og matematikopgaver med vores billedbaserede opgavegenerator. Med dit Core Bundle-abonnement får du ubegrænset adgang til at skabe arbejdsark og opgaver til print uden ekstra gebyrer pr. opgaveark. Generer tilpassede matematikopgaver perfekt til børnehaveklassen, 0. klasse opgaver og 1. klasse. Download opgaveark i høj kvalitet som PDF på under 3 minutter.
+    title: 'Gratis Arbejdsark til Børn - Matematikopgaver Plus og Addition',
+    subtitle: 'Professionel Generator til Gratis Arbejdsark til Børnehaveklasse og 0. Klasse',
+    description: `Lav professionelle plusstykker og matematikopgaver med vores billedbaserede opgavegenerator. Med dit Core Bundle-abonnement får du ubegrænset adgang til at skabe gratis arbejdsark til børn uden ekstra gebyrer pr. opgaveark. Generer tilpassede gratis arbejdsark til børnehaveklasse perfekt til 0. klasse opgaver og 1. klasse. Download gratis printables i høj kvalitet som PDF på under 3 minutter.
 
-Vores plusstykke-generator gør det nemt at skabe matematikopgaver til print for lærere i indskolingen. Børn lærer bedst når de kan se konkrete billeder af ting de skal lægge sammen. Denne opgavegenerator kombinerer billeder med tal så eleverne får både visuel og numerisk forståelse af addition. Skab gratis skoleopgaver der hjælper børn med at forstå matematiske begreber gennem billeder og tal.
+Vores plusstykke-generator gør det nemt at skabe arbejdsark til børn for lærere i indskolingen. Børn lærer bedst når de kan se konkrete billeder af ting de skal lægge sammen. Denne opgavegenerator kombinerer billeder med tal så eleverne får både visuel og numerisk forståelse af addition. Skab gratis arbejdsark der hjælper børn med at forstå matematiske begreber gennem billeder og tal.
 
-Hver matematikopgave kan tilpasses efter elevernes niveau og læringsbehov. Vælg mellem billedebaserede opgaver til print hvor børn tæller objekter eller mere avancerede opgaver med tal. Vores arbejdsark til matematik understøtter alle stadier af additionsindlæring fra helt små tal i 0. klasse til større udfordringer i 1. og 2. klasse. Med vores billedbibliotek på over 3000 børnevenlige illustrationer kan du skabe engagerende matematikopgaver der fanger elevernes interesse.`,
-    previewImageSrc: '/samples/english/addition/addition_worksheet portrait.jpeg',
+Hver matematikopgave kan tilpasses efter elevernes niveau og læringsbehov. Vælg mellem billedebaserede arbejdsark til børnehaveklasse hvor børn tæller objekter eller mere avancerede opgaver med tal. Vores gratis arbejdsark til matematik understøtter alle stadier af additionsindlæring fra helt små tal i 0. klasse til større udfordringer i 1. og 2. klasse. Med vores billedbibliotek på over 3000 børnevenlige illustrationer kan du skabe engagerende matematikopgaver der fanger elevernes interesse.`,
+    previewImageSrc: '/samples/danish/addition/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Prøv Gratis',
       viewSamples: 'Se Eksempler',
@@ -49,10 +81,10 @@ Hver matematikopgave kan tilpasses efter elevernes niveau og læringsbehov. Væl
     },
   },
 
-  // Sample Gallery - REAL file paths from samples/english/addition/
+  // Sample Gallery - REAL file paths from samples/danish/addition/
   samples: {
-    sectionTitle: 'Matematikopgaver Eksempler',
-    sectionDescription: 'Download gratis eksempler på arbejdsark for at se vores professionelle kvalitet',
+    sectionTitle: 'Eksempler på Gratis Arbejdsark - Addition og Matematikopgaver til Børn',
+    sectionDescription: 'Download gratis arbejdsark til børn for at se vores professionelle kvalitet',
     badgeText: 'Gratis Eksempler',
     downloadLabel: 'Download Gratis Eksempel',
     downloadingLabel: 'Downloader...',
@@ -65,46 +97,46 @@ Hver matematikopgave kan tilpasses efter elevernes niveau og læringsbehov. Væl
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/addition/addition_worksheet portrait.jpeg',
-        answerKeySrc: '/samples/english/addition/addition_answer_key portrait.jpeg',
-        altText: 'Addition arbejdsark portrætformat med billedbaserede plusstykker til 0. klasse',
-        pdfDownloadUrl: '/samples/english/addition/addition_worksheet portrait.pdf',
+        worksheetSrc: '/samples/danish/addition/sample-1.jpeg',
+        answerKeySrc: '/samples/danish/addition/sample-1-answer.jpeg',
+        altText: 'Gratis arbejdsark til børn - billedbaseret addition matematikopgave til børnehaveklasse',
+        pdfDownloadUrl: '/samples/danish/addition/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/addition/addition_worksheet landscape.jpeg',
-        answerKeySrc: '/samples/english/addition/addition_answer_key landscape.jpeg',
-        altText: 'Addition arbejdsark landskabsformat med farverige matematikopgaver til 1. klasse',
-        pdfDownloadUrl: '/samples/english/addition/addition_worksheet landscape.pdf',
+        worksheetSrc: '/samples/danish/addition/sample-2.jpeg',
+        answerKeySrc: '/samples/danish/addition/sample-2-answer.jpeg',
+        altText: 'Gratis arbejdsark til børnehaveklasse - farverige plusstykker matematikopgaver',
+        pdfDownloadUrl: '/samples/danish/addition/sample-2.pdf',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/addition/image and number.jpeg',
-        answerKeySrc: '/samples/english/addition/image and number answer_key.jpeg',
-        altText: 'Billede og tal kombineret matematikopgave til børnehaveklassen',
-        pdfDownloadUrl: '/samples/english/addition/image and number.pdf',
+        worksheetSrc: '/samples/danish/addition/sample-3.jpeg',
+        answerKeySrc: '/samples/danish/addition/sample-3-answer.jpeg',
+        altText: 'Arbejdsark til børn - billede og tal kombineret addition opgave',
+        pdfDownloadUrl: '/samples/danish/addition/sample-3.pdf',
       },
       {
         id: '4',
-        worksheetSrc: '/samples/english/addition/find addend.jpeg',
-        answerKeySrc: '/samples/english/addition/find addend answer_key.jpeg',
-        altText: 'Find manglende led arbejdsark til addition øvelser',
-        pdfDownloadUrl: '/samples/english/addition/find addend.pdf',
+        worksheetSrc: '/samples/danish/addition/sample-4.jpeg',
+        answerKeySrc: '/samples/danish/addition/sample-4-answer.jpeg',
+        altText: 'Gratis printables - find manglende led arbejdsark til addition øvelser',
+        pdfDownloadUrl: '/samples/danish/addition/sample-4.pdf',
       },
       {
         id: '5',
-        worksheetSrc: '/samples/english/addition/mixed mode.jpeg',
-        answerKeySrc: '/samples/english/addition/mixed mode answer_key.jpeg',
-        altText: 'Blandet tilstand matematikopgaver med forskellige opgavetyper',
-        pdfDownloadUrl: '/samples/english/addition/mixed mode.pdf',
+        worksheetSrc: '/samples/danish/addition/sample-5.jpeg',
+        answerKeySrc: '/samples/danish/addition/sample-5-answer.jpeg',
+        altText: 'Arbejdsark til børnehaveklasse - blandet tilstand matematikopgaver med billedbaseret addition',
+        pdfDownloadUrl: '/samples/danish/addition/sample-5.pdf',
       },
     ],
   },
 
   // Features Grid - FULL text from addition.md feature sections
   features: {
-    sectionTitle: 'Funktioner til Matematikopgaver – Alt Du Skal Bruge til Arbejdsark',
-    sectionDescription: 'Vores billedbaserede plusstykke-generator giver dig alle værktøjer til at skabe professionelle matematikopgaver til print. Systemet er designet til danske lærere og pædagoger der arbejder med børnehaveklassen, 0. klasse opgaver og 1. klasse. Hver funktion hjælper dig med at lave engagerende arbejdsark og kopiark der støtter børns matematiske udvikling.',
+    sectionTitle: 'Funktioner - Lav Gratis Arbejdsark til Børn med Matematikopgaver',
+    sectionDescription: 'Vores billedbaserede plusstykke-generator giver dig alle værktøjer til at skabe professionelle gratis arbejdsark til børnehaveklasse. Systemet er designet til danske lærere og pædagoger der arbejder med arbejdsark til børn i 0. klasse opgaver og 1. klasse. Hver funktion hjælper dig med at lave engagerende gratis printables og kopiark der støtter børns matematiske udvikling.',
     highlightBadgeText: 'Vigtig Funktion',
     readMoreLabel: 'Læs mere',
     showLessLabel: 'Vis mindre',
@@ -118,7 +150,7 @@ Hver matematikopgave kan tilpasses efter elevernes niveau og læringsbehov. Væl
       {
         id: '1',
         icon: '⚡',
-        title: 'Skab Matematikopgaver på 3 Klik',
+        title: 'Skab Gratis Arbejdsark til Børn på 3 Klik',
         description: `Lav færdige plusstykker og matematikopgaver på få sekunder. Vælg et tema fra billedbiblioteket eller individuelle billeder. Tryk generer og dit arbejdsark er klar. Hele processen tager under 3 minutter fra start til færdig PDF. Systemet kræver ingen designerfærdigheder eller teknisk viden.
 
 Mange lærere bruger generatoren til at lave matematikopgaver hver uge til deres 0. klasse opgaver og 1. klasse. Du kan skifte mellem forskellige temaer og sværhedsgrader alt efter elevernes niveau. Børn elsker at arbejde med opgaver til print der indeholder billeder af dyr, frugter, køretøjer eller sæsonting.
@@ -129,7 +161,7 @@ Generatoren tilpasser automatisk opgavernes layout så de ser professionelle ud.
       {
         id: '2',
         icon: '✏️',
-        title: 'Rediger Alle Elementer på Arbejdsark',
+        title: 'Rediger Alle Elementer på Gratis Arbejdsark',
         description: `Alt på lærredet kan redigeres efter du har genereret matematikopgaverne. Træk, roter, skalér eller slet ethvert element. Flyt billeder så de passer perfekt til dit layout. Ændr tekststørrelse og farver. Tilføj ekstra instruktioner eller hjælpetekst til eleverne.
 
 Denne fleksibilitet er perfekt når du laver arbejdsark til 0. klasse opgaver eller 1. klasse. Nogle børn har brug for større billeder. Andre har brug for ekstra plads til at skrive deres svar. Med fuld redigeringsmulighed tilpasser du hver matematikopgave til dine elevers specifikke behov.
@@ -140,7 +172,7 @@ Du kan også kombinere matematikopgaver med andre aktiviteter. Tilføj farvelæg
       {
         id: '3',
         icon: '📤',
-        title: 'Upload Dine Egne Billeder',
+        title: 'Upload Dine Egne Billeder til Arbejdsark til Børn',
         description: `Upload flere billeder på én gang i almindelige formater som JPEG og PNG. Kombinér dine egne fotos med billedbiblioteket. Lav matematikopgaver med billeder af elevernes egne ting, klasseværelsets genstande eller lokale steder børnene kender.
 
 Dette gør arbejdsark og kopiark mere relevante og engagerende for børnene. En 0. klasse opgave om at tælle æbler bliver pludselig mere spændende når det er billeder af æblerne fra skolens have.
@@ -151,7 +183,7 @@ Mange lærere tager billeder under udflugter og bruger dem i opgaver til print b
       {
         id: '4',
         icon: '🌍',
-        title: '11 Sprog Understøttet',
+        title: '11 Sprog Understøttet til Gratis Printables',
         description: `Brugerflade og opgaveindhold tilgængeligt på 11 sprog: dansk, engelsk, tysk, fransk, spansk, italiensk, portugisisk, hollandsk, svensk, norsk og finsk. Skift sprog med ét klik. Perfekt til tosprogede klasser, internationale skoler eller børn der lærer fremmedsprog.
 
 Lav matematikopgaver til print på dansk til dine 0. klasse opgaver og samme opgaver på engelsk til sprogtimen. Mange internationale skoler i Danmark bruger systemet til at skabe arbejdsark på både dansk og elevernes modersmål.
@@ -162,7 +194,7 @@ Sprogfunktionen påvirker også billednavnene i opgaverne når du bruger tekst-t
       {
         id: '5',
         icon: '💰',
-        title: 'Kommerciel Licens Inkluderet',
+        title: 'Kommerciel Licens til Arbejdsark til Børnehaveklasse',
         description: `Kernepakke-abonnement inkluderer fuld kommerciel print-on-demand-licens uden ekstra omkostninger. Sælg dine matematikopgaver på Teachers Pay Teachers, Etsy eller i din egen webshop. Ingen krav om kreditering. Perfekt til lærere der vil bygge en side-indkomst.
 
 Mange danske lærere tjener 3000-15000 kr om måneden ved at sælge opgaver til print og arbejdsark online. Efterspørgslen efter kvalitets matematikopgaver til 0. klasse opgaver og 1. klasse er enorm på danske og internationale platforme.
@@ -173,7 +205,7 @@ Sælgere rapporterer at billedbaserede matematikopgaver sælger særligt godt fo
       {
         id: '6',
         icon: '🎨',
-        title: 'Over 3000 Børnevenlige Billeder',
+        title: 'Over 3000 Børnevenlige Billeder til Gratis Arbejdsark',
         description: `Billedbiblioteket indeholder over 3000 børnevenlige illustrationer. Organiseret efter temaer som dyr, køretøjer, mad, natur. Gennemse billeder efter kategorier. Eller brug søgefunktionen til specifikke ord.
 
 Billedbiblioteket dækker alle populære temaer til matematikopgaver: dyr, frugter, grøntsager, køretøjer, legetøj, værktøj, sæsoner, højtider og meget mere. Hvert tema indeholder 20-100 relaterede billeder så dine opgaver til print får variation.
@@ -197,8 +229,8 @@ Gråtone-funktionen er uvurderlig når du printer store mængder arbejdsark og k
 
   // How-To Guide - FULL text from addition.md step sections
   howTo: {
-    sectionTitle: 'Lav Matematikopgaver i 5 Nemme Trin',
-    sectionDescription: 'Skab professionelle matematikopgaver og arbejdsark på under 3 minutter. Hele processen er designet til at være hurtig og intuitiv selv for lærere uden tekniske færdigheder. Fra temavalg til færdig PDF tager det kun fem enkle trin.',
+    sectionTitle: 'Sådan Laver Du Gratis Arbejdsark til Børnehaveklasse i 5 Trin',
+    sectionDescription: 'Skab professionelle gratis arbejdsark til børn på under 3 minutter. Hele processen er designet til at være hurtig og intuitiv selv for lærere uden tekniske færdigheder. Fra temavalg til færdig gratis printables tager det kun fem enkle trin.',
     ctaText: 'Start Nu',
     badgeText: 'Sådan Virker Det',
     stepLabel: 'Trin',
@@ -212,7 +244,7 @@ Gråtone-funktionen er uvurderlig når du printer store mængder arbejdsark og k
       {
         id: '1',
         number: 1,
-        title: 'Vælg Indhold til Matematikopgaver',
+        title: 'Vælg Indhold til Gratis Arbejdsark til Børn',
         description: `Start med at vælge hvilket indhold dine matematikopgaver skal indeholde. Klik på Billedbibliotek-sektionen i venstre sidebar. Her ser du en dropdown-menu med alle tilgængelige temaer. Systemet indeholder over 50 forskellige temaer organiseret efter emner børn kender og elsker.
 
 Populære temaer til matematikopgaver i 0. klasse opgaver inkluderer: Dyr (gårdsdyr, kæledyr, vilde dyr), Frugter og grøntsager, Køretøjer (biler, fly, både), Legetøj, Former og farver. Børn i 1. klasse arbejder ofte med de samme temaer men mere komplekse opgaver.
@@ -223,7 +255,7 @@ Alternativt kan du uploade dine egne billeder. Dette er perfekt til at skabe per
       {
         id: '2',
         number: 2,
-        title: 'Tilpas Indstillinger for Opgaver',
+        title: 'Tilpas Indstillinger for Arbejdsark til Børnehaveklasse',
         description: `Klik på Opgavekonfiguration-sektionen for at tilpasse matematikopgavernes sværhedsgrad. Her bestemmer du hvor mange opgaver arbejdsarket skal indeholde, hvor store tal børnene skal arbejde med og hvilken type additionsopgaver du vil skabe.
 
 Vælg antal opgaver mellem 1 og 10. For 0. klasse opgaver starter mange lærere med 4-5 opgaver pr. arbejdsark. For 1. klasse kan du øge til 8-10 opgaver. Juster efter hvor lang tid dine elever bruger og deres koncentrationsevne.
@@ -234,7 +266,7 @@ Vælg opgavetype mellem fire muligheder: Billede + Billede, Billede + Tal, Find 
       {
         id: '3',
         number: 3,
-        title: 'Generer Din Matematikopgave',
+        title: 'Generer Dit Gratis Arbejdsark',
         description: `Når du har valgt indhold og indstillinger klik på den store Generer-knap øverst til højre. Systemet genererer din matematikopgave øjeblikkeligt. Du ser resultatet på lærredet i midten af skærmen. Hele processen tager under 5 sekunder.
 
 Systemet placerer automatisk billederne, opretter opgaverne og sætter alt i et professionelt layout. Opgavetypen du valgte bestemmer hvordan billederne arrangeres.
@@ -245,7 +277,7 @@ Et facitark genereres automatisk. Ordene er farvemarkeret i gitteret. Perfekt ti
       {
         id: '4',
         number: 4,
-        title: 'Rediger Dit Arbejdsark',
+        title: 'Rediger Dit Gratis Arbejdsark til Børn',
         description: `Alt på lærredet kan nu redigeres direkte. Klik på et hvilket som helst element for at vælge det. Træk for at flytte. Træk i hjørnerne for at ændre størrelse. Brug rotationshåndtaget for at dreje.
 
 Tekstredigering er særligt vigtig for opgaver til print til små børn. Klik på tekstelementer som opgavenumre eller instruktioner. Ændr skriftstørrelse så den passer til dine elevers læseniveau.
@@ -256,7 +288,7 @@ Tilføj ekstra tekstelementer ved at klikke på Tekstværktøjer i sidebaren. Sk
       {
         id: '5',
         number: 5,
-        title: 'Download og Print Arbejdsark',
+        title: 'Download og Print Gratis Printables',
         description: `Når dit arbejdsark er perfekt klik på Download-knappen øverst til højre. Vælg mellem JPEG og PDF format. Vælg mellem farve og gråtone. Marker hvilke sider du vil downloade - kun opgavearket, kun facit eller begge.
 
 PDF-format anbefales til matematikopgaver du vil gemme eller printe professionelt. PDF bevarer den højeste kvalitet og kan åbnes på alle enheder. JPEG-format er perfekt til hurtige daglige opgaver.
@@ -269,8 +301,8 @@ Alle downloads er 300 DPI professionel kvalitet. Dette sikrer skarpe billeder og
 
   // Use Cases - FULL text from addition.md use case sections
   useCases: {
-    sectionTitle: 'Perfekt til Pædagoger, Lærere og Forældre',
-    sectionDescription: 'Vores billedbaserede matematikgenerator tjener mange forskellige brugergrupper i uddannelsessystemet. Fra børnehaveklassen til hjemmeundervisning, fra SFO til special pædagogiske tilbud. Hver gruppe finder unikke måder at bruge opgaver til print og arbejdsark på.',
+    sectionTitle: 'Gratis Arbejdsark til Børn - Perfekt til Lærere, Pædagoger og Forældre',
+    sectionDescription: 'Vores billedbaserede matematikgenerator tjener mange forskellige brugergrupper i uddannelsessystemet. Fra arbejdsark til børnehaveklasse til hjemmeundervisning, fra SFO til special pædagogiske tilbud. Hver gruppe finder unikke måder at bruge gratis printables og gratis arbejdsark på.',
     badgeText: 'Hvem Er Det Til',
     readMoreLabel: 'Læs mere',
     showLessLabel: 'Vis mindre',
@@ -352,8 +384,8 @@ Profitable nicher på det danske marked inkluderer sæsonbestemte matematikopgav
 
   // FAQ Section - Selected FAQs from addition.md
   faq: {
-    sectionTitle: 'Ofte Stillede Spørgsmål',
-    sectionDescription: 'Her er svar på de mest almindelige spørgsmål om matematikopgave-generatoren. Lær om muligheder, abonnementer og hvordan du bruger opgaver til print i din undervisning.',
+    sectionTitle: 'Ofte Stillede Spørgsmål om Gratis Arbejdsark til Børn og Addition',
+    sectionDescription: 'Her er svar på de mest almindelige spørgsmål om matematikopgave-generatoren. Lær om muligheder, abonnementer og hvordan du bruger gratis arbejdsark til børnehaveklasse i din undervisning.',
     showMoreText: 'Vis flere spørgsmål',
     showLessText: 'Vis færre',
     badgeText: 'FAQ',
@@ -364,62 +396,62 @@ Profitable nicher på det danske marked inkluderer sæsonbestemte matematikopgav
     items: [
       {
         id: '1',
-        question: 'Er matematikopgave-generatoren gratis at bruge?',
+        question: 'Er generatoren til gratis arbejdsark til børn gratis at bruge?',
         answer: 'Matematikopgave-generatoren kræver et Kernepakke-abonnement der koster 144 USD årligt eller 15 USD månedligt. Dit abonnement giver dig ubegrænset adgang til at skabe matematikopgaver og opgaver til print uden gebyrer pr. arbejdsark. Generer så mange gratis skoleopgaver som du har brug for uden ekstra omkostninger. Abonnementet inkluderer også kommerciel licens, 11 sprog og professionel 300 DPI kvalitet.',
       },
       {
         id: '2',
-        question: 'Kan jeg printe matematikopgaver hjemme på en almindelig printer?',
+        question: 'Kan jeg printe gratis arbejdsark til børnehaveklasse hjemme på en almindelig printer?',
         answer: 'Ja, alle matematikopgaver og gratis skoleopgaver kan printes hjemme på en standard printer. Systemet eksporterer som PDF eller JPEG i 300 DPI kvalitet perfekt til almindelige inkjet- eller laserprintere. Vælg mellem farve og gråtone afhængigt af dit blækbudget. Gråtone-muligheden sparer op til 70% blæk mens opgaver til print stadig forbliver klare og læselige.',
       },
       {
         id: '3',
-        question: 'Har jeg brug for designfærdigheder for at lave arbejdsark?',
+        question: 'Har jeg brug for designfærdigheder for at lave gratis arbejdsark til børn?',
         answer: 'Nej, ingen designfærdigheder kræves for at skabe professionelle matematikopgaver til 0. klasse og arbejdsark. Systemet automatiserer hele designprocessen fra billedplacering til layout-balancering. Vælg simpelthen et tema, juster indstillinger og klik generer. Opgaver til print er færdige på 3 minutter uden at skulle åbne design-software.',
       },
       {
         id: '4',
-        question: 'Kan jeg bruge matematikopgaver i mit klasseværelse til alle elever?',
+        question: 'Kan jeg bruge arbejdsark til børn i mit klasseværelse til alle elever?',
         answer: 'Kernepakke-abonnement inkluderer ubegrænset klasseværelsebrug til alle dine elever. Print så mange kopier af matematikopgaver og gratis skoleopgaver som du har brug for til din 0. klasse, 1. klasse eller enhver anden klasse du underviser. Del opgaver til print med kollegaer på samme skole. Lav ugentlige opgavesæt til hele indskolingen.',
       },
       {
         id: '5',
-        question: 'Hvilke sprog er matematikopgaver tilgængelige på?',
+        question: 'Hvilke sprog er gratis arbejdsark til børnehaveklasse tilgængelige på?',
         answer: 'Matematikopgaver er tilgængelige på 11 sprog: dansk, engelsk, tysk, fransk, spansk, italiensk, portugisisk (brasiliansk), hollandsk, svensk, norsk og finsk. Skift sprog med ét klik i dropdown-menuen. Både brugerflade og opgaveindhold ændres til det valgte sprog. Dette er uvurderligt for tosprogede klasser og internationale skoler.',
       },
       {
         id: '6',
-        question: 'Kan jeg sælge de matematikopgaver jeg laver med generatoren?',
+        question: 'Kan jeg sælge de gratis printables jeg laver med generatoren?',
         answer: 'Ja, Kernepakke-abonnement inkluderer fuld kommerciel print-on-demand licens uden ekstra omkostninger. Sælg dine matematikopgaver på Teachers Pay Teachers, Etsy, din egen hjemmeside eller fysiske markeder. Ingen kreditering kræves. Ingen royalties skydes. Lav gratis skoleopgaver og arbejdsark til 0. klasse og sælg dem som digitale downloads eller fysiske prints.',
       },
       {
         id: '7',
-        question: 'Hvordan tilpasser jeg matematikopgaver til mine elever?',
+        question: 'Hvordan tilpasser jeg gratis arbejdsark til mine elever?',
         answer: 'Hver matematikopgave kan tilpasses fuldstændigt efter dine elevers behov. Juster sværhedsgrad ved at ændre minimum og maksimum tal. For 0. klasse opgaver start med 1-5 objekter pr. gruppe. For avancerede elever i 1. klasse øg til 1-10. Vælg mellem billedebaserede opgaver, tal-baserede opgaver eller blandet tilstand.',
       },
       {
         id: '8',
-        question: 'Hvilke aldersgrupper fungerer bedst med disse matematikopgaver?',
+        question: 'Hvilke aldersgrupper fungerer bedst med disse arbejdsark til børn?',
         answer: 'Billedbaserede matematikopgaver fungerer bedst for børn 4-9 år (børnehaveklasse til 3. klasse). Børn i denne alder lærer mest effektivt gennem visuelle konkrete objekter. Børnehaveklassen (4-5 år) bruger de simpleste opgaver med 1-3 objekter. 0. klasse (5-6 år) arbejder med 1-5 objekter. 1. klasse (6-7 år) mestrer 1-10 addition.',
       },
       {
         id: '9',
-        question: 'Kan jeg uploade mine egne billeder til matematikopgaver?',
+        question: 'Kan jeg uploade mine egne billeder til gratis arbejdsark til børnehaveklasse?',
         answer: 'Ja, upload ubegrænset antal egne billeder i JPEG, PNG eller GIF formater. Klik Upload-sektionen, vælg flere filer på én gang og de tilføjes til dit session-bibliotek. Kombinér dine egne fotos med systemets 3000+ billedbibliotek for maksimal variation i dine gratis skoleopgaver. Dette personaliserer matematikopgaver.',
       },
       {
         id: '10',
-        question: 'Hvor lang tid tager det at lave en matematikopgave?',
+        question: 'Hvor lang tid tager det at lave et gratis arbejdsark til børn?',
         answer: 'En komplet matematikopgave fra start til færdig PDF tager under 3 minutter. Vælg tema (30 sekunder), juster indstillinger (60 sekunder), generer (5 sekunder), download (10 sekunder). Total tid: 2-3 minutter pr. arbejdsark. Sammenlign dette med 30-60 minutter for manuel opgaveskabelse.',
       },
       {
         id: '11',
-        question: 'Inkluderer matematikopgaver facit-sider?',
+        question: 'Inkluderer gratis arbejdsark facit-sider?',
         answer: 'Ja, systemet genererer automatisk facit-sider med alle korrekte svar. Når du klikker "Generer Facit"-knappen skaber systemet en svarside med identisk layout som opgavearket. Alle matematikopgaver vises med beregnede svar. Dette eliminerer behovet for at regne alle opgaver igennem manuelt.',
       },
       {
         id: '12',
-        question: 'Kan jeg kombinere matematikopgaver med andre aktiviteter?',
+        question: 'Kan jeg kombinere gratis arbejdsark til børn med andre aktiviteter?',
         answer: 'Ja, kreative lærere kombinerer matematikopgaver med farvelægning, finmotorik øvelser og bogstavtræning. Selvom generatoren fokuserer på addition bruger mange lærere gentagen addition som bro til multiplikation. Print matematikopgaver i gråtone og lad børn farvelægge billederne efter de har regnet opgaverne.',
       },
     ],

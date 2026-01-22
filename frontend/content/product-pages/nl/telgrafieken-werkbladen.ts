@@ -31,6 +31,20 @@ export const chartCountNlContent: ProductPageContent = {
     description: 'Maak professionele telgrafieken werkbladen met onze werkbladen generator. Met je Volledige Toegang abonnement maak je onbeperkt werkbladen zonder extra kosten per werkblad. Deze tool is ideaal voor rekenen werkbladen waarbij kinderen leren tellen en gegevens visualiseren.',
     keywords: 'telgrafieken werkbladen, werkbladen groep 3, werkbladen kleuters, rekenen werkbladen, oefenbladen gratis, kleurplaten, letters leren, schrijven oefenen, tafels oefenen, veilig leren lezen, fijne motoriek, sommen tot 20',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/telgrafieken-werkbladen',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/dutch/chart-count/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Telgrafieken werkblad - gratis werkblad voor kinderen met rekenen oefeningen',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/dutch/chart-count/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis werkbladen voor kleuters - telgrafieken werkbladen met sommen tot 20',
+      },
+    ],
   },
 
   // Hero Section - FULL text from chart-count.md paragraphs 1-4
@@ -40,7 +54,7 @@ export const chartCountNlContent: ProductPageContent = {
     description: `Maak professionele telgrafieken werkbladen met onze werkbladen generator. Met je Volledige Toegang abonnement maak je onbeperkt werkbladen zonder extra kosten per werkblad. Deze tool is ideaal voor rekenen werkbladen waarbij kinderen leren tellen en gegevens visualiseren. Download werkbladen als PDF in minder dan 3 minuten.
 
 Telgrafieken zijn perfecte rekenen werkbladen voor werkbladen groep 3 en werkbladen kleuters. Kinderen leren op een speelse manier omgaan met cijfers en grafieken. De generator biedt meer dan 3000 afbeeldingen, allemaal inbegrepen in je abonnement. Combineer plaatjes met telactiviteiten voor effectieve sommen tot 20 oefeningen.`,
-    previewImageSrc: '/samples/english/chart count/chart count.jpeg',
+    previewImageSrc: '/samples/dutch/chart-count/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Gratis Uitproberen',
       viewSamples: 'Voorbeelden Bekijken',
@@ -59,9 +73,9 @@ Telgrafieken zijn perfecte rekenen werkbladen voor werkbladen groep 3 en werkbla
     },
   },
 
-  // Sample Gallery - REAL file paths from samples/english/chart count/
+  // Sample Gallery - REAL file paths from samples/dutch/chart-count/
   samples: {
-    sectionTitle: 'Telgrafieken Werkbladen Voorbeelden',
+    sectionTitle: 'Telgrafieken Werkbladen Voorbeelden - Gratis Werkbladen voor Kinderen',
     sectionDescription: 'Download gratis voorbeeldwerkbladen om onze professionele kwaliteit te ervaren',
     downloadLabel: 'Gratis Voorbeeld Downloaden',
     worksheetLabel: 'Werkblad',
@@ -75,10 +89,31 @@ Telgrafieken zijn perfecte rekenen werkbladen voor werkbladen groep 3 en werkbla
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/chart count/chart count.jpeg',
-        answerKeySrc: '/samples/english/chart count/chart count answer_key.jpeg',
+        worksheetSrc: '/samples/dutch/chart-count/sample-1.jpeg',
+        answerKeySrc: '/samples/dutch/chart-count/sample-1-answer.jpeg',
         altText: 'Telgrafieken werkblad met plaatjes voor werkbladen groep 3 en werkbladen kleuters',
-        pdfDownloadUrl: '/samples/english/chart count/chart count.pdf',
+        pdfDownloadUrl: '/samples/dutch/chart-count/sample-1.pdf',
+      },
+      {
+        id: '2',
+        worksheetSrc: '/samples/dutch/chart-count/sample-2.jpeg',
+        answerKeySrc: '/samples/dutch/chart-count/sample-2-answer.jpeg',
+        altText: 'Gratis telgrafieken werkblad voor kinderen - rekenen werkbladen met sommen tot 20',
+        pdfDownloadUrl: '/samples/dutch/chart-count/sample-2.pdf',
+      },
+      {
+        id: '3',
+        worksheetSrc: '/samples/dutch/chart-count/sample-3.jpeg',
+        answerKeySrc: '/samples/dutch/chart-count/sample-3-answer.jpeg',
+        altText: 'Gratis werkblad voor kleuters - telgrafieken met oefenbladen gratis',
+        pdfDownloadUrl: '/samples/dutch/chart-count/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/dutch/chart-count/sample-4.jpeg',
+        answerKeySrc: '/samples/dutch/chart-count/sample-4-answer.jpeg',
+        altText: 'Werkbladen groep 3 - gratis printables met rekenen werkbladen',
+        pdfDownloadUrl: '/samples/dutch/chart-count/sample-4.pdf',
       },
     ],
   },

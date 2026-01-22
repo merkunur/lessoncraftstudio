@@ -29,24 +29,50 @@ export const patternWorksheetsNlContent: ProductPageContent = {
   seo: {
     slug: 'patronen-werkbladen',
     appId: 'pattern-worksheet',
-    title: 'Patronen Werkbladen Maken - Oefenbladen Gratis Groep 3 en Kleuters | LessonCraft Studio',
-    description: 'Maak professionele patronen werkbladen voor groep 3 en kleuters. Genereer oefenbladen met visuele patronen. Perfect voor rekenen werkbladen en fijne motoriek. Download hoogwaardige PDF werkbladen in onder 3 minuten.',
-    keywords: 'patronen werkbladen, oefenbladen gratis, werkbladen groep 3, werkbladen kleuters, rekenen werkbladen, letters leren, schrijven oefenen, veilig leren lezen, fijne motoriek, kleurplaten, tafels oefenen, sommen tot 20',
+    title: 'Gratis Werkblad Patronen Maken - Gratis Werkbladen voor Kinderen Groep 3 en Kleuters | LessonCraft Studio',
+    description: 'Maak gratis werkbladen patronen voor groep 3 en kleuters. Genereer gratis printables met visuele patronen. Perfect werkblad voor kinderen en fijne motoriek. Download hoogwaardige PDF in onder 3 minuten.',
+    keywords: 'patronen werkbladen, oefenbladen gratis, werkbladen groep 3, werkbladen kleuters, rekenen werkbladen, letters leren, schrijven oefenen, veilig leren lezen, fijne motoriek, kleurplaten, tafels oefenen, sommen tot 20, gratis werkblad, gratis werkbladen, gratis printables, werkblad voor kinderen, werkblad voor kleuters',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/patronen-werkbladen',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/dutch/pattern/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis werkblad patronen - oefenblad voor kleuters en groep 3'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/dutch/pattern/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis werkbladen patronen herkenning - werkblad voor kinderen'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/dutch/pattern/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis printables patronen oefening - werkblad voor kleuters'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/dutch/pattern/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Patronen werkblad gratis werkblad voor kinderen - groep 1-3'
+      },
+    ],
   },
 
   // Hero Section
   hero: {
-    title: 'Patronen Werkbladen Generator',
-    subtitle: 'Oefenbladen Gratis voor Groep 3 en Kleuters - Rekenen Werkbladen met Patronen',
-    description: `Maak professionele patronen werkbladen voor groep 3 en kleuters. Onze pattern worksheet generator maakt het eenvoudig om oefenbladen te maken met visuele patronen. Perfect voor het oefenen van rekenen werkbladen en fijne motoriek vaardigheden.
+    title: 'Gratis Werkblad Patronen Generator voor Kinderen',
+    subtitle: 'Gratis Werkbladen en Gratis Printables voor Groep 3 en Kleuters - Werkblad voor Kinderen met Patronen',
+    description: `Maak professionele patronen werkbladen voor groep 3 en kleuters. Onze pattern worksheet generator maakt het eenvoudig om gratis werkbladen te maken met visuele patronen. Perfect werkblad voor kinderen voor het oefenen van rekenen werkbladen en fijne motoriek vaardigheden.
 
-Met je Volledige Toegang abonnement krijg je onbeperkte toegang tot patronen werkbladen maken zonder extra kosten per werkblad. Genereer zoveel oefenbladen gratis als je nodig hebt voor werkbladen groep 3, werkbladen kleuters, en groep 1 2. Download hoogwaardige PDF werkbladen in onder 3 minuten.
+Met je Volledige Toegang abonnement krijg je onbeperkte toegang tot patronen werkbladen maken zonder extra kosten per werkblad. Genereer zoveel gratis printables als je nodig hebt voor werkbladen groep 3, werkblad voor kleuters, en groep 1 2. Download hoogwaardige PDF werkbladen in onder 3 minuten.
 
 Onze pattern worksheet tool ondersteunt 9 verschillende patroontypen van eenvoudig AB tot complex ABCD. Kies uit twee vraagtypen: lege vakjes om in te vullen of multiple choice opties. Ideaal voor letters leren, schrijven oefenen, en veilig leren lezen door patronen herkenning te ontwikkelen.
 
-Combineer patronen werkbladen met kleurplaten voor extra oefening. Maak werkbladen voor tafels oefenen en sommen tot 20 met visuele patronen. Elke pattern worksheet bevat 1-8 patronen oefeningen die je volledig kunt aanpassen aan het niveau van je leerlingen.`,
-    previewImageSrc: '/samples/english/pattern worksheet/pattern_worksheet portrait.jpeg',
+Combineer patronen werkbladen met kleurplaten voor extra oefening. Maak gratis werkblad voor kinderen voor tafels oefenen en sommen tot 20 met visuele patronen. Elke pattern worksheet bevat 1-8 patronen oefeningen die je volledig kunt aanpassen aan het niveau van je leerlingen.`,
+    previewImageSrc: '/samples/dutch/pattern/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Gratis Uitproberen',
       viewSamples: 'Voorbeelden Bekijken',
@@ -67,8 +93,8 @@ Combineer patronen werkbladen met kleurplaten voor extra oefening. Maak werkblad
 
   // Sample Gallery
   samples: {
-    sectionTitle: 'Patronen Werkbladen Voorbeelden',
-    sectionDescription: 'Download gratis voorbeeldwerkbladen om onze professionele kwaliteit te ervaren',
+    sectionTitle: 'Gratis Werkbladen Patronen Voorbeelden - Gratis Printables',
+    sectionDescription: 'Download gratis werkblad voorbeelden om onze professionele kwaliteit te ervaren',
     downloadLabel: 'Gratis Voorbeeld Downloaden',
     worksheetLabel: 'Werkblad',
     answerKeyLabel: 'Antwoordblad',
@@ -81,25 +107,39 @@ Combineer patronen werkbladen met kleurplaten voor extra oefening. Maak werkblad
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/pattern worksheet/pattern_worksheet portrait.jpeg',
-        answerKeySrc: '/samples/english/pattern worksheet/pattern_worksheet portrait answer_key.jpeg',
-        altText: 'Patronen werkblad portret formaat voor werkbladen groep 3 en patroonherkenning',
-        pdfDownloadUrl: '/samples/english/pattern worksheet/pattern_worksheet portrait.pdf',
+        worksheetSrc: '/samples/dutch/pattern/sample-1.jpeg',
+        answerKeySrc: '/samples/dutch/pattern/sample-1-answer.jpeg',
+        altText: 'Gratis werkblad patronen portret - werkblad voor kinderen groep 3 en patroonherkenning',
+        pdfDownloadUrl: '/samples/dutch/pattern/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/pattern worksheet/pattern_worksheet landscape.jpeg',
-        answerKeySrc: '/samples/english/pattern worksheet/pattern_worksheet landscape answer_key (1).jpeg',
-        altText: 'Patronen werkblad landschap formaat voor werkbladen kleuters en fijne motoriek',
-        pdfDownloadUrl: '/samples/english/pattern worksheet/pattern_worksheet landscape.pdf',
+        worksheetSrc: '/samples/dutch/pattern/sample-2.jpeg',
+        answerKeySrc: '/samples/dutch/pattern/sample-2-answer.jpeg',
+        altText: 'Gratis werkbladen patronen - werkblad voor kleuters en fijne motoriek oefening',
+        pdfDownloadUrl: '/samples/dutch/pattern/sample-2.pdf',
+      },
+      {
+        id: '3',
+        worksheetSrc: '/samples/dutch/pattern/sample-3.jpeg',
+        answerKeySrc: '/samples/dutch/pattern/sample-3-answer.jpeg',
+        altText: 'Gratis printables patronen werkblad - gratis werkblad voor kinderen groep 1-3',
+        pdfDownloadUrl: '/samples/dutch/pattern/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/dutch/pattern/sample-4.jpeg',
+        answerKeySrc: '/samples/dutch/pattern/sample-4-answer.jpeg',
+        altText: 'Patronen oefenblad gratis werkblad - werkblad voor kleuters patroonherkenning',
+        pdfDownloadUrl: '/samples/dutch/pattern/sample-4.pdf',
       },
     ],
   },
 
   // Features Grid
   features: {
-    sectionTitle: 'Patronen Werkbladen Functies - Alles voor Oefenbladen Gratis Groep 3 en Kleuters',
-    sectionDescription: 'Onze pattern worksheet generator biedt alle tools die je nodig hebt voor het maken van professionele werkbladen groep 3 en werkbladen kleuters. Van eenvoudige AB patronen tot complexe ABCD patronen. Elke functie is ontworpen om je tijd te besparen bij het maken van rekenen werkbladen en oefenbladen gratis. Volledige Toegang abonnement (€240 per jaar) geeft toegang tot alle functies en 3000+ afbeeldingen.',
+    sectionTitle: 'Gratis Werkblad Patronen Functies - Gratis Werkbladen en Gratis Printables voor Groep 3 en Kleuters',
+    sectionDescription: 'Onze pattern worksheet generator biedt alle tools die je nodig hebt voor het maken van professionele gratis werkbladen groep 3 en werkblad voor kleuters. Van eenvoudige AB patronen tot complexe ABCD patronen. Elke functie is ontworpen om je tijd te besparen bij het maken van gratis werkblad voor kinderen en gratis printables. Volledige Toegang abonnement (€240 per jaar) geeft toegang tot alle functies en 3000+ afbeeldingen.',
     highlightBadgeText: 'Uitgelicht',
     readMoreLabel: 'Lees meer',
     showLessLabel: 'Minder tonen',
@@ -113,7 +153,7 @@ Combineer patronen werkbladen met kleurplaten voor extra oefening. Maak werkblad
       {
         id: '1',
         icon: '⚡',
-        title: 'Patronen Werkbladen Maken in 3 Klikken - Oefenbladen Gratis voor Werkbladen Groep 3',
+        title: 'Gratis Werkblad Patronen Maken in 3 Klikken - Gratis Werkbladen voor Kinderen Groep 3',
         description: `Maak professionele patronen werkbladen in drie eenvoudige stappen. Geen design vaardigheden nodig. Geen ingewikkelde software. Selecteer een patroontype, kies afbeeldingen, en klik op maken.
 
 Je kunt kiezen uit 9 verschillende patroontypen. AB patronen voor jonge kleuters groep 1 2. AAB en ABB patronen voor groep 2. ABC en AABB patronen voor werkbladen groep 3. ABBC, AABC, ABCC en ABCD patronen voor gevorderde leerlingen.
@@ -124,7 +164,7 @@ Elke pattern worksheet kan 1-8 patronen oefeningen bevatten. Bepaal zelf hoeveel
       {
         id: '2',
         icon: '✏️',
-        title: 'Volledig Bewerkbare Rekenen Werkbladen - Pas Werkbladen Kleuters Volledig Aan op Canvas',
+        title: 'Volledig Bewerkbaar Gratis Werkblad - Pas Werkblad voor Kleuters Volledig Aan op Canvas',
         description: `Elk element op je patronen werkblad is volledig bewerkbaar. Sleep afbeeldingen naar nieuwe posities. Vergroot of verklein patronen elementen. Roteer afbeeldingen voor visuele variatie. Verwijder elementen die je niet nodig hebt.
 
 De canvas editor werkt intuïtief met drag-and-drop. Klik op een afbeelding en sleep deze naar de gewenste positie. Gebruik de hoeken om afbeeldingen te vergroten of verkleinen. Perfect voor het aanpassen van rekenen werkbladen aan verschillende niveaus.
@@ -135,7 +175,7 @@ Voeg tekst toe aan je werkbladen kleuters en werkbladen groep 3. Typ instructies
       {
         id: '3',
         icon: '📤',
-        title: 'Upload Eigen Afbeeldingen voor Letters Leren en Schrijven Oefenen Werkbladen',
+        title: 'Upload Eigen Afbeeldingen voor Gratis Printables en Werkblad voor Kinderen Letters Leren',
         description: `Upload je eigen afbeeldingen voor gepersonaliseerde patronen werkbladen. Gebruik foto's van klasgenoten voor herkenning oefeningen. Upload plaatjes die aansluiten bij je thema van de week. Voeg letters toe voor letters leren patronen.
 
 De multi-file upload ondersteunt alle gangbare formaten. JPEG, PNG, en GIF bestanden werken allemaal. Upload meerdere afbeeldingen tegelijk. Geen limiet op het aantal uploads. Combineer eigen afbeeldingen met bibliotheek afbeeldingen.
@@ -146,7 +186,7 @@ Eigen afbeeldingen maken patronen werkbladen persoonlijker voor je leerlingen. U
       {
         id: '4',
         icon: '🌍',
-        title: '11 Talen Ondersteuning - Oefenbladen Gratis in Nederlands en 10 Andere Talen',
+        title: '11 Talen Ondersteuning - Gratis Werkblad voor Kinderen in Nederlands en 10 Andere Talen',
         description: `De pattern worksheet generator ondersteunt 11 talen volledig. Nederlandse interface voor gemakkelijke bediening. Maar ook Engels, Duits, Frans, Spaans, Portugees, Italiaans, Zweeds, Deens, Noors, en Fins.
 
 Deze meertalige ondersteuning is essentieel voor internationaal onderwijs. Maak werkbladen groep 3 voor tweetalige klassen. Creëer oefenbladen voor veilig leren lezen in verschillende talen. Perfect voor internationale scholen en taalonderwijs.
@@ -157,7 +197,7 @@ De taalinstelling past alle UI elementen aan. Knoppen, labels, en menu's verschi
       {
         id: '5',
         icon: '💼',
-        title: 'Commerciële Licentie Inbegrepen - Verkoop Werkbladen Groep 3 en Kleurplaten Online',
+        title: 'Commerciële Licentie Inbegrepen - Verkoop Gratis Werkbladen en Gratis Printables Online',
         description: `Je Volledige Toegang abonnement bevat een volledige commerciële print-on-demand licentie. Verkoop je patronen werkbladen op Teachers Pay Teachers. Maak producten voor Etsy. Publiceer werkboeken op Amazon KDP. Geen extra licentiekosten.
 
 Deze commerciële licentie bespaart je €100-200 per jaar vergeleken met concurrenten. Andere platforms rekenen apart voor commercieel gebruik. Wij niet. Alles zit in je €240 per jaar abonnement. Eén prijs, alle rechten.
@@ -168,7 +208,7 @@ Veel leerkrachten verdienen €500-5000 per maand met werkbladen verkopen. Maak 
       {
         id: '6',
         icon: '🎨',
-        title: '3000+ Afbeeldingen Bibliotheek - Thema\'s voor Veilig Leren Lezen en Fijne Motoriek',
+        title: '3000+ Afbeeldingen Bibliotheek - Gratis Werkblad voor Kleuters en Fijne Motoriek Thema\'s',
         description: `Onze afbeeldingen bibliotheek bevat meer dan 3000 kindvriendelijke illustraties. Georganiseerd in thematische categorieën. Dieren, voedsel, speelgoed, transport, letters, cijfers, vormen, en veel meer.
 
 Selecteer een thema en zie alle beschikbare afbeeldingen direct. Klik op afbeeldingen om ze toe te voegen aan je patroon. Geen zoeken naar individuele plaatjes. Thema selectie maakt het snel en eenvoudig.
@@ -179,7 +219,7 @@ Voor werkbladen kleuters zijn er extra grote, duidelijke afbeeldingen. Herkenbar
       {
         id: '7',
         icon: '🖨️',
-        title: 'Professionele 300 DPI Kwaliteit - Download Werkbladen voor Tafels Oefenen en Sommen tot 20',
+        title: 'Professionele 300 DPI Kwaliteit - Download Gratis Werkblad voor Kinderen en Gratis Printables',
         description: `Elke pattern worksheet download heeft professionele 300 DPI resolutie. Perfecte kwaliteit voor printen op school printers. Scherpe lijnen en heldere afbeeldingen. Ideaal voor het maken van rekenen werkbladen en oefenbladen gratis.
 
 Je kunt downloaden in twee formaten. JPEG voor digitaal gebruik en snelle prints. PDF voor behoud van kwaliteit en meerdere pagina's. Beide formaten met dezelfde 300 DPI kwaliteit.
@@ -190,7 +230,7 @@ De grijswaarden optie bespaart inkt bij het printen. Converteer kleurenrijke wer
       {
         id: '8',
         icon: '🔢',
-        title: '9 Patroontypen voor Elke Leeftijd - AB tot ABCD voor Werkbladen Kleuters',
+        title: '9 Patroontypen voor Elke Leeftijd - Gratis Werkbladen AB tot ABCD voor Werkblad voor Kleuters',
         description: `Kies uit negen patroontypen voor alle leeftijden en niveaus. AB patronen (cirkel, vierkant, cirkel, vierkant) zijn perfect voor werkbladen kleuters en groep 1. AAB en ABB patronen voegen een extra uitdaging toe voor groep 2 leerlingen.
 
 ABC patronen (cirkel, vierkant, driehoek) ontwikkelen gevorderd patroondenken voor groep 3. AABB patronen (cirkel, cirkel, vierkant, vierkant) voorbereiden op tafels oefenen door herhaalde groepen te herkennen.
@@ -203,7 +243,7 @@ ABBC, AABC, ABCC en ABCD patronen bieden maximum uitdaging voor gevorderde leerl
 
   // How-To Guide
   howTo: {
-    sectionTitle: 'Hoe Maak je Werkbladen Groep 3 Patronen in 5 Eenvoudige Stappen - Oefenbladen Gratis Tutorial',
+    sectionTitle: 'Hoe Maak je Gratis Werkblad Patronen in 5 Eenvoudige Stappen - Gratis Werkbladen voor Kinderen Tutorial',
     sectionDescription: 'Maak professionele patronen werkbladen in minder dan 3 minuten. Deze stap-voor-stap handleiding laat zien hoe je oefenbladen gratis maakt voor werkbladen kleuters en werkbladen groep 3. Geen technische kennis nodig. Volg deze vijf stappen en je hebt klaar-voor-gebruik rekenen werkbladen.',
     ctaText: 'Nu Starten',
     badgeText: 'Zo werkt het',
@@ -218,7 +258,7 @@ ABBC, AABC, ABCC en ABCD patronen bieden maximum uitdaging voor gevorderde leerl
       {
         id: '1',
         number: 1,
-        title: 'Stap 1: Kies Patroontype en Aantal Oefeningen - Werkbladen Kleuters tot Groep 3',
+        title: 'Stap 1: Kies Patroontype en Aantal Oefeningen - Gratis Werkblad voor Kleuters tot Groep 3',
         description: `Begin met het selecteren van je patroontype. Voor werkbladen kleuters groep 1 2 kies je eenvoudige AB patronen. Voor werkbladen groep 3 selecteer je complexere ABC of ABCD patronen. Het patroontype bepaalt hoeveel afbeeldingen je nodig hebt.
 
 Bepaal het aantal oefeningen per pagina. Je kunt kiezen tussen 1-8 patronen oefeningen. Voor jonge kleuters kies je 2-4 grote oefeningen. Voor werkbladen groep 3 kies je 6-8 kleinere oefeningen voor meer oefening.
@@ -229,7 +269,7 @@ Selecteer het vraagtype voor je oefenbladen gratis. Kies "lege vakjes" voor open
       {
         id: '2',
         number: 2,
-        title: 'Stap 2: Selecteer Afbeeldingen uit Bibliotheek of Upload Eigen - Fijne Motoriek en Veilig Leren Lezen',
+        title: 'Stap 2: Selecteer Afbeeldingen voor Gratis Werkblad voor Kinderen - Gratis Printables Maken',
         description: `Open het Image Library accordion menu. Hier vind je meer dan 3000 kindvriendelijke afbeeldingen. Georganiseerd in thematische categorieën voor gemakkelijk zoeken.
 
 Voor letters leren en veilig leren lezen selecteer je het alfabet thema. Je ziet alle letters van A tot Z. Klik op letters om ze toe te voegen aan je patroon. Maak AB patronen met twee letters. Of ABC patronen met drie letters.
@@ -240,7 +280,7 @@ Voor rekenen werkbladen en sommen tot 20 selecteer je het cijfers thema. Voeg ge
       {
         id: '3',
         number: 3,
-        title: 'Stap 3: Genereer je Werkblad - Klik "Create" voor Werkbladen Groep 3 en Kleuters',
+        title: 'Stap 3: Genereer je Gratis Werkbladen - Klik "Create" voor Werkblad voor Kinderen Groep 3',
         description: `Klik op de "Create" knop rechtsboven. Selecteer "New Worksheet" uit het dropdown menu. De generator maakt onmiddellijk je patronen werkblad. Binnen seconden zie je het resultaat op het canvas.
 
 Het werkblad verschijnt met alle ingestelde patronen. Elk patroon bevat de gekozen afbeeldingen in de juiste volgorde. Een leeg vakje of keuze opties voor de vraag. Nummering als je die hebt ingeschakeld.
@@ -251,7 +291,7 @@ Voor werkbladen groep 3 met 6-8 oefeningen zijn de patronen netjes verdeeld over
       {
         id: '4',
         number: 4,
-        title: 'Stap 4: Bewerk op Canvas - Personaliseer Rekenen Werkbladen en Oefenbladen Gratis',
+        title: 'Stap 4: Bewerk op Canvas - Personaliseer Gratis Werkblad en Gratis Printables',
         description: `Nu kun je het werkblad volledig aanpassen op het bewerkbare canvas. Elk element kan worden verplaatst, vergroot, verkleind, of gedraaid. Maak het werkblad perfect voor je leerlingen.
 
 Klik op een afbeelding om deze te selecteren. Sleep de afbeelding naar een nieuwe positie. Gebruik de hoeken om de afbeelding groter of kleiner te maken. Roteer afbeeldingen voor een speelser uiterlijk.
@@ -262,7 +302,7 @@ Voeg tekst toe voor instructies. Open het "Text Tools" accordion. Typ je opdrach
       {
         id: '5',
         number: 5,
-        title: 'Stap 5: Download en Print - PDF en JPEG voor Letters Leren en Tafels Oefenen Werkbladen',
+        title: 'Stap 5: Download en Print - Gratis Werkbladen PDF en JPEG voor Werkblad voor Kleuters',
         description: `Genereer eerst het antwoordsleutel. Klik op "Create" en selecteer "Answer Key". De generator vult automatisch alle correcte antwoorden in. Het antwoordsleutel verschijnt op het "Answer Key" tab.
 
 Download het werkblad via de "Download" knop. Kies uit vier opties. "Worksheet JPEG" voor het leerlingen werkblad als afbeelding. "Answer Key JPEG" voor het antwoordsleutel als afbeelding.
@@ -275,7 +315,7 @@ Download het werkblad via de "Download" knop. Kies uit vier opties. "Worksheet J
 
   // Use Cases
   useCases: {
-    sectionTitle: 'Perfect voor Leerkrachten en Ouders - Oefenbladen Gratis voor Elke Behoefte van Groep 1 tot Groep 3',
+    sectionTitle: 'Perfect voor Leerkrachten en Ouders - Gratis Werkbladen en Gratis Printables voor Groep 1 tot Groep 3',
     sectionDescription: 'Patronen werkbladen zijn essentieel voor cognitieve ontwikkeling bij jonge kinderen. Van werkbladen kleuters tot werkbladen groep 3. Patronen herkenning ontwikkelt wiskundig denken en probleemoplossend vermogen. Onze generator maakt het eenvoudig voor alle leerkrachten en ouders.',
     badgeText: 'Voor wie',
     readMoreLabel: 'Lees meer',
@@ -284,8 +324,8 @@ Download het werkblad via de "Download" knop. Kies uit vier opties. "Worksheet J
       {
         id: '1',
         icon: '👶',
-        title: 'Leerkrachten Groep 1 en 2 - Werkbladen Kleuters voor Fijne Motoriek en Kleurplaten',
-        subtitle: 'Werkbladen kleuters en fijne motoriek',
+        title: 'Leerkrachten Groep 1 en 2 - Gratis Werkblad voor Kleuters en Fijne Motoriek',
+        subtitle: 'Gratis werkblad voor kleuters en fijne motoriek',
         description: `Leerkrachten groep 1 en 2 gebruiken patronen werkbladen voor visuele discriminatie training. Jonge kleuters leren verschillen en overeenkomsten zien. AB en AAB patronen zijn ideaal voor dit niveau. Grote, duidelijke afbeeldingen die kleuters gemakkelijk herkennen.
 
 Combineer patronen werkbladen met kleurplaten activiteiten. Nadat leerlingen het patroon hebben voltooid kunnen ze de afbeeldingen inkleuren. Dit ontwikkelt fijne motoriek vaardigheden. De pencil grip wordt sterker. Hand-oog coördinatie verbetert. Twee leerdoelen in één activiteit.
@@ -296,8 +336,8 @@ Voor werkbladen kleuters groep 1 2 kies je thema's die aansluiten bij hun leefwe
       {
         id: '2',
         icon: '📚',
-        title: 'Leerkrachten Groep 3 - Rekenen Werkbladen voor Tafels Oefenen en Sommen tot 20',
-        subtitle: 'Werkbladen groep 3 en tafels oefenen',
+        title: 'Leerkrachten Groep 3 - Gratis Werkblad voor Kinderen Rekenen en Tafels Oefenen',
+        subtitle: 'Gratis werkbladen groep 3 en tafels oefenen',
         description: `Leerkrachten werkbladen groep 3 gebruiken patronen voor rekenkundige concepten. Maak rekenen werkbladen met cijfer patronen voor sommen tot 20. Bijvoorbeeld: 2, 4, 6, ___ patronen voor even getallen. Of 5, 10, 15, ___ patronen voor tafels oefenen.
 
 Patronen werkbladen ondersteunen het begrijpen van tafels. Maak een werkblad met de tafel van 2. Afbeeldingen in groepjes van 2. Het patroon laat zien: 2, 4, 6, 8. Leerlingen zien de visuele herhaling. Dit versterkt tafels oefenen memorisatie.
@@ -308,8 +348,8 @@ Voor sommen tot 20 gebruik je patronen met optellen en aftrekken. Maak een patro
       {
         id: '3',
         icon: '📖',
-        title: 'Leerkrachten Basisonderwijs - Letters Leren en Veilig Leren Lezen met Alfabetpatronen',
-        subtitle: 'Veilig leren lezen en letters leren',
+        title: 'Leerkrachten Basisonderwijs - Gratis Werkbladen Letters Leren en Veilig Leren Lezen',
+        subtitle: 'Gratis werkblad voor kinderen letters leren',
         description: `Taalleerkrachten gebruiken patronen werkbladen voor letters leren en veilig leren lezen voorbereiding. Maak alfabetpatronen: A, B, C, ___. Of letterpatronen met klinkers en medeklinkers. Dit ontwikkelt letter herkenning cruciaal voor veilig leren lezen.
 
 Voor beginnende lezers maak je patronen met initialen. Bijvoorbeeld een patroon met voorwerpen: Aap, Boom, Cavia. Leerlingen moeten de beginletter herkennen. Dit ondersteunt fonologisch bewustzijn nodig voor veilig leren lezen.
@@ -320,8 +360,8 @@ Gebruik patronen voor schrijven oefenen voorbereiding. Maak een werkblad met let
       {
         id: '4',
         icon: '🏠',
-        title: 'Thuisonderwijs Ouders - Oefenbladen Gratis voor Sommen tot 20 en Kleurplaten Activiteiten',
-        subtitle: 'Oefenbladen gratis voor thuisonderwijs',
+        title: 'Thuisonderwijs Ouders - Gratis Printables voor Sommen tot 20 en Werkblad voor Kinderen',
+        subtitle: 'Gratis printables voor thuisonderwijs',
         description: `Thuisonderwijs ouders waarderen de flexibiliteit van oefenbladen gratis patronen werkbladen. Maak materiaal afgestemd op elk kind's niveau. Eenvoudige patronen voor jongere kinderen. Complexe patronen voor oudere kinderen. Alles met één tool.
 
 Gebruik patronen werkbladen voor dagelijkse wiskundeles. Begin met visuele patronen voor jonge kinderen. Ga over naar getallen patronen voor sommen tot 20. Bouw gradueel naar abstractere concepten. De generator ondersteunt deze progressie volledig.
@@ -332,8 +372,8 @@ Combineer patronen met kleurplaten voor multidisciplinaire lessen. Wiskunde en k
       {
         id: '5',
         icon: '🌐',
-        title: 'ESL en Tweetalige Leerkrachten - Letters Leren met Visuele Patronen',
-        subtitle: 'Werkbladen voor taalonderwijs',
+        title: 'ESL en Tweetalige Leerkrachten - Gratis Werkblad Letters Leren met Visuele Patronen',
+        subtitle: 'Werkblad voor kinderen taalonderwijs',
         description: `ESL leerkrachten gebruiken visuele patronen werkbladen voor taal-onafhankelijke instructie. Patronen vereisen geen taalvaardigheid om te begrijpen. Nieuwkomers kunnen succesvol zijn met visuele patroonherkenning. Dit bouwt vertrouwen op terwijl ze Nederlands leren.
 
 Combineer patronen met letters leren door alfabetische sequenties te gebruiken. Upload letterkaarten (A, B, C) als patroonelementen. Leerlingen oefenen alfabetische volgorde door letterpatronen. Dit ondersteunt veilig leren lezen door letterherkenning te versterken.
@@ -344,8 +384,8 @@ Tweetalige programma's gebruiken patronen in beide talen. Maak werkbladen in Ned
       {
         id: '6',
         icon: '💰',
-        title: 'Leerkrachten Ondernemers - Verkoop Oefenbladen op Teachers Pay Teachers',
-        subtitle: 'Commerciële licentie voor ondernemers',
+        title: 'Leerkrachten Ondernemers - Verkoop Gratis Werkbladen en Gratis Printables Online',
+        subtitle: 'Gratis werkblad voor kinderen verkopen online',
         description: `Leerkrachten ondernemers verdienen €500-5000 per maand met werkbladen verkopen. Patronen werkbladen pakketten verkopen uitstekend op Teachers Pay Teachers. Bundel werkbladen groep 3 materiaal in thematische sets. Seizoensgebonden bundels verkopen bijzonder goed.
 
 Je Volledige Toegang commerciële licentie maakt verkopen mogelijk zonder extra kosten. Geen €100-200 extra licensing fees zoals bij concurrenten. Maak onbeperkt werkbladen. Verkoop ze overal. Etsy, Teachers Pay Teachers, eigen website, Amazon KDP.
@@ -358,7 +398,7 @@ Kleurplaten verkopen bijzonder goed op Etsy. Maak patronen kleurplaten pakketten
 
   // FAQ Section
   faq: {
-    sectionTitle: 'Veelgestelde Vragen over Patronen Werkbladen - Oefenbladen Gratis, Kleurplaten en Rekenen Werkbladen',
+    sectionTitle: 'Veelgestelde Vragen over Gratis Werkblad Patronen - Gratis Werkbladen, Gratis Printables en Werkblad voor Kinderen',
     sectionDescription: 'Leerkrachten en ouders hebben veel vragen over patronen werkbladen maken. Deze FAQ beantwoordt de meest gestelde vragen over werkbladen kleuters, werkbladen groep 3, rekenen werkbladen, kleurplaten, letters leren, veilig leren lezen, tafels oefenen, sommen tot 20, fijne motoriek, en schrijven oefenen.',
     showMoreText: 'Meer vragen tonen',
     showLessText: 'Minder tonen',
@@ -370,62 +410,62 @@ Kleurplaten verkopen bijzonder goed op Etsy. Maak patronen kleurplaten pakketten
     items: [
       {
         id: '1',
-        question: 'Zijn Deze Patronen Werkbladen Echt Gratis om Oefenbladen te Maken voor Kleuters en Groep 3?',
+        question: 'Zijn Deze Gratis Werkbladen Patronen Echt Gratis Printables voor Werkblad voor Kinderen?',
         answer: 'De pattern worksheet generator vereist een Volledige Toegang abonnement van €240 per jaar of €25 per maand. Je abonnement geeft onbeperkte patronen werkbladen creatie zonder per-werkblad kosten. Genereer zoveel oefenbladen gratis als je nodig hebt voor werkbladen kleuters en werkbladen groep 3 zonder extra kosten. Het Basis Pakket abonnement bevat 10 populaire worksheet generators en kost €144 per jaar. Volledige Toegang abonnement kost €240 per jaar en bevat alle 33 worksheet generator types inclusief patronen werkbladen. Beide abonnementen bevatten commerciële licentie, 11 talen ondersteuning, en professionele 300 DPI kwaliteit exports.',
       },
       {
         id: '2',
-        question: 'Kan ik Patronen Werkbladen, Kleurplaten en Rekenen Werkbladen Thuis Printen op een Gewone Printer?',
+        question: 'Kan ik Gratis Werkblad Patronen en Gratis Printables Thuis Printen op een Gewone Printer?',
         answer: 'Ja, alle patronen werkbladen zijn ontworpen voor thuisprinters. De 300 DPI resolutie werkt perfect op standaard inkjet en laser printers. Download als PDF en print op A4 of Letter formaat papier. Geen speciale apparatuur nodig voor professionele kwaliteit werkbladen kleuters en werkbladen groep 3. Rekenen werkbladen voor tafels oefenen en sommen tot 20 printen uitstekend in zwart-wit. Cijfer patronen blijven helder en leesbaar. Leerlingen kunnen duidelijk elk getal zien. Perfect voor scholen met beperkte kleurenprint budgetten.',
       },
       {
         id: '3',
-        question: 'Heb ik Design Vaardigheden Nodig voor Werkbladen Kleuters en Letters Leren Patronen Werkbladen?',
+        question: 'Heb ik Design Vaardigheden Nodig voor Gratis Werkblad voor Kleuters en Werkblad voor Kinderen?',
         answer: 'Nee, absoluut geen design vaardigheden vereist. De pattern worksheet generator is ontworpen voor gewone leerkrachten en ouders. Selecteer opties uit dropdown menu\'s. Klik op afbeeldingen om ze toe te voegen. Klik op "Create" en je werkblad verschijnt. Zo eenvoudig is het. Letters leren werkbladen maken is net zo simpel. Selecteer het alfabet thema. Klik op letters A, B, C. Kies patroontype AB of ABC. Genereer. Klaar. Binnen 2 minuten heb je een professioneel letters leren werkblad voor schrijven oefenen.',
       },
       {
         id: '4',
-        question: 'Kan ik Patronen Werkbladen voor Fijne Motoriek en Kleurplaten Gebruiken in Mijn Klas met Leerlingen?',
+        question: 'Kan ik Gratis Werkbladen Patronen en Werkblad voor Kinderen Gebruiken in Mijn Klas?',
         answer: 'Volledige Toegang abonnement bevat onbeperkt klasgebruik. Print zoveel kopieën als je nodig hebt voor je leerlingen. Gebruik patronen werkbladen dagelijks voor fijne motoriek ontwikkeling. Deel kleurplaten met je hele klas. Geen limiet op aantal leerlingen of kopieën. Kleurplaten functionaliteit voegt extra waarde toe. Nadat leerlingen patronen oplossen kunnen ze de afbeeldingen inkleuren. Dit verdubbelt de gebruikstijd. Eén werkblad = twee activiteiten. Eerst cognitieve patroon herkenning. Dan creatieve fijne motoriek kleurplaten oefening.',
       },
       {
         id: '5',
-        question: 'Welke Talen zijn Beschikbaar voor Veilig Leren Lezen en Letters Leren Werkbladen?',
+        question: 'Welke Talen zijn Beschikbaar voor Gratis Werkblad voor Kinderen en Gratis Printables?',
         answer: 'De pattern worksheet generator ondersteunt 11 talen volledig: Nederlands, Engels, Duits, Frans, Spaans, Portugees, Italiaans, Zweeds, Deens, Noors, en Fins. Dit is cruciaal voor veilig leren lezen programma\'s in meertalige klassen en internationale scholen. De UI interface past aan naar de geselecteerde taal. Nederlandse leerkrachten zien alle menu\'s in het Nederlands. Geen Engels nodig om de tool te gebruiken. Dit maakt het toegankelijk voor alle leerkrachten.',
       },
       {
         id: '6',
-        question: 'Kan ik Kleurplaten en Werkbladen voor Tafels Oefenen Verkopen die ik Maak met Deze Generator?',
+        question: 'Kan ik Gratis Werkbladen en Gratis Printables Verkopen die ik Maak met Deze Generator?',
         answer: 'Ja, je Volledige Toegang abonnement bevat volledige commerciële print-on-demand licentie. Verkoop patronen werkbladen, kleurplaten, rekenen werkbladen voor tafels oefenen en sommen tot 20 op Teachers Pay Teachers, Etsy, Amazon KDP, of je eigen website. Geen extra licentiekosten. Geen attributie vereist op verkochte producten. Plaats je eigen logo en branding. Bouw merkherkenning in de educatieve markt. Klanten associëren kwaliteit met jouw business naam.',
       },
       {
         id: '7',
-        question: 'Hoe Pas ik Patronen Werkbladen aan voor Sommen tot 20 en Rekenen Werkbladen Differentiatie?',
+        question: 'Hoe Pas ik Gratis Werkblad Patronen aan voor Werkblad voor Kinderen Differentiatie?',
         answer: 'Volledig aanpasbaar op het bewerkbare canvas. Verander elke afbeelding, positie, grootte, en kleur. Voor rekenen werkbladen differentiatie maak je meerdere versies met verschillende moeilijkheidsniveaus. Eenvoudige AB patronen voor zwakke rekenaars. Complexe ABCD patronen voor sterke rekenaars. Voor sommen tot 20 gebruik je cijfer patronen met wiskundige progressies. Maak een patroon: 2, 4, 6, ___ voor even getallen binnen sommen tot 20. Of 5, 10, 15, ___ voor vijf tafels.',
       },
       {
         id: '8',
-        question: 'Voor Welke Leeftijdsgroepen Werken Patronen Werkbladen het Best voor Werkbladen Kleuters en Fijne Motoriek?',
+        question: 'Voor Welke Leeftijdsgroepen Werken Gratis Werkbladen het Best voor Werkblad voor Kleuters?',
         answer: 'Patronen werkbladen werken uitstekend voor 4-9 jarigen (groep 1 tot en met groep 3). Voor werkbladen kleuters groep 1 2 (4-6 jaar) gebruik je eenvoudige AB en AAB patronen met grote afbeeldingen. Deze zijn perfect voor beginnende patroon herkenning en fijne motoriek ontwikkeling. Groep 3 leerlingen (6-7 jaar) zijn klaar voor complexere ABC en AABB patronen. Drie tot vier verschillende elementen. Kleinere afbeeldingen voor meerdere oefeningen per pagina. Abstractere patronen voor gevorderde cognitieve ontwikkeling.',
       },
       {
         id: '9',
-        question: 'Kan ik Eigen Afbeeldingen Uploaden voor Letters Leren en Schrijven Oefenen Werkbladen?',
+        question: 'Kan ik Eigen Afbeeldingen Uploaden voor Gratis Werkblad voor Kinderen en Gratis Printables?',
         answer: 'Ja, multi-file upload functionaliteit ondersteunt alle gangbare afbeelding formaten. JPEG, PNG, en GIF bestanden werken allemaal. Upload meerdere afbeeldingen tegelijk. Geen limiet op aantal uploads. Perfect voor gepersonaliseerde letters leren en schrijven oefenen materiaal. Combineer eigen uploads met bibliotheek afbeeldingen. Gebruik je eigen letters voor het patroon. Voeg bibliotheek achtergronden toe voor visuele appeal. Mix persoonlijke en professionele elementen voor unieke werkbladen.',
       },
       {
         id: '10',
-        question: 'Hoe Lang Duurt Het om Rekenen Werkbladen voor Tafels Oefenen en Sommen tot 20 te Maken?',
+        question: 'Hoe Lang Duurt Het om Gratis Werkblad en Gratis Werkbladen voor Kinderen te Maken?',
         answer: 'Professionele patronen werkbladen maken duurt minder dan 3 minuten. Selecteer patroontype en afbeeldingen (1 minuut). Klik create en genereer (10 seconden). Kleine aanpassingen op canvas (1 minuut). Download als PDF (10 seconden). Totaal: 2-3 minuten van start tot finish. Vergeleken met traditionele methoden bespaar je 25-55 minuten. Handmatig patronen werkbladen maken in Word of PowerPoint duurt 30-60 minuten. Onze generator automatiseert alles.',
       },
       {
         id: '11',
-        question: 'Bevatten Patronen Werkbladen Antwoordsleutels voor Tafels Oefenen en Sommen tot 20 Controle?',
+        question: 'Bevatten Gratis Werkbladen Antwoordsleutels voor Werkblad voor Kinderen Controle?',
         answer: 'Ja, automatische antwoordsleutel generatie is inbegrepen. Na het maken van je patronen werkblad klik je op "Create" en selecteer "Answer Key". De generator vult automatisch alle correcte antwoorden in. Binnen seconden heb je een volledig antwoordsleutel. Download werkblad en antwoordsleutel apart. Het werkblad voor leerlingen heeft lege vakjes. Het antwoordsleutel voor jou heeft alles ingevuld. Print het werkblad voor 30 kopieën. Print één antwoordsleutel voor jezelf. Efficiënt en milieuvriendelijk.',
       },
       {
         id: '12',
-        question: 'Kan ik Patronen Werkbladen Maken over Specifieke Schoolvakken zoals Rekenen Werkbladen en Veilig Leren Lezen?',
+        question: 'Kan ik Gratis Printables Maken over Specifieke Schoolvakken zoals Gratis Werkblad voor Kleuters?',
         answer: 'Absoluut, de 3000+ afbeeldingen bibliotheek dekt alle basisschool vakken. Voor rekenen werkbladen selecteer je cijfers, vormen, en wiskundige symbolen. Maak patronen voor optellen, aftrekken, tafels, en getallenherkenning. Alle basis rekenvaardigheden zijn gedekt. Voor veilig leren lezen en taalonderwijs gebruik je alfabetische patronen. Letters A-Z beschikbaar. Maak patronen met beginletters voor fonologisch bewustzijn. Of patronen met hele woorden voor sight word herkenning.',
       },
     ],
@@ -488,7 +528,7 @@ Kleurplaten verkopen bijzonder goed op Etsy. Maak patronen kleurplaten pakketten
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Combineer Patronen Werkbladen met Andere Tools voor Complete Lesplannen',
+    sectionTitle: 'Combineer Gratis Werkbladen Patronen met Andere Gratis Printables voor Complete Lesplannen',
     sectionDescription: 'Het Volledige Toegang abonnement bevat 33 werkblad generators die perfect samenwerken. Combineer patronen werkbladen met andere tools voor complete leerpakketten. Ontdek hoe je thematische bundels maakt voor elke lesweek.',
     ctaTitle: 'Klaar om geweldige werkbladen te maken?',
     ctaDescription: 'Sluit je aan bij duizenden leerkrachten die professionele werkbladen maken. Onbeperkt genereren, commerciële licentie inbegrepen.',

@@ -6,8 +6,8 @@ import { ProductPageContent } from '@/components/product-page/ProductPageClient'
  * File: frontend/content/product-pages/da/sudoku-arbejdsark.ts
  * URL: /da/apps/sudoku-arbejdsark
  *
- * FULL SEO content from: INDIVIDUAL APP PAGES/Danish/sudoku.md
- * DO NOT SHORTEN - Every paragraph is SEO-optimized
+ * SEO OPTIMIZED: All sample paths use /samples/danish/sudoku/
+ * Keywords: gratis arbejdsark, arbejdsark til børn, arbejdsark til børnehaveklasse
  */
 
 export const sudokuDaContent: ProductPageContent = {
@@ -15,22 +15,54 @@ export const sudokuDaContent: ProductPageContent = {
   seo: {
     slug: 'sudoku-arbejdsark',
     appId: 'sudoku',
-    title: 'Sudoku til Børn - Farverige Sudoku Opgaver til Print - Matematikopgaver til Børnehaveklasse og 1. Klasse',
-    description: 'Lav professionelle sudoku opgaver til print med vores børnevenlige sudoku-generator. Dit Kernepakke abonnement giver dig ubegrænset adgang til at lave farverige opgaver uden ekstra omkostninger per opgave. Skab tilpassede sudoku arbejdsark perfekt til børnehaveklasse, 0. klasse og 1. klasse elever. Download højkvalitets PDF opgaver til print på under 3 minutter.',
-    keywords: 'sudoku til børn, sudoku opgaver, opgaver til print, matematikopgaver, børnehaveklasse, 0. klasse, 1. klasse, gratis skoleopgaver, arbejdsark, logikopgaver, finmotorik øvelser',
+    title: 'Sudoku Gratis Arbejdsark - Generator til Børnehaveklasse og 0. Klasse',
+    description: 'Lav professionelle sudoku gratis arbejdsark til børn med vores sudoku generator. Dit Grundpakke abonnement giver dig ubegrænset arbejdsark til børnehaveklasse og 0. klasse. Generer skræddersyede gratis printables perfekt til børn. Download høj-kvalitets PDF arbejdsark på under 3 minutter.',
+    keywords: 'sudoku generator, gratis arbejdsark, arbejdsark til børn, arbejdsark til børnehaveklasse, gratis printables, 0. klasse arbejdsark, 1. klasse, sudoku til børn, logikopgaver, matematikopgaver',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/sudoku-arbejdsark',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/sudoku/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Sudoku gratis arbejdsark - let sudoku arbejdsark til børn for børnehaveklasse'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/sudoku/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Sudoku arbejdsark til børnehaveklasse - gratis printables med farverige billeder'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/sudoku/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis arbejdsark sudoku - arbejdsark til børn med billeder til 0. klasse'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/sudoku/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Arbejdsark til børnehaveklasse - sudoku gratis printables mellem sværhedsgrad'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/sudoku/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Sudoku arbejdsark til børn - svær sudoku gratis arbejdsark til 1. klasse'
+      },
+    ],
   },
 
-  // Hero Section - FULL text from sudoku.md paragraphs 1-3
+  // Hero Section
   hero: {
-    title: 'Sudoku til Børn - Farverige Sudoku Opgaver',
-    subtitle: 'Matematikopgaver til Børnehaveklasse og 1. Klasse',
-    description: `Lav professionelle sudoku opgaver til print med vores børnevenlige sudoku-generator. Dit Kernepakke abonnement giver dig ubegrænset adgang til at lave farverige opgaver uden ekstra omkostninger per opgave. Skab tilpassede sudoku arbejdsark perfekt til børnehaveklasse, 0. klasse og 1. klasse elever. Download højkvalitets PDF opgaver til print på under 3 minutter.
+    title: 'Sudoku Gratis Arbejdsark til Print',
+    subtitle: 'Gratis Arbejdsark Generator til Børnehaveklasse og 0. Klasse',
+    description: `Lav professionelle sudoku gratis arbejdsark til børn med vores sudoku generator. Dit Grundpakke abonnement giver dig ubegrænset arbejdsark til børnehaveklasse uden ekstra omkostninger per opgave. Generer skræddersyede arbejdsark perfekt til børnehaveklassen, 0. klasse og 1. klasse. Download høj-kvalitets PDF gratis printables på under 3 minutter.
 
-Sudoku til børn er en simpel version af det klassiske sudoku-puslespil. I stedet for tal bruger børnesudoku farverige billeder. Hver firkant skal have alle fire billeder præcis én gang. Dette gør sudoku tilgængeligt for de mindste børn. Traditionel sudoku bruger tal 1-9. Det kræver talforståelse og logik. Børnesudoku bruger billeder i stedet. Dyr, frugter, køretøjer eller former erstatter tallene. Dette gør puslespillet visuelt og sjovt.
+Sudoku til børn er en simpel version af det klassiske sudoku-puslespil. I stedet for tal bruger børnesudoku farverige billeder. Hver firkant skal have alle fire billeder præcis én gang. Dette gør sudoku arbejdsark til børn tilgængeligt for de mindste. Traditionel sudoku bruger tal 1-9, men børnesudoku bruger billeder i stedet. Dyr, frugter, køretøjer eller former erstatter tallene. Vores gratis arbejdsark gør puslespillet visuelt og sjovt.
 
-Vores generator laver 4x4 sudoku med billeder. Børn skal fylde de tomme felter ud. Hvert billede må kun forekomme én gang i hver række og kolonne. Sværhedsgraden tilpasses efter barnets niveau med 4, 6 eller 8 tomme felter. Lærere kan bruge sudoku som matematikopgaver. Sudoku træner logisk tænkning og problemløsning. Det forbedrer koncentration og mønstergenkendelse. Sudoku opgaver til print fungerer perfekt som finmotorik øvelser når børn tegner eller placerer klistermærker.`,
-    previewImageSrc: '/samples/english/sudoku/sudoku_easy.jpeg',
+Vores generator laver 4x4 sudoku gratis arbejdsark med billeder. Børn skal fylde de tomme felter ud. Hvert billede må kun forekomme én gang i hver række og kolonne. Sværhedsgraden tilpasses efter barnets niveau med 4, 6 eller 8 tomme felter. Lærere kan bruge sudoku som matematikopgaver. Sudoku arbejdsark til børnehaveklasse træner logisk tænkning og problemløsning. Det forbedrer koncentration og mønstergenkendelse. Gratis printables fungerer perfekt som finmotorik øvelser.`,
+    previewImageSrc: '/samples/danish/sudoku/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Prøv Gratis',
       viewSamples: 'Se Eksempler',
@@ -49,10 +81,10 @@ Vores generator laver 4x4 sudoku med billeder. Børn skal fylde de tomme felter 
     },
   },
 
-  // Sample Gallery - REAL file paths from samples/english/sudoku/
+  // Sample Gallery
   samples: {
-    sectionTitle: 'Sudoku Eksempler',
-    sectionDescription: 'Download gratis eksempler på sudoku arbejdsark for at se vores professionelle kvalitet',
+    sectionTitle: 'Gratis Arbejdsark Eksempler - Sudoku til Børn',
+    sectionDescription: 'Download gratis arbejdsark eksempler på sudoku for at se vores professionelle kvalitet - arbejdsark til børnehaveklasse og 0. klasse',
     badgeText: 'Gratis Eksempler',
     downloadLabel: 'Download Gratis Eksempel',
     downloadingLabel: 'Downloader...',
@@ -65,32 +97,46 @@ Vores generator laver 4x4 sudoku med billeder. Børn skal fylde de tomme felter 
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/sudoku/sudoku_easy.jpeg',
-        answerKeySrc: '/samples/english/sudoku/sudoku_easy answer_key.jpeg',
-        altText: 'Let sudoku arbejdsark med billeder til børnehaveklasse',
-        pdfDownloadUrl: '/samples/english/sudoku/sudoku_easy.pdf',
+        worksheetSrc: '/samples/danish/sudoku/sample-1.jpeg',
+        answerKeySrc: '/samples/danish/sudoku/sample-1-answer.jpeg',
+        altText: 'Sudoku gratis arbejdsark - let sudoku arbejdsark til børn med farverige billeder til børnehaveklasse',
+        pdfDownloadUrl: '/samples/danish/sudoku/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/sudoku/sudoku medium.jpeg',
-        answerKeySrc: '/samples/english/sudoku/sudoku medium answer_key.jpeg',
-        altText: 'Mellem sværhedsgrad sudoku arbejdsark til 0. klasse',
-        pdfDownloadUrl: '/samples/english/sudoku/sudoku medium.pdf',
+        worksheetSrc: '/samples/danish/sudoku/sample-2.jpeg',
+        answerKeySrc: '/samples/danish/sudoku/sample-2-answer.jpeg',
+        altText: 'Sudoku arbejdsark til børnehaveklasse - gratis printables med billeder til logiktræning',
+        pdfDownloadUrl: '/samples/danish/sudoku/sample-2.pdf',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/sudoku/sudoku hard.jpeg',
-        answerKeySrc: '/samples/english/sudoku/sudoku hard answer_key.jpeg',
-        altText: 'Svær sudoku arbejdsark med billeder til 1. klasse',
-        pdfDownloadUrl: '/samples/english/sudoku/sudoku hard.pdf',
+        worksheetSrc: '/samples/danish/sudoku/sample-3.jpeg',
+        answerKeySrc: '/samples/danish/sudoku/sample-3-answer.jpeg',
+        altText: 'Gratis arbejdsark sudoku - arbejdsark til børn mellem sværhedsgrad til 0. klasse',
+        pdfDownloadUrl: '/samples/danish/sudoku/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/danish/sudoku/sample-4.jpeg',
+        answerKeySrc: '/samples/danish/sudoku/sample-4-answer.jpeg',
+        altText: 'Arbejdsark til børnehaveklasse - sudoku gratis printables med tematiske billeder',
+        pdfDownloadUrl: '/samples/danish/sudoku/sample-4.pdf',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/danish/sudoku/sample-5.jpeg',
+        answerKeySrc: '/samples/danish/sudoku/sample-5-answer.jpeg',
+        altText: 'Sudoku arbejdsark til børn - svær sudoku gratis arbejdsark perfekt til 1. klasse',
+        pdfDownloadUrl: '/samples/danish/sudoku/sample-5.pdf',
       },
     ],
   },
 
-  // Features Grid - FULL text from sudoku.md feature sections
+  // Features Grid
   features: {
-    sectionTitle: 'Sudoku Funktioner - Alt Du Har Brug For til Gratis Skoleopgaver og Arbejdsark til Print',
-    sectionDescription: 'Vores sudoku-generator giver dig alle værktøjer til at lave professionelle opgaver til print. Hver funktion er designet til lærere som laver matematikopgaver og logikøvelser. Kernepakke abonnementet inkluderer ubegrænsede downloads uden ekstra omkostninger. Lav så mange arbejdsark du har brug for til børnehaveklasse, 0. klasse og 1. klasse.',
+    sectionTitle: 'Sudoku Generator Funktioner - Gratis Arbejdsark til Børn og Arbejdsark til Børnehaveklasse',
+    sectionDescription: 'Vores sudoku generator indeholder alle funktioner du behøver for at skabe professionelle gratis arbejdsark. Grundpakke abonnementet giver dig adgang til kraftfulde tilpasningsværktøjer. Skab unikke arbejdsark til børnehaveklasse, 0. klasse og 1. klasse på få minutter. Hver funktion er designet til at gøre arbejdsark til børn oprettelse hurtig og nem.',
     highlightBadgeText: 'Vigtig Funktion',
     readMoreLabel: 'Læs mere',
     showLessLabel: 'Vis mindre',
@@ -181,10 +227,10 @@ JPEG format fungerer med alle enheder. Del nemt via email eller sociale medier. 
     ],
   },
 
-  // How-To Guide - FULL text from sudoku.md step sections
+  // How-To Guide
   howTo: {
-    sectionTitle: 'Sådan Laver Du Sudoku Opgaver til Print i 5 Nemme Trin',
-    sectionDescription: 'Lav professionelle sudoku arbejdsark på under 3 minutter. Denne trin-for-trin guide viser dig nøjagtig hvordan. Ingen designerfærdigheder nødvendige. Perfekt til lærere som laver matematikopgaver, finmotorik øvelser og gratis skoleopgaver til børnehaveklasse, 0. klasse og 1. klasse.',
+    sectionTitle: 'Sådan Laver Du Sudoku Gratis Arbejdsark i 5 Nemme Trin',
+    sectionDescription: 'Lav professionelle sudoku gratis arbejdsark på under 3 minutter. Denne trin-for-trin guide viser dig nøjagtig hvordan. Ingen designerfærdigheder nødvendige. Perfekt til lærere som laver arbejdsark til børn, arbejdsark til børnehaveklasse og gratis printables til 0. klasse og 1. klasse.',
     badgeText: 'Trin-for-Trin Guide',
     readMoreLabel: 'Læs mere',
     showLessLabel: 'Vis mindre',
@@ -265,10 +311,10 @@ Aktiver gråtone for at spare printerblæk. Klik på "Gråtone" checkboksen før
     ],
   },
 
-  // Use Cases - FULL text from sudoku.md use case sections
+  // Use Cases
   useCases: {
-    sectionTitle: 'Perfekt til Pædagoger, Forældre og Lærere',
-    sectionDescription: 'Vores sudoku-generator passer til mange forskellige undervisningssituationer. Børnehavepædagoger, indskolingslærere, hjemmeundervisende forældre og specialpædagoger bruger alle sudoku som matematikopgaver. Fleksibiliteten gør sudoku til gratis skoleopgaver perfekt til enhver undervisningskontekst.',
+    sectionTitle: 'Perfekt til Pædagoger og Forældre - Sudoku Arbejdsark til Børnehaveklasse',
+    sectionDescription: 'Vores sudoku generator passer til mange forskellige undervisningssituationer. Børnehavepædagoger, indskolingslærere, hjemmeundervisende forældre og specialpædagoger bruger alle vores gratis arbejdsark til børn. Fleksibiliteten gør sudoku gratis printables perfekt til enhver undervisningskontekst.',
     badgeText: 'Brugseksempler',
     readMoreLabel: 'Læs mere',
     showLessLabel: 'Vis mindre',
@@ -390,10 +436,10 @@ Kombiner sudoku med andre arbejdsark for bundne produkter. "Komplet Matematikpak
     ],
   },
 
-  // FAQ Section - FULL text from sudoku.md FAQ sections
+  // FAQ Section
   faq: {
-    sectionTitle: 'Ofte Stillede Spørgsmål',
-    sectionDescription: 'Lærere og forældre stiller ofte de samme spørgsmål om vores sudoku-generator. Her finder du svar på de mest almindelige spørgsmål om sudoku opgaver til print, malebog funktioner og integration med matematikopgaver.',
+    sectionTitle: 'Ofte Stillede Spørgsmål - Sudoku Gratis Arbejdsark til Børn',
+    sectionDescription: 'Lærere og forældre stiller ofte de samme spørgsmål om vores sudoku generator. Her finder du svar på de mest almindelige spørgsmål om gratis arbejdsark, arbejdsark til børnehaveklasse og integration med andre gratis printables.',
     badgeText: 'FAQ',
     readMoreLabel: 'Læs mere',
     showLessLabel: 'Vis mindre',
@@ -478,8 +524,8 @@ Lav årsplaner for sæsonopgaver. September: efterårs-sudoku og malebog. Decemb
 
   // Related Apps Section
   relatedApps: {
-    sectionTitle: 'Kombinér Sudoku med Andre Apps',
-    sectionDescription: 'Kernepakke abonnement inkluderer 10 populære værktøjer udover sudoku. Kombiner sudoku med andre generatorer for komplette læringspakker.',
+    sectionTitle: 'Kombinér Sudoku Gratis Arbejdsark med Andre Apps',
+    sectionDescription: 'Grundpakke abonnement inkluderer 10 populære værktøjer udover sudoku gratis arbejdsark. Kombiner arbejdsark til børn med andre generatorer for komplette læringspakker med gratis printables.',
     ctaTitle: 'Klar til at Lave Fantastiske Arbejdsark?',
     ctaDescription: 'Tilslut dig tusindvis af pædagoger der laver professionelle arbejdsark. Ubegrænset oprettelse, kommerciel licens inkluderet.',
     primaryCtaText: 'Start Gratis Prøve',

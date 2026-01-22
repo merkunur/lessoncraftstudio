@@ -31,6 +31,38 @@ export const subtractionNlContent: ProductPageContent = {
     description: 'Maak professionele aftrekken werkbladen met onze rekenen werkbladen generator. Met een Volledige Toegang abonnement krijg je onbeperkt werkbladen zonder kosten per werkblad. Genereer op maat gemaakte oefenbladen voor groep 1, groep 2 en groep 3.',
     keywords: 'aftrekken werkbladen, rekenen werkbladen, werkbladen groep 3, werkbladen kleuters, sommen tot 20, oefenbladen gratis, tafels oefenen, veilig leren lezen, fijne motoriek, letters leren',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/aftrekken-werkbladen',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/dutch/subtraction/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis werkblad aftrekken - werkblad voor kinderen rekenen oefeningen groep 3',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/dutch/subtraction/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Aftrekken werkblad voor kleuters - gratis werkbladen sommen tot 20 oefenbladen',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/dutch/subtraction/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis printables aftrekken - werkblad voor kinderen rekenen werkbladen basisschool',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/dutch/subtraction/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Werkblad voor kleuters aftrekken - gratis werkblad sommen oefenbladen printen',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/dutch/subtraction/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis werkbladen aftrekken - werkblad voor kinderen rekenen groep 1 2 3',
+      },
+    ],
   },
 
   // Hero Section - FULL text from subtraction.md paragraphs 1-4
@@ -42,7 +74,7 @@ export const subtractionNlContent: ProductPageContent = {
 Onze aftrekken werkbladen maker combineert spelende afbeeldingen met rekenen oefeningen. Perfect voor basisschool leerkrachten die snel werkbladen groep 3 nodig hebben. Maak visueel aantrekkelijke sommen tot 20 werkbladen die leerlingen betrokken houden. Ideaal voor werkbladen kleuters en jonge rekenaars.
 
 De generator biedt vier verschillende oefenmodi voor aftrekken. Kies tussen traditioneel wegstrepen, afbeelding-nummer sommen, vind de subtrahend, of gemengde oefeningen. Elke modus helpt leerlingen aftrekken op een andere manier te begrijpen. Pas elk werkblad volledig aan op het canvas. Combineer met kleurplaten en fijne motoriek oefeningen voor complete leerpakketten.`,
-    previewImageSrc: '/samples/english/subtraction/cross out.jpeg',
+    previewImageSrc: '/samples/dutch/subtraction/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Gratis Uitproberen',
       viewSamples: 'Voorbeelden Bekijken',
@@ -61,9 +93,9 @@ De generator biedt vier verschillende oefenmodi voor aftrekken. Kies tussen trad
     },
   },
 
-  // Sample Gallery - REAL file paths from samples/english/subtraction/
+  // Sample Gallery - REAL file paths from samples/dutch/subtraction/
   samples: {
-    sectionTitle: 'Aftrekken Werkbladen Voorbeelden',
+    sectionTitle: 'Aftrekken Werkbladen Voorbeelden - Gratis Werkbladen voor Kinderen en Kleuters',
     sectionDescription: 'Download gratis voorbeeldwerkbladen om onze professionele kwaliteit te ervaren',
     downloadLabel: 'Gratis Voorbeeld Downloaden',
     worksheetLabel: 'Werkblad',
@@ -77,31 +109,38 @@ De generator biedt vier verschillende oefenmodi voor aftrekken. Kies tussen trad
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/subtraction/cross out.jpeg',
-        answerKeySrc: '/samples/english/subtraction/cross out answer_key.jpeg',
-        altText: 'Aftrekken werkblad wegstrepen modus voor werkbladen groep 3 en sommen tot 20',
-        pdfDownloadUrl: '/samples/english/subtraction/cross out.pdf',
+        worksheetSrc: '/samples/dutch/subtraction/sample-1.jpeg',
+        answerKeySrc: '/samples/dutch/subtraction/sample-1-answer.jpeg',
+        altText: 'Aftrekken werkblad wegstrepen modus - gratis werkblad voor kinderen groep 3 en sommen tot 20',
+        pdfDownloadUrl: '/samples/dutch/subtraction/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/subtraction/image number.jpeg',
-        answerKeySrc: '/samples/english/subtraction/image number answer_key.jpeg',
-        altText: 'Aftrekken werkblad afbeelding-nummer modus voor rekenen werkbladen kleuters',
-        pdfDownloadUrl: '/samples/english/subtraction/image number.pdf',
+        worksheetSrc: '/samples/dutch/subtraction/sample-2.jpeg',
+        answerKeySrc: '/samples/dutch/subtraction/sample-2-answer.jpeg',
+        altText: 'Aftrekken werkblad afbeelding-nummer modus - gratis werkbladen voor kleuters rekenen oefenbladen',
+        pdfDownloadUrl: '/samples/dutch/subtraction/sample-2.pdf',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/subtraction/find subtrahend.jpeg',
-        answerKeySrc: '/samples/english/subtraction/find subtrahend answer_key.jpeg',
-        altText: 'Vind de subtrahend werkblad voor oefenbladen gratis kwaliteit',
-        pdfDownloadUrl: '/samples/english/subtraction/find subtrahend.pdf',
+        worksheetSrc: '/samples/dutch/subtraction/sample-3.jpeg',
+        answerKeySrc: '/samples/dutch/subtraction/sample-3-answer.jpeg',
+        altText: 'Vind de subtrahend werkblad - werkblad voor kinderen gratis printables kwaliteit',
+        pdfDownloadUrl: '/samples/dutch/subtraction/sample-3.pdf',
       },
       {
         id: '4',
-        worksheetSrc: '/samples/english/subtraction/mixed.jpeg',
-        answerKeySrc: '/samples/english/subtraction/mixed answer_key.jpeg',
-        altText: 'Gemengde modus aftrekken werkblad met variatie voor sommen tot 20 oefeningen',
-        pdfDownloadUrl: '/samples/english/subtraction/mixed.pdf',
+        worksheetSrc: '/samples/dutch/subtraction/sample-4.jpeg',
+        answerKeySrc: '/samples/dutch/subtraction/sample-4-answer.jpeg',
+        altText: 'Gemengde modus aftrekken - werkblad voor kleuters gratis werkblad sommen tot 20 oefeningen',
+        pdfDownloadUrl: '/samples/dutch/subtraction/sample-4.pdf',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/dutch/subtraction/sample-5.jpeg',
+        answerKeySrc: '/samples/dutch/subtraction/sample-5-answer.jpeg',
+        altText: 'Aftrekken oefenbladen - gratis werkbladen voor kinderen rekenen werkblad groep 1 2 3',
+        pdfDownloadUrl: '/samples/dutch/subtraction/sample-5.pdf',
       },
     ],
   },

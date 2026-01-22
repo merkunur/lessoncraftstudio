@@ -27,22 +27,54 @@ export const missingPiecesNlContent: ProductPageContent = {
   seo: {
     slug: 'ontbrekende-puzzelstukjes-werkbladen',
     appId: 'missing-pieces',
-    title: 'Ontbrekende Puzzelstukjes Werkbladen Generator - Oefenbladen Gratis voor Groep 1 2 en Groep 3',
-    description: 'Maak professionele puzzel werkbladen met onze ontbrekende puzzelstukjes generator. Jouw Volledige Toegang abonnement geeft je onbeperkte toegang tot werkbladen voor kleuters en groep 3 leerlingen. Download printklare oefenbladen gratis van extra kosten per werkblad.',
+    title: 'Gratis Werkbladen Ontbrekende Puzzelstukjes | Generator voor Kleuters',
+    description: 'Maak gratis werkbladen ontbrekende puzzelstukjes voor kleuters en groep 3. Professionele 300 DPI kwaliteit. Download in minder dan 3 minuten.',
     keywords: 'ontbrekende puzzelstukjes werkbladen, werkbladen groep 3, werkbladen kleuters, oefenbladen gratis, fijne motoriek, visuele discriminatie, veilig leren lezen, letters leren, rekenen werkbladen, puzzel werkbladen',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/ontbrekende-puzzelstukjes-werkbladen',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/dutch/missing-pieces/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis werkblad ontbrekende puzzelstukjes - visuele discriminatie oefenbladen voor kleuters'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/dutch/missing-pieces/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Puzzelstukjes werkbladen gratis - werkbladen groep 3 visuele discriminatie'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/dutch/missing-pieces/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis printables ontbrekende puzzelstukjes - werkbladen kleuters fijne motoriek'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/dutch/missing-pieces/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Werkblad voor kinderen puzzelstukjes - oefenbladen gratis visuele discriminatie'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/dutch/missing-pieces/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis werkbladen ontbrekende stukjes - werkbladen groep 3 puzzel oefeningen'
+      },
+    ],
   },
 
   // Hero Section - FULL text from missing-pieces.md paragraphs 1-2
   hero: {
-    title: 'Ontbrekende Puzzelstukjes Werkbladen',
-    subtitle: 'Oefenbladen Gratis voor Groep 1 2 en Groep 3',
+    title: 'Gratis Werkblad Ontbrekende Puzzelstukjes - Werkblad voor Kinderen',
+    subtitle: 'Gratis Printables en Werkblad voor Kleuters - Oefenbladen Gratis',
     description: `Maak professionele puzzel werkbladen met onze ontbrekende puzzelstukjes generator. Jouw Volledige Toegang abonnement geeft je onbeperkte werkblad creatie zonder kosten per werkblad. Genereer aangepaste puzzel oefenbladen perfect voor kleuters en groep 3 leerlingen. Download hoogwaardige PDF werkbladen in minder dan drie minuten.
 
 Ontbrekende puzzelstukjes puzzels trainen visuele discriminatie en probleemoplossend vermogen. Leerlingen analyseren een afbeelding met ontbrekende stukken. Ze selecteren het juiste puzzelstuk uit meerdere opties. Deze oefenbladen gratis ontwikkelen fijne motoriek en concentratie.
 
 Onze werkbladen groep 3 generator maakt het gemakkelijk om gedifferentieerde puzzels te maken. Kies één tot vijf ontbrekende stukken voor verschillende moeilijkheidsgraden. Selecteer twee tot zes antwoordopties voor meer of minder uitdaging. Pas puzzelstukvormen aan van eenvoudige vierkanten tot complexere ellipsen.`,
-    previewImageSrc: '/samples/english/missing pieces/worksheet.jpeg',
+    previewImageSrc: '/samples/dutch/missing-pieces/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Gratis Uitproberen',
       viewSamples: 'Voorbeelden Bekijken',
@@ -63,8 +95,8 @@ Onze werkbladen groep 3 generator maakt het gemakkelijk om gedifferentieerde puz
 
   // Sample Gallery - REAL file paths from samples/english/missing pieces/
   samples: {
-    sectionTitle: 'Ontbrekende Puzzelstukjes Werkbladen Voorbeelden',
-    sectionDescription: 'Download gratis voorbeeldwerkbladen om onze professionele kwaliteit te ervaren',
+    sectionTitle: 'Gratis Printables Ontbrekende Puzzelstukjes - Werkblad voor Kinderen Voorbeelden',
+    sectionDescription: 'Download gratis werkblad voorbeelden - werkblad voor kleuters en werkblad voor kinderen in professionele kwaliteit',
     downloadLabel: 'Gratis Voorbeeld Downloaden',
     worksheetLabel: 'Werkblad',
     answerKeyLabel: 'Antwoordblad',
@@ -77,17 +109,38 @@ Onze werkbladen groep 3 generator maakt het gemakkelijk om gedifferentieerde puz
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/missing pieces/worksheet.jpeg',
-        answerKeySrc: '/samples/english/missing pieces/answer_key.jpeg',
-        altText: 'Ontbrekende puzzelstukjes werkblad voor werkbladen groep 3 en oefenbladen gratis',
-        pdfDownloadUrl: '/samples/english/missing pieces/worksheet.pdf',
+        worksheetSrc: '/samples/dutch/missing-pieces/sample-1.jpeg',
+        answerKeySrc: '/samples/dutch/missing-pieces/sample-1-answer.jpeg',
+        altText: 'Gratis werkblad ontbrekende puzzelstukjes - werkbladen groep 3 visuele discriminatie',
+        pdfDownloadUrl: '/samples/dutch/missing-pieces/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/missing pieces/worksheet (1).jpeg',
-        answerKeySrc: '/samples/english/missing pieces/answer_key (1).jpeg',
-        altText: 'Puzzelstukjes werkblad met visuele discriminatie voor werkbladen kleuters',
-        pdfDownloadUrl: '/samples/english/missing pieces/worksheet (1).pdf',
+        worksheetSrc: '/samples/dutch/missing-pieces/sample-2.jpeg',
+        answerKeySrc: '/samples/dutch/missing-pieces/sample-2-answer.jpeg',
+        altText: 'Puzzelstukjes werkblad gratis printables - werkbladen kleuters fijne motoriek',
+        pdfDownloadUrl: '/samples/dutch/missing-pieces/sample-2.pdf',
+      },
+      {
+        id: '3',
+        worksheetSrc: '/samples/dutch/missing-pieces/sample-3.jpeg',
+        answerKeySrc: '/samples/dutch/missing-pieces/sample-3-answer.jpeg',
+        altText: 'Gratis werkbladen puzzelstukjes - oefenbladen gratis visuele discriminatie kleuters',
+        pdfDownloadUrl: '/samples/dutch/missing-pieces/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/dutch/missing-pieces/sample-4.jpeg',
+        answerKeySrc: '/samples/dutch/missing-pieces/sample-4-answer.jpeg',
+        altText: 'Werkblad voor kinderen ontbrekende puzzelstukjes - gratis werkbladen groep 3',
+        pdfDownloadUrl: '/samples/dutch/missing-pieces/sample-4.pdf',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/dutch/missing-pieces/sample-5.jpeg',
+        answerKeySrc: '/samples/dutch/missing-pieces/sample-5-answer.jpeg',
+        altText: 'Gratis werkblad voor kleuters puzzelstukjes - werkbladen kleuters visuele discriminatie',
+        pdfDownloadUrl: '/samples/dutch/missing-pieces/sample-5.pdf',
       },
     ],
   },
@@ -199,8 +252,8 @@ Voor commerciële verkoop bied aparte antwoordsleutels aan. Verkoop werkblad en 
 
   // How-To Guide - FULL text from missing-pieces.md step sections
   howTo: {
-    sectionTitle: 'Hoe Maak Je Puzzelstukjes Werkbladen in 5 Stappen - Oefenbladen Gratis',
-    sectionDescription: 'Leer in vijf eenvoudige stappen professionele ontbrekende puzzelstukjes werkbladen maken. Het hele proces duurt minder dan drie minuten. Geen technische kennis of ontwerpervaring nodig. Volg deze handleiding en maak direct werkbladen kleuters en werkbladen groep 3.',
+    sectionTitle: 'Hoe Maak Je Gratis Werkblad voor Kinderen in 5 Stappen - Gratis Printables',
+    sectionDescription: 'Leer in vijf eenvoudige stappen professionele werkblad voor kleuters maken. Het hele proces duurt minder dan drie minuten. Geen technische kennis of ontwerpervaring nodig. Volg deze handleiding en maak direct werkbladen kleuters en werkbladen groep 3.',
     ctaText: 'Nu Starten',
     badgeText: 'Zo werkt het',
     stepLabel: 'Stap',
@@ -271,8 +324,8 @@ Vergeet de antwoordsleutel niet te genereren. Klik op Aanmaken en selecteer Antw
 
   // Use Cases - FULL text from missing-pieces.md use case sections
   useCases: {
-    sectionTitle: 'Perfect voor Leerkrachten en Ouders - Puzzel Werkbladen voor Alle Groepen',
-    sectionDescription: 'Onze ontbrekende puzzelstukjes generator bedient diverse onderwijsprofessionals en ouders. Van kleuterjuffen tot leerkracht-ondernemers. Ontdek hoe verschillende gebruikers profiteren van werkbladen groep 3 en oefenbladen gratis. Elke gebruikersgroep vindt specifieke voordelen voor hun unieke situatie.',
+    sectionTitle: 'Gratis Printables voor Leerkrachten en Ouders - Werkblad voor Kinderen',
+    sectionDescription: 'Onze ontbrekende puzzelstukjes generator biedt gratis werkblad opties voor diverse onderwijsprofessionals. Van kleuterjuffen tot leerkracht-ondernemers. Ontdek hoe verschillende gebruikers profiteren van werkblad voor kleuters en oefenbladen gratis. Elke gebruikersgroep vindt specifieke voordelen voor hun unieke situatie.',
     badgeText: 'Voor wie',
     readMoreLabel: 'Lees meer',
     showLessLabel: 'Minder tonen',
@@ -354,8 +407,8 @@ De professionele 300 DPI kwaliteit onderscheidt jouw producten. Geen watermerken
 
   // FAQ Section - FULL FAQs from missing-pieces.md
   faq: {
-    sectionTitle: 'Veelgestelde Vragen over Puzzelstukjes Werkbladen - FAQ',
-    sectionDescription: 'Hier beantwoorden we de meest gestelde vragen over onze ontbrekende puzzelstukjes generator. Van prijzen tot functies en van combinaties tot commercieel gebruik. Vind antwoorden over werkbladen kleuters en werkbladen groep 3.',
+    sectionTitle: 'Veelgestelde Vragen over Gratis Werkblad voor Kinderen - FAQ',
+    sectionDescription: 'Hier beantwoorden we de meest gestelde vragen over onze gratis printables puzzelstukjes generator. Van prijzen tot functies en van combinaties tot commercieel gebruik. Vind antwoorden over werkblad voor kleuters en werkbladen groep 3.',
     showMoreText: 'Meer vragen tonen',
     showLessText: 'Minder tonen',
     badgeText: 'Veelgestelde vragen',
@@ -482,8 +535,8 @@ De professionele 300 DPI kwaliteit onderscheidt jouw producten. Geen watermerken
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Combineer Puzzelwerkbladen met Andere Generators - Complete Pakketten',
-    sectionDescription: 'Het Volledige Toegang abonnement bevat drieëndertig werkblad generators die perfect samenwerken. Combineer ontbrekende puzzelstukjes met andere tools voor complete leerpakketten. Ontdek hoe je thematische bundels maakt voor elke lesweek.',
+    sectionTitle: 'Combineer Gratis Werkblad voor Kinderen met Andere Gratis Printables',
+    sectionDescription: 'Het Volledige Toegang abonnement bevat drieëndertig werkblad voor kleuters generators die perfect samenwerken. Combineer ontbrekende puzzelstukjes met andere tools voor complete leerpakketten. Ontdek hoe je thematische bundels maakt voor elke lesweek.',
     ctaTitle: 'Klaar om geweldige werkbladen te maken?',
     ctaDescription: 'Sluit je aan bij duizenden leerkrachten die professionele werkbladen maken. Onbeperkt genereren, commerciële licentie inbegrepen.',
     primaryCtaText: 'Gratis Proberen',

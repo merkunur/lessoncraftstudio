@@ -31,22 +31,48 @@ export const picturePathNlContent: ProductPageContent = {
   seo: {
     slug: 'doolhof-werkbladen',
     appId: 'picture-path',
-    title: 'Doolhof Werkbladen Generator - Plaatjes Pad Oefenbladen voor Groep 1 2 en Groep 3 Kleuters',
+    title: 'Doolhof Werkbladen - Gratis Werkbladen voor Kinderen en Werkblad voor Kleuters Groep 1 2 3',
     description: 'Maak professionele doolhof werkbladen met plaatjes in enkele minuten. Onze doolhof generator biedt drie verschillende spelmodi voor werkbladen groep 3 en werkbladen kleuters. Je Volledige Toegang abonnement geeft je onbeperkte toegang tot alle functies.',
     keywords: 'doolhof werkbladen, werkbladen groep 3, werkbladen kleuters, oefenbladen gratis, fijne motoriek, visuele discriminatie, letters leren, veilig leren lezen, rekenen werkbladen, tafels oefenen',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/doolhof-werkbladen',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/dutch/picture-path/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis werkblad doolhof - plaatjes pad werkbladen groep 3 voor visuele discriminatie',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/dutch/picture-path/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis werkbladen doolhof - werkblad voor kleuters met klassiek doolhof',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/dutch/picture-path/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Werkblad voor kinderen - kies het juiste pad doolhof voor fijne motoriek',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/dutch/picture-path/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis printables doolhof - oefenbladen voor letters leren en veilig leren lezen',
+      },
+    ],
   },
 
   // Hero Section
   hero: {
-    title: 'Doolhof Werkbladen Gratis',
-    subtitle: 'Plaatjes Pad Oefenbladen voor Groep 1 2 en Groep 3 Kleuters',
+    title: 'Doolhof Werkbladen - Gratis Werkblad Generator voor Kinderen',
+    subtitle: 'Gratis Werkbladen en Printables - Werkblad voor Kleuters Groep 1 2 en Groep 3',
     description: `Maak professionele doolhof werkbladen met plaatjes in enkele minuten. Onze doolhof generator biedt drie verschillende spelmodi voor werkbladen groep 3 en werkbladen kleuters. Je Volledige Toegang abonnement geeft je onbeperkte toegang tot alle functies zonder extra kosten per werkblad. Creëer doolhof oefenbladen die perfect aansluiten bij fijne motoriek ontwikkeling en visuele discriminatie vaardigheden.
 
 De doolhof generator maakt drie soorten werkbladen. Kies plaatjes pad werkbladen waar kinderen een route volgen door afbeeldingen. Genereer klassieke doolhoven met verzamelbare plaatjes langs het juiste pad. Of creëer kies-het-juiste-pad werkbladen met meerdere routes waarvan er maar één correct is. Elk type werkblad ondersteunt verschillende leerdoelen voor groep 1 2 kleuters en groep 3 leerlingen.
 
 Download hoogwaardige PDF en JPEG bestanden binnen 3 minuten. Alle werkbladen exporteren in professionele 300 DPI kwaliteit perfect voor printen. Je krijgt automatisch antwoordsleutels die de oplossing tonen. Ideaal voor oefenbladen gratis te gebruiken in de klas of te verkopen op onderwijsplatforms.`,
-    previewImageSrc: '/samples/english/picture path/picture path.jpeg',
+    previewImageSrc: '/samples/dutch/picture-path/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Gratis Uitproberen',
       viewSamples: 'Voorbeelden Bekijken',
@@ -67,7 +93,7 @@ Download hoogwaardige PDF en JPEG bestanden binnen 3 minuten. Alle werkbladen ex
 
   // Sample Gallery
   samples: {
-    sectionTitle: 'Doolhof Werkbladen Voorbeelden',
+    sectionTitle: 'Gratis Werkblad Doolhof Voorbeelden - Werkbladen voor Kinderen',
     sectionDescription: 'Download gratis voorbeeldwerkbladen om onze professionele kwaliteit te ervaren',
     downloadLabel: 'Gratis Voorbeeld Downloaden',
     worksheetLabel: 'Werkblad',
@@ -81,31 +107,38 @@ Download hoogwaardige PDF en JPEG bestanden binnen 3 minuten. Alle werkbladen ex
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/picture path/picture path.jpeg',
-        answerKeySrc: '/samples/english/picture path/picture path answer_key.jpeg',
-        altText: 'Plaatjes pad doolhof werkblad voor visuele discriminatie kleuters',
-        pdfDownloadUrl: '/samples/english/picture path/picture path.pdf',
+        worksheetSrc: '/samples/dutch/picture-path/sample-1.jpeg',
+        answerKeySrc: '/samples/dutch/picture-path/sample-1-answer.jpeg',
+        altText: 'Gratis werkblad doolhof plaatjes pad - werkbladen groep 3 voor visuele discriminatie kleuters',
+        pdfDownloadUrl: '/samples/dutch/picture-path/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/picture path/classic maze.jpeg',
-        answerKeySrc: '/samples/english/picture path/classic maze answer_key.jpeg',
-        altText: 'Klassiek doolhof werkblad met verzamelbare plaatjes groep 3',
-        pdfDownloadUrl: '/samples/english/picture path/classic maze.pdf',
+        worksheetSrc: '/samples/dutch/picture-path/sample-2.jpeg',
+        answerKeySrc: '/samples/dutch/picture-path/sample-2-answer.jpeg',
+        altText: 'Gratis werkbladen klassiek doolhof - werkblad voor kinderen met verzamelbare plaatjes',
+        pdfDownloadUrl: '/samples/dutch/picture-path/sample-2.pdf',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/picture path/right path.jpeg',
-        answerKeySrc: '/samples/english/picture path/right path answer_key.jpeg',
-        altText: 'Kies het juiste pad doolhof werkblad voor logisch denken',
-        pdfDownloadUrl: '/samples/english/picture path/right path.pdf',
+        worksheetSrc: '/samples/dutch/picture-path/sample-3.jpeg',
+        answerKeySrc: '/samples/dutch/picture-path/sample-3-answer.jpeg',
+        altText: 'Werkblad voor kleuters kies het juiste pad - gratis printables voor fijne motoriek',
+        pdfDownloadUrl: '/samples/dutch/picture-path/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/dutch/picture-path/sample-4.jpeg',
+        answerKeySrc: '/samples/dutch/picture-path/sample-4-answer.jpeg',
+        altText: 'Doolhof oefenbladen gratis - werkblad voor kinderen letters leren en veilig leren lezen',
+        pdfDownloadUrl: '/samples/dutch/picture-path/sample-4.pdf',
       },
     ],
   },
 
   // Features Grid
   features: {
-    sectionTitle: 'Doolhof Functies - Alles voor Werkbladen Groep 3 en Werkbladen Kleuters Groep 1 2',
+    sectionTitle: 'Gratis Werkbladen Doolhof Functies - Werkblad voor Kinderen en Werkblad voor Kleuters',
     sectionDescription: 'Onze doolhof generator combineert alle functies die je nodig hebt voor professionele werkbladen groep 3 leerlingen en werkbladen kleuters. Van plaatjes selecteren tot canvas bewerking tot hoogwaardige export. Elk werkblad dat je maakt voldoet aan dezelfde kwaliteitsnormen als commerciële onderwijsmaterialen. Je Volledige Toegang abonnement geeft toegang tot alle premium functies zonder beperkingen.',
     highlightBadgeText: 'Uitgelicht',
     readMoreLabel: 'Lees meer',
@@ -120,7 +153,7 @@ Download hoogwaardige PDF en JPEG bestanden binnen 3 minuten. Alle werkbladen ex
       {
         id: '1',
         icon: '⚡',
-        title: 'Maak Doolhof Werkbladen in 3 Klikken - Snelle Oefenbladen Gratis Genereren',
+        title: 'Gratis Werkblad Doolhof Maken in 3 Klikken - Snelle Oefenbladen Genereren',
         description: `Selecteer je speltype uit drie opties. Kies plaatjes pad voor jonge kleuters die routes leren volgen. Gebruik klassieke doolhof modus voor groep 3 werkbladen met verzamelbare objecten. Of genereer kies-het-juiste-pad werkbladen voor visuele discriminatie oefeningen.
 
 Elk werkblad genereert automatisch binnen enkele seconden. Geen ingewikkelde instellingen of technische kennis vereist. Klik gewoon op Genereer en je doolhof verschijnt direct op het canvas. De generator gebruikt slimme algoritmes om ervoor te zorgen dat elk pad oplosbaar is met één correcte route.
@@ -131,7 +164,7 @@ Je kunt onbeperkt oefenbladen gratis genereren met je abonnement. Geen limiet op
       {
         id: '2',
         icon: '✏️',
-        title: 'Bewerk Alles op Canvas - Werkbladen Groep 1 2 Volledig Aanpasbaar voor Fijne Motoriek',
+        title: 'Gratis Werkbladen Bewerken op Canvas - Werkblad voor Kinderen Volledig Aanpasbaar',
         description: `Elk element op je werkblad is volledig bewerkbaar na generatie. Sleep plaatjes naar nieuwe posities met je muis. Roteer afbeeldingen om verschillende oriëntaties te testen. Schaal objecten groter of kleiner om moeilijkheid aan te passen voor verschillende leeftijdsgroepen.
 
 Voeg extra decoratieve plaatjes toe om werkbladen interessanter te maken voor werkbladen kleuters. Verwijder afleidende elementen die te uitdagend zijn voor groep 1 2 leerlingen. Pas doolhof muren aan met kleur, dikte en transparantie opties. Elke aanpassing gebeurt in real-time op het canvas.
@@ -142,7 +175,7 @@ De volledige bewerkbaarheid ondersteunt gedifferentieerd onderwijs perfect. Maak
       {
         id: '3',
         icon: '📤',
-        title: 'Upload Je Eigen Plaatjes - Werkbladen Groep 3 Personaliseren met Klasfoto\'s',
+        title: 'Upload Je Eigen Plaatjes - Gratis Printables Personaliseren met Klasfoto\'s',
         description: `Upload meerdere afbeeldingen tegelijk in alle gangbare formaten. JPEG, PNG en GIF bestanden worden allemaal ondersteund. Je geüploade plaatjes verschijnen direct in je bibliotheek beschikbaar voor gebruik. Combineer ze met de 3000+ plaatjes uit onze collectie.
 
 Deze functie is perfect voor thematische werkbladen groep 3 eenheden. Upload foto's van klasgenoten voor naam herkenning activiteiten. Voeg plaatjes toe van schoolgebouwen die leerlingen herkennen. Gebruik eigen afbeeldingen die aansluiten bij je curriculum thema's en projecten.
@@ -153,7 +186,7 @@ Alle geüploade afbeeldingen blijven beschikbaar tijdens je huidige sessie. Je k
       {
         id: '4',
         icon: '🌍',
-        title: '11 Talen Beschikbaar - Letters Leren en Veilig Leren Lezen in Meerdere Talen',
+        title: '11 Talen Beschikbaar - Werkblad voor Kleuters Letters Leren in Meerdere Talen',
         description: `De doolhof generator werkt in 11 verschillende talen voor interface en content. Nederlands, Engels, Duits, Frans, Spaans, Italiaans, Portugees, Zweeds, Deens, Noors en Fins worden allemaal volledig ondersteund. Schakel tussen talen met één klik in het taal menu.
 
 Deze functie is essentieel voor meertalig onderwijs en taalverwerving. Creëer letters leren werkbladen waar kinderen alfabetletters moeten volgen door het doolhof. Maak veilig leren lezen oefeningen met Nederlandse woorden als pad markers. Gebruik dezelfde werkbladen voor NT2 leerlingen door simpelweg de taal te wijzigen.
@@ -164,7 +197,7 @@ Alle plaatjes in de bibliotheek zijn gelabeld in je gekozen taal. Zoek naar "app
       {
         id: '5',
         icon: '💼',
-        title: 'Commerciële Licentie Inbegrepen - Verkoop Je Kleurplaten en Werkbladen Kleuters',
+        title: 'Commerciële Licentie Inbegrepen - Verkoop Je Gratis Werkblad voor Kinderen',
         description: `Je Volledige Toegang abonnement bevat volledige print-on-demand commerciële licentie zonder extra kosten. Verkoop alle werkbladen die je maakt op onderwijsplatforms of eigen webshop. Geen attribuut vereist en geen royalty betalingen per verkocht werkblad.
 
 Veel leerkrachten verdienen €500-€2000 per maand met educatieve printables. Doolhof werkbladen zijn zeer populair omdat ouders ze kopen voor thuis oefenen. Combineer ze met kleurplaten en andere activiteiten voor complete lespakketten. De commerciële licentie geeft je vrijheid om je eigen onderwijsbusiness op te bouwen.
@@ -175,7 +208,7 @@ Alle exports zijn 300 DPI professionele kwaliteit geschikt voor verkoop. Klanten
       {
         id: '6',
         icon: '🎨',
-        title: '3000+ Plaatjes Bibliotheek - Rekenen Werkbladen Thema\'s en Meer',
+        title: '3000+ Plaatjes Bibliotheek - Gratis Werkbladen Thema\'s voor Kinderen',
         description: `Toegang tot meer dan 3000 kindvriendelijke afbeeldingen georganiseerd per thema. Dieren, voedsel, transport, schoolobjecten, natuur, feestdagen en veel meer categorieën. Elk thema bevat tientallen gerelateerde plaatjes perfect voor educatieve werkbladen.
 
 Selecteer een volledig thema voor snel werkblad maken. Kies bijvoorbeeld het dieren thema voor rekenen werkbladen waar leerlingen dieren tellen langs het pad. Gebruik het voedsel thema voor gezonde voeding educatie gecombineerd met doolhof plezier. Thematische werkbladen maken leren leuker en betekenisvoller voor kinderen.
@@ -210,7 +243,7 @@ Kies het Juiste Pad biedt meerdere routes waarvan slechts één correct is. Dit 
 
   // How-To Guide
   howTo: {
-    sectionTitle: 'Hoe Maak Je Werkbladen Groep 3 Doolhoven in 5 Eenvoudige Stappen - Oefenbladen Gratis Genereren',
+    sectionTitle: 'Gratis Werkblad Doolhof Maken in 5 Stappen - Werkblad voor Kinderen Genereren',
     sectionDescription: 'Creëer professionele doolhof werkbladen in minder dan 3 minuten totale tijd. Deze stap-voor-stap handleiding toont precies hoe je werkbladen groep 3 maakt van eerste klik tot definitieve download. Geen technische vaardigheden of ontwerpervaring nodig. Volg gewoon deze vijf stappen en je hebt een gepersonaliseerd werkblad klaar voor je klas.',
     ctaText: 'Nu Starten',
     badgeText: 'Zo werkt het',
@@ -225,7 +258,7 @@ Kies het Juiste Pad biedt meerdere routes waarvan slechts één correct is. Dit 
       {
         id: '1',
         number: 1,
-        title: 'Stap 1: Kies Je Content voor Werkbladen Kleuters - Plaatjes Thema\'s en Speltype',
+        title: 'Stap 1: Kies Content voor Gratis Werkblad Kleuters - Plaatjes en Speltype',
         description: `Begin met het selecteren van je speltype in het hoofdmenu. Kies Plaatjes Pad voor werkbladen kleuters groep 1 2 die net leren routes te volgen. Dit is de makkelijkste modus met grote duidelijke paden tussen afbeeldingen. Perfect voor jonge kinderen die visuele tracking oefenen.
 
 Selecteer Klassiek Doolhof voor traditionele doolhof werkbladen met verzamelbare objecten. Deze modus is ideaal voor groep 3 leerlingen die complexere puzzels aankunnen. Het doolhof genereert automatisch met plaatjes die kinderen moeten vinden onderweg naar de uitgang. Stel in hoeveel verzamelobjecten je wilt en hoe vaak elk verschijnt.
@@ -236,7 +269,7 @@ Kies Kies het Juiste Pad voor gevorderde visuele discriminatie oefeningen. Deze 
       {
         id: '2',
         number: 2,
-        title: 'Stap 2: Pas Instellingen Aan - Kleurplaten Formaat en Fijne Motoriek Moeilijkheid',
+        title: 'Stap 2: Pas Instellingen Aan - Werkblad voor Kinderen Formaat en Moeilijkheid',
         description: `Kies je paginaformaat in het Pagina-instellingen menu. Brief Staand is standaard voor Noord-Amerikaanse printers. A4 Staand is ideaal voor Europese scholen en thuisomgevingen. Liggend formaten zijn handig voor brede doolhoven met meer horizontale ruimte. Vierkant formaat werkt goed voor social media delen of printbare boeken.
 
 Stel de rastergrootte in voor je doolhof. 12×12 raster wordt aanbevolen voor de meeste leeftijden. Dit geeft genoeg complexiteit zonder te overweldigend te zijn. Grotere rasters zoals 14×14 of 15×15 zijn uitdagender voor oudere groep 3 leerlingen. Kleinere rasters zijn makkelijker voor groep 1 2 kleuters die net beginnen met doolhoven.
@@ -247,7 +280,7 @@ Pas wandkleuren aan om je werkblad aantrekkelijker te maken. Kies heldere kleure
       {
         id: '3',
         number: 3,
-        title: 'Stap 3: Genereer Je Werkblad - Rekenen Werkbladen en Veilig Leren Lezen Instant Maken',
+        title: 'Stap 3: Genereer Je Gratis Werkbladen - Werkblad voor Kleuters Instant Maken',
         description: `Klik op de Nieuw Werkblad Maken knop om je doolhof te genereren. Het algoritme werkt binnen enkele seconden. Je ziet je werkblad direct verschijnen op het canvas. De generator zorgt ervoor dat er altijd precies één oplosbaar pad is van start naar einde.
 
 Elke generatie produceert een uniek patroon. Klik meerdere keren op Nieuw Maken om verschillende versies te zien. Perfect voor het maken van meerdere oefenbladen gratis voor verschillende studenten. Niemand heeft hetzelfde werkblad dus geen zorgen over kopiëren.
@@ -269,7 +302,7 @@ Gebruik de tekst tool om instructies, vragen of educatieve content toe te voegen
       {
         id: '5',
         number: 5,
-        title: 'Stap 5: Download en Print - Hoogwaardige PDF Oefenbladen Gratis voor Je Klas',
+        title: 'Stap 5: Download Gratis Printables - Hoogwaardige PDF Werkbladen voor Kinderen',
         description: `Klik op de Downloaden knop wanneer je werkblad compleet is. Kies tussen JPEG of PDF formaat afhankelijk van je behoeften. PDF is ideaal voor direct printen met perfecte kwaliteit. JPEG werkt goed voor digitale distributie of online leerplatforms.
 
 Download ook de antwoordsleutel met dezelfde kwaliteit. Dit geeft je twee bestanden - het werkblad voor studenten en de oplossing voor jou. Bewaar beide in je lesmateriaal map georganiseerd per onderwerp of week. Handig om snel te vinden wanneer je ze nodig hebt.
@@ -282,7 +315,7 @@ Selecteer de grijswaarden optie als je veel kopieën moet printen. Dit bespaart 
 
   // Use Cases
   useCases: {
-    sectionTitle: 'Perfect voor Leerkrachten en Ouders - Werkbladen Kleuters en Oefenbladen Gratis voor Elke Behoefte',
+    sectionTitle: 'Gratis Printables voor Leerkrachten en Ouders - Werkblad voor Kleuters voor Elke Behoefte',
     sectionDescription: 'Doolhof werkbladen passen in veel verschillende onderwijscontexten en leeftijdsgroepen. Van kleuters die net beginnen met fijne motoriek ontwikkeling tot groep 3 leerlingen die complexe probleem oplossing oefenen. Thuisouders, klasleerkrachten en taalspecialisten gebruiken allemaal doolhof werkbladen voor verschillende doelen.',
     badgeText: 'Voor wie',
     readMoreLabel: 'Lees meer',
@@ -292,7 +325,7 @@ Selecteer de grijswaarden optie als je veel kopieën moet printen. Dit bespaart 
         id: '1',
         icon: '👶',
         title: 'Groep 1 2 Kleuters Leerkrachten - Fijne Motoriek en Letters Leren Werkbladen',
-        subtitle: 'Werkbladen kleuters voor kleuterklas',
+        subtitle: 'Gratis werkblad voor kleuters kleuterklas',
         description: `Kleuterleidsters gebruiken doolhof werkbladen voor vroege fijne motoriek ontwikkeling. Jonge kinderen die net leren een potlood vast te houden oefenen met grote duidelijke paden. De plaatjes pad modus is perfect voor 4-5 jarigen die visuele tracking leren. Elk werkblad biedt laagdrempelige succeservaringen die zelfvertrouwen opbouwen.
 
 Combineer doolhoven met letters leren activiteiten voor alfabetiseringsvoorbereiding. Voeg grote letters toe langs het pad dat kinderen moeten volgen van A naar B naar C. Of gebruik plaatjes van objecten die beginnen met specifieke klanken. Kinderen traceren het pad terwijl ze letter herkenning en fonologisch bewustzijn ontwikkelen tegelijk.
@@ -304,7 +337,7 @@ De werkbladen werken ook uitstekend als schrijven oefenen voorlopers. Het volgen
         id: '2',
         icon: '📚',
         title: 'Groep 3 4 5 Leerkrachten - Sommen Tot 20 en Rekenen Werkbladen Integratie',
-        subtitle: 'Werkbladen groep 3 voor rekenen',
+        subtitle: 'Gratis werkbladen groep 3 voor rekenen',
         description: `Basisschoolleerkrachten gebruiken doolhof werkbladen voor rekenkundige oefeningen geïntegreerd met probleem oplossing. Voeg sommen tot 20 vragen toe bij elk kruispunt in het doolhof. Leerlingen moeten het antwoord berekenen om te bepalen welk pad te volgen. Bijvoorbeeld: "Als het antwoord even is ga naar links, oneven ga naar rechts."
 
 Tafels oefenen activiteiten werken perfect met de kies-het-juiste-pad modus. Plaats vermenigvuldigingsvragen langs drie verschillende routes. Alleen de route met correcte antwoorden leidt naar het einde. Leerlingen moeten hun tafels kennen om het doolhof op te lossen. Dit maakt saaie flash card oefening interactief en uitdagend.
@@ -316,7 +349,7 @@ Maak thematische rekenen werkbladen die aansluiten bij je wiskundecurriculum. Di
         id: '3',
         icon: '🏠',
         title: 'Thuisonderwijzers - Oefenbladen Gratis Downloaden voor Veilig Leren Lezen Thuis',
-        subtitle: 'Werkbladen kleuters voor thuis',
+        subtitle: 'Werkblad voor kinderen thuis',
         description: `Ouders die thuisonderwijs geven waarderen de onbeperkte oefenbladen gratis generatie met Volledige Toegang abonnement. Maak dagelijkse of wekelijkse werkbladen zonder zorgen over kosten per werkblad. Geen limiet betekent je kunt experimenteren tot je de perfecte moeilijkheidsgraad vindt voor elk kind.
 
 Doolhof werkbladen bieden welkome variatie naast reguliere leerboeken en werkboeken. Kinderen die moe worden van repetitieve oefeningen blijven gemotiveerd met visuele puzzels. De spel-achtige natuur maakt leren voelen als plezier niet als werk. Perfect voor vrijdagmiddagen of als beloning na voltooiing van moeilijker werk.
@@ -340,7 +373,7 @@ Maak schrijven oefenen werkbladen waar leerlingen woorden moeten spellen om de j
         id: '5',
         icon: '🧒',
         title: 'Speciaal Onderwijs Leerkrachten - Aangepaste Kleurplaten voor Gedifferentieerd Leren',
-        subtitle: 'Oefenbladen voor speciaal onderwijs',
+        subtitle: 'Gratis printables voor speciaal onderwijs',
         description: `Remedial teachers waarderen de volledige aanpassingsmogelijkheden voor individuele leerplannen. Maak zeer eenvoudige doolhoven met brede paden voor leerlingen met motorische uitdagingen. Verwijder afleidende elementen voor kinderen met aandachtsproblemen. Voeg extra visuele hints toe voor studenten die meer ondersteuning nodig hebben.
 
 De kleurplaten optie werkt therapeutisch voor veel leerlingen met speciale behoeften. Inkleuren kalmeert terwijl het fijne motoriek versterkt. Combineer met beloning systemen waar voltooiing van het doolhof toegang geeft tot kleurtijd. Dit motiveert leerlingen die anders misschien frustreren bij uitdagende puzzels.
@@ -365,7 +398,7 @@ Differentieer je producten door unieke thema's te targeten die onderbedeeld zijn
 
   // FAQ Section
   faq: {
-    sectionTitle: 'Veelgestelde Vragen over Werkbladen Groep 3 Doolhoven en Oefenbladen Gratis Maken',
+    sectionTitle: 'Veelgestelde Vragen over Gratis Werkbladen Doolhof en Werkblad voor Kinderen',
     sectionDescription: 'Leerkrachten en ouders stellen vaak dezelfde vragen over doolhof werkbladen maken. Deze FAQ sectie behandelt de meest voorkomende onderwerpen over prijzen, gebruik in de klas, aanpassingsmogelijkheden en integratie met andere leerdoelen.',
     showMoreText: 'Meer vragen tonen',
     showLessText: 'Minder tonen',
@@ -377,17 +410,17 @@ Differentieer je producten door unieke thema's te targeten die onderbedeeld zijn
     items: [
       {
         id: '1',
-        question: 'Is Deze Doolhof Generator Echt Gratis - Oefenbladen Gratis Maken voor Werkbladen Kleuters?',
+        question: 'Is Deze Doolhof Generator voor Gratis Werkblad voor Kinderen en Werkblad voor Kleuters?',
         answer: 'De doolhof generator vereist een Volledige Toegang abonnement dat €240 per jaar kost of €25 per maand. Je abonnement geeft je onbeperkte doolhof creatie zonder per-werkblad kosten. Genereer zoveel werkbladen groep 3 en werkbladen kleuters als je nodig hebt zonder extra betalingen. Eén abonnementskosten dekt alles inclusief downloads, commerciële licentie en 11 talen. Volledige Toegang bevat alle 33 werkblad generators op het platform. Doolhof is één van 23 premium apps beschikbaar alleen met Volledige Toegang.',
       },
       {
         id: '2',
-        question: 'Kan Ik Werkbladen Groep 3 Doolhoven Printen op Mijn Thuisprinter?',
+        question: 'Kan Ik Gratis Werkbladen Doolhoven Printen op Mijn Thuisprinter?',
         answer: 'Ja. Alle doolhof werkbladen downloaden als standaard PDF of JPEG bestanden die perfect printen op elke thuisprinter. Brief formaat past op Noord-Amerikaanse printers terwijl A4 formaat ideaal is voor Europese printers. De 300 DPI resolutie zorgt voor scherpe lijnen en leesbare tekst op gewoon printerpapier. Kies grijswaarden optie in download menu om kleurinkt te besparen. Zwart-wit doolhoven blijven volledig functioneel en duidelijk zichtbaar.',
       },
       {
         id: '3',
-        question: 'Heb Ik Ontwerpvaardigheden Nodig voor Kleurplaten en Fijne Motoriek Werkbladen?',
+        question: 'Heb Ik Ontwerpvaardigheden Nodig voor Gratis Printables en Werkblad voor Kinderen?',
         answer: 'Nee. De doolhof generator is ontworpen voor leerkrachten zonder technische of ontwerpervaring. Klik gewoon je opties, klik genereer en je werkblad verschijnt automatisch. De software handelt alle complexe layout en doolhof algoritmes af. Je hoeft alleen plaatjes te kiezen en basis instellingen aan te passen. De volledige canvas bewerkbaarheid is intuïtief met sleep-en-neerzet controls.',
       },
       {
@@ -402,17 +435,17 @@ Differentieer je producten door unieke thema's te targeten die onderbedeeld zijn
       },
       {
         id: '6',
-        question: 'Kan Ik Sommen Tot 20 en Oefenbladen Gratis Verkopen die Ik Maak?',
+        question: 'Kan Ik Gratis Werkblad voor Kinderen en Printables Verkopen die Ik Maak?',
         answer: 'Ja. Volledige Toegang abonnement bevat volledige print-on-demand commerciële licentie zonder extra kosten. Verkoop onbeperkte werkbladen op onderwijsplatforms of eigen website. Geen royalty betalingen of attribuut vereist. 100% van je verkoopprijs is jouw winst. Veel leerkrachten verdienen €500-€2000 per maand met sommen tot 20 en tafels oefenen werkbladen bundels.',
       },
       {
         id: '7',
-        question: 'Hoe Pas Ik Werkbladen Kleuters Aan voor Verschillende Fijne Motoriek Niveaus?',
+        question: 'Hoe Pas Ik Gratis Werkblad voor Kleuters Aan voor Verschillende Niveaus?',
         answer: 'Elk element is volledig bewerkbaar na generatie. Vergroot paden voor werkbladen kleuters met beginnende fijne motoriek vaardigheden. Maak routes breder en rechter voor 4-5 jarigen die net leren een potlood te volgen. Voeg meer bochten toe voor gevorderde groep 1 2 leerlingen die complexere trajecten aankunnen. Pas rastergrootte aan om moeilijkheid te veranderen.',
       },
       {
         id: '8',
-        question: 'Voor Welke Leeftijden Werken Deze Rekenen Werkbladen en Kleurplaten het Beste?',
+        question: 'Voor Welke Leeftijden Werken Gratis Werkbladen voor Kinderen het Beste?',
         answer: 'Doolhof werkbladen zijn geschikt voor 4-10 jarigen afhankelijk van complexiteit. Simpele plaatjes pad werkbladen werken perfect voor kleutergroep 1 2 (4-6 jarigen). Klassieke doolhoven passen bij groep 3-5 (6-10 jarigen). Kies-het-juiste-pad modus daagt zelfs oudere leerlingen uit. Combineer met rekenen werkbladen content voor groep 3-5 wiskundelessen.',
       },
       {
@@ -493,7 +526,7 @@ Differentieer je producten door unieke thema's te targeten die onderbedeeld zijn
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Combineer Doolhoven met Andere Oefenbladen Gratis - Complete Werkbladen Groep 3 Lespakketten',
+    sectionTitle: 'Combineer Doolhoven met Gratis Werkblad - Complete Werkbladen voor Kinderen Lespakketten',
     sectionDescription: 'Het platform biedt 33 verschillende werkblad generators voor complete curriculum dekking. Combineer doolhof werkbladen met andere werkblad types voor geïntegreerde lespakketten. Leerkrachten maken wekelijkse bundels die meerdere vaardigheden oefenen in samenhangende thematische sets.',
     ctaTitle: 'Klaar om geweldige werkbladen te maken?',
     ctaDescription: 'Sluit je aan bij duizenden leerkrachten die professionele werkbladen maken. Onbeperkt genereren, commerciële licentie inbegrepen.',

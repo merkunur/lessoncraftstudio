@@ -27,22 +27,54 @@ export const moreLessNlContent: ProductPageContent = {
   seo: {
     slug: 'meer-minder-werkbladen',
     appId: 'more-less',
-    title: 'Rekenen Werkbladen Meer Minder - Oefenbladen Gratis Groep 3 Werkbladen Kleuters',
-    description: 'Maak professionele rekenbladen voor vergelijkingen in enkele minuten. Met je Volledige Toegang abonnement maak je onbeperkt werkbladen meer minder zonder extra kosten per werkblad. Genereer werkbladen groep 3 en werkbladen kleuters voor het oefenen van groter dan, kleiner dan en gelijk aan.',
-    keywords: 'rekenen werkbladen, meer minder werkbladen, werkbladen groep 3, werkbladen kleuters, oefenbladen gratis, sommen tot 20, tafels oefenen, fijne motoriek, veilig leren lezen, kleurplaten',
+    title: 'Gratis Werkblad Meer Minder | Werkbladen voor Kleuters en Groep 3',
+    description: 'Maak gratis werkbladen meer minder voor kleuters en groep 3. Professionele 300 DPI kwaliteit. Download in minder dan 3 minuten.',
+    keywords: 'meer minder werkbladen, gratis werkblad, werkblad voor kinderen, werkblad voor kleuters, gratis printables, gratis werkbladen, rekenen werkbladen',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/meer-minder-werkbladen',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/dutch/more-less/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis werkblad meer minder - werkbladen groep 3 vergelijken oefenbladen'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/dutch/more-less/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis werkbladen meer minder - werkblad voor kleuters rekenen'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/dutch/more-less/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis printables meer minder - werkblad voor kinderen vergelijkingen'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/dutch/more-less/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Werkblad voor kinderen meer minder - gratis werkblad rekenen groep 3'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/dutch/more-less/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Werkblad voor kleuters meer minder - gratis werkbladen vergelijken'
+      },
+    ],
   },
 
   // Hero Section - FULL text from more-less.md paragraphs 1-3
   hero: {
-    title: 'Rekenen Werkbladen Meer Minder',
-    subtitle: 'Oefenbladen Gratis Groep 3 Werkbladen Kleuters',
+    title: 'Gratis Werkblad Meer Minder - Werkblad voor Kinderen',
+    subtitle: 'Gratis Printables en Werkblad voor Kleuters - Gratis Werkbladen Generator',
     description: `Maak professionele rekenbladen voor vergelijkingen in enkele minuten. Met je Volledige Toegang abonnement maak je onbeperkt werkbladen meer minder zonder extra kosten per werkblad. Genereer werkbladen groep 3 en werkbladen kleuters voor het oefenen van groter dan, kleiner dan en gelijk aan. Download hoogwaardige PDF-werkbladen in minder dan 3 minuten.
 
 Onze werkbladgenerator meer minder helpt leerkrachten bij het maken van rekenen werkbladen voor het vergelijken van getallen. Perfect voor groep 1 2 en groep 3 leerlingen die leren tellen en vergelijken. Elk werkblad is volledig aanpasbaar op het canvas. Sleep afbeeldingen, roteer objecten en pas alles aan voor jouw klas. De generator maakt automatisch zowel werkbladen als antwoordsleutels.
 
 Dit gereedschap is ideaal voor basisonderwijs leerkrachten die sommen tot 20 oefenen met jonge leerlingen. Kies uit meer dan 3000 kindvriendelijke afbeeldingen georganiseerd per thema. Gebruik onze vooraf geselecteerde afbeeldingen of upload je eigen foto's. Alle werkbladen downloaden in 300 DPI professionele kwaliteit. Perfect voor printen thuis of op school. Combineer met andere oefenbladen gratis op ons platform voor complete leerpakketten.`,
-    previewImageSrc: '/samples/english/more less/image to image.jpeg',
+    previewImageSrc: '/samples/dutch/more-less/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Gratis Uitproberen',
       viewSamples: 'Voorbeelden Bekijken',
@@ -61,9 +93,9 @@ Dit gereedschap is ideaal voor basisonderwijs leerkrachten die sommen tot 20 oef
     },
   },
 
-  // Sample Gallery - REAL file paths from samples/english/more less/
+  // Sample Gallery - REAL file paths from samples/dutch/more-less/
   samples: {
-    sectionTitle: 'Meer Minder Werkbladen Voorbeelden',
+    sectionTitle: 'Gratis Werkbladen Meer Minder Voorbeelden - Werkblad voor Kinderen',
     sectionDescription: 'Download gratis voorbeeldwerkbladen om onze professionele kwaliteit te ervaren',
     downloadLabel: 'Gratis Voorbeeld Downloaden',
     worksheetLabel: 'Werkblad',
@@ -77,31 +109,45 @@ Dit gereedschap is ideaal voor basisonderwijs leerkrachten die sommen tot 20 oef
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/more less/image to image.jpeg',
-        answerKeySrc: '/samples/english/more less/image to image answer_key.jpeg',
-        altText: 'Meer minder werkblad afbeelding naar afbeelding voor werkbladen groep 3',
-        pdfDownloadUrl: '/samples/english/more less/image to image.pdf',
+        worksheetSrc: '/samples/dutch/more-less/sample-1.jpeg',
+        answerKeySrc: '/samples/dutch/more-less/sample-1-answer.jpeg',
+        altText: 'Gratis werkblad meer minder - werkblad voor kinderen vergelijken groep 3',
+        pdfDownloadUrl: '/samples/dutch/more-less/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/more less/image to number.jpeg',
-        answerKeySrc: '/samples/english/more less/image to number answer_key.jpeg',
-        altText: 'Meer minder werkblad afbeelding naar getal voor sommen tot 20',
-        pdfDownloadUrl: '/samples/english/more less/image to number.pdf',
+        worksheetSrc: '/samples/dutch/more-less/sample-2.jpeg',
+        answerKeySrc: '/samples/dutch/more-less/sample-2-answer.jpeg',
+        altText: 'Gratis werkbladen meer minder - werkblad voor kleuters rekenen oefenen',
+        pdfDownloadUrl: '/samples/dutch/more-less/sample-2.pdf',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/more less/illustration.jpeg',
-        answerKeySrc: '/samples/english/more less/illustration answer_key.jpeg',
-        altText: 'Meer minder werkblad met illustraties voor werkbladen kleuters',
-        pdfDownloadUrl: '/samples/english/more less/illustration.pdf',
+        worksheetSrc: '/samples/dutch/more-less/sample-3.jpeg',
+        answerKeySrc: '/samples/dutch/more-less/sample-3-answer.jpeg',
+        altText: 'Gratis printables meer minder - werkblad voor kinderen vergelijkingen',
+        pdfDownloadUrl: '/samples/dutch/more-less/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/dutch/more-less/sample-4.jpeg',
+        answerKeySrc: '/samples/dutch/more-less/sample-4-answer.jpeg',
+        altText: 'Werkblad voor kinderen meer minder - gratis werkblad rekenen kleuters',
+        pdfDownloadUrl: '/samples/dutch/more-less/sample-4.pdf',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/dutch/more-less/sample-5.jpeg',
+        answerKeySrc: '/samples/dutch/more-less/sample-5-answer.jpeg',
+        altText: 'Werkblad voor kleuters meer minder - gratis werkbladen vergelijken',
+        pdfDownloadUrl: '/samples/dutch/more-less/sample-5.pdf',
       },
     ],
   },
 
   // Features Grid - FULL text from more-less.md feature sections
   features: {
-    sectionTitle: 'Rekenen Werkbladen Meer Minder Functies - Alles Voor Werkbladen Groep 3 en Oefenbladen Gratis',
+    sectionTitle: 'Functies - Gratis Werkblad Generator voor Werkblad voor Kleuters',
     sectionDescription: 'Onze werkbladgenerator biedt alle functies die leerkrachten nodig hebben. Maak rekenen werkbladen in enkele klikken. Pas alles aan op het canvas. Upload eigen afbeeldingen voor gepersonaliseerde lessen. Ondersteunt 11 talen voor meertalig onderwijs. Inclusief commerciële licentie voor verkoop op platforms. Toegang tot 3000+ afbeeldingen in de bibliotheek. Download in professionele 300 DPI kwaliteit. Elk werkblad is uniek aanpasbaar voor jouw leerlingen.',
     highlightBadgeText: 'Uitgelicht',
     readMoreLabel: 'Lees meer',
@@ -116,7 +162,7 @@ Dit gereedschap is ideaal voor basisonderwijs leerkrachten die sommen tot 20 oef
       {
         id: '1',
         icon: '⚡',
-        title: 'Maak Werkbladen Groep 3 in 3 Klikken - Snelle Rekenen Werkbladen Genereren Sommen Tot 20',
+        title: 'Gratis Werkblad Maken in 3 Klikken - Werkblad voor Kinderen Snel Genereren',
         description: `Genereer werkbladen meer minder in drie eenvoudige stappen. Klik eerst op een thema of selecteer individuele afbeeldingen. Kies vervolgens het aantal oefeningen tussen 1 en 8. Klik daarna op Maken en je werkblad verschijnt direct. Geen ingewikkelde instellingen. Geen technische kennis vereist. Perfekt voor drukke leerkrachten die snel rekenen werkbladen nodig hebben.
 
 De generator maakt automatisch een antwoordsleutel. Beide downloaden als aparte bestanden. Ideaal voor groep 3 leerlingen die net beginnen met vergelijkingen. Ook perfect voor werkbladen kleuters die visueel leren tellen. Elk werkblad toont duidelijke afbeeldingen met vergelijkingssymbolen. Kies tussen illustraties of normale symbolen groter dan, kleiner dan en gelijk aan.
@@ -127,7 +173,7 @@ Pas het aantal objecten aan van 1 tot 20. Perfect voor sommen tot 20 die in groe
       {
         id: '2',
         icon: '✏️',
-        title: 'Bewerk Alles Op Het Canvas - Volledig Aanpasbare Oefenbladen Gratis Voor Werkbladen Kleuters',
+        title: 'Gratis Printables Bewerken - Werkblad voor Kleuters Volledig Aanpasbaar',
         description: `Elk element op het werkblad is bewerkbaar. Sleep afbeeldingen naar nieuwe posities. Roteer objecten met je muis. Schaal groter of kleiner voor betere opmaak. Verwijder elementen die je niet nodig hebt. Voeg extra tekst toe voor instructies. Wijzig kleuren van tekst en achtergronden. Pas alles aan voordat je downloadt.
 
 Deze volledige bewerkbaarheid maakt elk werkblad uniek. Ideaal voor gedifferentieerd onderwijs. Maak gemakkelijkere versies voor sommige leerlingen. Maak uitdagendere versies voor anderen. Voeg naam en datum velden toe bovenaan. Nummering van oefeningen is optioneel. Alles aanpasbaar voor jouw klasbehoeften.
@@ -138,7 +184,7 @@ De canvas editor werkt intuïtief. Klik om te selecteren. Sleep om te verplaatse
       {
         id: '3',
         icon: '📤',
-        title: 'Upload Eigen Afbeeldingen - Personaliseer Rekenen Werkbladen Met Fijne Motoriek Oefeningen en Kleurplaten',
+        title: 'Gratis Werkbladen Personaliseren - Upload Eigen Afbeeldingen',
         description: `Upload je eigen foto's en afbeeldingen voor gepersonaliseerde werkbladen. Ondersteunt JPEG PNG en GIF formaten. Upload meerdere bestanden tegelijk. Combineer geüploade afbeeldingen met bibliotheek afbeeldingen. Perfect voor klasfoto's of thema's die specifiek zijn voor jouw school.
 
 Gebruik foto's van leerlingen voor extra betrokkenheid. Upload afbeeldingen uit jouw lesmethode. Voeg logo's toe van je school. Maak werkbladen die aansluiten bij lopende projecten. Upload tekeningen gemaakt door leerlingen voor kleurplaten gecombineerd met telactiviteiten. Combineer fijne motoriek oefeningen met vergelijkingsopdrachten door eigen lijntekeningen te uploaden.
@@ -149,7 +195,7 @@ Alle geüploade afbeeldingen blijven beschikbaar tijdens je sessie. Sleep ze dir
       {
         id: '4',
         icon: '🌍',
-        title: '11 Talen Ondersteuning - Veilig Leren Lezen en Letters Leren Schrijven Oefenen in Meerdere Talen',
+        title: 'Werkblad voor Kinderen in 11 Talen - Gratis Werkblad Meertalig',
         description: `De werkbladgenerator ondersteunt 11 talen volledig. Nederlands Engels Duits Frans Spaans Portugees Italiaans Zweeds Deens Noors en Fins. Wissel tussen talen met één klik. Alle interface elementen vertalen automatisch. Alle afbeeldingsbestandsnamen zijn meertalig voor taalgebaseerde apps.
 
 Deze meertalige ondersteuning is essentieel voor internationaal onderwijs. Perfect voor internationale scholen in Nederland. Ideaal voor tweetalig onderwijs programma's. Maak werkbladen in de moedertaal van leerlingen. Ondersteun nieuwkomers met werkbladen in hun eigen taal. Combineer met veilig leren lezen materialen voor beginnende lezers.
@@ -160,7 +206,7 @@ Gebruik de generator voor letters leren in elke ondersteunde taal. Maak vergelij
       {
         id: '5',
         icon: '💼',
-        title: 'Commerciële Licentie Inbegrepen - Verkoop Jouw Rekenen Werkbladen en Oefenbladen Gratis Op Platforms',
+        title: 'Gratis Werkbladen Verkopen - Commerciële Licentie Inbegrepen',
         description: `Volledige Toegang abonnement bevat volledige commerciële print-on-demand licentie. Geen extra kosten voor zakelijk gebruik. Verkoop je werkbladen op Teachers Pay Teachers Etsy en andere platforms. Geen naamsvermelding vereist. Perfect voor leerkrachten die extra inkomen willen verdienen.
 
 De POD-licentie geeft je volledige commerciële rechten. Maak werkbladenpakketten voor verkoop. Bundel rekenen werkbladen met andere vakgebieden. Creëer seizoensgebonden collecties. Verkoop aan andere leerkrachten wereldwijd. Veel gebruikers verdienen 500 tot 5000 euro per maand met werkbladenverkoop.
@@ -171,7 +217,7 @@ Upload naar Amazon KDP voor werkboeken met lage inhoud. Maak Etsy-shops voor dir
       {
         id: '6',
         icon: '🎨',
-        title: '3000+ Afbeeldingen Bibliotheek - Werkbladen Groep 3 Met Thematische Kleurplaten Voor Elke Les',
+        title: 'Werkblad voor Kleuters met 3000+ Afbeeldingen - Gratis Printables',
         description: `Toegang tot meer dan 3000 kindvriendelijke afbeeldingen. Georganiseerd per thema voor gemakkelijke selectie. Dieren transport voedsel seizoenen en veel meer. Elke afbeelding zorgvuldig geselecteerd voor jonge leerlingen. Kleurrijk en aantrekkelijk voor groep 1 2 en groep 3.
 
 Blader door thema's in de afbeeldingendictionary. Klik op afbeeldingen om ze te selecteren. Selecteer 1 tot 5 afbeeldingen voor individuele modus. Of kies een thema voor willekeurige selectie. De generator kiest automatisch geschikte afbeeldingen uit het thema. Consistente stijl op elk werkblad.
@@ -182,7 +228,7 @@ Alle afbeeldingen zijn vectorgebaseerd of hoge resolutie. Schaal zonder kwalitei
       {
         id: '7',
         icon: '🖨️',
-        title: 'Professionele 300 DPI Kwaliteit - Tafels Oefenen en Sommen Tot 20 In Hoge Resolutie Printen',
+        title: 'Gratis Werkblad 300 DPI - Werkblad voor Kinderen Professioneel',
         description: `Download alle werkbladen in 300 DPI professionele kwaliteit. Perfect voor printen thuis op gewone printers. Ideaal voor schoolprinters. Scherpe lijnen en duidelijke afbeeldingen. Tekst blijft leesbaar bij elk formaat. Professioneel uiterlijk dat ouders waarderen.
 
 Kies tussen PDF en JPEG formaten. PDF voor meerdere pagina's in één bestand. JPEG voor enkele pagina's en snelle previews. Beide formaten behouden volledige kwaliteit. Grijswaardenmodus beschikbaar om inkt te besparen. Perfect voor thuisprinten waar inktkosten belangrijk zijn.
@@ -193,7 +239,7 @@ De hoge resolutie ondersteunt ook zakelijk gebruik. Verkoop werkbladen met vertr
       {
         id: '8',
         icon: '🎯',
-        title: 'Automatische Antwoordsleutels - Nakijken in Seconden',
+        title: 'Gratis Werkbladen met Antwoordsleutels - Werkblad voor Kleuters',
         description: `Antwoordsleutels worden automatisch gegenereerd in dezelfde kwaliteit. De generator maakt direct een oplossing pagina voor elk werkblad. De sleutel toont de juiste vergelijkingssymbolen voor elke oefening. Download werkblad en antwoordsleutel tegelijk voor complete materialen.
 
 Bewaar de antwoordsleutel voor snel nakijken. Print werkbladen in bulk voor de hele klas groep 3. De antwoordsleutel ondersteunt zelfcorrectie voor zelfstandig werken. Oudere leerlingen kunnen hun eigen werk nakijken. Dit bevordert metacognitie en zelfreflectie.
@@ -206,7 +252,7 @@ Voor commerciële verkoop bied aparte antwoordsleutels aan. Verkoop werkblad en 
 
   // How-To Guide - FULL text from more-less.md step sections
   howTo: {
-    sectionTitle: 'Hoe Maak Je Rekenen Werkbladen en Oefenbladen Gratis in 5 Eenvoudige Stappen Voor Werkbladen Kleuters',
+    sectionTitle: 'Gratis Printables Maken in 5 Stappen - Werkblad voor Kinderen Meer Minder',
     sectionDescription: 'Maak professionele vergelijkingswerkbladen in minder dan 3 minuten. Deze handleiding laat zien hoe je snel werkbladen groep 3 en werkbladen kleuters maakt. Geen technische vaardigheden nodig. Volg gewoon deze vijf stappen. Elk werkblad is uniek en volledig aanpasbaar. Perfect voor drukke leerkrachten die direct bruikbare rekenen werkbladen nodig hebben. Combineer met kleurplaten en fijne motoriek oefeningen voor complete lespakketten.',
     ctaText: 'Nu Starten',
     badgeText: 'Zo werkt het',
@@ -294,7 +340,7 @@ Combineer met andere oefenbladen gratis van ons platform. Print rekenen werkblad
 
   // Use Cases - FULL text from more-less.md use case sections
   useCases: {
-    sectionTitle: 'Perfect Voor Leerkrachten en Ouders - Werkbladen Kleuters en Rekenen Werkbladen Voor Elke Behoefte',
+    sectionTitle: 'Gratis Werkbladen voor Leerkrachten - Werkblad voor Kleuters en Kinderen',
     sectionDescription: 'Onze werkbladgenerator helpt verschillende soorten leerkrachten en ouders. Van groep 1 2 tot groep 3 en hoger. Van thuisonderwijs tot speciale educatie. Iedereen vindt passende toepassingen. Maak werkbladen die precies aansluiten bij jouw situatie. Combineer met kleurplaten fijne motoriek oefeningen en veilig leren lezen materialen. Elk gebruikerstype heeft unieke behoeften. Deze generator voldoet aan allemaal.',
     badgeText: 'Voor wie',
     readMoreLabel: 'Lees meer',
@@ -389,7 +435,7 @@ Combineer vergelijkingswerkbladen met tafels oefenen materialen voor gevorderde 
 
   // FAQ Section - FULL FAQs from more-less.md
   faq: {
-    sectionTitle: 'Veelgestelde Vragen Over Rekenen Werkbladen en Oefenbladen Gratis Voor Werkbladen Groep 3',
+    sectionTitle: 'Veelgestelde Vragen - Gratis Werkblad Meer Minder voor Kleuters',
     sectionDescription: 'Veel leerkrachten en ouders hebben vragen over onze werkbladgenerator. Deze sectie beantwoordt de meest voorkomende vragen. Van prijzen tot technische details. Van gebruik in de klas tot commerciële verkoop. Alles wat je moet weten over werkbladen kleuters en werkbladen groep 3 maken. Lees verder voor duidelijke antwoorden op al je vragen over rekenen werkbladen en oefenbladen gratis.',
     showMoreText: 'Meer vragen tonen',
     showLessText: 'Minder tonen',
@@ -401,62 +447,62 @@ Combineer vergelijkingswerkbladen met tafels oefenen materialen voor gevorderde 
     items: [
       {
         id: '1',
-        question: 'Is Deze Rekenen Werkbladen Generator Echt Gratis Te Gebruiken Voor Werkbladen Kleuters?',
+        question: 'Is Dit Gratis Werkblad Generator Echt Gratis Te Gebruiken Voor Werkblad voor Kleuters?',
         answer: 'De werkbladgenerator vereist een Volledige Toegang abonnement van 240 euro per jaar of 25 euro per maand. Je abonnement geeft onbeperkte werkbladen meer minder creatie zonder kosten per werkblad. Genereer zoveel werkbladen groep 3 en werkbladen kleuters als je nodig hebt zonder extra kosten. Download onbeperkt rekenen werkbladen zonder per-download vergoedingen. Volledige Toegang bevat alle 33 werkbladgenerators op het platform. Maak niet alleen vergelijkingswerkbladen maar ook kleurplaten tafels oefenen materialen en veel meer. Het abonnement bevat ook commerciële licentie 11 talen ondersteuning en professionele 300 DPI kwaliteit exports. Geen verborgen kosten. Geen per-werkblad vergoedingen. Eén vast jaarlijks bedrag voor onbeperkte creatie. Vergeleken met concurrenten die per werkblad rekenen of per afbeelding is dit enorme waarde. Maak 10 werkbladen per week en je bespaart honderden euro\'s per jaar. De investering betaalt zichzelf terug na enkele weken gebruik. Perfect voor leerkrachten die regelmatig nieuwe oefenbladen gratis nodig hebben voor hun klas.',
       },
       {
         id: '2',
-        question: 'Kan Ik Werkbladen Groep 3 Thuis Printen Op Een Gewone Printer Voor Sommen Tot 20?',
+        question: 'Kan Ik Gratis Werkbladen Thuis Printen Op Een Gewone Printer?',
         answer: 'Absoluut. Alle werkbladen downloaden in 300 DPI professionele kwaliteit. Perfect voor gewone thuisprinters. Zowel inkjet als laserprinters werken uitstekend. Print op standaard A4 papier verkrijgbaar in elke winkel. Geen speciale instellingen vereist. Gewoon downloaden en printen zoals elk PDF bestand. De grijswaarden modus bespaart aanzienlijk inkt. Converteert alle kleuren naar zwart-wit tinten. Perfect voor werkbladen groep 3 waar kleur niet essentieel is. Sommen tot 20 oefenbladen printen prima in zwart-wit. Bespaar tot 70 procent op inktkosten met deze functie. Ideaal voor thuisonderwijs families die veel printen. Schoolprinters werken ook perfect. Print meerdere exemplaren voor de hele klas. Een werkblad design printen 30 keer voor 30 leerlingen. Geen kwaliteitsverlies bij massaprint. Tekst blijft scherp. Afbeeldingen blijven duidelijk. Symbolen blijven leesbaar. Professioneel uiterlijk dat ouders en administrators waarderen.',
       },
       {
         id: '3',
-        question: 'Heb Ik Design Vaardigheden Nodig Om Kleurplaten en Fijne Motoriek Werkbladen Kleuters Te Maken?',
+        question: 'Heb Ik Design Vaardigheden Nodig Om Gratis Printables en Werkblad voor Kinderen Te Maken?',
         answer: 'Helemaal niet. De generator is ontworpen voor niet-technische gebruikers. Geen design ervaring vereist. Geen grafische kennis nodig. Drie klikken en je werkblad is klaar. Selecteer afbeeldingen. Kies instellingen. Klik maken. Zo eenvoudig is het voor werkbladen kleuters en fijne motoriek oefeningen. Als je wilt aanpassen is dat ook eenvoudig. Klik en sleep interface werkt intuïtief. Selecteer objecten door erop te klikken. Sleep om te verplaatsen. Geen complexe gereedschappen. Geen ingewikkelde menu\'s. Alles werkt zoals je verwacht. Perfect voor drukke leerkrachten zonder tijd voor technische tutorials. De automatische generatie plaatst alles netjes. Afbeeldingen uitgelijnd in rijen. Symbolen gecentreerd tussen groepen. Naam velden bovenaan gepositioneerd. Oefening nummers links uitgelijnd. Professionele layout zonder enige inspanning. Gebruik het direct of pas licht aan. Jouw keuze. Beide opties zijn eenvoudig voor kleurplaten en fijne motoriek werkbladen maken.',
       },
       {
         id: '4',
-        question: 'Kan Ik Rekenen Werkbladen Gebruiken In Mijn Klas Voor Veilig Leren Lezen Integratie?',
+        question: 'Kan Ik Gratis Werkblad Gebruiken In Mijn Klas Voor Werkblad voor Kleuters?',
         answer: 'Volledige Toegang abonnement bevat onbeperkt klasgebruik. Print zoveel exemplaren als je nodig hebt. Gebruik met alle leerlingen in je klas. Geen limieten op aantal leerlingen. Geen extra kosten per kind. Perfect voor groep 1 2 en groep 3 klassen van elke grootte. Combineer vergelijkingswerkbladen met veilig leren lezen principes. Gebruik visuele ondersteuning voor taalonafhankelijk begrip. Voeg tekstlabels toe aan afbeeldingen voor woordenschat ontwikkeling. Integreer rekenen met beginnende geletterdheid. Leerlingen ontwikkelen beide vaardigheden simultaan. Perfect voor holistische onderwijsbenaderingen. Deel werkbladen ook met collega\'s op je school. Je abonnement dekt persoonlijk gebruik. Maak werkbladen en deel met je team. Print in de lerarenkamer voor alle groep 3 leerkrachten. Deel digitaal via email. Samenwerking wordt aangemoedigd. Geen beperkingen op delen binnen je school voor veilig leren lezen integratie.',
       },
       {
         id: '5',
-        question: 'In Welke Talen Zijn Werkbladen Kleuters en Letters Leren Schrijven Oefenen Beschikbaar?',
+        question: 'In Welke Talen Zijn Werkblad voor Kinderen en Gratis Werkbladen Beschikbaar?',
         answer: 'De werkbladgenerator ondersteunt 11 talen volledig. Nederlands Engels Duits Frans Spaans Portugees Italiaans Zweeds Deens Noors en Fins. Alle interface elementen vertalen automatisch. Alle afbeeldingsbestandsnamen zijn meertalig. Perfect voor internationaal onderwijs en tweetalige programma\'s met letters leren integratie. Wissel tussen talen met één klik. Maak werkbladen kleuters in Nederlands voor lokale leerlingen. Wissel naar Engels voor internationale studenten. Wissel naar Frans voor tweetalig programma. Alles binnen hetzelfde abonnement. Geen extra kosten per taal. Enorme waarde voor meertalige scholen die schrijven oefenen in meerdere talen aanbieden. De meertalige ondersteuning is essentieel voor ESL leerkrachten. Maak vergelijkingswerkbladen in de moedertaal van leerlingen. Verminder cognitieve belasting tijdens wiskundige concepten leren. Combineer met letters leren materialen voor volledige taalontwikkeling. Ondersteun nieuwkomers met bekend interface terwijl ze Nederlandse inhoud leren via schrijven oefenen activiteiten.',
       },
       {
         id: '6',
-        question: 'Kan Ik Kleurplaten en Tafels Oefenen Werkbladen Verkopen Die Ik Maak Met Deze Generator?',
+        question: 'Kan Ik Gratis Printables en Werkblad voor Kinderen Verkopen Die Ik Maak?',
         answer: 'Ja. Volledige Toegang abonnement bevat volledige commerciële print-on-demand licentie zonder extra kosten. Verkoop je werkbladen op Teachers Pay Teachers Etsy Amazon KDP en andere platforms. Geen naamsvermelding vereist. Geen royalty betalingen. Alle rechten inbegrepen in je 240 euro jaarlijkse abonnement voor kleurplaten en tafels oefenen bundels. Maak werkbladenbundels voor verkoop. Combineer vergelijkingswerkbladen met kleurplaten. Voeg tafels oefenen materialen toe voor gevorderde pakketten. Maak seizoensgebonden collecties. Verkoop als digitale downloads. Verdien passief inkomen terwijl je slaapt. Veel gebruikers verdienen 500 tot 5000 euro maandelijks met werkbladenverkoop. De commerciële licentie dekt alle verkoopmethoden. Online verkoop via Etsy. Platform verkoop via Teachers Pay Teachers. Print-on-demand via Amazon KDP. Abonnementsmodellen voor wekelijkse content. Alles toegestaan. Bouw een duurzame online business. Gebruik dezelfde werkbladen in je klas en verkoop aan anderen. Dubbele waarde uit elk werkblad voor tafels oefenen en kleurplaten.',
       },
       {
         id: '7',
-        question: 'Hoe Pas Ik Werkbladen Groep 3 Aan Voor Fijne Motoriek en Sommen Tot 20 Behoeften?',
+        question: 'Hoe Pas Ik Gratis Werkblad Aan Voor Werkblad voor Kleuters Behoeften?',
         answer: 'Elke element op het werkblad is volledig aanpasbaar. Klik om te selecteren. Sleep om te verplaatsen. Roteer door handvatten te slepen. Schaal groter of kleiner. Verwijder onnodige elementen. Voeg extra tekst toe. Wijzig kleuren en lettertypen. Volledige controle over elke pixel voor werkbladen groep 3 en fijne motoriek aanpassingen. Voor sommen tot 20 aanpassingen wijzig je gewoon het aantal objecten. Verhoog of verlaag aantallen per oefening. Kies tussen 1 en 20 objecten. Pas moeilijkheid aan voor individuele leerlingen. Maak gemakkelijkere versies voor leerlingen die worstelen. Maak uitdagender versies voor gevorderde leerlingen. Perfect voor gedifferentieerd onderwijs. Voor fijne motoriek integratie voeg je kleurplaten elementen toe. Laat leerlingen objecten inkleuren na vergelijken. Upload eigen lijntekeningen voor traceer activiteiten. Combineer vergelijken met schrijven door naam velden toe te voegen. Integreer meerdere vaardigheden in één werkblad. Dit maximaliseert leerwaarde en minimaliseert printen voor sommen tot 20 en fijne motoriek ontwikkeling.',
       },
       {
         id: '8',
-        question: 'Voor Welke Leeftijdsgroepen Werken Deze Rekenen Werkbladen en Veilig Leren Lezen Combinaties Het Beste?',
+        question: 'Voor Welke Leeftijdsgroepen Werken Gratis Werkbladen en Werkblad voor Kinderen Het Beste?',
         answer: 'Werkbladen meer minder werken het beste voor leeftijden 4 tot 9 jaar. Groep 1 2 kleuters beginnen met eenvoudige vergelijkingen tot 5. Groep 3 leerlingen oefenen complexere vergelijkingen tot 20. Oudere leerlingen in groep 4 en 5 gebruiken ze voor snelle opfrissing. Zeer aanpasbaar voor verschillende ontwikkelingsniveaus en veilig leren lezen integratie. Voor de jongste leerlingen gebruik je grote afbeeldingen en weinig oefeningen. 1 tot 3 oefeningen per pagina. Duidelijke visuele scheiding. Veel witruimte. Eenvoudige bekende objecten zoals dieren en speelgoed. De omcirkel modus werkt perfect voor kinderen die nog niet schrijven kunnen. Combineer met veilig leren lezen visuele principes. Voor oudere leerlingen voeg je meer oefeningen toe. 6 tot 8 per pagina. Kleinere afbeeldingen. Complexere vergelijkingen. Afbeelding naar getal modus voor extra uitdaging. Verschillende afbeeldingen verhogen moeilijkheid. Pas aan voor elke leeftijd binnen het spectrum. Van simpel voor kleuters tot complex voor gevorderde leerlingen met rekenen werkbladen en veilig leren lezen combinaties.',
       },
       {
         id: '9',
-        question: 'Kan Ik Eigen Afbeeldingen Uploaden Voor Letters Leren en Schrijven Oefenen Werkbladen Kleuters?',
+        question: 'Kan Ik Eigen Afbeeldingen Uploaden Voor Gratis Printables en Werkblad voor Kleuters?',
         answer: 'Absoluut. Upload onbeperkt eigen foto\'s en afbeeldingen. Ondersteunt JPEG PNG en GIF formaten. Upload meerdere bestanden tegelijk. Combineer je uploads met bibliotheek afbeeldingen. Perfect voor gepersonaliseerde werkbladen kleuters die aansluiten bij je curriculum voor letters leren en schrijven oefenen. Upload foto\'s van leerlingen voor maximale betrokkenheid. Werkbladen met bekende gezichten verhogen motivatie enorm. Upload klasfoto\'s. Upload huisdieren. Upload lokale gebouwen of landmarks. Maak werkbladen relevant voor je specifieke context. Dit is onmogelijk met vooraf gemaakte materialen die schrijven oefenen ondersteunen. Upload ook eigen letterafbeeldingen voor letters leren integratie. Voeg alfabetische thema\'s toe. Upload voorbeelden van correct lettervorming voor schrijven oefenen. Combineer vergelijkingswerkbladen met handschrift ontwikkeling. Integreer meerdere leerdoelen in één activiteit. Dit maximaliseert instructietijd en leerling betrokkenheid voor werkbladen kleuters.',
       },
       {
         id: '10',
-        question: 'Hoe Lang Duurt Het Om Kleurplaten en Tafels Oefenen Werkbladen Te Maken?',
+        question: 'Hoe Lang Duurt Het Om Gratis Werkblad en Werkblad voor Kinderen Te Maken?',
         answer: 'Complete werkbladen maken duurt minder dan 3 minuten van start tot finish. Selecteer afbeeldingen in 30 seconden. Kies instellingen in 30 seconden. Genereer in 5 seconden. Preview en download in 45 seconden. Sneller dan koffie zetten. Perfect voor last-minute lesvoorbereiding van kleurplaten en tafels oefenen materialen. Als je wilt aanpassen voeg je 2 tot 5 minuten toe. Sleep enkele elementen. Voeg tekst toe. Wijzig kleuren. Totaal nog steeds onder 10 minuten. Vergeleken met traditioneel maken dat 30 tot 60 minuten kost is dit revolutionair. Bespaar 20 tot 50 minuten per werkblad. Doe dit 3 keer per week en bespaar meer dan 2 uur wekelijks. Voor bulk creatie maak je meerdere werkbladen in serie. Maak eerste werkblad in 3 minuten. Wijzig enkele instellingen en regenereer voor tweede werkblad in 1 minuut. Herhaal voor derde vierde vijfde werkblad. Maak 5 verschillende werkbladen in 10 minuten totaal. Dit is perfect voor wekelijkse planning waar je kleurplaten en tafels oefenen werkbladen nodig hebt voor elke dag.',
       },
       {
         id: '11',
-        question: 'Bevatten Werkbladen Groep 3 Voor Sommen Tot 20 Antwoordsleutels Voor Veilig Leren Lezen?',
+        question: 'Bevatten Gratis Werkbladen Antwoordsleutels Voor Werkblad voor Kleuters?',
         answer: 'Ja. Elke werkblad generatie maakt automatisch een antwoordsleutel. Beide downloaden als aparte bestanden. Werkblad voor leerlingen toont lege vergelijkingen. Antwoordsleutel toont alle correcte symbolen ingevuld. Perfect voor snel nakijken van werkbladen groep 3 en sommen tot 20 oefeningen. Print werkblad voor leerlingen. Bewaar antwoordsleutel voor jezelf. Of print beide voor zelfcorrigerende activiteiten. Oudere groep 3 leerlingen kunnen zichzelf nakijken. Dit bevordert zelfstandigheid en metacognitie. Leerlingen leren van hun fouten direct. Geen wachten op leerkracht feedback voor veilig leren lezen zelfstandigheid. Antwoordsleutels ondersteunen ook paraprofessionals en vrijwilligers. Klasassistenten kunnen nakijken zonder wiskundige expertise. Ouders kunnen thuiswerk nakijken met vertrouwen. Iedereen heeft de antwoorden beschikbaar. Dit maakt differentiatie en kleine groep instructie praktischer. Meerdere volwassenen kunnen simultaan verschillende groepen ondersteunen met sommen tot 20 werkbladen en veilig leren lezen activiteiten.',
       },
       {
         id: '12',
-        question: 'Kan Ik Werkbladen Kleuters Maken Over Specifieke Schoolvakken Met Fijne Motoriek Integratie?',
+        question: 'Kan Ik Werkblad voor Kinderen Maken Over Specifieke Schoolvakken Met Gratis Printables?',
         answer: 'Absoluut. De thematische organisatie ondersteunt alle schoolvakken. Natuurkunde thema\'s voor science lessen. Dieren voor biologie. Transport voor maatschappijleer. Voedsel voor gezondheid en voeding. Vormen voor geometrie. Seizoenen voor aardrijkskunde. Elk thema integreert wiskunde met andere vakgebieden voor werkbladen kleuters en fijne motoriek ontwikkeling. Upload eigen afbeeldingen voor specifieke curriculum eenheden. Maak vergelijkingswerkbladen over planeten voor ruimte eenheid. Maak werkbladen over historische figuren voor geschiedenis. Maak werkbladen over muziekinstrumenten voor kunst. Onbeperkte mogelijkheden. Integreer wiskunde met elk onderwerp dat je onderwijst met fijne motoriek elementen. Voeg kleurplaten toe na het voltooien van vergelijkingen. Leerlingen inkleuren objecten na tellen. Dit integreert fijne motoriek met wiskundige concepten. Combineer met schrijven door leerlingen objectnamen te laten schrijven. Eén werkblad oefent tellen vergelijken schrijven en inkleuren. Maximale leerwaarde uit minimale printtijd voor werkbladen kleuters met fijne motoriek integratie.',
       },
     ],
@@ -517,7 +563,7 @@ Combineer vergelijkingswerkbladen met tafels oefenen materialen voor gevorderde 
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Top 3 Redenen Waarom Leerkrachten Abonneren - Premium Functies Voor Werkbladen Groep 3 en Werkbladen Kleuters',
+    sectionTitle: 'Gerelateerde Gratis Printables - Werkblad voor Kinderen Rekenen',
     sectionDescription: 'Volledige Toegang abonnement kost 240 euro per jaar of 25 euro per maand. Leerkrachten abonneren om drie overtuigende redenen. Meertalige ondersteuning voor internationaal onderwijs. Commerciële licentie voor extra inkomen. Enorme tijdsbesparing voor drukke leerkrachten. Elk voordeel rechtvaardigt de investering alleen al. Samen maken ze het abonnement onmisbaar. Maak onbeperkt rekenen werkbladen oefenbladen gratis en kleurplaten zonder extra kosten per werkblad.',
     ctaTitle: 'Klaar om geweldige werkbladen te maken?',
     ctaDescription: 'Sluit je aan bij duizenden leerkrachten die professionele werkbladen maken. Onbeperkt genereren, commerciële licentie inbegrepen.',

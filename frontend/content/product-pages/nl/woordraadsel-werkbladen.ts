@@ -29,16 +29,48 @@ export const wordGuessNlContent: ProductPageContent = {
   seo: {
     slug: 'woordraadsel-werkbladen',
     appId: 'word-guess',
-    title: 'Woordraadsel Werkbladen - Oefenbladen Gratis voor Groep 1 2 en Groep 3',
+    title: 'Woordraadsel Werkbladen - Gratis Werkblad voor Kinderen | Werkblad voor Kleuters',
     description: 'Maak professionele woordraadsel werkbladen met onze werkbladen generator. Uw Volledige Toegang abonnement geeft u onbeperkte toegang tot werkbladen maken zonder kosten per werkblad. Genereer aangepaste werkbladen kleuters en werkbladen groep 3 perfect voor letters leren en schrijven oefenen. Download hoogwaardige PDF werkbladen in minder dan 3 minuten.',
     keywords: 'woordraadsel werkbladen, werkbladen groep 3, werkbladen kleuters, oefenbladen gratis, letters leren, schrijven oefenen, veilig leren lezen, fijne motoriek, groep 1 2',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/woordraadsel-werkbladen',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/dutch/word-guess/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Woordraadsel gratis werkblad - werkblad voor kinderen met woordpuzzels voor groep 3',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/dutch/word-guess/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Woordraadsel werkblad voor kleuters - gratis werkbladen met letters leren oefeningen',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/dutch/word-guess/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis werkblad woordraadsel - werkblad voor kinderen met schrijven oefenen',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/dutch/word-guess/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Woordraadsel gratis printables - werkblad voor kleuters met fijne motoriek',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/dutch/word-guess/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis werkbladen woordraadsel - werkblad voor kinderen groep 1 2',
+      },
+    ],
   },
 
   // Hero Section - FULL text from word-guess.md paragraphs 1-4
   hero: {
-    title: 'Woordraadsel Werkbladen',
-    subtitle: 'Oefenbladen Gratis voor Groep 1 2 en Groep 3',
+    title: 'Woordraadsel Generator - Gratis Werkbladen voor Kinderen',
+    subtitle: 'Gratis Werkblad voor Kleuters - Werkblad voor Kinderen met Gratis Printables',
     description: `Maak professionele woordraadsel werkbladen met onze werkbladen generator. Uw Volledige Toegang abonnement geeft u onbeperkte toegang tot werkbladen maken zonder kosten per werkblad. Genereer aangepaste werkbladen kleuters en werkbladen groep 3 perfect voor letters leren en schrijven oefenen. Download hoogwaardige PDF werkbladen in minder dan 3 minuten.
 
 Onze woordraadsel generator is ideaal voor leerkrachten die oefenbladen gratis willen maken. Elke woordraadsel bevat een afbeelding als aanwijzing en lege vakjes voor elke letter. Kinderen moeten het woord raden op basis van de visuele hint. Perfect voor fijne motoriek ontwikkeling en letters leren.
@@ -46,7 +78,7 @@ Onze woordraadsel generator is ideaal voor leerkrachten die oefenbladen gratis w
 De generator ondersteunt Nederlands voor groep 1 2 en groep 3. Kies uit duizenden thema-afbeeldingen of upload uw eigen plaatjes. Pas moeilijkheidsgraad aan van geen aanwijzingen tot gemakkelijk voor jonge leerlingen. Ideaal voor rekenen werkbladen, kleurplaten, veilig leren lezen en sommen tot 20 thema's.
 
 Maak 1 tot 10 woordraadsels per werkblad. Elk raadsel schaalt automatisch voor perfecte pasvorm. Download als PDF of JPEG in 300 DPI kwaliteit. Perfect voor printen thuis of op school. Maak vandaag nog uw eerste werkbladen groep 3 en werkbladen kleuters.`,
-    previewImageSrc: '/samples/english/word guess/clue-grid_worksheet.jpeg',
+    previewImageSrc: '/samples/dutch/word-guess/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Gratis Uitproberen',
       viewSamples: 'Voorbeelden Bekijken',
@@ -67,7 +99,7 @@ Maak 1 tot 10 woordraadsels per werkblad. Elk raadsel schaalt automatisch voor p
 
   // Sample Gallery - REAL file paths from samples/english/word guess/
   samples: {
-    sectionTitle: 'Woordraadsel Voorbeelden',
+    sectionTitle: 'Woordraadsel Voorbeelden - Gratis Werkbladen en Gratis Printables',
     sectionDescription: 'Download gratis voorbeeldwerkbladen om onze professionele kwaliteit te ervaren',
     downloadLabel: 'Gratis Voorbeeld Downloaden',
     worksheetLabel: 'Werkblad',
@@ -81,31 +113,45 @@ Maak 1 tot 10 woordraadsels per werkblad. Elk raadsel schaalt automatisch voor p
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/word guess/clue-grid_worksheet.jpeg',
-        answerKeySrc: '/samples/english/word guess/clue-grid_answer-key.jpeg',
-        altText: 'Woordraadsel werkblad met aanwijzingenraster voor werkbladen groep 3',
-        pdfDownloadUrl: '/samples/english/word guess/clue-grid_worksheet.pdf',
+        worksheetSrc: '/samples/dutch/word-guess/sample-1.jpeg',
+        answerKeySrc: '/samples/dutch/word-guess/sample-1-answer.jpeg',
+        altText: 'Woordraadsel gratis werkblad - werkblad voor kinderen met woordpuzzels groep 3',
+        pdfDownloadUrl: '/samples/dutch/word-guess/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/word guess/landscape.jpeg',
-        answerKeySrc: '/samples/english/word guess/landscape answer-key.jpeg',
-        altText: 'Woordraadsel werkblad liggend formaat voor werkbladen kleuters',
-        pdfDownloadUrl: '/samples/english/word guess/landscape.pdf',
+        worksheetSrc: '/samples/dutch/word-guess/sample-2.jpeg',
+        answerKeySrc: '/samples/dutch/word-guess/sample-2-answer.jpeg',
+        altText: 'Woordraadsel werkblad voor kleuters - gratis werkbladen met letters leren',
+        pdfDownloadUrl: '/samples/dutch/word-guess/sample-2.pdf',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/word guess/custom word list.jpeg',
-        answerKeySrc: '/samples/english/word guess/custom word list answer-key.jpeg',
-        altText: 'Woordraadsel werkblad met eigen woordenlijst voor letters leren',
-        pdfDownloadUrl: '/samples/english/word guess/custom word list.pdf',
+        worksheetSrc: '/samples/dutch/word-guess/sample-3.jpeg',
+        answerKeySrc: '/samples/dutch/word-guess/sample-3-answer.jpeg',
+        altText: 'Gratis werkblad woordraadsel - werkblad voor kinderen schrijven oefenen',
+        pdfDownloadUrl: '/samples/dutch/word-guess/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/dutch/word-guess/sample-4.jpeg',
+        answerKeySrc: '/samples/dutch/word-guess/sample-4-answer.jpeg',
+        altText: 'Woordraadsel gratis printables - werkblad voor kleuters fijne motoriek',
+        pdfDownloadUrl: '/samples/dutch/word-guess/sample-4.pdf',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/dutch/word-guess/sample-5.jpeg',
+        answerKeySrc: '/samples/dutch/word-guess/sample-5-answer.jpeg',
+        altText: 'Gratis werkbladen woordraadsel - werkblad voor kinderen groep 1 2',
+        pdfDownloadUrl: '/samples/dutch/word-guess/sample-5.pdf',
       },
     ],
   },
 
   // Features Grid - FULL text from word-guess.md feature sections
   features: {
-    sectionTitle: 'Woordraadsel Werkbladen Functies - Alles voor Oefenbladen Gratis Maken voor Groep 1 2 en Groep 3',
+    sectionTitle: 'Woordraadsel Functies - Gratis Werkblad voor Kinderen en Werkblad voor Kleuters',
     sectionDescription: 'Onze woordraadsel generator biedt complete functionaliteit voor werkbladen kleuters en werkbladen groep 3. Maak professionele oefenbladen gratis met alle tools die u nodig heeft. Elke functie is ontworpen voor letters leren, schrijven oefenen en fijne motoriek ontwikkeling. Perfect voor Nederlandse basisscholen groep 1 2 tot groep 3.',
     highlightBadgeText: 'Uitgelicht',
     readMoreLabel: 'Lees meer',
@@ -120,7 +166,7 @@ Maak 1 tot 10 woordraadsels per werkblad. Elk raadsel schaalt automatisch voor p
       {
         id: '1',
         icon: '⚡',
-        title: 'Maak Werkbladen Groep 3 in 3 Klikken - Snelle Oefenbladen Generator',
+        title: 'Maak Gratis Werkblad voor Kinderen in 3 Klikken - Snelle Oefenbladen Generator',
         description: `Genereer werkbladen groep 3 en werkbladen kleuters in drie eenvoudige stappen. Kies een thema uit onze bibliotheek met 3000+ afbeeldingen. Klik op genereren en uw werkblad verschijnt direct. Download binnen 3 minuten hoogwaardige oefenbladen gratis.
 
 Geen ontwerpervaring nodig voor letters leren werkbladen. De generator doet al het werk automatisch. Perfect voor drukke leerkrachten groep 1 2 die tijd willen besparen. Ideaal voor veilig leren lezen materiaal en schrijven oefenen activiteiten.`,
@@ -197,7 +243,7 @@ PDF formaat behoudt exacte opmaak. JPEG werkt perfect voor online delen. Antwoor
 
   // How-To Guide - FULL text from word-guess.md step sections
   howTo: {
-    sectionTitle: 'Hoe Maak Je Werkbladen Groep 3 en Oefenbladen Gratis in 5 Eenvoudige Stappen',
+    sectionTitle: 'Hoe Maak Je Gratis Werkbladen - Werkblad voor Kinderen in 5 Stappen',
     sectionDescription: 'Maak professionele werkbladen kleuters en werkbladen groep 3 in minder dan 3 minuten. Deze stapsgewijze handleiding toont hoe u oefenbladen gratis maakt voor letters leren, schrijven oefenen en fijne motoriek. Perfect voor leerkrachten groep 1 2 zonder ontwerpervaring. Volg deze vijf stappen voor hoogwaardige werkbladen.',
     ctaText: 'Nu Starten',
     badgeText: 'Zo werkt het',
@@ -279,7 +325,7 @@ Gebruik downloadede werkbladen groep 3 direct in de klas. Print meerdere kopieë
 
   // Use Cases Section - FULL text from word-guess.md use case sections
   useCases: {
-    sectionTitle: 'Perfect voor Leerkrachten en Ouders - Werkbladen Kleuters en Oefenbladen Gratis voor Elke Behoefte',
+    sectionTitle: 'Gratis Werkblad voor Kinderen - Perfect voor Leerkrachten en Werkblad voor Kleuters',
     sectionDescription: 'Onze woordraadsel generator is ideaal voor verschillende gebruikers. Leerkrachten groep 1 2 en groep 3 maken werkbladen voor dagelijks gebruik. Ouders creëren oefenbladen gratis voor thuisonderwijs. Specialisten ontwerpen werkbladen kleuters voor specifieke leerdoelen. Perfect voor letters leren, schrijven oefenen en fijne motoriek ontwikkeling.',
     badgeText: 'Gebruikssituaties',
     readMoreLabel: 'Lees meer',
@@ -356,7 +402,7 @@ Commerciële licentie maakt verkopen mogelijk. Geen extra kosten voor fijne moto
 
   // FAQ Section - FULL questions and answers
   faq: {
-    sectionTitle: 'Veelgestelde Vragen over Werkbladen Kleuters en Oefenbladen Gratis voor Letters Leren',
+    sectionTitle: 'Veelgestelde Vragen over Gratis Werkbladen en Werkblad voor Kinderen',
     sectionDescription: 'Leerkrachten stellen vaak vragen over onze werkbladen generator. Deze FAQ beantwoordt vragen over werkbladen groep 3, werkbladen kleuters en oefenbladen gratis maken. Perfect voor letters leren, schrijven oefenen, fijne motoriek, rekenen werkbladen en kleurplaten informatie.',
     showMoreText: 'Meer vragen tonen',
     showLessText: 'Minder tonen',
@@ -516,7 +562,7 @@ Maak letters leren werkbladen voor taal. Creëer schrijven oefenen materiaal voo
 
   // Related Apps Section
   relatedApps: {
-    sectionTitle: 'Combineer Woordraadsels met Rekenen Werkbladen, Kleurplaten en Oefenbladen Gratis - Complete Leerpakketten voor Groep 1 2',
+    sectionTitle: 'Combineer met Gratis Werkblad voor Kinderen - Werkblad voor Kleuters en Gratis Printables',
     sectionDescription: 'Ons platform biedt 33 gratis werkbladen generators. Combineer woordraadsels met rekenen werkbladen, kleurplaten en schrijven oefenen materiaal. Perfect voor complete werkbladen kleuters pakketten. Ideaal voor letters leren, veilig leren lezen, fijne motoriek, tafels oefenen en sommen tot 20 geïntegreerde oefenbladen gratis.',
     ctaTitle: 'Klaar om Professionele Werkbladen te Maken?',
     ctaDescription: 'Sluit u aan bij duizenden leerkrachten die professionele werkbladen maken met LessonCraft Studio.',

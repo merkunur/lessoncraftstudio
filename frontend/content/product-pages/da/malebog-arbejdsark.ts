@@ -15,24 +15,56 @@ export const coloringDaContent: ProductPageContent = {
   seo: {
     slug: 'malebog-arbejdsark',
     appId: 'coloring',
-    title: 'Farvelægningssider Designer – Malebog til Print – Gratis Skoleopgaver til Børnehaveklassen',
-    description: 'Lav professionelle farvelægningssider med vores malebog designer. Generer tilpassede farvelægningssider perfekt til børnehaveklassen og 1. klasse. Download arbejdsark i høj kvalitet som PDF på under 3 minutter.',
-    keywords: 'farvelægningssider, malebog, gratis skoleopgaver, arbejdsark til print, børnehaveklassen, 0. klasse, 1. klasse, kopiark, finmotorik øvelser, lære bogstaver',
+    title: 'Gratis Arbejdsark Farvelægning | Malebog Generator til Børnehaveklasse',
+    description: 'Lav gratis arbejdsark til farvelægning for børnehaveklasse og 0. klasse. Generér printbare malebog sider med 3000+ billeder. Download PDF på 3 minutter.',
+    keywords: 'farvelægningssider, malebog, gratis arbejdsark, arbejdsark til børn, gratis printables, arbejdsark til børnehaveklasse, arbejdsark, kopiark, finmotorik øvelser, lære bogstaver',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/malebog-arbejdsark',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/coloring/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis arbejdsark farvelægning til børnehaveklasse - malebog sider til print'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/coloring/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis printables farvelægning - arbejdsark til børn med tematiske billeder'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/coloring/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Arbejdsark til børnehaveklasse - farvelægning med store konturer'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/coloring/sample-4.jpeg',
+        width: 3508,
+        height: 2480,
+        caption: 'Gratis arbejdsark malebog landskab - farvelægning til 0. klasse'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/coloring/sample-5.jpeg',
+        width: 3508,
+        height: 2480,
+        caption: 'Arbejdsark til børn farvelægning - gratis printables malebog sider'
+      }
+    ],
   },
 
   // Hero Section - FULL text from coloring.md paragraphs 1-4
   hero: {
-    title: 'Farvelægningssider Designer – Malebog til Print',
-    subtitle: 'Gratis Skoleopgaver til Børnehaveklassen og 0. Klasse',
-    description: `Lav professionelle farvelægningssider med vores malebog designer. Dit Core Bundle abonnement giver dig ubegrænset adgang til at skabe opgaver til print uden ekstra gebyrer per opgave. Generer tilpassede farvelægningssider perfekt til børnehaveklassen og 1. klasse. Download arbejdsark i høj kvalitet som PDF på under 3 minutter.
+    title: 'Gratis Arbejdsark Farvelægning – Malebog Designer til Print',
+    subtitle: 'Gratis Printables og Arbejdsark til Børn i Børnehaveklasse og 0. Klasse',
+    description: `Lav professionelle farvelægningssider med vores malebog designer. Dit Core Bundle abonnement giver dig ubegrænset adgang til at skabe gratis arbejdsark uden ekstra gebyrer per opgave. Generer tilpassede farvelægningssider perfekt til arbejdsark til børnehaveklasse og 1. klasse. Download arbejdsark i høj kvalitet som PDF på under 3 minutter.
 
-Vores farvelægning designer gør det nemt at skabe malebog sider tilpasset dine elever. Vælg mellem 3000+ børnevenlige billeder organiseret efter temaer. Tilføj tekst, navn-felter og skrive-linjer til dine opgaver til print. Alle farvelægningssider kan downloades som gratis skoleopgaver til både personlig og kommerciel brug med dit Core Bundle abonnement.
+Vores farvelægning designer gør det nemt at skabe malebog sider tilpasset dine elever. Vælg mellem 3000+ børnevenlige billeder organiseret efter temaer. Tilføj tekst, navn-felter og skrive-linjer til dine gratis printables. Alle farvelægningssider kan downloades som arbejdsark til børn til både personlig og kommerciel brug med dit Core Bundle abonnement.
 
 Hver farvelægningsside kan tilpasses fuldstændigt. Træk, rotér og tilpas størrelsen på ethvert element på lærredet. Vælg mellem forskellige sidestørrelser og tilføj dekorative rammer til dine arbejdsark. Kombiner farvelægning med matematikopgaver, finmotorik øvelser og lære bogstaver aktiviteter for komplette læringsark til 0. klasse.
 
-Core Bundle inkluderer adgang til 10 populære opgave-generatorer for kun 144 kr årligt eller 15 kr månedligt. Upload dine egne billeder for at personalisere farvelægningssider til dine specifikke undervisningsbehov. Eksportér alle opgaver til print i professionel 300 DPI kvalitet perfekt til udskrivning og salg.`,
-    previewImageSrc: '/samples/english/coloring/coloring portrait 1.png',
+Core Bundle inkluderer adgang til 10 populære opgave-generatorer for kun 144 kr årligt eller 15 kr månedligt. Upload dine egne billeder for at personalisere farvelægningssider til dine specifikke undervisningsbehov. Eksportér alle gratis arbejdsark til børn i professionel 300 DPI kvalitet perfekt til udskrivning og salg.`,
+    previewImageSrc: '/samples/danish/coloring/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Prøv Gratis',
       viewSamples: 'Se Eksempler',
@@ -51,10 +83,10 @@ Core Bundle inkluderer adgang til 10 populære opgave-generatorer for kun 144 kr
     },
   },
 
-  // Sample Gallery - REAL file paths from samples/english/coloring/
+  // Sample Gallery - REAL file paths from samples/danish/coloring/
   samples: {
-    sectionTitle: 'Farvelægningssider Eksempler',
-    sectionDescription: 'Download gratis eksempler på arbejdsark for at se vores professionelle kvalitet',
+    sectionTitle: 'Gratis Arbejdsark Farvelægning Eksempler',
+    sectionDescription: 'Download gratis arbejdsark eksempler for at se vores professionelle kvalitet - arbejdsark til børn i alle aldre',
     badgeText: 'Gratis Eksempler',
     downloadLabel: 'Download Gratis Eksempel',
     downloadingLabel: 'Downloader...',
@@ -67,41 +99,46 @@ Core Bundle inkluderer adgang til 10 populære opgave-generatorer for kun 144 kr
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/coloring/coloring portrait 1.png',
+        worksheetSrc: '/samples/danish/coloring/sample-1.jpeg',
+        pdfDownloadUrl: '/samples/danish/coloring/sample-1.pdf',
         answerKeySrc: '',
-        altText: 'Farvelægningsside portrætformat med børnevenlige billeder til børnehaveklassen',
+        altText: 'Gratis arbejdsark farvelægning portrætformat - arbejdsark til børnehaveklasse med børnevenlige billeder',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/coloring/coloring portrait 2.png',
+        worksheetSrc: '/samples/danish/coloring/sample-2.jpeg',
+        pdfDownloadUrl: '/samples/danish/coloring/sample-2.pdf',
         answerKeySrc: '',
-        altText: 'Malebog arbejdsark med tematiske illustrationer til 0. klasse',
+        altText: 'Gratis printables malebog - arbejdsark til børn med tematiske illustrationer til 0. klasse',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/coloring/coloring portrait 3.png',
+        worksheetSrc: '/samples/danish/coloring/sample-3.jpeg',
+        pdfDownloadUrl: '/samples/danish/coloring/sample-3.pdf',
         answerKeySrc: '',
-        altText: 'Farvelægningssider til print med store konturer til finmotorik øvelser',
+        altText: 'Arbejdsark farvelægning til print - gratis arbejdsark med store konturer til finmotorik øvelser',
       },
       {
         id: '4',
-        worksheetSrc: '/samples/english/coloring/coloring landscape 1.png',
+        worksheetSrc: '/samples/danish/coloring/sample-4.jpeg',
+        pdfDownloadUrl: '/samples/danish/coloring/sample-4.pdf',
         answerKeySrc: '',
-        altText: 'Malebog landskabsformat med farverige illustrationer til 1. klasse',
+        altText: 'Gratis arbejdsark malebog landskabsformat - arbejdsark til børnehaveklasse med farverige illustrationer',
       },
       {
         id: '5',
-        worksheetSrc: '/samples/english/coloring/coloring landscape 2.png',
+        worksheetSrc: '/samples/danish/coloring/sample-5.jpeg',
+        pdfDownloadUrl: '/samples/danish/coloring/sample-5.pdf',
         answerKeySrc: '',
-        altText: 'Farvelægning arbejdsark landskabsformat til børnehaveklassen',
+        altText: 'Arbejdsark til børn farvelægning landskab - gratis printables malebog sider til 1. klasse',
       },
     ],
   },
 
   // Features Grid - FULL text from coloring.md feature sections
   features: {
-    sectionTitle: 'Malebog Designer Funktioner – Alt Du Har Brug For til Farvelægning Arbejdsark',
-    sectionDescription: 'Vores farvelægning designer giver pædagoger alle værktøjer til at skabe professionelle opgaver til print. Fra børnehaveklassen til 1. klasse kan du generere tilpassede arbejdsark og kopiark der engagerer dine elever. Hver funktion er designet til at spare tid samtidig med at du får fuldt tilpasselige gratis skoleopgaver. Dit Core Bundle abonnement låser op for ubegrænsede muligheder for malebog sider, finmotorik øvelser, matematikopgaver og meget mere.',
+    sectionTitle: 'Gratis Arbejdsark Malebog Funktioner – Alt Du Har Brug For til Farvelægning',
+    sectionDescription: 'Vores farvelægning designer giver pædagoger alle værktøjer til at skabe professionelle gratis arbejdsark til print. Fra arbejdsark til børnehaveklasse til 1. klasse kan du generere tilpassede arbejdsark til børn og kopiark der engagerer dine elever. Hver funktion er designet til at spare tid samtidig med at du får fuldt tilpasselige gratis printables. Dit Core Bundle abonnement låser op for ubegrænsede muligheder for malebog sider, finmotorik øvelser, matematikopgaver og meget mere.',
     highlightBadgeText: 'Vigtig Funktion',
     readMoreLabel: 'Læs mere',
     showLessLabel: 'Vis mindre',
@@ -115,7 +152,7 @@ Core Bundle inkluderer adgang til 10 populære opgave-generatorer for kun 144 kr
       {
         id: '1',
         icon: '⚡',
-        title: 'Lav Farvelægningssider på 3 Klik',
+        title: 'Lav Gratis Arbejdsark Farvelægning på 3 Klik',
         description: `Start med at vælge et tema fra vores bibliotek med 3000+ billeder. Klik på generer og din farvelægningsside vises øjeblikkeligt på lærredet. Download som PDF og dine opgaver til print er klar til børnehaveklassen. Hele processen tager under 3 minutter fra start til færdig malebog side. Perfekt til travle pædagoger der har brug for kvalitets arbejdsark hurtigt.
 
 Vælg mellem temabaseret generering eller individuelle billeder. Temavælgeren giver dig øjeblikkeligt adgang til sammenhængende farvelægning opgaver. Klik på ethvert billede i billedbiblioteket for at tilføje det til dit lærred. Kombiner flere billeder for at skabe komplekse opgaver til print der passer til dit undervisningsemne.
@@ -126,7 +163,7 @@ Generatoren husker dine indstillinger mellem sessioner. Dit foretrukne sidestør
       {
         id: '2',
         icon: '✏️',
-        title: 'Redigér Alt på Din Malebog',
+        title: 'Redigér Alle Arbejdsark til Børn Malebog',
         description: `Hvert element på lærredet kan redigeres frit. Træk billeder rundt med musen for at placere dem præcis hvor du vil have dem. Rotér elementer for at skabe dynamiske farvelægningssider der fanger elevernes opmærksomhed. Tilpas størrelsen på hvert objekt ved at trække i hjørnerne. Alle ændringer sker i realtid så du kan se præcis hvordan dine opgaver til print vil se ud.
 
 Slet elementer du ikke længere har brug for med ét klik. Tilføj tekst hvor som helst på siden for at skabe instruktioner eller spørgsmål til dine arbejdsark. Kombinér farvelægning med matematikopgaver ved at tilføje tal og ligninger. Lav lære bogstaver opgaver ved at tilføje bogstaver ved siden af billeder.
@@ -137,7 +174,7 @@ Fortryd og gendan funktioner betyder at du aldrig mister dit arbejde. Eksperimen
       {
         id: '3',
         icon: '📤',
-        title: 'Upload Dine Egne Billeder',
+        title: 'Upload Billeder til Gratis Printables',
         description: `Upload flere filer på én gang i almindelige formater. JPEG, PNG og GIF understøttes fuldt ud i vores malebog designer. Kombinér uploadede billeder med vores billedbibliotek for at skabe helt unikke opgaver til print. Perfekt til at skabe farvelægningssider om specifikke emner i din klasse.
 
 Tilpas opgaver til dine elevers interesser og kulturelle baggrund. Upload billeder fra lokale begivenheder eller skoleprojekter. Lav farvelægning arbejdsark der afspejler din klasses diversitet. Personaliserede gratis skoleopgaver øger elevers engagement og motivation markant.
@@ -148,7 +185,7 @@ Alle uploadede billeder bliver på dit lærred. Generer flere farvelægningsside
       {
         id: '4',
         icon: '🌍',
-        title: '11 Sprog Understøttet',
+        title: '11 Sprog til Arbejdsark til Børnehaveklasse',
         description: `Brugerfladen understøtter 11 sprog inklusiv dansk, engelsk, tysk, fransk og spansk. Skift sprog med ét klik fra sprogvælgeren i sidepanelet. Alle knapper, etiketter og instruktioner oversættes øjeblikkeligt. Perfekt til internationale skoler og flersprogede klasseværelser der har brug for farvelægning opgaver til print på forskellige sprog.
 
 Billedbiblioteket organiseres efter dit valgte sprog. Filnavne og temaer vises på dansk når du vælger dansk som dit sprog. Dette gør det hurtigere at finde relevante billeder til dine arbejdsark og kopiark.
@@ -159,7 +196,7 @@ Lav gratis skoleopgaver til tosprogede elever på få minutter. Generér den sam
       {
         id: '5',
         icon: '💰',
-        title: 'Kommerciel Licens Inkluderet',
+        title: 'Kommerciel Licens til Gratis Arbejdsark til Børn',
         description: `Core Bundle inkluderer fuld print-on-demand kommerciel licens uden ekstra omkostninger. Sælg dine farvelægningssider på platforme som Etsy, Teachers Pay Teachers og Amazon KDP. Ingen kreditering påkrævet på dine arbejdsark. Perfekt til pædagoger der vil starte en side-forretning med salg af gratis skoleopgaver og kopiark.
 
 Lav professionelle malebog produkter til salg på få timer. Mange pædagoger tjener 500-5000 kr månedligt ved at sælge farvelægning opgaver til print. Din Core Bundle investering på 144 kr årligt kan betale sig selv tilbage mange gange.
@@ -170,7 +207,7 @@ Alle 3000+ billeder i biblioteket er godkendt til kommercielt brug. Den professi
       {
         id: '6',
         icon: '🎨',
-        title: 'Over 3000 Børnevenlige Billeder',
+        title: '3000+ Billeder til Arbejdsark Farvelægning',
         description: `Over 3000 børnevenlige billeder organiseret efter temaer. Browse gennem kategorier som dyr, transport, mad, natur og ferie-temaer. Hvert billede er designet specifikt til farvelægning med tydelige konturer og alderpassende detaljer til 0. klasse og børnehaveklassen.
 
 Kombiner billedbiblioteket med finmotorik øvelser for komplette læringsark. Tilføj skrive-linjer under farvelægning billeder for at øve bogstaver. Lav matematikopgaver ved at tilføje tælleaktiviteter til dine malebog sider.
@@ -181,7 +218,7 @@ Alle baggrundsdesign og dekorative rammer er inkluderet. Tilføj professionelle 
       {
         id: '7',
         icon: '🖨️',
-        title: 'Professionel 300 DPI Kvalitet',
+        title: 'Professionel 300 DPI til Arbejdsark Print',
         description: `Eksportér alle farvelægningssider i 300 DPI professionel kvalitet. Perfekt til udskrivning på enhver printer uden kvalitetstab. Dine malebog sider ser skarpe og tydelige ud på papir. Vælg mellem JPEG eller PDF format afhængigt af dine behov for gratis skoleopgaver.
 
 Gråtonesindstilling sparer blæk på farvelægning opgaver til print. Konvertér farvede elementer til gråtoner med ét klik. Perfekt til klassesæt hvor du printer mange kopier af samme arbejdsark.
@@ -194,8 +231,8 @@ PDF-eksport bevarer alle elementer i perfekt placering. Ingen forskydning eller 
 
   // How-To Guide - FULL text from coloring.md step sections
   howTo: {
-    sectionTitle: 'Lav Farvelægning Opgaver til Print på 5 Nemme Trin',
-    sectionDescription: 'Lav professionelle farvelægningssider til børnehaveklassen på under 3 minutter. Denne trin-for-trin guide viser dig hvordan du bruger vores malebog designer til at skabe tilpassede opgaver til print. Fra finmotorik øvelser til matematikopgaver kombineret med farvelægning kan du generere komplette arbejdsark hurtigt.',
+    sectionTitle: 'Lav Gratis Arbejdsark Farvelægning på 5 Nemme Trin',
+    sectionDescription: 'Lav professionelle gratis arbejdsark til børnehaveklasse på under 3 minutter. Denne trin-for-trin guide viser dig hvordan du bruger vores malebog designer til at skabe tilpassede arbejdsark til børn. Fra finmotorik øvelser til matematikopgaver kombineret med farvelægning kan du generere komplette gratis printables hurtigt.',
     ctaText: 'Start Nu',
     badgeText: 'Sådan Virker Det',
     stepLabel: 'Trin',
@@ -209,7 +246,7 @@ PDF-eksport bevarer alle elementer i perfekt placering. Ingen forskydning eller 
       {
         id: '1',
         number: 1,
-        title: 'Vælg Dit Indhold til Farvelægning',
+        title: 'Vælg Indhold til Gratis Arbejdsark Farvelægning',
         description: `Start med at vælge mellem temabaseret generering eller individuelle billeder til dine gratis skoleopgaver. Temavælgeren viser alle tilgængelige kategorier fra 3000+ billedbibliotek. Klik på et tema som "dyr" eller "transport" for øjeblikkeligt at se alle relevante billeder til dine farvelægning opgaver til print. Perfekt til at skabe sammenhængende arbejdsark til 0. klasse.
 
 Browse gennem individuelle billeder hvis du har brug for specifikke elementer. Søgefunktionen lader dig finde præcise billeder på dansk. Skriv "æble" eller "bil" for at finde relevante farvelægningssider hurtigt.
@@ -220,7 +257,7 @@ Upload dine egne billeder til personaliserede opgaver til print. Klik på upload
       {
         id: '2',
         number: 2,
-        title: 'Tilpas Indstillinger for Arbejdsark',
+        title: 'Tilpas Indstillinger for Arbejdsark til Børn',
         description: `Vælg sidestørrelse fra rullemenuen under sideopstilling. Letter Portrait er standard for danske printere. A4 Portrait passer bedre til europæiske standarder. Vælg liggende format til brede farvelægning arbejdsark eller kvadratisk format til sociale medier.
 
 Tilføj klasseværelse hjælpere til dine opgaver til print med ét klik. "Navn: ___" feltet tilføjer automatisk en linje øverst på siden hvor elever kan skrive deres navn. Perfekt til 0. klasse og 1. klasse arbejdsark.
@@ -231,7 +268,7 @@ Sprog indstillinger påvirker billedbibliotek organisation. Vælg dansk for at s
       {
         id: '3',
         number: 3,
-        title: 'Generer Din Farvelægningsside',
+        title: 'Generer Din Gratis Printables Farvelægningsside',
         description: `Når du har valgt dine billeder og indstillinger vises dit design automatisk på lærredet. Der er ingen separat "generer" knap fordi alt sker i realtid. Hvert billede du klikker på tilføjes øjeblikkeligt til din farvelægningsside. Se præcis hvordan dine opgaver til print vil se ud før du downloader.
 
 Lærredet viser din side i faktisk størrelse. Zoom ind og ud med knapperne i toplinjen for at se detaljer. Nulstil zoom knappen returnerer til 100% visning så du kan se hele farvelægning arbejdsarket på én gang.
@@ -242,7 +279,7 @@ Preview viser nøjagtigt hvordan dine gratis skoleopgaver vil se ud når de prin
       {
         id: '4',
         number: 4,
-        title: 'Redigér Dit Arbejdsark',
+        title: 'Redigér Dit Arbejdsark til Børnehaveklasse',
         description: `Vælg ethvert element på lærredet for at aktivere redigeringsværktøjer. Kontekst værktøjslinjen vises øverst når et objekt er valgt. Denne værktøjslinje giver hurtig adgang til almindelige handlinger som flip, rotér og slet. Perfekt til hurtigt at tilpasse farvelægning arbejdsark.
 
 Tekst værktøjer lader dig tilføje tilpassede bogstaver til lære bogstaver aktiviteter. Skriv ethvert ord eller sætning i tekst feltet. Klik tilføj tekst og det vises på lærredet klar til placering.
@@ -253,7 +290,7 @@ Justeringsværktøjer hjælper med at skabe professionelt udseende kopiark. Just
       {
         id: '5',
         number: 5,
-        title: 'Download og Print Arbejdsark',
+        title: 'Download og Print Gratis Arbejdsark',
         description: `Klik på download knappen når dine farvelægning kopiark er klar. Rullemenuen viser to format muligheder. JPEG fungerer godt til digitalt deling eller at inkludere i præsentationer. PDF er bedst til udskrivning af opgaver til print fordi det bevarer skarp kvalitet på alle printere.
 
 Gråtone indstilling konverterer dine farvelægning arbejdsark til sort-hvid. Afkryds boksen før download for at spare farve blæk. Perfekt til klassesæt hvor du printer mange kopier af samme gratis skoleopgaver.
@@ -266,8 +303,8 @@ Download starter øjeblikkeligt og filen gemmes i din downloads mappe. Åbn PDF'
 
   // Use Cases - FULL text from coloring.md use case sections
   useCases: {
-    sectionTitle: 'Perfekt til Pædagoger, Lærere og Forældre',
-    sectionDescription: 'Vores malebog designer tjener forskellige undervisningsbehov på tværs af alle klassetrin. Fra børnehaveklassen til 1. klasse kan pædagoger skabe tilpassede arbejdsark der matcher deres elevers niveau. Kombiner farvelægning med finmotorik øvelser, lære bogstaver aktiviteter og matematikopgaver for komplette læringspakker.',
+    sectionTitle: 'Arbejdsark til Børn – Perfekt til Pædagoger, Lærere og Forældre',
+    sectionDescription: 'Vores malebog designer tjener forskellige undervisningsbehov på tværs af alle klassetrin. Fra arbejdsark til børnehaveklasse til 1. klasse kan pædagoger skabe tilpassede gratis arbejdsark der matcher deres elevers niveau. Kombiner farvelægning med finmotorik øvelser, lære bogstaver aktiviteter og matematikopgaver for komplette læringspakker.',
     badgeText: 'Hvem Er Det Til',
     readMoreLabel: 'Læs mere',
     showLessLabel: 'Vis mindre',
@@ -276,7 +313,7 @@ Download starter øjeblikkeligt og filen gemmes i din downloads mappe. Åbn PDF'
         id: '1',
         icon: '👩‍🏫',
         title: 'Børnehaveklasse Pædagoger',
-        subtitle: 'Finmotorik Øvelser og Lære Bogstaver',
+        subtitle: 'Gratis Arbejdsark – Finmotorik Øvelser og Lære Bogstaver',
         description: `Børnehaveklasse pædagoger bruger farvelægning til at udvikle finmotorik øvelser esssentielle for fremtidig skrivning. Vælg billeder med store simple former for yngre børn. Gradvis introducer mere komplekse designs som eleverne forbedrer deres blyantgreb. Kombiner farvelægning med lære bogstaver aktiviteter ved at tilføje store bogstaver ved siden af billeder.
 
 Lav tematiske ugentlige pakker af gratis skoleopgaver der matcher dit læseplan. Efterårs tema med blade, græskar og æbler kan kombineres med tilsvarende bogstav øvelser. Temavælgeren gør det hurtigt at finde relevante billeder til børnehaveklassen aktiviteter.
@@ -288,7 +325,7 @@ Navne-feltet er især værdifuldt for børnehaveklasse elever der øver at skriv
         id: '2',
         icon: '📚',
         title: '0. Klasse og 1. Klasse Lærere',
-        subtitle: 'Matematikopgaver og Læse og Skrive',
+        subtitle: 'Arbejdsark til Børn – Matematikopgaver og Læse og Skrive',
         description: `Førstegangs læsning og matematik instruktion drager fordel af visuelle farvelægning arbejdsark. Tilføj simple ligninger som "2+3=" ved siden af tælbare objekter. Elever kan tælle farvelagte æbler eller biler for at løse matematikopgaver. Kombiner farvelægning med antal genkendelse for engagerende opgaver til print til 1. klasse.
 
 Lav læse og skrive øvelser ved at tilføje simple sætninger til dine farvelægningssider. "Katten er rød" ved siden af et katte billede. Elever øver læsning samtidig med at de farvelægger relevante billeder.
@@ -300,7 +337,7 @@ Gangetabeller kan introduceres kreativt gennem farvelægning for 1. klasse eleve
         id: '3',
         icon: '🏠',
         title: 'Hjemmeundervisende Forældre',
-        subtitle: 'Fleksible Arbejdsark til Multi-Niveau Undervisning',
+        subtitle: 'Gratis Printables – Fleksible Arbejdsark til Multi-Niveau Undervisning',
         description: `Hjemmeundervisende forældre underviserer ofte flere børn på forskellige niveauer samtidigt. Lav differentierede farvelægningssider fra samme tema. Simple designs til yngre børn, komplekse designs til ældre børn. Alle børn arbejder på tematisk forbundne opgaver til print selvom sværhedsgraden varierer.
 
 Kombiner farvelægning med alle kerneemner for integrerede lærings arbejdsark. Historietemaer som vikinger eller middelalder kan kombineres med tids-relaterede matematikopgaver.
@@ -312,7 +349,7 @@ Upload familiefotos for at skabe personaliserede farvelægning opgaver til print
         id: '4',
         icon: '🌍',
         title: 'Dansk som Andetsprog Lærere',
-        subtitle: 'Læse og Skrive med Farvelægning',
+        subtitle: 'Arbejdsark til Børnehaveklasse – Læse og Skrive med Farvelægning',
         description: `Lærere i tosprogede klasser bruger billedbaserede farvelægning arbejdsark som sprogstøtte. Billeder kommunikerer på tværs af sprogbarrierer. Et barn der stadig lærer dansk kan forstå opgaven ved at se billederne selv hvis de danske ord er nye.
 
 Danske bogstaver alfabetøvelser fungerer perfekt som farvelægning opgaver til print. Lav "Aa er for Abe" med aber billede. "Ææ er for Æble" med æble billede. De specielle danske bogstaver Æ, Ø og Å kræver ekstra øvelse for tosprogede elever.
@@ -324,7 +361,7 @@ Kombinér farvelægning med simple læse og skrive kommandoer. "Farvelæg hunden
         id: '5',
         icon: '💜',
         title: 'Specialpædagoger',
-        subtitle: 'Tilpassede Opgaver til Individuelle Behov',
+        subtitle: 'Gratis Arbejdsark til Børn – Tilpassede Opgaver til Individuelle Behov',
         description: `Specialpædagoger har brug for meget differentierede materialer for elever med forskellige lærings behov. Lav farvelægningssider med ekstra store områder for elever med finmotorik udfordringer. Reducer element tæthed for elever der bliver overvældet af visuel rod.
 
 Visuel støtte er afgørende for mange børn i specialundervisning. Billedbaserede opgaver til print gør abstrakte koncepter konkrete. Børn med matematikvanskeligheder ser faktiske objekter de kan tælle i stedet for symboler de ikke forstår.
@@ -336,7 +373,7 @@ Kombiner farvelægning med terapi mål som hånd-øje koordination. Tilføj punk
         id: '6',
         icon: '💰',
         title: 'Lærer-Iværksættere',
-        subtitle: 'Sælg Arbejdsark på Teachers Pay Teachers',
+        subtitle: 'Sælg Arbejdsark – Gratis Printables på Teachers Pay Teachers',
         description: `Mange pædagoger tjener ekstraindkomst ved at sælge farvelægning arbejdsark online. Core Bundle kommerciel licens giver dig ret til at sælge alle farvelægningssider du skaber. Teachers Pay Teachers, Etsy og Amazon KDP er populære platforme.
 
 Farvelægningsbogspakker sælger ekstremt godt på print-on-demand platforme. Lav 25-50 sidede farvelægningsbøger omkring specifikke temaer. "Efterår Farvelægning for 1. Klasse" eller "Finmotorik Øvelser Farvelægningsbog til Børnehaveklassen".
@@ -349,8 +386,8 @@ Brug søgeord optimering i dine produkt beskrivelser. "Gratis skoleopgaver", "ar
 
   // FAQ Section - Selected FAQs from coloring.md
   faq: {
-    sectionTitle: 'Ofte Stillede Spørgsmål',
-    sectionDescription: 'Her er svar på de mest almindelige spørgsmål om farvelægning-generatoren. Lær om muligheder, abonnementer og hvordan du bruger opgaver til print i din undervisning.',
+    sectionTitle: 'Gratis Arbejdsark Farvelægning – Ofte Stillede Spørgsmål',
+    sectionDescription: 'Her er svar på de mest almindelige spørgsmål om farvelægning-generatoren. Lær om muligheder, abonnementer og hvordan du bruger gratis arbejdsark til børn i din undervisning.',
     showMoreText: 'Vis flere spørgsmål',
     showLessText: 'Vis færre',
     badgeText: 'FAQ',
@@ -361,62 +398,62 @@ Brug søgeord optimering i dine produkt beskrivelser. "Gratis skoleopgaver", "ar
     items: [
       {
         id: '1',
-        question: 'Er farvelægning-generatoren gratis at bruge?',
+        question: 'Er gratis arbejdsark farvelægning-generatoren gratis at bruge?',
         answer: 'Farvelægning generator kræver et Kernepakke-abonnement der koster 144 kr årligt eller 15 kr månedligt. Dit abonnement giver dig ubegrænset farvelægning skabelse uden gebyrer per opgave. Generer så mange farvelægningssider, arbejdsark og gratis skoleopgaver som du har brug for uden ekstra omkostninger. Abonnementet inkluderer også kommerciel licens, 11 sprog og professionel 300 DPI kvalitet.',
       },
       {
         id: '2',
-        question: 'Kan jeg printe farvelægningssider hjemme på en almindelig printer?',
+        question: 'Kan jeg printe gratis arbejdsark farvelægning hjemme på en almindelig printer?',
         answer: 'Ja, alle farvelægningssider kan printes hjemme på en standard printer. Systemet eksporterer som PDF eller JPEG i 300 DPI kvalitet perfekt til almindelige inkjet- eller laserprintere. Vælg mellem farve og gråtone afhængigt af dit blækbudget. Gråtone-muligheden sparer op til 70% blæk mens opgaver til print stadig forbliver klare og læselige.',
       },
       {
         id: '3',
-        question: 'Har jeg brug for designfærdigheder for at lave farvelægning arbejdsark?',
+        question: 'Har jeg brug for designfærdigheder for at lave gratis printables arbejdsark?',
         answer: 'Nej, ingen designfærdigheder kræves for at skabe professionelle farvelægningssider. Systemet automatiserer hele designprocessen fra billedplacering til layout-balancering. Vælg simpelthen et tema, juster indstillinger og klik generer. Opgaver til print er færdige på 3 minutter uden at skulle åbne design-software.',
       },
       {
         id: '4',
-        question: 'Kan jeg bruge farvelægningssider i mit klasseværelse til alle elever?',
+        question: 'Kan jeg bruge arbejdsark til børn farvelægning i mit klasseværelse til alle elever?',
         answer: 'Kernepakke-abonnement inkluderer ubegrænset klasseværelsebrug til alle dine elever. Print så mange kopier af farvelægningssider som du har brug for til din 0. klasse, 1. klasse eller enhver anden klasse du underviser. Del opgaver til print med kollegaer på samme skole. Lav ugentlige opgavesæt til hele indskolingen.',
       },
       {
         id: '5',
-        question: 'Hvilke sprog er farvelægningssider tilgængelige på?',
+        question: 'Hvilke sprog er gratis arbejdsark farvelægning tilgængelige på?',
         answer: 'Farvelægningssider er tilgængelige på 11 sprog: dansk, engelsk, tysk, fransk, spansk, italiensk, portugisisk (brasiliansk), hollandsk, svensk, norsk og finsk. Skift sprog med ét klik i dropdown-menuen. Både brugerflade og opgaveindhold ændres til det valgte sprog.',
       },
       {
         id: '6',
-        question: 'Kan jeg sælge de farvelægningssider jeg laver med generatoren?',
+        question: 'Kan jeg sælge de arbejdsark farvelægning jeg laver med generatoren?',
         answer: 'Ja, Kernepakke-abonnement inkluderer fuld kommerciel print-on-demand licens uden ekstra omkostninger. Sælg dine farvelægningssider på Teachers Pay Teachers, Etsy, din egen hjemmeside eller fysiske markeder. Ingen kreditering kræves. Ingen royalties skydes.',
       },
       {
         id: '7',
-        question: 'Hvordan tilpasser jeg farvelægningssider til mine elever?',
+        question: 'Hvordan tilpasser jeg arbejdsark til børnehaveklasse farvelægning til mine elever?',
         answer: 'Hvert element på lærredet kan tilpasses. Vælg hvilke billeder at inkludere. Tilføj tilpasset tekst der matcher dit nuværende emne. Juster tekst størrelse for yngre børnehaveklasse elever versus ældre 1. klasse elever. Upload dine egne billeder for ultra-personalisering.',
       },
       {
         id: '8',
-        question: 'Hvilke aldersgrupper fungerer bedst med disse farvelægningssider?',
+        question: 'Hvilke aldersgrupper fungerer bedst med gratis arbejdsark til børn farvelægning?',
         answer: 'Farvelægningssider fungerer bedst for børnehaveklasse gennem 1. klasse aldre 5-7 år. Dette alders interval øver finmotorik nødvendige for fremtidig skrivning. Yngre børnehaveklasse børn alder 3-5 har brug for større farvelægning områder med simple former.',
       },
       {
         id: '9',
-        question: 'Kan jeg uploade mine egne billeder til farvelægningssider?',
+        question: 'Kan jeg uploade mine egne billeder til gratis printables farvelægning?',
         answer: 'Ja, upload funktionen understøtter multi-fil upload i JPEG, PNG og GIF formater. Upload klasseværelse fotos til personaliserede farvelægning opgaver til print. Kombiner uploadede billeder med vores 3000+ billedbibliotek for uendelige muligheder.',
       },
       {
         id: '10',
-        question: 'Hvor lang tid tager det at lave en farvelægningsside?',
+        question: 'Hvor lang tid tager det at lave et arbejdsark farvelægning?',
         answer: 'Typisk farvelægningsside tager under 3 minutter fra start til download. Vælg tema (30 sekunder), klik på billeder at inkludere (45 sekunder), tilføj tilpasset tekst (60 sekunder), download som PDF (15 sekunder). Total tid investering minimal sammenlignet med 30-60 minutter manuel skabelse.',
       },
       {
         id: '11',
-        question: 'Inkluderer farvelægningssider facit-sider?',
+        question: 'Inkluderer gratis arbejdsark farvelægning facit-sider?',
         answer: 'Farvelægning er åben-endret kreativ aktivitet så traditionelle svar nøgler gælder ikke. Elever vælger deres egne farver for kunstnerisk udtryk. Fokus er på finmotorik udvikling og kreativitet frem for præcision.',
       },
       {
         id: '12',
-        question: 'Kan jeg lave farvelægningssider om specifikke emner?',
+        question: 'Kan jeg lave arbejdsark til børn farvelægning om specifikke emner?',
         answer: 'Ja, emne-specifik farvelægning er let at skabe. Vælg relevante temaer fra billedbiblioteket. Upload egne billeder for specifikke emner. Tilføj tekst der matcher dit undervisningsemne. Kombiner farvelægning med matematikopgaver eller læse og skrive øvelser.',
       },
     ],

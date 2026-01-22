@@ -29,22 +29,48 @@ export const pictureBingoNlContent: ProductPageContent = {
   seo: {
     slug: 'plaatjes-bingo-werkbladen',
     appId: 'bingo',
-    title: 'Plaatjes Bingo Werkbladen Generator - Gratis Printbare Oefenbladen voor Groep 1-3',
+    title: 'Gratis Werkblad Plaatjes Bingo - Generator voor Werkbladen Kleuters en Groep 1-3',
     description: 'Maak professionele bingo werkbladen met onze plaatjes bingo generator. Met je Basispakket abonnement genereer je onbeperkt werkbladen voor groep 1, 2 en 3. Download direct als PDF en print thuis of op school. Leerlingen leren spelenderwijs met visuele herkenning en woordenschat.',
     keywords: 'plaatjes bingo, werkbladen kleuters, werkbladen groep 3, oefenbladen gratis, rekenen werkbladen, letters leren, veilig leren lezen, sommen tot 20, kleurplaten, fijne motoriek, tafels oefenen, bingo generator',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/plaatjes-bingo-werkbladen',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/dutch/bingo/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis werkblad plaatjes bingo - werkblad voor kinderen met afbeeldingen voor groep 1-3'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/dutch/bingo/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis werkbladen bingo - werkblad voor kleuters met thematische plaatjes'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/dutch/bingo/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis printables bingo - werkblad letters leren en veilig leren lezen'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/dutch/bingo/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Werkblad voor kinderen bingo - oefenbladen gratis fijne motoriek'
+      }
+    ],
   },
 
   // Hero Section - FULL text from bingo.md paragraphs
   hero: {
-    title: 'Plaatjes Bingo Werkbladen Generator',
-    subtitle: 'Gratis Printbare Oefenbladen voor Groep 1-3',
+    title: 'Gratis Werkbladen Plaatjes Bingo Generator',
+    subtitle: 'Werkblad voor Kinderen - Gratis Printables voor Groep 1-3',
     description: `Maak professionele bingo werkbladen met onze plaatjes bingo generator. Met je Basispakket abonnement genereer je onbeperkt werkbladen voor groep 1, 2 en 3. Download direct als PDF en print thuis of op school. Leerlingen leren spelenderwijs met visuele herkenning en woordenschat.
 
 Plaatjes bingo is een fantastisch leermiddel voor het basisonderwijs. Kleuters en kinderen uit groep 3 leren nieuwe woorden terwijl ze spelen. De generator maakt unieke bingokaarten met afbeeldingen of woorden. Elke kaart is anders, zodat ieder kind een eigen speelervaring heeft.
 
 Met je abonnement maak je zoveel bingokaarten als je nodig hebt. Geen extra kosten per werkblad. Kies uit meer dan 3000 kindvriendelijke afbeeldingen. De beeldbibliotheek is georganiseerd op thema. Van dieren tot voertuigen, van fruit tot schoolspullen.`,
-    previewImageSrc: '/samples/english/bingo/image and image.jpeg',
+    previewImageSrc: '/samples/dutch/bingo/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Gratis Uitproberen',
       viewSamples: 'Voorbeelden Bekijken',
@@ -65,7 +91,7 @@ Met je abonnement maak je zoveel bingokaarten als je nodig hebt. Geen extra kost
 
   // Sample Gallery - REAL file paths from samples/english/bingo/
   samples: {
-    sectionTitle: 'Plaatjes Bingo Voorbeelden',
+    sectionTitle: 'Gratis Werkblad Voorbeelden - Plaatjes Bingo voor Kleuters',
     sectionDescription: 'Download gratis voorbeeldwerkbladen om onze professionele kwaliteit te ervaren',
     downloadLabel: 'Gratis Voorbeeld Downloaden',
     worksheetLabel: 'Werkblad',
@@ -79,38 +105,38 @@ Met je abonnement maak je zoveel bingokaarten als je nodig hebt. Geen extra kost
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/bingo/image and image.jpeg',
-        pdfDownloadUrl: '/samples/english/bingo/image and image.pdf',
-        answerKeySrc: '',
-        altText: 'Plaatjes bingo werkblad met afbeeldingen voor werkbladen kleuters en groep 3',
+        worksheetSrc: '/samples/dutch/bingo/sample-1.jpeg',
+        pdfDownloadUrl: '/samples/dutch/bingo/sample-1.pdf',
+        answerKeySrc: '/samples/dutch/bingo/sample-1-answer.jpeg',
+        altText: 'Gratis werkblad plaatjes bingo - werkbladen kleuters met afbeeldingen voor groep 1-3',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/bingo/image and image callout.jpeg',
-        pdfDownloadUrl: '/samples/english/bingo/image and image callout.pdf',
-        answerKeySrc: '',
-        altText: 'Bingo oproepkaarten met plaatjes voor oefenbladen gratis en letters leren',
+        worksheetSrc: '/samples/dutch/bingo/sample-2.jpeg',
+        pdfDownloadUrl: '/samples/dutch/bingo/sample-2.pdf',
+        answerKeySrc: '/samples/dutch/bingo/sample-2-answer.jpeg',
+        altText: 'Gratis werkbladen bingo - werkblad voor kinderen met thematische plaatjes',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/bingo/image and word.jpeg',
-        pdfDownloadUrl: '/samples/english/bingo/image and word.pdf',
-        answerKeySrc: '',
-        altText: 'Bingo werkblad met plaatjes en woorden voor veilig leren lezen en werkbladen groep 3',
+        worksheetSrc: '/samples/dutch/bingo/sample-3.jpeg',
+        pdfDownloadUrl: '/samples/dutch/bingo/sample-3.pdf',
+        answerKeySrc: '/samples/dutch/bingo/sample-3-answer.jpeg',
+        altText: 'Gratis printables bingo - werkblad voor kleuters veilig leren lezen',
       },
       {
         id: '4',
-        worksheetSrc: '/samples/english/bingo/image and word callout.jpeg',
-        pdfDownloadUrl: '/samples/english/bingo/image and word callout.pdf',
-        answerKeySrc: '',
-        altText: 'Bingo oproepkaarten met woorden voor rekenen werkbladen en sommen tot 20',
+        worksheetSrc: '/samples/dutch/bingo/sample-4.jpeg',
+        pdfDownloadUrl: '/samples/dutch/bingo/sample-4.pdf',
+        answerKeySrc: '/samples/dutch/bingo/sample-4-answer.jpeg',
+        altText: 'Werkblad voor kinderen bingo - oefenbladen gratis fijne motoriek training',
       },
     ],
   },
 
   // Features Grid - FULL text from bingo.md feature sections
   features: {
-    sectionTitle: 'Functies van de Plaatjes Bingo Generator - Oefenbladen Gratis Maken voor Kleuters',
+    sectionTitle: 'Gratis Werkblad Functies - Plaatjes Bingo Generator voor Kleuters',
     sectionDescription: 'De bingo werkbladen generator biedt alles wat je nodig hebt voor interactief onderwijs. Van eenvoudige bediening tot professionele exportkwaliteit. Ontdek alle mogelijkheden om werkbladen te maken voor groep 1, 2 en 3.',
     highlightBadgeText: 'Uitgelicht',
     readMoreLabel: 'Lees meer',
@@ -125,7 +151,7 @@ Met je abonnement maak je zoveel bingokaarten als je nodig hebt. Geen extra kost
       {
         id: '1',
         icon: '⚡',
-        title: 'Werkbladen Groep 3 Maken in 3 Klikken - Supersnel Bingo Genereren',
+        title: 'Gratis Werkblad Maken in 3 Klikken - Werkblad voor Kinderen Bingo',
         description: `Binnen drie minuten heb je complete bingokaarten klaar. Kies een thema uit de beeldbibliotheek. Stel het rasterformaat in van 3x3 tot 5x5. Klik op genereren en je werkbladen verschijnen direct.
 
 Geen ingewikkelde software nodig. Geen ontwerpervaring vereist. De generator doet het zware werk voor je. Werkbladen kleuters maken was nog nooit zo snel.`,
@@ -134,7 +160,7 @@ Geen ingewikkelde software nodig. Geen ontwerpervaring vereist. De generator doe
       {
         id: '2',
         icon: '✏️',
-        title: 'Rekenen Werkbladen met Volledige Bewerkingsmogelijkheden - Alles Aanpasbaar',
+        title: 'Gratis Werkbladen Bewerken - Werkblad voor Kleuters Volledig Aanpasbaar',
         description: `Na het genereren bewerk je elk element op het canvas. Sleep afbeeldingen naar een andere positie. Vergroot of verklein plaatjes met de hoekpunten. Draai elementen voor een speelse uitstraling.
 
 Verwijder wat je niet nodig hebt. Voeg extra tekst toe waar je wilt. De oefenbladen gratis aanpassen gaat intuïtief. Je hebt volledige controle over het eindresultaat.`,
@@ -143,7 +169,7 @@ Verwijder wat je niet nodig hebt. Voeg extra tekst toe waar je wilt. De oefenbla
       {
         id: '3',
         icon: '📤',
-        title: 'Letters Leren met Eigen Afbeeldingen - Upload Je Schoolfoto\'s',
+        title: 'Gratis Printables met Eigen Afbeeldingen - Upload Je Schoolfoto\'s',
         description: `Upload je eigen afbeeldingen voor persoonlijke bingokaarten. Gebruik klassenfoto's voor een kennismakingsspel. Voeg foto's van schoolspullen toe. Combineer eigen uploads met bibliotheekafbeeldingen.
 
 Ondersteunde formaten zijn JPEG, PNG en GIF. Meerdere bestanden tegelijk uploaden is mogelijk. Dit is perfect voor letters leren met persoonlijke thema's.`,
@@ -152,7 +178,7 @@ Ondersteunde formaten zijn JPEG, PNG en GIF. Meerdere bestanden tegelijk uploade
       {
         id: '4',
         icon: '🌍',
-        title: 'Veilig Leren Lezen Ondersteunen - Bingo in 11 Talen voor Taalonderwijs',
+        title: 'Gratis Werkblad voor Kinderen - Bingo in 11 Talen voor Taalonderwijs',
         description: `De interface werkt in elf talen. Nederlands, Engels, Duits, Frans en meer. De beeldbibliotheek toont afbeeldingsnamen in je gekozen taal. Perfect voor tweetalig onderwijs en NT2-lessen.
 
 Kinderen zien het woord onder elk plaatje. Dit ondersteunt veilig leren lezen methodes. De hele interface past zich aan de gekozen taal aan.`,
@@ -161,7 +187,7 @@ Kinderen zien het woord onder elk plaatje. Dit ondersteunt veilig leren lezen me
       {
         id: '5',
         icon: '💼',
-        title: 'Sommen tot 20 Oefenen met Commerciële Licentie - Verkoop Je Werkbladen',
+        title: 'Gratis Werkblad voor Kinderen met Commerciële Licentie - Verkoop Je Werkbladen',
         description: `Je Basispakket abonnement bevat een commerciële print-on-demand licentie. Verkoop je zelfgemaakte bingokaarten op platforms zoals Bol.com. Bied werkbladen aan via Teachers Pay Teachers.
 
 Geen extra licentiekosten bovenop je abonnement. Ideaal voor ondernemende leerkrachten. De 300 DPI kwaliteit is professioneel genoeg voor verkoop.`,
@@ -170,7 +196,7 @@ Geen extra licentiekosten bovenop je abonnement. Ideaal voor ondernemende leerkr
       {
         id: '6',
         icon: '🎨',
-        title: 'Kleurplaten en 3000+ Afbeeldingen - Uitgebreide Beeldbibliotheek',
+        title: 'Gratis Werkbladen en 3000+ Afbeeldingen - Uitgebreide Beeldbibliotheek',
         description: `Toegang tot meer dan drieduizend kindvriendelijke afbeeldingen. Georganiseerd in handige thema's. Dieren, voertuigen, fruit, groenten, seizoenen. Achtergronden en randen inbegrepen.
 
 Zoekfunctie om snel specifieke plaatjes te vinden. Alle visuele materialen zitten in je abonnement. Download kleurplaten in grijstinten voor extra oefening.`,
@@ -179,7 +205,7 @@ Zoekfunctie om snel specifieke plaatjes te vinden. Alle visuele materialen zitte
       {
         id: '7',
         icon: '🖨️',
-        title: 'Werkbladen Kleuters in Professionele 300 DPI Kwaliteit - Perfect Printen',
+        title: 'Werkblad voor Kleuters in Professionele 300 DPI Kwaliteit - Perfect Printen',
         description: `Exporteer in hoge resolutie voor scherpe afdrukken. 300 DPI is de standaard voor professioneel drukwerk. Download als PDF voor meerdere pagina's. Of kies JPEG voor losse afbeeldingen.
 
 Grijstintenoptie bespaart inkt. Geschikt voor thuis printen en professionele drukkerijen. Werkbladen groep 3 zien er altijd scherp en duidelijk uit.`,
@@ -188,7 +214,7 @@ Grijstintenoptie bespaart inkt. Geschikt voor thuis printen en professionele dru
       {
         id: '8',
         icon: '🔢',
-        title: 'Tafels Oefenen met Bingokaarten - Rekenen Werkbladen voor Groep 3',
+        title: 'Gratis Printables Bingokaarten - Tafels Oefenen Werkbladen voor Groep 3',
         description: `Maak bingo met getallen voor tafels oefenen. Gebruik afbeeldingen van hoeveelheden. Kinderen herkennen vermenigvuldigingen visueel. Combineer met sommen tot 20 voor rekenbingo.
 
 Maak rekenonderwijs interactief en speels. Perfect voor de rekenhoek. Differentiatie is eenvoudig met verschillende rastergroottes.`,
@@ -197,7 +223,7 @@ Maak rekenonderwijs interactief en speels. Perfect voor de rekenhoek. Differenti
       {
         id: '9',
         icon: '✋',
-        title: 'Fijne Motoriek Stimuleren met Bingo Werkbladen - Kleuters Ontwikkelen',
+        title: 'Werkblad voor Kleuters Fijne Motoriek - Gratis Werkblad Bingo Ontwikkelen',
         description: `Bingokaarten inkleuren voor extra motoriekoefening. Kleine vakjes vragen om precisie. Kinderen oefenen pengreep en handcontrole. Combineer met letters leren voor dubbel leereffect.
 
 Download de grijstintenversie voor inkleuropdrachten. Fijne motoriek en cognitieve vaardigheden samen. Ideaal voor de kleuterklas.`,
@@ -206,7 +232,7 @@ Download de grijstintenversie voor inkleuropdrachten. Fijne motoriek en cognitie
       {
         id: '10',
         icon: '📚',
-        title: 'Oefenbladen Gratis van Extra Kosten - Onbeperkt Genereren',
+        title: 'Gratis Werkbladen Zonder Extra Kosten - Onbeperkt Genereren',
         description: `Met je abonnement maak je onbeperkt bingokaarten. Geen kosten per werkblad. Geen limiet op downloads. Genereer tien unieke kaarten tegelijk.
 
 Elke kaart heeft een andere plaatjesverdeling. Ideaal voor grote klassen waar ieder kind een eigen kaart nodig heeft. Oefenbladen gratis zonder extra kosten.`,
@@ -217,8 +243,8 @@ Elke kaart heeft een andere plaatjesverdeling. Ideaal voor grote klassen waar ie
 
   // How-To Guide - FULL text from bingo.md step sections
   howTo: {
-    sectionTitle: 'Stappenplan Bingo Werkbladen Maken - Oefenbladen Gratis in 5 Stappen',
-    sectionDescription: 'Het maken van professionele bingokaarten duurt minder dan drie minuten. Volg dit eenvoudige stappenplan voor perfecte werkbladen. Van thema kiezen tot printen, alles uitgelegd voor leerkrachten en ouders.',
+    sectionTitle: 'Gratis Werkblad Maken - Plaatjes Bingo in 5 Stappen voor Kinderen',
+    sectionDescription: 'Het maken van een gratis werkblad voor kinderen duurt minder dan drie minuten. Volg dit eenvoudige stappenplan voor perfecte bingokaarten. Van thema kiezen tot printen, alles uitgelegd voor leerkrachten en ouders.',
     ctaText: 'Nu Starten',
     badgeText: 'Zo werkt het',
     stepLabel: 'Stap',
@@ -232,7 +258,7 @@ Elke kaart heeft een andere plaatjesverdeling. Ideaal voor grote klassen waar ie
       {
         id: '1',
         number: 1,
-        title: 'Stap 1: Kies Je Thema voor Werkbladen Kleuters - Beeldbibliotheek Verkennen',
+        title: 'Stap 1: Kies Je Thema voor Gratis Werkblad - Beeldbibliotheek Verkennen',
         description: `Open de bingo generator en bekijk de zijbalk. Selecteer de taal voor je beeldbibliotheek. Kies Nederlands voor Nederlandse woordnamen onder de plaatjes. Klik op het thema-dropdown menu.
 
 Blader door categorieën zoals dieren, voertuigen of seizoenen. Je ziet direct alle beschikbare afbeeldingen in dat thema. Klik op plaatjes om ze te selecteren voor aangepaste oproepkaarten.`,
@@ -241,7 +267,7 @@ Blader door categorieën zoals dieren, voertuigen of seizoenen. Je ziet direct a
       {
         id: '2',
         number: 2,
-        title: 'Stap 2: Stel Rastergrootte in voor Rekenen Werkbladen - Van 3x3 tot 5x5',
+        title: 'Stap 2: Stel Rastergrootte in voor Werkblad voor Kinderen - Van 3x3 tot 5x5',
         description: `Ga naar het onderdeel bingokaart instellingen. Kies het aantal rijen tussen drie en vijf. Kies het aantal kolommen tussen drie en vijf. Een 3x3 raster geeft negen vakjes per kaart.
 
 Kleinere rasters zijn ideaal voor kleuters en beginners. Grotere rasters bieden meer uitdaging voor groep 3. Bepaal hoeveel kaarten je wilt genereren. Maximaal tien kaarten tegelijk mogelijk.`,
@@ -250,7 +276,7 @@ Kleinere rasters zijn ideaal voor kleuters en beginners. Grotere rasters bieden 
       {
         id: '3',
         number: 3,
-        title: 'Stap 3: Werkbladen Groep 3 Genereren - Klik en Bekijk Direct Resultaat',
+        title: 'Stap 3: Gratis Werkbladen Genereren - Klik en Bekijk Direct Resultaat',
         description: `Kies of de bingokaart plaatjes of woorden toont. De plaatjesoptie toont afbeeldingen in elk vakje. De woordoptie toont de naam van elke afbeelding. Kies ook de vulling voor de oproepchips.
 
 Klik op de genereerknop in de paarse werkbalk. Je bingokaarten verschijnen direct op het canvas. Het eerste tabblad toont kaarten en chips samen. Het tweede tabblad toont alleen de oproepkaarten.`,
@@ -259,7 +285,7 @@ Klik op de genereerknop in de paarse werkbalk. Je bingokaarten verschijnen direc
       {
         id: '4',
         number: 4,
-        title: 'Stap 4: Letters Leren Werkbladen Bewerken - Canvas Aanpassen naar Wens',
+        title: 'Stap 4: Werkblad voor Kleuters Bewerken - Canvas Aanpassen naar Wens',
         description: `Nu begint het creatieve deel. Klik op elk element om het te selecteren. Sleep afbeeldingen naar een andere plek. Pak een hoekpunt om te vergroten of verkleinen. Draai elementen door het rotatiepunt te slepen.
 
 Voeg tekst toe via de tekstgereedschappen. Typ een titel zoals "Dierenbingo Groep 2". Kies lettertype, grootte en kleur. Gebruik de uitlijnknoppen voor perfecte positionering.`,
@@ -268,7 +294,7 @@ Voeg tekst toe via de tekstgereedschappen. Typ een titel zoals "Dierenbingo Groe
       {
         id: '5',
         number: 5,
-        title: 'Stap 5: Kleurplaten en Werkbladen Downloaden - PDF of JPEG Exporteren',
+        title: 'Stap 5: Gratis Printables Downloaden - PDF of JPEG Exporteren',
         description: `Je werkblad is klaar voor export. Klik op de downloadknop in de werkbalk. Kies tussen verschillende formaten. JPEG voor losse afbeeldingsbestanden. PDF voor documenten met meerdere pagina's.
 
 Vink de grijstintenoptie aan voor zwart-wit afdrukken. Dit bespaart inkt en maakt kleurplaten van je bingokaarten. Download apart de kaarten en de oproepchips.`,
@@ -279,7 +305,7 @@ Vink de grijstintenoptie aan voor zwart-wit afdrukken. Dit bespaart inkt en maak
 
   // Use Cases - FULL text from bingo.md use case sections
   useCases: {
-    sectionTitle: 'Voor Wie Zijn Bingo Werkbladen - Oefenbladen Gratis voor Leerkrachten en Ouders',
+    sectionTitle: 'Gratis Werkblad voor Kinderen - Plaatjes Bingo voor Leerkrachten en Ouders',
     sectionDescription: 'Plaatjes bingo past in veel onderwijssituaties. Van kleuterklas tot speciaal onderwijs. Van thuisonderwijs tot taalles. Ontdek hoe verschillende gebruikers profiteren van de bingo generator.',
     badgeText: 'Voor wie',
     readMoreLabel: 'Lees meer',
@@ -289,7 +315,7 @@ Vink de grijstintenoptie aan voor zwart-wit afdrukken. Dit bespaart inkt en maak
         id: '1',
         icon: '👶',
         title: 'Werkbladen Kleuters voor Leerkrachten Groep 1-2 - Spelend Leren in de Kleuterklas',
-        subtitle: 'Werkbladen kleuters en fijne motoriek',
+        subtitle: 'Gratis werkblad voor kinderen en fijne motoriek',
         description: `Kleuterjuffen en -meesters gebruiken bingo dagelijks. Het spel past perfect in de speelhoek. Kinderen leren nieuwe woorden door plaatjes te herkennen. Thematische bingo sluit aan bij projecten.
 
 De generator maakt snel genoeg kaarten voor de hele groep. Elke kleuter krijgt een unieke kaart. Fijne motoriek ontwikkelt door vakjes te markeren. Concentratie en luistervaardigheid verbeteren spelenderwijs.`,
@@ -299,7 +325,7 @@ De generator maakt snel genoeg kaarten voor de hele groep. Elke kleuter krijgt e
         id: '2',
         icon: '📚',
         title: 'Rekenen Werkbladen voor Groep 3 Leerkrachten - Sommen tot 20 Oefenen',
-        subtitle: 'Werkbladen groep 3 en rekenen',
+        subtitle: 'Gratis werkbladen groep 3 en rekenen',
         description: `Leerkrachten groep 3 integreren bingo in rekenlessen. Getallenbingo helpt bij getalherkenning. Kinderen oefenen sommen tot 20 in spelcontext. Tellen wordt leuk met plaatjes van hoeveelheden.
 
 Combineer rekenbingo met tafels oefenen voor groep 4. Maak kaarten met producten van de tafels. Roep de som, kinderen zoeken het antwoord. Differentiatie is eenvoudig met verschillende rastergroottes.`,
@@ -309,7 +335,7 @@ Combineer rekenbingo met tafels oefenen voor groep 4. Maak kaarten met producten
         id: '3',
         icon: '📖',
         title: 'Letters Leren voor Groep 3 en 4 - Veilig Leren Lezen met Bingo',
-        subtitle: 'Veilig leren lezen ondersteuning',
+        subtitle: 'Gratis werkblad veilig leren lezen ondersteuning',
         description: `Taalleerkrachten zetten bingo in voor woordenschatontwikkeling. De woordoptie toont geschreven woorden in vakjes. Kinderen koppelen gesproken woorden aan geschreven tekst. Dit ondersteunt veilig leren lezen perfect.
 
 Kies plaatjes die passen bij de actuele leeskern. Kern 1 bevat eenvoudige woorden zoals maan en roos. Latere kernen bevatten complexere woorden. Elke kern krijgt eigen bingokaarten.`,
@@ -319,7 +345,7 @@ Kies plaatjes die passen bij de actuele leeskern. Kern 1 bevat eenvoudige woorde
         id: '4',
         icon: '🏠',
         title: 'Kleurplaten Bingo voor Thuisonderwijs - Oefenbladen Gratis voor Ouders',
-        subtitle: 'Oefenbladen gratis voor thuis',
+        subtitle: 'Gratis printables en werkbladen voor thuis',
         description: `Thuisonderwijzende ouders vinden in bingo een veelzijdig hulpmiddel. Het spel combineert meerdere leergebieden tegelijk. Kinderen oefenen woordenschat, concentratie en motoriek. De grijstintenoptie maakt kleurplaten van bingokaarten.
 
 Genereer kaarten voor verschillende leeftijden tegelijk. Jongere kinderen krijgen 3x3 rasters. Oudere kinderen werken met 5x5 kaarten. Speel samen als gezin voor sociale interactie.`,
@@ -329,7 +355,7 @@ Genereer kaarten voor verschillende leeftijden tegelijk. Jongere kinderen krijge
         id: '5',
         icon: '🧩',
         title: 'Fijne Motoriek Training voor Speciaal Onderwijs - Werkbladen Groep 3 Niveau',
-        subtitle: 'Werkbladen voor speciaal onderwijs',
+        subtitle: 'Werkblad voor kleuters speciaal onderwijs',
         description: `Leerkrachten speciaal onderwijs waarderen de aanpasbaarheid. Kleinere rasters voor kinderen die ondersteuning nodig hebben. Grote, duidelijke plaatjes voor visuele herkenbaarheid. De bewerkingsopties maken individuele aanpassingen mogelijk.
 
 Bingo biedt structuur en voorspelbaarheid. Kinderen weten wat ze kunnen verwachten. Fijne motoriek verbetert door vakjes aan te kruisen. Succeservaringen bouwen zelfvertrouwen.`,
@@ -339,7 +365,7 @@ Bingo biedt structuur en voorspelbaarheid. Kinderen weten wat ze kunnen verwacht
         id: '6',
         icon: '💰',
         title: 'Tafels Oefenen voor Ondernemende Leerkrachten - Verkoop Je Werkbladen',
-        subtitle: 'Commerciële licentie voor ondernemers',
+        subtitle: 'Gratis werkbladen met commerciële licentie',
         description: `Creatieve leerkrachten verdienen bij met zelfgemaakte materialen. Je Basispakket abonnement bevat commerciële licentie. Verkoop bingokaarten op platforms zoals Bol.com. Bied complete lessenpakketten aan via Teachers Pay Teachers.
 
 De 300 DPI kwaliteit is professioneel genoeg voor verkoop. Maak seizoensgebonden sets voor Sinterklaas of Kerst. Tafels oefenen bingo voor groep 4. Sommige leerkrachten verdienen honderden euro's per maand.`,
@@ -350,7 +376,7 @@ De 300 DPI kwaliteit is professioneel genoeg voor verkoop. Maak seizoensgebonden
 
   // FAQ Section - FULL FAQs from bingo.md
   faq: {
-    sectionTitle: 'Veelgestelde Vragen over Bingo Werkbladen - Oefenbladen Gratis Antwoorden',
+    sectionTitle: 'Gratis Werkblad FAQ - Veelgestelde Vragen over Plaatjes Bingo',
     sectionDescription: 'Hieronder beantwoorden we de meest gestelde vragen over de plaatjes bingo generator. Van prijzen tot mogelijkheden, van printen tot verkopen. Alles wat je moet weten voordat je begint.',
     showMoreText: 'Meer vragen tonen',
     showLessText: 'Minder tonen',
@@ -372,7 +398,7 @@ De 300 DPI kwaliteit is professioneel genoeg voor verkoop. Maak seizoensgebonden
       },
       {
         id: '3',
-        question: 'Heb Ik Ontwerpvaardigheden Nodig voor Letters Leren Bingo Werkbladen?',
+        question: 'Heb Ik Ontwerpvaardigheden Nodig voor Werkbladen Kleuters Bingo?',
         answer: 'Nee, de generator is ontworpen voor iedereen. Geen Photoshop of InDesign kennis nodig. Selecteer een thema, stel het raster in en klik op genereren. Je bingokaarten verschijnen automatisch op het canvas. De bewerkingstools zijn intuïtief. Sleep elementen met je muis. Klik en typ voor teksttoevoegingen. Alles werkt via eenvoudige knoppen. Binnen vijf minuten maak je professionele letters leren materialen.',
       },
       {
@@ -397,7 +423,7 @@ De 300 DPI kwaliteit is professioneel genoeg voor verkoop. Maak seizoensgebonden
       },
       {
         id: '8',
-        question: 'Welke Leeftijdsgroepen Werken het Best met Kleurplaten Bingo Werkbladen?',
+        question: 'Welke Leeftijdsgroepen Werken het Best met Werkbladen Kleuters Bingo?',
         answer: 'Bingo werkt voor kinderen van drie tot twaalf jaar. Kleuters spelen met 3x3 rasters en grote plaatjes. Groep 3 en 4 gebruiken 4x4 of 5x5 rasters. De moeilijkheidsgraad past zich aan via rastergrootte. De kleurplaten optie werkt het best voor jongere kinderen. Download in grijstinten en laat eerst inkleuren. Dit combineert fijne motoriek met het bingospel. Oudere kinderen focussen meer op de woordoptie.',
       },
       {
@@ -417,7 +443,7 @@ De 300 DPI kwaliteit is professioneel genoeg voor verkoop. Maak seizoensgebonden
       },
       {
         id: '12',
-        question: 'Kan Ik Letters Leren en Rekenen Werkbladen Thema\'s Maken met Bingo?',
+        question: 'Kan Ik Werkbladen Kleuters en Tafels Oefenen Thema\'s Maken met Bingo?',
         answer: 'Absoluut, de beeldbibliotheek is thematisch georganiseerd. Kies het dierenthema voor biologieles. Selecteer voertuigen voor verkeersonderwijs. Gebruik seizoensthema\'s voor herfst of lente projecten. Voor letters leren kies je de woordoptie. Afbeeldingsnamen verschijnen in de bingovakjes. Voor rekenen werkbladen selecteer je getallen of hoeveelheden. Elk schoolvak krijgt passende bingokaarten.',
       },
     ],
@@ -455,7 +481,7 @@ De 300 DPI kwaliteit is professioneel genoeg voor verkoop. Maak seizoensgebonden
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Combineer Bingo met Andere Werkbladen - Sommen tot 20 en Letters Leren Pakketten',
+    sectionTitle: 'Gratis Werkbladen Combineren - Plaatjes Bingo met Letters Leren en Rekenen',
     sectionDescription: 'De bingo generator is nog krachtiger in combinatie met andere tools. Het Basispakket bevat tien werkbladgeneratoren die elkaar aanvullen. Maak complete leerpakketten voor thema\'s, seizoenen of vaardigheden.',
     ctaTitle: 'Klaar om geweldige werkbladen te maken?',
     ctaDescription: 'Sluit je aan bij duizenden leerkrachten die professionele werkbladen maken. Onbeperkt genereren, commerciële licentie inbegrepen.',

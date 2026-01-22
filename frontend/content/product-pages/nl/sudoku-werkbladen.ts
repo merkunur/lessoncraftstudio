@@ -27,22 +27,48 @@ export const sudokuNlContent: ProductPageContent = {
   seo: {
     slug: 'sudoku-werkbladen',
     appId: 'sudoku',
-    title: 'Sudoku Werkbladen Generator - Oefenbladen Gratis voor Werkbladen Groep 3 en Werkbladen Kleuters',
+    title: 'Gratis Werkblad Sudoku Generator - Gratis Werkbladen voor Kinderen en Kleuters',
     description: 'Maak prachtige visuele sudoku puzzels voor jonge kinderen. Onze sudoku werkbladen generator is speciaal ontworpen voor kleuters en basisschoolleerlingen. Met je Basispakket abonnement maak je onbeperkt werkbladen kleuters zonder extra kosten per werkblad.',
     keywords: 'sudoku werkbladen, werkbladen groep 3, werkbladen kleuters, rekenen werkbladen, oefenbladen gratis, kleurplaten, letters leren, schrijven oefenen, tafels oefenen, veilig leren lezen, fijne motoriek, sommen tot 20',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/sudoku-werkbladen',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/dutch/sudoku/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis werkblad sudoku voor kinderen - makkelijk niveau met plaatjes'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/dutch/sudoku/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis werkblad sudoku voor kleuters - medium moeilijkheidsgraad'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/dutch/sudoku/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis werkbladen sudoku - moeilijk niveau voor groep 3'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/dutch/sudoku/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Werkblad voor kinderen sudoku puzzels - gratis printables educatief'
+      }
+    ],
   },
 
   // Hero Section - FULL text from sudoku.md paragraphs 1-4
   hero: {
-    title: 'Sudoku Werkbladen Generator',
-    subtitle: 'Oefenbladen Gratis voor Werkbladen Groep 3 en Werkbladen Kleuters',
+    title: 'Gratis Werkblad Sudoku Generator - Werkblad voor Kinderen',
+    subtitle: 'Gratis Werkbladen en Gratis Printables voor Werkblad voor Kleuters',
     description: `Maak prachtige visuele sudoku puzzels voor jonge kinderen. Onze sudoku werkbladen generator is speciaal ontworpen voor kleuters en basisschoolleerlingen. Met je Basispakket abonnement maak je onbeperkt werkbladen kleuters zonder extra kosten per werkblad. In plaats van cijfers gebruiken deze puzzels kleurrijke plaatjes. Perfect voor kinderen die nog niet kunnen rekenen.
 
 Visuele sudoku helpt kinderen logisch denken ontwikkelen. De puzzels zijn ideaal voor werkbladen groep 3 en werkbladen kleuters. Kinderen leren patronen herkennen zonder dat ze cijfers hoeven te kennen. Dit maakt onze sudoku generator perfect voor de jongste leerlingen.
 
 Onze sudoku voor kinderen gebruikt afbeeldingen in plaats van cijfers. Een 4x4 rooster maakt de puzzels behapbaar voor jonge leerlingen. Kies uit meer dan 3000 kindvriendelijke afbeeldingen. Selecteer een thema of kies individuele plaatjes.`,
-    previewImageSrc: '/samples/english/sudoku/sudoku_easy.jpeg',
+    previewImageSrc: '/samples/dutch/sudoku/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Gratis Uitproberen',
       viewSamples: 'Voorbeelden Bekijken',
@@ -61,9 +87,9 @@ Onze sudoku voor kinderen gebruikt afbeeldingen in plaats van cijfers. Een 4x4 r
     },
   },
 
-  // Sample Gallery - REAL file paths from samples/english/sudoku/
+  // Sample Gallery - REAL file paths from samples/dutch/sudoku/
   samples: {
-    sectionTitle: 'Sudoku Werkbladen Voorbeelden',
+    sectionTitle: 'Gratis Werkbladen Sudoku Voorbeelden - Werkblad voor Kleuters',
     sectionDescription: 'Download gratis voorbeeldwerkbladen om onze professionele kwaliteit te ervaren',
     downloadLabel: 'Gratis Voorbeeld Downloaden',
     worksheetLabel: 'Werkblad',
@@ -77,31 +103,38 @@ Onze sudoku voor kinderen gebruikt afbeeldingen in plaats van cijfers. Een 4x4 r
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/sudoku/sudoku_easy.jpeg',
-        answerKeySrc: '/samples/english/sudoku/sudoku_easy answer_key.jpeg',
-        altText: 'Sudoku werkblad makkelijk niveau met plaatjes voor werkbladen kleuters',
-        pdfDownloadUrl: '/samples/english/sudoku/sudoku_easy.pdf',
+        worksheetSrc: '/samples/dutch/sudoku/sample-1.jpeg',
+        answerKeySrc: '/samples/dutch/sudoku/sample-1-answer.jpeg',
+        altText: 'Sudoku gratis werkblad voor kinderen - makkelijk niveau met plaatjes voor kleuters',
+        pdfDownloadUrl: '/samples/dutch/sudoku/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/sudoku/sudoku medium.jpeg',
-        answerKeySrc: '/samples/english/sudoku/sudoku medium answer_key.jpeg',
-        altText: 'Sudoku werkblad medium niveau voor werkbladen groep 3',
-        pdfDownloadUrl: '/samples/english/sudoku/sudoku medium.pdf',
+        worksheetSrc: '/samples/dutch/sudoku/sample-2.jpeg',
+        answerKeySrc: '/samples/dutch/sudoku/sample-2-answer.jpeg',
+        altText: 'Sudoku gratis werkbladen - medium niveau werkblad voor kleuters groep 1 2',
+        pdfDownloadUrl: '/samples/dutch/sudoku/sample-2.pdf',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/sudoku/sudoku hard.jpeg',
-        answerKeySrc: '/samples/english/sudoku/sudoku hard answer_key.jpeg',
-        altText: 'Sudoku werkblad moeilijk niveau voor gevorderde leerlingen',
-        pdfDownloadUrl: '/samples/english/sudoku/sudoku hard.pdf',
+        worksheetSrc: '/samples/dutch/sudoku/sample-3.jpeg',
+        answerKeySrc: '/samples/dutch/sudoku/sample-3-answer.jpeg',
+        altText: 'Sudoku werkblad voor kinderen - moeilijk niveau gratis printables groep 3',
+        pdfDownloadUrl: '/samples/dutch/sudoku/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/dutch/sudoku/sample-4.jpeg',
+        answerKeySrc: '/samples/dutch/sudoku/sample-4-answer.jpeg',
+        altText: 'Sudoku gratis werkblad - puzzelactiviteit werkblad voor kleuters en kinderen',
+        pdfDownloadUrl: '/samples/dutch/sudoku/sample-4.pdf',
       },
     ],
   },
 
   // Features Grid - FULL text from sudoku.md feature sections
   features: {
-    sectionTitle: 'Sudoku Generator Functies - Alles voor Werkbladen Groep 3 en Oefenbladen Gratis',
+    sectionTitle: 'Sudoku Generator Functies - Gratis Werkblad voor Kinderen en Werkblad voor Kleuters',
     sectionDescription: 'Onze sudoku werkbladen generator biedt alle functies die je nodig hebt. Van eenvoudige creatie tot professionele downloads. Hieronder vind je de zeven belangrijkste mogelijkheden. Elke functie is ontworpen met leerkrachten en ouders in gedachten. Maak werkbladen kleuters en werkbladen groep 3 zonder technische kennis.',
     highlightBadgeText: 'Uitgelicht',
     readMoreLabel: 'Lees meer',
@@ -116,7 +149,7 @@ Onze sudoku voor kinderen gebruikt afbeeldingen in plaats van cijfers. Een 4x4 r
       {
         id: '1',
         icon: '⚡',
-        title: 'Werkbladen Kleuters Maken in 3 Klikken - Snel Oefenbladen Gratis Genereren',
+        title: 'Gratis Werkblad Maken in 3 Klikken - Werkblad voor Kinderen Snel Genereren',
         description: `Maak een complete sudoku puzzel in slechts drie stappen. Kies eerst een thema of selecteer individuele plaatjes. Stel vervolgens de moeilijkheidsgraad in. Klik op genereren en je werkblad verschijnt direct. Geen ingewikkelde instellingen of lange wachttijden.
 
 De generator selecteert automatisch vier unieke afbeeldingen. Het rooster wordt perfect gevuld volgens sudoku regels. Lege vakjes worden willekeurig geplaatst op basis van je gekozen niveau. Binnen een minuut heb je een printklaar werkblad.
@@ -127,7 +160,7 @@ Dit bespaart uren voorbereidingstijd. Traditioneel kost het maken van puzzels ve
       {
         id: '2',
         icon: '✏️',
-        title: 'Rekenen Werkbladen Volledig Bewerkbaar - Alles op het Canvas Aanpassen',
+        title: 'Gratis Werkbladen Volledig Bewerkbaar - Werkblad voor Kleuters Aanpassen',
         description: `Elk element op je werkblad is volledig aanpasbaar. Sleep afbeeldingen naar een andere positie. Vergroot of verklein plaatjes met je muis. Draai elementen in elke gewenste hoek. Verwijder wat je niet nodig hebt.
 
 Deze flexibiliteit onderscheidt onze generator. Andere tools geven statische output. Bij ons pas je alles aan naar wens. Voeg extra decoraties toe. Plaats een titel bovenaan. Schrijf instructies voor leerlingen.
@@ -138,7 +171,7 @@ De bewerkingsmogelijkheden zijn ideaal voor rekenen werkbladen combinaties. Voeg
       {
         id: '3',
         icon: '📤',
-        title: 'Fijne Motoriek Training met Eigen Afbeeldingen - Upload je Eigen Plaatjes',
+        title: 'Gratis Printables met Eigen Afbeeldingen - Upload je Eigen Plaatjes',
         description: `Upload je eigen foto's en afbeeldingen. Ondersteunde formaten zijn JPEG, PNG en GIF. Selecteer meerdere bestanden tegelijk. Je uploads verschijnen direct in de bibliotheek.
 
 Gebruik klasfoto's voor persoonlijke puzzels. Upload afbeeldingen van het huidige thema. Maak seizoensgebonden werkbladen met eigen materiaal. Combineer uploads met bibliotheekafbeeldingen.
@@ -149,7 +182,7 @@ Eigen afbeeldingen maken werkbladen extra motiverend. Kinderen herkennen bekende
       {
         id: '4',
         icon: '🌍',
-        title: 'Veilig Leren Lezen Ondersteuning in 11 Talen - Nederlandse Interface',
+        title: 'Werkblad voor Kinderen in 11 Talen - Nederlandse Interface',
         description: `De generator ondersteunt elf talen volledig. Nederlands, Duits, Frans, Spaans, Italiaans, Portugees, Zweeds, Deens, Noors, Fins en Engels. Alle menu's verschijnen in je gekozen taal. Afbeeldingsnamen zijn vertaald.
 
 Voor veilig leren lezen programma's is dit essentieel. Kinderen zien Nederlandse woorden bij elke afbeelding. Dit versterkt woordherkenning. Taalondersteuning maakt de tool bruikbaar voor meertalige klassen.
@@ -160,7 +193,7 @@ Internationale scholen profiteren enorm. Wissel tussen talen met een klik. Maak 
       {
         id: '5',
         icon: '💼',
-        title: 'Kleurplaten Verkopen met Commerciële Licentie - POD Rechten Inbegrepen',
+        title: 'Gratis Werkblad Verkopen - Commerciële Licentie POD Rechten',
         description: `Je Basispakket abonnement bevat volledige commerciële rechten. Verkoop je werkbladen op Teachers Pay Teachers. Bied puzzels aan via Etsy. Publiceer op Amazon KDP. Geen extra licentiekosten.
 
 Dit opent mogelijkheden voor ondernemende leerkrachten. Maak thematische bundels met kleurplaten en sudoku. Verkoop seizoenspakketten. Bouw een passief inkomen naast je baan.
@@ -171,7 +204,7 @@ De 300 DPI exportkwaliteit is professioneel. Kopers ontvangen scherpe afdrukken.
       {
         id: '6',
         icon: '🎨',
-        title: 'Tafels Oefenen Aanvullen met 3000+ Afbeeldingen - Complete Beeldbibliotheek',
+        title: 'Werkblad voor Kleuters met 3000+ Afbeeldingen - Beeldbibliotheek',
         description: `Toegang tot meer dan 3000 kindvriendelijke afbeeldingen. Alle plaatjes zijn georganiseerd per thema. Dieren, voertuigen, eten, natuur, seizoenen en meer. Zoek op trefwoord of blader door categorieën.
 
 De bibliotheek bevat ook achtergronden en randen. Kies een passende achtergrond voor je thema. Voeg een decoratieve rand toe. Alle visuele elementen zijn inbegrepen.
@@ -182,7 +215,7 @@ Combineer sudoku met tafels oefenen materiaal. Gebruik dezelfde thema-afbeelding
       {
         id: '7',
         icon: '🖨️',
-        title: 'Sommen tot 20 Kwaliteit met 300 DPI - Professionele Downloads',
+        title: 'Gratis Werkbladen 300 DPI Kwaliteit - Professionele Downloads',
         description: `Elke download heeft 300 DPI resolutie. Dit is professionele printkwaliteit. Afbeeldingen blijven scherp op papier. Geen korrelige of wazige afdrukken.
 
 Kies tussen PDF en JPEG formaat. PDF is ideaal voor meerdere pagina's. JPEG werkt perfect voor individuele werkbladen. Beide formaten printen uitstekend thuis.
@@ -193,7 +226,7 @@ De grijstinten optie bespaart inkt. Zet kleuren om naar zwart-wit met een klik. 
       {
         id: '8',
         icon: '✅',
-        title: 'Schrijven Oefenen Combineren met Puzzels - Antwoordsleutels Automatisch',
+        title: 'Gratis Printables met Antwoordsleutels - Automatisch Genereren',
         description: `Elke puzzel krijgt automatisch een antwoordsleutel. Genereer eerst het werkblad. Klik daarna op antwoordsleutel genereren. Beide versies zijn direct downloadbaar.
 
 Antwoordsleutels besparen nakijktijd. Leerlingen kunnen zelf controleren. Of gebruik ze voor snelle beoordeling. Perfect bij schrijven oefenen en andere zelfstandige werkvormen.
@@ -206,7 +239,7 @@ De tabbladen scheiden werkblad en antwoorden. Wissel eenvoudig tussen beide weer
 
   // How-To Guide - FULL text from sudoku.md step sections
   howTo: {
-    sectionTitle: 'Sudoku Werkbladen Maken in 5 Stappen - Oefenbladen Gratis voor Groep 1 2 3',
+    sectionTitle: 'Sudoku Werkbladen Maken - Gratis Werkbladen en Gratis Printables in 5 Stappen',
     sectionDescription: 'Maak je eerste sudoku werkblad in minder dan drie minuten. Het proces is eenvoudig en intuïtief. Volg deze vijf stappen voor perfecte resultaten. Geen ervaring met ontwerpen nodig. Iedereen kan professionele werkbladen kleuters en werkbladen groep 3 maken.',
     ctaText: 'Nu Starten',
     badgeText: 'Zo werkt het',
@@ -221,7 +254,7 @@ De tabbladen scheiden werkblad en antwoorden. Wissel eenvoudig tussen beide weer
       {
         id: '1',
         number: 1,
-        title: 'Stap 1: Kies je Afbeeldingen voor Rekenen Werkbladen - Thema of Individueel',
+        title: 'Stap 1: Kies Afbeeldingen voor Gratis Werkblad - Thema of Individueel',
         description: `Begin met het selecteren van afbeeldingen voor je puzzel. Je hebt twee opties. Kies een compleet thema of selecteer individuele plaatjes.
 
 Bij themaselectie kiest de generator automatisch vier passende afbeeldingen. Thema's omvatten dieren, voertuigen, fruit, seizoenen en meer. Perfect voor snelle werkbladen groep 3 creatie. Alle plaatjes passen bij elkaar qua stijl.
@@ -232,7 +265,7 @@ Voor meer controle selecteer je individuele afbeeldingen. Blader door de bibliot
       {
         id: '2',
         number: 2,
-        title: 'Stap 2: Stel Moeilijkheidsgraad in voor Sommen tot 20 Niveau - Makkelijk tot Moeilijk',
+        title: 'Stap 2: Stel Moeilijkheidsgraad in - Werkblad voor Kinderen Niveau',
         description: `Kies de moeilijkheidsgraad voor je puzzel. Dit bepaalt hoeveel vakjes leeg blijven. Drie niveaus zijn beschikbaar.
 
 Makkelijk heeft vier lege vakjes. Perfect voor beginners en werkbladen kleuters. Kinderen leren de basisregels zonder frustratie. Ideaal voor eerste kennismaking met sudoku.
@@ -243,7 +276,7 @@ Medium bevat zes lege vakjes. Geschikt voor kinderen met enige ervaring. Vergeli
       {
         id: '3',
         number: 3,
-        title: 'Stap 3: Genereer je Werkbladen Kleuters - Direct Resultaat Bekijken',
+        title: 'Stap 3: Genereer Gratis Werkbladen - Direct Resultaat Bekijken',
         description: `Klik op de blauwe genereerknop. Je puzzel verschijnt direct op het canvas. Het 4x4 rooster toont je gekozen afbeeldingen. Lege vakjes zijn wit gemarkeerd.
 
 De generator plaatst afbeeldingen volgens sudoku regels. Elke rij bevat elk plaatje precies een keer. Elke kolom bevat elk plaatje precies een keer. Dit garandeert een oplosbare puzzel.
@@ -254,7 +287,7 @@ Bekijk het resultaat op het canvas. Zoom in voor details. Controleer of de afbee
       {
         id: '4',
         number: 4,
-        title: 'Stap 4: Bewerk op Canvas voor Veilig Leren Lezen Combinaties - Volledige Aanpassing',
+        title: 'Stap 4: Bewerk op Canvas - Werkblad voor Kleuters Aanpassen',
         description: `Nu kun je het werkblad volledig aanpassen. Elk element is bewerkbaar. Dit onderscheidt onze tool van statische generators.
 
 Voeg een titel toe bovenaan. Klik op tekst toevoegen. Typ bijvoorbeeld "Sudoku Puzzel" of de naam van je leerling. Kies lettertype, grootte en kleur. Plaats de tekst waar je wilt.
@@ -265,7 +298,7 @@ Sleep afbeeldingen naar andere posities. Vergroot of verklein elementen. Draai p
       {
         id: '5',
         number: 5,
-        title: 'Stap 5: Download Oefenbladen Gratis als PDF - Werkbladen Groep 3 Printen',
+        title: 'Stap 5: Download Gratis Printables als PDF - Werkblad Printen',
         description: `Je werkblad is klaar voor download. Klik op de downloadknop. Kies je gewenste formaat.
 
 PDF is ideaal voor werkbladen groep 3 en kleurplaten combinaties. Het formaat behoudt perfecte kwaliteit. Print meerdere pagina's eenvoudig. Deel bestanden digitaal met collega's.
@@ -278,7 +311,7 @@ JPEG werkt uitstekend voor individuele werkbladen. Snel te delen via e-mail of c
 
   // Use Cases - FULL text from sudoku.md use case sections
   useCases: {
-    sectionTitle: 'Sudoku Werkbladen voor Leerkrachten en Ouders - Oefenbladen Gratis voor Iedereen',
+    sectionTitle: 'Gratis Werkblad Sudoku voor Leerkrachten - Werkblad voor Kinderen en Kleuters',
     sectionDescription: 'Onze sudoku generator is ontworpen voor diverse gebruikers. Van kleuterjuffen tot thuisonderwijzers. Van basisschoolleerkrachten tot ondernemende docenten. Hieronder ontdek je hoe verschillende groepen profiteren. Iedereen vindt werkbladen kleuters en werkbladen groep 3 voor hun specifieke situatie.',
     badgeText: 'Voor wie',
     readMoreLabel: 'Lees meer',
@@ -288,7 +321,7 @@ JPEG werkt uitstekend voor individuele werkbladen. Snel te delen via e-mail of c
         id: '1',
         icon: '👶',
         title: 'Leerkrachten Groep 1 2 met Werkbladen Kleuters - Fijne Motoriek Ontwikkelen',
-        subtitle: 'Werkbladen kleuters en fijne motoriek',
+        subtitle: 'Gratis werkblad voor kinderen en fijne motoriek',
         description: `Kleuterleidsters gebruiken sudoku voor vroege ontwikkeling. Visuele puzzels zijn perfect voor fijne motoriek training. Kinderen wijzen naar plaatjes en vergelijken vormen. Dit versterkt hand-oog coördinatie.
 
 In groep 1 2 leren kinderen basisvaardigheden. Sudoku introduceert logisch denken spelenderwijs. Geen cijfers nodig, alleen herkenbare afbeeldingen. Kleuters begrijpen de regels intuïtief.
@@ -300,7 +333,7 @@ Combineer sudoku met andere werkbladen kleuters activiteiten. Wissel af met kleu
         id: '2',
         icon: '📚',
         title: 'Leerkrachten Groep 3 met Rekenen Werkbladen - Logisch Denken Stimuleren',
-        subtitle: 'Werkbladen groep 3 en logisch denken',
+        subtitle: 'Werkblad voor kleuters en logisch denken',
         description: `In groep 3 start formeel onderwijs. Sudoku sluit perfect aan bij rekenen werkbladen. Beide trainen logisch redeneren. Kinderen schakelen tussen cijfers en beelden.
 
 Groep 3 leerlingen werken met veilig leren lezen. Sudoku biedt afwisseling van taalactiviteiten. De puzzels activeren andere hersendelen. Dit bevordert concentratie en focus.
@@ -312,7 +345,7 @@ Gebruik medium moeilijkheidsgraad voor groep 3. Zes lege vakjes vormen een goede
         id: '3',
         icon: '🧮',
         title: 'Leerkrachten Groep 4 5 met Tafels Oefenen - Afwisseling in Rekenles',
-        subtitle: 'Tafels oefenen en afwisseling',
+        subtitle: 'Gratis werkbladen en afwisseling',
         description: `Bovenbouwleerkrachten zoeken variatie. Tafels oefenen kan eentonig worden. Sudoku biedt welkome afwisseling zonder rekenfocus te verliezen.
 
 In groep 4 en 5 kunnen leerlingen moeilijke puzzels aan. Acht lege vakjes vereisen doorzettingsvermogen. Dit past bij de ontwikkeling van oudere kinderen. Ze leren omgaan met complexere uitdagingen.
@@ -324,7 +357,7 @@ Combineer sudoku met sommen tot 20 herhalingsoefeningen. Maak complete rekenpakk
         id: '4',
         icon: '🏠',
         title: 'Thuisonderwijs Ouders met Oefenbladen Gratis - Flexibel Lesmateriaal',
-        subtitle: 'Oefenbladen gratis voor thuis',
+        subtitle: 'Gratis printables voor thuis',
         description: `Thuisonderwijzers waarderen flexibiliteit. Onze generator biedt oefenbladen gratis maken wanneer je wilt. Geen wachten op leveringen. Direct printen en gebruiken.
 
 Pas puzzels aan op je kind. Upload foto's van huisdieren of familieleden. Maak sudoku persoonlijk en motiverend. Kinderen herkennen bekende gezichten.
@@ -336,7 +369,7 @@ Combineer sudoku met andere vakken. Gebruik het als beloning na rekenen werkblad
         id: '5',
         icon: '🌐',
         title: 'NT2 en Taalonderwijs met Veilig Leren Lezen - Woordenschat Uitbreiden',
-        subtitle: 'Werkbladen groep 3 voor NT2',
+        subtitle: 'Werkblad voor kinderen voor NT2',
         description: `Taalleerkrachten gebruiken sudoku voor woordenschat. Afbeeldingsnamen verschijnen in het Nederlands. Kinderen leren woorden bij elk plaatje. Dit ondersteunt veilig leren lezen programma's.
 
 De 11 taalondersteuning helpt meertalige klassen. Wissel tussen Nederlands en andere talen. Vergelijk woorden in verschillende talen. Ideaal voor NT2 onderwijs.
@@ -348,7 +381,7 @@ Visuele puzzels zijn taalarm. Instructies zijn minimaal. Nieuwkomers kunnen dire
         id: '6',
         icon: '💰',
         title: 'Ondernemende Leerkrachten met Kleurplaten Verkopen - Commerciële Mogelijkheden',
-        subtitle: 'Commerciële licentie voor ondernemers',
+        subtitle: 'Gratis werkblad commerciële licentie',
         description: `Wil je bijverdienen met lesmateriaal? Je Basispakket abonnement bevat commerciële rechten. Verkoop je werkbladen zonder extra kosten. De licentie is inbegrepen bij €144 per jaar.
 
 Maak thematische bundels voor verkoop. Combineer sudoku met kleurplaten en rekenen werkbladen. Seizoenspakketten verkopen uitstekend. Denk aan Sinterklaas, Kerst of Pasen.
@@ -361,7 +394,7 @@ Verkoop op Teachers Pay Teachers Nederland. Of bied aan via Etsy. Amazon KDP acc
 
   // FAQ Section - FULL FAQs from sudoku.md
   faq: {
-    sectionTitle: 'Veelgestelde Vragen over Sudoku Werkbladen - Oefenbladen Gratis en Meer',
+    sectionTitle: 'Veelgestelde Vragen - Gratis Werkblad voor Kinderen en Gratis Printables',
     sectionDescription: 'Hieronder beantwoorden we de meest gestelde vragen over onze sudoku generator. Van kosten tot mogelijkheden. Van printen tot verkopen. Vind snel antwoord op jouw vraag over werkbladen groep 3 en werkbladen kleuters.',
     showMoreText: 'Meer vragen tonen',
     showLessText: 'Minder tonen',
@@ -373,62 +406,62 @@ Verkoop op Teachers Pay Teachers Nederland. Of bied aan via Etsy. Amazon KDP acc
     items: [
       {
         id: '1',
-        question: 'Is de Sudoku Generator met Rekenen Werkbladen Echt Gratis te Gebruiken?',
+        question: 'Is dit Gratis Werkblad voor Kinderen Echt Gratis te Gebruiken?',
         answer: 'De sudoku werkbladen generator vereist een Basispakket abonnement. Dit kost €144 per jaar of €15 per maand. Met je abonnement maak je onbeperkt sudoku puzzels zonder extra kosten per werkblad. Het Basispakket bevat tien populaire generators. Naast sudoku krijg je toegang tot rekenen werkbladen, kleurplaten, alfabet werkbladen en meer. Eén prijs voor tien tools. Volledige Toegang kost €240 per jaar en geeft toegang tot alle 33 generators. Beide abonnementen bevatten commerciële licentie, 11 talen ondersteuning en 300 DPI exports.',
       },
       {
         id: '2',
-        question: 'Kan ik Werkbladen Groep 3 Thuis Printen op een Gewone Printer?',
+        question: 'Kan ik Gratis Werkbladen Thuis Printen op een Gewone Printer?',
         answer: 'Ja, alle werkbladen zijn ontworpen voor thuisprinten. De 300 DPI resolutie zorgt voor scherpe afdrukken. Gebruik standaard kopieerpapier of dikker papier naar wens. Selecteer bij het printen "Werkelijke grootte" of "100%". Vermijd schalen voor beste resultaten. Zowel inkjet als laserprinters werken uitstekend. De grijstinten optie bespaart inkt. Activeer deze voor zwart-wit prints. Ideaal voor grote aantallen werkbladen groep 3 of sommen tot 20 oefeningen.',
       },
       {
         id: '3',
-        question: 'Heb ik Ontwerpvaardigheden Nodig voor Oefenbladen Gratis Maken?',
+        question: 'Heb ik Ontwerpvaardigheden Nodig voor Gratis Werkblad Maken?',
         answer: 'Nee, geen enkele ontwerpervaring is nodig. De generator doet al het werk. Selecteer afbeeldingen, kies moeilijkheid, klik genereren. Klaar. De interface is intuïtief ontworpen. Knoppen zijn duidelijk gelabeld. Tooltips helpen bij elke stap. Binnen vijf minuten maak je je eerste puzzel. Wil je toch aanpassen? Het canvas biedt volledige bewerkingsmogelijkheden. Sleep, roteer en schaal elementen. Maar dit is optioneel, niet vereist.',
       },
       {
         id: '4',
-        question: 'Mag ik Sudoku met Tafels Oefenen Gebruiken in mijn Klaslokaal?',
+        question: 'Mag ik Werkblad voor Kleuters Gebruiken in mijn Klaslokaal?',
         answer: 'Ja, je Basispakket abonnement omvat onbeperkt klaslokaalgebruik. Print zoveel werkbladen als je nodig hebt. Deel met alle leerlingen in je klas. Maak puzzels voor verschillende niveaus. Combineer sudoku met tafels oefenen materiaal. Creëer complete leerpakketten voor je groep. Er zijn geen beperkingen op aantal prints of leerlingen. Je abonnement dekt al je onderwijsbehoeften voor sudoku en negen andere generators.',
       },
       {
         id: '5',
-        question: 'In Welke Talen zijn Werkbladen Kleuters met Veilig Leren Lezen Beschikbaar?',
+        question: 'In Welke Talen zijn Gratis Printables en Werkblad voor Kinderen Beschikbaar?',
         answer: 'De generator ondersteunt elf talen volledig. Nederlands, Duits, Frans, Spaans, Italiaans, Portugees, Zweeds, Deens, Noors, Fins en Engels. Alle menu\'s verschijnen in je gekozen taal. Afbeeldingsnamen zijn vertaald. Dit ondersteunt veilig leren lezen programma\'s en woordenschatontwikkeling. Wissel tussen talen met één klik. Maak dezelfde puzzel in meerdere talen. Ideaal voor meertalig onderwijs en werkbladen kleuters in verschillende talen.',
       },
       {
         id: '6',
-        question: 'Kan ik Kleurplaten en Sudoku Verkopen die ik met deze Generator Maak?',
+        question: 'Kan ik Gratis Werkblad voor Kinderen Verkopen die ik Maak?',
         answer: 'Ja, je Basispakket abonnement bevat volledige commerciële POD-licentie. Verkoop je werkbladen zonder extra kosten. Geen aparte licentie nodig. Verkoop op Teachers Pay Teachers, Etsy of Amazon KDP. Maak bundels met kleurplaten en sudoku. Thematische pakketten verkopen uitstekend. De 300 DPI kwaliteit is professioneel genoeg voor verkoop. Kopers ontvangen scherpe downloads. Bouw een winstgevende bijverdienste met je creaties.',
       },
       {
         id: '7',
-        question: 'Hoe Pas ik Sommen tot 20 Werkbladen aan voor Mijn Leerlingen?',
+        question: 'Hoe Pas ik Werkblad voor Kleuters aan voor Mijn Leerlingen?',
         answer: 'Aanpassen is eenvoudig via het bewerkbare canvas. Nadat je een puzzel genereert, kun je alles wijzigen. Voeg tekst toe, verplaats elementen, pas kleuren aan. Combineer sudoku met sommen tot 20 door extra elementen toe te voegen. Plaats rekenopgaven naast de puzzel. Creëer complete werkbladen. Upload eigen afbeeldingen voor personalisatie. Gebruik klasfoto\'s of thematische plaatjes. Maak puzzels die perfect aansluiten bij je les.',
       },
       {
         id: '8',
-        question: 'Voor Welke Leeftijden zijn Fijne Motoriek Sudoku Werkbladen Geschikt?',
+        question: 'Voor Welke Leeftijden zijn Gratis Werkbladen Sudoku Geschikt?',
         answer: 'Visuele sudoku is ideaal voor kinderen van 4 tot 9 jaar. Groep 1 2 kleuters beginnen met makkelijke puzzels. Groep 3, 4 en 5 leerlingen kunnen moeilijkere niveaus aan. De puzzels ondersteunen fijne motoriek ontwikkeling. Kinderen wijzen, vergelijken en selecteren. Geen schrijfvaardigheid vereist voor succes. Pas de moeilijkheidsgraad aan per leeftijd. Makkelijk voor kleuters, medium voor groep 3, moeilijk voor bovenbouw. Elke leeftijd vindt passende uitdaging.',
       },
       {
         id: '9',
-        question: 'Kan ik Eigen Afbeeldingen Uploaden voor Letters Leren Puzzels?',
+        question: 'Kan ik Eigen Afbeeldingen Uploaden voor Gratis Printables Puzzels?',
         answer: 'Ja, de generator ondersteunt eigen uploads. Klik op de upload sectie. Selecteer JPEG, PNG of GIF bestanden. Meerdere bestanden tegelijk uploaden is mogelijk. Combineer uploads met bibliotheekafbeeldingen. Gebruik vier eigen foto\'s of mix met standaardplaatjes. Ideaal voor letters leren met persoonlijke beelden. Uploads blijven beschikbaar tijdens je sessie. Maak meerdere puzzels met dezelfde afbeeldingen. Perfect voor thematische series.',
       },
       {
         id: '10',
-        question: 'Hoe Lang Duurt het om Rekenen Werkbladen met Sudoku te Maken?',
+        question: 'Hoe Lang Duurt het om een Gratis Werkblad Sudoku te Maken?',
         answer: 'Een complete sudoku puzzel maak je in drie minuten. Selecteer afbeeldingen, kies instellingen, klik genereren. Het resultaat verschijnt direct. Wil je aanpassen? Reken vijf tot tien minuten extra. Voeg titels toe, pas kleuren aan, combineer met rekenen werkbladen elementen. Vergelijk dit met handmatig maken: dertig tot zestig minuten per puzzel. De tijdsbesparing is enorm. Maak tien puzzels in de tijd van één handgemaakte.',
       },
       {
         id: '11',
-        question: 'Bevatten Sudoku Oefenbladen Gratis ook Antwoordsleutels?',
+        question: 'Bevatten Gratis Werkblad voor Kinderen ook Antwoordsleutels?',
         answer: 'Ja, elke puzzel krijgt automatisch een antwoordsleutel. Genereer eerst het werkblad. Klik daarna op "Antwoordsleutel Genereren". Beide zijn direct downloadbaar. De antwoordsleutel toont de complete oplossing. Alle vakjes zijn ingevuld met de juiste afbeeldingen. Nakijken kost slechts seconden. Download werkblad en antwoord als set. Of print alleen werkbladen voor leerlingen. Oefenbladen gratis met antwoorden maken was nog nooit zo makkelijk.',
       },
       {
         id: '12',
-        question: 'Kan ik Werkbladen Groep 3 over Specifieke Schoolonderwerpen Maken?',
+        question: 'Kan ik Werkblad voor Kinderen over Specifieke Schoolonderwerpen Maken?',
         answer: 'Ja, de themabibliotheek bevat duizenden afbeeldingen. Dieren, voertuigen, fruit, groenten, seizoenen, feestdagen en meer. Kies plaatjes die passen bij je les. Behandel je boerderijdieren? Selecteer koe, varken, kip en schaap. Werken aan verkeer? Kies auto, fiets, bus en trein. Werkbladen groep 3 sluiten perfect aan bij je curriculum. Upload eigen afbeeldingen voor specifieke onderwerpen. Foto\'s uit schoolboeken of actuele gebeurtenissen. Volledige flexibiliteit voor elk onderwerp.',
       },
     ],
@@ -466,7 +499,7 @@ Verkoop op Teachers Pay Teachers Nederland. Of bied aan via Etsy. Amazon KDP acc
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Combineer Sudoku met Andere Generators - Complete Werkbladen Pakketten',
+    sectionTitle: 'Combineer met Andere Gratis Werkbladen - Werkblad voor Kinderen Pakketten',
     sectionDescription: 'Het Basispakket bevat tien werkblad generators die perfect samenwerken. Combineer sudoku werkbladen met andere tools voor complete leerpakketten. Ontdek hoe je thematische bundels maakt voor elke lesweek.',
     ctaTitle: 'Klaar om geweldige werkbladen te maken?',
     ctaDescription: 'Sluit je aan bij duizenden leerkrachten die professionele werkbladen maken. Onbeperkt genereren, commerciële licentie inbegrepen.',

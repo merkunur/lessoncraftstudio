@@ -15,22 +15,54 @@ export const wordScrambleDaContent: ProductPageContent = {
   seo: {
     slug: 'bogstavblanding-arbejdsark',
     appId: 'word-scramble',
-    title: 'Gratis Opgaver til Print - Bogstavblanding Arbejdsark til Børnehaveklassen',
-    description: 'Lav professionelle bogstavblandingsopgaver med vores arbejdsark-generator. Dit Grundpakke-abonnement giver dig ubegrænset oprettelse af opgaver uden ekstra gebyrer per opgave. Generer tilpassede opgaver til print perfekt til børnehaveklassen, 1. klasse og 2. klasse. Download kvalitets-PDF opgaver på under 3 minutter.',
-    keywords: 'bogstavblanding, gratis opgaver til print, arbejdsark, børnehaveklassen, 0. klasse opgaver, 1. klasse, lære bogstaver, læse og skrive, stavning, kopiark',
+    title: 'Gratis Arbejdsark Bogstavblanding | Generator til Børnehaveklasse',
+    description: 'Lav gratis arbejdsark med bogstavblanding-generatoren. Professionelle ordøvelser til børnehaveklasse og 1. klasse. Download PDF på under 3 minutter.',
+    keywords: 'bogstavblanding, gratis arbejdsark, gratis arbejdsark til børn, gratis printables, arbejdsark til børn, arbejdsark til børnehaveklasse, lære bogstaver, læse og skrive, stavning',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/bogstavblanding-arbejdsark',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/word-scramble/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis arbejdsark bogstavblanding - ordøvelser til børnehaveklasse'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/word-scramble/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Arbejdsark til børn bogstavblanding - stavning opgaver til 1. klasse'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/word-scramble/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis arbejdsark til børn - bogstavblanding med billeder'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/word-scramble/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Arbejdsark til børnehaveklasse - gratis bogstavblanding opgaver'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/word-scramble/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis printables bogstavblanding - læse og skrive arbejdsark'
+      }
+    ],
   },
 
   // Hero Section
   hero: {
-    title: 'Bogstavblanding Arbejdsark – Gratis Skoleopgaver',
-    subtitle: 'Opgaver til Børnehaveklassen og 1. Klasse',
+    title: 'Gratis Arbejdsark Bogstavblanding - Ordøvelser til Børn',
+    subtitle: 'Arbejdsark til Børnehaveklasse og 1. Klasse - Gratis Printables',
     description: `Lav professionelle bogstavblandingsopgaver med vores arbejdsark-generator. Dit Grundpakke-abonnement giver dig ubegrænset oprettelse af opgaver uden ekstra gebyrer per opgave. Generer tilpassede opgaver til print perfekt til børnehaveklassen, 1. klasse og 2. klasse. Download kvalitets-PDF opgaver på under 3 minutter.
 
 Bogstavblanding opgaver hjælper børn med at lære bogstaver og udvikle læsefærdigheder gennem leg. Hver opgave kombinerer billeder med blandede bogstaver som børnene skal løse. Vælg mellem over 3000 børnevenlige billeder organiseret i temaer. Din Grundpakke-abonnement inkluderer alle billeder, alle temaer og kommerciel licens til salg af dine opgaver.
 
 Opret bogstavblanding arbejdsark på dansk, tysk, fransk, spansk, italiensk, portugisisk, hollandsk, svensk, norsk eller finsk. Vores generator understøtter 11 sprog i både interface og indhold. Perfekt til lærere i indskolingen, SFO-pædagoger, homeschool-forældre og sprogtræning. Gem tid med vores hurtige generator der laver professionelle opgaver til print på minutter i stedet for timer.`,
-    previewImageSrc: '/samples/english/word scramble/word scramble portrait.jpeg',
+    previewImageSrc: '/samples/danish/word-scramble/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Prøv Gratis',
       viewSamples: 'Se Eksempler',
@@ -51,7 +83,7 @@ Opret bogstavblanding arbejdsark på dansk, tysk, fransk, spansk, italiensk, por
 
   // Sample Gallery
   samples: {
-    sectionTitle: 'Bogstavblanding Eksempler',
+    sectionTitle: 'Gratis Arbejdsark til Børn - Bogstavblanding Eksempler',
     sectionDescription: 'Download gratis eksempler på arbejdsark for at se vores professionelle kvalitet',
     badgeText: 'Gratis Eksempler',
     downloadLabel: 'Download Gratis Eksempel',
@@ -60,36 +92,50 @@ Opret bogstavblanding arbejdsark på dansk, tysk, fransk, spansk, italiensk, por
     answerKeyLabel: 'Facitark',
     viewAllLabel: 'Se alle',
     noPdfLabel: 'Ingen PDF tilgængelig',
-    freePdfCountLabel: '3 gratis downloads',
+    freePdfCountLabel: '5 gratis downloads',
     ofLabel: 'af',
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/word scramble/word scramble portrait.jpeg',
-        answerKeySrc: '/samples/english/word scramble/word scramble portrait answer-key.jpeg',
-        altText: 'Bogstavblanding arbejdsark portrætformat med billeder og blandede bogstaver til børnehaveklassen',
-        pdfDownloadUrl: '/samples/english/word scramble/word scramble portrait.pdf',
+        worksheetSrc: '/samples/danish/word-scramble/sample-1.jpeg',
+        answerKeySrc: '/samples/danish/word-scramble/sample-1-answer-key.jpeg',
+        altText: 'Gratis arbejdsark bogstavblanding portrætformat - ordøvelser til børnehaveklasse',
+        pdfDownloadUrl: '/samples/danish/word-scramble/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/word scramble/word scramble landscape.jpeg',
-        answerKeySrc: '/samples/english/word scramble/word scramble landscape answer-key.jpeg',
-        altText: 'Bogstavblanding arbejdsark landskabsformat med ordøvelser til 0. klasse og 1. klasse',
-        pdfDownloadUrl: '/samples/english/word scramble/word scramble landscape.pdf',
+        worksheetSrc: '/samples/danish/word-scramble/sample-2.jpeg',
+        answerKeySrc: '/samples/danish/word-scramble/sample-2-answer-key.jpeg',
+        altText: 'Arbejdsark til børn bogstavblanding - stavning opgaver for 1. klasse',
+        pdfDownloadUrl: '/samples/danish/word-scramble/sample-2.pdf',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/word scramble/custom word list.jpeg',
-        answerKeySrc: '/samples/english/word scramble/custom word list answer-key.jpeg',
-        altText: 'Bogstavblanding arbejdsark med tilpasset ordliste til stavning og læse træning',
-        pdfDownloadUrl: '/samples/english/word scramble/custom word list.pdf',
+        worksheetSrc: '/samples/danish/word-scramble/sample-3.jpeg',
+        answerKeySrc: '/samples/danish/word-scramble/sample-3-answer-key.jpeg',
+        altText: 'Gratis arbejdsark til børn bogstavblanding - billedbaserede ordøvelser',
+        pdfDownloadUrl: '/samples/danish/word-scramble/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/danish/word-scramble/sample-4.jpeg',
+        answerKeySrc: '/samples/danish/word-scramble/sample-4-answer-key.jpeg',
+        altText: 'Arbejdsark til børnehaveklasse bogstavblanding - lære bogstaver opgaver',
+        pdfDownloadUrl: '/samples/danish/word-scramble/sample-4.pdf',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/danish/word-scramble/sample-5.jpeg',
+        answerKeySrc: '/samples/danish/word-scramble/sample-5-answer-key.jpeg',
+        altText: 'Gratis printables bogstavblanding - læse og skrive arbejdsark til børn',
+        pdfDownloadUrl: '/samples/danish/word-scramble/sample-5.pdf',
       },
     ],
   },
 
   // Features Grid
   features: {
-    sectionTitle: 'Bogstavblanding Funktioner – Alt du Behøver til Gratis Skoleopgaver og Arbejdsark',
+    sectionTitle: 'Gratis Arbejdsark Funktioner - Bogstavblanding Generator til Børnehaveklasse',
     sectionDescription: 'Vores bogstavblanding generator indeholder alle funktioner du behøver til professionelle opgaver til print. Grundpakke-abonnement giver dig adgang til komplet billedbibliotek, alle sprog og ubegrænsede tilpasningsmuligheder. Lav arbejdsark til børnehaveklassen, 1. klasse, 2. klasse og 3. klasse med få klik. Hver funktion er designet til at spare tid for travle lærere og pædagoger. Fra valg af billeder til download af færdige PDF-filer tager processen under 3 minutter. Dine elever får engagerende opgaver der kombinerer billedstøtte med læse og skrive træning. Generatoren fungerer perfekt til stavning, ordgenkendelse og bogstavlæring.',
     highlightBadgeText: 'Vigtig Funktion',
     readMoreLabel: 'Læs mere',
@@ -183,7 +229,7 @@ Svarfacit genereres automatisk når du laver en opgave. Download svarfacit som s
 
   // How-To Guide
   howTo: {
-    sectionTitle: 'Sådan Laver du Gratis Skoleopgaver og Kopiark i 5 Nemme Trin',
+    sectionTitle: 'Sådan Laver du Gratis Arbejdsark Bogstavblanding i 5 Trin',
     sectionDescription: 'Opret professionelle bogstavblanding opgaver til print på under 3 minutter. Vores enkle 5-trins proces fungerer perfekt for lærere i børnehaveklassen, 1. klasse og 2. klasse. Intet design-erfaring kræves. Vælg blot billeder, tilpas indstillinger og download færdige arbejdsark klar til print. Hver opgave kombinerer billeder med læse og skrive træning. Børnene ser et billede og skal stable blandede bogstaver i rigtig rækkefølge. Billedstøtten hjælper elever der stadig lærer bogstaver. Sværhedsgraden justeres nemt så opgaverne passer til alle klassetrin fra børnehave til 3. klasse.',
     ctaText: 'Start Nu',
     badgeText: 'Sådan Virker Det',
@@ -281,7 +327,7 @@ Kombiner bogstavblanding med andre gratis skoleopgaver fra platformen for komple
 
   // Use Cases
   useCases: {
-    sectionTitle: 'Perfekt til Pædagoger, Lærere og Forældre – Gratis Skoleopgaver og Arbejdsark til Alle Behov',
+    sectionTitle: 'Gratis Arbejdsark til Børn - Bogstavblanding for Lærere og Forældre',
     sectionDescription: 'Bogstavblanding generator fungerer perfekt til mange forskellige undervisningssituationer. Børnehavepædagoger bruger billedstøttede opgaver til at lære bogstaver. Indskolingslærere laver stavning og læse og skrive øvelser. Homeschool-forældre opretter ugentlige opgaver til print. SFO-pædagoger designer aktiviteter til lektiecafé og fritidsundervisning. Hver brugergruppe finder unikke måder at bruge generatoren på. Danske folkeskoler bruger den til differentieret undervisning på tværs af klassetrin. Internationale skoler laver flersproget materiale. Specialpædagoger tilpasser opgaver til specifikke behov. Teacher-entreprenører sælger opgavepakker de laver med Grundpakke-licensen. Generator sparer tid for alle der arbejder med børns læsefærdigheder. 3 minutters oprettelse erstatter 30-60 minutters manuel arbejde. Ubegrænset generering betyder du kan lave nye opgaver hver dag uden ekstra omkostninger. Grundpakke-abonnement betaler sig hurtigt tilbage gennem tidsbesparelse.',
     badgeText: 'Hvem Er Det Til',
     readMoreLabel: 'Læs mere',
@@ -376,7 +422,7 @@ Passive indkomst opbygges gennem katalog-vækst. Upload 5-10 nye produkter måne
 
   // FAQ Section
   faq: {
-    sectionTitle: 'Ofte Stillede Spørgsmål om Gratis Skoleopgaver og Arbejdsark til Print',
+    sectionTitle: 'Ofte Stillede Spørgsmål om Gratis Arbejdsark Bogstavblanding',
     sectionDescription: 'Lærere og forældre stiller mange spørgsmål om bogstavblanding generator før de abonnerer. Her besvarer vi de 12 mest almindelige spørgsmål om funktioner, priser, anvendelse og muligheder. Læs svarene for at forstå præcis hvad Grundpakke tilbyder og hvordan det kan hjælpe din undervisning. Alle svar er baseret på faktiske funktioner i generatoren. Vi forklarer hvordan opgaver til print fungerer, hvad du kan tilpasse, hvordan kommerciel licens virker og meget mere. Har du spørgsmål vi ikke dækker her? Kontakt support for detaljeret hjælp.',
     showMoreText: 'Vis flere spørgsmål',
     showLessText: 'Vis færre',
@@ -481,7 +527,7 @@ Passive indkomst opbygges gennem katalog-vækst. Upload 5-10 nye produkter måne
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Kombiner Bogstavblanding med Andre Gratis Skoleopgaver – Komplette Læringspakker til Print',
+    sectionTitle: 'Kombiner Gratis Arbejdsark Bogstavblanding med Andre Generatorer',
     sectionDescription: 'Bogstavblanding fungerer endnu bedre når kombineret med andre opgavetyper fra platformen. Grundpakke inkluderer 10 generatorer der alle arbejder sammen for komplette ugentlige pakker. Kombiner læse og skrive opgaver med matematikopgaver, gangetabeller, malebog til farvelægning og finmotorik øvelser. Tværfaglige pakker holder eleverne engageret gennem variation. Mandag fokuserer på literacy med bogstavblanding. Tirsdag tilføjer matematikopgaver. Onsdag træner gangetabeller. Torsdag bliver kreativ med malebog og farvelægning. Fredag kombinerer alt i blandede kopiark. Samme platform dækker hele ugen. Lærere sparer enorme mængder tid ved at bruge én platform til alle fag. Ingen behov for at lære fem forskellige værktøjer. Samme interface, samme billedbibliotek, samme hurtige workflow. Lav en hel uges opgaver til print på under én time total forberedelse.',
     ctaTitle: 'Klar til at Lave Fantastiske Arbejdsark?',
     ctaDescription: 'Tilslut dig tusindvis af pædagoger der laver professionelle arbejdsark. Ubegrænset oprettelse, kommerciel licens inkluderet.',

@@ -15,10 +15,42 @@ export const alphabetTrainDaContent: ProductPageContent = {
   seo: {
     slug: 'alfabet-tog-arbejdsark',
     appId: 'alphabet-train',
-    title: 'Alfabetopgaver til Print – Gratis Skoleopgaver for Børnehaveklassen og 1. Klasse',
-    description: 'Lav professionelle alfabetopgaver med vores alfabettog-generator på 11 sprog. Dit Grundpakke-abonnement giver dig ubegrænset adgang til at lave alfabetopgaver. Generer arbejdsark til print med bogstaver og billeder på få minutter. Download kvalitets-PDF arbejdsark på under tre minutter.',
+    title: 'Gratis Arbejdsark Alfabettog | Generator til Børnehaveklasse',
+    description: 'Lav gratis arbejdsark med alfabettog-generatoren. Professionelle alfabetopgaver til børnehaveklasse og 1. klasse. Download PDF på under 3 minutter.',
     keywords: 'alfabetopgaver, alfabettog, gratis skoleopgaver, arbejdsark til print, børnehaveklassen, 0. klasse opgaver, 1. klasse, lære bogstaver, læse og skrive, finmotorik øvelser',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/alfabet-tog-arbejdsark',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/alphabet-train/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Alfabettog gratis arbejdsark - bogstav-til-billede matching til børnehaveklassen',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/alphabet-train/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Alfabettog arbejdsark til børn - farverigt togdesign til 0. klasse',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/alphabet-train/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis arbejdsark alfabettog - bogstavgenkendelse til børnehaveklasse',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/alphabet-train/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Alfabettog arbejdsark til børnehaveklasse - lære bogstaver aktivitet',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/alphabet-train/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis printables alfabettog - finmotorik øvelser og bogstavpraksis',
+      },
+    ],
   },
 
   // Hero Section
@@ -32,7 +64,7 @@ Vores alfabettog understøtter elleve komplette alfabeter med korrekte specialte
 Billedbiblioteket tilpasser sig automatisk til dit valgte sprog. Vælg tysk og se billeder mærket på tysk. Vælg spansk og se billeder mærket på spansk. Over 3000 billeder oversat til alle elleve sprog. Dette gør vores alfabetopgaver perfekte til tosproget undervisning og fremmedsprog.
 
 Hver alfabetopgave har en farverig togskabelon med elleve vogne. Eleverne matcher bogstaver til billeder på toget. Togdesignet gør det sjovt at lære bogstaver. Perfekt til opgaver til print for børnehaveklassen, 0. klasse opgaver og 1. klasse materialer.`,
-    previewImageSrc: '/samples/english/alphabet train/alphabet train portrait.jpeg',
+    previewImageSrc: '/samples/danish/alphabet-train/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Prøv Gratis',
       viewSamples: 'Se Eksempler',
@@ -53,7 +85,7 @@ Hver alfabetopgave har en farverig togskabelon med elleve vogne. Eleverne matche
 
   // Sample Gallery
   samples: {
-    sectionTitle: 'Alfabetopgaver Eksempler',
+    sectionTitle: 'Alfabetopgaver Eksempler - Gratis Arbejdsark til Børn og Børnehaveklasse',
     sectionDescription: 'Download gratis eksempler på arbejdsark for at se vores professionelle kvalitet',
     badgeText: 'Gratis Eksempler',
     downloadLabel: 'Download Gratis Eksempel',
@@ -67,24 +99,45 @@ Hver alfabetopgave har en farverig togskabelon med elleve vogne. Eleverne matche
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/alphabet train/alphabet train portrait.jpeg',
-        answerKeySrc: '/samples/english/alphabet train/alphabet train portrait answer_key.jpeg',
-        altText: 'Alfabettog arbejdsark portrætformat med bogstav-til-billede matching til børnehaveklassen',
-        pdfDownloadUrl: '/samples/english/alphabet train/alphabet train portrait.pdf',
+        worksheetSrc: '/samples/danish/alphabet-train/sample-1.jpeg',
+        answerKeySrc: '/samples/danish/alphabet-train/sample-1-answer.jpeg',
+        altText: 'Alfabettog gratis arbejdsark - portrætformat med bogstav-til-billede matching til børnehaveklassen',
+        pdfDownloadUrl: '/samples/danish/alphabet-train/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/alphabet train/alphabet train landscape.jpeg',
-        answerKeySrc: '/samples/english/alphabet train/alphabet train landscape answer_key.jpeg',
-        altText: 'Alfabettog arbejdsark landskabsformat med farverigt togdesign til 0. klasse',
-        pdfDownloadUrl: '/samples/english/alphabet train/alphabet train landscape.pdf',
+        worksheetSrc: '/samples/danish/alphabet-train/sample-2.jpeg',
+        answerKeySrc: '/samples/danish/alphabet-train/sample-2-answer.jpeg',
+        altText: 'Alfabettog arbejdsark til børn - landskabsformat med farverigt togdesign til børnehaveklasse',
+        pdfDownloadUrl: '/samples/danish/alphabet-train/sample-2.pdf',
+      },
+      {
+        id: '3',
+        worksheetSrc: '/samples/danish/alphabet-train/sample-3.jpeg',
+        answerKeySrc: '/samples/danish/alphabet-train/sample-3-answer.jpeg',
+        altText: 'Gratis arbejdsark alfabettog - bogstavgenkendelse til 0. klasse opgaver',
+        pdfDownloadUrl: '/samples/danish/alphabet-train/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/danish/alphabet-train/sample-4.jpeg',
+        answerKeySrc: '/samples/danish/alphabet-train/sample-4-answer.jpeg',
+        altText: 'Alfabettog arbejdsark til børnehaveklasse - lære bogstaver aktivitet med billeder',
+        pdfDownloadUrl: '/samples/danish/alphabet-train/sample-4.pdf',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/danish/alphabet-train/sample-5.jpeg',
+        answerKeySrc: '/samples/danish/alphabet-train/sample-5-answer.jpeg',
+        altText: 'Gratis printables alfabettog - finmotorik øvelser og bogstavpraksis',
+        pdfDownloadUrl: '/samples/danish/alphabet-train/sample-5.pdf',
       },
     ],
   },
 
   // Features Grid
   features: {
-    sectionTitle: 'Alfabettog Funktioner – Alt Du Behøver til Opgaver til Print',
+    sectionTitle: 'Alfabettog Funktioner – Gratis Arbejdsark til Print for Børnehaveklasse',
     sectionDescription: 'Vores alfabettog-generator inkluderer kraftfulde funktioner designet specifikt til tidlig læsning og skrivning. Lav professionelle alfabetopgaver hurtigere end traditionelle metoder. Lærere sparer tredive til tres minutter per arbejdsark sammenlignet med manuel fremstilling. Hver funktion fokuserer på at gøre alfabetopgaver nemme at tilpasse og smukke at printe.',
     highlightBadgeText: 'Vigtig Funktion',
     readMoreLabel: 'Læs mere',
@@ -99,7 +152,7 @@ Hver alfabetopgave har en farverig togskabelon med elleve vogne. Eleverne matche
       {
         id: '1',
         icon: '⚡',
-        title: 'Lav Alfabetopgaver på Tre Klik',
+        title: 'Lav Gratis Arbejdsark på Tre Klik - Alfabetopgaver til Børn',
         description: `Generer komplette alfabetopgaver på under tre minutter fra start til slut. Vælg elleve bogstaver fra dit valgte sprogs alfabet. Klik på billeder for automatisk at tildele dem til hvert bogstav. Klik på Opret-knappen og dit alfabetarbejdsark vises øjeblikkeligt.
 
 Auto-opret-tilstanden gør alfabetopgaver endnu hurtigere for travle lærere. Vælg et hvilket som helst tema fra billedbiblioteket. Klik på én knap og systemet vælger tilfældigt elleve bogstaver. Det tildeler automatisk matchende billeder for at skabe et komplet alfabetarbejdsark. Perfekt til hurtigt at lave gratis skoleopgaver eller 0. klasse opgaver til morgenarbejde.
@@ -110,7 +163,7 @@ Manuel tilstand giver dig fuld kontrol over alfabetopgavernes indhold. Vælg pr�
       {
         id: '2',
         icon: '✏️',
-        title: 'Rediger Alt på Dine Alfabetopgaver',
+        title: 'Rediger Alt på Dine Gratis Arbejdsark til Børnehaveklasse',
         description: `Hvert element på dit alfabetarbejdsark er fuldstændigt redigerbart efter generering. Træk bogstaver til nye positioner på toget. Roter billeder for at skabe visuel interesse. Skaler billeder større eller mindre for at fremhæve visse elementer. Slet enhver ting du ikke ønsker på dine alfabetopgaver.
 
 Tilføj brugerdefineret tekst hvor som helst på dine opgaver til print med syv professionelle skrifttyper. Skift tekstfarver til at matche dit klasseværelsestema eller skolefarver. Juster skriftstørrelser fra små etiketter til store titler. Tilføj konturer til tekst for bedre synlighed på farverige baggrunde.
@@ -178,7 +231,7 @@ Generer både arbejdsark og svarark versioner af hver alfabetopgave automatisk. 
 
   // How-To Guide
   howTo: {
-    sectionTitle: 'Sådan Laver Du Alfabetopgaver i Fem Nemme Trin',
+    sectionTitle: 'Sådan Laver Du Gratis Arbejdsark i Fem Nemme Trin',
     sectionDescription: 'Opret professionelle alfabetopgaver fra start til download på under tre minutter. Følg disse fem enkle trin for at lave arbejdsark til print der matcher dine elevers behov. Ingen designerfærdigheder kræves for at skabe smukke gratis skoleopgaver.',
     ctaText: 'Start Nu',
     badgeText: 'Sådan Virker Det',
@@ -193,7 +246,7 @@ Generer både arbejdsark og svarark versioner af hver alfabetopgave automatisk. 
       {
         id: '1',
         number: 1,
-        title: 'Vælg Dit Indhold til Alfabetopgaver',
+        title: 'Vælg Dit Indhold til Gratis Arbejdsark',
         description: `Start med at vælge sproget for dine alfabetopgaver fra sprogmenuen øverst. Dit valg bestemmer hvilke bogstaver der vises i alfabetgitteret. Dansk alfabet inkluderer Æ, Ø og Å til sidst. Tysk alfabet viser Ä, Ö og Ü på korrekte positioner. Spansk alfabet inkluderer Ñ efter N for autentiske gratis skoleopgaver.
 
 Klik præcis elleve bogstaver i alfabetgitteret til dine opgaver til print. Systemet viser "Valgt: X/11" så du ved hvor mange mere der skal vælges. Vælg bogstaver der matcher dit nuværende læse og skrive pensum. Fokuser på vokalerne til tidlige børnehaveklasse-elever. Inkluder konsonanter for avancerede 0. klasse opgaver.
@@ -250,7 +303,7 @@ Aktiver gråskala-afkrydsningsfeltet før download for at spare printerblæk på
 
   // Use Cases
   useCases: {
-    sectionTitle: 'Perfekt til Lærere, Forældre og Pædagoger',
+    sectionTitle: 'Perfekt til Lærere og Forældre - Gratis Arbejdsark til Børn',
     sectionDescription: 'Vores alfabetopgave-generator tjener forskellige undervisningssituationer og brugertyper. Børnehaveklasse-lærere bruger det til daglig bogstavgenkendelses-praksis. Indskolingslærere laver differentierede arbejdsark til print til 1. klasse opgaver. Hjemmeundervisende forældre skaber personlige læseplaner med tematiske alfabetopgaver.',
     badgeText: 'Hvem Er Det Til',
     readMoreLabel: 'Læs mere',
@@ -333,7 +386,7 @@ Niche ned i specifikke sprog-markeeder for mindre konkurrence. Danske alfabetopg
 
   // FAQ Section
   faq: {
-    sectionTitle: 'Ofte Stillede Spørgsmål om Alfabetopgaver',
+    sectionTitle: 'Ofte Stillede Spørgsmål om Gratis Arbejdsark til Børnehaveklasse',
     sectionDescription: 'Her er svar på de mest almindelige spørgsmål om alfabetopgave-generatoren. Lær om muligheder, abonnementer og hvordan du bruger opgaver til print i din undervisning.',
     showMoreText: 'Vis flere spørgsmål',
     showLessText: 'Vis færre',
@@ -438,7 +491,7 @@ Niche ned i specifikke sprog-markeeder for mindre konkurrence. Danske alfabetopg
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Kombiner med Andre Arbejdsark Generatorer',
+    sectionTitle: 'Kombiner med Andre Gratis Arbejdsark Generatorer',
     sectionDescription: 'Lav komplette læringspakker ved at kombinere alfabetopgaver med disse komplementære generatorer.',
     ctaTitle: 'Klar til at Lave Fantastiske Arbejdsark?',
     ctaDescription: 'Tilslut dig tusindvis af pædagoger der laver professionelle arbejdsark. Ubegrænset oprettelse, kommerciel licens inkluderet.',

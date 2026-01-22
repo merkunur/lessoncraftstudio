@@ -27,16 +27,36 @@ export const writingNlContent: ProductPageContent = {
   seo: {
     slug: 'schrijfoefeningen-werkbladen',
     appId: 'writing',
-    title: 'Schrijven Oefenen Werkbladen - Oefenbladen Gratis voor Letters Leren - Fijne Motoriek Werkbladen Kleuters',
+    title: 'Schrijfoefeningen Gratis Werkblad Generator - Gratis Werkbladen voor Kinderen - Letters Leren Werkblad voor Kleuters',
     description: 'Maak professionele schrijfoefeningen voor letters leren met onze schrijfwerkbladen generator. Uw Volledige Toegang abonnement geeft u onbeperkte toegang tot het maken van werkbladen zonder kosten per werkblad. Creëer gepersonaliseerde oefenbladen gratis voor groep 1 2 en groep 3.',
-    keywords: 'schrijven oefenen, letters leren, werkbladen kleuters, werkbladen groep 3, oefenbladen gratis, fijne motoriek, veilig leren lezen, rekenen werkbladen, tafels oefenen, sommen tot 20',
+    keywords: 'schrijven oefenen, letters leren, werkbladen kleuters, werkbladen groep 3, oefenbladen gratis, fijne motoriek, veilig leren lezen, rekenen werkbladen, tafels oefenen, sommen tot 20, gratis werkblad, gratis werkbladen, gratis printables, werkblad voor kinderen, werkblad voor kleuters',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/schrijfoefeningen-werkbladen',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/dutch/writing/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Schrijfoefeningen gratis werkblad voor letters leren - werkbladen kleuters',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/dutch/writing/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis werkblad schrijven oefenen - fijne motoriek werkbladen groep 3',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/dutch/writing/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Schrijfwerkbladen gratis werkblad voor kinderen - veilig leren lezen oefenbladen',
+      },
+    ],
   },
 
   // Hero Section - FULL text from writing.md paragraphs 1-4
   hero: {
-    title: 'Schrijfoefeningen Generator',
-    subtitle: 'Letters Leren met Fijne Motoriek Werkbladen voor Kleuters en Groep 3',
+    title: 'Schrijfoefeningen Generator - Gratis Werkblad voor Kinderen',
+    subtitle: 'Gratis Werkbladen voor Letters Leren - Werkblad voor Kleuters en Groep 3',
     description: `Maak professionele schrijfoefeningen voor letters leren met onze schrijfwerkbladen generator. Uw Volledige Toegang abonnement geeft u onbeperkte toegang tot het maken van werkbladen zonder kosten per werkblad. Creëer gepersonaliseerde oefenbladen gratis voor groep 1 2 en groep 3. Download hoogwaardige PDF-werkbladen in minder dan 3 minuten.
 
 Onze schrijven oefenen generator biedt verschillende lettertypen en schrijfstijlen. Perfect voor werkbladen kleuters die letters leren. Van gestippelde letters voor nasporingen tot vloeiend schrijven met verbonden letters. Elke schrijfoefening is ontworpen om fijne motoriek te ontwikkelen bij jonge leerlingen.
@@ -46,7 +66,7 @@ De generator ondersteunt meerdere schrijfmethoden die aansluiten bij Nederlandse
 Uw abonnement omvat commerciële licentie voor print-on-demand. Verkoop uw werkbladen op Teachers Pay Teachers en Etsy. Alle 33 werkblad generators inclusief deze schrijfwerkbladen maker. Professionele 300 DPI kwaliteit voor scherp gedrukte oefeningen.
 
 De schrijfoefeningen generator bespaart leerkrachten uren voorbereidingstijd. Maak in 3 minuten aangepaste werkbladen die vroeger 30-60 minuten kostten. Perfecte letters voor groep 1 2 kleuters en groep 3 leerlingen. Onbeperkt werkbladen maken met één jaarabonnement van €240.`,
-    previewImageSrc: '/samples/english/writing/writing.jpeg',
+    previewImageSrc: '/samples/dutch/writing/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Gratis Uitproberen',
       viewSamples: 'Voorbeelden Bekijken',
@@ -65,9 +85,9 @@ De schrijfoefeningen generator bespaart leerkrachten uren voorbereidingstijd. Ma
     },
   },
 
-  // Sample Gallery - REAL file paths from samples/english/writing/
+  // Sample Gallery - REAL file paths from samples/dutch/writing/
   samples: {
-    sectionTitle: 'Schrijfoefeningen Voorbeelden',
+    sectionTitle: 'Gratis Werkbladen Schrijfoefeningen - Gratis Printables Voorbeelden',
     sectionDescription: 'Download gratis voorbeeldwerkbladen om onze professionele kwaliteit te ervaren',
     downloadLabel: 'Gratis Voorbeeld Downloaden',
     worksheetLabel: 'Werkblad',
@@ -81,31 +101,31 @@ De schrijfoefeningen generator bespaart leerkrachten uren voorbereidingstijd. Ma
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/writing/writing.jpeg',
+        worksheetSrc: '/samples/dutch/writing/sample-1.jpeg',
         answerKeySrc: '',
-        altText: 'Schrijfoefening werkblad voor letters leren en fijne motoriek kleuters',
-        pdfDownloadUrl: '/samples/english/writing/writing.pdf',
+        altText: 'Schrijfoefeningen gratis werkblad voor letters leren en fijne motoriek - werkbladen kleuters',
+        pdfDownloadUrl: '/samples/dutch/writing/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/writing/writing custom.jpeg',
+        worksheetSrc: '/samples/dutch/writing/sample-2.jpeg',
         answerKeySrc: '',
-        altText: 'Aangepaste schrijfoefening werkblad voor werkbladen groep 3',
-        pdfDownloadUrl: '/samples/english/writing/writing custom.pdf',
+        altText: 'Gratis werkblad schrijven oefenen - aangepaste werkbladen groep 3 voor kinderen',
+        pdfDownloadUrl: '/samples/dutch/writing/sample-2.pdf',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/writing/writing beginning letter.jpeg',
+        worksheetSrc: '/samples/dutch/writing/sample-3.jpeg',
         answerKeySrc: '',
-        altText: 'Beginletters schrijfoefening voor veilig leren lezen programma',
-        pdfDownloadUrl: '/samples/english/writing/writing beginning letter.pdf',
+        altText: 'Veilig leren lezen schrijfwerkbladen gratis werkblad voor kleuters',
+        pdfDownloadUrl: '/samples/dutch/writing/sample-3.pdf',
       },
     ],
   },
 
   // Features Grid - FULL text from writing.md feature sections
   features: {
-    sectionTitle: 'Schrijven Oefenen Functies - Alles wat u Nodig Hebt voor Letters Leren en Werkbladen Kleuters',
+    sectionTitle: 'Gratis Werkblad Functies - Alles wat u Nodig Hebt voor Letters Leren en Werkblad voor Kleuters',
     sectionDescription: 'Onze schrijfwerkbladen generator biedt complete functies voor professionele oefenbladen. Van letters leren tot fijne motoriek ontwikkeling. Elke functie is ontworpen om tijd te besparen en kwaliteit te garanderen. Leerkrachten in groep 1 2 en groep 3 maken dagelijks gebruik van deze schrijfoefeningen maker.',
     highlightBadgeText: 'Uitgelicht',
     readMoreLabel: 'Lees meer',
@@ -120,7 +140,7 @@ De schrijfoefeningen generator bespaart leerkrachten uren voorbereidingstijd. Ma
       {
         id: '1',
         icon: '⚡',
-        title: 'Maak Schrijven Oefenen Werkbladen in 3 Klikken - Snelle Letters Leren voor Werkbladen Kleuters Groep 1 2',
+        title: 'Maak Gratis Werkblad in 3 Klikken - Snelle Letters Leren voor Werkblad voor Kleuters Groep 1 2',
         description: `Selecteer uw lettertype en schrijfstijl in één klik. Kies tussen gestippelde letters voor nasporingen en vloeiend schrijven. De generator maakt automatisch perfecte schrijflijnen voor werkbladen kleuters. Geen ingewikkelde instellingen of technische kennis nodig.
 
 Voeg meerdere rijen toe voor uitgebreide schrijfoefeningen. Elke rij kan verschillende inhoud hebben. Eerste rij voor letters leren met gestippelde A-Z. Tweede rij voor woordoefeningen. Derde rij voor zinnen schrijven. Volledige flexibiliteit voor groep 1 2 oefeningen.
@@ -142,7 +162,7 @@ Verwijder of vervang elementen met één klik. Test verschillende lay-outs tot h
       {
         id: '3',
         icon: '📤',
-        title: 'Upload Eigen Afbeeldingen voor Gepersonaliseerde Oefenbladen Gratis - Letters Leren met Eigen Foto\'s',
+        title: 'Upload Eigen Afbeeldingen voor Gratis Werkblad voor Kinderen - Letters Leren met Eigen Foto\'s',
         description: `Upload meerdere afbeeldingen tegelijk naar uw werkblad. Ondersteunt JPEG, PNG en GIF formaten. Combineer bibliotheekafbeeldingen met uw eigen foto's. Maak oefenbladen gratis met persoonlijke relevantie voor uw leerlingen.
 
 Voeg foto's van klasgenoten toe bij naamoefeningen. Upload plaatjes van schooluitstapjes voor verhaalschrijfoefeningen. Gebruik eigen illustraties bij letters leren activiteiten. Onbeperkte upload voor Volledige Toegang abonnees.
@@ -175,7 +195,7 @@ Veel leerkrachten verdienen €500-€5000 per maand met werkbladen. Combineer s
       {
         id: '6',
         icon: '🎨',
-        title: '3000+ Afbeeldingen Bibliotheek - Kleurplaten en Thema\'s voor Schrijfwerkbladen',
+        title: '3000+ Afbeeldingen Bibliotheek voor Gratis Printables - Gratis Werkbladen Thema\'s',
         description: `Toegang tot meer dan 3000 kindvriendelijke afbeeldingen. Georganiseerd per thema voor snelle selectie. Dieren, voertuigen, seizoenen, feestdagen en meer. Alle afbeeldingen perfect voor werkbladen kleuters en groep 3.
 
 Combineer kleurplaten met schrijfoefeningen voor complete werkbladen. Leerlingen schrijven woorden en kleuren bijpassende afbeeldingen. Thematische schrijfwerkbladen houden aandacht vast. Van herfstthema tot dieren op de boerderij.
@@ -199,7 +219,7 @@ Voeg tafels oefenen toe aan de achterkant van schrijfwerkbladen. Maak dubbelzijd
 
   // How-To Guide - FULL text from writing.md step sections
   howTo: {
-    sectionTitle: 'Hoe Schrijven Oefenen Werkbladen te Maken in 5 Eenvoudige Stappen - Letters Leren voor Werkbladen Kleuters en Groep 3',
+    sectionTitle: 'Hoe Gratis Werkblad te Maken in 5 Stappen - Werkblad voor Kinderen met Letters Leren voor Kleuters en Groep 3',
     sectionDescription: 'Maak professionele schrijfwerkbladen in minder dan 3 minuten. Van leeg canvas tot downloadbaar PDF werkblad. Deze handleiding toont elke stap voor letters leren oefenbladen. Perfect voor leerkrachten in groep 1 2 en groep 3 zonder technische ervaring.',
     ctaText: 'Nu Starten',
     badgeText: 'Zo werkt het',
@@ -287,7 +307,7 @@ Print meerdere exemplaren voor volledige groepen. Een PDF maken, dertig keer pri
 
   // Use Cases - FULL text from writing.md use case sections
   useCases: {
-    sectionTitle: 'Perfect voor Leerkrachten, Ouders en Pedagogen - Werkbladen Kleuters en Werkbladen Groep 3 voor Elke Behoefte',
+    sectionTitle: 'Gratis Werkblad voor Kinderen - Perfect voor Leerkrachten, Ouders en Pedagogen met Werkblad voor Kleuters',
     sectionDescription: 'Onze schrijfwerkbladen generator dient verschillende gebruikersgroepen. Van kleuterleerkrachten tot thuisonderwijzers. Elke groep heeft unieke behoeften voor schrijfoefeningen. De generator past zich aan alle situaties en leeftijdsgroepen aan.',
     badgeText: 'Voor wie',
     readMoreLabel: 'Lees meer',
@@ -296,8 +316,8 @@ Print meerdere exemplaren voor volledige groepen. Een PDF maken, dertig keer pri
       {
         id: '1',
         icon: '👶',
-        title: 'Kleuterleerkrachten Groep 1 2 - Letters Leren en Fijne Motoriek Werkbladen Kleuters voor Voorbereidend Schrijven',
-        subtitle: 'Fijne motoriek en letters leren',
+        title: 'Kleuterleerkrachten Groep 1 2 - Gratis Werkblad voor Letters Leren en Werkblad voor Kleuters',
+        subtitle: 'Gratis werkblad voor kinderen en letters leren',
         description: `Leerkrachten in groep 1 en groep 2 bouwen schrijffundamenten. Jonge kleuters van 4-6 jaar ontwikkelen fijne motoriek. Ze oefenen met lijnen trekken voor latere lettervormingen. De schrijfwerkbladen generator ondersteunt deze ontwikkelingsfase perfect.
 
 Maak blanco werkbladen kleuters met hulplijnen voor motoriek. Verticale lijnen oefeningen voor vinger- en polscontrole. Horizontale lijnen voor links-naar-rechts bewegingen. Cirkel oefeningen voor ronde vormvorming. Zigzag patronen voor golfbewegingen ontwikkelen. Alle voorbereidende schrijfbewegingen systematisch opbouwen.
@@ -328,8 +348,8 @@ Differentieer schrijfmoeilijkheid voor verschillende niveaus binnen groep 3. Zwa
       {
         id: '3',
         icon: '🏠',
-        title: 'Thuisonderwijs Ouders - Oefenbladen Gratis voor Gepersonaliseerde Veilig Leren Lezen en Letters Leren Programma\'s',
-        subtitle: 'Flexibel thuisonderwijs',
+        title: 'Thuisonderwijs Ouders - Gratis Werkbladen voor Kinderen en Werkblad voor Kleuters Programma\'s',
+        subtitle: 'Gratis printables voor thuisonderwijs',
         description: `Thuisonderwijzende ouders waarderen flexibiliteit van schrijfwerkbladen generator. Ze onderwijzen meerdere kinderen in verschillende leeftijdsgroepen. Hebben unieke curriculumbehoeften per kind. Maken dagelijks aangepaste oefenbladen gratis voor elk kind apart.
 
 Maak schrijfwerkbladen met familienamen en bekende woorden. Kinderen schrijven liever persoonlijk relevante content. Oefenen met namen van broertjes, zusjes en huisdieren. Schrijven van favoriete speelgoed, eten en activiteiten. Persoonlijke context verhoogt motivatie en retentie significant.
@@ -360,8 +380,8 @@ Logopedie en spraaktherapie professionelen gebruiken schrijfwerkbladen ook. Comb
       {
         id: '5',
         icon: '🧩',
-        title: 'Remedial Teachers - Fijne Motoriek en Werkbladen Kleuters voor Speciale Behoeften',
-        subtitle: 'Speciale onderwijsbehoeften',
+        title: 'Remedial Teachers - Gratis Werkblad en Werkblad voor Kinderen voor Speciale Behoeften',
+        subtitle: 'Werkblad voor kleuters met speciale behoeften',
         description: `Remedial teachers werken met leerlingen met leer- en schrijfmoeilijkheden. Dysgrafie, dyslexie en motorische ontwikkelingsproblemen. Deze leerlingen hebben extra aangepaste schrijfwerkbladen nodig. Standaard werkbladen zijn vaak te moeilijk of frustrerend.
 
 Vergroot letters extreem voor leerlingen met visuele perceptieproblemen. Maak lijnafstand extra breed voor grove motoriek uitdagingen. Gebruik hoogcontrast kleuren voor leerlingen met focus problemen. Voeg extra hulplijnen toe voor ruimtelijke oriëntatie ondersteuning. Elk werkblad perfect aangepast aan individuele beperkingen.
@@ -394,7 +414,7 @@ Volledige Toegang commerciële licentie kost €240 per jaar totaal. Geen extra 
 
   // FAQ Section - FULL FAQs from writing.md
   faq: {
-    sectionTitle: 'Veelgestelde Vragen over Schrijfwerkbladen, Tafels Oefenen, Sommen tot 20 en Kleurplaten Genereren',
+    sectionTitle: 'Gratis Werkblad Veelgestelde Vragen - Werkblad voor Kinderen, Tafels Oefenen en Gratis Printables',
     sectionDescription: 'Leerkrachten stellen vaak dezelfde vragen over schrijfwerkbladen generator. Deze FAQ sectie beantwoordt meest voorkomende vragen direct. Van prijzen tot technische mogelijkheden tot gebruikssituaties.',
     showMoreText: 'Meer vragen tonen',
     showLessText: 'Minder tonen',
@@ -406,27 +426,27 @@ Volledige Toegang commerciële licentie kost €240 per jaar totaal. Geen extra 
     items: [
       {
         id: '1',
-        question: 'Is Deze Schrijfwerkbladen Generator Echt Oefenbladen Gratis om te Gebruiken?',
+        question: 'Is Dit Gratis Werkblad Generator Echt Gratis Werkbladen om te Maken?',
         answer: 'De schrijfwerkbladen generator vereist Volledige Toegang abonnement voor €240 jaarlijks of €25 maandelijks. Uw abonnement geeft onbeperkte werkblad creatie zonder kosten per werkblad. Genereer zoveel oefenbladen gratis als u nodig hebt zonder extra kosten. Eén transparant jaarprijs dekt alles compleet. Volledige Toegang omvat alle 33 werkblad generators op platform. Schrijfwerkbladen, rekenen werkbladen, kleurplaten makers en meer. Commerciële licentie, 11 talen ondersteuning en 300 DPI exports inclusief. Geen verborgen kosten of verrassingen na aanmelding.',
       },
       {
         id: '2',
-        question: 'Kan ik Kleurplaten, Rekenen Werkbladen, Veilig Leren Lezen Werkbladen en Schrijfoefeningen Thuis Printen op Normale Printer?',
+        question: 'Kan ik Gratis Werkblad voor Kinderen, Rekenen Werkbladen en Gratis Printables Thuis Printen?',
         answer: 'Ja, alle werkbladen printen perfect op standaard thuisprinters. Ondersteunt inkjet en laserprinters van alle merken. A4 en Letter formaten beide compatibel met Nederlandse printers. Geen speciale apparatuur of professionele printers vereist. PDF export garandeert consistente printkwaliteit op elk apparaat. 300 DPI resolutie zorgt voor scherpe lijnen en tekst. Letters blijven leesbaar zonder vervaging of pixelation. Grijswaarden optie bespaart 70% inktkosten bij kleurprinters. Zwart-wit prints behouden alle details en scherpte. Perfect voor grote aantallen werkbladen op schoolbudget.',
       },
       {
         id: '3',
-        question: 'Heb ik Ontwerpvaardigheden Nodig om Fijne Motoriek Werkbladen te Maken?',
+        question: 'Heb ik Ontwerpvaardigheden Nodig om Werkblad voor Kleuters te Maken?',
         answer: 'Nee, absoluut geen ontwerpervaring vereist voor professionele werkbladen. Interface is speciaal ontworpen voor niet-technische gebruikers. Leerkrachten zonder computer achtergrond maken dagelijks werkbladen. Intuïtieve knoppen en duidelijke instructies in Nederlands. Selecteer vooraf ontworpen sjablonen voor instant resultaten. Kies schrijfstijl, lettertype en rijconfiguratie uit dropdowns. Generator maakt automatisch perfect uitgelijnde schrijflijnen. Geen handmatige opmaak of complexe instellingen aanpassen. Alles werkt met enkele klikken en tekstinvoer.',
       },
       {
         id: '4',
-        question: 'Kan ik Schrijfwerkbladen Gebruiken in Mijn Klas voor Leerlingen?',
+        question: 'Kan ik Werkblad voor Kinderen en Gratis Werkbladen Gebruiken in Mijn Klas?',
         answer: 'Volledige Toegang abonnement omvat onbeperkt klasgebruik. Print zoveel kopieën als u leerlingen hebt. Geen per-leerling licentiekosten zoals sommige platforms. Eén leerkracht abonnement dekt volledige klas van 30+ leerlingen. Deel digitale PDF werkbladen via leeromgevingen zoals Google Classroom. Upload naar Magister, Itslearning of Beedle platformen. Verstuur via email naar ouders voor thuisoefeningen. Geen restricties op digitale distributie binnen onderwijs context. Maak verschillende versies voor gedifferentieerde instructie.',
       },
       {
         id: '5',
-        question: 'Welke Talen zijn Beschikbaar voor Veilig Leren Lezen Werkbladen en Schrijfoefeningen?',
+        question: 'Welke Talen zijn Beschikbaar voor Gratis Werkblad en Werkblad voor Kinderen?',
         answer: 'Interface beschikbaar in 11 talen inclusief Nederlands, Engels, Duits en Frans. Alle knoppen, instructies en menu\'s in uw gekozen taal. Geen Engels leren nodig voor Nederlandse leerkrachten. Comfortabel werken in moedertaal verhoogt productiviteit significant. Schrijfwerkbladen maken in alle 11 ondersteunde talen mogelijk. Veilig leren lezen werkbladen met Nederlandse woordenlijsten. Engelse handwriting practice worksheets voor ESL lessen. Duitse Schreibübungen met umlauts en speciale tekens. Franse accents en Spaanse ñ automatisch correct geformatteerd.',
       },
       {
@@ -441,7 +461,7 @@ Volledige Toegang commerciële licentie kost €240 per jaar totaal. Geen extra 
       },
       {
         id: '8',
-        question: 'Voor Welke Leeftijdsgroepen Werken Deze Schrijfwerkbladen het Beste?',
+        question: 'Voor Welke Leeftijdsgroepen Werkt Dit Gratis Werkblad en Werkblad voor Kleuters het Beste?',
         answer: 'Schrijfwerkbladen geschikt voor 3-10 jaar oude kinderen. Kleuterleeftijd (3-6 jaar) voor voorbereidend schrijven oefeningen. Basisschool (6-10 jaar) voor formele handschrift ontwikkeling. Elk leeftijdsniveau heeft aangepaste instellingen en moeilijkheidsgraden. Flexibiliteit dekt complete primair onderwijs leeftijdsbereik. Kleuters beginnen met grote gestippelde letters en brede lijnen. Ontwikkelen grove motoriek met eenvoudige vormherhaling. Oefenen met cirkel bewegingen en verticale streepjes. Geleidelijke progressie naar letters zonder frustratie. Leeftijds-passende verwachtingen ingebouwd in opties.',
       },
       {
@@ -522,7 +542,7 @@ Volledige Toegang commerciële licentie kost €240 per jaar totaal. Geen extra 
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Combineer Schrijfwerkbladen met Andere Generators - Complete Werkbladen Pakketten',
+    sectionTitle: 'Gratis Werkbladen - Combineer Schrijfwerkbladen met Andere Werkblad Generators',
     sectionDescription: 'Volledige Toegang bevat alle 33 werkblad generators die perfect samenwerken. Combineer schrijfoefeningen met andere tools voor complete leerpakketten. Ontdek hoe u thematische bundels maakt voor elke lesweek.',
     ctaTitle: 'Klaar om geweldige werkbladen te maken?',
     ctaDescription: 'Sluit u aan bij duizenden leerkrachten die professionele werkbladen maken. Onbeperkt genereren, commerciële licentie inbegrepen.',

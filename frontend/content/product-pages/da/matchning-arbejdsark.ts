@@ -19,6 +19,26 @@ export const matchingDaContent: ProductPageContent = {
     description: 'Lav professionelle matchingsopgaver med vores opgavegenerator til dansk folkeskole. Dit Core Bundle-abonnement giver dig ubegrænset adgang til at lave arbejdsark uden ekstra gebyrer pr. opgave. Opret tilpassede opgaver til print perfekt til børnehaveklassen og 1. klasse elever.',
     keywords: 'matchingsopgaver, gratis skoleopgaver, arbejdsark til print, 0. klasse opgaver, 1. klasse, børnehaveklassen, kopiark, finmotorik øvelser, lære bogstaver, parspil',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/matchning-arbejdsark',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/matching/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Matchningsopgave arbejdsark - gratis skoleopgaver til børnehaveklassen'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/matching/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Billede og ord matchning - arbejdsark til 0. klasse og 1. klasse'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/matching/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Tilpasset matchningsopgave - gratis arbejdsark til børn'
+      }
+    ],
   },
 
   // Hero Section - FULL text from matching.md paragraphs 1-4
@@ -32,7 +52,7 @@ Vores matchingsopgavegenerator gør det nemt at lave opgaver hvor elever skal fo
 Designet specielt til danske pædagoger og lærere i indskolingen. Opret opgaver til print med professionel kvalitet. Vores generator understøtter dansk sprog og dansk skolesystem terminologi. Lav gratis skoleopgaver til både børnehaveklassen og 1.-3. klasse.
 
 Udvid dine opgaver med farvelægning og skriv bogstaver aktiviteter. Kombiner matchingsopgaver med matematikopgaver og læse og skrive øvelser. Perfekt til både hjemmeundervisning og klasseværelset. Hver opgave genereres med 300 DPI kvalitet klar til print og salg.`,
-    previewImageSrc: '/samples/english/matching/matching portrait.jpeg',
+    previewImageSrc: '/samples/danish/matching/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Prøv Gratis',
       viewSamples: 'Se Eksempler',
@@ -51,7 +71,7 @@ Udvid dine opgaver med farvelægning og skriv bogstaver aktiviteter. Kombiner ma
     },
   },
 
-  // Sample Gallery - REAL file paths from samples/english/matching/
+  // Sample Gallery - REAL file paths from samples/danish/matching/
   samples: {
     sectionTitle: 'Matchingsopgaver Eksempler',
     sectionDescription: 'Download gratis eksempler på arbejdsark for at se vores professionelle kvalitet',
@@ -67,24 +87,24 @@ Udvid dine opgaver med farvelægning og skriv bogstaver aktiviteter. Kombiner ma
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/matching/matching portrait.jpeg',
-        answerKeySrc: '/samples/english/matching/matching portrait answer_key.jpeg',
+        worksheetSrc: '/samples/danish/matching/sample-1.jpeg',
+        answerKeySrc: '/samples/danish/matching/sample-1-answer.jpeg',
         altText: 'Matchingsopgave portrætformat med billeder børn skal forbinde til 0. klasse',
-        pdfDownloadUrl: '/samples/english/matching/matching portrait.pdf',
+        pdfDownloadUrl: '/samples/danish/matching/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/matching/image and word.jpeg',
-        answerKeySrc: '/samples/english/matching/image and word answer_key.jpeg',
+        worksheetSrc: '/samples/danish/matching/sample-2.jpeg',
+        answerKeySrc: '/samples/danish/matching/sample-2-answer.jpeg',
         altText: 'Billede til ord matchingsopgave til læse og skrive øvelser i 1. klasse',
-        pdfDownloadUrl: '/samples/english/matching/image and word.pdf',
+        pdfDownloadUrl: '/samples/danish/matching/sample-2.pdf',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/matching/image and custom word.jpeg',
-        answerKeySrc: '/samples/english/matching/image and custom word answer_key.jpeg',
-        altText: 'Tilpasset matchingsopgave med egne ord til ordforrådsundervisning',
-        pdfDownloadUrl: '/samples/english/matching/image and custom word.pdf',
+        worksheetSrc: '/samples/danish/matching/sample-3.jpeg',
+        answerKeySrc: '/samples/danish/matching/sample-3-answer.jpeg',
+        altText: 'Tilpasset matchningsopgave med egne ord til ordforrådsundervisning',
+        pdfDownloadUrl: '/samples/danish/matching/sample-3.pdf',
       },
     ],
   },

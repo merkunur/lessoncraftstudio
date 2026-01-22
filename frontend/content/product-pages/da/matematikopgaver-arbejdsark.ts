@@ -15,10 +15,36 @@ export const mathWorksheetDaContent: ProductPageContent = {
   seo: {
     slug: 'matematikopgaver-arbejdsark',
     appId: 'math-worksheet',
-    title: 'Matematikopgaver Generator - Gratis Skoleopgaver til Print - Arbejdsark til 0. Klasse og 1. Klasse',
-    description: 'Lav professionelle matematikopgaver med vores matematikopgaver generator. Dit Kernepakke abonnement giver dig ubegrænset adgang til at lave opgaver til print uden ekstra gebyrer per opgave. Generer skræddersyede arbejdsark der er perfekte til børnehaveklassen, 0. klasse og 1. klasse.',
+    title: 'Gratis Arbejdsark Matematikopgaver | Generator til Børnehaveklasse',
+    description: 'Lav gratis arbejdsark med matematikopgaver til børnehaveklasse, 0. klasse og 1. klasse. Ubegrænset generering af opgaver til print med 300 DPI kvalitet.',
     keywords: 'matematikopgaver, gratis skoleopgaver, arbejdsark til print, 0. klasse opgaver, 1. klasse, børnehaveklassen, kopiark, finmotorik øvelser, gangetabeller, malebog, opgaver til print',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/matematikopgaver-arbejdsark',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/math/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis arbejdsark matematikopgaver portrætformat - billedbaserede puslespil til børnehaveklasse'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/math/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis arbejdsark matematikopgaver - opgaver til print til 0. klasse og 1. klasse'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/math/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Arbejdsark til børn matematikopgaver - gratis skoleopgaver med billedsymboler'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/math/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis printables matematikopgaver - kopiark til indskoling'
+      }
+    ],
   },
 
   // Hero Section - FULL text from math-worksheet.md paragraphs 1-3
@@ -30,7 +56,7 @@ export const mathWorksheetDaContent: ProductPageContent = {
 Matematikopgaver generatoren skaber visuelle matematikpuslespil hvor billeder repræsenterer tal. Børn løser opgaverne ved at finde ud af hvilket tal hvert billede repræsenterer. Vælg mellem addition eller addition og subtraktion. Juster sværhedsgraden fra meget let (2 symboler) til svær (4 symboler). Perfekt til indskoling.
 
 Generer gratis skoleopgaver til print med temaer som børnene elsker. Over 3000 børnevenlige billeder organiseret i temaer. Kombiner matematikopgaver med andre arbejdsark typer. Lav komplette læringspakker til din klasse. Udskriv professionelle opgaver til print i 300 DPI kvalitet.`,
-    previewImageSrc: '/samples/english/math worksheet/math worksheet portrait.jpeg',
+    previewImageSrc: '/samples/danish/math/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Prøv Gratis',
       viewSamples: 'Se Eksempler',
@@ -49,9 +75,9 @@ Generer gratis skoleopgaver til print med temaer som børnene elsker. Over 3000 
     },
   },
 
-  // Sample Gallery - REAL file paths from samples/english/math worksheet/
+  // Sample Gallery - REAL file paths from samples/danish/math/
   samples: {
-    sectionTitle: 'Matematikopgaver Eksempler',
+    sectionTitle: 'Gratis Arbejdsark Matematikopgaver Eksempler',
     sectionDescription: 'Download gratis eksempler på arbejdsark for at se vores professionelle kvalitet',
     badgeText: 'Gratis Eksempler',
     downloadLabel: 'Download Gratis Eksempel',
@@ -65,17 +91,17 @@ Generer gratis skoleopgaver til print med temaer som børnene elsker. Over 3000 
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/math worksheet/math worksheet portrait.jpeg',
-        answerKeySrc: '/samples/english/math worksheet/math worksheet portrait answer_key.jpeg',
-        altText: 'Matematikopgaver portrætformat med billedbaserede puslespil til 0. klasse',
-        pdfDownloadUrl: '/samples/english/math worksheet/math worksheet portrait.pdf',
+        worksheetSrc: '/samples/danish/math/sample-1.jpeg',
+        answerKeySrc: '/samples/danish/math/sample-1-answer.jpeg',
+        altText: 'Gratis arbejdsark matematikopgaver portrætformat - billedbaserede puslespil til børnehaveklasse',
+        pdfDownloadUrl: '/samples/danish/math/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/math worksheet/math worksheet landscape.jpeg',
-        answerKeySrc: '/samples/english/math worksheet/math worksheet landscape answer_key.jpeg',
-        altText: 'Matematikopgaver landskabsformat med farverige opgaver til 1. klasse',
-        pdfDownloadUrl: '/samples/english/math worksheet/math worksheet landscape.pdf',
+        worksheetSrc: '/samples/danish/math/sample-2.jpeg',
+        answerKeySrc: '/samples/danish/math/sample-2-answer.jpeg',
+        altText: 'Gratis arbejdsark matematikopgaver - opgaver til print til 0. klasse og 1. klasse',
+        pdfDownloadUrl: '/samples/danish/math/sample-2.pdf',
       },
     ],
   },

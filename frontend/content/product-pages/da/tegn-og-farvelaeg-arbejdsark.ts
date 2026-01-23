@@ -15,16 +15,48 @@ export const drawAndColorDaContent: ProductPageContent = {
   seo: {
     slug: 'tegn-og-farvelaeg-arbejdsark',
     appId: 'draw-and-color',
-    title: 'Malebog Generator - Gratis Opgaver til Print - Farvelægning Arbejdsark til Børnehaveklassen',
-    description: 'Lav professionelle gitter-tegne arbejdsark med vores malebog generator. Generer tilpassede opgaver til print perfekte til 0. klasse og 1. klasse elever. Download højkvalitets PDF kopiark på under 3 minutter.',
-    keywords: 'malebog generator, gitter-tegne arbejdsark, farvelægning arbejdsark, gratis opgaver til print, børnehaveklassen, 0. klasse, 1. klasse, kopiark, finmotorik øvelser, tegne-gitter',
+    title: 'Tegn og Farvelæg Gratis Arbejdsark - Generator til Børnehaveklasse',
+    description: 'Lav tegn og farvelæg gratis arbejdsark til børn med vores generator. Ubegrænset arbejdsark til børnehaveklasse og 0. klasse. Download PDF på 3 minutter.',
+    keywords: 'tegn og farvelæg, malebog generator, gratis arbejdsark, arbejdsark til børn, arbejdsark til børnehaveklasse, gratis printables, 0. klasse, 1. klasse, finmotorik øvelser, gitter-tegne',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/tegn-og-farvelaeg-arbejdsark',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/draw-and-color/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Tegn og farvelæg gratis arbejdsark - gitter-tegne arbejdsark til børn for børnehaveklasse'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/draw-and-color/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis arbejdsark tegn og farvelæg - arbejdsark til børnehaveklasse med farvelægning'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/draw-and-color/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Arbejdsark til børn tegn og farvelæg - gratis printables finmotorik øvelser'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/draw-and-color/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Malebog gratis arbejdsark - arbejdsark til børnehaveklasse med gitter-tegne'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/draw-and-color/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Tegn og farvelæg arbejdsark til børn - gratis arbejdsark til 0. klasse'
+      },
+    ],
   },
 
   // Hero Section - FULL text from draw-and-color.md paragraphs 1-4
   hero: {
-    title: 'Malebog Generator - Gratis Opgaver til Print',
-    subtitle: 'Farvelægning Arbejdsark til Børnehaveklassen og 0. Klasse',
+    title: 'Tegn og Farvelæg Gratis Arbejdsark til Børn - Professionel Generator',
+    subtitle: 'Gratis Arbejdsark til Børnehaveklasse - 0. Klasse og 1. Klasse',
     description: `Lav professionelle gitter-tegne arbejdsark med vores malebog generator. Dit Fuld Adgang-abonnement giver dig ubegrænset oprettelse af farvelægning arbejdsark uden ekstra gebyrer pr. opgave. Generer tilpassede opgaver til print perfekte til 0. klasse og 1. klasse elever. Download højkvalitets PDF kopiark på under 3 minutter.
 
 Vores tegne-gitter generator kombinerer kreativ farvelægning med finmotorik øvelser. Børn afslører et skjult billede ved at farvelægge grid-celler baseret på visuelle ledtråde. Perfekt til børnehaveklassen og indskoling. Hver malebog fremmer finmotorik, farveforståelse og rumlig tænkning gennem sjove opgaver til print.
@@ -32,7 +64,7 @@ Vores tegne-gitter generator kombinerer kreativ farvelægning med finmotorik øv
 Fuld Adgang-abonnementet inkluderer alle 33 opgave-generatorer på platformen. Opret farvelægning arbejdsark, matematikopgaver, opgaver til at lære bogstaver og meget mere. Alle gratis skoleopgaver er tilgængelige som både farve og sort-hvid udgaver. Udskriv professionelle kopiark designet til danske børnehaveklasser og grundskoler.
 
 Generer tilpassede tegne-opgaver på få sekunder. Justér gitterstørrelse fra 3×3 til 10×10 celler. Vælg hvor mange ledtråde-celler der skal præ-udfyldes. Tilføj brugerdefinerede billeder eller vælg fra 3000+ børnevenlige temaer. Hver opgave eksporteres i 300 DPI kvalitet perfekt til udskrivning som arbejdsark eller kopiark til børn.`,
-    previewImageSrc: '/samples/english/draw and color/grid-drawing_worksheet.jpeg',
+    previewImageSrc: '/samples/danish/draw-and-color/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Prøv Gratis',
       viewSamples: 'Se Eksempler',
@@ -51,9 +83,9 @@ Generer tilpassede tegne-opgaver på få sekunder. Justér gitterstørrelse fra 
     },
   },
 
-  // Sample Gallery - REAL file paths from samples/english/draw and color/
+  // Sample Gallery - REAL file paths from samples/danish/draw-and-color/
   samples: {
-    sectionTitle: 'Tegn og Farvelæg Eksempler',
+    sectionTitle: 'Gratis Arbejdsark Eksempler - Tegn og Farvelæg til Børn',
     sectionDescription: 'Download gratis eksempler på arbejdsark for at se vores professionelle kvalitet',
     badgeText: 'Gratis Eksempler',
     downloadLabel: 'Download Gratis Eksempel',
@@ -67,59 +99,45 @@ Generer tilpassede tegne-opgaver på få sekunder. Justér gitterstørrelse fra 
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/draw and color/grid-drawing_worksheet.jpeg',
+        worksheetSrc: '/samples/danish/draw-and-color/sample-1.jpeg',
         answerKeySrc: '',
-        altText: 'Gitter-tegne arbejdsark med skjult billede til børnehaveklassen',
-        pdfDownloadUrl: '/samples/english/draw and color/grid-drawing-worksheet.pdf',
+        altText: 'Tegn og farvelæg gratis arbejdsark med gitter-tegne - arbejdsark til børn til børnehaveklasse',
+        pdfDownloadUrl: '/samples/danish/draw-and-color/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/draw and color/grid-drawing_worksheet (1).jpeg',
+        worksheetSrc: '/samples/danish/draw-and-color/sample-2.jpeg',
         answerKeySrc: '',
-        altText: 'Malebog gitter-opgave med farvelægning ledtråde til 0. klasse',
-        pdfDownloadUrl: '/samples/english/draw and color/grid-drawing-worksheet (1).pdf',
+        altText: 'Gratis arbejdsark tegn og farvelæg med farvelægning ledtråde - gratis printables til 0. klasse',
+        pdfDownloadUrl: '/samples/danish/draw-and-color/sample-2.pdf',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/draw and color/grid-drawing_worksheet (2).jpeg',
+        worksheetSrc: '/samples/danish/draw-and-color/sample-3.jpeg',
         answerKeySrc: '',
-        altText: 'Farvelægning arbejdsark med gitter-mønster til finmotorik øvelser',
-        pdfDownloadUrl: '/samples/english/draw and color/grid-drawing-worksheet (2).pdf',
+        altText: 'Arbejdsark til børnehaveklasse tegn og farvelæg - arbejdsark til børn med finmotorik øvelser',
+        pdfDownloadUrl: '/samples/danish/draw-and-color/sample-3.pdf',
       },
       {
         id: '4',
-        worksheetSrc: '/samples/english/draw and color/grid-drawing_worksheet (3).jpeg',
+        worksheetSrc: '/samples/danish/draw-and-color/sample-4.jpeg',
         answerKeySrc: '',
-        altText: 'Tegne-gitter kopiark med tematisk billede til 1. klasse',
-        pdfDownloadUrl: '/samples/english/draw and color/grid-drawing-worksheet (3).pdf',
+        altText: 'Malebog gratis arbejdsark med gitter-tegne - arbejdsark til børnehaveklasse tematisk',
+        pdfDownloadUrl: '/samples/danish/draw-and-color/sample-4.pdf',
       },
       {
         id: '5',
-        worksheetSrc: '/samples/english/draw and color/grid-drawing_worksheet (4).jpeg',
+        worksheetSrc: '/samples/danish/draw-and-color/sample-5.jpeg',
         answerKeySrc: '',
-        altText: 'Gitter-farvelægning opgave til print for børnehaveklassen',
-        pdfDownloadUrl: '/samples/english/draw and color/grid-drawing-worksheet (4).pdf',
-      },
-      {
-        id: '6',
-        worksheetSrc: '/samples/english/draw and color/grid-drawing_worksheet (5).jpeg',
-        answerKeySrc: '',
-        altText: 'Malebog arbejdsark med grid-celler til rumlig tænkning',
-        pdfDownloadUrl: '/samples/english/draw and color/grid-drawing-worksheet (5).pdf',
-      },
-      {
-        id: '7',
-        worksheetSrc: '/samples/english/draw and color/grid-drawing_worksheet (6).jpeg',
-        answerKeySrc: '',
-        altText: 'Farvelægning gitter-opgave med visuelle ledtråde til indskoling',
-        pdfDownloadUrl: '/samples/english/draw and color/grid-drawing-worksheet (6).pdf',
+        altText: 'Tegn og farvelæg arbejdsark til børn med skjult billede - gratis arbejdsark til 1. klasse',
+        pdfDownloadUrl: '/samples/danish/draw-and-color/sample-5.pdf',
       },
     ],
   },
 
   // Features Grid - FULL text from draw-and-color.md feature sections
   features: {
-    sectionTitle: 'Malebog Funktioner - Alt Du Har Brug For til Farvelægning Arbejdsark',
+    sectionTitle: 'Tegn og Farvelæg Funktioner - Gratis Arbejdsark til Børn og Arbejdsark til Børnehaveklasse',
     sectionDescription: 'Vores malebog generator tilbyder omfattende funktioner til at lave perfekte gratis opgaver til print. Hvert værktøj er designet til at gøre det nemt at oprette professionelle farvelægning arbejdsark for børnehaveklassen og 1. klasse. Fuld Adgang-abonnementet giver dig adgang til alle funktioner uden ekstra omkostninger. Download ubegrænsede kopiark som PDF eller JPEG i høj opløsning.',
     highlightBadgeText: 'Vigtig Funktion',
     readMoreLabel: 'Læs mere',
@@ -199,7 +217,7 @@ Vælg mellem fuldfarve og sort-hvid eksportering. Fuldfarve versioner viser farv
 
   // How-To Guide - FULL text from draw-and-color.md step sections
   howTo: {
-    sectionTitle: 'Sådan Laver Du Farvelægning Arbejdsark i 5 Nemme Trin',
+    sectionTitle: 'Sådan Laver Du Tegn og Farvelæg Gratis Arbejdsark i 5 Nemme Trin',
     sectionDescription: 'Opret professionelle farvelægning kopiark fra start til færdig på under 3 minutter. Ingen designerfærdigheder påkrævet. Vores trin-for-trin guide viser præcis hvordan du laver perfekte opgaver til print for 0. klasse og 1. klasse. Fuld Adgang-abonnementet giver dig alle værktøjer til at generere ubegrænsede gratis skoleopgaver til børnehaveklassen.',
     ctaText: 'Start Nu',
     badgeText: 'Sådan Virker Det',
@@ -271,7 +289,7 @@ Download svar-nøgle hvis du vil have en komplet version. Svar-nøglen viser det
 
   // Use Cases - FULL text from draw-and-color.md use case sections
   useCases: {
-    sectionTitle: 'Perfekt til Pædagoger, Forældre og Undervisere',
+    sectionTitle: 'Perfekt til Pædagoger og Forældre - Tegn og Farvelæg Gratis Arbejdsark til Alle Behov',
     sectionDescription: 'Vores farvelægning arbejdsark passer til enhver undervisningssituation. Pædagoger i børnehaveklassen bruger dem til finmotorik øvelser. Lærere i 1. klasse integrerer dem i matematik og læse-lektioner. Hjemmeundervisende forældre laver tilpassede gratis skoleopgaver til deres børn. Fuld Adgang-abonnementet giver alle brugertyper ubegrænsede opgaver til print uden ekstra omkostninger.',
     badgeText: 'Hvem Er Det Til',
     readMoreLabel: 'Læs mere',
@@ -354,7 +372,7 @@ Differentierede pakker appellerer til forskellige kunde-behov. Begynder-pakker m
 
   // FAQ Section - Selected FAQs from draw-and-color.md
   faq: {
-    sectionTitle: 'Ofte Stillede Spørgsmål om Farvelægning Arbejdsark og Gratis Skoleopgaver',
+    sectionTitle: 'Ofte Stillede Spørgsmål om Tegn og Farvelæg Gratis Arbejdsark til Børn',
     sectionDescription: 'Pædagoger stiller ofte spørgsmål om vores malebog generator før de abonnerer. Denne sektion besvarer de 12 mest almindelige spørgsmål. Lær om priser, funktioner og muligheder. Forstå hvordan farvelægning arbejdsark fungerer i din børnehaveklasse eller 1. klasse.',
     showMoreText: 'Vis flere spørgsmål',
     showLessText: 'Vis færre',
@@ -483,7 +501,7 @@ Differentierede pakker appellerer til forskellige kunde-behov. Begynder-pakker m
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Kombinér med Andre Arbejdsark Generatorer',
+    sectionTitle: 'Kombinér Tegn og Farvelæg Gratis Arbejdsark med Andre Apps til Børn',
     sectionDescription: 'Lav komplette læringspakker ved at kombinere tegn og farvelæg med disse komplementære generatorer.',
     ctaTitle: 'Klar til at Lave Fantastiske Arbejdsark?',
     ctaDescription: 'Tilslut dig tusindvis af pædagoger der laver professionelle arbejdsark. Ubegrænset oprettelse, kommerciel licens inkluderet.',

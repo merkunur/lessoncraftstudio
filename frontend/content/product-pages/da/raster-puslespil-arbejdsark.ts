@@ -15,16 +15,48 @@ export const gridMatchDaContent: ProductPageContent = {
   seo: {
     slug: 'raster-puslespil-arbejdsark',
     appId: 'grid-match',
-    title: 'Raster-Puslespil Generator - Gratis Skoleopgaver til Print til Børnehaveklassen og 1. Klasse',
+    title: 'Raster-Puslespil - Gratis Arbejdsark Generator til Børnehaveklasse og Børn',
     description: 'Lav professionelle raster-puslespil med vores opgavegenerator. Din Fuld Adgang-abonnement giver dig ubegrænset oprettelse af opgaver uden gebyrer per opgave. Generer tilpassede arbejdsark perfekt til børnehaveklassen og 1. klasse. Download opgaver til print i høj kvalitet som PDF på under 3 minutter.',
     keywords: 'raster-puslespil, opgaver til print, matematikopgaver, arbejdsark, gratis skoleopgaver, børnehaveklassen, 1. klasse, finmotorik øvelser, visuel opfattelse, problemløsning',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/raster-puslespil-arbejdsark',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/grid-match/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis arbejdsark raster-puslespil - arbejdsark til børn med visuelle matchingopgaver til børnehaveklasse'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/grid-match/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Raster-puslespil gratis printables - arbejdsark til børnehaveklasse med finmotorik øvelser'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/grid-match/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis arbejdsark til børn - raster-puslespil med visuel perception træning'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/grid-match/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Arbejdsark til børnehaveklasse - gratis raster-puslespil med problemløsning'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/grid-match/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis printables raster-puslespil - arbejdsark til børn med matching øvelser'
+      },
+    ],
   },
 
   // Hero Section - FULL text from grid-match.md paragraphs 1-4
   hero: {
-    title: 'Raster-Puslespil',
-    subtitle: 'Arbejdsark til Børnehaveklassen',
+    title: 'Gratis Raster-Puslespil Arbejdsark til Børn - Professionel Generator til Børnehaveklasse',
+    subtitle: 'Raster-Puslespil Arbejdsark Generator - Gratis Printables til Børn',
     description: `Lav professionelle raster-puslespil med vores opgavegenerator. Din Fuld Adgang-abonnement giver dig ubegrænset oprettelse af opgaver uden gebyrer per opgave. Generer tilpassede arbejdsark perfekt til børnehaveklassen og 1. klasse. Download opgaver til print i høj kvalitet som PDF på under 3 minutter.
 
 Vores raster-puslespil generator hjælper pædagoger med at lave engagerende finmotorik øvelser. Børn matcher billedstykker for at fuldføre billedet. Dette styrker visuel opfattelse og problemløsningsevner. Perfekt til matematikopgaver med mønstre og former.
@@ -32,7 +64,7 @@ Vores raster-puslespil generator hjælper pædagoger med at lave engagerende fin
 Raster-puslespil arbejdsark kombinerer læring med sjov aktivitet. Værktøjet understøtter alle emner fra lære bogstaver til matematikopgaver. Vælg mellem 3000+ børnevenlige billeder organiseret efter temaer. Upload dine egne billeder for personlige opgaver til din klasse.
 
 Med Fuld Adgang kan du lave malebog aktiviteter kombineret med puslespil. Generatoren laver både opgave og svarark automatisk. Download som JPEG eller PDF i 300 DPI kvalitet. Abonnementet inkluderer kommerciel licens til at sælge dine opgaver.`,
-    previewImageSrc: '/samples/english/grid match/grid match portrait .jpeg',
+    previewImageSrc: '/samples/danish/grid-match/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Prøv Gratis',
       viewSamples: 'Se Eksempler',
@@ -51,9 +83,9 @@ Med Fuld Adgang kan du lave malebog aktiviteter kombineret med puslespil. Genera
     },
   },
 
-  // Sample Gallery - REAL file paths from samples/english/grid match/
+  // Sample Gallery - REAL file paths from samples/danish/grid-match/
   samples: {
-    sectionTitle: 'Raster-Puslespil Eksempler',
+    sectionTitle: 'Gratis Arbejdsark Eksempler - Raster-Puslespil til Børn',
     sectionDescription: 'Download gratis eksempler på arbejdsark for at se vores professionelle kvalitet',
     badgeText: 'Gratis Eksempler',
     downloadLabel: 'Download Gratis Eksempel',
@@ -62,30 +94,51 @@ Med Fuld Adgang kan du lave malebog aktiviteter kombineret med puslespil. Genera
     answerKeyLabel: 'Facitark',
     viewAllLabel: 'Se alle',
     noPdfLabel: 'Ingen PDF tilgængelig',
-    freePdfCountLabel: '2 gratis downloads',
+    freePdfCountLabel: '5 gratis downloads',
     ofLabel: 'af',
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/grid match/grid match portrait .jpeg',
-        answerKeySrc: '/samples/english/grid match/grid match portrait  answer_key.jpeg',
-        altText: 'Raster-puslespil arbejdsark portrætformat med visuelle matchingopgaver til børnehaveklassen',
-        pdfDownloadUrl: '/samples/english/grid match/grid match portrait .pdf',
+        worksheetSrc: '/samples/danish/grid-match/sample-1.jpeg',
+        answerKeySrc: '/samples/danish/grid-match/sample-1-answer.jpeg',
+        altText: 'Raster-puslespil gratis arbejdsark - arbejdsark til børn med visuelle matchingopgaver',
+        pdfDownloadUrl: '/samples/danish/grid-match/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/grid match/grid match landscape.jpeg',
-        answerKeySrc: '/samples/english/grid match/grid match landscape answer_key.jpeg',
-        altText: 'Raster-puslespil arbejdsark landskabsformat med finmotorik øvelser til 1. klasse',
-        pdfDownloadUrl: '/samples/english/grid match/grid match landscape.pdf',
+        worksheetSrc: '/samples/danish/grid-match/sample-2.jpeg',
+        answerKeySrc: '/samples/danish/grid-match/sample-2-answer.jpeg',
+        altText: 'Raster-puslespil gratis printables - arbejdsark til børnehaveklasse med finmotorik øvelser',
+        pdfDownloadUrl: '/samples/danish/grid-match/sample-2.pdf',
+      },
+      {
+        id: '3',
+        worksheetSrc: '/samples/danish/grid-match/sample-3.jpeg',
+        answerKeySrc: '/samples/danish/grid-match/sample-3-answer.jpeg',
+        altText: 'Raster-puslespil gratis arbejdsark - arbejdsark til børnehaveklasse med visuel perception',
+        pdfDownloadUrl: '/samples/danish/grid-match/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/danish/grid-match/sample-4.jpeg',
+        answerKeySrc: '/samples/danish/grid-match/sample-4-answer.jpeg',
+        altText: 'Raster-puslespil arbejdsark til børn - gratis printables med problemløsning',
+        pdfDownloadUrl: '/samples/danish/grid-match/sample-4.pdf',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/danish/grid-match/sample-5.jpeg',
+        answerKeySrc: '/samples/danish/grid-match/sample-5-answer.jpeg',
+        altText: 'Raster-puslespil gratis arbejdsark til børn - arbejdsark til børnehaveklasse med matching',
+        pdfDownloadUrl: '/samples/danish/grid-match/sample-5.pdf',
       },
     ],
   },
 
   // Features Grid - FULL text from grid-match.md feature sections
   features: {
-    sectionTitle: 'Nøglefunktioner i Raster-Puslespil Generator - Opgaver til Print for Alle Fagområder',
-    sectionDescription: 'Vores raster-puslespil generator giver pædagoger alt de har brug for. Lav opgaver til børnehaveklassen på få minutter. Værktøjet fungerer til alle fagområder og klassetrin. Kombiner billeder med tekst for bedre læring.',
+    sectionTitle: 'Funktioner i Raster-Puslespil Generator - Gratis Arbejdsark til Børnehaveklasse',
+    sectionDescription: 'Vores raster-puslespil generator giver pædagoger alt de har brug for. Lav gratis arbejdsark til børn på få minutter. Værktøjet fungerer til alle fagområder og klassetrin. Kombiner billeder med tekst for bedre læring.',
     highlightBadgeText: 'Vigtig Funktion',
     readMoreLabel: 'Læs mere',
     showLessLabel: 'Vis mindre',
@@ -99,7 +152,7 @@ Med Fuld Adgang kan du lave malebog aktiviteter kombineret med puslespil. Genera
       {
         id: '1',
         icon: '⚡',
-        title: 'Lav Arbejdsark på 3 Klik - Hurtig Generator til Gratis Skoleopgaver',
+        title: 'Lav Gratis Arbejdsark på 3 Klik - Hurtig Generator til Børn',
         description: `Vælg et tema fra billedbiblioteket. Klik "Opret" og dit opgaveark er klar. Hele processen tager under 3 minutter. Ingen designfærdigheder nødvendige. Perfekt til travle pædagoger i børnehaveklassen og 1. klasse.
 
 Generatoren laver automatisk både opgave og svarark. Du kan ændre grid-størrelse fra 2x2 til 4x4. Vælg antal ledetråds-celler fra 1 til 5. Juster vanskelighed efter dit klassetrin.`,
@@ -108,7 +161,7 @@ Generatoren laver automatisk både opgave og svarark. Du kan ændre grid-større
       {
         id: '2',
         icon: '✏️',
-        title: 'Fuld Canvas Redigerbarhed - Tilpas Matematikopgaver og Finmotorik Øvelser',
+        title: 'Fuld Canvas Redigerbarhed - Tilpas Gratis Arbejdsark til Børnehaveklasse',
         description: `Alt på dit opgaveark kan redigeres. Træk billeder til nye positioner. Drej og skaler elementer med musen. Tilføj tekst hvor som helst på siden.
 
 Rediger farver, skrifttyper og tekststørrelser. Flyt grid-celler rundt efter behov. Slet elementer du ikke ønsker. Lav præcis den opgave du forestiller dig til lære bogstaver eller matematikopgaver.`,
@@ -117,7 +170,7 @@ Rediger farver, skrifttyper og tekststørrelser. Flyt grid-celler rundt efter be
       {
         id: '3',
         icon: '📤',
-        title: 'Upload Egne Billeder - Personaliser Opgaver til Print for Din Klasse',
+        title: 'Upload Egne Billeder - Personaliser Gratis Arbejdsark til Børn',
         description: `Upload flere billeder på samme tid. Værktøjet accepterer JPEG, PNG og GIF formater. Kombiner dine billeder med biblioteks-billeder. Perfekt til tematiske enheder og personlig læring.
 
 Brug billeder af dine elever til navneøvelser. Upload bogstaver til skriv bogstaver aktiviteter. Tilføj tal til matematikopgaver. Lav malebog sider med klasse-fotos.`,
@@ -126,7 +179,7 @@ Brug billeder af dine elever til navneøvelser. Upload bogstaver til skriv bogst
       {
         id: '4',
         icon: '🌍',
-        title: '11 Sprog Support - Lav Opgaver på Dansk til Læse og Skrive Træning',
+        title: '11 Sprog Support - Lav Gratis Arbejdsark til Børn på Dansk',
         description: `Grænsefladen findes på 11 sprog inklusiv dansk. Billedbiblioteket understøtter 11 sprog. Billednavne vises på dit valgte sprog. Særligt vigtigt for lære bogstaver og læse og skrive opgaver.
 
 Lav opgaver på dansk til danske børn. Brug engelske billeder til sprogundervisning. Skift mellem sprog med ét klik. Perfekt til internationale skoler og flersproget undervisning.`,
@@ -135,7 +188,7 @@ Lav opgaver på dansk til danske børn. Brug engelske billeder til sprogundervis
       {
         id: '5',
         icon: '💰',
-        title: 'Kommerciel POD Licens - Sælg Dine Arbejdsark Online',
+        title: 'Kommerciel POD Licens - Sælg Dine Gratis Arbejdsark til Børnehaveklasse',
         description: `Fuld Adgang inkluderer fuld kommerciel print-on-demand licens. Sælg dine opgaver på Teachers Pay Teachers. Sælg på Etsy og Amazon KDP. Ingen ekstra licensgebyrer.
 
 300 DPI eksport-kvalitet perfekt til print og salg. Ingen påkrævet kreditering. Ideel til pædagog-iværksættere. Lav passive indtægter fra dine opgaver til print.`,
@@ -144,7 +197,7 @@ Lav opgaver på dansk til danske børn. Brug engelske billeder til sprogundervis
       {
         id: '6',
         icon: '🎨',
-        title: '3000+ Billedbibliotek - Gratis Skoleopgaver med Tematisk Organisering',
+        title: '3000+ Billedbibliotek - Gratis Printables med Tematisk Organisering',
         description: `Over 3000 børnevenlige billeder tilgængelige. Organiseret efter temaer som dyr, mad, transport. Let tema-valg fra dropdown-menu. Søgefunktion til specifikke billeder.
 
 Alle baggrunde og rammer inkluderet. Ingen ekstra omkostninger for visuelt indhold. Meget bedre værdi end konkurrenter. Perfekt til farvelægning og malebog aktiviteter.`,
@@ -153,7 +206,7 @@ Alle baggrunde og rammer inkluderet. Ingen ekstra omkostninger for visuelt indho
       {
         id: '7',
         icon: '🖨️',
-        title: 'Professionel 300 DPI Kvalitet - Download Opgaver til Print i Høj Opløsning',
+        title: 'Professionel 300 DPI Kvalitet - Download Gratis Arbejdsark til Børn',
         description: `Høj-opløsnings eksport til print. Perfekt til både hjemme og professionel printning. Download som JPEG eller PDF format. Gråtone mulighed sparer blæk.
 
 Opgaver ser professionelle ud. Klare linjer og skarpe billeder. Gangetabeller og matematikopgaver printer perfekt. Finmotorik øvelser har klar kvalitet.`,
@@ -164,8 +217,8 @@ Opgaver ser professionelle ud. Klare linjer og skarpe billeder. Gangetabeller og
 
   // How-To Guide - FULL text from grid-match.md step sections
   howTo: {
-    sectionTitle: 'Sådan Laver Du Arbejdsark til 0. Klasse og 1. Klasse på 5 Nemme Trin',
-    sectionDescription: 'Lav professionelle opgaver til print på under 3 minutter. Vores generator gør det nemt for pædagoger. Ingen tekniske færdigheder nødvendige. Følg disse 5 enkle trin til færdige gratis skoleopgaver.',
+    sectionTitle: 'Sådan Laver Du Gratis Arbejdsark til Børn i 5 Trin',
+    sectionDescription: 'Lav professionelle gratis arbejdsark på under 3 minutter. Vores generator gør det nemt for pædagoger. Ingen tekniske færdigheder nødvendige. Følg disse 5 enkle trin til færdige arbejdsark til børnehaveklasse.',
     ctaText: 'Start Nu',
     badgeText: 'Sådan Virker Det',
     stepLabel: 'Trin',
@@ -179,7 +232,7 @@ Opgaver ser professionelle ud. Klare linjer og skarpe billeder. Gangetabeller og
       {
         id: '1',
         number: 1,
-        title: 'Vælg Dit Indhold - Temaer for Matematikopgaver og Lære Bogstaver Opgaver',
+        title: 'Vælg Dit Indhold - Temaer for Gratis Arbejdsark til Børn',
         description: `Start med at vælge et tema fra biblioteket. Over 50 temaer tilgængelige organiseret efter fag. Dyr, mad, transport, tal, bogstaver og meget mere. Perfekt til børnehaveklassen opgaver.
 
 Brug søgefunktionen til specifikke billeder. Skriv "æble" eller "bil" for at finde billeder hurtigt. Alle billednavne vises på dansk. Klik på et billede for at se preview.
@@ -192,7 +245,7 @@ Vælg billeder der matcher dit emne. Tal til matematikopgaver. Bogstaver til skr
       {
         id: '2',
         number: 2,
-        title: 'Tilpas Indstillinger - Grid-Størrelse for Gratis Skoleopgaver og Kopiark',
+        title: 'Tilpas Indstillinger - Grid-Størrelse for Gratis Arbejdsark til Børnehaveklasse',
         description: `Vælg grid-størrelse fra 2x2 til 4x4. Små grid til børnehaveklassen. Større grid til 1. klasse. Juster vanskelighed efter dine elevers niveau.
 
 Vælg antal ledetråds-celler fra 1 til 5. Flere ledetråde gør opgaven lettere. Færre ledetråde øger udfordringen. Perfekt til differentiering i arbejdsark.
@@ -205,7 +258,7 @@ Tilføj baggrundsfarve eller tema. Vælg ramme-design fra biblioteket. Juster op
       {
         id: '3',
         number: 3,
-        title: 'Generer Dit Opgaveark - Opret Matematikopgaver og Farvelægning Opgaver',
+        title: 'Generer Dit Opgaveark - Opret Gratis Arbejdsark til Børn',
         description: `Klik "Opret" knappen øverst til højre. Generatoren laver opgaveark automatisk. Både opgave og svarark laves samtidigt. Processen tager kun sekunder.
 
 Raster-puslespillet vises på skærmen. Billedet er opdelt i grid-celler. Nogle celler viser ledetråde. Børn skal matche de resterende stykker.
@@ -218,7 +271,7 @@ Hvis du ikke kan lide resultatet, klik "Opret" igen. Generatoren laver et nyt de
       {
         id: '4',
         number: 4,
-        title: 'Rediger på Canvas - Tilpas Arbejdsark og Finmotorik Øvelser',
+        title: 'Rediger på Canvas - Tilpas Gratis Arbejdsark til Børnehaveklasse',
         description: `Alt på dit opgaveark kan redigeres nu. Klik på et element for at vælge det. Træk for at flytte positionen. Drej med rotation-håndtaget.
 
 Skaler elementer større eller mindre. Slet elementer du ikke ønsker. Tilføj tekstbokse hvor som helst. Skift skrifttype, størrelse og farve.
@@ -233,7 +286,7 @@ Låse-funktionen beskytter elementer mod utilsigtet redigering. Nyttigt når du 
       {
         id: '5',
         number: 5,
-        title: 'Download og Print - Opgaver til Print som PDF og JPEG',
+        title: 'Download og Print - Gratis Printables til Børn som PDF og JPEG',
         description: `Vælg downloadformat: JPEG eller PDF. Begge formater er 300 DPI høj kvalitet. PDF bevarer skarp tekst og linjer. JPEG fungerer godt til online deling.
 
 Download opgaveark først. Derefter download svarark. Begge filer navngives automatisk. Gem dem i din opgave-mappe på computeren.
@@ -250,8 +303,8 @@ Kombiner med andre opgavetyper. Lav komplette læringspakker. Tilføj gangetabel
 
   // Use Cases - FULL text from grid-match.md use case sections
   useCases: {
-    sectionTitle: 'Perfekt til Pædagoger, Forældre og Undervisere - Gratis Skoleopgaver til Alle Behov',
-    sectionDescription: 'Vores raster-puslespil generator passer til mange undervisningssituationer. Fra børnehaveklassen til 3. klasse. Fra klassevejledere til hjemmeundervisning. Værktøjet tilpasser sig dine behov.',
+    sectionTitle: 'Perfekt til Lærere og Forældre - Gratis Arbejdsark til Børnehaveklasse',
+    sectionDescription: 'Vores raster-puslespil generator passer til mange undervisningssituationer. Fra børnehaveklassen til 3. klasse. Fra klassevejledere til hjemmeundervisning. Perfekt til gratis arbejdsark til børn.',
     badgeText: 'Hvem Er Det Til',
     readMoreLabel: 'Læs mere',
     showLessLabel: 'Vis mindre',
@@ -259,8 +312,8 @@ Kombiner med andre opgavetyper. Lav komplette læringspakker. Tilføj gangetabel
       {
         id: '1',
         icon: '👩‍🏫',
-        title: 'Pædagoger i Børnehaveklassen og 0. Klasse - Finmotorik Øvelser og Lære Bogstaver Opgaver',
-        subtitle: 'Visuel Læring til de Yngste',
+        title: 'Pædagoger i Børnehaveklassen - Gratis Arbejdsark til Børn med Finmotorik Øvelser',
+        subtitle: 'Gratis Printables til Visuel Læring',
         description: `Pædagoger i børnehaveklassen elsker enkle 2x2 og 3x3 grid. Store billeder og få stykker perfekt til små hænder. Fokus på finmotorik udvikling og visuel opfattelse.
 
 Brug dyretemaer til at lære dyrenavne. Frugt og grøntsager til ordforråd. Farver og former til grundlæggende koncepter. Kombiner med farvelægning aktiviteter bagefter.
@@ -273,8 +326,8 @@ Grid-puslespil styrker koncentration og tålmodighed. Børn arbejder selvstændi
       {
         id: '2',
         icon: '📚',
-        title: 'Lærere på Indskoling 1. til 3. Klasse - Matematikopgaver og Arbejdsark til Alle Fag',
-        subtitle: 'Tværfaglig Læring',
+        title: 'Lærere på Indskoling - Gratis Arbejdsark til Børnehaveklasse og Alle Fag',
+        subtitle: 'Gratis Arbejdsark til Tværfaglig Læring',
         description: `1. klasse lærere bruger raster-puslespil til tal-genkendelse. Billeder af tal fra 1 til 20. Børn matcher tallene i rækkefølge. God introduktion til matematikopgaver.
 
 2. klasse lærere laver sværere 3x3 og 4x4 grid. Færre ledetråde øger udfordringen. Emner matcher dansk, matematik og natur/teknik pensum. Opgaver til print til ugentlige lektier.
@@ -287,8 +340,8 @@ Lærere laver emne-specifikke opgaver. Historiske personer til historie. Planter
       {
         id: '3',
         icon: '🏠',
-        title: 'Hjemmeundervisende Forældre - Kopiark og Gratis Skoleopgaver til Flere Børn',
-        subtitle: 'Fleksibel Hjemmelæring',
+        title: 'Hjemmeundervisende Forældre - Gratis Arbejdsark til Børn i Alle Aldre',
+        subtitle: 'Gratis Printables til Fleksibel Hjemmelæring',
         description: `Hjemmeundervisere har brug for opgaver til forskellige aldre. Lav 2x2 grid til yngste barn. 4x4 grid til ældste. Samme værktøj fungerer til alle klassetrin.
 
 Spar penge på færdiglavede arbejdshæfter. Fuld Adgang koster $240 om året for ubegrænsede opgaver. Meget billigere end at købe separate bøger. Download og print hjemme efter behov.
@@ -301,8 +354,8 @@ Brug personlige familiefotos i opgaver. Upload billeder fra ferier og begivenhed
       {
         id: '4',
         icon: '🌍',
-        title: 'Sproglærere og Fremmedsprog Undervisning - Lære Bogstaver og Læse og Skrive på Dansk',
-        subtitle: 'Flersproget Læring',
+        title: 'Sproglærere - Gratis Arbejdsark til Børn med Flersproget Læring',
+        subtitle: 'Arbejdsark til Børnehaveklasse på Flere Sprog',
         description: `Sproglærere bruger raster-puslespil til ordforråd. Billeder af hverdagsgenstande med danske navne. Børn lærer ord mens de løser puslespil. Visuel og kinæstetisk læring kombineret.
 
 Lav opgaver med bogstaver til alfabetet. Store A-Å billeder til genkendelse. Perfekt til lære bogstaver for tosprogede elever. Kombiner med stavning øvelser bagefter.
@@ -315,8 +368,8 @@ Brug temabilleder til emnespecifikt ordforråd. Mad-tema til restaurantbesøg. T
       {
         id: '5',
         icon: '💜',
-        title: 'Specialpædagoger og Differentiering - Tilpassede Opgaver til Print for Alle Elever',
-        subtitle: 'Tilpasset til Særlige Behov',
+        title: 'Specialpædagoger - Gratis Arbejdsark til Børnehaveklasse med Differentiering',
+        subtitle: 'Gratis Arbejdsark til Børn med Særlige Behov',
         description: `Specialpædagoger har brug for meget differentiering. Nogle elever bruger 2x2 grid med 4 ledetråde. Andre bruger 4x4 grid med 1 ledetråd. Samme værktøj laver begge.
 
 Store, klare billeder hjælper elever med synsvanskeligheder. Enkle designs reducerer visuel forvirring. Juster kompleksitet præcist til hver elevs niveau. Perfekt til IEP mål.
@@ -329,8 +382,8 @@ Kombiner raster-puslespil med andre finmotorik øvelser. Skæreøvelser, tegneø
       {
         id: '6',
         icon: '💰',
-        title: 'Pædagog-Iværksættere - Sælg Arbejdsark på Teachers Pay Teachers og Etsy',
-        subtitle: 'Kommerciel Mulighed',
+        title: 'Pædagog-Iværksættere - Sælg Gratis Arbejdsark til Børn Online',
+        subtitle: 'Gratis Printables til Kommerciel Brug',
         description: `Mange pædagoger sælger opgaver online som sidehustle. Teachers Pay Teachers Danmark vokser hurtigt. Danske forældre søger kvalitets arbejdsark. Marked for gratis skoleopgaver er enormt.
 
 Fuld Adgang inkluderer kommerciel licens. Sælg dine raster-puslespil uden ekstra gebyrer. $240 om året giver ubegrænsede salgbare opgaver. Mange tjener $500-5000 om måneden.
@@ -345,8 +398,8 @@ Brug Pinterest til at markedsføre dine opgaver. Danske forældre søger "opgave
 
   // FAQ Section - Selected FAQs from grid-match.md
   faq: {
-    sectionTitle: 'Ofte Stillede Spørgsmål om Raster-Puslespil Arbejdsark og Gratis Skoleopgaver',
-    sectionDescription: 'Pædagoger stiller mange spørgsmål før de abonnerer. Her besvarer vi de 12 mest almindelige. Lær om pris, funktioner og muligheder. Forstå hvad Fuld Adgang tilbyder.',
+    sectionTitle: 'Ofte Stillede Spørgsmål om Gratis Raster-Puslespil Arbejdsark til Børn',
+    sectionDescription: 'Pædagoger stiller mange spørgsmål før de abonnerer. Her besvarer vi de 12 mest almindelige om gratis arbejdsark til børnehaveklasse. Lær om pris, funktioner og muligheder.',
     showMoreText: 'Vis flere spørgsmål',
     showLessText: 'Vis færre',
     badgeText: 'FAQ',
@@ -357,62 +410,62 @@ Brug Pinterest til at markedsføre dine opgaver. Danske forældre søger "opgave
     items: [
       {
         id: '1',
-        question: 'Er Denne Raster-Puslespil Generator Virkelig Gratis at Bruge for Gratis Skoleopgaver?',
+        question: 'Er Denne Raster-Puslespil Generator Virkelig Gratis til at Lave Arbejdsark til Børn?',
         answer: 'Raster-puslespil generatoren kræver Fuld Adgang abonnement til $240 årligt eller $25 månedligt. Dit abonnement giver ubegrænset opgave-skabelse uden gebyrer per ark. Generer så mange kopiark som du har brug for uden ekstra omkostninger. Fuld Adgang inkluderer alle 33 opgavegeneratorer. Ikke kun raster-puslespil. Også matematikopgaver, gangetabeller, ordgåder, sudoku og meget mere. Én pris for komplet platform-adgang. Kernepakke inkluderer 10 populære generatorer og koster $144 årligt. Fuld Adgang koster $240 årligt og inkluderer alle 33 generatortyper inklusiv raster-puslespil. Begge abonnementer inkluderer kommerciel licens, 11 sprog support og professionel 300 DPI kvalitet.',
       },
       {
         id: '2',
-        question: 'Kan Jeg Printe Opgaver til Print Hjemme på Min Almindelige Printer?',
+        question: 'Kan Jeg Printe Gratis Arbejdsark til Børn Hjemme på Min Almindelige Printer?',
         answer: 'Ja, alle opgaver til print fungerer perfekt på hjemme-printere. Download som PDF eller JPEG. Begge formater printer uden problemer. Kvaliteten er 300 DPI professionel standard. Brug almindeligt A4 kopipapir. Eller Letter størrelse i USA. Farve eller sort-hvid begge fungerer. Gråtone mulighed sparer farveblæk hvis nødvendigt. Lærere printer hjemme for at spare skole-budgetter. Print 30 kopier til hele klassen. Eller send til professionel trykker for store mængder. Kvaliteten er perfekt til begge. PDF format bevarer skarpe linjer og tekst. JPEG fungerer godt til online deling. Vælg formatet der passer dine behov. Begge download med ét klik.',
       },
       {
         id: '3',
-        question: 'Skal Jeg Bruge Designfærdigheder til at Lave Arbejdsark og Kopiark?',
+        question: 'Skal Jeg Bruge Designfærdigheder til at Lave Gratis Arbejdsark til Børnehaveklasse?',
         answer: 'Ingen designfærdigheder nødvendige overhovedet. Generatoren håndterer alt layout automatisk. Vælg tema, juster indstillinger, klik "Opret". Dit arbejdsark er færdigt på sekunder. Pædagoger uden teknisk baggrund bruger værktøjet dagligt. Grænsefladen er intuitiv og ligetil. Store knapper og klare labels. Alt på dansk for nemme forståelse. Canvas-redigering er simpel træk-og-slip. Klik på element, træk til ny position. Ingen komplicerede værktøjer. Børn kunne bruge det. Video tutorials tilgængelige hvis du bliver forvirret. Men de fleste pædagoger har ikke brug for dem. Værktøjet er selvforklarende. Lav dit første kopiark på 3 minutter.',
       },
       {
         id: '4',
-        question: 'Kan Jeg Bruge Disse Opgaver i Min 0. Klasse og 1. Klasse til Elever?',
+        question: 'Kan Jeg Bruge Disse Gratis Arbejdsark til Børn i Min Børnehaveklasse?',
         answer: 'Fuld Adgang abonnement inkluderer ubegrænset klasseværelse brug. Print så mange kopier som du har brug for. Giv til alle elever i din 0. klasse og 1. klasse. Ingen begrænsninger på antal. Brug til daglige opgaver, lektier eller prøver. Lav differentierede versioner til forskellige niveauer. Same værktøj laver let, medium og svært. Perfekt til blandede klasseværelser. Del opgaver med kolleger på din skole. Lav et delt bibliotek af opgaver. Organiser efter emne og klassetrin. Samarbejd om pensum-planlægning. Vis opgaver på interaktiv tavle. Børn kan løse sammen. Eller send hjem til forældre digitalt. Fleksible brugsscenarier for moderne undervisning.',
       },
       {
         id: '5',
-        question: 'Hvilke Sprog Er Tilgængelige for Lære Bogstaver og Skriv Bogstaver Opgaver?',
+        question: 'Hvilke Sprog Er Tilgængelige for Gratis Arbejdsark til Børn?',
         answer: 'Raster-puslespil generatoren understøtter 11 sprog komplet. Dansk, engelsk, tysk, fransk, spansk, italiensk, portugisisk, hollandsk, svensk, norsk og finsk. Både grænseflade og indhold. Billedbiblioteket viser navne på dit valgte sprog. Dyrebilleder får danske navne når du vælger dansk. Same billeder viser engelske navne på engelsk. Automatisk oversættelse af alle 3000+ billeder. Perfekt til lære bogstaver i flere sprog. Lav samme opgave på dansk og engelsk. Børn sammenligner bogstaver og lyd. Udvikler cross-linguistisk bevidsthed. Skriv bogstaver øvelser fungerer på alle sprog. Upload bogstav-billeder på målet-sprog. Lav alfabets-opgaver for tosprogede børn. Støt dansk som andetsprog elever. Grænsefladen skifter sprog med ét klik. Menu og knapper ændrer straks. Pædagoger arbejder på modersmål. Reducerer forvirring og fejl.',
       },
       {
         id: '6',
-        question: 'Kan Jeg Sælge Raster-Puslespil Opgaver med Matematikopgaver og Gangetabeller?',
+        question: 'Kan Jeg Sælge Gratis Arbejdsark til Børnehaveklasse Kommercielt?',
         answer: 'Ja, Fuld Adgang inkluderer fuld kommerciel print-on-demand licens uden ekstra omkostninger. Sælg dine raster-puslespil på Teachers Pay Teachers, Etsy og Amazon KDP. Kombiner med matematikopgaver og gangetabeller for komplette pakker. Mange pædagoger laver temabundles. Raster-puslespil plus matematikopgaver plus gangetabeller. Sælg som pakke til højere pris. Købere elsker komplette lektionspakker. 300 DPI professionel kvalitet sikrer tilfredse kunder. Fem-stjernede anmeldelser driver flere salg. Byg din reputation som kvalitetsskaber. Passive indtægter vokser månedligt. Ingen attribution påkrævet på dine opgaver. Sæt dit eget brand og logo. Udgiv under dit pædagog-navn. Fuld kreativ kontrol over produkter.',
       },
       {
         id: '7',
-        question: 'Hvordan Tilpasser Jeg Opgaver for Malebog, Farvelægning og Finmotorik Øvelser?',
+        question: 'Hvordan Tilpasser Jeg Gratis Arbejdsark til Børn med Finmotorik Øvelser?',
         answer: 'Canvas-redigering giver komplet kontrol. Klik på ethvert element for at vælge det. Ændre farver, størrelser, positioner. Tilføj eller fjern elementer efter behov. Lav malebog versioner ved at fjerne farver. Vælg hvid baggrund og sorte linjer. Børn kan farve puslespillet efter at matche det. Kombiner matching med farvelægning aktivitet. Finmotorik øvelser kræver store, klare billeder. Juster grid-størrelse til 2x2 for yngre børn. Store stykker nemmere at håndtere. Gradvist mindre stykker udvikler færdigheder. Tilføj tekst til farvelægning vejledning. "Farv æblet rødt" eller "Farv himlen blå". Kombiner farve-genkendelse med matching opgave. Multi-færdighedstræning. Upload dine egne malebog billeder. Kombiner med biblioteks-billeder. Lav unikke hybrid-opgaver. Kreativiteten er ubegrænset.',
       },
       {
         id: '8',
-        question: 'Hvilke Aldersgrupper Virker Bedst med Gangetabeller og 0. Klasse Opgaver?',
+        question: 'Hvilke Aldersgrupper Virker Bedst med Gratis Arbejdsark til Børnehaveklasse?',
         answer: 'Raster-puslespil fungerer for 4-9 årige børn. Børnehaveklassen og 0. klasse bruger simple 2x2 grid. 1. klasse og 2. klasse bruger 3x3 grid. 3. klasse kan håndtere komplekse 4x4 grid. 0. klasse opgaver fokuserer på store, farverige billeder. Få stykker og mange ledetråde. Emner som dyr, frugt, farver. Grundlæggende koncepter og ordforråd. 1. klasse øger kompleksitet gradvist. 3x3 grid med 2-3 ledetråde. Emner matcher pensum. Tal-genkendelse, bogstav-matching, form-identifikation. 3. klasse bruger raster-puslespil med gangetabeller. Tal-produkter som billeder. Børn matcher svar til opgaver. Visuel læring af multiplikation. Juster vanskelighed præcist til hver elevs niveau. Specialpædagogik kræver meget præcision. Vores værktøj giver den kontrol.',
       },
       {
         id: '9',
-        question: 'Kan Jeg Uploade Mine Egne Billeder til Opgaver til Print?',
+        question: 'Kan Jeg Uploade Mine Egne Billeder til Gratis Arbejdsark til Børn?',
         answer: 'Ja, upload ubegrænsede billeder gratis. Multi-fil upload støttes. Vælg flere billeder på én gang. Alle almindelige formater fungerer: JPEG, PNG, GIF. Kombiner uploadede billeder med biblioteks-billeder. Perfekt til personlige opgaver til print. Brug klassefotos, ekskursionsbilleder, eller familiebilleder. Gør læring relevant. Upload bogstav-kort til alfabets-træning. Upload tal-kort til tælleøvelser. Upload former til geometri-opgaver. Tilpas præcist til dit pensum. Billederne gemmes i din konto. Genbruge dem i fremtidige opgaver. Byg dit personlige bibliotek over tid. Spar tid på gentagende emner. Ingen størrelsesbegrænsninger på uploads. Høj-opløsningsbilleder bevarer kvalitet. Værktøjet optimerer automatisk til print. 300 DPI output sikret.',
       },
       {
         id: '10',
-        question: 'Hvor Lang Tid Tager Det at Lave Matematikopgaver med Gangetabeller?',
+        question: 'Hvor Lang Tid Tager Det at Lave Gratis Arbejdsark til Børnehaveklasse?',
         answer: 'Komplet raster-puslespil fra start til download tager under 3 minutter. Matematikopgaver med gangetabeller elementer samme hastighed. Meget hurtigere end traditionelle metoder. Vælg tema: 30 sekunder. Juster indstillinger: 30 sekunder. Generer: 10 sekunder. Rediger på canvas: 1-2 minutter. Download: 10 sekunder. Færdig. Erfarne brugere arbejder endnu hurtigere. Efter en uges brug, mange laver opgaver på 90 sekunder. Muskelhukommelse udvikles hurtigt. Arbejdsflow bliver automatisk. Sammenlign med traditionel metode: Find billeder online 10 minutter. Download og organiser 5 minutter. Åbn design-software 2 minutter. Layout og justere 20-30 minutter. Eksporter og test-print 5 minutter. Total: 45-60 minutter. Vores værktøj sparer 40-55 minutter per opgave. Lav 10 opgaver om ugen? Spar 8 timer om ugen. Det er en ekstra arbejdsdag tilbage.',
       },
       {
         id: '11',
-        question: 'Inkluderer Opgaver Svarark til Læse og Skrive Stavning Kontrol?',
+        question: 'Inkluderer Gratis Arbejdsark til Børn Svarark?',
         answer: 'Ja, generatoren laver automatisk både opgave og svarark. Svarinøglen viser det komplette puslespil-billede. Børn kan selv-tjekke deres arbejde. Fremmer selvstændighed. Download begge ark separat. Print opgaveark til elever. Print svarark til lærer-brug. Eller print svarark til selvstændige læringsstationer. Læse og skrive stavning aktiviteter drager fordel. Lav puslespil med ord-billeder. Svarinøglen viser korrekt stavning. Børn matcher bogstaver mens de lærer. Svarark hjælper forældre ved lektiehjælp. De kender det rigtige svar. Kan støtte børn præcist. Reducerer frustration hjemme. Svarinøglen printer i samme kvalitet. 300 DPI skarphed. Klare, læsbare billeder. Professionel præsentation.',
       },
       {
         id: '12',
-        question: 'Kan Jeg Lave Opgaver om Specifikke Emner som Malebog, Finmotorik og Gangetabeller?',
+        question: 'Kan Jeg Lave Gratis Printables om Specifikke Emner til Børn?',
         answer: 'Ja, komplet emnekontrol gennem billedvalg og upload. Biblioteket har temaer for alle fag. Malebog emner, finmotorik designs, gangetabeller visuelle hjælpemidler. Malebog temaer inkluderer dyr, planter, køretøjer. Vælg sort-hvide linjetegninger. Eller farve-billeder børn matcher først. Derefter farvelægger svarinøglen. Finmotorik-fokuserede opgaver bruger store, enkle former. Klare konturer og få detaljer. Let for små hænder at matche. Graduelt kompleksitet øges. Gangetabeller visualisering gennem tal-grupper. Upload billeder af 2 grupper af 3 æbler = 6. Børn matcher produktet til opgaven. Konkret forståelse af abstrakte koncepter. Upload egne emne-billeder. Historiske figurer til historie. Planetbilleder til astronomi. Matematiske symboler til algebra. Biologiske diagrammer til natur/teknik. Kombiner forskellige emner i samme opgave. Malebog plus finmotorik plus læring. Multi-sensorisk tilgang til uddannelse. Børn engageres på flere niveauer.',
       },
     ],
@@ -474,8 +527,8 @@ Brug Pinterest til at markedsføre dine opgaver. Danske forældre søger "opgave
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Kombiner Raster-Puslespil med Andre Gratis Skoleopgaver - Komplette Læringspakker',
-    sectionDescription: 'LessonCraft Studio platformnen tilbyder 33 gratis opgave-generatorer. Ikke kun raster-puslespil. Kombiner forskellige opgavetyper til komplette lektionspakker. Lav tematiske enheder der dækker alle færdigheder.',
+    sectionTitle: 'Kombiner med Andre Gratis Arbejdsark til Børn',
+    sectionDescription: 'LessonCraft Studio platformnen tilbyder 33 gratis arbejdsark generatorer. Ikke kun raster-puslespil. Kombiner forskellige arbejdsark til børnehaveklasse til komplette lektionspakker. Lav tematiske enheder med gratis printables.',
     ctaTitle: 'Klar til at Lave Fantastiske Arbejdsark?',
     ctaDescription: 'Tilslut dig tusindvis af pædagoger der laver professionelle arbejdsark. Ubegrænset oprettelse, kommerciel licens inkluderet.',
     primaryCtaText: 'Start Gratis Prøve',

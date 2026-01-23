@@ -15,16 +15,48 @@ export const chartCountSvContent: ProductPageContent = {
   seo: {
     slug: 'diagram-rakning-arbetsblad',
     appId: 'chart-count',
-    title: 'Gratis Diagram med Bildräkning Generator | Arbetsblad för Förskoleklass och Matematik',
-    description: 'Skapa professionella diagram med bildräkning för barn. Generera arbetsblad gratis där eleverna räknar bilder och fyller i stapeldiagram. Ladda ner högkvalitativa PDF-filer på under 3 minuter.',
-    keywords: 'diagram arbetsblad, bildräkning, arbetsblad gratis, förskoleklass material, matematik arbetsblad, matte övningar, stapeldiagram, siffror och tal, finmotorik övningar, lågstadiet',
+    title: 'Gratis Arbetsblad Diagram Generator | Arbetsblad för Förskoleklass och Barn',
+    description: 'Skapa gratis arbetsblad för barn med diagram och bildräkning. Gratis utskrifter för förskoleklass med siffror och tal. Ladda ner arbetsblad PDF på 3 minuter.',
+    keywords: 'gratis arbetsblad, gratis arbetsblad för barn, gratis utskrifter, arbetsblad för barn, arbetsblad för förskoleklass, arbetsblad, diagram arbetsblad, bildräkning',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/diagram-rakning-arbetsblad',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/chart-count/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis arbetsblad diagram med bildräkning - matematik arbetsblad förskoleklass material',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/chart-count/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Arbetsblad gratis för barn - stapeldiagram siffror och tal övningar',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/chart-count/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis utskrifter bildräkning - arbetsblad för förskoleklass material',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/chart-count/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Arbetsblad för barn diagram räkning - matte övningar gratis',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/chart-count/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Förskoleklass material gratis - finmotorik övningar diagram arbetsblad',
+      },
+    ],
   },
 
   // Hero Section - FULL text from chart-count.md paragraphs 1-4
   hero: {
-    title: 'Diagram med Bildräkning',
-    subtitle: 'Arbetsblad Gratis för Matematik Arbetsblad och Förskoleklass Material',
+    title: 'Gratis Arbetsblad Diagram med Bildräkning',
+    subtitle: 'Arbetsblad för Barn och Förskoleklass Material',
     description: `Skapa professionella diagram med bildräkning för barn. Din Full Tillgång-prenumeration ger dig obegränsad generering av arbetsblad gratis utan avgifter per ark. Perfekt för matematik arbetsblad i förskoleklass material och lågstadiet. Generera arbetsblad där eleverna räknar bilder och fyller i stapeldiagram. Ladda ner högkvalitativa PDF-filer på under 3 minuter.
 
 Diagram med bildräkning är idealiska för förskoleklass material och lågstadiets matematik arbetsblad. Eleverna räknar olika bilder i ett rutnät och markerar resultaten i ett stapeldiagram. Varje arbetsblad tränar siffror och tal samtidigt som eleverna utvecklar visuell räkning. Denna aktivitet kombinerar matte övningar med finmotorik övningar när barn fyller i diagrammen.
@@ -32,7 +64,7 @@ Diagram med bildräkning är idealiska för förskoleklass material och lågstad
 Vårt verktyg skapar arbetsblad gratis för prenumeranter med varierande svårighetsgrad. Välj 6 olika bilder från vårt bibliotek med 3000+ barnvänliga motiv. Systemet genererar automatiskt ett bildrutnät med 20 ikoner och ett tomt stapeldiagram. Eleverna räknar varje bildtyp och visualiserar resultatet. Svarsnyckeln visar korrekt ifyllt diagram för snabb rättning.
 
 Dessa diagram fungerar utmärkt som matematik arbetsblad för förskoleklass material och årskurs 1-3. Kombinera bildräkning med addition och subtraktion för integrerad talförståelse. Perfekt för differentiering då du kan välja lättare eller svårare bilder. Alla arbetsblad exporteras i professionell 300 DPI-kvalitet för utskrift eller försäljning.`,
-    previewImageSrc: '/samples/english/chart count/chart count.jpeg',
+    previewImageSrc: '/samples/swedish/chart-count/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Prova Gratis',
       viewSamples: 'Visa Exempel',
@@ -67,10 +99,38 @@ Dessa diagram fungerar utmärkt som matematik arbetsblad för förskoleklass mat
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/chart count/chart count.jpeg',
-        answerKeySrc: '/samples/english/chart count/chart count answer_key.jpeg',
-        altText: 'Diagram med bildräkning arbetsblad för förskoleklass och lågstadiet',
-        pdfDownloadUrl: '/samples/english/chart count/chart count.pdf',
+        worksheetSrc: '/samples/swedish/chart-count/sample-1.jpeg',
+        answerKeySrc: '/samples/swedish/chart-count/sample-1-answer.jpeg',
+        altText: 'Gratis arbetsblad diagram med bildräkning - matematik arbetsblad förskoleklass',
+        pdfDownloadUrl: '/samples/swedish/chart-count/sample-1.pdf',
+      },
+      {
+        id: '2',
+        worksheetSrc: '/samples/swedish/chart-count/sample-2.jpeg',
+        answerKeySrc: '/samples/swedish/chart-count/sample-2-answer.jpeg',
+        altText: 'Arbetsblad gratis för barn - stapeldiagram siffror och tal övningar',
+        pdfDownloadUrl: '/samples/swedish/chart-count/sample-2.pdf',
+      },
+      {
+        id: '3',
+        worksheetSrc: '/samples/swedish/chart-count/sample-3.jpeg',
+        answerKeySrc: '/samples/swedish/chart-count/sample-3-answer.jpeg',
+        altText: 'Gratis utskrifter bildräkning - arbetsblad för förskoleklass material',
+        pdfDownloadUrl: '/samples/swedish/chart-count/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/swedish/chart-count/sample-4.jpeg',
+        answerKeySrc: '/samples/swedish/chart-count/sample-4-answer.jpeg',
+        altText: 'Arbetsblad för barn diagram räkning - matte övningar gratis utskrifter',
+        pdfDownloadUrl: '/samples/swedish/chart-count/sample-4.pdf',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/swedish/chart-count/sample-5.jpeg',
+        answerKeySrc: '/samples/swedish/chart-count/sample-5-answer.jpeg',
+        altText: 'Förskoleklass material gratis - finmotorik övningar diagram arbetsblad',
+        pdfDownloadUrl: '/samples/swedish/chart-count/sample-5.pdf',
       },
     ],
   },
@@ -92,7 +152,7 @@ Dessa diagram fungerar utmärkt som matematik arbetsblad för förskoleklass mat
       {
         id: '1',
         icon: '⚡',
-        title: 'Skapa Diagram Arbetsblad på 3 Klick',
+        title: 'Skapa Gratis Arbetsblad för Barn på 3 Klick',
         description: `Generera kompletta diagram arbetsblad på under 30 sekunder. Välj 6 bilder från vårt bibliotek eller ett färdigt tema. Klicka på "Skapa" så genereras både bildrutnät och tomt stapeldiagram automatiskt. Systemet skapar 20 slumpmässiga ikoner från dina valda bilder. Perfekt för förskoleklass material och årskurs 1-3 matematik arbetsblad.
 
 Du behöver inga designkunskaper för att skapa professionella arbetsblad gratis. Förhandsvisningen visar direkt hur arbetsbladet ser ut. Svarsnyckeln genereras samtidigt med korrekt ifyllt diagram. Hela processen tar under 3 minuter från start till nedladdning. Skapar du matte övningar veckovis sparar detta timmar av förberedelsetid.
@@ -114,7 +174,7 @@ Redigeringsfunktionen fungerar på både arbetsblad och svarsnyckel. Gör ändri
       {
         id: '3',
         icon: '📤',
-        title: 'Ladda Upp Egna Bilder',
+        title: 'Ladda Upp Egna Bilder för Arbetsblad Gratis',
         description: `Ladda upp dina egna bilder för helt anpassade diagram arbetsblad. Klicka på "Välj filer" och ladda upp JPEG, PNG eller GIF-bilder. Systemet accepterar flera filer samtidigt för snabb uppladdning. Kombinera egna bilder med biblioteksbilder i samma arbetsblad. Perfekt för att skapa förskoleklass material som matchar dina pågående teman.
 
 Fotografera elevernas egna teckningar och använd dem i diagram. Ladda upp bilder från klassrumsaktiviteter för personliga arbetsblad. Använd bilder från utflykter för att koppla matematik till verkliga upplevelser. Detta engagerar eleverna mycket starkare än generiska bilder. Matematik arbetsblad blir plötsligt meningsfulla och roliga.
@@ -186,7 +246,7 @@ Exportfunktionen inkluderar även individuell nedladdning av svarsnyckel. Ladda 
       {
         id: '1',
         number: 1,
-        title: 'Välj Bilder för Diagram',
+        title: 'Välj Bilder för Gratis Arbetsblad',
         description: `Börja med att välja 6 bilder som eleverna ska räkna i diagrammet. Klicka på "Bildbibliotek" i sidofältet. Välj ett färdigt tema som Djur, Mat eller Transport för snabb start. Temat väljer automatiskt 6 relaterade bilder. Alternativt kan du bläddra i biblioteket och klicka på enskilda bilder. Varje klick lägger till bilden i dina valda bilder.
 
 Du kan också ladda upp egna bilder för anpassade diagram. Detta är perfekt när du skapar förskoleklass material kring klassrumsaktiviteter. Klicka på "Ladda upp egna bilder" och välj filer från din dator. Kombinera uppladdade bilder med biblioteksbilder i samma arbetsblad. Välj bilder som matchar ditt pågående tema för maximal relevans.
@@ -230,7 +290,7 @@ Vill du skapa målarbilder barn aktivitet kombinerad med diagram? Använd gråsk
       {
         id: '5',
         number: 5,
-        title: 'Ladda Ner och Skriv Ut',
+        title: 'Ladda Ner Gratis Utskrifter',
         description: `Klicka på "Ladda ner" dropdown-menyn när arbetsbladet är färdigt. Välj "Arbetsblad (PDF)" för högsta utskriftskvalitet. PDF-formatet bevarar exakt layout och 300 DPI-upplösning. För digital distribution välj JPEG-format istället. Ladda ner svarsnyckeln separat genom att klicka "Svarsnyckel (PDF)".
 
 Aktivera "Gråskala" i nedladdningsmenyn för att spara bläck vid utskrift. Gråskala-versionen fungerar lika bra för räkneövningar. Den sparar 60-80% bläck vilket är viktigt vid klassrumsutskrifter. Många lärare skapar arbetsblad gratis gråskala-versioner för elevkopior och färgversioner för försäljning.

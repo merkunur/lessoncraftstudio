@@ -16,7 +16,7 @@ export const sudokuDaContent: ProductPageContent = {
     slug: 'sudoku-arbejdsark',
     appId: 'sudoku',
     title: 'Sudoku Gratis Arbejdsark - Generator til Børnehaveklasse og 0. Klasse',
-    description: 'Lav professionelle sudoku gratis arbejdsark til børn med vores sudoku generator. Dit Grundpakke abonnement giver dig ubegrænset arbejdsark til børnehaveklasse og 0. klasse. Generer skræddersyede gratis printables perfekt til børn. Download høj-kvalitets PDF arbejdsark på under 3 minutter.',
+    description: 'Lav sudoku gratis arbejdsark til børn med vores generator. Ubegrænset arbejdsark til børnehaveklasse og 0. klasse. Download PDF gratis printables på 3 minutter.',
     keywords: 'sudoku generator, gratis arbejdsark, arbejdsark til børn, arbejdsark til børnehaveklasse, gratis printables, 0. klasse arbejdsark, 1. klasse, sudoku til børn, logikopgaver, matematikopgaver',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/sudoku-arbejdsark',
     images: [
@@ -150,7 +150,7 @@ Vores generator laver 4x4 sudoku gratis arbejdsark med billeder. Børn skal fyld
       {
         id: '1',
         icon: '⚡',
-        title: 'Lav Sudoku Opgaver til Print på 3 Klik',
+        title: 'Lav Sudoku Gratis Arbejdsark til Børn på 3 Klik',
         description: `Vælg fire billeder fra vores bibliotek. Klik på "Lav opgave" knappen. Din sudoku er klar på få sekunder. Så nemt er det at lave opgaver til print.
 
 Du behøver ingen designerfærdigheder. Generatoren gør alt arbejdet for dig. Vælg sværhedsgrad fra let (4 tomme felter) til svær (8 tomme felter). Systemet sikrer at hver sudoku har præcis én løsning.
@@ -172,7 +172,7 @@ Tilføj egen tekst hvor som helst på siden. Skriv elevnavne, instruktioner elle
       {
         id: '3',
         icon: '📤',
-        title: 'Upload Dine Egne Billeder til Sudoku',
+        title: 'Upload Dine Egne Billeder til Gratis Arbejdsark',
         description: `Upload fotos fra din computer direkte til generatoren. Brug billeder af elever, klasseværelset eller lokale steder. Personlige billeder gør sudoku ekstra engagerende.
 
 Systemet accepterer JPEG, PNG og GIF filer. Upload flere billeder på én gang. Kombiner dine egne billeder med vores bibliotek. Dette giver ubegrænsede muligheder for tilpassede opgaver til print.
@@ -183,7 +183,7 @@ Upload billeder af elevernes yndlingslegetøj. Tag fotos af klasseværelsets gen
       {
         id: '4',
         icon: '🌍',
-        title: '11 Sprog Understøttet',
+        title: '11 Sprog - Arbejdsark til Børnehaveklasse på Dansk',
         description: `Brugerfladen skifter til dansk med ét klik. Alle billednavne og temaer vises på dansk. Dette gør det nemt at finde præcis de billeder du søger til matematikopgaver.
 
 Vores 11 sprogvalg inkluderer engelsk, tysk, fransk, spansk, italiensk, portugisisk, hollandsk, svensk, dansk, norsk og finsk. Skift sprog når som helst. Alle dine arbejdsark forbliver tilgængelige.
@@ -194,7 +194,7 @@ Dansk sprog er særligt vigtigt for søgefunktionen. Søg efter "æble" og find 
       {
         id: '5',
         icon: '💰',
-        title: 'Kommerciel Licens Inkluderet',
+        title: 'Kommerciel Licens - Sælg Arbejdsark til Børn',
         description: `Kernepakke abonnementet inkluderer fuld print-on-demand kommerciel licens. Sælg dine sudoku arbejdsark på Teachers Pay Teachers, Etsy eller Amazon KDP. Ingen ekstra licensgebyrer ud over dit abonnement.
 
 Mange lærere tjener 4.000-35.000 kr. om måneden ved at sælge arbejdsark online. Sudoku er populært på alle platforme. Forældre søger "gratis skoleopgaver" og "opgaver til print" dagligt. Dine tilpassede sudoku kan generere passiv indkomst.
@@ -205,7 +205,7 @@ Professionel 300 DPI kvalitet gør dine arbejdsark salgbare. Skarpe billeder og 
       {
         id: '6',
         icon: '🎨',
-        title: 'Over 3000 Børnevenlige Billeder',
+        title: 'Over 3000 Billeder til Gratis Printables',
         description: `Over 3000 børnevenlige billeder organiseret i temaer. Dyr, mad, transport, former, bogstaver og meget mere. Alle billeder inkluderet i Kernepakke uden ekstra omkostninger.
 
 Tema-baseret organisation gør det hurtigt at finde billeder. Klik på "fødselsdag" tema og se alle festbilleder. Vælg "årstider" og find efterårs-, vinter-, forårs- og sommerbilleder. Temaer sparer tid når du laver mange forskellige opgaver til print.
@@ -216,7 +216,7 @@ Søgefunktionen finder specifikke billeder på sekunder. Skriv "hund" og se alle
       {
         id: '7',
         icon: '🖨️',
-        title: 'Professionel 300 DPI Kvalitet',
+        title: 'Professionel 300 DPI - Arbejdsark Klar til Print',
         description: `Download dine sudoku som højopløselige PDF eller JPEG filer. 300 DPI kvalitet sikrer skarp udskrift på alle printere. Professionelt udseende arbejdsark hver gang.
 
 PDF format bevarer nøjagtig formatering. Udskriv på Letter eller A4 papir. Vælg mellem liggende og stående format. Tilpas sidestørrelse til dine behov.
@@ -257,7 +257,7 @@ Metode 3: Upload dine egne billeder til personlige arbejdsark. Klik på "Upload"
       {
         id: '2',
         number: 2,
-        title: 'Tilpas Indstillinger for Matematikopgaver',
+        title: 'Tilpas Indstillinger for Gratis Arbejdsark',
         description: `Nu tilpasser du sudokuens indstillinger. Disse valg bestemmer hvor svært puslespillet bliver og hvordan det ser ud når printet.
 
 Vælg sværhedsgrad til dine elevers niveau. Klik på "Sværhedsgrad" dropdown. "Let (4 tomme felter)" passer til begyndere i børnehaveklasse. "Mellem (6 tomme felter)" udfordrer 0. klasse elever. "Svær (8 tomme felter)" egner sig til 1. klasse eller øvede børn. Start nemt og øg gradvist sværhedsgraden.
@@ -283,7 +283,7 @@ Facit genereres automatisk. Klik på "Facit" fanen øverst. Her vises den fuldst
       {
         id: '4',
         number: 4,
-        title: 'Rediger på Lærredet',
+        title: 'Rediger Arbejdsark til Børn på Lærredet',
         description: `Nu kan du tilpasse hver detalje på dit sudoku arbejdsark. Alt på lærredet kan redigeres.
 
 Rediger titeltekst til personlige opgaver til print. Klik på titlen "Sudoku til Børn". Ændre teksten til elevnavn: "Emmas Sudoku". Eller skriv instruktioner: "Find alle fire billeder". Træk titlen til ny position. Skift skrifttype, størrelse eller farve i venstresidens kontrolpanel.
@@ -323,7 +323,7 @@ Aktiver gråtone for at spare printerblæk. Klik på "Gråtone" checkboksen før
         id: '1',
         icon: '👶',
         title: 'Pædagoger i Børnehaveklasse og 0. Klasse',
-        subtitle: 'Tidlig Logiktræning med Visuelle Puslespil',
+        subtitle: 'Gratis Arbejdsark til Tidlig Logiktræning',
         description: `Pædagoger i børnehaveklasse og 0. klasse bruger sudoku til tidlig logiktræning. Fire-i-fire sudoku introducerer mønstergenkendelse uden tal. Børn lærer problemløsning gennem visuelle puslespil.
 
 Sudoku udvikler koncentration hos små børn. At udfylde et 4x4 gitter kræver fokus og planlægning. Børn lærer at tænke systematisk. De tjekker hver række og kolonne før de placerer et billede.
@@ -337,7 +337,7 @@ Brug personlige billeder til engagement. Upload fotos af klassekammerater, leget
         id: '2',
         icon: '📚',
         title: 'Lærere til 1. til 3. Klasse',
-        subtitle: 'Differenteret Undervisning med Logikopgaver',
+        subtitle: 'Arbejdsark til Børn for Differenteret Undervisning',
         description: `Indskolingslærere bruger sudoku som selvstændigt arbejde. Når nogle elever arbejder med matematikopgaver, kan andre løse sudoku. Dette differentierer undervisningen uden ekstra forberedelse.
 
 Sudoku træner logisk tænkning nødvendig for matematik. Børn lærer at eliminere muligheder og teste hypoteser. Disse færdigheder overfører til problemregning og tallæring.
@@ -351,7 +351,7 @@ Brug sudoku som morgenstarter eller fredagsaktivitet. Eleverne ankommer i forske
         id: '3',
         icon: '🏠',
         title: 'Hjemmeundervisende Forældre',
-        subtitle: 'Stille Aktiviteter til Multi-Niveau Undervisning',
+        subtitle: 'Gratis Printables til Multi-Niveau Undervisning',
         description: `Hjemmeundervisende forældre værdsætter sudoku som stille aktivitet. Mens du arbejder intensivt med ét barn, kan søskende løse sudoku selvstændigt. Dette gør undervisning af flere børn samtidig lettere.
 
 Sudoku kræver ingen forberedelse fra forældre. Generer en opgave, print den, barnet arbejder alene. Facit betyder at børn selv kan tjekke svar uden at vente på voksenhjælp.
@@ -365,7 +365,7 @@ Personaliser sudoku til hvert barns interesser. Upload billeder af kæledyr, hob
         id: '4',
         icon: '🗣️',
         title: 'Sproglærere',
-        subtitle: 'Vokabulartræning med Logik',
+        subtitle: 'Arbejdsark til Børnehaveklasse med Vokabulartræning',
         description: `Sproglærere bruger sudoku til vokabulartræning. Vælg fire objekter fra samme kategori (frugt, dyr, køretøjer). Skriv det danske ord under hvert billede. Eleverne lærer ordforråd mens de løser logikopgaven.
 
 Flersproget understøttelse gør sudoku perfekt til fremmedsprog. Skift brugerfladen til engelsk, tysk eller fransk. Billednavne vises på målsproget. Eleverne ser fremmede ord mens de søger i billedbiblioteket.
@@ -379,7 +379,7 @@ Brug sudoku til bogstavgenkendelse. Vælg bogstav-temaet og lav sudoku med A, B,
         id: '5',
         icon: '♿',
         title: 'Specialpædagoger',
-        subtitle: 'Tilpassede Opgaver til Individuelle Behov',
+        subtitle: 'Gratis Arbejdsark til Individuelle Behov',
         description: `Specialpædagoger værdsætter sudokus tilpasningsevne. Juster sværhedsgrad præcist til hver elevs niveau. Nogle elever trives med 4 tomme felter. Andre er klar til større udfordringer.
 
 Store billeder hjælper elever med synsvanskeligheder. Skaler billederne større på lærredet før download. Øg kontrast ved at vælge klare farver. Dette gør sudoku tilgængeligt for flere børn.
@@ -449,7 +449,7 @@ Kombiner sudoku med andre arbejdsark for bundne produkter. "Komplet Matematikpak
     items: [
       {
         id: '1',
-        question: 'Kan Jeg Bruge Sudoku som Malebog?',
+        question: 'Kan Jeg Bruge Sudoku Gratis Arbejdsark som Malebog?',
         answer: `Ja! Sudoku fungerer fantastisk som malebog aktiviteter. Klik på "Gråtone" checkboksen før download. Dette konverterer farverige sudoku til sort-hvid opgaver til print. Børn farvelægger billederne mens de løser logikopgaven.
 
 Kombiner sudoku med malebog aktiviteter for flerfagslæring. Børn bruger finmotorik til farvelægning. Samtidigt øver de logisk tænkning gennem sudoku-løsning. Dette engagerer både kreative og analytiske hjernedele.
@@ -458,7 +458,7 @@ Malebog-sudoku er særligt populære til børnehaveklasse. Små børn elsker at 
       },
       {
         id: '2',
-        question: 'Hvad Inkluderer Kernepakke?',
+        question: 'Hvad Inkluderer Kernepakke for Arbejdsark til Børn?',
         answer: `Kernepakke abonnement koster 1.100 kr. årligt (ca. 92 kr./måned) eller 125 kr. månedligt. Dette giver ubegrænset adgang til 10 populære værktøjer inklusiv sudoku. Du kan lave ubegrænsede gratis skoleopgaver uden ekstra omkostninger per download.
 
 "Gratis skoleopgaver" betyder at du kan generere og dele opgaver frit med dine elever. Ingen begrænsning på antal downloads. Lav 5 sudoku eller 500 sudoku - prisen forbliver den samme. Dette gør Kernepakke ekstremt omkostningseffektivt.
@@ -467,7 +467,7 @@ Abonnementet inkluderer også malebog generatorer, matematikopgaver værktøjer 
       },
       {
         id: '3',
-        question: 'Hvordan Kombinerer Jeg Sudoku med Matematikopgaver?',
+        question: 'Hvordan Kombinerer Jeg Sudoku Arbejdsark med Matematikopgaver?',
         answer: `Kernepakke inkluderer separate værktøjer til matematikopgaver inklusiv gangetabeller. Brug sudoku til logiktræning om morgenen. Brug gangetabeller-generatoren til talregning om eftermiddagen. Kombiner begge opgavetyper i ugeplanerne.
 
 Sudoku udvikler logisk tænkning som hjælper med gangetabeller. Børn lærer at se mønstre og eliminere muligheder. Disse færdigheder overfører til at huske gangetabeller og løse matematikopgaver systematisk.
@@ -476,7 +476,7 @@ Lav temauger som kombinerer sudoku og gangetabeller. "Matematik og Logik Uge" in
       },
       {
         id: '4',
-        question: 'Kan Børn i 0. Klasse Løse Sudoku?',
+        question: 'Kan Børn i 0. Klasse Løse Sudoku Gratis Arbejdsark?',
         answer: `Ja! Sudoku med billeder passer perfekt til 0. klasse og børnehaveklasse. Fire-i-fire sudoku kræver ingen talforståelse. Børn matcher billeder og tjekker mønstre. Dette introducerer logiktræning før formel matematik.
 
 Start med let sværhedsgrad (4 tomme felter) til 0. klasse. Børn får succesfølelse når de løser deres første sudoku. Øg gradvist til 6 tomme felter efterhånden som de mestrer konceptet. Progression motiverer fortsat læring.
@@ -485,7 +485,7 @@ Kombiner sudoku med andre matematikopgaver tilpasset børnehaveklasse. Tælleøv
       },
       {
         id: '5',
-        question: 'Hvordan Printer Jeg Sudoku for at Spare Blæk?',
+        question: 'Hvordan Printer Jeg Gratis Printables for at Spare Blæk?',
         answer: `Vælg "Gråtone" før download for at spare printerblæk. Dette konverterer farverige sudoku til sort-hvid malebog opgaver til print. Print i kladde-kvalitet for yderligere blækbesparelse uden at miste læselighed.
 
 Print dobbeltsidet for at spare papir. Sudoku på forside, facit på bagside. Eller print forskellige sudoku på hver side. Dobbeltsidet print halverer papirforbrug når du laver mange gratis skoleopgaver.
@@ -494,7 +494,7 @@ Bestil blæk i bulk for besparelser. Genopfyldelige patroner koster 40-60% mindr
       },
       {
         id: '6',
-        question: 'Kan Jeg Sælge Sudoku og Malebog Kombinationer?',
+        question: 'Kan Jeg Sælge Arbejdsark til Børnehaveklasse Online?',
         answer: `Ja! Kernepakke inkluderer fuld kommerciel print-on-demand licens. Sælg sudoku, malebog kombinationer og gratis skoleopgaver på Teachers Pay Teachers, Etsy og Amazon KDP. Ingen ekstra licensgebyrer ud over dit abonnement.
 
 "Sudoku og Malebog Bundter" er populære produkter. Kombiner 10 sudoku med 10 relaterede malebog sider. Samme tema (dyr, transport, mad) på tværs af begge aktiviteter. Tematisk sammenhæng øger produktværdi.
@@ -503,7 +503,7 @@ Bestil blæk i bulk for besparelser. Genopfyldelige patroner koster 40-60% mindr
       },
       {
         id: '7',
-        question: 'Hvor Mange Sudoku Kan Jeg Lave?',
+        question: 'Hvor Mange Gratis Arbejdsark Kan Jeg Lave?',
         answer: `Kernepakke giver ubegrænsede downloads. Lav 10 malebog-sudoku eller 1000 - prisen forbliver 1.100 kr./år eller 125 kr./måned. Ingen ekstra omkostninger per opgave. Dette gør abonnementet ekstremt værdifuldt.
 
 Generer malebog sider for hele skoleåret i én session. Lav 40 forskellige sudoku (én per uge). Konvertér alle til gråtone for malebog brug. Download og gem i drive. Distribuér én ny malebog opgave ugentligt gennem året.
@@ -512,12 +512,48 @@ Kombiner malebog-sudoku med andre gratis skoleopgaver. Kernepakke giver 10 forsk
       },
       {
         id: '8',
-        question: 'Er Der Ferieudgaver?',
+        question: 'Er Der Gratis Arbejdsark til Børn for Ferieudgaver?',
         answer: `Ja! Vores 3000+ billedbibliotek inkluderer sæsonbilleder. Vælg "højtider" eller "årstider" tema. Lav påske-sudoku, jul-sudoku, halloween-sudoku. Konvertér til gråtone for festlige malebog opgaver til print.
 
 Sæsonbestemte gratis skoleopgaver er ekstra engagerende. Børn elsker ferietemaer. December sudoku med snefnug, juletræer og gaver motiverer mere end generiske billeder. Tematisk relevans øger opgavegennemførelse.
 
 Lav årsplaner for sæsonopgaver. September: efterårs-sudoku og malebog. December: vinter og juletemaer. Marts: forårsbilleder. Juni: sommermotiver. Systematisk planlægning sikrer relevant indhold hele året.`,
+      },
+      {
+        id: '9',
+        question: 'Hvad er Forskellen på Arbejdsark til Børnehaveklasse og 0. Klasse?',
+        answer: `Forskellen ligger primært i sværhedsgrad og kompleksitet. Arbejdsark til børnehaveklasse bruger typisk let sværhedsgrad med 4 tomme felter. Børn i denne alder lærer grundlæggende mønstergenkendelse og logisk tænkning gennem simple visuelle puslespil.
+
+Arbejdsark til 0. klasse kan øges til mellem sværhedsgrad med 6 tomme felter. Disse børn har ofte mere erfaring med strukturerede opgaver og kan håndtere flere udfordringer. Gradvis progression fra let til mellem holder børnene engagerede.
+
+Vores generator gør det nemt at tilpasse. Vælg sværhedsgrad med ét klik. Lav nemmere gratis arbejdsark til yngre børn og sværere versioner til ældre. Samme billeder, forskellige udfordringsniveauer. Dette giver differenteret undervisning uden ekstra forberedelse.`,
+      },
+      {
+        id: '10',
+        question: 'Kan Jeg Lave Gratis Printables med Egne Billeder?',
+        answer: `Ja! Upload-funktionen lader dig bruge dine egne billeder til personlige gratis printables. Klik på "Upload" knappen og vælg billeder fra din computer. Systemet accepterer JPEG, PNG og GIF formater op til 5 MB per fil.
+
+Personlige billeder gør arbejdsark til børn mere engagerende. Upload fotos af elever, klassens kæledyr eller genstande fra klasseværelset. Børn bliver mere motiverede når de genkender indholdet. Dette skaber stærkere forbindelse til læringsaktiviteten.
+
+Kombiner dine egne uploads med vores 3000+ billedbibliotek. Brug to personlige billeder og to fra biblioteket. Denne fleksibilitet giver ubegrænsede muligheder for tilpassede gratis arbejdsark. Uploadede billeder gemmes i din session og kan genbruges.`,
+      },
+      {
+        id: '11',
+        question: 'Hvordan Downloader Jeg Arbejdsark til Børn som PDF?',
+        answer: `Download af arbejdsark til børn som PDF er simpelt. Klik på "Download" knappen øverst til højre efter du har lavet din sudoku. En dropdown menu viser flere valgmuligheder. Vælg "Opgave (PDF)" for selve arbejdsarket.
+
+PDF-format bevarer nøjagtig formatering uanset hvilken printer du bruger. Filen er klar til print på både A4 og Letter papir. Vælg også "Facit (PDF)" hvis du vil have løsningssiden. Begge filer downloades direkte til din computer.
+
+For gråtone-version, aktivér "Gråtone" checkboksen før download. Dette konverterer farverige gratis arbejdsark til sort-hvid. Perfekt når du printer mange kopier og vil spare blæk. PDF-kvaliteten er 300 DPI for professionel udskrift.`,
+      },
+      {
+        id: '12',
+        question: 'Er Sudoku Gratis Arbejdsark Gode til Hjemmeundervisning?',
+        answer: `Sudoku gratis arbejdsark er fremragende til hjemmeundervisning. De kræver minimal forberedelse fra forældre. Generer en opgave, print den, og barnet arbejder selvstændigt. Facit-siden betyder at børn selv kan tjekke svar uden voksenhjælp.
+
+For familier med flere børn er sudoku særligt værdifuldt. Mens du arbejder intensivt med ét barn, kan søskende løse sudoku alene. Juster sværhedsgraden til hvert barns niveau. Samme aktivitet, forskellige udfordringer. Dette letter multi-niveau undervisning derhjemme.
+
+Kernepakke abonnementet giver adgang til 10 forskellige værktøjer udover sudoku. Kombiner arbejdsark til børnehaveklasse med matematikopgaver, malebog aktiviteter og skriveøvelser. Variation holder børns interesse gennem hele skoleåret. Ubegrænsede downloads gør hjemmeundervisning økonomisk overkommelig.`,
       },
     ],
   },

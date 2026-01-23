@@ -6,8 +6,8 @@ import { ProductPageContent } from '@/components/product-page/ProductPageClient'
  * File: frontend/content/product-pages/da/kode-plusstykker-arbejdsark.ts
  * URL: /da/apps/kode-plusstykker-arbejdsark
  *
- * FULL SEO content from: INDIVIDUAL APP PAGES/Danish/code-addition.md
- * DO NOT SHORTEN - Every paragraph is SEO-optimized
+ * SEO OPTIMIZED: All sample paths use /samples/danish/code-addition/
+ * Keywords: gratis arbejdsark, arbejdsark til børn, arbejdsark til børnehaveklasse, gratis printables
  */
 
 export const kodePlusstykkerDaContent: ProductPageContent = {
@@ -15,16 +15,48 @@ export const kodePlusstykkerDaContent: ProductPageContent = {
   seo: {
     slug: 'kode-plusstykker-arbejdsark',
     appId: 'code-addition',
-    title: 'Matematikopgaver med Billeder - Opgaver til Print - Gratis Skoleopgaver til 0. Klasse',
-    description: 'Lav professionelle matematikopgaver med billeder på under 3 minutter. Generer billedbaserede plusstykker perfekt til 0. klasse og 1. klasse. Download opgaver i høj kvalitet som PDF på få sekunder.',
-    keywords: 'matematikopgaver med billeder, billedbaserede plusstykker, opgaver til print, gratis skoleopgaver, 0. klasse, 1. klasse, addition, tælling, kopiark, arbejdsark',
+    title: 'Kode-Addition Gratis Arbejdsark til Børn og Børnehaveklasse',
+    description: 'Lav gratis arbejdsark til børn med billedbaseret kode-addition. Arbejdsark til børnehaveklasse og 0. klasse. Download gratis printables som PDF på 3 minutter.',
+    keywords: 'gratis arbejdsark, arbejdsark til børn, arbejdsark til børnehaveklasse, matematikopgaver med billeder, billedbaserede plusstykker, gratis printables, kode-addition',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/kode-plusstykker-arbejdsark',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/code-addition/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis arbejdsark til børn - kode-addition matematikopgave til børnehaveklasse'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/code-addition/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Arbejdsark til børnehaveklasse - gratis printables med billedbaserede plusstykker'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/code-addition/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis arbejdsark kode-addition - arbejdsark til børn med billeder til 0. klasse'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/code-addition/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Arbejdsark til børn - kode-addition gratis printables matematikopgaver'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/code-addition/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis printables kode-addition - arbejdsark til børnehaveklasse og 1. klasse'
+      },
+    ],
   },
 
   // Hero Section - FULL text from code-addition.md paragraphs 1-4
   hero: {
-    title: 'Matematikopgaver med Billeder - Gratis Skoleopgaver',
-    subtitle: 'Billedbaserede Plusstykker til 0. Klasse og 1. Klasse',
+    title: 'Gratis Arbejdsark til Børn - Kode-Addition Matematikopgaver',
+    subtitle: 'Arbejdsark til Børnehaveklasse og 0. Klasse med Billedbaserede Plusstykker',
     description: `Lav professionelle matematikopgaver med billeder på under 3 minutter. Din Fuld Adgang-abonnement giver dig ubegrænset adgang til at skabe tilpassede opgaver til print uden ekstra gebyrer. Generér billedbaserede plusstykker perfekt til 0. klasse og 1. klasse. Download opgaver i høj kvalitet som PDF på få sekunder.
 
 Vores plusstykke-generator bruger billeder i stedet for tal. Børn tæller æbler, dyr eller legetøj og lærer addition visuelt. Dette værktøj skaber matematikopgaver der kombinerer tælning med simpel addition. Perfekt til elever der lige er begyndt at lære matematik.
@@ -32,7 +64,7 @@ Vores plusstykke-generator bruger billeder i stedet for tal. Børn tæller æble
 Skab arbejdsark med dit eget billedbibliotek eller vælg fra 3000+ børnevenlige billeder. Hver matematikopgave kan tilpasses fuldstændigt. Skift farver, skriftstørrelser, baggrunde og rammer. Tilpas sværhedsgraden ved at indstille minimum og maksimum tal. Generér 1-20 opgaver per ark efter behov.
 
 Fuld Adgang-abonnementet koster 1800 DKK om året eller 200 DKK om måneden. Dit abonnement inkluderer alle 33 opgavegeneratorer med kommerciel licens. Ingen ekstra omkostninger for billeder eller skabeloner. Download ubegrænsede matematikopgaver i 300 DPI professionel kvalitet. Brug dem i klasseværelset eller sælg dem på Teachers Pay Teachers.`,
-    previewImageSrc: '/samples/english/code addition/code addition portrait.jpeg',
+    previewImageSrc: '/samples/danish/code-addition/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Prøv Gratis',
       viewSamples: 'Se Eksempler',
@@ -51,9 +83,9 @@ Fuld Adgang-abonnementet koster 1800 DKK om året eller 200 DKK om måneden. Dit
     },
   },
 
-  // Sample Gallery - REAL file paths from samples/english/code addition/
+  // Sample Gallery - REAL file paths from samples/danish/code-addition/
   samples: {
-    sectionTitle: 'Matematikopgaver med Billeder Eksempler',
+    sectionTitle: 'Gratis Arbejdsark Eksempler - Kode-Addition til Børn',
     sectionDescription: 'Download gratis eksempler på arbejdsark for at se vores professionelle kvalitet',
     badgeText: 'Gratis Eksempler',
     downloadLabel: 'Download Gratis Eksempel',
@@ -67,24 +99,45 @@ Fuld Adgang-abonnementet koster 1800 DKK om året eller 200 DKK om måneden. Dit
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/code addition/code addition portrait.jpeg',
-        answerKeySrc: '/samples/english/code addition/code addition portrait answer_key.jpeg',
-        altText: 'Billedbaseret matematikopgave portrætformat med plusstykker til 0. klasse',
-        pdfDownloadUrl: '/samples/english/code addition/code addition portrait.pdf',
+        worksheetSrc: '/samples/danish/code-addition/sample-1.jpeg',
+        answerKeySrc: '/samples/danish/code-addition/sample-1-answer.jpeg',
+        altText: 'Gratis arbejdsark til børn - kode-addition matematikopgave til børnehaveklasse',
+        pdfDownloadUrl: '/samples/danish/code-addition/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/code addition/code addition landscape.jpeg',
-        answerKeySrc: '/samples/english/code addition/code addition landscape answer_key.jpeg',
-        altText: 'Billedbaseret matematikopgave landskabsformat med farverige billeder til 1. klasse',
-        pdfDownloadUrl: '/samples/english/code addition/code addition landscape.pdf',
+        worksheetSrc: '/samples/danish/code-addition/sample-2.jpeg',
+        answerKeySrc: '/samples/danish/code-addition/sample-2-answer.jpeg',
+        altText: 'Arbejdsark til børnehaveklasse - gratis printables med billedbaserede plusstykker',
+        pdfDownloadUrl: '/samples/danish/code-addition/sample-2.pdf',
+      },
+      {
+        id: '3',
+        worksheetSrc: '/samples/danish/code-addition/sample-3.jpeg',
+        answerKeySrc: '/samples/danish/code-addition/sample-3-answer.jpeg',
+        altText: 'Gratis arbejdsark kode-addition - arbejdsark til børn med billeder til 0. klasse',
+        pdfDownloadUrl: '/samples/danish/code-addition/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/danish/code-addition/sample-4.jpeg',
+        answerKeySrc: '/samples/danish/code-addition/sample-4-answer.jpeg',
+        altText: 'Arbejdsark til børn - kode-addition gratis printables matematikopgaver',
+        pdfDownloadUrl: '/samples/danish/code-addition/sample-4.pdf',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/danish/code-addition/sample-5.jpeg',
+        answerKeySrc: '/samples/danish/code-addition/sample-5-answer.jpeg',
+        altText: 'Gratis printables kode-addition - arbejdsark til børnehaveklasse og 1. klasse',
+        pdfDownloadUrl: '/samples/danish/code-addition/sample-5.pdf',
       },
     ],
   },
 
   // Features Grid - FULL text from code-addition.md feature sections
   features: {
-    sectionTitle: 'Matematikopgaver Funktioner - Alt Du Skal Bruge til Opgaver til Print',
+    sectionTitle: 'Funktioner - Gratis Arbejdsark Generator til Børn og Børnehaveklasse',
     sectionDescription: 'Vores billedbaserede plusstykke-generator giver dig alt du behøver for at skabe professionelle matematikopgaver. Hver funktion er designet til at spare tid for travle lærere. Skab arbejdsark til 0. klasse på få minutter i stedet for timer. Fuld Adgang-abonnementet giver dig ubegrænsede muligheder for tilpasning og download.',
     highlightBadgeText: 'Vigtig Funktion',
     readMoreLabel: 'Læs mere',
@@ -194,7 +247,7 @@ Ubegrænsede downloads inkluderet i abonnementet. Generér og download 5 matemat
 
   // How-To Guide - FULL text from code-addition.md step sections
   howTo: {
-    sectionTitle: 'Sådan Laver Du Matematikopgaver til Print i 5 Nemme Trin',
+    sectionTitle: 'Sådan Laver Du Gratis Arbejdsark til Børn i 5 Nemme Trin',
     sectionDescription: 'Skab professionelle matematikopgaver på under 3 minutter. Denne step-by-step guide viser dig hvordan. Ingen designerfaring nødvendig. Processen er så enkel at du kan lave opgaver mellem lektioner.',
     ctaText: 'Start Nu',
     badgeText: 'Sådan Virker Det',
@@ -292,7 +345,7 @@ Print direkte fra PDF-filen på en hvilken som helst printer. Vælg antal kopier
 
   // Use Cases - FULL text from code-addition.md use case sections
   useCases: {
-    sectionTitle: 'Perfekt til Lærere og Forældre',
+    sectionTitle: 'Gratis Arbejdsark til Børnehaveklasse - Perfekt til Lærere og Forældre',
     sectionDescription: 'Vores billedbaserede matematikopgave-generator passer til mange forskellige undervisningssituationer. Fra børnehaveklasse til 3. klasse. Fra almindelig undervisning til specialundervisning. Fuld Adgang-abonnementet giver dig værktøjer til alle dine undervisningsbehov.',
     badgeText: 'Hvem Er Det Til',
     readMoreLabel: 'Læs mere',
@@ -397,7 +450,7 @@ Mange danske lærere tjener 3000-15000 DKK månedligt fra passivt salg. Dit 1800
 
   // FAQ Section - Selected FAQs from code-addition.md
   faq: {
-    sectionTitle: 'Ofte Stillede Spørgsmål om Matematikopgaver',
+    sectionTitle: 'Ofte Stillede Spørgsmål om Gratis Arbejdsark til Børn',
     sectionDescription: 'Lærere og forældre stiller ofte de samme spørgsmål om vores matematikopgave-generator. Her er svar på de mest almindelige spørgsmål. Få klarhed før du abonnerer.',
     showMoreText: 'Vis flere spørgsmål',
     showLessText: 'Vis færre',
@@ -526,7 +579,7 @@ Mange danske lærere tjener 3000-15000 DKK månedligt fra passivt salg. Dit 1800
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Kombiner med Andre Arbejdsark Generatorer',
+    sectionTitle: 'Kombiner med Andre Gratis Arbejdsark Generatorer',
     sectionDescription: 'Lav komplette læringspakker ved at kombinere matematikopgaver med billeder med disse komplementære generatorer.',
     ctaTitle: 'Klar til at Lave Fantastiske Arbejdsark?',
     ctaDescription: 'Tilslut dig tusindvis af pædagoger der laver professionelle arbejdsark. Ubegrænset oprettelse, kommerciel licens inkluderet.',

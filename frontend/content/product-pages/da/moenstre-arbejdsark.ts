@@ -13,26 +13,58 @@ import { ProductPageContent } from '@/components/product-page/ProductPageClient'
  */
 
 export const patternWorksheetDaContent: ProductPageContent = {
-  // SEO Metadata
+  // SEO Metadata - OPTIMIZED with keywords and images
   seo: {
     slug: 'moenstre-arbejdsark',
     appId: 'pattern-worksheet',
-    title: 'Opgaver til Print med Mønstre - Arbejdsark til Børnehaveklassen og 1. Klasse - Gratis Skoleopgaver',
-    description: 'Lav mønstergenkendelses-opgaver til børn med vores professionelle opgavegenerator. Din Fuld Adgang-abonnement giver dig ubegrænset adgang til at lave arbejdsark uden ekstra gebyrer. Generer matematikopgaver med mønstre perfekt til børnehaveklassen og 1. klasse. Download print-klare PDF-opgaver på under 3 minutter.',
-    keywords: 'mønstergenkendelse, arbejdsark, matematikopgaver, gratis skoleopgaver til print, børnehaveklassen, 0. klasse, 1. klasse, mønstre, opgaver til print, kopiark',
+    title: 'Mønster Gratis Arbejdsark - Generator til Børnehaveklasse og 0. Klasse',
+    description: 'Lav mønstergenkendelses gratis arbejdsark til børn med vores professionelle generator. Ubegrænset arbejdsark til børnehaveklasse. Download gratis printables som PDF på 3 minutter med mønsteropgaver.',
+    keywords: 'mønstergenkendelse, gratis arbejdsark, arbejdsark til børn, arbejdsark til børnehaveklasse, gratis printables, opgaver til print, matematikopgaver, 0. klasse, 1. klasse, mønstre, kopiark',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/moenstre-arbejdsark',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/pattern/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Mønster gratis arbejdsark - mønsteropgave arbejdsark til børn for børnehaveklasse'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/pattern/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Mønster arbejdsark til børnehaveklasse - gratis printables med mønstergenkendelse'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/pattern/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis arbejdsark mønster - arbejdsark til børn med mønsteropgaver til 0. klasse'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/pattern/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Arbejdsark til børnehaveklasse - mønster gratis printables med matematikøvelser'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/pattern/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Opgaver til print mønster - gratis arbejdsark med mønstergenkendelse til børn'
+      },
+    ],
   },
 
-  // Hero Section - FULL text from pattern-worksheet.md
+  // Hero Section - OPTIMIZED with keywords
   hero: {
-    title: 'Mønster Opgaver Generator',
-    subtitle: 'Arbejdsark til Børnehaveklassen og 1. Klasse - Gratis Skoleopgaver',
-    description: `Lav mønstergenkendelses-opgaver til børn med vores professionelle opgavegenerator. Din Fuld Adgang-abonnement giver dig ubegrænset adgang til at lave arbejdsark uden ekstra gebyrer. Generer matematikopgaver med mønstre perfekt til børnehaveklassen og 1. klasse. Download print-klare PDF-opgaver på under 3 minutter.
+    title: 'Mønster Gratis Arbejdsark til Print',
+    subtitle: 'Gratis Arbejdsark Generator til Børnehaveklasse og 0. Klasse',
+    description: `Lav mønstergenkendelses gratis arbejdsark til børn med vores professionelle generator. Dit Fuld Adgang-abonnement giver dig ubegrænset adgang til at lave arbejdsark til børnehaveklasse uden ekstra gebyrer. Generer gratis printables med mønsteropgaver perfekt til børnehaveklassen og 1. klasse. Download opgaver til print som PDF på under 3 minutter.
 
-Mønstergenkendelse er en vigtig færdighed for små børn. Vores generator laver opgaver til print med 9 forskellige mønstertyper. Børn lærer at genkende AB-mønstre, AAB-mønstre, ABC-mønstre og mere. Hvert arbejdsark kan indeholde 1-8 opgaver med mønstre. Du vælger selv sværhedsgrad og antal opgaver per side.
+Mønstergenkendelse er en vigtig færdighed for små børn. Vores generator laver gratis arbejdsark med 9 forskellige mønstertyper. Børn lærer at genkende AB-mønstre, AAB-mønstre, ABC-mønstre og mere. Hvert arbejdsark til børn kan indeholde 1-8 opgaver med mønstre. Du vælger selv sværhedsgrad og antal opgaver per side.
 
-Børn kan øve sig med to forskellige opgavetyper. Første type er tom boks hvor børnet tegner det manglende element. Anden type er valgmuligheder hvor barnet vælger det rigtige svar. Begge opgavetyper træner logisk tænkning og mønstergenkendelse. Din Fuld Adgang-abonnement inkluderer alle 33 opgavegeneratorer på platformen. Lav så mange gratis skoleopgaver som du har brug for. Download arbejdsark til børnehaveklassen i høj kvalitet som PDF.`,
-    previewImageSrc: '/samples/english/pattern worksheet/pattern_worksheet portrait.jpeg',
+Børn kan øve sig med to forskellige opgavetyper. Første type er tom boks hvor børnet tegner det manglende element. Anden type er valgmuligheder hvor barnet vælger det rigtige svar. Begge opgavetyper træner logisk tænkning og mønstergenkendelse. Din Fuld Adgang-abonnement inkluderer alle 33 gratis printables generatorer på platformen. Lav så mange arbejdsark til børnehaveklasse som du har brug for. Download gratis arbejdsark i høj kvalitet som PDF.`,
+    previewImageSrc: '/samples/danish/pattern/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Prøv Gratis',
       viewSamples: 'Se Eksempler',
@@ -51,10 +83,10 @@ Børn kan øve sig med to forskellige opgavetyper. Første type er tom boks hvor
     },
   },
 
-  // Sample Gallery - REAL file paths from samples/english/pattern worksheet/
+  // Sample Gallery - Danish paths with keyword-rich alt text
   samples: {
-    sectionTitle: 'Mønster Opgaver Eksempler',
-    sectionDescription: 'Download gratis eksempler på arbejdsark for at se vores professionelle kvalitet',
+    sectionTitle: 'Gratis Arbejdsark Eksempler - Mønster til Børn',
+    sectionDescription: 'Download gratis arbejdsark eksempler på mønsteropgaver for at se vores professionelle kvalitet - arbejdsark til børnehaveklasse og 0. klasse',
     badgeText: 'Gratis Eksempler',
     downloadLabel: 'Download Gratis Eksempel',
     downloadingLabel: 'Downloader...',
@@ -62,30 +94,51 @@ Børn kan øve sig med to forskellige opgavetyper. Første type er tom boks hvor
     answerKeyLabel: 'Facitark',
     viewAllLabel: 'Se alle',
     noPdfLabel: 'Ingen PDF tilgængelig',
-    freePdfCountLabel: '2 gratis downloads',
+    freePdfCountLabel: '5 gratis downloads',
     ofLabel: 'af',
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/pattern worksheet/pattern_worksheet portrait.jpeg',
-        answerKeySrc: '/samples/english/pattern worksheet/pattern_worksheet portrait answer_key.jpeg',
-        altText: 'Mønster opgaver arbejdsark stående format til børnehaveklassen',
-        pdfDownloadUrl: '/samples/english/pattern worksheet/pattern_worksheet portrait.pdf',
+        worksheetSrc: '/samples/danish/pattern/sample-1.jpeg',
+        answerKeySrc: '/samples/danish/pattern/sample-1-answer.jpeg',
+        altText: 'Mønster gratis arbejdsark - mønsteropgave arbejdsark til børn med mønstergenkendelse til børnehaveklasse',
+        pdfDownloadUrl: '/samples/danish/pattern/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/pattern worksheet/pattern_worksheet landscape.jpeg',
-        answerKeySrc: '/samples/english/pattern worksheet/pattern_worksheet landscape answer_key (1).jpeg',
-        altText: 'Mønster opgaver arbejdsark liggende format til 0. klasse',
-        pdfDownloadUrl: '/samples/english/pattern worksheet/pattern_worksheet landscape.pdf',
+        worksheetSrc: '/samples/danish/pattern/sample-2.jpeg',
+        answerKeySrc: '/samples/danish/pattern/sample-2-answer.jpeg',
+        altText: 'Gratis arbejdsark mønster - arbejdsark til børnehaveklasse med mønsteropgaver for 0. klasse',
+        pdfDownloadUrl: '/samples/danish/pattern/sample-2.pdf',
+      },
+      {
+        id: '3',
+        worksheetSrc: '/samples/danish/pattern/sample-3.jpeg',
+        answerKeySrc: '/samples/danish/pattern/sample-3-answer.jpeg',
+        altText: 'Mønster arbejdsark til børn - gratis printables med mønstergenkendelse til børnehaveklasse',
+        pdfDownloadUrl: '/samples/danish/pattern/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/danish/pattern/sample-4.jpeg',
+        answerKeySrc: '/samples/danish/pattern/sample-4-answer.jpeg',
+        altText: 'Arbejdsark til børnehaveklasse mønster - gratis arbejdsark med opgaver til print',
+        pdfDownloadUrl: '/samples/danish/pattern/sample-4.pdf',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/danish/pattern/sample-5.jpeg',
+        answerKeySrc: '/samples/danish/pattern/sample-5-answer.jpeg',
+        altText: 'Gratis printables mønsteropgaver - arbejdsark til børn med mønstergenkendelse for 1. klasse',
+        pdfDownloadUrl: '/samples/danish/pattern/sample-5.pdf',
       },
     ],
   },
 
-  // Features Grid - FULL text from pattern-worksheet.md feature sections
+  // Features Grid - OPTIMIZED with keywords
   features: {
-    sectionTitle: 'Funktioner til Opgaver til Print - Alt Du Behøver for Matematikopgaver og Arbejdsark',
-    sectionDescription: 'Vores mønstergenerator giver dig professionelle værktøjer til at lave opgaver til print. Disse funktioner gør det nemt at skabe arbejdsark til børnehaveklassen og 1. klasse. Hver funktion er designet til danske pædagoger og lærere. Fuld Adgang-abonnementet giver dig adgang til alle funktioner uden ekstra gebyrer. Lav gratis skoleopgaver med professionel kvalitet på få minutter.',
+    sectionTitle: 'Gratis Arbejdsark Funktioner - Alt Du Behøver for Mønsteropgaver og Arbejdsark til Børn',
+    sectionDescription: 'Vores mønstergenerator giver dig professionelle værktøjer til at lave gratis arbejdsark til børnehaveklasse. Disse funktioner gør det nemt at skabe arbejdsark til børn og gratis printables. Hver funktion er designet til danske pædagoger og lærere. Fuld Adgang-abonnementet giver dig adgang til alle funktioner uden ekstra gebyrer. Lav opgaver til print med professionel kvalitet på få minutter.',
     highlightBadgeText: 'Vigtig Funktion',
     readMoreLabel: 'Læs mere',
     showLessLabel: 'Vis mindre',
@@ -176,10 +229,10 @@ Gråtone mulighed sparer blæk når du printer matematikopgaver. Konverter farve
     ],
   },
 
-  // How-To Guide - FULL text from pattern-worksheet.md step sections
+  // How-To Guide - OPTIMIZED with keywords
   howTo: {
-    sectionTitle: 'Sådan Laver Du Matematikopgaver med Mønstre i 5 Nemme Trin - Arbejdsark til Print',
-    sectionDescription: 'At lave professionelle mønsteropgaver tager under 3 minutter. Denne trin-for-trin guide viser dig præcis hvordan. Ingen designerfærdigheder er nødvendige. Systemet guider dig gennem hver proces. Børn i børnehaveklassen og 1. klasse lærer mønstre gennem visuelle opgaver. Fuld Adgang-abonnementet giver dig ubegrænset adgang til generatoren.',
+    sectionTitle: 'Sådan Laver Du Gratis Arbejdsark med Mønstre i 5 Nemme Trin - Arbejdsark til Børn',
+    sectionDescription: 'At lave professionelle gratis printables med mønsteropgaver tager under 3 minutter. Denne trin-for-trin guide viser dig præcis hvordan du laver arbejdsark til børnehaveklasse. Ingen designerfærdigheder er nødvendige. Systemet guider dig gennem hver proces. Børn i børnehaveklassen og 1. klasse lærer mønstre gennem visuelle opgaver til print. Fuld Adgang-abonnementet giver dig ubegrænset adgang til gratis arbejdsark generatoren.',
     ctaText: 'Start Nu',
     badgeText: 'Sådan Virker Det',
     stepLabel: 'Trin',
@@ -248,10 +301,10 @@ Download ubegrænset antal matematikopgaver med dit Fuld Adgang-abonnement. Lav 
     ],
   },
 
-  // Use Cases - FULL text from pattern-worksheet.md use case sections
+  // Use Cases - OPTIMIZED with keywords
   useCases: {
-    sectionTitle: 'Perfekt til Pædagoger og Forældre - Matematikopgaver og Opgaver til Print til Alle Behov',
-    sectionDescription: 'Mønstergeneratoren passer til mange forskellige brugsscenarier. Pædagoger i børnehaveklassen bruger den dagligt. Lærere i 1. klasse og 2. klasse laver ugentlige arbejdsark. Homeschool-forældre planlægger hele undervisningsforløb. Speciallærere tilpasser opgaver til individuelle behov. Alle finder værdi i de gratis skoleopgaver systemet producerer.',
+    sectionTitle: 'Perfekt til Pædagoger og Forældre - Gratis Arbejdsark og Arbejdsark til Børn til Alle Behov',
+    sectionDescription: 'Mønstergeneratoren passer til mange forskellige brugsscenarier. Pædagoger laver gratis printables til børnehaveklassen dagligt. Lærere i 1. klasse og 2. klasse laver ugentlige arbejdsark til børnehaveklasse. Homeschool-forældre planlægger hele undervisningsforløb med arbejdsark til børn. Speciallærere tilpasser opgaver til print til individuelle behov. Alle finder værdi i de gratis arbejdsark systemet producerer.',
     badgeText: 'Hvem Er Det Til',
     readMoreLabel: 'Læs mere',
     showLessLabel: 'Vis mindre',
@@ -384,10 +437,10 @@ Inkluder mønsteropgaver, matematikopgaver, og malebog-sider i samme pakke. Køb
     ],
   },
 
-  // FAQ Section - FULL text from pattern-worksheet.md FAQ sections
+  // FAQ Section - OPTIMIZED with keywords
   faq: {
-    sectionTitle: 'Ofte Stillede Spørgsmål om Matematikopgaver og Gratis Skoleopgaver',
-    sectionDescription: 'Danske pædagoger og lærere stiller mange spørgsmål om mønstergeneratoren. Her besvarer vi de mest almindelige spørgsmål. Svarene hjælper dig med at forstå præcis hvad systemet kan. Du lærer om abonnement, funktioner og anvendelsesmuligheder.',
+    sectionTitle: 'Ofte Stillede Spørgsmål om Gratis Arbejdsark og Arbejdsark til Børnehaveklasse',
+    sectionDescription: 'Danske pædagoger og lærere stiller mange spørgsmål om gratis printables mønstergeneratoren. Her besvarer vi de mest almindelige spørgsmål om arbejdsark til børn. Svarene hjælper dig med at forstå præcis hvad systemet kan for opgaver til print. Du lærer om abonnement, gratis arbejdsark funktioner og anvendelsesmuligheder.',
     showMoreText: 'Vis flere spørgsmål',
     showLessText: 'Vis færre',
     badgeText: 'FAQ',

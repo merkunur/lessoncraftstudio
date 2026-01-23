@@ -15,16 +15,48 @@ export const findObjectsDaContent: ProductPageContent = {
   seo: {
     slug: 'find-objekterne-arbejdsark',
     appId: 'find-objects',
-    title: 'Find Objekterne Opgaver til Print - Arbejdsark til 0. Klasse og 1. Klasse - Gratis Skoleopgaver Generator',
-    description: 'Lav professionelle find-objekterne opgaver med vores opgavegenerator. Dit Fuld Adgang abonnement giver dig ubegrænset adgang til at lave arbejdsark uden ekstra betaling per opgave. Generer tilpassede opgaver til print perfekte til 0. klasse og 1. klasse elever. Download pædagogiske opgaveark i høj kvalitet på under 3 minutter.',
-    keywords: 'find objekterne, opgaver til print, matematikopgaver, arbejdsark, gratis skoleopgaver, 0. klasse, 1. klasse, børnehaveklasse, finmotorik øvelser, visuel diskriminering',
+    title: 'Find Objekterne Opgaver til Print - Gratis Arbejdsark til Børn i 0. Klasse og 1. Klasse - Gratis Printables Generator',
+    description: 'Lav professionelle find-objekterne opgaver med vores opgavegenerator. Dit Fuld Adgang abonnement giver dig ubegrænset adgang til at lave gratis arbejdsark til børn uden ekstra betaling per opgave. Generer tilpassede gratis printables perfekte til børnehaveklasse og 1. klasse elever. Download pædagogiske opgaveark i høj kvalitet på under 3 minutter.',
+    keywords: 'find objekterne, opgaver til print, matematikopgaver, arbejdsark, gratis skoleopgaver, 0. klasse, 1. klasse, børnehaveklasse, finmotorik øvelser, visuel diskriminering, gratis arbejdsark, gratis arbejdsark til børn, gratis printables, arbejdsark til børn, arbejdsark til børnehaveklasse',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/find-objekterne-arbejdsark',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/find-objects/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Find objekterne gratis arbejdsark til børn - visuel søgeopgave for børnehaveklasse'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/find-objects/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Find objekterne gratis printables - opgaver til print for 0. klasse elever'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/find-objects/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Find objekterne arbejdsark til børn - finmotorik øvelser til 1. klasse'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/find-objects/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Find objekterne gratis arbejdsark - visuel diskriminering til børnehaveklasse'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/find-objects/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Find objekterne arbejdsark til børnehaveklasse - gratis skoleopgaver til print'
+      }
+    ]
   },
 
   // Hero Section - FULL text from find-objects.md paragraphs 1-4
   hero: {
     title: 'Find Objekterne Opgaver',
-    subtitle: 'Arbejdsark til 0. Klasse og 1. Klasse',
+    subtitle: 'Gratis Arbejdsark til Børn i 0. Klasse og 1. Klasse',
     description: `Lav professionelle find-objekterne opgaver med vores opgavegenerator. Dit Fuld Adgang abonnement giver dig ubegrænset adgang til at lave arbejdsark uden ekstra betaling per opgave. Generer tilpassede opgaver til print perfekte til 0. klasse og 1. klasse elever. Download pædagogiske opgaveark i høj kvalitet på under 3 minutter.
 
 Find objekterne opgaver er fantastiske til at udvikle børns visuelle diskriminering og koncentrationsevner. Vores generator laver to typer opgaver til print: "Find de gemte objekter" aktiviteter og "Find den ulige en ud" opgaver. Børnehaveklasse og 1. klasse lærere kan bruge disse arbejdsark til finmotorik øvelser og visuel læring. Opgaverne er nemme at tilpasse til forskellige sværhedsgrader. Børn i indskolingen elsker at løse find objekterne opgaver fordi aktiviteterne er sjove og udfordrende samtidig.
@@ -32,7 +64,7 @@ Find objekterne opgaver er fantastiske til at udvikle børns visuelle diskrimine
 Med din Fuld Adgang konto får du adgang til over 3000 børnevenlige billeder organiseret i temaer. Lav opgaver til print der passer præcist til dit klasseværelse eller hjemmeundervisning. Kombinér matematikopgaver temaer med find-objekterne aktiviteter for tværfaglig læring. Vores generator understøtter 11 sprog inklusiv dansk, så du kan lave arbejdsark der matcher dine elevers behov. Upload dine egne billeder eller vælg fra vores omfattende billedbibliotek.
 
 Fuld Adgang abonnementet koster 1.800 kr årligt eller 200 kr månedligt. Du får adgang til alle 33 opgavegeneratorer på platformen. Lav opgaver til print for matematikopgaver, malebøger til farvelægning, arbejdsark til lære bogstaver, og meget mere. Download dine færdige opgaveark som PDF eller JPEG filer i professionel 300 DPI kvalitet klar til udskrivning. Gratis skoleopgaver generator giver dig friheden til at skabe præcis de opgaver dine elever har brug for.`,
-    previewImageSrc: '/samples/english/find objects/find objects portrait.jpeg',
+    previewImageSrc: '/samples/danish/find-objects/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Prøv Gratis',
       viewSamples: 'Se Eksempler',
@@ -51,10 +83,10 @@ Fuld Adgang abonnementet koster 1.800 kr årligt eller 200 kr månedligt. Du få
     },
   },
 
-  // Sample Gallery - REAL file paths from samples/english/find objects/
+  // Sample Gallery - REAL file paths from samples/danish/find-objects/
   samples: {
-    sectionTitle: 'Find Objekterne Eksempler',
-    sectionDescription: 'Download gratis eksempler på arbejdsark for at se vores professionelle kvalitet',
+    sectionTitle: 'Find Objekterne Gratis Arbejdsark Eksempler til Børn',
+    sectionDescription: 'Download gratis eksempler på arbejdsark til børn for at se vores professionelle kvalitet - gratis printables til børnehaveklasse',
     badgeText: 'Gratis Eksempler',
     downloadLabel: 'Download Gratis Eksempel',
     downloadingLabel: 'Downloader...',
@@ -62,30 +94,51 @@ Fuld Adgang abonnementet koster 1.800 kr årligt eller 200 kr månedligt. Du få
     answerKeyLabel: 'Facitark',
     viewAllLabel: 'Se alle',
     noPdfLabel: 'Ingen PDF tilgængelig',
-    freePdfCountLabel: '2 gratis downloads',
+    freePdfCountLabel: '5 gratis downloads',
     ofLabel: 'af',
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/find objects/find objects portrait.jpeg',
-        answerKeySrc: '/samples/english/find objects/find objects portrait answer_key.jpeg',
-        altText: 'Find objekterne arbejdsark portrætformat med visuelle søgeopgaver til børnehaveklassen',
-        pdfDownloadUrl: '/samples/english/find objects/find objects portrait.pdf',
+        worksheetSrc: '/samples/danish/find-objects/sample-1.jpeg',
+        answerKeySrc: '/samples/danish/find-objects/sample-1-answer.jpeg',
+        altText: 'Find objekterne gratis arbejdsark til børn - visuelle søgeopgaver til børnehaveklasse',
+        pdfDownloadUrl: '/samples/danish/find-objects/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/find objects/find objects landscape.jpeg',
-        answerKeySrc: '/samples/english/find objects/find objects landscape answer_key.jpeg',
-        altText: 'Find objekterne arbejdsark landskabsformat med finmotorik øvelser til 1. klasse',
-        pdfDownloadUrl: '/samples/english/find objects/find objects landscape.pdf',
+        worksheetSrc: '/samples/danish/find-objects/sample-2.jpeg',
+        answerKeySrc: '/samples/danish/find-objects/sample-2-answer.jpeg',
+        altText: 'Find objekterne gratis printables - finmotorik øvelser til 0. klasse elever',
+        pdfDownloadUrl: '/samples/danish/find-objects/sample-2.pdf',
+      },
+      {
+        id: '3',
+        worksheetSrc: '/samples/danish/find-objects/sample-3.jpeg',
+        answerKeySrc: '/samples/danish/find-objects/sample-3-answer.jpeg',
+        altText: 'Find objekterne arbejdsark til børn - visuel diskriminering til 1. klasse',
+        pdfDownloadUrl: '/samples/danish/find-objects/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/danish/find-objects/sample-4.jpeg',
+        answerKeySrc: '/samples/danish/find-objects/sample-4-answer.jpeg',
+        altText: 'Find objekterne gratis arbejdsark - opgaver til print til børnehaveklasse',
+        pdfDownloadUrl: '/samples/danish/find-objects/sample-4.pdf',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/danish/find-objects/sample-5.jpeg',
+        answerKeySrc: '/samples/danish/find-objects/sample-5-answer.jpeg',
+        altText: 'Find objekterne arbejdsark til børnehaveklasse - gratis printables til indskolingen',
+        pdfDownloadUrl: '/samples/danish/find-objects/sample-5.pdf',
       },
     ],
   },
 
   // Features Grid - FULL text from find-objects.md feature sections
   features: {
-    sectionTitle: 'Find Objekterne Generator Funktioner - Alt Du Skal Bruge til Arbejdsark og Opgaver til Print',
-    sectionDescription: 'Vores find objekterne generator giver dig alle værktøjer til at lave professionelle opgaver til print. Fuld Adgang abonnementet inkluderer syv vigtige funktioner der gør det nemt at skabe tilpassede arbejdsark. Lærere i børnehaveklasse, 0. klasse og 1. klasse får adgang til alt hvad de har brug for. Lav gratis skoleopgaver der matcher præcis dine undervisningsbehov.',
+    sectionTitle: 'Find Objekterne Generator Funktioner - Alt Du Skal Bruge til Gratis Arbejdsark til Børn og Opgaver til Print',
+    sectionDescription: 'Vores find objekterne generator giver dig alle værktøjer til at lave professionelle gratis printables. Fuld Adgang abonnementet inkluderer syv vigtige funktioner der gør det nemt at skabe tilpassede gratis arbejdsark. Lærere i børnehaveklasse, 0. klasse og 1. klasse får adgang til alt hvad de har brug for. Lav arbejdsark til børn der matcher præcis dine undervisningsbehov.',
     highlightBadgeText: 'Vigtig Funktion',
     readMoreLabel: 'Læs mere',
     showLessLabel: 'Vis mindre',
@@ -99,7 +152,7 @@ Fuld Adgang abonnementet koster 1.800 kr årligt eller 200 kr månedligt. Du få
       {
         id: '1',
         icon: '⚡',
-        title: 'Lav Find Objekterne Opgaver til Print på 3 Klik - Hurtig Generator til Arbejdsark',
+        title: 'Lav Find Objekterne Opgaver til Print på 3 Klik - Hurtig Generator til Gratis Arbejdsark til Børn',
         description: `Generér komplette opgaver til print på under 3 minutter. Vælg først et tema for dine baggrundsobjekter fra vores billedbibliotek. Vælg derefter hvilke objekter børnene skal finde blandt baggrundsobjekterne. Klik på "Opret" knappen og din opgave er færdig. Ingen designerfærdigheder krævet. Lærere i 0. klasse og 1. klasse kan lave arbejdsark med det samme.
 
 Generatoren tilbyder to aktivitetstyper: "Find de gemte objekter" og "Find den ulige en ud". I Spy tilstand lader dig vælge 8-12 baggrundsobjekter og 1-3 gemte objekter som børnene skal finde. Odd One Out tilstand bruger 8-12 par af objekter plus 1-3 uparrede objekter. Begge typer opgaver til print hjælper børn med at udvikle visuel diskriminering. Børnehaveklasse elever elsker disse aktiviteter fordi de er sjove og lærerige samtidig.
@@ -121,7 +174,7 @@ Du kan også tilføje og redigere tekstelementer direkte på lærredet. Tilføj 
       {
         id: '3',
         icon: '📤',
-        title: 'Upload Dine Egne Billeder til Gratis Skoleopgaver - Kombinér med Biblioteket',
+        title: 'Upload Dine Egne Billeder til Gratis Arbejdsark - Kombinér med Billedbiblioteket',
         description: `Upload dine egne billeder og kombinér dem med vores 3000+ billedbibliotek. Multi-fil upload lader dig vælge flere billeder på samme tid. Alle almindelige formater understøttes: JPEG, PNG, GIF. Uploadede billeder vises i dit session bibliotek klar til brug. Lav personlige opgaver til print med billeder dine elever kender.
 
 Upload fotos af ting fra dit klasseværelse til autenticitet. Tag billeder af manipulatives, legetøj eller klasseting som eleverne genkender. Upload elevtegninger for at skabe opgaver med deres egne kunstværker. Kombinér uploadede billeder med bibliotekstemaer for unikke arbejdsark. Dette gør opgaverne mere meningsfulde og engagerende for børn i børnehaveklasse og indskolingen.
@@ -178,8 +231,8 @@ Generer en facitliste automatisk der viser hvor objekterne er gemt. Facitlisten 
 
   // How-To Guide - FULL text from find-objects.md step sections
   howTo: {
-    sectionTitle: 'Sådan Laver Du Opgaver til Print i 5 Nemme Trin - Gratis Skoleopgaver Generator til Arbejdsark',
-    sectionDescription: 'Lav professionelle find objekterne arbejdsark på under 3 minutter. Vores generator gør processen hurtig og enkel. Ingen designerfærdigheder krævet. Lærere i børnehaveklasse, 0. klasse og 1. klasse kan lave tilpassede opgaver til print med det samme. Følg disse fem enkle trin for at skabe kopiark til dine elever.',
+    sectionTitle: 'Sådan Laver Du Opgaver til Print i 5 Nemme Trin - Gratis Arbejdsark Generator til Børnehaveklasse',
+    sectionDescription: 'Lav professionelle find objekterne gratis arbejdsark til børn på under 3 minutter. Vores generator gør processen hurtig og enkel. Ingen designerfærdigheder krævet. Lærere i børnehaveklasse, 0. klasse og 1. klasse kan lave tilpassede gratis printables med det samme. Følg disse fem enkle trin for at skabe arbejdsark til børn.',
     ctaText: 'Start Nu',
     badgeText: 'Sådan Virker Det',
     stepLabel: 'Trin',
@@ -260,8 +313,8 @@ Organiser dine downloadede arbejdsark i mapper efter emne eller sværhedsgrad. L
 
   // Use Cases - FULL text from find-objects.md use case sections
   useCases: {
-    sectionTitle: 'Perfekt til Lærere, Forældre og Pædagoger - Gratis Skoleopgaver og Opgaver til Print til Alle Behov',
-    sectionDescription: 'Find objekterne opgaver fungerer fremragende for mange forskellige undervisningssituationer. Lærere i børnehaveklasse, 0. klasse, 1. klasse og 2. klasse bruger disse arbejdsark dagligt. Hjemmeundervisningsforældre elsker fleksibiliteten til at skabe tilpassede opgaver. Specialpædagoger værdsætter differentieringsmulighederne. Lærerentreprenører sælger disse opgaver til print på Teachers Pay Teachers og Etsy.',
+    sectionTitle: 'Perfekt til Lærere, Forældre og Pædagoger - Gratis Arbejdsark til Børn og Opgaver til Print til Alle Behov',
+    sectionDescription: 'Find objekterne gratis arbejdsark fungerer fremragende for mange forskellige undervisningssituationer. Lærere i børnehaveklasse, 0. klasse, 1. klasse og 2. klasse bruger disse gratis printables dagligt. Hjemmeundervisningsforældre elsker fleksibiliteten til at skabe tilpassede arbejdsark til børn. Specialpædagoger værdsætter differentieringsmulighederne. Lærerentreprenører sælger disse arbejdsark til børnehaveklasse på Teachers Pay Teachers og Etsy.',
     badgeText: 'Hvem Er Det Til',
     readMoreLabel: 'Læs mere',
     showLessLabel: 'Vis mindre',
@@ -343,8 +396,8 @@ Pinterest marketing driver enorm trafik til lærerressource butikker. Lav iøjne
 
   // FAQ Section - Selected FAQs from find-objects.md
   faq: {
-    sectionTitle: 'Ofte Stillede Spørgsmål om Find Objekterne Opgaver til Print - Gratis Skoleopgaver og Matematikopgaver',
-    sectionDescription: 'Lærere stiller mange spørgsmål om vores find objekterne generator før de abonnerer. Her er de mest almindelige spørgsmål med detaljerede svar. Lær om Fuld Adgang abonnement, kommerciel licens, sprogsupport og meget mere.',
+    sectionTitle: 'Ofte Stillede Spørgsmål om Find Objekterne Opgaver til Print - Gratis Arbejdsark og Gratis Printables',
+    sectionDescription: 'Lærere stiller mange spørgsmål om vores find objekterne generator før de abonnerer. Her er de mest almindelige spørgsmål om gratis arbejdsark til børn med detaljerede svar. Lær om Fuld Adgang abonnement, kommerciel licens, arbejdsark til børnehaveklasse og sprogsupport.',
     showMoreText: 'Vis flere spørgsmål',
     showLessText: 'Vis færre',
     badgeText: 'FAQ',
@@ -355,8 +408,8 @@ Pinterest marketing driver enorm trafik til lærerressource butikker. Lav iøjne
     items: [
       {
         id: '1',
-        question: 'Er Denne Find Objekterne Generator Virkelig Gratis at Bruge?',
-        answer: 'Find objekterne generatoren kræver et Fuld Adgang abonnement der koster 1.800 kr årligt eller 200 kr månedligt. Dit abonnement giver dig ubegrænset adgang til at lave find objekterne opgaver uden ekstra gebyrer per opgave. Generer så mange gratis skoleopgaver som du har brug for uden yderligere omkostninger. Fuld Adgang inkluderer alle 33 opgavegeneratorer på platformen. Kernepakke inkluderer 10 populære generatorer og koster 1.080 kr årligt. Begge abonnementer inkluderer kommerciel licens, 11 sprog support og professionel 300 DPI kvalitet eksport til gratis skoleopgaver.',
+        question: 'Er Denne Find Objekterne Generator til Gratis Arbejdsark Virkelig Gratis at Bruge?',
+        answer: 'Find objekterne generatoren kræver et Fuld Adgang abonnement der koster 1.800 kr årligt eller 200 kr månedligt. Dit abonnement giver dig ubegrænset adgang til at lave gratis arbejdsark til børn uden ekstra gebyrer per opgave. Generer så mange gratis printables som du har brug for uden yderligere omkostninger. Fuld Adgang inkluderer alle 33 opgavegeneratorer på platformen. Kernepakke inkluderer 10 populære generatorer og koster 1.080 kr årligt. Begge abonnementer inkluderer kommerciel licens, 11 sprog support og professionel 300 DPI kvalitet eksport til arbejdsark til børnehaveklasse.',
       },
       {
         id: '2',
@@ -365,8 +418,8 @@ Pinterest marketing driver enorm trafik til lærerressource butikker. Lav iøjne
       },
       {
         id: '3',
-        question: 'Skal Jeg Have Designfærdigheder for at Lave Gratis Skoleopgaver med Matematikopgaver og Gangetabeller?',
-        answer: 'Ingen designerfærdigheder krævet. Vores generator er lavet til lærere uden teknisk baggrund. Vælg et tema, generer opgaven, tilpas hvis nødvendigt, og download. Hele processen tager under 3 minutter. Punkt-og-klik interface gør det intuitivt. Selv teknologi-skeptiske lærere mestrer generatoren hurtigt. Lav komplekse opgaver til print med matematikopgaver integration uden designerfaring. Kombinér find objekterne med gangetabeller øvelser. Tilføj lære bogstaver elementer til visuel scanning aktiviteter. Generatoren håndterer al layout og design automatisk. Du fokuserer på pædagogisk indhold mens værktøjet skaber professionelt udseende arbejdsark.',
+        question: 'Skal Jeg Have Designfærdigheder for at Lave Gratis Arbejdsark til Børn med Matematikopgaver?',
+        answer: 'Ingen designerfærdigheder krævet. Vores generator er lavet til lærere uden teknisk baggrund. Vælg et tema, generer opgaven, tilpas hvis nødvendigt, og download gratis printables. Hele processen tager under 3 minutter. Punkt-og-klik interface gør det intuitivt. Selv teknologi-skeptiske lærere mestrer generatoren hurtigt. Lav komplekse arbejdsark til børn med matematikopgaver integration uden designerfaring. Kombinér find objekterne med gangetabeller øvelser. Tilføj lære bogstaver elementer til visuel scanning aktiviteter. Generatoren håndterer al layout og design automatisk. Du fokuserer på pædagogisk indhold mens værktøjet skaber professionelt udseende gratis arbejdsark til børnehaveklasse.',
       },
       {
         id: '4',
@@ -395,8 +448,8 @@ Pinterest marketing driver enorm trafik til lærerressource butikker. Lav iøjne
       },
       {
         id: '9',
-        question: 'Kan Jeg Uploade Mine Egne Billeder til Gratis Skoleopgaver?',
-        answer: 'Ja. Multi-fil upload understøtter JPEG, PNG og GIF formater. Upload klasseværelses fotos, elevtegninger eller personlige billeder. Kombinér uploadede billeder med vores 3000+ billedbibliotek. Lav personlige opgaver til print der resonerer med dine elever. Upload er hurtig og nem uden filstørrelse begrænsninger for standard billeder. Upload billeder der matcher dit temabaserede curriculum. Tag fotos fra klasseudflugt og lav find opgaver om turen. Upload manipulatives fra dit klasseværelse for autenticitet. Kombinér egne billeder med bibliotek billeder for unikke gratis skoleopgaver. Denne funktion gør hver opgave relevant og meningsfuld for dine specifikke elever.',
+        question: 'Kan Jeg Uploade Mine Egne Billeder til Gratis Arbejdsark til Børn?',
+        answer: 'Ja. Multi-fil upload understøtter JPEG, PNG og GIF formater. Upload klasseværelses fotos, elevtegninger eller personlige billeder. Kombinér uploadede billeder med vores 3000+ billedbibliotek. Lav personlige gratis printables der resonerer med dine elever. Upload er hurtig og nem uden filstørrelse begrænsninger for standard billeder. Upload billeder der matcher dit temabaserede curriculum. Tag fotos fra klasseudflugt og lav find opgaver om turen. Upload manipulatives fra dit klasseværelse for autenticitet. Kombinér egne billeder med bibliotek billeder for unikke arbejdsark til børn. Denne funktion gør hvert gratis arbejdsark relevant og meningsfuldt for dine specifikke elever i børnehaveklasse.',
       },
       {
         id: '10',
@@ -410,8 +463,8 @@ Pinterest marketing driver enorm trafik til lærerressource butikker. Lav iøjne
       },
       {
         id: '12',
-        question: 'Kan Jeg Lave Find Objekterne Opgaver om Specifikke Skolefag som Gangetabeller eller Malebog Farvelægning?',
-        answer: 'Ja. Vores 3000+ billedbibliotek inkluderer matematikopgaver temaer perfekt til gangetabeller øvelser. Vælg tal og symbol billeder. Lav tælleaktiviteter kombineret med find objekterne. Eksportér i gråtone tilstand for malebog farvelægning aktiviteter. Kombinér visuel scanning med farvelægning for multi-skill øvelse. Upload dine egne emne-specifikke billeder for tilpasset indhold. Lav naturfag opgaver med dyre og plante billeder. Lav geografi opgaver med verdenskort elementer. Lav sundhed opgaver med mad og krop billeder. Kombinér find objekterne med lære bogstaver, læse og skrive øvelser, matematikopgaver og finmotorik øvelser for tværfaglig læring. Generatoren støtter alle fag.',
+        question: 'Kan Jeg Lave Find Objekterne Gratis Arbejdsark om Specifikke Skolefag som Gangetabeller?',
+        answer: 'Ja. Vores 3000+ billedbibliotek inkluderer matematikopgaver temaer perfekt til gangetabeller øvelser. Vælg tal og symbol billeder. Lav tælleaktiviteter kombineret med find objekterne gratis printables. Eksportér i gråtone tilstand for malebog farvelægning aktiviteter. Kombinér visuel scanning med farvelægning for multi-skill øvelse. Upload dine egne emne-specifikke billeder til arbejdsark til børn. Lav naturfag opgaver med dyre og plante billeder. Lav geografi opgaver med verdenskort elementer. Lav sundhed opgaver med mad og krop billeder. Kombinér find objekterne med lære bogstaver, læse og skrive øvelser, gratis arbejdsark til børnehaveklasse og finmotorik øvelser for tværfaglig læring.',
       },
     ],
   },
@@ -472,8 +525,8 @@ Pinterest marketing driver enorm trafik til lærerressource butikker. Lav iøjne
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Kombinér Find Objekterne med Andre Gratis Skoleopgaver',
-    sectionDescription: 'Lav komplette læringspakker ved at kombinere find objekterne opgaver med disse komplementære generatorer. Vores platform tilbyder 33 forskellige opgavegeneratorer alle inkluderet i dit Fuld Adgang abonnement.',
+    sectionTitle: 'Kombinér Find Objekterne med Andre Gratis Arbejdsark til Børnehaveklasse',
+    sectionDescription: 'Lav komplette læringspakker ved at kombinere find objekterne gratis arbejdsark til børn med disse komplementære generatorer. Vores platform tilbyder 33 forskellige gratis printables generatorer alle inkluderet i dit Fuld Adgang abonnement.',
     ctaTitle: 'Klar til at Lave Fantastiske Arbejdsark?',
     ctaDescription: 'Tilslut dig tusindvis af pædagoger der laver professionelle arbejdsark. Ubegrænset oprettelse, kommerciel licens inkluderet.',
     primaryCtaText: 'Start Gratis Prøve',

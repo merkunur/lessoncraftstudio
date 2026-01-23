@@ -21,6 +21,38 @@ export const skyggeMatchDaContent: ProductPageContent = {
     description: 'Skab professionelle skygge-match opgaver og billedmatchingopgaver med vores generator. Dit Fuld Adgang abonnement giver dig ubegrænset skabelse af arbejdsark uden gebyrer per opgaveark. Generer tilpassede opgaver til print perfekte til 0. klasse, børnehaveklassen og 1. klasse elever. Download opgaveark af høj kvalitet som PDF på under 3 minutter.',
     keywords: 'skygge-match, billedmatching, visuel perception, gratis skoleopgaver, arbejdsark til print, 0. klasse opgaver, 1. klasse, børnehaveklasse, kopiark, finmotorik øvelser',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/skygge-match-arbejdsark',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/shadow-match/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis skygge-match arbejdsark til børn - visuel perception til børnehaveklasse'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/shadow-match/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis printable skygge-match opgaver - finmotorik øvelser til 0. klasse'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/shadow-match/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis arbejdsark billedmatching - visuel diskrimination til 1. klasse'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/shadow-match/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis skygge-match kopiark til børnehaveklasse - visuel læring'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/shadow-match/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis opgaver visuel perception - skygge-match til børn'
+      },
+    ],
   },
 
   // Hero Section - FULL text from shadow-match.md paragraphs 1-4
@@ -34,7 +66,7 @@ Skygge-match generatoren skaber to forskellige typer visuelle perception øvelse
 Vælg mellem 3000+ børnevenlige billeder organiseret efter temaer. Upload dine egne billeder for at skabe personlige opgaver. Hver opgave inkluderer automatiske svarark. Perfekt til lærere, pædagoger og forældre, der ønsker visuelt perception arbejdsark til børn i 0. klasse gennem 3. klasse.
 
 Skygge-match opgaver understøtter finmotorik øvelser når børn tegner linjer for at matche billeder. Kombiner med andre gratis skoleopgaver for komplet læringspakker. Opgaverne er ideelle til børnehaveklassen, hvor visuel diskrimination er grundlæggende for læseforberedelse. Download og print ubegrænsede opgaver med dit Fuld Adgang abonnement.`,
-    previewImageSrc: '/samples/english/shadow match/shadow-match-worksheet.jpeg',
+    previewImageSrc: '/samples/danish/shadow-match/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Prøv Gratis',
       viewSamples: 'Se Eksempler',
@@ -55,7 +87,7 @@ Skygge-match opgaver understøtter finmotorik øvelser når børn tegner linjer 
 
   // Sample Gallery - REAL file paths from samples/english/shadow match/
   samples: {
-    sectionTitle: 'Skygge-Match Eksempler',
+    sectionTitle: 'Gratis Arbejdsark Eksempler - Skygge-Match',
     sectionDescription: 'Download gratis eksempler på arbejdsark for at se vores professionelle kvalitet',
     badgeText: 'Gratis Eksempler',
     downloadLabel: 'Download Gratis Eksempel',
@@ -69,31 +101,45 @@ Skygge-match opgaver understøtter finmotorik øvelser når børn tegner linjer 
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/shadow match/shadow-match-worksheet.jpeg',
-        answerKeySrc: '/samples/english/shadow match/shadow-match-answer-key.jpeg',
-        altText: 'Skygge-match opgaveark med visuel perception øvelse til børnehaveklasse',
-        pdfDownloadUrl: '/samples/english/shadow match/shadow-match-worksheet.pdf',
+        worksheetSrc: '/samples/danish/shadow-match/sample-1.jpeg',
+        answerKeySrc: '/samples/danish/shadow-match/sample-1-answer.jpeg',
+        altText: 'Gratis skygge-match arbejdsark til børn - visuel perception øvelse til børnehaveklasse',
+        pdfDownloadUrl: '/samples/danish/shadow-match/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/shadow match/shadow-match-horizontal.jpeg',
-        answerKeySrc: '/samples/english/shadow match/shadow-match-horizontal answer-key.jpeg',
-        altText: 'Skygge-match arbejdsark i liggende format til 1. klasse',
-        pdfDownloadUrl: '/samples/english/shadow match/shadow-match-horizontal.pdf',
+        worksheetSrc: '/samples/danish/shadow-match/sample-2.jpeg',
+        answerKeySrc: '/samples/danish/shadow-match/sample-2-answer.jpeg',
+        altText: 'Gratis printable skygge-match opgaver - finmotorik øvelser til 0. klasse',
+        pdfDownloadUrl: '/samples/danish/shadow-match/sample-2.pdf',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/shadow match/shadow-match-vertical.jpeg',
-        answerKeySrc: '/samples/english/shadow match/shadow-match-vertical answer-key.jpeg',
-        altText: 'Skygge-match kopiark i stående format til 0. klasse opgaver',
-        pdfDownloadUrl: '/samples/english/shadow match/shadow-match-vertical.pdf',
+        worksheetSrc: '/samples/danish/shadow-match/sample-3.jpeg',
+        answerKeySrc: '/samples/danish/shadow-match/sample-3-answer.jpeg',
+        altText: 'Gratis arbejdsark billedmatching - visuel diskrimination til 1. klasse',
+        pdfDownloadUrl: '/samples/danish/shadow-match/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/danish/shadow-match/sample-4.jpeg',
+        answerKeySrc: '/samples/danish/shadow-match/sample-4-answer.jpeg',
+        altText: 'Gratis skygge-match kopiark til børnehaveklasse - visuel læring opgaver',
+        pdfDownloadUrl: '/samples/danish/shadow-match/sample-4.pdf',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/danish/shadow-match/sample-5.jpeg',
+        answerKeySrc: '/samples/danish/shadow-match/sample-5-answer.jpeg',
+        altText: 'Gratis opgaver visuel perception - skygge-match arbejdsark til børn',
+        pdfDownloadUrl: '/samples/danish/shadow-match/sample-5.pdf',
       },
     ],
   },
 
   // Features Grid - FULL text from shadow-match.md feature sections
   features: {
-    sectionTitle: 'Skygge-Match Funktioner - Alt Du Behøver til Gratis Skoleopgaver og Arbejdsark til Print',
+    sectionTitle: 'Gratis Arbejdsark til Børn - Skygge-Match Funktioner til Gratis Skoleopgaver og Arbejdsark til Print',
     sectionDescription: 'Vores skygge-match generator inkluderer alle funktioner, lærere og pædagoger har brug for til at skabe professionelle opgaver til print. Ingen designerfærdigheder påkrævet. Vælg billeder, klik generer, og dit opgaveark er klar på under 3 minutter. Hver funktion er designet til at gøre skabelsen af arbejdsark hurtig og nem.',
     highlightBadgeText: 'Vigtig Funktion',
     readMoreLabel: 'Læs mere',
@@ -201,7 +247,7 @@ JPEG-eksporter fungerer godt til digitale arbejdsgange. Indsæt skygge-match opg
 
   // How-To Guide - Step by step instructions
   howTo: {
-    sectionTitle: 'Sådan Laver Du Gratis Skoleopgaver og Arbejdsark til Print i 5 Nemme Trin',
+    sectionTitle: 'Gratis Arbejdsark til Børn - Sådan Laver Du Gratis Skoleopgaver og Arbejdsark til Print i 5 Nemme Trin',
     sectionDescription: 'At skabe professionelle skygge-match opgaver tager under 3 minutter fra start til download. Følg disse fem enkle trin for at generere opgaver til print til din 0. klasse eller 1. klasse. Ingen designerfærdigheder påkrævet. Processen er den samme, hvad enten du laver matematikopgaver, malebog aktiviteter eller finmotorik øvelser.',
     ctaText: 'Start med at Skabe Nu',
     badgeText: 'Sådan Fungerer Det',
@@ -283,7 +329,7 @@ Print ubegrænsede eksemplarer af dine arbejdsark til print og kopiark. Dit Fuld
 
   // Use Cases Section
   useCases: {
-    sectionTitle: 'Perfekt til Lærere, Pædagoger og Forældre - Gratis Skoleopgaver til Alle Behov',
+    sectionTitle: 'Gratis Arbejdsark til Børnehaveklasse - Perfekt til Lærere, Pædagoger og Forældre',
     sectionDescription: 'Skygge-match opgaver tjener forskellige brugergrupper på tværs af danske uddannelsesmiljøer. Børnehaveklasse-lærere bruger dem til visuel diskrimination. Indskolingslærere integrerer dem med matematikopgaver og lære bogstaver aktiviteter. Hjemmeundervisende forældre kombinerer dem med malebog og finmotorik øvelser for varieret læring.',
     badgeText: 'Anvendelser',
     readMoreLabel: 'Læs mere',
@@ -366,7 +412,7 @@ Differentierede bundles appellerer til flere kundesegmenter. Skab 0. klasse opga
 
   // FAQ Section
   faq: {
-    sectionTitle: 'Ofte Stillede Spørgsmål om Gratis Skoleopgaver, Matematikopgaver og Finmotorik Øvelser',
+    sectionTitle: 'Gratis Arbejdsark til Børn - Ofte Stillede Spørgsmål om Skygge-Match',
     sectionDescription: 'Lærere og pædagoger har lignende spørgsmål om skygge-match generatoren. Dette FAQ afsnit adresserer almindelige spørgsmål om opgaver til print, matematikopgaver og finmotorik øvelser. Find svar på praktiske spørgsmål om abonnement, udskrivning og brug af gratis skoleopgaver i klasseværelser.',
     showMoreText: 'Vis flere spørgsmål',
     showLessText: 'Vis færre',
@@ -544,7 +590,7 @@ Literacy-integration forbinder skygge-match med læse og skrive. Brug objekter s
 
   // Related Apps Section
   relatedApps: {
-    sectionTitle: 'Kombiner Skygge-Match med Andre Arbejdsark-Generatorer',
+    sectionTitle: 'Gratis Arbejdsark - Kombiner Skygge-Match med Andre Generatorer',
     sectionDescription: 'LessonCraft Studio platformen tilbyder 33 gratis arbejdsark-generatorer inklusiv skygge-match. Kombiner forskellige opgavetyper til komplette læringspakker. Skygge-match par naturligt med læse og skrive arbejdsark, gangetabeller praksis og lære bogstaver aktiviteter. Dit Fuld Adgang abonnement giver adgang til alle generatorer.',
     ctaTitle: 'Klar til at Skabe Fantastiske Arbejdsark?',
     ctaDescription: 'Slut dig til tusindvis af pædagoger der skaber professionelle arbejdsark.',

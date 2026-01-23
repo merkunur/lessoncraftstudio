@@ -17,10 +17,42 @@ export const bildeStiDaContent: ProductPageContent = {
   seo: {
     slug: 'billedsti-arbejdsark',
     appId: 'picture-path',
-    title: 'Gratis Skoleopgaver til Print - Billedsti Generator til Matematikopgaver og Finmotorik Øvelser',
-    description: 'Lav professionelle billedsti-aktiviteter med vores visuelle labyrintgenerator. Dit Fuld Adgang abonnement giver dig ubegrænset oprettelse af opgaver til print uden ekstra gebyrer. Generer tilpassede arbejdsark perfekte til børnehaveklassen og 1. klasse elever. Download høj kvalitet PDF opgaver på under 3 minutter.',
+    title: 'Billedsti Gratis Arbejdsark - Labyrint Generator til Børnehaveklasse',
+    description: 'Lav billedsti gratis arbejdsark til børn med vores labyrint generator. Download gratis printables som PDF. Arbejdsark til børnehaveklasse på 3 minutter!',
     keywords: 'billedsti, labyrint, matematikopgaver, gratis skoleopgaver, arbejdsark til print, 0. klasse opgaver, 1. klasse, finmotorik øvelser, børnehaveklassen, kopiark, visuelt læringsarbejde',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/billedsti-arbejdsark',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/picture-path/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Billedsti gratis arbejdsark - labyrint arbejdsark til børn for børnehaveklasse'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/picture-path/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis arbejdsark billedsti - klassisk labyrint arbejdsark til børnehaveklasse'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/picture-path/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Billedsti arbejdsark til børn - vælg rigtig vej gratis printables for 0. klasse'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/picture-path/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Arbejdsark til børnehaveklasse billedsti - labyrint gratis arbejdsark'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/picture-path/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis printables billedsti - arbejdsark til børn med finmotorik for 1. klasse'
+      },
+    ],
   },
 
   // Hero Section - FULL text from picture-path.md paragraphs 1-4
@@ -34,7 +66,7 @@ Billedsti-generatoren kombinerer tre forskellige labyrint-typer i ét værktøj.
 Værktøjet er ideelt til pædagoger i børnehaveklassen og lærere i indskolingen. Kombiner labyrintopgaver med matematikopgaver, lære bogstaver aktiviteter og farvelægning. Brug 3000+ børnevenlige billeder fra biblioteket. Upload dine egne billeder til personlige opgaver. Skab malebog-aktiviteter og finmotorik øvelser på få minutter.
 
 Hver billedsti downloades som professionel 300 DPI PDF. Ideel til print derhjemme eller i skolen. Tilpas baggrunde, farver og vanskelighed. Rediger alt på lærredet med træk og slip. Perfekt til gratis skoleopgaver, matematikopgaver og arbejdsark til print for børnehaveklassen og 1. klasse.`,
-    previewImageSrc: '/samples/english/picture path/picture path.jpeg',
+    previewImageSrc: '/samples/danish/picture-path/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Prøv Gratis',
       viewSamples: 'Se Eksempler',
@@ -55,7 +87,7 @@ Hver billedsti downloades som professionel 300 DPI PDF. Ideel til print derhjemm
 
   // Sample Gallery - REAL file paths from samples/english/picture path/
   samples: {
-    sectionTitle: 'Billedsti Eksempler',
+    sectionTitle: 'Gratis Arbejdsark Eksempler - Billedsti til Børn',
     sectionDescription: 'Download gratis eksempler på arbejdsark for at se vores professionelle kvalitet',
     badgeText: 'Gratis Eksempler',
     downloadLabel: 'Download Gratis Eksempel',
@@ -69,31 +101,45 @@ Hver billedsti downloades som professionel 300 DPI PDF. Ideel til print derhjemm
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/picture path/picture path.jpeg',
-        answerKeySrc: '/samples/english/picture path/picture path answer_key.jpeg',
-        altText: 'Billedsti arbejdsark med visuel labyrint til børnehaveklassen',
-        pdfDownloadUrl: '/samples/english/picture path/picture path.pdf',
+        worksheetSrc: '/samples/danish/picture-path/sample-1.jpeg',
+        answerKeySrc: '/samples/danish/picture-path/sample-1-answer.jpeg',
+        altText: 'Billedsti gratis arbejdsark - visuel labyrint arbejdsark til børn for børnehaveklasse med finmotorik',
+        pdfDownloadUrl: '/samples/danish/picture-path/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/picture path/classic maze.jpeg',
-        answerKeySrc: '/samples/english/picture path/classic maze answer_key.jpeg',
-        altText: 'Klassisk labyrint arbejdsark med billeder langs løsningsstien',
-        pdfDownloadUrl: '/samples/english/picture path/classic maze.pdf',
+        worksheetSrc: '/samples/danish/picture-path/sample-2.jpeg',
+        answerKeySrc: '/samples/danish/picture-path/sample-2-answer.jpeg',
+        altText: 'Gratis arbejdsark billedsti - klassisk labyrint arbejdsark til børnehaveklasse med billeder',
+        pdfDownloadUrl: '/samples/danish/picture-path/sample-2.pdf',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/picture path/right path.jpeg',
-        answerKeySrc: '/samples/english/picture path/right path answer_key.jpeg',
-        altText: 'Vælg den rigtige vej arbejdsark med flere stier',
-        pdfDownloadUrl: '/samples/english/picture path/right path.pdf',
+        worksheetSrc: '/samples/danish/picture-path/sample-3.jpeg',
+        answerKeySrc: '/samples/danish/picture-path/sample-3-answer.jpeg',
+        altText: 'Billedsti arbejdsark til børn - vælg rigtig vej gratis printables for 0. klasse',
+        pdfDownloadUrl: '/samples/danish/picture-path/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/danish/picture-path/sample-4.jpeg',
+        answerKeySrc: '/samples/danish/picture-path/sample-4-answer.jpeg',
+        altText: 'Arbejdsark til børnehaveklasse billedsti - labyrint gratis arbejdsark med mønsteropgaver',
+        pdfDownloadUrl: '/samples/danish/picture-path/sample-4.pdf',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/danish/picture-path/sample-5.jpeg',
+        answerKeySrc: '/samples/danish/picture-path/sample-5-answer.jpeg',
+        altText: 'Gratis printables billedsti - arbejdsark til børn med finmotorik øvelser for 1. klasse',
+        pdfDownloadUrl: '/samples/danish/picture-path/sample-5.pdf',
       },
     ],
   },
 
   // Features Grid - FULL text from picture-path.md feature sections
   features: {
-    sectionTitle: 'Funktioner i Billedsti Generator – Alt Du Skal Bruge til Arbejdsark',
+    sectionTitle: 'Gratis Arbejdsark Funktioner - Billedsti Arbejdsark til Børn',
     sectionDescription: 'Billedsti-generatoren giver dig alle værktøjer til at lave professionelle opgaver til print. Kombiner matematikopgaver med visuelle labyrinter. Lav finmotorik øvelser og farvelægning i samme aktivitet. Opret gratis skoleopgaver med 3000+ billeder. Dit Fuld Adgang abonnement inkluderer alt du behøver.',
     highlightBadgeText: 'Vigtig Funktion',
     readMoreLabel: 'Læs mere',
@@ -213,7 +259,7 @@ Zoom-kontroller viser detaljer. Zoom ind for præcis placering. Zoom ud for helh
 
   // How-To Guide - FULL text from picture-path.md step sections
   howTo: {
-    sectionTitle: 'Lav Gratis Skoleopgaver i 5 Nemme Trin',
+    sectionTitle: 'Lav Gratis Arbejdsark i 5 Nemme Trin - Arbejdsark til Børn',
     sectionDescription: 'Opret professionelle billedsti-opgaver på under 3 minutter. Ingen designerfærdigheder nødvendige. Bare vælg, tilpas, generer, rediger og download. Dit Fuld Adgang abonnement giver ubegrænset adgang til alle funktioner.',
     ctaText: 'Start Nu',
     badgeText: 'Sådan Virker Det',
@@ -305,7 +351,7 @@ Gem filer til senere brug. Opbyg bibliotek af opgaver til print organiseret efte
 
   // Use Cases - FULL text from picture-path.md use case sections
   useCases: {
-    sectionTitle: 'Perfekt til Pædagoger, Lærere og Forældre',
+    sectionTitle: 'Gratis Arbejdsark til Børn - Perfekt til Pædagoger og Forældre',
     sectionDescription: 'Billedsti-generatoren fungerer til mange brugertyper. Pædagoger i børnehaveklassen bruger det dagligt. Lærere i 1. klasse og 2. klasse elsker det. Hjemmeundervisnings-forældre sparer timer. Specialpædagoger tilpasser nemt. Lærer-entreprenører sælger deres kreationer.',
     badgeText: 'Hvem Er Det Til',
     readMoreLabel: 'Læs mere',
@@ -420,7 +466,7 @@ Mange danske lærere tjener 5.000-25.000 kr månedligt. Nogle tjener meget mere.
 
   // FAQ Section - Selected FAQs from picture-path.md
   faq: {
-    sectionTitle: 'Ofte Stillede Spørgsmål',
+    sectionTitle: 'Gratis Arbejdsark FAQ - Ofte Stillede Spørgsmål om Billedsti',
     sectionDescription: 'Her er svar på de mest almindelige spørgsmål om billedsti-generatoren. Lær om muligheder, abonnementer og hvordan du bruger opgaver til print i din undervisning.',
     showMoreText: 'Vis flere spørgsmål',
     showLessText: 'Vis færre',

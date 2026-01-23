@@ -19,6 +19,38 @@ export const wordSearchSvContent: ProductPageContent = {
     description: 'Skapa professionella ordletarpussel med vår gratis ordletare generator. Perfekt för förskoleklass material och lågstadiet. Ladda ner arbetsblad gratis som högkvalitativa PDF-filer på under tre minuter.',
     keywords: 'ordletare generator, arbetsblad gratis, förskoleklass material, matematik arbetsblad, ordletarpussel, gratis arbetsblad, lågstadiet, bokstäver lära sig, skriva bokstäver, målarbilder barn',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/ordletar-arbetsblad',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/wordsearch/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Ordletarpussel arbetsblad gratis för förskoleklass - svensk ordjaktsövning'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/wordsearch/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis ordletare arbetsblad för barn - ordförråd övning för lågstadiet'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/wordsearch/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Svenska ordletarpussel - gratis utskrifter för förskoleklass material'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/wordsearch/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Ordletare arbetsblad för barn gratis - finmotorik övningar på svenska'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/wordsearch/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis arbetsblad ordjakts generator - förskoleklass och lågstadiet'
+      },
+    ],
   },
 
   // Hero Section - FULL text from wordsearch.md paragraphs 1-4
@@ -30,7 +62,7 @@ export const wordSearchSvContent: ProductPageContent = {
 Vår ordletare generator gör det enkelt att skapa anpassade arbetsblad. Perfekt för förskoleklass material och lågstadiet. Välj mellan över 3000 barnvänliga bilder organiserade efter tema. Kombinera matematik arbetsblad med ordletarpussel för komplett inlärning. Skapa pussel för att öva bokstäver lära sig och skriva bokstäver.
 
 Generatorn stöder elev material för alla åldrar. Använd den för att skapa matte övningar med ordletarformat. Lägg till målarbilder barn kan använda efter att ha löst pusslet. Varje arbetsblad kan anpassas helt och hållet på canvas. Dra, rotera och ändra storlek på alla element tills det är perfekt. Arbetsbladen är professionella och lättutskrivbara.`,
-    previewImageSrc: '/samples/english/wordsearch/wordsearch portrait.jpeg',
+    previewImageSrc: '/samples/swedish/wordsearch/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Prova Gratis',
       viewSamples: 'Visa Exempel',
@@ -49,7 +81,7 @@ Generatorn stöder elev material för alla åldrar. Använd den för att skapa m
     },
   },
 
-  // Sample Gallery - REAL file paths from samples/english/wordsearch/
+  // Sample Gallery - REAL file paths from samples/swedish/wordsearch/
   samples: {
     sectionTitle: 'Ordletare Arbetsblad Exempel',
     sectionDescription: 'Ladda ner gratis exempelarbetsblad för att se vår professionella kvalitet',
@@ -65,24 +97,38 @@ Generatorn stöder elev material för alla åldrar. Använd den för att skapa m
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/wordsearch/wordsearch portrait.jpeg',
-        answerKeySrc: '/samples/english/wordsearch/wordsearch portrait answer_key.jpeg',
-        altText: 'Ordletarpussel i porträttformat med tematiska bilder för förskoleklass ordförrådsträning',
-        pdfDownloadUrl: '/samples/english/wordsearch/wordsearch portrait.pdf',
+        worksheetSrc: '/samples/swedish/wordsearch/sample-1.jpeg',
+        answerKeySrc: '/samples/swedish/wordsearch/sample-1-answer.jpeg',
+        altText: 'Ordletarpussel arbetsblad gratis - ordjaktsövning för förskoleklass på svenska',
+        pdfDownloadUrl: '/samples/swedish/wordsearch/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/wordsearch/wordsearch landscape.jpeg',
-        answerKeySrc: '/samples/english/wordsearch/wordsearch landscape answer_key.jpeg',
-        altText: 'Ordletare arbetsblad i landskapsformat med färgglada bildledtrådar för lågstadiet',
-        pdfDownloadUrl: '/samples/english/wordsearch/wordsearch landscape.pdf',
+        worksheetSrc: '/samples/swedish/wordsearch/sample-2.jpeg',
+        answerKeySrc: '/samples/swedish/wordsearch/sample-2-answer.jpeg',
+        altText: 'Gratis ordletare arbetsblad för barn - ordförråd övning för lågstadiet',
+        pdfDownloadUrl: '/samples/swedish/wordsearch/sample-2.pdf',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/wordsearch/custom word list.jpeg',
-        answerKeySrc: '/samples/english/wordsearch/custom word list answer_key.jpeg',
-        altText: 'Anpassad ordlista ordletare för stavningsträning och ordförråd',
-        pdfDownloadUrl: '/samples/english/wordsearch/custom word list.pdf',
+        worksheetSrc: '/samples/swedish/wordsearch/sample-3.jpeg',
+        answerKeySrc: '/samples/swedish/wordsearch/sample-3-answer.jpeg',
+        altText: 'Ordletare arbetsblad för förskoleklass - gratis utskrifter för svenska klassrum',
+        pdfDownloadUrl: '/samples/swedish/wordsearch/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/swedish/wordsearch/sample-4.jpeg',
+        answerKeySrc: '/samples/swedish/wordsearch/sample-4-answer.jpeg',
+        altText: 'Svenska ordletarpussel arbetsblad gratis för barn - finmotorik övningar',
+        pdfDownloadUrl: '/samples/swedish/wordsearch/sample-4.pdf',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/swedish/wordsearch/sample-5.jpeg',
+        answerKeySrc: '/samples/swedish/wordsearch/sample-5-answer.jpeg',
+        altText: 'Gratis arbetsblad ordletare för förskoleklass material och ordförråd',
+        pdfDownloadUrl: '/samples/swedish/wordsearch/sample-5.pdf',
       },
     ],
   },

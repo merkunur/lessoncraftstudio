@@ -19,6 +19,32 @@ export const pictureBingoSvContent: ProductPageContent = {
     description: 'Skapa professionella bildlottokort med vår bildlotto generator. Perfekt för förskoleklass material och lågstadiet. Ladda ner arbetsblad gratis som högkvalitativa PDF-filer på under 3 minuter.',
     keywords: 'bildlotto generator, arbetsblad gratis, förskoleklass material, matematik arbetsblad, bildlottokort, gratis arbetsblad, lågstadiet, bokstäver lära sig, siffror och tal, målarbilder barn',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/bildlotto-arbetsblad',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/bingo/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis arbetsblad bildlotto för barn - färgglada bingokort för förskoleklass och lågstadiet'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/bingo/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Bildlotto arbetsblad gratis för förskoleklass - professionella bingokort med bilder för visuellt lärande'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/bingo/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Arbetsblad för barn bildlotto - gratis utskrifter med uppropskort för matematik arbetsblad'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/bingo/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis bildlotto arbetsblad för förskoleklass - pedagogiskt material med bingokort för klassrummet'
+      }
+    ],
   },
 
   // Hero Section - FULL text from picture-bingo.md paragraphs 1-3
@@ -30,7 +56,7 @@ export const pictureBingoSvContent: ProductPageContent = {
 Bildlotto är ett klassiskt klassrumsspel för att lära barn siffror och tal, bokstäver, och visuell igenkänning. Vår generator skapar unika bingobrickor för varje elev och matchande uppropskort för läraren. Perfekt för matematik arbetsblad, finmotorik övningar, och språkinlärning. Varje bildlotto-arbetsblad är helt redigerbart efter generering.
 
 Använd bildlotto generator för förskoleklass material, lågstadiet aktiviteter, och hemundervisning. Kombinera med våra andra arbetsblad gratis - matematik arbetsblad för addition och subtraktion, målarbilder barn för kreativa pauser, och bokstäver lära sig för läsinlärning. Grundpaketet-prenumerationen inkluderar alla nödvändiga verktyg för moderna lärare som behöver varierade arbetsblad gratis.`,
-    previewImageSrc: '/samples/english/bingo/image and image.jpeg',
+    previewImageSrc: '/samples/swedish/bingo/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Prova Gratis',
       viewSamples: 'Visa Exempel',
@@ -49,9 +75,9 @@ Använd bildlotto generator för förskoleklass material, lågstadiet aktivitete
     },
   },
 
-  // Sample Gallery - REAL file paths from samples/english/bingo/
+  // Sample Gallery - REAL file paths from samples/swedish/bingo/
   samples: {
-    sectionTitle: 'Bildlotto Arbetsblad Exempel',
+    sectionTitle: 'Gratis Arbetsblad Exempel - Bildlotto för Barn att Ladda Ner',
     sectionDescription: 'Ladda ner gratis exempelarbetsblad för att se vår professionella kvalitet',
     downloadLabel: 'Ladda Ner Gratis Exempel',
     worksheetLabel: 'Arbetsblad',
@@ -65,17 +91,31 @@ Använd bildlotto generator för förskoleklass material, lågstadiet aktivitete
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/bingo/image and image.jpeg',
-        answerKeySrc: '/samples/english/bingo/image and image callout.jpeg',
-        altText: 'Bildlottokort med färgglada bilder för förskoleklass visuellt lärande',
-        pdfDownloadUrl: '/samples/english/bingo/image and image.pdf',
+        worksheetSrc: '/samples/swedish/bingo/sample-1.jpeg',
+        answerKeySrc: '/samples/swedish/bingo/sample-1-answer.jpeg',
+        altText: 'Bildlotto arbetsblad gratis för barn - färgglada bilder för förskoleklass visuellt lärande',
+        pdfDownloadUrl: '/samples/swedish/bingo/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/bingo/image and word.jpeg',
-        answerKeySrc: '/samples/english/bingo/image and word callout.jpeg',
-        altText: 'Bildlottokort med bilder och ordlabels för läsövning och språkinlärning',
-        pdfDownloadUrl: '/samples/english/bingo/image and word.pdf',
+        worksheetSrc: '/samples/swedish/bingo/sample-2.jpeg',
+        answerKeySrc: '/samples/swedish/bingo/sample-2-answer.jpeg',
+        altText: 'Gratis arbetsblad bildlotto för förskoleklass - bingokort med bilder för barn',
+        pdfDownloadUrl: '/samples/swedish/bingo/sample-2.pdf',
+      },
+      {
+        id: '3',
+        worksheetSrc: '/samples/swedish/bingo/sample-3.jpeg',
+        answerKeySrc: '/samples/swedish/bingo/sample-3-answer.jpeg',
+        altText: 'Arbetsblad för barn bildlotto - gratis utskrifter med uppropskort för lågstadiet',
+        pdfDownloadUrl: '/samples/swedish/bingo/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/swedish/bingo/sample-4.jpeg',
+        answerKeySrc: '/samples/swedish/bingo/sample-4-answer.jpeg',
+        altText: 'Gratis bildlotto arbetsblad för förskoleklass - professionella bingokort för klassrummet',
+        pdfDownloadUrl: '/samples/swedish/bingo/sample-4.pdf',
       },
     ],
   },
@@ -97,7 +137,7 @@ Använd bildlotto generator för förskoleklass material, lågstadiet aktivitete
       {
         id: '1',
         icon: '⚡',
-        title: 'Skapa Bildlotto Arbetsblad på 3 Klick',
+        title: 'Skapa Gratis Arbetsblad för Barn på 3 Klick - Bildlotto Generator',
         description: `Bildlotto generator är otroligt enkel att använda. Välj först tema från vårt bildbibliotek eller ladda upp egna bilder. Välj sedan rutornsstorlek mellan 3x3 och 5x5 rutor. Klicka på Generera och dina bildlottokort är klara. Hela processen tar under 3 minuter från start till färdig PDF.
 
 Generera 1-10 unika bildlottokort samtidigt. Varje kort har olika bildplacering så inga två elever får samma kort. Perfekt för matematik arbetsblad med siffror och tal eller finmotorik övningar med bildigenkänning. Välj mellan bildbaserade kort eller ordbaserade kort för bokstäver lära sig. Systemet skapar automatiskt matchande uppropskort för läraren.`,
@@ -117,7 +157,7 @@ Använd canvasredigering för matematik arbetsblad med siffror och tal. Lägg ti
       {
         id: '3',
         icon: '📤',
-        title: 'Ladda Upp Egna Bilder för Personliga Arbetsblad',
+        title: 'Ladda Upp Egna Bilder för Gratis Utskrifter - Arbetsblad för Förskoleklass',
         description: `Multi-filuppladdning låter dig ladda upp flera bilder samtidigt. Använd foton av dina elever för personliga bildlottokort. Ladda upp klassrumsföremål för ordkunskapsövningar. Kombinera egna bilder med vårt bibliotek med 3000+ bilder.
 
 Uppladdade bilder fungerar perfekt för bokstäver lära sig med fonetikbilder. Skapa bildlotto för bokstavsljud med dina egna exempel. Använd målarbilder barn som elever färglagt tidigare i terminen. Gör bildlotto med elevernas favoritkaraktärer eller intressen.
@@ -161,7 +201,7 @@ Välj tema för snabb bildlottoskapande eller bläddra genom alla bilder. Klicka
       {
         id: '7',
         icon: '🖨️',
-        title: 'Professionell 300 DPI Kvalitet',
+        title: 'Professionell 300 DPI Kvalitet - Gratis Arbetsblad för Barn',
         description: `Alla nedladdningar exporteras i professionell 300 DPI-upplösning. Detta garanterar skarpa utskrifter på alla skrivare. Perfekt för hemutskrift på vanliga kontorsskrivare. Professionell kvalitet för försäljning på Teachers Pay Teachers och Etsy.
 
 Välj mellan JPEG och PDF-format. JPEG för snabba förhandsvisningar och digital användning. PDF för perfekt utskriftsqualitet och multipelsidiga dokument. Båda formaten behåller 300 DPI-kvaliteten för arbetsblad gratis.
@@ -174,7 +214,7 @@ Gråskaleläge sparar bläck vid utskrift. Ett klick konverterar färgbilder til
 
   // How-To Guide - FULL text from picture-bingo.md Step sections
   howTo: {
-    sectionTitle: 'Hur Man Skapar Bildlotto Arbetsblad i 5 Enkla Steg',
+    sectionTitle: 'Hur Man Skapar Gratis Arbetsblad för Barn - Bildlotto i 5 Enkla Steg',
     sectionDescription: 'Skapa professionella bildlottokort på under 3 minuter. Processen är enkel och kräver ingen designerfarenhet. Följ dessa 5 steg för att generera arbetsblad gratis perfekta för förskoleklass material och lågstadiet. Varje steg tar bara sekunder och ger dig fullständig kontroll över dina matematik arbetsblad och finmotorik övningar. Grundpaketet-prenumerationen ger obegränsad tillgång till bildlotto generator.',
     ctaText: 'Börja Skapa Nu',
     badgeText: 'Så Fungerar Det',
@@ -254,7 +294,7 @@ Filerna sparas på din dator. Skriv ut direkt från PDF-läsaren. Laminera korte
 
   // Use Cases - FULL descriptions from picture-bingo.md persona sections
   useCases: {
-    sectionTitle: 'Perfekt för Lärare, Föräldrar och Pedagoger',
+    sectionTitle: 'Gratis Arbetsblad för Barn - Perfekt för Lärare, Föräldrar och Pedagoger',
     sectionDescription: 'Bildlotto generator passar alla som undervisar barn. Förskoleklass pedagoger, lågstadielärare, hemundervisande föräldrar och specialpedagoger använder våra arbetsblad gratis dagligen. Varje användargrupp hittar unika fördelar med bildlotto för sina specifika behov. Grundpaketet-prenumerationen ger tillgång till alla verktyg för att skapa engagerande förskoleklass material och matematik arbetsblad.',
     badgeText: 'Vem Det Är För',
     readMoreLabel: 'Läs mer',
@@ -264,7 +304,7 @@ Filerna sparas på din dator. Skriv ut direkt från PDF-läsaren. Laminera korte
         id: '1',
         icon: '👶',
         title: 'Förskoleklass Pedagoger',
-        subtitle: 'Siffror och Tal samt Bokstäver Lära Sig med Finmotorik Övningar',
+        subtitle: 'Gratis Arbetsblad för Barn - Siffror, Bokstäver och Finmotorik Övningar',
         description: `Förskoleklass pedagoger använder bildlotto för tidig läs- och skrivutveckling. Skapa bildlottokort med bokstäver för att lära barn alfabetet. Använd bilder som börjar på specifika bokstavsljud för fonetikövningar. Kombinera bokstäver lära sig med bildmatchning för multi-sensorisk inlärning.
 
 Siffror och tal-bildlotto hjälper barn lära sig räkna. Använd bilder med olika kvantiteter - en äpple, två bananer, tre bilar. Barn räknar objekt på bildlottokorten och utvecklar taluppfattning. Perfekt för förskoleklass material som bygger matematikunderlaget.
@@ -292,7 +332,7 @@ Ordkunskap och stavning övas med ordbaserade bildlottokort. Använd veckans sta
         id: '3',
         icon: '🏠',
         title: 'Hemundervisande Föräldrar',
-        subtitle: 'Flexibla Arbetsblad Gratis för Alla Ämnen och Åldrar',
+        subtitle: 'Gratis Utskrifter och Arbetsblad för Barn i Alla Ämnen och Åldrar',
         description: `Hemundervisande föräldrar älskar bildlotto för dess mångsidighet. Skapa arbetsblad gratis för flera barn i olika åldrar samtidigt. Yngre syskon får 3x3-bildlotto med enkla bilder. Äldre barn får 5x5-rutnät med komplexa koncept. Alla spelar tillsammans med olika svårighetsgrad.
 
 Använd bildlotto för alla ämnen. Naturvetenskap-bildlotto med djur, växter och kroppsdelar. Historia-bildlotto med historiska figurer och händelser. Geografi-bildlotto med länder, flaggor och huvudstäder. Ett verktyg för obegränsade läromoment.
@@ -306,7 +346,7 @@ Hemundervisare sparar enormt med tid med Grundpaketet-prenumerationen. Istället
         id: '4',
         icon: '🌍',
         title: 'ESL och Språklärare',
-        subtitle: 'Flerspråkiga Arbetsblad Gratis för Bokstäver Lära Sig',
+        subtitle: 'Gratis Arbetsblad för Förskoleklass - Flerspråkigt Bokstäver Lärande',
         description: `ESL-lärare använder bildlotto för ordkunskap och uttalsövning. Välj bildbiblioteksspråk baserat på målspråk. Svenska barn som lär sig engelska får bildlotto på engelska. Engelska barn som lär sig svenska får svenska bildnamn. 11 språk ger maximal flexibilitet.
 
 Skapa bildlotto för specifika ordklasser. Verb-bildlotto visar handlingar (spring, hoppa, simma). Adjektiv-bildlotto visar egenskaper (stor, liten, röd, blå). Substantiv-bildlotto fokuserar på objekt. Bokstäver lära sig kombineras med ordbyggnad.
@@ -349,7 +389,7 @@ Svenska lärare tjänar 3000-30000 kr/månad på Teachers Pay Teachers. Bildlott
 
   // FAQ Section - ALL questions from picture-bingo.md
   faq: {
-    sectionTitle: 'Vanliga Frågor',
+    sectionTitle: 'Vanliga Frågor om Gratis Arbetsblad - Bildlotto för Förskoleklass',
     sectionDescription: 'Svenska lärare ställer ofta samma frågor om bildlotto generator. Här är de vanligaste frågorna med detaljerade svar. Lär dig hur bildlotto fungerar för multiplikationstabellen, klockan lära sig, addition och subtraktion, bokstäver lära sig och mer. Grundpaketet-prenumerationen täcker alla användningsområden.',
     showMoreText: 'Visa fler frågor',
     showLessText: 'Visa färre',
@@ -381,12 +421,12 @@ Svenska lärare tjänar 3000-30000 kr/månad på Teachers Pay Teachers. Bildlott
       },
       {
         id: '5',
-        question: 'Vilka Åldrar Fungerar Bäst med Bildlotto Arbetsblad?',
+        question: 'Vilka Åldrar Fungerar Bäst med Gratis Arbetsblad för Barn - Bildlotto?',
         answer: 'Bildlotto arbetsblad fungerar utmärkt för barn från 4 till 12 år. Förskoleklass material för barn 5-6 år använder 3x3 rutnät med enkla bilder. Lågstadie material för årskurs 1-3 använder 4x4 rutnät. Äldre barn i årskurs 4-6 kan lösa svårare 5x5 bildlotto. Justera svårighetsgrad genom rutnätsstorlek och bildval. Yngre barn använder bildbaserade kort medan äldre elever kan hantera ordbaserade kort för bokstäver lära sig övningar.',
       },
       {
         id: '6',
-        question: 'Kan Jag Sälja Mina Bildlotto Arbetsblad på Teachers Pay Teachers?',
+        question: 'Kan Jag Sälja Mina Gratis Arbetsblad på Teachers Pay Teachers?',
         answer: 'Ja, med Grundpaketet-prenumerationen kan du sälja alla arbetsblad du skapar. Grundpaketet inkluderar full kommersiell print-on-demand licens utan extra kostnad. Konkurrenter tar 800-1500 kr/år extra för kommersiella rättigheter. Ingen attribution krävs på sålda produkter - bildlottokorten är helt dina. Skapa tematiska bildlottopaket (höst, vinter, jul) och sälj på Teachers Pay Teachers, Etsy eller Amazon KDP. Svenska lärare rapporterar intäkter på 3000-30000 kr/månad.',
       },
       {
@@ -396,7 +436,7 @@ Svenska lärare tjänar 3000-30000 kr/månad på Teachers Pay Teachers. Bildlott
       },
       {
         id: '8',
-        question: 'Hur Lång Tid Tar Det att Skapa Bildlotto Arbetsblad?',
+        question: 'Hur Lång Tid Tar Det att Skapa Gratis Arbetsblad för Barn?',
         answer: 'Tre minuter från start till färdigt arbetsblad. Detta inkluderar bildval, generering och nedladdning. Mycket snabbare än traditionell skapelse som tar 30-60 minuter. 95% tidsbesparing för varje arbetsblad du skapar med generatorn. Lärare som skapar flera unika kort för helklassaktiviteter lägger till 1 minut för att generatorn ska skapa 10 unika kort istället för bara 1. Jämför detta med traditionell bildlottoskapande som kräver bildhantering, rutnätsdesign och formatering.',
       },
       {
@@ -406,17 +446,17 @@ Svenska lärare tjänar 3000-30000 kr/månad på Teachers Pay Teachers. Bildlott
       },
       {
         id: '10',
-        question: 'Kan Jag Skriva Ut Bildlotto på Min Hemskrivare?',
+        question: 'Kan Jag Skriva Ut Gratis Utskrifter - Bildlotto på Min Hemskrivare?',
         answer: 'Ja, alla bildlotto arbetsblad fungerar perfekt på standard hem- och klassrumsskrivare. Ladda ner dina bildlottokort som PDF-filer för bästa utskriftskvalitet. Använd A4-papper för europeiska lärare. Våra arbetsblad exporteras i 300 DPI-upplösning vilket garanterar skarpa bilder även på vanliga bläckstråleskrivare. Aktivera gråskaleläge innan nedladdning för att konvertera färgglada arbetsblad till svartvitt och spara dyrt färgbläck vid utskrift av klassupplagor.',
       },
       {
         id: '11',
-        question: 'Behöver Jag Designkunskaper för att Skapa Bildlotto?',
+        question: 'Behöver Jag Designkunskaper för Gratis Arbetsblad för Förskoleklass?',
         answer: 'Nej, inga designkunskaper behövs överhuvudtaget. Generatorn hanterar allt designarbete automatiskt. Klicka, välj bilder, klicka generera. Ditt arbetsblad är klart på tre minuter. Allt tekniskt arbete sker automatiskt bakom kulisserna. Lärare som aldrig använt designprogram skapar vackra förskoleklass arbetsblad på under 3 minuter. Gränssnittet fungerar som att fylla i ett enkelt formulär med rullmenyer och nummerfält.',
       },
       {
         id: '12',
-        question: 'Kan Jag Ladda Upp Egna Bilder till Bildlotto?',
+        question: 'Kan Jag Ladda Upp Egna Bilder till Arbetsblad för Barn?',
         answer: 'Ja, bilduppladdning är en kraftfull funktion. Ladda upp egna bilder för helt personliga bildlottokort. Stöder alla vanliga format som JPEG, PNG och GIF. Ladda upp flera filer samtidigt med flerfilsuppladdning. Kombinera uppladdade bilder med biblioteksbilder i samma bildlotto. Lärare laddar upp klassrumsfoto för relevant ordförråd, familjebilder för namnigenkänning, eller kursspecifika bilder för tematiska enheter.',
       },
     ],
@@ -454,7 +494,7 @@ Svenska lärare tjänar 3000-30000 kr/månad på Teachers Pay Teachers. Bildlott
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Kombinera med Andra Arbetsblad Generatorer',
+    sectionTitle: 'Gratis Arbetsblad Generatorer - Kombinera med Andra Verktyg för Barn',
     sectionDescription: 'Skapa kompletta lärpaket genom att kombinera bildlotto arbetsblad med dessa kompletterande generatorer.',
     ctaTitle: 'Redo att Skapa Fantastiska Arbetsblad?',
     ctaDescription: 'Gå med tusentals lärare som skapar professionella arbetsblad. Obegränsad generering, kommersiell licens ingår.',

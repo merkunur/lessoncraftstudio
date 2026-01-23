@@ -19,6 +19,32 @@ export const bigSmallSvContent: ProductPageContent = {
     description: 'Skapa professionella arbetsblad för att lära barn skilja på stort och litet. Generera anpassade matematik arbetsblad för storleksjämförelse på under 3 minuter. Ladda ner högkvalitativa PDF-filer för förskoleklass material och matte övningar.',
     keywords: 'arbetsblad gratis, stort och litet, storleksjämförelse, förskoleklass material, matematik arbetsblad, matte övningar, finmotorik övningar, målarbilder barn, siffror och tal',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/stort-litet-arbetsblad',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/big-small/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis arbetsblad stort och litet - storleksjämförelse förskoleklass material',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/big-small/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Arbetsblad gratis för barn - matematik arbetsblad storleksövningar',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/big-small/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Förskoleklass material gratis - stort och litet matte övningar',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/big-small/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis utskrifter storleksjämförelse - arbetsblad för förskoleklass',
+      },
+    ],
   },
 
   // Hero Section - FULL text from big-small.md paragraphs 1-4
@@ -32,7 +58,7 @@ Storleksjämförelseövningar är grundläggande för barns kognitiva utveckling
 Arbetsblad för storleksjämförelse passar perfekt för förskoleklass material och lågstadiet. Från 6-åringar i förskoleklassen till elever i årskurs 3 lär sig barn att skilja på stort och litet. Dessa matte övningar utvecklar observationsförmåga och visuell diskriminering genom praktiska matematik arbetsblad.
 
 Förskoleklass material fokuserar på grundläggande storleksbegrepp. Elever i årskurs 1-3 fortsätter att befästa sina kunskaper om storlekar. Varje arbetsblad gratis innehåller tydliga och attraktiva bilder som håller barnens uppmärksamhet under matte övningar.`,
-    previewImageSrc: '/samples/english/big small/big-small-different images.jpeg',
+    previewImageSrc: '/samples/swedish/big-small/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Prova Gratis',
       viewSamples: 'Visa Exempel',
@@ -51,7 +77,7 @@ Förskoleklass material fokuserar på grundläggande storleksbegrepp. Elever i �
     },
   },
 
-  // Sample Gallery - REAL file paths from samples/english/big small/
+  // Sample Gallery - REAL file paths from samples/swedish/big-small/
   samples: {
     sectionTitle: 'Storleksjämförelsearbetsblad Exempel',
     sectionDescription: 'Ladda ner gratis exempelarbetsblad för att se vår professionella kvalitet',
@@ -67,24 +93,31 @@ Förskoleklass material fokuserar på grundläggande storleksbegrepp. Elever i �
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/big small/big-small-different images.jpeg',
-        answerKeySrc: '/samples/english/big small/big-small-different images answer_key.jpeg',
-        altText: 'Storleksjämförelsearbetsblad med olika bilder för förskoleklass',
-        pdfDownloadUrl: '/samples/english/big small/big-small-different images.pdf',
+        worksheetSrc: '/samples/swedish/big-small/sample-1.jpeg',
+        answerKeySrc: '/samples/swedish/big-small/sample-1-answer.jpeg',
+        altText: 'Gratis arbetsblad stort och litet - storleksjämförelse för förskoleklass material',
+        pdfDownloadUrl: '/samples/swedish/big-small/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/big small/big-small identical images.jpeg',
-        answerKeySrc: '/samples/english/big small/big-small identical images answer_key.jpeg',
-        altText: 'Storleksjämförelsearbetsblad med identiska bilder för lågstadiet',
-        pdfDownloadUrl: '/samples/english/big small/big-small identical images.pdf',
+        worksheetSrc: '/samples/swedish/big-small/sample-2.jpeg',
+        answerKeySrc: '/samples/swedish/big-small/sample-2-answer.jpeg',
+        altText: 'Arbetsblad gratis för barn - matematik arbetsblad med storleksövningar',
+        pdfDownloadUrl: '/samples/swedish/big-small/sample-2.pdf',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/big small/big-small number 1-2-3.jpeg',
-        answerKeySrc: '/samples/english/big small/big-small number 1-2-3 answer_key.jpeg',
-        altText: 'Storleksordningsarbetsblad med nummer 1-2-3 för siffror och tal',
-        pdfDownloadUrl: '/samples/english/big small/big-small number 1-2-3.pdf',
+        worksheetSrc: '/samples/swedish/big-small/sample-3.jpeg',
+        answerKeySrc: '/samples/swedish/big-small/sample-3-answer.jpeg',
+        altText: 'Förskoleklass material gratis - stort och litet matte övningar',
+        pdfDownloadUrl: '/samples/swedish/big-small/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/swedish/big-small/sample-4.jpeg',
+        answerKeySrc: '/samples/swedish/big-small/sample-4-answer.jpeg',
+        altText: 'Gratis utskrifter storleksjämförelse - arbetsblad för barn',
+        pdfDownloadUrl: '/samples/swedish/big-small/sample-4.pdf',
       },
     ],
   },

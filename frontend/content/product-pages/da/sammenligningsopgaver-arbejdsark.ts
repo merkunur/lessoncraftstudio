@@ -17,16 +17,48 @@ export const moreLessDaContent: ProductPageContent = {
   seo: {
     slug: 'sammenligningsopgaver-arbejdsark',
     appId: 'more-less',
-    title: 'Sammenligningsopgaver - Matematikopgaver til 0. Klasse og 1. Klasse - Opgaver til Print',
+    title: 'Sammenligningsopgaver - Gratis Arbejdsark til Børn i Børnehaveklasse',
     description: 'Lav professionelle sammenligningsopgaver med vores matematikværktøj. Generer tilpassede arbejdsark med større end, mindre end og ligemed-symboler perfekt til børnehaveklassen, 0. klasse og 1. klasse. Download højkvalitets PDF-opgaver til print på under 3 minutter.',
     keywords: 'sammenligningsopgaver, matematikopgaver, større end mindre end, 0. klasse opgaver, 1. klasse, arbejdsark til print, gratis skoleopgaver, børnehaveklassen, talforståelse, matematik',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/sammenligningsopgaver-arbejdsark',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/more-less/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Sammenligningsopgaver gratis arbejdsark til børn - matematikopgaver til børnehaveklasse'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/more-less/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Sammenligningsopgaver gratis printables - mere eller mindre til 0. klasse'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/more-less/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Sammenligningsopgaver arbejdsark til børn - større end mindre end til 1. klasse'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/more-less/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Sammenligningsopgaver gratis arbejdsark - talforståelse til børnehaveklasse'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/more-less/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Sammenligningsopgaver arbejdsark til børnehaveklasse - gratis printables'
+      }
+    ],
   },
 
   // Hero Section - FULL text from more-less.md
   hero: {
     title: 'Sammenligningsopgaver - Matematikopgaver',
-    subtitle: 'Arbejdsark til 0. Klasse og 1. Klasse - Opgaver til Print',
+    subtitle: 'Gratis Arbejdsark til Børn i Børnehaveklasse og 1. Klasse',
     description: `Lav professionelle sammenligningsopgaver med vores matematikværktøj. Din Fuld Adgang-abonnement giver dig ubegrænset oprettelse af opgaver uden ekstra gebyrer per opgave. Generer tilpassede arbejdsark med større end, mindre end og ligemed-symboler perfekt til børnehaveklassen, 0. klasse og 1. klasse. Download højkvalitets PDF-opgaver til print på under 3 minutter.
 
 Sammenligningsopgaver lærer børn at sammenligne mængder ved hjælp af >, < og = symboler. Dette er grundlæggende matematikopgaver for indskolingen. Vores værktøj skaber opgaver hvor eleverne sammenligner billeder indbyrdes eller billeder med tal. Børnene lærer talforståelse gennem visuel sammenligning. Hver opgave kan tilpasses til dit klassetrin og dine elevers niveau.
@@ -34,7 +66,7 @@ Sammenligningsopgaver lærer børn at sammenligne mængder ved hjælp af >, < og
 Værktøjet genererer 1-8 sammenligningsproblemer per arbejdsark. Du vælger mellem billedbaserede illustrationer eller normale matematiske symboler. Opgaverne layoutes automatisk i kolonner afhængigt af antal problemer. Alle opgaver til print kommer med facitliste der viser korrekte symboler. Perfekt til matematikundervisning i de første skoleår.
 
 Med Fuld Adgang-abonnement får du adgang til alle 33 opgavegeneratorer. Kombiner sammenligningsopgaver med andre gratis skoleopgaver som matematikopgaver, kopiark til finmotorik, og farvelægningsopgaver. Lav komplette læringspakker til din klasse. Abonnementet inkluderer kommerciel licens så du kan sælge dine opgaver på Teachers Pay Teachers eller Etsy.`,
-    previewImageSrc: '/samples/english/more less/illustration.jpeg',
+    previewImageSrc: '/samples/danish/more-less/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Prøv Gratis',
       viewSamples: 'Se Eksempler',
@@ -53,9 +85,9 @@ Med Fuld Adgang-abonnement får du adgang til alle 33 opgavegeneratorer. Kombine
     },
   },
 
-  // Sample Gallery - REAL file paths from samples/english/more less/
+  // Sample Gallery - Danish samples from samples/danish/more-less/
   samples: {
-    sectionTitle: 'Sammenligningsopgaver Eksempler',
+    sectionTitle: 'Sammenligningsopgaver Gratis Arbejdsark Eksempler til Børn',
     sectionDescription: 'Download gratis eksempler på arbejdsark for at se vores professionelle kvalitet',
     badgeText: 'Gratis Eksempler',
     downloadLabel: 'Download Gratis Eksempel',
@@ -64,36 +96,50 @@ Med Fuld Adgang-abonnement får du adgang til alle 33 opgavegeneratorer. Kombine
     answerKeyLabel: 'Facitark',
     viewAllLabel: 'Se alle',
     noPdfLabel: 'Ingen PDF tilgængelig',
-    freePdfCountLabel: '3 gratis downloads',
+    freePdfCountLabel: '5 gratis downloads',
     ofLabel: 'af',
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/more less/illustration.jpeg',
-        answerKeySrc: '/samples/english/more less/illustration answer_key.jpeg',
-        altText: 'Sammenligningsopgave med illustrerede symboler til børnehaveklassen',
-        pdfDownloadUrl: '/samples/english/more less/illustration.pdf',
+        worksheetSrc: '/samples/danish/more-less/sample-1.jpeg',
+        answerKeySrc: '/samples/danish/more-less/sample-1-answer.jpeg',
+        altText: 'Sammenligningsopgaver gratis arbejdsark til børn - matematikopgaver til børnehaveklasse',
+        pdfDownloadUrl: '/samples/danish/more-less/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/more less/image to image.jpeg',
-        answerKeySrc: '/samples/english/more less/image to image answer_key.jpeg',
-        altText: 'Billede til billede sammenligningsopgave til 0. klasse',
-        pdfDownloadUrl: '/samples/english/more less/image to image.pdf',
+        worksheetSrc: '/samples/danish/more-less/sample-2.jpeg',
+        answerKeySrc: '/samples/danish/more-less/sample-2-answer.jpeg',
+        altText: 'Sammenligningsopgaver gratis printables - mere eller mindre til 0. klasse',
+        pdfDownloadUrl: '/samples/danish/more-less/sample-2.pdf',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/more less/image to number.jpeg',
-        answerKeySrc: '/samples/english/more less/image to number answer_key.jpeg',
-        altText: 'Billede til tal sammenligningsopgave til 1. klasse',
-        pdfDownloadUrl: '/samples/english/more less/image to number.pdf',
+        worksheetSrc: '/samples/danish/more-less/sample-3.jpeg',
+        answerKeySrc: '/samples/danish/more-less/sample-3-answer.jpeg',
+        altText: 'Sammenligningsopgaver arbejdsark til børn - større end mindre end til 1. klasse',
+        pdfDownloadUrl: '/samples/danish/more-less/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/danish/more-less/sample-4.jpeg',
+        answerKeySrc: '/samples/danish/more-less/sample-4-answer.jpeg',
+        altText: 'Sammenligningsopgaver gratis arbejdsark - talforståelse til børnehaveklasse',
+        pdfDownloadUrl: '/samples/danish/more-less/sample-4.pdf',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/danish/more-less/sample-5.jpeg',
+        answerKeySrc: '/samples/danish/more-less/sample-5-answer.jpeg',
+        altText: 'Sammenligningsopgaver arbejdsark til børnehaveklasse - gratis printables',
+        pdfDownloadUrl: '/samples/danish/more-less/sample-5.pdf',
       },
     ],
   },
 
   // Features Grid - FULL text from more-less.md feature sections
   features: {
-    sectionTitle: 'Matematikopgaver Funktioner - Alt Du Har Brug For til Opgaver til Print',
+    sectionTitle: 'Sammenligningsopgaver Generator - Gratis Arbejdsark til Børn og Opgaver til Print',
     sectionDescription: 'Vores sammenligningsværktøj giver dig alle funktioner du behøver for at lave professionelle matematikopgaver. Værktøjet kombinerer nem betjening med kraftfulde redigeringsmuligheder. Du kan tilpasse alt fra antal problemer til layout og symboltype. Hver funktion er designet til at spare dig tid samtidig med at du får arbejdsark i høj kvalitet. Fuld Adgang-abonnementet giver dig ubegrænset adgang til alle funktioner. Lav så mange opgaver til print du har brug for uden ekstra omkostninger. Ingen begrænsninger på antal downloads eller antal opgaver per måned. Dette er særligt værdifuldt for lærere der skal differentiere til flere niveauer i samme klasse.',
     highlightBadgeText: 'Vigtig Funktion',
     readMoreLabel: 'Læs mere',
@@ -108,7 +154,7 @@ Med Fuld Adgang-abonnement får du adgang til alle 33 opgavegeneratorer. Kombine
       {
         id: '1',
         icon: '⚡',
-        title: 'Lav Matematikopgaver på 3 Klik',
+        title: 'Lav Gratis Arbejdsark til Børn på 3 Klik',
         description: `Generer sammenligningsopgaver på få sekunder. Vælg et tema fra billedbiblioteket eller vælg enkelte billeder. Juster antal sammenligningsproblemer fra 1 til 8. Klik på generer og dit arbejdsark er klar. Hele processen tager under 30 sekunder fra start til færdig opgave.
 
 Værktøjet layouter automatisk dine problemer i kolonner. Portrætformat bruger 1-3 kolonner afhængigt af antal problemer. Landskabsformat bruger 1-2 kolonner. Du behøver ikke tænke over formatering eller afstand mellem elementer. Alt håndteres automatisk for optimal udnyttelse af papiret.
@@ -119,7 +165,7 @@ Efter generering kan du downloade med det samme eller redigere først. Mange læ
       {
         id: '2',
         icon: '✏️',
-        title: 'Rediger Alt på Dine Matematikopgaver',
+        title: 'Rediger Alle Elementer på Dit Gratis Arbejdsark',
         description: `Alle elementer på lærredet kan redigeres efter generering. Træk billeder rundt for at ændre placering. Roter elementer for at skabe variation. Skalér billeder større eller mindre afhængigt af dine præferencer. Slet elementer du ikke ønsker. Hver ændring sker øjeblikkeligt på lærredet.
 
 Redigeringsfunktionerne giver dig fuld kontrol over det endelige design. Tilføj ekstra tekst med instruktioner til eleverne. Ændr farver på baggrundsfarve eller tekst. Juster linjernes tykkelse og stil. Brug fortryd-funktionen hvis du laver en fejl. Alle ændringer kan rulles tilbage.
@@ -130,7 +176,7 @@ Canvas-editoren understøtter også avancerede funktioner som låsning af elemen
       {
         id: '3',
         icon: '📤',
-        title: 'Upload Egne Billeder til Opgaver',
+        title: 'Upload Egne Billeder til Gratis Arbejdsark til Børn',
         description: `Upload dine egne billeder direkte til værktøjet. Understøtter JPEG, PNG og GIF formater. Upload flere filer på én gang for at spare tid. Dine uploadede billeder vises sammen med biblioteksbilleder i temavisningen.
 
 Denne funktion er perfekt til at personalisere opgaver til dine elever. Upload billeder af klassens mascot eller lokale seværdigheder. Lav sammenligningsopgaver med ting børnene kender fra deres hverdag. Personaliserede opgaver øger engagement og motivation hos eleverne.
@@ -141,7 +187,7 @@ Kombiner uploadede billeder med biblioteksbilleder for maksimal fleksibilitet. B
       {
         id: '4',
         icon: '🌍',
-        title: '11 Sprog Understøttet',
+        title: 'Lav Gratis Arbejdsark på 11 Sprog - Arbejdsark til Børn',
         description: `Værktøjet understøtter 11 sprog: dansk, engelsk, tysk, fransk, spansk, portugisisk, italiensk, hollandsk, svensk, norsk og finsk. Både brugerflade og arbejdsarksindhold oversættes automatisk. Skift sprog med en enkelt dropdown-vælger. Alle knapper, labels og instruktioner vises på dit valgte sprog.
 
 Flersprogsunderstøttelse er vigtig for tosprogede klasser og internationale skoler. Lav matematikopgaver til 0. klasse opgaver på dansk om formiddagen og på arabisk om eftermiddagen for modersmålsundervisning. Samme værktøj fungerer på tværs af alle sproggrupper. Dette sparer dig for at skulle lære flere forskellige platforme.
@@ -152,7 +198,7 @@ Sprogoversættelsen påvirker også symbolforklaringer og facitlister. Alt tekst
       {
         id: '5',
         icon: '💰',
-        title: 'Kommerciel Licens Inkluderet',
+        title: 'Kommerciel Licens - Sælg Dine Gratis Arbejdsark til Børn',
         description: `Fuld Adgang-abonnement inkluderer fuld kommerciel print-on-demand licens. Sælg dine opgaver på Teachers Pay Teachers, Etsy eller Amazon KDP. Ingen kildeangivelse påkrævet. Ingen ekstra licensgebyrer ud over dit abonnement. Dette er inkluderet i de $240 om året.
 
 Mange lærere tjener $500-5000 om måneden ved at sælge opgaver online. Sammenligningsopgaver er meget populære på TPT fordi forældre søger efter matematikøvelser til hjemmeundervisning. Lav opgavepakker med forskellige temaer og sværhedsgrader. Sælg dem som PDF-downloads på Etsy.
@@ -163,7 +209,7 @@ Den kommercielle licens gælder for fysiske og digitale produkter. Lav arbejdsh�
       {
         id: '6',
         icon: '🎨',
-        title: 'Over 3000 Børnevenlige Billeder',
+        title: '3000+ Billedbibliotek til Gratis Arbejdsark til Børnehaveklasse',
         description: `Biblioteket indeholder over 3000 børnevenlige billeder organiseret efter temaer. Vælg mellem dyr, køretøjer, mad, natur, sport og mange flere kategorier. Hvert tema har 15-40 relaterede billeder. Dette giver dig nok variation til at lave opgaver hele skoleåret uden gentagelse.
 
 Billederne er specialdesignede til unge børn. Klare konturer og enkle former gør dem lette at genkende. Farverige illustrationer fanger børnenes opmærksomhed. Alle billeder fungerer godt både i farve og gråtone. Dette betyder dine opgaver ser professionelle ud uanset om de printes i farve eller sort-hvid.
@@ -174,7 +220,7 @@ Temaorganiseringen gør det hurtigt at finde relevante billeder. Søg efter "eft
       {
         id: '7',
         icon: '🖨️',
-        title: 'Professionel 300 DPI Kvalitet',
+        title: 'Professionel 300 DPI - Gratis Printables til Print',
         description: `Alle downloads eksporteres i 300 DPI opløsning. Dette er professionel printkvalitet. Billeder ser skarpe og klare ud når de printes. Tekst er crisp uden pixelering. Linjer er glatte og jævne. Kvaliteten matcher kommercielt trykt undervisningsmateriale.
 
 Vælg mellem PDF og JPEG eksportformater. PDF bevarer vektorbaserede elementer for skarpest mulig kvalitet. JPEG fungerer godt til at indsætte i andre dokumenter. Begge formater understøtter både farve og gråtone. Gråtoneindstillingen sparer blækforbrug uden at ofre læsbarhed.
@@ -187,7 +233,7 @@ Høj opløsning betyder dine opgaver kan bruges til flere formål. Print dem hje
 
   // How-To Guide - FULL text from more-less.md step sections
   howTo: {
-    sectionTitle: 'Sådan Laver Du Matematikopgaver i 5 Nemme Trin',
+    sectionTitle: 'Lav Sammenligningsopgaver i 5 Trin - Gratis Arbejdsark til Børnehaveklasse',
     sectionDescription: 'Lav professionelle sammenligningsopgaver hurtigere end du kan forestille dig. Hele processen fra start til færdig PDF tager under 3 minutter. De fleste lærere bruger kun 2 minutter når de kender værktøjet. Dette er betydeligt hurtigere end at lave matematikopgaver fra bunden i tekstbehandlingsprogrammer. Følg disse 5 trin for at generere dine første opgaver til print. Hvert trin er intuitivt og kræver ingen designerfaring. Værktøjet guider dig gennem processen med klare labels og hjælpetekster. Efter første gang vil du kunne lave opgaver på autopilot.',
     ctaText: 'Start Nu',
     badgeText: 'Sådan Virker Det',
@@ -202,7 +248,7 @@ Høj opløsning betyder dine opgaver kan bruges til flere formål. Print dem hje
       {
         id: '1',
         number: 1,
-        title: 'Vælg Indhold til Matematikopgaver',
+        title: 'Vælg Billeder til Dine Gratis Arbejdsark til Børn',
         description: `Start med at vælge indholdstype i Worksheet Configuration sektionen. Du har to muligheder: individuelle billeder eller temabaseret valg. Individuelle billeder giver dig præcis kontrol over hvert enkelt billede. Temavalg lader værktøjet automatisk vælge passende billeder fra et tema.
 
 For temabaseret valg skal du vælge et tema fra dropdown-menuen. Vælg "Dyr" for opgaver med forskellige dyrearter. Vælg "Mad" for opgaver om fødevarer. Vælg "Køretøjer" for opgaver om transportmidler. Hvert tema indeholder 15-40 relaterede billeder så der er nok variation til hele skoleåret.
@@ -213,7 +259,7 @@ For individuel billedvælger skal du browse billedbiblioteket og klikke på de b
       {
         id: '2',
         number: 2,
-        title: 'Tilpas Indstillinger for Matematikopgaver',
+        title: 'Tilpas Indstillinger - Arbejdsark til Børnehaveklasse',
         description: `Juster antal sammenligningsproblemer mellem 1 og 8. Børnehaveklassen klarer normalt 3-4 problemer per ark. 0. klasse kan håndtere 5-6 problemer. 1. klasse kan arbejde med 6-8 problemer på et ark. Start lavt og øg gradvist sværhedsgraden.
 
 Vælg mellem illustrerede symboler og normale matematiske symboler. Illustrerede symboler viser tegneserielignende figurer der spiser eller peger. Disse er lettere for små børn at huske. Normale symboler (>, <, =) bruges når børnene er klar til formel matematik. Mange lærere starter med illustrationer i 0. klasse og skifter til symboler i 1. klasse.
@@ -224,7 +270,7 @@ Vælg sammenligningstype: billede til billede eller billede til tal. Billede til
       {
         id: '3',
         number: 3,
-        title: 'Generer Dine Matematikopgaver',
+        title: 'Generer Dit Gratis Arbejdsark - Klar på Sekunder',
         description: `Klik på Generate knappen og vent 2-3 sekunder. Værktøjet genererer automatisk alle sammenligningsproblemer og layouter dem på lærredet. Portrætformat bruger 1-3 kolonner afhængigt af antal problemer. Landskabsformat bruger 1-2 kolonner. Afstanden mellem problemerne justeres automatisk for optimal læsbarhed.
 
 Se forhåndsvisningen på lærredet før download. Kontroller at alle billeder er tydelige og passende placeret. Bekræft at mængderne er korrekte og at der er variation i sværhedsgraden. Hvis noget ikke ser rigtigt ud kan du klikke Generate igen for at få et nyt tilfældigt sæt problemer.
@@ -235,7 +281,7 @@ Generatoren sikrer at svarerne er balanceret. Du vil få en blanding af større 
       {
         id: '4',
         number: 4,
-        title: 'Rediger på Lærredet',
+        title: 'Rediger på Lærredet - Gratis Arbejdsark til Børn',
         description: `Klik på et hvilket som helst element for at redigere det. Træk billeder til nye positioner hvis layoutet skal justeres. Roter billeder for at skabe visuelt interessante arrangementer. Skalér billeder større eller mindre afhængigt af hvor meget plads du har. Slet elementer du ikke ønsker på det endelige ark.
 
 Tilføj ekstra tekst ved hjælp af Text Tools sektionen. Skriv overskrifter som "Navn:" eller "Dato:" øverst på arket. Tilføj instruktioner som "Sæt det rigtige tegn i cirklen" eller "Sammenlign mængderne". Vælg skriftstørrelse, farve og skrifttype for teksten. Lærerlavet tekst gør opgaverne mere personlige.
@@ -246,7 +292,7 @@ Brug baggrunde og rammer til at gøre opgaverne visuelt tiltalende. Vælg et år
       {
         id: '5',
         number: 5,
-        title: 'Download Opgaver til Print',
+        title: 'Download Gratis Printables og Arbejdsark til Print',
         description: `Klik på Download knappen når du er tilfreds med designet. Vælg mellem PDF og JPEG format. PDF er bedst til direkte print og bevarer skarpeste kvalitet. JPEG fungerer godt til at indsætte i andre dokumenter eller dele digitalt. Begge formater eksporteres i 300 DPI professionel kvalitet.
 
 Vælg mellem farve og gråtone eksport. Farveopgaver er mere tiltalende for små børn. Gråtone sparer blæk og printer hurtigere hvis du laver mange kopier. Gråtoneindstillingen bevarer læsbarhed perfekt så eleverne stadig kan se alle detaljer klart.
@@ -259,7 +305,7 @@ Værktøjet genererer automatisk to filer: arbejdsark og facitliste. Arbejdsarke
 
   // Use Cases - FULL text from more-less.md use case sections
   useCases: {
-    sectionTitle: 'Perfekt til Lærere og Forældre - Matematikopgaver til Alle Behov',
+    sectionTitle: 'Perfekt til Lærere og Forældre - Gratis Arbejdsark til Børn og Gratis Printables',
     sectionDescription: 'Sammenligningsværktøjet fungerer til mange forskellige undervisningssituationer. Fra børnehaveklassen til 3. klasse finder lærere anvendelser til værktøjet. Hjemmeundervisende forældre bruger det til daglige matematiklektioner. Specialpædagoger laver differentierede opgaver til forskellige funktionsniveauer. Hver brugergruppe får værdi af fleksibiliteten og tilpasningsmuligheder. Fuld Adgang-abonnementet giver alle brugertyper ubegrænset adgang. Lav opgaver til flere klassetrin uden ekstra omkostninger. Kombiner forskellige sværhedsgrader i samme læringspakke. Del opgaver med kolleger eller sælg dem online. Denne alsidighed gør abonnementet værdifuldt på tværs af mange uddannelseskontekster.',
     badgeText: 'Hvem Er Det Til',
     readMoreLabel: 'Læs mere',
@@ -269,7 +315,7 @@ Værktøjet genererer automatisk to filer: arbejdsark og facitliste. Arbejdsarke
         id: '1',
         icon: '👩‍🏫',
         title: 'Børnehaveklasse og 0. Klasse',
-        subtitle: 'Grundlæggende Matematikopgaver til De Mindste',
+        subtitle: 'Gratis Arbejdsark til Børn - Visuel Læring',
         description: `Pædagoger i børnehaveklassen bruger sammenligningsopgaver til at introducere talforståelse. Børn i 5-6 års alderen lærer at sammenligne små mængder visuelt. Start med 1-3 objekter per side og brug illustrerede symboler. De farverige billeder holder børnenes opmærksomhed og gør matematik sjovt.
 
 0. klasse lærere kombinerer sammenligningsopgaver med andre gratis skoleopgaver som finmotorik øvelser. Børnene øver tegning af symboler mens de lærer matematiske koncepter. Dette integrerer finmotorik træning med tallæring. Værktøjet lader dig justere sværhedsgraden præcist til dit holds niveau.
@@ -281,7 +327,7 @@ Brug billeder børnene kender fra deres hverdag. Upload fotos af legetøj fra kl
         id: '2',
         icon: '📚',
         title: 'Matematikopgaver til 1. og 2. Klasse',
-        subtitle: 'Opgaver til Print for Indskolingen',
+        subtitle: 'Gratis Printables - Arbejdsark til Børn',
         description: `1. klasse lærere bruger sammenligningsværktøjet til at bygge videre på talforståelse fra 0. klasse. Elever i denne alder kan håndtere 5-7 problemer per ark. Skift gradvist fra illustrerede til normale matematiske symboler. Introducer billede-til-tal sammenligninger for at forbinde visuelle mængder med talskrivning.
 
 Kombiner sammenligningsopgaver med andre matematikopgaver som addition og subtraktion. Lav lærings-stationer hvor børnene roterer mellem forskellige opgavetyper. En station kan have sammenligninger, en anden kan have gangetabeller øvelser, og en tredje kan have arbejdsark med talskrivning. Denne variation holder eleverne engagerede.
@@ -293,7 +339,7 @@ Kombiner sammenligningsopgaver med andre matematikopgaver som addition og subtra
         id: '3',
         icon: '🏠',
         title: 'Hjemmeundervisning',
-        subtitle: 'Arbejdsark til Flerniveauundervisning',
+        subtitle: 'Arbejdsark til Børn - Fleksibel Hjemmelæring',
         description: `Hjemmeundervisende forældre med børn i forskellige aldre værdsætter fleksibiliteten. Lav nemme sammenligningsopgaver til den 5-årige og sværere versioner til den 7-årige. Print begge på samme tid og lad børnene arbejde sideløbende. Fuld Adgang giver dig ubegrænset adgang til at lave opgaver til alle dine børns niveauer.
 
 Brug værktøjet til at supplere dit matematikpensum. Lav ekstra øvelsesopgaver til koncepter dit barn kæmper med. Generer nye opgaver hver dag for at holde materialet friskt. Kombiner med andre opgavetyper som farvelægning eller lære bogstaver opgaver for varierede læringssessioner.
@@ -305,7 +351,7 @@ Hjemmeundervisningsgrupper kan dele abonnement omkostninger og opgaver. En foræ
         id: '4',
         icon: '💜',
         title: 'Specialpædagogik',
-        subtitle: 'Differentierede Gratis Skoleopgaver',
+        subtitle: 'Gratis Arbejdsark - Tilpasset Særlige Behov',
         description: `Speciallærere bruger værktøjet til at lave præcist målrettede opgaver. Elever med forskellige funktionsniveauer behøver forskellig sværhedsgrad. Lav 2-3 versioner af samme opgave med stigende kompleksitet. En elev får 3 problemer med 1-2 objekter. En anden får 6 problemer med 4-5 objekter.
 
 Visuelle lærere får stor gavn af billedbaseret sammenligning. Børn med sprogrelaterede udfordringer kan arbejde med matematikopgaver uden tung tekstlæsning. Brug store, klare billeder for elever med synsvanskeligheder. Juster tekststørrelse og farvekontrast for optimal tilgængelighed.
@@ -317,7 +363,7 @@ Kombiner sammenligningsopgaver med andre specialpædagogiske arbejdsark. Lav læ
         id: '5',
         icon: '🌍',
         title: 'Tosproget Undervisning',
-        subtitle: 'Matematikopgaver på 11 Sprog',
+        subtitle: 'Arbejdsark til Børnehaveklasse - Flersproget',
         description: `Lærere i tosprogede klasser skifter nemt mellem dansk og elevernes modersmål. Lav matematikopgaver på dansk om formiddagen og på arabisk eller tyrkisk om eftermiddagen. De matematiske koncepter forbliver de samme men sproget tilpasses. Dette hjælper elever med at forbinde koncepter på tværs af sprog.
 
 Internationale skoler bruger værktøjets 11-sprogs support til forskellige afdelinger. Den danske afdeling laver opgaver på dansk, den engelske på engelsk, den tyske på tysk. Samme værktøj betjener hele skolen. Dette sparer både tid og penge sammenlignet med at have forskellige platforme per sproggruppe.
@@ -329,7 +375,7 @@ Modersmålslærere laver supplerende opgaver til print på elevernes hjemmesprog
         id: '6',
         icon: '💰',
         title: 'Lærer-Iværksættere',
-        subtitle: 'Sælg Arbejdsark på Teachers Pay Teachers',
+        subtitle: 'Gratis Arbejdsark til Børn - Kommerciel Licens',
         description: `Danske lærere bygger succesfulde side-forretninger ved at sælge arbejdsark på Teachers Pay Teachers, Etsy og egne hjemmesider. Efterspørgslen efter kvalitets matematikopgaver til 0. klasse og 1. klasse er enorm.
 
 Profitable nicher på det danske marked inkluderer sæsonbestemte matematikopgaver (jul, påske, fastelavn), tematiske læringspakker og differenterede opgavesæt til inklusion. Internationale platforme efterspørger opgaver på alle 11 sprog.
@@ -342,7 +388,7 @@ De mest succesfulde sælgere laver konsistente, højkvalitets materialer. Brug p
 
   // FAQ Section - Selected FAQs from more-less.md
   faq: {
-    sectionTitle: 'Ofte Stillede Spørgsmål om Sammenligningsopgaver',
+    sectionTitle: 'Ofte Stillede Spørgsmål om Sammenligningsopgaver Gratis Arbejdsark',
     sectionDescription: 'Lærere og forældre stiller ofte de samme spørgsmål om sammenligningsværktøjet. Denne sektion besvarer de mest almindelige spørgsmål. Vi dækker alt fra abonnementspriser til tekniske spørgsmål om print og tilpasning.',
     showMoreText: 'Vis flere spørgsmål',
     showLessText: 'Vis færre',
@@ -471,7 +517,7 @@ De mest succesfulde sælgere laver konsistente, højkvalitets materialer. Brug p
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Kombiner med Andre Arbejdsark Generatorer',
+    sectionTitle: 'Kombinér Sammenligningsopgaver med Andre Gratis Arbejdsark til Børnehaveklasse',
     sectionDescription: 'Lav komplette læringspakker ved at kombinere sammenligningsopgaver med disse komplementære generatorer.',
     ctaTitle: 'Klar til at Lave Fantastiske Arbejdsark?',
     ctaDescription: 'Tilslut dig tusindvis af pædagoger der laver professionelle arbejdsark. Ubegrænset oprettelse, kommerciel licens inkluderet.',

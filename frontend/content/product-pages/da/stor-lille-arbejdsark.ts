@@ -15,16 +15,48 @@ export const bigSmallDaContent: ProductPageContent = {
   seo: {
     slug: 'stor-lille-arbejdsark',
     appId: 'big-small',
-    title: 'Gratis Opgaver til Print - Stor og Lille Arbejdsark Generator til 0. Klasse Opgaver',
-    description: 'Opret professionelle stor og lille opgaver til print med vores specialiserede generator. Dit Fuld Adgang abonnement giver dig ubegrænset adgang til at lave arbejdsark om størrelsesforskelle uden ekstra omkostninger per opgave. Generer tilpassede opgaver til børnehaveklassen, 0. klasse og 1. klasse på under 3 minutter.',
+    title: 'Stor og Lille Gratis Arbejdsark til Børn | Generator til Børnehaveklasse',
+    description: 'Lav gratis arbejdsark til børn med stor og lille størrelsessammenligning. Arbejdsark til børnehaveklasse og 0. klasse. Download gratis printables som PDF.',
     keywords: 'stor og lille, opgaver til print, gratis opgaver, arbejdsark, 0. klasse, børnehaveklasse, 1. klasse, matematikopgaver, størrelsessammenligning, finmotorik øvelser, gratis skoleopgaver',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/stor-lille-arbejdsark',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/big-small/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis arbejdsark stor og lille - arbejdsark til børn med størrelsessammenligning til børnehaveklasse'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/big-small/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Stor og lille arbejdsark til børnehaveklasse - gratis printables med identiske billeder'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/big-small/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis arbejdsark størrelsessammenligning - arbejdsark til børn med nummeringsopgave til 0. klasse'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/big-small/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Arbejdsark til børnehaveklasse - stor og lille gratis printables med forskellige billeder'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/big-small/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Stor og lille arbejdsark til børn - gratis arbejdsark nummerering fra lille til stor'
+      },
+    ],
   },
 
   // Hero Section - FULL text from big-small.md paragraphs 1-4
   hero: {
-    title: 'Gratis Opgaver til Print - Stor og Lille Arbejdsark Generator',
-    subtitle: '0. Klasse Opgaver til Børnehaveklasse og Indskoling',
+    title: 'Stor og Lille Gratis Arbejdsark til Børn - Professionel Generator',
+    subtitle: 'Gratis Arbejdsark til Børnehaveklasse - 0. Klasse og 1. Klasse',
     description: `Opret professionelle stor og lille opgaver til print med vores specialiserede generator. Dit Fuld Adgang abonnement giver dig ubegrænset adgang til at lave arbejdsark om størrelsesforskelle uden ekstra omkostninger per opgave. Generer tilpassede opgaver til børnehaveklassen, 0. klasse og 1. klasse på under 3 minutter. Download arbejdsark i høj kvalitet som PDF eller JPEG.
 
 Vores stor og lille generator hjælper pædagoger med at undervise i grundlæggende matematiske begreber gennem visuelle størrelsessammenligninger. Børn lærer at skelne mellem stor, lille og mellemstor gennem engagerende opgaver til print. Alle opgaverne kan tilpasses fuldstændigt efter dine elevers behov og læringsniveau.
@@ -32,7 +64,7 @@ Vores stor og lille generator hjælper pædagoger med at undervise i grundlægge
 Generatoren skaber opgaver hvor børn skal finde den lille genstand, den store genstand eller den mellemstore genstand. Du kan også lave opgaver hvor børn nummererer genstande fra lille til stor eller stor til lille. Dette styrker både visuel diskrimination og matematisk tænkning gennem praktiske øvelser.
 
 Med over 3000 barnvenlige billeder kan du nemt lave tematiske arbejdsark. Kombinér størrelsesopgaver med matematikopgaver, finmotorik øvelser eller malebog aktiviteter. Dine gratis skoleopgaver bliver både lærerige og sjove for de yngste elever i børnehaveklassen og indskolingen.`,
-    previewImageSrc: '/samples/english/big small/big-small-different images.jpeg',
+    previewImageSrc: '/samples/danish/big-small/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Prøv Gratis',
       viewSamples: 'Se Eksempler',
@@ -53,7 +85,7 @@ Med over 3000 barnvenlige billeder kan du nemt lave tematiske arbejdsark. Kombin
 
   // Sample Gallery - REAL file paths from samples/english/big small/
   samples: {
-    sectionTitle: 'Stor og Lille Eksempler',
+    sectionTitle: 'Gratis Arbejdsark Eksempler - Stor og Lille til Børn',
     sectionDescription: 'Download gratis eksempler på stor og lille arbejdsark for at se vores professionelle kvalitet',
     badgeText: 'Gratis Eksempler',
     downloadLabel: 'Download Gratis Eksempel',
@@ -67,24 +99,38 @@ Med over 3000 barnvenlige billeder kan du nemt lave tematiske arbejdsark. Kombin
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/big small/big-small-different images.jpeg',
-        answerKeySrc: '/samples/english/big small/big-small-different images answer_key.jpeg',
-        altText: 'Stor og lille arbejdsark med forskellige billeder til børnehaveklasse',
-        pdfDownloadUrl: '/samples/english/big small/big-small-different images.pdf',
+        worksheetSrc: '/samples/danish/big-small/sample-1.jpeg',
+        answerKeySrc: '/samples/danish/big-small/sample-1-answer.jpeg',
+        altText: 'Stor og lille gratis arbejdsark med forskellige billeder - arbejdsark til børn til børnehaveklasse',
+        pdfDownloadUrl: '/samples/danish/big-small/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/big small/big-small identical images.jpeg',
-        answerKeySrc: '/samples/english/big small/big-small identical images answer_key.jpeg',
-        altText: 'Stor og lille arbejdsark med identiske billeder til 0. klasse',
-        pdfDownloadUrl: '/samples/english/big small/big-small identical images.pdf',
+        worksheetSrc: '/samples/danish/big-small/sample-2.jpeg',
+        answerKeySrc: '/samples/danish/big-small/sample-2-answer.jpeg',
+        altText: 'Stor og lille gratis arbejdsark med identiske billeder - gratis printables til 0. klasse',
+        pdfDownloadUrl: '/samples/danish/big-small/sample-2.pdf',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/big small/big-small number 1-2-3.jpeg',
-        answerKeySrc: '/samples/english/big small/big-small number 1-2-3 answer_key.jpeg',
-        altText: 'Stor og lille nummeringsopgave arbejdsark til 1. klasse',
-        pdfDownloadUrl: '/samples/english/big small/big-small number 1-2-3.pdf',
+        worksheetSrc: '/samples/danish/big-small/sample-3.jpeg',
+        answerKeySrc: '/samples/danish/big-small/sample-3-answer.jpeg',
+        altText: 'Stor og lille nummeringsopgave gratis arbejdsark - arbejdsark til børnehaveklasse til 1. klasse',
+        pdfDownloadUrl: '/samples/danish/big-small/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/danish/big-small/sample-4.jpeg',
+        answerKeySrc: '/samples/danish/big-small/sample-4-answer.jpeg',
+        altText: 'Stor og lille arbejdsark til børn med tematiske billeder - gratis arbejdsark til børnehaveklasse',
+        pdfDownloadUrl: '/samples/danish/big-small/sample-4.pdf',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/danish/big-small/sample-5.jpeg',
+        answerKeySrc: '/samples/danish/big-small/sample-5-answer.jpeg',
+        altText: 'Stor og lille arbejdsark med sortering - gratis printables arbejdsark til børn',
+        pdfDownloadUrl: '/samples/danish/big-small/sample-5.pdf',
       },
     ],
   },
@@ -106,7 +152,7 @@ Med over 3000 barnvenlige billeder kan du nemt lave tematiske arbejdsark. Kombin
       {
         id: '1',
         icon: '⚡',
-        title: 'Opret Gratis Skoleopgaver på 3 Klik - Hurtig Generator til Opgaver til Print',
+        title: 'Opret Gratis Arbejdsark til Børn på 3 Klik - Hurtig Generator til Opgaver til Print',
         description: `Lav professionelle størrelsesopgaver på under 3 minutter. Vælg et tema fra biblioteket med 3000+ billeder. Klik generer og din opgave vises med det samme. Arbejdsarket er klar til download som PDF eller JPEG. Ingen designerfærdigheder kræves for at lave flotte opgaver.
 
 Du kan vælge mellem forskellige opgavetyper. Find den lille, find den store eller find den mellemstore. Eller lav nummeringsopgaver hvor børn sorterer genstande efter størrelse. Generatoren tilpasser automatisk layoutet til portrætformat eller landskabsformat. Perfekt til hurtige opgaver til print når du har travlt.
@@ -139,7 +185,7 @@ Dine uploadede billeder gemmes i den aktuelle session. Du kan bruge dem i alle o
       {
         id: '4',
         icon: '🌍',
-        title: 'Gratis Opgaver til Print på 11 Sprog - Multisprogede Arbejdsark til 0. Klasse',
+        title: 'Gratis Printables på 11 Sprog - Gratis Arbejdsark til Børnehaveklasse',
         description: `Skift billedbibliotekssproget med ét klik. Vælg mellem dansk, engelsk, tysk, fransk, spansk og 6 andre sprog. Dette påvirker billedernes filnavne i biblioteket. Perfekt til flersproget undervisning og sprogindlæring i børnehaveklassen og indskolingen.
 
 Denne funktion er uvurderlig for pædagoger der arbejder med tosprogethed. Lav de samme opgaver på flere sprog. Sammenlign hvordan genstande hedder på dansk og andre sprog. Støt børn med anden etnisk baggrund ved at inkludere deres modersmål i opgaverne.
@@ -172,7 +218,7 @@ Dette sparer enorm tid sammenlignet med at søge efter billeder online. Ingen co
       {
         id: '7',
         icon: '🖨️',
-        title: 'Professionel 300 DPI Kvalitet til Opgaver til Print og Gratis Skoleopgaver',
+        title: 'Professionel 300 DPI Kvalitet til Gratis Arbejdsark til Børn',
         description: `Download i høj opløsning perfekt til print. JPEG og PDF formater tilgængelige. Gråtone mulighed sparer blæk. Professionel kvalitet egnet til både klasseværelset og salg. Print derhjemme på almindelig printer eller send til professionelt trykkeri.
 
 300 DPI opløsningen sikrer skarpe linjer og klare billeder. Tekst ser professionel ud selv ved stort format print. Farver er levende og tiltrækkende for børn. Eller vælg gråtone for at spare på farveblækket når budgettet er stramt.
@@ -200,7 +246,7 @@ PDF formatet bevarer kvaliteten uanset hvor mange gange du printer. Gem opgavern
       {
         id: '1',
         number: 1,
-        title: 'Vælg Billeder til Dine Matematikopgaver og 0. Klasse Opgaver til Print',
+        title: 'Vælg Billeder til Dine Gratis Arbejdsark til Børn og 0. Klasse',
         description: `Start med at vælge hvilke billeder du vil bruge i opgaverne. Klik på temavelgeren i billedbiblioteket. Vælg mellem over 50 forskellige temaer som dyr, køretøjer, mad eller legetøj. Alle 3000+ billeder er organiseret så du hurtigt finder relevante genstande. Dette gør det nemt at lave tematiske opgaver der matcher din undervisningsplan.
 
 Du kan også søge efter specifikke billeder med søgefeltet. Skriv navnet på en genstand og relevante billeder vises. Klik på billeder for at tilføje dem til dine valgte billeder. Du kan vælge så mange eller så få billeder som du vil. Generatoren bruger dine valgte billeder til at skabe opgaverne.
@@ -228,7 +274,7 @@ Marker eller afmarker svar-indikatorer hvis du vil have tomme cirkler eller boks
       {
         id: '3',
         number: 3,
-        title: 'Generer Gratis Skoleopgaver og Opgaver til Print med Ét Klik',
+        title: 'Generer Gratis Arbejdsark og Gratis Printables med Ét Klik',
         description: `Når alle indstillinger er valgt klik på Opret knappen øverst til højre. Generatoren laver dit arbejdsark på få sekunder. Opgaverne vises automatisk på lærredet. Layoutet er optimeret med korrekt mellemrum og placering af alle elementer. Intet manuelt arbejde kræves.
 
 Generatoren placerer opgaverne i et pænt gitter. Portræt format bruger 2 kolonner. Landskab format bruger 3 kolonner. Dette sikrer opgaverne aldrig ser sammenklemte ud. Alle billeder får automatisk de rigtige størrelsesforskelle så opgaverne fungerer korrekt.
@@ -256,7 +302,7 @@ Fortryd og gentag knapperne lader dig eksperimentere uden risiko. Prøv forskell
       {
         id: '5',
         number: 5,
-        title: 'Download Opgaver til Print som PDF eller JPEG - Gratis Skoleopgaver Klar til Brug',
+        title: 'Download Opgaver som PDF eller JPEG - Gratis Arbejdsark til Børn Klar til Brug',
         description: `Når arbejdsarket ser perfekt ud er det tid til at downloade. Klik på Download knappen øverst til højre. Vælg mellem JPEG eller PDF format. JPEG er godt til hurtig deling online. PDF bevarer kvaliteten bedst til print og kan gemmes i din computer.
 
 Download både arbejdsark og svarark separat. Vælg Arbejdsark JPEG eller Arbejdsark PDF for eleven-versionen. Vælg Svarark JPEG eller Svarark PDF for lærer-versionen med svar. Nu har du både opgaver og facit klar til brug i klassen.
@@ -283,7 +329,7 @@ Gem PDF filerne på din computer. Organisér dem i mapper efter tema eller klass
         id: '1',
         icon: '👶',
         title: 'Pædagoger i Børnehaveklassen og 0. Klasse',
-        subtitle: 'Gratis Skoleopgaver til Finmotorik Øvelser',
+        subtitle: 'Gratis Arbejdsark til Børn og Finmotorik Øvelser',
         description: `Pædagoger der arbejder med de yngste børn bruger generatoren til grundlæggende størrelsesdiskrimination. Børnehaveklassen og 0. klasse elever lærer at identificere stor og lille gennem visuelle sammenligninger. Dette er fundamentalt for tidlig matematisk udvikling. Opgaverne træner både visuelt diskrimination og grundlæggende begrebsforståelse.
 
 Start med simple to-billede opgaver hvor børn finder den store eller lille genstand. Brug genkendelige genstande som børnene kender fra hverdagen. Dyr, legetøj og mad fungerer godt som temaer. Lav kun 2-4 opgaver per ark for de yngste børn så de ikke bliver overvældede.
@@ -299,7 +345,7 @@ Tilpas sværhedsgraden baseret på hvor i skoleåret I er. Start enkelt i august
         id: '2',
         icon: '📚',
         title: 'Lærere i 1. til 3. Klasse Indskoling',
-        subtitle: 'Matematikopgaver og Arbejdsark til Kopiark',
+        subtitle: 'Gratis Arbejdsark til Børnehaveklasse og Kopiark',
         description: `Lærere i indskolingen bruger generatoren til mere avancerede størrelseskoncepter. 1. klasse elever kan arbejde med tre billeder og mellemstor kategorien. 2. og 3. klasse elever mestrer nummeringsopgaver hvor de sorterer genstande efter størrelse. Dette bygger videre på de grundlæggende færdigheder fra børnehaveklassen.
 
 Integrér størrelsesopgaver med andre matematikopgaver i tværfaglige projekter. Kombinér med måling hvor børn faktisk måler genstande med lineal. Forbind til brøker når I introducerer halv og kvart. Brug som opvarmning før mere komplekse matematiske koncepter.
@@ -315,7 +361,7 @@ Send opgaver hjem som lektier der forældre nemt kan hjælpe med. Størrelsessam
         id: '3',
         icon: '🏠',
         title: 'Hjemmeundervisningsforældre',
-        subtitle: 'Opgaver til Print og Gratis Skoleopgaver til Flere Børn',
+        subtitle: 'Gratis Arbejdsark til Børn og Gratis Printables',
         description: `Hjemmeundervisningsforældre elsker generatoren fordi den sparer enorm tid. Med flere børn på forskellige niveauer kan du hurtigt lave opgaver til alle. 0. klasse barnet får simple to-billede opgaver. 2. klasse søskende får sværere tre-billede nummeringsopgaver. Alle arbejder med samme tema men på forskellige niveauer.
 
 Brug generatoren til at lave ugentlige opgavepakker. Lav mandag til fredag opgaver søndag aften. Print dem alle på én gang. Organisér i mapper så hvert barn har deres opgaver klar. Dette giver struktur og forudsigelighed i hjemmeundervisningen.
@@ -347,7 +393,7 @@ Brug opgaverne til at øve læse og skrive færdigheder gennem beskrivelser. Lad
         id: '5',
         icon: '♿',
         title: 'Specialpædagoger',
-        subtitle: 'Tilpassede Arbejdsark og Kopiark til Finmotorik Øvelser',
+        subtitle: 'Gratis Arbejdsark til Børn og Kopiark til Finmotorik Øvelser',
         description: `Specialpædagoger værdsætter hvor nemt opgaverne kan tilpasses individuelle behov. Børn med forskellige funktionsnedsættelser kan arbejde med samme grundkoncept på deres niveau. Juster antal opgaver, billedstørrelse og sværhedsgrad præcis til hvert barns zone for nærmeste udvikling.
 
 For børn med synsudfordringer lav opgaver med meget store størrelsesforskelle. Brug højkontrast farver. Lav kun én eller to opgaver per ark med meget plads. Print i ekstra stort format. Dette gør opgaverne tilgængelige for børn med nedsat syn.
@@ -445,7 +491,7 @@ Byg et brand omkring dine opgaver. Lav en konsekvent visuel stil. Brug samme skr
     items: [
       {
         id: '1',
-        question: 'Er Denne Generator til Gratis Skoleopgaver Virkelig Gratis at Bruge?',
+        question: 'Er Denne Generator til Gratis Arbejdsark til Børn Virkelig Gratis at Bruge?',
         answer: `Størrelsesopgave generatoren kræver Fuld Adgang abonnement der koster 240 dollars årligt eller 25 dollars månedligt. Dit abonnement giver dig ubegrænset adgang til at lave opgaver uden ekstra omkostninger per opgave. Generér så mange gratis skoleopgaver og arbejdsark som du har brug for uden yderligere gebyrer. Fuld Adgang inkluderer alle 33 opgave generatorer på platformen.
 
 Kernepakke abonnement inkluderer 10 populære generatorer og koster 144 dollars årligt. Fuld Adgang abonnement koster 240 dollars årligt og inkluderer alle 33 generatortyper inklusive denne størrelsesopgave generator. Begge abonnementer inkluderer kommerciel licens, understøttelse af 11 sprog og professionel 300 DPI kvalitets eksport.
@@ -454,7 +500,7 @@ Du kan lave ubegrænsede matematikopgaver og andre opgaver til print. Der er ing
       },
       {
         id: '2',
-        question: 'Kan Jeg Printe Matematikopgaver og Arbejdsark Hjemme på Almindelig Printer?',
+        question: 'Kan Jeg Printe Gratis Arbejdsark til Børnehaveklasse Hjemme på Printer?',
         answer: `Ja, alle opgaver til print kan printes på enhver almindelig hjemmeprinter. Download som PDF eller JPEG format. Begge formater fungerer perfekt med standard printere. Ingen specielt udstyr kræves. Print så mange kopier som du har brug for til din klasse eller hjemmeundervisning.
 
 PDF formatet bevarer høj kvalitet ved gentagne prints. Gem filerne og print igen senere. Del PDF filer med kolleger der kan printe deres egne kopier. Dette gør det nemt at dele arbejdsark mellem lærere på samme skole.
@@ -496,7 +542,7 @@ Brug til fremmedsprog undervisning i engelsk, tysk eller fransk klasser. Børn l
       },
       {
         id: '6',
-        question: 'Kan Jeg Sælge Gratis Skoleopgaver og Arbejdsark Jeg Laver med Denne Generator?',
+        question: 'Kan Jeg Sælge Gratis Arbejdsark til Børn Jeg Laver med Denne Generator?',
         answer: `Ja. Fuld Adgang abonnement inkluderer fuld kommerciel print-on-demand licens uden ekstra omkostninger. Sælg alle opgaver du laver på Teachers Pay Teachers, Etsy eller din egen hjemmeside. Ingen kreditering kræves. Ingen royalties til os. Du ejer opgaverne du laver fuldstændigt.
 
 Dette er enorm værdi sammenlignet med konkurrenter der opkræver 500-1500 kr ekstra årligt for kommercielle rettigheder. Med Fuld Adgang får du både generatorerne og licensen inkluderet i de 240 dollars om året. Ingen skjulte gebyrer eller overraskelser senere.
@@ -507,7 +553,7 @@ Mange pædagoger tjener deres abonnement ind på første måned ved at sælge op
       },
       {
         id: '7',
-        question: 'Hvor Lang Tid Tager Det at Lave Gratis Skoleopgaver og Opgaver til Print?',
+        question: 'Hvor Lang Tid Tager Det at Lave Gratis Arbejdsark til Børn og Gratis Printables?',
         answer: `Under 3 minutter fra start til færdig download for de fleste opgaver. Vælg tema eller billeder. Juster indstillinger. Klik generer. Download. Hele processen er ekstremt hurtig. Dette er perfekt når du har brug for sidste øjeblik materialer.
 
 Traditionelle metoder tager 30-60 minutter per opgave. Find billeder online. Tjek copyright. Åbn grafikprogram. Arrangér layout manuelt. Eksportér til PDF. Generatoren automatiserer alle disse trin. Du sparer minimum 27 minutter per opgave.
@@ -532,7 +578,7 @@ Print svararket og gem det i din lærermappe. Brug det til hurtig gennemgang men
 
   // Related Apps Section
   relatedApps: {
-    sectionTitle: 'Kombinér Stor og Lille med Andre Apps',
+    sectionTitle: 'Kombinér Stor og Lille Gratis Arbejdsark med Andre Apps til Børn',
     sectionDescription: 'Fuld Adgang abonnement inkluderer 33 generatorer udover stor og lille. Kombiner størrelsesopgaver med andre generatorer for komplette læringspakker.',
     ctaTitle: 'Klar til at Lave Fantastiske Arbejdsark?',
     ctaDescription: 'Tilslut dig tusindvis af pædagoger der laver professionelle arbejdsark. Ubegrænset oprettelse, kommerciel licens inkluderet.',

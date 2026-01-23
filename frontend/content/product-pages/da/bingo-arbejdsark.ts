@@ -16,7 +16,7 @@ export const bingoDaContent: ProductPageContent = {
     slug: 'bingo-arbejdsark',
     appId: 'bingo',
     title: 'Bingo Gratis Arbejdsark - Generator til Børnehaveklasse og 0. Klasse',
-    description: 'Lav professionelle bingo gratis arbejdsark til børn med vores bingo generator. Dit Grundpakke abonnement giver dig ubegrænset arbejdsark til børnehaveklasse og 0. klasse. Generer skræddersyede gratis printables perfekt til børn. Download høj-kvalitets PDF arbejdsark på under 3 minutter.',
+    description: 'Lav bingo gratis arbejdsark til børn med vores generator. Ubegrænset arbejdsark til børnehaveklasse. Download gratis printables som professionelle PDF-filer.',
     keywords: 'bingo generator, gratis arbejdsark, arbejdsark til børn, arbejdsark til børnehaveklasse, gratis printables, 0. klasse arbejdsark, 1. klasse, kopiark, billedbingo, ordbingo',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/bingo-arbejdsark',
     images: [

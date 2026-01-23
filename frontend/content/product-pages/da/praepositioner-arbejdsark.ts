@@ -15,10 +15,36 @@ export const prepositionsDaContent: ProductPageContent = {
   seo: {
     slug: 'praepositioner-arbejdsark',
     appId: 'prepositions',
-    title: 'Gratis Skoleopgaver med Præpositioner | Arbejdsark til Print til 0. Klasse og 1. Klasse',
-    description: 'Lav professionelle opgaver med præpositioner til børn i børnehaveklassen og 1. klasse. Generer tilpassede opgaver til print perfekt til rumlig læring og sprogudvikling. Download høj kvalitet PDF arbejdsark på under 3 minutter.',
+    title: 'Gratis Præpositioner Arbejdsark | Generator til Børnehaveklasse',
+    description: 'Lav gratis arbejdsark med præpositioner til børn. Generator til opgaver med rumlig læring for børnehaveklasse og 0. klasse. Download PDF på 3 minutter.',
     keywords: 'præpositioner arbejdsark, gratis skoleopgaver, opgaver til print, 0 klasse opgaver, 1 klasse undervisning, rumlig læring, sprogudvikling, præpositions-generator, kopiark, finmotorik øvelser',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/praepositioner-arbejdsark',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/prepositions/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis præpositioner arbejdsark til print - rumlig læring opgave til børnehaveklasse'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/prepositions/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis arbejdsark med præpositioner til børn - sprogudvikling øvelse til 0. klasse'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/prepositions/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Præpositions arbejdsark gratis til print - finmotorik øvelser til 1. klasse'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/prepositions/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis præpositioner opgaver til print - arbejdsark til børnehaveklassen'
+      },
+    ],
   },
 
   // Hero Section - FULL text from prepositions.md paragraphs 1-3
@@ -30,7 +56,7 @@ export const prepositionsDaContent: ProductPageContent = {
 Vores præpositions-generator hjælper børn med at lære rumlige begreber som "i", "ovenpå", "under", "ved siden af", "bag", "mellem", "over" og "foran". Børn lærer gennem billeder og visuel kontekst. Værktøjet laver automatisk opgaver der passer til børnehaveklassen, 0. klasse og 1. klasse. Alle opgaver til print er tilgængelige på dansk og 10 andre sprog.
 
 Fuld Adgang abonnementet koster $240 om året eller $25 om måneden. Dit abonnement inkluderer kommerciel licens til print-on-demand. Sælg dine præpositions-opgaver på Teachers Pay Teachers, Etsy eller andre platforme. Lav ubegrænset mange gratis skoleopgaver til dine elever. Ingen ekstra omkostninger for billeder, skabeloner eller funktioner.`,
-    previewImageSrc: '/samples/english/prepositions/prepositions_worksheet.jpeg',
+    previewImageSrc: '/samples/danish/prepositions/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Prøv Gratis',
       viewSamples: 'Se Eksempler',
@@ -51,7 +77,7 @@ Fuld Adgang abonnementet koster $240 om året eller $25 om måneden. Dit abonnem
 
   // Sample Gallery - REAL file paths from samples/english/prepositions/
   samples: {
-    sectionTitle: 'Præpositions Arbejdsark Eksempler',
+    sectionTitle: 'Gratis Præpositions Arbejdsark Eksempler til Print',
     sectionDescription: 'Download gratis eksempler på arbejdsark for at se vores professionelle kvalitet',
     badgeText: 'Gratis Eksempler',
     downloadLabel: 'Download Gratis Eksempel',
@@ -65,17 +91,31 @@ Fuld Adgang abonnementet koster $240 om året eller $25 om måneden. Dit abonnem
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/prepositions/prepositions_worksheet.jpeg',
-        answerKeySrc: '/samples/english/prepositions/prepositions_answer_key.jpeg',
-        altText: 'Præpositions arbejdsark med udfyld-det-tomme-felt opgaver til rumlig læring',
-        pdfDownloadUrl: '/samples/english/prepositions/prepositions_worksheet.pdf',
+        worksheetSrc: '/samples/danish/prepositions/sample-1.jpeg',
+        answerKeySrc: '/samples/danish/prepositions/sample-1-answer.jpeg',
+        altText: 'Gratis præpositioner arbejdsark til print - rumlig læring udfyld-det-tomme-felt opgaver til børnehaveklasse',
+        pdfDownloadUrl: '/samples/danish/prepositions/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/prepositions/prepositions multiple choice.jpeg',
-        answerKeySrc: '/samples/english/prepositions/prepositions multiple choice answer_key.jpeg',
-        altText: 'Multiple choice præpositions arbejdsark til børnehaveklassen og 0. klasse',
-        pdfDownloadUrl: '/samples/english/prepositions/prepositions multiple choice.pdf',
+        worksheetSrc: '/samples/danish/prepositions/sample-2.jpeg',
+        answerKeySrc: '/samples/danish/prepositions/sample-2-answer.jpeg',
+        altText: 'Gratis arbejdsark med præpositioner til børn - sprogudvikling øvelser til 0. klasse',
+        pdfDownloadUrl: '/samples/danish/prepositions/sample-2.pdf',
+      },
+      {
+        id: '3',
+        worksheetSrc: '/samples/danish/prepositions/sample-3.jpeg',
+        answerKeySrc: '/samples/danish/prepositions/sample-3-answer.jpeg',
+        altText: 'Præpositions arbejdsark gratis til print - finmotorik øvelser til 1. klasse undervisning',
+        pdfDownloadUrl: '/samples/danish/prepositions/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/danish/prepositions/sample-4.jpeg',
+        answerKeySrc: '/samples/danish/prepositions/sample-4-answer.jpeg',
+        altText: 'Gratis præpositioner opgaver til print - arbejdsark til børnehaveklassen og 0. klasse',
+        pdfDownloadUrl: '/samples/danish/prepositions/sample-4.pdf',
       },
     ],
   },
@@ -176,7 +216,7 @@ Høj kvalitet betyder dine arbejdsark holder længere. Kopier forbliver læsbare
 
   // How-To Guide - FULL text from prepositions.md step sections
   howTo: {
-    sectionTitle: 'Lav Præpositions-Opgaver i 5 Nemme Trin',
+    sectionTitle: 'Lav Gratis Arbejdsark med Præpositioner i 5 Nemme Trin - Arbejdsark til Børn',
     sectionDescription: 'Lav professionelle præpositions-opgaver hurtigt og nemt. Hele processen fra start til download tager under 3 minutter. Du behøver ingen designerfærdigheder. Værktøjet guider dig gennem hvert trin. Dine arbejdsark og kopiark er klar til print på få minutter.',
     ctaText: 'Start Nu',
     badgeText: 'Sådan Virker Det',
@@ -258,7 +298,7 @@ Print opgavearket i det antal eksemplarer du behøver. En kopi pr. elev for indi
 
   // Use Cases - FULL text from prepositions.md use case sections
   useCases: {
-    sectionTitle: 'Perfekt til Lærere, Forældre og Pædagoger',
+    sectionTitle: 'Perfekt til Lærere og Forældre - Gratis Arbejdsark til Børnehaveklasse',
     sectionDescription: 'Præpositions-generatoren passer til mange forskellige undervisningssituationer. Pædagoger i børnehaveklassen bruger den til introduktion af rumlige begreber. Lærere i 0. klasse og 1. klasse bruger den til at styrke sprogfærdigheder. Hjemmeskolelærere, sprogtræner og specialpædagoger finder værktøjet uvurderligt. Hver brugergruppe har unikke behov som værktøjet imødekommer perfekt.',
     badgeText: 'Hvem Er Det Til',
     readMoreLabel: 'Læs mere',
@@ -341,7 +381,7 @@ Lav niche-produkter der ikke findes i markedet. Temabaserede præpositionspakker
 
   // FAQ Section - Selected FAQs from prepositions.md
   faq: {
-    sectionTitle: 'Ofte Stillede Spørgsmål',
+    sectionTitle: 'Ofte Stillede Spørgsmål om Gratis Arbejdsark med Præpositioner',
     sectionDescription: 'Her er svar på de mest almindelige spørgsmål om præpositions-generatoren. Lær om abonnementer, funktioner og hvordan du bruger opgaver til print i din undervisning.',
     showMoreText: 'Vis flere spørgsmål',
     showLessText: 'Vis færre',
@@ -469,7 +509,7 @@ Lav niche-produkter der ikke findes i markedet. Temabaserede præpositionspakker
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Kombiner med Andre Arbejdsark Generatorer',
+    sectionTitle: 'Kombiner Gratis Arbejdsark - Andre Generatorer til Børn',
     sectionDescription: 'Lav komplette læringspakker ved at kombinere præpositions-opgaver med disse komplementære generatorer.',
     ctaTitle: 'Klar til at Lave Fantastiske Arbejdsark?',
     ctaDescription: 'Tilslut dig tusindvis af pædagoger der laver professionelle arbejdsark. Ubegrænset oprettelse, kommerciel licens inkluderet.',

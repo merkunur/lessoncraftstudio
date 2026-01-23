@@ -19,6 +19,32 @@ export const additionSvContent: ProductPageContent = {
     description: 'Skapa professionella additionsarbetsblad med vår bildbaserade matematik arbetsblad generator. Generera skräddarsydda utskrivbara matte övningar perfekta för förskoleklass och lågstadiet. Ladda ner högkvalitativa PDF-arbetsblad på under 3 minuter.',
     keywords: 'arbetsblad gratis, addition och subtraktion, matematik arbetsblad, förskoleklass material, matte övningar, siffror och tal, additionsarbetsblad, multiplikationstabellen, klockan lära sig, bokstäver lära sig, skriva bokstäver, målarbilder barn, finmotorik övningar',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/addition-arbetsblad',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/addition/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Additionsarbetsblad gratis för förskoleklass - matematik övningar med bilder'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/addition/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis arbetsblad för barn - addition och subtraktion matte övningar'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/addition/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Matematik arbetsblad gratis - siffror och tal övningar för lågstadiet'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/addition/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Addition arbetsblad för förskoleklass - gratis utskrifter med facit'
+      },
+    ],
   },
 
   // Hero Section - FULL text from addition.md paragraphs 1-4
@@ -32,7 +58,7 @@ Vår additionsgenerator använder bilder och siffror för att göra matematik ko
 Addition och subtraktion är grundläggande färdigheter för förskoleklass material. Våra arbetsblad gratis för utskrift hjälper barn förstå siffror och tal genom konkreta exempel. Grundpaketsprenumerationen inkluderar kommersiell licens och tillgång till 3000+ barnvänliga bilder. Skapa professionella matte övningar snabbare än traditionella metoder.
 
 Verktyget fungerar för alla lärarnivåer. Ingen designerfarenhet behövs. Välj bilder, ställ in svårighetsgrad och generera additionsarbetsblad omedelbart. Varje arbetsblad exporteras i 300 DPI professionell kvalitet. Utmärkt för förskoleklass material och lågstadiet matematik.`,
-    previewImageSrc: '/samples/english/addition/addition_worksheet portrait.jpeg',
+    previewImageSrc: '/samples/swedish/addition/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Prova Gratis',
       viewSamples: 'Visa Exempel',
@@ -67,38 +93,31 @@ Verktyget fungerar för alla lärarnivåer. Ingen designerfarenhet behövs. Väl
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/addition/addition_worksheet portrait.jpeg',
-        answerKeySrc: '/samples/english/addition/addition_answer_key portrait.jpeg',
-        altText: 'Additionsarbetsblad i porträttformat med bildbaserade övningar för förskoleklass',
-        pdfDownloadUrl: '/samples/english/addition/addition_worksheet portrait.pdf',
+        worksheetSrc: '/samples/swedish/addition/sample-1.jpeg',
+        answerKeySrc: '/samples/swedish/addition/sample-1-answer.jpeg',
+        altText: 'Additionsarbetsblad gratis för förskoleklass - matematik övningar med bilder och siffror',
+        pdfDownloadUrl: '/samples/swedish/addition/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/addition/addition_worksheet landscape.jpeg',
-        answerKeySrc: '/samples/english/addition/addition_answer_key landscape.jpeg',
-        altText: 'Additionsarbetsblad i landskapsformat med färgglada bilder för lågstadiet',
-        pdfDownloadUrl: '/samples/english/addition/addition_worksheet landscape.pdf',
+        worksheetSrc: '/samples/swedish/addition/sample-2.jpeg',
+        answerKeySrc: '/samples/swedish/addition/sample-2-answer.jpeg',
+        altText: 'Gratis arbetsblad addition och subtraktion - matte övningar för lågstadiet',
+        pdfDownloadUrl: '/samples/swedish/addition/sample-2.pdf',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/addition/image and number.jpeg',
-        answerKeySrc: '/samples/english/addition/image and number answer_key.jpeg',
-        altText: 'Bild och siffra additionsövningar för taluppfattning',
-        pdfDownloadUrl: '/samples/english/addition/image and number.pdf',
+        worksheetSrc: '/samples/swedish/addition/sample-3.jpeg',
+        answerKeySrc: '/samples/swedish/addition/sample-3-answer.jpeg',
+        altText: 'Matematik arbetsblad gratis med siffror och tal - bild och nummer övningar',
+        pdfDownloadUrl: '/samples/swedish/addition/sample-3.pdf',
       },
       {
         id: '4',
-        worksheetSrc: '/samples/english/addition/find addend.jpeg',
-        answerKeySrc: '/samples/english/addition/find addend answer_key.jpeg',
-        altText: 'Hitta addenden övningar för algebraiskt tänkande',
-        pdfDownloadUrl: '/samples/english/addition/find addend.pdf',
-      },
-      {
-        id: '5',
-        worksheetSrc: '/samples/english/addition/mixed mode.jpeg',
-        answerKeySrc: '/samples/english/addition/mixed mode answer_key.jpeg',
-        altText: 'Blandat läge additionsarbetsblad med varierade övningstyper',
-        pdfDownloadUrl: '/samples/english/addition/mixed mode.pdf',
+        worksheetSrc: '/samples/swedish/addition/sample-4.jpeg',
+        answerKeySrc: '/samples/swedish/addition/sample-4-answer.jpeg',
+        altText: 'Arbetsblad för barn addition - hitta addenden övningar för förskoleklass material',
+        pdfDownloadUrl: '/samples/swedish/addition/sample-4.pdf',
       },
     ],
   },

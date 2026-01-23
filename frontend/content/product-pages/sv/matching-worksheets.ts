@@ -15,16 +15,42 @@ export const matchingSvContent: ProductPageContent = {
   seo: {
     slug: 'matchnings-arbetsblad',
     appId: 'matching',
-    title: 'Matchningsarbetsblad Gratis - Matematik Arbetsblad och Bokstäver Lära Sig | MatchUp Maker för Förskoleklass Material',
-    description: 'Skapa professionella matchningsövningar med vår arbetsblad gratis generator. Generera anpassningsbara matematik arbetsblad och bokstäver lära sig material perfekt för förskoleklass material och årskurs 1-3. Ladda ner högkvalitativa PDF-arbetsblad på under 3 minuter.',
-    keywords: 'matchningsarbetsblad, arbetsblad gratis, förskoleklass material, matematik arbetsblad, bokstäver lära sig, matchningsövningar, finmotorik övningar, målarbilder barn, siffror och tal, multiplikationstabellen',
+    title: 'Gratis Arbetsblad Matchning | Matchningsövningar för Förskoleklass',
+    description: 'Skapa gratis matchningsarbetsblad för förskoleklass och årskurs 1-3. Generera PDF-arbetsblad på under 3 minuter. 3000+ bilder, kommersiell licens inkluderad.',
+    keywords: 'matchningsarbetsblad, gratis arbetsblad, förskoleklass material, matematik arbetsblad, bokstäver lära sig, matchningsövningar, finmotorik övningar, målarbilder barn, siffror och tal, multiplikationstabellen',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/matchnings-arbetsblad',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/matching/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis arbetsblad matchningsövningar för förskoleklass - visuell parbildning för barn',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/matching/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Arbetsblad för barn matchning med bilder och ord - ordförrådsträning för lågstadiet',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/matching/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis utskrifter matchningsarbetsblad - anpassade matchningsövningar för tematisk undervisning',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/matching/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Arbetsblad för förskoleklass matchning - finmotorik övningar med bildparbildning',
+      },
+    ],
   },
 
   // Hero Section - FULL text from matching.md paragraphs 1-4
   hero: {
-    title: 'Matchningsarbetsblad Gratis',
-    subtitle: 'Matematik Arbetsblad och Bokstäver Lära Sig - MatchUp Maker för Förskoleklass Material',
+    title: 'Gratis Arbetsblad Matchning - Matchningsövningar',
+    subtitle: 'Arbetsblad för Barn och Förskoleklass Material',
     description: `Skapa professionella matchningsövningar med vår arbetsblad gratis generator. Din Grundpaketet-prenumeration ger dig obegränsad skapande av arbetsblad utan avgifter per arbetsblad. Generera anpassningsbara matematik arbetsblad och bokstäver lära sig material perfekt för förskoleklass material och årskurs 1-3. Ladda ner högkvalitativa PDF-arbetsblad på under 3 minuter.
 
 Matchningsgeneratorn erbjuder fyra olika matchningslägen. Matcha bilder med bokstäver för alfabetsträning. Matcha bild plus ord med bild plus ord för ordförrådsbyggande. Välj bild eller ord kontra bild eller ord för flexibel differentiering. Använd anpassade ord för tematisk undervisning.
@@ -32,7 +58,7 @@ Matchningsgeneratorn erbjuder fyra olika matchningslägen. Matcha bilder med bok
 Lämplig för förskoleklass material, årskurs 1, årskurs 2 och årskurs 3. Perfekt för matematik arbetsblad om siffror och tal, addition och subtraktion. Idealisk för bokstäver lära sig genom matchningsaktiviteter. Kombinera med målarbilder barn för komplett finmotorik övningar.
 
 Varje arbetsblad gratis mall inkluderar fullt redigerbar canvas. Dra, rotera, skala och ta bort alla element med din mus. Ladda upp dina egna bilder för personalisering. Välj bland 3000+ bilder organiserade efter tema. Exportera som professionell 300 DPI PDF eller JPEG för utskrift eller försäljning online.`,
-    previewImageSrc: '/samples/english/matching/matching portrait.jpeg',
+    previewImageSrc: '/samples/swedish/matching/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Prova Gratis',
       viewSamples: 'Visa Exempel',
@@ -51,9 +77,9 @@ Varje arbetsblad gratis mall inkluderar fullt redigerbar canvas. Dra, rotera, sk
     },
   },
 
-  // Sample Gallery - REAL file paths from samples/english/matching/
+  // Sample Gallery - REAL file paths from samples/swedish/matching/
   samples: {
-    sectionTitle: 'Matchningsarbetsblad Exempel',
+    sectionTitle: 'Gratis Arbetsblad Matchning - Exempelarbetsblad för Barn',
     sectionDescription: 'Ladda ner gratis exempelarbetsblad för att se vår professionella kvalitet',
     downloadLabel: 'Ladda Ner Gratis Exempel',
     worksheetLabel: 'Arbetsblad',
@@ -67,31 +93,38 @@ Varje arbetsblad gratis mall inkluderar fullt redigerbar canvas. Dra, rotera, sk
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/matching/matching portrait.jpeg',
-        answerKeySrc: '/samples/english/matching/matching portrait answer_key.jpeg',
-        altText: 'Matchningsarbetsblad i porträttformat med bilder och bokstäver för förskoleklass',
-        pdfDownloadUrl: '/samples/english/matching/matching portrait.pdf',
+        worksheetSrc: '/samples/swedish/matching/sample-1.jpeg',
+        answerKeySrc: '/samples/swedish/matching/sample-1-answer.jpeg',
+        altText: 'Gratis arbetsblad matchningsövningar för förskoleklass - bild-till-bokstav parbildning',
+        pdfDownloadUrl: '/samples/swedish/matching/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/matching/image and word.jpeg',
-        answerKeySrc: '/samples/english/matching/image and word answer_key.jpeg',
-        altText: 'Matchningsövning med bilder och ord för ordförrådsträning lågstadiet',
-        pdfDownloadUrl: '/samples/english/matching/image and word.pdf',
+        worksheetSrc: '/samples/swedish/matching/sample-2.jpeg',
+        answerKeySrc: '/samples/swedish/matching/sample-2-answer.jpeg',
+        altText: 'Arbetsblad för barn matchning med bilder och ord - ordförrådsträning lågstadiet',
+        pdfDownloadUrl: '/samples/swedish/matching/sample-2.pdf',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/matching/image and custom word.jpeg',
-        answerKeySrc: '/samples/english/matching/image and custom word answer_key.jpeg',
-        altText: 'Anpassad matchningsarbetsblad med egna ord för tematisk undervisning',
-        pdfDownloadUrl: '/samples/english/matching/image and custom word.pdf',
+        worksheetSrc: '/samples/swedish/matching/sample-3.jpeg',
+        answerKeySrc: '/samples/swedish/matching/sample-3-answer.jpeg',
+        altText: 'Gratis utskrifter matchningsarbetsblad - anpassade övningar för tematisk undervisning',
+        pdfDownloadUrl: '/samples/swedish/matching/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/swedish/matching/sample-4.jpeg',
+        answerKeySrc: '/samples/swedish/matching/sample-4-answer.jpeg',
+        altText: 'Arbetsblad för förskoleklass matchning - finmotorik övningar med bildparbildning',
+        pdfDownloadUrl: '/samples/swedish/matching/sample-4.pdf',
       },
     ],
   },
 
   // Features Grid - FULL text from matching.md feature sections
   features: {
-    sectionTitle: 'MatchUp Maker Funktioner - Allt Du Behöver för Arbetsblad Gratis och Förskoleklass Material',
+    sectionTitle: 'Gratis Arbetsblad Generator - Funktioner för Förskoleklass',
     sectionDescription: 'Matchningsgeneratorn innehåller sju professionella funktioner för att skapa arbetsblad gratis. Varje funktion designad för lärare som behöver matematik arbetsblad och bokstäver lära sig material snabbt. Perfekt för förskoleklass material, lågstadiet och hemundervisning. Alla funktioner inkluderade i din Grundpaketet-prenumeration utan extra avgifter.',
     highlightBadgeText: 'Nyckelfunktion',
     readMoreLabel: 'Läs mer',
@@ -374,7 +407,7 @@ Använd Pinterest för att marknadsföra dina multiplikationstabellen resurser. 
 
   // FAQ Section - Selected FAQs from matching.md
   faq: {
-    sectionTitle: 'Vanliga Frågor Om Matchningsarbetsblad',
+    sectionTitle: 'Vanliga Frågor - Gratis Arbetsblad och Arbetsblad för Barn',
     sectionDescription: 'Vanliga frågor om siffror och tal, klockan lära sig och addition och subtraktion arbetsblad. Svar på frågor om multiplikationstabellen, finmotorik övningar och målarbilder barn.',
     showMoreText: 'Visa fler frågor',
     showLessText: 'Visa färre',
@@ -479,7 +512,7 @@ Använd Pinterest för att marknadsföra dina multiplikationstabellen resurser. 
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Kombinera med Andra Arbetsblad Generatorer',
+    sectionTitle: 'Fler Gratis Arbetsblad Generatorer',
     sectionDescription: 'Skapa kompletta lärpaket genom att kombinera matchningsarbetsblad med dessa kompletterande generatorer för klockan lära sig, siffror och tal och addition och subtraktion.',
     ctaTitle: 'Redo att Skapa Fantastiska Matchningsarbetsblad?',
     ctaDescription: 'Gå med tusentals lärare som skapar professionella arbetsblad. Obegränsad generering, kommersiell licens ingår.',

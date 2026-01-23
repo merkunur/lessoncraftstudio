@@ -17,16 +17,42 @@ export const billedsorteringDaContent: ProductPageContent = {
   seo: {
     slug: 'billedsortering-arbejdsark',
     appId: 'picture-sort',
-    title: 'Billedsortering Opgaveark - Gratis Skoleopgaver til Print - Arbejdsark Børnehaveklasse og 1. Klasse',
-    description: 'Opret professionelle billedsorteringsopgaver med vores opgavegenerator. Dit Fuld Adgang abonnement giver dig ubegrænset oprettelse af arbejdsark uden betaling per opgave. Generer specialtilpassede opgaver til print perfekt til børnehaveklasse og 1. klasse elever. Download højkvalitets PDF arbejdsark på under 3 minutter.',
-    keywords: 'billedsortering, opgaveark, gratis skoleopgaver, arbejdsark til print, 0. klasse opgaver, 1. klasse, børnehaveklasse, kopiark, kategorisering, sorteringsaktiviteter',
+    title: 'Billedsortering Gratis Arbejdsark - Generator til Børnehaveklasse',
+    description: 'Lav billedsortering gratis arbejdsark med vores generator. Download gratis printables som PDF. Arbejdsark til børn for børnehaveklasse på 3 minutter!',
+    keywords: 'billedsortering, gratis arbejdsark, gratis arbejdsark til børn, gratis printables, arbejdsark til børn, arbejdsark til børnehaveklasse, 0. klasse opgaver, 1. klasse, kopiark, kategorisering, sorteringsaktiviteter',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/billedsortering-arbejdsark',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/picture-sort/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Billedsortering gratis arbejdsark - sorteringsaktiviteter til børnehaveklasse'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/picture-sort/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis arbejdsark billedsortering - kategorisering arbejdsark til børn'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/picture-sort/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Arbejdsark til børn billedsortering - gratis printables for 0. klasse'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/picture-sort/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Arbejdsark til børnehaveklasse billedsortering - sortering gratis arbejdsark'
+      },
+    ],
   },
 
   // Hero Section - FULL text from picture-sort.md paragraphs 1-4
   hero: {
-    title: 'Billedsortering Opgaveark – Gratis Skoleopgaver',
-    subtitle: 'Arbejdsark til Print til Børnehaveklasse og 1. Klasse',
+    title: 'Billedsortering Generator – Gratis Arbejdsark',
+    subtitle: 'Arbejdsark til Børn til Børnehaveklasse og 1. Klasse',
     description: `Opret professionelle billedsorteringsopgaver med vores opgavegenerator. Dit Fuld Adgang abonnement giver dig ubegrænset oprettelse af arbejdsark uden betaling per opgave. Generer specialtilpassede opgaver til print perfekt til børnehaveklasse og 1. klasse elever. Download højkvalitets PDF arbejdsark på under 3 minutter.
 
 Billedsortering opgaver hjælper børn med at udvikle kritisk tænkning og kategoriseringsevner. Vores generator gør det nemt at oprette engagerende sorteringsaktiviteter. Vælg temaer eller specifikke billeder til venstre og højre kategorier. Hver opgave inkluderer et facitark der viser korrekt sortering.
@@ -34,7 +60,7 @@ Billedsortering opgaver hjælper børn med at udvikle kritisk tænkning og kateg
 Generer opgaver til print med to sorteringskategorier perfekt til kopiark. Børn sorterer billeder i venstre eller højre gruppe baseret på fælles træk. Egnet til 0. klasse opgaver og 1. klasse undervisning. Download som PDF eller JPEG format til klasseværelset eller hjemmeundervisning.
 
 Fuld Adgang abonnement inkluderer ubegrænset adgang til alle 33 opgavegeneratorer. Opret så mange arbejdsark som du har brug for. Intet ekstra gebyr per opgave eller per billede. Kommerciel licens inkluderet til at sælge dine opgaver.`,
-    previewImageSrc: '/samples/english/picture sort/picture sort portrait.jpeg',
+    previewImageSrc: '/samples/danish/picture-sort/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Prøv Gratis',
       viewSamples: 'Se Eksempler',
@@ -53,9 +79,9 @@ Fuld Adgang abonnement inkluderer ubegrænset adgang til alle 33 opgavegenerator
     },
   },
 
-  // Sample Gallery - REAL file paths from samples/english/picture sort/
+  // Sample Gallery - REAL file paths from samples/danish/picture-sort/
   samples: {
-    sectionTitle: 'Billedsortering Eksempler',
+    sectionTitle: 'Gratis Arbejdsark Eksempler - Billedsortering til Børn',
     sectionDescription: 'Download gratis eksempler på arbejdsark for at se vores professionelle kvalitet',
     badgeText: 'Gratis Eksempler',
     downloadLabel: 'Download Gratis Eksempel',
@@ -69,24 +95,38 @@ Fuld Adgang abonnement inkluderer ubegrænset adgang til alle 33 opgavegenerator
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/picture sort/picture sort portrait.jpeg',
-        answerKeySrc: '/samples/english/picture sort/picture sort portrait answer_key.jpeg',
-        altText: 'Billedsortering opgaveark med to kategorier til børnehaveklasse',
-        pdfDownloadUrl: '/samples/english/picture sort/picture sort portrait.pdf',
+        worksheetSrc: '/samples/danish/picture-sort/sample-1.jpeg',
+        answerKeySrc: '/samples/danish/picture-sort/sample-1-answer.jpeg',
+        altText: 'Billedsortering gratis arbejdsark - sorteringsaktiviteter kopiark til børnehaveklasse',
+        pdfDownloadUrl: '/samples/danish/picture-sort/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/picture sort/picture sort landscape.jpeg',
-        answerKeySrc: '/samples/english/picture sort/picture sort landscape answer_key.jpeg',
-        altText: 'Billedsortering arbejdsark i liggende format til 1. klasse',
-        pdfDownloadUrl: '/samples/english/picture sort/picture sort landscape.pdf',
+        worksheetSrc: '/samples/danish/picture-sort/sample-2.jpeg',
+        answerKeySrc: '/samples/danish/picture-sort/sample-2-answer.jpeg',
+        altText: 'Gratis arbejdsark til børn billedsortering - kategorisering opgaveark for 0. klasse',
+        pdfDownloadUrl: '/samples/danish/picture-sort/sample-2.pdf',
+      },
+      {
+        id: '3',
+        worksheetSrc: '/samples/danish/picture-sort/sample-3.jpeg',
+        answerKeySrc: '/samples/danish/picture-sort/sample-3-answer.jpeg',
+        altText: 'Arbejdsark til børnehaveklasse billedsortering - gratis printables sortering',
+        pdfDownloadUrl: '/samples/danish/picture-sort/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/danish/picture-sort/sample-4.jpeg',
+        answerKeySrc: '/samples/danish/picture-sort/sample-4-answer.jpeg',
+        altText: 'Billedsortering arbejdsark til børn - gratis arbejdsark kategorisering kopiark',
+        pdfDownloadUrl: '/samples/danish/picture-sort/sample-4.pdf',
       },
     ],
   },
 
   // Features Grid - FULL text from picture-sort.md feature sections
   features: {
-    sectionTitle: 'Billedsortering Funktioner - Alt Du Behøver til Gratis Skoleopgaver og Arbejdsark til Print',
+    sectionTitle: 'Billedsortering Funktioner - Gratis Arbejdsark og Arbejdsark til Børn',
     sectionDescription: 'Vores billedsortering generator kombinerer kraftfulde funktioner med nem betjening. Opret professionelle opgaver til print på minutter. Fuld Adgang abonnement giver dig adgang til alle værktøjer uden ekstra gebyrer. Hver funktion er designet til at spare tid og skabe engagerende kopiark til børnehaveklasse og 1. klasse.',
     highlightBadgeText: 'Vigtig Funktion',
     readMoreLabel: 'Læs mere',
@@ -101,7 +141,7 @@ Fuld Adgang abonnement inkluderer ubegrænset adgang til alle 33 opgavegenerator
       {
         id: '1',
         icon: '⚡',
-        title: 'Opret Billedsortering Opgaver til Print på 3 Klik',
+        title: 'Opret Billedsortering Gratis Arbejdsark på 3 Klik',
         description: `Vælg tema for venstre kategori og højre kategori. Klik Opret Opgaveark knappen. Din sorteringsaktivitet genereres øjeblikkeligt. Hele processen tager under ét minut fra start til færdig opgave til print.
 
 Temabaseret generering fylder automatisk 12 billeder. Systemet sikrer ligelig fordeling mellem begge kategorier. Børn sorterer billeder baseret på det valgte tema. Perfekt til hurtig forberedelse af gratis skoleopgaver.
@@ -116,7 +156,7 @@ Søgefunktionen finder billeder hurtigt. Skriv æble for at se alle frugtbillede
       {
         id: '2',
         icon: '✏️',
-        title: 'Rediger Alt på Dit Arbejdsark - Fuld Tilpasning af Kopiark til 0. Klasse og 1. Klasse',
+        title: 'Rediger Arbejdsark til Børn - Fuld Tilpasning til Børnehaveklasse',
         description: `Hvert element på lærredet kan redigeres frit. Træk billeder til nye positioner med musen. Roter elementer for bedre layout. Skaler billeder større eller mindre efter behov. Fuld kontrol over hver detalje.
 
 Klik på ethvert objekt for at vælge det. Værktøjslinjen viser justeringsmuligheder. Arranger billeder i kolonner eller rækker. Centrer elementer på siden med ét klik. Præcis placering skaber professionelle arbejdsark.
@@ -133,7 +173,7 @@ Fortryd og Gentag knapper lader dig eksperimentere sikkert. Lås elementer for a
       {
         id: '3',
         icon: '📤',
-        title: 'Upload Dine Egne Billeder - Personaliser Gratis Skoleopgaver og Arbejdsark',
+        title: 'Upload Dine Egne Billeder - Personaliser Gratis Arbejdsark til Børn',
         description: `Multi-fil upload understøtter JPEG, PNG og GIF formater. Klik Vælg Filer knappen i Upload sektionen. Vælg flere billeder på samme tid fra din computer. Uploadede billeder vises øjeblikkeligt i din session. Hurtig upload selvom med langsomme forbindelser.
 
 Kombiner biblioteksbilleder med dine egne fotos. Opret sorteringsopgaver med klasseværelsets genstande. Brug billeder af elevernes navne eller personlige ejendele. Personalisering øger engagement i børnehaveklasse aktiviteter. Børn genkender velkendte objekter bedre.
@@ -148,7 +188,7 @@ Tag fotos med smartphone eller tablet. Upload direkte fra digital kamera. Scan h
       {
         id: '4',
         icon: '🌍',
-        title: '11 Sprog Understøttet - Arbejdsark til Print på Dansk og 10 Andre Sprog',
+        title: '11 Sprog Understøttet - Gratis Printables på Dansk og 10 Andre Sprog',
         description: `Brugergrænsefladen skifter øjeblikkeligt mellem 11 sprog. Vælg Dansk, Engelsk, Tysk, Fransk, Spansk, Portugisisk, Italiensk, Hollandsk, Svensk, Norsk eller Finsk. Alle knapper og etiketter oversættes automatisk. Opret gratis skoleopgaver på hvilket som helst understøttet sprog. Ingen genindlæsning nødvendig ved sprogskift.
 
 Billednavne bestemmer indhold sprog for tekstbaserede apps. Billedsortering bruger visuel kategorisering så sprog påvirker primært grænseflade. Vælg det sprog dine elever lærer. Perfekt til internationale skoler og flersprogede klasseværelser. Visuelle opgaver fungerer på tværs af alle sproggrænser.
@@ -161,7 +201,7 @@ Skift sprog når som helst uden at miste dit arbejde. Opret opgaver til print p�
       {
         id: '5',
         icon: '💰',
-        title: 'Kommerciel Print-on-Demand Licens - Sælg Dine Arbejdsark og Opgaver til Print',
+        title: 'Kommerciel Licens - Sælg Dine Gratis Arbejdsark og Printables',
         description: `Fuld Adgang abonnement inkluderer fuld kommerciel POD licens. Sælg dine sorteringsopgaver på Teachers Pay Teachers. Opret Etsy butik med printbare kopiark. Udgiv lavindholdsarbejdsbøger på Amazon KDP. Fuld kommerciel ret inkluderet i abonnementsprisen.
 
 Ingen tilskrivning påkrævet på kommercielle produkter. Brug 300 DPI eksport til professionel printkvalitet. Opret produktpakker med flere opgaver til print. Kombinér sorteringsaktiviteter med andre arbejdsark typer. Sælg ubegrænset antal eksemplarer uden ekstra gebyr.
@@ -176,7 +216,7 @@ Teachers Pay Teachers lærere rapporterer stærkt salg. Etsy shops med uddannels
       {
         id: '6',
         icon: '🎨',
-        title: '3000+ Billedbibliotek - Børnevenlige Billeder til Alle Gratis Skoleopgaver',
+        title: '3000+ Billedbibliotek - Børnevenlige Billeder til Gratis Arbejdsark',
         description: `Adgang til over 3000 professionelle børnevenlige billeder. Organiseret efter temaer for nem browsing. Søg efter nøgleord for at finde specifikke emner. Alle billeder inkluderet i din Fuld Adgang abonnement. Intet ekstra gebyr for billedadgang eller brug.
 
 Temaer dækker årstider, dyr, mad, transport, former og meget mere. Hvert tema indeholder snesevis af relevante billeder. Konsistent kunststil på tværs af hele biblioteket. Perfekt til sammenhængende kopiark og opgaver til print. Professionelt tegnet kunst i venlig stil.
@@ -189,7 +229,7 @@ Nye billeder tilføjes regelmæssigt til biblioteket. Sæsonbestemt indhold unde
       {
         id: '7',
         icon: '🖨️',
-        title: 'Professionel 300 DPI Kvalitet - Højkvalitets Opgaver til Print og Kopiark',
+        title: 'Professionel 300 DPI Kvalitet - Arbejdsark til Børnehaveklasse',
         description: `Eksportér opgaver til print i krystalklar 300 DPI opløsning. PDF format bevarer skarp detaljekvalitet. JPEG filer tilbyder kompatibilitet med alle printere. Begge formater download på sekunder. Hurtig eksport selvom for store filer.
 
 Gråtone mulighed sparer printerblæk betydeligt. Behold al detalje mens du reducerer farveomkostninger. Perfekt til masseproduktion af arbejdsark. Børnehaveklasse lærere værdsætter blækbesparende muligheder. Op til 70% blækbesparelse sammenlignet med farve.
@@ -206,7 +246,7 @@ Facitark viser løsningerne tydeligt. Korrekt sortering markeret visuelt. Børn 
 
   // How-To Guide - FULL text from picture-sort.md step sections
   howTo: {
-    sectionTitle: 'Sådan Opretter Du Billedsortering Opgaver til Print på 5 Nemme Trin',
+    sectionTitle: 'Sådan Opretter Du Gratis Arbejdsark til Billedsortering på 5 Nemme Trin',
     sectionDescription: 'Opret professionelle billedsortering arbejdsark på under 3 minutter. Denne trin-for-trin guide viser præcis hvordan man bruger generatoren. Ingen designerfaring påkrævet. Følg disse fem simple trin for perfekte opgaver til print hver gang. Børnehaveklasse og 1. klasse lærere kan oprette kopiark øjeblikkeligt.',
     ctaText: 'Start Nu',
     badgeText: 'Sådan Virker Det',
@@ -221,7 +261,7 @@ Facitark viser løsningerne tydeligt. Korrekt sortering markeret visuelt. Børn 
       {
         id: '1',
         number: 1,
-        title: 'Vælg Dit Indhold til Billedsortering Opgaver til Print',
+        title: 'Vælg Dit Indhold til Billedsortering Gratis Arbejdsark',
         description: `Start med at vælge sprog i sprogvælgeren. Dansk sætter grænsefladen til danske instruktioner. Åbn Sorteringskategorier sektionen i venstre sidepanel. Denne sektion kontrollerer hvilke billeder vises i din opgave til print.
 
 For hurtig oprettelse vælg temaer fra dropdown menuerne. Vælg et tema for Venstre Kategori som Dyr. Vælg et tema for Højre Kategori som Køretøjer. Generatoren fylder automatisk 12 relevante billeder. Dette er hurtigste vej til færdige gratis skoleopgaver.
@@ -236,7 +276,7 @@ Upload sektionen lader dig tilføje egne billeder. Klik Vælg Filer for multi-fi
       {
         id: '2',
         number: 2,
-        title: 'Tilpas Indstillinger for Arbejdsark til Print',
+        title: 'Tilpas Indstillinger for Arbejdsark til Børn',
         description: `Åbn Sideopsætning sektionen for layoutkontrol. Vælg sidestørrelse fra dropdown menuen. Letter Stående passer standard amerikanske printere. A4 Stående er standard i Danmark og Europa. Vælg det format der matcher dine printere.
 
 Letter Liggende giver bredere layout til flere billeder. A4 Liggende fungerer identisk på europæiske printere. Kvadrat format perfekt til sociale medieindlæg. Brugerdefineret størrelse giver præcis dimensioner i pixels. Klik Anvend Størrelse efter ændringer.
@@ -251,7 +291,7 @@ Baggrundstema dropdown tilføjer dekorative baggrunde. Over 100 temaer tilgænge
       {
         id: '3',
         number: 3,
-        title: 'Generer Din Opgave til Print',
+        title: 'Generer Dit Gratis Arbejdsark',
         description: `Klik Opret Opgaveark knappen i øverste højre hjørne. Generatoren arrangerer alle valgte billeder automatisk. Venstre kategori billeder placeres på venstre side. Højre kategori billeder går til højre. Hele processen tager under 5 sekunder.
 
 Opgaveark fanen viser det genererede arbejdsark. Billeder fordeles jævnt på tværs af lærredet. 12 billeder passer komfortabelt på én side. Layout balancerer æstetik med funktionalitet. Børn kan nemt se alle sorteringsmuligheder.
@@ -266,7 +306,7 @@ Hvis du ikke kan lide resultatet klik Ryd Alt. Start forfra med nye valg. Fortry
       {
         id: '4',
         number: 4,
-        title: 'Rediger på Lærredet - Tilpas Kopiark til 0. Klasse og 1. Klasse Behov',
+        title: 'Rediger på Lærredet - Tilpas Arbejdsark til Børnehaveklasse Behov',
         description: `Klik på ethvert billede for at vælge det. Blå kontur viser valgte objekter. Træk billeder til nye positioner med musen. Roter med hjørnehåndtagene. Skaler ved at trække sidefastgørelsespunkter. Fuld kontrol over hver detalje.
 
 Objektværktøjslinjen vises når noget er valgt. Lag knapper sender objekter frem eller tilbage. Justeringsknapper arrangerer flere objekter. Venstrejuster sætter alle til venstre kant. Centrer vandret placerer elementer i midten. Brug disse til hurtig organisering.
@@ -281,7 +321,7 @@ Lås knappen fryser objekter på plads. Forhindrer utilsigtede ændringer. Lås 
       {
         id: '5',
         number: 5,
-        title: 'Download og Print Arbejdsark',
+        title: 'Download og Print Gratis Printables',
         description: `Klik Download knappen i øverste højre. Dropdown menu viser fire muligheder. Opgaveark JPEG downloader elevkopien som billedfil. Facitark JPEG giver svarskema som billede. JPEG filer åbner på alle enheder.
 
 Opgaveark PDF og Facitark PDF downloader i PDF format. PDF bevarer højeste kvalitet til print. Professionelle printservices foretrækker PDF. Hjemmeprintere håndterer begge formater fint. Vælg baseret på din printopsætning.
@@ -298,7 +338,7 @@ Filer downloader til din computer øjeblikkeligt. Find dem i Downloads mappe. Fi
 
   // Use Cases - FULL text from picture-sort.md use case sections
   useCases: {
-    sectionTitle: 'Perfekt til Pædagoger, Forældre og Undervisere',
+    sectionTitle: 'Perfekt til Pædagoger - Gratis Arbejdsark til Børn og Børnehaveklasse',
     sectionDescription: 'Billedsortering opgaver til print gavner forskellige undervisningssituationer. Børnehaveklasse pædagoger bruger dem til kognitiv udvikling. 1. klasse lærere integrerer sortering i læseplaner. Hjemmeundervisende forældre skaber struktureret læring. Specialpædagoger differentierer efter elevbehov. Hver brugergruppe finder unik værdi.',
     badgeText: 'Hvem Er Det Til',
     readMoreLabel: 'Læs mere',
@@ -308,7 +348,7 @@ Filer downloader til din computer øjeblikkeligt. Find dem i Downloads mappe. Fi
         id: '1',
         icon: '👩‍🏫',
         title: 'Børnehaveklasse Pædagoger',
-        subtitle: 'Gratis Skoleopgaver og Opgaver til Print til 0. Klasse Udvikling',
+        subtitle: 'Gratis Arbejdsark og Arbejdsark til Børn til 0. Klasse Udvikling',
         description: `Børnehaveklasse pædagoger bruger billedsortering dagligt til kognitiv udvikling. Sorteringsaktiviteter lærer kategoriseringsfærdigheder tidligt. Børn identificerer fælles træk mellem objekter. Visuel diskrimination forbedres gennem sammenligning. Disse fundamentale færdigheder forbereder på 0. klasse læring.
 
 Opret opgaver til print med tydelige kontrasterende kategorier. Dyr versus køretøjer giver synlig forskel. Mad versus legetøj fungerer godt for 3-5 årige. Store versus små objekter lærer størrelseskoncepter. Enkle kategorier opbygger tillid før mere komplekse sorteringer.
@@ -322,7 +362,7 @@ Brug sorteringsopgaver til sprogudvikling. Børn forklarer hvorfor de valgte hve
         id: '2',
         icon: '📚',
         title: '1. Klasse og 2. Klasse Lærere',
-        subtitle: 'Matematikopgaver og Læse og Skrive Arbejdsark Integration',
+        subtitle: 'Gratis Arbejdsark til Børn og Gratis Printables Integration',
         description: `1. klasse lærere integrerer billedsortering i matematik og sprog. Matematikopgaver bruger sortering til at undervise i mønstre og klassifikation. Tæl objekter i hver kategori for tidlig addition. Sammenlign grupper for introduktion til større end mindre end koncepter. Dataindsamling starter med simple sorteringer.
 
 Læse og skrive aktiviteter parres med billedsortering. Børn skriver etiketter for hver kategori. Sætningsskrivning beskriver sorteringskriterier. Ordforrådsudvikling kommer fra billednavne. Fonologisk bevidsthed øves gennem kategorinavne.
@@ -338,7 +378,7 @@ Sæsonbestemt tematisk undervisning bruger sortering naturligt. Efterårsblade s
         id: '3',
         icon: '🏠',
         title: 'Hjemmeundervisende Forældre',
-        subtitle: 'Opgaver til Print og Arbejdsark til Flerniveau Læring',
+        subtitle: 'Gratis Printables og Arbejdsark til Børn til Flerniveau Læring',
         description: `Hjemmeundervisende forældre værdsætter fleksible opgaver til print. Billedsortering tilpasser sig flere børn på forskellige niveauer. Samme aktivitet modificeres for hver aldergruppe. Forældre sparer forberedelsestid med ét værktøj.
 
 Opret personlige sorteringsopgaver med familiefotos. Sortér familiemedlemmer efter alder eller højde. Huslige genstande grupperes efter rum. Madsortering lærer ernæringskategorier. Personalisering øger engagement og relevans.
@@ -352,7 +392,7 @@ Hjemmeundervisningssamarbejder deler opgaver til print. Forældre udveksler spec
         id: '4',
         icon: '🌍',
         title: 'Sproglærere',
-        subtitle: 'Lære Bogstaver og Opgaver til Print til Flersproget Undervisning',
+        subtitle: 'Lære Bogstaver og Gratis Arbejdsark til Flersproget Undervisning',
         description: `Sproglærere bruger billedsortering til ordforrådsudvikling. Sortér objekter efter begyndelsesbogstav. Gruppér billeder efter vokal lyde. Konsonant versus vokal sortering lærer fonetik. Visuelle ledetråde understøtter sprogindlæring.
 
 Lære bogstaver aktiviteter integreres naturligt. Alfabetsortering med billedstøtte. Børn matcher billeder til bogstavlyde. Fonologisk bevidsthed udvikles gennem auditive og visuelle forbindelser. Multisensorisk tilgang accelererer læsefærdigheder.
@@ -366,7 +406,7 @@ Andetsprogsundervisning studerende sorterer kulturelt relevante objekter. Mad fr
         id: '5',
         icon: '💜',
         title: 'Specialpædagoger',
-        subtitle: 'Finmotorik Øvelser og Differentielle Gratis Skoleopgaver',
+        subtitle: 'Finmotorik Øvelser og Arbejdsark til Børnehaveklasse',
         description: `Specialpædagoger bruger billedsortering til differentieret instruktion. Visuelle lærende trives med billedbaserede aktiviteter. Håndgribelige sorteringsopgaver hjælper kinæstetiske elever. Auditive forklaringer understøtter forskellige læringsstile. Multisensorisk tilgang når alle elever.
 
 Finmotorik øvelser integreres gennem klippeaktiviteter. Børn klipper billeder før sortering. Sakseøvelse styrker håndmuskler for skrivning. Lime færdigheder udvikler præcision og koordination. Terapeutiske mål opnås gennem engagerende opgaver.
@@ -380,7 +420,7 @@ Adfærdsmål spores gennem sorteringsaktiviteter. Fokus og opmærksomhed øges v
         id: '6',
         icon: '💰',
         title: 'Lærer Entreprenører',
-        subtitle: 'Sælg Arbejdsark og Kopiark som Printbare Opgaver til Print',
+        subtitle: 'Sælg Gratis Arbejdsark og Gratis Printables til Børn',
         description: `Lærer entreprenører sælger billedsortering opgaver til print på flere platforme. Teachers Pay Teachers købere søger færdige sorteringsaktiviteter. Etsy shops med printbare kopiark vokser hurtigt. Amazon KDP lavindholdbøger kræver minimal vedligeholdelse. Passive indkomststrømme opbygges over tid.
 
 Opret tematiske pakker med flere opgaver til print. Sæsonsamlinger sælger godt året rundt. Feriespecifikke sorteringer topper i december. Tilbage til skole pakker sælger i august. Strategisk timing maksimerer salg.
@@ -397,7 +437,7 @@ Mange danske lærere tjener 500-5000 kr. månedligt. Nogle tjener meget mere. Ko
 
   // FAQ Section - Selected FAQs from picture-sort.md
   faq: {
-    sectionTitle: 'Ofte Stillede Spørgsmål om Billedsortering Opgaver til Print og Gratis Skoleopgaver',
+    sectionTitle: 'Ofte Stillede Spørgsmål om Billedsortering Gratis Arbejdsark',
     sectionDescription: 'Lærere og forældre stiller almindelige spørgsmål før tilmelding. Denne sektion besvarer de mest hyppige spørgsmål. Forstå præcist hvad Fuld Adgang inkluderer. Lær hvordan billedsortering arbejdsark fungerer. Få afklaring om kommerciel brug og printrettigheder.',
     showMoreText: 'Vis flere spørgsmål',
     showLessText: 'Vis færre',
@@ -409,62 +449,62 @@ Mange danske lærere tjener 500-5000 kr. månedligt. Nogle tjener meget mere. Ko
     items: [
       {
         id: '1',
-        question: 'Er Denne Billedsortering Generator Virkelig Gratis at Bruge for Gratis Skoleopgaver?',
+        question: 'Hvordan Opretter Jeg Billedsortering Gratis Arbejdsark med Generatoren?',
         answer: 'Billedsorteringsgeneratoren kræver et Fuld Adgang abonnement der koster 1800 kr. årligt eller 200 kr. månedligt. Dit abonnement giver dig ubegrænset oprettelse af opgaver til print uden per-opgave gebyrer. Generer så mange gratis skoleopgaver arbejdsark som du har brug for uden ekstra omkostninger. Kernepakke inkluderer 10 populære opgavegeneratorer og koster 1080 kr. årligt. Fuld Adgang abonnement koster 1800 kr. årligt og inkluderer alle 33 generatortyper inklusive billedsortering. Begge abonnementer inkluderer kommerciel licensering, 11 sprog support og professionel 300 DPI kvalitetseksport.',
       },
       {
         id: '2',
-        question: 'Kan Jeg Printe Billedsortering Arbejdsark Derhjemme på en Almindelig Printer til 0. Klasse og 1. Klasse?',
+        question: 'Kan Jeg Printe Gratis Arbejdsark til Børn Derhjemme på en Almindelig Printer?',
         answer: 'Ja. Billedsortering kopiark printer perfekt på enhver hjemmeprinter. 300 DPI opløsning sikrer skarpe billeder på standard printere. PDF og JPEG formater fungerer med alle printermærker. Download og print på almindeligt kopipapir. A4 Stående format matcher europæiske printere perfekt. Letter Stående passer amerikanske standarder. Begge størrelser tilgængelige for børnehaveklasse, 0. klasse og 1. klasse materialer. Vælg det format der matcher dit papir. Gråtone mulighed reducerer farveblækforbrug med 70%. Perfekt til masseprint af arbejdsark. Billeddetaljer forbliver klare i sort-hvid. Børn kan farvelægge gråtone udskrifter som malebog aktivitet. Sparer penge på blækpatroner.',
       },
       {
         id: '3',
-        question: 'Har Jeg Brug for Designfærdigheder for at Oprette Matematikopgaver og Læse og Skrive Opgaver til Print?',
+        question: 'Har Jeg Brug for Designfærdigheder for at Oprette Gratis Arbejdsark til Børnehaveklasse?',
         answer: 'Ingen designerfaring påkrævet. Billedsorteringsgeneratoren er designet til lærere ikke designere. Klik Opret knappen og opgaven genereres automatisk. Tre minutters total tid fra start til færdig arbejdsark. Selv teknologi-udfordrede brugere får succes. Temabaseret generering fylder billeder automatisk. Ingen manuel placering nødvendig. Systemet arrangerer layout professionelt. Opret matematikopgaver og læse og skrive aktiviteter uden designerfaring. Point-and-click grænseflade er intuitiv. Video tutorials viser hver funktion trin for trin. Skriftlig dokumentation forklarer alle værktøjer. Kundesupport hjælper med spørgsmål. Fællesskabsforum deler tips. Designbaggrund fuldstændig unødvendig for succes.',
       },
       {
         id: '4',
-        question: 'Kan Jeg Bruge Billedsortering Opgaver til Print i Mit Klasseværelse til Børnehaveklasse, 0. Klasse og 1. Klasse Elever?',
+        question: 'Kan Jeg Bruge Gratis Printables i Mit Klasseværelse til Arbejdsark til Børnehaveklasse?',
         answer: 'Fuld Adgang abonnement inkluderer ubegrænset klasseværelsesbrug. Print så mange kopier som din børnehaveklasse, 0. klasse eller 1. klasse har brug for. Ingen per-elev gebyrer eller downloadbegrænsninger. Brug opgaver til print i fysiske og virtuelle klasseværelser. Del opgaver digitalt til fjernundervisning. Upload til Google Classroom eller lignende platforme. Email til forældre til hjemmeøvelse. Ubegrænset distribution til dine elever. Fuld Adgang dækker alle klasseværelsesanvendelser. Opret differentierede opgaver til print for forskellige evneniveauer. Samme billedsorteringsaktivitet tilpasset begyndere og avancerede. Specialpædagogisk brug fuldt inkluderet. Modificer sværhedsgrad efter individuelle behov. Samarbejde med teamkollegaer er tilladt inden for samme skole.',
       },
       {
         id: '5',
-        question: 'Hvilke Sprog er Tilgængelige for Matematikopgaver, Gangetabeller og Lære Bogstaver Opgaver til Print?',
+        question: 'Hvilke Sprog er Tilgængelige for Gratis Arbejdsark og Arbejdsark til Børn?',
         answer: 'Billedsorteringsgeneratoren understøtter 11 sprog komplet. Dansk, engelsk, tysk, fransk, spansk, portugisisk, italiensk, hollandsk, svensk, norsk og finsk alle inkluderet. Samme abonnement dækker alle sprog. Skift mellem sprog øjeblikkeligt. Matematikopgaver fungerer identisk på alle 11 sprog. Gangetabeller øvelser tilpasser sig hvert sprogs notation. Lære bogstaver aktiviteter matcher hvert alfabet. Fonologiske systemer respekteres automatisk. Flersproget funktionalitet uden ekstra omkostninger. Brugergrænsefladen oversættes fuldstændigt. Alle knapper, etiketter og instruktioner vises på valgt sprog. Dansk sprogversion inkluderer korrekt Æ, Ø og Å. Ingen engelsk blødning i dansk grænseflade. Fuld lokalisering sikrer naturlig oplevelse.',
       },
       {
         id: '6',
-        question: 'Kan Jeg Sælge Billedsortering Arbejdsark, Malebog Sider og Finmotorik Øvelser Jeg Opretter?',
+        question: 'Kan Jeg Sælge Gratis Arbejdsark til Børn og Gratis Printables Jeg Opretter?',
         answer: 'Ja. Fuld Adgang abonnement inkluderer fuld kommerciel print-on-demand licens uden ekstra omkostninger. Sælg dine billedsortering arbejdsark på Teachers Pay Teachers. Opret Etsy butik med printbare malebog sider. Udgiv lavindholdsarbejdsbøger med finmotorik øvelser på Amazon KDP. Ingen tilskrivning påkrævet på kommercielle produkter. Dit brand vises fremtrædende. Sælg ubegrænset antal eksemplarer. Ingen royalty betalinger ud over abonnementsgebyret. Fuld kommerciel ret til alt du opretter. Kombiner billedsortering med matematikopgaver for tematiske pakker. Par med gangetabeller for matematik samlinger. Inkluder læse og skrive aktiviteter i literacy bundles. Diversificerede produktlinjer maksimerer indtægtspotentiale. Kommerciel licens dækker alle kombinationer.',
       },
       {
         id: '7',
-        question: 'Hvordan Tilpasser Jeg Billedsortering Kopiark til Mine Børnehaveklasse og 1. Klasse Elevers Behov?',
+        question: 'Hvordan Tilpasser Jeg Arbejdsark til Børnehaveklasse til Mine Elevers Behov?',
         answer: 'Fuld lærredsredigering giver komplet kontrol. Træk billeder til nye positioner. Skaler objekter større for yngre børn. Roter elementer for visuel variation. Tilpas hver detalje til specifikke behov. Upload brugerdefinerede billeder for personalisering. Brug klasseværelsesfotos for genkendelse. Inkluder elevernes navne som billeder. Lokale vartegn øger relevans. Brugerdefinerede billeder gør kopiark mere engagerende. Tekstværktøjer tilføjer specialiserede instruktioner. Skriv elevnavne direkte på opgaver. Tilføj ekstra ledetråde for støttende læring. Modificer sprogkompleksitet. Syv skrifttyper og fuld farve tilpasning. Kombiner med malebog funktionalitet. Print i gråtone for farvelægning. Børn farver før de sorterer. Integrerer kunst og logik. Finmotorik øvelser gennem farvelægning.',
       },
       {
         id: '8',
-        question: 'Hvilke Aldersgrupper Fungerer Bedst med Billedsortering Matematikopgaver og Gangetabeller Opgaver til Print?',
+        question: 'Hvilke Aldersgrupper Fungerer Bedst med Gratis Arbejdsark til Børn og Gratis Printables?',
         answer: 'Billedsortering arbejdsark fungerer til børn 3-8 år. Børnehaveklasse børn sorterer simple to-kategori grupper. 0. klasse udvider til flere kategorier. 1. klasse håndterer komplekse klassifikationer. 2. klasse integrerer med matematikopgaver. 3-4 årige profiterer af store tydelige billeder. Simpel stor versus lille sortering. Dyr versus køretøjer kontraster. Grundlæggende kategorisering opbygger kognitive færdigheder. Håndgribelige klip-og-lim versioner arbejder godt. 5-6 årige håndterer nuancerede kategorier. Farvesortering med flere farvetoner. Formeklassifikation med variationer. Temasortering på tværs af underkategorier. Gangetabeller introduktion gennem visuel gruppering. 7-8 årige kombinerer sortering med matematikopgaver. Tæl objekter i hver kategori. Sammenlign gruppestørrelser matematisk. Opret grafer fra sorteringsdata. Logisk ræsonnering gennem kompleks klassifikation. Modificer sværhedsgrad for alle aldre.',
       },
       {
         id: '9',
-        question: 'Kan Jeg Uploade Mine Egne Billeder til Læse og Skrive og Lære Bogstaver Arbejdsark?',
+        question: 'Kan Jeg Uploade Mine Egne Billeder til Gratis Arbejdsark Generator?',
         answer: 'Ja. Multi-fil upload understøtter JPEG, PNG og GIF formater. Klik Vælg Filer knappen og vælg flere billeder. Uploadede fotos vises øjeblikkeligt. Kombiner med biblioteksbilleder frit. Brug elevfotos til personlige læse og skrive aktiviteter. Sortér klassemedlemmer efter navnebogstaver. Alfabetsortering med velkendte ansigter. Lære bogstaver gennem personlig forbindelse. Engagement øges dramatisk. Upload billeder af klasseværelsesmaterialer. Sortér reelle objekter børn kender. Bøger versus legetøj fra eget rum. Mad fra cafeteriet sorteret. Relevans maksimerer læring. Ingen filstørrelsesbegrænsninger på normale fotos. Uploadede billeder forbliver tilgængelige under session. Brug på tværs af flere opgaver til print. Intet ekstra gebyr for upload eller lagring. Fuld Adgang inkluderer ubegrænset brugerdefineret billedbrug.',
       },
       {
         id: '10',
-        question: 'Hvor Lang Tid Tager Det at Oprette Billedsortering Opgaver til Print, Matematikopgaver og Gangetabeller?',
+        question: 'Hvor Lang Tid Tager Det at Oprette Gratis Arbejdsark til Børn og Gratis Printables?',
         answer: 'Under 3 minutter fra start til færdig opgave til print. Temabaseret generering tager under 1 minut. Vælg temaer, klik Opret, download øjeblikkeligt. Hurtigere end fotokopieringstid. Manuel billedvalg tager 2-3 minutter. Gennemse bibliotek og vælg specifikke billeder. Arrangementer sker automatisk. Få justeringer om nødvendigt. Download og print klar hurtigt. Oprettelse af matematikopgaver og gangetabeller følger samme arbejdsgang. Komplekse opgaver til print tager maksimalt 5 minutter. Inkluderer brugerdefineret tekst og layoutjusteringer. Stadig 10x hurtigere end traditionelle metoder. Batch oprettelse går endnu hurtigere. Opret en uges opgaver på 15 minutter. Gem individuelt til hver dag. Organisér efter emne eller sværhedsgrad. Masse forberedelse sparer undervisningstid.',
       },
       {
         id: '11',
-        question: 'Inkluderer Billedsortering Opgaver til Print Facitark for Matematikopgaver og Gangetabeller?',
+        question: 'Inkluderer Gratis Arbejdsark Facitark for Arbejdsark til Børnehaveklasse?',
         answer: 'Ja. Facitark genereres automatisk for hver opgave. Klik Facitark fanen for at se løsningen. Korrekt sortering vises tydeligt. Download separat fra elevopgaven. Begge inkluderet uden ekstra gebyr. Facitark viser billeder grupperet korrekt. Visuel repræsentation af rigtige svar. Lærere retteklar på sekunder. Elever kan selvkontrollere arbejde. Fremmer selvstændig læring. For matematikopgaver viser facit alle beregninger. Gangetabeller svarnøgler inkluderet. Step-by-step løsninger når relevant. Komplet undervisningssæt med ét klik. Spar retningstid betydeligt. Print facitark separat fra elevkopier. Gem i lærermappe til reference. Eller distribuer til elever efter fuldførelse. Fleksibel anvendelse understøtter forskellige pædagogikker. Professionelt format matcher elevopgaver.',
       },
       {
         id: '12',
-        question: 'Kan Jeg Oprette Billedsortering om Specifikke Emner som Matematikopgaver, Læse og Skrive, Lære Bogstaver, Malebog og Finmotorik Øvelser?',
+        question: 'Kan Jeg Oprette Gratis Arbejdsark om Specifikke Emner til Arbejdsark til Børn?',
         answer: 'Ja. Billedbiblioteket dækker hundredvis af emner. Opret matematikopgaver med talsortering. Læse og skrive aktiviteter sorterer bogstaver. Lære bogstaver opgaver grupperer alfabetiske lyde. Malebog emner sorteres efter tema. Finmotorik øvelser gennem klipning af sorterede billeder. Matematikopgaver bruger talsortering 1-100. Sortér lige versus ulige tal. Gruppér efter tierpladser. Gangetabeller visualiseres gennem arrays. Geometriske former sorteres efter egenskaber. Fraktioner grupperes efter størrelse. Læse og skrive aktiviteter sorterer efter begyndelsesbogstaver. Vokal versus konsonant klassifikation. Lære bogstaver gennem alfabetisk rækkefølge. Ordforråd grupperet efter tema. Fonologisk bevidsthed gennem lydsortering. Tematisk indhold støtter tværfaglig læring. Videnskabsemner sorteret. Historiske perioder klassificeret. Geografiske regioner grupperet. Sociologiske koncepter kategoriseret. Billedsortering understøtter alle curriculumområder.',
       },
     ],
@@ -526,7 +566,7 @@ Mange danske lærere tjener 500-5000 kr. månedligt. Nogle tjener meget mere. Ko
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Kombiner med Andre Arbejdsark Generatorer',
+    sectionTitle: 'Kombiner med Andre Gratis Arbejdsark Generatorer',
     sectionDescription: 'Opret komplette læringspakker ved at kombinere billedsortering med disse komplementære generatorer. Fuld Adgang abonnement giver dig adgang til 33 forskellige opgavegeneratorer. Kombiner billedsortering med andre værktøjer for omfattende undervisningspakker.',
     ctaTitle: 'Klar til at Lave Fantastiske Arbejdsark?',
     ctaDescription: 'Tilslut dig tusindvis af pædagoger der laver professionelle arbejdsark. Ubegrænset oprettelse, kommerciel licens inkluderet.',

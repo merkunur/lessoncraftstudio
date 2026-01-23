@@ -15,10 +15,42 @@ export const sudokuSvContent: ProductPageContent = {
   seo: {
     slug: 'bildsudoku-arbetsblad',
     appId: 'sudoku',
-    title: 'Gratis Sudoku för Barn Generator | Arbetsblad för Förskoleklass och Lågstadiet',
-    description: 'Skapa professionella bildsudoku med vår sudoku för barn generator. Perfekt för förskoleklass material och matematik arbetsblad. Ladda ner arbetsblad gratis som högkvalitativa PDF-filer på under 3 minuter.',
+    title: 'Gratis Sudoku för Barn | Bildsudoku Arbetsblad för Förskoleklass',
+    description: 'Skapa gratis bildsudoku arbetsblad för förskoleklass och lågstadiet. Ladda ner PDF matematik arbetsblad med facit på under 3 minuter. 300 DPI kvalitet.',
     keywords: 'sudoku för barn, bildsudoku, arbetsblad gratis, förskoleklass material, matematik arbetsblad, matte övningar, finmotorik övningar, bokstäver lära sig, siffror och tal, målarbilder barn, lågstadiet',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/bildsudoku-arbetsblad',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/sudoku/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis bildsudoku arbetsblad för förskoleklass - 4x4 logikpussel för barn',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/sudoku/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Sudoku för barn arbetsblad gratis - matematik övningar med bilder',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/sudoku/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Arbetsblad för förskoleklass - gratis bildsudoku med facit',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/sudoku/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis utskrifter sudoku för barn - logikpussel arbetsblad',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/sudoku/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Arbetsblad för barn gratis - bildsudoku förskoleklass material',
+      },
+    ],
   },
 
   // Hero Section - FULL text from sudoku.md paragraphs 1-4
@@ -32,7 +64,7 @@ Sudoku för barn använder bilder istället för siffror i ett 4×4 rutnät. Det
 Bildsudoku är utmärkt förskoleklass material för problemlösning. Våra arbetsblad gratis för utskrift hjälper barn utveckla kritiskt tänkande genom visuella pussel. Grundpaketet-prenumerationen inkluderar kommersiell licens och tillgång till 3000+ barnvänliga bilder. Skapa professionella sudokupussel snabbare än traditionella metoder. Kombinera med målarbilder barn kan färglägga efter att ha löst pusslet.
 
 Verktyget fungerar för alla lärarnivåer. Ingen designerfarenhet behövs. Välj fyra bilder, ställ in svårighetsgrad och generera sudoku omedelbart. Varje arbetsblad exporteras i 300 DPI professionell kvalitet. Generatorn stöder bokstäver lära sig genom bildsudoku med alfabetsbilder. Använd det för lågstadiet logikträning. Kombinera sudoku med övningar för att skriva bokstäver för komplett inlärning.`,
-    previewImageSrc: '/samples/english/sudoku/sudoku_easy.jpeg',
+    previewImageSrc: '/samples/swedish/sudoku/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Prova Gratis',
       viewSamples: 'Visa Exempel',
@@ -51,9 +83,9 @@ Verktyget fungerar för alla lärarnivåer. Ingen designerfarenhet behövs. Väl
     },
   },
 
-  // Sample Gallery - REAL file paths from samples/english/sudoku/
+  // Sample Gallery - REAL file paths from samples/swedish/sudoku/
   samples: {
-    sectionTitle: 'Bildsudoku Arbetsblad Exempel',
+    sectionTitle: 'Gratis Bildsudoku Arbetsblad Exempel',
     sectionDescription: 'Ladda ner gratis exempelarbetsblad för att se vår professionella kvalitet',
     downloadLabel: 'Ladda Ner Gratis Exempel',
     worksheetLabel: 'Arbetsblad',
@@ -67,24 +99,38 @@ Verktyget fungerar för alla lärarnivåer. Ingen designerfarenhet behövs. Väl
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/sudoku/sudoku_easy.jpeg',
-        answerKeySrc: '/samples/english/sudoku/sudoku_easy answer_key.jpeg',
-        altText: 'Lätt bildsudoku arbetsblad med fyra tomma rutor för förskoleklass',
-        pdfDownloadUrl: '/samples/english/sudoku/sudoku_easy.pdf',
+        worksheetSrc: '/samples/swedish/sudoku/sample-1.jpeg',
+        answerKeySrc: '/samples/swedish/sudoku/sample-1-answer.jpeg',
+        altText: 'Gratis bildsudoku arbetsblad för förskoleklass - sudoku för barn 4x4 logikpussel',
+        pdfDownloadUrl: '/samples/swedish/sudoku/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/sudoku/sudoku medium.jpeg',
-        answerKeySrc: '/samples/english/sudoku/sudoku medium answer_key.jpeg',
-        altText: 'Medel bildsudoku arbetsblad med sex tomma rutor för lågstadiet',
-        pdfDownloadUrl: '/samples/english/sudoku/sudoku medium.pdf',
+        worksheetSrc: '/samples/swedish/sudoku/sample-2.jpeg',
+        answerKeySrc: '/samples/swedish/sudoku/sample-2-answer.jpeg',
+        altText: 'Arbetsblad för barn gratis - bildsudoku matematik övningar lågstadiet',
+        pdfDownloadUrl: '/samples/swedish/sudoku/sample-2.pdf',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/sudoku/sudoku hard.jpeg',
-        answerKeySrc: '/samples/english/sudoku/sudoku hard answer_key.jpeg',
-        altText: 'Svår bildsudoku arbetsblad med åtta tomma rutor för äldre barn',
-        pdfDownloadUrl: '/samples/english/sudoku/sudoku hard.pdf',
+        worksheetSrc: '/samples/swedish/sudoku/sample-3.jpeg',
+        answerKeySrc: '/samples/swedish/sudoku/sample-3-answer.jpeg',
+        altText: 'Gratis utskrifter sudoku för barn - arbetsblad för förskoleklass med facit',
+        pdfDownloadUrl: '/samples/swedish/sudoku/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/swedish/sudoku/sample-4.jpeg',
+        answerKeySrc: '/samples/swedish/sudoku/sample-4-answer.jpeg',
+        altText: 'Sudoku arbetsblad gratis för barn - logikpussel matte övningar',
+        pdfDownloadUrl: '/samples/swedish/sudoku/sample-4.pdf',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/swedish/sudoku/sample-5.jpeg',
+        answerKeySrc: '/samples/swedish/sudoku/sample-5-answer.jpeg',
+        altText: 'Arbetsblad för förskoleklass gratis - bildsudoku finmotorik övningar',
+        pdfDownloadUrl: '/samples/swedish/sudoku/sample-5.pdf',
       },
     ],
   },
@@ -117,7 +163,7 @@ Sudokugeneratorn skapar både arbetsblad och facit automatiskt. Du laddar ner b�
       {
         id: '2',
         icon: '📊',
-        title: 'Tre Svårighetsgrader',
+        title: 'Tre Svårighetsgrader - Gratis Arbetsblad för Alla Nivåer',
         description: `Sudoku för barn erbjuder tre svårighetsnivåer anpassade för olika åldrar. Lätt nivå har fyra tomma rutor perfekt för förskoleklass material. Medel nivå har sex tomma rutor för lågstadiet elever. Svår nivå har åtta tomma rutor för äldre barn. Varje nivå övar logiskt tänkande och mönsterigenkänning.
 
 Lätt sudoku är perfekt som förskoleklass material för 4-6 åringar. Endast fyra tomma rutor gör pusslet lösbart för nybörjare. Barn övar visuell diskriminering och mönsterigenkänning. Kombinera lätt sudoku med målarbilder barn kan färglägga. Detta skapar kompletta arbetsblad gratis för förskolan.
@@ -128,7 +174,7 @@ Medel och svår sudoku fungerar som utmärkande matematik arbetsblad för lågst
       {
         id: '3',
         icon: '✏️',
-        title: 'Redigera Allt på Canvas',
+        title: 'Redigera Allt på Canvas - Anpassa Gratis Arbetsblad',
         description: `Efter generering kan du redigera varje element på arbetsytan. Dra, rotera, ändra storlek eller ta bort vilken bild som helst. Flytta sudokurutnätet till perfekt position på sidan. Justera bilder och text efter behov. All redigering sker direkt på arbetsytan för arbetsblad gratis.
 
 Lägg till extra textrutor för instruktioner eller rubriker på svenska. Välj mellan sju olika typsnitt för text. Ändra textstorlek, färg och kontur efter behov. Perfekt för att skapa förskoleklass material med tydliga instruktioner. Använd detta för matematik arbetsblad med anpassade instruktioner för matte övningar.
@@ -139,7 +185,7 @@ Lagerkontroller låter dig bestämma vilka element som visas framför. Flytta bi
       {
         id: '4',
         icon: '📤',
-        title: 'Ladda Upp Egna Bilder',
+        title: 'Ladda Upp Egna Bilder - Gratis Arbetsblad för Barn',
         description: `Ladda upp dina egna bilder för helt anpassade sudokupussel. Stöder alla vanliga bildformat som JPEG, PNG och GIF. Ladda upp flera filer samtidigt med flerfilsuppladdning. Kombinera uppladdade bilder med biblioteksbilder. Perfekt för att skapa arbetsblad gratis anpassade till dina elevers intressen.
 
 Använd foton av elevernas favoritsaker i sudokupusslen. Skapa pussel med bilder från klassrummet eller skolgården. Ladda upp bilder för siffror och tal för matematik arbetsblad. Uppladdade bilder kan redigeras precis som biblioteksbilder. Dra, rotera och ändra storlek efter behov för förskoleklass material.
@@ -150,7 +196,7 @@ Bilduppladdning är perfekt för målarbilder barn har skapat. Ladda upp elevern
       {
         id: '5',
         icon: '🌍',
-        title: 'Svenskt Språkstöd',
+        title: 'Svenskt Språkstöd - Gratis Arbetsblad på Svenska',
         description: `Sudokugeneratorn stöder elva språk för innehåll och gränssnitt. Svenska är ett av de fullt stödda språken. Välj svenska som innehållsspråk så visas bildnamn på svenska. Detta gör det perfekt för svenska klassrum och hemundervisning. Alla kontroller och knappar översätts till svenska för arbetsblad gratis.
 
 Svenskt språkstöd är kritiskt för effektiv språkinlärning i förskoleklass material. Elever ser svenska ord när de arbetar med bilderna. Detta förstärker ordförråd naturligt under logikträning. Använd detta för matematik arbetsblad med svenska begrepp. Kombinera sudoku med övningar för att skriva bokstäver på svenska.
@@ -172,7 +218,7 @@ Många lärare tjänar 500-5000 kronor per månad genom att sälja arbetsblad gr
       {
         id: '7',
         icon: '🎨',
-        title: '3000+ Bildbibliotek',
+        title: '3000+ Bildbibliotek - Arbetsblad för Barn',
         description: `Tillgång till över 3000 barnvänliga bilder organiserade efter tema. Välj mellan djur, fordon, mat, natur och många fler teman. Varje tema innehåller dussintals bilder perfekta för förskoleklass material. Sök efter specifika bilder eller bläddra genom teman. Alla bilder är optimerade för sudokupussel och arbetsblad gratis.
 
 Bildbiblioteket inkluderar målarbilder barn känner igen. Enkla konturer fungerar perfekt i sudokurutnät. Bilder är optimerade för både färg och gråskala utskrift. Välj teman som matchar din lektionsplan eller årstid. Skapa tematiska matematik arbetsblad för holidays och händelser.
@@ -183,7 +229,7 @@ Varje bild är namngiven på svenska när du väljer svenskt språk. Detta gör 
       {
         id: '8',
         icon: '🖨️',
-        title: 'Professionell 300 DPI Kvalitet',
+        title: 'Professionell 300 DPI Kvalitet - Gratis Utskrifter',
         description: `Alla sudokupussel exporteras i 300 DPI professionell kvalitet. Detta säkerställer skarpa utskrifter på alla skrivare. Perfekt för både klassrumsanvändning och kommersiell försäljning. Välj mellan PDF och JPEG format. PDF bevarar vektorkvalitet för perfekta tryck av matematik arbetsblad.
 
 Gråskalaalternativ sparar bläck utan att förlora kvalitet. Perfekt för massutskrift av arbetsblad gratis i klassrummet. Sudokulinjer förblir tydliga i gråskala. Bilder är optimerade för både färg och svartvitt tryck. Detta gör förskoleklass material kostnadseffektivt för skolor med begränsade budgetar.
@@ -196,7 +242,7 @@ Gråskalaalternativ sparar bläck utan att förlora kvalitet. Perfekt för massu
 
   // How-To Guide - FULL text from sudoku.md Step sections
   howTo: {
-    sectionTitle: 'Hur Man Skapar Bildsudoku i 5 Enkla Steg',
+    sectionTitle: 'Hur Man Skapar Gratis Bildsudoku Arbetsblad i 5 Enkla Steg',
     sectionDescription: 'Skapa professionella sudokupussel på under tre minuter med vår enkla steg-för-steg process. Från bildval till färdig PDF tar hela processen mindre än tre minuter. Perfekt för upptagna lärare som behöver arbetsblad gratis snabbt. Generatorn hanterar alla tekniska detaljer automatiskt. Du fokuserar på pedagogik medan verktyget skapar professionella matematik arbetsblad.',
     ctaText: 'Börja Skapa Nu',
     badgeText: 'Så Fungerar Det',
@@ -211,7 +257,7 @@ Gråskalaalternativ sparar bläck utan att förlora kvalitet. Perfekt för massu
       {
         id: '1',
         number: 1,
-        title: 'Välj Fyra Bilder',
+        title: 'Välj Fyra Bilder - Gratis Arbetsblad för Barn',
         description: `Börja med att välja fyra bilder för ditt sudokupussel. Välj ett färdigt tema som djur, fordon eller mat. Temaalternativet väljer automatiskt fyra slumpmässiga bilder. Detta är snabbaste sättet att skapa arbetsblad gratis. Perfekt för lärare som behöver material snabbt.
 
 Alternativt välj fyra enskilda bilder från biblioteket. Bläddra genom 3000+ bilder organiserade efter tema. Sök efter specifika ord för att hitta rätt bilder. Detta ger full kontroll över sudokuinnehållet. Använd bilder för siffror och tal för matematik arbetsblad. Välj alfabetsbilder för bokstäver lära sig material.
@@ -222,7 +268,7 @@ Ladda upp dina egna fyra bilder om du vill helt anpassade pussel. Använd foton 
       {
         id: '2',
         number: 2,
-        title: 'Anpassa Inställningar',
+        title: 'Anpassa Inställningar - Gratis Utskrifter',
         description: `Välj svårighetsgrad baserat på dina elevers ålder och förmåga. Lätt läge har fyra tomma rutor perfekt för förskoleklass. Medel läge har sex tomma rutor för lågstadiet elever. Svår läge har åtta tomma rutor för mer utmaning. Svårighetsgraden påverkar hur mycket logiskt tänkande som krävs.
 
 Välj sidstorlek som passar din skrivare. A4 stående är standard för svenska skrivare. A4 liggande ger större rutnät. Letter-storlekar finns för amerikanska skrivare. Anpassad storlek låter dig ange exakta mått. Större rutnät fungerar som finmotorik övningar när barn fyller i rutorna.
@@ -233,7 +279,7 @@ Lägg till bakgrundsteman eller ramar för attraktiva arbetsblad gratis. Välj f
       {
         id: '3',
         number: 3,
-        title: 'Generera Sudoku',
+        title: 'Generera Gratis Sudoku Arbetsblad',
         description: `Klicka på Generera Arbetsblad och ditt sudoku skapas omedelbart. Generatorn placerar fyra bilder i 4×4 rutnätet enligt sudokuregler. Varje rad och kolumn innehåller varje bild exakt en gång. Automatisk generering säkerställer lösbart pussel varje gång. Detta skapar professionella matematik arbetsblad på sekunder.
 
 Förhandsvisningen visar exakt hur arbetsbladet kommer se ut. Kontrollera att svårighetsgraden är rätt. Se att bilderna är tydliga och lätta att skilja åt. Allt du ser är precis vad som skrivs ut. Förhandsvisningen gör det enkelt att skapa perfekta arbetsblad gratis.
@@ -244,7 +290,7 @@ Generatorn skapar automatiskt facit samtidigt. Facit visar komplett lösning av 
       {
         id: '4',
         number: 4,
-        title: 'Redigera på Canvas',
+        title: 'Redigera på Canvas - Gratis Utskrifter',
         description: `Efter generering öppnas canvasredigeraren automatiskt. Dra, rotera eller ändra storlek på vilken bild som helst. Flytta sudokurutnätet till perfekt position. Justera storlek på rutor för optimal utskrift. All redigering sker direkt på arbetsytan.
 
 Lägg till textrutor för instruktioner på svenska. Skriv elevnamn eller klassrumsregler. Välj bland sju professionella typsnitt. Ändra textstorlek, färg och kontur. Perfekt för att skapa material för skriva bokstäver övningar. Kombinera sudoku med bokstavsträning för komplett lågstadiet material.
@@ -255,7 +301,7 @@ Använd lagerkontroller för att organisera element. Flytta bilder framåt eller
       {
         id: '5',
         number: 5,
-        title: 'Ladda Ner och Skriv Ut',
+        title: 'Ladda Ner Gratis Utskrifter och Skriv Ut',
         description: `Välj nedladdningsformat som passar ditt behov. PDF format bevarar perfekt kvalitet för utskrift. JPEG format fungerar för digital delning. Både format är 300 DPI professionell kvalitet. Ladda ner både arbetsblad och facit med ett klick.
 
 Välj gråskalaalternativ för att spara bläck vid massutskrift. Gråskala bibehåller tydlighet utan färgkostnad. Perfekt för klassrum med begränsade budgetar. Sudokulinjer och bilder förblir tydliga i svartvitt. Detta gör arbetsblad gratis kostnadseffektivt för daglig användning.
@@ -268,7 +314,7 @@ Skriv ut direkt eller spara för senare. Filer är optimerade för alla skrivare
 
   // Use Cases - FULL descriptions from sudoku.md persona sections
   useCases: {
-    sectionTitle: 'Perfekt för Lärare, Föräldrar och Pedagoger',
+    sectionTitle: 'Gratis Arbetsblad för Barn - Perfekt för Lärare, Föräldrar och Pedagoger',
     sectionDescription: 'Sudoku för barn fungerar för många olika pedagogiska situationer. Från förskoleklass till lågstadiet använder lärare bildsudoku för logikträning. Föräldrar som hemundervisar älskar kombinationen av matte övningar och problemlösning. Specialpedagoger använder sudoku för finmotorik övningar och kognitiv träning. Varje användartyp hittar unika sätt att använda arbetsblad gratis för sina elever.',
     badgeText: 'Vem Det Är För',
     readMoreLabel: 'Läs mer',
@@ -351,7 +397,7 @@ Bygg prenumerationsbaserad verksamhet med månatliga sudokupaket. Kunder betalar
 
   // FAQ Section - ALL questions from sudoku.md
   faq: {
-    sectionTitle: 'Vanliga Frågor',
+    sectionTitle: 'Vanliga Frågor om Gratis Bildsudoku Arbetsblad',
     sectionDescription: 'Lärare och föräldrar har många frågor om sudokugeneratorn. Hur fungerar prenumerationen? Kan barn använda sudoku för bokstäver lära sig? Fungerar pusslen som finmotorik övningar? Vi besvarar de vanligaste frågorna om att skapa lågstadiet material och förskoleklass resurser.',
     showMoreText: 'Visa fler frågor',
     showLessText: 'Visa färre',

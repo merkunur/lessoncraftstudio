@@ -15,22 +15,54 @@ export const wordScrambleSvContent: ProductPageContent = {
   seo: {
     slug: 'ordpussel-arbetsblad',
     appId: 'word-scramble',
-    title: 'Ordpussel Generator - Arbetsblad Gratis för Bokstäver Lära Sig | Förskoleklass Material',
-    description: 'Skapa professionella ordpussel med vår ordpussel-generator. Generera anpassningsbara arbetsblad gratis för utskrift perfekta för förskoleklass och lågstadiet. Ladda ner högkvalitativa PDF-arbetsblad på under 3 minuter.',
-    keywords: 'ordpussel generator, arbetsblad gratis, förskoleklass material, bokstäver lära sig, skriva bokstäver, ordpussel, matematik arbetsblad, finmotorik övningar, målarbilder barn, lågstadiet',
+    title: 'Ordpussel Generator - Gratis Arbetsblad för Barn | Förskoleklass',
+    description: 'Skapa gratis arbetsblad för barn med vår ordpussel generator. Perfekta arbetsblad för förskoleklass med gratis utskrifter. Ladda ner PDF på 3 minuter.',
+    keywords: 'ordpussel generator, gratis arbetsblad, gratis arbetsblad för barn, gratis utskrifter, arbetsblad för barn, arbetsblad för förskoleklass, förskoleklass material, bokstäver lära sig',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/ordpussel-arbetsblad',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/word-scramble/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Ordpussel gratis arbetsblad för barn - porträttformat övningar för förskoleklass'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/word-scramble/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Ordpussel arbetsblad för förskoleklass - gratis utskrifter med bilder'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/word-scramble/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis arbetsblad ordpussel - arbetsblad för barn bokstavsträning'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/word-scramble/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Ordpussel gratis utskrifter för förskoleklass och lågstadiet'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/word-scramble/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Arbetsblad för barn ordpussel - gratis arbetsblad för förskoleklass'
+      },
+    ],
   },
 
   // Hero Section - FULL text from word-scramble.md paragraphs 1-4
   hero: {
-    title: 'Ordpussel Generator',
-    subtitle: 'Arbetsblad Gratis för Bokstäver Lära Sig - Förskoleklass Material',
-    description: `Skapa professionella ordpussel med vår ordpussel-generator. Din Grundpaket-prenumeration ger dig obegränsad ordpusselgenerering utan extra kostnader per arbetsblad. Generera anpassningsbara arbetsblad gratis för utskrift perfekta för förskoleklass och lågstadiet. Ladda ner högkvalitativa PDF-arbetsblad på under 3 minuter.
+    title: 'Ordpussel Generator - Gratis Arbetsblad för Barn',
+    subtitle: 'Gratis Utskrifter för Förskoleklass - Arbetsblad för Barn och Bokstäver Lära Sig',
+    description: `Skapa gratis arbetsblad för barn med vår ordpussel-generator. Din Grundpaket-prenumeration ger dig obegränsad ordpusselgenerering utan extra kostnader per arbetsblad. Generera anpassningsbara arbetsblad för förskoleklass perfekta för gratis utskrifter hemma eller på skolan. Ladda ner högkvalitativa PDF-arbetsblad på under 3 minuter.
 
-Vår ordpussel-generator är perfekt för att träna bokstäver lära sig och skriva bokstäver. Barn älskar att lösa ordpussel där bokstäverna i ett ord är blandade. Varje pussel hjälper barn att känna igen bokstavsmönster och öva stavning. Välj mellan bildbaserade pussel eller textbaserade övningar med din egen ordlista.
+Vår ordpussel-generator är perfekt för att träna bokstäver lära sig och skriva bokstäver. Barn älskar att lösa gratis arbetsblad där bokstäverna i ett ord är blandade. Varje pussel hjälper barn att känna igen bokstavsmönster och öva stavning. Välj mellan bildbaserade pussel eller textbaserade övningar med din egen ordlista.
 
-Generatorn skapar vackra arbetsblad med professionell 300 DPI-kvalitet. Perfekt för utskrift hemma eller på skolan. Använd ordpussel tillsammans med matematik arbetsblad och målarbilder barn för kompletta läropaket. Skapa obegränsat antal arbetsblad för förskoleklass material och lågstadiets behov.`,
-    previewImageSrc: '/samples/english/word scramble/word scramble portrait.jpeg',
+Generatorn skapar vackra arbetsblad för barn med professionell 300 DPI-kvalitet. Perfekt för gratis utskrifter hemma eller på skolan. Använd ordpussel tillsammans med matematik arbetsblad och målarbilder barn för kompletta läropaket. Skapa obegränsat antal gratis arbetsblad för förskoleklass material och lågstadiets behov.`,
+    previewImageSrc: '/samples/swedish/word-scramble/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Prova Gratis',
       viewSamples: 'Visa Exempel',
@@ -49,11 +81,11 @@ Generatorn skapar vackra arbetsblad med professionell 300 DPI-kvalitet. Perfekt 
     },
   },
 
-  // Sample Gallery - REAL file paths from samples/english/word scramble/
+  // Sample Gallery - Swedish sample paths
   samples: {
-    sectionTitle: 'Ordpussel Arbetsblad Exempel',
-    sectionDescription: 'Ladda ner gratis exempelarbetsblad för att se vår professionella kvalitet',
-    downloadLabel: 'Ladda Ner Gratis Exempel',
+    sectionTitle: 'Gratis Arbetsblad för Barn - Ordpussel Exempel',
+    sectionDescription: 'Ladda ner gratis utskrifter för att se vår professionella kvalitet på arbetsblad för förskoleklass',
+    downloadLabel: 'Ladda Ner Gratis Arbetsblad',
     worksheetLabel: 'Arbetsblad',
     answerKeyLabel: 'Facit',
     viewAllLabel: 'Visa större',
@@ -65,32 +97,46 @@ Generatorn skapar vackra arbetsblad med professionell 300 DPI-kvalitet. Perfekt 
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/word scramble/word scramble portrait.jpeg',
-        answerKeySrc: '/samples/english/word scramble/word scramble portrait answer-key.jpeg',
-        altText: 'Ordpussel arbetsblad i porträttformat med tematiska bilder för förskoleklass bokstavsträning',
-        pdfDownloadUrl: '/samples/english/word scramble/word scramble portrait.pdf',
+        worksheetSrc: '/samples/swedish/word-scramble/sample-1.jpeg',
+        answerKeySrc: '/samples/swedish/word-scramble/sample-1-answer.jpeg',
+        altText: 'Ordpussel gratis arbetsblad för barn - porträttformat övningar för förskoleklass',
+        pdfDownloadUrl: '/samples/swedish/word-scramble/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/word scramble/word scramble landscape.jpeg',
-        answerKeySrc: '/samples/english/word scramble/word scramble landscape answer-key.jpeg',
-        altText: 'Ordpussel arbetsblad i landskapsformat med färgglada bildledtrådar för lågstadiet',
-        pdfDownloadUrl: '/samples/english/word scramble/word scramble landscape.pdf',
+        worksheetSrc: '/samples/swedish/word-scramble/sample-2.jpeg',
+        answerKeySrc: '/samples/swedish/word-scramble/sample-2-answer.jpeg',
+        altText: 'Gratis utskrifter ordpussel - arbetsblad för förskoleklass bokstavsträning',
+        pdfDownloadUrl: '/samples/swedish/word-scramble/sample-2.pdf',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/word scramble/custom word list.jpeg',
-        answerKeySrc: '/samples/english/word scramble/custom word list answer-key.jpeg',
-        altText: 'Anpassad ordlista ordpussel för stavningsträning och ordförråd',
-        pdfDownloadUrl: '/samples/english/word scramble/custom word list.pdf',
+        worksheetSrc: '/samples/swedish/word-scramble/sample-3.jpeg',
+        answerKeySrc: '/samples/swedish/word-scramble/sample-3-answer.jpeg',
+        altText: 'Arbetsblad för barn ordpussel - gratis arbetsblad för lågstadiet',
+        pdfDownloadUrl: '/samples/swedish/word-scramble/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/swedish/word-scramble/sample-4.jpeg',
+        answerKeySrc: '/samples/swedish/word-scramble/sample-4-answer.jpeg',
+        altText: 'Ordpussel gratis utskrifter - arbetsblad för förskoleklass material',
+        pdfDownloadUrl: '/samples/swedish/word-scramble/sample-4.pdf',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/swedish/word-scramble/sample-5.jpeg',
+        answerKeySrc: '/samples/swedish/word-scramble/sample-5-answer.jpeg',
+        altText: 'Gratis arbetsblad ordpussel för barn - förskoleklass stavningsövningar',
+        pdfDownloadUrl: '/samples/swedish/word-scramble/sample-5.pdf',
       },
     ],
   },
 
   // Features Grid - FULL text from word-scramble.md feature sections
   features: {
-    sectionTitle: 'Ordpussel Funktioner - Arbetsblad Gratis för Förskoleklass Material och Bokstäver Lära Sig',
-    sectionDescription: 'Vår ordpussel-generator innehåller alla funktioner du behöver för att skapa professionella arbetsblad. Skapa arbetsblad gratis för förskoleklass och lågstadiet. Generatorn är perfekt för att skapa ordpussel för bokstäver lära sig och skriva bokstäver.',
+    sectionTitle: 'Ordpussel Funktioner - Gratis Arbetsblad för Barn och Förskoleklass',
+    sectionDescription: 'Vår ordpussel-generator innehåller alla funktioner du behöver för att skapa professionella gratis arbetsblad. Skapa arbetsblad för förskoleklass och lågstadiet. Generatorn är perfekt för att skapa gratis utskrifter för bokstäver lära sig och arbetsblad för barn.',
     highlightBadgeText: 'Nyckelfunktion',
     readMoreLabel: 'Läs mer',
     showLessLabel: 'Visa mindre',
@@ -104,78 +150,78 @@ Generatorn skapar vackra arbetsblad med professionell 300 DPI-kvalitet. Perfekt 
       {
         id: '1',
         icon: '⚡',
-        title: 'Skapa Ordpussel på 3 Klick',
-        description: `Skapa professionella ordpussel på under 3 minuter. Välj tema eller individuella bilder från bildbiblioteket. Generatorn skapar automatiskt ordpussel med blandade bokstäver. Inga designkunskaper behövs för att skapa vackra arbetsblad.
+        title: 'Skapa Gratis Arbetsblad på 3 Klick',
+        description: `Skapa professionella gratis arbetsblad för barn på under 3 minuter. Välj tema eller individuella bilder från bildbiblioteket. Generatorn skapar automatiskt ordpussel med blandade bokstäver. Inga designkunskaper behövs för att skapa vackra arbetsblad för förskoleklass.
 
-Välj antal pussel per sida från 1 till 10. Anpassa svårighetsgrad med ledtrådar eller utan ledtrådar. Perfekt för att skapa förskoleklass material och arbetsblad för lågstadiet. Varje pussel genereras direkt på arbetsytan.
+Välj antal pussel per sida från 1 till 10. Anpassa svårighetsgrad med ledtrådar eller utan ledtrådar. Perfekt för att skapa gratis utskrifter och arbetsblad för lågstadiet. Varje pussel genereras direkt på arbetsytan.
 
-Använd ordpussel tillsammans med matematik arbetsblad och addition och subtraktion övningar. Skapa kompletta läropaket för olika ämnen. Din Grundpaket-prenumeration ger obegränsad generering av arbetsblad gratis för utskrift.`,
+Använd ordpussel tillsammans med matematik arbetsblad och addition och subtraktion övningar. Skapa kompletta läropaket för olika ämnen. Din Grundpaket-prenumeration ger obegränsad generering av gratis arbetsblad för utskrift.`,
         highlighted: false,
       },
       {
         id: '2',
         icon: '✏️',
-        title: 'Redigera Allt på Arbetsytan',
-        description: `Varje element på arbetsytan är helt redigerbart. Dra, rotera, skala eller ta bort bilder med musen. Ändra textens färg, storlek och teckensnitt direkt på arbetsytan. Ingen annan ordpussel-generator ger så mycket kontroll.
+        title: 'Redigera Gratis Arbetsblad för Barn på Arbetsytan',
+        description: `Varje element på arbetsytan är helt redigerbart. Dra, rotera, skala eller ta bort bilder med musen. Ändra textens färg, storlek och teckensnitt direkt på arbetsytan. Ingen annan ordpussel-generator ger så mycket kontroll över gratis arbetsblad.
 
-Lägg till egna textfält med rubriker eller instruktioner. Anpassa bokstävernas färg med färgkodade vokaler och konsonanter. Perfekt för barn som tränar bokstäver lära sig och skriva bokstäver. Ändra allt tills arbetsytan ser exakt ut som du vill.
+Lägg till egna textfält med rubriker eller instruktioner. Anpassa bokstävernas färg med färgkodade vokaler och konsonanter. Perfekt för arbetsblad för barn som tränar bokstäver lära sig och skriva bokstäver. Ändra allt tills arbetsytan ser exakt ut som du vill.
 
-Kombinera ordpussel med målarbilder barn på samma arbetsblad. Lägg till finmotorik övningar som klipp-och-klistra aktiviteter. Skapa unika arbetsblad för förskoleklass material som ingen annan har. Fullständig kreativ frihet med enkel redigering.`,
+Kombinera ordpussel med målarbilder barn på samma arbetsblad för förskoleklass. Lägg till finmotorik övningar som klipp-och-klistra aktiviteter. Skapa unika gratis utskrifter som ingen annan har. Fullständig kreativ frihet med enkel redigering.`,
         highlighted: false,
       },
       {
         id: '3',
         icon: '📤',
-        title: 'Ladda Upp Egna Bilder',
-        description: `Ladda upp dina egna bilder för helt personliga ordpussel. Stöd för JPEG, PNG och GIF-format. Ladda upp flera bilder samtidigt för snabbare arbetsflöde. Kombinera dina bilder med vårt bildbibliotek på samma arbetsblad.
+        title: 'Ladda Upp Egna Bilder - Gratis Utskrifter för Förskoleklass',
+        description: `Ladda upp dina egna bilder för helt personliga ordpussel. Stöd för JPEG, PNG och GIF-format. Ladda upp flera bilder samtidigt för snabbare arbetsflöde. Kombinera dina bilder med vårt bildbibliotek på samma gratis arbetsblad.
 
-Perfekt för att skapa ordpussel med elevernas namn och foton. Använd bilder från klassrummet eller temaenheter ni arbetar med. Skapa arbetsblad gratis med helt personligt innehåll för dina elever. Bilderna sparas i sessionen för upprepad användning.
+Perfekt för att skapa ordpussel med elevernas namn och foton. Använd bilder från klassrummet eller temaenheter ni arbetar med. Skapa arbetsblad för barn med helt personligt innehåll för dina elever. Bilderna sparas i sessionen för upprepad användning.
 
-Kombinera egenuppladdade bilder med matematik arbetsblad och siffror och tal övningar. Skapa temaarbetsblad med bilder från högtider eller årstider. Din Grundpaket-prenumeration tillåter obegränsad bilduppladdning utan extra kostnader.`,
+Kombinera egenuppladdade bilder med matematik arbetsblad och siffror och tal övningar. Skapa gratis utskrifter med bilder från högtider eller årstider. Din Grundpaket-prenumeration tillåter obegränsad bilduppladdning för arbetsblad för förskoleklass.`,
         highlighted: false,
       },
       {
         id: '4',
         icon: '🌍',
-        title: 'Svenskt Språkstöd',
-        description: `Ordpussel-generatorn fungerar på 11 olika språk. Användargränssnittet är översatt till svenska, engelska, tyska, franska, spanska, italienska, portugisiska, nederländska, danska, norska och finska. Byt språk direkt i generatorn.
+        title: 'Svenskt Språkstöd - Arbetsblad för Barn',
+        description: `Ordpussel-generatorn fungerar på 11 olika språk. Användargränssnittet är översatt till svenska, engelska, tyska, franska, spanska, italienska, portugisiska, nederländska, danska, norska och finska. Byt språk direkt i generatorn för gratis arbetsblad.
 
-Särskilt viktigt för ordpussel är att bildernas filnamn styr vilket ord som används. Välj språk innan du genererar för att få korrekta ord på svenska. Perfekt för lärare som arbetar med flerspråkiga klasser eller språkundervisning.
+Särskilt viktigt för ordpussel är att bildernas filnamn styr vilket ord som används. Välj språk innan du genererar för att få korrekta ord på svenska. Perfekt för lärare som skapar arbetsblad för förskoleklass i flerspråkiga klasser.
 
-Skapa ordpussel för bokstäver lära sig på elevernas modersmål. Använd samma generator för att skapa arbetsblad på olika språk. Kombinera med matematik arbetsblad och addition och subtraktion på svenska eller annat språk. Flerspråkigt stöd inkluderat utan extra kostnad.`,
+Skapa ordpussel för bokstäver lära sig på elevernas modersmål. Använd samma generator för gratis utskrifter på olika språk. Kombinera med matematik arbetsblad och addition och subtraktion på svenska. Flerspråkigt stöd inkluderat för arbetsblad för barn.`,
         highlighted: false,
       },
       {
         id: '5',
         icon: '💰',
-        title: 'Kommersiell Licens Tillgänglig',
-        description: `Grundpaketet inkluderar full kommersiell print-on-demand-licens. Sälj dina ordpussel på Etsy, Teachers Pay Teachers och Amazon KDP. Ingen extra licensavgift utöver din prenumeration på 144 dollar per år.
+        title: 'Kommersiell Licens - Sälj Gratis Arbetsblad för Barn',
+        description: `Grundpaketet inkluderar full kommersiell print-on-demand-licens. Sälj dina ordpussel på Etsy, Teachers Pay Teachers och Amazon KDP. Ingen extra licensavgift utöver din prenumeration på 144 dollar per år för gratis arbetsblad.
 
-Många lärare tjänar 5 000-20 000 kronor per månad genom att sälja arbetsblad gratis digitala nedladdningar. Skapa ordpussel, matematik arbetsblad, målarbilder barn och finmotorik övningar för försäljning. Professionell 300 DPI-kvalitet perfekt för utskrift och försäljning.
+Många lärare tjänar 5 000-20 000 kronor per månad genom att sälja arbetsblad för barn som digitala nedladdningar. Skapa ordpussel, matematik arbetsblad, målarbilder barn och finmotorik övningar för försäljning. Professionell 300 DPI-kvalitet perfekt för gratis utskrifter.
 
-Ingen attribution krävs på dina arbetsblad. Du äger fullständiga rättigheter till det du skapar. Perfekt för lärarentreprenörer som bygger passiva inkomstströmmar. Kombinera ordpussel med förskoleklass material för kompletta paket som säljer bra.`,
+Ingen attribution krävs på dina arbetsblad för förskoleklass. Du äger fullständiga rättigheter till det du skapar. Perfekt för lärarentreprenörer som bygger passiva inkomstströmmar. Kombinera ordpussel med gratis arbetsblad för kompletta paket som säljer bra.`,
         highlighted: true,
       },
       {
         id: '6',
         icon: '🎨',
-        title: 'Bildbibliotek 3000+ Bilder',
-        description: `Tillgång till över 3000 barnvänliga bilder inkluderade i prenumerationen. Alla bilder organiserade efter teman för enkel sökning. Välj hela teman med ett klick eller välj individuella bilder. Sökfunktion för att snabbt hitta specifika bilder.
+        title: 'Bildbibliotek 3000+ Bilder - Arbetsblad för Förskoleklass',
+        description: `Tillgång till över 3000 barnvänliga bilder inkluderade i prenumerationen för gratis arbetsblad för barn. Alla bilder organiserade efter teman för enkel sökning. Välj hela teman med ett klick eller välj individuella bilder för arbetsblad för förskoleklass.
 
-Teman inkluderar djur, mat, fordon, bokstäver lära sig, siffror och tal, klockan lära sig och mycket mer. Perfekt för att skapa tematiska ordpussel och förskoleklass material. Alla bakgrunder och ramar inkluderade utan extra kostnad.
+Teman inkluderar djur, mat, fordon, bokstäver lära sig, siffror och tal, klockan lära sig och mycket mer. Perfekt för att skapa tematiska gratis utskrifter och förskoleklass material. Alla bakgrunder och ramar inkluderade utan extra kostnad.
 
-Använd bildbiblioteket för ordpussel, matematik arbetsblad, målarbilder barn och addition och subtraktion övningar. Skapa konsekventa temapaket över olika arbetsbladstyper. Till skillnad från konkurrenter som tar betalt per bild är allt inkluderat i din prenumeration.`,
+Använd bildbiblioteket för ordpussel, matematik arbetsblad, målarbilder barn och addition och subtraktion övningar. Skapa konsekventa temapaket över olika gratis arbetsblad. Till skillnad från konkurrenter som tar betalt per bild är allt inkluderat i din prenumeration.`,
         highlighted: false,
       },
       {
         id: '7',
         icon: '🖨️',
-        title: 'Professionell 300 DPI Kvalitet',
-        description: `Exportera alla arbetsblad i professionell 300 DPI-upplösning. Perfekt kvalitet för utskrift hemma eller på skolan. Ladda ner som PDF eller JPEG efter dina behov. Gråskaleläge för att spara bläck vid utskrift.
+        title: 'Professionell 300 DPI Kvalitet - Gratis Utskrifter',
+        description: `Exportera alla gratis arbetsblad i professionell 300 DPI-upplösning. Perfekt kvalitet för gratis utskrifter hemma eller på skolan. Ladda ner som PDF eller JPEG efter dina behov. Gråskaleläge för att spara bläck vid utskrift.
 
-Professionell kvalitet som fungerar för både klassrumsbruk och försäljning. Skapa arbetsblad gratis för dina egna elever eller sälj på lärplattformar. Inga vattenstämplar eller begränsningar. Full upplösning på alla exporter.
+Professionell kvalitet som fungerar för både klassrumsbruk och försäljning av arbetsblad för barn. Skapa gratis arbetsblad för barn för dina egna elever eller sälj på lärplattformar. Inga vattenstämplar eller begränsningar. Full upplösning på alla exporter.
 
-Varje ordpussel ser professionellt ut med perfekt typografi och layout. Kombinera med matematik arbetsblad, finmotorik övningar och målarbilder barn i samma höga kvalitet. Ångra och gör om-funktioner gör redigering enkel. Skapade arbetsblad kan användas omedelbart.`,
+Varje ordpussel ser professionellt ut med perfekt typografi och layout. Kombinera med matematik arbetsblad, finmotorik övningar och arbetsblad för förskoleklass i samma höga kvalitet. Ångra och gör om-funktioner gör redigering enkel. Skapade gratis arbetsblad kan användas omedelbart.`,
         highlighted: true,
       },
     ],
@@ -183,8 +229,8 @@ Varje ordpussel ser professionellt ut med perfekt typografi och layout. Kombiner
 
   // How-To Guide - FULL text from word-scramble.md step sections
   howTo: {
-    sectionTitle: 'Hur Man Skapar Ordpussel - Arbetsblad Gratis i 5 Enkla Steg',
-    sectionDescription: 'Skapa professionella ordpussel på under 3 minuter med vår enkla 5-stegs process. Inga designkunskaper behövs för att skapa vackra arbetsblad gratis för utskrift. Följ dessa steg för att skapa ordpussel för bokstäver lära sig och förskoleklass material.',
+    sectionTitle: 'Hur Man Skapar Ordpussel - Gratis Arbetsblad för Barn i 5 Enkla Steg',
+    sectionDescription: 'Skapa professionella ordpussel på under 3 minuter med vår enkla 5-stegs process. Inga designkunskaper behövs för att skapa vackra gratis utskrifter. Följ dessa steg för att skapa arbetsblad för förskoleklass och gratis arbetsblad för barn.',
     ctaText: 'Börja Skapa Nu',
     badgeText: 'Så Fungerar Det',
     stepLabel: 'Steg',
@@ -198,56 +244,56 @@ Varje ordpussel ser professionellt ut med perfekt typografi och layout. Kombiner
       {
         id: '1',
         number: 1,
-        title: 'Välj Innehåll',
-        description: `Börja med att välja innehåll för dina ordpussel. Du har tre alternativ som alla fungerar perfekt för förskoleklass material och lågstadiet. Välj temabilder för snabb generering eller individuella bilder för mer kontroll. Du kan också använda egen ordlista för textbaserade övningar.
+        title: 'Välj Innehåll för Gratis Arbetsblad',
+        description: `Börja med att välja innehåll för dina ordpussel gratis arbetsblad för barn. Du har tre alternativ som alla fungerar perfekt för arbetsblad för förskoleklass och lågstadiet. Välj temabilder för snabb generering eller individuella bilder för mer kontroll. Du kan också använda egen ordlista för textbaserade övningar.
 
-Välj ett tema från bildbiblioteket för snabb start. Teman inkluderar djur, mat, bokstäver lära sig, siffror och tal, klockan lära sig och mycket mer. Klicka på temat så fylls bildvalet automatiskt med passande bilder. Perfekt för att skapa tematiska arbetsblad gratis.
+Välj ett tema från bildbiblioteket för snabb start. Teman inkluderar djur, mat, bokstäver lära sig, siffror och tal, klockan lära sig och mycket mer. Klicka på temat så fylls bildvalet automatiskt med passande bilder. Perfekt för att skapa tematiska gratis utskrifter.
 
-För mer kontroll, bläddra genom bildbiblioteket och välj individuella bilder. Över 3000 bilder tillgängliga sorterade efter kategorier. Klicka på bilder för att lägga till dem i ditt urval. Anpassa antalet efter hur många ordpussel du vill per sida.`,
+För mer kontroll, bläddra genom bildbiblioteket och välj individuella bilder. Över 3000 bilder tillgängliga sorterade efter kategorier. Klicka på bilder för att lägga till dem i ditt urval av arbetsblad för barn.`,
         icon: '🖼️',
       },
       {
         id: '2',
         number: 2,
-        title: 'Anpassa Inställningar',
-        description: `Anpassa ordpusslens inställningar efter dina elevers nivå och behov. Välj antal pussel per sida från 1 till 10. Välj färre pussel för yngre barn i förskoleklass eller fler för äldre elever. Varje inställning påverkar slutresultatet direkt.
+        title: 'Anpassa Arbetsblad för Barn Inställningar',
+        description: `Anpassa ordpusslens inställningar för gratis arbetsblad efter dina elevers nivå och behov. Välj antal pussel per sida från 1 till 10. Välj färre pussel för yngre barn i arbetsblad för förskoleklass eller fler för äldre elever. Varje inställning påverkar slutresultatet direkt.
 
-Välj svårighetsgrad baserat på antal ledtrådar. "Inga ledtrådar" är svårast där alla bokstäver är blandade. "Lätt" visar varannan bokstav som ledtråd. "Normal" visar var fjärde bokstav. Anpassa efter elevernas behov för bokstäver lära sig.
+Välj svårighetsgrad baserat på antal ledtrådar. "Inga ledtrådar" är svårast där alla bokstäver är blandade. "Lätt" visar varannan bokstav som ledtråd. "Normal" visar var fjärde bokstav. Anpassa efter elevernas behov för bokstäver lära sig på gratis utskrifter.
 
-Välj mellan versaler och gemener beroende på vad eleverna tränar på. Versaler passar bäst för förskoleklass och årskurs 1. Färgkodade bokstäver visar vokaler i rött och konsonanter i blått. Detta hjälper barn att känna igen bokstavsmönster.`,
+Välj mellan versaler och gemener beroende på vad eleverna tränar på. Versaler passar bäst för förskoleklass och årskurs 1. Färgkodade bokstäver på arbetsblad för barn visar vokaler i rött och konsonanter i blått. Detta hjälper barn att känna igen bokstavsmönster.`,
         icon: '⚙️',
       },
       {
         id: '3',
         number: 3,
-        title: 'Generera',
-        description: `Klicka på "Generera" för att skapa dina ordpussel direkt på arbetsytan. Generatorn arbetar på några sekunder och visar resultat omedelbart. Varje ordpussel placeras automatiskt på arbetsytan med perfekt layout.
+        title: 'Generera Gratis Arbetsblad för Förskoleklass',
+        description: `Klicka på "Skapa" för att skapa dina ordpussel gratis arbetsblad direkt på arbetsytan. Generatorn arbetar på några sekunder och visar resultat omedelbart. Varje ordpussel placeras automatiskt på arbetsytan med perfekt layout för arbetsblad för barn.
 
-Generatorn skapar automatiskt ordpussel baserat på valda bilder eller ordlista. Varje bild blir ett ordpussel med blandade bokstäver. Namnet på bilden används som korrekt svar. Bilderna placeras ovanför de blandade bokstäverna för visuell koppling.
+Generatorn skapar automatiskt ordpussel baserat på valda bilder eller ordlista. Varje bild blir ett ordpussel med blandade bokstäver. Namnet på bilden används som korrekt svar. Bilderna placeras ovanför de blandade bokstäverna för visuell koppling på gratis utskrifter.
 
-Förhandsgranskningen visar exakt hur arbetsbladen kommer se ut när de skrivs ut. Kontrollera att allt ser bra ut innan du fortsätter till redigeringsfasen. Om något inte ser rätt ut, justera inställningarna och generera igen.`,
+Förhandsgranskningen visar exakt hur arbetsblad för förskoleklass kommer se ut när de skrivs ut. Kontrollera att allt ser bra ut innan du fortsätter till redigeringsfasen. Om något inte ser rätt ut, justera inställningarna och generera igen.`,
         icon: '✨',
       },
       {
         id: '4',
         number: 4,
-        title: 'Redigera',
-        description: `Nu kan du redigera varje element direkt på arbetsytan med mus eller pekskärm. Dra bilder till nya positioner genom att klicka och dra. Rotera bilder genom att använda roteringshandtaget. Skala bilder större eller mindre genom att dra i hörnen.
+        title: 'Redigera Gratis Utskrifter',
+        description: `Nu kan du redigera varje element på gratis arbetsblad för barn direkt på arbetsytan med mus eller pekskärm. Dra bilder till nya positioner genom att klicka och dra. Rotera bilder genom att använda roteringshandtaget. Skala bilder större eller mindre genom att dra i hörnen.
 
-Klicka på textelement för att ändra färg, storlek eller teckensnitt. Lägg till nya textfält med rubriker eller instruktioner. Skriv "Ordpussel om djur" eller "Bokstäver lära sig övningar" som rubrik. Anpassa textens placering exakt där du vill ha den.
+Klicka på textelement för att ändra färg, storlek eller teckensnitt på arbetsblad för förskoleklass. Lägg till nya textfält med rubriker eller instruktioner. Skriv "Ordpussel om djur" eller "Bokstäver lära sig övningar" som rubrik. Anpassa textens placering exakt där du vill ha den.
 
-Kombinera ordpussel med andra element på samma arbetsblad. Lägg till målarbilder barn i nedre delen av sidan. Lägg till finmotorik övningar som klipp-linjer eller prick-till-prick. Skapa kompletta arbetsblad med flera aktiviteter på samma sida.`,
+Kombinera ordpussel med andra element på samma gratis arbetsblad. Lägg till målarbilder barn i nedre delen av sidan. Lägg till finmotorik övningar som klipp-linjer eller prick-till-prick. Skapa kompletta arbetsblad för barn med flera aktiviteter på samma sida.`,
         icon: '✏️',
       },
       {
         id: '5',
         number: 5,
-        title: 'Ladda Ner',
-        description: `Ladda ner dina färdiga ordpussel i professionell 300 DPI-kvalitet. Välj mellan PDF för bästa utskriftskvalitet eller JPEG för digital användning. Båda formaten ger kristallklar kvalitet perfekt för utskrift hemma eller på skolan.
+        title: 'Ladda Ner Arbetsblad för Förskoleklass',
+        description: `Ladda ner dina färdiga gratis arbetsblad för barn i professionell 300 DPI-kvalitet. Välj mellan PDF för bästa utskriftskvalitet eller JPEG för digital användning. Båda formaten ger kristallklar kvalitet perfekt för gratis utskrifter hemma eller på skolan.
 
-PDF-formatet bevarar all kvalitet och fungerar perfekt för skolors kopiatorer. Ladda ner PDF och skriv ut direkt utan kvalitetsförlust. Perfekt för att skriva ut flera kopior för hela klassen.
+PDF-formatet bevarar all kvalitet och fungerar perfekt för skolors kopiatorer. Ladda ner PDF och skriv ut arbetsblad för förskoleklass direkt utan kvalitetsförlust. Perfekt för att skriva ut flera kopior för hela klassen.
 
-Välj gråskaleläge för att spara bläck vid utskrift. Särskilt användbart när du skriver ut många kopior av arbetsblad gratis. Gråskala ser fortfarande professionellt ut men använder bara svart bläck.`,
+Välj gråskaleläge för att spara bläck vid utskrift. Särskilt användbart när du skriver ut många kopior av gratis arbetsblad. Gråskala ser fortfarande professionellt ut men använder bara svart bläck på arbetsblad för barn.`,
         icon: '📥',
       },
     ],
@@ -255,8 +301,8 @@ Välj gråskaleläge för att spara bläck vid utskrift. Särskilt användbart n
 
   // Use Cases - FULL text from word-scramble.md use case sections
   useCases: {
-    sectionTitle: 'Perfekt för Lärare och Föräldrar',
-    sectionDescription: 'Vår ordpussel-generator används av lärare och föräldrar över hela Sverige. Skapa arbetsblad gratis för bokstäver lära sig, matematik arbetsblad och förskoleklass material. Varje användargrupp har unika behov som generatorn uppfyller perfekt.',
+    sectionTitle: 'Gratis Arbetsblad för Barn - Perfekt för Lärare och Föräldrar',
+    sectionDescription: 'Vår ordpussel-generator används av lärare och föräldrar över hela Sverige. Skapa gratis arbetsblad för förskoleklass, gratis utskrifter och arbetsblad för barn. Varje användargrupp har unika behov som generatorn uppfyller perfekt.',
     badgeText: 'Vem Det Är För',
     readMoreLabel: 'Läs mer',
     showLessLabel: 'Visa mindre',
@@ -338,8 +384,8 @@ Skapa produktpaket med ordpussel, matematik arbetsblad för addition och subtrak
 
   // FAQ Section - Selected FAQs from word-scramble.md
   faq: {
-    sectionTitle: 'Vanliga Frågor',
-    sectionDescription: 'Vanliga frågor om vår ordpussel-generator och arbetsblad gratis.',
+    sectionTitle: 'Vanliga Frågor om Gratis Arbetsblad',
+    sectionDescription: 'Vanliga frågor om vår ordpussel-generator, gratis arbetsblad för barn och arbetsblad för förskoleklass.',
     showMoreText: 'Visa fler frågor',
     showLessText: 'Visa färre',
     badgeText: 'Vanliga Frågor',
@@ -350,23 +396,23 @@ Skapa produktpaket med ordpussel, matematik arbetsblad för addition och subtrak
     items: [
       {
         id: '1',
-        question: 'Är Ordpussel-Generatorn Verkligen Gratis för Förskoleklass Material?',
-        answer: 'Ordpussel-generatorn kräver en Grundpaket-prenumeration som kostar 144 dollar per år eller 15 dollar per månad. Din prenumeration ger dig obegränsad ordpusselgenerering utan extra avgifter per arbetsblad. Generera så många arbetsblad gratis för utskrift som du behöver utan tilläggskostnader. Grundpaketet inkluderar 10 populära verktyg för arbetsbladskapande.',
+        question: 'Är Ordpussel-Generatorn Verkligen Gratis Arbetsblad för Förskoleklass?',
+        answer: 'Ordpussel-generatorn kräver en Grundpaket-prenumeration som kostar 144 dollar per år eller 15 dollar per månad. Din prenumeration ger dig obegränsad generering av gratis arbetsblad för barn utan extra avgifter per arbetsblad. Generera så många gratis utskrifter som du behöver utan tilläggskostnader. Grundpaketet inkluderar 10 populära verktyg för arbetsblad för förskoleklass.',
       },
       {
         id: '2',
-        question: 'Kan Jag Skriva Ut Ordpussel Hemma för Bokstäver Lära Sig?',
-        answer: 'Ja, alla arbetsblad kan skrivas ut på vanliga hemskrivare. Arbetsbladen är designade för standard A4-pappersformat. Ladda ner som PDF och skriv ut direkt utan speciella inställningar. Professionell 300 DPI-kvalitet garanterar skarp text och tydliga bilder på alla skrivare. Gråskaleläge sparar färgbläck vid utskrift.',
+        question: 'Kan Jag Skriva Ut Gratis Arbetsblad för Barn Hemma?',
+        answer: 'Ja, alla gratis arbetsblad kan skrivas ut på vanliga hemskrivare. Arbetsblad för barn är designade för standard A4-pappersformat. Ladda ner gratis utskrifter som PDF och skriv ut direkt utan speciella inställningar. Professionell 300 DPI-kvalitet garanterar skarp text och tydliga bilder på arbetsblad för förskoleklass. Gråskaleläge sparar färgbläck vid utskrift.',
       },
       {
         id: '3',
-        question: 'Behöver Jag Designkunskaper för att Skapa Ordpussel?',
-        answer: 'Nej, inga designkunskaper behövs för att skapa professionella arbetsblad gratis. Generatorn är designad för lärare utan teknisk bakgrund. Klicka på tema, välj inställningar, klicka generera. Färdigt arbetsblad på 3 minuter. Alla element placeras automatiskt med perfekt layout och spacing.',
+        question: 'Behöver Jag Designkunskaper för att Skapa Gratis Arbetsblad?',
+        answer: 'Nej, inga designkunskaper behövs för att skapa professionella gratis arbetsblad för barn. Generatorn är designad för lärare utan teknisk bakgrund. Klicka på tema, välj inställningar, klicka skapa. Färdigt arbetsblad för förskoleklass på 3 minuter. Alla element placeras automatiskt med perfekt layout och spacing på gratis utskrifter.',
       },
       {
         id: '4',
-        question: 'Kan Jag Använda Ordpussel i Mitt Klassrum?',
-        answer: 'Ja, Grundpaket-prenumerationen inkluderar obegränsad klassrumsanvändning för alla arbetsblad. Skapa ordpussel för bokstäver lära sig, matematik arbetsblad för multiplikationstabellen, målarbilder barn för konstlektioner. Skapa obegränsat antal kopior för alla dina elever. Dela digitalt via lärplattformar som Google Classroom.',
+        question: 'Kan Jag Använda Gratis Utskrifter i Mitt Klassrum?',
+        answer: 'Ja, Grundpaket-prenumerationen inkluderar obegränsad klassrumsanvändning för alla gratis arbetsblad. Skapa ordpussel för arbetsblad för barn, matematik arbetsblad för multiplikationstabellen, målarbilder för konstlektioner. Skapa obegränsat antal kopior av arbetsblad för förskoleklass för alla dina elever. Dela gratis arbetsblad för barn digitalt via lärplattformar som Google Classroom.',
       },
       {
         id: '5',
@@ -380,13 +426,13 @@ Skapa produktpaket med ordpussel, matematik arbetsblad för addition och subtrak
       },
       {
         id: '7',
-        question: 'Hur Anpassar Jag Ordpussel för Mina Elever?',
-        answer: 'Anpassa varje arbetsblad efter dina elevers specifika behov med full redigeringskontroll. Välj antal pussel per sida från 1 till 10. Välj svårighetsgrad med olika antal ledtrådar. Välj mellan versaler och gemener för bokstäver lära sig. Lägg till egna textfält med instruktioner.',
+        question: 'Hur Anpassar Jag Gratis Arbetsblad för Barn för Mina Elever?',
+        answer: 'Anpassa varje arbetsblad för förskoleklass efter dina elevers specifika behov med full redigeringskontroll. Välj antal pussel per sida från 1 till 10 på gratis arbetsblad. Välj svårighetsgrad med olika antal ledtrådar. Välj mellan versaler och gemener för gratis utskrifter för bokstäver lära sig. Lägg till egna textfält med instruktioner på arbetsblad för barn.',
       },
       {
         id: '8',
-        question: 'Vilka Åldersgrupper Fungerar Bäst med Ordpussel?',
-        answer: 'Ordpussel fungerar utmärkt för barn från 6 år upp till 9 år, motsvarande förskoleklass till årskurs 3. Yngre barn börjar med enkla 3-4 bokstavsord med många ledtrådar. Äldre elever klarar längre ord utan ledtrådar. Anpassa svårighetsgrad efter elevernas nivå.',
+        question: 'Vilka Åldersgrupper Fungerar Bäst med Arbetsblad för Förskoleklass?',
+        answer: 'Gratis arbetsblad för barn fungerar utmärkt från 6 år upp till 9 år, motsvarande arbetsblad för förskoleklass till årskurs 3. Yngre barn börjar med enkla 3-4 bokstavsord med många ledtrådar på gratis utskrifter. Äldre elever klarar längre ord utan ledtrådar. Anpassa svårighetsgrad efter elevernas nivå på gratis arbetsblad.',
       },
       {
         id: '9',
@@ -395,8 +441,8 @@ Skapa produktpaket med ordpussel, matematik arbetsblad för addition och subtrak
       },
       {
         id: '10',
-        question: 'Hur Lång Tid Tar Det att Skapa Ordpussel?',
-        answer: 'Skapa kompletta ordpussel på under 3 minuter från start till nedladdning. Välj tema eller bilder tar 30 sekunder. Anpassa inställningar tar 30 sekunder. Generera arbetsblad tar 10 sekunder. Eventuell redigering tar 1-2 minuter. Jämfört med manuellt skapande som tar 30-60 minuter är detta enorm tidsbesparing.',
+        question: 'Hur Lång Tid Tar Det att Skapa Gratis Arbetsblad?',
+        answer: 'Skapa kompletta gratis arbetsblad för barn på under 3 minuter från start till nedladdning. Välj tema eller bilder tar 30 sekunder. Anpassa inställningar tar 30 sekunder. Skapa arbetsblad för förskoleklass tar 10 sekunder. Eventuell redigering tar 1-2 minuter. Jämfört med manuellt skapande av gratis utskrifter som tar 30-60 minuter är detta enorm tidsbesparing.',
       },
       {
         id: '11',

@@ -15,22 +15,54 @@ export const mathPuzzleDaContent: ProductPageContent = {
   seo: {
     slug: 'matteleger-arbejdsark',
     appId: 'math-puzzle',
-    title: 'Matematikopgaver Matteleger Generator - Gratis Opgaver til Print for 1. Klasse og 2. Klasse',
-    description: 'Lav professionelle matematikopgaver med symbolbaserede matteleger på få minutter. Generer gratis skoleopgaver til print med facitark. Perfekt til 0. klasse, 1. klasse og 2. klasse.',
-    keywords: 'matematikopgaver, matteleger, opgaver til print, gratis skoleopgaver, 1 klasse opgaver, 2 klasse matematikopgaver, arbejdsark matematik, facitark, print matematik',
+    title: 'Matteleger - Gratis Arbejdsark Generator til Børn og Børnehaveklasse',
+    description: 'Lav professionelle matematikopgaver med symbolbaserede matteleger på få minutter. Generer gratis arbejdsark til børn med facitark. Perfekt til børnehaveklasse, 0. klasse, 1. klasse og 2. klasse.',
+    keywords: 'gratis arbejdsark, gratis arbejdsark til børn, arbejdsark til børn, arbejdsark til børnehaveklasse, matematikopgaver, matteleger, opgaver til print, gratis skoleopgaver, 1 klasse opgaver, 2 klasse matematikopgaver',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/matteleger-arbejdsark',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/math-puzzle/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Matteleger gratis arbejdsark til børn - symbolbaseret matematikpuslespil til børnehaveklasse'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/math-puzzle/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis arbejdsark matteleger - matematikopgaver til børn i 1. klasse og 2. klasse'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/math-puzzle/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Arbejdsark til børn - symbolbaseret matematikpuslespil til børnehaveklasse'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/math-puzzle/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis arbejdsark til børnehaveklasse - matematikopgaver med symboler'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/math-puzzle/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Arbejdsark til børnehaveklasse - matteleger med logiske matematikopgaver'
+      },
+    ],
   },
 
   // Hero Section - FULL text from math-puzzle.md paragraphs 1-3
   hero: {
-    title: 'Matteleger Generator - Gratis Opgaver',
-    subtitle: 'Symbolbaserede Matematikopgaver til Børnehaveklasse og Indskoling',
-    description: `Lav professionelle matematikopgaver med symbolbaserede matteleger på få minutter. Dit Fuld Adgang-abonnement giver dig ubegrænset adgang til at skabe matematikopgaver til print uden ekstra omkostninger pr. opgave. Generer opgaver til print, der passer perfekt til 1. klasse, 2. klasse og børnehaveklassen. Download opgaver i høj kvalitet som PDF på under 3 minutter.
+    title: 'Gratis Arbejdsark Matteleger Generator til Børn',
+    subtitle: 'Gratis Arbejdsark til Børn - Symbolbaserede Matematikopgaver til Børnehaveklasse',
+    description: `Lav professionelle matematikopgaver med symbolbaserede matteleger på få minutter. Dit Fuld Adgang-abonnement giver dig ubegrænset adgang til at skabe gratis arbejdsark til børn uden ekstra omkostninger pr. opgave. Generer gratis arbejdsark til børnehaveklasse, der passer perfekt til 1. klasse, 2. klasse og børnehaveklassen. Download opgaver i høj kvalitet som PDF på under 3 minutter.
 
-Vores mattelege-generator skaber matematikopgaver, hvor symboler repræsenterer tal. Eleverne løser opgaverne ved at finde ud af, hvilket tal hvert symbol står for. Dette udvikler både matematikfærdigheder og logisk tænkning. Perfekt til matematikopgaver i 0. klasse til 3. klasse.
+Vores mattelege-generator skaber matematikopgaver, hvor symboler repræsenterer tal. Eleverne løser opgaverne ved at finde ud af, hvilket tal hvert symbol står for. Dette udvikler både matematikfærdigheder og logisk tænkning. Perfekt til arbejdsark til børn i 0. klasse til 3. klasse.
 
-Fuld Adgang-abonnementet inkluderer kommerciel licens til print-on-demand. Sælg dine matematikopgaver på platforme som Teachers Pay Teachers, Etsy og Amazon KDP. Din kommercielle licens er inkluderet i abonnementsprisen på 1.797 kr. årligt uden ekstra licensomkostninger. Professionel 300 DPI-kvalitet sikrer perfekt udskrift og salg.`,
-    previewImageSrc: '/samples/english/math puzzle/worksheet.jpeg',
+Fuld Adgang-abonnementet inkluderer kommerciel licens til print-on-demand. Sælg dine gratis arbejdsark på platforme som Teachers Pay Teachers, Etsy og Amazon KDP. Din kommercielle licens er inkluderet i abonnementsprisen på 1.797 kr. årligt uden ekstra licensomkostninger. Professionel 300 DPI-kvalitet sikrer perfekt udskrift og salg.`,
+    previewImageSrc: '/samples/danish/math-puzzle/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Prøv Gratis',
       viewSamples: 'Se Eksempler',
@@ -49,10 +81,10 @@ Fuld Adgang-abonnementet inkluderer kommerciel licens til print-on-demand. Sælg
     },
   },
 
-  // Sample Gallery - REAL file paths from samples/english/math puzzle/
+  // Sample Gallery - REAL file paths from samples/danish/math-puzzle/
   samples: {
-    sectionTitle: 'Matteleger Arbejdsark Eksempler',
-    sectionDescription: 'Download gratis eksempler på matteleger arbejdsark for at se vores professionelle kvalitet',
+    sectionTitle: 'Gratis Arbejdsark Eksempler - Matteleger til Børn og Børnehaveklasse',
+    sectionDescription: 'Download gratis arbejdsark eksempler på matteleger til børn for at se vores professionelle kvalitet',
     badgeText: 'Gratis Eksempler',
     downloadLabel: 'Download Gratis Eksempel',
     downloadingLabel: 'Downloader...',
@@ -60,29 +92,50 @@ Fuld Adgang-abonnementet inkluderer kommerciel licens til print-on-demand. Sælg
     answerKeyLabel: 'Facitark',
     viewAllLabel: 'Se alle',
     noPdfLabel: 'Ingen PDF tilgængelig',
-    freePdfCountLabel: '2 gratis downloads',
+    freePdfCountLabel: '5 gratis downloads',
     ofLabel: 'af',
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/math puzzle/worksheet.jpeg',
-        answerKeySrc: '/samples/english/math puzzle/answer_key.jpeg',
-        altText: 'Matteleger arbejdsark med symbolbaserede matematikopgaver til 1. klasse og 2. klasse',
-        pdfDownloadUrl: '/samples/english/math puzzle/worksheet.pdf',
+        worksheetSrc: '/samples/danish/math-puzzle/sample-1.jpeg',
+        answerKeySrc: '/samples/danish/math-puzzle/sample-1-answer.jpeg',
+        altText: 'Matteleger gratis arbejdsark til børn - symbolbaseret matematikpuslespil til 1. klasse og 2. klasse',
+        pdfDownloadUrl: '/samples/danish/math-puzzle/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/math puzzle/worksheet (1).jpeg',
-        answerKeySrc: '/samples/english/math puzzle/answer_key (1).jpeg',
-        altText: 'Symbolpuslespil matematikopgave med facitark til børnehaveklasse og 0. klasse',
-        pdfDownloadUrl: '/samples/english/math puzzle/worksheet (1).pdf',
+        worksheetSrc: '/samples/danish/math-puzzle/sample-2.jpeg',
+        answerKeySrc: '/samples/danish/math-puzzle/sample-2-answer.jpeg',
+        altText: 'Gratis arbejdsark symbolpuslespil matematikopgave til børnehaveklasse og 0. klasse',
+        pdfDownloadUrl: '/samples/danish/math-puzzle/sample-2.pdf',
+      },
+      {
+        id: '3',
+        worksheetSrc: '/samples/danish/math-puzzle/sample-3.jpeg',
+        answerKeySrc: '/samples/danish/math-puzzle/sample-3-answer.jpeg',
+        altText: 'Arbejdsark til børn - matteleger med symbolbaserede matematikopgaver til børnehaveklasse',
+        pdfDownloadUrl: '/samples/danish/math-puzzle/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/danish/math-puzzle/sample-4.jpeg',
+        answerKeySrc: '/samples/danish/math-puzzle/sample-4-answer.jpeg',
+        altText: 'Gratis arbejdsark til børnehaveklasse - matematikpuslespil med symboler til 1. klasse',
+        pdfDownloadUrl: '/samples/danish/math-puzzle/sample-4.pdf',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/danish/math-puzzle/sample-5.jpeg',
+        answerKeySrc: '/samples/danish/math-puzzle/sample-5-answer.jpeg',
+        altText: 'Arbejdsark til børnehaveklasse - gratis matteleger matematikopgaver til børn',
+        pdfDownloadUrl: '/samples/danish/math-puzzle/sample-5.pdf',
       },
     ],
   },
 
   // Features Grid - FULL text from math-puzzle.md feature sections
   features: {
-    sectionTitle: 'Funktioner til Gratis Skoleopgaver og Arbejdsark til Print',
+    sectionTitle: 'Funktioner - Gratis Arbejdsark til Børn og Matematikopgaver til Print',
     sectionDescription: 'Vores mattelege-generator indeholder alle funktioner, du behøver for at skabe professionelle matematikopgaver. Fra simpel oprettelse på 3 klik til fuld redigeringsmuligheder på lærredet. Upload dine egne billeder, vælg mellem 3000+ biblioteksbilleder, tilføj tekst og tilpas alt. Download matematikopgaver som PDF eller JPEG i professionel 300 DPI-kvalitet.',
     highlightBadgeText: 'Vigtig Funktion',
     readMoreLabel: 'Læs mere',
@@ -97,7 +150,7 @@ Fuld Adgang-abonnementet inkluderer kommerciel licens til print-on-demand. Sælg
       {
         id: '1',
         icon: '⚡',
-        title: 'Skab Matematikopgaver på 3 Klik',
+        title: 'Skab Gratis Arbejdsark på 3 Klik - Matematikopgaver til Børn',
         description: `Generering af matematikopgaver tager under 3 minutter. Vælg et billede fra vores bibliotek eller upload dit eget. Indstil gitterstørrelse fra 2×2 til 4×4 opgaver. Vælg operation: addition, subtraktion eller begge dele. Klik på Skab og din opgave vises øjeblikkeligt.
 
 Mattelege-generatoren skaber automatisk både opgaveark og facitark. Hvert symbol i opgaven repræsenterer et tal. Eleverne løser ligningerne for at finde ud af, hvilket tal hvert symbol står for. Dette træner både matematikfærdigheder og logisk tænkning hos elever i 1. klasse og 2. klasse.
@@ -108,7 +161,7 @@ Ingen designerfærdigheder kræves for at skabe matematikopgaver. Generatoren h�
       {
         id: '2',
         icon: '✏️',
-        title: 'Redigér Alt på Dine Matematikopgaver',
+        title: 'Redigér Dine Gratis Arbejdsark - Tilpas Alt til Børn',
         description: `Alle elementer på lærredet er fuldt redigerbare efter generering. Klik på ethvert billede, symbol eller tekst for at vælge det. Træk for at flytte, brug hjørnerne til at skalere, rotér med rotationsgrebet. Slet elementer, du ikke ønsker med slet-knappen.
 
 Tilføj brugerdefineret tekst hvor som helst på matematikopgaverne. Vælg mellem 7 forskellige skrifttyper inklusiv Baloo 2, Nunito, Quicksand og Fredoka. Indstil tekstfarve, størrelse fra 8 pixels og opefter. Tilføj konturer til tekst med justerbar bredde og farve.
@@ -141,7 +194,7 @@ Skab matematikopgaver til dansk som andetsprog, fremmedsprogstimer eller interna
       {
         id: '5',
         icon: '💰',
-        title: 'Kommerciel Licens Inkluderet',
+        title: 'Kommerciel Licens - Sælg Gratis Arbejdsark til Børn',
         description: `Fuld Adgang-abonnementet inkluderer fuld kommerciel print-on-demand-licens. Sælg dine matematikopgaver på Teachers Pay Teachers, Etsy, Amazon KDP og andre platforme. Ingen ekstra licensomkostninger ud over dit abonnement på 1.797 kr. årligt.
 
 Professionel 300 DPI-kvalitet sikrer, at dine matematikopgaver ser perfekte ud trykt. Eksportér som PDF eller JPEG i høj opløsning. Ingen kreditering påkrævet på dine produkter. Skab produktpakker, bind dem sammen i bøger eller sælg som individuelle downloads.
@@ -163,7 +216,7 @@ Billedbiblioteket inkluderer også baggrunde og rammer. Vælg baggrundstemaer me
       {
         id: '7',
         icon: '🖨️',
-        title: 'Professionel 300 DPI Kvalitet',
+        title: 'Professionel 300 DPI - Gratis Arbejdsark Klar til Print',
         description: `Eksportér matematikopgaver i professionel 300 DPI-opløsning. Denne høje kvalitet sikrer skarpe, klare udskrifter på enhver printer. Perfekt til både klasseværelsesbrug og kommercielt salg. Download som JPEG eller PDF efter dine behov.
 
 PDF-format bevarer skarp tekstkvalitet og vektorgrafik. JPEG-format er ideelt til hurtige delinger og onlineupload. Begge formater understøtter 300 DPI professionel kvalitet. Gråtone-mulighed reducerer blækforbrug ved udskrivning uden at miste kvalitet.
@@ -176,7 +229,7 @@ Download både opgaveark og facitark separat. Brug opgavearket til eleverne og f
 
   // How-To Guide - FULL text from math-puzzle.md step sections
   howTo: {
-    sectionTitle: 'Lav Matematikopgaver på 5 Nemme Trin',
+    sectionTitle: 'Sådan Laver Du Gratis Arbejdsark Matteleger til Børn på 5 Trin',
     sectionDescription: 'Oprettelse af professionelle matematikopgaver tager under 3 minutter fra start til download. Vælg dit indhold, tilpas indstillinger, generér opgaven, redigér på lærredet og download. Ingen designerfærdigheder kræves.',
     ctaText: 'Start Nu',
     badgeText: 'Sådan Virker Det',
@@ -258,7 +311,7 @@ Print matematikopgaverne direkte fra PDF-filen. Send JPEG-filer til elever via l
 
   // Use Cases - FULL text from math-puzzle.md use case sections
   useCases: {
-    sectionTitle: 'Perfekt til Lærere, Forældre og Pædagoger',
+    sectionTitle: 'Gratis Arbejdsark til Børn - Perfekt til Lærere og Forældre',
     sectionDescription: 'Matematikopgaver med symbolbaserede puslespil passer til mange forskellige undervisningssituationer. Børnehavepædagoger, indskolingslærere, hjemmeskolelærere og specialundervisere bruger alle denne type opgaver.',
     badgeText: 'Hvem Er Det Til',
     readMoreLabel: 'Læs mere',
@@ -353,8 +406,8 @@ Professionel 300 DPI-kvalitet sikrer, at dine produkter ser perfekte ud. Bundle 
 
   // FAQ Section - Selected FAQs from math-puzzle.md
   faq: {
-    sectionTitle: 'Ofte Stillede Spørgsmål',
-    sectionDescription: 'Her er svar på de mest almindelige spørgsmål om mattelege-generatoren. Lær om abonnementer, kommerciel licens og hvordan du bruger matematikopgaver i din undervisning.',
+    sectionTitle: 'FAQ om Gratis Arbejdsark til Børn - Matteleger Generator',
+    sectionDescription: 'Her er svar på de mest almindelige spørgsmål om gratis arbejdsark til børn og mattelege-generatoren. Lær om abonnementer, kommerciel licens og hvordan du bruger arbejdsark til børnehaveklasse i din undervisning.',
     showMoreText: 'Vis flere spørgsmål',
     showLessText: 'Vis færre',
     badgeText: 'FAQ',
@@ -365,62 +418,62 @@ Professionel 300 DPI-kvalitet sikrer, at dine produkter ser perfekte ud. Bundle 
     items: [
       {
         id: '1',
-        question: 'Er matematikopgave-generatoren med opgaver til lære bogstaver virkelig gratis at bruge?',
+        question: 'Er gratis arbejdsark til børn matematikopgave-generatoren virkelig gratis at bruge?',
         answer: 'Matematikopgave-generatoren kræver et Fuld Adgang-abonnement, der koster 1.797 kr. årligt eller 188 kr. månedligt. Dit abonnement giver dig ubegrænset oprettelse af matematikopgaver, opgaver til lære bogstaver og skriv bogstaver, farvelægning, gangetabeller og finmotorik øvelser uden ekstra omkostninger per opgave. Generér så mange gratis skoleopgaver og arbejdsark, som du har brug for, uden yderligere gebyrer. Fuld Adgang inkluderer 33 forskellige værktøjer. Grundpakke koster 1.080 kr. årligt og inkluderer 10 værktøjer.',
       },
       {
         id: '2',
-        question: 'Kan jeg printe matematikopgaver og arbejdsark til lære bogstaver derhjemme på en almindelig printer?',
+        question: 'Kan jeg printe gratis arbejdsark til børn og matematikopgaver derhjemme på en almindelig printer?',
         answer: 'Ja, matematikopgaver og opgaver til lære bogstaver printer perfekt på enhver hjemmeprinter. Download som PDF i professionel 300 DPI-kvalitet. Brug farveprinter til farverige matematikopgaver og malebog-aktiviteter. Brug sort-hvid printer med gråtone-muligheden for at spare blæk på arbejdsark, kopiark og gangetabeller. Standard Letter og A4-formater passer til almindeligt printerpapir.',
       },
       {
         id: '3',
-        question: 'Har jeg brug for designfærdigheder for at skabe matematikopgaver?',
+        question: 'Har jeg brug for designfærdigheder for at skabe gratis arbejdsark til børnehaveklasse?',
         answer: 'Nej, ingen designfærdigheder er nødvendige. Generatoren håndterer alt layoutarbejde for matematikopgaver, opgaver til lære bogstaver, farvelægning og gangetabeller automatisk. Du vælger indhold og indstillinger, generatoren skaber den færdige opgave. Brugerfladen er simpel og intuitiv. Vælg billede, indstil gitterstørrelse, vælg operation og klik Skab. Matematikopgaver genereres på 3 minutter.',
       },
       {
         id: '4',
-        question: 'Kan jeg bruge matematikopgaver i mit klasseværelse til elever?',
+        question: 'Kan jeg bruge arbejdsark til børn og matematikopgaver i mit klasseværelse?',
         answer: 'Fuld Adgang-abonnement inkluderer ubegrænset klasseværelsesbrug. Print så mange kopier af matematikopgaver, opgaver til lære bogstaver, farvelægning og gangetabeller, som dine elever har brug for. Del arbejdsark og kopiark via læringsplatforme som Google Classroom. Brug gratis skoleopgaver til morgenarbejde, centres, lektier og vurderinger. Din Fuld Adgang-licens dækker alle dine klasser og elever.',
       },
       {
         id: '5',
-        question: 'Hvilke sprog er matematikopgaver tilgængelige på?',
+        question: 'Hvilke sprog er gratis arbejdsark til børn og matematikopgaver tilgængelige på?',
         answer: 'Matematikopgaver, opgaver til lære bogstaver og skriv bogstaver, farvelægning, gangetabeller og finmotorik øvelser er tilgængelige på 11 sprog. Dansk, engelsk, tysk, fransk, spansk, portugisisk, italiensk, hollandsk, svensk, norsk og finsk. Skift sprog fra rullemenuen for at ændre brugerflade og billedbibliotek. Flersproget understøttelse er inkluderet i dit abonnement uden ekstra omkostninger.',
       },
       {
         id: '6',
-        question: 'Kan jeg sælge matematikopgaver, jeg laver?',
+        question: 'Kan jeg sælge gratis arbejdsark til børn og matematikopgaver, jeg laver?',
         answer: 'Ja, Fuld Adgang-abonnement inkluderer fuld kommerciel print-on-demand-licens uden ekstra omkostninger. Sælg dine matematikopgaver, opgaver til lære bogstaver og skriv bogstaver, farvelægning, gangetabeller og finmotorik øvelser på Teachers Pay Teachers, Etsy, Amazon KDP og andre platforme. Ingen kreditering påkrævet på dine arbejdsark og kopiark. Din kommercielle licens dækker ubegrænset salg. Mange lærere tjener 3.750-37.500 kr. månedligt.',
       },
       {
         id: '7',
-        question: 'Hvordan tilpasser jeg matematikopgaver til mine elever?',
+        question: 'Hvordan tilpasser jeg gratis arbejdsark og matematikopgaver til mine elever?',
         answer: 'Alt på lærredet er redigerbart efter generering af matematikopgaver og opgaver til lære bogstaver. Klik på ethvert element for at vælge det. Træk for at flytte, skalér med hjørnehåndtag, rotér med rotationsgrebet. Tilføj brugerdefineret tekst til matematikopgaver, arbejdsark til skriv bogstaver, farvelægning og gangetabeller. Upload dine egne billeder til personaliserede matematikopgaver og opgaver til lære bogstaver. Kombiner med biblioteksbilleder for unikke gratis skoleopgaver.',
       },
       {
         id: '8',
-        question: 'Hvilke aldersgrupper fungerer bedst med matematikopgaver?',
+        question: 'Hvilke aldersgrupper fungerer bedst med arbejdsark til børnehaveklasse og matematikopgaver?',
         answer: 'Matematikopgaver fungerer bedst til børnehaveklasse, 0. klasse, 1. klasse, 2. klasse og 3. klasse. Små 2×2 gitre passer til børnehaveklasse og 0. klasse elever. Mellemstore 3×3 gitre er perfekte til 1. klasse og 2. klasse. Store 4×4 gitre udfordrer 3. klasse elever. Differentiering er indbygget. Yngre elever arbejder med simple addition-matematikopgaver, ældre elever løser komplekse blandede operations-matematikopgaver.',
       },
       {
         id: '9',
-        question: 'Kan jeg uploade mine egne billeder til matematikopgaver?',
+        question: 'Kan jeg uploade mine egne billeder til gratis arbejdsark til børn?',
         answer: 'Ja, multi-fil upload understøtter alle almindelige billedformater. Upload JPEG, PNG, GIF til matematikopgaver, opgaver til lære bogstaver, farvelægning og gangetabeller. Kombiner dine uploadede billeder med vores bibliotek med 3000+ billeder. Personalisér matematikopgaver med klassemaskotter, arbejdsark til skriv bogstaver med familiefotos, malebog-aktiviteter med elevtegninger. Uploadede billeder gemmes i browsersessionen.',
       },
       {
         id: '10',
-        question: 'Hvor lang tid tager det at skabe matematikopgaver?',
+        question: 'Hvor lang tid tager det at skabe gratis arbejdsark til børn?',
         answer: 'Matematikopgaver og opgaver til lære bogstaver tager under 3 minutter at oprette fra start til download. Vælg billede, indstil parametre, generér opgave, redigér efter behov, download. Samme hurtige proces for farvelægning, gangetabeller, finmotorik øvelser og alle gratis skoleopgaver. Ingen ventetid, øjeblikkelig generering af arbejdsark og kopiark. Batch-oprettelse er hurtigere. Generér 10 forskellige matematikopgaver på 15 minutter.',
       },
       {
         id: '11',
-        question: 'Inkluderer matematikopgaver facitark?',
+        question: 'Inkluderer gratis arbejdsark til børnehaveklasse matematikopgaver facitark?',
         answer: 'Ja, alle matematikopgaver genererer automatisk både opgaveark og facitark. Opgavearket viser ligninger med tomme felter til elevernes svar. Facitarket viser alle svar udfyldt til lærerens rettevejledning. Download begge ark separat som PDF eller JPEG. Skift mellem faner for at se begge versioner. Redigér begge versioner separat, hvis nødvendigt. Download facitark til din rettemappe, opgaveark til elevernes mapper.',
       },
       {
         id: '12',
-        question: 'Kan jeg skabe matematikopgaver om specifikke skoleemner?',
+        question: 'Kan jeg skabe arbejdsark til børn om specifikke skoleemner?',
         answer: 'Ja, vælg tematiske billeder til emnefokuserede matematikopgaver. Brug dyre-billeder til naturfagsemner, fødevare-billeder til sundhedsundervisning, køretøjsbilleder til samfundsfag. Kombiner matematikopgaver med tematiske opgaver til skriv bogstaver, farvelægning, gangetabeller og finmotorik øvelser for tværfaglige gratis skoleopgaver. Upload dine egne emnespecifikke billeder for personaliserede opgaver.',
       },
     ],
@@ -481,7 +534,7 @@ Professionel 300 DPI-kvalitet sikrer, at dine produkter ser perfekte ud. Bundle 
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Kombiner med Andre Arbejdsark Generatorer',
+    sectionTitle: 'Kombiner med Andre Gratis Arbejdsark Generatorer til Børn',
     sectionDescription: 'Lav komplette læringspakker ved at kombinere matteleger med disse komplementære generatorer.',
     ctaTitle: 'Klar til at Lave Fantastiske Arbejdsark?',
     ctaDescription: 'Tilslut dig tusindvis af pædagoger der laver professionelle arbejdsark. Ubegrænset oprettelse, kommerciel licens inkluderet.',

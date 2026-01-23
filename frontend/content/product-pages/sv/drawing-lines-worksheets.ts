@@ -15,16 +15,48 @@ export const drawingLinesSvContent: ProductPageContent = {
   seo: {
     slug: 'rita-linjer-arbetsblad',
     appId: 'drawing-lines',
-    title: 'Finmotorik Övningar Förskoleklass - Arbetsblad Gratis Att Skriva Ut - Rita Linjer Verktyg',
+    title: 'Gratis Arbetsblad Rita Linjer | Finmotorik Övningar för Förskoleklass',
     description: 'Skapa professionella arbetsblad där barn ritar linjer mellan matchande bilder. Generera anpassade finmotorik övningar perfekta för förskoleklass och årskurs 1-3. Ladda ner högkvalitativa PDF-arbetsblad på under 3 minuter.',
     keywords: 'finmotorik övningar, rita linjer arbetsblad, arbetsblad gratis, förskoleklass material, penngrepp övningar, hand-öga-koordination, finmotorik förskola, linjeövningar barn',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/rita-linjer-arbetsblad',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/drawing-lines/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis arbetsblad finmotorik övningar för förskoleklass - rita linjer mellan matchande bilder',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/drawing-lines/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Arbetsblad för barn rita linjer - hand-öga-koordination träning för lågstadiet',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/drawing-lines/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis utskrifter rita linjer arbetsblad - penngrepp övningar för förskoleklass',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/drawing-lines/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Arbetsblad för förskoleklass finmotorik - diagonala linjer övningar',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/drawing-lines/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis arbetsblad för barn rita linjer - vertikala och horisontella linjer träning',
+      },
+    ],
   },
 
   // Hero Section - FULL text from drawing-lines.md paragraphs 1-4
   hero: {
-    title: 'Finmotorik Övningar Förskoleklass',
-    subtitle: 'Arbetsblad Gratis Att Skriva Ut - Rita Linjer Verktyg',
+    title: 'Gratis Arbetsblad Rita Linjer - Finmotorik Övningar',
+    subtitle: 'Arbetsblad för Barn och Förskoleklass Material',
     description: `Skapa professionella arbetsblad där barn ritar linjer mellan matchande bilder. Ditt Grundpaketet-abonnemang ger dig obegränsad tillgång till vårt verktyg för finmotorik övningar utan extra kostnad per arbetsblad. Generera anpassade arbetsblad gratis att skriva ut perfekta för förskoleklass och årskurs 1-3. Ladda ner högkvalitativa PDF-arbetsblad på under 3 minuter.
 
 Rita linjer-övningar utvecklar barnets penngrepp och hand-öga-koordination. Varje arbetsblad tränar finmotorik övningar genom att barnet måste rita raka eller kurviga linjer mellan matchande bilder. Perfekt förskoleklass material som kombinerar visuell diskrimination med pennkontroll. Verktyget erbjuder 8 olika linjemallar från enkla raka linjer till mer utmanande kurvor.
@@ -32,7 +64,7 @@ Rita linjer-övningar utvecklar barnets penngrepp och hand-öga-koordination. Va
 Vårt verktyg passar perfekt för lärare i förskoleklass och lågstadiet. Skapa arbetsblad gratis att ladda ner med matchande bilder inom alla teman. Kombinera finmotorik övningar med andra ämnesområden som matematik arbetsblad och bokstäver lära sig. Välj bland 3000+ barnvänliga bilder eller ladda upp egna bilder. Anpassa allt på arbetsytan med full redigering av alla element.
 
 Med Grundpaketet-prenumeration på 1 800 SEK per år får du tillgång till 10 populära arbetsbladsgeneratorer. Skapa obegränsat med förskoleklass material och finmotorik övningar. Alla arbetsblad exporteras i professionell 300 DPI-kvalitet perfekt för utskrift och försäljning. Kommersiell licens ingår utan extra kostnad.`,
-    previewImageSrc: '/samples/english/drawing lines/drawing_lines_curve 1.jpeg',
+    previewImageSrc: '/samples/swedish/drawing-lines/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Prova Gratis',
       viewSamples: 'Visa Exempel',
@@ -53,7 +85,7 @@ Med Grundpaketet-prenumeration på 1 800 SEK per år får du tillgång till 10 p
 
   // Sample Gallery - REAL file paths from samples/english/drawing lines/
   samples: {
-    sectionTitle: 'Rita Linjer Arbetsblad Exempel',
+    sectionTitle: 'Gratis Arbetsblad Rita Linjer - Exempelarbetsblad för Barn',
     sectionDescription: 'Ladda ner gratis exempelarbetsblad för att se vår professionella kvalitet',
     downloadLabel: 'Ladda Ner Gratis Exempel',
     worksheetLabel: 'Arbetsblad',
@@ -67,45 +99,45 @@ Med Grundpaketet-prenumeration på 1 800 SEK per år får du tillgång till 10 p
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/drawing lines/drawing_lines_curve 1.jpeg',
+        worksheetSrc: '/samples/swedish/drawing-lines/sample-1.jpeg',
         answerKeySrc: '',
-        altText: 'Finmotorik övning med kurviga linjer för förskoleklass',
-        pdfDownloadUrl: '/samples/english/drawing lines/drawing_lines_curve 1.pdf',
+        altText: 'Gratis arbetsblad finmotorik övningar för förskoleklass - rita kurviga linjer',
+        pdfDownloadUrl: '/samples/swedish/drawing-lines/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/drawing lines/drawing_lines_curve 2.jpeg',
+        worksheetSrc: '/samples/swedish/drawing-lines/sample-2.jpeg',
         answerKeySrc: '',
-        altText: 'Kurvlinjemall för hand-öga-koordination träning',
-        pdfDownloadUrl: '/samples/english/drawing lines/drawing_lines_curve 2.pdf',
+        altText: 'Arbetsblad för barn rita linjer - hand-öga-koordination kurvor',
+        pdfDownloadUrl: '/samples/swedish/drawing-lines/sample-2.pdf',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/drawing lines/drawing_lines_diagonal 1.jpeg',
+        worksheetSrc: '/samples/swedish/drawing-lines/sample-3.jpeg',
         answerKeySrc: '',
-        altText: 'Diagonala linjer arbetsblad för penngrepp övningar',
-        pdfDownloadUrl: '/samples/english/drawing lines/drawing_lines_diagonal 1.pdf',
+        altText: 'Gratis utskrifter rita linjer - diagonala linjer penngrepp övningar',
+        pdfDownloadUrl: '/samples/swedish/drawing-lines/sample-3.pdf',
       },
       {
         id: '4',
-        worksheetSrc: '/samples/english/drawing lines/drawing_lines_horizontal.jpeg',
+        worksheetSrc: '/samples/swedish/drawing-lines/sample-4.jpeg',
         answerKeySrc: '',
-        altText: 'Horisontella linjer finmotorik övning för nybörjare',
-        pdfDownloadUrl: '/samples/english/drawing lines/drawing_lines_horizontal.pdf',
+        altText: 'Arbetsblad för förskoleklass rita linjer - horisontella linjer',
+        pdfDownloadUrl: '/samples/swedish/drawing-lines/sample-4.pdf',
       },
       {
         id: '5',
-        worksheetSrc: '/samples/english/drawing lines/drawing_lines_vertical.jpeg',
+        worksheetSrc: '/samples/swedish/drawing-lines/sample-5.jpeg',
         answerKeySrc: '',
-        altText: 'Vertikala linjer arbetsblad för precision och pennkontroll',
-        pdfDownloadUrl: '/samples/english/drawing lines/drawing_lines_vertical.pdf',
+        altText: 'Gratis arbetsblad för barn finmotorik - vertikala linjer precision',
+        pdfDownloadUrl: '/samples/swedish/drawing-lines/sample-5.pdf',
       },
     ],
   },
 
   // Features Grid - FULL text from drawing-lines.md feature sections
   features: {
-    sectionTitle: 'Funktioner i Verktyget - Arbetsblad Gratis för Finmotorik Övningar och Matematik Arbetsblad',
+    sectionTitle: 'Gratis Arbetsblad Funktioner - Finmotorik Övningar och Arbetsblad för Barn',
     sectionDescription: 'Vårt rita linjer-verktyg innehåller alla funktioner du behöver för att skapa professionella arbetsblad gratis att skriva ut. Från enkla finmotorik övningar till komplext förskoleklass material kombinerat med matematik arbetsblad. Varje funktion är designad för att spara tid och ge dig full kontroll över dina arbetsblad. Generera matte övningar, bokstäver lära sig-material och målarbilder barn på under 3 minuter.',
     highlightBadgeText: 'Nyckelfunktion',
     readMoreLabel: 'Läs mer',
@@ -120,7 +152,7 @@ Med Grundpaketet-prenumeration på 1 800 SEK per år får du tillgång till 10 p
       {
         id: '1',
         icon: '⚡',
-        title: 'Skapa Finmotorik Övningar på 3 Klick - Arbetsblad Gratis Förskoleklass Material',
+        title: 'Skapa Gratis Arbetsblad på 3 Klick - Finmotorik Övningar för Förskoleklass',
         description: `Skapa arbetsblad på rekordtid med vårt förenklade gränssnitt. Välj en av 8 linjemallar perfekta för finmotorik övningar. Välj tema från bildbiblioteket för automatisk bildtilldelning. Klicka på Generera för färdigt förskoleklass material. Hela processen tar under 3 minuter från start till färdigt arbetsblad gratis att ladda ner.
 
 Varje mall är designad för specifika finmotorik övningar. Kurvmallar tränar mjuka handrörelser. Diagonalmallar utvecklar penngrepp och riktningskontroll. Horisontella och vertikala mallar bygger koordination. Välj rätt mall baserat på barnens ålder och förmåga. Förskoleklass använder ofta de enklare horisontella mallarna. Årskurs 1-2 kan hantera mer komplexa kurvmönster.
@@ -131,7 +163,7 @@ Auto-fyll-funktionen gör skapandet ännu snabbare. Aktivera kryssrutan och väl
       {
         id: '2',
         icon: '✏️',
-        title: 'Redigera Allt på Arbetsytan - Matematik Arbetsblad och Målarbilder Barn Anpassning',
+        title: 'Redigera Allt på Arbetsblad för Barn - Anpassning av Gratis Material',
         description: `Full redigerbarhet efter generering ger dig total kontroll. Dra, rotera och ändra storlek på alla element. Lägg till extra text för instruktioner på svenska. Ta bort eller byt ut bilder som inte passar. Varje arbetsblad blir unikt anpassat för dina elever.
 
 Kontextuellt verktygsfält visas när du väljer objekt. Justera lager för att ändra vilka element som ligger överst. Lås element för att skydda dem från oavsiktliga ändringar. Använd justeringsverktyg för perfekt placering. Centrera titel och instruktioner automatiskt.
@@ -144,7 +176,7 @@ Textverktyg ger full typografisk kontroll. Ändra teckensnittsstorlek för bätt
       {
         id: '3',
         icon: '📤',
-        title: 'Ladda Upp Egna Bilder - Anpassade Arbetsblad för Bokstäver Lära Sig och Siffror och Tal',
+        title: 'Ladda Upp Egna Bilder - Gratis Utskrifter för Bokstäver och Siffror',
         description: `Uppladdning av egna bilder gör arbetsbladen personliga. Ladda upp klassrumsfoton för igenkänning. Använd bilder från skolans utflykt. Kombinera med biblioteksbilder för variation. Stöder JPEG, PNG, GIF och andra vanliga format.
 
 Multi-fil-uppladdning sparar tid. Välj flera bilder samtidigt från din dator. Alla uppladdade bilder visas i förhandsgranskningsrutnät. Klicka på bild för att tilldela till parplats. Uppladdade bilder finns tillgängliga under hela sessionen.
@@ -157,7 +189,7 @@ Kombinera egna bilder med 3000+ biblioteksbilder. Använd tema-bilder som bas. L
       {
         id: '4',
         icon: '🌍',
-        title: '11 Språk för Matte Övningar - Förskoleklass Material på Svenska, Finska, Norska',
+        title: '11 Språk för Arbetsblad för Förskoleklass - Gratis Material på Svenska',
         description: `Vårt verktyg stöder 11 språk perfekt för flerspråkiga klassrum. Svenska, finska, norska, danska för nordiskt samarbete. Engelska, tyska, franska, spanska, italienska, portugisiska, nederländska. Alla titlar och instruktioner översätts automatiskt.
 
 Språkstödet är särskilt värdefullt för matte övningar. Skapa samma matematik arbetsblad på svenska och engelska. Använd för modersmålsundervisning och andraspråksinlärning. Perfekt för internationella skolor och flerspråkiga familjer.
@@ -170,7 +202,7 @@ För svenska förskoleklasser och lågstadiet är detta ovärderligt. Skapa arbe
       {
         id: '5',
         icon: '💰',
-        title: 'Kommersiell Licens Ingår - Sälj Arbetsblad Gratis Material på Etsy och TPT',
+        title: 'Kommersiell Licens - Sälj Gratis Arbetsblad för Barn på Etsy och TPT',
         description: `Grundpaketet inkluderar full kommersiell print-on-demand-licens. Sälj dina arbetsblad på Teachers Pay Teachers. Öppna Etsy-butik för nedladdningsbara arbetsblad. Publicera aktivitetsböcker på Amazon KDP. Ingen extra licensavgift utöver din prenumeration.
 
 300 DPI professionell kvalitet perfekt för försäljning. Exportera som högupplöst PDF eller JPEG. Arbetsbladen ser professionella ut när kunder skriver ut. Detta är samma kvalitet som kommersiella förlag använder.
@@ -183,7 +215,7 @@ Ingen attribution krävs på dina arbetsblad. Lägg till ditt eget varumärke oc
       {
         id: '6',
         icon: '🎨',
-        title: '3000+ Bilder för Addition och Subtraktion - Siffror och Tal Matematik Material',
+        title: '3000+ Bilder för Arbetsblad för Barn - Addition, Subtraktion och Matematik',
         description: `Över 3000 barnvänliga bilder organiserade efter tema. Hitta bilder för addition och subtraktion snabbt. Siffror och tal-bilder för matematik arbetsblad. Djur, mat, fordon, former och mycket mer.
 
 Temaurval gör bildsökning enkel. Välj "Djur" för djurbilder. Välj "Mat" för matbilder. Varje tema innehåller dussintals relaterade bilder. Perfekt för att skapa tematiska arbetsblad.
@@ -196,7 +228,7 @@ Alla bilder är optimerade för barn. Tydliga former och ljusa färger. Lämplig
       {
         id: '7',
         icon: '🖨️',
-        title: 'Professionell 300 DPI-Kvalitet - För Multiplikationstabellen och Alla Arbetsblad Gratis',
+        title: 'Professionell 300 DPI Gratis Utskrifter - Arbetsblad för Förskoleklass',
         description: `Export i 300 DPI ger kristallklar utskriftskvalitet. Varje linje och bild ser skarp ut. Text läses lätt även i små storlekar. Samma kvalitet som professionella förlag använder.
 
 Välj mellan JPEG och PDF-format. JPEG för digital användning och delning. PDF för perfekt utskrift och bevarande av layout. Båda formaten exporteras i 300 DPI.
@@ -211,7 +243,7 @@ Arbetsbladen fungerar lika bra på vanliga skrivare. Inga specialskrivare eller 
 
   // How-To Guide - FULL text from drawing-lines.md step sections
   howTo: {
-    sectionTitle: 'Hur Man Skapar Finmotorik Övningar i 5 Enkla Steg - Arbetsblad Gratis på Under 3 Minuter',
+    sectionTitle: 'Hur Man Skapar Gratis Arbetsblad i 5 Steg - Arbetsblad för Förskoleklass',
     sectionDescription: 'Skapa professionella finmotorik övningar snabbt med vårt användarvänliga verktyg. Från val av mall till färdigt arbetsblad gratis att ladda ner tar det under 3 minuter. Följ dessa 5 enkla steg för perfekta förskoleklass material. Ingen designerfarenhet krävs för att skapa matematik arbetsblad och bokstäver lära sig-material.',
     ctaText: 'Börja Skapa Nu',
     badgeText: 'Så Fungerar Det',
@@ -226,7 +258,7 @@ Arbetsbladen fungerar lika bra på vanliga skrivare. Inga specialskrivare eller 
       {
         id: '1',
         number: 1,
-        title: 'Välj Din Mall - 8 Linjemallar för Finmotorik Övningar och Förskoleklass Material',
+        title: 'Välj Din Mall - Gratis Arbetsblad för Förskoleklass och Finmotorik',
         description: `Börja med att välja en av 8 linjemallar. Klicka på mallminiatyr i mallrutnätet. Vald mall markeras med färgad ram. Mallnamn och orientering visas under rutnätet.
 
 Fyra kurvmallar i landskapsformat passar yngre förskoleklass-barn. Varje kurvmall kräver 4 bildpar. Mjuka kurvor tränar hand-öga-koordination. Perfekt för barn som övar penngrepp första gången.
@@ -241,7 +273,7 @@ Välj mall baserat på elevernas ålder. Förskoleklass börjar med horisontella
       {
         id: '2',
         number: 2,
-        title: 'Tilldela Bilder - Matematik Arbetsblad, Bokstäver Lära Sig, Klockan Lära Sig Material',
+        title: 'Tilldela Bilder - Arbetsblad för Barn med Matematik och Bokstäver',
         description: `Efter mallval visas partabell med alla nödvändiga bildpar. Varje par märkt A1-A2, B1-B2, osv. Klicka på parplats för att öppna bildväljare. Tilldela bilder från bibliotek eller uppladdningar.
 
 Auto-fyll-alternativet sparar massiv tid. Aktivera kryssrutan "Fyll automatiskt från tema". Välj tema från rullgardinsmenyn. Verktyget väljer slumpmässiga matchande bildpar. Perfekt för snabb generering av förskoleklass material.
@@ -258,7 +290,7 @@ Ladda upp egna bilder för personalisering. Klicka "Ladda upp bilder" för att v
       {
         id: '3',
         number: 3,
-        title: 'Anpassa Inställningar - Målarbilder Barn, Arbetsblad Gratis Layout och Sidformat',
+        title: 'Anpassa Inställningar - Gratis Utskrifter Layout och Sidformat',
         description: `Öppna "Sidinställningar" i sidofältet för layoutalternativ. Välj sidstorlek från 6 förinställningar. Letter Portrait (22x28cm) vanligast i Sverige. A4 Portrait (21x30cm) är europastandard. Båda fungerar perfekt för arbetsblad gratis utskrift.
 
 Lägg till namn- och datumfält genom att aktivera kryssrutan. Dessa fält placeras automatiskt överst på arbetsbladet. Elever skriver sitt namn innan de börjar. Detta är standard för förskoleklass och lågstadiet.
@@ -273,7 +305,7 @@ Lägg till kantlinjetema för professionellt utseende. Över 50 teman tillgängl
       {
         id: '4',
         number: 4,
-        title: 'Generera och Redigera - Siffror och Tal, Addition och Subtraktion Arbetsblad',
+        title: 'Generera och Redigera - Gratis Arbetsblad för Barn Matematik',
         description: `Klicka den stora "Generera"-knappen för att skapa arbetsbladet. Verktyget positionerar automatiskt alla bildpar enligt mall. Titel läggs till på valt språk. Instruktioner översätts automatiskt. Namn/datumfält läggs till om aktiverat.
 
 Bildpar placeras i vänster och höger kolumn. Vänster kolumn visar bilder i ordning. Höger kolumn visar matchande bilder i blandad ordning. Barn ritar linjer mellan matchande par. Detta utvecklar problemlösning och visuell diskrimination.
@@ -290,7 +322,7 @@ Lås element när du är nöjd med placeringen. Högerklicka och välj "Lås". L
       {
         id: '5',
         number: 5,
-        title: 'Ladda Ner och Skriv Ut - Matte Övningar, Multiplikationstabellen, Klockan Lära Sig PDF',
+        title: 'Ladda Ner Gratis Utskrifter - Arbetsblad för Förskoleklass PDF',
         description: `Nedladdningsknappar aktiveras efter generering. Välj mellan JPEG och PDF-format. Båda exporteras i professionell 300 DPI-kvalitet. PDF rekommenderas för utskrift. JPEG fungerar bättre för digital delning.
 
 Aktivera gråskaleläget för bläckbesparande utskrifter. Kryssrutan konverterar hela arbetsbladet till svartvitt. Alla färger blir gråskalor. Text och linjer förblir skarpa. Perfekt när skolan har begränsad bläckbudget.
@@ -309,7 +341,7 @@ Spara arbetsbladet i klassrumsmapp på datorn. Organisera efter ämne och svåri
 
   // Use Cases - FULL text from drawing-lines.md use case sections
   useCases: {
-    sectionTitle: 'Perfekt för Lärare och Föräldrar - Finmotorik Övningar och Matematik Arbetsblad för Alla Behov',
+    sectionTitle: 'Perfekt för Lärare och Föräldrar - Gratis Arbetsblad för Barn och Förskoleklass',
     sectionDescription: 'Vårt rita linjer-verktyg passar alla som arbetar med barn i åldrarna 3-9 år. Från förskolepedagoger till hemundervisande föräldrar. Skapa anpassade finmotorik övningar och matematik arbetsblad för varje elevgrupp. Varje användartyp hittar unika fördelar med verktyget. Generera arbetsblad gratis material perfekt anpassat för dina specifika behov.',
     badgeText: 'Vem Det Är För',
     readMoreLabel: 'Läs mer',
@@ -319,7 +351,7 @@ Spara arbetsbladet i klassrumsmapp på datorn. Organisera efter ämne och svåri
         id: '1',
         icon: '👶',
         title: 'Förskoleklass Lärare',
-        subtitle: 'Bokstäver Lära Sig och Finmotorik Övningar Dagligen',
+        subtitle: 'Gratis Arbetsblad för Barn och Finmotorik Övningar',
         description: `Förskoleklasslärare använder verktyget dagligen för penngreppsutveckling. Sexåringar behöver massvis med finmotorik övningar. Rita linjer-aktiviteter passar perfekt för denna utvecklingsfas. Kombinera motorikträning med bokstäver lära sig för integrerad undervisning.
 
 Skapa morgonaktiviteter som barn gör självständigt. Välj enkla horisontella linjemallar för nybörjare. Använd stora, tydliga bilder som förskoleklass-barn känner igen. Djur, mat och leksaker fungerar bäst. Barn slutför övningen på 10-15 minuter.
@@ -335,7 +367,7 @@ Kombinera finmotorik övningar med andra lärandemål. Använd bokstavsbilder f�
         id: '2',
         icon: '📚',
         title: 'Lågstadielärare Årskurs 1-3',
-        subtitle: 'Matematik Arbetsblad, Addition och Subtraktion, Siffror och Tal',
+        subtitle: 'Gratis Arbetsblad Matematik för Förskoleklass',
         description: `Lågstadielärare i årskurs 1-3 använder verktyget för ämnesintegrerade arbetsblad. Kombinera finmotorik med matematik arbetsblad perfekt. Skapa addition och subtraktion matchningsövningar. Barn matchar tal med motsvarande mängdbilder. Detta bygger taluppfattning samtidigt som penngrepp förbättras.
 
 Skapa siffror och tal-arbetsblad för matematikstationer. Matcha siffersymbol med rätt antal föremål. Eller matcha olika representationer av samma tal. 5 fingrar matchar siffran 5. 5 äpplen matchar ordet "fem". Detta tränar flexibel talförståelse.
@@ -351,7 +383,7 @@ Skapa klockan lära sig-arbetsblad med tidsbilder. Matcha klockslag med motsvara
         id: '3',
         icon: '🏠',
         title: 'Hemundervisande Föräldrar',
-        subtitle: 'Målarbilder Barn och Arbetsblad Gratis för Flera Barn',
+        subtitle: 'Gratis Utskrifter och Arbetsblad för Barn Hemma',
         description: `Hemundervisande föräldrar älskar verktygets flexibilitet. Skapa arbetsblad gratis för flera barn samtidigt. Varje barn får rätt svårighetsnivå. 4-åringen får enkel horisontell mall. 7-åringen får utmanande kurvmall. Båda arbetar med samma tema.
 
 Hemundervisning kräver varierande aktiviteter dagligen. Skapa nya finmotorik övningar på 3 minuter. Byt tema dagligen för att behålla intresse. Målarbilder barn-stilade arbetsblad kombinerar kreativitet med motorik. Barn färglägger efter att ha ritat linjer.
@@ -367,7 +399,7 @@ Kombinera med andra ämnen för projektbaserat lärande. Studerar ni havet? Skap
         id: '4',
         icon: '💜',
         title: 'Specialpedagoger',
-        subtitle: 'Anpassade Förskoleklass Material och Finmotorik Övningar',
+        subtitle: 'Arbetsblad för Förskoleklass och Gratis Utskrifter',
         description: `Specialpedagoger behöver extremt anpassningsbara verktyg. Vårt verktyg ger total kontroll över varje element. Skapa förskoleklass material perfekt anpassat för individuella behov. Stora bilder för synsvaga. Tydliga kontraster för fokussvårigheter. Färre bildpar för kortare koncentrationsspann.
 
 Ladda upp personliga bilder från elevens vardag. Bilder från hemmet, skolan, favoritleksaker. Igenkänning ökar motivation hos barn med särskilda behov. De förstår uppgiften bättre med bekanta motiv.
@@ -383,7 +415,7 @@ Skapa sociala berättelser med matchningsövningar. Matcha känslor med ansiktsu
         id: '5',
         icon: '🌍',
         title: 'Modersmålslärare',
-        subtitle: 'Bokstäver Lära Sig på Svenska, Finska, Arabiska',
+        subtitle: 'Gratis Arbetsblad för Barn på 11 Språk',
         description: `Modersmålslärare för minoritetsspråk använder 11-språksstödet dagligen. Skapa bokstäver lära sig-material på elevens hemspråk. Svenska, finska, arabiska, somaliska barn får instruktioner de förstår. Detta stärker identitet och språkutveckling.
 
 Använd bilder med ord på olika språk. Ladda upp egna bilder med text på modersmålet. Barn matchar bild med bokstav på sitt språk. Detta bygger literacy på båda språken samtidigt.
@@ -397,7 +429,7 @@ Kombinera finmotorik övningar med kulturellt relevant innehåll. Använd bilder
         id: '6',
         icon: '💰',
         title: 'Lärarföretagare',
-        subtitle: 'Sälj Multiplikationstabellen och Klockan Lära Sig Material',
+        subtitle: 'Sälj Gratis Arbetsblad för Förskoleklass Online',
         description: `Lärarföretagare använder verktyget för att skapa säljbara produkter. Grundpaketet inkluderar kommersiell licens utan extra kostnad. Skapa multiplikationstabellen-paket för Teachers Pay Teachers. Skapa klockan lära sig-samlingar för Etsy. 300 DPI-kvalitet imponerar på kunder.
 
 Skapa temabaserade produktpaket. "Djungel Finmotorik Paket" med 20 arbetsblad. "Vinter Matematik Arbetsblad Samling" med 30 övningar. Paket säljs för 50-150 SEK styck. Skapa 10 paket första månaden. Det är 500-1500 SEK extra inkomst.
@@ -414,7 +446,7 @@ Kombinera rita linjer-arbetsblad med andra arbetsbladstyper. Sälj "Komplett Fö
 
   // FAQ Section - Selected FAQs from drawing-lines.md
   faq: {
-    sectionTitle: 'Vanliga Frågor om Finmotorik Övningar och Matematik Arbetsblad',
+    sectionTitle: 'Vanliga Frågor om Gratis Arbetsblad och Arbetsblad för Förskoleklass',
     sectionDescription: 'Lärare och föräldrar ställer ofta samma frågor om vårt verktyg. Här besvarar vi de vanligaste frågorna om finmotorik övningar, matematik arbetsblad och förskoleklass material.',
     showMoreText: 'Visa fler frågor',
     showLessText: 'Visa färre',
@@ -519,7 +551,7 @@ Kombinera rita linjer-arbetsblad med andra arbetsbladstyper. Sälj "Komplett Fö
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Kombinera med Andra Arbetsblad Generatorer',
+    sectionTitle: 'Fler Gratis Arbetsblad Generatorer för Barn',
     sectionDescription: 'Skapa kompletta lärpaket genom att kombinera rita linjer-arbetsblad med dessa kompletterande generatorer för finmotorik övningar, matematik arbetsblad och bokstäver lära sig.',
     ctaTitle: 'Redo att Skapa Fantastiska Finmotorik Övningar?',
     ctaDescription: 'Gå med tusentals lärare som skapar professionella arbetsblad. Obegränsad generering, kommersiell licens ingår.',

@@ -15,22 +15,54 @@ export const cryptogramDaContent: ProductPageContent = {
   seo: {
     slug: 'kryptogram-arbejdsark',
     appId: 'cryptogram',
-    title: 'Kryptogram Opgaver til Print - Gratis Skoleopgaver for Børn i 0. Klasse og 1. Klasse',
-    description: 'Opret professionelle kryptogram opgaver med vores kryptogram generator. Generer tilpassede kryptogram opgaver perfekte til børnehaveklassen, 0. klasse og 1. klasse. Download opgaver til print i PDF-format på under 3 minutter.',
+    title: 'Kryptogram Gratis Arbejdsark til Børn - Generator til Børnehaveklasse',
+    description: 'Opret professionelle kryptogram gratis arbejdsark med vores generator. Perfekt til børn i børnehaveklasse og 0.-1. klasse. Download PDF på 3 minutter.',
     keywords: 'kryptogram arbejdsark, opgaver til print, gratis skoleopgaver, 0 klasse opgaver, 1 klasse opgaver, lære bogstaver, læse og skrive, stavning øvelser, kryptogram generator, printklare opgaver, dansk skoleopgaver',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/kryptogram-arbejdsark',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/cryptogram/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Kryptogram gratis arbejdsark til børn - arbejdsark til børnehaveklasse med billednøgler'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/cryptogram/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis arbejdsark til børn - kryptogram puslespil med visuelle billedtips'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/cryptogram/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Arbejdsark til børnehaveklasse - gratis printables kryptogram opgaver'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/cryptogram/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis printables - arbejdsark til børn med kryptogram stavning øvelser'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/cryptogram/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Arbejdsark til børn - gratis arbejdsark kryptogram generator til børnehaveklasse'
+      },
+    ],
   },
 
   // Hero Section - FULL text from cryptogram.md paragraphs 1-3
   hero: {
-    title: 'Kryptogram Generator - Gratis Skoleopgaver',
-    subtitle: 'Opgaver til Print med Billedpuslespil til Børnehaveklassen og Indskolingen',
+    title: 'Gratis Kryptogram Arbejdsark til Børn - Professionel Generator',
+    subtitle: 'Kryptogram Arbejdsark Generator - Gratis Printables til Børn',
     description: `Opret professionelle kryptogram opgaver med vores kryptogram generator. Dit Fuld Adgang-abonnement giver ubegrænset opgaveoprettelse uden ekstra gebyrer per opgave. Generer tilpassede kryptogram opgaver perfekte til børnehaveklassen, 0. klasse og 1. klasse. Download opgaver til print i PDF-format på under 3 minutter.
 
 Vores kryptogram generator kombinerer læse og skrive færdigheder med kritisk tænkning. Hver kryptogram opgave hjælper børn med at lære bogstaver og øve stavning gennem sjove billedpuslespil. Perfekt til danskundervisning i indskolingen.
 
 Kryptogram opgaver fungerer som hemmelige koder hvor hvert bogstav erstattes af et andet bogstav. Børnene bruger billedtips til at knække koden og finde de rigtige bogstaver. Dette styrker bogstavgenkendelse, stavning og problemløsning samtidig.`,
-    previewImageSrc: '/samples/english/cryptogram/cryptogram_worksheet.jpeg',
+    previewImageSrc: '/samples/danish/cryptogram/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Prøv Gratis',
       viewSamples: 'Se Eksempler',
@@ -49,9 +81,9 @@ Kryptogram opgaver fungerer som hemmelige koder hvor hvert bogstav erstattes af 
     },
   },
 
-  // Sample Gallery - REAL file paths from samples/english/cryptogram/
+  // Sample Gallery - REAL file paths from samples/danish/cryptogram/
   samples: {
-    sectionTitle: 'Kryptogram Arbejdsark Eksempler',
+    sectionTitle: 'Gratis Arbejdsark Eksempler - Kryptogram til Børn',
     sectionDescription: 'Download gratis eksempler på kryptogram arbejdsark for at se vores professionelle kvalitet',
     badgeText: 'Gratis Eksempler',
     downloadLabel: 'Download Gratis Eksempel',
@@ -60,29 +92,50 @@ Kryptogram opgaver fungerer som hemmelige koder hvor hvert bogstav erstattes af 
     answerKeyLabel: 'Facitark',
     viewAllLabel: 'Se alle',
     noPdfLabel: 'Ingen PDF tilgængelig',
-    freePdfCountLabel: '2 gratis downloads',
+    freePdfCountLabel: '5 gratis downloads',
     ofLabel: 'af',
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/cryptogram/cryptogram_worksheet.jpeg',
-        answerKeySrc: '/samples/english/cryptogram/cryptogram_answer_key.jpeg',
-        altText: 'Kryptogram arbejdsark med billednøgler til bogstavgenkendelse og stavning i børnehaveklassen',
-        pdfDownloadUrl: '/samples/english/cryptogram/cryptogram_worksheet.pdf',
+        worksheetSrc: '/samples/danish/cryptogram/sample-1.jpeg',
+        answerKeySrc: '/samples/danish/cryptogram/sample-1-answer.jpeg',
+        altText: 'Kryptogram gratis arbejdsark til børn med billednøgler til stavning i børnehaveklassen',
+        pdfDownloadUrl: '/samples/danish/cryptogram/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/cryptogram/cryptogram_worksheet (1).jpeg',
-        answerKeySrc: '/samples/english/cryptogram/cryptogram_answer_key (1).jpeg',
-        altText: 'Kryptogram puslespil med visuelle billedtips til 0. klasse og 1. klasse læse og skrive øvelser',
-        pdfDownloadUrl: '/samples/english/cryptogram/cryptogram_worksheet (1).pdf',
+        worksheetSrc: '/samples/danish/cryptogram/sample-2.jpeg',
+        answerKeySrc: '/samples/danish/cryptogram/sample-2-answer.jpeg',
+        altText: 'Gratis arbejdsark til børn - kryptogram puslespil med visuelle billedtips til 0. klasse',
+        pdfDownloadUrl: '/samples/danish/cryptogram/sample-2.pdf',
+      },
+      {
+        id: '3',
+        worksheetSrc: '/samples/danish/cryptogram/sample-3.jpeg',
+        answerKeySrc: '/samples/danish/cryptogram/sample-3-answer.jpeg',
+        altText: 'Arbejdsark til børnehaveklasse - gratis printables kryptogram med billednøgler',
+        pdfDownloadUrl: '/samples/danish/cryptogram/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/danish/cryptogram/sample-4.jpeg',
+        answerKeySrc: '/samples/danish/cryptogram/sample-4-answer.jpeg',
+        altText: 'Gratis printables arbejdsark til børn - kryptogram stavning øvelser til 1. klasse',
+        pdfDownloadUrl: '/samples/danish/cryptogram/sample-4.pdf',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/danish/cryptogram/sample-5.jpeg',
+        answerKeySrc: '/samples/danish/cryptogram/sample-5-answer.jpeg',
+        altText: 'Arbejdsark til børn - gratis arbejdsark kryptogram generator til børnehaveklasse',
+        pdfDownloadUrl: '/samples/danish/cryptogram/sample-5.pdf',
       },
     ],
   },
 
   // Features Grid - FULL text from cryptogram.md feature sections
   features: {
-    sectionTitle: 'Funktioner til Gratis Skoleopgaver og Arbejdsark til Print',
+    sectionTitle: 'Funktioner i Kryptogram Generator - Gratis Arbejdsark til Børnehaveklasse',
     sectionDescription: 'Kryptogram generatoren tilbyder alle vigtige funktioner til gratis skoleopgaver. Lav professionelle arbejdsark og opgaver til print på få minutter. Hver funktion er udviklet til lærere og pædagoger. Perfekt til børnehaveklassen og indskolingen.',
     highlightBadgeText: 'Vigtig Funktion',
     readMoreLabel: 'Læs mere',
@@ -176,7 +229,7 @@ Gråtoneindstilling konverterer dit kryptogram til sort-hvid. Spar blækpatron v
 
   // How-To Guide - FULL text from cryptogram.md step sections
   howTo: {
-    sectionTitle: 'Opret Kryptogram Opgaver i 5 Nemme Trin',
+    sectionTitle: 'Opret Gratis Arbejdsark til Børn i 5 Nemme Trin - Kryptogram Generator',
     sectionDescription: 'Oprettelse af professionelle kryptogram arbejdsark tager under 3 minutter fra start til download. Følg disse 5 nemme trin for at oprette tilpassede opgaver til print til din klasse. Ingen designerfærdigheder påkrævet. Perfekt til travle pædagoger i børnehaveklassen og indskolingen.',
     ctaText: 'Start Nu',
     badgeText: 'Sådan Virker Det',
@@ -248,7 +301,7 @@ Download både opgaveark og facitark separat. Opgavearket viser det kodede krypt
 
   // Use Cases - FULL text from cryptogram.md use case sections
   useCases: {
-    sectionTitle: 'Perfekt til Pædagoger, Lærere og Forældre',
+    sectionTitle: 'Perfekt til Pædagoger og Forældre - Gratis Arbejdsark til Børnehaveklasse',
     sectionDescription: 'Kryptogram generatoren imødekommer forskellige undervisningsbehov på tværs af aldersgrupper og læringsmiljøer. Fra børnehaveklassen til 3. klasse hjælper kryptogram opgaver børn med at lære bogstaver og øve stavning gennem engagerende puslespil.',
     badgeText: 'Hvem Er Det Til',
     readMoreLabel: 'Læs mere',
@@ -331,7 +384,7 @@ Sæsonbestemte kryptogrampakker sælger særligt godt. Julekryptogrammer i novem
 
   // FAQ Section - Selected FAQs from cryptogram.md
   faq: {
-    sectionTitle: 'Ofte Stillede Spørgsmål',
+    sectionTitle: 'Ofte Stillede Spørgsmål om Gratis Arbejdsark til Børn',
     sectionDescription: 'Her er svar på de mest almindelige spørgsmål om kryptogram generatoren. Lær om gratis muligheder, abonnementer og hvordan du bruger opgaver til print i din undervisning.',
     showMoreText: 'Vis flere spørgsmål',
     showLessText: 'Vis færre',
@@ -459,7 +512,7 @@ Sæsonbestemte kryptogrampakker sælger særligt godt. Julekryptogrammer i novem
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Kombinér med Andre Arbejdsark Generatorer',
+    sectionTitle: 'Kombinér med Andre Gratis Printables og Arbejdsark Generatorer',
     sectionDescription: 'Lav komplette læringspakker ved at kombinere kryptogrammer med disse komplementære generatorer.',
     ctaTitle: 'Klar til at Lave Fantastiske Arbejdsark?',
     ctaDescription: 'Tilslut dig tusindvis af pædagoger der laver professionelle arbejdsark. Ubegrænset oprettelse, kommerciel licens inkluderet.',

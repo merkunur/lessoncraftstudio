@@ -15,22 +15,54 @@ export const alphabetTrainSvContent: ProductPageContent = {
   seo: {
     slug: 'alfabettag-arbetsblad',
     appId: 'alphabet-train',
-    title: 'Alfabettåg Arbetsblad - Bokstäver Lära Sig | Förskoleklass Material Gratis',
-    description: 'Skapa professionella alfabettåg-arbetsblad med vår alfabetgenerator. Generera anpassade arbetsblad gratis för utskrift perfekta för förskoleklass och lågstadiebarn. Ladda ner högkvalitativa PDF-arbetsblad på under 3 minuter.',
-    keywords: 'alfabettåg arbetsblad, bokstäver lära sig, förskoleklass material, arbetsblad gratis, alfabetgenerator, skriva bokstäver, målarbilder barn, finmotorik övningar, matematik arbetsblad, siffror och tal',
+    title: 'Gratis Arbetsblad Alfabettåg - Bokstäver för Barn | Förskoleklass Generator',
+    description: 'Skapa professionella alfabettåg-arbetsblad med vår alfabetgenerator. Generera gratis arbetsblad för barn perfekta för förskoleklass och lågstadiebarn. Ladda ner högkvalitativa PDF-arbetsblad på under 3 minuter.',
+    keywords: 'gratis arbetsblad, gratis arbetsblad för barn, gratis utskrifter, arbetsblad för barn, arbetsblad för förskoleklass, alfabettåg arbetsblad, bokstäver lära sig, förskoleklass material, alfabetgenerator, skriva bokstäver, målarbilder barn, finmotorik övningar',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/alfabettag-arbetsblad',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/alphabet-train/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis arbetsblad alfabettåg för förskoleklass - bokstavsigenkänning på svenska'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/alphabet-train/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis arbetsblad för barn - alfabettåg med svenska bokstäver'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/alphabet-train/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Arbetsblad för förskoleklass - bokstäver lära sig med tågvagnar'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/alphabet-train/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis utskrifter alfabettåg - arbetsblad för barn i förskoleklass'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/alphabet-train/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Arbetsblad för barn - bokstäver och bilder på svenska alfabettåg'
+      },
+    ],
   },
 
   // Hero Section - FULL text from alphabet-train.md paragraphs 1-4
   hero: {
-    title: 'Alfabettåg Arbetsblad Generator',
-    subtitle: 'Bokstäver Lära Sig - Förskoleklass Material Gratis',
-    description: `Skapa professionella alfabettåg-arbetsblad med vår alfabetgenerator. Din Grundpaket-prenumeration ger dig obegränsad skapande av arbetsblad utan extra avgifter per arbetsblad. Generera anpassade arbetsblad gratis för utskrift perfekta för förskoleklass och lågstadiebarn. Ladda ner högkvalitativa PDF-arbetsblad på under 3 minuter.
+    title: 'Gratis Arbetsblad Alfabettåg Generator - Bokstäver Lära Sig för Barn',
+    subtitle: 'Arbetsblad för Förskoleklass - Gratis Utskrifter och Bokstavsövningar',
+    description: `Skapa professionella alfabettåg-arbetsblad med vår alfabetgenerator. Din Grundpaket-prenumeration ger dig obegränsad skapande av gratis arbetsblad för barn utan extra avgifter per arbetsblad. Generera anpassade arbetsblad för förskoleklass perfekta för lågstadiebarn. Ladda ner högkvalitativa gratis utskrifter på under 3 minuter.
 
-Alfabettåget är ett klassiskt pedagogiskt verktyg som hjälper små barn lära sig bokstäver genom visuell association. Varje bokstav matchas med en bild som börjar med den bokstaven. Bokstäver lära sig blir roligt när barn kan se A för Äpple, B för Boll, C för Cykel. Detta hjälper förskoleklass material att bli mer minnesvärt och engagerande.
+Alfabettåget är ett klassiskt pedagogiskt verktyg som hjälper små barn lära sig bokstäver genom visuell association. Varje bokstav matchas med en bild som börjar med den bokstaven. Bokstäver lära sig blir roligt när barn kan se A för Äpple, B för Boll, C för Cykel. Detta hjälper arbetsblad för barn att bli mer minnesvärt och engagerande.
 
-Vår alfabettåg-generator skapar målarbilder barn älskar. Varje arbetsblad kombinerar bokstavsigenkänning med finmotorik övningar. Barn kan färglägga varje tågvagn medan de övar på att skriva bokstäver. Dessa arbetsblad gratis för utskrift fungerar perfekt i både klassrummet och hemma.`,
-    previewImageSrc: '/samples/english/alphabet-train/alphabet train portrait.jpeg',
+Vår alfabettåg-generator skapar målarbilder barn älskar. Varje gratis arbetsblad kombinerar bokstavsigenkänning med finmotorik övningar. Barn kan färglägga varje tågvagn medan de övar på att skriva bokstäver. Dessa arbetsblad för förskoleklass fungerar perfekt i både klassrummet och hemma.`,
+    previewImageSrc: '/samples/swedish/alphabet-train/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Prova Gratis',
       viewSamples: 'Visa Exempel',
@@ -49,10 +81,10 @@ Vår alfabettåg-generator skapar målarbilder barn älskar. Varje arbetsblad ko
     },
   },
 
-  // Sample Gallery - REAL file paths from samples/english/alphabet train/
+  // Sample Gallery - REAL file paths from samples/swedish/alphabet-train/
   samples: {
-    sectionTitle: 'Alfabettåg Arbetsblad Exempel',
-    sectionDescription: 'Ladda ner gratis exempelarbetsblad för att se vår professionella kvalitet',
+    sectionTitle: 'Gratis Arbetsblad Alfabettåg Exempel - Arbetsblad för Barn',
+    sectionDescription: 'Ladda ner gratis arbetsblad för barn för att se vår professionella kvalitet',
     downloadLabel: 'Ladda Ner Gratis Exempel',
     worksheetLabel: 'Arbetsblad',
     answerKeyLabel: 'Facit',
@@ -65,25 +97,46 @@ Vår alfabettåg-generator skapar målarbilder barn älskar. Varje arbetsblad ko
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/alphabet-train/alphabet train portrait.jpeg',
-        answerKeySrc: '/samples/english/alphabet-train/alphabet train portrait answer_key.jpeg',
-        altText: 'Alfabettåg arbetsblad porträttformat med bokstav-bild-matchning för förskoleklass',
-        pdfDownloadUrl: '/samples/english/alphabet-train/alphabet train portrait.pdf',
+        worksheetSrc: '/samples/swedish/alphabet-train/sample-1.jpeg',
+        answerKeySrc: '/samples/swedish/alphabet-train/sample-1-answer.jpeg',
+        altText: 'Gratis arbetsblad alfabettåg - bokstäver lära sig arbetsblad för förskoleklass barn',
+        pdfDownloadUrl: '/samples/swedish/alphabet-train/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/alphabet-train/alphabet train landscape.jpeg',
-        answerKeySrc: '/samples/english/alphabet-train/alphabet train landscape answer_key.jpeg',
-        altText: 'Landskapsformat alfabettåg arbetsblad med färgglada tågvagnar för lågstadiet',
-        pdfDownloadUrl: '/samples/english/alphabet-train/alphabet train landscape.pdf',
+        worksheetSrc: '/samples/swedish/alphabet-train/sample-2.jpeg',
+        answerKeySrc: '/samples/swedish/alphabet-train/sample-2-answer.jpeg',
+        altText: 'Gratis arbetsblad för barn - alfabettåg med svenska bokstäver för förskoleklass',
+        pdfDownloadUrl: '/samples/swedish/alphabet-train/sample-2.pdf',
+      },
+      {
+        id: '3',
+        worksheetSrc: '/samples/swedish/alphabet-train/sample-3.jpeg',
+        answerKeySrc: '/samples/swedish/alphabet-train/sample-3-answer.jpeg',
+        altText: 'Arbetsblad för förskoleklass - gratis utskrifter alfabettåg bokstavsövningar',
+        pdfDownloadUrl: '/samples/swedish/alphabet-train/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/swedish/alphabet-train/sample-4.jpeg',
+        answerKeySrc: '/samples/swedish/alphabet-train/sample-4-answer.jpeg',
+        altText: 'Arbetsblad för barn - gratis arbetsblad alfabettåg med bilder och bokstäver',
+        pdfDownloadUrl: '/samples/swedish/alphabet-train/sample-4.pdf',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/swedish/alphabet-train/sample-5.jpeg',
+        answerKeySrc: '/samples/swedish/alphabet-train/sample-5-answer.jpeg',
+        altText: 'Gratis utskrifter arbetsblad för förskoleklass - alfabettåg bokstäver lära sig',
+        pdfDownloadUrl: '/samples/swedish/alphabet-train/sample-5.pdf',
       },
     ],
   },
 
   // Features Grid - FULL text from alphabet-train.md feature sections
   features: {
-    sectionTitle: 'Alfabettåg Funktioner - Allt Du Behöver för Arbetsblad Gratis och Förskoleklass Material',
-    sectionDescription: 'Vår alfabettåg-generator inkluderar alla professionella verktyg lärare behöver för att skapa bokstäver lära sig arbetsblad. Din Grundpaket-prenumeration ger dig obegränsad åtkomst till alla funktioner. Skapa arbetsblad gratis för utskrift utan extra avgifter per arbetsblad.',
+    sectionTitle: 'Funktioner - Gratis Arbetsblad för Barn och Förskoleklass Material',
+    sectionDescription: 'Vår alfabettåg-generator inkluderar alla professionella verktyg lärare behöver för att skapa gratis arbetsblad för barn. Din Grundpaket-prenumeration ger dig obegränsad åtkomst till alla funktioner. Skapa arbetsblad för förskoleklass utan extra avgifter per arbetsblad.',
     highlightBadgeText: 'Nyckelfunktion',
     readMoreLabel: 'Läs mer',
     showLessLabel: 'Visa mindre',
@@ -97,8 +150,8 @@ Vår alfabettåg-generator skapar målarbilder barn älskar. Varje arbetsblad ko
       {
         id: '1',
         icon: '⚡',
-        title: 'Skapa Bokstäver Lära Sig Arbetsblad på 3 Klick',
-        description: `Skapa professionella alfabettåg-arbetsblad på under 3 minuter. Välj ditt språk från 11 alternativ. Klicka generera och ditt arbetsblad är klart. Ladda ner direkt som PDF eller JPEG för utskrift. Inga designkunskaper krävs för att skapa arbetsblad gratis för din förskoleklass.
+        title: 'Skapa Gratis Arbetsblad för Barn på 3 Klick',
+        description: `Skapa professionella alfabettåg-arbetsblad på under 3 minuter. Välj ditt språk från 11 alternativ. Klicka generera och ditt gratis arbetsblad är klart. Ladda ner direkt som PDF eller JPEG för utskrift. Inga designkunskaper krävs för att skapa arbetsblad för förskoleklass.
 
 Generatorn väljer automatiskt 11 slumpmässiga bokstäver och matchande bilder. Varje bild börjar med rätt bokstav för att förstärka bokstavsljud. A för Äpple, B för Boll, C för Cykel. Detta skapar minnesvärd visuell association som hjälper barn lära sig bokstäver snabbare.
 
@@ -108,7 +161,7 @@ Du kan också välja exakt vilka 11 bokstäver som ska inkluderas. Välj bokstä
       {
         id: '2',
         icon: '✏️',
-        title: 'Redigera Allt på Din Arbetsblad - Full Anpassning',
+        title: 'Redigera Gratis Arbetsblad - Arbetsblad för Förskoleklass Anpassning',
         description: `Varje element på arbetsblad är fullständigt redigerbart efter generering. Klicka på vilken bild som helst för att välja den. Dra för att flytta position. Dra hörnen för att ändra storlek. Rotera bilder till vilken vinkel som helst. Ta bort element du inte vill ha. Detta gör varje arbetsblad gratis unikt för dina elever.
 
 Alfabettågets tågvagnar kan anpassas helt. Ändra storlek på varje vagn för att passa din layout. Flytta bokstäver till olika positioner. Lägg till extra dekorativa element från bildbiblioteket. Skapa målarbilder barn älskar genom att lägga till oinkfärgade clipart-bilder.
@@ -119,7 +172,7 @@ Lägg till textrutor var som helst på sidan. Välj från 7 barnavänliga typsni
       {
         id: '3',
         icon: '📤',
-        title: 'Ladda Upp Egna Bilder - Kombinera med 3000+ Bilder',
+        title: 'Gratis Utskrifter - Ladda Upp Egna Bilder och Kombinera',
         description: `Ladda upp dina egna bilder för fullständig personalisering. Klicka på uppladdningsknappen och välj flera bilder samtidigt. Stödjer JPEG, PNG och GIF-format. Dina uppladdade bilder visas direkt i bildgalleriet. Kombinera dina bilder med vårt bibliotek för unika arbetsblad gratis.
 
 Ladda upp elevernas foton för att skapa personliga bokstäver lära sig aktiviteter. Ladda upp klassrumsbilder för att göra arbetsblad bekanta. Ladda upp temaspecifika bilder som matchar din läroplan. Detta fungerar perfekt för att skapa målarbilder barn känner igen från sitt eget liv och miljö.
@@ -130,7 +183,7 @@ Uppladdade bilder integreras sömlöst med alla redigeringsfunktioner. Ändra st
       {
         id: '4',
         icon: '🌍',
-        title: '11 Språk Stöd - Arbetsblad på Svenska och 10 Andra Språk',
+        title: 'Gratis Arbetsblad för Barn på 11 Språk - Svenska och Fler',
         description: `Generatorn stödjer 11 språk fullt ut: Svenska, engelska, tyska, franska, spanska, portugisiska, italienska, nederländska, danska, norska och finska. Hela användargränssnittet översätts till ditt valda språk. Alla knappar, etiketter och instruktioner visas på svenska när du väljer svenska språkinställningen.
 
 Viktigare är att bildnamnen och bildsökningen fungerar på alla 11 språk. När du söker efter bilder på svenska får du svenska ordnamn. Bilden för "Äpple" visar det svenska ordet, inte engelska "Apple". Detta gör alfabettåget autentiskt för svenska barn som lär sig bokstäver.
@@ -141,7 +194,7 @@ Svenska lärare som arbetar i internationella skolor eller med flerspråkiga ele
       {
         id: '5',
         icon: '💰',
-        title: 'POD Kommersiell Licens - Sälj Dina Förskoleklass Material',
+        title: 'Kommersiell Licens - Sälj Arbetsblad för Förskoleklass',
         description: `Grundpaket-prenumerationen inkluderar fullständig print-on-demand kommersiell licens utan extra kostnad. Sälj arbetsblad du skapar på Teachers Pay Teachers, Etsy eller Amazon KDP. Ingen attribution krävs på slutprodukterna. Detta gör alfabettåg-generatorn perfekt för lärarföretagare som vill skapa arbetsblad gratis och sälja dem.
 
 Skapa alfabettåg arbetsbladspaket för försäljning. Kombinera bokstäver lära sig med finmotorik övningar i ett paket. Paketera målarbilder barn tillsammans med skriva bokstäver aktiviteter. Lärare på Teachers Pay Teachers tjänar 500-5000 kronor per månad genom att sälja specialiserade förskoleklass material de skapar.
@@ -152,7 +205,7 @@ Kommersiell licens täcker alla 300 DPI professionella exporter. Dina arbetsblad
       {
         id: '6',
         icon: '🎨',
-        title: '3000+ Bildbibliotek - Alla Teman för Förskoleklass',
+        title: '3000+ Bilder - Gratis Arbetsblad för Barn i Alla Teman',
         description: `Plattformen inkluderar över 3000 barnvänliga bilder organiserade i 50+ teman. Varje tema innehåller 30-100 relaterade bilder. Djur, fordon, mat, kläder, väder, högtider - alla populära förskoleklass material teman täcks. Sök bilder efter tema eller bläddra igenom individuella bilder i galleriet.
 
 Bildbiblioteket fungerar perfekt för alfabettåg men också för andra arbetsblad gratis typer. Skapa matematik arbetsblad med räkningsbilder. Skapa addition och subtraktion övningar med djurbilder barn kan räkna. Alla bilder är inkluderade utan extra avgifter i din Grundpaket-prenumeration.
@@ -163,7 +216,7 @@ Varje bild är barnanpassad och pedagogiskt lämplig. Inga olicensierade karakt�
       {
         id: '7',
         icon: '🖨️',
-        title: 'Professionell 300 DPI Kvalitet - Perfekt för Utskrift',
+        title: 'Arbetsblad för Barn - 300 DPI Gratis Utskrifter Kvalitet',
         description: `Alla arbetsblad exporteras i professionell 300 DPI upplösning. Detta är tryckstandarden för kommersiell kvalitet. Dina arbetsblad gratis ser skarpa och tydliga ut när de skrivs ut. Inga pixlade bilder eller suddig text. Varje bokstav och bild är kristallklar för barn att se och lära sig bokstäver från.
 
 Välj mellan JPEG och PDF exportformat. PDF bevarar exakt layout och funkar perfekt för professionell utskrift. JPEG fungerar bra för digital delning eller snabb hemutskrift. Båda formaten levererar 300 DPI kvalitet för förskoleklass material som ser professionellt ut.
@@ -176,8 +229,8 @@ Gråskala-alternativet sparar bläck vid utskrift av många arbetsblad. Konverte
 
   // How-To Guide - FULL text from alphabet-train.md step sections
   howTo: {
-    sectionTitle: 'Hur Man Skapar Bokstäver Lära Sig Arbetsblad i 5 Enkla Steg',
-    sectionDescription: 'Skapa professionella alfabettåg-arbetsblad snabbare än att kopiera traditionella arbetsblad. Hela processen tar under 3 minuter från start till färdig PDF. Inga designkunskaper krävs. Inga komplicerade programvaror att lära sig.',
+    sectionTitle: 'Skapa Gratis Arbetsblad Alfabettåg i 5 Steg - Arbetsblad för Förskoleklass',
+    sectionDescription: 'Skapa professionella gratis arbetsblad för barn snabbare än att kopiera traditionella arbetsblad. Hela processen tar under 3 minuter från start till färdig PDF. Inga designkunskaper krävs. Inga komplicerade programvaror att lära sig.',
     ctaText: 'Börja Skapa Nu',
     badgeText: 'Så Fungerar Det',
     stepLabel: 'Steg',
@@ -191,8 +244,8 @@ Gråskala-alternativet sparar bläck vid utskrift av många arbetsblad. Konverte
       {
         id: '1',
         number: 1,
-        title: 'Välj Ditt Innehåll - Förskoleklass Material och Teman',
-        description: `Börja med att välja språk för ditt alfabettåg. Klicka på språkmenyn och välj Svenska. Hela gränssnittet byter omedelbart till svenska. Alla etiketter, knappar och instruktioner visas nu på svenska. Detta gör arbetsblad gratis skapandet enkelt för svenska lärare och föräldrar.
+        title: 'Välj Innehåll - Gratis Arbetsblad för Barn Teman',
+        description: `Börja med att välja språk för ditt alfabettåg. Klicka på språkmenyn och välj Svenska. Hela gränssnittet byter omedelbart till svenska. Alla etiketter, knappar och instruktioner visas nu på svenska. Detta gör gratis arbetsblad skapandet enkelt för svenska lärare och föräldrar.
 
 Nästa steg är att välja vilket läge du vill använda. Auto-läge genererar automatiskt 11 slumpmässiga bokstäver med matchande bilder. Perfekt för snabba förskoleklass material när du behöver något omedelbart. Manuellt läge låter dig välja exakt vilka 11 bokstäver som ska inkluderas.
 
@@ -202,7 +255,7 @@ När du har valt bokstäver välj bildtema. Klicka på temamenyn för att se öv
       {
         id: '2',
         number: 2,
-        title: 'Anpassa Inställningar - Layout och Positionering',
+        title: 'Anpassa Arbetsblad för Förskoleklass - Layout',
         description: `Välj pappersstorlek för ditt arbetsblad. Letter Portrait för amerikanska skrivare. A4 Portrait för europeiska skrivare. Letter Landscape för bred alfabettåg-layout. A4 Landscape för svensk standardutskrift. Välj den storlek som matchar dina skrivare och klassrumsbehov.
 
 Anpassa alfabet-tågets mall. Välj standardmallen eller ladda upp din egen tågbild. Standardmallen fungerar perfekt för de flesta förskoleklass material behov. Varje tågvagn är tydligt definierad med utrymme för en bokstav och matchande bild.
@@ -213,7 +266,7 @@ Lägg till bakgrund om du vill. Välj bakgrundstema från menyn. Över 50 bakgru
       {
         id: '3',
         number: 3,
-        title: 'Generera Ditt Arbetsblad - Arbetsblad Gratis Skapande',
+        title: 'Generera Gratis Arbetsblad - Snabbt Skapande',
         description: `Klicka på Skapa-knappen för att generera ditt alfabettåg. Generatorn arbetar omedelbart. På sekunder ser du alfabettåget visas på canvas. Alla 11 bokstäver arrangerade i tågvagnar med matchande bilder. Arbetsblad gratis för utskrift är nästan färdigt.
 
 Alfabettåget genereras med professionell layout. Varje bokstav placeras i sin egen tågvagn. Matchande bild placeras bredvid eller ovanför bokstaven. Storleken är optimerad för tydlig synlighet.
@@ -224,7 +277,7 @@ Generatorn skapar också automatiskt ett facit om du aktiverar det alternativet.
       {
         id: '4',
         number: 4,
-        title: 'Redigera på Canvas - Anpassa Skriva Bokstäver Övningar',
+        title: 'Redigera Arbetsblad för Barn - Anpassa Övningar',
         description: `Efter generering är hela arbetsblad fullständigt redigerbart. Klicka på vilket element som helst för att välja det. Handtag visas runt valt objekt. Dra handtagen för att ändra storlek. Rotera med rotationshandtaget. Dra elementet för att flytta det.
 
 Ändra enskilda bokstäver om du vill. Klicka på en bokstav för att välja den. Ändra typsnitt från menyn. Öka eller minska storlek. Ändra färg för visuell kodning - röda vokaler, blåa konsonanter. Detta skapar anpassade bokstäver lära sig strategier.
@@ -235,7 +288,7 @@ Lägg till extra pedagogiska element. Klicka på Textverktyg för att lägga til
       {
         id: '5',
         number: 5,
-        title: 'Ladda Ner och Skriv Ut - Professionell Kvalitet',
+        title: 'Ladda Ner Gratis Utskrifter - Professionell Kvalitet',
         description: `När ditt alfabettåg är färdigt klicka på Ladda Ner-knappen. Välj filformat från menyn. PDF för högsta kvalitet och exakt layout. JPEG för digital delning eller snabb utskrift. Båda formaten exporterar i professionell 300 DPI upplösning.
 
 Välj gråskala-alternativet om du vill spara bläck. Gråskala-konvertering händer automatiskt vid export. Färgarbetsblad blir svartvita men behåller alla detaljer. Perfekt när du skriver ut 25 kopior för hela förskoleklass.
@@ -248,8 +301,8 @@ Ladda ner både arbetsblad och facit om du genererade facit. Två separata filer
 
   // Use Cases - FULL text from alphabet-train.md use case sections
   useCases: {
-    sectionTitle: 'Perfekt för Lärare, Föräldrar och Pedagoger',
-    sectionDescription: 'Alfabettåg-generatorn tjänar många olika användargrupper inom svensk utbildning. Förskoleklass lärare, lågstadielärare, hemundervisande föräldrar, specialpedagoger och lärarföretagare - alla drar nytta av arbetsblad gratis verktyget.',
+    sectionTitle: 'Gratis Arbetsblad för Barn - Perfekt för Lärare och Föräldrar',
+    sectionDescription: 'Alfabettåg-generatorn tjänar många olika användargrupper inom svensk utbildning. Förskoleklass lärare, lågstadielärare, hemundervisande föräldrar, specialpedagoger och lärarföretagare - alla drar nytta av gratis arbetsblad för barn verktyget.',
     badgeText: 'Vem Det Är För',
     readMoreLabel: 'Läs mer',
     showLessLabel: 'Visa mindre',
@@ -258,7 +311,7 @@ Ladda ner både arbetsblad och facit om du genererade facit. Två separata filer
         id: '1',
         icon: '👶',
         title: 'Förskoleklass Lärare',
-        subtitle: 'Bokstäver Lära Sig och Finmotorik Övningar för 6-Åringar',
+        subtitle: 'Gratis Arbetsblad för Barn - Bokstäver Lära Sig för 6-Åringar',
         description: `Förskoleklass lärare undervisar 6-åringar i grundläggande läs- och skrivförberedelser. Bokstäver lära sig är en central komponent i förskoleklass läroplan. Alfabettåget ger perfekt visuell support för bokstavsigenkänning. Varje barn behöver upprepad exponering för bokstäver och alfabettåget levererar detta i en rolig, engagerande format.
 
 Skapa alfabettåg för veckans bokstav. Måndags fokus på A med alfabettåg innehållande A-ord. Tisdags fokus på B. Hela veckan struktureras runt progressiv bokstavsinlärning. Alfabettåget blir ankaraktiviteten som håller veckans tema samman.
@@ -270,7 +323,7 @@ Kombinera alfabettåg med finmotorik övningar. Lägg till prickade bokstäver b
         id: '2',
         icon: '📚',
         title: 'Lågstadielärare Årskurs 1-3',
-        subtitle: 'Matematik Arbetsblad, Siffror och Tal samt Multiplikationstabellen',
+        subtitle: 'Arbetsblad för Förskoleklass - Gratis Utskrifter och Matematik',
         description: `Lågstadielärare undervisar årskurs 1-3 och behöver både literacy- och matematik arbetsblad. Samma generator som skapar alfabettåg kan anpassas för matematik arbetsblad genom kreativ bildanvändning. Lägg till siffror och tal bilder från biblioteket. Skapa räkneövningar med tågvagnar som visuella räkneenheter.
 
 Använd alfabettåg-strukturen för multiplikationstabellen övningar. Varje tågvagn representerar ett multiplikationspar. 2x1=2, 2x2=4, 2x3=6 längs tåget. Barn ser multiplikationstabellen som ett mönster längs tåget istället för abstrakt tabell.
@@ -282,7 +335,7 @@ Skapa addition och subtraktion övningar med tågtemat. Tåget börjar med 11 va
         id: '3',
         icon: '🏠',
         title: 'Hemundervisande Föräldrar',
-        subtitle: 'Mångsidiga Arbetsblad Gratis för Siffror och Tal samt Målarbilder Barn',
+        subtitle: 'Gratis Arbetsblad för Barn - Arbetsblad för Förskoleklass Hemma',
         description: `Hemundervisande föräldrar i Sverige behöver omfattande arbetsblad gratis resurser eftersom de undervisar alla ämnen själva. Alfabettåg-generatorn ger dem professionell kvalitet material utan kostnaden av kommersiella arbetsböcker. Din Grundpaket-prenumeration på 144 dollar per år ersätter hundratals dollar i traditionella hemundervisningsmaterial.
 
 Hemundervisande familjer undervisar ofta flera barn i olika åldrar samtidigt. Alfabettåg-generatorn låter dig skapa differentierade förskoleklass material för varje barn på minuter. Enklare alfabettåg för den yngsta. Mer komplexa matematik arbetsblad för de äldre. Allt från ett arbetsblad gratis verktyg.
@@ -294,7 +347,7 @@ Skapa målarbilder barn kan använda under fria stunder medan du arbetar enskilt
         id: '4',
         icon: '🌍',
         title: 'ESL och Språklärare',
-        subtitle: 'Flerspråkiga Arbetsblad Gratis och Bokstäver Lära Sig på 11 Språk',
+        subtitle: 'Gratis Arbetsblad - Arbetsblad för Barn på 11 Språk',
         description: `ESL-lärare och moderna språklärare i svenska skolor behöver autentiska material på målspråket. Alfabettåg-generatorn stödjer 11 språk fullt. Skapa engelska alfabettåg för ESL-elever. Skapa tyska alfabettåg för tyskkurser. Skapa finska alfabettåg för finsktalande minoritetselever. Allt inkluderat i din Grundpaket-prenumeration.
 
 När du väljer ett språk ändras inte bara gränssnittet utan även bildnamnen. Engelska alfabettåg visar "Apple", "Ball", "Cat". Svenska alfabettåg visar "Äpple", "Boll", "Cykel". Detta autentiska språkstöd är sällsynt i arbetsblad gratis verktyg.
@@ -306,7 +359,7 @@ Tvåspråkiga elever med svenska som andraspråk behöver parallella material p�
         id: '5',
         icon: '💜',
         title: 'Specialpedagoger',
-        subtitle: 'Anpassade Finmotorik Övningar och Bokstäver Lära Sig för Varierande Förmågor',
+        subtitle: 'Gratis Utskrifter - Arbetsblad för Förskoleklass och Specialanpassning',
         description: `Specialpedagoger arbetar med elever som har varierande inlärningsbehov, funktionsvariationer eller utvecklingsförseningar. Dessa elever kräver högst anpassade förskoleklass material som traditionella arbetsböcker inte kan ge. Alfabettåg-generatorn ger specialpedagoger fullständig kontroll över varje aspekt.
 
 Elever med finmotorik utmaningar behöver extra stora element att arbeta med. Öka storleken på alfabettågets bokstäver och bilder dramatiskt. Skapa bara 3-5 tågvagnar istället för 11 för elever som blir överväldigade av för mycket visuell information.
@@ -318,7 +371,7 @@ Elever med synnedsättning behöver högkontrast material. Använd svarta bokst�
         id: '6',
         icon: '💰',
         title: 'Lärarföretagare',
-        subtitle: 'Sälj Multiplikationstabellen, Addition och Subtraktion Material',
+        subtitle: 'Arbetsblad för Barn - Gratis Arbetsblad Skapa och Sälj',
         description: `Lärarföretagare säljer pedagogiskt material på Teachers Pay Teachers, Etsy eller egna webbsidor. Din Grundpaket-prenumeration inkluderar kommersiell print-on-demand licens utan extra kostnad. Skapa alfabettåg-paket, matematik arbetsblad samlingar, siffror och tal aktiviteter. Sälj allt du skapar. Ingen attribution krävs.
 
 Svenska lärare på Teachers Pay Teachers är en underutnyttjad nisch. De flesta TPT-produkter är på engelska. Svenska förskoleklass material är sällsynt och prissätts premium. Skapa högkvalitativa svenska alfabettåg-paket.
@@ -331,8 +384,8 @@ Skapa tematiska arbetsbladspaket. Jul-alfabettåg med svenska julbilder. Påsk-a
 
   // FAQ Section - From alphabet-train.md
   faq: {
-    sectionTitle: 'Vanliga Frågor om Alfabettåg och Förskoleklass Material',
-    sectionDescription: 'Svenska lärare ställer ofta samma frågor om alfabettåg-generatorn och relaterade matematik arbetsblad verktyg. Här besvarar vi de vanligaste frågorna.',
+    sectionTitle: 'Vanliga Frågor om Gratis Arbetsblad Alfabettåg - Arbetsblad för Barn',
+    sectionDescription: 'Svenska lärare ställer ofta samma frågor om gratis arbetsblad för barn och alfabettåg-generatorn. Här besvarar vi de vanligaste frågorna om arbetsblad för förskoleklass.',
     showMoreText: 'Visa fler frågor',
     showLessText: 'Visa färre',
     badgeText: 'Vanliga Frågor',
@@ -343,63 +396,63 @@ Skapa tematiska arbetsbladspaket. Jul-alfabettåg med svenska julbilder. Påsk-a
     items: [
       {
         id: '1',
-        question: 'Är Denna Alfabettåg-Generator Verkligen Gratis att Använda för Förskoleklass Material?',
-        answer: 'Alfabettåg-generatorn kräver en Grundpaket-prenumeration som kostar 144 dollar årligen eller 15 dollar månadsvis. Din prenumeration ger dig obegränsad skapande av alfabettåg utan extra avgifter per arbetsblad. Generera så många förskoleklass material arbetsblad du behöver utan ytterligare kostnader. Grundpaketet inkluderar 10 populära arbetsbladsappar. Full Tillgång-prenumeration kostar 240 dollar årligen och inkluderar alla 33 arbetsbladstyper.',
+        question: 'Hur Fungerar Gratis Arbetsblad för Barn med Alfabettåg-Generatorn?',
+        answer: 'Alfabettåg-generatorn kräver en Grundpaket-prenumeration som kostar 144 dollar årligen eller 15 dollar månadsvis. Din prenumeration ger dig obegränsad skapande av gratis arbetsblad utan extra avgifter per arbetsblad. Generera så många arbetsblad för förskoleklass du behöver utan ytterligare kostnader. Grundpaketet inkluderar 10 populära arbetsbladsappar. Full Tillgång-prenumeration kostar 240 dollar årligen och inkluderar alla 33 arbetsbladstyper.',
       },
       {
         id: '2',
-        question: 'Kan Jag Skriva Ut Matematik Arbetsblad och Multiplikationstabellen Hemma?',
-        answer: 'Ja, alla arbetsblad exporterar i standardformat kompatibla med vanliga hemskrivare. PDF-format fungerar perfekt för direktutskrift på vilken skrivare som helst. JPEG-format fungerar också utmärkt. Båda formaten levererar professionell 300 DPI upplösning som ser kristallklar ut på utskrifter. Välj A4-storlek för europeiska standardskrivare vanliga i Sverige.',
+        question: 'Kan Jag Skriva Ut Gratis Arbetsblad för Barn Hemma?',
+        answer: 'Ja, alla gratis arbetsblad exporterar i standardformat kompatibla med vanliga hemskrivare. PDF-format fungerar perfekt för direktutskrift på vilken skrivare som helst. JPEG-format fungerar också utmärkt. Båda formaten levererar professionell 300 DPI upplösning som ser kristallklar ut på gratis utskrifter. Välj A4-storlek för europeiska standardskrivare vanliga i Sverige.',
       },
       {
         id: '3',
-        question: 'Behöver Jag Designkunskaper för att Skapa Siffror och Tal Arbetsblad?',
-        answer: 'Nej, alfabettåg-generatorn kräver inga designkunskaper alls. Hela processen är klicka och generera enkel. Välj tema, klicka generera, ladda ner. Inga komplicerade designprogram att lära sig. Användargränssnittet guidar dig steg-för-steg på svenska. Alla knappar är tydligt märkta. Förhandsgranskning visar exakt hur ditt arbetsblad ser ut innan nedladdning.',
+        question: 'Behöver Jag Designkunskaper för Arbetsblad för Förskoleklass?',
+        answer: 'Nej, alfabettåg-generatorn kräver inga designkunskaper alls för att skapa gratis arbetsblad. Hela processen är klicka och generera enkel. Välj tema, klicka generera, ladda ner. Inga komplicerade designprogram att lära sig. Användargränssnittet guidar dig steg-för-steg på svenska. Alla knappar är tydligt märkta. Förhandsgranskning visar exakt hur ditt arbetsblad för barn ser ut innan nedladdning.',
       },
       {
         id: '4',
-        question: 'Kan Jag Använda Addition och Subtraktion Arbetsblad i Mitt Klassrum?',
-        answer: 'Ja, Grundpaket-prenumeration inkluderar obegränsad klassrumsanvändning. Skriv ut så många kopior du behöver för alla elever. Dela arbetsblad digitalt via Google Classroom eller lärplattformar. Projektera arbetsblad på smartboard för hela klassens diskussioner. Skapa differentierade versioner för olika förmågenivåer i din förskoleklass.',
+        question: 'Kan Jag Använda Arbetsblad för Barn i Mitt Klassrum?',
+        answer: 'Ja, Grundpaket-prenumeration inkluderar obegränsad klassrumsanvändning av gratis arbetsblad. Skriv ut så många kopior du behöver för alla elever. Dela arbetsblad för förskoleklass digitalt via Google Classroom eller lärplattformar. Projektera gratis utskrifter på smartboard för hela klassens diskussioner. Skapa differentierade versioner för olika förmågenivåer.',
       },
       {
         id: '5',
-        question: 'Vilka Språk är Tillgängliga för Målarbilder Barn och Finmotorik Övningar?',
-        answer: 'Generatorn stödjer 11 språk fullt: Svenska, engelska, tyska, franska, spanska, italienska, portugisiska, nederländska, danska, norska och finska. Hela användargränssnittet översätts till ditt valda språk. Bildnamn och innehåll översätts också till alla 11 språk. Svenska alfabettåg visar svenska bildnamn automatiskt.',
+        question: 'Vilka Språk Finns för Gratis Arbetsblad för Barn?',
+        answer: 'Generatorn stödjer 11 språk fullt för gratis arbetsblad: Svenska, engelska, tyska, franska, spanska, italienska, portugisiska, nederländska, danska, norska och finska. Hela användargränssnittet översätts till ditt valda språk. Bildnamn och innehåll översätts också till alla 11 språk. Svenska arbetsblad för förskoleklass visar svenska bildnamn automatiskt.',
       },
       {
         id: '6',
-        question: 'Kan Jag Sälja Multiplikationstabellen Arbetsblad på Teachers Pay Teachers?',
-        answer: 'Ja, Grundpaket-prenumerationen inkluderar fullständig kommersiell print-on-demand licens utan extra kostnader. Sälj arbetsblad du skapar på Teachers Pay Teachers, Etsy, Amazon KDP eller din egen webbsida. Ingen attribution krävs på slutprodukter. Du äger fullt ut arbetsbladet du skapar. Professionell 300 DPI kvalitet gör dina produkter konkurrenskraftiga.',
+        question: 'Kan Jag Sälja Arbetsblad för Förskoleklass på Teachers Pay Teachers?',
+        answer: 'Ja, Grundpaket-prenumerationen inkluderar fullständig kommersiell print-on-demand licens utan extra kostnader. Sälj gratis arbetsblad du skapar på Teachers Pay Teachers, Etsy, Amazon KDP eller din egen webbsida. Ingen attribution krävs på slutprodukter. Du äger fullt ut arbetsblad för barn du skapar. Professionell 300 DPI kvalitet gör dina produkter konkurrenskraftiga.',
       },
       {
         id: '7',
-        question: 'Hur Anpassar Jag Målarbilder Barn och Addition Arbetsblad?',
-        answer: 'Canvas redigeringsverktyg ger full kontroll efter generering. Klicka på vilket element som helst för att välja det. Dra för att flytta, rotera för att vrida, ändra storlek med hörnen. Byt ut bilder genom att radera och dra in nya från bildbiblioteket. Lägg till textrutor var som helst för instruktioner på svenska.',
+        question: 'Hur Anpassar Jag Gratis Arbetsblad och Arbetsblad för Barn?',
+        answer: 'Canvas redigeringsverktyg ger full kontroll efter generering av gratis arbetsblad för barn. Klicka på vilket element som helst för att välja det. Dra för att flytta, rotera för att vrida, ändra storlek med hörnen. Byt ut bilder genom att radera och dra in nya från bildbiblioteket. Lägg till textrutor var som helst för instruktioner på svenska.',
       },
       {
         id: '8',
-        question: 'Vilka Åldersgrupper Fungerar Bäst med Förskoleklass Material?',
-        answer: 'Alfabettåget fungerar perfekt för förskoleklass (6-åringar) och årskurs 1 (7-åringar) primärt. Detta är kärn bokstäver lära sig åldrarna när barn aktivt memorerar alfabetet. Specialpedagoger använder verktygen för äldre elever med utvecklingsförseningar. Anpassningsförmågan låter dig skapa material för alla åldrar och förmågor.',
+        question: 'Vilka Åldersgrupper Passar Arbetsblad för Förskoleklass Bäst?',
+        answer: 'Gratis arbetsblad för barn fungerar perfekt för förskoleklass (6-åringar) och årskurs 1 (7-åringar) primärt. Detta är kärn bokstäver lära sig åldrarna när barn aktivt memorerar alfabetet. Specialpedagoger använder arbetsblad för barn för äldre elever med utvecklingsförseningar. Anpassningsförmågan låter dig skapa gratis utskrifter för alla åldrar och förmågor.',
       },
       {
         id: '9',
-        question: 'Kan Jag Ladda Upp Egna Bilder för Bokstäver Lära Sig Arbetsblad?',
-        answer: 'Ja, bilduppladdningsfunktionen låter dig ladda upp flera bilder samtidigt. Stödjer JPEG, PNG och GIF-format. Dina uppladdade bilder visas direkt i bildgalleriet. Kombinera uppladdade bilder med 3000+ biblioteksbilder. Ladda upp klassrumsfoton, elevbilder eller temaspecifika bilder för personliga arbetsblad.',
+        question: 'Kan Jag Ladda Upp Egna Bilder för Gratis Arbetsblad för Barn?',
+        answer: 'Ja, bilduppladdningsfunktionen låter dig ladda upp flera bilder samtidigt för arbetsblad för förskoleklass. Stödjer JPEG, PNG och GIF-format. Dina uppladdade bilder visas direkt i bildgalleriet. Kombinera uppladdade bilder med 3000+ biblioteksbilder. Ladda upp klassrumsfoton, elevbilder eller temaspecifika bilder för personliga gratis arbetsblad.',
       },
       {
         id: '10',
-        question: 'Hur Lång Tid Tar Det att Skapa Alfabettåg Arbetsblad?',
-        answer: 'Tre minuter från start till färdigt arbetsblad. Detta inkluderar innehållsval, generering och nedladdning. Mycket snabbare än traditionell skapelse som tar 30-60 minuter. 95% tidsbesparing för varje arbetsblad du skapar. Auto-läge gör det ännu snabbare - välj ett tema och generera direkt.',
+        question: 'Hur Lång Tid Tar Det att Skapa Gratis Arbetsblad Alfabettåg?',
+        answer: 'Tre minuter från start till färdigt gratis arbetsblad för barn. Detta inkluderar innehållsval, generering och nedladdning. Mycket snabbare än traditionell skapelse som tar 30-60 minuter. 95% tidsbesparing för varje arbetsblad för förskoleklass du skapar. Auto-läge gör det ännu snabbare - välj ett tema och generera direkt.',
       },
       {
         id: '11',
-        question: 'Inkluderar Alfabettåg Arbetsblad Facit?',
-        answer: 'Ja, generatorn skapar automatiskt facit om du aktiverar den inställningen. Klicka på Generera Facit-alternativet innan generering. Två separata filer skapas - ett arbetsblad för elever och ett facit för läraren. Båda exporteras i samma format för enkel organisation.',
+        question: 'Inkluderar Gratis Utskrifter Alfabettåg Facit för Lärare?',
+        answer: 'Ja, generatorn skapar automatiskt facit för arbetsblad för barn om du aktiverar den inställningen. Klicka på Generera Facit-alternativet innan generering. Två separata filer skapas - ett gratis arbetsblad för elever och ett facit för läraren. Båda exporteras i samma format för enkel organisation.',
       },
       {
         id: '12',
-        question: 'Kan Jag Skapa Ämnesspecifika Arbetsblad med Alfabettåg?',
-        answer: 'Ja, bildbiblioteket innehåller över 3000 bilder organiserade efter tema. Djur, mat, fordon, årstider, matematik, bokstäver och mycket mer. Filtrera efter tema för att hitta ämnesspecifika bilder snabbt. Skapa alfabettåg som matchar din läroplan och tematiska undervisning.',
+        question: 'Kan Jag Skapa Ämnesspecifika Arbetsblad för Förskoleklass med Alfabettåg?',
+        answer: 'Ja, bildbiblioteket innehåller över 3000 bilder organiserade efter tema för gratis arbetsblad för barn. Djur, mat, fordon, årstider, matematik, bokstäver och mycket mer. Filtrera efter tema för att hitta ämnesspecifika bilder snabbt. Skapa arbetsblad för barn som matchar din läroplan och tematiska undervisning.',
       },
     ],
   },

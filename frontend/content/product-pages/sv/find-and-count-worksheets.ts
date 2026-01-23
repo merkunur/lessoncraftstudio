@@ -19,6 +19,38 @@ export const findAndCountSvContent: ProductPageContent = {
     description: 'Skapa professionella hitta-och-räkna arbetsblad med vår enkla generator. Generera anpassade matematik arbetsblad för förskoleklass och årskurs 1-3. Ladda ner högkvalitativa PDF-arbetsblad på under 3 minuter.',
     keywords: 'arbetsblad gratis, hitta och räkna, matematik arbetsblad, förskoleklass material, matte övningar, siffror och tal, räkneövningar, finmotorik övningar, multiplikationstabellen, klockan lära sig, bokstäver lära sig, målarbilder barn',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/hitta-och-rakna-arbetsblad',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/find-and-count/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis arbetsblad hitta och räkna för förskoleklass - matematik övningar med rutnät'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/find-and-count/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Arbetsblad gratis hitta och räkna för barn - visuell räkneövning för lågstadiet'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/find-and-count/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis utskrifter hitta och räkna arbetsblad - siffror och tal för förskoleklass'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/find-and-count/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Arbetsblad för barn hitta och räkna - finmotorik övningar med färgglada bilder'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/find-and-count/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Hitta och räkna matematik arbetsblad gratis - räkneträning för årskurs 1-3'
+      },
+    ],
   },
 
   // Hero Section - FULL text from find-and-count.md paragraphs 1-4
@@ -32,7 +64,7 @@ Hitta-och-räkna arbetsblad utvecklar räkneförmåga och visuell diskriminering
 Din prenumeration inkluderar över 3000 barnvänliga bilder organiserade i teman. Välj bilder relaterade till siffror och tal, bokstäver lära sig, eller valfritt ämne. Varje arbetsblad kan anpassas helt på canvas efter generering. Dra, rotera, skala och ta bort alla element. Lägg till egna bilder för att personalisera för dina elever.
 
 Grundpaketsprenumerationen kostar 144 dollar per år eller 15 dollar per månad. Du får tillgång till 10 populära arbetsblad-generatorer inklusive hitta och räkna. Alla prenumerationer inkluderar kommersiell licensiering, stöd för 11 språk och professionella 300 DPI-exporter. Skapa obegränsat med arbetsblad gratis för utskrift utan ytterligare avgifter.`,
-    previewImageSrc: '/samples/english/find and count/find and count portrait.jpeg',
+    previewImageSrc: '/samples/swedish/find-and-count/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Prova Gratis',
       viewSamples: 'Visa Exempel',
@@ -53,7 +85,7 @@ Grundpaketsprenumerationen kostar 144 dollar per år eller 15 dollar per månad.
 
   // Sample Gallery - REAL file paths from samples/english/find and count/
   samples: {
-    sectionTitle: 'Hitta och Räkna Arbetsblad Exempel',
+    sectionTitle: 'Hitta och Räkna Arbetsblad Exempel - Gratis Arbetsblad för Barn',
     sectionDescription: 'Ladda ner gratis exempelarbetsblad för att se vår professionella kvalitet',
     downloadLabel: 'Ladda Ner Gratis Exempel',
     worksheetLabel: 'Arbetsblad',
@@ -67,17 +99,38 @@ Grundpaketsprenumerationen kostar 144 dollar per år eller 15 dollar per månad.
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/find and count/find and count portrait.jpeg',
-        answerKeySrc: '/samples/english/find and count/find and count portrait answer_key.jpeg',
-        altText: 'Hitta och räkna arbetsblad i porträttformat med rutnät för förskoleklass',
-        pdfDownloadUrl: '/samples/english/find and count/find and count portrait.pdf',
+        worksheetSrc: '/samples/swedish/find-and-count/sample-1.jpeg',
+        answerKeySrc: '/samples/swedish/find-and-count/sample-1-answer.jpeg',
+        altText: 'Gratis arbetsblad hitta och räkna för förskoleklass - matematik övningar med rutnät för barn',
+        pdfDownloadUrl: '/samples/swedish/find-and-count/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/find and count/find and count landscape.jpeg',
-        answerKeySrc: '/samples/english/find and count/find and count landscape answer_key.jpeg',
-        altText: 'Hitta och räkna arbetsblad i landskapsformat med färgglada bilder för lågstadiet',
-        pdfDownloadUrl: '/samples/english/find and count/find and count landscape.pdf',
+        worksheetSrc: '/samples/swedish/find-and-count/sample-2.jpeg',
+        answerKeySrc: '/samples/swedish/find-and-count/sample-2-answer.jpeg',
+        altText: 'Arbetsblad gratis hitta och räkna för lågstadiet - visuell räkneövning med bilder',
+        pdfDownloadUrl: '/samples/swedish/find-and-count/sample-2.pdf',
+      },
+      {
+        id: '3',
+        worksheetSrc: '/samples/swedish/find-and-count/sample-3.jpeg',
+        answerKeySrc: '/samples/swedish/find-and-count/sample-3-answer.jpeg',
+        altText: 'Gratis utskrifter hitta och räkna arbetsblad - siffror och tal för förskoleklass',
+        pdfDownloadUrl: '/samples/swedish/find-and-count/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/swedish/find-and-count/sample-4.jpeg',
+        answerKeySrc: '/samples/swedish/find-and-count/sample-4-answer.jpeg',
+        altText: 'Arbetsblad för barn hitta och räkna - finmotorik övningar med färgglada bilder',
+        pdfDownloadUrl: '/samples/swedish/find-and-count/sample-4.pdf',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/swedish/find-and-count/sample-5.jpeg',
+        answerKeySrc: '/samples/swedish/find-and-count/sample-5-answer.jpeg',
+        altText: 'Hitta och räkna matematik arbetsblad gratis - räkneträning för årskurs 1-3 med facit',
+        pdfDownloadUrl: '/samples/swedish/find-and-count/sample-5.pdf',
       },
     ],
   },

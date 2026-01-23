@@ -15,22 +15,54 @@ export const wordGuessDaContent: ProductPageContent = {
   seo: {
     slug: 'gaet-ordet-arbejdsark',
     appId: 'word-guess',
-    title: 'Gratis Gæt Ordet Generator til Opgaver til Print | Arbejdsark til Børnehaveklassen og 1. Klasse',
-    description: 'Lav professionelle gæt-ordet opgaver med vores generator til arbejdsark. Perfekt til lære bogstaver, skriv bogstaver øvelser og stavningspraksis. Kommerciel licens inkluderet med Fuld Adgang abonnement.',
-    keywords: 'gæt ordet arbejdsark, gratis skoleopgaver, opgaver til print, lære bogstaver, skriv bogstaver, stavning øvelser, børnehaveklasse opgaver, 0 klasse opgaver, 1 klasse arbejdsark, ordforråd praksis',
+    title: 'Gæt Ordet Gratis Arbejdsark - Arbejdsark til Børn - Stavningsopgaver Børnehaveklasse',
+    description: 'Lav gratis arbejdsark til børn med gæt-ordet stavningsopgaver. Arbejdsark til børnehaveklasse og 0. klasse. Download gratis arbejdsark som PDF. 5 eksempler.',
+    keywords: 'gæt ordet arbejdsark, gratis arbejdsark, gratis arbejdsark til børn, arbejdsark til børn, arbejdsark til børnehaveklasse, gratis printables, stavning øvelser, lære bogstaver',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/gaet-ordet-arbejdsark',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/word-guess/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gæt ordet gratis arbejdsark - stavningsøvelser til børnehaveklasse'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/word-guess/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis arbejdsark til børn - gæt ordet ordforråd praksis'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/word-guess/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Arbejdsark til børnehaveklasse - lære bogstaver med billedgæt'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/word-guess/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis arbejdsark - skriv bogstaver øvelser til 0. klasse'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/word-guess/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Arbejdsark til børn - gæt ordet opgaver til 1. klasse'
+      }
+    ],
   },
 
   // Hero Section - FULL text from word-guess.md paragraphs 1-3
   hero: {
-    title: 'Gratis Gæt Ordet Generator til Opgaver til Print',
-    subtitle: 'Arbejdsark til Børnehaveklassen, 0. Klasse og 1. Klasse',
+    title: 'Gæt Ordet Gratis Arbejdsark – Arbejdsark til Børn og Børnehaveklasse',
+    subtitle: 'Gratis Arbejdsark til Børnehaveklasse - Stavningsopgaver 0. Klasse',
     description: `Lav professionelle gæt-ordet opgaver med vores generator til arbejdsark. Dit Fuld Adgang-abonnement giver dig ubegrænset oprettelse af opgaver uden gebyrer per opgave. Generer skræddersyede opgaver til print perfekt til børnehaveklassen og 1. klasse elever. Download opgaver i høj kvalitet på under tre minutter.
 
 Vores gæt-ordet generator kombinerer billeder med bogstavgæt til stavning og ordforrådspraksis. Børn ser billeder og udfylder manglende bogstaver for at stave ordet. Perfekt til at lære bogstaver og skriv bogstaver-øvelser i børnehaveklassen. Fuld Adgang-abonnementet inkluderer kommerciel licens så du kan sælge dine opgaver til print på Teachers Pay Teachers og Etsy.
 
 Generatoren fungerer på 11 sprog inklusiv dansk, engelsk, tysk og fransk. Tilpas sværhedsgrad fra ingen tip til mange bogstavtip for differentiering. Kombiner med matematikopgaver, malebog-sider og finmotorik øvelser for komplette læringspakker til 0. klasse opgaver og 1. klasse materialer.`,
-    previewImageSrc: '/samples/english/word guess/clue-grid_worksheet.jpeg',
+    previewImageSrc: '/samples/danish/word-guess/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Prøv Gratis',
       viewSamples: 'Se Eksempler',
@@ -49,9 +81,9 @@ Generatoren fungerer på 11 sprog inklusiv dansk, engelsk, tysk og fransk. Tilpa
     },
   },
 
-  // Sample Gallery - REAL file paths from samples/english/word guess/
+  // Sample Gallery - REAL file paths from samples/danish/word-guess/
   samples: {
-    sectionTitle: 'Gæt Ordet Arbejdsark Eksempler',
+    sectionTitle: 'Gratis Arbejdsark Eksempler - Gæt Ordet til Børn',
     sectionDescription: 'Download gratis eksempler på arbejdsark for at se vores professionelle kvalitet',
     badgeText: 'Gratis Eksempler',
     downloadLabel: 'Download Gratis Eksempel',
@@ -65,31 +97,45 @@ Generatoren fungerer på 11 sprog inklusiv dansk, engelsk, tysk og fransk. Tilpa
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/word guess/clue-grid_worksheet.jpeg',
-        answerKeySrc: '/samples/english/word guess/clue-grid_answer-key.jpeg',
-        altText: 'Gæt ordet arbejdsark med billedgitter til stavningsøvelser i børnehaveklassen',
-        pdfDownloadUrl: '/samples/english/word guess/clue-grid_worksheet.pdf',
+        worksheetSrc: '/samples/danish/word-guess/sample-1.jpeg',
+        answerKeySrc: '/samples/danish/word-guess/sample-1-answer.jpeg',
+        altText: 'Gæt ordet gratis arbejdsark - stavningsøvelser med billedgitter til børnehaveklasse',
+        pdfDownloadUrl: '/samples/danish/word-guess/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/word guess/landscape.jpeg',
-        answerKeySrc: '/samples/english/word guess/landscape answer-key.jpeg',
-        altText: 'Gæt ordet opgave i landskabsformat til 0. klasse og 1. klasse',
-        pdfDownloadUrl: '/samples/english/word guess/landscape.pdf',
+        worksheetSrc: '/samples/danish/word-guess/sample-2.jpeg',
+        answerKeySrc: '/samples/danish/word-guess/sample-2-answer.jpeg',
+        altText: 'Gratis arbejdsark til børn - gæt ordet ordforråd praksis til 0. klasse',
+        pdfDownloadUrl: '/samples/danish/word-guess/sample-2.pdf',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/word guess/custom word list.jpeg',
-        answerKeySrc: '/samples/english/word guess/custom word list answer-key.jpeg',
-        altText: 'Gæt ordet med brugerdefineret ordliste til læse og skrive øvelser',
-        pdfDownloadUrl: '/samples/english/word guess/custom word list.pdf',
+        worksheetSrc: '/samples/danish/word-guess/sample-3.jpeg',
+        answerKeySrc: '/samples/danish/word-guess/sample-3-answer.jpeg',
+        altText: 'Arbejdsark til børnehaveklasse - lære bogstaver øvelser med gæt ordet',
+        pdfDownloadUrl: '/samples/danish/word-guess/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/danish/word-guess/sample-4.jpeg',
+        answerKeySrc: '/samples/danish/word-guess/sample-4-answer.jpeg',
+        altText: 'Gratis arbejdsark - skriv bogstaver stavningsøvelser til 1. klasse',
+        pdfDownloadUrl: '/samples/danish/word-guess/sample-4.pdf',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/danish/word-guess/sample-5.jpeg',
+        answerKeySrc: '/samples/danish/word-guess/sample-5-answer.jpeg',
+        altText: 'Arbejdsark til børn - gæt ordet opgaver med brugerdefineret ordliste',
+        pdfDownloadUrl: '/samples/danish/word-guess/sample-5.pdf',
       },
     ],
   },
 
   // Features Grid - FULL text from word-guess.md feature sections
   features: {
-    sectionTitle: 'Funktioner til Gratis Skoleopgaver og Arbejdsark til Print',
+    sectionTitle: 'Gæt Ordet Funktioner - Gratis Arbejdsark til Børn og Børnehaveklasse',
     sectionDescription: 'Gæt-ordet generatoren indeholder alle funktioner du behøver til at lave professionelle opgaver til print. Fuld Adgang-abonnementet giver dig adgang til alle værktøjer uden begrænsninger. Lav arbejdsark til børnehaveklassen, 0. klasse opgaver og 1. klasse materialer med samme generator. Kombiner forskellige opgavetyper for komplette læringspakker.',
     highlightBadgeText: 'Vigtig Funktion',
     readMoreLabel: 'Læs mere',
@@ -169,7 +215,7 @@ Download arbejdsark direkte til din computer. Print så mange kopier du har brug
 
   // How-To Guide - FULL text from word-guess.md step sections
   howTo: {
-    sectionTitle: 'Lav Gratis Skoleopgaver i 5 Nemme Trin',
+    sectionTitle: 'Lav Gratis Arbejdsark til Børn i 5 Nemme Trin',
     sectionDescription: 'Opret professionelle opgaver til print på under tre minutter med vores trinvise guide. Ingen erfaring nødvendig for at lave gratis skoleopgaver og arbejdsark. Følg disse fem enkle trin fra valg af billeder til download af færdige opgaver. Perfekt til travle lærere der har brug for 0. klasse opgaver, 1. klasse materialer, matematikopgaver og finmotorik øvelser hurtigt.',
     ctaText: 'Start Nu',
     badgeText: 'Sådan Virker Det',
@@ -241,7 +287,7 @@ Download også svarnøglen så du har begge filer. Gem filer i organiserede mapp
 
   // Use Cases - FULL text from word-guess.md use case sections
   useCases: {
-    sectionTitle: 'Perfekt til Pædagoger, Lærere og Forældre',
+    sectionTitle: 'Perfekt for Pædagoger - Gratis Arbejdsark til Børn og Børnehaveklasse',
     sectionDescription: 'Vores gæt-ordet generator tjener forskellige brugertyper fra børnehaveklasse pædagoger til hjemmeundervisende forældre. Lav målrettede opgaver til print til specifikke aldersgrupper og færdighedsniveauer. Kombiner med matematikopgaver, malebog aktiviteter og finmotorik øvelser for omfattende læringspakker. Fuld Adgang-abonnement giver dig værktøjer til alle dine undervisningsbehov.',
     badgeText: 'Hvem Er Det Til',
     readMoreLabel: 'Læs mere',
@@ -324,7 +370,7 @@ Din kommercielle licens er inkluderet i Fuld Adgang-abonnement. Ingen ekstra geb
 
   // FAQ Section - Selected FAQs from word-guess.md
   faq: {
-    sectionTitle: 'Ofte Stillede Spørgsmål',
+    sectionTitle: 'Ofte Stillede Spørgsmål Om Gratis Arbejdsark til Børn',
     sectionDescription: 'Her er svar på de mest almindelige spørgsmål om gæt-ordet generatoren. Lær om abonnementer og hvordan du bruger opgaver til print i din undervisning.',
     showMoreText: 'Vis flere spørgsmål',
     showLessText: 'Vis færre',
@@ -452,7 +498,7 @@ Din kommercielle licens er inkluderet i Fuld Adgang-abonnement. Ingen ekstra geb
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Kombiner med Andre Arbejdsark Generatorer',
+    sectionTitle: 'Kombiner med Andre Gratis Arbejdsark Generatorer',
     sectionDescription: 'Lav komplette læringspakker ved at kombinere gæt-ordet med disse komplementære generatorer.',
     ctaTitle: 'Klar til at Lave Fantastiske Arbejdsark?',
     ctaDescription: 'Tilslut dig tusindvis af pædagoger der laver professionelle arbejdsark. Ubegrænset oprettelse, kommerciel licens inkluderet.',

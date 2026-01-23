@@ -15,16 +15,48 @@ export const missingPiecesDaContent: ProductPageContent = {
   seo: {
     slug: 'manglende-brikker-arbejdsark',
     appId: 'missing-pieces',
-    title: 'Visuelle Puslespil Opgaver til Print - Missing Pieces Generator til Børnehaveklassen',
-    description: 'Lav professionelle puslespil opgaver til print med vores visuelle puslespil generator. Dit Fuld Adgang abonnement giver dig ubegrænsede opgaver uden ekstra omkostninger pr. opgave. Generer tilpassede arbejdsark perfekt til børnehaveklasse og 1. klasse elever. Download høj kvalitets PDF opgaver på under 3 minutter.',
+    title: 'Manglende Brikker Opgaver - Gratis Arbejdsark til Børn i Børnehaveklasse',
+    description: 'Lav manglende brikker opgaver med vores gratis arbejdsark generator. Gratis arbejdsark til børn til børnehaveklasse og 1. klasse. Download gratis printables i høj kvalitet på under 3 minutter.',
     keywords: 'manglende brikker, puslespil opgaver, visuel diskrimination, opgaver til print, arbejdsark, gratis skoleopgaver, børnehaveklassen, 1. klasse, finmotorik øvelser, mønstergenkendelse',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/manglende-brikker-arbejdsark',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/missing-pieces/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Manglende brikker gratis arbejdsark til børn - visuelle puslespil til børnehaveklasse'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/missing-pieces/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Manglende brikker gratis printables - finmotorik øvelser til 0. klasse'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/missing-pieces/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Manglende brikker arbejdsark til børn - mønstergenkendelse til 1. klasse'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/missing-pieces/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Manglende brikker gratis arbejdsark - visuel diskriminering til børnehaveklasse'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/missing-pieces/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Manglende brikker arbejdsark til børnehaveklasse - gratis printables'
+      }
+    ],
   },
 
   // Hero Section - FULL text from missing-pieces.md paragraphs 1-4
   hero: {
     title: 'Manglende Brikker',
-    subtitle: 'Visuelle Puslespil Opgaver',
+    subtitle: 'Gratis Arbejdsark til Børn i Børnehaveklasse og 1. Klasse',
     description: `Lav professionelle puslespil opgaver til print med vores visuelle puslespil generator. Dit Fuld Adgang abonnement giver dig ubegrænsede opgaver uden ekstra omkostninger pr. opgave. Generer tilpassede arbejdsark perfekt til børnehaveklasse og 1. klasse elever. Download høj kvalitets PDF opgaver på under 3 minutter.
 
 Vores generator laver automatisk både opgaveark og facit. Eleverne finder de manglende brikker i billederne og matcher dem med de korrekte løsningsmuligheder. Perfekt til at udvikle visuel diskrimination og mønstergenkendelse.
@@ -32,7 +64,7 @@ Vores generator laver automatisk både opgaveark og facit. Eleverne finder de ma
 Missing Pieces generatoren skaber engagerende opgaver med billeder fra vores bibliotek på over 3000 motiver. Vælg mellem dyr, mad, transport, tal eller upload dine egne billeder. Hver opgave justeres nemt efter elevernes niveau.
 
 Fuld Adgang abonnementet inkluderer kommerciel licens til at sælge dine opgaver. Brug generatoren til at lave skoleopgaver til print eller læringsmaterialer til salg. Professionel 300 DPI kvalitet sikrer skarpe tryk hver gang.`,
-    previewImageSrc: '/samples/english/missing pieces/worksheet.jpeg',
+    previewImageSrc: '/samples/danish/missing-pieces/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Prøv Gratis',
       viewSamples: 'Se Eksempler',
@@ -51,9 +83,9 @@ Fuld Adgang abonnementet inkluderer kommerciel licens til at sælge dine opgaver
     },
   },
 
-  // Sample Gallery - REAL file paths from samples/english/missing pieces/
+  // Sample Gallery - REAL file paths from samples/danish/missing-pieces/
   samples: {
-    sectionTitle: 'Manglende Brikker Eksempler',
+    sectionTitle: 'Manglende Brikker Gratis Arbejdsark Eksempler til Børn',
     sectionDescription: 'Download gratis eksempler på arbejdsark for at se vores professionelle kvalitet',
     badgeText: 'Gratis Eksempler',
     downloadLabel: 'Download Gratis Eksempel',
@@ -62,29 +94,50 @@ Fuld Adgang abonnementet inkluderer kommerciel licens til at sælge dine opgaver
     answerKeyLabel: 'Facitark',
     viewAllLabel: 'Se alle',
     noPdfLabel: 'Ingen PDF tilgængelig',
-    freePdfCountLabel: '2 gratis downloads',
+    freePdfCountLabel: '5 gratis downloads',
     ofLabel: 'af',
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/missing pieces/worksheet.jpeg',
-        answerKeySrc: '/samples/english/missing pieces/answer_key.jpeg',
-        altText: 'Manglende brikker arbejdsark med visuelle puslespil til børnehaveklassen',
-        pdfDownloadUrl: '/samples/english/missing pieces/worksheet.pdf',
+        worksheetSrc: '/samples/danish/missing-pieces/sample-1.jpeg',
+        answerKeySrc: '/samples/danish/missing-pieces/sample-1-answer.jpeg',
+        altText: 'Manglende brikker gratis arbejdsark til børn - visuelle puslespil til børnehaveklasse',
+        pdfDownloadUrl: '/samples/danish/missing-pieces/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/missing pieces/worksheet (1).jpeg',
-        answerKeySrc: '/samples/english/missing pieces/answer_key (1).jpeg',
-        altText: 'Manglende brikker arbejdsark med mønstergenkendelse til 1. klasse',
-        pdfDownloadUrl: '/samples/english/missing pieces/worksheet (1).pdf',
+        worksheetSrc: '/samples/danish/missing-pieces/sample-2.jpeg',
+        answerKeySrc: '/samples/danish/missing-pieces/sample-2-answer.jpeg',
+        altText: 'Manglende brikker gratis printables - finmotorik øvelser til 0. klasse',
+        pdfDownloadUrl: '/samples/danish/missing-pieces/sample-2.pdf',
+      },
+      {
+        id: '3',
+        worksheetSrc: '/samples/danish/missing-pieces/sample-3.jpeg',
+        answerKeySrc: '/samples/danish/missing-pieces/sample-3-answer.jpeg',
+        altText: 'Manglende brikker arbejdsark til børn - mønstergenkendelse til 1. klasse',
+        pdfDownloadUrl: '/samples/danish/missing-pieces/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/danish/missing-pieces/sample-4.jpeg',
+        answerKeySrc: '/samples/danish/missing-pieces/sample-4-answer.jpeg',
+        altText: 'Manglende brikker gratis arbejdsark - visuel diskriminering til børnehaveklasse',
+        pdfDownloadUrl: '/samples/danish/missing-pieces/sample-4.pdf',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/danish/missing-pieces/sample-5.jpeg',
+        answerKeySrc: '/samples/danish/missing-pieces/sample-5-answer.jpeg',
+        altText: 'Manglende brikker arbejdsark til børnehaveklasse - gratis printables',
+        pdfDownloadUrl: '/samples/danish/missing-pieces/sample-5.pdf',
       },
     ],
   },
 
   // Features Grid - FULL text from missing-pieces.md feature sections
   features: {
-    sectionTitle: 'Nøglefunktioner i Manglende Brikker Generator - Opgaver til Print for Alle Fagområder',
+    sectionTitle: 'Manglende Brikker Generator - Gratis Arbejdsark til Børn og Opgaver til Print',
     sectionDescription: 'Missing Pieces generatoren kombinerer kraftfulde redigeringsværktøjer med brugervenlig betjening. Lav visuelle puslespil opgaver på få minutter uden designerfaring. Alle funktioner er bygget til pædagoger der hurtigt skal lave kvalitetsopgaver til deres elever. Din Fuld Adgang subscription giver adgang til alle værktøjer og billedbibliotek.',
     highlightBadgeText: 'Vigtig Funktion',
     readMoreLabel: 'Læs mere',
@@ -99,7 +152,7 @@ Fuld Adgang abonnementet inkluderer kommerciel licens til at sælge dine opgaver
       {
         id: '1',
         icon: '⚡',
-        title: 'Lav Opgaver til Print på 3 Klik - Gratis Skoleopgaver og Kopiark til Børnehaveklassen',
+        title: 'Lav Gratis Arbejdsark til Børn på 3 Klik - Gratis Printables til Børnehaveklasse',
         description: `Vælg et billede fra biblioteket eller upload dit eget. Indstil antal manglende brikker mellem 1 og 5. Vælg antal svarmuligheder mellem 2 og 6. Klik Lav og din opgave genereres med det samme.
 
 Generatoren laver automatisk både opgaveark og facitark. Opgavearket viser billedet med manglende brikker. Facitarket viser det komplette billede med korrekte svar markeret. Begge ark er klar til print eller download.
@@ -110,7 +163,7 @@ Ingen tekniske færdigheder kræves. Processen tager under 3 minutter fra start 
       {
         id: '2',
         icon: '✏️',
-        title: 'Rediger Alle Elementer på Dit Puslespil Arbejdsark - Fuldt Tilpasselige Kopiark til 0. Klasse',
+        title: 'Rediger Alle Elementer på Dit Gratis Arbejdsark - Arbejdsark til Børnehaveklasse',
         description: `Alle elementer på opgavearket kan redigeres frit. Træk billeder rundt med musen. Skaler ved at trække i hjørnerne. Rotér for perfekt placering. Slet elementer du ikke vil bruge.
 
 Tilføj tekst hvor som helst på arket. Ændr skriftstørrelse fra 8 til 100 punkter. Vælg mellem syv forskellige skrifttyper. Tilpas tekstfarve og kontur efter behov. Perfekt til at tilføje elevnavne eller instruktioner.
@@ -121,7 +174,7 @@ Juster lag ved at sende elementer fremad eller bagud. Lås elementer når de sid
       {
         id: '3',
         icon: '📤',
-        title: 'Upload Dine Egne Billeder til Matematikopgaver og Opgaver til 1. Klasse',
+        title: 'Upload Egne Billeder til Gratis Arbejdsark til Børn og Arbejdsark til Børnehaveklasse',
         description: `Upload ubegrænsede egne billeder til dine opgaver. Vælg flere filer på samme tid. Understøtter JPEG PNG GIF og alle almindelige billedformater. Kombiner uploadede billeder med biblioteksbilleder.
 
 Brug klassefotos til personlige opgaver. Upload billeder af elevernes tegninger. Indsæt billeder fra ekskursioner eller temaer. Gør hver opgave relevant for netop dine elever.
@@ -132,7 +185,7 @@ Uploadede billeder gemmes i din session. Brug dem til flere opgaver i samme arbe
       {
         id: '4',
         icon: '🌍',
-        title: 'Lav Opgaver på 11 Sprog - Lære Bogstaver og Skriv Bogstaver Opgaver til Print',
+        title: 'Lav Gratis Arbejdsark på 11 Sprog - Arbejdsark til Børn og Gratis Printables',
         description: `Generatoren understøtter 11 sprog til både brugerflade og indhold. Dansk norsk svensk finsk engelsk tysk fransk spansk italiensk portugisisk og hollandsk. Skift sprog med ét klik i indstillinger.
 
 Billedbiblioteket organiseres efter det valgte sprog. Filnavne oversættes automatisk til det aktuelle sprog. Perfekt til tosproget undervisning eller sprogundervisning. Lav opgaver der matcher elevernes modersmål.
@@ -143,7 +196,7 @@ Alle 3000 billeder er tilgængelige på alle sprog. Vælg dansk til opgaver om l
       {
         id: '5',
         icon: '💰',
-        title: 'Kommerciel Licens Inkluderet i Fuld Adgang - Sælg Dine Malebog og Farvelægning Opgaver',
+        title: 'Kommerciel Licens Inkluderet - Sælg Dine Gratis Arbejdsark til Børn og Gratis Printables',
         description: `Fuld Adgang abonnement inkluderer fuld kommerciel print-on-demand licens. Sælg dine opgaver på Teachers Pay Teachers. Upload til Etsy som printbare materialer. Udgiv på Amazon KDP som aktivitetsbøger.
 
 Ingen ekstra licensomkostninger ud over dit $240 årlige abonnement. Lav ubegrænsede opgaver til kommercielt salg. Ingen attribution kræves på dine produkter. Fuld frihed til at markedsføre som du vil.
@@ -154,7 +207,7 @@ Mange pædagoger tjener $500 til $5000 om måneden på at sælge opgaver. Profes
       {
         id: '6',
         icon: '🎨',
-        title: '3000+ Billedbibliotek til Finmotorik Øvelser og Visuelle Opgaver',
+        title: '3000+ Billedbibliotek til Gratis Arbejdsark og Arbejdsark til Børnehaveklasse',
         description: `Biblioteket indeholder over 3000 børnevenlige billeder organiseret i temaer. Dyr mad transport køretøjer natur tal bogstaver former farver og årstider. Søg hurtigt efter specifikt indhold.
 
 Vælg tema for automatisk at se alle relevante billeder. Klik på et billede for at bruge det i din opgave. Perfekt til finmotorik øvelser hvor eleverne skal matche små detaljer. Alle billeder er optimeret til puslespil brug.
@@ -165,7 +218,7 @@ Biblioteket opdateres løbende med nye motiver. Alle billeder er tegnet i børne
       {
         id: '7',
         icon: '🖨️',
-        title: 'Professionel 300 DPI Kvalitet til Gangetabeller Opgaver og Skoleopgaver til Print',
+        title: 'Professionel 300 DPI Kvalitet til Gratis Arbejdsark til Børn og Gratis Printables',
         description: `Alle downloads exporteres i 300 DPI opløsning. Perfekt skarphed til professionel print. Vælg mellem JPEG og PDF format. Begge formater bevarer fuld kvalitet.
 
 Download både opgaveark og facitark separat. JPEG til hurtig visning og deling. PDF til præcis print og arkivering. Gråtoneoption sparer blækpatron når du printer.
@@ -178,7 +231,7 @@ Professionel kvalitet gør opgaverne egnede til kommercielt salg. Skarpe linjer 
 
   // How-To Guide - FULL text from missing-pieces.md step sections
   howTo: {
-    sectionTitle: 'Sådan Laver Du Opgaver til Print i 5 Nemme Trin - Gratis Skoleopgaver og Arbejdsark til Børnehaveklassen',
+    sectionTitle: 'Lav Manglende Brikker Opgaver i 5 Trin - Gratis Arbejdsark til Børnehaveklasse',
     sectionDescription: 'Missing Pieces generatoren gør det nemt at lave visuelle puslespil opgaver. Hele processen tager under 3 minutter fra start til download. Ingen designerfaring kræves. Følg disse fem enkle trin for at lave professionelle opgaver til print til din klasse.',
     ctaText: 'Start Nu',
     badgeText: 'Sådan Virker Det',
@@ -193,7 +246,7 @@ Professionel kvalitet gør opgaverne egnede til kommercielt salg. Skarpe linjer 
       {
         id: '1',
         number: 1,
-        title: 'Vælg Billede til Dine Opgaver til Print - Gratis Skoleopgaver og Arbejdsark',
+        title: 'Vælg Billede til Dine Gratis Arbejdsark til Børn - Gratis Printables',
         description: `Start med at vælge et billede til din puslespil opgave. Biblioteket indeholder over 3000 børnevenlige motiver organiseret i temaer. Klik på Billedbibliotek i menuen til venstre.
 
 Vælg et tema fra dropdown menuen. Dyr mad transport tal bogstaver og mange flere kategorier. Biblioteket viser automatisk alle billeder i det valgte tema. Rul igennem mulighederne og klik på det billede du vil bruge.
@@ -206,7 +259,7 @@ Upload dine egne billeder som alternativ til biblioteket. Klik på Upload Bruger
       {
         id: '2',
         number: 2,
-        title: 'Indstil Puslespil Konfiguration - Matematikopgaver til 0. Klasse og 1. Klasse Elever',
+        title: 'Indstil Puslespil Konfiguration - Arbejdsark til Børnehaveklasse og 1. Klasse',
         description: `Åbn Puslespil Konfiguration sektionen i venstre menu. Her justerer du sværhedsgraden for din opgave. Tre vigtige indstillinger bestemmer hvor udfordrende opgaven bliver.
 
 Manglende Brikker bestemmer hvor mange stykker der skæres ud af billedet. Vælg mellem 1 og 5 brikker. Start med 1-2 brikker til børnehaveklasse. Brug 3-5 brikker til 1. klasse og 2. klasse elever.
@@ -219,7 +272,7 @@ Brikform bestemmer formen på de manglende stykker. Vælg mellem firkant cirkel 
       {
         id: '3',
         number: 3,
-        title: 'Generer Dit Puslespil - Gratis Skoleopgaver og Kopiark Klar på Sekunder',
+        title: 'Generer Dit Puslespil - Gratis Arbejdsark til Børn Klar på Sekunder',
         description: `Klik på Lav knappen i toppen når du har valgt billede og indstillinger. Generatoren begynder øjeblikkeligt at lave din opgave. Processen tager kun få sekunder.
 
 Opgavearket vises automatisk på skærmen. Billedet har nu manglende brikker på de udvalgte steder. Nederst på arket vises svarmuligheder som separate brikker. Både korrekte og forkerte løsningsmuligheder.
@@ -232,7 +285,7 @@ Hvis resultatet ikke er perfekt kan du klikke Lav igen med nye indstillinger. Sk
       {
         id: '4',
         number: 4,
-        title: 'Rediger på Lærredet - Finmotorik Øvelser og Læse og Skrive Opgaver til Print',
+        title: 'Rediger på Lærredet - Gratis Arbejdsark og Arbejdsark til Børn',
         description: `Alle elementer på arket kan redigeres frit efter generering. Klik på et hvilket som helst element for at vælge det. Træk det rundt med musen. Skaler ved at trække i hjørnerne.
 
 Tilføj tekst hvor som helst på arket under Tekstværktøjer. Skriv instruktioner til eleverne. Tilføj elevnavne eller klassebetegnelse. Juster skriftstørrelse fra 8 til 100 punkter. Vælg mellem syv forskellige skrifttyper.
@@ -245,7 +298,7 @@ For læse og skrive opgaver tilføj tekstfelter med bogstaver eller ord. Elevern
       {
         id: '5',
         number: 5,
-        title: 'Download og Print - Malebog Farvelægning og Gangetabeller Opgaver til Print',
+        title: 'Download og Print - Gratis Printables og Arbejdsark til Børnehaveklasse',
         description: `Klik på Download knappen når din opgave er færdig. Vælg mellem JPEG og PDF format. Begge formater eksporteres i professionel 300 DPI kvalitet.
 
 Download Opgaveark JPEG for hurtig deling digitalt. Send til forældre via email. Del i online læringsplatforme. JPEG filer åbnes på alle enheder uden særlig software.
@@ -260,7 +313,7 @@ Aktiver Gråtone tjekboksen før download for sort-hvid version. Sparer farvebl�
 
   // Use Cases - FULL text from missing-pieces.md use case sections
   useCases: {
-    sectionTitle: 'Perfekt til Pædagoger og Forældre - Gratis Skoleopgaver og Opgaver til Print til Alle Behov',
+    sectionTitle: 'Perfekt til Lærere og Forældre - Gratis Arbejdsark til Børn og Gratis Printables',
     sectionDescription: 'Missing Pieces generatoren bruges af tusindvis af pædagoger og forældre verden over. Fra børnehaveklasse til 3. klasse elever. Fra almindelig undervisning til specialpædagogik. Værktøjet tilpasses nemt til enhver undervisningssituation.',
     badgeText: 'Hvem Er Det Til',
     readMoreLabel: 'Læs mere',
@@ -270,7 +323,7 @@ Aktiver Gråtone tjekboksen før download for sort-hvid version. Sparer farvebl�
         id: '1',
         icon: '👩‍🏫',
         title: 'Børnehaveklasse og 0. Klasse Pædagoger - Finmotorik Øvelser og Arbejdsark til Print',
-        subtitle: 'Visuel Læring til de Yngste',
+        subtitle: 'Gratis Arbejdsark til Børn - Visuel Læring',
         description: `Pædagoger i børnehaveklasse bruger Missing Pieces til at udvikle grundlæggende færdigheder. Visuel diskrimination er afgørende før formelt skolestart. Evnen til at matche former og detaljer forbereder til læse og skrive undervisning.
 
 Lav enkle puslespil med 1-2 manglende brikker til de yngste. Brug store tydelige former som cirkler og firkanter. Vælg billeder med klare farver og enkle motiver. Perfekt til at træne koncentration og opmærksomhed.
@@ -284,7 +337,7 @@ Differentier nemt efter børnenes niveau. Stærke børn får 3-4 manglende brikk
         id: '2',
         icon: '📚',
         title: '1.-3. Klasse Lærere - Matematikopgaver og Læse og Skrive Stavning Opgaver til Print',
-        subtitle: 'Tværfaglig Læring',
+        subtitle: 'Gratis Printables - Tværfaglig Læring',
         description: `Grundskolelærere integrerer puslespil opgaver med faglig læring. Brug talbilleder til matematikopgaver. Bogstavbilleder til læse og skrive øvelser. Ordkort til stavning træning. Puslespil bliver et værktøj for faglig læring.
 
 Lav matematikopgaver med talpuslespil. Brug billeder af tal fra 1 til 20. Manglende tal skal matches med korrekt cifre. Kombiner med addition eller subtraktion ved at bruge regnestykker som brikker.
@@ -298,7 +351,7 @@ For læse og skrive undervisning brug bogstavpuslespil. Manglende bogstaver skal
         id: '3',
         icon: '🏠',
         title: 'Hjemmeundervisning Forældre - Gratis Skoleopgaver og Kopiark til Flere Børn',
-        subtitle: 'Fleksibel Hjemmelæring',
+        subtitle: 'Arbejdsark til Børn - Fleksibel Hjemmelæring',
         description: `Hjemmeundervisning forældre elsker Missing Pieces for fleksibiliteten. Lav forskellige opgaver til hvert barn samtidigt. Store børn får svære puslespil. Små børn får enkle versioner. Alle arbejder med samme tema på deres niveau.
 
 Tilpas opgaver til hvert barns interesser. Dit barn elsker dinosaurer. Søg dinosaur billeder i biblioteket. Lav puslespil de rent faktisk vil lave. Motivation er lettere når opgaven handler om noget barnet elsker.
@@ -312,7 +365,7 @@ Hjemmeundervisning betyder ofte begrænsede ressourcer. Fuld Adgang abonnement t
         id: '4',
         icon: '🌍',
         title: 'Tosproget Undervisning og ESL Lærere - Arbejdsark på 11 Sprog til Print',
-        subtitle: 'Flersproget Læring',
+        subtitle: 'Arbejdsark til Børnehaveklasse - Flersproget Læring',
         description: `Lærere i tosproget undervisning bruger Missing Pieces på flere sprog. Skift sprog med ét klik. Lav samme opgave på dansk og arabisk. Eller tysk og tyrkisk. Støt elever der lærer dansk som andetsprog.
 
 Billedbiblioteket fungerer på alle 11 sprog. Filnavne oversættes automatisk. Elever ser ord på deres modersmål. Perfekt til at bygge ordforråd på flere sprog samtidigt.
@@ -326,7 +379,7 @@ ESL lærere kombinerer puslespil med ordforrådsundervisning. Ny temaord hver ug
         id: '5',
         icon: '💜',
         title: 'Specialpædagoger - Opgaver til Print Tilpasset Individuelle Behov og 0. Klasse',
-        subtitle: 'Tilpasset til Særlige Behov',
+        subtitle: 'Gratis Arbejdsark - Tilpasset Særlige Behov',
         description: `Specialpædagoger differentierer nemt med Missing Pieces. Hver elev får præcis den sværhedsgrad de behøver. Visuelle puslespil fungerer godt for elever med forskellige indlæringsbehov.
 
 Elever med koncentrationsudfordringer klarer korte opgaver bedre. Lav puslespil med kun 1 manglende brik og 2 muligheder. Hurtig succes bygger selvtillid. Gradvis øg sværhedsgraden som eleven mestrer opgaven.
@@ -340,7 +393,7 @@ Autisme spektrum elever responderer godt på visuelle opgaver. Puslespil giver k
         id: '6',
         icon: '💰',
         title: 'Lærer-Iværksættere - Sælg Dine Opgaver som Kopiark med Kommerciel Licens',
-        subtitle: 'Kommerciel Mulighed',
+        subtitle: 'Gratis Arbejdsark til Børn - Kommerciel Mulighed',
         description: `Teachers Pay Teachers sælgere bruger Missing Pieces til at lave produkter. Fuld Adgang inkluderer kommerciel licens. Lav ubegrænsede opgaver til salg. Ingen ekstra licensomkostninger ud over dit $240 abonnement.
 
 Lav tematiske puslespil pakker. Halloween jul påske sommer. Sæsonbestemte opgaver sælger godt. Kombiner 10-20 puslespil i én pakke. Prissæt til $5-$10 afhængigt af mængde.
@@ -355,7 +408,7 @@ Differentiere opgaver efter klassetrin. Børnehaveklasse pakke med enkle puslesp
 
   // FAQ Section - Selected FAQs from missing-pieces.md
   faq: {
-    sectionTitle: 'Ofte Stillede Spørgsmål om Manglende Brikker Opgaver til Print',
+    sectionTitle: 'Ofte Stillede Spørgsmål om Manglende Brikker Gratis Arbejdsark og Gratis Printables',
     sectionDescription: 'Pædagoger stiller mange spørgsmål om Missing Pieces generatoren. Her besvarer vi de mest almindelige spørgsmål om funktioner prissætning og anvendelse. Hvis dit spørgsmål ikke er besvaret her kontakt support for hjælp.',
     showMoreText: 'Vis flere spørgsmål',
     showLessText: 'Vis færre',
@@ -367,62 +420,62 @@ Differentiere opgaver efter klassetrin. Børnehaveklasse pakke med enkle puslesp
     items: [
       {
         id: '1',
-        question: 'Er Missing Pieces Generatoren Gratis at Bruge til Skoleopgaver?',
+        question: 'Er Missing Pieces Generatoren Gratis Arbejdsark til Børn?',
         answer: 'Missing Pieces generatoren kræver Fuld Adgang abonnement til $240 årligt eller $25 månedligt. Dit abonnement giver ubegrænsede opgaver uden ekstra omkostninger pr. opgave. Generer så mange puslespil opgaver du vil uden yderligere gebyrer. Fuld Adgang inkluderer alle 33 værktøjer på platformen. Missing Pieces plus matematikopgaver generatorer plus læse og skrive værktøjer. Kommerciel licens inkluderet i prisen. Professionel 300 DPI eksport kvalitet på alle downloads. Core Bundle koster $144 årligt og inkluderer 10 populære værktøjer. Fuld Adgang koster $240 årligt og inkluderer alle 33 værktøjer inklusive Missing Pieces.',
       },
       {
         id: '2',
-        question: 'Kan Jeg Printe Missing Pieces Opgaver på Min Hjemmeprinter?',
+        question: 'Kan Jeg Printe Gratis Arbejdsark på Min Hjemmeprinter?',
         answer: 'Ja alle opgaver kan printes på almindelige hjemmeprintere. JPEG og PDF formater fungerer på alle printere. 300 DPI kvalitet sikrer skarpe linjer selv på budget printere. Gråtone option sparer farveblæk betydeligt. Perfekt til store klassesæt. Gråtone bevarer samme klarhed og læsbarhed som farve versioner. Standardpapir A4 eller Letter fungerer perfekt. Ingen specialpapir kræves. Almindeligt kopipapir giver gode resultater. For professionel kvalitet send til printservice. Kopi butikker printer i høj kvalitet billigt.',
       },
       {
         id: '3',
-        question: 'Behøver Jeg Designerfaring for at Lave Puslespil Kopiark?',
+        question: 'Behøver Jeg Designerfaring for at Lave Gratis Printables?',
         answer: 'Nej ingen designerfaring kræves. Missing Pieces er bygget til pædagoger uden tekniske færdigheder. Vælg billede indstil indstillinger klik Lav. Processen er fuld automatisk og intuitiv. Generatoren placerer automatisk alle elementer. Hovedbilledet centreres perfekt. Svarmuligheder arrangeres pænt. Ingen manuel layout påkrævet. Alt er klar til brug med det samme. Tusindvis af pædagoger uden design baggrund bruger Missing Pieces dagligt. Hvis du kan bruge Word kan du bruge denne generator. Læringskurven er under 5 minutter for de fleste brugere.',
       },
       {
         id: '4',
-        question: 'Kan Jeg Bruge Puslespil Arbejdsark i Mit Klasseværelse til Elever?',
+        question: 'Kan Jeg Bruge Arbejdsark til Børn i Mit Klasseværelse?',
         answer: 'Fuld Adgang abonnement inkluderer ubegrænset klassebrug. Lav opgaver til alle dine elever. Print klassesæt til hele klassen. Del digitalt via læringsplatforme. Ingen begrænsninger på klassebrug. Brug opgaver til instruktion øvelse eller vurdering. Morgenarbejde centreopgaver eller lektier. Pauseopgaver til hurtige elever. Vikarark til sygedage. Klassebrug er fuldt dækket. Del opgaver med kolleger på din skole. Hvis flere lærere har abonnementer kan I dele opgaver frit.',
       },
       {
         id: '5',
-        question: 'Hvilke Sprog er Tilgængelige til Lære Bogstaver og Skriv Bogstaver Opgaver?',
+        question: 'Hvilke Sprog er Tilgængelige til Gratis Arbejdsark til Børn?',
         answer: 'Missing Pieces understøtter 11 sprog til både brugerflade og indhold. Dansk norsk svensk finsk engelsk tysk fransk spansk italiensk portugisisk og hollandsk. Skift sprog med ét klik i indstillinger. For lære bogstaver opgaver vælg dit sprog og billedbiblioteket viser relevante bogstavbilleder. Filnavne oversættes automatisk. Eleverne ser bogstaver på det valgte sprog. Perfekt til alfabetindlæring på modersmål eller fremmedsprog. Tosproget undervisning drager stor nytte af multisprogs funktionen. Lav samme opgave på dansk og arabisk. Eller tysk og tyrkisk.',
       },
       {
         id: '6',
-        question: 'Kan Jeg Sælge Missing Pieces Opgaver Jeg Laver med Generatoren?',
+        question: 'Kan Jeg Sælge Gratis Arbejdsark og Gratis Printables Jeg Laver?',
         answer: 'Ja Fuld Adgang inkluderer fuld kommerciel print-on-demand licens. Sælg dine opgaver på Teachers Pay Teachers Etsy eller Amazon KDP. Ingen ekstra licensomkostninger ud over dit $240 årlige abonnement. Lav ubegrænsede produkter til kommercielt salg. Ingen per produkt gebyrer. Ingen attribution krævet på dine filer. Fuld frihed til at markedsføre som dine egne produkter. 300 DPI professionel kvalitet gør dine produkter konkurrencedygtige. Mange pædagoger tjener $500-$5000 månedligt gennem online salg.',
       },
       {
         id: '7',
-        question: 'Hvordan Tilpasser Jeg Matematikopgaver og Gangetabeller Opgaver til Mine Elever?',
+        question: 'Hvordan Tilpasser Jeg Arbejdsark til Børnehaveklasse til Mine Elever?',
         answer: 'Vælg talbilleder fra billedbiblioteket til matematikopgaver. Tal 1-20 for børnehaveklasse og 1. klasse. Større tal til ældre elever. Lav puslespil hvor manglende tal skal matches. For gangetabeller opgaver brug billeder af tabeller. Manglende produkter i tabellen bliver puslespil brikker. Kombiner hukommelse med visuel matching. Innovative måde at øve gangetabeller. Juster sværhedsgrad ved at ændre antal manglende brikker. 1-2 brikker for begyndere. 4-5 brikker for øvede elever.',
       },
       {
         id: '8',
-        question: 'Hvilke Aldersgrupper Fungerer Bedst med Finmotorik Øvelser og Malebog Opgaver?',
+        question: 'Hvilke Aldersgrupper Fungerer Bedst med Gratis Arbejdsark til Børn?',
         answer: 'Børnehaveklasse elever fra 5-6 år klarer enkle puslespil perfekt. 1-2 manglende brikker med store former. Cirkel og firkant brikker er lettere end komplekse former. Finmotorik øvelser når de klipper og klistrer brikker. 1. klasse elever fra 6-7 år håndterer mellemsværhedsgrad. 2-3 manglende brikker med forskellige former. Kombiner med malebog elementer hvor elever farvelægger brikker før matching. 2.-3. klasse elever fra 7-9 år mestrer komplekse puslespil. 4-5 manglende brikker med svære former som ellipser. Specialpædagogik elever på alle aldre drager nytte.',
       },
       {
         id: '9',
-        question: 'Kan Jeg Uploade Mine Egne Billeder til Puslespil Kopiark?',
+        question: 'Kan Jeg Uploade Mine Egne Billeder til Arbejdsark til Børn?',
         answer: 'Ja upload ubegrænsede egne billeder. Klik Upload Brugerdefinerede Billeder i menuen. Vælg flere filer samtidigt fra din computer. JPEG PNG GIF og alle almindelige formater understøttes. Brug klassefotos til personlige opgaver. Ekskursionsbilleder feltture klasseværelset. Gør opgaver relevante for netop dine elever. Upload elevernes egne tegninger. Lav puslespil af deres kunstværker. Enorm motivation når de løser puslespil af deres eget arbejde. Alle uploadede billeder optimeres automatisk til 300 DPI kvalitet.',
       },
       {
         id: '10',
-        question: 'Hvor Lang Tid Tager Det at Lave Opgaver til Print med Missing Pieces?',
+        question: 'Hvor Lang Tid Tager Det at Lave Gratis Printables med Missing Pieces?',
         answer: 'Hele processen tager under 3 minutter fra start til download. Vælg billede 30 sekunder. Indstil puslespil konfiguration 30 sekunder. Klik Lav og vent på generering 15 sekunder. Download JPEG eller PDF 15 sekunder. Hvis du vil redigere tilføj 2-3 minutter mere. Flyt elementer tilføj tekst juster farver. Selv med omfattende tilpasning er du færdig på 5 minutter totalt. Sammenlign med traditionel fremstilling som tager 30-60 minutter per opgave. Missing Pieces sparer 90% af tiden.',
       },
       {
         id: '11',
-        question: 'Inkluderer Missing Pieces Facitark til Læse og Skrive Stavning Opgaver?',
+        question: 'Inkluderer Missing Pieces Facitark til Gratis Arbejdsark?',
         answer: 'Ja generatoren laver automatisk både opgaveark og facitark. Klik Lav og begge ark genereres samtidigt. Opgavearket viser billedet med manglende brikker. Facitarket viser komplette billede med korrekte svar markeret. Download begge ark i samme format. Facit JPEG hvis du vil dele digitalt. Facit PDF hvis du vil printe. Hav altid svarnøglen ved hånden når eleverne arbejder. For læse og skrive opgaver viser facit korrekte bogstaver eller ord. Gem facit separat fra elevopgaver.',
       },
       {
         id: '12',
-        question: 'Kan Jeg Lave Puslespil Opgaver om Specifikke Skoleemner som Farvelægning?',
+        question: 'Kan Jeg Lave Arbejdsark til Børnehaveklasse om Specifikke Emner?',
         answer: 'Ja brug søgefunktionen til at finde billeder om ethvert emne. Skriv emnet i søgefeltet. Generatoren filtrerer til relevante billeder. Over 3000 billeder dækker de fleste skoleemner. Farvelægning temaer findes under kunst kategorien. Brug disse billeder i puslespil. Kombiner farvelægning med puslespil aktivitet. Naturvidenskab emner dyr planter vejr årstider. Matematik emner tal former mønstre. Geografi emner landkort kontinenter lande. Upload dine egne emne specifikke billeder hvis biblioteket mangler noget.',
       },
     ],
@@ -484,7 +537,7 @@ Differentiere opgaver efter klassetrin. Børnehaveklasse pakke med enkle puslesp
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Kombiner Manglende Brikker med Andre Gratis Skoleopgaver - Komplette Læringspakker',
+    sectionTitle: 'Kombinér Manglende Brikker med Andre Gratis Arbejdsark til Børnehaveklasse',
     sectionDescription: 'LessonCraft Studio platformen tilbyder 33 gratis opgave-generatorer. Ikke kun manglende brikker. Kombiner forskellige opgavetyper til komplette lektionspakker. Lav tematiske enheder der dækker alle færdigheder.',
     ctaTitle: 'Klar til at Lave Fantastiske Arbejdsark?',
     ctaDescription: 'Tilslut dig tusindvis af pædagoger der laver professionelle arbejdsark. Ubegrænset oprettelse, kommerciel licens inkluderet.',

@@ -17,16 +17,48 @@ export const oddOneOutDaContent: ProductPageContent = {
   seo: {
     slug: 'find-den-ulige-arbejdsark',
     appId: 'odd-one-out',
-    title: 'Gratis Skoleopgaver til Print - Find Den Ulige Generator til 0. Klasse og 1. Klasse',
-    description: 'Skab professionelle "find den ulige" opgaver til print med vores intuitive generator. Dit Fuld Adgang-abonnement giver dig ubegrænset adgang til at skabe visuelle diskriminationsopgaver uden ekstra omkostninger pr. opgave. Generer tilpassede arbejdsark perfekte til børnehaveklassen, 0. klasse og 1. klasse. Download PDF-opgaver af høj kvalitet på under 3 minutter.',
+    title: 'Find Den Ulige - Gratis Arbejdsark Generator til Børn og Børnehaveklasse',
+    description: 'Skab gratis arbejdsark til børn med Find Den Ulige generatoren. Visuelle opgaver til børnehaveklasse og 0. klasse. Download PDF i 300 DPI på 3 minutter.',
     keywords: 'find den ulige, gratis skoleopgaver, opgaver til print, 0. klasse, 1. klasse, børnehaveklassen, visuel diskrimination, kognitiv udvikling, arbejdsark, finmotorik øvelser',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/find-den-ulige-arbejdsark',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/odd-one-out/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Find den ulige gratis arbejdsark til børn - visuel diskrimination til børnehaveklasse'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/odd-one-out/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Find den ulige gratis arbejdsark - opgaver til print for 0. klasse'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/odd-one-out/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Find den ulige arbejdsark til børn - visuel perception til 1. klasse'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/odd-one-out/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Find den ulige gratis printables - kognitiv udvikling til børnehaveklasse'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/danish/odd-one-out/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Find den ulige arbejdsark til børnehaveklasse - kritisk tænkning for indskolingen'
+      },
+    ],
   },
 
   // Hero Section - FULL text from odd-one-out.md
   hero: {
-    title: 'Find Den Ulige Generator',
-    subtitle: 'Gratis Skoleopgaver til Print - 0. Klasse og 1. Klasse',
+    title: 'Find Den Ulige Generator - Gratis Arbejdsark til Børn',
+    subtitle: 'Gratis Arbejdsark til Børnehaveklasse - Opgaver til Print for 0. og 1. Klasse',
     description: `Skab professionelle "find den ulige" opgaver til print med vores intuitive generator. Dit Fuld Adgang-abonnement giver dig ubegrænset adgang til at skabe visuelle diskriminationsopgaver uden ekstra omkostninger pr. opgave. Generer tilpassede arbejdsark perfekte til børnehaveklassen, 0. klasse og 1. klasse. Download PDF-opgaver af høj kvalitet på under 3 minutter.
 
 Find den ulige-opgaver udvikler kritisk tænkning og visuel perception. Børn lærer at sammenligne billeder og identificere forskelle. Perfekt til kognitiv udvikling i indskolingen. Idealsk til pædagoger der har brug for differentierede opgaver til print hurtigt.
@@ -34,7 +66,7 @@ Find den ulige-opgaver udvikler kritisk tænkning og visuel perception. Børn l�
 Med Fuld Adgang-abonnementet ($240 årligt eller $25 månedligt) får du adgang til alle 33 generatorer. Skab ubegrænset antal opgaver til print uden begrænsninger. Kombinér med andre arbejdsark for komplette undervisningspakker. Kommerciel licens inkluderet til salg på platforme som Teachers Pay Teachers eller Etsy.
 
 Vores generator understøtter 11 sprog og indeholder over 3000 børnevenlige billeder. Vælg mellem to sværhedsgrader: Identisk tilstand (subtile forskelle) eller Lignende tilstand (kategoriforskel). Tilpas hver opgave individuelt. Download som PDF eller JPEG i professionel 300 DPI kvalitet. Gråtone-mulighed sparer blæk ved udskrivning.`,
-    previewImageSrc: '/samples/english/odd one out/similar.jpeg',
+    previewImageSrc: '/samples/danish/odd-one-out/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Prøv Gratis',
       viewSamples: 'Se Eksempler',
@@ -53,9 +85,9 @@ Vores generator understøtter 11 sprog og indeholder over 3000 børnevenlige bil
     },
   },
 
-  // Sample Gallery - REAL file paths from samples/english/odd one out/
+  // Sample Gallery - REAL file paths from samples/danish/odd-one-out/
   samples: {
-    sectionTitle: 'Find Den Ulige Eksempler',
+    sectionTitle: 'Find Den Ulige Eksempler - Gratis Arbejdsark til Børn',
     sectionDescription: 'Download gratis eksempler på arbejdsark for at se vores professionelle kvalitet',
     badgeText: 'Gratis Eksempler',
     downloadLabel: 'Download Gratis Eksempel',
@@ -69,24 +101,45 @@ Vores generator understøtter 11 sprog og indeholder over 3000 børnevenlige bil
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/odd one out/similar.jpeg',
-        answerKeySrc: '/samples/english/odd one out/similar answer-key.jpeg',
-        altText: 'Find den ulige opgave med lignende billeder til børnehaveklassen',
-        pdfDownloadUrl: '/samples/english/odd one out/similar.pdf',
+        worksheetSrc: '/samples/danish/odd-one-out/sample-1.jpeg',
+        answerKeySrc: '/samples/danish/odd-one-out/sample-1-answer.jpeg',
+        altText: 'Find den ulige gratis arbejdsark til børn - lignende billeder visuel diskrimination for børnehaveklasse',
+        pdfDownloadUrl: '/samples/danish/odd-one-out/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/odd one out/identical.jpeg',
-        answerKeySrc: '/samples/english/odd one out/identical answer-key.jpeg',
-        altText: 'Find den ulige opgave med identiske billeder til 0. klasse',
-        pdfDownloadUrl: '/samples/english/odd one out/identical.pdf',
+        worksheetSrc: '/samples/danish/odd-one-out/sample-2.jpeg',
+        answerKeySrc: '/samples/danish/odd-one-out/sample-2-answer.jpeg',
+        altText: 'Find den ulige gratis arbejdsark - identiske billeder opgaver til print for 0. klasse',
+        pdfDownloadUrl: '/samples/danish/odd-one-out/sample-2.pdf',
+      },
+      {
+        id: '3',
+        worksheetSrc: '/samples/danish/odd-one-out/sample-3.jpeg',
+        answerKeySrc: '/samples/danish/odd-one-out/sample-3-answer.jpeg',
+        altText: 'Find den ulige arbejdsark til børnehaveklasse - visuel perception aktivitet til indskolingen',
+        pdfDownloadUrl: '/samples/danish/odd-one-out/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/danish/odd-one-out/sample-4.jpeg',
+        answerKeySrc: '/samples/danish/odd-one-out/sample-4-answer.jpeg',
+        altText: 'Find den ulige gratis printables - kognitiv udvikling arbejdsark til børn for 1. klasse',
+        pdfDownloadUrl: '/samples/danish/odd-one-out/sample-4.pdf',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/danish/odd-one-out/sample-5.jpeg',
+        answerKeySrc: '/samples/danish/odd-one-out/sample-5-answer.jpeg',
+        altText: 'Find den ulige arbejdsark til børn - kritisk tænkning opgave til børnehaveklasse og 0. klasse',
+        pdfDownloadUrl: '/samples/danish/odd-one-out/sample-5.pdf',
       },
     ],
   },
 
   // Features Grid - FULL text from odd-one-out.md feature sections
   features: {
-    sectionTitle: 'Funktioner til Gratis Skoleopgaver - Alt Du Har Brug For til Opgaver til Print og Arbejdsark',
+    sectionTitle: 'Funktioner - Gratis Arbejdsark til Børn og Arbejdsark til Børnehaveklasse',
     sectionDescription: 'Fuld Adgang-abonnementet giver dig alle værktøjer til professionel opgaveproduktion. Skab tilpassede arbejdsark til enhver undervisningssituation. Ingen begrænsninger på antal opgaver til print. Alle funktioner inkluderet i ét abonnement. Find den ulige-generatoren kombinerer brugervenlighed med kraftfulde tilpasningsmuligheder. Perfekt til pædagoger i børnehaveklassen og indskolingen. Understøtter alle fag fra matematikopgaver til læse og skrive aktiviteter. Skab opgaver til print der matcher dit undervisningsbehov præcist.',
     highlightBadgeText: 'Vigtig Funktion',
     readMoreLabel: 'Læs mere',
@@ -101,7 +154,7 @@ Vores generator understøtter 11 sprog og indeholder over 3000 børnevenlige bil
       {
         id: '1',
         icon: '⚡',
-        title: 'Skab Opgaver til Print på 3 Klik',
+        title: 'Skab Gratis Arbejdsark til Børn på 3 Klik',
         description: `Generatoren er designet til hurtig opgaveproduktion. Vælg tema fra billedbiblioteket. Klik "Skab" for at generere opgaven. Færdig på under 2 minutter. Ingen designerfaring påkrævet.
 
 Vælg mellem 5-10 opgaver pr. side. Tilpas antal efter klassetrin og koncentrationsevne. 0. klasse får færre opgaver pr. ark. 1. klasse kan klare flere opgaver. Du bestemmer sværhedsgrad for hver enkelt opgave.
@@ -114,7 +167,7 @@ Vælg om opgavenumre skal inkluderes. Tilføj navn/dato felter efter behov. Komb
       {
         id: '2',
         icon: '✏️',
-        title: 'Rediger Alle Elementer på Kopiark',
+        title: 'Rediger Alle Elementer - Gratis Arbejdsark Tilpasning',
         description: `Alt på lærredet kan redigeres efter generering. Træk billeder til nye positioner. Roter, skalér eller slet elementer. Fuldstændig kontrol over det endelige layout.
 
 Tilføj brugerdefineret tekst hvor som helst. Ændr skriftstørrelse fra 8px til stor overskrift. Syv børnevenlige skrifttyper inkluderet. Vælg tekstfarve og konturtykkelse. Perfekt til at tilføje instruktioner på dansk.
@@ -127,7 +180,7 @@ Lagkontrol giver præcis styring. Flyt elementer frem eller tilbage. Juster hvil
       {
         id: '3',
         icon: '📤',
-        title: 'Upload Dine Egne Billeder til Arbejdsark',
+        title: 'Upload Dine Egne Billeder - Arbejdsark til Børn',
         description: `Multi-fil upload understøtter alle almindelige formater. JPEG, PNG og GIF fungerer problemfrit. Upload klassefotos eller tematiske billeder. Kombinér med biblioteksbilleder for unikke opgaver.
 
 Upload billeder der matcher aktuel undervisning. Årstidsemner som efterår eller forår. Billeder fra klasseture eller projekter. Børnene genkender bekendte motiver og engageres bedre.
@@ -153,7 +206,7 @@ Særligt værdifuldt for læse og skrive undervisning. Kombinér billedgenkendel
       {
         id: '5',
         icon: '💰',
-        title: 'Kommerciel Licens til Matematikopgaver og Alle Skoleopgaver',
+        title: 'Kommerciel Licens - Gratis Printables og Arbejdsark til Børnehaveklasse',
         description: `Fuld Adgang inkluderer print-on-demand kommerciel licens. Ingen ekstra licensgebyr ud over $240 årligt. Sælg opgaver på Teachers Pay Teachers eller Etsy. Amazon KDP lavindhold bøger tilladt.
 
 Lærere bygger sideindkomst ved at sælge opgaver til print. Matematikopgaver sælger godt. Find den ulige opgaver populære i SFO materialer. Skab produktpakker til forskellige klassetrin.
@@ -179,7 +232,7 @@ Nye billeder tilføjes regelmæssigt. Temaer opdateres med sæsonindhold. Højti
       {
         id: '7',
         icon: '🖨️',
-        title: 'Professionel 300 DPI Kvalitet til 1. Klasse Opgaver',
+        title: 'Professionel 300 DPI - Gratis Arbejdsark til 1. Klasse',
         description: `Eksportér i høj opløsning 300 DPI kvalitet. Perfekt til udskrivning eller kommerciel publicering. Vælg mellem PDF og JPEG formater. PDF bevarer skarp tekst og billeder.
 
 Gråtone-tilstand sparer betydelige blækudgifter. Op til 70% mindre forbrug. Perfekt til store mængder kopiark. Børn i 1. klasse behøver ikke farve for at løse opgaver.
@@ -194,7 +247,7 @@ Download ubegrænsede arbejdsark med abonnement. Ingen tællere eller begrænsni
 
   // How-To Guide - FULL text from odd-one-out.md step sections
   howTo: {
-    sectionTitle: 'Sådan Skaber Du Gratis Skoleopgaver til Print i 5 Nemme Trin',
+    sectionTitle: 'Sådan Skaber Du Gratis Arbejdsark til Børn i 5 Nemme Trin',
     sectionDescription: 'Hele processen tager under 3 minutter fra start til færdig opgave til print. Ingen designerfaring nødvendig. Trinvis guide sikrer succes første gang. Perfekt til travle pædagoger der behøver opgaver hurtigt. Find den ulige generatoren forenkler opgaveskabelse maksimalt. Intuitiv interface guider dig gennem hvert trin. Forhåndsvisning viser resultat før download. Fejl kan rettes øjeblikkeligt på lærredet.',
     ctaText: 'Start Nu',
     badgeText: 'Sådan Virker Det',
@@ -209,7 +262,7 @@ Download ubegrænsede arbejdsark med abonnement. Ingen tællere eller begrænsni
       {
         id: '1',
         number: 1,
-        title: 'Vælg Indhold til Matematikopgaver og Lære Bogstaver Aktiviteter',
+        title: 'Vælg Indhold - Gratis Arbejdsark til Børn',
         description: `Start med at vælge hvilket tema opgaverne skal handle om. Over 50 temaer tilgængelige i billedbiblioteket. Dyr, transport, mad, tal, bogstaver og meget mere. Søgefunktion finder relevante temaer hurtigt.
 
 Vælg Tema A for hovedbillederne. Dette tema bruges til de 3 ens billeder i hver opgave. For Lignende tilstand vælg også Tema B. Tema B giver det ulige billede i hver opgave.
@@ -224,7 +277,7 @@ Billedvalg påvirker sværhedsgrad direkte. Meget forskellige billeder gør opga
       {
         id: '2',
         number: 2,
-        title: 'Tilpas Indstillinger for 0. Klasse Opgaver og 1. Klasse Arbejdsark',
+        title: 'Tilpas Indstillinger - Arbejdsark til Børnehaveklasse',
         description: `Vælg antal opgaver pr. ark mellem 5-10 opgaver. Færre opgaver betyder større billeder og nemmere visuel diskrimination. 0. klasse klarer typisk 5-6 opgaver pr. ark. 1. klasse kan håndtere 7-10 opgaver.
 
 Indstil global tilstand for alle opgaver. Identisk tilstand: alle 4 billeder fra samme tema, 1 er subtilt forskelligt. Lignende tilstand: 3 fra Tema A, 1 fra Tema B - tydeligere forskel.
@@ -273,7 +326,7 @@ Brug lag-kontrol til præcis elementorganisering. Bring tekst til forgrund så d
       {
         id: '5',
         number: 5,
-        title: 'Download Arbejdsark til Læse og Skrive Undervisning',
+        title: 'Download Gratis Arbejdsark til Print',
         description: `Når opgaven er perfekt klik "Download" knappen. Vælg mellem PDF og JPEG format. PDF bevarer skarp tekst og er bedst til print. JPEG fungerer til digital visning.
 
 Vælg farve eller gråtone eksport. Fuld farve ser flot ud men bruger meget blæk. Gråtone sparer op til 70% blækforbrug ved store print runs. Børn løser opgaver lige godt i gråtone.
@@ -292,7 +345,7 @@ Kombinér find den ulige opgaver med andre arbejdsark typer. Læse og skrive opg
 
   // Use Cases - FULL text from odd-one-out.md use case sections
   useCases: {
-    sectionTitle: 'Perfekt til Pædagoger og Forældre - Gratis Skoleopgaver til Print for Enhver Undervisningssituation',
+    sectionTitle: 'Perfekt til Pædagoger - Gratis Arbejdsark til Børnehaveklasse og Indskoling',
     sectionDescription: 'Find den ulige generatoren tjener mange forskellige brugergrupper. Fra børnehaveklassen til 3. klasse. Hjemmeundervisere til specialpædagoger. Hver gruppe finder unik værdi i værktøjet. Fuld Adgang abonnementet ($240 årligt) giver alle brugergrupper samme omfattende adgang. Ingen funktionsbegrænsninger baseret på brugertype. Pædagoger og forældre får identiske muligheder. Kommerciel licens inkluderet for alle abonnenter.',
     badgeText: 'Hvem Er Det Til',
     readMoreLabel: 'Læs mere',
@@ -460,7 +513,7 @@ Brug Pinterest til at drive trafik til produkter. Pin eksempler af opgaver med l
 
   // FAQ Section - FULL text from odd-one-out.md FAQ sections
   faq: {
-    sectionTitle: 'Ofte Stillede Spørgsmål om Gratis Skoleopgaver og Opgaver til Print',
+    sectionTitle: 'Ofte Stillede Spørgsmål om Gratis Arbejdsark og Arbejdsark til Børn',
     sectionDescription: 'Pædagoger stiller mange spørgsmål før abonnement. Forstå præcist hvad Fuld Adgang inkluderer. Afklar forventninger om priser og funktioner. Træf informeret beslutning baseret på fakta. Denne sektion besvarer de mest almindelige spørgsmål. Fra priser til funktionalitet. Tekniske evner til pædagogiske anvendelser. Alt du behøver at vide før du starter.',
     showMoreText: 'Vis flere spørgsmål',
     showLessText: 'Vis færre',
@@ -496,7 +549,7 @@ Print multiple eksemplarer af samme opgave efter behov. Klassesæt til 25 elever
       },
       {
         id: '3',
-        question: 'Har Jeg Brug for Designerfærdigheder til at Skabe Arbejdsark og Kopiark?',
+        question: 'Har Jeg Brug for Designerfærdigheder til at Skabe Gratis Arbejdsark til Børn?',
         answer: `Nej. Nul designerfaring påkrævet. Generatoren er designet til almindelige pædagoger uden teknisk baggrund. Intuitiv interface guider gennem hvert trin.
 
 Vælg tema fra dropdown menuer. Klik på billeder for at tilføje. Juster indstillinger med simple skydere. Klik "Skab" og opgaven genereres automatisk. Ingen kompleks software at lære.
@@ -509,7 +562,7 @@ Videotutorials tilgængelige hvis behov for ekstra hjælp. Men de fleste brugere
       },
       {
         id: '4',
-        question: 'Kan Jeg Bruge Opgaver til Print i Min Børnehaveklasse og 0. Klasse?',
+        question: 'Kan Jeg Bruge Gratis Arbejdsark i Min Børnehaveklasse og 0. Klasse?',
         answer: `Ja. Find den ulige opgaver er perfekte til børnehaveklassen og 0. klasse. Visuel diskrimination er kernefærdighed i denne aldersgruppe. Opgaverne træner præcis denne evne.
 
 Tilpas sværhedsgrad til børnehaveklasse niveau. Brug Lignende tilstand med tydelige kategoriforskel. Store billeder gør identifikation lettere. 5-6 opgaver pr. ark undgår overvældelse.
@@ -548,7 +601,7 @@ Sammenlign med konkurrenter der opkræver $100-200 ekstra årligt for kommerciel
       },
       {
         id: '7',
-        question: 'Hvordan Tilpasser Jeg Opgaver til Print til Mine 1. Klasse Elever?',
+        question: 'Hvordan Tilpasser Jeg Arbejdsark til Børn til Mine 1. Klasse Elever?',
         answer: `1. klasse elever håndterer mere komplekse opgaver end yngre børn. Øg antal opgaver pr. ark til 7-10. Minsk billedstørrelse for at passe flere opgaver. Brug Identisk tilstand for subtile forskelle.
 
 Tilføj tekstetiketter under hvert billede. 1. klasse læser begyndende ordgenkendelse. Kombinér visuel diskrimination med læsetræning. Multi-færdighedstilgang maksimerer læring.
@@ -561,7 +614,7 @@ Upload klassefotos for ekstra personalisering. Billeder fra ekskursioner eller k
       },
       {
         id: '8',
-        question: 'Inkluderer Find Den Ulige Opgaver Svarnogler til Lære Bogstaver Aktiviteter?',
+        question: 'Inkluderer Find Den Ulige Gratis Printables Svarnogler?',
         answer: `Ja. Automatisk svarnogle genereres for hver opgave. Viser præcist hvilket billede der er det ulige i hver opgave række. Kritisk tidsbesparelse ved retning.
 
 Svarnogle downloades separat fra samme interface. Vælg "Svarnogle" fane før download. Print sammen med opgaven for nemlig reference. Eller gem digitalt til senere brug.
@@ -577,7 +630,7 @@ Selvretning bliver mulig med svarnogler. Ældre børn i 1-2. klasse kan tjekke e
 
   // Related Apps Section
   relatedApps: {
-    sectionTitle: 'Kombinér med Andre Arbejdsark Generatorer',
+    sectionTitle: 'Kombinér med Andre Gratis Arbejdsark Generatorer',
     sectionDescription: 'Lav komplette læringspakker ved at kombinere find den ulige med disse komplementære generatorer.',
     ctaTitle: 'Klar til at Lave Fantastiske Arbejdsark?',
     ctaDescription: 'Tilslut dig tusindvis af pædagoger der laver professionelle arbejdsark. Ubegrænset oprettelse, kommerciel licens inkluderet.',

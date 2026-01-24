@@ -75,7 +75,7 @@ Varje arbetsblad innehåller 1-10 gåtor per sida. Välj mellan fyra svårighets
     },
   },
 
-  // Sample Gallery - REAL file paths from samples/english/word guess/
+  // Sample Gallery - Swedish localized samples from /samples/swedish/word-guess/
   samples: {
     sectionTitle: 'Gratis Gissa Ordet Arbetsblad Exempel - Arbetsblad för Barn',
     sectionDescription: 'Ladda ner gratis exempelarbetsblad för att se vår professionella kvalitet',

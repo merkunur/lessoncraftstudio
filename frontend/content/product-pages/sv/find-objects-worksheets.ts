@@ -15,16 +15,48 @@ export const findObjectsSvContent: ProductPageContent = {
   seo: {
     slug: 'hitta-foremal-arbetsblad',
     appId: 'find-objects',
-    title: 'Hitta Föremål Arbetsblad - Arbetsblad Gratis för Förskoleklass Material och Finmotorik Övningar',
-    description: 'Skapa professionella hitta föremål-arbetsblad med vår arbetsbladsgenerat or. Din Full Tillgång-prenumeration ger dig obegränsad arbetsbladskapande utan avgifter per arbetsblad. Generera anpassade arbetsblad gratis för utskrift perfekt för förskoleklass material och lågstadieeleverna.',
+    title: 'Gratis Arbetsblad Hitta Föremål | Finmotorik Övningar för Förskoleklass',
+    description: 'Skapa gratis arbetsblad för barn med hitta föremål-aktiviteter. Perfekta finmotorik övningar för förskoleklass. Ladda ner professionella 300 DPI PDF-arbetsblad.',
     keywords: 'hitta föremål arbetsblad, arbetsblad gratis, förskoleklass material, finmotorik övningar, i spy arbetsblad, odd one out, visuell perception, matematik arbetsblad, bokstäver lära sig, siffror och tal',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/hitta-foremal-arbetsblad',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/find-objects/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis arbetsblad hitta föremål för förskoleklass - visuell perception träning',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/find-objects/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Arbetsblad för barn hitta föremål - finmotorik övningar för lågstadiet',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/find-objects/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis utskrifter hitta föremål arbetsblad - visuell diskriminering',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/find-objects/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Arbetsblad för förskoleklass hitta föremål - I Spy aktiviteter',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/find-objects/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis arbetsblad för barn hitta föremål - Odd One Out övningar',
+      },
+    ],
   },
 
   // Hero Section - FULL text from find-objects.md paragraphs 1-4
   hero: {
-    title: 'Hitta Föremål Arbetsblad',
-    subtitle: 'Arbetsblad Gratis för Förskoleklass Material och Finmotorik Övningar',
+    title: 'Gratis Arbetsblad Hitta Föremål',
+    subtitle: 'Arbetsblad för Barn - Förskoleklass Material och Finmotorik Övningar',
     description: `Skapa professionella hitta föremål-arbetsblad med vår arbetsbladsgenerat or. Din Full Tillgång-prenumeration ger dig obegränsad arbetsbladskapande utan avgifter per arbetsblad. Generera anpassade arbetsblad gratis för utskrift perfekt för förskoleklass material och lågstadieeleverna. Ladda ner högkvalitativa PDF-arbetsblad på under 3 minuter.
 
 Våra hitta föremål-arbetsblad utvecklar visuell perception hos barn. Lärare använder dessa arbetsblad gratis som komplement till matematik arbetsblad och bokstäver lära sig-aktiviteter. Varje arbetsblad tränar koncentration och uppmärksamhet. Förskoleklass material som detta stödjer finmotorik övningar genom pek- och markeringsaktiviteter.
@@ -32,7 +64,7 @@ Våra hitta föremål-arbetsblad utvecklar visuell perception hos barn. Lärare 
 Verktyget erbjuder två aktivitetslägen för varierande svårighetsgrad. I Spy-läget hittar barn 1-5 gömda föremål bland 8-12 distraktionsbilder. Odd One Out-läget tränar matchning där elever identifierar 1-3 oparade bilder bland 8-12 par. Båda lägena fungerar utmärkt som förskoleklass material och kompletterar målarbilder barn-aktiviteter. Din prenumeration inkluderar kommersiell licens för försäljning på Teachers Pay Teachers och Etsy.
 
 Generera arbetsblad gratis som kombinerar målarbilder barn med perceptionsträning. Lägg till egna bilder tillsammans med vårt bibliotek på 3000+ bilder. Anpassa sidstorlek, bakgrunder, ramar och text för förskoleklass material. Exportera professionella 300 DPI-arbetsblad som PDF eller JPEG. Arbetsbladen kompletterar matematik arbetsblad, addition och subtraktion-övningar samt bokstärer skriva-lektioner. Full redigerbarhet innebär att du kan dra, rotera och skala varje element. Din Full Tillgång-prenumeration kostar $240/år eller $25/månad och inkluderar alla 33 verktyg.`,
-    previewImageSrc: '/samples/english/find objects/find objects portrait.jpeg',
+    previewImageSrc: '/samples/swedish/find-objects/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Prova Gratis',
       viewSamples: 'Visa Exempel',
@@ -51,9 +83,9 @@ Generera arbetsblad gratis som kombinerar målarbilder barn med perceptionsträn
     },
   },
 
-  // Sample Gallery - REAL file paths from samples/english/find objects/
+  // Sample Gallery - REAL file paths from samples/swedish/find-objects/
   samples: {
-    sectionTitle: 'Hitta Föremål Exempel',
+    sectionTitle: 'Gratis Utskrifter - Hitta Föremål Exempel',
     sectionDescription: 'Ladda ner gratis exempelarbetsblad för att se vår professionella kvalitet',
     downloadLabel: 'Ladda Ner Gratis Exempel',
     worksheetLabel: 'Arbetsblad',
@@ -67,24 +99,45 @@ Generera arbetsblad gratis som kombinerar målarbilder barn med perceptionsträn
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/find objects/find objects portrait.jpeg',
-        answerKeySrc: '/samples/english/find objects/find objects portrait answer_key.jpeg',
-        altText: 'Hitta föremål arbetsblad porträttformat för förskoleklass',
-        pdfDownloadUrl: '/samples/english/find objects/find objects portrait.pdf',
+        worksheetSrc: '/samples/swedish/find-objects/sample-1.jpeg',
+        answerKeySrc: '/samples/swedish/find-objects/sample-1-answer.jpeg',
+        altText: 'Gratis arbetsblad hitta föremål för förskoleklass - visuell perception',
+        pdfDownloadUrl: '/samples/swedish/find-objects/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/find objects/find objects landscape.jpeg',
-        answerKeySrc: '/samples/english/find objects/find objects landscape answer_key.jpeg',
-        altText: 'Hitta föremål arbetsblad landskapsformat för finmotorik övningar',
-        pdfDownloadUrl: '/samples/english/find objects/find objects landscape.pdf',
+        worksheetSrc: '/samples/swedish/find-objects/sample-2.jpeg',
+        answerKeySrc: '/samples/swedish/find-objects/sample-2-answer.jpeg',
+        altText: 'Arbetsblad för barn hitta föremål - finmotorik övningar',
+        pdfDownloadUrl: '/samples/swedish/find-objects/sample-2.pdf',
+      },
+      {
+        id: '3',
+        worksheetSrc: '/samples/swedish/find-objects/sample-3.jpeg',
+        answerKeySrc: '/samples/swedish/find-objects/sample-3-answer.jpeg',
+        altText: 'Gratis utskrifter hitta föremål arbetsblad - visuell diskriminering',
+        pdfDownloadUrl: '/samples/swedish/find-objects/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/swedish/find-objects/sample-4.jpeg',
+        answerKeySrc: '/samples/swedish/find-objects/sample-4-answer.jpeg',
+        altText: 'Arbetsblad för förskoleklass hitta föremål - koncentrationsträning',
+        pdfDownloadUrl: '/samples/swedish/find-objects/sample-4.pdf',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/swedish/find-objects/sample-5.jpeg',
+        answerKeySrc: '/samples/swedish/find-objects/sample-5-answer.jpeg',
+        altText: 'Gratis arbetsblad för barn hitta föremål - uppmärksamhetsträning',
+        pdfDownloadUrl: '/samples/swedish/find-objects/sample-5.pdf',
       },
     ],
   },
 
   // Features Grid - FULL text from find-objects.md feature sections
   features: {
-    sectionTitle: 'Hitta Föremål Funktioner - Arbetsblad Gratis och Förskoleklass Material för Finmotorik Övningar',
+    sectionTitle: 'Gratis Arbetsblad för Barn - Hitta Föremål Funktioner för Förskoleklass Material och Finmotorik Övningar',
     sectionDescription: 'Vår hitta föremål-generator erbjuder professionella funktioner för förskoleklass material och lågstadiet. Verktyget kombinerar arbetsblad gratis-format med pedagogisk kvalitet. Skapa visuella perceptionsarbetsblad som kompletterar matematik arbetsblad och målarbilder barn. Varje funktion är utformad för snabb arbetsbladskapande. Lärare genererar färdiga arbetsblad på under 3 minuter. Verktygen stödjer finmotorik övningar och koncentrationsträning. Din Full Tillgång-prenumeration inkluderar alla funktioner utan extra avgifter.',
     highlightBadgeText: 'Nyckelfunktion',
     readMoreLabel: 'Läs mer',
@@ -164,7 +217,7 @@ Utmärkt för finmotorik övningar som kräver tydliga linjer. Svarta-vita versi
 
   // How-To Guide - FULL text from find-objects.md step sections
   howTo: {
-    sectionTitle: 'Hur Man Skapar Arbetsblad Gratis på 5 Enkla Steg - Förskoleklass Material och Målarbilder Barn',
+    sectionTitle: 'Arbetsblad för Förskoleklass - Hur Man Skapar på 5 Enkla Steg - Gratis Material och Målarbilder Barn',
     sectionDescription: 'Skapa färdiga hitta föremål-arbetsblad på 5 enkla steg. Hela processen tar under 3 minuter från start till nedladdning. Inga designkunskaper krävs för att generera arbetsblad gratis. Välj bilder, anpassa inställningar och ladda ner professionellt material. Perfekt för förskoleklass material som behöver skapas snabbt. Verktyget guidar dig genom varje steg med tydliga instruktioner. Kombinera målarbilder barn med perceptionsträning enkelt. Lärare skapar flera arbetsblad per timme. Alla inställningar är flexibla och anpassningsbara. Generera arbetsblad för matematik arbetsblad-enheter eller fristående aktiviteter. Steg-för-steg-processen fungerar för både nybörjare och erfarna användare.',
     ctaText: 'Börja Skapa Nu',
     badgeText: 'Så Fungerar Det',
@@ -236,7 +289,7 @@ Båda facitformat hjälper lärare rätta snabbt. Spara filer på dator för åt
 
   // Use Cases - FULL text from find-objects.md use case sections
   useCases: {
-    sectionTitle: 'Perfekt för Lärare och Föräldrar - Multiplikationstabellen, Klockan Lära Sig och Målarbilder Barn Material',
+    sectionTitle: 'Gratis Arbetsblad - Perfekt för Lärare och Föräldrar - Multiplikationstabellen, Klockan Lära Sig och Målarbilder Barn Material',
     sectionDescription: 'Hitta föremål-arbetsblad passar många användargrupper inom utbildning och hemundervisning. Förskoleklass-lärare, lågstadielärare, hemundervisningsfamiljer och specialpedagoger använder verktyget dagligen. Varje grupp har unika behov som verktyget adresserar. Visuella perceptionsarbetsblad kompletterar multiplikationstabellen-övningar och klockan lära sig-lektioner. Kombinera med målarbilder barn för varierade aktiviteter. Matematik arbetsblad och finmotorik övningar integreras naturligt. Verktyget stödjer bokstäver lära sig och siffror och tal-undervisning. Addition och subtraktion-koncept förstärks genom visuell diskriminering. Lärare skapar arbetsblad gratis för alla ämnesområden.',
     badgeText: 'Vem Det Är För',
     readMoreLabel: 'Läs mer',
@@ -319,7 +372,7 @@ Säljare genererar 10-20 unika arbetsblad per timme. En mångsidig produktlinje 
 
   // FAQ Section - Selected FAQs from find-objects.md
   faq: {
-    sectionTitle: 'Vanliga Frågor - Addition och Subtraktion, Siffror och Tal samt Matematik Arbetsblad Integration',
+    sectionTitle: 'Arbetsblad för Barn - Vanliga Frågor om Addition och Subtraktion, Siffror och Tal samt Matematik Arbetsblad',
     sectionDescription: 'Lärare ställer ofta frågor om hur hitta föremål-arbetsblad integreras med matematik arbetsblad, addition och subtraktion-övningar och siffror och tal-undervisning. Verktygen är flexibla nog för både perceptionsträning och matematiklektioner. Multiplikationstabellen, klockan lära sig och bokstäver lära sig-aktiviteter skapas enkelt. Förskoleklass material, finmotorik övningar och målarbilder barn genereras samtidigt. Arbetsblad gratis-format innebär inga begränsningar. Nedan besvarar vi de vanligaste frågorna från lärare som använder verktyget dagligen.',
     showMoreText: 'Visa fler frågor',
     showLessText: 'Visa färre',
@@ -402,7 +455,7 @@ Säljare genererar 10-20 unika arbetsblad per timme. En mångsidig produktlinje 
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Kombinera Hitta Föremål med Andra Arbetsblad Gratis - Kompletta Inlärningspaket för Förskoleklass Material',
+    sectionTitle: 'Gratis Utskrifter - Kombinera Hitta Föremål med Andra Arbetsblad - Kompletta Inlärningspaket för Förskoleklass Material',
     sectionDescription: 'Full Tillgång-prenumerationen inkluderar 33 gratis arbetsbladsverktyg. Kombinera hitta föremål med matematik arbetsblad för tematiska paket. Integrera finmotorik övningar med bokstäver lära sig-aktiviteter. Blanda klockan lära sig med visuella sökarbetsblad för tidsundervisning. Skapa förskoleklass material som täcker multipla färdigheter samtidigt. Arbetsblad gratis från olika verktyg kombineras till kompletta lektioner.',
     ctaTitle: 'Redo att Skapa Fantastiska Hitta Föremål-Arbetsblad?',
     ctaDescription: 'Gå med tusentals lärare som skapar professionella arbetsblad. Obegränsad generering, kommersiell licens ingår.',

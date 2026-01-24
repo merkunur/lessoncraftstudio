@@ -19,6 +19,38 @@ export const findAndCountNoContent: ProductPageContent = {
     description: 'Lag profesjonelle finn og tell arbeidsark med vårt enkle verktøy. Generer tilpassede finn og tell arbeidsark perfekte for tall og telling øvelser på småskoletrinnet. Last ned høykvalitets PDF-filer på under 3 minutter.',
     keywords: 'finn og tell arbeidsark, tall og telling, oppgavehefter barn, arbeidsark gratis, matematikk oppgaver, addisjon og subtraksjon, finmotorikk øvelser, småskoletrinnet, fargeleggingsbilder barn, gangetabellen',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/finn-og-tell-arbeidsark',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/norwegian/find-and-count/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis arbeidsark finn og tell - tall og telling oppgaver for barn'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/norwegian/find-and-count/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Finn og tell arbeidsark gratis - oppgavehefter barn for småskoletrinnet'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/norwegian/find-and-count/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Arbeidsark for barn finn og tell - matematikk oppgaver gratis utskrifter'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/norwegian/find-and-count/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis arbeidsark tall og telling - finmotorikk øvelser for barn'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/norwegian/find-and-count/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Finn og tell oppgavehefter barn - arbeidsark gratis å skrive ut'
+      },
+    ],
   },
 
   // Hero Section - FULL text from find-and-count.md paragraphs 1-3
@@ -30,7 +62,7 @@ export const findAndCountNoContent: ProductPageContent = {
 Vårt verktøy for finn og tell arbeidsark gjør det enkelt å lage arbeidsark gratis å skrive ut. Perfekt for lærere på barneskole som trenger finmotorikk øvelser og matematikk oppgaver raskt. Kombiner finn og tell arbeidsark med tall og telling aktiviteter for komplett læring. Hver finn og tell arbeidsark hjelper barn utvikle telleevner og visuell oppmerksomhet.
 
 Grunnpakke-abonnement inkluderer 10 populære arbeidsarkverktøy for bare kr 1 075 per år. Ditt abonnement gir tilgang til ubegrenset laging av finn og tell arbeidsark. Ingen ekstra avgifter per arbeidsark. Lag så mange finn og tell arbeidsark og oppgavehefter barn som elevene dine trenger. Alle finn og tell arbeidsark eksporteres i profesjonell 300 DPI-kvalitet.`,
-    previewImageSrc: '/samples/english/find and count/find and count portrait.jpeg',
+    previewImageSrc: '/samples/norwegian/find-and-count/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Prøv Gratis',
       viewSamples: 'Se Eksempler',
@@ -65,17 +97,38 @@ Grunnpakke-abonnement inkluderer 10 populære arbeidsarkverktøy for bare kr 1 0
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/find and count/find and count portrait.jpeg',
-        answerKeySrc: '/samples/english/find and count/find and count portrait answer_key.jpeg',
-        altText: 'Finn og tell arbeidsark portrettformat med tall og telling øvelser for småskoletrinnet',
-        pdfDownloadUrl: '/samples/english/find and count/find and count portrait.pdf',
+        worksheetSrc: '/samples/norwegian/find-and-count/sample-1.jpeg',
+        answerKeySrc: '/samples/norwegian/find-and-count/sample-1-answer.jpeg',
+        altText: 'Gratis arbeidsark finn og tell - tall og telling oppgaver for barn på småskoletrinnet',
+        pdfDownloadUrl: '/samples/norwegian/find-and-count/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/find and count/find and count landscape.jpeg',
-        answerKeySrc: '/samples/english/find and count/find and count landscape answer_key.jpeg',
-        altText: 'Finn og tell arbeidsark landskapsformat med matematikk oppgaver for oppgavehefter barn',
-        pdfDownloadUrl: '/samples/english/find and count/find and count landscape.pdf',
+        worksheetSrc: '/samples/norwegian/find-and-count/sample-2.jpeg',
+        answerKeySrc: '/samples/norwegian/find-and-count/sample-2-answer.jpeg',
+        altText: 'Finn og tell arbeidsark gratis - oppgavehefter barn med matematikk oppgaver',
+        pdfDownloadUrl: '/samples/norwegian/find-and-count/sample-2.pdf',
+      },
+      {
+        id: '3',
+        worksheetSrc: '/samples/norwegian/find-and-count/sample-3.jpeg',
+        answerKeySrc: '/samples/norwegian/find-and-count/sample-3-answer.jpeg',
+        altText: 'Arbeidsark for barn finn og tell - gratis utskrifter for finmotorikk øvelser',
+        pdfDownloadUrl: '/samples/norwegian/find-and-count/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/norwegian/find-and-count/sample-4.jpeg',
+        answerKeySrc: '/samples/norwegian/find-and-count/sample-4-answer.jpeg',
+        altText: 'Tall og telling arbeidsark gratis - oppgavehefter barn for 1. trinn',
+        pdfDownloadUrl: '/samples/norwegian/find-and-count/sample-4.pdf',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/norwegian/find-and-count/sample-5.jpeg',
+        answerKeySrc: '/samples/norwegian/find-and-count/sample-5-answer.jpeg',
+        altText: 'Finn og tell gratis arbeidsark - matematikk oppgaver for barneskolen',
+        pdfDownloadUrl: '/samples/norwegian/find-and-count/sample-5.pdf',
       },
     ],
   },

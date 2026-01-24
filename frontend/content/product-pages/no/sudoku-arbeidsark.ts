@@ -15,10 +15,36 @@ export const sudokuNoContent: ProductPageContent = {
   seo: {
     slug: 'sudoku-arbeidsark',
     appId: 'sudoku',
-    title: 'Sudoku for Barn - Arbeidsark Gratis for Finmotorikk Øvelser og Matematikk Oppgaver',
-    description: 'Lag profesjonelle sudoku-oppgaver for barn med vår visuellbaserte sudoku-generator. Grunnpakke-abonnementet gir ubegrenset tilgang til sudoku arbeidsark gratis. Last ned høykvalitets PDF-arbeidsark på under 3 minutter.',
+    title: 'Gratis Sudoku Arbeidsark - Generator for Barnehage og 1. Trinn',
+    description: 'Lag gratis sudoku arbeidsark for barn i barnehage og 1. trinn. Gratis utskrifter med 3000+ bilder. Last ned PDF på 3 min.',
     keywords: 'sudoku for barn, arbeidsark gratis, finmotorikk øvelser, matematikk oppgaver, oppgavehefter barn, tall og telling, gangetabellen, fargeleggingsbilder barn, bokstaver lære skrive, lesetrening',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/sudoku-arbeidsark',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/norwegian/sudoku/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis sudoku arbeidsark for barnehage - 4x4 bildesudoku for barn med logiske oppgaver'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/norwegian/sudoku/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis arbeidsark for barn - sudoku med bilder for 1. trinn og finmotorikk øvelser'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/norwegian/sudoku/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Arbeidsark for 1. trinn - gratis sudoku utskrifter med matematikk oppgaver for barn'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/norwegian/sudoku/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis utskrifter sudoku arbeidsark - oppgavehefter barn med tall og telling aktiviteter'
+      },
+    ],
   },
 
   // Hero Section - FULL text from sudoku.md paragraphs 1-3
@@ -30,7 +56,7 @@ export const sudokuNoContent: ProductPageContent = {
 Sudoku for barn er designet spesielt for yngre elever med 4x4 rutenett og fargerike bilder i stedet for tall. Barna lærer logisk tenkning gjennom morsomme visuelt sudoku-spill. Hver oppgave bruker fire unike bilder som barn må plassere slik at hvert bilde vises nøyaktig én gang i hver rad og kolonne.
 
 Velg mellom tre vanskelighetsgrader tilpasset ulike alderstrinn. Lett nivå har 4 tomme celler perfekt for førskolebarn og 1. trinn. Middels nivå med 6 tomme celler passer for 2.-3. trinn. Vanskelig nivå med 8 tomme celler utfordrer eldre barn på småskoletrinnet.`,
-    previewImageSrc: '/samples/english/sudoku/sudoku_easy.jpeg',
+    previewImageSrc: '/samples/norwegian/sudoku/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Prøv Gratis',
       viewSamples: 'Se Eksempler',
@@ -51,8 +77,8 @@ Velg mellom tre vanskelighetsgrader tilpasset ulike alderstrinn. Lett nivå har 
 
   // Sample Gallery - REAL file paths from samples/english/sudoku/
   samples: {
-    sectionTitle: 'Sudoku Arbeidsark Eksempler',
-    sectionDescription: 'Last ned gratis eksempler på arbeidsark for å se vår profesjonelle kvalitet',
+    sectionTitle: 'Gratis Arbeidsark Eksempler - Sudoku for Barn og 1. Trinn',
+    sectionDescription: 'Last ned gratis utskrifter av sudoku-oppgaver. Gratis arbeidsark for barn i barnehage og 1. trinn med profesjonell kvalitet.',
     badgeText: 'Gratis Eksempler',
     downloadLabel: 'Last ned Gratis Eksempel',
     downloadingLabel: 'Laster ned...',
@@ -65,24 +91,31 @@ Velg mellom tre vanskelighetsgrader tilpasset ulike alderstrinn. Lett nivå har 
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/sudoku/sudoku_easy.jpeg',
-        answerKeySrc: '/samples/english/sudoku/sudoku_easy answer_key.jpeg',
-        altText: 'Sudoku lett nivå med 4 tomme celler perfekt for førskolebarn',
-        pdfDownloadUrl: '/samples/english/sudoku/sudoku_easy.pdf',
+        worksheetSrc: '/samples/norwegian/sudoku/sample-1.jpeg',
+        answerKeySrc: '/samples/norwegian/sudoku/sample-1-answer.jpeg',
+        altText: 'Gratis sudoku arbeidsark for barn - 4x4 bildesudoku for barnehage og 1. trinn',
+        pdfDownloadUrl: '/samples/norwegian/sudoku/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/sudoku/sudoku medium.jpeg',
-        answerKeySrc: '/samples/english/sudoku/sudoku medium answer_key.jpeg',
-        altText: 'Sudoku middels nivå med 6 tomme celler for 2.-3. trinn',
-        pdfDownloadUrl: '/samples/english/sudoku/sudoku medium.pdf',
+        worksheetSrc: '/samples/norwegian/sudoku/sample-2.jpeg',
+        answerKeySrc: '/samples/norwegian/sudoku/sample-2-answer.jpeg',
+        altText: 'Gratis arbeidsark sudoku med bilder - arbeidsark for barn til matematikk oppgaver',
+        pdfDownloadUrl: '/samples/norwegian/sudoku/sample-2.pdf',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/sudoku/sudoku hard.jpeg',
-        answerKeySrc: '/samples/english/sudoku/sudoku hard answer_key.jpeg',
-        altText: 'Sudoku vanskelig nivå med 8 tomme celler for småskoletrinnet',
-        pdfDownloadUrl: '/samples/english/sudoku/sudoku hard.pdf',
+        worksheetSrc: '/samples/norwegian/sudoku/sample-3.jpeg',
+        answerKeySrc: '/samples/norwegian/sudoku/sample-3-answer.jpeg',
+        altText: 'Arbeidsark for 1. trinn - gratis sudoku utskrifter med logiske oppgaver',
+        pdfDownloadUrl: '/samples/norwegian/sudoku/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/norwegian/sudoku/sample-4.jpeg',
+        answerKeySrc: '/samples/norwegian/sudoku/sample-4-answer.jpeg',
+        altText: 'Gratis utskrifter sudoku arbeidsark - arbeidsark for barn med finmotorikk øvelser',
+        pdfDownloadUrl: '/samples/norwegian/sudoku/sample-4.pdf',
       },
     ],
   },

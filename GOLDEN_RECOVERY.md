@@ -1,79 +1,180 @@
-# GOLDEN BACKUP v1.0.9 - DISASTER RECOVERY GUIDE
+# GOLDEN BACKUP v2.2.0 - DISASTER RECOVERY GUIDE
 
 ## 🔒 CRITICAL INFORMATION - ENGRAVE THIS INTO MEMORY
 
-**Golden Backup Location:** `/opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.9/`
+**Golden Backup Location:** `/opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v2.2.0/`
 
-**Git Commit:** `90fd705315c9e9bb0bb208fe100c30077beb40c6`
+**Git Tag:** `v2.2.0-GOLDEN`
 
-**Git Tag:** `v1.0.9-GOLDEN`
+**Git Commit:** `503fc29`
 
-**Date Created:** October 15, 2025
+**Date Created:** October 22, 2025
 
 **This is a STABLE, FULLY FUNCTIONAL version** with:
+- ✅ **28 WORKSHEET GENERATORS WITH MODERN UNIFIED HEADERS**
 - ✅ All CSS and JavaScript working correctly
+- ✅ Purple gradient modern header with zoom controls, undo/redo, and action buttons
+- ✅ All latest fixes and enhancements from v1.6.0 through v2.1.0 merged
+- ✅ **BINGO APP FIX:** Download file matches screenshot (objectCaching: false)
+- ✅ **ADDITION APP:** Find Addend mode + child-friendly signs + mode descriptions (v2.1.0)
+- ✅ **SUBTRACTION APP:** Professional spacing + mode descriptions (v2.1.0)
+- ✅ **FIND OBJECTS APP:** I spy constraints + Odd One Out selection (v1.9.0)
+- ✅ **PICTURE PATH APP:** All critical bug fixes + modern header
+- ✅ **PATTERN TRAIN APP:** Latest deployed version with all fixes
+- ✅ **MORE LESS APP:** Latest deployed version with all fixes
+- ✅ Complete 6-feature modern implementation across all apps
+- ✅ Universal undo/redo system with keyboard shortcuts
+- ✅ Zoom controls (25%-300%) across all worksheet generators
+- ✅ Enhanced layer management (4-button controls)
+- ✅ Border/background editability
+- ✅ Complete translation system for all apps
 - ✅ Prisma singleton fix (prevents deleted images from reappearing)
 - ✅ Image library fully functional (add, edit, delete, translate)
 - ✅ Blog content manager with full authentication system
-- ✅ Blog posts displaying on frontend with categories
-- ✅ SEO automation fully functional (meta tags, Open Graph, Schema.org)
-- ✅ Deployment script and documentation in place
-- ✅ All worksheet generators working
-- ✅ Content manager v2 fully operational
-- ✅ Admin user control with refund functionality (Credit Notes API)
-- ✅ Account reactivation for suspended users
-- ✅ Apps tier-based access control properly working
-- ✅ Auth context properly merging subscription data
-- ✅ Apps page differentiates between unauthenticated users and users with insufficient tier
-- ✅ Sign-in required message for guests trying to access apps
-- ✅ Multi-language support for sign-in messages (11 languages)
-- ✅ Print Regular lowercase letters with consistent stroke thickness
-- ✅ Transparent background and proper viewBox padding for Print Regular lowercase SVG letters
-- ✅ Inner counters preserved in letters with holes (a, b, d, e, g, o, p, q)
-- ✅ Cursive lowercase beginning letters height increased by 12%
-- ✅ Cursive custom text moved downward by 12%
-- ✅ All cursive uppercase letters height decreased by 7%
+- ✅ Multi-language support (11 languages) for all UI elements
 - ✅ Email notification system with Resend SMTP
-- ✅ Support ticket response emails sent to users
-- ✅ Email configuration with verified domain (onboarding@resend.dev)
-- ✅ Support ticket delete functionality (UI + Database)
-- ✅ Confirmation dialog for ticket deletion
-- ✅ Toast notifications for delete operations
-- ✅ **NEW:** Wordsearch app scrollbar fix - no page scrollbar or movement when opening accordions
-- ✅ **NEW:** Wordsearch app zoom in/out feature with controls (25%-300% zoom range)
-- ✅ **NEW:** Full multilingual support for AppCard upgrade lock badge (11 languages)
-- ✅ **NEW:** Full multilingual support for app paywall page (AutoLaunchApp.tsx - 11 languages)
-- ✅ **NEW:** Naturally-written text in all supported languages (not just translated)
+- ✅ Support ticket system with response emails
 
 ---
 
 ## 📦 Backup Contents
 
-### 1. Git Tag: `v1.0.9-GOLDEN`
-- **Purpose:** Marks the exact code state in git history
-- **Commit Hash:** `90fd705315c9e9bb0bb208fe100c30077beb40c6`
+### 1. Git Tag: `v2.2.0-GOLDEN`
+- **Purpose:** Marks the exact code state in git history with ALL modern headers
 - **Location:** Local git repository at `/opt/lessoncraftstudio/.git`
-- **Verification:** `cd /opt/lessoncraftstudio && git tag | grep v1.0.9-GOLDEN`
+- **Verification:** `cd /opt/lessoncraftstudio && git tag | grep v2.2.0-GOLDEN`
 
 ### 2. Database Backup
-- **File:** `/opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.9/database_GOLDEN_2025-10-15.backup`
-- **Size:** 954 KB
+- **File:** `/opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v2.2.0/database_GOLDEN_2025-10-22.backup`
 - **Format:** PostgreSQL custom format (compressed, complete)
+- **Size:** 154KB
 - **Database:** `lessoncraftstudio_prod`
 - **Includes:** All tables, users, subscriptions, payments, blog posts, support tickets, sequences, constraints, indexes
 
 ### 3. Public Files Backup
-- **File:** `/opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.9/public_files_GOLDEN_2025-10-15.tar.gz`
-- **Size:** 145 MB
+- **File:** `/opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v2.2.0/public_files_GOLDEN_2025-10-22.tar.gz`
+- **Size:** 288MB
 - **Contents:**
   - `public/uploads/` - User uploaded files
   - `public/worksheet-samples/` - Worksheet sample PDFs
-  - `public/images/` - Image library (borders, backgrounds, themes, train-templates, worksheet-templates)
-  - `public/images/alphabetsvg/print/regular/lowercase/` - Fixed SVG letters with transparent backgrounds and proper counters
+  - `public/images/` - Image library (borders, backgrounds, themes)
   - `public/worksheet-images/` - Worksheet-specific images
   - `public/blog/` - Blog images, PDFs, and thumbnails
-  - `public/worksheet-generators/` - HTML worksheet generator files (including updated wordsearch.html with scrollbar fix and zoom feature)
-  - `public/data/` - Blog categories JSON file
+  - `public/worksheet-generators/` - **ALL 28 APPS WITH MODERN HEADERS:**
+
+---
+
+## 📋 ALL 28 APPS WITH MODERN UNIFIED HEADERS
+
+Each app has the purple gradient header with:
+- Zoom controls (zoom in, zoom out, reset, percentage display)
+- Undo/Redo buttons with keyboard shortcuts
+- Generate dropdown (New Worksheet, Answer Key)
+- Download dropdown (JPEG, PDF, Grayscale option)
+- Clear All button
+
+### Complete List (Alphabetically):
+
+1. **addition.html** (178KB) - **v2.1.0 ENHANCEMENTS**
+   - Find Addend mode (A + ? = C)
+   - Child-friendly circular plus signs (green)
+   - Child-friendly circular equals signs (blue)
+   - Mode-specific descriptions in 11 languages
+
+2. **alphabet train.html** (171KB)
+   - Modern header with full controls
+
+3. **big small.html** (170KB)
+   - Modern header with undo/redo and zoom
+
+4. **chart count.html** (156KB)
+   - Modern header with all features
+
+5. **code addition.html** (162KB)
+   - Modern header with full controls
+
+6. **coloring.html** (99KB)
+   - Modern header with zoom and undo
+
+7. **crossword.html** (133KB)
+   - Modern header with all features
+
+8. **cryptogram.html** (135KB)
+   - Modern header with full controls
+
+9. **draw and color.html** (133KB)
+   - Modern header with zoom and undo
+
+10. **drawing lines.html** (139KB)
+    - Modern header with all features
+
+11. **find and count.html** (176KB)
+    - Modern header with full controls
+
+12. **find objects.html** (206KB) - **v1.9.0 ENHANCEMENTS**
+    - I spy mode with angle variation and adjacency constraints
+    - Odd One Out individual image selection
+    - Modern header with all features
+
+13. **grid match.html** (162KB)
+    - Modern header with full controls
+
+14. **matching.html** (157KB)
+    - Modern header with zoom and undo
+
+15. **math puzzle.html** (150KB)
+    - Modern header with all features
+
+16. **math worksheet.html** (189KB)
+    - Modern header with undo/redo duplication fix
+
+17. **missing pieces.html** (170KB)
+    - Modern header with full controls
+
+18. **more less.html** (176KB) - **LATEST DEPLOYED VERSION**
+    - Modern header with all latest fixes
+
+19. **odd one out.html** (170KB)
+    - Modern header with full controls
+
+20. **pattern train.html** (171KB) - **LATEST DEPLOYED VERSION**
+    - Modern header with all latest fixes
+
+21. **pattern worksheet.html** (177KB)
+    - Modern header with full controls
+
+22. **picture path.html** (279KB) - **LATEST WITH BUG FIXES**
+    - Classic Maze mode
+    - Choose the Right Path mode
+    - All critical bugs fixed (answer key paths, real-time walls)
+    - Modern header with full controls
+
+23. **prepositions.html** (183KB)
+    - Modern header with all features
+    - Multiple choice mode
+
+24. **shadow match.html** (148KB)
+    - Modern header with full controls
+
+25. **subtraction.html** (186KB) - **v2.1.0 ENHANCEMENTS**
+    - Professional spacing (even distribution algorithm)
+    - Mode-specific descriptions in 11 languages
+    - Modern header with all features
+
+26. **treasure hunt.html** (141KB)
+    - Modern header with full controls
+
+27. **word guess.html** (145KB)
+    - Modern header with all features
+
+28. **word scramble.html** (147KB)
+    - Modern header with undo/redo bugfix
+
+### Apps WITHOUT Modern Headers (Not Included):
+- bingo.html - **HAS LATEST FIX** (objectCaching: false for download matching) but no modern header
+- sudoku.html - Old header style
+- wordsearch.html - Old header style
+- picture sort.html - Old header style
 
 ---
 
@@ -85,17 +186,10 @@ Use the golden backup when:
 3. Critical files are accidentally deleted
 4. Need to rollback to a known-good state
 5. Deployment goes wrong and website is broken
-6. Blog system stops working
-7. Payment/refund system breaks
-8. User authentication issues occur
-9. Apps access control fails
-10. Sign-in/authentication flow is broken
-11. Writing worksheet generator stops working properly
-12. SVG letters display incorrectly
-13. Email notification system fails
-14. Support ticket system stops working
-15. Wordsearch app has scrollbar or layout issues
-16. Wordsearch app zoom feature stops working
+6. Any worksheet generator stops working properly
+7. Modern headers disappear from apps
+8. Bingo download fix is lost
+9. Addition/Subtraction enhancements are broken
 
 **DO NOT** use this backup for minor issues - try fixing first!
 
@@ -113,13 +207,7 @@ pm2 status lessoncraftstudio
 PGPASSWORD=LcS2025SecureDBPass psql -U lcs_user -d lessoncraftstudio_prod -c "SELECT COUNT(*) FROM users;"
 
 # Check if files exist
-ls -lh /opt/lessoncraftstudio/frontend/public/images/
-ls -lh /opt/lessoncraftstudio/frontend/public/blog/
-ls -lh /opt/lessoncraftstudio/frontend/public/images/alphabetsvg/print/regular/lowercase/
-ls -lh /opt/lessoncraftstudio/frontend/public/worksheet-generators/wordsearch.html
-
-# Check email configuration
-cd /opt/lessoncraftstudio/frontend && grep -E '^(EMAIL_|SMTP_)' .env.production | grep -v PASSWORD
+ls -lh /opt/lessoncraftstudio/frontend/public/worksheet-generators/addition.html
 ```
 
 ### Step 2: Stop the Application
@@ -137,14 +225,11 @@ cd /opt/lessoncraftstudio
 git branch backup-before-recovery-$(date +%Y%m%d-%H%M%S)
 
 # Checkout the golden tag
-git checkout v1.0.9-GOLDEN
+git checkout v2.2.0-GOLDEN
 
 # Verify we're on the right version
 git describe --tags
-# Should output: v1.0.9-GOLDEN
-
-# If tag doesn't exist, checkout by commit hash
-git checkout 90fd705315c9e9bb0bb208fe100c30077beb40c6
+# Should output: v2.2.0-GOLDEN
 ```
 
 ### Step 4: Restore Database (if needed)
@@ -157,14 +242,10 @@ PGPASSWORD=LcS2025SecureDBPass dropdb -U lcs_user lessoncraftstudio_prod
 PGPASSWORD=LcS2025SecureDBPass createdb -U lcs_user lessoncraftstudio_prod
 
 # 2. Restore from backup
-PGPASSWORD=LcS2025SecureDBPass pg_restore -U lcs_user -d lessoncraftstudio_prod -v /opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.9/database_GOLDEN_2025-10-15.backup
+PGPASSWORD=LcS2025SecureDBPass pg_restore -U lcs_user -d lessoncraftstudio_prod -v /opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v2.2.0/database_GOLDEN_2025-10-22.backup
 
 # 3. Verify restoration
-PGPASSWORD=LcS2025SecureDBPass psql -U lcs_user -d lessoncraftstudio_prod -c "SELECT COUNT(*) FROM image_library_items;"
-PGPASSWORD=LcS2025SecureDBPass psql -U lcs_user -d lessoncraftstudio_prod -c "SELECT COUNT(*) FROM blog_posts;"
-PGPASSWORD=LcS2025SecureDBPass psql -U lcs_user -d lessoncraftstudio_prod -c "SELECT COUNT(*) FROM payments;"
-PGPASSWORD=LcS2025SecureDBPass psql -U lcs_user -d lessoncraftstudio_prod -c "SELECT COUNT(*) FROM subscriptions;"
-PGPASSWORD=LcS2025SecureDBPass psql -U lcs_user -d lessoncraftstudio_prod -c "SELECT COUNT(*) FROM support_tickets;"
+PGPASSWORD=LcS2025SecureDBPass psql -U lcs_user -d lessoncraftstudio_prod -c "SELECT COUNT(*) FROM users;"
 ```
 
 ### Step 5: Restore Public Files (if needed)
@@ -178,54 +259,28 @@ cd /opt/lessoncraftstudio/frontend
 mv public public.backup-$(date +%Y%m%d-%H%M%S)
 
 # 2. Extract golden backup
-tar -xzf /opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.9/public_files_GOLDEN_2025-10-15.tar.gz
+tar -xzf /opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v2.2.0/public_files_GOLDEN_2025-10-22.tar.gz
 
 # 3. Verify extraction
-ls -lh public/images/
-ls -lh public/blog/
-ls -lh public/worksheet-generators/
-ls -lh public/images/alphabetsvg/print/regular/lowercase/
-ls -lh public/data/blog-categories.json
-ls -lh public/worksheet-generators/wordsearch.html
+ls -lh public/worksheet-generators/addition.html
+grep -l 'MODERN UNIFIED HEADER' public/worksheet-generators/*.html | wc -l
+# Should output: 28
 ```
 
-### Step 6: Restore Environment Variables (if needed)
-
-**⚠️ IMPORTANT:** Email system requires correct environment variables!
+### Step 6: Rebuild and Deploy
 
 ```bash
 cd /opt/lessoncraftstudio/frontend
 
-# Verify email configuration in .env.production
-grep -E '^(EMAIL_|SMTP_)' .env.production
-
-# Should include:
-# EMAIL_PROVIDER=smtp
-# SMTP_FROM_EMAIL=onboarding@resend.dev
-# SMTP_FROM_NAME=LessonCraft Studio
-# SMTP_HOST=smtp.resend.com
-# SMTP_PORT=587
-# SMTP_SECURE=false
-# SMTP_USER=resend
-# SMTP_PASSWORD=re_QDW...HNvB (your actual API key)
-# EMAIL_FROM=onboarding@resend.dev
-# EMAIL_REPLY_TO=support@lessoncraftstudio.com
-```
-
-### Step 7: Rebuild and Deploy
-
-```bash
-cd /opt/lessoncraftstudio/frontend
-
-# Install dependencies (in case package.json changed)
+# Install dependencies
 npm install
 
-# Run the deployment script (includes build + static file copy)
+# Run the deployment script
 cd /opt/lessoncraftstudio
 bash deploy.sh
 ```
 
-### Step 8: Verify Recovery
+### Step 7: Verify Recovery
 
 ```bash
 # 1. Check PM2 status
@@ -235,61 +290,13 @@ pm2 status lessoncraftstudio
 sleep 5
 curl -I http://localhost:3000
 
-# 3. Check CSS/JS are loading
-curl -s http://localhost:3000 | grep -E '<link|<script' | head -5
+# 3. Check worksheet generators
+curl -I http://localhost:3000/worksheet-generators/addition.html
 
-# 4. Check database connection
-PGPASSWORD=LcS2025SecureDBPass psql -U lcs_user -d lessoncraftstudio_prod -c "SELECT COUNT(*) FROM image_themes;"
-
-# 5. Check blog posts
-PGPASSWORD=LcS2025SecureDBPass psql -U lcs_user -d lessoncraftstudio_prod -c "SELECT slug, status FROM blog_posts LIMIT 3;"
-
-# 6. Check blog categories API
-curl -s http://localhost:3000/api/blog/categories?locale=en | head -100
-
-# 7. Check payments and subscriptions
-PGPASSWORD=LcS2025SecureDBPass psql -U lcs_user -d lessoncraftstudio_prod -c "SELECT status, COUNT(*) FROM payments GROUP BY status;"
-
-# 8. Check support tickets
-PGPASSWORD=LcS2025SecureDBPass psql -U lcs_user -d lessoncraftstudio_prod -c "SELECT COUNT(*) FROM support_tickets;"
-
-# 9. Check email configuration
-pm2 logs lessoncraftstudio --lines 30 | grep -i "email\|smtp"
-
-# 10. Check wordsearch generator
-curl -I http://localhost:3000/worksheet-generators/wordsearch.html
+# 4. Verify modern headers
+grep -l 'MODERN UNIFIED HEADER' /opt/lessoncraftstudio/frontend/.next/standalone/public/worksheet-generators/*.html | wc -l
+# Should output: 28
 ```
-
-### Step 9: Verify Website Functionality
-
-Open the website and test:
-1. ✅ Homepage loads with CSS/JavaScript
-2. ✅ Login works
-3. ✅ Content manager loads
-4. ✅ Image library shows images
-5. ✅ Can add/edit/delete images
-6. ✅ Worksheet generators work
-7. ✅ Blog listing page shows posts
-8. ✅ Blog content manager loads with authentication
-9. ✅ Can create/edit blog posts
-10. ✅ SEO metadata appears on blog posts
-11. ✅ Translations display correctly
-12. ✅ Admin user control panel works
-13. ✅ Payment refund functionality works
-14. ✅ Account reactivation works for suspended users
-15. ✅ Apps page respects tier-based access control
-16. ✅ Unauthenticated users see "Sign In Required" message
-17. ✅ Authenticated users with insufficient tier see "Upgrade Required"
-18. ✅ Writing worksheet generator displays correctly
-19. ✅ Print Regular lowercase letters display with transparent backgrounds
-20. ✅ Cursive letters have correct height adjustments
-21. ✅ Support tickets can be created, viewed, responded to, and deleted
-22. ✅ Email notifications are sent when tickets are responded to
-23. ✅ Admin can delete support tickets from dashboard
-24. ✅ Wordsearch app has no scrollbar on right side
-25. ✅ Wordsearch app accordions don't cause page movement
-26. ✅ Wordsearch app zoom controls work (zoom in, zoom out, reset)
-27. ✅ Wordsearch app zoom percentage displays correctly
 
 ---
 
@@ -303,17 +310,17 @@ pm2 stop lessoncraftstudio
 
 # Restore code
 cd /opt/lessoncraftstudio
-git checkout v1.0.9-GOLDEN
+git checkout v2.2.0-GOLDEN
 
 # Restore database
 PGPASSWORD=LcS2025SecureDBPass dropdb -U lcs_user lessoncraftstudio_prod
 PGPASSWORD=LcS2025SecureDBPass createdb -U lcs_user lessoncraftstudio_prod
-PGPASSWORD=LcS2025SecureDBPass pg_restore -U lcs_user -d lessoncraftstudio_prod -v /opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.9/database_GOLDEN_2025-10-15.backup
+PGPASSWORD=LcS2025SecureDBPass pg_restore -U lcs_user -d lessoncraftstudio_prod -v /opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v2.2.0/database_GOLDEN_2025-10-22.backup
 
 # Restore files
 cd /opt/lessoncraftstudio/frontend
 mv public public.backup-$(date +%Y%m%d-%H%M%S)
-tar -xzf /opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.9/public_files_GOLDEN_2025-10-15.tar.gz
+tar -xzf /opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v2.2.0/public_files_GOLDEN_2025-10-22.tar.gz
 
 # Rebuild and restart
 cd /opt/lessoncraftstudio
@@ -325,75 +332,9 @@ bash deploy.sh
 ```bash
 cd /opt/lessoncraftstudio
 pm2 stop lessoncraftstudio
-git checkout v1.0.9-GOLDEN
+git checkout v2.2.0-GOLDEN
 bash deploy.sh
 ```
-
-### Database-Only Recovery
-
-```bash
-PGPASSWORD=LcS2025SecureDBPass dropdb -U lcs_user lessoncraftstudio_prod
-PGPASSWORD=LcS2025SecureDBPass createdb -U lcs_user lessoncraftstudio_prod
-PGPASSWORD=LcS2025SecureDBPass pg_restore -U lcs_user -d lessoncraftstudio_prod -v /opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.9/database_GOLDEN_2025-10-15.backup
-pm2 restart lessoncraftstudio
-```
-
-### Files-Only Recovery
-
-```bash
-cd /opt/lessoncraftstudio/frontend
-mv public public.backup-$(date +%Y%m%d-%H%M%S)
-tar -xzf /opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.9/public_files_GOLDEN_2025-10-15.tar.gz
-cd /opt/lessoncraftstudio
-bash deploy.sh
-```
-
----
-
-## 🔍 VERIFICATION CHECKLIST
-
-After recovery, verify:
-
-- [ ] PM2 shows application as "online"
-- [ ] Website loads at http://localhost:3000
-- [ ] CSS and JavaScript are working
-- [ ] Homepage displays correctly
-- [ ] Login works
-- [ ] Content Manager v2 loads
-- [ ] Image library shows themes and images
-- [ ] Can delete images (they stay deleted after "Save All Changes")
-- [ ] Blog listing page shows posts
-- [ ] Blog content manager loads with login overlay
-- [ ] Can authenticate to blog content manager
-- [ ] Blog categories load without errors
-- [ ] SEO metadata appears on blog posts (meta tags, Open Graph, Schema.org)
-- [ ] Translations work correctly
-- [ ] Worksheet generators load
-- [ ] Writing worksheet generator displays correctly
-- [ ] Print Regular lowercase letters have transparent backgrounds
-- [ ] Letters with holes (a, b, d, e, g, o, p, q) display properly
-- [ ] Cursive lowercase beginning letters have correct height
-- [ ] Cursive custom text positioned correctly
-- [ ] Cursive uppercase letters have correct height reduction
-- [ ] Admin user control panel accessible
-- [ ] Payment refund functionality works (including Credit Notes)
-- [ ] Account reactivation button appears for suspended users
-- [ ] Apps page shows correct tier-based access
-- [ ] Unauthenticated users see "Sign In Required" on apps
-- [ ] Authenticated users with insufficient tier see "Upgrade Required"
-- [ ] User subscription tier displayed correctly after admin upgrade
-- [ ] Support tickets page loads in admin dashboard
-- [ ] Can view, respond to, and delete support tickets
-- [ ] Email notifications are sent for ticket responses (check logs)
-- [ ] Email configuration shows "smtp" mode (not "console")
-- [ ] Wordsearch app opens without scrollbar on right side
-- [ ] Wordsearch app accordion menus don't cause page to shift
-- [ ] Wordsearch zoom controls appear in top-right corner
-- [ ] Wordsearch zoom in button increases canvas size
-- [ ] Wordsearch zoom out button decreases canvas size
-- [ ] Wordsearch zoom reset button returns to 100%
-- [ ] Wordsearch zoom percentage displays current zoom level
-- [ ] Database queries work: `PGPASSWORD=LcS2025SecureDBPass psql -U lcs_user -d lessoncraftstudio_prod -c "SELECT COUNT(*) FROM image_library_items;"`
 
 ---
 
@@ -401,27 +342,20 @@ After recovery, verify:
 
 **Primary Backup Directory:**
 ```
-/opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.9/
+/opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v2.2.0/
 ```
 
 **Backup Files:**
-1. `database_GOLDEN_2025-10-15.backup` (PostgreSQL dump - 954 KB)
-2. `public_files_GOLDEN_2025-10-15.tar.gz` (Compressed public files - 145 MB)
+1. `database_GOLDEN_2025-10-22.backup` (PostgreSQL dump - 154KB)
+2. `public_files_GOLDEN_2025-10-22.tar.gz` (Compressed public files - 288MB)
 
 **Git Tag:**
 ```bash
-cd /opt/lessoncraftstudio && git show v1.0.9-GOLDEN
-```
-
-**Git Commit:**
-```bash
-cd /opt/lessoncraftstudio && git show 90fd705315c9e9bb0bb208fe100c30077beb40c6
+cd /opt/lessoncraftstudio && git show v2.2.0-GOLDEN
 ```
 
 **Recovery Documentation:**
 - This file: `/opt/lessoncraftstudio/GOLDEN_RECOVERY.md`
-- Deployment guide: `/opt/lessoncraftstudio/DEPLOYMENT.md`
-- Deployment script: `/opt/lessoncraftstudio/deploy.sh`
 
 ---
 
@@ -430,39 +364,83 @@ cd /opt/lessoncraftstudio && git show 90fd705315c9e9bb0bb208fe100c30077beb40c6
 To prevent accidentally overwriting this backup:
 
 ```bash
-# Make backup directory read-only
-chmod -R 555 /opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.9/
+# Backup directory is already read-only (chmod 555)
+ls -ld /opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v2.2.0/
+# Output: dr-xr-xr-x (read-only)
 
 # To restore write access (if needed for deletion):
-# chmod -R 755 /opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.9/
+# chmod -R 755 /opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v2.2.0/
 ```
 
 ---
 
-## 💡 IMPORTANT NOTES
+## 🆕 CHANGES IN v2.2.0 (from v2.1.0)
 
-1. **Git Tag is Immutable:** The `v1.0.8-GOLDEN` tag will always point to this exact code state
-2. **Backup is Complete:** Includes EVERYTHING needed to restore to this exact state
-3. **Database Password:** Always in environment or use `PGPASSWORD=LcS2025SecureDBPass`
-4. **Standalone Mode:** Remember to copy static files after build (handled by deploy.sh)
-5. **Multiple Backups:** Keep this backup, create new ones for future stable versions
-6. **Blog Categories:** The blog-categories.json file is essential for blog page to work
-7. **Authentication:** Blog content manager requires proper authentication with accessToken
-8. **Payment System:** Stripe Credit Notes API is used for refunding invoices without charges
-9. **Subscription Data:** Auth context properly merges subscription data into user object
-10. **Messages Directory:** Must be copied to standalone directory for i18n to work
-11. **Apps Access Control:** Now properly differentiates between guests and authenticated users
-12. **SVG Files:** Print Regular lowercase letters have transparent backgrounds with proper viewBox padding
-13. **Inner Counters:** Letters with holes (a, b, d, e, g, o, p, q) have white fill for inner counters
-14. **Cursive Adjustments:** Multiple height and position adjustments applied to cursive fonts
-15. **Email System:** Uses Resend SMTP with verified domain (onboarding@resend.dev)
-16. **Email Environment:** EMAIL_PROVIDER must be "smtp" in .env.production (not "console")
-17. **Next.js Standalone:** Environment variables are baked at build time - rebuild after changes
-18. **Support Tickets:** Includes complete CRUD functionality with email notifications
-19. **Wordsearch HTML Tag:** Added `html { overflow: hidden; height: 100%; }` to prevent scrollbar
-20. **Wordsearch Zoom:** User zoom level multiplies display dimensions, range 25%-300% in 25% steps
-21. **Multilingual UI:** AppCard and AutoLaunchApp components now have naturally-written text in all 11 languages
-22. **Translation Quality:** Text is written naturally in each language, not just translated word-for-word
+**STATUS: STABLE - COMPLETE RESTORATION WITH ALL MODERN HEADERS**
+
+This version represents the **complete recovery** of all 28 worksheet generators with modern headers, combining the best of all previous versions:
+
+### What Was Restored:
+
+**Base (v1.6.0):** 28 apps with modern unified headers
+- Purple gradient header design
+- Zoom controls (in/out/reset/percentage)
+- Undo/Redo with keyboard shortcuts
+- Generate dropdown menu
+- Download dropdown with JPEG/PDF options
+- Clear All button
+
+**Updates Applied:**
+
+1. **Picture Path (Latest)** - Merged bug fixes with modern header
+   - All critical bugs fixed (answer key paths through walls, etc.)
+   - Modern header preserved
+
+2. **Find Objects (v1.9.0)** - I spy + Odd One Out enhancements
+   - Angle variation and adjacency constraints
+   - Individual image selection for Odd One Out
+
+3. **Addition (v2.1.0)** - Latest professional enhancements
+   - Find Addend mode (A + ? = C)
+   - Child-friendly circular signs
+   - Mode-specific descriptions (11 languages)
+
+4. **Subtraction (v2.1.0)** - Latest professional enhancements
+   - Even distribution spacing algorithm
+   - Mode-specific descriptions (11 languages)
+
+5. **Bingo** - Download fix restored
+   - objectCaching: false (fixes download/screenshot mismatch)
+
+6. **Pattern Train, More Less, Sudoku** - Latest deployed versions
+   - All recent fixes preserved
+
+### Key Improvements Over v2.1.0:
+
+- ✅ **28 apps now in git** (v2.1.0 only had 3)
+- ✅ **All modern headers preserved** (v2.1.0 lost them during deploy)
+- ✅ **Bingo download fix** included
+- ✅ **All latest updates** from every version merged correctly
+- ✅ **Properly committed to git** (won't be lost again)
+- ✅ **288MB backup** with all files (v2.1.0 was only 151MB)
+
+---
+
+## 📝 PREVIOUS GOLDEN BACKUPS
+
+**Historical Backups (Keep All):**
+- **v2.2.0-GOLDEN**: `/opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v2.2.0/` (October 22, 2025) - **CURRENT** - 28 apps with modern headers
+- **v2.1.0-GOLDEN**: `/opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v2.1.0/` (October 21, 2025) - Addition & Subtraction enhancements (only 3 apps)
+- **v2.0.0-GOLDEN**: `/opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v2.0.0/` (October 21, 2025) - Stable checkpoint (1 app)
+- **v1.9.0-GOLDEN**: `/opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.9.0/` (October 21, 2025) - Find Objects enhancements (19 apps)
+- **v1.7.0-GOLDEN**: `/opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.7.0/` (October 21, 2025) - Picture Path bug fixes (18 apps)
+- **v1.6.0-GOLDEN**: `/opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.6.0/` (October 19, 2025) - Original modernization (29 apps)
+
+**Why v2.2.0 is the GOLDEN standard:**
+- Most complete set of modern headers (28 apps)
+- All latest fixes and enhancements merged
+- Everything properly committed to git
+- Won't be lost during deployment
 
 ---
 
@@ -470,90 +448,21 @@ chmod -R 555 /opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.9/
 
 When creating new golden backups:
 
-1. Choose a new version number (e.g., v1.0.10-GOLDEN, v1.1.0-GOLDEN)
-2. Create new directory: `/opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.10/`
-3. Follow same backup procedure
-4. Update this document for the new location
-5. **Keep old backups!** Don't delete previous golden backups (v1.0.3, v1.0.4, v1.0.5, v1.0.6, v1.0.7, v1.0.8, v1.0.9, etc.)
+1. **Commit to git FIRST** - Never skip this!
+2. Create git tag: `git tag -a vX.X.X-GOLDEN -m "Description"`
+3. Create backup directory: `mkdir -p /opt/lessoncraftstudio/backups/GOLDEN_BACKUP_vX.X.X/`
+4. Backup public files: `tar -czf public_files_GOLDEN_DATE.tar.gz public/`
+5. Backup database: `pg_dump -F c -f database_GOLDEN_DATE.backup`
+6. Set read-only: `chmod -R 555 /opt/lessoncraftstudio/backups/GOLDEN_BACKUP_vX.X.X/`
+7. Update this document
+8. **Verify backup** by extracting and checking files
+9. **Keep old backups!** Don't delete previous golden backups
 
 ---
 
-## 📞 EMERGENCY CONTACT
-
-If recovery fails or you need help:
-
-1. Check `/opt/lessoncraftstudio/DEPLOYMENT.md` for deployment issues
-2. Check PM2 logs: `pm2 logs lessoncraftstudio`
-3. Check application logs: `cd /opt/lessoncraftstudio/frontend && tail -100 .next/standalone/output.log`
-4. Check database connection: `PGPASSWORD=LcS2025SecureDBPass psql -U lcs_user -d lessoncraftstudio_prod`
-5. Check blog categories file: `cat /opt/lessoncraftstudio/frontend/.next/standalone/public/data/blog-categories.json`
-6. Check messages directory: `ls -lh /opt/lessoncraftstudio/frontend/.next/standalone/messages/`
-7. Check SVG files: `ls -lh /opt/lessoncraftstudio/frontend/.next/standalone/public/images/alphabetsvg/print/regular/lowercase/`
-8. Check email configuration: `grep -E '^(EMAIL_|SMTP_)' /opt/lessoncraftstudio/frontend/.env.production`
-9. Check PM2 environment: `pm2 show lessoncraftstudio`
-10. Check wordsearch HTML: `grep -A 3 'html {' /opt/lessoncraftstudio/frontend/public/worksheet-generators/wordsearch.html`
-
----
-
-## 🆕 CHANGES IN v1.0.9 (from v1.0.8)
-
-**New Features:**
-- ✅ **Full Multilingual UI Support - AppCard Component**:
-  - Added `getUpgradeLabel()` helper function with naturally-written translations
-  - Supports all 11 languages: English, German, French, Spanish, Italian, Portuguese, Dutch, Swedish, Danish, Norwegian, Finnish
-  - Uses native language verbs for Nordic languages: "Uppgradera" (Swedish), "Opgrader" (Danish/Norwegian), "Päivitä" (Finnish)
-  - Uses "Premium" for Romance languages where it's more natural than literal translations
-  - Replaced inline ternary operators with clean helper function
-  - Updated in frontend/components/apps/AppCard.tsx:117-129
-
-- ✅ **Full Multilingual UI Support - App Paywall Page**:
-  - Complete rewrite of AutoLaunchApp.tsx with comprehensive translations
-  - Added `uiTranslations` object with all UI text for 11 languages
-  - Translated components: Loading states, launching messages, paywall text, button labels
-  - All text naturally written in target language, not just translated
-  - Swedish example: "Denna app kräver Bas-paketet" (natural Swedish phrasing)
-  - French example: "Cette application nécessite le forfait Essentiel" (natural French phrasing)
-  - Bundle size: 1.97 kB → 3.37 kB (+1.4 kB for all translations)
-  - Updated in frontend/app/[locale]/apps/[slug]/AutoLaunchApp.tsx
-
-**Translation Quality:**
-- Text written by native speakers, sounds completely natural
-- Not machine-translated or literal word-for-word translations
-- Respects linguistic conventions of each language
-- Professional terminology maintained across all languages
-
-**Technical Improvements:**
-- Centralized translation management with comprehensive translation objects
-- Helper functions for clean code structure (getUpgradeLabel)
-- Proper locale fallback to English if unsupported locale detected
-- Consistent translation keys across all components
-- All 11 supported languages have complete coverage
-
-**Languages Supported:**
-1. English (en) - Base language
-2. German (de) - Upgrade, Core Bundle, Vollzugriff
-3. French (fr) - Premium, forfait Essentiel, forfait Complet
-4. Spanish (es) - Premium, paquete Esencial, Acceso Completo
-5. Italian (it) - Premium, pacchetto Essenziale, Accesso Completo
-6. Portuguese (pt) - Premium, pacote Essencial, Acesso Completo
-7. Dutch (nl) - Upgrade, Basis pakket, Volledige Toegang
-8. Swedish (sv) - Uppgradera, Bas-paketet, Full åtkomst
-9. Danish (da) - Opgrader, Kerne-pakken, Fuld adgang
-10. Norwegian (no) - Oppgrader, Kjerne-pakken, Full tilgang
-11. Finnish (fi) - Päivitä, Perus-paketin, Täyden pääsyn
-
-**Previous Golden Backups:**
-- **v1.0.8-GOLDEN**: `/opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.8/` (October 15, 2025)
-- **v1.0.7-GOLDEN**: `/opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.7/` (October 14, 2025)
-- **v1.0.6-GOLDEN**: `/opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.6/` (October 14, 2025)
-- **v1.0.5-GOLDEN**: `/opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.5/` (October 14, 2025)
-- **v1.0.4-GOLDEN**: `/opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.4/` (October 13, 2025)
-- **v1.0.3-GOLDEN**: `/opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.3/` (October 12, 2025)
-- **v1.0.2-GOLDEN**: `/opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.2/` (October 12, 2025)
-
----
-
-**Last Updated:** October 15, 2025
-**Version:** 1.0.9-GOLDEN
-**Commit:** 90fd705315c9e9bb0bb208fe100c30077beb40c6
-**Status:** STABLE - PRODUCTION READY - FULL MULTILINGUAL UI SUPPORT (11 LANGUAGES)
+**Last Updated:** October 22, 2025
+**Version:** 2.2.0-GOLDEN
+**Status:** STABLE - ALL MODERN HEADERS RESTORED - PRODUCTION READY
+**Total Apps with Modern Headers:** 28
+**Backup Size:** 288MB
+**Git Commit:** 503fc29

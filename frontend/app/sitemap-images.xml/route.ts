@@ -79,10 +79,10 @@ export async function GET() {
       const languageFolder = localeToFolder[locale] || 'english';
       const pageUrl = `${baseUrl}/${locale}/apps/${slug}`;
 
-      // Generate image URLs for both orientations
+      // Generate image URLs for samples - actual files use sample-1.jpeg, sample-2.jpeg pattern
       const images = [
-        `${baseUrl}/samples/${languageFolder}/${appFolder}/${encodeURIComponent(appFolder + '_worksheet portrait.jpeg')}`,
-        `${baseUrl}/samples/${languageFolder}/${appFolder}/${encodeURIComponent(appFolder + '_worksheet landscape.jpeg')}`,
+        `${baseUrl}/samples/${languageFolder}/${appFolder}/sample-1.jpeg`,
+        `${baseUrl}/samples/${languageFolder}/${appFolder}/sample-2.jpeg`,
       ];
 
       const imageXml = images

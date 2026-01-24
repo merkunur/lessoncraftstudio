@@ -76,6 +76,8 @@ export default function RootLayout({
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link rel="dns-prefetch" href="https://www.lessoncraftstudio.com" />
+        {/* RSS feed for blog discovery */}
+        <link rel="alternate" type="application/rss+xml" title="LessonCraftStudio Blog RSS" href="/feed.xml" />
       </head>
       <body className={`${inter.variable} ${poppins.variable} min-h-screen bg-gray-50 font-sans`}>
         <Providers>

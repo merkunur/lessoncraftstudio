@@ -204,14 +204,14 @@ export default function BlogPageClient({
         </div>
       </section>
 
-      {/* Categories */}
+      {/* Categories - Using Links for SEO crawlability */}
       <section className="bg-white border-b border-gray-200 sticky top-0 z-10">
         <div className="container mx-auto px-4">
-          <div className="flex items-center gap-4 py-4 overflow-x-auto">
+          <nav className="flex items-center gap-4 py-4 overflow-x-auto" aria-label="Blog categories">
             {categories.map((category) => (
-              <button
+              <Link
                 key={category.id}
-                onClick={() => setSelectedCategory(category.label)}
+                href={category.id === 'all' ? `/${locale}/blog` : `/${locale}/blog/category/${category.id}`}
                 className={`px-4 py-2 rounded-full text-sm font-medium whitespace-nowrap transition-colors ${
                   category.label === selectedCategory
                     ? 'bg-primary text-white'
@@ -219,9 +219,9 @@ export default function BlogPageClient({
                 }`}
               >
                 {category.label}
-              </button>
+              </Link>
             ))}
-          </div>
+          </nav>
         </div>
       </section>
 

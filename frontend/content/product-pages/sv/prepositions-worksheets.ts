@@ -22,6 +22,32 @@ export const prepositionsSvContent: ProductPageContent = {
     description: 'Skapa professionella prepositionsarbetsblad för förskoleklass och lågstadiet. Generera arbetsblad gratis för elever som lär sig rumsliga begrepp. Ladda ner högkvalitativa PDF-arbetsblad på under 3 minuter.',
     keywords: 'prepositioner arbetsblad, arbetsblad gratis, förskoleklass material, finmotorik övningar, rumsliga begrepp, i på under, bredvid bakom, svenska prepositioner, lågstadiet material',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/prepositioner-arbetsblad',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/prepositions/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Prepositioner arbetsblad gratis - rumsliga begrepp för förskoleklass material',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/prepositions/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis arbetsblad prepositioner - finmotorik övningar för barn',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/prepositions/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Arbetsblad för barn prepositioner - språkträning i på under',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/prepositions/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis utskrifter prepositioner - rumsord arbetsblad förskoleklass',
+      },
+    ],
   },
 
   // Hero Section - FULL text from prepositions.md paragraphs 1-4
@@ -35,7 +61,7 @@ Din Full Tillgång-prenumeration ger dig obegränsat antal arbetsblad utan extra
 Verktyget erbjuder 8 vanliga prepositioner: i, på, under, bredvid, bakom, mellan, över och framför. Varje arbetsblad använder bilder och former för att visualisera rumsliga relationer. Eleverna övar prepositioner genom ifyllnadsuppgifter eller flervalsfrågor.
 
 Kombinera prepositionsträning med målarbilder barn gillar. Lägg till egna bilder från klassrummet. Skapa tematiska arbetsblad som passar din undervisning. Allt ingår i Full Tillgång-prenumerationen på 2 900 kronor per år eller 300 kronor per månad.`,
-    previewImageSrc: '/samples/english/prepositions/prepositions_worksheet.jpeg',
+    previewImageSrc: '/samples/swedish/prepositions/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Prova Gratis',
       viewSamples: 'Visa Exempel',
@@ -54,7 +80,7 @@ Kombinera prepositionsträning med målarbilder barn gillar. Lägg till egna bil
     },
   },
 
-  // Sample Gallery - REAL file paths from samples/english/prepositions/
+  // Sample Gallery - REAL file paths from samples/swedish/prepositions/
   samples: {
     sectionTitle: 'Prepositioner Arbetsblad Exempel',
     sectionDescription: 'Ladda ner gratis exempelarbetsblad för att se vår professionella kvalitet',
@@ -70,17 +96,31 @@ Kombinera prepositionsträning med målarbilder barn gillar. Lägg till egna bil
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/prepositions/prepositions_worksheet.jpeg',
-        answerKeySrc: '/samples/english/prepositions/prepositions_answer_key.jpeg',
-        altText: 'Prepositioner arbetsblad med ifyllnadsuppgifter för förskoleklass rumsliga begrepp',
-        pdfDownloadUrl: '/samples/english/prepositions/prepositions_worksheet.pdf',
+        worksheetSrc: '/samples/swedish/prepositions/sample-1.jpeg',
+        answerKeySrc: '/samples/swedish/prepositions/sample-1-answer.jpeg',
+        altText: 'Prepositioner arbetsblad gratis - rumsliga begrepp i på under för förskoleklass material',
+        pdfDownloadUrl: '/samples/swedish/prepositions/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/prepositions/prepositions multiple choice.jpeg',
-        answerKeySrc: '/samples/english/prepositions/prepositions multiple choice answer_key.jpeg',
-        altText: 'Prepositioner flervalsfrågor arbetsblad för språkträning och rumslig förståelse',
-        pdfDownloadUrl: '/samples/english/prepositions/prepositions multiple choice.pdf',
+        worksheetSrc: '/samples/swedish/prepositions/sample-2.jpeg',
+        answerKeySrc: '/samples/swedish/prepositions/sample-2-answer.jpeg',
+        altText: 'Gratis arbetsblad prepositioner - finmotorik övningar och språkträning för barn',
+        pdfDownloadUrl: '/samples/swedish/prepositions/sample-2.pdf',
+      },
+      {
+        id: '3',
+        worksheetSrc: '/samples/swedish/prepositions/sample-3.jpeg',
+        answerKeySrc: '/samples/swedish/prepositions/sample-3-answer.jpeg',
+        altText: 'Arbetsblad för barn prepositioner - bredvid bakom mellan övningar',
+        pdfDownloadUrl: '/samples/swedish/prepositions/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/swedish/prepositions/sample-4.jpeg',
+        answerKeySrc: '/samples/swedish/prepositions/sample-4-answer.jpeg',
+        altText: 'Gratis utskrifter prepositioner - rumsord arbetsblad för förskoleklass',
+        pdfDownloadUrl: '/samples/swedish/prepositions/sample-4.pdf',
       },
     ],
   },

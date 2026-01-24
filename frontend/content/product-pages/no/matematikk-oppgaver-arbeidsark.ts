@@ -15,10 +15,36 @@ export const mathWorksheetsNoContent: ProductPageContent = {
   seo: {
     slug: 'matematikk-oppgaver-arbeidsark',
     appId: 'math-worksheet',
-    title: 'Matematikk Oppgaver Generator - Arbeidsark Gratis for Barneskolen - Matteoppgaver PDF',
-    description: 'Lag profesjonelle matematikk oppgaver med bildebaserte matteoppgaver for småskoletrinnet. Generer tilpassede oppgavehefter barn kan bruke hjemme og på skolen. Last ned høykvalitets PDF-arbeidsark på under 3 minutter.',
+    title: 'Matematikk Oppgaver - Arbeidsark Gratis for Barn | Generator PDF',
+    description: 'Lag gratis matematikk oppgaver for barn. Bildebaserte matteoppgaver for småskoletrinnet. Last ned PDF arbeidsark på 3 min. 3000+ bilder tilgjengelig.',
     keywords: 'matematikk oppgaver, arbeidsark gratis, matteoppgaver, oppgavehefter barn, addisjon og subtraksjon, tall og telling, småskoletrinnet, barneskolen, gangetabellen, fargeleggingsbilder barn',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/matematikk-oppgaver-arbeidsark',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/norwegian/math/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Matematikk oppgaver arbeidsark gratis - bildebaserte matteoppgaver for småskoletrinnet',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/norwegian/math/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis arbeidsark matematikk oppgaver - tall og telling for barneskolen',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/norwegian/math/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Arbeidsark gratis matteoppgaver - addisjon og subtraksjon for barn',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/norwegian/math/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Matematikk oppgaver gratis arbeidsark - oppgavehefter barn for småskoletrinnet',
+      },
+    ],
   },
 
   // Hero Section - FULL text from math-worksheet.md paragraphs 1-4
@@ -32,7 +58,7 @@ Vår matematikk oppgaver generator skaper unike bildebaserte mattepuslespill der
 Kjernepakke-abonnementet koster kr 1 499 årlig eller kr 149 månedlig. Du får tilgang til 10 populære arbeidsark-generatorer inkludert vår matematikk oppgaver generator. Alle arbeidsark er tilgjengelige på 11 språk. Profesjonell 300 DPI-kvalitet egnet for utskrift og salg.
 
 Hver matematikk oppgave bruker bilder fra vårt bibliotek på 3000+ barnevennlige illustrasjoner. Velg et tema for automatisk bildevalg eller velg individuelle bilder manuelt. Last opp dine egne bilder for personaliserte matteoppgaver tilpasset dine elever. Kombiner biblioteksbilder med egne bilder for maksimal fleksibilitet.`,
-    previewImageSrc: '/samples/english/math worksheet/math worksheet portrait.jpeg',
+    previewImageSrc: '/samples/norwegian/math/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Prøv Gratis',
       viewSamples: 'Se Eksempler',
@@ -51,7 +77,7 @@ Hver matematikk oppgave bruker bilder fra vårt bibliotek på 3000+ barnevennlig
     },
   },
 
-  // Sample Gallery - REAL file paths from samples/english/math worksheet/
+  // Sample Gallery - REAL file paths from samples/norwegian/math/
   samples: {
     sectionTitle: 'Matematikk Oppgaver Arbeidsark Eksempler',
     sectionDescription: 'Last ned gratis eksempler på arbeidsark for å se vår profesjonelle kvalitet',
@@ -62,22 +88,36 @@ Hver matematikk oppgave bruker bilder fra vårt bibliotek på 3000+ barnevennlig
     answerKeyLabel: 'Fasit',
     viewAllLabel: 'Se alle',
     noPdfLabel: 'Ingen PDF tilgjengelig',
-    freePdfCountLabel: '2 gratis nedlastinger',
+    freePdfCountLabel: '4 gratis nedlastinger',
     ofLabel: 'av',
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/math worksheet/math worksheet portrait.jpeg',
-        answerKeySrc: '/samples/english/math worksheet/math worksheet portrait answer_key.jpeg',
-        altText: 'Matematikk oppgaver portrettformat med bildebaserte puslespill for småskoletrinnet',
-        pdfDownloadUrl: '/samples/english/math worksheet/math worksheet portrait.pdf',
+        worksheetSrc: '/samples/norwegian/math/sample-1.jpeg',
+        answerKeySrc: '/samples/norwegian/math/sample-1-answer.jpeg',
+        altText: 'Matematikk oppgaver arbeidsark gratis - bildebaserte matteoppgaver for småskoletrinnet',
+        pdfDownloadUrl: '/samples/norwegian/math/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/math worksheet/math worksheet landscape.jpeg',
-        answerKeySrc: '/samples/english/math worksheet/math worksheet landscape answer_key.jpeg',
-        altText: 'Matematikk oppgaver landskapsformat med symbolbaserte mattepuslespill',
-        pdfDownloadUrl: '/samples/english/math worksheet/math worksheet landscape.pdf',
+        worksheetSrc: '/samples/norwegian/math/sample-2.jpeg',
+        answerKeySrc: '/samples/norwegian/math/sample-2-answer.jpeg',
+        altText: 'Gratis arbeidsark matematikk oppgaver - tall og telling for barneskolen',
+        pdfDownloadUrl: '/samples/norwegian/math/sample-2.pdf',
+      },
+      {
+        id: '3',
+        worksheetSrc: '/samples/norwegian/math/sample-3.jpeg',
+        answerKeySrc: '/samples/norwegian/math/sample-3-answer.jpeg',
+        altText: 'Arbeidsark gratis matteoppgaver - addisjon og subtraksjon for barn',
+        pdfDownloadUrl: '/samples/norwegian/math/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/norwegian/math/sample-4.jpeg',
+        answerKeySrc: '/samples/norwegian/math/sample-4-answer.jpeg',
+        altText: 'Matematikk oppgaver gratis arbeidsark - oppgavehefter barn for småskoletrinnet',
+        pdfDownloadUrl: '/samples/norwegian/math/sample-4.pdf',
       },
     ],
   },

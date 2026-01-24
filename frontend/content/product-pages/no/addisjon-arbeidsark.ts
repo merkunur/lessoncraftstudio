@@ -19,6 +19,32 @@ export const additionNoContent: ProductPageContent = {
     description: 'Lag profesjonelle addisjonsoppgaver med bildebaserte matematikk oppgaver for 1. trinn til 3. trinn. Generer tilpassede oppgavehefter barn kan bruke hjemme eller på skolen. Last ned høykvalitets PDF-arbeidsark på under 3 minutter.',
     keywords: 'addisjonsoppgaver, matematikk oppgaver, arbeidsark gratis, oppgavehefter barn, addisjon og subtraksjon, tall og telling, matteoppgaver, småskoletrinnet, barneskolen, gangetabellen',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/addisjon-arbeidsark',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/norwegian/addition/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis arbeidsark addisjon - matematikk oppgaver for barneskolen'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/norwegian/addition/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Addisjonsoppgaver arbeidsark for barn - gratis utskrifter med tall og telling'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/norwegian/addition/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Arbeidsark for 1. trinn addisjon - gratis arbeidsark for barn'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/norwegian/addition/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis arbeidsark matematikk - addisjon og subtraksjon for barn'
+      },
+    ],
   },
 
   // Hero Section - FULL text from addition.md paragraphs 1-3
@@ -30,7 +56,7 @@ export const additionNoContent: ProductPageContent = {
 Vår oppgavegenerator gjør det enkelt å lage matteoppgaver med visuelle hjelpemidler. Barn i småskoletrinnet lærer addisjon og subtraksjon best når de kan se og telle konkrete objekter. Velg bilder fra biblioteket vårt med over 3000 barnevennlige illustrasjoner. Kombiner bilder med tall for varierte øvelser i addisjon og subtraksjon.
 
 Perfekt for lærere i barneskolen som trenger matematikk oppgaver til daglig bruk. Lag arbeidsark gratis å skrive ut med ditt abonnement. Ingen ekstra kostnader for å laste ned matteoppgaver. Inkluderer fasit for alle addisjonsoppgaver du oppretter.`,
-    previewImageSrc: '/samples/english/addition/addition_worksheet portrait.jpeg',
+    previewImageSrc: '/samples/norwegian/addition/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Prøv Gratis',
       viewSamples: 'Se Eksempler',
@@ -65,31 +91,31 @@ Perfekt for lærere i barneskolen som trenger matematikk oppgaver til daglig bru
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/addition/addition_worksheet portrait.jpeg',
-        answerKeySrc: '/samples/english/addition/addition_answer_key portrait.jpeg',
-        altText: 'Addisjonsoppgaver portrettformat med bildebaserte matematikk oppgaver for 1. trinn',
-        pdfDownloadUrl: '/samples/english/addition/addition_worksheet portrait.pdf',
+        worksheetSrc: '/samples/norwegian/addition/sample-1.jpeg',
+        answerKeySrc: '/samples/norwegian/addition/sample-1-answer.jpeg',
+        altText: 'Gratis arbeidsark addisjon - matematikk oppgaver for 1. trinn med bildebaserte tall og telling',
+        pdfDownloadUrl: '/samples/norwegian/addition/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/addition/image and number.jpeg',
-        answerKeySrc: '/samples/english/addition/image and number answer_key.jpeg',
-        altText: 'Bilde og tall modus for varierte addisjonsoppgaver på småskoletrinnet',
-        pdfDownloadUrl: '/samples/english/addition/image and number.pdf',
+        worksheetSrc: '/samples/norwegian/addition/sample-2.jpeg',
+        answerKeySrc: '/samples/norwegian/addition/sample-2-answer.jpeg',
+        altText: 'Arbeidsark for barn addisjon - gratis utskrifter med matematikk oppgaver for småskoletrinnet',
+        pdfDownloadUrl: '/samples/norwegian/addition/sample-2.pdf',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/addition/find addend.jpeg',
-        answerKeySrc: '/samples/english/addition/find addend answer_key.jpeg',
-        altText: 'Finn addend oppgaver for å øve problemløsning i matematikk',
-        pdfDownloadUrl: '/samples/english/addition/find addend.pdf',
+        worksheetSrc: '/samples/norwegian/addition/sample-3.jpeg',
+        answerKeySrc: '/samples/norwegian/addition/sample-3-answer.jpeg',
+        altText: 'Arbeidsark for 1. trinn - gratis arbeidsark med addisjon og subtraksjon øvelser',
+        pdfDownloadUrl: '/samples/norwegian/addition/sample-3.pdf',
       },
       {
         id: '4',
-        worksheetSrc: '/samples/english/addition/mixed mode.jpeg',
-        answerKeySrc: '/samples/english/addition/mixed mode answer_key.jpeg',
-        altText: 'Blandet modus med varierte oppgavehefter barn får utfordring av',
-        pdfDownloadUrl: '/samples/english/addition/mixed mode.pdf',
+        worksheetSrc: '/samples/norwegian/addition/sample-4.jpeg',
+        answerKeySrc: '/samples/norwegian/addition/sample-4-answer.jpeg',
+        altText: 'Gratis arbeidsark matematikk oppgaver - oppgavehefter barn med addisjon aktiviteter',
+        pdfDownloadUrl: '/samples/norwegian/addition/sample-4.pdf',
       },
     ],
   },

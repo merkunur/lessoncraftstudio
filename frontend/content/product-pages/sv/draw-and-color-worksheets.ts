@@ -16,9 +16,41 @@ export const drawAndColorSvContent: ProductPageContent = {
     slug: 'rutritning-arbetsblad',
     appId: 'draw-and-color',
     title: 'Målarbilder Barn och Ritövningar - Arbetsblad Gratis för Förskoleklass Material',
-    description: 'Skapa professionella målarbilder barn med vårt rutnätstekniska verktyg. Med Full Tillgång-prenumerationen får du obegränsad tillgång till ritövningar och målarbilder barn utan extra avgifter. Generera anpassade arbetsblad gratis för utskrift perfekt för förskoleklass material och finmotorik övningar.',
+    description: 'Skapa gratis arbetsblad för rutnätsritning och målarbilder barn. Ladda ner finmotorik övningar för förskoleklass på under 3 minuter. Prova gratis idag!',
     keywords: 'målarbilder barn, ritövningar, arbetsblad gratis, förskoleklass material, finmotorik övningar, rutnätsteknik, matematik arbetsblad, bokstäver lära sig, siffror och tal, rutnätsritning',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/rutritning-arbetsblad',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/draw-and-color/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis arbetsblad rutnätsritning - målarbilder barn och ritövningar för förskoleklass',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/draw-and-color/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Arbetsblad för barn - rutnätsteknik finmotorik övningar gratis utskrifter',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/draw-and-color/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis arbetsblad för förskoleklass - rutnätsritning matematik arbetsblad',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/draw-and-color/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Målarbilder barn med rutnätsritning - gratis arbetsblad för barn',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/draw-and-color/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Finmotorik övningar rutnätsteknik - arbetsblad för förskoleklass gratis utskrifter',
+      },
+    ],
   },
 
   // Hero Section - FULL text from draw-and-color.md paragraphs 1-4
@@ -32,7 +64,7 @@ Vårt verktyg kombinerar målarbilder barn med matematik arbetsblad genom att an
 Perfekt för förskoleklass material och lågstadiet. Varje målarbilder barn-aktivitet kombinerar konst med matematik arbetsblad-koncept. Barn övar finmotorik övningar medan de lär sig rumslig orientering. Ladda ner arbetsblad gratis i PDF-format och börja använda målarbilder barn direkt i klassrummet.
 
 Full Tillgång-prenumerationen kostar 240 dollar per år. Du får tillgång till alla 33 arbetsbladsverktyg inklusive målarbilder barn-generatorn. Skapa förskoleklass material med professionell 300 DPI-kvalitet. Inga extra avgifter per arbetsblad. Generera så många målarbilder barn och finmotorik övningar som du behöver.`,
-    previewImageSrc: '/samples/english/draw and color/grid-drawing_worksheet.jpeg',
+    previewImageSrc: '/samples/swedish/draw-and-color/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Prova Gratis',
       viewSamples: 'Visa Exempel',
@@ -51,10 +83,10 @@ Full Tillgång-prenumerationen kostar 240 dollar per år. Du får tillgång till
     },
   },
 
-  // Sample Gallery - REAL file paths from samples/english/draw and color/
+  // Sample Gallery - REAL file paths from samples/swedish/draw-and-color/
   samples: {
     sectionTitle: 'Rutnätsritning Exempel',
-    sectionDescription: 'Ladda ner gratis exempelarbetsblad för att se vår professionella kvalitet',
+    sectionDescription: 'Ladda ner gratis utskrifter och arbetsblad för barn för att se vår professionella kvalitet. Perfekta arbetsblad för förskoleklass.',
     downloadLabel: 'Ladda Ner Gratis Exempel',
     worksheetLabel: 'Arbetsblad',
     answerKeyLabel: 'Facit',
@@ -67,45 +99,38 @@ Full Tillgång-prenumerationen kostar 240 dollar per år. Du får tillgång till
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/draw and color/grid-drawing_worksheet.jpeg',
+        worksheetSrc: '/samples/swedish/draw-and-color/sample-1.jpeg',
         answerKeySrc: '',
-        altText: 'Rutnätsritning arbetsblad för förskoleklass med djurmotiv',
-        pdfDownloadUrl: '/samples/english/draw and color/grid-drawing-worksheet.pdf',
+        altText: 'Gratis arbetsblad rutnätsritning för förskoleklass - målarbilder barn djurmotiv',
+        pdfDownloadUrl: '/samples/swedish/draw-and-color/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/draw and color/grid-drawing_worksheet (1).jpeg',
+        worksheetSrc: '/samples/swedish/draw-and-color/sample-2.jpeg',
         answerKeySrc: '',
-        altText: 'Målarbilder barn med rutnätsteknik för finmotorik övningar',
-        pdfDownloadUrl: '/samples/english/draw and color/grid-drawing-worksheet (1).pdf',
+        altText: 'Arbetsblad för barn målarbilder med rutnätsteknik - finmotorik övningar',
+        pdfDownloadUrl: '/samples/swedish/draw-and-color/sample-2.pdf',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/draw and color/grid-drawing_worksheet (2).jpeg',
+        worksheetSrc: '/samples/swedish/draw-and-color/sample-3.jpeg',
         answerKeySrc: '',
-        altText: 'Ritövningar arbetsblad med ledtrådsrutnät för lågstadiet',
-        pdfDownloadUrl: '/samples/english/draw and color/grid-drawing-worksheet (2).pdf',
+        altText: 'Gratis arbetsblad ritövningar med ledtrådsrutnät för lågstadiet',
+        pdfDownloadUrl: '/samples/swedish/draw-and-color/sample-3.pdf',
       },
       {
         id: '4',
-        worksheetSrc: '/samples/english/draw and color/grid-drawing_worksheet (3).jpeg',
+        worksheetSrc: '/samples/swedish/draw-and-color/sample-4.jpeg',
         answerKeySrc: '',
-        altText: 'Arbetsblad gratis för utskrift med rutnätskopiering',
-        pdfDownloadUrl: '/samples/english/draw and color/grid-drawing-worksheet (3).pdf',
+        altText: 'Arbetsblad gratis för utskrift - rutnätskopiering finmotorik övningar',
+        pdfDownloadUrl: '/samples/swedish/draw-and-color/sample-4.pdf',
       },
       {
         id: '5',
-        worksheetSrc: '/samples/english/draw and color/grid-drawing_worksheet (4).jpeg',
+        worksheetSrc: '/samples/swedish/draw-and-color/sample-5.jpeg',
         answerKeySrc: '',
-        altText: 'Förskoleklass material med symmetriska rutnätsmönster',
-        pdfDownloadUrl: '/samples/english/draw and color/grid-drawing-worksheet (4).pdf',
-      },
-      {
-        id: '6',
-        worksheetSrc: '/samples/english/draw and color/grid-drawing_worksheet (5).jpeg',
-        answerKeySrc: '',
-        altText: 'Finmotorik övningar med pixelkopiering för barn',
-        pdfDownloadUrl: '/samples/english/draw and color/grid-drawing-worksheet (5).pdf',
+        altText: 'Gratis arbetsblad för förskoleklass - rutnätsritning symmetriska mönster',
+        pdfDownloadUrl: '/samples/swedish/draw-and-color/sample-5.pdf',
       },
     ],
   },
@@ -113,7 +138,7 @@ Full Tillgång-prenumerationen kostar 240 dollar per år. Du får tillgång till
   // Features Grid - FULL text from draw-and-color.md feature sections
   features: {
     sectionTitle: 'Funktioner för Målarbilder Barn och Arbetsblad Gratis - Allt Du Behöver för Förskoleklass Material',
-    sectionDescription: 'Vår målarbilder barn-generator inkluderar alla funktioner lärare behöver för att skapa förskoleklass material. Verktyget kombinerar enkel användning med professionella resultat. Du får tillgång till över 3000 bilder för målarbilder barn. Full redigerbarhet på arbetsytan ger dig total kontroll. Ladda upp egna bilder för personligt förskoleklass material. Full Tillgång-prenumerationen kostar 240 dollar per år eller 25 dollar per månad. Du får alla 33 arbetsbladsverktyg inklusive målarbilder barn-generatorn.',
+    sectionDescription: 'Vår målarbilder barn-generator inkluderar alla funktioner lärare behöver för att skapa arbetsblad för förskoleklass. Verktyget kombinerar enkel användning med professionella resultat. Du får tillgång till över 3000 bilder för arbetsblad för barn. Full redigerbarhet på arbetsytan ger dig total kontroll. Ladda upp egna bilder och skapa gratis utskrifter. Full Tillgång-prenumerationen kostar 240 dollar per år eller 25 dollar per månad. Du får alla 33 arbetsbladsverktyg inklusive målarbilder barn-generatorn.',
     highlightBadgeText: 'Nyckelfunktion',
     readMoreLabel: 'Läs mer',
     showLessLabel: 'Visa mindre',
@@ -487,7 +512,7 @@ Kombinera flera svårighetsgrader i samma paket. "25 Djur-målarbilder Barn - F�
   // Related Apps
   relatedApps: {
     sectionTitle: 'Kombinera Målarbilder Barn med Andra Arbetsblad Gratis - Kompletta Inlärningspaket för Förskoleklass Material',
-    sectionDescription: 'Full Tillgång-prenumerationen inkluderar 33 gratis arbetsbladsverktyg. Kombinera målarbilder barn med matematik arbetsblad för tematiska paket. Integrera finmotorik övningar med bokstäver lära sig-aktiviteter. Blanda klockan lära sig med målarbilder barn för tidsundervisning. Skapa förskoleklass material som täcker multipla färdigheter samtidigt. Arbetsblad gratis från olika verktyg kombineras till kompletta lektioner.',
+    sectionDescription: 'Full Tillgång-prenumerationen inkluderar 33 arbetsbladsverktyg med gratis utskrifter. Kombinera målarbilder barn med matematik arbetsblad för tematiska paket. Integrera arbetsblad för barn med bokstäver lära sig-aktiviteter. Blanda klockan lära sig med målarbilder barn för tidsundervisning. Skapa arbetsblad för förskoleklass som täcker multipla färdigheter samtidigt. Arbetsblad gratis från olika verktyg kombineras till kompletta lektioner.',
     ctaTitle: 'Redo att Skapa Fantastiska Målarbilder Barn?',
     ctaDescription: 'Gå med tusentals lärare som skapar professionella arbetsblad. Obegränsad generering, kommersiell licens ingår.',
     primaryCtaText: 'Starta Gratis Provperiod',

@@ -19,6 +19,38 @@ export const alphabetTrainNoContent: ProductPageContent = {
     description: 'Lag profesjonelle alfabet-tog arbeidsark med vår bokstav-generator. Generer tilpassede arbeidsark hvor barn lærer å skrive bokstaver gjennom en morsom tog-metafor. Last ned høykvalitets PDF-arbeidsark på under 3 minutter.',
     keywords: 'alfabet-tog, bokstaver lære skrive, arbeidsark gratis, barnehage, småskole, bokstavinnlæring, finmotorikk øvelser, oppgavehefter barn, tall og telling, fargeleggingsbilder barn',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/alfabet-tog-arbeidsark',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/norwegian/alphabet-train/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis arbeidsark alfabet-tog - bokstavinnlæring for barn i barnehage'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/norwegian/alphabet-train/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Arbeidsark for 1. trinn alfabet-tog - gratis utskrifter med bokstaver'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/norwegian/alphabet-train/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis arbeidsark for barn - alfabet-tog bokstaver lære skrive'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/norwegian/alphabet-train/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Arbeidsark for barn alfabet-tog - gratis utskrifter barnehage'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/norwegian/alphabet-train/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis arbeidsark bokstavinnlæring - alfabet-tog for 1. trinn'
+      },
+    ],
   },
 
   // Hero Section - FULL text from alphabet-train.md paragraphs 1-3
@@ -30,7 +62,7 @@ export const alphabetTrainNoContent: ProductPageContent = {
 Vårt alfabet-tog verktøy gjør det enkelt å lage arbeidsark for bokstavinnlæring. Barn kobler bokstaver med bilder i hvert togvogn. Dette hjelper barnehage- og småskoleelever å huske bokstavlyder og bokstavformer. Arbeidsarkene kombinerer visuell læring med bokstavøving.
 
 Perfekt for norske lærere som trenger bokstavarbeidsark raskt. Velg 11 bokstaver og bilder som begynner med hver bokstav. Systemet arrangerer dem automatisk i togvogner. Rediger alt på arbeidsarket før nedlasting.`,
-    previewImageSrc: '/samples/english/alphabet train/alphabet train portrait.jpeg',
+    previewImageSrc: '/samples/norwegian/alphabet-train/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Prøv Gratis',
       viewSamples: 'Se Eksempler',
@@ -51,7 +83,7 @@ Perfekt for norske lærere som trenger bokstavarbeidsark raskt. Velg 11 bokstave
 
   // Sample Gallery - REAL file paths from samples/english/alphabet train/
   samples: {
-    sectionTitle: 'Alfabet-tog Arbeidsark Eksempler',
+    sectionTitle: 'Alfabet-tog Arbeidsark Eksempler - Gratis Arbeidsark for Barn',
     sectionDescription: 'Last ned gratis eksempler på arbeidsark for å se vår profesjonelle kvalitet',
     badgeText: 'Gratis Eksempler',
     downloadLabel: 'Last ned Gratis Eksempel',
@@ -65,17 +97,38 @@ Perfekt for norske lærere som trenger bokstavarbeidsark raskt. Velg 11 bokstave
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/alphabet train/alphabet train portrait.jpeg',
-        answerKeySrc: '/samples/english/alphabet train/alphabet train portrait answer_key.jpeg',
-        altText: 'Alfabet-tog arbeidsark portrettformat med bokstaver og bilder i togvogner',
-        pdfDownloadUrl: '/samples/english/alphabet train/alphabet train portrait.pdf',
+        worksheetSrc: '/samples/norwegian/alphabet-train/sample-1.jpeg',
+        answerKeySrc: '/samples/norwegian/alphabet-train/sample-1-answer.jpeg',
+        altText: 'Alfabet-tog gratis arbeidsark for barn - bokstaver og bilder i togvogner for barnehage',
+        pdfDownloadUrl: '/samples/norwegian/alphabet-train/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/alphabet train/alphabet train landscape.jpeg',
-        answerKeySrc: '/samples/english/alphabet train/alphabet train landscape answer_key.jpeg',
-        altText: 'Alfabet-tog arbeidsark landskapsformat for bredere visning av togvognene',
-        pdfDownloadUrl: '/samples/english/alphabet train/alphabet train landscape.pdf',
+        worksheetSrc: '/samples/norwegian/alphabet-train/sample-2.jpeg',
+        answerKeySrc: '/samples/norwegian/alphabet-train/sample-2-answer.jpeg',
+        altText: 'Gratis utskrifter alfabet-tog - bokstavinnlæring arbeidsark for 1. trinn',
+        pdfDownloadUrl: '/samples/norwegian/alphabet-train/sample-2.pdf',
+      },
+      {
+        id: '3',
+        worksheetSrc: '/samples/norwegian/alphabet-train/sample-3.jpeg',
+        answerKeySrc: '/samples/norwegian/alphabet-train/sample-3-answer.jpeg',
+        altText: 'Arbeidsark for barn alfabet-tog - lær bokstaver med gratis utskrifter',
+        pdfDownloadUrl: '/samples/norwegian/alphabet-train/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/norwegian/alphabet-train/sample-4.jpeg',
+        answerKeySrc: '/samples/norwegian/alphabet-train/sample-4-answer.jpeg',
+        altText: 'Alfabet-tog arbeidsark for 1. trinn - gratis arbeidsark bokstavinnlæring',
+        pdfDownloadUrl: '/samples/norwegian/alphabet-train/sample-4.pdf',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/norwegian/alphabet-train/sample-5.jpeg',
+        answerKeySrc: '/samples/norwegian/alphabet-train/sample-5-answer.jpeg',
+        altText: 'Gratis arbeidsark alfabet-tog - bokstaver lære skrive for barn',
+        pdfDownloadUrl: '/samples/norwegian/alphabet-train/sample-5.pdf',
       },
     ],
   },

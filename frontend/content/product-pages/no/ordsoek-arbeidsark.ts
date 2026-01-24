@@ -19,6 +19,32 @@ export const wordSearchNoContent: ProductPageContent = {
     description: 'Lag profesjonelle ordgåter med vår ordgåte generator. Verktøyet er gratis å bruke for personlig bruk. Last ned høykvalitets PDF-arbeidsark på under 3 minutter. Perfekt for lesetrening og bokstaver lære skrive i barneskolen.',
     keywords: 'ordgåte generator, arbeidsark gratis, lesetrening, bokstaver lære skrive, oppgavehefter barn, finmotorikk øvelser, tall og telling, matematikk oppgaver, fargeleggingsbilder barn, norsk barneskole',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/ordsoek-arbeidsark',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/norwegian/wordsearch/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis arbeidsark ordsoek - norsk ordgate ovelse for barn i barneskolen'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/norwegian/wordsearch/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Ordsoek arbeidsark for barn - gratis utskrifter med lesetrening aktiviteter'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/norwegian/wordsearch/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Arbeidsark for 1. trinn ordsoek - gratis arbeidsark for bokstaver lare skrive'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/norwegian/wordsearch/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis arbeidsark ordgate generator - norsk lesetrening for barneskolen'
+      },
+    ],
   },
 
   // Hero Section - FULL text from wordsearch.md paragraphs 1-3
@@ -30,7 +56,7 @@ export const wordSearchNoContent: ProductPageContent = {
 Ordgåte generatoren hjelper lærere med å lage tilpassede arbeidsark for barn. Perfekt for lesetrening og bokstaver lære skrive i barneskolen. Velg mellom over 3000 barnervennlige bilder organisert i temaer. Du kan også laste opp dine egne bilder for personlige oppgavehefter barn. Støtter 11 språk inkludert norsk for autentisk språklæring.
 
 Generer ubegrenset antall ordgåter uten kostnad per arbeidsark. Bruk for matematikk oppgaver, tall og telling, og leseforståelse aktiviteter. Kombiner med fargeleggingsbilder barn for komplett læringsmateriale. Eksporter som JPEG eller PDF med profesjonell 300 DPI kvalitet. Gråskalealternativ sparer blekk når du skriver ut arbeidsark gratis.`,
-    previewImageSrc: '/samples/english/wordsearch/wordsearch portrait.jpeg',
+    previewImageSrc: '/samples/norwegian/wordsearch/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Prøv Gratis',
       viewSamples: 'Se Eksempler',
@@ -49,10 +75,10 @@ Generer ubegrenset antall ordgåter uten kostnad per arbeidsark. Bruk for matema
     },
   },
 
-  // Sample Gallery - REAL file paths from samples/english/wordsearch/
+  // Sample Gallery - REAL file paths from samples/norwegian/wordsearch/
   samples: {
-    sectionTitle: 'Ordgåte Arbeidsark Eksempler',
-    sectionDescription: 'Last ned gratis eksempler på arbeidsark for å se vår profesjonelle kvalitet',
+    sectionTitle: 'Gratis Arbeidsark Ordsoek Eksempler',
+    sectionDescription: 'Last ned gratis utskrifter av ordsoek arbeidsark for barn. Se profesjonell kvalitet med arbeidsark for 1. trinn.',
     badgeText: 'Gratis Eksempler',
     downloadLabel: 'Last ned Gratis Eksempel',
     downloadingLabel: 'Laster ned...',
@@ -65,24 +91,31 @@ Generer ubegrenset antall ordgåter uten kostnad per arbeidsark. Bruk for matema
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/wordsearch/wordsearch portrait.jpeg',
-        answerKeySrc: '/samples/english/wordsearch/wordsearch portrait answer_key.jpeg',
-        altText: 'Ordgåte portrettformat med tematiske bilder til ordforrådsøvelser i barnehagen',
-        pdfDownloadUrl: '/samples/english/wordsearch/wordsearch portrait.pdf',
+        worksheetSrc: '/samples/norwegian/wordsearch/sample-1.jpeg',
+        answerKeySrc: '/samples/norwegian/wordsearch/sample-1-answer.jpeg',
+        altText: 'Gratis arbeidsark ordsoek - norsk ordgate for barn i barneskolen med tematiske bilder',
+        pdfDownloadUrl: '/samples/norwegian/wordsearch/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/wordsearch/wordsearch landscape.jpeg',
-        answerKeySrc: '/samples/english/wordsearch/wordsearch landscape answer_key.jpeg',
-        altText: 'Ordgåte landskapsformat med fargerike bildeledetråder for 1. trinn og 2. trinn',
-        pdfDownloadUrl: '/samples/english/wordsearch/wordsearch landscape.pdf',
+        worksheetSrc: '/samples/norwegian/wordsearch/sample-2.jpeg',
+        answerKeySrc: '/samples/norwegian/wordsearch/sample-2-answer.jpeg',
+        altText: 'Arbeidsark for barn ordsoek - gratis utskrifter med lesetrening for 1. trinn og 2. trinn',
+        pdfDownloadUrl: '/samples/norwegian/wordsearch/sample-2.pdf',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/wordsearch/custom word list.jpeg',
-        answerKeySrc: '/samples/english/wordsearch/custom word list answer_key.jpeg',
-        altText: 'Egendefinert ordliste ordgåte til staveøvelser og ordforrådsbygging',
-        pdfDownloadUrl: '/samples/english/wordsearch/custom word list.pdf',
+        worksheetSrc: '/samples/norwegian/wordsearch/sample-3.jpeg',
+        answerKeySrc: '/samples/norwegian/wordsearch/sample-3-answer.jpeg',
+        altText: 'Arbeidsark for 1. trinn ordgate - gratis arbeidsark med staveovelser og ordforrad',
+        pdfDownloadUrl: '/samples/norwegian/wordsearch/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/norwegian/wordsearch/sample-4.jpeg',
+        answerKeySrc: '/samples/norwegian/wordsearch/sample-4-answer.jpeg',
+        altText: 'Gratis arbeidsark ordsoek generator - norsk lesetrening for barn med bokstavovelser',
+        pdfDownloadUrl: '/samples/norwegian/wordsearch/sample-4.pdf',
       },
     ],
   },
@@ -181,7 +214,7 @@ Ingen pikselerte bilder. Ingen uskarpe linjer. Profesjonell kvalitet hver gang. 
 
   // How-To Guide - FULL text from wordsearch.md step sections
   howTo: {
-    sectionTitle: 'Lag Arbeidsark Gratis i 5 Enkle Trinn',
+    sectionTitle: 'Lag Gratis Arbeidsark for 1. Trinn i 5 Enkle Trinn',
     sectionDescription: 'Lag profesjonelle ordgåter på under 3 minutter. Følg disse fem enkle trinnene fra start til ferdig arbeidsark. Ingen tekniske ferdigheter kreves for å lage oppgavehefter barn. Prosessen er enkel nok for alle lærere uansett IT-nivå.',
     ctaText: 'Start Nå',
     badgeText: 'Slik Fungerer Det',
@@ -253,7 +286,7 @@ Aktiver "Gråskala" før nedlasting for å spare blekk. Gråskala-alternativ kon
 
   // Use Cases - FULL text from wordsearch.md use case sections
   useCases: {
-    sectionTitle: 'Perfekt for Lærere og Foreldre',
+    sectionTitle: 'Gratis Arbeidsark for Barn - Perfekt for Laerere og Foreldre',
     sectionDescription: 'Ordgåte generatoren passer alle som jobber med barn. Lærere i barnehage og barneskole bruker verktøyet daglig. Hjemmeskolelærende foreldre lager tilpassede oppgavehefter barn. Spesialpedagoger differensierer arbeidsark gratis for individuelle behov. Lærerentreprenører selger ordgåter på Teachers Pay Teachers og Etsy.',
     badgeText: 'Hvem Er Det For',
     readMoreLabel: 'Les mer',
@@ -336,7 +369,7 @@ Print-on-demand lisensen åpner muligheter. Selg på Etsy som arbeidsark til uts
 
   // FAQ Section - Selected FAQs from wordsearch.md
   faq: {
-    sectionTitle: 'Ofte Stilte Spørsmål',
+    sectionTitle: 'Ofte Stilte Sporsmal om Gratis Arbeidsark Ordsoek',
     sectionDescription: 'Her er svar på de vanligste spørsmålene om ordgåte generatoren. Lær om gratis muligheter, abonnementer og hvordan du bruker oppgavehefter barn i undervisningen din.',
     showMoreText: 'Vis flere spørsmål',
     showLessText: 'Vis færre',
@@ -441,7 +474,7 @@ Print-on-demand lisensen åpner muligheter. Selg på Etsy som arbeidsark til uts
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Kombiner med Andre Arbeidsark Generatorer',
+    sectionTitle: 'Kombiner Ordsoek med Andre Gratis Arbeidsark Generatorer',
     sectionDescription: 'Lag komplette læringspakker ved å kombinere ordgåter med disse komplementære generatorene.',
     ctaTitle: 'Klar til å Lage Fantastiske Arbeidsark?',
     ctaDescription: 'Bli med tusenvis av pedagoger som lager profesjonelle arbeidsark. Ubegrenset oppretting, kommersiell lisens inkludert.',

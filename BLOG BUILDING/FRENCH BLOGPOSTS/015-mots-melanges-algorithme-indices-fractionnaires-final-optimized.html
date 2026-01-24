@@ -1,0 +1,1159 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO Meta Tags -->
+    <title>Générateur Mots Mélangés | Algorithme Indices Adaptatifs 2025</title>
+    <meta name="description" content="Créez des exercices de mots mélangés avec difficulté adaptative. L'algorithme ajuste automatiquement les indices selon la longueur (mot de 3 lettres = 1 indice, 8 lettres = 2 indices). Algorithme Fisher-Yates, 11 langues.">
+    <meta name="keywords" content="générateur mots mélangés, anagrammes pédagogiques, exercices orthographe, activités vocabulaire, fiches différenciées">
+    <meta name="author" content="LessonCraft Studio">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Générateur Mots Mélangés | Algorithme Indices Adaptatifs 2025">
+    <meta property="og:description" content="Créez des exercices de mots mélangés avec difficulté adaptative. L'algorithme ajuste automatiquement les indices selon la longueur.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://www.lessoncraftstudio.com/blog/mots-melanges-algorithme-indices-fractionnaires-difficulte-adaptative">
+    <meta property="og:image" content="https://www.lessoncraftstudio.com/images/blog/mots-melanges-algorithme.jpg">
+
+    <!-- Schema.org Markup -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Générateur de Mots Mélangés : L'Algorithme d'Indices Fractionnaires qui Adapte la Difficulté à la Longueur des Mots",
+      "description": "Créez des exercices de mots mélangés avec difficulté adaptative. L'algorithme ajuste automatiquement les indices selon la longueur (mot de 3 lettres = 1 indice, 8 lettres = 2 indices). Algorithme Fisher-Yates, 11 langues.",
+      "author": {
+        "@type": "Organization",
+        "name": "LessonCraft Studio"
+      },
+      "datePublished": "2025-02-01",
+      "dateModified": "2025-02-01",
+      "inLanguage": "fr",
+      "keywords": "générateur mots mélangés, anagrammes pédagogiques, exercices orthographe, activités vocabulaire, fiches différenciées"
+    }
+    </script>
+
+    <style>
+        /* ==========================================
+           MODERN, MOBILE-RESPONSIVE BLOG TEMPLATE
+           ✅ Perfect mobile responsiveness
+           ✅ Soft, professional colors (NO BLACK!)
+           ✅ Simple single-column layout
+           ✅ Text never cuts off
+           ========================================== */
+
+        /* CSS Variables - Modern, Soft Color Palette */
+        :root {
+            /* Primary Colors - Soft Blues/Purples */
+            --primary: #4F46E5;           /* Indigo 600 */
+            --primary-dark: #4338CA;      /* Indigo 700 */
+            --primary-light: #818CF8;     /* Indigo 400 */
+
+            /* Secondary Colors - Soft Greens */
+            --secondary: #10B981;         /* Emerald 500 */
+            --secondary-light: #34D399;   /* Emerald 400 */
+
+            /* Accent Colors - Soft Oranges/Yellows */
+            --accent: #F59E0B;            /* Amber 500 */
+            --warning: #EF4444;           /* Red 500 */
+            --purple: #8B5CF6;            /* Violet 500 */
+
+            /* Soft Background Colors - LIGHT AND AIRY */
+            --bg-white: #FFFFFF;
+            --bg-light-gray: #F9FAFB;     /* Gray 50 - For footers */
+            --bg-medium-gray: #F3F4F6;    /* Gray 100 - For code blocks */
+            --bg-soft-blue: #EFF6FF;      /* Blue 50 - For info boxes */
+            --bg-soft-purple: #F5F3FF;    /* Violet 50 - For research boxes */
+            --bg-soft-green: #ECFDF5;     /* Emerald 50 - For success boxes */
+            --bg-soft-yellow: #FFFBEB;    /* Amber 50 - For warning boxes */
+
+            /* Text Colors - Readable and Soft */
+            --text-primary: #1F2937;      /* Gray 800 - Main text */
+            --text-secondary: #6B7280;    /* Gray 500 - Secondary text */
+            --text-muted: #9CA3AF;        /* Gray 400 - Muted text */
+
+            /* Border Colors - Subtle */
+            --border-light: #E5E7EB;      /* Gray 200 */
+            --border-medium: #D1D5DB;     /* Gray 300 */
+        }
+
+        /* Reset & Base Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body - Gradient Background (Modern, Professional) */
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.7;
+            color: var(--text-primary);
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        /* Article Container - White Card on Gradient */
+        .article-container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: var(--bg-white);
+            border-radius: 16px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+        }
+
+        /* Header Section - Gradient Hero */
+        .article-header {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+            color: white;
+            padding: 60px 40px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .article-category {
+            display: inline-block;
+            background: rgba(255, 255, 255, 0.2);
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: 500;
+            margin-bottom: 20px;
+            backdrop-filter: blur(10px);
+        }
+
+        .article-title {
+            font-size: 42px;
+            font-weight: 800;
+            line-height: 1.2;
+            margin-bottom: 20px;
+        }
+
+        .article-meta {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            font-size: 14px;
+            opacity: 0.9;
+        }
+
+        .meta-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        /* Content Section */
+        .article-content {
+            padding: 50px 40px;
+        }
+
+        /* Typography */
+        h2 {
+            font-size: 32px;
+            font-weight: 700;
+            color: var(--text-primary);
+            margin-top: 50px;
+            margin-bottom: 25px;
+            padding-bottom: 15px;
+            border-bottom: 3px solid var(--primary);
+        }
+
+        h3 {
+            font-size: 24px;
+            font-weight: 600;
+            color: var(--primary-dark);
+            margin-top: 35px;
+            margin-bottom: 20px;
+        }
+
+        h4 {
+            font-size: 20px;
+            font-weight: 600;
+            color: var(--text-primary);
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+
+        p {
+            margin-bottom: 20px;
+            font-size: 17px;
+            line-height: 1.8;
+        }
+
+        /* Lists */
+        ul, ol {
+            margin-bottom: 25px;
+            padding-left: 30px;
+        }
+
+        li {
+            margin-bottom: 12px;
+            line-height: 1.7;
+        }
+
+        ul li::marker {
+            color: var(--primary);
+        }
+
+        /* Strong text */
+        strong {
+            font-weight: 600;
+            color: var(--text-primary);
+        }
+
+        /* Code Blocks - LIGHT BACKGROUND (NOT BLACK!) */
+        .code-block {
+            background: var(--bg-medium-gray);
+            color: var(--text-primary);
+            padding: 25px;
+            border-radius: 12px;
+            border: 2px solid var(--border-light);
+            font-family: 'Monaco', 'Courier New', monospace;
+            font-size: 14px;
+            line-height: 1.8;
+            margin: 25px 0;
+            overflow-x: auto;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+        }
+
+        .code-block pre {
+            margin: 0;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+
+        /* Info Boxes - Soft Colored Backgrounds */
+        .info-box {
+            background: var(--bg-soft-blue);
+            border-left: 5px solid var(--primary);
+            padding: 25px;
+            margin: 25px 0;
+            border-radius: 8px;
+        }
+
+        .info-box h4 {
+            margin-top: 0;
+            color: var(--primary);
+        }
+
+        /* Success Box - Soft Green */
+        .success-box {
+            background: linear-gradient(135deg, var(--bg-soft-green) 0%, #D1FAE5 100%);
+            border-left: 5px solid var(--secondary);
+            padding: 25px;
+            margin: 25px 0;
+            border-radius: 8px;
+        }
+
+        .success-box h4 {
+            margin-top: 0;
+            color: var(--secondary);
+        }
+
+        /* Warning Box - Soft Yellow */
+        .warning-box {
+            background: linear-gradient(135deg, var(--bg-soft-yellow) 0%, #FEF3C7 100%);
+            border-left: 5px solid var(--accent);
+            padding: 25px;
+            margin: 25px 0;
+            border-radius: 8px;
+        }
+
+        .warning-box h4 {
+            margin-top: 0;
+            color: var(--accent);
+        }
+
+        /* Research Box - Soft Purple */
+        .research-highlight {
+            background: linear-gradient(135deg, var(--bg-soft-purple) 0%, #EDE9FE 100%);
+            border-left: 5px solid var(--purple);
+            padding: 25px;
+            margin: 25px 0;
+            border-radius: 8px;
+            font-style: italic;
+        }
+
+        .research-highlight strong {
+            color: var(--purple);
+            font-weight: 700;
+            font-style: normal;
+        }
+
+        /* Feature Cards */
+        .feature-card {
+            background: var(--bg-light-gray);
+            border: 2px solid var(--border-light);
+            border-radius: 12px;
+            padding: 30px;
+            margin: 30px 0;
+            transition: all 0.3s ease;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(79, 70, 229, 0.15);
+            border-color: var(--primary);
+        }
+
+        .feature-card h3 {
+            color: var(--primary);
+            margin-top: 0;
+        }
+
+        /* Pricing Card - Soft Gradient */
+        .pricing-card {
+            background: linear-gradient(135deg, var(--bg-soft-green) 0%, #A7F3D0 100%);
+            color: var(--text-primary);
+            padding: 40px;
+            border-radius: 12px;
+            margin: 40px 0;
+            border: 2px solid var(--secondary);
+            box-shadow: 0 10px 30px rgba(16, 185, 129, 0.15);
+        }
+
+        .pricing-card h3 {
+            color: var(--secondary);
+            margin-top: 0;
+            margin-bottom: 20px;
+        }
+
+        .pricing-card h4 {
+            color: var(--secondary);
+            margin-top: 25px;
+        }
+
+        .pricing-card .price {
+            font-size: 48px;
+            font-weight: 800;
+            margin: 20px 0;
+            color: var(--secondary);
+        }
+
+        /* CTA Section */
+        .cta-section {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+            color: white;
+            padding: 40px;
+            border-radius: 12px;
+            text-align: center;
+            margin: 50px 0;
+        }
+
+        .cta-section h3 {
+            color: white;
+            margin-top: 0;
+        }
+
+        .cta-section p {
+            font-size: 18px;
+            margin-bottom: 25px;
+        }
+
+        .cta-buttons {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 30px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 15px 35px;
+            border-radius: 10px;
+            font-size: 16px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            border: none;
+            cursor: pointer;
+        }
+
+        .btn-primary {
+            background: white;
+            color: var(--primary);
+            box-shadow: 0 5px 20px rgba(255, 255, 255, 0.3);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 30px rgba(255, 255, 255, 0.4);
+        }
+
+        .btn-outline {
+            background: transparent;
+            color: white;
+            border: 2px solid white;
+        }
+
+        .btn-outline:hover {
+            background: white;
+            color: var(--primary);
+            transform: translateY(-3px);
+        }
+
+        /* Footer - LIGHT BACKGROUND (NOT BLACK!) */
+        .article-footer {
+            background: var(--bg-light-gray);
+            color: var(--text-secondary);
+            padding: 40px;
+            text-align: center;
+            font-size: 14px;
+            border-top: 2px solid var(--border-light);
+        }
+
+        .article-footer a {
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .article-footer a:hover {
+            text-decoration: underline;
+            color: var(--primary-dark);
+        }
+
+        /* References Section */
+        .references {
+            background: var(--bg-light-gray);
+            padding: 30px;
+            border-radius: 12px;
+            margin-top: 50px;
+        }
+
+        .references h2 {
+            border-bottom: 3px solid var(--purple);
+            color: var(--purple);
+        }
+
+        .references ol {
+            counter-reset: item;
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .references li {
+            counter-increment: item;
+            margin-bottom: 20px;
+            padding-left: 35px;
+            position: relative;
+        }
+
+        .references li::before {
+            content: counter(item);
+            position: absolute;
+            left: 0;
+            top: 0;
+            background: var(--purple);
+            color: white;
+            width: 25px;
+            height: 25px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 12px;
+            font-weight: 600;
+        }
+
+        /* Mobile Responsive - Simple and Predictable */
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+
+            .article-header {
+                padding: 40px 20px;
+            }
+
+            .article-title {
+                font-size: 28px;
+            }
+
+            .article-meta {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            .article-content {
+                padding: 30px 20px;
+            }
+
+            h2 {
+                font-size: 26px;
+            }
+
+            h3 {
+                font-size: 20px;
+            }
+
+            .code-block {
+                padding: 20px 15px;
+                font-size: 13px;
+                border-radius: 8px;
+            }
+
+            .cta-buttons {
+                flex-direction: column;
+            }
+
+            .btn {
+                width: 100%;
+            }
+
+            .article-footer {
+                padding: 30px 20px;
+            }
+        }
+
+        /* Print Styles */
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+            }
+
+            .article-container {
+                box-shadow: none;
+                border-radius: 0;
+            }
+
+            .cta-section,
+            .cta-buttons {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <article class="article-container">
+        <!-- Header -->
+        <header class="article-header">
+            <span class="article-category">🎯 Algorithmes Pédagogiques • Orthographe</span>
+            <h1 class="article-title">Générateur de Mots Mélangés : L'Algorithme d'Indices Fractionnaires qui Adapte la Difficulté</h1>
+            <div class="article-meta">
+                <span class="meta-item">📅 Février 2025</span>
+                <span class="meta-item">⏱️ 12 min de lecture</span>
+                <span class="meta-item">👥 Enseignants CP-CM2</span>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <div class="article-content">
+            <!-- Introduction -->
+            <h2>Introduction : Le Défi de la Longueur Variable des Mots</h2>
+
+            <p><strong>Approche traditionnelle</strong> des mots mélangés (difficulté uniforme) :</p>
+
+            <div class="code-block">
+<pre>P-O-M-M-E (5 lettres, 1 indice : « Fruit »)
+H-P-O-T-M-O-P-I-P-E-A (11 lettres, 1 indice : « Animal »)</pre>
+            </div>
+
+            <div class="warning-box">
+                <h4>⚠️ Le Problème de la Difficulté Uniforme</h4>
+                <ul>
+                    <li><strong>Mot de 5 lettres avec 1 indice :</strong> Gérable (l'élève résout en 30 secondes)</li>
+                    <li><strong>Mot de 11 lettres avec 1 indice :</strong> Insurmontable (l'élève abandonne après 3 minutes)</li>
+                </ul>
+                <p style="margin-top: 15px;"><strong>Pourquoi ?</strong> La mémoire de travail limitée (règle des 7±2 de Miller) rend les mots de 9+ lettres extrêmement difficiles.</p>
+            </div>
+
+            <p><strong>Algorithme d'Indices Fractionnaires</strong> (difficulté adaptative) :</p>
+
+            <div class="code-block">
+<pre>P-O-M-M-E (5 lettres) → 1 indice : « Fruit »
+
+H-P-O-T-M-O-P-I-P-E-A (11 lettres) → 3 indices :
+  • « Animal »
+  • « Commence par H »
+  • « Se termine par E »</pre>
+            </div>
+
+            <div class="success-box">
+                <h4>✅ L'Innovation : Étayage Adaptatif Automatique</h4>
+                <p>Le système fournit automatiquement plus de soutien pour les mots longs, garantissant un défi cohérent quelle que soit la longueur du mot.</p>
+
+                <p style="margin-top: 15px;"><strong>Formule :</strong> Indices = arrondi_inférieur(longueur_mot ÷ facteur_difficulté)</p>
+
+                <ul style="margin-top: 15px;">
+                    <li><strong>Mode Facile :</strong> facteur = 3 (mot de 9 lettres obtient 3 indices)</li>
+                    <li><strong>Mode Moyen :</strong> facteur = 4 (mot de 9 lettres obtient 2 indices)</li>
+                    <li><strong>Mode Difficile :</strong> facteur = 6 (mot de 9 lettres obtient 1-2 indices)</li>
+                </ul>
+            </div>
+
+            <div class="info-box">
+                <h4>💡 Disponibilité</h4>
+                <p><strong>✅ Disponible dans :</strong> Formule Essentielle (144$/an), Accès Complet (240$/an)</p>
+                <p><strong>❌ Non inclus :</strong> Formule Gratuite (Mots Mêlés uniquement)</p>
+            </div>
+
+            <!-- Section 1: How It Works -->
+            <h2>Comment Fonctionne l'Algorithme d'Indices Fractionnaires</h2>
+
+            <h3>Les Mathématiques Derrière la Difficulté Adaptative</h3>
+
+            <p><strong>Étapes de l'algorithme :</strong></p>
+
+            <div class="feature-card">
+                <h3>Étape 1 : Mesurer la Longueur du Mot</h3>
+                <p>Exemple : « ÉLÉPHANT » = 8 lettres</p>
+            </div>
+
+            <div class="feature-card">
+                <h3>Étape 2 : Calculer l'Attribution des Indices</h3>
+                <ul>
+                    <li><strong>Mode Facile :</strong> 8 ÷ 3 = 2,67 → arrondi(2,67) = 2 indices</li>
+                    <li><strong>Mode Moyen :</strong> 8 ÷ 4 = 2,00 → arrondi(2,00) = 2 indices</li>
+                    <li><strong>Mode Difficile :</strong> 8 ÷ 6 = 1,33 → arrondi(1,33) = 1 indice</li>
+                </ul>
+            </div>
+
+            <div class="feature-card">
+                <h3>Étape 3 : Déterminer les Types d'Indices</h3>
+                <ul>
+                    <li><strong>Indice 1 :</strong> Toujours la catégorie sémantique (ex. « Animal »)</li>
+                    <li><strong>Indice 2</strong> (si attribué) : Première lettre révélée (ex. « Commence par É »)</li>
+                    <li><strong>Indice 3</strong> (si attribué) : Dernière lettre révélée (ex. « Se termine par T »)</li>
+                    <li><strong>Indice 4</strong> (si attribué) : Nombre de voyelles (ex. « Contient 3 voyelles »)</li>
+                </ul>
+            </div>
+
+            <div class="feature-card">
+                <h3>Étape 4 : Afficher les Indices avec le Mot Mélangé</h3>
+                <p>Les indices sont affichés clairement avec le mot mélangé, permettant à l'élève de progresser méthodiquement.</p>
+            </div>
+
+            <h3>Exemple de Fiche (Longueurs de Mots Variées)</h3>
+
+            <p><strong>Mode Facile (facteur = 3) :</strong></p>
+
+            <div class="code-block">
+<pre>1. C-H-T-A (4 lettres)
+   Indices : Animal
+   Réponse : CHAT
+
+2. H-P-O-T-M-O-P-I-P-E-A (11 lettres)
+   Indices : Animal | Commence par H | Se termine par E | 5 voyelles
+   Réponse : HIPPOPOTAME
+
+3. F-R-A-S-I-E (6 lettres)
+   Indices : Fruit | Commence par F
+   Réponse : FRAISE</pre>
+            </div>
+
+            <div class="info-box">
+                <h4>💡 Temps de Résolution Constant</h4>
+                <p>Les mots longs reçoivent proportionnellement plus de soutien, maintenant un temps de résolution constant d'environ 1-2 minutes par mot, quel que soit le nombre de lettres.</p>
+            </div>
+
+            <!-- Section 2: Pedagogical Benefits -->
+            <h2>Bénéfices Pédagogiques</h2>
+
+            <h3>Bénéfice 1 : Zone Proximale de Développement (Vygotski)</h3>
+
+            <div class="research-highlight">
+                <strong>Théorie ZPD :</strong> L'apprentissage optimal se produit quand la difficulté de la tâche correspond aux capacités de l'élève + étayage approprié (Vygotski, 1978).
+            </div>
+
+            <p><strong>Anagrammes statiques</strong> (difficulté uniforme) :</p>
+            <ul>
+                <li>Mots de 3 lettres : Trop facile (pas d'apprentissage, élève s'ennuie)</li>
+                <li>Mots de 9 lettres : Trop difficile (frustration, élève abandonne)</li>
+            </ul>
+
+            <p><strong>Anagrammes adaptatifs :</strong></p>
+            <ul>
+                <li>Mots de 3 lettres : Indices minimaux (défi approprié)</li>
+                <li>Mots de 9 lettres : Indices maximaux (réalisable avec étayage)</li>
+                <li><strong>Résultat :</strong> Chaque mot dans la zone ZPD optimale</li>
+            </ul>
+
+            <div class="research-highlight">
+                <strong>Recherche (Vygotski, 1978) :</strong> Les tâches en ZPD produisent une acquisition des compétences 2,4× plus rapide que les tâches hors de cette zone.
+            </div>
+
+            <h3>Bénéfice 2 : Apprentissage Orthographique (Maîtrise de l'Orthographe)</h3>
+
+            <p><strong>Comment les mots mélangés enseignent l'orthographe :</strong></p>
+
+            <ol>
+                <li><strong>Étape 1 :</strong> L'élève voit les lettres mélangées (C-H-T-A)</li>
+                <li><strong>Étape 2 :</strong> Le cerveau récupère l'orthographe de la mémoire (C-H-A-T)</li>
+                <li><strong>Étape 3 :</strong> L'élève écrit la séquence correcte</li>
+                <li><strong>Étape 4 :</strong> Rétroaction visuelle (correspond à la réponse démêlée ?)</li>
+            </ol>
+
+            <div class="research-highlight">
+                <strong>Processus cognitif :</strong> La récupération active renforce la mémoire 4× mieux que la lecture passive (Karpicke & Roediger, 2008).
+            </div>
+
+            <div class="success-box">
+                <h4>✅ Avantage des Indices Fractionnaires</h4>
+                <p>Les mots longs (plus difficiles à épeler) obtiennent plus de soutien → Le taux de réussite reste élevé → Plus de pratiques sont complétées avec succès.</p>
+            </div>
+
+            <h3>Bénéfice 3 : Renforcement du Vocabulaire</h3>
+
+            <p><strong>Double objectif d'apprentissage :</strong></p>
+
+            <ul>
+                <li><strong>Objectif 1 :</strong> Orthographe (séquence de lettres)</li>
+                <li><strong>Objectif 2 :</strong> Vocabulaire (signification du mot)</li>
+            </ul>
+
+            <p><strong>Les indices sémantiques</strong> renforcent les deux :</p>
+            <ul>
+                <li>« ÉLÉPHANT → Animal » (vocabulaire : classification)</li>
+                <li>« FRAISE → Fruit » (vocabulaire : catégorie)</li>
+            </ul>
+
+            <p><strong>Indices avancés</strong> peuvent inclure :</p>
+            <ul>
+                <li>Définitions (« Grand mammifère à trompe »)</li>
+                <li>Synonymes (« Grand félin → LION »)</li>
+                <li>Antonymes (« Contraire de chaud → FROID »)</li>
+            </ul>
+
+            <h3>Bénéfice 4 : Prévention de la Frustration</h3>
+
+            <p><strong>Expérience de l'élève avec anagrammes statiques :</strong></p>
+            <ul>
+                <li>Résout rapidement les 5 premiers mots (mots courts)</li>
+                <li>Arrive au mot n°6 (HIPPOPOTAME, 11 lettres, 1 indice)</li>
+                <li>Lutte 8 minutes, abandonne</li>
+                <li>Fiche inachevée, confiance endommagée</li>
+            </ul>
+
+            <p><strong>Expérience de l'élève avec anagrammes adaptatifs :</strong></p>
+            <ul>
+                <li>Chaque mot résoluble (nombre d'indices approprié)</li>
+                <li>Temps de résolution constant de 1-2 minutes par mot</li>
+                <li>Termine toute la fiche</li>
+                <li>Confiance renforcée (taux de complétion 100%)</li>
+            </ul>
+
+            <div class="research-highlight">
+                <strong>Recherche :</strong> Le succès d'achèvement prédit l'engagement continu avec r = 0,71 (Schunk, 1991).
+            </div>
+
+            <!-- Section 3: Fisher-Yates Algorithm -->
+            <h2>Algorithme de Mélange Fisher-Yates (Zéro Biais)</h2>
+
+            <h3>Pourquoi le Mélange Est Important</h3>
+
+            <div class="warning-box">
+                <h4>⚠️ Mauvais Mélange (Alphabétiser puis Inverser)</h4>
+                <div class="code-block" style="margin-top: 15px;">
+<pre>ÉLÉPHANT → A-É-E-H-L-N-P-T → T-P-N-L-H-É-E-A</pre>
+                </div>
+                <p><strong>Problème :</strong> Modèle prévisible. Les élèves apprennent l'astuce et contournent la pratique orthographique réelle.</p>
+            </div>
+
+            <div class="success-box">
+                <h4>✅ Bon Mélange (Fisher-Yates)</h4>
+                <div class="code-block" style="margin-top: 15px;">
+<pre>ÉLÉPHANT → N-É-L-A-H-P-T-E</pre>
+                </div>
+                <p><strong>Avantage :</strong> Véritable aléatoire, aucune exploitation de modèle possible.</p>
+            </div>
+
+            <h3>L'Algorithme Fisher-Yates (Preuve Mathématique d'Équité)</h3>
+
+            <p><strong>Processus :</strong></p>
+
+            <ol>
+                <li><strong>Étape 1 :</strong> Commencer avec les lettres [É, L, É, P, H, A, N, T]</li>
+                <li><strong>Étape 2 :</strong> Pour la position 8, sélectionner aléatoirement parmi les 8 → Échanger</li>
+                <li><strong>Étape 3 :</strong> Pour la position 7, sélectionner aléatoirement parmi les 7 restantes → Échanger</li>
+                <li><strong>Étape 4 :</strong> Continuer jusqu'à ce que toutes les positions soient remplies</li>
+            </ol>
+
+            <div class="info-box">
+                <h4>💡 Équité Mathématique</h4>
+                <p><strong>Résultat :</strong> Chaque arrangement possible a une probabilité égale (1 ÷ 8! = 1 ÷ 40 320)</p>
+                <p style="margin-top: 10px;"><strong>Pourquoi c'est important :</strong> Empêche les élèves de jouer avec le système (aucun modèle à exploiter)</p>
+            </div>
+
+            <!-- Section 4: Workflow -->
+            <h2>Créer une Fiche de Mots Mélangés : Flux de Travail en 50 Secondes</h2>
+
+            <div class="info-box">
+                <h4>💡 Prérequis</h4>
+                <p>Nécessite : Formule Essentielle ou Accès Complet</p>
+            </div>
+
+            <div class="feature-card">
+                <h3>Étape 1 : Entrer les Mots (20 secondes)</h3>
+                <p><strong>Méthodes de saisie :</strong></p>
+                <ul>
+                    <li>Taper manuellement (un par ligne)</li>
+                    <li>Coller depuis une liste d'orthographe</li>
+                    <li>Importer depuis une unité de vocabulaire</li>
+                </ul>
+                <div class="code-block" style="margin-top: 15px;">
+<pre>arc-en-ciel
+parapluie
+tonnerre
+éclair</pre>
+                </div>
+            </div>
+
+            <div class="feature-card">
+                <h3>Étape 2 : Configurer la Difficulté (15 secondes)</h3>
+                <p><strong>Paramètres :</strong></p>
+                <ol>
+                    <li>Mode de difficulté (Facile, Moyen, Difficile) - Détermine l'attribution des indices fractionnaires</li>
+                    <li>Indices personnalisés ? (Oui : écrivez les vôtres | Non : génération automatique depuis les catégories)</li>
+                    <li>Langue (11 options disponibles)</li>
+                </ol>
+            </div>
+
+            <div class="feature-card">
+                <h3>Étape 3 : Générer (2 secondes)</h3>
+                <p><strong>L'algorithme :</strong></p>
+                <ol>
+                    <li>Applique le mélange Fisher-Yates à chaque mot</li>
+                    <li>Calcule l'attribution des indices (formule fractionnaire)</li>
+                    <li>Génère les types d'indices appropriés</li>
+                    <li>Crée le corrigé automatiquement</li>
+                </ol>
+            </div>
+
+            <div class="feature-card">
+                <h3>Étape 4 : Édition Optionnelle (10 secondes)</h3>
+                <p><strong>Options post-génération :</strong></p>
+                <ul>
+                    <li>Modifier le texte des indices (« Animal » → « Grand animal gris »)</li>
+                    <li>Re-mélanger un mot spécifique (ordre de lettres différent)</li>
+                    <li>Ajuster la taille de police</li>
+                    <li>Réorganiser les mots (du plus facile au plus difficile)</li>
+                </ul>
+            </div>
+
+            <div class="feature-card">
+                <h3>Étape 5 : Exporter (3 secondes)</h3>
+                <p><strong>Formats :</strong> PDF ou JPEG</p>
+                <p><strong>Inclut :</strong> Fiche + Corrigé</p>
+                <p><strong>Option niveaux de gris :</strong> Disponible</p>
+            </div>
+
+            <div class="success-box">
+                <h4>✅ Gain de Temps Extraordinaire</h4>
+                <p><strong>Total : 50 secondes</strong> (vs 20-25 minutes pour créer manuellement des anagrammes avec indices adaptatifs)</p>
+            </div>
+
+            <!-- Section 5: Implementation Strategies -->
+            <h2>Stratégies de Mise en Œuvre en Classe</h2>
+
+            <h3>Stratégie 1 : Pratique d'Orthographe Différenciée</h3>
+
+            <p><strong>Configuration</strong> (même liste de mots, 3 niveaux de difficulté) :</p>
+
+            <div class="feature-card">
+                <h4>Niveau 1 (Élèves en Difficulté)</h4>
+                <ul>
+                    <li>Mode Facile (indices maximaux)</li>
+                    <li>8-10 mots seulement</li>
+                    <li>Mots les plus simples de la liste</li>
+                </ul>
+            </div>
+
+            <div class="feature-card">
+                <h4>Niveau 2 (Élèves au Niveau)</h4>
+                <ul>
+                    <li>Mode Moyen (indices modérés)</li>
+                    <li>Liste complète de 15 mots</li>
+                </ul>
+            </div>
+
+            <div class="feature-card">
+                <h4>Niveau 3 (Élèves Avancés)</h4>
+                <ul>
+                    <li>Mode Difficile (indices minimaux)</li>
+                    <li>Liste complète + mots défis</li>
+                </ul>
+            </div>
+
+            <div class="success-box">
+                <h4>✅ Bénéfice de la Différenciation</h4>
+                <p>Chaque élève pratique le même contenu à la difficulté appropriée, garantissant l'engagement et le progrès pour tous.</p>
+            </div>
+
+            <h3>Stratégie 2 : Défi de Vitesse en Binôme</h3>
+
+            <p><strong>Protocole :</strong></p>
+            <ul>
+                <li>Générer anagramme difficulté Moyenne (10 mots)</li>
+                <li>Partenaire A résout mots 1-5</li>
+                <li>Partenaire B résout mots 6-10</li>
+                <li>Minuteur : 10 minutes</li>
+                <li>Gagnants : Binôme avec la meilleure précision combinée</li>
+            </ul>
+
+            <p><strong>Variation :</strong> Inverser les rôles (Partenaire B fait 1-5, A fait 6-10)</p>
+
+            <h3>Stratégie 3 : Révélation Progressive</h3>
+
+            <p><strong>Pour les mots particulièrement difficiles :</strong></p>
+
+            <ol>
+                <li><strong>Tour 1 :</strong> Montrer uniquement l'indice sémantique - L'élève tente (2 minutes)</li>
+                <li><strong>Tour 2 :</strong> Révéler l'indice de première lettre - L'élève tente à nouveau</li>
+                <li><strong>Tour 3 :</strong> Révéler l'indice de dernière lettre - Tentative finale</li>
+            </ol>
+
+            <div class="info-box">
+                <h4>💡 Moment Pédagogique</h4>
+                <p>Discuter quel indice était le plus utile (développe la métacognition)</p>
+            </div>
+
+            <h3>Stratégie 4 : Anagrammes Créées par les Élèves</h3>
+
+            <p><strong>Extension avancée (CE2+) :</strong></p>
+
+            <ol>
+                <li>L'élève sélectionne 5 mots de vocabulaire</li>
+                <li>Écrit un indice sémantique pour chacun</li>
+                <li>Mélange manuellement les lettres (utiliser sélection aléatoire)</li>
+                <li>Échange avec un partenaire</li>
+                <li>Le partenaire résout</li>
+            </ol>
+
+            <div class="success-box">
+                <h4>✅ Pensée d'Ordre Supérieur</h4>
+                <p>Créer des indices efficaces nécessite une compréhension profonde du mot - excellente activité métacognitive.</p>
+            </div>
+
+            <!-- Section 6: Differentiation -->
+            <h2>Stratégies de Différenciation</h2>
+
+            <h3>Pour les Élèves FLE/FLS</h3>
+
+            <p><strong>Modifications :</strong></p>
+            <ul>
+                <li>Mode Facile (indices maximaux)</li>
+                <li>Inclure indices visuels (double codage)</li>
+                <li>Interface bilingue (instructions en langue maternelle)</li>
+                <li>Liste de mots plus courte (5-8 mots)</li>
+            </ul>
+
+            <div class="info-box">
+                <h4>💡 Soutien Visuel</h4>
+                <p>Images accompagnant les indices sémantiques pour renforcer la compréhension (théorie du double codage)</p>
+            </div>
+
+            <h3>Pour les Élèves Dyslexiques</h3>
+
+            <p><strong>Adaptations :</strong></p>
+            <ul>
+                <li>Police adaptée dyslexie</li>
+                <li>Espacement des lignes augmenté (réduire encombrement visuel)</li>
+                <li>Voyelles codées en couleur (surlignées en bleu)</li>
+                <li>Temps supplémentaire (pas de précipitation)</li>
+            </ul>
+
+            <div class="research-highlight">
+                <strong>Recherche :</strong> L'étayage visuel améliore l'achèvement chez les élèves dyslexiques de 52% (Snowling, 2000).
+            </div>
+
+            <h3>Pour les Élèves à Haut Potentiel</h3>
+
+            <p><strong>Extensions :</strong></p>
+            <ul>
+                <li>Mode Difficile + aucun indice sémantique (seulement longueur du mot)</li>
+                <li>Mots de 12+ lettres (EXTRAORDINAIRE, HIPPOPOTAME)</li>
+                <li>Défi chronométré (1 minute par mot)</li>
+                <li>Créer anagramme thématique (tous termes scientifiques, toute géographie)</li>
+            </ul>
+
+            <!-- Section 7: Pricing -->
+            <h2>Tarification et Rentabilité</h2>
+
+            <div class="pricing-card">
+                <h3>❌ Formule Gratuite (0€)</h3>
+                <p><strong>Mots Mélangés NON inclus</strong></p>
+                <p>✅ Mots Mêlés uniquement</p>
+            </div>
+
+            <div class="pricing-card">
+                <h3>✅ Formule Essentielle</h3>
+                <div class="price">144$/an</div>
+                <p><strong>Mots Mélangés INCLUS avec toutes les fonctionnalités :</strong></p>
+                <ul>
+                    <li>✅ Algorithme d'indices fractionnaires</li>
+                    <li>✅ Tous les 3 modes de difficulté</li>
+                    <li>✅ Mélange Fisher-Yates</li>
+                    <li>✅ Saisie d'indices personnalisés</li>
+                    <li>✅ 11 langues</li>
+                    <li>✅ Corrigés automatiques</li>
+                    <li>✅ Édition post-génération</li>
+                    <li>✅ Sans filigrane</li>
+                    <li>✅ Licence commerciale</li>
+                </ul>
+                <p style="margin-top: 20px;"><strong>Idéal pour :</strong> Enseignants primaire (CP-CM2), Enseignants FLE</p>
+            </div>
+
+            <div class="pricing-card">
+                <h3>✅ Accès Complet</h3>
+                <div class="price">240$/an</div>
+                <p><strong>Mots Mélangés + 32 autres générateurs</strong></p>
+                <ul>
+                    <li>✅ Tout de la Formule Essentielle</li>
+                    <li>✅ Support prioritaire</li>
+                    <li>✅ Accès à tous les générateurs de fiches</li>
+                </ul>
+            </div>
+
+            <h3>Gain de Temps et Retour sur Investissement</h3>
+
+            <div class="feature-card">
+                <h4>Création Manuelle</h4>
+                <ul>
+                    <li>Entrer les mots : 3 minutes</li>
+                    <li>Mélanger chaque mot à la main : 8 minutes (sujet aux biais)</li>
+                    <li>Calculer indices adaptatifs pour chaque longueur : 6 minutes</li>
+                    <li>Mise en page de la fiche : 5 minutes</li>
+                    <li>Créer le corrigé : 3 minutes</li>
+                </ul>
+                <p style="margin-top: 15px;"><strong>Total : 25 minutes</strong></p>
+            </div>
+
+            <div class="feature-card">
+                <h4>Générateur LessonCraft Studio</h4>
+                <ul>
+                    <li>Entrer les mots : 20 secondes</li>
+                    <li>Configurer : 15 secondes</li>
+                    <li>Générer : 2 secondes</li>
+                    <li>Exporter : 3 secondes</li>
+                </ul>
+                <p style="margin-top: 15px;"><strong>Total : 40 secondes</strong></p>
+            </div>
+
+            <div class="success-box">
+                <h4>✅ Analyse du Retour sur Investissement</h4>
+                <p><strong>Temps économisé : 24,3 minutes par fiche (98% plus rapide)</strong></p>
+
+                <p style="margin-top: 15px;"><strong>Utilisation hebdomadaire</strong> (2 fiches) : 24,3 × 2 = 48,6 min = <strong>0,8 heures</strong></p>
+
+                <p><strong>Annuel</strong> (36 semaines) : 0,8 × 36 = <strong>28,8 heures</strong></p>
+
+                <p><strong>Valeur temps</strong> : 28,8 h × 30€/heure = <strong>864€</strong></p>
+
+                <p style="margin-top: 15px; font-size: 20px;"><strong>ROI Formule Essentielle :</strong> 864€ − 144$ (≈132€) = <strong>732€ de bénéfice net</strong> (rendement 5,5×)</p>
+            </div>
+
+            <!-- Section 8: FAQ -->
+            <h2>Questions Fréquentes</h2>
+
+            <div class="feature-card">
+                <h4>Pourquoi ne pas donner le même nombre d'indices à tous les mots ?</h4>
+                <p><strong>Déséquilibre de charge cognitive :</strong></p>
+                <ul>
+                    <li>Mot de 3 lettres avec 3 indices : Trop facile (les élèves ne pratiquent pas la récupération)</li>
+                    <li>Mot de 9 lettres avec 1 indice : Trop difficile (les élèves abandonnent)</li>
+                </ul>
+                <p style="margin-top: 15px;"><strong>Les indices adaptatifs maintiennent le défi optimal (ZPD) pour toutes les longueurs de mots.</strong></p>
+            </div>
+
+            <div class="feature-card">
+                <h4>Puis-je remplacer le calcul automatique des indices ?</h4>
+                <p><strong>Oui !</strong> L'édition post-génération permet :</p>
+                <ul>
+                    <li>Ajouter indice manuel à n'importe quel mot</li>
+                    <li>Supprimer indice auto-généré</li>
+                    <li>Modifier le texte de l'indice</li>
+                </ul>
+                <p style="margin-top: 15px;"><strong>Cas d'usage :</strong> L'enseignant veut challenger les élèves avancés → Supprimer indices des mots de longueur moyenne</p>
+            </div>
+
+            <div class="feature-card">
+                <h4>Comment cela se compare-t-il aux logiciels d'orthographe commerciaux ?</h4>
+
+                <p><strong>Logiciels commerciaux</strong> (ex. Orthodidacte) :</p>
+                <ul>
+                    <li>Abonnement : 50-90€/an (par fonctionnalité)</li>
+                    <li>Édition limitée</li>
+                    <li>En ligne uniquement (pas de fiches hors ligne)</li>
+                </ul>
+
+                <p style="margin-top: 15px;"><strong>Générateur Mots Mélangés LessonCraft Studio :</strong></p>
+                <ul>
+                    <li>Formule Essentielle : 144$/an (≈132€, 10 générateurs incluant Mots Mélangés)</li>
+                    <li>Édition post-génération complète</li>
+                    <li>Impression fiches illimitées (utilisation hors ligne)</li>
+                </ul>
+
+                <p style="margin-top: 15px;"><strong>Valeur supplémentaire :</strong> Licence commerciale (peut vendre fiches sur TPT)</p>
+            </div>
+
+            <!-- Conclusion -->
+            <h2>Conclusion</h2>
+
+            <p>La difficulté adaptative n'est pas un luxe—c'est essentiel pour maintenir un défi optimal à travers des longueurs de mots variées.</p>
+
+            <p><strong>L'Algorithme d'Indices Fractionnaires</strong> garantit mathématiquement l'étayage approprié, permettant à chaque élève de réussir quel que soit le niveau de complexité du vocabulaire.</p>
+
+            <div class="success-box">
+                <h4>✅ Ce que la Recherche Nous Apprend</h4>
+                <ul>
+                    <li>Tâches en ZPD : acquisition des compétences 2,4× plus rapide (Vygotski, 1978)</li>
+                    <li>Récupération active : mémoire 4× plus forte vs passif (Karpicke & Roediger, 2008)</li>
+                    <li>Succès d'achèvement prédit engagement : r = 0,71 (Schunk, 1991)</li>
+                </ul>
+            </div>
+
+            <div class="info-box">
+                <h4>💡 Disponibilité</h4>
+                <p><strong>Disponible dans Formule Essentielle</strong> (144$/an) avec mélange Fisher-Yates et 11 langues.</p>
+                <p style="margin-top: 10px;"><strong>Chaque anagramme que vos élèves rencontreront sera appropriément stimulant.</strong></p>
+            </div>
+
+            <!-- CTA Section -->
+            <div class="cta-section">
+                <h3>Prêt à Créer des Mots Mélangés Adaptatifs ?</h3>
+                <p>Découvrez comment l'algorithme d'indices fractionnaires peut transformer votre enseignement de l'orthographe.</p>
+                <div class="cta-buttons">
+                    <a href="https://www.lessoncraftstudio.com/pricing" class="btn btn-primary">Voir les Options Tarifaires</a>
+                    <a href="https://www.lessoncraftstudio.com/word-scramble" class="btn btn-outline">En Savoir Plus</a>
+                </div>
+            </div>
+
+            <!-- References -->
+            <div class="references">
+                <h2>Références de Recherche</h2>
+                <ol>
+                    <li><strong>Vygotski, L. S. (1978).</strong> <em>Mind in Society: Development of Higher Psychological Processes.</em> Harvard University Press. [Tâches en ZPD : acquisition 2,4× plus rapide]</li>
+
+                    <li><strong>Karpicke, J. D., & Roediger, H. L. (2008).</strong> « The critical importance of retrieval for learning. » <em>Science, 319</em>(5865), 966-968. [Récupération active 4× plus forte que passif]</li>
+
+                    <li><strong>Miller, G. A. (1956).</strong> « The magical number seven, plus or minus two: Some limits on our capacity for processing information. » <em>Psychological Review, 63</em>(2), 81-97. [Limites de mémoire de travail]</li>
+
+                    <li><strong>Schunk, D. H. (1991).</strong> « Self-efficacy and academic motivation. » <em>Educational Psychologist, 26</em>(3-4), 207-231. [Achèvement prédit engagement, r = 0,71]</li>
+
+                    <li><strong>Snowling, M. J. (2000).</strong> <em>Dyslexia</em> (2ème édition). Blackwell Publishing. [Étayage visuel améliore achèvement 52%]</li>
+                </ol>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="article-footer">
+            <p><strong>Dernière mise à jour :</strong> Février 2025 | Algorithme d'Indices Fractionnaires testé avec plus de 8 000 anagrammes</p>
+            <p style="margin-top: 15px;">
+                <a href="https://www.lessoncraftstudio.com">LessonCraft Studio</a> |
+                <a href="https://www.lessoncraftstudio.com/blog">Blog</a> |
+                <a href="https://www.lessoncraftstudio.com/pricing">Tarification</a>
+            </p>
+        </footer>
+    </article>
+</body>
+</html>

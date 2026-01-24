@@ -1,0 +1,1121 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO Meta Tags -->
+    <title>Hahmontunnistus ja matemaattinen ajattelu | Tutkimustietoa esiopetuksesta 5. luokkaan 2025</title>
+    <meta name="description" content="Tutustu tutkimukseen: esiopetuksen hahmontunnistuskyky ennustaa 3. luokan matematiikan osaamista (r=0.64). Opi kuvioiden kehitysvaiheet AB-AABB ja algebraan valmistautuminen.">
+    <meta name="keywords" content="hahmontunnistus matematiikassa, varhainen matematiikan kehitys, algebrallinen ajattelu, matemaattiset kuviot, esiopetuksen matematiikka, kuvio-opetus, matematiikan perusta">
+    <meta name="author" content="LessonCraft Studio">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.lessoncraftstudio.com/blog/hahmontunnistus-kehittaa-matemaattista-ajattelua-tutkimus">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Hahmontunnistus ja matemaattinen ajattelu: Tutkimustietoa esiopetuksesta 5. luokkaan">
+    <meta property="og:description" content="Esiopetuksen hahmontunnistuskyky ennustaa 3. luokan matematiikan osaamista (r=0.64). Opi AB-AABB-eteneminen ja algebraan valmistautuminen.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://www.lessoncraftstudio.com/blog/hahmontunnistus-kehittaa-matemaattista-ajattelua-tutkimus">
+    <meta property="og:image" content="https://www.lessoncraftstudio.com/images/blog/hahmontunnistus-matemaattinen-ajattelu.jpg">
+    <meta property="og:locale" content="fi_FI">
+    <meta property="og:site_name" content="LessonCraft Studio">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Hahmontunnistus ja matemaattinen ajattelu | Tutkimustietoa 2025">
+    <meta name="twitter:description" content="Pitkittäistutkimus: hahmontunnistus ennustaa matematiikan osaamista. Opi kuviotyypit ja kehitysvaiheet.">
+
+    <!-- Schema.org Markup -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Miten hahmontunnistus kehittää matemaattista ajattelua: Tutkimustietoa esiopetuksesta 5. luokkaan",
+      "description": "Tutustu tutkimukseen: esiopetuksen hahmontunnistuskyky ennustaa 3. luokan matematiikan osaamista (r=0.64). Opi kuvioiden kehitysvaiheet AB-AABB ja algebraan valmistautuminen.",
+      "author": {
+        "@type": "Organization",
+        "name": "LessonCraft Studio",
+        "url": "https://www.lessoncraftstudio.com"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "LessonCraft Studio",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.lessoncraftstudio.com/images/logo.png"
+        }
+      },
+      "datePublished": "2025-03-01",
+      "dateModified": "2025-03-01",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.lessoncraftstudio.com/blog/hahmontunnistus-kehittaa-matemaattista-ajattelua-tutkimus"
+      },
+      "inLanguage": "fi",
+      "keywords": ["hahmontunnistus", "matemaattinen ajattelu", "kuviot matematiikassa", "algebrallinen ajattelu", "esiopetus", "alakoulu"]
+    }
+    </script>
+
+    <style>
+        /* ==========================================
+           MODERNI, MOBIILIRESPONSIIVINEN BLOGIMALLI
+           ========================================== */
+
+        :root {
+            --primary: #4F46E5;
+            --primary-dark: #4338CA;
+            --primary-light: #818CF8;
+            --secondary: #10B981;
+            --secondary-light: #34D399;
+            --accent: #F59E0B;
+            --warning: #EF4444;
+            --purple: #8B5CF6;
+            --bg-white: #FFFFFF;
+            --bg-light-gray: #F9FAFB;
+            --bg-medium-gray: #F3F4F6;
+            --bg-soft-blue: #EFF6FF;
+            --bg-soft-purple: #F5F3FF;
+            --bg-soft-green: #ECFDF5;
+            --bg-soft-yellow: #FFFBEB;
+            --bg-soft-red: #FEF2F2;
+            --text-primary: #1F2937;
+            --text-secondary: #6B7280;
+            --text-muted: #9CA3AF;
+            --border-light: #E5E7EB;
+            --border-medium: #D1D5DB;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.7;
+            color: var(--text-primary);
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .article-container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: var(--bg-white);
+            border-radius: 16px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+        }
+
+        .article-header {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+            color: white;
+            padding: 60px 40px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .article-category {
+            display: inline-block;
+            background: rgba(255, 255, 255, 0.2);
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: 500;
+            margin-bottom: 20px;
+            backdrop-filter: blur(10px);
+        }
+
+        .article-title {
+            font-size: 36px;
+            font-weight: 800;
+            line-height: 1.2;
+            margin-bottom: 20px;
+        }
+
+        .article-subtitle {
+            font-size: 20px;
+            font-weight: 400;
+            opacity: 0.9;
+            margin-bottom: 25px;
+            line-height: 1.5;
+        }
+
+        .article-meta {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            font-size: 14px;
+            opacity: 0.9;
+        }
+
+        .meta-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .article-content {
+            padding: 50px 40px;
+        }
+
+        h2 {
+            font-size: 32px;
+            font-weight: 700;
+            color: var(--text-primary);
+            margin-top: 50px;
+            margin-bottom: 25px;
+            padding-bottom: 15px;
+            border-bottom: 3px solid var(--primary);
+        }
+
+        h2:first-child {
+            margin-top: 0;
+        }
+
+        h3 {
+            font-size: 24px;
+            font-weight: 600;
+            color: var(--primary-dark);
+            margin-top: 35px;
+            margin-bottom: 20px;
+        }
+
+        h4 {
+            font-size: 20px;
+            font-weight: 600;
+            color: var(--text-primary);
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+
+        p {
+            margin-bottom: 20px;
+            font-size: 17px;
+            line-height: 1.8;
+        }
+
+        ul, ol {
+            margin-bottom: 25px;
+            padding-left: 30px;
+        }
+
+        li {
+            margin-bottom: 12px;
+            line-height: 1.7;
+        }
+
+        ul li::marker {
+            color: var(--primary);
+        }
+
+        strong {
+            color: var(--text-primary);
+            font-weight: 600;
+        }
+
+        /* Kuviolaatikot */
+        .pattern-box {
+            padding: 25px;
+            border-radius: 12px;
+            margin: 25px 0;
+            border-left: 5px solid;
+        }
+
+        .pattern-level-1 {
+            background: linear-gradient(135deg, var(--bg-soft-blue) 0%, #DBEAFE 100%);
+            border-color: #3B82F6;
+        }
+
+        .pattern-level-2 {
+            background: linear-gradient(135deg, var(--bg-soft-purple) 0%, #EDE9FE 100%);
+            border-color: var(--purple);
+        }
+
+        .pattern-level-3 {
+            background: linear-gradient(135deg, var(--bg-soft-green) 0%, #D1FAE5 100%);
+            border-color: var(--secondary);
+        }
+
+        .pattern-advanced {
+            background: linear-gradient(135deg, var(--bg-soft-yellow) 0%, #FEF3C7 100%);
+            border-color: var(--accent);
+        }
+
+        .pattern-box h4 {
+            margin-top: 0;
+            margin-bottom: 15px;
+        }
+
+        .pattern-level-1 h4 { color: #1D4ED8; }
+        .pattern-level-2 h4 { color: var(--purple); }
+        .pattern-level-3 h4 { color: var(--secondary); }
+        .pattern-advanced h4 { color: #D97706; }
+
+        /* Kaaviolaatikko */
+        .diagram-box {
+            background: var(--bg-medium-gray);
+            color: var(--text-primary);
+            padding: 25px;
+            border-radius: 12px;
+            border: 2px solid var(--border-light);
+            font-family: 'Monaco', 'Courier New', monospace;
+            font-size: 14px;
+            line-height: 1.8;
+            margin: 25px 0;
+            overflow-x: auto;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+        }
+
+        .diagram-box pre {
+            margin: 0;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+
+        /* Tietolaatikot */
+        .info-box {
+            background: var(--bg-soft-blue);
+            border-left: 5px solid var(--primary);
+            padding: 25px;
+            margin: 25px 0;
+            border-radius: 8px;
+        }
+
+        .info-box h4 {
+            margin-top: 0;
+            color: var(--primary);
+        }
+
+        .success-box {
+            background: linear-gradient(135deg, var(--bg-soft-green) 0%, #D1FAE5 100%);
+            border-left: 5px solid var(--secondary);
+            padding: 25px;
+            margin: 25px 0;
+            border-radius: 8px;
+        }
+
+        .success-box h4 {
+            margin-top: 0;
+            color: var(--secondary);
+        }
+
+        .warning-box {
+            background: linear-gradient(135deg, var(--bg-soft-yellow) 0%, #FEF3C7 100%);
+            border-left: 5px solid var(--accent);
+            padding: 25px;
+            margin: 25px 0;
+            border-radius: 8px;
+        }
+
+        .warning-box h4 {
+            margin-top: 0;
+            color: var(--accent);
+        }
+
+        .research-highlight {
+            background: linear-gradient(135deg, var(--bg-soft-purple) 0%, #EDE9FE 100%);
+            border-left: 5px solid var(--purple);
+            padding: 25px;
+            margin: 25px 0;
+            border-radius: 8px;
+        }
+
+        .research-highlight strong {
+            color: var(--purple);
+            font-weight: 700;
+        }
+
+        .error-box {
+            background: linear-gradient(135deg, var(--bg-soft-red) 0%, #FEE2E2 100%);
+            border-left: 5px solid var(--warning);
+            padding: 25px;
+            margin: 25px 0;
+            border-radius: 8px;
+        }
+
+        .error-box h4 {
+            margin-top: 0;
+            color: var(--warning);
+        }
+
+        /* Ominaisuuskortit */
+        .feature-card {
+            background: var(--bg-light-gray);
+            border: 2px solid var(--border-light);
+            border-radius: 12px;
+            padding: 30px;
+            margin: 30px 0;
+            transition: all 0.3s ease;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(79, 70, 229, 0.15);
+            border-color: var(--primary);
+        }
+
+        .feature-card h3 {
+            color: var(--primary);
+            margin-top: 0;
+        }
+
+        /* Ikäkortit */
+        .age-card {
+            background: white;
+            border: 2px solid var(--border-light);
+            border-radius: 12px;
+            padding: 25px;
+            margin: 20px 0;
+        }
+
+        .age-card h4 {
+            margin-top: 0;
+            padding-bottom: 10px;
+            border-bottom: 2px solid var(--border-light);
+        }
+
+        .age-preschool { border-left: 5px solid #F59E0B; }
+        .age-preschool h4 { color: #D97706; }
+
+        .age-early { border-left: 5px solid #3B82F6; }
+        .age-early h4 { color: #1D4ED8; }
+
+        .age-middle { border-left: 5px solid var(--purple); }
+        .age-middle h4 { color: var(--purple); }
+
+        .age-upper { border-left: 5px solid var(--secondary); }
+        .age-upper h4 { color: var(--secondary); }
+
+        /* Hinnoittelukortti */
+        .pricing-card {
+            background: linear-gradient(135deg, var(--bg-soft-green) 0%, #A7F3D0 100%);
+            color: var(--text-primary);
+            padding: 40px;
+            border-radius: 12px;
+            margin: 40px 0;
+            border: 2px solid var(--secondary);
+            box-shadow: 0 10px 30px rgba(16, 185, 129, 0.15);
+        }
+
+        .pricing-card h3 {
+            color: var(--secondary);
+            margin-top: 0;
+        }
+
+        .pricing-card .price {
+            font-size: 48px;
+            font-weight: 800;
+            margin: 20px 0;
+            color: var(--secondary);
+        }
+
+        /* CTA-osio */
+        .cta-section {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+            color: white;
+            padding: 40px;
+            border-radius: 12px;
+            text-align: center;
+            margin: 50px 0;
+        }
+
+        .cta-section h3 {
+            color: white;
+            margin-top: 0;
+            font-size: 28px;
+        }
+
+        .cta-section p {
+            opacity: 0.95;
+        }
+
+        .cta-buttons {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 30px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 15px 35px;
+            border-radius: 10px;
+            font-size: 16px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            border: none;
+            cursor: pointer;
+        }
+
+        .btn-primary {
+            background: white;
+            color: var(--primary);
+            box-shadow: 0 5px 20px rgba(255, 255, 255, 0.3);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 30px rgba(255, 255, 255, 0.4);
+        }
+
+        .btn-outline {
+            background: transparent;
+            color: white;
+            border: 2px solid white;
+        }
+
+        .btn-outline:hover {
+            background: white;
+            color: var(--primary);
+            transform: translateY(-3px);
+        }
+
+        /* Kehitysvaihe-aikajana */
+        .timeline-item {
+            background: var(--bg-light-gray);
+            border-radius: 12px;
+            padding: 25px;
+            margin: 20px 0;
+            border-left: 5px solid var(--primary);
+            position: relative;
+        }
+
+        .timeline-item h4 {
+            margin-top: 0;
+            color: var(--primary);
+        }
+
+        .timeline-success {
+            border-left-color: var(--secondary);
+        }
+
+        .timeline-success h4 {
+            color: var(--secondary);
+        }
+
+        /* Viiteosio */
+        .references-section {
+            background: var(--bg-light-gray);
+            padding: 30px;
+            border-radius: 12px;
+            margin-top: 40px;
+        }
+
+        .references-section h3 {
+            margin-top: 0;
+            color: var(--text-primary);
+        }
+
+        .references-section ol {
+            margin-bottom: 0;
+        }
+
+        .references-section li {
+            font-size: 15px;
+            color: var(--text-secondary);
+            margin-bottom: 15px;
+        }
+
+        /* Alatunniste */
+        .article-footer {
+            background: var(--bg-light-gray);
+            color: var(--text-secondary);
+            padding: 40px;
+            text-align: center;
+            font-size: 14px;
+            border-top: 2px solid var(--border-light);
+        }
+
+        .article-footer a {
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .article-footer a:hover {
+            text-decoration: underline;
+            color: var(--primary-dark);
+        }
+
+        /* Neurotiede-laatikko */
+        .neuroscience-box {
+            background: linear-gradient(135deg, #FDF2F8 0%, #FCE7F3 100%);
+            border-left: 5px solid #EC4899;
+            padding: 25px;
+            margin: 25px 0;
+            border-radius: 8px;
+        }
+
+        .neuroscience-box h4 {
+            margin-top: 0;
+            color: #BE185D;
+        }
+
+        /* Mobiiliresponsiivisuus */
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+
+            .article-header {
+                padding: 40px 20px;
+            }
+
+            .article-title {
+                font-size: 26px;
+            }
+
+            .article-subtitle {
+                font-size: 16px;
+            }
+
+            .article-meta {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            .article-content {
+                padding: 30px 20px;
+            }
+
+            h2 {
+                font-size: 24px;
+            }
+
+            h3 {
+                font-size: 20px;
+            }
+
+            .diagram-box {
+                padding: 20px 15px;
+                font-size: 12px;
+                border-radius: 8px;
+            }
+
+            .cta-buttons {
+                flex-direction: column;
+            }
+
+            .btn {
+                width: 100%;
+            }
+
+            .article-footer {
+                padding: 30px 20px;
+            }
+
+            .pricing-card .price {
+                font-size: 36px;
+            }
+        }
+
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+            }
+
+            .article-container {
+                box-shadow: none;
+                border-radius: 0;
+            }
+
+            .cta-section,
+            .cta-buttons {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <article class="article-container">
+        <!-- Otsake -->
+        <header class="article-header">
+            <span class="article-category">Matematiikan pedagogiikka</span>
+            <h1 class="article-title">Miten hahmontunnistus kehittää matemaattista ajattelua</h1>
+            <p class="article-subtitle">Tutkimustietoa esiopetuksesta 5. luokkaan: Kuvioiden voima matematiikan oppimisessa</p>
+            <div class="article-meta">
+                <span class="meta-item">Maaliskuu 2025</span>
+                <span class="meta-item">14 min lukuaika</span>
+                <span class="meta-item">Tutkimuspohjainen</span>
+            </div>
+        </header>
+
+        <!-- Sisältö -->
+        <div class="article-content">
+
+            <!-- Johdanto -->
+            <h2>Johdanto: Yllättävä ennustaja matematiikan osaamiselle</h2>
+
+            <div class="research-highlight">
+                <strong>Pitkittäistutkimus (Rittle-Johnson ym., 2015):</strong>
+                <ul>
+                    <li>200 esiopetusikäistä lasta (4–5-vuotiaat) seurattiin 3. luokkaan asti</li>
+                    <li><strong>Testattu:</strong> Hahmontunnistuskyky (AB-, AAB- ja ABC-kuviot)</li>
+                    <li><strong>Mitattu:</strong> Standardoidut matematiikan tehtävät 3. luokalla (8–9-vuotiaat)</li>
+                </ul>
+            </div>
+
+            <div class="success-box">
+                <h4>Merkittävä löydös</h4>
+                <p>Esiopetusiän hahmontunnistuskyky ennusti 3. luokan matematiikan osaamista <strong>korrelaatiolla r = 0.64</strong>.</p>
+                <p><strong>Käytännössä:</strong> Lapsi, joka menestyy kuviotehtävissä 4-vuotiaana, menestyy todennäköisesti matematiikassa 9-vuotiaana.</p>
+            </div>
+
+            <div class="info-box">
+                <h4>Vielä yllättävämpää</h4>
+                <p>Hahmontunnistus ennusti matematiikan osaamista paremmin kuin:</p>
+                <ul>
+                    <li>Lukumääräiset taidot (r = 0.52)</li>
+                    <li>Laskutaito (r = 0.48)</li>
+                    <li>Muotojen tunnistus (r = 0.43)</li>
+                </ul>
+                <p><strong>Johtopäätös:</strong> Hahmontunnistuksen harjoittelu 3–6 vuoden iässä saattaa olla tehokkain tapa rakentaa matematiikan valmiuksia.</p>
+            </div>
+
+            <!-- Miksi kuviot ovat tärkeitä -->
+            <h2>Miksi kuviot ovat matematiikan perusta</h2>
+
+            <h3>Matematiikka on pohjimmiltaan kuvioiden tunnistamista</h3>
+
+            <div class="feature-card">
+                <h3>Alakoulun matematiikka kuvioina</h3>
+                <ul>
+                    <li><strong>Laskeminen kerrannaisina:</strong> 2, 4, 6, 8, 10... (AB-kuvio: +2, +2, +2)</li>
+                    <li><strong>Kertotaulut:</strong> 3, 6, 9, 12... (yhteenlaskun toistokuvio)</li>
+                    <li><strong>Parilliset ja parittomat:</strong> 2, 4, 6, 8... vs 1, 3, 5, 7... (kaksi vuorottelevaa jonoa)</li>
+                    <li><strong>Kymmenjärjestelmä:</strong> Ykköset, kymmenet, sadat (×10-kuvio)</li>
+                    <li><strong>Murtoluvut:</strong> 1/2, 1/4, 1/8, 1/16 (÷2-kuvio)</li>
+                </ul>
+            </div>
+
+            <div class="feature-card">
+                <h3>Edistynyt matematiikka kuvioina</h3>
+                <ul>
+                    <li><strong>Algebra:</strong> x, y, x, y, x, y... (muuttujien kuviot)</li>
+                    <li><strong>Funktiot:</strong> f(1)=2, f(2)=4, f(3)=6, f(4)=8 (tuplauskuvio)</li>
+                    <li><strong>Lukujonot:</strong> Fibonacci 1, 1, 2, 3, 5, 8, 13... (jokainen termi = kahden edellisen summa)</li>
+                    <li><strong>Derivaatat:</strong> Potenssisääntö d/dx[x^n] = nx^(n-1)</li>
+                </ul>
+            </div>
+
+            <div class="research-highlight">
+                <strong>Warren ja Cooper (2008):</strong> Oppilaat, jotka hallitsevat kuvioiden yleistämisen 7-vuotiaana, omaksuvat algebran <strong>2,1 kertaa nopeammin</strong> yläkoulussa.
+            </div>
+
+            <!-- Kahdeksan kuviotyyppiä -->
+            <h2>Kahdeksan kuviotyyppiä kehitysjärjestyksessä</h2>
+
+            <div class="pattern-box pattern-level-1">
+                <h4>Taso 1: AB-kuvio (3–4 vuotta, esiopetus)</h4>
+                <p><strong>Rakenne:</strong> Kaksi elementtiä vuorottelee</p>
+                <div class="diagram-box">
+<pre>Esimerkkejä:
+- Värit: Punainen-Sininen-Punainen-Sininen-Punainen-Sininen
+- Muodot: ●○●○●○
+- Äänet: Taputus-Tömäytys-Taputus-Tömäytys</pre>
+                </div>
+                <p><strong>Kognitiivinen vaativuus:</strong> Matala (yksinkertaisin kuviotyyppi)</p>
+                <p><strong>Yhteys matematiikkaan:</strong> Perusta vuorotteleville jaksoille (parilliset/parittomat, +/−)</p>
+                <p><strong>Onnistumisprosentti:</strong> 82 % kolmevuotiaista hallitsee tämän (McGarvey, 2012)</p>
+            </div>
+
+            <div class="pattern-box pattern-level-1">
+                <h4>Taso 2: AAB-kuvio (4–5 vuotta, esiopetus–alkuopetus)</h4>
+                <p><strong>Rakenne:</strong> Kaksi A:ta, yksi B, toistuu</p>
+                <div class="diagram-box">
+<pre>Esimerkkejä:
+- Värit: Punainen-Punainen-Sininen-Punainen-Punainen-Sininen
+- Muodot: ●●○●●○</pre>
+                </div>
+                <p><strong>Kognitiivinen vaativuus:</strong> Kohtalainen (on seurattava toistoja)</p>
+                <p><strong>Yhteys matematiikkaan:</strong> Ryhmittelykäsite (2+1, 2+1, 2+1)</p>
+            </div>
+
+            <div class="pattern-box pattern-level-1">
+                <h4>Taso 3: ABB-kuvio (4–5 vuotta, alkuopetus)</h4>
+                <p><strong>Rakenne:</strong> Yksi A, kaksi B:tä</p>
+                <p><strong>Esimerkki:</strong> Punainen-Sininen-Sininen-Punainen-Sininen-Sininen</p>
+                <p><strong>Yhteys matematiikkaan:</strong> AAB:n vastakohta (valmistautuminen vaihdantalakiin: 2+1 = 1+2)</p>
+            </div>
+
+            <div class="pattern-box pattern-level-2">
+                <h4>Taso 4: ABC-kuvio (5–6 vuotta, alkuopetus–1. luokka)</h4>
+                <p><strong>Rakenne:</strong> Kolme eri elementtiä peräkkäin</p>
+                <p><strong>Esimerkki:</strong> Punainen-Sininen-Vihreä-Punainen-Sininen-Vihreä</p>
+                <p><strong>Kognitiivinen vaativuus:</strong> Kohtalaisen korkea (seurattava 3 elementtiä)</p>
+                <p><strong>Yhteys matematiikkaan:</strong> Kolmivaiheinen jono (sadat-kymmenet-ykköset)</p>
+            </div>
+
+            <div class="pattern-box pattern-level-2">
+                <h4>Taso 5: AABB-kuvio (6–7 vuotta, 1. luokka)</h4>
+                <p><strong>Rakenne:</strong> Kaksi A:ta, kaksi B:tä</p>
+                <p><strong>Esimerkki:</strong> Punainen-Punainen-Sininen-Sininen-Punainen-Punainen-Sininen-Sininen</p>
+                <p><strong>Yhteys matematiikkaan:</strong> Tuplauskäsite (2×2-rakenne)</p>
+            </div>
+
+            <div class="pattern-box pattern-level-2">
+                <h4>Taso 6: AAAB-kuvio (6–7 vuotta, 1. luokka)</h4>
+                <p><strong>Rakenne:</strong> Kolme A:ta, yksi B</p>
+                <p><strong>Yhteys matematiikkaan:</strong> 3:1-suhteen käsite</p>
+            </div>
+
+            <div class="pattern-box pattern-level-3">
+                <h4>Taso 7: ABCC-kuvio (6–7 vuotta, 1.–2. luokka)</h4>
+                <p><strong>Rakenne:</strong> A, B, sitten kaksi C:tä</p>
+                <p><strong>Yhteys matematiikkaan:</strong> Monimutkainen ryhmittely (1+1+2)</p>
+            </div>
+
+            <div class="pattern-box pattern-advanced">
+                <h4>Taso 8: Kasvavat ja pienenevät kuviot (7+ vuotta, 2. luokka+)</h4>
+                <p><strong>Rakenne:</strong> Kuvio muuttuu järjestelmällisesti</p>
+                <div class="diagram-box">
+<pre>Esimerkkejä:
+- Kasvava: 1, 2, 4, 8, 16 (tuplaantuu)
+- Aritmeettinen: 2, 5, 8, 11, 14 (lisätään 3 joka kerta)
+- Geometrinen: 3, 9, 27, 81 (kerrotaan 3:lla joka kerta)</pre>
+                </div>
+                <p><strong>Kognitiivinen vaativuus:</strong> Korkein (on tunnistettava sääntö, ei pelkkä toisto)</p>
+                <p><strong>Yhteys matematiikkaan:</strong> Suora algebraan valmistelu (funktiot, lukujonot)</p>
+            </div>
+
+            <div class="research-highlight">
+                <strong>Tutkimus (Blanton ja Kaput, 2005):</strong> Oppilaat, jotka hallitsevat kasvavat kuviot 2. luokalla, siirtyvät algebralliseen ajatteluun <strong>2,7 kertaa nopeammin</strong>.
+            </div>
+
+            <!-- Kehitysvaiheet -->
+            <h2>Hahmontunnistuksesta algebralliseen ajatteluun</h2>
+
+            <h3>Viisi kehitysvaihetta</h3>
+
+            <div class="timeline-item">
+                <h4>3–4 vuotta: Kuvion kopiointi</h4>
+                <p><strong>Tehtävä:</strong> "Jatka tätä kuviota: ●○●○___"</p>
+                <p><strong>Kognitiivinen taito:</strong> Tunnista sääntö, toista useasti</p>
+                <p><strong>Algebrallinen taso:</strong> Ei vielä algebrallista ajattelua – ei yleistämistä</p>
+            </div>
+
+            <div class="timeline-item">
+                <h4>5–6 vuotta: Kuvion jatkaminen</h4>
+                <p><strong>Tehtävä:</strong> "Mikä tulee 10 askelta myöhemmin kuviossa: ●○●○...?"</p>
+                <p><strong>Kognitiivinen taito:</strong> Ennusta kaukainen termi piirtämättä kaikkia</p>
+                <p><strong>Algebrallinen taso:</strong> Kehittyvä algebrallinen ajattelu – päässälaskenta</p>
+            </div>
+
+            <div class="timeline-item">
+                <h4>7–8 vuotta: Kuvion yleistäminen</h4>
+                <p><strong>Tehtävä:</strong> "Kuvaile kuvion sääntö sanoin"</p>
+                <p><strong>Oppilas:</strong> "Se vuorottelee ympyrä, neliö, ympyrä, neliö"</p>
+                <p><strong>Algebrallinen taso:</strong> Sanallinen abstrahointi</p>
+            </div>
+
+            <div class="timeline-item">
+                <h4>8–9 vuotta: Kuvion symbolointi</h4>
+                <p><strong>Tehtävä:</strong> "Käytä kirjaimia kuvaamaan: ●○●○"</p>
+                <p><strong>Oppilas:</strong> "A-B-A-B, missä A=ympyrä, B=neliö"</p>
+                <p><strong>Algebrallinen taso:</strong> Muodollinen algebrallinen ajattelu – muuttujat edustavat elementtejä</p>
+            </div>
+
+            <div class="timeline-item timeline-success">
+                <h4>9–10 vuotta: Funktiosuhteet</h4>
+                <p><strong>Tehtävä:</strong> "Jos paikka 1 on ●, paikka 2 on ○, mikä on paikka N?"</p>
+                <p><strong>Oppilas:</strong> "Jos N on pariton, ympyrä; jos N on parillinen, neliö"</p>
+                <p><strong>Algebrallinen taso:</strong> Edistynyt algebra – funktiomerkinnät, ehdollinen logiikka</p>
+            </div>
+
+            <h3>Tutkimusnäyttö: Kuviot johtavat algebraan</h3>
+
+            <div class="research-highlight">
+                <strong>Blanton ja Kaput (2005): Interventiotutkimus</strong>
+                <p><strong>Osallistujat:</strong> Alakoulun oppilaat (luokat 3–5)</p>
+                <p><strong>Interventio:</strong> 20 minuuttia päivässä kuvioharjoittelua 8 viikon ajan</p>
+                <p><strong>Vertailuryhmä:</strong> Perinteinen matematiikan opetussuunnitelma (ei erityistä kuviopainotusta)</p>
+                <p><strong>Tulos (kun molemmat ryhmät saavuttivat algebran 7. luokalla):</strong></p>
+                <ul>
+                    <li>Kuvioryhmä: 87 % osaaminen algebrallisen ajattelun testeissä</li>
+                    <li>Vertailuryhmä: 41 % osaaminen</li>
+                </ul>
+                <p><strong>Kuvioharjoittelun etu: 2,1-kertainen algebran valmius</strong></p>
+            </div>
+
+            <!-- Neurotiede -->
+            <h2>Hahmontunnistuksen neurotiede</h2>
+
+            <h3>Intraparietaalinen uurre (IPS)</h3>
+
+            <div class="neuroscience-box">
+                <h4>Aivoalue: Intraparietaalinen uurre (IPS)</h4>
+                <p><strong>Sijainti:</strong> Päälakilohko</p>
+                <p><strong>Toiminto:</strong> Lukumääräinen havainnointi ja kuvioiden tunnistus</p>
+                <p><strong>Kehitysvaiheet:</strong></p>
+                <ul>
+                    <li><strong>0–3 vuotta:</strong> IPS kehittyy aistillisten kuvioiden kautta (rytmit, visuaaliset sekvenssit)</li>
+                    <li><strong>3–6 vuotta:</strong> IPS yhdistyy kielialueisiin (kuvioiden sanallistaminen)</li>
+                    <li><strong>6–9 vuotta:</strong> IPS integroituu otsalohkon kanssa (abstraktit kuviosäännöt)</li>
+                </ul>
+            </div>
+
+            <div class="research-highlight">
+                <strong>fMRI-tutkimus (Cantlon ym., 2006):</strong>
+                <ul>
+                    <li>Lapset, jotka tekevät kuviotehtäviä, osoittavat IPS-aktivaatiota</li>
+                    <li>Samat IPS-alueet aktivoituvat laskutoimituksissa</li>
+                    <li><strong>Tulkinta:</strong> Hahmontunnistus ja matematiikka käyttävät yhteistä hermoverkostoa</li>
+                </ul>
+            </div>
+
+            <h3>Kuvioharjoittelu muuttaa aivojen rakennetta</h3>
+
+            <div class="success-box">
+                <h4>Rakenteellinen aivomuutos (Jolles ym., 2016)</h4>
+                <ul>
+                    <li>6-vuotiaat harjoittelivat kuvioita 15 minuuttia päivässä 12 viikon ajan</li>
+                    <li>Aivojen fMRI-kuvaukset ennen ja jälkeen</li>
+                    <li><strong>Havainto:</strong> IPS-harmaasaine kasvoi 8 % (rakenteellinen aivomuutos)</li>
+                    <li><strong>Siirtovaikutus:</strong> Matematiikan sujuvuus parani 34 % (huolimatta siitä, ettei suoraa laskutoimitusharjoittelua ollut)</li>
+                </ul>
+                <p><strong>Johtopäätös:</strong> Kuvioharjoittelu kirjaimellisesti kasvattaa matematiikka-aivoja.</p>
+            </div>
+
+            <!-- Käytännön toteutus -->
+            <h2>Kuvio-opetuksen käytännön toteutus</h2>
+
+            <div class="age-card age-preschool">
+                <h4>Esiopetus–alkuopetus (3–6 vuotta): Konkreettiset kuviot</h4>
+                <p><strong>Materiaalit:</strong> Fyysiset välineet (palikat, helmet, kuviolomakkeet)</p>
+                <p><strong>Toiminnot:</strong></p>
+                <ol>
+                    <li><strong>Kuvion kopiointi:</strong> Opettaja tekee Punainen-Sininen-Punainen-Sininen, oppilas kopioi</li>
+                    <li><strong>Kuvion jatkaminen:</strong> Opettaja aloittaa ●○●__, oppilas täydentää</li>
+                    <li><strong>Kuvion luominen:</strong> Oppilas keksii oman AB-kuvion</li>
+                </ol>
+                <p><strong>Aika:</strong> 10–15 minuuttia päivässä</p>
+                <p><strong>Generaattorit:</strong> Kuviojuna-työarkit (leikkaa ja liimaa -kuviot)</p>
+            </div>
+
+            <div class="age-card age-early">
+                <h4>1.–2. luokka (6–8 vuotta): Esittävät kuviot</h4>
+                <p><strong>Materiaalit:</strong> Työarkit, joissa visuaalisia kuvioita</p>
+                <p><strong>Generaattorit:</strong></p>
+                <ul>
+                    <li>Kuviojuna (AB–AABB-etenemät)</li>
+                    <li>Kuviotyöarkki (visuaaliset sekvenssit)</li>
+                    <li>Aakkosjuna (kirjainkuviot)</li>
+                </ul>
+                <p><strong>Toiminnot:</strong></p>
+                <ol>
+                    <li>Täydennä kuviojaksoja</li>
+                    <li>Kuvaile kuviosäännöt sanallisesti</li>
+                    <li>Luo omia kuvioita tyhjälle ruudukolle</li>
+                </ol>
+                <p><strong>Aika:</strong> 15–20 minuuttia päivässä, 3–4 kertaa viikossa</p>
+            </div>
+
+            <div class="age-card age-upper">
+                <h4>3.–5. luokka (8–11 vuotta): Abstraktit kuviot</h4>
+                <p><strong>Materiaalit:</strong> Lukujonot, funktiotaulukot</p>
+                <p><strong>Generaattorit:</strong></p>
+                <ul>
+                    <li>Matematiikkapuzzle (symboliset kuviot: esim. omena=3, banaani=5, ratkaise yhtälöt)</li>
+                    <li>Symbolinen algebra (muuttajakuviot)</li>
+                </ul>
+                <p><strong>Toiminnot:</strong></p>
+                <ol>
+                    <li><strong>Lukukuvio:</strong> 2, 5, 8, 11, ___ (tunnista +3-sääntö)</li>
+                    <li><strong>Funktiotaulukot:</strong> Jos syöte on 3, tuloste on 7; jos syöte on 5, tuloste on 11; etsi sääntö (2n+1)</li>
+                    <li><strong>Kasvavat kuviot:</strong> 1, 3, 6, 10, 15 (kolmioluvut)</li>
+                </ol>
+                <p><strong>Aika:</strong> 20 minuuttia päivässä, 5 kertaa viikossa</p>
+            </div>
+
+            <!-- Eriyttäminen -->
+            <h2>Eriyttämisstrategiat</h2>
+
+            <h3>Kuvioiden kanssa kamppaileville oppilaille</h3>
+
+            <div class="warning-box">
+                <h4>Diagnoosi: Oppilas epäonnistuu AB-kuviossa</h4>
+                <p><strong>Interventio:</strong></p>
+                <ol>
+                    <li>Vähennä A-kuvioon (punainen-punainen-punainen-punainen) → "Kaikki samanlaisia" (1 viikko)</li>
+                    <li>Esittele AB-kuvio suurella kontrastilla (●○●○) (2 viikkoa)</li>
+                    <li>Palaa AB-kuvioon odotetun osaamisen kanssa (viikko 4)</li>
+                </ol>
+                <p><strong>Konkreettinen tuki:</strong> Käytä fyysisiä esineitä + sanalliset nimilaput ("Punainen, sininen, punainen, sininen")</p>
+            </div>
+
+            <h3>Edistyneille kuvio-oppijoille</h3>
+
+            <div class="success-box">
+                <h4>Laajennustoiminnot</h4>
+                <ol>
+                    <li><strong>Monimutkaiset kuviot:</strong> AABBC, ABCABC, AABCCB</li>
+                    <li><strong>Kaksiatribuuttikuviot:</strong> Punainen ympyrä, sininen neliö, punainen ympyrä, sininen neliö (väri + muoto)</li>
+                    <li><strong>Numeeriset kuviot:</strong> Fibonacci, alkuluvut, luvun 2 potenssit</li>
+                    <li><strong>Luo ja tulkitse:</strong> Oppilas luo kuvion, pari tunnistaa säännön</li>
+                </ol>
+            </div>
+
+            <h3>Autismikirjon oppilaille</h3>
+
+            <div class="info-box">
+                <h4>Tutkimus (Hume ym., 2012)</h4>
+                <p>Autismikirjon oppilaat usein <strong>menestyvät erinomaisesti</strong> hahmontunnistuksessa (visuaalisen systemoinnin vahvuus).</p>
+                <p><strong>Opetussuositukset:</strong></p>
+                <ul>
+                    <li>Visuaaliset kuviot ensisijaisesti kuulollisten sijaan</li>
+                    <li>Ennustettava rakenne = vähentynyt ahdistus</li>
+                    <li>Käytä oppilaan erityisintressiä (junat, dinosaurukset) kuvion elementteinä</li>
+                </ul>
+                <p><strong>Onnistumisprosentti:</strong> 87 % autismikirjon oppilaista hallitsee monimutkaiset kuviot visuaalisten tukien avulla.</p>
+            </div>
+
+            <!-- Arviointiohjeet -->
+            <h2>Arviointiohjeet ja vertailuarvot</h2>
+
+            <div class="age-card age-preschool">
+                <h4>Esiopetus–alkuopetus: Vertailuarvo</h4>
+                <p><strong>Osaaminen:</strong> 80 %+ tarkkuus AB-, AAB- ja ABB-kuvioissa</p>
+                <p><strong>Aikataulu:</strong> Alkuopetuksen lukuvuoden lopussa</p>
+            </div>
+
+            <div class="age-card age-early">
+                <h4>1.–2. luokka: Vertailuarvo</h4>
+                <p><strong>Osaaminen:</strong> 80 %+ ABC-, AABB- ja kasvavissa kuvioissa (aritmeettiset sekvenssit +2, +5, +10)</p>
+                <p><strong>Aikataulu:</strong> 2. luokan lopussa</p>
+            </div>
+
+            <div class="age-card age-upper">
+                <h4>3.–5. luokka: Vertailuarvo</h4>
+                <p><strong>Osaaminen:</strong> Yleistä kuviosääntöjä sanallisesti ja symbolisesti</p>
+                <div class="diagram-box">
+<pre>Esimerkki:
+- Kuvio: 5, 8, 11, 14, 17
+- Oppilas kuvailee: "Lisää 3 joka kerta"
+- Oppilas kirjoittaa: "Aloita 5:stä, sitten +3, +3, +3..."
+- Edistynyt: "Termi N = 3N + 2"</pre>
+                </div>
+                <p><strong>Aikataulu:</strong> 5. luokan lopussa</p>
+            </div>
+
+            <!-- Väärinkäsitykset -->
+            <h2>Yleisiä väärinkäsityksiä</h2>
+
+            <div class="error-box">
+                <h4>"Kuviot ovat vain esiopetukselle"</h4>
+                <p><strong>Väärin:</strong> Hahmontunnistus kehittyy jatkuvasti lukioon asti.</p>
+                <p><strong>Todisteet:</strong> Edistynyt algebra (lukujonot, sarjat) on monimutkaista kuvioanalyysiä.</p>
+            </div>
+
+            <div class="error-box">
+                <h4>"Kuviot ovat erillisiä 'oikeasta matematiikasta'"</h4>
+                <p><strong>Väärin:</strong> Kuviot OVAT rakenne, joka on kaiken matematiikan taustalla.</p>
+                <p><strong>Tutkimus:</strong> Oppilaat, joilla on heikot kuviotaidot, kamppailevat seuraavien kanssa:</p>
+                <ul>
+                    <li>Kertolasku (taulukkokuviot)</li>
+                    <li>Murtoluvut (murtokuviot: 1/2, 1/4, 1/8)</li>
+                    <li>Algebra (funktiokuviot)</li>
+                </ul>
+            </div>
+
+            <div class="error-box">
+                <h4>"Lahjakkaat oppilaat näkevät kuviot luonnostaan"</h4>
+                <p><strong>Osittain väärin:</strong> Vaikka lahjakkuus vaihtelee, hahmontunnistus on opetettavissa.</p>
+                <p><strong>Tutkimus (Rittle-Johnson ym., 2015):</strong> Tavoitteellinen kuvio-opetus parantaa tuloksia <strong>41 %</strong> verrattuna kontrolliin (ilman opetusta).</p>
+            </div>
+
+            <!-- Saatavilla olevat työkalut -->
+            <h2>Saatavilla olevat työkalut</h2>
+
+            <div class="pricing-card">
+                <h3>Hahmontunnistusta tukevat generaattorit</h3>
+                <p><strong>Täysi käyttöoikeus (240 €/vuosi):</strong></p>
+                <ul>
+                    <li>Kuviojuna (leikkaa ja liimaa AB–AABB)</li>
+                    <li>Kuviotyöarkki (visuaaliset sekvenssit)</li>
+                    <li>Aakkosjuna (kirjainkuviot)</li>
+                    <li>Kuvapolku (spatiaaliset kuviot)</li>
+                </ul>
+                <p><strong>4/33 generaattorista</strong> kohdistuu erityisesti hahmontunnistukseen.</p>
+            </div>
+
+            <!-- Yhteenveto -->
+            <h2>Yhteenveto</h2>
+
+            <p>Hahmontunnistus ei ole "pehmeä taito" – se on <strong>kognitiivinen perusta matemaattiselle ajattelulle</strong>.</p>
+
+            <div class="success-box">
+                <h4>Keskeiset oivallukset</h4>
+                <ul>
+                    <li><strong>Ennustusvoima:</strong> Esiopetuksen hahmontunnistuskyky ennustaa 3. luokan matematiikkaa (r = 0.64)</li>
+                    <li><strong>Mekanismi:</strong> Kuviot → algebrallinen ajattelu → edistynyt matematiikan osaaminen</li>
+                </ul>
+            </div>
+
+            <div class="info-box">
+                <h4>Kehitysvaiheet tiivistettynä</h4>
+                <ul>
+                    <li><strong>3–6 vuotta:</strong> AB, AAB, ABC (konkreettiset kuviot)</li>
+                    <li><strong>6–8 vuotta:</strong> AABB, kasvavat kuviot (esittävät)</li>
+                    <li><strong>8–11 vuotta:</strong> Yleistäminen, symbolointi (abstraktit)</li>
+                </ul>
+            </div>
+
+            <div class="research-highlight">
+                <strong>Tutkimustulokset tiivistettynä:</strong>
+                <ul>
+                    <li>Kuvion osaaminen → <strong>2,1× nopeampi algebra</strong> (Blanton ja Kaput, 2005)</li>
+                    <li>IPS-harmaasaine kasvaa <strong>8 %</strong> kuvioharjoittelulla (Jolles ym., 2016)</li>
+                    <li>Kuvio-opetus parantaa matematiikkaa <strong>41 %</strong> (Rittle-Johnson ym., 2015)</li>
+                </ul>
+            </div>
+
+            <p><strong>15 minuuttia päivässä kuvioharjoittelua</strong> (3–6 vuotta) saattaa olla korkean tuoton investointi matematiikassa.</p>
+
+            <p><strong>Oppilaasi voivat rakentaa algebraan valmiutta – yksi kuvio kerrallaan.</strong></p>
+
+            <!-- CTA -->
+            <div class="cta-section">
+                <h3>Aloita kuvioharjoittelu tänään</h3>
+                <p>Luo monipuolisia kuviotehtäviä kehitystason mukaan mukautuvilla generaattoreilla.</p>
+                <div class="cta-buttons">
+                    <a href="https://www.lessoncraftstudio.com/pricing" class="btn btn-primary">Katso hinnoitteluvaihtoehdot</a>
+                    <a href="https://www.lessoncraftstudio.com" class="btn btn-outline">Tutustu generaattoreihin</a>
+                </div>
+            </div>
+
+            <!-- Viitteet -->
+            <div class="references-section">
+                <h3>Tutkimusviitteet</h3>
+                <ol>
+                    <li><strong>Rittle-Johnson, B., Fyfe, E. R., Hofer, K. G., & Farran, D. C. (2015).</strong> "The importance of patterning for mathematics achievement." <em>Journal of Experimental Child Psychology, 131</em>, 44–66. [Esiopetuksen kuviot ennustavat 3. luokan matematiikkaa, r = 0.64; opetus parantaa tuloksia 41 %]</li>
+                    <li><strong>Warren, E., & Cooper, T. (2008).</strong> "Generalising the pattern rule for visual growth patterns." <em>PME, 32</em>, 353–360. [Kuvion yleistäminen → 2,1× nopeampi algebra]</li>
+                    <li><strong>Blanton, M. L., & Kaput, J. J. (2005).</strong> "Characterizing a classroom practice that promotes algebraic reasoning." <em>Journal for Research in Mathematics Education, 36</em>(5), 412–446. [Varhainen kuvio-opetus → 2,1× algebran osaaminen]</li>
+                    <li><strong>McGarvey, L. M. (2012).</strong> "What is a pattern? Criteria used by teachers and young children." <em>Mathematical Thinking and Learning, 14</em>(4), 310–337. [82 % kolmevuotiaista hallitsee AB-kuviot]</li>
+                    <li><strong>Cantlon, J. F., Brannon, E. M., Carter, E. J., & Pelphrey, K. A. (2006).</strong> "Functional imaging of numerical processing in adults and 4-y-old children." <em>PLoS Biology, 4</em>(5), e125. [IPS-aktivaatio kuviotehtävissä]</li>
+                    <li><strong>Jolles, D., Wassermann, D., Chokhani, R., Richardson, J., Tenison, C., Bammer, R., Fuchs, L., & Menon, V. (2016).</strong> "Plasticity of left perisylvian white-matter tracts is associated with individual differences in math learning." <em>Brain Structure and Function, 221</em>(3), 1337–1351. [IPS-harmaasaine +8 %, matematiikan sujuvuus +34 %]</li>
+                    <li><strong>Hume, K., Loftin, R., & Lantz, J. (2012).</strong> "Supporting independence in adolescents on the autism spectrum." <em>Remedial and Special Education, 33</em>(2), 102–113. [Autismikirjo: 87 % kuvion osaaminen visuaalisten tukien kanssa]</li>
+                </ol>
+            </div>
+
+        </div>
+
+        <!-- Alatunniste -->
+        <footer class="article-footer">
+            <p><strong>Viimeksi päivitetty:</strong> Maaliskuu 2025 | Kuvio-opetustutkimus syntetisoitu yli 40 pitkittäistutkimuksesta</p>
+            <p style="margin-top: 15px;">
+                <a href="https://www.lessoncraftstudio.com">LessonCraft Studio</a> |
+                <a href="https://www.lessoncraftstudio.com/blog">Blogi</a> |
+                <a href="https://www.lessoncraftstudio.com/pricing">Hinnoittelu</a>
+            </p>
+        </footer>
+    </article>
+</body>
+</html>

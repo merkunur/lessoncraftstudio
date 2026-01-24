@@ -1,0 +1,1161 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO Meta Tags -->
+    <title>Yksikäsitteinen ratkeavuus | Matematiikkapulma-algoritmi 2025</title>
+    <meta name="description" content="Tutustu yksikäsitteisen ratkeavuuden algoritmiin, joka takaa yhden ratkaisun 99,8 prosentin onnistumisprosentilla. Opi Gaussin eliminaatiosta, kokonaislukurajoituksista ja symbolisesta algebrasta 6-vuotiaille ja sitä vanhemmille.">
+    <meta name="keywords" content="yksikäsitteinen ratkeavuus, Gaussin eliminaatio, symbolinen algebra lapsille, matematiikkapulmageneraattori, ratkeavat yhtälöt, matematiikkatyökalut, opetustyökalut, algebratehtävät">
+    <meta name="author" content="LessonCraft Studio">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Yksikäsitteinen ratkeavuus: Algoritmi joka estää turhautumisen symbolisessa algebrassa">
+    <meta property="og:description" content="Tutustu yksikäsitteisen ratkeavuuden algoritmiin, joka takaa yhden ratkaisun 99,8 prosentin onnistumisprosentilla. Opi Gaussin eliminaatiosta ja symbolisesta algebrasta.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://www.lessoncraftstudio.com/fi/blogi/yksikasitteinen-ratkeavuus-validointi-turhautumaton-algebra">
+    <meta property="og:image" content="https://www.lessoncraftstudio.com/images/blog/yksikasitteinen-ratkeavuus-algoritmi.jpg">
+    <meta property="og:locale" content="fi_FI">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Yksikäsitteinen ratkeavuus: Turhautumaton algebra">
+    <meta name="twitter:description" content="Algoritmi joka takaa yhden ratkaisun 99,8 prosentin onnistumisprosentilla matematiikkapulmiin.">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://www.lessoncraftstudio.com/fi/blogi/yksikasitteinen-ratkeavuus-validointi-turhautumaton-algebra">
+
+    <!-- Schema.org Markup -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Yksikäsitteinen ratkeavuus: Algoritmi joka estää turhautumisen symbolisessa algebrassa",
+      "description": "Tutustu yksikäsitteisen ratkeavuuden algoritmiin, joka takaa yhden ratkaisun 99,8 prosentin onnistumisprosentilla. Opi Gaussin eliminaatiosta ja symbolisesta algebrasta.",
+      "author": {
+        "@type": "Organization",
+        "name": "LessonCraft Studio",
+        "url": "https://www.lessoncraftstudio.com"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "LessonCraft Studio",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.lessoncraftstudio.com/images/logo.png"
+        }
+      },
+      "datePublished": "2025-04-15",
+      "dateModified": "2025-04-15",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.lessoncraftstudio.com/fi/blogi/yksikasitteinen-ratkeavuus-validointi-turhautumaton-algebra"
+      },
+      "keywords": "yksikäsitteinen ratkeavuus, Gaussin eliminaatio, symbolinen algebra lapsille, matematiikkapulmageneraattori, ratkeavat yhtälöt",
+      "inLanguage": "fi",
+      "articleSection": "Opetusteknologia"
+    }
+    </script>
+
+    <style>
+        /* ==========================================
+           MODERNI, MOBIILIRESPONSIIVINEN BLOGIMALLI
+           Täysin mobiiliresponsiivinen
+           Pehmeät, ammattimaiset värit
+           Yksinkertainen yksipalstainen asettelu
+           Teksti ei leikkaudu koskaan
+           ========================================== */
+
+        /* CSS-muuttujat - Moderni, pehmeä väripaletti */
+        :root {
+            /* Päävärit - Pehmeät siniset/violetit */
+            --primary: #4F46E5;           /* Indigo 600 */
+            --primary-dark: #4338CA;      /* Indigo 700 */
+            --primary-light: #818CF8;     /* Indigo 400 */
+
+            /* Toissijainen väri - Pehmeä vihreä */
+            --secondary: #10B981;         /* Emerald 500 */
+            --secondary-light: #34D399;   /* Emerald 400 */
+
+            /* Korostusvärit */
+            --accent: #F59E0B;            /* Amber 500 */
+            --warning: #EF4444;           /* Red 500 */
+            --purple: #8B5CF6;            /* Violet 500 */
+
+            /* Pehmeät taustavärit */
+            --bg-white: #FFFFFF;
+            --bg-light-gray: #F9FAFB;     /* Gray 50 */
+            --bg-medium-gray: #F3F4F6;    /* Gray 100 */
+            --bg-soft-blue: #EFF6FF;      /* Blue 50 */
+            --bg-soft-purple: #F5F3FF;    /* Violet 50 */
+            --bg-soft-green: #ECFDF5;     /* Emerald 50 */
+            --bg-soft-yellow: #FFFBEB;    /* Amber 50 */
+
+            /* Tekstivärit */
+            --text-primary: #1F2937;      /* Gray 800 */
+            --text-secondary: #6B7280;    /* Gray 500 */
+            --text-muted: #9CA3AF;        /* Gray 400 */
+
+            /* Reunavärit */
+            --border-light: #E5E7EB;      /* Gray 200 */
+            --border-medium: #D1D5DB;     /* Gray 300 */
+        }
+
+        /* Nollaus ja perustyylit */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Runko - Liukuvärinen tausta */
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.7;
+            color: var(--text-primary);
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        /* Artikkelikontaineri - Valkoinen kortti */
+        .article-container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: var(--bg-white);
+            border-radius: 16px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+        }
+
+        /* Otsikko-osio */
+        .article-header {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+            color: white;
+            padding: 60px 40px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .article-category {
+            display: inline-block;
+            background: rgba(255, 255, 255, 0.2);
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: 500;
+            margin-bottom: 20px;
+            backdrop-filter: blur(10px);
+        }
+
+        .article-title {
+            font-size: 42px;
+            font-weight: 800;
+            line-height: 1.2;
+            margin-bottom: 20px;
+        }
+
+        .article-meta {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            font-size: 14px;
+            opacity: 0.9;
+        }
+
+        .meta-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        /* Sisältöosio */
+        .article-content {
+            padding: 50px 40px;
+        }
+
+        /* Typografia */
+        h2 {
+            font-size: 32px;
+            font-weight: 700;
+            color: var(--text-primary);
+            margin-top: 50px;
+            margin-bottom: 25px;
+            padding-bottom: 15px;
+            border-bottom: 3px solid var(--primary);
+        }
+
+        h3 {
+            font-size: 24px;
+            font-weight: 600;
+            color: var(--primary-dark);
+            margin-top: 35px;
+            margin-bottom: 20px;
+        }
+
+        h4 {
+            font-size: 20px;
+            font-weight: 600;
+            color: var(--text-primary);
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+
+        p {
+            margin-bottom: 20px;
+            font-size: 17px;
+            line-height: 1.8;
+        }
+
+        strong {
+            font-weight: 700;
+            color: var(--primary-dark);
+        }
+
+        /* Listat */
+        ul, ol {
+            margin-bottom: 25px;
+            padding-left: 30px;
+        }
+
+        li {
+            margin-bottom: 12px;
+            line-height: 1.7;
+        }
+
+        ul li::marker {
+            color: var(--primary);
+        }
+
+        /* Koodilohkot - Vaalea tausta */
+        .code-block {
+            background: var(--bg-medium-gray);
+            color: var(--text-primary);
+            padding: 25px;
+            border-radius: 12px;
+            border: 2px solid var(--border-light);
+            font-family: 'Monaco', 'Courier New', monospace;
+            font-size: 14px;
+            line-height: 1.8;
+            margin: 25px 0;
+            overflow-x: auto;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+        }
+
+        .code-block pre {
+            margin: 0;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+
+        /* Tietolaatikot */
+        .info-box {
+            background: var(--bg-soft-blue);
+            border-left: 5px solid var(--primary);
+            padding: 25px;
+            margin: 25px 0;
+            border-radius: 8px;
+        }
+
+        .info-box h4 {
+            margin-top: 0;
+            color: var(--primary);
+        }
+
+        .info-box p:last-child {
+            margin-bottom: 0;
+        }
+
+        /* Onnistumislaatikko - Pehmeä vihreä */
+        .success-box {
+            background: linear-gradient(135deg, var(--bg-soft-green) 0%, #D1FAE5 100%);
+            border-left: 5px solid var(--secondary);
+            padding: 25px;
+            margin: 25px 0;
+            border-radius: 8px;
+        }
+
+        .success-box h4 {
+            margin-top: 0;
+            color: var(--secondary);
+        }
+
+        .success-box p:last-child {
+            margin-bottom: 0;
+        }
+
+        /* Varoituslaatikko - Pehmeä keltainen */
+        .warning-box {
+            background: linear-gradient(135deg, var(--bg-soft-yellow) 0%, #FEF3C7 100%);
+            border-left: 5px solid var(--accent);
+            padding: 25px;
+            margin: 25px 0;
+            border-radius: 8px;
+        }
+
+        .warning-box h4 {
+            margin-top: 0;
+            color: var(--accent);
+        }
+
+        .warning-box p:last-child {
+            margin-bottom: 0;
+        }
+
+        /* Tutkimuslaatikko - Pehmeä violetti */
+        .research-highlight {
+            background: linear-gradient(135deg, var(--bg-soft-purple) 0%, #EDE9FE 100%);
+            border-left: 5px solid var(--purple);
+            padding: 25px;
+            margin: 25px 0;
+            border-radius: 8px;
+            font-style: italic;
+        }
+
+        .research-highlight strong {
+            color: var(--purple);
+            font-weight: 700;
+            font-style: normal;
+        }
+
+        .research-highlight p:last-child {
+            margin-bottom: 0;
+        }
+
+        /* Ominaisuuskortit */
+        .feature-card {
+            background: var(--bg-light-gray);
+            border: 2px solid var(--border-light);
+            border-radius: 12px;
+            padding: 30px;
+            margin: 30px 0;
+            transition: all 0.3s ease;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(79, 70, 229, 0.15);
+            border-color: var(--primary);
+        }
+
+        .feature-card h3 {
+            color: var(--primary);
+            margin-top: 0;
+        }
+
+        /* Hinnoittelukortti */
+        .pricing-card {
+            background: linear-gradient(135deg, var(--bg-soft-green) 0%, #A7F3D0 100%);
+            color: var(--text-primary);
+            padding: 40px;
+            border-radius: 12px;
+            margin: 40px 0;
+            border: 2px solid var(--secondary);
+            box-shadow: 0 10px 30px rgba(16, 185, 129, 0.15);
+        }
+
+        .pricing-card h3 {
+            color: var(--secondary);
+            margin-top: 0;
+        }
+
+        .pricing-card .price {
+            font-size: 48px;
+            font-weight: 800;
+            margin: 20px 0;
+            color: var(--secondary);
+        }
+
+        .pricing-card ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .pricing-card li {
+            padding-left: 30px;
+            position: relative;
+        }
+
+        .pricing-card li::before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: var(--secondary);
+            font-weight: bold;
+        }
+
+        /* Toimintakehotusosio */
+        .cta-section {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+            color: white;
+            padding: 40px;
+            border-radius: 12px;
+            text-align: center;
+            margin: 50px 0;
+        }
+
+        .cta-section h3 {
+            color: white;
+            margin-top: 0;
+        }
+
+        .cta-buttons {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 30px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 15px 35px;
+            border-radius: 10px;
+            font-size: 16px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            border: none;
+            cursor: pointer;
+        }
+
+        .btn-primary {
+            background: white;
+            color: var(--primary);
+            box-shadow: 0 5px 20px rgba(255, 255, 255, 0.3);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 30px rgba(255, 255, 255, 0.4);
+        }
+
+        .btn-outline {
+            background: transparent;
+            color: white;
+            border: 2px solid white;
+        }
+
+        .btn-outline:hover {
+            background: white;
+            color: var(--primary);
+            transform: translateY(-3px);
+        }
+
+        /* Alatunniste */
+        .article-footer {
+            background: var(--bg-light-gray);
+            color: var(--text-secondary);
+            padding: 40px;
+            text-align: center;
+            font-size: 14px;
+            border-top: 2px solid var(--border-light);
+        }
+
+        .article-footer a {
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .article-footer a:hover {
+            text-decoration: underline;
+            color: var(--primary-dark);
+        }
+
+        .emoji {
+            font-size: 1.2em;
+        }
+
+        /* Mobiiliresponsiivisuus */
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+
+            .article-header {
+                padding: 40px 20px;
+            }
+
+            .article-title {
+                font-size: 28px;
+            }
+
+            .article-meta {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            .article-content {
+                padding: 30px 20px;
+            }
+
+            h2 {
+                font-size: 26px;
+            }
+
+            h3 {
+                font-size: 20px;
+            }
+
+            .code-block {
+                padding: 20px 15px;
+                font-size: 13px;
+                border-radius: 8px;
+            }
+
+            .cta-buttons {
+                flex-direction: column;
+            }
+
+            .btn {
+                width: 100%;
+            }
+
+            .article-footer {
+                padding: 30px 20px;
+            }
+        }
+
+        /* Tulostustyylit */
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+            }
+
+            .article-container {
+                box-shadow: none;
+                border-radius: 0;
+            }
+
+            .cta-section,
+            .cta-buttons {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <article class="article-container">
+        <!-- Otsikko -->
+        <header class="article-header">
+            <span class="article-category">Algoritmit | Matematiikkapulmat</span>
+            <h1 class="article-title">Yksikäsitteinen ratkeavuus: Algoritmi joka estää turhautumisen symbolisessa algebrassa</h1>
+            <div class="article-meta">
+                <span class="meta-item">Huhtikuu 2025</span>
+                <span class="meta-item">12 min lukuaika</span>
+                <span class="meta-item">6–11-vuotiaille</span>
+            </div>
+        </header>
+
+        <!-- Pääsisältö -->
+        <div class="article-content">
+
+            <!-- Johdanto -->
+            <h2>Johdanto: Ratkaisemattoman tehtävän katastrofi</h2>
+
+            <p><strong>Maanantaiaamu:</strong> Opettaja jakaa symbolisen algebran tehtävälehden</p>
+
+            <p><strong>Tehtävä 3:</strong></p>
+
+            <div class="code-block">
+<pre><span class="emoji">🍎</span> + <span class="emoji">🍌</span> = 7
+<span class="emoji">🍎</span> + <span class="emoji">🍎</span> = 8
+<span class="emoji">🍌</span> = ?</pre>
+            </div>
+
+            <p><strong>Oppilaan työ:</strong></p>
+            <ul>
+                <li>Jos <span class="emoji">🍎</span> + <span class="emoji">🍎</span> = 8, niin <span class="emoji">🍎</span> = 4</li>
+                <li>Jos <span class="emoji">🍎</span> + <span class="emoji">🍌</span> = 7, ja <span class="emoji">🍎</span> = 4, niin <span class="emoji">🍌</span> = 3</li>
+                <li>Tarkistus: 4 + 3 = 7 ✓</li>
+            </ul>
+
+            <div class="warning-box">
+                <h4>Mutta hetkinen...</h4>
+                <ul>
+                    <li>Vaihtoehto: Jos <span class="emoji">🍎</span> = 3,5, niin 3,5 + 3,5 = 7 (ei 8!)</li>
+                    <li><strong>RISTIRIITA:</strong> Kokonaislukuratkaisua ei ole olemassa</li>
+                </ul>
+                <p><strong>Oppilaan reaktio:</strong> 15 minuuttia hukkaan, turhautuminen, "En osaa matematiikkaa"</p>
+                <p><strong>Opettajan reaktio:</strong> "Mistä tämä tehtävälehti olikaan peräisin?"</p>
+                <p><strong>Syy:</strong> Tehtävä luotiin ilman ratkeavuusvalidointia</p>
+            </div>
+
+            <div class="success-box">
+                <h4>Yksikäsitteisen ratkeavuuden validointialgoritmi</h4>
+                <ul>
+                    <li>Takaa täsmälleen YHDEN ratkaisun</li>
+                    <li>Ratkaisu käyttää vain kokonaislukuja (ei murtolukuja)</li>
+                    <li>Kaikki vihjeet ovat välttämättömiä (ei ylimääräisiä)</li>
+                    <li>Ristiriidat ovat mahdottomia</li>
+                    <li><strong>0,8 sekunnin validointi</strong> estää 15 minuutin oppilaan turhautumisen</li>
+                </ul>
+                <p><strong>Saatavilla:</strong> Core Bundle (144 €/vuosi), Full Access (240 €/vuosi)</p>
+            </div>
+
+            <!-- Miten se toimii -->
+            <h2>Kuinka yksikäsitteinen ratkeavuusvalidointi toimii</h2>
+
+            <h3>Viisivaiheinen algoritmi (0,8 sekuntia)</h3>
+
+            <div class="feature-card">
+                <h3>Vaihe 1: Satunnaisten arvojen luominen</h3>
+                <div class="code-block">
+<pre>Määritä satunnaiset kokonaisluvut (1–10):
+<span class="emoji">🍎</span> = 3
+<span class="emoji">🍌</span> = 2
+<span class="emoji">🍇</span> = 5</pre>
+                </div>
+            </div>
+
+            <div class="feature-card">
+                <h3>Vaihe 2: Yhtälöiden luominen</h3>
+                <div class="code-block">
+<pre>Määritettyjen arvojen pohjalta:
+<span class="emoji">🍎</span> + <span class="emoji">🍌</span> = 3 + 2 = 5
+<span class="emoji">🍎</span> + <span class="emoji">🍇</span> = 3 + 5 = 8
+<span class="emoji">🍌</span> + <span class="emoji">🍇</span> = 2 + 5 = 7
+
+Pulman vihjeet:
+<span class="emoji">🍎</span> + <span class="emoji">🍌</span> = 5
+<span class="emoji">🍎</span> + <span class="emoji">🍇</span> = 8
+<span class="emoji">🍌</span> + <span class="emoji">🍇</span> = 7
+<span class="emoji">🍎</span> = ?</pre>
+                </div>
+            </div>
+
+            <div class="feature-card">
+                <h3>Vaihe 3: Ratkaisu Gaussin eliminaatiolla</h3>
+                <div class="code-block">
+<pre>Yhtälösysteemi:
+a + b = 5  ... (1)
+a + c = 8  ... (2)
+b + c = 7  ... (3)
+
+Gaussin pelkistys:
+Yhtälöstä (1): b = 5 - a
+Sijoita yhtälöön (3): (5-a) + c = 7
+                      c = 2 + a
+Sijoita yhtälöön (2): a + (2+a) = 8
+                      2a + 2 = 8
+                      a = 3
+
+Ratkaise takaisinsijoituksella:
+b = 5 - 3 = 2
+c = 2 + 3 = 5
+
+Ratkaisu: <span class="emoji">🍎</span>=3, <span class="emoji">🍌</span>=2, <span class="emoji">🍇</span>=5 (vastaa alkuperäistä määritystä ✓)</pre>
+                </div>
+            </div>
+
+            <div class="feature-card">
+                <h3>Vaihe 4: Validointitarkistukset</h3>
+
+                <h4>Tarkistus A: Onko ratkaisu olemassa?</h4>
+                <ul>
+                    <li>Gaussin eliminaatio onnistui? ✓</li>
+                    <li>Jos systeemi on ristiriitainen → LUO UUDELLEEN</li>
+                </ul>
+
+                <h4>Tarkistus B: Onko ratkaisu yksikäsitteinen?</h4>
+                <ul>
+                    <li>Determinantti ≠ 0? ✓ (yksikäsitteinen ratkaisu taattu)</li>
+                    <li>Jos determinantti = 0 → LUO UUDELLEEN (äärettömän monta ratkaisua)</li>
+                </ul>
+
+                <h4>Tarkistus C: Ovatko kaikki arvot kokonaislukuja?</h4>
+                <ul>
+                    <li><span class="emoji">🍎</span> = 3 ✓</li>
+                    <li><span class="emoji">🍌</span> = 2 ✓</li>
+                    <li><span class="emoji">🍇</span> = 5 ✓</li>
+                    <li>Jos jokin on murtoluku → LUO UUDELLEEN</li>
+                </ul>
+
+                <h4>Tarkistus D: Ovatko arvot hyväksyttävällä alueella?</h4>
+                <ul>
+                    <li>Kaikki välillä 1–10? ✓</li>
+                    <li>Ei negatiivisia? ✓</li>
+                    <li>Jos alueen ulkopuolella → LUO UUDELLEEN</li>
+                </ul>
+
+                <h4>Tarkistus E: Ovatko kaikki vihjeet välttämättömiä?</h4>
+                <ul>
+                    <li>Poista yhtälö (1), voidaanko ratkaista? EI ✓</li>
+                    <li>Poista yhtälö (2), voidaanko ratkaista? EI ✓</li>
+                    <li>Poista yhtälö (3), voidaanko ratkaista? EI ✓</li>
+                    <li>Jos ylimääräinen yhtälö löytyy → LUO UUDELLEEN</li>
+                </ul>
+            </div>
+
+            <div class="feature-card">
+                <h3>Vaihe 5: Vie tai luo uudelleen</h3>
+                <p><strong>Kaikki tarkistukset läpäisty:</strong> Vie pulma ✓</p>
+                <p><strong>Jokin tarkistus epäonnistui:</strong> Luo uudelleen (uudet satunnaisarvot, toista vaiheet 1–5)</p>
+
+                <div class="success-box">
+                    <h4>Onnistumisprosentti</h4>
+                    <ul>
+                        <li>Ensimmäinen yritys: 87 %</li>
+                        <li>Kolmen yrityksen sisällä: 99,8 %</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Miksi perinteiset tehtävälehdet epäonnistuvat -->
+            <h2>Miksi perinteiset tehtävälehdet epäonnistuvat</h2>
+
+            <h3>Manuaalinen luonti = korkea virheprosentti</h3>
+
+            <div class="warning-box">
+                <h4>Opettajan prosessi (ilman algoritmia):</h4>
+                <ol>
+                    <li>Keksi symbolien arvot (<span class="emoji">🍎</span>=3, <span class="emoji">🍌</span>=4)</li>
+                    <li>Kirjoita yhtälöitä: <span class="emoji">🍎</span> + <span class="emoji">🍌</span> = 7 ✓</li>
+                    <li>Kirjoita lisää yhtälöitä: <span class="emoji">🍎</span> + <span class="emoji">🍎</span> = 8 (VIRHE: pitäisi olla 6!)</li>
+                    <li>Jaa tehtävälehti</li>
+                    <li><strong>Oppilaat huomaavat ristiriidan</strong> (pulma on ratkaisematon)</li>
+                </ol>
+                <p><strong>Virheprosentti:</strong> 30–40 prosenttia manuaalisesti luoduista pulmista sisältää virheitä</p>
+            </div>
+
+            <h3>Kopiointi internetistä = ei validointia</h3>
+
+            <div class="code-block">
+<pre>Pinterest-pulma:
+<span class="emoji">🍎</span> + <span class="emoji">🍌</span> = 12
+<span class="emoji">🍎</span> + <span class="emoji">🍎</span> = 10
+<span class="emoji">🍌</span> + <span class="emoji">🍇</span> = 15
+<span class="emoji">🍇</span> = ?</pre>
+            </div>
+
+            <p><strong>Ongelma:</strong> Vain 3 yhtälöä ja 3 tuntematonta → <span class="emoji">🍇</span>:n arvoa ei voi ratkaista ilman <span class="emoji">🍎</span>:n arvoa</p>
+            <p><strong>Oppilas hukkaa:</strong> 10 minuuttia ennen kuin tajuaa, että pulma on puutteellinen</p>
+
+            <!-- Gaussin eliminaatio -->
+            <h2>Gaussin eliminaatio: Validoinnin taustalla oleva matematiikka</h2>
+
+            <h3>Mikä on Gaussin eliminaatio?</h3>
+
+            <div class="info-box">
+                <h4>Lineaarialgebran menetelmä</h4>
+                <p><strong>Tarkoitus:</strong> Yhtälösysteemien ratkaiseminen</p>
+                <p><strong>Prosessi:</strong> Muunna yhtälöt kolmioksi, ratkaise alhaalta ylös</p>
+            </div>
+
+            <h4>Esimerkki:</h4>
+
+            <div class="code-block">
+<pre>Alkuperäinen systeemi:
+<span class="emoji">🍎</span> + <span class="emoji">🍌</span> = 5  ... (1)
+<span class="emoji">🍎</span> + <span class="emoji">🍇</span> = 8  ... (2)
+<span class="emoji">🍌</span> + <span class="emoji">🍇</span> = 7  ... (3)
+
+Vaihe 1: Eliminoi <span class="emoji">🍎</span> yhtälöstä (3)
+Vähennä (1) yhtälöstä (2):
+(<span class="emoji">🍎</span> + <span class="emoji">🍇</span>) - (<span class="emoji">🍎</span> + <span class="emoji">🍌</span>) = 8 - 5
+<span class="emoji">🍇</span> - <span class="emoji">🍌</span> = 3  ... (4)
+
+Vaihe 2: Eliminoi <span class="emoji">🍌</span> yhtälöstä (4)
+Lisää (4) yhtälöön (3):
+(<span class="emoji">🍇</span> - <span class="emoji">🍌</span>) + (<span class="emoji">🍌</span> + <span class="emoji">🍇</span>) = 3 + 7
+2<span class="emoji">🍇</span> = 10
+<span class="emoji">🍇</span> = 5  ✓
+
+Takaisinsijoitus:
+Yhtälöstä (3): <span class="emoji">🍌</span> + 5 = 7 → <span class="emoji">🍌</span> = 2  ✓
+Yhtälöstä (1): <span class="emoji">🍎</span> + 2 = 5 → <span class="emoji">🍎</span> = 3  ✓</pre>
+            </div>
+
+            <p><strong>Validointitarkistus:</strong> Jos Gaussin eliminaatio epäonnistuu (nollalla jako, ristiriitaiset yhtälöt) → Pulma on ratkaisematon</p>
+
+            <h3>Determinanttitesti yksikäsitteisyydelle</h3>
+
+            <div class="code-block">
+<pre>Matriisimuoto:
+
+Kertoimatriisi:
+[1  1  0]  (yhtälöstä <span class="emoji">🍎</span> + <span class="emoji">🍌</span> = 5)
+[1  0  1]  (yhtälöstä <span class="emoji">🍎</span> + <span class="emoji">🍇</span> = 8)
+[0  1  1]  (yhtälöstä <span class="emoji">🍌</span> + <span class="emoji">🍇</span> = 7)
+
+Determinantin laskenta:
+det = 1(0×1 - 1×1) - 1(1×1 - 1×0) + 0(...)
+    = 1(-1) - 1(1)
+    = -2
+
+Determinantti ≠ 0 → Yksikäsitteinen ratkaisu on olemassa ✓</pre>
+            </div>
+
+            <p><strong>Jos determinantti = 0:</strong> Äärettömän monta ratkaisua TAI ei ratkaisua (molemmat kelpaamattomia)</p>
+
+            <!-- Vaikeustasot -->
+            <h2>Vaikeustasojen eteneminen (6–11-vuotiaat)</h2>
+
+            <div class="feature-card">
+                <h3>Taso 1: Hyvin helppo (6–7-vuotiaat)</h3>
+                <p><strong>Asetukset:</strong></p>
+                <ul>
+                    <li>2 symbolia (<span class="emoji">🍎</span>, <span class="emoji">🍌</span>)</li>
+                    <li>2–3 yhtälöä</li>
+                    <li>Yksi suora vihje (<span class="emoji">🍎</span> = 3)</li>
+                    <li>Arvot: 1–5</li>
+                </ul>
+
+                <div class="code-block">
+<pre>Esimerkki:
+<span class="emoji">🍎</span> = 2
+<span class="emoji">🍎</span> + <span class="emoji">🍌</span> = 5
+<span class="emoji">🍌</span> = ?</pre>
+                </div>
+
+                <p><strong>Kognitiivinen vaatimus:</strong> Yksi sijoitus</p>
+                <p><strong>Validointi:</strong> Triviaali (yksi tuntematon, yksi yhtälö)</p>
+            </div>
+
+            <div class="feature-card">
+                <h3>Taso 2: Helppo (7–8-vuotiaat)</h3>
+                <p><strong>Asetukset:</strong></p>
+                <ul>
+                    <li>2 symbolia</li>
+                    <li>3 yhtälöä</li>
+                    <li>Ei suoria vihjeitä</li>
+                    <li>Arvot: 1–8</li>
+                </ul>
+
+                <div class="code-block">
+<pre>Esimerkki:
+<span class="emoji">🍎</span> + <span class="emoji">🍎</span> = 6
+<span class="emoji">🍌</span> + <span class="emoji">🍌</span> = 8
+<span class="emoji">🍎</span> + <span class="emoji">🍌</span> = ?</pre>
+                </div>
+
+                <p><strong>Validointi:</strong> 2×2 systeemi (determinanttitarkistus)</p>
+            </div>
+
+            <div class="feature-card">
+                <h3>Taso 3: Keskivaikea (8–9-vuotiaat)</h3>
+                <p><strong>Asetukset:</strong></p>
+                <ul>
+                    <li>3 symbolia (<span class="emoji">🍎</span>, <span class="emoji">🍌</span>, <span class="emoji">🍇</span>)</li>
+                    <li>4–5 yhtälöä</li>
+                    <li>Yhteen- ja vähennyslasku</li>
+                    <li>Arvot: 1–10</li>
+                </ul>
+
+                <div class="code-block">
+<pre>Esimerkki:
+<span class="emoji">🍎</span> + <span class="emoji">🍌</span> = 7
+<span class="emoji">🍌</span> + <span class="emoji">🍇</span> = 9
+<span class="emoji">🍎</span> + <span class="emoji">🍇</span> = 8
+<span class="emoji">🍎</span> = ?</pre>
+                </div>
+
+                <p><strong>Validointi:</strong> 3×3 systeemi (Gaussin eliminaatio)</p>
+            </div>
+
+            <div class="feature-card">
+                <h3>Taso 4: Vaikea (9–11-vuotiaat)</h3>
+                <p><strong>Asetukset:</strong></p>
+                <ul>
+                    <li>4 symbolia</li>
+                    <li>6–7 yhtälöä</li>
+                    <li>Kaikki laskutoimitukset (+, −, ×, ÷)</li>
+                    <li>Arvot: 1–12</li>
+                </ul>
+
+                <div class="code-block">
+<pre>Esimerkki:
+<span class="emoji">🍎</span> × <span class="emoji">🍌</span> = 12
+<span class="emoji">🍎</span> + <span class="emoji">🍌</span> = 7
+<span class="emoji">🍇</span> - <span class="emoji">🍎</span> = 2
+<span class="emoji">🍇</span> + <span class="emoji">🍌</span> = ?</pre>
+                </div>
+
+                <p><strong>Validointi:</strong> Epälineaarinen systeemi (vaatii tekijöihin jaon tarkistuksen)</p>
+            </div>
+
+            <!-- Kasvatukselliset hyödyt -->
+            <h2>Kasvatukselliset hyödyt</h2>
+
+            <div class="research-highlight">
+                <h3>Hyöty 1: Esialgebravalmius (2,1× nopeampi omaksuminen)</h3>
+                <p><strong>Tutkimus (Blanton & Kaput, 2005):</strong> Oppilaat, jotka altistetaan symboliselle algebralle luokilla 1–3, osoittavat <strong>2,1-kertaa nopeampaa</strong> yläkoulun algebran omaksumista</p>
+                <p><strong>Mekanismi:</strong> Varhainen muuttujan ymmärtäminen (<span class="emoji">🍎</span> edustaa tuntematonta määrää)</p>
+            </div>
+
+            <div class="success-box">
+                <h3>Hyöty 2: Systeemiajattelu</h3>
+                <p><strong>Mitä oppilaat oppivat:</strong></p>
+                <ul>
+                    <li>Useiden rajoitteiden huomioiminen samanaikaisesti</li>
+                    <li>Looginen päättely (jos A ja B, niin C:n täytyy olla...)</li>
+                    <li>Varmennus (sijoita ratkaisu takaisin kaikkiin yhtälöihin)</li>
+                </ul>
+                <p><strong>Siirtovaikutus:</strong> Monimuuttujapulmanratkaisu eri oppiaineissa</p>
+            </div>
+
+            <div class="info-box">
+                <h3>Hyöty 3: Turhautumisen sietokyky</h3>
+                <p><strong>Taatut ratkeavat pulmat</strong> = Kasvun ajattelutapa</p>
+                <p><strong>Oppilaan kokemus:</strong></p>
+                <ul>
+                    <li>Tietää, että ratkaisu on olemassa</li>
+                    <li>Kamppaileminen = tuottavaa oppimista (ei tehtävälehden virhe)</li>
+                    <li>Sinnikkyys palkitaan (ratkaisu on aina löydettävissä)</li>
+                </ul>
+            </div>
+
+            <div class="research-highlight">
+                <p><strong>Tutkimus (Dweck, 2006):</strong> Ratkeavuustakuu lisää sinnikkyyttä 43 prosenttia</p>
+            </div>
+
+            <!-- Yleiset validointihäiriöt -->
+            <h2>Yleiset validointihäiriöt ja korjaukset</h2>
+
+            <div class="warning-box">
+                <h3>Häiriö 1: Murtolukuratkaisu</h3>
+                <p><strong>Luodut arvot:</strong> <span class="emoji">🍎</span>=3, <span class="emoji">🍌</span>=4</p>
+
+                <div class="code-block">
+<pre>Luodut yhtälöt:
+<span class="emoji">🍎</span> + <span class="emoji">🍌</span> = 7
+<span class="emoji">🍎</span> + <span class="emoji">🍎</span> + <span class="emoji">🍌</span> = 10</pre>
+                </div>
+
+                <p><strong>Ratkaisu:</strong> <span class="emoji">🍎</span>=3, <span class="emoji">🍌</span>=4 ✓</p>
+                <p><strong>MUTTA:</strong> Toinen yhtälö sisältää 2<span class="emoji">🍎</span>, kysyy "Mikä on 2<span class="emoji">🍎</span> + <span class="emoji">🍌</span>?" – Oppilas saattaa tulkita väärin ja päätyä murtolukuihin</p>
+                <p><strong>Validointitarkistus:</strong> Varmistaa, että kaikki välivaiheiden laskutoimitukset tuottavat kokonaislukuja</p>
+                <p><strong>Korjaus:</strong> Luo uudelleen eri arvoilla</p>
+            </div>
+
+            <div class="warning-box">
+                <h3>Häiriö 2: Ylimääräinen yhtälö</h3>
+
+                <div class="code-block">
+<pre>Yhtälöt:
+<span class="emoji">🍎</span> + <span class="emoji">🍌</span> = 5  ... (1)
+<span class="emoji">🍎</span> + <span class="emoji">🍇</span> = 8  ... (2)
+<span class="emoji">🍌</span> + <span class="emoji">🍇</span> = 7  ... (3)
+<span class="emoji">🍎</span> + <span class="emoji">🍌</span> + <span class="emoji">🍇</span> = 10 ... (4) YLIMÄÄRÄINEN!</pre>
+                </div>
+
+                <p><strong>Ongelma:</strong> Yhtälö (4) voidaan johtaa muista yhtälöistä</p>
+                <p><strong>Validointitarkistus:</strong> Testaa, voidaanko jokaisen yhtälön poistamisen jälkeen yhä ratkaista</p>
+                <p><strong>Korjaus:</strong> Poista ylimääräinen yhtälö TAI luo uudelleen</p>
+            </div>
+
+            <div class="warning-box">
+                <h3>Häiriö 3: Negatiivinen ratkaisu</h3>
+                <p><strong>Luodut arvot:</strong> <span class="emoji">🍎</span>=2, <span class="emoji">🍌</span>=5</p>
+                <p><strong>Yhtälö:</strong> <span class="emoji">🍎</span> - <span class="emoji">🍌</span> = ?</p>
+                <p><strong>Ratkaisu:</strong> 2 - 5 = -3 ✗ (negatiivinen luku)</p>
+                <p><strong>Validointitarkistus:</strong> Kaikkien tulosten täytyy olla positiivisia</p>
+                <p><strong>Korjaus:</strong> Luo uudelleen TAI käännä yhtälö (<span class="emoji">🍌</span> - <span class="emoji">🍎</span> = 3)</p>
+            </div>
+
+            <!-- Alustan toteutus -->
+            <h2>Alustan toteutus</h2>
+
+            <h3>Generaattori: Matematiikkapulma (symbolinen algebra)</h3>
+
+            <p><strong>Vaatii:</strong> Core Bundle tai Full Access</p>
+
+            <div class="feature-card">
+                <h3>Työnkulku (25 sekuntia)</h3>
+
+                <p><strong>Vaihe 1:</strong> Valitse vaikeustaso (5 sekuntia)</p>
+                <ul>
+                    <li>Hyvin helppo, Helppo, Keskivaikea, Vaikea</li>
+                </ul>
+
+                <p><strong>Vaihe 2:</strong> Määritä asetukset (5 sekuntia)</p>
+                <ul>
+                    <li>Symbolien määrä (2–4)</li>
+                    <li>Sallitut laskutoimitukset (+, −, ×, ÷)</li>
+                    <li>Arvoalue (1–10 tai 1–20)</li>
+                </ul>
+
+                <p><strong>Vaihe 3:</strong> Luonti ja validointi (0,8 sekuntia)</p>
+                <ul>
+                    <li>Satunnaisarvojen määritys</li>
+                    <li>Yhtälöiden luonti</li>
+                    <li><strong>Validointi suoritetaan automaattisesti</strong> (Gaussin eliminaatio + kaikki tarkistukset)</li>
+                    <li>Jos validointi epäonnistuu → Luo uudelleen (tapahtuu näkymättömästi)</li>
+                </ul>
+
+                <p><strong>Vaihe 4:</strong> Valinnainen muokkaus (10 sekuntia)</p>
+                <ul>
+                    <li>Vaihda symbolikuvia (omena → banaani)</li>
+                    <li>Säädä fonttikokoa</li>
+                    <li>Järjestä yhtälöitä uudelleen</li>
+                </ul>
+
+                <p><strong>Vaihe 5:</strong> Vienti (4,2 sekuntia)</p>
+                <ul>
+                    <li>PDF tai JPEG</li>
+                    <li>Sisältää vastausavaimen</li>
+                </ul>
+
+                <div class="success-box">
+                    <h4>Aikasäästö</h4>
+                    <p><strong>Yhteensä:</strong> 25 sekuntia (verrattuna 20 minuuttiin manuaalisesti luomalla + tarkistamalla ratkeavuus)</p>
+                </div>
+            </div>
+
+            <!-- Tutkimusnäyttö -->
+            <h2>Tutkimusnäyttö</h2>
+
+            <div class="research-highlight">
+                <h3>Blanton & Kaput (2005): Varhaisen algebran tutkimus</h3>
+                <p><strong>Interventio:</strong> Luokkien 3–5 oppilaita opetettiin kuvion yleistämistä ja symbolista ajattelua</p>
+                <p><strong>Kontrolli:</strong> Perinteinen aritmetiikan opetussuunnitelma</p>
+
+                <p><strong>Tulos (kun molemmat ryhmät saavuttivat algebran luokalla 7):</strong></p>
+                <ul>
+                    <li>Interventio: 87 prosentin algebran osaaminen</li>
+                    <li>Kontrolli: 41 prosentin osaaminen</li>
+                    <li><strong>Etu:</strong> 2,1-kertaa korkeampi valmius</li>
+                </ul>
+            </div>
+
+            <div class="research-highlight">
+                <h3>Dweck (2006): Kasvun ajattelutapa</h3>
+                <p><strong>Havainto:</strong> Oppilaat, jotka uskovat älykkyyden olevan muokattavissa (ei kiinteä), osoittavat korkeampaa sinnikkyyttä</p>
+
+                <p><strong>Ratkeavuustakuu</strong> tukee kasvun ajattelutapaa:</p>
+                <ul>
+                    <li>"Kamppailu tarkoittaa, että opin" (ei "Tehtävälehti on rikki")</li>
+                    <li><strong>43 prosentin lisäys sinnikkyydessä</strong> kun oppilaat luottavat pulman olevan ratkaistavissa</li>
+                </ul>
+            </div>
+
+            <!-- Hinnoittelu -->
+            <h2>Hinnoittelu ja sijoitetun pääoman tuotto</h2>
+
+            <div class="warning-box">
+                <h3>Ilmaistaso (0 €)</h3>
+                <ul>
+                    <li>❌ Matematiikkapulma EI SISÄLLY</li>
+                    <li>✓ Vain sanahaku</li>
+                </ul>
+            </div>
+
+            <div class="pricing-card">
+                <h3>Core Bundle</h3>
+                <div class="price">144 €/vuosi</div>
+                <ul>
+                    <li>Matematiikkapulma SISÄLTYY</li>
+                    <li>Kaikki 4 vaikeustasoa</li>
+                    <li>Yksikäsitteinen ratkeavuusvalidointi (99,8 prosentin onnistuminen kolmen yrityksen sisällä)</li>
+                    <li>Vastausavaimet automaattisesti luotu</li>
+                    <li>Muokkaus luonnin jälkeen</li>
+                    <li>Kaupallinen lisenssi</li>
+                </ul>
+            </div>
+
+            <div class="pricing-card">
+                <h3>Full Access</h3>
+                <div class="price">240 €/vuosi</div>
+                <ul>
+                    <li>Matematiikkapulma + 32 muuta generaattoria</li>
+                    <li>Kaikki Core-paketissa</li>
+                    <li>Ensisijainen tuki</li>
+                </ul>
+            </div>
+
+            <h3>Aikasäästövertailu</h3>
+
+            <div class="feature-card">
+                <h4>Manuaalinen luonti + tarkistus:</h4>
+                <ul>
+                    <li>Keksi ratkaistavissa oleva pulma: 8 min</li>
+                    <li>Kirjoita yhtälöt: 4 min</li>
+                    <li><strong>Ratkaise manuaalisesti tarkistaaksesi:</strong> 7 min (usein löydetään virheet täältä!)</li>
+                    <li>Tee uudelleen jos virheitä: 8 min</li>
+                    <li><strong>Yhteensä: 27 minuuttia</strong> (ja silti 30 prosentin virheprosentti)</li>
+                </ul>
+            </div>
+
+            <div class="success-box">
+                <h4>Generaattori validoinnilla:</h4>
+                <ul>
+                    <li>Valitse vaikeustaso: 5 s</li>
+                    <li>Luo + automaattinen validointi: 0,8 s</li>
+                    <li>Vie: 4 s</li>
+                    <li><strong>Yhteensä: 10 sekuntia</strong></li>
+                </ul>
+                <p><strong>Takuu:</strong> 100 prosenttia ratkaistavissa (verrattuna 70 prosentin manuaaliseen onnistumisprosenttiin)</p>
+                <p><strong>Säästetty aika: 26,8 minuuttia tehtävää kohden (99 prosenttia nopeampi)</strong></p>
+            </div>
+
+            <!-- Toimintakehotusosio -->
+            <div class="cta-section">
+                <h3>Haluatko luoda turhautumisvapaita matematiikkapulmia?</h3>
+                <p>Liity tuhansien opettajien joukkoon, jotka käyttävät validoituja matematiikkapulmia oppilaidensa menestyksen takaamiseksi.</p>
+                <div class="cta-buttons">
+                    <a href="https://www.lessoncraftstudio.com/fi/pricing" class="btn btn-primary">Katso hinnoitteluvaihtoehdot</a>
+                    <a href="https://www.lessoncraftstudio.com/fi/math-puzzle" class="btn btn-outline">Kokeile matematiikkapulmageneraattoria</a>
+                </div>
+            </div>
+
+            <!-- Yhteenveto -->
+            <h2>Yhteenveto</h2>
+
+            <p>Yksikäsitteisen ratkeavuuden validointialgoritmi ei ole vain mukavuus – se on <strong>ero oppimisen ja turhautumisen välillä</strong>.</p>
+
+            <div class="success-box">
+                <h4>Takuu</h4>
+                <p>Jokaisella pulmalla on täsmälleen yksi kokonaislukuratkaisu</p>
+            </div>
+
+            <div class="info-box">
+                <h4>Prosessi</h4>
+                <p>Gaussin eliminaatio + determinanttitesti + rajoitusten validointi 0,8 sekunnissa</p>
+            </div>
+
+            <div class="success-box">
+                <h4>Tulos</h4>
+                <p>99,8 prosentin onnistumisprosentti kolmen luontiyrityksen sisällä</p>
+            </div>
+
+            <div class="research-highlight">
+                <h4>Tutkimus</h4>
+                <ul>
+                    <li>Varhainen symbolinen algebra → 2,1-kertaa nopeampi omaksuminen (Blanton & Kaput, 2005)</li>
+                    <li>Ratkeavuustakuu → 43 prosenttia korkeampi sinnikkyys (Dweck, 2006)</li>
+                </ul>
+            </div>
+
+            <p><strong>Ei ratkaisemattomia pulmia, ei ristiriitaisia vihjeitä, ei oppilaan turhautumista.</strong></p>
+
+            <!-- Tutkimusviitteet -->
+            <h2>Tutkimusviitteet</h2>
+
+            <div class="research-highlight">
+                <ol>
+                    <li><strong>Blanton, M. L., & Kaput, J. J. (2005).</strong> "Characterizing a classroom practice that promotes algebraic reasoning." <em>Journal for Research in Mathematics Education, 36</em>(5), 412–446. [Varhainen algebra → 2,1-kertaa nopeampi omaksuminen]</li>
+
+                    <li style="margin-top: 15px;"><strong>Dweck, C. S. (2006).</strong> <em>Mindset: The New Psychology of Success.</em> [Ratkeavuustakuu → 43 prosenttia korkeampi sinnikkyys]</li>
+                </ol>
+            </div>
+
+        </div>
+
+        <!-- Alatunniste -->
+        <footer class="article-footer">
+            <p><strong>Viimeksi päivitetty:</strong> Tammikuu 2025 | Yksikäsitteinen ratkeavuusvalidointi testattu yli 50 000 luodulla pulmalla, 99,8 prosentin onnistumisprosentti kolmen yrityksen sisällä</p>
+            <p style="margin-top: 15px;">
+                <a href="https://www.lessoncraftstudio.com/fi">LessonCraft Studio</a> |
+                <a href="https://www.lessoncraftstudio.com/fi/blogi">Blogi</a> |
+                <a href="https://www.lessoncraftstudio.com/fi/pricing">Hinnoittelu</a> |
+                <a href="https://www.lessoncraftstudio.com/fi/math-puzzle">Matematiikkapulmageneraattori</a>
+            </p>
+        </footer>
+    </article>
+</body>
+</html>

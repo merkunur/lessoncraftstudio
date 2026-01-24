@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO Meta Tags -->
+    <title>Blog Post Title | Your Site Name 2025</title>
+    <meta name="description" content="Your blog post description here. Keep it under 160 characters for optimal SEO.">
+    <meta name="keywords" content="keyword1, keyword2, keyword3">
+    <meta name="author" content="LessonCraft Studio">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Blog Post Title">
+    <meta property="og:description" content="Your blog post description">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://www.lessoncraftstudio.com/blog/post-url">
+    <meta property="og:image" content="https://www.lessoncraftstudio.com/images/blog/post-image.jpg">
+
+    <!-- Schema.org Markup -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Blog Post Title",
+      "description": "Your blog post description",
+      "author": {
+        "@type": "Organization",
+        "name": "LessonCraft Studio"
+      },
+      "datePublished": "2025-01-01",
+      "dateModified": "2025-01-01"
+    }
+    </script>
+
+    <style>
+        /* ==========================================
+           MODERN, MOBILE-RESPONSIVE BLOG TEMPLATE
+           ✅ Perfect mobile responsiveness
+           ✅ Soft, professional colors (NO BLACK!)
+           ✅ Simple single-column layout
+           ✅ Text never cuts off
+           ========================================== */
+
+        /* CSS Variables - Modern, Soft Color Palette */
+        :root {
+            /* Primary Colors - Soft Blues/Purples */
+            --primary: #4F46E5;           /* Indigo 600 */
+            --primary-dark: #4338CA;      /* Indigo 700 */
+            --primary-light: #818CF8;     /* Indigo 400 */
+
+            /* Secondary Colors - Soft Greens */
+            --secondary: #10B981;         /* Emerald 500 */
+            --secondary-light: #34D399;   /* Emerald 400 */
+
+            /* Accent Colors - Soft Oranges/Yellows */
+            --accent: #F59E0B;            /* Amber 500 */
+            --warning: #EF4444;           /* Red 500 */
+            --purple: #8B5CF6;            /* Violet 500 */
+
+            /* Soft Background Colors - LIGHT AND AIRY */
+            --bg-white: #FFFFFF;
+            --bg-light-gray: #F9FAFB;     /* Gray 50 - For footers */
+            --bg-medium-gray: #F3F4F6;    /* Gray 100 - For code blocks */
+            --bg-soft-blue: #EFF6FF;      /* Blue 50 - For info boxes */
+            --bg-soft-purple: #F5F3FF;    /* Violet 50 - For research boxes */
+            --bg-soft-green: #ECFDF5;     /* Emerald 50 - For success boxes */
+            --bg-soft-yellow: #FFFBEB;    /* Amber 50 - For warning boxes */
+
+            /* Text Colors - Readable and Soft */
+            --text-primary: #1F2937;      /* Gray 800 - Main text */
+            --text-secondary: #6B7280;    /* Gray 500 - Secondary text */
+            --text-muted: #9CA3AF;        /* Gray 400 - Muted text */
+
+            /* Border Colors - Subtle */
+            --border-light: #E5E7EB;      /* Gray 200 */
+            --border-medium: #D1D5DB;     /* Gray 300 */
+        }
+
+        /* Reset & Base Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body - Gradient Background (Modern, Professional) */
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.7;
+            color: var(--text-primary);
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        /* Article Container - White Card on Gradient */
+        .article-container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: var(--bg-white);
+            border-radius: 16px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+        }
+
+        /* Header Section - Gradient Hero */
+        .article-header {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+            color: white;
+            padding: 60px 40px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .article-category {
+            display: inline-block;
+            background: rgba(255, 255, 255, 0.2);
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: 500;
+            margin-bottom: 20px;
+            backdrop-filter: blur(10px);
+        }
+
+        .article-title {
+            font-size: 42px;
+            font-weight: 800;
+            line-height: 1.2;
+            margin-bottom: 20px;
+        }
+
+        .article-meta {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            font-size: 14px;
+            opacity: 0.9;
+        }
+
+        .meta-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        /* Content Section */
+        .article-content {
+            padding: 50px 40px;
+        }
+
+        /* Typography */
+        h2 {
+            font-size: 32px;
+            font-weight: 700;
+            color: var(--text-primary);
+            margin-top: 50px;
+            margin-bottom: 25px;
+            padding-bottom: 15px;
+            border-bottom: 3px solid var(--primary);
+        }
+
+        h3 {
+            font-size: 24px;
+            font-weight: 600;
+            color: var(--primary-dark);
+            margin-top: 35px;
+            margin-bottom: 20px;
+        }
+
+        h4 {
+            font-size: 20px;
+            font-weight: 600;
+            color: var(--text-primary);
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+
+        p {
+            margin-bottom: 20px;
+            font-size: 17px;
+            line-height: 1.8;
+        }
+
+        /* Lists */
+        ul, ol {
+            margin-bottom: 25px;
+            padding-left: 30px;
+        }
+
+        li {
+            margin-bottom: 12px;
+            line-height: 1.7;
+        }
+
+        ul li::marker {
+            color: var(--primary);
+        }
+
+        /* Code Blocks - LIGHT BACKGROUND (NOT BLACK!) */
+        .code-block {
+            background: var(--bg-medium-gray);    /* Light gray */
+            color: var(--text-primary);           /* Dark gray text */
+            padding: 25px;
+            border-radius: 12px;
+            border: 2px solid var(--border-light);
+            font-family: 'Monaco', 'Courier New', monospace;
+            font-size: 14px;
+            line-height: 1.8;
+            margin: 25px 0;
+            overflow-x: auto;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+        }
+
+        .code-block pre {
+            margin: 0;
+            white-space: pre-wrap;
+            word-wrap: break-word;  /* Prevents text cutoff */
+        }
+
+        /* Info Boxes - Soft Colored Backgrounds */
+        .info-box {
+            background: var(--bg-soft-blue);
+            border-left: 5px solid var(--primary);
+            padding: 25px;
+            margin: 25px 0;
+            border-radius: 8px;
+        }
+
+        .info-box h4 {
+            margin-top: 0;
+            color: var(--primary);
+        }
+
+        /* Success Box - Soft Green */
+        .success-box {
+            background: linear-gradient(135deg, var(--bg-soft-green) 0%, #D1FAE5 100%);
+            border-left: 5px solid var(--secondary);
+            padding: 25px;
+            margin: 25px 0;
+            border-radius: 8px;
+        }
+
+        .success-box h4 {
+            margin-top: 0;
+            color: var(--secondary);
+        }
+
+        /* Warning Box - Soft Yellow */
+        .warning-box {
+            background: linear-gradient(135deg, var(--bg-soft-yellow) 0%, #FEF3C7 100%);
+            border-left: 5px solid var(--accent);
+            padding: 25px;
+            margin: 25px 0;
+            border-radius: 8px;
+        }
+
+        .warning-box h4 {
+            margin-top: 0;
+            color: var(--accent);
+        }
+
+        /* Research Box - Soft Purple */
+        .research-highlight {
+            background: linear-gradient(135deg, var(--bg-soft-purple) 0%, #EDE9FE 100%);
+            border-left: 5px solid var(--purple);
+            padding: 25px;
+            margin: 25px 0;
+            border-radius: 8px;
+            font-style: italic;
+        }
+
+        .research-highlight strong {
+            color: var(--purple);
+            font-weight: 700;
+            font-style: normal;
+        }
+
+        /* Feature Cards */
+        .feature-card {
+            background: var(--bg-light-gray);
+            border: 2px solid var(--border-light);
+            border-radius: 12px;
+            padding: 30px;
+            margin: 30px 0;
+            transition: all 0.3s ease;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(79, 70, 229, 0.15);
+            border-color: var(--primary);
+        }
+
+        .feature-card h3 {
+            color: var(--primary);
+            margin-top: 0;
+        }
+
+        /* Pricing Card - Soft Gradient */
+        .pricing-card {
+            background: linear-gradient(135deg, var(--bg-soft-green) 0%, #A7F3D0 100%);
+            color: var(--text-primary);
+            padding: 40px;
+            border-radius: 12px;
+            margin: 40px 0;
+            border: 2px solid var(--secondary);
+            box-shadow: 0 10px 30px rgba(16, 185, 129, 0.15);
+        }
+
+        .pricing-card h3 {
+            color: var(--secondary);
+            margin-top: 0;
+        }
+
+        .pricing-card .price {
+            font-size: 48px;
+            font-weight: 800;
+            margin: 20px 0;
+            color: var(--secondary);
+        }
+
+        /* CTA Section */
+        .cta-section {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+            color: white;
+            padding: 40px;
+            border-radius: 12px;
+            text-align: center;
+            margin: 50px 0;
+        }
+
+        .cta-section h3 {
+            color: white;
+            margin-top: 0;
+        }
+
+        .cta-buttons {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 30px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 15px 35px;
+            border-radius: 10px;
+            font-size: 16px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            border: none;
+            cursor: pointer;
+        }
+
+        .btn-primary {
+            background: white;
+            color: var(--primary);
+            box-shadow: 0 5px 20px rgba(255, 255, 255, 0.3);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 30px rgba(255, 255, 255, 0.4);
+        }
+
+        .btn-outline {
+            background: transparent;
+            color: white;
+            border: 2px solid white;
+        }
+
+        .btn-outline:hover {
+            background: white;
+            color: var(--primary);
+            transform: translateY(-3px);
+        }
+
+        /* Footer - LIGHT BACKGROUND (NOT BLACK!) */
+        .article-footer {
+            background: var(--bg-light-gray);     /* Light gray, not black! */
+            color: var(--text-secondary);         /* Medium gray text */
+            padding: 40px;
+            text-align: center;
+            font-size: 14px;
+            border-top: 2px solid var(--border-light);
+        }
+
+        .article-footer a {
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .article-footer a:hover {
+            text-decoration: underline;
+            color: var(--primary-dark);
+        }
+
+        /* Mobile Responsive - Simple and Predictable */
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+
+            .article-header {
+                padding: 40px 20px;
+            }
+
+            .article-title {
+                font-size: 28px;
+            }
+
+            .article-meta {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            .article-content {
+                padding: 30px 20px;
+            }
+
+            h2 {
+                font-size: 26px;
+            }
+
+            h3 {
+                font-size: 20px;
+            }
+
+            .code-block {
+                padding: 20px 15px;
+                font-size: 13px;
+                border-radius: 8px;
+            }
+
+            .cta-buttons {
+                flex-direction: column;
+            }
+
+            .btn {
+                width: 100%;
+            }
+
+            .article-footer {
+                padding: 30px 20px;
+            }
+        }
+
+        /* Print Styles */
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+            }
+
+            .article-container {
+                box-shadow: none;
+                border-radius: 0;
+            }
+
+            .cta-section,
+            .cta-buttons {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <article class="article-container">
+        <!-- Header -->
+        <header class="article-header">
+            <span class="article-category">📚 Category • Topic</span>
+            <h1 class="article-title">Your Blog Post Title Goes Here</h1>
+            <div class="article-meta">
+                <span class="meta-item">📅 January 2025</span>
+                <span class="meta-item">⏱️ 10 min read</span>
+                <span class="meta-item">👥 1,200+ readers</span>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <div class="article-content">
+            <!-- Introduction -->
+            <div class="intro-stats">
+                <h2>Introduction</h2>
+                <p>Start your blog post with an engaging introduction that hooks the reader and explains what they'll learn.</p>
+            </div>
+
+            <!-- Example Section -->
+            <h2>Main Section 1</h2>
+            <p>This is regular paragraph text. It uses a professional font size (17px) with excellent line height (1.8) for comfortable reading on all devices.</p>
+
+            <h3>Subsection Example</h3>
+            <p>Here's how to use different components:</p>
+
+            <!-- Info Box Example -->
+            <div class="info-box">
+                <h4>💡 Info Box - Soft Blue Background</h4>
+                <p>Use this for general information, tips, or helpful notes. The soft blue background is easy on the eyes and looks professional.</p>
+            </div>
+
+            <!-- Success Box Example -->
+            <div class="success-box">
+                <h4>✅ Success Box - Soft Green Background</h4>
+                <p>Use this for positive outcomes, achievements, or successful strategies. The soft green gradient creates a pleasant, encouraging feel.</p>
+            </div>
+
+            <!-- Warning Box Example -->
+            <div class="warning-box">
+                <h4>⚠️ Warning Box - Soft Yellow Background</h4>
+                <p>Use this for important warnings, cautions, or things to avoid. The soft yellow background draws attention without being alarming.</p>
+            </div>
+
+            <!-- Research Highlight Example -->
+            <div class="research-highlight">
+                <strong>Research Citation:</strong> This is how you display research findings or academic citations. The soft purple background makes it stand out as authoritative content.
+            </div>
+
+            <!-- Code Block Example -->
+            <h3>Code Block Example</h3>
+            <p>Here's how to display code or structured information with a LIGHT background (never black!):</p>
+
+            <div class="code-block">
+<pre>Step 1: Do something
+Step 2: Do something else
+Step 3: Complete the task
+
+Result: Success!
+
+Note: The light gray background (#F3F4F6) is professional and easy to read.
+Text never cuts off because we use white-space: pre-wrap and word-wrap: break-word.</pre>
+            </div>
+
+            <!-- Feature Card Example -->
+            <h2>Main Section 2</h2>
+
+            <div class="feature-card">
+                <h3>Feature Card Example</h3>
+                <p>Feature cards have a subtle hover effect and soft borders. They're perfect for highlighting key features or benefits.</p>
+                <ul>
+                    <li>Professional appearance with soft colors</li>
+                    <li>Hover animation for interactivity</li>
+                    <li>Responsive design that works on all screens</li>
+                </ul>
+            </div>
+
+            <!-- List Example -->
+            <h3>List Examples</h3>
+            <p><strong>Unordered List:</strong></p>
+            <ul>
+                <li>List item with custom indigo marker color</li>
+                <li>Proper spacing between items (12px)</li>
+                <li>Comfortable line height (1.7)</li>
+                <li>Works perfectly on mobile</li>
+            </ul>
+
+            <p><strong>Ordered List:</strong></p>
+            <ol>
+                <li>First step in the process</li>
+                <li>Second step in the process</li>
+                <li>Third step in the process</li>
+            </ol>
+
+            <!-- Pricing Example -->
+            <div class="pricing-card">
+                <h3>💰 Pricing Example - Soft Green Gradient</h3>
+                <div class="price">$144/year</div>
+                <p>This pricing card uses a soft green gradient that's inviting and professional. Perfect for displaying pricing information or special offers.</p>
+            </div>
+
+            <!-- CTA Section -->
+            <div class="cta-section">
+                <h3>Call to Action Section</h3>
+                <p>This CTA section uses your brand colors (indigo gradient) and stands out without being aggressive.</p>
+                <div class="cta-buttons">
+                    <a href="#" class="btn btn-primary">Primary Action</a>
+                    <a href="#" class="btn btn-outline">Secondary Action</a>
+                </div>
+            </div>
+
+            <!-- Conclusion -->
+            <h2>Conclusion</h2>
+            <p>Wrap up your blog post with a clear conclusion that reinforces your main points and provides value to the reader.</p>
+
+            <div class="success-box">
+                <h4>Key Takeaways</h4>
+                <ul>
+                    <li>✅ Use soft, light colors (never black backgrounds)</li>
+                    <li>✅ Simple single-column layout for perfect mobile responsiveness</li>
+                    <li>✅ Proper padding prevents text cutoff</li>
+                    <li>✅ Professional appearance with modern design</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="article-footer">
+            <p><strong>Last updated:</strong> January 2025 | Professional blog template with mobile-responsive design</p>
+            <p style="margin-top: 15px;">
+                <a href="https://www.lessoncraftstudio.com">LessonCraft Studio</a> |
+                <a href="https://www.lessoncraftstudio.com/blog">Blog</a> |
+                <a href="https://www.lessoncraftstudio.com/pricing">Pricing</a>
+            </p>
+        </footer>
+    </article>
+</body>
+</html>

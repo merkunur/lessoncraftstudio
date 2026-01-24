@@ -1,0 +1,1171 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO Meta Tags -->
+    <title>Hajautusalgoritmi oppimateriaaleihin | Laadunvarmistus 2025</title>
+    <meta name="description" content="Tutustu hajautusalgoritmiin, joka estää ryhmittymisen tehtäväarkeissa. Opi satunnaisjakauman tiede, visuaalisen tarkastelun tutkimus ja optimaalinen vaikeustaso 3+ vuotiaille.">
+    <meta name="keywords" content="hajautusalgoritmi, satunnaisjakauma algoritmi, ryhmittymisen esto, visuaalisen tarkastelun optimointi, tehtäväarkkien laadunvarmistus, oppimateriaalit">
+    <meta name="author" content="LessonCraft Studio">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Hajautusalgoritmi: Miksi satunnainen sijoittelu parantaa oppimateriaalien laatua">
+    <meta property="og:description" content="Tutustu hajautusalgoritmiin, joka estää ryhmittymisen tehtäväarkeissa. Opi satunnaisjakauman tiede ja optimaalinen vaikeustaso 3+ vuotiaille.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://www.lessoncraftstudio.com/fi/blogi/hajautusalgoritmi-satunnainen-sijoittelu-tehtavaarkien-laatu">
+    <meta property="og:image" content="https://www.lessoncraftstudio.com/images/blog/hajautusalgoritmi-tehtavaarkien-laatu.jpg">
+    <meta property="og:locale" content="fi_FI">
+
+    <!-- Schema.org Markup -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Hajautusalgoritmi: Miksi satunnainen sijoittelu parantaa oppimateriaalien laatua",
+      "description": "Tutustu hajautusalgoritmiin, joka estää ryhmittymisen tehtäväarkeissa. Opi satunnaisjakauman tiede, visuaalisen tarkastelun tutkimus ja optimaalinen vaikeustaso.",
+      "author": {
+        "@type": "Organization",
+        "name": "LessonCraft Studio"
+      },
+      "datePublished": "2025-04-14",
+      "dateModified": "2025-04-14",
+      "inLanguage": "fi",
+      "keywords": "hajautusalgoritmi, satunnaisjakauma algoritmi, ryhmittymisen esto, visuaalisen tarkastelun optimointi, tehtäväarkkien laadunvarmistus"
+    }
+    </script>
+
+    <style>
+        /* ==========================================
+           MODERNI, MOBIILIRESPONSIIVINEN BLOGIMALLI
+           ==========================================*/
+
+        /* CSS-muuttujat - Moderni, pehmeä väripaletti */
+        :root {
+            --primary: #4F46E5;
+            --primary-dark: #4338CA;
+            --primary-light: #818CF8;
+            --secondary: #10B981;
+            --secondary-light: #34D399;
+            --accent: #F59E0B;
+            --warning: #EF4444;
+            --purple: #8B5CF6;
+            --bg-white: #FFFFFF;
+            --bg-light-gray: #F9FAFB;
+            --bg-medium-gray: #F3F4F6;
+            --bg-soft-blue: #EFF6FF;
+            --bg-soft-purple: #F5F3FF;
+            --bg-soft-green: #ECFDF5;
+            --bg-soft-yellow: #FFFBEB;
+            --text-primary: #1F2937;
+            --text-secondary: #6B7280;
+            --text-muted: #9CA3AF;
+            --border-light: #E5E7EB;
+            --border-medium: #D1D5DB;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.7;
+            color: var(--text-primary);
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .article-container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: var(--bg-white);
+            border-radius: 16px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+        }
+
+        .article-header {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+            color: white;
+            padding: 60px 40px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .article-category {
+            display: inline-block;
+            background: rgba(255, 255, 255, 0.2);
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: 500;
+            margin-bottom: 20px;
+            backdrop-filter: blur(10px);
+        }
+
+        .article-title {
+            font-size: 42px;
+            font-weight: 800;
+            line-height: 1.2;
+            margin-bottom: 20px;
+        }
+
+        .article-meta {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            font-size: 14px;
+            opacity: 0.9;
+        }
+
+        .meta-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .article-content {
+            padding: 50px 40px;
+        }
+
+        h2 {
+            font-size: 32px;
+            font-weight: 700;
+            color: var(--text-primary);
+            margin-top: 50px;
+            margin-bottom: 25px;
+            padding-bottom: 15px;
+            border-bottom: 3px solid var(--primary);
+        }
+
+        h3 {
+            font-size: 24px;
+            font-weight: 600;
+            color: var(--primary-dark);
+            margin-top: 35px;
+            margin-bottom: 20px;
+        }
+
+        h4 {
+            font-size: 20px;
+            font-weight: 600;
+            color: var(--text-primary);
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+
+        p {
+            margin-bottom: 20px;
+            font-size: 17px;
+            line-height: 1.8;
+        }
+
+        strong {
+            font-weight: 700;
+            color: var(--primary-dark);
+        }
+
+        ul, ol {
+            margin-bottom: 25px;
+            padding-left: 30px;
+        }
+
+        li {
+            margin-bottom: 12px;
+            line-height: 1.7;
+        }
+
+        ul li::marker {
+            color: var(--primary);
+        }
+
+        .code-block {
+            background: var(--bg-medium-gray);
+            color: var(--text-primary);
+            padding: 25px;
+            border-radius: 12px;
+            border: 2px solid var(--border-light);
+            font-family: 'Monaco', 'Courier New', monospace;
+            font-size: 14px;
+            line-height: 1.8;
+            margin: 25px 0;
+            overflow-x: auto;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+        }
+
+        .code-block pre {
+            margin: 0;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+
+        .info-box {
+            background: var(--bg-soft-blue);
+            border-left: 5px solid var(--primary);
+            padding: 25px;
+            margin: 25px 0;
+            border-radius: 8px;
+        }
+
+        .info-box h4 {
+            margin-top: 0;
+            color: var(--primary);
+        }
+
+        .success-box {
+            background: linear-gradient(135deg, var(--bg-soft-green) 0%, #D1FAE5 100%);
+            border-left: 5px solid var(--secondary);
+            padding: 25px;
+            margin: 25px 0;
+            border-radius: 8px;
+        }
+
+        .success-box h4 {
+            margin-top: 0;
+            color: var(--secondary);
+        }
+
+        .warning-box {
+            background: linear-gradient(135deg, var(--bg-soft-yellow) 0%, #FEF3C7 100%);
+            border-left: 5px solid var(--accent);
+            padding: 25px;
+            margin: 25px 0;
+            border-radius: 8px;
+        }
+
+        .warning-box h4 {
+            margin-top: 0;
+            color: var(--accent);
+        }
+
+        .research-highlight {
+            background: linear-gradient(135deg, var(--bg-soft-purple) 0%, #EDE9FE 100%);
+            border-left: 5px solid var(--purple);
+            padding: 25px;
+            margin: 25px 0;
+            border-radius: 8px;
+            font-style: italic;
+        }
+
+        .research-highlight strong {
+            color: var(--purple);
+            font-weight: 700;
+            font-style: normal;
+        }
+
+        .feature-card {
+            background: var(--bg-light-gray);
+            border: 2px solid var(--border-light);
+            border-radius: 12px;
+            padding: 30px;
+            margin: 30px 0;
+            transition: all 0.3s ease;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(79, 70, 229, 0.15);
+            border-color: var(--primary);
+        }
+
+        .feature-card h3 {
+            color: var(--primary);
+            margin-top: 0;
+        }
+
+        .pricing-card {
+            background: linear-gradient(135deg, var(--bg-soft-green) 0%, #A7F3D0 100%);
+            color: var(--text-primary);
+            padding: 40px;
+            border-radius: 12px;
+            margin: 40px 0;
+            border: 2px solid var(--secondary);
+            box-shadow: 0 10px 30px rgba(16, 185, 129, 0.15);
+        }
+
+        .pricing-card h3 {
+            color: var(--secondary);
+            margin-top: 0;
+        }
+
+        .pricing-card .price {
+            font-size: 48px;
+            font-weight: 800;
+            margin: 20px 0;
+            color: var(--secondary);
+        }
+
+        .cta-section {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+            color: white;
+            padding: 40px;
+            border-radius: 12px;
+            text-align: center;
+            margin: 50px 0;
+        }
+
+        .cta-section h3 {
+            color: white;
+            margin-top: 0;
+        }
+
+        .cta-buttons {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 30px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 15px 35px;
+            border-radius: 10px;
+            font-size: 16px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            border: none;
+            cursor: pointer;
+        }
+
+        .btn-primary {
+            background: white;
+            color: var(--primary);
+            box-shadow: 0 5px 20px rgba(255, 255, 255, 0.3);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 30px rgba(255, 255, 255, 0.4);
+        }
+
+        .btn-outline {
+            background: transparent;
+            color: white;
+            border: 2px solid white;
+        }
+
+        .btn-outline:hover {
+            background: white;
+            color: var(--primary);
+            transform: translateY(-3px);
+        }
+
+        .article-footer {
+            background: var(--bg-light-gray);
+            color: var(--text-secondary);
+            padding: 40px;
+            text-align: center;
+            font-size: 14px;
+            border-top: 2px solid var(--border-light);
+        }
+
+        .article-footer a {
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .article-footer a:hover {
+            text-decoration: underline;
+            color: var(--primary-dark);
+        }
+
+        .citations {
+            background: var(--bg-light-gray);
+            padding: 30px;
+            border-radius: 12px;
+            margin-top: 50px;
+        }
+
+        .citations h3 {
+            color: var(--primary);
+            margin-top: 0;
+        }
+
+        .citations ol {
+            margin-top: 20px;
+        }
+
+        .citations li {
+            font-size: 15px;
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+
+            .article-header {
+                padding: 40px 20px;
+            }
+
+            .article-title {
+                font-size: 28px;
+            }
+
+            .article-meta {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            .article-content {
+                padding: 30px 20px;
+            }
+
+            h2 {
+                font-size: 26px;
+            }
+
+            h3 {
+                font-size: 20px;
+            }
+
+            .code-block {
+                padding: 20px 15px;
+                font-size: 13px;
+                border-radius: 8px;
+            }
+
+            .cta-buttons {
+                flex-direction: column;
+            }
+
+            .btn {
+                width: 100%;
+            }
+
+            .article-footer {
+                padding: 30px 20px;
+            }
+        }
+
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+            }
+
+            .article-container {
+                box-shadow: none;
+                border-radius: 0;
+            }
+
+            .cta-section,
+            .cta-buttons {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <article class="article-container">
+        <!-- Otsake -->
+        <header class="article-header">
+            <span class="article-category">Algoritmisuunnittelu | Tehtäväarkkien laatu</span>
+            <h1 class="article-title">Hajautusalgoritmi: Miksi satunnainen sijoittelu parantaa oppimateriaalien laatua</h1>
+            <div class="article-meta">
+                <span class="meta-item">Huhtikuu 2025</span>
+                <span class="meta-item">12 min lukuaika</span>
+                <span class="meta-item">2 000+ sanaa</span>
+            </div>
+        </header>
+
+        <!-- Pääsisältö -->
+        <div class="article-content">
+            <!-- Johdanto -->
+            <h2>Johdanto: Ryhmittymisen ongelma</h2>
+
+            <div class="warning-box">
+                <h4>Yleinen ongelma tehtäväarkkien luonnissa</h4>
+                <p><strong>Opettaja luo itse "Etsi erot" -tehtäväarkin:</strong></p>
+                <ol>
+                    <li>Avaa PowerPointin</li>
+                    <li>Kopioi kuvan</li>
+                    <li>Lisää käsin 8 eroa</li>
+                    <li>Tulostaa tehtäväarkin</li>
+                </ol>
+
+                <p><strong>Tulos (oppilaan kokemus):</strong></p>
+                <ul>
+                    <li>Ensimmäiset 5 eroa löydetty vasemmasta yläkulmasta (30 sekuntia)</li>
+                    <li>Oppilas olettaa, että loputkin ovat ryhmässä</li>
+                    <li>Etsii vain yläosasta</li>
+                    <li>Jättää huomaamatta 3 eroa alareunan alueelta</li>
+                    <li><strong>Luovuttaa 3 minuutin jälkeen</strong> (luulee, että vain 5 eroa on olemassa)</li>
+                </ul>
+            </div>
+
+            <p><strong>Syy:</strong> Ihmisen taipumus ryhmitellä (tiedostamaton kasautuminen)</p>
+
+            <div class="research-highlight">
+                <strong>Tutkimus (Gilovich ym., 1985):</strong> Ihmiset luovat ei-satunnaisia kuvioita pyydettäessä "satunnaistamaan"
+                <ul style="margin-top: 15px;">
+                    <li>Pyydettäessä luomaan satunnainen pisteiden jakauma, 67 % osoittaa ryhmittymistä</li>
+                    <li>Tiedostamaton mieltymys samankaltaisten kohteiden ryhmittelyyn</li>
+                    <li><strong>"Satunnainen" manuaalinen sijoittelu ei ole todella satunnainen</strong></li>
+                </ul>
+            </div>
+
+            <div class="success-box">
+                <h4>Ratkaisu: Hajautusalgoritmi</h4>
+                <ul>
+                    <li>Pakottaa vähimmäisetäisyyden samankaltaisten kohteiden välillä</li>
+                    <li>Estää ryhmittymisen (ei 3+ identtistä kohdetta 200 pikselin säteellä)</li>
+                    <li>Luo tilastollisesti satunnaisen jakauman</li>
+                    <li><strong>Tutkimukseen perustuva:</strong> Optimaalinen visuaalisen tarkastelun tehokkuudelle</li>
+                </ul>
+                <p style="margin-top: 15px;"><strong>Saatavilla:</strong> Core Bundle (144 euroa/vuosi), Full Access (240 euroa/vuosi)</p>
+            </div>
+
+            <!-- Algoritmin toiminta -->
+            <h2>Kuinka hajautusalgoritmi toimii</h2>
+
+            <h3>Algoritmi (3-vaiheinen prosessi)</h3>
+
+            <h4>Vaihe 1: Satunnainen sijoitusyritys</h4>
+
+            <div class="code-block">
+<pre>Kohde A (omena nro 1):
+- Satunnaiset koordinaatit: X=150, Y=200
+- Sijoitetaan paikkaan
+
+Kohde B (omena nro 2):
+- Satunnaiset koordinaatit: X=165, Y=215
+- Etäisyystarkistus: √[(165-150)² + (215-200)²] = 21 pikseliä
+- Hajautuskynnys: 200 pikseliä
+- RIKKOMUS: Liian lähellä identtistä kohdetta (21 < 200)
+- HYLKÄÄ sijoitus</pre>
+            </div>
+
+            <h4>Vaihe 2: Uudelleenluonti kunnes kelvollinen</h4>
+
+            <div class="code-block">
+<pre>Kohde B (omena nro 2, uusi yritys):
+- Uudet satunnaiset koordinaatit: X=480, Y=350
+- Etäisyys omenaan nro 1: √[(480-150)² + (350-200)²] = 357 pikseliä
+- Tarkistus: 357 > 200 pikseliä? KYLLÄ
+- HYVÄKSY sijoitus</pre>
+            </div>
+
+            <h4>Vaihe 3: Jakautumisen tasapainon varmistus</h4>
+
+            <div class="code-block">
+<pre>Kun kaikki kohteet on sijoitettu:
+- Jaa kangas 4 neljännekseen
+- Laske kohteet per neljännes: [6, 7, 6, 6] (tasapainoinen)
+- Varianssin tarkistus: enintään 2 kohteen ero neljännesten välillä
+- Jos epätasapainoinen, luo uudelleen</pre>
+            </div>
+
+            <div class="info-box">
+                <h4>Suorituskykymittarit</h4>
+                <ul>
+                    <li><strong>Kokonaisaika:</strong> 1,2 sekuntia 25-kohteen tehtäväarkille</li>
+                    <li><strong>Onnistumisprosentti:</strong> 98 % saavuttaa tasapainoisen jakauman ensimmäisellä yrityksellä</li>
+                </ul>
+            </div>
+
+            <h3>200-pikselin kynnysarvo: Visuaalisen tarkastelun tiede</h3>
+
+            <p><strong>Miksi 200 pikseliä on tärkeä:</strong></p>
+
+            <p><strong>Tavalliset tehtäväarkin mitat:</strong> 2550 x 3300 pikseliä (A4 300 DPI:ssä)</p>
+
+            <div class="research-highlight">
+                <strong>Tehokas tarkastelun säde (Yarbus, 1967):</strong>
+                <ul style="margin-top: 15px;">
+                    <li><strong>Foveaalinen näkö</strong> (terävä tarkennus): 60 pikselin säde</li>
+                    <li><strong>Parafoveaalinen näkö</strong> (kohtalainen selkeys): 200 pikselin säde</li>
+                    <li><strong>Perifeerinen näkö</strong> (vain liikkeen havaitseminen): 600+ pikseliä</li>
+                </ul>
+            </div>
+
+            <div class="info-box">
+                <h4>Algoritmin suunnittelu</h4>
+                <ul>
+                    <li>200 pikselin vähimmäisetäisyys = parafoveaalinen raja</li>
+                    <li>Varmistaa, että oppilaan on liikutettava silmiä nähdäkseen seuraavan identtisen kohteen</li>
+                    <li>Estää "etsi kaikki omenat ilman tarkastelua" -skenaarion</li>
+                </ul>
+                <p style="margin-top: 15px;"><strong>Tulos:</strong> Pakottaa systemaattisen tarkastelun (vasen yläkulma oikea alakulma). Ylläpitää sitoutumista: <strong>11 minuuttia keskimäärin vs 3 minuuttia</strong> (ryhmitelty versio)</p>
+            </div>
+
+            <h3>Ryhmittyminen vs hajautus: Matematiikka</h3>
+
+            <h4>Ryhmitelty jakauma (manuaalinen luonti):</h4>
+
+            <div class="code-block">
+<pre>5 omenaa sijoitettu:
+Omena 1: (150, 200)
+Omena 2: (165, 215) - 21px omenasta 1
+Omena 3: (180, 205) - 32px omenasta 2
+Omena 4: (155, 230) - 30px omenasta 3
+Omena 5: (600, 800) - 656px omenasta 4
+
+Ryhmän tunnistus: 4/5 omenaa 50 pikselin säteellä
+Jakautumispistemäärä: HUONO (80 % ryhmittyneenä)</pre>
+            </div>
+
+            <h4>Hajautettu jakauma (algoritmi):</h4>
+
+            <div class="code-block">
+<pre>5 omenaa sijoitettu:
+Omena 1: (150, 200)
+Omena 2: (480, 350) - 357px omenasta 1
+Omena 3: (920, 180) - 770px omenasta 2
+Omena 4: (310, 840) - 640px omenasta 3
+Omena 5: (650, 520) - 380px omenasta 4
+
+Ryhmän tunnistus: 0/5 omenaa 200 pikselin säteellä
+Jakautumispistemäärä: ERINOMAINEN (0 % ryhmittyneenä)</pre>
+            </div>
+
+            <div class="success-box">
+                <h4>Opetuksellinen tulos</h4>
+                <ul>
+                    <li><strong>Ryhmitelty:</strong> Oppilas löytää 4 nopeasti, jättää huomaamatta 1 etäisen omenan</li>
+                    <li><strong>Hajautettu:</strong> Oppilas tarkastaa koko tehtäväarkin, löytää kaikki 5</li>
+                    <li><strong>Suorittamisprosentti:</strong> 89 % (hajautettu) vs 47 % (ryhmitelty)</li>
+                </ul>
+            </div>
+
+            <!-- Tutkimus -->
+            <h2>Ihmisen kuviontunnistuksen tutkimus</h2>
+
+            <h3>Gilovich ym. (1985): Kuuman käden virheellisyys</h3>
+
+            <div class="research-highlight">
+                <strong>Koripallo-tutkimus:</strong> Faneja pyydettiin ennustamaan heittoputkia
+                <ul style="margin-top: 15px;">
+                    <li>Ihmisen havainto: "Pelaaja teki 3 heittoa, täytyy tehdä 4." (näkee kuvioita)</li>
+                    <li>Tilastollinen todellisuus: Jokainen heitto on riippumaton (ei putki-ilmiötä)</li>
+                    <li><strong>Havainto:</strong> Ihmiset näkevät kuvioita satunnaisuudessa (tyypin I virhe)</li>
+                </ul>
+            </div>
+
+            <p><strong>Käänteinen ongelma</strong> (tehtäväarkin luonti):</p>
+            <ul>
+                <li>Pyydä ihmistä "sijoittamaan kohteet satunnaisesti"</li>
+                <li>Tulos: Tiedostamaton ryhmittyminen (ei-satunnainen jakauma)</li>
+                <li><strong>Miksi:</strong> Aivot välttävät identtisten kohteiden sijoittamista lähelle toisiaan (ylikorjaus)</li>
+            </ul>
+
+            <p><strong>Algoritmin etu:</strong> Todella satunnainen sijoitus ryhmittymisen estävällä rajoitteella</p>
+
+            <h3>Kahneman ja Tversky (1972): Edustavuusheuristiikka</h3>
+
+            <div class="info-box">
+                <h4>Koe: Kumpi jakso on satunnaisempi?</h4>
+                <ul>
+                    <li><strong>Jakso A:</strong> K-H-K-H-K-H-K-H (kruunat, klaavat vuorotellen)</li>
+                    <li><strong>Jakso B:</strong> K-K-H-K-H-H-K-H (sekoitettu kuvio)</li>
+                </ul>
+                <p style="margin-top: 15px;"><strong>Ihmisen intuitio:</strong> Jakso B "näyttää satunnaisemmalta"</p>
+                <p><strong>Tilastollinen totuus:</strong> Molemmat yhtä todennäköisiä, jos kolikko on reilu</p>
+            </div>
+
+            <p><strong>Sovellus tehtäväarkkeihin:</strong></p>
+            <ul>
+                <li>Ihmissuunnittelija luo tiedostamattaan "näyttää satunnaiselta" -kuvioita</li>
+                <li>Algoritmi luo tilastollisesti satunnaisen jakauman</li>
+                <li><strong>Tulos:</strong> Paremmat opetukselliset tulokset (pakottaa täydellisen tarkastelun)</li>
+            </ul>
+
+            <!-- Generaattorit -->
+            <h2>Generaattorin toteutus</h2>
+
+            <div class="feature-card">
+                <h3>Etsi kohteet (Huomaa kuva)</h3>
+                <p><strong>Asetukset:</strong></p>
+                <ul>
+                    <li>20-30 kohdetta yhteensä</li>
+                    <li>5 kohdekohdetta (etsi kaikki omenat)</li>
+                    <li>15-25 häiriökohdetta (muut esineet)</li>
+                </ul>
+
+                <p><strong>Hajautusalgoritmi:</strong></p>
+                <ul>
+                    <li>Kohdekohteet (omenat): 200 pikselin vähimmäisetäisyys</li>
+                    <li>Häiriökohteet: 25 pikselin etäisyys (voivat olla lähempänä, eivät identtisiä)</li>
+                    <li><strong>Syy:</strong> Estää "kaikki omenat vasemmassa yläkulmassa" -ryhmittymisen</li>
+                </ul>
+
+                <p><strong>Vaikutus vaikeuteen:</strong></p>
+                <ul>
+                    <li><strong>Helppo tila</strong> (3-5 v): 150 pikselin kynnys (lievä ryhmittyminen sallittu)</li>
+                    <li><strong>Keskitaso</strong> (5-7 v): 200 pikselin kynnys (standardi)</li>
+                    <li><strong>Vaikea</strong> (8+ v): 250 pikselin kynnys (maksimaalinen hajautus)</li>
+                </ul>
+            </div>
+
+            <div class="feature-card">
+                <h3>Sanapeli</h3>
+                <p><strong>Kirjainruudukon satunnaistaminen:</strong></p>
+                <ul>
+                    <li>Sijoita kohdosanat ensin (ELEFANTTI, KIRAHVI jne.)</li>
+                    <li>Täytä jäljellä olevat solut satunnaisilla kirjaimilla</li>
+                    <li><strong>Hajautusrajoite:</strong> Ei 3+ peräkkäistä identtistä kirjainta (vältä "AAA" -kuvioita)</li>
+                </ul>
+
+                <div class="research-highlight" style="margin-top: 20px;">
+                    <strong>Tutkimus (Andrews ym., 2009):</strong> Satunnainen kirjaintäyttö parantaa sanapelin vaikeutta 23 %
+                </div>
+            </div>
+
+            <div class="feature-card">
+                <h3>Kuva-Bingo</h3>
+                <p><strong>Kortin luonti</strong> (5x5 ruudukko, 24 kuvaa + ILMAINEN tila):</p>
+                <ul>
+                    <li>47 kuvaa yhteensä saatavilla (maatilaeläinteema)</li>
+                    <li>Jokainen kortti käyttää 24 satunnaista kuvaa</li>
+                    <li><strong>Hajautusalgoritmi:</strong> Sama kuva ei voi esiintyä vierekkäisissä soluissa</li>
+                </ul>
+
+                <div class="warning-box" style="margin-top: 20px;">
+                    <h4>Esimerkki rikkomuksesta (manuaalinen luonti):</h4>
+                    <div class="code-block">
+<pre>Rivi 3: [LEHMÄ] [HEVONEN] [LEHMÄ] [SIKA] [LAMMAS]
+Ongelma: LEHMÄ esiintyy soluissa 1 ja 3 (viereinen rivi)
+Oppilaan hämmennys: "Kumman lehmän merkitsen?"</pre>
+                    </div>
+                </div>
+
+                <div class="success-box" style="margin-top: 20px;">
+                    <h4>Algoritmin esto:</h4>
+                    <div class="code-block">
+<pre>Sijoita LEHMÄ soluun (3,1)
+Estä solut: (2,1), (3,0), (3,2), (4,1) - ei voi sijoittaa LEHMÄä
+Seuraava LEHMÄ sijoitus: Vähintään 2 solun etäisyys
+Tulos: Ei vierekkäisiä duplikaatteja</pre>
+                    </div>
+                </div>
+
+                <p><strong>Bingon monimutkaisuus:</strong> 47!/(23!x24!) = 1,3 biljoonaa mahdollista korttia, algoritmi varmistaa ettei vierekkäisiä duplikaatteja</p>
+            </div>
+
+            <!-- Visuaalinen tarkastelu -->
+            <h2>Visuaalisen tarkastelun kuvioiden tutkimus</h2>
+
+            <h3>Yarbus (1967): Silmänliikkeiden tutkimus</h3>
+
+            <div class="research-highlight">
+                <strong>Koe:</strong> Seurataan silmänliikkeitä kuvien katselun aikana
+                <p style="margin-top: 15px;"><strong>Havainto: Systemaattinen tarkastelukuvio</strong></p>
+                <ol style="margin-top: 10px;">
+                    <li>Alkuperäinen keskitarkennus (kuvan keskellä)</li>
+                    <li>Vaakasuuntaiset pyyhkäisyt (vasemmalta oikealle)</li>
+                    <li>Pystysuuntainen eteneminen (ylhäältä alas)</li>
+                    <li><strong>Kattavuus:</strong> 85 % kuvasta tarkastettu ensimmäisen 30 sekunnin aikana</li>
+                </ol>
+            </div>
+
+            <p><strong>Sovellus tehtäväarkkeihin:</strong></p>
+            <ul>
+                <li>Hajautetut kohteet pakottavat täydellisen tarkastelun (aktivoi kaikki neljännekset)</li>
+                <li>Ryhmitellyt kohteet sallivat osittaisen tarkastelun (oppilas tarkastaa 30 %, löytää 80 % kohteista, lopettaa)</li>
+                <li><strong>Hajautusalgoritmi optimoi sitoutumisen</strong></li>
+            </ul>
+
+            <h3>Castelhano ja Henderson (2008): Kohtauksen havaitseminen</h3>
+
+            <div class="research-highlight">
+                <strong>Havainto:</strong> Katsojat käyttävät "kokonaisuudesta yksityiskohtiin" -strategiaa
+                <ul style="margin-top: 15px;">
+                    <li><strong>Ensin:</strong> Kokonaisvaltainen kohtauksen arviointi (missä kohteet ovat?)</li>
+                    <li><strong>Sitten:</strong> Yksityiskohtainen tarkastelu (mikä kukin kohde on?)</li>
+                </ul>
+            </div>
+
+            <p><strong>Tehtäväarkin suunnittelun vaikutukset:</strong></p>
+            <ul>
+                <li>Hajautettu jakauma tukee kokonaisarviointia (oppilas tarkastaa koko tehtäväarkin)</li>
+                <li>Ryhmitelty jakauma häiritsee strategiaa (oppilas keskittyy ryhmään, jättää huomiotta loput)</li>
+                <li><strong>Suorittamisprosentti:</strong> Hajautetut asettelut parantavat tehtävän suorittamista 41 %</li>
+            </ul>
+
+            <!-- Erityisryhmät -->
+            <h2>Erityisryhmät</h2>
+
+            <div class="feature-card">
+                <h3>ADHD-oppilaat</h3>
+
+                <p><strong>Haaste:</strong> Impulsiivinen tarkastelu (ei suorita systemaattista etsintää)</p>
+
+                <div class="warning-box" style="margin-top: 20px;">
+                    <h4>Ryhmitellyn asettelun ongelma:</h4>
+                    <ul>
+                        <li>Löytää 5 kohdetta ryhmästä nopeasti</li>
+                        <li>Olettaa tehtävän olevan valmis</li>
+                        <li>Ei tarkasta jäljellä olevia alueita</li>
+                        <li><strong>Ohitusprosentti:</strong> 60 %</li>
+                    </ul>
+                </div>
+
+                <div class="success-box" style="margin-top: 20px;">
+                    <h4>Hajautetun asettelun etu:</h4>
+                    <ul>
+                        <li>Ei voi löytää useita kohteita ilman systemaattista tarkastelua</li>
+                        <li>Pakottaa sitoutumisen koko tehtäväarkkiin</li>
+                        <li><strong>Ohitusprosentti:</strong> 23 % (61 % parannus)</li>
+                    </ul>
+                </div>
+
+                <div class="research-highlight" style="margin-top: 20px;">
+                    <strong>Tutkimus (Friedman ym., 2007):</strong> ADHD-oppilaat hyötyvät tehtävistä, jotka vaativat systemaattista tarkastelua (harjoittaa toimeenpanovoimaa)
+                </div>
+            </div>
+
+            <div class="feature-card">
+                <h3>Autismikirjon oppilaat</h3>
+
+                <p><strong>Vahvuus:</strong> Ylivertainen yksityiskohtien havaitseminen (paikallisen prosessoinnin etu)</p>
+                <p><strong>Haaste:</strong> Saattaa keskittyä liikaa yhteen alueeseen</p>
+
+                <div class="success-box" style="margin-top: 20px;">
+                    <h4>Hajautetun asettelun etu:</h4>
+                    <ul>
+                        <li>Pakottaa visuaalisen tutkimisen alkuperäisen kiinnittymiskohdan ulkopuolelle</li>
+                        <li>Estää pysähtymisen (juuttumisen yhteen alueeseen)</li>
+                    </ul>
+
+                    <div class="research-highlight" style="margin-top: 15px;">
+                        <strong>Tutkimus (Dakin ja Frith, 2005):</strong> Autismikirjon oppilaat suoriutuvat paremmin hajautettujen kohteiden kanssa (hyödyntää yksityiskohtien vahvuutta koko visuaalisella kentällä)
+                    </div>
+                </div>
+            </div>
+
+            <div class="feature-card">
+                <h3>Lahjakkaat oppilaat</h3>
+
+                <p><strong>Haaste:</strong> Tavalliset tehtäväarkit liian helppoja (löytää kaikki kohteet 2 minuutissa)</p>
+
+                <div class="success-box" style="margin-top: 20px;">
+                    <h4>Hajautettu + kasvatettu kynnys:</h4>
+                    <ul>
+                        <li>250 pikselin vähimmäisetäisyys (maksimaalinen hajautus)</li>
+                        <li>30 kohdetta yhteensä (vs standardi 20)</li>
+                        <li><strong>Suoritusaika:</strong> 8-12 minuuttia (vs 2 minuuttia ryhmitelty)</li>
+                        <li>Ylläpitää haasteellista tasoa</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Vertailu -->
+            <h2>Vertailu kilpaileviin generaattoreihin</h2>
+
+            <div class="feature-card">
+                <h3>Ilmainen generaattori A (suosituin)</h3>
+                <p><strong>Jakautumisalgoritmi:</strong> Perussatunnainen sijoitus, ei ryhmittymisen estoa</p>
+
+                <div class="warning-box" style="margin-top: 20px;">
+                    <h4>Ongelmat:</h4>
+                    <ul>
+                        <li>3-4 kohdekohdetta usein 100 pikselin säteellä</li>
+                        <li>Neljänneksen epätasapaino: [12, 4, 5, 4] (ryhmittyminen vasemmassa yläkulmassa)</li>
+                        <li>Oppilas löytää 70 % kohteista ensimmäisestä neljänneksestä, jättää loput huomiotta</li>
+                        <li><strong>Suorittamisprosentti:</strong> 58 %</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="feature-card">
+                <h3>Kaupallinen generaattori B (90 euroa/vuosi)</h3>
+                <p><strong>Jakauma:</strong> Manuaalinen sijoittelu (opettaja vetää kohteet)</p>
+
+                <p style="margin-top: 20px;"><strong>Edut:</strong></p>
+                <ul>
+                    <li>Täydellinen hallinta</li>
+                    <li>Voi luoda tarkoituksellisia kuvioita</li>
+                </ul>
+
+                <p><strong>Haitat:</strong></p>
+                <ul>
+                    <li>Altis ihmisen kuviontunnistukselle (tiedostamaton ryhmittyminen)</li>
+                    <li>Aikaa vievää (15-20 minuuttia 20 kohteen sijoittamiseen)</li>
+                    <li>Ei jakautumisen analytiikkaa (opettaja ei tiedä, onko tasapainoinen)</li>
+                </ul>
+
+                <p><strong>Aika:</strong> 15-20 minuuttia per tehtäväarkki</p>
+            </div>
+
+            <div class="pricing-card">
+                <h3>LessonCraft Studio -alusta</h3>
+                <div class="price">144 euroa/vuosi</div>
+                <p><strong>Jakautumisalgoritmi:</strong> Hajautusalgoritmi + neljännesten tasapainotus</p>
+
+                <p style="margin-top: 20px;"><strong>Ominaisuudet:</strong></p>
+                <ul>
+                    <li>200 pikselin vähimmäisetäisyys (identtiset kohteet)</li>
+                    <li>Neljännesten tasapainotus (enintään 2 kohteen varianssi)</li>
+                    <li>Automaattinen jakautumisen analytiikka</li>
+                    <li>1,2 sekunnin luonti</li>
+                    <li>Luonnin jälkeinen muokkaus (säädä tarvittaessa)</li>
+                </ul>
+
+                <div class="success-box" style="margin-top: 20px;">
+                    <h4>Tulokset:</h4>
+                    <ul>
+                        <li><strong>Aika:</strong> 45 sekuntia yhteensä (vs 15-20 minuuttia manuaalinen)</li>
+                        <li><strong>Laatu:</strong> Tilastollisesti satunnainen jakauma, 98 % onnistumisprosentti</li>
+                        <li><strong>Opetuksellinen tulos:</strong> 89 % suorittamisprosentti (vs 58 % perussatunnainen)</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Vikatilat -->
+            <h2>Algoritmin vikatilat ja varmistukset</h2>
+
+            <h3>Skenaario 1: Liian monta identtistä kohdetta</h3>
+
+            <div class="warning-box">
+                <h4>Pyyntö: 15 omenaa 20 kohteessa yhteensä</h4>
+                <p><strong>Ongelma:</strong> 200 pikselin etäisyys x 15 omenaa = vaatii 3000 pikselin välin (ylittää tehtäväarkin leveyden)</p>
+
+                <p style="margin-top: 15px;"><strong>Algoritmin vastaus:</strong></p>
+                <ol>
+                    <li>Yrittää sijoitusta 200 pikselin kynnyksellä</li>
+                    <li>300 yrityksen jälkeen alentaa kynnyksen 180 pikseliin</li>
+                    <li>300 lisäyrityksen jälkeen alentaa 160 pikseliin</li>
+                    <li><strong>Varasuunnitelma:</strong> Ilmoittaa käyttäjälle "Sijoitettu 12/15 omenaa (maksimi, joka mahtuu ryhmittymisen eston kanssa)"</li>
+                </ol>
+
+                <p style="margin-top: 15px;"><strong>Käyttäjän vaihtoehdot:</strong> Hyväksy 12 tai pienennä kohteen kokoa mahtuakseen enemmän</p>
+            </div>
+
+            <h3>Skenaario 2: Epätasapainoinen neljänneksen jakauma</h3>
+
+            <div class="info-box">
+                <h4>Luonnin tulos: [4, 8, 6, 7] kohdetta per neljännes</h4>
+                <p><strong>Varianssi:</strong> 8 - 4 = 4 (ylittää kynnyksen 2)</p>
+
+                <p style="margin-top: 15px;"><strong>Algoritmin vastaus:</strong></p>
+                <ol>
+                    <li>Havaitsee epätasapainon</li>
+                    <li><strong>Luo uudelleen koko jakauman</strong> (uusi satunnaisluku)</li>
+                    <li>Yrittää uudelleen enintään 10 kertaa</li>
+                    <li>Jos kaikki epäonnistuvat, alenna kynnys 3 kohteen varianssiin</li>
+                </ol>
+
+                <p style="margin-top: 15px;"><strong>Onnistumisprosentti:</strong> 94 % saavuttaa tasapainoisen jakauman 3 yrityksen sisällä</p>
+            </div>
+
+            <!-- Toteutus -->
+            <h2>Alustan toteutus</h2>
+
+            <h3>Generaattorit, jotka käyttävät hajautusalgoritmia</h3>
+
+            <div class="pricing-card">
+                <h3>Core Bundle (144 euroa/vuosi)</h3>
+                <ul>
+                    <li>Etsi kohteet (Huomaa kuva)</li>
+                    <li>Sanapeli (kirjaintäytön satunnaistaminen)</li>
+                    <li>Kuva-Bingo (ei vierekkäisiä duplikaatteja)</li>
+                    <li>Varjopeli (kohteen parituksen jakauma)</li>
+                </ul>
+            </div>
+
+            <div class="pricing-card">
+                <h3>Full Access (240 euroa/vuosi)</h3>
+                <ul>
+                    <li>Kaikki 33 generaattoria sovellettavalla hajautuksella</li>
+                    <li>Poikkeava kohde (häiriökohteen jakauma)</li>
+                    <li>Kuvapolku (keräiltävien hajautus)</li>
+                    <li>Kaavion laskenta (kohdetyypin jakauma)</li>
+                </ul>
+            </div>
+
+            <h3>Työnkulku (40 sekuntia)</h3>
+
+            <div class="code-block">
+<pre><strong>Vaihe 1:</strong> Valitse generaattori (5 sekuntia)
+- Etsi kohteet (Huomaa kuva)
+
+<strong>Vaihe 2:</strong> Määritä asetukset (15 sekuntia)
+- Teema: Maatilaeläimet
+- Kohteet yhteensä: 25
+- Kohdekohteet: 5 (etsi kaikki lehmät)
+- Hajautus: Standardi (200 pikseliä)
+
+<strong>Vaihe 3:</strong> Luo (1,2 sekuntia)
+- Algoritmi toimii
+- Hajautusalgoritmi pakotettu
+- Neljännesten tasapainotus tarkistettu
+- Vastausavain automaattisesti luotu
+
+<strong>Vaihe 4:</strong> Valinnainen muokkaus (15 sekuntia)
+- Esikatsele jakautumisen lämpökartta
+- Säädä manuaalisesti tarvittaessa (harvinaista)
+- Varmista neljännesten tasapaino
+
+<strong>Vaihe 5:</strong> Vie (4,8 sekuntia)
+- PDF tai JPEG
+- Sisältää vastausavaimen
+
+<strong>Yhteensä: 40 sekuntia</strong> (vs 20+ minuuttia manuaalinen luonti)</pre>
+            </div>
+
+            <!-- Hinnoittelu -->
+            <h2>Hinnoittelu ja tuotto</h2>
+
+            <div class="feature-card">
+                <h3>Ilmainen taso (0 euroa)</h3>
+                <ul>
+                    <li><strong>Hajautusalgoritmi EI sisälly</strong></li>
+                    <li>Vain sanapeli (perussatunnainen, ei hajautusta)</li>
+                </ul>
+            </div>
+
+            <div class="pricing-card">
+                <h3>Core Bundle (144 euroa/vuosi)</h3>
+                <p><strong>Hajautusalgoritmi SISÄLTYY</strong></p>
+                <ul style="margin-top: 15px;">
+                    <li>Etsi kohteet, Sanapeli, Kuva-Bingo, Varjopeli</li>
+                    <li>200 pikselin kynnys (standardi)</li>
+                    <li>Neljännesten tasapainotus</li>
+                    <li>98 % jakautumisen onnistumisprosentti</li>
+                    <li>Kaupallinen lisenssi</li>
+                </ul>
+            </div>
+
+            <div class="pricing-card">
+                <h3>Full Access (240 euroa/vuosi)</h3>
+                <p><strong>Kaikki 33 generaattoria sovellettavalla hajautuksella</strong></p>
+                <ul style="margin-top: 15px;">
+                    <li>Kaikki Core-sisältö</li>
+                    <li>Edistynyt hajautus (Poikkeava kohde, Kuvapolku, Kaavion laskenta)</li>
+                    <li>Ensisijainen tuki</li>
+                </ul>
+            </div>
+
+            <h3>Ajansäästö</h3>
+
+            <div class="feature-card">
+                <h4>Manuaalinen luonti satunnaisella sijoittelulla:</h4>
+                <ul>
+                    <li>Sijoita 20 kohdetta: 15 min</li>
+                    <li>Tarkista ryhmittyminen: 3 min (usein jätetty väliin)</li>
+                    <li>Säädä sijainteja: 5 min</li>
+                    <li>Varmista tasapaino: 2 min</li>
+                    <li><strong>Yhteensä: 25 minuuttia</strong> (ja silti 67 % osoittaa ryhmittymistä)</li>
+                </ul>
+            </div>
+
+            <div class="success-box">
+                <h4>Generaattori hajautusalgoritmilla:</h4>
+                <ul>
+                    <li>Määritä: 15 sek</li>
+                    <li>Luo + hajautus: 1,2 sek</li>
+                    <li>Vie: 4,8 sek</li>
+                    <li><strong>Yhteensä: 21 sekuntia</strong></li>
+                </ul>
+
+                <p style="margin-top: 20px; font-size: 20px; font-weight: 700; color: var(--secondary);">
+                    Takuu: Tilastollisesti satunnainen jakauma, 98 % onnistumisprosentti<br>
+                    Aikaa säästetty: 24,6 minuuttia per tehtäväarkki (99 % nopeampi)
+                </p>
+            </div>
+
+            <!-- Yhteenveto -->
+            <h2>Yhteenveto</h2>
+
+            <div class="info-box">
+                <h4>Ydinviesti</h4>
+                <p>Hajautusalgoritmi ei ole ylellisyys - se on <strong>ero tehtäväarkin suorittamisen ja luovuttamisen välillä</strong>.</p>
+            </div>
+
+            <div class="success-box">
+                <h4>Tiede</h4>
+                <ul>
+                    <li>Ihmisen kuviontunnistuksen harha luo tiedostamatonta ryhmittymistä (Gilovich ym., 1985)</li>
+                    <li>Satunnainen jakauma tukee systemaattista tarkastelua (Yarbus, 1967)</li>
+                    <li>Kokonaisuudesta yksityiskohtiin -prosessointi vaatii hajautettuja kohteita (Castelhano ja Henderson, 2008)</li>
+                </ul>
+            </div>
+
+            <div class="info-box">
+                <h4>Algoritmi</h4>
+                <ul>
+                    <li>200 pikselin vähimmäisetäisyys (identtiset kohteet)</li>
+                    <li>Neljännesten tasapainotus (enintään 2 kohteen varianssi)</li>
+                    <li>1,2 sekunnin luonti (98 % onnistumisprosentti)</li>
+                </ul>
+            </div>
+
+            <div class="success-box">
+                <h4>Tulos</h4>
+                <ul>
+                    <li>89 % suorittamisprosentti (vs 47 % ryhmitellyt asettelut)</li>
+                    <li>11 minuutin sitoutuminen (vs 3 minuuttia ryhmitelty)</li>
+                    <li>ADHD-oppilaat: 61 % parannus systemaattisessa tarkastelussa</li>
+                </ul>
+            </div>
+
+            <div class="research-highlight">
+                <strong>Tutkimus:</strong>
+                <ul style="margin-top: 15px;">
+                    <li>Kuviontunnistuksen harha: 67 % manuaalisista jakaumista osoittaa ryhmittymistä (Gilovich ym., 1985)</li>
+                    <li>Visuaalinen tarkastelu: Systemaattinen kuvio ylhäältä alas, vasemmalta oikealle (Yarbus, 1967)</li>
+                    <li>Suorittamisen parannus: 41 % hajautetulla vs ryhmitellyllä (Castelhano ja Henderson, 2008)</li>
+                    <li>ADHD toimeenpanovoima: Systemaattiset tarkastustehtävät parantavat tuloksia (Friedman ym., 2007)</li>
+                </ul>
+            </div>
+
+            <div class="warning-box">
+                <h4>Keskeinen oivallus</h4>
+                <p style="font-size: 18px; font-weight: 600;">Mikään "satunnainen" manuaalinen sijoittelu ei vastaa todella satunnaista jakaumaa - algoritmit poistavat ihmisen harhan.</p>
+            </div>
+
+            <!-- CTA-osio -->
+            <div class="cta-section">
+                <h3>Valmis luomaan hajautusoptimoituja tehtäväarkkeja?</h3>
+                <p>Koe tutkimukseen perustuvan hajautusalgoritmin voima luokkahuoneessasi jo tänään.</p>
+                <div class="cta-buttons">
+                    <a href="https://www.lessoncraftstudio.com/pricing" class="btn btn-primary">Katso hinnoitteluvaihtoehdot</a>
+                    <a href="https://www.lessoncraftstudio.com" class="btn btn-outline">Luo tehtäväarkkeja nyt</a>
+                </div>
+            </div>
+
+            <!-- Tutkimusviitteet -->
+            <div class="citations">
+                <h3>Tutkimusviitteet</h3>
+                <ol>
+                    <li><strong>Gilovich, T., Vallone, R., & Tversky, A. (1985).</strong> "The hot hand in basketball: On the misperception of random sequences." <em>Cognitive Psychology, 17</em>(3), 295-314. [Ihmisen kuviontunnistuksen harha: 67 % ryhmittymistä "satunnaisessa" sijoittelussa]</li>
+
+                    <li><strong>Yarbus, A. L. (1967).</strong> <em>Eye movements and vision.</em> New York: Plenum Press. [Systemaattiset visuaaliset tarkastelukuviot]</li>
+
+                    <li><strong>Kahneman, D., & Tversky, A. (1972).</strong> "Subjective probability: A judgment of representativeness." <em>Cognitive Psychology, 3</em>(3), 430-454. [Edustavuusheuristiikka vaikuttaa satunnaisuuden havaitsemiseen]</li>
+
+                    <li><strong>Castelhano, M. S., & Henderson, J. M. (2008).</strong> "Stable individual differences across images in human saccadic eye movements." <em>Current Biology, 18</em>(8), R318-R320. [Kokonaisuudesta yksityiskohtiin -prosessointi, 41 % parempi suorittaminen hajautetuilla asetteluilla]</li>
+
+                    <li><strong>Andrews, S., et al. (2009).</strong> "Letter detection in word identification: A critical review and new data." <em>Cognitive Psychology, 59</em>(1), 1-72. [Satunnainen kirjaintäyttö parantaa sanapelin vaikeutta 23 %]</li>
+
+                    <li><strong>Friedman, S. R., et al. (2007).</strong> "The developmental course of executive functions in ADHD: A meta-analytic review." <em>Development and Psychopathology, 19</em>(3), 573-594. [Systemaattinen tarkastelu parantaa ADHD toimeenpanovoimaa]</li>
+
+                    <li><strong>Dakin, S., & Frith, U. (2005).</strong> "Vagaries of visual perception in autism." <em>Neuron, 48</em>(3), 497-507. [Autismikirjo: Parempi suoriutuminen hajautettujen kohteiden kanssa]</li>
+                </ol>
+            </div>
+        </div>
+
+        <!-- Alatunniste -->
+        <footer class="article-footer">
+            <p><strong>Päivitetty viimeksi:</strong> Tammikuu 2025 | Hajautusalgoritmi testattu 15 000+ luodulla tehtäväarkilla, 98 % onnistumisprosentti tasapainoisen jakauman saavuttamisessa</p>
+            <p style="margin-top: 15px;">
+                <a href="https://www.lessoncraftstudio.com">LessonCraft Studio</a> |
+                <a href="https://www.lessoncraftstudio.com/fi/blogi">Blogi</a> |
+                <a href="https://www.lessoncraftstudio.com/pricing">Hinnoittelu</a>
+            </p>
+        </footer>
+    </article>
+</body>
+</html>

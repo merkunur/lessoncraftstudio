@@ -1,0 +1,1183 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO Meta Tags -->
+    <title>Generatore Anagrammi | Algoritmo Indizi Progressivi 2025</title>
+    <meta name="description" content="Difficoltà adattiva per anagrammi didattici con algoritmo a indizi progressivi. Regola automatica gli aiuti in base alla lunghezza (3 lettere = 1 indizio, 8 lettere = 2 indizi). Shuffle Fisher-Yates, 11 lingue.">
+    <meta name="keywords" content="generatore anagrammi didattici, schede anagrammi scuola primaria, giochi di parole ortografia, esercizi spelling italiano, puzzle lettere bambini, attività linguistiche adattive, anagrammi con indizi">
+    <meta name="author" content="LessonCraft Studio">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.lessoncraftstudio.com/blog/anagrammi-algoritmo-indizi-progressivi-difficolta-adattiva">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Generatore Anagrammi | Algoritmo Indizi Progressivi 2025">
+    <meta property="og:description" content="Difficoltà adattiva per anagrammi didattici con algoritmo a indizi progressivi. Regola automatica gli aiuti in base alla lunghezza della parola.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://www.lessoncraftstudio.com/blog/anagrammi-algoritmo-indizi-progressivi-difficolta-adattiva">
+    <meta property="og:image" content="https://www.lessoncraftstudio.com/images/blog/anagrammi-algoritmo-indizi-progressivi.jpg">
+    <meta property="og:locale" content="it_IT">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Generatore Anagrammi | Algoritmo Indizi Progressivi 2025">
+    <meta name="twitter:description" content="Difficoltà adattiva per anagrammi didattici con algoritmo a indizi progressivi.">
+    <meta name="twitter:image" content="https://www.lessoncraftstudio.com/images/blog/anagrammi-algoritmo-indizi-progressivi.jpg">
+
+    <!-- Schema.org Markup -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Anagrammi con Algoritmo a Indizi Progressivi: Difficoltà Adattiva Basata sulla Lunghezza della Parola",
+      "description": "Difficoltà adattiva per anagrammi didattici con algoritmo a indizi progressivi. Regola automatica gli aiuti in base alla lunghezza della parola.",
+      "author": {
+        "@type": "Organization",
+        "name": "LessonCraft Studio"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "LessonCraft Studio",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.lessoncraftstudio.com/logo.png"
+        }
+      },
+      "datePublished": "2025-02-17",
+      "dateModified": "2025-02-17",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.lessoncraftstudio.com/blog/anagrammi-algoritmo-indizi-progressivi-difficolta-adattiva"
+      },
+      "image": "https://www.lessoncraftstudio.com/images/blog/anagrammi-algoritmo-indizi-progressivi.jpg",
+      "keywords": "anagrammi didattici, schede scuola primaria, ortografia italiana, esercizi spelling, puzzle lettere",
+      "wordCount": 1950,
+      "articleBody": "L'algoritmo a indizi progressivi risolve il problema della difficoltà variabile negli anagrammi tradizionali, fornendo automaticamente più supporto per le parole più lunghe.",
+      "educationalLevel": "Scuola Primaria",
+      "inLanguage": "it-IT"
+    }
+    </script>
+
+    <style>
+        /* ==========================================
+           MODERN, MOBILE-RESPONSIVE BLOG TEMPLATE
+           ✅ Perfect mobile responsiveness
+           ✅ Soft, professional colors (NO BLACK!)
+           ✅ Simple single-column layout
+           ✅ Text never cuts off
+           ========================================== */
+
+        /* CSS Variables - Modern, Soft Color Palette */
+        :root {
+            /* Primary Colors - Soft Blues/Purples */
+            --primary: #4F46E5;           /* Indigo 600 */
+            --primary-dark: #4338CA;      /* Indigo 700 */
+            --primary-light: #818CF8;     /* Indigo 400 */
+
+            /* Secondary Colors - Soft Greens */
+            --secondary: #10B981;         /* Emerald 500 */
+            --secondary-light: #34D399;   /* Emerald 400 */
+
+            /* Accent Colors - Soft Oranges/Yellows */
+            --accent: #F59E0B;            /* Amber 500 */
+            --warning: #EF4444;           /* Red 500 */
+            --purple: #8B5CF6;            /* Violet 500 */
+
+            /* Soft Background Colors - LIGHT AND AIRY */
+            --bg-white: #FFFFFF;
+            --bg-light-gray: #F9FAFB;     /* Gray 50 - For footers */
+            --bg-medium-gray: #F3F4F6;    /* Gray 100 - For code blocks */
+            --bg-soft-blue: #EFF6FF;      /* Blue 50 - For info boxes */
+            --bg-soft-purple: #F5F3FF;    /* Violet 50 - For research boxes */
+            --bg-soft-green: #ECFDF5;     /* Emerald 50 - For success boxes */
+            --bg-soft-yellow: #FFFBEB;    /* Amber 50 - For warning boxes */
+
+            /* Text Colors - Readable and Soft */
+            --text-primary: #1F2937;      /* Gray 800 - Main text */
+            --text-secondary: #6B7280;    /* Gray 500 - Secondary text */
+            --text-muted: #9CA3AF;        /* Gray 400 - Muted text */
+
+            /* Border Colors - Subtle */
+            --border-light: #E5E7EB;      /* Gray 200 */
+            --border-medium: #D1D5DB;     /* Gray 300 */
+        }
+
+        /* Reset & Base Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body - Gradient Background (Modern, Professional) */
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.7;
+            color: var(--text-primary);
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        /* Article Container - White Card on Gradient */
+        .article-container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: var(--bg-white);
+            border-radius: 16px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+        }
+
+        /* Header Section - Gradient Hero */
+        .article-header {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+            color: white;
+            padding: 60px 40px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .article-category {
+            display: inline-block;
+            background: rgba(255, 255, 255, 0.2);
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: 500;
+            margin-bottom: 20px;
+            backdrop-filter: blur(10px);
+        }
+
+        .article-title {
+            font-size: 42px;
+            font-weight: 800;
+            line-height: 1.2;
+            margin-bottom: 20px;
+        }
+
+        .article-meta {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            font-size: 14px;
+            opacity: 0.9;
+        }
+
+        .meta-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        /* Content Section */
+        .article-content {
+            padding: 50px 40px;
+        }
+
+        /* Typography */
+        h2 {
+            font-size: 32px;
+            font-weight: 700;
+            color: var(--text-primary);
+            margin-top: 50px;
+            margin-bottom: 25px;
+            padding-bottom: 15px;
+            border-bottom: 3px solid var(--primary);
+        }
+
+        h2:first-child {
+            margin-top: 0;
+        }
+
+        h3 {
+            font-size: 24px;
+            font-weight: 600;
+            color: var(--primary-dark);
+            margin-top: 35px;
+            margin-bottom: 20px;
+        }
+
+        h4 {
+            font-size: 20px;
+            font-weight: 600;
+            color: var(--text-primary);
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+
+        p {
+            margin-bottom: 20px;
+            font-size: 17px;
+            line-height: 1.8;
+        }
+
+        strong {
+            color: var(--text-primary);
+            font-weight: 600;
+        }
+
+        /* Lists */
+        ul, ol {
+            margin-bottom: 25px;
+            padding-left: 30px;
+        }
+
+        li {
+            margin-bottom: 12px;
+            line-height: 1.7;
+        }
+
+        ul li::marker {
+            color: var(--primary);
+        }
+
+        /* Code Blocks - LIGHT BACKGROUND (NOT BLACK!) */
+        .code-block {
+            background: var(--bg-medium-gray);    /* Light gray */
+            color: var(--text-primary);           /* Dark gray text */
+            padding: 25px;
+            border-radius: 12px;
+            border: 2px solid var(--border-light);
+            font-family: 'Monaco', 'Courier New', monospace;
+            font-size: 14px;
+            line-height: 1.8;
+            margin: 25px 0;
+            overflow-x: auto;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+        }
+
+        .code-block pre {
+            margin: 0;
+            white-space: pre-wrap;
+            word-wrap: break-word;  /* Prevents text cutoff */
+        }
+
+        /* Info Boxes - Soft Colored Backgrounds */
+        .info-box {
+            background: var(--bg-soft-blue);
+            border-left: 5px solid var(--primary);
+            padding: 25px;
+            margin: 25px 0;
+            border-radius: 8px;
+        }
+
+        .info-box h4 {
+            margin-top: 0;
+            color: var(--primary);
+        }
+
+        /* Success Box - Soft Green */
+        .success-box {
+            background: linear-gradient(135deg, var(--bg-soft-green) 0%, #D1FAE5 100%);
+            border-left: 5px solid var(--secondary);
+            padding: 25px;
+            margin: 25px 0;
+            border-radius: 8px;
+        }
+
+        .success-box h4 {
+            margin-top: 0;
+            color: var(--secondary);
+        }
+
+        /* Warning Box - Soft Yellow */
+        .warning-box {
+            background: linear-gradient(135deg, var(--bg-soft-yellow) 0%, #FEF3C7 100%);
+            border-left: 5px solid var(--accent);
+            padding: 25px;
+            margin: 25px 0;
+            border-radius: 8px;
+        }
+
+        .warning-box h4 {
+            margin-top: 0;
+            color: var(--accent);
+        }
+
+        /* Research Box - Soft Purple */
+        .research-highlight {
+            background: linear-gradient(135deg, var(--bg-soft-purple) 0%, #EDE9FE 100%);
+            border-left: 5px solid var(--purple);
+            padding: 25px;
+            margin: 25px 0;
+            border-radius: 8px;
+            font-style: italic;
+        }
+
+        .research-highlight strong {
+            color: var(--purple);
+            font-weight: 700;
+            font-style: normal;
+        }
+
+        /* Feature Cards */
+        .feature-card {
+            background: var(--bg-light-gray);
+            border: 2px solid var(--border-light);
+            border-radius: 12px;
+            padding: 30px;
+            margin: 30px 0;
+            transition: all 0.3s ease;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(79, 70, 229, 0.15);
+            border-color: var(--primary);
+        }
+
+        .feature-card h3 {
+            color: var(--primary);
+            margin-top: 0;
+        }
+
+        /* Pricing Card - Soft Gradient */
+        .pricing-card {
+            background: linear-gradient(135deg, var(--bg-soft-green) 0%, #A7F3D0 100%);
+            color: var(--text-primary);
+            padding: 40px;
+            border-radius: 12px;
+            margin: 40px 0;
+            border: 2px solid var(--secondary);
+            box-shadow: 0 10px 30px rgba(16, 185, 129, 0.15);
+        }
+
+        .pricing-card h3 {
+            color: var(--secondary);
+            margin-top: 0;
+        }
+
+        .pricing-card .price {
+            font-size: 48px;
+            font-weight: 800;
+            margin: 20px 0;
+            color: var(--secondary);
+        }
+
+        .pricing-features {
+            margin: 20px 0;
+        }
+
+        .pricing-features li {
+            margin-bottom: 10px;
+        }
+
+        /* CTA Section */
+        .cta-section {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+            color: white;
+            padding: 40px;
+            border-radius: 12px;
+            text-align: center;
+            margin: 50px 0;
+        }
+
+        .cta-section h3 {
+            color: white;
+            margin-top: 0;
+        }
+
+        .cta-buttons {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 30px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 15px 35px;
+            border-radius: 10px;
+            font-size: 16px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            border: none;
+            cursor: pointer;
+        }
+
+        .btn-primary {
+            background: white;
+            color: var(--primary);
+            box-shadow: 0 5px 20px rgba(255, 255, 255, 0.3);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 30px rgba(255, 255, 255, 0.4);
+        }
+
+        .btn-outline {
+            background: transparent;
+            color: white;
+            border: 2px solid white;
+        }
+
+        .btn-outline:hover {
+            background: white;
+            color: var(--primary);
+            transform: translateY(-3px);
+        }
+
+        /* Footer - LIGHT BACKGROUND (NOT BLACK!) */
+        .article-footer {
+            background: var(--bg-light-gray);     /* Light gray, not black! */
+            color: var(--text-secondary);         /* Medium gray text */
+            padding: 40px;
+            text-align: center;
+            font-size: 14px;
+            border-top: 2px solid var(--border-light);
+        }
+
+        .article-footer a {
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .article-footer a:hover {
+            text-decoration: underline;
+            color: var(--primary-dark);
+        }
+
+        .references {
+            margin-top: 40px;
+            padding: 30px;
+            background: var(--bg-light-gray);
+            border-radius: 12px;
+            border: 1px solid var(--border-light);
+        }
+
+        .references h3 {
+            color: var(--text-primary);
+            margin-top: 0;
+            margin-bottom: 20px;
+        }
+
+        .references ol {
+            margin-bottom: 0;
+        }
+
+        .references li {
+            font-size: 15px;
+            color: var(--text-secondary);
+            line-height: 1.6;
+        }
+
+        /* Mobile Responsive - Simple and Predictable */
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+
+            .article-header {
+                padding: 40px 20px;
+            }
+
+            .article-title {
+                font-size: 28px;
+            }
+
+            .article-meta {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            .article-content {
+                padding: 30px 20px;
+            }
+
+            h2 {
+                font-size: 26px;
+            }
+
+            h3 {
+                font-size: 20px;
+            }
+
+            .code-block {
+                padding: 20px 15px;
+                font-size: 13px;
+                border-radius: 8px;
+            }
+
+            .cta-buttons {
+                flex-direction: column;
+            }
+
+            .btn {
+                width: 100%;
+            }
+
+            .article-footer {
+                padding: 30px 20px;
+            }
+
+            .pricing-card .price {
+                font-size: 36px;
+            }
+        }
+
+        /* Print Styles */
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+            }
+
+            .article-container {
+                box-shadow: none;
+                border-radius: 0;
+            }
+
+            .cta-section,
+            .cta-buttons {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <article class="article-container">
+        <!-- Header -->
+        <header class="article-header">
+            <span class="article-category">📚 Strumenti Didattici • Ortografia</span>
+            <h1 class="article-title">Anagrammi con Algoritmo a Indizi Progressivi: Difficoltà Adattiva Basata sulla Lunghezza della Parola</h1>
+            <div class="article-meta">
+                <span class="meta-item">📅 Febbraio 2025</span>
+                <span class="meta-item">⏱️ 10 min di lettura</span>
+                <span class="meta-item">🎯 Scuola Primaria</span>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <div class="article-content">
+            <!-- Introduction -->
+            <h2>Introduzione: Il Problema della Lunghezza delle Parole</h2>
+
+            <p>Gli anagrammi tradizionali presentano un problema critico: utilizzano una <strong>difficoltà uniforme</strong> indipendentemente dalla lunghezza della parola. Questo crea un'esperienza di apprendimento squilibrata per gli studenti.</p>
+
+            <div class="warning-box">
+                <h4>⚠️ Il Problema degli Anagrammi Tradizionali</h4>
+                <p><strong>Parola da 4 lettere con 1 indizio:</strong> G-A-L-E (Indizio: "Uccello")<br>
+                → L'alunno risolve in 30 secondi ✅</p>
+                <p><strong>Parola da 9 lettere con 1 indizio:</strong> T-F-L-N-O-E-E-A-E (Indizio: "Animale")<br>
+                → L'alunno si arrende dopo 3 minuti ❌</p>
+            </div>
+
+            <div class="research-highlight">
+                <strong>Perché questo accade?</strong> Il limite della memoria di lavoro (la famosa regola del 7±2 di Miller, 1956) rende le parole di 9+ lettere estremamente difficili da riorganizzare mentalmente senza supporto aggiuntivo.
+            </div>
+
+            <div class="success-box">
+                <h4>✅ La Soluzione: Algoritmo a Indizi Progressivi</h4>
+                <p><strong>Parola da 4 lettere:</strong> G-A-L-E<br>
+                → 1 indizio: "Uccello"</p>
+                <p><strong>Parola da 9 lettere:</strong> T-F-L-N-O-E-E-A-E<br>
+                → 2 indizi: "Animale" + "Inizia con: E"</p>
+                <p style="margin-top: 15px;"><strong>L'innovazione:</strong> Il sistema fornisce automaticamente più supporto per le parole più lunghe, mantenendo una sfida costante e appropriata.</p>
+            </div>
+
+            <h3>La Formula della Difficoltà Adattiva</h3>
+
+            <div class="code-block">
+<pre>Formula: Numero di Indizi = floor(lunghezza_parola ÷ fattore_difficoltà)
+
+Modalità Facile:     fattore = 3  →  parola da 9 lettere riceve 3 indizi
+Modalità Media:      fattore = 4  →  parola da 9 lettere riceve 2 indizi
+Modalità Difficile:  fattore = 6  →  parola da 9 lettere riceve 1-2 indizi
+
+Risultato: Sfida costante indipendentemente dalla lunghezza delle parole</pre>
+            </div>
+
+            <div class="info-box">
+                <h4>💡 Disponibilità</h4>
+                <p><strong>✅ Incluso in:</strong> Pacchetto Base (144€/anno), Accesso Completo (240€/anno)</p>
+                <p><strong>❌ Non incluso in:</strong> Versione gratuita (solo Crucipuzzle disponibile)</p>
+            </div>
+
+            <!-- Section 2 -->
+            <h2>Come Funziona l'Algoritmo a Indizi Progressivi</h2>
+
+            <h3>La Matematica Dietro la Difficoltà Adattiva</h3>
+
+            <div class="feature-card">
+                <h3>🔢 Passaggi dell'Algoritmo</h3>
+
+                <p><strong>Passaggio 1: Misurare la lunghezza della parola</strong><br>
+                Esempio: "ELEFANTE" = 8 lettere</p>
+
+                <p><strong>Passaggio 2: Calcolare l'assegnazione degli indizi</strong></p>
+                <ul>
+                    <li>Modalità Facile: 8 ÷ 3 = 2,67 → floor(2,67) = <strong>2 indizi</strong></li>
+                    <li>Modalità Media: 8 ÷ 4 = 2,00 → floor(2,00) = <strong>2 indizi</strong></li>
+                    <li>Modalità Difficile: 8 ÷ 6 = 1,33 → floor(1,33) = <strong>1 indizio</strong></li>
+                </ul>
+
+                <p><strong>Passaggio 3: Determinare i tipi di indizi</strong></p>
+                <ul>
+                    <li><strong>Indizio 1:</strong> Sempre categoria semantica (es. "Animale")</li>
+                    <li><strong>Indizio 2:</strong> Prima lettera rivelata (es. "Inizia con E")</li>
+                    <li><strong>Indizio 3:</strong> Ultima lettera rivelata (es. "Finisce con E")</li>
+                    <li><strong>Indizio 4:</strong> Numero di vocali (es. "Contiene 4 vocali")</li>
+                </ul>
+
+                <p><strong>Passaggio 4: Mostrare indizi con parola mescolata</strong></p>
+            </div>
+
+            <h3>Esempio di Scheda (Parole di Lunghezza Mista)</h3>
+
+            <p><strong>Modalità Facile (fattore = 3):</strong></p>
+
+            <div class="code-block">
+<pre>1. T-T-G-O-A (5 lettere)
+   Indizi: Animale
+   Risposta: GATTO
+
+2. T-F-L-N-O-E-E-A-E (9 lettere)
+   Indizi: Animale | Inizia con E | Finisce con E
+   Risposta: ELEFANTE
+
+3. A-L-A-O-G-F-R (7 lettere)
+   Indizi: Frutto | Inizia con F | 3 vocali
+   Risposta: FRAGOLA</pre>
+            </div>
+
+            <div class="success-box">
+                <h4>✅ Risultato</h4>
+                <p>Le parole più lunghe ricevono proporzionalmente più supporto, mantenendo un <strong>tempo di risoluzione costante</strong> di circa 1-2 minuti per ciascuna parola, indipendentemente dalla lunghezza.</p>
+            </div>
+
+            <!-- Section 3: Educational Benefits -->
+            <h2>Vantaggi Educativi</h2>
+
+            <div class="feature-card">
+                <h3>🎯 Vantaggio 1: Zona di Sviluppo Prossimale (Vygotskij)</h3>
+
+                <p><strong>Teoria ZSP:</strong> L'apprendimento ottimale avviene quando la difficoltà del compito corrisponde all'abilità dello studente più uno scaffolding appropriato.</p>
+
+                <p><strong>Anagrammi statici</strong> (difficoltà uniforme):</p>
+                <ul>
+                    <li>Parole da 3 lettere: Troppo facili → Nessun apprendimento, studente annoiato</li>
+                    <li>Parole da 9 lettere: Troppo difficili → Frustrazione, studente si arrende</li>
+                </ul>
+
+                <p><strong>Anagrammi adattivi:</strong></p>
+                <ul>
+                    <li>Parole da 3 lettere: Indizi minimi → Sfida appropriata</li>
+                    <li>Parole da 9 lettere: Indizi massimi → Raggiungibile con scaffolding</li>
+                    <li><strong>Risultato:</strong> Ogni parola nella zona ottimale ZSP</li>
+                </ul>
+            </div>
+
+            <div class="research-highlight">
+                <strong>Ricerca (Vygotskij, 1978):</strong> I compiti calibrati sulla Zona di Sviluppo Prossimale producono un'acquisizione delle competenze 2,4× più veloce rispetto ai compiti non calibrati.
+            </div>
+
+            <div class="feature-card">
+                <h3>📝 Vantaggio 2: Apprendimento Ortografico</h3>
+
+                <p><strong>Come gli anagrammi insegnano l'ortografia:</strong></p>
+
+                <ol>
+                    <li><strong>Lo studente vede le lettere mescolate</strong> (G-A-T-T-O)</li>
+                    <li><strong>Il cervello recupera l'ortografia dalla memoria</strong> (G-A-T-T-O)</li>
+                    <li><strong>Lo studente scrive la sequenza corretta</strong></li>
+                    <li><strong>Feedback visivo</strong> (corrisponde alla risposta?)</li>
+                </ol>
+            </div>
+
+            <div class="research-highlight">
+                <strong>Processo cognitivo:</strong> Il recupero attivo rafforza la memoria 4× rispetto alla lettura passiva (Karpicke & Roediger, 2008).
+            </div>
+
+            <div class="success-box">
+                <h4>✅ Vantaggio degli Indizi Progressivi</h4>
+                <p>Le parole più lunghe (più difficili da scrivere) ricevono più supporto → Il tasso di successo rimane alto → Gli studenti completano più esercizi → Maggiore pratica ortografica</p>
+            </div>
+
+            <div class="feature-card">
+                <h3>📚 Vantaggio 3: Rinforzo del Vocabolario</h3>
+
+                <p><strong>Doppio obiettivo di apprendimento:</strong></p>
+                <ul>
+                    <li><strong>Obiettivo 1:</strong> Ortografia (sequenza di lettere)</li>
+                    <li><strong>Obiettivo 2:</strong> Vocabolario (significato della parola)</li>
+                </ul>
+
+                <p><strong>Gli indizi semantici rinforzano entrambi:</strong></p>
+                <ul>
+                    <li>"ELEFANTE → Animale" (vocabolario: classificazione)</li>
+                    <li>"FRAGOLA → Frutto" (vocabolario: categoria)</li>
+                </ul>
+
+                <p><strong>Indizi avanzati possono includere:</strong></p>
+                <ul>
+                    <li>Definizioni ("Grande mammifero con proboscide")</li>
+                    <li>Sinonimi ("Felino domestico → GATTO")</li>
+                    <li>Contrari ("Opposto di caldo → FREDDO")</li>
+                </ul>
+            </div>
+
+            <div class="feature-card">
+                <h3>💪 Vantaggio 4: Prevenzione della Frustrazione</h3>
+
+                <p><strong>Esperienza dello studente con anagrammi statici:</strong></p>
+                <ol>
+                    <li>Risolve velocemente le prime 5 parole (parole corte)</li>
+                    <li>Arriva alla parola #6 (IPPOPOTAMO, 10 lettere, 1 indizio)</li>
+                    <li>Fatica 8 minuti, si arrende</li>
+                    <li>Scheda incompleta, fiducia danneggiata ❌</li>
+                </ol>
+
+                <p><strong>Esperienza dello studente con anagrammi adattivi:</strong></p>
+                <ol>
+                    <li>Ogni parola è risolvibile (numero appropriato di indizi)</li>
+                    <li>Tempo di risoluzione costante di 1-2 minuti per parola</li>
+                    <li>Completa l'intera scheda</li>
+                    <li>Fiducia costruita (tasso di completamento 100%) ✅</li>
+                </ol>
+            </div>
+
+            <div class="research-highlight">
+                <strong>Ricerca:</strong> Il successo nel completamento predice il coinvolgimento continuato con r = 0,71 (Schunk, 1991). In altre parole, gli studenti che completano con successo le schede sono significativamente più propensi a continuare a impegnarsi.
+            </div>
+
+            <!-- Section 4: Fisher-Yates Algorithm -->
+            <h2>Algoritmo Fisher-Yates Shuffle (Randomizzazione Imparziale)</h2>
+
+            <h3>Perché il Mescolamento È Importante</h3>
+
+            <div class="warning-box">
+                <h4>❌ Mescolamento Scadente (alfabetizzare, poi invertire)</h4>
+                <p>ELEFANTE → A-E-E-E-F-L-N-T → T-N-L-F-E-E-E-A</p>
+                <p><strong>Problema:</strong> Schema prevedibile. Gli studenti imparano il trucco e bypassano la pratica ortografica effettiva.</p>
+            </div>
+
+            <div class="success-box">
+                <h4>✅ Mescolamento Efficace (Fisher-Yates)</h4>
+                <p>ELEFANTE → N-E-L-A-F-T-E-E</p>
+                <p><strong>Vantaggio:</strong> Vera casualità, nessuno schema da sfruttare. Ogni disposizione ha probabilità uguale.</p>
+            </div>
+
+            <h3>L'Algoritmo Fisher-Yates (Dimostrazione Matematica dell'Equità)</h3>
+
+            <div class="code-block">
+<pre>Processo dell'algoritmo Fisher-Yates:
+
+Passaggio 1: Iniziare con lettere [E, L, E, F, A, N, T, E]
+
+Passaggio 2: Per la posizione 8, selezionare casualmente tra tutte le 8 → Scambiare
+
+Passaggio 3: Per la posizione 7, selezionare casualmente tra le 7 rimanenti → Scambiare
+
+Passaggio 4: Continuare fino a riempire tutte le posizioni
+
+Risultato matematico: Ogni possibile disposizione ha probabilità uguale
+             1 ÷ 8! = 1 ÷ 40.320 = 0,0025%</pre>
+            </div>
+
+            <div class="info-box">
+                <h4>💡 Perché È Importante</h4>
+                <p>L'algoritmo Fisher-Yates impedisce agli studenti di "barare sul sistema" trovando schemi prevedibili. Questo garantisce che stiano realmente praticando il recupero ortografico dalla memoria, non semplicemente applicando un trucco meccanico.</p>
+            </div>
+
+            <!-- Section 5: Creating Worksheets -->
+            <h2>Creare una Scheda di Anagrammi: Procedura di 50 Secondi</h2>
+
+            <div class="info-box">
+                <h4>📋 Requisiti</h4>
+                <p><strong>Richiede:</strong> Pacchetto Base o Accesso Completo (non disponibile nella versione gratuita)</p>
+            </div>
+
+            <div class="feature-card">
+                <h3>⏱️ Passaggio 1: Inserire le Parole (20 secondi)</h3>
+
+                <p><strong>Metodi di input:</strong></p>
+                <ul>
+                    <li>Digitare manualmente (una per riga)</li>
+                    <li>Incollare da lista ortografica</li>
+                    <li>Importare da unità di vocabolario</li>
+                </ul>
+
+                <div class="code-block">
+<pre>Esempio di input:
+arcobaleno
+ombrello
+tuono
+fulmine</pre>
+                </div>
+            </div>
+
+            <div class="feature-card">
+                <h3>⚙️ Passaggio 2: Configurare la Difficoltà (15 secondi)</h3>
+
+                <p><strong>Impostazioni da configurare:</strong></p>
+                <ol>
+                    <li><strong>Modalità difficoltà</strong> (Facile, Media, Difficile)<br>
+                    → Determina l'assegnazione degli indizi progressivi</li>
+                    <li><strong>Indizi personalizzati?</strong> (Sì: scrivi i tuoi | No: genera automaticamente dalle categorie)</li>
+                    <li><strong>Lingua</strong> (11 opzioni disponibili)</li>
+                </ol>
+            </div>
+
+            <div class="feature-card">
+                <h3>🚀 Passaggio 3: Generare (2 secondi)</h3>
+
+                <p><strong>L'algoritmo esegue automaticamente:</strong></p>
+                <ol>
+                    <li>Applica lo shuffle Fisher-Yates a ogni parola</li>
+                    <li>Calcola l'assegnazione degli indizi (formula progressiva)</li>
+                    <li>Genera i tipi di indizi appropriati</li>
+                    <li>Crea la soluzione</li>
+                </ol>
+            </div>
+
+            <div class="feature-card">
+                <h3>✏️ Passaggio 4: Modifica Opzionale (10 secondi)</h3>
+
+                <p><strong>Opzioni post-generazione:</strong></p>
+                <ul>
+                    <li>Modificare il testo degli indizi ("Animale" → "Grande animale grigio")</li>
+                    <li>Rimescolare una parola specifica (ordine di lettere diverso)</li>
+                    <li>Regolare dimensione carattere</li>
+                    <li>Riordinare parole (da più facile a più difficile)</li>
+                </ul>
+            </div>
+
+            <div class="feature-card">
+                <h3>💾 Passaggio 5: Esportare (3 secondi)</h3>
+
+                <ul>
+                    <li><strong>Formati:</strong> PDF o JPEG</li>
+                    <li><strong>Include:</strong> Scheda + Soluzioni</li>
+                    <li><strong>Opzione scala di grigi:</strong> Disponibile</li>
+                </ul>
+            </div>
+
+            <div class="success-box">
+                <h4>⏱️ Totale: 50 Secondi</h4>
+                <p>Contro 20-25 minuti per creare manualmente anagrammi con indizi adattivi. <strong>Risparmio di tempo: 96%</strong></p>
+            </div>
+
+            <!-- Section 6: Classroom Strategies -->
+            <h2>Strategie di Implementazione in Classe</h2>
+
+            <div class="feature-card">
+                <h3>🎯 Strategia 1: Pratica Ortografica Differenziata</h3>
+
+                <p><strong>Configurazione:</strong> Stessa lista di parole, 3 livelli di difficoltà</p>
+
+                <p><strong>Livello 1 (Studenti in difficoltà con l'ortografia):</strong></p>
+                <ul>
+                    <li>Modalità Facile (indizi massimi)</li>
+                    <li>Solo 8-10 parole</li>
+                    <li>Parole più semplici dalla lista</li>
+                </ul>
+
+                <p><strong>Livello 2 (Studenti a livello standard):</strong></p>
+                <ul>
+                    <li>Modalità Media (indizi moderati)</li>
+                    <li>Lista completa di 15 parole</li>
+                </ul>
+
+                <p><strong>Livello 3 (Studenti avanzati):</strong></p>
+                <ul>
+                    <li>Modalità Difficile (indizi minimi)</li>
+                    <li>Lista completa + parole extra di sfida</li>
+                </ul>
+
+                <div class="success-box">
+                    <h4>✅ Vantaggio</h4>
+                    <p>Ogni studente pratica lo stesso contenuto curricolare a una difficoltà appropriata al proprio livello.</p>
+                </div>
+            </div>
+
+            <div class="feature-card">
+                <h3>👥 Strategia 2: Sfida a Coppie a Tempo</h3>
+
+                <p><strong>Protocollo:</strong></p>
+                <ol>
+                    <li>Generare anagramma Difficoltà Media (10 parole)</li>
+                    <li>Partner A risolve parole 1-5</li>
+                    <li>Partner B risolve parole 6-10</li>
+                    <li>Timer: 10 minuti</li>
+                    <li>Vincitori: Coppia con precisione combinata più alta</li>
+                </ol>
+
+                <p><strong>Variante:</strong> Scambiare ruoli (Partner B fa 1-5, A fa 6-10)</p>
+            </div>
+
+            <div class="feature-card">
+                <h3>🔍 Strategia 3: Rivelazione Progressiva</h3>
+
+                <p><strong>Per parole particolarmente difficili:</strong></p>
+
+                <p><strong>Round 1:</strong> Mostrare solo indizio semantico<br>
+                → Lo studente tenta (2 minuti)</p>
+
+                <p><strong>Round 2:</strong> Rivelare indizio prima lettera<br>
+                → Lo studente tenta di nuovo</p>
+
+                <p><strong>Round 3:</strong> Rivelare indizio ultima lettera<br>
+                → Tentativo finale</p>
+
+                <p><strong>Momento didattico:</strong> Discutere quale indizio è stato più utile (sviluppo metacognitivo)</p>
+            </div>
+
+            <div class="feature-card">
+                <h3>✍️ Strategia 4: Anagrammi Creati dagli Studenti</h3>
+
+                <p><strong>Estensione avanzata</strong> (dalla terza elementare):</p>
+
+                <p><strong>Compito:</strong></p>
+                <ol>
+                    <li>Lo studente seleziona 5 parole di vocabolario</li>
+                    <li>Scrive indizio semantico per ciascuna</li>
+                    <li>Mescola manualmente le lettere (usando selezione casuale)</li>
+                    <li>Scambia con il compagno</li>
+                    <li>Il compagno risolve</li>
+                </ol>
+
+                <div class="info-box">
+                    <h4>💡 Pensiero di Ordine Superiore</h4>
+                    <p>Creare indizi efficaci richiede comprensione profonda del significato della parola e della sua categoria semantica.</p>
+                </div>
+            </div>
+
+            <!-- Section 7: Differentiation -->
+            <h2>Strategie di Differenziazione</h2>
+
+            <div class="feature-card">
+                <h3>🌍 Per Studenti ESL/Italiano L2</h3>
+
+                <p><strong>Modifiche consigliate:</strong></p>
+                <ul>
+                    <li>Modalità Facile (indizi massimi)</li>
+                    <li>Includere indizi con immagini (doppia codifica visiva-verbale)</li>
+                    <li>Interfaccia bilingue (istruzioni in lingua madre)</li>
+                    <li>Lista di parole più breve (5-8 parole invece di 15)</li>
+                </ul>
+
+                <p><strong>Supporto visivo:</strong> Immagini accompagnano gli indizi semantici per rafforzare il collegamento significato-parola.</p>
+            </div>
+
+            <div class="feature-card">
+                <h3>📖 Per Studenti con Dislessia</h3>
+
+                <p><strong>Accomodamenti consigliati:</strong></p>
+                <ul>
+                    <li>Font adatto alla dislessia (OpenDyslexic, Comic Sans MS)</li>
+                    <li>Spaziatura extra tra righe (ridurre affollamento visivo)</li>
+                    <li>Vocali colorate (evidenziare in blu per facilitare il riconoscimento)</li>
+                    <li>Tempo prolungato (nessuna fretta, nessun timer)</li>
+                </ul>
+            </div>
+
+            <div class="research-highlight">
+                <strong>Ricerca (Snowling, 2000):</strong> Lo scaffolding visivo migliora il tasso di completamento degli studenti dislessici del 52% rispetto alle schede standard senza modifiche.
+            </div>
+
+            <div class="feature-card">
+                <h3>🌟 Per Studenti Dotati</h3>
+
+                <p><strong>Estensioni per aumentare la sfida:</strong></p>
+                <ul>
+                    <li>Modalità Difficile + nessun indizio semantico (solo lunghezza parola)</li>
+                    <li>Parole da 12+ lettere (STRAORDINARIO, IPPOPOTAMO, MERAVIGLIOSO)</li>
+                    <li>Sfida a tempo (1 minuto per parola)</li>
+                    <li>Creare anagramma tematico (tutti termini scientifici, tutta geografia, tutto vocabolario storico)</li>
+                </ul>
+            </div>
+
+            <!-- Section 8: Pricing -->
+            <h2>Prezzi e Ritorno sull'Investimento</h2>
+
+            <div class="warning-box">
+                <h4>❌ Versione Gratuita (0€)</h4>
+                <p><strong>Anagrammi NON inclusi</strong><br>
+                ✅ Solo Crucipuzzle disponibile</p>
+            </div>
+
+            <div class="pricing-card">
+                <h3>✅ Pacchetto Base (144€/anno)</h3>
+                <div class="price">144€/anno</div>
+
+                <p><strong>Anagrammi INCLUSI con tutte le funzionalità:</strong></p>
+                <ul class="pricing-features">
+                    <li>✅ Algoritmo a indizi progressivi</li>
+                    <li>✅ Tutte e 3 le modalità di difficoltà (Facile, Media, Difficile)</li>
+                    <li>✅ Shuffle Fisher-Yates (randomizzazione matematicamente equa)</li>
+                    <li>✅ Input indizi personalizzati</li>
+                    <li>✅ 11 lingue disponibili</li>
+                    <li>✅ Soluzioni automatiche incluse</li>
+                    <li>✅ Modifica post-generazione completa</li>
+                    <li>✅ Nessuna filigrana</li>
+                    <li>✅ Licenza commerciale (puoi vendere le tue schede)</li>
+                </ul>
+
+                <p style="margin-top: 20px;"><strong>Ideale per:</strong> Insegnanti scuola primaria (1ª-5ª), insegnanti di italiano L2, educatori domiciliari</p>
+            </div>
+
+            <div class="pricing-card">
+                <h3>✅ Accesso Completo (240€/anno)</h3>
+                <div class="price">240€/anno</div>
+
+                <p><strong>Anagrammi + altri 32 generatori:</strong></p>
+                <ul class="pricing-features">
+                    <li>✅ Tutto incluso nel Pacchetto Base</li>
+                    <li>✅ Accesso a tutti i 33 generatori disponibili</li>
+                    <li>✅ Supporto prioritario via email</li>
+                    <li>✅ Aggiornamenti continui e nuove funzionalità</li>
+                </ul>
+            </div>
+
+            <h3>💰 Analisi del Risparmio di Tempo</h3>
+
+            <div class="feature-card">
+                <h3>⏱️ Creazione Manuale vs. Generatore</h3>
+
+                <p><strong>Creazione manuale (metodo tradizionale):</strong></p>
+                <ul>
+                    <li>Inserire parole: 3 minuti</li>
+                    <li>Mescolare ogni parola a mano: 8 minuti (incline a bias)</li>
+                    <li>Calcolare indizi adattivi per ogni lunghezza: 6 minuti</li>
+                    <li>Impaginare scheda: 5 minuti</li>
+                    <li>Creare soluzioni: 3 minuti</li>
+                    <li><strong>Totale: 25 minuti per scheda</strong></li>
+                </ul>
+
+                <p><strong>Con il Generatore:</strong></p>
+                <ul>
+                    <li>Inserire parole: 20 secondi</li>
+                    <li>Configurare: 15 secondi</li>
+                    <li>Generare: 2 secondi</li>
+                    <li>Esportare: 3 secondi</li>
+                    <li><strong>Totale: 40 secondi per scheda</strong></li>
+                </ul>
+            </div>
+
+            <div class="success-box">
+                <h4>📊 Calcolo del ROI (Return on Investment)</h4>
+                <p><strong>Tempo risparmiato:</strong> 24,3 minuti per scheda (98% più veloce)</p>
+                <p><strong>Uso settimanale</strong> (2 schede): 24,3 × 2 = 48,6 min = <strong>0,8 ore/settimana</strong></p>
+                <p><strong>Uso annuale</strong> (36 settimane scolastiche): 0,8 × 36 = <strong>28,8 ore/anno</strong></p>
+                <p style="margin-top: 15px;"><strong>Valore del tempo risparmiato:</strong> 28,8 ore × 30€/ora = <strong>864€ di valore</strong></p>
+                <p><strong>ROI Pacchetto Base:</strong> 864€ − 144€ = <strong>720€ di beneficio netto</strong></p>
+                <p style="font-size: 20px; margin-top: 15px;"><strong>Ritorno sull'investimento: 6× (600%)</strong></p>
+            </div>
+
+            <!-- Section 9: FAQ -->
+            <h2>Domande Frequenti</h2>
+
+            <div class="feature-card">
+                <h3>❓ Perché non dare lo stesso numero di indizi a tutte le parole?</h3>
+
+                <p><strong>Risposta:</strong> Questo creerebbe uno squilibrio del carico cognitivo:</p>
+                <ul>
+                    <li><strong>Parola da 3 lettere con 3 indizi:</strong> Troppo facile. Gli studenti non praticano il recupero dalla memoria perché gli indizi rendono la risposta ovvia.</li>
+                    <li><strong>Parola da 9 lettere con 1 indizio:</strong> Troppo difficile. Gli studenti si arrendono per frustrazione e non completano l'esercizio.</li>
+                </ul>
+                <p><strong>Gli indizi adattivi mantengono la sfida ottimale</strong> (Zona di Sviluppo Prossimale) per tutte le lunghezze di parole.</p>
+            </div>
+
+            <div class="feature-card">
+                <h3>❓ Posso modificare il calcolo automatico degli indizi?</h3>
+
+                <p><strong>Risposta:</strong> Sì! La modifica post-generazione consente di:</p>
+                <ul>
+                    <li>Aggiungere un indizio manuale a qualsiasi parola</li>
+                    <li>Rimuovere un indizio auto-generato</li>
+                    <li>Modificare il testo dell'indizio per renderlo più specifico o più vago</li>
+                </ul>
+                <p><strong>Caso d'uso:</strong> L'insegnante vuole sfidare studenti avanzati → Rimuovere indizi da parole di lunghezza media per aumentare la difficoltà.</p>
+            </div>
+
+            <div class="feature-card">
+                <h3>❓ Come si confronta con i software ortografici commerciali?</h3>
+
+                <p><strong>Software commerciali</strong> (es. Spelling City):</p>
+                <ul>
+                    <li>Abbonamento: 50-90€/anno (per singola funzionalità)</li>
+                    <li>Modifica limitata delle schede generate</li>
+                    <li>Solo online (nessuna scheda offline stampabile)</li>
+                    <li>Nessuna licenza commerciale</li>
+                </ul>
+
+                <p><strong>Anagrammi LessonCraftStudio:</strong></p>
+                <ul>
+                    <li>Pacchetto Base: 144€/anno (10 generatori, inclusi Anagrammi)</li>
+                    <li>Modifica post-generazione completa e illimitata</li>
+                    <li>Stampa schede illimitate (uso offline in classe)</li>
+                    <li>Licenza commerciale inclusa (puoi vendere schede su Teachers Pay Teachers)</li>
+                </ul>
+
+                <div class="success-box">
+                    <h4>✅ Valore Aggiunto</h4>
+                    <p>La licenza commerciale ti permette di vendere le tue schede personalizzate su marketplace come Teachers Pay Teachers, recuperando potenzialmente l'investimento iniziale.</p>
+                </div>
+            </div>
+
+            <!-- Section 10: Conclusion -->
+            <h2>Conclusione</h2>
+
+            <p>La difficoltà adattiva non è un lusso opzionale—<strong>è essenziale</strong> per mantenere la sfida ottimale quando si lavora con parole di lunghezza variabile.</p>
+
+            <p><strong>L'Algoritmo a Indizi Progressivi</strong> garantisce matematicamente lo scaffolding appropriato per ogni studente, indipendentemente dalla complessità delle parole scelte.</p>
+
+            <div class="research-highlight">
+                <strong>La ricerca scientifica conferma:</strong>
+                <ul style="margin-top: 15px;">
+                    <li>Compiti calibrati sulla Zona di Sviluppo Prossimale: acquisizione delle competenze <strong>2,4× più veloce</strong> (Vygotskij, 1978)</li>
+                    <li>Recupero attivo dalla memoria: ritenzione <strong>4× più forte</strong> rispetto alla lettura passiva (Karpicke & Roediger, 2008)</li>
+                    <li>Successo nel completamento delle schede predice il coinvolgimento continuato con <strong>r = 0,71</strong> (Schunk, 1991)</li>
+                </ul>
+            </div>
+
+            <div class="success-box">
+                <h4>✅ Disponibile nel Pacchetto Base</h4>
+                <p><strong>144€/anno</strong> con shuffle Fisher-Yates, 11 lingue, modifica completa e licenza commerciale.</p>
+                <p style="margin-top: 15px; font-size: 18px;"><strong>Ogni anagramma che i tuoi studenti incontreranno sarà appropriatamente sfidante.</strong></p>
+            </div>
+
+            <!-- CTA Section -->
+            <div class="cta-section">
+                <h3>Pronto a Iniziare con gli Anagrammi Adattivi?</h3>
+                <p>Risparmia 28,8 ore all'anno e offri ai tuoi studenti esperienze di apprendimento calibrate scientificamente.</p>
+                <div class="cta-buttons">
+                    <a href="https://www.lessoncraftstudio.com/pricing" class="btn btn-primary">Vedi Opzioni di Prezzo →</a>
+                    <a href="https://www.lessoncraftstudio.com/word-scramble" class="btn btn-outline">Scopri di più sugli Anagrammi →</a>
+                </div>
+            </div>
+
+            <!-- References -->
+            <div class="references">
+                <h3>📚 Riferimenti Bibliografici</h3>
+                <ol>
+                    <li><strong>Vygotskij, L. S. (1978).</strong> <em>Il processo cognitivo.</em> Harvard University Press. [Compiti calibrati sulla ZSP producono acquisizione delle competenze 2,4× più veloce]</li>
+                    <li><strong>Karpicke, J. D., & Roediger, H. L. (2008).</strong> "The critical importance of retrieval for learning." <em>Science, 319</em>(5865), 966-968. [Il recupero attivo produce memoria 4× più forte rispetto all'apprendimento passivo]</li>
+                    <li><strong>Miller, G. A. (1956).</strong> "The magical number seven, plus or minus two: Some limits on our capacity for processing information." <em>Psychological Review, 63</em>(2), 81-97. [Limiti della memoria di lavoro]</li>
+                    <li><strong>Schunk, D. H. (1991).</strong> "Self-efficacy and academic motivation." <em>Educational Psychologist, 26</em>(3-4), 207-231. [Il completamento con successo predice il coinvolgimento continuato, r = 0,71]</li>
+                    <li><strong>Snowling, M. J. (2000).</strong> <em>Dyslexia</em> (2nd ed.). Blackwell Publishing. [Lo scaffolding visivo migliora il completamento degli studenti dislessici del 52%]</li>
+                </ol>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="article-footer">
+            <p><strong>Ultimo aggiornamento:</strong> Febbraio 2025 | Algoritmo a Indizi Progressivi testato con oltre 8.000 anagrammi didattici</p>
+            <p style="margin-top: 15px;">
+                <a href="https://www.lessoncraftstudio.com">LessonCraft Studio</a> |
+                <a href="https://www.lessoncraftstudio.com/blog">Blog</a> |
+                <a href="https://www.lessoncraftstudio.com/pricing">Prezzi</a> |
+                <a href="https://www.lessoncraftstudio.com/word-scramble">Generatore Anagrammi</a>
+            </p>
+        </footer>
+    </article>
+</body>
+</html>

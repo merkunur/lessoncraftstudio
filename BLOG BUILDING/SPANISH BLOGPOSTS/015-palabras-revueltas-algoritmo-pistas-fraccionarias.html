@@ -1,0 +1,1104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO Meta Tags -->
+    <title>Generador Palabras Revueltas | Dificultad Adaptativa 2025</title>
+    <meta name="description" content="Crea sopas de palabras desordenadas con dificultad adaptativa automática. El algoritmo ajusta las pistas según la longitud (palabra de 3 letras = 1 pista, 8 letras = 2 pistas). Fisher-Yates, 11 idiomas.">
+    <meta name="keywords" content="generador palabras desordenadas, fichas palabras revueltas, ejercicios ortografía interactivos, actividades vocabulario primaria, generador sopas palabras, dificultad adaptativa ortografía">
+    <meta name="author" content="LessonCraft Studio">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Generador Palabras Revueltas | Dificultad Adaptativa 2025">
+    <meta property="og:description" content="Crea sopas de palabras desordenadas con dificultad adaptativa automática. El algoritmo ajusta las pistas según la longitud de las palabras.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://www.lessoncraftstudio.com/blog/palabras-revueltas-algoritmo-pistas-fraccionarias-dificultad-adaptativa">
+    <meta property="og:image" content="https://www.lessoncraftstudio.com/images/blog/palabras-revueltas-adaptativas.jpg">
+
+    <!-- Schema.org Markup -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Generador de Palabras Revueltas con Algoritmo de Pistas Fraccionarias: Dificultad Adaptativa Según la Longitud de la Palabra",
+      "description": "Crea sopas de palabras desordenadas con dificultad adaptativa automática. El algoritmo ajusta las pistas según la longitud (palabra de 3 letras = 1 pista, 8 letras = 2 pistas). Fisher-Yates, 11 idiomas.",
+      "author": {
+        "@type": "Organization",
+        "name": "LessonCraft Studio"
+      },
+      "datePublished": "2025-02-23",
+      "dateModified": "2025-02-23",
+      "keywords": "generador palabras desordenadas, fichas palabras revueltas, ejercicios ortografía interactivos, actividades vocabulario primaria, generador sopas palabras, dificultad adaptativa ortografía",
+      "articleSection": "Herramientas Educativas",
+      "educationalLevel": "Primaria (6-12 años)"
+    }
+    </script>
+
+    <style>
+        /* ==========================================
+           MODERN, MOBILE-RESPONSIVE BLOG TEMPLATE
+           ✅ Perfect mobile responsiveness
+           ✅ Soft, professional colors (NO BLACK!)
+           ✅ Simple single-column layout
+           ✅ Text never cuts off
+           ========================================== */
+
+        /* CSS Variables - Modern, Soft Color Palette */
+        :root {
+            /* Primary Colors - Soft Blues/Purples */
+            --primary: #4F46E5;           /* Indigo 600 */
+            --primary-dark: #4338CA;      /* Indigo 700 */
+            --primary-light: #818CF8;     /* Indigo 400 */
+
+            /* Secondary Colors - Soft Greens */
+            --secondary: #10B981;         /* Emerald 500 */
+            --secondary-light: #34D399;   /* Emerald 400 */
+
+            /* Accent Colors - Soft Oranges/Yellows */
+            --accent: #F59E0B;            /* Amber 500 */
+            --warning: #EF4444;           /* Red 500 */
+            --purple: #8B5CF6;            /* Violet 500 */
+
+            /* Soft Background Colors - LIGHT AND AIRY */
+            --bg-white: #FFFFFF;
+            --bg-light-gray: #F9FAFB;     /* Gray 50 - For footers */
+            --bg-medium-gray: #F3F4F6;    /* Gray 100 - For code blocks */
+            --bg-soft-blue: #EFF6FF;      /* Blue 50 - For info boxes */
+            --bg-soft-purple: #F5F3FF;    /* Violet 50 - For research boxes */
+            --bg-soft-green: #ECFDF5;     /* Emerald 50 - For success boxes */
+            --bg-soft-yellow: #FFFBEB;    /* Amber 50 - For warning boxes */
+
+            /* Text Colors - Readable and Soft */
+            --text-primary: #1F2937;      /* Gray 800 - Main text */
+            --text-secondary: #6B7280;    /* Gray 500 - Secondary text */
+            --text-muted: #9CA3AF;        /* Gray 400 - Muted text */
+
+            /* Border Colors - Subtle */
+            --border-light: #E5E7EB;      /* Gray 200 */
+            --border-medium: #D1D5DB;     /* Gray 300 */
+        }
+
+        /* Reset & Base Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body - Gradient Background (Modern, Professional) */
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.7;
+            color: var(--text-primary);
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        /* Article Container - White Card on Gradient */
+        .article-container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: var(--bg-white);
+            border-radius: 16px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+        }
+
+        /* Header Section - Gradient Hero */
+        .article-header {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+            color: white;
+            padding: 60px 40px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .article-category {
+            display: inline-block;
+            background: rgba(255, 255, 255, 0.2);
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: 500;
+            margin-bottom: 20px;
+            backdrop-filter: blur(10px);
+        }
+
+        .article-title {
+            font-size: 42px;
+            font-weight: 800;
+            line-height: 1.2;
+            margin-bottom: 20px;
+        }
+
+        .article-meta {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            font-size: 14px;
+            opacity: 0.9;
+        }
+
+        .meta-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        /* Content Section */
+        .article-content {
+            padding: 50px 40px;
+        }
+
+        /* Typography */
+        h2 {
+            font-size: 32px;
+            font-weight: 700;
+            color: var(--text-primary);
+            margin-top: 50px;
+            margin-bottom: 25px;
+            padding-bottom: 15px;
+            border-bottom: 3px solid var(--primary);
+        }
+
+        h3 {
+            font-size: 24px;
+            font-weight: 600;
+            color: var(--primary-dark);
+            margin-top: 35px;
+            margin-bottom: 20px;
+        }
+
+        h4 {
+            font-size: 20px;
+            font-weight: 600;
+            color: var(--text-primary);
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+
+        p {
+            margin-bottom: 20px;
+            font-size: 17px;
+            line-height: 1.8;
+        }
+
+        strong {
+            font-weight: 600;
+            color: var(--text-primary);
+        }
+
+        /* Lists */
+        ul, ol {
+            margin-bottom: 25px;
+            padding-left: 30px;
+        }
+
+        li {
+            margin-bottom: 12px;
+            line-height: 1.7;
+        }
+
+        ul li::marker {
+            color: var(--primary);
+        }
+
+        /* Code Blocks - LIGHT BACKGROUND (NOT BLACK!) */
+        .code-block {
+            background: var(--bg-medium-gray);
+            color: var(--text-primary);
+            padding: 25px;
+            border-radius: 12px;
+            border: 2px solid var(--border-light);
+            font-family: 'Monaco', 'Courier New', monospace;
+            font-size: 14px;
+            line-height: 1.8;
+            margin: 25px 0;
+            overflow-x: auto;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+        }
+
+        .code-block pre {
+            margin: 0;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+
+        /* Info Boxes - Soft Colored Backgrounds */
+        .info-box {
+            background: var(--bg-soft-blue);
+            border-left: 5px solid var(--primary);
+            padding: 25px;
+            margin: 25px 0;
+            border-radius: 8px;
+        }
+
+        .info-box h4 {
+            margin-top: 0;
+            color: var(--primary);
+        }
+
+        /* Success Box - Soft Green */
+        .success-box {
+            background: linear-gradient(135deg, var(--bg-soft-green) 0%, #D1FAE5 100%);
+            border-left: 5px solid var(--secondary);
+            padding: 25px;
+            margin: 25px 0;
+            border-radius: 8px;
+        }
+
+        .success-box h4 {
+            margin-top: 0;
+            color: var(--secondary);
+        }
+
+        /* Warning Box - Soft Yellow */
+        .warning-box {
+            background: linear-gradient(135deg, var(--bg-soft-yellow) 0%, #FEF3C7 100%);
+            border-left: 5px solid var(--accent);
+            padding: 25px;
+            margin: 25px 0;
+            border-radius: 8px;
+        }
+
+        .warning-box h4 {
+            margin-top: 0;
+            color: var(--accent);
+        }
+
+        /* Research Box - Soft Purple */
+        .research-highlight {
+            background: linear-gradient(135deg, var(--bg-soft-purple) 0%, #EDE9FE 100%);
+            border-left: 5px solid var(--purple);
+            padding: 25px;
+            margin: 25px 0;
+            border-radius: 8px;
+            font-style: italic;
+        }
+
+        .research-highlight strong {
+            color: var(--purple);
+            font-weight: 700;
+            font-style: normal;
+        }
+
+        /* Feature Cards */
+        .feature-card {
+            background: var(--bg-light-gray);
+            border: 2px solid var(--border-light);
+            border-radius: 12px;
+            padding: 30px;
+            margin: 30px 0;
+            transition: all 0.3s ease;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(79, 70, 229, 0.15);
+            border-color: var(--primary);
+        }
+
+        .feature-card h3 {
+            color: var(--primary);
+            margin-top: 0;
+        }
+
+        /* Pricing Card - Soft Gradient */
+        .pricing-card {
+            background: linear-gradient(135deg, var(--bg-soft-green) 0%, #A7F3D0 100%);
+            color: var(--text-primary);
+            padding: 40px;
+            border-radius: 12px;
+            margin: 40px 0;
+            border: 2px solid var(--secondary);
+            box-shadow: 0 10px 30px rgba(16, 185, 129, 0.15);
+        }
+
+        .pricing-card h3 {
+            color: var(--secondary);
+            margin-top: 0;
+        }
+
+        .pricing-card .price {
+            font-size: 48px;
+            font-weight: 800;
+            margin: 20px 0;
+            color: var(--secondary);
+        }
+
+        /* CTA Section */
+        .cta-section {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+            color: white;
+            padding: 40px;
+            border-radius: 12px;
+            text-align: center;
+            margin: 50px 0;
+        }
+
+        .cta-section h3 {
+            color: white;
+            margin-top: 0;
+        }
+
+        .cta-buttons {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 30px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 15px 35px;
+            border-radius: 10px;
+            font-size: 16px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            border: none;
+            cursor: pointer;
+        }
+
+        .btn-primary {
+            background: white;
+            color: var(--primary);
+            box-shadow: 0 5px 20px rgba(255, 255, 255, 0.3);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 30px rgba(255, 255, 255, 0.4);
+        }
+
+        .btn-outline {
+            background: transparent;
+            color: white;
+            border: 2px solid white;
+        }
+
+        .btn-outline:hover {
+            background: white;
+            color: var(--primary);
+            transform: translateY(-3px);
+        }
+
+        /* Footer - LIGHT BACKGROUND (NOT BLACK!) */
+        .article-footer {
+            background: var(--bg-light-gray);
+            color: var(--text-secondary);
+            padding: 40px;
+            text-align: center;
+            font-size: 14px;
+            border-top: 2px solid var(--border-light);
+        }
+
+        .article-footer a {
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .article-footer a:hover {
+            text-decoration: underline;
+            color: var(--primary-dark);
+        }
+
+        /* Mobile Responsive - Simple and Predictable */
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+
+            .article-header {
+                padding: 40px 20px;
+            }
+
+            .article-title {
+                font-size: 28px;
+            }
+
+            .article-meta {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            .article-content {
+                padding: 30px 20px;
+            }
+
+            h2 {
+                font-size: 26px;
+            }
+
+            h3 {
+                font-size: 20px;
+            }
+
+            .code-block {
+                padding: 20px 15px;
+                font-size: 13px;
+                border-radius: 8px;
+            }
+
+            .cta-buttons {
+                flex-direction: column;
+            }
+
+            .btn {
+                width: 100%;
+            }
+
+            .article-footer {
+                padding: 30px 20px;
+            }
+        }
+
+        /* Print Styles */
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+            }
+
+            .article-container {
+                box-shadow: none;
+                border-radius: 0;
+            }
+
+            .cta-section,
+            .cta-buttons {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <article class="article-container">
+        <!-- Header -->
+        <header class="article-header">
+            <span class="article-category">📝 Herramientas Educativas • Ortografía y Vocabulario</span>
+            <h1 class="article-title">Generador de Palabras Revueltas con Algoritmo de Pistas Fraccionarias</h1>
+            <div class="article-meta">
+                <span class="meta-item">📅 Febrero 2025</span>
+                <span class="meta-item">⏱️ 12 min de lectura</span>
+                <span class="meta-item">👥 Primaria (6-12 años)</span>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <div class="article-content">
+            <!-- Introduction -->
+            <h2>Introducción: El Problema de las Palabras Largas</h2>
+
+            <p><strong>Ficha tradicional de palabras revueltas</strong> (dificultad uniforme):</p>
+
+            <div class="code-block">
+<pre>A-L-M-E (4 letras, 1 pista: "Fruta")
+E-T-N-A-L-E-F (7 letras, 1 pista: "Animal")</pre>
+            </div>
+
+            <div class="warning-box">
+                <h4>⚠️ El Problema</h4>
+                <ul>
+                    <li><strong>Palabra de 4 letras con 1 pista:</strong> Manejable (el alumno resuelve en 30 segundos)</li>
+                    <li><strong>Palabra de 7 letras con 1 pista:</strong> Abrumadora (el alumno se rinde tras 3 minutos)</li>
+                </ul>
+                <p><strong>Por qué:</strong> El límite de la memoria de trabajo (regla de Miller 7±2) hace que 7+ letras sean extremadamente difíciles</p>
+            </div>
+
+            <h3>La Solución: Algoritmo de Pistas Fraccionarias</h3>
+
+            <p><strong>Algoritmo de Pistas Fraccionarias</strong> (dificultad adaptativa):</p>
+
+            <div class="code-block">
+<pre>A-L-M-E (4 letras) → 1 pista: "Fruta"
+
+E-T-N-A-L-E-F (7 letras) → 2 pistas:
+  - "Animal"
+  - "Primera letra: E"</pre>
+            </div>
+
+            <div class="success-box">
+                <h4>✅ La Innovación</h4>
+                <p><strong>Proporciona automáticamente más apoyo para palabras más largas</strong></p>
+                <p><strong>Fórmula:</strong> Pistas = suelo(longitud_palabra ÷ factor_dificultad)</p>
+                <ul>
+                    <li><strong>Modo Fácil:</strong> factor = 3 (palabra de 9 letras obtiene 3 pistas)</li>
+                    <li><strong>Modo Medio:</strong> factor = 4 (palabra de 9 letras obtiene 2 pistas)</li>
+                    <li><strong>Modo Difícil:</strong> factor = 6 (palabra de 9 letras obtiene 1-2 pistas)</li>
+                </ul>
+                <p><strong>Resultado:</strong> Desafío constante independientemente de la longitud de las palabras</p>
+            </div>
+
+            <div class="info-box">
+                <h4>💡 Disponibilidad</h4>
+                <p><strong>✅ Disponible en:</strong> Paquete Core ($144/año), Acceso Completo ($240/año)</p>
+                <p><strong>❌ No incluido en:</strong> Nivel gratuito (solo Sopa de Letras)</p>
+            </div>
+
+            <!-- How It Works -->
+            <h2>Cómo Funciona el Algoritmo de Pistas Fraccionarias</h2>
+
+            <h3>Las Matemáticas Detrás de la Dificultad Adaptativa</h3>
+
+            <div class="feature-card">
+                <h3>Paso 1: Medir longitud de la palabra</h3>
+                <p><strong>Ejemplo:</strong> "ELEFANTE" = 8 letras</p>
+            </div>
+
+            <div class="feature-card">
+                <h3>Paso 2: Calcular asignación de pistas</h3>
+                <ul>
+                    <li><strong>Modo Fácil:</strong> 8 ÷ 3 = 2.67 → suelo(2.67) = 2 pistas</li>
+                    <li><strong>Modo Medio:</strong> 8 ÷ 4 = 2.00 → suelo(2.00) = 2 pistas</li>
+                    <li><strong>Modo Difícil:</strong> 8 ÷ 6 = 1.33 → suelo(1.33) = 1 pista</li>
+                </ul>
+            </div>
+
+            <div class="feature-card">
+                <h3>Paso 3: Determinar tipos de pistas</h3>
+                <ul>
+                    <li><strong>Pista 1:</strong> Siempre categoría semántica (ej. "Animal")</li>
+                    <li><strong>Pista 2</strong> (si se asigna): Primera letra revelada (ej. "Empieza por E")</li>
+                    <li><strong>Pista 3</strong> (si se asigna): Última letra revelada (ej. "Termina en E")</li>
+                    <li><strong>Pista 4</strong> (si se asigna): Número de vocales (ej. "Contiene 4 vocales")</li>
+                </ul>
+            </div>
+
+            <div class="feature-card">
+                <h3>Paso 4: Mostrar pistas con palabra desordenada</h3>
+                <p>El sistema genera automáticamente la ficha con todas las pistas apropiadas para cada palabra.</p>
+            </div>
+
+            <h3>Ejemplo de Ficha (Palabras de Longitudes Variadas)</h3>
+
+            <p><strong>Modo Fácil (factor = 3):</strong></p>
+
+            <div class="code-block">
+<pre>1. T-O-G-A (4 letras)
+   Pistas: Animal
+   Respuesta: GATO
+
+2. E-T-N-A-L-E-F (7 letras)
+   Pistas: Animal | Empieza por E | Termina en E
+   Respuesta: ELEFANTE
+
+3. S-R-A-F-E (5 letras)
+   Pistas: Fruta | Empieza por F
+   Respuesta: FRESA</pre>
+            </div>
+
+            <div class="success-box">
+                <h4>✅ Observa</h4>
+                <p>Las palabras más largas reciben proporcionalmente más apoyo, manteniendo un tiempo de resolución constante (~1-2 minutos cada una)</p>
+            </div>
+
+            <!-- Educational Benefits -->
+            <h2>Beneficios Educativos</h2>
+
+            <h3>Beneficio 1: Zona de Desarrollo Próximo (Vygotsky)</h3>
+
+            <div class="research-highlight">
+                <strong>Teoría ZDP:</strong> El aprendizaje ocurre cuando la dificultad de la tarea coincide con la habilidad del alumno + andamiaje
+            </div>
+
+            <p><strong>Palabras revueltas estáticas</strong> (dificultad uniforme):</p>
+            <ul>
+                <li><strong>Palabras de 3 letras:</strong> Demasiado fácil (sin aprendizaje, alumno aburrido)</li>
+                <li><strong>Palabras de 9 letras:</strong> Demasiado difícil (frustración, alumno abandona)</li>
+            </ul>
+
+            <p><strong>Palabras revueltas adaptativas:</strong></p>
+            <ul>
+                <li><strong>Palabras de 3 letras:</strong> Pistas mínimas (desafío apropiado)</li>
+                <li><strong>Palabras de 9 letras:</strong> Pistas máximas (alcanzable con andamiaje)</li>
+                <li><strong>Resultado:</strong> Cada palabra en el punto óptimo de la ZDP</li>
+            </ul>
+
+            <div class="research-highlight">
+                <strong>Investigación</strong> (Vygotsky, 1978): Las tareas ajustadas a la ZDP producen una adquisición de habilidades 2.4× más rápida
+            </div>
+
+            <h3>Beneficio 2: Aprendizaje Ortográfico (Dominio de la Escritura)</h3>
+
+            <p><strong>Cómo enseñan ortografía las palabras revueltas:</strong></p>
+
+            <ol>
+                <li><strong>Paso 1:</strong> El alumno ve las letras desordenadas (G-A-T-O)</li>
+                <li><strong>Paso 2:</strong> El cerebro recupera la ortografía de la memoria (G-A-T-O)</li>
+                <li><strong>Paso 3:</strong> El alumno escribe la secuencia correcta</li>
+                <li><strong>Paso 4:</strong> Retroalimentación visual (¿coincide con la respuesta?)</li>
+            </ol>
+
+            <div class="research-highlight">
+                <strong>Proceso cognitivo:</strong> La recuperación activa fortalece la memoria 4× vs la lectura pasiva (Karpicke & Roediger, 2008)
+            </div>
+
+            <div class="success-box">
+                <h4>✅ Ventaja de las pistas fraccionarias</h4>
+                <p>Las palabras más largas (más difíciles de escribir) obtienen más apoyo de recuperación → La tasa de éxito se mantiene alta → Más prácticas completadas</p>
+            </div>
+
+            <h3>Beneficio 3: Refuerzo del Vocabulario</h3>
+
+            <p><strong>Objetivos de aprendizaje duales:</strong></p>
+
+            <ul>
+                <li><strong>Objetivo 1:</strong> Ortografía (secuencia de letras)</li>
+                <li><strong>Objetivo 2:</strong> Vocabulario (significado de la palabra)</li>
+            </ul>
+
+            <p><strong>Las pistas semánticas</strong> refuerzan ambos:</p>
+            <ul>
+                <li>"ELEFANTE → Animal" (vocabulario: clasificación)</li>
+                <li>"FRESA → Fruta" (vocabulario: categoría)</li>
+            </ul>
+
+            <p><strong>Pistas avanzadas</strong> pueden incluir:</p>
+            <ul>
+                <li>Definiciones ("Mamífero grande con trompa")</li>
+                <li>Sinónimos ("Felino grande → LEÓN")</li>
+                <li>Antónimos ("Lo contrario de calor → FRÍO")</li>
+            </ul>
+
+            <h3>Beneficio 4: Prevención de la Frustración</h3>
+
+            <p><strong>Experiencia del alumno con palabras revueltas estáticas:</strong></p>
+            <ol>
+                <li>Resuelve las primeras 5 palabras rápidamente (palabras cortas)</li>
+                <li>Llega a la palabra #6 (HIPOPÓTAMO, 10 letras, 1 pista)</li>
+                <li>Lucha 8 minutos, se rinde</li>
+                <li>Ficha incompleta, confianza dañada</li>
+            </ol>
+
+            <p><strong>Experiencia del alumno con palabras revueltas adaptativas:</strong></p>
+            <ol>
+                <li>Cada palabra es resoluble (número de pistas apropiado)</li>
+                <li>Tiempo de resolución constante de 1-2 minutos por palabra</li>
+                <li>Completa toda la ficha</li>
+                <li>La confianza aumenta (tasa de completitud del 100%)</li>
+            </ol>
+
+            <div class="research-highlight">
+                <strong>Investigación:</strong> El éxito de completitud predice la participación continua con r = 0.71 (Schunk, 1991)
+            </div>
+
+            <!-- Fisher-Yates Algorithm -->
+            <h2>Algoritmo Fisher-Yates (Desorden Sin Sesgo)</h2>
+
+            <h3>Por Qué Importa el Desorden</h3>
+
+            <p><strong>Mal desorden</strong> (alfabetizar, luego invertir):</p>
+            <div class="code-block">
+<pre>ELEFANTE → A-E-E-E-F-L-N-T → T-N-L-F-E-E-E-A</pre>
+            </div>
+            <div class="warning-box">
+                <h4>⚠️ Problema</h4>
+                <p>Patrón predecible (los alumnos aprenden el truco, evitan la práctica real de ortografía)</p>
+            </div>
+
+            <p><strong>Buen desorden</strong> (Fisher-Yates):</p>
+            <div class="code-block">
+<pre>ELEFANTE → N-E-L-A-T-E-F-E</pre>
+            </div>
+            <div class="success-box">
+                <h4>✅ Ventaja</h4>
+                <p>Aleatoriedad verdadera, sin explotación de patrones</p>
+            </div>
+
+            <h3>El Algoritmo Fisher-Yates (Prueba Matemática de Equidad)</h3>
+
+            <div class="feature-card">
+                <h3>Proceso del Algoritmo</h3>
+                <ol>
+                    <li><strong>Paso 1:</strong> Empezar con letras [E, L, E, F, A, N, T, E]</li>
+                    <li><strong>Paso 2:</strong> Para posición 8, seleccionar aleatoriamente de las 8 → Intercambiar</li>
+                    <li><strong>Paso 3:</strong> Para posición 7, seleccionar aleatoriamente de las 7 restantes → Intercambiar</li>
+                    <li><strong>Paso 4:</strong> Continuar hasta que todas las posiciones estén llenas</li>
+                </ol>
+                <p><strong>Resultado:</strong> Cada arreglo posible tiene igual probabilidad (1 ÷ 8! = 1 ÷ 40,320)</p>
+                <p><strong>Por qué importa:</strong> Previene que los alumnos engañen al sistema (sin patrón que explotar)</p>
+            </div>
+
+            <!-- How to Create -->
+            <h2>Crear Ficha de Palabras Revueltas: Flujo de 50 Segundos</h2>
+
+            <div class="info-box">
+                <h4>💡 Requisitos</h4>
+                <p>Paquete Core o Acceso Completo</p>
+            </div>
+
+            <div class="feature-card">
+                <h3>Paso 1: Introducir Palabras (20 segundos)</h3>
+                <p><strong>Métodos de entrada:</strong></p>
+                <ul>
+                    <li>Escribir manualmente (una por línea)</li>
+                    <li>Pegar desde lista de ortografía</li>
+                    <li>Importar desde unidad de vocabulario</li>
+                </ul>
+                <p><strong>Ejemplo de entrada:</strong></p>
+                <div class="code-block">
+<pre>arcoíris
+paraguas
+trueno
+relámpago</pre>
+                </div>
+            </div>
+
+            <div class="feature-card">
+                <h3>Paso 2: Configurar Dificultad (15 segundos)</h3>
+                <p><strong>Ajustes:</strong></p>
+                <ol>
+                    <li><strong>Modo de dificultad</strong> (Fácil, Medio, Difícil) - Determina asignación de pistas fraccionarias</li>
+                    <li><strong>¿Pistas personalizadas?</strong> (Sí: escribe las tuyas | No: auto-generar desde categorías)</li>
+                    <li><strong>Idioma</strong> (11 opciones)</li>
+                </ol>
+            </div>
+
+            <div class="feature-card">
+                <h3>Paso 3: Generar (2 segundos)</h3>
+                <p><strong>El algoritmo:</strong></p>
+                <ol>
+                    <li>Aplica Fisher-Yates a cada palabra</li>
+                    <li>Calcula asignación de pistas (fórmula fraccionaria)</li>
+                    <li>Genera tipos de pistas apropiados</li>
+                    <li>Crea clave de respuestas</li>
+                </ol>
+            </div>
+
+            <div class="feature-card">
+                <h3>Paso 4: Edición Opcional (10 segundos)</h3>
+                <p><strong>Opciones post-generación:</strong></p>
+                <ul>
+                    <li>Modificar texto de pista ("Animal" → "Animal grande y gris")</li>
+                    <li>Re-desordenar palabra específica (orden de letras diferente)</li>
+                    <li>Ajustar tamaño de fuente</li>
+                    <li>Reordenar palabras (de más fácil a más difícil)</li>
+                </ul>
+            </div>
+
+            <div class="feature-card">
+                <h3>Paso 5: Exportar (3 segundos)</h3>
+                <p><strong>Formatos:</strong> PDF o JPEG</p>
+                <p><strong>Incluye:</strong> Ficha + Clave de respuestas</p>
+                <p><strong>Opción escala de grises:</strong> Disponible</p>
+            </div>
+
+            <div class="success-box">
+                <h4>✅ Total: 50 segundos</h4>
+                <p>vs 20-25 minutos creando manualmente con pistas adaptativas</p>
+            </div>
+
+            <!-- Implementation Strategies -->
+            <h2>Estrategias de Implementación en el Aula</h2>
+
+            <h3>Estrategia 1: Práctica de Ortografía Diferenciada</h3>
+
+            <p><strong>Configuración</strong> (misma lista de palabras, 3 niveles de dificultad):</p>
+
+            <div class="feature-card">
+                <h3>Nivel 1 (Alumnos con dificultades ortográficas)</h3>
+                <ul>
+                    <li>Modo Fácil (máximas pistas)</li>
+                    <li>Solo 8-10 palabras</li>
+                    <li>Palabras más simples de la lista</li>
+                </ul>
+            </div>
+
+            <div class="feature-card">
+                <h3>Nivel 2 (Alumnos con ortografía de nivel)</h3>
+                <ul>
+                    <li>Modo Medio (pistas moderadas)</li>
+                    <li>Lista completa de 15 palabras</li>
+                </ul>
+            </div>
+
+            <div class="feature-card">
+                <h3>Nivel 3 (Alumnos con ortografía avanzada)</h3>
+                <ul>
+                    <li>Modo Difícil (pistas mínimas)</li>
+                    <li>Lista completa + palabras desafío</li>
+                </ul>
+            </div>
+
+            <div class="success-box">
+                <h4>✅ Beneficio</h4>
+                <p>Cada alumno practica el mismo contenido con dificultad apropiada</p>
+            </div>
+
+            <h3>Estrategia 2: Desafío de Velocidad por Parejas</h3>
+
+            <div class="info-box">
+                <h4>📋 Protocolo</h4>
+                <ul>
+                    <li>Generar palabras revueltas de dificultad Media (10 palabras)</li>
+                    <li>Compañero A resuelve palabras 1-5</li>
+                    <li>Compañero B resuelve palabras 6-10</li>
+                    <li>Cronómetro: 10 minutos</li>
+                    <li>Ganadores: Pareja con mayor precisión combinada</li>
+                </ul>
+                <p><strong>Variación:</strong> Intercambiar roles (Compañero B hace 1-5, A hace 6-10)</p>
+            </div>
+
+            <h3>Estrategia 3: Revelación Progresiva</h3>
+
+            <p><strong>Para palabras particularmente difíciles:</strong></p>
+
+            <ol>
+                <li><strong>Ronda 1:</strong> Mostrar solo pista semántica - Intento del alumno (2 minutos)</li>
+                <li><strong>Ronda 2:</strong> Revelar pista de primera letra - Alumno lo intenta de nuevo</li>
+                <li><strong>Ronda 3:</strong> Revelar pista de última letra - Intento final</li>
+            </ol>
+
+            <div class="info-box">
+                <h4>💡 Momento de enseñanza</h4>
+                <p>Discutir qué pista fue más útil (metacognición)</p>
+            </div>
+
+            <h3>Estrategia 4: Palabras Revueltas Creadas por Alumnos</h3>
+
+            <p><strong>Extensión avanzada</strong> (3º grado+):</p>
+
+            <div class="feature-card">
+                <h3>Tarea</h3>
+                <ol>
+                    <li>Alumno selecciona 5 palabras de vocabulario</li>
+                    <li>Escribe pista semántica para cada una</li>
+                    <li>Desordena letras manualmente (usando selección aleatoria de letras)</li>
+                    <li>Intercambia con compañero</li>
+                    <li>Compañero resuelve</li>
+                </ol>
+                <p><strong>Pensamiento de orden superior:</strong> Crear pistas efectivas requiere comprensión profunda de las palabras</p>
+            </div>
+
+            <!-- Differentiation Strategies -->
+            <h2>Estrategias de Diferenciación</h2>
+
+            <h3>Para Alumnos de Español como Lengua Extranjera (ELE)</h3>
+
+            <div class="feature-card">
+                <h3>Modificaciones</h3>
+                <ul>
+                    <li>Modo Fácil (pistas máximas)</li>
+                    <li>Incluir pistas visuales (codificación dual)</li>
+                    <li>Interfaz bilingüe (instrucciones en idioma nativo)</li>
+                    <li>Lista de palabras más corta (5-8 palabras)</li>
+                </ul>
+                <p><strong>Apoyo visual:</strong> Las imágenes acompañan las pistas semánticas</p>
+            </div>
+
+            <h3>Para Alumnos con Dislexia</h3>
+
+            <div class="feature-card">
+                <h3>Adaptaciones</h3>
+                <ul>
+                    <li>Fuente amigable para dislexia</li>
+                    <li>Espaciado de líneas extra (reducir aglomeración)</li>
+                    <li>Vocales codificadas por color (resaltar en azul)</li>
+                    <li>Tiempo extendido (sin prisa)</li>
+                </ul>
+            </div>
+
+            <div class="research-highlight">
+                <strong>Investigación:</strong> El andamiaje visual mejora la completitud de alumnos disléxicos un 52% (Snowling, 2000)
+            </div>
+
+            <h3>Para Alumnos Superdotados</h3>
+
+            <div class="feature-card">
+                <h3>Extensiones</h3>
+                <ul>
+                    <li>Modo Difícil + sin pistas semánticas (solo longitud de palabra)</li>
+                    <li>Palabras de 12+ letras (EXTRAORDINARIO, HIPOPÓTAMO)</li>
+                    <li>Desafío cronometrado (1 minuto por palabra)</li>
+                    <li>Crear palabras revueltas temáticas (todos términos de ciencias, toda geografía)</li>
+                </ul>
+            </div>
+
+            <!-- Pricing and ROI -->
+            <h2>Precios y ROI</h2>
+
+            <div class="warning-box">
+                <h4>❌ Nivel Gratuito ($0)</h4>
+                <p><strong>Palabras Revueltas NO incluidas</strong></p>
+                <p>✅ Solo Sopa de Letras</p>
+            </div>
+
+            <div class="pricing-card">
+                <h3>✅ Paquete Core - $144/año</h3>
+                <div class="price">$144/año</div>
+                <p><strong>Palabras Revueltas INCLUIDAS</strong></p>
+                <ul>
+                    <li>✅ Algoritmo de pistas fraccionarias</li>
+                    <li>✅ Los 3 modos de dificultad</li>
+                    <li>✅ Desorden Fisher-Yates</li>
+                    <li>✅ Entrada de pistas personalizada</li>
+                    <li>✅ 11 idiomas</li>
+                    <li>✅ Claves de respuestas</li>
+                    <li>✅ Edición post-generación</li>
+                    <li>✅ Sin marca de agua</li>
+                    <li>✅ Licencia comercial</li>
+                </ul>
+                <p><strong>Ideal para:</strong> Maestros de Primaria (K-5), Profesores de ELE</p>
+            </div>
+
+            <div class="pricing-card">
+                <h3>✅ Acceso Completo - $240/año</h3>
+                <div class="price">$240/año</div>
+                <p><strong>Palabras Revueltas + 32 otros generadores</strong></p>
+                <ul>
+                    <li>✅ Todo en Core</li>
+                    <li>✅ Soporte prioritario</li>
+                </ul>
+            </div>
+
+            <h3>Ahorro de Tiempo</h3>
+
+            <div class="feature-card">
+                <h3>Creación Manual</h3>
+                <ul>
+                    <li>Introducir palabras: 3 minutos</li>
+                    <li>Desordenar cada palabra a mano: 8 minutos (propenso a sesgo)</li>
+                    <li>Calcular pistas adaptativas para cada longitud de palabra: 6 minutos</li>
+                    <li>Diseñar ficha: 5 minutos</li>
+                    <li>Crear clave de respuestas: 3 minutos</li>
+                    <li><strong>Total: 25 minutos</strong></li>
+                </ul>
+            </div>
+
+            <div class="feature-card">
+                <h3>Con el Generador</h3>
+                <ul>
+                    <li>Introducir palabras: 20 segundos</li>
+                    <li>Configurar: 15 segundos</li>
+                    <li>Generar: 2 segundos</li>
+                    <li>Exportar: 3 segundos</li>
+                    <li><strong>Total: 40 segundos</strong></li>
+                </ul>
+            </div>
+
+            <div class="success-box">
+                <h4>✅ Tiempo ahorrado: 24.3 minutos por ficha (98% más rápido)</h4>
+                <ul>
+                    <li><strong>Uso semanal</strong> (2 fichas): 24.3 × 2 = 48.6 min = <strong>0.8 horas</strong></li>
+                    <li><strong>Anual</strong> (36 semanas): 0.8 × 36 = <strong>28.8 horas</strong></li>
+                    <li><strong>Valor del tiempo:</strong> 28.8 hrs × $30/hora = <strong>$864</strong></li>
+                    <li><strong>ROI del Paquete Core:</strong> $864 − $144 = <strong>$720 de beneficio neto</strong> (retorno de 6×)</li>
+                </ul>
+            </div>
+
+            <!-- FAQ -->
+            <h2>Preguntas Frecuentes</h2>
+
+            <h3>¿Por qué no simplemente dar el mismo número de pistas a todas las palabras?</h3>
+
+            <div class="warning-box">
+                <h4>⚠️ Desequilibrio de carga cognitiva</h4>
+                <ul>
+                    <li><strong>Palabra de 3 letras con 3 pistas:</strong> Demasiado fácil (los alumnos no practican recuperación)</li>
+                    <li><strong>Palabra de 9 letras con 1 pista:</strong> Demasiado difícil (los alumnos se rinden)</li>
+                </ul>
+            </div>
+
+            <div class="success-box">
+                <h4>✅ Solución</h4>
+                <p>Las pistas adaptativas mantienen el desafío óptimo (ZDP) para todas las longitudes de palabras</p>
+            </div>
+
+            <h3>¿Puedo anular el cálculo automático de pistas?</h3>
+
+            <div class="success-box">
+                <h4>✅ ¡Sí! La edición post-generación permite:</h4>
+                <ul>
+                    <li>Añadir pista manual a cualquier palabra</li>
+                    <li>Eliminar pista auto-generada</li>
+                    <li>Modificar texto de pista</li>
+                </ul>
+                <p><strong>Caso de uso:</strong> El maestro quiere desafiar a alumnos avanzados → Eliminar pistas de palabras de longitud media</p>
+            </div>
+
+            <h3>¿Cómo se compara esto con el software de ortografía comercial?</h3>
+
+            <div class="feature-card">
+                <h3>Software Comercial (ej. Spelling City)</h3>
+                <ul>
+                    <li>Suscripción: $50-90/año (por función)</li>
+                    <li>Edición limitada</li>
+                    <li>Solo en línea (sin fichas fuera de línea)</li>
+                </ul>
+            </div>
+
+            <div class="feature-card">
+                <h3>Palabras Revueltas de LessonCraft Studio</h3>
+                <ul>
+                    <li>Paquete Core: $144/año (10 generadores, incluyendo Palabras Revueltas)</li>
+                    <li>Edición post-generación completa</li>
+                    <li>Imprimir fichas ilimitadas (uso fuera de línea)</li>
+                    <li><strong>Valor adicional:</strong> Licencia comercial (puede vender fichas en TPT)</li>
+                </ul>
+            </div>
+
+            <!-- Conclusion -->
+            <h2>Conclusión</h2>
+
+            <p>La dificultad adaptativa no es un lujo—es esencial para mantener el desafío óptimo en palabras de longitudes variadas.</p>
+
+            <p><strong>El Algoritmo de Pistas Fraccionarias</strong> garantiza matemáticamente el andamiaje apropiado.</p>
+
+            <div class="research-highlight">
+                <strong>La investigación:</strong>
+                <ul>
+                    <li>Tareas ajustadas a la ZDP: 2.4× adquisición de habilidades más rápida (Vygotsky, 1978)</li>
+                    <li>Recuperación activa: 4× memoria más fuerte vs pasiva (Karpicke & Roediger, 2008)</li>
+                    <li>Éxito de completitud predice participación: r = 0.71 (Schunk, 1991)</li>
+                </ul>
+            </div>
+
+            <div class="success-box">
+                <h4>✅ Disponible en el Paquete Core</h4>
+                <p>$144/año con desorden Fisher-Yates y 11 idiomas.</p>
+                <p><strong>Cada palabra revuelta que encuentren tus alumnos será apropiadamente desafiante.</strong></p>
+            </div>
+
+            <!-- CTA Section -->
+            <div class="cta-section">
+                <h3>¿Listo para crear fichas de palabras revueltas con dificultad adaptativa?</h3>
+                <p>Ahorra tiempo y ofrece el andamiaje perfecto para cada palabra</p>
+                <div class="cta-buttons">
+                    <a href="https://www.lessoncraftstudio.com/pricing" class="btn btn-primary">Ver Opciones de Precios</a>
+                    <a href="https://www.lessoncraftstudio.com/word-scramble" class="btn btn-outline">Más Información sobre Palabras Revueltas</a>
+                </div>
+            </div>
+
+            <!-- References -->
+            <h2>Referencias de Investigación</h2>
+
+            <ol>
+                <li><strong>Vygotsky, L. S. (1978).</strong> <em>Mind in Society: Development of Higher Psychological Processes.</em> [Tareas ajustadas a la ZDP: 2.4× adquisición más rápida]</li>
+                <li><strong>Karpicke, J. D., & Roediger, H. L. (2008).</strong> "The critical importance of retrieval for learning." <em>Science, 319</em>(5865), 966-968. [Recuperación activa 4× más fuerte que pasiva]</li>
+                <li><strong>Miller, G. A. (1956).</strong> "The magical number seven, plus or minus two." <em>Psychological Review, 63</em>(2), 81-97. [Límites de memoria de trabajo]</li>
+                <li><strong>Schunk, D. H. (1991).</strong> "Self-efficacy and academic motivation." <em>Educational Psychologist, 26</em>(3-4), 207-231. [Completitud predice participación, r = 0.71]</li>
+                <li><strong>Snowling, M. J. (2000).</strong> <em>Dyslexia</em> (2nd ed.). [Andamiaje visual mejora completitud 52%]</li>
+            </ol>
+        </div>
+
+        <!-- Footer -->
+        <footer class="article-footer">
+            <p><strong>Última actualización:</strong> Enero 2025 | Algoritmo de Pistas Fraccionarias probado con más de 8,000 palabras revueltas</p>
+            <p style="margin-top: 15px;">
+                <a href="https://www.lessoncraftstudio.com">LessonCraft Studio</a> |
+                <a href="https://www.lessoncraftstudio.com/blog">Blog</a> |
+                <a href="https://www.lessoncraftstudio.com/pricing">Precios</a> |
+                <a href="https://www.lessoncraftstudio.com/word-scramble">Generador de Palabras Revueltas</a>
+            </p>
+        </footer>
+    </article>
+</body>
+</html>

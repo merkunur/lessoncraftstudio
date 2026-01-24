@@ -15,24 +15,56 @@ export const cryptogramSvContent: ProductPageContent = {
   seo: {
     slug: 'bildkryptogram-arbetsblad',
     appId: 'cryptogram',
-    title: 'Bildkryptogram Generator - Arbetsblad Gratis för Bokstäver Lära Sig och Matematik Arbetsblad',
-    description: 'Skapa professionella bildkryptogram med vår bildkryptogram-generator. Din Full Tillgång-prenumeration ger dig obegränsad skapande av arbetsblad utan extra avgifter per arbetsblad. Generera anpassade utskrivbara bildkryptogram perfekta för förskoleklass material och lågstadiebarn.',
-    keywords: 'bildkryptogram generator, arbetsblad gratis, förskoleklass material, bokstäver lära sig, kryptogram barn, bildkryptogram, matematik arbetsblad, finmotorik övningar, målarbilder barn, bokstavsigenkänning',
+    title: 'Gratis Arbetsblad Bildkryptogram | Bokstavspussel Generator för Barn',
+    description: 'Skapa gratis arbetsblad för bildkryptogram. Generera bokstavspussel för förskoleklass och lågstadiet. Ladda ner professionella PDF-arbetsblad på under 3 minuter.',
+    keywords: 'gratis arbetsblad, gratis arbetsblad för barn, gratis utskrifter, arbetsblad för barn, arbetsblad för förskoleklass, bildkryptogram generator, bokstavspussel, kryptogram barn, bildkryptogram, matematik arbetsblad, finmotorik övningar',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/bildkryptogram-arbetsblad',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/cryptogram/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis arbetsblad bildkryptogram - bokstavspussel för förskoleklass',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/cryptogram/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis arbetsblad för barn - bildkryptogram med tematiska bilder',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/cryptogram/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis utskrifter bildkryptogram - arbetsblad för barn',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/cryptogram/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Arbetsblad för förskoleklass - bildkryptogram bokstavsinlärning',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/cryptogram/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Arbetsblad för barn - gratis bildkryptogram generator',
+      },
+    ],
   },
 
   // Hero Section - FULL text from cryptogram.md paragraphs 1-4
   hero: {
-    title: 'Bild Kryptogram',
-    subtitle: 'Arbetsblad Gratis för Bokstäver Lära Sig och Matematik Arbetsblad',
-    description: `Skapa professionella bildkryptogram med vår bildkryptogram-generator. Din Full Tillgång-prenumeration ger dig obegränsad skapande av arbetsblad utan extra avgifter per arbetsblad. Generera anpassade utskrivbara bildkryptogram perfekta för förskoleklass material och lågstadiebarn. Ladda ner högkvalitativa PDF-arbetsblad på under 3 minuter.
+    title: 'Bildkryptogram',
+    subtitle: 'Gratis Arbetsblad för Barn - Bokstavspussel för Förskoleklass',
+    description: `Skapa gratis arbetsblad för bildkryptogram med vår generator. Din Full Tillgång-prenumeration ger dig obegränsad skapande av gratis utskrifter utan extra avgifter per arbetsblad. Generera anpassade arbetsblad för barn perfekta för förskoleklass material och lågstadiebarn. Ladda ner högkvalitativa PDF-arbetsblad på under 3 minuter.
 
-Bildkryptogram är roliga pusselarbetsblad där bokstäver ersätts med bilder. Barn löser pusslet genom att dechiffrera vilken bild som representerar varje bokstav. Detta skapar engagerande aktiviteter för bokstäver lära sig och läsförståelse. Perfekt för att göra bokstavsträning och stavning roligt och interaktivt.
+Bildkryptogram är roliga pusselarbetsblad där bokstäver ersätts med bilder. Barn löser pusslet genom att dechiffrera vilken bild som representerar varje bokstav. Detta skapar engagerande arbetsblad för förskoleklass och läsförståelse. Perfekt gratis arbetsblad för barn som gör bokstavsträning roligt och interaktivt.
 
-Vår generator skapar både arbetsblad och facit automatiskt. Arbetet med bildkryptogram stödjer flera lärandemål samtidigt. Barn tränar bokstavsigenkänning, problemlösning, logiskt tänkande och uthållighet. Varje bildkryptogram kan anpassas efter elevernas nivå genom att visa ledtrådar i form av avslöjade bokstäver.
+Vår generator skapar både gratis arbetsblad och facit automatiskt. Arbetet med bildkryptogram stödjer flera lärandemål samtidigt. Barn tränar bokstavsigenkänning, problemlösning, logiskt tänkande och uthållighet. Varje bildkryptogram kan anpassas efter elevernas nivå genom att visa ledtrådar i form av avslöjade bokstäver.
 
-Full Tillgång-prenumerationen inkluderar alla 33 arbetsbladsverktyg för 2 880 kr per år. Det motsvarar bara 240 kr per månad. Ingen extra kostnad för kommersiell licens, bildbibliotek eller obegränsad nedladdning. Allt ingår i en prenumeration.`,
-    previewImageSrc: '/samples/english/cryptogram/cryptogram_worksheet.jpeg',
+Full Tillgång-prenumerationen inkluderar alla 33 arbetsbladsverktyg för 2 880 kr per år. Det motsvarar bara 240 kr per månad. Ingen extra kostnad för kommersiell licens, bildbibliotek eller obegränsad nedladdning. Gratis utskrifter ingår i en prenumeration.`,
+    previewImageSrc: '/samples/swedish/cryptogram/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Prova Gratis',
       viewSamples: 'Visa Exempel',
@@ -51,10 +83,10 @@ Full Tillgång-prenumerationen inkluderar alla 33 arbetsbladsverktyg för 2 880 
     },
   },
 
-  // Sample Gallery - REAL file paths from samples/english/cryptogram/
+  // Sample Gallery - REAL file paths from samples/swedish/cryptogram/
   samples: {
-    sectionTitle: 'Bildkryptogram Arbetsblad Exempel',
-    sectionDescription: 'Ladda ner gratis exempelarbetsblad för att se vår professionella kvalitet',
+    sectionTitle: 'Gratis Arbetsblad Bildkryptogram - Exempel för Barn',
+    sectionDescription: 'Ladda ner gratis arbetsblad för att se vår professionella kvalitet. Gratis utskrifter för förskoleklass.',
     downloadLabel: 'Ladda Ner Gratis Exempel',
     worksheetLabel: 'Arbetsblad',
     answerKeyLabel: 'Facit',
@@ -67,24 +99,45 @@ Full Tillgång-prenumerationen inkluderar alla 33 arbetsbladsverktyg för 2 880 
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/cryptogram/cryptogram_worksheet.jpeg',
-        answerKeySrc: '/samples/english/cryptogram/cryptogram_answer_key.jpeg',
-        altText: 'Bildkryptogram arbetsblad med tematiska bilder för förskoleklass bokstavsträning',
-        pdfDownloadUrl: '/samples/english/cryptogram/cryptogram_worksheet.pdf',
+        worksheetSrc: '/samples/swedish/cryptogram/sample-1.jpeg',
+        answerKeySrc: '/samples/swedish/cryptogram/sample-1-answer.jpeg',
+        altText: 'Gratis arbetsblad bildkryptogram med tematiska bilder för förskoleklass bokstavsträning',
+        pdfDownloadUrl: '/samples/swedish/cryptogram/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/cryptogram/cryptogram_worksheet (1).jpeg',
-        answerKeySrc: '/samples/english/cryptogram/cryptogram_answer_key (1).jpeg',
-        altText: 'Bildkryptogram med färgglada bildledtrådar för lågstadiet bokstavsinlärning',
-        pdfDownloadUrl: '/samples/english/cryptogram/cryptogram_worksheet (1).pdf',
+        worksheetSrc: '/samples/swedish/cryptogram/sample-2.jpeg',
+        answerKeySrc: '/samples/swedish/cryptogram/sample-2-answer.jpeg',
+        altText: 'Gratis arbetsblad för barn - bildkryptogram med färgglada bildledtrådar för lågstadiet',
+        pdfDownloadUrl: '/samples/swedish/cryptogram/sample-2.pdf',
+      },
+      {
+        id: '3',
+        worksheetSrc: '/samples/swedish/cryptogram/sample-3.jpeg',
+        answerKeySrc: '/samples/swedish/cryptogram/sample-3-answer.jpeg',
+        altText: 'Gratis utskrifter bildkryptogram - arbetsblad för förskoleklass bokstavsinlärning',
+        pdfDownloadUrl: '/samples/swedish/cryptogram/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/swedish/cryptogram/sample-4.jpeg',
+        answerKeySrc: '/samples/swedish/cryptogram/sample-4-answer.jpeg',
+        altText: 'Arbetsblad för barn - bildkryptogram med pedagogiska bilder och bokstavspussel',
+        pdfDownloadUrl: '/samples/swedish/cryptogram/sample-4.pdf',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/swedish/cryptogram/sample-5.jpeg',
+        answerKeySrc: '/samples/swedish/cryptogram/sample-5-answer.jpeg',
+        altText: 'Arbetsblad för förskoleklass - gratis bildkryptogram med tematiska bilder',
+        pdfDownloadUrl: '/samples/swedish/cryptogram/sample-5.pdf',
       },
     ],
   },
 
   // Features Grid - FULL text from cryptogram.md feature sections
   features: {
-    sectionTitle: 'Bildkryptogram Funktioner - Arbetsblad Gratis för Bokstäver Lära Sig och Matematik Arbetsblad',
+    sectionTitle: 'Bildkryptogram Funktioner - Gratis Arbetsblad för Barn och Förskoleklass',
     sectionDescription: 'Vår bildkryptogram-generator innehåller alla funktioner du behöver för professionella arbetsblad. Sju huvudfunktioner gör det enkelt att skapa engagerande bildkryptogram. Varje funktion är designad för lärare som behöver snabba, effektiva verktyg. Full kontroll över varje element på arbetsbladen.',
     highlightBadgeText: 'Nyckelfunktion',
     readMoreLabel: 'Läs mer',
@@ -190,7 +243,7 @@ Gråskalealternativet sparar bläck vid utskrift. Markera gråskala-rutan före 
 
   // How-To Guide - FULL text from cryptogram.md step sections
   howTo: {
-    sectionTitle: 'Hur Man Skapar Arbetsblad Gratis med Bildkryptogram - Förskoleklass Material och Matematik Arbetsblad på 5 Enkla Steg',
+    sectionTitle: 'Hur Man Skapar Gratis Arbetsblad med Bildkryptogram - Arbetsblad för Barn på 5 Enkla Steg',
     sectionDescription: 'Skapa professionella bildkryptogram på under 3 minuter. Fem enkla steg från början till färdigt arbetsblad. Ingen designerfarenhet krävs för att göra högkvalitativa bildkryptogram. Följ denna guide för perfekta resultat varje gång.',
     ctaText: 'Börja Skapa Nu',
     badgeText: 'Så Fungerar Det',
@@ -272,7 +325,7 @@ Skala aldrig bildkryptogram vid utskrift. Använd "Faktisk storlek" i skrivarins
 
   // Use Cases - FULL text from cryptogram.md use case sections
   useCases: {
-    sectionTitle: 'Perfekt för Lärare och Föräldrar - Arbetsblad Gratis för Förskoleklass Material och Matematik Arbetsblad',
+    sectionTitle: 'Perfekt för Lärare och Föräldrar - Gratis Arbetsblad för Barn och Förskoleklass',
     sectionDescription: 'Bildkryptogram passar många olika användare och undervisningssituationer. Sex huvudgrupper använder verktyget regelbundet. Var och en har specifika behov som bildkryptogram fyller perfekt. Flexibiliteten gör verktyget ovärderligt för olika pedagogiska sammanhang.',
     badgeText: 'Vem Det Är För',
     readMoreLabel: 'Läs mer',
@@ -367,7 +420,7 @@ Många lärare tjänar 4 000-40 000 kr per månad på Teachers Pay Teachers. Bil
 
   // FAQ Section - Selected FAQs from cryptogram.md
   faq: {
-    sectionTitle: 'Vanliga Frågor om Bildkryptogram - Arbetsblad Gratis för Förskoleklass Material och Matematik Arbetsblad',
+    sectionTitle: 'Vanliga Frågor om Bildkryptogram - Gratis Arbetsblad för Barn och Förskoleklass',
     sectionDescription: 'Lärare och föräldrar ställer ofta samma frågor om bildkryptogram-generatorn. Tolv vanligaste frågorna besvaras här. Allt från prenumerationskostnader till praktisk användning.',
     showMoreText: 'Visa fler frågor',
     showLessText: 'Visa färre',

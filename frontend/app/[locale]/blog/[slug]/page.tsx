@@ -10,6 +10,57 @@ import { SUPPORTED_LOCALES } from '@/config/locales';
 // Enable ISR - revalidate every 30 minutes (reduced from 1 hour for faster updates)
 export const revalidate = 1800;
 
+/**
+ * Generate SEO-optimized alt text for images
+ * Prioritizes: focusKeyword > title > category > generic fallback
+ * @param title - The title of the content
+ * @param focusKeyword - The SEO focus keyword (optional)
+ * @param category - The content category (optional)
+ * @param type - The type of image ('featured', 'pdf', 'related')
+ * @returns SEO-optimized alt text
+ */
+function generateAltText(
+  title: string,
+  focusKeyword?: string,
+  category?: string,
+  type: 'featured' | 'pdf' | 'related' = 'featured'
+): string {
+  const siteName = 'LessonCraftStudio';
+  const truncatedTitle = title.length > 50 ? title.slice(0, 50).trim() : title;
+
+  if (focusKeyword) {
+    switch (type) {
+      case 'pdf':
+        return `${focusKeyword} worksheet - ${truncatedTitle} | ${siteName}`;
+      case 'related':
+        return `${focusKeyword} - ${truncatedTitle} | ${siteName}`;
+      default:
+        return `${focusKeyword} - ${truncatedTitle} | ${siteName}`;
+    }
+  }
+
+  if (category) {
+    switch (type) {
+      case 'pdf':
+        return `${category} worksheet sample - ${truncatedTitle} | ${siteName}`;
+      case 'related':
+        return `${category} educational resource - ${truncatedTitle} | ${siteName}`;
+      default:
+        return `${category} worksheet guide - ${truncatedTitle} | ${siteName}`;
+    }
+  }
+
+  // Generic fallback with type-specific descriptions
+  switch (type) {
+    case 'pdf':
+      return `Printable worksheet - ${truncatedTitle} | ${siteName}`;
+    case 'related':
+      return `Educational resource - ${truncatedTitle} | ${siteName}`;
+    default:
+      return `Educational worksheet resource - ${truncatedTitle} | ${siteName}`;
+  }
+}
+
 // Shared in-memory slug cache for fast lookups (maps any slug -> primary slug)
 let slugCache: Map<string, string> | null = null;
 let cacheTimestamp: number = 0;
@@ -647,7 +698,7 @@ export default async function BlogPostPage({
                   }}>
                     <img
                       src={pdfThumbnail}
-                      alt={pdfTitle}
+                      alt={generateAltText(pdfTitle, translation.focusKeyword, post.category, 'pdf')}
                       style={{
                         position: 'absolute',
                         top: '0',
@@ -815,7 +866,7 @@ export default async function BlogPostPage({
                       {relatedPost.featuredImage ? (
                         <img
                           src={relatedPost.featuredImage}
-                          alt={relatedTranslation.title}
+                          alt={generateAltText(relatedTranslation.title || relatedPost.slug, relatedTranslation.focusKeyword, undefined, 'related')}
                           style={{
                             maxWidth: '100%',
                             maxHeight: '100%',
@@ -955,9 +1006,10 @@ export async function generateMetadata({ params }: BlogPostPageProps) {
         section: post.category || 'Education',
         tags: post.keywords || [],
         // SEO FIX: Remove hardcoded dimensions (let browser/crawler determine actual size)
+        // SEO FIX: Use keyword-rich alt text for better image search visibility
         images: post.featuredImage ? [{
           url: `${baseUrl}${post.featuredImage}`,
-          alt: translation.featuredImageAlt || `${title} - LessonCraftStudio`
+          alt: translation.featuredImageAlt || generateAltText(title, focusKeyword, post.category, 'featured')
         }] : [],
       },
       // AUTOMATED: Twitter Card tags

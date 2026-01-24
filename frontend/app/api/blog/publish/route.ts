@@ -3,6 +3,7 @@ import fs from 'fs/promises';
 import path from 'path';
 import { prisma } from '@/lib/prisma';
 import { SUPPORTED_LOCALES } from '@/config/locales';
+import { validateAllTranslations, type SEOValidationResult } from '@/lib/blog-seo-validator';
 
 export const dynamic = 'force-dynamic';
 
@@ -736,13 +737,39 @@ ${allHreflangLinks}
 export async function POST(request: NextRequest) {
   try {
     const body = await request.json();
-    const { slug, languages } = body;
+    const { slug, languages, skipSeoValidation = false, strictSeoMode = false } = body;
 
     if (!slug || !languages) {
       return NextResponse.json(
         { error: 'Missing required fields: slug and languages' },
         { status: 400 }
       );
+    }
+
+    // SEO Validation - run before publishing
+    const seoValidation = validateAllTranslations(languages, strictSeoMode);
+
+    // If strict mode and has errors, block publishing
+    if (strictSeoMode && !seoValidation.valid) {
+      return NextResponse.json(
+        {
+          error: 'SEO validation failed in strict mode',
+          seoValidation: {
+            valid: false,
+            score: seoValidation.overallScore,
+            errors: seoValidation.allErrors,
+            warnings: seoValidation.allWarnings,
+            suggestions: seoValidation.allSuggestions,
+          },
+        },
+        { status: 400 }
+      );
+    }
+
+    // Log SEO warnings (but don't block publishing in normal mode)
+    if (seoValidation.allWarnings.length > 0 && !skipSeoValidation) {
+      console.log(`[SEO] Blog "${slug}" has ${seoValidation.allWarnings.length} warnings:`);
+      seoValidation.allWarnings.forEach(w => console.log(`  - ${w}`));
     }
 
     const publishedUrls: string[] = [];
@@ -790,7 +817,15 @@ export async function POST(request: NextRequest) {
       success: true,
       message: 'Blog post published successfully',
       publishedUrls,
-      slug
+      slug,
+      // Include SEO validation results for UI feedback
+      seoValidation: {
+        valid: seoValidation.valid,
+        score: seoValidation.overallScore,
+        errors: seoValidation.allErrors,
+        warnings: seoValidation.allWarnings,
+        suggestions: seoValidation.allSuggestions,
+      },
     });
 
   } catch (error) {

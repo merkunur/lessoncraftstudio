@@ -2,9 +2,7 @@ import createMiddleware from 'next-intl/middleware';
 import { locales, defaultLocale } from './i18n/request';
 import { NextResponse } from 'next/server';
 import type { NextRequest } from 'next/server';
-
-// Supported locales for Accept-Language detection
-const SUPPORTED_LOCALES = ['en', 'de', 'fr', 'es', 'it', 'pt', 'nl', 'sv', 'da', 'no', 'fi'];
+import { SUPPORTED_LOCALES, isValidLocale } from '@/config/locales';
 
 /**
  * Parse Accept-Language header to detect user's preferred language
@@ -26,7 +24,7 @@ function parseAcceptLanguage(header: string | null): string | null {
 
   // Find the first supported language
   for (const lang of languages) {
-    if (SUPPORTED_LOCALES.includes(lang.code)) {
+    if (isValidLocale(lang.code)) {
       return lang.code;
     }
   }
@@ -41,13 +39,13 @@ function parseAcceptLanguage(header: string | null): string | null {
 function getPreferredLanguage(request: NextRequest): string {
   // 1. Check preferredLanguage cookie (set when user explicitly changes language)
   const preferredLangCookie = request.cookies.get('preferredLanguage')?.value;
-  if (preferredLangCookie && SUPPORTED_LOCALES.includes(preferredLangCookie)) {
+  if (preferredLangCookie && isValidLocale(preferredLangCookie)) {
     return preferredLangCookie;
   }
 
   // 2. Check NEXT_LOCALE cookie (set by next-intl)
   const nextLocaleCookie = request.cookies.get('NEXT_LOCALE')?.value;
-  if (nextLocaleCookie && SUPPORTED_LOCALES.includes(nextLocaleCookie)) {
+  if (nextLocaleCookie && isValidLocale(nextLocaleCookie)) {
     return nextLocaleCookie;
   }
 
@@ -105,8 +103,7 @@ export default function middleware(request: NextRequest) {
   // Extract locale from URL for SEO (html lang attribute)
   const pathSegments = pathname.split('/').filter(Boolean);
   const urlLocale = pathSegments[0];
-  const validLocales = ['en', 'de', 'fr', 'es', 'it', 'pt', 'nl', 'sv', 'da', 'no', 'fi'];
-  const detectedLocale = validLocales.includes(urlLocale) ? urlLocale : 'en';
+  const detectedLocale = isValidLocale(urlLocale) ? urlLocale : 'en';
 
   // Note: Blog redirect for wrong language prefixes is handled at page level
   // The hreflang tags in sitemap and pages tell Google which version to serve

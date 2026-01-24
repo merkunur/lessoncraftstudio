@@ -1,8 +1,9 @@
-import type { Metadata } from 'next';
+import type { Metadata, Viewport } from 'next';
 import { Inter, Poppins } from 'next/font/google';
 import { cookies } from 'next/headers';
 import './globals.css';
 import { Providers } from './providers';
+import { SUPPORTED_LOCALES, DEFAULT_LOCALE, isValidLocale } from '@/config/locales';
 
 const inter = Inter({
   subsets: ['latin'],
@@ -16,6 +17,7 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(process.env.NEXT_PUBLIC_APP_URL || 'https://www.lessoncraftstudio.com'),
   title: 'LessonCraftStudio - Professional Worksheet Generator',
   description: '33 powerful worksheet generators with 100+ themed images for Teachers Pay Teachers sellers and educational publishers',
   keywords: 'worksheet generator, teachers pay teachers, educational resources, printable worksheets, POD license',
@@ -51,8 +53,11 @@ export const metadata: Metadata = {
   },
 };
 
-// Supported locales for language detection
-const supportedLocales = ['en', 'de', 'fr', 'es', 'it', 'pt', 'nl', 'sv', 'da', 'no', 'fi'];
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  maximumScale: 5,
+};
 
 export default function RootLayout({
   children,
@@ -62,7 +67,7 @@ export default function RootLayout({
   // Get locale from cookie set by middleware for correct html lang attribute (SEO)
   const cookieStore = cookies();
   const localeCookie = cookieStore.get('NEXT_LOCALE')?.value;
-  const lang = localeCookie && supportedLocales.includes(localeCookie) ? localeCookie : 'en';
+  const lang = localeCookie && isValidLocale(localeCookie) ? localeCookie : DEFAULT_LOCALE;
 
   return (
     <html lang={lang}>

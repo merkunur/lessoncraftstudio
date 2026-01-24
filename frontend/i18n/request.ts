@@ -1,25 +1,12 @@
 import { notFound } from 'next/navigation';
 import { getRequestConfig } from 'next-intl/server';
+import { SUPPORTED_LOCALES, DEFAULT_LOCALE, LOCALE_NAMES, type SupportedLocale } from '@/config/locales';
 
-// Can be imported from a shared config
-export const locales = ['en', 'de', 'fr', 'es', 'pt', 'it', 'nl', 'sv', 'da', 'no', 'fi'] as const;
-export type Locale = (typeof locales)[number];
-
-export const defaultLocale: Locale = 'en';
-
-export const localeNames: Record<Locale, string> = {
-  en: 'English',
-  de: 'Deutsch',
-  fr: 'Français',
-  es: 'Español',
-  pt: 'Português',
-  it: 'Italiano',
-  nl: 'Nederlands',
-  sv: 'Svenska',
-  da: 'Dansk',
-  no: 'Norsk',
-  fi: 'Suomi'
-};
+// Re-export for backward compatibility
+export const locales = SUPPORTED_LOCALES;
+export type Locale = SupportedLocale;
+export const defaultLocale = DEFAULT_LOCALE;
+export const localeNames = LOCALE_NAMES;
 
 export default getRequestConfig(async ({ locale }) => {
   // Validate that the incoming `locale` parameter is valid

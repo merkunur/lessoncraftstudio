@@ -7,13 +7,17 @@ import { SUPPORTED_LOCALES, DEFAULT_LOCALE, isValidLocale } from '@/config/local
 
 const inter = Inter({
   subsets: ['latin'],
-  variable: '--font-inter'
+  variable: '--font-inter',
+  display: 'swap',
+  preload: true,
 });
 
 const poppins = Poppins({
   weight: ['400', '500', '600', '700'],
   subsets: ['latin'],
-  variable: '--font-poppins'
+  variable: '--font-poppins',
+  display: 'swap',
+  preload: true,
 });
 
 export const metadata: Metadata = {
@@ -76,6 +80,7 @@ export default function RootLayout({
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link rel="dns-prefetch" href="https://www.lessoncraftstudio.com" />
+        <link rel="preload" as="image" href="/opengraph-image.png" />
         {/* RSS feed for blog discovery */}
         <link rel="alternate" type="application/rss+xml" title="LessonCraftStudio Blog RSS" href="/feed.xml" />
       </head>

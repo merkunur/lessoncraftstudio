@@ -4,6 +4,21 @@ import { prisma } from '@/lib/prisma';
 // Cache for 1 hour instead of force-dynamic for better performance
 export const revalidate = 3600;
 
+/**
+ * Calculate reading time based on word count
+ * Standard reading speed: 200 words per minute
+ * @param htmlContent - HTML content of the blog post
+ * @returns Reading time in minutes (minimum 1)
+ */
+function calculateReadingTime(htmlContent: string): number {
+  // Strip HTML tags to get plain text
+  const textContent = htmlContent.replace(/<[^>]*>/g, '');
+  // Count words (split by whitespace, filter empty strings)
+  const wordCount = textContent.replace(/\s+/g, ' ').trim().split(' ').filter(word => word.length > 0).length;
+  // Standard reading speed is 200 WPM, minimum 1 minute
+  return Math.max(1, Math.ceil(wordCount / 200));
+}
+
 interface BlogMetadata {
   slug: string;
   title: string;
@@ -52,7 +67,7 @@ async function getBlogPostsForLocale(locale: string): Promise<BlogMetadata[]> {
           author: translation.author || 'LessonCraftStudio Team',
           date: post.createdAt.toISOString().split('T')[0],
           category: post.category || 'Teaching Resources',
-          readTime: `${Math.ceil((translation.content?.length || 0) / 1000)} min read`,
+          readTime: `${calculateReadingTime(translation.content || '')} min read`,
           metaTitle: translation.metaTitle,
           metaDescription: translation.metaDescription,
           keywords: post.keywords,

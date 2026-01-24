@@ -122,3 +122,8 @@ ARCHIVE/
 frontend/public/*-samples.tar.gz
 tmpclaude-*-cwd
 **/tmpclaude-*-cwd
+*.tar.gz
+bfg.jar
+backups/
+C:temp*
+image library/

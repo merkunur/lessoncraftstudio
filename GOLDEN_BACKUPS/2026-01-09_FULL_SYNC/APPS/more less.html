@@ -1,0 +1,4362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Compare Numbers Worksheet</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <script src="js/translations-more-less.js?v=8"></script>
+  <script src="js/bulletproof-loader.js"></script>
+  <script src="js/unified-language-manager.js"></script>
+  <script src="js/border-background-sizer.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&family=Fredoka:wght@400;500;600&family=Lexend+Deca&family=Nunito:wght@400;700&family=Quicksand:wght@300..700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" xintegrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    :root {
+        /* New Theme Colors */
+        --app-font-stack: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        --app-bg-dark: #2c2c2e; /* Sidebar background */
+        --app-surface-dark: #3a3a3e; /* Sidebar input backgrounds */
+        --app-border-dark: #4a4a4a; /* Sidebar borders */
+        --app-text-primary-dark-theme: #e0e0e0; /* Primary text on dark */
+        --app-text-secondary-dark-theme: #a0a0a0; /* Secondary text/labels on dark */
+
+        --app-bg-light: #f0f2f5; /* Main content area background */
+        --app-surface-light: #ffffff; /* Canvas, cards on light bg */
+        --app-border-light: #dce1e6; /* Borders on light bg */
+        --app-text-primary-light-theme: #1c1c1e; /* Primary text on light */
+        --app-text-secondary-light-theme: #545458; /* Secondary text on light */
+
+        --app-accent-primary: #007aff; /* New primary accent (blue) */
+        --app-accent-primary-hover: #005ecb;
+        --app-accent-secondary: #5856d6; /* Example for a different accent if needed */
+        --app-accent-danger: #ff3b30;
+        --app-accent-danger-hover: #d92c23;
+
+        --sidebar-width: 340px;
+    }
+
+    /* Global Reset & Layout */
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: var(--app-font-stack);
+      display: flex;
+      margin: 0;
+      height: 100vh;
+      background-color: var(--app-bg-light);
+      overflow: hidden;
+      color: var(--app-text-primary-light-theme);
+      position: relative;
+    }
+    .layout {
+        display: flex;
+        flex: 1;
+        overflow: hidden;
+        height: 100vh;
+        position: relative;
+    }
+
+    /* Sidebar Panel */
+    .panel {
+      width: var(--sidebar-width);
+      min-width: var(--sidebar-width);
+      background-color: var(--app-bg-dark);
+      color: var(--app-text-primary-dark-theme);
+      box-shadow: 2px 0 8px rgba(0,0,0,0.15);
+      display: flex;
+      flex-direction: column;
+      overflow-y: hidden;
+      z-index: 10;
+      padding: 0;
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .panel-header {
+        padding: 20px 25px;
+        text-align: left;
+        border-bottom: 1px solid var(--app-border-dark);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .panel-header h2 {
+        font-size: 22px;
+        font-weight: 600;
+        color: var(--app-text-primary-dark-theme);
+        margin: 0;
+    }
+
+    .panel-content {
+        overflow-y: auto;
+        flex-grow: 1;
+        padding: 10px 15px;
+        scroll-behavior: smooth;
+    }
+
+    /* Accordion Styles */
+    .accordion-item {
+        background-color: transparent;
+        border: none;
+        border-bottom: 1px solid var(--app-border-dark);
+        margin-bottom: 0;
+        border-radius: 0;
+        overflow: hidden;
+    }
+    .accordion-item:last-child {
+        border-bottom: none;
+    }
+    .accordion-button {
+        background-color: transparent;
+        color: var(--app-text-primary-dark-theme);
+        width: 100%;
+        border: none;
+        text-align: left;
+        padding: 18px 10px;
+        font-size: 15px;
+        font-weight: 500;
+        cursor: pointer;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        transition: background-color 0.15s ease;
+    }
+    .accordion-button:hover {
+        color: var(--app-text-primary-dark-theme);
+        background-color: rgba(255,255,255,0.05);
+    }
+    .accordion-button::after {
+        content: '\f078'; /* FontAwesome chevron-down */
+        font-family: 'Font Awesome 5 Free';
+        font-weight: 900;
+        font-size: 12px;
+        transition: transform 0.2s ease-in-out;
+    }
+    .accordion-button.active::after {
+        transform: rotate(-180deg);
+    }
+    .accordion-content {
+        padding: 10px 10px 20px 10px;
+        max-height: 0;
+        overflow: hidden;
+        background-color: transparent;
+        border-top: none;
+        transition: max-height 0.3s ease-out;
+    }
+    .accordion-content.active {
+        max-height: 2000px;
+        transition: max-height 0.3s ease-in;
+    }
+     .accordion-content h4 {
+        font-size: 13px;
+        color: var(--app-text-secondary-dark-theme);
+        margin-top: 15px;
+        margin-bottom: 8px;
+        border-bottom: 1px solid var(--app-border-dark);
+        padding-bottom: 6px;
+        font-weight: 500;
+    }
+     .accordion-content h4:first-child {
+        margin-top: 0;
+     }
+
+    .accordion-content label {
+        display: block;
+        font-size: 13px;
+        font-weight: 400;
+        color: var(--app-text-secondary-dark-theme);
+        margin-bottom: 6px;
+    }
+    .accordion-content input[type="text"],
+    .accordion-content input[type="number"],
+    .accordion-content textarea,
+    .accordion-content select {
+        width: 100%;
+        padding: 8px 10px;
+        font-size: 13px;
+        border-radius: 5px;
+        border: 1px solid var(--app-border-dark);
+        background-color: var(--app-surface-dark);
+        color: var(--app-text-primary-dark-theme);
+        box-sizing: border-box;
+        margin-bottom: 12px;
+    }
+     .accordion-content input[type="file"] {
+      color: var(--app-text-secondary-dark-theme);
+      background-color: var(--app-surface-dark);
+      border: 1px solid var(--app-border-dark);
+      border-radius: 5px;
+      padding: 8px;
+      font-size: 13px;
+      margin-bottom: 12px;
+      width: 100%;
+    }
+     .accordion-content input[type="file"]::file-selector-button {
+        margin-right: 10px;
+        border: 1px solid var(--app-border-dark);
+        background: var(--app-bg-dark);
+        padding: 4px 8px;
+        border-radius: 3px;
+        color: var(--app-text-primary-dark-theme);
+        cursor: pointer;
+     }
+    .accordion-content input[type="color"] {
+         width: 100%; padding: 2px; height: 38px; margin-bottom: 12px; border-radius: 5px; border-color: var(--app-border-dark);
+    }
+    .accordion-content input[type="range"] { width:100%; padding: 0; margin-bottom: 12px;}
+
+    .accordion-content input[type="number"] {
+        -moz-appearance: textfield;
+    }
+    .accordion-content input[type="number"]::-webkit-outer-spin-button,
+    .accordion-content input[type="number"]::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+    .accordion-content input[type="checkbox"], .accordion-content input[type="radio"] {
+        width: auto;
+        margin-right: 8px;
+        vertical-align: middle;
+        accent-color: var(--app-accent-primary);
+    }
+    .accordion-content label.checkbox-label {
+        display: flex;
+        align-items: center;
+        font-size: 13px;
+        font-weight: 400;
+        margin-bottom: 12px;
+        cursor: pointer;
+        color: var(--app-text-secondary-dark-theme);
+    }
+
+    /* Buttons within accordion (sidebar) */
+    .accordion-content button {
+        background-color: var(--app-surface-dark);
+        color: var(--app-text-primary-dark-theme);
+        border: 1px solid var(--app-border-dark);
+        font-weight: 500;
+        width: 100%;
+        padding: 8px 12px;
+        font-size: 13px;
+        border-radius: 5px;
+        margin-bottom: 10px;
+    }
+    .accordion-content button:hover {
+        background-color: rgba(255,255,255,0.05);
+        border-color: rgba(255,255,255,0.1);
+        filter: none;
+    }
+     .accordion-content button:active { transform: scale(0.98); }
+     .accordion-content button:disabled {
+        background-color: var(--app-surface-dark) !important;
+        color: var(--app-text-secondary-dark-theme) !important;
+        border-color: var(--app-border-dark) !important;
+        opacity: 0.6;
+        cursor: not-allowed;
+     }
+
+    #dict, #selectedImagesPreview, #uploadedImagesPreview {
+        border: 1px solid var(--app-border-dark);
+        padding:10px;
+        max-height: 180px;
+        overflow-y:auto;
+        background-color: var(--app-surface-dark);
+        border-radius:5px;
+        margin-bottom:10px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+     #selectedImagesPreview {
+        min-height: 70px;
+        border-style: dashed;
+        border-color: var(--app-accent-primary);
+     }
+
+    #dict p.dictionary-message, #uploadedImagesPreview p.dictionary-message, #borderDictionary p.dictionary-message, #backgroundDictionary p.dictionary-message {
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+        font-size:12px;
+        color: var(--app-text-secondary-dark-theme);
+        margin: 0;
+        align-self: center;
+    }
+    .dictionary-item {
+        padding:8px;
+        cursor:pointer;
+        border: 1px solid transparent;
+        font-size:13px;
+        transition: background-color .15s ease, border-color .15s ease;
+        display:flex;
+        flex-direction: column;
+        align-items:center;
+        border-radius: 4px;
+        background-color: rgba(255,255,255,0.05);
+    }
+    .dictionary-item:hover {
+        background-color: rgba(255,255,255,0.1);
+        border-color: var(--app-accent-primary);
+        color: var(--app-text-primary-dark-theme);
+    }
+    .dictionary-item.selected {
+        border-color: var(--app-accent-primary);
+        background-color: rgba(0, 122, 255, 0.15);
+    }
+    .dictionary-item img {
+        width: 50px; height: 50px;
+        object-fit: contain;
+        border:1px solid var(--app-border-dark);
+        border-radius:3px;
+        background-color: var(--app-surface-light);
+        margin-bottom: 5px;
+    }
+    .dictionary-item span {
+        font-size: 10px; text-align: center; word-break: break-word; max-width: 50px;
+        color: var(--app-text-secondary-dark-theme);
+    }
+    .dictionary-item:hover span, .dictionary-item.selected span {
+        color: var(--app-text-primary-dark-theme);
+    }
+    
+    #borderDictionary, #backgroundDictionary {
+        border: 1px solid var(--app-border-dark);
+        padding: 8px;
+        max-height: 140px;
+        overflow-y: auto;
+        background-color: var(--app-surface-dark);
+        border-radius: 5px;
+        margin-top: 8px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        align-content: flex-start;
+    }
+    .border-thumbnail-item {
+        cursor: pointer;
+        border: 2px solid transparent;
+        border-radius: 4px;
+        padding: 2px;
+        transition: border-color .15s ease;
+        width: 60px;
+        height: 60px;
+    }
+    .border-thumbnail-item:hover, .border-thumbnail-item.selected {
+        border-color: var(--app-accent-primary);
+    }
+    .border-thumbnail-item img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        background-color: var(--app-surface-light);
+        border-radius: 2px;
+    }
+
+
+    .selected-preview img {
+      width:50px; height:50px; object-fit:contain;
+      border:1px solid var(--app-accent-primary); border-radius:3px; cursor:pointer;
+    }
+    .selected-count {
+        font-size: 12px;
+        text-align: center;
+        color: var(--app-text-secondary-dark-theme);
+        margin-bottom: 10px;
+    }
+
+    .panel-footer {
+        padding: 15px 25px;
+        border-top: 1px solid var(--app-border-dark);
+        margin-top: auto;
+        background-color: var(--app-bg-dark);
+    }
+    #sidebarMessageArea {
+        padding:10px 15px;
+        border-radius:5px;
+        font-size:13px;
+        text-align:center;
+        min-height:20px;
+        font-weight:500;
+        display:none;
+        margin-bottom: 0;
+        border-width: 1px;
+        border-style: solid;
+    }
+    #sidebarMessageArea.error {background-color:rgba(255, 59, 48, 0.2); color: var(--app-accent-danger); border-color: var(--app-accent-danger);}
+    #sidebarMessageArea.success {background-color:rgba(52, 199, 89, 0.2); color: #34c759; border-color: #34c759;}
+    #sidebarMessageArea.info {background-color:rgba(0, 122, 255, 0.15); color:var(--app-accent-primary); border-color: var(--app-accent-primary);}
+
+    /* Main Content Area */
+    .main {
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      overflow: hidden;
+      padding: 0;
+      background-color: var(--app-bg-light);
+    }
+    
+    /* --- Responsive Controls --- */
+    .menu-toggle-btn {
+        display: none; /* Hidden by default on desktop */
+        position: absolute;
+        top: 12px;
+        left: 20px;
+        z-index: 20;
+        background-color: var(--app-surface-light);
+        color: var(--app-text-primary-light-theme);
+        border: 1px solid var(--app-border-light);
+        border-radius: 6px;
+        width: 38px;
+        height: 38px;
+        font-size: 18px;
+        cursor: pointer;
+        align-items: center;
+        justify-content: center;
+    }
+     .menu-toggle-btn:hover {
+        background-color: #e8e8ed;
+    }
+
+    .menu-close-btn {
+        display: none; /* Hidden by default on desktop */
+        background: none;
+        border: none;
+        color: var(--app-text-secondary-dark-theme);
+        font-size: 28px;
+        line-height: 1;
+        cursor: pointer;
+        padding: 0 5px;
+    }
+    .menu-close-btn:hover {
+        color: var(--app-text-primary-dark-theme);
+    }
+
+    .menu-overlay {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,0.4);
+        z-index: 998; /* Below sidebar, above main content */
+    }
+    .menu-overlay.is-active {
+        display: block;
+    }
+
+    /* --- Top Right Actions Area --- */
+    .top-right-actions {
+        position: absolute;
+        top: 12px;
+        right: 20px;
+        z-index: 20;
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+    .top-right-actions .action-button {
+        padding: 7px 14px;
+        font-size: 13px;
+        font-weight: 500;
+        border-radius: 6px;
+        border: none;
+        color: white;
+        cursor: pointer;
+        transition: background-color 0.2s ease, transform 0.1s ease;
+    }
+    .top-right-actions .action-button:active { transform: scale(0.98); }
+
+    .top-right-actions .action-button.accent { background-color: var(--app-accent-primary); }
+    .top-right-actions .action-button.accent:hover { background-color: var(--app-accent-primary-hover); }
+
+    .top-right-actions .action-button.danger {
+        background-color: var(--app-surface-light);
+        color: var(--app-text-primary-light-theme);
+        border: 1px solid var(--app-border-light);
+    }
+    .top-right-actions .action-button.danger:hover {
+        background-color: #e8e8ed;
+    }
+
+    .top-right-actions .action-button.secondary {
+        background-color: var(--app-surface-light);
+        color: var(--app-text-primary-light-theme);
+        border: 1px solid var(--app-border-light);
+    }
+    .top-right-actions .action-button.secondary:hover { background-color: #e8e8ed; }
+    .top-right-actions .action-button:disabled {
+        background-color: #cccccc !important;
+        color: #888888 !important;
+        border-color: #cccccc !important;
+        cursor: not-allowed;
+        transform: none;
+    }
+
+
+    .dropdown-container {
+        position: relative;
+        display: inline-block;
+    }
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        right: 0;
+        top: calc(100% + 5px);
+        background-color: var(--app-surface-light);
+        min-width: 200px;
+        box-shadow: 0px 5px 15px rgba(0,0,0,0.15);
+        border: 1px solid var(--app-border-light);
+        border-radius: 6px;
+        padding: 8px;
+        z-index: 25;
+    }
+    .dropdown-content button {
+        width: 100%;
+        padding: 8px 12px;
+        font-size: 13px;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-bottom: 6px;
+        background-color: transparent;
+        color: var(--app-text-primary-light-theme);
+        border: none;
+        cursor: pointer;
+        text-align: left;
+        font-weight: 400;
+        transition: background-color 0.15s ease;
+    }
+    .dropdown-content button:last-of-type { margin-bottom: 0; }
+    .dropdown-content button:hover { background-color: rgba(0,0,0,0.05); }
+    .dropdown-content button:disabled {
+        background-color: transparent !important;
+        color: var(--app-text-secondary-light-theme) !important;
+        opacity: 0.6;
+        cursor: not-allowed;
+    }
+
+    .dropdown-content .checkbox-label {
+        display: flex;
+        align-items: center;
+        font-size: 13px;
+        font-weight: 400;
+        padding: 6px 12px;
+        margin-top: 4px;
+        margin-bottom: 0;
+        cursor: pointer;
+        color: var(--app-text-primary-light-theme);
+        border-radius: 4px;
+    }
+     .dropdown-content .checkbox-label:hover { background-color: rgba(0,0,0,0.05); }
+    .dropdown-content .checkbox-label input[type="checkbox"] {
+        width: auto;
+        margin-right: 8px;
+        vertical-align: middle;
+        accent-color: var(--app-accent-primary);
+    }
+
+
+    .tab-row {
+      display: flex;
+      gap: 0;
+      justify-content: flex-start;
+      padding: 0 20px;
+      border-bottom: 1px solid var(--app-border-light);
+      background-color: var(--app-surface-light);
+      margin-top: 60px;
+    }
+    .tab-button {
+      padding: 12px 18px;
+      background: transparent;
+      border: none;
+      border-bottom: 2px solid transparent;
+      color: var(--app-text-secondary-light-theme);
+      font-size: 14px;
+      font-weight: 500;
+      border-radius: 0;
+      cursor: pointer;
+      transition: color 0.2s ease, border-color 0.2s ease;
+      margin-right: 10px;
+      margin-bottom: -1px;
+    }
+    .tab-button:hover {
+        color: var(--app-text-primary-light-theme);
+    }
+    .tab-button.active {
+        color: var(--app-accent-primary);
+        border-bottom: 2px solid var(--app-accent-primary);
+    }
+
+    .tab-content-wrapper {
+        flex-grow: 1;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        padding: 25px;
+        overflow-y: auto;
+    }
+
+    .tab {
+      display: none;
+      width: 100%;
+      height: 100%;
+      margin: 0 auto;
+    }
+    .tab.active { display: flex; flex-direction: column; }
+
+    .canvas-container-wrapper {
+        border: none;
+        background-color: var(--app-surface-light);
+        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        border-radius: 8px;
+        overflow: visible;  /* Changed from auto to prevent clipping */
+        margin: auto;
+        position: relative;
+    }
+    
+    /* Ensure Fabric.js container doesn't clip */
+    .canvas-container { 
+        overflow: visible !important;
+        position: relative !important;
+    }
+    canvas { display: block; }
+
+    #exportArea { position: absolute; left: -9999px; top: 0; width: auto; height: auto;}
+    
+    
+    /* --- RESPONSIVE STYLES FOR TABLET --- */
+    @media (max-width: 1024px) {
+        :root {
+            --sidebar-width: 300px;
+        }
+        .panel {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 100vh;
+            z-index: 1000;
+            transform: translateX(-100%);
+        }
+        .panel.is-open {
+            transform: translateX(0);
+        }
+        .menu-toggle-btn {
+            display: flex;
+        }
+        .menu-close-btn {
+            display: block;
+        }
+        .tab-row {
+            padding: 0 15px 0 70px;
+        }
+    }
+    /* START: Contextual Toolbar CSS */
+    #object-context-toolbar {
+        position: absolute;
+        top: 72px; /* Adjusted to be below the tabs */
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: var(--app-surface-light);
+        border-radius: 6px;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+        padding: 5px;
+        display: flex;
+        flex-direction: row;
+        gap: 4px;
+        z-index: 100;
+        align-items: center;
+        border: 1px solid var(--app-border-light);
+    }
+    .toolbar-group {
+        display: flex;
+        gap: 2px;
+        align-items: center;
+        padding: 0 4px;
+    }
+    .toolbar-group + .toolbar-group {
+        border-left: 1px solid var(--app-border-light);
+    }
+    .toolbar-item {
+        position: relative;
+    }
+    .context-btn {
+        background: none;
+        border: 1px solid transparent;
+        border-radius: 4px;
+        padding: 5px 7px;
+        cursor: pointer;
+        font-size: 15px; 
+        color: var(--app-text-secondary-light-theme);
+        line-height: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-width: 32px;
+        transition: background-color 0.2s, color 0.2s;
+    }
+    .context-btn:disabled {
+        color: #c5c5c7;
+        cursor: not-allowed;
+    }
+    .context-btn:not(:disabled):hover {
+        background-color: #e8e8ed;
+        color: var(--app-text-primary-light-theme);
+    }
+    .context-btn.active-dropdown {
+        background-color: #ddeeff;
+        color: var(--app-accent-primary);
+    }
+    #toolbarDeleteBtn:not(:disabled) {
+        color: var(--app-accent-danger);
+    }
+    #object-context-toolbar .dropdown-content {
+        display: none;
+        position: absolute;
+        top: calc(100% + 5px);
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: var(--app-surface-light);
+        min-width: 150px;
+        box-shadow: 0px 5px 15px rgba(0,0,0,0.15);
+        border: 1px solid var(--app-border-light);
+        border-radius: 6px;
+        padding: 8px;
+        z-index: 101;
+    }
+    #object-context-toolbar .dropdown-content button {
+        width: 100%;
+        padding: 8px 12px;
+        font-size: 13px;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-bottom: 6px;
+        background-color: transparent;
+        color: var(--app-text-primary-light-theme);
+        border: none;
+        cursor: pointer;
+        text-align: left;
+        font-weight: 400;
+        transition: background-color 0.15s ease;
+    }
+    #object-context-toolbar .dropdown-content button:last-of-type {
+        margin-bottom: 0;
+    }
+    #object-context-toolbar .dropdown-content button:hover {
+        background-color: rgba(0,0,0,0.05);
+    }
+    /* END: Contextual Toolbar CSS */
+
+    /* ============================================
+       MODERN UNIFIED HEADER STYLES
+       Exact implementation from wordsearch.html lines 251-450
+       ============================================ */
+
+    .tab-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 14px 24px;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        box-shadow: 0 2px 12px rgba(0, 0, 0, 0.15);
+        position: relative;
+        z-index: 15;
+        border-radius: 0;
+        margin: 0;
+        gap: 16px;
+    }
+
+    .tab-buttons-container {
+        display: flex;
+        gap: 8px;
+        align-items: center;
+    }
+
+    .tab-button {
+        padding: 10px 24px;
+        font-size: 14px;
+        font-weight: 600;
+        border: none;
+        background: rgba(255, 255, 255, 0.15);
+        color: rgba(255, 255, 255, 0.8);
+        cursor: pointer;
+        border-radius: 8px;
+        transition: all 0.2s ease;
+        backdrop-filter: blur(10px);
+        position: relative;
+    }
+
+    .tab-button:hover {
+        background: rgba(255, 255, 255, 0.25);
+        color: white;
+        transform: translateY(-1px);
+    }
+
+    .tab-button.active {
+        background: rgba(255, 255, 255, 0.95);
+        color: #667eea;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Header Actions Container */
+    .header-actions {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        flex-shrink: 0;
+    }
+
+    /* --- Zoom Controls --- */
+    .zoom-controls {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        background-color: rgba(255, 255, 255, 0.15);
+        border: 1px solid rgba(255, 255, 255, 0.25);
+        border-radius: 6px;
+        padding: 5px 10px;
+        backdrop-filter: blur(10px);
+    }
+
+    .zoom-btn {
+        background: transparent;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        border-radius: 4px;
+        padding: 6px 10px;
+        font-size: 14px;
+        cursor: pointer;
+        color: white;
+        transition: all 0.2s ease;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .zoom-btn:hover {
+        background-color: rgba(255, 255, 255, 0.2);
+        border-color: rgba(255, 255, 255, 0.4);
+    }
+
+    .zoom-btn:active {
+        background-color: rgba(255, 255, 255, 0.15);
+    }
+
+    .zoom-percentage {
+        min-width: 45px;
+        text-align: center;
+        font-size: 13px;
+        font-weight: 600;
+        color: white;
+        user-select: none;
+    }
+
+    /* --- Undo/Redo Controls --- */
+    .history-controls {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        background-color: rgba(255, 255, 255, 0.15);
+        border: 1px solid rgba(255, 255, 255, 0.25);
+        border-radius: 6px;
+        padding: 5px 10px;
+        backdrop-filter: blur(10px);
+    }
+
+    .history-btn {
+        background: transparent;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        border-radius: 4px;
+        padding: 6px 10px;
+        font-size: 14px;
+        cursor: pointer;
+        color: white;
+        transition: all 0.2s ease;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .history-btn:hover:not(:disabled) {
+        background-color: rgba(255, 255, 255, 0.2);
+        border-color: rgba(255, 255, 255, 0.4);
+    }
+
+    .history-btn:active:not(:disabled) {
+        background-color: rgba(255, 255, 255, 0.15);
+    }
+
+    .history-btn:disabled {
+        opacity: 0.4;
+        cursor: not-allowed;
+    }
+
+    /* Unlock All Button */
+    .unlock-all-controls {
+        display: none; /* Hidden by default */
+        align-items: center;
+        gap: 6px;
+        padding: 4px 12px;
+        background: rgba(255, 165, 0, 0.25);
+        border-radius: 8px;
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 165, 0, 0.4);
+    }
+
+    .unlock-all-controls.visible {
+        display: flex;
+    }
+
+    .unlock-all-btn {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        padding: 4px 10px;
+        background: rgba(255, 255, 255, 0.2);
+        color: white;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        font-size: 12px;
+        font-weight: 500;
+        transition: all 0.2s ease;
+        white-space: nowrap;
+    }
+
+    .unlock-all-btn:hover {
+        background: rgba(255, 255, 255, 0.3);
+        transform: scale(1.05);
+    }
+
+    .unlock-all-btn i {
+        font-size: 14px;
+    }
+
+    /* --- Dropdown Containers --- */
+    .dropdown-container {
+        position: relative;
+        display: inline-block;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        background-color: white;
+        min-width: 200px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        border-radius: 8px;
+        z-index: 1000;
+        margin-top: 8px;
+        padding: 8px 0;
+    }
+
+    .dropdown-content.show {
+        display: block;
+    }
+
+    .dropdown-content button {
+        display: block;
+        width: 100%;
+        padding: 10px 16px;
+        border: none;
+        background: none;
+        text-align: left;
+        cursor: pointer;
+        font-size: 14px;
+        color: #333;
+        transition: background-color 0.2s;
+    }
+
+    .dropdown-content button:hover:not(:disabled) {
+        background-color: #f5f5f5;
+    }
+
+    .dropdown-content button:disabled {
+        color: #ccc;
+        cursor: not-allowed;
+    }
+
+    /* --- Action Buttons --- */
+    .action-button {
+        padding: 8px 16px;
+        font-size: 13px;
+        font-weight: 500;
+        border-radius: 6px;
+        border: none;
+        cursor: pointer;
+        transition: all 0.2s ease;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+        display: flex;
+        align-items: center;
+        gap: 6px;
+    }
+
+    .action-button.accent {
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: white;
+        border: 2px solid rgba(255, 255, 255, 0.3);
+    }
+
+    .action-button.accent:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+    }
+
+    .action-button.download-btn {
+        background: rgba(255, 255, 255, 0.95);
+        color: #667eea;
+        border: 2px solid rgba(255, 255, 255, 0.5);
+    }
+
+    .action-button.download-btn:hover {
+        background: white;
+        transform: translateY(-2px);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    }
+
+    .action-button.danger {
+        background: rgba(255, 255, 255, 0.2);
+        color: white;
+        border: 2px solid rgba(255, 255, 255, 0.3);
+    }
+
+    .action-button.danger:hover {
+        background: rgba(255, 59, 48, 0.9);
+        transform: translateY(-2px);
+        box-shadow: 0 4px 12px rgba(255, 59, 48, 0.3);
+    }
+
+    /* Undo/Redo Toast Animation */
+    @keyframes fadeInOut {
+        0% { opacity: 0; transform: translateX(-50%) translateY(-10px); }
+        15% { opacity: 1; transform: translateX(-50%) translateY(0); }
+        85% { opacity: 1; transform: translateX(-50%) translateY(0); }
+        100% { opacity: 0; transform: translateX(-50%) translateY(-10px); }
+    }
+  </style>
+</head>
+<body>
+  <div class="layout">
+    <div id="menuOverlay" class="menu-overlay"></div>
+    <div class="panel">
+      <div class="panel-header">
+        <h2 data-translate="moreless.settings.title">Comparison Worksheet Maker</h2>
+        <button id="menuCloseBtn" class="menu-close-btn">&times;</button>
+      </div>
+      <div class="panel-content">
+
+        <div class="accordion-item">
+            <button class="accordion-button active" data-translate="moreless.language.selection">Language Selection</button>
+            <div class="accordion-content active">
+                <label for="languageSelect" data-translate="moreless.language.label">Language:</label>
+                <select id="languageSelect">
+                    <option value="en" data-translate="language.english">English</option>
+                    <option value="de" data-translate="language.german">Deutsch</option>
+                    <option value="fr" data-translate="language.french">Français</option>
+                    <option value="es" data-translate="language.spanish">Español</option>
+                    <option value="pt" data-translate="language.portuguese">Português</option>
+                    <option value="it" data-translate="language.italian">Italiano</option>
+                    <option value="nl" data-translate="language.dutch">Nederlands</option>
+                    <option value="sv" data-translate="language.swedish">Svenska</option>
+                    <option value="da" data-translate="language.danish">Dansk</option>
+                    <option value="no" data-translate="language.norwegian">Norsk</option>
+                    <option value="fi" data-translate="language.finnish">Suomi</option>
+                </select>
+                <p style="font-size: 12px; color: var(--app-text-secondary-dark-theme); margin-top: 10px;" data-translate="moreless.language.description">
+                    Selects the language for image library content only. UI language is controlled by the main language selector in the header.
+                </p>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <button class="accordion-button" data-translate="moreless.page.setup">Page Setup</button>
+            <div class="accordion-content">
+                <label for="pageSizeSelect" data-translate="moreless.page.size">Page Size:</label>
+                <select id="pageSizeSelect">
+                    <option value="612x792" selected data-translate="page.size.letter.portrait">Letter Portrait (8.5×11")</option>
+                    <option value="792x612" data-translate="page.size.letter.landscape">Letter Landscape (11×8.5")</option>
+                    <option value="595x842" data-translate="page.size.a4.portrait">A4 Portrait (210×297mm)</option>
+                    <option value="842x595" data-translate="page.size.a4.landscape">A4 Landscape (297×210mm)</option>
+                    <option value="1200x1200" data-translate="page.size.square">Square (1200x1200)</option>
+                    <option value="custom" data-translate="page.size.custom">Custom</option>
+                </select>
+                <div id="customPageSizeInputs" style="display:none;">
+                    <label for="pageWidth" data-translate="moreless.width.label">Width (px):</label>
+                    <input type="number" id="pageWidth" value="612">
+                    <label for="pageHeight" data-translate="moreless.height.label">Height (px):</label>
+                    <input type="number" id="pageHeight" value="792">
+                </div>
+                <label for="pageColor" data-translate="moreless.page.color">Page Color:</label>
+                <input type="color" id="pageColor" value="#FFFFFF">
+                <button id="setPageSizeBtn" data-translate="moreless.apply.size">Apply Size</button>
+
+                <h4 data-translate="moreless.background.title">Background</h4>
+                <label for="backgroundThemeSelect" data-translate="moreless.background.theme">Background Theme:</label>
+                <select id="backgroundThemeSelect">
+                    <option value="none" data-translate="none">None</option>
+                </select>
+                <div id="backgroundDictionary"><p class="dictionary-message" data-translate="moreless.background.message">Select a theme for backgrounds.</p></div>
+                <label for="backgroundOpacitySlider" data-translate="moreless.background.opacity">Background Opacity:</label>
+                <input type="range" id="backgroundOpacitySlider" min="0" max="1" step="0.05" value="1" disabled>
+
+                <h4 data-translate="moreless.border.title">Border</h4>
+                <label for="borderThemeSelect" data-translate="moreless.border.theme">Border Theme:</label>
+                <select id="borderThemeSelect">
+                    <option value="none" data-translate="none">None</option>
+                </select>
+                <div id="borderDictionary">
+                    <p class="dictionary-message" data-translate="moreless.border.message">Select a theme to see borders.</p>
+                </div>
+                <label for="borderOpacitySlider" data-translate="moreless.border.opacity">Border Opacity:</label>
+                <input type="range" id="borderOpacitySlider" min="0" max="1" value="1" step="0.05" disabled>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <button class="accordion-button" data-translate="moreless.text.tools">Text Tools</button>
+            <div class="accordion-content">
+                <h4 data-translate="moreless.text.add.new">Add New Text</h4>
+                <label for="textInput" data-translate="moreless.text.content">Content:</label><input type="text" id="textInput" data-translate-placeholder="moreless.text.placeholder" placeholder="Hello!">
+                <button id="addTextBtn" data-translate="moreless.text.add.button">Add Text</button>
+                <h4 data-translate="moreless.text.properties">Selected Text Properties</h4>
+                <label for="textColor" data-translate="moreless.text.color">Color:</label><input type="color" id="textColor" value="#333333" disabled>
+                <label for="fontSize" data-translate="moreless.text.size">Size:</label><input type="number" id="fontSize" value="48" min="8" disabled>
+                <label for="fontFamily" data-translate="moreless.text.font">Font:</label>
+                <select id="fontFamily" disabled>
+                    <option value="Lexend Deca" data-translate="font.lexend">Lexend Deca</option>
+                    <option value="Baloo 2" data-translate="font.baloo">Baloo 2</option>
+                    <option value="Nunito" data-translate="font.nunito">Nunito</option>
+                    <option value="Quicksand" data-translate="font.quicksand">Quicksand</option>
+                    <option value="Fredoka" data-translate="font.fredoka">Fredoka</option>
+                    <option value="Arial" data-translate="font.arial">Arial</option>
+                    <option value="Verdana" data-translate="font.verdana">Verdana</option>
+                </select>
+                <label for="textStrokeColor" data-translate="moreless.text.outline.color">Outline Color:</label><input type="color" id="textStrokeColor" value="#000000" disabled>
+                <label for="textStrokeWidth" data-translate="moreless.text.outline.width">Outline (0-10):</label><input type="range" id="textStrokeWidth" min="0" max="10" value="0" step="0.5" disabled>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <button class="accordion-button" data-translate="moreless.worksheet.config">Worksheet Configuration</button>
+            <div class="accordion-content">
+                <label for="problemCountInput" data-translate="moreless.exercises.count">Number of Exercises (1–8):</label>
+                <input type="number" id="problemCountInput" value="5" min="1" max="8" />
+
+                <label for="imageSelectionModeSelect" style="margin-top: 15px;" data-translate="moreless.image.selection">Image Selection:</label>
+                <select id="imageSelectionModeSelect">
+                    <option value="individual" data-translate="moreless.mode.individual">Individual Images</option>
+                    <option value="theme" data-translate="moreless.mode.theme">Theme for Worksheet</option>
+                </select>
+
+                <div id="individualImageSelectionSection">
+                    <label><span data-translate="moreless.theme.dictionary">Theme for Dictionary</span> <select id="themeDict"></select></label>
+                    <label data-translate="moreless.pick.images">Pick 1–5 images</label>
+                    <div id="dict"><p class='dictionary-message' data-translate="moreless.loading.themes">Loading themes...</p></div>
+                    <small id="selCount" data-translate="moreless.selected.count">0 / 5 selected</small>
+                </div>
+
+                <div id="worksheetThemeSelectionSection" style="display: none;">
+                    <label><span data-translate="moreless.theme.worksheet">Theme for Worksheet</span> <select id="themeWorksheet"></select></label>
+                    <small data-translate="moreless.theme.random">Images will be randomly selected from this theme.</small>
+                </div>
+
+                <label for="relationsSelect" style="margin-top: 15px;" data-translate="moreless.relations">Relations:</label>
+                <div style="display: flex; gap: 15px; margin-bottom: 15px;">
+                    <label class="checkbox-label" style="margin: 0;">
+                        <input type="checkbox" class="relation-checkbox" value="gt" checked>
+                        <span>&gt;</span>
+                    </label>
+                    <label class="checkbox-label" style="margin: 0;">
+                        <input type="checkbox" class="relation-checkbox" value="lt" checked>
+                        <span>&lt;</span>
+                    </label>
+                    <label class="checkbox-label" style="margin: 0;">
+                        <input type="checkbox" class="relation-checkbox" value="eq" checked>
+                        <span>=</span>
+                    </label>
+                </div>
+
+                <label for="symbolDisplaySelect" data-translate="moreless.symbol.display">Symbol Display:</label>
+                <select id="symbolDisplaySelect">
+                    <option value="image" data-translate="moreless.display.illustrations">Illustrations</option>
+                    <option value="text" data-translate="moreless.display.normal">Normal Symbols (&gt;, &lt;, =)</option>
+                </select>
+
+                <label for="comparisonModeSelect" style="margin-top: 15px;" data-translate="moreless.comparison.mode">Comparison Mode:</label>
+                <select id="comparisonModeSelect">
+                    <option value="image-to-image" data-translate="moreless.mode.imagetoimage">Image to Image</option>
+                    <option value="image-to-number" data-translate="moreless.mode.imagetonumber">Image to Number</option>
+                </select>
+
+                <label for="imageVarietySelect" data-translate="moreless.image.variety">Image Variety:</label>
+                <select id="imageVarietySelect">
+                    <option value="same" data-translate="moreless.variety.same">Same Images (e.g., 5 cats vs 7 cats)</option>
+                    <option value="different" data-translate="moreless.variety.different">Different Images (e.g., 5 cats vs 7 dogs)</option>
+                </select>
+
+                <label for="showSym" class="checkbox-label" style="margin-top: 15px;">
+                    <input type="checkbox" id="showSym">
+                    <span data-translate="moreless.symbol.mode.circling">Show symbols for circling</span>
+                </label>
+                <label for="includeNameDate" class="checkbox-label">
+                    <input type="checkbox" id="includeNameDate" /><span data-translate="moreless.include.name.date">Include Name/Date Fields</span>
+                </label>
+                <label for="includeExerciseNumbers" class="checkbox-label">
+                    <input type="checkbox" id="includeExerciseNumbers" checked /><span data-translate="moreless.include.numbers">Include Exercise Numbers</span>
+                </label>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <button class="accordion-button" data-translate="moreless.upload.custom">Upload Custom Images</button>
+            <div class="accordion-content">
+                <label data-translate="moreless.upload.select">Select image(s) to upload:</label>
+                <div style="margin-bottom: 12px;">
+                    <button type="button" id="customFileButton" class="action-button" style="padding: 8px 16px; font-size: 14px; background-color: var(--app-surface-dark); color: var(--app-text-primary-dark-theme); border: 1px solid var(--app-border-dark);" data-translate="chooseFiles">Choose Files</button>
+                    <span id="fileSelectionText" style="margin-left: 10px; color: var(--app-text-secondary-dark-theme);" data-translate="noFileChosen">No file chosen</span>
+                    <input type="file" id="imageUploadInput" multiple accept="image/*" style="position: absolute; left: -9999px;">
+                </div>
+                <label style="margin-top:10px;" data-translate="moreless.uploaded.images">Your Uploaded Images (This Session):</label>
+                <div id="uploadedImagesPreview">
+                    <p class="dictionary-message" data-translate="moreless.uploaded.placeholder">Your uploaded images will appear here.</p>
+                </div>
+            </div>
+        </div>
+
+      </div>
+      <div class="panel-footer">
+          <div id="sidebarMessageArea"></div>
+      </div>
+    </div>
+
+    <div class="main">
+      <button id="menuToggleBtn" class="menu-toggle-btn"><i class="fas fa-bars"></i></button>
+      
+      <div id="object-context-toolbar" style="display:none;">
+          <div class="toolbar-group">
+              <div class="toolbar-item">
+                  <button class="context-btn" id="layersBtn" data-translate-title="toolbar.layers" title="Layers"><i class="fas fa-layer-group"></i></button>
+                  <div class="dropdown-content" id="layersDropdown">
+                          <button id="toolbarBringToFrontBtn" data-translate="bringToFront">Bring to Front</button>
+                          <button id="toolbarBringForwardBtn" data-translate="bringForward">Bring Forward</button>
+                          <button id="toolbarSendBackwardBtn" data-translate="sendBackward">Send Backward</button>
+                          <button id="toolbarSendToBackBtn" data-translate="sendToBack">Send to Back</button>
+                  </div>
+              </div>
+          </div>
+          <div class="toolbar-group">
+              <div class="toolbar-item">
+                  <button class="context-btn" id="alignBtn" data-translate-title="toolbar.align" title="Align"><i class="fas fa-th"></i></button>
+                  <div class="dropdown-content" id="alignDropdown" style="min-width: 220px; padding: 12px;">
+                          <p style="font-size:11px; margin-bottom:5px; color:#555;" data-translate="toolbar.align.selected">Align Selected:</p>
+                          <div>
+                                  <button class="context-btn" id="alignLeftBtn" data-translate-title="toolbar.align.left" title="Align Left"><i class="fas fa-align-left"></i></button>
+                                  <button class="context-btn" id="alignHCenterBtn" data-translate-title="toolbar.center.h" title="Center Horizontally"><i class="fas fa-align-center"></i></button>
+                                  <button class="context-btn" id="alignRightBtn" data-translate-title="toolbar.align.right" title="Align Right"><i class="fas fa-align-right"></i></button>
+                          </div>
+                          <div style="margin-top: 5px;">
+                                  <button class="context-btn" id="alignTopBtn" data-translate-title="toolbar.align.top" title="Align Top"><i class="fas fa-long-arrow-alt-up"></i></button>
+                                  <button class="context-btn" id="alignVCenterBtn" data-translate-title="toolbar.center.v" title="Center Vertically"><i class="fas fa-grip-lines"></i></button>
+                                  <button class="context-btn" id="alignBottomBtn" data-translate-title="toolbar.align.bottom" title="Align Bottom"><i class="fas fa-long-arrow-alt-down"></i></button>
+                          </div>
+                          <hr style="margin:8px 0; border:none; border-top:1px solid #eee;">
+                          <p style="font-size:11px; margin-bottom:5px; color:#555;" data-translate="toolbar.align.to.page">Align to Page:</p>
+                          <div>
+                                  <button class="context-btn" id="centerHCanvasBtn" data-translate-title="toolbar.center.page.h" title="Center on Page Horizontally"><i class="fas fa-arrows-alt-h"></i></button>
+                                  <button class="context-btn" id="centerVCanvasBtn" data-translate-title="toolbar.center.page.v" title="Center on Page Vertically"><i class="fas fa-arrows-alt-v"></i></button>
+                          </div>
+                  </div>
+              </div>
+          </div>
+          <div class="toolbar-group">
+              <button class="context-btn" id="toolbarLockBtn" data-translate-title="lockUnlock" title="Lock/Unlock"><i class="fas fa-lock-open"></i></button>
+          </div>
+          <div class="toolbar-group">
+              <button class="context-btn" id="toolbarDeleteBtn" data-translate-title="toolbar.delete" title="Delete Selected"><i class="fas fa-trash-alt"></i></button>
+          </div>
+      </div>
+      <div class="tab-row">
+                <div class="tab-buttons-container">
+                    <button class="tab-button active" data-tab="worksheetTab" data-translate="moreless.tab.worksheet">Worksheet</button>
+                    <button class="tab-button" data-tab="answerKeyTab" data-translate="moreless.tab.answer">Answer Key</button>
+                </div>
+                <div class="header-actions">
+                    <div class="zoom-controls">
+                        <button id="zoomOutBtn" class="zoom-btn" data-translate-title="zoomOut" title="Zoom Out"><i class="fas fa-search-minus"></i></button>
+                        <span id="zoomPercentage" class="zoom-percentage">100%</span>
+                        <button id="zoomInBtn" class="zoom-btn" data-translate-title="zoomIn" title="Zoom In"><i class="fas fa-search-plus"></i></button>
+                        <button id="zoomResetBtn" class="zoom-btn" data-translate-title="zoomReset" title="Reset Zoom"><i class="fas fa-compress-arrows-alt"></i></button>
+                    </div>
+                    <div class="history-controls">
+                        <button id="undoBtn" class="history-btn" data-translate-title="undo" title="Undo (Ctrl+Z)" disabled><i class="fas fa-undo"></i></button>
+                        <button id="redoBtn" class="history-btn" data-translate-title="redo" title="Redo (Ctrl+Y)" disabled><i class="fas fa-redo"></i></button>
+                    </div>
+
+                    <!-- Unlock All Button (shown when objects are locked) -->
+                    <div id="unlockAllControls" class="unlock-all-controls">
+                        <button id="unlockAllBtn" class="unlock-all-btn" data-translate-title="unlockAll" title="Unlock All Locked Objects">
+                            <i class="fas fa-unlock"></i>
+                            <span data-translate="unlockAll">Unlock All</span>
+                        </button>
+                    </div>
+
+                    <div class="dropdown-container">
+                        <button id="generateDropdownBtn" class="action-button accent"><span data-translate="moreless.generate">Create</span> <i class="fas fa-caret-down"></i></button>
+                        <div id="generateDropdownContent" class="dropdown-content">
+                            <button id="generateWorksheetBtn" data-translate="moreless.generate.worksheet">Create Worksheet</button>
+                            <button id="generateAnswerKeyBtn" disabled data-translate="moreless.generate.answer">Create Answer Key</button>
+                        </div>
+                    </div>
+                    <div class="dropdown-container">
+                        <button id="downloadDropdownBtn" class="action-button download-btn"><span data-translate="moreless.download">Download</span> <i class="fas fa-caret-down" style="margin-left: 5px;"></i></button>
+                        <div id="downloadDropdownContent" class="dropdown-content">
+                            <button id="downloadWorksheetJpegBtn" disabled data-translate="moreless.download.worksheet.jpeg">Worksheet (JPEG)</button>
+                            <button id="downloadAnswerKeyJpegBtn" disabled data-translate="moreless.download.answer.jpeg">Answer Key (JPEG)</button>
+                            <hr style="margin: 6px 0; border-color: #eee;">
+                            <button id="downloadWorksheetPdfBtn" disabled data-translate="moreless.download.worksheet.pdf">Worksheet (PDF)</button>
+                            <button id="downloadAnswerKeyPdfBtn" disabled data-translate="moreless.download.answer.pdf">Answer Key (PDF)</button>
+                            <hr style="margin: 6px 0; border-color: #eee;">
+                            <label class="checkbox-label" id="grayscaleLabel">
+                                <input type="checkbox" id="grayscaleToggle" /><span data-translate="common.grayscale">Grayscale</span>
+                            </label>
+                        </div>
+                    </div>
+                    <button id="clearBtn" class="action-button danger" data-translate="moreless.clear.all">Clear All</button>
+                </div>
+            </div>
+      <div class="tab-content-wrapper">
+        <div class="tab active" id="worksheetTab">
+            <div class="canvas-container-wrapper" id="worksheetCanvasWrapper">
+                <canvas id="worksheetCanvasElement"></canvas>
+            </div>
+        </div>
+        <div class="tab" id="answerKeyTab">
+             <div class="canvas-container-wrapper" id="answerKeyCanvasWrapper">
+                <canvas id="answerKeyCanvasElement"></canvas>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="exportArea"></div>
+
+  <script>
+    // Separate UI locale (from URL) and content locale (from sidebar selector)
+    let uiLocale = 'en';  // UI language (for interface translations) - from URL parameter
+    let currentLocale = 'en';  // Content language (for image library) - can be changed by sidebar selector
+    const urlParams = new URLSearchParams(window.location.search);
+    const localeParam = urlParams.get('locale');
+    if (localeParam) {
+        uiLocale = localeParam;  // UI language comes from URL (parent app header)
+        currentLocale = localeParam;  // Initial content language matches UI language
+    }
+    window.uiLocale = uiLocale;
+    window.currentLocale = currentLocale;
+
+    document.addEventListener("DOMContentLoaded", function() {
+      const $ = s => document.querySelector(s);
+      const $$ = s => document.querySelectorAll(s);
+      const rand = (a, b) => Math.floor(Math.random() * (b - a + 1)) + a;
+
+      const GL = { gt: '/images/symbols/more.png', lt: '/images/symbols/less.png', eq: '/images/symbols/equal.png' };
+      const TXT_SYM = { gt: '>', lt: '<', eq: '=' };
+
+      const DEFAULT_MAX_ITEMS_PER_GROUP = 6;
+      const DEFAULT_MAX_SELECTED_IMAGES = 5;
+      const downloadMultiplier = 6;
+      
+      // Language support (locales already set globally)
+      const languageSelect = document.getElementById('languageSelect');
+
+      // Initialize sidebar selector from current content locale
+      if (languageSelect) {
+        languageSelect.value = currentLocale;
+      }
+
+      // Store reference to functions that will be defined later
+      let loadThemesFunc = null;
+      let renderDictionaryFunc = null;
+      let generateWorksheetFunc = null;
+      let worksheetCanvasRef = null;
+
+      // --- INITIAL WORKSHEET GENERATION ---
+      async function generateInitialWorksheet() {
+          try {
+              console.log('Starting initial worksheet generation...');
+
+              // Wait for themes to load with polling
+              let attempts = 0;
+              const maxAttempts = 50; // 5 seconds max wait time
+
+              while (themeWorksheetSelect.options.length <= 1 && attempts < maxAttempts) {
+                  await new Promise(resolve => setTimeout(resolve, 100));
+                  attempts++;
+              }
+
+              if (themeWorksheetSelect.options.length <= 1) {
+                  console.error('Themes failed to load in time');
+                  return;
+              }
+
+              // Set page size to Letter portrait (612x792)
+              pageSizeSelect.value = '612x792';
+              const [width, height] = pageSizeSelect.value.split('x').map(Number);
+              currentCanvasConfig.width = width;
+              currentCanvasConfig.height = height;
+
+              worksheetCanvas.setDimensions({ width, height });
+              answerKeyCanvas.setDimensions({ width, height });
+              updateCanvasDisplayDimensions(width, height, false);
+
+              // Set Number of Exercises to 6
+              problemCountInput.value = 6;
+
+              // Select "Theme for Worksheet" mode
+              imageSelectionModeSelect.value = 'theme';
+              imageSelectionModeSelect.dispatchEvent(new Event('change'));
+
+              // Set animals theme
+              themeWorksheetSelect.value = 'animals';
+
+              // Set All Comparison Types (>, <, =) - all checkboxes checked
+              relationCheckboxes.forEach(cb => cb.checked = true);
+
+              // Set Show Exercise Numbers
+              includeExerciseNumbersCheckbox.checked = true;
+
+              // Set Illustrations
+              symbolDisplaySelect.value = 'image';
+
+              // Generate the worksheet immediately (no delay needed)
+              await generateWorksheetFunc();
+
+              console.log('Initial worksheet generated successfully');
+
+              // Save initial state for undo/redo
+              saveCanvasState();
+              updateHistoryButtons();
+          } catch (error) {
+              console.error('Error generating initial worksheet:', error);
+          }
+      }
+
+      // Initialize UnifiedLanguageManager for content language (image library)
+      if (typeof window.UnifiedLanguageManager !== 'undefined') {
+          window.languageManager = window.UnifiedLanguageManager;
+
+          // Register callback to reload image library when content language changes
+          window.languageManager.onLanguageChange(function(newLocale, oldLocale) {
+              console.log('[More Less] Content language changed from', oldLocale, 'to', newLocale);
+              currentLocale = newLocale;
+              window.currentLocale = newLocale;
+
+              // Reload image themes and library for the new content language
+              if (loadThemesFunc) {
+                  loadThemesFunc();
+              }
+              if (renderDictionaryFunc) {
+                  renderDictionaryFunc();
+              }
+          });
+      } else {
+          // Fallback mode with direct event handler (backward compatibility)
+          console.warn('[More Less] UnifiedLanguageManager not found, using fallback mode');
+          if (languageSelect) {
+              languageSelect.addEventListener('change', function() {
+                  const newLocale = this.value;
+                  currentLocale = newLocale;
+                  window.currentLocale = newLocale;
+
+                  // Reload image themes and library
+                  if (loadThemesFunc) {
+                      loadThemesFunc();
+                  }
+                  if (renderDictionaryFunc) {
+                      renderDictionaryFunc();
+                  }
+              });
+          }
+      }
+      
+      // Translation function
+      function t(key) {
+        if (typeof translations === 'undefined') {
+          console.warn('[More Less] Translations not loaded, returning key:', key);
+          return key;
+        }
+        // Use uiLocale for UI translations, fallback to currentLocale, then to English
+        const locale = window.uiLocale || window.currentLocale || 'en';
+        const translation = (translations[locale] && translations[locale][key]) ||
+                           (translations.en && translations.en[key]) ||
+                           key;
+        return translation;
+      }
+
+      // Apply translations function
+      function applyTranslations() {
+        if (typeof translations === 'undefined') {
+          console.warn('[More Less] Translations not loaded');
+          return;
+        }
+
+        console.log('[More Less] Applying UI translations for locale:', window.uiLocale || window.currentLocale);
+        console.log('[More Less] Content locale:', window.currentLocale);
+
+        // Translate elements with data-translate attribute
+        document.querySelectorAll('[data-translate]').forEach(el => {
+          const key = el.getAttribute('data-translate');
+          if (key) {
+            el.textContent = t(key);
+          }
+        });
+
+        // Translate placeholder attributes
+        document.querySelectorAll('[data-translate-placeholder]').forEach(el => {
+          const key = el.getAttribute('data-translate-placeholder');
+          if (key) {
+            el.placeholder = t(key);
+          }
+        });
+
+        // Translate title attributes
+        document.querySelectorAll('[data-translate-title]').forEach(el => {
+          const key = el.getAttribute('data-translate-title');
+          if (key) {
+            el.title = t(key);
+          }
+        });
+
+        // Call translatePage if available from unified-language-manager
+        if (typeof translatePage !== 'undefined') {
+          translatePage();
+        }
+      }
+
+      // DOM Elements Cache
+      const sidebarMessageArea = $('#sidebarMessageArea');
+      const panel = $('.panel');
+      const menuToggleBtn = $('#menuToggleBtn');
+      const menuCloseBtn = $('#menuCloseBtn');
+      const menuOverlay = $('#menuOverlay');
+      const pageSizeSelect = $('#pageSizeSelect');
+      const customPageSizeInputsDiv = $('#customPageSizeInputs');
+      const pageWidthInput = $('#pageWidth');
+      const pageHeightInput = $('#pageHeight');
+      const setPageSizeBtn = $('#setPageSizeBtn');
+      const pageColorInput = $('#pageColor');
+      const backgroundThemeSelect = $('#backgroundThemeSelect');
+      const backgroundDictionary = $('#backgroundDictionary');
+      const backgroundOpacitySlider = $('#backgroundOpacitySlider');
+      const borderThemeSelect = $('#borderThemeSelect');
+      const borderDictionary = $('#borderDictionary');
+      const borderOpacitySlider = $('#borderOpacitySlider');
+      const textInput = $('#textInput');
+      const addTextBtn = $('#addTextBtn');
+      const textColorInput = $('#textColor');
+      const fontSizeInput = $('#fontSize');
+      const fontFamilySelect = $('#fontFamily');
+      const textStrokeColorInput = $('#textStrokeColor');
+      const textStrokeWidthInput = $('#textStrokeWidth');
+      const problemCountInput = $('#problemCountInput');
+      const imageSelectionModeSelect = $('#imageSelectionModeSelect');
+      const individualImageSelectionSection = $('#individualImageSelectionSection');
+      const worksheetThemeSelectionSection = $('#worksheetThemeSelectionSection');
+      const themeDictSelect = $('#themeDict');
+      const themeWorksheetSelect = $('#themeWorksheet');
+      const dictDiv = $('#dict');
+      const selCountSpan = $('#selCount');
+      const imageUploadInput = $('#imageUploadInput');
+      const uploadedImagesPreviewDiv = $('#uploadedImagesPreview');
+      const relationCheckboxes = $$('.relation-checkbox');
+      const symbolDisplaySelect = $('#symbolDisplaySelect');
+      const comparisonModeSelect = $('#comparisonModeSelect');
+      const imageVarietySelect = $('#imageVarietySelect');
+      const showSymCheckbox = $('#showSym');
+      const includeNameDateCheckbox = $('#includeNameDate');
+      const includeExerciseNumbersCheckbox = $('#includeExerciseNumbers');
+      const generateDropdownBtn = $('#generateDropdownBtn');
+      const generateDropdownContent = $('#generateDropdownContent');
+      const generateWorksheetBtn = $('#generateWorksheetBtn');
+      const generateAnswerKeyBtn = $('#generateAnswerKeyBtn');
+      const downloadDropdownBtn = $('#downloadDropdownBtn');
+      const downloadDropdownContent = $('#downloadDropdownContent');
+      const downloadWorksheetJpegBtn = $('#downloadWorksheetJpegBtn');
+      const downloadAnswerKeyJpegBtn = $('#downloadAnswerKeyJpegBtn');
+      const downloadWorksheetPdfBtn = $('#downloadWorksheetPdfBtn');
+      const downloadAnswerKeyPdfBtn = $('#downloadAnswerKeyPdfBtn');
+      const grayscaleToggle = $('#grayscaleToggle');
+      const grayscaleLabel = $('#grayscaleLabel');
+      const clearBtn = $('#clearBtn');
+      const undoBtn = $('#undoBtn');
+      const redoBtn = $('#redoBtn');
+      const unlockAllBtn = $('#unlockAllBtn');
+      const unlockAllControls = $('#unlockAllControls');
+      const zoomInBtn = $('#zoomInBtn');
+      const zoomOutBtn = $('#zoomOutBtn');
+      const zoomResetBtn = $('#zoomResetBtn');
+      const zoomPercentage = $('#zoomPercentage');
+      const worksheetCanvasWrapper = $('#worksheetCanvasWrapper');
+      const worksheetCanvasElement = $('#worksheetCanvasElement');
+      const answerKeyCanvasWrapper = $('#answerKeyCanvasWrapper');
+      const answerKeyCanvasElement = $('#answerKeyCanvasElement');
+      const objectContextToolbar = $('#object-context-toolbar');
+      const layersBtn = $('#layersBtn');
+      const toolbarBringToFrontBtn = $('#toolbarBringToFrontBtn');
+      const toolbarBringForwardBtn = $('#toolbarBringForwardBtn');
+      const toolbarSendBackwardBtn = $('#toolbarSendBackwardBtn');
+      const toolbarSendToBackBtn = $('#toolbarSendToBackBtn');
+      const alignBtn = $('#alignBtn');
+      const toolbarLockBtn = $('#toolbarLockBtn');
+      const toolbarDeleteBtn = $('#toolbarDeleteBtn');
+
+      let worksheetCanvas;
+      let answerKeyCanvas;
+      let currentCanvasConfig = { width: 612, height: 792 };
+      let userZoomLevel = 1.0; // User-controlled zoom level (100% = 1.0)
+
+      // --- UNDO/REDO STATE MANAGEMENT ---
+      let historyStack = [];
+      let redoStack = [];
+      const MAX_HISTORY = 20;
+      let isRestoringState = false; // Flag to prevent saving state during restoration
+      let isGenerating = false; // Flag to prevent saving state during bulk generation
+
+      let selectedImages = new Set();
+      let uploadedImages = [];
+      let lastGeneratedRows = [];
+      let searchTimeout;
+      let messageTimeout;
+      let activePopover = null;
+
+      function getActiveCanvas() {
+        const activeTab = document.querySelector('.tab.active');
+        return activeTab && activeTab.id === 'answerKeyTab' ? answerKeyCanvas : worksheetCanvas;
+      }
+
+      function showSidebarMessage(message, type = 'error', duration = 3000) {
+          if (messageTimeout) clearTimeout(messageTimeout);
+          sidebarMessageArea.textContent = message;
+          sidebarMessageArea.className = `message ${type}`;
+          sidebarMessageArea.style.display = 'block';
+          if (duration > 0) messageTimeout = setTimeout(clearSidebarMessage, duration);
+      }
+
+      function clearSidebarMessage() {
+          if (messageTimeout) clearTimeout(messageTimeout);
+          sidebarMessageArea.style.display = 'none';
+      }
+
+      // Undo/Redo toast message function
+      function showMessage(msg) {
+          const existingToast = document.getElementById('undo-redo-toast');
+          if (existingToast) existingToast.remove();
+
+          const toast = document.createElement('div');
+          toast.id = 'undo-redo-toast';
+          toast.textContent = msg;
+          toast.style.cssText = `
+              position: fixed;
+              top: 80px;
+              left: 50%;
+              transform: translateX(-50%);
+              background: rgba(0, 0, 0, 0.85);
+              color: white;
+              padding: 12px 24px;
+              border-radius: 8px;
+              font-size: 14px;
+              font-weight: 500;
+              z-index: 10000;
+              box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+              pointer-events: none;
+              animation: fadeInOut 2s ease-in-out;
+          `;
+          document.body.appendChild(toast);
+          setTimeout(() => toast.remove(), 2000);
+      }
+      
+      function updateSelCount() {
+          if (selCountSpan) selCountSpan.textContent = t('moreless.selected.count').replace('0 / 5', `${selectedImages.size} / ${DEFAULT_MAX_SELECTED_IMAGES}`);
+      }
+
+      function setupDropdown(button, content) {
+          if (!button || !content) return;
+           button.addEventListener('click', (event) => {
+              content.style.display = content.style.display === 'block' ? 'none' : 'block';
+              event.stopPropagation();
+           });
+           return {button, content};
+      }
+
+      function togglePopover(popover) {
+          const isOpening = popover && popover.style.display !== 'block';
+          if (activePopover) activePopover.style.display = 'none';
+          if (isOpening) {
+              popover.style.display = 'block';
+              activePopover = popover;
+          } else {
+              activePopover = null;
+          }
+      }
+
+      // ============================================
+      // Z-ORDER FUNCTIONS
+      // ============================================
+
+      function bringObjectForward() {
+          const activeCanvas = getActiveCanvas();
+          const activeObject = activeCanvas.getActiveObject();
+          if (activeObject) {
+              const beforeIndex = activeCanvas.getObjects().indexOf(activeObject);
+              console.log('[Z-ORDER] Bring Forward - Before index:', beforeIndex);
+
+              activeCanvas.bringForward(activeObject);
+
+              const afterIndex = activeCanvas.getObjects().indexOf(activeObject);
+              console.log('[Z-ORDER] After index:', afterIndex);
+              activeCanvas.renderAll();
+          }
+          if (activePopover) activePopover.style.display = 'none';
+      }
+
+      function sendObjectBackward() {
+          const activeCanvas = getActiveCanvas();
+          const activeObject = activeCanvas.getActiveObject();
+          if (activeObject) {
+              const beforeIndex = activeCanvas.getObjects().indexOf(activeObject);
+              console.log('[Z-ORDER] Send Backward - Before index:', beforeIndex);
+
+              activeCanvas.sendBackwards(activeObject);
+
+              const afterIndex = activeCanvas.getObjects().indexOf(activeObject);
+              console.log('[Z-ORDER] After index:', afterIndex);
+              activeCanvas.renderAll();
+          }
+          if (activePopover) activePopover.style.display = 'none';
+      }
+
+      function bringObjectToFront() {
+          const activeCanvas = getActiveCanvas();
+          const activeObject = activeCanvas.getActiveObject();
+          if (activeObject) {
+              const beforeIndex = activeCanvas.getObjects().indexOf(activeObject);
+              console.log('[Z-ORDER] Bring to Front - Before index:', beforeIndex);
+
+              activeCanvas.bringToFront(activeObject);
+
+              const afterIndex = activeCanvas.getObjects().indexOf(activeObject);
+              console.log('[Z-ORDER] After index:', afterIndex);
+              activeCanvas.renderAll();
+          }
+          if (activePopover) activePopover.style.display = 'none';
+      }
+
+      function sendObjectToBack() {
+          const activeCanvas = getActiveCanvas();
+          const activeObject = activeCanvas.getActiveObject();
+          if (activeObject) {
+              const beforeIndex = activeCanvas.getObjects().indexOf(activeObject);
+              console.log('[Z-ORDER] Send to Back - Before index:', beforeIndex);
+
+              activeCanvas.sendToBack(activeObject);
+
+              const afterIndex = activeCanvas.getObjects().indexOf(activeObject);
+              console.log('[Z-ORDER] After index:', afterIndex);
+              activeCanvas.renderAll();
+          }
+          if (activePopover) activePopover.style.display = 'none';
+      }
+
+      function deleteSelectedObjects() {
+          const activeCanvas = getActiveCanvas();
+          const activeObjects = activeCanvas.getActiveObjects();
+          if (activeObjects?.length > 0) {
+              activeObjects.forEach(obj => activeCanvas.remove(obj));
+              activeCanvas.discardActiveObject().renderAll();
+          }
+          if (activePopover) activePopover.style.display = 'none';
+      }
+
+      function toggleLockSelectedObjects() {
+          const canvas = getActiveCanvas();
+          const activeObject = canvas.getActiveObject();
+
+          // If nothing is selected, unlock ALL locked objects on the canvas
+          if (!activeObject) {
+              const allObjects = canvas.getObjects();
+              const lockedObjects = allObjects.filter(obj => obj.lockMovementX === true);
+
+              if (lockedObjects.length > 0) {
+                  lockedObjects.forEach(obj => {
+                      obj.set({
+                          lockMovementX: false,
+                          lockMovementY: false,
+                          lockRotation: false,
+                          lockScalingX: false,
+                          lockScalingY: false,
+                          hasControls: true,
+                          hasBorders: true,
+                          selectable: true,
+                          evented: true
+                      });
+                  });
+
+                  // Update button icon to unlocked
+                  const lockIcon = toolbarLockBtn.querySelector('i');
+                  lockIcon.classList.remove('fa-lock');
+                  lockIcon.classList.add('fa-lock-open');
+
+                  canvas.renderAll();
+                  console.log(`Unlocked ${lockedObjects.length} objects`);
+              }
+
+              if (activePopover) activePopover.style.display = 'none';
+              updateUnlockAllButtonVisibility();
+              return;
+          }
+
+          // Handle both single objects and groups
+          const objectsToLock = activeObject.type === 'activeSelection'
+              ? activeObject.getObjects()
+              : [activeObject];
+
+          // Check if any object is currently locked
+          const isAnyLocked = objectsToLock.some(obj => obj.lockMovementX === true);
+
+          // Toggle lock state (opposite of current state)
+          const shouldLock = !isAnyLocked;
+
+          objectsToLock.forEach(obj => {
+              // When locking, make objects completely non-interactive
+              // This prevents them from blocking mouse drag selections
+              obj.set({
+                  lockMovementX: shouldLock,
+                  lockMovementY: shouldLock,
+                  lockRotation: shouldLock,
+                  lockScalingX: shouldLock,
+                  lockScalingY: shouldLock,
+                  hasControls: !shouldLock,
+                  hasBorders: !shouldLock,
+                  selectable: !shouldLock,  // Locked objects are not selectable
+                  evented: !shouldLock      // Locked objects don't capture mouse events
+              });
+          });
+
+          // Update button icon
+          const lockIcon = toolbarLockBtn.querySelector('i');
+          if (shouldLock) {
+              lockIcon.classList.remove('fa-lock-open');
+              lockIcon.classList.add('fa-lock');
+          } else {
+              lockIcon.classList.remove('fa-lock');
+              lockIcon.classList.add('fa-lock-open');
+          }
+
+          canvas.renderAll();
+          if (activePopover) activePopover.style.display = 'none';
+          updateUnlockAllButtonVisibility();
+      }
+
+      function unlockAllObjects() {
+          const canvas = getActiveCanvas();
+          const allObjects = canvas.getObjects();
+          const lockedObjects = allObjects.filter(obj => obj.lockMovementX === true);
+
+          if (lockedObjects.length > 0) {
+              lockedObjects.forEach(obj => {
+                  obj.set({
+                      lockMovementX: false,
+                      lockMovementY: false,
+                      lockRotation: false,
+                      lockScalingX: false,
+                      lockScalingY: false,
+                      hasControls: true,
+                      hasBorders: true,
+                      selectable: true,
+                      evented: true
+                  });
+              });
+
+              canvas.renderAll();
+              console.log(`Unlocked ${lockedObjects.length} objects`);
+              updateUnlockAllButtonVisibility();
+          }
+      }
+
+      function updateUnlockAllButtonVisibility() {
+          const canvas = getActiveCanvas();
+          const allObjects = canvas.getObjects();
+          const hasLockedObjects = allObjects.some(obj => obj.lockMovementX === true);
+
+          if (hasLockedObjects) {
+              unlockAllControls.classList.add('visible');
+          } else {
+              unlockAllControls.classList.remove('visible');
+          }
+      }
+
+      function alignObjects(type) {
+          const activeCanvas = getActiveCanvas();
+          const activeObj = activeCanvas.getActiveObject();
+          if (!activeObj) { if (activePopover) activePopover.style.display = 'none'; return; }
+          if (type.includes('Canvas')) {
+              // CRITICAL: Use currentCanvasConfig for actual page dimensions, not viewport!
+              const canvasWidth = currentCanvasConfig.width;
+              const canvasHeight = currentCanvasConfig.height;
+              
+              if (type === 'centerHCanvas') {
+                  // Get object dimensions
+                  const objWidth = activeObj.getScaledWidth();
+                  const currentOriginX = activeObj.originX;
+                  
+                  // Calculate center position based on origin
+                  let centerLeft;
+                  if (currentOriginX === 'center') {
+                      centerLeft = canvasWidth / 2;
+                  } else if (currentOriginX === 'right') {
+                      centerLeft = (canvasWidth / 2) + (objWidth / 2);
+                  } else { // left or default
+                      centerLeft = (canvasWidth / 2) - (objWidth / 2);
+                  }
+                  
+                  activeObj.set('left', centerLeft);
+              }
+              
+              if (type === 'centerVCanvas') {
+                  // Get object dimensions
+                  const objHeight = activeObj.getScaledHeight();
+                  const currentOriginY = activeObj.originY;
+                  
+                  // Calculate center position based on origin
+                  let centerTop;
+                  if (currentOriginY === 'center') {
+                      centerTop = canvasHeight / 2;
+                  } else if (currentOriginY === 'bottom') {
+                      centerTop = (canvasHeight / 2) + (objHeight / 2);
+                  } else { // top or default
+                      centerTop = (canvasHeight / 2) - (objHeight / 2);
+                  }
+                  
+                  activeObj.set('top', centerTop);
+              }
+              
+              activeObj.setCoords();
+          } else if (activeObj.type === 'activeSelection') {
+              const group = activeObj;
+              group.forEachObject(obj => {
+                  switch (type) {
+                      case 'alignLeft': obj.set('left', -group.width / 2); break;
+                      case 'alignHCenter': obj.set('left', 0 - obj.getScaledWidth() / 2); break;
+                      case 'alignRight': obj.set('left', group.width / 2 - obj.getScaledWidth()); break;
+                      case 'alignTop': obj.set('top', -group.height / 2); break;
+                      case 'alignVCenter': obj.set('top', 0 - obj.getScaledHeight() / 2); break;
+                      case 'alignBottom': obj.set('top', group.height / 2 - obj.getScaledHeight()); break;
+                  }
+              });
+          }
+          activeCanvas.renderAll();
+          if (activePopover) activePopover.style.display = 'none';
+      }
+
+      function handleObjectSelection(e, canvas) {
+          const activeObject = e.target || canvas.getActiveObject();
+          if (!activeObject) {
+              handleSelectionCleared(null, canvas);
+              return;
+          }
+          // REMOVED: Blocking borders/backgrounds - they should activate toolbar like any other object
+          objectContextToolbar.style.display = 'flex';
+          const isGroup = activeObject.type === 'activeSelection';
+          objectContextToolbar.querySelectorAll('.context-btn').forEach(btn => btn.disabled = false);
+          objectContextToolbar.querySelectorAll('#alignDropdown button').forEach(btn => {
+              if (btn.id.includes('Canvas')) btn.disabled = isGroup;
+              else btn.disabled = !isGroup;
+          });
+          const isSingleTextObject = !isGroup && ['textbox', 'i-text', 'text'].includes(activeObject.type);
+          [textColorInput, fontSizeInput, fontFamilySelect, textStrokeColorInput, textStrokeWidthInput].forEach(el => el.disabled = !isSingleTextObject);
+          if (isSingleTextObject) {
+              textInput.value = activeObject.text || "";
+              textColorInput.value = typeof activeObject.fill === 'string' ? activeObject.fill : '#333333';
+              fontSizeInput.value = activeObject.fontSize || 48;
+              fontFamilySelect.value = activeObject.fontFamily || fontFamilySelect.options[0].value;
+              textStrokeColorInput.value = typeof activeObject.stroke === 'string' ? activeObject.stroke : '#000000';
+              textStrokeWidthInput.value = activeObject.strokeWidth || 0;
+          } else {
+              if (document.activeElement !== textInput) textInput.value = "";
+          }
+      }
+
+      function handleSelectionCleared(e, canvas) {
+          objectContextToolbar.style.display = 'none';
+          if(activePopover) activePopover.style.display = 'none';
+          [textColorInput, fontSizeInput, fontFamilySelect, textStrokeColorInput, textStrokeWidthInput].forEach(el => { el.disabled = true; });
+          if (document.activeElement !== textInput) textInput.value = "";
+      }
+
+      function setupGlobalKeydownListener() {
+        window.addEventListener('keydown', (e) => {
+            const activeElement = document.activeElement;
+            if (activeElement && (activeElement.tagName === 'INPUT' || activeElement.tagName === 'TEXTAREA')) return;
+
+            // Undo/Redo keyboard shortcuts
+            if ((e.ctrlKey || e.metaKey) && e.key === 'z' && !e.shiftKey) {
+                e.preventDefault();
+                undo();
+                return;
+            }
+            if ((e.ctrlKey || e.metaKey) && (e.key === 'y' || (e.key === 'z' && e.shiftKey))) {
+                e.preventDefault();
+                redo();
+                return;
+            }
+
+            if (e.key === 'Delete' || e.key === 'Backspace') {
+                const activeCanvas = getActiveCanvas();
+                const activeObject = activeCanvas.getActiveObject();
+                if (activeObject && !activeObject.isEditing) deleteSelectedObjects();
+            }
+        });
+      }
+
+      function updateActiveTextObjectProperties() {
+          const activeCanvas = getActiveCanvas();
+          const activeObject = activeCanvas.getActiveObject();
+          if (activeObject?.type !== 'activeSelection' && ['textbox', 'i-text', 'text'].includes(activeObject?.type)) {
+              const newProps = {};
+              if (textColorInput.value !== activeObject.fill) newProps.fill = textColorInput.value;
+              if (parseInt(fontSizeInput.value, 10) !== activeObject.fontSize) newProps.fontSize = parseInt(fontSizeInput.value, 10);
+              if (fontFamilySelect.value !== activeObject.fontFamily) newProps.fontFamily = fontFamilySelect.value;
+              if (textStrokeColorInput.value !== activeObject.stroke) newProps.stroke = textStrokeColorInput.value;
+              if (parseFloat(textStrokeWidthInput.value) !== activeObject.strokeWidth) newProps.strokeWidth = parseFloat(textStrokeWidthInput.value);
+              if (document.activeElement === textInput && textInput.value !== activeObject.text) newProps.text = textInput.value;
+              if (Object.keys(newProps).length > 0) {
+                  activeObject.set(newProps);
+                  activeCanvas.renderAll();
+              }
+          }
+      }
+
+      async function applyGrayscaleToDataURL(dataURL) {
+          return new Promise((resolve, reject) => {
+              const img = new Image();
+              img.onload = () => {
+                  const c = document.createElement('canvas');
+                  c.width = img.width; c.height = img.height;
+                  const ctx = c.getContext('2d');
+                  if (!ctx) { reject(new Error("Failed to get 2D context.")); return; }
+                  ctx.drawImage(img, 0, 0);
+                  const imageData = ctx.getImageData(0, 0, c.width, c.height);
+                  const data = imageData.data;
+                  for (let i = 0; i < data.length; i += 4) {
+                      const gray = 0.2126 * data[i] + 0.7152 * data[i + 1] + 0.0722 * data[i + 2];
+                      data[i] = data[i + 1] = data[i + 2] = gray;
+                  }
+                  ctx.putImageData(imageData, 0, 0);
+                  resolve(c.toDataURL('image/jpeg', 1.0));
+              };
+              img.onerror = (err) => reject(err);
+              img.src = dataURL;
+          });
+      }
+
+      async function getCanvasDataURLWithOptions(canvasInstance, options) {
+          // Save current state
+          const currentZoom = canvasInstance.getZoom();
+          const currentWidth = canvasInstance.getWidth();
+          const currentHeight = canvasInstance.getHeight();
+          
+          // Reset for export
+          canvasInstance.setZoom(1);
+          canvasInstance.setDimensions({
+              width: currentCanvasConfig.width,
+              height: currentCanvasConfig.height
+          });
+          
+          const dataURL = canvasInstance.toDataURL({ format: 'jpeg', multiplier: options.multiplier, quality: 1.0 });
+          
+          // Restore display state
+          canvasInstance.setZoom(currentZoom);
+          canvasInstance.setDimensions({
+              width: currentWidth,
+              height: currentHeight
+          });
+          
+          return options.applyPixelLevelGrayscale ? applyGrayscaleToDataURL(dataURL) : dataURL;
+      }
+      
+      function initializeCanvas(canvasEl) {
+          return new fabric.Canvas(canvasEl, {
+              // DO NOT set width/height here - set via updateCanvasDisplayDimensions
+              backgroundColor: pageColorInput.value, 
+              preserveObjectStacking: true, 
+              enableRetinaScaling: true
+          });
+      }
+
+      function updateCanvasDisplayDimensions(width, height, fromLoad = false) {
+          currentCanvasConfig.width = width;
+          currentCanvasConfig.height = height;
+          
+          // CRITICAL: Use tab's parent element, NOT window dimensions
+          const mainStyle = document.getElementById('worksheetTab').parentElement;
+          const availableWidth = mainStyle.clientWidth - 50;
+          const availableHeight = mainStyle.clientHeight - 50;
+          
+          // Apply 25% scaling for better visibility
+          // Extra 25% for landscape orientations
+          const isLandscape = width > height;
+          const baseScale = 1.25; // Base 25% larger for all
+          const landscapeBonus = isLandscape ? 1.25 : 1.0; // Additional 25% for landscape
+          const displayScale = baseScale * landscapeBonus;
+          
+          // Calculate display dimensions with scaling
+          const scaledWidth = width * displayScale;
+          const scaledHeight = height * displayScale;
+          
+          // Ensure it fits in available space
+          const scaleRatio = Math.min(availableWidth / scaledWidth, availableHeight / scaledHeight, 1);
+          const displayWidth = scaledWidth * scaleRatio;
+          const displayHeight = scaledHeight * scaleRatio;
+          
+          // Apply to ALL canvases in the app
+          [worksheetCanvas, answerKeyCanvas].forEach(c => {
+              if (c) {
+                  // Apply zoom for display scaling combined with user zoom level
+                  const finalZoom = (displayWidth / width) * userZoomLevel;
+                  c.setZoom(finalZoom);
+
+                  // Set dimensions AFTER zoom to ensure viewport matches zoomed size
+                  const finalDisplayWidth = displayWidth * userZoomLevel;
+                  const finalDisplayHeight = displayHeight * userZoomLevel;
+                  c.setDimensions({
+                      width: finalDisplayWidth,
+                      height: finalDisplayHeight
+                  });
+
+                  c.calcOffset();
+                  c.renderAll();
+              }
+          });
+
+          [worksheetCanvasWrapper, answerKeyCanvasWrapper].forEach(w => {
+              if(w) {
+                  const finalDisplayWidth = displayWidth * userZoomLevel;
+                  const finalDisplayHeight = displayHeight * userZoomLevel;
+                  w.style.width = `${finalDisplayWidth}px`;
+                  w.style.height = `${finalDisplayHeight}px`;
+              }
+          });
+          
+          if (!fromLoad) { pageWidthInput.value = width; pageHeightInput.value = height; }
+      }
+
+      // ============================================
+      // ZOOM FUNCTIONALITY
+      // Exact implementation from wordsearch.html lines 1745-1767
+      // ============================================
+
+      function zoomIn() {
+          // Increase zoom by 25%, max 300%
+          userZoomLevel = Math.min(userZoomLevel + 0.25, 3.0);
+          updateZoomDisplay();
+          updateCanvasDisplayDimensions(currentCanvasConfig.width, currentCanvasConfig.height);
+      }
+
+      function zoomOut() {
+          // Decrease zoom by 25%, min 25%
+          userZoomLevel = Math.max(userZoomLevel - 0.25, 0.25);
+          updateZoomDisplay();
+          updateCanvasDisplayDimensions(currentCanvasConfig.width, currentCanvasConfig.height);
+      }
+
+      function zoomReset() {
+          // Reset to 100%
+          userZoomLevel = 1.0;
+          updateZoomDisplay();
+          updateCanvasDisplayDimensions(currentCanvasConfig.width, currentCanvasConfig.height);
+      }
+
+      function updateZoomDisplay() {
+          if (zoomPercentage) {
+              zoomPercentage.textContent = Math.round(userZoomLevel * 100) + '%';
+          }
+      }
+
+      // ============================================
+      // UNDO/REDO FUNCTIONALITY
+      // Rebuilt from scratch to match wordsearch.html pattern exactly
+      // Includes ALL custom properties to prevent duplication bugs
+      // ============================================
+
+      function saveCanvasState() {
+          if (isRestoringState || isGenerating) return; // Don't save during undo/redo or generation
+          console.log("[UNDO DEBUG] saveCanvasState called, isRestoringState:", isRestoringState, "isGenerating:", isGenerating);
+
+          const activeCanvas = getActiveCanvas();
+          console.log("[UNDO DEBUG] saveCanvasState guard passed, activeCanvas:", activeCanvas);
+          if (!activeCanvas) return;
+
+          // 🚨 CRITICAL: Include ALL custom properties to prevent duplication bugs
+          // Properties identified from filter operations in this app:
+          // - isExerciseCard (line 3039, 3040) - worksheet exercise cards
+          // - isNameDateGroup (line 3039, 3040) - name/date group
+          // - isAnswerCard (line 3389, 3390) - answer key cards
+          // - isBorder, isBackground, isPageBorder, isHeaderDesc, isHeaderElement - common properties
+          // - originalIndex (line 3212) - preserves object order
+          const state = {
+              canvasJSON: activeCanvas.toJSON([
+                  'isExerciseCard',    // ✓ CRITICAL - worksheet exercise cards
+                  'isNameDateGroup',   // ✓ CRITICAL - name/date group
+                  'isAnswerCard',      // ✓ Answer key cards
+                  'isPageBorder',      // ✓ Page border
+                  'isHeaderDesc',      // ✓ Header description
+                  'isHeaderElement',   // ✓ Header elements
+                  'isBorder',          // ✓ User-added borders
+                  'isBackground',      // ✓ User-added backgrounds
+                  'originalIndex'      // ✓ Preserves object order
+              ]),
+              canvasType: activeCanvas === worksheetCanvas ? 'worksheet' : 'answerKey',
+              timestamp: Date.now()
+          };
+
+          historyStack.push(state);
+          if (historyStack.length > MAX_HISTORY) {
+              console.log("[UNDO DEBUG] State pushed to historyStack, new length:", historyStack.length);
+              historyStack.shift(); // Remove oldest state
+          }
+
+          redoStack = []; // Clear redo stack on new action
+          updateHistoryButtons();
+      }
+
+      function undo() {
+          if (historyStack.length === 0) return;
+
+          const activeCanvas = getActiveCanvas();
+          if (!activeCanvas) return;
+
+          // Save current state to redo stack before undoing
+          // 🚨 CRITICAL: Use SAME property list as saveCanvasState()
+          const currentState = {
+              canvasJSON: activeCanvas.toJSON([
+                  'isExerciseCard', 'isNameDateGroup', 'isAnswerCard',
+                  'isPageBorder', 'isHeaderDesc', 'isHeaderElement',
+                  'isBorder', 'isBackground', 'originalIndex'
+              ]),
+              canvasType: activeCanvas === worksheetCanvas ? 'worksheet' : 'answerKey',
+              timestamp: Date.now()
+          };
+          redoStack.push(currentState);
+
+          // Restore previous state
+          const previousState = historyStack.pop();
+          restoreCanvasState(previousState);
+
+          updateHistoryButtons();
+      }
+
+      function redo() {
+          if (redoStack.length === 0) return;
+
+          const activeCanvas = getActiveCanvas();
+          if (!activeCanvas) return;
+
+          // Save current state to history stack
+          // 🚨 CRITICAL: Use SAME property list as saveCanvasState()
+          const currentState = {
+              canvasJSON: activeCanvas.toJSON([
+                  'isExerciseCard', 'isNameDateGroup', 'isAnswerCard',
+                  'isPageBorder', 'isHeaderDesc', 'isHeaderElement',
+                  'isBorder', 'isBackground', 'originalIndex'
+              ]),
+              canvasType: activeCanvas === worksheetCanvas ? 'worksheet' : 'answerKey',
+              timestamp: Date.now()
+          };
+          historyStack.push(currentState);
+
+          // Restore next state
+          const nextState = redoStack.pop();
+          restoreCanvasState(nextState);
+
+          updateHistoryButtons();
+      }
+
+      function restoreCanvasState(state) {
+          if (!state) return;
+
+          isRestoringState = true; // Prevent saving during restoration
+
+          const targetCanvas = state.canvasType === 'worksheet' ? worksheetCanvas : answerKeyCanvas;
+          if (!targetCanvas) {
+              isRestoringState = false;
+              return;
+          }
+
+          targetCanvas.loadFromJSON(state.canvasJSON, function() {
+              targetCanvas.renderAll();
+              isRestoringState = false;
+          });
+      }
+
+      function updateHistoryButtons() {
+          console.log("[UNDO DEBUG] updateHistoryButtons called, historyStack.length:", historyStack.length, "redoStack.length:", redoStack.length);
+
+          if (undoBtn) {
+              undoBtn.disabled = historyStack.length === 0;
+          }
+          if (redoBtn) {
+              redoBtn.disabled = redoStack.length === 0;
+          }
+          console.log("[UNDO DEBUG] undoBtn.disabled set to:", undoBtn ? undoBtn.disabled : 'N/A', "redoBtn.disabled set to:", redoBtn ? redoBtn.disabled : 'N/A');
+      }
+
+      // Preload default theme for instant first generation
+      async function preloadDefaultTheme() {
+        // Silently preload animals theme and its images in background
+        try {
+          const response = await fetch(`/api/images?theme=animals&locale=${currentLocale}`);
+          if (response.ok) {
+            const data = await response.json();
+            const images = data.images || data;
+
+            // Preload first 8 actual images in browser cache
+            const imagesToPreload = images.slice(0, 8);
+            imagesToPreload.forEach(imgData => {
+              const img = new Image();
+              img.src = imgData.path;
+            });
+
+            console.log('✅ Default theme preloaded:', imagesToPreload.length, 'images');
+          }
+        } catch (error) {
+          // Fail silently - not critical
+          console.log('Preload theme skipped:', error.message);
+        }
+      }
+
+      // Expose loadThemes to outer scope for language change handler
+      loadThemesFunc = async function loadThemes() {
+        try {
+            const res = await fetch(`/api/themes-translated?locale=${currentLocale}`);
+            if (!res.ok) throw new Error(`HTTP error! status: ${res.status}`);
+            const themeData = await res.json();
+            themeDictSelect.innerHTML = `<option value="all">${t('moreless.themes.all')}</option>`;
+            themeWorksheetSelect.innerHTML = `<option value="">${t('moreless.msg.select.worksheet.theme')}</option>`;
+            
+            // Process themes - API returns array with {value, displayName} format
+            if (Array.isArray(themeData)) {
+                themeData.forEach(theme => {
+                    if (typeof theme === 'string') {
+                        // String format (legacy)
+                        const displayName = theme.split('/').map(p => p.charAt(0).toUpperCase() + p.slice(1)).join(' / ');
+                        [themeDictSelect, themeWorksheetSelect].forEach(sel => sel.add(new Option(displayName, theme)));
+                    } else if (typeof theme === 'object') {
+                        // Object format - API returns {value, displayName}
+                        const displayName = theme.displayName || theme.name || theme.value;
+                        const value = theme.value || theme.path || theme.name;
+                        [themeDictSelect, themeWorksheetSelect].forEach(sel => sel.add(new Option(displayName, value)));
+                    }
+                });
+            } else if (themeData.themes) {
+                // Handle nested format if API changes
+                themeData.themes.forEach(theme => {
+                    const displayName = theme.displayName || theme.name || theme.value;
+                    const value = theme.value || theme.path || theme.name;
+                    [themeDictSelect, themeWorksheetSelect].forEach(sel => sel.add(new Option(displayName, value)));
+                });
+            }
+            renderDictionaryFunc();
+        } catch (error) { 
+            console.error('Error loading themes:', error);
+            showSidebarMessage(t('moreless.msg.themes.error') + ': ' + error.message, 'error'); 
+        }
+      }
+      
+      let currentThemeImages = [];
+      // Expose renderDictionary to outer scope
+      renderDictionaryFunc = async function renderDictionary() {
+        updateSelCount();
+        clearSidebarMessage();
+        const selectedThemeForDict = themeDictSelect.value;
+        const query = $('#searchInput').value.trim().toLowerCase();
+        dictDiv.innerHTML = '';
+        let imagesToDisplay = [];
+        if (selectedThemeForDict === 'all') {
+            if (!query) { 
+                // Load animals theme by default when "All Themes" is selected with no search
+                dictDiv.innerHTML = `<p class='dictionary-message'>${t('moreless.loading.themes')}</p>`;
+                try {
+                    const response = await fetch(`/api/images?theme=animals&locale=${currentLocale}`);
+                    const data = await response.json();
+                    const animalsImages = data.images || data; // Handle both new and old API formats
+                    imagesToDisplay = animalsImages.map(img => {
+                        const mappedImg = { ...img };
+                        if (!mappedImg.path) {
+                            console.error('Image missing path property:', img);
+                            mappedImg.path = img.url || '/images/placeholder.png';
+                        }
+                        if (!mappedImg.word) mappedImg.word = mappedImg.name || mappedImg.displayName || 'Image';
+                        if (!mappedImg.name) mappedImg.name = mappedImg.word || mappedImg.displayName;
+                        return mappedImg;
+                    });
+                } catch (err) {
+                    dictDiv.innerHTML = `<p class="dictionary-message">${t('moreless.msg.pick.images')}</p>`; 
+                    return; 
+                }
+            } else {
+                dictDiv.innerHTML = `<p class="dictionary-message">${t('moreless.msg.loading')}</p>`;
+                try { 
+                    const data = await (await fetch(`/api/images?search=${encodeURIComponent(query)}&locale=${currentLocale}`)).json();
+                    const searchResults = data.images || data;
+                    // Map search results same as theme images
+                    imagesToDisplay = searchResults.map(img => {
+                        const mappedImg = { ...img };
+                        if (!mappedImg.path) {
+                            console.error('Image missing path property:', img);
+                            mappedImg.path = img.url || '/images/placeholder.png';
+                        }
+                        if (!mappedImg.word) mappedImg.word = mappedImg.name || mappedImg.displayName || 'Image';
+                        if (!mappedImg.name) mappedImg.name = mappedImg.word || mappedImg.displayName;
+                        return mappedImg;
+                    });
+                } 
+                catch (err) { dictDiv.innerHTML = `<p class='dictionary-message'>${t('moreless.msg.search.error')}</p>`; return; }
+            }
+        } else {
+            dictDiv.innerHTML = `<p class='dictionary-message'>${t('moreless.msg.loading')}</p>`;
+            try {
+                const response = await fetch(`/api/images?theme=${encodeURIComponent(selectedThemeForDict)}&locale=${currentLocale}`);
+                const data = await response.json();
+                const themeImages = data.images || data; // Handle API response format
+                console.log('Theme images loaded:', themeImages); // Debug log
+
+                // Ensure all required properties exist
+                const mappedImages = themeImages.map(img => {
+                    const mappedImg = { ...img };
+                    // Ensure path property exists (API should return it)
+                    if (!mappedImg.path) {
+                        console.error('Image missing path property:', img);
+                        mappedImg.path = img.url || '/images/placeholder.png';
+                    }
+                    // Ensure word property exists (use name or displayName as fallback)
+                    if (!mappedImg.word) {
+                        mappedImg.word = mappedImg.name || mappedImg.displayName || 'Image';
+                    }
+                    // Ensure name property exists for display
+                    if (!mappedImg.name) {
+                        mappedImg.name = mappedImg.word || mappedImg.displayName;
+                    }
+                    return mappedImg;
+                });
+                
+                currentThemeImages = mappedImages;
+                
+                imagesToDisplay = query ? mappedImages.filter(img => {
+                    const searchTerm = (img.word || img.name || '').toLowerCase();
+                    return searchTerm.includes(query);
+                }) : mappedImages;
+            } catch (err) { 
+                console.error('Error loading images:', err);
+                dictDiv.innerHTML = `<p class='dictionary-message'>${t('moreless.msg.image.failed')}</p>`; 
+                return; 
+            }
+        }
+        dictDiv.innerHTML = imagesToDisplay.length === 0 ? `<p class="dictionary-message">${t('moreless.msg.no.images')}</p>` : "";
+        imagesToDisplay.sort((a, b) => a.word.localeCompare(b.word)).forEach(img => {
+            const item = document.createElement("div");
+            item.className = "dictionary-item";
+            if (selectedImages.has(img.path)) item.classList.add('selected');
+            const displayName = img.name || img.word;
+            item.innerHTML = `<img src="${img.path}" alt="${displayName}" loading="lazy"/><span>${displayName}</span>`;
+            item.onclick = () => toggleImageSelection(img);
+            dictDiv.appendChild(item);
+        });
+      }
+
+    function toggleImageSelection(image) {
+        if (selectedImages.has(image.path)) selectedImages.delete(image.path);
+        else if (selectedImages.size < DEFAULT_MAX_SELECTED_IMAGES) selectedImages.add(image.path);
+        else showSidebarMessage(t('moreless.msg.max.images').replace('{max}', DEFAULT_MAX_SELECTED_IMAGES), 'info');
+        updateSelCount();
+        renderSelectedImagesPreview();
+        [...dictDiv.querySelectorAll('.dictionary-item'), ...uploadedImagesPreviewDiv.querySelectorAll('.dictionary-item')].forEach(item => {
+            if (item.querySelector('img')?.src.endsWith(image.path)) {
+                item.classList.toggle('selected', selectedImages.has(image.path));
+            }
+        });
+    }
+
+    function renderSelectedImagesPreview() {
+        selectedImagesPreviewDiv.innerHTML = "";
+        selectedImages.forEach(imgPath => { 
+            const imgEl = document.createElement("img");
+            imgEl.src = imgPath; 
+            const originalImage = uploadedImages.find(img => img.path === imgPath);
+            imgEl.alt = originalImage ? originalImage.word : 'Selected'; 
+            imgEl.onclick = () => toggleImageSelection({path: imgPath, word: originalImage?.word });
+            selectedImagesPreviewDiv.appendChild(imgEl); 
+        });
+    }
+
+    function renderUploadedImages() {
+        uploadedImagesPreviewDiv.innerHTML = uploadedImages.length ? "" : `<p class="dictionary-message">${t('moreless.uploaded.placeholder')}</p>`;
+        uploadedImages.forEach(img => {
+            const item = document.createElement("div");
+            item.className = "dictionary-item";
+            if (selectedImages.has(img.path)) item.classList.add('selected');
+            const displayName = img.name || img.word;
+            item.innerHTML = `<img src="${img.path}" alt="${displayName}" loading="lazy"/><span>${displayName}</span>`;
+            item.onclick = () => toggleImageSelection(img);
+            uploadedImagesPreviewDiv.appendChild(item);
+        });
+    }
+
+    async function loadAssetThemes(type, selectEl) {
+        try {
+            selectEl.innerHTML = `<option value="none">${t('none')}</option>`;
+            const response = await fetch(`/api/${type}/themes?locale=${currentLocale}`);
+            if (!response.ok) {
+                console.error(`Failed to load ${type} themes`);
+                return;
+            }
+            const themes = await response.json();
+            themes.forEach(theme => {
+                // Handle new API format with {value, displayName}
+                selectEl.innerHTML += `<option value="${theme.value}">${theme.displayName}</option>`;
+            });
+        } catch (error) {
+            console.error(`Error loading ${type} themes:`, error);
+        }
+    }
+
+    function loadAssetImages(type, theme, dictionaryEl, addFunc) {
+        const assetName = type.slice(0, -1);
+        if (theme === 'none') {
+            dictionaryEl.innerHTML = `<p class="dictionary-message">${t('moreless.msg.select.theme')}</p>`;
+            const existing = worksheetCanvas.getObjects().find(o => o[`is${assetName.charAt(0).toUpperCase() + assetName.slice(1)}`]);
+            if (existing) worksheetCanvas.remove(existing).renderAll();
+            return;
+        }
+        dictionaryEl.innerHTML = `<p class="dictionary-message">${t('moreless.msg.loading')}</p>`;
+        fetch(`/api/${type}/images?theme=${theme}`)
+            .then(res => res.ok ? res.json() : Promise.reject())
+            .then(data => {
+                const images = data.images || data || [];
+                dictionaryEl.innerHTML = images.length === 0 ? `<p class="dictionary-message">${t('moreless.msg.theme.empty')}</p>` : "";
+                images.forEach(asset => {
+                    const item = document.createElement("div");
+                    item.className = "border-thumbnail-item";
+                    const imagePath = asset.path || asset.url || '/images/placeholder.png';
+                    const displayName = asset.name || asset.displayName || 'Asset';
+                    item.innerHTML = `<img src="${imagePath}" alt="${displayName}" loading="lazy" />`;
+                    item.onclick = () => {
+                        addFunc(imagePath);
+                        dictionaryEl.querySelectorAll('.selected').forEach(el => el.classList.remove('selected'));
+                        item.classList.add('selected');
+                    };
+                    dictionaryEl.appendChild(item);
+                });
+            }).catch(() => dictionaryEl.innerHTML = `<p class="dictionary-message">${t('moreless.msg.themes.error')}</p>`);
+    }
+
+    function addBorderToCanvas(path) {
+        const activeCanvas = getActiveCanvas();
+        if (!activeCanvas) return;
+        const existing = activeCanvas.getObjects().find(obj => obj.isBorder);
+        if (existing) activeCanvas.remove(existing);
+        fabric.Image.fromURL(path, (img) => {
+            if (!img) return;
+            img.scaleToWidth(activeCanvas.width);
+            img.set({ left: activeCanvas.width / 2, top: activeCanvas.height / 2, originX: 'center', originY: 'center', selectable: true, evented: true, isBorder: true, opacity: parseFloat(borderOpacitySlider.value) });
+            activeCanvas.add(img);
+            img.bringToFront(); // Bring to top so user can select it immediately
+            activeCanvas.setActiveObject(img); // Auto-select to show contextual toolbar
+            activeCanvas.renderAll();
+            borderOpacitySlider.disabled = false;
+        }, { crossOrigin: 'anonymous' });
+    }
+
+    function addBackgroundToCanvas(path) {
+        [worksheetCanvas, answerKeyCanvas].forEach(c => { if (c) c.remove(...c.getObjects().filter(o => o.isBackground)); });
+        fabric.Image.fromURL(path, (img) => {
+            if (!img) return;
+            const config = { selectable: true, evented: true, isBackground: true, opacity: parseFloat(backgroundOpacitySlider.value) };
+            [worksheetCanvas, answerKeyCanvas].forEach(c => {
+                if (!c) return;
+                const clonedImg = fabric.util.object.clone(img);
+                clonedImg.set(config).scaleToWidth(c.width);
+                c.add(clonedImg);
+                clonedImg.bringToFront(); // Bring to top so user can select it immediately
+                c.setActiveObject(clonedImg); // Auto-select to show contextual toolbar
+                c.renderAll();
+            });
+            backgroundOpacitySlider.disabled = false;
+        }, { crossOrigin: 'anonymous' });
+    }
+
+    // --- HEADER & BORDER FUNCTIONS ---
+    function createHeaderGroup(canvas) {
+        const defaultHeaders = {
+            en: { title: 'More Less', description: 'Compare and choose the right symbol!' },
+            de: { title: 'Mehr Weniger', description: 'Vergleiche und wähle das richtige Symbol!' },
+            fr: { title: 'Plus Moins', description: 'Compare et choisis le bon symbole!' },
+            es: { title: 'Más Menos', description: '¡Compara y elige el símbolo correcto!' },
+            it: { title: 'Più Meno', description: 'Confronta e scegli il simbolo giusto!' },
+            pt: { title: 'Mais Menos', description: 'Compare e escolha o símbolo correto!' },
+            nl: { title: 'Meer Minder', description: 'Vergelijk en kies het juiste symbool!' },
+            sv: { title: 'Mer Mindre', description: 'Jämför och välj rätt symbol!' },
+            da: { title: 'Mere Mindre', description: 'Sammenlign og vælg det rigtige symbol!' },
+            no: { title: 'Mer Mindre', description: 'Sammenlign og velg riktig symbol!' },
+            fi: { title: 'Enemmän Vähemmän', description: 'Vertaa ja valitse oikea symboli!' }
+        };
+
+        const locale = currentLocale || 'en';
+        const defaults = defaultHeaders[locale] || defaultHeaders.en;
+        const title = defaults.title;
+        const description = defaults.description;
+
+        // Get current canvas dimensions for responsive design
+        const pageWidth = currentCanvasConfig.width;
+        const pageHeight = currentCanvasConfig.height;
+        const isLandscape = pageWidth > pageHeight;
+
+        const objects = [];
+
+        // Outer border - responsive to page size (bright cyan for comparison theme)
+        const margin = 34;
+        const strokeWidth = 8;
+        const borderWidth = pageWidth - (margin * 2);
+        const borderHeight = pageHeight - (margin * 2);
+
+        const outerBorder = new fabric.Rect({
+            left: margin,
+            top: margin,
+            width: borderWidth,
+            height: borderHeight,
+            fill: 'transparent',
+            stroke: '#00BCD4',
+            strokeWidth: strokeWidth,
+            rx: 12,
+            ry: 12,
+            selectable: true,
+            hasControls: true,
+            isPageBorder: true
+        });
+        objects.push(outerBorder);
+
+        // Inner border - Vibrant orange (contrasting pair for comparison)
+        const innerStrokeWidth = 3;
+        const innerMargin = margin + strokeWidth + 4.5;
+        const innerBorderWidth = pageWidth - (innerMargin * 2);
+        const innerBorderHeight = pageHeight - (innerMargin * 2);
+
+        const innerBorder = new fabric.Rect({
+            left: innerMargin + 2,  // Offset 2px to the right
+            top: innerMargin + 3,   // Offset 3px downward
+            width: innerBorderWidth,
+            height: innerBorderHeight,
+            fill: 'transparent',
+            stroke: '#FF9800',
+            strokeWidth: innerStrokeWidth,
+            rx: 8,
+            ry: 8,
+            selectable: true,
+            hasControls: true,
+            isPageBorder: true
+        });
+        objects.push(innerBorder);
+
+        // LANDSCAPE MODE: Compact, centered header
+        if (isLandscape) {
+            const maxHeaderWidth = Math.min(500, pageWidth * 0.6);
+            const headerHeight = 70;
+            const centerX = pageWidth / 2;
+            const headerTop = 60;
+
+            // Sunny amber header background - compact size
+            const bgRect = new fabric.Rect({
+                left: centerX - maxHeaderWidth / 2,
+                top: headerTop,
+                width: maxHeaderWidth,
+                height: headerHeight,
+                fill: '#FFC107',
+                rx: 35,
+                ry: 35,
+                selectable: true,
+                isHeaderElement: true
+            });
+            objects.push(bgRect);
+
+            // White pill for title - compact
+            const whitePill = new fabric.Rect({
+                left: centerX - (maxHeaderWidth - 40) / 2,
+                top: headerTop + 10,
+                width: maxHeaderWidth - 40,
+                height: 50,
+                fill: '#FFFFFF',
+                rx: 25,
+                ry: 25,
+                selectable: true,
+                isHeaderElement: true
+            });
+            objects.push(whitePill);
+
+            // Title - Compact size for landscape
+            let titleFontSize = 36;
+            if (title.length > 12) titleFontSize = 32;
+            if (title.length > 15) titleFontSize = 28;
+            if (title.length > 18) titleFontSize = 24;
+
+            const titleText = new fabric.IText(title, {
+                left: centerX,
+                top: headerTop + 35,
+                fontSize: titleFontSize,
+                fontFamily: 'Fredoka, sans-serif',
+                fontWeight: '700',
+                fill: '#01579B',
+                textAlign: 'center',
+                originX: 'center',
+                originY: 'center',
+                selectable: true,
+                editable: true,
+                isHeaderElement: true
+            });
+            objects.push(titleText);
+
+            // Description - compact below header
+            const descText = new fabric.Textbox(description, {
+                left: centerX,
+                top: headerTop + headerHeight + 5,
+                width: maxHeaderWidth - 20,
+                fontSize: 14,
+                fontFamily: 'Quicksand, sans-serif',
+                fontWeight: '500',
+                fill: '#F57C00',
+                textAlign: 'center',
+                originX: 'center',
+                originY: 'top',
+                selectable: true,
+                editable: true,
+                hasControls: true,
+                isHeaderDesc: true
+            });
+            objects.push(descText);
+
+        } else {
+            // PORTRAIT MODE: Full-width professional header
+            const headerMargin = 70;
+            const headerWidth = pageWidth - (headerMargin * 2);
+            const centerX = pageWidth / 2;
+
+            // Sunny amber header background
+            const bgRect = new fabric.Rect({
+                left: headerMargin,
+                top: 70,
+                width: headerWidth,
+                height: 100,
+                fill: '#FFC107',
+                rx: 15,
+                ry: 15,
+                selectable: true,
+                isHeaderElement: true
+            });
+            objects.push(bgRect);
+
+            // White pill for title
+            const whitePill = new fabric.Rect({
+                left: headerMargin + 20,
+                top: 85,
+                width: headerWidth - 40,
+                height: 70,
+                fill: '#FFFFFF',
+                rx: 35,
+                ry: 35,
+                selectable: true,
+                isHeaderElement: true
+            });
+            objects.push(whitePill);
+
+            // Title - Dynamic size based on length
+            let titleFontSize = 48;
+            if (title.length > 12) titleFontSize = 40;
+            if (title.length > 15) titleFontSize = 36;
+            if (title.length > 18) titleFontSize = 32;
+            if (title.length > 22) titleFontSize = 28;
+
+            const titleText = new fabric.IText(title, {
+                left: centerX,
+                top: 120,
+                fontSize: titleFontSize,
+                fontFamily: 'Fredoka, sans-serif',
+                fontWeight: '700',
+                fill: '#01579B',
+                textAlign: 'center',
+                originX: 'center',
+                originY: 'center',
+                selectable: true,
+                editable: true,
+                isHeaderElement: true
+            });
+            objects.push(titleText);
+
+            // Description text
+            const descText = new fabric.Textbox(description, {
+                left: centerX,
+                top: 190,
+                width: Math.min(450, pageWidth - 150),
+                fontSize: 20,
+                fontFamily: 'Quicksand, sans-serif',
+                fontWeight: '500',
+                fill: '#F57C00',
+                textAlign: 'center',
+                originX: 'center',
+                originY: 'top',
+                selectable: true,
+                editable: true,
+                hasControls: true,
+                isHeaderDesc: true
+            });
+            objects.push(descText);
+        }
+
+        return objects;
+    }
+
+    function createPageBorder(canvas) {
+        return null;
+    }
+
+    function enforceZOrder(canvas) {
+        if (!canvas) return;
+
+        // REMOVED: Automatic z-order enforcement for backgrounds and borders
+        // Users should have full control over these elements via layer controls
+
+        // Send page borders (purple border around page) to back, behind all content
+        const pageBorders = canvas.getObjects().filter(o => o.isPageBorder);
+        pageBorders.forEach(pb => {
+            canvas.sendToBack(pb);
+        });
+
+        // Ensure header elements are in proper order (behind exercise cards but above page borders)
+        const headerElements = canvas.getObjects().filter(o => o.isHeaderElement || o.isHeaderDesc);
+        headerElements.forEach(elem => {
+            pageBorders.forEach(pb => canvas.bringForward(elem));
+        });
+    }
+
+    function handlePageSizeChange() {
+        const selectedValue = pageSizeSelect.value;
+        if (selectedValue === 'custom') {
+            customPageSizeInputsDiv.style.display = 'block';
+        } else {
+            customPageSizeInputsDiv.style.display = 'none';
+            const [w, h] = selectedValue.split('x').map(Number);
+            updateCanvasDisplayDimensions(w, h);
+            // Regenerate layout when page size changes
+            regenerateHeadersOnly();
+        }
+    }
+
+    function applyCustomPageSize() {
+        let newWidth = parseInt(pageWidthInput.value, 10) || currentCanvasConfig.width;
+        let newHeight = parseInt(pageHeightInput.value, 10) || currentCanvasConfig.height;
+        updateCanvasDisplayDimensions(newWidth, newHeight);
+        // Regenerate layout when page size changes
+        regenerateHeadersOnly();
+    }
+
+    async function regenerateHeadersOnly() {
+        // Only regenerate if worksheet exists
+        if (!lastGeneratedRows || lastGeneratedRows.length === 0) return;
+
+        // Regenerate worksheet canvas
+        await regenerateCanvasLayout(worksheetCanvas, false);
+
+        // Regenerate answer key canvas if it exists
+        const hasAnswerKey = answerKeyCanvas && answerKeyCanvas.getObjects().some(o => o.isAnswerCard);
+        if (hasAnswerKey) {
+            await regenerateCanvasLayout(answerKeyCanvas, true);
+        }
+    }
+
+    async function regenerateCanvasLayout(canvas, isAnswerKey) {
+        if (!canvas || !lastGeneratedRows || lastGeneratedRows.length === 0) return;
+
+        // Preserve user-added objects
+        const userAddedObjects = canvas.getObjects().filter(o =>
+            !o.isExerciseCard &&
+            !o.isAnswerCard &&
+            !o.isNameDateGroup &&
+            !o.isBorder &&
+            !o.isBackground &&
+            !o.isPageBorder &&
+            !o.isHeaderDesc &&
+            !o.isHeaderElement
+        );
+
+        // Remove all generated content (headers, borders, exercise cards)
+        const oldItems = canvas.getObjects().filter(o =>
+            o.isExerciseCard ||
+            o.isAnswerCard ||
+            o.isNameDateGroup ||
+            o.isPageBorder ||
+            o.isHeaderDesc ||
+            o.isHeaderElement ||
+            o.isBorder ||
+            o.isBackground
+        );
+        oldItems.forEach(o => canvas.remove(o));
+
+        // Set background color
+        canvas.backgroundColor = pageColorInput.value || '#FFFFFF';
+
+        // Recreate background and border from original canvas if needed
+        if (isAnswerKey) {
+            const worksheetBackground = worksheetCanvas.getObjects().find(o => o.isBackground);
+            if (worksheetBackground) {
+                await new Promise(resolve => worksheetBackground.clone(cloned => {
+                    cloned.set({ isBackground: true });
+                    canvas.add(cloned);
+                    resolve();
+                }));
+            }
+
+            const worksheetBorder = worksheetCanvas.getObjects().find(o => o.isBorder);
+            if (worksheetBorder) {
+                await new Promise(resolve => worksheetBorder.clone(cloned => {
+                    cloned.set({ isBorder: true });
+                    canvas.add(cloned);
+                    resolve();
+                }));
+            }
+        }
+
+        // Recreate header with current page dimensions
+        const headerObjects = createHeaderGroup(canvas);
+        if (headerObjects) {
+            canvas.add(...headerObjects);
+        }
+
+        // Recreate exercise/answer cards
+        if (isAnswerKey) {
+            // Regenerate answer key cards
+            await regenerateAnswerKeyCards(canvas);
+        } else {
+            // Regenerate worksheet cards
+            await regenerateWorksheetCards(canvas);
+        }
+
+        enforceZOrder(canvas);
+        userAddedObjects.forEach(obj => obj.bringToFront());
+        canvas.renderAll();
+    }
+
+    async function regenerateWorksheetCards(canvas) {
+        // Add name/date if needed
+        if (includeNameDateCheckbox.checked) {
+            const pageWidth = currentCanvasConfig.width;
+            const pageHeight = currentCanvasConfig.height;
+            const marginRatio = pageWidth > pageHeight ? 0.08 : 0.06;
+            const leftMargin = pageWidth * marginRatio;
+            const topMargin = pageHeight * 0.05;
+
+            const nameText = new fabric.Text('Name: ____________________', {
+                left: leftMargin,
+                top: topMargin,
+                fontSize: 18,
+                fontFamily: 'Arial'
+            });
+            const dateText = new fabric.Text('Date: ____________________', {
+                left: pageWidth - leftMargin - 250,
+                top: topMargin,
+                fontSize: 18,
+                fontFamily: 'Arial'
+            });
+            const nameDateGroup = new fabric.Group([nameText, dateText], {
+                isNameDateGroup: true,
+                selectable: true,
+                evented: true
+            });
+            canvas.add(nameDateGroup);
+        }
+
+        // Recreate exercise cards
+        const cardPromises = lastGeneratedRows.map((row, index) => createCompareCard(row, index, lastGeneratedRows.length));
+        const exerciseCards = (await Promise.all(cardPromises)).filter(Boolean);
+
+        layoutCardsOnCanvas(canvas, exerciseCards, true);
+    }
+
+    async function regenerateAnswerKeyCards(canvas) {
+        const selectedSymbolType = symbolDisplaySelect.value;
+
+        const pageWidth = currentCanvasConfig.width;
+        const pageHeight = currentCanvasConfig.height;
+        const isLandscape = pageWidth > pageHeight;
+
+        const margin = {
+            top: isLandscape ? 200 : 270, // Landscape: 200px (150 + 50), Portrait: 270px (240 + 30)
+            bottom: isLandscape ? 50 : 66.5, // Less bottom padding in landscape for more vertical space
+            left: 70,
+            right: 70
+        };
+
+        const availableWidth = pageWidth - margin.left - margin.right;
+        const availableHeight = pageHeight - margin.top - margin.bottom;
+
+        let columns = 1;
+        if (isLandscape) {
+            if (lastGeneratedRows.length >= 6) {
+                columns = 3;
+            } else if (lastGeneratedRows.length >= 3) {
+                columns = 2;
+            }
+        } else {
+            if (lastGeneratedRows.length >= 5) {
+                columns = 2;
+            }
+        }
+
+        const rows = Math.ceil(lastGeneratedRows.length / columns);
+        const horizontalSpacing = isLandscape ? availableWidth * 0.04 : availableWidth * 0.03; // Better spacing in landscape
+        const verticalSpacing = isLandscape ? availableHeight * 0.08 : availableHeight * 0.04; // More professional vertical spacing in landscape
+
+        const cardWidth = (availableWidth - horizontalSpacing * (columns - 1)) / columns;
+        const maxCardHeight = (availableHeight - verticalSpacing * (rows - 1)) / rows;
+        // In landscape, reduce by 40% total (115px cap); in portrait, cap at 120px
+        const heightCap = isLandscape ? 115 : 120; // 115 = 144 * 0.8 (additional 20% reduction)
+        const cardHeight = Math.min(heightCap, maxCardHeight * 0.95); // Use 95% of available height
+
+        const allAnswerCards = await Promise.all(lastGeneratedRows.map(async (r, i) => {
+            const baseFontSize = Math.min(54, cardHeight * 0.5);
+            const numberFontSize = Math.min(20, cardHeight * 0.2);
+            const symbolHeight = Math.min(40, cardHeight * 0.4);
+
+            const cardElements = [];
+            cardElements.push(new fabric.Rect({ left: 0, top: 0, width: cardWidth, height: cardHeight, fill: '#f0f9ff', stroke: '#a3d9ff', rx: 10, ry: 10, selectable: false, evented: false }));
+            cardElements.push(new fabric.Text(`${i + 1}.`, { left: 12, top: 8, fontSize: numberFontSize, fontWeight: '800', fill: '#c13f2f', fontFamily: 'Nunito' }));
+
+            const numL = new fabric.Text(String(r.nL), { fontSize: baseFontSize, fontWeight: '800', fill: '#4ba4e0', fontFamily: 'Nunito' });
+            const numR = new fabric.Text(String(r.nR), { fontSize: baseFontSize, fontWeight: '800', fill: '#4ba4e0', fontFamily: 'Nunito' });
+
+            let symbolElement;
+            if (selectedSymbolType === 'image') {
+                symbolElement = await new Promise(res => fabric.Image.fromURL(GL[r.rel], img => res(img), { crossOrigin: 'anonymous' }));
+                if (symbolElement) symbolElement.scaleToHeight(symbolHeight);
+            } else {
+                symbolElement = new fabric.Text(TXT_SYM[r.rel], { fontSize: baseFontSize, fontWeight: 'bold', fill: '#4ba4e0', fontFamily: 'Nunito' });
+            }
+
+            const contentElements = [numL, numR];
+            if (symbolElement) contentElements.splice(1, 0, symbolElement);
+
+            let currentX = 0;
+            contentElements.forEach(el => {
+                el.set({ left: currentX, top: 0, originY: 'center' });
+                currentX += el.width + 15;
+            });
+
+            const contentGroup = new fabric.Group(contentElements, { left: 0, top: 0 });
+            contentGroup.set({ left: (cardWidth - contentGroup.width) / 2, top: (cardHeight - contentGroup.height) / 2 + 15 });
+            cardElements.push(contentGroup);
+
+            return new fabric.Group(cardElements, { selectable: true, hasControls: true, isAnswerCard: true });
+        }));
+
+        allAnswerCards.forEach((card, i) => {
+            const col = i % columns;
+            const rowIdx = Math.floor(i / columns);
+            const cardLeft = margin.left + col * (cardWidth + horizontalSpacing);
+            const cardTop = margin.top + rowIdx * (cardHeight + verticalSpacing);
+            card.set({ left: cardLeft, top: cardTop });
+            canvas.add(card);
+        });
+    }
+
+    function applyOpacity(slider, type) {
+        const opacity = parseFloat(slider.value);
+        [worksheetCanvas, answerKeyCanvas].forEach(c => { c.getObjects().find(o => o[type])?.set('opacity', opacity); c.renderAll(); });
+    }
+
+    function buildRows(imgs, rels, problemCount) {
+        const rows = [];
+        if (!imgs?.length || !rels.length) return rows;
+
+        // Get user preferences for new features
+        const comparisonMode = comparisonModeSelect.value || 'image-to-image';
+        const imageVariety = imageVarietySelect.value || 'same';
+
+        const pickCounts = rel => {
+          let nL, nR;
+          if (rel === 'eq') nL = nR = rand(1, DEFAULT_MAX_ITEMS_PER_GROUP);
+          else if (rel === 'gt') { nR = rand(1, DEFAULT_MAX_ITEMS_PER_GROUP - 1); nL = rand(nR + 1, DEFAULT_MAX_ITEMS_PER_GROUP); }
+          else { nL = rand(1, DEFAULT_MAX_ITEMS_PER_GROUP - 1); nR = rand(nL + 1, DEFAULT_MAX_ITEMS_PER_GROUP); }
+          return [nL, nR];
+        };
+
+        // ✅ IMPROVED: Create balanced relation distribution
+        const balancedRels = [];
+        const baseCount = Math.floor(problemCount / rels.length);
+        const remainder = problemCount % rels.length;
+
+        // Add base count for each relation type (ensures even distribution)
+        for (let i = 0; i < rels.length; i++) {
+            for (let j = 0; j < baseCount; j++) {
+                balancedRels.push(rels[i]);
+            }
+        }
+
+        // Distribute remainder randomly among relation types
+        for (let i = 0; i < remainder; i++) {
+            balancedRels.push(rels[rand(0, rels.length - 1)]);
+        }
+
+        // Shuffle the balanced relations for random order
+        for (let i = balancedRels.length - 1; i > 0; i--) {
+            const j = rand(0, i);
+            [balancedRels[i], balancedRels[j]] = [balancedRels[j], balancedRels[i]];
+        }
+
+        // ✅ IMPROVED: Track used combinations to avoid duplicates
+        const usedCombinations = new Set();
+
+        // ✅ IMPROVED: Create balanced image pool to minimize duplicates
+        const balancedImages = [];
+        if (imgs.length >= problemCount) {
+            // Enough images: use each image at most once
+            const shuffledImages = [...imgs];
+            for (let i = shuffledImages.length - 1; i > 0; i--) {
+                const j = rand(0, i);
+                [shuffledImages[i], shuffledImages[j]] = [shuffledImages[j], shuffledImages[i]];
+            }
+            balancedImages.push(...shuffledImages.slice(0, problemCount));
+        } else {
+            // Fewer images than exercises: distribute evenly
+            const timesEach = Math.floor(problemCount / imgs.length);
+            const remainder = problemCount % imgs.length;
+
+            // Add each image 'timesEach' times
+            for (let i = 0; i < imgs.length; i++) {
+                for (let j = 0; j < timesEach; j++) {
+                    balancedImages.push(imgs[i]);
+                }
+            }
+
+            // Add remainder images randomly
+            for (let i = 0; i < remainder; i++) {
+                balancedImages.push(imgs[rand(0, imgs.length - 1)]);
+            }
+
+            // Shuffle the balanced images
+            for (let i = balancedImages.length - 1; i > 0; i--) {
+                const j = rand(0, i);
+                [balancedImages[i], balancedImages[j]] = [balancedImages[j], balancedImages[i]];
+            }
+        }
+
+        for (let i = 0; i < problemCount; i++) {
+            const picL = balancedImages[i];
+            let picR = picL; // Default: same image
+
+            // If different variety is selected, pick a different image for right side
+            if (imageVariety === 'different' && imgs.length > 1) {
+                let attempts = 0;
+                do {
+                    picR = imgs[rand(0, imgs.length - 1)];
+                    attempts++;
+                } while (picR === picL && attempts < 10);
+            }
+
+            // ✅ IMPROVED: Use balanced relation instead of random
+            const rel = balancedRels[i];
+            let nL, nR;
+            let attempts = 0;
+            let combinationKey;
+
+            // ✅ IMPROVED: Try to find unique number combination
+            do {
+                [nL, nR] = pickCounts(rel);
+                combinationKey = `${nL}-${rel}-${nR}`;
+                attempts++;
+            } while (usedCombinations.has(combinationKey) && attempts < 30);
+
+            // Mark this combination as used
+            usedCombinations.add(combinationKey);
+
+            rows.push({
+                L: picL,
+                R: picR,
+                rel,
+                nL,
+                nR,
+                comparisonMode // Store the comparison mode for this exercise
+            });
+        }
+        return rows;
+    }
+      
+    // Border and Background Functions
+    async function loadBorderThemes() {
+        try {
+            borderThemeSelect.innerHTML = `<option value="none">${t('none')}</option>`;
+            const response = await fetch(`/api/borders/themes?locale=${currentLocale}`);
+            if (!response.ok) {
+                console.error('Failed to load border themes');
+                return;
+            }
+            const themes = await response.json();
+            themes.forEach(theme => {
+                borderThemeSelect.innerHTML += `<option value="${theme.value}">${theme.displayName}</option>`;
+            });
+        } catch (error) {
+            console.error('Error loading border themes:', error);
+        }
+    }
+
+    async function loadBackgroundThemes() {
+        try {
+            backgroundThemeSelect.innerHTML = `<option value="none">${t('none')}</option>`;
+            const response = await fetch(`/api/backgrounds/themes?locale=${currentLocale}`);
+            if (!response.ok) {
+                console.error('Failed to load background themes');
+                return;
+            }
+            const themes = await response.json();
+            themes.forEach(theme => {
+                backgroundThemeSelect.innerHTML += `<option value="${theme.value}">${theme.displayName}</option>`;
+            });
+        } catch (error) {
+            console.error('Error loading background themes:', error);
+        }
+    }
+
+    function loadBorderImages() {
+        const theme = borderThemeSelect.value;
+        const activeCanvas = getActiveCanvas();
+        if (theme === 'none') {
+            borderDictionary.innerHTML = `<p class="dictionary-message">${t('moreless.border.message')}</p>`;
+            const existing = activeCanvas.getObjects().find(o => o.isBorder);
+            if (existing) activeCanvas.remove(existing);
+            activeCanvas.renderAll();
+            borderOpacitySlider.disabled = true;
+            return;
+        }
+        borderDictionary.innerHTML = `<p class="dictionary-message">${t('moreless.msg.loading.borders')}</p>`;
+        fetch(`/api/borders/images?theme=${theme}`)
+            .then(res => res.ok ? res.json() : Promise.reject('Failed to load border images'))
+            .then(data => {
+                const images = data.images || data || [];
+                borderDictionary.innerHTML = "";
+                images.forEach(img => {
+                    const item = document.createElement("div");
+                    item.className = "border-thumbnail-item";
+                    item.innerHTML = `<img src="${img.path}" alt="${img.name}" loading="lazy" />`;
+                    item.onclick = () => {
+                        addBorderToCanvas(img.path);
+                        document.querySelectorAll('#borderDictionary .selected').forEach(el => el.classList.remove('selected'));
+                        item.classList.add('selected');
+                    };
+                    borderDictionary.appendChild(item);
+                });
+            })
+            .catch(err => {
+                console.error('Error loading border images:', err);
+                borderDictionary.innerHTML = `<p class="dictionary-message">${t('moreless.msg.borders.error')}</p>`;
+            });
+    }
+
+    function loadBackgroundImages() {
+        const theme = backgroundThemeSelect.value;
+        const activeCanvas = getActiveCanvas();
+        if (theme === 'none') {
+            backgroundDictionary.innerHTML = `<p class="dictionary-message">${t('moreless.background.message')}</p>`;
+            const existing = activeCanvas.getObjects().find(o => o.isBackground);
+            if (existing) activeCanvas.remove(existing);
+            activeCanvas.renderAll();
+            backgroundOpacitySlider.disabled = true;
+            return;
+        }
+        backgroundDictionary.innerHTML = `<p class="dictionary-message">${t('moreless.msg.loading.backgrounds')}</p>`;
+        fetch(`/api/backgrounds/images?theme=${theme}`)
+            .then(res => res.ok ? res.json() : Promise.reject('Failed to load background images'))
+            .then(data => {
+                const images = data.images || data || [];
+                backgroundDictionary.innerHTML = "";
+                images.forEach(img => {
+                    const item = document.createElement("div");
+                    item.className = "border-thumbnail-item";
+                    item.innerHTML = `<img src="${img.path}" alt="${img.name}" loading="lazy" />`;
+                    item.onclick = () => {
+                        addBackgroundToCanvas(img.path);
+                        document.querySelectorAll('#backgroundDictionary .selected').forEach(el => el.classList.remove('selected'));
+                        item.classList.add('selected');
+                    };
+                    backgroundDictionary.appendChild(item);
+                });
+            })
+            .catch(err => {
+                console.error('Error loading background images:', err);
+                backgroundDictionary.innerHTML = `<p class="dictionary-message">${t('moreless.msg.backgrounds.error')}</p>`;
+            });
+    }
+
+    function addBorderToCanvas(path) {
+        const activeCanvas = getActiveCanvas();
+        const existing = activeCanvas.getObjects().find(o => o.isBorder);
+        if (existing) activeCanvas.remove(existing);
+
+        fabric.Image.fromURL(path, (img) => {
+            // Scale to 70% of canvas height (professional standard)
+            const targetHeight = currentCanvasConfig.height * 0.7;
+            img.scaleToHeight(targetHeight);
+
+            img.set({
+                isBorder: true,
+                selectable: true,
+                evented: true,
+                originX: 'center',
+                originY: 'center',
+                left: currentCanvasConfig.width / 2,
+                top: currentCanvasConfig.height / 2,
+                opacity: parseFloat(borderOpacitySlider.value)
+            });
+            activeCanvas.add(img);
+            img.bringToFront(); // Bring to top so user can select it immediately
+            activeCanvas.setActiveObject(img); // Auto-select to show contextual toolbar
+            activeCanvas.renderAll();
+            borderOpacitySlider.disabled = false;
+        }, { crossOrigin: 'anonymous' });
+    }
+
+    function addBackgroundToCanvas(path) {
+        const activeCanvas = getActiveCanvas();
+        const existing = activeCanvas.getObjects().find(o => o.isBackground);
+        if (existing) activeCanvas.remove(existing);
+
+        fabric.Image.fromURL(path, (img) => {
+            // Scale to 70% of canvas height (professional standard)
+            const targetHeight = currentCanvasConfig.height * 0.7;
+            img.scaleToHeight(targetHeight);
+
+            img.set({
+                isBackground: true,
+                selectable: true,
+                evented: true,
+                originX: 'center',
+                originY: 'center',
+                left: currentCanvasConfig.width / 2,
+                top: currentCanvasConfig.height / 2,
+                opacity: parseFloat(backgroundOpacitySlider.value)
+            });
+            activeCanvas.add(img);
+            img.bringToFront(); // Bring to top so user can select it immediately
+            activeCanvas.setActiveObject(img); // Auto-select to show contextual toolbar
+            activeCanvas.renderAll();
+            backgroundOpacitySlider.disabled = false;
+        }, { crossOrigin: 'anonymous' });
+    }
+
+    // Event listeners for borders and backgrounds
+    borderThemeSelect.addEventListener('change', loadBorderImages);
+    backgroundThemeSelect.addEventListener('change', loadBackgroundImages);
+
+    // Use the existing applyOpacity function for opacity controls
+    borderOpacitySlider.addEventListener('input', () => applyOpacity(borderOpacitySlider, 'isBorder'));
+    backgroundOpacitySlider.addEventListener('input', () => applyOpacity(backgroundOpacitySlider, 'isBackground'));
+
+    // Expose generateWorksheet to outer scope
+    generateWorksheetFunc = async function generateWorksheet() {
+        try {
+            clearSidebarMessage();
+            if (!worksheetCanvas) return;
+
+            // Set isGenerating flag to prevent saving state during bulk generation
+            isGenerating = true;
+
+            // Clear all old cards - always apply fresh layout
+            // This ensures consistent multi-column layout on each generation
+
+            const userAddedObjects = worksheetCanvas.getObjects().filter(o => !o.isExerciseCard && !o.isNameDateGroup && !o.isBorder && !o.isBackground && !o.isPageBorder && !o.isHeaderDesc && !o.isHeaderElement);
+            const oldGeneratedItems = worksheetCanvas.getObjects().filter(o => o.isExerciseCard || o.isNameDateGroup || o.isPageBorder || o.isHeaderDesc || o.isHeaderElement);
+            oldGeneratedItems.forEach(o => worksheetCanvas.remove(o));
+
+            // Generate header and border
+            const headerObjects = createHeaderGroup(worksheetCanvas);
+            const pageWidth = currentCanvasConfig.width;
+            const pageHeight = currentCanvasConfig.height;
+            const isLandscape = pageWidth > pageHeight;
+            const headerHeight = headerObjects ? (isLandscape ? 150 : 220) : 0;
+
+            // Add header objects to canvas
+            if (headerObjects) {
+                headerObjects.forEach(obj => worksheetCanvas.add(obj));
+            }
+
+            const imageSelectionMode = imageSelectionModeSelect.value;
+            let imagesForGeneration = [];
+            if (imageSelectionMode === 'theme') {
+                const selectedTheme = themeWorksheetSelect.value;
+                if (!selectedTheme) throw new Error(t('moreless.msg.select.worksheet.theme'));
+                const res = await fetch(`/api/images?theme=${encodeURIComponent(selectedTheme)}&locale=${currentLocale}`);
+                if (!res.ok) throw new Error(t('error.theme.loading'));
+                const data = await res.json();
+                const themeImages = data.images || data; // Handle both old and new API formats
+                // Use path property (API returns path, not url)
+                imagesForGeneration = themeImages.map(img => img.path || img.url || '/images/placeholder.png');
+                if (imagesForGeneration.length === 0) throw new Error(t('moreless.msg.theme.empty').replace('{theme}', selectedTheme));
+            } else {
+                imagesForGeneration = Array.from(selectedImages);
+                if (imagesForGeneration.length === 0) throw new Error(t('moreless.msg.pick.images'));
+            }
+
+            const rels = Array.from(relationCheckboxes).filter(i => i.checked).map(i => i.value);
+            if (!rels.length) throw new Error(t('moreless.msg.select.relation'));
+
+            const problemCount = parseInt(problemCountInput.value, 10);
+            if (isNaN(problemCount) || problemCount < 1 || problemCount > 8) throw new Error(t('moreless.msg.valid.exercises'));
+
+            lastGeneratedRows = buildRows(imagesForGeneration, rels, problemCount);
+            if (!lastGeneratedRows.length) throw new Error(t('moreless.msg.generation.failed'));
+
+            if (includeNameDateCheckbox.checked) {
+                // Use actual page dimensions for proper positioning
+                const pageWidth = currentCanvasConfig.width;
+                const pageHeight = currentCanvasConfig.height;
+                const marginRatio = pageWidth > pageHeight ? 0.08 : 0.06;
+                const leftMargin = pageWidth * marginRatio;
+                const topMargin = pageHeight * 0.05; // 5% from top
+                
+                const nameText = new fabric.Text('Name: ____________________', { 
+                    left: leftMargin, 
+                    top: topMargin, 
+                    fontSize: 18, 
+                    fontFamily: 'Arial' 
+                });
+                const dateText = new fabric.Text('Date: ____________________', { 
+                    left: pageWidth - leftMargin - 250, 
+                    top: topMargin, 
+                    fontSize: 18, 
+                    fontFamily: 'Arial' 
+                });
+                const nameDateGroup = new fabric.Group([nameText, dateText], { 
+                    isNameDateGroup: true, 
+                    selectable: true, 
+                    evented: true 
+                });
+                worksheetCanvas.add(nameDateGroup);
+            }
+
+            const cardPromises = lastGeneratedRows.map((row, index) => createCompareCard(row, index, lastGeneratedRows.length));
+            const exerciseCards = (await Promise.all(cardPromises)).filter(Boolean);
+            
+            // Always apply fresh multi-column layout
+            layoutCardsOnCanvas(worksheetCanvas, exerciseCards, true);
+            
+            enforceZOrder(worksheetCanvas);
+            userAddedObjects.forEach(o => worksheetCanvas.bringToFront(o));
+            worksheetCanvas.renderAll();
+
+            [generateAnswerKeyBtn, downloadWorksheetJpegBtn, downloadWorksheetPdfBtn, downloadAnswerKeyJpegBtn, downloadAnswerKeyPdfBtn].forEach(b => b.disabled = false);
+            showSidebarMessage(t('moreless.msg.worksheet.success'), "success");
+
+            // Reset isGenerating flag
+            isGenerating = false;
+
+            // Save state AFTER generation completes
+            saveCanvasState();
+
+        } catch(e) { 
+            console.error(e); 
+            showSidebarMessage(t('moreless.msg.generation.error').replace('{error}', e.message), 'error'); 
+        }
+    }
+
+    async function createCompareCard(problemData, index, totalExercises) {
+        // Scale item height based on page size and number of exercises
+        const pageHeight = currentCanvasConfig.height;
+        const exerciseCount = totalExercises || 1;
+        const baseItemHeight = Math.min(80, pageHeight / (exerciseCount * 2.5));
+        const itemHeight = Math.max(50, baseItemHeight); // Minimum 50, max 80
+        
+        const cardPadding = itemHeight * 0.25; // Scale padding with item size
+        const spacing = itemHeight * 0.2; // Scale spacing with item size
+        const includeNumbers = includeExerciseNumbersCheckbox.checked;
+        const showSym = showSymCheckbox.checked;
+        const selectedSymbolType = symbolDisplaySelect.value;
+
+        const contentElements = [];
+
+        if (includeNumbers) {
+            contentElements.push(new fabric.Text(`${index + 1}.`, {
+                fontSize: 24, fontWeight: 'bold', fill: '#333', fontFamily: 'Fredoka'
+            }));
+        }
+
+        const leftGroup = await createImageCluster(problemData.nL, problemData.L, itemHeight);
+        if(leftGroup) contentElements.push(leftGroup);
+
+        let symbolGroup;
+        if (!showSym) {
+            symbolGroup = new fabric.Group([
+                new fabric.Rect({ width: itemHeight, height: itemHeight, fill: '#f8f9fa', stroke: '#ced4da', strokeDashArray: [5, 5], rx: 8, ry: 8 }),
+            ]);
+        } else {
+            const symbolElements = await Promise.all(['gt', 'lt', 'eq'].map(key => new Promise(async res => {
+                let obj;
+                if (selectedSymbolType === 'image') {
+                    obj = await new Promise(r => fabric.Image.fromURL(GL[key], r, { crossOrigin: 'anonymous' }));
+                    if (obj) obj.scaleToHeight(itemHeight * 0.5);
+                } else {
+                    obj = new fabric.Text(TXT_SYM[key], { fontSize: itemHeight * 0.6, fontWeight: 'bold', fontFamily: 'Nunito' });
+                }
+                res(obj);
+            })));
+
+            let currentY = 0;
+            const symbolWrapper = new fabric.Group(symbolElements.filter(Boolean));
+            symbolWrapper.getObjects().forEach(obj => {
+                obj.set({ top: currentY, left: 0, originX: 'center' });
+                currentY += obj.getScaledHeight() + 10;
+            });
+            symbolWrapper._calcBounds();
+            symbolWrapper._updateObjectsCoords();
+            symbolGroup = new fabric.Group(symbolWrapper.getObjects(), {
+                width: symbolWrapper.width, height: symbolWrapper.height
+            });
+        }
+        symbolGroup.scaleToHeight(itemHeight);
+        contentElements.push(symbolGroup);
+
+        // Check comparison mode: image-to-image or image-to-number
+        if (problemData.comparisonMode === 'image-to-number') {
+            // Display right side as a number instead of images
+            const numberText = new fabric.Text(String(problemData.nR), {
+                fontSize: itemHeight * 0.8,
+                fontWeight: 'bold',
+                fontFamily: 'Fredoka',
+                fill: '#333'
+            });
+            contentElements.push(numberText);
+        } else {
+            // Default: display right side as images
+            const rightGroup = await createImageCluster(problemData.nR, problemData.R, itemHeight);
+            if(rightGroup) contentElements.push(rightGroup);
+        }
+        
+        let maxContentHeight = 0;
+        contentElements.forEach(el => {
+            if (el.getScaledHeight() > maxContentHeight) {
+                maxContentHeight = el.getScaledHeight();
+            }
+        });
+        
+        const cardHeight = maxContentHeight + (cardPadding * 2);
+        const contentCenterY = cardHeight / 2;
+        let currentX = cardPadding;
+        
+        contentElements.forEach(el => {
+            el.set({ left: currentX, top: contentCenterY, originX: 'left', originY: 'center' });
+            currentX += el.getScaledWidth() + spacing;
+        });
+
+        const cardWidth = currentX - spacing + cardPadding;
+        
+        const cardBackground = new fabric.Rect({
+            width: cardWidth, height: cardHeight,
+            fill: 'white', stroke: '#e0e0e0', strokeWidth: 1,
+            rx: 10, ry: 10, shadow: 'rgba(0,0,0,0.1) 0px 2px 4px'
+        });
+        
+        const finalGroup = new fabric.Group([cardBackground, ...contentElements], {
+            isExerciseCard: true, originalIndex: index,
+            objectCaching: false, subTargetCheck: true,
+            borderColor: 'var(--app-accent-primary)', cornerColor: 'var(--app-accent-primary)',
+            cornerSize: 10, transparentCorners: false, cornerStyle: 'circle'
+        });
+
+        return finalGroup;
+    }
+
+    async function createImageCluster(count, src, targetHeight) {
+        if (count === 0) return new fabric.Group([]);
+
+        const imagePromises = Array(count).fill(src).map(s => new Promise(res => fabric.Image.fromURL(s, img => res(img), { crossOrigin: 'anonymous' })));
+        const images = await Promise.all(imagePromises);
+        const validImages = images.filter(Boolean);
+        if (validImages.length === 0) return new fabric.Group([]);
+
+        const clusterGroup = new fabric.Group(validImages);
+        clusterGroup.scaleToHeight(targetHeight);
+        
+        const items = clusterGroup.getObjects();
+        clusterGroup._restoreObjectsState();
+        
+        const cols = Math.ceil(Math.sqrt(items.length));
+        const itemWidth = items[0].getScaledWidth();
+        const itemHeight = items[0].getScaledHeight();
+        const spacing = 5;
+
+        items.forEach((item, idx) => {
+            const row = Math.floor(idx / cols);
+            const col = idx % cols;
+            item.set({
+                left: col * (itemWidth + spacing),
+                top: row * (itemHeight + spacing)
+            });
+        });
+        
+        const finalCluster = new fabric.Group(items);
+        finalCluster.scaleToHeight(targetHeight);
+        return finalCluster;
+    }
+
+    function layoutCardsOnCanvas(canvas, cards, forceRelayout = true) {
+        if (!cards || cards.length === 0) return;
+
+        // CRITICAL: Use actual page dimensions, not display dimensions!
+        const pageWidth = currentCanvasConfig.width;
+        const pageHeight = currentCanvasConfig.height;
+        const isLandscape = pageWidth > pageHeight;
+
+        // Professional margins that respect border boundaries
+        // Responsive to orientation - compact header in landscape, full header in portrait
+        const margin = {
+            top: isLandscape ? 210 : 240,  // Landscape: 210px (150 + 60 total), Portrait: full header (240)
+            bottom: isLandscape ? 50 : 66.5, // Slightly less bottom padding in landscape for more vertical space
+            left: 70,   // Aligned with header background left
+            right: 70   // Symmetric padding from right border
+        };
+        
+        const availableWidth = pageWidth - margin.left - margin.right;
+        const availableHeight = pageHeight - margin.top - margin.bottom;
+        
+        // Determine optimal column layout
+        let columns = 1;
+        let optimalScale = 0;
+        let bestLayout = null;
+        
+        // For landscape, try 2 columns if we have 4+ exercises, 3 columns if 6+
+        if (isLandscape) {
+            if (cards.length >= 6) {
+                columns = 3;
+            } else if (cards.length >= 4) {
+                columns = 2;
+            }
+        } else {
+            // For portrait, use 2 columns only if we have 6+ exercises
+            if (cards.length >= 6) {
+                columns = 2;
+            }
+        }
+        
+        // Try different column configurations to find the best fit
+        for (let testCols = columns; testCols >= 1; testCols--) {
+            const testLayout = calculateLayout(cards, testCols, availableWidth, availableHeight);
+            if (testLayout.scale > optimalScale) {
+                optimalScale = testLayout.scale;
+                bestLayout = testLayout;
+                columns = testCols;
+            }
+        }
+        
+        // Use the best layout found
+        const { positions, scale } = bestLayout;
+        
+        // Apply layout to cards
+        cards.forEach((card, index) => {
+            // Skip repositioning if card already has position and we're not forcing relayout
+            if (!forceRelayout && card.left !== undefined && card.left !== null) {
+                canvas.add(card);
+                return;
+            }
+            
+            // Apply calculated position and scale
+            card.scale(scale);
+            card.set({
+                left: margin.left + positions[index].x,
+                top: margin.top + positions[index].y
+            });
+            
+            canvas.add(card);
+        });
+        
+        function calculateLayout(cards, cols, availableWidth, availableHeight) {
+            const rows = Math.ceil(cards.length / cols);
+
+            // Better spacing for landscape vs portrait
+            const horizontalSpacing = isLandscape ? availableWidth * 0.04 : availableWidth * 0.03; // 4% in landscape, 3% in portrait
+            // Add 40px extra vertical spacing in landscape mode (20px + 20px more)
+            const baseVerticalSpacing = isLandscape ? availableHeight * 0.06 : availableHeight * 0.04;
+            const verticalSpacing = isLandscape ? baseVerticalSpacing + 40 : baseVerticalSpacing;
+
+            const columnWidth = (availableWidth - (horizontalSpacing * (cols - 1))) / cols;
+
+            // Find max dimensions needed
+            let maxCardWidth = 0;
+            let maxCardHeight = 0;
+            cards.forEach(card => {
+                if (card.width > maxCardWidth) maxCardWidth = card.width;
+                if (card.height > maxCardHeight) maxCardHeight = card.height;
+            });
+
+            // Calculate scale to fit width
+            const widthScale = maxCardWidth > columnWidth ? columnWidth / maxCardWidth : 1;
+
+            // Calculate scale to fit height - distribute cards evenly in available vertical space
+            const totalHeightNeeded = (maxCardHeight * rows) + (verticalSpacing * (rows - 1));
+            const heightScale = totalHeightNeeded > availableHeight ? availableHeight / totalHeightNeeded : 1;
+
+            // Use the more restrictive scale, with higher cap for better space utilization
+            const scale = Math.min(widthScale, heightScale, 1.0); // Allow up to 100% scale
+
+            // Calculate actual dimensions with scale
+            const scaledCardHeight = maxCardHeight * scale;
+            const scaledCardWidth = maxCardWidth * scale;
+
+            // Calculate positions for left-aligned grid
+            const totalGridWidth = (scaledCardWidth * cols) + (horizontalSpacing * (cols - 1));
+            const totalGridHeight = (scaledCardHeight * rows) + (verticalSpacing * (rows - 1));
+
+            const gridStartX = 0; // Left align
+            const gridStartY = 0; // Top align
+
+            // Generate positions for each card
+            const positions = [];
+            cards.forEach((card, index) => {
+                const row = Math.floor(index / cols);
+                const col = index % cols;
+
+                // Left align each card within its cell (no centering offset)
+                const cellX = gridStartX + (col * (scaledCardWidth + horizontalSpacing));
+                const cellY = gridStartY + (row * (scaledCardHeight + verticalSpacing));
+
+                positions.push({
+                    x: cellX,
+                    y: cellY
+                });
+            });
+            
+            return { positions, scale };
+        }
+    }
+
+    async function generateAnswerKey() {
+        if (!lastGeneratedRows.length) { showSidebarMessage(t('moreless.msg.generate.first'), "error"); return; }
+
+        // Clear all old answer cards - always apply fresh layout
+        // This ensures consistent multi-column layout on each generation
+        const userAddedObjects = answerKeyCanvas.getObjects().filter(o => !o.isAnswerCard && !o.isBorder && !o.isBackground && !o.isPageBorder && !o.isHeaderDesc && !o.isHeaderElement);
+        const objectsToRemove = answerKeyCanvas.getObjects().filter(o => o.isAnswerCard || o.isBorder || o.isBackground || o.isPageBorder || o.isHeaderDesc || o.isHeaderElement);
+        objectsToRemove.forEach(o => answerKeyCanvas.remove(o));
+
+        answerKeyCanvas.backgroundColor = pageColorInput.value || '#FFFFFF';
+
+        const background = worksheetCanvas.getObjects().find(o => o.isBackground);
+        if (background) {
+            await new Promise(resolve => background.clone(cloned => {
+                cloned.set({ isBackground: true });
+                answerKeyCanvas.add(cloned);
+                resolve();
+            }));
+        }
+
+        const border = worksheetCanvas.getObjects().find(o => o.isBorder);
+        if (border) {
+            await new Promise(resolve => border.clone(cloned => {
+                cloned.set({ isBorder: true });
+                answerKeyCanvas.add(cloned);
+                resolve();
+            }));
+        }
+
+        // Copy ALL header objects from worksheet (including borders, background, pill, title, description)
+        const worksheetHeaderObjects = worksheetCanvas.getObjects().filter(o =>
+            !o.isExerciseCard && !o.isNameDateGroup && !o.isBorder && !o.isBackground
+        );
+        for (const headerObj of worksheetHeaderObjects) {
+            await new Promise(resolve => headerObj.clone(cloned => {
+                // Preserve all header object properties
+                if (headerObj.isPageBorder) cloned.set({ isPageBorder: true });
+                if (headerObj.isHeaderDesc) cloned.set({ isHeaderDesc: true });
+                if (headerObj.isHeaderElement) cloned.set({ isHeaderElement: true });
+                answerKeyCanvas.add(cloned);
+                resolve();
+            }));
+        }
+
+        const selectedSymbolType = symbolDisplaySelect.value;
+
+        // Use actual page dimensions for proper layout
+        const pageWidth = currentCanvasConfig.width;
+        const pageHeight = currentCanvasConfig.height;
+        const isLandscape = pageWidth > pageHeight;
+
+        // Professional margins that respect border boundaries
+        // Responsive to landscape/portrait orientation
+        const margin = {
+            top: isLandscape ? 200 : 270,  // Landscape: 200px (150 + 50), Portrait: 270px (240 + 30)
+            bottom: isLandscape ? 50 : 66.5, // Less bottom padding in landscape for more vertical space
+            left: 70,   // Aligned with header background left
+            right: 70   // Symmetric padding from right border
+        };
+
+        const availableWidth = pageWidth - margin.left - margin.right;
+        const availableHeight = pageHeight - margin.top - margin.bottom;
+
+        // Determine optimal columns for answer key
+        let columns = 1;
+        if (isLandscape) {
+            if (lastGeneratedRows.length >= 6) {
+                columns = 3;
+            } else if (lastGeneratedRows.length >= 3) {
+                columns = 2;
+            }
+        } else {
+            if (lastGeneratedRows.length >= 5) {
+                columns = 2;
+            }
+        }
+
+        const rows = Math.ceil(lastGeneratedRows.length / columns);
+        const horizontalSpacing = isLandscape ? availableWidth * 0.04 : availableWidth * 0.03; // Better spacing in landscape
+        const verticalSpacing = isLandscape ? availableHeight * 0.08 : availableHeight * 0.04; // More professional vertical spacing in landscape
+
+        const cardWidth = (availableWidth - horizontalSpacing * (columns - 1)) / columns;
+        const maxCardHeight = (availableHeight - verticalSpacing * (rows - 1)) / rows;
+        // In landscape, reduce by 40% total (115px cap); in portrait, cap at 120px
+        const heightCap = isLandscape ? 115 : 120; // 115 = 144 * 0.8 (additional 20% reduction)
+        const cardHeight = Math.min(heightCap, maxCardHeight * 0.95); // Use 95% of available height
+
+        const allAnswerCards = await Promise.all(lastGeneratedRows.map(async (r, i) => {
+            // Scale font sizes based on card height
+            const baseFontSize = Math.min(54, cardHeight * 0.5); // Main number size
+            const numberFontSize = Math.min(20, cardHeight * 0.2); // Exercise number size
+            const symbolHeight = Math.min(40, cardHeight * 0.4);
+            
+            const cardElements = [];
+            cardElements.push(new fabric.Rect({ left: 0, top: 0, width: cardWidth, height: cardHeight, fill: '#f0f9ff', stroke: '#a3d9ff', rx: 10, ry: 10, selectable: false, evented: false }));
+            cardElements.push(new fabric.Text(`${i + 1}.`, { left: 12, top: 8, fontSize: numberFontSize, fontWeight: '800', fill: '#c13f2f', fontFamily: 'Nunito' }));
+            const numL = new fabric.Text(String(r.nL), { fontSize: baseFontSize, fontWeight: '800', fill: '#4ba4e0', fontFamily: 'Nunito' });
+            const numR = new fabric.Text(String(r.nR), { fontSize: baseFontSize, fontWeight: '800', fill: '#4ba4e0', fontFamily: 'Nunito' });
+            let symbolElement;
+            if (selectedSymbolType === 'image') {
+                symbolElement = await new Promise(res => fabric.Image.fromURL(GL[r.rel], img => res(img), { crossOrigin: 'anonymous' }));
+                if (symbolElement) symbolElement.scaleToHeight(symbolHeight);
+            } else {
+                symbolElement = new fabric.Text(TXT_SYM[r.rel], { fontSize: baseFontSize, fontWeight: 'bold', fill: '#4ba4e0', fontFamily: 'Nunito' });
+            }
+            const contentElements = [numL, numR];
+            if (symbolElement) contentElements.splice(1, 0, symbolElement);
+            let currentX = 0;
+            contentElements.forEach(el => {
+                el.set({ left: currentX, top: 0, originY: 'center' });
+                currentX += el.getScaledWidth() + 25;
+            });
+            const contentGroup = new fabric.Group(contentElements, { selectable: false, evented: false });
+            contentGroup.set({ left: cardWidth / 2, top: cardHeight / 2, originX: 'center', originY: 'center' });
+            cardElements.push(contentGroup);
+            const row = Math.floor(i / columns), col = i % columns;
+
+            // Calculate grid position with left alignment
+            const gridStartX = margin.left; // Left align
+            const gridStartY = margin.top; // Top align
+
+            const cardX = gridStartX + col * (cardWidth + horizontalSpacing);
+            const cardY = gridStartY + row * (cardHeight + verticalSpacing);
+            
+            const card = new fabric.Group(cardElements, { 
+                left: cardX, 
+                top: cardY, 
+                selectable: true, 
+                evented: true, 
+                isAnswerCard: true, 
+                originalIndex: i, 
+                borderColor: 'var(--app-accent-primary)', 
+                cornerColor: 'var(--app-accent-primary)', 
+                cornerSize: 8 
+            });
+            
+            // Don't apply old transforms - let the grid layout position cards properly
+            
+            return card;
+        }));
+
+        answerKeyCanvas.add(...allAnswerCards);
+        enforceZOrder(answerKeyCanvas);
+        userAddedObjects.forEach(o => answerKeyCanvas.bringToFront(o));
+        answerKeyCanvas.renderAll();
+        
+        document.querySelector('.tab-button[data-tab="answerKeyTab"]').click();
+        showSidebarMessage(t('moreless.msg.answer.generated'), "success");
+        
+        [downloadAnswerKeyJpegBtn, downloadAnswerKeyPdfBtn].forEach(b => b.disabled = false);
+    }
+
+    async function downloadImageFile(canvasToExport, filename) {
+        showSidebarMessage(t('moreless.msg.preparing.jpeg'), 'info', 0);
+        try {
+            const options = { multiplier: downloadMultiplier, applyPixelLevelGrayscale: grayscaleToggle.checked };
+            const url = await getCanvasDataURLWithOptions(canvasToExport, options);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = filename;
+            a.click();
+            showSidebarMessage(t('moreless.msg.jpeg.success'), 'success', 3000);
+        } catch (e) {
+            showSidebarMessage(t('moreless.msg.jpeg.error').replace('{error}', e.message), 'error');
+        }
+    }
+
+    
+    // Check if user is on free tier
+    function isFreeTier() {
+        const urlParams = new URLSearchParams(window.location.search);
+        return urlParams.get('tier') === 'free';
+    }
+
+    // Add watermark to canvas before export
+    function addWatermarkToCanvas(canvas) {
+        if (!isFreeTier()) return;
+        
+        const watermarkText = new fabric.Text('FREE VERSION - LessonCraftStudio.com', {
+            fontSize: 40,
+            fill: 'rgba(0, 0, 0, 0.2)',
+            angle: -45,
+            left: canvas.width / 2,
+            top: canvas.height / 2,
+            originX: 'center',
+            originY: 'center',
+            selectable: false,
+            evented: false,
+            fontFamily: 'Arial, sans-serif',
+            fontWeight: 'bold'
+        });
+        
+        // Add multiple watermarks across the canvas
+        const watermarks = [];
+        const spacing = 250;
+        for (let x = 0; x < canvas.width; x += spacing) {
+            for (let y = 0; y < canvas.height; y += spacing) {
+                const wm = new fabric.Text('FREE VERSION', {
+                    fontSize: 20,
+                    fill: 'rgba(0, 0, 0, 0.15)',
+                    angle: -45,
+                    left: x,
+                    top: y,
+                    selectable: false,
+                    evented: false,
+                    fontFamily: 'Arial, sans-serif'
+                });
+                watermarks.push(wm);
+                canvas.add(wm);
+            }
+        }
+        
+        // Add main watermark
+        canvas.add(watermarkText);
+        canvas.renderAll();
+        
+        return { mainWatermark: watermarkText, watermarks };
+    }
+
+    // Remove watermark after export
+    function removeWatermarkFromCanvas(canvas, watermarkData) {
+        if (!watermarkData) return;
+        
+        if (watermarkData.mainWatermark) {
+            canvas.remove(watermarkData.mainWatermark);
+        }
+        if (watermarkData.watermarks) {
+            watermarkData.watermarks.forEach(wm => canvas.remove(wm));
+        }
+        canvas.renderAll();
+    }
+
+    // Override the original downloadPDF function
+    const originalDownloadPDF = typeof downloadPDF !== 'undefined' ? downloadPDF : null;
+    if (originalDownloadPDF) {
+        window.downloadPDF = async function(canvasToExport, fileName) {
+            if (!canvasToExport || canvasToExport.getObjects().length === 0) {
+                return showMessage(t('moreless.msg.generate.first'), 'error');
+            }
+            showMessage(t('moreless.msg.preparing.pdf'), 'info', 0);
+
+            // Add watermark if free tier
+            const watermarkData = addWatermarkToCanvas(canvasToExport);
+
+            try {
+                const { jsPDF } = window.jspdf;
+                const orientation = canvasToExport.width > canvasToExport.height ? 'l' : 'p';
+                const pdf = new jsPDF({
+                    orientation,
+                    unit: 'pt',
+                    format: [canvasToExport.width, canvasToExport.height]
+                });
+
+                const exportOptions = {
+                    multiplier: typeof downloadMultiplier !== 'undefined' ? downloadMultiplier : 6,
+                    applyGrayscale: typeof grayscaleToggle !== 'undefined' && grayscaleToggle.checked
+                };
+
+                const dataURL = await getCanvasDataURLWithOptions(canvasToExport, exportOptions);
+                pdf.addImage(dataURL, 'JPEG', 0, 0, canvasToExport.width, canvasToExport.height);
+
+                pdf.save(fileName);
+                showMessage(t('moreless.msg.pdf.downloaded'), 'success');
+            } catch(e) {
+                showMessage(t('moreless.msg.pdf.error'), 'error');
+                console.error(e);
+            } finally {
+                // Remove watermark after export
+                removeWatermarkFromCanvas(canvasToExport, watermarkData);
+            }
+        };
+    }
+
+    // Override the original downloadJPEG function if it exists
+    const originalDownloadJPEG = typeof downloadJPEG !== 'undefined' ? downloadJPEG : null;
+    if (originalDownloadJPEG) {
+        window.downloadJPEG = async function(canvasToExport, fileName) {
+            if (!canvasToExport || canvasToExport.getObjects().length === 0) {
+                return showMessage(t('moreless.msg.generate.first'), 'error');
+            }
+            showMessage(t('moreless.msg.preparing.jpeg'), 'info', 0);
+
+            // Add watermark if free tier
+            const watermarkData = addWatermarkToCanvas(canvasToExport);
+
+            try {
+                const exportOptions = {
+                    multiplier: typeof downloadMultiplier !== 'undefined' ? downloadMultiplier : 6,
+                    applyGrayscale: typeof grayscaleToggle !== 'undefined' && grayscaleToggle.checked
+                };
+                const dataURL = await getCanvasDataURLWithOptions(canvasToExport, exportOptions);
+
+                const link = document.createElement('a');
+                link.href = dataURL;
+                link.download = fileName;
+                link.click();
+                showMessage(t('moreless.msg.jpeg.success'), 'success');
+            } catch(e) {
+                showMessage(t('moreless.msg.jpeg.simple'), 'error');
+                console.error(e);
+            } finally {
+                // Remove watermark after export
+                removeWatermarkFromCanvas(canvasToExport, watermarkData);
+            }
+        };
+    }
+
+async function downloadPDF(canvasToExport, filename) {
+        showSidebarMessage(t('moreless.msg.preparing.pdf'), 'info', 0);
+        try {
+            const { jsPDF } = window.jspdf;
+            // Use the user-selected dimensions from currentCanvasConfig
+            const width = currentCanvasConfig.width;
+            const height = currentCanvasConfig.height;
+            const orientation = width > height ? 'l' : 'p';
+            const pdf = new jsPDF({ orientation: orientation, unit: 'pt', format: [width, height] });
+            const options = { multiplier: downloadMultiplier, applyPixelLevelGrayscale: grayscaleToggle.checked };
+            pdf.addImage(await getCanvasDataURLWithOptions(canvasToExport, options), 'JPEG', 0, 0, width, height);
+            pdf.save(filename);
+            showSidebarMessage(t('moreless.msg.pdf.downloaded'), 'success', 3000);
+        } catch (e) {
+            showSidebarMessage(t('moreless.msg.pdf.error.detailed').replace('{error}', e.message), "error");
+        }
+    }
+    
+    function setupCanvasEventListeners(canvas) {
+        canvas.on({
+            'selection:created': function(e) { handleObjectSelection(e, this); },
+            'selection:updated': function(e) { handleObjectSelection(e, this); },
+            'selection:cleared': function(e) { handleSelectionCleared(e, this); },
+            'object:modified': function(e) {
+                if (!isRestoringState && !isGenerating) {
+                    saveCanvasState();
+                }
+            },
+            'object:added': function(e) {
+                if (!isRestoringState && !isGenerating) {
+                    saveCanvasState();
+                }
+            },
+            'object:removed': function(e) {
+                if (!isRestoringState && !isGenerating) {
+                    saveCanvasState();
+                }
+            }
+        });
+    }
+
+    function initializeApp() {
+        document.querySelectorAll('.accordion-button').forEach(button => {
+            button.addEventListener('click', () => {
+                const isActive = button.classList.contains('active');
+                // Close all accordions first
+                document.querySelectorAll('.accordion-button').forEach(btn => {
+                    btn.classList.remove('active');
+                    btn.nextElementSibling.classList.remove('active');
+                });
+                // Open the clicked one if it wasn't active
+                if (!isActive) {
+                    button.classList.add('active');
+                    button.nextElementSibling.classList.add('active');
+                }
+            });
+        });
+
+        const openMenu = () => { panel.classList.add('is-open'); menuOverlay.classList.add('is-active'); };
+        const closeMenu = () => { panel.classList.remove('is-open'); menuOverlay.classList.remove('is-active'); };
+        menuToggleBtn.addEventListener('click', openMenu);
+        menuCloseBtn.addEventListener('click', closeMenu);
+        menuOverlay.addEventListener('click', closeMenu);
+
+        const generateDropdown = setupDropdown(generateDropdownBtn, generateDropdownContent);
+        const downloadDropdown = setupDropdown(downloadDropdownBtn, downloadDropdownContent);
+        
+        grayscaleLabel.addEventListener('click', (e) => e.stopPropagation());
+
+        window.addEventListener('click', (event) => {
+            if (activePopover && !activePopover.parentElement.contains(event.target)) togglePopover(null);
+            if (generateDropdown.content.style.display === 'block' && !generateDropdown.button.contains(event.target)) generateDropdown.content.style.display = 'none';
+            if (downloadDropdown.content.style.display === 'block' && !downloadDropdown.button.contains(event.target) && !downloadDropdown.content.contains(event.target)) downloadDropdown.content.style.display = 'none';
+        });
+
+        pageSizeSelect.addEventListener('change', handlePageSizeChange);
+        setPageSizeBtn.addEventListener('click', applyCustomPageSize);
+        pageColorInput.addEventListener('input', () => {
+          const newColor = pageColorInput.value;
+          if (worksheetCanvas) { worksheetCanvas.backgroundColor = newColor; worksheetCanvas.renderAll(); }
+          if (answerKeyCanvas) { answerKeyCanvas.backgroundColor = newColor; answerKeyCanvas.renderAll(); }
+        });
+
+        addTextBtn.addEventListener('click', () => {
+            const activeCanvas = getActiveCanvas();
+            if (!activeCanvas) return;
+            const textObject = new fabric.Textbox(textInput.value.trim() || 'New Text', {
+                left: (currentCanvasConfig.width - 250) / 2,
+                top: (currentCanvasConfig.height - 100) / 2,
+                fontSize: 48,
+                fill: '#333333',
+                fontFamily: 'Arial',
+                width: 250,
+                padding: 8,
+                borderColor: 'var(--app-accent-primary)',
+                cornerColor: 'var(--app-accent-primary)',
+                cornerSize: 10,
+                transparentCorners: false,
+                cornerStyle: 'circle',
+                stroke: '#000000',
+                strokeWidth: 0
+            });
+            activeCanvas.add(textObject).setActiveObject(textObject).renderAll();
+            textInput.value = '';
+            showSidebarMessage(t('moreless.msg.text.added'), 'success', 1500);
+        });
+
+        [textInput, textColorInput, fontSizeInput, fontFamilySelect, textStrokeColorInput, textStrokeWidthInput].forEach(el => el.addEventListener('input', updateActiveTextObjectProperties));
+        imageSelectionModeSelect.addEventListener('change', () => {
+            individualImageSelectionSection.style.display = imageSelectionModeSelect.value === 'individual' ? 'block' : 'none';
+            worksheetThemeSelectionSection.style.display = imageSelectionModeSelect.value === 'theme' ? 'block' : 'none';
+        });
+        themeDictSelect.addEventListener("change", renderDictionaryFunc);
+        const searchInput = document.createElement('input'); 
+        searchInput.type = 'text'; searchInput.id = 'searchInput'; searchInput.placeholder = 'Search images...';
+        dictDiv.before(searchInput); 
+        searchInput.addEventListener("input", () => {
+          if(searchTimeout) clearTimeout(searchTimeout);
+          searchTimeout = setTimeout(renderDictionaryFunc, 300);
+        });
+        // Custom file input button handler
+        const customFileButton = document.getElementById('customFileButton');
+        const fileSelectionText = document.getElementById('fileSelectionText');
+
+        if (customFileButton) {
+            customFileButton.addEventListener('click', () => imageUploadInput.click());
+        }
+
+        // Manually translate file button after delay
+        setTimeout(() => {
+            if (customFileButton && typeof t !== 'undefined') {
+                customFileButton.textContent = t('chooseFiles');
+            }
+            if (fileSelectionText && typeof t !== 'undefined') {
+                fileSelectionText.textContent = t('noFileChosen');
+            }
+        }, 150);
+
+        imageUploadInput.addEventListener('change', (e) => {
+            const files = Array.from(e.target.files).filter(f => f.type.startsWith('image/'));
+
+            // Update file selection text
+            if (fileSelectionText) {
+                const fileCount = files.length;
+                if (fileCount > 0) {
+                    fileSelectionText.textContent = t('filesSelected').replace('{count}', fileCount);
+                } else {
+                    fileSelectionText.textContent = t('noFileChosen');
+                }
+            }
+
+            if (files.length === 0) return;
+            uploadedImagesPreviewDiv.innerHTML = `<p class='dictionary-message'>${t('moreless.msg.loading')}</p>`;
+            Promise.all(files.map(file => new Promise((resolve, reject) => {
+                const reader = new FileReader();
+                reader.onload = e => resolve({ word: file.name.split('.')[0], path: e.target.result });
+                reader.onerror = () => reject(new Error(`Error reading ${file.name}`));
+                reader.readAsDataURL(file);
+            }))).then(newImages => {
+                uploadedImages.push(...newImages.filter(n => !uploadedImages.some(u => u.path === n.path)));
+                renderUploadedImages();
+                showSidebarMessage(t('moreless.msg.images.loaded').replace('{count}', newImages.length), 'success');
+            }).catch(err => showSidebarMessage(err.message, 'error'));
+            e.target.value = '';
+        });
+
+        generateWorksheetBtn.addEventListener("click", () => {
+            if (generateDropdownContent) generateDropdownContent.style.display = 'none';
+            generateWorksheetFunc();
+        });
+        generateAnswerKeyBtn.addEventListener("click", () => {
+            if (generateDropdownContent) generateDropdownContent.style.display = 'none';
+            generateAnswerKey();
+        });
+        
+        downloadWorksheetJpegBtn.addEventListener("click", () => downloadImageFile(worksheetCanvas, 'worksheet.jpeg'));
+        downloadAnswerKeyJpegBtn.addEventListener("click", () => downloadImageFile(answerKeyCanvas, 'answer_key.jpeg'));
+        downloadWorksheetPdfBtn.addEventListener("click", () => downloadPDF(worksheetCanvas, 'worksheet.pdf'));
+        downloadAnswerKeyPdfBtn.addEventListener("click", () => downloadPDF(answerKeyCanvas, 'answer_key.pdf'));
+
+        // Zoom Controls (from wordsearch lines 1520-1522)
+        zoomInBtn.addEventListener('click', zoomIn);
+        zoomOutBtn.addEventListener('click', zoomOut);
+        zoomResetBtn.addEventListener('click', zoomReset);
+
+        // Undo/Redo Controls
+        undoBtn.addEventListener('click', undo);
+        redoBtn.addEventListener('click', redo);
+
+        clearBtn.addEventListener("click", () => {
+            selectedImages.clear(); uploadedImages = []; lastGeneratedRows = [];
+            problemCountInput.value = 5; imageSelectionModeSelect.value = 'individual';
+            individualImageSelectionSection.style.display = 'block'; worksheetThemeSelectionSection.style.display = 'none';
+            themeDictSelect.value = "all"; themeWorksheetSelect.value = "";
+            $('#searchInput').value = "";
+            relationCheckboxes.forEach(cb => cb.checked = true);
+            symbolDisplaySelect.value = 'image'; showSymCheckbox.checked = false;
+            comparisonModeSelect.value = 'image-to-image'; imageVarietySelect.value = 'same';
+            includeNameDateCheckbox.checked = false; includeExerciseNumbersCheckbox.checked = true;
+            pageColorInput.value = '#FFFFFF';
+            [borderThemeSelect, backgroundThemeSelect].forEach(s => s.value = 'none');
+            [borderDictionary, backgroundDictionary].forEach(d => d.innerHTML = `<p class="dictionary-message">${t('moreless.msg.select.theme')}</p>`);
+            [borderOpacitySlider, backgroundOpacitySlider].forEach(s => { s.value = 1; s.disabled = true; });
+            [worksheetCanvas, answerKeyCanvas].forEach(c => { if(c) { c.clear(); c.backgroundColor = '#FFFFFF'; c.renderAll(); } });
+            [generateAnswerKeyBtn, downloadAnswerKeyJpegBtn, downloadAnswerKeyPdfBtn].forEach(b => b.disabled = true);
+            renderDictionaryFunc(); renderUploadedImages(); renderSelectedImagesPreview(); handleSelectionCleared();
+            showSidebarMessage(t('moreless.msg.cleared'), "success", 2000);
+        });
+
+        document.querySelectorAll('.tab-button').forEach(btn => btn.addEventListener('click', () => {
+            const activeCanvas = getActiveCanvas();
+            if (activeCanvas) {
+                activeCanvas.discardActiveObject().renderAll();
+                handleSelectionCleared(null, activeCanvas);
+            }
+            document.querySelectorAll('.tab-button, .tab').forEach(el => el.classList.remove('active'));
+            btn.classList.add('active');
+            $(`#${btn.dataset.tab}`).classList.add('active');
+        }));
+
+        [layersBtn, alignBtn].forEach(b => b.addEventListener('click', e => { e.stopPropagation(); togglePopover(b.nextElementSibling); }));
+
+        // Layer Controls
+        toolbarBringToFrontBtn.addEventListener('click', bringObjectToFront);
+        toolbarBringForwardBtn.addEventListener('click', bringObjectForward);
+        toolbarSendBackwardBtn.addEventListener('click', sendObjectBackward);
+        toolbarSendToBackBtn.addEventListener('click', sendObjectToBack);
+
+        toolbarLockBtn.addEventListener('click', toggleLockSelectedObjects);
+        toolbarDeleteBtn.addEventListener('click', deleteSelectedObjects);
+        unlockAllBtn.addEventListener('click', unlockAllObjects);
+        document.querySelectorAll('#alignDropdown button').forEach(button => button.addEventListener('click', e => alignObjects(e.currentTarget.id.replace('Btn', ''))));
+
+        // Event listeners for borders and backgrounds are now set up earlier in the code
+        // borderOpacitySlider listener is already set up
+        // backgroundOpacitySlider listener is already set up
+
+        // Initialize canvases WITHOUT dimensions
+        worksheetCanvas = initializeCanvas(worksheetCanvasElement);
+        worksheetCanvasRef = worksheetCanvas; // Expose to outer scope
+        answerKeyCanvas = initializeCanvas(answerKeyCanvasElement);
+
+        // CRITICAL: Set display dimensions AFTER canvas creation
+        updateCanvasDisplayDimensions(currentCanvasConfig.width, currentCanvasConfig.height, true);
+
+        // Initialize zoom display
+        updateZoomDisplay();
+
+        // Initialize undo/redo button states
+        updateHistoryButtons();
+
+        // Update on window resize for responsive behavior
+        window.addEventListener('resize', () => {
+            updateCanvasDisplayDimensions(currentCanvasConfig.width, currentCanvasConfig.height, true);
+        });
+
+        setupCanvasEventListeners(worksheetCanvas);
+        setupCanvasEventListeners(answerKeyCanvas);
+        setupGlobalKeydownListener();
+        loadThemesFunc();  // Call the exposed function
+        // Border and background themes are loaded by BulletproofLoader or fallback functions
+        renderUploadedImages();
+        handleSelectionCleared(null, worksheetCanvas);
+    }
+
+    initializeApp();
+
+    // Apply translations on load with delay to ensure translations file is loaded
+    setTimeout(function() {
+      console.log('[More Less] Applying translations for locale:', window.currentLocale);
+      applyTranslations();
+      if (typeof translatePage !== 'undefined') {
+        translatePage();
+      }
+    }, 100);
+
+    // Open first accordion by default
+    const firstAccordion = document.querySelector('.accordion-button');
+    if (firstAccordion) {
+        firstAccordion.classList.add('active');
+        firstAccordion.nextElementSibling.classList.add('active');
+    }
+
+    // Initialize BulletproofLoader and generate initial worksheet
+    async function initializeAndGenerate() {
+        // Initialize BulletproofLoader for borders and backgrounds
+        if (window.BulletproofLoader) {
+            await window.BulletproofLoader.init({
+                borderSelect: borderThemeSelect,
+                backgroundSelect: backgroundThemeSelect
+            });
+            console.log('✅ BulletproofLoader initialized');
+        } else {
+            // Fallback if BulletproofLoader not available
+            loadBorderThemes();
+            loadBackgroundThemes();
+        }
+
+        // Preload default theme in background for instant first generation
+        await preloadDefaultTheme();
+
+        // Generate initial worksheet immediately after theme is loaded
+        await generateInitialWorksheet();
+    }
+
+    // Start initialization
+    initializeAndGenerate();
+    });
+  </script>
+</body>
+</html>

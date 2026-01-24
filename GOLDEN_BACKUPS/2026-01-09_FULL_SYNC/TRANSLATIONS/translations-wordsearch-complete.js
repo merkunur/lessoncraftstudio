@@ -1,0 +1,2411 @@
+/**
+ * PROFESSIONAL WORDSEARCH TRANSLATIONS - ALL LANGUAGES
+ * =====================================================
+ * Complete multi-language translation system for Wordsearch App
+ * Created: December 2024
+ * Languages: EN, DE, FR, ES, IT, PT, NL, SV, DA, NO, FI
+ *
+ * This file combines all professional translations for the wordsearch app
+ * from the individual language files in translations/wordsearch/ folder
+ */
+
+// Define translation function if not already defined
+if (typeof t === 'undefined') {
+    window.t = function(key) {
+        if (typeof translations === 'undefined') {
+            console.warn('Translations not loaded, returning key:', key);
+            return key;
+        }
+        const translation = (translations[window.currentLocale] && translations[window.currentLocale][key]) ||
+                           (translations.en && translations.en[key]) ||
+                           key;
+        return translation;
+    };
+}
+
+// Format translation with placeholders
+if (typeof formatTranslation === 'undefined') {
+    window.formatTranslation = function(text, ...values) {
+        let result = text;
+        values.forEach((value) => {
+            result = result.replace('{}', value);
+        });
+        return result;
+    };
+}
+
+const translations = {
+    // ==========================================
+    // ENGLISH (Base Language)
+    // ==========================================
+    en: {
+        // App Metadata & Titles
+        "app.title": "Word Search Generator",
+        "worksheetGenerator": "Worksheet Generator",
+
+        // Language Settings
+        "languageSettings": "Language Settings",
+        "selectLanguage": "Select Language:",
+        "worksheetContentLanguage": "Worksheet Content Language:",
+        "imageLibraryLanguage": "Image Library Language:",
+        "contentLanguageNote": "Image names and themes will be displayed in the selected language.",
+        "imageNamesAndThemesNote": "Image names and themes will be displayed in the selected language.",
+
+        // Language names
+        "lang_en": "English",
+        "lang_de": "German (Deutsch)",
+        "lang_fr": "French (Français)",
+        "lang_es": "Spanish (Español)",
+        "lang_it": "Italian (Italiano)",
+        "lang_pt": "Portuguese (Português)",
+        "lang_nl": "Dutch (Nederlands)",
+        "lang_sv": "Swedish (Svenska)",
+        "lang_da": "Danish (Dansk)",
+        "lang_no": "Norwegian (Norsk)",
+        "lang_fi": "Finnish (Suomi)",
+
+        // Page & Scene Settings
+        "pageAndScene": "Page & Scene",
+        "pageSetup": "Page Setup",
+        "pageSize": "Page Size:",
+        "letterPortrait": "Letter Portrait (8.5×11\")",
+        "letterLandscape": "Letter Landscape (11×8.5\")",
+        "a4Portrait": "A4 Portrait (210×297mm)",
+        "a4Landscape": "A4 Landscape (297×210mm)",
+        "custom": "Custom",
+        "widthPx": "Width (px):",
+        "heightPx": "Height (px):",
+        "applySize": "Apply Size",
+
+        // Background settings
+        "background": "Background",
+        "fallbackColor": "Fallback Color:",
+        "backgroundTheme": "Background Theme:",
+        "noneUseFallbackColor": "None (Use Fallback Color)",
+        "selectThemeForBackgrounds": "Select a theme for backgrounds.",
+        "backgroundOpacity": "Background Opacity:",
+
+        // Border settings
+        "border": "Border",
+        "borderTheme": "Border Theme:",
+        "none": "None",
+        "common.none": "None",
+    "none": "None",
+    "none": "None",
+        "selectThemeToSeeBorders": "Select a theme to see borders.",
+        "borderOpacity": "Border Opacity:",
+
+        // Text Tools
+        "textTools": "Text Tools",
+        "addNewText": "Add New Text",
+        "content": "Content:",
+        "helloPlaceholder": "Hello!",
+        "addText": "Add Text",
+        "selectedTextProperties": "Selected Text Properties",
+        "color": "Color:",
+        "size": "Size:",
+        "font": "Font:",
+        "outlineColor": "Outline Color:",
+        "outlineWidth": "Outline (0-10):",
+
+        // Puzzle Settings
+        "puzzleSettings": "Puzzle Settings",
+        "gridSize": "Grid Size",
+        "rows": "Rows:",
+        "columns": "Columns:",
+        "puzzleOptions": "Puzzle Options",
+        "allowDiagonal": "Allow Diagonal Words",
+        "allowReverseWords": "Allow Reverse Words",
+        "showWordList": "Show Word/Image List",
+        "showOnlyImages": "Show only images",
+        "showOnlyWords": "Show only words",
+        "classicMode": "Classic Mode (Text Only)",
+
+        // Image Library
+        "imageLibrary": "Image Library",
+        "imageSourceForPuzzle": "Image Source for Puzzle",
+        "theme": "Theme:",
+        "useRandomTheme": "-- Use Random Theme --",
+        "individualImageSelection": "Individual Image Selection",
+        "filterByTheme": "Filter by Theme:",
+        "searchImages": "Search Images:",
+        "searchPlaceholder": "e.g., apple, car",
+        "availableImages": "Available Images (max 8):",
+        "loadingImages": "Loading images...",
+        "selectedImages": "Selected Images:",
+        "allThemes": "All Themes",
+        "allThemesRandomly": "All Themes (Randomly)",
+        "allThemesForSearch": "All Themes (for search)",
+
+        // Upload Custom Images
+        "uploadCustomImages": "Upload Custom Images",
+        "selectImagesToUpload": "Select image(s) to upload:",
+        "chooseFiles": "Choose files",
+        "noFileChosen": "No file chosen",
+        "uploadedImages": "Your Uploaded Images (This Session):",
+        "yourUploadedImagesWillAppearHere": "Your uploaded images will appear here.",
+        "uploadedImagesWillAppearHere": "Your uploaded images will appear here.",
+        "filesSelected": "{} file(s) selected",
+
+        // Manual Image Edit
+        "manualImageEdit": "Manual Image Name Editing",
+        "enableManualEdit": "Edit image names before generating",
+        "manualEditDescription": "When enabled, you can manually select images and edit their names below before generating the puzzle.",
+        "selectAndEditImages": "Select and Edit Images",
+        "manualEditInstructions": "Click to add images, then edit names below:",
+        "clickImagesToAddThem": "Click images from the library to add them here for editing.",
+
+        // Custom Word List
+        "customWordList": "Custom Word List",
+        "useCustomWords": "Use custom word list",
+        "customWordListDescription": "When enabled, generate text-only puzzles using your custom word list (no images).",
+        "enterWords": "Enter words (one per line, max 8):",
+        "customWordsPlaceholder": "apple\nbanana\norange\ngrape",
+        "customWordListNote": "Only letters are allowed. Special characters and numbers will be removed.",
+
+        // Toolbar & Alignment
+        "layers": "Layers",
+        "bringForward": "Bring Forward",
+        "sendBackward": "Send Backward",
+        "align": "Align",
+        "alignSelected": "Align Selected:",
+        "alignLeft": "Align Left",
+        "centerHorizontally": "Center Horizontally",
+        "alignRight": "Align Right",
+        "alignTop": "Align Top",
+        "centerVertically": "Center Vertically",
+        "alignBottom": "Align Bottom",
+        "alignToPage": "Align to Page:",
+        "centerOnPageHorizontally": "Center on Page Horizontally",
+        "centerOnPageVertically": "Center on Page Vertically",
+        "lockUnlock": "Lock/Unlock",
+        "unlockAll": "Unlock All",
+        "deleteSelected": "Delete Selected",
+        "bringToFront": "Bring to Front",
+        "sendToBack": "Send to Back",
+
+        // Zoom & History Controls
+        "zoomIn": "Zoom In",
+        "zoomOut": "Zoom Out",
+        "resetZoom": "Reset Zoom",
+        "undo": "Undo (Ctrl+Z)",
+        "redo": "Redo (Ctrl+Y)",
+
+        // Action Buttons
+        "generate": "Create",
+        "newWorksheet": "New Worksheet",
+        "answerKey": "Answer Key",
+        "download": "Download",
+        "worksheet": "Worksheet",
+        "worksheetJpeg": "Worksheet (JPEG)",
+        "answerKeyJpeg": "Answer Key (JPEG)",
+        "worksheetPdf": "Worksheet (PDF)",
+        "answerKeyPdf": "Answer Key (PDF)",
+        "grayscale": "Grayscale",
+        "clearAll": "Clear All",
+
+        // Success Messages
+        "worksheetGeneratedSuccessfully": "Worksheet created successfully!",
+        "answerKeyGenerated": "Answer key created!",
+        "allSettingsCleared": "All settings cleared.",
+        "puzzleWillGenerateUsing": "Puzzle will be created using the '{}' theme.",
+        "customImagesAvailable": "{} custom image(s) available.",
+        "customWordListEnabled": "Custom word list mode enabled. Puzzle will be text-only.",
+        "jpegDownloadInitiated": "JPEG download initiated!",
+        "pdfDownloaded": "PDF downloaded!",
+
+        // Loading Messages
+        "searching": "Searching...",
+        "loadingTheme": "Loading theme...",
+        "loadingImagesCount": "Loading {} image(s)...",
+        "loadingThemeBorders": "Loading {} borders...",
+        "loadingThemeBackgrounds": "Loading {} backgrounds...",
+        "preparingJpeg": "Preparing JPEG...",
+        "preparingPdf": "Preparing PDF...",
+        "preparingJPEG": "Preparing JPEG...",
+        "preparingPDF": "Preparing PDF...",
+
+        // Error Messages
+        "pleaseGenerateWorksheetFirst": "Please create a worksheet first.",
+        "pleaseGenerateContentFirst": "Please create content first.",
+        "themeNeedsMinImages": "Theme '{}' needs at least {} images.",
+        "pleaseWaitForThemes": "Please wait for themes to load...",
+        "noImagesSelectedOrAvailable": "No images selected or available to create the puzzle.",
+        "customWordListEmpty": "Please enter at least one word in the custom word list.",
+        "failedToPlaceWords": "Failed to place any words. Try a larger grid or different words.",
+        "noImagesFound": "No images found",
+        "maxImagesSelected": "You can select a maximum of {} images.",
+        "errorReadingFile": "Error reading file: {}",
+        "noBordersInTheme": "No borders in this theme.",
+        "noBackgroundsInTheme": "No backgrounds in this theme.",
+        "errorPreparingJpeg": "Error preparing JPEG.",
+        "errorCreatingPdf": "Error creating PDF.",
+        "errorPreparingJPEG": "Error preparing JPEG.",
+        "errorCreatingPDF": "Error creating PDF.",
+
+        // Watermarks & Defaults
+        "watermarkText": "FREE VERSION - LessonCraftStudio.com",
+        "watermarkSmall": "FREE VERSION",
+        "defaultNewText": "New Text",
+        "puzzle": "Puzzle",
+        "exercise": "Exercise"
+    },
+
+    // ==========================================
+    // GERMAN / DEUTSCH
+    // ==========================================
+    de: {
+        // App-Metadaten & Titel
+        "app.title": "Worträtsel-Generator",
+        "worksheetGenerator": "Arbeitsblatt-Ersteller",
+
+        // Spracheinstellungen
+        "languageSettings": "Spracheinstellungen",
+        "selectLanguage": "Sprache auswählen:",
+        "worksheetContentLanguage": "Arbeitsblatt-Inhaltssprache:",
+        "imageLibraryLanguage": "Bildbibliothek-Sprache:",
+        "contentLanguageNote": "Bildnamen und Themenbereiche werden in der gewählten Sprache angezeigt.",
+        "imageNamesAndThemesNote": "Bildnamen und Themenbereiche werden in der gewählten Sprache angezeigt.",
+
+        // Sprachnamen
+        "lang_en": "Englisch",
+        "lang_de": "Deutsch",
+        "lang_fr": "Französisch",
+        "lang_es": "Spanisch",
+        "lang_it": "Italienisch",
+        "lang_pt": "Portugiesisch",
+        "lang_nl": "Niederländisch",
+        "lang_sv": "Schwedisch",
+        "lang_da": "Dänisch",
+        "lang_no": "Norwegisch",
+        "lang_fi": "Finnisch",
+
+        // Seiten- & Szeneneinstellungen
+        "pageAndScene": "Seite & Gestaltung",
+        "pageSetup": "Seiteneinrichtung",
+        "pageSize": "Papierformat:",
+        "letterPortrait": "US Letter Hochformat (8,5×11\")",
+        "letterLandscape": "US Letter Querformat (11×8,5\")",
+        "a4Portrait": "DIN A4 Hochformat (210×297mm)",
+        "a4Landscape": "DIN A4 Querformat (297×210mm)",
+        "custom": "Benutzerdefiniert",
+        "widthPx": "Breite (px):",
+        "heightPx": "Höhe (px):",
+        "applySize": "Format anwenden",
+
+        // Hintergrundeinstellungen
+        "background": "Hintergrund",
+        "fallbackColor": "Grundfarbe:",
+        "backgroundTheme": "Hintergrundthema:",
+        "noneUseFallbackColor": "Kein Thema (Grundfarbe verwenden)",
+        "selectThemeForBackgrounds": "Wählen Sie ein Thema für Hintergründe aus.",
+        "backgroundOpacity": "Hintergrund-Transparenz:",
+
+        // Rahmeneinstellungen
+        "border": "Rahmen",
+        "borderTheme": "Rahmenthema:",
+        "none": "Kein Rahmen",
+        "common.none": "Kein",
+        "none": "Kein",
+        "selectThemeToSeeBorders": "Wählen Sie ein Thema für Rahmen aus.",
+        "borderOpacity": "Rahmen-Transparenz:",
+
+        // Textwerkzeuge
+        "textTools": "Textwerkzeuge",
+        "addNewText": "Neuen Text hinzufügen",
+        "content": "Inhalt:",
+        "helloPlaceholder": "Hallo!",
+        "addText": "Text hinzufügen",
+        "selectedTextProperties": "Eigenschaften des ausgewählten Texts",
+        "color": "Farbe:",
+        "size": "Größe:",
+        "font": "Schriftart:",
+        "outlineColor": "Umrissfarbe:",
+        "outlineWidth": "Umrissstärke (0-10):",
+
+        // Rätsel-Einstellungen
+        "puzzleSettings": "Rätsel-Einstellungen",
+        "gridSize": "Gittergröße",
+        "rows": "Zeilen:",
+        "columns": "Spalten:",
+        "puzzleOptions": "Rätsel-Optionen",
+        "allowDiagonal": "Diagonale Wörter erlauben",
+        "allowReverseWords": "Rückwärts geschriebene Wörter erlauben",
+        "showWordList": "Wort-/Bilderliste anzeigen",
+        "showOnlyImages": "Nur Bilder anzeigen",
+        "showOnlyWords": "Nur Wörter anzeigen",
+        "classicMode": "Klassischer Modus (nur Text)",
+
+        // Bilderbibliothek
+        "imageLibrary": "Bildbibliothek",
+        "imageSourceForPuzzle": "Bildquelle für Rätsel",
+        "theme": "Thema:",
+        "useRandomTheme": "-- Zufälliges Thema verwenden --",
+        "individualImageSelection": "Einzelne Bildauswahl",
+        "filterByTheme": "Nach Thema filtern:",
+        "searchImages": "Bilder suchen:",
+        "searchPlaceholder": "z.B. Apfel, Auto",
+        "availableImages": "Verfügbare Bilder (max. 8):",
+        "loadingImages": "Bilder werden geladen...",
+        "selectedImages": "Ausgewählte Bilder:",
+        "allThemes": "Alle Themen",
+        "allThemesRandomly": "Alle Themen (zufällig)",
+        "allThemesForSearch": "Alle Themen (für Suche)",
+
+        // Eigene Bilder hochladen
+        "uploadCustomImages": "Eigene Bilder hochladen",
+        "selectImagesToUpload": "Bild(er) zum Hochladen auswählen:",
+        "chooseFiles": "Dateien auswählen",
+        "noFileChosen": "Keine Datei ausgewählt",
+        "uploadedImages": "Ihre hochgeladenen Bilder (diese Sitzung):",
+        "yourUploadedImagesWillAppearHere": "Ihre hochgeladenen Bilder erscheinen hier.",
+        "uploadedImagesWillAppearHere": "Ihre hochgeladenen Bilder erscheinen hier.",
+        "filesSelected": "{} Datei(en) ausgewählt",
+
+        // Manuelle Bildnamensbearbeitung
+        "manualImageEdit": "Manuelle Bildnamensbearbeitung",
+        "enableManualEdit": "Bildnamen vor dem Generieren bearbeiten",
+        "manualEditDescription": "Wenn aktiviert, können Sie Bilder manuell auswählen und deren Namen unten bearbeiten, bevor Sie das Rätsel generieren.",
+        "selectAndEditImages": "Bilder auswählen und bearbeiten",
+        "manualEditInstructions": "Klicken Sie, um Bilder hinzuzufügen, und bearbeiten Sie die Namen unten:",
+        "clickImagesToAddThem": "Klicken Sie auf Bilder aus der Bibliothek, um sie hier zur Bearbeitung hinzuzufügen.",
+
+        // Eigene Wortliste
+        "customWordList": "Eigene Wortliste",
+        "useCustomWords": "Eigene Wortliste verwenden",
+        "customWordListDescription": "Wenn aktiviert, werden reine Texträtsel mit Ihrer eigenen Wortliste erstellt (ohne Bilder).",
+        "enterWords": "Wörter eingeben (ein Wort pro Zeile, max. 8):",
+        "customWordsPlaceholder": "Apfel\nBanane\nOrange\nTraube",
+        "customWordListNote": "Nur Buchstaben sind erlaubt. Sonderzeichen und Zahlen werden entfernt.",
+
+        // Werkzeugleiste & Ausrichtung
+        "layers": "Ebenen",
+        "bringForward": "Nach vorne",
+        "sendBackward": "Nach hinten",
+        "align": "Ausrichten",
+        "alignSelected": "Auswahl ausrichten:",
+        "alignLeft": "Links ausrichten",
+        "centerHorizontally": "Horizontal zentrieren",
+        "alignRight": "Rechts ausrichten",
+        "alignTop": "Oben ausrichten",
+        "centerVertically": "Vertikal zentrieren",
+        "alignBottom": "Unten ausrichten",
+        "alignToPage": "An Seite ausrichten:",
+        "centerOnPageHorizontally": "Auf Seite horizontal zentrieren",
+        "centerOnPageVertically": "Auf Seite vertikal zentrieren",
+        "lockUnlock": "Sperren/Entsperren",
+        "unlockAll": "Alle entsperren",
+        "deleteSelected": "Auswahl löschen",
+        "bringToFront": "Ganz nach vorne",
+        "sendToBack": "Ganz nach hinten",
+
+        // Zoom- & Verlauf-Steuerelemente
+        "zoomIn": "Vergrößern",
+        "zoomOut": "Verkleinern",
+        "resetZoom": "Zoom zurücksetzen",
+        "undo": "Rückgängig (Strg+Z)",
+        "redo": "Wiederholen (Strg+Y)",
+
+        // Aktionsschaltflächen
+        "generate": "Erstellen",
+        "newWorksheet": "Neues Arbeitsblatt",
+        "answerKey": "Lösungsblatt",
+        "download": "Herunterladen",
+        "worksheet": "Arbeitsblatt",
+        "worksheetJpeg": "Arbeitsblatt (JPEG)",
+        "answerKeyJpeg": "Lösungsblatt (JPEG)",
+        "worksheetPdf": "Arbeitsblatt (PDF)",
+        "answerKeyPdf": "Lösungsblatt (PDF)",
+        "grayscale": "Graustufen",
+        "clearAll": "Alles zurücksetzen",
+
+        // Erfolgsmeldungen
+        "worksheetGeneratedSuccessfully": "Arbeitsblatt erfolgreich erstellt!",
+        "answerKeyGenerated": "Lösungsblatt erstellt!",
+        "allSettingsCleared": "Alle Einstellungen gelöscht.",
+        "puzzleWillGenerateUsing": "Rätsel wird mit dem Thema '{}' erstellt.",
+        "customImagesAvailable": "{} benutzerdefinierte(s) Bild(er) verfügbar.",
+        "customWordListEnabled": "Eigene Wortliste aktiviert. Das Rätsel wird nur aus Text bestehen.",
+        "jpegDownloadInitiated": "JPEG-Download gestartet!",
+        "pdfDownloaded": "PDF heruntergeladen!",
+
+        // Lademeldungen
+        "searching": "Suche läuft...",
+        "loadingTheme": "Thema wird geladen...",
+        "loadingImagesCount": "{} Bild(er) werden geladen...",
+        "loadingThemeBorders": "{} Rahmen werden geladen...",
+        "loadingThemeBackgrounds": "{} Hintergründe werden geladen...",
+        "preparingJpeg": "JPEG wird vorbereitet...",
+        "preparingPdf": "PDF wird vorbereitet...",
+        "preparingJPEG": "JPEG wird vorbereitet...",
+        "preparingPDF": "PDF wird vorbereitet...",
+
+        // Fehlermeldungen
+        "pleaseGenerateWorksheetFirst": "Bitte erstellen Sie zuerst ein Arbeitsblatt.",
+        "pleaseGenerateContentFirst": "Bitte erstellen Sie zuerst Inhalte.",
+        "themeNeedsMinImages": "Thema '{}' benötigt mindestens {} Bilder.",
+        "pleaseWaitForThemes": "Bitte warten Sie, bis die Themen geladen sind...",
+        "noImagesSelectedOrAvailable": "Keine Bilder ausgewählt oder verfügbar für das Rätsel.",
+        "customWordListEmpty": "Bitte geben Sie mindestens ein Wort in die eigene Wortliste ein.",
+        "failedToPlaceWords": "Keine Wörter konnten platziert werden. Versuchen Sie ein größeres Gitter oder andere Wörter.",
+        "noImagesFound": "Keine Bilder gefunden",
+        "maxImagesSelected": "Sie können maximal {} Bilder auswählen.",
+        "errorReadingFile": "Fehler beim Lesen der Datei: {}",
+        "noBordersInTheme": "Keine Rahmen in diesem Thema.",
+        "noBackgroundsInTheme": "Keine Hintergründe in diesem Thema.",
+        "errorPreparingJpeg": "Fehler bei der JPEG-Vorbereitung.",
+        "errorCreatingPdf": "Fehler beim PDF-Erstellen.",
+        "errorPreparingJPEG": "Fehler bei der JPEG-Vorbereitung.",
+        "errorCreatingPDF": "Fehler beim PDF-Erstellen.",
+
+        // Wasserzeichen & Standards
+        "watermarkText": "KOSTENLOSE VERSION - LessonCraftStudio.com",
+        "watermarkSmall": "KOSTENLOSE VERSION",
+        "defaultNewText": "Neuer Text",
+        "puzzle": "Rätsel",
+        "exercise": "Übung"
+    },
+
+    // ==========================================
+    // FRENCH / FRANÇAIS
+    // ==========================================
+    fr: {
+        // Métadonnées et titres
+        "app.title": "Générateur de mots mêlés",
+        "worksheetGenerator": "Générateur de fiches d'exercices",
+
+        // Paramètres de langue
+        "languageSettings": "Paramètres de langue",
+        "selectLanguage": "Sélectionner la langue :",
+        "worksheetContentLanguage": "Langue du contenu de la fiche :",
+        "imageLibraryLanguage": "Langue de la bibliothèque d'images :",
+        "contentLanguageNote": "Les noms d'images et les thèmes seront affichés dans la langue sélectionnée.",
+        "imageNamesAndThemesNote": "Les noms d'images et les thèmes seront affichés dans la langue sélectionnée.",
+
+        // Noms des langues
+        "lang_en": "Anglais",
+        "lang_de": "Allemand",
+        "lang_fr": "Français",
+        "lang_es": "Espagnol",
+        "lang_it": "Italien",
+        "lang_pt": "Portugais",
+        "lang_nl": "Néerlandais",
+        "lang_sv": "Suédois",
+        "lang_da": "Danois",
+        "lang_no": "Norvégien",
+        "lang_fi": "Finnois",
+
+        // Paramètres de page
+        "pageAndScene": "Page et mise en page",
+        "pageSetup": "Configuration de la page",
+        "pageSize": "Format de page :",
+        "letterPortrait": "Lettre US Portrait (8,5×11\")",
+        "letterLandscape": "Lettre US Paysage (11×8,5\")",
+        "a4Portrait": "A4 Portrait (210×297mm)",
+        "a4Landscape": "A4 Paysage (297×210mm)",
+        "custom": "Personnalisé",
+        "widthPx": "Largeur (px) :",
+        "heightPx": "Hauteur (px) :",
+        "applySize": "Appliquer le format",
+
+        // Paramètres d'arrière-plan
+        "background": "Arrière-plan",
+        "fallbackColor": "Couleur de base :",
+        "backgroundTheme": "Thème d'arrière-plan :",
+        "noneUseFallbackColor": "Aucun (utiliser la couleur de base)",
+        "selectThemeForBackgrounds": "Sélectionnez un thème pour les arrière-plans.",
+        "backgroundOpacity": "Opacité de l'arrière-plan :",
+
+        // Paramètres de bordure
+        "border": "Bordure",
+        "borderTheme": "Thème de bordure :",
+        "none": "Aucune",
+        "common.none": "Aucun",
+    "none": "Aucun",
+    "none": "Aucun",
+        "selectThemeToSeeBorders": "Sélectionnez un thème pour voir les bordures.",
+        "borderOpacity": "Opacité de la bordure :",
+
+        // Outils de texte
+        "textTools": "Options de texte",
+        "addNewText": "Ajouter un nouveau texte",
+        "content": "Contenu :",
+        "helloPlaceholder": "Bonjour !",
+        "addText": "Ajouter du texte", // Platform standard - retroactive update 2025-11-27
+        "selectedTextProperties": "Propriétés du texte sélectionné",
+        "color": "Couleur :",
+        "size": "Taille :",
+        "font": "Police :",
+        "outlineColor": "Couleur du contour :",
+        "outlineWidth": "Largeur du contour (0-10) :",
+
+        // Paramètres du puzzle
+        "puzzleSettings": "Paramètres du puzzle",
+        "gridSize": "Taille de la grille",
+        "rows": "Lignes :",
+        "columns": "Colonnes :",
+        "puzzleOptions": "Options du puzzle",
+        "allowDiagonal": "Autoriser les mots en diagonale",
+        "allowReverseWords": "Autoriser les mots inversés",
+        "showWordList": "Afficher la liste des mots/images",
+        "showOnlyImages": "Afficher uniquement les images",
+        "showOnlyWords": "Afficher uniquement les mots",
+        "classicMode": "Mode classique (texte uniquement)",
+
+        // Bibliothèque d'images
+        "imageLibrary": "Bibliothèque d'images",
+        "imageSourceForPuzzle": "Source d'images pour le puzzle",
+        "theme": "Thème :",
+        "useRandomTheme": "-- Utiliser un thème aléatoire --",
+        "individualImageSelection": "Sélection individuelle d'images",
+        "filterByTheme": "Filtrer par thème :",
+        "searchImages": "Rechercher des images :",
+        "searchPlaceholder": "ex : pomme, voiture",
+        "availableImages": "Images disponibles (max 8) :",
+        "loadingImages": "Chargement des images...",
+        "selectedImages": "Images sélectionnées :",
+        "allThemes": "Tous les thèmes",
+        "allThemesRandomly": "Tous les thèmes (aléatoire)",
+        "allThemesForSearch": "Tous les thèmes (pour recherche)",
+
+        // Télécharger des images personnalisées
+        "uploadCustomImages": "Téléverser des images personnalisées",
+        "selectImagesToUpload": "Sélectionner une ou plusieurs images à télécharger :",
+        "chooseFiles": "Choisir des fichiers",
+        "noFileChosen": "Aucun fichier choisi",
+        "uploadedImages": "Vos images téléchargées (cette session) :",
+        "yourUploadedImagesWillAppearHere": "Vos images téléchargées apparaîtront ici.",
+        "uploadedImagesWillAppearHere": "Vos images téléchargées apparaîtront ici.",
+        "filesSelected": "{} fichier(s) sélectionné(s)",
+
+        // Modification manuelle des noms d'images
+        "manualImageEdit": "Modification manuelle des noms d'images",
+        "enableManualEdit": "Modifier les noms d'images avant la création",
+        "manualEditDescription": "Lorsque cette option est activée, vous pouvez sélectionner manuellement les images et modifier leurs noms ci-dessous avant de créer le puzzle.",
+        "selectAndEditImages": "Sélectionner et modifier les images",
+        "manualEditInstructions": "Cliquez pour ajouter des images, puis modifiez les noms ci-dessous :",
+        "clickImagesToAddThem": "Cliquez sur des images de la bibliothèque pour les ajouter ici et les modifier.",
+
+        // Liste de mots personnalisée
+        "customWordList": "Liste de mots personnalisée",
+        "useCustomWords": "Utiliser une liste de mots personnalisée",
+        "customWordListDescription": "Lorsque cette option est activée, créez des puzzles contenant uniquement du texte à partir de votre liste de mots personnalisée (sans images).",
+        "enterWords": "Entrez les mots (un par ligne, 8 max.) :",
+        "customWordsPlaceholder": "pomme\nbanane\norange\nraisin",
+        "customWordListNote": "Seules les lettres sont autorisées. Les caractères spéciaux et les chiffres seront supprimés.",
+
+        // Barre d'outils et alignement
+        "layers": "Calques",
+        "bringForward": "Avancer",
+        "sendBackward": "Reculer",
+        "align": "Aligner",
+        "alignSelected": "Aligner la sélection :",
+        "alignLeft": "Aligner à gauche",
+        "centerHorizontally": "Centrer horizontalement",
+        "alignRight": "Aligner à droite",
+        "alignTop": "Aligner en haut",
+        "centerVertically": "Centrer verticalement",
+        "alignBottom": "Aligner en bas",
+        "alignToPage": "Aligner sur la page :",
+        "centerOnPageHorizontally": "Centrer horizontalement sur la page",
+        "centerOnPageVertically": "Centrer verticalement sur la page",
+        "lockUnlock": "Verrouiller/Déverrouiller",
+        "unlockAll": "Tout déverrouiller",
+        "deleteSelected": "Supprimer la sélection",
+        "bringToFront": "Placer au premier plan",
+        "sendToBack": "Placer en arrière-plan",
+
+        // Contrôles de zoom et d'historique
+        "zoomIn": "Zoom avant",
+        "zoomOut": "Zoom arrière",
+        "resetZoom": "Réinitialiser le zoom",
+        "undo": "Annuler (Ctrl+Z)",
+        "redo": "Rétablir (Ctrl+Y)",
+
+        // Boutons d'action
+        "generate": "Créer",
+        "newWorksheet": "Nouvelle fiche",
+        "answerKey": "Corrigé",
+        "download": "Télécharger",
+        "worksheet": "Fiche d'exercices",
+        "worksheetJpeg": "Fiche d'exercices (JPEG)",
+        "answerKeyJpeg": "Corrigé (JPEG)",
+        "worksheetPdf": "Fiche d'exercices (PDF)",
+        "answerKeyPdf": "Corrigé (PDF)",
+        "grayscale": "Niveaux de gris",
+        "clearAll": "Tout effacer",
+
+        // Messages de succès
+        "worksheetGeneratedSuccessfully": "Fiche d'exercices créée avec succès !",
+        "answerKeyGenerated": "Corrigé créé !",
+        "allSettingsCleared": "Tous les paramètres ont été effacés.",
+        "puzzleWillGenerateUsing": "Le puzzle sera créé avec le thème '{}'.",
+        "customImagesAvailable": "{} image(s) personnalisée(s) disponible(s).",
+        "customWordListEnabled": "Mode liste de mots personnalisée activé. Le puzzle sera uniquement textuel.",
+        "jpegDownloadInitiated": "Téléchargement JPEG lancé !",
+        "pdfDownloaded": "PDF téléchargé !",
+
+        // Messages de chargement
+        "searching": "Recherche en cours...",
+        "loadingTheme": "Chargement du thème...",
+        "loadingImagesCount": "Chargement de {} image(s)...",
+        "loadingThemeBorders": "Chargement de {} bordures...",
+        "loadingThemeBackgrounds": "Chargement de {} arrière-plans...",
+        "preparingJpeg": "Préparation du JPEG...",
+        "preparingPdf": "Préparation du PDF...",
+        "preparingJPEG": "Préparation du JPEG...",
+        "preparingPDF": "Préparation du PDF...",
+
+        // Messages d'erreur
+        "pleaseGenerateWorksheetFirst": "Veuillez d'abord créer une fiche d'exercices.",
+        "pleaseGenerateContentFirst": "Veuillez d'abord créer du contenu.",
+        "themeNeedsMinImages": "Le thème '{}' nécessite au moins {} images.",
+        "pleaseWaitForThemes": "Veuillez attendre le chargement des thèmes...",
+        "noImagesSelectedOrAvailable": "Aucune image sélectionnée ou disponible pour créer le puzzle.",
+        "customWordListEmpty": "Veuillez entrer au moins un mot dans la liste de mots personnalisée.",
+        "failedToPlaceWords": "Impossible de placer les mots. Essayez une grille plus grande ou des mots différents.",
+        "noImagesFound": "Aucune image trouvée",
+        "maxImagesSelected": "Vous pouvez sélectionner un maximum de {} images.",
+        "errorReadingFile": "Erreur lors de la lecture du fichier : {}",
+        "noBordersInTheme": "Aucune bordure dans ce thème.",
+        "noBackgroundsInTheme": "Aucun arrière-plan dans ce thème.",
+        "errorPreparingJpeg": "Erreur lors de la préparation du JPEG.",
+        "errorCreatingPdf": "Erreur lors de la création du PDF.",
+        "errorPreparingJPEG": "Erreur lors de la préparation du JPEG.",
+        "errorCreatingPDF": "Erreur lors de la création du PDF.",
+
+        // Filigranes et valeurs par défaut
+        "watermarkText": "VERSION GRATUITE - LessonCraftStudio.com",
+        "watermarkSmall": "VERSION GRATUITE",
+        "defaultNewText": "Nouveau texte",
+        "puzzle": "Puzzle",
+        "exercise": "Exercice"
+    },
+
+    // ==========================================
+    // SPANISH / ESPAÑOL
+    // ==========================================
+    es: {
+        // Metadatos y títulos
+        "app.title": "Generador de sopas de letras",
+        "worksheetGenerator": "Generador de hojas de ejercicios",
+
+        // Configuración de idioma
+        "languageSettings": "Configuración de idioma",
+        "selectLanguage": "Seleccionar idioma:",
+        "worksheetContentLanguage": "Idioma del contenido de la hoja:",
+        "imageLibraryLanguage": "Idioma de la biblioteca de imágenes:",
+        "contentLanguageNote": "Los nombres de imágenes y temas se mostrarán en el idioma seleccionado.",
+        "imageNamesAndThemesNote": "Los nombres de imágenes y temas se mostrarán en el idioma seleccionado.",
+
+        // Nombres de idiomas
+        "lang_en": "Inglés",
+        "lang_de": "Alemán",
+        "lang_fr": "Francés",
+        "lang_es": "Español",
+        "lang_it": "Italiano",
+        "lang_pt": "Portugués",
+        "lang_nl": "Neerlandés",
+        "lang_sv": "Sueco",
+        "lang_da": "Danés",
+        "lang_no": "Noruego",
+        "lang_fi": "Finlandés",
+
+        // Configuración de página
+        "pageAndScene": "Página y diseño",
+        "pageSetup": "Configuración de página",
+        "pageSize": "Tamaño de página:",
+        "letterPortrait": "Carta Vertical (8,5×11\")",
+        "letterLandscape": "Carta Horizontal (11×8,5\")",
+        "a4Portrait": "A4 Vertical (210×297mm)",
+        "a4Landscape": "A4 Horizontal (297×210mm)",
+        "custom": "Personalizado",
+        "widthPx": "Ancho (px):",
+        "heightPx": "Alto (px):",
+        "applySize": "Aplicar tamaño",
+
+        // Configuración de fondo
+        "background": "Fondo",
+        "fallbackColor": "Color base:",
+        "backgroundTheme": "Tema de fondo:",
+        "noneUseFallbackColor": "Ninguno (usar color base)",
+        "selectThemeForBackgrounds": "Selecciona un tema para los fondos.",
+        "backgroundOpacity": "Opacidad del fondo:",
+
+        // Configuración de borde
+        "border": "Borde",
+        "borderTheme": "Tema de borde:",
+        "none": "Ninguno",
+        "common.none": "Ninguno",
+    "none": "Ninguno",
+    "none": "Ninguno",
+        "selectThemeToSeeBorders": "Selecciona un tema para ver los bordes.",
+        "borderOpacity": "Opacidad del borde:",
+
+        // Herramientas de texto
+        "textTools": "Herramientas de texto",
+        "addNewText": "Añadir nuevo texto",
+        "content": "Contenido:",
+        "helloPlaceholder": "¡Hola!",
+        "addText": "Añadir texto",
+        "selectedTextProperties": "Propiedades del texto seleccionado",
+        "color": "Color:",
+        "size": "Tamaño:",
+        "font": "Fuente:",
+        "outlineColor": "Color del contorno:",
+        "outlineWidth": "Ancho del contorno (0-10):",
+
+        // Configuración del juego
+        "puzzleSettings": "Configuración del juego",
+        "gridSize": "Tamaño de la cuadrícula",
+        "rows": "Filas:",
+        "columns": "Columnas:",
+        "puzzleOptions": "Opciones del juego",
+        "allowDiagonal": "Permitir palabras en diagonal",
+        "allowReverseWords": "Permitir palabras al revés",
+        "showWordList": "Mostrar lista de palabras/imágenes",
+        "showOnlyImages": "Mostrar solo imágenes",
+        "showOnlyWords": "Mostrar solo palabras",
+        "classicMode": "Modo clásico (solo texto)",
+
+        // Biblioteca de imágenes
+        "imageLibrary": "Biblioteca de imágenes",
+        "imageSourceForPuzzle": "Fuente de imágenes para el juego",
+        "theme": "Tema:",
+        "useRandomTheme": "-- Usar tema aleatorio --",
+        "individualImageSelection": "Selección individual de imágenes",
+        "filterByTheme": "Filtrar por tema:",
+        "searchImages": "Buscar imágenes:",
+        "searchPlaceholder": "ej.: manzana, coche",
+        "availableImages": "Imágenes disponibles (máx. 8):",
+        "loadingImages": "Cargando imágenes...",
+        "selectedImages": "Imágenes seleccionadas:",
+        "allThemes": "Todos los temas",
+        "allThemesRandomly": "Todos los temas (aleatorio)",
+        "allThemesForSearch": "Todos los temas (para búsqueda)",
+
+        // Cargar imágenes propias
+        "uploadCustomImages": "Cargar imágenes propias",
+        "selectImagesToUpload": "Seleccionar imagen(es) para cargar:",
+        "chooseFiles": "Elegir archivos",
+        "noFileChosen": "Ningún archivo elegido",
+        "uploadedImages": "Sus imágenes cargadas (esta sesión):",
+        "yourUploadedImagesWillAppearHere": "Sus imágenes cargadas aparecerán aquí.",
+        "uploadedImagesWillAppearHere": "Sus imágenes cargadas aparecerán aquí.",
+        "filesSelected": "{} archivo(s) seleccionado(s)",
+
+        // Edición manual de nombres de imágenes
+        "manualImageEdit": "Edición manual de nombres de imágenes",
+        "enableManualEdit": "Editar nombres de imágenes antes de crear",
+        "manualEditDescription": "Cuando esta opción está activada, puede seleccionar manualmente las imágenes y editar sus nombres a continuación antes de crear el juego.",
+        "selectAndEditImages": "Seleccionar y editar imágenes",
+        "manualEditInstructions": "Haz clic para añadir imágenes y luego edita los nombres a continuación:",
+        "clickImagesToAddThem": "Haz clic en las imágenes de la biblioteca para añadirlas aquí y editarlas.",
+
+        // Lista de palabras personalizada
+        "customWordList": "Lista de palabras personalizada",
+        "useCustomWords": "Usar lista de palabras personalizada",
+        "customWordListDescription": "Cuando esta opción está activada, cree juegos que solo contengan texto usando su lista de palabras personalizada (sin imágenes).",
+        "enterWords": "Introduce las palabras (una por línea, máx. 8):",
+        "customWordsPlaceholder": "manzana\nplátano\nnaranja\nuva",
+        "customWordListNote": "Solo se permiten letras. Los caracteres especiales y los números se eliminarán.",
+
+        // Barra de herramientas y alineación
+        "layers": "Capas",
+        "bringForward": "Traer adelante",
+        "sendBackward": "Enviar atrás",
+        "align": "Alinear",
+        "alignSelected": "Alinear selección:",
+        "alignLeft": "Alinear a la izquierda",
+        "centerHorizontally": "Centrar horizontalmente",
+        "alignRight": "Alinear a la derecha",
+        "alignTop": "Alinear arriba",
+        "centerVertically": "Centrar verticalmente",
+        "alignBottom": "Alinear abajo",
+        "alignToPage": "Alinear a la página:",
+        "centerOnPageHorizontally": "Centrar horizontalmente en la página",
+        "centerOnPageVertically": "Centrar verticalmente en la página",
+        "lockUnlock": "Bloquear/Desbloquear",
+        "unlockAll": "Desbloquear todo",
+        "deleteSelected": "Eliminar selección",
+        "bringToFront": "Traer al frente",
+        "sendToBack": "Enviar al fondo",
+
+        // Controles de zoom e historial
+        "zoomIn": "Acercar",
+        "zoomOut": "Alejar",
+        "resetZoom": "Restablecer zoom",
+        "undo": "Deshacer (Ctrl+Z)",
+        "redo": "Rehacer (Ctrl+Y)",
+
+        // Botones de acción
+        "generate": "Crear",
+        "newWorksheet": "Nueva hoja",
+        "answerKey": "Solucionario",
+        "download": "Descargar",
+        "worksheet": "Hoja de ejercicios",
+        "worksheetJpeg": "Hoja de ejercicios (JPEG)",
+        "answerKeyJpeg": "Solucionario (JPEG)",
+        "worksheetPdf": "Hoja de ejercicios (PDF)",
+        "answerKeyPdf": "Solucionario (PDF)",
+        "grayscale": "Escala de grises",
+        "clearAll": "Borrar todo",
+
+        // Mensajes de éxito
+        "worksheetGeneratedSuccessfully": "¡Hoja de ejercicios creada con éxito!",
+        "answerKeyGenerated": "¡Solucionario creado!",
+        "allSettingsCleared": "Toda la configuración ha sido borrada.",
+        "puzzleWillGenerateUsing": "El juego se creará usando el tema '{}'.",
+        "customImagesAvailable": "{} imagen(es) propia(s) disponible(s).",
+        "customWordListEnabled": "Modo de lista de palabras personalizada activado. El juego será solo de texto.",
+        "jpegDownloadInitiated": "¡Descarga de JPEG iniciada!",
+        "pdfDownloaded": "¡PDF descargado!",
+
+        // Mensajes de carga
+        "searching": "Buscando...",
+        "loadingTheme": "Cargando tema...",
+        "loadingImagesCount": "Cargando {} imagen(es)...",
+        "loadingThemeBorders": "Cargando {} bordes...",
+        "loadingThemeBackgrounds": "Cargando {} fondos...",
+        "preparingJpeg": "Preparando JPEG...",
+        "preparingPdf": "Preparando PDF...",
+        "preparingJPEG": "Preparando JPEG...",
+        "preparingPDF": "Preparando PDF...",
+
+        // Mensajes de error
+        "pleaseGenerateWorksheetFirst": "Por favor, primero crea una hoja de ejercicios.",
+        "pleaseGenerateContentFirst": "Por favor, primero crea el contenido.",
+        "themeNeedsMinImages": "El tema '{}' necesita al menos {} imágenes.",
+        "pleaseWaitForThemes": "Por favor, espera a que se carguen los temas...",
+        "noImagesSelectedOrAvailable": "No hay imágenes seleccionadas o disponibles para crear el juego.",
+        "customWordListEmpty": "Por favor, introduce al menos una palabra en la lista de palabras personalizada.",
+        "failedToPlaceWords": "No se pudieron colocar palabras. Intenta con una cuadrícula más grande o palabras diferentes.",
+        "noImagesFound": "No se encontraron imágenes",
+        "maxImagesSelected": "Puedes seleccionar un máximo de {} imágenes.",
+        "errorReadingFile": "Error al leer el archivo: {}",
+        "noBordersInTheme": "No hay bordes en este tema.",
+        "noBackgroundsInTheme": "No hay fondos en este tema.",
+        "errorPreparingJpeg": "Error al preparar el JPEG.",
+        "errorCreatingPdf": "Error al crear el PDF.",
+        "errorPreparingJPEG": "Error al preparar el JPEG.",
+        "errorCreatingPDF": "Error al crear el PDF.",
+
+        // Marcas de agua y valores por defecto
+        "watermarkText": "VERSIÓN GRATUITA - LessonCraftStudio.com",
+        "watermarkSmall": "VERSIÓN GRATUITA",
+        "defaultNewText": "Nuevo texto",
+        "puzzle": "Juego",
+        "exercise": "Ejercicio"
+    },
+
+    // ==========================================
+    // ITALIAN / ITALIANO
+    // ==========================================
+    it: {
+        // Metadati e titoli
+        "app.title": "Generatore di crucipuzzle",
+        "worksheetGenerator": "Creatore di schede didattiche",
+
+        // Impostazioni lingua
+        "languageSettings": "Impostazioni lingua",
+        "selectLanguage": "Seleziona lingua:",
+        "worksheetContentLanguage": "Lingua contenuto scheda:",
+        "imageLibraryLanguage": "Lingua libreria immagini:",
+        "contentLanguageNote": "I nomi delle immagini e i temi verranno visualizzati nella lingua selezionata.",
+        "imageNamesAndThemesNote": "I nomi delle immagini e i temi verranno visualizzati nella lingua selezionata.",
+
+        // Nomi delle lingue
+        "lang_en": "Inglese",
+        "lang_de": "Tedesco",
+        "lang_fr": "Francese",
+        "lang_es": "Spagnolo",
+        "lang_it": "Italiano",
+        "lang_pt": "Portoghese",
+        "lang_nl": "Olandese",
+        "lang_sv": "Svedese",
+        "lang_da": "Danese",
+        "lang_no": "Norvegese",
+        "lang_fi": "Finlandese",
+
+        // Impostazioni pagina
+        "pageAndScene": "Pagina e layout",
+        "pageSetup": "Configurazione pagina",
+        "pageSize": "Formato pagina:",
+        "letterPortrait": "Lettera verticale (8,5×11\")",
+        "letterLandscape": "Lettera orizzontale (11×8,5\")",
+        "a4Portrait": "A4 verticale (210×297mm)",
+        "a4Landscape": "A4 orizzontale (297×210mm)",
+        "custom": "Personalizzato",
+        "widthPx": "Larghezza (px):",
+        "heightPx": "Altezza (px):",
+        "applySize": "Applica formato",
+
+        // Impostazioni sfondo
+        "background": "Sfondo",
+        "fallbackColor": "Colore base:",
+        "backgroundTheme": "Tema sfondo:",
+        "noneUseFallbackColor": "Nessuno (usa colore base)",
+        "selectThemeForBackgrounds": "Seleziona un tema per gli sfondi.",
+        "backgroundOpacity": "Opacità sfondo:",
+
+        // Impostazioni bordo
+        "border": "Bordo",
+        "borderTheme": "Tema bordo:",
+        "none": "Nessuno",
+        "common.none": "Nessuno",
+        "selectThemeToSeeBorders": "Seleziona un tema per vedere i bordi.",
+        "borderOpacity": "Opacità bordo:",
+
+        // Strumenti testo
+        "textTools": "Strumenti testo",
+        "addNewText": "Aggiungi nuovo testo",
+        "content": "Contenuto:",
+        "helloPlaceholder": "Ciao!",
+        "addText": "Aggiungi testo",
+        "selectedTextProperties": "Proprietà testo selezionato",
+        "color": "Colore:",
+        "size": "Dimensione:",
+        "font": "Carattere:",
+        "outlineColor": "Colore contorno:",
+        "outlineWidth": "Larghezza contorno (0-10):",
+
+        // Impostazioni puzzle
+        "puzzleSettings": "Impostazioni gioco",
+        "gridSize": "Dimensione griglia",
+        "rows": "Righe:",
+        "columns": "Colonne:",
+        "puzzleOptions": "Opzioni puzzle",
+        "allowDiagonal": "Consenti parole in diagonale",
+        "allowReverseWords": "Consenti parole al contrario",
+        "showWordList": "Mostra lista parole/immagini",
+        "showOnlyImages": "Mostra solo immagini",
+        "showOnlyWords": "Mostra solo parole",
+        "classicMode": "Modalità classica (solo testo)",
+
+        // Libreria immagini
+        "imageLibrary": "Libreria immagini",
+        "imageSourceForPuzzle": "Fonte immagini per il puzzle",
+        "theme": "Tema:",
+        "useRandomTheme": "-- Usa tema casuale --",
+        "individualImageSelection": "Selezione individuale immagini",
+        "filterByTheme": "Filtra per tema:",
+        "searchImages": "Cerca immagini:",
+        "searchPlaceholder": "es.: mela, auto",
+        "availableImages": "Immagini disponibili (max 8):",
+        "loadingImages": "Caricamento immagini...",
+        "selectedImages": "Immagini selezionate:",
+        "allThemes": "Tutti i temi",
+        "allThemesRandomly": "Tutti i temi (casuale)",
+        "allThemesForSearch": "Tutti i temi (per ricerca)",
+
+        // Carica immagini personalizzate
+        "uploadCustomImages": "Carica le tue immagini",
+        "selectImagesToUpload": "Seleziona immagine/i da caricare:",
+        "chooseFiles": "Scegli file",
+        "noFileChosen": "Nessun file scelto",
+        "uploadedImages": "Le tue immagini caricate (questa sessione):",
+        "yourUploadedImagesWillAppearHere": "Le tue immagini caricate appariranno qui.",
+        "uploadedImagesWillAppearHere": "Le tue immagini caricate appariranno qui.",
+        "filesSelected": "{} file selezionato/i",
+
+        // Modifica manuale dei nomi delle immagini
+        "manualImageEdit": "Modifica manuale dei nomi delle immagini",
+        "enableManualEdit": "Modifica i nomi delle immagini prima di creare",
+        "manualEditDescription": "Quando questa opzione è attivata, è possibile selezionare manualmente le immagini e modificare i loro nomi qui sotto prima di creare il puzzle.",
+        "selectAndEditImages": "Seleziona e modifica immagini",
+        "manualEditInstructions": "Clicca per aggiungere immagini, poi modifica i nomi qui sotto:",
+        "clickImagesToAddThem": "Clicca sulle immagini dalla biblioteca per aggiungerle qui e modificarle.",
+
+        // Elenco parole personalizzato
+        "customWordList": "Elenco parole personalizzato",
+        "useCustomWords": "Usa elenco parole personalizzato",
+        "customWordListDescription": "Quando questa opzione è attivata, crea puzzle contenenti solo testo usando il tuo elenco parole personalizzato (senza immagini).",
+        "enterWords": "Inserisci le parole (una per riga, max 8):",
+        "customWordsPlaceholder": "mela\nbanana\narancia\nuva",
+        "customWordListNote": "Sono ammesse solo lettere. I caratteri speciali e i numeri verranno rimossi.",
+
+        // Barra strumenti e allineamento
+        "layers": "Livelli",
+        "bringForward": "Porta avanti",
+        "sendBackward": "Porta indietro",
+        "align": "Allinea",
+        "alignSelected": "Allinea selezione:",
+        "alignLeft": "Allinea a sinistra",
+        "centerHorizontally": "Centra orizzontalmente",
+        "alignRight": "Allinea a destra",
+        "alignTop": "Allinea in alto",
+        "centerVertically": "Centra verticalmente",
+        "alignBottom": "Allinea in basso",
+        "alignToPage": "Allinea alla pagina:",
+        "centerOnPageHorizontally": "Centra orizzontalmente nella pagina",
+        "centerOnPageVertically": "Centra verticalmente nella pagina",
+        "lockUnlock": "Blocca/Sblocca",
+        "unlockAll": "Sblocca tutto",
+        "deleteSelected": "Elimina selezione",
+        "bringToFront": "Porta in primo piano",
+        "sendToBack": "Sposta sullo sfondo",
+
+        // Controlli zoom e cronologia
+        "zoomIn": "Ingrandisci",
+        "zoomOut": "Riduci",
+        "resetZoom": "Reimposta zoom",
+        "undo": "Annulla (Ctrl+Z)",
+        "redo": "Ripeti (Ctrl+Y)",
+
+        // Pulsanti azione
+        "generate": "Crea",
+        "newWorksheet": "Nuova scheda",
+        "answerKey": "Soluzioni",
+        "download": "Scarica",
+        "worksheet": "Scheda didattica",
+        "worksheetJpeg": "Scheda didattica (JPEG)",
+        "answerKeyJpeg": "Soluzioni (JPEG)",
+        "worksheetPdf": "Scheda didattica (PDF)",
+        "answerKeyPdf": "Soluzioni (PDF)",
+        "grayscale": "Scala di grigi",
+        "clearAll": "Cancella tutto",
+
+        // Messaggi di successo
+        "worksheetGeneratedSuccessfully": "Scheda didattica creata con successo!",
+        "answerKeyGenerated": "Soluzioni create!",
+        "allSettingsCleared": "Tutte le impostazioni sono state cancellate.",
+        "puzzleWillGenerateUsing": "Il puzzle verrà creato usando il tema '{}'.",
+        "customImagesAvailable": "{} immagine/i personalizzata/e disponibile/i.",
+        "customWordListEnabled": "Modalità elenco parole personalizzato attivata. Il puzzle sarà solo testuale.",
+        "jpegDownloadInitiated": "Scaricamento JPEG avviato!",
+        "pdfDownloaded": "PDF scaricato!",
+
+        // Messaggi di caricamento
+        "searching": "Ricerca in corso...",
+        "loadingTheme": "Caricamento tema...",
+        "loadingImagesCount": "Caricamento {} immagine/i...",
+        "loadingThemeBorders": "Caricamento {} bordi...",
+        "loadingThemeBackgrounds": "Caricamento {} sfondi...",
+        "preparingJpeg": "Preparazione JPEG...",
+        "preparingPdf": "Preparazione PDF...",
+        "preparingJPEG": "Preparazione JPEG...",
+        "preparingPDF": "Preparazione PDF...",
+
+        // Messaggi di errore
+        "pleaseGenerateWorksheetFirst": "Prima genera una scheda didattica.",
+        "pleaseGenerateContentFirst": "Prima genera il contenuto.",
+        "themeNeedsMinImages": "Il tema '{}' richiede almeno {} immagini.",
+        "pleaseWaitForThemes": "Attendi il caricamento dei temi...",
+        "noImagesSelectedOrAvailable": "Nessuna immagine selezionata o disponibile per creare il puzzle.",
+        "customWordListEmpty": "Inserisci almeno una parola nell'elenco parole personalizzato.",
+        "failedToPlaceWords": "Impossibile posizionare le parole. Prova con una griglia più grande o parole diverse.",
+        "noImagesFound": "Nessuna immagine trovata",
+        "maxImagesSelected": "Puoi selezionare un massimo di {} immagini.",
+        "errorReadingFile": "Errore nella lettura del file: {}",
+        "noBordersInTheme": "Nessun bordo in questo tema.",
+        "noBackgroundsInTheme": "Nessuno sfondo in questo tema.",
+        "errorPreparingJpeg": "Errore nella preparazione del JPEG.",
+        "errorCreatingPdf": "Errore nella creazione del PDF.",
+        "errorPreparingJPEG": "Errore nella preparazione del JPEG.",
+        "errorCreatingPDF": "Errore nella creazione del PDF.",
+
+        // Filigrane e valori predefiniti
+        "watermarkText": "VERSIONE GRATUITA - LessonCraftStudio.com",
+        "watermarkSmall": "VERSIONE GRATUITA",
+        "defaultNewText": "Nuovo testo",
+        "puzzle": "Puzzle",
+        "exercise": "Esercizio"
+    },
+
+    // ==========================================
+    // PORTUGUESE / PORTUGUÊS
+    // ==========================================
+    pt: {
+        // Metadados e títulos
+        "app.title": "Criador de caça-palavras",
+        "worksheetGenerator": "Criador de folhas de trabalho",
+
+        // Configurações de idioma
+        "languageSettings": "Configurações de idioma",
+        "selectLanguage": "Selecionar idioma:",
+        "worksheetContentLanguage": "Idioma do conteúdo da folha:",
+        "imageLibraryLanguage": "Idioma da biblioteca de imagens:",
+        "contentLanguageNote": "Os nomes das imagens e temas serão exibidos no idioma selecionado.",
+        "imageNamesAndThemesNote": "Os nomes das imagens e temas serão exibidos no idioma selecionado.",
+
+        // Nomes dos idiomas
+        "lang_en": "Inglês",
+        "lang_de": "Alemão",
+        "lang_fr": "Francês",
+        "lang_es": "Espanhol",
+        "lang_it": "Italiano",
+        "lang_pt": "Português",
+        "lang_nl": "Holandês",
+        "lang_sv": "Sueco",
+        "lang_da": "Dinamarquês",
+        "lang_no": "Norueguês",
+        "lang_fi": "Finlandês",
+
+        // Configurações de página
+        "pageAndScene": "Página e layout",
+        "pageSetup": "Configuração de página",
+        "pageSize": "Tamanho da página:",
+        "letterPortrait": "Carta Retrato (8,5×11\")",
+        "letterLandscape": "Carta Paisagem (11×8,5\")",
+        "a4Portrait": "A4 Retrato (210×297mm)",
+        "a4Landscape": "A4 Paisagem (297×210mm)",
+        "custom": "Personalizado",
+        "widthPx": "Largura (px):",
+        "heightPx": "Altura (px):",
+        "applySize": "Aplicar tamanho",
+
+        // Configurações de fundo
+        "background": "Fundo",
+        "fallbackColor": "Cor base:",
+        "backgroundTheme": "Tema de fundo:",
+        "noneUseFallbackColor": "Nenhum (usar cor base)",
+        "selectThemeForBackgrounds": "Selecione um tema para os fundos.",
+        "backgroundOpacity": "Opacidade do fundo:",
+
+        // Configurações de borda
+        "border": "Borda",
+        "borderTheme": "Tema de borda:",
+        "none": "Nenhuma",
+        "common.none": "Nenhum",
+    "none": "Nenhum",
+    "none": "Nenhum",
+        "selectThemeToSeeBorders": "Selecione um tema para ver as bordas.",
+        "borderOpacity": "Opacidade da borda:",
+
+        // Ferramentas de texto
+        "textTools": "Opções de texto",
+        "addNewText": "Adicionar novo texto",
+        "content": "Conteúdo:",
+        "helloPlaceholder": "Olá!",
+        "addText": "Adicionar texto",
+        "selectedTextProperties": "Propriedades do texto selecionado",
+        "color": "Cor:",
+        "size": "Tamanho:",
+        "font": "Fonte:",
+        "outlineColor": "Cor do contorno:",
+        "outlineWidth": "Largura do contorno (0-10):",
+
+        // Configurações do quebra-cabeça
+        "puzzleSettings": "Configurações do quebra-cabeça",
+        "gridSize": "Tamanho da grade",
+        "rows": "Linhas:",
+        "columns": "Colunas:",
+        "puzzleOptions": "Opções do quebra-cabeça",
+        "allowDiagonal": "Permitir palavras diagonais",
+        "allowReverseWords": "Permitir palavras invertidas",
+        "showWordList": "Mostrar lista de palavras/imagens",
+        "showOnlyImages": "Mostrar apenas imagens",
+        "showOnlyWords": "Mostrar apenas palavras",
+        "classicMode": "Modo clássico (apenas texto)",
+
+        // Biblioteca de imagens
+        "imageLibrary": "Biblioteca de imagens",
+        "imageSourceForPuzzle": "Fonte de imagens para o quebra-cabeça",
+        "theme": "Tema:",
+        "useRandomTheme": "-- Usar tema aleatório --",
+        "individualImageSelection": "Seleção individual de imagens",
+        "filterByTheme": "Filtrar por tema:",
+        "searchImages": "Pesquisar imagens:",
+        "searchPlaceholder": "ex.: maçã, carro",
+        "availableImages": "Imagens disponíveis (máx. 8):",
+        "loadingImages": "Carregando imagens...",
+        "selectedImages": "Imagens selecionadas:",
+        "allThemes": "Todos os temas",
+        "allThemesRandomly": "Todos os temas (aleatório)",
+        "allThemesForSearch": "Todos os temas (para pesquisa)",
+
+        // Carregar imagens personalizadas
+        "uploadCustomImages": "Carregar imagens personalizadas",
+        "selectImagesToUpload": "Selecionar imagem(ns) para carregar:",
+        "chooseFiles": "Escolher arquivos",
+        "noFileChosen": "Nenhum arquivo escolhido",
+        "uploadedImages": "Suas imagens carregadas (esta sessão):",
+        "yourUploadedImagesWillAppearHere": "Suas imagens carregadas aparecerão aqui.",
+        "uploadedImagesWillAppearHere": "Suas imagens carregadas aparecerão aqui.",
+        "filesSelected": "{} arquivo(s) selecionado(s)",
+
+        // Edição manual de nomes de imagens
+        "manualImageEdit": "Edição manual de nomes de imagens",
+        "enableManualEdit": "Editar nomes de imagens antes de criar",
+        "manualEditDescription": "Quando ativada, você pode selecionar manualmente as imagens e editar seus nomes abaixo antes de criar o quebra-cabeça.",
+        "selectAndEditImages": "Selecionar e editar imagens",
+        "manualEditInstructions": "Clique para adicionar imagens e depois edite os nomes abaixo:",
+        "clickImagesToAddThem": "Clique nas imagens da biblioteca para adicioná-las aqui para edição.",
+
+        // Lista de palavras personalizada
+        "customWordList": "Lista de palavras personalizada",
+        "useCustomWords": "Usar lista de palavras personalizada",
+        "customWordListDescription": "Quando ativada, crie quebra-cabeças apenas de texto usando sua lista de palavras personalizada (sem imagens).",
+        "enterWords": "Digite as palavras (uma por linha, máx. 8):",
+        "customWordsPlaceholder": "maçã\nbanana\nlaranja\nuva",
+        "customWordListNote": "Apenas letras são permitidas. Caracteres especiais e números serão removidos.",
+
+        // Barra de ferramentas e alinhamento
+        "layers": "Camadas",
+        "bringForward": "Trazer para frente",
+        "sendBackward": "Enviar para trás",
+        "align": "Alinhar",
+        "alignSelected": "Alinhar seleção:",
+        "alignLeft": "Alinhar à esquerda",
+        "centerHorizontally": "Centralizar horizontalmente",
+        "alignRight": "Alinhar à direita",
+        "alignTop": "Alinhar no topo",
+        "centerVertically": "Centralizar verticalmente",
+        "alignBottom": "Alinhar na base",
+        "alignToPage": "Alinhar à página:",
+        "centerOnPageHorizontally": "Centralizar horizontalmente na página",
+        "centerOnPageVertically": "Centralizar verticalmente na página",
+        "lockUnlock": "Bloquear/Desbloquear",
+        "unlockAll": "Desbloquear tudo",
+        "deleteSelected": "Excluir seleção",
+        "bringToFront": "Trazer para a frente",
+        "sendToBack": "Enviar para o fundo",
+
+        // Controlos de zoom e histórico
+        "zoomIn": "Ampliar",
+        "zoomOut": "Reduzir",
+        "resetZoom": "Redefinir zoom",
+        "undo": "Desfazer (Ctrl+Z)",
+        "redo": "Refazer (Ctrl+Y)",
+
+        // Botões de ação
+        "generate": "Criar",
+        "newWorksheet": "Nova folha",
+        "answerKey": "Gabarito",
+        "download": "Baixar",
+        "worksheet": "Folha de trabalho",
+        "worksheetJpeg": "Folha de trabalho (JPEG)",
+        "answerKeyJpeg": "Gabarito (JPEG)",
+        "worksheetPdf": "Folha de trabalho (PDF)",
+        "answerKeyPdf": "Gabarito (PDF)",
+        "grayscale": "Escala de cinza",
+        "clearAll": "Limpar tudo",
+
+        // Mensagens de sucesso
+        "worksheetGeneratedSuccessfully": "Folha de trabalho criada com sucesso!",
+        "answerKeyGenerated": "Folha de respostas criada!",
+        "allSettingsCleared": "Todas as configurações foram limpas.",
+        "puzzleWillGenerateUsing": "O quebra-cabeça será criado usando o tema '{}'.",
+        "customImagesAvailable": "{} imagem(ns) personalizada(s) disponível(is).",
+        "customWordListEnabled": "Modo de lista de palavras personalizada ativado. O quebra-cabeça será apenas textual.",
+        "jpegDownloadInitiated": "Download de JPEG iniciado!",
+        "pdfDownloaded": "PDF baixado!",
+
+        // Mensagens de carregamento
+        "searching": "Pesquisando...",
+        "loadingTheme": "Carregando tema...",
+        "loadingImagesCount": "Carregando {} imagem(ns)...",
+        "loadingThemeBorders": "Carregando {} bordas...",
+        "loadingThemeBackgrounds": "Carregando {} fundos...",
+        "preparingJpeg": "Preparando JPEG...",
+        "preparingPdf": "Preparando PDF...",
+        "preparingJPEG": "Preparando JPEG...",
+        "preparingPDF": "Preparando PDF...",
+
+        // Mensagens de erro
+        "pleaseGenerateWorksheetFirst": "Por favor, crie primeiro uma folha de trabalho.",
+        "pleaseGenerateContentFirst": "Por favor, crie primeiro o conteúdo.",
+        "themeNeedsMinImages": "O tema '{}' precisa de pelo menos {} imagens.",
+        "pleaseWaitForThemes": "Por favor, aguarde o carregamento dos temas...",
+        "noImagesSelectedOrAvailable": "Nenhuma imagem selecionada ou disponível para criar o quebra-cabeça.",
+        "customWordListEmpty": "Por favor, digite pelo menos uma palavra na lista de palavras personalizada.",
+        "failedToPlaceWords": "Falha ao posicionar palavras. Tente uma grade maior ou palavras diferentes.",
+        "noImagesFound": "Nenhuma imagem encontrada",
+        "maxImagesSelected": "Você pode selecionar no máximo {} imagens.",
+        "errorReadingFile": "Erro ao ler o arquivo: {}",
+        "noBordersInTheme": "Sem bordas neste tema.",
+        "noBackgroundsInTheme": "Sem fundos neste tema.",
+        "errorPreparingJpeg": "Erro ao preparar o JPEG.",
+        "errorCreatingPdf": "Erro ao criar o PDF.",
+        "errorPreparingJPEG": "Erro ao preparar o JPEG.",
+        "errorCreatingPDF": "Erro ao criar o PDF.",
+
+        // Marcas d'água e padrões
+        "watermarkText": "VERSÃO GRATUITA - LessonCraftStudio.com",
+        "watermarkSmall": "VERSÃO GRATUITA",
+        "defaultNewText": "Novo texto",
+        "puzzle": "Quebra-cabeça",
+        "exercise": "Exercício"
+    },
+
+    // ==========================================
+    // DUTCH / NEDERLANDS
+    // ==========================================
+    nl: {
+        // Metadata en titels
+        "app.title": "Woordzoeker generator",
+        "worksheetGenerator": "Werkbladmaker",
+
+        // Taalinstellingen
+        "languageSettings": "Taalinstellingen",
+        "selectLanguage": "Selecteer taal:",
+        "worksheetContentLanguage": "Werkbladinhoudstaal:",
+        "imageLibraryLanguage": "Afbeeldingenbibliotheekstaal:",
+        "contentLanguageNote": "Afbeeldingsnamen en thema's worden weergegeven in de geselecteerde taal.",
+        "imageNamesAndThemesNote": "Afbeeldingsnamen en thema's worden weergegeven in de geselecteerde taal.",
+
+        // Taalnamen
+        "lang_en": "Engels",
+        "lang_de": "Duits",
+        "lang_fr": "Frans",
+        "lang_es": "Spaans",
+        "lang_it": "Italiaans",
+        "lang_pt": "Portugees",
+        "lang_nl": "Nederlands",
+        "lang_sv": "Zweeds",
+        "lang_da": "Deens",
+        "lang_no": "Noors",
+        "lang_fi": "Fins",
+
+        // Pagina-instellingen
+        "pageAndScene": "Pagina en indeling",
+        "pageSetup": "Pagina-instelling",
+        "pageSize": "Paginaformaat:",
+        "letterPortrait": "Letter Staand (8,5×11\")",
+        "letterLandscape": "Letter Liggend (11×8,5\")",
+        "a4Portrait": "A4 Staand (210×297mm)",
+        "a4Landscape": "A4 Liggend (297×210mm)",
+        "custom": "Aangepast",
+        "widthPx": "Breedte (px):",
+        "heightPx": "Hoogte (px):",
+        "applySize": "Formaat toepassen",
+
+        // Achtergrondinstellingen
+        "background": "Achtergrond",
+        "fallbackColor": "Basiskleur:",
+        "backgroundTheme": "Achtergrondthema:",
+        "noneUseFallbackColor": "Geen (gebruik basiskleur)",
+        "selectThemeForBackgrounds": "Selecteer een thema voor achtergronden.",
+        "backgroundOpacity": "Achtergrondtransparantie:",
+
+        // Randinstellingen
+        "border": "Rand",
+        "borderTheme": "Randthema:",
+        "none": "Geen",
+        "common.none": "Geen",
+        "selectThemeToSeeBorders": "Selecteer een thema om randen te zien.",
+        "borderOpacity": "Randtransparantie:",
+
+        // Tekstgereedschappen
+        "textTools": "Tekstgereedschappen",
+        "addNewText": "Nieuwe tekst toevoegen",
+        "content": "Inhoud:",
+        "helloPlaceholder": "Hallo!",
+        "addText": "Tekst toevoegen",
+        "selectedTextProperties": "Eigenschappen geselecteerde tekst",
+        "color": "Kleur:",
+        "size": "Grootte:",
+        "font": "Lettertype:",
+        "outlineColor": "Omlijningskleur:",
+        "outlineWidth": "Omlijningsbreedte (0-10):",
+
+        // Puzzelinstellingen
+        "puzzleSettings": "Puzzelinstellingen",
+        "gridSize": "Roostergrootte",
+        "rows": "Rijen:",
+        "columns": "Kolommen:",
+        "puzzleOptions": "Puzzelopties",
+        "allowDiagonal": "Diagonale woorden toestaan",
+        "allowReverseWords": "Achterwaartse woorden toestaan",
+        "showWordList": "Woord-/afbeeldingslijst tonen",
+        "showOnlyImages": "Alleen afbeeldingen tonen",
+        "showOnlyWords": "Alleen woorden tonen",
+        "classicMode": "Klassieke modus (alleen tekst)",
+
+        // Afbeeldingsbibliotheek
+        "imageLibrary": "Afbeeldingenbibliotheek",
+        "imageSourceForPuzzle": "Afbeeldingsbron voor puzzel",
+        "theme": "Thema:",
+        "useRandomTheme": "-- Willekeurig thema gebruiken --",
+        "individualImageSelection": "Individuele afbeeldingsselectie",
+        "filterByTheme": "Filteren op thema:",
+        "searchImages": "Zoek afbeeldingen:",
+        "searchPlaceholder": "bijv: appel, auto",
+        "availableImages": "Beschikbare afbeeldingen (max. 8):",
+        "loadingImages": "Afbeeldingen laden...",
+        "selectedImages": "Geselecteerde afbeeldingen:",
+        "allThemes": "Alle thema's",
+        "allThemesRandomly": "Alle thema's (willekeurig)",
+        "allThemesForSearch": "Alle thema's (voor zoeken)",
+
+        // Aangepaste afbeeldingen uploaden
+        "uploadCustomImages": "Eigen afbeeldingen uploaden",
+        "selectImagesToUpload": "Selecteer afbeelding(en) om te uploaden:",
+        "chooseFiles": "Bestanden kiezen",
+        "noFileChosen": "Geen bestand gekozen",
+        "uploadedImages": "Je geüploade afbeeldingen (deze sessie):",
+        "yourUploadedImagesWillAppearHere": "Je geüploade afbeeldingen verschijnen hier.",
+        "uploadedImagesWillAppearHere": "Je geüploade afbeeldingen verschijnen hier.",
+        "filesSelected": "{} bestand(en) geselecteerd",
+
+        // Handmatige bewerking van afbeeldingsnamen
+        "manualImageEdit": "Handmatige bewerking van afbeeldingsnamen",
+        "enableManualEdit": "Afbeeldingsnamen bewerken voor het maken",
+        "manualEditDescription": "Wanneer ingeschakeld, kun je handmatig afbeeldingen selecteren en hun namen hieronder bewerken voordat je de puzzel maakt.",
+        "selectAndEditImages": "Selecteer en bewerk afbeeldingen",
+        "manualEditInstructions": "Klik om afbeeldingen toe te voegen, bewerk vervolgens de namen hieronder:",
+        "clickImagesToAddThem": "Klik op afbeeldingen uit de bibliotheek om ze hier toe te voegen en te bewerken.",
+
+        // Aangepaste woordenlijst
+        "customWordList": "Aangepaste woordenlijst",
+        "useCustomWords": "Gebruik aangepaste woordenlijst",
+        "customWordListDescription": "Wanneer ingeschakeld, maak tekstpuzzels met je aangepaste woordenlijst (geen afbeeldingen).",
+        "enterWords": "Voer woorden in (één per regel, max. 8):",
+        "customWordsPlaceholder": "appel\nbanaan\nsinaasappel\ndruif",
+        "customWordListNote": "Alleen letters zijn toegestaan. Speciale tekens en cijfers worden verwijderd.",
+
+        // Werkbalk en uitlijning
+        "layers": "Lagen",
+        "bringForward": "Naar voren",
+        "sendBackward": "Naar achteren",
+        "align": "Uitlijnen",
+        "alignSelected": "Selectie uitlijnen:",
+        "alignLeft": "Links uitlijnen",
+        "centerHorizontally": "Horizontaal centreren",
+        "alignRight": "Rechts uitlijnen",
+        "alignTop": "Boven uitlijnen",
+        "centerVertically": "Verticaal centreren",
+        "alignBottom": "Onder uitlijnen",
+        "alignToPage": "Uitlijnen op pagina:",
+        "centerOnPageHorizontally": "Horizontaal centreren op pagina",
+        "centerOnPageVertically": "Verticaal centreren op pagina",
+        "lockUnlock": "Vergrendelen/Ontgrendelen",
+        "unlockAll": "Alles ontgrendelen",
+        "deleteSelected": "Selectie verwijderen",
+        "bringToFront": "Op de voorgrond plaatsen",
+        "sendToBack": "Op de achtergrond plaatsen",
+
+        // Zoom- en geschiedeniscontroles
+        "zoomIn": "Inzoomen",
+        "zoomOut": "Uitzoomen",
+        "resetZoom": "Zoom resetten",
+        "undo": "Ongedaan maken (Ctrl+Z)",
+        "redo": "Opnieuw doen (Ctrl+Y)",
+
+        // Actieknoppen
+        "generate": "Maken",
+        "newWorksheet": "Nieuw werkblad",
+        "answerKey": "Antwoordblad",
+        "download": "Downloaden",
+        "worksheet": "Werkblad",
+        "worksheetJpeg": "Werkblad (JPEG)",
+        "answerKeyJpeg": "Antwoordblad (JPEG)",
+        "worksheetPdf": "Werkblad (PDF)",
+        "answerKeyPdf": "Antwoordblad (PDF)",
+        "grayscale": "Grijstinten",
+        "clearAll": "Alles wissen",
+
+        // Succesboodschappen
+        "worksheetGeneratedSuccessfully": "Werkblad succesvol gemaakt!",
+        "answerKeyGenerated": "Antwoordblad gemaakt!",
+        "allSettingsCleared": "Alle instellingen gewist.",
+        "puzzleWillGenerateUsing": "Puzzel wordt gemaakt met thema '{}'.",
+        "customImagesAvailable": "{} aangepaste afbeelding(en) beschikbaar.",
+        "customWordListEnabled": "Aangepaste woordenlijst-modus ingeschakeld. De puzzel bestaat alleen uit tekst.",
+        "jpegDownloadInitiated": "JPEG download gestart!",
+        "pdfDownloaded": "PDF gedownload!",
+
+        // Laadberichten
+        "searching": "Zoeken...",
+        "loadingTheme": "Thema laden...",
+        "loadingImagesCount": "{} afbeelding(en) laden...",
+        "loadingThemeBorders": "{} randen laden...",
+        "loadingThemeBackgrounds": "{} achtergronden laden...",
+        "preparingJpeg": "JPEG voorbereiden...",
+        "preparingPdf": "PDF voorbereiden...",
+        "preparingJPEG": "JPEG voorbereiden...",
+        "preparingPDF": "PDF voorbereiden...",
+
+        // Foutmeldingen
+        "pleaseGenerateWorksheetFirst": "Maak eerst een werkblad.",
+        "pleaseGenerateContentFirst": "Maak eerst inhoud.",
+        "themeNeedsMinImages": "Thema '{}' heeft minstens {} afbeeldingen nodig.",
+        "pleaseWaitForThemes": "Wacht tot de thema's zijn geladen...",
+        "noImagesSelectedOrAvailable": "Geen afbeeldingen geselecteerd of beschikbaar om de puzzel te maken.",
+        "customWordListEmpty": "Voer minimaal één woord in de aangepaste woordenlijst in.",
+        "failedToPlaceWords": "Kon geen woorden plaatsen. Probeer een groter rooster of andere woorden.",
+        "noImagesFound": "Geen afbeeldingen gevonden",
+        "maxImagesSelected": "Je kunt maximaal {} afbeeldingen selecteren.",
+        "errorReadingFile": "Fout bij lezen bestand: {}",
+        "noBordersInTheme": "Geen randen in dit thema.",
+        "noBackgroundsInTheme": "Geen achtergronden in dit thema.",
+        "errorPreparingJpeg": "Fout bij voorbereiden JPEG.",
+        "errorCreatingPdf": "Fout bij maken PDF.",
+        "errorPreparingJPEG": "Fout bij voorbereiden JPEG.",
+        "errorCreatingPDF": "Fout bij maken PDF.",
+
+        // Watermerken en standaarden
+        "watermarkText": "GRATIS VERSIE - LessonCraftStudio.com",
+        "watermarkSmall": "GRATIS VERSIE",
+        "defaultNewText": "Nieuwe tekst",
+        "puzzle": "Puzzel",
+        "exercise": "Oefening"
+    },
+
+    // ==========================================
+    // SWEDISH / SVENSKA
+    // ==========================================
+    sv: {
+        // Metadata och titlar
+        "app.title": "Ordjaktsgenerator",
+        "worksheetGenerator": "Övningsbladsgenerator",
+
+        // Språkinställningar
+        "languageSettings": "Språkinställningar",
+        "selectLanguage": "Välj språk:",
+        "worksheetContentLanguage": "Övningsbladets innehållsspråk:",
+        "imageLibraryLanguage": "Bildbiblioteksspråk:",
+        "contentLanguageNote": "Bildnamn och teman visas på det valda språket.",
+        "imageNamesAndThemesNote": "Bildnamn och teman visas på det valda språket.",
+
+        // Språknamn
+        "lang_en": "Engelska",
+        "lang_de": "Tyska",
+        "lang_fr": "Franska",
+        "lang_es": "Spanska",
+        "lang_it": "Italienska",
+        "lang_pt": "Portugisiska",
+        "lang_nl": "Nederländska",
+        "lang_sv": "Svenska",
+        "lang_da": "Danska",
+        "lang_no": "Norska",
+        "lang_fi": "Finska",
+
+        // Sidinställningar
+        "pageAndScene": "Sida och layout",
+        "pageSetup": "Sidinställningar",
+        "pageSize": "Sidstorlek:",
+        "letterPortrait": "Letter stående (8,5×11\")",
+        "letterLandscape": "Letter liggande (11×8,5\")",
+        "a4Portrait": "A4 stående (210×297mm)",
+        "a4Landscape": "A4 liggande (297×210mm)",
+        "custom": "Anpassad",
+        "widthPx": "Bredd (px):",
+        "heightPx": "Höjd (px):",
+        "applySize": "Tillämpa storlek",
+
+        // Bakgrundsinställningar
+        "background": "Bakgrund",
+        "fallbackColor": "Grundfärg:",
+        "backgroundTheme": "Bakgrundstema:",
+        "noneUseFallbackColor": "Ingen (använd grundfärg)",
+        "selectThemeForBackgrounds": "Välj ett tema för bakgrunder.",
+        "backgroundOpacity": "Bakgrundens genomskinlighet:",
+
+        // Raminställningar
+        "border": "Ram",
+        "borderTheme": "Ramtema:",
+        "none": "Ingen",
+        "common.none": "Ingen",
+    "none": "Ingen",
+    "none": "Ingen",
+        "selectThemeToSeeBorders": "Välj ett tema för att se ramar.",
+        "borderOpacity": "Ramens genomskinlighet:",
+
+        // Textverktyg
+        "textTools": "Textverktyg",
+        "addNewText": "Lägg till ny text",
+        "content": "Innehåll:",
+        "helloPlaceholder": "Hej!",
+        "addText": "Lägg till text",
+        "selectedTextProperties": "Egenskaper för vald text",
+        "color": "Färg:",
+        "size": "Storlek:",
+        "font": "Typsnitt:",
+        "outlineColor": "Konturfärg:",
+        "outlineWidth": "Konturbredd (0-10):",
+
+        // Pusselinställningar
+        "puzzleSettings": "Spelinställningar",
+        "gridSize": "Rutnätsstorlek",
+        "rows": "Rader:",
+        "columns": "Kolumner:",
+        "puzzleOptions": "Spelalternativ",
+        "allowDiagonal": "Tillåt diagonala ord",
+        "allowReverseWords": "Tillåt baklängesord",
+        "showWordList": "Visa ord-/bildlista",
+        "showOnlyImages": "Visa endast bilder",
+        "showOnlyWords": "Visa endast ord",
+        "classicMode": "Klassiskt läge (endast text)",
+
+        // Bildbibliotek
+        "imageLibrary": "Bildbibliotek",
+        "imageSourceForPuzzle": "Bildkälla för spelet",
+        "theme": "Tema:",
+        "useRandomTheme": "-- Använd slumpmässigt tema --",
+        "individualImageSelection": "Individuellt bildval",
+        "filterByTheme": "Filtrera efter tema:",
+        "searchImages": "Sök bilder:",
+        "searchPlaceholder": "t.ex. äpple, bil",
+        "availableImages": "Tillgängliga bilder (max 8):",
+        "loadingImages": "Laddar bilder...",
+        "selectedImages": "Valda bilder:",
+        "allThemes": "Alla teman",
+        "allThemesRandomly": "Alla teman (slumpmässigt)",
+        "allThemesForSearch": "Alla teman (för sökning)",
+
+        // Ladda upp egna bilder
+        "uploadCustomImages": "Ladda upp egna bilder",
+        "selectImagesToUpload": "Välj bild(er) att ladda upp:",
+        "chooseFiles": "Välj filer",
+        "noFileChosen": "Ingen fil vald",
+        "uploadedImages": "Dina uppladdade bilder (denna session):",
+        "yourUploadedImagesWillAppearHere": "Dina uppladdade bilder visas här.",
+        "uploadedImagesWillAppearHere": "Dina uppladdade bilder visas här.",
+        "filesSelected": "{} fil(er) valda",
+
+        // Manuell redigering av bildnamn
+        "manualImageEdit": "Manuell redigering av bildnamn",
+        "enableManualEdit": "Redigera bildnamn innan skapande",
+        "manualEditDescription": "När denna funktion är aktiverad kan du välja bilder manuellt och redigera deras namn nedan innan du skapar pusslet.",
+        "selectAndEditImages": "Välj och redigera bilder",
+        "manualEditInstructions": "Klicka för att lägga till bilder, redigera sedan namnen nedan:",
+        "clickImagesToAddThem": "Klicka på bilder från biblioteket för att lägga till dem här för redigering.",
+
+        // Anpassad ordlista
+        "customWordList": "Anpassad ordlista",
+        "useCustomWords": "Använd anpassad ordlista",
+        "customWordListDescription": "När denna funktion är aktiverad, skapa textpussel med din anpassade ordlista (inga bilder).",
+        "enterWords": "Ange ord (ett per rad, max 8):",
+        "customWordsPlaceholder": "äpple\nbanan\napelsin\ndruva",
+        "customWordListNote": "Endast bokstäver är tillåtna. Specialtecken och siffror tas bort.",
+
+        // Verktygsfält och justering
+        "layers": "Lager",
+        "bringForward": "Flytta framåt",
+        "sendBackward": "Flytta bakåt",
+        "align": "Justera",
+        "alignSelected": "Justera val:",
+        "alignLeft": "Vänsterjustera",
+        "centerHorizontally": "Centrera horisontellt",
+        "alignRight": "Högerjustera",
+        "alignTop": "Justera upptill",
+        "centerVertically": "Centrera vertikalt",
+        "alignBottom": "Justera nedtill",
+        "alignToPage": "Justera till sida:",
+        "centerOnPageHorizontally": "Centrera horisontellt på sida",
+        "centerOnPageVertically": "Centrera vertikalt på sida",
+        "lockUnlock": "Lås/Lås upp",
+        "unlockAll": "Lås upp alla",
+        "deleteSelected": "Ta bort val",
+        "bringToFront": "Flytta längst fram",
+        "sendToBack": "Flytta längst bak",
+
+        // Zoom- och historikkontroller
+        "zoomIn": "Zooma in",
+        "zoomOut": "Zooma ut",
+        "resetZoom": "Återställ zoom",
+        "undo": "Ångra (Ctrl+Z)",
+        "redo": "Gör om (Ctrl+Y)",
+
+        // Åtgärdsknappar
+        "generate": "Skapa",
+        "newWorksheet": "Nytt övningsblad",
+        "answerKey": "Facit",
+        "download": "Ladda ner",
+        "worksheet": "Övningsblad",
+        "worksheetJpeg": "Övningsblad (JPEG)",
+        "answerKeyJpeg": "Facit (JPEG)",
+        "worksheetPdf": "Övningsblad (PDF)",
+        "answerKeyPdf": "Facit (PDF)",
+        "grayscale": "Gråskala",
+        "clearAll": "Rensa allt",
+
+        // Framgångsmeddelanden
+        "worksheetGeneratedSuccessfully": "Övningsblad skapat!",
+        "answerKeyGenerated": "Facit skapat!",
+        "allSettingsCleared": "Alla inställningar rensade.",
+        "puzzleWillGenerateUsing": "Spelet kommer att skapas med temat '{}'.",
+        "customImagesAvailable": "{} anpassad(e) bild(er) tillgängliga.",
+        "customWordListEnabled": "Anpassat ordlisteläge aktiverat. Pusslet kommer endast att vara text.",
+        "jpegDownloadInitiated": "JPEG-nedladdning startad!",
+        "pdfDownloaded": "PDF nedladdad!",
+
+        // Laddningsmeddelanden
+        "searching": "Söker...",
+        "loadingTheme": "Laddar tema...",
+        "loadingImagesCount": "Laddar {} bild(er)...",
+        "loadingThemeBorders": "Laddar {} ramar...",
+        "loadingThemeBackgrounds": "Laddar {} bakgrunder...",
+        "preparingJpeg": "Förbereder JPEG...",
+        "preparingPdf": "Förbereder PDF...",
+        "preparingJPEG": "Förbereder JPEG...",
+        "preparingPDF": "Förbereder PDF...",
+
+        // Felmeddelanden
+        "pleaseGenerateWorksheetFirst": "Skapa ett övningsblad först.",
+        "pleaseGenerateContentFirst": "Skapa innehåll först.",
+        "themeNeedsMinImages": "Temat '{}' behöver minst {} bilder.",
+        "pleaseWaitForThemes": "Vänta medan teman laddas...",
+        "noImagesSelectedOrAvailable": "Inga bilder valda eller tillgängliga för att skapa spelet.",
+        "customWordListEmpty": "Ange minst ett ord i den anpassade ordlistan.",
+        "failedToPlaceWords": "Kunde inte placera några ord. Prova ett större rutnät eller andra ord.",
+        "noImagesFound": "Inga bilder hittades",
+        "maxImagesSelected": "Du kan välja maximalt {} bilder.",
+        "errorReadingFile": "Fel vid läsning av fil: {}",
+        "noBordersInTheme": "Inga ramar i detta tema.",
+        "noBackgroundsInTheme": "Inga bakgrunder i detta tema.",
+        "errorPreparingJpeg": "Fel vid förberedelse av JPEG.",
+        "errorCreatingPdf": "Fel vid skapande av PDF.",
+        "errorPreparingJPEG": "Fel vid förberedelse av JPEG.",
+        "errorCreatingPDF": "Fel vid skapande av PDF.",
+
+        // Vattenstämplar och standardvärden
+        "watermarkText": "GRATIS VERSION - LessonCraftStudio.com",
+        "watermarkSmall": "GRATIS VERSION",
+        "defaultNewText": "Ny text",
+        "puzzle": "Pussel",
+        "exercise": "Övning"
+    },
+
+    // ==========================================
+    // DANISH / DANSK
+    // ==========================================
+    da: {
+        // Metadata og titler
+        "app.title": "Ordsøgningsskaber",
+        "worksheetGenerator": "Opgaveark-skaber", // Per RATIONALE: "Opgaveark" is standard Danish education term
+
+        // Sprogindstillinger
+        "languageSettings": "Sprogindstillinger",
+        "selectLanguage": "Vælg sprog:",
+        "worksheetContentLanguage": "Opgavearkets indholdssprog:",
+        "imageLibraryLanguage": "Billedbibliotekssprog:",
+        "contentLanguageNote": "Billednavne og temaer vises på det valgte sprog.",
+        "imageNamesAndThemesNote": "Billednavne og temaer vises på det valgte sprog.",
+
+        // Sprognavne
+        "lang_en": "Engelsk",
+        "lang_de": "Tysk",
+        "lang_fr": "Fransk",
+        "lang_es": "Spansk",
+        "lang_it": "Italiensk",
+        "lang_pt": "Portugisisk",
+        "lang_nl": "Nederlandsk",
+        "lang_sv": "Svensk",
+        "lang_da": "Dansk",
+        "lang_no": "Norsk",
+        "lang_fi": "Finsk",
+
+        // Sideindstillinger
+        "pageAndScene": "Side og layout",
+        "pageSetup": "Sideopsætning",
+        "pageSize": "Sidestørrelse:",
+        "letterPortrait": "Letter stående (8,5×11\")",
+        "letterLandscape": "Letter liggende (11×8,5\")",
+        "a4Portrait": "A4 stående (210×297mm)",
+        "a4Landscape": "A4 liggende (297×210mm)",
+        "custom": "Brugerdefineret",
+        "widthPx": "Bredde (px):",
+        "heightPx": "Højde (px):",
+        "applySize": "Anvend størrelse",
+
+        // Baggrundsindstillinger
+        "background": "Baggrund",
+        "fallbackColor": "Grundfarve:",
+        "backgroundTheme": "Baggrundstema:",
+        "noneUseFallbackColor": "Ingen (brug grundfarve)",
+        "selectThemeForBackgrounds": "Vælg et tema for baggrunde.",
+        "backgroundOpacity": "Baggrundsgennemsigtighed:", // Per RATIONALE: "Gennemsigtighed" is more user-friendly
+
+        // Kantindstillinger
+        "border": "Ramme",
+        "borderTheme": "Rammetema:",
+        "none": "Ingen",
+        "common.none": "Ingen",
+    "none": "Ingen",
+    "none": "Ingen",
+        "selectThemeToSeeBorders": "Vælg et tema for at se rammer.",
+        "borderOpacity": "Rammegennemsigtighed:",
+
+        // Tekstindstillinger
+        "textTools": "Tekstindstillinger", // Fixed: Platform standard (retroactive fix 2025-11-30)
+        "addNewText": "Tilføj ny tekst",
+        "content": "Indhold:",
+        "helloPlaceholder": "Hej!",
+        "addText": "Tilføj tekst",
+        "selectedTextProperties": "Egenskaber for valgt tekst",
+        "color": "Farve:",
+        "size": "Størrelse:",
+        "font": "Skrifttype:",
+        "outlineColor": "Konturfarve:",
+        "outlineWidth": "Konturbredde (0-10):",
+
+        // Puslespilsindstillinger
+        "puzzleSettings": "Puslespilsindstillinger",
+        "gridSize": "Gitterstørrelse",
+        "rows": "Rækker:",
+        "columns": "Kolonner:",
+        "puzzleOptions": "Puslespilsmuligheder",
+        "allowDiagonal": "Tillad diagonale ord",
+        "allowReverseWords": "Tillad baglæns ord", // Per RATIONALE: "baglæns" is clearer than "omvendte"
+        "showWordList": "Vis ord-/billedliste",
+        "showOnlyImages": "Vis kun billeder",
+        "showOnlyWords": "Vis kun ord",
+        "classicMode": "Klassisk tilstand (kun tekst)",
+
+        // Billedbibliotek
+        "imageLibrary": "Billedbibliotek",
+        "imageSourceForPuzzle": "Billedkilde til puslespil",
+        "theme": "Tema:",
+        "useRandomTheme": "-- Brug tilfældigt tema --",
+        "individualImageSelection": "Individuel billedvælger",
+        "filterByTheme": "Filtrer efter tema:",
+        "searchImages": "Søg billeder:",
+        "searchPlaceholder": "f.eks. æble, bil",
+        "availableImages": "Tilgængelige billeder (maks. 8):",
+        "loadingImages": "Indlæser billeder...",
+        "selectedImages": "Valgte billeder:",
+        "allThemes": "Alle temaer",
+        "allThemesRandomly": "Alle temaer (tilfældigt)",
+        "allThemesForSearch": "Alle temaer (til søgning)",
+
+        // Upload tilpassede billeder
+        "uploadCustomImages": "Upload egne billeder",
+        "selectImagesToUpload": "Vælg billede(r) til upload:",
+        "chooseFiles": "Vælg filer",
+        "noFileChosen": "Ingen fil valgt",
+        "uploadedImages": "Dine uploadede billeder (denne session):",
+        "yourUploadedImagesWillAppearHere": "Dine uploadede billeder vises her.",
+        "uploadedImagesWillAppearHere": "Dine uploadede billeder vises her.",
+        "filesSelected": "{} fil(er) valgt",
+
+        // Manuel redigering af billednavne
+        "manualImageEdit": "Manuel redigering af billednavne",
+        "enableManualEdit": "Rediger billednavne før oprettelse",
+        "manualEditDescription": "Når denne funktion er aktiveret, kan du manuelt vælge billeder og redigere deres navne nedenfor, inden du opretter puslespillet.",
+        "selectAndEditImages": "Vælg og rediger billeder",
+        "manualEditInstructions": "Klik for at tilføje billeder, og rediger derefter navnene nedenfor:",
+        "clickImagesToAddThem": "Klik på billeder fra biblioteket for at tilføje dem her til redigering.",
+
+        // Tilpasset ordliste
+        "customWordList": "Tilpasset ordliste",
+        "useCustomWords": "Brug tilpasset ordliste",
+        "customWordListDescription": "Når denne funktion er aktiveret, opret tekstpuslespil med din tilpassede ordliste (ingen billeder).",
+        "enterWords": "Indtast ord (ét pr. linje, maks. 8):",
+        "customWordsPlaceholder": "æble\nbanan\nappelsin\ndrue",
+        "customWordListNote": "Kun bogstaver er tilladt. Specialtegn og tal vil blive fjernet.",
+
+        // Værktøjslinje og justering
+        "layers": "Lag",
+        "bringForward": "Flyt fremad",
+        "sendBackward": "Flyt bagud",
+        "align": "Juster",
+        "alignSelected": "Juster valgte:",
+        "alignLeft": "Venstrejuster",
+        "centerHorizontally": "Centrer vandret",
+        "alignRight": "Højrejuster",
+        "alignTop": "Juster øverst",
+        "centerVertically": "Centrer lodret",
+        "alignBottom": "Juster nederst",
+        "alignToPage": "Juster til side:",
+        "centerOnPageHorizontally": "Centrer vandret på side",
+        "centerOnPageVertically": "Centrer lodret på side",
+        "lockUnlock": "Lås/Lås op",
+        "unlockAll": "Lås alle op",
+        "deleteSelected": "Slet valgte",
+        "bringToFront": "Placer forrest",
+        "sendToBack": "Placer bagerst",
+
+        // Zoom- og historikkontroller
+        "zoomIn": "Zoom ind",
+        "zoomOut": "Zoom ud",
+        "resetZoom": "Nulstil zoom",
+        "undo": "Fortryd (Ctrl+Z)",
+        "redo": "Gentag (Ctrl+Y)",
+
+        // Handlingsknapper
+        "generate": "Opret",
+        "newWorksheet": "Nyt opgaveark",
+        "answerKey": "Facitliste",
+        "download": "Download",
+        "worksheet": "Opgaveark",
+        "worksheetJpeg": "Opgaveark (JPEG)",
+        "answerKeyJpeg": "Facitliste (JPEG)",
+        "worksheetPdf": "Opgaveark (PDF)",
+        "answerKeyPdf": "Facitliste (PDF)",
+        "grayscale": "Gråtoneskala",
+        "clearAll": "Ryd alt",
+
+        // Succesbeskeder
+        "worksheetGeneratedSuccessfully": "Opgaveark oprettet!",
+        "answerKeyGenerated": "Facitliste oprettet!",
+        "allSettingsCleared": "Alle indstillinger ryddet.",
+        "puzzleWillGenerateUsing": "Puslespillet oprettes med temaet '{}'.",
+        "customImagesAvailable": "{} tilpasset(e) billede(r) tilgængelige.",
+        "customWordListEnabled": "Tilpasset ordliste-tilstand aktiveret. Puslespillet bliver kun tekst.",
+        "jpegDownloadInitiated": "JPEG-download startet!",
+        "pdfDownloaded": "PDF downloadet!",
+
+        // Indlæsningsbeskeder
+        "searching": "Søger...",
+        "loadingTheme": "Indlæser tema...",
+        "loadingImagesCount": "Indlæser {} billede(r)...",
+        "loadingThemeBorders": "Indlæser {} rammer...",
+        "loadingThemeBackgrounds": "Indlæser {} baggrunde...",
+        "preparingJpeg": "Forbereder JPEG...",
+        "preparingPdf": "Forbereder PDF...",
+        "preparingJPEG": "Forbereder JPEG...",
+        "preparingPDF": "Forbereder PDF...",
+
+        // Fejlbeskeder
+        "pleaseGenerateWorksheetFirst": "Opret venligst et opgaveark først.",
+        "pleaseGenerateContentFirst": "Opret venligst indhold først.",
+        "themeNeedsMinImages": "Temaet '{}' kræver mindst {} billeder.",
+        "pleaseWaitForThemes": "Vent venligst på at temaerne indlæses...",
+        "noImagesSelectedOrAvailable": "Ingen billeder valgt eller tilgængelige til at oprette puslespillet.",
+        "customWordListEmpty": "Indtast venligst mindst ét ord i den tilpassede ordliste.",
+        "failedToPlaceWords": "Kunne ikke placere ord. Prøv et større gitter eller andre ord.",
+        "noImagesFound": "Ingen billeder fundet",
+        "maxImagesSelected": "Du kan vælge maksimalt {} billeder.",
+        "errorReadingFile": "Fejl ved læsning af fil: {}",
+        "noBordersInTheme": "Ingen rammer i dette tema.",
+        "noBackgroundsInTheme": "Ingen baggrunde i dette tema.",
+        "errorPreparingJpeg": "Fejl ved forberedelse af JPEG.",
+        "errorCreatingPdf": "Fejl ved oprettelse af PDF.",
+        "errorPreparingJPEG": "Fejl ved forberedelse af JPEG.",
+        "errorCreatingPDF": "Fejl ved oprettelse af PDF.",
+
+        // Vandmærker og standarder
+        "watermarkText": "GRATIS VERSION - LessonCraftStudio.com",
+        "watermarkSmall": "GRATIS VERSION",
+        "defaultNewText": "Ny tekst",
+        "puzzle": "Puslespil",
+        "exercise": "Øvelse"
+    },
+
+    // ==========================================
+    // NORWEGIAN / NORSK
+    // ==========================================
+    no: {
+        // Metadata og titler
+        "app.title": "Ordsøkgenerator",
+        "worksheetGenerator": "Oppgavearkgenerator",
+
+        // Språkinnstillinger
+        "languageSettings": "Språkinnstillinger",
+        "selectLanguage": "Velg språk:",
+        "worksheetContentLanguage": "Oppgavearkets innholdsspråk:",
+        "imageLibraryLanguage": "Bildebibliotekspråk:",
+        "contentLanguageNote": "Bildenavn og temaer vises på det valgte språket.",
+        "imageNamesAndThemesNote": "Bildenavn og temaer vises på det valgte språket.",
+
+        // Språknavn
+        "lang_en": "Engelsk",
+        "lang_de": "Tysk",
+        "lang_fr": "Fransk",
+        "lang_es": "Spansk",
+        "lang_it": "Italiensk",
+        "lang_pt": "Portugisisk",
+        "lang_nl": "Nederlandsk",
+        "lang_sv": "Svensk",
+        "lang_da": "Dansk",
+        "lang_no": "Norsk",
+        "lang_fi": "Finsk",
+
+        // Sideinnstillinger
+        "pageAndScene": "Side og oppsett",
+        "pageSetup": "Sideoppsett",
+        "pageSize": "Sidestørrelse:",
+        "letterPortrait": "Letter stående (8,5×11\")",
+        "letterLandscape": "Letter liggende (11×8,5\")",
+        "a4Portrait": "A4 stående (210×297mm)",
+        "a4Landscape": "A4 liggende (297×210mm)",
+        "custom": "Egendefinert",
+        "widthPx": "Bredde (px):",
+        "heightPx": "Høyde (px):",
+        "applySize": "Bruk størrelse",
+
+        // Bakgrunnsinnstillinger
+        "background": "Bakgrunn",
+        "fallbackColor": "Grunnfarge:",
+        "backgroundTheme": "Bakgrunnstema:",
+        "noneUseFallbackColor": "Ingen (bruk grunnfarge)",
+        "selectThemeForBackgrounds": "Velg et tema for bakgrunner.",
+        "backgroundOpacity": "Bakgrunnssynlighet:",
+
+        // Kantinnstillinger
+        "border": "Ramme",
+        "borderTheme": "Rammetema:",
+        "none": "Ingen",
+        "common.none": "Ingen",
+    "none": "Ingen",
+    "none": "Ingen",
+        "selectThemeToSeeBorders": "Velg et tema for å se rammer.",
+        "borderOpacity": "Rammesynlighet:",
+
+        // Tekstverktøy
+        "textTools": "Tekstverktøy",
+        "addNewText": "Legg til ny tekst",
+        "content": "Innhold:",
+        "helloPlaceholder": "Hei!",
+        "addText": "Legg til tekst",
+        "selectedTextProperties": "Egenskaper for valgt tekst",
+        "color": "Farge:",
+        "size": "Størrelse:",
+        "font": "Skrifttype:",
+        "outlineColor": "Omrissfarge:",
+        "outlineWidth": "Omrissbredde (0-10):",
+
+        // Oppgaveinnstillinger
+        "puzzleSettings": "Oppgaveinnstillinger",
+        "gridSize": "Rutenettstørrelse",
+        "rows": "Rader:",
+        "columns": "Kolonner:",
+        "puzzleOptions": "Oppgavealternativer",
+        "allowDiagonal": "Tillat diagonale ord",
+        "allowReverseWords": "Tillat baklengs ord",
+        "showWordList": "Vis ord-/bildeliste",
+        "showOnlyImages": "Vis kun bilder",
+        "showOnlyWords": "Vis kun ord",
+        "classicMode": "Klassisk modus (kun tekst)",
+
+        // Bildebibliotek
+        "imageLibrary": "Bildebibliotek",
+        "imageSourceForPuzzle": "Bildekilde for oppgave",
+        "theme": "Tema:",
+        "useRandomTheme": "-- Bruk tilfeldig tema --",
+        "individualImageSelection": "Individuelt bildevalg",
+        "filterByTheme": "Filtrer etter tema:",
+        "searchImages": "Søk bilder:",
+        "searchPlaceholder": "f.eks. eple, bil",
+        "availableImages": "Tilgjengelige bilder (maks. 8):",
+        "loadingImages": "Laster bilder...",
+        "selectedImages": "Valgte bilder:",
+        "allThemes": "Alle temaer",
+        "allThemesRandomly": "Alle temaer (tilfeldig)",
+        "allThemesForSearch": "Alle temaer (for søk)",
+
+        // Last opp egne bilder
+        "uploadCustomImages": "Last opp egne bilder",
+        "selectImagesToUpload": "Velg bilde(r) å laste opp:",
+        "chooseFiles": "Velg filer",
+        "noFileChosen": "Ingen fil valgt",
+        "uploadedImages": "Dine opplastede bilder (denne økten):",
+        "yourUploadedImagesWillAppearHere": "Dine opplastede bilder vises her.",
+        "uploadedImagesWillAppearHere": "Dine opplastede bilder vises her.",
+        "filesSelected": "{} fil(er) valgt",
+
+        // Manuell redigering av bildenavn
+        "manualImageEdit": "Manuell redigering av bildenavn",
+        "enableManualEdit": "Rediger bildenavn før oppretting",
+        "manualEditDescription": "Når dette er aktivert, kan du velge bilder manuelt og redigere navnene deres nedenfor før du oppretter oppgaven.",
+        "selectAndEditImages": "Velg og rediger bilder",
+        "manualEditInstructions": "Klikk for å legge til bilder, rediger deretter navnene nedenfor:",
+        "clickImagesToAddThem": "Klikk på bilder fra biblioteket for å legge dem til her for redigering.",
+
+        // Tilpasset ordliste
+        "customWordList": "Tilpasset ordliste",
+        "useCustomWords": "Bruk tilpasset ordliste",
+        "customWordListDescription": "Når dette er aktivert, opprett tekstoppgaver med din tilpassede ordliste (ingen bilder).",
+        "enterWords": "Skriv inn ord (ett per linje, maks. 8):",
+        "customWordsPlaceholder": "eple\nbanan\nappelsin\ndrue",
+        "customWordListNote": "Kun bokstaver er tillatt. Spesialtegn og tall vil bli fjernet.",
+
+        // Verktøylinje og justering
+        "layers": "Lag",
+        "bringForward": "Flytt fremover",
+        "sendBackward": "Flytt bakover",
+        "align": "Juster",
+        "alignSelected": "Juster valgte:",
+        "alignLeft": "Venstrejuster",
+        "centerHorizontally": "Sentrer horisontalt",
+        "alignRight": "Høyrejuster",
+        "alignTop": "Juster øverst",
+        "centerVertically": "Sentrer vertikalt",
+        "alignBottom": "Juster nederst",
+        "alignToPage": "Juster til side:",
+        "centerOnPageHorizontally": "Sentrer horisontalt på side",
+        "centerOnPageVertically": "Sentrer vertikalt på side",
+        "lockUnlock": "Lås/Lås opp",
+        "unlockAll": "Lås opp alle",
+        "deleteSelected": "Slett valgte",
+        "bringToFront": "Plasser fremst",
+        "sendToBack": "Plasser bakerst",
+
+        // Zoom- og historikkontroller
+        "zoomIn": "Zoom inn",
+        "zoomOut": "Zoom ut",
+        "resetZoom": "Tilbakestill zoom",
+        "undo": "Angre (Ctrl+Z)",
+        "redo": "Gjør om (Ctrl+Y)",
+
+        // Handlingsknapper
+        "generate": "Lag",
+        "newWorksheet": "Nytt oppgaveark",
+        "answerKey": "Fasit",
+        "download": "Last ned",
+        "worksheet": "Oppgaveark",
+        "worksheetJpeg": "Oppgaveark (JPEG)",
+        "answerKeyJpeg": "Fasit (JPEG)",
+        "worksheetPdf": "Oppgaveark (PDF)",
+        "answerKeyPdf": "Fasit (PDF)",
+        "grayscale": "Gråtoner",
+        "clearAll": "Tøm alt",
+
+        // Suksessmeldinger
+        "worksheetGeneratedSuccessfully": "Oppgaveark laget!",
+        "answerKeyGenerated": "Fasit laget!",
+        "allSettingsCleared": "Alle innstillinger slettet.",
+        "puzzleWillGenerateUsing": "Oppgaven vil lages med temaet '{}'.",
+        "customImagesAvailable": "{} egendefinert(e) bilde(r) tilgjengelig.",
+        "customWordListEnabled": "Tilpasset ordliste-modus aktivert. Oppgaven vil kun være tekst.",
+        "jpegDownloadInitiated": "JPEG-nedlasting startet!",
+        "pdfDownloaded": "PDF lastet ned!",
+
+        // Lastemeldinger
+        "searching": "Søker...",
+        "loadingTheme": "Laster tema...",
+        "loadingImagesCount": "Laster {} bilde(r)...",
+        "loadingThemeBorders": "Laster {} rammer...",
+        "loadingThemeBackgrounds": "Laster {} bakgrunner...",
+        "preparingJpeg": "Forbereder JPEG...",
+        "preparingPdf": "Forbereder PDF...",
+        "preparingJPEG": "Forbereder JPEG...",
+        "preparingPDF": "Forbereder PDF...",
+
+        // Feilmeldinger
+        "pleaseGenerateWorksheetFirst": "Vennligst lag et oppgaveark først.",
+        "pleaseGenerateContentFirst": "Vennligst lag innhold først.",
+        "themeNeedsMinImages": "Temaet '{}' trenger minst {} bilder.",
+        "pleaseWaitForThemes": "Vennligst vent på at temaene lastes...",
+        "noImagesSelectedOrAvailable": "Ingen bilder valgt eller tilgjengelige for å lage oppgaven.",
+        "customWordListEmpty": "Vennligst skriv inn minst ett ord i den tilpassede ordlisten.",
+        "failedToPlaceWords": "Kunne ikke plassere ord. Prøv et større rutenett eller andre ord.",
+        "noImagesFound": "Ingen bilder funnet",
+        "maxImagesSelected": "Du kan velge maksimalt {} bilder.",
+        "errorReadingFile": "Feil ved lesing av fil: {}",
+        "noBordersInTheme": "Ingen rammer i dette temaet.",
+        "noBackgroundsInTheme": "Ingen bakgrunner i dette temaet.",
+        "errorPreparingJpeg": "Feil ved forberedelse av JPEG.",
+        "errorCreatingPdf": "Feil ved laging av PDF.",
+        "errorPreparingJPEG": "Feil ved forberedelse av JPEG.",
+        "errorCreatingPDF": "Feil ved laging av PDF.",
+
+        // Vannmerker og standarder
+        "watermarkText": "GRATIS VERSJON - LessonCraftStudio.com",
+        "watermarkSmall": "GRATIS VERSJON",
+        "defaultNewText": "Ny tekst",
+        "puzzle": "Oppgave",
+        "exercise": "Øvelse"
+    },
+
+    // ==========================================
+    // FINNISH / SUOMI
+    // ==========================================
+    fi: {
+        // Metadata ja otsikot
+        "app.title": "Sanaristikkogeneraattori",
+        "worksheetGenerator": "Tehtäväarkki-generaattori",
+
+        // Kieliasetukset
+        "languageSettings": "Kieliasetukset",
+        "selectLanguage": "Valitse kieli:",
+        "worksheetContentLanguage": "Tehtäväarkin sisältökieli:",
+        "imageLibraryLanguage": "Kuvakirjaston kieli:",
+        "contentLanguageNote": "Kuvien nimet ja teemat näytetään valitulla kielellä.",
+        "imageNamesAndThemesNote": "Kuvien nimet ja teemat näytetään valitulla kielellä.",
+
+        // Kielten nimet
+        "lang_en": "Englanti",
+        "lang_de": "Saksa",
+        "lang_fr": "Ranska",
+        "lang_es": "Espanja",
+        "lang_it": "Italia",
+        "lang_pt": "Portugali",
+        "lang_nl": "Hollanti",
+        "lang_sv": "Ruotsi",
+        "lang_da": "Tanska",
+        "lang_no": "Norja",
+        "lang_fi": "Suomi",
+
+        // Sivuasetukset
+        "pageAndScene": "Sivu ja asettelu",
+        "pageSetup": "Sivun asetukset",
+        "pageSize": "Sivukoko:",
+        "letterPortrait": "Letter pysty (8,5×11\")",
+        "letterLandscape": "Letter vaaka (11×8,5\")",
+        "a4Portrait": "A4 pysty (210×297mm)",
+        "a4Landscape": "A4 vaaka (297×210mm)",
+        "custom": "Mukautettu",
+        "widthPx": "Leveys (px):",
+        "heightPx": "Korkeus (px):",
+        "applySize": "Käytä kokoa",
+
+        // Tausta-asetukset
+        "background": "Tausta",
+        "fallbackColor": "Perusväri:",
+        "backgroundTheme": "Taustateema:",
+        "noneUseFallbackColor": "Ei mitään (käytä perusväriä)",
+        "selectThemeForBackgrounds": "Valitse teema taustoille.",
+        "backgroundOpacity": "Taustan läpinäkyvyys:", // Changed from "Taustan läpinäkyvyys:" (transparency → opacity/coverage)
+
+        // Reunusasetukset
+        "border": "Reunus",
+        "borderTheme": "Reunusteema:",
+        "none": "Ei mitään",
+        "common.none": "Ei mitään",
+        "selectThemeToSeeBorders": "Valitse teema nähdäksesi reunukset.",
+        "borderOpacity": "Reunuksen läpinäkyvyys:", // Changed from "Reunuksen läpinäkyvyys:" (transparency → opacity/coverage)
+
+        // Tekstityökalut
+        "textTools": "Tekstityökalut",
+        "addNewText": "Lisää uusi teksti",
+        "content": "Sisältö:",
+        "helloPlaceholder": "Hei!",
+        "addText": "Lisää teksti",
+        "selectedTextProperties": "Valitun tekstin ominaisuudet",
+        "color": "Väri:",
+        "size": "Koko:",
+        "font": "Fontti:",
+        "outlineColor": "Ääriviivan väri:",
+        "outlineWidth": "Ääriviivan leveys (0-10):",
+
+        // Ristikon asetukset
+        "puzzleSettings": "Ristikon asetukset",
+        "gridSize": "Ruudukon koko",
+        "rows": "Rivit:",
+        "columns": "Sarakkeet:",
+        "puzzleOptions": "Ristikon vaihtoehdot",
+        "allowDiagonal": "Salli vinot sanat",
+        "allowReverseWords": "Salli takaperin kirjoitetut sanat",
+        "showWordList": "Näytä sana-/kuvalista",
+        "showOnlyImages": "Näytä vain kuvat",
+        "showOnlyWords": "Näytä vain sanat",
+        "classicMode": "Klassinen tila (vain teksti)",
+
+        // Kuvakirjasto
+        "imageLibrary": "Kuvakirjasto",
+        "imageSourceForPuzzle": "Kuvalähde ristikolle",
+        "theme": "Teema:",
+        "useRandomTheme": "-- Käytä satunnaista teemaa --",
+        "individualImageSelection": "Yksittäinen kuvanvalinta",
+        "filterByTheme": "Suodata teeman mukaan:",
+        "searchImages": "Etsi kuvia:",
+        "searchPlaceholder": "esim. omena, auto",
+        "availableImages": "Saatavilla olevat kuvat (max. 8):",
+        "loadingImages": "Ladataan kuvia...",
+        "selectedImages": "Valitut kuvat:",
+        "allThemes": "Kaikki teemat",
+        "allThemesRandomly": "Kaikki teemat (satunnaisesti)",
+        "allThemesForSearch": "Kaikki teemat (hakua varten)",
+
+        // Lataa omia kuvia
+        "uploadCustomImages": "Lataa omia kuvia",
+        "selectImagesToUpload": "Valitse ladattava(t) kuva(t):",
+        "chooseFiles": "Valitse tiedostot",
+        "noFileChosen": "Ei valittua tiedostoa",
+        "uploadedImages": "Ladatut kuvasi (tämä istunto):",
+        "yourUploadedImagesWillAppearHere": "Ladatut kuvasi näkyvät täällä.",
+        "uploadedImagesWillAppearHere": "Ladatut kuvasi näkyvät täällä.",
+        "filesSelected": "{} tiedosto(a) valittu",
+
+        // Kuvannimien manuaalinen muokkaus
+        "manualImageEdit": "Kuvannimien manuaalinen muokkaus",
+        "enableManualEdit": "Muokkaa kuvannimiä ennen luomista",
+        "manualEditDescription": "Kun tämä on käytössä, voit valita kuvat manuaalisesti ja muokata niiden nimiä alla ennen tehtävän luomista.",
+        "selectAndEditImages": "Valitse ja muokkaa kuvia",
+        "manualEditInstructions": "Klikkaa lisätäksesi kuvia, muokkaa sitten nimiä alla:",
+        "clickImagesToAddThem": "Klikkaa kirjaston kuvia lisätäksesi ne tähän muokattavaksi.",
+
+        // Mukautettu sanalista
+        "customWordList": "Mukautettu sanalista",
+        "useCustomWords": "Käytä mukautettua sanalistaa",
+        "customWordListDescription": "Kun tämä on käytössä, luo vain tekstiä sisältäviä tehtäviä mukautetulla sanalistallasi (ei kuvia).",
+        "enterWords": "Kirjoita sanat (yksi per rivi, max. 8):",
+        "customWordsPlaceholder": "omena\nbanaani\nappelsiini\nrypäle",
+        "customWordListNote": "Vain kirjaimet ovat sallittuja. Erikoismerkit ja numerot poistetaan.",
+
+        // Työkalupalkki ja kohdistus
+        "layers": "Tasot",
+        "bringForward": "Siirrä eteenpäin",
+        "sendBackward": "Siirrä taaksepäin",
+        "align": "Kohdista",
+        "alignSelected": "Kohdista valittu:",
+        "alignLeft": "Tasaa vasemmalle",
+        "centerHorizontally": "Keskitä vaakasuunnassa",
+        "alignRight": "Tasaa oikealle",
+        "alignTop": "Tasaa ylös",
+        "centerVertically": "Keskitä pystysuunnassa",
+        "alignBottom": "Tasaa alas",
+        "alignToPage": "Kohdista sivulle:",
+        "centerOnPageHorizontally": "Keskitä sivulle vaakasuunnassa",
+        "centerOnPageVertically": "Keskitä sivulle pystysuunnassa",
+        "lockUnlock": "Lukitse/Avaa",
+        "unlockAll": "Avaa kaikki",
+        "deleteSelected": "Poista valittu",
+        "bringToFront": "Siirrä etualalle",
+        "sendToBack": "Siirrä taustalle",
+
+        // Zoomaus- ja historiasäätimet
+        "zoomIn": "Lähennä",
+        "zoomOut": "Loitonna",
+        "resetZoom": "Nollaa zoomaus",
+        "undo": "Kumoa (Ctrl+Z)",
+        "redo": "Tee uudelleen (Ctrl+Y)",
+
+        // Toimintopainikkeet
+        "generate": "Luo",
+        "newWorksheet": "Uusi tehtäväarkki",
+        "answerKey": "Vastaukset",
+        "download": "Lataa",
+        "worksheet": "Tehtäväarkki",
+        "worksheetJpeg": "Tehtäväarkki (JPEG)",
+        "answerKeyJpeg": "Vastaukset (JPEG)",
+        "worksheetPdf": "Tehtäväarkki (PDF)",
+        "answerKeyPdf": "Vastaukset (PDF)",
+        "grayscale": "Harmaasävy",
+        "clearAll": "Tyhjennä kaikki",
+
+        // Onnistumisviestit
+        "worksheetGeneratedSuccessfully": "Tehtäväarkki luotu onnistuneesti!",
+        "answerKeyGenerated": "Vastaukset luotu!",
+        "allSettingsCleared": "Kaikki asetukset tyhjennetty.",
+        "puzzleWillGenerateUsing": "Ristikko luodaan teemalla '{}'.",
+        "customImagesAvailable": "{} mukautettu(a) kuva(a) saatavilla.",
+        "customWordListEnabled": "Mukautettu sanalista -tila käytössä. Ristikko on vain tekstiä.",
+        "jpegDownloadInitiated": "JPEG-lataus aloitettu!",
+        "pdfDownloaded": "PDF ladattu!",
+
+        // Latausviestit
+        "searching": "Etsitään...",
+        "loadingTheme": "Ladataan teemaa...",
+        "loadingImagesCount": "Ladataan {} kuva(a)...",
+        "loadingThemeBorders": "Ladataan {} reunusta...",
+        "loadingThemeBackgrounds": "Ladataan {} taustaa...",
+        "preparingJpeg": "Valmistellaan JPEG...",
+        "preparingPdf": "Valmistellaan PDF...",
+        "preparingJPEG": "Valmistellaan JPEG...",
+        "preparingPDF": "Valmistellaan PDF...",
+
+        // Virheviestit
+        "pleaseGenerateWorksheetFirst": "Luo ensin tehtäväarkki.",
+        "pleaseGenerateContentFirst": "Luo ensin sisältö.",
+        "themeNeedsMinImages": "Teema '{}' tarvitsee vähintään {} kuvaa.",
+        "pleaseWaitForThemes": "Odota kunnes teemat on ladattu...",
+        "noImagesSelectedOrAvailable": "Ei valittuja tai saatavilla olevia kuvia ristikon luomiseen.",
+        "customWordListEmpty": "Kirjoita vähintään yksi sana mukautettuun sanalistaan.",
+        "failedToPlaceWords": "Sanojen sijoitus epäonnistui. Kokeile suurempaa ruudukkoa tai eri sanoja.",
+        "noImagesFound": "Kuvia ei löytynyt",
+        "maxImagesSelected": "Voit valita enintään {} kuvaa.",
+        "errorReadingFile": "Virhe tiedostoa luettaessa: {}",
+        "noBordersInTheme": "Ei reunuksia tässä teemassa.",
+        "noBackgroundsInTheme": "Ei taustoja tässä teemassa.",
+        "errorPreparingJpeg": "Virhe JPEG:n valmistelussa.",
+        "errorCreatingPdf": "Virhe PDF:n luomisessa.",
+        "errorPreparingJPEG": "Virhe JPEG:n valmistelussa.",
+        "errorCreatingPDF": "Virhe PDF:n luomisessa.",
+
+        // Vesileimät ja oletusarvot
+        "watermarkText": "ILMAINEN VERSIO - LessonCraftStudio.com",
+        "watermarkSmall": "ILMAINEN VERSIO",
+        "defaultNewText": "Uusi teksti",
+        "puzzle": "Ristikko",
+        "exercise": "Harjoitus"
+    }
+};
+
+// Export for use in wordsearch.html
+if (typeof module !== 'undefined' && module.exports) {
+    module.exports = translations;
+}

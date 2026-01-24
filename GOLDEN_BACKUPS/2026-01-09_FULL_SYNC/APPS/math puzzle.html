@@ -1,0 +1,3893 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Math Puzzle Worksheet Generator</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <script src="js/translations-math-puzzle.js?v=1759320052"></script>
+  <script src="js/bulletproof-loader.js?v=1759320052"></script>
+  <script src="js/unified-language-manager.js"></script>
+  <script src="js/border-background-sizer.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&family=Fredoka:wght@400;500;600&family=Lexend+Deca&family=Nunito:wght@400;700&family=Quicksand:wght@300..700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" xintegrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    :root {
+        /* Standardized Theme Colors */
+        --app-font-stack: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        --app-bg-dark: #2c2c2e;
+        --app-surface-dark: #3a3a3e;
+        --app-border-dark: #4a4a4a;
+        --app-text-primary-dark-theme: #e0e0e0;
+        --app-text-secondary-dark-theme: #a0a0a0;
+        --app-bg-light: #f0f2f5;
+        --app-surface-light: #ffffff;
+        --app-border-light: #dce1e6;
+        --app-text-primary-light-theme: #1c1c1e;
+        --app-text-secondary-light-theme: #545458;
+        --app-accent-primary: #007aff;
+        --app-accent-primary-hover: #005ecb;
+        --app-accent-danger: #ff3b30;
+        --app-accent-danger-hover: #d92c23;
+        --sidebar-width: 340px;
+    }
+
+    /* Global Reset & Layout */
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: var(--app-font-stack);
+      display: flex;
+      margin: 0;
+      height: 100vh;
+      background-color: var(--app-bg-light);
+      overflow: hidden;
+      color: var(--app-text-primary-light-theme);
+      position: relative;
+    }
+    .layout {
+        display: flex;
+        flex: 1;
+        overflow: hidden;
+        height: 100vh;
+        position: relative;
+    }
+
+    /* Sidebar Panel */
+    .panel {
+      width: var(--sidebar-width);
+      min-width: var(--sidebar-width);
+      background-color: var(--app-bg-dark);
+      color: var(--app-text-primary-dark-theme);
+      box-shadow: 2px 0 8px rgba(0,0,0,0.15);
+      display: flex;
+      flex-direction: column;
+      overflow-y: hidden;
+      z-index: 1000; /* Increased z-index for responsive mode */
+      padding: 0;
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .panel-header {
+        padding: 20px 25px;
+        text-align: left;
+        border-bottom: 1px solid var(--app-border-dark);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .panel-header h2 {
+        font-size: 22px;
+        font-weight: 600;
+        color: var(--app-text-primary-dark-theme);
+        margin: 0;
+    }
+
+    .panel-content {
+        overflow-y: auto;
+        flex-grow: 1;
+        padding: 10px 15px;
+    }
+
+    /* Accordion Styles */
+    .accordion-item {
+        background-color: transparent;
+        border: none;
+        border-bottom: 1px solid var(--app-border-dark);
+        margin-bottom: 0;
+        border-radius: 0;
+        overflow: hidden;
+    }
+    .accordion-item:last-child {
+        border-bottom: none;
+    }
+    .accordion-button {
+        background-color: transparent;
+        color: var(--app-text-primary-dark-theme);
+        width: 100%;
+        border: none;
+        text-align: left;
+        padding: 18px 10px;
+        font-size: 15px;
+        font-weight: 500;
+        cursor: pointer;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        transition: background-color 0.15s ease;
+    }
+    .accordion-button:hover {
+        background-color: rgba(255,255,255,0.05);
+    }
+    .accordion-button::after {
+        content: '\f078'; /* FontAwesome chevron-down */
+        font-family: 'Font Awesome 5 Free';
+        font-weight: 900;
+        font-size: 12px;
+        transition: transform 0.2s ease-in-out;
+    }
+    .accordion-button.active::after {
+        transform: rotate(-180deg);
+    }
+    .accordion-wrapper {
+        padding: 10px 10px 20px 10px;
+        display: none;
+        background-color: transparent;
+    }
+    .accordion-button.active + .accordion-wrapper {
+        display: block;
+    }
+     .accordion-wrapper h4 {
+        font-size: 13px;
+        color: var(--app-text-secondary-dark-theme);
+        margin-top: 15px;
+        margin-bottom: 8px;
+        border-bottom: 1px solid var(--app-border-dark);
+        padding-bottom: 6px;
+        font-weight: 500;
+    }
+     .accordion-wrapper h4:first-child {
+        margin-top: 0;
+     }
+
+    .accordion-wrapper label {
+        display: block;
+        font-size: 13px;
+        font-weight: 400;
+        color: var(--app-text-secondary-dark-theme);
+        margin-bottom: 6px;
+    }
+    .accordion-wrapper input[type="text"],
+    .accordion-wrapper input[type="number"],
+    .accordion-wrapper textarea,
+    .accordion-wrapper select {
+        width: 100%;
+        padding: 8px 10px;
+        font-size: 13px;
+        border-radius: 5px;
+        border: 1px solid var(--app-border-dark);
+        background-color: var(--app-surface-dark);
+        color: var(--app-text-primary-dark-theme);
+        box-sizing: border-box;
+        margin-bottom: 12px;
+    }
+     .accordion-wrapper input[type="color"] {
+         width: 100%; padding: 2px; height: 38px; margin-bottom: 12px; border-radius: 5px; border-color: var(--app-border-dark);
+    }
+    .accordion-wrapper input[type="range"] { width:100%; padding: 0; margin-bottom: 12px;}
+
+    /* START: Custom Image Upload Styles */
+     .accordion-wrapper input[type="file"] {
+      color: var(--app-text-secondary-dark-theme);
+      background-color: var(--app-surface-dark);
+      border: 1px solid var(--app-border-dark);
+      border-radius: 5px;
+      padding: 8px;
+      font-size: 13px;
+      margin-bottom: 12px;
+      width: 100%;
+    }
+     .accordion-wrapper input[type="file"]::file-selector-button {
+        margin-right: 10px;
+        border: 1px solid var(--app-border-dark);
+        background: var(--app-bg-dark);
+        padding: 4px 8px;
+        border-radius: 3px;
+        color: var(--app-text-primary-dark-theme);
+        cursor: pointer;
+     }
+    /* END: Custom Image Upload Styles */
+
+    /* Buttons within accordion (sidebar) */
+    .accordion-wrapper button {
+        background-color: var(--app-surface-dark);
+        color: var(--app-text-primary-dark-theme);
+        border: 1px solid var(--app-border-dark);
+        font-weight: 500;
+        width: 100%;
+        padding: 8px 12px;
+        font-size: 13px;
+        border-radius: 5px;
+        margin-bottom: 10px;
+    }
+    .accordion-wrapper button:hover {
+        background-color: #48484a;
+    }
+     .accordion-wrapper button:active { transform: scale(0.98); }
+
+    /* Image Library Styles */
+    #dictionary, #selectedImagesPreview, #borderDictionary, #uploadedImagesPreview, #backgroundDictionary {
+        border: 1px solid var(--app-border-dark);
+        padding:10px;
+        max-height: 180px;
+        overflow-y:auto;
+        background-color: var(--app-surface-dark);
+        border-radius:5px;
+        margin-bottom:10px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+    #selectedImagesPreview {
+        min-height: 70px;
+        border-style: dashed;
+        border-color: var(--app-accent-primary);
+        justify-content: center;
+        align-items: center;
+    }
+    #borderDictionary, #backgroundDictionary {
+        max-height: 140px;
+        align-content: flex-start;
+    }
+
+    #dictionary p.dictionary-message, #borderDictionary p.dictionary-message, #uploadedImagesPreview p.dictionary-message, #backgroundDictionary p.dictionary-message {
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+        font-size:12px;
+        color: var(--app-text-secondary-dark-theme);
+        margin: 0;
+        align-self: center;
+    }
+    .dictionary-item, .border-thumbnail-item {
+        padding:8px;
+        cursor:pointer;
+        border: 1px solid transparent;
+        font-size:13px;
+        transition: background-color .15s ease, border-color .15s ease;
+        display:flex;
+        flex-direction: column;
+        align-items:center;
+        border-radius: 4px;
+        background-color: rgba(255,255,255,0.05);
+    }
+    .border-thumbnail-item {
+        padding: 2px;
+        width: 60px;
+        height: 60px;
+    }
+    .dictionary-item:hover, .border-thumbnail-item:hover {
+        background-color: rgba(255,255,255,0.1);
+        border-color: var(--app-accent-primary);
+    }
+    .dictionary-item.selected, .border-thumbnail-item.selected {
+        border-color: var(--app-accent-primary);
+        background-color: rgba(0, 122, 255, 0.15);
+    }
+    .dictionary-item img {
+        width: 50px; height: 50px;
+        object-fit: contain;
+        border:1px solid var(--app-border-dark);
+        border-radius:3px;
+        background-color: var(--app-surface-light);
+        margin-bottom: 5px;
+    }
+    .border-thumbnail-item img {
+        width: 100%; height: 100%;
+        object-fit: contain;
+        background-color: var(--app-surface-light);
+        border-radius: 2px;
+    }
+    .dictionary-item span {
+        font-size: 10px; text-align: center; word-break: break-word; max-width: 50px;
+        color: var(--app-text-secondary-dark-theme);
+    }
+    
+    .selected-preview-item img {
+      width: 60px; height: 60px; object-fit: contain;
+      border: 2px solid var(--app-accent-primary);
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .panel-footer {
+        padding: 15px 25px;
+        border-top: 1px solid var(--app-border-dark);
+        margin-top: auto;
+        background-color: var(--app-bg-dark);
+    }
+    #message {
+        padding:10px 15px;
+        border-radius:5px;
+        font-size:13px;
+        text-align:center;
+        min-height:20px;
+        font-weight:500;
+        display:none;
+        margin-bottom: 0;
+        border-width: 1px;
+        border-style: solid;
+    }
+    #message.error {background-color:rgba(255, 59, 48, 0.2); color: var(--app-accent-danger); border-color: var(--app-accent-danger);}
+    #message.success {background-color:rgba(52, 199, 89, 0.2); color: #34c759; border-color: #34c759;}
+    #message.info {background-color:rgba(0, 122, 255, 0.15); color:var(--app-accent-primary); border-color: var(--app-accent-primary);}
+
+    /* Main Content Area */
+    .main {
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      overflow: hidden;
+      padding: 0;
+    }
+    
+    /* Responsive Controls */
+    .menu-toggle-btn {
+        display: none;
+        position: absolute;
+        top: 12px;
+        left: 20px;
+        z-index: 20;
+        background-color: var(--app-surface-light);
+        color: var(--app-text-primary-light-theme);
+        border: 1px solid var(--app-border-light);
+        border-radius: 6px;
+        width: 38px;
+        height: 38px;
+        font-size: 18px;
+        cursor: pointer;
+        align-items: center;
+        justify-content: center;
+    }
+    .menu-toggle-btn:hover { background-color: #e8e8ed; }
+
+    .menu-close-btn {
+        display: none;
+        background: none;
+        border: none;
+        color: var(--app-text-secondary-dark-theme);
+        font-size: 28px;
+        line-height: 1;
+        cursor: pointer;
+        padding: 0 5px;
+    }
+    .menu-close-btn:hover { color: var(--app-text-primary-dark-theme); }
+
+    .menu-overlay {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,0.4);
+        z-index: 999;
+    }
+    .menu-overlay.is-active { display: block; }
+
+
+    /* Top Right Actions Area */
+    .top-right-actions {
+        position: absolute;
+        top: 12px;
+        right: 20px;
+        z-index: 20;
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+    .top-right-actions .action-button {
+        padding: 7px 14px;
+        font-size: 13px;
+        font-weight: 500;
+        border-radius: 6px;
+        border: none;
+        color: white;
+        cursor: pointer;
+        transition: background-color 0.2s ease, transform 0.1s ease;
+    }
+    .top-right-actions .action-button:active { transform: scale(0.98); }
+    .top-right-actions .action-button.accent { background-color: var(--app-accent-primary); }
+    .top-right-actions .action-button.accent:hover { background-color: var(--app-accent-primary-hover); }
+    .top-right-actions .action-button.danger {
+        background-color: var(--app-surface-light);
+        color: var(--app-text-primary-light-theme);
+        border: 1px solid var(--app-border-light);
+    }
+    .top-right-actions .action-button.danger:hover { background-color: #e8e8ed; }
+    .top-right-actions .action-button.secondary {
+        background-color: var(--app-surface-light);
+        color: var(--app-text-primary-light-theme);
+        border: 1px solid var(--app-border-light);
+    }
+    .top-right-actions .action-button.secondary:hover { background-color: #e8e8ed; }
+    .top-right-actions .action-button:disabled {
+        background-color: #cccccc !important;
+        color: #888888 !important;
+        border-color: #cccccc !important;
+        cursor: not-allowed;
+    }
+
+    .dropdown-container { position: relative; display: inline-block; }
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        right: 0;
+        top: calc(100% + 5px);
+        background-color: var(--app-surface-light);
+        min-width: 200px;
+        box-shadow: 0px 5px 15px rgba(0,0,0,0.15);
+        border: 1px solid var(--app-border-light);
+        border-radius: 6px;
+        padding: 8px;
+        z-index: 25;
+    }
+    .dropdown-content button {
+        width: 100%;
+        padding: 8px 12px;
+        font-size: 13px;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-bottom: 6px;
+        background-color: transparent;
+        color: var(--app-text-primary-light-theme);
+        border: none;
+        cursor: pointer;
+        text-align: left;
+    }
+    .dropdown-content button:last-of-type { margin-bottom: 0; }
+    .dropdown-content button:hover { background-color: rgba(0,0,0,0.05); }
+    .dropdown-content button:disabled {
+        background-color: transparent !important;
+        color: var(--app-text-secondary-light-theme) !important;
+        cursor: not-allowed;
+    }
+    .dropdown-content .checkbox-label {
+        display: flex;
+        align-items: center;
+        font-size: 13px;
+        padding: 6px 12px;
+        margin-top: 4px;
+        cursor: pointer;
+        color: var(--app-text-primary-light-theme);
+        border-radius: 4px;
+    }
+    .dropdown-content .checkbox-label:hover { background-color: rgba(0,0,0,0.05); }
+    .dropdown-content .checkbox-label input[type="checkbox"] {
+        margin-right: 8px;
+        accent-color: var(--app-accent-primary);
+    }
+
+    .tab-row {
+      display: flex;
+      justify-content: flex-start;
+      padding: 0 20px;
+      border-bottom: 1px solid var(--app-border-light);
+      background-color: var(--app-surface-light);
+      margin-top: 60px;
+    }
+    .tab-button {
+      padding: 12px 18px;
+      background: transparent;
+      border: none;
+      border-bottom: 2px solid transparent;
+      color: var(--app-text-secondary-light-theme);
+      font-size: 14px;
+      font-weight: 500;
+      cursor: pointer;
+      margin-bottom: -1px;
+    }
+    .tab-button:hover { color: var(--app-text-primary-light-theme); }
+    .tab-button.active {
+        color: var(--app-accent-primary);
+        border-bottom: 2px solid var(--app-accent-primary);
+    }
+
+    .tab-content-wrapper {
+        flex-grow: 1;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        padding: 25px;
+        overflow-y: auto;
+    }
+
+    .tab {
+      display: none;
+      width: 100%;
+      height: 100%;
+    }
+    .tab.active { display: flex; flex-direction: column; }
+
+    .canvas-container-wrapper {
+        background-color: var(--app-surface-light);
+        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        border-radius: 8px;
+        overflow: visible; /* Changed from auto - critical for zoom display */
+        margin: auto;
+        position: relative;
+    }
+    /* Ensure Fabric.js container doesn't clip */
+    .canvas-container { 
+        overflow: visible !important;
+        position: relative !important;
+    }
+    canvas { display: block; }
+    /* START: Contextual Toolbar CSS */
+    #object-context-toolbar {
+        position: absolute;
+        top: 72px;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: var(--app-surface-light);
+        border-radius: 6px;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+        padding: 5px;
+        display: flex;
+        flex-direction: row;
+        gap: 4px;
+        z-index: 100;
+        align-items: center;
+        border: 1px solid var(--app-border-light);
+    }
+    .toolbar-group {
+        display: flex;
+        gap: 2px;
+        align-items: center;
+        padding: 0 4px;
+    }
+    .toolbar-group + .toolbar-group {
+        border-left: 1px solid var(--app-border-light);
+    }
+    .toolbar-item {
+        position: relative;
+    }
+    .context-btn {
+        background: none;
+        border: 1px solid transparent;
+        border-radius: 4px;
+        padding: 5px 7px;
+        cursor: pointer;
+        font-size: 15px; 
+        color: var(--app-text-secondary-light-theme);
+        line-height: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-width: 32px;
+        transition: background-color 0.2s, color 0.2s;
+    }
+    .context-btn:disabled {
+        color: #c5c5c7;
+        cursor: not-allowed;
+    }
+    .context-btn:not(:disabled):hover {
+        background-color: #e8e8ed;
+        color: var(--app-text-primary-light-theme);
+    }
+    .context-btn.active-dropdown {
+        background-color: #ddeeff;
+        color: var(--app-accent-primary);
+    }
+    #toolbarDeleteBtn:not(:disabled) {
+        color: var(--app-accent-danger);
+    }
+    #object-context-toolbar .dropdown-content {
+        display: none;
+        position: absolute;
+        top: calc(100% + 5px);
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: var(--app-surface-light);
+        min-width: 150px;
+        box-shadow: 0px 5px 15px rgba(0,0,0,0.15);
+        border: 1px solid var(--app-border-light);
+        border-radius: 6px;
+        padding: 8px;
+        z-index: 101;
+    }
+    #object-context-toolbar .dropdown-content button {
+        width: 100%;
+        padding: 8px 12px;
+        font-size: 13px;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-bottom: 6px;
+        background-color: transparent;
+        color: var(--app-text-primary-light-theme);
+        border: none;
+        cursor: pointer;
+        text-align: left;
+        font-weight: 400;
+        transition: background-color 0.15s ease;
+    }
+    #object-context-toolbar .dropdown-content button:last-of-type {
+        margin-bottom: 0;
+    }
+    #object-context-toolbar .dropdown-content button:hover {
+        background-color: rgba(0,0,0,0.05);
+    }
+    /* END: Contextual Toolbar CSS */
+    
+    /* START: Responsive CSS */
+    @media (max-width: 1024px) {
+        .panel {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 100vh;
+            transform: translateX(-100%);
+        }
+        .panel.is-open {
+            transform: translateX(0);
+        }
+        .menu-toggle-btn {
+            display: flex;
+        }
+        .menu-close-btn {
+            display: block;
+        }
+        .tab-row {
+            padding-left: 70px; /* Make space for the menu toggle button */
+        }
+    }
+    /* END: Responsive CSS */
+
+/* ============================================
+   MODERN UNIFIED HEADER STYLES
+   Exact implementation from wordsearch.html lines 251-450
+   ============================================ */
+
+.tab-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 24px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.15);
+    position: relative;
+    z-index: 15;
+    border-radius: 0;
+    margin: 0;
+    gap: 16px;
+}
+
+.tab-buttons-container {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.tab-button {
+    padding: 10px 24px;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    background: rgba(255, 255, 255, 0.15);
+    color: rgba(255, 255, 255, 0.8);
+    cursor: pointer;
+    border-radius: 8px;
+    transition: all 0.2s ease;
+    backdrop-filter: blur(10px);
+    position: relative;
+}
+
+.tab-button:hover {
+    background: rgba(255, 255, 255, 0.25);
+    color: white;
+    transform: translateY(-1px);
+}
+
+.tab-button.active {
+    background: rgba(255, 255, 255, 0.95);
+    color: #667eea;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Actions Container */
+.header-actions {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+/* --- Zoom Controls --- */
+.zoom-controls {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 6px;
+    padding: 5px 10px;
+    backdrop-filter: blur(10px);
+}
+
+.zoom-btn {
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 4px;
+    padding: 6px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    color: white;
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.zoom-btn:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-color: rgba(255, 255, 255, 0.4);
+}
+
+.zoom-btn:active {
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+.zoom-percentage {
+    min-width: 45px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 600;
+    color: white;
+    user-select: none;
+}
+
+/* --- Undo/Redo Controls --- */
+.history-controls {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    background-color: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 6px;
+    padding: 5px 10px;
+    backdrop-filter: blur(10px);
+}
+
+.history-btn {
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 4px;
+    padding: 6px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    color: white;
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.history-btn:hover:not(:disabled) {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-color: rgba(255, 255, 255, 0.4);
+}
+
+.history-btn:active:not(:disabled) {
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+.history-btn:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+}
+
+/* Unlock All Button */
+.unlock-all-controls {
+  display: none; /* Hidden by default */
+  align-items: center;
+  gap: 6px;
+  padding: 4px 12px;
+  background: rgba(255, 165, 0, 0.25);
+  border-radius: 8px;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 165, 0, 0.4);
+}
+
+.unlock-all-controls.visible {
+  display: flex;
+}
+
+.unlock-all-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 10px;
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.unlock-all-btn:hover {
+  background: rgba(255, 255, 255, 0.3);
+  transform: scale(1.05);
+}
+
+.unlock-all-btn i {
+  font-size: 14px;
+}
+
+/* --- Dropdown Containers --- */
+.dropdown-container {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: white;
+    min-width: 200px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    z-index: 1000;
+    margin-top: 8px;
+    padding: 8px 0;
+}
+
+.dropdown-content.show {
+    display: block;
+}
+
+.dropdown-content button {
+    display: block;
+    width: 100%;
+    padding: 10px 16px;
+    border: none;
+    background: none;
+    text-align: left;
+    cursor: pointer;
+    font-size: 14px;
+    color: #333;
+    transition: background-color 0.2s;
+}
+
+.dropdown-content button:hover:not(:disabled) {
+    background-color: #f5f5f5;
+}
+
+.dropdown-content button:disabled {
+    color: #ccc;
+    cursor: not-allowed;
+}
+
+/* --- Action Buttons --- */
+.action-button {
+    padding: 8px 16px;
+    font-size: 13px;
+    font-weight: 500;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.action-button.accent {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.action-button.accent:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+}
+
+.action-button.download-btn {
+    background: rgba(255, 255, 255, 0.95);
+    color: #667eea;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+.action-button.download-btn:hover {
+    background: white;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.action-button.danger {
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.action-button.danger:hover {
+    background: rgba(255, 59, 48, 0.9);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(255, 59, 48, 0.3);
+}
+
+  </style>
+</head>
+<body>
+  <div class="layout">
+    <div id="menuOverlay" class="menu-overlay"></div>
+    <div class="panel">
+      <div class="panel-header">
+        <h2 data-translate="mathPuzzle">Math Puzzle</h2>
+        <button id="menuCloseBtn" class="menu-close-btn">&times;</button>
+      </div>
+      <div class="panel-content">
+        <!-- Language Selector -->
+        <div class="accordion-item">
+            <button class="accordion-button active" data-translate="mathPuzzle">Math Puzzle</button>
+            <div class="accordion-wrapper" style="display: block;">
+                <h4 data-translate="selectLanguage">Select Language</h4>
+                <label for="languageSelect" data-translate="language">Language:</label>
+                <select id="languageSelect">
+                    <option value="en" data-translate="language.english">English</option>
+                    <option value="de" data-translate="language.german.full">Deutsch (German)</option>
+                    <option value="fr" data-translate="language.french.full">Français (French)</option>
+                    <option value="es" data-translate="language.spanish.full">Español (Spanish)</option>
+                    <option value="pt" data-translate="language.portuguese.full">Português (Portuguese)</option>
+                    <option value="it" data-translate="language.italian.full">Italiano (Italian)</option>
+                    <option value="nl" data-translate="language.dutch.full">Nederlands (Dutch)</option>
+                    <option value="sv" data-translate="language.swedish.full">Svenska (Swedish)</option>
+                    <option value="da" data-translate="language.danish.full">Dansk (Danish)</option>
+                    <option value="no" data-translate="language.norwegian.full">Norsk (Norwegian)</option>
+                    <option value="fi" data-translate="language.finnish.full">Suomi (Finnish)</option>
+                </select>
+                <p style="font-size: 12px; color: var(--app-text-secondary-dark-theme); margin-top: 10px;" data-translate="mathpuzzle.language.description">
+                    Selects the language for image library content only. UI language is controlled by the main language selector in the header.
+                </p>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <button class="accordion-button" data-translate="pageSettings">Page Setup</button>
+            <div class="accordion-wrapper">
+                <label for="pageSizeSelect" data-translate="pageSize">Page Size:</label>
+                <select id="pageSizeSelect">
+                    <option value="612x792" data-translate="page.size.letter.portrait">Letter Portrait (8.5×11")</option>
+                    <option value="792x612" data-translate="page.size.letter.landscape">Letter Landscape (11×8.5")</option>
+                    <option value="595x842" data-translate="page.size.a4.portrait">A4 Portrait (210×297mm)</option>
+                    <option value="842x595" data-translate="page.size.a4.landscape">A4 Landscape (297×210mm)</option>
+                    <option value="800x1000" data-translate="page.size.default">Default Worksheet (800x1000)</option>
+                    <option value="1200x1200" data-translate="page.size.square">Square (1200x1200)</option>
+                </select>
+                <label for="pageColor" data-translate="pageColor">Page Color:</label>
+                <input type="color" id="pageColor" value="#FFFFFF">
+                <button id="setPageSizeBtn" data-translate="mathpuzzle.apply.size.color">Apply Size & Color</button>
+                
+                <h4 data-translate="mathpuzzle.background.title">Background</h4>
+                <label for="backgroundThemeSelect" data-translate="backgroundTheme">Background Theme:</label>
+                <select id="backgroundThemeSelect">
+                    <option value="none" data-translate="none">None</option>
+                </select>
+                <div id="backgroundDictionary"><p class="dictionary-message" data-translate="mathpuzzle.background.message">Select a theme for backgrounds.</p></div>
+                <label for="backgroundOpacity" data-translate="backgroundOpacity">Background Opacity:</label>
+                <input type="range" id="backgroundOpacity" min="0" max="1" step="0.05" value="1" disabled>
+                <h4 data-translate="mathpuzzle.border.title">Border</h4>
+                <label for="borderThemeSelect" data-translate="borderTheme">Border Theme:</label>
+                <select id="borderThemeSelect">
+                    <option value="none" data-translate="none">None</option>
+                </select>
+                <div id="borderDictionary">
+                    <p class="dictionary-message" data-translate="mathpuzzle.border.message">Select a theme to see borders.</p>
+                </div>
+                <label for="borderOpacity" data-translate="borderOpacity">Border Opacity:</label>
+                <input type="range" id="borderOpacity" min="0" max="1" step="0.05" value="1" disabled>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <button class="accordion-button" data-translate="mathpuzzle.text.tools">Text Tools</button>
+            <div class="accordion-wrapper">
+                <h4 data-translate="mathpuzzle.text.add.new">Add New Text</h4>
+                <label for="textInput" data-translate="content">Content:</label><input type="text" id="textInput" placeholder="Hello!" data-translate-placeholder="mathpuzzle.text.placeholder">
+                <button id="addTextBtn" data-translate="mathpuzzle.text.add.button">Add Text</button>
+                <h4 data-translate="mathpuzzle.text.properties">Selected Text Properties</h4>
+                <label for="textColor" data-translate="color">Color:</label><input type="color" id="textColor" value="#333333" disabled>
+                <label for="fontSize" data-translate="size">Size:</label><input type="number" id="fontSize" value="48" min="8" disabled>
+                <label for="fontFamily" data-translate="font">Font:</label>
+                <select id="fontFamily" disabled>
+                    <option value="Lexend Deca" data-translate="font.lexend">Lexend Deca</option>
+                    <option value="Baloo 2" data-translate="font.baloo">Baloo 2</option>
+                    <option value="Nunito" data-translate="font.nunito">Nunito</option>
+                    <option value="Quicksand" data-translate="font.quicksand">Quicksand</option>
+                    <option value="Fredoka" data-translate="font.fredoka">Fredoka</option>
+                    <option value="Arial" data-translate="font.arial">Arial</option>
+                    <option value="Verdana" data-translate="font.verdana">Verdana</option>
+                </select>
+                <label for="textStrokeColor" data-translate="outlineColor">Outline Color:</label><input type="color" id="textStrokeColor" value="#000000" disabled>
+                <label for="textStrokeWidth" data-translate="outlineWidth">Outline (0-10):</label><input type="range" id="textStrokeWidth" min="0" max="10" value="0" step="0.5" disabled>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <button class="accordion-button" data-translate="mathpuzzle.puzzle.config">Puzzle Configuration</button>
+            <div class="accordion-wrapper">
+                <label for="rowInput" data-translate="rowsRange">Rows (2–4):</label>
+                <input type="number" id="rowInput" min="2" max="4" value="3">
+                <label for="colInput" data-translate="columnsRange">Columns (2–4):</label>
+                <input type="number" id="colInput" min="2" max="4" value="3">
+                <label for="opSelect" data-translate="operation">Operation:</label>
+                <select id="opSelect">
+                    <option value="addition" data-translate="operation.addition">Addition</option>
+                    <option value="subtraction" data-translate="operation.subtraction">Subtraction</option>
+                    <option value="both" data-translate="operation.both">Addition & Subtraction</option>
+                </select>
+            </div>
+        </div>
+        
+        <div class="accordion-item">
+            <button class="accordion-button" data-translate="mathpuzzle.image.library">Image Library</button>
+            <div class="accordion-wrapper">
+                <label for="themeSelect" data-translate="selectTheme">Select Theme:</label>
+                <select id="themeSelect"></select>
+                <label for="searchInput" data-translate="searchImages">Search Images:</label>
+                <input type="text" id="searchInput" placeholder="e.g., cat, apple" data-translate-placeholder="mathpuzzle.search.placeholder">
+                <label data-translate="availableImages">Available Images:</label>
+                <div id="dictionary"><p class='dictionary-message' data-translate="mathpuzzle.loading.images">Loading images...</p></div>
+                <label style="margin-top:10px;" data-translate="selectedImageForPuzzle">Selected Image for Puzzle:</label>
+                <div id="selectedImagesPreview" class="selected-preview">
+                    <p class="dictionary-message" data-translate="mathpuzzle.none.selected">None Selected</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="accordion-item">
+            <button class="accordion-button" data-translate="mathpuzzle.upload.custom">Upload Custom Images</button>
+            <div class="accordion-wrapper">
+                <label data-translate="selectImagesToUpload">Select image(s) to upload:</label>
+                <div style="position: relative; margin: 10px 0;">
+                    <button type="button" id="customFileButton" class="action-button" style="padding: 8px 16px; font-size: 14px;" data-translate="chooseFiles">Choose Files</button>
+                    <span id="fileSelectionText" style="margin-left: 10px; color: var(--app-text-secondary-dark-theme);" data-translate="noFileChosen">No file chosen</span>
+                    <input type="file" id="imageUploadInput" multiple accept="image/*" style="position: absolute; left: -9999px;">
+                </div>
+                <label style="margin-top:10px;" data-translate="yourUploadedImages">Your Uploaded Images (This Session):</label>
+                <div id="uploadedImagesPreview">
+                    <p class="dictionary-message" data-translate="mathpuzzle.uploaded.placeholder">Your uploaded images will appear here.</p>
+                </div>
+            </div>
+        </div>
+        </div>
+      <div class="panel-footer">
+          <div id="message"></div>
+      </div>
+    </div>
+
+    <div class="main">
+      <button id="menuToggleBtn" class="menu-toggle-btn"><i class="fas fa-bars"></i></button>
+      <div id="object-context-toolbar" style="display:none;">
+          <div class="toolbar-group">
+              <div class="toolbar-item">
+                  <button class="context-btn" id="layersBtn" data-translate-title="toolbar.layers" title="Layers"><i class="fas fa-layer-group"></i></button>
+                  <div class="dropdown-content" id="layersDropdown">
+                          <button id="toolbarBringToFrontBtn" data-translate="bringToFront">Bring to Front</button>
+                          <button id="toolbarBringForwardBtn" data-translate="bringForward">Bring Forward</button>
+                          <button id="toolbarSendBackwardBtn" data-translate="sendBackward">Send Backward</button>
+                          <button id="toolbarSendToBackBtn" data-translate="sendToBack">Send to Back</button>
+                  </div>
+              </div>
+          </div>
+          <div class="toolbar-group">
+              <div class="toolbar-item">
+                  <button class="context-btn" id="alignBtn" data-translate-title="toolbar.align" title="Align"><i class="fas fa-th"></i></button>
+                  <div class="dropdown-content" id="alignDropdown" style="min-width: 220px; padding: 12px;">
+                          <p style="font-size:11px; margin-bottom:5px; color:#555;" data-translate="toolbar.align.selected">Align Selected:</p>
+                          <div>
+                                  <button class="context-btn" id="alignLeftBtn" data-translate-title="toolbar.align.left" title="Align Left"><i class="fas fa-align-left"></i></button>
+                                  <button class="context-btn" id="alignHCenterBtn" data-translate-title="toolbar.center.h" title="Center Horizontally"><i class="fas fa-align-center"></i></button>
+                                  <button class="context-btn" id="alignRightBtn" data-translate-title="toolbar.align.right" title="Align Right"><i class="fas fa-align-right"></i></button>
+                          </div>
+                          <div style="margin-top: 5px;">
+                                  <button class="context-btn" id="alignTopBtn" data-translate-title="toolbar.align.top" title="Align Top"><i class="fas fa-long-arrow-alt-up"></i></button>
+                                  <button class="context-btn" id="alignVCenterBtn" data-translate-title="toolbar.center.v" title="Center Vertically"><i class="fas fa-grip-lines"></i></button>
+                                  <button class="context-btn" id="alignBottomBtn" data-translate-title="toolbar.align.bottom" title="Align Bottom"><i class="fas fa-long-arrow-alt-down"></i></button>
+                          </div>
+                          <hr style="margin:8px 0; border:none; border-top:1px solid #eee;">
+                          <p style="font-size:11px; margin-bottom:5px; color:#555;" data-translate="toolbar.align.to.page">Align to Page:</p>
+                          <div>
+                                  <button class="context-btn" id="centerHCanvasBtn" data-translate-title="toolbar.center.page.h" title="Center on Page Horizontally"><i class="fas fa-arrows-alt-h"></i></button>
+                                  <button class="context-btn" id="centerVCanvasBtn" data-translate-title="toolbar.center.page.v" title="Center on Page Vertically"><i class="fas fa-arrows-alt-v"></i></button>
+                          </div>
+                  </div>
+              </div>
+          </div>
+          <div class="toolbar-group">
+              <button class="context-btn" id="toolbarLockBtn" data-translate-title="toolbar.lockUnlock" title="Lock/Unlock"><i class="fas fa-lock-open"></i></button>
+          </div>
+          <div class="toolbar-group">
+              <button class="context-btn" id="toolbarDeleteBtn" data-translate-title="toolbar.delete" title="Delete Selected"><i class="fas fa-trash-alt"></i></button>
+          </div>
+      </div>
+
+      <div class="tab-row">
+                <div class="tab-buttons-container">
+                    <button class="tab-button active" data-tab="worksheetTab" data-translate="mathpuzzle.tab.worksheet">Worksheet</button>
+                    <button class="tab-button" data-tab="answerKeyTab" data-translate="mathpuzzle.tab.answer">Answer Key</button>
+                </div>
+                <div class="header-actions">
+                    <div class="zoom-controls">
+                        <button id="zoomOutBtn" class="zoom-btn" data-translate-title="zoomOut" title="Zoom Out"><i class="fas fa-search-minus"></i></button>
+                        <span id="zoomPercentage" class="zoom-percentage">100%</span>
+                        <button id="zoomInBtn" class="zoom-btn" data-translate-title="zoomIn" title="Zoom In"><i class="fas fa-search-plus"></i></button>
+                        <button id="zoomResetBtn" class="zoom-btn" data-translate-title="zoomReset" title="Reset Zoom"><i class="fas fa-compress-arrows-alt"></i></button>
+                    </div>
+                    <div class="history-controls">
+                        <button id="undoBtn" class="history-btn" data-translate-title="undo" title="Undo (Ctrl+Z)" disabled><i class="fas fa-undo"></i></button>
+                        <button id="redoBtn" class="history-btn" data-translate-title="redo" title="Redo (Ctrl+Y)" disabled><i class="fas fa-redo"></i></button>
+                    </div>
+                    <!-- Unlock All Button (shown when objects are locked) -->
+                    <div id="unlockAllControls" class="unlock-all-controls">
+                        <button id="unlockAllBtn" class="unlock-all-btn" data-translate-title="toolbar.unlockAll" title="Unlock All Locked Objects">
+                            <i class="fas fa-unlock"></i>
+                            <span data-translate="toolbar.unlockAll">Unlock All</span>
+                        </button>
+                    </div>
+                    <div class="dropdown-container">
+                        <button id="generateDropdownBtn" class="action-button accent"><span data-translate="mathpuzzle.generate">Create</span> <i class="fas fa-caret-down"></i></button>
+                        <div id="generateDropdownContent" class="dropdown-content">
+                            <button id="generateWorksheetBtn" data-translate="mathpuzzle.generate.new">New Worksheet</button>
+                            <button id="generateAnswerKeyBtn" disabled data-translate="mathpuzzle.generate.answer">Answer Key</button>
+                        </div>
+                    </div>
+                    <div class="dropdown-container">
+                        <button id="downloadDropdownBtn" class="action-button download-btn"><span data-translate="mathpuzzle.download">Download</span> <i class="fas fa-caret-down" style="margin-left: 5px;"></i></button>
+                        <div id="downloadDropdownContent" class="dropdown-content">
+                            <button id="downloadWsJpegBtn" disabled data-translate="mathpuzzle.download.worksheet.jpeg">Worksheet (JPEG)</button>
+                            <button id="downloadAkJpegBtn" disabled data-translate="mathpuzzle.download.answer.jpeg">Answer Key (JPEG)</button>
+                            <hr style="margin: 6px 0; border-color: #eee;">
+                            <button id="downloadWsPdfBtn" disabled data-translate="mathpuzzle.download.worksheet.pdf">Worksheet (PDF)</button>
+                            <button id="downloadAkPdfBtn" disabled data-translate="mathpuzzle.download.answer.pdf">Answer Key (PDF)</button>
+                            <hr style="margin: 6px 0; border-color: #eee;">
+                            <label class="checkbox-label" id="grayscaleLabel">
+                                <input type="checkbox" id="grayscaleToggle" /><span data-translate="common.grayscale">Grayscale</span>
+                            </label>
+                        </div>
+                    </div>
+                    <button id="clearBtn" class="action-button danger" data-translate="mathpuzzle.clear.all">Clear All</button>
+                </div>
+            </div>
+      <div class="tab-content-wrapper">
+        <div class="tab active" id="worksheetTab">
+            <div class="canvas-container-wrapper" id="worksheetCanvasWrapper">
+                <canvas id="worksheetCanvasElement"></canvas>
+            </div>
+        </div>
+        <div class="tab" id="answerKeyTab">
+             <div class="canvas-container-wrapper" id="answerKeyCanvasWrapper">
+                <canvas id="answerKeyCanvasElement"></canvas>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<script>
+// MUST BE FIRST - Before ANY DOM element references
+let uiLocale = 'en';  // UI language (for interface translations) - from URL parameter
+let currentLocale = 'en';  // Content language (for image library) - can be changed by sidebar selector
+let currentCanvasConfig = { width: 612, height: 792 }; // Letter Portrait default
+
+// Initialize locale from URL if present
+const urlParams = new URLSearchParams(window.location.search);
+const localeParam = urlParams.get('locale');
+if (localeParam) {
+    uiLocale = localeParam;  // UI language comes from URL (parent app header)
+    currentLocale = localeParam;  // Initial content language matches UI language
+}
+
+// Set both locales globally BEFORE DOMContentLoaded (critical for enhancement scripts)
+window.uiLocale = uiLocale;
+window.currentLocale = currentLocale;
+
+document.addEventListener("DOMContentLoaded", function() {
+    // --- TRANSLATION SYSTEM ---
+    // Apply translations to all elements with data-translate attributes
+    function applyTranslations() {
+        // Translate elements with data-translate attribute
+        document.querySelectorAll('[data-translate]').forEach(element => {
+            const key = element.getAttribute('data-translate');
+            if (key && typeof t !== 'undefined') {
+                const translation = t(key);
+                if (translation && translation !== key) {
+                    if (element.tagName === 'INPUT' || element.tagName === 'TEXTAREA') {
+                        if (element.type === 'button' || element.type === 'submit') {
+                            element.value = translation;
+                        }
+                    } else if (element.tagName === 'OPTION') {
+                        element.textContent = translation;
+                    } else if (element.tagName === 'BUTTON') {
+                        // For buttons, preserve child elements like icons
+                        const icon = element.querySelector('i');
+                        if (icon) {
+                            element.textContent = translation + ' ';
+                            element.appendChild(icon);
+                        } else {
+                            element.textContent = translation;
+                        }
+                    } else {
+                        element.textContent = translation;
+                    }
+                }
+            }
+        });
+
+        // Translate placeholders
+        document.querySelectorAll('[data-translate-placeholder]').forEach(element => {
+            const key = element.getAttribute('data-translate-placeholder');
+            if (key && typeof t !== 'undefined') {
+                element.placeholder = t(key);
+            }
+        });
+
+        // Translate titles/tooltips
+        document.querySelectorAll('[data-translate-title]').forEach(element => {
+            const key = element.getAttribute('data-translate-title');
+            if (key && typeof t !== 'undefined') {
+                element.title = t(key);
+            }
+        });
+    }
+
+    // Apply translations will be called after translations are loaded (see setTimeout below)
+
+    // --- App Constants and State ---
+    const downloadMultiplier = 6; // For high-resolution exports
+    let worksheetCanvas, answerKeyCanvas;
+    let currentCanvasConfig = { width: 612, height: 792 };
+    let currentThemeImages = []; // Cache for the currently selected theme's images
+    let uploadedImages = []; // START: Added for custom uploads
+    let selectedImage = null; // This app uses only one image
+    let userManuallySelectedImage = false; // Track if user manually selected (vs auto-selected)
+    let lastGeneratedData = null; // Holds all data for rendering worksheet and key
+    let activePopover = null;
+    let isRegenerating = false; // Guard flag to prevent infinite regeneration loops
+    let userZoomLevel = 1.0; // User-controlled zoom level (100% = 1.0)
+
+    // Undo/Redo State Management
+    let historyStack = [];
+    let redoStack = [];
+    const MAX_HISTORY = 50;
+    let isRestoringState = false;
+    let isGenerating = false;
+
+    // --- DOM Element Cache ---
+    const $ = id => document.getElementById(id);
+    const elements = {
+        panel: document.querySelector('.panel'),
+        accordionButtons: document.querySelectorAll('.accordion-button'),
+        languageSelect: $('languageSelect'),
+        // Page Setup
+        pageSizeSelect: $('pageSizeSelect'),
+        pageColorInput: $('pageColor'),
+        setPageSizeBtn: $('setPageSizeBtn'),
+        // START: Background elements added
+        backgroundThemeSelect: $('backgroundThemeSelect'),
+        backgroundDictionary: $('backgroundDictionary'),
+        backgroundOpacity: $('backgroundOpacity'),
+        // END: Background elements added
+        borderThemeSelect: $('borderThemeSelect'),
+        borderDictionary: $('borderDictionary'),
+        borderOpacity: $('borderOpacity'),
+        // Text Tools
+        textInput: $('textInput'),
+        addTextBtn: $('addTextBtn'),
+        textColor: $('textColor'),
+        fontSize: $('fontSize'),
+        fontFamily: $('fontFamily'),
+        textStrokeColor: $('textStrokeColor'),
+        textStrokeWidth: $('textStrokeWidth'),
+        // Puzzle Config
+        rowInput: $('rowInput'),
+        colInput: $('colInput'),
+        opSelect: $('opSelect'),
+        // Image Library
+        themeSelect: $('themeSelect'),
+        searchInput: $('searchInput'),
+        dictionaryDiv: $('dictionary'),
+        selectedImagesPreviewDiv: $('selectedImagesPreview'),
+        // START: Added for custom uploads
+        imageUploadInput: $('imageUploadInput'),
+        uploadedImagesPreviewDiv: $('uploadedImagesPreview'),
+        // END: Added for custom uploads
+        // Top Right Actions
+        zoomInBtn: $('zoomInBtn'),
+        zoomOutBtn: $('zoomOutBtn'),
+        zoomResetBtn: $('zoomResetBtn'),
+        zoomPercentage: $('zoomPercentage'),
+        undoBtn: $('undoBtn'),
+        redoBtn: $('redoBtn'),
+        unlockAllBtn: $('unlockAllBtn'),
+        unlockAllControls: $('unlockAllControls'),
+        generateDropdownBtn: $('generateDropdownBtn'),
+        generateDropdownContent: $('generateDropdownContent'),
+        generateWorksheetBtn: $('generateWorksheetBtn'),
+        generateAnswerKeyBtn: $('generateAnswerKeyBtn'),
+        downloadDropdownBtn: $('downloadDropdownBtn'),
+        downloadDropdownContent: $('downloadDropdownContent'),
+        downloadWsJpegBtn: $('downloadWsJpegBtn'),
+        downloadAkJpegBtn: $('downloadAkJpegBtn'),
+        downloadWsPdfBtn: $('downloadWsPdfBtn'),
+        downloadAkPdfBtn: $('downloadAkPdfBtn'),
+        grayscaleToggle: $('grayscaleToggle'),
+        clearBtn: $('clearBtn'),
+        // Main Content
+        worksheetCanvasWrapper: $('worksheetCanvasWrapper'),
+        worksheetCanvasElement: $('worksheetCanvasElement'),
+        answerKeyCanvasWrapper: $('answerKeyCanvasWrapper'),
+        answerKeyCanvasElement: $('answerKeyCanvasElement'),
+        // Toolbar References
+        objectContextToolbar: $('object-context-toolbar'),
+        layersBtn: $('layersBtn'),
+        layersDropdown: $('layersDropdown'),
+        toolbarBringToFrontBtn: $('toolbarBringToFrontBtn'),
+        toolbarBringForwardBtn: $('toolbarBringForwardBtn'),
+        toolbarSendBackwardBtn: $('toolbarSendBackwardBtn'),
+        toolbarSendToBackBtn: $('toolbarSendToBackBtn'),
+        alignBtn: $('alignBtn'),
+        alignDropdown: $('alignDropdown'),
+        toolbarLockBtn: $('toolbarLockBtn'),
+        toolbarDeleteBtn: $('toolbarDeleteBtn'),
+        // Responsive
+        menuOverlay: $('menuOverlay'),
+        menuToggleBtn: $('menuToggleBtn'),
+        menuCloseBtn: $('menuCloseBtn'),
+        // Misc
+        messageDiv: $('message'),
+    };
+    elements.allToolbarButtons = elements.objectContextToolbar.querySelectorAll('.context-btn');
+
+
+    // --- THEME PRELOADING FOR FAST INITIAL GENERATION ---
+    async function preloadDefaultTheme() {
+        try {
+            console.log('Preloading animals theme for instant first generation...');
+
+            // Fetch animals theme images
+            const response = await fetch(`/api/images?theme=animals&locale=${currentLocale}`);
+            if (!response.ok) {
+                console.warn('Could not preload theme, will load on demand');
+                return;
+            }
+
+            const data = await response.json();
+            const images = data.images || data;
+
+            // Cache the theme images
+            currentThemeImages = images;
+
+            // Preload first 8 images in browser cache for instant rendering
+            const imagesToPreload = images.slice(0, 8);
+            imagesToPreload.forEach(imgData => {
+                const img = new Image();
+                img.src = imgData.path;
+            });
+
+            console.log(`✅ Preloaded ${imagesToPreload.length} theme images`);
+        } catch (error) {
+            // Fail silently - not critical, will load on demand
+            console.warn('Theme preload failed (not critical):', error);
+        }
+    }
+
+    // --- INITIAL WORKSHEET GENERATION ---
+    async function generateInitialWorksheet() {
+        try {
+            console.log('Starting initial worksheet generation...');
+
+            // Wait for themes to load with polling
+            let attempts = 0;
+            const maxAttempts = 50; // 5 seconds max wait time
+
+            while (elements.themeSelect.options.length <= 1 && attempts < maxAttempts) {
+                await new Promise(resolve => setTimeout(resolve, 100));
+                attempts++;
+            }
+
+            if (elements.themeSelect.options.length <= 1) {
+                console.error('Themes failed to load in time');
+                return;
+            }
+
+            // Set page size to Letter portrait (612x792)
+            elements.pageSizeSelect.value = '612x792';
+            const [width, height] = elements.pageSizeSelect.value.split('x').map(Number);
+            currentCanvasConfig.width = width;
+            currentCanvasConfig.height = height;
+
+            worksheetCanvas.setDimensions({ width, height });
+            answerKeyCanvas.setDimensions({ width, height });
+            updateCanvasDisplayDimensions(width, height, false);
+
+            // Set animals theme
+            elements.themeSelect.value = 'animals';
+
+            // Images are already preloaded! Just select a random one
+            if (currentThemeImages.length > 0) {
+                const randomIndex = Math.floor(Math.random() * currentThemeImages.length);
+                const randomImage = currentThemeImages[randomIndex];
+
+                // Use the preloaded image directly
+                toggleImageSelection({
+                    path: randomImage.path,
+                    word: randomImage.word || randomImage.name,
+                    name: randomImage.word || randomImage.name
+                }, false); // Auto-selected for initial generation
+
+                console.log(`✅ Selected random image: ${randomImage.word || randomImage.name}`);
+            } else {
+                console.warn('No preloaded images, will use default generation');
+            }
+
+            // Load dictionary in background for UI display (non-blocking)
+            // This happens AFTER generation setup, so it doesn't slow down initial load
+            loadDictionary().catch(err => console.warn('Dictionary load failed:', err));
+
+            // Set grid parameters: 3x3
+            elements.rowInput.value = 3;
+            elements.colInput.value = 3;
+
+            // Set operation to Addition & Subtraction (both)
+            elements.opSelect.value = 'both';
+
+            // Give a small delay before generating
+            await new Promise(resolve => setTimeout(resolve, 200));
+
+            // Generate the worksheet
+            await handleGenerate();
+
+            console.log('Initial worksheet generated successfully');
+        } catch (error) {
+            console.error('Error generating initial worksheet:', error);
+        }
+    }
+
+    // --- INITIALIZATION ---
+    function initializeApp() {
+        setupEventListeners();
+        worksheetCanvas = initializeCanvas(elements.worksheetCanvasElement);
+        answerKeyCanvas = initializeCanvas(elements.answerKeyCanvasElement);
+
+        setupCanvasEventListeners(worksheetCanvas);
+        setupCanvasEventListeners(answerKeyCanvas);
+
+        // Initialize zoom display
+        updateZoomDisplay();
+
+        // Initialize history buttons
+        updateHistoryButtons();
+
+        // Initialize UnifiedLanguageManager for content language (image library)
+        if (typeof window.UnifiedLanguageManager !== 'undefined') {
+            window.languageManager = window.UnifiedLanguageManager;
+
+            // Register callback to reload dictionary when content language changes
+            window.languageManager.onLanguageChange(function(newLocale, oldLocale) {
+                console.log('[Math Puzzle] Content language changed from', oldLocale, 'to', newLocale);
+                currentLocale = newLocale;
+                window.currentLocale = newLocale;
+
+                // Reload image themes and dictionary for the new content language
+                loadThemes().then(() => {
+                    loadDictionary();
+
+                    // Apply translations for UI
+                    setTimeout(() => {
+                        applyTranslations();
+                        if (typeof translatePage !== 'undefined') {
+                            translatePage();
+                        }
+                    }, 100);
+                });
+            });
+        } else {
+            // Fallback: Set up language handler without UnifiedLanguageManager
+            // This maintains backward compatibility if the script isn't loaded
+            console.warn('[Math Puzzle] UnifiedLanguageManager not found, using fallback mode');
+            if (elements.languageSelect) {
+                elements.languageSelect.value = currentLocale;
+                elements.languageSelect.addEventListener('change', function() {
+                    const newLocale = this.value;
+                    currentLocale = newLocale;
+                    window.currentLocale = newLocale;
+
+                    // Reload image themes and dictionary for the new content language
+                    loadThemes().then(() => {
+                        loadDictionary();
+
+                        // Apply translations for UI
+                        setTimeout(() => {
+                            applyTranslations();
+                            if (typeof translatePage !== 'undefined') {
+                                translatePage();
+                            }
+                        }, 100);
+                    });
+                });
+            }
+        }
+        
+        // Apply translations on load - wait for translations to fully merge
+        setTimeout(function() {
+            console.log('[Math Puzzle] Applying UI translations for uiLocale:', window.uiLocale);
+            console.log('[Math Puzzle] Content language (currentLocale):', window.currentLocale);
+            console.log('[Math Puzzle] Translation function available:', typeof t !== 'undefined');
+            console.log('[Math Puzzle] Sample translation test - common.none:', typeof t !== 'undefined' ? t('none') : 'N/A');
+
+            // Apply our local translations first
+            applyTranslations();
+
+            // Then apply unified translations if available
+            if (typeof translatePage !== 'undefined') {
+                translatePage();
+            }
+        }, 100);
+        
+        updateCanvasDisplayDimensions(currentCanvasConfig.width, currentCanvasConfig.height, true);
+        loadThemes().then(() => {
+            loadDictionary(); // Load images after themes are loaded
+        });
+
+        // Initialize BulletproofLoader for borders and backgrounds
+        if (window.BulletproofLoader) {
+            window.BulletproofLoader.init({
+                borderSelect: elements.borderThemeSelect,
+                backgroundSelect: elements.backgroundThemeSelect
+            }).then(() => {
+                console.log('BulletproofLoader initialized');
+            });
+        } else {
+            // Fallback if BulletproofLoader not available
+            loadBorderThemes();
+            loadBackgroundThemes();
+        }
+        handleSelectionCleared(null, getActiveCanvas()); // Initialize text tools
+
+        // Preload default theme for instant first generation, then generate
+        (async () => {
+            await preloadDefaultTheme();
+
+            // Generate initial worksheet (no delay needed - theme is cached)
+            await generateInitialWorksheet();
+        })();
+    }
+
+    function initializeCanvas(canvasEl) {
+        return new fabric.Canvas(canvasEl, {
+            backgroundColor: '#FFFFFF',
+            preserveObjectStacking: true,
+            enableRetinaScaling: true,
+        });
+    }
+
+    function getActiveCanvas() {
+        const activeTab = document.querySelector('.tab.active');
+        return activeTab && activeTab.id === 'answerKeyTab' ? answerKeyCanvas : worksheetCanvas;
+    }
+
+    function enforceZOrder(canvas) {
+        if (!canvas) return;
+
+        // REMOVED: Automatic z-order enforcement for backgrounds and borders
+        // Users should have full control over these elements via layer controls
+
+        // Only enforce for page border (purple border around page)
+        const pageBorder = canvas.getObjects().find(o => o.isPageBorder);
+        if (pageBorder) {
+            canvas.sendToBack(pageBorder);
+        }
+    }
+
+    function setupEventListeners() {
+        elements.accordionButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                const content = button.nextElementSibling;
+                button.classList.toggle('active');
+                content.style.display = content.style.display === 'block' ? 'none' : 'block';
+            });
+            if (button.classList.contains('active')) {
+                button.nextElementSibling.style.display = 'block';
+            }
+        });
+
+        const generateDropdown = setupDropdown(elements.generateDropdownBtn, elements.generateDropdownContent);
+        const downloadDropdown = setupDropdown(elements.downloadDropdownBtn, elements.downloadDropdownContent);
+        
+        window.addEventListener('click', (event) => {
+            if (generateDropdown.content && generateDropdown.content.style.display === 'block' && !generateDropdown.button.contains(event.target) && !generateDropdown.content.contains(event.target)) {
+                generateDropdown.content.style.display = 'none';
+            }
+            if (downloadDropdown.content && downloadDropdown.content.style.display === 'block' && !downloadDropdown.button.contains(event.target) && !downloadDropdown.content.contains(event.target)) {
+                if(!event.target.closest('.checkbox-label')) {
+                    downloadDropdown.content.style.display = 'none';
+                }
+            }
+            closeAllPopovers();
+        });
+        
+        elements.downloadDropdownContent.addEventListener('click', e => e.stopPropagation());
+
+        // Zoom Controls
+        elements.zoomInBtn.addEventListener('click', zoomIn);
+        elements.zoomOutBtn.addEventListener('click', zoomOut);
+        elements.zoomResetBtn.addEventListener('click', zoomReset);
+
+        // Undo/Redo Controls
+        elements.undoBtn.addEventListener('click', undo);
+        elements.redoBtn.addEventListener('click', redo);
+
+        // Toolbar Listeners
+        elements.layersBtn.addEventListener('click', (e) => { e.stopPropagation(); togglePopover(elements.layersDropdown); });
+        elements.alignBtn.addEventListener('click', (e) => { e.stopPropagation(); togglePopover(elements.alignDropdown); });
+        elements.toolbarBringToFrontBtn.addEventListener('click', bringObjectToFront);
+        elements.toolbarBringForwardBtn.addEventListener('click', bringObjectForward);
+        elements.toolbarSendBackwardBtn.addEventListener('click', sendObjectBackward);
+        elements.toolbarSendToBackBtn.addEventListener('click', sendObjectToBack);
+        elements.toolbarLockBtn.addEventListener('click', toggleLockSelectedObjects);
+        elements.unlockAllBtn.addEventListener('click', unlockAllObjects);
+        elements.toolbarDeleteBtn.addEventListener('click', deleteSelectedObjects);
+        document.querySelectorAll('#alignDropdown button').forEach(button => {
+            button.addEventListener('click', (e) => {
+                const type = e.currentTarget.id.replace('Btn', '');
+                alignObjects(type);
+            });
+        });
+
+        // Responsive Sidebar Listeners
+        elements.menuToggleBtn.addEventListener('click', openMenu);
+        elements.menuCloseBtn.addEventListener('click', closeMenu);
+        elements.menuOverlay.addEventListener('click', closeMenu);
+        
+        // Window resize handler for responsive canvas
+        let resizeTimeout;
+        window.addEventListener('resize', () => {
+            clearTimeout(resizeTimeout);
+            resizeTimeout = setTimeout(() => {
+                updateCanvasDisplayDimensions(currentCanvasConfig.width, currentCanvasConfig.height);
+            }, 250);
+        });
+
+        elements.generateWorksheetBtn.addEventListener('click', handleGenerate);
+        elements.generateAnswerKeyBtn.addEventListener('click', handleGenerateAnswerKey);
+        elements.clearBtn.addEventListener('click', clearAll);
+        
+        elements.downloadWsJpegBtn.addEventListener('click', () => downloadImageFile(worksheetCanvas, 'worksheet.jpeg'));
+        elements.downloadAkJpegBtn.addEventListener('click', () => downloadImageFile(answerKeyCanvas, 'answer_key.jpeg'));
+        elements.downloadWsPdfBtn.addEventListener('click', () => downloadPDF(worksheetCanvas, 'worksheet.pdf'));
+        elements.downloadAkPdfBtn.addEventListener('click', () => downloadPDF(answerKeyCanvas, 'answer_key.pdf'));
+
+        elements.addTextBtn.addEventListener('click', addText);
+
+        elements.setPageSizeBtn.addEventListener('click', applyPageSettings);
+        elements.pageSizeSelect.addEventListener('change', applyPageSettings);
+        
+        elements.backgroundThemeSelect.addEventListener('change', loadBackgroundImages);
+        elements.backgroundOpacity.addEventListener('input', handleBackgroundOpacityChange);
+        elements.borderThemeSelect.addEventListener('change', loadBorderImages);
+        elements.borderOpacity.addEventListener('input', handleBorderOpacityChange);
+
+        elements.textInput.addEventListener('input', updateActiveTextObjectProperties);
+        elements.textColor.addEventListener('input', updateActiveTextObjectProperties);
+        elements.fontSize.addEventListener('input', updateActiveTextObjectProperties);
+        elements.fontFamily.addEventListener('change', updateActiveTextObjectProperties); 
+        elements.textStrokeColor.addEventListener('input', updateActiveTextObjectProperties);
+        elements.textStrokeWidth.addEventListener('input', updateActiveTextObjectProperties);
+
+        elements.themeSelect.addEventListener('change', handleThemeChange);
+        elements.searchInput.addEventListener('input', () => {
+            if (window.searchTimeout) clearTimeout(window.searchTimeout);
+            window.searchTimeout = setTimeout(loadDictionary, 300);
+        });
+
+        // Custom file button handler
+        const customFileButton = document.getElementById('customFileButton');
+        const fileSelectionText = document.getElementById('fileSelectionText');
+
+        if (customFileButton) {
+            customFileButton.addEventListener('click', () => {
+                elements.imageUploadInput.click();
+            });
+        }
+
+        elements.imageUploadInput.addEventListener('change', (e) => {
+            const files = e.target.files;
+
+            // Update file selection text
+            if (fileSelectionText) {
+                const fileCount = files ? files.length : 0;
+                if (fileCount > 0) {
+                    fileSelectionText.textContent = t('filesSelected').replace('{}', fileCount);
+                } else {
+                    fileSelectionText.textContent = t('noFileChosen');
+                }
+            }
+
+            if(!files || files.length === 0) return;
+
+            let filesToLoad = Array.from(files).filter(f => f.type.startsWith('image/')).length;
+            if(filesToLoad === 0) return;
+
+            elements.uploadedImagesPreviewDiv.innerHTML = `<p class='dictionary-message'>${t('mathpuzzle.msg.loading.uploads').replace('{filesToLoad}', filesToLoad)}</p>`;
+            
+            for(const file of files) {
+                if(!file.type.startsWith('image/')) continue;
+                const reader = new FileReader();
+                reader.onload = (event) => {
+                    if (!uploadedImages.some(img => img.path === event.target.result)) {
+                        uploadedImages.push({word: file.name, path: event.target.result});
+                    }
+                    filesToLoad--;
+                    if (filesToLoad === 0) {
+                        renderUploadedImages();
+                        showMessage(t('mathpuzzle.msg.uploads.available').replace('{count}', uploadedImages.length), 'success');
+                    }
+                };
+                reader.onerror = () => {
+                    filesToLoad--;
+                    showMessage(t('mathpuzzle.msg.file.error').replace('{fileName}', file.name), 'error');
+                };
+                reader.readAsDataURL(file);
+            }
+            elements.imageUploadInput.value = ''; // Reset file input
+        });
+
+        document.querySelectorAll(".tab-button").forEach(btn => {
+            btn.addEventListener("click", () => {
+                const oldCanvas = getActiveCanvas();
+                if (oldCanvas) {
+                    oldCanvas.discardActiveObject().renderAll();
+                }
+
+                document.querySelectorAll(".tab-button").forEach(b => b.classList.remove("active"));
+                btn.classList.add("active");
+                const tabId = btn.getAttribute("data-tab");
+                document.querySelectorAll(".tab").forEach(t => t.classList.remove("active"));
+                $(tabId)?.classList.add("active");
+
+                handleSelectionCleared(null, getActiveCanvas());
+            });
+        });
+        
+        window.addEventListener('keydown', function(e) {
+            const activeEl = document.activeElement;
+            if (activeEl && (activeEl.tagName === 'INPUT' || activeEl.tagName === 'TEXTAREA')) return;
+
+            const activeCanvas = getActiveCanvas();
+            const activeObj = activeCanvas.getActiveObject();
+
+            if (activeObj && (e.key === 'Delete' || e.key === 'Backspace')) {
+                const isProtected = (obj) => obj.isGeneratedItem || obj.isAnswerKeyItem;
+                
+                if (activeObj.type === 'activeSelection') {
+                    const containsProtected = activeObj.getObjects().some(isProtected);
+                    if (!containsProtected) deleteSelectedObjects();
+                } else {
+                    if (!isProtected(activeObj)) deleteSelectedObjects();
+                }
+            }
+
+            // Undo/Redo keyboard shortcuts
+            if (e.ctrlKey || e.metaKey) {
+                if (e.key === 'z' || e.key === 'Z') {
+                    e.preventDefault();
+                    undo();
+                } else if (e.key === 'y' || e.key === 'Y') {
+                    e.preventDefault();
+                    redo();
+                }
+            }
+        });
+    }
+    
+    function setupCanvasEventListeners(canvas) {
+        canvas.on({
+            'mouse:down': function(e) { if (e.target) saveState(); },
+            'object:added': function(e) {
+                // Only save state for user-added objects, not during bulk operations
+                if (!isRestoringState && !isGenerating) {
+                    setTimeout(() => saveState(), 100);
+                }
+            },
+            'object:removed': function(e) {
+                if (!isRestoringState && !isGenerating) {
+                    setTimeout(() => saveState(), 100);
+                }
+            },
+            'selection:created': function(e) { handleObjectSelection(e, this); },
+            'selection:updated': function(e) { handleObjectSelection(e, this); },
+            'selection:cleared': function(e) { handleSelectionCleared(e, this); }
+        });
+    }
+
+    function setupDropdown(button, content) {
+        if (!button || !content) return {};
+        button.addEventListener('click', (event) => {
+            content.style.display = content.style.display === 'block' ? 'none' : 'block';
+            event.stopPropagation();
+        });
+        return { button, content };
+    }
+
+    function showMessage(msg, type = 'error', duration = 3000) {
+        elements.messageDiv.textContent = msg;
+        elements.messageDiv.className = `message ${type}`;
+        elements.messageDiv.style.display = 'block';
+        if (duration > 0) {
+            setTimeout(() => {
+                elements.messageDiv.style.display = 'none';
+                elements.messageDiv.textContent = "";
+            }, duration);
+        }
+    }
+
+    async function applyPageSettings() {
+        const [w, h] = elements.pageSizeSelect.value.split('x').map(Number);
+        updateCanvasDisplayDimensions(w, h);
+        const newColor = elements.pageColorInput.value;
+        [worksheetCanvas, answerKeyCanvas].forEach(c => {
+            if (c) {
+                c.backgroundColor = newColor;
+                c.renderAll();
+            }
+        });
+
+        // Auto-regenerate worksheet and answer key when page size changes
+        if (lastGeneratedData && !isRegenerating) {
+            isRegenerating = true;
+            try {
+                await renderWorksheet();
+
+                // Also regenerate answer key if it exists
+                const hasAnswerKey = answerKeyCanvas && answerKeyCanvas.getObjects().some(o => o.isAnswerKeyItem);
+                if (hasAnswerKey) {
+                    await renderAnswerKey();
+                }
+            } catch (error) {
+                console.error('Error regenerating worksheet on page size change:', error);
+            } finally {
+                isRegenerating = false;
+            }
+        }
+    }
+
+    function updateCanvasDisplayDimensions(width, height) {
+        currentCanvasConfig.width = width;
+        currentCanvasConfig.height = height;
+
+        // CRITICAL: Use tab's parent element, NOT window dimensions
+        const mainStyle = document.getElementById('worksheetTab').parentElement;
+        const availableWidth = mainStyle.clientWidth - 50;
+        const availableHeight = mainStyle.clientHeight - 50;
+
+        // Apply 25% scaling for better visibility (matching standard)
+        // Extra 25% for landscape orientations
+        const isLandscape = width > height;
+        const baseScale = 1.25; // Base 25% larger for all
+        const landscapeBonus = isLandscape ? 1.25 : 1.0; // Additional 25% for landscape
+        const displayScale = baseScale * landscapeBonus;
+
+        // Calculate display dimensions with scaling
+        const scaledWidth = width * displayScale;
+        const scaledHeight = height * displayScale;
+
+        // Ensure it fits in available space
+        const scaleRatio = Math.min(availableWidth / scaledWidth, availableHeight / scaledHeight, 1);
+        const displayWidth = scaledWidth * scaleRatio * userZoomLevel;
+        const displayHeight = scaledHeight * scaleRatio * userZoomLevel;
+
+        [worksheetCanvas, answerKeyCanvas].forEach(c => {
+            if (c) {
+                // CRITICAL: Set actual canvas dimensions FIRST
+                c.setWidth(width);
+                c.setHeight(height);
+
+                // Apply zoom for display scaling
+                const finalZoom = (displayWidth / width);
+                c.setZoom(finalZoom);
+
+                // Set dimensions AFTER zoom to ensure viewport matches zoomed size
+                c.setDimensions({
+                    width: displayWidth,
+                    height: displayHeight
+                });
+
+                c.calcOffset();
+                c.renderAll();
+            }
+        });
+
+        [elements.worksheetCanvasWrapper, elements.answerKeyCanvasWrapper].forEach(w => {
+            if (w) { w.style.width = `${displayWidth}px`; w.style.height = `${displayHeight}px`; }
+        });
+    }
+
+    // ============================================
+    // ZOOM FUNCTIONALITY
+    // Exact implementation from wordsearch.html lines 1745-1767
+    // ============================================
+
+    function zoomIn() {
+        // Increase zoom by 25%, max 300%
+        userZoomLevel = Math.min(userZoomLevel + 0.25, 3.0);
+        updateZoomDisplay();
+        updateCanvasDisplayDimensions(currentCanvasConfig.width, currentCanvasConfig.height);
+    }
+
+    function zoomOut() {
+        // Decrease zoom by 25%, min 25%
+        userZoomLevel = Math.max(userZoomLevel - 0.25, 0.25);
+        updateZoomDisplay();
+        updateCanvasDisplayDimensions(currentCanvasConfig.width, currentCanvasConfig.height);
+    }
+
+    function zoomReset() {
+        // Reset to 100%
+        userZoomLevel = 1.0;
+        updateZoomDisplay();
+        updateCanvasDisplayDimensions(currentCanvasConfig.width, currentCanvasConfig.height);
+    }
+
+    function updateZoomDisplay() {
+        if (elements.zoomPercentage) {
+            elements.zoomPercentage.textContent = Math.round(userZoomLevel * 100) + '%';
+        }
+    }
+
+    // ============================================
+    // UNDO/REDO SYSTEM
+    // Exact implementation from wordsearch.html
+    // ============================================
+
+    function saveState() {
+        if (isRestoringState || isGenerating) return;
+
+        const activeCanvas = getActiveCanvas();
+        if (!activeCanvas) return;
+
+        const state = {
+            canvasJSON: activeCanvas.toJSON(['isGeneratedItem', 'isAnswerKeyItem', 'isPageBorder', 'isHeaderDesc', 'isHeaderElement', 'isBorder', 'isBackground', 'originalIndex']),
+            canvasType: activeCanvas === worksheetCanvas ? 'worksheet' : 'answerKey',
+            timestamp: Date.now()
+        };
+
+        historyStack.push(state);
+        if (historyStack.length > MAX_HISTORY) {
+            historyStack.shift();
+        }
+
+        redoStack = [];
+        updateHistoryButtons();
+    }
+
+    function undo() {
+        if (historyStack.length === 0) return;
+
+        const activeCanvas = getActiveCanvas();
+        if (!activeCanvas) return;
+
+        const currentState = {
+            canvasJSON: activeCanvas.toJSON(['isGeneratedItem', 'isAnswerKeyItem', 'isPageBorder', 'isHeaderDesc', 'isHeaderElement', 'isBorder', 'isBackground', 'originalIndex']),
+            canvasType: activeCanvas === worksheetCanvas ? 'worksheet' : 'answerKey',
+            timestamp: Date.now()
+        };
+        redoStack.push(currentState);
+
+        const previousState = historyStack.pop();
+        restoreCanvasState(previousState);
+
+        updateHistoryButtons();
+        showMessage(t('undoAction') || 'Undo', 'info');
+    }
+
+    function redo() {
+        if (redoStack.length === 0) return;
+
+        const activeCanvas = getActiveCanvas();
+        if (!activeCanvas) return;
+
+        const currentState = {
+            canvasJSON: activeCanvas.toJSON(['isGeneratedItem', 'isAnswerKeyItem', 'isPageBorder', 'isHeaderDesc', 'isHeaderElement', 'isBorder', 'isBackground', 'originalIndex']),
+            canvasType: activeCanvas === worksheetCanvas ? 'worksheet' : 'answerKey',
+            timestamp: Date.now()
+        };
+        historyStack.push(currentState);
+
+        const nextState = redoStack.pop();
+        restoreCanvasState(nextState);
+
+        updateHistoryButtons();
+        showMessage(t('redoAction') || 'Redo', 'info');
+    }
+
+    function restoreCanvasState(state) {
+        if (!state) return;
+
+        isRestoringState = true;
+
+        const targetCanvas = state.canvasType === 'worksheet' ? worksheetCanvas : answerKeyCanvas;
+        if (!targetCanvas) {
+            isRestoringState = false;
+            return;
+        }
+
+        targetCanvas.loadFromJSON(state.canvasJSON, function() {
+            targetCanvas.renderAll();
+            isRestoringState = false;
+        });
+    }
+
+    function updateHistoryButtons() {
+        if (elements.undoBtn) {
+            elements.undoBtn.disabled = historyStack.length === 0;
+        }
+        if (elements.redoBtn) {
+            elements.redoBtn.disabled = redoStack.length === 0;
+        }
+    }
+
+    function clearAll() {
+        elements.rowInput.value = 3;
+        elements.colInput.value = 3;
+        elements.opSelect.value = 'addition';
+        elements.pageSizeSelect.value = '612x792';
+        elements.pageColorInput.value = '#FFFFFF';
+        elements.textInput.value = '';
+        selectedImage = null;
+        userManuallySelectedImage = false;
+        uploadedImages = [];
+        lastGeneratedData = null;
+        renderSelectedImages();
+        renderUploadedImages();
+        
+        [worksheetCanvas, answerKeyCanvas].forEach(c => {
+            if (c) { c.clear(); c.backgroundColor = '#FFFFFF'; c.renderAll(); }
+        });
+        
+        [
+            elements.downloadWsJpegBtn, elements.downloadAkJpegBtn,
+            elements.downloadWsPdfBtn, elements.downloadAkPdfBtn,
+            elements.generateAnswerKeyBtn
+        ].forEach(btn => btn.disabled = true);
+        
+        elements.borderThemeSelect.value = 'none';
+        elements.borderDictionary.innerHTML = `<p class="dictionary-message">${t('mathpuzzle.border.message')}</p>`;
+        elements.borderOpacity.disabled = true;
+        elements.borderOpacity.value = 1;
+
+        elements.backgroundThemeSelect.value = 'none';
+        elements.backgroundDictionary.innerHTML = `<p class="dictionary-message">${t('mathpuzzle.background.message')}</p>`;
+        elements.backgroundOpacity.disabled = true;
+        elements.backgroundOpacity.value = 1;
+
+        handleSelectionCleared(null, getActiveCanvas());
+        showMessage(t('mathpuzzle.msg.form.cleared'), "success", 2000);
+    }
+    
+    // --- RESPONSIVE SIDEBAR ---
+    function openMenu() {
+        elements.panel.classList.add('is-open');
+        elements.menuOverlay.classList.add('is-active');
+    }
+    function closeMenu() {
+        elements.panel.classList.remove('is-open');
+        elements.menuOverlay.classList.remove('is-active');
+    }
+
+    // --- TOOLBAR & OBJECT MANIPULATION ---
+    function togglePopover(popover) {
+        const isOpening = popover.style.display !== 'block';
+        closeAllPopovers();
+        if (isOpening) {
+            popover.style.display = 'block';
+            activePopover = popover;
+        }
+    }
+
+    function closeAllPopovers() {
+        if (activePopover) {
+            activePopover.style.display = 'none';
+            activePopover = null;
+        }
+        if(document.getElementById('layersBtn')) document.getElementById('layersBtn').classList.remove('active-dropdown');
+        if(document.getElementById('alignBtn')) document.getElementById('alignBtn').classList.remove('active-dropdown');
+    }
+
+    function bringObjectForward() {
+        const activeCanvas = getActiveCanvas();
+        const activeObject = activeCanvas.getActiveObject();
+        if (activeObject) {
+            const beforeIndex = activeCanvas.getObjects().indexOf(activeObject);
+            console.log('[Z-ORDER] Bring Forward - Before index:', beforeIndex);
+
+            activeCanvas.bringForward(activeObject);
+
+            const afterIndex = activeCanvas.getObjects().indexOf(activeObject);
+            console.log('[Z-ORDER] After index:', afterIndex);
+            enforceZOrder(activeCanvas);
+            activeCanvas.renderAll();
+        }
+        closeAllPopovers();
+    }
+
+    function sendObjectBackward() {
+        const activeCanvas = getActiveCanvas();
+        const activeObject = activeCanvas.getActiveObject();
+        if (activeObject) {
+            const beforeIndex = activeCanvas.getObjects().indexOf(activeObject);
+            console.log('[Z-ORDER] Send Backward - Before index:', beforeIndex);
+
+            activeCanvas.sendBackwards(activeObject);
+
+            const afterIndex = activeCanvas.getObjects().indexOf(activeObject);
+            console.log('[Z-ORDER] After index:', afterIndex);
+            enforceZOrder(activeCanvas);
+            activeCanvas.renderAll();
+        }
+        closeAllPopovers();
+    }
+
+    function bringObjectToFront() {
+        const activeCanvas = getActiveCanvas();
+        const activeObject = activeCanvas.getActiveObject();
+        if (activeObject) {
+            const beforeIndex = activeCanvas.getObjects().indexOf(activeObject);
+            console.log('[Z-ORDER] Bring to Front - Before index:', beforeIndex);
+
+            activeCanvas.bringToFront(activeObject);
+
+            const afterIndex = activeCanvas.getObjects().indexOf(activeObject);
+            console.log('[Z-ORDER] After index:', afterIndex);
+            enforceZOrder(activeCanvas);
+            activeCanvas.renderAll();
+        }
+        closeAllPopovers();
+    }
+
+    function sendObjectToBack() {
+        const activeCanvas = getActiveCanvas();
+        const activeObject = activeCanvas.getActiveObject();
+        if (activeObject) {
+            const beforeIndex = activeCanvas.getObjects().indexOf(activeObject);
+            console.log('[Z-ORDER] Send to Back - Before index:', beforeIndex);
+
+            activeCanvas.sendToBack(activeObject);
+
+            const afterIndex = activeCanvas.getObjects().indexOf(activeObject);
+            console.log('[Z-ORDER] After index:', afterIndex);
+            enforceZOrder(activeCanvas);
+            activeCanvas.renderAll();
+        }
+        closeAllPopovers();
+    }
+
+    function deleteSelectedObjects() {
+        const activeCanvas = getActiveCanvas();
+        const activeObjects = activeCanvas.getActiveObjects();
+        if (activeObjects.length > 0) {
+            activeObjects.forEach(obj => activeCanvas.remove(obj));
+            activeCanvas.discardActiveObject().renderAll();
+        }
+        closeAllPopovers();
+    }
+
+    function toggleLockSelectedObjects() {
+        const canvas = getActiveCanvas();
+        const activeObject = canvas.getActiveObject();
+
+        // If nothing is selected, unlock ALL locked objects on the canvas
+        if (!activeObject) {
+            const allObjects = canvas.getObjects();
+            const lockedObjects = allObjects.filter(obj => obj.lockMovementX === true);
+
+            if (lockedObjects.length > 0) {
+                lockedObjects.forEach(obj => {
+                    obj.set({
+                        lockMovementX: false,
+                        lockMovementY: false,
+                        lockRotation: false,
+                        lockScalingX: false,
+                        lockScalingY: false,
+                        hasControls: true,
+                        hasBorders: true,
+                        selectable: true,
+                        evented: true
+                    });
+                });
+
+                // Update button icon to unlocked
+                const lockIcon = elements.toolbarLockBtn.querySelector('i');
+                lockIcon.classList.remove('fa-lock');
+                lockIcon.classList.add('fa-lock-open');
+
+                canvas.renderAll();
+                console.log(`Unlocked ${lockedObjects.length} objects`);
+            }
+
+            closeAllPopovers();
+            updateUnlockAllButtonVisibility();
+            return;
+        }
+
+        // Handle both single objects and groups
+        const objectsToLock = activeObject.type === 'activeSelection'
+            ? activeObject.getObjects()
+            : [activeObject];
+
+        // Check if any object is currently locked
+        const isAnyLocked = objectsToLock.some(obj => obj.lockMovementX === true);
+
+        // Toggle lock state (opposite of current state)
+        const shouldLock = !isAnyLocked;
+
+        objectsToLock.forEach(obj => {
+            // When locking, make objects completely non-interactive
+            // This prevents them from blocking mouse drag selections
+            obj.set({
+                lockMovementX: shouldLock,
+                lockMovementY: shouldLock,
+                lockRotation: shouldLock,
+                lockScalingX: shouldLock,
+                lockScalingY: shouldLock,
+                hasControls: !shouldLock,
+                hasBorders: !shouldLock,
+                selectable: !shouldLock,  // Locked objects are not selectable
+                evented: !shouldLock      // Locked objects don't capture mouse events
+            });
+        });
+
+        // Update button icon
+        const lockIcon = elements.toolbarLockBtn.querySelector('i');
+        if (shouldLock) {
+            lockIcon.classList.remove('fa-lock-open');
+            lockIcon.classList.add('fa-lock');
+        } else {
+            lockIcon.classList.remove('fa-lock');
+            lockIcon.classList.add('fa-lock-open');
+        }
+
+        canvas.renderAll();
+        closeAllPopovers();
+        updateUnlockAllButtonVisibility();
+    }
+
+    function unlockAllObjects() {
+        const canvas = getActiveCanvas();
+        const allObjects = canvas.getObjects();
+        const lockedObjects = allObjects.filter(obj => obj.lockMovementX === true);
+
+        if (lockedObjects.length > 0) {
+            lockedObjects.forEach(obj => {
+                obj.set({
+                    lockMovementX: false,
+                    lockMovementY: false,
+                    lockRotation: false,
+                    lockScalingX: false,
+                    lockScalingY: false,
+                    hasControls: true,
+                    hasBorders: true,
+                    selectable: true,
+                    evented: true
+                });
+            });
+
+            canvas.renderAll();
+            console.log(`Unlocked ${lockedObjects.length} objects`);
+            updateUnlockAllButtonVisibility();
+        }
+    }
+
+    function updateUnlockAllButtonVisibility() {
+        const canvas = getActiveCanvas();
+        const allObjects = canvas.getObjects();
+        const hasLockedObjects = allObjects.some(obj => obj.lockMovementX === true);
+
+        if (hasLockedObjects) {
+            elements.unlockAllControls.classList.add('visible');
+        } else {
+            elements.unlockAllControls.classList.remove('visible');
+        }
+    }
+
+    function alignObjects(type) {
+        const activeCanvas = getActiveCanvas();
+        const activeObj = activeCanvas.getActiveObject();
+        if (!activeObj) {
+            closeAllPopovers();
+            return;
+        }
+
+        if (type.includes('Canvas')) {
+            // CRITICAL: Use currentCanvasConfig, NOT canvas.width/height!
+            const canvasWidth = currentCanvasConfig.width;
+            const canvasHeight = currentCanvasConfig.height;
+            
+            if (type === 'centerHCanvas') {
+                // Get object dimensions
+                const objWidth = activeObj.getScaledWidth();
+                const currentOriginX = activeObj.originX;
+                
+                // Calculate center position based on origin
+                let centerLeft;
+                if (currentOriginX === 'center') {
+                    centerLeft = canvasWidth / 2;
+                } else if (currentOriginX === 'right') {
+                    centerLeft = (canvasWidth / 2) + (objWidth / 2);
+                } else { // left or default
+                    centerLeft = (canvasWidth / 2) - (objWidth / 2);
+                }
+                
+                activeObj.set('left', centerLeft);
+            }
+            
+            if (type === 'centerVCanvas') {
+                // Get object dimensions
+                const objHeight = activeObj.getScaledHeight();
+                const currentOriginY = activeObj.originY;
+                
+                // Calculate center position based on origin
+                let centerTop;
+                if (currentOriginY === 'center') {
+                    centerTop = canvasHeight / 2;
+                } else if (currentOriginY === 'bottom') {
+                    centerTop = (canvasHeight / 2) + (objHeight / 2);
+                } else { // top or default
+                    centerTop = (canvasHeight / 2) - (objHeight / 2);
+                }
+                
+                activeObj.set('top', centerTop);
+            }
+            
+            activeObj.setCoords();
+        } else if (activeObj.type === 'activeSelection') {
+            const group = activeObj;
+            group.forEachObject(function(obj) {
+                switch (type) {
+                    case 'alignLeft': obj.set('left', -group.width / 2); break;
+                    case 'alignHCenter': obj.set('left', 0 - obj.getScaledWidth() / 2); break;
+                    case 'alignRight': obj.set('left', group.width / 2 - obj.getScaledWidth()); break;
+                    case 'alignTop': obj.set('top', -group.height / 2); break;
+                    case 'alignVCenter': obj.set('top', 0 - obj.getScaledHeight() / 2); break;
+                    case 'alignBottom': obj.set('top', group.height / 2 - obj.getScaledHeight()); break;
+                }
+            });
+        }
+        
+        activeCanvas.renderAll();
+        closeAllPopovers();
+    }
+
+
+    // --- IMAGE & BORDER LIBRARY LOGIC ---
+    async function loadThemes() {
+        try {
+            const res = await fetch(`/api/themes-translated?locale=${currentLocale}`);
+            if (!res.ok) {
+                showMessage(t('mathpuzzle.error.load.themes'), 'error');
+                throw new Error(t('mathpuzzle.error.load.themes'));
+            }
+            const themePaths = await res.json();
+            
+            elements.themeSelect.innerHTML = ''; // Clear existing
+            elements.themeSelect.add(new Option(t('mathpuzzle.themes.all'), 'all'));
+            
+            themePaths.forEach(theme => {
+                const option = new Option(theme.displayName, theme.value);
+                elements.themeSelect.add(option);
+            });
+            await handleThemeChange(); // Initial load based on default selection
+        } catch (error) {
+            console.error("Error loading themes:", error);
+            showMessage(t('mathpuzzle.msg.themes.error'), 'error');
+            elements.dictionaryDiv.innerHTML = `<p class='dictionary-message'>${t('mathpuzzle.msg.themes.error')}</p>`;
+        }
+    }
+
+    async function handleThemeChange() {
+        const selectedTheme = elements.themeSelect.value;
+        currentThemeImages = []; // Clear previous theme's cache
+        if (selectedTheme !== 'all') {
+            elements.dictionaryDiv.innerHTML = `<p class="dictionary-message">${t('mathpuzzle.msg.loading.theme')}</p>`;
+            try {
+                const res = await fetch(`/api/images?theme=${encodeURIComponent(selectedTheme)}&locale=${currentLocale}`);
+                if (!res.ok) {
+                    showMessage(t('mathpuzzle.error.load.images'), 'error');
+                    throw new Error(t('mathpuzzle.error.load.images'));
+                }
+                const data = await res.json();
+                currentThemeImages = data.images || data;
+            } catch (err) {
+                console.error("Error loading theme images:", err);
+                showMessage(t('mathpuzzle.error.load.images'), 'error');
+            }
+        }
+        await loadDictionary(); // Render based on new theme/search state
+    }
+
+    async function loadDictionary() {
+        const query = elements.searchInput.value.trim().toLowerCase();
+        const selectedTheme = elements.themeSelect.value;
+        elements.dictionaryDiv.innerHTML = ''; // Clear the current list
+
+        let imagesToDisplay = [];
+
+        if (selectedTheme === 'all') {
+            if (!query) {
+                // Load animals theme by default when "All Themes" is selected with no search
+                elements.dictionaryDiv.innerHTML = `<p class="dictionary-message">${t('mathpuzzle.msg.loading.default')}</p>`;
+                try {
+                    const res = await fetch(`/api/images?theme=animals&locale=${currentLocale}`);
+                    if (!res.ok) {
+                        showMessage(t('mathpuzzle.error.load.default'), 'error');
+                        throw new Error(t('mathpuzzle.error.load.default'));
+                    }
+                    const data = await res.json();
+                    imagesToDisplay = data.images || data;
+                    currentThemeImages = imagesToDisplay; // Cache for random selection
+                } catch (err) {
+                    console.error("Error loading default theme:", err);
+                    elements.dictionaryDiv.innerHTML = `<p class="dictionary-message">${t('mathpuzzle.msg.type.search')}</p>`;
+                    return;
+                }
+            } else {
+                elements.dictionaryDiv.innerHTML = `<p class="dictionary-message">${t('mathpuzzle.msg.searching')}</p>`;
+                try {
+                    const res = await fetch(`/api/images?search=${encodeURIComponent(query)}&locale=${currentLocale}`);
+                    if (!res.ok) {
+                        showMessage(t('mathpuzzle.error.search').replace('{query}', query), 'error');
+                        throw new Error(t('mathpuzzle.error.search').replace('{query}', query));
+                    }
+                    const data = await res.json();
+                    imagesToDisplay = data.images || data;
+                    currentThemeImages = imagesToDisplay; // Cache for random selection
+                } catch (err) {
+                     console.error("Error searching images:", err);
+                     showMessage(t('mathpuzzle.msg.search.error'), 'error');
+                     elements.dictionaryDiv.innerHTML = `<p class='dictionary-message'>${t('mathpuzzle.msg.search.error')}</p>`;
+                     return;
+                }
+            }
+        } else {
+            const source = currentThemeImages;
+            imagesToDisplay = query ? source.filter(img => {
+                const displayName = (img.name || img.word).toLowerCase();
+                return displayName.includes(query);
+            }) : source;
+        }
+
+        if (imagesToDisplay.length === 0) {
+            elements.dictionaryDiv.innerHTML = `<p class="dictionary-message">${t('mathpuzzle.msg.no.images')}${query ? ` matching "${query}"` : ''}.</p>`;
+            return;
+        }
+        
+        const fragment = document.createDocumentFragment();
+        imagesToDisplay.sort((a, b) => a.word.localeCompare(b.word)).forEach(img => {
+            const item = document.createElement("div");
+            item.className = "dictionary-item";
+            if (selectedImage && selectedImage.path === img.path) {
+                item.classList.add('selected');
+            }
+            const displayName = img.name || img.word;
+            item.innerHTML = `<img src="${img.path}" alt="${displayName}" loading="lazy"/><span>${displayName}</span>`;
+            item.onclick = () => toggleImageSelection(img);
+            fragment.appendChild(item);
+        });
+        elements.dictionaryDiv.appendChild(fragment);
+    }
+    
+    function renderUploadedImages() {
+        elements.uploadedImagesPreviewDiv.innerHTML = "";
+        if (uploadedImages.length === 0) {
+            elements.uploadedImagesPreviewDiv.innerHTML = `<p class="dictionary-message">${t('mathpuzzle.uploaded.placeholder')}</p>`;
+            return;
+        }
+        uploadedImages.forEach(img => {
+            const item = document.createElement("div");
+            item.className = "dictionary-item";
+            if (selectedImage && selectedImage.path === img.path) {
+                item.classList.add('selected');
+            }
+            const displayName = img.name || img.word;
+            item.innerHTML = `<img src="${img.path}" alt="${displayName}" loading="lazy"/><span>${displayName}</span>`;
+            item.onclick = () => toggleImageSelection(img);
+            elements.uploadedImagesPreviewDiv.appendChild(item);
+        });
+    }
+
+    function toggleImageSelection(image, isManualSelection = true) {
+        selectedImage = (selectedImage && selectedImage.path === image.path) ? null : image;
+        userManuallySelectedImage = isManualSelection && (selectedImage !== null);
+
+        renderSelectedImages();
+
+        const libraryItems = elements.dictionaryDiv.querySelectorAll('.dictionary-item');
+        libraryItems.forEach(item => {
+            const itemImgSrc = item.querySelector('img')?.src;
+            const resolvedItemSrc = itemImgSrc ? new URL(itemImgSrc, window.location.href).href : null;
+            const isSelected = selectedImage && !selectedImage.path.startsWith('data:') && resolvedItemSrc === new URL(selectedImage.path, window.location.href).href;
+            item.classList.toggle('selected', isSelected);
+        });
+
+        const uploadedItems = elements.uploadedImagesPreviewDiv.querySelectorAll('.dictionary-item');
+        uploadedItems.forEach(item => {
+            const itemImgSrc = item.querySelector('img')?.src; // This is a data URI
+            const isSelected = selectedImage && selectedImage.path.startsWith('data:') && itemImgSrc === selectedImage.path;
+            item.classList.toggle('selected', isSelected);
+        });
+    }
+
+
+    function renderSelectedImages() {
+        const previewDiv = elements.selectedImagesPreviewDiv;
+        previewDiv.innerHTML = "";
+        if (selectedImage) {
+            const item = document.createElement("div");
+            item.className = "selected-preview-item";
+            const selectedDisplayName = selectedImage.name || selectedImage.word;
+            item.innerHTML = `<img src="${selectedImage.path}" alt="${selectedDisplayName}"/>`;
+            item.onclick = () => toggleImageSelection(selectedImage);
+            previewDiv.appendChild(item);
+        } else {
+            previewDiv.innerHTML = `<p class="dictionary-message">${t('mathpuzzle.msg.none.selected')}</p>`;
+        }
+    }
+
+    async function loadBackgroundThemes() {
+        // Load background themes from API with translations
+        try {
+            const response = await fetch(`/api/backgrounds/themes?locale=${currentLocale}`);
+            const themes = await response.json();
+
+            elements.backgroundThemeSelect.innerHTML = `<option value="none">${t('none')}</option>`;
+            themes.forEach(theme => {
+                elements.backgroundThemeSelect.innerHTML += `<option value="${theme.value}">${theme.displayName}</option>`;
+            });
+        } catch (error) {
+            console.error('Error loading background themes:', error);
+            elements.backgroundThemeSelect.innerHTML = `<option value="none" data-translate="none">${t('none')}</option>`;
+        }
+    }
+
+    function loadBackgroundImages() {
+        const theme = elements.backgroundThemeSelect.value;
+        if (theme === 'none') {
+            elements.backgroundDictionary.innerHTML = `<p class="dictionary-message" data-translate="mathpuzzle.background.message">${t('mathpuzzle.background.message')}</p>`;
+            [worksheetCanvas, answerKeyCanvas].forEach(canvas => {
+                if (!canvas) return;
+                const existingAsset = canvas.getObjects().find(obj => obj.isBackground);
+                if (existingAsset) canvas.remove(existingAsset);
+                canvas.renderAll();
+            });
+            elements.backgroundOpacity.disabled = true;
+            return;
+        }
+        elements.backgroundDictionary.innerHTML = `<p class="dictionary-message">${t('mathpuzzle.msg.loading.backgrounds')}</p>`;
+        // Load backgrounds from correct API endpoint
+        fetch(`/api/backgrounds/images?theme=${theme}`)
+            .then(res => res.ok ? res.json() : Promise.reject('Failed to load background images'))
+            .then(data => {
+                const images = data.images || data || [];
+                renderAssetThumbnails(images, elements.backgroundDictionary, addBackgroundToCanvas);
+            })
+            .catch(err => {
+                console.error('Error loading background images:', err);
+                elements.backgroundDictionary.innerHTML = `<p class="dictionary-message">${t('mathpuzzle.msg.backgrounds.error')}</p>`;
+            });
+    }
+
+    function addBackgroundToCanvas(path) {
+        const activeCanvas = getActiveCanvas();
+        const existing = activeCanvas.getObjects().find(obj => obj.isBackground);
+        if (existing) activeCanvas.remove(existing);
+
+        fabric.Image.fromURL(path, (img) => {
+            if (!img) { showMessage(t('mathpuzzle.msg.background.failed'), 'error'); return; }
+
+            // Scale to 70% of canvas height (professional standard)
+            const targetHeight = currentCanvasConfig.height * 0.7;
+            img.scaleToHeight(targetHeight);
+
+            const config = {
+                left: currentCanvasConfig.width / 2,
+                top: currentCanvasConfig.height / 2,
+                originX: 'center',
+                originY: 'center',
+                isBackground: true,
+                selectable: true, evented: true, hasControls: true, hasBorders: true,
+                borderColor: 'var(--app-accent-primary)', cornerColor: 'var(--app-accent-primary)',
+                cornerSize: 10, transparentCorners: false, cornerStyle: 'circle',
+                opacity: parseFloat(elements.backgroundOpacity.value),
+            };
+
+            img.set(config);
+            activeCanvas.add(img);
+            enforceZOrder(activeCanvas);
+            activeCanvas.renderAll();
+
+            elements.backgroundOpacity.disabled = false;
+        }, { crossOrigin: 'anonymous' });
+    }
+
+    function handleBackgroundOpacityChange(e) {
+        const opacity = parseFloat(e.target.value);
+        const activeCanvas = getActiveCanvas();
+        const bg = activeCanvas.getObjects().find(obj => obj.isBackground);
+        if (bg) {
+            bg.set('opacity', opacity);
+            activeCanvas.renderAll();
+        }
+    }
+
+    async function loadBorderThemes() {
+        // Load border themes from API with translations
+        try {
+            const response = await fetch(`/api/borders/themes?locale=${currentLocale}`);
+            const themes = await response.json();
+
+            elements.borderThemeSelect.innerHTML = `<option value="none">${t('none')}</option>`;
+            themes.forEach(theme => {
+                elements.borderThemeSelect.innerHTML += `<option value="${theme.value}">${theme.displayName}</option>`;
+            });
+        } catch (error) {
+            console.error('Error loading border themes:', error);
+            elements.borderThemeSelect.innerHTML = `<option value="none" data-translate="none">${t('none')}</option>`;
+        }
+    }
+
+    function loadBorderImages() {
+        const theme = elements.borderThemeSelect.value;
+        if (theme === 'none') {
+            elements.borderDictionary.innerHTML = `<p class="dictionary-message" data-translate="mathpuzzle.border.message">${t('mathpuzzle.border.message')}</p>`;
+            worksheetCanvas.getObjects().forEach(obj => { if (obj.isBorder) worksheetCanvas.remove(obj); });
+            worksheetCanvas.renderAll();
+            elements.borderOpacity.disabled = true;
+            return;
+        }
+        elements.borderDictionary.innerHTML = `<p class="dictionary-message">${t('mathpuzzle.msg.loading.borders')}</p>`;
+        // Load borders from correct API endpoint
+        fetch(`/api/borders/images?theme=${theme}`)
+            .then(res => res.ok ? res.json() : Promise.reject('Failed to load border images'))
+            .then(data => {
+                const images = data.images || data || [];
+                renderAssetThumbnails(images, elements.borderDictionary, addBorderToCanvas);
+            })
+            .catch(err => {
+                console.error('Error loading border images:', err);
+                elements.borderDictionary.innerHTML = `<p class="dictionary-message">${t('mathpuzzle.msg.borders.error')}</p>`;
+            });
+    }
+    
+    function renderAssetThumbnails(assets, container, addFunction) {
+        container.innerHTML = "";
+        if (!assets.length) {
+            container.innerHTML = `<p class="dictionary-message">${t('mathpuzzle.msg.no.items')}</p>`;
+            return;
+        }
+        assets.forEach(asset => {
+            const item = document.createElement("div");
+            item.className = "border-thumbnail-item"; // Re-using style for consistency
+            item.innerHTML = `<img src="${asset.path}" alt="${asset.name}" loading="lazy"/>`;
+            item.onclick = () => {
+                addFunction(asset.path);
+                container.querySelectorAll('.border-thumbnail-item.selected').forEach(el => el.classList.remove('selected'));
+                item.classList.add('selected');
+            };
+            container.appendChild(item);
+        });
+    }
+
+    function addBorderToCanvas(path) {
+        const activeCanvas = getActiveCanvas();
+        activeCanvas.getObjects().forEach(obj => { if (obj.isBorder) activeCanvas.remove(obj); });
+        fabric.Image.fromURL(path, (img) => {
+            if (!img) { showMessage(t('mathpuzzle.msg.border.failed'), 'error'); return; }
+
+            // Scale to 70% of canvas height (professional standard)
+            const targetHeight = currentCanvasConfig.height * 0.7;
+            img.scaleToHeight(targetHeight);
+
+            img.set({
+                left: currentCanvasConfig.width / 2,
+                top: currentCanvasConfig.height / 2,
+                originX: 'center',
+                originY: 'center',
+                isBorder: true,
+                opacity: 1,
+                selectable: true, evented: true, hasControls: true, hasBorders: true,
+                borderColor: 'var(--app-accent-primary)', cornerColor: 'var(--app-accent-primary)',
+                cornerSize: 10, transparentCorners: false, cornerStyle: 'circle',
+            });
+            activeCanvas.add(img);
+            enforceZOrder(activeCanvas);
+            activeCanvas.renderAll();
+            elements.borderOpacity.disabled = false;
+            elements.borderOpacity.value = 1;
+        }, { crossOrigin: 'anonymous' });
+    }
+
+    function handleBorderOpacityChange(e) {
+        const opacity = parseFloat(e.target.value);
+        const activeCanvas = getActiveCanvas();
+        const border = activeCanvas.getObjects().find(obj => obj.isBorder);
+        if (border) {
+            border.set('opacity', opacity);
+            activeCanvas.renderAll();
+        }
+    }
+
+
+    // --- CORE APP LOGIC & DATA GENERATION ---
+    const randInt = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
+    const shuffle = arr => arr.sort(() => Math.random() - 0.5);
+
+    async function handleGenerate() {
+        if (elements.generateDropdownContent) elements.generateDropdownContent.style.display = 'none';
+
+        isGenerating = true;
+
+        // Clear auto-selected image, but keep manually selected ones
+        if (!userManuallySelectedImage) {
+            selectedImage = null;
+        }
+
+        // Auto-select random image if user hasn't manually selected one
+        if (!selectedImage) {
+            // First try theme images
+            if (currentThemeImages.length > 0) {
+                const randomIndex = Math.floor(Math.random() * currentThemeImages.length);
+                const imageToUse = currentThemeImages[randomIndex];
+                toggleImageSelection(imageToUse, false); // false = not manual selection
+                const imageName = imageToUse.word || imageToUse.name || 'random image';
+                showMessage(`Using randomly selected image: ${imageName}`, 'info', 3000);
+            }
+            // If no theme images, try uploaded images
+            else if (uploadedImages.length > 0) {
+                const randomIndex = Math.floor(Math.random() * uploadedImages.length);
+                const imageToUse = uploadedImages[randomIndex];
+                toggleImageSelection(imageToUse, false); // false = not manual selection
+                const imageName = imageToUse.word || imageToUse.name || 'uploaded image';
+                showMessage(`Using randomly selected image: ${imageName}`, 'info', 3000);
+            }
+        }
+
+        showMessage(t('mathpuzzle.msg.generating.data'), 'info', 0);
+        try {
+            await generateData();
+            showMessage(t('mathpuzzle.msg.rendering.worksheet'), 'info', 0);
+            await renderWorksheet();
+            showMessage(t('mathpuzzle.msg.worksheet.success'), 'success');
+
+            elements.downloadWsJpegBtn.disabled = false;
+            elements.downloadWsPdfBtn.disabled = false;
+            elements.generateAnswerKeyBtn.disabled = false;
+
+            isGenerating = false;
+            saveState();
+        } catch(error) {
+            console.error("Generation Error:", error);
+            showMessage(t('mathpuzzle.msg.generation.error').replace('{error}', error.message), 'error');
+            elements.generateAnswerKeyBtn.disabled = true;
+            isGenerating = false;
+        }
+    }
+    
+    async function handleGenerateAnswerKey() {
+        if (elements.generateDropdownContent) elements.generateDropdownContent.style.display = 'none';
+        if (!lastGeneratedData) {
+            showMessage(t('mathpuzzle.msg.generate.worksheet.first'), "error");
+            return;
+        }
+
+        isGenerating = true;
+
+        showMessage(t('mathpuzzle.msg.rendering.answerkey'), 'info', 0);
+        try {
+            await renderAnswerKey();
+            showMessage(t('mathpuzzle.msg.answer.generated'), 'success');
+            elements.downloadAkJpegBtn.disabled = false;
+            elements.downloadAkPdfBtn.disabled = false;
+
+            isGenerating = false;
+            saveState();
+        } catch(error) {
+            console.error("Answer Key Generation Error:", error);
+            showMessage(t('mathpuzzle.msg.generation.error').replace('{error}', error.message), 'error');
+            isGenerating = false;
+        }
+    }
+
+    async function generateData() {
+        const rows = parseInt(elements.rowInput.value, 10);
+        const cols = parseInt(elements.colInput.value, 10);
+        const opType = elements.opSelect.value;
+
+        if (!selectedImage) {
+            showMessage(t('mathpuzzle.error.select.image'), 'error');
+            throw new Error(t('mathpuzzle.error.select.image'));
+        }
+        if (rows < 2 || rows > 4 || cols < 2 || cols > 4) {
+            showMessage(t('mathpuzzle.error.rows.cols'), 'error');
+            throw new Error(t('mathpuzzle.error.rows.cols'));
+        }
+
+        const N = rows * cols;
+        const nums = shuffle([...Array(N)].map((_, i) => i + 2));
+        const operations = nums.map(num => {
+            let text;
+            const finalOpType = (opType === 'both') ? (Math.random() < 0.5 ? 'addition' : 'subtraction') : opType;
+            if (finalOpType === 'addition') {
+                const a = randInt(1, num - 1);
+                text = `${a} + ${num - a}`;
+            } else {
+                const a = randInt(num + 1, num + N + 5);
+                text = `${a} - ${a - num}`;
+            }
+            return { text, solution: num };
+        });
+
+        const imgObj = await new Promise((resolve, reject) => {
+            const img = new Image();
+            img.crossOrigin = 'anonymous';
+            img.onload = () => resolve(img);
+            img.onerror = () => reject(new Error('Failed to load the selected image.'));
+            img.src = selectedImage.path;
+        });
+        
+        // Dynamic sizing with professional margins
+        const canvasWidth = currentCanvasConfig.width;
+        const canvasHeight = currentCanvasConfig.height;
+        const MARGIN_X = canvasWidth * 0.1;  // 10% horizontal margins
+        const MARGIN_Y = canvasHeight * 0.08; // 8% vertical margins
+        
+        // Calculate available space for content
+        const usableWidth = canvasWidth - (MARGIN_X * 2);
+        const usableHeight = canvasHeight - (MARGIN_Y * 2);
+        
+        // Grid takes 45-55% of usable height depending on piece count
+        const gridHeightRatio = 0.45 + (0.05 * Math.max(0, 3 - rows)); // More rows = less grid space
+        const maxGridHeight = usableHeight * gridHeightRatio;
+        const maxGridWidth = usableWidth * 0.9; // Leave some horizontal breathing room
+
+        // Calculate grid size maintaining square cells (20% smaller than before)
+        const puzzleGridSize = Math.min(maxGridWidth, maxGridHeight) * 0.8;
+        const cellSize = puzzleGridSize / Math.max(rows, cols);
+        const cellWidth = cellSize;
+        const cellHeight = cellSize;
+
+        // FIX: Calculate actual grid dimensions (may be rectangular, not square)
+        const gridWidth = cols * cellWidth;
+        const gridHeight = rows * cellHeight;
+
+        const scaleFactor = Math.max(gridWidth / imgObj.naturalWidth, gridHeight / imgObj.naturalHeight);
+        const scaledWidth = imgObj.naturalWidth * scaleFactor;
+        const scaledHeight = imgObj.naturalHeight * scaleFactor;
+        const offsetX = (scaledWidth - gridWidth) / 2;
+        const offsetY = (scaledHeight - gridHeight) / 2;
+
+        const offscreenCanvas = document.createElement('canvas');
+        const ctx = offscreenCanvas.getContext('2d');
+        
+        const tempPieces = [];
+        for (let i = 0; i < N; i++) {
+            const r = Math.floor(i / cols), c = i % cols;
+            
+            const sourceX = (c * cellWidth + offsetX) / scaleFactor;
+            const sourceY = (r * cellHeight + offsetY) / scaleFactor;
+            const sourceW = cellWidth / scaleFactor;
+            const sourceH = cellHeight / scaleFactor;
+
+            offscreenCanvas.width = sourceW;
+            offscreenCanvas.height = sourceH;
+            ctx.drawImage(imgObj, sourceX, sourceY, sourceW, sourceH, 0, 0, sourceW, sourceH);
+            
+            tempPieces.push({ imgDataUrl: offscreenCanvas.toDataURL(), number: operations[i].solution });
+        }
+
+        lastGeneratedData = {
+            rows, cols, operations,
+            scrambledPieces: shuffle(tempPieces),
+            fullImage: imgObj,
+            puzzleGridSize, cellWidth, cellHeight,
+            gridWidth, gridHeight  // FIX: Store actual grid dimensions
+        };
+    }
+
+    // --- FABRIC.JS RENDERING ---
+    function createHeaderGroup(canvas) {
+        const defaultHeaders = {
+            en: { title: 'Math Puzzles', description: 'Solve the picture puzzles below!' },
+            de: { title: 'Mathe-Rätsel', description: 'Löse die Bilderrätsel!' },
+            fr: { title: 'Casse-Têtes Mathématiques', description: 'Résous les énigmes en images!' },
+            es: { title: 'Rompecabezas Matemáticos', description: '¡Resuelve los acertijos de imágenes!' },
+            it: { title: 'Rompicapi Matematici', description: 'Risolvi i rompicapi con le immagini!' },
+            pt: { title: 'Quebra-Cabeças Matemáticos', description: 'Resolve os quebra-cabeças das imagens!' },
+            nl: { title: 'Wiskundepuzzels', description: 'Los de plaatjespuzzels op!' },
+            sv: { title: 'Mattepussel', description: 'Lös bildpusslen!' },
+            da: { title: 'Mattepuslespil', description: 'Løs billedpuslespillene!' },
+            no: { title: 'Mattepuslespill', description: 'Løs bildepuslespillene!' },
+            fi: { title: 'Matematiikkapulmat', description: 'Ratkaise kuvapulmat!' }
+        };
+
+        const locale = currentLocale || 'en';
+        const defaults = defaultHeaders[locale] || defaultHeaders.en;
+        const title = defaults.title;
+        const description = defaults.description;
+
+        // Get current canvas dimensions for responsive design
+        const pageWidth = currentCanvasConfig.width;
+        const pageHeight = currentCanvasConfig.height;
+        const isLandscape = pageWidth > pageHeight;
+
+        const objects = [];
+
+        // Outer border - responsive to page size (bright orange)
+        const margin = 34;
+        const strokeWidth = 8;
+        const borderWidth = pageWidth - (margin * 2);
+        const borderHeight = pageHeight - (margin * 2);
+
+        const outerBorder = new fabric.Rect({
+            left: margin,
+            top: margin,
+            width: borderWidth,
+            height: borderHeight,
+            fill: 'transparent',
+            stroke: '#FF8C00',
+            strokeWidth: strokeWidth,
+            rx: 12,
+            ry: 12,
+            selectable: true,
+            hasControls: true,
+            isPageBorder: true
+        });
+        objects.push(outerBorder);
+
+        // Inner border - Sky blue (responsive)
+        const innerMargin = 46.5;
+        const innerStrokeWidth = 3;
+        const innerBorderWidth = pageWidth - (innerMargin * 2);
+        const innerBorderHeight = pageHeight - (innerMargin * 2);
+
+        const innerBorder = new fabric.Rect({
+            left: innerMargin + 2,  // Offset 2px to the right
+            top: innerMargin + 3,   // Offset 3px downward
+            width: innerBorderWidth,
+            height: innerBorderHeight,
+            fill: 'transparent',
+            stroke: '#87CEEB',
+            strokeWidth: innerStrokeWidth,
+            rx: 8,
+            ry: 8,
+            selectable: true,
+            hasControls: true,
+            isPageBorder: true
+        });
+        objects.push(innerBorder);
+
+        // LANDSCAPE MODE: Compact, professional header centered at top
+        if (isLandscape) {
+            // Compact header dimensions for landscape (60% of width maximum)
+            const maxHeaderWidth = Math.min(500, pageWidth * 0.6);
+            const headerHeight = 70;
+            const pillHeight = 50;
+
+            const centerX = pageWidth / 2;
+            const headerTop = 60;
+
+            // Warm orange header background - compact size
+            const bgRect = new fabric.Rect({
+                left: centerX - maxHeaderWidth / 2,
+                top: headerTop,
+                width: maxHeaderWidth,
+                height: headerHeight,
+                fill: '#FF8C42',
+                rx: 35,
+                ry: 35,
+                selectable: true,
+                isHeaderElement: true
+            });
+            objects.push(bgRect);
+
+            // White rounded rectangle for title - compact
+            const whitePill = new fabric.Rect({
+                left: centerX - (maxHeaderWidth - 40) / 2,
+                top: headerTop + 10,
+                width: maxHeaderWidth - 40,
+                height: pillHeight,
+                fill: '#FFFFFF',
+                rx: 25,
+                ry: 25,
+                selectable: true,
+                isHeaderElement: true
+            });
+            objects.push(whitePill);
+
+            // Title - Compact size for landscape
+            let titleFontSize = 36;
+            if (title.length > 12) titleFontSize = 32;
+            if (title.length > 15) titleFontSize = 28;
+            if (title.length > 18) titleFontSize = 24;
+
+            const titleText = new fabric.IText(title, {
+                left: centerX,
+                top: headerTop + 35,
+                fontSize: titleFontSize,
+                fontFamily: 'Fredoka, sans-serif',
+                fontWeight: '700',
+                fill: '#1E3A8A',
+                textAlign: 'center',
+                originX: 'center',
+                originY: 'center',
+                selectable: true,
+                editable: true,
+                isHeaderElement: true
+            });
+            objects.push(titleText);
+
+            // Description - Compact for landscape
+            const descText = new fabric.Textbox(description, {
+                left: centerX,
+                top: headerTop + headerHeight + 5,
+                width: maxHeaderWidth - 20,
+                fontSize: 14,
+                fontFamily: 'Quicksand, sans-serif',
+                fontWeight: '500',
+                fill: '#D97706',
+                textAlign: 'center',
+                originX: 'center',
+                originY: 'top',
+                selectable: true,
+                editable: true,
+                hasControls: true,
+                isHeaderDesc: true,
+                isHeaderElement: true
+            });
+            objects.push(descText);
+
+        } else {
+            // PORTRAIT MODE: Full-width professional header
+            const headerMargin = 70;
+            const headerWidth = pageWidth - (headerMargin * 2);
+            const centerX = pageWidth / 2;
+
+            // Header background - Warm orange
+            const bgRect = new fabric.Rect({
+                left: headerMargin,
+                top: 70,
+                width: headerWidth,
+                height: 100,
+                fill: '#FF8C42',
+                rx: 15,
+                ry: 15,
+                selectable: true,
+                isHeaderElement: true
+            });
+            objects.push(bgRect);
+
+            // White pill for title
+            const whitePill = new fabric.Rect({
+                left: headerMargin + 20,
+                top: 85,
+                width: headerWidth - 40,
+                height: 70,
+                fill: '#FFFFFF',
+                rx: 35,
+                ry: 35,
+                selectable: true,
+                isHeaderElement: true
+            });
+            objects.push(whitePill);
+
+            // Title - Dynamic size based on length
+            let titleFontSize = 48;
+            if (title.length > 12) titleFontSize = 40;
+            if (title.length > 15) titleFontSize = 36;
+            if (title.length > 18) titleFontSize = 32;
+            if (title.length > 22) titleFontSize = 28;
+
+            // Title text - Deep blue
+            const titleText = new fabric.IText(title, {
+                left: centerX,
+                top: 120,
+                fontSize: titleFontSize,
+                fontFamily: 'Fredoka, sans-serif',
+                fontWeight: '700',
+                fill: '#1E3A8A',
+                textAlign: 'center',
+                originX: 'center',
+                originY: 'center',
+                selectable: true,
+                editable: true,
+                isHeaderElement: true
+            });
+            objects.push(titleText);
+
+            // Description text - Dark orange
+            const descText = new fabric.Textbox(description, {
+                left: centerX,
+                top: 190,
+                width: Math.min(450, pageWidth - 150),
+                fontSize: 20,
+                fontFamily: 'Quicksand, sans-serif',
+                fontWeight: '500',
+                fill: '#D97706',
+                textAlign: 'center',
+                originX: 'center',
+                originY: 'top',
+                selectable: true,
+                editable: true,
+                hasControls: true,
+                isHeaderDesc: true,
+                isHeaderElement: true
+            });
+            objects.push(descText);
+        }
+
+        return objects;
+    }
+
+    function createPageBorder(canvas) {
+        return null;
+    }
+
+    async function renderWorksheet() {
+        if (!lastGeneratedData) {
+            showMessage(t('mathpuzzle.error.no.data'), 'error');
+            throw new Error(t('mathpuzzle.error.no.data'));
+        }
+        let { rows, cols, operations, scrambledPieces, puzzleGridSize, cellWidth, cellHeight, gridWidth, gridHeight } = lastGeneratedData;
+
+        // FIX: Backwards compatibility - calculate if not present (for old generated data)
+        if (!gridWidth || !gridHeight) {
+            gridWidth = cols * cellWidth;
+            gridHeight = rows * cellHeight;
+        }
+
+        // Store old canvas dimensions BEFORE removing objects
+        const oldCanvasWidth = worksheetCanvas.getWidth();
+        const oldCanvasHeight = worksheetCanvas.getHeight();
+
+        // Detect orientation
+        const isLandscapeWorksheet = currentCanvasConfig.width > currentCanvasConfig.height;
+
+        // LANDSCAPE WORKSHEET: Use grid at same size for clean layout
+        // No scaling needed - keep original calculated size
+
+        const oldTransforms = {};
+        worksheetCanvas.getObjects().forEach(obj => {
+            if (obj.isGeneratedItem && obj.originalIndex !== undefined) {
+                oldTransforms[obj.originalIndex] = {
+                    left: obj.left, top: obj.top,
+                    scaleX: obj.scaleX, scaleY: obj.scaleY,
+                    angle: obj.angle
+                };
+            }
+        });
+        const userAddedObjects = worksheetCanvas.getObjects().filter(o => !o.isGeneratedItem && !o.isPageBorder && !o.isHeaderDesc && !o.isHeaderElement);
+
+        const oldGeneratedItems = worksheetCanvas.getObjects().filter(o => o.isGeneratedItem || o.isPageBorder || o.isHeaderDesc || o.isHeaderElement);
+        oldGeneratedItems.forEach(o => worksheetCanvas.remove(o));
+
+        // Check if canvas dimensions changed - if so, DON'T preserve transforms
+        const canvasDimensionsChanged = (oldCanvasWidth !== currentCanvasConfig.width || oldCanvasHeight !== currentCanvasConfig.height);
+        const shouldPreserveTransforms = !canvasDimensionsChanged;
+
+        // Generate header and border
+        const headerObjects = createHeaderGroup(worksheetCanvas);
+        const isLandscape = currentCanvasConfig.width > currentCanvasConfig.height;
+        const headerHeight = headerObjects ? (isLandscape ? 150 : 220) : 0;
+
+        worksheetCanvas.backgroundColor = elements.pageColorInput.value;
+
+        // Professional layout with dynamic margins
+        const canvasWidth = currentCanvasConfig.width;
+        const canvasHeight = currentCanvasConfig.height;
+        const MARGIN_X = canvasWidth * 0.1;
+        const MARGIN_Y = canvasHeight * 0.08;
+
+        // Professional layout calculations
+        let gridLeft, gridTop;
+        if (isLandscapeWorksheet) {
+            // LANDSCAPE PROFESSIONAL LAYOUT
+            // Use maximum available space for grid (90% of height)
+            const contentAreaHeight = canvasHeight - headerHeight - MARGIN_Y - 30;
+            const maxGridSize = contentAreaHeight * 0.9;
+
+            // FIX: Scale grid to use this space optimally (using actual gridHeight)
+            if (maxGridSize < gridHeight) {
+                const scaleFactor = maxGridSize / gridHeight;
+                gridWidth = gridWidth * scaleFactor;
+                gridHeight = gridHeight * scaleFactor;
+                cellWidth = cellWidth * scaleFactor;
+                cellHeight = cellHeight * scaleFactor;
+            }
+
+            // Position grid in left section (40% of width)
+            const totalUsableWidth = canvasWidth - (MARGIN_X * 2);
+            const leftSectionWidth = totalUsableWidth * 0.40;
+            gridLeft = MARGIN_X + (leftSectionWidth - gridWidth) / 2;
+
+            // Center grid vertically in content area
+            const contentTop = headerHeight + 20;
+            const contentBottom = canvasHeight - MARGIN_Y;
+            const availableContentHeight = contentBottom - contentTop;
+            gridTop = contentTop + (availableContentHeight - gridHeight) / 2;
+
+        } else {
+            // PORTRAIT: Center the grid horizontally
+            gridLeft = (canvasWidth - gridWidth) / 2;
+            gridTop = Math.max(MARGIN_Y, headerHeight + 20);
+        }
+        
+        const gridElements = [];
+        // FIX: Use actual grid dimensions (gridWidth x gridHeight) instead of square puzzleGridSize
+        gridElements.push(new fabric.Rect({ left: 0, top: 0, width: gridWidth, height: gridHeight, fill: 'white', stroke: 'black', strokeWidth: 2 }));
+        for (let i = 1; i < cols; i++) gridElements.push(new fabric.Line([i * cellWidth, 0, i * cellWidth, gridHeight], { stroke: 'black', strokeWidth: 2 }));
+        for (let i = 1; i < rows; i++) gridElements.push(new fabric.Line([0, i * cellHeight, gridWidth, i * cellHeight], { stroke: 'black', strokeWidth: 2 }));
+
+        operations.forEach((op, i) => {
+            const r = Math.floor(i / cols);
+            const c = i % cols;
+            gridElements.push(new fabric.Textbox(op.text, {
+                left: c * cellWidth + cellWidth / 2, top: r * cellHeight + cellHeight / 2,
+                originX: 'center', originY: 'center',
+                width: cellWidth * 0.9, fontSize: cellWidth * 0.25, textAlign: 'center'
+            }));
+        });
+        
+        const gridGroup = new fabric.Group(gridElements, {
+            left: gridLeft, top: gridTop,
+            isGeneratedItem: true, originalIndex: 'mainGrid',
+            objectCaching: false, hasControls: true, hasBorders: true,
+            borderColor: 'var(--app-accent-primary)', cornerColor: 'var(--app-accent-primary)',
+            cornerSize: 10, transparentCorners: false, cornerStyle: 'circle'
+        });
+
+        // Only preserve transforms if canvas dimensions haven't changed
+        if (shouldPreserveTransforms && oldTransforms['mainGrid']) {
+            gridGroup.set(oldTransforms['mainGrid']);
+        }
+        worksheetCanvas.add(gridGroup);
+        
+        const piecePromises = scrambledPieces.map((p, index) => new Promise(resolve => {
+            fabric.Image.fromURL(p.imgDataUrl, (img) => {
+                img.scaleToWidth(cellWidth * 1.2); // 20% bigger
+                const numberText = new fabric.Textbox(String(p.number), { top: -5, left: (cellWidth * 1.2) / 2, originX: 'center', originY: 'bottom', fontSize: 18 });
+                const border = new fabric.Rect({ width: cellWidth * 1.2, height: img.getScaledHeight(), fill: 'transparent', stroke: 'black', strokeWidth: 1, strokeDashArray: [5, 5] });
+                
+                // --- START: Z-ORDER FIX ---
+                const pieceGroup = new fabric.Group([img, border, numberText], {
+                // --- END: Z-ORDER FIX ---
+                    isGeneratedItem: true, originalIndex: `piece_${index}`,
+                    objectCaching: false, hasControls: true, hasBorders: true,
+                    borderColor: 'var(--app-accent-primary)', cornerColor: 'var(--app-accent-primary)',
+                    cornerSize: 10, transparentCorners: false, cornerStyle: 'circle'
+                });
+                resolve(pieceGroup);
+            });
+        }));
+
+        const pieceGroups = await Promise.all(piecePromises);
+
+        // Make cutout pieces equal to grid cell size
+        // Pieces are created at cellWidth * 1.2 (where cellWidth is already adjusted for landscape/portrait)
+        // Grid cells are at cellWidth (adjusted value)
+        // So we need to scale pieces from (cellWidth * 1.2) down to cellWidth
+        const pieceScaleFactor = cellWidth / (cellWidth * 1.2);  // = 1 / 1.2 ≈ 0.833
+
+        pieceGroups.forEach(group => group.scale(pieceScaleFactor));
+
+        if (pieceGroups.length > 0) {
+            let pieceWidth = pieceGroups[0].getScaledWidth();  // FIX: Use 'let' instead of 'const' to allow reassignment
+            let pieceHeight = pieceGroups[0].getScaledHeight(); // FIX: Use 'let' instead of 'const' to allow reassignment
+
+            if (isLandscapeWorksheet) {
+                // LANDSCAPE: Professional 3-column layout on right side
+                const numColumns = 3;
+                const columnSpacing = 20;
+                const rowSpacing = 18;
+
+                // Calculate right section area (60% of usable width)
+                const totalUsableWidth = canvasWidth - (MARGIN_X * 2);
+                const rightSectionLeft = MARGIN_X + totalUsableWidth * 0.42; // Starts at 42%
+                const rightSectionWidth = totalUsableWidth * 0.58;
+
+                // Calculate cutouts dimensions
+                const numRows = Math.ceil(pieceGroups.length / numColumns);
+                const totalCutoutsHeight = (numRows * pieceHeight) + ((numRows - 1) * rowSpacing);
+                const totalCutoutsWidth = (numColumns * pieceWidth) + ((numColumns - 1) * columnSpacing);
+
+                // Center cutouts horizontally in right section
+                const cutoutsStartX = rightSectionLeft + (rightSectionWidth - totalCutoutsWidth) / 2;
+
+                // Center cutouts vertically, matching grid vertical centering
+                const contentTop = headerHeight + 20;
+                const contentBottom = canvasHeight - MARGIN_Y;
+                const availableContentHeight = contentBottom - contentTop;
+                const cutoutsStartY = contentTop + (availableContentHeight - totalCutoutsHeight) / 2;
+
+                pieceGroups.forEach((group, index) => {
+                    if (shouldPreserveTransforms && oldTransforms[group.originalIndex]) {
+                        group.set(oldTransforms[group.originalIndex]);
+                    } else {
+                        const colIndex = index % numColumns;
+                        const rowIndex = Math.floor(index / numColumns);
+
+                        group.set({
+                            left: cutoutsStartX + colIndex * (pieceWidth + columnSpacing),
+                            top: cutoutsStartY + rowIndex * (pieceHeight + rowSpacing)
+                        });
+                    }
+                    worksheetCanvas.add(group);
+                });
+
+            } else {
+                // PORTRAIT: Horizontal layout below grid
+                const paletteTop = gridTop + gridGroup.getScaledHeight() + (canvasHeight * 0.03);
+                const paletteBottomMargin = MARGIN_Y;
+                const availableHeight = canvasHeight - paletteTop - paletteBottomMargin;
+
+                // Dynamic spacing based on canvas size
+                const horizontalMargin = canvasWidth * 0.02;
+
+                // Use full usable width for calculating pieces per row
+                const paletteWidth = canvasWidth - (MARGIN_X * 2);
+                const piecesPerRow = pieceWidth > 0 ? Math.floor((paletteWidth + horizontalMargin) / (pieceWidth + horizontalMargin)) : 1;
+                const numRows = Math.ceil(pieceGroups.length / piecesPerRow);
+
+                // Adjust piece scale if they don't fit
+                if (numRows * pieceHeight > availableHeight) {
+                    const requiredScale = availableHeight / (numRows * pieceHeight);
+                    pieceGroups.forEach(group => group.scale(group.scaleX * requiredScale * 0.9));
+                    pieceWidth = pieceGroups[0].getScaledWidth();
+                    pieceHeight = pieceGroups[0].getScaledHeight();
+                }
+
+                const totalPieceStackHeight = numRows * pieceHeight;
+                let verticalMargin = (numRows > 1) ? Math.min((availableHeight - totalPieceStackHeight) / (numRows - 1), canvasHeight * 0.02) : 0;
+                if (verticalMargin < 5) verticalMargin = 5;
+
+                pieceGroups.forEach((group) => {
+                    const index = parseInt(group.originalIndex.split('_')[1]);
+                    if (shouldPreserveTransforms && oldTransforms[group.originalIndex]) {
+                        group.set(oldTransforms[group.originalIndex]);
+                    } else {
+                        const rowIndex = Math.floor(index / piecesPerRow);
+                        const colIndex = index % piecesPerRow;
+
+                        const piecesInThisRow = (rowIndex === numRows - 1)
+                            ? pieceGroups.length - (rowIndex * piecesPerRow)
+                            : piecesPerRow;
+
+                        const totalRowWidth = (piecesInThisRow * pieceWidth) + ((piecesInThisRow - 1) * horizontalMargin);
+                        const rowStartX = (canvasWidth - totalRowWidth) / 2;
+
+                        group.set({
+                            left: rowStartX + colIndex * (pieceWidth + horizontalMargin),
+                            top: paletteTop + rowIndex * (pieceHeight + verticalMargin)
+                        });
+                    }
+                    worksheetCanvas.add(group);
+                });
+            }
+        }
+
+        // Add header objects first
+        if (headerObjects) {
+            headerObjects.forEach(obj => worksheetCanvas.add(obj));
+        }
+
+        enforceZOrder(worksheetCanvas);
+        userAddedObjects.forEach(obj => worksheetCanvas.bringToFront(obj));
+        worksheetCanvas.renderAll();
+    }
+    
+    async function renderAnswerKey() {
+        if (!lastGeneratedData) return;
+        const { rows, cols, fullImage, operations } = lastGeneratedData;
+
+        // Use the logical canvas dimensions (before zoom)
+        // The coordinate system in Fabric.js remains based on the original dimensions
+        const canvasWidth = currentCanvasConfig.width;
+        const canvasHeight = currentCanvasConfig.height;
+
+        // Store old canvas dimensions BEFORE removing objects
+        const oldCanvasWidth = answerKeyCanvas.getWidth();
+        const oldCanvasHeight = answerKeyCanvas.getHeight();
+
+        // Use a reasonable size for the answer key grid (60% of the smaller dimension)
+        const maxGridSize = Math.min(canvasWidth, canvasHeight) * 0.6;
+        const puzzleGridSize = maxGridSize;
+        // FIX: Calculate square cells based on max dimension
+        const cellSize = puzzleGridSize / Math.max(rows, cols);
+        const cellWidth = cellSize;
+        const cellHeight = cellSize;
+        // FIX: Calculate actual grid dimensions (may be rectangular)
+        const gridWidth = cols * cellWidth;
+        const gridHeight = rows * cellHeight;
+
+        const oldTransforms = {};
+        answerKeyCanvas.getObjects().forEach(obj => {
+            if (obj.isAnswerKeyItem && obj.originalIndex !== undefined) {
+                oldTransforms[obj.originalIndex] = { left: obj.left, top: obj.top, scaleX: obj.scaleX, scaleY: obj.scaleY, angle: obj.angle };
+            }
+        });
+        const userAddedObjects = answerKeyCanvas.getObjects().filter(o => !o.isAnswerKeyItem && !o.isPageBorder && !o.isHeaderDesc && !o.isHeaderElement);
+
+        const objectsToRemove = answerKeyCanvas.getObjects().filter(o => o.isAnswerKeyItem || o.isPageBorder || o.isHeaderDesc || o.isHeaderElement);
+        objectsToRemove.forEach(o => answerKeyCanvas.remove(o));
+
+        // Check if canvas dimensions changed - if so, DON'T preserve transforms
+        const canvasDimensionsChanged = (oldCanvasWidth !== currentCanvasConfig.width || oldCanvasHeight !== currentCanvasConfig.height);
+        const shouldPreserveTransforms = !canvasDimensionsChanged;
+
+        // Copy header and borders from worksheet
+        const headerBorderObjects = worksheetCanvas.getObjects().filter(o => o.isPageBorder || o.isHeaderElement || o.isHeaderDesc);
+        for (const obj of headerBorderObjects) {
+            await new Promise(resolve => obj.clone(cloned => {
+                // Preserve the original flags
+                if (obj.isPageBorder) cloned.set({ isPageBorder: true });
+                if (obj.isHeaderElement) cloned.set({ isHeaderElement: true });
+                if (obj.isHeaderDesc) cloned.set({ isHeaderDesc: true });
+                answerKeyCanvas.add(cloned);
+                resolve();
+            }));
+        }
+
+        const isLandscape = canvasWidth > canvasHeight;
+        const headerHeight = isLandscape ? 150 : 220;
+
+        answerKeyCanvas.backgroundColor = elements.pageColorInput.value;
+
+        const background = worksheetCanvas.getObjects().find(o => o.isBackground);
+        if (background) {
+            await new Promise(resolve => background.clone(cloned => {
+                cloned.set({ isBackground: true });
+                answerKeyCanvas.add(cloned);
+                resolve();
+            }));
+        }
+        const border = worksheetCanvas.getObjects().find(o => o.isBorder);
+        if (border) {
+            await new Promise(resolve => border.clone(cloned => {
+                cloned.set({ isBorder: true });
+                answerKeyCanvas.add(cloned);
+                resolve();
+            }));
+        }
+        
+        // FIX: Scale factor should use actual grid dimensions
+        const scaleFactor = Math.max(gridWidth / fullImage.width, gridHeight / fullImage.height);
+
+        const keyElements = [];
+        const bgImage = new fabric.Image(fullImage, { scaleX: scaleFactor, scaleY: scaleFactor, opacity: 0.3, left: (gridWidth - (fullImage.width * scaleFactor)) / 2, top: (gridHeight - (fullImage.height * scaleFactor)) / 2 });
+        keyElements.push(bgImage);
+
+        // FIX: Use actual grid dimensions (gridWidth x gridHeight) instead of square puzzleGridSize
+        keyElements.push(new fabric.Rect({ width: gridWidth, height: gridHeight, fill: 'transparent', stroke: 'black', strokeWidth: 2 }));
+        for (let i = 1; i < cols; i++) keyElements.push(new fabric.Line([i * cellWidth, 0, i * cellWidth, gridHeight], { stroke: 'black', strokeWidth: 2 }));
+        for (let i = 1; i < rows; i++) keyElements.push(new fabric.Line([0, i * cellHeight, gridWidth, i * cellHeight], { stroke: 'black', strokeWidth: 2 }));
+        operations.forEach((op, i) => {
+            const r = Math.floor(i / cols), c = i % cols;
+            keyElements.push(new fabric.Textbox(`${op.text} = ${op.solution}`, { left: c * cellWidth + cellWidth / 2, top: r * cellHeight + cellHeight / 2, originX: 'center', originY: 'center', width: cellWidth * 0.9, fontSize: cellWidth * 0.2, textAlign: 'center' }));
+        });
+        
+        // Calculate vertical offset based on orientation
+        const verticalOffset = isLandscape ? 40 : 25;
+
+        const keyGroup = new fabric.Group(keyElements, {
+            left: canvasWidth / 2,  // Center of canvas
+            top: (canvasHeight / 2) + verticalOffset,   // Center + offset based on orientation
+            originX: 'center',       // Use center as origin
+            originY: 'center',       // Use center as origin
+            isAnswerKeyItem: true, originalIndex: 'answerGrid',
+            objectCaching: false, hasControls: true, hasBorders: true,
+            borderColor: 'var(--app-accent-primary)', cornerColor: 'var(--app-accent-primary)',
+            cornerSize: 10, transparentCorners: false, cornerStyle: 'circle'
+        });
+
+        // Only preserve transforms if canvas dimensions haven't changed
+        if (shouldPreserveTransforms && oldTransforms['answerGrid']) {
+            keyGroup.set(oldTransforms['answerGrid']);
+        }
+
+        answerKeyCanvas.add(keyGroup);
+
+        enforceZOrder(answerKeyCanvas);
+        userAddedObjects.forEach(obj => answerKeyCanvas.bringToFront(obj));
+        answerKeyCanvas.renderAll();
+    }
+
+    // --- TEXT TOOLS LOGIC ---
+    function addText() {
+        const activeCanvas = getActiveCanvas();
+        if (!activeCanvas) return;
+
+        const textContent = elements.textInput.value.trim() || "New Text";
+        const textObject = new fabric.Textbox(textContent, {
+            left: (currentCanvasConfig.width - 250) / 2,
+            top: (currentCanvasConfig.height - 100) / 2,
+            fontSize: 48,
+            fill: '#333333',
+            fontFamily: 'Arial',
+            width: 250,
+            padding: 8,
+            borderColor: 'var(--app-accent-primary)',
+            cornerColor: 'var(--app-accent-primary)',
+            cornerSize: 10,
+            transparentCorners: false,
+            cornerStyle: 'circle',
+            stroke: '#000000',
+            strokeWidth: 0
+        });
+        activeCanvas.add(textObject);
+        activeCanvas.setActiveObject(textObject);
+        activeCanvas.renderAll();
+        elements.textInput.value = '';
+    }
+
+    function handleObjectSelection(e, canvas) {
+        if (!canvas) return;
+        elements.objectContextToolbar.style.display = 'flex';
+        const activeObject = canvas.getActiveObject();
+        if(!activeObject) return;
+
+        const isGroup = activeObject.type === 'activeSelection';
+
+        elements.allToolbarButtons.forEach(btn => btn.disabled = false);
+        document.querySelectorAll('#alignDropdown button').forEach(btn => {
+            if (btn.id.includes('Canvas')) {
+                btn.disabled = isGroup;
+            } else {
+                btn.disabled = !isGroup;
+            }
+        });
+        
+        if (activeObject.isBorder || activeObject.isBackground) {
+            elements.toolbarDeleteBtn.disabled = false;
+        }
+
+        const activeObj = e.target || activeObject;
+        if (!activeObj || activeObj.isBorder || activeObj.isBackground) { 
+            handleSelectionCleared(null, canvas); 
+            if(activeObj) {
+                elements.objectContextToolbar.style.display = 'flex';
+                elements.toolbarDeleteBtn.disabled = false;
+            }
+            return; 
+        }
+        
+        const isSingleTextObject = activeObj.type === 'textbox' && !activeObj.isGeneratedItem && !activeObj.isAnswerKeyItem;
+        
+        [elements.textColor, elements.fontSize, elements.fontFamily, elements.textStrokeColor, elements.textStrokeWidth, elements.textInput].forEach(el => el.disabled = !isSingleTextObject);
+
+        if (isSingleTextObject) {
+            elements.textInput.value = activeObj.text || "";
+            elements.textColor.value = activeObj.fill || '#333333';
+            elements.fontSize.value = activeObj.fontSize || 48;
+            elements.fontFamily.value = activeObj.fontFamily || elements.fontFamily.options[0].value;
+            elements.textStrokeColor.value = activeObj.stroke || '#000000';
+            elements.textStrokeWidth.value = activeObj.strokeWidth || 0;
+        } else {
+            [elements.textColor, elements.fontSize, elements.fontFamily, elements.textStrokeColor, elements.textStrokeWidth].forEach(el => el.disabled = true);
+            if(document.activeElement !== elements.textInput) {
+                elements.textInput.value = "";
+            }
+            elements.textInput.disabled = false;
+        }
+    }
+
+    function handleSelectionCleared(e, canvas) {
+        elements.objectContextToolbar.style.display = 'none';
+        closeAllPopovers();
+
+        [elements.textColor, elements.fontSize, elements.fontFamily, elements.textStrokeColor, elements.textStrokeWidth].forEach(el => el.disabled = true);
+        elements.textColor.value = '#333333';
+        elements.fontSize.value = 48;
+        elements.fontFamily.value = elements.fontFamily.options[0].value;
+        elements.textStrokeColor.value = '#000000';
+        elements.textStrokeWidth.value = 0;
+        if(document.activeElement !== elements.textInput) {
+            elements.textInput.value = "";
+        }
+        elements.textInput.disabled = false;
+    }
+
+    function updateActiveTextObjectProperties() {
+        const activeCanvas = getActiveCanvas();
+        if (!activeCanvas) return;
+        const activeObject = activeCanvas.getActiveObject();
+
+        if (activeObject && activeObject.type === 'textbox' && !activeObject.isGeneratedItem && !activeObject.isAnswerKeyItem) {
+            const newProps = {};
+            let propsChanged = false;
+
+            const currentFill = typeof activeObject.fill === 'string' ? activeObject.fill : '';
+            if (elements.textColor.value !== currentFill) {
+                newProps.fill = elements.textColor.value;
+                propsChanged = true;
+            }
+            const newFontSize = parseInt(elements.fontSize.value, 10);
+            if (!isNaN(newFontSize) && newFontSize > 0 && newFontSize !== activeObject.fontSize) {
+                newProps.fontSize = newFontSize;
+                propsChanged = true;
+            }
+            if (elements.fontFamily.value !== activeObject.fontFamily) {
+                newProps.fontFamily = elements.fontFamily.value;
+                propsChanged = true;
+            }
+            const currentStroke = typeof activeObject.stroke === 'string' ? activeObject.stroke : '';
+            if (elements.textStrokeColor.value !== currentStroke) {
+                newProps.stroke = elements.textStrokeColor.value;
+                propsChanged = true;
+            }
+            const newStrokeWidth = parseFloat(elements.textStrokeWidth.value);
+            if (!isNaN(newStrokeWidth) && newStrokeWidth >= 0 && newStrokeWidth !== activeObject.strokeWidth) {
+                newProps.strokeWidth = newStrokeWidth;
+                propsChanged = true;
+            }
+            
+            if (document.activeElement === elements.textInput && elements.textInput.value !== activeObject.text) {
+                newProps.text = elements.textInput.value;
+                propsChanged = true;
+            }
+            
+            if (propsChanged && Object.keys(newProps).length > 0) {
+                activeObject.set(newProps);
+                activeCanvas.renderAll();
+            }
+        }
+    }
+
+    // --- DOWNLOAD & EXPORT LOGIC ---
+    async function applyGrayscaleToDataURL(dataURL) {
+        return new Promise((resolve, reject) => {
+            const img = new Image();
+            img.onload = () => {
+                const c = document.createElement('canvas');
+                c.width = img.width; c.height = img.height;
+                const ctx = c.getContext('2d');
+                ctx.drawImage(img, 0, 0);
+                const imageData = ctx.getImageData(0, 0, c.width, c.height);
+                const data = imageData.data;
+                for (let i = 0; i < data.length; i += 4) {
+                    const gray = 0.2126 * data[i] + 0.7152 * data[i + 1] + 0.0722 * data[i + 2];
+                    data[i] = data[i + 1] = data[i + 2] = gray;
+                }
+                ctx.putImageData(imageData, 0, 0);
+                resolve(c.toDataURL('image/jpeg', 1.0));
+            };
+            img.onerror = (err) => reject(err);
+            img.src = dataURL;
+        });
+    }
+
+    async function getCanvasDataURL(canvasInstance) {
+        // Save current state
+        const currentZoom = canvasInstance.getZoom();
+        const currentWidth = canvasInstance.getWidth();
+        const currentHeight = canvasInstance.getHeight();
+        
+        // Reset to actual size for export
+        canvasInstance.setZoom(1);
+        canvasInstance.setDimensions({
+            width: currentCanvasConfig.width,
+            height: currentCanvasConfig.height
+        });
+        
+        let dataURL = canvasInstance.toDataURL({ format: 'jpeg', quality: 1.0, multiplier: downloadMultiplier });
+        if (elements.grayscaleToggle.checked) {
+            try { dataURL = await applyGrayscaleToDataURL(dataURL); }
+            catch (error) { console.error("Grayscale failed:", error); }
+        }
+        
+        // Restore display state
+        canvasInstance.setZoom(currentZoom);
+        canvasInstance.setDimensions({
+            width: currentWidth,
+            height: currentHeight
+        });
+        
+        return dataURL;
+    }
+
+    async function downloadImageFile(canvasToExport, filename) {
+        if (!canvasToExport) return;
+        showMessage(t('mathpuzzle.msg.preparing.jpeg'), 'info', 2000);
+
+        try {
+            const dataURL = await getCanvasDataURL(canvasToExport);
+            const link = document.createElement('a');
+            link.download = filename;
+            link.href = dataURL;
+            link.click();
+        } catch (error) {
+            showMessage(t('mathpuzzle.msg.jpeg.error').replace('{error}', error.message), 'error');
+        }
+    }
+
+    
+    // Check if user is on free tier
+    function isFreeTier() {
+        const urlParams = new URLSearchParams(window.location.search);
+        return urlParams.get('tier') === 'free';
+    }
+
+    // Add watermark to canvas before export
+    function addWatermarkToCanvas(canvas) {
+        if (!isFreeTier()) return;
+        
+        const watermarkText = new fabric.Text('FREE VERSION - LessonCraftStudio.com', {
+            fontSize: 40,
+            fill: 'rgba(0, 0, 0, 0.2)',
+            angle: -45,
+            left: currentCanvasConfig.width / 2,
+            top: currentCanvasConfig.height / 2,
+            originX: 'center',
+            originY: 'center',
+            selectable: false,
+            evented: false,
+            fontFamily: 'Arial, sans-serif',
+            fontWeight: 'bold'
+        });
+        
+        // Add multiple watermarks across the canvas
+        const watermarks = [];
+        const spacing = 250;
+        for (let x = 0; x < currentCanvasConfig.width; x += spacing) {
+            for (let y = 0; y < currentCanvasConfig.height; y += spacing) {
+                const wm = new fabric.Text('FREE VERSION', {
+                    fontSize: 20,
+                    fill: 'rgba(0, 0, 0, 0.15)',
+                    angle: -45,
+                    left: x,
+                    top: y,
+                    selectable: false,
+                    evented: false,
+                    fontFamily: 'Arial, sans-serif'
+                });
+                watermarks.push(wm);
+                canvas.add(wm);
+            }
+        }
+        
+        // Add main watermark
+        canvas.add(watermarkText);
+        canvas.renderAll();
+        
+        return { mainWatermark: watermarkText, watermarks };
+    }
+
+    // Remove watermark after export
+    function removeWatermarkFromCanvas(canvas, watermarkData) {
+        if (!watermarkData) return;
+        
+        if (watermarkData.mainWatermark) {
+            canvas.remove(watermarkData.mainWatermark);
+        }
+        if (watermarkData.watermarks) {
+            watermarkData.watermarks.forEach(wm => canvas.remove(wm));
+        }
+        canvas.renderAll();
+    }
+
+    // Override the original downloadPDF function
+    const originalDownloadPDF = typeof downloadPDF !== 'undefined' ? downloadPDF : null;
+    if (originalDownloadPDF) {
+        window.downloadPDF = async function(canvasToExport, fileName) {
+            if (!canvasToExport || canvasToExport.getObjects().length === 0) {
+                return showMessage(t('mathpuzzle.msg.generate.content'), 'error');
+            }
+            showMessage(t('mathpuzzle.msg.preparing.pdf'), 'info', 0);
+            
+            // Add watermark if free tier
+            const watermarkData = addWatermarkToCanvas(canvasToExport);
+            
+            try {
+                const { jsPDF } = window.jspdf;
+                const orientation = canvasToExport.width > canvasToExport.height ? 'l' : 'p';
+                const pdf = new jsPDF({ 
+                    orientation, 
+                    unit: 'pt', 
+                    format: [canvasToExport.width, canvasToExport.height] 
+                });
+
+                const exportOptions = { 
+                    multiplier: typeof downloadMultiplier !== 'undefined' ? downloadMultiplier : 6, 
+                    applyGrayscale: typeof grayscaleToggle !== 'undefined' && grayscaleToggle.checked 
+                };
+                
+                const dataURL = await getCanvasDataURLWithOptions(canvasToExport, exportOptions);
+                pdf.addImage(dataURL, 'JPEG', 0, 0, currentCanvasConfig.width, currentCanvasConfig.height);
+
+                pdf.save(fileName);
+                showMessage(t('mathpuzzle.msg.pdf.downloaded'), 'success');
+            } catch(e) {
+                showMessage(t('mathpuzzle.msg.pdf.error'), 'error'); 
+                console.error(e); 
+            } finally {
+                // Remove watermark after export
+                removeWatermarkFromCanvas(canvasToExport, watermarkData);
+            }
+        };
+    }
+
+    // Override the original downloadJPEG function if it exists
+    const originalDownloadJPEG = typeof downloadJPEG !== 'undefined' ? downloadJPEG : null;
+    if (originalDownloadJPEG) {
+        window.downloadJPEG = async function(canvasToExport, fileName) {
+            if (!canvasToExport || canvasToExport.getObjects().length === 0) {
+                return showMessage(t('mathpuzzle.msg.generate.worksheet.first'), 'error');
+            }
+            showMessage(t('mathpuzzle.msg.preparing.jpeg'), 'info', 0);
+            
+            // Add watermark if free tier
+            const watermarkData = addWatermarkToCanvas(canvasToExport);
+            
+            try {
+                const exportOptions = { 
+                    multiplier: typeof downloadMultiplier !== 'undefined' ? downloadMultiplier : 6, 
+                    applyGrayscale: typeof grayscaleToggle !== 'undefined' && grayscaleToggle.checked 
+                };
+                const dataURL = await getCanvasDataURLWithOptions(canvasToExport, exportOptions);
+                
+                const link = document.createElement('a');
+                link.href = dataURL;
+                link.download = fileName;
+                link.click();
+                showMessage(t('mathpuzzle.msg.jpeg.initiated'), 'success');
+            } catch(e) {
+                showMessage(t('mathpuzzle.msg.jpeg.error.simple'), 'error'); 
+                console.error(e); 
+            } finally {
+                // Remove watermark after export
+                removeWatermarkFromCanvas(canvasToExport, watermarkData);
+            }
+        };
+    }
+
+async function downloadPDF(canvasToExport, filename) {
+        if (!canvasToExport) return;
+        showMessage(t('mathpuzzle.msg.preparing.pdf'), 'info', 2000);
+
+        try {
+            const { jsPDF } = window.jspdf;
+            const orientation = currentCanvasConfig.width > currentCanvasConfig.height ? 'l' : 'p';
+            const pdf = new jsPDF({
+                orientation,
+                unit: 'pt',
+                format: [currentCanvasConfig.width, currentCanvasConfig.height]
+            });
+
+            const dataURL = await getCanvasDataURL(canvasToExport);
+            pdf.addImage(dataURL, 'JPEG', 0, 0, currentCanvasConfig.width, currentCanvasConfig.height);
+            pdf.save(filename);
+
+        } catch (error) {
+            showMessage(t('mathpuzzle.msg.pdf.error.detailed').replace('{error}', error.message), "error");
+        }
+    }
+
+    // --- START THE APP ---
+    initializeApp();
+});
+</script>
+</body>
+</html>

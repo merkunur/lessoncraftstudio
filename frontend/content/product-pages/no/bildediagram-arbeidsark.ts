@@ -15,10 +15,36 @@ export const chartCountNoContent: ProductPageContent = {
   seo: {
     slug: 'bildediagram-arbeidsark',
     appId: 'chart-count',
-    title: 'Bildediagram Arbeidsark - Tall og Telling Matematikk Oppgaver - Arbeidsark Gratis for Barnehage og Småskole',
-    description: 'Lag profesjonelle bildediagram arbeidsark for telling og grafisk fremstilling. Full Tilgang-abonnementet ditt gir deg ubegrenset tilgang til å lage matematikk oppgaver uten ekstra kostnad per arbeidsark. Last ned høykvalitets PDF-arbeidsark på under tre minutter.',
+    title: 'Bildediagram Arbeidsark - Gratis Arbeidsark for Barn | Matematikk',
+    description: 'Lag gratis arbeidsark for bildediagram og telling. Ubegrenset tilgang til matematikk oppgaver for barnehage og 1. trinn. Last ned PDF på 3 minutter.',
     keywords: 'bildediagram arbeidsark, tall og telling, matematikk oppgaver, arbeidsark gratis, oppgavehefter barn, finmotorikk øvelser, barnehage, småskoletrinnet, fargeleggingsbilder barn, gangetabellen',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/bildediagram-arbeidsark',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/norwegian/chart-count/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis arbeidsark bildediagram for barnehage - tall og telling matematikk oppgaver'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/norwegian/chart-count/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis arbeidsark for barn - bildediagram med finmotorikk øvelser for 1. trinn'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/norwegian/chart-count/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Arbeidsark for 1. trinn gratis - bildediagram telling og grafisk fremstilling'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/norwegian/chart-count/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis utskrifter bildediagram - arbeidsark for barn med tall og telling'
+      },
+    ],
   },
 
   // Hero Section - FULL text from chart-count.md paragraphs 1-4
@@ -32,7 +58,7 @@ Bildediagram kombinerer telling med grafisk fremstilling for småskoletrinnet. V
 Full Tilgang inkluderer kommersielle rettigheter til alle arbeidsark du lager. Selg bildediagram arbeidsark på Etsy eller Teachers Pay Teachers uten ekstra lisensiering. Alle verktøyene støtter 11 språk inkludert norsk. Tilpass hvert arbeidsark med egne bilder og tekst. Profesjonell 300 DPI-kvalitet sikrer skarp utskrift hjemme eller på skolen.
 
 Verktøyet passer perfekt til barnehage og 1.-3. trinn. Elevene øver både telling og databehandling samtidig. Bildediagram arbeidsark fungerer ypperlig som oppgavehefter barn kan jobbe med selvstendig. Fasiten viser riktig antall fargelagte ruter for hver kolonne. Lærere sparer timer ved å bruke vårt verktøy fremfor å tegne diagram manuelt.`,
-    previewImageSrc: '/samples/english/chart count/chart count.jpeg',
+    previewImageSrc: '/samples/norwegian/chart-count/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Prøv Gratis',
       viewSamples: 'Se Eksempler',
@@ -51,9 +77,9 @@ Verktøyet passer perfekt til barnehage og 1.-3. trinn. Elevene øver både tell
     },
   },
 
-  // Sample Gallery - REAL file paths from samples/english/chart count/
+  // Sample Gallery - REAL file paths from samples/norwegian/chart-count/
   samples: {
-    sectionTitle: 'Bildediagram Arbeidsark Eksempler',
+    sectionTitle: 'Gratis Arbeidsark Eksempler - Bildediagram for Barn og 1. Trinn',
     sectionDescription: 'Last ned gratis eksempler på bildediagram arbeidsark for å se vår profesjonelle kvalitet',
     badgeText: 'Gratis Eksempler',
     downloadLabel: 'Last ned Gratis Eksempel',
@@ -67,17 +93,38 @@ Verktøyet passer perfekt til barnehage og 1.-3. trinn. Elevene øver både tell
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/chart count/chart count.jpeg',
-        answerKeySrc: '/samples/english/chart count/chart count answer_key.jpeg',
-        altText: 'Bildediagram arbeidsark med tall og telling øvelser for småskoletrinnet',
-        pdfDownloadUrl: '/samples/english/chart count/chart count.pdf',
+        worksheetSrc: '/samples/norwegian/chart-count/sample-1.jpeg',
+        answerKeySrc: '/samples/norwegian/chart-count/sample-1-answer.jpeg',
+        altText: 'Gratis arbeidsark bildediagram - tall og telling matematikk oppgaver for barnehage',
+        pdfDownloadUrl: '/samples/norwegian/chart-count/sample-1.pdf',
+      },
+      {
+        id: '2',
+        worksheetSrc: '/samples/norwegian/chart-count/sample-2.jpeg',
+        answerKeySrc: '/samples/norwegian/chart-count/sample-2-answer.jpeg',
+        altText: 'Gratis arbeidsark for barn - bildediagram med finmotorikk øvelser for 1. trinn',
+        pdfDownloadUrl: '/samples/norwegian/chart-count/sample-2.pdf',
+      },
+      {
+        id: '3',
+        worksheetSrc: '/samples/norwegian/chart-count/sample-3.jpeg',
+        answerKeySrc: '/samples/norwegian/chart-count/sample-3-answer.jpeg',
+        altText: 'Arbeidsark for 1. trinn gratis - bildediagram telling og grafisk fremstilling',
+        pdfDownloadUrl: '/samples/norwegian/chart-count/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/norwegian/chart-count/sample-4.jpeg',
+        answerKeySrc: '/samples/norwegian/chart-count/sample-4-answer.jpeg',
+        altText: 'Gratis utskrifter bildediagram - arbeidsark for barn med tall og telling',
+        pdfDownloadUrl: '/samples/norwegian/chart-count/sample-4.pdf',
       },
     ],
   },
 
   // Features Grid - FULL text from chart-count.md feature sections
   features: {
-    sectionTitle: 'Bildediagram Funksjoner - Alt Du Trenger for Matematikk Oppgaver og Arbeidsark Gratis Tall og Telling',
+    sectionTitle: 'Gratis Arbeidsark Funksjoner - Bildediagram for Barn med Tall og Telling Matematikk Oppgaver',
     sectionDescription: 'Vårt bildediagram-verktøy kombinerer syv kraftige funksjoner for å lage profesjonelle matematikk oppgaver. Full Tilgang-abonnementet gir deg alle verktøyene for tall og telling uten begrensninger. Lag arbeidsark gratis med ubegrenset tilgang til bildegenerering og redigering. Hver funksjon er designet for å spare lærere tid samtidig som elevene får kvalitetsarbeidsark. Disse syv funksjonene gjør bildediagram til det mest fleksible verktøyet for telling og grafisk fremstilling.',
     highlightBadgeText: 'Viktig Funksjon',
     readMoreLabel: 'Les mer',
@@ -171,7 +218,7 @@ Fasiten lastes ned separat i samme høye kvalitet. Fargelagte ruter viser riktig
 
   // How-To Guide - FULL text from chart-count.md step sections
   howTo: {
-    sectionTitle: 'Slik Lager Du Tall og Telling Arbeidsark Gratis på Fem Enkle Steg - Matematikk Oppgaver',
+    sectionTitle: 'Gratis Arbeidsark for Barn - Lag Bildediagram Arbeidsark for 1. Trinn på Fem Steg',
     sectionDescription: 'Lag profesjonelle bildediagram arbeidsark på under tre minutter med denne femstegsprosessen. Hvert steg er designet for enkelhet og hastighet. Lærere uten teknisk erfaring lager flotte matematikk oppgaver umiddelbart. Følg disse fem enkle stegene fra start til ferdig arbeidsark gratis for tall og telling øvelser.',
     ctaText: 'Start Nå',
     badgeText: 'Slik Fungerer Det',
@@ -253,7 +300,7 @@ Full Tilgang-abonnementet gir ubegrenset nedlastinger uten ekstra avgifter. Last
 
   // Use Cases - FULL text from chart-count.md use case sections
   useCases: {
-    sectionTitle: 'Perfekt for Lærere, Foreldre og Pedagoger - Arbeidsark Gratis Matematikk Oppgaver for Alle Behov',
+    sectionTitle: 'Gratis Arbeidsark for Barn - Perfekt for Lærere, Foreldre og Pedagoger med Matematikk Oppgaver',
     sectionDescription: 'Bildediagram arbeidsark fungerer utmerket for mange forskjellige undervisningssituasjoner. Barnehagepedagoger bruker dem for tidlig tallfølelse. Lærere på småskoletrinnet bygger grafiske ferdigheter. Foreldre styrker tallforståelse hjemme. Spesialpedagoger tilpasser matematikk oppgaver til individuelle behov. Lærerentreprenører selger bildediagram som passive inntektskilder. Disse seks brukergruppene får maksimal nytte av arbeidsark gratis verktøyet.',
     badgeText: 'Hvem Er Det For',
     readMoreLabel: 'Les mer',
@@ -336,7 +383,7 @@ Lag sesongbaserte produktpakker med bildediagram som kjerne. Høstpakke med bild
 
   // FAQ Section - From chart-count.md
   faq: {
-    sectionTitle: 'Ofte Stilte Spørsmål om Bildediagram Arbeidsark - Arbeidsark Gratis for Oppgavehefter Barn',
+    sectionTitle: 'Ofte Stilte Spørsmål - Gratis Arbeidsark for Barn og Bildediagram for 1. Trinn',
     sectionDescription: 'Lærere stiller ofte spørsmål om bildediagram før de abonnerer. Disse tolv spørsmålene dekker de vanligste bekymringene. Svarene gir klar informasjon om funksjoner, prising og bruksområder. Les disse FAQ-ene for å forstå hva Full Tilgang tilbyr. Informerte beslutninger fører til fornøyde brukere.',
     showMoreText: 'Vis flere spørsmål',
     showLessText: 'Vis færre',
@@ -465,7 +512,7 @@ Lag sesongbaserte produktpakker med bildediagram som kjerne. Høstpakke med bild
 
   // Related Apps - From chart-count.md "Kombiner" section
   relatedApps: {
-    sectionTitle: 'Kombiner Bildediagram Arbeidsark med Andre Arbeidsark Gratis Verktøy - Komplette Oppgavehefter Barn',
+    sectionTitle: 'Gratis Utskrifter - Kombiner Bildediagram med Arbeidsark for 1. Trinn og Barn',
     sectionDescription: 'Bildediagram fungerer ikke i isolasjon. De gir størst læringsverdi når kombinert med komplementære verktøy. Lag tematiske pakker som dekker flere ferdigheter. Én uke kan inkludere bildediagram for telling, fargeleggingsbilder barn for finmotorikk og bokstaver lære skrive for literacy. Integrerte oppgavehefter barn holder elevene engasjert med varierte aktiviteter.',
     ctaTitle: 'Klar til å Lage Fantastiske Arbeidsark?',
     ctaDescription: 'Bli med tusenvis av pedagoger som lager profesjonelle arbeidsark. Ubegrenset oppretting, kommersiell lisens inkludert.',

@@ -4,6 +4,13 @@
  * Supports: Article, Breadcrumb, and LearningResource schemas
  */
 
+/**
+ * Get the base URL from environment variable or use production default
+ */
+function getBaseUrl(): string {
+  return process.env.NEXT_PUBLIC_APP_URL || 'https://www.lessoncraftstudio.com';
+}
+
 interface BlogPostData {
   slug: string;
   title: string;
@@ -20,7 +27,7 @@ interface BlogPostData {
   updatedAt: Date;
 }
 
-export function generateBlogSchemas(post: BlogPostData, locale: string, baseUrl: string = 'https://lessoncraftstudio.com') {
+export function generateBlogSchemas(post: BlogPostData, locale: string, baseUrl: string = getBaseUrl()) {
   const schemas: any[] = [];
 
   const postUrl = `${baseUrl}/${locale}/blog/${post.slug}`;
@@ -208,7 +215,7 @@ export function generateHowToSchema(
  * Generate Homepage Schemas
  * Includes: Organization, WebSite, and SoftwareApplication schemas
  */
-export function generateHomepageSchemas(locale: string, baseUrl: string = 'https://lessoncraftstudio.com') {
+export function generateHomepageSchemas(locale: string, baseUrl: string = getBaseUrl()) {
   const schemas: any[] = [];
 
   // 1. Organization Schema (E-A-T signals)
@@ -280,7 +287,7 @@ export function generateHomepageSchemas(locale: string, baseUrl: string = 'https
 /**
  * Generate Apps Collection Page Schema
  */
-export function generateAppsCollectionSchema(locale: string, baseUrl: string = 'https://lessoncraftstudio.com') {
+export function generateAppsCollectionSchema(locale: string, baseUrl: string = getBaseUrl()) {
   const localizedNames: Record<string, string> = {
     en: "Worksheet Generator Apps",
     de: "Arbeitsblatt-Generator Apps",
@@ -667,7 +674,7 @@ export interface SampleImageData {
 export function generateImageObjectSchema(
   image: SampleImageData,
   pageUrl: string,
-  baseUrl: string = 'https://www.lessoncraftstudio.com'
+  baseUrl: string = getBaseUrl()
 ) {
   // Encode URL properly for spaces
   const encodedSrc = image.src.replace(/ /g, '%20');
@@ -710,7 +717,7 @@ export function generateProductSchema(
   imageUrl: string,
   pdfUrl: string,
   category: string,
-  baseUrl: string = 'https://www.lessoncraftstudio.com'
+  baseUrl: string = getBaseUrl()
 ) {
   const encodedImage = imageUrl.replace(/ /g, '%20');
   const encodedPdf = pdfUrl.replace(/ /g, '%20');
@@ -747,7 +754,7 @@ export function generateAllProductPageSchemas(
   faqs?: Array<{ question: string; answer: string }>,
   howTo?: { title: string; description: string; steps: HowToStepData[] },
   sampleImages?: SampleImageData[],
-  baseUrl: string = 'https://www.lessoncraftstudio.com'
+  baseUrl: string = getBaseUrl()
 ): object[] {
   const schemas: object[] = [];
 
@@ -788,7 +795,7 @@ export function generateAppProductSchemas(
   appData: AppProductData,
   locale: string,
   pageUrl: string,
-  baseUrl: string = 'https://www.lessoncraftstudio.com'
+  baseUrl: string = getBaseUrl()
 ): object[] {
   const schemas: object[] = [];
 
@@ -890,7 +897,10 @@ export function generateAppProductSchemas(
 
   schemas.push(breadcrumbSchema);
 
-  // 3. WebPage Schema (for page context)
+  // 3. WebPage Schema (for page context) - ENHANCED WITH E-A-T SIGNALS
+  // E-A-T (Expertise, Authoritativeness, Trustworthiness) signals are critical
+  // for educational content ranking
+  const currentDate = new Date().toISOString().split('T')[0];
   const webPageSchema = {
     "@context": "https://schema.org",
     "@type": "WebPage",
@@ -898,6 +908,28 @@ export function generateAppProductSchemas(
     "description": appData.description,
     "url": pageUrl,
     "inLanguage": locale,
+    // E-A-T: Publication dates signal content freshness
+    "datePublished": "2024-01-01", // Site launch date
+    "dateModified": currentDate,   // Current date for freshness signal
+    // E-A-T: Author/publisher signals expertise and authority
+    "author": {
+      "@type": "Organization",
+      "name": "LessonCraftStudio",
+      "url": baseUrl,
+      "logo": {
+        "@type": "ImageObject",
+        "url": `${baseUrl}/logo.png`
+      }
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "LessonCraftStudio",
+      "url": baseUrl,
+      "logo": {
+        "@type": "ImageObject",
+        "url": `${baseUrl}/logo.png`
+      }
+    },
     "isPartOf": {
       "@type": "WebSite",
       "name": "LessonCraftStudio",
@@ -906,6 +938,11 @@ export function generateAppProductSchemas(
     "about": {
       "@type": "SoftwareApplication",
       "name": appData.name
+    },
+    // E-A-T: Educational audience signals domain expertise
+    "audience": {
+      "@type": "EducationalAudience",
+      "educationalRole": ["teacher", "parent", "educator"]
     },
     "mainEntity": {
       "@type": "SoftwareApplication",

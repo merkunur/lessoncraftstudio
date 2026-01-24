@@ -12,6 +12,7 @@ interface BreadcrumbProps {
   items: BreadcrumbItem[];
   locale: string;
   homeLabel?: string;
+  baseUrl?: string;
 }
 
 // Localized home labels
@@ -29,8 +30,9 @@ const HOME_LABELS: Record<string, string> = {
   fi: 'Etusivu'
 };
 
-export default function Breadcrumb({ items, locale, homeLabel }: BreadcrumbProps) {
+export default function Breadcrumb({ items, locale, homeLabel, baseUrl }: BreadcrumbProps) {
   const home = homeLabel || HOME_LABELS[locale] || 'Home';
+  const siteUrl = baseUrl || process.env.NEXT_PUBLIC_APP_URL || 'https://www.lessoncraftstudio.com';
 
   // Generate breadcrumb schema
   const breadcrumbSchema = {
@@ -41,13 +43,13 @@ export default function Breadcrumb({ items, locale, homeLabel }: BreadcrumbProps
         "@type": "ListItem",
         "position": 1,
         "name": home,
-        "item": `https://lessoncraftstudio.com/${locale}`
+        "item": `${siteUrl}/${locale}`
       },
       ...items.map((item, index) => ({
         "@type": "ListItem",
         "position": index + 2,
         "name": item.label,
-        ...(item.href ? { "item": `https://lessoncraftstudio.com${item.href}` } : {})
+        ...(item.href ? { "item": `${siteUrl}${item.href}` } : {})
       }))
     ]
   };

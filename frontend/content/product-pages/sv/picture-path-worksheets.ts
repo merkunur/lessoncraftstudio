@@ -18,16 +18,42 @@ export const picturePathSvContent: ProductPageContent = {
   seo: {
     slug: 'bildlabyrint-arbetsblad',
     appId: 'picture-path',
-    title: 'Arbetsblad Gratis Bildlabyrint Generator - Förskoleklass Material och Matematik Arbetsblad för Matte Övningar',
-    description: 'Skapa professionella bildlabyrint arbetsblad med vår bildlabyrint generator. Generatorn inkluderar tre spellägen för varierad inlärning. Perfekt för förskoleklass material, finmotorik övningar och matte övningar. Ladda ner högkvalitativa PDF arbetsblad på under tre minuter.',
+    title: 'Gratis Arbetsblad Bildlabyrint | Generator för Barn och Förskoleklass',
+    description: 'Skapa gratis arbetsblad för barn med vår bildlabyrint generator. Perfekt arbetsblad för förskoleklass och finmotorik övningar. Ladda ner PDF på 3 min.',
     keywords: 'arbetsblad gratis, bildlabyrint, förskoleklass material, matematik arbetsblad, matte övningar, finmotorik övningar, multiplikationstabellen, siffror och tal, klockan lära sig, addition och subtraktion, målarbilder barn, bokstäver lära sig, skriva bokstäver',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/bildlabyrint-arbetsblad',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/picture-path/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Bildlabyrint gratis arbetsblad för förskoleklass - finmotorik övningar visuell problemlösning'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/picture-path/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis arbetsblad bildlabyrint - arbetsblad för barn matte övningar'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/picture-path/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Arbetsblad för förskoleklass bildlabyrint - gratis utskrifter matematik arbetsblad'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/picture-path/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Bildlabyrint arbetsblad för barn - gratis arbetsblad siffror och tal'
+      },
+    ],
   },
 
   // Hero Section - FULL text from picture-path.md paragraphs 1-4
   hero: {
-    title: 'Arbetsblad Gratis Bildlabyrint Generator',
-    subtitle: 'Förskoleklass Material och Matematik Arbetsblad för Matte Övningar',
+    title: 'Gratis Arbetsblad Bildlabyrint Generator',
+    subtitle: 'Arbetsblad för Barn och Förskoleklass - Gratis Utskrifter med Finmotorik Övningar',
     description: `Skapa professionella bildlabyrint arbetsblad med vår bildlabyrint generator. Generatorn inkluderar tre spellägen för varierad inlärning. Bildlabyrint kombinerar visuell problemlösning med finmotorik övningar. Perfekt för att skapa arbetsblad gratis för förskoleklass material och lågstadiet. Ladda ner högkvalitativa PDF arbetsblad på under tre minuter.
 
 Vår bildlabyrint generator gör det enkelt att skapa anpassade labyrintarbetsblad. Välj mellan klassisk labyrint, bildväg eller välj rätt väg spellägen. Varje läge erbjuder unik inlärning för eleverna. Använd över 3000 barnvänliga bilder för att skapa engagerande arbetsblad. Kombinera bildlabyrint med matematik arbetsblad för matte övningar. Perfekt för att öva siffror och tal genom visuell problemlösning.
@@ -35,7 +61,7 @@ Vår bildlabyrint generator gör det enkelt att skapa anpassade labyrintarbetsbl
 Generatorn skapar automatiskt facit för varje labyrint. Ladda ner både arbetsblad och facit som PDF eller JPEG. Varje arbetsblad kan anpassas helt på canvas. Dra, rotera och ändra storlek på alla element. Lägg till målarbilder barn kan färglägga efter att ha löst labyrinten. Bildlabyrinten fungerar utmärkt för finmotorik övningar när elever ritar vägen.
 
 Bildlabyrint generatorn stöder svenska och tio andra språk. Bildnamn visas på svenska när du väljer svenska som innehållsspråk. Detta gör det perfekt för svenska klassrum. Skapa arbetsblad för bokstäver lära sig genom bildvägar med alfabetsbilder. Använd labyrint för att öva multiplikationstabellen med sifferbilder. Kombinera med övningar för att skriva bokstäver och klockan lära sig.`,
-    previewImageSrc: '/samples/english/picture path/picture path.jpeg',
+    previewImageSrc: '/samples/swedish/picture-path/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Prova Gratis',
       viewSamples: 'Visa Exempel',
@@ -54,9 +80,9 @@ Bildlabyrint generatorn stöder svenska och tio andra språk. Bildnamn visas på
     },
   },
 
-  // Sample Gallery - REAL file paths from samples/english/picture path/
+  // Sample Gallery - REAL file paths from samples/swedish/picture-path/
   samples: {
-    sectionTitle: 'Bildlabyrint Arbetsblad Exempel',
+    sectionTitle: 'Gratis Arbetsblad Bildlabyrint - Exempel för Barn och Förskoleklass',
     sectionDescription: 'Ladda ner gratis exempelarbetsblad för att se vår professionella kvalitet',
     downloadLabel: 'Ladda Ner Gratis Exempel',
     worksheetLabel: 'Arbetsblad',
@@ -70,18 +96,39 @@ Bildlabyrint generatorn stöder svenska och tio andra språk. Bildnamn visas på
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/picture path/picture path.jpeg',
-        answerKeySrc: '/samples/english/picture path/picture path answer_key.jpeg',
-        altText: 'Bildlabyrint arbetsblad för förskoleklass finmotorik övningar',
-        pdfDownloadUrl: '/samples/english/picture path/picture path.pdf',
+        worksheetSrc: '/samples/swedish/picture-path/sample-1.jpeg',
+        answerKeySrc: '/samples/swedish/picture-path/sample-1-answer.jpeg',
+        altText: 'Bildlabyrint gratis arbetsblad för förskoleklass - finmotorik övningar visuell problemlösning',
+        pdfDownloadUrl: '/samples/swedish/picture-path/sample-1.pdf',
+      },
+      {
+        id: '2',
+        worksheetSrc: '/samples/swedish/picture-path/sample-2.jpeg',
+        answerKeySrc: '/samples/swedish/picture-path/sample-2-answer.jpeg',
+        altText: 'Gratis arbetsblad bildlabyrint - arbetsblad för barn matte övningar',
+        pdfDownloadUrl: '/samples/swedish/picture-path/sample-2.pdf',
+      },
+      {
+        id: '3',
+        worksheetSrc: '/samples/swedish/picture-path/sample-3.jpeg',
+        answerKeySrc: '/samples/swedish/picture-path/sample-3-answer.jpeg',
+        altText: 'Arbetsblad för förskoleklass bildlabyrint - gratis utskrifter matematik arbetsblad',
+        pdfDownloadUrl: '/samples/swedish/picture-path/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/swedish/picture-path/sample-4.jpeg',
+        answerKeySrc: '/samples/swedish/picture-path/sample-4-answer.jpeg',
+        altText: 'Bildlabyrint arbetsblad för barn - gratis arbetsblad siffror och tal',
+        pdfDownloadUrl: '/samples/swedish/picture-path/sample-4.pdf',
       },
     ],
   },
 
   // Features Grid - FULL descriptions from picture-path.md H3 sections
   features: {
-    sectionTitle: 'Bildlabyrint Funktioner - Arbetsblad Gratis för Förskoleklass Material och Matematik Arbetsblad Matte Övningar',
-    sectionDescription: 'Vår bildlabyrint generator innehåller alla funktioner du behöver för professionella arbetsblad. Skapa arbetsblad gratis som vattenstämplade filer eller prenumerera för kommersiell användning. Generatorn är perfekt för att skapa förskoleklass material och matematik arbetsblad. Använd den för matte övningar och finmotorik övningar. Varje funktion är designad för att göra arbetsbladet professionellt och engagerande för eleverna.',
+    sectionTitle: 'Gratis Arbetsblad Bildlabyrint Funktioner - Arbetsblad för Barn och Förskoleklass Material',
+    sectionDescription: 'Vår bildlabyrint generator innehåller alla funktioner du behöver för professionella arbetsblad. Skapa arbetsblad gratis som vattenstämplade filer eller prenumerera för kommersiell användning. Generatorn är perfekt för att skapa förskoleklass material och matematik arbetsblad med gratis utskrifter. Använd den för matte övningar och finmotorik övningar. Varje funktion är designad för att göra arbetsbladet professionellt och engagerande för eleverna.',
     highlightBadgeText: 'Nyckelfunktion',
     badgeText: 'Funktioner',
     readMoreLabel: 'Läs mer',
@@ -146,7 +193,7 @@ Bildlabyrint generatorn stöder svenska och tio andra språk. Bildnamn visas på
 
   // How-To Guide - FULL text from picture-path.md Step sections
   howTo: {
-    sectionTitle: 'Hur Man Skapar Arbetsblad Gratis i 5 Enkla Steg - Multiplikationstabellen och Addition och Subtraktion Arbetsblad',
+    sectionTitle: 'Hur Man Skapar Gratis Arbetsblad i 5 Steg - Arbetsblad för Barn med Gratis Utskrifter',
     sectionDescription: 'Skapa professionella bildlabyrint arbetsblad på under tre minuter totalt. Följ dessa fem enkla steg för att skapa arbetsblad gratis. Varje steg är designat för enkelhet och effektivitet. Inga designkunskaper behövs för att skapa förskoleklass material. Generatorn guidar dig genom hela processen automatiskt.',
     ctaText: 'Börja Skapa Nu',
     badgeText: 'Så Fungerar Det',
@@ -196,7 +243,7 @@ Bildlabyrint generatorn stöder svenska och tio andra språk. Bildnamn visas på
 
   // Use Cases - FULL descriptions from picture-path.md persona sections
   useCases: {
-    sectionTitle: 'Perfekt för Lärare och Föräldrar - Arbetsblad Gratis för Förskoleklass Material och Målarbilder Barn',
+    sectionTitle: 'Perfekt för Lärare och Föräldrar - Gratis Arbetsblad för Förskoleklass och Arbetsblad för Barn',
     sectionDescription: 'Bildlabyrint generatorn är perfekt för olika användargrupper. Lärare i förskoleklass och lågstadiet använder den dagligen. Föräldrar som hemundervisar uppskattar flexibiliteten. Speciallärare skapar anpassade arbetsblad för individuella behov. Lärare entreprenörer säljer bildlabyrint på Teachers Pay Teachers. Varje användargrupp drar nytta av generatorns funktioner.',
     badgeText: 'Användningsområden',
     readMoreLabel: 'Läs mer',
@@ -255,7 +302,7 @@ Bildlabyrint generatorn stöder svenska och tio andra språk. Bildnamn visas på
 
   // FAQ Section - ALL questions from picture-path.md
   faq: {
-    sectionTitle: 'Vanliga Frågor - Multiplikationstabellen, Siffror och Tal och Målarbilder Barn Bildlabyrint',
+    sectionTitle: 'Vanliga Frågor om Gratis Arbetsblad Bildlabyrint - Arbetsblad för Förskoleklass',
     sectionDescription: 'Lärare och föräldrar har vanligtvis liknande frågor om bildlabyrint generatorn. Dessa vanliga frågor täcker de mest efterfrågade ämnena. Lär dig hur du skapar multiplikationstabellen arbetsblad effektivt. Förstå hur siffror och tal arbetsblad fungerar. Upptäck hur målarbilder barn kan integreras i labyrinterna.',
     showMoreText: 'Visa fler frågor',
     showLessText: 'Visa färre',
@@ -360,7 +407,7 @@ Bildlabyrint generatorn stöder svenska och tio andra språk. Bildnamn visas på
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Kombinera Bildlabyrint med Andra Arbetsblad Gratis - Komplett Förskoleklass Material och Matte Övningar Paket',
+    sectionTitle: 'Kombinera med Andra Gratis Arbetsblad - Komplett Arbetsblad för Barn och Förskoleklass Paket',
     sectionDescription: 'Bildlabyrint är bara en av 33 arbetsblad generatorer i Full Tillgång prenumeration. Kombinera bildlabyrint med andra verktyg för kompletta lärpaket. Skapa tematiska samlingar som täcker flera inlärningsområden samtidigt. Lärare bygger kompletta förskoleklass material paket med kombinerade verktyg.',
     ctaTitle: 'Redo att Skapa Fantastiska Arbetsblad?',
     ctaDescription: 'Gå med tusentals pedagoger som skapar professionella arbetsblad. Obegränsat skapande, kommersiell licens inkluderad.',

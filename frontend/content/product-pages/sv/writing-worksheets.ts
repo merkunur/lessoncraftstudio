@@ -15,16 +15,36 @@ export const writingSvContent: ProductPageContent = {
   seo: {
     slug: 'skrivovningar-arbetsblad',
     appId: 'writing',
-    title: 'Skriva Bokstäver Arbetsblad - Bokstäver Lära Sig Förskoleklass Material - Finmotorik Övningar Gratis',
+    title: 'Gratis Skrivarbetsblad för Barn - Bokstäver Lära Sig Generator för Förskoleklass',
     description: 'Skapa professionella arbetsblad för skrivövning med vår handstilsgenerator. Full Tillgång-prenumeration ger dig obegränsad åtkomst till alla 33 verktyg för $240 per år. Generera anpassade arbetsblad för att skriva bokstäver perfekta för förskoleklass, årskurs 1 och årskurs 2.',
     keywords: 'skriva bokstäver, arbetsblad gratis, förskoleklass material, finmotorik övningar, bokstäver lära sig, handstilsövningar, skrivarbetsblad, spårningsövningar, matematik arbetsblad, målarbilder barn',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/skrivovningar-arbetsblad',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/writing/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis skrivarbetsblad för barn - bokstavsspårning för förskoleklass'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/writing/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis arbetsblad för bokstäver lära sig - handstilsövningar för barn'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/writing/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis finmotorik övningar arbetsblad - skrivträning för förskoleklass'
+      }
+    ],
   },
 
   // Hero Section - FULL text from writing.md paragraphs 1-4
   hero: {
-    title: 'Skriva Bokstäver',
-    subtitle: 'Bokstäver Lära Sig Förskoleklass Material',
+    title: 'Gratis Skrivarbetsblad för Barn - Skriva Bokstäver',
+    subtitle: 'Gratis Arbetsblad för Förskoleklass - Bokstäver Lära Sig',
     description: `Skapa professionella arbetsblad för skrivövning med vår handstilsgenerator. Full Tillgång-prenumeration ger dig obegränsad åtkomst till alla 33 verktyg för $240 per år eller $25 per månad. Generera anpassade arbetsblad för att skriva bokstäver perfekta för förskoleklass, årskurs 1 och årskurs 2. Ladda ner högkvalitativa PDF-arbetsblad på under 3 minuter.
 
 Vår generator för skrivarbetsblad kombinerar handstilsövning med bokstavsträning. Perfekt för att lära sig bokstäver i förskoleklass. Skapa spårningsövningar i både textstil och skrivstil. Varje arbetsblad kan anpassas helt med egna bilder, teman och text. Idealiskt för förskoleklass material och finmotorik övningar.
@@ -32,7 +52,7 @@ Vår generator för skrivarbetsblad kombinerar handstilsövning med bokstavsträ
 Skrivövning är grundläggande för tidiga läsare. Arbetsblad gratis att skapa när du har en prenumeration. Inga avgifter per arbetsblad. Generera obegränsat med arbetsblad för bokstäver lära sig. Kombinera handstilsövningar med teman från vårt bildbibliotek med över 3000 barnvänliga bilder. Exportera som högupplösta PDF-filer eller JPEG-bilder för perfekt utskrift.
 
 Full Tillgång-prenumeration inkluderar kommersiell licens. Sälj dina skrivarbetsblad på Etsy, Teachers Pay Teachers eller Amazon KDP. Professionell 300 DPI-kvalitet garanterar skarp utskrift. Gråskalealternativ sparar bläck vid utskrift i klassrummet. Stöd för 11 språk gör detta verktyg perfekt för svenska lärare och internationella skolor.`,
-    previewImageSrc: '/samples/english/writing/writing.jpeg',
+    previewImageSrc: '/samples/swedish/writing/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Prova Gratis',
       viewSamples: 'Visa Exempel',
@@ -51,9 +71,9 @@ Full Tillgång-prenumeration inkluderar kommersiell licens. Sälj dina skrivarbe
     },
   },
 
-  // Sample Gallery - REAL file paths from samples/english/writing/
+  // Sample Gallery - REAL file paths from samples/swedish/writing/
   samples: {
-    sectionTitle: 'Skrivarbetsblad Exempel',
+    sectionTitle: 'Gratis Skrivarbetsblad Exempel - Arbetsblad för Barn att Ladda Ner',
     sectionDescription: 'Ladda ner gratis exempelarbetsblad för att se vår professionella kvalitet',
     downloadLabel: 'Ladda Ner Gratis Exempel',
     worksheetLabel: 'Arbetsblad',
@@ -67,24 +87,24 @@ Full Tillgång-prenumeration inkluderar kommersiell licens. Sälj dina skrivarbe
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/writing/writing.jpeg',
-        answerKeySrc: '/samples/english/writing/writing.jpeg',
-        altText: 'Bokstavsspårning arbetsblad med guidelinjer för förskoleklass handstilsövning',
-        pdfDownloadUrl: '/samples/english/writing/writing.pdf',
+        worksheetSrc: '/samples/swedish/writing/sample-1.jpeg',
+        answerKeySrc: '/samples/swedish/writing/sample-1.jpeg',
+        altText: 'Gratis skrivarbetsblad för barn - bokstavsspårning med guidelinjer för förskoleklass',
+        pdfDownloadUrl: '/samples/swedish/writing/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/writing/writing custom.jpeg',
-        answerKeySrc: '/samples/english/writing/writing custom.jpeg',
-        altText: 'Anpassad text spårningsarbetsblad för personlig handstilsövning',
-        pdfDownloadUrl: '/samples/english/writing/writing custom.pdf',
+        worksheetSrc: '/samples/swedish/writing/sample-2.jpeg',
+        answerKeySrc: '/samples/swedish/writing/sample-2.jpeg',
+        altText: 'Gratis arbetsblad för bokstäver lära sig - handstilsövningar för förskoleklass',
+        pdfDownloadUrl: '/samples/swedish/writing/sample-2.pdf',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/writing/writing beginning letter.jpeg',
-        answerKeySrc: '/samples/english/writing/writing beginning letter.jpeg',
-        altText: 'Begynnelsebokstav spårningsarbetsblad med bildprompt för alfabetinlärning',
-        pdfDownloadUrl: '/samples/english/writing/writing beginning letter.pdf',
+        worksheetSrc: '/samples/swedish/writing/sample-3.jpeg',
+        answerKeySrc: '/samples/swedish/writing/sample-3.jpeg',
+        altText: 'Gratis finmotorik övningar arbetsblad - skrivträning arbetsblad för barn',
+        pdfDownloadUrl: '/samples/swedish/writing/sample-3.pdf',
       },
     ],
   },
@@ -384,7 +404,7 @@ Lyckosamma lärarföretagare tjänar $500-5000 per månad. Kombinera skrivarbets
 
   // FAQ Section - Selected FAQs from writing.md
   faq: {
-    sectionTitle: 'Vanliga Frågor om Skrivarbetsblad och Bokstäver Lära Sig',
+    sectionTitle: 'Vanliga Frågor om Gratis Skrivarbetsblad för Barn - Arbetsblad för Förskoleklass',
     sectionDescription: 'Lärare och föräldrar ställer ofta liknande frågor om vår generator för skrivarbetsblad. Följande 12 frågor och svar täcker allt från prenumerationskostnader till tekniska funktioner. Varje svar ger tydlig, praktisk information. Läs igenom dessa innan du prenumererar för att förstå exakt vad du får. Arbetsblad gratis att skapa när du väl har tillgång till Full Tillgång-prenumeration.',
     showMoreText: 'Visa fler frågor',
     showLessText: 'Visa färre',

@@ -11,6 +11,7 @@ import {
   saveFile,
   initializeStorage,
 } from '@/lib/upload';
+import { SUPPORTED_LOCALES } from '@/config/locales';
 
 // Initialize storage
 initializeStorage();
@@ -113,7 +114,7 @@ export async function POST(
     });
 
     // Revalidate blog post pages for all languages to show new PDF immediately
-    const locales = ['en', 'de', 'fr', 'es', 'pt', 'it', 'nl', 'sv', 'da', 'no', 'fi'];
+    const locales = [...SUPPORTED_LOCALES];
     for (const locale of locales) {
       revalidatePath(`/${locale}/blog/${params.slug}`);
     }

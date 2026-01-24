@@ -3,6 +3,7 @@ import { revalidatePath } from 'next/cache';
 import { prisma } from '@/lib/prisma';
 import { requireAdmin } from '@/lib/admin-auth';
 import { normalizeSlug } from '@/lib/slug-utils';
+import { SUPPORTED_LOCALES } from '@/config/locales';
 
 export const dynamic = 'force-dynamic';
 
@@ -115,7 +116,7 @@ export async function PUT(
     });
 
     // Revalidate blog post pages for all languages using language-specific slugs
-    const locales = ['en', 'de', 'fr', 'es', 'pt', 'it', 'nl', 'sv', 'da', 'no', 'fi'];
+    const locales = [...SUPPORTED_LOCALES];
     const postTranslations = post.translations as Record<string, { slug?: string }>;
 
     for (const locale of locales) {

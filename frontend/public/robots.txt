@@ -35,5 +35,7 @@ Allow: /
 Crawl-delay: 2
 
 # Sitemaps
+Sitemap: https://www.lessoncraftstudio.com/sitemap_index.xml
 Sitemap: https://www.lessoncraftstudio.com/sitemap.xml
 Sitemap: https://www.lessoncraftstudio.com/sitemap-images.xml
+Sitemap: https://www.lessoncraftstudio.com/sitemap-news.xml

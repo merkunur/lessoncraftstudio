@@ -9,6 +9,7 @@ import {
   generateUniqueFilename,
   saveFile,
 } from '@/lib/upload';
+import { SUPPORTED_LOCALES } from '@/config/locales';
 import fs from 'fs';
 import path from 'path';
 
@@ -147,7 +148,7 @@ export async function PUT(
     });
 
     // Revalidate blog post pages for all languages to show updated PDF immediately
-    const locales = ['en', 'de', 'fr', 'es', 'pt', 'it', 'nl', 'sv', 'da', 'no', 'fi'];
+    const locales = [...SUPPORTED_LOCALES];
     for (const locale of locales) {
       revalidatePath(`/${locale}/blog/${params.slug}`);
     }
@@ -225,7 +226,7 @@ export async function DELETE(
     });
 
     // Revalidate blog post pages for all languages to remove deleted PDF immediately
-    const locales = ['en', 'de', 'fr', 'es', 'pt', 'it', 'nl', 'sv', 'da', 'no', 'fi'];
+    const locales = [...SUPPORTED_LOCALES];
     for (const locale of locales) {
       revalidatePath(`/${locale}/blog/${params.slug}`);
     }

@@ -1,0 +1,257 @@
+KEYWORD TRACKING - More Less (Mehr Weniger) App - GERMAN
+
+TARGET: Each keyword must appear MINIMUM 10 times in H2/H3 titles ONLY
+(Body text does NOT count toward this minimum)
+
+SOURCE: keywords.txt (German - Lines 50-75)
+
+PRICING VERIFIED: Full Access ($240/year or $25/month)
+
+Current Status:
+[ ] 1. Arbeitsblätter Grundschule: 0/10
+[ ] 2. Mathe Arbeitsblätter: 0/10
+[ ] 3. Vorschule Arbeitsblätter: 0/10
+[ ] 4. Einmaleins: 0/10
+[ ] 5. Schwungübungen: 0/10
+[ ] 6. Buchstaben lernen: 0/10
+[ ] 7. Ausmalbilder / Malvorlagen: 0/10
+[ ] 8. Kostenlose Arbeitsblätter: 0/10
+[ ] 9. Rechnen lernen / Rechnen 1. Klasse: 0/10
+[ ] 10. Deutsch Arbeitsblätter: 0/10
+
+---
+
+SECTION-BY-SECTION TRACKING:
+
+After Section 1 (Hero):
+NOTE: Section 1 contains only H1 + body paragraphs (no H2/H3 subsections)
+H2/H3 Title Counts: 0 (as expected - Section 1 has no H2/H3)
+
+Keywords in H1 (for reference, not counted):
+- Kostenlose Arbeitsblätter: 1 (in H1)
+- Arbeitsblätter Grundschule: 1 (in H1)
+- Mathe Arbeitsblätter: 1 (in H1)
+
+H2/H3 Running Totals after Section 1:
+- Arbeitsblätter Grundschule: 0/10
+- Mathe Arbeitsblätter: 0/10
+- Vorschule Arbeitsblätter: 0/10
+- Einmaleins: 0/10
+- Schwungübungen: 0/10
+- Buchstaben lernen: 0/10
+- Ausmalbilder / Malvorlagen: 0/10
+- Kostenlose Arbeitsblätter: 0/10
+- Rechnen lernen / Rechnen 1. Klasse: 0/10
+- Deutsch Arbeitsblätter: 0/10
+
+Running Total: 0 H2/H3 titles
+Target: Need 40-70+ H3 titles across all sections to hit 10x per keyword
+
+---
+
+After Section 2 (Features):
+H2/H3 Titles in Section 2: 1 H2 + 7 H3 = 8 titles
+
+Keyword counts in Section 2 H2/H3 titles:
+- H2: Mathe Arbeitsblätter (1), Arbeitsblätter Grundschule (1), Kostenlose Arbeitsblätter (1), Rechnen lernen (1)
+- H3-1: Mathe Arbeitsblätter (1), Arbeitsblätter Grundschule (1), Kostenlose Arbeitsblätter (1)
+- H3-2: Mathe Arbeitsblätter (1), Kostenlose Arbeitsblätter (1)
+- H3-3: Mathe Arbeitsblätter (1), Vorschule Arbeitsblätter (1), Kostenlose Arbeitsblätter (1)
+- H3-4: Mathe Arbeitsblätter (1), Arbeitsblätter Grundschule (1), Rechnen lernen (1)
+- H3-5: Mathe Arbeitsblätter (1), Arbeitsblätter Grundschule (1), Kostenlose Arbeitsblätter (1)
+- H3-6: Mathe Arbeitsblätter (1), Vorschule Arbeitsblätter (1), Rechnen lernen (1)
+- H3-7: Mathe Arbeitsblätter (1), Arbeitsblätter Grundschule (1), Rechnen lernen (1)
+
+RUNNING TOTALS after Section 2:
+- Arbeitsblätter Grundschule: 5/10 ⚠️ (need 5 more)
+- Mathe Arbeitsblätter: 8/10 ⚠️ (need 2 more)
+- Vorschule Arbeitsblätter: 2/10 ❌ (need 8 more)
+- Einmaleins: 0/10 ❌ (need 10)
+- Schwungübungen: 0/10 ❌ (need 10)
+- Buchstaben lernen: 0/10 ❌ (need 10)
+- Ausmalbilder / Malvorlagen: 0/10 ❌ (need 10)
+- Kostenlose Arbeitsblätter: 5/10 ⚠️ (need 5 more)
+- Rechnen lernen: 4/10 ⚠️ (need 6 more)
+- Deutsch Arbeitsblätter: 0/10 ❌ (need 10)
+
+Running Total: 8 H2/H3 titles (8 from S2)
+Keywords on track: 0 out of 10
+Keywords at risk: 4 (Arbeitsblätter Grundschule, Mathe, Kostenlose, Rechnen lernen)
+Keywords needing urgent attention: 6
+
+---
+
+After Section 3 (How-To):
+H2/H3 Titles in Section 3: 1 H2 + 5 H3 = 6 titles
+
+Keyword counts in Section 3 H2/H3 titles:
+- H2: Arbeitsblätter Grundschule (1), Mathe Arbeitsblätter (1), Kostenlose Arbeitsblätter (1), Rechnen 1. Klasse (1)
+- H3-1: Mathe Arbeitsblätter (1), Arbeitsblätter Grundschule (1), Vorschule Arbeitsblätter (1)
+- H3-2: Kostenlose Arbeitsblätter (1), Mathe Arbeitsblätter (1), Rechnen lernen (1), Rechnen 1. Klasse (1)
+- H3-3: Arbeitsblätter Grundschule (1), Mathe Arbeitsblätter (1), Vorschule Arbeitsblätter (1)
+- H3-4: Mathe Arbeitsblätter (1), Kostenlose Arbeitsblätter (1), Arbeitsblätter Grundschule (1)
+- H3-5: Kostenlose Arbeitsblätter (1), Mathe Arbeitsblätter (1), Arbeitsblätter Grundschule (1), Rechnen 1. Klasse (1)
+
+RUNNING TOTALS after Section 3:
+- Arbeitsblätter Grundschule: 11/10 ✅ COMPLETE! (5 + 6)
+- Mathe Arbeitsblätter: 14/10 ✅ COMPLETE! (8 + 6)
+- Vorschule Arbeitsblätter: 4/10 ⚠️ (2 + 2, need 6 more)
+- Einmaleins: 0/10 ❌ (need 10)
+- Schwungübungen: 0/10 ❌ (need 10)
+- Buchstaben lernen: 0/10 ❌ (need 10)
+- Ausmalbilder / Malvorlagen: 0/10 ❌ (need 10)
+- Kostenlose Arbeitsblätter: 9/10 ⚠️ (5 + 4, need 1 more)
+- Rechnen lernen / Rechnen 1. Klasse: 8/10 ⚠️ (4 + 4, need 2 more)
+- Deutsch Arbeitsblätter: 0/10 ❌ (need 10)
+
+Running Total: 14 H2/H3 titles (8 from S2 + 6 from S3)
+Keywords COMPLETED: 2 out of 10 ✅ (Arbeitsblätter Grundschule, Mathe Arbeitsblätter)
+Keywords almost complete: 2 (Kostenlose Arbeitsblätter, Rechnen lernen)
+Keywords needing urgent attention in Section 7: 6
+
+---
+
+After Section 4 (Use Cases):
+H2/H3 Titles in Section 4: 1 H2 + 6 H3 = 7 titles
+
+Keyword counts in Section 4 H2/H3 titles:
+- H2: Vorschule Arbeitsblätter (1), Arbeitsblätter Grundschule (1), Buchstaben lernen (1), Ausmalbilder (1)
+- H3-1: Vorschule Arbeitsblätter (1), Mathe Arbeitsblätter (1), Schwungübungen (1), Buchstaben lernen (1)
+- H3-2: Mathe Arbeitsblätter (1), Rechnen lernen (1), Einmaleins (1), Kostenlose Arbeitsblätter (1)
+- H3-3: Kostenlose Arbeitsblätter (1), Vorschule Arbeitsblätter (1), Mathe Arbeitsblätter (1)
+- H3-4: Deutsch Arbeitsblätter (1), Mathe Arbeitsblätter (1), Buchstaben lernen (1)
+- H3-5: Mathe Arbeitsblätter (1), Ausmalbilder (1), Schwungübungen (1)
+- H3-6: Arbeitsblätter Grundschule (1), Kostenlose Arbeitsblätter (1), Rechnen 1. Klasse (1)
+
+RUNNING TOTALS after Section 4:
+- Arbeitsblätter Grundschule: 13/10 ✅ COMPLETE! (11 + 2)
+- Mathe Arbeitsblätter: 19/10 ✅ COMPLETE! (14 + 5)
+- Vorschule Arbeitsblätter: 7/10 ⚠️ (4 + 3, need 3 more)
+- Einmaleins: 1/10 ❌ (0 + 1, need 9 more)
+- Schwungübungen: 2/10 ❌ (0 + 2, need 8 more)
+- Buchstaben lernen: 3/10 ❌ (0 + 3, need 7 more)
+- Ausmalbilder / Malvorlagen: 2/10 ❌ (0 + 2, need 8 more)
+- Kostenlose Arbeitsblätter: 12/10 ✅ COMPLETE! (9 + 3)
+- Rechnen lernen / Rechnen 1. Klasse: 10/10 ✅ COMPLETE! (8 + 2)
+- Deutsch Arbeitsblätter: 1/10 ❌ (0 + 1, need 9 more)
+
+Running Total: 21 H2/H3 titles (8 + 6 + 7)
+Keywords COMPLETED: 4 out of 10 ✅ (Arbeitsblätter Grundschule, Mathe, Kostenlose, Rechnen lernen)
+Keywords at risk: 1 (Vorschule Arbeitsblätter)
+Keywords needing urgent attention in Sections 5-7: 5 (Einmaleins, Schwungübungen, Buchstaben lernen, Ausmalbilder, Deutsch Arbeitsblätter)
+
+---
+
+After Section 5 (Subscription Reasons):
+H2/H3 Titles in Section 5: 1 H2 + 3 H3 = 4 titles
+
+Keyword counts in Section 5 H2/H3 titles:
+- H2: Einmaleins (1), Schwungübungen (1), Buchstaben lernen (1), Deutsch Arbeitsblätter (1)
+- H3-1: Deutsch Arbeitsblätter (1), Vorschule Arbeitsblätter (1), Buchstaben lernen (1)
+- H3-2: Einmaleins (1), Ausmalbilder (1), Schwungübungen (1)
+- H3-3: Vorschule Arbeitsblätter (1), Einmaleins (1), Ausmalbilder (1)
+
+RUNNING TOTALS after Section 5:
+- Arbeitsblätter Grundschule: 13/10 ✅ COMPLETE!
+- Mathe Arbeitsblätter: 19/10 ✅ COMPLETE!
+- Vorschule Arbeitsblätter: 9/10 ⚠️ (7 + 2, need 1 more)
+- Einmaleins: 4/10 ⚠️ (1 + 3, need 6 more)
+- Schwungübungen: 4/10 ⚠️ (2 + 2, need 6 more)
+- Buchstaben lernen: 5/10 ⚠️ (3 + 2, need 5 more)
+- Ausmalbilder / Malvorlagen: 4/10 ⚠️ (2 + 2, need 6 more)
+- Kostenlose Arbeitsblätter: 12/10 ✅ COMPLETE!
+- Rechnen lernen / Rechnen 1. Klasse: 10/10 ✅ COMPLETE!
+- Deutsch Arbeitsblätter: 3/10 ❌ (1 + 2, need 7 more)
+
+Running Total: 25 H2/H3 titles (8 + 6 + 7 + 4)
+Keywords COMPLETED: 4 out of 10 ✅
+Keywords almost complete: 1 (Vorschule Arbeitsblätter - need 1 more)
+Keywords needing attention in Sections 6-7: 5 (Einmaleins, Schwungübungen, Buchstaben lernen, Ausmalbilder, Deutsch Arbeitsblätter)
+
+---
+
+After Section 6 (FAQ):
+H2/H3 Titles in Section 6: 1 H2 + 12 H3 = 13 titles
+
+Keyword counts in Section 6 H2/H3 titles:
+- H2: Einmaleins (1), Vorschule Arbeitsblätter (1), Schwungübungen (1), Deutsch Arbeitsblätter (1)
+- H3-1: Einmaleins (1), Schwungübungen (1)
+- H3-2: Buchstaben lernen (1), Einmaleins (1)
+- H3-3: Vorschule Arbeitsblätter (1), Deutsch Arbeitsblätter (1)
+- H3-4: Schwungübungen (1), Ausmalbilder (1)
+- H3-5: Deutsch Arbeitsblätter (1), Buchstaben lernen (1)
+- H3-6: Einmaleins (1), Ausmalbilder (1)
+- H3-7: Vorschule Arbeitsblätter (1), Schwungübungen (1)
+- H3-8: Buchstaben lernen (1), Deutsch Arbeitsblätter (1)
+- H3-9: Einmaleins (1), Ausmalbilder (1)
+- H3-10: Schwungübungen (1), Vorschule Arbeitsblätter (1)
+- H3-11: Ausmalbilder (1), Buchstaben lernen (1)
+- H3-12: Einmaleins (1), Deutsch Arbeitsblätter (1)
+
+RUNNING TOTALS after Section 6:
+- Arbeitsblätter Grundschule: 13/10 ✅ COMPLETE!
+- Mathe Arbeitsblätter: 19/10 ✅ COMPLETE!
+- Vorschule Arbeitsblätter: 13/10 ✅ COMPLETE! (9 + 4)
+- Einmaleins: 10/10 ✅ COMPLETE! (4 + 6)
+- Schwungübungen: 9/10 ⚠️ (4 + 5, need 1 more)
+- Buchstaben lernen: 9/10 ⚠️ (5 + 4, need 1 more)
+- Ausmalbilder / Malvorlagen: 9/10 ⚠️ (4 + 5, need 1 more)
+- Kostenlose Arbeitsblätter: 12/10 ✅ COMPLETE!
+- Rechnen lernen / Rechnen 1. Klasse: 10/10 ✅ COMPLETE!
+- Deutsch Arbeitsblätter: 9/10 ⚠️ (3 + 6, need 1 more)
+
+Running Total: 38 H2/H3 titles (8 + 6 + 7 + 4 + 13)
+Keywords COMPLETED: 6 out of 10 ✅
+Keywords needing 1 more in Section 7: 4 (Schwungübungen, Buchstaben lernen, Ausmalbilder, Deutsch Arbeitsblätter)
+
+---
+
+After Section 7 (Combine Apps):
+H2/H3 Titles in Section 7: 1 H2 + 5 H3 = 6 titles
+
+Keyword counts in Section 7 H2/H3 titles:
+- H2: Schwungübungen (1), Buchstaben lernen (1), Ausmalbilder (1), Deutsch Arbeitsblätter (1)
+- H3-1: Schwungübungen (1), Vorschule Arbeitsblätter (1)
+- H3-2: Buchstaben lernen (1), Arbeitsblätter Grundschule (1)
+- H3-3: Ausmalbilder (1), Kostenlose Arbeitsblätter (1)
+- H3-4: Deutsch Arbeitsblätter (1)
+- H3-5: Einmaleins (1), Rechnen lernen (1)
+
+---
+
+🎉🎉🎉 FINAL TOTALS (ALL SECTIONS COMPLETE) 🎉🎉🎉
+
+Total H2/H3 Titles Created: 44 titles
+(Section 2: 8, Section 3: 6, Section 4: 7, Section 5: 4, Section 6: 13, Section 7: 6)
+
+FINAL KEYWORD COUNTS IN H2/H3 TITLES:
+✅ 1. Arbeitsblätter Grundschule: 14/10 ✅ COMPLETE! (140% of target)
+✅ 2. Mathe Arbeitsblätter: 19/10 ✅ COMPLETE! (190% of target)
+✅ 3. Vorschule Arbeitsblätter: 14/10 ✅ COMPLETE! (140% of target)
+✅ 4. Einmaleins: 11/10 ✅ COMPLETE! (110% of target)
+✅ 5. Schwungübungen: 11/10 ✅ COMPLETE! (110% of target)
+✅ 6. Buchstaben lernen: 11/10 ✅ COMPLETE! (110% of target)
+✅ 7. Ausmalbilder / Malvorlagen: 11/10 ✅ COMPLETE! (110% of target)
+✅ 8. Kostenlose Arbeitsblätter: 13/10 ✅ COMPLETE! (130% of target)
+✅ 9. Rechnen lernen / Rechnen 1. Klasse: 11/10 ✅ COMPLETE! (110% of target)
+✅ 10. Deutsch Arbeitsblätter: 11/10 ✅ COMPLETE! (110% of target)
+
+🎉 SUCCESS: ALL 10 KEYWORDS MEET MINIMUM 10 APPEARANCES IN H2/H3 TITLES! 🎉
+
+Total keyword appearances in H2/H3 titles: 126
+Average per keyword: 12.6 appearances
+Keywords at exactly 10: 0
+Keywords above 10: 10 (ALL keywords exceed minimum!)
+
+PRIMARY MISSION: ✅ ACCOMPLISHED!
+
+---
+
+CRITICAL REMINDERS:
+- Only count H2 and H3 titles/subtitles
+- Do NOT count H1 (only one H1 per page)
+- Do NOT count body text
+- Must reach minimum 10 for EVERY keyword
+- If any keyword < 10, add more H3 subsections in Section 7
+- App requires FULL ACCESS subscription ($240/year or $25/month)
+- NEVER mention Core Bundle pricing for this app

@@ -1,0 +1,17 @@
+KEYWORD TRACKING - Math Worksheet - Danish
+
+TARGET: Each keyword must appear MINIMUM 10 times in H2/H3 titles ONLY
+
+Danish Keywords (10 total):
+[ ] 1. Opgaver til print: 0/10
+[ ] 2. Matematikopgaver: 0/10
+[ ] 3. Lære bogstaver / Skriv bogstaver: 0/10
+[ ] 4. Malebog / Farvelægning: 0/10
+[ ] 5. Arbejdsark / Kopiark: 0/10
+[ ] 6. Finmotorik øvelser: 0/10
+[ ] 7. 0. klasse opgaver / 1. klasse: 0/10
+[ ] 8. Gangetabeller: 0/10
+[ ] 9. Læse og skrive / Stavning: 0/10
+[ ] 10. Gratis skoleopgaver: 0/10
+
+After each section, update counts and check boxes when ≥10 reached.

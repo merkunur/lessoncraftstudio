@@ -1,0 +1,178 @@
+KEYWORD TRACKING - Big Small App - Danish
+
+TARGET: Each keyword must appear MINIMUM 10 times in H2/H3 titles ONLY
+
+Danish Keywords from keywords.txt (lines 361-417):
+1. Opgaver til print (Tasks/exercises for printing)
+2. Matematikopgaver (Math exercises)
+3. Lære bogstaver / Skriv bogstaver (Learn letters / Write letters)
+4. Malebog / Farvelægning (Coloring book / Coloring)
+5. Arbejdsark / Kopiark (Worksheets / Copy sheets)
+6. Finmotorik øvelser (Fine motor skill exercises)
+7. 0. klasse opgaver / 1. klasse (Preschool/1st grade exercises)
+8. Gangetabeller (Multiplication tables)
+9. Læse og skrive / Stavning (Read and write / Spelling)
+10. Gratis skoleopgaver (Free school exercises)
+
+Current Status:
+[ ] 1. Opgaver til print: 1/10 (Section 1: +1)
+[ ] 2. Matematikopgaver: 0/10
+[ ] 3. Lære bogstaver / Skriv bogstaver: 0/10
+[ ] 4. Malebog / Farvelægning: 0/10
+[ ] 5. Arbejdsark / Kopiark: 1/10 (Section 1: +1)
+[ ] 6. Finmotorik øvelser: 0/10
+[ ] 7. 0. klasse opgaver / 1. klasse: 1/10 (Section 1: +1)
+[ ] 8. Gangetabeller: 0/10
+[ ] 9. Læse og skrive / Stavning: 0/10
+[ ] 10. Gratis skoleopgaver: 0/10
+
+=== AFTER SECTION 1 (Hero) ===
+Total H1/H2/H3 titles in section: 1 (only H1)
+Keywords found in titles:
+- Opgaver til print: 1
+- Arbejdsark: 1
+- 0. klasse opgaver: 1
+
+=== AFTER SECTION 2 (Features) ===
+Total H2/H3 titles in section: 8 (1 H2 + 7 H3s)
+Keywords found in Section 2 titles:
+- Opgaver til print: 4
+- Matematikopgaver: 2
+- Arbejdsark/Kopiark: 7 (Arbejdsark: 4, Kopiark: 3)
+- Finmotorik øvelser: 1
+- 0. klasse/1. klasse: 2
+- Gratis skoleopgaver: 2
+
+RUNNING TOTALS AFTER SECTION 1 + 2:
+[ ] 1. Opgaver til print: 5/10 (S1: 1, S2: 4)
+[ ] 2. Matematikopgaver: 2/10 (S1: 0, S2: 2)
+[ ] 3. Lære bogstaver / Skriv bogstaver: 0/10
+[ ] 4. Malebog / Farvelægning: 0/10
+[ ] 5. Arbejdsark / Kopiark: 8/10 (S1: 1, S2: 7)
+[ ] 6. Finmotorik øvelser: 1/10 (S1: 0, S2: 1)
+[ ] 7. 0. klasse opgaver / 1. klasse: 3/10 (S1: 1, S2: 2)
+[ ] 8. Gangetabeller: 0/10
+[ ] 9. Læse og skrive / Stavning: 0/10
+[ ] 10. Gratis skoleopgaver: 2/10 (S1: 0, S2: 2)
+
+=== AFTER SECTION 3 (How-To Guide) ===
+Total H2/H3 titles in section: 6 (1 H2 + 5 H3s)
+Keywords found in Section 3 titles:
+- Opgaver til print: 4
+- Matematikopgaver: 2
+- Arbejdsark/Kopiark: 5
+- Finmotorik øvelser: 1
+- 0. klasse/1. klasse: 3
+- Gratis skoleopgaver: 2
+
+RUNNING TOTALS AFTER SECTION 1 + 2 + 3:
+[ ] 1. Opgaver til print: 9/10 (S1: 1, S2: 4, S3: 4) - ALMOST THERE!
+[ ] 2. Matematikopgaver: 4/10 (S1: 0, S2: 2, S3: 2)
+[ ] 3. Lære bogstaver / Skriv bogstaver: 0/10
+[ ] 4. Malebog / Farvelægning: 0/10
+[✓] 5. Arbejdsark / Kopiark: 13/10 (S1: 1, S2: 7, S3: 5) - TARGET MET!
+[ ] 6. Finmotorik øvelser: 2/10 (S1: 0, S2: 1, S3: 1)
+[ ] 7. 0. klasse opgaver / 1. klasse: 6/10 (S1: 1, S2: 2, S3: 3)
+[ ] 8. Gangetabeller: 0/10
+[ ] 9. Læse og skrive / Stavning: 0/10
+[ ] 10. Gratis skoleopgaver: 4/10 (S1: 0, S2: 2, S3: 2)
+
+=== AFTER SECTION 4 (Use Cases) ===
+Total H2/H3 titles in section: 7 (1 H2 + 6 H3s)
+Keywords found in Section 4 titles:
+- Opgaver til print: 3
+- Matematikopgaver: 2
+- Lære bogstaver: 1
+- Læse og skrive: 1
+- Arbejdsark/Kopiark: 6
+- Finmotorik øvelser: 2
+- 0. klasse/1. klasse: 2
+- Gratis skoleopgaver: 3
+
+RUNNING TOTALS AFTER SECTION 1 + 2 + 3 + 4:
+[✓] 1. Opgaver til print: 12/10 (S1: 1, S2: 4, S3: 4, S4: 3) - TARGET MET!
+[ ] 2. Matematikopgaver: 6/10 (S1: 0, S2: 2, S3: 2, S4: 2)
+[ ] 3. Lære bogstaver / Skriv bogstaver: 1/10 (S1: 0, S2: 0, S3: 0, S4: 1)
+[ ] 4. Malebog / Farvelægning: 0/10 - CRITICAL!
+[✓] 5. Arbejdsark / Kopiark: 19/10 (S1: 1, S2: 7, S3: 5, S4: 6) - TARGET MET!
+[ ] 6. Finmotorik øvelser: 4/10 (S1: 0, S2: 1, S3: 1, S4: 2)
+[ ] 7. 0. klasse opgaver / 1. klasse: 8/10 (S1: 1, S2: 2, S3: 3, S4: 2)
+[ ] 8. Gangetabeller: 0/10 - CRITICAL!
+[ ] 9. Læse og skrive / Stavning: 1/10 (S1: 0, S2: 0, S3: 0, S4: 1)
+[ ] 10. Gratis skoleopgaver: 7/10 (S1: 0, S2: 2, S3: 2, S4: 3)
+
+=== AFTER SECTION 5 (Subscription Reasons) ===
+Total H2/H3 titles in section: 4 (1 H2 + 3 H3s)
+Keywords found in Section 5 titles:
+- Opgaver til print: 1
+- Matematikopgaver: 3
+- Arbejdsark: 1
+- Finmotorik øvelser: 1
+- 0. klasse: 1
+- Gratis skoleopgaver: 2
+
+RUNNING TOTALS AFTER SECTION 1 + 2 + 3 + 4 + 5:
+[✓] 1. Opgaver til print: 13/10 (S1: 1, S2: 4, S3: 4, S4: 3, S5: 1) - TARGET MET!
+[ ] 2. Matematikopgaver: 9/10 (S1: 0, S2: 2, S3: 2, S4: 2, S5: 3) - ALMOST THERE!
+[ ] 3. Lære bogstaver / Skriv bogstaver: 1/10 (S1: 0, S2: 0, S3: 0, S4: 1, S5: 0)
+[ ] 4. Malebog / Farvelægning: 0/10 - CRITICAL!
+[✓] 5. Arbejdsark / Kopiark: 20/10 (S1: 1, S2: 7, S3: 5, S4: 6, S5: 1) - TARGET MET!
+[ ] 6. Finmotorik øvelser: 5/10 (S1: 0, S2: 1, S3: 1, S4: 2, S5: 1)
+[✓] 7. 0. klasse opgaver / 1. klasse: 9/10 (S1: 1, S2: 2, S3: 3, S4: 2, S5: 1) - ALMOST THERE!
+[ ] 8. Gangetabeller: 0/10 - CRITICAL!
+[ ] 9. Læse og skrive / Stavning: 1/10 (S1: 0, S2: 0, S3: 0, S4: 1, S5: 0)
+[✓] 10. Gratis skoleopgaver: 9/10 (S1: 0, S2: 2, S3: 2, S4: 3, S5: 2) - ALMOST THERE!
+
+=== AFTER SECTION 6 (FAQ) ===
+Total H2/H3 titles in section: 13 (1 H2 + 12 H3s)
+Keywords found in Section 6 titles:
+- Opgaver til print: 3
+- Matematikopgaver: 6
+- Lære bogstaver: 1
+- Malebog: 1 (part of "Malebog/Farvelægning")
+- Arbejdsark: 5
+- Finmotorik øvelser: 1
+- 0. klasse/1. klasse: 3
+- Gratis skoleopgaver: 3
+
+RUNNING TOTALS AFTER SECTION 1 + 2 + 3 + 4 + 5 + 6:
+[✓] 1. Opgaver til print: 16/10 (S1: 1, S2: 4, S3: 4, S4: 3, S5: 1, S6: 3) - TARGET MET!
+[✓] 2. Matematikopgaver: 15/10 (S1: 0, S2: 2, S3: 2, S4: 2, S5: 3, S6: 6) - TARGET MET!
+[ ] 3. Lære bogstaver / Skriv bogstaver: 2/10 (S1: 0, S2: 0, S3: 0, S4: 1, S5: 0, S6: 1)
+[ ] 4. Malebog / Farvelægning: 1/10 (S1: 0, S2: 0, S3: 0, S4: 0, S5: 0, S6: 1)
+[✓] 5. Arbejdsark / Kopiark: 25/10 (S1: 1, S2: 7, S3: 5, S4: 6, S5: 1, S6: 5) - TARGET MET!
+[ ] 6. Finmotorik øvelser: 6/10 (S1: 0, S2: 1, S3: 1, S4: 2, S5: 1, S6: 1)
+[✓] 7. 0. klasse opgaver / 1. klasse: 12/10 (S1: 1, S2: 2, S3: 3, S4: 2, S5: 1, S6: 3) - TARGET MET!
+[ ] 8. Gangetabeller: 0/10 - CRITICAL! MUST FIX IN SECTION 7!
+[ ] 9. Læse og skrive / Stavning: 1/10 (S1: 0, S2: 0, S3: 0, S4: 1, S5: 0, S6: 0)
+[✓] 10. Gratis skoleopgaver: 12/10 (S1: 0, S2: 2, S3: 2, S4: 3, S5: 2, S6: 3) - TARGET MET!
+
+=== AFTER SECTION 7 (Combine Apps) ===
+Total H2/H3 titles in section: 11 (1 H2 + 10 H3s)
+Keywords found in Section 7 titles:
+- Opgaver til print: 2
+- Matematikopgaver: 4
+- Lære bogstaver: 5, Skriv bogstaver: 5 (combined: 10)
+- Malebog: 5, Farvelægning: 5 (combined: 10)
+- Arbejdsark: 5, Kopiark: 3 (combined: 8)
+- Finmotorik øvelser: 5
+- 0. klasse: 3, 1. klasse: 2 (combined: 5)
+- Gangetabeller: 11 (went from 0 to 11!)
+- Læse og skrive: 6, Stavning: 6 (combined: 12)
+- Gratis skoleopgaver: 3
+
+=== FINAL TOTALS AFTER ALL 7 SECTIONS ===
+[✓] 1. Opgaver til print: 18/10 (S1: 1, S2: 4, S3: 4, S4: 3, S5: 1, S6: 3, S7: 2) - TARGET MET!
+[✓] 2. Matematikopgaver: 19/10 (S1: 0, S2: 2, S3: 2, S4: 2, S5: 3, S6: 6, S7: 4) - TARGET MET!
+[✓] 3. Lære bogstaver / Skriv bogstaver: 12/10 (S1: 0, S2: 0, S3: 0, S4: 1, S5: 0, S6: 1, S7: 10) - TARGET MET!
+[✓] 4. Malebog / Farvelægning: 11/10 (S1: 0, S2: 0, S3: 0, S4: 0, S5: 0, S6: 1, S7: 10) - TARGET MET!
+[✓] 5. Arbejdsark / Kopiark: 33/10 (S1: 1, S2: 7, S3: 5, S4: 6, S5: 1, S6: 5, S7: 8) - TARGET MET!
+[✓] 6. Finmotorik øvelser: 11/10 (S1: 0, S2: 1, S3: 1, S4: 2, S5: 1, S6: 1, S7: 5) - TARGET MET!
+[✓] 7. 0. klasse opgaver / 1. klasse: 17/10 (S1: 1, S2: 2, S3: 3, S4: 2, S5: 1, S6: 3, S7: 5) - TARGET MET!
+[✓] 8. Gangetabeller: 11/10 (S1: 0, S2: 0, S3: 0, S4: 0, S5: 0, S6: 0, S7: 11) - TARGET MET!
+[✓] 9. Læse og skrive / Stavning: 13/10 (S1: 0, S2: 0, S3: 0, S4: 1, S5: 0, S6: 0, S7: 12) - TARGET MET!
+[✓] 10. Gratis skoleopgaver: 15/10 (S1: 0, S2: 2, S3: 2, S4: 3, S5: 2, S6: 3, S7: 3) - TARGET MET!
+
+✅✅✅ ALL 10 KEYWORDS MEET THE MINIMUM 10 OCCURRENCES REQUIREMENT! ✅✅✅
+
+VERIFICATION COMPLETE - DANISH BIG SMALL APP PAGE READY FOR DEPLOYMENT

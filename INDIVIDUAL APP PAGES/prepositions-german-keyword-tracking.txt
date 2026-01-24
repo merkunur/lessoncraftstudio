@@ -1,0 +1,195 @@
+KEYWORD TRACKING - Präpositionen App - German
+
+TARGET: Each keyword must appear MINIMUM 10 times in H2/H3 titles ONLY
+(Body text does NOT count toward the minimum)
+
+PRICING VERIFICATION:
+✓ App Name: Prepositions / Präpositionen
+✓ Subscription Tier: Full Access 240 Euro/year
+✓ Monthly Price: 25 Euro/month
+✓ I will use "Full Access" and "240 Euro/25 Euro" throughout this document
+✓ I will NEVER use "Core Bundle" or "144 Euro/15 Euro" for this app
+
+=========================================================
+GERMAN KEYWORDS FROM keywords.txt:
+=========================================================
+
+1. Arbeitsblätter Grundschule (Elementary school worksheets)
+2. Mathe Arbeitsblätter (Math worksheets)
+3. Vorschule Arbeitsblätter (Preschool worksheets)
+4. Einmaleins (Multiplication tables)
+5. Schwungübungen (Pre-writing/motor skill exercises)
+6. Buchstaben lernen (Learning letters)
+7. Ausmalbilder / Malvorlagen (Coloring pages/templates)
+8. Kostenlose Arbeitsblätter (Free worksheets)
+9. Rechnen lernen / Rechnen 1. Klasse (Learning to calculate / 1st grade math)
+10. Deutsch Arbeitsblätter (German language worksheets)
+
+=========================================================
+CURRENT STATUS:
+=========================================================
+
+After Section 1 (Hero):
+✓ SECTION COMPLETED - H1 title only (no H2/H3 in Hero section)
+H1: "Kostenlose Arbeitsblätter für Präpositionen - Vorschule Arbeitsblätter Generator für Arbeitsblätter Grundschule"
+[ ] 1. Arbeitsblätter Grundschule: 0/10 (H1 contains this, but H2/H3 count starts at 0)
+[ ] 2. Mathe Arbeitsblätter: 0/10
+[ ] 3. Vorschule Arbeitsblätter: 0/10 (H1 contains this)
+[ ] 4. Einmaleins: 0/10
+[ ] 5. Schwungübungen: 0/10
+[ ] 6. Buchstaben lernen: 0/10
+[ ] 7. Ausmalbilder / Malvorlagen: 0/10
+[ ] 8. Kostenlose Arbeitsblätter: 0/10 (H1 contains this)
+[ ] 9. Rechnen lernen / Rechnen 1. Klasse: 0/10
+[ ] 10. Deutsch Arbeitsblätter: 0/10
+
+After Section 2 (Features):
+✓ SECTION COMPLETED - 1 H2 + 7 H3 subsections
+H2: "Funktionen des Präpositionen-Generators - Alles für kostenlose Arbeitsblätter, Vorschule Arbeitsblätter und Arbeitsblätter Grundschule"
+H3s:
+- "Erstellen Sie Vorschule Arbeitsblätter und Arbeitsblätter Grundschule in 3 Klicks - Schnelle kostenlose Arbeitsblätter"
+- "Bearbeiten Sie kostenlose Arbeitsblätter auf der Arbeitsfläche - Volle Anpassung für Vorschule und Grundschule"
+- "Laden Sie eigene Bilder hoch für Mathe Arbeitsblätter, Deutsch Arbeitsblätter und Ausmalbilder"
+- "Erstellen Sie Arbeitsblätter Grundschule in 11 Sprachen - Mehrsprachige Vorschule Arbeitsblätter und Deutsch Arbeitsblätter"
+- "Gewerbliche Lizenz für Arbeitsblätter Grundschule - Verkaufen Sie kostenlose Arbeitsblätter und Ausmalbilder online"
+- "Zugriff auf über 3000 kindgerechte Bilder - Themenbibliothek für kostenlose Arbeitsblätter, Mathe Arbeitsblätter und Buchstaben lernen"
+- "Laden Sie professionelle 300 DPI Arbeitsblätter Grundschule herunter - Hochwertige Vorschule Arbeitsblätter und Ausmalbilder"
+
+RUNNING TOTALS after Section 2:
+[ ] 1. Arbeitsblätter Grundschule: 5/10 (halfway!)
+[ ] 2. Mathe Arbeitsblätter: 2/10
+[ ] 3. Vorschule Arbeitsblätter: 5/10 (halfway!)
+[ ] 4. Einmaleins: 0/10 (needs integration in future sections)
+[ ] 5. Schwungübungen: 0/10 (needs integration in future sections)
+[ ] 6. Buchstaben lernen: 1/10
+[ ] 7. Ausmalbilder: 4/10
+[ ] 8. Kostenlose Arbeitsblätter: 6/10 (good progress!)
+[ ] 9. Rechnen lernen: 0/10 (needs integration in future sections)
+[ ] 10. Deutsch Arbeitsblätter: 3/10
+
+After Section 3 (How-To):
+✓ SECTION COMPLETED - 1 H2 + 5 H3 subsections
+H2: "So erstellen Sie Präpositionen-Arbeitsblätter in 5 Schritten - Anleitung für kostenlose Arbeitsblätter, Vorschule Arbeitsblätter und Arbeitsblätter Grundschule"
+H3s:
+- "Schritt 1: Wählen Sie Präpositionen und Übungsformat - Konfiguration für Vorschule Arbeitsblätter und kostenlose Arbeitsblätter"
+- "Schritt 2: Wählen Sie Bilder aus der Bibliothek - Themenwahl für Mathe Arbeitsblätter, Deutsch Arbeitsblätter und Schwungübungen"
+- "Schritt 3: Wählen Sie Referenzobjekte und laden Sie eigene Bilder hoch - Personalisierung für Arbeitsblätter Grundschule und Buchstaben lernen"
+- "Schritt 4: Passen Sie Seiteneinstellungen und Design an - Professionelle Vorschule Arbeitsblätter mit Ausmalbilder und Rechnen lernen"
+- "Schritt 5: Generieren, bearbeiten und herunterladen - Fertige kostenlose Arbeitsblätter, Einmaleins und Deutsch Arbeitsblätter"
+
+RUNNING TOTALS after Section 3:
+[ ] 1. Arbeitsblätter Grundschule: 7/10 (almost there!)
+[ ] 2. Mathe Arbeitsblätter: 3/10
+[ ] 3. Vorschule Arbeitsblätter: 8/10 (almost there!)
+[ ] 4. Einmaleins: 1/10 (started!)
+[ ] 5. Schwungübungen: 1/10 (started!)
+[ ] 6. Buchstaben lernen: 2/10
+[ ] 7. Ausmalbilder: 5/10 (halfway!)
+[ ] 8. Kostenlose Arbeitsblätter: 9/10 (almost there!)
+[ ] 9. Rechnen lernen: 1/10 (started!)
+[ ] 10. Deutsch Arbeitsblätter: 5/10 (halfway!)
+
+After Section 4 (Use Cases):
+✓ SECTION COMPLETED - 1 H2 + 6 H3 subsections
+H2: "Perfekt für Lehrkräfte, Eltern und Pädagogen - Präpositionen-Arbeitsblätter für Vorschule Arbeitsblätter, Arbeitsblätter Grundschule und kostenlose Arbeitsblätter"
+H3s:
+- "Vorschulerzieher und Kindergarten - Kostenlose Arbeitsblätter für Schwungübungen und Buchstaben lernen"
+- "Grundschullehrkräfte 1. bis 4. Klasse - Arbeitsblätter Grundschule für Deutsch Arbeitsblätter, Einmaleins und Rechnen lernen"
+- "Homeschool-Eltern - Vorschule Arbeitsblätter für Mathe Arbeitsblätter, Schwungübungen und Buchstaben lernen zu Hause"
+- "DaZ-Lehrkräfte - Mehrsprachige Deutsch Arbeitsblätter, kostenlose Arbeitsblätter und Arbeitsblätter Grundschule"
+- "Sonderpädagogen - Individualisierte Vorschule Arbeitsblätter für Einmaleins, Rechnen lernen und Buchstaben lernen"
+- "Lehrkräfte als Unternehmer - Verkauf von Ausmalbilder, Mathe Arbeitsblätter und Schwungübungen auf Eduki"
+
+RUNNING TOTALS after Section 4:
+[✓] 1. Arbeitsblätter Grundschule: 11/10 ✅ TARGET MET!
+[ ] 2. Mathe Arbeitsblätter: 5/10 (halfway!)
+[✓] 3. Vorschule Arbeitsblätter: 12/10 ✅ TARGET MET!
+[ ] 4. Einmaleins: 3/10 (needs +7)
+[ ] 5. Schwungübungen: 4/10 (needs +6)
+[ ] 6. Buchstaben lernen: 5/10 (halfway!)
+[ ] 7. Ausmalbilder: 6/10 (good progress!)
+[✓] 8. Kostenlose Arbeitsblätter: 12/10 ✅ TARGET MET!
+[ ] 9. Rechnen lernen: 3/10 (needs +7)
+[ ] 10. Deutsch Arbeitsblätter: 7/10 (almost there!)
+
+After Section 5 (Subscription Reasons):
+✓ SECTION COMPLETED - 1 H2 + 3 H3 subsections
+H2: "Top 3 Gründe für ein Full Access Abonnement - Premium-Funktionen für Mathe Arbeitsblätter, Einmaleins, Schwungübungen und Rechnen lernen"
+H3s:
+- "Mehrsprachiger Unterricht - Deutsch Arbeitsblätter, Einmaleins und Buchstaben lernen in 11 Sprachen"
+- "Gewerbliche Lizenzierung - Verkauf von Schwungübungen, Ausmalbilder, Rechnen lernen und Mathe Arbeitsblätter"
+- "Zeitersparnis und Produktivität - Schnelle Erstellung von Einmaleins, Buchstaben lernen, Rechnen lernen und Deutsch Arbeitsblätter"
+
+RUNNING TOTALS after Section 5:
+[✓] 1. Arbeitsblätter Grundschule: 11/10 ✅ TARGET MET!
+[ ] 2. Mathe Arbeitsblätter: 7/10 (almost there!)
+[✓] 3. Vorschule Arbeitsblätter: 12/10 ✅ TARGET MET!
+[ ] 4. Einmaleins: 6/10 (good progress!)
+[ ] 5. Schwungübungen: 6/10 (good progress!)
+[ ] 6. Buchstaben lernen: 7/10 (almost there!)
+[ ] 7. Ausmalbilder: 7/10 (almost there!)
+[✓] 8. Kostenlose Arbeitsblätter: 12/10 ✅ TARGET MET!
+[ ] 9. Rechnen lernen: 6/10 (good progress!)
+[ ] 10. Deutsch Arbeitsblätter: 9/10 (almost there!)
+
+After Section 6 (FAQ):
+✓ SECTION COMPLETED - 1 H2 + 12 H3 subsections
+H2: "Häufig gestellte Fragen zu Präpositionen-Arbeitsblättern, Mathe Arbeitsblätter und Arbeitsblätter Grundschule"
+H3s:
+- "Ist der Präpositionen-Generator wirklich kostenlos für Vorschule Arbeitsblätter und kostenlose Arbeitsblätter?"
+- "Welche Sprachen unterstützt der Generator für Deutsch Arbeitsblätter und Einmaleins?"
+- "Kann ich eigene Bilder hochladen für Mathe Arbeitsblätter, Schwungübungen und Ausmalbilder?"
+- "Kann ich Präpositionen-Arbeitsblätter für Buchstaben lernen und Rechnen lernen erstellen?"
+- "Kann ich sowohl Farb- als auch Schwarz-Weiß-Arbeitsblätter Grundschule und Ausmalbilder erstellen?"
+- "Wie unterstützen Präpositionen-Arbeitsblätter Einmaleins und Rechnen lernen in der 1. Klasse?"
+- "Kann ich den Generator für Schwungübungen, Deutsch Arbeitsblätter und Buchstaben lernen-Sammlungen verwenden?"
+- "Sind Präpositionen-Arbeitsblätter geeignet für Einmaleins-Übungen und Mathe Arbeitsblätter?"
+- "Wie lange dauert die Erstellung von Vorschule Arbeitsblätter, Schwungübungen und Ausmalbilder?"
+- "Unterstützt die Plattform die Erstellung von Rechnen lernen, Mathe Arbeitsblätter und Ausmalbilder zusammen?"
+- "Kann ich Präpositionen-Arbeitsblätter kommerziell für Deutsch Arbeitsblätter und Einmaleins verkaufen?"
+- "Welche Papierformate unterstützt der Generator für kostenlose Arbeitsblätter und Arbeitsblätter Grundschule?"
+
+RUNNING TOTALS after Section 6:
+[✓] 1. Arbeitsblätter Grundschule: 14/10 ✅ TARGET MET!
+[✓] 2. Mathe Arbeitsblätter: 12/10 ✅ TARGET MET!
+[✓] 3. Vorschule Arbeitsblätter: 14/10 ✅ TARGET MET!
+[✓] 4. Einmaleins: 10/10 ✅ TARGET MET!
+[ ] 5. Schwungübungen: 9/10 (needs +1 in Section 7!)
+[ ] 6. Buchstaben lernen: 9/10 (needs +1 in Section 7!)
+[✓] 7. Ausmalbilder: 11/10 ✅ TARGET MET!
+[✓] 8. Kostenlose Arbeitsblätter: 14/10 ✅ TARGET MET!
+[ ] 9. Rechnen lernen: 9/10 (needs +1 in Section 7!)
+[✓] 10. Deutsch Arbeitsblätter: 12/10 ✅ TARGET MET!
+
+After Section 7 (Combine Apps):
+✓ SECTION COMPLETED - 1 H2 + 5 H3 subsections
+H2: "Kombinieren Sie Präpositionen mit anderen Arbeitsblättern - Komplette Lernpakete für Vorschule Arbeitsblätter und Arbeitsblätter Grundschule"
+H3s:
+- "Präpositionen plus Schwungübungen - Feinmotorik und Sprachentwicklung für Vorschule Arbeitsblätter"
+- "Präpositionen mit Buchstaben lernen - Literacy-Pakete für Arbeitsblätter Grundschule und Deutsch Arbeitsblätter"
+- "Präpositionen kombiniert mit Rechnen lernen - Mathematik-Pakete für Mathe Arbeitsblätter und Einmaleins"
+- "Präpositionen plus Ausmalbilder - Kreative Lernpakete für kostenlose Arbeitsblätter und Schwungübungen"
+- "Komplette Jahresprogramme erstellen - Buchstaben lernen, Rechnen lernen und Arbeitsblätter Grundschule für alle Fächer"
+
+=========================================================
+FINAL TOTALS (MUST ALL BE ✓ WITH 10+):
+=========================================================
+[✓] 1. Arbeitsblätter Grundschule: 18/10 ✅ TARGET MET! (EXCEEDED!)
+[✓] 2. Mathe Arbeitsblätter: 13/10 ✅ TARGET MET! (EXCEEDED!)
+[✓] 3. Vorschule Arbeitsblätter: 16/10 ✅ TARGET MET! (EXCEEDED!)
+[✓] 4. Einmaleins: 11/10 ✅ TARGET MET! (EXCEEDED!)
+[✓] 5. Schwungübungen: 11/10 ✅ TARGET MET! (EXCEEDED!)
+[✓] 6. Buchstaben lernen: 11/10 ✅ TARGET MET! (EXCEEDED!)
+[✓] 7. Ausmalbilder: 12/10 ✅ TARGET MET! (EXCEEDED!)
+[✓] 8. Kostenlose Arbeitsblätter: 15/10 ✅ TARGET MET! (EXCEEDED!)
+[✓] 9. Rechnen lernen: 11/10 ✅ TARGET MET! (EXCEEDED!)
+[✓] 10. Deutsch Arbeitsblätter: 13/10 ✅ TARGET MET! (EXCEEDED!)
+
+STATUS: ✅ READY FOR DEPLOYMENT - ALL 10 KEYWORDS AT 10+ IN H2/H3 TITLES!
+
+🎉 PERFECT SCORE: 10/10 keywords at target!
+📊 Total keyword occurrences in H2/H3 titles: 131
+📄 Total sections: 7 sections complete
+✍️ Estimated word count: ~7,500 words
+🎯 SEO optimization: COMPLETE
+💰 Pricing verified: Full Access 240 Euro/year, 25 Euro/month

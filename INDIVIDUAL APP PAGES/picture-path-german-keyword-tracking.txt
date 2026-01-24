@@ -1,0 +1,246 @@
+KEYWORD TRACKING - Picture Path - German
+
+TARGET: Each keyword must appear MINIMUM 10 times in H2/H3 titles ONLY
+
+Current Status:
+[ ] 1. Arbeitsblätter Grundschule: 0/10
+[ ] 2. Mathe Arbeitsblätter: 0/10
+[ ] 3. Vorschule Arbeitsblätter: 0/10
+[ ] 4. Einmaleins: 0/10
+[ ] 5. Schwungübungen: 0/10
+[ ] 6. Buchstaben lernen: 0/10
+[ ] 7. Ausmalbilder / Malvorlagen: 0/10
+[ ] 8. Kostenlose Arbeitsblätter: 0/10
+[ ] 9. Rechnen lernen / Rechnen 1. Klasse: 0/10
+[ ] 10. Deutsch Arbeitsblätter: 0/10
+
+After each section, update counts and check boxes when ≥10 reached.
+
+=== SECTION-BY-SECTION TRACKING ===
+
+After Section 1 (Hero):
+Section 1 has H1 only, no H2/H3 titles.
+All keywords: 0 (Section 1 doesn't contain H2/H3 subsections)
+
+Running totals after Section 1:
+1. Arbeitsblätter Grundschule: 0/10
+2. Mathe Arbeitsblätter: 0/10
+3. Vorschule Arbeitsblätter: 0/10
+4. Einmaleins: 0/10
+5. Schwungübungen: 0/10
+6. Buchstaben lernen: 0/10
+7. Ausmalbilder / Malvorlagen: 0/10
+8. Kostenlose Arbeitsblätter: 0/10
+9. Rechnen lernen / Rechnen 1. Klasse: 0/10
+10. Deutsch Arbeitsblätter: 0/10
+
+After Section 2 (Features):
+H2/H3 Titles in Section 2:
+- H2: "Bilderpfad Generator Funktionen - Kostenlose Arbeitsblätter für Arbeitsblätter Grundschule und Vorschule Arbeitsblätter"
+- H3: "Labyrinth Arbeitsblätter in drei Spielmodi erstellen - Kostenlose Arbeitsblätter für Mathe Arbeitsblätter und Deutsch Arbeitsblätter"
+- H3: "Vollständige Bearbeitbarkeit für Vorschule Arbeitsblätter und Schwungübungen - Jedes Element anpassen"
+- H3: "Eigene Bilder hochladen für Arbeitsblätter Grundschule und Buchstaben lernen - Personalisierte Inhalte"
+- H3: "Bilderpfad Arbeitsblätter in 11 Sprachen - Kostenlose Arbeitsblätter für Deutsch Arbeitsblätter und internationale Schulen"
+- H3: "Kommerzielle Lizenz inklusive - Mathe Arbeitsblätter und Rechnen 1. Klasse auf Teachers Pay Teachers verkaufen"
+- H3: "Über 3000 kindgerechte Bilder - Ausmalbilder und Malvorlagen für Einmaleins und Schwungübungen"
+- H3: "Professionelle 300 DPI Druckqualität - Vorschule Arbeitsblätter und Arbeitsblätter Grundschule in höchster Auflösung"
+
+Keywords found in Section 2 H2/H3 titles:
+- Arbeitsblätter Grundschule: 3 (H2:1, H3:1, H3:1)
+- Mathe Arbeitsblätter: 2 (H3:1, H3:1)
+- Vorschule Arbeitsblätter: 3 (H2:1, H3:1, H3:1)
+- Einmaleins: 1 (H3:1)
+- Schwungübungen: 2 (H3:1, H3:1)
+- Buchstaben lernen: 1 (H3:1)
+- Ausmalbilder / Malvorlagen: 1 (H3:1)
+- Kostenlose Arbeitsblätter: 3 (H2:1, H3:1, H3:1)
+- Rechnen 1. Klasse: 1 (H3:1)
+- Deutsch Arbeitsblätter: 2 (H3:1, H3:1)
+
+Running totals after Section 2:
+1. Arbeitsblätter Grundschule: 3/10
+2. Mathe Arbeitsblätter: 2/10
+3. Vorschule Arbeitsblätter: 3/10
+4. Einmaleins: 1/10
+5. Schwungübungen: 2/10
+6. Buchstaben lernen: 1/10
+7. Ausmalbilder / Malvorlagen: 1/10
+8. Kostenlose Arbeitsblätter: 3/10
+9. Rechnen lernen / Rechnen 1. Klasse: 1/10
+10. Deutsch Arbeitsblätter: 2/10
+
+After Section 3 (How-To):
+H2/H3 Titles in Section 3:
+- H2: "Bilderpfad Labyrinth Arbeitsblätter in 5 einfachen Schritten erstellen - Kostenlose Arbeitsblätter für Vorschule Arbeitsblätter und Arbeitsblätter Grundschule"
+- H3: "Schritt 1: Spielmodus und Bilder auswählen - Mathe Arbeitsblätter und Deutsch Arbeitsblätter mit passenden Motiven"
+- H3: "Schritt 2: Labyrinth-Einstellungen anpassen - Kostenlose Arbeitsblätter für Schwungübungen und Einmaleins Übungen"
+- H3: "Schritt 3: Text und Seitenformat einrichten - Buchstaben lernen und Rechnen 1. Klasse mit individuellen Anweisungen"
+- H3: "Schritt 4: Arbeitsblatt generieren und bearbeiten - Ausmalbilder und Malvorlagen mit Labyrinth kombinieren"
+- H3: "Schritt 5: Herunterladen und Drucken - Vorschule Arbeitsblätter und Arbeitsblätter Grundschule in Druckqualität exportieren"
+
+Keywords found in Section 3 H2/H3 titles:
+- Arbeitsblätter Grundschule: 2 (H2:1, H3:1)
+- Mathe Arbeitsblätter: 1 (H3:1)
+- Vorschule Arbeitsblätter: 2 (H2:1, H3:1)
+- Einmaleins: 1 (H3:1)
+- Schwungübungen: 1 (H3:1)
+- Buchstaben lernen: 1 (H3:1)
+- Ausmalbilder / Malvorlagen: 1 (H3:1)
+- Kostenlose Arbeitsblätter: 2 (H2:1, H3:1)
+- Rechnen 1. Klasse: 1 (H3:1)
+- Deutsch Arbeitsblätter: 1 (H3:1)
+
+Running totals after Section 3:
+1. Arbeitsblätter Grundschule: 5/10 (was 3, +2)
+2. Mathe Arbeitsblätter: 3/10 (was 2, +1)
+3. Vorschule Arbeitsblätter: 5/10 (was 3, +2)
+4. Einmaleins: 2/10 (was 1, +1)
+5. Schwungübungen: 3/10 (was 2, +1)
+6. Buchstaben lernen: 2/10 (was 1, +1)
+7. Ausmalbilder / Malvorlagen: 2/10 (was 1, +1)
+8. Kostenlose Arbeitsblätter: 5/10 (was 3, +2)
+9. Rechnen lernen / Rechnen 1. Klasse: 2/10 (was 1, +1)
+10. Deutsch Arbeitsblätter: 3/10 (was 2, +1)
+
+After Section 4 (Use Cases):
+H2/H3 Titles in Section 4:
+- H2: "Perfekt für Lehrkräfte Eltern und Pädagogen - Vorschule Arbeitsblätter Arbeitsblätter Grundschule und Kostenlose Arbeitsblätter für jeden Bedarf"
+- H3: "Erzieherinnen und Erzieher in Kindergarten und Vorschule - Vorschule Arbeitsblätter für Buchstaben lernen und Schwungübungen"
+- H3: "Grundschullehrkräfte der 1. bis 3. Klasse - Arbeitsblätter Grundschule für Mathe Arbeitsblätter und Deutsch Arbeitsblätter"
+- H3: "Homeschooling-Eltern und Familien - Kostenlose Arbeitsblätter für Rechnen lernen und Einmaleins zu Hause"
+- H3: "DaZ-Lehrkräfte und Sprachförderer - Deutsch Arbeitsblätter und Buchstaben lernen für mehrsprachige Klassen"
+- H3: "Sonderpädagogen und Förderlehrkräfte - Schwungübungen und Malvorlagen für differenzierten Unterricht"
+- H3: "Lehrkräfte mit Nebeneinkommen - Mathe Arbeitsblätter und Einmaleins Materialien auf Teachers Pay Teachers verkaufen"
+
+Keywords found in Section 4 H2/H3 titles:
+- Arbeitsblätter Grundschule: 2 (H2:1, H3:1)
+- Mathe Arbeitsblätter: 2 (H3:1, H3:1)
+- Vorschule Arbeitsblätter: 2 (H2:1, H3:1)
+- Einmaleins: 2 (H3:1, H3:1)
+- Schwungübungen: 2 (H3:1, H3:1)
+- Buchstaben lernen: 2 (H3:1, H3:1)
+- Malvorlagen: 1 (H3:1)
+- Kostenlose Arbeitsblätter: 2 (H2:1, H3:1)
+- Rechnen lernen: 1 (H3:1)
+- Deutsch Arbeitsblätter: 2 (H3:1, H3:1)
+
+Running totals after Section 4:
+1. Arbeitsblätter Grundschule: 7/10 (was 5, +2)
+2. Mathe Arbeitsblätter: 5/10 (was 3, +2)
+3. Vorschule Arbeitsblätter: 7/10 (was 5, +2)
+4. Einmaleins: 4/10 (was 2, +2)
+5. Schwungübungen: 5/10 (was 3, +2)
+6. Buchstaben lernen: 4/10 (was 2, +2)
+7. Ausmalbilder / Malvorlagen: 3/10 (was 2, +1)
+8. Kostenlose Arbeitsblätter: 7/10 (was 5, +2)
+9. Rechnen lernen / Rechnen 1. Klasse: 3/10 (was 2, +1)
+10. Deutsch Arbeitsblätter: 5/10 (was 3, +2)
+
+After Section 5 (Subscription):
+H2/H3 Titles in Section 5:
+- H2: "Die 3 wichtigsten Gründe für das Abonnement - Kostenlose Arbeitsblätter Vorschule Arbeitsblätter und Arbeitsblätter Grundschule die sich lohnen"
+- H3: "Unterricht in mehreren Sprachen - Deutsch Arbeitsblätter Buchstaben lernen und Einmaleins in 11 Sprachen"
+- H3: "Kommerzielle Nutzung inklusive - Mathe Arbeitsblätter Rechnen 1. Klasse und Ausmalbilder auf Teachers Pay Teachers verkaufen"
+- H3: "Zeitersparnis und Produktivität - Schwungübungen Malvorlagen und Einmaleins Arbeitsblätter in Minuten statt Stunden"
+
+Keywords found in Section 5 H2/H3 titles:
+- Arbeitsblätter Grundschule: 1 (H2:1)
+- Mathe Arbeitsblätter: 1 (H3:1)
+- Vorschule Arbeitsblätter: 1 (H2:1)
+- Einmaleins: 2 (H3:1, H3:1)
+- Schwungübungen: 1 (H3:1)
+- Buchstaben lernen: 1 (H3:1)
+- Ausmalbilder / Malvorlagen: 2 (H3:1, H3:1)
+- Kostenlose Arbeitsblätter: 1 (H2:1)
+- Rechnen 1. Klasse: 1 (H3:1)
+- Deutsch Arbeitsblätter: 1 (H3:1)
+
+Running totals after Section 5:
+1. Arbeitsblätter Grundschule: 8/10 (was 7, +1)
+2. Mathe Arbeitsblätter: 6/10 (was 5, +1)
+3. Vorschule Arbeitsblätter: 8/10 (was 7, +1)
+4. Einmaleins: 6/10 (was 4, +2)
+5. Schwungübungen: 6/10 (was 5, +1)
+6. Buchstaben lernen: 5/10 (was 4, +1)
+7. Ausmalbilder / Malvorlagen: 5/10 (was 3, +2)
+8. Kostenlose Arbeitsblätter: 8/10 (was 7, +1)
+9. Rechnen lernen / Rechnen 1. Klasse: 4/10 (was 3, +1)
+10. Deutsch Arbeitsblätter: 6/10 (was 5, +1)
+
+After Section 6 (FAQ):
+H2/H3 Titles in Section 6:
+- H2: "Häufig gestellte Fragen zum Bilderpfad Labyrinth Generator - Vorschule Arbeitsblätter Mathe Arbeitsblätter und Kostenlose Arbeitsblätter"
+- H3: "Ist der Bilderpfad Generator wirklich kostenlos für Arbeitsblätter Grundschule und Mathe Arbeitsblätter nutzbar?"
+- H3: "Kann ich Labyrinth-Arbeitsblätter zu Hause auf einem normalen Drucker für Rechnen 1. Klasse und Einmaleins ausdrucken?"
+- H3: "Brauche ich Designkenntnisse um Buchstaben lernen und Schwungübungen Arbeitsblätter zu erstellen?"
+- H3: "Kann ich Bilderpfad Labyrinthe im Unterricht für Vorschule und Grundschule einsetzen?" (no full keywords)
+- H3: "Welche Sprachen stehen für Deutsch Arbeitsblätter und Buchstaben lernen Materialien zur Verfügung?"
+- H3: "Kann ich erstellte Labyrinthe für Einmaleins und Rechnen lernen Produkte verkaufen?"
+- H3: "Wie passe ich Labyrinthe für verschiedene Mathe Arbeitsblätter Niveaus und Ausmalbilder Themen an?"
+- H3: "Für welche Altersgruppen eignen sich Bilderpfad Labyrinthe bei Vorschule Arbeitsblätter und Arbeitsblätter Grundschule?"
+- H3: "Kann ich eigene Bilder hochladen um Schwungübungen und Deutsch Arbeitsblätter zu personalisieren?"
+- H3: "Wie lange dauert die Erstellung von Kostenlose Arbeitsblätter Paketen mit Mathe Arbeitsblätter?"
+- H3: "Enthalten Bilderpfad Labyrinthe Lösungsanzeigen für Einmaleins und Rechnen 1. Klasse Übungen?"
+- H3: "Kann ich thematische Bilderpfad Labyrinthe zu bestimmten Themen für Ausmalbilder und Buchstaben lernen erstellen?"
+
+Keywords found in Section 6 H2/H3 titles:
+- Arbeitsblätter Grundschule: 2 (H3:1, H3:1)
+- Mathe Arbeitsblätter: 4 (H2:1, H3:1, H3:1, H3:1)
+- Vorschule Arbeitsblätter: 2 (H2:1, H3:1)
+- Einmaleins: 3 (H3:1, H3:1, H3:1)
+- Schwungübungen: 2 (H3:1, H3:1)
+- Buchstaben lernen: 3 (H3:1, H3:1, H3:1)
+- Ausmalbilder: 2 (H3:1, H3:1)
+- Kostenlose Arbeitsblätter: 2 (H2:1, H3:1)
+- Rechnen lernen / Rechnen 1. Klasse: 3 (H3:1 Rechnen 1. Klasse, H3:1 Rechnen lernen, H3:1 Rechnen 1. Klasse)
+- Deutsch Arbeitsblätter: 2 (H3:1, H3:1)
+
+Running totals after Section 6:
+1. Arbeitsblätter Grundschule: 10/10 ✓✓✓ COMPLETE! (was 8, +2)
+2. Mathe Arbeitsblätter: 10/10 ✓✓✓ COMPLETE! (was 6, +4)
+3. Vorschule Arbeitsblätter: 10/10 ✓✓✓ COMPLETE! (was 8, +2)
+4. Einmaleins: 9/10 (was 6, +3) - ONE MORE NEEDED
+5. Schwungübungen: 8/10 (was 6, +2)
+6. Buchstaben lernen: 8/10 (was 5, +3)
+7. Ausmalbilder / Malvorlagen: 7/10 (was 5, +2)
+8. Kostenlose Arbeitsblätter: 10/10 ✓✓✓ COMPLETE! (was 8, +2)
+9. Rechnen lernen / Rechnen 1. Klasse: 7/10 (was 4, +3)
+10. Deutsch Arbeitsblätter: 8/10 (was 6, +2)
+
+After Section 7 (Combine Apps):
+H2/H3 Titles in Section 7:
+- H2: "Bilderpfad Labyrinthe mit anderen Arbeitsblättern kombinieren - Deutsch Arbeitsblätter Schwungübungen und Ausmalbilder in kompletten Lernpaketen"
+- H3: "Bilderpfad plus Einmaleins und Rechnen lernen Arbeitsblätter - Mathematik spielerisch üben"
+- H3: "Labyrinth-Arbeitsblätter mit Schwungübungen und Buchstaben lernen - Schreibvorbereitung für die Vorschule"
+- H3: "Ausmalbilder und Malvorlagen mit Labyrinth-Elementen - Kreative Arbeitsblätter erstellen"
+- H3: "Deutsch Arbeitsblätter und Rechnen 1. Klasse mit Labyrinth-Belohnungen - Lernmotivation steigern"
+- H3: "Schwungübungen und Ausmalbilder mit Labyrinth-Pfaden - Feinmotorik-Training komplett"
+- H3: "Buchstaben lernen und Rechnen 1. Klasse Labyrinthe - Grundschulstart-Pakete erstellen"
+
+Keywords found in Section 7 H2/H3 titles:
+- Einmaleins: 1 (H3:1)
+- Schwungübungen: 3 (H2:1, H3:1, H3:1)
+- Buchstaben lernen: 2 (H3:1, H3:1)
+- Ausmalbilder / Malvorlagen: 4 (H2:1, H3:1, H3:1, H3:1)
+- Rechnen lernen / Rechnen 1. Klasse: 3 (H3:1, H3:1, H3:1)
+- Deutsch Arbeitsblätter: 2 (H2:1, H3:1)
+
+=== FINAL TOTALS AFTER ALL 7 SECTIONS ===
+
+✓ 1. Arbeitsblätter Grundschule: 10/10 (100% - exactly met)
+✓ 2. Mathe Arbeitsblätter: 10/10 (100% - exactly met)
+✓ 3. Vorschule Arbeitsblätter: 10/10 (100% - exactly met)
+✓ 4. Einmaleins: 10/10 (100% - exactly met)
+✓ 5. Schwungübungen: 11/10 (110% - exceeded by 1)
+✓ 6. Buchstaben lernen: 10/10 (100% - exactly met)
+✓ 7. Ausmalbilder / Malvorlagen: 11/10 (110% - exceeded by 1)
+✓ 8. Kostenlose Arbeitsblätter: 10/10 (100% - exactly met)
+✓ 9. Rechnen lernen / Rechnen 1. Klasse: 10/10 (100% - exactly met)
+✓ 10. Deutsch Arbeitsblätter: 10/10 (100% - exactly met)
+
+🎉🎉🎉 SUCCESS RATE: 10 out of 10 keywords COMPLETE! 🎉🎉🎉
+
+TOTAL KEYWORD INSTANCES: 102 across all H2/H3 titles
+AVERAGE PER KEYWORD: 10.2 instances
+MINIMUM TARGET: 10 per keyword - ALL MET ✓
+

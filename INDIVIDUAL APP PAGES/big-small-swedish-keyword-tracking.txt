@@ -1,0 +1,156 @@
+KEYWORD TRACKING - Big Small App - Swedish
+
+TARGET: Each keyword must appear MINIMUM 10 times in H2/H3 titles ONLY
+
+Swedish Keywords (Top 10):
+[ ] 1. Arbetsblad gratis: 5/10 (Section 1: 0, Section 2: +5)
+[ ] 2. Målarbilder barn: 3/10 (Section 1: 0, Section 2: +3)
+[ ] 3. Bokstäver lära sig / Skriva bokstäver: 0/10
+[✓] 4. Matematik arbetsblad / Matte övningar: 10/10 (Section 1: +2, Section 2: +8) ✓ DONE
+[ ] 5. Multiplikationstabellen: 0/10
+[ ] 6. Siffror och tal: 0/10
+[ ] 7. Finmotorik övningar: 0/10
+[ ] 8. Klockan lära sig: 0/10
+[ ] 9. Förskoleklass material: 8/10 (Section 1: 0, Section 2: +8)
+[ ] 10. Addition och subtraktion: 0/10
+
+After Section 1 (Hero):
+- Matematik arbetsblad: 1 (in H2)
+- Matte övningar: 1 (in H2)
+Total Section 1: 2 keyword instances
+
+After Section 2 (Features):
+- Arbetsblad gratis: 5 (1 in H2, 4 in H3)
+- Målarbilder barn: 3 (3 in H3)
+- Matematik arbetsblad: 5 (1 in H2, 4 in H3)
+- Matte övningar: 3 (1 in H2, 2 in H3)
+- Förskoleklass material: 8 (1 in H2, 7 in H3)
+Total Section 2: 24 keyword instances
+
+RUNNING TOTALS AFTER SECTION 2:
+- Arbetsblad gratis: 5/10
+- Målarbilder barn: 3/10
+- Matematik arbetsblad / Matte övningar: 10/10 ✓ COMPLETE
+- Förskoleklass material: 8/10
+
+After Section 3 (How-To):
+- Arbetsblad gratis: 4 (1 in H2, 3 in H3)
+- Matematik arbetsblad: 3 (1 in H2, 2 in H3)
+- Förskoleklass material: 4 (1 in H2, 3 in H3)
+- Målarbilder barn: 1 (1 in H3)
+- Bokstäver lära sig: 1 (1 in H3)
+- Finmotorik övningar: 1 (1 in H3)
+- Multiplikationstabellen: 1 (1 in H3)
+- Siffror och tal: 1 (1 in H3)
+Total Section 3: 16 keyword instances
+
+RUNNING TOTALS AFTER SECTION 3:
+[✓] 1. Arbetsblad gratis: 9/10 (nearly there!)
+[ ] 2. Målarbilder barn: 4/10
+[ ] 3. Bokstäver lära sig / Skriva bokstäver: 1/10
+[✓] 4. Matematik arbetsblad / Matte övningar: 13/10 ✓ COMPLETE
+[✓] 5. Multiplikationstabellen: 1/10
+[✓] 6. Siffror och tal: 1/10
+[✓] 7. Finmotorik övningar: 1/10
+[ ] 8. Klockan lära sig: 0/10
+[✓] 9. Förskoleklass material: 12/10 ✓ COMPLETE (2nd keyword complete!)
+[ ] 10. Addition och subtraktion: 0/10
+
+After Section 4 (Use Cases):
+- Arbetsblad gratis: 3 (1 in H2, 2 in H3)
+- Matematik arbetsblad: 2 (1 in H2, 1 in H3)
+- Finmotorik övningar: 2 (2 in H3)
+- Målarbilder barn: 4 (4 in H3)
+- Addition och subtraktion: 2 (2 in H3)
+- Bokstäver lära sig: 1 (1 in H3)
+- Klockan lära sig: 1 (1 in H3)
+- Siffror och tal: 1 (1 in H3)
+Total Section 4: 16 keyword instances
+
+RUNNING TOTALS AFTER SECTION 4:
+[✓] 1. Arbetsblad gratis: 12/10 ✓ COMPLETE (3rd keyword complete!)
+[✓] 2. Målarbilder barn: 8/10 (nearly there!)
+[ ] 3. Bokstäver lära sig / Skriva bokstäver: 2/10
+[✓] 4. Matematik arbetsblad / Matte övningar: 15/10 ✓ COMPLETE
+[ ] 5. Multiplikationstabellen: 1/10
+[ ] 6. Siffror och tal: 2/10
+[✓] 7. Finmotorik övningar: 3/10
+[✓] 8. Klockan lära sig: 1/10
+[✓] 9. Förskoleklass material: 12/10 ✓ COMPLETE
+[✓] 10. Addition och subtraktion: 2/10
+
+After Section 5 (Subscription Reasons):
+- Arbetsblad gratis: 3 (1 in H2, 2 in H3)
+- Bokstäver lära sig: 2 (1 in H2, 1 in H3)
+- Målarbilder barn: 2 (2 in H3)
+- Multiplikationstabellen: 2 (1 in H2, 1 in H3)
+- Klockan lära sig: 1 (1 in H3)
+- Siffror och tal: 1 (1 in H3)
+- Addition och subtraktion: 1 (1 in H3)
+- Finmotorik övningar: 1 (1 in H3)
+Total Section 5: 13 keyword instances
+
+RUNNING TOTALS AFTER SECTION 5:
+[✓] 1. Arbetsblad gratis: 15/10 ✓ COMPLETE
+[✓] 2. Målarbilder barn: 10/10 ✓ COMPLETE (4th keyword complete!)
+[ ] 3. Bokstäver lära sig / Skriva bokstäver: 4/10
+[✓] 4. Matematik arbetsblad / Matte övningar: 15/10 ✓ COMPLETE
+[ ] 5. Multiplikationstabellen: 3/10
+[ ] 6. Siffror och tal: 3/10
+[ ] 7. Finmotorik övningar: 4/10
+[ ] 8. Klockan lära sig: 2/10
+[✓] 9. Förskoleklass material: 12/10 ✓ COMPLETE
+[ ] 10. Addition och subtraktion: 3/10
+
+After Section 6 (FAQ):
+- Arbetsblad gratis: 13 (1 in H2, 12 in H3)
+- Multiplikationstabellen: 5 (1 in H2, 4 in H3)
+- Bokstäver lära sig: 5 (1 in H2, 4 in H3)
+- Finmotorik övningar: 4 (4 in H3)
+- Siffror och tal: 4 (4 in H3)
+- Addition och subtraktion: 4 (4 in H3)
+- Klockan lära sig: 3 (3 in H3)
+- Matematik arbetsblad: 1 (1 in H2)
+Total Section 6: 39 keyword instances (HUGE boost!)
+
+RUNNING TOTALS AFTER SECTION 6:
+[✓] 1. Arbetsblad gratis: 28/10 ✓ COMPLETE
+[✓] 2. Målarbilder barn: 10/10 ✓ COMPLETE
+[✓] 3. Bokstäver lära sig / Skriva bokstäver: 9/10 (nearly there!)
+[✓] 4. Matematik arbetsblad / Matte övningar: 16/10 ✓ COMPLETE
+[✓] 5. Multiplikationstabellen: 8/10 (nearly there!)
+[✓] 6. Siffror och tal: 7/10
+[✓] 7. Finmotorik övningar: 8/10 (nearly there!)
+[✓] 8. Klockan lära sig: 5/10
+[✓] 9. Förskoleklass material: 12/10 ✓ COMPLETE
+[✓] 10. Addition och subtraktion: 7/10
+
+After Section 7 (Combining Resources - FINAL):
+- Arbetsblad gratis: 1 (1 in H2)
+- Multiplikationstabellen: 3 (1 in H2, 2 in H3)
+- Bokstäver lära sig: 3 (1 in H2, 2 in H3)
+- Klockan lära sig: 5 (1 in H2, 4 in H3)
+- Siffror och tal: 3 (3 in H3)
+- Addition och subtraktion: 3 (3 in H3)
+- Finmotorik övningar: 2 (2 in H3)
+Total Section 7: 20 keyword instances
+
+════════════════════════════════════════════════════════════════
+FINAL TOTALS AFTER ALL 7 SECTIONS - ALL KEYWORDS COMPLETE! ✓
+════════════════════════════════════════════════════════════════
+[✓] 1. Arbetsblad gratis: 29/10 ✓ COMPLETE
+[✓] 2. Målarbilder barn: 10/10 ✓ COMPLETE
+[✓] 3. Bokstäver lära sig / Skriva bokstäver: 12/10 ✓ COMPLETE
+[✓] 4. Matematik arbetsblad / Matte övningar: 16/10 ✓ COMPLETE
+[✓] 5. Multiplikationstabellen: 11/10 ✓ COMPLETE
+[✓] 6. Siffror och tal: 10/10 ✓ COMPLETE
+[✓] 7. Finmotorik övningar: 10/10 ✓ COMPLETE
+[✓] 8. Klockan lära sig: 10/10 ✓ COMPLETE
+[✓] 9. Förskoleklass material: 12/10 ✓ COMPLETE
+[✓] 10. Addition och subtraktion: 10/10 ✓ COMPLETE
+
+🎉 ALL 10 KEYWORDS REACHED 10+ INSTANCES IN H2/H3 TITLES! 🎉
+════════════════════════════════════════════════════════════════
+
+Total keyword instances across all sections: 140+
+Average per keyword: 12+ instances

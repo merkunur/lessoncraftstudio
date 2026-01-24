@@ -1,0 +1,79 @@
+KEYWORD TRACKING - Math Puzzle - Danish
+
+TARGET: Each keyword must appear MINIMUM 10 times in H2/H3 titles ONLY
+
+Danish Keywords (10 total): ✅ ALL TARGETS REACHED! ✅
+[✓] 1. Opgaver til print: 10/10 ✓ TARGET REACHED!
+[✓] 2. Matematikopgaver: 45/10 ✓ TARGET REACHED!
+[✓] 3. Lære bogstaver / Skriv bogstaver: 16/10 ✓ TARGET REACHED!
+[✓] 4. Malebog / Farvelægning: 14/10 ✓ TARGET REACHED!
+[✓] 5. Arbejdsark / Kopiark: 18/10 ✓ TARGET REACHED!
+[✓] 6. Finmotorik øvelser: 10/10 ✓ TARGET REACHED!
+[✓] 7. 0. klasse opgaver / 1. klasse: 13/10 ✓ TARGET REACHED!
+[✓] 8. Gangetabeller: 10/10 ✓ TARGET REACHED!
+[✓] 9. Læse og skrive / Stavning: 13/10 ✓ TARGET REACHED!
+[✓] 10. Gratis skoleopgaver: 16/10 ✓ TARGET REACHED!
+
+SECTION 1 COMPLETE:
+H1 contains: Matematikopgaver (1), Gratis (1), Opgaver til print (1), 1. klasse (2)
+
+SECTION 2 COMPLETE:
+H2: Matematikopgaver (1), Gratis skoleopgaver (1), Opgaver til print (1)
+H3-1: Matematikopgaver (1), Opgaver til print (1), 1. klasse (1)
+H3-2: Matematikopgaver (1), Arbejdsark (1)
+H3-3: Matematikopgaver (1), Gratis skoleopgaver (1)
+H3-4: Matematikopgaver (1), 0. klasse (1), 1. klasse (1), 2. klasse (1)
+H3-5: Matematikopgaver (1), Gratis skoleopgaver (1), Opgaver til print (1)
+H3-6: Matematikopgaver (1), Opgaver til print (1)
+H3-7: Matematikopgaver (1), Arbejdsark (1)
+
+Section 2 keyword additions: Opgaver til print +4, Matematikopgaver +8, Arbejdsark/Kopiark +2, 0./1. klasse +3, Gratis skoleopgaver +3
+
+SECTION 3 COMPLETE:
+H2: Matematikopgaver (1), Gratis (1), Opgaver til print (1), Arbejdsark (1), 1. klasse (1)
+H3-1: Matematikopgaver (1), Gratis skoleopgaver (1), Kopiark (1)
+H3-2: Matematikopgaver (1), Arbejdsark (1), 0. klasse (1), 1. klasse (1)
+H3-3: Matematikopgaver (1), Opgaver til print (1), Gangetabeller (1)
+H3-4: Gratis skoleopgaver (1), Matematikopgaver (1)
+H3-5: Opgaver til print (1), Matematikopgaver (1), 1. klasse (1), 2. klasse (1)
+
+Section 3 keyword additions: Opgaver til print +3, Matematikopgaver +6, Arbejdsark/Kopiark +3, 0./1. klasse +5, Gratis skoleopgaver +3, Gangetabeller +1
+
+SECTION 4 COMPLETE:
+H2: Matematikopgaver (1), Gratis skoleopgaver (1)
+H3-1: Matematikopgaver (1), Finmotorik øvelser (1), Farvelægning (1), 0. klasse (1)
+H3-2: 1. klasse (1), Arbejdsark (1), Matematikopgaver (1), Gangetabeller (1), Læse og skrive (1)
+H3-3: Gratis skoleopgaver (1), Opgaver til print (1)
+H3-4: Matematikopgaver (1), Læse og skrive (1)
+H3-5: Matematikopgaver (1), Farvelægning (1), Finmotorik (1)
+H3-6: Matematikopgaver (1), Gratis skoleopgaver (1)
+
+Section 4 keyword additions: Opgaver til print +1, Matematikopgaver +6, Farvelægning +2, Arbejdsark +1, Finmotorik øvelser +2, 0./1. klasse +2, Gangetabeller +1, Læse og skrive +2, Gratis skoleopgaver +4
+
+SECTION 5 COMPLETE:
+H2: Matematikopgaver (1), Opgaver til print (1), Lære bogstaver (1) ← FIRST APPEARANCE!
+H3-1: Matematikopgaver (1), Lære bogstaver (1), Arbejdsark (1)
+H3-2: Matematikopgaver (1), Lære bogstaver (1), Gratis skoleopgaver (1)
+H3-3: Matematikopgaver (1), Lære bogstaver (1)
+
+Section 5 keyword additions: Matematikopgaver +4, Opgaver til print +1 (TARGET REACHED!), Lære bogstaver +4, Arbejdsark +1, Gratis skoleopgaver +1
+
+SECTION 6 COMPLETE (FAQ):
+H2: Matematikopgaver (1), Opgaver til Lære Bogstaver (1), Gratis skoleopgaver (1)
+H3-1 to H3-12: Matematikopgaver appears in ALL 12 H3s, Lære bogstaver appears in 11 of 12 H3s
+All 12 FAQ questions contain multiple keywords
+
+Section 6 keyword additions: Matematikopgaver +13, Lære bogstaver/Skriv bogstaver +12 (TARGET REACHED!), Gratis skoleopgaver +2, Arbejdsark/Kopiark +2, Farvelægning +2, Læse og skrive +1
+
+🎉 MAJOR ACHIEVEMENT: "Lære bogstaver / Skriv bogstaver" went from 4/10 to 16/10!
+✅ NEW TARGET REACHED: Lære bogstaver / Skriv bogstaver now at 16/10!
+✅ 6 of 10 keywords now at target or above!
+
+Remaining keywords needing attention in Section 7:
+- Malebog / Farvelægning: 4/10 (NEED 6 more)
+- Arbejdsark / Kopiark: 9/10 (NEED 1 more)
+- Finmotorik øvelser: 2/10 (NEED 8 more)
+- Gangetabeller: 2/10 (NEED 8 more)
+- Læse og skrive / Stavning: 3/10 (NEED 7 more)
+
+After each section, update counts and check boxes when ≥10 reached.

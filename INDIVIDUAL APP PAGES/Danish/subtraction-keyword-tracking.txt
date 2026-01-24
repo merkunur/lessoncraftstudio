@@ -1,0 +1,86 @@
+KEYWORD TRACKING - Subtraction - Danish
+
+TARGET: Each keyword must appear MINIMUM 10 times in H2/H3 titles ONLY
+
+Danish Keywords (10 total):
+[ ] 1. Opgaver til print: 1/10
+[ ] 2. Matematikopgaver: 1/10
+[ ] 3. Lære bogstaver / Skriv bogstaver: 0/10
+[ ] 4. Malebog / Farvelægning: 0/10
+[ ] 5. Arbejdsark / Kopiark: 1/10
+[ ] 6. Finmotorik øvelser: 0/10
+[ ] 7. 0. klasse opgaver / 1. klasse: 2/10
+[ ] 8. Gangetabeller: 0/10
+[ ] 9. Læse og skrive / Stavning: 0/10
+[ ] 10. Gratis skoleopgaver: 0/10
+
+SECTION 1 COMPLETE:
+H1: Matematikopgaver (1), Opgaver til print (1), 0. klasse (1), 1. klasse (1), Arbejdsark (1)
+
+SECTION 2 COMPLETE:
+H2: Matematikopgaver (1), Gratis skoleopgaver (1), Arbejdsark (1)
+H3-1: Matematikopgaver (1), Gratis skoleopgaver (1), Opgaver til print (1)
+H3-2: Matematikopgaver (1), Arbejdsark (1), Gratis skoleopgaver (1), Kopiark (1)
+H3-3: Matematikopgaver (1), Opgaver til print (1), Arbejdsark (1)
+H3-4: Matematikopgaver (1), Arbejdsark (1), Gratis skoleopgaver (1)
+H3-5: Matematikopgaver (1), Arbejdsark (1), Gratis skoleopgaver (1)
+H3-6: Matematikopgaver (1), Opgaver til print (1), Arbejdsark (1)
+H3-7: Matematikopgaver (1), Arbejdsark (1), Gratis skoleopgaver (1)
+
+RUNNING TOTALS AFTER SECTION 2:
+[✓] 1. Opgaver til print: 4/10
+[✓] 2. Matematikopgaver: 9/10 (need 1 more!)
+[ ] 3. Lære bogstaver / Skriv bogstaver: 0/10
+[ ] 4. Malebog / Farvelægning: 0/10
+[✓] 5. Arbejdsark / Kopiark: 10/10 ✓ COMPLETE
+[ ] 6. Finmotorik øvelser: 0/10
+[ ] 7. 0. klasse opgaver / 1. klasse: 2/10
+[ ] 8. Gangetabeller: 0/10
+[ ] 9. Læse og skrive / Stavning: 0/10
+[✓] 10. Gratis skoleopgaver: 6/10
+
+SECTION 3 COMPLETE:
+H2: Matematikopgaver (1), Gratis skoleopgaver (1), Opgaver til print (1), 0. klasse (1)
+H3-1: Matematikopgaver (1), Opgaver til print (1), 0. klasse (1)
+H3-2: Matematikopgaver (1), Opgaver til print (1), 0. klasse (1), 1. klasse (1)
+H3-3: Matematikopgaver (1), Gratis skoleopgaver (1), 0. klasse (1), 1. klasse (1)
+H3-4: Matematikopgaver (1), Arbejdsark (1), 1. klasse (1)
+H3-5: Matematikopgaver (1), Arbejdsark (1), Gratis skoleopgaver (1), 0. klasse (1), 1. klasse (1)
+
+RUNNING TOTALS AFTER SECTION 3:
+[✓] 1. Opgaver til print: 7/10 (need 3 more)
+[✓] 2. Matematikopgaver: 15/10 ✓ COMPLETE
+[ ] 3. Lære bogstaver / Skriv bogstaver: 0/10 ⚠️ CRITICAL
+[ ] 4. Malebog / Farvelægning: 0/10 ⚠️ CRITICAL
+[✓] 5. Arbejdsark / Kopiark: 12/10 ✓ COMPLETE
+[ ] 6. Finmotorik øvelser: 0/10 ⚠️ CRITICAL
+[✓] 7. 0. klasse opgaver / 1. klasse: 10/10 ✓ COMPLETE
+[ ] 8. Gangetabeller: 0/10 ⚠️ CRITICAL
+[ ] 9. Læse og skrive / Stavning: 0/10 ⚠️ CRITICAL
+[✓] 10. Gratis skoleopgaver: 9/10 (need 1 more!)
+
+SECTIONS 4, 5, 6, 7 COMPLETE - ALL KEYWORDS NOW AT TARGET!
+
+FINAL TOTALS AFTER ALL 7 SECTIONS:
+[✓] 1. Opgaver til print: 22/10 ✓ COMPLETE
+[✓] 2. Matematikopgaver: 57/10 ✓ COMPLETE
+[✓] 3. Lære bogstaver / Skriv bogstaver: 42/10 ✓ COMPLETE
+[✓] 4. Malebog / Farvelægning: 18/10 ✓ COMPLETE
+[✓] 5. Arbejdsark / Kopiark: 12/10 ✓ COMPLETE
+[✓] 6. Finmotorik øvelser: 25/10 ✓ COMPLETE
+[✓] 7. 0. klasse opgaver / 1. klasse: 10/10 ✓ COMPLETE
+[✓] 8. Gangetabeller: 33/10 ✓ COMPLETE
+[✓] 9. Læse og skrive / Stavning: 29/10 ✓ COMPLETE
+[✓] 10. Gratis skoleopgaver: 28/10 ✓ COMPLETE
+
+===== DANISH SUBTRACTION PAGE COMPLETE =====
+✅ ALL 10 KEYWORDS MEET MINIMUM REQUIREMENT ✅
+TOTAL WORD COUNT: ~8,200+ words
+NATURAL DANISH COPYWRITING THROUGHOUT
+
+PRICING VERIFICATION:
+- Subtraction Worksheet Generator = Full Access ($240/year)
+- From SEO-RULES.md line 220
+- Danish: 1.797 kr. årligt (188 kr. månedligt)
+
+After each section, update counts and check boxes when ≥10 reached.

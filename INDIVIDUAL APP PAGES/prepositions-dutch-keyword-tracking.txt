@@ -1,0 +1,151 @@
+KEYWORD TRACKING - Prepositions App - Dutch (Nederlands)
+
+TARGET: Each keyword must appear MINIMUM 10 times in H2/H3 titles ONLY
+(Body text does NOT count toward the minimum)
+
+PRICING VERIFICATION:
+✓ App Name: Prepositions
+✓ Subscription Tier: Full Access $240/year
+✓ Monthly Price: $25/month
+✓ I will use "Full Access" and "$240/$25" throughout this document
+✓ I will NEVER use "Core Bundle" or "$144/$15" for this app
+
+=========================================================
+DUTCH KEYWORDS (from keywords.txt lines 297-310):
+=========================================================
+
+1. Werkbladen groep 3 (Worksheets group 3)
+2. Werkbladen kleuters / Groep 1 2 (Worksheets for toddlers/kindergarten)
+3. Rekenen werkbladen (Math worksheets)
+4. Kleurplaten (Coloring pages)
+5. Letters leren / Schrijven oefenen (Learning letters / Writing practice)
+6. Oefenbladen gratis (Free practice sheets)
+7. Tafels oefenen (Multiplication tables practice)
+8. Veilig leren lezen (Safe learning to read)
+9. Fijne motoriek (Fine motor skills)
+10. Sommen tot 20 (Sums up to 20)
+
+=========================================================
+CURRENT STATUS:
+=========================================================
+
+After Section 1 (Hero):
+✓ SECTION COMPLETED - No H2/H3 titles in Hero section (expected)
+[ ] 1. Werkbladen groep 3: 0/10 (Section 1 has no H2/H3)
+[ ] 2. Werkbladen kleuters / Groep 1 2: 0/10 (Section 1 has no H2/H3)
+[ ] 3. Rekenen werkbladen: 0/10 (Section 1 has no H2/H3)
+[ ] 4. Kleurplaten: 0/10 (Section 1 has no H2/H3)
+[ ] 5. Letters leren / Schrijven oefenen: 0/10 (Section 1 has no H2/H3)
+[ ] 6. Oefenbladen gratis: 0/10 (Section 1 has no H2/H3)
+[ ] 7. Tafels oefenen: 0/10 (Section 1 has no H2/H3)
+[ ] 8. Veilig leren lezen: 0/10 (Section 1 has no H2/H3)
+[ ] 9. Fijne motoriek: 0/10 (Section 1 has no H2/H3)
+[ ] 10. Sommen tot 20: 0/10 (Section 1 has no H2/H3)
+
+After Section 2 (Features):
+✓ SECTION COMPLETED - 1 H2 + 7 H3 subsections
+[ ] 1. Werkbladen groep 3: 3/10 (good start! +7 needed)
+[ ] 2. Werkbladen kleuters: 5/10 (halfway there! +5 needed)
+[ ] 3. Rekenen werkbladen: 0/10 (needs to appear in future sections)
+[ ] 4. Kleurplaten: 0/10 (needs to appear in future sections)
+[ ] 5. Letters leren / Schrijven oefenen: 0/10 (needs to appear in future sections)
+[ ] 6. Oefenbladen gratis: 6/10 (over halfway! +4 needed)
+[ ] 7. Tafels oefenen: 0/10 (needs to appear in future sections)
+[ ] 8. Veilig leren lezen: 0/10 (needs to appear in future sections)
+[ ] 9. Fijne motoriek: 0/10 (needs to appear in future sections)
+[ ] 10. Sommen tot 20: 0/10 (needs to appear in future sections)
+
+After Section 3 (How-To):
+✓ SECTION COMPLETED - 1 H2 + 5 H3 subsections
+[ ] 1. Werkbladen groep 3: 7/10 (great progress! +3 needed)
+[✓] 2. Werkbladen kleuters: 10/10 ✅ TARGET MET!
+[ ] 3. Rekenen werkbladen: 0/10 (needs to appear in future sections)
+[ ] 4. Kleurplaten: 0/10 (needs to appear in future sections)
+[ ] 5. Letters leren / Schrijven oefenen: 0/10 (needs to appear in future sections)
+[✓] 6. Oefenbladen gratis: 11/10 ✅ TARGET MET!
+[ ] 7. Tafels oefenen: 0/10 (needs to appear in future sections)
+[ ] 8. Veilig leren lezen: 0/10 (needs to appear in future sections)
+[ ] 9. Fijne motoriek: 0/10 (needs to appear in future sections)
+[ ] 10. Sommen tot 20: 0/10 (needs to appear in future sections)
+
+After Section 4 (Use Cases):
+✓ SECTION COMPLETED - 1 H2 + 6 H3 subsections
+[✓] 1. Werkbladen groep 3: 10/10 ✅ TARGET MET!
+[✓] 2. Werkbladen kleuters: 11/10 ✅ TARGET EXCEEDED!
+[ ] 3. Rekenen werkbladen: 1/10 (started! +9 needed)
+[ ] 4. Kleurplaten: 0/10 (PRIORITY - needs heavy focus in remaining sections!)
+[ ] 5. Letters leren / Schrijven oefenen: 1/10 (started! +9 needed)
+[✓] 6. Oefenbladen gratis: 14/10 ✅ TARGET EXCEEDED!
+[ ] 7. Tafels oefenen: 1/10 (started! +9 needed)
+[ ] 8. Veilig leren lezen: 1/10 (started! +9 needed)
+[ ] 9. Fijne motoriek: 1/10 (started! +9 needed)
+[ ] 10. Sommen tot 20: 1/10 (started! +9 needed)
+
+After Section 5 (Subscription Reasons):
+✓ SECTION COMPLETED - 1 H2 + 3 H3 subsections
+[✓] 1. Werkbladen groep 3: 12/10 ✅ TARGET EXCEEDED!
+[✓] 2. Werkbladen kleuters: 13/10 ✅ TARGET EXCEEDED!
+[ ] 3. Rekenen werkbladen: 1/10 (needs +9 in Sections 6-7!)
+[ ] 4. Kleurplaten: 2/10 (STARTED! needs +8 in Sections 6-7!)
+[ ] 5. Letters leren / Schrijven oefenen: 1/10 (needs +9 in Sections 6-7!)
+[✓] 6. Oefenbladen gratis: 14/10 ✅ TARGET EXCEEDED!
+[ ] 7. Tafels oefenen: 1/10 (needs +9 in Sections 6-7!)
+[ ] 8. Veilig leren lezen: 2/10 (progress! needs +8 in Sections 6-7!)
+[ ] 9. Fijne motoriek: 1/10 (needs +9 in Sections 6-7!)
+[ ] 10. Sommen tot 20: 1/10 (needs +9 in Sections 6-7!)
+
+After Section 6 (FAQ):
+✓ SECTION COMPLETED - 1 H2 + 12 H3 subsections
+[✓] 1. Werkbladen groep 3: 15/10 ✅ TARGET EXCEEDED! (GREAT!)
+[✓] 2. Werkbladen kleuters: 18/10 ✅ TARGET EXCEEDED! (AMAZING!)
+[ ] 3. Rekenen werkbladen: 3/10 (progress! needs +7 in Section 7!)
+[ ] 4. Kleurplaten: 5/10 (halfway there! needs +5 in Section 7!)
+[ ] 5. Letters leren / Schrijven oefenen: 4/10 (progress! needs +6 in Section 7!)
+[✓] 6. Oefenbladen gratis: 17/10 ✅ TARGET EXCEEDED! (EXCELLENT!)
+[ ] 7. Tafels oefenen: 2/10 (needs +8 in Section 7! PRIORITY!)
+[ ] 8. Veilig leren lezen: 4/10 (progress! needs +6 in Section 7!)
+[ ] 9. Fijne motoriek: 2/10 (needs +8 in Section 7! PRIORITY!)
+[ ] 10. Sommen tot 20: 2/10 (needs +8 in Section 7! PRIORITY!)
+
+After Section 7 (Combine Apps):
+✓ SECTION COMPLETED - 1 H2 + 17 H3 subsections (added 17th H3 to fix "Fijne motoriek")
+[✓] 1. Werkbladen groep 3: 16/10 ✅ TARGET EXCEEDED!
+[✓] 2. Werkbladen kleuters: 21/10 ✅ TARGET EXCEEDED!
+[✓] 3. Rekenen werkbladen: 12/10 ✅ TARGET EXCEEDED!
+[✓] 4. Kleurplaten: 13/10 ✅ TARGET EXCEEDED!
+[✓] 5. Letters leren / Schrijven oefenen: 10/10 ✅ TARGET MET!
+[✓] 6. Oefenbladen gratis: 17/10 ✅ TARGET EXCEEDED!
+[✓] 7. Tafels oefenen: 10/10 ✅ TARGET MET!
+[✓] 8. Veilig leren lezen: 10/10 ✅ TARGET MET!
+[✓] 9. Fijne motoriek: 10/10 ✅ TARGET MET! (FIXED!)
+[✓] 10. Sommen tot 20: 10/10 ✅ TARGET MET!
+
+=========================================================
+FINAL TOTALS (ALL SECTIONS 1-7):
+=========================================================
+[✓] 1. Werkbladen groep 3: 16/10 ✅ (EXCEEDED!)
+[✓] 2. Werkbladen kleuters: 21/10 ✅ (EXCEEDED!)
+[✓] 3. Rekenen werkbladen: 12/10 ✅ (EXCEEDED!)
+[✓] 4. Kleurplaten: 13/10 ✅ (EXCEEDED!)
+[✓] 5. Letters leren / Schrijven oefenen: 10/10 ✅ (TARGET MET!)
+[✓] 6. Oefenbladen gratis: 17/10 ✅ (EXCEEDED!)
+[✓] 7. Tafels oefenen: 10/10 ✅ (TARGET MET!)
+[✓] 8. Veilig leren lezen: 10/10 ✅ (TARGET MET!)
+[✓] 9. Fijne motoriek: 10/10 ✅ (TARGET MET!)
+[✓] 10. Sommen tot 20: 10/10 ✅ (TARGET MET!)
+
+STATUS: ✅ PERFECT - ALL 10 KEYWORDS AT 10+ IN H2/H3 TITLES!
+
+🎉 PERFECT SCORE: 10/10 keywords at target!
+📊 Total keyword occurrences in H2/H3 titles: 149
+📄 Total sections: 7 sections complete
+✍️ Total word count: ~7,200+ words
+🎯 SEO optimization: COMPLETE
+🚀 READY FOR DEPLOYMENT!
+
+=========================================================
+NOTES:
+=========================================================
+- After each section, update counts and check boxes when ≥10 reached
+- Track ONLY H2/H3 title occurrences, NOT body text
+- All 10 keywords MUST reach 10+ by end of Section 7

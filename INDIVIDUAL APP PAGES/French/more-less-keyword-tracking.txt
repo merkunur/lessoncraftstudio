@@ -1,0 +1,220 @@
+KEYWORD TRACKING - More or Less App - FRENCH (Français)
+
+TARGET: Each keyword must appear MINIMUM 10 times in H2/H3 titles ONLY
+(Body text does NOT count toward this minimum)
+
+SOURCE: keywords.txt (French - Lines 103-112)
+
+FRENCH KEYWORDS (Top 10):
+[ ] 1. Fiches maternelle: 0/10
+[ ] 2. Exercices CP / Exercices CE1: 0/10
+[ ] 3. Graphisme maternelle: 0/10
+[ ] 4. Coloriage / Coloriage à imprimer: 0/10
+[ ] 5. Apprendre à lire: 0/10
+[ ] 6. Exercices maths / Calcul: 0/10
+[ ] 7. Alphabet / Apprendre les lettres: 0/10
+[ ] 8. Tables de multiplication: 0/10
+[ ] 9. Fiches à imprimer gratuit: 0/10
+[ ] 10. Écriture / Écriture cursive: 0/10
+
+---
+
+SECTION-BY-SECTION TRACKING:
+
+After Section 1 (Hero):
+NOTE: Section 1 contains only H1 + body paragraphs (no H2/H3 subsections)
+H2/H3 Title Counts:
+- Fiches maternelle: 0
+- Exercices CP / Exercices CE1: 0
+- Graphisme maternelle: 0
+- Coloriage à imprimer: 0
+- Apprendre à lire: 0
+- Exercices maths / Calcul: 0
+- Alphabet / Apprendre les lettres: 0
+- Tables de multiplication: 0
+- Fiches à imprimer gratuit: 0
+- Écriture / Écriture cursive: 0
+
+Running Total: 0 H2/H3 titles so far
+Target: Need 40-70+ H3 titles across all sections to hit 10x per keyword
+
+After Section 2 (Features):
+H2/H3 Titles in Section 2: 1 H2 + 7 H3 = 8 titles
+
+Keyword counts in Section 2 H2/H3 titles:
+- "Fiches maternelle" appears in: H2, H3-1, H3-2, H3-3, H3-4, H3-5, H3-6, H3-7 = 8 times
+- "Exercices maths" appears in: H2, H3-2, H3-4, H3-5, H3-7 = 5 times
+- "Fiches à imprimer gratuit" appears in: H2, H3-1, H3-2 = 3 times
+- "Exercices CP" appears in: H3-1, H3-3, H3-4 = 3 times
+- "Graphisme maternelle" appears in: H3-7 = 1 time
+- "Coloriage à imprimer" appears in: H3-6 = 1 time
+- "Apprendre à lire" appears in: H3-4 = 1 time
+
+RUNNING TOTALS after Section 2:
+- Fiches maternelle: 8/10 ⚠️ (need 2 more)
+- Exercices maths: 5/10 ⚠️ (need 5 more)
+- Fiches à imprimer gratuit: 3/10 ⚠️ (need 7 more)
+- Exercices CP / Exercices CE1: 3/10 ⚠️ (need 7 more)
+- Graphisme maternelle: 1/10 ❌ (need 9 more)
+- Coloriage à imprimer: 1/10 ❌ (need 9 more)
+- Apprendre à lire: 1/10 ❌ (need 9 more)
+- Alphabet / Apprendre les lettres: 0/10 ❌ (need 10)
+- Tables de multiplication: 0/10 ❌ (need 10)
+- Écriture cursive: 0/10 ❌ (need 10)
+
+Running Total: 8 H2/H3 titles
+Keywords on track: 0 out of 10
+Keywords at risk: 4 (Fiches maternelle, Exercices maths, Fiches à imprimer, Exercices CP)
+Keywords needing urgent attention: 6
+
+After Section 3 (How-To):
+H2/H3 Titles in Section 3: 1 H2 + 5 H3 = 6 titles
+
+Keyword counts in Section 3 H2/H3 titles:
+- "Fiches maternelle" appears in: H2, H3-1, H3-3, H3-4, H3-5 = 5 times (actually 6 - counted twice in H3-5)
+- "Exercices maths" appears in: H2, H3-2, H3-4, H3-5 = 4 times
+- "Fiches à imprimer gratuit" appears in: H2, H3-2 = 2 times
+- "Exercices CP" appears in: H3-1, H3-3 = 2 times
+
+RUNNING TOTALS after Section 3:
+- Fiches maternelle: 14/10 ✅ COMPLETE! (8 from S2 + 6 from S3)
+- Exercices maths: 9/10 ⚠️ (5 from S2 + 4 from S3, need 1 more)
+- Fiches à imprimer gratuit: 5/10 ⚠️ (3 from S2 + 2 from S3, need 5 more)
+- Exercices CP / CE1: 5/10 ⚠️ (3 from S2 + 2 from S3, need 5 more)
+- Graphisme maternelle: 1/10 ❌ (need 9 more)
+- Coloriage à imprimer: 1/10 ❌ (need 9 more)
+- Apprendre à lire: 1/10 ❌ (need 9 more)
+- Alphabet / Apprendre les lettres: 0/10 ❌ (need 10)
+- Tables de multiplication: 0/10 ❌ (need 10)
+- Écriture cursive: 0/10 ❌ (need 10)
+
+Running Total: 14 H2/H3 titles (8 from S2 + 6 from S3)
+Keywords COMPLETED: 1 out of 10 ✅ (Fiches maternelle)
+Keywords at risk: 3 (Exercices maths, Fiches à imprimer, Exercices CP)
+Keywords needing urgent attention: 6
+
+After Section 4 (Use Cases):
+H2/H3 Titles in Section 4: 1 H2 + 6 H3 = 7 titles
+
+Keyword counts in Section 4 H2/H3 titles:
+- "Fiches maternelle" appears in: H2, H3-1 (x2), H3-5 (x2) = 5 times
+- "Exercices maths" appears in: H2, H3-1, H3-3, H3-4, H3-5, H3-6 = 6 times
+- "Exercices CP" appears in: H2, H3-2 = 2 times
+- "Graphisme maternelle" appears in: H3-1 (x2), H3-5 (x2) = 4 times
+- "Fiches à imprimer gratuit" appears in: H3-2, H3-3, H3-6 = 3 times
+- "Apprendre à lire" appears in: H3-2 (x2), H3-4 = 3 times
+- "Coloriage à imprimer" appears in: H3-5 = 1 time
+- "Alphabet" appears in: H3-3 = 1 time
+
+RUNNING TOTALS after Section 4:
+- Fiches maternelle: 19/10 ✅ COMPLETE! (14 + 5)
+- Exercices maths: 15/10 ✅ COMPLETE! (9 + 6) 🎉
+- Exercices CP / CE1: 7/10 ⚠️ (5 + 2, need 3 more)
+- Fiches à imprimer gratuit: 8/10 ⚠️ (5 + 3, need 2 more)
+- Graphisme maternelle: 5/10 ⚠️ (1 + 4, need 5 more)
+- Apprendre à lire: 4/10 ⚠️ (1 + 3, need 6 more)
+- Coloriage à imprimer: 2/10 ❌ (1 + 1, need 8 more)
+- Alphabet / Apprendre les lettres: 1/10 ❌ (0 + 1, need 9 more)
+- Tables de multiplication: 0/10 ❌ (need 10)
+- Écriture cursive: 0/10 ❌ (need 10)
+
+Running Total: 21 H2/H3 titles (8 from S2 + 6 from S3 + 7 from S4)
+Keywords COMPLETED: 2 out of 10 ✅ (Fiches maternelle, Exercices maths)
+Keywords at risk: 4 (Exercices CP, Fiches à imprimer, Graphisme maternelle, Apprendre à lire)
+Keywords needing urgent attention: 4
+
+After Section 5 (Subscription Reasons):
+H2/H3 Titles in Section 5: 1 H2 + 3 H3 = 4 titles
+
+Keyword counts in Section 5 H2/H3 titles:
+- "Fiches maternelle" appears in: H2, H3-2 = 2 times
+- "Exercices CP" appears in: H2, H3-2 = 2 times
+- "Exercices maths" appears in: H3-1, H3-3 = 2 times
+- "Fiches à imprimer gratuit" appears in: H3-1, H3-3 = 2 times
+- "Alphabet" appears in: H3-1, H3-3 = 2 times
+- "Écriture cursive" appears in: H3-1 = 1 time
+- "Coloriage à imprimer" appears in: H3-2 = 1 time
+
+RUNNING TOTALS after Section 5:
+- Fiches maternelle: 21/10 ✅ COMPLETE!
+- Exercices maths: 17/10 ✅ COMPLETE!
+- Exercices CP / CE1: 9/10 ⚠️ (7 + 2, need 1 more!)
+- Fiches à imprimer gratuit: 10/10 ✅ COMPLETE! 🎉
+- Alphabet / Apprendre les lettres: 3/10 ❌ (1 + 2, need 7 more)
+- Graphisme maternelle: 5/10 ⚠️ (need 5 more)
+- Apprendre à lire: 4/10 ⚠️ (need 6 more)
+- Coloriage à imprimer: 3/10 ❌ (2 + 1, need 7 more)
+- Écriture cursive: 1/10 ❌ (0 + 1, need 9 more)
+- Tables de multiplication: 0/10 ❌ (need 10)
+
+Running Total: 25 H2/H3 titles (8 from S2 + 6 from S3 + 7 from S4 + 4 from S5)
+Keywords COMPLETED: 3 out of 10 ✅ (Fiches maternelle, Exercices maths, Fiches à imprimer gratuit)
+Keywords very close: 1 (Exercices CP needs just 1 more!)
+Keywords needing urgent attention: 6 (need heavy integration in Sections 6 & 7)
+
+After Section 6 (FAQ):
+H2/H3 Titles in Section 6: 1 H2 + 12 H3 = 13 titles
+
+Keyword counts in Section 6 H2/H3 titles:
+- "Fiches maternelle" appears in: H2, H3-1,2,4,6,8,9,10,11 = 9 times
+- "Exercices maths" appears in: H2, H3-1,3,7,11,12 = 6 times
+- "Fiches à imprimer gratuit" appears in: H2, H3-9 = 2 times
+- "Exercices CP / CE1" appears in: H3-4,5,7,11 = 4 times
+- "Graphisme maternelle" appears in: H3-2,3,6,7 = 4 times
+- "Coloriage à imprimer" appears in: H3-1,2,4,7,9 = 5 times
+- "Apprendre à lire" appears in: H3-5,9,11 = 3 times
+- "Alphabet" appears in: H3-4,5,8,9,12 = 5 times
+- "Écriture cursive" appears in: H3-3,8,12 = 3 times
+- "Tables de multiplication" appears in: H3-6,10,12 = 3 times
+
+RUNNING TOTALS after Section 6:
+- Fiches maternelle: 30/10 ✅ COMPLETE! (21 + 9)
+- Exercices maths: 23/10 ✅ COMPLETE! (17 + 6)
+- Fiches à imprimer gratuit: 12/10 ✅ COMPLETE! (10 + 2)
+- Exercices CP / CE1: 13/10 ✅ COMPLETE! (9 + 4) 🎉
+- Graphisme maternelle: 9/10 ⚠️ (5 + 4, need 1 more!)
+- Coloriage à imprimer: 8/10 ⚠️ (3 + 5, need 2 more!)
+- Alphabet / Apprendre les lettres: 8/10 ⚠️ (3 + 5, need 2 more!)
+- Apprendre à lire: 7/10 ⚠️ (4 + 3, need 3 more!)
+- Écriture cursive: 4/10 ❌ (1 + 3, need 6 more!)
+- Tables de multiplication: 3/10 ❌ (0 + 3, need 7 more!)
+
+Running Total: 38 H2/H3 titles (8+6+7+4+13 = 38)
+Keywords COMPLETED: 4 out of 10 ✅ (Fiches maternelle, Exercices maths, Fiches à imprimer, Exercices CP)
+Keywords very close (need 1-3 more): 4 (Graphisme maternelle, Coloriage, Alphabet, Apprendre à lire)
+Keywords needing urgent attention in Section 7: 2 (Écriture cursive needs 6, Tables multiplication needs 7)
+
+After Section 7 (Combine Apps):
+H2/H3 Titles in Section 7: 1 H2 + 8 H3 = 9 titles
+
+Keyword counts in Section 7 H2/H3 titles:
+- "Tables de multiplication" appears in: H2, H3-1,2,3,4,5,6,7,8 = 9 times
+- "Écriture cursive" appears in: H2, H3-2,3,4,5,6,7,8 = 8 times
+- "Alphabet" appears in: H2, H3-1,3,4,5,6,7,8 = 8 times
+- "Apprendre à lire" appears in: H2, H3-2,3,4,5,6,8 = 7 times
+- "Coloriage à imprimer" appears in: H2, H3-1,3 = 3 times
+- "Graphisme maternelle" appears in: H2, H3-1,2 = 3 times
+
+FINAL TOTALS after Section 7:
+✅ Fiches maternelle: 30/10 ✅ COMPLETE!
+✅ Exercices maths: 23/10 ✅ COMPLETE!
+✅ Fiches à imprimer gratuit: 12/10 ✅ COMPLETE!
+✅ Exercices CP / CE1: 13/10 ✅ COMPLETE!
+✅ Graphisme maternelle: 12/10 ✅ COMPLETE! (9 + 3) 🎉
+✅ Coloriage à imprimer: 11/10 ✅ COMPLETE! (8 + 3) 🎉
+✅ Alphabet / Apprendre les lettres: 16/10 ✅ COMPLETE! (8 + 8) 🎉
+✅ Apprendre à lire: 14/10 ✅ COMPLETE! (7 + 7) 🎉
+✅ Écriture cursive: 12/10 ✅ COMPLETE! (4 + 8) 🎉
+✅ Tables de multiplication: 12/10 ✅ COMPLETE! (3 + 9) 🎉
+
+FINAL Running Total: 47 H2/H3 titles (8+6+7+4+13+9 = 47)
+Keywords COMPLETED: 10 out of 10 ✅✅✅ ALL KEYWORDS COMPLETE! 🎉🎉🎉
+
+---
+
+FINAL VERIFICATION COMPLETE:
+- Only count H2 and H3 titles/subtitles
+- Do NOT count H1 (only one H1 per page)
+- Do NOT count body text
+- Must reach minimum 10 for EVERY keyword
+- If any keyword < 10, add more H3 subsections in Section 7

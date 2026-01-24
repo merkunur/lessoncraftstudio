@@ -1,0 +1,316 @@
+KEYWORD TRACKING - Addition App - French
+
+TARGET: Each keyword must appear MINIMUM 10 times in H2/H3 titles ONLY
+
+Current Status:
+[✓] 1. Fiches maternelle: 10/10 ✓
+[✓] 2. Exercices CP / Exercices CE1: 11/10 ✓
+[✓] 3. Graphisme maternelle: 10/10 ✓
+[✓] 4. Coloriage / Coloriage à imprimer: 10/10 ✓
+[✓] 5. Apprendre à lire: 10/10 ✓
+[✓] 6. Exercices maths / Calcul: 10/10 ✓
+[✓] 7. Alphabet / Apprendre les lettres: 10/10 ✓
+[✓] 8. Tables de multiplication: 10/10 ✓
+[✓] 9. Fiches à imprimer gratuit: 10/10 ✓
+[✓] 10. Écriture / Écriture cursive: 11/10 ✓
+
+After each section, update counts and check boxes when ≥10 reached.
+
+---
+SECTION 1 (Hero) - H2/H3 Keyword Counts:
+Note: Section 1 contains only H1 (not counted per SEO rules) and body paragraphs.
+H2/H3 keywords will accumulate in Sections 2-7.
+
+Running Totals After Section 1:
+- Fiches maternelle: 0
+- Exercices CP / Exercices CE1: 0
+- Graphisme maternelle: 0
+- Coloriage / Coloriage à imprimer: 0
+- Apprendre à lire: 0
+- Exercices maths / Calcul: 0
+- Alphabet / Apprendre les lettres: 0
+- Tables de multiplication: 0
+- Fiches à imprimer gratuit: 0
+- Écriture / Écriture cursive: 0
+
+---
+SECTION 2 (Features) - H2/H3 Keyword Counts:
+
+H2: "Fonctionnalités du Générateur d'Addition - Tout pour Créer des Fiches Maternelle et des Exercices Maths Professionnels"
+- Fiches maternelle: 1, Exercices maths: 1
+
+H3#1: "Créez des Fiches d'Addition en 3 Clics - Générateur Rapide de Fiches à Imprimer Gratuit pour la Maternelle"
+- Fiches à imprimer gratuit: 1
+
+H3#2: "Modifiez Tout sur Vos Exercices Maths - Personnalisation Complète des Fiches Maternelle et Exercices CP"
+- Exercices maths: 1, Fiches maternelle: 1, Exercices CP: 1
+
+H3#3: "Téléversez Vos Propres Images - Fiches d'Addition Personnalisées pour le Graphisme Maternelle"
+- Graphisme maternelle: 1
+
+H3#4: "Fiches d'Addition en 11 Langues - Support Multilingue pour Apprendre à Lire et l'Alphabet"
+- Apprendre à lire: 1, Alphabet: 1
+
+H3#5: "Licence Commerciale Incluse - Vendez des Fiches de Coloriage à Imprimer et Exercices CP sur Teachers Pay Teachers"
+- Coloriage à imprimer: 1, Exercices CP: 1
+
+H3#6: "Plus de 3000 Images Adaptées aux Enfants - Bibliothèque Thématique pour Fiches Maternelle et Écriture"
+- Fiches maternelle: 1, Écriture: 1
+
+H3#7: "Qualité Professionnelle 300 DPI - Fiches d'Écriture Cursive et Exercices CE1 Haute Résolution"
+- Écriture cursive: 1, Exercices CE1: 1
+
+Running Totals After Section 2:
+- Fiches maternelle: 3
+- Exercices CP / Exercices CE1: 3
+- Graphisme maternelle: 1
+- Coloriage / Coloriage à imprimer: 1
+- Apprendre à lire: 1
+- Exercices maths / Calcul: 2
+- Alphabet / Apprendre les lettres: 1
+- Tables de multiplication: 0
+- Fiches à imprimer gratuit: 1
+- Écriture / Écriture cursive: 2
+
+---
+SECTION 3 (How-To) - H2/H3 Keyword Counts:
+
+H2: "Comment Créer des Fiches d'Addition en 5 Étapes Faciles - Tutoriel pour Fiches Maternelle et Exercices Maths"
+- Fiches maternelle: 1, Exercices maths: 1
+
+H3#1: "Étape 1 : Sélectionnez les Images pour Vos Fiches d'Addition - Fiches Maternelle avec Thèmes et Calcul Visuel"
+- Fiches maternelle: 1, Calcul: 1
+
+H3#2: "Étape 2 : Configurez les Paramètres d'Addition - Exercices CP et Exercices CE1 Adaptés au Niveau"
+- Exercices CP: 1, Exercices CE1: 1
+
+H3#3: "Étape 3 : Générez Votre Fiche d'Addition - Aperçu Instantané des Fiches à Imprimer Gratuit et Graphisme Maternelle"
+- Fiches à imprimer gratuit: 1, Graphisme maternelle: 1
+
+H3#4: "Étape 4 : Modifiez Vos Exercices Maths - Personnalisation pour Fiches d'Alphabet et Apprendre à Lire"
+- Exercices maths: 1, Alphabet: 1, Apprendre à lire: 1
+
+H3#5: "Étape 5 : Téléchargez et Imprimez les Fiches - PDF et JPEG pour Exercices CE1 et Coloriage à Imprimer"
+- Exercices CE1: 1, Coloriage à imprimer: 1
+
+Running Totals After Section 3:
+- Fiches maternelle: 5
+- Exercices CP / Exercices CE1: 6
+- Graphisme maternelle: 2
+- Coloriage / Coloriage à imprimer: 2
+- Apprendre à lire: 2
+- Exercices maths / Calcul: 5
+- Alphabet / Apprendre les lettres: 2
+- Tables de multiplication: 0
+- Fiches à imprimer gratuit: 2
+- Écriture / Écriture cursive: 2
+
+---
+SECTION 4 (Use Cases) - H2/H3 Keyword Counts:
+
+H2: "Parfait pour les Enseignants, Parents et Éducateurs - Fiches à Imprimer Gratuit pour Exercices Maths et Tables de Multiplication"
+- Fiches à imprimer gratuit: 1, Exercices maths: 1, Tables de multiplication: 1
+
+H3#1: "Enseignants de Maternelle et Préscolaire - Créez des Fiches Maternelle et du Graphisme Maternelle pour les Petits"
+- Fiches maternelle: 1, Graphisme maternelle: 1
+
+H3#2: "Enseignants du Primaire CP CE1 CE2 - Fiches pour Apprendre à Lire et Tables de Multiplication"
+- Apprendre à lire: 1, Tables de multiplication: 1
+
+H3#3: "Parents en Instruction à Domicile - Fiches à Imprimer Gratuit pour Exercices Maths et Écriture"
+- Fiches à imprimer gratuit: 1, Exercices maths: 1, Écriture: 1
+
+H3#4: "Enseignants de FLE et de Langues - Exercices CP Multilingues pour Apprendre les Lettres en 11 Langues"
+- Exercices CP: 1, Apprendre les lettres: 1
+
+H3#5: "Enseignants Spécialisés - Fiches Maternelle et Exercices CE1 Différenciés pour Besoins Spécifiques"
+- Fiches maternelle: 1, Exercices CE1: 1
+
+H3#6: "Enseignants Entrepreneurs - Vendez des Fiches de Coloriage à Imprimer et Tables de Multiplication sur Teachers Pay Teachers"
+- Coloriage à imprimer: 1, Tables de multiplication: 1
+
+Running Totals After Section 4:
+- Fiches maternelle: 7
+- Exercices CP / Exercices CE1: 8
+- Graphisme maternelle: 3
+- Coloriage / Coloriage à imprimer: 3
+- Apprendre à lire: 3
+- Exercices maths / Calcul: 7
+- Alphabet / Apprendre les lettres: 3
+- Tables de multiplication: 3
+- Fiches à imprimer gratuit: 4
+- Écriture / Écriture cursive: 3
+
+---
+SECTION 5 (Subscription Reasons) - H2/H3 Keyword Counts:
+
+H2: "Les 3 Raisons Principales de S'Abonner - Fonctionnalités Premium pour Fiches Maternelle et Apprendre à Lire"
+- Fiches maternelle: 1, Apprendre à lire: 1
+
+H3#1: "Enseigner en Plusieurs Langues - Fiches d'Addition en 11 Langues pour Apprendre les Lettres et l'Alphabet"
+- Apprendre les lettres: 1, Alphabet: 1
+
+H3#2: "Licence Commerciale Print-on-Demand - Vendez des Fiches de Coloriage à Imprimer et Tables de Multiplication"
+- Coloriage à imprimer: 1, Tables de multiplication: 1
+
+H3#3: "Gain de Temps et Productivité - Créez des Fiches à Imprimer Gratuit et Exercices Maths en Minutes"
+- Fiches à imprimer gratuit: 1, Exercices maths: 1
+
+Running Totals After Section 5:
+- Fiches maternelle: 8
+- Exercices CP / Exercices CE1: 8
+- Graphisme maternelle: 3
+- Coloriage / Coloriage à imprimer: 4
+- Apprendre à lire: 4
+- Exercices maths / Calcul: 8
+- Alphabet / Apprendre les lettres: 5
+- Tables de multiplication: 4
+- Fiches à imprimer gratuit: 5
+- Écriture / Écriture cursive: 3
+
+---
+SECTION 6 (FAQ) - H2/H3 Keyword Counts:
+
+H2: "Questions Fréquentes sur les Fiches d'Addition - Fiches à Imprimer Gratuit et Exercices Maths pour Tous"
+- Fiches à imprimer gratuit: 1, Exercices maths: 1
+
+H3#1: "Ce Générateur de Fiches d'Addition Est-Il Vraiment Gratuit pour les Fiches Maternelle ?"
+- Fiches maternelle: 1
+
+H3#2: "Puis-Je Imprimer les Fiches d'Addition à la Maison pour les Exercices CP ?"
+- Exercices CP: 1
+
+H3#3: "Les Fiches d'Addition Conviennent-Elles au Graphisme Maternelle et à l'Écriture Cursive ?"
+- Graphisme maternelle: 1, Écriture cursive: 1
+
+H3#4: "Quelles Langues Sont Disponibles pour Apprendre à Lire et l'Alphabet ?"
+- Apprendre à lire: 1, Alphabet: 1
+
+H3#5: "Puis-Je Combiner les Fiches d'Addition avec des Fiches de Coloriage à Imprimer ?"
+- Coloriage à imprimer: 1
+
+H3#6: "Comment Utiliser les Fiches d'Addition pour les Tables de Multiplication ?"
+- Tables de multiplication: 1
+
+H3#7: "Ai-Je Besoin de Compétences en Design pour Créer des Exercices Maths ?"
+- Exercices maths: 1
+
+H3#8: "Les Fiches d'Addition Incluent-Elles des Activités de Graphisme Maternelle ?"
+- Graphisme maternelle: 1
+
+H3#9: "Puis-Je Vendre les Fiches d'Addition et les Fiches à Imprimer Gratuit sur Teachers Pay Teachers ?"
+- Fiches à imprimer gratuit: 1
+
+H3#10: "Quels Groupes d'Âge Conviennent aux Fiches d'Addition pour Apprendre les Lettres ?"
+- Apprendre les lettres: 1
+
+H3#11: "Les Fiches d'Addition Aident-Elles à l'Écriture Cursive et aux Exercices CE1 ?"
+- Écriture cursive: 1, Exercices CE1: 1
+
+H3#12: "Comment Différencier les Fiches d'Addition pour les Exercices CP et les Tables de Multiplication ?"
+- Exercices CP: 1, Tables de multiplication: 1
+
+Running Totals After Section 6:
+- Fiches maternelle: 9
+- Exercices CP / Exercices CE1: 11 ✓ COMPLETE
+- Graphisme maternelle: 5
+- Coloriage / Coloriage à imprimer: 5
+- Apprendre à lire: 5
+- Exercices maths / Calcul: 10 ✓ COMPLETE
+- Alphabet / Apprendre les lettres: 7
+- Tables de multiplication: 6
+- Fiches à imprimer gratuit: 7
+- Écriture / Écriture cursive: 5
+
+---
+SECTION 7 (Combine Apps) - H2/H3 Keyword Counts:
+
+H2: "Combinez les Fiches d'Addition avec d'Autres Générateurs - Paquets Complets de Fiches Maternelle et Apprendre à Lire"
+- Fiches maternelle: 1, Apprendre à lire: 1
+
+H3#1: "Fiches d'Addition Plus Graphisme Maternelle - Développement de la Motricité Fine et des Mathématiques"
+- Graphisme maternelle: 1
+
+H3#2: "Fiches d'Addition et Coloriage à Imprimer - Activités Mathématiques Créatives pour la Maternelle"
+- Coloriage à imprimer: 1
+
+H3#3: "Fiches d'Addition avec Apprendre à Lire - Intégration Mathématiques et Littératie"
+- Apprendre à lire: 1
+
+H3#4: "Fiches d'Addition et Tables de Multiplication - Progression Mathématique Complète"
+- Tables de multiplication: 1
+
+H3#5: "Fiches d'Addition Plus Alphabet et Apprendre les Lettres - Apprentissage Intégré Précoce"
+- Alphabet: 1, Apprendre les lettres: 1
+
+H3#6: "Fiches d'Addition et Fiches à Imprimer Gratuit - Paquets de Ressources Éducatives"
+- Fiches à imprimer gratuit: 1
+
+H3#7: "Fiches d'Addition avec Écriture et Écriture Cursive - Pratique Manuscrite Intégrée"
+- Écriture: 1, Écriture cursive: 1
+
+H3#8: "Fiches d'Addition Plus Graphisme Maternelle et Coloriage - Paquets Complets pour les Petits"
+- Graphisme maternelle: 1
+
+H3#9: "Fiches d'Addition et Tables de Multiplication avec Apprendre à Lire - Ressources Académiques Complètes"
+- Tables de multiplication: 1, Apprendre à lire: 1
+
+H3#10: "Fiches d'Addition avec Écriture Cursive et Alphabet - Développement des Compétences Fondamentales"
+- Écriture cursive: 1, Alphabet: 1
+
+H3#11: "Paquets Thématiques avec Graphisme Maternelle et Coloriage à Imprimer - Ressources Saisonnières"
+- Graphisme maternelle: 1, Coloriage à imprimer: 1
+
+H3#12: "Fiches à Imprimer Gratuit avec Apprendre à Lire et Tables de Multiplication - Échantillons Marketing"
+- Fiches à imprimer gratuit: 1, Apprendre à lire: 1, Tables de multiplication: 1
+
+H3#13: "Écriture Cursive avec Graphisme Maternelle et Coloriage à Imprimer - Développement Moteur Complet"
+- Écriture cursive: 1, Graphisme maternelle: 1, Coloriage à imprimer: 1
+
+H3#14: "Tables de Multiplication et Apprendre à Lire avec Fiches à Imprimer Gratuit - Ressources Complètes"
+- Tables de multiplication: 1, Apprendre à lire: 1, Fiches à imprimer gratuit: 1
+
+H3#15: "Activités de Graphisme Maternelle et Écriture Cursive - Progression de la Motricité Fine"
+- Graphisme maternelle: 1, Écriture cursive: 1
+
+H3#16: "Paquets de Coloriage à Imprimer et Écriture - Activités Créatives et Académiques"
+- Coloriage à imprimer: 1, Écriture: 1
+
+H3#17: "Fiches d'Addition avec Coloriage à Imprimer - Récompenses et Motivation pour les Élèves"
+- Coloriage à imprimer: 1
+
+Section 7 Totals:
+- Fiches maternelle: 1
+- Graphisme maternelle: 5
+- Coloriage à imprimer: 5
+- Apprendre à lire: 5
+- Tables de multiplication: 4
+- Fiches à imprimer gratuit: 3
+- Écriture / Écriture cursive: 6
+- Alphabet / Apprendre les lettres: 3
+
+---
+FINAL TOTALS (All Sections Combined):
+
+[✓] 1. Fiches maternelle: 10/10 ✓ COMPLETE
+[✓] 2. Exercices CP / Exercices CE1: 11/10 ✓ COMPLETE
+[✓] 3. Graphisme maternelle: 10/10 ✓ COMPLETE
+[✓] 4. Coloriage / Coloriage à imprimer: 10/10 ✓ COMPLETE
+[✓] 5. Apprendre à lire: 10/10 ✓ COMPLETE
+[✓] 6. Exercices maths / Calcul: 10/10 ✓ COMPLETE
+[✓] 7. Alphabet / Apprendre les lettres: 10/10 ✓ COMPLETE
+[✓] 8. Tables de multiplication: 10/10 ✓ COMPLETE
+[✓] 9. Fiches à imprimer gratuit: 10/10 ✓ COMPLETE
+[✓] 10. Écriture / Écriture cursive: 11/10 ✓ COMPLETE
+
+ALL 10 KEYWORDS HAVE REACHED MINIMUM 10 OCCURRENCES IN H2/H3 TITLES ✓
+
+Total H3 Subsections: 47
+- Section 2: 7 H3s
+- Section 3: 5 H3s
+- Section 4: 6 H3s
+- Section 5: 3 H3s
+- Section 6: 12 H3s
+- Section 7: 17 H3s (including H2)
+
+Word Count Estimate: ~7,500 words

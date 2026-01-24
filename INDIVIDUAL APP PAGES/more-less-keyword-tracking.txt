@@ -1,0 +1,254 @@
+KEYWORD TRACKING - More or Less App - English
+
+TARGET: Each keyword must appear MINIMUM 10 times in H2/H3 titles ONLY
+(Body text does NOT count toward this minimum)
+
+SOURCE: keywords.txt (English - Lines 1-12)
+
+Current Status:
+[ ] 1. Kindergarten worksheets: 0/10
+[ ] 2. Math worksheets: 0/10
+[ ] 3. Sight words worksheets: 0/10
+[ ] 4. Phonics worksheets: 0/10
+[ ] 5. Alphabet worksheets / ABC worksheets: 0/10
+[ ] 6. Addition worksheets: 0/10
+[ ] 7. Tracing worksheets / Letter tracing worksheets: 0/10
+[ ] 8. Free printable worksheets: 0/10
+[ ] 9. Coloring worksheets: 0/10
+[ ] 10. First grade worksheets: 0/10
+
+---
+
+SECTION-BY-SECTION TRACKING:
+
+After Section 1 (Hero):
+NOTE: Section 1 contains only H1 + body paragraphs (no H2/H3 subsections)
+H2/H3 Title Counts:
+- Kindergarten worksheets: 0
+- Math worksheets: 0
+- Sight words worksheets: 0
+- Phonics worksheets: 0
+- Alphabet worksheets / ABC worksheets: 0
+- Addition worksheets: 0
+- Tracing worksheets: 0
+- Free printable worksheets: 0
+- Coloring worksheets: 0
+- First grade worksheets: 0
+
+Running Total: 0 H2/H3 titles so far
+Target: Need 40-70+ H3 titles across all sections to hit 10x per keyword
+
+After Section 2 (Features):
+H2/H3 Titles in Section 2: 1 H2 + 7 H3 = 8 titles
+
+Keyword counts in Section 2 H2/H3 titles:
+- "Math Worksheets" appears in: H2, H3-1, H3-2, H3-3, H3-4, H3-5, H3-6, H3-7 = 8 times
+- "Kindergarten Worksheets" appears in: H2, H3-1, H3-2, H3-3, H3-5, H3-6, H3-7 = 7 times
+- "Free Printable Worksheets" appears in: H3-1, H3-2, H3-4, H3-6, H3-7 = 5 times
+
+RUNNING TOTALS after Section 2:
+- Kindergarten worksheets: 7/10 ⚠️ (need 3 more)
+- Math worksheets: 8/10 ⚠️ (need 2 more)
+- Sight words worksheets: 0/10 ❌ (need 10)
+- Phonics worksheets: 0/10 ❌ (need 10)
+- Alphabet worksheets / ABC worksheets: 0/10 ❌ (need 10)
+- Addition worksheets: 0/10 ❌ (need 10)
+- Tracing worksheets: 0/10 ❌ (need 10)
+- Free printable worksheets: 5/10 ⚠️ (need 5 more)
+- Coloring worksheets: 0/10 ❌ (need 10)
+- First grade worksheets: 0/10 ❌ (need 10)
+
+Running Total: 8 H2/H3 titles
+Keywords on track: 0 out of 10
+Keywords at risk: 3 (Kindergarten, Math, Free printable)
+Keywords needing urgent attention: 7
+
+After Section 3 (How-To):
+H2/H3 Titles in Section 3: 1 H2 + 5 H3 = 6 titles
+
+Keyword counts in Section 3 H2/H3 titles:
+- "Math Worksheets" appears in: H2, H3-1, H3-2, H3-3, H3-4, H3-5 = 6 times
+- "Kindergarten Worksheets" appears in: H2, H3-1, H3-2, H3-3, H3-4, H3-5 = 6 times
+- "First Grade Worksheets" appears in: H2, H3-2, H3-4, H3-5 = 4 times
+- "Free Printable Worksheets" appears in: H2, H3-2, H3-5 = 3 times
+- "Addition Worksheets" appears in: H3-1, H3-3 = 2 times
+- "Phonics Worksheets" appears in: H3-1 = 1 time
+
+RUNNING TOTALS after Section 3:
+- Kindergarten worksheets: 13/10 ✅ COMPLETE! (7 from S2 + 6 from S3)
+- Math worksheets: 14/10 ✅ COMPLETE! (8 from S2 + 6 from S3)
+- Free printable worksheets: 8/10 ⚠️ (need 2 more)
+- First grade worksheets: 4/10 ⚠️ (need 6 more)
+- Addition worksheets: 2/10 ❌ (need 8 more)
+- Phonics worksheets: 1/10 ❌ (need 9 more)
+- Sight words worksheets: 0/10 ❌ (need 10)
+- Alphabet worksheets / ABC worksheets: 0/10 ❌ (need 10)
+- Tracing worksheets: 0/10 ❌ (need 10)
+- Coloring worksheets: 0/10 ❌ (need 10)
+
+Running Total: 14 H2/H3 titles (8 from S2 + 6 from S3)
+Keywords COMPLETED: 2 out of 10 ✅
+Keywords at risk: 2 (Free printable, First grade)
+Keywords needing urgent attention: 6
+
+After Section 4 (Use Cases):
+H2/H3 Titles in Section 4: 1 H2 + 6 H3 = 7 titles
+
+Keyword counts in Section 4 H2/H3 titles:
+- "Math Worksheets" appears in: H3-1, H3-2, H3-4 = 3 times
+- "Kindergarten Worksheets" appears in: H2, H3-3, H3-5 = 3 times
+- "Alphabet Worksheets" appears in: H2, H3-1, H3-4 = 3 times
+- "First Grade Worksheets" appears in: H2, H3-6 = 2 times
+- "Addition Worksheets" appears in: H3-2, H3-6 = 2 times
+- "Phonics Worksheets" appears in: H3-2, H3-4 = 2 times
+- "Tracing Worksheets" appears in: H3-1, H3-5 = 2 times
+- "Free Printable Worksheets" appears in: H3-3, H3-6 = 2 times
+- "Sight Words Worksheets" appears in: H3-3 = 1 time
+- "Coloring Worksheets" appears in: H3-5 = 1 time
+
+RUNNING TOTALS after Section 4:
+- Kindergarten worksheets: 16/10 ✅ COMPLETE! (13 + 3)
+- Math worksheets: 17/10 ✅ COMPLETE! (14 + 3)
+- Free printable worksheets: 10/10 ✅ COMPLETE! (8 + 2)
+- Alphabet worksheets: 3/10 ⚠️ (0 + 3, need 7 more)
+- First grade worksheets: 6/10 ⚠️ (4 + 2, need 4 more)
+- Addition worksheets: 4/10 ⚠️ (2 + 2, need 6 more)
+- Phonics worksheets: 3/10 ⚠️ (1 + 2, need 7 more)
+- Tracing worksheets: 2/10 ❌ (0 + 2, need 8 more)
+- Sight words worksheets: 1/10 ❌ (0 + 1, need 9 more)
+- Coloring worksheets: 1/10 ❌ (0 + 1, need 9 more)
+
+Running Total: 21 H2/H3 titles (8 from S2 + 6 from S3 + 7 from S4)
+Keywords COMPLETED: 3 out of 10 ✅ (Kindergarten, Math, Free Printable)
+Keywords at risk: 4 (Alphabet, First grade, Addition, Phonics)
+Keywords needing urgent attention: 3 (Tracing, Sight words, Coloring)
+
+After Section 5 (Subscription Reasons):
+H2/H3 Titles in Section 5: 1 H2 + 3 H3 = 4 titles
+
+Keyword counts in Section 5 H2/H3 titles:
+- "Addition Worksheets" appears in: H2, H3-2 = 2 times
+- "Alphabet Worksheets" appears in: H2, H3-1 = 2 times
+- "Tracing Worksheets" appears in: H2, H3-3 = 2 times
+- "Phonics Worksheets" appears in: H3-1 = 1 time
+- "Sight Words Worksheets" appears in: H3-1 = 1 time
+- "First Grade Worksheets" appears in: H3-2 = 1 time
+- "Kindergarten Worksheets" appears in: H3-3 = 1 time
+- "Coloring Worksheets" appears in: H3-3 = 1 time
+
+RUNNING TOTALS after Section 5:
+- Kindergarten worksheets: 17/10 ✅ COMPLETE! (16 + 1)
+- Math worksheets: 17/10 ✅ COMPLETE! (no new)
+- Free printable worksheets: 10/10 ✅ COMPLETE! (no new)
+- Addition worksheets: 6/10 ⚠️ (4 + 2, need 4 more)
+- Alphabet worksheets: 5/10 ⚠️ (3 + 2, need 5 more)
+- First grade worksheets: 7/10 ⚠️ (6 + 1, need 3 more)
+- Phonics worksheets: 4/10 ⚠️ (3 + 1, need 6 more)
+- Tracing worksheets: 4/10 ⚠️ (2 + 2, need 6 more)
+- Sight words worksheets: 2/10 ❌ (1 + 1, need 8 more)
+- Coloring worksheets: 2/10 ❌ (1 + 1, need 8 more)
+
+Running Total: 25 H2/H3 titles (8 from S2 + 6 from S3 + 7 from S4 + 4 from S5)
+Keywords COMPLETED: 3 out of 10 ✅ (Kindergarten, Math, Free Printable)
+Keywords at risk: 5 (Addition, Alphabet, First grade, Phonics, Tracing)
+Keywords needing urgent attention: 2 (Sight words, Coloring)
+
+After Section 6 (FAQ):
+H2/H3 Titles in Section 6: 1 H2 + 12 H3 = 13 titles
+
+Keyword counts in Section 6 H2/H3 titles:
+- "Addition Worksheets" appears in: H3-1, H3-2, H3-6, H3-8, H3-11 = 5 times
+- "Kindergarten Worksheets" appears in: H2, H3-1, H3-3, H3-7 = 4 times
+- "First Grade Worksheets" appears in: H2, H3-4, H3-8, H3-11 = 4 times
+- "Phonics Worksheets" appears in: H2, H3-5, H3-9 = 3 times (note: H3-5 missing "Comparison Worksheets" in title)
+- "Sight Words Worksheets" appears in: H3-2, H3-5, H3-8, H3-12 = 4 times
+- "Coloring Worksheets" appears in: H3-4, H3-7, H3-10, H3-12 = 4 times
+- "Tracing Worksheets" appears in: H3-3, H3-6, H3-10 = 3 times
+- "Alphabet Worksheets" appears in: H3-3, H3-9 = 2 times
+
+RUNNING TOTALS after Section 6:
+- Kindergarten worksheets: 21/10 ✅ COMPLETE! (17 + 4)
+- Math worksheets: 17/10 ✅ COMPLETE! (no new)
+- Free printable worksheets: 10/10 ✅ COMPLETE! (no new)
+- First grade worksheets: 11/10 ✅ COMPLETE! (7 + 4) 🎉
+- Addition worksheets: 11/10 ✅ COMPLETE! (6 + 5) 🎉
+- Phonics worksheets: 7/10 ⚠️ (4 + 3, need 3 more)
+- Tracing worksheets: 7/10 ⚠️ (4 + 3, need 3 more)
+- Sight words worksheets: 6/10 ⚠️ (2 + 4, need 4 more)
+- Coloring worksheets: 6/10 ⚠️ (2 + 4, need 4 more)
+- Alphabet worksheets: 7/10 ⚠️ (5 + 2, need 3 more)
+
+Running Total: 38 H2/H3 titles (8+6+7+4+13)
+Keywords COMPLETED: 5 out of 10 ✅ (Kindergarten, Math, Free Printable, First Grade, Addition)
+Keywords needing attention in Section 7: 5 (Phonics, Tracing, Sight words, Coloring, Alphabet)
+
+After Section 7 (Combine Apps):
+H2/H3 Titles in Section 7: 1 H2 + 5 H3 = 6 titles
+
+Keyword counts in Section 7 H2/H3 titles:
+- "Alphabet Worksheets" appears in: H2, H3-2, H3-3, H3-5 = 4 times
+- "Phonics Worksheets" appears in: H2, H3-1, H3-5 = 3 times
+- "Sight Words Worksheets" appears in: H2, H3-1, H3-3, H3-5 = 4 times
+- "Tracing Worksheets" appears in: H2, H3-2, H3-4, H3-5 = 4 times
+- "Coloring Worksheets" appears in: H2, H3-4, H3-5 = 3 times
+Note: H3-5 title is VERY long with all 5 keywords!
+
+FINAL TOTALS after Section 7 (ALL SECTIONS COMPLETE):
+✅ Kindergarten worksheets: 21/10 ✅ COMPLETE! (17 + 4 + 0)
+✅ Math worksheets: 17/10 ✅ COMPLETE! (14 + 3 + 0)
+✅ Free printable worksheets: 10/10 ✅ COMPLETE! (8 + 2 + 0)
+✅ First grade worksheets: 11/10 ✅ COMPLETE! (7 + 4 + 0)
+✅ Addition worksheets: 11/10 ✅ COMPLETE! (6 + 5 + 0)
+✅ Alphabet worksheets: 11/10 ✅ COMPLETE! (7 + 2 + 4) 🎉
+✅ Phonics worksheets: 10/10 ✅ COMPLETE! (7 + 3 + 3) 🎉
+✅ Sight words worksheets: 10/10 ✅ COMPLETE! (6 + 4 + 4) 🎉
+✅ Tracing worksheets: 11/10 ✅ COMPLETE! (7 + 3 + 4) 🎉
+✅ Coloring worksheets: 9/10 ❌ FAILED! (6 + 4 + 3) - NEED 1 MORE
+
+CORRECTED - Added "Coloring Worksheets" to H3-2 title!
+Section 7 H2/H3 titles with "Coloring Worksheets":
+H2: "...Tracing Worksheets, and Coloring Worksheets" = 1
+H3-2: "...Tracing Worksheets, and Coloring Worksheets - Kindergarten..." = 1 (ADDED!)
+H3-4: "Tracing Worksheets and Coloring Worksheets Combined..." = 1
+H3-5: "...Coloring Worksheets, Sight Words Worksheets..." = 1
+Total in S7 = 4 (was 3, now 4)
+
+Previous total from S6 = 6
+6 + 4 = 10 ✅ NOW COMPLETE!
+
+---
+
+🎉🎉🎉 FINAL TOTALS (ALL SECTIONS COMPLETE) 🎉🎉🎉
+
+Total H2/H3 Titles Created: 44 titles
+(Section 2: 8, Section 3: 6, Section 4: 7, Section 5: 4, Section 6: 13, Section 7: 6)
+
+FINAL KEYWORD COUNTS IN H2/H3 TITLES:
+✅ 1. Kindergarten worksheets: 21/10 ✅ COMPLETE! (210% of target)
+✅ 2. Math worksheets: 17/10 ✅ COMPLETE! (170% of target)
+✅ 3. Free printable worksheets: 10/10 ✅ COMPLETE! (100% of target - exact!)
+✅ 4. First grade worksheets: 11/10 ✅ COMPLETE! (110% of target)
+✅ 5. Addition worksheets: 11/10 ✅ COMPLETE! (110% of target)
+✅ 6. Alphabet worksheets: 11/10 ✅ COMPLETE! (110% of target)
+✅ 7. Phonics worksheets: 10/10 ✅ COMPLETE! (100% of target - exact!)
+✅ 8. Sight words worksheets: 10/10 ✅ COMPLETE! (100% of target - exact!)
+✅ 9. Tracing worksheets: 11/10 ✅ COMPLETE! (110% of target)
+✅ 10. Coloring worksheets: 10/10 ✅ COMPLETE! (100% of target - exact!)
+
+🎉 SUCCESS: ALL 10 KEYWORDS MEET MINIMUM 10 APPEARANCES IN H2/H3 TITLES! 🎉
+
+Total keyword appearances in H2/H3 titles: 122
+Average per keyword: 12.2 appearances
+Keywords at exactly 10: 4 (Free printable, Phonics, Sight words, Coloring)
+Keywords above 10: 6 (Kindergarten, Math, First grade, Addition, Alphabet, Tracing)
+
+PRIMARY MISSION: ✅ ACCOMPLISHED!
+
+---
+
+CRITICAL REMINDERS:
+- Only count H2 and H3 titles/subtitles
+- Do NOT count H1 (only one H1 per page)
+- Do NOT count body text
+- Must reach minimum 10 for EVERY keyword
+- If any keyword < 10, add more H3 subsections in Section 7

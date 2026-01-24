@@ -1,0 +1,193 @@
+KEYWORD TRACKING - Big Small App - French
+
+TARGET: Each keyword must appear MINIMUM 10 times in H2/H3 titles ONLY
+
+PRICING: Full Access $240/year ($25/month) - NEVER use Core Bundle pricing
+
+Current Status:
+[ ] 1. Fiches maternelle: 0/10
+[ ] 2. Exercices CP / Exercices CE1: 0/10
+[ ] 3. Graphisme maternelle: 0/10
+[ ] 4. Coloriage / Coloriage à imprimer: 0/10
+[ ] 5. Apprendre à lire: 0/10
+[ ] 6. Exercices maths / Calcul: 0/10
+[ ] 7. Alphabet / Apprendre les lettres: 0/10
+[ ] 8. Tables de multiplication: 0/10
+[ ] 9. Fiches à imprimer gratuit: 0/10
+[ ] 10. Écriture / Écriture cursive: 0/10
+
+After each section, update counts and check boxes when ≥10 reached.
+
+---
+
+SECTION 1 (Hero) - H2/H3 Keyword Counts:
+- Fiches maternelle: 2
+- Exercices CP / Exercices CE1: 1
+- Graphisme maternelle: 1
+- Coloriage / Coloriage à imprimer: 1
+- Apprendre à lire: 0
+- Exercices maths / Calcul: 2
+- Alphabet / Apprendre les lettres: 2
+- Tables de multiplication: 0
+- Fiches à imprimer gratuit: 2
+- Écriture / Écriture cursive: 0
+
+Running Totals After Section 1:
+[ ] 1. Fiches maternelle: 2/10
+[ ] 2. Exercices CP / Exercices CE1: 1/10
+[ ] 3. Graphisme maternelle: 1/10
+[ ] 4. Coloriage / Coloriage à imprimer: 1/10
+[ ] 5. Apprendre à lire: 0/10
+[ ] 6. Exercices maths / Calcul: 2/10
+[ ] 7. Alphabet / Apprendre les lettres: 2/10
+[ ] 8. Tables de multiplication: 0/10
+[ ] 9. Fiches à imprimer gratuit: 2/10
+[ ] 10. Écriture / Écriture cursive: 0/10
+
+SECTION 2 (Features) - H2/H3 Keyword Counts:
+- Fiches maternelle: 4
+- Exercices CP / Exercices CE1: 5
+- Graphisme maternelle: 2
+- Coloriage / Coloriage à imprimer: 2
+- Apprendre à lire: 0
+- Exercices maths / Calcul: 2
+- Alphabet / Apprendre les lettres: 0
+- Tables de multiplication: 0
+- Fiches à imprimer gratuit: 4
+- Écriture / Écriture cursive: 1
+
+Running Totals After Section 2:
+[ ] 1. Fiches maternelle: 6/10
+[ ] 2. Exercices CP / Exercices CE1: 6/10
+[ ] 3. Graphisme maternelle: 3/10
+[ ] 4. Coloriage / Coloriage à imprimer: 3/10
+[ ] 5. Apprendre à lire: 0/10
+[ ] 6. Exercices maths / Calcul: 4/10
+[ ] 7. Alphabet / Apprendre les lettres: 2/10
+[ ] 8. Tables de multiplication: 0/10
+[ ] 9. Fiches à imprimer gratuit: 6/10
+[ ] 10. Écriture / Écriture cursive: 1/10
+
+SECTION 3 (How-To) - H2/H3 Keyword Counts:
+- Fiches maternelle: 3
+- Exercices CP / Exercices CE1: 3
+- Graphisme maternelle: 2
+- Coloriage / Coloriage à imprimer: 1
+- Apprendre à lire: 1
+- Exercices maths / Calcul: 2
+- Alphabet / Apprendre les lettres: 2
+- Tables de multiplication: 0
+- Fiches à imprimer gratuit: 3
+- Écriture / Écriture cursive: 2
+
+Running Totals After Section 3:
+[ ] 1. Fiches maternelle: 9/10
+[ ] 2. Exercices CP / Exercices CE1: 9/10
+[ ] 3. Graphisme maternelle: 5/10
+[ ] 4. Coloriage / Coloriage à imprimer: 4/10
+[ ] 5. Apprendre à lire: 1/10
+[ ] 6. Exercices maths / Calcul: 6/10
+[ ] 7. Alphabet / Apprendre les lettres: 4/10
+[ ] 8. Tables de multiplication: 0/10
+[ ] 9. Fiches à imprimer gratuit: 9/10
+[ ] 10. Écriture / Écriture cursive: 3/10
+
+SECTION 4 (Use Cases) - H2/H3 Keyword Counts:
+- Fiches maternelle: 2
+- Exercices CP / Exercices CE1: 2
+- Graphisme maternelle: 3
+- Coloriage / Coloriage à imprimer: 3
+- Apprendre à lire: 2
+- Exercices maths / Calcul: 1
+- Alphabet / Apprendre les lettres: 1
+- Tables de multiplication: 1
+- Fiches à imprimer gratuit: 2
+- Écriture / Écriture cursive: 2
+
+Running Totals After Section 4:
+[✓] 1. Fiches maternelle: 11/10 ✓
+[✓] 2. Exercices CP / Exercices CE1: 11/10 ✓
+[ ] 3. Graphisme maternelle: 8/10
+[ ] 4. Coloriage / Coloriage à imprimer: 7/10
+[ ] 5. Apprendre à lire: 3/10
+[ ] 6. Exercices maths / Calcul: 7/10
+[ ] 7. Alphabet / Apprendre les lettres: 5/10
+[ ] 8. Tables de multiplication: 1/10
+[✓] 9. Fiches à imprimer gratuit: 11/10 ✓
+[ ] 10. Écriture / Écriture cursive: 5/10
+
+SECTION 5 (Subscription) - H2/H3 Keyword Counts:
+- Fiches maternelle: 2
+- Exercices CP / Exercices CE1: 0
+- Graphisme maternelle: 1
+- Coloriage / Coloriage à imprimer: 1
+- Apprendre à lire: 2
+- Exercices maths / Calcul: 1
+- Alphabet / Apprendre les lettres: 2
+- Tables de multiplication: 3
+- Fiches à imprimer gratuit: 0
+- Écriture / Écriture cursive: 2
+
+Running Totals After Section 5:
+[✓] 1. Fiches maternelle: 13/10 ✓
+[✓] 2. Exercices CP / Exercices CE1: 11/10 ✓
+[ ] 3. Graphisme maternelle: 9/10
+[ ] 4. Coloriage / Coloriage à imprimer: 8/10
+[ ] 5. Apprendre à lire: 5/10
+[ ] 6. Exercices maths / Calcul: 8/10
+[ ] 7. Alphabet / Apprendre les lettres: 7/10
+[ ] 8. Tables de multiplication: 4/10
+[✓] 9. Fiches à imprimer gratuit: 11/10 ✓
+[ ] 10. Écriture / Écriture cursive: 7/10
+
+SECTION 6 (FAQ) - H2/H3 Keyword Counts:
+- Fiches maternelle: 0
+- Exercices CP / Exercices CE1: 0
+- Graphisme maternelle: 2
+- Coloriage / Coloriage à imprimer: 3
+- Apprendre à lire: 5
+- Exercices maths / Calcul: 4
+- Alphabet / Apprendre les lettres: 4
+- Tables de multiplication: 5
+- Fiches à imprimer gratuit: 0
+- Écriture / Écriture cursive: 4
+
+Running Totals After Section 6:
+[✓] 1. Fiches maternelle: 13/10 ✓
+[✓] 2. Exercices CP / Exercices CE1: 11/10 ✓
+[✓] 3. Graphisme maternelle: 11/10 ✓
+[✓] 4. Coloriage / Coloriage à imprimer: 11/10 ✓
+[✓] 5. Apprendre à lire: 10/10 ✓
+[✓] 6. Exercices maths / Calcul: 12/10 ✓
+[✓] 7. Alphabet / Apprendre les lettres: 11/10 ✓
+[ ] 8. Tables de multiplication: 9/10 (needs 1 more)
+[✓] 9. Fiches à imprimer gratuit: 11/10 ✓
+[✓] 10. Écriture / Écriture cursive: 11/10 ✓
+
+SECTION 7 (Combine Apps) - H2/H3 Keyword Counts:
+- Fiches maternelle: 2
+- Exercices CP / Exercices CE1: 1
+- Graphisme maternelle: 1
+- Coloriage / Coloriage à imprimer: 1
+- Apprendre à lire: 1
+- Exercices maths / Calcul: 2
+- Alphabet / Apprendre les lettres: 1
+- Tables de multiplication: 2
+- Fiches à imprimer gratuit: 1
+- Écriture / Écriture cursive: 1
+
+---
+
+FINAL TOTALS:
+[✓] 1. Fiches maternelle: 15/10 ✓
+[✓] 2. Exercices CP / Exercices CE1: 12/10 ✓
+[✓] 3. Graphisme maternelle: 12/10 ✓
+[✓] 4. Coloriage / Coloriage à imprimer: 12/10 ✓
+[✓] 5. Apprendre à lire: 11/10 ✓
+[✓] 6. Exercices maths / Calcul: 14/10 ✓
+[✓] 7. Alphabet / Apprendre les lettres: 12/10 ✓
+[✓] 8. Tables de multiplication: 11/10 ✓
+[✓] 9. Fiches à imprimer gratuit: 12/10 ✓
+[✓] 10. Écriture / Écriture cursive: 12/10 ✓
+
+ALL 10 KEYWORDS COMPLETED! ✓✓✓

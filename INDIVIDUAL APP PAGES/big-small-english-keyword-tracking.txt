@@ -1,0 +1,246 @@
+KEYWORD TRACKING - Big Small App - English
+
+PRICING VERIFICATION:
+App Name: Big Small
+Subscription Tier: Full Access $240/year
+Monthly Price: $25/month
+✓ I will use "Full Access" and "$240/$25" throughout this document
+✓ I will NEVER use "Core Bundle" or "$144/$15" for this app
+
+TARGET: Each keyword must appear MINIMUM 10 times in H2/H3 titles ONLY
+
+Current Status:
+[ ] 1. Kindergarten worksheets: 0/10
+[ ] 2. Math worksheets: 0/10
+[ ] 3. Sight words worksheets: 0/10
+[ ] 4. Phonics worksheets: 0/10
+[ ] 5. Alphabet worksheets / ABC worksheets: 0/10
+[ ] 6. Addition worksheets: 0/10
+[ ] 7. Tracing worksheets / Letter tracing worksheets: 0/10
+[ ] 8. Free printable worksheets: 0/10
+[ ] 9. Coloring worksheets: 0/10
+[ ] 10. First grade worksheets: 0/10
+
+After each section, update counts and check boxes when ≥10 reached.
+
+---
+
+SECTION-BY-SECTION TRACKING:
+
+After Section 1 (Hero) - COMPLETED:
+- Kindergarten worksheets: 0 (H1 only - doesn't count)
+- Math worksheets: 0
+- Sight words worksheets: 0
+- Phonics worksheets: 0
+- Alphabet worksheets: 0
+- Addition worksheets: 0
+- Tracing worksheets: 0
+- Free printable worksheets: 0 (H1 only - doesn't count)
+- Coloring worksheets: 0
+- First grade worksheets: 0
+
+NOTE: Section 1 has only H1 title. H1 doesn't count toward keyword minimums.
+Keywords in body text don't count. Only H2/H3 titles count.
+Section 1 word count: ~490 words ✓
+
+After Section 2 (Features) - COMPLETED:
+H2: "Big and Small Worksheet Features - Everything You Need for Free Printable Kindergarten Worksheets"
+H3s: 10 subsections with keywords
+
+Keyword counts in H2/H3 titles (Section 2 only):
+- Kindergarten worksheets: +4 (H2:1, H3s:3)
+- Math worksheets: +2
+- Sight words worksheets: +2
+- Phonics worksheets: +2
+- Alphabet worksheets / ABC worksheets: +3 (2 alphabet + 1 ABC)
+- Addition worksheets: +1
+- Tracing worksheets: +1
+- Free printable worksheets: +3 (H2:1, H3s:2)
+- Coloring worksheets: +2
+- First grade worksheets: +2
+
+RUNNING TOTALS (After Section 2):
+- Kindergarten worksheets: 4/10
+- Math worksheets: 2/10
+- Sight words worksheets: 2/10
+- Phonics worksheets: 2/10
+- Alphabet worksheets / ABC worksheets: 3/10
+- Addition worksheets: 1/10
+- Tracing worksheets: 1/10
+- Free printable worksheets: 3/10
+- Coloring worksheets: 2/10
+- First grade worksheets: 2/10
+
+Section 2 word count: ~1,150 words ✓
+
+After Section 3 (How-To) - COMPLETED:
+H2: "How to Create Kindergarten Worksheets and First Grade Worksheets in Five Easy Steps"
+H3s: 6 subsections (5 steps + 1 bonus)
+
+Keyword counts in H2/H3 titles (Section 3 only):
+- Kindergarten worksheets: +2 (H2:1, H3:1)
+- Math worksheets: +1
+- Sight words worksheets: +1
+- Phonics worksheets: +1
+- Alphabet worksheets / ABC worksheets: +2 (1 alphabet + 1 ABC)
+- Addition worksheets: +1
+- Tracing worksheets: +1
+- Free printable worksheets: +2
+- Coloring worksheets: +1
+- First grade worksheets: +2 (H2:1, H3:1)
+
+RUNNING TOTALS (After Section 3):
+- Kindergarten worksheets: 6/10
+- Math worksheets: 3/10
+- Sight words worksheets: 3/10
+- Phonics worksheets: 3/10
+- Alphabet worksheets / ABC worksheets: 5/10
+- Addition worksheets: 2/10
+- Tracing worksheets: 2/10
+- Free printable worksheets: 5/10
+- Coloring worksheets: 3/10
+- First grade worksheets: 4/10
+
+Section 3 word count: ~1,250 words ✓
+
+After Section 4 (Use Cases) - COMPLETED:
+H2: "Perfect for Teachers and Parents - Kindergarten Worksheets and Math Worksheets for Every Learning Need"
+H3s: 6 subsections (6 user types)
+
+Keyword counts in H2/H3 titles (Section 4 only):
+- Kindergarten worksheets: +2 (H2:1, H3:1)
+- Math worksheets: +2 (H2:1, H3:1)
+- Sight words worksheets: +1
+- Phonics worksheets: +1
+- Alphabet worksheets / ABC worksheets: +2 (1 alphabet + 1 ABC)
+- Addition worksheets: +1
+- Tracing worksheets: +1
+- Free printable worksheets: +2
+- Coloring worksheets: +1
+- First grade worksheets: +1
+
+RUNNING TOTALS (After Section 4):
+- Kindergarten worksheets: 8/10
+- Math worksheets: 5/10
+- Sight words worksheets: 4/10
+- Phonics worksheets: 4/10
+- Alphabet worksheets / ABC worksheets: 7/10
+- Addition worksheets: 3/10
+- Tracing worksheets: 3/10
+- Free printable worksheets: 7/10
+- Coloring worksheets: 4/10
+- First grade worksheets: 5/10
+
+Section 4 word count: ~1,100 words ✓
+
+After Section 5 (Subscription) - COMPLETED:
+H2: "Top Three Reasons Teachers Subscribe - Sight Words Worksheets and Addition Worksheets Premium Features"
+H3s: 3 subsections (3 subscription reasons)
+
+Keyword counts in H2/H3 titles (Section 5 only):
+- Kindergarten worksheets: +1
+- Math worksheets: 0
+- Sight words worksheets: +1 (H2)
+- Phonics worksheets: +1
+- Alphabet worksheets / ABC worksheets: +1
+- Addition worksheets: +1 (H2)
+- Tracing worksheets: +1
+- Free printable worksheets: 0
+- Coloring worksheets: +1
+- First grade worksheets: +1
+
+RUNNING TOTALS (After Section 5):
+- Kindergarten worksheets: 9/10
+- Math worksheets: 5/10
+- Sight words worksheets: 5/10
+- Phonics worksheets: 5/10
+- Alphabet worksheets / ABC worksheets: 8/10
+- Addition worksheets: 4/10
+- Tracing worksheets: 4/10
+- Free printable worksheets: 7/10
+- Coloring worksheets: 5/10
+- First grade worksheets: 6/10
+
+Section 5 word count: ~1,050 words ✓
+
+After Section 6 (FAQ) - COMPLETED:
+H2: "Frequently Asked Questions About Free Printable Worksheets and Math Worksheets"
+H3s: 12 FAQ questions with keywords
+
+Keyword counts in H2/H3 titles (Section 6 only):
+- Kindergarten worksheets: +2
+- Math worksheets: +4 (H2:1, H3s:3)
+- Sight words worksheets: +2
+- Phonics worksheets: +2
+- Alphabet worksheets / ABC worksheets: +3 (2 alphabet + 1 ABC)
+- Addition worksheets: +3
+- Tracing worksheets: +3
+- Free printable worksheets: +2 (H2:1, H3:1)
+- Coloring worksheets: +3
+- First grade worksheets: +2
+
+RUNNING TOTALS (After Section 6):
+- Kindergarten worksheets: 11/10 ✓ COMPLETE
+- Math worksheets: 9/10 (need 1 more)
+- Sight words worksheets: 7/10 (need 3 more)
+- Phonics worksheets: 7/10 (need 3 more)
+- Alphabet worksheets / ABC worksheets: 11/10 ✓ COMPLETE
+- Addition worksheets: 7/10 (need 3 more)
+- Tracing worksheets: 7/10 (need 3 more)
+- Free printable worksheets: 9/10 (need 1 more)
+- Coloring worksheets: 8/10 (need 2 more)
+- First grade worksheets: 8/10 (need 2 more)
+
+Section 6 word count: ~1,500 words ✓
+
+After Section 7 (Combine Apps) - COMPLETED:
+H2: "Combine Size Comparison with Free Printable Worksheets and Math Worksheets - Complete Learning Packets"
+H3s: 9 subsections for combining with other apps
+
+Keyword counts in H2/H3 titles (Section 7 only):
+- Kindergarten worksheets: 0
+- Math worksheets: +2 (H2:1, H3:1)
+- Sight words worksheets: +3
+- Phonics worksheets: +3
+- Alphabet worksheets / ABC worksheets: 0
+- Addition worksheets: +4
+- Tracing worksheets: +3
+- Free printable worksheets: +1 (H2)
+- Coloring worksheets: +2
+- First grade worksheets: +2
+
+Section 7 word count: ~1,100 words ✓
+
+---
+
+FINAL TOTALS (All 7 Sections Complete):
+
+✅ Kindergarten worksheets: 11/10 ✓ PASS
+✅ Math worksheets: 11/10 ✓ PASS
+✅ Sight words worksheets: 10/10 ✓ PASS
+✅ Phonics worksheets: 10/10 ✓ PASS
+✅ Alphabet worksheets / ABC worksheets: 11/10 ✓ PASS
+✅ Addition worksheets: 11/10 ✓ PASS
+✅ Tracing worksheets: 10/10 ✓ PASS
+✅ Free printable worksheets: 10/10 ✓ PASS
+✅ Coloring worksheets: 10/10 ✓ PASS
+✅ First grade worksheets: 10/10 ✓ PASS
+
+🎉 ALL 10 KEYWORDS MEET MINIMUM 10 TARGET IN H2/H3 TITLES 🎉
+
+TOTAL WORD COUNT:
+- Section 1 (Hero): ~490 words
+- Section 2 (Features): ~1,150 words
+- Section 3 (How-To): ~1,250 words
+- Section 4 (Use Cases): ~1,100 words
+- Section 5 (Subscription): ~1,050 words
+- Section 6 (FAQ): ~1,500 words
+- Section 7 (Combine Apps): ~1,100 words
+TOTAL: ~7,640 words ✓ (Target: 7,000-8,100)
+
+PRICING VERIFICATION: ✓
+- App: Big Small = Full Access ($240/year, $25/month)
+- Correct pricing used throughout all sections
+- Never mixed with Core Bundle pricing
+
+PAGE COMPLETE: 2025-12-29

@@ -1,0 +1,256 @@
+KEYWORD TRACKING - More or Less App - Danish
+
+TARGET: Each keyword must appear MINIMUM 10 times in H2/H3 titles ONLY
+(Body text does NOT count toward this minimum)
+
+SOURCE: keywords.txt (Danish - Lines 361-372)
+
+PRICING VERIFICATION:
+App Name: More Less (Compare Numbers Worksheet Maker)
+Subscription Tier: Full Access $240/year
+Monthly Price: $25/month
+✓ I will use "Full Access" and "$240/$25" throughout this document
+✓ I will NEVER use "Core Bundle" or "$144/$15" for this app
+
+Current Status - 10 Danish Keywords:
+[✅] 1. Opgaver til print: 12/10 ✅ (Tasks/exercises for printing)
+[✅] 2. Matematikopgaver: 32/10 ✅ (Math exercises)
+[✅] 3. Lære bogstaver / Skriv bogstaver: 10/10 ✅ (Learn letters / Write letters)
+[✅] 4. Malebog / Farvelægning: 10/10 ✅ (Coloring book / Coloring)
+[✅] 5. Arbejdsark / Kopiark: 13/10 ✅ (Worksheets / Copy sheets)
+[✅] 6. Finmotorik øvelser: 10/10 ✅ (Fine motor skill exercises)
+[✅] 7. 0. klasse opgaver / 1. klasse: 12/10 ✅ (Preschool/1st grade exercises)
+[✅] 8. Gangetabeller: 10/10 ✅ (Multiplication tables)
+[✅] 9. Læse og skrive / Stavning: 10/10 ✅ (Read and write / Spelling)
+[✅] 10. Gratis skoleopgaver: 15/10 ✅ (Free school exercises)
+
+🎊 ALL KEYWORDS COMPLETE! 🎊
+Total H2/H3 titles: 52
+Average: 13.6 uses per keyword
+Date completed: 2025-12-25
+
+---
+
+SECTION-BY-SECTION TRACKING:
+
+After Section 1 (Hero):
+NOTE: Section 1 contains only H1 + body paragraphs (no H2/H3 subsections)
+
+H2/H3 Title Counts (Section 1 has NO H2/H3 titles):
+- Opgaver til print: 0
+- Matematikopgaver: 0
+- Lære bogstaver / Skriv bogstaver: 0
+- Malebog / Farvelægning: 0
+- Arbejdsark / Kopiark: 0
+- Finmotorik øvelser: 0
+- 0. klasse opgaver / 1. klasse: 0
+- Gangetabeller: 0
+- Læse og skrive / Stavning: 0
+- Gratis skoleopgaver: 0
+
+Running Total: 0 H2/H3 titles so far
+Target: Need 40-70+ H3 titles across all sections to hit 10x per keyword
+
+Note: Section 1 H1 contains keywords (Matematikopgaver, 0. Klasse og 1. Klasse, Opgaver til Print) but H1 does NOT count toward the 10-time minimum. Only H2/H3 titles count.
+
+---
+
+After Section 2 (Features):
+H2/H3 Titles in Section 2: 1 H2 + 7 H3 = 8 titles
+
+Keyword counts in Section 2 H2/H3 titles:
+- "Matematikopgaver" appears in: H2, H3-1, H3-2, H3-3, H3-4, H3-5, H3-6 = 7 times
+- "Opgaver til print" appears in: H2, H3-2, H3-3, H3-6, H3-7 = 5 times
+- "Arbejdsark" appears in: H3-1, H3-2, H3-7 = 3 times
+- "Kopiark" appears in: H3-1, H3-5 = 2 times
+  (Total Arbejdsark/Kopiark combined = 5 times)
+- "Gratis skoleopgaver" appears in: H2, H3-5 = 2 times
+- "Farvelægning" appears in: H3-3, H3-6 = 2 times
+- "0. klasse opgaver / 1. klasse" appears in: H3-4 = 1 time
+
+RUNNING TOTALS after Section 2:
+- Matematikopgaver: 7/10 ⚠️ (need 3 more)
+- Opgaver til print: 5/10 ⚠️ (need 5 more)
+- Arbejdsark / Kopiark: 5/10 ⚠️ (need 5 more)
+- Gratis skoleopgaver: 2/10 ❌ (need 8 more)
+- Malebog / Farvelægning: 2/10 ❌ (need 8 more)
+- 0. klasse opgaver / 1. klasse: 1/10 ❌ (need 9 more)
+- Lære bogstaver / Skriv bogstaver: 0/10 ❌ (need 10)
+- Finmotorik øvelser: 0/10 ❌ (need 10)
+- Gangetabeller: 0/10 ❌ (need 10)
+- Læse og skrive / Stavning: 0/10 ❌ (need 10)
+
+Running Total: 8 H2/H3 titles
+Keywords on track: 0 out of 10
+Keywords at risk: 3 (Matematikopgaver, Opgaver til print, Arbejdsark/Kopiark)
+Keywords needing urgent attention: 7
+
+---
+
+After Section 3 (How-To):
+H2/H3 Titles in Section 3: 1 H2 + 5 H3 = 6 titles
+
+Keyword counts in Section 3 H2/H3 titles:
+- "Matematikopgaver" appears in: H2, H3-1, H3-2, H3-3 = 4 times
+- "Opgaver til print" appears in: H2, H3-3, H3-5 = 3 times
+- "0. klasse / 1. klasse" appears in: H3-2 (both mentioned) = 2 times
+- "Arbejdsark" appears in: H3-1, H3-4 = 2 times
+- "Gratis skoleopgaver" appears in: H3-4 = 1 time
+
+RUNNING TOTALS after Section 3:
+- Matematikopgaver: 11/10 ✅ COMPLETE! (7 from S2 + 4 from S3)
+- Opgaver til print: 8/10 ⚠️ (5 from S2 + 3 from S3, need 2 more)
+- Arbejdsark / Kopiark: 7/10 ⚠️ (5 from S2 + 2 from S3, need 3 more)
+- 0. klasse opgaver / 1. klasse: 3/10 ⚠️ (1 from S2 + 2 from S3, need 7 more)
+- Gratis skoleopgaver: 3/10 ❌ (2 from S2 + 1 from S3, need 7 more)
+- Malebog / Farvelægning: 2/10 ❌ (2 from S2 + 0 from S3, need 8 more)
+- Lære bogstaver / Skriv bogstaver: 0/10 ❌ (need 10)
+- Finmotorik øvelser: 0/10 ❌ (need 10)
+- Gangetabeller: 0/10 ❌ (need 10)
+- Læse og skrive / Stavning: 0/10 ❌ (need 10)
+
+Running Total: 14 H2/H3 titles (8 from S2 + 6 from S3)
+Keywords COMPLETED: 1 out of 10 ✅ (Matematikopgaver)
+Keywords at risk: 3 (Opgaver til print, Arbejdsark/Kopiark, 0. klasse/1. klasse)
+Keywords needing urgent attention: 6
+
+---
+
+After Section 4 (Use Cases):
+H2/H3 Titles in Section 4: 1 H2 + 6 H3 = 7 titles
+
+Keyword counts in Section 4 H2/H3 titles:
+- "Matematikopgaver" appears in: H2, H3-1, H3-2, H3-4, H3-5 = 5 times
+- "0. klasse / 1. klasse" appears in: H3-1 (0. Klasse Opgaver), H3-2 (1. Klasse), H3-5 (0. Klasse og 1. Klasse) = 4 times
+- "Opgaver til print" appears in: H2, H3-2 = 2 times
+- "Arbejdsark" appears in: H3-3, H3-6 = 2 times
+- "Kopiark" appears in: H3-3, H3-6 = 2 times
+  (Total Arbejdsark/Kopiark combined = 4 times)
+- "Gratis skoleopgaver" appears in: H3-4 = 1 time
+
+RUNNING TOTALS after Section 4:
+- Matematikopgaver: 16/10 ✅ COMPLETE! (11 + 5)
+- Arbejdsark / Kopiark: 11/10 ✅ COMPLETE! (7 + 4) 🎉
+- Opgaver til print: 10/10 ✅ COMPLETE! (8 + 2) 🎉
+- 0. klasse opgaver / 1. klasse: 7/10 ⚠️ (3 + 4, need 3 more)
+- Gratis skoleopgaver: 4/10 ⚠️ (3 + 1, need 6 more)
+- Malebog / Farvelægning: 2/10 ❌ (2 + 0, need 8 more)
+- Lære bogstaver / Skriv bogstaver: 0/10 ❌ (need 10)
+- Finmotorik øvelser: 0/10 ❌ (need 10)
+- Gangetabeller: 0/10 ❌ (need 10)
+- Læse og skrive / Stavning: 0/10 ❌ (need 10)
+
+Running Total: 21 H2/H3 titles (8 from S2 + 6 from S3 + 7 from S4)
+Keywords COMPLETED: 3 out of 10 ✅ (Matematikopgaver, Arbejdsark/Kopiark, Opgaver til print)
+Keywords at risk: 2 (0. klasse/1. klasse, Gratis skoleopgaver)
+Keywords needing urgent attention: 5 (Farvelægning, Lære bogstaver, Finmotorik, Gangetabeller, Læse og skrive)
+
+---
+
+After Section 5 (Subscription Reasons):
+H2/H3 Titles in Section 5: 1 H2 + 3 H3 = 4 titles
+
+Keyword counts in Section 5 H2/H3 titles:
+- "Matematikopgaver" appears in: H2, H3-1, H3-2 = 3 times
+- "Gratis skoleopgaver" appears in: H2, H3-1 = 2 times
+- "Arbejdsark" appears in: H3-2 = 1 time
+- "Kopiark" appears in: H3-2 = 1 time
+  (Total Arbejdsark/Kopiark combined = 2 times)
+- "Opgaver til print" appears in: H3-3 = 1 time
+
+RUNNING TOTALS after Section 5:
+- Matematikopgaver: 19/10 ✅ COMPLETE! (16 + 3)
+- Arbejdsark / Kopiark: 13/10 ✅ COMPLETE! (11 + 2)
+- Opgaver til print: 11/10 ✅ COMPLETE! (10 + 1)
+- 0. klasse opgaver / 1. klasse: 7/10 ⚠️ (no new, need 3 more)
+- Gratis skoleopgaver: 6/10 ⚠️ (4 + 2, need 4 more)
+- Malebog / Farvelægning: 2/10 ❌ (no new, need 8 more)
+- Lære bogstaver / Skriv bogstaver: 0/10 ❌ (need 10)
+- Finmotorik øvelser: 0/10 ❌ (need 10)
+- Gangetabeller: 0/10 ❌ (need 10)
+- Læse og skrive / Stavning: 0/10 ❌ (need 10)
+
+Running Total: 25 H2/H3 titles (8+6+7+4)
+Keywords COMPLETED: 3 out of 10 ✅ (Matematikopgaver, Arbejdsark/Kopiark, Opgaver til print)
+Keywords at risk: 2 (0. klasse/1. klasse at 70%, Gratis skoleopgaver at 60%)
+Keywords needing urgent attention: 5 (all at 0-20%)
+
+---
+
+After Section 6 (FAQ):
+H2/H3 Titles in Section 6: 1 H2 + 12 H3 = 13 titles
+
+Keyword counts in Section 6 H2/H3 titles:
+- "Matematikopgaver" appears in: H2, H3-2, H3-3, H3-4, H3-5, H3-6, H3-7, H3-8, H3-9, H3-11, H3-12 = 11 times
+- "0. klasse / 1. klasse" appears in: H3-4 (both), H3-7 (both), H3-10 (1. klasse) = 5 times
+- "Gratis skoleopgaver" appears in: H2, H3-3 = 2 times
+- "Opgaver til print" appears in: H3-5 = 1 time
+- "Farvelægning" appears in: H3-9 = 1 time
+
+RUNNING TOTALS after Section 6:
+- Matematikopgaver: 30/10 ✅ COMPLETE! (19 + 11)
+- Arbejdsark / Kopiark: 13/10 ✅ COMPLETE! (no new)
+- Opgaver til print: 12/10 ✅ COMPLETE! (11 + 1)
+- 0. klasse opgaver / 1. klasse: 12/10 ✅ COMPLETE! (7 + 5) 🎉
+- Gratis skoleopgaver: 8/10 ⚠️ (6 + 2, need 2 more)
+- Malebog / Farvelægning: 3/10 ⚠️ (2 + 1, need 7 more)
+- Lære bogstaver / Skriv bogstaver: 0/10 ❌ (need 10)
+- Finmotorik øvelser: 0/10 ❌ (need 10)
+- Gangetabeller: 0/10 ❌ (need 10)
+- Læse og skrive / Stavning: 0/10 ❌ (need 10)
+
+Running Total: 38 H2/H3 titles (8+6+7+4+13)
+Keywords COMPLETED: 4 out of 10 ✅ (Matematikopgaver, Arbejdsark/Kopiark, Opgaver til print, 0. klasse/1. klasse)
+Keywords at risk: 2 (Gratis skoleopgaver at 80%, Farvelægning at 30%)
+Keywords needing urgent attention: 4 (all at 0%)
+
+NOTE: Section 7 MUST integrate all 4 remaining 0/10 keywords plus complete the 2 at-risk keywords!
+
+---
+
+After Section 7 (Combine Apps) - FINAL COUNT:
+H2/H3 Titles in Section 7: 1 H2 + 13 H3 = 14 titles
+
+Keyword counts in Section 7 H2/H3 titles:
+- "Gratis skoleopgaver" appears in: H2, H3-3, H3-4, H3-5, H3-6, H3-7, H3-8 = 7 times
+- "Farvelægning" appears in: H2, H3-2, H3-4, H3-5, H3-6, H3-8, H3-9 = 7 times
+- "Lære bogstaver / Skriv bogstaver" appears in: H2, H3-1 (×2), H3-4, H3-7, H3-8, H3-10 (×2), H3-11, H3-12 = 10 times
+- "Finmotorik øvelser" appears in: H2, H3-2, H3-4, H3-5, H3-6, H3-8, H3-10, H3-11, H3-12, H3-13 = 10 times
+- "Læse og skrive" appears in: H2, H3-1, H3-3, H3-5, H3-7, H3-9, H3-10, H3-11, H3-12, H3-13 = 10 times
+- "Gangetabeller" appears in: H2, H3-3, H3-5, H3-6, H3-7, H3-9, H3-10, H3-11, H3-12, H3-13 = 10 times
+- "Matematikopgaver" appears in: H3-2, H3-5 = 2 times
+
+FINAL TOTALS after Section 7 (ALL SECTIONS COMPLETE):
+✅ Matematikopgaver: 32/10 ✅ COMPLETE! (30 from S1-S6 + 2 from S7)
+✅ Opgaver til print: 12/10 ✅ COMPLETE! (12 from S1-S6 + 0 from S7)
+✅ Arbejdsark / Kopiark: 13/10 ✅ COMPLETE! (13 from S1-S6 + 0 from S7)
+✅ 0. klasse / 1. klasse: 12/10 ✅ COMPLETE! (12 from S1-S6 + 0 from S7)
+✅ Gratis skoleopgaver: 15/10 ✅ COMPLETE! (8 from S1-S6 + 7 from S7)
+✅ Farvelægning: 10/10 ✅ COMPLETE! (3 from S1-S6 + 7 from S7) 🎉
+✅ Lære bogstaver / Skriv bogstaver: 10/10 ✅ COMPLETE! (0 from S1-S6 + 10 from S7) 🎉
+✅ Finmotorik øvelser: 10/10 ✅ COMPLETE! (0 from S1-S6 + 10 from S7) 🎉
+✅ Læse og skrive / Stavning: 10/10 ✅ COMPLETE! (0 from S1-S6 + 10 from S7) 🎉
+✅ Gangetabeller: 10/10 ✅ COMPLETE! (0 from S1-S6 + 10 from S7) 🎉
+
+🎊🎊🎊 SUCCESS! ALL 10 DANISH KEYWORDS COMPLETE! 🎊🎊🎊
+
+Total H2/H3 titles across all sections: 52 titles (8+6+7+4+13+14)
+Keywords COMPLETED: 10 out of 10 ✅✅✅
+Average keyword usage: 13.6 times per keyword (well above minimum of 10)
+
+---
+
+VERIFICATION COMPLETE:
+✓ Every keyword appears minimum 10 times in H2/H3 titles
+✓ Section 7 added 4 additional H3 subsections (H3-10 through H3-13) to complete remaining keywords
+✓ All keywords naturally integrated throughout the page
+✓ Danish More Less app page ready for publication
+
+---
+
+CRITICAL REMINDERS:
+- Only count H2 and H3 titles/subtitles
+- Do NOT count H1 (only one H1 per page)
+- Do NOT count body text
+- Must reach minimum 10 for EVERY keyword
+- ALL KEYWORDS ACHIEVED ✅

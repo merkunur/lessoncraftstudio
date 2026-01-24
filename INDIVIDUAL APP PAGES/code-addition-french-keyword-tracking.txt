@@ -1,0 +1,38 @@
+KEYWORD TRACKING - Code Addition - French
+
+TARGET: Each keyword must appear MINIMUM 10 times in H2/H3 titles ONLY
+
+Current Status:
+[ ] 1. Fiches maternelle: 0/10
+[ ] 2. Exercices CP / Exercices CE1: 0/10
+[ ] 3. Graphisme maternelle: 0/10
+[ ] 4. Coloriage / Coloriage à imprimer: 0/10
+[ ] 5. Apprendre à lire: 0/10
+[ ] 6. Exercices maths / Calcul: 0/10
+[ ] 7. Alphabet / Apprendre les lettres: 0/10
+[ ] 8. Tables de multiplication: 0/10
+[ ] 9. Fiches à imprimer gratuit: 0/10
+[ ] 10. Écriture / Écriture cursive: 0/10
+
+PRICING VERIFICATION:
+App Name: Code Addition
+Subscription Tier: Full Access $240/year
+Monthly Price: $25/month
+✓ Will use "Full Access" and "$240/$25" throughout
+✓ Will NEVER use "Core Bundle" or "$144/$15" for this app
+
+After each section, update counts and check boxes when ≥10 reached.
+
+---
+
+After Section 1 (Hero):
+- Fiches maternelle:
+- Exercices CP / Exercices CE1:
+- Graphisme maternelle:
+- Coloriage / Coloriage à imprimer:
+- Apprendre à lire:
+- Exercices maths / Calcul:
+- Alphabet / Apprendre les lettres:
+- Tables de multiplication:
+- Fiches à imprimer gratuit:
+- Écriture / Écriture cursive:

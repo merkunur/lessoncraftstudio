@@ -354,12 +354,13 @@ export default async function BlogPostPage({
   const translations = post.translations as any;
   const translation = translations[locale] || translations['en'] || {};
 
-  // SEO FIX: Redirect to correct slug if accessed via wrong language's slug
-  // This prevents Google from showing scrambled navigation text instead of meta descriptions
-  // when a URL like /sv/blog/[Norwegian-slug] is accessed instead of /sv/blog/[Swedish-slug]
+  // SEO FIX: Return 404 if accessed via wrong slug for this locale
+  // CRITICAL: Do NOT redirect here - redirect chains cause Google to see conflicting canonicals
+  // ("Duplicate, Google chose different canonical" errors)
+  // The correct URL should be accessed directly via sitemap/hreflang links
   const localeSlug = translation.slug || post.slug;
   if (slug !== localeSlug) {
-    redirect(`/${locale}/blog/${localeSlug}`);
+    notFound();
   }
 
   let htmlContent = translation.content || '';

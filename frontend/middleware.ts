@@ -109,21 +109,21 @@ export default function middleware(request: NextRequest) {
   // The hreflang tags in sitemap and pages tell Google which version to serve
   // Page-level redirect handles any remaining edge cases
 
-  // Handle root URL (/) - redirect to default locale with 301 for SEO
-  // next-intl uses 307 by default which causes Google Search Console "Redirect error"
-  // Uses Accept-Language header for first-time visitors without cookie preference
+  // Handle root URL (/) - redirect to English with 301 for SEO
+  // CRITICAL SEO FIX: Always redirect to /en (not Accept-Language based)
+  // Non-deterministic redirects cause Google to see different targets on different crawls,
+  // resulting in "Duplicate, Google chose different canonical" errors
   if (pathname === '/') {
-    const preferredLang = getPreferredLanguage(request);
-    const newUrl = new URL(`/${preferredLang}`, request.url);
+    const newUrl = new URL('/en', request.url);
     return NextResponse.redirect(newUrl, { status: 301 });
   }
 
-  // Handle /blog and /blog/* routes - redirect to locale-prefixed versions with 301
-  // This fixes SEO duplicate content issues (Google Search Console shows 89+ duplicates without canonical)
-  // Uses Accept-Language header for first-time visitors without cookie preference
+  // Handle /blog and /blog/* routes - redirect to English locale with 301
+  // CRITICAL SEO FIX: Always redirect to /en/blog (not Accept-Language based)
+  // Non-deterministic redirects cause Google to see different targets on different crawls,
+  // resulting in "Duplicate, Google chose different canonical" errors
   if (pathname === '/blog' || pathname.startsWith('/blog/')) {
-    const preferredLang = getPreferredLanguage(request);
-    const newUrl = new URL(`/${preferredLang}${pathname}`, request.url);
+    const newUrl = new URL(`/en${pathname}`, request.url);
     // Preserve query parameters
     request.nextUrl.searchParams.forEach((value, key) => {
       newUrl.searchParams.set(key, value);
@@ -131,12 +131,12 @@ export default function middleware(request: NextRequest) {
     return NextResponse.redirect(newUrl, { status: 301 });
   }
 
-  // Redirect common pages without locale to default locale
-  // Uses Accept-Language header for first-time visitors without cookie preference
+  // Redirect common pages without locale to English
+  // CRITICAL SEO FIX: Always redirect to /en (not Accept-Language based)
+  // Non-deterministic redirects cause "Duplicate, Google chose different canonical" errors
   const pagesNeedingLocale = ['/contact', '/pricing', '/privacy', '/terms', '/about'];
   if (pagesNeedingLocale.includes(pathname)) {
-    const preferredLang = getPreferredLanguage(request);
-    const newUrl = new URL(`/${preferredLang}${pathname}`, request.url);
+    const newUrl = new URL(`/en${pathname}`, request.url);
     return NextResponse.redirect(newUrl, { status: 301 });
   }
 

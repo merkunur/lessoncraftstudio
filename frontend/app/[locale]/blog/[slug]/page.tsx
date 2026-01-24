@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { cache } from 'react';
 import { prisma } from '@/lib/prisma';
 import { generateBlogSchemas, getHreflangCode, ogLocaleMap } from '@/lib/schema-generator';
+import { analyzeContent, generateFAQSchema, generateHowToSchema } from '@/lib/content-analyzer';
 import Breadcrumb from '@/components/Breadcrumb';
 
 // Enable ISR - revalidate every 30 minutes (reduced from 1 hour for faster updates)
@@ -231,10 +232,20 @@ export async function generateStaticParams() {
   }
 }
 
-// Get related blog posts - OPTIMIZED: select only necessary fields
-async function getRelatedPosts(currentSlug: string, category: string, limit: number = 3) {
+/**
+ * Get related blog posts with cross-category support
+ * Algorithm:
+ * 1. 2 posts from same category (most relevant)
+ * 2. 1 post from different category with keyword overlap (discovery)
+ * 3. Fallback to recent posts if needed
+ */
+async function getRelatedPosts(currentSlug: string, category: string, keywords: string[] = [], limit: number = 3) {
   try {
-    const posts = await prisma.blogPost.findMany({
+    const relatedPosts: any[] = [];
+    const usedSlugs = new Set([currentSlug]);
+
+    // Step 1: Get 2 posts from same category
+    const sameCategoryPosts = await prisma.blogPost.findMany({
       where: {
         status: 'published',
         slug: { not: currentSlug },
@@ -244,13 +255,73 @@ async function getRelatedPosts(currentSlug: string, category: string, limit: num
         id: true,
         slug: true,
         featuredImage: true,
-        translations: true,  // Needed for locale-specific title, excerpt, slug
+        keywords: true,
+        translations: true,
         createdAt: true
       },
-      take: limit,
+      take: 2,
       orderBy: { createdAt: 'desc' }
     });
-    return posts;
+
+    for (const post of sameCategoryPosts) {
+      relatedPosts.push(post);
+      usedSlugs.add(post.slug);
+    }
+
+    // Step 2: Get 1 post from different category with keyword overlap
+    if (relatedPosts.length < limit && keywords.length > 0) {
+      // Find posts from other categories that share keywords
+      const crossCategoryPost = await prisma.blogPost.findFirst({
+        where: {
+          status: 'published',
+          slug: { notIn: Array.from(usedSlugs) },
+          category: { not: category },
+          // Match any of the current post's keywords
+          keywords: { hasSome: keywords }
+        },
+        select: {
+          id: true,
+          slug: true,
+          featuredImage: true,
+          keywords: true,
+          translations: true,
+          createdAt: true
+        },
+        orderBy: { createdAt: 'desc' }
+      });
+
+      if (crossCategoryPost) {
+        relatedPosts.push(crossCategoryPost);
+        usedSlugs.add(crossCategoryPost.slug);
+      }
+    }
+
+    // Step 3: If still need more posts, get recent posts from any category
+    if (relatedPosts.length < limit) {
+      const remainingNeeded = limit - relatedPosts.length;
+      const recentPosts = await prisma.blogPost.findMany({
+        where: {
+          status: 'published',
+          slug: { notIn: Array.from(usedSlugs) }
+        },
+        select: {
+          id: true,
+          slug: true,
+          featuredImage: true,
+          keywords: true,
+          translations: true,
+          createdAt: true
+        },
+        take: remainingNeeded,
+        orderBy: { createdAt: 'desc' }
+      });
+
+      for (const post of recentPosts) {
+        relatedPosts.push(post);
+      }
+    }
+
+    return relatedPosts.slice(0, limit);
   } catch (error) {
     console.error('Error fetching related posts:', error);
     return [];
@@ -276,8 +347,8 @@ export default async function BlogPostPage({
     notFound();
   }
 
-  // Get related posts
-  const relatedPosts = await getRelatedPosts(post.slug, post.category);
+  // Get related posts (with cross-category keyword overlap)
+  const relatedPosts = await getRelatedPosts(post.slug, post.category, post.keywords || []);
 
   const translations = post.translations as any;
   const translation = translations[locale] || translations['en'] || {};
@@ -299,6 +370,14 @@ export default async function BlogPostPage({
   // Extract body content (everything between <body> and </body>)
   const bodyMatch = htmlContent.match(/<body[^>]*>([\s\S]*?)<\/body>/i);
   let bodyContent = bodyMatch ? bodyMatch[1] : htmlContent;
+
+  // SEO FIX: Verify H1 tag exists - inject one if missing for proper SEO
+  const hasH1 = /<h1[^>]*>/i.test(bodyContent);
+  if (!hasH1 && translation.title) {
+    const h1Tag = `<h1 style="font-size: 2rem; font-weight: 700; margin-bottom: 1rem; color: #1a1a2e;">${translation.title}</h1>`;
+    // Insert H1 at the beginning of body content
+    bodyContent = h1Tag + bodyContent;
+  }
 
   // Extract header (navigation) from body content
   const headerMatch = bodyContent.match(/(<nav[^>]*>[\s\S]*?<\/nav>)/i);
@@ -326,6 +405,23 @@ export default async function BlogPostPage({
     updatedAt: post.updatedAt
   }, locale);
 
+  // AUTO-DETECT FAQ and HowTo patterns for rich snippets
+  const contentAnalysis = analyzeContent(htmlContent, translation.title || '');
+
+  // Generate FAQ schema if Q&A patterns detected
+  const faqSchema = contentAnalysis.hasFAQ
+    ? generateFAQSchema(contentAnalysis.faqItems)
+    : null;
+
+  // Generate HowTo schema if step-by-step patterns detected
+  const howToSchema = contentAnalysis.hasHowTo && contentAnalysis.howToName
+    ? generateHowToSchema(
+        contentAnalysis.howToName,
+        contentAnalysis.howToDescription || '',
+        contentAnalysis.howToSteps
+      )
+    : null;
+
   // Localized breadcrumb labels
   const breadcrumbLabels: Record<string, string> = {
     en: 'Blog',
@@ -341,6 +437,36 @@ export default async function BlogPostPage({
     fi: 'Blogi'
   };
 
+  // Localized "Related Articles" labels
+  const relatedArticlesLabels: Record<string, string> = {
+    en: 'Related Articles',
+    de: 'Ähnliche Artikel',
+    fr: 'Articles Connexes',
+    es: 'Artículos Relacionados',
+    pt: 'Artigos Relacionados',
+    it: 'Articoli Correlati',
+    nl: 'Gerelateerde Artikelen',
+    sv: 'Relaterade Artiklar',
+    da: 'Relaterede Artikler',
+    no: 'Relaterte Artikler',
+    fi: 'Aiheeseen Liittyvät Artikkelit'
+  };
+
+  // Localized "Read More" labels
+  const readMoreLabels: Record<string, string> = {
+    en: 'Read More →',
+    de: 'Weiterlesen →',
+    fr: 'Lire Plus →',
+    es: 'Leer Más →',
+    pt: 'Ler Mais →',
+    it: 'Leggi di Più →',
+    nl: 'Lees Meer →',
+    sv: 'Läs Mer →',
+    da: 'Læs Mere →',
+    no: 'Les Mer →',
+    fi: 'Lue Lisää →'
+  };
+
   // Render the extracted content with inline styles, PDFs after header, and related posts before footer
   return (
     <>
@@ -349,6 +475,22 @@ export default async function BlogPostPage({
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemas) }}
       />
+
+      {/* AUTO-DETECTED: FAQ Schema for Q&A rich snippets */}
+      {faqSchema && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        />
+      )}
+
+      {/* AUTO-DETECTED: HowTo Schema for step-by-step rich snippets */}
+      {howToSchema && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema) }}
+        />
+      )}
 
       {/* Breadcrumb Navigation */}
       <Breadcrumb
@@ -628,7 +770,7 @@ export default async function BlogPostPage({
             textAlign: 'center',
             color: '#480005'
           }}>
-            Related Articles
+            {relatedArticlesLabels[locale] || 'Related Articles'}
           </h2>
           <div style={{
             display: 'grid',
@@ -706,7 +848,7 @@ export default async function BlogPostPage({
                         fontWeight: '600',
                         color: '#D6AC47'
                       }}>
-                        Read More →
+                        {readMoreLabels[locale] || 'Read More →'}
                       </span>
                     </div>
                   </Link>
@@ -750,7 +892,11 @@ export async function generateMetadata({ params }: BlogPostPageProps) {
     const translations = post.translations as any;
     const translation = translations[locale] || translations['en'] || {};
     const title = translation.metaTitle || translation.title || slug.replace(/-/g, ' ');
-    const description = translation.metaDescription || translation.excerpt || '';
+    // SEO FIX: Truncate description to max 160 chars for optimal SERP display
+    const rawDescription = translation.metaDescription || translation.excerpt || '';
+    const description = rawDescription.length > 160
+      ? rawDescription.substring(0, 157).replace(/\s+\S*$/, '') + '...'
+      : rawDescription;
     // Use language-specific focusKeyword first, then fall back to general keywords
     const focusKeyword = translation.focusKeyword || '';
     const generalKeywords = post.keywords?.join(', ') || '';
@@ -806,11 +952,10 @@ export async function generateMetadata({ params }: BlogPostPageProps) {
         authors: [translation.author || 'LessonCraftStudio'],
         section: post.category || 'Education',
         tags: post.keywords || [],
+        // SEO FIX: Remove hardcoded dimensions (let browser/crawler determine actual size)
         images: post.featuredImage ? [{
           url: `${baseUrl}${post.featuredImage}`,
-          width: 1200,
-          height: 630,
-          alt: title
+          alt: translation.featuredImageAlt || `${title} - LessonCraftStudio`
         }] : [],
       },
       // AUTOMATED: Twitter Card tags

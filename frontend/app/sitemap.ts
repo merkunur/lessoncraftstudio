@@ -6,61 +6,7 @@ import { getHreflangCode } from '@/lib/schema-generator';
 // Enable ISR for sitemap - revalidate every 30 minutes (reduced for faster updates)
 export const revalidate = 1800;
 
-/**
- * Locale to language folder mapping for sample images
- */
-const localeToFolder: Record<string, string> = {
-  en: 'english',
-  de: 'german',
-  fr: 'french',
-  es: 'spanish',
-  pt: 'portuguese',
-  it: 'italian',
-  nl: 'dutch',
-  sv: 'swedish',
-  da: 'danish',
-  no: 'norwegian',
-  fi: 'finnish',
-};
-
-/**
- * App ID to folder mapping for sample images
- */
-const appIdToFolder: Record<string, string> = {
-  'addition': 'addition',
-  'subtraction': 'subtraction',
-  'math-worksheet': 'math',
-  'pattern-worksheet': 'pattern',
-  'wordsearch': 'wordsearch',
-  'word-scramble': 'word-scramble',
-  'word-guess': 'word-guess',
-  'alphabet-train': 'alphabet-train',
-  'prepositions': 'prepositions',
-  'bingo': 'bingo',
-  'coloring': 'coloring',
-  'sudoku': 'sudoku',
-  'treasure-hunt': 'treasure-hunt',
-  'odd-one-out': 'odd-one-out',
-  'picture-path': 'picture-path',
-  'pattern-train': 'pattern-train',
-  'crossword': 'crossword',
-  'cryptogram': 'cryptogram',
-  'draw-and-color': 'draw-and-color',
-  'drawing-lines': 'drawing-lines',
-  'find-and-count': 'find-and-count',
-  'find-objects': 'find-objects',
-  'grid-match': 'grid-match',
-  'matching': 'matching',
-  'math-puzzle': 'math-puzzle',
-  'missing-pieces': 'missing-pieces',
-  'more-less': 'more-less',
-  'picture-sort': 'picture-sort',
-  'shadow-match': 'shadow-match',
-  'writing': 'writing',
-  'big-small': 'big-small',
-  'chart-count': 'chart-count',
-  'code-addition': 'code-addition',
-};
+// NOTE: Sample images are handled by /sitemap-images.xml with proper Google Image Sitemap XML format
 
 /**
  * Dynamic sitemap generation with hreflang alternates
@@ -125,26 +71,16 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     }
   }
 
-  // Generate product page routes from configuration (112+ pages)
-  // Now includes sample images for Google Image Search discoverability
+  // Generate product page routes from configuration (363 pages)
+  // NOTE: Images are handled separately by /sitemap-images.xml for proper Google Image Sitemap XML
   const productRoutes: MetadataRoute.Sitemap = [];
   for (const app of productPageSlugs) {
     // Get all locales that have slugs defined for this app
     const appAlternates = getAlternateUrls(app.appId, baseUrl);
-    const appFolder = appIdToFolder[app.appId] || app.appId;
 
     // Add an entry for each locale that has a slug
     for (const [locale, slug] of Object.entries(app.slugs)) {
       if (slug) {
-        const languageFolder = localeToFolder[locale] || 'english';
-
-        // Generate image URLs for this product page
-        const imageUrls = [
-          `${baseUrl}/samples/${languageFolder}/${appFolder}/${encodeURIComponent(appFolder + '_worksheet portrait.jpeg')}`,
-          `${baseUrl}/samples/${languageFolder}/${appFolder}/${encodeURIComponent(appFolder + '_worksheet landscape.jpeg')}`,
-        ];
-
-        // Type assertion needed because Next.js 14.2+ supports images but types aren't updated
         productRoutes.push({
           url: `${baseUrl}/${locale}/apps/${slug}`,
           lastModified: currentDate,
@@ -153,8 +89,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
           alternates: {
             languages: appAlternates,
           },
-          images: imageUrls,
-        } as MetadataRoute.Sitemap[number]);
+        });
       }
     }
   }

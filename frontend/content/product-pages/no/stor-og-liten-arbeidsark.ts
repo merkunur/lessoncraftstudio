@@ -21,6 +21,38 @@ export const bigSmallNoContent: ProductPageContent = {
     description: 'Lag profesjonelle arbeidsark for størrelsesammenligning med vår størrelsesarbeidsark-generator. Full Access-abonnementet gir deg ubegrenset opprettelse av arbeidsark. Generer tilpassede arbeidsark gratis for nedlasting perfekt for barnehage og småskoletrinnet.',
     keywords: 'stor og liten, størrelsesammenligning, arbeidsark gratis, matematikk oppgaver, oppgavehefter barn, barnehage, finmotorikk øvelser, tall og telling, småskoletrinnet, arbeidsark for nedlasting',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/stor-og-liten-arbeidsark',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/norwegian/big-small/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis arbeidsark stor og liten for barnehage - størrelsessammenligning med matematikk oppgaver'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/norwegian/big-small/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis arbeidsark for barn - stor liten middels sammenligning for 1. trinn'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/norwegian/big-small/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Arbeidsark for 1. trinn gratis - størrelsesortering med finmotorikk øvelser'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/norwegian/big-small/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis utskrifter stor og liten arbeidsark - oppgavehefter barn med tall og telling'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/norwegian/big-small/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Arbeidsark for barn gratis - størrelsessammenligning arbeidsark nedlasting'
+      },
+    ],
   },
 
   // Hero Section - FULL text from big-small.md paragraphs 1-3
@@ -32,7 +64,7 @@ export const bigSmallNoContent: ProductPageContent = {
 Størrelsesforståelse er en grunnleggende matematikk oppgaver for småbarn. Barna lærer å sammenligne gjenstander etter størrelse. De øver på konseptene stor, liten og middels. Visuell diskriminering utvikles gjennom sammenligning. Dette er kritiske ferdigheter for tidlig matematikkutvikling.
 
 Vår generator lager arbeidsark der barn ringer inn den største gjenstanden. Eller de ringer inn den minste. Med tre bilder kan de finne mellomstørrelsen. Barna kan også nummerere gjenstander fra liten til stor. Eller fra stor til liten. Hvert arbeidsark inkluderer fasit med svarmarkører. Perfekt for lærere i barnehage og 1. trinn til 3. trinn.`,
-    previewImageSrc: '/samples/english/big small/big-small-different images.jpeg',
+    previewImageSrc: '/samples/norwegian/big-small/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Prøv Gratis',
       viewSamples: 'Se Eksempler',
@@ -53,8 +85,8 @@ Vår generator lager arbeidsark der barn ringer inn den største gjenstanden. El
 
   // Sample Gallery - REAL file paths from samples/english/big small/
   samples: {
-    sectionTitle: 'Arbeidsark Stor og Liten Eksempler',
-    sectionDescription: 'Last ned gratis eksempler på arbeidsark for å se vår profesjonelle kvalitet',
+    sectionTitle: 'Gratis Arbeidsark Eksempler - Stor og Liten for Barn og 1. Trinn',
+    sectionDescription: 'Last ned gratis utskrifter av stor og liten oppgaver. Gratis arbeidsark for barn i barnehage og 1. trinn med profesjonell kvalitet.',
     badgeText: 'Gratis Eksempler',
     downloadLabel: 'Last ned Gratis Eksempel',
     downloadingLabel: 'Laster ned...',
@@ -62,29 +94,43 @@ Vår generator lager arbeidsark der barn ringer inn den største gjenstanden. El
     answerKeyLabel: 'Fasit',
     viewAllLabel: 'Se alle',
     noPdfLabel: 'Ingen PDF tilgjengelig',
-    freePdfCountLabel: '3 gratis nedlastinger',
+    freePdfCountLabel: '5 gratis nedlastinger',
     ofLabel: 'av',
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/big small/big-small-different images.jpeg',
-        answerKeySrc: '/samples/english/big small/big-small-different images answer_key.jpeg',
-        altText: 'Stor og liten arbeidsark med forskjellige bilder for størrelsessammenligning',
-        pdfDownloadUrl: '/samples/english/big small/big-small-different images.pdf',
+        worksheetSrc: '/samples/norwegian/big-small/sample-1.jpeg',
+        answerKeySrc: '/samples/norwegian/big-small/sample-1-answer.jpeg',
+        altText: 'Gratis arbeidsark stor og liten - størrelsessammenligning for barnehage med matematikk oppgaver',
+        pdfDownloadUrl: '/samples/norwegian/big-small/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/big small/big-small identical images.jpeg',
-        answerKeySrc: '/samples/english/big small/big-small identical images answer_key.jpeg',
-        altText: 'Stor og liten arbeidsark med identiske bilder i forskjellige størrelser',
-        pdfDownloadUrl: '/samples/english/big small/big-small identical images.pdf',
+        worksheetSrc: '/samples/norwegian/big-small/sample-2.jpeg',
+        answerKeySrc: '/samples/norwegian/big-small/sample-2-answer.jpeg',
+        altText: 'Gratis arbeidsark for barn - stor liten middels sammenligning med finmotorikk øvelser',
+        pdfDownloadUrl: '/samples/norwegian/big-small/sample-2.pdf',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/big small/big-small number 1-2-3.jpeg',
-        answerKeySrc: '/samples/english/big small/big-small number 1-2-3 answer_key.jpeg',
-        altText: 'Stor og liten arbeidsark med nummerering fra 1-2-3 for størrelsesrekkefølge',
-        pdfDownloadUrl: '/samples/english/big small/big-small number 1-2-3.pdf',
+        worksheetSrc: '/samples/norwegian/big-small/sample-3.jpeg',
+        answerKeySrc: '/samples/norwegian/big-small/sample-3-answer.jpeg',
+        altText: 'Arbeidsark for 1. trinn gratis - størrelsessortering med tall og telling aktiviteter',
+        pdfDownloadUrl: '/samples/norwegian/big-small/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/norwegian/big-small/sample-4.jpeg',
+        answerKeySrc: '/samples/norwegian/big-small/sample-4-answer.jpeg',
+        altText: 'Gratis utskrifter stor og liten - oppgavehefter barn med arbeidsark gratis nedlasting',
+        pdfDownloadUrl: '/samples/norwegian/big-small/sample-4.pdf',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/norwegian/big-small/sample-5.jpeg',
+        answerKeySrc: '/samples/norwegian/big-small/sample-5-answer.jpeg',
+        altText: 'Arbeidsark for barn stor og liten - gratis arbeidsark med størrelsesforståelse',
+        pdfDownloadUrl: '/samples/norwegian/big-small/sample-5.pdf',
       },
     ],
   },

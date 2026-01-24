@@ -21,6 +21,38 @@ export const patternWorksheetsSvContent: ProductPageContent = {
     description: 'Skapa professionella mönsterigenkänning arbetsblad med vår digitala generator. Din Full Tillgång-prenumeration ger dig obegränsad tillgång till arbetsblad utan extra kostnader. Generera anpassade arbetsblad gratis för förskoleklass och lågstadiet.',
     keywords: 'mönsterigenkänning arbetsblad, arbetsblad gratis, förskoleklass material, matematik arbetsblad, matte övningar, siffror och tal, bokstäver lära sig, finmotorik övningar, målarbilder barn, lågstadiet',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/monster-arbetsblad',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/pattern/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis arbetsblad mönster - mönsterigenkänning arbetsblad för förskoleklass och barn'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/pattern/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis arbetsblad för barn - mönsterigenkänning övningar med bilder'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/pattern/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis utskrifter mönster - arbetsblad för förskoleklass matematik'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/pattern/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Arbetsblad för barn gratis - mönsterigenkänning logiskt tänkande'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/pattern/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis arbetsblad för förskoleklass - mönster sekvenser och problemlösning'
+      },
+    ],
   },
 
   // Hero Section - FULL text from pattern-worksheet.md paragraphs 1-4
@@ -34,7 +66,7 @@ Mönsterigenkänning är en grundläggande matematisk färdighet för barn i fö
 Verktyget passar perfekt för svenskundervisande lärare som behöver förskoleklass material. Du kan skapa mönsterigenkänning arbetsblad på några minuter istället för timmar. Kombinera mönsterigenkänning med andra ämnen som addition och subtraktion, siffror och tal, eller finmotorik övningar. Alla arbetsblad exporteras i professionell 300 DPI-kvalitet redo för utskrift eller försäljning på Teachers Pay Teachers.
 
 Vår generator erbjuder 9 olika mönstertyper från enkla AB-mönster till avancerade ABCD-sekvenser. Välj mellan två frågetyper: tomma rutor där elever fyller i det saknade elementet, eller flervalsfrågor med olika svarsalternativ. Anpassa varje arbetsblad med egna bilder, teman från vårt bibliotek med 3000+ barnvänliga illustrationer, eller ladda upp dina egna foton.`,
-    previewImageSrc: '/samples/english/pattern worksheet/pattern_worksheet portrait.jpeg',
+    previewImageSrc: '/samples/swedish/pattern/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Prova Gratis',
       viewSamples: 'Visa Exempel',
@@ -55,7 +87,7 @@ Vår generator erbjuder 9 olika mönstertyper från enkla AB-mönster till avanc
 
   // Sample Gallery - REAL file paths from samples/english/pattern worksheet/
   samples: {
-    sectionTitle: 'Mönsterigenkänning Arbetsblad Exempel',
+    sectionTitle: 'Gratis Arbetsblad Mönster - Exempel för Barn och Förskoleklass',
     sectionDescription: 'Ladda ner gratis exempelarbetsblad för att se vår professionella kvalitet',
     downloadLabel: 'Ladda Ner Gratis Exempel',
     worksheetLabel: 'Arbetsblad',
@@ -69,17 +101,38 @@ Vår generator erbjuder 9 olika mönstertyper från enkla AB-mönster till avanc
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/pattern worksheet/pattern_worksheet portrait.jpeg',
-        answerKeySrc: '/samples/english/pattern worksheet/pattern_worksheet portrait answer_key.jpeg',
-        altText: 'Mönsterigenkänning arbetsblad i stående format med fyllningsövningar',
-        pdfDownloadUrl: '/samples/english/pattern worksheet/pattern_worksheet portrait.pdf',
+        worksheetSrc: '/samples/swedish/pattern/sample-1.jpeg',
+        answerKeySrc: '/samples/swedish/pattern/sample-1-answer.jpeg',
+        altText: 'Gratis arbetsblad mönster - mönsterigenkänning arbetsblad för förskoleklass och barn',
+        pdfDownloadUrl: '/samples/swedish/pattern/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/pattern worksheet/pattern_worksheet landscape.jpeg',
-        answerKeySrc: '/samples/english/pattern worksheet/pattern_worksheet landscape answer_key (1).jpeg',
-        altText: 'Mönsterigenkänning arbetsblad i liggande format med fler övningar per sida',
-        pdfDownloadUrl: '/samples/english/pattern worksheet/pattern_worksheet landscape.pdf',
+        worksheetSrc: '/samples/swedish/pattern/sample-2.jpeg',
+        answerKeySrc: '/samples/swedish/pattern/sample-2-answer.jpeg',
+        altText: 'Gratis arbetsblad för barn - mönsterigenkänning övningar med bilder',
+        pdfDownloadUrl: '/samples/swedish/pattern/sample-2.pdf',
+      },
+      {
+        id: '3',
+        worksheetSrc: '/samples/swedish/pattern/sample-3.jpeg',
+        answerKeySrc: '/samples/swedish/pattern/sample-3-answer.jpeg',
+        altText: 'Gratis utskrifter mönster - arbetsblad för förskoleklass matematik',
+        pdfDownloadUrl: '/samples/swedish/pattern/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/swedish/pattern/sample-4.jpeg',
+        answerKeySrc: '/samples/swedish/pattern/sample-4-answer.jpeg',
+        altText: 'Arbetsblad för barn gratis - mönsterigenkänning logiskt tänkande',
+        pdfDownloadUrl: '/samples/swedish/pattern/sample-4.pdf',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/swedish/pattern/sample-5.jpeg',
+        answerKeySrc: '/samples/swedish/pattern/sample-5-answer.jpeg',
+        altText: 'Gratis arbetsblad för förskoleklass - mönster sekvenser och problemlösning',
+        pdfDownloadUrl: '/samples/swedish/pattern/sample-5.pdf',
       },
     ],
   },
@@ -263,7 +316,7 @@ Facit exporteras automatiskt som en separat sida i PDF-filen vilket underlättar
 
   // Use Cases - FULL descriptions from pattern-worksheet.md persona sections
   useCases: {
-    sectionTitle: 'Perfekt för Lärare, Föräldrar och Pedagoger',
+    sectionTitle: 'Gratis Arbetsblad för Barn - Perfekt för Lärare, Föräldrar och Förskoleklass',
     sectionDescription: 'Mönsterigenkänning arbetsblad tjänar olika undervisningssituationer och elevers behov. Från förskoleklass till årskurs 3 använder lärare dessa arbetsblad för att utveckla logiskt tänkande och problemlösning. Verktyget skapar arbetsblad gratis som passar alla ämnesområden och svårighetsnivåer.',
     badgeText: 'Vem Det Är För',
     readMoreLabel: 'Läs mer',
@@ -346,7 +399,7 @@ Skapa obegränsade arbetsblad utan oro för licensbegränsningar. 300 DPI-kvalit
 
   // FAQ Section - ALL questions from pattern-worksheet.md
   faq: {
-    sectionTitle: 'Vanliga Frågor',
+    sectionTitle: 'Vanliga Frågor om Gratis Arbetsblad Mönster för Förskoleklass',
     sectionDescription: 'Lärare och föräldrar har många frågor om mönsterigenkänning arbetsblad innan de börjar använda verktyget. Denna FAQ-sektion svarar på de vanligaste frågorna om hur man skapar arbetsblad gratis, integration med matematik arbetsblad och användning av förskoleklass material.',
     showMoreText: 'Visa fler frågor',
     showLessText: 'Visa färre',
@@ -449,7 +502,7 @@ Skapa obegränsade arbetsblad utan oro för licensbegränsningar. 300 DPI-kvalit
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Kombinera med Andra Arbetsblad Generatorer',
+    sectionTitle: 'Gratis Utskrifter - Kombinera med Andra Arbetsblad för Barn',
     sectionDescription: 'Skapa kompletta lärpaket genom att kombinera mönsterigenkänning arbetsblad med dessa kompletterande generatorer.',
     ctaTitle: 'Redo att Skapa Fantastiska Arbetsblad?',
     ctaDescription: 'Gå med tusentals lärare som skapar professionella arbetsblad. Obegränsad generering, kommersiell licens ingår.',

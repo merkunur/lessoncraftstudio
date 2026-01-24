@@ -165,7 +165,10 @@ const FIND_AND_COUNT_TRANSLATIONS = {
     "defaultInstruction": "Find the hidden objects in the picture.",
     "chooseFiles": "Choose Files",
     "noFileChosen": "No file chosen",
-    "filesSelected": "{count} file(s) selected"
+    "filesSelected": "{count} file(s) selected",
+    "manualImageSelection": "Select images manually",
+    "autoModeHint": "Auto mode: 4 random images with random tasks on each generate",
+    "manualModeHint": "Click images in the library above to select up to 4"
   },
   "de": {
     "lang_en": "English",
@@ -319,7 +322,10 @@ const FIND_AND_COUNT_TRANSLATIONS = {
     "defaultInstruction": "Finde die versteckten Objekte im Bild.",
     "chooseFiles": "Dateien auswählen",
     "noFileChosen": "Keine Datei ausgewählt",
-    "filesSelected": "{count} Datei(en) ausgewählt"
+    "filesSelected": "{count} Datei(en) ausgewählt",
+    "manualImageSelection": "Bilder manuell auswählen",
+    "autoModeHint": "Automodus: 4 zufällige Bilder mit zufälligen Aufgaben bei jeder Erstellung",
+    "manualModeHint": "Klicke auf Bilder in der Sammlung oben, um bis zu 4 auszuwählen"
   },
   "fr": {
     "lang_en": "English",
@@ -474,7 +480,10 @@ const FIND_AND_COUNT_TRANSLATIONS = {
     "defaultInstruction": "Trouve les objets cachés dans l'image.",
     "chooseFiles": "Choisir des fichiers",
     "noFileChosen": "Aucun fichier sélectionné",
-    "filesSelected": "{count} fichier(s) sélectionné(s)"
+    "filesSelected": "{count} fichier(s) sélectionné(s)",
+    "manualImageSelection": "Sélectionner les images manuellement",
+    "autoModeHint": "Mode auto : 4 images aléatoires avec des tâches aléatoires à chaque création",
+    "manualModeHint": "Cliquez sur les images dans la bibliothèque ci-dessus pour en sélectionner jusqu'à 4"
   },
   "es": {
     "lang_en": "English",
@@ -629,7 +638,10 @@ const FIND_AND_COUNT_TRANSLATIONS = {
     "defaultInstruction": "Encuentra los objetos ocultos en la imagen.",
     "chooseFiles": "Elegir archivos",
     "noFileChosen": "Ningún archivo seleccionado",
-    "filesSelected": "{count} archivo(s) seleccionado(s)"
+    "filesSelected": "{count} archivo(s) seleccionado(s)",
+    "manualImageSelection": "Seleccionar imágenes manualmente",
+    "autoModeHint": "Modo automático: 4 imágenes aleatorias con tareas aleatorias en cada creación",
+    "manualModeHint": "Haz clic en las imágenes de la biblioteca para seleccionar hasta 4"
   },
   "it": {
     "lang_en": "English",
@@ -783,7 +795,10 @@ const FIND_AND_COUNT_TRANSLATIONS = {
     "defaultInstruction": "Trova gli oggetti nascosti nell'immagine.",
     "chooseFiles": "Scegli file",
     "noFileChosen": "Nessun file selezionato",
-    "filesSelected": "{count} file selezionati"
+    "filesSelected": "{count} file selezionati",
+    "manualImageSelection": "Seleziona le immagini manualmente",
+    "autoModeHint": "Modalità automatica: 4 immagini casuali con compiti casuali ad ogni creazione",
+    "manualModeHint": "Clicca sulle immagini nella raccolta sopra per selezionarne fino a 4"
   },
   "pt": {
     "lang_en": "English",
@@ -938,7 +953,10 @@ const FIND_AND_COUNT_TRANSLATIONS = {
     "defaultInstruction": "Encontre os objetos escondidos na imagem.",
     "chooseFiles": "Escolher arquivos",
     "noFileChosen": "Nenhum arquivo selecionado",
-    "filesSelected": "{count} arquivo(s) selecionado(s)"
+    "filesSelected": "{count} arquivo(s) selecionado(s)",
+    "manualImageSelection": "Selecionar imagens manualmente",
+    "autoModeHint": "Modo automático: 4 imagens aleatórias com tarefas aleatórias em cada criação",
+    "manualModeHint": "Clique nas imagens da biblioteca acima para selecionar até 4"
   },
   "nl": {
     "lang_en": "English",
@@ -1093,7 +1111,10 @@ const FIND_AND_COUNT_TRANSLATIONS = {
     "defaultInstruction": "Vind de verborgen objecten in de afbeelding.",
     "chooseFiles": "Bestanden kiezen",
     "noFileChosen": "Geen bestand gekozen",
-    "filesSelected": "{count} bestand(en) geselecteerd"
+    "filesSelected": "{count} bestand(en) geselecteerd",
+    "manualImageSelection": "Afbeeldingen handmatig selecteren",
+    "autoModeHint": "Automatische modus: 4 willekeurige afbeeldingen met willekeurige opdrachten bij elke creatie",
+    "manualModeHint": "Klik op afbeeldingen in de verzameling hierboven om er maximaal 4 te selecteren"
   },
   "sv": {
     "lang_en": "English",
@@ -1248,7 +1269,10 @@ const FIND_AND_COUNT_TRANSLATIONS = {
     "defaultInstruction": "Hitta de dolda objekten i bilden.",
     "chooseFiles": "Välj filer",
     "noFileChosen": "Ingen fil vald",
-    "filesSelected": "{count} fil(er) valda"
+    "filesSelected": "{count} fil(er) valda",
+    "manualImageSelection": "Välj bilder manuellt",
+    "autoModeHint": "Automatiskt läge: 4 slumpmässiga bilder med slumpmässiga uppgifter vid varje skapande",
+    "manualModeHint": "Klicka på bilder i samlingen ovan för att välja upp till 4"
   },
   "da": {
     "lang_en": "English",
@@ -1403,7 +1427,10 @@ const FIND_AND_COUNT_TRANSLATIONS = {
     "defaultInstruction": "Find de skjulte objekter i billedet.",
     "chooseFiles": "Vælg filer",
     "noFileChosen": "Ingen fil valgt",
-    "filesSelected": "{count} fil(er) valgt"
+    "filesSelected": "{count} fil(er) valgt",
+    "manualImageSelection": "Vælg billeder manuelt",
+    "autoModeHint": "Automatisk tilstand: 4 tilfældige billeder med tilfældige opgaver ved hver oprettelse",
+    "manualModeHint": "Klik på billeder i samlingen ovenfor for at vælge op til 4"
   },
   "no": {
     "lang_en": "English",
@@ -1558,7 +1585,10 @@ const FIND_AND_COUNT_TRANSLATIONS = {
     "defaultInstruction": "Finn de skjulte objektene i bildet.",
     "chooseFiles": "Velg filer",
     "noFileChosen": "Ingen fil valgt",
-    "filesSelected": "{count} fil(er) valgt"
+    "filesSelected": "{count} fil(er) valgt",
+    "manualImageSelection": "Velg bilder manuelt",
+    "autoModeHint": "Automatisk modus: 4 tilfeldige bilder med tilfeldige oppgaver ved hver opprettelse",
+    "manualModeHint": "Klikk på bilder i samlingen ovenfor for å velge opptil 4"
   },
   "fi": {
     "lang_en": "English",
@@ -1713,7 +1743,10 @@ const FIND_AND_COUNT_TRANSLATIONS = {
     "defaultInstruction": "Etsi piilotetut kuvat kuvasta.",
     "chooseFiles": "Valitse tiedostot",
     "noFileChosen": "Ei valittua tiedostoa",
-    "filesSelected": "{count} tiedosto(a) valittu"
+    "filesSelected": "{count} tiedosto(a) valittu",
+    "manualImageSelection": "Valitse kuvat manuaalisesti",
+    "autoModeHint": "Automaattinen tila: 4 satunnaista kuvaa satunnaisilla tehtävillä jokaisessa luonnissa",
+    "manualModeHint": "Napsauta kuvia yllä olevasta kirjastosta valitaksesi enintään 4"
   }
 };
 

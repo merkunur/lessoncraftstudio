@@ -1,0 +1,1325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage Thumbnail & PDF Manager</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary: #4F46E5;
+            --primary-dark: #4338CA;
+            --success: #10B981;
+            --danger: #EF4444;
+            --warning: #F59E0B;
+            --info: #3B82F6;
+            --gray-50: #F9FAFB;
+            --gray-100: #F3F4F6;
+            --gray-200: #E5E7EB;
+            --gray-300: #D1D5DB;
+            --gray-400: #9CA3AF;
+            --gray-500: #6B7280;
+            --gray-600: #4B5563;
+            --gray-700: #374151;
+            --gray-800: #1F2937;
+            --gray-900: #111827;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1600px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 16px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+            overflow: hidden;
+        }
+
+        /* Header */
+        .header {
+            background: var(--gray-900);
+            color: white;
+            padding: 25px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .header h1 {
+            font-size: 28px;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .header .subtitle {
+            color: var(--gray-400);
+            margin-top: 4px;
+            font-size: 14px;
+        }
+
+        .header-actions {
+            display: flex;
+            gap: 12px;
+        }
+
+        /* Language Tabs */
+        .language-tabs {
+            display: flex;
+            background: var(--gray-100);
+            border-bottom: 2px solid var(--gray-200);
+            padding: 0 20px;
+            flex-wrap: wrap;
+        }
+
+        .language-tab {
+            padding: 15px 20px;
+            background: none;
+            border: none;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 600;
+            color: var(--gray-600);
+            transition: all 0.2s;
+            position: relative;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .language-tab:hover {
+            color: var(--primary);
+            background: var(--gray-50);
+        }
+
+        .language-tab.active {
+            color: var(--primary);
+            background: white;
+        }
+
+        .language-tab.active::after {
+            content: '';
+            position: absolute;
+            bottom: -2px;
+            left: 0;
+            right: 0;
+            height: 2px;
+            background: var(--primary);
+        }
+
+        .language-tab .count {
+            background: var(--gray-200);
+            color: var(--gray-600);
+            font-size: 11px;
+            padding: 2px 6px;
+            border-radius: 10px;
+        }
+
+        .language-tab.active .count {
+            background: var(--primary);
+            color: white;
+        }
+
+        /* Stats Bar */
+        .stats-bar {
+            background: var(--gray-50);
+            padding: 20px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid var(--gray-200);
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .stats-group {
+            display: flex;
+            gap: 30px;
+        }
+
+        .stat-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .stat-value {
+            font-size: 24px;
+            font-weight: 700;
+            color: var(--gray-900);
+        }
+
+        .stat-label {
+            font-size: 12px;
+            color: var(--gray-500);
+            margin-top: 2px;
+        }
+
+        .progress-container {
+            flex: 1;
+            max-width: 400px;
+            margin: 0 20px;
+        }
+
+        .progress-bar {
+            height: 10px;
+            background: var(--gray-200);
+            border-radius: 5px;
+            overflow: hidden;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, var(--success), #34D399);
+            transition: width 0.3s ease;
+        }
+
+        .progress-text {
+            text-align: center;
+            font-size: 12px;
+            color: var(--gray-600);
+            margin-top: 4px;
+        }
+
+        /* Filter Tabs */
+        .filter-tabs {
+            display: flex;
+            gap: 10px;
+            padding: 15px 30px;
+            border-bottom: 1px solid var(--gray-200);
+            background: white;
+        }
+
+        .filter-tab {
+            padding: 8px 16px;
+            background: var(--gray-100);
+            border: 1px solid var(--gray-200);
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 13px;
+            color: var(--gray-600);
+            transition: all 0.2s;
+        }
+
+        .filter-tab:hover {
+            background: var(--gray-200);
+        }
+
+        .filter-tab.active {
+            background: var(--primary);
+            color: white;
+            border-color: var(--primary);
+        }
+
+        /* App Grid */
+        .app-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+            gap: 20px;
+            padding: 30px;
+        }
+
+        .app-card {
+            background: white;
+            border: 2px solid var(--gray-200);
+            border-radius: 12px;
+            overflow: hidden;
+            transition: all 0.2s;
+        }
+
+        .app-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        .app-card.complete {
+            border-color: var(--success);
+        }
+
+        .app-card.partial {
+            border-color: var(--warning);
+        }
+
+        .app-card.empty {
+            border-color: var(--danger);
+        }
+
+        .app-thumbnail {
+            height: 140px;
+            background: var(--gray-100);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .app-thumbnail img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .app-thumbnail .placeholder {
+            color: var(--gray-400);
+            font-size: 48px;
+        }
+
+        .app-thumbnail .status-badge {
+            position: absolute;
+            top: 8px;
+            right: 8px;
+            padding: 4px 10px;
+            border-radius: 12px;
+            font-size: 11px;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+
+        .status-badge.complete {
+            background: var(--success);
+            color: white;
+        }
+
+        .status-badge.partial {
+            background: var(--warning);
+            color: white;
+        }
+
+        .status-badge.empty {
+            background: var(--danger);
+            color: white;
+        }
+
+        .app-info {
+            padding: 15px;
+        }
+
+        .app-name {
+            font-weight: 600;
+            color: var(--gray-900);
+            margin-bottom: 10px;
+            font-size: 14px;
+        }
+
+        .file-status {
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+            margin-bottom: 12px;
+        }
+
+        .file-status-item {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 12px;
+            color: var(--gray-600);
+        }
+
+        .file-status-item .icon {
+            width: 16px;
+            text-align: center;
+        }
+
+        .file-status-item .icon.ok {
+            color: var(--success);
+        }
+
+        .file-status-item .icon.missing {
+            color: var(--danger);
+        }
+
+        .app-actions {
+            display: flex;
+            gap: 8px;
+        }
+
+        .btn {
+            padding: 8px 14px;
+            border-radius: 6px;
+            font-size: 12px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.2s;
+            border: none;
+            flex: 1;
+        }
+
+        .btn-primary {
+            background: var(--primary);
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background: var(--primary-dark);
+        }
+
+        .btn-secondary {
+            background: var(--gray-100);
+            color: var(--gray-700);
+            border: 1px solid var(--gray-300);
+        }
+
+        .btn-secondary:hover {
+            background: var(--gray-200);
+        }
+
+        .btn-success {
+            background: var(--success);
+            color: white;
+        }
+
+        .btn-danger {
+            background: var(--danger);
+            color: white;
+        }
+
+        /* Modal */
+        .modal-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.6);
+            display: none;
+            align-items: center;
+            justify-content: center;
+            z-index: 1000;
+        }
+
+        .modal-overlay.active {
+            display: flex;
+        }
+
+        .modal {
+            background: white;
+            border-radius: 16px;
+            width: 90%;
+            max-width: 600px;
+            max-height: 90vh;
+            overflow-y: auto;
+            box-shadow: 0 25px 50px rgba(0, 0, 0, 0.25);
+        }
+
+        .modal-header {
+            padding: 20px 25px;
+            border-bottom: 1px solid var(--gray-200);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .modal-header h2 {
+            font-size: 20px;
+            color: var(--gray-900);
+        }
+
+        .modal-close {
+            background: none;
+            border: none;
+            font-size: 24px;
+            color: var(--gray-500);
+            cursor: pointer;
+        }
+
+        .modal-body {
+            padding: 25px;
+        }
+
+        .modal-footer {
+            padding: 20px 25px;
+            border-top: 1px solid var(--gray-200);
+            display: flex;
+            justify-content: flex-end;
+            gap: 12px;
+        }
+
+        /* Upload Zone */
+        .upload-zone {
+            border: 2px dashed var(--gray-300);
+            border-radius: 12px;
+            padding: 40px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.2s;
+            margin-bottom: 20px;
+        }
+
+        .upload-zone:hover, .upload-zone.dragover {
+            border-color: var(--primary);
+            background: rgba(79, 70, 229, 0.05);
+        }
+
+        .upload-zone-icon {
+            font-size: 48px;
+            color: var(--gray-400);
+            margin-bottom: 15px;
+        }
+
+        .upload-zone-text {
+            color: var(--gray-600);
+            margin-bottom: 8px;
+        }
+
+        .upload-zone-hint {
+            color: var(--gray-400);
+            font-size: 13px;
+        }
+
+        .upload-preview {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .upload-preview img {
+            max-width: 100%;
+            max-height: 200px;
+            border-radius: 8px;
+            border: 1px solid var(--gray-200);
+        }
+
+        /* Toast */
+        .toast-container {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 2000;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .toast {
+            background: white;
+            padding: 15px 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            animation: slideIn 0.3s ease;
+            min-width: 300px;
+        }
+
+        @keyframes slideIn {
+            from {
+                transform: translateX(100%);
+                opacity: 0;
+            }
+            to {
+                transform: translateX(0);
+                opacity: 1;
+            }
+        }
+
+        .toast.success {
+            border-left: 4px solid var(--success);
+        }
+
+        .toast.error {
+            border-left: 4px solid var(--danger);
+        }
+
+        .toast.warning {
+            border-left: 4px solid var(--warning);
+        }
+
+        .toast-icon {
+            font-size: 20px;
+        }
+
+        .toast.success .toast-icon {
+            color: var(--success);
+        }
+
+        .toast.error .toast-icon {
+            color: var(--danger);
+        }
+
+        .toast-message {
+            flex: 1;
+            color: var(--gray-700);
+        }
+
+        /* Loading Spinner */
+        .spinner {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border: 2px solid var(--gray-200);
+            border-top-color: var(--primary);
+            border-radius: 50%;
+            animation: spin 0.8s linear infinite;
+        }
+
+        @keyframes spin {
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        /* Form Group */
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-label {
+            display: block;
+            font-size: 14px;
+            font-weight: 500;
+            color: var(--gray-700);
+            margin-bottom: 8px;
+        }
+
+        .form-control {
+            width: 100%;
+            padding: 10px 14px;
+            border: 1px solid var(--gray-300);
+            border-radius: 8px;
+            font-size: 14px;
+        }
+
+        .form-control:focus {
+            outline: none;
+            border-color: var(--primary);
+            box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.1);
+        }
+
+        /* Checkbox */
+        .checkbox-group {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-top: 15px;
+            padding: 12px;
+            background: var(--gray-50);
+            border-radius: 8px;
+        }
+
+        .checkbox-group input {
+            width: 18px;
+            height: 18px;
+        }
+
+        .checkbox-group label {
+            font-size: 13px;
+            color: var(--gray-600);
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .header {
+                flex-direction: column;
+                gap: 15px;
+                text-align: center;
+            }
+
+            .stats-bar {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .stats-group {
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+
+            .app-grid {
+                grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+                padding: 15px;
+                gap: 15px;
+            }
+        }
+
+        /* Hidden file input */
+        .hidden-input {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div>
+                <h1>Homepage Thumbnail & PDF Manager</h1>
+                <div class="subtitle">Upload and manage sample thumbnails and PDFs for all 11 homepages</div>
+            </div>
+            <div class="header-actions">
+                <button class="btn btn-secondary" onclick="exportStatusCSV()">Export CSV</button>
+                <button class="btn btn-primary" onclick="refreshData()">Refresh</button>
+            </div>
+        </header>
+
+        <!-- Language Tabs -->
+        <div class="language-tabs" id="language-tabs">
+            <!-- Generated by JS -->
+        </div>
+
+        <!-- Stats Bar -->
+        <div class="stats-bar">
+            <div class="stats-group">
+                <div class="stat-item">
+                    <div class="stat-value" id="stat-thumbnails">0</div>
+                    <div class="stat-label">Thumbnails</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-value" id="stat-webp">0</div>
+                    <div class="stat-label">WebP Files</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-value" id="stat-pdfs">0</div>
+                    <div class="stat-label">PDFs</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-value" id="stat-complete">0</div>
+                    <div class="stat-label">Complete</div>
+                </div>
+            </div>
+            <div class="progress-container">
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progress-fill" style="width: 0%"></div>
+                </div>
+                <div class="progress-text" id="progress-text">0% Complete (0/363)</div>
+            </div>
+        </div>
+
+        <!-- Hero Images Section -->
+        <div class="hero-section" style="padding: 20px 25px; background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%); border-bottom: 1px solid var(--gray-200);">
+            <h2 style="font-size: 18px; font-weight: 600; color: var(--gray-800); margin-bottom: 15px; display: flex; align-items: center; gap: 10px;">
+                <span style="font-size: 24px;">🏠</span> Hero Section Images
+                <span id="hero-status-badge" class="status-badge" style="font-size: 12px; padding: 4px 10px; border-radius: 12px; background: var(--gray-200); color: var(--gray-600);">Loading...</span>
+            </h2>
+            <p style="font-size: 13px; color: var(--gray-600); margin-bottom: 15px;">These images appear in the hero section of the homepage. No PDF required.</p>
+            <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; max-width: 600px;">
+                <!-- Portrait Image -->
+                <div class="hero-card" style="background: white; border-radius: 12px; padding: 15px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+                    <div style="font-size: 14px; font-weight: 600; color: var(--gray-700); margin-bottom: 10px;">Portrait (Left)</div>
+                    <div id="hero-portrait-preview" style="height: 120px; background: var(--gray-100); border-radius: 8px; display: flex; align-items: center; justify-content: center; margin-bottom: 10px; overflow: hidden;">
+                        <span style="color: var(--gray-400);">No image</span>
+                    </div>
+                    <div style="display: flex; gap: 8px; align-items: center;">
+                        <span id="hero-portrait-status" style="font-size: 18px;">❌</span>
+                        <button class="btn btn-sm" style="flex: 1; padding: 8px 12px; font-size: 13px;" onclick="openHeroUpload('portrait')">Upload Portrait</button>
+                    </div>
+                </div>
+                <!-- Landscape Image -->
+                <div class="hero-card" style="background: white; border-radius: 12px; padding: 15px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+                    <div style="font-size: 14px; font-weight: 600; color: var(--gray-700); margin-bottom: 10px;">Landscape (Right)</div>
+                    <div id="hero-landscape-preview" style="height: 120px; background: var(--gray-100); border-radius: 8px; display: flex; align-items: center; justify-content: center; margin-bottom: 10px; overflow: hidden;">
+                        <span style="color: var(--gray-400);">No image</span>
+                    </div>
+                    <div style="display: flex; gap: 8px; align-items: center;">
+                        <span id="hero-landscape-status" style="font-size: 18px;">❌</span>
+                        <button class="btn btn-sm" style="flex: 1; padding: 8px 12px; font-size: 13px;" onclick="openHeroUpload('landscape')">Upload Landscape</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Filter Tabs -->
+        <div class="filter-tabs">
+            <button class="filter-tab active" data-filter="all">All (33)</button>
+            <button class="filter-tab" data-filter="complete">Complete</button>
+            <button class="filter-tab" data-filter="partial">Partial</button>
+            <button class="filter-tab" data-filter="missing-image">Missing Image</button>
+            <button class="filter-tab" data-filter="missing-webp">Missing WebP</button>
+            <button class="filter-tab" data-filter="missing-pdf">Missing PDF</button>
+        </div>
+
+        <!-- App Grid -->
+        <div class="app-grid" id="app-grid">
+            <!-- Generated by JS -->
+        </div>
+    </div>
+
+    <!-- Upload Modal -->
+    <div class="modal-overlay" id="upload-modal">
+        <div class="modal">
+            <div class="modal-header">
+                <h2 id="modal-title">Upload Files</h2>
+                <button class="modal-close" onclick="closeModal()">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="form-group">
+                    <label class="form-label">App: <strong id="modal-app-name"></strong></label>
+                    <label class="form-label">Language: <strong id="modal-language"></strong></label>
+                </div>
+
+                <!-- Thumbnail Upload -->
+                <h3 style="margin-bottom: 15px; color: var(--gray-700);">Thumbnail Image</h3>
+                <div class="upload-zone" id="thumbnail-upload-zone" onclick="document.getElementById('thumbnail-input').click()">
+                    <div class="upload-zone-icon">🖼️</div>
+                    <div class="upload-zone-text">Drop thumbnail image here or click to browse</div>
+                    <div class="upload-zone-hint">JPEG, PNG, WebP - Max 10MB</div>
+                </div>
+                <input type="file" class="hidden-input" id="thumbnail-input" accept="image/jpeg,image/png,image/webp" onchange="handleThumbnailSelect(this)">
+                <div class="upload-preview" id="thumbnail-preview"></div>
+
+                <!-- PDF Upload -->
+                <h3 style="margin: 25px 0 15px; color: var(--gray-700);">PDF Sample</h3>
+                <div class="upload-zone" id="pdf-upload-zone" onclick="document.getElementById('pdf-input').click()">
+                    <div class="upload-zone-icon">📄</div>
+                    <div class="upload-zone-text">Drop PDF file here or click to browse</div>
+                    <div class="upload-zone-hint">PDF - Max 50MB</div>
+                </div>
+                <input type="file" class="hidden-input" id="pdf-input" accept="application/pdf" onchange="handlePdfSelect(this)">
+                <div class="upload-preview" id="pdf-preview"></div>
+
+                <!-- Overwrite Warning -->
+                <div class="checkbox-group" id="overwrite-warning" style="display: none;">
+                    <input type="checkbox" id="overwrite-confirm">
+                    <label for="overwrite-confirm">File(s) already exist. Check to confirm overwrite (backup will be created)</label>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" onclick="closeModal()">Cancel</button>
+                <button class="btn btn-primary" id="upload-btn" onclick="uploadFiles()">
+                    <span id="upload-btn-text">Upload</span>
+                    <span id="upload-spinner" class="spinner" style="display: none;"></span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast Container -->
+    <div class="toast-container" id="toast-container"></div>
+
+    <script>
+        // Configuration
+        const locales = ['en', 'de', 'fr', 'es', 'it', 'pt', 'nl', 'da', 'sv', 'no', 'fi'];
+        const localeNames = {
+            en: 'English', de: 'German', fr: 'French', es: 'Spanish',
+            it: 'Italian', pt: 'Portuguese', nl: 'Dutch', da: 'Danish',
+            sv: 'Swedish', no: 'Norwegian', fi: 'Finnish'
+        };
+        const localeFlags = {
+            en: '🇬🇧', de: '🇩🇪', fr: '🇫🇷', es: '🇪🇸',
+            it: '🇮🇹', pt: '🇵🇹', nl: '🇳🇱', da: '🇩🇰',
+            sv: '🇸🇪', no: '🇳🇴', fi: '🇫🇮'
+        };
+
+        // State
+        let currentLocale = 'en';
+        let currentFilter = 'all';
+        let matrixData = null;
+        let selectedApp = null;
+        let thumbnailFile = null;
+        let pdfFile = null;
+
+        // Initialize
+        document.addEventListener('DOMContentLoaded', () => {
+            initLanguageTabs();
+            initFilterTabs();
+            initDragDrop();
+            refreshData();
+        });
+
+        function initLanguageTabs() {
+            const container = document.getElementById('language-tabs');
+            container.innerHTML = locales.map(locale => `
+                <button class="language-tab ${locale === currentLocale ? 'active' : ''}"
+                        data-locale="${locale}"
+                        onclick="selectLocale('${locale}')">
+                    ${localeFlags[locale]} ${localeNames[locale]}
+                    <span class="count" id="count-${locale}">0</span>
+                </button>
+            `).join('');
+        }
+
+        function initFilterTabs() {
+            document.querySelectorAll('.filter-tab').forEach(tab => {
+                tab.addEventListener('click', () => {
+                    document.querySelectorAll('.filter-tab').forEach(t => t.classList.remove('active'));
+                    tab.classList.add('active');
+                    currentFilter = tab.dataset.filter;
+                    renderAppGrid();
+                });
+            });
+        }
+
+        function initDragDrop() {
+            ['thumbnail-upload-zone', 'pdf-upload-zone'].forEach(zoneId => {
+                const zone = document.getElementById(zoneId);
+
+                zone.addEventListener('dragover', (e) => {
+                    e.preventDefault();
+                    zone.classList.add('dragover');
+                });
+
+                zone.addEventListener('dragleave', () => {
+                    zone.classList.remove('dragover');
+                });
+
+                zone.addEventListener('drop', (e) => {
+                    e.preventDefault();
+                    zone.classList.remove('dragover');
+                    const file = e.dataTransfer.files[0];
+                    if (zoneId === 'thumbnail-upload-zone' && file.type.startsWith('image/')) {
+                        handleThumbnailFile(file);
+                    } else if (zoneId === 'pdf-upload-zone' && file.type === 'application/pdf') {
+                        handlePdfFile(file);
+                    }
+                });
+            });
+        }
+
+        async function refreshData() {
+            try {
+                const response = await fetch('/api/homepage-samples/list');
+                const data = await response.json();
+
+                if (data.success) {
+                    matrixData = data;
+                    updateStats(data.globalStats);
+                    updateLocaleCounts();
+                    renderAppGrid();
+                    updateHeroSection();
+                } else {
+                    showToast('Failed to load data: ' + data.error, 'error');
+                }
+            } catch (error) {
+                showToast('Network error: ' + error.message, 'error');
+            }
+        }
+
+        function updateStats(stats) {
+            document.getElementById('stat-thumbnails').textContent = stats.totalThumbnails;
+            document.getElementById('stat-webp').textContent = stats.totalThumbWebps + stats.totalPreviewWebps;
+            document.getElementById('stat-pdfs').textContent = stats.totalPdfs;
+            document.getElementById('stat-complete').textContent = stats.totalComplete;
+
+            document.getElementById('progress-fill').style.width = stats.percentComplete + '%';
+            document.getElementById('progress-text').textContent =
+                `${stats.percentComplete}% Complete (${stats.totalComplete}/${stats.totalSlots})`;
+        }
+
+        function updateLocaleCounts() {
+            if (!matrixData) return;
+
+            locales.forEach(locale => {
+                const langData = matrixData.matrix[locale];
+                if (langData) {
+                    document.getElementById(`count-${locale}`).textContent = langData.stats.complete;
+                }
+            });
+        }
+
+        function selectLocale(locale) {
+            currentLocale = locale;
+            document.querySelectorAll('.language-tab').forEach(tab => {
+                tab.classList.toggle('active', tab.dataset.locale === locale);
+            });
+            renderAppGrid();
+            updateHeroSection();
+        }
+
+        function renderAppGrid() {
+            const container = document.getElementById('app-grid');
+
+            if (!matrixData || !matrixData.matrix[currentLocale]) {
+                container.innerHTML = '<p style="padding: 30px; color: var(--gray-500);">No data available</p>';
+                return;
+            }
+
+            const langData = matrixData.matrix[currentLocale];
+            const apps = Object.values(langData.apps);
+
+            // Apply filter
+            const filteredApps = apps.filter(app => {
+                switch (currentFilter) {
+                    case 'complete': return app.isComplete;
+                    case 'partial': return !app.isComplete && (app.hasThumbnail || app.hasPdf);
+                    case 'missing-image': return !app.hasThumbnail;
+                    case 'missing-webp': return !app.hasThumbWebp || !app.hasPreviewWebp;
+                    case 'missing-pdf': return !app.hasPdf;
+                    default: return true;
+                }
+            });
+
+            container.innerHTML = filteredApps.map(app => {
+                const status = app.isComplete ? 'complete' :
+                               (app.hasThumbnail || app.hasPdf) ? 'partial' : 'empty';
+
+                const thumbnailUrl = app.hasThumbnail
+                    ? `/samples/${langData.language}/homepage/${app.appId}-thumbnail.jpeg`
+                    : null;
+
+                return `
+                    <div class="app-card ${status}">
+                        <div class="app-thumbnail">
+                            ${thumbnailUrl
+                                ? `<img src="${thumbnailUrl}" alt="${app.displayName}" onerror="this.style.display='none'; this.nextElementSibling.style.display='block'">
+                                   <div class="placeholder" style="display: none;">🖼️</div>`
+                                : `<div class="placeholder">🖼️</div>`
+                            }
+                            <span class="status-badge ${status}">${status}</span>
+                        </div>
+                        <div class="app-info">
+                            <div class="app-name">${app.displayName}</div>
+                            <div class="file-status">
+                                <div class="file-status-item">
+                                    <span class="icon ${app.hasThumbnail ? 'ok' : 'missing'}">${app.hasThumbnail ? '✓' : '✗'}</span>
+                                    Thumbnail
+                                </div>
+                                <div class="file-status-item">
+                                    <span class="icon ${app.hasThumbWebp && app.hasPreviewWebp ? 'ok' : 'missing'}">${app.hasThumbWebp && app.hasPreviewWebp ? '✓' : '✗'}</span>
+                                    WebP Variants
+                                </div>
+                                <div class="file-status-item">
+                                    <span class="icon ${app.hasPdf ? 'ok' : 'missing'}">${app.hasPdf ? '✓' : '✗'}</span>
+                                    PDF Sample
+                                </div>
+                            </div>
+                            <div class="app-actions">
+                                <button class="btn btn-primary" onclick="openUploadModal('${app.appId}')">Upload</button>
+                            </div>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+
+            // Update filter counts
+            document.querySelector('[data-filter="all"]').textContent = `All (${apps.length})`;
+        }
+
+        function openUploadModal(appId) {
+            if (!matrixData) return;
+
+            const langData = matrixData.matrix[currentLocale];
+            const app = langData.apps[appId];
+
+            selectedApp = app;
+            thumbnailFile = null;
+            pdfFile = null;
+
+            document.getElementById('modal-app-name').textContent = app.displayName;
+            document.getElementById('modal-language').textContent = localeNames[currentLocale];
+            document.getElementById('thumbnail-preview').innerHTML = '';
+            document.getElementById('pdf-preview').innerHTML = '';
+            document.getElementById('thumbnail-input').value = '';
+            document.getElementById('pdf-input').value = '';
+
+            // Show overwrite warning if files exist
+            const hasExisting = app.hasThumbnail || app.hasPdf;
+            document.getElementById('overwrite-warning').style.display = hasExisting ? 'flex' : 'none';
+            document.getElementById('overwrite-confirm').checked = false;
+
+            document.getElementById('upload-modal').classList.add('active');
+        }
+
+        function closeModal() {
+            document.getElementById('upload-modal').classList.remove('active');
+            selectedApp = null;
+            thumbnailFile = null;
+            pdfFile = null;
+        }
+
+        function handleThumbnailSelect(input) {
+            if (input.files && input.files[0]) {
+                handleThumbnailFile(input.files[0]);
+            }
+        }
+
+        function handleThumbnailFile(file) {
+            if (!file.type.startsWith('image/')) {
+                showToast('Please select an image file', 'error');
+                return;
+            }
+            if (file.size > 10 * 1024 * 1024) {
+                showToast('Image must be under 10MB', 'error');
+                return;
+            }
+
+            thumbnailFile = file;
+
+            const reader = new FileReader();
+            reader.onload = (e) => {
+                document.getElementById('thumbnail-preview').innerHTML = `
+                    <img src="${e.target.result}" alt="Preview">
+                    <p style="margin-top: 10px; color: var(--gray-600); font-size: 13px;">
+                        ${file.name} (${(file.size / 1024).toFixed(1)} KB)
+                    </p>
+                `;
+            };
+            reader.readAsDataURL(file);
+        }
+
+        function handlePdfSelect(input) {
+            if (input.files && input.files[0]) {
+                handlePdfFile(input.files[0]);
+            }
+        }
+
+        function handlePdfFile(file) {
+            if (file.type !== 'application/pdf') {
+                showToast('Please select a PDF file', 'error');
+                return;
+            }
+            if (file.size > 50 * 1024 * 1024) {
+                showToast('PDF must be under 50MB', 'error');
+                return;
+            }
+
+            pdfFile = file;
+            document.getElementById('pdf-preview').innerHTML = `
+                <p style="color: var(--success);">✓ ${file.name} (${(file.size / 1024).toFixed(1)} KB)</p>
+            `;
+        }
+
+        async function uploadFiles() {
+            if (!selectedApp) return;
+            if (!thumbnailFile && !pdfFile) {
+                showToast('Please select at least one file to upload', 'warning');
+                return;
+            }
+
+            // Check overwrite confirmation
+            const hasExisting = selectedApp.hasThumbnail || selectedApp.hasPdf;
+            const overwriteConfirmed = document.getElementById('overwrite-confirm').checked;
+
+            if (hasExisting && (thumbnailFile || pdfFile) && !overwriteConfirmed) {
+                showToast('Please confirm overwrite by checking the checkbox', 'warning');
+                return;
+            }
+
+            const btn = document.getElementById('upload-btn');
+            const btnText = document.getElementById('upload-btn-text');
+            const spinner = document.getElementById('upload-spinner');
+
+            btn.disabled = true;
+            btnText.textContent = 'Uploading...';
+            spinner.style.display = 'inline-block';
+
+            try {
+                // Upload thumbnail
+                if (thumbnailFile) {
+                    const formData = new FormData();
+                    formData.append('file', thumbnailFile);
+                    formData.append('locale', currentLocale);
+                    formData.append('appId', selectedApp.appId);
+                    formData.append('fileType', 'thumbnail');
+                    formData.append('overwrite', 'true');
+
+                    const response = await fetch('/api/homepage-samples/upload', {
+                        method: 'POST',
+                        body: formData
+                    });
+                    const result = await response.json();
+
+                    if (result.success) {
+                        showToast(`Thumbnail uploaded with WebP variants generated`, 'success');
+                    } else {
+                        showToast('Thumbnail upload failed: ' + result.error, 'error');
+                    }
+                }
+
+                // Upload PDF
+                if (pdfFile) {
+                    const formData = new FormData();
+                    formData.append('file', pdfFile);
+                    formData.append('locale', currentLocale);
+                    formData.append('appId', selectedApp.appId);
+                    formData.append('fileType', 'pdf');
+                    formData.append('overwrite', 'true');
+
+                    const response = await fetch('/api/homepage-samples/upload', {
+                        method: 'POST',
+                        body: formData
+                    });
+                    const result = await response.json();
+
+                    if (result.success) {
+                        showToast('PDF uploaded successfully', 'success');
+                    } else {
+                        showToast('PDF upload failed: ' + result.error, 'error');
+                    }
+                }
+
+                // Refresh data and close modal
+                await refreshData();
+                closeModal();
+
+            } catch (error) {
+                showToast('Upload error: ' + error.message, 'error');
+            } finally {
+                btn.disabled = false;
+                btnText.textContent = 'Upload';
+                spinner.style.display = 'none';
+            }
+        }
+
+        function exportStatusCSV() {
+            if (!matrixData) {
+                showToast('No data to export', 'warning');
+                return;
+            }
+
+            const rows = [['Locale', 'Language', 'App ID', 'App Name', 'Has Thumbnail', 'Has Thumb WebP', 'Has Preview WebP', 'Has PDF', 'Complete']];
+
+            Object.entries(matrixData.matrix).forEach(([locale, langData]) => {
+                Object.values(langData.apps).forEach(app => {
+                    rows.push([
+                        locale,
+                        langData.language,
+                        app.appId,
+                        app.displayName,
+                        app.hasThumbnail ? 'Yes' : 'No',
+                        app.hasThumbWebp ? 'Yes' : 'No',
+                        app.hasPreviewWebp ? 'Yes' : 'No',
+                        app.hasPdf ? 'Yes' : 'No',
+                        app.isComplete ? 'Yes' : 'No'
+                    ]);
+                });
+            });
+
+            const csv = rows.map(row => row.map(cell => `"${cell}"`).join(',')).join('\n');
+            const blob = new Blob([csv], { type: 'text/csv' });
+            const url = URL.createObjectURL(blob);
+
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `homepage-samples-status-${new Date().toISOString().split('T')[0]}.csv`;
+            a.click();
+
+            URL.revokeObjectURL(url);
+            showToast('CSV exported successfully', 'success');
+        }
+
+        function showToast(message, type = 'info') {
+            const container = document.getElementById('toast-container');
+            const toast = document.createElement('div');
+            toast.className = `toast ${type}`;
+
+            const icons = {
+                success: '✓',
+                error: '✗',
+                warning: '⚠',
+                info: 'ℹ'
+            };
+
+            toast.innerHTML = `
+                <span class="toast-icon">${icons[type]}</span>
+                <span class="toast-message">${message}</span>
+            `;
+
+            container.appendChild(toast);
+
+            setTimeout(() => {
+                toast.style.opacity = '0';
+                toast.style.transform = 'translateX(100%)';
+                setTimeout(() => toast.remove(), 300);
+            }, 4000);
+        }
+
+        // Hero Image Functions
+        function updateHeroSection() {
+            if (!matrixData || !matrixData.matrix[currentLocale]) return;
+
+            const langData = matrixData.matrix[currentLocale];
+            const hero = langData.hero;
+
+            // Update Portrait
+            const portraitPreview = document.getElementById('hero-portrait-preview');
+            const portraitStatus = document.getElementById('hero-portrait-status');
+            if (hero.hasPortrait) {
+                portraitPreview.innerHTML = `<img src="/samples/${langData.language}/homepage/hero-portrait_preview.webp?t=${Date.now()}" style="width: 100%; height: 100%; object-fit: cover;" alt="Portrait">`;
+                portraitStatus.textContent = '✅';
+            } else {
+                portraitPreview.innerHTML = `<span style="color: var(--gray-400);">No image</span>`;
+                portraitStatus.textContent = '❌';
+            }
+
+            // Update Landscape
+            const landscapePreview = document.getElementById('hero-landscape-preview');
+            const landscapeStatus = document.getElementById('hero-landscape-status');
+            if (hero.hasLandscape) {
+                landscapePreview.innerHTML = `<img src="/samples/${langData.language}/homepage/hero-landscape_preview.webp?t=${Date.now()}" style="width: 100%; height: 100%; object-fit: cover;" alt="Landscape">`;
+                landscapeStatus.textContent = '✅';
+            } else {
+                landscapePreview.innerHTML = `<span style="color: var(--gray-400);">No image</span>`;
+                landscapeStatus.textContent = '❌';
+            }
+
+            // Update status badge
+            const statusBadge = document.getElementById('hero-status-badge');
+            if (hero.isComplete) {
+                statusBadge.textContent = 'Complete';
+                statusBadge.style.background = 'var(--success)';
+                statusBadge.style.color = 'white';
+            } else if (hero.hasPortrait || hero.hasLandscape) {
+                statusBadge.textContent = 'Partial';
+                statusBadge.style.background = 'var(--warning)';
+                statusBadge.style.color = 'white';
+            } else {
+                statusBadge.textContent = 'Missing';
+                statusBadge.style.background = 'var(--danger)';
+                statusBadge.style.color = 'white';
+            }
+        }
+
+        function openHeroUpload(orientation) {
+            const input = document.createElement('input');
+            input.type = 'file';
+            input.accept = 'image/jpeg,image/png,image/webp';
+            input.onchange = async (e) => {
+                const file = e.target.files[0];
+                if (!file) return;
+
+                if (!file.type.startsWith('image/')) {
+                    showToast('Please select an image file', 'error');
+                    return;
+                }
+
+                if (file.size > 10 * 1024 * 1024) {
+                    showToast('Image must be under 10MB', 'error');
+                    return;
+                }
+
+                await uploadHeroImage(file, orientation);
+            };
+            input.click();
+        }
+
+        async function uploadHeroImage(file, orientation) {
+            showToast(`Uploading ${orientation} hero image...`, 'info');
+
+            try {
+                const formData = new FormData();
+                formData.append('file', file);
+                formData.append('locale', currentLocale);
+                formData.append('fileType', `hero-${orientation}`);
+                formData.append('overwrite', 'true');
+
+                const response = await fetch('/api/homepage-samples/upload', {
+                    method: 'POST',
+                    body: formData
+                });
+                const result = await response.json();
+
+                if (result.success) {
+                    showToast(`Hero ${orientation} image uploaded with WebP variants generated!`, 'success');
+                    await refreshData();
+                } else {
+                    showToast(`Upload failed: ${result.error}`, 'error');
+                }
+            } catch (error) {
+                showToast(`Upload error: ${error.message}`, 'error');
+            }
+        }
+    </script>
+</body>
+</html>

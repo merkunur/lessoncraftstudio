@@ -2632,6 +2632,13 @@
                 return;
             }
 
+            // Warn when creating a new post in a non-English language
+            if (!currentPost && currentLanguage !== 'en') {
+                if (!confirm(`Creating a new blog post in ${currentLanguage.toUpperCase()}.\n\nThis post will initially only be available in ${currentLanguage.toUpperCase()}.\n\nYou should create the English version separately to ensure proper indexing.\n\nContinue?`)) {
+                    return;
+                }
+            }
+
             // Build translations object
             const translationData = {
                 title,
@@ -2652,10 +2659,10 @@
                 [currentLanguage]: translationData
             };
 
-            // Always ensure English translation exists (required by API)
-            if (currentLanguage !== 'en') {
-                translations.en = translationData; // Use same content as placeholder for English
-            }
+            // REMOVED: Do NOT copy non-English content to English as placeholder
+            // Each language must be explicitly translated with its own content
+            // This prevents wrong-language slugs from appearing in the database
+            // The API will handle missing translations gracefully
 
             // If editing existing post, load other language translations AND preserve PDF translations for current language
             if (currentPost) {

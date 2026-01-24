@@ -9,8 +9,6 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
   <script src="js/translations-cryptogram.js?v=1759320100"></script>
   <script src="js/bulletproof-loader.js?v=1759320100"></script>
-  <script src="js/unified-language-manager.js"></script>
-  <script src="js/border-background-sizer.js"></script>
   <script>
     // Set locales globally BEFORE any scripts initialize
     // uiLocale = Interface language (from main app's language selector)
@@ -1413,7 +1411,7 @@
             
             updateCanvasDisplayDimensions(currentCanvasConfig.width, currentCanvasConfig.height);
             loadThemes().then(() => {
-                loadDictionary(); // Load images after themes are loaded
+                handleThemeChange(); // Load images after themes are loaded
             });
             // Generate initial worksheet with default settings
             async function generateInitialWorksheet() {
@@ -1823,7 +1821,7 @@
 
                     // Reload themes with new locale
                     loadThemes().then(() => {
-                        loadDictionary();
+                        handleThemeChange();
                     });
 
                     // Reinitialize BulletproofLoader with new locale
@@ -1835,10 +1833,14 @@
                         });
                     }
 
+                    // Update phrase input with language-appropriate default phrase
+                    const newDefaultPhrase = getTranslation("cryptogram.phrases.placeholder", newLocale);
+                    phrasesInput.value = newDefaultPhrase;
+
                     // Clear assigned images and regenerate letter buttons
                     assignedImages = {};
-                    renderAssignedImages();
-                    renderLetterButtons();
+                    renderAssignedImagesPreview();
+                    updateLetterButtons();
                 });
             }
             
@@ -2164,8 +2166,8 @@
 
             const unassigned = uniqueLetters.filter(l => !assignedImages[l]);
             if (unassigned.length > 0) {
-                showMessage(t("cryptogram.msg.missing.images", {letters: unassigned.join(", ")}) || `Missing images for letters: ${unassigned.join(", ")}. Please assign or auto-assign.`, 'error');
-                return null;
+                // Show warning instead of error - generation continues with placeholders
+                showMessage(t("cryptogram.msg.missing.images.warning", {letters: unassigned.join(", ")}) || `Note: No images for letters: ${unassigned.join(", ")}. These will show as letter placeholders.`, 'info', 5000);
             }
             
             const revealCount = parseInt(revealCountSelect.value, 10);
@@ -2586,15 +2588,28 @@
                 if (puzzleData.assignedImages[letter]) {
                     const img = await loadImage(puzzleData.assignedImages[letter].path);
                     img.scaleToHeight(LEGEND_CELL_HEIGHT * 0.6);
-                    img.set({ 
-                        left: x + LEGEND_CELL_WIDTH / 2, 
-                        top: y + LEGEND_CELL_HEIGHT * 0.35, 
-                        originX: 'center', 
-                        originY: 'center' 
+                    img.set({
+                        left: x + LEGEND_CELL_WIDTH / 2,
+                        top: y + LEGEND_CELL_HEIGHT * 0.35,
+                        originX: 'center',
+                        originY: 'center'
                     });
                     legendObjects.push(img);
+                } else {
+                    // Fallback: Show letter itself as placeholder with decorative styling
+                    const placeholderLetter = new fabric.Text(letter, {
+                        fontSize: LEGEND_CELL_HEIGHT * 0.4,
+                        fontFamily: 'Arial, sans-serif',
+                        fontWeight: 'bold',
+                        fill: '#888',
+                        left: x + LEGEND_CELL_WIDTH / 2,
+                        top: y + LEGEND_CELL_HEIGHT * 0.35,
+                        originX: 'center',
+                        originY: 'center'
+                    });
+                    legendObjects.push(placeholderLetter);
                 }
-                
+
                 let letterVisible = puzzleData.clueLetters.includes(letter);
                 const fontSize = Math.min(20, LEGEND_CELL_WIDTH * 0.33);
                 legendObjects.push(new fabric.Textbox(letter, { 
@@ -2804,29 +2819,42 @@
                 if (puzzleData.assignedImages[letter]) {
                     const img = await loadImage(puzzleData.assignedImages[letter].path);
                     img.scaleToHeight(LEGEND_CELL_HEIGHT * 0.6);
-                    img.set({ 
-                        left: x + LEGEND_CELL_WIDTH / 2, 
-                        top: y + LEGEND_CELL_HEIGHT * 0.35, 
-                        originX: 'center', 
-                        originY: 'center' 
+                    img.set({
+                        left: x + LEGEND_CELL_WIDTH / 2,
+                        top: y + LEGEND_CELL_HEIGHT * 0.35,
+                        originX: 'center',
+                        originY: 'center'
                     });
                     legendObjects.push(img);
+                } else {
+                    // Fallback: Show letter itself as placeholder with decorative styling
+                    const placeholderLetter = new fabric.Text(letter, {
+                        fontSize: LEGEND_CELL_HEIGHT * 0.4,
+                        fontFamily: 'Arial, sans-serif',
+                        fontWeight: 'bold',
+                        fill: '#888',
+                        left: x + LEGEND_CELL_WIDTH / 2,
+                        top: y + LEGEND_CELL_HEIGHT * 0.35,
+                        originX: 'center',
+                        originY: 'center'
+                    });
+                    legendObjects.push(placeholderLetter);
                 }
-                
+
                 const fontSize = Math.min(20, LEGEND_CELL_WIDTH * 0.33);
-                legendObjects.push(new fabric.Textbox(letter, { 
-                    width: LEGEND_CELL_WIDTH, 
-                    fontSize: fontSize, 
-                    textAlign: 'center', 
-                    left: x, 
-                    top: y + LEGEND_CELL_HEIGHT - 15, 
-                    originY: 'center' 
+                legendObjects.push(new fabric.Textbox(letter, {
+                    width: LEGEND_CELL_WIDTH,
+                    fontSize: fontSize,
+                    textAlign: 'center',
+                    left: x,
+                    top: y + LEGEND_CELL_HEIGHT - 15,
+                    originY: 'center'
                 }));
-                
+
                 col++;
-                if(col >= LEGEND_COLS) { 
-                    col = 0; 
-                    row++; 
+                if(col >= LEGEND_COLS) {
+                    col = 0;
+                    row++;
                 }
             }
 
@@ -3088,22 +3116,39 @@
 
         async function autoAssignImages() {
             showMessage(t("cryptogram.msg.fetching.images") || "Fetching all images for auto-assign...", 'info', 0);
-            let allImages = [];
+            let colorImages = [];
+            let bwImages = [];
+
             try {
                 const response = await fetch(`/api/themes-translated?locale=${currentLocale}`);
                 if (!response.ok) throw new Error("Failed to load themes");
-                
+
                 const themes = await response.json();
                 if (themes.length === 0) throw new Error("No themes found on server.");
-                
-                const imagePromises = themes.map(theme => {
+
+                // Separate color and BW themes by checking for _bw suffix
+                const colorThemes = themes.filter(theme => !theme.value.includes('_bw'));
+                const bwThemes = themes.filter(theme => theme.value.includes('_bw'));
+
+                // Fetch color theme images
+                const colorImagePromises = colorThemes.map(theme => {
                     return fetch(`/api/images?theme=${encodeURIComponent(theme.value)}&locale=${currentLocale}`)
                         .then(res => res.ok ? res.json() : {images: []})
                         .then(data => data.images || data);
                 });
-                
-                const imagesByTheme = await Promise.all(imagePromises);
-                allImages = [].concat(...imagesByTheme, uploadedImages);
+
+                // Fetch BW theme images
+                const bwImagePromises = bwThemes.map(theme => {
+                    return fetch(`/api/images?theme=${encodeURIComponent(theme.value)}&locale=${currentLocale}`)
+                        .then(res => res.ok ? res.json() : {images: []})
+                        .then(data => data.images || data);
+                });
+
+                const colorImagesByTheme = await Promise.all(colorImagePromises);
+                const bwImagesByTheme = await Promise.all(bwImagePromises);
+
+                colorImages = [].concat(...colorImagesByTheme, uploadedImages);
+                bwImages = [].concat(...bwImagesByTheme);
 
             } catch (e) {
                 console.error("Auto-assign failed:", e);
@@ -3112,22 +3157,41 @@
                 return;
             }
 
-            if (allImages.length === 0) {
+            if (colorImages.length === 0 && bwImages.length === 0) {
                  showMessage(t("cryptogram.msg.no.images.server") || "Cannot auto-assign. No images found on server.", 'error');
                  autoAssignCheckbox.checked = false;
                  return;
             }
-            
-            const uniqueImages = Array.from(new Map(allImages.map(img => [img.path, img])).values());
+
+            // Deduplicate images by path
+            const uniqueColorImages = Array.from(new Map(colorImages.map(img => [img.path, img])).values());
+            const uniqueBwImages = Array.from(new Map(bwImages.map(img => [img.path, img])).values());
 
             assignedImages = {};
             ALPHABET.forEach(letter => {
-                const options = uniqueImages.filter(img => {
+                // Find images starting with this letter
+                const letterLower = letter.toLowerCase();
+
+                // Try color images first
+                const colorOptions = uniqueColorImages.filter(img => {
                     const checkWord = (img.word || img.name || '').toLowerCase();
-                    return checkWord.startsWith(letter.toLowerCase());
+                    return checkWord.startsWith(letterLower);
                 });
-                if (options.length > 0) {
-                    assignedImages[letter] = options[Math.floor(Math.random() * options.length)];
+
+                if (colorOptions.length > 0) {
+                    // Assign random color image
+                    assignedImages[letter] = colorOptions[Math.floor(Math.random() * colorOptions.length)];
+                } else {
+                    // Fall back to BW images
+                    const bwOptions = uniqueBwImages.filter(img => {
+                        const checkWord = (img.word || img.name || '').toLowerCase();
+                        return checkWord.startsWith(letterLower);
+                    });
+
+                    if (bwOptions.length > 0) {
+                        assignedImages[letter] = bwOptions[Math.floor(Math.random() * bwOptions.length)];
+                    }
+                    // If no options, letter remains unassigned
                 }
             });
 

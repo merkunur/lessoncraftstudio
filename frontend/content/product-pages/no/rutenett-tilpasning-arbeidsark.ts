@@ -15,16 +15,30 @@ export const gridMatchNoContent: ProductPageContent = {
   seo: {
     slug: 'rutenett-tilpasning-arbeidsark',
     appId: 'grid-match',
-    title: 'Rutenetttilpasning Arbeidsark Gratis - Visuell Matching Generator for',
+    title: 'Rutenetttilpasning Arbeidsark Gratis - Visuell Matching for Barn',
     description: 'Lag profesjonelle rutenetttilpasning arbeidsark med vår visuell matching generator. Full Tilgang-abonnement gir deg ubegrenset tilgang til å lage.',
     keywords: 'rutenetttilpasning, arbeidsark gratis, visuell matching, oppgavehefter barn, matematikk oppgaver, finmotorikk øvelser, småskoletrinnet, barneskolen, romlig resonnering, visuell diskriminering',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/rutenett-tilpasning-arbeidsark',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/grid match/grid match portrait .jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Rutenetttilpasning arbeidsark gratis - visuell matching gåte for barn og småskoletrinnet'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/english/grid match/grid match landscape.jpeg',
+        width: 3508,
+        height: 2480,
+        caption: 'Gratis arbeidsark for barn - rutenetttilpasning landskapsformat for romlig resonnering'
+      }
+    ],
   },
 
   // Hero Section - FULL text from grid-match.md paragraphs 1-3
   hero: {
     title: 'Rutenetttilpasning Arbeidsark Gratis - Visuell Matching Generator',
-    subtitle: 'Visuell Gåte for Romlig Resonnering og Visuell Diskriminering',
+    subtitle: 'Gratis Utskrifter - Visuell Gåte for Romlig Resonnering',
     description: `Lag profesjonelle rutenetttilpasning arbeidsark med vår visuell matching generator. Full Tilgang-abonnement gir deg ubegrenset tilgang til å lage rutenetttilpasning arbeidsark gratis uten ekstra kostnader per ark. Generer tilpassede arbeidsark perfekte for småskoletrinnet og barneskole. Last ned høykvalitets PDF-arbeidsark på under 3 minutter.
 
 Rutenetttilpasning er en visuell gåte hvor barn matcher brikker for å fullføre et bilde. Et stort bilde deles inn i et rutenett med noen celler fjernet. Barn må identifisere hvilke brikker som hører hvor. Dette utvikler visuell diskriminering og romlig resonnering. Perfekt for matematikk oppgaver og finmotorikk øvelser.
@@ -67,14 +81,14 @@ Full Tilgang-abonnement gir deg tilgang til alle 33 arbeidsarkgeneratorer inklud
         id: '1',
         worksheetSrc: '/samples/english/grid match/grid match portrait .jpeg',
         answerKeySrc: '/samples/english/grid match/grid match portrait  answer_key.jpeg',
-        altText: 'Rutenetttilpasning portrettformat med visuell matching for småskoletrinnet',
+        altText: 'Rutenetttilpasning gratis arbeidsark - portrettformat visuell matching for barn og småskoletrinnet',
         pdfDownloadUrl: '/samples/english/grid match/grid match portrait .pdf',
       },
       {
         id: '2',
         worksheetSrc: '/samples/english/grid match/grid match landscape.jpeg',
         answerKeySrc: '/samples/english/grid match/grid match landscape answer_key.jpeg',
-        altText: 'Rutenetttilpasning landskapsformat for romlig resonnering og visuell diskriminering',
+        altText: 'Gratis arbeidsark for barn - rutenetttilpasning landskapsformat for romlig resonnering',
         pdfDownloadUrl: '/samples/english/grid match/grid match landscape.pdf',
       },
     ],

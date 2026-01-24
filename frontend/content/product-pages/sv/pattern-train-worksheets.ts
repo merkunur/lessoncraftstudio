@@ -21,6 +21,38 @@ export const patternTrainSvContent: ProductPageContent = {
     description: 'Skapa professionella mönsterigenkänningsarbetsblad med vår Pattern Train-generator. Perfekt för förskoleklass material och matematik arbetsblad. Ladda ner arbetsblad gratis som högkvalitativa PDF-filer på under 3 minuter.',
     keywords: 'mönster arbetsblad, arbetsblad gratis, förskoleklass material, matematik arbetsblad, matte övningar, finmotorik övningar, bokstäver lära sig, siffror och tal, målarbilder barn, lågstadiet, mönsterigenkänning',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/monster-tag-arbetsblad',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/pattern-train/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis arbetsblad mönster tåg - mönsterigenkänning arbetsblad för förskoleklass',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/pattern-train/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis arbetsblad för barn - mönster tåg arbetsblad för lågstadiet',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/pattern-train/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis utskrifter mönster arbetsblad - AB AAB ABB mönster för förskoleklass',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/pattern-train/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Arbetsblad för förskoleklass - mönsterigenkänning med tåg tema',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/pattern-train/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Arbetsblad för barn - ABC AABB mönster övningar gratis',
+      },
+    ],
   },
 
   // Hero Section - FULL text from pattern-train.md paragraphs 1-4
@@ -34,7 +66,7 @@ Pattern Train-generatorn skapar visuella mönsterigenkänningsuppgifter där bar
 Använd temabaserade bilder från vårt bibliotek med över 3000 barnvänliga bilder eller ladda upp dina egna bilder för personliga mönster arbetsblad. Generatorn skapar både arbetsblad och facit automatiskt vilket sparar dig timmar av manuellt arbete. Perfekt för matematik arbetsblad och matte övningar i mönsterigenkänning som är centrala färdigheter i förskoleklass och årskurs 1-3.
 
 Full Tillgång-prenumerationen inkluderar kommersiell print-on-demand-licens. Sälj dina mönster arbetsblad på Teachers Pay Teachers, Etsy eller Amazon KDP utan extra licensavgifter. Skapa obegränsat med arbetsblad i alla 11 språk som stöds inklusive svenska.`,
-    previewImageSrc: '/samples/english/pattern train/pattern_train portrait.jpeg',
+    previewImageSrc: '/samples/swedish/pattern-train/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Prova Gratis',
       viewSamples: 'Visa Exempel',
@@ -55,8 +87,8 @@ Full Tillgång-prenumerationen inkluderar kommersiell print-on-demand-licens. S�
 
   // Sample Gallery - REAL file paths from samples/english/pattern train/
   samples: {
-    sectionTitle: 'Mönster Arbetsblad Exempel',
-    sectionDescription: 'Ladda ner gratis exempelarbetsblad för att se vår professionella kvalitet',
+    sectionTitle: 'Gratis Arbetsblad Mönster Tåg - Exempel för Barn och Förskoleklass',
+    sectionDescription: 'Ladda ner gratis utskrifter och exempelarbetsblad för att se vår professionella kvalitet',
     downloadLabel: 'Ladda Ner Gratis Exempel',
     worksheetLabel: 'Arbetsblad',
     answerKeyLabel: 'Facit',
@@ -69,17 +101,38 @@ Full Tillgång-prenumerationen inkluderar kommersiell print-on-demand-licens. S�
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/pattern train/pattern_train portrait.jpeg',
-        answerKeySrc: '/samples/english/pattern train/pattern_train portrait answer_key.jpeg',
-        altText: 'Mönster arbetsblad i stående format med klipp-och-klistra mönsterigenkänning',
-        pdfDownloadUrl: '/samples/english/pattern train/pattern_train portrait.pdf',
+        worksheetSrc: '/samples/swedish/pattern-train/sample-1.jpeg',
+        answerKeySrc: '/samples/swedish/pattern-train/sample-1-answer.jpeg',
+        altText: 'Gratis arbetsblad mönster tåg - mönsterigenkänning för förskoleklass och lågstadiet',
+        pdfDownloadUrl: '/samples/swedish/pattern-train/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/pattern train/pattern_train landscape.jpeg',
-        answerKeySrc: '/samples/english/pattern train/pattern_train landscape answer_key.jpeg',
-        altText: 'Mönster arbetsblad i liggande format med fler mönsterövningar per sida',
-        pdfDownloadUrl: '/samples/english/pattern train/pattern_train landscape.pdf',
+        worksheetSrc: '/samples/swedish/pattern-train/sample-2.jpeg',
+        answerKeySrc: '/samples/swedish/pattern-train/sample-2-answer.jpeg',
+        altText: 'Gratis arbetsblad för barn - AB mönster arbetsblad för förskoleklass',
+        pdfDownloadUrl: '/samples/swedish/pattern-train/sample-2.pdf',
+      },
+      {
+        id: '3',
+        worksheetSrc: '/samples/swedish/pattern-train/sample-3.jpeg',
+        answerKeySrc: '/samples/swedish/pattern-train/sample-3-answer.jpeg',
+        altText: 'Gratis utskrifter mönster tåg - AAB ABB mönster för arbetsblad för barn',
+        pdfDownloadUrl: '/samples/swedish/pattern-train/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/swedish/pattern-train/sample-4.jpeg',
+        answerKeySrc: '/samples/swedish/pattern-train/sample-4-answer.jpeg',
+        altText: 'Arbetsblad för förskoleklass - ABC mönsterigenkänning övningar gratis',
+        pdfDownloadUrl: '/samples/swedish/pattern-train/sample-4.pdf',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/swedish/pattern-train/sample-5.jpeg',
+        answerKeySrc: '/samples/swedish/pattern-train/sample-5-answer.jpeg',
+        altText: 'Gratis utskrifter mönster tåg - AABB mönster arbetsblad för förskoleklass',
+        pdfDownloadUrl: '/samples/swedish/pattern-train/sample-5.pdf',
       },
     ],
   },
@@ -263,7 +316,7 @@ Kryssa i "Gråskala"-rutan innan nedladdning för att konvertera ditt färgarbet
 
   // Use Cases - FULL descriptions from pattern-train.md persona sections
   useCases: {
-    sectionTitle: 'Perfekt för Lärare, Föräldrar och Pedagoger',
+    sectionTitle: 'Gratis Arbetsblad för Barn - Perfekt för Lärare, Föräldrar och Förskoleklass',
     sectionDescription: 'Pattern Train-generatorn möter behoven hos olika typer av pedagoger och föräldrar. Från förskoleklass till årskurs 3 skapar dessa mönster arbetsblad engagerande lärandemöjligheter. Full Tillgång-prenumerationen ger alla användartyper tillgång till professionella verktyg för att skapa arbetsblad gratis med obegränsad kreativ frihet. Upptäck hur Pattern Train passar just dina undervisningsbehov.',
     badgeText: 'Vem Det Är För',
     readMoreLabel: 'Läs mer',
@@ -346,7 +399,7 @@ Kombinera mönster arbetsblad med målarbilder barn för premiumpaket. Varje pak
 
   // FAQ Section - ALL questions from pattern-train.md
   faq: {
-    sectionTitle: 'Vanliga Frågor',
+    sectionTitle: 'Vanliga Frågor om Gratis Arbetsblad Mönster Tåg för Förskoleklass',
     sectionDescription: 'Lärare och föräldrar har många frågor om Pattern Train-generatorn innan de prenumererar. Dessa svar behandlar prissättning, användning, kommersiell licensiering och mer. Förståelse av prenumerationsfördelar hjälper pedagoger avgöra om verktyget passar deras undervisningsbehov.',
     showMoreText: 'Visa fler frågor',
     showLessText: 'Visa färre',
@@ -449,7 +502,7 @@ Kombinera mönster arbetsblad med målarbilder barn för premiumpaket. Varje pak
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Kombinera med Andra Arbetsblad Generatorer',
+    sectionTitle: 'Gratis Utskrifter - Kombinera med Andra Arbetsblad för Barn',
     sectionDescription: 'Skapa kompletta lärpaket genom att kombinera mönster arbetsblad med dessa kompletterande generatorer.',
     ctaTitle: 'Redo att Skapa Fantastiska Arbetsblad?',
     ctaDescription: 'Gå med tusentals lärare som skapar professionella arbetsblad. Obegränsad generering, kommersiell licens ingår.',

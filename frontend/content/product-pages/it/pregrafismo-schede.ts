@@ -384,7 +384,7 @@ Le insegnanti guadagnano 500-5000 euro mensili. Crea 10-15 prodotti iniziali. Ve
 
   // FAQ Section
   faq: {
-    sectionTitle: "FAQ - Scheda Gratuita per Bambini e Scheda per Scuola dell'Infanzia. Scheda per Bambini"Infanzia',
+    sectionTitle: "FAQ - Scheda Gratuita per Bambini e Scheda per Scuola dell'Infanzia. Scheda per Bambini",
     sectionDescription: 'Risposte alle domande più comuni sul nostro generatore di schede gratuite pregrafismo per bambini',
     showMoreText: 'Mostra altre domande',
     showLessText: 'Mostra meno domande',

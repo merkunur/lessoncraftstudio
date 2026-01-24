@@ -282,7 +282,7 @@ Il download inizia immediatamente. File pronti in pochi secondi. Nessuna attesa.
 
   // Use Cases Section
   useCases: {
-    sectionTitle: "Schede Gratuite per Insegnanti - Disegni da Colorare Scuola dell\"Infanzia',
+    sectionTitle: "Schede Gratuite per Insegnanti - Disegni da Colorare Scuola dell'Infanzia",
     sectionDescription: 'Il nostro generatore di disegni da colorare serve diversi tipi di educatori. Perfetto per insegnanti di scuola dell\'infanzia e scuola primaria. Ideale per genitori homeschooler. Utile per insegnanti di lingue straniere. Ogni gruppo trova valore nelle funzionalità personalizzabili. Le schede didattiche si adattano a qualsiasi contesto educativo.',
     badgeText: 'Chi Usa le Nostre Schede',
     readMoreLabel: 'Leggi di più',

@@ -288,7 +288,7 @@ Attiva opzione scala di grigi per schede didattiche da usare quotidianamente. Ri
 
   // Use Cases Section
   useCases: {
-    sectionTitle: "Perfetto per Insegnanti - Schede Gratuite per Scuola dell\"Infanzia',
+    sectionTitle: "Perfetto per Insegnanti - Schede Gratuite per Scuola dell'Infanzia",
     sectionDescription: 'Le schede didattiche Picture Bingo si adattano perfettamente alle esigenze di insegnanti, genitori e educatori. Ogni gruppo trova valore unico nelle carte bingo personalizzabili. Perfette per schede italiano classe prima con alfabeto e lettura.',
     badgeText: 'Chi Usa le Nostre Schede',
     readMoreLabel: 'Leggi di più',

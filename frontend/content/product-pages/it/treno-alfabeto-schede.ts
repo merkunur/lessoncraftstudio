@@ -122,7 +122,7 @@ Perfetto per insegnanti della scuola dell'infanzia che necessitano di schede ita
 
   // Features Grid - FULL text from alphabet-train.md feature sections
   features: {
-    sectionTitle: "Schede Gratuite e Scheda per Bambini - Stampabili Gratuiti e Scheda per Scuola dell'Infanzia"Infanzia',
+    sectionTitle: "Schede Gratuite e Scheda per Bambini - Stampabili Gratuiti e Scheda per Scuola dell'Infanzia",
     sectionDescription: 'Il nostro generatore di schede didattiche alfabeto offre funzionalità complete per creare schede italiano classe prima coinvolgenti. Ogni caratteristica è progettata per rendere l\'insegnamento delle lettere dell\'alfabeto facile ed efficace. Crea schede didattiche scuola primaria che i bambini adorano con pochi clic.',
     highlightBadgeText: 'Funzionalità Chiave',
     readMoreLabel: 'Leggi di più',

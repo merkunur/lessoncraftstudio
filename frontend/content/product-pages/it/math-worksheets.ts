@@ -129,7 +129,7 @@ Perfetto per insegnanti della scuola dell'infanzia e della scuola primaria. Le s
 
   // Features Grid - FULL text from math-worksheet.md feature sections
   features: {
-    sectionTitle: "Schede Gratuite e Scheda per Bambini - Stampabili Gratuiti e Scheda per Scuola dell'Infanzia"Infanzia',
+    sectionTitle: "Schede Gratuite e Scheda per Bambini - Stampabili Gratuiti e Scheda per Scuola dell'Infanzia",
     sectionDescription: 'Il nostro generatore schede matematica offre strumenti completi per creare schede didattiche professionali. Ogni funzionalità è progettata per insegnanti della scuola primaria e della scuola dell\'infanzia. Crea schede didattiche scuola primaria personalizzate in pochi minuti. Le schede matematica includono tutto dal pregrafismo base alle tabelline avanzate. Sette funzionalità essenziali rendono la creazione di schede didattiche semplice ed efficace.',
     highlightBadgeText: 'Funzionalità Chiave',
     readMoreLabel: 'Leggi di più',

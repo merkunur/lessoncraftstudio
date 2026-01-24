@@ -362,7 +362,7 @@ Crea prodotti differenziati con livelli di difficoltà multipli. Pacchetto base 
 
   // FAQ Section
   faq: {
-    sectionTitle: "FAQ - Scheda Gratuita per Bambini e Scheda per Scuola dell'Infanzia. Scheda per Bambini"Infanzia',
+    sectionTitle: "FAQ - Scheda Gratuita per Bambini e Scheda per Scuola dell'Infanzia. Scheda per Bambini",
     sectionDescription: 'Gli insegnanti pongono domande su scheda gratuita per bambini e stampabili gratuiti. Scheda per scuola dell\'infanzia e scheda per bambini sono incluse nell\'abbonamento Accesso Completo. Le risposte chiariscono cosa è incluso nel tuo abbonamento €240 annuale.',
     showMoreText: 'Mostra altre domande',
     showLessText: 'Mostra meno domande',

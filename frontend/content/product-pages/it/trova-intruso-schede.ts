@@ -139,7 +139,7 @@ L'editor completo ti permette di personalizzare ogni elemento sulla pagina. Aggi
 
   // Features Grid
   features: {
-    sectionTitle: "Schede Gratuite e Scheda per Bambini - Stampabili Gratuiti e Scheda per Scuola dell'Infanzia"Intruso - Stampabili Gratuiti per Bambini',
+    sectionTitle: "Schede Gratuite e Scheda per Bambini - Stampabili Gratuiti e Scheda per Scuola dell'Infanzia",
     sectionDescription: 'Il nostro generatore di schede didattiche trova l\'intruso offre tutte le funzionalità necessarie per creare materiale didattico professionale. Che tu insegni alla scuola dell\'infanzia o alla scuola primaria, troverai gli strumenti perfetti per le tue esigenze. Ogni funzionalità è stata progettata pensando agli insegnanti italiani.',
     highlightBadgeText: 'Funzionalità Chiave',
     readMoreLabel: 'Leggi di più',
@@ -233,7 +233,7 @@ Ogni scheda include la chiave delle risposte automatica. Si genera insieme alla 
 
   // How-To Guide Section
   howTo: {
-    sectionTitle: "Scheda Gratuita per Bambini Creare - Scheda per Scuola dell'Infanzia"Intruso - 5 Passi per Stampabili Gratuiti',
+    sectionTitle: "Scheda Gratuita per Bambini Creare - Scheda per Scuola dell'Infanzia",
     sectionDescription: 'Creare schede didattiche scuola primaria professionali è facilissimo con il nostro generatore. Bastano 5 semplici passaggi e meno di 3 minuti del tuo tempo. Non servono competenze tecniche o programmi di grafica. Segui questa guida passo-passo per creare la tua prima scheda.',
     ctaText: 'Inizia Ora',
     badgeText: 'Guida Passo-Passo',
@@ -315,7 +315,7 @@ Scarica anche la chiave delle risposte. Si scarica separatamente dalla scheda pr
 
   // Use Cases Section
   useCases: {
-    sectionTitle: "Schede Gratuite per Insegnanti - Stampabili Gratuiti Trova l\"Intruso per Educatori',
+    sectionTitle: "Scheda Gratuita per Bambini - Scheda per Scuola dell'Infanzia con Stampabili Gratuiti. Scheda per Bambini",
     sectionDescription: 'Il generatore trova l\'intruso serve insegnanti di tutti i livelli scolastici. Dalla scuola dell\'infanzia alla scuola primaria, troverai usi perfetti per le tue lezioni. Anche genitori homeschool e insegnanti di sostegno traggono grande beneficio. Ogni gruppo ha esigenze specifiche che il generatore soddisfa perfettamente.',
     badgeText: 'Per Chi È',
     readMoreLabel: 'Leggi di più',
@@ -410,7 +410,7 @@ Combina trova l'intruso con disegni da colorare in prodotti ibridi. Metà pagina
 
   // FAQ Section
   faq: {
-    sectionTitle: "FAQ - Scheda Gratuita per Bambini e Scheda per Scuola dell'Infanzia. Scheda per Bambini"Intruso - Stampabili Gratuiti per Bambini',
+    sectionTitle: "FAQ - Scheda Gratuita per Bambini e Scheda per Scuola dell'Infanzia. Scheda per Bambini",
     sectionDescription: 'Gli insegnanti italiani fanno spesso domande sul generatore trova l\'intruso. Abbiamo raccolto le 12 domande più comuni con risposte dettagliate. Queste risposte ti aiutano a capire come funziona il generatore e come integrarlo nella tua didattica.',
     showMoreText: 'Mostra altre domande',
     showLessText: 'Mostra meno',

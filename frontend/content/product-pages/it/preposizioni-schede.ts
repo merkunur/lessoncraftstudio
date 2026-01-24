@@ -279,7 +279,7 @@ Scarica sia la scheda che la chiave di risposta. Stampa le schede per tutti gli 
 
   // Use Cases Section
   useCases: {
-    sectionTitle: "Perfetto per Insegnanti - Schede Gratuite per Scuola dell\"Infanzia e Stampabili Gratuiti',
+    sectionTitle: "Scheda Gratuita per Bambini - Scheda per Scuola dell'Infanzia con Stampabili Gratuiti. Scheda per Bambini",
     sectionDescription: 'Il nostro generatore di schede gratuite serve diverse categorie di educatori. Insegnanti della scuola dell\'infanzia, maestre di scuola primaria, genitori homeschooler e insegnanti di sostegno. Tutti trovano valore nelle schede gratuite personalizzabili per le preposizioni. Combina facilmente con stampabili gratuiti, scheda per bambini, pregrafismo e disegni da colorare. Crea pacchetti didattici completi per ogni situazione educativa.',
     badgeText: 'Chi Usa le Nostre Schede',
     readMoreLabel: 'Leggi di più',

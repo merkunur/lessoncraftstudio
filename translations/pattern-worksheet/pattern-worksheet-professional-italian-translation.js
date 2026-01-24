@@ -1,5 +1,5 @@
 // Pattern Worksheet - Professional Italian Translation
-// Total: 192 translation keys (185 unique)
+// Total: 207 translation keys (200 unique)
 // Approach: Natural, educational Italian as if originally developed in Italy
 // App name: "Scheda di Sequenze" (Pattern Worksheet)
 
@@ -17,8 +17,9 @@ const PATTERN_WORKSHEET_ITALIAN_TRANSLATIONS = {
     "pattern.worksheet.image.library": "Libreria Immagini",
     "pattern.worksheet.upload.custom": "Carica Immagini Personalizzate",
 
-    // ===== 3. LANGUAGE SECTION (12 items) =====
+    // ===== 3. LANGUAGE SECTION (13 items) =====
     "pattern.worksheet.language.label": "Lingua:",
+    "pattern.worksheet.language.description": "Seleziona la lingua solo per il contenuto della libreria di immagini. La lingua dell'interfaccia è controllata dal selettore di lingua principale nell'intestazione.",
     "language.english": "English",
     "language.german": "Deutsch",
     "language.french": "Français",
@@ -46,11 +47,11 @@ const PATTERN_WORKSHEET_ITALIAN_TRANSLATIONS = {
     "pattern.worksheet.background.title": "Sfondo",
     "pattern.worksheet.background.theme": "Tema Sfondo:",
     "pattern.worksheet.background.message": "Seleziona un tema.",
-    "pattern.worksheet.background.opacity": "Trasparenza Sfondo:",
+    "pattern.worksheet.background.opacity": "Opacità Sfondo:",
     "pattern.worksheet.border.title": "Cornice",
     "pattern.worksheet.border.theme": "Tema Cornice:",
     "pattern.worksheet.border.message": "Seleziona un tema.",
-    "pattern.worksheet.border.opacity": "Trasparenza Cornice:",
+    "pattern.worksheet.border.opacity": "Opacità Cornice:",
 
     // ===== 5. COMMON (2 items) =====
     "common.none": "Nessuno",
@@ -116,13 +117,18 @@ const PATTERN_WORKSHEET_ITALIAN_TRANSLATIONS = {
     "pattern.worksheet.available.images": "Immagini Disponibili (clicca per assegnare):",
     "pattern.worksheet.select.theme": "Seleziona un tema per vedere le immagini.",
 
-    // ===== 9. UPLOAD SECTION (3 items) =====
+    // ===== 9. UPLOAD SECTION (6 items) =====
     "pattern.worksheet.upload.select": "Seleziona immagine/i da caricare:",
-    "pattern.worksheet.uploaded.images": "Le Tue Immagini Caricate:",
+    "pattern.worksheet.upload.button": "Scegli file",
+    "pattern.worksheet.upload.no.file": "Nessun file scelto",
+    "pattern.worksheet.upload.files.selected": "{count} file selezionati",
+    "pattern.worksheet.uploaded.images": "Le tue immagini caricate:",
     "pattern.worksheet.uploaded.placeholder": "Le tue immagini caricate appariranno qui.",
 
-    // ===== 10. TOOLBAR (15 items) =====
+    // ===== 10. TOOLBAR (22 items) =====
     "toolbar.layers": "Livelli",
+    "lockUnlock": "Blocca/Sblocca",
+    "unlockAll": "Sblocca tutto",
     "toolbar.bring.forward": "Porta Avanti",
     "toolbar.send.backward": "Porta Indietro",
     "toolbar.align": "Allinea",
@@ -137,21 +143,28 @@ const PATTERN_WORKSHEET_ITALIAN_TRANSLATIONS = {
     "toolbar.center.page.h": "Centra sulla Pagina Orizzontalmente",
     "toolbar.center.page.v": "Centra sulla Pagina Verticalmente",
     "toolbar.delete": "Elimina Selezione",
+    "toolbar.bring.to.front": "Porta in primo piano",
+    "toolbar.send.to.back": "Porta sullo sfondo",
+    "undo": "Annulla (Ctrl+Z)",
+    "redo": "Ripristina (Ctrl+Y)",
+    "zoomIn": "Ingrandisci",
+    "zoomOut": "Riduci",
+    "zoomReset": "Reimposta zoom",
 
     // ===== 11. ACTION BUTTONS (10 items) =====
     "pattern.worksheet.generate": "Crea",
     "pattern.worksheet.generate.worksheet": "Crea Scheda Esercizi",
-    "pattern.worksheet.generate.answer": "Crea Foglio Soluzioni",
+    "pattern.worksheet.generate.answer": "Crea Soluzioni",
     "pattern.worksheet.download": "Scarica",
     "pattern.worksheet.download.worksheet.jpeg": "Scheda Esercizi (JPEG)",
-    "pattern.worksheet.download.answer.jpeg": "Foglio Soluzioni (JPEG)",
+    "pattern.worksheet.download.answer.jpeg": "Soluzioni (JPEG)",
     "pattern.worksheet.download.worksheet.pdf": "Scheda Esercizi (PDF)",
-    "pattern.worksheet.download.answer.pdf": "Foglio Soluzioni (PDF)",
+    "pattern.worksheet.download.answer.pdf": "Soluzioni (PDF)",
     "pattern.worksheet.clear.all": "Cancella Tutto",
 
     // ===== 12. TABS (2 items) =====
     "pattern.worksheet.tab.worksheet": "Scheda Esercizi",
-    "pattern.worksheet.tab.answer": "Foglio Soluzioni",
+    "pattern.worksheet.tab.answer": "Soluzioni",
 
     // ===== 13. LOADING & SEARCH MESSAGES (5 items) =====
     "pattern.worksheet.msg.cleared": "Tutte le impostazioni sono state cancellate.",
@@ -160,20 +173,22 @@ const PATTERN_WORKSHEET_ITALIAN_TRANSLATIONS = {
     "pattern.worksheet.msg.no.images": "Nessuna immagine trovata{query}.",
     "pattern.worksheet.msg.loading.simple": "Caricamento...",
 
-    // ===== 14. PATTERN CONFIGURATION MESSAGES (8 items) =====
+    // ===== 14. PATTERN CONFIGURATION MESSAGES (10 items) =====
     "pattern.worksheet.msg.already.assigned": "Questa immagine è già assegnata a questo esercizio.",
     "pattern.worksheet.msg.slots.full": "Tutti gli spazi per questa sequenza sono occupati. Clicca prima su un'immagine assegnata per rimuoverla.",
+    "pattern.worksheet.msg.theme.insufficient": "Non ci sono abbastanza immagini uniche nel tema '{theme}' per questo modello.",
+    "pattern.worksheet.msg.theme.no.images": "Nessuna immagine trovata per il tema '{theme}'.",
     "pattern.worksheet.msg.building": "Costruzione dati esercizio...",
     "pattern.worksheet.msg.build.failed": "Impossibile costruire i dati. Verifica le impostazioni.",
     "pattern.worksheet.msg.rendering": "Creazione scheda esercizi...",
     "pattern.worksheet.msg.generated": "Scheda esercizi creata con successo!",
     "pattern.worksheet.msg.select.theme.required": "Seleziona un tema generale o deseleziona 'Usa Tema Generale della Scheda'.",
-    "pattern.worksheet.msg.incomplete.puzzle": "L'esercizio {number} è incompleto e verrà generato casualmente.",
+    "pattern.worksheet.msg.incomplete.puzzle": "L'esercizio {number} è incompleto e verrà creato casualmente.",
 
     // ===== 15. ANSWER KEY MESSAGES (4 items) =====
     "pattern.worksheet.msg.generate.first": "Prima crea una scheda esercizi.",
-    "pattern.worksheet.msg.rendering.answer": "Creazione foglio soluzioni...",
-    "pattern.worksheet.msg.answer.generated": "Foglio soluzioni creato!",
+    "pattern.worksheet.msg.rendering.answer": "Creazione soluzioni...",
+    "pattern.worksheet.msg.answer.generated": "Soluzioni create!",
 
     // ===== 16. DOWNLOAD & EXPORT MESSAGES (17 items) =====
     "pattern.worksheet.msg.empty.page": "Impossibile scaricare, la pagina selezionata è vuota.",

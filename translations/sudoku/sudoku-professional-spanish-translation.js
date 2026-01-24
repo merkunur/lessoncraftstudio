@@ -117,7 +117,7 @@ const SUDOKU_TRANSLATIONS_ES = {
     // ==========================================
     "sudoku.image.library": "Biblioteca de imágenes",
     "sudoku.image.source": "Fuente de imágenes para la cuadrícula",
-    "sudoku.generate.theme": "Generar desde tema:",
+    "sudoku.generate.theme": "Crear desde tema:",
     "sudoku.select.individual": "-- O seleccione imágenes individuales abajo --",
     "sudoku.image.individual": "Selección individual de imágenes",
     "sudoku.filter.theme": "Filtrar por tema:",
@@ -170,8 +170,8 @@ const SUDOKU_TRANSLATIONS_ES = {
     // ==========================================
     // GENERATE & DOWNLOAD (12 keys)
     // ==========================================
-    "sudoku.generate.worksheet": "Crear hoja",
-    "sudoku.generate.answer": "Generar respuestas",
+    "sudoku.generate.worksheet": "Crear hoja de ejercicios",
+    "sudoku.generate.answer": "Crear hoja de respuestas",
     "sudoku.download.worksheet": "Descargar hoja",
     "sudoku.download.answer": "Descargar respuestas",
     "sudoku.download.pdf": "Descargar como PDF",
@@ -187,7 +187,7 @@ const SUDOKU_TRANSLATIONS_ES = {
     // SUCCESS MESSAGES (8 keys)
     // ==========================================
     "sudoku.msg.worksheet.success": "¡Hoja de ejercicios creada con éxito!",
-    "sudoku.msg.answer.generated": "¡Hoja de respuestas generada!",
+    "sudoku.msg.answer.generated": "¡Hoja de respuestas creada!",
     "sudoku.msg.download.started": "¡Descarga iniciada!",
     "sudoku.msg.pdf.success": "¡PDF descargado!",
     "sudoku.msg.cleared": "Configuración borrada.",
@@ -197,15 +197,15 @@ const SUDOKU_TRANSLATIONS_ES = {
     // ==========================================
     // ERROR MESSAGES (12 keys)
     // ==========================================
-    "sudoku.msg.worksheet.error": "Error al generar la hoja de ejercicios: {message}",
-    "sudoku.msg.generate.first": "Por favor, genere primero una hoja de ejercicios.",
+    "sudoku.msg.worksheet.error": "Error al crear la hoja de ejercicios: {message}",
+    "sudoku.msg.generate.first": "Por favor, cree primero una hoja de ejercicios.",
     "sudoku.msg.theme.insufficient": "El tema '{theme}' necesita al menos {count} imágenes.",
     "sudoku.msg.select.minimum": "Por favor, seleccione o suba al menos {count} imágenes.",
     "sudoku.msg.render.error": "Error al renderizar la hoja de ejercicios: {message}",
-    "sudoku.msg.clear.theme": "Desactive 'Generar desde tema' para seleccionar imágenes individuales.",
+    "sudoku.msg.clear.theme": "Desactive 'Crear desde tema' para seleccionar imágenes individuales.",
     "sudoku.msg.max.selection": "Solo puede seleccionar {count} imágenes.",
     "sudoku.msg.file.error": "Error al leer el archivo: {filename}",
-    "sudoku.msg.generate.content": "Por favor, genere primero contenido para este lienzo.",
+    "sudoku.msg.generate.content": "Por favor, cree primero contenido para este lienzo.",
     "sudoku.msg.jpeg.error": "Error al preparar el JPEG.",
     "sudoku.msg.pdf.error": "Error al crear el PDF.",
     "sudoku.asset.failed": "No se pudo cargar la imagen {asset}.",
@@ -219,7 +219,7 @@ const SUDOKU_TRANSLATIONS_ES = {
     "sudoku.msg.loading.theme": "Cargando tema...",
     "sudoku.msg.no.images": "No se encontraron imágenes{query}.",
     "sudoku.msg.loading.specific": "Cargando tema '{theme}'...",
-    "sudoku.msg.theme.selected": "El puzle se generará con imágenes aleatorias del tema '{theme}'.",
+    "sudoku.msg.theme.selected": "El puzle se creará con imágenes aleatorias del tema '{theme}'.",
     "sudoku.msg.loading.uploads": "Cargando {count} imagen(es)...",
     "sudoku.msg.preparing": "Preparando {filename}...",
     "sudoku.asset.select": "Seleccione un tema para ver {type}.",

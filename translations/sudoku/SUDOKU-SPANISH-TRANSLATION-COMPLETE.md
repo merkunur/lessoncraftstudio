@@ -101,7 +101,7 @@ The translation supports:
 - "Descargar" (not "bajar")
 - "Subir" (not "cargar")
 - "Hoja" (not "página" for worksheet)
-- "Generar" (not "crear" for generate)
+- "Crear" (not "generar" for generate - more natural and user-friendly per platform standard)
 
 ---
 

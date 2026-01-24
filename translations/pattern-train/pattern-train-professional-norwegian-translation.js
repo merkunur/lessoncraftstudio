@@ -12,7 +12,7 @@ const PATTERN_TRAIN_NORWEGIAN_TRANSLATIONS = {
     // ===== 2. ACCORDION HEADERS (5 items) =====
     "pattern.train.language.selection": "Språkvalg",
     "pattern.train.page.setup": "Sideoppsett",
-    "pattern.train.text.tools": "Tekstverktøy",
+    "pattern.train.text.tools": "Tekstinnstillinger",
     "pattern.train.worksheet.config": "Arbeidsarkkonfigurasjon",
     "pattern.train.upload.custom": "Last Opp Egne Bilder",
 
@@ -46,11 +46,11 @@ const PATTERN_TRAIN_NORWEGIAN_TRANSLATIONS = {
     "pattern.train.background.title": "Bakgrunn",
     "pattern.train.background.theme": "Bakgrunnstema:",
     "pattern.train.background.message": "Velg et tema for bakgrunner.",
-    "pattern.train.background.opacity": "Bakgrunnsdekkevne:",
+    "pattern.train.background.opacity": "Bakgrunnssynlighet:",
     "pattern.train.border.title": "Ramme",
     "pattern.train.border.theme": "Rammetema:",
     "pattern.train.border.message": "Velg et tema for å se rammer.",
-    "pattern.train.border.opacity": "Rammedekkevne:",
+    "pattern.train.border.opacity": "Rammesynlighet:",
     "pattern.train.template.title": "Togmal",
     "pattern.train.template.label": "Togmal:",
 

@@ -3,6 +3,65 @@ import { locales, defaultLocale } from './i18n/request';
 import { NextResponse } from 'next/server';
 import type { NextRequest } from 'next/server';
 
+// Supported locales for Accept-Language detection
+const SUPPORTED_LOCALES = ['en', 'de', 'fr', 'es', 'it', 'pt', 'nl', 'sv', 'da', 'no', 'fi'];
+
+/**
+ * Parse Accept-Language header to detect user's preferred language
+ * Returns the first supported language or null if none match
+ */
+function parseAcceptLanguage(header: string | null): string | null {
+  if (!header) return null;
+
+  // Parse languages with quality values (e.g., "en-US,en;q=0.9,de;q=0.8")
+  const languages = header.split(',').map(lang => {
+    const parts = lang.trim().split(';');
+    const langCode = parts[0].split('-')[0].toLowerCase(); // Get base language code
+    const quality = parts[1] ? parseFloat(parts[1].replace('q=', '')) : 1.0;
+    return { code: langCode, quality };
+  });
+
+  // Sort by quality (highest first)
+  languages.sort((a, b) => b.quality - a.quality);
+
+  // Find the first supported language
+  for (const lang of languages) {
+    if (SUPPORTED_LOCALES.includes(lang.code)) {
+      return lang.code;
+    }
+  }
+
+  return null;
+}
+
+/**
+ * Get user's preferred language from cookies or Accept-Language header
+ * Priority: preferredLanguage cookie > NEXT_LOCALE cookie > Accept-Language header > default
+ */
+function getPreferredLanguage(request: NextRequest): string {
+  // 1. Check preferredLanguage cookie (set when user explicitly changes language)
+  const preferredLangCookie = request.cookies.get('preferredLanguage')?.value;
+  if (preferredLangCookie && SUPPORTED_LOCALES.includes(preferredLangCookie)) {
+    return preferredLangCookie;
+  }
+
+  // 2. Check NEXT_LOCALE cookie (set by next-intl)
+  const nextLocaleCookie = request.cookies.get('NEXT_LOCALE')?.value;
+  if (nextLocaleCookie && SUPPORTED_LOCALES.includes(nextLocaleCookie)) {
+    return nextLocaleCookie;
+  }
+
+  // 3. Parse Accept-Language header for first-time visitors
+  const acceptLanguage = request.headers.get('accept-language');
+  const browserLang = parseAcceptLanguage(acceptLanguage);
+  if (browserLang) {
+    return browserLang;
+  }
+
+  // 4. Fall back to default locale
+  return defaultLocale;
+}
+
 const intlMiddleware = createMiddleware({
   // A list of all locales that are supported
   locales,
@@ -55,20 +114,18 @@ export default function middleware(request: NextRequest) {
 
   // Handle root URL (/) - redirect to default locale with 301 for SEO
   // next-intl uses 307 by default which causes Google Search Console "Redirect error"
+  // Uses Accept-Language header for first-time visitors without cookie preference
   if (pathname === '/') {
-    const preferredLang = request.cookies.get('preferredLanguage')?.value ||
-                          request.cookies.get('NEXT_LOCALE')?.value ||
-                          defaultLocale;
+    const preferredLang = getPreferredLanguage(request);
     const newUrl = new URL(`/${preferredLang}`, request.url);
     return NextResponse.redirect(newUrl, { status: 301 });
   }
 
   // Handle /blog and /blog/* routes - redirect to locale-prefixed versions with 301
   // This fixes SEO duplicate content issues (Google Search Console shows 89+ duplicates without canonical)
+  // Uses Accept-Language header for first-time visitors without cookie preference
   if (pathname === '/blog' || pathname.startsWith('/blog/')) {
-    const preferredLang = request.cookies.get('preferredLanguage')?.value ||
-                          request.cookies.get('NEXT_LOCALE')?.value ||
-                          defaultLocale;
+    const preferredLang = getPreferredLanguage(request);
     const newUrl = new URL(`/${preferredLang}${pathname}`, request.url);
     // Preserve query parameters
     request.nextUrl.searchParams.forEach((value, key) => {
@@ -78,9 +135,10 @@ export default function middleware(request: NextRequest) {
   }
 
   // Redirect common pages without locale to default locale
+  // Uses Accept-Language header for first-time visitors without cookie preference
   const pagesNeedingLocale = ['/contact', '/pricing', '/privacy', '/terms', '/about'];
   if (pagesNeedingLocale.includes(pathname)) {
-    const preferredLang = request.cookies.get('preferredLanguage')?.value || defaultLocale;
+    const preferredLang = getPreferredLanguage(request);
     const newUrl = new URL(`/${preferredLang}${pathname}`, request.url);
     return NextResponse.redirect(newUrl, { status: 301 });
   }
@@ -149,8 +207,8 @@ export default function middleware(request: NextRequest) {
       });
       return response;
     } else {
-      // Try to get preferred language from cookie
-      const preferredLang = request.cookies.get('preferredLanguage')?.value || defaultLocale;
+      // Try to get preferred language from cookies or Accept-Language header
+      const preferredLang = getPreferredLanguage(request);
 
       // Redirect to preferred language
       const newUrl = new URL(request.url);
@@ -166,6 +224,6 @@ export default function middleware(request: NextRequest) {
 export const config = {
   // Match all paths except api routes, _next, static files, worksheet resources, blog assets, image files, and app routes (dashboard is INCLUDED for i18n)
   matcher: [
-    '/((?!api|_next/static|_next/image|favicon.ico|manifest.json|robots.txt|sitemap.xml|.*\\.(?:png|jpg|jpeg|svg|ico|webp|gif|pdf)$|samples|worksheet-generators|worksheet-images|worksheet-samples|homepage-content-manager.*\\.html|images|test-.*\\.html|js|uploads|upload|static-page-manager\\.html|page-manager\\.html|easy-page-manager\\.html|simple-upload\\.html|simple-upload|admin|settings|notifications|collaboration|testing|search|blog/pdfs|blog/thumbnails|blog/images).*)',
+    '/((?!api|_next/static|_next/image|favicon.ico|manifest.json|robots.txt|sitemap.xml|sitemap-images.xml|.*\\.(?:png|jpg|jpeg|svg|ico|webp|gif|pdf)$|samples|worksheet-generators|worksheet-images|worksheet-samples|homepage-content-manager.*\\.html|images|test-.*\\.html|js|uploads|upload|static-page-manager\\.html|page-manager\\.html|easy-page-manager\\.html|simple-upload\\.html|simple-upload|admin|settings|notifications|collaboration|testing|search|blog/pdfs|blog/thumbnails|blog/images).*)',
   ]
 };

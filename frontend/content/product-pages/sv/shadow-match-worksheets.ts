@@ -17,16 +17,48 @@ export const shadowMatchSvContent: ProductPageContent = {
   seo: {
     slug: 'skuggmatchning-arbetsblad',
     appId: 'shadow-match',
-    title: 'Skuggmatchning Arbetsblad Gratis - Förskoleklass Material för Visuell Perception',
+    title: 'Skuggmatchning Gratis Arbetsblad för Barn - Förskoleklass Material för Visuell Perception',
     description: 'Skapa professionella skuggmatchningsövningar med vår skuggmatchningsgenerator. Generera anpassade utskrivbara skuggmatchningsarbetsblad perfekta för förskoleklass material och finmotorik övningar. Ladda ner högkvalitativa PDF-arbetsblad på under 3 minuter.',
-    keywords: 'skuggmatchning arbetsblad, arbetsblad gratis, förskoleklass material, finmotorik övningar, visuell perception, matcha skuggor, gör det helt, svenska arbetsblad, lågstadiet material',
+    keywords: 'skuggmatchning arbetsblad, gratis arbetsblad, gratis arbetsblad för barn, arbetsblad för barn, förskoleklass material, finmotorik övningar, visuell perception, matcha skuggor, gör det helt, svenska arbetsblad, lågstadiet material, gratis utskrifter',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/skuggmatchning-arbetsblad',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/shadow-match/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Skuggmatchning gratis arbetsblad för barn - visuell perception övningar för förskoleklass material',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/shadow-match/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis arbetsblad skuggmatchning - matcha bilder med skuggor för arbetsblad för barn',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/shadow-match/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Arbetsblad för förskoleklass skuggmatchning - gratis utskrifter för visuell diskriminering',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/shadow-match/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gör det helt arbetsblad för barn - gratis arbetsblad för spatialt resonemang',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/shadow-match/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Skuggmatchning gratis utskrifter - arbetsblad för barn visuell perception övningar',
+      },
+    ],
   },
 
   // Hero Section - FULL text from shadow-match.md paragraphs 1-4
   hero: {
     title: 'Skuggmatchning',
-    subtitle: 'Visuell Perception Arbetsblad Gratis',
+    subtitle: 'Gratis Arbetsblad för Barn - Visuell Perception Övningar',
     description: `Skapa professionella skuggmatchningsövningar med vår skuggmatchningsgenerator. Din Full Tillgång-prenumeration ger dig obegränsad skapande av arbetsblad utan extra avgifter per arbetsblad. Generera anpassade utskrivbara skuggmatchningsarbetsblad perfekta för förskoleklass material och finmotorik övningar. Ladda ner högkvalitativa PDF-arbetsblad på under 3 minuter.
 
 Skuggmatchning utvecklar visuell perception och rumsuppfattning hos barn. Barn matchar färgade objekt med deras svarta silhuetter. Detta stärker mönsterigenkänning och problemlösningsförmågor. Perfekt för förskoleklass och årskurs 1-3.
@@ -34,7 +66,7 @@ Skuggmatchning utvecklar visuell perception och rumsuppfattning hos barn. Barn m
 Vår generator erbjuder två olika övningslägen. Skuggmatchning låter elever matcha färgade bilder med svarta skuggor. "Gör det helt"-läget delar bilder i två delar som barn sätter ihop. Båda lägena utvecklar spatiala resonemang och visuell diskriminering.
 
 Full Tillgång-prenumerationen inkluderar kommersiell licens för utskrift-på-begäran. Sälj dina skuggmatchningsarbetsblad på Teachers Pay Teachers, Etsy eller Amazon KDP. Inget tillskrivningskrav. Professionell 300 DPI-kvalitet perfekt för kommersiell försäljning.`,
-    previewImageSrc: '/samples/english/shadow%20match/shadow-match-worksheet.jpeg',
+    previewImageSrc: '/samples/swedish/shadow-match/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Prova Gratis',
       viewSamples: 'Visa Exempel',
@@ -53,10 +85,10 @@ Full Tillgång-prenumerationen inkluderar kommersiell licens för utskrift-på-b
     },
   },
 
-  // Sample Gallery - REAL file paths from samples/english/shadow match/
+  // Sample Gallery - REAL file paths from samples/swedish/shadow-match/
   samples: {
-    sectionTitle: 'Skuggmatchning Arbetsblad Exempel',
-    sectionDescription: 'Ladda ner gratis exempelarbetsblad för att se vår professionella kvalitet',
+    sectionTitle: 'Skuggmatchning Gratis Arbetsblad för Förskoleklass - Exempel',
+    sectionDescription: 'Ladda ner gratis arbetsblad för barn för att se vår professionella kvalitet',
     downloadLabel: 'Ladda Ner Gratis Exempel',
     worksheetLabel: 'Arbetsblad',
     answerKeyLabel: 'Facit',
@@ -69,32 +101,46 @@ Full Tillgång-prenumerationen inkluderar kommersiell licens för utskrift-på-b
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/shadow%20match/shadow-match-worksheet.jpeg',
-        answerKeySrc: '/samples/english/shadow%20match/shadow-match-answer-key.jpeg',
-        altText: 'Skuggmatchning arbetsblad med färgade bilder och svarta silhuetter för förskoleklass visuell diskriminering',
-        pdfDownloadUrl: '/samples/english/shadow%20match/shadow-match-worksheet.pdf',
+        worksheetSrc: '/samples/swedish/shadow-match/sample-1.jpeg',
+        answerKeySrc: '/samples/swedish/shadow-match/sample-1-answer.jpeg',
+        altText: 'Skuggmatchning gratis arbetsblad för barn - matcha färgade bilder med svarta silhuetter för förskoleklass visuell diskriminering',
+        pdfDownloadUrl: '/samples/swedish/shadow-match/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/shadow%20match/shadow-match-horizontal.jpeg',
-        answerKeySrc: '/samples/english/shadow%20match/shadow-match-horizontal%20answer-key.jpeg',
-        altText: 'Gör det helt arbetsblad med horisontellt delade bilder för spatialt resonemang',
-        pdfDownloadUrl: '/samples/english/shadow%20match/shadow-match-horizontal.pdf',
+        worksheetSrc: '/samples/swedish/shadow-match/sample-2.jpeg',
+        answerKeySrc: '/samples/swedish/shadow-match/sample-2-answer.jpeg',
+        altText: 'Gratis arbetsblad skuggmatchning - visuell perception övningar arbetsblad för barn',
+        pdfDownloadUrl: '/samples/swedish/shadow-match/sample-2.pdf',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/shadow%20match/shadow-match-vertical.jpeg',
-        answerKeySrc: '/samples/english/shadow%20match/shadow-match-vertical%20answer-key.jpeg',
-        altText: 'Gör det helt arbetsblad med vertikalt delade bilder för del-till-helhet igenkänning',
-        pdfDownloadUrl: '/samples/english/shadow%20match/shadow-match-vertical.pdf',
+        worksheetSrc: '/samples/swedish/shadow-match/sample-3.jpeg',
+        answerKeySrc: '/samples/swedish/shadow-match/sample-3-answer.jpeg',
+        altText: 'Arbetsblad för förskoleklass skuggmatchning - gratis utskrifter för spatialt resonemang',
+        pdfDownloadUrl: '/samples/swedish/shadow-match/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/swedish/shadow-match/sample-4.jpeg',
+        answerKeySrc: '/samples/swedish/shadow-match/sample-4-answer.jpeg',
+        altText: 'Gör det helt gratis arbetsblad för barn - del-till-helhet igenkänning övningar',
+        pdfDownloadUrl: '/samples/swedish/shadow-match/sample-4.pdf',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/swedish/shadow-match/sample-5.jpeg',
+        answerKeySrc: '/samples/swedish/shadow-match/sample-5-answer.jpeg',
+        altText: 'Skuggmatchning arbetsblad för barn - gratis utskrifter visuell diskriminering för förskoleklass',
+        pdfDownloadUrl: '/samples/swedish/shadow-match/sample-5.pdf',
       },
     ],
   },
 
   // Features Grid - FULL descriptions from shadow-match.md H3 sections
   features: {
-    sectionTitle: 'Skuggmatchningsarbetsblad Funktioner - Allt du Behöver för Förskoleklass Material och Arbetsblad Gratis',
-    sectionDescription: 'Vår skuggmatchningsgenerator kombinerar kraftfulla funktioner med enkel användning. Skapa professionella visuella perceptionsarbetsblad på minuter. Alla funktioner är utformade för lärare som behöver arbetsblad gratis utan komplicerad programvara.',
+    sectionTitle: 'Skuggmatchning Gratis Arbetsblad Funktioner - Allt du Behöver för Arbetsblad för Barn',
+    sectionDescription: 'Vår skuggmatchningsgenerator kombinerar kraftfulla funktioner med enkel användning. Skapa professionella visuella perceptionsarbetsblad på minuter. Alla funktioner är utformade för lärare som behöver gratis arbetsblad för barn utan komplicerad programvara.',
     highlightBadgeText: 'Nyckelfunktion',
     badgeText: 'Funktioner',
     readMoreLabel: 'Läs mer',
@@ -108,8 +154,8 @@ Full Tillgång-prenumerationen inkluderar kommersiell licens för utskrift-på-b
       {
         id: '1',
         icon: '⚡',
-        title: 'Skapa Skuggmatchningsarbetsblad på Tre Klick - Arbetsblad Gratis för Förskoleklass',
-        description: 'Skapa skuggmatchningsarbetsblad på under tre minuter. Välj fyra bilder från vårt bibliotek eller ladda upp dina egna. Klicka på "Skapa nytt arbetsblad" och din övning genereras automatiskt. Inga designkunskaper krävs för att skapa professionella arbetsblad gratis. Generatorn skapar två olika övningstyper. Skuggmatchningsläget visar färgade objekt och svarta silhuetter. "Gör det helt"-läget delar bilder i två delar. Båda lägena är perfekta för förskoleklass material och tidiga årskurser. Varje arbetsblad inkluderar automatisk svarnyckel. Lärare ser de korrekta matchningarna direkt. Spara tid på rättning och förberedelser.',
+        title: 'Skapa Gratis Arbetsblad för Barn på Tre Klick - Skuggmatchning för Förskoleklass',
+        description: 'Skapa skuggmatchningsarbetsblad på under tre minuter. Välj fyra bilder från vårt bibliotek eller ladda upp dina egna. Klicka på "Skapa nytt arbetsblad" och din övning genereras automatiskt. Inga designkunskaper krävs för att skapa professionella gratis arbetsblad. Generatorn skapar två olika övningstyper. Skuggmatchningsläget visar färgade objekt och svarta silhuetter. "Gör det helt"-läget delar bilder i två delar. Båda lägena är perfekta för arbetsblad för förskoleklass och tidiga årskurser. Varje arbetsblad inkluderar automatisk svarnyckel. Lärare ser de korrekta matchningarna direkt. Spara tid på rättning och förberedelser.',
         highlighted: true,
       },
       {
@@ -129,8 +175,8 @@ Full Tillgång-prenumerationen inkluderar kommersiell licens för utskrift-på-b
       {
         id: '4',
         icon: '🌍',
-        title: 'Skuggmatchningsarbetsblad på 11 Språk - Flerspråkigt Stöd för Alla Klassrum',
-        description: 'Användargränssnittet finns på 11 språk. Svenska, engelska, tyska, franska, spanska. Portugisiska, italienska, nederländska, danska. Norska och finska kompletterar språkstödet. Skapa arbetsblad gratis på ditt föredragna språk. Särskilt värdefullt för flerspråkiga klassrum. Skapa samma övning på flera språk. Perfekt för svenska som andraspråk-undervisning. Visuella övningar fungerar universellt. Skuggmatchning kräver ingen text. Bilderna kommunicerar över språkgränser.',
+        title: 'Gratis Arbetsblad för Barn på 11 Språk - Flerspråkigt Stöd för Alla Klassrum',
+        description: 'Användargränssnittet finns på 11 språk. Svenska, engelska, tyska, franska, spanska. Portugisiska, italienska, nederländska, danska. Norska och finska kompletterar språkstödet. Skapa gratis arbetsblad på ditt föredragna språk. Särskilt värdefullt för flerspråkiga klassrum. Skapa samma övning på flera språk. Perfekt för svenska som andraspråk-undervisning. Visuella övningar fungerar universellt. Skuggmatchning kräver ingen text. Bilderna kommunicerar över språkgränser med gratis utskrifter.',
         highlighted: false,
       },
       {
@@ -150,8 +196,8 @@ Full Tillgång-prenumerationen inkluderar kommersiell licens för utskrift-på-b
       {
         id: '7',
         icon: '🖨️',
-        title: 'Professionell 300 DPI-Kvalitet - Högupplösta Arbetsblad Gratis',
-        description: 'Alla arbetsblad exporteras i 300 DPI-upplösning. Perfekt för utskrift på valfri skrivare. Skarpa linjer och tydliga bilder. Professionell kvalitet för förskoleklass material och klassrumsanvändning. JPEG- och PDF-format tillgängliga. Gråskaleläge sparar bläck. Konverterar färgarbetsblad till svartvitt. Bibehåller tydlighet och läsbarhet. Separata nedladdningar för arbetsblad och svarnyckel.',
+        title: 'Professionell 300 DPI-Kvalitet - Gratis Utskrifter för Arbetsblad för Barn',
+        description: 'Alla arbetsblad exporteras i 300 DPI-upplösning. Perfekt för gratis utskrifter på valfri skrivare. Skarpa linjer och tydliga bilder. Professionell kvalitet för arbetsblad för förskoleklass och klassrumsanvändning. JPEG- och PDF-format tillgängliga. Gråskaleläge sparar bläck. Konverterar färgarbetsblad till svartvitt. Bibehåller tydlighet och läsbarhet. Separata nedladdningar för gratis arbetsblad för barn och svarnyckel.',
         highlighted: true,
       },
       {
@@ -166,8 +212,8 @@ Full Tillgång-prenumerationen inkluderar kommersiell licens för utskrift-på-b
 
   // How-To Guide - FULL text from shadow-match.md Step sections
   howTo: {
-    sectionTitle: 'Hur du Skapar Skuggmatchningsarbetsblad på 5 Enkla Steg - Arbetsblad Gratis för Förskoleklass Material',
-    sectionDescription: 'Skapa professionella skuggmatchningsarbetsblad på under tre minuter. Fem enkla steg från start till färdig nedladdning. Ingen designerfarenhet krävs för att skapa arbetsblad gratis. Följ denna guide för att producera förskoleklass material och matematik arbetsblad snabbt.',
+    sectionTitle: 'Hur du Skapar Skuggmatchning Gratis Arbetsblad för Barn på 5 Enkla Steg',
+    sectionDescription: 'Skapa professionella skuggmatchningsarbetsblad på under tre minuter. Fem enkla steg från start till färdig nedladdning. Ingen designerfarenhet krävs för att skapa gratis arbetsblad för barn. Följ denna guide för att producera arbetsblad för förskoleklass och gratis utskrifter snabbt.',
     ctaText: 'Börja Skapa Nu',
     badgeText: 'Så Fungerar Det',
     stepLabel: 'Steg',
@@ -277,8 +323,8 @@ Full Tillgång-prenumerationen inkluderar kommersiell licens för utskrift-på-b
 
   // FAQ Section - ALL questions from shadow-match.md
   faq: {
-    sectionTitle: 'Vanliga Frågor om Skuggmatchningsarbetsblad - Förskoleklass Material och Arbetsblad Gratis',
-    sectionDescription: 'Lärare ställer ofta samma frågor om skuggmatchningsgeneratorn. Här svarar vi på de vanligaste frågorna. Läs om prenumeration, utskrift, anpassning och användning. All information du behöver för att börja skapa arbetsblad gratis och finmotorik övningar.',
+    sectionTitle: 'Vanliga Frågor om Skuggmatchning Gratis Arbetsblad för Barn - Arbetsblad för Förskoleklass',
+    sectionDescription: 'Lärare ställer ofta samma frågor om skuggmatchningsgeneratorn. Här svarar vi på de vanligaste frågorna. Läs om prenumeration, utskrift, anpassning och användning. All information du behöver för att börja skapa gratis arbetsblad för barn och gratis utskrifter.',
     showMoreText: 'Visa fler frågor',
     showLessText: 'Visa färre',
     badgeText: 'Vanliga Frågor',
@@ -289,18 +335,18 @@ Full Tillgång-prenumerationen inkluderar kommersiell licens för utskrift-på-b
     items: [
       {
         id: '1',
-        question: 'Är Denna Skuggmatchningsgenerator Verkligen Gratis att Använda?',
-        answer: 'Skuggmatchningsgeneratorn kräver Full Tillgång-prenumeration som kostar 2 900 kronor årligen eller 300 kronor månadsvis. Din prenumeration ger dig obegränsad skapande av skuggmatchningar utan extra avgifter per arbetsblad. Generera så många förskoleklass material och arbetsblad som du behöver utan ytterligare kostnader. Full Tillgång inkluderar alla 33 arbetsbladsgenereratortyper och kommersiell licensiering. Grundpaketet inkluderar 10 populära generatorer och kostar 1 450 kronor årligen. Båda prenumerationerna inkluderar 11 språkstöd och professionell 300 DPI-kvalitet för export.',
+        question: 'Kan Jag Ladda Ner Gratis Arbetsblad för Barn med Skuggmatchning?',
+        answer: 'Skuggmatchningsgeneratorn kräver Full Tillgång-prenumeration som kostar 2 900 kronor årligen eller 300 kronor månadsvis. Din prenumeration ger dig obegränsad skapande av gratis arbetsblad utan extra avgifter per arbetsblad. Generera så många arbetsblad för förskoleklass och arbetsblad för barn som du behöver utan ytterligare kostnader. Full Tillgång inkluderar alla 33 arbetsbladsgenereratortyper och kommersiell licensiering. Grundpaketet inkluderar 10 populära generatorer och kostar 1 450 kronor årligen. Båda prenumerationerna inkluderar 11 språkstöd och professionell 300 DPI-kvalitet för gratis utskrifter.',
       },
       {
         id: '2',
-        question: 'Kan Jag Skriva Ut Skuggmatchningsarbetsblad Hemma på en Vanlig Skrivare?',
-        answer: 'Ja. Alla skuggmatchningsarbetsblad är optimerade för hemskrivare. 300 DPI-upplösning säkerställer skarpa utskrifter. Letter och A4-format passar alla standardskrivare. Skriv ut finmotorik övningar direkt från din hemmadator. Gråskaleläge sparar färgbläck dramatiskt. Konverterar färgarbetsblad till svartvitt. Bibehåller all visuell tydlighet. Perfekt för skolor med begränsade budgetar som skriver ut många förskoleklass material dagligen. PDF-format ger bästa utskriftskvalitet. JPEG fungerar också utmärkt.',
+        question: 'Kan Jag Skriva Ut Gratis Arbetsblad för Barn Hemma på en Vanlig Skrivare?',
+        answer: 'Ja. Alla skuggmatchning gratis arbetsblad är optimerade för hemskrivare. 300 DPI-upplösning säkerställer skarpa gratis utskrifter. Letter och A4-format passar alla standardskrivare. Skriv ut arbetsblad för barn direkt från din hemmadator. Gråskaleläge sparar färgbläck dramatiskt. Konverterar färgarbetsblad till svartvitt. Bibehåller all visuell tydlighet. Perfekt för skolor med begränsade budgetar som skriver ut många arbetsblad för förskoleklass dagligen. PDF-format ger bästa utskriftskvalitet. JPEG fungerar också utmärkt.',
       },
       {
         id: '3',
-        question: 'Behöver Jag Designkunskaper för att Skapa Skuggmatchningsarbetsblad?',
-        answer: 'Inga designkunskaper krävs. Generatorn är byggd för lärare utan teknisk bakgrund. Tre klick skapar professionella arbetsblad. Välj bilder, klicka generera, ladda ner. Enkelt för alla övningar. Förhandsgranskning visar exakt hur arbetsbladet ser ut. Justera innan nedladdning. Dra och släpp-redigering för layoutändringar. Intuitiva kontroller som alla förstår för förskoleklass material. Automatiska svarnycklar genereras. Inga manuella beräkningar. Ingen layoutplanering.',
+        question: 'Behöver Jag Designkunskaper för att Skapa Gratis Arbetsblad för Barn?',
+        answer: 'Inga designkunskaper krävs. Generatorn är byggd för lärare utan teknisk bakgrund. Tre klick skapar professionella gratis arbetsblad. Välj bilder, klicka generera, ladda ner. Enkelt för alla övningar. Förhandsgranskning visar exakt hur arbetsbladet ser ut. Justera innan nedladdning. Dra och släpp-redigering för layoutändringar. Intuitiva kontroller som alla förstår för arbetsblad för förskoleklass. Automatiska svarnycklar genereras för gratis utskrifter. Inga manuella beräkningar. Ingen layoutplanering.',
       },
       {
         id: '4',
@@ -324,8 +370,8 @@ Full Tillgång-prenumerationen inkluderar kommersiell licens för utskrift-på-b
       },
       {
         id: '8',
-        question: 'Vilka Åldersgrupper Fungerar Bäst med Skuggmatchningsarbetsblad?',
-        answer: 'Skuggmatchningsarbetsblad fungerar utmärkt för förskoleklass till årskurs 3 (åldrar 5-9). Förskoleklass (6 år) gynnas enormt av skuggmatchning. Visuell diskriminering utvecklas. Formigenkänning stärks. Årskurs 1-2 (7-8 år) använder matchningar för matematiköversikter. Årskurs 2-3 (8-9 år) utmanas med mer komplexa bilder. Justera svårighet genom bildkomplexitet snarare än att ändra övningsstruktur. Välj enkla former för yngre elever. Välj detaljerade, intrikata bilder för äldre elever.',
+        question: 'Vilka Åldersgrupper Fungerar Bäst med Gratis Arbetsblad för Barn Skuggmatchning?',
+        answer: 'Skuggmatchning gratis arbetsblad fungerar utmärkt för arbetsblad för förskoleklass till årskurs 3 (åldrar 5-9). Förskoleklass (6 år) gynnas enormt av arbetsblad för barn. Visuell diskriminering utvecklas. Formigenkänning stärks. Årskurs 1-2 (7-8 år) använder gratis arbetsblad för matematiköversikter. Årskurs 2-3 (8-9 år) utmanas med mer komplexa bilder. Justera svårighet genom bildkomplexitet snarare än att ändra övningsstruktur. Välj enkla former för yngre elever. Välj detaljerade, intrikata bilder för äldre elever med gratis utskrifter.',
       },
       {
         id: '9',

@@ -444,6 +444,7 @@ export default function WorksheetSamples({ locale = 'en', initialContent }: Work
                   <img
                     src={sample.image}
                     alt={sample.name}
+                    loading="lazy"
                     className="w-full h-full object-cover"
                     onError={(e) => {
                       const target = e.target as HTMLImageElement;

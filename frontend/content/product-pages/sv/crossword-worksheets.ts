@@ -15,10 +15,36 @@ export const crosswordSvContent: ProductPageContent = {
   seo: {
     slug: 'bildkorsord-arbetsblad',
     appId: 'crossword',
-    title: 'Bildkorsord Generator - Arbetsblad Gratis för Förskoleklass Material och Bokstäver Lära Sig',
-    description: 'Skapa professionella bildkorsord med vår bildkorsordsgenerator. Din Full Tillgång-prenumeration ger dig obegränsad tillgång till att skapa korsord utan extra avgifter per arbetsblad. Generera anpassade utskrivbara bildkorsord perfekta för förskoleklass material och bokstäver lära sig aktiviteter.',
+    title: 'Bildkorsord Generator - Gratis Arbetsblad för Förskoleklass och Barn',
+    description: 'Skapa professionella bildkorsord med vår generator. Gratis arbetsblad för förskoleklass, bokstäver lära sig och matematik. Ladda ner PDF på 3 minuter!',
     keywords: 'bildkorsord generator, arbetsblad gratis, förskoleklass material, bokstäver lära sig, korsord barn, bildkorsord, matematik arbetsblad, finmotorik övningar, målarbilder barn, ordförråd',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/bildkorsord-arbetsblad',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/crossword/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Bildkorsord arbetsblad gratis - generator för förskoleklass ordförrådsövningar'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/crossword/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis arbetsblad bildkorsord för barn - matematik arbetsblad bokstäver lära sig'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/crossword/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Arbetsblad för förskoleklass - bildkorsord gratis utskrifter ordförråd'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/crossword/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis utskrifter arbetsblad för barn - bildkorsord förskoleklass material'
+      },
+    ],
   },
 
   // Hero Section - FULL text from crossword.md paragraphs 1-4
@@ -32,7 +58,7 @@ Bildkorsord kombinerar bilder med ordkunskap på ett roligt sätt. Eleverna ser 
 Vår bildkorsordsgenerator erbjuder över 3000 barnvänliga bilder organiserade efter tema. Välj bilder från vårt bibliotek eller ladda upp dina egna foton. Anpassa allt från bakgrunder och ramar till textstorlek och färg. Skapa unika bildkorsord som passar dina elevers behov och intressen.
 
 Varje bildkorsord exporteras i professionell 300 DPI-kvalitet. Ladda ner som PDF eller JPEG för perfekt utskrift. Full Tillgång-prenumerationen inkluderar kommersiell licens så du kan sälja dina bildkorsord på Teachers Pay Teachers, Etsy eller Amazon KDP. Alla 33 arbetsbladsgeneratorer ingår för endast $240 per år.`,
-    previewImageSrc: '/samples/english/crossword/crossword_worksheet.jpeg',
+    previewImageSrc: '/samples/swedish/crossword/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Prova Gratis',
       viewSamples: 'Visa Exempel',
@@ -53,8 +79,8 @@ Varje bildkorsord exporteras i professionell 300 DPI-kvalitet. Ladda ner som PDF
 
   // Sample Gallery - REAL file paths from samples/english/crossword/
   samples: {
-    sectionTitle: 'Bildkorsord Arbetsblad Exempel',
-    sectionDescription: 'Ladda ner gratis exempelarbetsblad för att se vår professionella kvalitet',
+    sectionTitle: 'Bildkorsord Arbetsblad Gratis Exempel - Förskoleklass Material',
+    sectionDescription: 'Ladda ner gratis utskrifter och arbetsblad för barn för att se vår professionella kvalitet',
     downloadLabel: 'Ladda Ner Gratis Exempel',
     worksheetLabel: 'Arbetsblad',
     answerKeyLabel: 'Facit',
@@ -67,17 +93,31 @@ Varje bildkorsord exporteras i professionell 300 DPI-kvalitet. Ladda ner som PDF
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/crossword/crossword_worksheet.jpeg',
-        answerKeySrc: '/samples/english/crossword/crossword_answer_key.jpeg',
-        altText: 'Bildkorsord arbetsblad med tematiska bilder för förskoleklass ordförrådsträning',
-        pdfDownloadUrl: '/samples/english/crossword/image-crossword-worksheet.pdf',
+        worksheetSrc: '/samples/swedish/crossword/sample-1.jpeg',
+        answerKeySrc: '/samples/swedish/crossword/sample-1-answer.jpeg',
+        altText: 'Bildkorsord arbetsblad gratis - förskoleklass ordförrådsträning bokstäver lära sig',
+        pdfDownloadUrl: '/samples/swedish/crossword/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/crossword/crossword_worksheet (1).jpeg',
-        answerKeySrc: '/samples/english/crossword/crossword_answer_key (1).jpeg',
-        altText: 'Bildkorsord med färgglada bildledtrådar för lågstadiet ordförrådsbyggande',
-        pdfDownloadUrl: '/samples/english/crossword/image-crossword-worksheet (1).pdf',
+        worksheetSrc: '/samples/swedish/crossword/sample-2.jpeg',
+        answerKeySrc: '/samples/swedish/crossword/sample-2-answer.jpeg',
+        altText: 'Gratis arbetsblad bildkorsord för barn - matematik arbetsblad finmotorik',
+        pdfDownloadUrl: '/samples/swedish/crossword/sample-2.pdf',
+      },
+      {
+        id: '3',
+        worksheetSrc: '/samples/swedish/crossword/sample-3.jpeg',
+        answerKeySrc: '/samples/swedish/crossword/sample-3-answer.jpeg',
+        altText: 'Arbetsblad för förskoleklass - bildkorsord gratis utskrifter ordförråd',
+        pdfDownloadUrl: '/samples/swedish/crossword/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/swedish/crossword/sample-4.jpeg',
+        answerKeySrc: '/samples/swedish/crossword/sample-4-answer.jpeg',
+        altText: 'Gratis utskrifter arbetsblad för barn - bildkorsord förskoleklass material',
+        pdfDownloadUrl: '/samples/swedish/crossword/sample-4.pdf',
       },
     ],
   },
@@ -85,7 +125,7 @@ Varje bildkorsord exporteras i professionell 300 DPI-kvalitet. Ladda ner som PDF
   // Features Grid - FULL text from crossword.md feature sections
   features: {
     sectionTitle: 'Bildkorsordsgenerator Funktioner - Allt Du Behöver för Arbetsblad Gratis och Matematik Arbetsblad',
-    sectionDescription: 'Vår bildkorsordsgenerator innehåller alla verktyg du behöver för att skapa professionella arbetsblad. Från förskoleklass material till avancerade uppgifter för årskurs 3. Skapa bildkorsord med bokstäver lära sig fokus eller matematik arbetsblad kombinationer.',
+    sectionDescription: 'Vår bildkorsordsgenerator innehåller alla verktyg du behöver för att skapa professionella arbetsblad för förskoleklass och arbetsblad för barn. Från gratis utskrifter till avancerade uppgifter för årskurs 3. Skapa bildkorsord med bokstäver lära sig fokus eller matematik arbetsblad kombinationer.',
     highlightBadgeText: 'Nyckelfunktion',
     readMoreLabel: 'Läs mer',
     showLessLabel: 'Visa mindre',
@@ -99,7 +139,7 @@ Varje bildkorsord exporteras i professionell 300 DPI-kvalitet. Ladda ner som PDF
       {
         id: '1',
         icon: '⚡',
-        title: 'Skapa Bildkorsord på 3 Klick',
+        title: 'Skapa Bildkorsord - Arbetsblad Gratis på 3 Klick',
         description: `Bildkorsord skapas otroligt snabbt med vårt verktyg. Välj ett tema från biblioteket. Klicka på generera. Ditt färdiga bildkorsord visas direkt på skärmen. Hela processen tar under 3 minuter från start till nedladdad PDF. Perfekt för förskoleklass material när du behöver arbetsblad snabbt.
 
 Kombinera med matte övningar för komplett lektionsplanering. Ingen förkunskap krävs för att skapa professionella bildkorsord. Generatorn gör allt det tekniska arbetet åt dig automatiskt.`,
@@ -108,7 +148,7 @@ Kombinera med matte övningar för komplett lektionsplanering. Ingen förkunskap
       {
         id: '2',
         icon: '✏️',
-        title: 'Redigera Allt på Canvas',
+        title: 'Redigera Arbetsblad Gratis - Anpassning för Förskoleklass',
         description: `Efter generering kan du redigera varje element på bildkorsordet. Dra bilder till nya positioner. Ändra storlek genom att skala med musen. Rotera element för perfekt layout. Ta bort bilder som inte passar. Lägg till nya bilder från biblioteket. Justera textstorlek och färg.
 
 Alla ändringar sker direkt på canvasen. Skapa arbetsblad gratis med Full Tillgång-prenumerationen. Perfekt för att anpassa bildkorsord till bokstäver lära sig aktiviteter i svenska klassrum.`,
@@ -117,7 +157,7 @@ Alla ändringar sker direkt på canvasen. Skapa arbetsblad gratis med Full Tillg
       {
         id: '3',
         icon: '📤',
-        title: 'Ladda Upp Egna Bilder',
+        title: 'Ladda Upp Bilder - Arbetsblad Gratis för Finmotorik',
         description: `Ladda upp dina egna foton och bilder till bildkorsordet. Välj flera filer samtidigt från din dator. Alla vanliga bildformat fungerar (JPEG, PNG, GIF). Kombinera egna bilder med vårt bibliotek på 3000+ bilder.
 
 Skapa personliga bildkorsord med elevernas namn eller klassrumsobjekt. Perfekt för finmotorik övningar där barn övar skriva ord de känner igen. Inga begränsningar på antal uppladdningar. Alla bilder du laddar upp är bara synliga för dig.`,
@@ -164,8 +204,8 @@ Gråskaleläge sparar bläck vid utskrift. Perfekt för addition och subtraktion
 
   // How-To Guide - FULL text from crossword.md step sections
   howTo: {
-    sectionTitle: 'Hur Man Skapar Bildkorsord i 5 Enkla Steg',
-    sectionDescription: 'Skapa professionella bildkorsord på under 3 minuter med dessa enkla steg. Ingen design-erfarenhet krävs. Vårt verktyg guidar dig genom hela processen från bildval till färdig PDF. Perfekt för förskoleklass material och matematik arbetsblad kombinationer.',
+    sectionTitle: 'Hur Man Skapar Arbetsblad Gratis i 5 Steg',
+    sectionDescription: 'Skapa professionella bildkorsord på under 3 minuter med dessa enkla steg. Ingen design-erfarenhet krävs. Vårt verktyg guidar dig genom hela processen från bildval till färdig PDF. Perfekt för arbetsblad för förskoleklass, arbetsblad för barn och gratis utskrifter.',
     ctaText: 'Börja Skapa Nu',
     badgeText: 'Så Fungerar Det',
     stepLabel: 'Steg',
@@ -226,7 +266,7 @@ Facit genereras automatiskt med lösningen. Perfekt för multiplikationstabellen
 
   // Use Cases - FULL text from crossword.md use case sections
   useCases: {
-    sectionTitle: 'Perfekt för Lärare, Föräldrar och Pedagoger',
+    sectionTitle: 'Perfekt för Lärare - Arbetsblad Gratis för Alla Behov',
     sectionDescription: 'Bildkorsordsgeneratorn passar många olika användare inom svensk utbildning. Från förskollärare till lärarentreprenörer. Varje användargrupp får unika fördelar av vårt verktyg. Skapa arbetsblad gratis med förskoleklass material anpassat för dina elever.',
     badgeText: 'Vem Det Är För',
     readMoreLabel: 'Läs mer',
@@ -297,7 +337,7 @@ Multiplikationstabellen arbetsblad är mycket populära produkter. Klockan lära
 
   // FAQ Section - Selected FAQs from crossword.md
   faq: {
-    sectionTitle: 'Vanliga Frågor om Bildkorsord',
+    sectionTitle: 'Vanliga Frågor - Gratis Arbetsblad för Bildkorsord',
     sectionDescription: 'Vanliga frågor om vår bildkorsordsgenerator, matematik arbetsblad och bokstäver lära sig funktioner.',
     showMoreText: 'Visa fler frågor',
     showLessText: 'Visa färre',

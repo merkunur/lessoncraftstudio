@@ -342,6 +342,42 @@ export function generateAppsCollectionSchema(locale: string, baseUrl: string = g
 }
 
 /**
+ * Generate ItemList schema for the /apps collection page
+ * Lists all 33 apps for better SERP display
+ */
+export function generateAppsItemListSchema(
+  locale: string,
+  apps: Array<{ id: string; name: string; slug: string; description?: string }>,
+  baseUrl: string = getBaseUrl()
+) {
+  const itemListElements = apps.map((app, index) => ({
+    "@type": "ListItem",
+    "position": index + 1,
+    "name": app.name,
+    "url": `${baseUrl}/${locale}/apps/${app.slug}`,
+    ...(app.description && { "description": app.description })
+  }));
+
+  return {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": locale === 'de' ? '33 Arbeitsblatt-Generatoren' :
+            locale === 'fr' ? '33 Générateurs de Fiches' :
+            locale === 'es' ? '33 Generadores de Fichas' :
+            locale === 'pt' ? '33 Geradores de Planilhas' :
+            locale === 'it' ? '33 Generatori di Schede' :
+            locale === 'nl' ? '33 Werkblad Generatoren' :
+            locale === 'sv' ? '33 Arbetsblad Generatorer' :
+            locale === 'da' ? '33 Arbejdsark Generatorer' :
+            locale === 'no' ? '33 Arbeidsark Generatorer' :
+            locale === 'fi' ? '33 Työarkki Generaattoria' :
+            '33 Worksheet Generators',
+    "numberOfItems": apps.length,
+    "itemListElement": itemListElements
+  };
+}
+
+/**
  * App Product Data interface for schema generation
  */
 export interface AppProductData {

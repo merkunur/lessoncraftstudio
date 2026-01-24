@@ -7,6 +7,22 @@ import HowToGuide from './HowToGuide';
 import UseCases from './UseCases';
 import FAQSection from './FAQSection';
 import RelatedApps from './RelatedApps';
+import Breadcrumb from '@/components/Breadcrumb';
+
+// Localized labels for Apps breadcrumb
+const APPS_LABELS: Record<string, string> = {
+  en: 'Apps',
+  de: 'Apps',
+  fr: 'Applications',
+  es: 'Aplicaciones',
+  pt: 'Aplicativos',
+  it: 'App',
+  nl: 'Apps',
+  sv: 'Appar',
+  da: 'Apps',
+  no: 'Apper',
+  fi: 'Sovellukset'
+};
 
 // Slug-to-appId mapping for deriving appId from URL slug
 // This allows dynamic sample loading even when content files lack seo.appId
@@ -279,8 +295,17 @@ export default function ProductPageClient({
   // Derive appId: prefer content.seo.appId, fall back to slug mapping
   const appId = content.seo?.appId || (slug ? slugToAppId[slug] : undefined);
 
+  // Build breadcrumb items
+  const breadcrumbItems = [
+    { label: APPS_LABELS[locale] || 'Apps', href: `/${locale}/apps` },
+    { label: content.hero.title }
+  ];
+
   return (
     <main className="min-h-screen bg-white">
+      {/* Breadcrumb Navigation */}
+      <Breadcrumb items={breadcrumbItems} locale={locale} />
+
       {/* Part 1: Hero Section */}
       <HeroSection
         locale={locale}

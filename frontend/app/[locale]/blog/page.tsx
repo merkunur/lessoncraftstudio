@@ -4,6 +4,7 @@ import BlogPageClient from './BlogPageClient';
 import { getBlogPostsForLocale, getBlogCategoriesForLocale } from '@/lib/blog-data';
 import Breadcrumb from '@/components/Breadcrumb';
 import { getHreflangCode, ogLocaleMap } from '@/lib/schema-generator';
+import { SUPPORTED_LOCALES } from '@/config/locales';
 
 // Enable ISR - revalidate every 30 minutes (reduced from 1 hour for faster updates)
 export const revalidate = 1800;
@@ -102,7 +103,7 @@ export async function generateMetadata({ params, searchParams }: BlogPageProps):
   }
 
   // Generate hreflang alternates with proper regional codes (pt-BR, es-MX)
-  const locales = ['en', 'de', 'fr', 'es', 'pt', 'it', 'nl', 'sv', 'da', 'no', 'fi'];
+  const locales = SUPPORTED_LOCALES;
   const hreflangAlternates: Record<string, string> = {};
   for (const lang of locales) {
     const hreflangCode = getHreflangCode(lang);

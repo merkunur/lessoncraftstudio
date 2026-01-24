@@ -4,6 +4,7 @@ import FAQAccordion from '@/components/FAQAccordion';
 import { Button } from '@/components/ui/Button';
 import Link from 'next/link';
 import { getHreflangCode, ogLocaleMap } from '@/lib/schema-generator';
+import { SUPPORTED_LOCALES } from '@/config/locales';
 
 export async function generateMetadata({ params }: { params: { locale: string } }): Promise<Metadata> {
   const locale = params.locale || 'en';
@@ -11,7 +12,7 @@ export async function generateMetadata({ params }: { params: { locale: string } 
   const t = await getTranslations({ locale, namespace: 'faq' });
 
   // Generate hreflang alternates with proper regional codes (pt-BR, es-MX)
-  const locales = ['en', 'de', 'fr', 'es', 'pt', 'it', 'nl', 'sv', 'da', 'no', 'fi'];
+  const locales = SUPPORTED_LOCALES;
   const hreflangAlternates: Record<string, string> = {};
   for (const lang of locales) {
     const hreflangCode = getHreflangCode(lang);

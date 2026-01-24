@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import { generateHomepageSchemas, getHreflangCode, ogLocaleMap } from '@/lib/schema-generator';
+import { SUPPORTED_LOCALES } from '@/config/locales';
 import {
   HomepageHero,
   SampleGallery,
@@ -79,7 +80,7 @@ export async function generateMetadata({ params }: { params: { locale: string } 
   const localizedMeta = homepageMetadata[locale] || homepageMetadata.en;
 
   // Generate hreflang alternates with proper regional codes (pt-BR, es-MX)
-  const locales = ['en', 'de', 'fr', 'es', 'pt', 'it', 'nl', 'sv', 'da', 'no', 'fi'];
+  const locales = SUPPORTED_LOCALES;
   const hreflangAlternates: Record<string, string> = {};
   for (const lang of locales) {
     const hreflangCode = getHreflangCode(lang);

@@ -2,7 +2,9 @@ import { Metadata } from 'next';
 import { Button } from '@/components/ui/Button';
 import { getTranslations } from 'next-intl/server';
 import AppCard from '@/components/apps/AppCard';
-import { generateAppsCollectionSchema, getHreflangCode, ogLocaleMap } from '@/lib/schema-generator';
+import { generateAppsCollectionSchema, generateAppsItemListSchema, getHreflangCode, ogLocaleMap } from '@/lib/schema-generator';
+import { productPageSlugs } from '@/config/product-page-slugs';
+import { SUPPORTED_LOCALES } from '@/config/locales';
 
 // Localized SEO metadata for all 11 languages
 // Keywords focus on PLATFORM-LEVEL terms to avoid cannibalization with individual product pages
@@ -72,7 +74,7 @@ export async function generateMetadata({ params }: { params: { locale: string } 
   const meta = appsMetadata[locale] || appsMetadata.en;
 
   // Generate hreflang alternates with proper regional codes (pt-BR, es-MX)
-  const locales = ['en', 'de', 'fr', 'es', 'pt', 'it', 'nl', 'sv', 'da', 'no', 'fi'];
+  const locales = SUPPORTED_LOCALES;
   const hreflangAlternates: Record<string, string> = {};
   for (const lang of locales) {
     const hreflangCode = getHreflangCode(lang);
@@ -728,14 +730,31 @@ export default async function AppsPage({ params: { locale } }: PageProps) {
   }
 
   // Generate JSON-LD schema for SEO
-  const schema = generateAppsCollectionSchema(locale);
+  const collectionSchema = generateAppsCollectionSchema(locale);
+
+  // Generate ItemList schema with all apps for better SERP display
+  const appsForSchema = apps.map(app => {
+    const appConfig = productPageSlugs.find(p => p.appId === app.id);
+    const slug = appConfig?.slugs[locale as keyof typeof appConfig.slugs] || appConfig?.slugs.en || app.id;
+    return {
+      id: app.id,
+      name: getAppName(app.id, app.name, locale, translations),
+      slug,
+      description: `${app.category} worksheet generator`
+    };
+  });
+  const itemListSchema = generateAppsItemListSchema(locale, appsForSchema);
 
   return (
     <div className="min-h-screen bg-gray-50">
       {/* JSON-LD Structured Data */}
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }}
       />
 
       {/* Hero Section */}

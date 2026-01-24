@@ -4,6 +4,7 @@ import Link from 'next/link';
 import FAQAccordion from '@/components/FAQAccordion';
 import PricingCards from '@/components/PricingCards';
 import { getHreflangCode, ogLocaleMap } from '@/lib/schema-generator';
+import { SUPPORTED_LOCALES } from '@/config/locales';
 
 interface PricingPageProps {
   params: {
@@ -17,7 +18,7 @@ export async function generateMetadata({ params }: { params: { locale: string } 
   const t = await getTranslations({ locale, namespace: 'pricing' });
 
   // Generate hreflang alternates with proper regional codes (pt-BR, es-MX)
-  const locales = ['en', 'de', 'fr', 'es', 'pt', 'it', 'nl', 'sv', 'da', 'no', 'fi'];
+  const locales = SUPPORTED_LOCALES;
   const hreflangAlternates: Record<string, string> = {};
   for (const lang of locales) {
     const hreflangCode = getHreflangCode(lang);

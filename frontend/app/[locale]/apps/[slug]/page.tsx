@@ -383,6 +383,16 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       robots: {
         index: true,
         follow: true,
+        'max-snippet': -1,
+        'max-image-preview': 'large',
+        'max-video-preview': -1,
+        googleBot: {
+          index: true,
+          follow: true,
+          'max-snippet': -1,
+          'max-image-preview': 'large',
+          'max-video-preview': -1,
+        },
       },
       alternates: {
         canonical: canonicalUrl,
@@ -393,7 +403,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
         description: content.seo.description,
         url: canonicalUrl,
         siteName: 'LessonCraftStudio',
-        type: 'website',
+        type: 'article',
         locale: ogLocale,
         images: ogImages,
       },
@@ -402,7 +412,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
         title: content.seo.title,
         description: content.seo.description,
         images: ogImages.map(img => img.url),
-        site: '@lessoncraftstudio',
+        site: '@LessonCraftStudio',
       },
     };
   }
@@ -9643,7 +9653,8 @@ export async function generateStaticParams() {
 
   // Also add legacy app IDs (without -worksheets suffix) for English only
   // These are for backwards compatibility with old internal links
-  const locales = ['en', 'de', 'fr', 'es', 'pt', 'it', 'nl', 'sv', 'da', 'no', 'fi'];
+  const { SUPPORTED_LOCALES } = await import('@/config/locales');
+  const locales = [...SUPPORTED_LOCALES];
   const legacyAppIds = [
     'word-search',
     'image-addition',

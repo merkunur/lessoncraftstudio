@@ -2,6 +2,7 @@ import { MetadataRoute } from 'next';
 import { prisma } from '@/lib/prisma';
 import { productPageSlugs, getAlternateUrls } from '@/config/product-page-slugs';
 import { getHreflangCode } from '@/lib/schema-generator';
+import { SUPPORTED_LOCALES } from '@/config/locales';
 
 // Enable ISR for sitemap - revalidate every 30 minutes (reduced for faster updates)
 export const revalidate = 1800;
@@ -25,8 +26,8 @@ export const revalidate = 1800;
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const baseUrl = process.env.NEXT_PUBLIC_APP_URL || 'https://www.lessoncraftstudio.com';
 
-  // Supported locales
-  const locales = ['en', 'de', 'fr', 'es', 'it', 'pt', 'nl', 'sv', 'da', 'no', 'fi'];
+  // Supported locales (from centralized config)
+  const locales = [...SUPPORTED_LOCALES];
 
   const currentDate = new Date();
 

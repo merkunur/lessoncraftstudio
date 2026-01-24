@@ -5,6 +5,7 @@ import { prisma } from '@/lib/prisma';
 import { generateBlogSchemas, getHreflangCode, ogLocaleMap } from '@/lib/schema-generator';
 import { analyzeContent, generateFAQSchema, generateHowToSchema } from '@/lib/content-analyzer';
 import Breadcrumb from '@/components/Breadcrumb';
+import { SUPPORTED_LOCALES } from '@/config/locales';
 
 // Enable ISR - revalidate every 30 minutes (reduced from 1 hour for faster updates)
 export const revalidate = 1800;
@@ -197,7 +198,7 @@ export async function generateStaticParams() {
     });
 
     // Generate params ONLY for locales that have actual translated content
-    const locales = ['en', 'de', 'es', 'fr', 'it', 'pt', 'nl', 'da', 'sv', 'no', 'fi'];
+    const locales = [...SUPPORTED_LOCALES];
     const params = [];
 
     for (const post of posts) {
@@ -910,7 +911,7 @@ export async function generateMetadata({ params }: BlogPostPageProps) {
     // Build language alternates ONLY for locales with actual translations (Bug 1 fix)
     // Uses proper hreflang codes (pt-BR, es-MX) for regional targeting (SEO fix)
     const languageAlternates: { [key: string]: string } = {};
-    const locales = ['en', 'de', 'fr', 'es', 'pt', 'it', 'nl', 'sv', 'da', 'no', 'fi'];
+    const locales = [...SUPPORTED_LOCALES];
 
     for (const lang of locales) {
       const langTranslation = translations[lang];

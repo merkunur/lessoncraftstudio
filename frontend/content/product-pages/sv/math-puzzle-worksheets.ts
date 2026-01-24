@@ -15,22 +15,54 @@ export const mathPuzzleSvContent: ProductPageContent = {
   seo: {
     slug: 'mattepussel-arbetsblad',
     appId: 'math-puzzle',
-    title: 'Mattepussel Arbetsblad - Addition och Subtraktion Generator | Matematik Arbetsblad för Förskoleklass',
-    description: 'Skapa professionella mattepussel med vår generator för matematik arbetsblad. Generera anpassade pussel med addition och subtraktion perfekta för förskoleklass och årskurs 1-3. Ladda ner högkvalitativa PDF-filer på under tre minuter.',
-    keywords: 'mattepussel, matematik arbetsblad, addition och subtraktion, förskoleklass material, matte övningar, siffror och tal, arbetsblad gratis, multiplikationstabellen, klockan lära sig, bokstäver lära sig, skriva bokstäver, målarbilder barn, finmotorik övningar',
+    title: 'Gratis Arbetsblad Mattepussel | Addition och Subtraktion Generator för Barn',
+    description: 'Skapa gratis arbetsblad mattepussel. Generera addition och subtraktion övningar för förskoleklass. Ladda ner professionella PDF-arbetsblad på 3 minuter.',
+    keywords: 'mattepussel, matematik arbetsblad, addition och subtraktion, förskoleklass material, matte övningar, siffror och tal, arbetsblad gratis, multiplikationstabellen, klockan lära sig, bokstäver lära sig, skriva bokstäver, målarbilder barn, finmotorik övningar, gratis arbetsblad, gratis arbetsblad för barn, gratis utskrifter, arbetsblad för barn, arbetsblad för förskoleklass',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/mattepussel-arbetsblad',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/math-puzzle/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis arbetsblad mattepussel - addition övningar för förskoleklass',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/math-puzzle/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis arbetsblad för barn - mattepussel med subtraktion',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/math-puzzle/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis utskrifter mattepussel - matematik arbetsblad för barn',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/math-puzzle/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Arbetsblad för förskoleklass - mattepussel addition och subtraktion',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/math-puzzle/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis arbetsblad matematik - matte övningar för lågstadiet',
+      },
+    ],
   },
 
   // Hero Section - FULL text from math-puzzle.md paragraphs 1-4
   hero: {
     title: 'Mattepussel Arbetsblad',
-    subtitle: 'Addition och Subtraktion för Förskoleklass',
+    subtitle: 'Gratis Arbetsblad för Barn - Addition och Subtraktion för Förskoleklass',
     description: `Skapa professionella mattepussel med vår generator för matematik arbetsblad. Din Full Tillgång-prenumeration ger dig obegränsad tillgång till arbetsbladsskapande utan extra avgifter per arbetsblad. Generera anpassade pussel med addition och subtraktion perfekta för förskoleklass och årskurs 1-3. Ladda ner högkvalitativa PDF-filer på under tre minuter.
 
 Vårt verktyg gör det enkelt att skapa engagerande matematik arbetsblad där eleverna löser mattepussel genom att hitta rätt svar. Varje pussel kombinerar siffror och tal med visuella bilder som barnen älskar. Perfekt för lågstadiet där konkret matematikundervisning är viktigast. Dina elever tränar addition och subtraktion medan de har roligt med färgglada pussel.
 
 Förskoleklass material behöver vara både pedagogiskt och engagerande. Våra mattepussel uppfyller båda kraven. Välj rutnätsstorlek från 2×2 upp till 4×4 rutor beroende på elevernas nivå. Varje ruta innehåller en räkneopgave med tillhörande svarsalternativ. Eleverna matchar rätt svar till rätt bild genom att tänka logiskt och räkna noggrant.`,
-    previewImageSrc: '/samples/english/math puzzle/worksheet.jpeg',
+    previewImageSrc: '/samples/swedish/math-puzzle/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Prova Gratis',
       viewSamples: 'Visa Exempel',
@@ -49,9 +81,9 @@ Förskoleklass material behöver vara både pedagogiskt och engagerande. Våra m
     },
   },
 
-  // Sample Gallery - REAL file paths from samples/english/math puzzle/
+  // Sample Gallery - REAL file paths from samples/swedish/math-puzzle/
   samples: {
-    sectionTitle: 'Mattepussel Exempel',
+    sectionTitle: 'Gratis Arbetsblad Mattepussel - Exempel för Barn',
     sectionDescription: 'Ladda ner gratis exempelarbetsblad för att se vår professionella kvalitet',
     downloadLabel: 'Ladda Ner Gratis Exempel',
     worksheetLabel: 'Arbetsblad',
@@ -65,24 +97,45 @@ Förskoleklass material behöver vara både pedagogiskt och engagerande. Våra m
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/math puzzle/worksheet.jpeg',
-        answerKeySrc: '/samples/english/math puzzle/answer_key.jpeg',
-        altText: 'Mattepussel med rutnätsbaserade additionsuppgifter för förskoleklass',
-        pdfDownloadUrl: '/samples/english/math puzzle/worksheet.pdf',
+        worksheetSrc: '/samples/swedish/math-puzzle/sample-1.jpeg',
+        answerKeySrc: '/samples/swedish/math-puzzle/sample-1-answer.jpeg',
+        altText: 'Gratis arbetsblad mattepussel - addition övningar för förskoleklass matematik',
+        pdfDownloadUrl: '/samples/swedish/math-puzzle/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/math puzzle/worksheet (1).jpeg',
-        answerKeySrc: '/samples/english/math puzzle/answer_key (1).jpeg',
-        altText: 'Mattepussel med visuell subtraktionsträning för årskurs 1',
-        pdfDownloadUrl: '/samples/english/math puzzle/worksheet (1).pdf',
+        worksheetSrc: '/samples/swedish/math-puzzle/sample-2.jpeg',
+        answerKeySrc: '/samples/swedish/math-puzzle/sample-2-answer.jpeg',
+        altText: 'Gratis arbetsblad för barn - mattepussel subtraktion för lågstadiet',
+        pdfDownloadUrl: '/samples/swedish/math-puzzle/sample-2.pdf',
+      },
+      {
+        id: '3',
+        worksheetSrc: '/samples/swedish/math-puzzle/sample-3.jpeg',
+        answerKeySrc: '/samples/swedish/math-puzzle/sample-3-answer.jpeg',
+        altText: 'Gratis utskrifter mattepussel - matematik arbetsblad för förskoleklass',
+        pdfDownloadUrl: '/samples/swedish/math-puzzle/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/swedish/math-puzzle/sample-4.jpeg',
+        answerKeySrc: '/samples/swedish/math-puzzle/sample-4-answer.jpeg',
+        altText: 'Arbetsblad för barn - mattepussel addition och subtraktion övningar',
+        pdfDownloadUrl: '/samples/swedish/math-puzzle/sample-4.pdf',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/swedish/math-puzzle/sample-5.jpeg',
+        answerKeySrc: '/samples/swedish/math-puzzle/sample-5-answer.jpeg',
+        altText: 'Arbetsblad för förskoleklass - gratis mattepussel matte övningar',
+        pdfDownloadUrl: '/samples/swedish/math-puzzle/sample-5.pdf',
       },
     ],
   },
 
   // Features Grid - FULL text from math-puzzle.md feature sections
   features: {
-    sectionTitle: 'Mattepussel Funktioner - Allt Du Behöver För Matematik Arbetsblad och Förskoleklass Material',
+    sectionTitle: 'Mattepussel Funktioner - Gratis Arbetsblad för Förskoleklass',
     sectionDescription: 'Vårt verktyg för matematik arbetsblad ger dig professionella funktioner utan krångel. Skapa engagerande mattepussel på tre minuter från start till färdig PDF. Ingen designkunskap krävs. Alla funktioner är byggda för lärare som behöver snabba arbetsblad gratis från dyra tjänster som tar tid. Du fokuserar på undervisning medan verktyget hanterar layouten.',
     highlightBadgeText: 'Nyckelfunktion',
     readMoreLabel: 'Läs mer',
@@ -162,7 +215,7 @@ Högupplöst kvalitet gör skillnad när eleverna ska jobba med arbetsbladet. Sk
 
   // How-To Guide - FULL text from math-puzzle.md step sections
   howTo: {
-    sectionTitle: 'Hur Man Skapar Matematik Arbetsblad På 5 Enkla Steg - Addition och Subtraktion För Förskoleklass',
+    sectionTitle: 'Så Skapar Du Gratis Arbetsblad Mattepussel i 5 Steg',
     sectionDescription: 'Hela processen från början till färdig PDF tar under tre minuter. Inga komplicerade inställningar eller designkunskaper krävs. Följ fem enkla steg så har du professionella mattepussel redo för klassrummet. Systemet guidar dig genom varje val med tydliga alternativ och förhandsvisning. Även första gången du använder verktyget går det snabbt och smidigt.',
     ctaText: 'Börja Skapa Nu',
     badgeText: 'Så Fungerar Det',
@@ -234,7 +287,7 @@ Facit är ovärderligt när du rättar. Öppna facit-PDF:en på datorn eller skr
 
   // Use Cases - FULL text from math-puzzle.md use case sections
   useCases: {
-    sectionTitle: 'Perfekt För Lärare, Föräldrar och Pedagoger - Förskoleklass Material och Arbetsblad Gratis För Varje Behov',
+    sectionTitle: 'Gratis Arbetsblad för Lärare och Föräldrar - Mattepussel för Förskoleklass',
     sectionDescription: 'Mattepussel fungerar i många olika undervisningssituationer. Från förskoleklassens första steg med siffror och tal till årskurs 3:s mer komplexa addition och subtraktion. Från klassrum med 25 elever till hemmaundervisning med ett barn. Från svenska elever till nyanlända som lär sig svenska som andraspråk. Ett verktyg som passar alla som undervisar matematik.',
     badgeText: 'Vem Det Är För',
     readMoreLabel: 'Läs mer',
@@ -317,7 +370,7 @@ Svenska lärare som säljer arbetsblad tjänar typiskt 5000-20000 kronor per må
 
   // FAQ Section - Selected FAQs from math-puzzle.md
   faq: {
-    sectionTitle: 'Vanliga Frågor Om Matematik Arbetsblad och Förskoleklass Material',
+    sectionTitle: 'Vanliga Frågor om Gratis Arbetsblad Mattepussel för Barn',
     sectionDescription: 'Här besvarar vi de vanligaste frågorna om mattepussel och hur verktyget fungerar. Från prenumerationskostnader till tekniska möjligheter. Från användning i klassrummet till försäljning av material.',
     showMoreText: 'Visa fler frågor',
     showLessText: 'Visa färre',
@@ -420,7 +473,7 @@ Svenska lärare som säljer arbetsblad tjänar typiskt 5000-20000 kronor per må
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Kombinera Med Andra Arbetsblad Generatorer',
+    sectionTitle: 'Fler Gratis Arbetsblad Generatorer för Förskoleklass',
     sectionDescription: 'Skapa kompletta lärpaket genom att kombinera mattepussel med dessa kompletterande generatorer.',
     ctaTitle: 'Redo att Skapa Fantastiska Arbetsblad?',
     ctaDescription: 'Gå med tusentals lärare som skapar professionella arbetsblad. Obegränsad generering, kommersiell licens ingår.',

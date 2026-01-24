@@ -2,6 +2,8 @@
  * Locale utilities for mapping website locales to external service locales
  */
 
+import { SUPPORTED_LOCALES } from '@/config/locales';
+
 /**
  * Map website locale to Stripe supported locale
  *
@@ -31,7 +33,7 @@ export function mapToStripeLocale(locale: string): string {
  * Get supported locales for the website
  */
 export function getSupportedLocales(): string[] {
-  return ['en', 'de', 'fr', 'es', 'it', 'pt', 'nl', 'sv', 'da', 'no', 'fi'];
+  return [...SUPPORTED_LOCALES];
 }
 
 /**

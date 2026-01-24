@@ -2,11 +2,12 @@ import { NextRequest, NextResponse } from 'next/server';
 import fs from 'fs/promises';
 import path from 'path';
 import { prisma } from '@/lib/prisma';
+import { SUPPORTED_LOCALES } from '@/config/locales';
 
 export const dynamic = 'force-dynamic';
 
-// Supported locales
-const LOCALES = ['en', 'de', 'fr', 'es', 'pt', 'it', 'nl', 'sv', 'da', 'no', 'fi'];
+// Use centralized locale config
+const LOCALES = SUPPORTED_LOCALES;
 
 // Translations for the Free Sample Worksheets section
 const WORKSHEET_TRANSLATIONS: Record<string, { title: string; subtitle: string; downloadText: string; freeText: string; descriptionText: string }> = {

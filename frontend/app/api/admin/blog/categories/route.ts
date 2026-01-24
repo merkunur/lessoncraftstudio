@@ -199,8 +199,9 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    // Validate translations object has required languages
-    const requiredLanguages = ['en', 'de', 'fr', 'es', 'pt', 'it', 'nl', 'sv', 'da', 'no', 'fi'];
+    // Validate translations object has required languages (use centralized config)
+    const { SUPPORTED_LOCALES } = await import('@/config/locales');
+    const requiredLanguages = [...SUPPORTED_LOCALES];
     const missingLanguages = requiredLanguages.filter(lang => !translations[lang]);
     if (missingLanguages.length > 0) {
       return NextResponse.json(

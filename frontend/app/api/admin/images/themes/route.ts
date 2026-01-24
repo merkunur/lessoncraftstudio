@@ -65,8 +65,9 @@ export async function POST(request: NextRequest) {
     console.log('Theme type:', type);
     console.log('Display names:', displayNames);
 
-    // Validate displayNames has all required languages
-    const requiredLanguages = ['en', 'de', 'fr', 'es', 'it', 'pt', 'nl', 'sv', 'no', 'da', 'fi'];
+    // Validate displayNames has all required languages (use centralized config)
+    const { SUPPORTED_LOCALES } = await import('@/config/locales');
+    const requiredLanguages = [...SUPPORTED_LOCALES];
     const missingLanguages = requiredLanguages.filter(lang => !displayNames[lang]);
     if (missingLanguages.length > 0) {
       console.error('Missing translations for theme:', missingLanguages);

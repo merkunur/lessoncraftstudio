@@ -979,14 +979,24 @@ export async function generateMetadata({ params }: BlogPostPageProps) {
           'max-snippet': -1,
         },
       },
-      // AUTOMATED: Additional meta tags
+      // AUTOMATED: Additional meta tags (E-A-T signals)
       other: {
         'article:author': translation.author || 'LessonCraftStudio',
         'article:published_time': post.createdAt.toISOString(),
         'article:modified_time': post.updatedAt.toISOString(),
         'article:section': post.category || 'Education',
         'article:tag': post.keywords?.join(',') || '',
-      }
+        // E-A-T: Author and publisher link hints for crawlers
+        'author': 'LessonCraftStudio Team',
+        'publisher': 'LessonCraftStudio',
+        'copyright': `© ${new Date().getFullYear()} LessonCraftStudio`,
+      },
+      // AUTOMATED: Authors metadata (E-A-T signals)
+      authors: [
+        { name: translation.author || 'LessonCraftStudio Team', url: `${baseUrl}/${locale}` }
+      ],
+      creator: 'LessonCraftStudio',
+      publisher: 'LessonCraftStudio',
     };
   } catch (error) {
     console.error(`Error generating metadata for blog post ${slug}:`, error);

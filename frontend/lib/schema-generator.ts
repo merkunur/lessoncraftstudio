@@ -1,8 +1,10 @@
 /**
  * SEO Schema Markup Generator
  * Automatically generates JSON-LD structured data for blog posts
- * Supports: Article, Breadcrumb, and LearningResource schemas
+ * Supports: Article, Breadcrumb, LearningResource, and Course schemas
  */
+
+import { SUPPORTED_LOCALES } from '@/config/locales';
 
 /**
  * Get the base URL from environment variable or use production default
@@ -232,7 +234,7 @@ export function generateHomepageSchemas(locale: string, baseUrl: string = getBas
     },
     "description": "Professional worksheet generators for teachers and educators. Create customized educational materials in seconds.",
     "areaServed": "Worldwide",
-    "availableLanguage": ["en", "de", "fr", "es", "pt", "it", "nl", "sv", "da", "no", "fi"],
+    "availableLanguage": [...SUPPORTED_LOCALES],
     "sameAs": []
   };
   schemas.push(organizationSchema);
@@ -989,4 +991,80 @@ export function generateAppProductSchemas(
   schemas.push(webPageSchema);
 
   return schemas;
+}
+
+/**
+ * Generate Course Schema for educational blog content
+ * Use this for blog posts that teach specific educational concepts
+ */
+export function generateCourseSchema(
+  post: {
+    title: string;
+    description: string;
+    slug: string;
+    category?: string;
+    keywords?: string[];
+    createdAt?: Date;
+    updatedAt?: Date;
+  },
+  locale: string,
+  baseUrl: string = getBaseUrl()
+) {
+  const courseUrl = `${baseUrl}/${locale}/blog/${post.slug}`;
+
+  // Map category to educational level
+  const educationalLevelMap: Record<string, string> = {
+    'math': 'Beginner',
+    'literacy': 'Beginner',
+    'preschool': 'Beginner',
+    'kindergarten': 'Beginner',
+    'elementary': 'Intermediate',
+    'worksheets': 'Beginner',
+    'activities': 'Beginner',
+  };
+
+  const educationalLevel = educationalLevelMap[post.category?.toLowerCase() || ''] || 'Beginner';
+
+  return {
+    "@context": "https://schema.org",
+    "@type": "Course",
+    "name": post.title,
+    "description": post.description,
+    "url": courseUrl,
+    "provider": {
+      "@type": "EducationalOrganization",
+      "name": "LessonCraftStudio",
+      "url": baseUrl,
+      "logo": {
+        "@type": "ImageObject",
+        "url": `${baseUrl}/logo-lcs.png`
+      }
+    },
+    "educationalLevel": educationalLevel,
+    "inLanguage": locale,
+    "isAccessibleForFree": true,
+    "courseMode": "online",
+    "teaches": post.keywords?.join(', ') || post.category || 'Educational content',
+    "dateCreated": post.createdAt?.toISOString() || new Date().toISOString(),
+    "dateModified": post.updatedAt?.toISOString() || new Date().toISOString(),
+    "audience": {
+      "@type": "EducationalAudience",
+      "educationalRole": ["teacher", "parent", "student"]
+    },
+    "about": {
+      "@type": "Thing",
+      "name": post.category || "Education"
+    }
+  };
+}
+
+/**
+ * Generate author and publisher link tags for blog posts
+ * Returns HTML link elements for rel="author" and rel="publisher"
+ */
+export function generateAuthorPublisherLinks(baseUrl: string = getBaseUrl()) {
+  return {
+    author: `${baseUrl}/about`,
+    publisher: baseUrl
+  };
 }

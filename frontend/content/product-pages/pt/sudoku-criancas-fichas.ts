@@ -15,8 +15,8 @@ export const sudokuPtContent: ProductPageContent = {
   seo: {
     slug: 'sudoku-criancas-fichas',
     appId: 'sudoku',
-    title: 'Sudoku Visual para Crianças - Atividades Grátis para Imprimir de Matemática e Raciocínio Lógico',
-    description: 'Crie quebra-cabeças de sudoku visual perfeitos para educação infantil e ensino fundamental. O gerador de sudoku infantil do LessonCraft Studio transforma atividades de matemática em diversão. Com sua assinatura Pacote Essencial, você cria atividades para imprimir ilimitadas.',
+    title: 'Sudoku Visual para Crianças - Atividades Grátis para Imprimir de',
+    description: 'Crie quebra-cabeças de sudoku visual perfeitos para educação infantil e ensino fundamental. O gerador de sudoku infantil do LessonCraft Studio transforma.',
     keywords: 'sudoku para crianças, atividades para imprimir, atividades de matemática, educação infantil, raciocínio lógico, 1º ano, 2º ano, coordenação motora, desenhos para colorir, atividades de alfabetização, atividades vogais, letra cursiva, pontilhado, tabuada',
     canonicalUrl: 'https://www.lessoncraftstudio.com/pt/apps/sudoku-criancas-fichas',
     images: [

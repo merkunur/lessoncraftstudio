@@ -17,8 +17,8 @@ export const prepositionsNoContent: ProductPageContent = {
   seo: {
     slug: 'preposisjoner-arbeidsark',
     appId: 'prepositions',
-    title: 'Arbeidsark Gratis for Preposisjoner - Finmotorikk Øvelser og Lesetrening for Barnehage',
-    description: 'Lag profesjonelle preposisjonsarbeidsark med vår arbeidsarkgenerator. Full Access-abonnementet gir deg ubegrenset arbeidsarktilgang uten ekstra kostnader per arbeidsark. Generer tilpassede arbeidsark gratis perfekte for barnehage og småskoletrinnet.',
+    title: 'Arbeidsark Gratis for Preposisjoner - Finmotorikk Øvelser og',
+    description: 'Lag profesjonelle preposisjonsarbeidsark med vår arbeidsarkgenerator. Full Access-abonnementet gir deg ubegrenset arbeidsarktilgang uten ekstra kostnader per.',
     keywords: 'preposisjoner arbeidsark, arbeidsark gratis, finmotorikk øvelser, lesetrening, barnehage, småskoletrinnet, oppgavehefter barn, matematikk oppgaver, fargeleggingsbilder barn, bokstaver lære skrive',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/preposisjoner-arbeidsark',
   },

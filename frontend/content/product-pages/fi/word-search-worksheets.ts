@@ -15,8 +15,8 @@ export const wordSearchFiContent: ProductPageContent = {
   seo: {
     slug: 'sananhaku-tyoarkit',
     appId: 'wordsearch',
-    title: 'Ilmainen Sanapeli Generaattori | Tulostettavat Tehtävät Lapsille Esiopetus ja Alakoulu',
-    description: 'Luo ammattimaisia sanapelitehtäviä ilmaiseksi verkossa. Sanapeli generaattori on täydellinen esiopetuksen ja alakoulun opettajille. Tulostettavat tehtävät lapsille ilmainen versio sisältää vesileiman. Generoi mukautettuja sanapelitehtäviä alle 3 minuutissa.',
+    title: 'Ilmainen Sanapeli Generaattori | Tulostettavat Tehtävät Lapsille',
+    description: 'Luo ammattimaisia sanapelitehtäviä ilmaiseksi verkossa. Sanapeli generaattori on täydellinen esiopetuksen ja alakoulun opettajille. Tulostettavat tehtävät.',
     keywords: 'sanapeli generaattori, tulostettavat tehtävät lapsille ilmainen, esiopetus materiaali ilmainen, matematiikka tehtävät alakoulu, kirjaimet harjoittelu esikoulu, kertotaulut tulostettava, värityskuvia lapsille tulostettava',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fi/apps/sananhaku-tyoarkit',
   },

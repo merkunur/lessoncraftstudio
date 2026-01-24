@@ -18,7 +18,7 @@ export const patternTrainDaContent: ProductPageContent = {
     slug: 'moenstertog-arbejdsark',
     appId: 'pattern-train',
     title: 'Mønstertog Gratis Arbejdsark til Børn - Generator til Børnehaveklasse',
-    description: 'Opret professionelle mønstertog arbejdsark med vores mønstertog generator. Dit Fuld Adgang abonnement giver dig ubegrænset oprettelse af mønstertog arbejdsark uden ekstra gebyrer per opgave. Generer gratis skoleopgaver til print perfekte til børnehaveklasse, 0. klasse og 1. klasse. Download høj-kvalitets PDF opgaver til print på under 3 minutter.',
+    description: 'Opret professionelle mønstertog arbejdsark med vores mønstertog generator. Dit Fuld Adgang abonnement giver dig ubegrænset oprettelse af mønstertog arbejdsark.',
     keywords: 'mønstertog, arbejdsark, matematikopgaver, gratis skoleopgaver til print, finmotorik øvelser, 0. klasse, 1. klasse, børnehaveklasse, mønstergenkendelse, kopiark',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/moenstertog-arbejdsark',
     images: [

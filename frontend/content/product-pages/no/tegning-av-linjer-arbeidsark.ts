@@ -16,7 +16,7 @@ export const drawingLinesNoContent: ProductPageContent = {
     slug: 'tegning-av-linjer-arbeidsark',
     appId: 'drawing-lines',
     title: 'Tegning av Linjer Arbeidsark - Gratis Finmotorikk Øvelser for Barn',
-    description: 'Lag profesjonelle arbeidsark for tegning av linjer med vår tegnelinjer-generator. Din Kjernepakke-abonnement gir deg ubegrenset arbeidsark uten ekstra kostnader per ark. Generer tilpassede arbeidsark for finmotorikk øvelser perfekt for barnehage og 1. trinn. Last ned arbeidsark i høy kvalitet som PDF på under 3 minutter.',
+    description: 'Lag profesjonelle arbeidsark for tegning av linjer med vår tegnelinjer-generator. Din Kjernepakke-abonnement gir deg ubegrenset arbeidsark uten ekstra.',
     keywords: 'tegning av linjer, arbeidsark gratis, finmotorikk øvelser, oppgavehefter barn, bokstaver lære skrive, lesetrening, matematikk oppgaver, fargeleggingsbilder barn, tall og telling, gangetabellen',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/tegning-av-linjer-arbeidsark',
     images: [

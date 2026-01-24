@@ -15,8 +15,8 @@ export const moreLessSvContent: ProductPageContent = {
   seo: {
     slug: 'jamforelse-arbetsblad',
     appId: 'more-less',
-    title: 'Matematik Arbetsblad för Siffror och Tal - Arbetsblad Gratis Jämförelse för Förskoleklass',
-    description: 'Skapa professionella matematik arbetsblad för jämförelse av siffror och tal. Generera anpassade matte övningar med större än, mindre än och lika med symboler. Ladda ner högkvalitativa PDF-arbetsblad på under 3 minuter.',
+    title: 'Matematik Arbetsblad för Siffror och Tal | Gratis Arbetsblad',
+    description: 'Skapa professionella matematik arbetsblad för jämförelse av siffror och tal. Generera anpassade matte övningar med större än, mindre än och lika med symboler.',
     keywords: 'matematik arbetsblad, arbetsblad gratis, jämförelse, större än mindre än, förskoleklass material, matte övningar, siffror och tal, taluppfattning',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/jamforelse-arbetsblad',
     images: [

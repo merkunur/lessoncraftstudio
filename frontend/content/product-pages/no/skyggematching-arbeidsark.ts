@@ -15,8 +15,8 @@ export const shadowMatchNoContent: ProductPageContent = {
   seo: {
     slug: 'skyggematching-arbeidsark',
     appId: 'shadow-match',
-    title: 'Skyggematching Arbeidsark Gratis - Visuell Persepsjon og Romlig Resonnement Oppgavehefter Barn',
-    description: 'Lag profesjonelle skyggematching arbeidsark med vår visuelle persepsjon generator. Full Tilgang-abonnementet ditt gir deg ubegrenset oppretting av arbeidsark uten kostnader per ark. Generer egendefinerte skyggematching oppgaver perfekte for barnehage og småskoletrinnet.',
+    title: 'Skyggematching Arbeidsark Gratis - Visuell Persepsjon og Romlig',
+    description: 'Lag profesjonelle skyggematching arbeidsark med vår visuelle persepsjon generator. Full Tilgang-abonnementet ditt gir deg ubegrenset oppretting av arbeidsark.',
     keywords: 'skyggematching arbeidsark, arbeidsark gratis, visuell persepsjon, romlig resonnement, oppgavehefter barn, finmotorikk øvelser, barnehage, småskoletrinnet, visuell diskriminering, formmatch',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/skyggematching-arbeidsark',
   },

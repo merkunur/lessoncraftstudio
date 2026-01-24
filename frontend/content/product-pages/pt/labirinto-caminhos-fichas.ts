@@ -17,8 +17,8 @@ export const picturePathPtContent: ProductPageContent = {
   seo: {
     slug: 'labirinto-caminhos-fichas',
     appId: 'picture-path',
-    title: 'Labirintos e Caminhos com Imagens - Atividade Grátis para Crianças de Coordenação Motora para Educação Infantil',
-    description: 'Crie labirintos e caminhos personalizados com imagens em minutos. O gerador de Picture Path oferece três modos únicos para educação infantil. Sua assinatura Acesso Completo permite criação ilimitada. Baixe PDFs de alta qualidade em 3 minutos.',
+    title: 'Labirintos e Caminhos com Imagens - Atividade Grátis para Crianças de',
+    description: 'Crie labirintos e caminhos personalizados com imagens em minutos. O gerador de Picture Path oferece três modos únicos para educação infantil.',
     keywords: 'atividade grátis, atividades grátis, imprimíveis grátis, atividade para crianças, atividade para educação infantil, labirintos, coordenação motora, atividades de alfabetização, desenhos para colorir, letra cursiva, pontilhado, tabuada, atividades de matemática, atividades 1º ano, atividades 2º ano',
     canonicalUrl: 'https://www.lessoncraftstudio.com/pt/apps/labirinto-caminhos-fichas',
     images: [

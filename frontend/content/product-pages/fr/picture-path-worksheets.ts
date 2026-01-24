@@ -17,8 +17,8 @@ export const picturePathFrContent: ProductPageContent = {
   seo: {
     slug: 'parcours-images-fiches',
     appId: 'picture-path',
-    title: 'Fiches à Imprimer Gratuit | Générateur de Parcours d\'Images - Fiches Maternelle et Exercices CP',
-    description: 'Créez des parcours d\'images professionnels en quelques clics. Notre générateur transforme vos fiches maternelle en activités ludiques et éducatives. Parfait pour le graphisme maternelle et les exercices CP. Téléchargez en PDF haute résolution en 3 minutes.',
+    title: 'Fiches à Imprimer Gratuit | Générateur de Parcours d\'Images',
+    description: 'Créez des parcours d\'images professionnels en quelques clics. Notre générateur transforme vos fiches maternelle en activités ludiques et éducatives.',
     keywords: 'fiches à imprimer gratuit, fiches maternelle, parcours images, labyrinthe, exercices CP, graphisme maternelle, motricité fine, coloriage à imprimer, exercices maths, apprendre à lire, alphabet, tables de multiplication',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fr/apps/parcours-images-fiches',
     images: [

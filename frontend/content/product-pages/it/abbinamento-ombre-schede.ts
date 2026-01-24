@@ -16,7 +16,7 @@ export const shadowMatchItContent: ProductPageContent = {
     slug: 'abbinamento-ombre-schede',
     appId: 'shadow-match',
     title: 'Schede Gratuite Abbinamento Ombre | Stampabili Scuola Primaria',
-    description: 'Crea schede didattiche di abbinamento ombre e ricostruzioni con il nostro generatore professionale. Perfetto per scuola dell\'infanzia e scuola primaria. Genera schede didattiche personalizzate in PDF di alta qualità in meno di 3 minuti.',
+    description: 'Crea schede didattiche di abbinamento ombre e ricostruzioni con il nostro generatore professionale. Perfetto per scuola dell\'infanzia e scuola primaria.',
     keywords: 'schede didattiche abbinamento, abbinamento ombre, schede scuola primaria, discriminazione visiva, scuola infanzia, schede stampabili, generatore schede, riconoscimento visivo, classe prima, percezione visiva',
     canonicalUrl: 'https://www.lessoncraftstudio.com/it/apps/abbinamento-ombre-schede',
     images: [

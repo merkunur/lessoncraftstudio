@@ -19,8 +19,8 @@ export const sudokuFiContent: ProductPageContent = {
   seo: {
     slug: 'sudoku-tyoarkit',
     appId: 'sudoku',
-    title: 'Lasten Sudoku - Tulostettavat Tehtävät Lapsille Ilmainen | Esiopetus Materiaali',
-    description: 'Luo värikkäitä kuvasudokuja lapsille ammattimaisella tehtävägeneraattorillamme. Peruspaketti-tilauksesi antaa rajattoman mahdollisuuden luoda tulostettavia tehtäviä lapsille. Sudoku-tehtävät sopivat täydellisesti esiopetukseen ja alakoulun 1-3 luokille.',
+    title: 'Lasten Sudoku - Tulostettavat Tehtävät Lapsille Ilmainen',
+    description: 'Luo värikkäitä kuvasudokuja lapsille ammattimaisella tehtävägeneraattorillamme. Peruspaketti-tilauksesi antaa rajattoman mahdollisuuden luoda tulostettavia.',
     keywords: 'lasten sudoku, tulostettavat tehtävät lapsille ilmainen, esiopetus materiaali ilmainen, kuvasudoku, sudoku lapsille, logiikkatehtävät lapsille',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fi/apps/sudoku-tyoarkit',
   },

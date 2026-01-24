@@ -16,7 +16,7 @@ export const findAndCountFrContent: ProductPageContent = {
   seo: {
     slug: 'cherche-et-compte-fiches',
     appId: 'find-and-count',
-    title: 'Fiches Cherche et Compte à Imprimer Gratuit | Générateur de Fiches Maternelle et Exercices CP',
+    title: 'Fiches Cherche et Compte à Imprimer Gratuit | Fiches Gratuites',
     description: 'Créez des fiches cherche et compte personnalisées avec 3000+ images. Générateur maternelle CP gratuit en PDF 300 DPI. Parfait pour enseignants et parents.',
     keywords: 'fiches cherche et compte, fiches maternelle, fiches à imprimer gratuit, exercices CP, exercices CE1, graphisme maternelle, coloriage à imprimer, apprendre à compter, dénombrement, générateur fiches',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fr/apps/cherche-et-compte-fiches',

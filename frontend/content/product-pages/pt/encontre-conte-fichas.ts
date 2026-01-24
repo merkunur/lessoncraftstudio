@@ -15,8 +15,8 @@ export const findAndCountPtContent: ProductPageContent = {
   seo: {
     slug: 'encontre-conte-fichas',
     appId: 'find-and-count',
-    title: 'Encontre e Conte - Atividade Grátis para Educação Infantil | Gerador de Fichas',
-    description: 'Crie fichas de encontre e conte profissionais com nosso gerador de atividades grátis para imprimir. Com sua assinatura Pacote Essencial, você gera atividades ilimitadas sem taxas por ficha. Produza atividades grátis para crianças personalizadas com objetos escondidos em menos de 3 minutos.',
+    title: 'Encontre e Conte - Atividade Grátis para Educação Infantil',
+    description: 'Crie fichas de encontre e conte profissionais com nosso gerador de atividades grátis para imprimir. Com sua assinatura Pacote Essencial, você gera atividades.',
     keywords: 'encontre e conte, atividade grátis, atividades grátis, atividade para crianças, atividade para educação infantil, imprimíveis grátis, atividades para imprimir, atividades de matemática, educação infantil, objetos escondidos, coordenação motora, contagem visual',
     canonicalUrl: 'https://www.lessoncraftstudio.com/pt/apps/encontre-conte-fichas',
     images: [

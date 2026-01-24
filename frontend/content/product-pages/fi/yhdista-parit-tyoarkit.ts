@@ -15,8 +15,8 @@ export const matchingFiContent: ProductPageContent = {
   seo: {
     slug: 'yhdista-parit-tyoarkit',
     appId: 'matching',
-    title: 'Yhdistä Parit Tehtävät Generaattori | Tulostettavat Tehtävät Lapsille Ilmainen Esiopetus',
-    description: 'Luo ammattitasoisia yhdistä parit -tehtävämonisteet MatchUp Maker -työkalulla. Peruspaketti-tilauksellasi saat rajattoman määrän tehtävämonisteiden luomista ilman lisämaksuja per tehtävä. Tulostettavat tehtävät lapsille ilmainen esiopetukseen ja alakouluun.',
+    title: 'Yhdistä Parit Tehtävät Generaattori | Tulostettavat Tehtävät Lapsille',
+    description: 'Luo ammattitasoisia yhdistä parit -tehtävämonisteet MatchUp Maker -työkalulla. Peruspaketti-tilauksellasi saat rajattoman määrän tehtävämonisteiden luomista.',
     keywords: 'yhdistä parit tehtävät, tulostettavat tehtävät lapsille ilmainen, esiopetus materiaali ilmainen, kirjaimet harjoittelu esikoulu, lukemaan oppiminen tehtävät, hienomotoriikka harjoitukset',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fi/apps/yhdista-parit-tyoarkit',
   },

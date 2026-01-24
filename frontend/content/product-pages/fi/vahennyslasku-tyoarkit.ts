@@ -17,8 +17,8 @@ export const subtractionFiContent: ProductPageContent = {
   seo: {
     slug: 'vahennyslasku-tyoarkit',
     appId: 'subtraction',
-    title: 'Vähennyslasku Tehtävät Alakoulu | Tulostettavat Tehtävät Lapsille Ilmainen | Matematiikka Tehtävät',
-    description: 'Luo ammattitason vähennyslasku tehtäviä kuva-aineiston avulla. Täysi Käyttöoikeus -tilauksesi mahdollistaa rajattoman tehtävien luomisen ilman yksittäisiä maksuja per tehtävä. Generoi tulostettavia vähennyslasku tehtäviä alakoulun ja esiopetuksen oppilaille.',
+    title: 'Vähennyslasku Tehtävät Alakoulu | Tulostettavat Tehtävät Lapsille',
+    description: 'Luo ammattitason vähennyslasku tehtäviä kuva-aineiston avulla. Täysi Käyttöoikeus -tilauksesi mahdollistaa rajattoman tehtävien luomisen ilman yksittäisiä.',
     keywords: 'vähennyslasku tehtävät, matematiikka tehtävät alakoulu, esiopetus materiaali ilmainen, tulostettavat tehtävät lapsille ilmainen, yhteenlasku ja vähennyslasku tehtävät, hienomotoriikka harjoitukset',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fi/apps/vahennyslasku-tyoarkit',
   },

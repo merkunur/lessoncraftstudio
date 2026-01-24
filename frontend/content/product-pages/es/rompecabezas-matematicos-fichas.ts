@@ -16,7 +16,7 @@ export const mathPuzzleEsContent: ProductPageContent = {
     slug: 'rompecabezas-matematicos-fichas',
     appId: 'math-puzzle',
     title: 'Fichas de Matemáticas para Imprimir - Rompecabezas Matemáticos Gratis',
-    description: 'Crea fichas de matemáticas profesionales con rompecabezas divertidos que combinan práctica numérica con imágenes atractivas. Genera ejercicios matemáticos personalizados perfectos para educación infantil, preescolar y primaria. Descarga fichas gratis en PDF de alta calidad.',
+    description: 'Crea fichas de matemáticas profesionales con rompecabezas divertidos que combinan práctica numérica con imágenes atractivas. Genera ejercicios matemáticos.',
     keywords: 'fichas de matemáticas, rompecabezas matemáticos, fichas para imprimir, ejercicios matemáticas, material educativo gratis, fichas infantil, fichas preescolar, aprender los números, grafomotricidad, tablas de multiplicar, fichas gratis, dibujos para colorear, abecedario, lectoescritura',
     canonicalUrl: 'https://www.lessoncraftstudio.com/es/apps/rompecabezas-matematicos-fichas',
     images: [

@@ -38,8 +38,8 @@ export const drawingLinesNlContent: ProductPageContent = {
   seo: {
     slug: 'lijnen-trekken-werkbladen',
     appId: 'drawing-lines',
-    title: 'Gratis Werkblad Lijnen Trekken Generator - Oefenbladen Gratis voor Fijne Motoriek en Schrijven Oefenen',
-    description: 'Maak professionele lijnen trekken werkbladen met onze gebruiksvriendelijke generator. Met je Basispakket abonnement creëer je onbeperkt werkbladen kleuters en werkbladen groep 3 zonder extra kosten per werkblad. Elk werkblad helpt kinderen bij fijne motoriek en schrijven oefenen.',
+    title: 'Gratis Werkblad Lijnen Trekken Generator | Gratis Werkbladen',
+    description: 'Maak professionele lijnen trekken werkbladen met onze gebruiksvriendelijke generator. Met je Basispakket abonnement creëer je onbeperkt werkbladen kleuters en.',
     keywords: 'lijnen trekken werkbladen, werkbladen groep 3, werkbladen kleuters, oefenbladen gratis, fijne motoriek, schrijven oefenen, letters leren, veilig leren lezen, rekenen werkbladen, tafels oefenen, gratis werkblad, gratis werkbladen, werkblad voor kinderen, werkblad voor kleuters',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/lijnen-trekken-werkbladen',
     images: [

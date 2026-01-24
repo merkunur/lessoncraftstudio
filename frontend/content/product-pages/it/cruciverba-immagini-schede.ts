@@ -15,8 +15,8 @@ export const crosswordItContent: ProductPageContent = {
   seo: {
     slug: 'cruciverba-immagini-schede',
     appId: 'crossword',
-    title: 'Cruciverba con Immagini Scheda Gratuita - Schede Didattiche Scuola Primaria - Pregrafismo e Lettere dell\'Alfabeto',
-    description: 'Crea cruciverba con immagini per la scuola dell\'infanzia e la scuola primaria. Il nostro generatore di cruciverba trasforma le tue schede didattiche in attività coinvolgenti. Genera schede didattiche scuola primaria personalizzate perfette per italiano classe prima e pregrafismo. Schede gratuite per bambini stampabili.',
+    title: 'Cruciverba con Immagini Scheda Gratuita - Schede Didattiche Scuola',
+    description: 'Crea cruciverba con immagini per la scuola dell\'infanzia e la scuola primaria. Il nostro generatore di cruciverba trasforma le tue schede didattiche in.',
     keywords: 'cruciverba con immagini, schede didattiche scuola primaria, pregrafismo, lettere dell\'alfabeto, schede italiano classe prima, generatore cruciverba, schede didattiche scuola infanzia, schede stampabili, cruciverba bambini, attività didattiche, scheda gratuita, schede gratuite, scheda per bambini, stampabili gratuiti',
     canonicalUrl: 'https://www.lessoncraftstudio.com/it/apps/cruciverba-immagini-schede',
     images: [

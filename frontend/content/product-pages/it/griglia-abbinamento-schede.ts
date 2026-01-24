@@ -22,8 +22,8 @@ export const gridMatchItContent: ProductPageContent = {
   seo: {
     slug: 'griglia-abbinamento-schede',
     appId: 'grid-match',
-    title: 'Schede Gratuite Griglia Abbinamento | Scheda Gratuita per Bambini Scuola Primaria',
-    description: 'Crea schede gratuite griglia abbinamento con il nostro generatore. Stampabili gratuiti personalizzabili perfetti per scuola dell\'infanzia e scuola primaria. Scarica scheda gratuita per bambini in PDF in 3 minuti!',
+    title: 'Schede Gratuite Griglia Abbinamento | Scheda Gratuita per Bambini',
+    description: 'Crea schede gratuite griglia abbinamento con il nostro generatore. Stampabili gratuiti personalizzabili perfetti per scuola dell\'infanzia e scuola primaria.',
     keywords: 'schede gratuite griglia abbinamento, scheda gratuita per bambini, stampabili gratuiti, scheda per bambini, scheda per scuola dell\'infanzia, puzzle griglia, schede stampabili, generatore schede, abbinamento immagini, classe prima, pregrafismo',
     canonicalUrl: 'https://www.lessoncraftstudio.com/it/apps/griglia-abbinamento-schede',
     images: [

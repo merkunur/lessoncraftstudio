@@ -18,8 +18,8 @@ export const missingPiecesFrContent: ProductPageContent = {
   seo: {
     slug: 'pieces-manquantes-fiches',
     appId: 'missing-pieces',
-    title: 'Fiches à Imprimer Gratuit - Fiches Maternelle - Générateur d\'Exercices Pièces Manquantes',
-    description: 'Créez des fiches d\'exercices de pièces manquantes professionnelles en quelques clics. Notre générateur transforme n\'importe quelle image en puzzle éducatif. Les élèves identifient les morceaux manquants et choisissent la bonne pièce parmi plusieurs options. Un outil idéal pour développer l\'observation visuelle et la discrimination.',
+    title: 'Fiches à Imprimer Gratuit - Fiches Maternelle - Générateur',
+    description: 'Créez des fiches d\'exercices de pièces manquantes professionnelles en quelques clics. Notre générateur transforme n\'importe quelle image en puzzle éducatif.',
     keywords: 'fiches à imprimer gratuit, fiches maternelle, exercices CP, pièces manquantes, puzzles éducatifs, discrimination visuelle, exercices CE1, observation visuelle, graphisme maternelle, exercices maths, apprendre à lire, tables de multiplication, écriture cursive, alphabet, coloriage',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fr/apps/pieces-manquantes-fiches',
     images: [

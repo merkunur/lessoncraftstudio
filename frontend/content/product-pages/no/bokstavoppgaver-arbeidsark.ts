@@ -16,7 +16,7 @@ export const wordScrambleNoContent: ProductPageContent = {
     slug: 'bokstavoppgaver-arbeidsark',
     appId: 'word-scramble',
     title: 'Gratis Arbeidsark Bokstavoppgaver - Lesetrening Generator for Barn',
-    description: 'Lag gratis arbeidsark med bokstavoppgaver for barn. Generer tilpassede oppgavehefter for lesetrening på under 3 minutter. Last ned PDF nå!',
+    description: 'Lag gratis arbeidsark med bokstavoppgaver for barn. Generer tilpassede oppgavehefter for lesetrening på under 3 minutter. Last ned PDF nå! Perfekt for lærere og foreldre.',
     keywords: 'bokstavoppgaver, gratis arbeidsark, lesetrening, bokstaver lære skrive, oppgavehefter barn, matematikk oppgaver, finmotorikk øvelser, tall og telling, fargeleggingsbilder barn, leseforståelse',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/bokstavoppgaver-arbeidsark',
     images: [

@@ -18,7 +18,7 @@ export const gridMatchFrContent: ProductPageContent = {
     slug: 'puzzle-grille-fiches',
     appId: 'grid-match',
     title: 'Puzzle Grille Fiches Gratuites | Générateur Maternelle CP',
-    description: 'Créez des fiches puzzle grille gratuites avec notre générateur. PDF haute qualité en 3 minutes. Parfait pour maternelle et CP. Essayez maintenant !',
+    description: 'Créez des fiches puzzle grille gratuites avec notre générateur. PDF haute qualité en 3 minutes. Parfait pour maternelle et CP. Essayez maintenant ! Parfait pour enseignants et parents.',
     keywords: 'fiches maternelle, exercices CP, graphisme maternelle, coloriage à imprimer, apprendre à lire, exercices maths, alphabet, tables de multiplication, fiches à imprimer gratuit, écriture cursive',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fr/apps/puzzle-grille-fiches',
     images: [

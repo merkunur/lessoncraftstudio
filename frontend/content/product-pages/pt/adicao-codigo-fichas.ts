@@ -17,7 +17,7 @@ export const codeAdditionPtContent: ProductPageContent = {
     slug: 'adicao-codigo-fichas',
     appId: 'code-addition',
     title: 'Codigo de Imagens - Atividade Gratis para Educacao Infantil e Criancas',
-    description: 'Crie atividades de matemática exclusivas com nosso gerador de código de imagens. Sua assinatura Acesso Completo oferece criação ilimitada de atividades para imprimir sem custo adicional por atividade. Gere atividades educação infantil personalizadas perfeitas para alunos da pré-escola e 1º ano.',
+    description: 'Crie atividades de matemática exclusivas com nosso gerador de código de imagens. Sua assinatura Acesso Completo oferece criação ilimitada de atividades para.',
     keywords: 'atividades de matemática, atividades para imprimir, atividades educação infantil, exercícios de soma, 1º ano, 2º ano, coordenação motora, tabuada, desenhos para colorir, atividades de alfabetização, atividades vogais, letra cursiva, pontilhado',
     canonicalUrl: 'https://www.lessoncraftstudio.com/pt/apps/adicao-codigo-fichas',
     images: [

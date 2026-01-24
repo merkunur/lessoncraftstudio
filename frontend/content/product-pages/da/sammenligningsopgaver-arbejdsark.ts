@@ -18,7 +18,7 @@ export const moreLessDaContent: ProductPageContent = {
     slug: 'sammenligningsopgaver-arbejdsark',
     appId: 'more-less',
     title: 'Sammenligningsopgaver - Gratis Arbejdsark til Børn i Børnehaveklasse',
-    description: 'Lav professionelle sammenligningsopgaver med vores matematikværktøj. Generer tilpassede arbejdsark med større end, mindre end og ligemed-symboler perfekt til børnehaveklassen, 0. klasse og 1. klasse. Download højkvalitets PDF-opgaver til print på under 3 minutter.',
+    description: 'Lav professionelle sammenligningsopgaver med vores matematikværktøj. Generer tilpassede arbejdsark med større end, mindre end og ligemed-symboler perfekt til.',
     keywords: 'sammenligningsopgaver, matematikopgaver, større end mindre end, 0. klasse opgaver, 1. klasse, arbejdsark til print, gratis skoleopgaver, børnehaveklassen, talforståelse, matematik',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/sammenligningsopgaver-arbejdsark',
     images: [

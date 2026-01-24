@@ -15,7 +15,7 @@ export const drawingLinesEnContent: ProductPageContent = {
   seo: {
     slug: 'drawing-lines-worksheets',
     appId: 'drawing-lines',
-    title: 'Free Drawing Lines Worksheets | Kindergarten Fine Motor Skills Generator',
+    title: 'Free Drawing Lines Worksheets | Kindergarten Fine Motor Skills',
     description: 'Create free printable drawing lines worksheets for kindergarten fine motor skills. Generate matching worksheets with 8 templates. Download PDF instantly.',
     keywords: 'drawing lines worksheets, free drawing lines worksheets, fine motor skills worksheets, matching worksheets kindergarten, drawing lines for kids, kindergarten worksheets free printable, line drawing worksheets, pencil control worksheets, free worksheets for kids, first grade worksheets',
     canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/drawing-lines-worksheets',

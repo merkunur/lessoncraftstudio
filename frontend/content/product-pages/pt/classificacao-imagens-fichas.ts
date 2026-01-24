@@ -17,8 +17,8 @@ export const pictureSortPtContent: ProductPageContent = {
   seo: {
     slug: 'classificacao-imagens-fichas',
     appId: 'picture-sort',
-    title: 'Atividades de Classificação para Imprimir - Atividade Grátis para Crianças de Educação Infantil',
-    description: 'Crie atividades de classificação profissionais em minutos. Nosso gerador de fichas de classificação faz parte da assinatura Acesso Completo do LessonCraft Studio. Professores de educação infantil e ensino fundamental usam esta ferramenta diariamente. Produza atividades para imprimir com qualidade profissional de 300 DPI.',
+    title: 'Atividades de Classificação para Imprimir | Planilhas Grátis',
+    description: 'Crie atividades de classificação profissionais em minutos. Nosso gerador de fichas de classificação faz parte da assinatura Acesso Completo do LessonCraft.',
     keywords: 'atividade grátis, atividades grátis, imprimíveis grátis, atividade para crianças, atividade para educação infantil, atividades de classificação, atividades para imprimir, atividades educação infantil, atividades 1º ano, atividades 2º ano, coordenação motora, classificação de imagens, atividades de matemática, desenhos para colorir, letra cursiva, pontilhado, atividades de alfabetização',
     canonicalUrl: 'https://www.lessoncraftstudio.com/pt/apps/classificacao-imagens-fichas',
     images: [

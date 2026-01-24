@@ -15,8 +15,8 @@ export const pictureBingoFiContent: ProductPageContent = {
   seo: {
     slug: 'kuva-bingo-tyoarkit',
     appId: 'bingo',
-    title: 'Tulostettavat Bingo-Tehtävät | Esiopetus Materiaali Ilmainen - Kuva-Bingo Generaattori',
-    description: 'Luo ammattimaisia bingo-pelejä lasten kuva-bingogeneraattorilla. Peruspaketti-tilauksesi antaa rajattoman bingo-pelien luomisen ilman ylimääräisiä maksuja per peli. Tulosta tulostettavat tehtävät lapsille ilmainen-tyylisiä bingo-kortteja esiopetukseen ja alakouluun.',
+    title: 'Tulostettavat Bingo-Tehtävät | Esiopetus Materiaali Ilmainen',
+    description: 'Luo ammattimaisia bingo-pelejä lasten kuva-bingogeneraattorilla. Peruspaketti-tilauksesi antaa rajattoman bingo-pelien luomisen ilman ylimääräisiä maksuja per.',
     keywords: 'tulostettavat tehtävät lapsille ilmainen, esiopetus materiaali ilmainen, hienomotoriikka harjoitukset, kuva-bingo, bingo-kortit, bingo-peli lapsille',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fi/apps/kuva-bingo-tyoarkit',
   },

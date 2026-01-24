@@ -15,8 +15,8 @@ export const writingItContent: ProductPageContent = {
   seo: {
     slug: 'scrittura-schede',
     appId: 'writing',
-    title: 'Schede Gratuite Scrittura | Generatore Schede per Bambini | Stampabili Gratuiti Pregrafismo',
-    description: 'Crea schede gratuite scrittura e pregrafismo per bambini. Stampabili gratuiti per scuola dell\'infanzia. Scarica scheda gratuita PDF in 3 minuti. Schede didattiche scuola primaria con lettere dell\'alfabeto e numeri da stampare.',
+    title: 'Schede Gratuite Scrittura | Generatore Schede per Bambini |',
+    description: 'Crea schede gratuite scrittura e pregrafismo per bambini. Stampabili gratuiti per scuola dell\'infanzia. Scarica scheda gratuita PDF in 3 minuti.',
     keywords: 'schede gratuite scrittura, scheda gratuita per bambini, stampabili gratuiti, scheda per scuola dell\'infanzia, schede didattiche pregrafismo, schede didattiche scuola primaria, schede italiano classe prima, lettere dell\'alfabeto, numeri da stampare, pregrafismo scuola infanzia',
     canonicalUrl: 'https://www.lessoncraftstudio.com/it/apps/scrittura-schede',
     images: [

@@ -18,7 +18,7 @@ export const mathWorksheetsFrContent: ProductPageContent = {
     slug: 'exercices-maths-fiches',
     appId: 'math-worksheet',
     title: 'Exercices Maths à Imprimer - Générateur Fiches Maternelle CP CE1',
-    description: 'Créez des exercices maths avec notre générateur de fiches maternelle. Fiches à imprimer gratuit pour CP et CE1. Puzzles de décodage visuels. PDF 300 DPI. Licence commerciale incluse.',
+    description: 'Créez des exercices maths avec notre générateur de fiches maternelle. Fiches à imprimer gratuit pour CP et CE1. Puzzles de décodage visuels. PDF 300 DPI.',
     keywords: 'exercices maths, fiches maternelle, fiches à imprimer gratuit, exercices CP, exercices CE1, générateur fiches maths, puzzles mathématiques, calcul maternelle, graphisme maternelle, tables de multiplication, coloriage à imprimer, écriture cursive, apprendre à lire, alphabet maternelle',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fr/apps/exercices-maths-fiches',
     images: [

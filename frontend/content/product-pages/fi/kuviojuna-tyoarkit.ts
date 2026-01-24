@@ -17,8 +17,8 @@ export const patternTrainFiContent: ProductPageContent = {
   seo: {
     slug: 'kuviojuna-tyoarkit',
     appId: 'pattern-train',
-    title: 'Kuviojuna Tehtävät - Tulostettavat Tehtävät Lapsille Ilmainen - Matematiikka Tehtävät Alakoulu',
-    description: 'Luo ammattimaisia kuviojuna tehtävämonisteet kuviontunnistusjärjestelmällämme. Täysi Pääsy -tilauksesi antaa sinulle rajattoman tehtävien luomisen ilman tehtäväkohtaisia maksuja. Lataa korkealaatuisia PDF-tehtävämonisteitä alle kolmessa minuutissa.',
+    title: 'Kuviojuna Tehtävät - Tulostettavat Tehtävät Lapsille Ilmainen -',
+    description: 'Luo ammattimaisia kuviojuna tehtävämonisteet kuviontunnistusjärjestelmällämme. Täysi Pääsy -tilauksesi antaa sinulle rajattoman tehtävien luomisen ilman.',
     keywords: 'kuviojuna tehtävät, tulostettavat tehtävät lapsille ilmainen, matematiikka tehtävät alakoulu, esiopetus materiaali ilmainen, kuviontunnistus, kuvioharjoitukset lapsille',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fi/apps/kuviojuna-tyoarkit',
   },

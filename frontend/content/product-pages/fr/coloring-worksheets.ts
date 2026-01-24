@@ -16,7 +16,7 @@ export const coloringFrContent: ProductPageContent = {
     slug: 'coloriage-fiches',
     appId: 'coloring',
     title: 'Coloriage à Imprimer Gratuit | Générateur de Fiches Maternelle et CP',
-    description: 'Créez des coloriages personnalisés avec 3000+ images. Générateur de fiches maternelle gratuit en PDF 300 DPI. Parfait pour enseignants et parents.',
+    description: 'Créez des coloriages personnalisés avec 3000+ images. Générateur de fiches maternelle gratuit en PDF 300 DPI. Parfait pour enseignants et parents. Parfait pour enseignants et parents.',
     keywords: 'coloriage à imprimer, fiches maternelle, graphisme maternelle, fiches à imprimer gratuit, exercices CP, exercices CE1, coloriage enfant, générateur coloriage, coloriage maternelle, pages de coloriage',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fr/apps/coloriage-fiches',
     images: [

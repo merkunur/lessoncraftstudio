@@ -15,8 +15,8 @@ export const shadowMatchEsContent: ProductPageContent = {
   seo: {
     slug: 'asociacion-sombras-fichas',
     appId: 'shadow-match',
-    title: 'Fichas para Imprimir de Asociación de Sombras - Generador de Fichas Gratis de Percepción Visual para Educación Infantil y Preescolar',
-    description: 'Crea fichas profesionales de asociación de sombras con nuestro generador de fichas educativas. Genera fichas gratis personalizadas perfectas para estudiantes de educación infantil y preescolar. Descarga fichas de alta calidad en PDF en menos de 3 minutos.',
+    title: 'Fichas para Imprimir de Asociación de Sombras | Fichas Gratis',
+    description: 'Crea fichas profesionales de asociación de sombras con nuestro generador de fichas educativas. Genera fichas gratis personalizadas perfectas para estudiantes.',
     keywords: 'fichas para imprimir, asociación de sombras, fichas preescolar, fichas infantil, percepción visual, material educativo gratis, fichas de matemáticas, lectoescritura, abecedario, grafomotricidad, dibujos para colorear, tablas de multiplicar, fichas gratis',
     canonicalUrl: 'https://www.lessoncraftstudio.com/es/apps/asociacion-sombras-fichas',
     images: [

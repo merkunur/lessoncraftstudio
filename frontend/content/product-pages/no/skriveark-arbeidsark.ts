@@ -15,8 +15,8 @@ export const writingNoContent: ProductPageContent = {
   seo: {
     slug: 'skriveark-arbeidsark',
     appId: 'writing',
-    title: 'Skriveark Generator – Bokstaver Lære Skrive – Arbeidsark Gratis for Barn',
-    description: 'Lag profesjonelle skriveark for håndskriftstrening med vår skriveark generator. Full Tilgang-abonnementet gir deg ubegrenset tilgang til å lage tilpassede arbeidsark gratis for utskrift. Generer skriveark for bokstaver lære skrive perfekt for barnehage og småskoletrinnet.',
+    title: 'Skriveark Generator – Bokstaver Lære Skrive – Arbeidsark Gratis for',
+    description: 'Lag profesjonelle skriveark for håndskriftstrening med vår skriveark generator. Full Tilgang-abonnementet gir deg ubegrenset tilgang til å lage tilpassede.',
     keywords: 'skriveark, skriveark generator, bokstaver lære skrive, finmotorikk øvelser, håndskriftstrening, arbeidsark gratis, oppgavehefter barn, tall og telling, gangetabellen, addisjon og subtraksjon, fargeleggingsbilder barn, lesetrening',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/skriveark-arbeidsark',
   },

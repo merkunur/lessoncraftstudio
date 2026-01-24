@@ -15,8 +15,8 @@ export const findAndCountNoContent: ProductPageContent = {
   seo: {
     slug: 'finn-og-tell-arbeidsark',
     appId: 'find-and-count',
-    title: 'Finn og Tell Arbeidsark - Arbeidsark Gratis å Skrive Ut - Tall og Telling Oppgavehefter Barn',
-    description: 'Lag profesjonelle finn og tell arbeidsark med vårt enkle verktøy. Generer tilpassede finn og tell arbeidsark perfekte for tall og telling øvelser på småskoletrinnet. Last ned høykvalitets PDF-filer på under 3 minutter.',
+    title: 'Finn og Tell Arbeidsark - Arbeidsark Gratis å Skrive Ut - Tall og',
+    description: 'Lag profesjonelle finn og tell arbeidsark med vårt enkle verktøy. Generer tilpassede finn og tell arbeidsark perfekte for tall og telling øvelser på.',
     keywords: 'finn og tell arbeidsark, tall og telling, oppgavehefter barn, arbeidsark gratis, matematikk oppgaver, addisjon og subtraksjon, finmotorikk øvelser, småskoletrinnet, fargeleggingsbilder barn, gangetabellen',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/finn-og-tell-arbeidsark',
     images: [

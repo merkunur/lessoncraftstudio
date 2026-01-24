@@ -17,8 +17,8 @@ export const prepositionsEsContent: ProductPageContent = {
   seo: {
     slug: 'preposiciones-fichas',
     appId: 'prepositions',
-    title: 'Fichas de Preposiciones para Imprimir - Generador de Fichas Infantil - Material Educativo Gratis',
-    description: 'Crea fichas de preposiciones profesionales con nuestro generador de fichas para imprimir. Genera fichas infantil personalizadas perfectas para preescolar y primaria. Descarga fichas para imprimir de alta calidad en PDF en menos de 3 minutos.',
+    title: 'Fichas de Preposiciones para Imprimir - Generador de Fichas Infantil',
+    description: 'Crea fichas de preposiciones profesionales con nuestro generador de fichas para imprimir. Genera fichas infantil personalizadas perfectas para preescolar y.',
     keywords: 'fichas para imprimir, fichas de preposiciones, fichas infantil, material educativo gratis, fichas preescolar, fichas gratis, grafomotricidad, lectoescritura, abecedario, números, tablas de multiplicar, dibujos para colorear, ejercicios matemáticas',
     canonicalUrl: 'https://www.lessoncraftstudio.com/es/apps/preposiciones-fichas',
     images: [

@@ -17,8 +17,8 @@ export const pictureSortFiContent: ProductPageContent = {
   seo: {
     slug: 'kuvalajittelu-tyoarkit',
     appId: 'picture-sort',
-    title: 'Tulostettavat Tehtävät Lapsille Ilmainen - Kuvalajittelu ja Hienomotoriikka Harjoitukset Esikouluun',
-    description: 'Luo ammattimaisia kuvalajittelutehtäviä helposti. Täysi Käyttöoikeus -tilaus antaa rajattoman tehtävien luonnin ilman tehtäväkohtaisia maksuja. Lataa tulostettavat PDF-tehtävät alle 3 minuutissa.',
+    title: 'Tulostettavat Tehtävät Lapsille Ilmainen | Ilmaiset Tehtävät',
+    description: 'Luo ammattimaisia kuvalajittelutehtäviä helposti. Täysi Käyttöoikeus -tilaus antaa rajattoman tehtävien luonnin ilman tehtäväkohtaisia maksuja.',
     keywords: 'tulostettavat tehtävät lapsille ilmainen, kuvalajittelu tehtävät, esiopetus materiaali ilmainen, hienomotoriikka harjoitukset, lajittelutehtävät, kategorisointi tehtävät',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fi/apps/kuvalajittelu-tyoarkit',
   },

@@ -22,8 +22,8 @@ export const mathWorksheetsItContent: ProductPageContent = {
   seo: {
     slug: 'matematica-schede',
     appId: 'math-worksheet',
-    title: 'Schede Matematica Schede Gratuite | Generatore Stampabili Gratuiti Scuola Primaria',
-    description: 'Crea schede matematica professionali con il nostro generatore schede didattiche. Genera schede didattiche scuola primaria personalizzate con immagini per scuola dell\'infanzia e classe prima. Scarica schede didattiche PDF in meno di 3 minuti.',
+    title: 'Schede Matematica Schede Gratuite | Generatore Stampabili Gratuiti',
+    description: 'Crea schede matematica professionali con il nostro generatore schede didattiche. Genera schede didattiche scuola primaria personalizzate con immagini per.',
     keywords: 'schede matematica, generatore schede didattiche, schede didattiche scuola primaria, schede stampabili, numeri da stampare, pregrafismo, tabelline, disegni da colorare, schede italiano classe prima, alfabeto',
     canonicalUrl: 'https://www.lessoncraftstudio.com/it/apps/matematica-schede',
     images: [

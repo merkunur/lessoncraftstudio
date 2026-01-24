@@ -16,7 +16,7 @@ export const pictureSortEnContent: ProductPageContent = {
     slug: 'picture-sort-worksheets',
     appId: 'picture-sort',
     title: 'Free Sorting Worksheets Printable | Picture Sort Generator for Kids',
-    description: 'Create sorting worksheets for kindergarten and first grade. Free printable classification activities with answer keys. Download PDF in 3 minutes.',
+    description: 'Create sorting worksheets for kindergarten and first grade. Free printable classification activities with answer keys. Download PDF in 3 minutes. Perfect for teachers and parents.',
     keywords: 'sorting worksheets, picture sort, classification worksheets, free worksheet, free worksheets, free printables, worksheet for kids, worksheet for kindergarten, kindergarten worksheets, first grade worksheets',
     canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/picture-sort-worksheets',
     images: [

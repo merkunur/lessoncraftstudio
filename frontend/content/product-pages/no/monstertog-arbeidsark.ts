@@ -17,8 +17,8 @@ export const patternTrainNoContent: ProductPageContent = {
   seo: {
     slug: 'monstertog-arbeidsark',
     appId: 'pattern-train',
-    title: 'Mønstergenkjenning Arbeidsark Gratis - Matematikk Oppgaver for Småskoletrinnet med Togtemplate',
-    description: 'Lag profesjonelle mønstergenkjenningsarbeidsark med vår mønstergenerator. Full Tilgang-abonnementet gir deg ubegrenset opprettelse av arbeidsark. Generer tilpassede mønsterøvelser perfekt for barneskole og småskoletrinnet. Last ned høykvalitets PDF-arbeidsark på under 3 minutter.',
+    title: 'Mønstergenkjenning Arbeidsark Gratis - Matematikk Oppgaver for',
+    description: 'Lag profesjonelle mønstergenkjenningsarbeidsark med vår mønstergenerator. Full Tilgang-abonnementet gir deg ubegrenset opprettelse av arbeidsark.',
     keywords: 'mønstergenkjenning, mønsterarbeidsark, arbeidsark gratis, matematikk oppgaver, oppgavehefter barn, småskoletrinnet, finmotorikk øvelser, tall og telling, togtemplate, arbeidsark for nedlasting',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/monstertog-arbeidsark',
   },

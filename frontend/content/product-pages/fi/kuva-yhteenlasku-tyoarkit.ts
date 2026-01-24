@@ -15,8 +15,8 @@ export const codeAdditionFiContent: ProductPageContent = {
   seo: {
     slug: 'kuva-yhteenlasku-tyoarkit',
     appId: 'code-addition',
-    title: 'Kuvapohjainen Yhteenlasku Tehtävämoniste | Tulostettavat Tehtävät Lapsille Ilmainen Matematiikka Alakoulu',
-    description: 'Luo visuaalisia yhteenlaskutehtäviä käyttäen kuvia yli 3000 kuvan kirjastosta. Kuvapohjainen yhteenlaskugeneraattori tekee matematiikan oppimisesta konkreettista esiopetukseen ja alakouluun. Täysi Pääsy -tilauksesi antaa sinulle rajattoman pääsyn.',
+    title: 'Kuvapohjainen Yhteenlasku Tehtävämoniste | Ilmaiset Tehtävät',
+    description: 'Luo visuaalisia yhteenlaskutehtäviä käyttäen kuvia yli 3000 kuvan kirjastosta. Kuvapohjainen yhteenlaskugeneraattori tekee matematiikan oppimisesta.',
     keywords: 'kuvapohjainen yhteenlasku, yhteenlasku ja vähennyslasku tehtävät, matematiikka tehtävät alakoulu, esiopetus materiaali ilmainen, tulostettavat tehtävät lapsille ilmainen, hienomotoriikka harjoitukset',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fi/apps/kuva-yhteenlasku-tyoarkit',
   },

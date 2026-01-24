@@ -16,7 +16,7 @@ export const wordGuessNoContent: ProductPageContent = {
     slug: 'gjetteoppgaver-arbeidsark',
     appId: 'word-guess',
     title: 'Gjetteoppgaver med Bildehintkryss – Arbeidsark Gratis for Barneskolen',
-    description: 'Lag gjetteoppgaver med bildehintkryss for elevene dine på få minutter. Verktøyet vårt gir deg mulighet til å lage arbeidsark gratis til bruk i klasserommet. Perfekt for lesetrening og leseforståelse i barneskolen.',
+    description: 'Lag gjetteoppgaver med bildehintkryss for elevene dine på få minutter. Verktøyet vårt gir deg mulighet til å lage arbeidsark gratis til bruk i klasserommet.',
     keywords: 'gjetteoppgaver, bildehintkryss, arbeidsark gratis, lesetrening, leseforståelse, bokstaver lære skrive, matematikk oppgaver, oppgavehefter barn, finmotorikk øvelser, fargeleggingsbilder barn, tall og telling, gangetabellen',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/gjetteoppgaver-arbeidsark',
   },

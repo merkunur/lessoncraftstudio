@@ -27,7 +27,7 @@ export const patternTrainNlContent: ProductPageContent = {
   seo: {
     slug: 'patroontrein-werkbladen',
     appId: 'pattern-train',
-    title: 'Gratis Werkblad Patroontrein Maken - Werkblad voor Kinderen Groep 1 2 3',
+    title: 'Gratis Werkblad Patroontrein Maken - Werkblad voor Kinderen Groep 1 2',
     description: 'Maak gratis werkbladen patroontrein voor kinderen en kleuters. Werkblad voor groep 1 2 3 met patroonherkenning. Download gratis printables in 3 minuten.',
     keywords: 'patroontrein, werkbladen groep 3, werkbladen kleuters, oefenbladen gratis, fijne motoriek, rekenen werkbladen, patroonherkenning, groep 1 2, letters leren, veilig leren lezen, gratis werkblad, gratis werkbladen, gratis printables, werkblad voor kinderen, werkblad voor kleuters',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/patroontrein-werkbladen',

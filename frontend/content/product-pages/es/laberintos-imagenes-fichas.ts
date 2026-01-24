@@ -16,7 +16,7 @@ export const picturePathEsContent: ProductPageContent = {
     slug: 'laberintos-imagenes-fichas',
     appId: 'picture-path',
     title: 'Fichas de Laberintos Gratis para Imprimir | Generador Profesional',
-    description: 'Crea laberintos educativos con nuestro generador de caminos visuales. Genera fichas para imprimir personalizadas perfectas para educación infantil. Descarga actividades de grafomotricidad en PDF de alta calidad en menos de 3 minutos.',
+    description: 'Crea laberintos educativos con nuestro generador de caminos visuales. Genera fichas para imprimir personalizadas perfectas para educación infantil.',
     keywords: 'fichas para imprimir, laberintos, fichas preescolar, fichas infantil, camino visual, material educativo gratis, fichas de matemáticas, lectoescritura, abecedario, grafomotricidad, dibujos para colorear, tablas de multiplicar, fichas gratis',
     canonicalUrl: 'https://www.lessoncraftstudio.com/es/apps/laberintos-imagenes-fichas',
     images: [

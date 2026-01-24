@@ -27,8 +27,8 @@ export const writingNlContent: ProductPageContent = {
   seo: {
     slug: 'schrijfoefeningen-werkbladen',
     appId: 'writing',
-    title: 'Schrijfoefeningen Gratis Werkblad Generator - Gratis Werkbladen voor Kinderen - Letters Leren Werkblad voor Kleuters',
-    description: 'Maak professionele schrijfoefeningen voor letters leren met onze schrijfwerkbladen generator. Uw Volledige Toegang abonnement geeft u onbeperkte toegang tot het maken van werkbladen zonder kosten per werkblad. Creëer gepersonaliseerde oefenbladen gratis voor groep 1 2 en groep 3.',
+    title: 'Schrijfoefeningen Gratis Werkblad Generator | Gratis Werkbladen',
+    description: 'Maak professionele schrijfoefeningen voor letters leren met onze schrijfwerkbladen generator. Uw Volledige Toegang abonnement geeft u onbeperkte toegang tot.',
     keywords: 'schrijven oefenen, letters leren, werkbladen kleuters, werkbladen groep 3, oefenbladen gratis, fijne motoriek, veilig leren lezen, rekenen werkbladen, tafels oefenen, sommen tot 20, gratis werkblad, gratis werkbladen, gratis printables, werkblad voor kinderen, werkblad voor kleuters',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/schrijfoefeningen-werkbladen',
     images: [

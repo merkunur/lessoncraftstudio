@@ -35,8 +35,8 @@ export const findObjectsNlContent: ProductPageContent = {
   seo: {
     slug: 'zoek-voorwerpen-werkbladen',
     appId: 'find-objects',
-    title: 'Zoek Voorwerpen Werkbladen - Gratis Werkblad voor Kinderen Groep 1 2 en 3',
-    description: 'Maak professionele zoekwerkbladen met onze gebruiksvriendelijke generator. Jouw Volledige Toegang abonnement geeft je onbeperkte toegang tot werkbladen voor kleuters en groep 3 leerlingen. Download printklare oefenbladen gratis van extra kosten per werkblad.',
+    title: 'Zoek Voorwerpen Werkbladen - Gratis Werkblad voor Kinderen Groep 1 2',
+    description: 'Maak professionele zoekwerkbladen met onze gebruiksvriendelijke generator. Jouw Volledige Toegang abonnement geeft je onbeperkte toegang tot werkbladen voor.',
     keywords: 'zoek voorwerpen werkbladen, werkbladen groep 3, werkbladen kleuters, oefenbladen gratis, fijne motoriek, visuele discriminatie, veilig leren lezen, letters leren, rekenen werkbladen, I Spy werkbladen',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/zoek-voorwerpen-werkbladen',
     images: [

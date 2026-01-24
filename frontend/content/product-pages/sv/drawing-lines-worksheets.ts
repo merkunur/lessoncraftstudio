@@ -16,7 +16,7 @@ export const drawingLinesSvContent: ProductPageContent = {
     slug: 'rita-linjer-arbetsblad',
     appId: 'drawing-lines',
     title: 'Gratis Arbetsblad Rita Linjer | Finmotorik Övningar för Förskoleklass',
-    description: 'Skapa professionella arbetsblad där barn ritar linjer mellan matchande bilder. Generera anpassade finmotorik övningar perfekta för förskoleklass och årskurs 1-3. Ladda ner högkvalitativa PDF-arbetsblad på under 3 minuter.',
+    description: 'Skapa professionella arbetsblad där barn ritar linjer mellan matchande bilder. Generera anpassade finmotorik övningar perfekta för förskoleklass och årskurs.',
     keywords: 'finmotorik övningar, rita linjer arbetsblad, arbetsblad gratis, förskoleklass material, penngrepp övningar, hand-öga-koordination, finmotorik förskola, linjeövningar barn',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/rita-linjer-arbetsblad',
     images: [

@@ -27,8 +27,8 @@ export const mathWorksheetsNlContent: ProductPageContent = {
   seo: {
     slug: 'rekenen-werkbladen',
     appId: 'math-worksheet',
-    title: 'Gratis Werkblad Rekenen Generator - Gratis Werkbladen voor Kinderen en Kleuters',
-    description: 'Maak een gratis werkblad voor kinderen met onze gebruiksvriendelijke generator. Met je Basispakket abonnement krijg je onbeperkte toegang tot alle functies. Genereer zoveel werkbladen groep 3 als je nodig hebt. Download direct als PDF of JPEG in hoge kwaliteit.',
+    title: 'Gratis Werkblad Rekenen Generator - Gratis Werkbladen voor Kinderen',
+    description: 'Maak een gratis werkblad voor kinderen met onze gebruiksvriendelijke generator. Met je Basispakket abonnement krijg je onbeperkte toegang tot alle functies.',
     keywords: 'rekenen werkbladen, werkbladen groep 3, werkbladen kleuters, sommen tot 20, oefenbladen gratis, tafels oefenen, veilig leren lezen, fijne motoriek, letters leren, kleurplaten',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/rekenen-werkbladen',
     images: [

@@ -15,8 +15,8 @@ export const pictureBingoFrContent: ProductPageContent = {
   seo: {
     slug: 'bingo-images-fiches',
     appId: 'bingo',
-    title: 'Générateur de Cartes Bingo Illustrées | Fiches Maternelle à Imprimer Gratuit et Exercices CP CE1',
-    description: 'Créez des cartes bingo professionnelles avec notre générateur de fiches à imprimer gratuit. Votre abonnement Pack Essentiel vous offre une création illimitée de fiches maternelle sans frais supplémentaires par fiche. Téléchargez vos fiches de qualité professionnelle en PDF ou JPEG en moins de 3 minutes.',
+    title: 'Générateur de Cartes Bingo Illustrées | Fiches Maternelle à Imprimer',
+    description: 'Créez des cartes bingo professionnelles avec notre générateur de fiches à imprimer gratuit. Votre abonnement Pack Essentiel vous offre une création illimitée.',
     keywords: 'bingo images, cartes bingo, fiches maternelle, fiches à imprimer gratuit, exercices CP, exercices CE1, graphisme maternelle, jeux éducatifs, bingo alphabet, bingo maths, apprendre à lire',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fr/apps/bingo-images-fiches',
     images: [

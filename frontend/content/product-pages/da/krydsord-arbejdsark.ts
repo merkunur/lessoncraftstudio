@@ -16,7 +16,7 @@ export const crosswordDaContent: ProductPageContent = {
     slug: 'krydsord-arbejdsark',
     appId: 'crossword',
     title: 'Krydsord Generator - Gratis Arbejdsark til Børn og Børnehaveklasse',
-    description: 'Lav professionelle krydsord opgaver til print med billeder som visuelle ledetråde. Perfekt til lære bogstaver, læse og skrive øvelser, og stavning i børnehaveklasse, 1. klasse, 2. klasse og 3. klasse.',
+    description: 'Lav professionelle krydsord opgaver til print med billeder som visuelle ledetråde. Perfekt til lære bogstaver, læse og skrive øvelser, og stavning i.',
     keywords: 'krydsord arbejdsark, gratis arbejdsark, gratis arbejdsark til børn, arbejdsark til børn, arbejdsark til børnehaveklasse, gratis printables, krydsord generator, printklare opgaver, dansk skoleopgaver',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/krydsord-arbejdsark',
     images: [

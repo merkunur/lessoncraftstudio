@@ -20,8 +20,8 @@ export const prepositionsFiContent: ProductPageContent = {
   seo: {
     slug: 'prepositio-tyoarkit',
     appId: 'prepositions',
-    title: 'Prepositioharjoitukset - Tulostettavat Tehtävät Lapsille Ilmainen | Esiopetus Materiaali',
-    description: 'Luo ammattimaisia prepositioharjoituksia alakoululaisille ja esikoululaisille. Täysi Käyttöoikeus -tilauksesi antaa rajattoman mahdollisuuden luoda tulostettavia tehtäviä lapsille. Prepositioharjoitukset sopivat täydellisesti esiopetukseen ja alakoulun 1-3 luokille.',
+    title: 'Prepositioharjoitukset - Tulostettavat Tehtävät Lapsille Ilmainen',
+    description: 'Luo ammattimaisia prepositioharjoituksia alakoululaisille ja esikoululaisille. Täysi Käyttöoikeus -tilauksesi antaa rajattoman mahdollisuuden luoda.',
     keywords: 'prepositioharjoitukset, tulostettavat tehtävät lapsille ilmainen, esiopetus materiaali ilmainen, sijaintisanat, prepositiot lapsille, kielioppi tehtävät',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fi/apps/prepositio-tyoarkit',
   },

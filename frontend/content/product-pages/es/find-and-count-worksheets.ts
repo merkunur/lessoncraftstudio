@@ -15,8 +15,8 @@ export const findAndCountEsContent: ProductPageContent = {
   seo: {
     slug: 'buscar-contar-fichas',
     appId: 'find-and-count',
-    title: 'Fichas para Imprimir Veo Veo | Material Educativo Gratis para Encontrar y Contar Objetos',
-    description: 'Crea fichas para imprimir de buscar y contar objetos con nuestro generador profesional. Perfecto para maestros de educación infantil y preescolar. Genera fichas gratis ilimitadas en PDF de alta calidad en menos de 3 minutos.',
+    title: 'Fichas para Imprimir Veo Veo | Material Educativo Gratis para',
+    description: 'Crea fichas para imprimir de buscar y contar objetos con nuestro generador profesional. Perfecto para maestros de educación infantil y preescolar.',
     keywords: 'fichas para imprimir, veo veo, buscar y contar, fichas preescolar, fichas infantil, fichas gratis, material educativo gratis, grafomotricidad, números, ejercicios matemáticas',
     canonicalUrl: 'https://www.lessoncraftstudio.com/es/apps/buscar-contar-fichas',
     images: [

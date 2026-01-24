@@ -17,8 +17,8 @@ export const cryptogramPtContent: ProductPageContent = {
   seo: {
     slug: 'criptograma-imagens-fichas',
     appId: 'cryptogram',
-    title: 'Criptograma com Imagens - Atividade Grátis para Educação Infantil e Crianças',
-    description: 'Crie atividades de criptograma com imagens profissionais em poucos minutos. Com sua assinatura Acesso Completo, você tem acesso ilimitado ao gerador de criptogramas sem taxas por atividade. Baixe em PDF de alta qualidade 300 DPI em menos de 3 minutos.',
+    title: 'Criptograma com Imagens - Atividade Grátis para Educação Infantil e',
+    description: 'Crie atividades de criptograma com imagens profissionais em poucos minutos. Com sua assinatura Acesso Completo, você tem acesso ilimitado ao gerador de.',
     keywords: 'criptograma, atividades para imprimir, atividades de alfabetização, atividades educação infantil, atividades de matemática, desenhos para colorir, coordenação motora, atividades vogais, tabuada, letra cursiva, pontilhado, atividades 1º ano, atividades 2º ano',
     canonicalUrl: 'https://www.lessoncraftstudio.com/pt/apps/criptograma-imagens-fichas',
     images: [

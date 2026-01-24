@@ -27,8 +27,8 @@ export const wordScrambleNlContent: ProductPageContent = {
   seo: {
     slug: 'woordkruisel-werkbladen',
     appId: 'word-scramble',
-    title: 'Woordkruisel Generator - Gratis Werkblad voor Kinderen met Werkbladen Groep 3',
-    description: 'Maak in enkele klikken professionele woordkruisels voor je leerlingen. Deze woordkruisel generator is perfect voor leerkrachten in het basisonderwijs. Met je Basispakket abonnement ontwerp je onbeperkt werkbladen groep 3 die kinderen uitdagen en vermaken.',
+    title: 'Woordkruisel Generator - Gratis Werkblad voor Kinderen met Werkbladen',
+    description: 'Maak in enkele klikken professionele woordkruisels voor je leerlingen. Deze woordkruisel generator is perfect voor leerkrachten in het basisonderwijs.',
     keywords: 'woordkruisel generator, werkbladen groep 3, werkbladen kleuters, oefenbladen gratis, fijne motoriek, letters leren, schrijven oefenen, rekenen werkbladen, veilig leren lezen, sommen tot 20, tafels oefenen',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/woordkruisel-werkbladen',
     images: [

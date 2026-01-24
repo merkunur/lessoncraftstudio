@@ -27,8 +27,8 @@ export const missingPiecesDeContent: ProductPageContent = {
   seo: {
     slug: 'fehlende-puzzleteile-arbeitsblaetter',
     appId: 'missing-pieces',
-    title: 'Fehlende Puzzleteile Generator - Kostenlose Arbeitsblätter Grundschule - Vorschule Arbeitsblätter zum Ausdrucken',
-    description: 'Erstellen Sie professionelle Puzzle-Arbeitsblätter mit unserem Generator für fehlende Puzzleteile. Perfekt für Arbeitsblätter Grundschule, Vorschule Arbeitsblätter und Mathe Arbeitsblätter. Generieren Sie visuelle Wahrnehmungs-Aktivitäten. Laden Sie druckfertige PDF-Dateien in unter 3 Minuten herunter.',
+    title: 'Fehlende Puzzleteile Generator - Kostenlose Arbeitsblätter',
+    description: 'Erstellen Sie professionelle Puzzle-Arbeitsblätter mit unserem Generator für fehlende Puzzleteile. Perfekt für Arbeitsblätter Grundschule, Vorschule.',
     keywords: 'fehlende puzzleteile arbeitsblätter, arbeitsblätter grundschule, kostenlose arbeitsblätter, vorschule arbeitsblätter, mathe arbeitsblätter, visuelle wahrnehmung, puzzle arbeitsblätter, schwungübungen, ausmalbilder, buchstaben lernen',
     canonicalUrl: 'https://www.lessoncraftstudio.com/de/apps/fehlende-puzzleteile-arbeitsblaetter',
     images: [

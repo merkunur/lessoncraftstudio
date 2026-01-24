@@ -29,8 +29,8 @@ export const wordGuessNlContent: ProductPageContent = {
   seo: {
     slug: 'woordraadsel-werkbladen',
     appId: 'word-guess',
-    title: 'Woordraadsel Werkbladen - Gratis Werkblad voor Kinderen | Werkblad voor Kleuters',
-    description: 'Maak professionele woordraadsel werkbladen met onze werkbladen generator. Uw Volledige Toegang abonnement geeft u onbeperkte toegang tot werkbladen maken zonder kosten per werkblad. Genereer aangepaste werkbladen kleuters en werkbladen groep 3 perfect voor letters leren en schrijven oefenen. Download hoogwaardige PDF werkbladen in minder dan 3 minuten.',
+    title: 'Woordraadsel Werkbladen - Gratis Werkblad voor Kinderen',
+    description: 'Maak professionele woordraadsel werkbladen met onze werkbladen generator. Uw Volledige Toegang abonnement geeft u onbeperkte toegang tot werkbladen maken.',
     keywords: 'woordraadsel werkbladen, werkbladen groep 3, werkbladen kleuters, oefenbladen gratis, letters leren, schrijven oefenen, veilig leren lezen, fijne motoriek, groep 1 2',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/woordraadsel-werkbladen',
     images: [

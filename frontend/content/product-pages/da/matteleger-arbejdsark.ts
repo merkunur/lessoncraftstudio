@@ -16,7 +16,7 @@ export const mathPuzzleDaContent: ProductPageContent = {
     slug: 'matteleger-arbejdsark',
     appId: 'math-puzzle',
     title: 'Matteleger - Gratis Arbejdsark Generator til Børn og Børnehaveklasse',
-    description: 'Lav professionelle matematikopgaver med symbolbaserede matteleger på få minutter. Generer gratis arbejdsark til børn med facitark. Perfekt til børnehaveklasse, 0. klasse, 1. klasse og 2. klasse.',
+    description: 'Lav professionelle matematikopgaver med symbolbaserede matteleger på få minutter. Generer gratis arbejdsark til børn med facitark. Perfekt til børnehaveklasse.',
     keywords: 'gratis arbejdsark, gratis arbejdsark til børn, arbejdsark til børn, arbejdsark til børnehaveklasse, matematikopgaver, matteleger, opgaver til print, gratis skoleopgaver, 1 klasse opgaver, 2 klasse matematikopgaver',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/matteleger-arbejdsark',
     images: [

@@ -17,8 +17,8 @@ export const subtractionEsContent: ProductPageContent = {
   seo: {
     slug: 'resta-fichas',
     appId: 'subtraction',
-    title: 'Fichas de Restas para Imprimir | Generador de Ejercicios Matemáticas para Educación Infantil y Primaria',
-    description: 'Crea fichas de restas profesionales con imágenes usando nuestro generador de ejercicios matemáticas. Genera fichas para imprimir personalizadas perfectas para preescolar y primaria. Descarga material educativo gratis en PDF de alta calidad en menos de 3 minutos.',
+    title: 'Fichas de Restas para Imprimir | Generador de Ejercicios Matemáticas',
+    description: 'Crea fichas de restas profesionales con imágenes usando nuestro generador de ejercicios matemáticas. Genera fichas para imprimir personalizadas perfectas para.',
     keywords: 'fichas de restas, fichas para imprimir, ejercicios matemáticas, fichas de matemáticas, fichas infantil, fichas preescolar, grafomotricidad, lectoescritura, aprender los números, tablas de multiplicar, dibujos para colorear, fichas gratis, material educativo gratis',
     canonicalUrl: 'https://www.lessoncraftstudio.com/es/apps/resta-fichas',
     images: [

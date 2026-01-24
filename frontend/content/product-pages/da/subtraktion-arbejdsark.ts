@@ -18,8 +18,8 @@ export const subtractionDaContent: ProductPageContent = {
   seo: {
     slug: 'subtraktion-arbejdsark',
     appId: 'subtraction',
-    title: 'Matematikopgaver Minus-Stykker Generator – Gratis Opgaver til Print til 0. Klasse og 1. Klasse Arbejdsark',
-    description: 'Skab professionelle minus-stykker og matematikopgaver med vores avancerede arbejdsark generator. Perfekt til danske lærere og pædagoger der har brug for gratis skoleopgaver til børnehaveklasse, 0. klasse, 1. klasse og 2. klasse.',
+    title: 'Matematikopgaver Minus-Stykker Generator – Gratis Opgaver til Print',
+    description: 'Skab professionelle minus-stykker og matematikopgaver med vores avancerede arbejdsark generator. Perfekt til danske lærere og pædagoger der har brug for gratis.',
     keywords: 'minus-stykker, matematikopgaver, subtraktion, gratis skoleopgaver, arbejdsark til print, 0. klasse opgaver, 1. klasse, regning, børnehaveklassen, kopiark, finmotorik øvelser',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/subtraktion-arbejdsark',
     images: [

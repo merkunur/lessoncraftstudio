@@ -17,8 +17,8 @@ export const skattejaktNoContent: ProductPageContent = {
   seo: {
     slug: 'skattejakt-arbeidsark',
     appId: 'treasure-hunt',
-    title: 'Skattejakt-Generator - Arbeidsark Gratis for Barn - Lesetrening og Finmotorikk Øvelser',
-    description: 'Lag profesjonelle skattejakter med vår skattejakt generator. Full Tilgang-abonnementet gir deg vannmerkefrie arbeidsark gratis og kommersiell lisens. Last ned høykvalitets PDF-oppgavehefter barn på under 3 minutter. Generer ubegrenset antall skattejakter uten kostnad per arbeidsark.',
+    title: 'Skattejakt-Generator - Arbeidsark Gratis for Barn - Lesetrening og',
+    description: 'Lag profesjonelle skattejakter med vår skattejakt generator. Full Tilgang-abonnementet gir deg vannmerkefrie arbeidsark gratis og kommersiell lisens.',
     keywords: 'skattejakt, arbeidsark gratis, oppgavehefter barn, lesetrening, finmotorikk øvelser, matematikk oppgaver, tall og telling, gangetabellen, fargeleggingsbilder barn, bokstaver lære skrive, addisjon og subtraksjon',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/skattejakt-arbeidsark',
   },

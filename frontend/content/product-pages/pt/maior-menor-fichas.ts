@@ -17,8 +17,8 @@ export const moreLessPtContent: ProductPageContent = {
   seo: {
     slug: 'maior-menor-fichas',
     appId: 'more-less',
-    title: 'Atividade Grátis de Maior e Menor - Atividade para Educação Infantil | Gerador de Atividades',
-    description: 'Crie atividades grátis de maior e menor profissionais em poucos minutos com nosso gerador de atividades para imprimir. Atividade grátis para crianças com sua assinatura Acesso Completo. Baixe imprimíveis grátis de alta qualidade prontas para comparação de quantidades.',
+    title: 'Atividade Grátis de Maior e Menor - Atividade para Educação Infantil',
+    description: 'Crie atividades grátis de maior e menor profissionais em poucos minutos com nosso gerador de atividades para imprimir. Atividade grátis para crianças com sua.',
     keywords: 'atividade grátis, atividade grátis para crianças, atividades grátis, imprimíveis grátis, atividade para crianças, atividade para educação infantil, atividade, maior e menor, atividades para imprimir, atividades educação infantil, coordenação motora, comparação de quantidades',
     canonicalUrl: 'https://www.lessoncraftstudio.com/pt/apps/maior-menor-fichas',
     images: [

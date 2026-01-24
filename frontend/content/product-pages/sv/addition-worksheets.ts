@@ -15,8 +15,8 @@ export const additionSvContent: ProductPageContent = {
   seo: {
     slug: 'addition-arbetsblad',
     appId: 'addition',
-    title: 'Arbetsblad Gratis - Addition och Subtraktion Generator | Matematik Arbetsblad för Förskoleklass',
-    description: 'Skapa professionella additionsarbetsblad med vår bildbaserade matematik arbetsblad generator. Generera skräddarsydda utskrivbara matte övningar perfekta för förskoleklass och lågstadiet. Ladda ner högkvalitativa PDF-arbetsblad på under 3 minuter.',
+    title: 'Arbetsblad Gratis - Addition och Subtraktion Generator',
+    description: 'Skapa professionella additionsarbetsblad med vår bildbaserade matematik arbetsblad generator. Generera skräddarsydda utskrivbara matte övningar perfekta för.',
     keywords: 'arbetsblad gratis, addition och subtraktion, matematik arbetsblad, förskoleklass material, matte övningar, siffror och tal, additionsarbetsblad, multiplikationstabellen, klockan lära sig, bokstäver lära sig, skriva bokstäver, målarbilder barn, finmotorik övningar',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/addition-arbetsblad',
     images: [

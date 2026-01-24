@@ -15,8 +15,8 @@ export const drawingLinesFiContent: ProductPageContent = {
   seo: {
     slug: 'viivojen-piirtaminen-tyoarkit',
     appId: 'drawing-lines',
-    title: 'Viivojen Piirtäminen Tehtävät | Tulostettavat Tehtävät Lapsille Ilmainen - Hienomotoriikka Harjoitukset Esikoulu',
-    description: 'Luo ammattitasoisia viivojen piirtäminen tehtäviä. Tulostettavat tehtävät lapsille ilmainen tyyli kehittää hienomotorisia taitoja. Esiopetus materiaali ilmainen. 8 erilaista mallia. Peruspaketti-tilauksella rajattomasti.',
+    title: 'Viivojen Piirtäminen Tehtävät | Tulostettavat Tehtävät Lapsille',
+    description: 'Luo ammattitasoisia viivojen piirtäminen tehtäviä. Tulostettavat tehtävät lapsille ilmainen tyyli kehittää hienomotorisia taitoja. Esiopetus materiaali.',
     keywords: 'viivojen piirtäminen tehtävät, tulostettavat tehtävät lapsille ilmainen, hienomotoriikka harjoitukset, esiopetus materiaali ilmainen, kirjaimet harjoittelu esikoulu, lukemaan oppiminen tehtävät',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fi/apps/viivojen-piirtaminen-tyoarkit',
   },

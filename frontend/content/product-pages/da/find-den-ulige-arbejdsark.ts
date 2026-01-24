@@ -17,7 +17,7 @@ export const oddOneOutDaContent: ProductPageContent = {
   seo: {
     slug: 'find-den-ulige-arbejdsark',
     appId: 'odd-one-out',
-    title: 'Find Den Ulige - Gratis Arbejdsark Generator til Børn og Børnehaveklasse',
+    title: 'Find Den Ulige - Gratis Arbejdsark Generator til Børn og',
     description: 'Skab gratis arbejdsark til børn med Find Den Ulige generatoren. Visuelle opgaver til børnehaveklasse og 0. klasse. Download PDF i 300 DPI på 3 minutter.',
     keywords: 'find den ulige, gratis skoleopgaver, opgaver til print, 0. klasse, 1. klasse, børnehaveklassen, visuel diskrimination, kognitiv udvikling, arbejdsark, finmotorik øvelser',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/find-den-ulige-arbejdsark',

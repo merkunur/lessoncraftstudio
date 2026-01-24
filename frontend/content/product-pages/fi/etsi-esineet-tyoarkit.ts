@@ -17,8 +17,8 @@ export const findObjectsFiContent: ProductPageContent = {
   seo: {
     slug: 'etsi-esineet-tyoarkit',
     appId: 'find-objects',
-    title: 'Tulostettavat Tehtävät Lapsille Ilmainen - Etsi Kätketyt Esineet Esiopetus Materiaali Ilmainen',
-    description: 'Luo ammattimaisia etsintätehtäviä Find Objects -työkalumallamme. Täysi Pääsy -tilauksesi antaa sinulle rajoittamattoman tehtävien luomisen ilman maksua tehtävää kohden. Generoi mukautettuja tulostettavia tehtäviä lapsille, jotka sopivat täydellisesti esiopetukseen ja alakoulun oppilaille.',
+    title: 'Tulostettavat Tehtävät Lapsille Ilmainen | Ilmaiset Tehtävät',
+    description: 'Luo ammattimaisia etsintätehtäviä Find Objects -työkalumallamme. Täysi Pääsy -tilauksesi antaa sinulle rajoittamattoman tehtävien luomisen ilman maksua.',
     keywords: 'tulostettavat tehtävät lapsille ilmainen, etsi kätketyt esineet, esiopetus materiaali ilmainen, hienomotoriikka harjoitukset, visuaalinen havainnointi, matematiikka tehtävät alakoulu',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fi/apps/etsi-esineet-tyoarkit',
   },

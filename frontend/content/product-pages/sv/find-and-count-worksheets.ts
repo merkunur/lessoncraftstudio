@@ -15,8 +15,8 @@ export const findAndCountSvContent: ProductPageContent = {
   seo: {
     slug: 'hitta-och-rakna-arbetsblad',
     appId: 'find-and-count',
-    title: 'Arbetsblad Gratis - Hitta och Räkna Arbetsblad | Matematik Arbetsblad för Förskoleklass',
-    description: 'Skapa professionella hitta-och-räkna arbetsblad med vår enkla generator. Generera anpassade matematik arbetsblad för förskoleklass och årskurs 1-3. Ladda ner högkvalitativa PDF-arbetsblad på under 3 minuter.',
+    title: 'Arbetsblad Gratis - Hitta och Räkna Arbetsblad | Gratis Arbetsblad',
+    description: 'Skapa professionella hitta-och-räkna arbetsblad med vår enkla generator. Generera anpassade matematik arbetsblad för förskoleklass och årskurs 1-3.',
     keywords: 'arbetsblad gratis, hitta och räkna, matematik arbetsblad, förskoleklass material, matte övningar, siffror och tal, räkneövningar, finmotorik övningar, multiplikationstabellen, klockan lära sig, bokstäver lära sig, målarbilder barn',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/hitta-och-rakna-arbetsblad',
     images: [

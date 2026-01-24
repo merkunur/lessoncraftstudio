@@ -15,7 +15,7 @@ export const findObjectsSvContent: ProductPageContent = {
   seo: {
     slug: 'hitta-foremal-arbetsblad',
     appId: 'find-objects',
-    title: 'Gratis Arbetsblad Hitta Föremål | Finmotorik Övningar för Förskoleklass',
+    title: 'Gratis Arbetsblad Hitta Föremål | Finmotorik Övningar för',
     description: 'Skapa gratis arbetsblad för barn med hitta föremål-aktiviteter. Perfekta finmotorik övningar för förskoleklass. Ladda ner professionella 300 DPI PDF-arbetsblad.',
     keywords: 'hitta föremål arbetsblad, arbetsblad gratis, förskoleklass material, finmotorik övningar, i spy arbetsblad, odd one out, visuell perception, matematik arbetsblad, bokstäver lära sig, siffror och tal',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/hitta-foremal-arbetsblad',

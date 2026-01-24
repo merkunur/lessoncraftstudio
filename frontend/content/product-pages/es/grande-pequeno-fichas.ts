@@ -17,8 +17,8 @@ export const bigSmallEsContent: ProductPageContent = {
   seo: {
     slug: 'grande-pequeno-fichas',
     appId: 'big-small',
-    title: 'Fichas de Grande y Pequeño para Imprimir - Generador de Fichas Infantil y Preescolar',
-    description: 'Crea fichas de comparación de tamaños profesionales con nuestro generador de fichas infantil. Tu suscripción a Acceso Completo te da acceso ilimitado a la creación de fichas sin costos adicionales por ficha. Descarga fichas gratis en formato PDF de alta calidad en menos de 3 minutos.',
+    title: 'Fichas de Grande y Pequeño para Imprimir | Fichas Gratis',
+    description: 'Crea fichas de comparación de tamaños profesionales con nuestro generador de fichas infantil. Tu suscripción a Acceso Completo te da acceso ilimitado a la.',
     keywords: 'fichas grande pequeño, fichas para imprimir, fichas infantil, fichas preescolar, material educativo gratis, fichas gratis, comparación de tamaños, ejercicios matemáticas, grafomotricidad, lectoescritura, dibujos para colorear',
     canonicalUrl: 'https://www.lessoncraftstudio.com/es/apps/grande-pequeno-fichas',
     images: [

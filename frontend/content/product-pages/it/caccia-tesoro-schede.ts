@@ -15,8 +15,8 @@ export const treasureHuntItContent: ProductPageContent = {
   seo: {
     slug: 'caccia-tesoro-schede',
     appId: 'treasure-hunt',
-    title: 'Schede Gratuite Caccia al Tesoro | Stampabili Gratuiti Scuola Primaria e Infanzia',
-    description: 'Crea schede didattiche caccia al tesoro con il nostro generatore professionale. Il tuo abbonamento Accesso Completo ti consente di creare schede illimitate senza costi aggiuntivi per singola scheda. Genera schede didattiche personalizzate perfette per la scuola dell\'infanzia e la scuola primaria. Scarica schede di alta qualità in formato PDF in meno di 3 minuti.',
+    title: 'Schede Gratuite Caccia al Tesoro | Stampabili Gratuiti Scuola',
+    description: 'Crea schede didattiche caccia al tesoro con il nostro generatore professionale. Il tuo abbonamento Accesso Completo ti consente di creare schede illimitate.',
     keywords: 'schede didattiche caccia al tesoro, schede didattiche scuola primaria, schede didattiche scuola infanzia, orientamento spaziale, ragionamento spaziale, vocabolario direzionale, schede italiano classe prima, schede matematica, disegni da colorare, pregrafismo, seguire istruzioni',
     canonicalUrl: 'https://www.lessoncraftstudio.com/it/apps/caccia-tesoro-schede',
     images: [

@@ -29,8 +29,8 @@ export const imageCrosswordNlContent: ProductPageContent = {
   seo: {
     slug: 'kruiswoordpuzzel-werkbladen',
     appId: 'crossword',
-    title: 'Kruiswoordpuzzel Werkbladen - Oefenbladen Gratis voor Werkbladen Groep 3 en Kleuters',
-    description: 'Maak professionele kruiswoordpuzzel werkbladen met afbeeldingen voor groep 1-3. Met uw Volledige Toegang abonnement creëert u onbeperkt kleurplaten en oefenbladen zonder extra kosten per werkblad. Download hoogwaardige PDF-bestanden in minder dan 3 minuten.',
+    title: 'Kruiswoordpuzzel Werkbladen - Oefenbladen Gratis voor Werkbladen',
+    description: 'Maak professionele kruiswoordpuzzel werkbladen met afbeeldingen voor groep 1-3. Met uw Volledige Toegang abonnement creëert u onbeperkt kleurplaten en.',
     keywords: 'kruiswoordpuzzel werkbladen, werkbladen groep 3, werkbladen kleuters, oefenbladen gratis, letters leren, schrijven oefenen, veilig leren lezen, fijne motoriek, kleurplaten, rekenen werkbladen',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/kruiswoordpuzzel-werkbladen',
     images: [

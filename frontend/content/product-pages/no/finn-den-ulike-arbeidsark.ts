@@ -17,8 +17,8 @@ export const oddOneOutNoContent: ProductPageContent = {
   seo: {
     slug: 'finn-den-ulike-arbeidsark',
     appId: 'odd-one-out',
-    title: 'Finn den Ulike - Arbeidsark Gratis for Visuell Diskriminering og Lesetrening',
-    description: 'Lag profesjonelle finn den ulike-oppgaver på minutter med vår generator. Full Tilgang-abonnementet gir deg ubegrenset opprettelse av arbeidsark uten ekstra kostnader per oppgave. Generer egendefinerte matteoppgaver og finmotorikk øvelser for barneskole.',
+    title: 'Finn den Ulike - Arbeidsark Gratis for Visuell Diskriminering og',
+    description: 'Lag profesjonelle finn den ulike-oppgaver på minutter med vår generator. Full Tilgang-abonnementet gir deg ubegrenset opprettelse av arbeidsark uten ekstra.',
     keywords: 'finn den ulike, arbeidsark gratis, visuell diskriminering, lesetrening, oppgavehefter barn, matteoppgaver, finmotorikk øvelser, barneskole, bildekort',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/finn-den-ulike-arbeidsark',
   },

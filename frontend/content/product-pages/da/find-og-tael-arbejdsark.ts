@@ -15,7 +15,7 @@ export const findAndCountDaContent: ProductPageContent = {
   seo: {
     slug: 'find-og-tael-arbejdsark',
     appId: 'find-and-count',
-    title: 'Find og Tæl Gratis Arbejdsark - Gratis Printables til Børnehaveklasse og 1. Klasse',
+    title: 'Find og Tæl Gratis Arbejdsark - Gratis Printables til Børnehaveklasse',
     description: 'Lav professionelle find og tæl gratis arbejdsark til børn med vores pædagogiske værktøj. Download gratis printables og matematikopgaver til børnehaveklassen.',
     keywords: 'find og tæl, gratis arbejdsark, gratis arbejdsark til børn, gratis printables, arbejdsark til børn, arbejdsark til børnehaveklasse, opgaver til print, matematikopgaver, børnehaveklassen, 0. klasse, 1. klasse, gratis skoleopgaver, tælleøvelser',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/find-og-tael-arbejdsark',

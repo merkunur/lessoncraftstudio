@@ -17,8 +17,8 @@ export const pictureSortItContent: ProductPageContent = {
   seo: {
     slug: 'classificazione-immagini-schede',
     appId: 'picture-sort',
-    title: 'Schede Gratuite Classificazione | Scheda Gratuita per Bambini Scuola Primaria',
-    description: 'Crea schede gratuite classificazione per bambini. Scheda gratuita classificazione per scuola dell\'infanzia e primaria. Stampabili gratuiti classificazione immagini da scaricare. Schede gratuite per bambini sviluppo logico.',
+    title: 'Schede Gratuite Classificazione | Scheda Gratuita per Bambini Scuola',
+    description: 'Crea schede gratuite classificazione per bambini. Scheda gratuita classificazione per scuola dell\'infanzia e primaria. Stampabili gratuiti classificazione.',
     keywords: 'schede gratuite classificazione, scheda gratuita classificazione, stampabili gratuiti classificazione, scheda per bambini classificazione, scheda per scuola dell\'infanzia, schede didattiche classificazione, ordinamento immagini',
     canonicalUrl: 'https://www.lessoncraftstudio.com/it/apps/classificazione-immagini-schede',
     images: [

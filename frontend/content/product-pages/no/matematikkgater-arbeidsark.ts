@@ -16,8 +16,8 @@ export const mathPuzzleNoContent: ProductPageContent = {
   seo: {
     slug: 'matematikkgater-arbeidsark',
     appId: 'math-puzzle',
-    title: 'Matematikkgåter Generator - Arbeidsark Gratis for Addisjon og Subtraksjon - Matteoppgaver for Småskoletrinnet',
-    description: 'Lag profesjonelle matematikkgåter med vår matematikkoppgaver generator. Full Tilgang-abonnementet gir deg ubegrenset oppretting av arbeidsark. Generer tilpassede matteoppgaver perfekte for 1. til 3. trinn.',
+    title: 'Matematikkgåter Generator - Arbeidsark Gratis for Addisjon og',
+    description: 'Lag profesjonelle matematikkgåter med vår matematikkoppgaver generator. Full Tilgang-abonnementet gir deg ubegrenset oppretting av arbeidsark.',
     keywords: 'matematikkgåter, matteoppgaver, arbeidsark gratis, addisjon og subtraksjon, tall og telling, småskoletrinnet, oppgavehefter barn, regnepuslespill, matematikk oppgaver, gratis skoleopgaver',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/matematikkgater-arbeidsark',
   },

@@ -17,8 +17,8 @@ export const wordGuessPtContent: ProductPageContent = {
   seo: {
     slug: 'adivinhar-palavras-fichas',
     appId: 'word-guess',
-    title: 'Adivinhar Palavras - Gerador de Atividades Grátis para Crianças | Atividade para Educação Infantil',
-    description: 'Crie atividades grátis de adivinhar palavras com nosso gerador. Imprimíveis grátis em PDF para educação infantil e ensino fundamental. Atividade para crianças com gabarito.',
+    title: 'Adivinhar Palavras - Gerador de Atividades Grátis para Crianças',
+    description: 'Crie atividades grátis de adivinhar palavras com nosso gerador. Imprimíveis grátis em PDF para educação infantil e ensino fundamental. Atividade para crianças.',
     keywords: 'atividade grátis, atividades grátis, adivinhar palavras, atividade para crianças, atividade para educação infantil, imprimíveis grátis, atividade grátis para crianças, alfabetização',
     canonicalUrl: 'https://www.lessoncraftstudio.com/pt/apps/adivinhar-palavras-fichas',
     images: [

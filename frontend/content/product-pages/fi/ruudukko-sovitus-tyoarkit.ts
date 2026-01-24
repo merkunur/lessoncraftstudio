@@ -17,8 +17,8 @@ export const gridMatchFiContent: ProductPageContent = {
   seo: {
     slug: 'ruudukko-sovitus-tyoarkit',
     appId: 'grid-match',
-    title: 'Tulostettavat Tehtävät Lapsille Ilmainen - Visuaalinen Palapelityökalu Esiopetus Materiaali',
-    description: 'Luo ammattimaisia ruudukon sovitustehtäviä visuaalisen havainnon ja ongelmanratkaisun kehittämiseen. Ruudukko Sovitus -työkalu tuottaa tehtäviä, joissa lapset sovittavat puuttuvia kuvapaloja ruudukkoon. Täysi Käyttöoikeus -tilaus antaa rajattoman tehtävien luonnin.',
+    title: 'Tulostettavat Tehtävät Lapsille Ilmainen | Ilmaiset Tehtävät',
+    description: 'Luo ammattimaisia ruudukon sovitustehtäviä visuaalisen havainnon ja ongelmanratkaisun kehittämiseen. Ruudukko Sovitus -työkalu tuottaa tehtäviä, joissa lapset.',
     keywords: 'tulostettavat tehtävät lapsille ilmainen, ruudukkotehtävät, esiopetus materiaali, visuaalinen havainnointi, avaruudellinen päättely, matematiikka tehtävät alakoulu, hienomotoriikka harjoitukset',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fi/apps/ruudukko-sovitus-tyoarkit',
   },

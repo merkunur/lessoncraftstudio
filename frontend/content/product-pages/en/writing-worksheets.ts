@@ -16,7 +16,7 @@ export const writingEnContent: ProductPageContent = {
     slug: 'writing-worksheets',
     appId: 'writing',
     title: 'Free Letter Tracing Worksheets | Handwriting Practice Generator',
-    description: 'Create free letter tracing worksheets for kindergarten and first grade. Handwriting practice with guided lines. Download printable PDF in 3 minutes.',
+    description: 'Create free letter tracing worksheets for kindergarten and first grade. Handwriting practice with guided lines. Download printable PDF in 3 minutes. Perfect for teachers and parents.',
     keywords: 'tracing worksheets, letter tracing worksheets, handwriting worksheets, kindergarten worksheets, first grade worksheets, free printable worksheets, alphabet worksheets, abc worksheets, sight words worksheets, worksheet for kids',
     canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/writing-worksheets',
     images: [

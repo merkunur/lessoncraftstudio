@@ -16,7 +16,7 @@ export const sudokuNoContent: ProductPageContent = {
     slug: 'sudoku-arbeidsark',
     appId: 'sudoku',
     title: 'Gratis Sudoku Arbeidsark - Generator for Barnehage og 1. Trinn',
-    description: 'Lag gratis sudoku arbeidsark for barn i barnehage og 1. trinn. Gratis utskrifter med 3000+ bilder. Last ned PDF på 3 min.',
+    description: 'Lag gratis sudoku arbeidsark for barn i barnehage og 1. trinn. Gratis utskrifter med 3000+ bilder. Last ned PDF på 3 min. Perfekt for lærere og foreldre.',
     keywords: 'sudoku for barn, arbeidsark gratis, finmotorikk øvelser, matematikk oppgaver, oppgavehefter barn, tall og telling, gangetabellen, fargeleggingsbilder barn, bokstaver lære skrive, lesetrening',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/sudoku-arbeidsark',
     images: [

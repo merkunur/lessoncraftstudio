@@ -16,7 +16,7 @@ export const alphabetTrainDaContent: ProductPageContent = {
     slug: 'alfabet-tog-arbejdsark',
     appId: 'alphabet-train',
     title: 'Gratis Arbejdsark Alfabettog | Generator til Børnehaveklasse',
-    description: 'Lav gratis arbejdsark med alfabettog-generatoren. Professionelle alfabetopgaver til børnehaveklasse og 1. klasse. Download PDF på under 3 minutter.',
+    description: 'Lav gratis arbejdsark med alfabettog-generatoren. Professionelle alfabetopgaver til børnehaveklasse og 1. klasse. Download PDF på under 3 minutter. Perfekt til lærere og forældre.',
     keywords: 'alfabetopgaver, alfabettog, gratis skoleopgaver, arbejdsark til print, børnehaveklassen, 0. klasse opgaver, 1. klasse, lære bogstaver, læse og skrive, finmotorik øvelser',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/alfabet-tog-arbejdsark',
     images: [

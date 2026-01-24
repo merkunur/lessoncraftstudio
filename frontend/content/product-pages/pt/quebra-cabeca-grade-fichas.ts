@@ -17,8 +17,8 @@ export const gridMatchPtContent: ProductPageContent = {
   seo: {
     slug: 'quebra-cabeca-grade-fichas',
     appId: 'grid-match',
-    title: 'Quebra-Cabeca Grid Match - Atividade Gratis para Educacao Infantil e Criancas',
-    description: 'Crie atividades de quebra-cabeça visual para seus alunos com o gerador Grid Match. Com sua assinatura Acesso Completo, você produz atividades para imprimir ilimitadas sem taxas adicionais por folha. Desenvolva habilidades de raciocínio espacial, coordenação motora e percepção visual em crianças da educação infantil e anos iniciais do ensino fundamental.',
+    title: 'Quebra-Cabeca Grid Match - Atividade Gratis para Educacao Infantil e',
+    description: 'Crie atividades de quebra-cabeça visual para seus alunos com o gerador Grid Match. Com sua assinatura Acesso Completo, você produz atividades para imprimir.',
     keywords: 'atividade gratis, atividade gratis para criancas, atividades gratis, imprimiveis gratis, atividade para criancas, atividade para educacao infantil, grid match, quebra-cabeça, atividades para imprimir, coordenação motora, atividades de alfabetização, atividades de matemática, desenhos para colorir, atividades 1º ano, atividades 2º ano',
     canonicalUrl: 'https://www.lessoncraftstudio.com/pt/apps/quebra-cabeca-grade-fichas',
     images: [

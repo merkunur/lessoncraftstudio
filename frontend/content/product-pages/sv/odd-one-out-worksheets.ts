@@ -15,8 +15,8 @@ export const oddOneOutSvContent: ProductPageContent = {
   seo: {
     slug: 'hitta-udda-bilden-arbetsblad',
     appId: 'odd-one-out',
-    title: 'Gratis Arbetsblad Hitta Udda Bilden | Generator för Barn och Förskoleklass',
-    description: 'Skapa gratis arbetsblad för barn med vår hitta-udda-bilden generator. Perfekt arbetsblad för förskoleklass och finmotorik övningar. Ladda ner PDF på under 3 minuter.',
+    title: 'Gratis Arbetsblad Hitta Udda Bilden | Generator för Barn och',
+    description: 'Skapa gratis arbetsblad för barn med vår hitta-udda-bilden generator. Perfekt arbetsblad för förskoleklass och finmotorik övningar. Ladda ner PDF på under 3.',
     keywords: 'gratis arbetsblad, arbetsblad för barn, hitta udda bilden, förskoleklass material, finmotorik övningar, visuell diskriminering, kognitiv utveckling',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/hitta-udda-bilden-arbetsblad',
     images: [

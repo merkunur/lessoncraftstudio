@@ -17,8 +17,8 @@ export const oddOneOutFrContent: ProductPageContent = {
   seo: {
     slug: 'intrus-fiches',
     appId: 'odd-one-out',
-    title: 'Fiches à Imprimer Gratuit Intrus - Fiches Maternelle Exercices CP - Générateur Exercices Maths',
-    description: 'Créez des fiches à imprimer gratuit pour trouver l\'intrus en quelques clics. Votre abonnement Accès Complet à 240€/an vous donne accès illimité à ce générateur professionnel. Générez des fiches maternelle personnalisées parfaites pour développer l\'observation et la logique.',
+    title: 'Fiches à Imprimer Gratuit Intrus - Fiches Maternelle Exercices CP -',
+    description: 'Créez des fiches à imprimer gratuit pour trouver l\'intrus en quelques clics. Votre abonnement Accès Complet à 240€/an vous donne accès illimité à ce générateur.',
     keywords: 'fiches à imprimer gratuit, fiches maternelle, exercices CP, intrus, graphisme maternelle, exercices maths, coloriage à imprimer, apprendre à lire, alphabet, écriture cursive, tables de multiplication',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fr/apps/intrus-fiches',
     images: [

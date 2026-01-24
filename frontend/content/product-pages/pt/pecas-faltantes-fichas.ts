@@ -15,8 +15,8 @@ export const missingPiecesPtContent: ProductPageContent = {
   seo: {
     slug: 'pecas-faltantes-fichas',
     appId: 'missing-pieces',
-    title: 'Peças Faltantes - Atividade Grátis para Educação Infantil | Gerador de Atividades',
-    description: 'Crie atividades grátis de peças faltantes profissionais em poucos minutos com nosso gerador de atividades para imprimir. Atividade grátis para crianças com sua assinatura Acesso Completo. Baixe imprimíveis grátis de alta qualidade prontas para usar.',
+    title: 'Peças Faltantes - Atividade Grátis para Educação Infantil',
+    description: 'Crie atividades grátis de peças faltantes profissionais em poucos minutos com nosso gerador de atividades para imprimir. Atividade grátis para crianças com sua.',
     keywords: 'atividade grátis, atividade grátis para crianças, atividades grátis, imprimíveis grátis, atividade para crianças, atividade para educação infantil, peças faltantes, atividades para imprimir, atividades educação infantil, coordenação motora',
     canonicalUrl: 'https://www.lessoncraftstudio.com/pt/apps/pecas-faltantes-fichas',
     images: [

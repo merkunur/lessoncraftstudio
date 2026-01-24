@@ -15,8 +15,8 @@ export const drawingLinesDaContent: ProductPageContent = {
   seo: {
     slug: 'linjetraening-arbejdsark',
     appId: 'drawing-lines',
-    title: 'Linjetræning Gratis Arbejdsark - Finmotorik Øvelser til Børnehaveklasse',
-    description: 'Lav professionelle linjetræning gratis arbejdsark til børn. Download gratis printables til finmotorik øvelser. Arbejdsark til børnehaveklasse.',
+    title: 'Linjetræning Gratis Arbejdsark - Finmotorik Øvelser til',
+    description: 'Lav professionelle linjetræning gratis arbejdsark til børn. Download gratis printables til finmotorik øvelser. Arbejdsark til børnehaveklasse. Perfekt til lærere og forældre.',
     keywords: 'finmotorik øvelser, linjetræning, opgaver til print, tegn linjer, arbejdsark børnehaveklassen, 0. klasse, 1. klasse, gratis skoleopgaver, blyantgreb, hånd-øje koordination',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/linjetraening-arbejdsark',
     images: [

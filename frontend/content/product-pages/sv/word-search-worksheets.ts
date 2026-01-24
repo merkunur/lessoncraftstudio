@@ -15,8 +15,8 @@ export const wordSearchSvContent: ProductPageContent = {
   seo: {
     slug: 'ordletar-arbetsblad',
     appId: 'wordsearch',
-    title: 'Gratis Ordletare Generator | Arbetsblad för Förskoleklass och Lågstadiet',
-    description: 'Skapa professionella ordletarpussel med vår gratis ordletare generator. Perfekt för förskoleklass material och lågstadiet. Ladda ner arbetsblad gratis som högkvalitativa PDF-filer på under tre minuter.',
+    title: 'Gratis Ordletare Generator | Arbetsblad för Förskoleklass och',
+    description: 'Skapa professionella ordletarpussel med vår gratis ordletare generator. Perfekt för förskoleklass material och lågstadiet. Ladda ner arbetsblad gratis som.',
     keywords: 'ordletare generator, arbetsblad gratis, förskoleklass material, matematik arbetsblad, ordletarpussel, gratis arbetsblad, lågstadiet, bokstäver lära sig, skriva bokstäver, målarbilder barn',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/ordletar-arbetsblad',
     images: [

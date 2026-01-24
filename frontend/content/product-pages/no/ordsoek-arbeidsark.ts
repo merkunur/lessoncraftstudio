@@ -15,8 +15,8 @@ export const wordSearchNoContent: ProductPageContent = {
   seo: {
     slug: 'ordsoek-arbeidsark',
     appId: 'wordsearch',
-    title: 'Arbeidsark Gratis - Ordgåte Generator for Barn - Lesetrening og Bokstaver Lære Skrive',
-    description: 'Lag profesjonelle ordgåter med vår ordgåte generator. Verktøyet er gratis å bruke for personlig bruk. Last ned høykvalitets PDF-arbeidsark på under 3 minutter. Perfekt for lesetrening og bokstaver lære skrive i barneskolen.',
+    title: 'Arbeidsark Gratis - Ordgåte Generator for Barn - Lesetrening og',
+    description: 'Lag profesjonelle ordgåter med vår ordgåte generator. Verktøyet er gratis å bruke for personlig bruk. Last ned høykvalitets PDF-arbeidsark på under 3 minutter.',
     keywords: 'ordgåte generator, arbeidsark gratis, lesetrening, bokstaver lære skrive, oppgavehefter barn, finmotorikk øvelser, tall og telling, matematikk oppgaver, fargeleggingsbilder barn, norsk barneskole',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/ordsoek-arbeidsark',
     images: [

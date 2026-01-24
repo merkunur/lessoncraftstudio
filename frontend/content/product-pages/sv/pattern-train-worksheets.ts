@@ -17,8 +17,8 @@ export const patternTrainSvContent: ProductPageContent = {
   seo: {
     slug: 'monster-tag-arbetsblad',
     appId: 'pattern-train',
-    title: 'Mönster Arbetsblad Gratis | Pattern Train Generator för Förskoleklass Material',
-    description: 'Skapa professionella mönsterigenkänningsarbetsblad med vår Pattern Train-generator. Perfekt för förskoleklass material och matematik arbetsblad. Ladda ner arbetsblad gratis som högkvalitativa PDF-filer på under 3 minuter.',
+    title: 'Mönster Arbetsblad Gratis | Pattern Train Generator för Förskoleklass',
+    description: 'Skapa professionella mönsterigenkänningsarbetsblad med vår Pattern Train-generator. Perfekt för förskoleklass material och matematik arbetsblad.',
     keywords: 'mönster arbetsblad, arbetsblad gratis, förskoleklass material, matematik arbetsblad, matte övningar, finmotorik övningar, bokstäver lära sig, siffror och tal, målarbilder barn, lågstadiet, mönsterigenkänning',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/monster-tag-arbetsblad',
     images: [

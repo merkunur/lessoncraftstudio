@@ -15,7 +15,7 @@ export const wordGuessDaContent: ProductPageContent = {
   seo: {
     slug: 'gaet-ordet-arbejdsark',
     appId: 'word-guess',
-    title: 'Gæt Ordet Gratis Arbejdsark - Arbejdsark til Børn - Stavningsopgaver Børnehaveklasse',
+    title: 'Gæt Ordet Gratis Arbejdsark - Arbejdsark til Børn - Stavningsopgaver',
     description: 'Lav gratis arbejdsark til børn med gæt-ordet stavningsopgaver. Arbejdsark til børnehaveklasse og 0. klasse. Download gratis arbejdsark som PDF. 5 eksempler.',
     keywords: 'gæt ordet arbejdsark, gratis arbejdsark, gratis arbejdsark til børn, arbejdsark til børn, arbejdsark til børnehaveklasse, gratis printables, stavning øvelser, lære bogstaver',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/gaet-ordet-arbejdsark',

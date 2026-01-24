@@ -31,8 +31,8 @@ export const picturePathNlContent: ProductPageContent = {
   seo: {
     slug: 'doolhof-werkbladen',
     appId: 'picture-path',
-    title: 'Doolhof Werkbladen - Gratis Werkbladen voor Kinderen en Werkblad voor Kleuters Groep 1 2 3',
-    description: 'Maak professionele doolhof werkbladen met plaatjes in enkele minuten. Onze doolhof generator biedt drie verschillende spelmodi voor werkbladen groep 3 en werkbladen kleuters. Je Volledige Toegang abonnement geeft je onbeperkte toegang tot alle functies.',
+    title: 'Doolhof Werkbladen - Gratis Werkbladen voor Kinderen en Werkblad voor',
+    description: 'Maak professionele doolhof werkbladen met plaatjes in enkele minuten. Onze doolhof generator biedt drie verschillende spelmodi voor werkbladen groep 3 en.',
     keywords: 'doolhof werkbladen, werkbladen groep 3, werkbladen kleuters, oefenbladen gratis, fijne motoriek, visuele discriminatie, letters leren, veilig leren lezen, rekenen werkbladen, tafels oefenen',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/doolhof-werkbladen',
     images: [

@@ -15,8 +15,8 @@ export const matchingFrContent: ProductPageContent = {
   seo: {
     slug: 'association-fiches',
     appId: 'matching',
-    title: 'Fiches d\'Association | Fiches Maternelle et Exercices CP pour Apprendre à Lire',
-    description: 'Créez des fiches d\'association professionnelles avec notre générateur MatchUp Maker. Votre abonnement Pack Essentiel vous donne un accès illimité à la création de fiches maternelle personnalisées. Téléchargez des fichiers PDF haute qualité en moins de 3 minutes.',
+    title: 'Fiches d\'Association | Fiches Maternelle et Exercices CP pour',
+    description: 'Créez des fiches d\'association professionnelles avec notre générateur MatchUp Maker. Votre abonnement Pack Essentiel vous donne un accès illimité à la création.',
     keywords: 'fiches association, fiches maternelle, exercices CP, fiches à imprimer gratuit, apprendre à lire, fiches alphabet, graphisme maternelle, exercices maths, apprendre les lettres, coloriage à imprimer, écriture cursive, tables de multiplication',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fr/apps/association-fiches',
     images: [

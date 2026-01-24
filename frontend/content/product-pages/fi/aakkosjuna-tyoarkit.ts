@@ -15,8 +15,8 @@ export const alphabetTrainFiContent: ProductPageContent = {
   seo: {
     slug: 'aakkosjuna-tyoarkit',
     appId: 'alphabet-train',
-    title: 'Aakkosjuna Tehtävät Generaattori | Tulostettavat Kirjaimet Harjoittelu Esikoulu ja Esiopetus Materiaali',
-    description: 'Luo ammattitasoisia aakkosjuna-tehtäviä esiopetukseen ja alakouluun. Peruspaketti-tilauksellasi saat luoda rajattomasti kirjainten harjoittelutehtäviä ilman lisämaksuja per tehtävä. Tulostettavat tehtävät lapsille soveltuvat täydellisesti esikouluikäisille ja 1. luokan oppilaille.',
+    title: 'Aakkosjuna Tehtävät Generaattori | Tulostettavat Kirjaimet',
+    description: 'Luo ammattitasoisia aakkosjuna-tehtäviä esiopetukseen ja alakouluun. Peruspaketti-tilauksellasi saat luoda rajattomasti kirjainten harjoittelutehtäviä ilman.',
     keywords: 'aakkosjuna tehtävät, kirjaimet harjoittelu esikoulu, esiopetus materiaali ilmainen, tulostettavat tehtävät lapsille ilmainen, kirjainten tunnistus, aakkosharjoittelu',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fi/apps/aakkosjuna-tyoarkit',
   },

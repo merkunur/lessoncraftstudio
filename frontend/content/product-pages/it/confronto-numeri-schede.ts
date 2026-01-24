@@ -17,8 +17,8 @@ export const moreLessItContent: ProductPageContent = {
   seo: {
     slug: 'confronto-numeri-schede',
     appId: 'more-less',
-    title: 'Schede Gratuite Confronto Numeri | Scheda Gratuita Maggiore Minore per Bambini',
-    description: 'Crea schede gratuite professionali per confrontare numeri con il nostro generatore. Stampabili gratuiti con simboli maggiore, minore e uguale. Scheda gratuita per bambini e scheda per scuola dell\'infanzia.',
+    title: 'Schede Gratuite Confronto Numeri | Scheda Gratuita Maggiore Minore',
+    description: 'Crea schede gratuite professionali per confrontare numeri con il nostro generatore. Stampabili gratuiti con simboli maggiore, minore e uguale.',
     keywords: 'schede gratuite confronto numeri, scheda gratuita per bambini, stampabili gratuiti, scheda per scuola dell\'infanzia, maggiore minore uguale, schede matematica, numeri da stampare',
     canonicalUrl: 'https://www.lessoncraftstudio.com/it/apps/confronto-numeri-schede',
     images: [

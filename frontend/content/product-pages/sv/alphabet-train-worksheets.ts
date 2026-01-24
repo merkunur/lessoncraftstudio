@@ -15,8 +15,8 @@ export const alphabetTrainSvContent: ProductPageContent = {
   seo: {
     slug: 'alfabettag-arbetsblad',
     appId: 'alphabet-train',
-    title: 'Gratis Arbetsblad Alfabettåg - Bokstäver för Barn | Förskoleklass Generator',
-    description: 'Skapa professionella alfabettåg-arbetsblad med vår alfabetgenerator. Generera gratis arbetsblad för barn perfekta för förskoleklass och lågstadiebarn. Ladda ner högkvalitativa PDF-arbetsblad på under 3 minuter.',
+    title: 'Gratis Arbetsblad Alfabettåg - Bokstäver för Barn | Förskoleklass',
+    description: 'Skapa professionella alfabettåg-arbetsblad med vår alfabetgenerator. Generera gratis arbetsblad för barn perfekta för förskoleklass och lågstadiebarn.',
     keywords: 'gratis arbetsblad, gratis arbetsblad för barn, gratis utskrifter, arbetsblad för barn, arbetsblad för förskoleklass, alfabettåg arbetsblad, bokstäver lära sig, förskoleklass material, alfabetgenerator, skriva bokstäver, målarbilder barn, finmotorik övningar',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/alfabettag-arbetsblad',
     images: [

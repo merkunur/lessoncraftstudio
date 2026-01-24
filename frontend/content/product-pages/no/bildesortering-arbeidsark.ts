@@ -15,8 +15,8 @@ export const pictureSortNoContent: ProductPageContent = {
   seo: {
     slug: 'bildesortering-arbeidsark',
     appId: 'picture-sort',
-    title: 'Arbeidsark for Bildesortering - Arbeidsark Gratis og Oppgavehefter Barn for Matematikk Oppgaver',
-    description: 'Lag profesjonelle bildesorteringsarbeidsark med vår bildesorteringsgenerator. Generer tilpassede arbeidsark for bildesortering perfekt for barnehage og småskoletrinnet. Last ned arbeidsark i høy kvalitet som PDF på under 3 minutter.',
+    title: 'Arbeidsark for Bildesortering - Arbeidsark Gratis og Oppgavehefter',
+    description: 'Lag profesjonelle bildesorteringsarbeidsark med vår bildesorteringsgenerator. Generer tilpassede arbeidsark for bildesortering perfekt for barnehage og.',
     keywords: 'bildesortering arbeidsark, oppgavehefter barn, arbeidsark gratis, matematikk oppgaver, tall og telling, addisjon og subtraksjon, gangetabellen, lesetrening, bokstaver lære skrive, finmotorikk øvelser, fargeleggingsbilder barn',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/bildesortering-arbeidsark',
   },

@@ -26,8 +26,8 @@ export const patternWorksheetPtContent: ProductPageContent = {
   seo: {
     slug: 'fichas-padroes-sequencias',
     appId: 'pattern-worksheet',
-    title: 'Atividade Grátis de Padrões e Sequências - Atividade para Educação Infantil | Gerador de Atividades',
-    description: 'Crie atividades grátis de sequência e padrões profissionais com nosso gerador especializado. Atividade grátis para crianças com sua assinatura Acesso Completo. Baixe imprimíveis grátis de alta qualidade prontas para desenvolver raciocínio lógico.',
+    title: 'Atividade Grátis de Padrões e Sequências | Planilhas Grátis',
+    description: 'Crie atividades grátis de sequência e padrões profissionais com nosso gerador especializado. Atividade grátis para crianças com sua assinatura Acesso Completo.',
     keywords: 'atividade grátis, atividade grátis para crianças, atividades grátis, imprimíveis grátis, atividade para crianças, atividade para educação infantil, atividade, atividades de sequência, atividades para imprimir, coordenação motora, raciocínio lógico, padrões, fichas de padrões',
     canonicalUrl: 'https://www.lessoncraftstudio.com/pt/apps/fichas-padroes-sequencias',
     images: [

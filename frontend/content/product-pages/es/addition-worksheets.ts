@@ -15,8 +15,8 @@ export const additionEsContent: ProductPageContent = {
   seo: {
     slug: 'suma-fichas',
     appId: 'addition',
-    title: 'Fichas de Sumas para Imprimir | Generador de Ejercicios de Matemáticas para Educación Infantil y Primaria',
-    description: 'Crea fichas de sumas profesionales con imágenes usando nuestro generador de ejercicios matemáticas. Genera fichas para imprimir personalizadas perfectas para preescolar y primaria. Descarga fichas gratis en PDF de alta calidad en menos de 3 minutos.',
+    title: 'Fichas de Sumas para Imprimir | Generador de Ejercicios de',
+    description: 'Crea fichas de sumas profesionales con imágenes usando nuestro generador de ejercicios matemáticas. Genera fichas para imprimir personalizadas perfectas para.',
     keywords: 'fichas de sumas, fichas para imprimir, ejercicios matemáticas, fichas de matemáticas, fichas infantil, fichas preescolar, grafomotricidad, lectoescritura, aprender los números, tablas de multiplicar, dibujos para colorear, fichas gratis, material educativo gratis',
     canonicalUrl: 'https://www.lessoncraftstudio.com/es/apps/suma-fichas',
     images: [

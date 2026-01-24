@@ -17,8 +17,8 @@ export const bingoPtContent: ProductPageContent = {
   seo: {
     slug: 'bingo-ilustrado-fichas',
     appId: 'bingo',
-    title: 'Gerador de Bingo Ilustrado - Atividades para Imprimir de Alfabetização e Atividades Educação Infantil',
-    description: 'Crie cartelas de bingo personalizadas com imagens educativas para suas aulas. Com sua assinatura Pacote Essencial, você gera atividades para imprimir ilimitadas sem custos extras por material. Produza atividades de alfabetização profissionais em menos de 3 minutos.',
+    title: 'Gerador de Bingo Ilustrado - Atividades para Imprimir de',
+    description: 'Crie cartelas de bingo personalizadas com imagens educativas para suas aulas. Com sua assinatura Pacote Essencial, você gera atividades para imprimir.',
     keywords: 'bingo ilustrado, atividades para imprimir, atividades educação infantil, atividades de alfabetização, atividades de matemática, desenhos para colorir, coordenação motora, atividades vogais, tabuada, letra cursiva, pontilhado, atividades 1º ano, atividades 2º ano',
     images: [
       {

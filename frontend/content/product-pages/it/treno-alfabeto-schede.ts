@@ -15,8 +15,8 @@ export const alphabetTrainItContent: ProductPageContent = {
   seo: {
     slug: 'treno-alfabeto-schede',
     appId: 'alphabet-train',
-    title: 'Schede Didattiche Alfabeto | Generatore Schede Scuola dell\'Infanzia - Lettere dell\'Alfabeto',
-    description: 'Crea schede didattiche alfabeto professionali con il nostro generatore. Schede lettere dell\'alfabeto per scuola dell\'infanzia e classe prima. Scarica PDF di alta qualità in meno di 3 minuti.',
+    title: 'Schede Didattiche Alfabeto | Generatore Schede Scuola dell\'Infanzia',
+    description: 'Crea schede didattiche alfabeto professionali con il nostro generatore. Schede lettere dell\'alfabeto per scuola dell\'infanzia e classe prima.',
     keywords: 'schede didattiche alfabeto, lettere dell\'alfabeto, scuola dell\'infanzia, classe prima, schede italiano, pregrafismo, schede stampabili, generatore schede, treno alfabeto, riconoscimento lettere',
     canonicalUrl: 'https://www.lessoncraftstudio.com/it/apps/treno-alfabeto-schede',
     images: [

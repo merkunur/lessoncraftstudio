@@ -15,8 +15,8 @@ export const matchingItContent: ProductPageContent = {
   seo: {
     slug: 'abbinamenti-schede',
     appId: 'matching',
-    title: 'Schede Gratuite di Abbinamenti | Generatore di Scheda Gratuita per Bambini',
-    description: 'Crea schede gratuite di abbinamenti professionali in pochi minuti. La nostra scheda per bambini permette di creare esercizi visivi perfetti. Scheda per scuola dell\'infanzia e scuola primaria. Scheda per bambini stampabile in formato PDF.',
+    title: 'Schede Gratuite di Abbinamenti | Generatore di Scheda Gratuita per',
+    description: 'Crea schede gratuite di abbinamenti professionali in pochi minuti. La nostra scheda per bambini permette di creare esercizi visivi perfetti.',
     keywords: 'schede gratuite abbinamenti, scheda per bambini, scheda per scuola dell\'infanzia, schede stampabili gratuiti, generatore schede, abbinamento immagini, classe prima, pregrafismo, materiale didattico',
     canonicalUrl: 'https://www.lessoncraftstudio.com/it/apps/abbinamenti-schede',
     images: [

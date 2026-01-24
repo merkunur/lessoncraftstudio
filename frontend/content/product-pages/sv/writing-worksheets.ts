@@ -15,8 +15,8 @@ export const writingSvContent: ProductPageContent = {
   seo: {
     slug: 'skrivovningar-arbetsblad',
     appId: 'writing',
-    title: 'Gratis Skrivarbetsblad för Barn - Bokstäver Lära Sig Generator för Förskoleklass',
-    description: 'Skapa professionella arbetsblad för skrivövning med vår handstilsgenerator. Full Tillgång-prenumeration ger dig obegränsad åtkomst till alla 33 verktyg för $240 per år. Generera anpassade arbetsblad för att skriva bokstäver perfekta för förskoleklass, årskurs 1 och årskurs 2.',
+    title: 'Gratis Skrivarbetsblad för Barn - Bokstäver Lära Sig Generator för',
+    description: 'Skapa professionella arbetsblad för skrivövning med vår handstilsgenerator. Full Tillgång-prenumeration ger dig obegränsad åtkomst till alla 33 verktyg för.',
     keywords: 'skriva bokstäver, arbetsblad gratis, förskoleklass material, finmotorik övningar, bokstäver lära sig, handstilsövningar, skrivarbetsblad, spårningsövningar, matematik arbetsblad, målarbilder barn',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/skrivovningar-arbetsblad',
     images: [

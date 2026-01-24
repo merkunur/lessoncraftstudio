@@ -15,8 +15,8 @@ export const pictureBingoSvContent: ProductPageContent = {
   seo: {
     slug: 'bildlotto-arbetsblad',
     appId: 'bingo',
-    title: 'Gratis Bildlotto Generator | Arbetsblad för Förskoleklass och Lågstadiet',
-    description: 'Skapa professionella bildlottokort med vår bildlotto generator. Perfekt för förskoleklass material och lågstadiet. Ladda ner arbetsblad gratis som högkvalitativa PDF-filer på under 3 minuter.',
+    title: 'Gratis Bildlotto Generator | Arbetsblad för Förskoleklass och',
+    description: 'Skapa professionella bildlottokort med vår bildlotto generator. Perfekt för förskoleklass material och lågstadiet. Ladda ner arbetsblad gratis som.',
     keywords: 'bildlotto generator, arbetsblad gratis, förskoleklass material, matematik arbetsblad, bildlottokort, gratis arbetsblad, lågstadiet, bokstäver lära sig, siffror och tal, målarbilder barn',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/bildlotto-arbetsblad',
     images: [

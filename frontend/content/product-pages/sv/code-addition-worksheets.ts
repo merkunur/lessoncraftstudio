@@ -16,7 +16,7 @@ export const codeAdditionSvContent: ProductPageContent = {
     slug: 'kodaddition-arbetsblad',
     appId: 'code-addition',
     title: 'Gratis Arbetsblad Kodaddition | Matematik för Förskoleklass',
-    description: 'Skapa gratis arbetsblad för kodaddition med bilder. Generera matematik övningar för förskoleklass och årskurs 1-3. Ladda ner professionella PDF-arbetsblad för barn på under 3 minuter.',
+    description: 'Skapa gratis arbetsblad för kodaddition med bilder. Generera matematik övningar för förskoleklass och årskurs 1-3. Ladda ner professionella PDF-arbetsblad för.',
     keywords: 'gratis arbetsblad, gratis arbetsblad för barn, gratis utskrifter, arbetsblad för barn, arbetsblad för förskoleklass, arbetsblad, kodaddition, matematik arbetsblad, addition och subtraktion, förskoleklass material, matte övningar',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/kodaddition-arbetsblad',
     images: [

@@ -15,8 +15,8 @@ export const coloringFiContent: ProductPageContent = {
   seo: {
     slug: 'varityskuvat-tyoarkit',
     appId: 'coloring',
-    title: 'Värityskuvia Lapsille Tulostettava | Tulostettavat Tehtävät Lapsille Ilmainen - Esiopetus Materiaali',
-    description: 'Luo ammattimaisia värityskuvia värityskuvasuunnittelullamme. Peruspaketti-tilauksesi antaa sinulle rajattoman värityskuvien luomisen ilman per-sivu maksuja. Luo mukautettuja tulostettavia värityskuvia täydellisiä esikoululle ja alakoululle.',
+    title: 'Värityskuvia Lapsille Tulostettava | Tulostettavat Tehtävät Lapsille',
+    description: 'Luo ammattimaisia värityskuvia värityskuvasuunnittelullamme. Peruspaketti-tilauksesi antaa sinulle rajattoman värityskuvien luomisen ilman per-sivu maksuja.',
     keywords: 'värityskuvia lapsille tulostettava, tulostettavat tehtävät lapsille ilmainen, esiopetus materiaali ilmainen, hienomotoriikka harjoitukset, kirjaimet harjoittelu esikoulu, värityskuvat lapsille',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fi/apps/varityskuvat-tyoarkit',
   },

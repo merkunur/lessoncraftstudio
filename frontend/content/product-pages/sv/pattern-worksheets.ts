@@ -17,8 +17,8 @@ export const patternWorksheetsSvContent: ProductPageContent = {
   seo: {
     slug: 'monster-arbetsblad',
     appId: 'pattern-worksheet',
-    title: 'Mönsterigenkänning Arbetsblad Gratis | Matematik Arbetsblad Generator för Förskoleklass Material',
-    description: 'Skapa professionella mönsterigenkänning arbetsblad med vår digitala generator. Din Full Tillgång-prenumeration ger dig obegränsad tillgång till arbetsblad utan extra kostnader. Generera anpassade arbetsblad gratis för förskoleklass och lågstadiet.',
+    title: 'Mönsterigenkänning Arbetsblad Gratis | Matematik Arbetsblad Generator',
+    description: 'Skapa professionella mönsterigenkänning arbetsblad med vår digitala generator. Din Full Tillgång-prenumeration ger dig obegränsad tillgång till arbetsblad utan.',
     keywords: 'mönsterigenkänning arbetsblad, arbetsblad gratis, förskoleklass material, matematik arbetsblad, matte övningar, siffror och tal, bokstäver lära sig, finmotorik övningar, målarbilder barn, lågstadiet',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/monster-arbetsblad',
     images: [

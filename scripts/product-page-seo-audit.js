@@ -45,68 +45,112 @@ const PRIMARY_KEYWORDS = {
 };
 
 /**
+ * Extract a string value handling escaped quotes
+ * @param {string} content - The content to search in
+ * @param {string} fieldName - The field name to find
+ * @returns {string|null} - The extracted value or null
+ */
+function extractStringField(content, fieldName) {
+  // Find the field
+  const fieldRegex = new RegExp(`${fieldName}:\\s*(['"\`])`);
+  const fieldMatch = content.match(fieldRegex);
+  if (!fieldMatch) return null;
+
+  const quoteChar = fieldMatch[1];
+  const startIdx = fieldMatch.index + fieldMatch[0].length;
+
+  // Extract value handling escaped quotes
+  let value = '';
+  let i = startIdx;
+  while (i < content.length) {
+    const char = content[i];
+    if (char === '\\' && i + 1 < content.length) {
+      // Escaped character - add the next char and skip
+      value += content[i + 1];
+      i += 2;
+    } else if (char === quoteChar) {
+      // End of string
+      break;
+    } else {
+      value += char;
+      i++;
+    }
+  }
+
+  return value;
+}
+
+/**
  * Extract text content from a TypeScript file
  * Focuses on string values in the exported object
  */
 function extractTextFromTsFile(filePath) {
   try {
     const content = fs.readFileSync(filePath, 'utf-8');
-
-    // Extract all string literals (both single and double quoted)
     const strings = [];
 
-    // Match title fields
-    const titleMatches = content.matchAll(/title:\s*['"`]([^'"`]+)['"`]/g);
+    // Find SEO block
+    const seoBlockMatch = content.match(/seo:\s*\{([\s\S]*?)\n\s*\},?\s*\n/);
+    const seoBlock = seoBlockMatch ? seoBlockMatch[1] : '';
+
+    // Extract seo.title
+    const seoTitle = extractStringField(seoBlock, 'title');
+    if (seoTitle) {
+      strings.push({ type: 'seo.title', text: seoTitle });
+    }
+
+    // Extract seo.description
+    const seoDesc = extractStringField(seoBlock, 'description');
+    if (seoDesc) {
+      strings.push({ type: 'seo.description', text: seoDesc });
+    }
+
+    // Extract seo.keywords
+    const seoKeywords = extractStringField(seoBlock, 'keywords');
+    if (seoKeywords) {
+      strings.push({ type: 'seo.keywords', text: seoKeywords });
+    }
+
+    // Match title fields (for H2/H3 keyword counting)
+    const titleMatches = content.matchAll(/title:\s*['"`]((?:[^'"`\\]|\\.)*)['"`]/g);
     for (const match of titleMatches) {
-      strings.push({ type: 'title', text: match[1] });
-    }
-
-    // Match seo.title
-    const seoTitleMatch = content.match(/seo:\s*\{[^}]*title:\s*['"`]([^'"`]+)['"`]/s);
-    if (seoTitleMatch) {
-      strings.push({ type: 'seo.title', text: seoTitleMatch[1] });
-    }
-
-    // Match seo.description
-    const seoDescMatch = content.match(/seo:\s*\{[^}]*description:\s*['"`]([^'"`]+)['"`]/s);
-    if (seoDescMatch) {
-      strings.push({ type: 'seo.description', text: seoDescMatch[1] });
-    }
-
-    // Match seo.keywords
-    const seoKeywordsMatch = content.match(/seo:\s*\{[^}]*keywords:\s*['"`]([^'"`]+)['"`]/s);
-    if (seoKeywordsMatch) {
-      strings.push({ type: 'seo.keywords', text: seoKeywordsMatch[1] });
-    }
-
-    // Match description fields
-    const descMatches = content.matchAll(/description:\s*['"`]([^'"`]+)['"`]/g);
-    for (const match of descMatches) {
-      strings.push({ type: 'description', text: match[1] });
+      const value = match[1].replace(/\\'/g, "'").replace(/\\"/g, '"');
+      strings.push({ type: 'title', text: value });
     }
 
     // Match sectionTitle fields (H2)
-    const sectionTitleMatches = content.matchAll(/sectionTitle:\s*['"`]([^'"`]+)['"`]/g);
+    const sectionTitleMatches = content.matchAll(/sectionTitle:\s*['"`]((?:[^'"`\\]|\\.)*)['"`]/g);
     for (const match of sectionTitleMatches) {
-      strings.push({ type: 'sectionTitle', text: match[1] });
+      const value = match[1].replace(/\\'/g, "'").replace(/\\"/g, '"');
+      strings.push({ type: 'sectionTitle', text: value });
     }
 
     // Match subtitle fields (H3)
-    const subtitleMatches = content.matchAll(/subtitle:\s*['"`]([^'"`]+)['"`]/g);
+    const subtitleMatches = content.matchAll(/subtitle:\s*['"`]((?:[^'"`\\]|\\.)*)['"`]/g);
     for (const match of subtitleMatches) {
-      strings.push({ type: 'subtitle', text: match[1] });
+      const value = match[1].replace(/\\'/g, "'").replace(/\\"/g, '"');
+      strings.push({ type: 'subtitle', text: value });
     }
 
     // Match question fields (FAQ H3)
-    const questionMatches = content.matchAll(/question:\s*['"`]([^'"`]+)['"`]/g);
+    const questionMatches = content.matchAll(/question:\s*['"`]((?:[^'"`\\]|\\.)*)['"`]/g);
     for (const match of questionMatches) {
-      strings.push({ type: 'question', text: match[1] });
+      const value = match[1].replace(/\\'/g, "'").replace(/\\"/g, '"');
+      strings.push({ type: 'question', text: value });
     }
 
     // Match answer fields
-    const answerMatches = content.matchAll(/answer:\s*['"`]([^'"`]+)['"`]/g);
+    const answerMatches = content.matchAll(/answer:\s*['"`]((?:[^'"`\\]|\\.)*)['"`]/g);
     for (const match of answerMatches) {
-      strings.push({ type: 'answer', text: match[1] });
+      const value = match[1].replace(/\\'/g, "'").replace(/\\"/g, '"');
+      strings.push({ type: 'answer', text: value });
+    }
+
+    // Match description fields
+    const descMatches = content.matchAll(/description:\s*['"`]((?:[^'"`\\]|\\.)*)['"`]/g);
+    for (const match of descMatches) {
+      const value = match[1].replace(/\\'/g, "'").replace(/\\"/g, '"');
+      strings.push({ type: 'description', text: value });
     }
 
     return strings;

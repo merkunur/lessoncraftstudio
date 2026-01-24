@@ -31,8 +31,8 @@ export const pictureSortNlContent: ProductPageContent = {
   seo: {
     slug: 'sorteer-werkbladen',
     appId: 'picture-sort',
-    title: 'Sorteer Werkbladen - Gratis Werkblad voor Kinderen en Werkblad voor Kleuters Groep 1 2 3',
-    description: 'Maak professionele sorteer werkbladen met onze werkbladen generator. Je Volledige Toegang abonnement geeft je onbeperkte werkbladen zonder extra kosten per werkblad. Genereer aangepaste sorteer oefenbladen perfect voor kleuters en groep 3 leerlingen.',
+    title: 'Sorteer Werkbladen - Gratis Werkblad voor Kinderen en Werkblad voor',
+    description: 'Maak professionele sorteer werkbladen met onze werkbladen generator. Je Volledige Toegang abonnement geeft je onbeperkte werkbladen zonder extra kosten per.',
     keywords: 'sorteer werkbladen, werkbladen groep 3, werkbladen kleuters, oefenbladen gratis, fijne motoriek, rekenen werkbladen, letters leren, veilig leren lezen, tafels oefenen, sommen tot 20',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/sorteer-werkbladen',
     images: [

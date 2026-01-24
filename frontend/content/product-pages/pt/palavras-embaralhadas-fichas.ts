@@ -15,8 +15,8 @@ export const wordScramblePtContent: ProductPageContent = {
   seo: {
     slug: 'palavras-embaralhadas-fichas',
     appId: 'word-scramble',
-    title: 'Palavras Embaralhadas - Atividade Grátis para Crianças | Gerador de Fichas de Alfabetização',
-    description: 'Crie atividades grátis de palavras embaralhadas para educação infantil e ensino fundamental. Baixe imprimíveis grátis de alfabetização em PDF com gabarito. Atividade grátis para crianças de 1º ano e 2º ano com vogais, coordenação motora e letra cursiva.',
+    title: 'Palavras Embaralhadas - Atividade Grátis para Crianças',
+    description: 'Crie atividades grátis de palavras embaralhadas para educação infantil e ensino fundamental. Baixe imprimíveis grátis de alfabetização em PDF com gabarito.',
     keywords: 'palavras embaralhadas, atividade grátis, atividades grátis, imprimíveis grátis, atividade para crianças, atividade para educação infantil, atividades de alfabetização, educação infantil, 1º ano, 2º ano, vogais, alfabeto, coordenação motora, letra cursiva, pontilhado, desenhos para colorir',
     canonicalUrl: 'https://www.lessoncraftstudio.com/pt/apps/palavras-embaralhadas-fichas',
     images: [

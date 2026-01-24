@@ -19,7 +19,7 @@ export const drawingLinesEsContent: ProductPageContent = {
     slug: 'grafomotricidad-fichas',
     appId: 'drawing-lines',
     title: 'Fichas de Grafomotricidad Gratis | Ejercicios de Trazos Preescolar',
-    description: 'Crea fichas de grafomotricidad profesionales en segundos. Genera fichas infantil para motricidad fina. Descarga gratis en PDF 300 DPI. ¡Prueba ahora!',
+    description: 'Crea fichas de grafomotricidad profesionales en segundos. Genera fichas infantil para motricidad fina. Descarga gratis en PDF 300 DPI. ¡Prueba ahora! Perfecto para maestros y padres.',
     keywords: 'fichas de grafomotricidad, fichas para imprimir, fichas preescolar, fichas infantil, material educativo gratis, ejercicios de trazos, motricidad fina, lectoescritura, fichas gratis, dibujos para colorear',
     canonicalUrl: 'https://www.lessoncraftstudio.com/es/apps/grafomotricidad-fichas',
     images: [

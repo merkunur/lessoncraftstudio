@@ -25,8 +25,8 @@ export const patternTrainPtContent: ProductPageContent = {
   seo: {
     slug: 'trem-padroes-fichas',
     appId: 'pattern-train',
-    title: 'Atividade Grátis de Trenzinho de Padrões - Atividade para Educação Infantil | Gerador de Atividades',
-    description: 'Crie atividades grátis de sequência lógica com tema de trenzinho em poucos cliques. Atividade grátis para crianças com sua assinatura Acesso Completo. Baixe imprimíveis grátis de alta qualidade prontas para desenvolver raciocínio lógico.',
+    title: 'Atividade Grátis de Trenzinho de Padrões | Planilhas Grátis',
+    description: 'Crie atividades grátis de sequência lógica com tema de trenzinho em poucos cliques. Atividade grátis para crianças com sua assinatura Acesso Completo.',
     keywords: 'atividade grátis, atividade grátis para crianças, atividades grátis, imprimíveis grátis, atividade para crianças, atividade para educação infantil, atividade, atividades de sequência lógica, atividades para imprimir, coordenação motora, raciocínio lógico, padrões, trenzinho de padrões',
     canonicalUrl: 'https://www.lessoncraftstudio.com/pt/apps/trem-padroes-fichas',
     images: [

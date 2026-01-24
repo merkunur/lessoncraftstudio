@@ -28,7 +28,7 @@ export const moreLessNlContent: ProductPageContent = {
     slug: 'meer-minder-werkbladen',
     appId: 'more-less',
     title: 'Gratis Werkblad Meer Minder | Werkbladen voor Kleuters en Groep 3',
-    description: 'Maak gratis werkbladen meer minder voor kleuters en groep 3. Professionele 300 DPI kwaliteit. Download in minder dan 3 minuten.',
+    description: 'Maak gratis werkbladen meer minder voor kleuters en groep 3. Professionele 300 DPI kwaliteit. Download in minder dan 3 minuten. Perfect voor leraren en ouders.',
     keywords: 'meer minder werkbladen, gratis werkblad, werkblad voor kinderen, werkblad voor kleuters, gratis printables, gratis werkbladen, rekenen werkbladen',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/meer-minder-werkbladen',
     images: [

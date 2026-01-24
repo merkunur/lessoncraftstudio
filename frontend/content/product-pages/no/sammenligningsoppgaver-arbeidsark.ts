@@ -17,8 +17,8 @@ export const moreLessNoContent: ProductPageContent = {
   seo: {
     slug: 'sammenligningsoppgaver-arbeidsark',
     appId: 'more-less',
-    title: 'Matematikk Oppgaver Sammenligningsverktøy - Arbeidsark Gratis Tall og Telling - Mer Mindre Aktiviteter Barn',
-    description: 'Lag profesjonelle sammenligningsoppgaver med vårt matematikk oppgaver verktøy. Full Tilgang-abonnementet gir deg ubegrenset tilgang til å lage arbeidsark gratis uten ekstra kostnader per oppgave. Opprett tilpassede tall og telling arbeidsark perfekte for barnehage og småskoletrinnet.',
+    title: 'Matematikk Oppgaver Sammenligningsverktøy | Gratis Arbeidsark',
+    description: 'Lag profesjonelle sammenligningsoppgaver med vårt matematikk oppgaver verktøy. Full Tilgang-abonnementet gir deg ubegrenset tilgang til å lage arbeidsark.',
     keywords: 'matematikk oppgaver, sammenligningsoppgaver, arbeidsark gratis, tall og telling, mer mindre, større enn, mindre enn, oppgavehefter barn, barnehage, småskoletrinnet',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/sammenligningsoppgaver-arbeidsark',
   },

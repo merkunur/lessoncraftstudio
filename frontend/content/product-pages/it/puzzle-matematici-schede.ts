@@ -19,8 +19,8 @@ export const mathPuzzleItContent: ProductPageContent = {
   seo: {
     slug: 'puzzle-matematici-schede',
     appId: 'math-puzzle',
-    title: 'Schede Gratuite Puzzle Matematici | Scheda Gratuita per Bambini Scuola Primaria',
-    description: 'Crea schede gratuite puzzle matematici professionali con simboli e immagini. Stampabili gratuiti per scuola dell\'infanzia e primaria. Scheda gratuita per bambini con addizione e sottrazione. Scarica schede didattiche matematica in PDF in meno di 3 minuti.',
+    title: 'Schede Gratuite Puzzle Matematici | Scheda Gratuita per Bambini',
+    description: 'Crea schede gratuite puzzle matematici professionali con simboli e immagini. Stampabili gratuiti per scuola dell\'infanzia e primaria. Scheda gratuita per.',
     keywords: 'puzzle matematici, schede gratuite, scheda gratuita, stampabili gratuiti, scheda per bambini, scheda per scuola dell\'infanzia, schede didattiche matematica, schede didattiche scuola primaria, generatore puzzle matematici, classe prima, classe seconda, classe terza',
     canonicalUrl: 'https://www.lessoncraftstudio.com/it/apps/puzzle-matematici-schede',
     images: [

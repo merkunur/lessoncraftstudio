@@ -30,7 +30,7 @@ export const patternTrainDeContent: ProductPageContent = {
     slug: 'muster-zug-arbeitsblaetter',
     appId: 'pattern-train',
     title: 'Muster-Zug Arbeitsblätter Kostenlos | Generator Grundschule Vorschule',
-    description: 'Muster-Zug Arbeitsblätter in 3 Minuten erstellen. 5 Mustertypen, 3000+ Bilder, 300 DPI. Perfekt für Vorschule und Grundschule. Jetzt testen!',
+    description: 'Muster-Zug Arbeitsblätter in 3 Minuten erstellen. 5 Mustertypen, 3000+ Bilder, 300 DPI. Perfekt für Vorschule und Grundschule. Jetzt testen! Perfekt für Lehrer und Eltern.',
     keywords: 'muster zug arbeitsblätter, arbeitsblätter grundschule, kostenlose arbeitsblätter, mathe arbeitsblätter, vorschule arbeitsblätter, einmaleins, schwungübungen, buchstaben lernen, rechnen lernen, ausmalbilder',
     canonicalUrl: 'https://www.lessoncraftstudio.com/de/apps/muster-zug-arbeitsblaetter',
     images: [

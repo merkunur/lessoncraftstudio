@@ -27,8 +27,8 @@ export const subtractionNlContent: ProductPageContent = {
   seo: {
     slug: 'aftrekken-werkbladen',
     appId: 'subtraction',
-    title: 'Aftrekken Werkbladen Maker - Rekenen Werkbladen voor Groep 1-3 - Oefenbladen Gratis Printen',
-    description: 'Maak professionele aftrekken werkbladen met onze rekenen werkbladen generator. Met een Volledige Toegang abonnement krijg je onbeperkt werkbladen zonder kosten per werkblad. Genereer op maat gemaakte oefenbladen voor groep 1, groep 2 en groep 3.',
+    title: 'Aftrekken Werkbladen Maker - Rekenen Werkbladen voor Groep 1-3 -',
+    description: 'Maak professionele aftrekken werkbladen met onze rekenen werkbladen generator. Met een Volledige Toegang abonnement krijg je onbeperkt werkbladen zonder kosten.',
     keywords: 'aftrekken werkbladen, rekenen werkbladen, werkbladen groep 3, werkbladen kleuters, sommen tot 20, oefenbladen gratis, tafels oefenen, veilig leren lezen, fijne motoriek, letters leren',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/aftrekken-werkbladen',
     images: [

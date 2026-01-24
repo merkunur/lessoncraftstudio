@@ -15,8 +15,8 @@ export const findAndCountItContent: ProductPageContent = {
   seo: {
     slug: 'trova-e-conta-schede',
     appId: 'find-and-count',
-    title: 'Schede Gratuite Trova e Conta - Scheda Gratuita per Bambini | Stampabili Gratuiti Scuola Infanzia',
-    description: 'Crea schede didattiche professionali trova e conta con il nostro generatore. Genera schede didattiche scuola primaria personalizzate perfette per bambini della scuola dell\'infanzia e classe prima. Scarica schede matematica di alta qualità in formato PDF in meno di 3 minuti.',
+    title: 'Schede Gratuite Trova e Conta - Scheda Gratuita per Bambini',
+    description: 'Crea schede didattiche professionali trova e conta con il nostro generatore. Genera schede didattiche scuola primaria personalizzate perfette per bambini della.',
     keywords: 'schede didattiche trova e conta, schede matematica, scuola infanzia, scuola primaria, schede stampabili, generatore schede, conteggio, classe prima, esercizi matematica, numeri da stampare',
     canonicalUrl: 'https://www.lessoncraftstudio.com/it/apps/trova-e-conta-schede',
     images: [

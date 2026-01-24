@@ -29,7 +29,7 @@ export const codeAdditionNlContent: ProductPageContent = {
   seo: {
     slug: 'visuele-optelsommen-werkbladen',
     appId: 'code-addition',
-    title: 'Gratis Werkblad Visuele Optelsommen - Werkblad voor Kinderen en Kleuters',
+    title: 'Gratis Werkblad Visuele Optelsommen - Werkblad voor Kinderen en',
     description: 'Maak gratis werkbladen visuele optelsommen met onze generator. Gratis printables voor kinderen en kleuters. Download werkblad voor kinderen in 3 minuten.',
     keywords: 'visuele optelsommen, rekenen werkbladen, werkbladen groep 3, werkbladen kleuters, sommen tot 20, oefenbladen gratis, tafels oefenen, veilig leren lezen, fijne motoriek, letters leren',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/visuele-optelsommen-werkbladen',

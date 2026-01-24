@@ -15,8 +15,8 @@ export const coloringPtContent: ProductPageContent = {
   seo: {
     slug: 'desenhos-colorir-fichas',
     appId: 'coloring',
-    title: 'Desenhos para Colorir - Atividades Grátis para Imprimir - Páginas de Colorir para Educação Infantil',
-    description: 'Crie desenhos para colorir profissionais com nosso gerador de atividades grátis para imprimir. Com sua assinatura, gere páginas de colorir ilimitadas. Produza atividades grátis para crianças personalizadas em menos de 3 minutos.',
+    title: 'Desenhos para Colorir - Atividades Grátis para Imprimir - Páginas de',
+    description: 'Crie desenhos para colorir profissionais com nosso gerador de atividades grátis para imprimir. Com sua assinatura, gere páginas de colorir ilimitadas.',
     keywords: 'desenhos para colorir, atividades para imprimir, atividades educação infantil, coordenação motora, atividades de alfabetização, atividades vogais, letra cursiva, pontilhado, tabuada, atividades de matemática, 1º ano, 2º ano',
     canonicalUrl: 'https://www.lessoncraftstudio.com/pt/apps/desenhos-colorir-fichas',
     images: [

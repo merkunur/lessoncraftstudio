@@ -17,8 +17,8 @@ export const treasureHuntFiContent: ProductPageContent = {
   seo: {
     slug: 'aarteenetsinta-tyoarkit',
     appId: 'treasure-hunt',
-    title: 'Aarteenetsintä-tehtävät Lapsille - Tulostettavat Tehtävät Lapsille Ilmainen Suunnittelija - Esiopetus Materiaali Ilmainen',
-    description: 'Luo ammattimaisia aarteenetsintä-tehtäviä tulostettavat tehtävät lapsille ilmainen suunnittelijalla. Full Access -tilauksesi antaa rajattoman tehtävien luomisen ilman per-tehtävä maksuja. Lataa 300 DPI PDF alle 3 minuutissa.',
+    title: 'Aarteenetsintä-tehtävät Lapsille - Tulostettavat Tehtävät Lapsille',
+    description: 'Luo ammattimaisia aarteenetsintä-tehtäviä tulostettavat tehtävät lapsille ilmainen suunnittelijalla. Full Access -tilauksesi antaa rajattoman tehtävien.',
     keywords: 'aarteenetsintä tehtävät, tulostettavat tehtävät lapsille ilmainen, esiopetus materiaali ilmainen, suuntasanasto, hienomotoriikka harjoitukset, lukemaan oppiminen tehtävät',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fi/apps/aarteenetsinta-tyoarkit',
   },

@@ -15,8 +15,8 @@ export const gridMatchDaContent: ProductPageContent = {
   seo: {
     slug: 'raster-puslespil-arbejdsark',
     appId: 'grid-match',
-    title: 'Raster-Puslespil - Gratis Arbejdsark Generator til Børnehaveklasse og Børn',
-    description: 'Lav professionelle raster-puslespil med vores opgavegenerator. Din Fuld Adgang-abonnement giver dig ubegrænset oprettelse af opgaver uden gebyrer per opgave. Generer tilpassede arbejdsark perfekt til børnehaveklassen og 1. klasse. Download opgaver til print i høj kvalitet som PDF på under 3 minutter.',
+    title: 'Raster-Puslespil - Gratis Arbejdsark Generator til Børnehaveklasse og',
+    description: 'Lav professionelle raster-puslespil med vores opgavegenerator. Din Fuld Adgang-abonnement giver dig ubegrænset oprettelse af opgaver uden gebyrer per opgave.',
     keywords: 'raster-puslespil, opgaver til print, matematikopgaver, arbejdsark, gratis skoleopgaver, børnehaveklassen, 1. klasse, finmotorik øvelser, visuel opfattelse, problemløsning',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/raster-puslespil-arbejdsark',
     images: [

@@ -18,7 +18,7 @@ export const patternWorksheetDaContent: ProductPageContent = {
     slug: 'moenstre-arbejdsark',
     appId: 'pattern-worksheet',
     title: 'Mønster Gratis Arbejdsark - Generator til Børnehaveklasse og 0. Klasse',
-    description: 'Lav mønstergenkendelses gratis arbejdsark til børn med vores professionelle generator. Ubegrænset arbejdsark til børnehaveklasse. Download gratis printables som PDF på 3 minutter med mønsteropgaver.',
+    description: 'Lav mønstergenkendelses gratis arbejdsark til børn med vores professionelle generator. Ubegrænset arbejdsark til børnehaveklasse. Download gratis printables.',
     keywords: 'mønstergenkendelse, gratis arbejdsark, arbejdsark til børn, arbejdsark til børnehaveklasse, gratis printables, opgaver til print, matematikopgaver, 0. klasse, 1. klasse, mønstre, kopiark',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/moenstre-arbejdsark',
     images: [

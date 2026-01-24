@@ -17,7 +17,7 @@ export const bigSmallPtContent: ProductPageContent = {
   seo: {
     slug: 'grande-pequeno-fichas',
     appId: 'big-small',
-    title: 'Grande e Pequeno - Atividades Grátis para Imprimir para Educação Infantil',
+    title: 'Grande e Pequeno - Atividades Grátis para Imprimir para Educação',
     description: 'Crie atividades grátis de grande e pequeno para crianças. Gerador de comparação de tamanhos para educação infantil. Gere fichas profissionais em 3 minutos!',
     keywords: 'atividades de grande e pequeno, atividades para imprimir, atividades educação infantil, atividades 1º ano, atividades 2º ano, coordenação motora, comparação de tamanho, atividades de matemática, desenhos para colorir, letra cursiva, pontilhado, atividades de alfabetização',
     canonicalUrl: 'https://www.lessoncraftstudio.com/pt/apps/grande-pequeno-fichas',

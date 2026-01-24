@@ -17,8 +17,8 @@ export const subtractionItContent: ProductPageContent = {
   seo: {
     slug: 'sottrazione-schede',
     appId: 'subtraction',
-    title: 'Schede Gratuite di Sottrazione | Stampabili Matematica Scuola Primaria e Infanzia',
-    description: 'Crea schede didattiche di sottrazione professionali con immagini per la scuola primaria e dell\'infanzia. Genera schede matematica illimitate con il nostro generatore. Scarica PDF di alta qualità in meno di 3 minuti.',
+    title: 'Schede Gratuite di Sottrazione | Stampabili Matematica Scuola',
+    description: 'Crea schede didattiche di sottrazione professionali con immagini per la scuola primaria e dell\'infanzia. Genera schede matematica illimitate con il nostro.',
     keywords: 'schede didattiche sottrazione, schede matematica, scuola primaria, scuola infanzia, schede stampabili, generatore schede, sottrazioni immagini, classe prima, esercizi matematica, numeri da stampare',
     canonicalUrl: 'https://www.lessoncraftstudio.com/it/apps/sottrazione-schede',
     images: [

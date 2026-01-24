@@ -15,8 +15,8 @@ export const patternWorksheetsItContent: ProductPageContent = {
   seo: {
     slug: 'schede-pattern',
     appId: 'pattern-worksheet',
-    title: 'Schede Gratuite Pattern | Generatore Stampabili Gratuiti per Bambini - Scheda per Scuola dell\'Infanzia',
-    description: 'Crea schede gratuite pattern con il nostro generatore. Stampabili gratuiti per bambini della scuola dell\'infanzia e classe prima. Scheda gratuita per bambini con sequenze AB, AAB, ABC. Scarica PDF 300 DPI in meno di 3 minuti.',
+    title: 'Schede Gratuite Pattern | Generatore Stampabili Gratuiti per Bambini',
+    description: 'Crea schede gratuite pattern con il nostro generatore. Stampabili gratuiti per bambini della scuola dell\'infanzia e classe prima. Scheda gratuita per bambini.',
     keywords: 'schede gratuite pattern, scheda gratuita bambini, stampabili gratuiti scuola infanzia, scheda per bambini pattern, schede didattiche sequenze, scuola primaria, classe prima, riconoscimento pattern, pregrafismo',
     canonicalUrl: 'https://www.lessoncraftstudio.com/it/apps/schede-pattern',
     images: [

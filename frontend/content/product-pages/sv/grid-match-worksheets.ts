@@ -15,8 +15,8 @@ export const gridMatchSvContent: ProductPageContent = {
   seo: {
     slug: 'rutnatsmatching-arbetsblad',
     appId: 'grid-match',
-    title: 'Rutnätsmatching Arbetsblad - Arbetsblad Gratis för Förskoleklass Material och Finmotorik Övningar',
-    description: 'Skapa professionella rutnätsmatching-arbetsblad med vår svenska arbetsbladsgenerator. Din Full Tillgång-prenumeration ger dig obegränsat skapande av arbetsblad utan extra avgifter per arbetsblad. Generera anpassade arbetsblad gratis som är perfekta för förskoleklass, årskurs 1, 2 och 3.',
+    title: 'Rutnätsmatching Arbetsblad - Arbetsblad Gratis för Förskoleklass',
+    description: 'Skapa professionella rutnätsmatching-arbetsblad med vår svenska arbetsbladsgenerator. Din Full Tillgång-prenumeration ger dig obegränsat skapande av arbetsblad.',
     keywords: 'rutnätsmatching arbetsblad, arbetsblad gratis, förskoleklass material, finmotorik övningar, rutnätsmatching, visuell diskriminering, matematik arbetsblad, rumsligt tänkande, spatial medvetenhet, problemlösning',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/rutnatsmatching-arbetsblad',
     images: [

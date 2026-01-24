@@ -15,8 +15,8 @@ export const graficosConteoEsContent: ProductPageContent = {
   seo: {
     slug: 'graficos-conteo-fichas',
     appId: 'chart-count',
-    title: 'Fichas de Gráficos con Imágenes para Imprimir | Generador de Fichas de Matemáticas para Preescolar y Primaria',
-    description: 'Crea fichas de gráficos con imágenes profesionales con nuestro generador especializado. Los gráficos de conteo con imágenes enseñan a los niños a contar, clasificar y representar datos visualmente. Descarga fichas gratis de alta calidad en formato PDF en menos de 3 minutos.',
+    title: 'Fichas de Gráficos con Imágenes para Imprimir | Fichas Gratis',
+    description: 'Crea fichas de gráficos con imágenes profesionales con nuestro generador especializado. Los gráficos de conteo con imágenes enseñan a los niños a contar.',
     keywords: 'fichas de gráficos, gráficos con imágenes, fichas para imprimir, fichas infantil, fichas preescolar, fichas de matemáticas, ejercicios matemáticas, material educativo gratis, fichas gratis, aprender los números, grafomotricidad, lectoescritura, dibujos para colorear, tablas de multiplicar',
     canonicalUrl: 'https://www.lessoncraftstudio.com/es/apps/graficos-conteo-fichas',
     images: [

@@ -18,8 +18,8 @@ export const writingEsContent: ProductPageContent = {
   seo: {
     slug: 'lectoescritura-fichas',
     appId: 'writing',
-    title: 'Ficha Gratis de Lectoescritura para Niños | Generador de Fichas de Grafomotricidad para Preescolar',
-    description: 'Crea fichas profesionales de lectoescritura y caligrafía con nuestro generador de fichas para imprimir. Genera fichas preescolar personalizadas de abecedario, letra cursiva y números en menos de 3 minutos. Descarga material educativo gratis en PDF de alta calidad.',
+    title: 'Ficha Gratis de Lectoescritura para Niños | Fichas Gratis',
+    description: 'Crea fichas profesionales de lectoescritura y caligrafía con nuestro generador de fichas para imprimir. Genera fichas preescolar personalizadas de abecedario.',
     keywords: 'fichas de lectoescritura, fichas para imprimir, fichas de caligrafía, fichas preescolar, fichas infantil, abecedario, letra cursiva, letra de molde, material educativo gratis, fichas gratis, aprender las letras',
     canonicalUrl: 'https://www.lessoncraftstudio.com/es/apps/lectoescritura-fichas',
     images: [

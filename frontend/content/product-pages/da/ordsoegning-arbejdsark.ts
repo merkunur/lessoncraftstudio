@@ -15,8 +15,8 @@ export const wordSearchDaContent: ProductPageContent = {
   seo: {
     slug: 'ordsoegning-arbejdsark',
     appId: 'wordsearch',
-    title: 'Gratis Ordsøgningsopgaver til Print | Arbejdsark til 0. Klasse og 1. Klasse',
-    description: 'Lav professionelle ordsøgningsopgaver til børnehaveklassen og indskolingen med vores gratis generator. Perfekt til gratis skoleopgaver, arbejdsark til print og opgaver til 0. klasse og 1. klasse. Ordsøgningsgeneratoren egner sig til lære bogstaver, læse og skrive og stavning.',
+    title: 'Gratis Ordsøgningsopgaver til Print | Arbejdsark til 0. Klasse og 1.',
+    description: 'Lav professionelle ordsøgningsopgaver til børnehaveklassen og indskolingen med vores gratis generator. Perfekt til gratis skoleopgaver, arbejdsark til print og.',
     keywords: 'ordsøgning arbejdsark, gratis skoleopgaver, arbejdsark til print, opgaver til 0 klasse, opgaver til 1 klasse, lære bogstaver, læse og skrive, ordsøgningsgenerator, printklare opgaver, dansk skoleopgaver',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/ordsoegning-arbejdsark',
     images: [

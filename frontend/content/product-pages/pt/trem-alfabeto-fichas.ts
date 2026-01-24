@@ -17,8 +17,8 @@ export const alphabetTrainPtContent: ProductPageContent = {
   seo: {
     slug: 'trem-alfabeto-fichas',
     appId: 'alphabet-train',
-    title: 'Atividades do Trenzinho do Alfabeto Grátis - Gerador de Atividades de Alfabetização para Imprimir',
-    description: 'Crie atividades de alfabetização profissionais com nosso gerador de trenzinho do alfabeto. Sua assinatura Pacote Essencial oferece criação ilimitada de atividades para imprimir sem taxas extras. Produza atividades vogais e alfabeto personalizadas em menos de 3 minutos.',
+    title: 'Atividades do Trenzinho do Alfabeto Grátis | Planilhas Grátis',
+    description: 'Crie atividades de alfabetização profissionais com nosso gerador de trenzinho do alfabeto. Sua assinatura Pacote Essencial oferece criação ilimitada de.',
     keywords: 'atividades de alfabetização, atividades para imprimir, atividades educação infantil, atividades vogais, alfabeto, coordenação motora, desenhos para colorir, letra cursiva, pontilhado, 1º ano, 2º ano, trenzinho do alfabeto',
     canonicalUrl: 'https://www.lessoncraftstudio.com/pt/apps/trem-alfabeto-fichas',
     images: [

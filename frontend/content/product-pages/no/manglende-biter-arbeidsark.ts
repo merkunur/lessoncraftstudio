@@ -15,8 +15,8 @@ export const missingPiecesNoContent: ProductPageContent = {
   seo: {
     slug: 'manglende-biter-arbeidsark',
     appId: 'missing-pieces',
-    title: 'Arbeidsark Gratis - Manglende Biter Puslespill Generator - Finmotorikk Øvelser og Matematikk Oppgaver for Barnehage',
-    description: 'Lag profesjonelle manglende biter puslespill med vår visuelle puslespillgenerator. Din Full Tilgang-abonnement gir deg ubegrenset puslespill uten ekstra kostnader per ark. Generer tilpassede arbeidsark gratis for visuelle diskrimineringsøvelser perfekt for barnehage og småskoletrinnet.',
+    title: 'Arbeidsark Gratis - Manglende Biter Puslespill Generator -',
+    description: 'Lag profesjonelle manglende biter puslespill med vår visuelle puslespillgenerator. Din Full Tilgang-abonnement gir deg ubegrenset puslespill uten ekstra.',
     keywords: 'manglende biter puslespill, arbeidsark gratis, matematikk oppgaver, finmotorikk øvelser, oppgavehefter barn, tall og telling, barnehage, småskoletrinnet, visuell diskriminering, fargeleggingsbilder barn',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/manglende-biter-arbeidsark',
   },

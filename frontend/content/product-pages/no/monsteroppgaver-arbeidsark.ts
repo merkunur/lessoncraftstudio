@@ -17,8 +17,8 @@ export const patternWorksheetNoContent: ProductPageContent = {
   seo: {
     slug: 'monsteroppgaver-arbeidsark',
     appId: 'pattern-worksheet',
-    title: 'Mønsteroppgaver Generator - Arbeidsark Gratis for Matematikk Oppgaver og Tall og Telling',
-    description: 'Lag profesjonelle mønstergjenkjenningsoppgaver med vår mønsteroppgave-generator. Full Tilgang-abonnementet gir deg ubegrenset opprettelse av mønsteroppgaver uten ekstra kostnader. Generer tilpassede matematikk oppgaver perfekt for barnehage og småskoletrinnet. Last ned høykvalitets PDF-arbeidsark på under 3 minutter.',
+    title: 'Mønsteroppgaver Generator - Arbeidsark Gratis for Matematikk Oppgaver',
+    description: 'Lag profesjonelle mønstergjenkjenningsoppgaver med vår mønsteroppgave-generator. Full Tilgang-abonnementet gir deg ubegrenset opprettelse av mønsteroppgaver.',
     keywords: 'mønsteroppgaver, arbeidsark gratis, matematikk oppgaver, tall og telling, oppgavehefter barn, småskoletrinnet, finmotorikk øvelser, lesetrening, fargeleggingsbilder barn, bokstaver lære skrive',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/monsteroppgaver-arbeidsark',
   },

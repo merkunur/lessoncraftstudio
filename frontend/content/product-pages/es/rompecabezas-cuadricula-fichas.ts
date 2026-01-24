@@ -18,8 +18,8 @@ export const gridMatchEsContent: ProductPageContent = {
   seo: {
     slug: 'rompecabezas-cuadricula-fichas',
     appId: 'grid-match',
-    title: 'Rompecabezas de Cuadrícula - Generador de Fichas de Raster para Preescolar y Primaria',
-    description: 'Crea rompecabezas de cuadrícula profesionales con nuestro generador de fichas para imprimir. Tu suscripción Acceso Completo te da acceso ilimitado a todas las herramientas por $240 al año. Genera fichas de matemáticas personalizadas con rompecabezas visuales perfectos para educación infantil y primaria.',
+    title: 'Rompecabezas de Cuadrícula - Generador de Fichas de Raster para',
+    description: 'Crea rompecabezas de cuadrícula profesionales con nuestro generador de fichas para imprimir. Tu suscripción Acceso Completo te da acceso ilimitado a todas las.',
     keywords: 'rompecabezas cuadrícula, fichas para imprimir, fichas preescolar, fichas infantil, material educativo gratis, fichas de matemáticas, grafomotricidad, lectoescritura, abecedario, números',
     canonicalUrl: 'https://www.lessoncraftstudio.com/es/apps/rompecabezas-cuadricula-fichas',
     images: [

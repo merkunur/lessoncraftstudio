@@ -15,7 +15,7 @@ export const drawAndColorSvContent: ProductPageContent = {
   seo: {
     slug: 'rutritning-arbetsblad',
     appId: 'draw-and-color',
-    title: 'Målarbilder Barn och Ritövningar - Arbetsblad Gratis för Förskoleklass Material',
+    title: 'Målarbilder Barn och Ritövningar - Arbetsblad Gratis för',
     description: 'Skapa gratis arbetsblad för rutnätsritning och målarbilder barn. Ladda ner finmotorik övningar för förskoleklass på under 3 minuter. Prova gratis idag!',
     keywords: 'målarbilder barn, ritövningar, arbetsblad gratis, förskoleklass material, finmotorik övningar, rutnätsteknik, matematik arbetsblad, bokstäver lära sig, siffror och tal, rutnätsritning',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/rutritning-arbetsblad',

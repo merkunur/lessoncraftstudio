@@ -17,8 +17,8 @@ export const subtractionPtContent: ProductPageContent = {
   seo: {
     slug: 'subtracao-fichas',
     appId: 'subtraction',
-    title: 'Atividades de Subtração Grátis para Imprimir - Gerador de Atividades de Matemática',
-    description: 'Crie atividades de subtração profissionais para seus alunos em menos de 3 minutos. Com sua assinatura Acesso Completo, você tem acesso ilimitado para gerar quantas fichas precisar sem custos extras por atividade. Baixe em PDF de alta qualidade.',
+    title: 'Atividades de Subtração Grátis para Imprimir | Planilhas Grátis',
+    description: 'Crie atividades de subtração profissionais para seus alunos em menos de 3 minutos. Com sua assinatura Acesso Completo, você tem acesso ilimitado para gerar.',
     keywords: 'atividades de subtração, atividades de matemática, atividades para imprimir, educação infantil, 1º ano, 2º ano, coordenação motora, tabuada, desenhos para colorir, atividades de alfabetização, letra cursiva, pontilhado',
     canonicalUrl: 'https://www.lessoncraftstudio.com/pt/apps/subtracao-fichas',
     images: [

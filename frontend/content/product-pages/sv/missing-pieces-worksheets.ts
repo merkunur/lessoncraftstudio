@@ -15,8 +15,8 @@ export const missingPiecesSvContent: ProductPageContent = {
   seo: {
     slug: 'saknade-bitar-arbetsblad',
     appId: 'missing-pieces',
-    title: 'Saknade Bitar Arbetsblad Gratis - Generator för Förskoleklass Material och Finmotorik Övningar',
-    description: 'Skapa professionella arbetsblad med saknade bitar på bara tre minuter. Din Full Tillgång-prenumeration ger dig obegränsad skapande av saknade bitar-pussel utan extra kostnader per arbetsblad. Generera anpassade arbetsblad gratis för utskrift perfekt för förskoleklass material och finmotorik övningar.',
+    title: 'Saknade Bitar Arbetsblad Gratis - Generator för Förskoleklass',
+    description: 'Skapa professionella arbetsblad med saknade bitar på bara tre minuter. Din Full Tillgång-prenumeration ger dig obegränsad skapande av saknade bitar-pussel utan.',
     keywords: 'saknade bitar arbetsblad, arbetsblad gratis, förskoleklass material, finmotorik övningar, matematik arbetsblad, bokstäver lära sig, siffror och tal, matte övningar, målarbilder barn, visuella pussel',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/saknade-bitar-arbetsblad',
     images: [

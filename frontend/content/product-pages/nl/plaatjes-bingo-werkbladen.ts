@@ -29,8 +29,8 @@ export const pictureBingoNlContent: ProductPageContent = {
   seo: {
     slug: 'plaatjes-bingo-werkbladen',
     appId: 'bingo',
-    title: 'Gratis Werkblad Plaatjes Bingo - Generator voor Werkbladen Kleuters en Groep 1-3',
-    description: 'Maak professionele bingo werkbladen met onze plaatjes bingo generator. Met je Basispakket abonnement genereer je onbeperkt werkbladen voor groep 1, 2 en 3. Download direct als PDF en print thuis of op school. Leerlingen leren spelenderwijs met visuele herkenning en woordenschat.',
+    title: 'Gratis Werkblad Plaatjes Bingo - Generator voor Werkbladen Kleuters',
+    description: 'Maak professionele bingo werkbladen met onze plaatjes bingo generator. Met je Basispakket abonnement genereer je onbeperkt werkbladen voor groep 1, 2 en 3.',
     keywords: 'plaatjes bingo, werkbladen kleuters, werkbladen groep 3, oefenbladen gratis, rekenen werkbladen, letters leren, veilig leren lezen, sommen tot 20, kleurplaten, fijne motoriek, tafels oefenen, bingo generator',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/plaatjes-bingo-werkbladen',
     images: [

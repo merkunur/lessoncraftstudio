@@ -19,8 +19,8 @@ export const cryptogramFiContent: ProductPageContent = {
   seo: {
     slug: 'kuvakryptogrammi-tyoarkit',
     appId: 'cryptogram',
-    title: 'Kuvakryptogrammi Generaattori - Tulostettavat Tehtävät Lapsille Ilmainen | Kirjaimet Harjoittelu Esikoulu',
-    description: 'Luo ammattimaisia kuvakryptogrammi-tehtäviä, joissa kirjaimet korvataan kuvilla. Täysi Käyttöoikeus -tilauksesi antaa rajattoman kryptogrammi-tehtävien luonnin. Lataa laadukkaat PDF-tehtävät alle 3 minuutissa.',
+    title: 'Kuvakryptogrammi Generaattori - Tulostettavat Tehtävät Lapsille',
+    description: 'Luo ammattimaisia kuvakryptogrammi-tehtäviä, joissa kirjaimet korvataan kuvilla. Täysi Käyttöoikeus -tilauksesi antaa rajattoman kryptogrammi-tehtävien luonnin.',
     keywords: 'kuvakryptogrammi, tulostettavat tehtävät lapsille ilmainen, kirjaimet harjoittelu esikoulu, esiopetus materiaali ilmainen, lukemaan oppiminen tehtävät, matematiikka tehtävät alakoulu',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fi/apps/kuvakryptogrammi-tyoarkit',
   },

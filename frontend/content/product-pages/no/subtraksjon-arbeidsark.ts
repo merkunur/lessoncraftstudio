@@ -17,8 +17,8 @@ export const subtractionNoContent: ProductPageContent = {
   seo: {
     slug: 'subtraksjon-arbeidsark',
     appId: 'subtraction',
-    title: 'Subtraksjon Arbeidsark Generator - Matematikk Oppgaver Addisjon og Subtraksjon - Arbeidsark Gratis',
-    description: 'Lag profesjonelle subtraksjon arbeidsark med vår bilder-baserte matematikk oppgaver generator. Full Tilgang-abonnementet gir deg ubegrenset oppretting av arbeidsark. Generer tilpassede matteoppgaver perfekt for barneskole småskoletrinnet. Last ned høykvalitets PDF arbeidsark på under 3 minutter.',
+    title: 'Subtraksjon Arbeidsark Generator - Matematikk Oppgaver Addisjon og',
+    description: 'Lag profesjonelle subtraksjon arbeidsark med vår bilder-baserte matematikk oppgaver generator. Full Tilgang-abonnementet gir deg ubegrenset oppretting av.',
     keywords: 'subtraksjon arbeidsark, matematikk oppgaver, addisjon og subtraksjon, arbeidsark gratis, matteoppgaver, oppgavehefter barn, tall og telling, småskoletrinnet, barneskolen, gangetabellen',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/subtraksjon-arbeidsark',
   },

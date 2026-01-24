@@ -15,8 +15,8 @@ export const drawAndColorItContent: ProductPageContent = {
   seo: {
     slug: 'disegno-griglia-schede',
     appId: 'draw-and-color',
-    title: 'Disegni con Griglia Schede Gratuite | Scheda Gratuita per Bambini Pregrafismo',
-    description: 'Crea schede gratuite professionali di disegno con griglia per bambini. Genera pregrafismo e disegni da colorare per scuola dell\'infanzia in meno di 3 minuti. Scarica PDF a 300 DPI. Stampabili gratuiti per scuola primaria.',
+    title: 'Disegni con Griglia Schede Gratuite | Scheda Gratuita per Bambini',
+    description: 'Crea schede gratuite professionali di disegno con griglia per bambini. Genera pregrafismo e disegni da colorare per scuola dell\'infanzia in meno di 3 minuti.',
     keywords: 'disegno griglia, pregrafismo, schede didattiche, scuola infanzia, scuola primaria, disegni da colorare, schede matematica, alfabeto, numeri da stampare, scheda gratuita, schede gratuite, stampabili gratuiti, scheda per bambini',
     canonicalUrl: 'https://www.lessoncraftstudio.com/it/apps/disegno-griglia-schede',
     images: [

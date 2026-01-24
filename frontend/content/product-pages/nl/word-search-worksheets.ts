@@ -27,8 +27,8 @@ export const wordSearchNlContent: ProductPageContent = {
   seo: {
     slug: 'woordzoeker-werkbladen',
     appId: 'wordsearch',
-    title: 'Woordzoeker Generator - Gratis Werkblad voor Kinderen | Werkbladen Groep 3 en Kleuters',
-    description: 'Maak professionele woordzoekers voor het basisonderwijs. Deze gratis woordzoeker generator is perfect voor werkbladen groep 3, werkbladen kleuters en oefenbladen. Ontwerp werkbladen die kinderen uitdagen en vermaken. De woordzoeker maker werkt volledig in het Nederlands.',
+    title: 'Woordzoeker Generator - Gratis Werkblad voor Kinderen',
+    description: 'Maak professionele woordzoekers voor het basisonderwijs. Deze gratis woordzoeker generator is perfect voor werkbladen groep 3, werkbladen kleuters en.',
     keywords: 'woordzoeker generator, werkbladen groep 3, werkbladen kleuters, oefenbladen gratis, letters leren, veilig leren lezen, rekenen werkbladen, kleurplaten, fijne motoriek, sommen tot 20',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/woordzoeker-werkbladen',
     images: [

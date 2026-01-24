@@ -17,8 +17,8 @@ export const missingPiecesFiContent: ProductPageContent = {
   seo: {
     slug: 'puuttuvat-palat-tyoarkit',
     appId: 'missing-pieces',
-    title: 'Puuttuvan Palan Tehtävät - Tulostettavat Tehtävät Lapsille Ilmainen - Esiopetus Materiaali Ilmainen',
-    description: 'Luo ammattimaisia puuttuvan palan tehtäviä ilmaisella generoinnilla Täysi Käyttöoikeus -tilauksellasi. Puuttuvan palan tehtävät kehittävät visuaalista hahmottamista ja ongelmanratkaisua. Lataa tulostettavat tehtävät lapsille PDF- tai JPEG-muodossa alle kolmessa minuutissa.',
+    title: 'Puuttuvan Palan Tehtävät - Tulostettavat Tehtävät Lapsille Ilmainen -',
+    description: 'Luo ammattimaisia puuttuvan palan tehtäviä ilmaisella generoinnilla Täysi Käyttöoikeus -tilauksellasi. Puuttuvan palan tehtävät kehittävät visuaalista.',
     keywords: 'puuttuvan palan tehtävät, tulostettavat tehtävät lapsille ilmainen, esiopetus materiaali ilmainen, visuaalinen hahmottaminen, ongelmanratkaisu, hienomotoriikka harjoitukset',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fi/apps/puuttuvat-palat-tyoarkit',
   },

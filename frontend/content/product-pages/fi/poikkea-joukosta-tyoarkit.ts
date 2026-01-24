@@ -15,8 +15,8 @@ export const oddOneOutFiContent: ProductPageContent = {
   seo: {
     slug: 'poikkea-joukosta-tyoarkit',
     appId: 'odd-one-out',
-    title: 'Tulostettavat Tehtävät Lapsille Ilmainen - Esiopetus Materiaali Ilmainen - Hienomotoriikka Harjoitukset Alakoululle',
-    description: 'Luo ammattimaisia poikkea joukosta -tehtäviä visuaalisen hahmottamisen harjoitteluun. Täysi Käyttöoikeus -tilaus antaa rajattoman tehtävien luonnin ilman tehtäväkohtaisia maksuja. Jokainen tulostettava tehtävä lapsille on valmis alle kolmessa minuutissa. Täydellinen esiopetukseen ja alakoulun 1-3 luokille.',
+    title: 'Tulostettavat Tehtävät Lapsille Ilmainen | Ilmaiset Tehtävät',
+    description: 'Luo ammattimaisia poikkea joukosta -tehtäviä visuaalisen hahmottamisen harjoitteluun. Täysi Käyttöoikeus -tilaus antaa rajattoman tehtävien luonnin ilman.',
     keywords: 'tulostettavat tehtävät lapsille ilmainen, esiopetus materiaali ilmainen, hienomotoriikka harjoitukset, poikkea joukosta, visuaalinen hahmottaminen, matematiikka tehtävät alakoulu, lukemaan oppiminen tehtävät, kirjaimet harjoittelu esikoulu',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fi/apps/poikkea-joukosta-tyoarkit',
   },

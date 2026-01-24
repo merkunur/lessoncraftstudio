@@ -27,8 +27,8 @@ export const coloringNlContent: ProductPageContent = {
   seo: {
     slug: 'kleurplaten-werkbladen',
     appId: 'coloring',
-    title: 'Kleurplaten Gratis Werkblad Generator - Gratis Werkbladen voor Kinderen en Kleuters',
-    description: 'Maak professionele kleurplaten met onze gratis werkbladen generator. Met je Basispakket abonnement krijg je onbeperkt toegang tot werkblad voor kinderen maken. Download gratis printables als PDF of JPEG.',
+    title: 'Kleurplaten Gratis Werkblad Generator - Gratis Werkbladen voor',
+    description: 'Maak professionele kleurplaten met onze gratis werkbladen generator. Met je Basispakket abonnement krijg je onbeperkt toegang tot werkblad voor kinderen maken.',
     keywords: 'kleurplaten, gratis werkblad, gratis werkbladen, gratis printables, werkblad voor kinderen, werkblad voor kleuters, werkbladen groep 3, werkbladen kleuters, oefenbladen gratis, fijne motoriek',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/kleurplaten-werkbladen',
     images: [

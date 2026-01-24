@@ -15,8 +15,8 @@ export const additionNoContent: ProductPageContent = {
   seo: {
     slug: 'addisjon-arbeidsark',
     appId: 'addition',
-    title: 'Addisjonsoppgaver med Bilder - Matematikk Oppgaver for Barneskolen - Arbeidsark Gratis å Skrive Ut',
-    description: 'Lag profesjonelle addisjonsoppgaver med bildebaserte matematikk oppgaver for 1. trinn til 3. trinn. Generer tilpassede oppgavehefter barn kan bruke hjemme eller på skolen. Last ned høykvalitets PDF-arbeidsark på under 3 minutter.',
+    title: 'Addisjonsoppgaver med Bilder - Matematikk Oppgaver for Barneskolen -',
+    description: 'Lag profesjonelle addisjonsoppgaver med bildebaserte matematikk oppgaver for 1. trinn til 3. trinn. Generer tilpassede oppgavehefter barn kan bruke hjemme.',
     keywords: 'addisjonsoppgaver, matematikk oppgaver, arbeidsark gratis, oppgavehefter barn, addisjon og subtraksjon, tall og telling, matteoppgaver, småskoletrinnet, barneskolen, gangetabellen',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/addisjon-arbeidsark',
     images: [

@@ -19,7 +19,7 @@ export const prepositionsSvContent: ProductPageContent = {
     slug: 'prepositioner-arbetsblad',
     appId: 'prepositions',
     title: 'Prepositioner Arbetsblad Gratis - Förskoleklass Material för Barn',
-    description: 'Skapa professionella prepositionsarbetsblad för förskoleklass och lågstadiet. Generera arbetsblad gratis för elever som lär sig rumsliga begrepp. Ladda ner högkvalitativa PDF-arbetsblad på under 3 minuter.',
+    description: 'Skapa professionella prepositionsarbetsblad för förskoleklass och lågstadiet. Generera arbetsblad gratis för elever som lär sig rumsliga begrepp.',
     keywords: 'prepositioner arbetsblad, arbetsblad gratis, förskoleklass material, finmotorik övningar, rumsliga begrepp, i på under, bredvid bakom, svenska prepositioner, lågstadiet material',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/prepositioner-arbetsblad',
     images: [

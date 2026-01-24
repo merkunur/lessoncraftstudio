@@ -15,8 +15,8 @@ export const prepositionsItContent: ProductPageContent = {
   seo: {
     slug: 'preposizioni-schede',
     appId: 'prepositions',
-    title: 'Schede Gratuite Preposizioni | Generatore Schede per Bambini | Stampabili Gratuiti',
-    description: 'Crea schede gratuite preposizioni per bambini. Stampabili gratuiti per scuola dell\'infanzia e primaria. Scarica scheda gratuita PDF in 3 minuti. Schede didattiche scuola primaria con preposizioni spaziali.',
+    title: 'Schede Gratuite Preposizioni | Generatore Schede per Bambini |',
+    description: 'Crea schede gratuite preposizioni per bambini. Stampabili gratuiti per scuola dell\'infanzia e primaria. Scarica scheda gratuita PDF in 3 minuti.',
     keywords: 'schede gratuite preposizioni, scheda gratuita per bambini, stampabili gratuiti, scheda per scuola dell\'infanzia, schede didattiche scuola primaria, preposizioni spaziali, concetti spaziali, schede italiano classe prima',
     canonicalUrl: 'https://www.lessoncraftstudio.com/it/apps/preposizioni-schede',
     images: [

@@ -15,8 +15,8 @@ export const sumaCodigoEsContent: ProductPageContent = {
   seo: {
     slug: 'suma-codigo-fichas',
     appId: 'code-addition',
-    title: 'Fichas de Matemáticas con Código de Imágenes - Generador de Fichas para Imprimir',
-    description: 'Crea fichas de matemáticas únicas con nuestro generador de código de imágenes. Fichas infantil personalizadas perfectas para preescolar y primer grado. Descarga fichas gratis en PDF de alta calidad.',
+    title: 'Fichas de Matemáticas con Código de Imágenes | Fichas Gratis',
+    description: 'Crea fichas de matemáticas únicas con nuestro generador de código de imágenes. Fichas infantil personalizadas perfectas para preescolar y primer grado.',
     keywords: 'fichas de matemáticas, fichas para imprimir, fichas infantil, fichas preescolar, material educativo gratis, ejercicios matemáticas, suma, código imágenes',
     canonicalUrl: 'https://www.lessoncraftstudio.com/es/apps/suma-codigo-fichas',
     images: [

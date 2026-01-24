@@ -29,8 +29,8 @@ export const matchingNlContent: ProductPageContent = {
   seo: {
     slug: 'verbindings-werkbladen',
     appId: 'matching',
-    title: 'Gratis Werkbladen Verbindings Generator - Werkblad voor Kinderen en Kleuters | Lesson Craft Studio',
-    description: 'Maak professionele verbindingswerkbladen met onze werkbladen generator. Met je Basispakket abonnement creëer je onbeperkt oefenbladen zonder extra kosten per werkblad. De generator maakt werkbladen groep 3 waarbij kinderen lijnen trekken om paren te verbinden.',
+    title: 'Gratis Werkbladen Verbindings Generator - Werkblad voor Kinderen en',
+    description: 'Maak professionele verbindingswerkbladen met onze werkbladen generator. Met je Basispakket abonnement creëer je onbeperkt oefenbladen zonder extra kosten per.',
     keywords: 'verbindingswerkbladen, werkbladen groep 3, werkbladen kleuters, oefenbladen gratis, letters leren, fijne motoriek, veilig leren lezen, rekenen werkbladen, tafels oefenen, sommen tot 20',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/verbindings-werkbladen',
     images: [

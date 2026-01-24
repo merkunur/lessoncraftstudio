@@ -27,8 +27,8 @@ export const additionNlContent: ProductPageContent = {
   seo: {
     slug: 'optellen-werkbladen',
     appId: 'addition',
-    title: 'Optel Werkbladen Generator - Gratis Werkbladen Optellen voor Werkbladen Groep 3 en Sommen tot 20',
-    description: 'Maak professionele optelwerkbladen met plaatjes in enkele minuten. Deze rekenen werkbladen generator is perfect voor leerkrachten in het basisonderwijs. Met je Basispakket abonnement creëer je onbeperkt werkbladen groep 3 zonder extra kosten per werkblad.',
+    title: 'Optel Werkbladen Generator - Gratis Werkbladen Optellen voor',
+    description: 'Maak professionele optelwerkbladen met plaatjes in enkele minuten. Deze rekenen werkbladen generator is perfect voor leerkrachten in het basisonderwijs.',
     keywords: 'optellen werkbladen, rekenen werkbladen, werkbladen groep 3, werkbladen kleuters, sommen tot 20, oefenbladen gratis, tafels oefenen, veilig leren lezen, fijne motoriek, letters leren, gratis werkblad, gratis werkbladen, gratis printables, werkblad voor kinderen, werkblad voor kleuters',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/optellen-werkbladen',
     images: [

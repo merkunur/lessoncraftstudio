@@ -29,8 +29,8 @@ export const patternWorksheetsNlContent: ProductPageContent = {
   seo: {
     slug: 'patronen-werkbladen',
     appId: 'pattern-worksheet',
-    title: 'Gratis Werkblad Patronen Maken - Gratis Werkbladen voor Kinderen Groep 3 en Kleuters | LessonCraft Studio',
-    description: 'Maak gratis werkbladen patronen voor groep 3 en kleuters. Genereer gratis printables met visuele patronen. Perfect werkblad voor kinderen en fijne motoriek. Download hoogwaardige PDF in onder 3 minuten.',
+    title: 'Gratis Werkblad Patronen Maken - Gratis Werkbladen voor Kinderen',
+    description: 'Maak gratis werkbladen patronen voor groep 3 en kleuters. Genereer gratis printables met visuele patronen. Perfect werkblad voor kinderen en fijne motoriek.',
     keywords: 'patronen werkbladen, oefenbladen gratis, werkbladen groep 3, werkbladen kleuters, rekenen werkbladen, letters leren, schrijven oefenen, veilig leren lezen, fijne motoriek, kleurplaten, tafels oefenen, sommen tot 20, gratis werkblad, gratis werkbladen, gratis printables, werkblad voor kinderen, werkblad voor kleuters',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/patronen-werkbladen',
     images: [

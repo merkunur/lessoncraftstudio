@@ -17,8 +17,8 @@ export const patternWorksheetFiContent: ProductPageContent = {
   seo: {
     slug: 'kuviotehtava-tyoarkit',
     appId: 'pattern-worksheet',
-    title: 'Kuviotehtävä - Tulostettavat Tehtävät Lapsille Ilmainen - Matematiikka Tehtävät Alakoulu',
-    description: 'Luo ammattimaisia kuviotehtävämonisteet kuviontunnistusjärjestelmällämme. Täysi Pääsy -tilauksesi antaa sinulle rajattoman tehtävien luomisen ilman tehtäväkohtaisia maksuja. Lataa korkealaatuisia PDF-tehtävämonisteitä alle kolmessa minuutissa.',
+    title: 'Kuviotehtävä - Tulostettavat Tehtävät Lapsille Ilmainen -',
+    description: 'Luo ammattimaisia kuviotehtävämonisteet kuviontunnistusjärjestelmällämme. Täysi Pääsy -tilauksesi antaa sinulle rajattoman tehtävien luomisen ilman.',
     keywords: 'kuviotehtävä, tulostettavat tehtävät lapsille ilmainen, matematiikka tehtävät alakoulu, esiopetus materiaali ilmainen, kuviontunnistus, kuvioharjoitukset lapsille',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fi/apps/kuviotehtava-tyoarkit',
   },

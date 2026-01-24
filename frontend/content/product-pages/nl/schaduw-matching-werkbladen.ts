@@ -29,8 +29,8 @@ export const shadowMatchNlContent: ProductPageContent = {
   seo: {
     slug: 'schaduw-matching-werkbladen',
     appId: 'shadow-match',
-    title: 'Schaduw Matching Gratis Werkblad Generator - Werkblad voor Kinderen en Kleuters',
-    description: 'Maak professionele schaduw matching werkbladen met onze werkbladen generator. Met uw Volledige Toegang abonnement creëert u onbeperkt visuele waarnemingsoefeningen zonder kosten per werkblad. Genereer kleurplaten en matching activiteiten perfect voor werkbladen kleuters en werkbladen groep 3.',
+    title: 'Schaduw Matching Gratis Werkblad Generator | Gratis Werkbladen',
+    description: 'Maak professionele schaduw matching werkbladen met onze werkbladen generator. Met uw Volledige Toegang abonnement creëert u onbeperkt visuele.',
     keywords: 'schaduw matching werkbladen, werkbladen groep 3, werkbladen kleuters, oefenbladen gratis, letters leren, fijne motoriek, veilig leren lezen, rekenen werkbladen, tafels oefenen, sommen tot 20',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/schaduw-matching-werkbladen',
     images: [

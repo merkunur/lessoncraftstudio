@@ -17,8 +17,8 @@ export const shadowMatchFrContent: ProductPageContent = {
   seo: {
     slug: 'discrimination-visuelle-fiches',
     appId: 'shadow-match',
-    title: 'Fiches Maternelle Reconnaissance Visuelle - Exercices Discrimination Visuelle - Fiches à Imprimer Gratuit',
-    description: 'Créez des fiches de reconnaissance visuelle professionnelles pour la maternelle. Votre abonnement Accès Complet vous donne accès à ce générateur de fiches d\'association d\'ombres. Créez des exercices de discrimination visuelle adaptés à la petite section, moyenne section et grande section de maternelle. Téléchargez des fiches PDF de haute qualité en moins de 3 minutes.',
+    title: 'Fiches Maternelle Reconnaissance Visuelle | Fiches Gratuites',
+    description: 'Créez des fiches de reconnaissance visuelle professionnelles pour la maternelle. Votre abonnement Accès Complet vous donne accès à ce générateur de fiches.',
     keywords: 'fiches maternelle, discrimination visuelle, reconnaissance visuelle, association ombres, exercices CP, fiches à imprimer gratuit, graphisme maternelle, apprendre à lire, alphabet, coloriage à imprimer, écriture cursive, tables de multiplication, exercices maths',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fr/apps/discrimination-visuelle-fiches',
     images: [

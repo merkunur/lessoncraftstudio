@@ -15,8 +15,8 @@ export const patternWorksheetEsContent: ProductPageContent = {
   seo: {
     slug: 'fichas-patrones',
     appId: 'pattern-worksheet',
-    title: 'Fichas de Patrones para Imprimir | Generador de Ejercicios de Patrones - Material Educativo Gratis para Preescolar',
-    description: 'Crea fichas de patrones profesionales con nuestro generador de ejercicios de patrones. Genera fichas para imprimir personalizadas perfectas para educación infantil y educación primaria. Descarga ejercicios de matemáticas de alta calidad en formato PDF en menos de 3 minutos.',
+    title: 'Fichas de Patrones para Imprimir | Generador de Ejercicios de Patrones',
+    description: 'Crea fichas de patrones profesionales con nuestro generador de ejercicios de patrones. Genera fichas para imprimir personalizadas perfectas para educación.',
     keywords: 'fichas de patrones, ejercicios de patrones, fichas para imprimir, fichas infantil, fichas preescolar, material educativo gratis, fichas gratis, ejercicios matemáticas, grafomotricidad, lectoescritura, patrones AB, patrones ABC, tablas de multiplicar, abecedario, números',
     canonicalUrl: 'https://www.lessoncraftstudio.com/es/apps/fichas-patrones',
     images: [

@@ -15,8 +15,8 @@ export const drawingLinesPtContent: ProductPageContent = {
   seo: {
     slug: 'tracar-linhas-fichas',
     appId: 'drawing-lines',
-    title: 'Atividades de Coordenação Motora para Imprimir - Gerador de Atividades Educação Infantil com Desenhos para Colorir',
-    description: 'Crie atividades de traçar linhas profissionais com nosso gerador de fichas educativas. Com sua assinatura Pacote Essencial, você produz atividades para imprimir ilimitadas sem custo adicional por ficha. Desenvolva a coordenação motora das crianças com exercícios de ligar pontos personalizados.',
+    title: 'Atividades de Coordenação Motora para Imprimir | Planilhas Grátis',
+    description: 'Crie atividades de traçar linhas profissionais com nosso gerador de fichas educativas. Com sua assinatura Pacote Essencial, você produz atividades para.',
     keywords: 'atividades de coordenação motora, atividades para imprimir, atividades educação infantil, traçar linhas, pontilhado, letra cursiva, atividades de alfabetização, atividades 1º ano, atividades 2º ano, desenhos para colorir, atividades vogais, atividades de matemática, tabuada',
     canonicalUrl: 'https://www.lessoncraftstudio.com/pt/apps/tracar-linhas-fichas',
     images: [

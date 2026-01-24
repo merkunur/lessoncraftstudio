@@ -28,7 +28,7 @@ export const missingPiecesNlContent: ProductPageContent = {
     slug: 'ontbrekende-puzzelstukjes-werkbladen',
     appId: 'missing-pieces',
     title: 'Gratis Werkbladen Ontbrekende Puzzelstukjes | Generator voor Kleuters',
-    description: 'Maak gratis werkbladen ontbrekende puzzelstukjes voor kleuters en groep 3. Professionele 300 DPI kwaliteit. Download in minder dan 3 minuten.',
+    description: 'Maak gratis werkbladen ontbrekende puzzelstukjes voor kleuters en groep 3. Professionele 300 DPI kwaliteit. Download in minder dan 3 minuten. Perfect voor leraren en ouders.',
     keywords: 'ontbrekende puzzelstukjes werkbladen, werkbladen groep 3, werkbladen kleuters, oefenbladen gratis, fijne motoriek, visuele discriminatie, veilig leren lezen, letters leren, rekenen werkbladen, puzzel werkbladen',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/ontbrekende-puzzelstukjes-werkbladen',
     images: [

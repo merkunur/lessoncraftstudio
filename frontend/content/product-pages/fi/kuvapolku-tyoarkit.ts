@@ -17,8 +17,8 @@ export const picturePathFiContent: ProductPageContent = {
   seo: {
     slug: 'kuvapolku-tyoarkit',
     appId: 'picture-path',
-    title: 'Tulostettavat Tehtävät Lapsille Ilmainen - Kuvapolku Tehtävät Esiopetus - Hienomotoriikka Harjoitukset',
-    description: 'Luo ammattimaisia kuvapolkutehtäviä helposti. Täysi Käyttöoikeus -tilaus antaa rajattoman tehtävien luonnin ilman tehtäväkohtaisia maksuja. Lataa tulostettavat PDF-tehtävät alle 3 minuutissa.',
+    title: 'Tulostettavat Tehtävät Lapsille Ilmainen | Ilmaiset Tehtävät',
+    description: 'Luo ammattimaisia kuvapolkutehtäviä helposti. Täysi Käyttöoikeus -tilaus antaa rajattoman tehtävien luonnin ilman tehtäväkohtaisia maksuja.',
     keywords: 'tulostettavat tehtävät lapsille ilmainen, kuvapolku tehtävät, esiopetus materiaali ilmainen, hienomotoriikka harjoitukset, sokkelotehtävät, labyrinttitehtävät',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fi/apps/kuvapolku-tyoarkit',
   },

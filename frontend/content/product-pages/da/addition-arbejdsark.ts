@@ -15,8 +15,8 @@ export const additionDaContent: ProductPageContent = {
   seo: {
     slug: 'addition-arbejdsark',
     appId: 'addition',
-    title: 'Addition Arbejdsark - Gratis Arbejdsark til Børn og Børnehaveklasse | LessonCraftStudio',
-    description: 'Lav professionelle plusstykker og matematikopgaver med vores billedbaserede opgavegenerator. Gratis arbejdsark til børn og gratis arbejdsark til børnehaveklasse perfekt til 0. klasse opgaver og 1. klasse. Download gratis printables i høj kvalitet som PDF på under 3 minutter.',
+    title: 'Addition Arbejdsark - Gratis Arbejdsark til Børn og Børnehaveklasse',
+    description: 'Lav professionelle plusstykker og matematikopgaver med vores billedbaserede opgavegenerator. Gratis arbejdsark til børn og gratis arbejdsark til.',
     keywords: 'gratis arbejdsark, gratis arbejdsark til børn, arbejdsark til børn, arbejdsark til børnehaveklasse, gratis printables, matematikopgaver, plusstykker, 0. klasse opgaver, addition, regning',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/addition-arbejdsark',
     images: [

@@ -15,8 +15,8 @@ export const findObjectsEsContent: ProductPageContent = {
   seo: {
     slug: 'buscar-objetos-fichas',
     appId: 'find-objects',
-    title: 'Fichas para Imprimir de Buscar Objetos | Generador de Fichas Infantil para Preescolar y Primaria',
-    description: 'Crea fichas para imprimir de buscar objetos con nuestro generador profesional. Genera fichas preescolar de Veo Veo y encuentra el diferente. Descarga fichas de alta calidad en PDF en menos de 3 minutos. Ideal para educación infantil y primaria.',
+    title: 'Fichas para Imprimir de Buscar Objetos | Generador de Fichas Infantil',
+    description: 'Crea fichas para imprimir de buscar objetos con nuestro generador profesional. Genera fichas preescolar de Veo Veo y encuentra el diferente.',
     keywords: 'fichas para imprimir, buscar objetos, veo veo, encuentra el diferente, fichas preescolar, fichas infantil, material educativo gratis, discriminación visual, grafomotricidad, observación visual',
     canonicalUrl: 'https://www.lessoncraftstudio.com/es/apps/buscar-objetos-fichas',
     images: [

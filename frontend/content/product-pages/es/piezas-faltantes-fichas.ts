@@ -15,8 +15,8 @@ export const missingPiecesEsContent: ProductPageContent = {
   seo: {
     slug: 'piezas-faltantes-fichas',
     appId: 'missing-pieces',
-    title: 'Fichas para Imprimir de Piezas Faltantes - Generador de Rompecabezas Visuales para Fichas Preescolar',
-    description: 'Crea fichas profesionales de piezas faltantes con nuestro generador de rompecabezas visuales. Genera fichas para imprimir personalizadas perfectas para estudiantes de preescolar y primer grado de primaria. Descarga fichas en PDF de alta calidad en menos de 3 minutos.',
+    title: 'Fichas para Imprimir de Piezas Faltantes | Fichas Gratis',
+    description: 'Crea fichas profesionales de piezas faltantes con nuestro generador de rompecabezas visuales. Genera fichas para imprimir personalizadas perfectas para.',
     keywords: 'fichas para imprimir, piezas faltantes, fichas preescolar, fichas infantil, rompecabezas visuales, material educativo gratis, fichas de matemáticas, lectoescritura, abecedario, grafomotricidad, dibujos para colorear, tablas de multiplicar, fichas gratis',
     canonicalUrl: 'https://www.lessoncraftstudio.com/es/apps/piezas-faltantes-fichas',
     images: [

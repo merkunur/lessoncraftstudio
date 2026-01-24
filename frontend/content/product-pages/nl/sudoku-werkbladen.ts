@@ -27,8 +27,8 @@ export const sudokuNlContent: ProductPageContent = {
   seo: {
     slug: 'sudoku-werkbladen',
     appId: 'sudoku',
-    title: 'Gratis Werkblad Sudoku Generator - Gratis Werkbladen voor Kinderen en Kleuters',
-    description: 'Maak prachtige visuele sudoku puzzels voor jonge kinderen. Onze sudoku werkbladen generator is speciaal ontworpen voor kleuters en basisschoolleerlingen. Met je Basispakket abonnement maak je onbeperkt werkbladen kleuters zonder extra kosten per werkblad.',
+    title: 'Gratis Werkblad Sudoku Generator - Gratis Werkbladen voor Kinderen en',
+    description: 'Maak prachtige visuele sudoku puzzels voor jonge kinderen. Onze sudoku werkbladen generator is speciaal ontworpen voor kleuters en basisschoolleerlingen.',
     keywords: 'sudoku werkbladen, werkbladen groep 3, werkbladen kleuters, rekenen werkbladen, oefenbladen gratis, kleurplaten, letters leren, schrijven oefenen, tafels oefenen, veilig leren lezen, fijne motoriek, sommen tot 20',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/sudoku-werkbladen',
     images: [

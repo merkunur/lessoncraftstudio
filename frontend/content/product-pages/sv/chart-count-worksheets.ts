@@ -15,7 +15,7 @@ export const chartCountSvContent: ProductPageContent = {
   seo: {
     slug: 'diagram-rakning-arbetsblad',
     appId: 'chart-count',
-    title: 'Gratis Arbetsblad Diagram Generator | Arbetsblad för Förskoleklass och Barn',
+    title: 'Gratis Arbetsblad Diagram Generator | Arbetsblad för Förskoleklass',
     description: 'Skapa gratis arbetsblad för barn med diagram och bildräkning. Gratis utskrifter för förskoleklass med siffror och tal. Ladda ner arbetsblad PDF på 3 minuter.',
     keywords: 'gratis arbetsblad, gratis arbetsblad för barn, gratis utskrifter, arbetsblad för barn, arbetsblad för förskoleklass, arbetsblad, diagram arbetsblad, bildräkning',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/diagram-rakning-arbetsblad',

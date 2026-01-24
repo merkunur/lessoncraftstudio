@@ -17,8 +17,8 @@ export const codeAdditionItContent: ProductPageContent = {
   seo: {
     slug: 'addizioni-immagini-schede',
     appId: 'code-addition',
-    title: 'Schede Gratuite Addizioni Immagini | Scheda Gratuita per Bambini Matematica',
-    description: 'Crea schede gratuite addizioni con immagini. Stampabili gratuiti per bambini scuola infanzia e primaria. Scheda gratuita per bambini matematica visiva. Scarica PDF gratis.',
+    title: 'Schede Gratuite Addizioni Immagini | Scheda Gratuita per Bambini',
+    description: 'Crea schede gratuite addizioni con immagini. Stampabili gratuiti per bambini scuola infanzia e primaria. Scheda gratuita per bambini matematica visiva.',
     keywords: 'schede didattiche addizioni, addizioni con immagini, schede matematica, schede scuola primaria, schede scuola infanzia, numeri da stampare, pregrafismo, disegni da colorare, tabelline, alfabeto, schede italiano classe prima',
     canonicalUrl: 'https://www.lessoncraftstudio.com/it/apps/addizioni-immagini-schede',
     images: [

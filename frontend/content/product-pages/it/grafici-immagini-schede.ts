@@ -17,8 +17,8 @@ export const chartCountItContent: ProductPageContent = {
   seo: {
     slug: 'grafici-immagini-schede',
     appId: 'chart-count',
-    title: 'Schede Gratuite Grafici Immagini | Scheda Gratuita per Bambini Conteggio',
-    description: 'Crea grafici con immagini professionali con il nostro generatore di schede didattiche. Genera schede didattiche scuola primaria personalizzate perfette per insegnare ai bambini a contare e visualizzare i dati. Scarica PDF di alta qualità in meno di 3 minuti.',
+    title: 'Schede Gratuite Grafici Immagini | Scheda Gratuita per Bambini',
+    description: 'Crea grafici con immagini professionali con il nostro generatore di schede didattiche. Genera schede didattiche scuola primaria personalizzate perfette per.',
     keywords: 'schede didattiche grafici, grafici con immagini, schede matematica, schede scuola primaria, schede scuola infanzia, contare immagini, visualizzazione dati, grafici a barre bambini, schede didattiche scuola primaria, pregrafismo',
     canonicalUrl: 'https://www.lessoncraftstudio.com/it/apps/grafici-immagini-schede',
     images: [

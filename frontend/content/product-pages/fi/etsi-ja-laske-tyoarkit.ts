@@ -15,8 +15,8 @@ export const findAndCountFiContent: ProductPageContent = {
   seo: {
     slug: 'etsi-ja-laske-tyoarkit',
     appId: 'find-and-count',
-    title: 'Etsi ja Laske -tehtävät Generaattori | Tulostettavat Tehtävät Lapsille Ilmainen - Matematiikka Tehtävät Alakoulu',
-    description: 'Luo ammattimaisia etsi ja laske -tehtäviä muutamassa minuutissa. Peruspaketti-tilauksesi antaa rajattoman tehtävien luomisen ilman tehtäväkohtaisia maksuja. Generoi tulostettavia etsi ja laske -tehtäviä täydellisiä esiopetukseen ja alakouluun.',
+    title: 'Etsi ja Laske -tehtävät Generaattori | Tulostettavat Tehtävät',
+    description: 'Luo ammattimaisia etsi ja laske -tehtäviä muutamassa minuutissa. Peruspaketti-tilauksesi antaa rajattoman tehtävien luomisen ilman tehtäväkohtaisia maksuja.',
     keywords: 'etsi ja laske tehtävät, tulostettavat tehtävät lapsille ilmainen, matematiikka tehtävät alakoulu, esiopetus materiaali ilmainen, hienomotoriikka harjoitukset, visuaalinen havainnointi',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fi/apps/etsi-ja-laske-tyoarkit',
   },

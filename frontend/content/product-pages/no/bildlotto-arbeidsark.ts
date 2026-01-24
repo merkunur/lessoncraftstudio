@@ -16,7 +16,7 @@ export const pictureBingoNoContent: ProductPageContent = {
     slug: 'bildlotto-arbeidsark',
     appId: 'bingo',
     title: 'Gratis Bildlotto Arbeidsark - Generator for Barnehage og 1. Trinn',
-    description: 'Lag gratis bildlotto arbeidsark for barn i barnehage og 1. trinn. Gratis utskrifter med 3000+ bilder. Last ned PDF på 3 min.',
+    description: 'Lag gratis bildlotto arbeidsark for barn i barnehage og 1. trinn. Gratis utskrifter med 3000+ bilder. Last ned PDF på 3 min. Perfekt for lærere og foreldre.',
     keywords: 'bildlotto, gratis arbeidsark, gratis arbeidsark for barn, gratis utskrifter, arbeidsark for barn, arbeidsark for 1. trinn, arbeidsark, oppgavehefter barn, matematikk oppgaver, tall og telling, barnehage, fargeleggingsbilder barn, lesetrening, finmotorikk øvelser',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/bildlotto-arbeidsark',
     images: [

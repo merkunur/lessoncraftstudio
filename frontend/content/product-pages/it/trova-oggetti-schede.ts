@@ -18,7 +18,7 @@ export const findObjectsItContent: ProductPageContent = {
     slug: 'trova-oggetti-schede',
     appId: 'find-objects',
     title: 'Schede Gratuite Trova gli Oggetti | Scheda Gratuita Scuola Infanzia',
-    description: 'Crea schede gratuite trova gli oggetti con il nostro generatore. Stampabili gratuiti personalizzabili perfetti per scuola dell\'infanzia e scuola primaria. Scarica scheda gratuita per bambini in PDF in 3 minuti!',
+    description: 'Crea schede gratuite trova gli oggetti con il nostro generatore. Stampabili gratuiti personalizzabili perfetti per scuola dell\'infanzia e scuola primaria.',
     keywords: 'schede gratuite trova gli oggetti, scheda gratuita per bambini, stampabili gratuiti, scheda per scuola dell\'infanzia, schede didattiche scuola primaria, generatore schede, trova l\'intruso, cerca gli oggetti, discriminazione visiva',
     canonicalUrl: 'https://www.lessoncraftstudio.com/it/apps/trova-oggetti-schede',
     images: [

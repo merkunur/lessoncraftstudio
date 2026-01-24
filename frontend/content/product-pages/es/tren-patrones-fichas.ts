@@ -15,8 +15,8 @@ export const patternTrainEsContent: ProductPageContent = {
   seo: {
     slug: 'tren-patrones-fichas',
     appId: 'pattern-train',
-    title: 'Fichas de Patrones para Imprimir | Generador de Fichas Infantil Tren de Patrones para Preescolar',
-    description: 'Crea fichas de patrones profesionales con nuestro generador de fichas para imprimir. Genera fichas de matemáticas con patrones visuales perfectas para preescolar y educación primaria. Descarga fichas gratis en PDF de alta calidad en menos de 3 minutos.',
+    title: 'Fichas de Patrones para Imprimir | Generador de Fichas Infantil Tren',
+    description: 'Crea fichas de patrones profesionales con nuestro generador de fichas para imprimir. Genera fichas de matemáticas con patrones visuales perfectas para.',
     keywords: 'fichas de patrones, tren de patrones, fichas para imprimir, fichas infantil, fichas preescolar, material educativo gratis, fichas gratis, ejercicios matemáticas, grafomotricidad, lectoescritura, patrones AB, patrones ABC',
     canonicalUrl: 'https://www.lessoncraftstudio.com/es/apps/tren-patrones-fichas',
     images: [

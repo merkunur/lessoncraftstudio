@@ -17,8 +17,8 @@ export const findObjectsPtContent: ProductPageContent = {
   seo: {
     slug: 'encontrar-objetos-fichas',
     appId: 'find-objects',
-    title: 'Encontrar Objetos - Atividade Grátis para Crianças de Educação Infantil e Alfabetização',
-    description: 'Crie atividades para imprimir profissionais de encontrar objetos com nosso gerador de fichas educativas. Sua assinatura Acesso Completo permite criar atividades educação infantil ilimitadas sem taxas adicionais. Produza atividades de alfabetização personalizadas que desenvolvem atenção visual e concentração.',
+    title: 'Encontrar Objetos - Atividade Grátis para Crianças de Educação',
+    description: 'Crie atividades para imprimir profissionais de encontrar objetos com nosso gerador de fichas educativas. Sua assinatura Acesso Completo permite criar.',
     keywords: 'encontrar objetos, atividades para imprimir, atividades educação infantil, atividades de alfabetização, atividades de matemática, coordenação motora, desenhos para colorir, atividades 1º ano, atividades 2º ano, atividades vogais, tabuada, letra cursiva, pontilhado',
     canonicalUrl: 'https://www.lessoncraftstudio.com/pt/apps/encontrar-objetos-fichas',
     images: [

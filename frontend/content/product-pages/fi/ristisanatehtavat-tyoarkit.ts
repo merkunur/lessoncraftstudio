@@ -19,8 +19,8 @@ export const crosswordFiContent: ProductPageContent = {
   seo: {
     slug: 'ristisanatehtavat-tyoarkit',
     appId: 'crossword',
-    title: 'Ristisanatehtävien Generaattori - Tulostettavat Tehtävät Lapsille Ilmainen | Esiopetus Materiaali',
-    description: 'Luo ammattimaisia ristisanatehtäviä kuvilla muutamassa minuutissa. Tulostettavat tehtävät lapsille ilmainen luominen Täysi Käyttöoikeus -tilauksella. Ristisanatehtävien generaattori on täydellinen työkalu esiopetuksen ja alakoulun opettajille.',
+    title: 'Ristisanatehtävien Generaattori - Tulostettavat Tehtävät Lapsille',
+    description: 'Luo ammattimaisia ristisanatehtäviä kuvilla muutamassa minuutissa. Tulostettavat tehtävät lapsille ilmainen luominen Täysi Käyttöoikeus -tilauksella.',
     keywords: 'ristisanatehtävät, tulostettavat tehtävät lapsille ilmainen, esiopetus materiaali ilmainen, ristisanatehtävien generaattori, ristikoita lapsille, kuvallinen ristisanatehtävä',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fi/apps/ristisanatehtavat-tyoarkit',
   },

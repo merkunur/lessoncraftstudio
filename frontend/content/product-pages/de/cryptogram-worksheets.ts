@@ -28,7 +28,7 @@ export const cryptogramDeContent: ProductPageContent = {
     slug: 'bildkryptogramm-arbeitsblaetter',
     appId: 'cryptogram',
     title: 'Bilder-Kryptogramm Arbeitsblätter | Kostenlos Erstellen',
-    description: 'Erstellen Sie professionelle Bilder-Kryptogramm Arbeitsblätter kostenlos. Perfekt für Grundschule und Vorschule. PDF in 3 Minuten herunterladen!',
+    description: 'Erstellen Sie professionelle Bilder-Kryptogramm Arbeitsblätter kostenlos. Perfekt für Grundschule und Vorschule. PDF in 3 Minuten herunterladen! Perfekt für Lehrer und Eltern.',
     keywords: 'bilder-kryptogramm, kryptogramm generator, arbeitsblätter grundschule, kostenlose arbeitsblätter, vorschule arbeitsblätter, deutsch arbeitsblätter, buchstaben lernen, mathe arbeitsblätter, schwungübungen, ausmalbilder',
     canonicalUrl: 'https://www.lessoncraftstudio.com/de/apps/bildkryptogramm-arbeitsblaetter',
     images: [

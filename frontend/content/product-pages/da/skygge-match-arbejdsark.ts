@@ -17,8 +17,8 @@ export const skyggeMatchDaContent: ProductPageContent = {
   seo: {
     slug: 'skygge-match-arbejdsark',
     appId: 'shadow-match',
-    title: 'Skygge-Match Opgaveark - Gratis Skoleopgaver til Visuel Perception - Arbejdsark til Print',
-    description: 'Skab professionelle skygge-match opgaver og billedmatchingopgaver med vores generator. Dit Fuld Adgang abonnement giver dig ubegrænset skabelse af arbejdsark uden gebyrer per opgaveark. Generer tilpassede opgaver til print perfekte til 0. klasse, børnehaveklassen og 1. klasse elever. Download opgaveark af høj kvalitet som PDF på under 3 minutter.',
+    title: 'Skygge-Match Opgaveark - Gratis Skoleopgaver til Visuel Perception -',
+    description: 'Skab professionelle skygge-match opgaver og billedmatchingopgaver med vores generator. Dit Fuld Adgang abonnement giver dig ubegrænset skabelse af arbejdsark.',
     keywords: 'skygge-match, billedmatching, visuel perception, gratis skoleopgaver, arbejdsark til print, 0. klasse opgaver, 1. klasse, børnehaveklasse, kopiark, finmotorik øvelser',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/skygge-match-arbejdsark',
     images: [

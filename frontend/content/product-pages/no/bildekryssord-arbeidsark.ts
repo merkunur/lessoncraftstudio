@@ -16,8 +16,8 @@ export const crosswordNoContent: ProductPageContent = {
   seo: {
     slug: 'bildekryssord-arbeidsark',
     appId: 'crossword',
-    title: 'Bildekryssord Generator - Arbeidsark Gratis for Barn - Lesetrening og Matematikk Oppgaver',
-    description: 'Lag profesjonelle bildekryssord med vår enkle generator. Generer tilpassede kryssord arbeidsark perfekte for lesetrening og ordforståelse på småskoletrinnet. Last ned høykvalitets PDF-filer på under 3 minutter.',
+    title: 'Bildekryssord Generator - Arbeidsark Gratis for Barn - Lesetrening og',
+    description: 'Lag profesjonelle bildekryssord med vår enkle generator. Generer tilpassede kryssord arbeidsark perfekte for lesetrening og ordforståelse på småskoletrinnet.',
     keywords: 'bildekryssord, kryssord arbeidsark, arbeidsark gratis, lesetrening, matematikk oppgaver, ordforståelse, småskoletrinnet, oppgavehefter barn, bokstaver lære skrive, fargeleggingsbilder barn',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/bildekryssord-arbeidsark',
   },

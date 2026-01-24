@@ -15,8 +15,8 @@ export const shadowMatchFiContent: ProductPageContent = {
   seo: {
     slug: 'varjoyhdistely-tyoarkit',
     appId: 'shadow-match',
-    title: 'Varjoyhdistely Tehtävät Generaattori | Tulostettavat Tehtävät Lapsille Ilmainen Esiopetus Materiaali',
-    description: 'Luo ammattitasoisia varjoyhdistelyn tehtäviä varjoyhdistelygeneraattorillamme. Täysi Pääsy -tilauksesi antaa sinulle rajattoman tehtävien luomisen ilman tehtäväkohtaisia maksuja. Tulostettavat tehtävät lapsille ilmainen esiopetukseen ja alakouluun.',
+    title: 'Varjoyhdistely Tehtävät Generaattori | Tulostettavat Tehtävät',
+    description: 'Luo ammattitasoisia varjoyhdistelyn tehtäviä varjoyhdistelygeneraattorillamme. Täysi Pääsy -tilauksesi antaa sinulle rajattoman tehtävien luomisen ilman.',
     keywords: 'varjoyhdistely tehtävät, tulostettavat tehtävät lapsille ilmainen, esiopetus materiaali ilmainen, visuaalinen hahmotus, hienomotoriikka harjoitukset, varjokuva yhdistäminen',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fi/apps/varjoyhdistely-tyoarkit',
   },

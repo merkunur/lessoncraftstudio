@@ -15,8 +15,8 @@ export const drawAndColorFiContent: ProductPageContent = {
   seo: {
     slug: 'ruudukkopiirustus-tyoarkit',
     appId: 'draw-and-color',
-    title: 'Ruudukkopiirustus Tehtävät | Värityskuvia Lapsille Tulostettava - Esiopetus Materiaali Ilmainen',
-    description: 'Luo ammattimaisia ruudukkopiirustustehtäviä värityskuvia lapsille tulostettava -generaattorillamme. Täysi Käyttöoikeus -tilauksesi antaa rajattoman tehtävien luomisen. Lataa korkealaatuisia PDF-tehtäviä alle 3 minuutissa.',
+    title: 'Ruudukkopiirustus Tehtävät | Värityskuvia Lapsille Tulostettava',
+    description: 'Luo ammattimaisia ruudukkopiirustustehtäviä värityskuvia lapsille tulostettava -generaattorillamme. Täysi Käyttöoikeus -tilauksesi antaa rajattoman tehtävien.',
     keywords: 'ruudukkopiirustus tehtävät, värityskuvia lapsille tulostettava, tulostettavat tehtävät lapsille ilmainen, esiopetus materiaali ilmainen, hienomotoriikka harjoitukset, matematiikka tehtävät alakoulu',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fi/apps/ruudukkopiirustus-tyoarkit',
   },

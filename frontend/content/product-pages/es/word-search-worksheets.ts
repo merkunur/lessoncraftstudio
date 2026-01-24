@@ -15,7 +15,7 @@ export const wordSearchEsContent: ProductPageContent = {
   seo: {
     slug: 'sopa-letras-fichas',
     appId: 'wordsearch',
-    title: 'Generador de Sopas de Letras Gratis | Fichas para Imprimir Educación Infantil y Preescolar',
+    title: 'Generador de Sopas de Letras Gratis | Fichas para Imprimir Educación',
     description: 'Crea sopas de letras gratis con nuestro generador de fichas para imprimir. Perfecto para educación infantil y preescolar. Descarga PDF 300 DPI en 3 minutos.',
     keywords: 'sopa de letras, generador fichas gratis, fichas para imprimir, educación infantil, preescolar, fichas del abecedario, grafomotricidad, lectoescritura, tablas de multiplicar, dibujos para colorear',
     canonicalUrl: 'https://www.lessoncraftstudio.com/es/apps/sopa-letras-fichas',

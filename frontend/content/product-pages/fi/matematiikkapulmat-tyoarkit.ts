@@ -22,8 +22,8 @@ export const mathPuzzleFiContent: ProductPageContent = {
   seo: {
     slug: 'matematiikkapulmat-tyoarkit',
     appId: 'math-puzzle',
-    title: 'Matematiikkapulmat Lapsille - Tulostettavat Tehtävät Ilmainen | Alakoulun Tehtävät',
-    description: 'Luo ammattimaisia matematiikkapulmia yhteenlaskun ja vähennyslaskun harjoitteluun. Täysi Käyttöoikeus -tilauksesi antaa rajattoman tehtävien luomisen. Matematiikkapulmat sopivat esiopetukseen ja alakoulun 1-3 luokille.',
+    title: 'Matematiikkapulmat Lapsille - Tulostettavat Tehtävät Ilmainen',
+    description: 'Luo ammattimaisia matematiikkapulmia yhteenlaskun ja vähennyslaskun harjoitteluun. Täysi Käyttöoikeus -tilauksesi antaa rajattoman tehtävien luomisen.',
     keywords: 'matematiikkapulmat, tulostettavat tehtävät lapsille ilmainen, matematiikka tehtävät alakoulu, yhteenlasku ja vähennyslasku tehtävät, esiopetus materiaali ilmainen',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fi/apps/matematiikkapulmat-tyoarkit',
   },

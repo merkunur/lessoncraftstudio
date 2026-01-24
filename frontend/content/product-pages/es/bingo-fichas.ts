@@ -15,8 +15,8 @@ export const bingoEsContent: ProductPageContent = {
   seo: {
     slug: 'bingo-fichas',
     appId: 'bingo',
-    title: 'Fichas de Bingo para Imprimir | Generador de Bingo con Imágenes para Educación Infantil y Preescolar',
-    description: 'Crea fichas de bingo profesionales con nuestro generador de bingo con imágenes. Genera fichas para imprimir perfectas para educación infantil, preescolar y primaria. Descarga fichas gratis de alta calidad en formato PDF en menos de 3 minutos.',
+    title: 'Fichas de Bingo para Imprimir | Generador de Bingo con Imágenes para',
+    description: 'Crea fichas de bingo profesionales con nuestro generador de bingo con imágenes. Genera fichas para imprimir perfectas para educación infantil, preescolar y.',
     keywords: 'fichas de bingo, bingo con imágenes, fichas para imprimir, fichas infantil, fichas preescolar, material educativo gratis, fichas gratis, abecedario, números, grafomotricidad, lectoescritura, dibujos para colorear',
     canonicalUrl: 'https://www.lessoncraftstudio.com/es/apps/bingo-fichas',
     images: [

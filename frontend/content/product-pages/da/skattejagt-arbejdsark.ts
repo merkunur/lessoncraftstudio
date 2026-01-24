@@ -17,8 +17,8 @@ export const skattejagtDaContent: ProductPageContent = {
   seo: {
     slug: 'skattejagt-arbejdsark',
     appId: 'treasure-hunt',
-    title: 'Skattejagt Gratis Arbejdsark - Arbejdsark til Børn - Retningsopgaver Børnehaveklasse',
-    description: 'Lav gratis arbejdsark til børn med skattejagt retningsopgaver. Arbejdsark til børnehaveklasse og 0. klasse. Download professionelle gratis arbejdsark som PDF. 4 eksempler inkluderet.',
+    title: 'Skattejagt Gratis Arbejdsark - Arbejdsark til Børn - Retningsopgaver',
+    description: 'Lav gratis arbejdsark til børn med skattejagt retningsopgaver. Arbejdsark til børnehaveklasse og 0. klasse. Download professionelle gratis arbejdsark som PDF.',
     keywords: 'gratis arbejdsark, arbejdsark til børn, arbejdsark til børnehaveklasse, skattejagt arbejdsark, retningsopgaver, gratis printables, 0. klasse, 1. klasse, finmotorik øvelser',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/skattejagt-arbejdsark',
     images: [

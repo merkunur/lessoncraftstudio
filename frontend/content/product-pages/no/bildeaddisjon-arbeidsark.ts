@@ -17,8 +17,8 @@ export const codeAdditionNoContent: ProductPageContent = {
   seo: {
     slug: 'bildeaddisjon-arbeidsark',
     appId: 'code-addition',
-    title: 'Bildeaddisjonsoppgaver Generator - Matematikk Oppgaver med Tall og Telling for Barn',
-    description: 'Lag profesjonelle bildeaddisjonsoppgaver med vår matematikk oppgaver generator. Generer egendefinerte arbeidsark gratis for utskrift for barnehage og småskoletrinnet elever. Last ned høykvalitets PDF-oppgavehefter barn på under 3 minutter.',
+    title: 'Bildeaddisjonsoppgaver Generator - Matematikk Oppgaver med Tall og',
+    description: 'Lag profesjonelle bildeaddisjonsoppgaver med vår matematikk oppgaver generator. Generer egendefinerte arbeidsark gratis for utskrift for barnehage og.',
     keywords: 'bildeaddisjonsoppgaver, matematikk oppgaver, arbeidsark gratis, oppgavehefter barn, addisjon og subtraksjon, tall og telling, matteoppgaver, småskoletrinnet, barnehage, gangetabellen',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/bildeaddisjon-arbeidsark',
     images: [

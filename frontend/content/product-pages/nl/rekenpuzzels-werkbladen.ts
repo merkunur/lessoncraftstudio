@@ -29,8 +29,8 @@ export const mathPuzzleNlContent: ProductPageContent = {
   seo: {
     slug: 'rekenpuzzels-werkbladen',
     appId: 'math-puzzle',
-    title: 'Rekenpuzzels Werkbladen Groep 3 - Oefenbladen Gratis voor Rekenen en Sommen tot 20',
-    description: 'Maak professionele rekenpuzzels met onze math puzzle generator voor groep 1 2 en groep 3. Perfect voor leerkrachten die werkbladen kleuters en rekenen werkbladen nodig hebben. Uw Volledige Toegang abonnement geeft u onbeperkte toegang tot het maken van oefenbladen zonder extra kosten per werkblad.',
+    title: 'Rekenpuzzels Werkbladen Groep 3 - Oefenbladen Gratis voor Rekenen en',
+    description: 'Maak professionele rekenpuzzels met onze math puzzle generator voor groep 1 2 en groep 3. Perfect voor leerkrachten die werkbladen kleuters en rekenen.',
     keywords: 'rekenpuzzels werkbladen, werkbladen groep 3, werkbladen kleuters, oefenbladen gratis, rekenen werkbladen, sommen tot 20, tafels oefenen, fijne motoriek, kleurplaten, veilig leren lezen',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/rekenpuzzels-werkbladen',
     images: [

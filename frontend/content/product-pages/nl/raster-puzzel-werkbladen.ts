@@ -28,7 +28,7 @@ export const gridMatchNlContent: ProductPageContent = {
     slug: 'raster-puzzel-werkbladen',
     appId: 'grid-match',
     title: 'Gratis Werkblad Raster-Puzzel Generator | Werkbladen Kleuters Groep 3',
-    description: 'Maak gratis werkbladen raster-puzzel in 3 minuten. Visuele puzzels voor werkbladen kleuters en groep 3. Download PDF werkbladen direct - geen ontwerpkennis nodig.',
+    description: 'Maak gratis werkbladen raster-puzzel in 3 minuten. Visuele puzzels voor werkbladen kleuters en groep 3. Download PDF werkbladen direct - geen ontwerpkennis.',
     keywords: 'grid match werkbladen, puzzelwerkbladen, werkbladen groep 3, werkbladen kleuters, oefenbladen gratis, fijne motoriek, visuele puzzels, veilig leren lezen, rekenen werkbladen, ruimtelijk inzicht, gratis werkblad, gratis werkbladen, werkblad voor kinderen, werkblad voor kleuters',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/raster-puzzel-werkbladen',
     images: [

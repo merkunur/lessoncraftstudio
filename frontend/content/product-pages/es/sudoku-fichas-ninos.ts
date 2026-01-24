@@ -15,8 +15,8 @@ export const sudokuEsContent: ProductPageContent = {
   seo: {
     slug: 'sudoku-fichas-ninos',
     appId: 'sudoku',
-    title: 'Sudoku para Niños - Fichas de Sudoku Visual para Imprimir - Material Educativo Gratis',
-    description: 'Crea rompecabezas de sudoku visual coloridos diseñados específicamente para niños de preescolar y educación primaria. Tu suscripción Paquete Esencial te permite generar fichas de sudoku ilimitadas. Descarga fichas para imprimir de alta calidad en menos de 3 minutos.',
+    title: 'Sudoku para Niños - Fichas de Sudoku Visual para Imprimir - Material',
+    description: 'Crea rompecabezas de sudoku visual coloridos diseñados específicamente para niños de preescolar y educación primaria. Tu suscripción Paquete Esencial te.',
     keywords: 'sudoku para niños, sudoku visual, fichas de sudoku, fichas para imprimir, fichas infantil, fichas preescolar, material educativo gratis, fichas gratis, rompecabezas lógica, pensamiento crítico, números, abecedario',
     canonicalUrl: 'https://www.lessoncraftstudio.com/es/apps/sudoku-fichas-ninos',
     images: [

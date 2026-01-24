@@ -15,7 +15,7 @@ export const mathWorksheetsPtContent: ProductPageContent = {
   seo: {
     slug: 'atividades-matematica-fichas',
     appId: 'math-worksheet',
-    title: 'Atividade Grátis de Matemática | Gerador de Fichas para Educação Infantil',
+    title: 'Atividade Grátis de Matemática | Gerador de Fichas para Educação',
     description: 'Crie atividades grátis de matemática em minutos. Gerador de fichas para imprimir com tabuada e operações. Perfeito para educação infantil e 1º ano. 300 DPI.',
     keywords: 'atividades de matemática, atividades para imprimir, atividades educação infantil, atividades 1º ano, atividades 2º ano, coordenação motora, tabuada, desenhos para colorir, atividades de alfabetização, atividades vogais, letra cursiva, pontilhado',
     canonicalUrl: 'https://www.lessoncraftstudio.com/pt/apps/atividades-matematica-fichas',

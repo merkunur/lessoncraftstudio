@@ -17,8 +17,8 @@ export const bigSmallNoContent: ProductPageContent = {
   seo: {
     slug: 'stor-og-liten-arbeidsark',
     appId: 'big-small',
-    title: 'Lag Arbeidsark Stor og Liten - Matematikk Oppgaver og Arbeidsark Gratis for Barnehage',
-    description: 'Lag profesjonelle arbeidsark for størrelsesammenligning med vår størrelsesarbeidsark-generator. Full Access-abonnementet gir deg ubegrenset opprettelse av arbeidsark. Generer tilpassede arbeidsark gratis for nedlasting perfekt for barnehage og småskoletrinnet.',
+    title: 'Lag Arbeidsark Stor og Liten - Matematikk Oppgaver og Arbeidsark',
+    description: 'Lag profesjonelle arbeidsark for størrelsesammenligning med vår størrelsesarbeidsark-generator. Full Access-abonnementet gir deg ubegrenset opprettelse av.',
     keywords: 'stor og liten, størrelsesammenligning, arbeidsark gratis, matematikk oppgaver, oppgavehefter barn, barnehage, finmotorikk øvelser, tall og telling, småskoletrinnet, arbeidsark for nedlasting',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/stor-og-liten-arbeidsark',
     images: [

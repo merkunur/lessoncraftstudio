@@ -18,7 +18,7 @@ export const missingPiecesItContent: ProductPageContent = {
     slug: 'pezzi-mancanti-schede',
     appId: 'missing-pieces',
     title: 'Schede Gratuite Pezzi Mancanti | Generatore Schede per Bambini',
-    description: 'Crea schede gratuite pezzi mancanti per bambini. Stampabili gratuiti per scuola dell\'infanzia e primaria. Scarica scheda gratuita PDF in 3 minuti.',
+    description: 'Crea schede gratuite pezzi mancanti per bambini. Stampabili gratuiti per scuola dell\'infanzia e primaria. Scarica scheda gratuita PDF in 3 minuti. Perfetto per insegnanti e genitori.',
     keywords: 'schede gratuite pezzi mancanti, scheda gratuita per bambini, stampabili gratuiti, scheda per scuola dell\'infanzia, schede didattiche scuola primaria, generatore schede, discriminazione visiva, pregrafismo, puzzle visivo',
     canonicalUrl: 'https://www.lessoncraftstudio.com/it/apps/pezzi-mancanti-schede',
     images: [

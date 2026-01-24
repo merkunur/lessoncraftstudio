@@ -15,8 +15,8 @@ export const missingPiecesDaContent: ProductPageContent = {
   seo: {
     slug: 'manglende-brikker-arbejdsark',
     appId: 'missing-pieces',
-    title: 'Manglende Brikker Opgaver - Gratis Arbejdsark til Børn i Børnehaveklasse',
-    description: 'Lav manglende brikker opgaver med vores gratis arbejdsark generator. Gratis arbejdsark til børn til børnehaveklasse og 1. klasse. Download gratis printables i høj kvalitet på under 3 minutter.',
+    title: 'Manglende Brikker Opgaver - Gratis Arbejdsark til Børn i',
+    description: 'Lav manglende brikker opgaver med vores gratis arbejdsark generator. Gratis arbejdsark til børn til børnehaveklasse og 1. klasse. Download gratis printables i.',
     keywords: 'manglende brikker, puslespil opgaver, visuel diskrimination, opgaver til print, arbejdsark, gratis skoleopgaver, børnehaveklassen, 1. klasse, finmotorik øvelser, mønstergenkendelse',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/manglende-brikker-arbejdsark',
     images: [

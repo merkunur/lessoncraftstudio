@@ -15,7 +15,7 @@ export const drawAndColorFrContent: ProductPageContent = {
   seo: {
     slug: 'dessin-quadrillage-fiches',
     appId: 'draw-and-color',
-    title: 'Coloriage à Imprimer sur Quadrillage | Fiches Maternelle et Exercices CP',
+    title: 'Coloriage à Imprimer sur Quadrillage | Fiches Maternelle et Exercices',
     description: 'Créez des fiches de dessin sur quadrillage professionnelles pour maternelle et CP. Téléchargez des fiches à imprimer gratuit en PDF 300 DPI en 3 minutes.',
     keywords: 'coloriage à imprimer, dessin quadrillage, fiches maternelle, exercices CP, graphisme maternelle, fiches à imprimer gratuit, exercices CE1, apprendre à lire, écriture cursive, tables de multiplication',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fr/apps/dessin-quadrillage-fiches',

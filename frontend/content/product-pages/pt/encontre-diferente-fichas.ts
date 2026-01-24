@@ -17,8 +17,8 @@ export const oddOneOutPtContent: ProductPageContent = {
   seo: {
     slug: 'encontre-diferente-fichas',
     appId: 'odd-one-out',
-    title: 'Atividade Grátis Qual É o Diferente - Atividade para Educação Infantil | Gerador de Atividades',
-    description: 'Crie atividades grátis de qual é o diferente profissionais em poucos minutos com nosso gerador de atividades para imprimir. Atividade grátis para crianças com sua assinatura Acesso Completo. Baixe imprimíveis grátis de alta qualidade prontas para raciocínio lógico.',
+    title: 'Atividade Grátis Qual É o Diferente - Atividade para Educação Infantil',
+    description: 'Crie atividades grátis de qual é o diferente profissionais em poucos minutos com nosso gerador de atividades para imprimir. Atividade grátis para crianças com.',
     keywords: 'atividade grátis, atividade grátis para crianças, atividades grátis, imprimíveis grátis, atividade para crianças, atividade para educação infantil, atividade, qual é o diferente, raciocínio lógico, atividades para imprimir, atividades educação infantil, discriminação visual',
     canonicalUrl: 'https://www.lessoncraftstudio.com/pt/apps/encontre-diferente-fichas',
     images: [

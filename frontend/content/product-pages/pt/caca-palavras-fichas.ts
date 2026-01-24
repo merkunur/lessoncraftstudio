@@ -21,7 +21,7 @@ export const wordSearchPtContent: ProductPageContent = {
   seo: {
     slug: 'caca-palavras-fichas',
     appId: 'wordsearch',
-    title: 'Atividades Gratis Caca-Palavras | Gerador Imprimiveis Gratis para Criancas',
+    title: 'Atividades Gratis Caca-Palavras | Gerador Imprimiveis Gratis para',
     description: 'Crie atividades gratis caca-palavras para criancas. Gerador de imprimiveis gratis para educacao infantil. Baixe atividade gratis PDF em 3 minutos com gabarito.',
     keywords: 'caca-palavras, atividade gratis, atividades gratis, imprimiveis gratis, atividade para criancas, atividade para educacao infantil, atividades de alfabetizacao, educacao infantil, ensino fundamental, coordenacao motora',
     canonicalUrl: 'https://www.lessoncraftstudio.com/pt/apps/caca-palavras-fichas',

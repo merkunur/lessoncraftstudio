@@ -18,7 +18,7 @@ export const oddOneOutEsContent: ProductPageContent = {
     slug: 'encuentra-el-diferente-fichas',
     appId: 'odd-one-out',
     title: 'Fichas Encuentra el Diferente Gratis | Generador para Imprimir',
-    description: 'Crea fichas de encuentra el diferente gratis para imprimir. Generador de discriminación visual para preescolar. Descarga PDF en 300 DPI en 3 minutos.',
+    description: 'Crea fichas de encuentra el diferente gratis para imprimir. Generador de discriminación visual para preescolar. Descarga PDF en 300 DPI en 3 minutos. Perfecto para maestros y padres.',
     keywords: 'fichas para imprimir, encuentra el diferente, fichas preescolar, fichas infantil, material educativo gratis, fichas gratis, discriminación visual, grafomotricidad, lectoescritura, ejercicios cognitivos, dibujos para colorear',
     images: [
       {

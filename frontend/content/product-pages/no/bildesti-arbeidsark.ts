@@ -17,8 +17,8 @@ export const bildestiNoContent: ProductPageContent = {
   seo: {
     slug: 'bildesti-arbeidsark',
     appId: 'picture-path',
-    title: 'Bildesti-Generator - Arbeidsark Gratis Labyrintoppgaver og Finmotorikk Øvelser for Barn',
-    description: 'Lag profesjonelle bildelabyrintark med vår bildesti-generator. Full Tilgang-abonnementet gir deg ubegrenset tilgang til å lage labyrintoppgaver uten ekstra kostnader per ark. Generer tilpassede arbeidsark gratis for nedlasting - perfekt for barnehage og småskoletrinn.',
+    title: 'Bildesti-Generator - Arbeidsark Gratis Labyrintoppgaver og',
+    description: 'Lag profesjonelle bildelabyrintark med vår bildesti-generator. Full Tilgang-abonnementet gir deg ubegrenset tilgang til å lage labyrintoppgaver uten ekstra.',
     keywords: 'bildesti, labyrintoppgaver, arbeidsark gratis, finmotorikk øvelser, matematikk oppgaver, oppgavehefter barn, tall og telling, gangetabellen, fargeleggingsbilder barn, bokstaver lære skrive, lesetrening',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/bildesti-arbeidsark',
   },

@@ -15,8 +15,8 @@ export const patternTrainItContent: ProductPageContent = {
   seo: {
     slug: 'treno-sequenze-schede',
     appId: 'pattern-train',
-    title: 'Schede Gratuite Treno delle Sequenze | Generatore Stampabili Gratuiti per Bambini - Scheda per Scuola dell\'Infanzia',
-    description: 'Crea schede gratuite Treno delle Sequenze con il nostro generatore. Stampabili gratuiti per bambini della scuola dell\'infanzia e classe prima. Scheda gratuita per bambini con sequenze AB, AAB, ABC. Scarica PDF di alta qualità in meno di 3 minuti.',
+    title: 'Schede Gratuite Treno delle Sequenze | Generatore Stampabili Gratuiti',
+    description: 'Crea schede gratuite Treno delle Sequenze con il nostro generatore. Stampabili gratuiti per bambini della scuola dell\'infanzia e classe prima.',
     keywords: 'schede gratuite treno sequenze, scheda gratuita bambini, stampabili gratuiti scuola infanzia, scheda per bambini sequenze, treno delle sequenze, schede didattiche sequenze, scuola primaria, classe prima, riconoscimento sequenze, pregrafismo',
     canonicalUrl: 'https://www.lessoncraftstudio.com/it/apps/treno-sequenze-schede',
     images: [

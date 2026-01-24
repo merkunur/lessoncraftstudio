@@ -16,7 +16,7 @@ export const cryptogramSvContent: ProductPageContent = {
     slug: 'bildkryptogram-arbetsblad',
     appId: 'cryptogram',
     title: 'Gratis Arbetsblad Bildkryptogram | Bokstavspussel Generator för Barn',
-    description: 'Skapa gratis arbetsblad för bildkryptogram. Generera bokstavspussel för förskoleklass och lågstadiet. Ladda ner professionella PDF-arbetsblad på under 3 minuter.',
+    description: 'Skapa gratis arbetsblad för bildkryptogram. Generera bokstavspussel för förskoleklass och lågstadiet. Ladda ner professionella PDF-arbetsblad på under 3.',
     keywords: 'gratis arbetsblad, gratis arbetsblad för barn, gratis utskrifter, arbetsblad för barn, arbetsblad för förskoleklass, bildkryptogram generator, bokstavspussel, kryptogram barn, bildkryptogram, matematik arbetsblad, finmotorik övningar',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/bildkryptogram-arbetsblad',
     images: [

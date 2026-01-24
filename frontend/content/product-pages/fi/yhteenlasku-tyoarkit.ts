@@ -15,8 +15,8 @@ export const additionFiContent: ProductPageContent = {
   seo: {
     slug: 'yhteenlasku-tyoarkit',
     appId: 'addition',
-    title: 'Yhteenlaskun Tehtävät Generaattori | Tulostettavat Matematiikka Tehtävät Alakoulu ja Esiopetus',
-    description: 'Luo ammattimaisia yhteenlaskun tehtäviä kuvilla yhteenlaskugeneraattorillamme. Peruspaketti-tilauksesi antaa sinulle rajattoman tehtävien luonnin ilman maksuja per tehtävä. Generoi tulostettavia matematiikka tehtävät alakoulu ja esiopetus materiaali ilmainen -oppilaille.',
+    title: 'Yhteenlaskun Tehtävät Generaattori | Tulostettavat Matematiikka',
+    description: 'Luo ammattimaisia yhteenlaskun tehtäviä kuvilla yhteenlaskugeneraattorillamme. Peruspaketti-tilauksesi antaa sinulle rajattoman tehtävien luonnin ilman maksuja.',
     keywords: 'yhteenlasku tehtävät, matematiikka tehtävät alakoulu, esiopetus materiaali ilmainen, tulostettavat tehtävät lapsille ilmainen, yhteenlasku ja vähennyslasku tehtävät, hienomotoriikka harjoitukset',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fi/apps/yhteenlasku-tyoarkit',
   },

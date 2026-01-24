@@ -15,8 +15,8 @@ export const wordScrambleFiContent: ProductPageContent = {
   seo: {
     slug: 'sanansekoitus-tyoarkit',
     appId: 'word-scramble',
-    title: 'Sanansekoitus-tehtävät Generaattori | Tulostettavat Tehtävät Lapsille Ilmainen ja Esiopetus Materiaali',
-    description: 'Luo ammattimaisia sanansekoitustehtäviä helposti verkossa. Peruspaketti-tilauksesi antaa rajattoman tehtävien luomisen ilman per-tehtävä maksuja. Generoi mukautettuja tulostettavia sanansekoitustehtäviä täydellisiksi esiopetukseen ja alakouluun.',
+    title: 'Sanansekoitus-tehtävät Generaattori | Tulostettavat Tehtävät Lapsille',
+    description: 'Luo ammattimaisia sanansekoitustehtäviä helposti verkossa. Peruspaketti-tilauksesi antaa rajattoman tehtävien luomisen ilman per-tehtävä maksuja.',
     keywords: 'sanansekoitus tehtävät, tulostettavat tehtävät lapsille ilmainen, esiopetus materiaali ilmainen, kirjaimet harjoittelu esikoulu, lukemaan oppiminen tehtävät, hienomotoriikka harjoitukset',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fi/apps/sanansekoitus-tyoarkit',
   },

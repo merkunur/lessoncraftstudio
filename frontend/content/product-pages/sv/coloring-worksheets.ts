@@ -15,8 +15,8 @@ export const coloringSvContent: ProductPageContent = {
   seo: {
     slug: 'malarbilder-arbetsblad',
     appId: 'coloring',
-    title: 'Målarbilder Barn - Gratis Arbetsblad att Skriva Ut - Förskoleklass Material',
-    description: 'Skapa professionella målarbilder barn med vårt enkla verktyg. Din Grundpaketet-prenumeration ger dig obegränsad tillgång att skapa målarbilder barn utan extra kostnad per arbetsblad. Generera anpassade målarbilder barn perfekta för förskoleklass och lågstadiet.',
+    title: 'Målarbilder Barn - Gratis Arbetsblad att Skriva Ut - Förskoleklass',
+    description: 'Skapa professionella målarbilder barn med vårt enkla verktyg. Din Grundpaketet-prenumeration ger dig obegränsad tillgång att skapa målarbilder barn utan extra.',
     keywords: 'målarbilder barn, arbetsblad gratis, förskoleklass material, finmotorik övningar, matematik arbetsblad, bokstäver lära sig, siffror och tal, multiplikationstabellen, klockan lära sig, addition och subtraktion',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/malarbilder-arbetsblad',
     images: [

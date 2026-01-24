@@ -15,8 +15,8 @@ export const moreLessFiContent: ProductPageContent = {
   seo: {
     slug: 'enemman-vahemman-tyoarkit',
     appId: 'more-less',
-    title: 'Matematiikka Tehtävät Alakoulu - Tulostettavat Tehtävät Lapsille Ilmainen - Esiopetus Materiaali Ilmainen',
-    description: 'Luo ammattimaisia vertailutehtäviä lukujen ja määrien vertailuun. Täysi Käyttöoikeus -tilauksella saat rajattomasti tehtäviä ilman yksittäisiä maksuja per tehtävä. Generoi tulostettavia matematiikkatehtäviä, jotka sopivat täydellisesti esiopetukseen ja alakoulun ensimmäisille luokille. Lataa laadukkaat PDF-tehtävät alle 3 minuutissa.',
+    title: 'Matematiikka Tehtävät Alakoulu - Tulostettavat Tehtävät Lapsille',
+    description: 'Luo ammattimaisia vertailutehtäviä lukujen ja määrien vertailuun. Täysi Käyttöoikeus -tilauksella saat rajattomasti tehtäviä ilman yksittäisiä maksuja per.',
     keywords: 'matematiikka tehtävät alakoulu, tulostettavat tehtävät lapsille ilmainen, esiopetus materiaali ilmainen, vertailutehtävät, enemmän vähemmän, suurempi pienempi, lukujen vertailu',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fi/apps/enemman-vahemman-tyoarkit',
   },

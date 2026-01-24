@@ -17,8 +17,8 @@ export const pictureSortEsContent: ProductPageContent = {
   seo: {
     slug: 'clasificar-imagenes-fichas',
     appId: 'picture-sort',
-    title: 'Fichas para Imprimir de Clasificación - Generador de Fichas de Clasificación Profesional para Educación Infantil',
-    description: 'Crea fichas profesionales de clasificación con nuestro generador especializado. Tu suscripción Acceso Completo te permite crear fichas infantil ilimitadas sin costos por ficha individual. Descarga fichas gratis en formato PDF de alta calidad en menos de 3 minutos.',
+    title: 'Fichas para Imprimir de Clasificación - Generador de Fichas de',
+    description: 'Crea fichas profesionales de clasificación con nuestro generador especializado. Tu suscripción Acceso Completo te permite crear fichas infantil ilimitadas sin.',
     keywords: 'fichas para imprimir, fichas de clasificación, fichas preescolar, fichas infantil, material educativo gratis, fichas gratis, grafomotricidad, lectoescritura, abecedario, tablas de multiplicar, dibujos para colorear, educación infantil, categorizar objetos',
     canonicalUrl: 'https://www.lessoncraftstudio.com/es/apps/clasificar-imagenes-fichas',
     images: [

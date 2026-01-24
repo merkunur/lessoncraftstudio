@@ -15,8 +15,8 @@ export const subtractionSvContent: ProductPageContent = {
   seo: {
     slug: 'subtraktion-arbetsblad',
     appId: 'subtraction',
-    title: 'Gratis Arbetsblad Subtraktion | Arbetsblad för Barn och Förskoleklass - Matematik Generator',
-    description: 'Skapa professionella subtraktionsblad med vår matematikgenerator. Generera anpassade utskrivbara matematik arbetsblad perfekta för förskoleklass material och lågstadiet. Ladda ner högkvalitativa PDF-filer med siffror och tal på under 3 minuter.',
+    title: 'Gratis Arbetsblad Subtraktion | Arbetsblad för Barn och Förskoleklass',
+    description: 'Skapa professionella subtraktionsblad med vår matematikgenerator. Generera anpassade utskrivbara matematik arbetsblad perfekta för förskoleklass material och.',
     keywords: 'subtraktion arbetsblad, matematik arbetsblad, förskoleklass material, matte övningar, siffror och tal, arbetsblad gratis, addition och subtraktion, subtraktionsblad, räkneövningar, taluppfattning',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/subtraktion-arbetsblad',
     images: [

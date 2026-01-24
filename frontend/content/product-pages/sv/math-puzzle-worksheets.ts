@@ -15,7 +15,7 @@ export const mathPuzzleSvContent: ProductPageContent = {
   seo: {
     slug: 'mattepussel-arbetsblad',
     appId: 'math-puzzle',
-    title: 'Gratis Arbetsblad Mattepussel | Addition och Subtraktion Generator för Barn',
+    title: 'Gratis Arbetsblad Mattepussel | Addition och Subtraktion Generator',
     description: 'Skapa gratis arbetsblad mattepussel. Generera addition och subtraktion övningar för förskoleklass. Ladda ner professionella PDF-arbetsblad på 3 minuter.',
     keywords: 'mattepussel, matematik arbetsblad, addition och subtraktion, förskoleklass material, matte övningar, siffror och tal, arbetsblad gratis, multiplikationstabellen, klockan lära sig, bokstäver lära sig, skriva bokstäver, målarbilder barn, finmotorik övningar, gratis arbetsblad, gratis arbetsblad för barn, gratis utskrifter, arbetsblad för barn, arbetsblad för förskoleklass',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/mattepussel-arbetsblad',

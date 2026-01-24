@@ -15,8 +15,8 @@ export const cryptogramEsContent: ProductPageContent = {
   seo: {
     slug: 'criptogramas-imagenes-fichas',
     appId: 'cryptogram',
-    title: 'Criptogramas de Imágenes para Imprimir - Fichas de Lectoescritura para Preescolar | Generador de Criptogramas',
-    description: 'Crea criptogramas profesionales con imágenes usando nuestro generador de fichas para imprimir. Genera fichas infantil únicas perfectas para lectoescritura y desarrollo cognitivo. Descarga fichas gratis de alta calidad en formato PDF en menos de 3 minutos.',
+    title: 'Criptogramas de Imágenes para Imprimir - Fichas de Lectoescritura',
+    description: 'Crea criptogramas profesionales con imágenes usando nuestro generador de fichas para imprimir. Genera fichas infantil únicas perfectas para lectoescritura y.',
     keywords: 'criptogramas de imágenes, fichas para imprimir, fichas preescolar, fichas infantil, lectoescritura, grafomotricidad, material educativo gratis, abecedario, desarrollo cognitivo, fichas gratis',
     canonicalUrl: 'https://www.lessoncraftstudio.com/es/apps/criptogramas-imagenes-fichas',
     images: [

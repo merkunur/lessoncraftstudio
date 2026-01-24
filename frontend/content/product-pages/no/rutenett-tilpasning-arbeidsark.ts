@@ -15,8 +15,8 @@ export const gridMatchNoContent: ProductPageContent = {
   seo: {
     slug: 'rutenett-tilpasning-arbeidsark',
     appId: 'grid-match',
-    title: 'Rutenetttilpasning Arbeidsark Gratis - Visuell Matching Generator for Barn',
-    description: 'Lag profesjonelle rutenetttilpasning arbeidsark med vår visuell matching generator. Full Tilgang-abonnement gir deg ubegrenset tilgang til å lage rutenetttilpasning arbeidsark gratis uten ekstra kostnader per ark. Generer tilpassede arbeidsark perfekte for småskoletrinnet og barneskole. Last ned høykvalitets PDF-arbeidsark på under 3 minutter.',
+    title: 'Rutenetttilpasning Arbeidsark Gratis - Visuell Matching Generator for',
+    description: 'Lag profesjonelle rutenetttilpasning arbeidsark med vår visuell matching generator. Full Tilgang-abonnement gir deg ubegrenset tilgang til å lage.',
     keywords: 'rutenetttilpasning, arbeidsark gratis, visuell matching, oppgavehefter barn, matematikk oppgaver, finmotorikk øvelser, småskoletrinnet, barneskolen, romlig resonnering, visuell diskriminering',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/rutenett-tilpasning-arbeidsark',
   },

@@ -15,8 +15,8 @@ export const alphabetTrainNoContent: ProductPageContent = {
   seo: {
     slug: 'alfabet-tog-arbeidsark',
     appId: 'alphabet-train',
-    title: 'Alfabet-tog Arbeidsark - Bokstaver Lære Skrive - Gratis Arbeidsark for Barnehage',
-    description: 'Lag profesjonelle alfabet-tog arbeidsark med vår bokstav-generator. Generer tilpassede arbeidsark hvor barn lærer å skrive bokstaver gjennom en morsom tog-metafor. Last ned høykvalitets PDF-arbeidsark på under 3 minutter.',
+    title: 'Alfabet-tog Arbeidsark - Bokstaver Lære Skrive - Gratis Arbeidsark',
+    description: 'Lag profesjonelle alfabet-tog arbeidsark med vår bokstav-generator. Generer tilpassede arbeidsark hvor barn lærer å skrive bokstaver gjennom en morsom.',
     keywords: 'alfabet-tog, bokstaver lære skrive, arbeidsark gratis, barnehage, småskole, bokstavinnlæring, finmotorikk øvelser, oppgavehefter barn, tall og telling, fargeleggingsbilder barn',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/alfabet-tog-arbeidsark',
     images: [

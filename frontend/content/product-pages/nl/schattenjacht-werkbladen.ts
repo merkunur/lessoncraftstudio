@@ -29,8 +29,8 @@ export const treasureHuntNlContent: ProductPageContent = {
   seo: {
     slug: 'schattenjacht-werkbladen',
     appId: 'treasure-hunt',
-    title: 'Schattenjacht Werkbladen Gratis - Gratis Werkblad voor Kinderen Groep 1 2 3 | LessonCraft Studio',
-    description: 'Maak professionele schattenjacht werkbladen met onze richtingswoorden generator. Genereer aangepaste oefenbladen perfect voor groep 1, groep 2 en groep 3 leerlingen. Download hoogwaardige PDF werkbladen in minder dan 3 minuten.',
+    title: 'Schattenjacht Werkbladen Gratis - Gratis Werkblad voor Kinderen Groep',
+    description: 'Maak professionele schattenjacht werkbladen met onze richtingswoorden generator. Genereer aangepaste oefenbladen perfect voor groep 1, groep 2 en groep 3.',
     keywords: 'schattenjacht, werkbladen groep 3, werkbladen kleuters, oefenbladen gratis, fijne motoriek, rekenen werkbladen, richtingswoorden, groep 1 2, veilig leren lezen, ruimtelijk inzicht',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/schattenjacht-werkbladen',
     images: [

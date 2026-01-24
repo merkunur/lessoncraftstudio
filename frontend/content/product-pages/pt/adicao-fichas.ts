@@ -15,8 +15,8 @@ export const additionPtContent: ProductPageContent = {
   seo: {
     slug: 'adicao-fichas',
     appId: 'addition',
-    title: 'Atividades de Adição Grátis - Gerador de Atividades de Matemática para Imprimir',
-    description: 'Crie atividades de adição personalizadas com nosso gerador de atividades de matemática. Sua assinatura Pacote Essencial oferece criação ilimitada de atividades para imprimir sem taxas adicionais. Gere fichas de adição profissionais para educação infantil e ensino fundamental.',
+    title: 'Atividades de Adição Grátis - Gerador de Atividades de Matemática',
+    description: 'Crie atividades de adição personalizadas com nosso gerador de atividades de matemática. Sua assinatura Pacote Essencial oferece criação ilimitada de atividades.',
     keywords: 'atividades de adição, atividades para imprimir, atividades de matemática, educação infantil, 1º ano, 2º ano, coordenação motora, tabuada, desenhos para colorir, atividades de alfabetização, atividades vogais, letra cursiva, pontilhado',
     canonicalUrl: 'https://www.lessoncraftstudio.com/pt/apps/adicao-fichas',
     images: [

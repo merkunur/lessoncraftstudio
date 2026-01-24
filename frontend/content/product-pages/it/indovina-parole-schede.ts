@@ -15,8 +15,8 @@ export const wordGuessItContent: ProductPageContent = {
   seo: {
     slug: 'indovina-parole-schede',
     appId: 'word-guess',
-    title: 'Schede Gratuite Indovina la Parola | Stampabili Gratuiti Scuola Primaria e Infanzia',
-    description: 'Crea schede didattiche professionali per indovinare le parole con il nostro generatore specializzato. Il tuo abbonamento Accesso Completo ti permette di creare schede didattiche illimitate senza costi aggiuntivi per singola scheda. Genera schede didattiche scuola primaria personalizzate perfette per la scuola dell\'infanzia e le classi della primaria. Scarica materiale didattico di alta qualità in formato PDF in meno di 3 minuti.',
+    title: 'Schede Gratuite Indovina la Parola | Stampabili Gratuiti Scuola',
+    description: 'Crea schede didattiche professionali per indovinare le parole con il nostro generatore specializzato. Il tuo abbonamento Accesso Completo ti permette di creare.',
     keywords: 'schede didattiche indovinare parole, schede didattiche scuola primaria, schede didattiche scuola infanzia, alfabeto, lettere dell\'alfabeto, vocabolario, schede italiano classe prima, schede matematica, disegni da colorare, pregrafismo, numeri da stampare, tabelline',
     images: [
       {

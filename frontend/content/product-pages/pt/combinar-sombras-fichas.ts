@@ -17,8 +17,8 @@ export const shadowMatchPtContent: ProductPageContent = {
   seo: {
     slug: 'combinar-sombras-fichas',
     appId: 'shadow-match',
-    title: 'Atividade Grátis de Combinar Sombras para Imprimir - Atividades Educação Infantil e Coordenação Motora',
-    description: 'Crie atividades de combinar sombras profissionais em menos de 3 minutos. Com sua assinatura Acesso Completo, você gera fichas ilimitadas sem taxas adicionais por atividade. Nosso gerador de atividades para imprimir transforma imagens coloridas em silhuetas para exercícios de pareamento visual.',
+    title: 'Atividade Grátis de Combinar Sombras para Imprimir',
+    description: 'Crie atividades de combinar sombras profissionais em menos de 3 minutos. Com sua assinatura Acesso Completo, você gera fichas ilimitadas sem taxas adicionais.',
     keywords: 'atividades para imprimir, combinar sombras, atividades educação infantil, coordenação motora, atividades de alfabetização, desenhos para colorir, atividades 1º ano, atividades 2º ano, letra cursiva, pontilhado, tabuada, atividades vogais, alfabeto',
     canonicalUrl: 'https://www.lessoncraftstudio.com/pt/apps/combinar-sombras-fichas',
     images: [

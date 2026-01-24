@@ -15,8 +15,8 @@ export const coloringEsContent: ProductPageContent = {
   seo: {
     appId: 'coloring',
     slug: 'dibujos-colorear-fichas',
-    title: 'Dibujos para Colorear Gratis | Creador de Fichas para Imprimir - Preescolar y Primaria',
-    description: 'Crea dibujos para colorear gratis con nuestro generador de fichas para imprimir. Descarga fichas preescolar en PDF de 300 DPI en menos de 3 minutos.',
+    title: 'Dibujos para Colorear Gratis | Creador de Fichas para Imprimir',
+    description: 'Crea dibujos para colorear gratis con nuestro generador de fichas para imprimir. Descarga fichas preescolar en PDF de 300 DPI en menos de 3 minutos. Perfecto para maestros y padres.',
     keywords: 'dibujos para colorear, fichas para imprimir, páginas de colorear, fichas preescolar, fichas infantil, material educativo gratis, grafomotricidad, lectoescritura, abecedario para aprender las letras, ejercicios matemáticas',
     canonicalUrl: 'https://www.lessoncraftstudio.com/es/apps/dibujos-colorear-fichas',
     images: [

@@ -28,7 +28,7 @@ export const coloringDeContent: ProductPageContent = {
     slug: 'malvorlagen-arbeitsblaetter',
     appId: 'coloring',
     title: 'Malvorlagen-Generator - Kostenlose Ausmalbilder Arbeitsblätter',
-    description: 'Erstellen Sie professionelle Malvorlagen und Ausmalbilder für Arbeitsblätter Grundschule. Kostenlose Druckvorlagen in 3 Minuten erstellen. Jetzt kostenlos testen!',
+    description: 'Erstellen Sie professionelle Malvorlagen und Ausmalbilder für Arbeitsblätter Grundschule. Kostenlose Druckvorlagen in 3 Minuten erstellen.',
     keywords: 'malvorlagen generator, ausmalbilder, arbeitsblätter grundschule, kostenlose arbeitsblätter, vorschule arbeitsblätter, schwungübungen, buchstaben lernen, mathe arbeitsblätter, deutsch arbeitsblätter, einmaleins',
     canonicalUrl: 'https://www.lessoncraftstudio.com/de/apps/malvorlagen-arbeitsblaetter',
     images: [

@@ -15,8 +15,8 @@ export const matchingNoContent: ProductPageContent = {
   seo: {
     slug: 'kobling-arbeidsark',
     appId: 'matching',
-    title: 'Arbeidsark Gratis - Matchingsoppgaver for Barn - Bokstaver Lære Skrive Aktiviteter',
-    description: 'Lag profesjonelle matchingsoppgaver med vår generator for arbeidsark. Din Kjernepakke-abonnement gir deg ubegrenset tilgang til å lage matchingsoppgaver uten ekstra avgifter per ark. Generer tilpassede arbeidsark gratis perfekt for barnehage og småskoletrinnet. Last ned høykvalitets PDF-oppgaver på under 3 minutter.',
+    title: 'Arbeidsark Gratis - Matchingsoppgaver for Barn - Bokstaver Lære',
+    description: 'Lag profesjonelle matchingsoppgaver med vår generator for arbeidsark. Din Kjernepakke-abonnement gir deg ubegrenset tilgang til å lage matchingsoppgaver uten.',
     keywords: 'matchingsoppgaver, arbeidsark gratis, oppgavehefter barn, bokstaver lære skrive, matematikk oppgaver, finmotorikk øvelser, småskoletrinnet, barneskolen, gangetabellen, tall og telling',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/kobling-arbeidsark',
     images: [

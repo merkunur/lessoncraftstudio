@@ -27,8 +27,8 @@ export const alphabetTrainNlContent: ProductPageContent = {
   seo: {
     slug: 'alfabet-trein-werkbladen',
     appId: 'alphabet-train',
-    title: 'Alfabet Trein Gratis Werkbladen Generator - Letters Leren Werkblad voor Kinderen en Kleuters',
-    description: 'Maak gratis werkbladen voor alfabet trein met deze professionele generator. Letters leren werkblad voor kinderen, kleuters en groep 3. Download als PDF - gratis printables voor thuis en school.',
+    title: 'Alfabet Trein Gratis Werkbladen Generator | Gratis Werkbladen',
+    description: 'Maak gratis werkbladen voor alfabet trein met deze professionele generator. Letters leren werkblad voor kinderen, kleuters en groep 3. Download als PDF -.',
     keywords: 'gratis werkblad, gratis werkbladen, werkblad voor kinderen, werkblad voor kleuters, gratis printables, alfabet trein werkbladen, letters leren, werkbladen kleuters, werkbladen groep 3, oefenbladen gratis',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/alfabet-trein-werkbladen',
     images: [

@@ -17,8 +17,8 @@ export const shadowMatchSvContent: ProductPageContent = {
   seo: {
     slug: 'skuggmatchning-arbetsblad',
     appId: 'shadow-match',
-    title: 'Skuggmatchning Gratis Arbetsblad för Barn - Förskoleklass Material för Visuell Perception',
-    description: 'Skapa professionella skuggmatchningsövningar med vår skuggmatchningsgenerator. Generera anpassade utskrivbara skuggmatchningsarbetsblad perfekta för förskoleklass material och finmotorik övningar. Ladda ner högkvalitativa PDF-arbetsblad på under 3 minuter.',
+    title: 'Skuggmatchning Gratis Arbetsblad för Barn | Gratis Arbetsblad',
+    description: 'Skapa professionella skuggmatchningsövningar med vår skuggmatchningsgenerator. Generera anpassade utskrivbara skuggmatchningsarbetsblad perfekta för.',
     keywords: 'skuggmatchning arbetsblad, gratis arbetsblad, gratis arbetsblad för barn, arbetsblad för barn, förskoleklass material, finmotorik övningar, visuell perception, matcha skuggor, gör det helt, svenska arbetsblad, lågstadiet material, gratis utskrifter',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/skuggmatchning-arbetsblad',
     images: [

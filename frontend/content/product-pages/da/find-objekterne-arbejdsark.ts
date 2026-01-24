@@ -15,8 +15,8 @@ export const findObjectsDaContent: ProductPageContent = {
   seo: {
     slug: 'find-objekterne-arbejdsark',
     appId: 'find-objects',
-    title: 'Find Objekterne Opgaver til Print - Gratis Arbejdsark til Børn i 0. Klasse og 1. Klasse - Gratis Printables Generator',
-    description: 'Lav professionelle find-objekterne opgaver med vores opgavegenerator. Dit Fuld Adgang abonnement giver dig ubegrænset adgang til at lave gratis arbejdsark til børn uden ekstra betaling per opgave. Generer tilpassede gratis printables perfekte til børnehaveklasse og 1. klasse elever. Download pædagogiske opgaveark i høj kvalitet på under 3 minutter.',
+    title: 'Find Objekterne Opgaver til Print - Gratis Arbejdsark til Børn i 0.',
+    description: 'Lav professionelle find-objekterne opgaver med vores opgavegenerator. Dit Fuld Adgang abonnement giver dig ubegrænset adgang til at lave gratis arbejdsark til.',
     keywords: 'find objekterne, opgaver til print, matematikopgaver, arbejdsark, gratis skoleopgaver, 0. klasse, 1. klasse, børnehaveklasse, finmotorik øvelser, visuel diskriminering, gratis arbejdsark, gratis arbejdsark til børn, gratis printables, arbejdsark til børn, arbejdsark til børnehaveklasse',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/find-objekterne-arbejdsark',
     images: [

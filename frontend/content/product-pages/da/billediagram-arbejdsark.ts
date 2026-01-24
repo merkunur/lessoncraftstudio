@@ -15,7 +15,7 @@ export const chartCountDaContent: ProductPageContent = {
   seo: {
     slug: 'billediagram-arbejdsark',
     appId: 'chart-count',
-    title: 'Billediagram Gratis Arbejdsark - Generator til Børnehaveklasse og 0. Klasse',
+    title: 'Billediagram Gratis Arbejdsark - Generator til Børnehaveklasse og 0.',
     description: 'Lav billediagram gratis arbejdsark til børn med vores generator. Ubegrænset arbejdsark til børnehaveklasse. Download gratis printables som PDF på 3 minutter.',
     keywords: 'billediagram arbejdsark, gratis arbejdsark, arbejdsark til børn, arbejdsark til børnehaveklasse, gratis printables, 0. klasse arbejdsark, 1. klasse, tælleopgaver, matematikopgaver',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/billediagram-arbejdsark',

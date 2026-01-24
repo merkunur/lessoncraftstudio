@@ -15,8 +15,8 @@ export const chartCountFiContent: ProductPageContent = {
   seo: {
     slug: 'kuvakaavio-tyoarkit',
     appId: 'chart-count',
-    title: 'Kuvakaavio Generaattori - Tulostettavat Tehtävät Lapsille Ilmainen - Matematiikka Tehtävät Alakoulu',
-    description: 'Luo ammattimaisia kuvakaaviotehtäviä laskemisen ja tietojen visualisoinnin harjoitteluun. Täysi Käyttöoikeus -tilaus antaa rajattoman pääsyn kaikkiin 33 tehtävämonisteen luontityökaluun. Lataa tulostettavat tehtävät PDF- tai JPEG-muodossa alle 3 minuutissa.',
+    title: 'Kuvakaavio Generaattori - Tulostettavat Tehtävät Lapsille Ilmainen -',
+    description: 'Luo ammattimaisia kuvakaaviotehtäviä laskemisen ja tietojen visualisoinnin harjoitteluun. Täysi Käyttöoikeus -tilaus antaa rajattoman pääsyn kaikkiin 33.',
     keywords: 'kuvakaavio generaattori, tulostettavat tehtävät lapsille ilmainen, matematiikka tehtävät alakoulu, esiopetus materiaali ilmainen, pylväsdiagrammi tehtävät, laskeminen tehtävät',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fi/apps/kuvakaavio-tyoarkit',
   },

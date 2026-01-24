@@ -15,8 +15,8 @@ export const treasureHuntSvContent: ProductPageContent = {
   seo: {
     slug: 'skattjakt-arbetsblad',
     appId: 'treasure-hunt',
-    title: 'Gratis Skattjakt Arbetsblad | Riktningsövningar för Förskoleklass Material',
-    description: 'Skapa professionella skattjakt arbetsblad med vår generator. Generera anpassade utskrivbara riktningsövningar perfekta för förskoleklass material och lågstadiet. Ladda ner PDF på under 3 minuter.',
+    title: 'Gratis Skattjakt Arbetsblad | Riktningsövningar för Förskoleklass',
+    description: 'Skapa professionella skattjakt arbetsblad med vår generator. Generera anpassade utskrivbara riktningsövningar perfekta för förskoleklass material och.',
     keywords: 'skattjakt arbetsblad, riktningsövningar, förskoleklass material, arbetsblad gratis, bokstäver lära sig, väderstreck, upp ner vänster höger, elev material, lågstadiet, finmotorik övningar',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/skattjakt-arbetsblad',
     images: [

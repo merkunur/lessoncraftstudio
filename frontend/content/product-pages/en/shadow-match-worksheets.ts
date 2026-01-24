@@ -15,7 +15,7 @@ export const shadowMatchEnContent: ProductPageContent = {
   seo: {
     slug: 'shadow-match-worksheets',
     appId: 'shadow-match',
-    title: 'Free Worksheet for Kids - Shadow Match Worksheets for Kindergarten | Free Printables Generator',
+    title: 'Free Worksheet for Kids - Shadow Match Worksheets for Kindergarten',
     description: 'Create shadow match worksheets for kindergarten and first grade. Free printable visual perception activities with answer keys. Download PDF in 3 minutes.',
     keywords: 'shadow match worksheets, free worksheets, kindergarten worksheets, visual perception, free printable worksheets, first grade worksheets, worksheet for kids, silhouette matching, shape recognition worksheets, free printables',
     canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/shadow-match-worksheets',

@@ -18,7 +18,7 @@ export const prepositionsPtContent: ProductPageContent = {
     slug: 'preposicoes-fichas',
     appId: 'prepositions',
     title: 'Atividade Grátis de Preposições - Fichas para Educação Infantil',
-    description: 'Crie atividades grátis de preposições com nosso gerador. Imprimíveis grátis para educação infantil com conceitos espaciais. Fichas de preposições para crianças prontas em 3 minutos.',
+    description: 'Crie atividades grátis de preposições com nosso gerador. Imprimíveis grátis para educação infantil com conceitos espaciais. Fichas de preposições para crianças.',
     keywords: 'atividade grátis, atividade grátis para crianças, atividades grátis, imprimíveis grátis, atividade para crianças, atividade para educação infantil, atividades de preposições, atividades para imprimir, conceitos espaciais, em cima, embaixo, ao lado, atrás, entre',
     canonicalUrl: 'https://www.lessoncraftstudio.com/pt/apps/preposicoes-fichas',
     images: [

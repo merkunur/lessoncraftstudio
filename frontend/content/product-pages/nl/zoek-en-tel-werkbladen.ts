@@ -27,8 +27,8 @@ export const findAndCountNlContent: ProductPageContent = {
   seo: {
     slug: 'zoek-en-tel-werkbladen',
     appId: 'find-and-count',
-    title: 'Zoek en Tel Generator - Gratis Werkblad voor Kinderen met Werkbladen Groep 3',
-    description: 'Maak professionele zoek-en-tel werkbladen in enkele minuten. Deze interactieve werkblad generator combineert visueel zoeken met tellen. Met je Basispakket abonnement creëer je onbeperkt werkbladen groep 3 zonder extra kosten per werkblad.',
+    title: 'Zoek en Tel Generator - Gratis Werkblad voor Kinderen met Werkbladen',
+    description: 'Maak professionele zoek-en-tel werkbladen in enkele minuten. Deze interactieve werkblad generator combineert visueel zoeken met tellen. Met je Basispakket.',
     keywords: 'zoek en tel werkbladen, rekenen werkbladen, werkbladen groep 3, werkbladen kleuters, sommen tot 20, oefenbladen gratis, tafels oefenen, veilig leren lezen, fijne motoriek, letters leren',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/zoek-en-tel-werkbladen',
     images: [

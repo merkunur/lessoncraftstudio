@@ -15,8 +15,8 @@ export const writingFiContent: ProductPageContent = {
   seo: {
     slug: 'kasinkirjoitus-tyoarkit',
     appId: 'writing',
-    title: 'Kirjaimet Harjoittelu Esikoulu | Tulostettavat Tehtävät Lapsille Ilmainen - Hienomotoriikka Harjoitukset',
-    description: 'Luo ammattitasoisia käsinkirjoituksen harjoittelutehtäviä kirjainten harjoitteluun esiopetuksessa. Täysi Pääsy -tilaus antaa sinulle rajattoman määrän käsinkirjoitustehtävien luomista. Lataa korkealaatuisia PDF-tehtäviä alle kolmessa minuutissa.',
+    title: 'Kirjaimet Harjoittelu Esikoulu | Tulostettavat Tehtävät Lapsille',
+    description: 'Luo ammattitasoisia käsinkirjoituksen harjoittelutehtäviä kirjainten harjoitteluun esiopetuksessa. Täysi Pääsy -tilaus antaa sinulle rajattoman määrän.',
     keywords: 'kirjaimet harjoittelu esikoulu, tulostettavat tehtävät lapsille ilmainen, hienomotoriikka harjoitukset, esiopetus materiaali ilmainen, lukemaan oppiminen tehtävät, käsinkirjoitus tehtävät',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fi/apps/kasinkirjoitus-tyoarkit',
   },

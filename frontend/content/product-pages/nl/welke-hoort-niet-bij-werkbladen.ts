@@ -27,8 +27,8 @@ export const oddOneOutNlContent: ProductPageContent = {
   seo: {
     slug: 'welke-hoort-niet-bij-werkbladen',
     appId: 'odd-one-out',
-    title: 'Gratis Werkblad Welke Hoort Niet Bij - Gratis Werkbladen voor Kinderen en Kleuters',
-    description: 'Maak professionele werkbladen voor visuele discriminatie met onze welke-hoort-niet-bij generator. Je Volledige Toegang abonnement geeft je onbeperkte toegang tot deze generator zonder extra kosten per werkblad. Creëer aangepaste oefenbladen voor groep 1, groep 2 en groep 3 die perfect passen bij jouw leerlingen.',
+    title: 'Gratis Werkblad Welke Hoort Niet Bij - Gratis Werkbladen voor',
+    description: 'Maak professionele werkbladen voor visuele discriminatie met onze welke-hoort-niet-bij generator. Je Volledige Toegang abonnement geeft je onbeperkte toegang.',
     keywords: 'welke hoort niet bij werkbladen, visuele discriminatie werkbladen, werkbladen groep 3, werkbladen kleuters, oefenbladen gratis, fijne motoriek, veilig leren lezen, kleurplaten, sommen tot 20, tafels oefenen, gratis werkblad, gratis werkbladen, gratis printables, werkblad voor kinderen, werkblad voor kleuters',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/welke-hoort-niet-bij-werkbladen',
     images: [

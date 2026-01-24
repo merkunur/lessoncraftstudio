@@ -15,8 +15,8 @@ export const mathWorksheetsFiContent: ProductPageContent = {
   seo: {
     slug: 'matematiikka-tyoarkit',
     appId: 'math-worksheet',
-    title: 'Matematiikka Tehtävät Alakoulu Generaattori | Tulostettavat Tehtävät Lapsille Ilmainen Yhteenlasku ja Vähennyslasku Tehtävät - Esiopetus Materiaali Ilmainen',
-    description: 'Luo ammattimaisia visuaalisia matematiikkatehtäviä minuuteissa. Peruspaketti-tilauksesi antaa sinulle rajattoman matematiikkatehtävien luonnin ilman maksuja per tehtävä. Generoi tulostettavia matematiikkatehtäviä jotka sopivat täydellisesti esiopetuksen ja alakoulun oppilaille.',
+    title: 'Matematiikka Tehtävät Alakoulu Generaattori | Ilmaiset Tehtävät',
+    description: 'Luo ammattimaisia visuaalisia matematiikkatehtäviä minuuteissa. Peruspaketti-tilauksesi antaa sinulle rajattoman matematiikkatehtävien luonnin ilman maksuja.',
     keywords: 'matematiikka tehtävät alakoulu, tulostettavat tehtävät lapsille ilmainen, esiopetus materiaali ilmainen, yhteenlasku ja vähennyslasku tehtävät, hienomotoriikka harjoitukset',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fi/apps/matematiikka-tyoarkit',
   },

@@ -17,8 +17,8 @@ export const mathPuzzlePtContent: ProductPageContent = {
   seo: {
     slug: 'quebra-cabeca-matematica-fichas',
     appId: 'math-puzzle',
-    title: 'Quebra-Cabeça de Matemática - Atividade Grátis para Educação Infantil e Crianças',
-    description: 'Crie atividades de matemática para imprimir com nosso gerador de quebra-cabeças matemáticos. Com sua assinatura Acesso Completo, você tem acesso ilimitado sem taxas por atividade. Desenvolva atividades de educação infantil personalizadas em menos de 3 minutos.',
+    title: 'Quebra-Cabeça de Matemática - Atividade Grátis para Educação Infantil',
+    description: 'Crie atividades de matemática para imprimir com nosso gerador de quebra-cabeças matemáticos. Com sua assinatura Acesso Completo, você tem acesso ilimitado sem.',
     keywords: 'quebra-cabeça matemática, atividades para imprimir, atividades de matemática, atividades educação infantil, tabuada, atividades 1º ano, atividades 2º ano, desenhos para colorir, coordenação motora, atividades vogais, letra cursiva, pontilhado',
     canonicalUrl: 'https://www.lessoncraftstudio.com/pt/apps/quebra-cabeca-matematica-fichas',
     images: [

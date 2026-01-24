@@ -28,8 +28,8 @@ export const drawAndColorNlContent: ProductPageContent = {
   seo: {
     slug: 'rastertekenen-werkbladen',
     appId: 'draw-and-color',
-    title: 'Gratis Werkblad Rastertekenen - Werkblad voor Kinderen en Kleuters Generator',
-    description: 'Maak professionele rastertekenen werkbladen met onze gebruiksvriendelijke generator. Met je Volledige Toegang abonnement krijg je onbeperkte toegang tot het maken van werkbladen zonder extra kosten per werkblad. Download je werkbladen als PDF of JPEG en print ze direct uit.',
+    title: 'Gratis Werkblad Rastertekenen - Werkblad voor Kinderen en Kleuters',
+    description: 'Maak professionele rastertekenen werkbladen met onze gebruiksvriendelijke generator. Met je Volledige Toegang abonnement krijg je onbeperkte toegang tot het.',
     keywords: 'rastertekenen, werkbladen groep 3, werkbladen kleuters, oefenbladen gratis, fijne motoriek, letters leren, schrijven oefenen, rekenen werkbladen, veilig leren lezen, sommen tot 20, tafels oefenen, kleurplaten',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/rastertekenen-werkbladen',
     images: [

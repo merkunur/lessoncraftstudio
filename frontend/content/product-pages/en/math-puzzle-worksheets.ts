@@ -16,7 +16,7 @@ export const mathPuzzleEnContent: ProductPageContent = {
     slug: 'math-puzzle-worksheets',
     appId: 'math-puzzle',
     title: 'Free Math Puzzle Worksheets | Printable Math Worksheet Generator',
-    description: 'Create free math puzzle worksheets for kindergarten and first grade with our worksheet generator. Download printable math worksheets PDF in 3 minutes. Start now!',
+    description: 'Create free math puzzle worksheets for kindergarten and first grade with our worksheet generator. Download printable math worksheets PDF in 3 minutes.',
     keywords: 'math puzzle worksheets, math worksheets, free printable worksheets, kindergarten worksheets, first grade worksheets, addition worksheets, free worksheet for kids, math puzzle generator, printable math activities, worksheet for kindergarten',
     canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/math-puzzle-worksheets',
     images: [

@@ -15,8 +15,8 @@ export const drawingLinesItContent: ProductPageContent = {
   seo: {
     slug: 'pregrafismo-schede',
     appId: 'drawing-lines',
-    title: 'Schede Gratuite di Pregrafismo | Scheda Gratuita per Bambini - Generatore',
-    description: 'Crea schede gratuite di pregrafismo professionali per collegare immagini abbinate. Scheda per bambini con 8 modelli di tracciamento, 3000+ immagini e supporto 11 lingue. Stampabili gratuiti perfetti per scuola dell\'infanzia e classe prima.',
+    title: 'Schede Gratuite di Pregrafismo | Scheda Gratuita per Bambini',
+    description: 'Crea schede gratuite di pregrafismo professionali per collegare immagini abbinate. Scheda per bambini con 8 modelli di tracciamento, 3000+ immagini e supporto.',
     keywords: 'schede gratuite pregrafismo, scheda gratuita per bambini, scheda per scuola dell\'infanzia, stampabili gratuiti, tracciamento linee, motricità fine, schede stampabili, generatore schede, coordinazione occhio-mano, classe prima, preparazione scrittura',
     canonicalUrl: 'https://www.lessoncraftstudio.com/it/apps/pregrafismo-schede',
     images: [

@@ -15,8 +15,8 @@ export const dibujoCuadriculaEsContent: ProductPageContent = {
   seo: {
     slug: 'dibujo-cuadricula-fichas',
     appId: 'draw-and-color',
-    title: 'Fichas para Imprimir Gratis - Generador de Dibujos para Colorear en Cuadrícula',
-    description: 'Crea fichas de dibujo en cuadrícula profesionales con nuestro generador. Perfecto para maestros de educación infantil que necesitan fichas para imprimir de grafomotricidad. Material educativo gratis en PDF de alta calidad.',
+    title: 'Fichas para Imprimir Gratis - Generador de Dibujos para Colorear en',
+    description: 'Crea fichas de dibujo en cuadrícula profesionales con nuestro generador. Perfecto para maestros de educación infantil que necesitan fichas para imprimir de.',
     keywords: 'fichas para imprimir, fichas infantil, fichas preescolar, dibujos para colorear, grafomotricidad, material educativo gratis, fichas gratis, cuadrícula',
     canonicalUrl: 'https://www.lessoncraftstudio.com/es/apps/dibujo-cuadricula-fichas',
     images: [

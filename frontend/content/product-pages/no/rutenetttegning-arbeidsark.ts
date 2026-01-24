@@ -15,8 +15,8 @@ export const drawAndColorNoContent: ProductPageContent = {
   seo: {
     slug: 'rutenetttegning-arbeidsark',
     appId: 'draw-and-color',
-    title: 'Rutenetttegning Arbeidsark - Fargeleggingsbilder Barn og Arbeidsark Gratis for Barnehage',
-    description: 'Lag profesjonelle rutenetttegning arbeidsark med vår grid drawing generator. Generer tilpassede fargeleggingsbilder barn perfekt for barnehage og 1.-3. trinn. Last ned arbeidsark i høy kvalitet som PDF på under 3 minutter.',
+    title: 'Rutenetttegning Arbeidsark - Fargeleggingsbilder Barn og Arbeidsark',
+    description: 'Lag profesjonelle rutenetttegning arbeidsark med vår grid drawing generator. Generer tilpassede fargeleggingsbilder barn perfekt for barnehage og 1.-3. trinn.',
     keywords: 'rutenetttegning, fargeleggingsbilder barn, arbeidsark gratis, finmotorikk øvelser, barnehage, matematikk oppgaver, tall og telling, oppgavehefter barn, bokstaver lære skrive, lesetrening',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/rutenetttegning-arbeidsark',
     images: [

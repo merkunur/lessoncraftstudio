@@ -30,7 +30,7 @@ export const moreLessDeContent: ProductPageContent = {
     slug: 'mehr-weniger-arbeitsblaetter',
     appId: 'more-less',
     title: 'Vergleichs-Arbeitsblätter Generator | Kostenlose Mathe Arbeitsblätter',
-    description: 'Erstellen Sie Vergleichs-Arbeitsblätter in unter 3 Minuten. Kostenlose Mathe Arbeitsblätter zum Ausdrucken. Jetzt Generator testen!',
+    description: 'Erstellen Sie Vergleichs-Arbeitsblätter in unter 3 Minuten. Kostenlose Mathe Arbeitsblätter zum Ausdrucken. Jetzt Generator testen! Perfekt für Lehrer und.',
     keywords: 'vergleichs arbeitsblätter, arbeitsblätter grundschule, kostenlose arbeitsblätter, mathe arbeitsblätter, vorschule arbeitsblätter, größer kleiner gleich, einmaleins, schwungübungen, buchstaben lernen, rechnen lernen',
     canonicalUrl: 'https://www.lessoncraftstudio.com/de/apps/mehr-weniger-arbeitsblaetter',
     images: [

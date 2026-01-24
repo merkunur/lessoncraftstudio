@@ -18,8 +18,8 @@ export const pictureSortSvContent: ProductPageContent = {
   seo: {
     slug: 'bildsortering-arbetsblad',
     appId: 'picture-sort',
-    title: 'Sorteringsaktiviteter Barn - Arbetsblad Gratis för Förskoleklass Material och Matematik Arbetsblad',
-    description: 'Skapa professionella sorteringsaktiviteter för barn med vår bildsorteringsgenerator. Generera anpassade utskrivbara sorteringsövningar perfekta för förskoleklass material och matematik arbetsblad. Ladda ner högkvalitativa PDF-arbetsblad på under 3 minuter.',
+    title: 'Sorteringsaktiviteter Barn - Arbetsblad Gratis för Förskoleklass',
+    description: 'Skapa professionella sorteringsaktiviteter för barn med vår bildsorteringsgenerator. Generera anpassade utskrivbara sorteringsövningar perfekta för.',
     keywords: 'arbetsblad gratis, bildsortering, förskoleklass material, matematik arbetsblad, matte övningar, finmotorik övningar, multiplikationstabellen, siffror och tal, klockan lära sig, addition och subtraktion, målarbilder barn, bokstäver lära sig, sorteringsaktiviteter',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/bildsortering-arbetsblad',
     images: [

@@ -15,7 +15,7 @@ export const bigSmallDaContent: ProductPageContent = {
   seo: {
     slug: 'stor-lille-arbejdsark',
     appId: 'big-small',
-    title: 'Stor og Lille Gratis Arbejdsark til Børn | Generator til Børnehaveklasse',
+    title: 'Stor og Lille Gratis Arbejdsark til Børn | Gratis Arbejdsark',
     description: 'Lav gratis arbejdsark til børn med stor og lille størrelsessammenligning. Arbejdsark til børnehaveklasse og 0. klasse. Download gratis printables som PDF.',
     keywords: 'stor og lille, opgaver til print, gratis opgaver, arbejdsark, 0. klasse, børnehaveklasse, 1. klasse, matematikopgaver, størrelsessammenligning, finmotorik øvelser, gratis skoleopgaver',
     canonicalUrl: 'https://www.lessoncraftstudio.com/da/apps/stor-lille-arbejdsark',

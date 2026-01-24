@@ -17,8 +17,8 @@ export const oddOneOutItContent: ProductPageContent = {
   seo: {
     slug: 'trova-intruso-schede',
     appId: 'odd-one-out',
-    title: 'Schede Gratuite Trova l\'Intruso | Scheda Gratuita per Bambini Scuola Primaria',
-    description: 'Crea schede gratuite trova l\'intruso con il nostro generatore. Stampabili gratuiti per discriminazione visiva. Scheda gratuita per bambini e scheda per scuola dell\'infanzia. Scarica PDF in 3 minuti.',
+    title: 'Schede Gratuite Trova l\'Intruso | Scheda Gratuita per Bambini Scuola',
+    description: 'Crea schede gratuite trova l\'intruso con il nostro generatore. Stampabili gratuiti per discriminazione visiva. Scheda gratuita per bambini e scheda per scuola.',
     keywords: 'trova l\'intruso, schede gratuite, scheda gratuita, stampabili gratuiti, scheda per bambini, scheda per scuola dell\'infanzia, discriminazione visiva, ragionamento logico',
     canonicalUrl: 'https://www.lessoncraftstudio.com/it/apps/trova-intruso-schede',
     images: [

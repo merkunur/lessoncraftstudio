@@ -27,8 +27,8 @@ export const prepositionsNlContent: ProductPageContent = {
   seo: {
     slug: 'voorzetsels-werkbladen',
     appId: 'prepositions',
-    title: 'Voorzetsels Gratis Werkblad Generator - Werkblad voor Kinderen en Kleuters',
-    description: 'Maak professionele voorzetsels werkbladen met onze gratis werkbladen generator. Je Volledige Toegang abonnement geeft je onbeperkt werkblad voor kinderen maken zonder kosten per werkblad. Genereer aangepaste gratis printables voor het aanleren van ruimtelijke begrippen aan jonge leerlingen. Download hoogwaardige PDF werkblad voor kleuters in minder dan 3 minuten.',
+    title: 'Voorzetsels Gratis Werkblad Generator - Werkblad voor Kinderen en',
+    description: 'Maak professionele voorzetsels werkbladen met onze gratis werkbladen generator. Je Volledige Toegang abonnement geeft je onbeperkt werkblad voor kinderen maken.',
     keywords: 'voorzetsels werkbladen, gratis werkblad, werkblad voor kinderen, gratis werkbladen, gratis printables, werkblad voor kleuters, gratis werkblad voor kinderen, fijne motoriek, letters leren, schrijven oefenen, rekenen werkbladen, veilig leren lezen',
     canonicalUrl: 'https://www.lessoncraftstudio.com/nl/apps/voorzetsels-werkbladen',
     images: [

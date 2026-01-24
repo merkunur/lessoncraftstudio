@@ -19,7 +19,7 @@ export const subtractionFrContent: ProductPageContent = {
     slug: 'soustraction-fiches',
     appId: 'subtraction',
     title: 'Fiches Soustraction Gratuites | Générateur Maternelle CP - LessonCraft',
-    description: 'Créez des fiches de soustraction gratuites en 3 clics. Exercices maths maternelle et CP à imprimer. 3000+ images, 11 langues. Téléchargez PDF 300 DPI maintenant.',
+    description: 'Créez des fiches de soustraction gratuites en 3 clics. Exercices maths maternelle et CP à imprimer. 3000+ images, 11 langues. Téléchargez PDF 300 DPI.',
     keywords: 'fiches à imprimer gratuit, fiches maternelle, exercices maths, exercices CP, soustraction, graphisme maternelle, coloriage à imprimer, apprendre à lire, alphabet, écriture cursive, tables de multiplication, exercices CE1',
     canonicalUrl: 'https://www.lessoncraftstudio.com/fr/apps/soustraction-fiches',
     images: [

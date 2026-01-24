@@ -15,8 +15,8 @@ export const chartCountPtContent: ProductPageContent = {
   seo: {
     slug: 'grafico-pictorico-fichas',
     appId: 'chart-count',
-    title: 'Gráfico Pictórico Atividades Grátis para Imprimir - Atividade para Educação Infantil',
-    description: 'Crie fichas de gráficos pictóricos personalizadas para suas aulas de matemática. Com sua assinatura Acesso Completo, você cria quantas fichas precisar sem custos extras por atividade. Gere atividades de contagem profissionais para educação infantil e ensino fundamental.',
+    title: 'Gráfico Pictórico Atividades Grátis para Imprimir | Planilhas Grátis',
+    description: 'Crie fichas de gráficos pictóricos personalizadas para suas aulas de matemática. Com sua assinatura Acesso Completo, você cria quantas fichas precisar sem.',
     keywords: 'atividades de matemática, gráfico pictórico, atividades para imprimir, educação infantil, atividades 1º ano, atividades 2º ano, contagem, interpretação de dados, fichas matemática, atividades de alfabetização',
     canonicalUrl: 'https://www.lessoncraftstudio.com/pt/apps/grafico-pictorico-fichas',
     images: [

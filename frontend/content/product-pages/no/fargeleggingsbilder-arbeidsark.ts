@@ -15,10 +15,42 @@ export const coloringNoContent: ProductPageContent = {
   seo: {
     slug: 'fargeleggingsbilder-arbeidsark',
     appId: 'coloring',
-    title: 'Fargeleggingsbilder Barn - Arbeidsark Gratis å Skrive Ut - Finmotorikk Øvelser',
-    description: 'Lag profesjonelle fargeleggingsbilder barn med vårt enkle verktøy. Generer tilpassede fargeleggingsbilder perfekte for barneskole og småskoletrinnet. Last ned høykvalitets PDF-filer på under 3 minutter.',
+    title: 'Fargeleggingsbilder Barn - Gratis Arbeidsark for Barn | Generator',
+    description: 'Lag gratis arbeidsark for barn med fargeleggingsbilder. Perfekt for småskoletrinnet og 1. trinn. Last ned PDF på 3 min. 3000+ bilder tilgjengelig.',
     keywords: 'fargeleggingsbilder barn, arbeidsark gratis, finmotorikk øvelser, småskoletrinnet, fargelegging, barneskole, oppgavehefter barn, bokstaver lære skrive, tall og telling, matematikk oppgaver',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/fargeleggingsbilder-arbeidsark',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/norwegian/coloring/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fargeleggingsbilder barn gratis arbeidsark for småskoletrinnet med finmotorikk øvelser',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/norwegian/coloring/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis arbeidsark for barn - fargeleggingsbilder for barneskole og 1. trinn',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/norwegian/coloring/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Arbeidsark for barn fargelegging - gratis utskrifter med oppgavehefter barn',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/norwegian/coloring/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Fargeleggingsbilder barn arbeidsark gratis - tall og telling øvelser',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/norwegian/coloring/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis arbeidsark fargeleggingsbilder - finmotorikk øvelser og bokstaver',
+      },
+    ],
   },
 
   // Hero Section - FULL text from coloring.md paragraphs 1-3
@@ -30,7 +62,7 @@ export const coloringNoContent: ProductPageContent = {
 Vårt verktøy for fargeleggingsbilder barn gjør det enkelt å lage arbeidsark gratis å skrive ut. Perfekt for lærere på småskoletrinnet som trenger unike fargeleggingsbilder raskt. Kombiner fargeleggingsbilder barn med finmotorikk øvelser for komplett læring. Hver fargeleggingsbilder barn hjelper barn utvikle kreativitet og fargefølelse.
 
 Grunnpakke-abonnement inkluderer 10 populære arbeidsarkverktøy for bare $144 per år. Ditt abonnement gir tilgang til ubegrenset laging av fargeleggingsbilder barn. Ingen ekstra avgifter per arbeidsark. Lag så mange fargeleggingsbilder barn som elevene dine trenger. Alle fargeleggingsbilder barn eksporteres i profesjonell 300 DPI-kvalitet.`,
-    previewImageSrc: '/samples/english/coloring/coloring portrait 1.png',
+    previewImageSrc: '/samples/norwegian/coloring/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Prøv Gratis',
       viewSamples: 'Se Eksempler',
@@ -49,7 +81,7 @@ Grunnpakke-abonnement inkluderer 10 populære arbeidsarkverktøy for bare $144 p
     },
   },
 
-  // Sample Gallery - REAL file paths from samples/english/coloring/
+  // Sample Gallery - REAL file paths from samples/norwegian/coloring/
   samples: {
     sectionTitle: 'Fargeleggingsbilder Arbeidsark Eksempler',
     sectionDescription: 'Last ned gratis eksempler på arbeidsark for å se vår profesjonelle kvalitet',
@@ -65,27 +97,38 @@ Grunnpakke-abonnement inkluderer 10 populære arbeidsarkverktøy for bare $144 p
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/coloring/coloring portrait 1.png',
+        worksheetSrc: '/samples/norwegian/coloring/sample-1.jpeg',
         answerKeySrc: '',
-        altText: 'Fargeleggingsbilder barn portrettformat med dyrebilder for finmotorikk øvelser',
+        altText: 'Fargeleggingsbilder barn gratis arbeidsark - finmotorikk øvelser for småskoletrinnet',
+        pdfDownloadUrl: '/samples/norwegian/coloring/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/coloring/coloring portrait 2.png',
+        worksheetSrc: '/samples/norwegian/coloring/sample-2.jpeg',
         answerKeySrc: '',
-        altText: 'Fargeleggingsbilder barn portrettformat med naturbilder for småskoletrinnet',
+        altText: 'Gratis arbeidsark for barn fargelegging - oppgavehefter barn for barneskole',
+        pdfDownloadUrl: '/samples/norwegian/coloring/sample-2.pdf',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/coloring/coloring portrait 3.png',
+        worksheetSrc: '/samples/norwegian/coloring/sample-3.jpeg',
         answerKeySrc: '',
-        altText: 'Fargeleggingsbilder barn portrettformat med kreative motiver for barneskole',
+        altText: 'Arbeidsark for barn med fargeleggingsbilder - gratis utskrifter og finmotorikk',
+        pdfDownloadUrl: '/samples/norwegian/coloring/sample-3.pdf',
       },
       {
         id: '4',
-        worksheetSrc: '/samples/english/coloring/coloring landscape 1.png',
+        worksheetSrc: '/samples/norwegian/coloring/sample-4.jpeg',
         answerKeySrc: '',
-        altText: 'Fargeleggingsbilder barn landskapsformat for oppgavehefter barn',
+        altText: 'Fargeleggingsbilder barn arbeidsark gratis - tall og telling oppgavehefter',
+        pdfDownloadUrl: '/samples/norwegian/coloring/sample-4.pdf',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/norwegian/coloring/sample-5.jpeg',
+        answerKeySrc: '',
+        altText: 'Gratis arbeidsark fargeleggingsbilder barn - bokstaver lære skrive øvelser',
+        pdfDownloadUrl: '/samples/norwegian/coloring/sample-5.pdf',
       },
     ],
   },

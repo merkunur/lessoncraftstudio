@@ -19,6 +19,38 @@ export const treasureHuntSvContent: ProductPageContent = {
     description: 'Skapa professionella skattjakt arbetsblad med vår generator. Generera anpassade utskrivbara riktningsövningar perfekta för förskoleklass material och lågstadiet. Ladda ner PDF på under 3 minuter.',
     keywords: 'skattjakt arbetsblad, riktningsövningar, förskoleklass material, arbetsblad gratis, bokstäver lära sig, väderstreck, upp ner vänster höger, elev material, lågstadiet, finmotorik övningar',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/skattjakt-arbetsblad',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/treasure-hunt/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis skattjakt arbetsblad för barn - riktningsövningar med upp ner vänster höger för förskoleklass',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/treasure-hunt/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis skattjakt arbetsblad för förskoleklass - väderstreck riktningsövningar norr söder öst väst',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/treasure-hunt/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Skattjakt arbetsblad gratis utskrift - spatial medvetenhet övning för lågstadiet',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/treasure-hunt/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis arbetsblad skattjakt för barn - rutnätsnavigering och instruktionsföljning',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/treasure-hunt/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis skattjakt arbetsblad - riktningsinlärning och läsförståelse för förskoleklass',
+      },
+    ],
   },
 
   // Hero Section - FULL text from treasure-hunt.md paragraphs 1-4
@@ -30,7 +62,7 @@ export const treasureHuntSvContent: ProductPageContent = {
 Skattjakt arbetsblad kombinerar riktningsövningar med visuellt lärande på ett engagerande sätt. Eleverna följer steg-för-steg instruktioner för att navigera genom ett 5×5 rutnät av bilder. Detta hjälper barn att lära sig riktningar som upp, ner, höger och vänster samtidigt som de utvecklar läsförståelse. Perfekt för svenska klassrum från förskoleklass till lågstadiet årskurs 3.
 
 Vår skattjakt generator erbjuder över 3000 barnvänliga bilder organiserade efter tema. Välj sex bilder från vårt bibliotek eller ladda upp dina egna foton. Välj mellan grundläggande riktningar för förskoleklass eller väderstreck för äldre elever. Anpassa allt från bakgrunder och ramar till textstorlek och färg. Skapa unika skattjakt arbetsblad som passar dina elevers behov och intressen.`,
-    previewImageSrc: '/samples/english/treasure hunt/up down.jpeg',
+    previewImageSrc: '/samples/swedish/treasure-hunt/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Prova Gratis',
       viewSamples: 'Visa Exempel',
@@ -49,10 +81,10 @@ Vår skattjakt generator erbjuder över 3000 barnvänliga bilder organiserade ef
     },
   },
 
-  // Sample Gallery - REAL file paths from samples/english/treasure hunt/
+  // Sample Gallery - Swedish file paths from samples/swedish/treasure-hunt/
   samples: {
-    sectionTitle: 'Skattjakt Arbetsblad Exempel',
-    sectionDescription: 'Ladda ner gratis exempelarbetsblad för att se vår professionella kvalitet',
+    sectionTitle: 'Gratis Skattjakt Arbetsblad Exempel - Arbetsblad för Barn',
+    sectionDescription: 'Ladda ner gratis exempelarbetsblad för att se vår professionella kvalitet. Gratis arbetsblad för förskoleklass och lågstadiet.',
     downloadLabel: 'Ladda Ner Gratis Exempel',
     worksheetLabel: 'Arbetsblad',
     answerKeyLabel: 'Facit',
@@ -65,25 +97,46 @@ Vår skattjakt generator erbjuder över 3000 barnvänliga bilder organiserade ef
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/treasure hunt/up down.jpeg',
-        answerKeySrc: '/samples/english/treasure hunt/up down answer_key.jpeg',
-        altText: 'Skattjakt arbetsblad med upp ner vänster höger riktningar för förskoleklass',
-        pdfDownloadUrl: '/samples/english/treasure hunt/up down.pdf',
+        worksheetSrc: '/samples/swedish/treasure-hunt/sample-1.jpeg',
+        answerKeySrc: '/samples/swedish/treasure-hunt/sample-1-answer.jpeg',
+        altText: 'Gratis skattjakt arbetsblad för barn - riktningsövningar med upp ner vänster höger för förskoleklass',
+        pdfDownloadUrl: '/samples/swedish/treasure-hunt/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/treasure hunt/north south.jpeg',
-        answerKeySrc: '/samples/english/treasure hunt/north south answer_key.jpeg',
-        altText: 'Skattjakt arbetsblad med väderstreck norr söder öst väst för lågstadiet',
-        pdfDownloadUrl: '/samples/english/treasure hunt/north south.pdf',
+        worksheetSrc: '/samples/swedish/treasure-hunt/sample-2.jpeg',
+        answerKeySrc: '/samples/swedish/treasure-hunt/sample-2-answer.jpeg',
+        altText: 'Gratis skattjakt arbetsblad för förskoleklass - väderstreck riktningsövningar norr söder öst väst',
+        pdfDownloadUrl: '/samples/swedish/treasure-hunt/sample-2.pdf',
+      },
+      {
+        id: '3',
+        worksheetSrc: '/samples/swedish/treasure-hunt/sample-3.jpeg',
+        answerKeySrc: '/samples/swedish/treasure-hunt/sample-3-answer.jpeg',
+        altText: 'Skattjakt arbetsblad gratis utskrift - spatial medvetenhet övning för lågstadiet',
+        pdfDownloadUrl: '/samples/swedish/treasure-hunt/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/swedish/treasure-hunt/sample-4.jpeg',
+        answerKeySrc: '/samples/swedish/treasure-hunt/sample-4-answer.jpeg',
+        altText: 'Gratis arbetsblad skattjakt för barn - rutnätsnavigering och instruktionsföljning',
+        pdfDownloadUrl: '/samples/swedish/treasure-hunt/sample-4.pdf',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/swedish/treasure-hunt/sample-5.jpeg',
+        answerKeySrc: '/samples/swedish/treasure-hunt/sample-5-answer.jpeg',
+        altText: 'Gratis skattjakt arbetsblad - riktningsinlärning och läsförståelse för förskoleklass',
+        pdfDownloadUrl: '/samples/swedish/treasure-hunt/sample-5.pdf',
       },
     ],
   },
 
   // Features Grid - FULL text from treasure-hunt.md feature sections
   features: {
-    sectionTitle: 'Funktioner för Skattjakt Arbetsblad - Allt du Behöver för Riktningsövningar',
-    sectionDescription: 'Vår skattjakt generator innehåller alla funktioner du behöver för att skapa professionella arbetsblad gratis. Från förskoleklass material till lågstadiet årskurs 3 aktiviteter. Skapa skattjakt arbetsblad med bokstäver lära sig fokus eller kombinera med matematik arbetsblad. Varje funktion är utformad för att spara tid och ge dig fullständig kreativ kontroll.',
+    sectionTitle: 'Funktioner för Gratis Skattjakt Arbetsblad - Arbetsblad för Förskoleklass',
+    sectionDescription: 'Vår skattjakt generator innehåller alla funktioner du behöver för att skapa gratis arbetsblad för barn. Från förskoleklass material till lågstadiet årskurs 3 aktiviteter. Skapa gratis arbetsblad för förskoleklass med bokstäver lära sig fokus eller kombinera med matematik arbetsblad. Varje funktion är utformad för gratis utskrifter med fullständig kreativ kontroll.',
     highlightBadgeText: 'Nyckelfunktion',
     readMoreLabel: 'Läs mer',
     showLessLabel: 'Visa mindre',
@@ -97,7 +150,7 @@ Vår skattjakt generator erbjuder över 3000 barnvänliga bilder organiserade ef
       {
         id: '1',
         icon: '⚡',
-        title: 'Skapa Skattjakt på 3 Klick',
+        title: 'Skapa Gratis Skattjakt Arbetsblad på 3 Klick',
         description: `Skattjakt arbetsblad skapas otroligt snabbt med vårt verktyg. Välj sex bilder från biblioteket eller ett tema. Välj grundläggande riktningar för förskoleklass eller väderstreck för lågstadiet. Klicka på generera och ditt färdiga skattjakt arbetsblad visas direkt på skärmen. Hela processen tar under 3 minuter från start till nedladdad PDF.
 
 Full Tillgång-prenumerationen ger obegränsad skapande av arbetsblad gratis utan extra avgifter per arbetsblad. Perfekt för förskoleklass material när du behöver riktningsövningar snabbt. Generatorn skapar automatiskt sex slumpmässiga förflyttningar i 5×5 rutnätet. Kombinera med matematik arbetsblad för komplett lektionsplanering. Ingen förkunskap krävs för att skapa professionella skattjakt arbetsblad.
@@ -108,7 +161,7 @@ Varje skattjakt innehåller instruktioner på svenska som "Starta vid äpple" oc
       {
         id: '2',
         icon: '✏️',
-        title: 'Redigera Allt på Canvas',
+        title: 'Redigera Gratis Arbetsblad för Barn på Canvas',
         description: `Efter generering kan du redigera varje element på skattjakt arbetsbladet. Dra bilder till nya positioner i rutnätet. Ändra storlek genom att skala med musen. Rotera element för perfekt layout. Ta bort bilder som inte passar och lägg till nya. Justera textstorlek och färg för instruktionerna. Alla ändringar sker direkt på canvasen.
 
 Full canvas-redigerbarhet gör varje arbetsblad gratis unikt. Skapa förskoleklass material anpassat exakt efter dina elevers behov. Flytta instruktionslistan till vänster, höger, topp eller botten beroende på layout. Lägg till egna textelement med anvisningar på svenska. Perfekt för att anpassa skattjakt till bokstäver lära sig aktiviteter eller skriva bokstäver övningar.
@@ -119,7 +172,7 @@ Lagerkontroller låter dig bestämma vilka element som visas framför. Flytta ru
       {
         id: '3',
         icon: '📤',
-        title: 'Ladda Upp Egna Bilder',
+        title: 'Ladda Upp Egna Bilder till Gratis Arbetsblad',
         description: `Ladda upp dina egna foton för helt anpassade skattjakt arbetsblad. Stöder alla vanliga bildformat som JPEG, PNG och GIF. Ladda upp flera filer samtidigt med flerfilsuppladdning. Du behöver exakt sex bilder för skattjakt rutnätet. Kombinera uppladdade bilder med biblioteksbilder för variation.
 
 Använd foton av elevernas favoritsaker eller klassrumsobjekt i skattjakten. Skapa arbetsblad gratis anpassade till specifika teman du undervisar. Ladda upp bilder av siffror och tal för matematik arbetsblad fokus. Uppladdade bilder kan redigeras precis som biblioteksbilder. Dra, rotera och ändra storlek efter behov för perfekt förskoleklass material.
@@ -130,7 +183,7 @@ Bilduppladdning är perfekt för flerspråkiga klassrum och elev material anpass
       {
         id: '4',
         icon: '🌍',
-        title: 'Svenskt Språkstöd',
+        title: 'Gratis Arbetsblad för Förskoleklass på Svenska',
         description: `Generatorn stöder elva språk för innehåll och gränssnitt. Svenska är ett av de fullt stödda språken. Välj svenska som innehållsspråk så visas bildnamn och instruktioner på svenska. Detta gör det perfekt för svenska klassrum från förskoleklass till lågstadiet. Alla kontroller och knappar översätts automatiskt till svenska.
 
 Svenskt språkstöd är kritiskt för effektiv språkinlärning och bokstäver lära sig. Elever ser svenska ord när de följer riktningsinstruktionerna. Detta förstärker ordförråd och läsförståelse naturligt. Instruktioner som "Flytta 2 norr" eller "Flytta 1 vänster" lärs in genom repetition.
@@ -152,7 +205,7 @@ Den kommersiella licensen ingår i $240 per år Full Tillgång-prenumerationen. 
       {
         id: '6',
         icon: '🎨',
-        title: '3000+ Bildbibliotek',
+        title: '3000+ Bilder för Gratis Arbetsblad för Barn',
         description: `Bildbiblioteket innehåller över 3000 barnvänliga bilder organiserade efter tema. Alla bilder är förstaklassiga illustrationer perfekta för arbetsblad gratis skapande. Välj från teman som djur, mat, fordon, natur och mycket mer. Varje tema innehåller dussintals bilder att välja mellan. Sökfunktionen gör det enkelt att hitta specifika bilder snabbt.
 
 Temaval är särskilt användbart för att skapa förskoleklass material snabbt. Välj ett tema så väljer generatorn automatiskt sex slumpmässiga bilder från det temat. Perfekt när du behöver skattjakt arbetsblad snabbt för lågstadiet. Kombinera olika teman för varierade elev material genom veckorna.
@@ -163,7 +216,7 @@ Bilderna inkluderar också bakgrunder och ramar helt gratis i prenumerationen. L
       {
         id: '7',
         icon: '🖨️',
-        title: 'Professionell 300 DPI',
+        title: 'Gratis Utskrifter i Professionell 300 DPI',
         description: `Varje skattjakt arbetsblad exporteras i 300 DPI professionell kvalitet. Perfekt för utskrift hemma, i skolan eller för kommersiell försäljning. Välj mellan PDF och JPEG format beroende på dina behov. PDF bibehåller högsta kvalitet för professionell tryck. JPEG är perfekt för digital delning och onlineförsäljning.
 
 Gråskalalternativet sparar bläck vid hemutskrift av arbetsblad gratis. Perfekt för förskoleklass material när du behöver skriva ut många kopior. Klicka på gråskala före nedladdning så konverteras allt automatiskt. Kvaliteten förblir 300 DPI även i gråskala.
@@ -176,8 +229,8 @@ Både skattjakt arbetsbladet och facit laddas ner separat. Facit visar skatten m
 
   // How-To Guide - FULL text from treasure-hunt.md step sections
   howTo: {
-    sectionTitle: 'Hur du Skapar Skattjakt Arbetsblad i 5 Enkla Steg',
-    sectionDescription: 'Skapa professionella skattjakt arbetsblad på under 3 minuter med dessa fem enkla steg. Ingen designerfarenhet behövs för att skapa arbetsblad gratis för ditt klassrum. Full Tillgång-prenumerationen ger dig tillgång till obegränsad skapande av förskoleklass material och elev material.',
+    sectionTitle: 'Skapa Gratis Skattjakt Arbetsblad för Barn i 5 Enkla Steg',
+    sectionDescription: 'Skapa gratis arbetsblad för förskoleklass på under 3 minuter med dessa fem enkla steg. Ingen designerfarenhet behövs för att skapa gratis arbetsblad för barn. Full Tillgång-prenumerationen ger dig tillgång till obegränsad skapande av gratis utskrifter och arbetsblad för förskoleklass.',
     ctaText: 'Börja Skapa Nu',
     badgeText: 'Så Fungerar Det',
     stepLabel: 'Steg',
@@ -248,8 +301,8 @@ Generera och ladda ner facit separat genom att klicka "Skapa Facit" knappen. Fac
 
   // Use Cases - FULL text from treasure-hunt.md use case sections
   useCases: {
-    sectionTitle: 'Perfekt för Lärare, Föräldrar och Pedagoger',
-    sectionDescription: 'Skattjakt arbetsblad passar utmärkt för många olika användare och undervisningssituationer. Från förskoleklass lärare till hemundervisande föräldrar. Från lågstadiet klassrum till specialpedagogik. Varje användargrupp drar nytta av skattjakt för riktningsträning och instruktionsföljning.',
+    sectionTitle: 'Gratis Skattjakt Arbetsblad för Lärare, Föräldrar och Pedagoger',
+    sectionDescription: 'Gratis arbetsblad för barn passar utmärkt för många olika användare och undervisningssituationer. Från förskoleklass lärare till hemundervisande föräldrar. Gratis arbetsblad för förskoleklass från lågstadiet klassrum till specialpedagogik. Varje användargrupp drar nytta av gratis utskrifter för riktningsträning.',
     badgeText: 'Vem Det Är För',
     readMoreLabel: 'Läs mer',
     showLessLabel: 'Visa mindre',
@@ -331,8 +384,8 @@ Lägg till matte övningar och siffror och tal träning i matematikskattjakt pak
 
   // FAQ Section - ALL questions from treasure-hunt.md
   faq: {
-    sectionTitle: 'Vanliga Frågor',
-    sectionDescription: 'Vanliga frågor om vår skattjakt generator och arbetsblad gratis.',
+    sectionTitle: 'Vanliga Frågor om Gratis Skattjakt Arbetsblad för Barn',
+    sectionDescription: 'Vanliga frågor om vår skattjakt generator och gratis arbetsblad för förskoleklass.',
     showMoreText: 'Visa fler frågor',
     showLessText: 'Visa färre',
     badgeText: 'Vanliga Frågor',
@@ -401,6 +454,36 @@ Lägg till matte övningar och siffror och tal träning i matematikskattjakt pak
         question: 'Kan Jag Skapa Skattjakt om Specifika Ämnen?',
         answer: 'Ja, skattjakt kan skapas om vilket tema som helst. Matematikskattjakt med siffror och tal. Biologiskattjakt med djur och natur. Geografiskattjakt med landskap och sevärdheter. Historieskattjakt med historiska personer. Välj bilder som matchar ditt undervisningsämne för tematiska riktningsövningar.',
       },
+      {
+        id: '13',
+        question: 'Var Kan Jag Hitta Gratis Arbetsblad för Förskoleklass?',
+        answer: 'Vår skattjakt generator erbjuder gratis arbetsblad för förskoleklass som del av Full Tillgång-prenumerationen. Skapa obegränsade gratis arbetsblad för barn med riktningsövningar anpassade för 5-6 åringar. Välj grundläggande riktningar upp, ner, vänster, höger för yngre barn. Ladda ner gratis utskrifter i PDF-format.',
+      },
+      {
+        id: '14',
+        question: 'Hur Får Jag Gratis Utskrifter av Skattjakt Arbetsblad?',
+        answer: 'Med Full Tillgång-prenumerationen får du obegränsade gratis utskrifter av skattjakt arbetsblad. Exportera som PDF i 300 DPI kvalitet och skriv ut hemma eller i skolan. Gråskala-alternativet sparar bläck för gratis arbetsblad för barn. Alla utskrifter inkluderar facit för enkel rättning.',
+      },
+      {
+        id: '15',
+        question: 'Finns Det Gratis Arbetsblad för Barn med Riktningsövningar?',
+        answer: 'Ja, våra skattjakt arbetsblad är perfekta gratis arbetsblad för barn med riktningsövningar. Barn lär sig upp, ner, vänster, höger eller väderstreck genom att följa instruktioner i ett rutnät. Perfekt för arbetsblad för förskoleklass och lågstadiet. Ladda ner gratis arbetsblad i PDF-format.',
+      },
+      {
+        id: '16',
+        question: 'Kan Jag Använda Gratis Arbetsblad för Hemundervisning?',
+        answer: 'Absolut! Våra gratis arbetsblad för barn är perfekta för hemundervisning. Skapa anpassade skattjakt med barnets favoritbilder. Kombinera gratis arbetsblad för förskoleklass med andra aktiviteter. Ladda ner gratis utskrifter när det passar dig. Full Tillgång täcker hela familjens behov.',
+      },
+      {
+        id: '17',
+        question: 'Vilka Gratis Arbetsblad Finns för Bokstäver Lära Sig?',
+        answer: 'Kombinera skattjakt med bokstäver lära sig genom att välja bilder som börjar på specifika bokstäver. Skapa A-skattjakt med äpple, apa, apelsin. Gratis arbetsblad för förskoleklass som tränar både riktningar och alfabetet. Ladda upp egna bilder för personliga gratis arbetsblad för barn.',
+      },
+      {
+        id: '18',
+        question: 'Hur Anpassar Jag Gratis Arbetsblad för Förskoleklass?',
+        answer: 'Anpassa gratis arbetsblad för förskoleklass genom att välja enkla bilder och grundläggande riktningar. Använd stora, tydliga bilder som barn känner igen. Välj upp, ner, vänster, höger istället för väderstreck. Ladda ner gratis utskrifter med stora instruktioner och färgglada rutnät.',
+      },
     ],
   },
 
@@ -436,8 +519,8 @@ Lägg till matte övningar och siffror och tal träning i matematikskattjakt pak
 
   // Related Apps - Swedish translations
   relatedApps: {
-    sectionTitle: 'Kombinera med Andra Arbetsblad Generatorer',
-    sectionDescription: 'Din Full Tillgång-prenumeration inkluderar 33 olika arbetsbladsgeneratorer. Kombinera skattjakt aktiviteter med alfabets arbetsblad, matematik arbetsblad och målarbilder för kompletta lärpaket.',
+    sectionTitle: 'Kombinera Gratis Skattjakt med Andra Arbetsblad Generatorer',
+    sectionDescription: 'Din Full Tillgång-prenumeration inkluderar 33 olika arbetsbladsgeneratorer. Kombinera gratis arbetsblad för barn med alfabets arbetsblad, matematik arbetsblad och målarbilder för kompletta lärpaket. Skapa gratis arbetsblad för förskoleklass och lågstadiet.',
     ctaTitle: 'Redo att Skapa Fantastiska Arbetsblad?',
     ctaDescription: 'Gå med tusentals lärare som skapar professionella arbetsblad. Obegränsad generering, kommersiell licens ingår.',
     primaryCtaText: 'Starta Gratis Provperiod',

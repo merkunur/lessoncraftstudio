@@ -19,6 +19,38 @@ export const missingPiecesSvContent: ProductPageContent = {
     description: 'Skapa professionella arbetsblad med saknade bitar på bara tre minuter. Din Full Tillgång-prenumeration ger dig obegränsad skapande av saknade bitar-pussel utan extra kostnader per arbetsblad. Generera anpassade arbetsblad gratis för utskrift perfekt för förskoleklass material och finmotorik övningar.',
     keywords: 'saknade bitar arbetsblad, arbetsblad gratis, förskoleklass material, finmotorik övningar, matematik arbetsblad, bokstäver lära sig, siffror och tal, matte övningar, målarbilder barn, visuella pussel',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/saknade-bitar-arbetsblad',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/missing-pieces/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Saknade bitar arbetsblad gratis - visuellt pussel för förskoleklass material'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/missing-pieces/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Saknade bitar pussel med finmotorik övningar för barn'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/missing-pieces/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis arbetsblad för barn med saknade bitar och matematik arbetsblad'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/missing-pieces/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Arbetsblad för förskoleklass med visuella saknade bitar övningar'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/missing-pieces/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis utskrifter saknade bitar pussel för siffror och tal'
+      },
+    ],
   },
 
   // Hero Section - FULL text from missing-pieces.md paragraphs 1-4
@@ -32,7 +64,7 @@ Vårt verktyg för saknade bitar skapar visuella pussel där eleverna identifier
 Välj valfri bild från vårt bibliotek med över 3000 barnvänliga motiv. Konfigurera hur många bitar som ska saknas, hur många svarsalternativ och vilken form bitarna ska ha. Klicka på skapa och ditt arbetsblad gratis för utskrift är klart. Lämpligt för addition och subtraktion samt klockan lära sig.
 
 Prenumerationen inkluderar kommersiell licens för print-on-demand. Sälj dina arbetsblad på Teachers Pay Teachers eller Etsy. Alla arbetsblad exporteras i 300 DPI professionell kvalitet. Kombinera med multiplikationstabellen för komplett matematikträning.`,
-    previewImageSrc: '/samples/english/missing pieces/worksheet.jpeg',
+    previewImageSrc: '/samples/swedish/missing-pieces/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Prova Gratis',
       viewSamples: 'Visa Exempel',
@@ -51,7 +83,7 @@ Prenumerationen inkluderar kommersiell licens för print-on-demand. Sälj dina a
     },
   },
 
-  // Sample Gallery - REAL file paths from samples/english/missing pieces/
+  // Sample Gallery - REAL file paths from samples/swedish/missing-pieces/
   samples: {
     sectionTitle: 'Saknade Bitar Arbetsblad Exempel',
     sectionDescription: 'Ladda ner gratis exempelarbetsblad för att se vår professionella kvalitet',
@@ -67,17 +99,38 @@ Prenumerationen inkluderar kommersiell licens för print-on-demand. Sälj dina a
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/missing pieces/worksheet.jpeg',
-        answerKeySrc: '/samples/english/missing pieces/answer_key.jpeg',
-        altText: 'Saknade bitar arbetsblad med tematiska bilder för förskoleklass visuell diskriminering',
-        pdfDownloadUrl: '/samples/english/missing pieces/worksheet.pdf',
+        worksheetSrc: '/samples/swedish/missing-pieces/sample-1.jpeg',
+        answerKeySrc: '/samples/swedish/missing-pieces/sample-1-answer.jpeg',
+        altText: 'Saknade bitar arbetsblad gratis med tematiska bilder för förskoleklass visuell diskriminering',
+        pdfDownloadUrl: '/samples/swedish/missing-pieces/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/missing pieces/worksheet (1).jpeg',
-        answerKeySrc: '/samples/english/missing pieces/answer_key (1).jpeg',
-        altText: 'Saknade bitar pussel med färgglada bilddelar för lågstadiet problemlösning',
-        pdfDownloadUrl: '/samples/english/missing pieces/worksheet (1).pdf',
+        worksheetSrc: '/samples/swedish/missing-pieces/sample-2.jpeg',
+        answerKeySrc: '/samples/swedish/missing-pieces/sample-2-answer.jpeg',
+        altText: 'Saknade bitar pussel arbetsblad för barn med färgglada bilddelar för lågstadiet problemlösning',
+        pdfDownloadUrl: '/samples/swedish/missing-pieces/sample-2.pdf',
+      },
+      {
+        id: '3',
+        worksheetSrc: '/samples/swedish/missing-pieces/sample-3.jpeg',
+        answerKeySrc: '/samples/swedish/missing-pieces/sample-3-answer.jpeg',
+        altText: 'Gratis arbetsblad saknade bitar med finmotorik övningar för förskoleklass material',
+        pdfDownloadUrl: '/samples/swedish/missing-pieces/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/swedish/missing-pieces/sample-4.jpeg',
+        answerKeySrc: '/samples/swedish/missing-pieces/sample-4-answer.jpeg',
+        altText: 'Saknade bitar matematik arbetsblad med siffror och tal för gratis utskrifter',
+        pdfDownloadUrl: '/samples/swedish/missing-pieces/sample-4.pdf',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/swedish/missing-pieces/sample-5.jpeg',
+        answerKeySrc: '/samples/swedish/missing-pieces/sample-5-answer.jpeg',
+        altText: 'Arbetsblad för förskoleklass saknade bitar pussel med visuella övningar',
+        pdfDownloadUrl: '/samples/swedish/missing-pieces/sample-5.pdf',
       },
     ],
   },

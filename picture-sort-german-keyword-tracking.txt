@@ -1,0 +1,198 @@
+KEYWORD TRACKING - Picture Sort App - German
+
+TARGET: Each keyword must appear MINIMUM 10 times in H2/H3 titles ONLY
+
+Current Status:
+[ ] 1. Arbeitsblätter Grundschule: 0/10
+[ ] 2. Mathe Arbeitsblätter: 0/10
+[ ] 3. Vorschule Arbeitsblätter: 0/10
+[ ] 4. Einmaleins: 0/10
+[ ] 5. Schwungübungen: 0/10
+[ ] 6. Buchstaben lernen: 0/10
+[ ] 7. Ausmalbilder / Malvorlagen: 0/10
+[ ] 8. Kostenlose Arbeitsblätter: 0/10
+[ ] 9. Rechnen lernen / Rechnen 1. Klasse: 0/10
+[ ] 10. Deutsch Arbeitsblätter: 0/10
+
+After each section, update counts and check boxes when ≥10 reached.
+
+---
+
+PRICING VERIFICATION:
+App Name: Picture Sort
+Subscription Tier: Full Access $240/year
+Monthly Price: $25/month
+✓ I will use "Full Access" and "$240/$25" throughout this document
+✓ I will NEVER use "Core Bundle" or "$144/$15" for this app
+
+---
+
+Section-by-Section Tracking:
+
+After Section 1 (Hero):
+- Arbeitsblätter Grundschule: 2 (H2: 1, H3: 1)
+- Mathe Arbeitsblätter: 1 (H3: 1)
+- Vorschule Arbeitsblätter: 2 (H2: 1, H3: 1)
+- Einmaleins: 0
+- Schwungübungen: 0
+- Buchstaben lernen: 0
+- Ausmalbilder / Malvorlagen: 1 (H3: 1)
+- Kostenlose Arbeitsblätter: 2 (H3: 2)
+- Rechnen lernen / Rechnen 1. Klasse: 0
+- Deutsch Arbeitsblätter: 1 (H3: 1)
+
+H2/H3 TITLES IN SECTION 1:
+H2: Sortierübungen erstellen mit dem Bilder Sortieren Generator - Vorschule Arbeitsblätter und Arbeitsblätter Grundschule für das Kategorisieren
+H3: Arbeitsblätter Grundschule mit Sortierübungen - Kostenlose Arbeitsblätter zum Ausdrucken erstellen
+H3: Vorschule Arbeitsblätter mit Bildersortierung - Mathe Arbeitsblätter und Deutsch Arbeitsblätter kombinieren
+H3: Kostenlose Arbeitsblätter Generator für Sortierübungen - Ausmalbilder und Malvorlagen als Bonus
+
+---
+
+After Section 2 (Features):
+- Arbeitsblätter Grundschule: 6 (+4 in S2)
+- Mathe Arbeitsblätter: 3 (+2 in S2)
+- Vorschule Arbeitsblätter: 5 (+3 in S2)
+- Einmaleins: 1 (+1 in S2)
+- Schwungübungen: 1 (+1 in S2)
+- Buchstaben lernen: 1 (+1 in S2)
+- Ausmalbilder / Malvorlagen: 2 (+1 in S2)
+- Kostenlose Arbeitsblätter: 4 (+2 in S2)
+- Rechnen lernen / Rechnen 1. Klasse: 2 (+2 in S2)
+- Deutsch Arbeitsblätter: 3 (+2 in S2)
+
+H2/H3 TITLES IN SECTION 2:
+H2: Funktionen des Bilder Sortieren Generators - Arbeitsblätter Grundschule und Vorschule Arbeitsblätter mit allen wichtigen Features
+H3: Einfache Erstellung von Arbeitsblättern Grundschule in 3 Klicks - Kostenlose Arbeitsblätter ohne Designkenntnisse
+H3: Vollständige Canvas-Bearbeitung für Vorschule Arbeitsblätter - Mathe Arbeitsblätter und Deutsch Arbeitsblätter individuell anpassen
+H3: Eigene Bilder hochladen für Arbeitsblätter Grundschule - Schwungübungen und Buchstaben lernen mit persönlichen Fotos
+H3: 11 Sprachen für Vorschule Arbeitsblätter - Kostenlose Arbeitsblätter in Deutsch, Englisch und 9 weiteren Sprachen
+H3: POD-Lizenz für kommerzielle Nutzung - Arbeitsblätter Grundschule und Mathe Arbeitsblätter verkaufen
+H3: Über 3000 Bilder für Ausmalbilder und Malvorlagen - Rechnen lernen und Einmaleins mit kindgerechten Illustrationen
+H3: Professionelle 300 DPI Qualität für Deutsch Arbeitsblätter - Rechnen 1. Klasse Materialien in Druckqualität exportieren
+
+---
+
+After Section 3 (How-To):
+- Arbeitsblätter Grundschule: 9 (+3 in S3)
+- Mathe Arbeitsblätter: 5 (+2 in S3)
+- Vorschule Arbeitsblätter: 8 (+3 in S3)
+- Einmaleins: 3 (+2 in S3)
+- Schwungübungen: 2 (+1 in S3)
+- Buchstaben lernen: 2 (+1 in S3)
+- Ausmalbilder / Malvorlagen: 3 (+1 in S3)
+- Kostenlose Arbeitsblätter: 6 (+2 in S3)
+- Rechnen lernen / Rechnen 1. Klasse: 4 (+2 in S3)
+- Deutsch Arbeitsblätter: 5 (+2 in S3)
+
+H2/H3 TITLES IN SECTION 3:
+H2: So erstellen Sie Sortierarbeitsblätter in 5 Schritten - Arbeitsblätter Grundschule und Vorschule Arbeitsblätter schnell und einfach
+H3: Schritt 1: Kategorien wählen für Kostenlose Arbeitsblätter - Mathe Arbeitsblätter oder Deutsch Arbeitsblätter Themen festlegen
+H3: Schritt 2: Bilder auswählen für Arbeitsblätter Grundschule - Einmaleins und Rechnen lernen Motive finden
+H3: Schritt 3: Seitenformat einstellen für Vorschule Arbeitsblätter - Kostenlose Arbeitsblätter in Letter oder A4 erstellen
+H3: Schritt 4: Arbeitsblatt erstellen mit Schwungübungen und Buchstaben lernen Elementen - Ausmalbilder und Malvorlagen hinzufügen
+H3: Schritt 5: Herunterladen und Drucken von Mathe Arbeitsblättern - Deutsch Arbeitsblätter und Rechnen 1. Klasse als PDF speichern
+H3: Bonus: Lösungsschlüssel erstellen für Arbeitsblätter Grundschule - Einmaleins und Vorschule Arbeitsblätter mit Antworten
+
+---
+
+After Section 4 (Use Cases):
+- Arbeitsblätter Grundschule: 11 (+2 in S4) ✓ REACHED 10!
+- Mathe Arbeitsblätter: 7 (+2 in S4)
+- Vorschule Arbeitsblätter: 10 (+2 in S4) ✓ REACHED 10!
+- Einmaleins: 5 (+2 in S4)
+- Schwungübungen: 3 (+1 in S4)
+- Buchstaben lernen: 3 (+1 in S4)
+- Ausmalbilder / Malvorlagen: 4 (+1 in S4)
+- Kostenlose Arbeitsblätter: 9 (+3 in S4)
+- Rechnen lernen / Rechnen 1. Klasse: 6 (+2 in S4)
+- Deutsch Arbeitsblätter: 7 (+2 in S4)
+
+H2/H3 TITLES IN SECTION 4:
+H2: Wer profitiert vom Bilder Sortieren Generator - Kostenlose Arbeitsblätter für Lehrer, Eltern und Pädagogen
+H3: Erzieher in der Vorschule nutzen Vorschule Arbeitsblätter - Schwungübungen und Buchstaben lernen für die Kleinsten
+H3: Grundschullehrer erstellen Arbeitsblätter Grundschule - Mathe Arbeitsblätter und Deutsch Arbeitsblätter für 1. bis 3. Klasse
+H3: Eltern zu Hause nutzen Kostenlose Arbeitsblätter - Einmaleins und Rechnen lernen mit Sortierübungen unterstützen
+H3: DaF-Lehrer verwenden Deutsch Arbeitsblätter - Ausmalbilder und Malvorlagen für Sprachförderung kombinieren
+H3: Förderschullehrer nutzen Arbeitsblätter Grundschule - Rechnen 1. Klasse und Vorschule Arbeitsblätter für Differenzierung
+H3: Lehrerunternehmer verkaufen Mathe Arbeitsblätter - Einmaleins und Kostenlose Arbeitsblätter auf Teachers Pay Teachers
+
+---
+
+After Section 5 (Subscription):
+- Arbeitsblätter Grundschule: 11 (+0 in S5) ✓
+- Mathe Arbeitsblätter: 9 (+2 in S5)
+- Vorschule Arbeitsblätter: 10 (+0 in S5) ✓
+- Einmaleins: 7 (+2 in S5)
+- Schwungübungen: 5 (+2 in S5)
+- Buchstaben lernen: 5 (+2 in S5)
+- Ausmalbilder / Malvorlagen: 5 (+1 in S5)
+- Kostenlose Arbeitsblätter: 10 (+1 in S5) ✓ REACHED 10!
+- Rechnen lernen / Rechnen 1. Klasse: 8 (+2 in S5)
+- Deutsch Arbeitsblätter: 8 (+1 in S5)
+
+H2/H3 TITLES IN SECTION 5:
+H2: Die 3 wichtigsten Gründe für das Full Access Abonnement - Kostenlose Arbeitsblätter und Mathe Arbeitsblätter unbegrenzt erstellen
+H3: Mehrsprachiger Unterricht mit Schwungübungen und Buchstaben lernen - Einmaleins und Deutsch Arbeitsblätter in 11 Sprachen
+H3: Kommerzielle Lizenz für Ausmalbilder und Malvorlagen - Rechnen lernen und Einmaleins Materialien verkaufen
+H3: Zeitersparnis mit Schwungübungen und Buchstaben lernen Generator - Rechnen 1. Klasse und Mathe Arbeitsblätter in Minuten
+
+---
+
+After Section 6 (FAQ):
+- Arbeitsblätter Grundschule: 11 (+0 in S6) ✓
+- Mathe Arbeitsblätter: 12 (+3 in S6) ✓ REACHED 10!
+- Vorschule Arbeitsblätter: 11 (+1 in S6) ✓
+- Einmaleins: 11 (+4 in S6) ✓ REACHED 10!
+- Schwungübungen: 9 (+4 in S6)
+- Buchstaben lernen: 8 (+3 in S6)
+- Ausmalbilder / Malvorlagen: 8 (+3 in S6)
+- Kostenlose Arbeitsblätter: 10 (+0 in S6) ✓
+- Rechnen lernen / Rechnen 1. Klasse: 11 (+3 in S6) ✓ REACHED 10!
+- Deutsch Arbeitsblätter: 10 (+2 in S6) ✓ REACHED 10!
+
+H2/H3 TITLES IN SECTION 6:
+H2: Häufig gestellte Fragen zum Bilder Sortieren Generator - Einmaleins und Schwungübungen Arbeitsblätter erstellen
+H3: Ist der Bilder Sortieren Generator wirklich kostenlos für Mathe Arbeitsblätter und Einmaleins Übungen?
+H3: Kann ich Sortierarbeitsblätter zu Hause auf einem normalen Drucker für Schwungübungen und Buchstaben lernen ausdrucken?
+H3: Brauche ich Designkenntnisse für Ausmalbilder und Malvorlagen mit Sortierübungen?
+H3: Kann ich Sortierarbeitsblätter im Unterricht für Deutsch Arbeitsblätter und Rechnen lernen verwenden?
+H3: In welchen Sprachen sind Sortierarbeitsblätter für Einmaleins und Vorschule Arbeitsblätter verfügbar?
+H3: Kann ich selbst erstellte Sortierarbeitsblätter mit Schwungübungen und Buchstaben lernen verkaufen?
+H3: Wie passe ich Sortierarbeitsblätter für Rechnen 1. Klasse und Mathe Arbeitsblätter an?
+H3: Für welche Altersgruppen eignen sich Sortierarbeitsblätter mit Ausmalbilder und Malvorlagen?
+H3: Kann ich eigene Bilder hochladen für Deutsch Arbeitsblätter und Einmaleins Übungen?
+H3: Wie lange dauert die Erstellung eines Sortierarbeitsblatts für Schwungübungen und Buchstaben lernen?
+H3: Gibt es Lösungsschlüssel für Sortierarbeitsblätter mit Rechnen lernen und Mathe Arbeitsblättern?
+H3: Kann ich Sortierarbeitsblätter für bestimmte Schulfächer mit Ausmalbilder und Malvorlagen erstellen?
+
+---
+
+After Section 7 (Combine Apps) - FINAL COUNTS:
+- Arbeitsblätter Grundschule: 12 (+1 in S7) ✓ PASSED
+- Mathe Arbeitsblätter: 13 (+1 in S7) ✓ PASSED
+- Vorschule Arbeitsblätter: 12 (+1 in S7) ✓ PASSED
+- Einmaleins: 12 (+1 in S7) ✓ PASSED
+- Schwungübungen: 12 (+3 in S7) ✓ PASSED
+- Buchstaben lernen: 11 (+3 in S7) ✓ PASSED
+- Ausmalbilder / Malvorlagen: 10 (+2 in S7) ✓ PASSED
+- Kostenlose Arbeitsblätter: 11 (+1 in S7) ✓ PASSED
+- Rechnen lernen / Rechnen 1. Klasse: 11 (+0 in S7) ✓ PASSED
+- Deutsch Arbeitsblätter: 11 (+1 in S7) ✓ PASSED
+
+H2/H3 TITLES IN SECTION 7:
+H2: Sortierarbeitsblätter mit anderen Generatoren kombinieren - Schwungübungen und Buchstaben lernen Lernpakete erstellen
+H3: Sortierübungen plus Mathe Arbeitsblätter - Kostenlose Arbeitsblätter für Rechenübungen und Mengenvergleiche
+H3: Sortierübungen mit Schwungübungen und Buchstaben lernen kombinieren - Feinmotorik und Literacy fördern
+H3: Ausmalbilder und Malvorlagen als Ergänzung zu Sortierarbeitsblättern - Kreative Pausen einbauen
+H3: Sortierarbeitsblätter plus Deutsch Arbeitsblätter und Einmaleins - Fächerübergreifende Lernpakete
+H3: Komplette Wochenpakete mit Buchstaben lernen und Schwungübungen - Arbeitsblätter Grundschule für jeden Tag
+H3: Thematische Lernpakete mit Ausmalbilder und Malvorlagen verkaufen - Vorschule Arbeitsblätter für Teachers Pay Teachers
+
+===================================================
+FINAL VERIFICATION - ALL 10 KEYWORDS PASSED ✓
+===================================================
+
+Total H2/H3 count across all sections: 50+ titles
+All keywords appear minimum 10 times in H2/H3 titles
+Page is SEO-optimized and ready for publication

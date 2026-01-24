@@ -1,0 +1,103 @@
+KEYWORD TRACKING - Treasure Hunt App - Finnish
+
+TARGET: Each keyword must appear MINIMUM 10 times in H2/H3 titles ONLY
+
+Finnish Keywords from keywords.txt:
+1. Tulostettavat tehtävät lapsille ilmainen (Free printable tasks for children)
+2. Värityskuvia lapsille tulostettava (Coloring pages for children printable)
+3. Kirjaimet harjoittelu esikoulu (Letter practice preschool)
+4. Matematiikka tehtävät alakoulu (Math exercises elementary school)
+5. Kertotaulut tulostettava (Multiplication tables printable)
+6. Yhteenlasku ja vähennyslasku tehtävät (Addition and subtraction exercises)
+7. Hienomotoriikka harjoitukset (Fine motor skills exercises)
+8. Pisteestä pisteeseen tehtävät (Dot-to-dot exercises)
+9. Esiopetus materiaali ilmainen (Free preschool material)
+10. Lukemaan oppiminen tehtävät (Learning to read exercises)
+
+Current Status:
+[ ] 1. Tulostettavat tehtävät lapsille ilmainen: 0/10
+[ ] 2. Värityskuvia lapsille tulostettava: 0/10
+[ ] 3. Kirjaimet harjoittelu esikoulu: 0/10
+[ ] 4. Matematiikka tehtävät alakoulu: 0/10
+[ ] 5. Kertotaulut tulostettava: 0/10
+[ ] 6. Yhteenlasku ja vähennyslasku tehtävät: 0/10
+[ ] 7. Hienomotoriikka harjoitukset: 0/10
+[ ] 8. Pisteestä pisteeseen tehtävät: 0/10
+[ ] 9. Esiopetus materiaali ilmainen: 0/10
+[ ] 10. Lukemaan oppiminen tehtävät: 0/10
+
+After each section, update counts and check boxes when ≥10 reached.
+
+=== SECTION-BY-SECTION TRACKING ===
+
+After Section 1 (Hero):
+1. Tulostettavat tehtävät lapsille ilmainen: 1 (H1)
+2. Värityskuvia lapsille tulostettava: 0
+3. Kirjaimet harjoittelu esikoulu: 0
+4. Matematiikka tehtävät alakoulu: 0
+5. Kertotaulut tulostettava: 0
+6. Yhteenlasku ja vähennyslasku tehtävät: 0
+7. Hienomotoriikka harjoitukset: 0
+8. Pisteestä pisteeseen tehtävät: 0
+9. Esiopetus materiaali ilmainen: 1 (H1)
+10. Lukemaan oppiminen tehtävät: 0
+
+After Section 2 (Features):
+1. Tulostettavat tehtävät lapsille ilmainen: 4 (added 3 in Section 2: H2, H3-1, H3-2)
+2. Värityskuvia lapsille tulostettava: 1 (added 1 in Section 2: H3-6)
+3. Kirjaimet harjoittelu esikoulu: 1 (added 1 in Section 2: H3-6)
+4. Matematiikka tehtävät alakoulu: 1 (added 1 in Section 2: H3-2)
+5. Kertotaulut tulostettava: 1 (added 1 in Section 2: H3-5)
+6. Yhteenlasku ja vähennyslasku tehtävät: 1 (added 1 in Section 2: H3-7)
+7. Hienomotoriikka harjoitukset: 1 (added 1 in Section 2: H3-3)
+8. Pisteestä pisteeseen tehtävät: 0
+9. Esiopetus materiaali ilmainen: 2 (added 1 in Section 2: H3-1)
+10. Lukemaan oppiminen tehtävät: 1 (added 1 in Section 2: H3-4)
+
+After Section 3 (How-To):
+1. Tulostettavat tehtävät lapsille ilmainen: 6 (added 2 in Section 3: H2, H3-5)
+2. Värityskuvia lapsille tulostettava: 2 (added 1 in Section 3: H3-4)
+3. Kirjaimet harjoittelu esikoulu: 1 (no new occurrences)
+4. Matematiikka tehtävät alakoulu: 2 (added 1 in Section 3: H3-2)
+5. Kertotaulut tulostettava: 2 (added 1 in Section 3: H3-5)
+6. Yhteenlasku ja vähennyslasku tehtävät: 1 (no new occurrences)
+7. Hienomotoriikka harjoitukset: 2 (added 1 in Section 3: H3-4)
+8. Pisteestä pisteeseen tehtävät: 1 (added 1 in Section 3: H3-3) ✓ First occurrence!
+9. Esiopetus materiaali ilmainen: 3 (added 1 in Section 3: H2)
+10. Lukemaan oppiminen tehtävät: 2 (added 1 in Section 3: H3-1)
+
+After Section 4 (Use Cases):
+1. Tulostettavat tehtävät lapsille ilmainen: 8 (added 2 in Section 4: H2, H3-2)
+2. Värityskuvia lapsille tulostettava: 3 (added 1 in Section 4: H3-5)
+3. Kirjaimet harjoittelu esikoulu: 2 (added 1 in Section 4: H3-1)
+4. Matematiikka tehtävät alakoulu: 3 (added 1 in Section 4: H3-2)
+5. Kertotaulut tulostettava: 3 (added 1 in Section 4: H3-6)
+6. Yhteenlasku ja vähennyslasku tehtävät: 2 (added 1 in Section 4: H3-3)
+7. Hienomotoriikka harjoitukset: 3 (added 1 in Section 4: H3-5)
+8. Pisteestä pisteeseen tehtävät: 2 (added 1 in Section 4: H3-4)
+9. Esiopetus materiaali ilmainen: 5 (added 2 in Section 4: H3-1, H3-3)
+10. Lukemaan oppiminen tehtävät: 3 (added 1 in Section 4: H3-4)
+
+After Section 5 (Subscription):
+1. Tulostettavat tehtävät lapsille ilmainen: 9 (added 1 in Section 5: H2)
+2. Värityskuvia lapsille tulostettava: 4 (added 1 in Section 5: H3-3)
+3. Kirjaimet harjoittelu esikoulu: 2 (no new occurrences)
+4. Matematiikka tehtävät alakoulu: 3 (no new occurrences)
+5. Kertotaulut tulostettava: 3 (no new occurrences)
+6. Yhteenlasku ja vähennyslasku tehtävät: 2 (no new occurrences)
+7. Hienomotoriikka harjoitukset: 3 (no new occurrences)
+8. Pisteestä pisteeseen tehtävät: 3 (added 1 in Section 5: H3-2)
+9. Esiopetus materiaali ilmainen: 5 (no new occurrences)
+10. Lukemaan oppiminen tehtävät: 4 (added 1 in Section 5: H3-1)
+
+After Section 6 (FAQ):
+1. Tulostettavat tehtävät lapsille ilmainen: 10 ✓ TARGET MET! (added 1 in Section 6: H2)
+2. Värityskuvia lapsille tulostettava: 5 (added 1 in Section 6: FAQ #2)
+3. Kirjaimet harjoittelu esikoulu: 4 (added 2 in Section 6: FAQ #1, FAQ #9)
+4. Matematiikka tehtävät alakoulu: 5 (added 2 in Section 6: FAQ #3, FAQ #12)
+5. Kertotaulut tulostettava: 5 (added 2 in Section 6: FAQ #6, FAQ #11)
+6. Yhteenlasku ja vähennyslasku tehtävät: 4 (added 2 in Section 6: FAQ #4, FAQ #10)
+7. Hienomotoriikka harjoitukset: 4 (added 1 in Section 6: FAQ #7)
+8. Pisteestä pisteeseen tehtävät: 4 (added 1 in Section 6: FAQ #8)
+9. Esiopetus materiaali ilmainen: 5 (no new occurrences)
+10. Lukemaan oppiminen tehtävät: 5 (added 1 in Section 6: FAQ #5)

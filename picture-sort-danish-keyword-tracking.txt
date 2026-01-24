@@ -1,0 +1,182 @@
+KEYWORD TRACKING - Picture Sort App - Danish
+
+TARGET: Each keyword must appear MINIMUM 10 times in H2/H3 titles ONLY
+
+Top 10 Danish Keywords:
+1. Opgaver til print (Tasks/exercises for printing)
+2. Matematikopgaver (Math exercises)
+3. Lære bogstaver / Skriv bogstaver (Learn letters / Write letters)
+4. Malebog / Farvelægning (Coloring book / Coloring)
+5. Arbejdsark / Kopiark (Worksheets / Copy sheets)
+6. Finmotorik øvelser (Fine motor skill exercises)
+7. 0. klasse opgaver / 1. klasse (Preschool/1st grade exercises)
+8. Gangetabeller (Multiplication tables)
+9. Læse og skrive / Stavning (Read and write / Spelling)
+10. Gratis skoleopgaver (Free school exercises)
+
+Current Status:
+[ ] 1. Opgaver til print: 1/10 (H1)
+[ ] 2. Matematikopgaver: 0/10
+[ ] 3. Lære bogstaver / Skriv bogstaver: 0/10
+[ ] 4. Malebog / Farvelægning: 0/10
+[ ] 5. Arbejdsark / Kopiark: 1/10 (H1)
+[ ] 6. Finmotorik øvelser: 0/10
+[ ] 7. 0. klasse opgaver / 1. klasse: 1/10 (H1)
+[ ] 8. Gangetabeller: 0/10
+[ ] 9. Læse og skrive / Stavning: 0/10
+[ ] 10. Gratis skoleopgaver: 1/10 (H1)
+
+AFTER SECTION 1 (Hero):
+- Opgaver til print: 1 (in H1)
+- Matematikopgaver: 0
+- Lære bogstaver / Skriv bogstaver: 0
+- Malebog / Farvelægning: 0
+- Arbejdsark / Kopiark: 1 (in H1)
+- Finmotorik øvelser: 0
+- 0. klasse opgaver / 1. klasse: 1 (in H1)
+- Gangetabeller: 0
+- Læse og skrive / Stavning: 0
+- Gratis skoleopgaver: 1 (in H1)
+
+AFTER SECTION 2 (Features):
+Section 2 added:
+- Opgaver til print: +4 (H2:1, H3:3)
+- Arbejdsark / Kopiark: +9 (arbejdsark:7, kopiark:2)
+- 0. klasse opgaver / 1. klasse: +1 (H3:1)
+- Gratis skoleopgaver: +3 (H2:1, H3:2)
+
+Running totals:
+- Opgaver til print: 5/10 (H1:1 + Sec2:4)
+- Matematikopgaver: 0/10
+- Lære bogstaver / Skriv bogstaver: 0/10
+- Malebog / Farvelægning: 0/10
+- Arbejdsark / Kopiark: 10/10 ✓ (H1:1 + Sec2:9) MINIMUM MET!
+- Finmotorik øvelser: 0/10
+- 0. klasse opgaver / 1. klasse: 2/10 (H1:1 + Sec2:1)
+- Gangetabeller: 0/10
+- Læse og skrive / Stavning: 0/10
+- Gratis skoleopgaver: 4/10 (H1:1 + Sec2:3)
+
+AFTER SECTION 3 (How-To):
+Section 3 added:
+- Opgaver til print: +4 (H2:1, H3:3)
+- Arbejdsark / Kopiark: +3 (arbejdsark:2, kopiark:1)
+- 0. klasse / 1. klasse: +2 (0. klasse:1, 1. klasse:1)
+- Gratis skoleopgaver: +1 (H3:1)
+
+Running totals after Section 3:
+- Opgaver til print: 9/10 (need 1 more!)
+- Matematikopgaver: 0/10
+- Lære bogstaver / Skriv bogstaver: 0/10
+- Malebog / Farvelægning: 0/10
+- Arbejdsark / Kopiark: 13/10 ✓ MINIMUM MET!
+- Finmotorik øvelser: 0/10
+- 0. klasse opgaver / 1. klasse: 4/10
+- Gangetabeller: 0/10
+- Læse og skrive / Stavning: 0/10
+- Gratis skoleopgaver: 5/10
+
+AFTER SECTION 4 (Use Cases):
+Section 4 added:
+- Opgaver til print: +5 (H2:1, H3s:4)
+- Gratis skoleopgaver: +3 (H2:1, H3s:2)
+- 0. klasse: +1, 1. klasse: +1
+- Matematikopgaver: +1
+- Læse og skrive: +1
+- Arbejdsark: +3, Kopiark: +1
+- Lære bogstaver: +1
+- Finmotorik øvelser: +1
+
+Running totals after Section 4:
+- Opgaver til print: 14/10 ✓ MINIMUM MET!
+- Matematikopgaver: 1/10
+- Lære bogstaver / Skriv bogstaver: 1/10
+- Malebog / Farvelægning: 0/10
+- Arbejdsark / Kopiark: 17/10 ✓ MINIMUM MET!
+- Finmotorik øvelser: 1/10
+- 0. klasse opgaver / 1. klasse: 6/10
+- Gangetabeller: 0/10
+- Læse og skrive / Stavning: 1/10
+- Gratis skoleopgaver: 8/10
+
+AFTER SECTION 5 (Subscription):
+Section 5 added:
+- Opgaver til print: +3
+- Matematikopgaver: +3
+- Læse og skrive: +2
+- Lære bogstaver: +1
+- Gangetabeller: +1
+- Finmotorik øvelser: +1
+- Arbejdsark: +1
+- Malebog: +1
+- Gratis skoleopgaver: +1
+
+Running totals after Section 5:
+- Opgaver til print: 17/10 ✓ MINIMUM MET!
+- Matematikopgaver: 4/10 (need 6 more!)
+- Lære bogstaver / Skriv bogstaver: 2/10 (need 8 more!)
+- Malebog / Farvelægning: 1/10 (need 9 more!)
+- Arbejdsark / Kopiark: 18/10 ✓ MINIMUM MET!
+- Finmotorik øvelser: 2/10 (need 8 more!)
+- 0. klasse opgaver / 1. klasse: 6/10 (need 4 more!)
+- Gangetabeller: 1/10 (need 9 more!)
+- Læse og skrive / Stavning: 3/10 (need 7 more!)
+- Gratis skoleopgaver: 9/10 (need 1 more!)
+
+CRITICAL: Must heavily integrate remaining keywords in Sections 6-7!
+
+AFTER SECTION 6 (FAQ):
+Section 6 added in H2/H3 titles:
+- Opgaver til print: +7 (H2:1, H3s:6)
+- Matematikopgaver: +6
+- Læse og skrive: +3
+- Lære bogstaver: +3
+- Malebog: +2
+- Arbejdsark: +3, Kopiark: +1
+- Finmotorik øvelser: +2
+- 0. klasse: +2, 1. klasse: +3
+- Gangetabeller: +4
+- Gratis skoleopgaver: +2
+
+Running totals after Section 6:
+- Opgaver til print: 24/10 ✓ MINIMUM MET!
+- Matematikopgaver: 10/10 ✓ MINIMUM MET! (JUST MET!)
+- Læse og skrive / Stavning: 6/10 (need 4 more!)
+- Lære bogstaver / Skriv bogstaver: 5/10 (need 5 more!)
+- Malebog / Farvelægning: 3/10 (need 7 more!)
+- Arbejdsark / Kopiark: 22/10 ✓ MINIMUM MET!
+- Finmotorik øvelser: 4/10 (need 6 more!)
+- 0. klasse opgaver / 1. klasse: 11/10 ✓ MINIMUM MET! (JUST MET!)
+- Gangetabeller: 5/10 (need 5 more!)
+- Gratis skoleopgaver: 11/10 ✓ MINIMUM MET! (JUST MET!)
+
+Progress: 6 of 10 keywords met! Must integrate remaining 4 heavily in Section 7!
+
+AFTER SECTION 7 (Combine Apps):
+Section 7 added in H2/H3 titles:
+- Opgaver til print: +3 (H2:1, H3s:2)
+- Matematikopgaver: +4 (H2:1, H3s:3)
+- Læse og skrive: +4 (H3s:4)
+- Lære bogstaver: +5 (H3s:5)
+- Malebog / Farvelægning: +7 (H2:1, H3s:6)
+- Arbejdsark: +3 (H3s:3)
+- Finmotorik øvelser: +6 (H3s:6)
+- Gangetabeller: +5 (H2:1, H3s:4)
+
+FINAL TOTALS AFTER SECTION 7:
+✓ Opgaver til print: 27/10 (MINIMUM MET!)
+✓ Matematikopgaver: 14/10 (MINIMUM MET!)
+✓ Læse og skrive / Stavning: 10/10 (MINIMUM MET - JUST MET!)
+✓ Lære bogstaver / Skriv bogstaver: 10/10 (MINIMUM MET - JUST MET!)
+✓ Malebog / Farvelægning: 10/10 (MINIMUM MET - JUST MET!)
+✓ Arbejdsark / Kopiark: 25/10 (MINIMUM MET!)
+✓ Finmotorik øvelser: 10/10 (MINIMUM MET - JUST MET!)
+✓ 0. klasse opgaver / 1. klasse: 11/10 (MINIMUM MET!)
+✓ Gangetabeller: 10/10 (MINIMUM MET - JUST MET!)
+✓ Gratis skoleopgaver: 11/10 (MINIMUM MET!)
+
+🎉 ALL 10 KEYWORDS NOW MEET MINIMUM REQUIREMENT! 🎉
+
+Progress: 10 of 10 keywords met! (100%)
+
+After each section, update counts and check boxes when ≥10 reached.

@@ -1,0 +1,243 @@
+KEYWORD TRACKING - Shadow Match - Spanish (Mexican)
+
+TARGET: Each keyword must appear MINIMUM 10 times in H2/H3 titles ONLY
+
+---
+
+SECTION 1 (Hero) - KEYWORD COUNT:
+Section 1 contains only H1 (no H2/H3 titles), so no keywords counted yet.
+H1 Title: "Fichas para Imprimir de Asociación de Sombras - Fichas Gratis de Percepción Visual para Educación Infantil y Preescolar"
+
+Running Totals After Section 1:
+- Fichas para imprimir: 0 (appears 1x in H1)
+- Fichas infantil / Fichas preescolar: 0
+- Grafomotricidad: 0
+- Lectoescritura: 0
+- Ejercicios matemáticas / Fichas de matemáticas: 0
+- Colorear / Dibujos para colorear: 0
+- Abecedario / Aprender las letras: 0
+- Números / Aprender los números: 0
+- Tablas de multiplicar: 0
+- Fichas gratis / Material educativo gratis: 0 (appears 1x in H1)
+
+NOTE: H1 keywords don't count toward the 10x requirement. Only H2/H3 titles count.
+
+---
+
+SECTION 2 (Features) - KEYWORD COUNT:
+H2: "Funciones del Generador de Asociación de Sombras - Todo lo que Necesitas para Fichas Infantil y Fichas Preescolar"
+H3: "Crea Fichas para Imprimir en Tres Clics - Generador Rápido de Fichas Infantil y Fichas Preescolar"
+H3: "Edita Todo en tu Ficha de Asociación de Sombras - Personalización Completa para Ejercicios Matemáticas y Lectoescritura"
+H3: "Sube tus Propias Imágenes para Fichas Preescolar y Fichas para Imprimir Personalizadas"
+H3: "Fichas de Asociación de Sombras en 11 Idiomas - Soporte Multilingüe para Abecedario y Aprender los Números"
+H3: "Licencia Comercial para Vender Fichas Gratis y Material Educativo Gratis en Línea"
+H3: "Biblioteca de más de 3000 Imágenes - Ilustraciones Organizadas por Temas para Colorear y Dibujos para Colorear"
+H3: "Calidad Profesional de 300 DPI - Fichas Infantil y Actividades de Grafomotricidad de Alta Resolución"
+
+Section 2 keyword counts:
+- Fichas para imprimir: +2 (H3-1, H3-3)
+- Fichas infantil / Fichas preescolar: +6 (H2 both, H3-1 both, H3-3, H3-7)
+- Grafomotricidad: +1 (H3-7)
+- Lectoescritura: +1 (H3-2)
+- Ejercicios matemáticas: +1 (H3-2)
+- Colorear / Dibujos para colorear: +2 (H3-6 both)
+- Abecedario: +1 (H3-4)
+- Números / Aprender los números: +1 (H3-4)
+- Tablas de multiplicar: +0
+- Fichas gratis / Material educativo gratis: +2 (H3-5 both)
+
+Running Totals After Section 2:
+- Fichas para imprimir: 2/10
+- Fichas infantil / Fichas preescolar: 6/10 (60%)
+- Grafomotricidad: 1/10
+- Lectoescritura: 1/10
+- Ejercicios matemáticas: 1/10
+- Colorear / Dibujos para colorear: 2/10
+- Abecedario: 1/10
+- Números / Aprender los números: 1/10
+- Tablas de multiplicar: 0/10 ⚠️ NEED TO ADD
+- Fichas gratis / Material educativo gratis: 2/10
+
+---
+
+SECTION 3 (How-To) - KEYWORD COUNT:
+H2: "Cómo Crear Fichas para Imprimir en 5 Pasos Fáciles - Generador de Fichas Gratis para Educación Infantil"
+H3: "Paso 1: Elige Imágenes para tu Ficha de Asociación de Sombras - Fichas Infantil y Fichas Preescolar con Temas Personalizados"
+H3: "Paso 2: Selecciona Modo de Ejercicio y Configuración - Fichas para Imprimir Personalizables para Grafomotricidad y Lectoescritura"
+H3: "Paso 3: Genera tu Ficha Instantáneamente - Creación Rápida de Fichas Gratis y Material Educativo Gratis"
+H3: "Paso 4: Edita Todo en el Lienzo - Perfecciona tus Fichas para Imprimir para Educación Infantil y Colorear"
+H3: "Paso 5: Descarga e Imprime tus Fichas de Asociación de Sombras - Fichas Infantil y Dibujos para Colorear de Alta Calidad"
+
+Section 3 keyword counts:
+- Fichas para imprimir: +3 (H2, H3-2, H3-4)
+- Fichas infantil / Fichas preescolar: +3 (H3-1 both, H3-5)
+- Grafomotricidad: +1 (H3-2)
+- Lectoescritura: +1 (H3-2)
+- Ejercicios matemáticas: +0
+- Colorear / Dibujos para colorear: +2 (H3-4, H3-5)
+- Abecedario: +0
+- Números / Aprender los números: +0
+- Tablas de multiplicar: +0 ⚠️ STILL ZERO - CRITICAL
+- Fichas gratis / Material educativo gratis: +3 (H2, H3-3 both)
+
+Running Totals After Section 3:
+- Fichas infantil / Fichas preescolar: 9/10 (90% - almost there!)
+- Fichas para imprimir: 5/10 (50%)
+- Fichas gratis / Material educativo gratis: 5/10 (50%)
+- Colorear / Dibujos para colorear: 4/10 (40%)
+- Grafomotricidad: 2/10 (20%)
+- Lectoescritura: 2/10 (20%)
+- Ejercicios matemáticas: 1/10 (10%)
+- Abecedario: 1/10 (10%)
+- Números / Aprender los números: 1/10 (10%)
+- Tablas de multiplicar: 0/10 ⚠️ CRITICAL - MUST ADD IN NEXT SECTIONS
+
+---
+
+SECTION 4 (Use Cases) - KEYWORD COUNT:
+H2: "Perfecto para Maestros, Padres y Educadores - Fichas para Imprimir para Todas las Necesidades del Aula"
+H3: "Maestros de Educación Infantil y Preescolar - Fichas Infantil para Grafomotricidad y Aprender los Números"
+H3: "Maestros de Primaria - Fichas de Matemáticas, Tablas de Multiplicar y Lectoescritura para Primer a Tercer Grado"
+H3: "Padres que Educan en Casa - Fichas Preescolar, Colorear y Abecedario para Aprendizaje en Múltiples Niveles"
+H3: "Maestros de Español - Material Educativo Gratis, Aprender las Letras y Ejercicios Matemáticas para Estudiantes de Español"
+H3: "Maestros de Educación Especial - Fichas para Imprimir, Grafomotricidad y Tablas de Multiplicar para Aprendizaje Individualizado"
+H3: "Maestros Emprendedores - Vender Fichas Gratis, Colorear y Material Educativo Gratis en Teachers Pay Teachers y Etsy"
+
+Section 4 keyword counts:
+- Fichas para imprimir: +3 (H2, H3-5, H3-6)
+- Fichas infantil / Fichas preescolar: +2 (H3-1, H3-3)
+- Grafomotricidad: +2 (H3-1, H3-5)
+- Lectoescritura: +1 (H3-2)
+- Ejercicios matemáticas / Fichas de matemáticas: +2 (H3-2, H3-4)
+- Colorear: +2 (H3-3, H3-6)
+- Abecedario / Aprender las letras: +2 (H3-3, H3-4)
+- Números / Aprender los números: +1 (H3-1)
+- Tablas de multiplicar: +2 🎉 (H3-2, H3-5) FINALLY NOT ZERO!
+- Fichas gratis / Material educativo gratis: +3 (H3-4, H3-6 both)
+
+Running Totals After Section 4:
+[✓] Fichas infantil / Fichas preescolar: 11/10 ✓✓✓ COMPLETE!
+- Fichas para imprimir: 8/10 (80% - almost there!)
+- Fichas gratis / Material educativo gratis: 8/10 (80% - almost there!)
+- Colorear / Dibujos para colorear: 6/10 (60%)
+- Grafomotricidad: 4/10 (40%)
+- Lectoescritura: 3/10 (30%)
+- Ejercicios matemáticas / Fichas de matemáticas: 3/10 (30%)
+- Abecedario / Aprender las letras: 3/10 (30%)
+- Tablas de multiplicar: 2/10 (20% - no longer zero!)
+- Números / Aprender los números: 2/10 (20%)
+
+---
+
+SECTION 5 (Subscription) - KEYWORD COUNT:
+H2: "Tres Razones Principales por las que Maestros se Suscriben - Funciones Premium de Fichas para Imprimir que Valen la Pena"
+H3: "Enseñar Múltiples Idiomas - Fichas de Matemáticas, Aprender las Letras y Lectoescritura en 11 Idiomas para Aulas Multilingües"
+H3: "Licencia Comercial - Vender Tablas de Multiplicar, Grafomotricidad y Ejercicios Matemáticas en Teachers Pay Teachers, Etsy y Amazon KDP"
+H3: "Ahorro de Tiempo y Productividad - Crear Fichas Gratis, Abecedario y Aprender los Números en Minutos en Lugar de Horas"
+
+Section 5 keyword counts:
+- Fichas para imprimir: +1 (H2)
+- Fichas infantil / Fichas preescolar: +0
+- Grafomotricidad: +1 (H3-2)
+- Lectoescritura: +1 (H3-1)
+- Ejercicios matemáticas / Fichas de matemáticas: +2 (H3-1, H3-2)
+- Colorear: +0
+- Abecedario / Aprender las letras: +2 (H3-1, H3-3)
+- Números / Aprender los números: +2 (H3-1, H3-3)
+- Tablas de multiplicar: +1 (H3-2)
+- Fichas gratis / Material educativo gratis: +1 (H3-3)
+
+Running Totals After Section 5:
+[✓] Fichas infantil / Fichas preescolar: 11/10 ✓✓✓ COMPLETE!
+[✓] Fichas para imprimir: 9/10 (90% - just 1 more!)
+[✓] Fichas gratis / Material educativo gratis: 9/10 (90% - just 1 more!)
+- Colorear / Dibujos para colorear: 6/10 (60%)
+- Grafomotricidad: 5/10 (50%)
+- Ejercicios matemáticas / Fichas de matemáticas: 5/10 (50%)
+- Abecedario / Aprender las letras: 5/10 (50%)
+- Números / Aprender los números: 4/10 (40%)
+- Lectoescritura: 4/10 (40%)
+- Tablas de multiplicar: 3/10 (30%)
+
+---
+
+SECTION 6 (FAQ) - KEYWORD COUNT:
+H2: "Preguntas Frecuentes sobre Fichas para Imprimir de Asociación de Sombras, Grafomotricidad y Tablas de Multiplicar"
+H3-1: "¿Este Generador de Asociación de Sombras es Realmente Gratis - Fichas para Imprimir y Material Educativo Gratis?"
+H3-2: "¿Puedo Imprimir Fichas de Grafomotricidad y Lectoescritura en Casa en una Impresora Regular?"
+H3-3: "¿Necesito Habilidades de Diseño para Crear Fichas de Números, Tablas de Multiplicar y Ejercicios Matemáticas?"
+H3-4: "¿Puedo Usar Fichas de Abecedario y Aprender las Letras en Mi Aula para Estudiantes?"
+H3-5: "¿En Qué Idiomas Están Disponibles las Fichas de Colorear y Dibujos para Colorear?"
+H3-6: "¿Puedo Vender Fichas de Tablas de Multiplicar, Grafomotricidad y Ejercicios Matemáticas que Creo con Este Generador?"
+H3-7: "¿Cómo Personalizo Fichas de Lectoescritura, Números y Abecedario para Mis Estudiantes?"
+H3-8: "¿Qué Grupos de Edad Funcionan Mejor con Fichas de Colorear, Tablas de Multiplicar y Grafomotricidad?"
+H3-9: "¿Puedo Subir Mis Propias Imágenes a Fichas de Aprender los Números y Material Educativo Gratis?"
+H3-10: "¿Cuánto Tiempo Toma Crear Fichas de Ejercicios Matemáticas, Lectoescritura y Tablas de Multiplicar?"
+H3-11: "¿Las Fichas de Grafomotricidad y Colorear Incluyen Hojas de Respuestas?"
+H3-12: "¿Puedo Crear Fichas de Números, Abecedario y Ejercicios Matemáticas sobre Materias Escolares Específicas?"
+
+Section 6 keyword counts:
+- Fichas para imprimir: +2 (H2, H3-1)
+- Fichas infantil / Fichas preescolar: +0
+- Grafomotricidad: +5 🎉 (H2, H3-2, H3-6, H3-8, H3-11)
+- Lectoescritura: +3 (H3-2, H3-7, H3-10)
+- Ejercicios matemáticas: +4 (H3-3, H3-6, H3-10, H3-12)
+- Colorear / Dibujos para colorear: +4 🎉 (H3-5 both, H3-8, H3-11)
+- Abecedario / Aprender las letras: +4 (H3-4 both, H3-7, H3-12)
+- Números / Aprender los números: +3 (H3-3, H3-7, H3-9, H3-12)
+- Tablas de multiplicar: +5 (H2, H3-3, H3-6, H3-8, H3-10)
+- Fichas gratis / Material educativo gratis: +2 🎉 (H3-1 both, H3-9)
+
+Running Totals After Section 6:
+[✓] Fichas infantil / Fichas preescolar: 11/10 ✓✓✓ COMPLETE!
+[✓] Fichas para imprimir: 11/10 ✓✓✓ COMPLETE! 🎉 NEW!
+[✓] Fichas gratis / Material educativo gratis: 11/10 ✓✓✓ COMPLETE! 🎉 NEW!
+[✓] Grafomotricidad: 10/10 ✓✓✓ MINIMUM MET! 🎉 NEW!
+[✓] Colorear / Dibujos para colorear: 10/10 ✓✓✓ MINIMUM MET! 🎉 NEW!
+- Ejercicios matemáticas / Fichas de matemáticas: 9/10 (90% - just 1 more!)
+- Abecedario / Aprender las letras: 9/10 (90% - just 1 more!)
+- Tablas de multiplicar: 8/10 (80% - need 2 more)
+- Números / Aprender los números: 7/10 (70% - need 3 more)
+- Lectoescritura: 7/10 (70% - need 3 more)
+
+---
+
+SECTION 7 (Combine Apps) - KEYWORD COUNT:
+H2: "Combina Fichas de Asociación de Sombras con Otras Fichas para Imprimir - Paquetes Completos de Aprendizaje"
+H3-1: "Asociación de Sombras Más Ejercicios Matemáticas y Tablas de Multiplicar - Práctica Integrada de Números y Matemáticas Visuales"
+H3-2: "Asociación de Sombras con Lectoescritura y Aprender las Letras - Práctica Integrada de Fundamentos de Lectura"
+H3-3: "Fichas de Números y Lectoescritura Combinadas con Asociación Visual - Desarrollo de Habilidades Matemáticas y de Alfabetización"
+H3-4: "Tablas de Multiplicar y Aprender los Números con Asociación de Sombras - Comprensión Matemática Visual Completa"
+H3-5: "Paquetes Curriculares Completos de Fichas - Lectoescritura, Ejercicios Matemáticas y Fichas para Imprimir para Aprendizaje Semanal"
+
+Section 7 keyword counts:
+- Fichas para imprimir: +2 (H2, H3-5)
+- Fichas infantil / Fichas preescolar: +0
+- Grafomotricidad: +0
+- Lectoescritura: +3 🎉 (H3-2, H3-3, H3-5)
+- Ejercicios matemáticas: +2 🎉 (H3-1, H3-5)
+- Colorear: +0
+- Abecedario / Aprender las letras: +1 🎉 (H3-2)
+- Números / Aprender los números: +3 🎉 (H3-1, H3-3, H3-4)
+- Tablas de multiplicar: +2 🎉 (H3-1, H3-4)
+- Fichas gratis / Material educativo gratis: +0
+
+---
+
+FINAL TOTALS AFTER SECTION 7:
+[✓] 1. Fichas para imprimir: 13/10 ✓✓✓ COMPLETE!
+[✓] 2. Fichas infantil / Fichas preescolar: 11/10 ✓✓✓ COMPLETE!
+[✓] 3. Grafomotricidad: 10/10 ✓✓✓ COMPLETE!
+[✓] 4. Lectoescritura: 10/10 ✓✓✓ MINIMUM MET! 🎉🎉🎉
+[✓] 5. Ejercicios matemáticas / Fichas de matemáticas: 11/10 ✓✓✓ COMPLETE! 🎉🎉🎉
+[✓] 6. Colorear / Dibujos para colorear: 10/10 ✓✓✓ COMPLETE!
+[✓] 7. Abecedario / Aprender las letras: 10/10 ✓✓✓ MINIMUM MET! 🎉🎉🎉
+[✓] 8. Números / Aprender los números: 10/10 ✓✓✓ MINIMUM MET! 🎉🎉🎉
+[✓] 9. Tablas de multiplicar: 10/10 ✓✓✓ MINIMUM MET! 🎉🎉🎉
+[✓] 10. Fichas gratis / Material educativo gratis: 11/10 ✓✓✓ COMPLETE!
+
+🎉🎉🎉 ALL 10 KEYWORDS ACHIEVED MINIMUM 10 OCCURRENCES IN H2/H3 TITLES! 🎉🎉🎉
+✅ PRIMARY SEO MISSION: ACCOMPLISHED
+✅ TOTAL WORD COUNT: ~7,500 words (exceeds 7,000 minimum)
+✅ ALL PRICING REFERENCES: Correct (Full Access $240/year or $25/month)
+✅ ALL 7 SECTIONS: Complete

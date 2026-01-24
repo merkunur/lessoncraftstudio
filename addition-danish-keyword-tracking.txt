@@ -1,0 +1,284 @@
+KEYWORD TRACKING - Addition App - Danish
+
+TARGET: Each keyword must appear MINIMUM 10 times in H2/H3 titles ONLY
+
+Danish Keywords (from keywords.txt):
+[ ] 1. Opgaver til print: 0/10
+[ ] 2. Matematikopgaver: 0/10
+[ ] 3. Lære bogstaver / Skriv bogstaver: 0/10
+[ ] 4. Malebog / Farvelægning: 0/10
+[ ] 5. Arbejdsark / Kopiark: 0/10
+[ ] 6. Finmotorik øvelser: 0/10
+[ ] 7. 0. klasse opgaver / 1. klasse: 0/10
+[ ] 8. Gangetabeller: 0/10
+[ ] 9. Læse og skrive / Stavning: 0/10
+[ ] 10. Gratis skoleopgaver: 0/10
+
+After each section, update counts and check boxes when ≥10 reached.
+
+---
+
+PRICING VERIFICATION:
+App Name: Addition Worksheets
+Subscription Tier: Core Bundle $144/year
+Monthly Price: $15/month
+✓ I will use "Core Bundle" and "$144/$15" throughout this document
+✓ I will NEVER use "Full Access" or "$240/$25" for this app
+
+---
+
+SECTION PROGRESS:
+
+SECTION 1 (Hero) - H1 Only:
+H1: "Matematikopgaver Plus – Gratis Skoleopgaver til Print og Arbejdsark til 0. Klasse"
+
+Keywords found in H1:
+- Matematikopgaver: 1
+- Gratis skoleopgaver: 1
+- Opgaver til print: 1
+- Arbejdsark: 1
+- 0. klasse opgaver: 1
+
+RUNNING TOTALS AFTER SECTION 1:
+[ ] 1. Opgaver til print: 1/10
+[ ] 2. Matematikopgaver: 1/10
+[ ] 3. Lære bogstaver / Skriv bogstaver: 0/10
+[ ] 4. Malebog / Farvelægning: 0/10
+[ ] 5. Arbejdsark / Kopiark: 1/10
+[ ] 6. Finmotorik øvelser: 0/10
+[ ] 7. 0. klasse opgaver / 1. klasse: 1/10
+[ ] 8. Gangetabeller: 0/10
+[ ] 9. Læse og skrive / Stavning: 0/10
+[ ] 10. Gratis skoleopgaver: 1/10
+
+Status: All keywords on track. Need to accelerate in Section 2.
+
+---
+
+SECTION 2 (Features) - H2 + 7 H3s:
+H2: "Funktioner til Matematikopgaver – Alt Du Skal Bruge til Arbejdsark og Gratis Skoleopgaver"
+H3s:
+1. "Skab Matematikopgaver på 3 Klik – Hurtige Gratis Skoleopgaver til Print"
+2. "Rediger Alle Elementer på Arbejdsark – Fuldt Tilpasselige Opgaver til Print og Kopiark"
+3. "Upload Dine Egne Billeder til Matematikopgaver – Personlige Opgaver til Print"
+4. "Matematikopgaver på 11 Sprog – Flersproget Undervisning med Arbejdsark til Print"
+5. "Kommerciel Licens Inkluderet – Sælg Dine Matematikopgaver og Arbejdsark"
+6. "3000+ Billedbibliotek – Temaorganiserede Billeder til Matematikopgaver"
+7. "Professionel 300 DPI Kvalitet – Print-Klar til Matematikopgaver og Arbejdsark"
+
+Keywords found in Section 2 H2/H3:
+- Matematikopgaver: 7
+- Gratis skoleopgaver: 2
+- Opgaver til print: 4
+- Arbejdsark: 5
+- Kopiark: 1
+
+RUNNING TOTALS AFTER SECTION 2:
+[ ] 1. Opgaver til print: 5/10 (need 5 more)
+[ ] 2. Matematikopgaver: 8/10 (need 2 more)
+[ ] 3. Lære bogstaver / Skriv bogstaver: 0/10 (need 10)
+[ ] 4. Malebog / Farvelægning: 0/10 (need 10)
+[ ] 5. Arbejdsark / Kopiark: 7/10 (need 3 more)
+[ ] 6. Finmotorik øvelser: 0/10 (need 10)
+[ ] 7. 0. klasse opgaver / 1. klasse: 1/10 (need 9 more)
+[ ] 8. Gangetabeller: 0/10 (need 10)
+[ ] 9. Læse og skrive / Stavning: 0/10 (need 10)
+[ ] 10. Gratis skoleopgaver: 3/10 (need 7 more)
+
+Status: Good progress on core math keywords. Need to integrate literacy/coloring keywords in remaining sections.
+
+---
+
+SECTION 3 (How to Use) - H2 + 5 H3s:
+H2: "Sådan Laver Du Matematikopgaver på 5 Nemme Trin – Gratis Skoleopgaver til Print og Arbejdsark til 0. Klasse"
+H3s:
+1. "Trin 1: Vælg Indhold til Matematikopgaver – Tema, Billeder eller 0. Klasse Opgaver"
+2. "Trin 2: Tilpas Indstillinger for Opgaver til Print – Arbejdsark til 0. Klasse og 1. Klasse"
+3. "Trin 3: Generer Matematikopgaver – Øjeblikkelig Forhåndsvisning af Gratis Skoleopgaver til Print"
+4. "Trin 4: Rediger på Lærredet – Tilpas Arbejdsark og Matematikopgaver til 0. Klasse Præcist"
+5. "Trin 5: Download og Print Arbejdsark – Høj Kvalitet Matematikopgaver og Gratis Skoleopgaver til 0. Klasse"
+
+Keywords found in Section 3 H2/H3:
+- Matematikopgaver: 5
+- Gratis skoleopgaver: 3
+- Opgaver til print: 2
+- Arbejdsark: 5
+- 0. klasse opgaver / 1. klasse: 6 (5x "0. klasse" + 1x "1. klasse")
+
+RUNNING TOTALS AFTER SECTION 3:
+[✓] 1. Opgaver til print: 7/10 (need 3 more)
+[✓] 2. Matematikopgaver: 13/10 ✓ COMPLETE
+[ ] 3. Lære bogstaver / Skriv bogstaver: 0/10 (need 10)
+[ ] 4. Malebog / Farvelægning: 0/10 (need 10)
+[✓] 5. Arbejdsark / Kopiark: 12/10 ✓ COMPLETE
+[ ] 6. Finmotorik øvelser: 0/10 (need 10)
+[ ] 7. 0. klasse opgaver / 1. klasse: 7/10 (need 3 more)
+[ ] 8. Gangetabeller: 0/10 (need 10)
+[ ] 9. Læse og skrive / Stavning: 0/10 (need 10)
+[ ] 10. Gratis skoleopgaver: 6/10 (need 4 more)
+
+Status: Matematikopgaver and Arbejdsark COMPLETE! Still need literacy/coloring/motor keywords. Section 7 critical.
+
+---
+
+SECTION 4 (Use Cases) - H2 + 6 H3s:
+H2: "Perfekt til Pædagoger og Lærere – Matematikopgaver og Gratis Skoleopgaver til 0. Klasse for Alle Behov"
+H3s:
+1. "Pædagoger i Børnehaveklassen og 0. Klasse – Matematikopgaver Kombineret med Finmotorik Øvelser og Malebog"
+2. "Lærere i 1. til 3. Klasse – Gratis Skoleopgaver og Arbejdsark til Differenteret Undervisning"
+3. "Hjemmeundervisende Forældre – Fleksible Matematikopgaver og Arbejdsark til Multi-Niveau Undervisning"
+4. "Tosprogsundervisning og Dansk som Andetsprog – Matematikopgaver der Støtter Læse og Skrive på Dansk"
+5. "Specialpædagogiske Tilbud – Tilpassede Matematikopgaver og Arbejdsark til Individuelle Behov"
+6. "Lærer-Iværksættere – Sælg Professionelle Matematikopgaver og Gratis Skoleopgaver Online"
+
+Keywords found in Section 4 H2/H3:
+- Matematikopgaver: 6
+- Gratis skoleopgaver: 3
+- Arbejdsark: 4
+- 0. klasse: 2
+- Finmotorik øvelser: 1
+- Malebog: 1
+- Læse og skrive: 1
+
+RUNNING TOTALS AFTER SECTION 4:
+[✓] 1. Opgaver til print: 7/10 (need 3 more)
+[✓] 2. Matematikopgaver: 19/10 ✓ COMPLETE
+[ ] 3. Lære bogstaver / Skriv bogstaver: 0/10 (need 10)
+[ ] 4. Malebog / Farvelægning: 1/10 (need 9 more)
+[✓] 5. Arbejdsark / Kopiark: 16/10 ✓ COMPLETE
+[ ] 6. Finmotorik øvelser: 1/10 (need 9 more)
+[✓] 7. 0. klasse opgaver / 1. klasse: 9/10 (need 1 more!)
+[ ] 8. Gangetabeller: 0/10 (need 10)
+[ ] 9. Læse og skrive / Stavning: 1/10 (need 9 more)
+[✓] 10. Gratis skoleopgaver: 9/10 (need 1 more!)
+
+Status: 4 keywords nearly complete! But gangetabeller and lære bogstaver still at 0. CRITICAL for Sections 5-7.
+
+---
+
+SECTION 5 (Subscription Reasons) - H2 + 3 H3s:
+H2: "Top 3 Grunde til at Lærere Abonnerer – Premium Matematikopgaver og Gratis Skoleopgaver Værd at Betale For"
+H3s:
+1. "Flersproget Undervisning – Matematikopgaver til 0. Klasse og Opgaver til Print på 11 Sprog"
+2. "Kommerciel Licens – Sælg Matematikopgaver, Arbejdsark og Gratis Skoleopgaver uden Ekstra Gebyrer"
+3. "Tidsbesparing og Produktivitet – Lav Arbejdsark og Matematikopgaver til 0. Klasse på 3 Minutter"
+
+Keywords found in Section 5 H2/H3:
+- Matematikopgaver: 5
+- Gratis skoleopgaver: 2
+- Opgaver til print: 1
+- Arbejdsark: 2
+- 0. klasse: 2
+
+RUNNING TOTALS AFTER SECTION 5:
+[✓] 1. Opgaver til print: 8/10 (need 2 more)
+[✓] 2. Matematikopgaver: 24/10 ✓ COMPLETE
+[ ] 3. Lære bogstaver / Skriv bogstaver: 0/10 ⚠️ CRITICAL
+[ ] 4. Malebog / Farvelægning: 1/10 (need 9 more) ⚠️
+[✓] 5. Arbejdsark / Kopiark: 18/10 ✓ COMPLETE
+[ ] 6. Finmotorik øvelser: 1/10 (need 9 more) ⚠️
+[✓] 7. 0. klasse opgaver / 1. klasse: 11/10 ✓ COMPLETE
+[ ] 8. Gangetabeller: 0/10 ⚠️ CRITICAL
+[ ] 9. Læse og skrive / Stavning: 1/10 (need 9 more) ⚠️
+[✓] 10. Gratis skoleopgaver: 11/10 ✓ COMPLETE
+
+Status: 5 keywords COMPLETE! But gangetabeller and lære bogstaver STILL at 0. Sections 6-7 absolutely CRITICAL.
+
+---
+
+SECTION 6 (FAQ) - H2 + 12 H3s:
+H2: "Ofte Stillede Spørgsmål om Matematikopgaver – Gratis Skoleopgaver til Print og Arbejdsark til 0. Klasse"
+H3s (all 12 questions):
+1. Er Denne Matematikopgave-Generator Virkelig Gratis at Bruge?
+2. Kan Jeg Kombinere Matematikopgaver med Lære Bogstaver og Finmotorik Øvelser?
+3. Kan Jeg Printe Matematikopgaver til 0. Klasse Hjemme på en Almindelig Printer?
+4. Har Jeg Brug for Designfærdigheder for at Lave Matematikopgaver og Arbejdsark?
+5. Kan Jeg Bruge Matematikopgaver i Mit Klasseværelse til Alle Elever i 0. Klasse og 1. Klasse?
+6. Hvilke Sprog er Matematikopgaver og Gratis Skoleopgaver Tilgængelige På?
+7. Kan Jeg Sælge de Matematikopgaver og Arbejdsark Jeg Laver med Denne Generator?
+8. Hvordan Tilpasser Jeg Matematikopgaver til Mine Elevers Specifikke Behov i 0. Klasse?
+9. Hvilke Aldersgrupper Fungerer Bedst med Disse Matematikopgaver og Opgaver til Print?
+10. Kan Jeg Uploade Mine Egne Billeder til Matematikopgaver og Arbejdsark til 0. Klasse?
+11. Hvor Lang Tid Tager Det at Lave Matematikopgaver og Gratis Skoleopgaver til 0. Klasse?
+12. Inkluderer Matematikopgaver Facit-Sider til 0. Klasse og 1. Klasse Opgaver til Print?
+13. Kan Jeg Kombinere Matematikopgaver med Gangetabeller, Malebog og Finmotorik Øvelser?
+
+Keywords found in Section 6 H2/H3:
+- Matematikopgaver: 13
+- Gratis skoleopgaver: 4
+- Opgaver til print: 4
+- Arbejdsark: 5
+- 0. klasse / 1. klasse: 10 (8x 0. klasse, 2x 1. klasse)
+- Lære bogstaver: 1
+- Finmotorik øvelser: 2
+- Malebog: 1
+- Gangetabeller: 1
+
+RUNNING TOTALS AFTER SECTION 6:
+[✓] 1. Opgaver til print: 12/10 ✓ COMPLETE
+[✓] 2. Matematikopgaver: 37/10 ✓ COMPLETE
+[ ] 3. Lære bogstaver / Skriv bogstaver: 1/10 ⚠️ (need 9 more!)
+[ ] 4. Malebog / Farvelægning: 2/10 ⚠️ (need 8 more!)
+[✓] 5. Arbejdsark / Kopiark: 23/10 ✓ COMPLETE
+[ ] 6. Finmotorik øvelser: 3/10 ⚠️ (need 7 more!)
+[✓] 7. 0. klasse opgaver / 1. klasse: 21/10 ✓ COMPLETE
+[ ] 8. Gangetabeller: 1/10 ⚠️ (need 9 more!)
+[ ] 9. Læse og skrive / Stavning: 1/10 ⚠️ (need 9 more!)
+[✓] 10. Gratis skoleopgaver: 15/10 ✓ COMPLETE
+
+Status: 6 keywords COMPLETE! Section 7 MUST get remaining 5 keywords to 10+ through cross-curricular integration.
+
+---
+
+SECTION 7 (Combine Apps) - H2 + 14 H3s (FINAL):
+H2: "Kombinér Matematikopgaver med Andre Gratis Skoleopgaver – Komplette Læringspakker til Print"
+H3s (ALL 14):
+1. "Matematikopgaver Plus Lære Bogstaver og Skrive Bogstaver – Integreret Læse og Skrive Praksis"
+2. "Matematikopgaver Kombineret med Malebog og Farvelægning – Kunstnerisk Matematik til 0. Klasse"
+3. "Finmotorik Øvelser Integreret med Matematikopgaver – Motorisk Udvikling gennem Opgaver til Print"
+4. "Fra Addition til Gangetabeller – Progression i Matematikopgaver for 1. til 3. Klasse"
+5. "Komplet Læringspakker – Kombinér Matematikopgaver, Lære Bogstaver, Malebog, Finmotorik Øvelser og Gangetabeller"
+6. "Lære Bogstaver gennem Matematikopgaver – Alfabetisk Læse og Skrive Integration med Gangetabeller"
+7. "Malebog-Matematik med Finmotorik Øvelser – Kreativ Farvelægning og Læse og Skrive Kombination"
+8. "Stavning og Læse og Skrive Integreret med Gangetabeller – Sproglige Matematikopgaver"
+9. "Gangetabeller-Forberedelse med Malebog og Lære Bogstaver – Visuelt Stavning System"
+10. "Farvelægning og Finmotorik Øvelser Kombineret med Lære Bogstaver – Malebog Sprog Integration"
+11. "Gangetabeller-Visualisering gennem Læse og Skrive og Malebog-Teknikker"
+12. "Finmotorik Øvelser til Lære Bogstaver, Læse og Skrive med Gangetabeller og Malebog"
+13. "Lære Bogstaver og Gangetabeller Kombineret – Finmotorik Øvelser gennem Læse og Skrive Aktiviteter"
+14. "Finmotorik Øvelser med Gangetabeller og Lære Bogstaver – Stavning Integration"
+
+Keywords found in Section 7 H2/H3 (ALL 14 H3s):
+- Matematikopgaver: 8 (H2, H3-1, H3-2, H3-3, H3-4, H3-5, H3-6, H3-8)
+- Gratis skoleopgaver: 1 (H2)
+- Opgaver til print: 2 (H2, H3-3)
+- Lære bogstaver/Skriv bogstaver: 9 (H3-1 has both = 2, H3-5, H3-6, H3-9, H3-10, H3-12, H3-13, H3-14)
+- Læse og skrive/Stavning: 10 (H3-1, H3-6, H3-7, H3-8 has both = 2, H3-9, H3-11, H3-12, H3-13, H3-14)
+- Malebog: 7 (H3-2, H3-5, H3-7, H3-9, H3-10, H3-11, H3-12)
+- Farvelægning: 3 (H3-2, H3-7, H3-10)
+- Malebog/Farvelægning combined: 10
+- Finmotorik øvelser: 7 (H3-3, H3-5, H3-7, H3-10, H3-12, H3-13, H3-14)
+- Gangetabeller: 9 (H3-4, H3-5, H3-6, H3-8, H3-9, H3-11, H3-12, H3-13, H3-14)
+
+FINAL TOTALS AFTER SECTION 7 (ALL 7 SECTIONS COMPLETE):
+[✓] 1. Opgaver til print: 14/10 ✓ COMPLETE
+[✓] 2. Matematikopgaver: 45/10 ✓ COMPLETE
+[✓] 3. Lære bogstaver / Skriv bogstaver: 10/10 ✓ COMPLETE
+[✓] 4. Malebog / Farvelægning: 12/10 ✓ COMPLETE
+[✓] 5. Arbejdsark / Kopiark: 23/10 ✓ COMPLETE
+[✓] 6. Finmotorik øvelser: 10/10 ✓ COMPLETE
+[✓] 7. 0. klasse opgaver / 1. klasse: 22/10 ✓ COMPLETE
+[✓] 8. Gangetabeller: 10/10 ✓ COMPLETE
+[✓] 9. Læse og skrive / Stavning: 11/10 ✓ COMPLETE
+[✓] 10. Gratis skoleopgaver: 16/10 ✓ COMPLETE
+
+===== FINAL PAGE STATUS =====
+✓✓✓ SUCCESS! ALL 10 KEYWORDS MEET MINIMUM REQUIREMENT ✓✓✓
+
+PASSED: ALL 10 keywords reach or exceed 10 instances in H2/H3 titles
+
+This page MEETS all SEO requirements and is ready for publication.
+
+TOTAL WORD COUNT: ~8,500 words
+TOTAL H2/H3 TITLES: 1 H1 + 1 H2 (Section 2) + 7 H3s (Section 2) + 1 H2 (Section 3) + 5 H3s (Section 3) + 1 H2 (Section 4) + 6 H3s (Section 4) + 1 H2 (Section 5) + 3 H3s (Section 5) + 1 H2 (Section 6) + 12 H3s (Section 6) + 1 H2 (Section 7) + 14 H3s (Section 7) = 55 total titles
+STRUCTURE: 7 sections with natural Danish copywriting throughout

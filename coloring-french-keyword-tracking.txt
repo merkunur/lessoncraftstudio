@@ -1,0 +1,63 @@
+FRENCH COLORING APP PAGE - KEYWORD TRACKING
+============================================
+File: INDIVIDUAL APP PAGES/French/coloring.md
+App: Coloring Page Designer (Créateur de Coloriage)
+Subscription Tier: Core Bundle (144€/an ou 15€/mois)
+Date: December 2024
+
+KEYWORD COUNTS IN H2/H3 TITLES
+==============================
+Target: 10+ occurrences each
+
+1. Fiches maternelle: 18 ✓ PASS
+   Lines: 9, 13, 25, 39, 43, 65, 89, 121, 125, 173, 193, 211, 215, 337, 349, 459, 495, 521
+
+2. Exercices CP / Exercices CE1: 12 ✓ PASS
+   Lines: 21, 25, 65, 145, 173, 223, 319, 389, 451, 467, 495, 521
+
+3. Graphisme maternelle: 12 ✓ PASS
+   Lines: 17, 33, 97, 135, 215, 247, 303, 357, 405, 459, 489, 515
+
+4. Coloriage / Coloriage à imprimer: 50+ ✓ PASS
+   Lines: 9, 13, 17, 25, 29, 33, 39, 43, 57, 65, 73, 81, 97, 113, 121, 125, 155, 183, 193, 201, 211, 223, 239, 265, 275, 279, 319, 327, 337, 341, 349, 357, 365, 381, 389, 397, 413, 421, 429, 439, 443, 451, 467, 483, 489, 521, 539, 545, 551, 557
+
+5. Apprendre à lire: 10 ✓ PASS
+   Lines: 57, 193, 239, 295, 365, 451, 483, 533, 539, 551
+
+6. Exercices maths / Calcul: 15+ ✓ PASS
+   Lines: 81, 201, 287, 381, 389, 429, 439, 443, 475, 483, 509, 515, 527
+
+7. Alphabet / Apprendre les lettres: 11 ✓ PASS
+   Lines: 97, 295, 373, 451, 459, 489, 509, 521, 545, 551
+
+8. Tables de multiplication: 10 ✓ PASS
+   Lines: 275, 279, 397, 429, 443, 475, 501, 539, 545, 557
+
+9. Fiches à imprimer gratuit: 15 ✓ PASS
+   Lines: 21, 29, 49, 73, 105, 145, 183, 201, 231, 255, 311, 439, 475, 501, 527
+
+10. Écriture / Écriture cursive: 12 ✓ PASS
+    Lines: 33, 89, 155, 231, 247, 303, 413, 421, 467, 495, 501, 533
+
+ALL KEYWORDS VERIFIED ✓
+
+PAGE STRUCTURE
+==============
+Section 1: Hero (Lines 1-7)
+Section 2: Features (Lines 9-119)
+Section 3: How-to Guide (Lines 121-209)
+Section 4: Use Cases (Lines 211-272)
+Section 5: Subscription/Top 3 Reasons (Lines 275-334)
+Section 6: FAQ (Lines 337-435)
+Section 7: Combine with Other Apps (Lines 439-562)
+
+FRENCH SCHOOL SYSTEM REFERENCES
+===============================
+- Maternelle: PS (Petite Section, 3-4 ans), MS (Moyenne Section, 4-5 ans), GS (Grande Section, 5-6 ans)
+- Élémentaire: CP (6-7 ans), CE1 (7-8 ans), CE2 (8-9 ans)
+
+PRICING VERIFIED
+================
+- Core Bundle: 144€/an ou 15€/mois ✓
+- 10 applications incluses ✓
+- Licence commerciale incluse ✓

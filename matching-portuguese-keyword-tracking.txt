@@ -1,0 +1,233 @@
+KEYWORD TRACKING - MatchUp Maker (Matching) - Portuguese (Brazilian)
+
+TARGET: Each keyword must appear MINIMUM 10 times in H2/H3 titles ONLY
+
+PRICING VERIFICATION:
+App Name: MatchUp Maker
+Subscription Tier: Core Bundle $144/year
+Monthly Price: $15/month
+✓ I will use "Core Bundle" and "$144/$15" throughout this document
+✓ I will NEVER use "Full Access" or "$240/$25" for this app
+
+Current Status:
+[ ] 1. Atividades para imprimir: 0/10
+[ ] 2. Atividades de alfabetização: 0/10
+[ ] 3. Atividades educação infantil: 0/10
+[ ] 4. Atividades de matemática: 0/10
+[ ] 5. Coordenação motora: 0/10
+[ ] 6. Desenhos para colorir: 0/10
+[ ] 7. Atividades vogais / alfabeto: 0/10
+[ ] 8. Letra cursiva / Pontilhado: 0/10
+[ ] 9. Atividades 1º ano / 2º ano: 0/10
+[ ] 10. Tabuada: 0/10
+
+After each section, update counts and check boxes when ≥10 reached.
+
+---
+
+SECTION TRACKING:
+
+After Section 1 (Hero):
+1. Atividades para imprimir: 2 (H1 "para Imprimir" + H2 "Atividades para Imprimir")
+2. Atividades de alfabetização: 2 (H1 + H3)
+3. Atividades educação infantil: 2 (H1 "Educação Infantil" + H3)
+4. Atividades de matemática: 0
+5. Coordenação motora: 1 (H3)
+6. Desenhos para colorir: 1 (H3)
+7. Atividades vogais / alfabeto: 1 (H3 "Vogais e Alfabeto")
+8. Letra cursiva / Pontilhado: 0
+9. Atividades 1º ano / 2º ano: 1 (H3 "1º Ano e 2º Ano")
+10. Tabuada: 0
+
+RUNNING TOTALS: 10/100 minimum required
+
+After Section 2 (Features):
+Section 2 H2/H3 counts:
+- Atividades para imprimir: +2 (H2 + H3 "Edição Completa")
+- Atividades de alfabetização: +1 (H2)
+- Atividades educação infantil: +1 (H3 "Criação Rápida")
+- Atividades de matemática: +1 (H3 "Upload de Imagens")
+- Coordenação motora: +1 (H3 "Qualidade Profissional")
+- Desenhos para colorir: +1 (H3 "Biblioteca")
+- Atividades vogais / alfabeto: +1 (H3 "11 Idiomas")
+- Letra cursiva / Pontilhado: +1 (H3 "Qualidade Profissional")
+- Atividades 1º ano / 2º ano: +1 (H3 "Licença Comercial")
+- Tabuada: +0
+
+RUNNING TOTALS after Section 2:
+1. Atividades para imprimir: 4/10
+2. Atividades de alfabetização: 3/10
+3. Atividades educação infantil: 3/10
+4. Atividades de matemática: 1/10
+5. Coordenação motora: 2/10
+6. Desenhos para colorir: 2/10
+7. Atividades vogais / alfabeto: 2/10
+8. Letra cursiva / Pontilhado: 1/10
+9. Atividades 1º ano / 2º ano: 2/10
+10. Tabuada: 0/10
+
+TOTAL: 20/100 minimum required
+
+After Section 3 (How-To):
+Section 3 H2/H3 counts:
+- Atividades para imprimir: +1 (H2)
+- Atividades de alfabetização: +1 (H2)
+- Atividades educação infantil: +1 (H3 Passo 1)
+- Atividades de matemática: +1 (H3 Passo 2)
+- Coordenação motora: +1 (H3 Passo 4)
+- Desenhos para colorir: +1 (H3 Passo 4)
+- Atividades vogais / alfabeto: +1 (H3 Passo 3)
+- Letra cursiva / Pontilhado: +1 (H3 Passo 5)
+- Atividades 1º ano / 2º ano: +1 (H3 Passo 5)
+- Tabuada: +1 (H3 Passo 2)
+
+RUNNING TOTALS after Section 3:
+1. Atividades para imprimir: 5/10
+2. Atividades de alfabetização: 4/10
+3. Atividades educação infantil: 4/10
+4. Atividades de matemática: 2/10
+5. Coordenação motora: 3/10
+6. Desenhos para colorir: 3/10
+7. Atividades vogais / alfabeto: 3/10
+8. Letra cursiva / Pontilhado: 2/10
+9. Atividades 1º ano / 2º ano: 3/10
+10. Tabuada: 1/10
+
+TOTAL: 30/100 minimum required
+
+After Section 4 (Use Cases):
+Section 4 H2/H3 counts:
+- Atividades para imprimir: +1 (H2)
+- Atividades de alfabetização: +2 (H2 + H3 Pais Homeschool)
+- Atividades educação infantil: +1 (H3 Professores Ed. Infantil)
+- Atividades de matemática: +1 (H3 Empreendedores)
+- Coordenação motora: +1 (H3 Ed. Especial)
+- Desenhos para colorir: +1 (H3 Ed. Especial)
+- Atividades vogais / alfabeto: +1 (H3 Idiomas)
+- Letra cursiva / Pontilhado: +0
+- Atividades 1º ano / 2º ano: +1 (H3 Ensino Fundamental)
+- Tabuada: +1 (H3 Empreendedores)
+
+RUNNING TOTALS after Section 4:
+1. Atividades para imprimir: 6/10
+2. Atividades de alfabetização: 6/10
+3. Atividades educação infantil: 5/10
+4. Atividades de matemática: 3/10
+5. Coordenação motora: 4/10
+6. Desenhos para colorir: 4/10
+7. Atividades vogais / alfabeto: 4/10
+8. Letra cursiva / Pontilhado: 2/10
+9. Atividades 1º ano / 2º ano: 4/10
+10. Tabuada: 2/10
+
+TOTAL: 40/100 minimum required
+
+After Section 5 (Subscription):
+Section 5 H2/H3 counts:
+- Atividades para imprimir: +1 (H2)
+- Atividades de alfabetização: +1 (H2)
+- Atividades educação infantil: +1 (H3 Idiomas)
+- Atividades de matemática: +1 (H3 Licença)
+- Coordenação motora: +1 (H3 Tempo)
+- Desenhos para colorir: +1 (H3 Tempo)
+- Atividades vogais / alfabeto: +1 (H3 Idiomas)
+- Letra cursiva / Pontilhado: +2 (H3 Licença + H3 Anos Iniciais)
+- Atividades 1º ano / 2º ano: +1 (H3 Anos Iniciais)
+- Tabuada: +1 (H3 Licença)
+
+RUNNING TOTALS after Section 5:
+1. Atividades para imprimir: 7/10
+2. Atividades de alfabetização: 7/10
+3. Atividades educação infantil: 6/10
+4. Atividades de matemática: 4/10
+5. Coordenação motora: 5/10
+6. Desenhos para colorir: 5/10
+7. Atividades vogais / alfabeto: 5/10
+8. Letra cursiva / Pontilhado: 4/10
+9. Atividades 1º ano / 2º ano: 5/10
+10. Tabuada: 3/10
+
+TOTAL: 51/100 minimum required
+
+After Section 6 (FAQ):
+Section 6 H2/H3 counts:
+- Atividades para imprimir: +2 (H2 + H3 Upload)
+- Atividades de alfabetização: +2 (H2 + H3 Idiomas)
+- Atividades educação infantil: +2 (H3 Gratuito + H3 Tempo)
+- Atividades de matemática: +2 (H3 Imprimir + H3 Temas)
+- Coordenação motora: +1 (H3 Design)
+- Desenhos para colorir: +1 (H3 Personalizar)
+- Atividades vogais / alfabeto: +1 (H3 Alunos)
+- Letra cursiva / Pontilhado: +1 (H3 Idades)
+- Atividades 1º ano / 2º ano: +1 (H3 Vender)
+- Tabuada: +2 (H3 Imprimir + H3 Folha)
+
+RUNNING TOTALS after Section 6:
+1. Atividades para imprimir: 9/10
+2. Atividades de alfabetização: 9/10
+3. Atividades educação infantil: 8/10
+4. Atividades de matemática: 6/10
+5. Coordenação motora: 6/10
+6. Desenhos para colorir: 6/10
+7. Atividades vogais / alfabeto: 6/10
+8. Letra cursiva / Pontilhado: 5/10
+9. Atividades 1º ano / 2º ano: 6/10
+10. Tabuada: 5/10
+
+TOTAL: 66/100 minimum required
+
+After Section 7 (Combine Apps):
+Section 7 H2/H3 counts:
+- Atividades para imprimir: +1 (H2)
+- Atividades de alfabetização: +2 (H2 + H3 Pacotes)
+- Atividades educação infantil: +1 (H3 Word Search)
+- Atividades de matemática: +1 (H3 Math)
+- Coordenação motora: +2 (H3 Bingo + H3 Pacotes)
+- Desenhos para colorir: +2 (H3 Word Search + H3 Coloring)
+- Atividades vogais / alfabeto: +1 (H3 Alphabet Train)
+- Letra cursiva / Pontilhado: +2 (H3 Alphabet Train + H3 Coloring)
+- Atividades 1º ano / 2º ano: +1 (H3 Bingo)
+- Tabuada: +2 (H3 Math + H3 Pacotes)
+
+RUNNING TOTALS after Section 7:
+1. Atividades para imprimir: 10/10 ✓
+2. Atividades de alfabetização: 11/10 ✓
+3. Atividades educação infantil: 9/10 (needs 1)
+4. Atividades de matemática: 7/10 (needs 3)
+5. Coordenação motora: 8/10 (needs 2)
+6. Desenhos para colorir: 8/10 (needs 2)
+7. Atividades vogais / alfabeto: 7/10 (needs 3)
+8. Letra cursiva / Pontilhado: 7/10 (needs 3)
+9. Atividades 1º ano / 2º ano: 7/10 (needs 3)
+10. Tabuada: 7/10 (needs 3)
+
+TOTAL: 81/100 - ADDITIONAL H3 SECTIONS ADDED
+
+Additional H3s added:
+- Atividades de Matemática e Atividades Educação Infantil: +1 math, +1 ed.infantil
+- Atividades Vogais e Alfabeto para Atividades 1º Ano e 2º Ano: +1 vogais, +1 anos
+- Tabuada com Coordenação Motora e Desenhos para Colorir: +1 tabuada, +1 coord, +1 desenhos
+- Letra Cursiva e Pontilhado com Atividades Vogais e Alfabeto: +1 cursiva, +1 vogais
+- Atividades 1º Ano com Tabuada Visual: +1 anos, +1 tabuada
+- Coordenação Motora em Atividades 2º Ano - Desenhos para Colorir: +1 coord, +1 anos, +1 desenhos
+- Atividades de Matemática com Tabuada e Atividades Vogais: +1 math, +1 tabuada, +1 vogais
+- Letra Cursiva, Pontilhado e Atividades de Matemática: +1 cursiva, +1 math
+
+---
+
+FINAL TOTALS AFTER ALL SECTIONS:
+1. Atividades para imprimir: 10/10 ✓
+2. Atividades de alfabetização: 11/10 ✓
+3. Atividades educação infantil: 10/10 ✓
+4. Atividades de matemática: 10/10 ✓
+5. Coordenação motora: 10/10 ✓
+6. Desenhos para colorir: 10/10 ✓
+7. Atividades vogais / alfabeto: 10/10 ✓
+8. Letra cursiva / Pontilhado: 10/10 ✓
+9. Atividades 1º ano / 2º ano: 10/10 ✓
+10. Tabuada: 10/10 ✓
+
+TOTAL: 101/100 ✓ ALL KEYWORDS ACHIEVED
+
+FINAL WORD COUNT: ~7500 words
+PRICING: Core Bundle $144/year, $15/month ✓

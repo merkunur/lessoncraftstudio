@@ -1,0 +1,206 @@
+KEYWORD TRACKING - Picture Sort - Portuguese (Brazilian)
+
+TARGET: Each keyword must appear MINIMUM 10 times in H2/H3 titles ONLY
+
+Current Status:
+[ ] 1. Atividades para imprimir: 0/10
+[ ] 2. Atividades de alfabetização: 0/10
+[ ] 3. Atividades educação infantil: 0/10
+[ ] 4. Atividades de matemática: 0/10
+[ ] 5. Coordenação motora: 0/10
+[ ] 6. Desenhos para colorir: 0/10
+[ ] 7. Atividades vogais / alfabeto: 0/10
+[ ] 8. Letra cursiva / Pontilhado: 0/10
+[ ] 9. Atividades 1º ano / 2º ano: 0/10
+[ ] 10. Tabuada: 0/10
+
+After each section, update counts and check boxes when ≥10 reached.
+
+---
+
+SECTION 1 COUNTS:
+1. Atividades para imprimir: 3 (lines 7, 11, 23)
+2. Atividades de alfabetização: 1 (line 19)
+3. Atividades educação infantil: 2 (lines 7, 15)
+4. Atividades de matemática: 1 (line 27)
+5. Coordenação motora: 3 (lines 11, 23, 35)
+6. Desenhos para colorir: 1 (line 19)
+7. Atividades vogais / alfabeto: 1 (line 31)
+8. Letra cursiva / Pontilhado: 1 (line 35)
+9. Atividades 1º ano / 2º ano: 1 (line 15)
+10. Tabuada: 0
+
+RUNNING TOTALS AFTER SECTION 1:
+[ ] 1. Atividades para imprimir: 3/10
+[ ] 2. Atividades de alfabetização: 1/10
+[ ] 3. Atividades educação infantil: 2/10
+[ ] 4. Atividades de matemática: 1/10
+[ ] 5. Coordenação motora: 3/10
+[ ] 6. Desenhos para colorir: 1/10
+[ ] 7. Atividades vogais / alfabeto: 1/10
+[ ] 8. Letra cursiva / Pontilhado: 1/10
+[ ] 9. Atividades 1º ano / 2º ano: 1/10
+[ ] 10. Tabuada: 0/10
+
+---
+
+SECTION 2 COUNTS:
+1. Atividades para imprimir: 5 (lines 41, 45, 57, 69, 81)
+2. Atividades de alfabetização: 2 (lines 51, 63)
+3. Atividades educação infantil: 3 (lines 41, 45, 75)
+4. Atividades de matemática: 2 (lines 69, 87)
+5. Coordenação motora: 2 (lines 51, 87)
+6. Desenhos para colorir: 2 (lines 57, 75)
+7. Atividades vogais / alfabeto: 1 (line 63)
+8. Letra cursiva / Pontilhado: 1 (line 81)
+9. Atividades 1º ano / 2º ano: 1 (line 93)
+10. Tabuada: 2 (lines 87, 93)
+
+RUNNING TOTALS AFTER SECTION 2:
+[ ] 1. Atividades para imprimir: 8/10
+[ ] 2. Atividades de alfabetização: 3/10
+[ ] 3. Atividades educação infantil: 5/10
+[ ] 4. Atividades de matemática: 3/10
+[ ] 5. Coordenação motora: 5/10
+[ ] 6. Desenhos para colorir: 3/10
+[ ] 7. Atividades vogais / alfabeto: 2/10
+[ ] 8. Letra cursiva / Pontilhado: 2/10
+[ ] 9. Atividades 1º ano / 2º ano: 2/10
+[ ] 10. Tabuada: 2/10
+
+---
+
+SECTION 3 COUNTS:
+1. Atividades para imprimir: 3 (lines 101, 113, 139)
+2. Atividades de alfabetização: 2 (lines 105, 147)
+3. Atividades educação infantil: 1 (line 101)
+4. Atividades de matemática: 2 (lines 129, 153)
+5. Coordenação motora: 1 (line 121)
+6. Desenhos para colorir: 1 (line 121)
+7. Atividades vogais / alfabeto: 2 (lines 105, 147)
+8. Letra cursiva / Pontilhado: 1 (line 139)
+9. Atividades 1º ano / 2º ano: 1 (line 113)
+10. Tabuada: 2 (lines 129, 153)
+
+RUNNING TOTALS AFTER SECTION 3:
+[✓] 1. Atividades para imprimir: 11/10 ✓ COMPLETE
+[ ] 2. Atividades de alfabetização: 5/10
+[ ] 3. Atividades educação infantil: 6/10
+[ ] 4. Atividades de matemática: 5/10
+[ ] 5. Coordenação motora: 6/10
+[ ] 6. Desenhos para colorir: 4/10
+[ ] 7. Atividades vogais / alfabeto: 4/10
+[ ] 8. Letra cursiva / Pontilhado: 3/10
+[ ] 9. Atividades 1º ano / 2º ano: 3/10
+[ ] 10. Tabuada: 4/10
+
+---
+
+SECTION 4 COUNTS:
+1. Atividades para imprimir: 4 (lines 161, 181, 197, 205)
+2. Atividades de alfabetização: 1 (line 189)
+3. Atividades educação infantil: 1 (line 161)
+4. Atividades de matemática: 2 (lines 173, 205)
+5. Coordenação motora: 2 (lines 165, 197)
+6. Desenhos para colorir: 1 (line 181)
+7. Atividades vogais / alfabeto: 2 (lines 165, 189)
+8. Letra cursiva / Pontilhado: 1 (line 181)
+9. Atividades 1º ano / 2º ano: 1 (line 173)
+10. Tabuada: 2 (lines 173, 205)
+
+RUNNING TOTALS AFTER SECTION 4:
+[✓] 1. Atividades para imprimir: 15/10 ✓ COMPLETE
+[ ] 2. Atividades de alfabetização: 6/10
+[ ] 3. Atividades educação infantil: 7/10
+[ ] 4. Atividades de matemática: 7/10
+[ ] 5. Coordenação motora: 8/10
+[ ] 6. Desenhos para colorir: 5/10
+[ ] 7. Atividades vogais / alfabeto: 6/10
+[ ] 8. Letra cursiva / Pontilhado: 4/10
+[ ] 9. Atividades 1º ano / 2º ano: 4/10
+[ ] 10. Tabuada: 6/10
+
+---
+
+SECTION 5 COUNTS:
+1. Atividades para imprimir: 1 (line 215)
+2. Atividades de alfabetização: 2 (lines 219, 249)
+3. Atividades educação infantil: 1 (line 215)
+4. Atividades de matemática: 1 (line 239)
+5. Coordenação motora: 2 (lines 239, 255)
+6. Desenhos para colorir: 2 (lines 215, 229)
+7. Atividades vogais / alfabeto: 2 (lines 219, 249)
+8. Letra cursiva / Pontilhado: 2 (lines 239, 255)
+9. Atividades 1º ano / 2º ano: 1 (line 229)
+10. Tabuada: 1 (line 229)
+
+RUNNING TOTALS AFTER SECTION 5:
+[✓] 1. Atividades para imprimir: 16/10 ✓ COMPLETE
+[ ] 2. Atividades de alfabetização: 8/10
+[ ] 3. Atividades educação infantil: 8/10
+[ ] 4. Atividades de matemática: 8/10
+[✓] 5. Coordenação motora: 10/10 ✓ COMPLETE
+[ ] 6. Desenhos para colorir: 7/10
+[ ] 7. Atividades vogais / alfabeto: 8/10
+[ ] 8. Letra cursiva / Pontilhado: 6/10
+[ ] 9. Atividades 1º ano / 2º ano: 5/10
+[ ] 10. Tabuada: 7/10
+
+---
+
+SECTION 6 COUNTS:
+1. Atividades para imprimir: 4 (lines 265, 269, 287, 335)
+2. Atividades de alfabetização: 2 (lines 275, 293)
+3. Atividades educação infantil: 2 (lines 281, 317)
+4. Atividades de matemática: 1 (line 305)
+5. Coordenação motora: 1 (line 317)
+6. Desenhos para colorir: 3 (lines 265, 299, 335)
+7. Atividades vogais / alfabeto: 2 (lines 275, 323)
+8. Letra cursiva / Pontilhado: 2 (lines 311, 329)
+9. Atividades 1º ano / 2º ano: 4 (lines 265, 269, 287, 299)
+10. Tabuada: 3 (lines 293, 305, 323)
+
+RUNNING TOTALS AFTER SECTION 6:
+[✓] 1. Atividades para imprimir: 20/10 ✓ COMPLETE
+[✓] 2. Atividades de alfabetização: 10/10 ✓ COMPLETE
+[✓] 3. Atividades educação infantil: 10/10 ✓ COMPLETE
+[ ] 4. Atividades de matemática: 9/10
+[✓] 5. Coordenação motora: 11/10 ✓ COMPLETE
+[✓] 6. Desenhos para colorir: 10/10 ✓ COMPLETE
+[✓] 7. Atividades vogais / alfabeto: 10/10 ✓ COMPLETE
+[ ] 8. Letra cursiva / Pontilhado: 8/10
+[ ] 9. Atividades 1º ano / 2º ano: 9/10
+[✓] 10. Tabuada: 10/10 ✓ COMPLETE
+
+---
+
+SECTION 7 COUNTS:
+1. Atividades para imprimir: 3 (lines 343, 379, 397)
+2. Atividades de alfabetização: 1 (line 355)
+3. Atividades educação infantil: 1 (line 371)
+4. Atividades de matemática: 2 (lines 343, 347)
+5. Coordenação motora: 2 (lines 355, 387)
+6. Desenhos para colorir: 1 (line 371)
+7. Atividades vogais / alfabeto: 1 (line 355)
+8. Letra cursiva / Pontilhado: 3 (lines 343, 363, 387)
+9. Atividades 1º ano / 2º ano: 2 (lines 363, 379)
+10. Tabuada: 2 (lines 347, 379)
+
+---
+
+✅✅✅ FINAL TOTALS - ALL KEYWORDS COMPLETE ✅✅✅
+
+[✓] 1. Atividades para imprimir: 23/10 ✓ COMPLETE
+[✓] 2. Atividades de alfabetização: 11/10 ✓ COMPLETE
+[✓] 3. Atividades educação infantil: 11/10 ✓ COMPLETE
+[✓] 4. Atividades de matemática: 11/10 ✓ COMPLETE
+[✓] 5. Coordenação motora: 13/10 ✓ COMPLETE
+[✓] 6. Desenhos para colorir: 11/10 ✓ COMPLETE
+[✓] 7. Atividades vogais / alfabeto: 11/10 ✓ COMPLETE
+[✓] 8. Letra cursiva / Pontilhado: 11/10 ✓ COMPLETE
+[✓] 9. Atividades 1º ano / 2º ano: 11/10 ✓ COMPLETE
+[✓] 10. Tabuada: 12/10 ✓ COMPLETE
+
+TOTAL H2/H3 TITLES: 60
+ALL 10 KEYWORDS ACHIEVED MINIMUM 10 OCCURRENCES IN H2/H3 TITLES
+PAGE COMPLETE AND SEO-OPTIMIZED

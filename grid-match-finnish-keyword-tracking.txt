@@ -1,0 +1,44 @@
+KEYWORD TRACKING - Grid Match - Finnish
+
+TARGET: Each keyword must appear MINIMUM 10 times in H2/H3 titles ONLY
+
+Current Status:
+[ ] 1. Tulostettavat tehtävät lapsille ilmainen: 6/10
+[ ] 2. Värityskuvia lapsille tulostettava: 5/10
+[ ] 3. Kirjaimet harjoittelu esikoulu: 5/10
+[ ] 4. Matematiikka tehtävät alakoulu: 4/10
+[ ] 5. Kertotaulut tulostettava: 4/10
+[ ] 6. Yhteenlasku ja vähennyslasku tehtävät: 4/10
+[ ] 7. Hienomotoriikka harjoitukset: 3/10
+[ ] 8. Pisteestä pisteeseen tehtävät: 3/10
+[ ] 9. Esiopetus materiaali ilmainen: 2/10
+[ ] 10. Lukemaan oppiminen tehtävät: 4/10
+
+After Section 1 (Hero + Features):
+- Added: #1(1), #2(1), #3(1), #4(1), #7(1), #9(1), #10(1)
+- Still need: #5, #6, #8 to appear at least once
+- All keywords need 9 more occurrences minimum
+
+After Section 3 (How-To):
+- Added: #1(1), #2(1), #5(1), #7(1), #9(1), #10(1)
+- Keywords #5 introduced for first time
+- Still need: #6, #8 to appear at least once
+- All keywords need 8+ more occurrences minimum
+
+After Section 4 (Use Cases):
+- Added: #1(1), #2(1), #3(1), #4(1), #6(1), #7(1), #8(1), #10(1)
+- Keywords #6 and #8 introduced for first time - ALL 10 KEYWORDS NOW USED!
+- All keywords need 7-9 more occurrences to reach minimum 10
+
+After Section 5 (Subscription Reasons):
+- Added: #3(1), #5(1), #6(1), #8(1)
+- All keywords need 7-8 more occurrences to reach minimum 10
+- Sections 6-7 need to heavily use all keywords to reach target
+
+After Section 6 (FAQ):
+- Added: #1(3), #2(2), #3(2), #4(2), #5(2), #6(2), #8(1), #10(1)
+- #9 had 0 added (used wrong form "ilmaiseksi" instead of "ilmainen")
+- #7 had 0 added (forgot to include in H3 titles)
+- Section 7 MUST add: #1(4), #2(5), #3(5), #4(6), #5(6), #6(6), #7(7), #8(7), #9(8), #10(6) to reach 10
+
+After each section, update counts and check boxes when ≥10 reached.

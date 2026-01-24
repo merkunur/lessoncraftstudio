@@ -1,0 +1,236 @@
+KEYWORD TRACKING - Treasure Hunt App - Dutch
+
+TARGET: Each keyword must appear MINIMUM 10 times in H2/H3 titles ONLY
+
+Current Status:
+[✅] 1. Werkbladen groep 3: 10/10 COMPLETE
+[✅] 2. Werkbladen kleuters / Groep 1 2: 10/10 COMPLETE
+[✅] 3. Rekenen werkbladen: 10/10 COMPLETE
+[✅] 4. Kleurplaten: 10/10 COMPLETE
+[✅] 5. Letters leren / Schrijven oefenen: 11/10 COMPLETE (EXCEEDED)
+[✅] 6. Oefenbladen gratis: 10/10 COMPLETE
+[✅] 7. Tafels oefenen: 11/10 COMPLETE (EXCEEDED)
+[✅] 8. Veilig leren lezen: 10/10 COMPLETE
+[✅] 9. Fijne motoriek: 10/10 COMPLETE
+[✅] 10. Sommen tot 20: 10/10 COMPLETE
+
+After each section, update counts and check boxes when ≥10 reached.
+
+---
+
+SECTION 1 (Hero) - H2/H3 Keyword Counts:
+Section 1 contains only H1 title and intro paragraphs - NO H2/H3 titles
+Keywords will accumulate starting from Section 2
+
+Running totals after Section 1:
+1. Werkbladen groep 3: 0 (H1 title only)
+2. Werkbladen kleuters: 0 (H1 title only)
+3. Rekenen werkbladen: 0 (H1 title only)
+4. Kleurplaten: 0
+5. Letters leren / Schrijven oefenen: 0
+6. Oefenbladen gratis: 0 (H1 title only)
+7. Tafels oefenen: 0
+8. Veilig leren lezen: 0
+9. Fijne motoriek: 0 (H1 title only)
+10. Sommen tot 20: 0
+
+SECTION 2 (Features) - H2/H3 Keyword Counts:
+H2: "Schattenjacht Functies - Werkbladen Groep 3 en Oefenbladen Gratis voor Alle Niveaus"
+H3: "Werkbladen Kleuters Maken in 3 Klikken - Fijne Motoriek en Ruimtelijk Inzicht Oefenen"
+H3: "Volledig Bewerkbaar Canvas voor Rekenen Werkbladen en Kleurplaten Combinaties"
+H3: "Eigen Afbeeldingen Uploaden voor Schrijven Oefenen en Letters Leren Thema's"
+H3: "Nederlands en 10 Andere Talen - Veilig Leren Lezen Ondersteuning in Meerdere Talen"
+H3: "Commerciële Licentie voor Tafels Oefenen Werkbladen en Kleurplaten Verkopen"
+H3: "Meer dan 3000 Afbeeldingen - Van Sommen tot 20 Thema's tot Complete Lespakketten"
+H3: "Professionele 300 DPI Kwaliteit voor Oefenbladen Gratis Printen en Verkopen"
+
+Section 2 keyword counts:
+1. Werkbladen groep 3: 1
+2. Werkbladen kleuters: 1
+3. Rekenen werkbladen: 1
+4. Kleurplaten: 2
+5. Letters leren: 1, Schrijven oefenen: 1 (total: 2)
+6. Oefenbladen gratis: 2
+7. Tafels oefenen: 1
+8. Veilig leren lezen: 1
+9. Fijne motoriek: 1
+10. Sommen tot 20: 1
+
+Running totals after Section 2:
+1. Werkbladen groep 3: 1/10 (9 more needed)
+2. Werkbladen kleuters: 1/10 (9 more needed)
+3. Rekenen werkbladen: 1/10 (9 more needed)
+4. Kleurplaten: 2/10 (8 more needed)
+5. Letters leren / Schrijven oefenen: 2/10 (8 more needed)
+6. Oefenbladen gratis: 2/10 (8 more needed)
+7. Tafels oefenen: 1/10 (9 more needed)
+8. Veilig leren lezen: 1/10 (9 more needed)
+9. Fijne motoriek: 1/10 (9 more needed)
+10. Sommen tot 20: 1/10 (9 more needed)
+
+SECTION 3 (How-To) - H2/H3 Keyword Counts:
+H2: "Hoe Maak Je Schattenjacht Werkbladen - Werkbladen Groep 3 en Kleuters in 5 Eenvoudige Stappen"
+H3: "Stap 1: Kies Je Thema voor Rekenen Werkbladen en Veilig Leren Lezen Combinaties"
+H3: "Stap 2: Pas Instellingen Aan voor Fijne Motoriek Oefeningen en Kleurplaten Elementen"
+H3: "Stap 3: Genereer Je Puzzel met Schrijven Oefenen en Sommen tot 20 Integratie"
+H3: "Stap 4: Bewerk op Canvas - Oefenbladen Gratis Personaliseren met Tafels Oefenen Elementen"
+H3: "Stap 5: Download en Print - Werkbladen Kleuters en Groep 3 als Professionele Oefenbladen Gratis"
+
+Section 3 keyword counts:
+1. Werkbladen groep 3: 2 (H2, Stap 5)
+2. Werkbladen kleuters: 2 (H2, Stap 5)
+3. Rekenen werkbladen: 1 (Stap 1)
+4. Kleurplaten: 1 (Stap 2)
+5. Schrijven oefenen: 1 (Stap 3)
+6. Oefenbladen gratis: 2 (Stap 4, Stap 5)
+7. Tafels oefenen: 1 (Stap 4)
+8. Veilig leren lezen: 1 (Stap 1)
+9. Fijne motoriek: 1 (Stap 2)
+10. Sommen tot 20: 1 (Stap 3)
+
+Running totals after Section 3:
+1. Werkbladen groep 3: 3/10 (7 more needed)
+2. Werkbladen kleuters: 3/10 (7 more needed)
+3. Rekenen werkbladen: 2/10 (8 more needed)
+4. Kleurplaten: 3/10 (7 more needed)
+5. Letters leren / Schrijven oefenen: 3/10 (7 more needed)
+6. Oefenbladen gratis: 4/10 (6 more needed) ⭐
+7. Tafels oefenen: 2/10 (8 more needed)
+8. Veilig leren lezen: 2/10 (8 more needed)
+9. Fijne motoriek: 2/10 (8 more needed)
+10. Sommen tot 20: 2/10 (8 more needed)
+
+SECTION 4 (Use Cases) - H2/H3 Keyword Counts:
+H2: "Perfect voor Leerkrachten en Ouders - Werkbladen Kleuters tot Groep 5 voor Iedereen"
+H3: "Leerkrachten Groep 1 2 - Werkbladen Kleuters met Fijne Motoriek en Ruimtelijk Inzicht"
+H3: "Leerkrachten Groep 3 - Veilig Leren Lezen en Rekenen Werkbladen Combinaties"
+H3: "Leerkrachten Groep 4 en 5 - Tafels Oefenen en Sommen tot 20 met Richtingspuzzels"
+H3: "Ouders met Thuisonderwijs - Oefenbladen Gratis voor Alle Vakken Combineren"
+H3: "Remedial Teachers - Veilig Leren Lezen Extra Ondersteuning met Kleurplaten"
+H3: "Onderwijsondernemers - Rekenen Werkbladen en Tafels Oefenen Bundels Verkopen"
+
+Section 4 keyword counts:
+1. Werkbladen groep 3: 0
+2. Werkbladen kleuters: 2 (H2, H3-1)
+3. Rekenen werkbladen: 2 (H3-3, H3-6)
+4. Kleurplaten: 1 (H3-5)
+5. Letters leren / Schrijven oefenen: 0
+6. Oefenbladen gratis: 1 (H3-4)
+7. Tafels oefenen: 2 (H3-3, H3-6)
+8. Veilig leren lezen: 2 (H3-2, H3-5)
+9. Fijne motoriek: 1 (H3-1)
+10. Sommen tot 20: 1 (H3-3)
+
+Running totals after Section 4:
+1. Werkbladen groep 3: 3/10 (7 more needed)
+2. Werkbladen kleuters: 5/10 (5 more needed) ⭐
+3. Rekenen werkbladen: 4/10 (6 more needed)
+4. Kleurplaten: 4/10 (6 more needed)
+5. Letters leren / Schrijven oefenen: 3/10 (7 more needed)
+6. Oefenbladen gratis: 5/10 (5 more needed) ⭐
+7. Tafels oefenen: 4/10 (6 more needed)
+8. Veilig leren lezen: 4/10 (6 more needed)
+9. Fijne motoriek: 3/10 (7 more needed)
+10. Sommen tot 20: 3/10 (7 more needed)
+
+SECTION 5 (Subscription) - H2/H3 Keyword Counts:
+H2: "Drie Redenen om te Abonneren - Werkbladen Groep 3 en Letters Leren met Full Access Voordelen"
+H3: "Meertalig Onderwijs - Veilig Leren Lezen en Letters Leren in 11 Talen met Fijne Motoriek Oefeningen"
+H3: "Commerciële Licentie - Kleurplaten en Rekenen Werkbladen Verkopen voor Extra Inkomen"
+H3: "Tijdsbesparing - Sommen tot 20 en Tafels Oefenen Werkbladen in Minuten Maken"
+
+Section 5 keyword counts:
+1. Werkbladen groep 3: 1 (H2)
+2. Werkbladen kleuters: 0
+3. Rekenen werkbladen: 1 (H3-2)
+4. Kleurplaten: 1 (H3-2)
+5. Letters leren: 2 (H2, H3-1), Schrijven oefenen: 0 (total: 2)
+6. Oefenbladen gratis: 0
+7. Tafels oefenen: 1 (H3-3)
+8. Veilig leren lezen: 1 (H3-1)
+9. Fijne motoriek: 1 (H3-1)
+10. Sommen tot 20: 1 (H3-3)
+
+Running totals after Section 5:
+1. Werkbladen groep 3: 4/10 (6 more needed)
+2. Werkbladen kleuters: 5/10 (5 more needed) ⭐ HALFWAY
+3. Rekenen werkbladen: 5/10 (5 more needed) ⭐ HALFWAY
+4. Kleurplaten: 5/10 (5 more needed) ⭐ HALFWAY
+5. Letters leren / Schrijven oefenen: 5/10 (5 more needed) ⭐ HALFWAY
+6. Oefenbladen gratis: 5/10 (5 more needed) ⭐ HALFWAY
+7. Tafels oefenen: 5/10 (5 more needed) ⭐ HALFWAY
+8. Veilig leren lezen: 5/10 (5 more needed) ⭐ HALFWAY
+9. Fijne motoriek: 4/10 (6 more needed)
+10. Sommen tot 20: 4/10 (6 more needed)
+
+SECTION 6 (FAQ) - H2/H3 Keyword Counts:
+H2: "Veelgestelde Vragen over Schattenjacht Werkbladen - Oefenbladen Gratis en Rekenen Werkbladen Antwoorden"
+H3-1: "Zijn Schattenjacht Werkbladen Groep 3 Echt Gratis of Zit er een Watermerk op Oefenbladen Gratis?"
+H3-2: "Werken Schattenjachten voor Fijne Motoriek Ontwikkeling bij Werkbladen Kleuters?"
+H3-3: "Kan Ik Schattenjachten Combineren met Veilig Leren Lezen Woordenschat en Letters Leren?"
+H3-4: "Hoe Integreer Ik Sommen tot 20 en Rekenen Werkbladen in Schattenjachten?"
+H3-5: "Zijn Schattenjachten Geschikt voor Tafels Oefenen en Schrijven Oefenen Combinaties?"
+H3-6: "Kan Ik Schattenjachten met Kleurplaten Elementen Maken voor Langere Activiteiten?"
+H3-7: "Hoeveel Kost Full Access voor Alle Generators Inclusief Oefenbladen Gratis Downloads?"
+H3-8: "Ondersteunt de Generator Meertalig Onderwijs voor Werkbladen Kleuters in Verschillende Talen?"
+H3-9: "Werken Schattenjachten op Tablets voor Digitale Rekenen Werkbladen en Oefenbladen Gratis?"
+H3-10: "Hoe Lang Duurt Het om Werkbladen Groep 3 met Schattenjachten en Fijne Motoriek Oefeningen te Maken?"
+
+Section 6 keyword counts:
+1. Werkbladen groep 3: 2 (H3-1, H3-10)
+2. Werkbladen kleuters: 2 (H3-2, H3-8)
+3. Rekenen werkbladen: 3 (H2, H3-4, H3-9)
+4. Kleurplaten: 1 (H3-6)
+5. Letters leren: 1 (H3-3), Schrijven oefenen: 1 (H3-5) = 2
+6. Oefenbladen gratis: 4 (H2, H3-1, H3-7, H3-9)
+7. Tafels oefenen: 1 (H3-5)
+8. Veilig leren lezen: 1 (H3-3)
+9. Fijne motoriek: 2 (H3-2, H3-10)
+10. Sommen tot 20: 1 (H3-4)
+
+Running totals after Section 6:
+1. Werkbladen groep 3: 6/10 (4 more needed)
+2. Werkbladen kleuters: 7/10 (3 more needed)
+3. Rekenen werkbladen: 8/10 (2 more needed) ⭐⭐
+4. Kleurplaten: 6/10 (4 more needed)
+5. Letters leren / Schrijven oefenen: 7/10 (3 more needed)
+6. Oefenbladen gratis: 9/10 (1 more needed) ⭐⭐⭐
+7. Tafels oefenen: 6/10 (4 more needed)
+8. Veilig leren lezen: 6/10 (4 more needed)
+9. Fijne motoriek: 6/10 (4 more needed)
+10. Sommen tot 20: 5/10 (5 more needed)
+
+SECTION 7 (Combine Apps) - H2/H3 Keyword Counts:
+H2: "Combineer Schattenjachten met Andere Werkbladen - Werkbladen Groep 3, Rekenen Werkbladen, Kleurplaten en Oefenbladen Gratis"
+H3-1: "Sommen tot 20 en Veilig Leren Lezen - Tafels Oefenen en Fijne Motoriek voor Werkbladen Kleuters"
+H3-2: "Veilig Leren Lezen met Tafels Oefenen en Schrijven Oefenen - Sommen tot 20 en Werkbladen Kleuters"
+H3-3: "Werkbladen Groep 3 Ondersteuning - Veilig Leren Lezen, Kleurplaten, Letters Leren en Tafels Oefenen"
+H3-4: "Veilig Leren Lezen en Fijne Motoriek - Rekenen Werkbladen, Werkbladen Groep 3, Kleurplaten en Sommen tot 20"
+H3-5: "Werkbladen Kleuters Differentiatie - Sommen tot 20, Tafels Oefenen, Letters Leren en Fijne Motoriek"
+H3-6: "Complete Sommen tot 20 Lespakketten - Werkbladen Groep 3, Kleurplaten, Tafels Oefenen, Fijne Motoriek en Schrijven Oefenen"
+
+Section 7 keyword counts:
+1. Werkbladen groep 3: 4 (H2, H3-3, H3-4, H3-6)
+2. Werkbladen kleuters: 3 (H3-1, H3-2, H3-5)
+3. Rekenen werkbladen: 2 (H2, H3-4)
+4. Kleurplaten: 4 (H2, H3-3, H3-4, H3-6)
+5. Letters leren: 2 (H3-3, H3-5), Schrijven oefenen: 2 (H3-2, H3-6) = 4 total
+6. Oefenbladen gratis: 1 (H2)
+7. Tafels oefenen: 5 (H3-1, H3-2, H3-3, H3-5, H3-6)
+8. Veilig leren lezen: 4 (H3-1, H3-2, H3-3, H3-4)
+9. Fijne motoriek: 4 (H3-1, H3-4, H3-5, H3-6)
+10. Sommen tot 20: 5 (H3-1, H3-2, H3-4, H3-5, H3-6)
+
+FINAL TOTALS AFTER ALL 7 SECTIONS:
+1. Werkbladen groep 3: 6 + 4 = 10/10 ✅ GOAL REACHED!
+2. Werkbladen kleuters: 7 + 3 = 10/10 ✅ GOAL REACHED!
+3. Rekenen werkbladen: 8 + 2 = 10/10 ✅ GOAL REACHED!
+4. Kleurplaten: 6 + 4 = 10/10 ✅ GOAL REACHED!
+5. Letters leren / Schrijven oefenen: 7 + 4 = 11/10 ✅ GOAL EXCEEDED!
+6. Oefenbladen gratis: 9 + 1 = 10/10 ✅ GOAL REACHED!
+7. Tafels oefenen: 6 + 5 = 11/10 ✅ GOAL EXCEEDED!
+8. Veilig leren lezen: 6 + 4 = 10/10 ✅ GOAL REACHED!
+9. Fijne motoriek: 6 + 4 = 10/10 ✅ GOAL REACHED!
+10. Sommen tot 20: 5 + 5 = 10/10 ✅ GOAL REACHED!
+
+🎉🎉🎉 ALL 10 KEYWORDS REACHED MINIMUM 10 OCCURRENCES IN H2/H3 TITLES! 🎉🎉🎉

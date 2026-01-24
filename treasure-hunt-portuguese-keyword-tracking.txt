@@ -1,0 +1,122 @@
+KEYWORD TRACKING - Treasure Hunt / Caça ao Tesouro - Portuguese (Brazilian)
+
+TARGET: Each keyword must appear MINIMUM 10 times in H2/H3 titles ONLY
+
+FINAL STATUS (After Section 8 Complete):
+[X] 1. Atividades para imprimir: 12/10 ✓ DONE
+[X] 2. Atividades de alfabetização: 10/10 ✓ DONE
+[X] 3. Atividades educação infantil: 10/10 ✓ DONE
+[X] 4. Atividades de matemática: 10/10 ✓ DONE
+[X] 5. Coordenação motora: 10/10 ✓ DONE
+[X] 6. Desenhos para colorir: 10/10 ✓ DONE
+[X] 7. Atividades vogais / alfabeto: 11/10 ✓ DONE
+[X] 8. Letra cursiva / Pontilhado: 10/10 ✓ DONE
+[X] 9. Atividades 1º ano / 2º ano: 10/10 ✓ DONE
+[X] 10. Tabuada: 10/10 ✓ DONE
+
+ALL 10 KEYWORDS COMPLETE! ✓✓✓
+
+After each section, update counts and check boxes when ≥10 reached.
+
+---
+SECTION UPDATES:
+
+After Section 1 (Hero) - H1 only, no H2/H3 titles yet:
+[ ] 1. Atividades para imprimir: 0/10
+[ ] 2. Atividades de alfabetização: 0/10
+[ ] 3. Atividades educação infantil: 0/10
+[ ] 4. Atividades de matemática: 0/10
+[ ] 5. Coordenação motora: 0/10
+[ ] 6. Desenhos para colorir: 0/10
+[ ] 7. Atividades vogais / alfabeto: 0/10
+[ ] 8. Letra cursiva / Pontilhado: 0/10
+[ ] 9. Atividades 1º ano / 2º ano: 0/10
+[ ] 10. Tabuada: 0/10
+
+Note: Section 1 is Hero with H1 only. H2/H3 keywords start in Section 2.
+
+After Section 2 (Features) - 1 H2 + 10 H3 titles:
+[ ] 1. Atividades para imprimir: 4/10 (+4)
+[ ] 2. Atividades de alfabetização: 2/10 (+2)
+[ ] 3. Atividades educação infantil: 2/10 (+2)
+[ ] 4. Atividades de matemática: 1/10 (+1)
+[ ] 5. Coordenação motora: 1/10 (+1)
+[ ] 6. Desenhos para colorir: 1/10 (+1)
+[ ] 7. Atividades vogais / alfabeto: 0/10 (+0)
+[ ] 8. Letra cursiva / Pontilhado: 0/10 (+0)
+[ ] 9. Atividades 1º ano / 2º ano: 1/10 (+1)
+[ ] 10. Tabuada: 0/10 (+0)
+
+Running total after Section 2: 12 keyword appearances in H2/H3 titles
+
+After Section 3 (How-To) - 1 H2 + 6 H3 titles:
+[ ] 1. Atividades para imprimir: 6/10 (+2)
+[ ] 2. Atividades de alfabetização: 3/10 (+1)
+[ ] 3. Atividades educação infantil: 3/10 (+1)
+[ ] 4. Atividades de matemática: 1/10 (+0)
+[ ] 5. Coordenação motora: 2/10 (+1)
+[ ] 6. Desenhos para colorir: 2/10 (+1)
+[ ] 7. Atividades vogais / alfabeto: 1/10 (+1)
+[ ] 8. Letra cursiva / Pontilhado: 0/10 (+0)
+[ ] 9. Atividades 1º ano / 2º ano: 2/10 (+1)
+[ ] 10. Tabuada: 0/10 (+0)
+
+Running total after Section 3: 20 keyword appearances in H2/H3 titles
+
+After Section 4 (Use Cases) - 1 H2 + 7 H3 titles:
+[ ] 1. Atividades para imprimir: 8/10 (+2)
+[ ] 2. Atividades de alfabetização: 5/10 (+2)
+[ ] 3. Atividades educação infantil: 4/10 (+1)
+[ ] 4. Atividades de matemática: 2/10 (+1)
+[ ] 5. Coordenação motora: 4/10 (+2)
+[ ] 6. Desenhos para colorir: 3/10 (+1)
+[ ] 7. Atividades vogais / alfabeto: 2/10 (+1)
+[ ] 8. Letra cursiva / Pontilhado: 1/10 (+1)
+[ ] 9. Atividades 1º ano / 2º ano: 3/10 (+1)
+[ ] 10. Tabuada: 1/10 (+1)
+
+Running total after Section 4: 33 keyword appearances in H2/H3 titles
+
+After Section 5 (Benefits) - 1 H2 + 6 H3 titles:
+[ ] 1. Atividades para imprimir: 8/10 (+0)
+[ ] 2. Atividades de alfabetização: 7/10 (+2)
+[ ] 3. Atividades educação infantil: 4/10 (+0)
+[ ] 4. Atividades de matemática: 4/10 (+2)
+[ ] 5. Coordenação motora: 5/10 (+1)
+[ ] 6. Desenhos para colorir: 4/10 (+1)
+[ ] 7. Atividades vogais / alfabeto: 3/10 (+1)
+[ ] 8. Letra cursiva / Pontilhado: 2/10 (+1)
+[ ] 9. Atividades 1º ano / 2º ano: 4/10 (+1)
+[ ] 10. Tabuada: 2/10 (+1)
+
+Running total after Section 5: 43 keyword appearances in H2/H3 titles
+
+After Section 6 (Pricing CTA) - 1 H2 + 4 H3 titles:
+[ ] 1. Atividades para imprimir: 9/10 (+1)
+[ ] 2. Atividades de alfabetização: 8/10 (+1)
+[ ] 3. Atividades educação infantil: 5/10 (+1)
+[ ] 4. Atividades de matemática: 5/10 (+1)
+[ ] 5. Coordenação motora: 6/10 (+1)
+[ ] 6. Desenhos para colorir: 5/10 (+1)
+[ ] 7. Atividades vogais / alfabeto: 4/10 (+1)
+[ ] 8. Letra cursiva / Pontilhado: 3/10 (+1)
+[ ] 9. Atividades 1º ano / 2º ano: 5/10 (+1)
+[ ] 10. Tabuada: 3/10 (+1)
+
+Running total after Section 6: 53 keyword appearances in H2/H3 titles
+Pricing: Full Access $240/year or $25/month ✓
+
+After Section 7 (FAQ) - 1 H2 + 10 H3 titles:
+[X] 1. Atividades para imprimir: 12/10 (+3) ✓ DONE
+[X] 2. Atividades de alfabetização: 10/10 (+2) ✓ DONE
+[ ] 3. Atividades educação infantil: 7/10 (+2)
+[ ] 4. Atividades de matemática: 7/10 (+2)
+[ ] 5. Coordenação motora: 7/10 (+1)
+[ ] 6. Desenhos para colorir: 7/10 (+2)
+[ ] 7. Atividades vogais / alfabeto: 6/10 (+2)
+[ ] 8. Letra cursiva / Pontilhado: 4/10 (+1)
+[ ] 9. Atividades 1º ano / 2º ano: 6/10 (+1)
+[ ] 10. Tabuada: 5/10 (+2)
+
+Running total after Section 7: 71 keyword appearances in H2/H3 titles
+2 keywords completed! 8 keywords need Section 8 boost.

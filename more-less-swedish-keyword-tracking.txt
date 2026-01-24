@@ -1,0 +1,250 @@
+KEYWORD TRACKING - More Less App - Swedish
+
+TARGET: Each keyword must appear MINIMUM 10 times in H2/H3 titles ONLY
+
+Swedish Keywords (from keywords.txt):
+1. Arbetsblad gratis (Free worksheets)
+2. Målarbilder barn (Coloring pages for children)
+3. Bokstäver lära sig / Skriva bokstäver (Learning letters / Writing letters)
+4. Matematik arbetsblad / Matte övningar (Math worksheets / Math exercises)
+5. Multiplikationstabellen (Multiplication tables)
+6. Siffror och tal (Numbers and digits)
+7. Finmotorik övningar (Fine motor skill exercises)
+8. Klockan lära sig (Learning to tell time)
+9. Förskoleklass material (Preschool class materials)
+10. Addition och subtraktion (Addition and subtraction)
+
+Current Status:
+[ ] 1. Arbetsblad gratis: 0/10
+[ ] 2. Målarbilder barn: 0/10
+[ ] 3. Bokstäver lära sig / Skriva bokstäver: 0/10
+[ ] 4. Matematik arbetsblad / Matte övningar: 0/10
+[ ] 5. Multiplikationstabellen: 0/10
+[ ] 6. Siffror och tal: 0/10
+[ ] 7. Finmotorik övningar: 0/10
+[ ] 8. Klockan lära sig: 0/10
+[ ] 9. Förskoleklass material: 0/10
+[ ] 10. Addition och subtraktion: 0/10
+
+After each section, update counts and check boxes when ≥10 reached.
+
+---
+
+SECTION-BY-SECTION TRACKING:
+
+Section 1 (Hero - 400-500 words):
+H1: "Matematik Arbetsblad för Siffror och Tal - Arbetsblad Gratis Jämförelse för Förskoleklass"
+
+Keywords found in H1:
+- Matematik arbetsblad: 1
+- Siffror och tal: 1
+- Arbetsblad gratis: 1
+- Förskoleklass material: 1 (partial - "förskoleklass" used)
+- Matte övningar: 1
+
+RUNNING TOTALS AFTER SECTION 1:
+[ ] 1. Arbetsblad gratis: 1/10
+[ ] 2. Målarbilder barn: 0/10
+[ ] 3. Bokstäver lära sig / Skriva bokstäver: 0/10
+[ ] 4. Matematik arbetsblad / Matte övningar: 2/10 (matematik arbetsblad: 1, matte övningar: 1)
+[ ] 5. Multiplikationstabellen: 0/10
+[ ] 6. Siffror och tal: 1/10
+[ ] 7. Finmotorik övningar: 0/10
+[ ] 8. Klockan lära sig: 0/10
+[ ] 9. Förskoleklass material: 1/10
+[ ] 10. Addition och subtraktion: 0/10
+
+Section 2 (Features - 1000-1200 words):
+H2: "Matematik Arbetsblad Funktioner - Allt Du Behöver för Siffror och Tal i Förskoleklass Material"
+H3: "Skapa Matematik Arbetsblad på 3 Klick - Snabb Generator för Siffror och Tal"
+H3: "Redigera Allt på Duken - Full Anpassning av Matte Övningar för Siffror och Tal"
+H3: "Ladda Upp Egna Bilder - Skapa Personliga Arbetsblad Gratis från Extra Avgifter"
+H3: "Matematik Arbetsblad på 11 Språk - Flerspråkigt Förskoleklass Material"
+H3: "Kommersiell Licens Ingår - Sälj Dina Matematik Arbetsblad och Matte Övningar"
+H3: "Bildbibliotek med 3000+ Bilder för Barn - Målarbilder och Material för Siffror och Tal"
+H3: "Professionell 300 DPI-Kvalitet - Högkvalitativa Matematik Arbetsblad för Förskoleklass"
+
+Keywords found in Section 2 H2/H3 titles:
+- Matematik arbetsblad: 5 (H2, H3#1, H3#4, H3#5, H3#7)
+- Matte övningar: 2 (H3#2, H3#5)
+- Siffror och tal: 4 (H2, H3#1, H3#2, H3#6)
+- Arbetsblad gratis: 1 (H3#3)
+- Förskoleklass material: 3 (H2, H3#4, H3#7 partial)
+- Målarbilder barn: 1 (H3#6 partial - "målarbilder")
+
+RUNNING TOTALS AFTER SECTION 2:
+[ ] 1. Arbetsblad gratis: 2/10
+[ ] 2. Målarbilder barn: 1/10
+[ ] 3. Bokstäver lära sig / Skriva bokstäver: 0/10
+[ ] 4. Matematik arbetsblad / Matte övningar: 9/10 ⚠️ (almost there!)
+[ ] 5. Multiplikationstabellen: 0/10
+[ ] 6. Siffror och tal: 5/10
+[ ] 7. Finmotorik övningar: 0/10
+[ ] 8. Klockan lära sig: 0/10
+[ ] 9. Förskoleklass material: 4/10
+[ ] 10. Addition och subtraktion: 0/10
+
+Section 3 (How-To - 1200-1400 words):
+H2: "Hur Man Skapar Matematik Arbetsblad för Siffror och Tal på 5 Enkla Steg - Arbetsblad Gratis på Minuter"
+H3: "Steg 1: Välj Ditt Innehåll för Siffror och Tal - Förskoleklass Material och Teman"
+H3: "Steg 2: Anpassa Inställningar för Matte Övningar - Matematik Arbetsblad för Alla Nivåer"
+H3: "Steg 3: Generera Dina Arbetsblad Gratis - Matte Övningar Skapas Direkt för Förskoleklass"
+H3: "Steg 4: Redigera på Duken - Anpassa Matematik Arbetsblad för Siffror och Tal Perfekt"
+H3: "Steg 5: Ladda Ner och Skriv Ut Matematik Arbetsblad Gratis - Högkvalitativa PDF för Förskoleklass Material"
+
+Keywords found in Section 3 H2/H3 titles:
+- Matematik arbetsblad: 4 (H2, H3#2, H3#4, H3#5)
+- Siffror och tal: 3 (H2, H3#1, H3#4)
+- Arbetsblad gratis: 3 (H2, H3#3, H3#5)
+- Matte övningar: 2 (H3#2, H3#3)
+- Förskoleklass material: 3 (H3#1, H3#3 partial, H3#5)
+
+RUNNING TOTALS AFTER SECTION 3:
+[ ] 1. Arbetsblad gratis: 5/10
+[ ] 2. Målarbilder barn: 1/10
+[ ] 3. Bokstäver lära sig / Skriva bokstäver: 0/10
+[✓] 4. Matematik arbetsblad / Matte övningar: 15/10 ✓✓ COMPLETE!
+[ ] 5. Multiplikationstabellen: 0/10
+[ ] 6. Siffror och tal: 8/10
+[ ] 7. Finmotorik övningar: 0/10
+[ ] 8. Klockan lära sig: 0/10
+[ ] 9. Förskoleklass material: 7/10
+[ ] 10. Addition och subtraktion: 0/10
+
+Section 4 (Use Cases - 1000-1200 words):
+H2: "Perfekt för Lärare och Föräldrar - Förskoleklass Material och Matte Övningar för Siffror och Tal"
+H3: "Förskoleklass-Lärare - Arbetsblad Gratis för Siffror och Tal Grundläggande Begrepp"
+H3: "Lågstadielärare Årskurs 1-3 - Matematik Arbetsblad för Progression i Siffror och Tal"
+H3: "Hemmaskolande Föräldrar - Flexibla Arbetsblad Gratis för Individuell Takt och Siffror och Tal"
+H3: "Språklärare och SFI - Matematik Arbetsblad på 11 Språk för Flerspråkig Undervisning"
+H3: "Specialpedagoger - Anpassade Matte Övningar för Differentierad Undervisning av Siffror och Tal"
+H3: "Lärarentreprenörer - Sälja Arbetsblad Gratis från Extra Licensavgifter på TPT och Etsy"
+
+Keywords found in Section 4 H2/H3 titles:
+- Förskoleklass material: 1 (H2)
+- Matte övningar: 2 (H2, H3#5)
+- Siffror och tal: 5 (H2, H3#1, H3#2, H3#3, H3#5)
+- Arbetsblad gratis: 3 (H3#1, H3#3, H3#6)
+- Matematik arbetsblad: 2 (H3#2, H3#4)
+
+RUNNING TOTALS AFTER SECTION 4:
+[ ] 1. Arbetsblad gratis: 8/10
+[ ] 2. Målarbilder barn: 1/10
+[ ] 3. Bokstäver lära sig / Skriva bokstäver: 0/10
+[✓] 4. Matematik arbetsblad / Matte övningar: 18/10 ✓✓ COMPLETE!
+[ ] 5. Multiplikationstabellen: 0/10
+[✓] 6. Siffror och tal: 13/10 ✓✓ COMPLETE!
+[ ] 7. Finmotorik övningar: 0/10
+[ ] 8. Klockan lära sig: 0/10
+[ ] 9. Förskoleklass material: 8/10
+[ ] 10. Addition och subtraktion: 0/10
+
+Section 5 (Subscription - 1000-1100 words):
+H2: "Tre Främsta Anledningar Lärare Prenumererar - Premium Matematik Arbetsblad och Förskoleklass Material Värda $240 per År"
+H3: "Undervisa Flera Språk - Arbetsblad Gratis för Flerspråkiga Klassrum och Addition och Subtraktion på 11 Språk"
+H3: "Kommersiell Licensiering - Sälja Förskoleklass Material och Matte Övningar på TPT och Etsy Arbetsblad Gratis från Extra Avgifter"
+H3: "Tidsbesparing och Produktivitet - Skapa Matematik Arbetsblad på Minuter Istället för Timmar för Förskoleklass"
+
+Keywords found in Section 5 H2/H3 titles:
+- Matematik arbetsblad: 2 (H2, H3#3)
+- Förskoleklass material: 2 (H2, H3#2)
+- Arbetsblad gratis: 2 (H3#1, H3#2)
+- Addition och subtraktion: 1 (H3#1)
+- Matte övningar: 1 (H3#2)
+
+RUNNING TOTALS AFTER SECTION 5:
+[✓] 1. Arbetsblad gratis: 10/10 ✓✓ COMPLETE!
+[ ] 2. Målarbilder barn: 1/10
+[ ] 3. Bokstäver lära sig / Skriva bokstäver: 0/10
+[✓] 4. Matematik arbetsblad / Matte övningar: 21/10 ✓✓ COMPLETE!
+[ ] 5. Multiplikationstabellen: 0/10
+[✓] 6. Siffror och tal: 13/10 ✓✓ COMPLETE!
+[ ] 7. Finmotorik övningar: 0/10
+[ ] 8. Klockan lära sig: 0/10
+[✓] 9. Förskoleklass material: 10/10 ✓✓ COMPLETE!
+[✓] 10. Addition och subtraktion: 1/10 (STARTED!)
+
+Section 6 (FAQ - 1400-1600 words):
+H2: "Vanliga Frågor om Matematik Arbetsblad för Jämförelser och Förskoleklass Material"
+H3: "Är Denna Jämförelsegenerator Verkligen Gratis att Använda för Matematik Arbetsblad?"
+H3: "Kan Jag Skriva Ut Jämförelseworksheets Hemma på Min Vanliga Skrivare med Förskoleklass Material?"
+H3: "Behöver Jag Designkunskaper för att Skapa Professionella Matematik Arbetsblad för Addition och Subtraktion?"
+H3: "Kan Jag Använda Jämförelseworksheets i Min Förskoleklass för Elever och Kombinera med Målarbilder Barn?"
+H3: "Vilka Språk Finns Matematik Arbetsblad Tillgängliga På för Multiplikationstabellen och Finmotorik Övningar?"
+H3: "Kan Jag Sälja Jämförelseworksheets Jag Skapar med Denna Generator och Arbetsblad Gratis från Extra Licensavgifter?"
+H3: "Hur Anpassar Jag Jämförelseworksheets för Mina Elever med Bokstäver Lära Sig och Klockan Lära Sig Behov?"
+H3: "Vilken Åldersgrupp Fungerar Bäst med Dessa Jämförelseworksheets för Förskoleklass Material och Finmotorik Övningar?"
+H3: "Kan Jag Ladda Upp Mina Egna Bilder till Jämförelseworksheets för Målarbilder Barn och Addition och Subtraktion?"
+H3: "Hur Lång Tid Tar Det att Skapa ett Jämförelseworksheet för Matematik Arbetsblad och Multiplikationstabellen?"
+H3: "Inkluderar Jämförelseworksheets Facitblad för Bokstäver Lära Sig och Klockan Lära Sig Integration?"
+H3: "Kan Jag Skapa Jämförelseworksheets om Specifika Skolämnen med Finmotorik Övningar och Målarbilder Barn?"
+
+Keywords found in Section 6 H2/H3 titles:
+- Matematik arbetsblad: 4 (H2, FAQ#1, FAQ#3, FAQ#10)
+- Förskoleklass material: 3 (H2, FAQ#2, FAQ#8)
+- Arbetsblad gratis: 1 (FAQ#6)
+- Målarbilder barn: 3 (FAQ#4, FAQ#9, FAQ#12)
+- Addition och subtraktion: 2 (FAQ#3, FAQ#9)
+- Multiplikationstabellen: 2 (FAQ#5, FAQ#10)
+- Finmotorik övningar: 3 (FAQ#5, FAQ#8, FAQ#12)
+- Bokstäver lära sig: 2 (FAQ#7, FAQ#11)
+- Klockan lära sig: 2 (FAQ#7, FAQ#11)
+
+RUNNING TOTALS AFTER SECTION 6:
+[✓] 1. Arbetsblad gratis: 11/10 ✓✓ COMPLETE!
+[✓] 2. Målarbilder barn: 4/10
+[ ] 3. Bokstäver lära sig / Skriva bokstäver: 2/10
+[✓] 4. Matematik arbetsblad / Matte övningar: 25/10 ✓✓ COMPLETE!
+[✓] 5. Multiplikationstabellen: 2/10
+[✓] 6. Siffror och tal: 13/10 ✓✓ COMPLETE!
+[✓] 7. Finmotorik övningar: 3/10
+[✓] 8. Klockan lära sig: 2/10
+[✓] 9. Förskoleklass material: 13/10 ✓✓ COMPLETE!
+[✓] 10. Addition och subtraktion: 3/10
+
+Section 7 (Combine Apps - 1000-1100 words):
+H2: "Kombinera Jämförelsearbetsblad med Andra Arbetsblad Gratis - Kompletta Inlärningspaket med Multiplikationstabellen och Bokstäver Lära Sig"
+H3: "Jämförelsearbetsblad Plus Addition och Subtraktion - Matematik Arbetsblad för Multiplikationstabellen och Klockan Lära Sig"
+H3: "Jämförelse med Bokstäver Lära Sig och Skriva Bokstäver - Finmotorik Övningar och Alfabetträning"
+H3: "Målarbilder Barn Kombinerade med Jämförelsearbetsblad - Finmotorik Övningar och Konstintegration"
+H3: "Klockan Lära Sig Integrerat med Jämförelser - Multiplikationstabellen och Tidsuppfattning"
+H3: "Kompletta Förskoleklass Material Paket - Bokstäver Lära Sig, Multiplikationstabellen, Addition och Subtraktion med Finmotorik Övningar"
+
+Keywords found in Section 7 H2/H3 titles:
+- Arbetsblad gratis: 1 (H2)
+- Multiplikationstabellen: 4 (H2, H3#1, H3#4, H3#5)
+- Bokstäver lära sig: 3 (H2, H3#2, H3#5)
+- Addition och subtraktion: 2 (H3#1, H3#5)
+- Matematik arbetsblad: 1 (H3#1)
+- Klockan lära sig: 2 (H3#1, H3#4)
+- Finmotorik övningar: 3 (H3#2, H3#3, H3#5)
+- Målarbilder barn: 1 (H3#3)
+- Förskoleklass material: 1 (H3#5)
+
+FINAL TOTALS AFTER SECTION 7 (ALL SECTIONS COMPLETE):
+[✓✓] 1. Arbetsblad gratis: 12/10 ✅ TARGET MET!
+[✓✓] 2. Målarbilder barn: 5/10 ❌ FAILED (need 10, got 5)
+[✓✓] 3. Bokstäver lära sig / Skriva bokstäver: 5/10 ❌ FAILED (need 10, got 5)
+[✓✓] 4. Matematik arbetsblad / Matte övningar: 26/10 ✅ TARGET MET!
+[✓✓] 5. Multiplikationstabellen: 6/10 ❌ FAILED (need 10, got 6)
+[✓✓] 6. Siffror och tal: 13/10 ✅ TARGET MET!
+[✓✓] 7. Finmotorik övningar: 6/10 ❌ FAILED (need 10, got 6)
+[✓✓] 8. Klockan lära sig: 4/10 ❌ FAILED (need 10, got 4)
+[✓✓] 9. Förskoleklass material: 14/10 ✅ TARGET MET!
+[✓✓] 10. Addition och subtraktion: 5/10 ❌ FAILED (need 10, got 5)
+
+TARGETS MET: 5 out of 10 (50%)
+TARGETS FAILED: 5 out of 10 (50%)
+
+⚠️ KEYWORDS THAT FAILED TO REACH MINIMUM 10:
+- Målarbilder barn: 5/10 (need 5 more)
+- Bokstäver lära sig / Skriva bokstäver: 5/10 (need 5 more)
+- Multiplikationstabellen: 6/10 (need 4 more)
+- Finmotorik övningar: 6/10 (need 4 more)
+- Klockan lära sig: 4/10 (need 6 more)
+- Addition och subtraktion: 5/10 (need 5 more)
+
+---
+
+FINAL VERIFICATION:
+[To be completed after all 7 sections are written]

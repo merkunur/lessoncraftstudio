@@ -1,0 +1,25 @@
+SECTION 2 COMPLETE - Italian Matching Page
+
+File: INDIVIDUAL APP PAGES/Italian/matching.md
+
+SECTION 2 WRITTEN: 1150 words
+- H2: 1
+- H3: 7 subsections
+
+KEYWORD COUNTS IN H2/H3 TITLES ONLY:
+1. Schede didattiche: 6/10
+2. Schede didattiche scuola primaria: 0/10 NEED MORE
+3. Pregrafismo: 0/10 NEED MORE
+4. Schede matematica: 1/10 NEED MORE
+5. Disegni da colorare: 3/10 NEED MORE
+6. Tabelline: 0/10 NEED MORE
+7. Alfabeto / Lettere: 5/10 NEED MORE
+8. Schede italiano classe prima: 0/10 NEED MORE
+9. Scuola dell'infanzia: 1/10 NEED MORE
+10. Numeri da stampare: 1/10 NEED MORE
+
+NEXT: Section 3 (How-To) 1200-1400 words with 5 H3 subsections
+
+TO CONTINUE: Type "continue" or "ok"
+
+TO READ SECTION 2: Use Read tool on file

@@ -1,0 +1,58 @@
+KEYWORD TRACKING - Word Guess App - Swedish
+
+PRICING VERIFICATION:
+App Name: Word Guess
+Subscription Tier: Full Access $240/year
+Monthly Price: $25/month
+✓ I will use "Full Access" and "$240/$25" throughout this document
+✓ I will NEVER use "Core Bundle" or "$144/$15" for this app
+
+TARGET: Each keyword must appear MINIMUM 10 times in H2/H3 titles ONLY
+
+SWEDISH KEYWORDS (from keywords.txt):
+[ ] 1. Arbetsblad gratis: 0/10
+[ ] 2. Målarbilder barn: 0/10
+[ ] 3. Bokstäver lära sig / Skriva bokstäver: 0/10
+[ ] 4. Matematik arbetsblad / Matte övningar: 0/10
+[ ] 5. Multiplikationstabellen: 0/10
+[ ] 6. Siffror och tal: 0/10
+[ ] 7. Finmotorik övningar: 0/10
+[ ] 8. Klockan lära sig: 0/10
+[ ] 9. Förskoleklass material: 0/10
+[ ] 10. Addition och subtraktion: 0/10
+
+After each section, update counts and check boxes when ≥10 reached.
+
+================================================================================
+SECTION-BY-SECTION TRACKING
+================================================================================
+
+After Section 1 (Hero) - Word Count: ~450 words
+Note: Section 1 (Hero) has only H1, no H2/H3 titles. Keywords in body text do NOT count.
+H2/H3 Keyword Counts:
+- Arbetsblad gratis: 0
+- Målarbilder barn: 0
+- Bokstäver lära sig / Skriva bokstäver: 0
+- Matematik arbetsblad / Matte övningar: 0
+- Multiplikationstabellen: 0
+- Siffror och tal: 0
+- Finmotorik övningar: 0
+- Klockan lära sig: 0
+- Förskoleklass material: 0
+- Addition och subtraktion: 0
+
+RUNNING TOTALS after Section 1:
+[ ] 1. Arbetsblad gratis: 0/10
+[ ] 2. Målarbilder barn: 0/10
+[ ] 3. Bokstäver lära sig / Skriva bokstäver: 0/10
+[ ] 4. Matematik arbetsblad / Matte övningar: 0/10
+[ ] 5. Multiplikationstabellen: 0/10
+[ ] 6. Siffror och tal: 0/10
+[ ] 7. Finmotorik övningar: 0/10
+[ ] 8. Klockan lära sig: 0/10
+[ ] 9. Förskoleklass material: 0/10
+[ ] 10. Addition och subtraktion: 0/10
+
+================================================================================
+After Section 2 (Features):
+[To be filled after Section 2]

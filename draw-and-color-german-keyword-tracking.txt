@@ -1,0 +1,281 @@
+KEYWORD TRACKING - Draw and Color - German
+
+TARGET: Each keyword must appear MINIMUM 10 times in H2/H3 titles ONLY
+
+German Keywords (from keywords.txt):
+[X] 1. Arbeitsblätter Grundschule (Elementary school worksheets): 14/10 ✓
+[X] 2. Mathe Arbeitsblätter (Math worksheets): 10/10 ✓
+[X] 3. Vorschule Arbeitsblätter (Preschool worksheets): 12/10 ✓
+[X] 4. Einmaleins (Multiplication tables): 12/10 ✓
+[X] 5. Schwungübungen (Pre-writing/motor skill exercises): 10/10 ✓
+[X] 6. Buchstaben lernen (Learning letters): 10/10 ✓
+[X] 7. Ausmalbilder / Malvorlagen (Coloring pages/templates): 19/10 ✓
+[X] 8. Kostenlose Arbeitsblätter (Free worksheets): 12/10 ✓
+[X] 9. Rechnen lernen / Rechnen 1. Klasse (1st grade math): 12/10 ✓
+[X] 10. Deutsch Arbeitsblätter (German language worksheets): 10/10 ✓
+
+PRICING VERIFICATION:
+App Name: Draw and Color
+Subscription Tier: Full Access $240/year
+Monthly Price: $25/month
+- I will use "Full Access" and "$240/$25" throughout this document
+- I will NEVER use "Core Bundle" or "$144/$15" for this app
+
+After each section, update counts and check boxes when >= 10 reached.
+
+---
+
+SECTION 1 (Hero) Keyword Count:
+H1: "Rasterzeichnen Arbeitsblätter Generator - Kostenlose Arbeitsblätter Grundschule und Malvorlagen für Vorschule"
+- Arbeitsblätter Grundschule: 1
+- Kostenlose Arbeitsblätter: 1
+- Malvorlagen: 1
+
+H2: "Rasterzeichnen als kreative Arbeitsblätter Grundschule - Ausmalbilder und Malvorlagen für Kinder"
+- Arbeitsblätter Grundschule: 1
+- Ausmalbilder: 1
+- Malvorlagen: 1
+
+H3: "Vorschule Arbeitsblätter und Schwungübungen mit Rasterzeichnen - Kostenlose Arbeitsblätter zum Ausdrucken"
+- Vorschule Arbeitsblätter: 1
+- Schwungübungen: 1
+- Kostenlose Arbeitsblätter: 1
+
+H3: "Malvorlagen und Ausmalbilder als Arbeitsblätter Grundschule - Mathe Arbeitsblätter mit Rasterlogik"
+- Malvorlagen: 1
+- Ausmalbilder: 1
+- Arbeitsblätter Grundschule: 1
+- Mathe Arbeitsblätter: 1
+
+Section 1 Totals: Arbeitsblätter Grundschule=3, Mathe=1, Vorschule=1, Schwungübungen=1, Ausmalbilder/Malvorlagen=4, Kostenlose=2
+
+SECTION 2 (Features) Keyword Count:
+H2: "Funktionen des Rasterzeichnen Generators - Kostenlose Arbeitsblätter Grundschule und Vorschule Arbeitsblätter erstellen"
+- Kostenlose Arbeitsblätter: 1
+- Arbeitsblätter Grundschule: 1
+- Vorschule Arbeitsblätter: 1
+
+H3: "Arbeitsblätter Grundschule in drei Klicks erstellen - Ausmalbilder und Malvorlagen Generator"
+- Arbeitsblätter Grundschule: 1
+- Ausmalbilder: 1
+- Malvorlagen: 1
+
+H3: "Vorschule Arbeitsblätter vollständig bearbeiten - Schwungübungen und Feinmotorik Training"
+- Vorschule Arbeitsblätter: 1
+- Schwungübungen: 1
+
+H3: "Eigene Bilder hochladen für Mathe Arbeitsblätter und Buchstaben lernen Übungen"
+- Mathe Arbeitsblätter: 1
+- Buchstaben lernen: 1
+
+H3: "Kostenlose Arbeitsblätter in 11 Sprachen - Deutsch Arbeitsblätter und internationale Bildnamen"
+- Kostenlose Arbeitsblätter: 1
+- Deutsch Arbeitsblätter: 1
+
+H3: "Kommerzielle Lizenz für Arbeitsblätter Grundschule - Einmaleins und Rechnen lernen Materialien verkaufen"
+- Arbeitsblätter Grundschule: 1
+- Einmaleins: 1
+- Rechnen lernen: 1
+
+H3: "Über 3000 Bilder für Ausmalbilder und Malvorlagen - Rechnen 1. Klasse Themen inklusive"
+- Ausmalbilder: 1
+- Malvorlagen: 1
+- Rechnen 1. Klasse: 1
+
+H3: "Professionelle 300 DPI Qualität für Vorschule Arbeitsblätter und Kostenlose Arbeitsblätter"
+- Vorschule Arbeitsblätter: 1
+- Kostenlose Arbeitsblätter: 1
+
+Section 2 Totals: Arbeitsblätter Grundschule=3, Mathe=1, Vorschule=3, Einmaleins=1, Schwungübungen=1, Buchstaben lernen=1, Ausmalbilder/Malvorlagen=4, Kostenlose=3, Rechnen=2, Deutsch=1
+
+SECTION 3 (How-To) Keyword Count:
+H2: "Anleitung: Kostenlose Arbeitsblätter Grundschule erstellen in 5 einfachen Schritten - Ausmalbilder und Malvorlagen Generator"
+- Kostenlose Arbeitsblätter: 1
+- Arbeitsblätter Grundschule: 1
+- Ausmalbilder: 1
+- Malvorlagen: 1
+
+H3: "Schritt 1: Bild auswählen für Mathe Arbeitsblätter und Vorschule Arbeitsblätter - Thema oder eigenes Foto"
+- Mathe Arbeitsblätter: 1
+- Vorschule Arbeitsblätter: 1
+
+H3: "Schritt 2: Rastereinstellungen für Schwungübungen und Buchstaben lernen anpassen - Arbeitsblätter Grundschule konfigurieren"
+- Schwungübungen: 1
+- Buchstaben lernen: 1
+- Arbeitsblätter Grundschule: 1
+
+H3: "Schritt 3: Arbeitsblatt erstellen mit Einmaleins und Rechnen lernen Themen - Kostenlose Arbeitsblätter generieren"
+- Einmaleins: 1
+- Rechnen lernen: 1
+- Kostenlose Arbeitsblätter: 1
+
+H3: "Schritt 4: Ausmalbilder und Malvorlagen auf der Arbeitsfläche bearbeiten - Deutsch Arbeitsblätter personalisieren"
+- Ausmalbilder: 1
+- Malvorlagen: 1
+- Deutsch Arbeitsblätter: 1
+
+H3: "Schritt 5: Rechnen 1. Klasse Arbeitsblätter und Vorschule Arbeitsblätter herunterladen - PDF oder JPEG Export"
+- Rechnen 1. Klasse: 1
+- Vorschule Arbeitsblätter: 1
+
+Section 3 Totals: Arbeitsblätter Grundschule=2, Mathe=1, Vorschule=2, Einmaleins=1, Schwungübungen=1, Buchstaben lernen=1, Ausmalbilder/Malvorlagen=4, Kostenlose=2, Rechnen=2, Deutsch=1
+
+SECTION 4 (Use Cases) Keyword Count:
+H2: "Wer profitiert von Rasterzeichnen - Kostenlose Arbeitsblätter Grundschule für Lehrkräfte, Eltern und Erzieher"
+- Kostenlose Arbeitsblätter: 1
+- Arbeitsblätter Grundschule: 1
+
+H3: "Erzieher und Vorschule Arbeitsblätter für Schwungübungen - Ausmalbilder und Malvorlagen für den Kindergarten"
+- Vorschule Arbeitsblätter: 1
+- Schwungübungen: 1
+- Ausmalbilder: 1
+- Malvorlagen: 1
+
+H3: "Grundschullehrer und Arbeitsblätter Grundschule für Mathe Arbeitsblätter - 1. bis 3. Klasse Materialien"
+- Arbeitsblätter Grundschule: 1
+- Mathe Arbeitsblätter: 1
+
+H3: "Eltern und kostenlose Arbeitsblätter für Buchstaben lernen zu Hause - Homeschooling Material"
+- Kostenlose Arbeitsblätter: 1
+- Buchstaben lernen: 1
+
+H3: "Sprachlehrer und Deutsch Arbeitsblätter in 11 Sprachen - Einmaleins und Vokabeln visuell lernen"
+- Deutsch Arbeitsblätter: 1
+- Einmaleins: 1
+
+H3: "Förderschullehrer und Vorschule Arbeitsblätter für Rechnen lernen - Differenzierte Malvorlagen erstellen"
+- Vorschule Arbeitsblätter: 1
+- Rechnen lernen: 1
+- Malvorlagen: 1
+
+H3: "Lehrer-Unternehmer und Arbeitsblätter Grundschule verkaufen - Rechnen 1. Klasse Materialien auf Etsy und TPT"
+- Arbeitsblätter Grundschule: 1
+- Rechnen 1. Klasse: 1
+
+Section 4 Totals: Arbeitsblätter Grundschule=3, Mathe=1, Vorschule=2, Einmaleins=1, Schwungübungen=1, Buchstaben lernen=1, Ausmalbilder/Malvorlagen=3, Kostenlose=2, Rechnen=2, Deutsch=1
+
+SECTION 5 (Subscription) Keyword Count:
+H2: "Die 3 wichtigsten Gründe für das Full Access Abonnement - Kostenlose Arbeitsblätter Grundschule und Vorschule Arbeitsblätter Premium"
+- Kostenlose Arbeitsblätter: 1
+- Arbeitsblätter Grundschule: 1
+- Vorschule Arbeitsblätter: 1
+
+H3: "Mehrsprachiger Unterricht mit Mathe Arbeitsblätter und Deutsch Arbeitsblätter in 11 Sprachen - Einmaleins international"
+- Mathe Arbeitsblätter: 1
+- Deutsch Arbeitsblätter: 1
+- Einmaleins: 1
+
+H3: "Kommerzielle Lizenz für Ausmalbilder und Malvorlagen verkaufen - Schwungübungen und Buchstaben lernen auf TPT"
+- Ausmalbilder: 1
+- Malvorlagen: 1
+- Schwungübungen: 1
+- Buchstaben lernen: 1
+
+H3: "Zeitersparnis mit Vorschule Arbeitsblätter und Rechnen lernen Generator - Kostenlose Arbeitsblätter in 3 Minuten statt 30"
+- Vorschule Arbeitsblätter: 1
+- Rechnen lernen: 1
+- Kostenlose Arbeitsblätter: 1
+
+Section 5 Totals: Arbeitsblätter Grundschule=1, Mathe=1, Vorschule=2, Einmaleins=1, Schwungübungen=1, Buchstaben lernen=1, Ausmalbilder/Malvorlagen=2, Kostenlose=2, Rechnen=1, Deutsch=1
+
+SECTION 6 (FAQ) Keyword Count:
+H2: "Häufig gestellte Fragen zum Rasterzeichnen Generator - Arbeitsblätter Grundschule und Mathe Arbeitsblätter FAQ"
+- Arbeitsblätter Grundschule: 1
+- Mathe Arbeitsblätter: 1
+
+H3: "Für welches Alter eignen sich Vorschule Arbeitsblätter und Schwungübungen mit Rasterzeichnen?"
+- Vorschule Arbeitsblätter: 1
+- Schwungübungen: 1
+
+H3: "Funktioniert der Ausmalbilder und Malvorlagen Generator auch offline ohne Internet?"
+- Ausmalbilder: 1
+- Malvorlagen: 1
+
+H3: "Welche Exportformate bietet der Einmaleins und Buchstaben lernen Arbeitsblatt Generator?"
+- Einmaleins: 1
+- Buchstaben lernen: 1
+
+H3: "Kann ich eigene Bilder für Rechnen lernen und Deutsch Arbeitsblätter hochladen?"
+- Rechnen lernen: 1
+- Deutsch Arbeitsblätter: 1
+
+H3: "Welche Sprachen unterstützt der Kostenlose Arbeitsblätter Generator für Rechnen 1. Klasse?"
+- Kostenlose Arbeitsblätter: 1
+- Rechnen 1. Klasse: 1
+
+H3: "Ist der Mathe Arbeitsblätter Generator kostenlos oder kostenpflichtig?"
+- Mathe Arbeitsblätter: 1
+
+H3: "Darf ich erstellte Arbeitsblätter Grundschule auf Etsy und TPT verkaufen?"
+- Arbeitsblätter Grundschule: 1
+
+H3: "Was unterscheidet diesen Generator von anderen Vorschule Arbeitsblätter Tools?"
+- Vorschule Arbeitsblätter: 1
+
+Section 6 Totals: Arbeitsblätter Grundschule=2, Mathe=2, Vorschule=2, Einmaleins=1, Schwungübungen=1, Buchstaben lernen=1, Ausmalbilder/Malvorlagen=2, Kostenlose=1, Rechnen=2, Deutsch=1
+
+SECTION 7 (Combine Apps) Keyword Count:
+H2: "Rasterzeichnen mit anderen Generatoren kombinieren - Mathe Arbeitsblätter und Einmaleins Komplettpaket für die Grundschule"
+- Mathe Arbeitsblätter: 1
+- Einmaleins: 1
+
+H3: "Rasterzeichnen plus Mathe Arbeitsblätter Generator - Einmaleins und Rechnen 1. Klasse visuell lernen"
+- Mathe Arbeitsblätter: 1
+- Einmaleins: 1
+- Rechnen 1. Klasse: 1
+
+H3: "Rasterzeichnen kombiniert mit Schwungübungen Generator - Buchstaben lernen durch Zeichnen und Schreiben"
+- Schwungübungen: 1
+- Buchstaben lernen: 1
+
+H3: "Rasterzeichnen und Deutsch Arbeitsblätter erstellen - Einmaleins der Wörter mit Buchstaben lernen Übungen"
+- Deutsch Arbeitsblätter: 1
+- Einmaleins: 1
+- Buchstaben lernen: 1
+
+H3: "Rasterzeichnen mit Additions-Generator verbinden - Rechnen lernen und Mathe Arbeitsblätter für Anfänger"
+- Rechnen lernen: 1
+- Mathe Arbeitsblätter: 1
+
+H3: "Rasterzeichnen plus Wortsuchrätsel - Deutsch Arbeitsblätter und Schwungübungen Komplettpaket"
+- Deutsch Arbeitsblätter: 1
+- Schwungübungen: 1
+
+H3: "Rasterzeichnen und Einmaleins Training komplett - Buchstaben lernen plus Rechnen 1. Klasse Materialien"
+- Einmaleins: 1
+- Buchstaben lernen: 1
+- Rechnen 1. Klasse: 1
+
+H3: "Schwungübungen und Buchstaben lernen Paket - Einmaleins der Feinmotorik mit Deutsch Arbeitsblätter"
+- Schwungübungen: 1
+- Buchstaben lernen: 1
+- Einmaleins: 1
+- Deutsch Arbeitsblätter: 1
+
+H3: "Deutsch Arbeitsblätter mit Einmaleins Logik - Schwungübungen und Buchstaben lernen systematisch"
+- Deutsch Arbeitsblätter: 1
+- Einmaleins: 1
+- Schwungübungen: 1
+- Buchstaben lernen: 1
+
+H3: "Komplettes Curriculum mit Deutsch Arbeitsblätter und Einmaleins - Alle Fächer in einem Abonnement"
+- Deutsch Arbeitsblätter: 1
+- Einmaleins: 1
+
+Section 7 Totals: Mathe=3, Einmaleins=7, Schwungübungen=4, Buchstaben lernen=5, Rechnen=3, Deutsch=5
+
+---
+
+FINAL TOTALS (ALL SECTIONS COMPLETE):
+[X] 1. Arbeitsblätter Grundschule: 14/10 ✓
+[X] 2. Mathe Arbeitsblätter: 10/10 ✓
+[X] 3. Vorschule Arbeitsblätter: 12/10 ✓
+[X] 4. Einmaleins: 12/10 ✓
+[X] 5. Schwungübungen: 10/10 ✓
+[X] 6. Buchstaben lernen: 10/10 ✓
+[X] 7. Ausmalbilder / Malvorlagen: 19/10 ✓
+[X] 8. Kostenlose Arbeitsblätter: 12/10 ✓
+[X] 9. Rechnen lernen / Rechnen 1. Klasse: 12/10 ✓
+[X] 10. Deutsch Arbeitsblätter: 10/10 ✓
+
+ALL 10 KEYWORDS COMPLETE - PAGE READY FOR REVIEW

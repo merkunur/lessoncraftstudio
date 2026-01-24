@@ -1,0 +1,325 @@
+KEYWORD TRACKING - MatchUp Maker (Matching) - Dutch
+
+TARGET: Each keyword must appear MINIMUM 10 times in H2/H3 titles ONLY
+
+PRICING VERIFICATION:
+App Name: MatchUp Maker
+Subscription Tier: Core Bundle $144/year
+Monthly Price: $15/month
+✓ I will use "Core Bundle" and "$144/$15" throughout this document
+✓ I will NEVER use "Full Access" or "$240/$25" for this app
+
+FINAL STATUS - ALL KEYWORDS COMPLETE:
+[X] 1. Werkbladen groep 3: 10/10 ✓
+[X] 2. Werkbladen kleuters / Groep 1 2: 10/10 ✓
+[X] 3. Rekenen werkbladen: 10/10 ✓
+[X] 4. Kleurplaten: 10/10 ✓
+[X] 5. Letters leren / Schrijven oefenen: 10/10 ✓
+[X] 6. Oefenbladen gratis: 10/10 ✓
+[X] 7. Tafels oefenen: 10/10 ✓
+[X] 8. Veilig leren lezen: 10/10 ✓
+[X] 9. Fijne motoriek: 10/10 ✓
+[X] 10. Sommen tot 20: 10/10 ✓
+
+After each section, update counts and check boxes when ≥10 reached.
+
+---
+
+Section 1 (Hero) H2/H3 Titles:
+H3: Werkbladen Kleuters en Groep 1 2 - Verbinden en Matchen voor Jonge Leerlingen
+  - Werkbladen kleuters: 1
+  - Groep 1 2: 1
+
+H3: Oefenbladen Gratis Ontwerpen - Werkbladen Groep 3 voor Letters Leren en Rekenen Werkbladen
+  - Oefenbladen gratis: 1
+  - Werkbladen groep 3: 1
+  - Letters leren: 1
+  - Rekenen werkbladen: 1
+
+H3: Schrijven Oefenen en Fijne Motoriek - Oefenbladen voor de Gehele Basisschool
+  - Schrijven oefenen: 1
+  - Fijne motoriek: 1
+
+H3: Rekenen Werkbladen en Sommen tot 20 - Werkbladen Groep 3 met Educatieve Waarde
+  - Rekenen werkbladen: 1
+  - Sommen tot 20: 1
+  - Werkbladen groep 3: 1
+
+SECTION 1 TOTALS:
+- Werkbladen groep 3: 2
+- Werkbladen kleuters / Groep 1 2: 1
+- Rekenen werkbladen: 2
+- Kleurplaten: 0
+- Letters leren / Schrijven oefenen: 2
+- Oefenbladen gratis: 1
+- Tafels oefenen: 0
+- Veilig leren lezen: 0
+- Fijne motoriek: 1
+- Sommen tot 20: 1
+
+Section 2 (Features) H2/H3 Titles:
+H2: Functies van de Verbindingswerkbladen Generator - Oefenbladen Gratis Maken voor Werkbladen Groep 3
+  - Oefenbladen gratis: 1
+  - Werkbladen groep 3: 1
+
+H3: Werkbladen Groep 3 in Drie Klikken - Snelle Creatie voor Oefenbladen Gratis
+  - Werkbladen groep 3: 1
+  - Oefenbladen gratis: 1
+
+H3: Volledige Bewerkbaarheid - Werkbladen Kleuters en Rekenen Werkbladen Aanpassen
+  - Werkbladen kleuters: 1
+  - Rekenen werkbladen: 1
+
+H3: Eigen Afbeeldingen Uploaden - Oefenbladen Gratis Personaliseren met Fijne Motoriek Focus
+  - Oefenbladen gratis: 1
+  - Fijne motoriek: 1
+
+H3: Elf Talen Ondersteuning - Werkbladen Groep 3 voor Veilig Leren Lezen in Meerdere Talen
+  - Werkbladen groep 3: 1
+  - Veilig leren lezen: 1
+
+H3: Commerciële Licentie - Oefenbladen Gratis Verkopen op Teachers Pay Teachers en Etsy
+  - Oefenbladen gratis: 1
+
+H3: Meer dan 3000 Afbeeldingen - Werkbladen Kleuters en Kleurplaten Thema's
+  - Werkbladen kleuters: 1
+  - Kleurplaten: 1
+
+H3: Professionele 300 DPI Kwaliteit - Rekenen Werkbladen en Sommen tot 20 Drukklaar
+  - Rekenen werkbladen: 1
+  - Sommen tot 20: 1
+
+SECTION 2 TOTALS:
+- Werkbladen groep 3: +3 (total: 5)
+- Werkbladen kleuters / Groep 1 2: +2 (total: 3)
+- Rekenen werkbladen: +2 (total: 4)
+- Kleurplaten: +1 (total: 1)
+- Letters leren / Schrijven oefenen: +0 (total: 2)
+- Oefenbladen gratis: +4 (total: 5)
+- Tafels oefenen: +0 (total: 0)
+- Veilig leren lezen: +1 (total: 1)
+- Fijne motoriek: +1 (total: 2)
+- Sommen tot 20: +1 (total: 2)
+
+Section 3 (How-To) H2/H3 Titles:
+H2: Werkbladen Groep 3 Maken in Vijf Stappen - Oefenbladen Gratis voor Letters Leren en Veilig Leren Lezen
+  - Werkbladen groep 3: 1
+  - Oefenbladen gratis: 1
+  - Letters leren: 1
+  - Veilig leren lezen: 1
+
+H3: Stap 1: Kies Je Inhoud - Werkbladen Kleuters met Kleurplaten Thema's of Eigen Afbeeldingen
+  - Werkbladen kleuters: 1
+  - Kleurplaten: 1
+
+H3: Stap 2: Pas Instellingen Aan - Rekenen Werkbladen en Sommen tot 20 Configureren
+  - Rekenen werkbladen: 1
+  - Sommen tot 20: 1
+
+H3: Stap 3: Genereer Je Werkblad - Oefenbladen Gratis met Letters Leren en Fijne Motoriek
+  - Oefenbladen gratis: 1
+  - Letters leren: 1
+  - Fijne motoriek: 1
+
+H3: Stap 4: Bewerk op Canvas - Werkbladen Groep 3 Aanpassen voor Tafels Oefenen en Schrijven Oefenen
+  - Werkbladen groep 3: 1
+  - Tafels oefenen: 1
+  - Schrijven oefenen: 1
+
+H3: Stap 5: Download en Print - Veilig Leren Lezen Werkbladen en Kleurplaten Kwaliteit Exporteren
+  - Veilig leren lezen: 1
+  - Kleurplaten: 1
+
+SECTION 3 TOTALS:
+- Werkbladen groep 3: +2 (total: 7)
+- Werkbladen kleuters / Groep 1 2: +1 (total: 4)
+- Rekenen werkbladen: +1 (total: 5)
+- Kleurplaten: +2 (total: 3)
+- Letters leren / Schrijven oefenen: +3 (total: 5)
+- Oefenbladen gratis: +2 (total: 7)
+- Tafels oefenen: +1 (total: 1)
+- Veilig leren lezen: +2 (total: 3)
+- Fijne motoriek: +1 (total: 3)
+- Sommen tot 20: +1 (total: 3)
+
+Section 4 (Use Cases) H2/H3 Titles:
+H2: Wie Gebruikt Verbindingswerkbladen - Oefenbladen Gratis voor Tafels Oefenen en Veilig Leren Lezen
+  - Oefenbladen gratis: 1
+  - Tafels oefenen: 1
+  - Veilig leren lezen: 1
+
+H3: Leerkrachten Basisonderwijs - Werkbladen Groep 3 voor Tafels Oefenen en Sommen tot 20
+  - Werkbladen groep 3: 1
+  - Tafels oefenen: 1
+  - Sommen tot 20: 1
+
+H3: Ouders en Thuisonderwijs - Werkbladen Kleuters voor Fijne Motoriek en Kleurplaten Activiteiten
+  - Werkbladen kleuters: 1
+  - Fijne motoriek: 1
+  - Kleurplaten: 1
+
+H3: Bijlesdocenten en Tutoren - Rekenen Werkbladen met Sommen tot 20 en Tafels Oefenen
+  - Rekenen werkbladen: 1
+  - Sommen tot 20: 1
+  - Tafels oefenen: 1
+
+H3: Speciaal Onderwijs - Oefenbladen Gratis Aanpassen voor Fijne Motoriek en Veilig Leren Lezen
+  - Oefenbladen gratis: 1
+  - Fijne motoriek: 1
+  - Veilig leren lezen: 1
+
+H3: Commerciële Verkopers - Kleurplaten en Werkbladen Groep 3 Verkopen op Etsy en TPT
+  - Kleurplaten: 1
+  - Werkbladen groep 3: 1
+
+SECTION 4 TOTALS:
+- Werkbladen groep 3: +2 (total: 9)
+- Werkbladen kleuters / Groep 1 2: +1 (total: 5)
+- Rekenen werkbladen: +1 (total: 6)
+- Kleurplaten: +2 (total: 5)
+- Letters leren / Schrijven oefenen: +0 (total: 5)
+- Oefenbladen gratis: +2 (total: 9)
+- Tafels oefenen: +3 (total: 4)
+- Veilig leren lezen: +2 (total: 5)
+- Fijne motoriek: +2 (total: 5)
+- Sommen tot 20: +2 (total: 5)
+
+Section 5 (Subscription) H2/H3 Titles:
+H2: Core Bundle Abonnement - Werkbladen Groep 3 en Oefenbladen Gratis voor Tafels Oefenen
+  - Werkbladen groep 3: 1
+  - Oefenbladen gratis: 1
+  - Tafels oefenen: 1
+
+H3: Wat Zit Er in de Core Bundle - Rekenen Werkbladen en Kleurplaten Generatoren
+  - Rekenen werkbladen: 1
+  - Kleurplaten: 1
+
+H3: Waarom Core Bundle Waarde Biedt - Sommen tot 20 en Fijne Motoriek Werkbladen Onbeperkt
+  - Sommen tot 20: 1
+  - Fijne motoriek: 1
+
+H3: Maandelijks of Jaarlijks Betalen - Kleurplaten en Veilig Leren Lezen Werkbladen Flexibel
+  - Kleurplaten: 1
+  - Veilig leren lezen: 1
+
+SECTION 5 TOTALS:
+- Werkbladen groep 3: +1 (total: 10) ✓ COMPLETE
+- Werkbladen kleuters / Groep 1 2: +0 (total: 5)
+- Rekenen werkbladen: +1 (total: 7)
+- Kleurplaten: +2 (total: 7)
+- Letters leren / Schrijven oefenen: +0 (total: 5)
+- Oefenbladen gratis: +1 (total: 10) ✓ COMPLETE
+- Tafels oefenen: +1 (total: 5)
+- Veilig leren lezen: +1 (total: 6)
+- Fijne motoriek: +1 (total: 6)
+- Sommen tot 20: +1 (total: 6)
+
+Section 6 (FAQ) H2/H3 Titles:
+H2: Veelgestelde Vragen over Verbindingswerkbladen - Werkbladen Kleuters en Tafels Oefenen
+  - Werkbladen kleuters: 1
+  - Tafels oefenen: 1
+
+H3: Hoe Maak Ik Werkbladen Kleuters voor Fijne Motoriek en Letters Leren?
+  - Werkbladen kleuters: 1
+  - Fijne motoriek: 1
+  - Letters leren: 1
+
+H3: Kan Ik Rekenen Werkbladen Maken voor Tafels Oefenen en Sommen tot 20?
+  - Rekenen werkbladen: 1
+  - Tafels oefenen: 1
+  - Sommen tot 20: 1
+
+H3: Ondersteunt de Generator Veilig Leren Lezen Methodes?
+  - Veilig leren lezen: 1
+
+H3: Zijn de Werkbladen Geschikt voor Schrijven Oefenen en Kleurplaten Activiteiten?
+  - Schrijven oefenen: 1
+  - Kleurplaten: 1
+
+H3: Hoeveel Verbindingsparen Kan Ik Gebruiken voor Sommen tot 20 Werkbladen?
+  - Sommen tot 20: 1
+
+H3: Kan Ik Kleurplaten Thema's Combineren met Rekenen Werkbladen?
+  - Kleurplaten: 1
+  - Rekenen werkbladen: 1
+
+H3: Hoe Werkt de Generator voor Fijne Motoriek Oefeningen bij Groep 1 2?
+  - Fijne motoriek: 1
+  - Groep 1 2: 1
+
+H3: Welke Exportkwaliteit Krijg Ik voor Veilig Leren Lezen Materialen?
+  - Veilig leren lezen: 1
+
+H3: Mag Ik Tafels Oefenen Werkbladen Verkopen op Teachers Pay Teachers?
+  - Tafels oefenen: 1
+
+SECTION 6 TOTALS:
+- Werkbladen groep 3: +0 (total: 10) ✓
+- Werkbladen kleuters / Groep 1 2: +3 (total: 8)
+- Rekenen werkbladen: +2 (total: 9)
+- Kleurplaten: +2 (total: 9)
+- Letters leren / Schrijven oefenen: +2 (total: 7)
+- Oefenbladen gratis: +0 (total: 10) ✓
+- Tafels oefenen: +3 (total: 8)
+- Veilig leren lezen: +2 (total: 8)
+- Fijne motoriek: +2 (total: 8)
+- Sommen tot 20: +2 (total: 8)
+
+Section 7 (Combine Apps) H2/H3 Titles:
+H2: Combineer Apps voor Complete Lespakketten - Tafels Oefenen met Veilig Leren Lezen en Fijne Motoriek
+  - Tafels oefenen: 1
+  - Veilig leren lezen: 1
+  - Fijne motoriek: 1
+
+H3: Woordzoekers Plus Verbindingswerkbladen - Letters Leren en Schrijven Oefenen Combineren
+  - Letters leren: 1
+  - Schrijven oefenen: 1
+
+H3: Kruiswoordpuzzels Plus Verbindingswerkbladen - Tafels Oefenen en Sommen tot 20 Versterken
+  - Tafels oefenen: 1
+  - Sommen tot 20: 1
+
+H3: Kleurplaten Plus Verbindingswerkbladen - Fijne Motoriek en Werkbladen Kleuters Bundelen
+  - Kleurplaten: 1
+  - Fijne motoriek: 1
+  - Werkbladen kleuters: 1
+
+H3: Cryptogram Plus Verbindingswerkbladen - Werkbladen Kleuters voor Veilig Leren Lezen en Letters Leren
+  - Werkbladen kleuters: 1
+  - Veilig leren lezen: 1
+  - Letters leren: 1
+
+H3: Sudoku Plus Verbindingswerkbladen - Rekenen Werkbladen en Sommen tot 20 Completeren
+  - Rekenen werkbladen: 1
+  - Sommen tot 20: 1
+
+SECTION 7 TOTALS:
+- Werkbladen groep 3: +0 (total: 10) ✓
+- Werkbladen kleuters / Groep 1 2: +2 (total: 10) ✓
+- Rekenen werkbladen: +1 (total: 10) ✓
+- Kleurplaten: +1 (total: 10) ✓
+- Letters leren / Schrijven oefenen: +3 (total: 10) ✓
+- Oefenbladen gratis: +0 (total: 10) ✓
+- Tafels oefenen: +2 (total: 10) ✓
+- Veilig leren lezen: +2 (total: 10) ✓
+- Fijne motoriek: +2 (total: 10) ✓
+- Sommen tot 20: +2 (total: 10) ✓
+
+---
+
+FINAL TOTALS - ALL 10 KEYWORDS AT TARGET:
+1. Werkbladen groep 3: 10 ✓
+2. Werkbladen kleuters / Groep 1 2: 10 ✓
+3. Rekenen werkbladen: 10 ✓
+4. Kleurplaten: 10 ✓
+5. Letters leren / Schrijven oefenen: 10 ✓
+6. Oefenbladen gratis: 10 ✓
+7. Tafels oefenen: 10 ✓
+8. Veilig leren lezen: 10 ✓
+9. Fijne motoriek: 10 ✓
+10. Sommen tot 20: 10 ✓
+
+---
+
+FINAL TOTALS AFTER SECTION 7:
+(to be filled after completing all sections)

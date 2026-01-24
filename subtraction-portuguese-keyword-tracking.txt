@@ -1,0 +1,194 @@
+KEYWORD TRACKING - Subtraction App - Portuguese (Brazilian)
+
+TARGET: Each keyword must appear MINIMUM 10 times in H2/H3 titles ONLY
+
+FINAL STATUS - ALL KEYWORDS COMPLETE:
+[✓] 1. Atividades para imprimir: 12/10 ✓
+[✓] 2. Atividades de alfabetização: 11/10 ✓
+[✓] 3. Atividades educação infantil: 11/10 ✓
+[✓] 4. Atividades de matemática: 17/10 ✓
+[✓] 5. Coordenação motora: 11/10 ✓
+[✓] 6. Desenhos para colorir: 12/10 ✓
+[✓] 7. Atividades vogais / alfabeto: 10/10 ✓
+[✓] 8. Letra cursiva / Pontilhado: 10/10 ✓
+[✓] 9. Atividades 1º ano / 2º ano: 10/10 ✓
+[✓] 10. Tabuada: 10/10 ✓
+
+---
+
+After each section, update counts and check boxes when ≥10 reached.
+
+SECTION 1 (Hero) - COMPLETED:
+H2/H3 Titles in Section 1:
+- H2: "Atividades de Subtração para Educação Infantil e Ensino Fundamental - Atividades para Imprimir Prontas"
+- H3: "Atividades de Matemática com Imagens - Gerador de Atividades para Imprimir em PDF"
+- H3: "Atividades Educação Infantil e 1º Ano - Atividades de Subtração para Imprimir Grátis de Taxas Extras"
+- H3: "Atividades para Imprimir com Gabarito - Atividades de Matemática Prontas"
+- H2: "Por Que Escolher Nosso Gerador de Atividades de Matemática - Atividades de Subtração para 1º Ano e 2º Ano"
+
+Keyword counts after Section 1:
+1. Atividades para imprimir: 4 (H2x1, H3x3)
+2. Atividades de alfabetização: 0
+3. Atividades educação infantil: 2 (H2x1, H3x1)
+4. Atividades de matemática: 3 (H3x2, H2x1)
+5. Coordenação motora: 0
+6. Desenhos para colorir: 0
+7. Atividades vogais / alfabeto: 0
+8. Letra cursiva / Pontilhado: 0
+9. Atividades 1º ano / 2º ano: 2 (H3x1, H2x1)
+10. Tabuada: 0
+
+SECTION 2 (Features) - COMPLETED:
+H2/H3 Titles in Section 2:
+- H2: "Recursos do Gerador de Atividades de Matemática - Tudo que Você Precisa para Atividades para Imprimir"
+- H3: "Criação Fácil de Atividades de Matemática em 3 Cliques - Atividades para Imprimir Rapidamente"
+- H3: "Edição Completa no Canvas - Atividades Educação Infantil e Atividades 1º Ano Personalizadas"
+- H3: "Upload de Imagens Próprias - Atividades de Alfabetização e Atividades de Matemática Personalizadas"
+- H3: "Suporte a 11 Idiomas - Atividades para Imprimir em Português e Outros Idiomas"
+- H3: "Licença Comercial POD Incluída - Venda Atividades de Matemática e Atividades Educação Infantil"
+- H3: "Biblioteca com 3.000+ Imagens - Desenhos para Colorir e Atividades de Matemática"
+- H3: "Qualidade Profissional 300 DPI - Atividades para Imprimir em PDF de Alta Resolução"
+- H3: "Atividades de Subtração Combinadas com Coordenação Motora - Atividades Educação Infantil Completas"
+
+Section 2 keyword additions:
+1. Atividades para imprimir: +4 (total: 8)
+2. Atividades de alfabetização: +1 (total: 1)
+3. Atividades educação infantil: +3 (total: 5)
+4. Atividades de matemática: +5 (total: 8)
+5. Coordenação motora: +1 (total: 1)
+6. Desenhos para colorir: +1 (total: 1)
+7. Atividades vogais / alfabeto: 0 (total: 0)
+8. Letra cursiva / Pontilhado: 0 (total: 0)
+9. Atividades 1º ano / 2º ano: +1 (total: 3)
+10. Tabuada: 0 (total: 0)
+
+SECTION 3 (How-To) - COMPLETED:
+H2/H3 Titles in Section 3:
+- H2: "Como Criar Atividades de Matemática em 5 Passos Simples - Atividades para Imprimir em Minutos"
+- H3: "Passo 1: Escolha Suas Imagens para Atividades de Matemática - Temas e Atividades Educação Infantil"
+- H3: "Passo 2: Configure os Exercícios - Atividades 1º Ano e 2º Ano com Níveis Adequados"
+- H3: "Passo 3: Gere a Atividade de Subtração - Atividades de Matemática Prontas Instantaneamente"
+- H3: "Passo 4: Edite no Canvas - Personalize Atividades de Alfabetização e Atividades de Matemática"
+- H3: "Passo 5: Baixe em PDF - Atividades para Imprimir com Qualidade Profissional 300 DPI"
+- H3: "Dicas Extras para Atividades Educação Infantil - Tabuada e Coordenação Motora Integradas"
+- H3: "Exemplos de Uso - Atividades de Matemática para Diferentes Níveis e Desenhos para Colorir"
+- H3: "Solução de Problemas Comuns - Atividades para Imprimir Perfeitas Sempre"
+
+Section 3 keyword additions:
+1. Atividades para imprimir: +3 (total: 11) ✓ COMPLETE
+2. Atividades de alfabetização: +1 (total: 2)
+3. Atividades educação infantil: +2 (total: 7)
+4. Atividades de matemática: +5 (total: 13) ✓ COMPLETE
+5. Coordenação motora: +1 (total: 2)
+6. Desenhos para colorir: +1 (total: 2)
+7. Atividades vogais / alfabeto: 0 (total: 0)
+8. Letra cursiva / Pontilhado: 0 (total: 0)
+9. Atividades 1º ano / 2º ano: +1 (total: 4)
+10. Tabuada: +1 (total: 1)
+
+SECTION 4 (Use Cases) - COMPLETED:
+H2/H3 Titles in Section 4:
+- H2: "Quem Usa o Gerador de Atividades de Subtração - Atividades Educação Infantil e Ensino Fundamental"
+- H3: "Professores de Educação Infantil - Atividades Vogais e Alfabeto Combinadas com Matemática"
+- H3: "Professores do 1º Ano e 2º Ano - Atividades de Alfabetização e Tabuada Integradas"
+- H3: "Professores do 3º Ano - Tabuada e Atividades de Matemática Avançadas"
+- H3: "Pais que Educam em Casa - Atividades para Imprimir e Letra Cursiva para Homeschool"
+- H3: "Professores de Reforço Escolar - Coordenação Motora e Atividades de Alfabetização Personalizadas"
+- H3: "Professores de Educação Especial - Atividades Educação Infantil Adaptadas e Desenhos para Colorir"
+- H3: "Professores Empreendedores - Venda Atividades de Matemática e Tabuada Online"
+- H3: "Coordenadores Pedagógicos - Atividades Vogais e Alfabeto para Toda a Escola"
+
+Section 4 keyword additions:
+1. Atividades para imprimir: +1 (total: 12) ✓
+2. Atividades de alfabetização: +2 (total: 4)
+3. Atividades educação infantil: +3 (total: 10) ✓ COMPLETE
+4. Atividades de matemática: +2 (total: 15) ✓
+5. Coordenação motora: +1 (total: 3)
+6. Desenhos para colorir: +1 (total: 3)
+7. Atividades vogais / alfabeto: +2 (total: 2)
+8. Letra cursiva / Pontilhado: +1 (total: 1)
+9. Atividades 1º ano / 2º ano: +1 (total: 5)
+10. Tabuada: +3 (total: 4)
+
+SECTION 5 (Subscription) - COMPLETED:
+H2/H3 Titles in Section 5:
+- H2: "Por Que Professores Assinam Full Access - Atividades de Alfabetização, Tabuada e Coordenação Motora"
+- H3: "Ensino em Múltiplos Idiomas - Atividades Vogais e Alfabeto em 11 Línguas Diferentes"
+- H3: "Licença Comercial Incluída - Venda Tabuada, Letra Cursiva e Pontilhado Online"
+- H3: "Economia de Tempo e Produtividade - Atividades de Alfabetização e Coordenação Motora em Minutos"
+- H3: "Acesso a 33 Geradores - Atividades Vogais e Alfabeto, Tabuada e Desenhos para Colorir"
+- H3: "Suporte e Atualizações Contínuas - Atividades de Matemática e Coordenação Motora Sempre Melhorando"
+
+Section 5 keyword additions:
+1. Atividades para imprimir: 0 (total: 12) ✓
+2. Atividades de alfabetização: +2 (total: 6)
+3. Atividades educação infantil: 0 (total: 10) ✓
+4. Atividades de matemática: +1 (total: 16) ✓
+5. Coordenação motora: +3 (total: 6)
+6. Desenhos para colorir: +1 (total: 4)
+7. Atividades vogais / alfabeto: +2 (total: 4)
+8. Letra cursiva / Pontilhado: +1 (total: 2)
+9. Atividades 1º ano / 2º ano: 0 (total: 5)
+10. Tabuada: +3 (total: 7)
+
+SECTION 6 (FAQ) - COMPLETED:
+H2/H3 Titles in Section 6:
+- H2: "Perguntas Frequentes sobre Atividades de Subtração - Atividades de Alfabetização e Coordenação Motora"
+- H3: "O Gerador de Atividades de Subtração é Gratuito para Usar com Tabuada e Desenhos para Colorir?"
+- H3: "Posso Imprimir Atividades de Subtração em Casa - Atividades 1º Ano e 2º Ano na Impressora Comum?"
+- H3: "Preciso de Habilidades de Design para Criar Atividades - Letra Cursiva e Pontilhado Fáceis?"
+- H3: "Posso Usar Atividades de Subtração na Sala de Aula - Atividades Educação Infantil para Alunos?"
+- H3: "Em Quais Idiomas as Atividades de Subtração Estão Disponíveis - Atividades Vogais e Alfabeto Multilíngues?"
+- H3: "Posso Vender Atividades que Crio - Tabuada e Atividades de Alfabetização Comerciais?"
+- H3: "Como Personalizo Atividades para Meus Alunos - Coordenação Motora e Desenhos para Colorir Customizados?"
+- H3: "Para Quais Idades as Atividades Funcionam - Atividades 1º Ano, 2º Ano e Educação Infantil?"
+- H3: "Posso Fazer Upload de Minhas Próprias Imagens - Atividades de Matemática Personalizadas?"
+- H3: "Quanto Tempo Leva para Criar uma Atividade - Atividades de Alfabetização Rápidas?"
+- H3: "As Atividades Incluem Gabarito - Tabuada e Atividades de Subtração com Respostas?"
+- H3: "Posso Criar Atividades sobre Temas Específicos - Atividades Vogais e Alfabeto Temáticas?"
+
+Section 6 keyword additions:
+1. Atividades para imprimir: 0 (total: 12) ✓
+2. Atividades de alfabetização: +3 (total: 9)
+3. Atividades educação infantil: +1 (total: 11) ✓
+4. Atividades de matemática: +1 (total: 17) ✓
+5. Coordenação motora: +2 (total: 8)
+6. Desenhos para colorir: +2 (total: 6)
+7. Atividades vogais / alfabeto: +2 (total: 6)
+8. Letra cursiva / Pontilhado: +1 (total: 3)
+9. Atividades 1º ano / 2º ano: +2 (total: 7)
+10. Tabuada: +3 (total: 10) ✓ COMPLETE
+
+SECTION 7 (Combine Apps) - COMPLETED:
+H2/H3 Titles in Section 7:
+- H2: "Combine Atividades de Subtração com Outros Geradores - Letra Cursiva, Pontilhado e Desenhos para Colorir"
+- H3: "Subtração com Atividades de Alfabetização - Letra Cursiva e Pontilhado para Escrita"
+- H3: "Atividades Vogais e Alfabeto Combinadas com Subtração - Coordenação Motora Integrada"
+- H3: "Desenhos para Colorir e Atividades de Subtração - Atividades 1º Ano e 2º Ano Criativas"
+- H3: "Letra Cursiva e Pontilhado para Atividades 1º Ano - Desenhos para Colorir Complementares"
+- H3: "Coordenação Motora com Atividades Vogais e Alfabeto - Letra Cursiva para Pré-Escola"
+- H3: "Pacotes Semanais para Atividades 2º Ano - Desenhos para Colorir e Atividades de Alfabetização"
+- H3: "Materiais para Educação Especial - Coordenação Motora e Desenhos para Colorir Adaptados"
+- H3: "Homeschool Completo - Atividades Vogais e Alfabeto, Letra Cursiva e Pontilhado Diários"
+- H3: "Vendendo Pacotes Completos - Letra Cursiva, Pontilhado e Desenhos para Colorir Online"
+- H3: "Atividades Vogais e Alfabeto para Reforço Escolar - Letra Cursiva e Pontilhado Terapêuticos"
+
+Section 7 keyword additions:
+1. Atividades para imprimir: 0 (FINAL: 12) ✓
+2. Atividades de alfabetização: +2 (FINAL: 11) ✓
+3. Atividades educação infantil: 0 (FINAL: 11) ✓
+4. Atividades de matemática: 0 (FINAL: 17) ✓
+5. Coordenação motora: +3 (FINAL: 11) ✓
+6. Desenhos para colorir: +6 (FINAL: 12) ✓
+7. Atividades vogais / alfabeto: +4 (FINAL: 10) ✓
+8. Letra cursiva / Pontilhado: +7 (FINAL: 10) ✓
+9. Atividades 1º ano / 2º ano: +3 (FINAL: 10) ✓
+10. Tabuada: 0 (FINAL: 10) ✓
+
+=== ALL 10 KEYWORDS ACHIEVED MINIMUM 10 IN H2/H3 TITLES ===
+=== PAGE COMPLETE AND SEO OPTIMIZED ===
+
+---
+
+FINAL TOTALS:
+[To be completed after Section 7]

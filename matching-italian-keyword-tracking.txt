@@ -1,0 +1,150 @@
+KEYWORD TRACKING - MatchUp Maker (Matching) - Italian
+
+TARGET: Each keyword must appear MINIMUM 10 times in H2/H3 titles ONLY
+Body text does NOT count - only H2 and H3 tags matter for SEO
+
+Current Status:
+[ ] 1. Schede didattiche: 0/10
+[ ] 2. Schede didattiche scuola primaria: 0/10
+[ ] 3. Pregrafismo: 0/10
+[ ] 4. Schede matematica: 0/10
+[ ] 5. Disegni da colorare: 0/10
+[ ] 6. Tabelline: 0/10
+[ ] 7. Alfabeto / Lettere dell'alfabeto: 0/10
+[ ] 8. Schede italiano classe prima: 0/10
+[ ] 9. Scuola dell'infanzia: 0/10
+[ ] 10. Numeri da stampare: 0/10
+
+INSTRUCTIONS:
+- After each section, count H2/H3 titles only using grep
+- Update this file with running totals
+- Check boxes when keyword reaches ≥10
+- If any keyword < 10 after Section 7, ADD MORE H3s to Section 7
+- Final page MUST have ALL keywords ≥10 in H2/H3 titles
+
+SECTION-BY-SECTION TRACKING:
+
+After Section 1 (Hero):
+- Schede didattiche: 0 (Hero section has no H2/H3 - this is normal)
+- Schede didattiche scuola primaria: 0
+- Pregrafismo: 0
+- Schede matematica: 0
+- Disegni da colorare: 0
+- Tabelline: 0
+- Alfabeto / Lettere dell'alfabeto: 0
+- Schede italiano classe prima: 0
+- Scuola dell'infanzia: 0
+- Numeri da stampare: 0
+
+NOTE: Section 1 (Hero) typically has only H1 + paragraphs. H2/H3 titles start in Section 2.
+
+After Section 2 (Features):
+- Schede didattiche: 6
+- Schede didattiche scuola primaria: 0
+- Pregrafismo: 0
+- Schede matematica: 1
+- Disegni da colorare: 3
+- Tabelline: 0
+- Alfabeto / Lettere dell'alfabeto: 4 + 1 = 5
+- Schede italiano classe prima: 0
+- Scuola dell'infanzia: 1
+- Numeri da stampare: 1
+
+ANALYSIS: Good progress. Need to integrate missing keywords in remaining sections.
+
+After Section 3 (How-To):
+RUNNING TOTALS (Sections 1+2+3):
+- Schede didattiche: 6 + 6 = 12 CHECK (>10)
+- Schede didattiche scuola primaria: 0 + 2 = 2 NEED 8 MORE
+- Pregrafismo: 0 + 3 = 3 NEED 7 MORE
+- Schede matematica: 1 + 0 = 1 NEED 9 MORE
+- Disegni da colorare: 3 + 0 = 3 NEED 7 MORE
+- Tabelline: 0 + 0 = 0 NEED 10 MORE
+- Alfabeto / Lettere: 5 + 4 = 9 NEED 1 MORE
+- Schede italiano classe prima: 0 + 0 = 0 NEED 10 MORE
+- Scuola dell'infanzia: 1 + 2 = 3 NEED 7 MORE
+- Numeri da stampare: 1 + 2 = 3 NEED 7 MORE
+
+CRITICAL: Must heavily integrate these in remaining sections 4-7:
+- Tabelline (0/10)
+- Schede italiano classe prima (0/10)
+- Schede matematica (1/10)
+- Schede didattiche scuola primaria (2/10)
+
+After Section 4 (Use Cases):
+RUNNING TOTALS (Sections 1+2+3+4):
+- Schede didattiche: 12 + 1 = 13 CHECK (>10)
+- Schede didattiche scuola primaria: 2 + 5 = 7 NEED 3 MORE
+- Pregrafismo: 3 + 2 = 5 NEED 5 MORE
+- Schede matematica: 1 + 1 = 2 NEED 8 MORE
+- Disegni da colorare: 3 + 0 = 3 NEED 7 MORE
+- Tabelline: 0 + 3 = 3 NEED 7 MORE
+- Alfabeto / Lettere: 9 + 2 = 11 CHECK (>10)
+- Schede italiano classe prima: 0 + 1 = 1 NEED 9 MORE
+- Scuola dell'infanzia: 3 + 1 = 4 NEED 6 MORE
+- Numeri da stampare: 3 + 0 = 3 NEED 7 MORE
+
+CRITICAL FOR SECTIONS 5-7:
+- Schede italiano classe prima (1/10) - MUST BOOST
+- Tabelline (3/10) - MUST BOOST
+- Schede matematica (2/10) - MUST BOOST
+- Numeri da stampare (3/10)
+- Disegni da colorare (3/10)
+- Scuola dell'infanzia (4/10)
+- Pregrafismo (5/10)
+
+After Section 5 (Subscription Reasons):
+RUNNING TOTALS (Sections 1-5):
+- Schede didattiche: 13 + 1 = 14 CHECK (>10)
+- Alfabeto / Lettere: 11 CHECK (>10)
+- Schede didattiche scuola primaria: 7 + 1 = 8 NEED 2 MORE
+- Pregrafismo: 5 NEED 5 MORE
+- Scuola dell'infanzia: 4 NEED 6 MORE
+- Schede italiano classe prima: 1 + 3 = 4 NEED 6 MORE
+- Tabelline: 3 + 3 = 6 NEED 4 MORE
+- Schede matematica: 2 + 3 = 5 NEED 5 MORE
+- Disegni da colorare: 3 NEED 7 MORE
+- Numeri da stampare: 3 NEED 7 MORE
+
+CRITICAL FOR SECTIONS 6-7 (FAQ and Combine Apps):
+- Disegni da colorare (3/10) NEED 7
+- Numeri da stampare (3/10) NEED 7
+- Scuola dell'infanzia (4/10) NEED 6
+- Schede italiano classe prima (4/10) NEED 6
+- Pregrafismo (5/10) NEED 5
+- Schede matematica (5/10) NEED 5
+- Tabelline (6/10) NEED 4
+- Schede didattiche scuola primaria (8/10) NEED 2
+
+After Section 6 (FAQ):
+RUNNING TOTALS (Sections 1-6):
+- Schede didattiche: 14 CHECK (>10)
+- Alfabeto / Lettere: 11 CHECK (>10)
+- Schede didattiche scuola primaria: 8 + 2 = 10 CHECK (=10)
+- Tabelline: 6 + 4 = 10 CHECK (=10)
+- Schede matematica: 5 + 3 = 8 NEED 2 MORE
+- Pregrafismo: 5 + 3 = 8 NEED 2 MORE
+- Scuola dell'infanzia: 4 + 2 = 6 NEED 4 MORE
+- Schede italiano classe prima: 4 + 2 = 6 NEED 4 MORE
+- Disegni da colorare: 3 + 3 = 6 NEED 4 MORE
+- Numeri da stampare: 3 + 2 = 5 NEED 5 MORE
+
+EXCELLENT PROGRESS! 4 keywords now at 10+
+
+FINAL PUSH FOR SECTION 7 (Combine Apps):
+Must add in H3 titles:
+- Numeri da stampare: NEED 5 more
+- Scuola dell'infanzia: NEED 4 more
+- Schede italiano classe prima: NEED 4 more
+- Disegni da colorare: NEED 4 more
+- Schede matematica: NEED 2 more
+- Pregrafismo: NEED 2 more
+
+Total needed in Section 7: 21 keyword instances
+Plan: 6-7 H3 subsections with multiple keywords each
+
+After Section 7 (Combine Apps):
+(Update after writing Section 7)
+
+FINAL TOTALS:
+(Must all be ≥10 or page FAILS)

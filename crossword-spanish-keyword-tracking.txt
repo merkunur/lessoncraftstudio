@@ -1,0 +1,269 @@
+KEYWORD TRACKING - Crossword App - Spanish (Mexican)
+
+TARGET: Each keyword must appear MINIMUM 10 times in H2/H3 titles ONLY
+
+Spanish Keywords from keywords.txt:
+1. Fichas para imprimir
+2. Fichas infantil / Fichas preescolar
+3. Grafomotricidad
+4. Lectoescritura
+5. Ejercicios matemáticas / Fichas de matemáticas
+6. Colorear / Dibujos para colorear
+7. Abecedario / Aprender las letras
+8. Números / Aprender los números
+9. Tablas de multiplicar
+10. Fichas gratis / Material educativo gratis
+
+Current Status (tracking H2/H3 titles ONLY, NOT body text):
+[ ] 1. Fichas para imprimir: 0/10
+[ ] 2. Fichas infantil / Fichas preescolar: 0/10
+[ ] 3. Grafomotricidad: 0/10
+[ ] 4. Lectoescritura: 0/10
+[ ] 5. Ejercicios matemáticas / Fichas de matemáticas: 0/10
+[ ] 6. Colorear / Dibujos para colorear: 0/10
+[ ] 7. Abecedario / Aprender las letras: 0/10
+[ ] 8. Números / Aprender los números: 0/10
+[ ] 9. Tablas de multiplicar: 0/10
+[ ] 10. Fichas gratis / Material educativo gratis: 0/10
+
+=== AFTER SECTION 1 (Hero) ===
+Section 1 has only H1 (which doesn't count for SEO tracking).
+No H2 or H3 titles in Section 1.
+
+Running totals after Section 1:
+[ ] 1. Fichas para imprimir: 0/10
+[ ] 2. Fichas infantil / Fichas preescolar: 0/10
+[ ] 3. Grafomotricidad: 0/10
+[ ] 4. Lectoescritura: 0/10
+[ ] 5. Ejercicios matemáticas / Fichas de matemáticas: 0/10
+[ ] 6. Colorear / Dibujos para colorear: 0/10
+[ ] 7. Abecedario / Aprender las letras: 0/10
+[ ] 8. Números / Aprender los números: 0/10
+[ ] 9. Tablas de multiplicar: 0/10
+[ ] 10. Fichas gratis / Material educativo gratis: 0/10
+
+=== AFTER SECTION 2 (Features) ===
+Section 2 has 1 H2 + 7 H3 titles
+
+H2: "Características del Generador de Crucigramas - Fichas para Imprimir Gratis y Material Educativo para Preescolar"
+H3-1: "Crea Crucigramas en 3 Clics - Fichas Preescolar y Fichas Gratis para Educación Infantil"
+H3-2: "Edita Todo en el Lienzo - Fichas de Matemáticas y Ejercicios Matemáticas Personalizables"
+H3-3: "Sube Tus Propias Imágenes - Material Educativo Gratis Personalizado para Tus Alumnos"
+H3-4: "Generador en 11 Idiomas - Fichas Gratis en Español, Inglés, Alemán, Francés y Más"
+H3-5: "Licencia Comercial Incluida - Vende Fichas Preescolar en Teachers Pay Teachers y Etsy"
+H3-6: "Biblioteca de 3000+ Imágenes - Dibujos para Colorear y Material Educativo Organizado por Temas"
+H3-7: "Calidad Profesional 300 DPI - Descarga Fichas para Imprimir en PDF y JPEG"
+
+Keyword counts in Section 2:
+1. Fichas para imprimir: +2 (H2, H3-7)
+2. Fichas infantil / Fichas preescolar: +2 (H3-1, H3-5)
+3. Grafomotricidad: +0
+4. Lectoescritura: +0
+5. Ejercicios matemáticas / Fichas de matemáticas: +2 (H3-2 has both)
+6. Colorear / Dibujos para colorear: +1 (H3-6)
+7. Abecedario / Aprender las letras: +0
+8. Números / Aprender los números: +0
+9. Tablas de multiplicar: +0
+10. Fichas gratis / Material educativo gratis: +4 (H2, H3-1, H3-3, H3-4)
+
+Running totals after Section 2:
+[ ] 1. Fichas para imprimir: 2/10 (need 8 more)
+[ ] 2. Fichas infantil / Fichas preescolar: 2/10 (need 8 more)
+[ ] 3. Grafomotricidad: 0/10 (need 10 more)
+[ ] 4. Lectoescritura: 0/10 (need 10 more)
+[ ] 5. Ejercicios matemáticas / Fichas de matemáticas: 2/10 (need 8 more)
+[ ] 6. Colorear / Dibujos para colorear: 1/10 (need 9 more)
+[ ] 7. Abecedario / Aprender las letras: 0/10 (need 10 more)
+[ ] 8. Números / Aprender los números: 0/10 (need 10 more)
+[ ] 9. Tablas de multiplicar: 0/10 (need 10 more)
+[ ] 10. Fichas gratis / Material educativo gratis: 4/10 (need 6 more)
+
+=== AFTER SECTION 3 (How to Use) ===
+Section 3 has 1 H2 + 5 H3 titles
+
+H2: "Cómo Crear Crucigramas en 5 Pasos Fáciles - Fichas para Imprimir Gratis de Lectoescritura"
+H3-1: "Paso 1: Selecciona el Contenido - Fichas Preescolar del Abecedario o Números para Grafomotricidad"
+H3-2: "Paso 2: Personaliza la Configuración - Fichas Infantil y Dibujos para Colorear en Tamaño Carta o A4"
+H3-3: "Paso 3: Genera Tu Crucigrama - Fichas de Matemáticas y Ejercicios de Lectoescritura Instantáneos"
+H3-4: "Paso 4: Edita en el Lienzo - Personaliza Fichas Gratis con las Tablas de Multiplicar o Aprender las Letras"
+H3-5: "Paso 5: Descarga e Imprime - Material Educativo Gratis en PDF con Ejercicios Matemáticas y Grafomotricidad"
+
+Keyword counts in Section 3:
+1. Fichas para imprimir: +1 (H2)
+2. Fichas infantil / Fichas preescolar: +2 (H3-1 preescolar, H3-2 infantil)
+3. Grafomotricidad: +2 (H3-1, H3-5)
+4. Lectoescritura: +2 (H2, H3-3)
+5. Ejercicios matemáticas / Fichas de matemáticas: +2 (H3-3 fichas de, H3-5 ejercicios)
+6. Colorear / Dibujos para colorear: +1 (H3-2)
+7. Abecedario / Aprender las letras: +2 (H3-1 abecedario, H3-4 aprender las letras)
+8. Números / Aprender los números: +1 (H3-1)
+9. Tablas de multiplicar: +1 (H3-4)
+10. Fichas gratis / Material educativo gratis: +3 (H2 gratis, H3-4 fichas gratis, H3-5 material educativo gratis)
+
+Running totals after Section 3:
+[ ] 1. Fichas para imprimir: 3/10 (need 7 more)
+[ ] 2. Fichas infantil / Fichas preescolar: 4/10 (need 6 more)
+[ ] 3. Grafomotricidad: 2/10 (need 8 more)
+[ ] 4. Lectoescritura: 2/10 (need 8 more)
+[ ] 5. Ejercicios matemáticas / Fichas de matemáticas: 4/10 (need 6 more)
+[ ] 6. Colorear / Dibujos para colorear: 2/10 (need 8 more)
+[ ] 7. Abecedario / Aprender las letras: 2/10 (need 8 more)
+[ ] 8. Números / Aprender los números: 1/10 (need 9 more)
+[ ] 9. Tablas de multiplicar: 1/10 (need 9 more)
+[ ] 10. Fichas gratis / Material educativo gratis: 7/10 (need 3 more)
+
+=== AFTER SECTION 4 (Use Cases) ===
+Section 4 has 1 H2 + 6 H3 titles
+
+H2: "Perfecto para Maestros, Padres y Educadores - Fichas Gratis de Lectoescritura para Cada Necesidad"
+H3-1: "Maestros de Preescolar - Fichas Infantil para Aprender el Abecedario y Números en Educación Inicial"
+H3-2: "Maestros de Primaria - Ejercicios de Lectoescritura y Grafomotricidad para Primer, Segundo y Tercer Grado"
+H3-3: "Padres Homeschoolers - Fichas Preescolar y Material Educativo Gratis Personalizado para Aprendizaje en Casa"
+H3-4: "Maestros de Inglés y Español como Segundo Idioma - Fichas para Imprimir Bilingües con las Tablas de Multiplicar"
+H3-5: "Maestros de Educación Especial - Dibujos para Colorear y Ejercicios Matemáticas Diferenciados por Nivel"
+H3-6: "Maestros Emprendedores - Vende Fichas de Matemáticas y Fichas Infantil en Teachers Pay Teachers"
+
+Keyword counts in Section 4:
+1. Fichas para imprimir: +1 (H3-4)
+2. Fichas infantil / Fichas preescolar: +3 (H3-1 infantil, H3-3 preescolar, H3-6 infantil)
+3. Grafomotricidad: +1 (H3-2)
+4. Lectoescritura: +2 (H2, H3-2)
+5. Ejercicios matemáticas / Fichas de matemáticas: +3 (H3-2 ejercicios, H3-5 ejercicios, H3-6 fichas de)
+6. Colorear / Dibujos para colorear: +1 (H3-5)
+7. Abecedario / Aprender las letras: +1 (H3-1 aprender el abecedario)
+8. Números / Aprender los números: +1 (H3-1)
+9. Tablas de multiplicar: +1 (H3-4)
+10. Fichas gratis / Material educativo gratis: +2 (H2 fichas gratis, H3-3 material educativo gratis)
+
+Running totals after Section 4:
+[ ] 1. Fichas para imprimir: 4/10 (need 6 more)
+[ ] 2. Fichas infantil / Fichas preescolar: 7/10 (need 3 more)
+[ ] 3. Grafomotricidad: 3/10 (need 7 more)
+[ ] 4. Lectoescritura: 4/10 (need 6 more)
+[ ] 5. Ejercicios matemáticas / Fichas de matemáticas: 7/10 (need 3 more)
+[ ] 6. Colorear / Dibujos para colorear: 3/10 (need 7 more)
+[ ] 7. Abecedario / Aprender las letras: 3/10 (need 7 more)
+[ ] 8. Números / Aprender los números: 2/10 (need 8 more)
+[ ] 9. Tablas de multiplicar: 2/10 (need 8 more)
+[ ] 10. Fichas gratis / Material educativo gratis: 9/10 (need 1 more!)
+
+=== AFTER SECTION 5 (Subscription Reasons) ===
+Section 5 has 1 H2 + 3 H3 titles
+
+H2: "3 Razones Principales por las que Maestros se Suscriben - Fichas para Imprimir Gratis del Abecedario, Números y Tablas de Multiplicar"
+H3-1: "Enseñanza Multilingüe - Fichas Infantil de Lectoescritura, Grafomotricidad y Aprender las Letras en 11 Idiomas"
+H3-2: "Licencia Comercial - Vende Dibujos para Colorear y Fichas de Matemáticas sin Costos Adicionales"
+H3-3: "Ahorro de Tiempo - Crea Ejercicios Matemáticas y Fichas Gratis de Grafomotricidad en Minutos"
+
+Keyword counts in Section 5:
+1. Fichas para imprimir: +1 (H2)
+2. Fichas infantil / Fichas preescolar: +1 (H3-1 infantil)
+3. Grafomotricidad: +2 (H3-1, H3-3)
+4. Lectoescritura: +1 (H3-1)
+5. Ejercicios matemáticas / Fichas de matemáticas: +2 (H3-2 fichas de, H3-3 ejercicios)
+6. Colorear / Dibujos para colorear: +1 (H3-2 dibujos)
+7. Abecedario / Aprender las letras: +2 (H2 abecedario, H3-1 aprender las letras)
+8. Números / Aprender los números: +1 (H2)
+9. Tablas de multiplicar: +1 (H2)
+10. Fichas gratis / Material educativo gratis: +2 (H2 gratis, H3-3 fichas gratis)
+
+Running totals after Section 5:
+[ ] 1. Fichas para imprimir: 5/10 (need 5 more)
+[ ] 2. Fichas infantil / Fichas preescolar: 8/10 (need 2 more)
+[ ] 3. Grafomotricidad: 5/10 (need 5 more)
+[ ] 4. Lectoescritura: 5/10 (need 5 more)
+[ ] 5. Ejercicios matemáticas / Fichas de matemáticas: 9/10 (need 1 more!)
+[✓] 10. Fichas gratis / Material educativo gratis: 11/10 COMPLETE!
+[ ] 6. Colorear / Dibujos para colorear: 4/10 (need 6 more)
+[ ] 7. Abecedario / Aprender las letras: 5/10 (need 5 more)
+[ ] 8. Números / Aprender los números: 3/10 (need 7 more)
+[ ] 9. Tablas de multiplicar: 3/10 (need 7 more)
+
+=== AFTER SECTION 6 (FAQ) ===
+Section 6 has 1 H2 + 12 H3 titles
+
+H2: "Preguntas Frecuentes sobre Crucigramas - Fichas para Imprimir de Números, Tablas de Multiplicar y Dibujos para Colorear"
+H3-1: "¿Este Generador de Crucigramas es Realmente Gratis de Usar?"
+H3-2: "¿Puedo Imprimir Crucigramas con Números y Tablas de Multiplicar en Casa en Impresora Normal?"
+H3-3: "¿Necesito Habilidades de Diseño para Crear Fichas Preescolar de Grafomotricidad y Lectoescritura?"
+H3-4: "¿Puedo Usar los Crucigramas de Números y Dibujos para Colorear en Mi Salón de Clases?"
+H3-5: "¿En Qué Idiomas Están Disponibles las Fichas para Imprimir de Aprender el Abecedario?"
+H3-6: "¿Puedo Vender las Fichas Infantil de Tablas de Multiplicar Que Creo?"
+H3-7: "¿Cómo Personalizo Crucigramas de Grafomotricidad para Necesidades de Mis Estudiantes?"
+H3-8: "¿Para Qué Edades Funcionan Mejor los Crucigramas de Aprender los Números y Lectoescritura?"
+H3-9: "¿Puedo Subir Mis Propias Imágenes para Crear Dibujos para Colorear Personalizados?"
+H3-10: "¿Cuánto Tiempo Toma Crear Fichas de Ejercicios Matemáticas con Crucigramas?"
+H3-11: "¿Los Crucigramas Incluyen Hoja de Respuestas para Fichas del Abecedario?"
+H3-12: "¿Puedo Crear Fichas para Imprimir sobre Temas Escolares Específicos con Números?"
+
+Keyword counts in Section 6:
+1. Fichas para imprimir: +3 (H2, H3-5, H3-12)
+2. Fichas infantil / Fichas preescolar: +2 (H3-3 preescolar, H3-6 infantil)
+3. Grafomotricidad: +2 (H3-3, H3-7)
+4. Lectoescritura: +2 (H3-3, H3-8)
+5. Ejercicios matemáticas / Fichas de matemáticas: +1 (H3-10)
+6. Colorear / Dibujos para colorear: +4 (H2, H3-4, H3-9)
+7. Abecedario / Aprender las letras: +2 (H3-5, H3-11)
+8. Números / Aprender los números: +5 (H2, H3-2, H3-4, H3-8, H3-12)
+9. Tablas de multiplicar: +3 (H2, H3-2, H3-6)
+10. Fichas gratis / Material educativo gratis: +0
+
+Running totals after Section 6:
+[ ] 1. Fichas para imprimir: 8/10 (need 2 more)
+[✓] 2. Fichas infantil / Fichas preescolar: 10/10 COMPLETE!
+[ ] 3. Grafomotricidad: 7/10 (need 3 more)
+[ ] 4. Lectoescritura: 7/10 (need 3 more)
+[✓] 5. Ejercicios matemáticas / Fichas de matemáticas: 10/10 COMPLETE!
+[ ] 6. Colorear / Dibujos para colorear: 8/10 (need 2 more)
+[ ] 7. Abecedario / Aprender las letras: 7/10 (need 3 more)
+[ ] 8. Números / Aprender los números: 8/10 (need 2 more)
+[ ] 9. Tablas de multiplicar: 6/10 (need 4 more - PRIORITY FOR SECTION 7)
+[✓] 10. Fichas gratis / Material educativo gratis: 11/10 COMPLETE!
+
+=== AFTER SECTION 7 (Combine Apps) - FINAL SECTION ===
+Section 7 has 1 H2 + 5 H3 titles
+
+H2: "Combina Crucigramas con Otras Fichas para Imprimir - Paquetes Completos de Aprender los Números, Tablas de Multiplicar y Dibujos para Colorear"
+H3-1: "Crucigramas con Fichas de Ejercicios Matemáticas y Tablas de Multiplicar - Práctica de Números y Lectoescritura Integradas"
+H3-2: "Crucigramas de Lectoescritura con Fichas de Grafomotricidad - Desarrollo Completo del Abecedario"
+H3-3: "Crucigramas con Dibujos para Colorear - Fichas Preescolar para Aprender las Letras y Vocabulario Visual"
+H3-4: "Crucigramas con Fichas para Imprimir de Todos los Temas - Paquetes de Números, Grafomotricidad, Lectoescritura y Aprender el Abecedario"
+H3-5: "Paquetes Completos de Aprendizaje - Fichas Gratis de Tablas de Multiplicar, Dibujos para Colorear y Material Educativo de Números"
+
+Keyword counts in Section 7:
+1. Fichas para imprimir: +2 (H2, H3-4)
+2. Fichas infantil / Fichas preescolar: +1 (H3-3 preescolar)
+3. Grafomotricidad: +2 (H3-2, H3-4)
+4. Lectoescritura: +3 (H3-1, H3-2, H3-4)
+5. Ejercicios matemáticas: +1 (H3-1)
+6. Colorear / Dibujos para colorear: +3 (H2, H3-3, H3-5)
+7. Abecedario / Aprender las letras: +3 (H3-2 abecedario, H3-3 aprender las letras, H3-4 abecedario)
+8. Números / Aprender los números: +4 (H2 aprender los números, H3-1, H3-4, H3-5)
+9. Tablas de multiplicar: +3 (H2, H3-1, H3-5)
+10. Fichas gratis: +1 (H3-5)
+
+FINAL TOTALS AFTER ALL 7 SECTIONS:
+[✓] 1. Fichas para imprimir: 10/10 COMPLETE!
+[✓] 2. Fichas infantil / Fichas preescolar: 11/10 COMPLETE!
+[✓] 3. Grafomotricidad: 10/10 COMPLETE!
+[✓] 4. Lectoescritura: 10/10 COMPLETE!
+[✓] 5. Ejercicios matemáticas / Fichas de matemáticas: 11/10 COMPLETE!
+[✓] 6. Colorear / Dibujos para colorear: 11/10 COMPLETE!
+[✓] 7. Abecedario / Aprender las letras: 10/10 COMPLETE!
+[✓] 8. Números / Aprender los números: 12/10 COMPLETE!
+[✓] 9. Tablas de multiplicar: 10/10 COMPLETE!
+[✓] 10. Fichas gratis / Material educativo gratis: 12/10 COMPLETE!
+
+STATUS: ALL 10 KEYWORDS COMPLETE! 100% SEO REQUIREMENTS MET! 🎉
+
+=== FINAL OPTIMIZATION (December 18, 2025) ===
+Added 2 keyword occurrences to complete the final 2 keywords:
+
+1. Grafomotricidad (9/10 → 10/10):
+   Added to FAQ H3: "¿Para Qué Edades Funcionan Mejor los Crucigramas de Aprender los Números, Lectoescritura y Grafomotricidad?"
+
+2. Tablas de multiplicar (9/10 → 10/10):
+   Added to Section 7 H3: "Crucigramas con Fichas para Imprimir de Todos los Temas - Paquetes de Números, Tablas de Multiplicar, Grafomotricidad, Lectoescritura y Aprender el Abecedario"
+
+All 10 Spanish keywords now appear ≥10 times in H2/H3 titles.
+Body text does NOT count - only H2/H3 titles matter for SEO.

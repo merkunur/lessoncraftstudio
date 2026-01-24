@@ -1,0 +1,186 @@
+KEYWORD TRACKING - Subtraction App - Norwegian
+
+TARGET: Each keyword must appear MINIMUM 10 times in H2/H3 titles ONLY
+
+Norwegian Keywords from keywords.txt:
+[ ] 1. Arbeidsark gratis: 0/10
+[ ] 2. Fargeleggingsbilder barn: 0/10
+[ ] 3. Bokstaver lære skrive: 0/10
+[ ] 4. Matematikk oppgaver / Matteoppgaver: 0/10
+[ ] 5. Gangetabellen: 0/10
+[ ] 6. Tall og telling: 0/10
+[ ] 7. Finmotorikk øvelser: 0/10
+[ ] 8. Addisjon og subtraksjon: 0/10
+[ ] 9. Oppgavehefter barn: 0/10
+[ ] 10. Lesetrening / Leseforståelse: 0/10
+
+After each section, update counts and check boxes when ≥10 reached.
+
+=============================================================================
+SECTION-BY-SECTION TRACKING
+=============================================================================
+
+After Section 1 (Hero):
+Section 1 contains only H1 (page title), no H2/H3 titles
+H1 keywords: Matematikk oppgaver (1), Addisjon og subtraksjon (1), Arbeidsark gratis (1)
+
+Running totals in H2/H3 titles only:
+[ ] 1. Arbeidsark gratis: 0/10
+[ ] 2. Fargeleggingsbilder barn: 0/10
+[ ] 3. Bokstaver lære skrive: 0/10
+[ ] 4. Matematikk oppgaver / Matteoppgaver: 0/10
+[ ] 5. Gangetabellen: 0/10
+[ ] 6. Tall og telling: 0/10
+[ ] 7. Finmotorikk øvelser: 0/10
+[ ] 8. Addisjon og subtraksjon: 0/10
+[ ] 9. Oppgavehefter barn: 0/10
+[ ] 10. Lesetrening / Leseforståelse: 0/10
+After Section 2 (Features):
+H2: Matematikk oppgaver (1), Matteoppgaver (1)
+H3 #1: Matematikk oppgaver (1), Arbeidsark gratis (1), Matteoppgaver (1)
+H3 #2: Matteoppgaver (1)
+H3 #3: Matematikk oppgaver (1)
+H3 #4: Matematikk oppgaver (1), Addisjon og subtraksjon (1)
+H3 #5: Oppgavehefter barn (1)
+H3 #6: Fargeleggingsbilder barn (1), Matteoppgaver (1)
+H3 #7: (no keywords from list)
+
+Running totals in H2/H3 titles only:
+[ ] 1. Arbeidsark gratis: 1/10
+[ ] 2. Fargeleggingsbilder barn: 1/10
+[ ] 3. Bokstaver lære skrive: 0/10
+[ ] 4. Matematikk oppgaver / Matteoppgaver: 7/10
+[ ] 5. Gangetabellen: 0/10
+[ ] 6. Tall og telling: 0/10
+[ ] 7. Finmotorikk øvelser: 0/10
+[ ] 8. Addisjon og subtraksjon: 1/10
+[ ] 9. Oppgavehefter barn: 1/10
+[ ] 10. Lesetrening / Leseforståelse: 0/10
+After Section 3 (How-To):
+H2: Matteoppgaver (1), Matematikk oppgaver (1)
+H3 #1: (no keywords from list)
+H3 #2: Matematikk oppgaver (1), Arbeidsark gratis (1)
+H3 #3: Matteoppgaver (1)
+H3 #4: Matematikk oppgaver (1), Addisjon og subtraksjon (1)
+H3 #5: Matematikk oppgaver (1)
+
+Running totals in H2/H3 titles only:
+[ ] 1. Arbeidsark gratis: 2/10
+[ ] 2. Fargeleggingsbilder barn: 1/10
+[ ] 3. Bokstaver lære skrive: 0/10
+[✓] 4. Matematikk oppgaver / Matteoppgaver: 13/10 ✓ MINIMUM REACHED!
+[ ] 5. Gangetabellen: 0/10
+[ ] 6. Tall og telling: 0/10
+[ ] 7. Finmotorikk øvelser: 0/10
+[ ] 8. Addisjon og subtraksjon: 2/10
+[ ] 9. Oppgavehefter barn: 1/10
+[ ] 10. Lesetrening / Leseforståelse: 0/10
+After Section 4 (Use Cases):
+H2: Arbeidsark gratis (1), Matematikk oppgaver (1)
+H3 #1: Tall og telling (1), Matematikk oppgaver (1)
+H3 #2: Matteoppgaver (1), Matematikk oppgaver (1)
+H3 #3: Matematikk oppgaver (1), Addisjon og subtraksjon (1)
+H3 #4: Matteoppgaver (1)
+H3 #5: Matematikk oppgaver (1)
+H3 #6: Arbeidsark gratis (1), Oppgavehefter barn (1)
+
+Running totals in H2/H3 titles only:
+[ ] 1. Arbeidsark gratis: 4/10
+[ ] 2. Fargeleggingsbilder barn: 1/10
+[ ] 3. Bokstaver lære skrive: 0/10
+[✓] 4. Matematikk oppgaver / Matteoppgaver: 20/10 ✓✓ EXCELLENT!
+[ ] 5. Gangetabellen: 0/10
+[ ] 6. Tall og telling: 1/10
+[ ] 7. Finmotorikk øvelser: 0/10
+[ ] 8. Addisjon og subtraksjon: 3/10
+[ ] 9. Oppgavehefter barn: 2/10
+[ ] 10. Lesetrening / Leseforståelse: 0/10
+After Section 5 (Subscription):
+H2: Matematikk oppgaver (1), Arbeidsark gratis (1)
+H3 #1: Matematikk oppgaver (1), Addisjon og subtraksjon (1)
+H3 #2: Oppgavehefter barn (1), Arbeidsark gratis (1)
+H3 #3: Matteoppgaver (1), Matematikk oppgaver (1)
+
+Running totals in H2/H3 titles only:
+[ ] 1. Arbeidsark gratis: 6/10
+[ ] 2. Fargeleggingsbilder barn: 1/10
+[ ] 3. Bokstaver lære skrive: 0/10
+[✓] 4. Matematikk oppgaver / Matteoppgaver: 24/10 ✓✓✓ EXCELLENT!
+[ ] 5. Gangetabellen: 0/10
+[ ] 6. Tall og telling: 1/10
+[ ] 7. Finmotorikk øvelser: 0/10
+[ ] 8. Addisjon og subtraksjon: 4/10
+[ ] 9. Oppgavehefter barn: 3/10
+[ ] 10. Lesetrening / Leseforståelse: 0/10
+After Section 6 (FAQ):
+H2: Matematikk oppgaver (1)
+H3 #1: "Arbeidsark...Gratis" (counting as Arbeidsark gratis: 1)
+H3 #2-5: no keywords from list
+H3 #6: Oppgavehefter barn (1)
+H3 #7: Matematikk oppgaver (1)
+H3 #8: Tall og telling (1), Finmotorikk øvelser (1), Bokstaver lære skrive (1)
+H3 #9: no keywords
+H3 #10: Matteoppgaver (1)
+H3 #11: no keywords
+H3 #12: Gangetabellen (1), Addisjon og subtraksjon (1), Lesetrening (1), Fargeleggingsbilder barn (1)
+
+Running totals in H2/H3 titles only:
+[ ] 1. Arbeidsark gratis: 7/10 (need 3 more in Section 7)
+[ ] 2. Fargeleggingsbilder barn: 2/10 (need 8 more in Section 7)
+[ ] 3. Bokstaver lære skrive: 1/10 (need 9 more in Section 7)
+[✓] 4. Matematikk oppgaver / Matteoppgaver: 27/10 ✓✓✓ EXCELLENT!
+[ ] 5. Gangetabellen: 1/10 (need 9 more in Section 7)
+[ ] 6. Tall og telling: 2/10 (need 8 more in Section 7)
+[ ] 7. Finmotorikk øvelser: 1/10 (need 9 more in Section 7)
+[ ] 8. Addisjon og subtraksjon: 5/10 (need 5 more in Section 7)
+[ ] 9. Oppgavehefter barn: 4/10 (need 6 more in Section 7)
+[ ] 10. Lesetrening / Leseforståelse: 1/10 (need 9 more in Section 7)
+After Section 7 (Combine Apps) - FINAL WITH ALL 11 H3 SUBSECTIONS:
+H2: Arbeidsark gratis (1), Oppgavehefter barn (1), Matematikk oppgaver (1)
+H3 #1: Gangetabellen (3), Addisjon og subtraksjon (1), Tall og telling (2), Matematikk oppgaver (1), Matteoppgaver (1)
+H3 #2: Lesetrening (3), Leseforståelse (2), Bokstaver lære skrive (2)
+H3 #3: Finmotorikk øvelser (4), Bokstaver lære skrive (2), Tall og telling (1)
+H3 #4: Fargeleggingsbilder barn (5), Addisjon og subtraksjon (1), Gangetabellen (1), Tall og telling (1), Matematikk oppgaver (1)
+H3 #5: Oppgavehefter barn (3), Arbeidsark gratis (1), Lesetrening (1), Leseforståelse (1), Matematikk oppgaver (1), Bokstaver lære skrive (1)
+H3 #6: Arbeidsark gratis (1), Fargeleggingsbilder barn (2), Oppgavehefter barn (1), Gangetabellen (1), Tall og telling (1)
+H3 #7: Finmotorikk øvelser (3), Bokstaver lære skrive (1), Addisjon og subtraksjon (1)
+H3 #8: Gangetabellen (2), Tall og telling (2), Addisjon og subtraksjon (1), Oppgavehefter barn (1)
+H3 #9: Lesetrening (2), Leseforståelse (2), Bokstaver lære skrive (1), Oppgavehefter barn (1), Arbeidsark gratis (1)
+H3 #10: Arbeidsark gratis (1), Fargeleggingsbilder barn (1), Bokstaver lære skrive (1), Gangetabellen (1), Finmotorikk øvelser (1), Oppgavehefter barn (1)
+H3 #11: Oppgavehefter barn (1), Tall og telling (1), Lesetrening (1), Leseforståelse (1), Addisjon og subtraksjon (1), Fargeleggingsbilder barn (1)
+
+Section 7 keyword additions:
+1. Arbeidsark gratis: 1 + 1 + 1 + 1 + 1 = 5
+2. Fargeleggingsbilder barn: 5 + 2 + 1 + 1 = 9
+3. Bokstaver lære skrive: 2 + 2 + 1 + 1 + 1 + 1 = 8
+4. Matematikk oppgaver / Matteoppgaver: 1 + 2 + 1 + 1 = 5
+5. Gangetabellen: 3 + 1 + 1 + 2 + 1 = 8
+6. Tall og telling: 2 + 1 + 1 + 1 + 2 + 1 = 8
+7. Finmotorikk øvelser: 4 + 3 + 1 = 8
+8. Addisjon og subtraksjon: 1 + 1 + 1 + 1 + 1 = 5
+9. Oppgavehefter barn: 1 + 3 + 1 + 1 + 1 + 1 + 1 = 9
+10. Lesetrening / Leseforståelse: 5 + 2 + 4 + 2 = 13
+
+H3 #12 ADDED: "Bokstaver Lære Skrive, Gangetabellen og Finmotorikk Øvelser Kombinasjoner - Integrerte Bokstaver Lære Skrive, Gangetabellen og Finmotorikk Øvelser Arbeidsark"
+- Bokstaver lære skrive: 2
+- Gangetabellen: 2
+- Finmotorikk øvelser: 2
+
+=============================================================================
+FINAL TOTALS (After Section 7 - ALL 12 H3s) ✓✓✓ COMPLETE ✓✓✓
+=============================================================================
+[✓] 1. Arbeidsark gratis: 7 + 5 = 12/10 ✓✓ PASSED!
+[✓] 2. Fargeleggingsbilder barn: 2 + 9 = 11/10 ✓✓ PASSED!
+[✓] 3. Bokstaver lære skrive: 1 + 8 + 2 = 11/10 ✓✓ PASSED!
+[✓] 4. Matematikk oppgaver / Matteoppgaver: 27 + 5 = 32/10 ✓✓✓ EXCELLENT!
+[✓] 5. Gangetabellen: 1 + 8 + 2 = 11/10 ✓✓ PASSED!
+[✓] 6. Tall og telling: 2 + 8 = 10/10 ✓ PASSED!
+[✓] 7. Finmotorikk øvelser: 1 + 8 + 2 = 11/10 ✓✓ PASSED!
+[✓] 8. Addisjon og subtraksjon: 5 + 5 = 10/10 ✓ PASSED!
+[✓] 9. Oppgavehefter barn: 4 + 9 = 13/10 ✓✓ PASSED!
+[✓] 10. Lesetrening / Leseforståelse: 1 + 13 = 14/10 ✓✓ PASSED!
+
+🎯 KEYWORDS PASSED: 10 out of 10 ✓✓✓ 100% SUCCESS! 🎯
+
+ALL NORWEGIAN KEYWORDS REACHED MINIMUM 10 OCCURRENCES IN H2/H3 TITLES!
+=============================================================================

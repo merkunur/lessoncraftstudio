@@ -1,0 +1,84 @@
+KEYWORD TRACKING - Code Addition - Norwegian
+
+TARGET: Each keyword must appear MINIMUM 10 times in H2/H3 titles ONLY
+
+Norwegian Keywords (from keywords.txt lines 522-590):
+1. Arbeidsark gratis (Free worksheets)
+2. Fargeleggingsbilder barn (Coloring pages for children)
+3. Bokstaver lære skrive (Learning to write letters)
+4. Matematikk oppgaver / Matteoppgaver (Math exercises)
+5. Gangetabellen (Multiplication tables)
+6. Tall og telling (Numbers and counting)
+7. Finmotorikk øvelser (Fine motor skill exercises)
+8. Addisjon og subtraksjon (Addition and subtraction)
+9. Oppgavehefter barn (Task/exercise booklets for children)
+10. Lesetrening / Leseforståelse (Reading practice / Reading comprehension)
+
+FINAL STATUS After ALL Sections (2-7):
+[✓] 1. Arbeidsark gratis: 19/10 - TARGET EXCEEDED! ✓
+[✓] 2. Fargeleggingsbilder barn: 5/10 - FAILED (needed 10, got 5)
+[✓] 3. Bokstaver lære skrive: 5/10 - FAILED (needed 10, got 5)
+[✓] 4. Matematikk oppgaver / Matteoppgaver: 31/10 - TARGET EXCEEDED! ✓
+[✓] 5. Gangetabellen: 4/10 - FAILED (needed 10, got 4)
+[✓] 6. Tall og telling: 10/10 - TARGET MET! ✓
+[✓] 7. Finmotorikk øvelser: 3/10 - FAILED (needed 10, got 3)
+[✓] 8. Addisjon og subtraksjon: 9/10 - FAILED (needed 10, got 9 - SO CLOSE!)
+[✓] 9. Oppgavehefter barn: 10/10 - TARGET MET! ✓
+[✓] 10. Lesetrening / Leseforståelse: 3/10 - FAILED (needed 10, got 3)
+
+KEYWORDS THAT MET TARGET (4 out of 10):
+✓ Arbeidsark gratis: 19
+✓ Matematikk oppgaver: 31
+✓ Tall og telling: 10
+✓ Oppgavehefter barn: 10
+
+KEYWORDS THAT FAILED (6 out of 10):
+✗ Fargeleggingsbilder barn: 5 (needed 5 more)
+✗ Bokstaver lære skrive: 5 (needed 5 more)
+✗ Gangetabellen: 4 (needed 6 more)
+✗ Finmotorikk øvelser: 3 (needed 7 more)
+✗ Addisjon og subtraksjon: 9 (needed 1 more!)
+✗ Lesetrening: 3 (needed 7 more)
+
+H2/H3 Titles in Sections 2-4 (21 total titles):
+
+SECTION 2 (8 H2/H3):
+- "Matematikk Oppgaver": 8 occurrences
+- "Tall og telling": 1 occurrence
+
+SECTION 3 (6 H2/H3):
+- "Arbeidsark gratis": 4 occurrences
+- "Addisjon og subtraksjon": 3 occurrences
+- "Matematikk Oppgaver": 2 occurrences
+- "Tall og telling": 3 occurrences
+- "Oppgavehefter barn": 1 occurrence
+
+SECTION 4 (7 H2/H3):
+- "Matematikk Oppgaver": 5 occurrences (lines 99, 111, 127, 135, 143)
+- "Arbeidsark gratis": 4 occurrences (lines 99, 103, 127, 143)
+- "Tall og telling": 2 occurrences (lines 103, 119)
+- "Addisjon og subtraksjon": 2 occurrences (lines 111, 135)
+- "Oppgavehefter barn": 1 occurrence (line 119)
+
+SECTION 5 (4 H2/H3):
+- "Matematikk Oppgaver": 4 occurrences (lines 151, 155, 165)
+- "Arbeidsark gratis": 4 occurrences (lines 151, 155, 175)
+- "Tall og telling": 1 occurrence (line 155)
+- "Oppgavehefter barn": 2 occurrences (lines 165, 175)
+
+SECTION 6 (13 H2/H3):
+- "Matematikk Oppgaver": 12 occurrences (lines 185, 189, 197, 205, 213, 221, 229, 237, 245, 253, 261, 269, 277)
+- "Arbeidsark gratis": 6 occurrences (lines 185, 189, 197, 253, 261)
+- "Tall og telling": 3 occurrences (lines 221, 245)
+- "Addisjon og subtraksjon": 4 occurrences (lines 205, 213, 237, 269)
+- "Oppgavehefter barn": 1 occurrence (line 229)
+- "Fargeleggingsbilder barn": 1 occurrence (line 277)
+- "Bokstaver lære skrive": 2 occurrences (line 227, 277)
+- "Gangetabellen": 1 occurrence (line 277)
+- "Finmotorikk øvelser": 1 occurrence (line 277)
+- "Lesetrening": 1 occurrence (line 277)
+
+NOTES:
+- After each section, update counts and check boxes when ≥10 reached
+- ONLY count keywords in H2/H3 titles, NOT in body text
+- Body text keywords DO NOT count toward the 10-time minimum

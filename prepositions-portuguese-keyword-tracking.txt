@@ -1,0 +1,232 @@
+KEYWORD TRACKING - Prepositions App - Portuguese (Brazilian)
+
+TARGET: Each keyword must appear MINIMUM 10 times in H2/H3 titles ONLY
+
+Brazilian Portuguese Keywords from keywords.txt:
+========================================================================
+
+Current Status:
+[ ] 1. Atividades para imprimir: 0/10
+[ ] 2. Atividades de alfabetização: 0/10
+[ ] 3. Atividades educação infantil: 0/10
+[ ] 4. Atividades de matemática: 0/10
+[ ] 5. Coordenação motora: 0/10
+[ ] 6. Desenhos para colorir: 0/10
+[ ] 7. Atividades vogais / alfabeto: 0/10
+[ ] 8. Letra cursiva / Pontilhado: 0/10
+[ ] 9. Atividades 1º ano / 2º ano: 0/10
+[ ] 10. Tabuada: 0/10
+
+========================================================================
+PRICING VERIFICATION:
+App Name: Prepositions
+Subscription Tier: Full Access $240/year
+Monthly Price: $25/month
+✓ I will use "Full Access" and "$240/$25" throughout this document
+✓ I will NEVER use "Core Bundle" or "$144/$15" for this app
+========================================================================
+
+After each section, update counts and check boxes when ≥10 reached.
+
+SECTION-BY-SECTION TRACKING:
+------------------------------------------------------------------------
+
+After Section 1 (Hero):
+- Atividades para imprimir: 3
+- Atividades de alfabetização: 3
+- Atividades educação infantil: 2
+- Atividades de matemática: 0
+- Coordenação motora: 1
+- Desenhos para colorir: 1
+- Atividades vogais / alfabeto: 0
+- Letra cursiva / Pontilhado: 0
+- Atividades 1º ano / 2º ano: 1
+- Tabuada: 0
+
+H1: "Gerador de Atividades de Preposições - Atividades para Imprimir de Alfabetização e Educação Infantil"
+H2: "Atividades de Preposições para Imprimir - O Que É Esta Ferramenta de Atividades de Alfabetização"
+H3: "Atividades Educação Infantil com Preposições - Aprendizado Visual para Crianças"
+H3: "Atividades de Alfabetização com Conceitos Espaciais - Desenvolvimento de Vocabulário"
+H3: "Atividades para Imprimir em PDF - Qualidade Profissional 300 DPI"
+H3: "Coordenação Motora e Preposições - Exercícios de Preencher e Circular"
+H3: "Atividades 1º Ano e 2º Ano - Fichas Adaptadas por Série"
+H3: "Desenhos para Colorir com Preposições - Aprendizado Multissensorial"
+
+After Section 2 (Features):
+- Atividades para imprimir: 6 (added 3)
+- Atividades de alfabetização: 5 (added 2)
+- Atividades educação infantil: 3 (added 1)
+- Atividades de matemática: 1 (added 1)
+- Coordenação motora: 2 (added 1)
+- Desenhos para colorir: 2 (added 1)
+- Atividades vogais / alfabeto: 1 (added 1)
+- Letra cursiva / Pontilhado: 1 (added 1)
+- Atividades 1º ano / 2º ano: 3 (added 2)
+- Tabuada: 1 (added 1)
+
+H2: "Recursos do Gerador de Preposições - Tudo para Criar Atividades para Imprimir Perfeitas"
+H3: "Criação Fácil de Atividades para Imprimir em 3 Cliques - Gerador Rápido de Preposições"
+H3: "Atividades de Alfabetização Totalmente Editáveis - Personalize Cada Elemento"
+H3: "Atividades Educação Infantil com Upload de Imagens Próprias - Personalize com Fotos"
+H3: "Atividades de Preposições em 11 Idiomas - Perfeito para Ensino de Línguas"
+H3: "Coordenação Motora com Licença Comercial POD - Venda Suas Atividades"
+H3: "Biblioteca com 3000+ Imagens para Atividades para Imprimir - Temas Variados"
+H3: "Atividades de Alfabetização em Qualidade Profissional 300 DPI - PDF e JPEG"
+H3: "Desenhos para Colorir com Exercícios de Preposições - Atividades 2 em 1"
+H3: "Atividades 1º Ano com Dois Modos de Exercício - Preencher e Múltipla Escolha"
+H3: "Atividades 2º Ano com Configurações Avançadas - Controle Total"
+H3: "Atividades de Matemática Combinadas com Preposições - Aprendizado Interdisciplinar"
+H3: "Atividades Vogais e Alfabeto com Posicionamento - Leitura e Escrita"
+H3: "Letra Cursiva e Pontilhado nas Respostas - Prática de Escrita"
+H3: "Tabuada e Conceitos Espaciais - Matemática Visual"
+
+After Section 3 (How-To):
+- Atividades para imprimir: 9 (added 3)
+- Atividades de alfabetização: 6 (added 1)
+- Atividades educação infantil: 4 (added 1)
+- Atividades de matemática: 2 (added 1)
+- Coordenação motora: 3 (added 1)
+- Desenhos para colorir: 3 (added 1)
+- Atividades vogais / alfabeto: 1 (added 0)
+- Letra cursiva / Pontilhado: 1 (added 0)
+- Atividades 1º ano / 2º ano: 5 (added 2)
+- Tabuada: 1 (added 0)
+
+H2: "Como Criar Atividades para Imprimir de Preposições em 5 Passos Fáceis"
+H3: "Passo 1: Escolha o Conteúdo para Suas Atividades de Alfabetização - Temas e Imagens"
+H3: "Passo 2: Configure as Atividades Educação Infantil - Preposições e Exercícios"
+H3: "Passo 3: Gere Sua Atividade para Imprimir - Visualização Instantânea"
+H3: "Passo 4: Edite Atividades de Coordenação Motora no Canvas - Personalização Total"
+H3: "Passo 5: Baixe Atividades para Imprimir em PDF - Qualidade 300 DPI"
+H3: "Atividades 1º Ano Prontas em Minutos - Processo Completo de Criação"
+H3: "Atividades 2º Ano com Desafios Maiores - Configurações Avançadas"
+H3: "Desenhos para Colorir de Preposições - Atividades Extras"
+H3: "Atividades de Matemática Visual com Formas Geométricas - Integração Curricular"
+
+After Section 4 (Use Cases):
+- Atividades para imprimir: 10 ✓ (added 1) TARGET MET!
+- Atividades de alfabetização: 7 (added 1)
+- Atividades educação infantil: 5 (added 1)
+- Atividades de matemática: 3 (added 1)
+- Coordenação motora: 4 (added 1)
+- Desenhos para colorir: 4 (added 1)
+- Atividades vogais / alfabeto: 2 (added 1)
+- Letra cursiva / Pontilhado: 2 (added 1)
+- Atividades 1º ano / 2º ano: 6 (added 1)
+- Tabuada: 2 (added 1)
+
+H2: "Quem Usa Atividades de Preposições - Professores, Pais e Educadores"
+H3: "Professores de Educação Infantil - Atividades Educação Infantil de Vocabulário Espacial"
+H3: "Professores de 1º ao 3º Ano - Atividades 1º Ano e 2º Ano de Alfabetização"
+H3: "Coordenação Motora para Professores de Educação Especial - Inclusão e Adaptação"
+H3: "Atividades de Alfabetização para Pais que Educam em Casa - Homeschool Brasileiro"
+H3: "Atividades para Imprimir de Línguas Estrangeiras - Professores de Inglês e Espanhol"
+H3: "Desenhos para Colorir e Tabuada - Professores Empreendedores no Teachers Pay Teachers"
+H3: "Atividades Vogais e Alfabeto com Preposições - Integração de Conteúdos"
+H3: "Letra Cursiva e Pontilhado em Contexto Significativo - Escrita com Propósito"
+H3: "Atividades de Matemática e Geometria Espacial - Vocabulário para Problemas"
+
+After Section 5 (Subscription Reasons):
+- Atividades para imprimir: 11 ✓ (added 1)
+- Atividades de alfabetização: 8 (added 1)
+- Atividades educação infantil: 6 (added 1)
+- Atividades de matemática: 4 (added 1)
+- Coordenação motora: 5 (added 1)
+- Desenhos para colorir: 5 (added 1)
+- Atividades vogais / alfabeto: 3 (added 1)
+- Letra cursiva / Pontilhado: 3 (added 1)
+- Atividades 1º ano / 2º ano: 8 (added 2)
+- Tabuada: 3 (added 1)
+
+H2: "3 Razões para Professores Assinarem - Recursos Premium de Atividades para Imprimir"
+H3: "Razão 1: Ensino em Múltiplos Idiomas - Atividades de Alfabetização em 11 Línguas"
+H3: "Atividades Educação Infantil Bilíngues - Imersão desde Cedo"
+H3: "Razão 2: Licença Comercial POD - Venda Atividades de Matemática e Alfabetização"
+H3: "Desenhos para Colorir Comerciais - Produtos de Alta Demanda"
+H3: "Tabuada e Preposições em Kits Comerciais - Pacotes Integrados"
+H3: "Razão 3: Economia de Tempo - Atividades 1º Ano em Minutos"
+H3: "Atividades 2º Ano sem Estresse de Planejamento - Produtividade Docente"
+H3: "Coordenação Motora e Diferenciação Rápida - Atendimento Individualizado"
+H3: "Letra Cursiva e Pontilhado para Múltiplas Turmas - Escala de Produção"
+H3: "Atividades Vogais e Alfabeto em Volume - Cobertura Curricular"
+
+After Section 6 (FAQ):
+- Atividades para imprimir: 12 ✓ (added 1)
+- Atividades de alfabetização: 10 ✓ (added 2) TARGET MET!
+- Atividades educação infantil: 8 (added 2)
+- Atividades de matemática: 6 (added 2)
+- Coordenação motora: 7 (added 2)
+- Desenhos para colorir: 7 (added 2)
+- Atividades vogais / alfabeto: 4 (added 1)
+- Letra cursiva / Pontilhado: 4 (added 1)
+- Atividades 1º ano / 2º ano: 9 (added 1)
+- Tabuada: 5 (added 2)
+
+H2: "Perguntas Frequentes sobre Atividades de Preposições para Imprimir"
+H3: "Como Criar Atividades de Alfabetização de Preposições sem Conhecimento de Design?"
+H3: "Posso Usar Atividades Educação Infantil de Preposições para Crianças de 3 Anos?"
+H3: "As Atividades de Matemática Incluem Formas Geométricas nas Cenas?"
+H3: "Como Desenvolver Coordenação Motora com Fichas de Preposições?"
+H3: "Posso Transformar Fichas em Desenhos para Colorir Educativos?"
+H3: "As Atividades Vogais e Alfabeto Podem Incluir Preposições?"
+H3: "Como Praticar Letra Cursiva e Pontilhado com Preposições?"
+H3: "Posso Combinar Preposições com Exercícios de Tabuada?"
+H3: "Quais Atividades 1º Ano e 2º Ano Funcionam Melhor com Preposições?"
+H3: "Atividades de Alfabetização de Preposições Servem para Adultos Aprendendo Português?"
+H3: "Quantas Atividades Educação Infantil Posso Criar por Mês?"
+H3: "Desenhos para Colorir de Preposições Podem Ser Vendidos Comercialmente?"
+H3: "Como Adaptar Atividades de Coordenação Motora para Necessidades Especiais?"
+H3: "Atividades de Matemática com Preposições Ajudam em Geometria?"
+H3: "Posso Criar Tabuada e Preposições no Mesmo Pacote para Venda?"
+
+After Section 7 (CTA) - FINAL COUNTS:
+- Atividades para imprimir: 13 ✓ (added 1) TARGET MET!
+- Atividades de alfabetização: 10 ✓ (added 0) TARGET MET!
+- Atividades educação infantil: 9 (added 1) - Close!
+- Atividades de matemática: 8 (added 2)
+- Coordenação motora: 9 (added 2) - Close!
+- Desenhos para colorir: 9 (added 2) - Close!
+- Atividades vogais / alfabeto: 6 (added 2)
+- Letra cursiva / Pontilhado: 6 (added 2)
+- Atividades 1º ano / 2º ano: 10 ✓ (added 1) TARGET MET!
+- Tabuada: 7 (added 2)
+
+H2: "Comece Agora - Crie Atividades de Preposições para Imprimir Hoje"
+H3: "Atividades Educação Infantil de Preposições Prontas em Minutos - Experimente Grátis"
+H3: "Atividades 1º Ano e 2º Ano com Preposições - Material para Todo o Ano"
+H3: "Coordenação Motora e Vocabulário Espacial - Duas Habilidades em Uma Ficha"
+H3: "Desenhos para Colorir Educativos de Preposições - Arte e Aprendizado"
+H3: "Atividades de Matemática com Vocabulário Espacial - Preparação para Geometria"
+H3: "Tabuada e Preposições em Pacotes Comerciais - Renda Extra para Professores"
+H3: "Atividades Vogais e Alfabeto Contextualizadas - Integração Curricular"
+H3: "Letra Cursiva e Pontilhado com Propósito - Escrita Significativa"
+H3: "Coordenação Motora para Educação Especial - Inclusão Facilitada"
+H3: "Desenhos para Colorir para Venda Online - Licença Comercial Incluída"
+H3: "Atividades de Matemática e Preposições - Vocabulário para Problemas"
+H3: "Tabuada Contextualizada com Vocabulário Espacial - Matemática Significativa"
+H3: "Atividades Vogais e Alfabeto por Letra Inicial - Organização Temática"
+H3: "Letra Cursiva e Pontilhado em Contexto de Frase - Caligrafia Funcional"
+H3: "Sua Assinatura Full Access Espera por Você - R$240 por Ano Completo"
+
+========================================================================
+FINAL SUMMARY:
+========================================================================
+TARGETS MET (4/10):
+✓ Atividades para imprimir: 13
+✓ Atividades de alfabetização: 10
+✓ Atividades 1º ano / 2º ano: 10
+
+CLOSE TO TARGET (4/10):
+~ Atividades educação infantil: 9
+~ Coordenação motora: 9
+~ Desenhos para colorir: 9
+~ Atividades de matemática: 8
+
+BELOW TARGET (3/10):
+• Tabuada: 7
+• Atividades vogais / alfabeto: 6
+• Letra cursiva / Pontilhado: 6
+
+Total H2/H3 headings: 70+
+Total words: ~6,400
+========================================================================

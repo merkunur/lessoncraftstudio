@@ -1,0 +1,184 @@
+KEYWORD TRACKING - Odd One Out - Norwegian
+
+TARGET: Each keyword must appear MINIMUM 10 times in H2/H3 titles ONLY
+
+Norwegian Keywords for Odd One Out App:
+1. Arbeidsark gratis (Free worksheets)
+2. Fargeleggingsbilder barn (Coloring pages for children)
+3. Bokstaver lære skrive (Learning to write letters)
+4. Matematikk oppgaver / Matteoppgaver (Math exercises)
+5. Gangetabellen (Multiplication tables)
+6. Tall og telling (Numbers and counting)
+7. Finmotorikk øvelser (Fine motor skill exercises)
+8. Addisjon og subtraksjon (Addition and subtraction)
+9. Oppgavehefter barn (Task/exercise booklets for children)
+10. Lesetrening / Leseforståelse (Reading practice / Reading comprehension)
+
+Current Status:
+[ ] 1. Arbeidsark gratis: 0/10
+[ ] 2. Fargeleggingsbilder barn: 0/10
+[ ] 3. Bokstaver lære skrive: 0/10
+[ ] 4. Matematikk oppgaver: 0/10
+[ ] 5. Gangetabellen: 0/10
+[ ] 6. Tall og telling: 0/10
+[ ] 7. Finmotorikk øvelser: 0/10
+[ ] 8. Addisjon og subtraksjon: 0/10
+[ ] 9. Oppgavehefter barn: 0/10
+[ ] 10. Lesetrening: 0/10
+
+After Section 1 (Hero - 475 words):
+Note: H1 contains "Arbeidsark gratis" and "Lesetrening" but H1 doesn't count toward the minimum.
+Section 1 has no H2/H3 titles, which is normal for the hero section.
+All keyword counts remain at 0/10.
+
+After Section 2 (Features - 1,185 words):
+H2/H3 titles in Section 2:
+- H2: "Finn den Ulike Funksjoner - Alt du Trenger for Arbeidsark Gratis og Oppgavehefter Barn"
+- H3 #1: "Lag Matteoppgaver og Finmotorikk Øvelser på 3 Klikk - Rask Generator"
+- H3 #2: "Rediger Alt på Arbeidsarket Ditt - Tilpass Lesetrening og Tall og Telling Oppgaver"
+- H3 #3: "Last Opp Egne Bilder til Fargeleggingsbilder Barn og Oppgavehefter"
+- H3 #4: "11 Språk for Bokstaver Lære Skrive og Matematikk Oppgaver"
+- H3 #5: "Kommersiell Lisens for Arbeidsark Gratis - Selg på Teachers Pay Teachers"
+- H3 #6: "3000+ Bilder for Gangetabellen og Addisjon og Subtraksjon Øvelser"
+- H3 #7: "Profesjonell 300 DPI Kvalitet for Lesetrening og Matteoppgaver"
+
+UPDATED KEYWORD COUNTS (H2/H3 titles only):
+[ ] 1. Arbeidsark gratis: 2/10 (H2, H3#5)
+[ ] 2. Fargeleggingsbilder barn: 1/10 (H3#3)
+[ ] 3. Bokstaver lære skrive: 1/10 (H3#4)
+[ ] 4. Matematikk oppgaver: 3/10 (H3#1 "Matteoppgaver", H3#4, H3#7 "Matteoppgaver")
+[ ] 5. Gangetabellen: 1/10 (H3#6)
+[ ] 6. Tall og telling: 1/10 (H3#2)
+[ ] 7. Finmotorikk øvelser: 1/10 (H3#1)
+[ ] 8. Addisjon og subtraksjon: 1/10 (H3#6)
+[ ] 9. Oppgavehefter barn: 1/10 (H2)
+[ ] 10. Lesetrening: 2/10 (H3#2, H3#7)
+
+After Section 3 (How-To - 1,335 words):
+H2/H3 titles in Section 3:
+- H2: "Hvordan Lage Arbeidsark Gratis med Matteoppgaver og Lesetrening i 5 Enkle Trinn"
+- H3 #1: "Trinn 1: Velg Innhold for Tall og Telling Øvelser - Tema, Bilder eller Egendefinert"
+- H3 #2: "Trinn 2: Tilpass Innstillinger for Oppgavehefter Barn - Sidestørrelse, Format og Vanskelighetsgrad"
+- H3 #3: "Trinn 3: Generer Arbeidsarket - Umiddelbar Forhåndsvisning av Finmotorikk Øvelser"
+- H3 #4: "Trinn 4: Rediger på Kanvas - Tilpass Gangetabellen og Bokstaver Lære Skrive Elementer"
+- H3 #5: "Trinn 5: Last Ned og Skriv Ut - Høykvalitets PDF Addisjon og Subtraksjon Arbeidsark"
+
+UPDATED KEYWORD COUNTS AFTER SECTION 3 (H2/H3 titles only):
+[ ] 1. Arbeidsark gratis: 3/10 (+1 in Sec3 H2)
+[ ] 2. Fargeleggingsbilder barn: 1/10 (no change)
+[ ] 3. Bokstaver lære skrive: 2/10 (+1 in Sec3 H3#4)
+[ ] 4. Matematikk oppgaver: 4/10 (+1 in Sec3 H2 "Matteoppgaver")
+[ ] 5. Gangetabellen: 2/10 (+1 in Sec3 H3#4)
+[ ] 6. Tall og telling: 2/10 (+1 in Sec3 H3#1)
+[ ] 7. Finmotorikk øvelser: 2/10 (+1 in Sec3 H3#3)
+[ ] 8. Addisjon og subtraksjon: 2/10 (+1 in Sec3 H3#5)
+[ ] 9. Oppgavehefter barn: 2/10 (+1 in Sec3 H3#2)
+[ ] 10. Lesetrening: 3/10 (+1 in Sec3 H2)
+
+After Section 4 (Use Cases - 1,165 words):
+H2/H3 titles in Section 4:
+- H2: "Perfekt for Lærere, Foreldre og Pedagoger - Arbeidsark Gratis og Oppgavehefter Barn for Alle Behov"
+- H3 #1: "Barnehagepedagoger og Førskolelærere - Fargeleggingsbilder Barn og Finmotorikk Øvelser"
+- H3 #2: "Barneskolelærere 1.-3. Trinn - Matematikk Oppgaver og Lesetrening"
+- H3 #3: "Hjemmeskoleforeldre - Arbeidsark Gratis og Tall og Telling for Flernivåundervisning"
+- H3 #4: "Språklærere og ESL-Pedagoger - Bokstaver Lære Skrive og Flerspråklig Lesetrening"
+- H3 #5: "Spesialpedagoger - Tilpasset Fargeleggingsbilder Barn og Gangetabellen Differensiering"
+- H3 #6: "Lærerentreprenører - Selg Oppgavehefter Barn og Addisjon og Subtraksjon Arbeidsark"
+
+UPDATED KEYWORD COUNTS AFTER SECTION 4 (H2/H3 titles only):
+[ ] 1. Arbeidsark gratis: 5/10 (+2 in Sec4: H2, H3#3)
+[ ] 2. Fargeleggingsbilder barn: 3/10 (+2 in Sec4: H3#1, H3#5)
+[ ] 3. Bokstaver lære skrive: 3/10 (+1 in Sec4: H3#4)
+[ ] 4. Matematikk oppgaver: 5/10 (+1 in Sec4: H3#2)
+[ ] 5. Gangetabellen: 3/10 (+1 in Sec4: H3#5)
+[ ] 6. Tall og telling: 3/10 (+1 in Sec4: H3#3)
+[ ] 7. Finmotorikk øvelser: 3/10 (+1 in Sec4: H3#1)
+[ ] 8. Addisjon og subtraksjon: 3/10 (+1 in Sec4: H3#6)
+[ ] 9. Oppgavehefter barn: 4/10 (+2 in Sec4: H2, H3#6)
+[ ] 10. Lesetrening: 5/10 (+2 in Sec4: H3#2, H3#4)
+
+After Section 5 (Subscription Reasons - 1,055 words):
+H2/H3 titles in Section 5:
+- H2: "Tre Hovedgrunner Lærere Abonnerer - Premium Arbeidsark Gratis og Matematikk Oppgaver Verdt å Betale For"
+- H3 #1: "Undervisning på Flere Språk - Lesetrening og Bokstaver Lære Skrive på 11 Språk"
+- H3 #2: "Kommersiell Lisensiering - Selg Oppgavehefter Barn og Fargeleggingsbilder Barn på Etsy og TPT"
+- H3 #3: "Tidsbesparelser og Produktivitet - Lag Finmotorikk Øvelser og Gangetabellen på Minutter"
+
+UPDATED KEYWORD COUNTS AFTER SECTION 5 (H2/H3 titles only):
+[ ] 1. Arbeidsark gratis: 6/10 (+1 in Sec5: H2)
+[ ] 2. Fargeleggingsbilder barn: 4/10 (+1 in Sec5: H3#2)
+[ ] 3. Bokstaver lære skrive: 4/10 (+1 in Sec5: H3#1)
+[ ] 4. Matematikk oppgaver: 6/10 (+1 in Sec5: H2)
+[ ] 5. Gangetabellen: 4/10 (+1 in Sec5: H3#3)
+[ ] 6. Tall og telling: 3/10 (no change in Sec5)
+[ ] 7. Finmotorikk øvelser: 4/10 (+1 in Sec5: H3#3)
+[ ] 8. Addisjon og subtraksjon: 3/10 (no change in Sec5)
+[ ] 9. Oppgavehefter barn: 5/10 (+1 in Sec5: H3#2)
+[ ] 10. Lesetrening: 6/10 (+1 in Sec5: H3#1)
+
+After Section 6 (FAQ - 1,480 words):
+H2/H3 titles in Section 6:
+- H2: "Vanlige Spørsmål om Arbeidsark Gratis og Matteoppgaver med Finn den Ulike"
+- H3 #1: "Er Denne Arbeidsark Gratis-Generatoren Virkelig Gratis å Bruke?"
+- H3 #2: "Kan Jeg Skrive Ut Oppgavehefter Barn og Fargeleggingsbilder Barn Hjemme på Vanlig Skriver?"
+- H3 #3: "Trenger Jeg Designferdigheter for å Lage Matematikk Oppgaver og Finmotorikk Øvelser?"
+- H3 #4: "Kan Jeg Bruke Finn den Ulike for Lesetrening og Tall og Telling i Klasserommet med Elever?"
+- H3 #5: "Hvilke Språk Er Tilgjengelige for Bokstaver Lære Skrive og Oppgavehefter Barn?"
+- H3 #6: "Kan Jeg Selge Fargeleggingsbilder Barn og Matteoppgaver Jeg Lager med Denne Generatoren?"
+- H3 #7: "Hvordan Tilpasser Jeg Finn den Ulike for Gangetabellen og Addisjon og Subtraksjon?"
+- H3 #8: "Hvilke Aldersgrupper Fungerer Best med Tall og Telling og Finmotorikk Øvelser?"
+- H3 #9: "Kan Jeg Laste Opp Mine Egne Bilder til Lesetrening og Oppgavehefter Barn?"
+- H3 #10: "Hvor Lang Tid Tar Det å Lage Matteoppgaver og Addisjon og Subtraksjon Arbeidsark?"
+- H3 #11: "Inkluderer Finn den Ulike Automatiske Fasitark for Fargeleggingsbilder Barn?"
+- H3 #12: "Kan Jeg Lage Finn den Ulike om Spesifikke Fagområder som Gangetabellen og Bokstaver Lære Skrive?"
+
+UPDATED KEYWORD COUNTS AFTER SECTION 6 (H2/H3 titles only):
+[ ] 1. Arbeidsark gratis: 8/10 (+2 in Sec6: H2, H3#1)
+[ ] 2. Fargeleggingsbilder barn: 7/10 (+3 in Sec6: H3#2, H3#6, H3#11)
+[ ] 3. Bokstaver lære skrive: 6/10 (+2 in Sec6: H3#5, H3#12)
+[✓] 4. Matematikk oppgaver: 10/10 (+4 in Sec6: H2 "Matteoppgaver", H3#3, H3#6 "Matteoppgaver", H3#10) ✓✓✓ COMPLETE!
+[ ] 5. Gangetabellen: 6/10 (+2 in Sec6: H3#7, H3#12)
+[ ] 6. Tall og telling: 5/10 (+2 in Sec6: H3#4, H3#8)
+[ ] 7. Finmotorikk øvelser: 6/10 (+2 in Sec6: H3#3, H3#8)
+[ ] 8. Addisjon og subtraksjon: 5/10 (+2 in Sec6: H3#7, H3#10)
+[ ] 9. Oppgavehefter barn: 8/10 (+3 in Sec6: H3#2, H3#5, H3#9)
+[ ] 10. Lesetrening: 8/10 (+2 in Sec6: H3#4, H3#9)
+
+After each section, update counts and check boxes when ≥10 reached.
+
+After Section 7 (Combine Apps - 1,050 words):
+H2/H3 titles in Section 7:
+- H2: "Kombiner Finn den Ulike med Andre Arbeidsark Gratis - Oppgavehefter Barn, Lesetrening, Fargeleggingsbilder Barn, Tall og Telling og Bokstaver Lære Skrive"
+- H3 #1: "Matematikk Oppgaver Kombinert - Tall og Telling, Addisjon og Subtraksjon, Gangetabellen og Finmotorikk Øvelser for Barneskolen"
+- H3 #2: "Bokstaver Lære Skrive og Addisjon og Subtraksjon - Literacy Arbeidsark Gratis med Finmotorikk Øvelser"
+- H3 #3: "Fargeleggingsbilder Barn, Gangetabellen og Addisjon og Subtraksjon - Oppgavehefter Barn med Tall og Telling og Bokstaver Lære Skrive"
+- H3 #4: "Tall og Telling og Finmotorikk Øvelser - Lesetrening Pakker med Addisjon og Subtraksjon og Gangetabellen"
+- H3 #5: "Ukentlige Læringspakker - Fargeleggingsbilder Barn, Bokstaver Lære Skrive, Gangetabellen, Addisjon og Subtraksjon, Finmotorikk Øvelser og Tall og Telling"
+
+FINAL KEYWORD COUNTS AFTER SECTION 7 (H2/H3 titles only):
+[✓] 1. Arbeidsark gratis: 10/10 (+2 in Sec7: H2, H3#2) ✓✓✓ COMPLETE!
+[✓] 2. Fargeleggingsbilder barn: 10/10 (+3 in Sec7: H2, H3#3, H3#5) ✓✓✓ COMPLETE!
+[✓] 3. Bokstaver lære skrive: 10/10 (+4 in Sec7: H2, H3#2, H3#3, H3#5) ✓✓✓ COMPLETE!
+[✓] 4. Matematikk oppgaver: 10/10 (no change in Sec7, already complete) ✓✓✓ COMPLETE!
+[✓] 5. Gangetabellen: 10/10 (+4 in Sec7: H3#1, H3#3, H3#4, H3#5) ✓✓✓ COMPLETE!
+[✓] 6. Tall og telling: 10/10 (+5 in Sec7: H2, H3#1, H3#3, H3#4, H3#5) ✓✓✓ COMPLETE!
+[✓] 7. Finmotorikk øvelser: 10/10 (+4 in Sec7: H3#1, H3#2, H3#4, H3#5) ✓✓✓ COMPLETE!
+[✓] 8. Addisjon og subtraksjon: 10/10 (+5 in Sec7: H3#1, H3#2, H3#3, H3#4, H3#5) ✓✓✓ COMPLETE!
+[✓] 9. Oppgavehefter barn: 10/10 (+2 in Sec7: H2, H3#3) ✓✓✓ COMPLETE!
+[✓] 10. Lesetrening: 10/10 (+2 in Sec7: H2, H3#4) ✓✓✓ COMPLETE!
+
+========================================
+MISSION ACCOMPLISHED - ALL 10 KEYWORDS AT 10/10!
+========================================
+
+Total Page Statistics:
+- Total Word Count: ~7,745 words
+- Total Sections: 7
+- Total H2 Titles: 7
+- Total H3 Titles: 38
+- All 10 Keywords: 10/10 occurrences each ✓
+- Pricing: Full Access ($240/year, $25/month) ✓
+- Language: Natural Norwegian ✓
+- SEO Compliance: 100% ✓
+
+Norwegian Odd One Out App Page: COMPLETE AND VERIFIED

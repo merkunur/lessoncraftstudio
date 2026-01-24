@@ -1,0 +1,175 @@
+KEYWORD TRACKING - Chart Count / Bilddiagramm - German
+
+TARGET: Each keyword must appear MINIMUM 10 times in H2/H3 titles ONLY
+
+German Keywords from keywords.txt:
+[ ] 1. Arbeitsblätter Grundschule: 0/10
+[ ] 2. Mathe Arbeitsblätter: 0/10
+[ ] 3. Vorschule Arbeitsblätter: 0/10
+[ ] 4. Einmaleins: 0/10
+[ ] 5. Schwungübungen: 0/10
+[ ] 6. Buchstaben lernen: 0/10
+[ ] 7. Ausmalbilder / Malvorlagen: 0/10
+[ ] 8. Kostenlose Arbeitsblätter: 0/10
+[ ] 9. Rechnen lernen / Rechnen 1. Klasse: 0/10
+[ ] 10. Deutsch Arbeitsblätter: 0/10
+
+PRICING VERIFICATION:
+App Name: Chart Count / Bilddiagramm
+Subscription Tier: Full Access $240/year
+Monthly Price: $25/month
+✓ I will use "Full Access" and "$240/$25" throughout this document
+✓ I will NEVER use "Core Bundle" or "$144/$15" for this app
+
+---
+SECTION-BY-SECTION TRACKING:
+
+After Section 1 (Hero) - H2/H3 ONLY (H1 doesn't count):
+1. Arbeitsblätter Grundschule: 0
+2. Mathe Arbeitsblätter: 0
+3. Vorschule Arbeitsblätter: 0
+4. Einmaleins: 0
+5. Schwungübungen: 0
+6. Buchstaben lernen: 0
+7. Ausmalbilder / Malvorlagen: 0
+8. Kostenlose Arbeitsblätter: 0
+9. Rechnen lernen / Rechnen 1. Klasse: 0
+10. Deutsch Arbeitsblätter: 0
+
+Note: Section 1 only has H1 which doesn't count. All H2/H3 keywords will come from Sections 2-7.
+
+After Section 2 (Features) - H2/H3 Titles:
+H2: "Bilddiagramm Funktionen - Alles für Mathe Arbeitsblätter und Kostenlose Arbeitsblätter Grundschule"
+H3: "Bilddiagramm Mathe Arbeitsblätter in 3 Klicks erstellen - Schneller Generator für Arbeitsblätter Grundschule"
+H3: "Kostenlose Arbeitsblätter auf der Leinwand bearbeiten - Volle Anpassung für Vorschule und Grundschule Mathe"
+H3: "Eigene Bilder hochladen für personalisierte Vorschule Arbeitsblätter und Ausmalbilder Aktivitäten"
+H3: "11 Sprachen für Mathe Arbeitsblätter und Deutsch Arbeitsblätter - Mehrsprachiger Generator für Arbeitsblätter Grundschule"
+H3: "Gewerbliche Lizenz für Mathe Arbeitsblätter Grundschule - Verkaufen Sie Kostenlose Arbeitsblätter auf Lehrermarktplätzen"
+H3: "3000+ Bilder für Mathe Arbeitsblätter Grundschule - Ausmalbilder und Malvorlagen nach Themen sortiert"
+H3: "Professionelle 300 DPI Qualität für Kostenlose Arbeitsblätter - Druckfertige Vorschule Arbeitsblätter und Mathe Material"
+
+RUNNING TOTALS after Section 2:
+1. Arbeitsblätter Grundschule: 5
+2. Mathe Arbeitsblätter: 6
+3. Vorschule Arbeitsblätter: 3
+4. Einmaleins: 0 ⚠️
+5. Schwungübungen: 0 ⚠️
+6. Buchstaben lernen: 0 ⚠️
+7. Ausmalbilder / Malvorlagen: 3
+8. Kostenlose Arbeitsblätter: 4
+9. Rechnen lernen / Rechnen 1. Klasse: 0 ⚠️
+10. Deutsch Arbeitsblätter: 1
+
+After Section 3 (How-To) - H2/H3 Titles:
+H2: "So erstellen Sie Bilddiagramm Arbeitsblätter in 5 einfachen Schritten - Kostenlose Arbeitsblätter für Rechnen lernen in der 1. Klasse"
+H3: "Schritt 1: 6 Bilder für Ihr Mathe Arbeitsblatt Grundschule auswählen - Thema oder manuelle Auswahl für Rechnen lernen"
+H3: "Schritt 2: Bilddiagramm Einstellungen anpassen - Kostenlose Arbeitsblätter für Vorschule und 1. Klasse konfigurieren"
+H3: "Schritt 3: Ihr Vorschule Arbeitsblatt generieren - Bilddiagramm für Mathe und Ausmalbilder in Sekunden erstellen"
+H3: "Schritt 4: Ihr Arbeitsblatt Grundschule auf der Leinwand bearbeiten - Text und Ausmalbilder Elemente hinzufügen"
+H3: "Schritt 5: Kostenlose Arbeitsblätter herunterladen - Hochwertige PDF Mathe Arbeitsblätter und Malvorlagen für Vorschule"
+
+RUNNING TOTALS after Section 3:
+1. Arbeitsblätter Grundschule: 7
+2. Mathe Arbeitsblätter: 8
+3. Vorschule Arbeitsblätter: 5
+4. Einmaleins: 0 ⚠️
+5. Schwungübungen: 0 ⚠️
+6. Buchstaben lernen: 0 ⚠️
+7. Ausmalbilder / Malvorlagen: 6
+8. Kostenlose Arbeitsblätter: 7
+9. Rechnen lernen / Rechnen 1. Klasse: 3
+10. Deutsch Arbeitsblätter: 1
+
+After Section 4 (Use Cases) - H2/H3 Titles:
+H2: "Perfekt für Lehrkräfte, Eltern und Pädagogen - Mathe Arbeitsblätter und Kostenlose Arbeitsblätter Grundschule für jeden Bedarf"
+H3: "Vorschullehrkräfte lieben Bilddiagramm Arbeitsblätter - Kostenlose Arbeitsblätter zum Rechnen lernen und Schwungübungen vorbereiten"
+H3: "Grundschullehrkräfte nutzen Diagramm Arbeitsblätter für Rechnen 1. Klasse - Mathe Arbeitsblätter mit Einmaleins Vorbereitung"
+H3: "Homeschool-Eltern erstellen individuelle Vorschule Arbeitsblätter - Buchstaben lernen und Mathe Arbeitsblätter kombinieren"
+H3: "DaF-Lehrkräfte nutzen Bilddiagramm Arbeitsblätter in 11 Sprachen - Deutsch Arbeitsblätter und Kostenlose Arbeitsblätter für Sprachlerner"
+H3: "Sonderpädagogen passen Ausmalbilder und Mathe Arbeitsblätter an - Arbeitsblätter Grundschule für alle Lerner"
+H3: "Lehrerunternehmer verkaufen Bilddiagramm Kostenlose Arbeitsblätter - Gewerbliche Lizenz für Mathe Arbeitsblätter und Malvorlagen"
+
+RUNNING TOTALS after Section 4:
+1. Arbeitsblätter Grundschule: 10 ✓
+2. Mathe Arbeitsblätter: 14 ✓
+3. Vorschule Arbeitsblätter: 6
+4. Einmaleins: 1
+5. Schwungübungen: 1
+6. Buchstaben lernen: 1
+7. Ausmalbilder / Malvorlagen: 8
+8. Kostenlose Arbeitsblätter: 11 ✓
+9. Rechnen lernen / Rechnen 1. Klasse: 5
+10. Deutsch Arbeitsblätter: 2
+
+After Section 5 (Subscription) - H2/H3 Titles:
+H2: "Warum Full Access für Bilddiagramm Mathe Arbeitsblätter - Vorschule Arbeitsblätter und Kostenlose Arbeitsblätter unbegrenzt erstellen"
+H3: "Unbegrenzte Arbeitsblätter Grundschule und Vorschule Arbeitsblätter generieren - Keine Limits für Rechnen lernen Material"
+H3: "25+ Arbeitsblatt-Generatoren für Mathe Arbeitsblätter und Deutsch Arbeitsblätter - Einmaleins bis Schwungübungen in einer Plattform"
+H3: "Gewerbliche POD-Lizenz für Kostenlose Arbeitsblätter Verkauf - Mathe Arbeitsblätter und Malvorlagen auf Lehrermarktplätzen anbieten"
+H3: "Professionelle 300 DPI Qualität für Arbeitsblätter Grundschule - Druckfertige Vorschule Arbeitsblätter und Ausmalbilder"
+H3: "Massive Zeitersparnis für Mathe Arbeitsblätter und Rechnen 1. Klasse - Stunden sparen bei Arbeitsblätter Grundschule Erstellung"
+
+RUNNING TOTALS after Section 5:
+1. Arbeitsblätter Grundschule: 13 ✓
+2. Mathe Arbeitsblätter: 18 ✓
+3. Vorschule Arbeitsblätter: 9
+4. Einmaleins: 2
+5. Schwungübungen: 2
+6. Buchstaben lernen: 1
+7. Ausmalbilder / Malvorlagen: 10 ✓
+8. Kostenlose Arbeitsblätter: 13 ✓
+9. Rechnen lernen / Rechnen 1. Klasse: 7
+10. Deutsch Arbeitsblätter: 3
+
+After Section 6 (FAQ) - H2/H3 Titles:
+H2: "Häufig gestellte Fragen zu Bilddiagramm Arbeitsblättern - Mathe Arbeitsblätter, Einmaleins und Kostenlose Arbeitsblätter"
+H3: "Wie viele Bilder benötige ich für ein Bilddiagramm Mathe Arbeitsblatt Grundschule - Einmaleins Vorbereitung durch Zählen?"
+H3: "Kann ich Bilddiagramm Vorschule Arbeitsblätter mit Schwungübungen und Buchstaben lernen Material kombinieren?"
+H3: "Welche Sprachen unterstützt der Generator für Deutsch Arbeitsblätter und mehrsprachige Kostenlose Arbeitsblätter?"
+H3: "Funktioniert der Generator für Rechnen lernen und Rechnen 1. Klasse Material mit Einmaleins Übungen zusammen?"
+H3: "Wie drucke ich Arbeitsblätter Grundschule in hoher Qualität für Schwungübungen und Mathe Arbeitsblätter?"
+H3: "Kann ich eigene Bilder hochladen für personalisierte Vorschule Arbeitsblätter und Buchstaben lernen Aktivitäten?"
+H3: "Was kostet das Full Access Abo für Einmaleins, Schwungübungen und alle Mathe Arbeitsblätter Generatoren?"
+H3: "Enthält das Abo einen Lösungsschlüssel für Deutsch Arbeitsblätter und Rechnen 1. Klasse Material?"
+H3: "Wie kombiniere ich Bilddiagramme mit Buchstaben lernen und Einmaleins für differenzierten Unterricht?"
+H3: "Kann ich Arbeitsblätter Grundschule und Vorschule Arbeitsblätter auf Lehrermarktplätzen verkaufen?"
+
+RUNNING TOTALS after Section 6:
+1. Arbeitsblätter Grundschule: 16 ✓
+2. Mathe Arbeitsblätter: 22 ✓
+3. Vorschule Arbeitsblätter: 12 ✓
+4. Einmaleins: 7
+5. Schwungübungen: 5
+6. Buchstaben lernen: 4
+7. Ausmalbilder / Malvorlagen: 10 ✓
+8. Kostenlose Arbeitsblätter: 15 ✓
+9. Rechnen lernen / Rechnen 1. Klasse: 10 ✓
+10. Deutsch Arbeitsblätter: 5
+
+After Section 7 (Combine Apps) - H2/H3 Titles:
+H2: "Bilddiagramm mit anderen Generatoren kombinieren - Einmaleins, Schwungübungen und Buchstaben lernen für komplette Deutsch Arbeitsblätter"
+H3: "Bilddiagramm und Einmaleins Arbeitsblätter kombinieren - Vom Zählen zum Multiplizieren für Mathe Arbeitsblätter Grundschule"
+H3: "Schwungübungen und Bilddiagramm für Feinmotorik - Vorschule Arbeitsblätter für Buchstaben lernen Vorbereitung"
+H3: "Buchstaben lernen mit Bilddiagramm verbinden - Deutsch Arbeitsblätter für ganzheitliche Alphabetisierung"
+H3: "Wortsuchen und Bilddiagramm für Deutsch Arbeitsblätter - Vokabelentwicklung durch Einmaleins der Wörter"
+H3: "Ausmalbilder und Bilddiagramm für kreatives Lernen - Schwungübungen, Buchstaben lernen und Einmaleins in einem Paket"
+
+FINAL TOTALS (H2/H3 only) - AFTER ADDITIONS:
+1. Arbeitsblätter Grundschule: 17 ✓ (target: 10)
+2. Mathe Arbeitsblätter: 23 ✓ (target: 10)
+3. Vorschule Arbeitsblätter: 13 ✓ (target: 10)
+4. Einmaleins: 11 ✓ (target: 10)
+5. Schwungübungen: 10 ✓ (target: 10) - UPDATED
+6. Buchstaben lernen: 10 ✓ (target: 10) - UPDATED
+7. Ausmalbilder / Malvorlagen: 10 ✓ (target: 10)
+8. Kostenlose Arbeitsblätter: 15 ✓ (target: 10)
+9. Rechnen lernen / Rechnen 1. Klasse: 10 ✓ (target: 10)
+10. Deutsch Arbeitsblätter: 10 ✓ (target: 10) - UPDATED
+
+ADDED 3 NEW FAQ H3 TITLES:
+H3: "Wie unterstützen Bilddiagramme die Vorbereitung auf Schwungübungen und Buchstaben lernen im Kindergarten?"
+H3: "Welche Deutsch Arbeitsblätter kann ich mit dem Bilddiagramm Generator für den DaF-Unterricht erstellen?"
+H3: "Sind Schwungübungen und Buchstaben lernen Generatoren im Full Access Abo für Deutsch Arbeitsblätter enthalten?"
+
+SUMMARY: 10/10 keywords at or above target ✓
+ALL KEYWORDS NOW HITTING MINIMUM 10 APPEARANCES IN H2/H3 TITLES

@@ -1,0 +1,208 @@
+KEYWORD TRACKING - Shadow Match - Dutch
+
+TARGET: Each keyword must appear MINIMUM 10 times in H2/H3 titles ONLY
+
+Current Status (After Each Section):
+[ ] 1. Werkbladen groep 3: 0/10
+[ ] 2. Werkbladen kleuters / Groep 1 2: 0/10
+[ ] 3. Rekenen werkbladen: 0/10
+[ ] 4. Kleurplaten: 0/10
+[ ] 5. Letters leren / Schrijven oefenen: 0/10
+[ ] 6. Oefenbladen gratis: 0/10
+[ ] 7. Tafels oefenen: 0/10
+[ ] 8. Veilig leren lezen: 0/10
+[ ] 9. Fijne motoriek: 0/10
+[ ] 10. Sommen tot 20: 0/10
+
+After each section, update counts and check boxes when ≥10 reached.
+
+SECTION TRACKING:
+
+Section 1 (Hero) - COMPLETE
+Word count: ~420 words ✓
+H2/H3 keyword counts: 0 (Section 1 has no H2/H3 subsections - only H1 + body text)
+
+Note: H1 contains "Oefenbladen Gratis", "Groep 1 2", and "Groep 3" but H1 doesn't count toward the 10x minimum (only H2/H3 count).
+
+Running totals after Section 1:
+1. Werkbladen groep 3: 0
+2. Werkbladen kleuters / Groep 1 2: 0
+3. Rekenen werkbladen: 0
+4. Kleurplaten: 0
+5. Letters leren / Schrijven oefenen: 0
+6. Oefenbladen gratis: 0
+7. Tafels oefenen: 0
+8. Veilig leren lezen: 0
+9. Fijne motoriek: 0
+10. Sommen tot 20: 0
+
+Section 2 (Features) - COMPLETE
+Word count: ~1150 words ✓
+H2/H3 count: 1 H2 + 7 H3 = 8 subsections ✓
+
+Keywords added in Section 2 H2/H3 titles:
+- Werkbladen groep 3: 5 (H2 + H3s)
+- Werkbladen kleuters: 3 (in H3s)
+- Groep 1 2: 3 (in H3s)
+- Rekenen werkbladen: 1 (H3-7)
+- Kleurplaten: 1 (H3-2)
+- Oefenbladen gratis: 4 (H2 + H3s)
+- Letters leren: 0
+- Schrijven oefenen: 0
+- Tafels oefenen: 0
+- Veilig leren lezen: 0
+- Fijne motoriek: 0
+- Sommen tot 20: 0
+
+Running totals after Section 2:
+1. Werkbladen groep 3: 5/10 ⬆️
+2. Werkbladen kleuters: 3/10 ⬆️ + Groep 1 2: 3/10 ⬆️ (=6 total for keyword #2)
+3. Rekenen werkbladen: 1/10 ⬆️
+4. Kleurplaten: 1/10 ⬆️
+5. Letters leren / Schrijven oefenen: 0/10 ⚠️
+6. Oefenbladen gratis: 4/10 ⬆️
+7. Tafels oefenen: 0/10 ⚠️
+8. Veilig leren lezen: 0/10 ⚠️
+9. Fijne motoriek: 0/10 ⚠️
+10. Sommen tot 20: 0/10 ⚠️
+
+Section 3 (How-To) - COMPLETE
+Word count: ~1350 words ✓
+H2/H3 count: 1 H2 + 5 H3 = 6 subsections ✓
+
+Keywords added in Section 3 H2/H3 titles:
+- Werkbladen groep 3: 4 (H2 + H3-2, H3-4, H3-5)
+- Werkbladen kleuters: 3 (H3-1, H3-3, H3-5)
+- Groep 1 2: 3 (H3-1, H3-3, H3-5)
+- Rekenen werkbladen: 0
+- Kleurplaten: 1 (H3-4)
+- Letters leren / Schrijven oefenen: 0 (in body but not in H2/H3 titles)
+- Oefenbladen gratis: 3 (H2 + H3-2, H3-3)
+- Tafels oefenen: 0 (in body but not in H2/H3 titles)
+- Veilig leren lezen: 0 (in body but not in H2/H3 titles)
+- Fijne motoriek: 2 (H3-2, H3-4)
+- Sommen tot 20: 0 (in body but not in H2/H3 titles)
+
+Running totals after Section 3:
+1. Werkbladen groep 3: 9/10 ⬆️⬆️ (Almost there!)
+2. Werkbladen kleuters + Groep 1 2: 12/10 ✓✓ (TARGET REACHED!)
+3. Rekenen werkbladen: 1/10 ⚠️
+4. Kleurplaten: 2/10 ⬆️
+5. Letters leren / Schrijven oefenen: 0/10 ⚠️⚠️ (URGENT - need 10 in remaining sections)
+6. Oefenbladen gratis: 7/10 ⬆️⬆️
+7. Tafels oefenen: 0/10 ⚠️⚠️ (URGENT - need 10 in remaining sections)
+8. Veilig leren lezen: 0/10 ⚠️⚠️ (URGENT - need 10 in remaining sections)
+9. Fijne motoriek: 2/10 ⬆️
+10. Sommen tot 20: 0/10 ⚠️⚠️ (URGENT - need 10 in remaining sections)
+
+Section 4 (Use Cases) - COMPLETE
+Word count: ~1180 words ✓
+H2/H3 count: 1 H2 + 6 H3 = 7 subsections ✓
+
+Keywords added in Section 4 H2/H3 titles:
+- Werkbladen groep 3: 3 (H2, H3-2, H3-6)
+- Werkbladen kleuters: 1 (H3-1)
+- Rekenen werkbladen: 1 (H3-2)
+- Kleurplaten: 1 (H3-5)
+- Letters leren: 2 (H3-1, H3-4)
+- Schrijven oefenen: 1 (H3-4)
+- Oefenbladen gratis: 4 (H2, H3-3, H3-6)
+- Tafels oefenen: 1 (H3-2)
+- Veilig leren lezen: 1 (H3-1)
+- Fijne motoriek: 2 (H3-3, H3-5)
+- Sommen tot 20: 1 (H3-2)
+
+Running totals after Section 4:
+1. Werkbladen groep 3: 12/10 ✓✓ (TARGET REACHED!)
+2. Werkbladen kleuters + Groep 1 2: 13/10 ✓✓ (Excellent!)
+3. Rekenen werkbladen: 2/10 ⬆️ (need 8 more)
+4. Kleurplaten: 3/10 ⬆️ (need 7 more)
+5. Letters leren: 2/10 ⬆️⬆️ + Schrijven oefenen: 1/10 (need 7-9 more combined)
+6. Oefenbladen gratis: 11/10 ✓✓ (TARGET REACHED!)
+7. Tafels oefenen: 1/10 ⬆️ (need 9 more)
+8. Veilig leren lezen: 1/10 ⬆️ (need 9 more)
+9. Fijne motoriek: 4/10 ⬆️⬆️ (need 6 more)
+10. Sommen tot 20: 1/10 ⬆️ (need 9 more)
+
+Section 5 (Subscription) - COMPLETE
+Word count: ~1080 words ✓
+H2/H3 count: 1 H2 + 3 H3 = 4 subsections ✓
+
+Keywords added in Section 5 H2/H3 titles:
+- Werkbladen groep 3: 1 (H2)
+- Oefenbladen gratis: 2 (H2, H3-1)
+- Veilig leren lezen: 1 (H3-1)
+- Letters leren: 1 (H3-1)
+- Schrijven oefenen: 1 (H3-3)
+- Rekenen werkbladen: 1 (H3-2)
+- Kleurplaten: 1 (H3-2)
+- Tafels oefenen: 1 (H3-2)
+- Sommen tot 20: 1 (H3-2)
+- Fijne motoriek: 1 (H3-3)
+
+Running totals after Section 5:
+1. Werkbladen groep 3: 13/10 ✓✓ (Excellent!)
+2. Werkbladen kleuters + Groep 1 2: 13/10 ✓✓ (Excellent!)
+3. Rekenen werkbladen: 3/10 ⬆️ (need 7 more)
+4. Kleurplaten: 4/10 ⬆️ (need 6 more)
+5. Letters leren: 3/10 ⬆️ + Schrijven oefenen: 2/10 ⬆️ (need 5-8 more combined)
+6. Oefenbladen gratis: 13/10 ✓✓ (Excellent!)
+7. Tafels oefenen: 2/10 ⬆️ (need 8 more)
+8. Veilig leren lezen: 2/10 ⬆️ (need 8 more)
+9. Fijne motoriek: 5/10 ⬆️⬆️ (need 5 more)
+10. Sommen tot 20: 2/10 ⬆️ (need 8 more)
+
+Section 6 (FAQ) - COMPLETE
+Word count: ~1480 words ✓
+H2/H3 count: 1 H2 + 12 H3 = 13 subsections ✓
+
+Keywords added in Section 6 H2/H3 titles:
+- Werkbladen groep 3: 3 (H2, FAQ1, FAQ5)
+- Werkbladen kleuters: 1 (FAQ4)
+- Rekenen werkbladen: 2 (FAQ3, FAQ9)
+- Kleurplaten: 1 (FAQ5)
+- Letters leren: 4 (FAQ2, FAQ6, FAQ12)
+- Schrijven oefenen: 3 (FAQ6, FAQ10, FAQ12)
+- Oefenbladen gratis: 2 (H2, FAQ1)
+- Tafels oefenen: 4 (FAQ3, FAQ7, FAQ9, FAQ11)
+- Veilig leren lezen: 3 (FAQ2, FAQ7, FAQ10)
+- Fijne motoriek: 2 (FAQ4, FAQ12)
+- Sommen tot 20: 3 (FAQ3, FAQ8, FAQ11)
+
+Running totals after Section 6:
+1. Werkbladen groep 3: 16/10 ✓✓✓ (Excellent!)
+2. Werkbladen kleuters + Groep 1 2: 14/10 ✓✓ (Excellent!)
+3. Rekenen werkbladen: 5/10 ⬆️⬆️ (need 5 more in Section 7)
+4. Kleurplaten: 5/10 ⬆️⬆️ (need 5 more in Section 7)
+5. Letters leren: 7/10 ⬆️⬆️⬆️ + Schrijven oefenen: 5/10 ⬆️⬆️ (need 3-5 more combined)
+6. Oefenbladen gratis: 15/10 ✓✓✓ (Excellent!)
+7. Tafels oefenen: 6/10 ⬆️⬆️⬆️ (need 4 more in Section 7)
+8. Veilig leren lezen: 5/10 ⬆️⬆️ (need 5 more in Section 7)
+9. Fijne motoriek: 7/10 ⬆️⬆️⬆️ (need 3 more in Section 7)
+10. Sommen tot 20: 5/10 ⬆️⬆️ (need 5 more in Section 7)
+
+Section 7 (Combine Apps) - COMPLETE (FINAL REVISED VERSION)
+Word count: ~1050 words ✓
+H2/H3 count: 1 H2 + 5 H3 = 6 subsections ✓
+
+Keywords added in Section 7 H2/H3 titles (FINAL COUNT after all revisions):
+- Rekenen werkbladen: 5 (H2, H3-1, H3-2, H3-4, H3-5)
+- Kleurplaten: 5 (H2, H3-1, H3-3, H3-4, H3-5)
+- Tafels oefenen: 4 (H2, H3-1, H3-2, H3-4)
+- Veilig leren lezen: 5 (H3-1, H3-2, H3-3, H3-4, H3-5)
+- Fijne motoriek: 3 (H3-1, H3-3, H3-5)
+- Sommen tot 20: 5 (H3-1, H3-2, H3-3, H3-4, H3-5)
+
+FINAL TOTALS - ALL SECTIONS COMPLETE:
+1. Werkbladen groep 3: 16/10 ✓✓✓ (EXCELLENT!)
+2. Werkbladen kleuters + Groep 1 2: 14/10 ✓✓ (EXCELLENT!)
+3. Rekenen werkbladen: 10/10 ✓✓✓ (TARGET REACHED!)
+4. Kleurplaten: 10/10 ✓✓✓ (TARGET REACHED!)
+5. Letters leren + Schrijven oefenen: 12/10 ✓✓ (EXCELLENT!)
+6. Oefenbladen gratis: 15/10 ✓✓✓ (EXCELLENT!)
+7. Tafels oefenen: 10/10 ✓✓✓ (TARGET REACHED!)
+8. Veilig leren lezen: 10/10 ✓✓✓ (TARGET REACHED!)
+9. Fijne motoriek: 10/10 ✓✓✓ (TARGET REACHED!)
+10. Sommen tot 20: 10/10 ✓✓✓ (TARGET REACHED!)
+
+✅✅✅ SUCCESS! ALL 10 KEYWORDS REACHED MINIMUM 10 OCCURRENCES IN H2/H3 TITLES!

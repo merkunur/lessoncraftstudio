@@ -1,0 +1,241 @@
+KEYWORD TRACKING - Pattern Worksheet - Finnish
+
+TARGET: Each keyword must appear MINIMUM 10 times in H2/H3 titles ONLY
+
+Current Status (H1 not counted - only H2/H3):
+[✓] 1. Tulostettavat tehtävät lapsille ilmainen: 15/10 ✓ COMPLETE
+[✓] 2. Värityskuvia lapsille tulostettava: 10/10 ✓ COMPLETE
+[✓] 3. Kirjaimet harjoittelu esikoulu: 10/10 ✓ COMPLETE
+[✓] 4. Matematiikka tehtävät alakoulu: 10/10 ✓ COMPLETE
+[✓] 5. Kertotaulut tulostettava: 10/10 ✓ COMPLETE
+[✓] 6. Yhteenlasku ja vähennyslasku tehtävät: 10/10 ✓ COMPLETE
+[✓] 7. Hienomotoriikka harjoitukset: 10/10 ✓ COMPLETE
+[✓] 8. Pisteestä pisteeseen tehtävät: 11/10 ✓ COMPLETE
+[✓] 9. Esiopetus materiaali ilmainen: 11/10 ✓ COMPLETE
+[✓] 10. Lukemaan oppiminen tehtävät: 10/10 ✓ COMPLETE
+
+After each section, update counts and check boxes when ≥10 reached.
+
+---
+
+SECTION TRACKING:
+
+After Section 1 (Hero):
+1. Tulostettavat tehtävät lapsille ilmainen: 1 (in H1)
+2. Värityskuvia lapsille tulostettava: 0
+3. Kirjaimet harjoittelu esikoulu: 0
+4. Matematiikka tehtävät alakoulu: 1 (in H1)
+5. Kertotaulut tulostettava: 0
+6. Yhteenlasku ja vähennyslasku tehtävät: 0
+7. Hienomotoriikka harjoitukset: 0
+8. Pisteestä pisteeseen tehtävät: 0
+9. Esiopetus materiaali ilmainen: 1 (in H1)
+10. Lukemaan oppiminen tehtävät: 0
+
+TOTAL H2/H3 IN SECTION 1: 0 (only H1 present)
+After Section 2 (Features):
+H2: Kuviotehtävä Ominaisuudet - Tulostettavat Tehtävät Lapsille Ilmainen ja Matematiikka Tehtävät Alakoulu
+H3: Luo Matematiikka Tehtävät Alakoulu Kolmella Klikkauksella - Tulostettavat Tehtävät Lapsille Ilmainen
+H3: Muokkaa Kaikkea Esiopetus Materiaali Ilmainen - Hienomotoriikka Harjoitukset ja Kuviontunnistus
+H3: Lataa Omia Kuvia - Tulostettavat Tehtävät Lapsille Ilmainen Personoidulla Sisällöllä
+H3: 11 Kielen Tuki - Esiopetus Materiaali Ilmainen Monikieliseen Opetukseen ja Lukemaan Oppiminen Tehtävät
+H3: Print-on-Demand Kaupallinen Lisenssi - Myy Matematiikka Tehtävät Alakoulu ja Esiopetus Materiaali
+H3: 3000+ Kuvakirjasto - Värityskuvia Lapsille Tulostettava ja Kirjaimet Harjoittelu Esikoulu
+H3: Ammattimainen 300 DPI -Laatu - Tulostettavat Tehtävät Lapsille Ilmainen Korkealaatuisena
+
+Keyword counts in H2/H3:
+1. Tulostettavat tehtävät lapsille ilmainen: 6 (H2×1, H3×5)
+2. Värityskuvia lapsille tulostettava: 1 (H3×1)
+3. Kirjaimet harjoittelu esikoulu: 1 (H3×1)
+4. Matematiikka tehtävät alakoulu: 4 (H2×1, H3×3)
+5. Kertotaulut tulostettava: 0
+6. Yhteenlasku ja vähennyslasku tehtävät: 0
+7. Hienomotoriikka harjoitukset: 1 (H3×1)
+8. Pisteestä pisteeseen tehtävät: 0
+9. Esiopetus materiaali ilmainen: 4 (H2×0, H3×4)
+10. Lukemaan oppiminen tehtävät: 1 (H3×1)
+
+RUNNING TOTALS (H2/H3 only):
+1. Tulostettavat tehtävät lapsille ilmainen: 6/10 ⚠️
+2. Värityskuvia lapsille tulostettava: 1/10 ⚠️
+3. Kirjaimet harjoittelu esikoulu: 1/10 ⚠️
+4. Matematiikka tehtävät alakoulu: 4/10 ⚠️
+5. Kertotaulut tulostettava: 0/10 ⚠️
+6. Yhteenlasku ja vähennyslasku tehtävät: 0/10 ⚠️
+7. Hienomotoriikka harjoitukset: 1/10 ⚠️
+8. Pisteestä pisteeseen tehtävät: 0/10 ⚠️
+9. Esiopetus materiaali ilmainen: 4/10 ⚠️
+10. Lukemaan oppiminen tehtävät: 1/10 ⚠️
+After Section 3 (How-To):
+H2: Kuinka Luoda Tulostettavat Tehtävät Lapsille Ilmainen 5 Helpossa Vaiheessa - Matematiikka Tehtävät Alakoulu ja Esiopetus Materiaali Ilmainen
+H3: Vaihe 1: Valitse Kuviotyppi ja Asetukset - Yhteenlasku ja Vähennyslasku Tehtävät Kuviontunnistuksella
+H3: Vaihe 2: Valitse Kuvat Teemasta tai Kirjastosta - Värityskuvia Lapsille Tulostettava ja Hienomotoriikka Harjoitukset
+H3: Vaihe 3: Luo Tehtävämoniste Yhdellä Klikkauksella - Kertotaulut Tulostettava ja Pisteestä Pisteeseen Tehtävät
+H3: Vaihe 4: Muokkaa Kankaalla - Kirjaimet Harjoittelu Esikoulu ja Lukemaan Oppiminen Tehtävät
+H3: Vaihe 5: Lataa ja Tulosta - Esiopetus Materiaali Ilmainen PDF- tai JPEG-muodossa
+
+Keyword counts in THIS section H2/H3:
+1. Tulostettavat tehtävät lapsille ilmainen: 1 (H2×1)
+2. Värityskuvia lapsille tulostettava: 1 (H3×1)
+3. Kirjaimet harjoittelu esikoulu: 1 (H3×1)
+4. Matematiikka tehtävät alakoulu: 1 (H2×1)
+5. Kertotaulut tulostettava: 1 (H3×1) ✓
+6. Yhteenlasku ja vähennyslasku tehtävät: 1 (H3×1) ✓
+7. Hienomotoriikka harjoitukset: 1 (H3×1)
+8. Pisteestä pisteeseen tehtävät: 1 (H3×1) ✓
+9. Esiopetus materiaali ilmainen: 2 (H2×1, H3×1)
+10. Lukemaan oppiminen tehtävät: 1 (H3×1)
+
+RUNNING TOTALS (H2/H3 only):
+1. Tulostettavat tehtävät lapsille ilmainen: 7/10 ⚠️
+2. Värityskuvia lapsille tulostettava: 2/10 ⚠️
+3. Kirjaimet harjoittelu esikoulu: 2/10 ⚠️
+4. Matematiikka tehtävät alakoulu: 5/10 ⚠️
+5. Kertotaulut tulostettava: 1/10 ⚠️
+6. Yhteenlasku ja vähennyslasku tehtävät: 1/10 ⚠️
+7. Hienomotoriikka harjoitukset: 2/10 ⚠️
+8. Pisteestä pisteeseen tehtävät: 1/10 ⚠️
+9. Esiopetus materiaali ilmainen: 6/10 ⚠️
+10. Lukemaan oppiminen tehtävät: 2/10 ⚠️
+After Section 4 (Use Cases):
+H2: Täydellinen Opettajille ja Vanhemmille - Tulostettavat Tehtävät Lapsille Ilmainen Jokaiseen Tarpeeseen
+H3: Esiopetuksen Opettajat - Esiopetus Materiaali Ilmainen ja Hienomotoriikka Harjoitukset Kuviontunnistukseen
+H3: Alakoulun 1-3. Luokan Opettajat - Matematiikka Tehtävät Alakoulu Kuviontunnistuksella
+H3: Kotiopettajat - Esiopetus Materiaali Ilmainen Monilapsisille Perheille ja Lukemaan Oppiminen Tehtävät
+H3: Vieraan Kielen Opettajat - Tulostettavat Tehtävät Lapsille Ilmainen 11 Kielellä
+H3: Erityisopettajat - Esiopetus Materiaali Ilmainen Eriyttämiseen ja Pisteestä Pisteeseen Tehtävät
+H3: Opettajayrittäjät - Myy Tulostettavat Tehtävät Lapsille Ilmainen Teachers Pay Teachers ja Etsy
+
+Keyword counts in THIS section H2/H3:
+1. Tulostettavat tehtävät lapsille ilmainen: 4 (H2×1, H3×3)
+2. Värityskuvia lapsille tulostettava: 0
+3. Kirjaimet harjoittelu esikoulu: 0
+4. Matematiikka tehtävät alakoulu: 1 (H3×1)
+5. Kertotaulut tulostettava: 0
+6. Yhteenlasku ja vähennyslasku tehtävät: 0
+7. Hienomotoriikka harjoitukset: 1 (H3×1)
+8. Pisteestä pisteeseen tehtävät: 1 (H3×1)
+9. Esiopetus materiaali ilmainen: 3 (H3×3)
+10. Lukemaan oppiminen tehtävät: 1 (H3×1)
+
+RUNNING TOTALS (H2/H3 only):
+1. Tulostettavat tehtävät lapsille ilmainen: 11/10 ✓ COMPLETE
+2. Värityskuvia lapsille tulostettava: 2/10 ⚠️
+3. Kirjaimet harjoittelu esikoulu: 2/10 ⚠️
+4. Matematiikka tehtävät alakoulu: 6/10 ⚠️
+5. Kertotaulut tulostettava: 1/10 ⚠️
+6. Yhteenlasku ja vähennyslasku tehtävät: 1/10 ⚠️
+7. Hienomotoriikka harjoitukset: 3/10 ⚠️
+8. Pisteestä pisteeseen tehtävät: 2/10 ⚠️
+9. Esiopetus materiaali ilmainen: 9/10 ⚠️
+10. Lukemaan oppiminen tehtävät: 3/10 ⚠️
+After Section 5 (Subscription):
+H2: Kolme Pääsyytä Opettajat Tilaavat - Esiopetus Materiaali Ilmainen ja Matematiikka Tehtävät Alakoulu Ammattikäyttöön
+H3: Monikielinen Opetus - Tulostettavat Tehtävät Lapsille Ilmainen 11 Kielellä ja Kertotaulut Tulostettava
+H3: Kaupallinen Lisenssi - Myy Esiopetus Materiaali Ilmainen Teachers Pay Teachers, Etsy ja Amazon KDP
+H3: Ajansäästö ja Tuottavuus - Yhteenlasku ja Vähennyslasku Tehtävät ja Hienomotoriikka Harjoitukset Minuuteissa
+
+Keyword counts in THIS section H2/H3:
+1. Tulostettavat tehtävät lapsille ilmainen: 1 (H3×1)
+2. Värityskuvia lapsille tulostettava: 0
+3. Kirjaimet harjoittelu esikoulu: 0
+4. Matematiikka tehtävät alakoulu: 1 (H2×1)
+5. Kertotaulut tulostettava: 1 (H3×1)
+6. Yhteenlasku ja vähennyslasku tehtävät: 1 (H3×1)
+7. Hienomotoriikka harjoitukset: 1 (H3×1)
+8. Pisteestä pisteeseen tehtävät: 0
+9. Esiopetus materiaali ilmainen: 2 (H2×1, H3×1)
+10. Lukemaan oppiminen tehtävät: 0
+
+RUNNING TOTALS (H2/H3 only):
+1. Tulostettavat tehtävät lapsille ilmainen: 12/10 ✓ COMPLETE
+2. Värityskuvia lapsille tulostettava: 2/10 ⚠️
+3. Kirjaimet harjoittelu esikoulu: 2/10 ⚠️
+4. Matematiikka tehtävät alakoulu: 7/10 ⚠️
+5. Kertotaulut tulostettava: 2/10 ⚠️
+6. Yhteenlasku ja vähennyslasku tehtävät: 2/10 ⚠️
+7. Hienomotoriikka harjoitukset: 4/10 ⚠️
+8. Pisteestä pisteeseen tehtävät: 2/10 ⚠️
+9. Esiopetus materiaali ilmainen: 11/10 ✓ COMPLETE
+10. Lukemaan oppiminen tehtävät: 3/10 ⚠️
+After Section 6 (FAQ):
+H2: Usein Kysytyt Kysymykset - Tulostettavat Tehtävät Lapsille Ilmainen ja Matematiikka Tehtävät Alakoulu
+H3: Mihin Ikäryhmiin Sopii? - Värityskuvia Lapsille Tulostettava ja Lukemaan Oppiminen Tehtävät Eri Tasoilla
+H3: Voinko Ladata Omia Kuvia? - Kirjaimet Harjoittelu Esikoulu ja Pisteestä Pisteeseen Tehtävät Personointiin
+H3: Miten Kaupallinen Lisenssi Toimii? - Kertotaulut Tulostettava ja Matematiikka Tehtävät Alakoulu Myyntiin
+H3: Kuinka Monta Kuviotyppiä On Saatavilla? - Yhteenlasku ja Vähennyslasku Tehtävät ja Hienomotoriikka Harjoitukset
+H3: Voinko Tulostaa Harmaasävynä? - Värityskuvia Lapsille Tulostettava ja Matematiikka Tehtävät Alakoulu Musteen Säästö
+H3: Mitä Tiedostomuotoja Voin Ladata? - Kirjaimet Harjoittelu Esikoulu ja Kertotaulut Tulostettava Formaateissa
+H3: Tarvitsenko Suunnittelukokemusta? - Pisteestä Pisteeseen Tehtävät ja Hienomotoriikka Harjoitukset Ilman Osaamista
+H3: Luodaanko Vastausavaimet Automaattisesti? - Yhteenlasku ja Vähennyslasku Tehtävät ja Lukemaan Oppiminen Tehtävät Tarkistukseen
+H3: Miten Hyödyttää Erityisopetusta? - Värityskuvia Lapsille Tulostettava ja Kirjaimet Harjoittelu Esikoulu Eriyttämiseen
+H3: Kuinka Monikielisyys Toimii? - Kertotaulut Tulostettava ja Pisteestä Pisteeseen Tehtävät 11 Kielellä
+H3: Kuinka Paljon Voin Mukauttaa? - Hienomotoriikka Harjoitukset ja Yhteenlasku ja Vähennyslasku Tehtävät Personointiin
+H3: Kuinka Kauan Tehtävän Luominen Kestää? - Lukemaan Oppiminen Tehtävät ja Matematiikka Tehtävät Alakoulu Nopeasti
+
+Keyword counts in THIS section H2/H3:
+1. Tulostettavat tehtävät lapsille ilmainen: 1 (H2×1)
+2. Värityskuvia lapsille tulostettava: 3 (H3×3)
+3. Kirjaimet harjoittelu esikoulu: 3 (H3×3)
+4. Matematiikka tehtävät alakoulu: 3 (H2×1, H3×2)
+5. Kertotaulut tulostettava: 3 (H3×3)
+6. Yhteenlasku ja vähennyslasku tehtävät: 3 (H3×3)
+7. Hienomotoriikka harjoitukset: 3 (H3×3)
+8. Pisteestä pisteeseen tehtävät: 3 (H3×3)
+9. Esiopetus materiaali ilmainen: 0
+10. Lukemaan oppiminen tehtävät: 3 (H3×3)
+
+RUNNING TOTALS (H2/H3 only):
+1. Tulostettavat tehtävät lapsille ilmainen: 13/10 ✓ COMPLETE
+2. Värityskuvia lapsille tulostettava: 5/10 ⚠️
+3. Kirjaimet harjoittelu esikoulu: 5/10 ⚠️
+4. Matematiikka tehtävät alakoulu: 10/10 ✓ COMPLETE
+5. Kertotaulut tulostettava: 5/10 ⚠️
+6. Yhteenlasku ja vähennyslasku tehtävät: 5/10 ⚠️
+7. Hienomotoriikka harjoitukset: 7/10 ⚠️
+8. Pisteestä pisteeseen tehtävät: 5/10 ⚠️
+9. Esiopetus materiaali ilmainen: 11/10 ✓ COMPLETE
+10. Lukemaan oppiminen tehtävät: 6/10 ⚠️
+After Section 7 (Combine Apps):
+H2: Yhdistä Muihin Tehtäviin - Tulostettavat Tehtävät Lapsille Ilmainen Kokonaisvaltaiseen Oppimiseen
+H3: Kuviotehtävä + Värityskuvia Lapsille Tulostettava ja Kirjaimet Harjoittelu Esikoulu
+H3: Kuviotehtävä + Kertotaulut Tulostettava ja Yhteenlasku ja Vähennyslasku Tehtävät
+H3: Kuviotehtävä + Hienomotoriikka Harjoitukset ja Pisteestä Pisteeseen Tehtävät
+H3: Kuviotehtävä + Lukemaan Oppiminen Tehtävät ja Värityskuvia Lapsille Tulostettava Kaksoisharjoitus
+H3: Kuviotehtävä + Kertotaulut Tulostettava ja Hienomotoriikka Harjoitukset Kokonaisvaltaiseen Matematiikkaan
+H3: Kuviotehtävä + Pisteestä Pisteeseen Tehtävät ja Yhteenlasku ja Vähennyslasku Tehtävät Numeroharjoitus
+H3: Luo Teemayksiköitä - Tulostettavat Tehtävät Lapsille Ilmainen Kaikilla 33 Työkalulla
+H3: Vuodenaikojen Teemayksiköt - Värityskuvia Lapsille Tulostettava ja Kertotaulut Tulostettava
+H3: Erityisopetuksen Paketit - Kirjaimet Harjoittelu Esikoulu ja Pisteestä Pisteeseen Tehtävät
+H3: Kotiopetuspaketti - Lukemaan Oppiminen Tehtävät ja Yhteenlasku ja Vähennyslasku Tehtävät
+H3: Monikielinen Paketti - Värityskuvia Lapsille Tulostettava ja Kertotaulut Tulostettava Kielikylpyyn
+H3: Opettajayrittäjäpaketti - Pisteestä Pisteeseen Tehtävät ja Hienomotoriikka Harjoitukset Myyntiin
+H3: Alakoulun Matematiikkapaketti - Kertotaulut Tulostettava ja Yhteenlasku ja Vähennyslasku Tehtävät
+H3: Esiopetuksen Kokonaispaketti - Kirjaimet Harjoittelu Esikoulu ja Lukemaan Oppiminen Tehtävät
+H3: Aakkosopetuspaketti - Kirjaimet Harjoittelu Esikoulu ja Pisteestä Pisteeseen Tehtävät Aakkostamiseen
+
+Keyword counts in THIS section H2/H3:
+1. Tulostettavat tehtävät lapsille ilmainen: 2 (H2×1, H3×1)
+2. Värityskuvia lapsille tulostettava: 5 (H3×5)
+3. Kirjaimet harjoittelu esikoulu: 5 (H3×5)
+4. Matematiikka tehtävät alakoulu: 0
+5. Kertotaulut tulostettava: 5 (H3×5)
+6. Yhteenlasku ja vähennyslasku tehtävät: 5 (H3×5)
+7. Hienomotoriikka harjoitukset: 3 (H3×3)
+8. Pisteestä pisteeseen tehtävät: 6 (H3×6)
+9. Esiopetus materiaali ilmainen: 0
+10. Lukemaan oppiminen tehtävät: 4 (H3×4)
+
+FINAL RUNNING TOTALS (H2/H3 only - ALL SECTIONS COMPLETE):
+[✓] 1. Tulostettavat tehtävät lapsille ilmainen: 15/10 ✓ COMPLETE
+[✓] 2. Värityskuvia lapsille tulostettava: 10/10 ✓ COMPLETE
+[✓] 3. Kirjaimet harjoittelu esikoulu: 10/10 ✓ COMPLETE
+[✓] 4. Matematiikka tehtävät alakoulu: 10/10 ✓ COMPLETE
+[✓] 5. Kertotaulut tulostettava: 10/10 ✓ COMPLETE
+[✓] 6. Yhteenlasku ja vähennyslasku tehtävät: 10/10 ✓ COMPLETE
+[✓] 7. Hienomotoriikka harjoitukset: 10/10 ✓ COMPLETE
+[✓] 8. Pisteestä pisteeseen tehtävät: 11/10 ✓ COMPLETE
+[✓] 9. Esiopetus materiaali ilmainen: 11/10 ✓ COMPLETE
+[✓] 10. Lukemaan oppiminen tehtävät: 10/10 ✓ COMPLETE
+
+FINAL VERIFICATION: ✓ ALL 10 KEYWORDS COMPLETE - MINIMUM 10 OCCURRENCES ACHIEVED

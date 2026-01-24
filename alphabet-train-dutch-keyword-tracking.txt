@@ -1,0 +1,265 @@
+KEYWORD TRACKING - Alphabet Train - Dutch
+
+TARGET: Each keyword must appear MINIMUM 10 times in H2/H3 titles ONLY
+
+PRICING VERIFIED: Core Bundle ($144/year or $15/month)
+
+Dutch Keywords from keywords.txt:
+[ ] 1. Werkbladen groep 3 (Worksheets group 3): 0/10
+[ ] 2. Werkbladen kleuters / Groep 1 2 (Worksheets for toddlers): 0/10
+[ ] 3. Rekenen werkbladen (Math worksheets): 0/10
+[ ] 4. Kleurplaten (Coloring pages): 0/10
+[ ] 5. Letters leren / Schrijven oefenen (Learning letters / Writing practice): 0/10
+[ ] 6. Oefenbladen gratis (Free practice sheets): 0/10
+[ ] 7. Tafels oefenen (Multiplication tables practice): 0/10
+[ ] 8. Veilig leren lezen (Safe learning to read): 0/10
+[ ] 9. Fijne motoriek (Fine motor skills): 0/10
+[ ] 10. Sommen tot 20 (Sums up to 20): 0/10
+
+After each section, update counts and check boxes when ≥10 reached.
+
+=== SECTION-BY-SECTION TRACKING ===
+
+Section 1 (Hero): COMPLETED
+H1: "Alfabet Trein Werkbladen Generator - Letters Leren met Gratis Printbare Oefenbladen voor Kleuters en Groep 3"
+H2: "Letters Leren met de Alfabet Trein - Werkbladen Kleuters en Groep 1 2"
+H3: "Oefenbladen Gratis Printen - Letters Leren met Afbeeldingen"
+H3: "Werkbladen Groep 3 voor Veilig Leren Lezen - Alfabet Oefeningen"
+H3: "Fijne Motoriek en Letters Leren - Schrijven Oefenen met Werkbladen Kleuters"
+H3: "Kleurplaten en Alfabet Werkbladen - Creatief Letters Leren"
+H3: "Rekenen Werkbladen Combineren met Alfabet Oefeningen"
+
+RUNNING TOTALS AFTER SECTION 1:
+1. Werkbladen groep 3: 2 (H1: groep 3, H3: werkbladen groep 3)
+2. Werkbladen kleuters / Groep 1 2: 3 (H1: kleuters, H2: werkbladen kleuters + groep 1 2, H3: werkbladen kleuters)
+3. Rekenen werkbladen: 1 (H3: rekenen werkbladen)
+4. Kleurplaten: 1 (H3: kleurplaten)
+5. Letters leren / Schrijven oefenen: 5 (H1, H2, H3x3 incl. schrijven oefenen)
+6. Oefenbladen gratis: 2 (H1: oefenbladen, H3: oefenbladen gratis)
+7. Tafels oefenen: 0
+8. Veilig leren lezen: 1 (H3: veilig leren lezen)
+9. Fijne motoriek: 1 (H3: fijne motoriek)
+10. Sommen tot 20: 0
+
+Section 2 (Features): COMPLETED
+H2: "Functies van de Alfabet Trein Generator - Alles voor Werkbladen Kleuters en Letters Leren"
+H3: "Letters Leren Werkbladen in 3 Klikken - Snel en Eenvoudig voor Groep 1 2"
+H3: "Volledig Bewerkbaar Canvas - Werkbladen Groep 3 Aanpassen naar Wens"
+H3: "Eigen Afbeeldingen Uploaden - Oefenbladen Gratis Personaliseren"
+H3: "Werkbladen Kleuters in 11 Talen - Letters Leren in het Nederlands"
+H3: "Commerciële Licentie Inbegrepen - Oefenbladen Gratis Verkopen"
+H3: "Meer dan 3000 Afbeeldingen - Kleurplaten en Letters Leren Materiaal"
+H3: "Professionele 300 DPI Kwaliteit - Werkbladen Groep 3 voor Afdrukken"
+H3: "Fijne Motoriek Ontwikkelen - Schrijven Oefenen met Werkbladen Kleuters"
+H3: "Veilig Leren Lezen Ondersteuning - Letters Leren voor Groep 3"
+H3: "Rekenen Werkbladen en Alfabet Combineren - Complete Leerpakketten"
+
+Section 2 adds:
+- Werkbladen groep 3: +3 (groep 3 x3)
+- Werkbladen kleuters / Groep 1 2: +4 (kleuters x3, groep 1 2 x1)
+- Rekenen werkbladen: +1
+- Kleurplaten: +1
+- Letters leren / Schrijven oefenen: +6 (letters leren x5, schrijven oefenen x1)
+- Oefenbladen gratis: +2
+- Tafels oefenen: +0
+- Veilig leren lezen: +1
+- Fijne motoriek: +1
+- Sommen tot 20: +0
+
+RUNNING TOTALS AFTER SECTION 2:
+1. Werkbladen groep 3: 5 (2+3)
+2. Werkbladen kleuters / Groep 1 2: 7 (3+4)
+3. Rekenen werkbladen: 2 (1+1)
+4. Kleurplaten: 2 (1+1)
+5. Letters leren / Schrijven oefenen: 11 (5+6) ✓ TARGET MET!
+6. Oefenbladen gratis: 4 (2+2)
+7. Tafels oefenen: 0
+8. Veilig leren lezen: 2 (1+1)
+9. Fijne motoriek: 2 (1+1)
+10. Sommen tot 20: 0
+
+Section 3 (How-To): COMPLETED
+H2: "Hoe Maak Je Alfabet Trein Werkbladen - Stap voor Stap Letters Leren Oefenbladen Gratis Maken"
+H3: "Stap 1: Kies Je Thema voor Werkbladen Kleuters - Letters Leren met Afbeeldingen"
+H3: "Stap 2: Selecteer 11 Letters voor de Trein - Werkbladen Groep 3 en Groep 1 2 Aanpassen"
+H3: "Stap 3: Wijs Afbeeldingen Toe aan Letters - Veilig Leren Lezen Ondersteunen"
+H3: "Stap 4: Genereer en Bewerk Je Werkblad - Kleurplaten en Letters Leren Combineren"
+H3: "Stap 5: Download als PDF of JPEG - Oefenbladen Gratis Printen in Hoge Kwaliteit"
+H3: "Werkbladen Groep 3 Maken voor Veilig Leren Lezen - Extra Tips"
+H3: "Fijne Motoriek Werkbladen Kleuters - Schrijven Oefenen Voorbereiden"
+H3: "Rekenen Werkbladen als Aanvulling - Sommen tot 20 en Tafels Oefenen"
+
+Section 3 adds:
+- Werkbladen groep 3: +2
+- Werkbladen kleuters / Groep 1 2: +3
+- Rekenen werkbladen: +1
+- Kleurplaten: +1
+- Letters leren / Schrijven oefenen: +4
+- Oefenbladen gratis: +2
+- Tafels oefenen: +1
+- Veilig leren lezen: +2
+- Fijne motoriek: +1
+- Sommen tot 20: +1
+
+RUNNING TOTALS AFTER SECTION 3:
+1. Werkbladen groep 3: 7 (5+2)
+2. Werkbladen kleuters / Groep 1 2: 10 (7+3) ✓ TARGET MET!
+3. Rekenen werkbladen: 3 (2+1)
+4. Kleurplaten: 3 (2+1)
+5. Letters leren / Schrijven oefenen: 15 (11+4) ✓ TARGET MET!
+6. Oefenbladen gratis: 6 (4+2)
+7. Tafels oefenen: 1 (0+1)
+8. Veilig leren lezen: 4 (2+2)
+9. Fijne motoriek: 3 (2+1)
+10. Sommen tot 20: 1 (0+1)
+
+Section 4 (Use Cases): COMPLETED
+H2: "Voor Wie Zijn Alfabet Trein Werkbladen - Leerkrachten, Ouders en Onderwijsprofessionals"
+H3: "Leerkrachten Groep 1 2 - Werkbladen Kleuters voor Letters Leren in de Klas"
+H3: "Leerkrachten Groep 3 - Werkbladen Groep 3 voor Veilig Leren Lezen"
+H3: "Leerkrachten Groep 4 en 5 - Rekenen Werkbladen en Letters Leren Combineren"
+H3: "Thuisonderwijs Ouders - Oefenbladen Gratis voor Letters Leren Thuis"
+H3: "NT2 en Taalonderwijs - Werkbladen Kleuters in 11 Talen voor Nieuwkomers"
+H3: "Speciaal Onderwijs - Fijne Motoriek en Letters Leren met Aangepaste Werkbladen"
+H3: "Ondernemende Docenten - Kleurplaten en Werkbladen Verkopen op Teachers Pay Teachers"
+H3: "Kinderdagverblijven en BSO - Oefenbladen Gratis voor Speelse Letteractiviteiten"
+
+Section 4 adds:
+- Werkbladen groep 3: +1
+- Werkbladen kleuters / Groep 1 2: +2
+- Rekenen werkbladen: +1
+- Kleurplaten: +1
+- Letters leren / Schrijven oefenen: +4
+- Oefenbladen gratis: +2
+- Tafels oefenen: +0
+- Veilig leren lezen: +1
+- Fijne motoriek: +1
+- Sommen tot 20: +0
+
+RUNNING TOTALS AFTER SECTION 4:
+1. Werkbladen groep 3: 8 (7+1)
+2. Werkbladen kleuters / Groep 1 2: 12 (10+2) ✓ TARGET MET!
+3. Rekenen werkbladen: 4 (3+1)
+4. Kleurplaten: 4 (3+1)
+5. Letters leren / Schrijven oefenen: 19 (15+4) ✓ TARGET MET!
+6. Oefenbladen gratis: 8 (6+2)
+7. Tafels oefenen: 1 (1+0) - NEEDS FOCUS
+8. Veilig leren lezen: 5 (4+1)
+9. Fijne motoriek: 4 (3+1)
+10. Sommen tot 20: 1 (1+0) - NEEDS FOCUS
+
+Section 5 (Subscription): COMPLETED
+H2: "Waarom Leerkrachten een Core Bundle Abonnement Nemen - Werkbladen Groep 3 en Oefenbladen Gratis Maken"
+H3: "Meertalig Onderwijs - Werkbladen Kleuters in 11 Talen voor Veilig Leren Lezen"
+H3: "Commerciële Licentie - Kleurplaten en Werkbladen Groep 3 Verkopen Online"
+H3: "Tijdsbesparing - Oefenbladen Gratis van Urenlange Voorbereiding"
+H3: "Rekenen Werkbladen en Tafels Oefenen - Complete Leerpakketten met Core Bundle"
+H3: "Fijne Motoriek en Kleurplaten - Werkbladen Kleuters voor Complete Ontwikkeling"
+
+Section 5 adds:
+- Werkbladen groep 3: +2
+- Werkbladen kleuters / Groep 1 2: +2
+- Rekenen werkbladen: +1
+- Kleurplaten: +2
+- Letters leren / Schrijven oefenen: +0
+- Oefenbladen gratis: +2
+- Tafels oefenen: +1
+- Veilig leren lezen: +1
+- Fijne motoriek: +1
+- Sommen tot 20: +0
+
+RUNNING TOTALS AFTER SECTION 5:
+1. Werkbladen groep 3: 10 (8+2) ✓ TARGET MET!
+2. Werkbladen kleuters / Groep 1 2: 14 (12+2) ✓ TARGET MET!
+3. Rekenen werkbladen: 5 (4+1)
+4. Kleurplaten: 6 (4+2)
+5. Letters leren / Schrijven oefenen: 19 (19+0) ✓ TARGET MET!
+6. Oefenbladen gratis: 10 (8+2) ✓ TARGET MET!
+7. Tafels oefenen: 2 (1+1) - NEEDS FOCUS
+8. Veilig leren lezen: 6 (5+1)
+9. Fijne motoriek: 5 (4+1)
+10. Sommen tot 20: 1 (1+0) - NEEDS FOCUS
+
+Section 6 (FAQ): COMPLETED
+H2: "Veelgestelde Vragen over Alfabet Trein Werkbladen - Oefenbladen Gratis en Kleurplaten FAQ"
+H3: "Is de Alfabet Trein Generator Echt Gratis te Gebruiken voor Werkbladen Groep 3?"
+H3: "Kan Ik Kleurplaten en Werkbladen Thuis Printen op een Gewone Printer?"
+H3: "Heb Ik Ontwerpvaardigheden Nodig voor Werkbladen Kleuters Maken?"
+H3: "Mag Ik Alfabet Werkbladen Gebruiken in Mijn Klas voor Veilig Leren Lezen?"
+H3: "In Welke Talen Zijn Werkbladen Kleuters Beschikbaar voor Letters Leren?"
+H3: "Kan Ik Kleurplaten en Werkbladen Verkopen die Ik met Deze Generator Maak?"
+H3: "Hoe Pas Ik Werkbladen Groep 3 Aan voor Mijn Specifieke Leerlingen?"
+H3: "Voor Welke Leeftijdsgroepen Werken Alfabet Werkbladen het Beste met Fijne Motoriek?"
+H3: "Kan Ik Eigen Afbeeldingen Uploaden voor Werkbladen Kleuters Personaliseren?"
+H3: "Hoe Lang Duurt Het om een Alfabet Werkblad te Maken met Sommen tot 20 Combinaties?"
+H3: "Bevatten Alfabet Werkbladen Antwoordsleutels voor Veilig Leren Lezen Toetsen?"
+H3: "Kan Ik Rekenen Werkbladen en Tafels Oefenen Materiaal Maken Naast Alfabet?"
+
+Section 6 adds:
+- Werkbladen groep 3: +2
+- Werkbladen kleuters / Groep 1 2: +3
+- Rekenen werkbladen: +1
+- Kleurplaten: +3
+- Letters leren / Schrijven oefenen: +1
+- Oefenbladen gratis: +1
+- Tafels oefenen: +1
+- Veilig leren lezen: +2
+- Fijne motoriek: +1
+- Sommen tot 20: +1
+
+RUNNING TOTALS AFTER SECTION 6:
+1. Werkbladen groep 3: 12 (10+2) ✓ TARGET MET!
+2. Werkbladen kleuters / Groep 1 2: 17 (14+3) ✓ TARGET MET!
+3. Rekenen werkbladen: 6 (5+1)
+4. Kleurplaten: 9 (6+3)
+5. Letters leren / Schrijven oefenen: 20 (19+1) ✓ TARGET MET!
+6. Oefenbladen gratis: 11 (10+1) ✓ TARGET MET!
+7. Tafels oefenen: 3 (2+1) - NEEDS MORE IN SECTION 7
+8. Veilig leren lezen: 8 (6+2)
+9. Fijne motoriek: 6 (5+1)
+10. Sommen tot 20: 2 (1+1) - NEEDS MORE IN SECTION 7
+
+Section 7 (Combine Apps): COMPLETED
+H2: "Combineer Alfabet Trein met Andere Werkbladen - Rekenen Werkbladen, Sommen tot 20 en Tafels Oefenen Pakketten"
+H3: "Alfabet Trein Plus Rekenen Werkbladen - Sommen tot 20 voor Groep 3"
+H3: "Tafels Oefenen Werkbladen Combineren met Alfabet - Rekenen Werkbladen voor Groep 4"
+H3: "Sommen tot 20 en Tafels Oefenen - Complete Rekenen Werkbladen Pakketten"
+H3: "Veilig Leren Lezen met Alfabet Trein - Kleurplaten voor Letterherkenning"
+H3: "Fijne Motoriek Ontwikkelen - Kleurplaten en Schrijfoefeningen Combineren"
+H3: "Tafels Oefenen met Thematische Afbeeldingen - Rekenen Werkbladen met Plaatjes"
+H3: "Sommen tot 20 voor Veilig Leren Lezen Leerlingen - Rekenen en Taal Integreren"
+H3: "Fijne Motoriek en Tafels Oefenen - Werkbladen voor Complete Ontwikkeling"
+H3: "Complete Weekpakketten - Sommen tot 20, Tafels Oefenen en Alfabet Samen"
+H3: "Sommen tot 20 Werkbladen voor Beginnende Rekenaars - Alfabet en Getallen"
+H3: "Fijne Motoriek Stimuleren met Kleurplaten en Letteractiviteiten"
+H3: "Tafels Oefenen Materiaal voor Hogere Groepen - Rekenen met Thema's"
+H3: "Sommen tot 20 en Fijne Motoriek Gecombineerd - Holistische Werkbladen"
+H3: "Dagelijkse Oefening met Sommen tot 20 - Routine Opbouwen in Groep 3"
+
+Section 7 adds:
+- Werkbladen groep 3: +0
+- Werkbladen kleuters / Groep 1 2: +0
+- Rekenen werkbladen: +5
+- Kleurplaten: +2
+- Letters leren / Schrijven oefenen: +0
+- Oefenbladen gratis: +0
+- Tafels oefenen: +7 (includes additional H3s)
+- Veilig leren lezen: +2
+- Fijne motoriek: +4 (includes additional H3s)
+- Sommen tot 20: +8 (includes additional H3s)
+
+=== FINAL TOTALS ===
+
+1. Werkbladen groep 3: 12 ✓ TARGET MET! (target: 10)
+2. Werkbladen kleuters / Groep 1 2: 17 ✓ TARGET MET! (target: 10)
+3. Rekenen werkbladen: 11 ✓ TARGET MET! (target: 10)
+4. Kleurplaten: 11 ✓ TARGET MET! (target: 10)
+5. Letters leren / Schrijven oefenen: 20 ✓ TARGET MET! (target: 10)
+6. Oefenbladen gratis: 11 ✓ TARGET MET! (target: 10)
+7. Tafels oefenen: 10 ✓ TARGET MET! (target: 10)
+8. Veilig leren lezen: 10 ✓ TARGET MET! (target: 10)
+9. Fijne motoriek: 10 ✓ TARGET MET! (target: 10)
+10. Sommen tot 20: 10 ✓ TARGET MET! (target: 10)
+
+STATUS: ✅ ALL 10/10 KEYWORDS HAVE MET TARGET!
+PAGE COMPLETE - All SEO requirements satisfied.

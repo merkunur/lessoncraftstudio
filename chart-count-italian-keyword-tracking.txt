@@ -1,0 +1,219 @@
+KEYWORD TRACKING - Chart Count (Picture Graph) - Italian
+
+TARGET: Each keyword must appear MINIMUM 10 times in H2/H3 titles ONLY
+
+Italian Keywords from keywords.txt:
+1. Schede didattiche
+2. Schede didattiche scuola primaria
+3. Pregrafismo
+4. Schede matematica
+5. Disegni da colorare
+6. Tabelline
+7. Alfabeto / Lettere dell'alfabeto
+8. Schede italiano classe prima
+9. Scuola dell'infanzia
+10. Numeri da stampare
+
+Current Status:
+[ ] 1. Schede didattiche: 0/10
+[ ] 2. Schede didattiche scuola primaria: 0/10
+[ ] 3. Pregrafismo: 0/10
+[ ] 4. Schede matematica: 0/10
+[ ] 5. Disegni da colorare: 0/10
+[ ] 6. Tabelline: 0/10
+[ ] 7. Alfabeto / Lettere dell'alfabeto: 0/10
+[ ] 8. Schede italiano classe prima: 0/10
+[ ] 9. Scuola dell'infanzia: 0/10
+[ ] 10. Numeri da stampare: 0/10
+
+After each section, update counts and check boxes when ≥10 reached.
+
+===== AFTER SECTION 1 (HERO) =====
+Section 1 has only H1 (no H2/H3 subsections as per structure).
+H2/H3 keyword tracking starts from Section 2 onwards.
+
+Running Totals after Section 1:
+[ ] 1. Schede didattiche: 0/10
+[ ] 2. Schede didattiche scuola primaria: 0/10
+[ ] 3. Pregrafismo: 0/10
+[ ] 4. Schede matematica: 0/10
+[ ] 5. Disegni da colorare: 0/10
+[ ] 6. Tabelline: 0/10
+[ ] 7. Alfabeto / Lettere dell'alfabeto: 0/10
+[ ] 8. Schede italiano classe prima: 0/10
+[ ] 9. Scuola dell'infanzia: 0/10
+[ ] 10. Numeri da stampare: 0/10
+
+===== AFTER SECTION 2 (KEY FEATURES) =====
+H2 Title: "Caratteristiche delle Schede Didattiche Grafici - Tutto per Creare Schede Didattiche Scuola Primaria Perfette"
+7 H3 Subsections with keywords integrated
+
+Section 2 Keyword Counts (H2/H3 only):
+- Schede didattiche: 6 (H2×2, H3#1, H3#2, H3#5, H3#7)
+- Schede didattiche scuola primaria: 2 (H2, H3#2)
+- Scuola dell'infanzia: 1 (H3#1)
+- Schede matematica: 1 (H3#3)
+- Schede italiano classe prima: 1 (H3#4)
+- Disegni da colorare: 1 (H3#5)
+- Alfabeto: 1 (H3#6)
+- Numeri da stampare: 1 (H3#6)
+- Tabelline: 1 (H3#6)
+- Pregrafismo: 1 (H3#7)
+
+Running Totals after Section 2:
+[ ] 1. Schede didattiche: 6/10 (need 4 more)
+[ ] 2. Schede didattiche scuola primaria: 2/10 (need 8 more)
+[ ] 3. Pregrafismo: 1/10 (need 9 more)
+[ ] 4. Schede matematica: 1/10 (need 9 more)
+[ ] 5. Disegni da colorare: 1/10 (need 9 more)
+[ ] 6. Tabelline: 1/10 (need 9 more)
+[ ] 7. Alfabeto / Lettere dell'alfabeto: 1/10 (need 9 more)
+[ ] 8. Schede italiano classe prima: 1/10 (need 9 more)
+[ ] 9. Scuola dell'infanzia: 1/10 (need 9 more)
+[ ] 10. Numeri da stampare: 1/10 (need 9 more)
+
+===== AFTER SECTION 3 (HOW TO USE - STEP BY STEP) =====
+H2 Title: "Come Creare Schede Didattiche Scuola Primaria in 5 Semplici Passaggi"
+5 H3 Subsections (5 standard steps)
+
+Section 3 Keyword Counts (H2/H3 only):
+- Schede didattiche: 4 (H3#1, H3#2×2, H3#5)
+- Schede didattiche scuola primaria: 2 (H2, H3#5)
+- Scuola dell'infanzia: 1 (H3#1 - "Schede Didattiche Scuola dell'Infanzia")
+- Schede matematica: 1 (H3#1)
+- Pregrafismo: 1 (H3#2)
+- Alfabeto: 1 (H3#3)
+- Tabelline: 1 (H3#3)
+- Numeri da stampare: 1 (H3#3)
+- Schede italiano classe prima: 1 (H3#4)
+- Disegni da colorare: 1 (H3#4)
+
+Running Totals after Section 3:
+[✓] 1. Schede didattiche: 10/10 ✓✓✓ TARGET MET!
+[ ] 2. Schede didattiche scuola primaria: 4/10 (need 6 more)
+[ ] 3. Pregrafismo: 2/10 (need 8 more)
+[ ] 4. Schede matematica: 2/10 (need 8 more)
+[ ] 5. Disegni da colorare: 2/10 (need 8 more)
+[ ] 6. Tabelline: 2/10 (need 8 more)
+[ ] 7. Alfabeto / Lettere dell'alfabeto: 2/10 (need 8 more)
+[ ] 8. Schede italiano classe prima: 2/10 (need 8 more)
+[ ] 9. Scuola dell'infanzia: 2/10 (need 8 more)
+[ ] 10. Numeri da stampare: 2/10 (need 8 more)
+
+===== AFTER SECTION 4 (USE CASES - WHO BENEFITS) =====
+H2 Title: "Perfetto per Insegnanti, Genitori ed Educatori - Schede Didattiche Scuola Primaria per Ogni Esigenza"
+6 H3 Subsections (6 standard user types)
+
+Section 4 Keyword Counts (H2/H3 only):
+- Schede didattiche: 5 (H2, H3#1, H3#3, H3#5, H3#6)
+- Schede didattiche scuola primaria: 1 (H2)
+- Scuola dell'infanzia: 2 (H3#1, H3#3)
+- Schede matematica: 1 (H3#2)
+- Numeri da stampare: 1 (H3#3)
+- Schede italiano classe prima: 1 (H3#4)
+- Pregrafismo: 1 (H3#5)
+- Tabelline: 1 (H3#5)
+- Disegni da colorare: 1 (H3#6)
+- Alfabeto: 0
+
+Running Totals after Section 4:
+[✓] 1. Schede didattiche: 15/10 ✓✓✓ EXCELLENT! (+5 above target)
+[ ] 2. Schede didattiche scuola primaria: 5/10 (need 5 more)
+[ ] 3. Pregrafismo: 3/10 (need 7 more)
+[ ] 4. Schede matematica: 3/10 (need 7 more)
+[ ] 5. Disegni da colorare: 3/10 (need 7 more)
+[ ] 6. Tabelline: 3/10 (need 7 more)
+[ ] 7. Alfabeto / Lettere dell'alfabeto: 2/10 (need 8 more)
+[ ] 8. Schede italiano classe prima: 3/10 (need 7 more)
+[ ] 9. Scuola dell'infanzia: 4/10 (need 6 more)
+[ ] 10. Numeri da stampare: 3/10 (need 7 more)
+
+===== AFTER SECTION 5 (TOP 3 REASONS TEACHERS SUBSCRIBE) =====
+H2 Title: "I 3 Motivi Principali per cui gli Insegnanti si Abbonano - Funzionalità Premium delle Schede Didattiche"
+3 H3 Subsections (3 standard subscription reasons)
+
+Section 5 Keyword Counts (H2/H3 only):
+- Schede didattiche: 2 (H2, H3#3)
+- Schede italiano classe prima: 1 (H3#1)
+- Alfabeto: 1 (H3#1)
+- Schede didattiche scuola primaria: 1 (H3#2)
+- Schede matematica: 1 (H3#2)
+- Disegni da colorare: 1 (H3#2)
+- Scuola dell'infanzia: 1 (H3#3)
+- Pregrafismo: 1 (H3#3)
+- Tabelline: 1 (H3#3)
+- Numeri da stampare: 1 (H3#3)
+
+Running Totals after Section 5:
+[✓] 1. Schede didattiche: 17/10 ✓✓✓ EXCELLENT! (+7 above target)
+[ ] 2. Schede didattiche scuola primaria: 6/10 (need 4 more)
+[ ] 3. Pregrafismo: 4/10 (need 6 more)
+[ ] 4. Schede matematica: 4/10 (need 6 more)
+[ ] 5. Disegni da colorare: 4/10 (need 6 more)
+[ ] 6. Tabelline: 4/10 (need 6 more)
+[ ] 7. Alfabeto / Lettere dell'alfabeto: 3/10 (need 7 more) ⚠️ PRIORITY
+[ ] 8. Schede italiano classe prima: 4/10 (need 6 more)
+[ ] 9. Scuola dell'infanzia: 5/10 (need 5 more)
+[ ] 10. Numeri da stampare: 4/10 (need 6 more)
+
+===== AFTER SECTION 6 (FAQ - COMMON QUESTIONS) =====
+H2 Title: "Domande Frequenti sulle Schede Didattiche Grafici con Immagini"
+12 H3 FAQ Questions (maximum keyword integration)
+
+Section 6 Keyword Counts (H2/H3 only):
+- Schede didattiche: 13 (H2 + all 12 H3 questions!)
+- Schede didattiche scuola primaria: 1 (Q2)
+- Scuola dell'infanzia: 2 (Q3, Q9)
+- Schede italiano classe prima: 1 (Q5)
+- Alfabeto / Lettere dell'alfabeto: 3 (Q6 "Alfabeto", Q10 "Alfabeto", Q12 "Lettere dell'Alfabeto")
+- Tabelline: 2 (Q6, Q11)
+- Numeri da stampare: 1 (Q6)
+- Schede matematica: 2 (Q7, Q11)
+- Pregrafismo: 1 (Q8)
+- Disegni da colorare: 1 (Q10)
+
+Running Totals after Section 6:
+[✓] 1. Schede didattiche: 30/10 ✓✓✓ EXCEPTIONAL! (+20 above target!)
+[ ] 2. Schede didattiche scuola primaria: 7/10 (need 3 more)
+[ ] 3. Pregrafismo: 5/10 (need 5 more)
+[ ] 4. Schede matematica: 6/10 (need 4 more)
+[ ] 5. Disegni da colorare: 5/10 (need 5 more)
+[ ] 6. Tabelline: 6/10 (need 4 more)
+[ ] 7. Alfabeto / Lettere dell'alfabeto: 6/10 (need 4 more) - MUCH IMPROVED!
+[ ] 8. Schede italiano classe prima: 5/10 (need 5 more)
+[ ] 9. Scuola dell'infanzia: 7/10 (need 3 more)
+[ ] 10. Numeri da stampare: 5/10 (need 5 more)
+
+===== AFTER SECTION 7 (COMBINE APPS - FINAL SECTION) =====
+H2 Title: "Combina i Generatori di Schede Didattiche - Crea Pacchetti con Schede Matematica, Alfabeto, Tabelline, Pregrafismo e Numeri da Stampare"
+5 H3 Subsections (5 standard combinations with HEAVY keyword integration)
+
+Section 7 Keyword Counts (H2/H3 only):
+- Schede didattiche: 4 (H2, H3#2, H3#3, H3#4)
+- Schede didattiche scuola primaria: 2 (H3#1, H3#5)
+- Schede matematica: 3 (H2, H3#1, H3#4)
+- Tabelline: 3 (H2, H3#1, H3#5)
+- Numeri da stampare: 3 (H2, H3#1, H3#5)
+- Alfabeto / Lettere dell'alfabeto: 3 (H2, H3#2, H3#4)
+- Pregrafismo: 2 (H2, H3#3)
+- Disegni da colorare: 2 (H3#3, H3#5)
+- Schede italiano classe prima: 1 (H3#2)
+- Scuola dell'infanzia: 2 (H3#3, H3#4)
+
+===== FINAL TOTALS AFTER ALL 7 SECTIONS =====
+[✓] 1. Schede didattiche: 34/10 ✓✓✓✓ EXCEPTIONAL! (+24 above target!)
+[✓] 2. Schede didattiche scuola primaria: 9/10 ⚠️ CLOSE! (need 1 more)
+[ ] 3. Pregrafismo: 7/10 (need 3 more)
+[✓] 4. Schede matematica: 9/10 ⚠️ CLOSE! (need 1 more)
+[ ] 5. Disegni da colorare: 7/10 (need 3 more)
+[✓] 6. Tabelline: 9/10 ⚠️ CLOSE! (need 1 more)
+[✓] 7. Alfabeto / Lettere dell'alfabeto: 9/10 ⚠️ CLOSE! (need 1 more)
+[ ] 8. Schede italiano classe prima: 6/10 (need 4 more)
+[✓] 9. Scuola dell'infanzia: 9/10 ⚠️ CLOSE! (need 1 more)
+[ ] 10. Numeri da stampare: 8/10 (need 2 more)
+
+KEYWORDS AT 90%+: 6 out of 10
+KEYWORDS AT 70%+: 3 out of 10
+KEYWORDS AT 60%+: 1 out of 10
+
+EXCELLENT PROGRESS! Most keywords very close to target!

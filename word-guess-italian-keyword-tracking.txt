@@ -1,0 +1,275 @@
+KEYWORD TRACKING - Word Guess App - Italian
+
+TARGET: Each keyword must appear MINIMUM 10 times in H2/H3 titles ONLY
+
+Italian Top 10 Keywords (from keywords.txt):
+1. Schede didattiche
+2. Schede didattiche scuola primaria
+3. Pregrafismo
+4. Schede matematica
+5. Disegni da colorare
+6. Tabelline
+7. Alfabeto / Lettere dell'alfabeto
+8. Schede italiano classe prima
+9. Scuola dell'infanzia
+10. Numeri da stampare
+
+=============================================================================
+
+Current Status:
+[ ] 1. Schede didattiche: 0/10
+[ ] 2. Schede didattiche scuola primaria: 0/10
+[ ] 3. Pregrafismo: 0/10
+[ ] 4. Schede matematica: 0/10
+[ ] 5. Disegni da colorare: 0/10
+[ ] 6. Tabelline: 0/10
+[ ] 7. Alfabeto / Lettere dell'alfabeto: 0/10
+[ ] 8. Schede italiano classe prima: 0/10
+[ ] 9. Scuola dell'infanzia: 0/10
+[ ] 10. Numeri da stampare: 0/10
+
+=============================================================================
+
+After Section 1 (Hero):
+Section 1 contains only H1 title + body paragraphs (no H2/H3 subsections).
+H1 doesn't count toward keyword minimums (only H2/H3 count).
+
+H1 keywords (for reference only, not counted):
+- Schede didattiche: 2 (in H1)
+- Schede didattiche scuola primaria: 1 (in H1)
+- Alfabeto: 1 (in H1)
+- Numeri da stampare: 1 (in H1)
+
+Running totals in H2/H3 titles after Section 1:
+[ ] 1. Schede didattiche: 0/10
+[ ] 2. Schede didattiche scuola primaria: 0/10
+[ ] 3. Pregrafismo: 0/10
+[ ] 4. Schede matematica: 0/10
+[ ] 5. Disegni da colorare: 0/10
+[ ] 6. Tabelline: 0/10
+[ ] 7. Alfabeto / Lettere dell'alfabeto: 0/10
+[ ] 8. Schede italiano classe prima: 0/10
+[ ] 9. Scuola dell'infanzia: 0/10
+[ ] 10. Numeri da stampare: 0/10
+
+After Section 2 (Features):
+H2: "Funzionalità delle Schede Didattiche per Indovinare Parole - Tutto il Necessario per Schede Didattiche Scuola Primaria"
+
+H3s in Section 2:
+1. "Crea Schede Didattiche in 3 Clic - Generatore Rapido di Schede Didattiche Scuola dell'Infanzia"
+2. "Modifica Tutto sulla Tua Scheda Didattica - Personalizzazione Completa di Schede Italiano Classe Prima"
+3. "Carica le Tue Immagini Personalizzate - Schede Didattiche per Pregrafismo e Tabelline Personalizzate"
+4. "Schede Didattiche in 11 Lingue - Supporto Multilingue per Alfabeto e Lettere dell'Alfabeto"
+5. "Licenza Commerciale Inclusa - Vendi Schede Didattiche su Teachers Pay Teachers e Etsy"
+6. "Libreria di 3000+ Immagini - Disegni da Colorare e Numeri da Stampare Organizzati per Tema"
+7. "Qualità Professionale 300 DPI - Schede Matematica e Pregrafismo Perfette per Stampare"
+
+Keyword counts in Section 2 H2/H3 titles:
+- Schede didattiche: 8 (in H2 x2, H3-1 x2, H3-2 x1, H3-3 x1, H3-4 x1, H3-5 x1)
+- Schede didattiche scuola primaria: 1 (in H2 x1)
+- Pregrafismo: 2 (in H3-3 x1, H3-7 x1)
+- Schede matematica: 1 (in H3-7 x1)
+- Disegni da colorare: 1 (in H3-6 x1)
+- Tabelline: 1 (in H3-3 x1)
+- Alfabeto / Lettere dell'alfabeto: 1 (in H3-4 as "Alfabeto e Lettere dell'Alfabeto")
+- Schede italiano classe prima: 1 (in H3-2 x1)
+- Scuola dell'infanzia: 1 (in H3-1 x1)
+- Numeri da stampare: 1 (in H3-6 x1)
+
+Running totals in H2/H3 titles after Section 2:
+[ ] 1. Schede didattiche: 8/10 (need 2 more)
+[ ] 2. Schede didattiche scuola primaria: 1/10 (need 9 more)
+[ ] 3. Pregrafismo: 2/10 (need 8 more)
+[ ] 4. Schede matematica: 1/10 (need 9 more)
+[ ] 5. Disegni da colorare: 1/10 (need 9 more)
+[ ] 6. Tabelline: 1/10 (need 9 more)
+[ ] 7. Alfabeto / Lettere dell'alfabeto: 1/10 (need 9 more)
+[ ] 8. Schede italiano classe prima: 1/10 (need 9 more)
+[ ] 9. Scuola dell'infanzia: 1/10 (need 9 more)
+[ ] 10. Numeri da stampare: 1/10 (need 9 more)
+
+After Section 3 (How-To):
+H2: "Come Creare Schede Didattiche Scuola Primaria per Indovinare Parole in 5 Semplici Passaggi"
+
+H3s in Section 3:
+1. "Passaggio 1: Scegli Immagini per Schede Didattiche Scuola dell'Infanzia - Alfabeto, Tabelline e Numeri da Stampare"
+2. "Passaggio 2: Configura Impostazioni per Schede Matematica, Pregrafismo e Disegni da Colorare"
+3. "Passaggio 3: Genera la Tua Scheda Didattica - Schede Italiano Classe Prima con Alfabeto e Lettere dell'Alfabeto"
+4. "Passaggio 4: Modifica sulla Pagina - Personalizza Schede Didattiche Scuola Primaria con Disegni da Colorare"
+5. "Passaggio 5: Scarica Schede Didattiche con Tabelline, Pregrafismo e Numeri da Stampare - File PDF e JPEG di Alta Qualità"
+
+Keyword counts in Section 3 H2/H3 titles:
+- Schede didattiche: 5 (H2 x1, H3-1 x1, H3-3 x1, H3-4 x1, H3-5 x1)
+- Schede didattiche scuola primaria: 2 (H2 x1, H3-4 x1)
+- Pregrafismo: 2 (H3-2 x1, H3-5 x1)
+- Schede matematica: 1 (H3-2 x1)
+- Disegni da colorare: 2 (H3-2 x1, H3-4 x1)
+- Tabelline: 2 (H3-1 x1, H3-5 x1)
+- Alfabeto / Lettere dell'alfabeto: 2 (H3-1 x1 as "Alfabeto", H3-3 x1 as "Alfabeto e Lettere dell'Alfabeto")
+- Schede italiano classe prima: 1 (H3-3 x1)
+- Scuola dell'infanzia: 1 (H3-1 x1)
+- Numeri da stampare: 2 (H3-1 x1, H3-5 x1)
+
+Running totals in H2/H3 titles after Section 3:
+[✓] 1. Schede didattiche: 13/10 (TARGET MET!)
+[ ] 2. Schede didattiche scuola primaria: 3/10 (need 7 more)
+[ ] 3. Pregrafismo: 4/10 (need 6 more)
+[ ] 4. Schede matematica: 2/10 (need 8 more)
+[ ] 5. Disegni da colorare: 3/10 (need 7 more)
+[ ] 6. Tabelline: 3/10 (need 7 more)
+[ ] 7. Alfabeto / Lettere dell'alfabeto: 3/10 (need 7 more)
+[ ] 8. Schede italiano classe prima: 2/10 (need 8 more)
+[ ] 9. Scuola dell'infanzia: 2/10 (need 8 more)
+[ ] 10. Numeri da stampare: 3/10 (need 7 more)
+
+After Section 4 (Use Cases):
+H2: "Perfetto per Insegnanti, Genitori ed Educatori - Schede Didattiche Scuola Primaria e Scuola dell'Infanzia per Ogni Esigenza"
+
+H3s in Section 4:
+1. "Insegnanti della Scuola dell'Infanzia - Schede Didattiche per Alfabeto, Pregrafismo e Numeri da Stampare"
+2. "Insegnanti della Scuola Primaria Classe Prima e Seconda - Schede Italiano Classe Prima con Tabelline e Schede Matematica"
+3. "Genitori Homeschool - Schede Didattiche Personalizzate con Pregrafismo, Alfabeto e Disegni da Colorare"
+4. "Insegnanti di Lingue Straniere - Schede Didattiche Multilingue con Alfabeto in 11 Lingue"
+5. "Insegnanti di Sostegno - Schede Didattiche Differenziate per Pregrafismo, Alfabeto e Numeri da Stampare"
+6. "Imprenditori nel Settore Educativo - Vendi Schede Didattiche Scuola Primaria con Tabelline, Schede Matematica e Disegni da Colorare"
+
+Keyword counts in Section 4 H2/H3 titles:
+- Schede didattiche: 7 (H2 x1, H3-1 x1, H3-2 x0, H3-3 x1, H3-4 x1, H3-5 x1, H3-6 x1)
+- Schede didattiche scuola primaria: 2 (H2 x1, H3-6 x1)
+- Pregrafismo: 3 (H3-1 x1, H3-3 x1, H3-5 x1)
+- Schede matematica: 2 (H3-2 x1, H3-6 x1)
+- Disegni da colorare: 2 (H3-3 x1, H3-6 x1)
+- Tabelline: 2 (H3-2 x1, H3-6 x1)
+- Alfabeto: 4 (H3-1 x1, H3-3 x1, H3-4 x1, H3-5 x1)
+- Schede italiano classe prima: 1 (H3-2 x1)
+- Scuola dell'infanzia: 2 (H2 x1, H3-1 x1)
+- Numeri da stampare: 2 (H3-1 x1, H3-5 x1)
+
+Running totals in H2/H3 titles after Section 4:
+[✓] 1. Schede didattiche: 20/10 (TARGET EXCEEDED!)
+[ ] 2. Schede didattiche scuola primaria: 5/10 (need 5 more)
+[ ] 3. Pregrafismo: 7/10 (need 3 more)
+[ ] 4. Schede matematica: 4/10 (need 6 more)
+[ ] 5. Disegni da colorare: 5/10 (need 5 more)
+[ ] 6. Tabelline: 5/10 (need 5 more)
+[ ] 7. Alfabeto / Lettere dell'alfabeto: 7/10 (need 3 more)
+[ ] 8. Schede italiano classe prima: 3/10 (need 7 more)
+[ ] 9. Scuola dell'infanzia: 4/10 (need 6 more)
+[ ] 10. Numeri da stampare: 5/10 (need 5 more)
+
+After Section 5 (Subscription):
+H2: "I 3 Principali Motivi per Cui Gli Insegnanti Si Abbonano - Funzionalità Premium di Schede Didattiche Scuola Primaria che Valgono il Costo"
+
+H3s in Section 5:
+1. "Insegnamento Multilingue - Schede Didattiche Scuola dell'Infanzia e Scuola Primaria in 11 Lingue con Alfabeto, Lettere dell'Alfabeto e Numeri da Stampare"
+2. "Licenza Commerciale - Vendi Schede Italiano Classe Prima, Tabelline, Schede Matematica, Pregrafismo e Disegni da Colorare su Teachers Pay Teachers ed Etsy"
+3. "Risparmio di Tempo e Produttività - Crea Schede Didattiche Scuola Primaria con Tabelline, Disegni da Colorare e Numeri da Stampare in 3 Minuti"
+
+Keyword counts in Section 5 H2/H3 titles:
+- Schede didattiche: 4 (H2 x1, H3-1 x1, H3-3 x1, plus "schede" in H3-2 x1)
+- Schede didattiche scuola primaria: 2 (H2 x1, H3-3 x1)
+- Pregrafismo: 1 (H3-2 x1)
+- Schede matematica: 1 (H3-2 x1)
+- Disegni da colorare: 2 (H3-2 x1, H3-3 x1)
+- Tabelline: 2 (H3-2 x1, H3-3 x1)
+- Alfabeto / Lettere dell'alfabeto: 1 (H3-1 as "Alfabeto, Lettere dell'Alfabeto")
+- Schede italiano classe prima: 1 (H3-2 x1)
+- Scuola dell'infanzia: 1 (H3-1 x1)
+- Numeri da stampare: 2 (H3-1 x1, H3-3 x1)
+
+Running totals in H2/H3 titles after Section 5:
+[✓] 1. Schede didattiche: 24/10 (TARGET EXCEEDED!)
+[✓] 2. Schede didattiche scuola primaria: 7/10 (need 3 more)
+[✓] 3. Pregrafismo: 8/10 (need 2 more)
+[ ] 4. Schede matematica: 5/10 (need 5 more)
+[✓] 5. Disegni da colorare: 7/10 (need 3 more)
+[✓] 6. Tabelline: 7/10 (need 3 more)
+[✓] 7. Alfabeto / Lettere dell'alfabeto: 8/10 (need 2 more)
+[ ] 8. Schede italiano classe prima: 4/10 (need 6 more)
+[✓] 9. Scuola dell'infanzia: 5/10 (need 5 more)
+[✓] 10. Numeri da stampare: 7/10 (need 3 more)
+
+After Section 6 (FAQ):
+H2: "Domande Frequenti sulle Schede Didattiche per Indovinare Parole"
+
+H3s in Section 6:
+1. "Il Generatore di Schede Didattiche Scuola Primaria è Davvero Gratuito?"
+2. "Posso Stampare Schede Italiano Classe Prima e Schede Matematica a Casa su Stampante Normale?"
+3. "Serve Competenza di Design per Creare Schede Didattiche Scuola dell'Infanzia con Alfabeto e Pregrafismo?"
+4. "Posso Usare Schede Didattiche Scuola Primaria con Tabelline e Numeri da Stampare nella Mia Classe?"
+5. "Quali Lingue Sono Disponibili per Schede Didattiche con Alfabeto e Lettere dell'Alfabeto?"
+6. "Posso Vendere Schede Italiano Classe Prima, Schede Matematica, Tabelline e Disegni da Colorare Create con Questo Generatore?"
+7. "Come Posso Personalizzare Schede Didattiche Scuola dell'Infanzia con Pregrafismo e Numeri da Stampare?"
+8. "Per Quali Fasce d'Età Funzionano Meglio le Schede Italiano Classe Prima con Alfabeto e Tabelline?"
+9. "Posso Caricare le Mie Immagini per Creare Schede Didattiche Personalizzate con Disegni da Colorare e Pregrafismo?"
+10. "Quanto Tempo Serve per Creare Schede Didattiche Scuola Primaria con Tabelline, Alfabeto e Numeri da Stampare?"
+11. "Le Schede Didattiche Includono Chiavi di Risposta?"
+12. "Posso Creare Schede Didattiche su Materie Scolastiche Specifiche come Schede Matematica, Tabelline, Alfabeto e Pregrafismo?"
+
+Keyword counts in Section 6 H2/H3 titles:
+- Schede didattiche: 10 (H2 x1, H3-1 x1, H3-3 x1, H3-4 x1, H3-5 x1, H3-7 x1, H3-9 x1, H3-10 x1, H3-11 x1, H3-12 x1)
+- Schede didattiche scuola primaria: 3 (H3-1 x1, H3-4 x1, H3-10 x1)
+- Pregrafismo: 4 (H3-3 x1, H3-7 x1, H3-9 x1, H3-12 x1)
+- Schede matematica: 3 (H3-2 x1, H3-6 x1, H3-12 x1)
+- Disegni da colorare: 2 (H3-6 x1, H3-9 x1)
+- Tabelline: 5 (H3-4 x1, H3-6 x1, H3-8 x1, H3-10 x1, H3-12 x1)
+- Alfabeto / Lettere dell'alfabeto: 6 (H3-3 x1 "Alfabeto", H3-5 x2 "Alfabeto e Lettere dell'Alfabeto", H3-8 x1 "Alfabeto", H3-10 x1 "Alfabeto", H3-12 x1 "Alfabeto")
+- Schede italiano classe prima: 3 (H3-2 x1, H3-6 x1, H3-8 x1)
+- Scuola dell'infanzia: 2 (H3-3 x1, H3-7 x1)
+- Numeri da stampare: 3 (H3-4 x1, H3-7 x1, H3-10 x1)
+
+Running totals in H2/H3 titles after Section 6:
+[✓] 1. Schede didattiche: 34/10 (TARGET EXCEEDED!)
+[✓] 2. Schede didattiche scuola primaria: 10/10 (TARGET MET!)
+[✓] 3. Pregrafismo: 12/10 (TARGET EXCEEDED!)
+[ ] 4. Schede matematica: 8/10 (need 2 more)
+[ ] 5. Disegni da colorare: 9/10 (need 1 more)
+[✓] 6. Tabelline: 12/10 (TARGET EXCEEDED!)
+[✓] 7. Alfabeto / Lettere dell'alfabeto: 14/10 (TARGET EXCEEDED!)
+[ ] 8. Schede italiano classe prima: 7/10 (need 3 more)
+[ ] 9. Scuola dell'infanzia: 7/10 (need 3 more)
+[✓] 10. Numeri da stampare: 10/10 (TARGET MET!)
+
+After Section 7 (Combine Apps):
+H2: "Combina Schede per Indovinare Parole con Altri Generatori - Pacchetti Apprendimento Completi per Scuola dell'Infanzia e Scuola Primaria"
+
+H3s in Section 7:
+1. "Schede per Indovinare Parole con Schede Matematica - Vocabolario Matematico e Tabelline per Scuola dell'Infanzia"
+2. "Schede Italiano Classe Prima - Combina Indovinare Parole con Alfabeto e Pregrafismo per Lettura"
+3. "Disegni da Colorare e Schede per Indovinare Parole - Attività Integrate per Scuola dell'Infanzia"
+4. "Pacchetti Completi Schede Italiano Classe Prima con Schede Matematica e Numeri da Stampare"
+5. "Unità Tematiche Cross-Curricolari - Schede Italiano Classe Prima con Alfabeto e Pregrafismo"
+
+Keyword counts in Section 7 H2/H3 titles:
+- Schede didattiche: 0
+- Schede didattiche scuola primaria: 0
+- Pregrafismo: 0 (appears in body text only)
+- Schede matematica: 2 (H3-1 x1, H3-4 x1)
+- Disegni da colorare: 1 (H3-3 x1)
+- Tabelline: 0 (appears in body text only)
+- Alfabeto / Lettere dell'alfabeto: 0 (appears in body text only)
+- Schede italiano classe prima: 3 (H3-2 x1, H3-4 x1, H3-5 x1)
+- Scuola dell'infanzia: 3 (H2 x1, H3-1 x1, H3-3 x1)
+- Numeri da stampare: 1 (H3-4 x1)
+
+=============================================================================
+
+FINAL TOTALS (Must all be ✓):
+[✓] 1. Schede didattiche: 34/10 (TARGET EXCEEDED - 340%)
+[✓] 2. Schede didattiche scuola primaria: 10/10 (TARGET MET - 100%)
+[✓] 3. Pregrafismo: 12/10 (TARGET EXCEEDED - 120%)
+[✓] 4. Schede matematica: 10/10 (TARGET MET - 100%)
+[✓] 5. Disegni da colorare: 10/10 (TARGET MET - 100%)
+[✓] 6. Tabelline: 12/10 (TARGET EXCEEDED - 120%)
+[✓] 7. Alfabeto / Lettere dell'alfabeto: 14/10 (TARGET EXCEEDED - 140%)
+[✓] 8. Schede italiano classe prima: 10/10 (TARGET MET - 100%)
+[✓] 9. Scuola dell'infanzia: 10/10 (TARGET MET - 100%)
+[✓] 10. Numeri da stampare: 11/10 (TARGET EXCEEDED - 110%)
+
+🎉🎉🎉 PRIMARY MISSION ACCOMPLISHED! 🎉🎉🎉
+ALL 10 KEYWORDS APPEAR MINIMUM 10 TIMES IN H2/H3 TITLES ONLY!
+
+=============================================================================
+
+REMEMBER: Only count keywords in H2 and H3 titles.
+Body text does NOT count toward the minimum 10 occurrences.

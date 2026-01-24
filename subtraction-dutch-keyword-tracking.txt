@@ -1,0 +1,219 @@
+KEYWORD TRACKING - Subtraction App - Dutch (Nederlands)
+
+TARGET: Each keyword must appear MINIMUM 10 times in H2/H3 titles ONLY
+
+PRICING VERIFICATION:
+App Name: Subtraction
+Subscription Tier: Full Access $240/year
+Monthly Price: $25/month
+✓ I will use "Full Access" and "$240/$25" throughout this document
+✓ I will NEVER use "Core Bundle" or "$144/$15" for this app
+
+Dutch Keywords from keywords.txt (lines 298-343):
+
+Current Status After Each Section:
+[ ] 1. Werkbladen groep 3: 0/10
+[ ] 2. Werkbladen kleuters / Groep 1 2: 0/10
+[ ] 3. Rekenen werkbladen: 0/10
+[ ] 4. Kleurplaten: 0/10
+[ ] 5. Letters leren / Schrijven oefenen: 0/10
+[ ] 6. Oefenbladen gratis: 0/10
+[ ] 7. Tafels oefenen: 0/10
+[ ] 8. Veilig leren lezen: 0/10
+[ ] 9. Fijne motoriek: 0/10
+[ ] 10. Sommen tot 20: 0/10
+
+After each section, update counts and check boxes when ≥10 reached.
+
+=== SECTION 1 (Hero) - COMPLETED ===
+
+H2/H3 Titles in Section 1: 0 (Hero section has only H1 + body paragraphs)
+
+Keyword counts in H2/H3 titles from Section 1:
+- Werkbladen groep 3: 0
+- Werkbladen kleuters / Groep 1 2: 0
+- Rekenen werkbladen: 0
+- Kleurplaten: 0
+- Letters leren / Schrijven oefenen: 0
+- Oefenbladen gratis: 0
+- Tafels oefenen: 0
+- Veilig leren lezen: 0
+- Fijne motoriek: 0
+- Sommen tot 20: 0
+
+Running totals after Section 1: All at 0/10 (normal - Section 1 is Hero with H1 only)
+
+=== SECTION 2 (Features) - COMPLETED ===
+
+H2/H3 Titles in Section 2: 8 titles (1 H2 + 7 H3s)
+
+Keyword counts in H2/H3 titles from Section 2:
+- Werkbladen groep 3: 3 (H3 #2, #5, #7)
+- Werkbladen kleuters / Groep 1 2: 1 (H3 #3 - "Groep 1 2")
+- Rekenen werkbladen: 7 (H2, all 7 H3s)
+- Kleurplaten: 0
+- Letters leren / Schrijven oefenen: 0
+- Oefenbladen gratis: 3 (H2, H3 #1, #4)
+- Tafels oefenen: 0
+- Veilig leren lezen: 0
+- Fijne motoriek: 0
+- Sommen tot 20: 1 (H3 #6)
+
+RUNNING TOTALS AFTER SECTION 2:
+[ ] 1. Werkbladen groep 3: 3/10 (need 7 more)
+[ ] 2. Werkbladen kleuters / Groep 1 2: 1/10 (need 9 more)
+[ ] 3. Rekenen werkbladen: 7/10 (need 3 more) ⚠️ CLOSE!
+[ ] 4. Kleurplaten: 0/10 (need 10 more)
+[ ] 5. Letters leren / Schrijven oefenen: 0/10 (need 10 more)
+[ ] 6. Oefenbladen gratis: 3/10 (need 7 more)
+[ ] 7. Tafels oefenen: 0/10 (need 10 more)
+[ ] 8. Veilig leren lezen: 0/10 (need 10 more)
+[ ] 9. Fijne motoriek: 0/10 (need 10 more)
+[ ] 10. Sommen tot 20: 1/10 (need 9 more)
+
+=== SECTION 3 (How-To) - COMPLETED ===
+
+H2/H3 Titles in Section 3: 6 titles (1 H2 + 5 H3s)
+
+Keyword counts in H2/H3 titles from Section 3:
+- Werkbladen groep 3: 4 (H2, H3 #2, #3, #5)
+- Werkbladen kleuters / Groep 1 2: 2 (H3 #1, #4 - "Werkbladen kleuters")
+- Rekenen werkbladen: 5 (H2, H3 #1, #3, #4, #5)
+- Kleurplaten: 0
+- Letters leren / Schrijven oefenen: 0
+- Oefenbladen gratis: 4 (H2, H3 #2, #3, #5)
+- Tafels oefenen: 0
+- Veilig leren lezen: 0
+- Fijne motoriek: 1 (H3 #4)
+- Sommen tot 20: 2 (H3 #1, #2)
+
+RUNNING TOTALS AFTER SECTION 3:
+[ ] 1. Werkbladen groep 3: 7/10 (need 3 more)
+[ ] 2. Werkbladen kleuters / Groep 1 2: 3/10 (need 7 more)
+[✓] 3. Rekenen werkbladen: 12/10 ✓✓ PASSED! (2 over minimum)
+[ ] 4. Kleurplaten: 0/10 (need 10 more) ⚠️ CRITICAL
+[ ] 5. Letters leren / Schrijven oefenen: 0/10 (need 10 more) ⚠️ CRITICAL
+[ ] 6. Oefenbladen gratis: 7/10 (need 3 more) ⚠️ CLOSE!
+[ ] 7. Tafels oefenen: 0/10 (need 10 more) ⚠️ CRITICAL
+[ ] 8. Veilig leren lezen: 0/10 (need 10 more) ⚠️ CRITICAL
+[ ] 9. Fijne motoriek: 1/10 (need 9 more)
+[ ] 10. Sommen tot 20: 3/10 (need 7 more)
+
+=== SECTION 4 (Use Cases) - COMPLETED ===
+
+H2/H3 Titles in Section 4: 7 titles (1 H2 + 6 H3s)
+
+Keyword counts in H2/H3 titles from Section 4:
+- Werkbladen groep 3: 3 (H2, H3 #2, #6)
+- Werkbladen kleuters / Groep 1 2: 2 (H3 #1, #5 - "Werkbladen Kleuters")
+- Rekenen werkbladen: 4 (H2, H3 #3, #4, #6)
+- Kleurplaten: 4 (H3 #1, #3, #5, #6)
+- Letters leren / Schrijven oefenen: 1 (H3 #4 - "Letters Leren")
+- Oefenbladen gratis: 2 (H2, H3 #3)
+- Tafels oefenen: 1 (H3 #2 - "Tafels Oefenen")
+- Veilig leren lezen: 1 (H3 #4 - "Veilig Leren Lezen")
+- Fijne motoriek: 2 (H3 #1, #5)
+- Sommen tot 20: 1 (H3 #2 - "Sommen Tot 20")
+
+RUNNING TOTALS AFTER SECTION 4:
+[✓] 1. Werkbladen groep 3: 10/10 ✓✓ PASSED! (exactly at minimum)
+[ ] 2. Werkbladen kleuters / Groep 1 2: 5/10 (need 5 more)
+[✓] 3. Rekenen werkbladen: 16/10 ✓✓✓ PASSED! (6 over minimum)
+[ ] 4. Kleurplaten: 4/10 (need 6 more)
+[ ] 5. Letters leren / Schrijven oefenen: 1/10 (need 9 more) ⚠️ CRITICAL
+[ ] 6. Oefenbladen gratis: 9/10 (need 1 more!) 🔥 SO CLOSE!
+[ ] 7. Tafels oefenen: 1/10 (need 9 more) ⚠️ CRITICAL
+[ ] 8. Veilig leren lezen: 1/10 (need 9 more) ⚠️ CRITICAL
+[ ] 9. Fijne motoriek: 3/10 (need 7 more)
+[ ] 10. Sommen tot 20: 4/10 (need 6 more)
+
+=== SECTION 5 (Subscription) - COMPLETED ===
+
+H2/H3 Titles in Section 5: 4 titles (1 H2 + 3 H3s)
+
+Keyword counts in H2/H3 titles from Section 5:
+- Werkbladen groep 3: 3 (H2, H3 #2, H3 #3)
+- Werkbladen kleuters / Groep 1 2: 1 (H3 #1 - "Werkbladen Kleuters")
+- Rekenen werkbladen: 2 (H2, H3 #3)
+- Kleurplaten: 3 (H2, H3 #2, H3 #3)
+- Letters leren / Schrijven oefenen: 4 (H2, all 3 H3s - "Letters Leren")
+- Oefenbladen gratis: 0
+- Tafels oefenen: 2 (H3 #1, H3 #2 - "Tafels Oefenen")
+- Veilig leren lezen: 4 (H2, all 3 H3s - "Veilig Leren Lezen")
+- Fijne motoriek: 0
+- Sommen tot 20: 0
+
+RUNNING TOTALS AFTER SECTION 5:
+[✓] 1. Werkbladen groep 3: 13/10 ✓✓✓ PASSED! (3 over minimum)
+[ ] 2. Werkbladen kleuters / Groep 1 2: 6/10 (need 4 more)
+[✓] 3. Rekenen werkbladen: 18/10 ✓✓✓✓ PASSED! (8 over minimum)
+[ ] 4. Kleurplaten: 7/10 (need 3 more)
+[ ] 5. Letters leren / Schrijven oefenen: 5/10 (need 5 more)
+[ ] 6. Oefenbladen gratis: 9/10 (need 1 more!) 🔥 STILL SO CLOSE!
+[ ] 7. Tafels oefenen: 3/10 (need 7 more) ⚠️ CRITICAL
+[ ] 8. Veilig leren lezen: 5/10 (need 5 more)
+[ ] 9. Fijne motoriek: 3/10 (need 7 more) ⚠️ CRITICAL
+[ ] 10. Sommen tot 20: 4/10 (need 6 more)
+
+=== SECTION 6 (FAQ) - COMPLETED ===
+
+H2/H3 Titles in Section 6: 13 titles (1 H2 + 12 H3 questions)
+
+Keyword counts in H2/H3 titles from Section 6:
+- Werkbladen groep 3: 8 (H2, H3 #1, #2, #3, #4, #6, #10, #11)
+- Werkbladen kleuters / Groep 1 2: 6 (H3 #2, #5, #7, #8, #9, #12 - "Werkbladen Kleuters")
+- Rekenen werkbladen: 6 (H2, H3 #4, #8, #10, #11, #12)
+- Kleurplaten: 5 (H2, H3 #3, #7, #10, #12)
+- Letters leren / Schrijven oefenen: 3 (H3 #5, #8, #12 - "Letters Leren")
+- Oefenbladen gratis: 6 (H2, H3 #1, #6, #7, #8, #10)
+- Tafels oefenen: 5 (H3 #4, #6, #10, #11, #12 - "Tafels Oefenen")
+- Veilig leren lezen: 3 (H3 #5, #8, #12 - "Veilig Leren Lezen")
+- Fijne motoriek: 5 (H2, H3 #3, #7, #9, #12)
+- Sommen tot 20: 6 (H3 #2, #4, #7, #10, #11, #12 - "Sommen Tot 20")
+
+RUNNING TOTALS AFTER SECTION 6:
+[✓] 1. Werkbladen groep 3: 21/10 ✓✓✓✓✓ PASSED! (11 over minimum!)
+[✓] 2. Werkbladen kleuters / Groep 1 2: 12/10 ✓✓ PASSED! (2 over minimum)
+[✓] 3. Rekenen werkbladen: 24/10 ✓✓✓✓✓✓ PASSED! (14 over minimum!)
+[✓] 4. Kleurplaten: 12/10 ✓✓ PASSED! (2 over minimum)
+[ ] 5. Letters leren / Schrijven oefenen: 8/10 (need 2 more) ⚠️
+[✓] 6. Oefenbladen gratis: 15/10 ✓✓✓ PASSED! (5 over minimum)
+[ ] 7. Tafels oefenen: 8/10 (need 2 more) ⚠️
+[ ] 8. Veilig leren lezen: 8/10 (need 2 more) ⚠️
+[ ] 9. Fijne motoriek: 8/10 (need 2 more) ⚠️
+[✓] 10. Sommen tot 20: 10/10 ✓✓ PASSED! (exactly at minimum)
+
+=== SECTION 7 (Combine Apps) - COMPLETED ===
+
+H2/H3 Titles in Section 7: 6 titles (1 H2 + 5 H3s)
+
+Keyword counts in H2/H3 titles from Section 7:
+- Werkbladen groep 3: 3 (H3 #2, #4, #5)
+- Werkbladen kleuters / Groep 1 2: 1 (H3 #3 - "Werkbladen Kleuters")
+- Rekenen werkbladen: 2 (H3 #1, #2)
+- Kleurplaten: 1 (H3 #4)
+- Letters leren / Schrijven oefenen: 4 (H2, H3 #2, #3, #5 - "Letters Leren")
+- Oefenbladen gratis: 1 (H2)
+- Tafels oefenen: 3 (H2, H3 #1, #5 - "Tafels Oefenen")
+- Veilig leren lezen: 3 (H2, H3 #2, #5 - "Veilig Leren Lezen")
+- Fijne motoriek: 5 (H2, all 5 H3s)
+- Sommen tot 20: 0
+
+=== 🎉🎉🎉 FINAL TOTALS - ALL KEYWORDS PASSED! 🎉🎉🎉 ===
+
+[✓] 1. Werkbladen groep 3: 24/10 ✓✓✓✓✓ PASSED! (+14 over minimum!)
+[✓] 2. Werkbladen kleuters / Groep 1 2: 13/10 ✓✓ PASSED! (+3 over minimum)
+[✓] 3. Rekenen werkbladen: 26/10 ✓✓✓✓✓✓✓ PASSED! (+16 over minimum!)
+[✓] 4. Kleurplaten: 13/10 ✓✓ PASSED! (+3 over minimum)
+[✓] 5. Letters leren / Schrijven oefenen: 12/10 ✓✓ PASSED! (+2 over minimum)
+[✓] 6. Oefenbladen gratis: 16/10 ✓✓✓ PASSED! (+6 over minimum)
+[✓] 7. Tafels oefenen: 11/10 ✓✓ PASSED! (+1 over minimum)
+[✓] 8. Veilig leren lezen: 11/10 ✓✓ PASSED! (+1 over minimum)
+[✓] 9. Fijne motoriek: 13/10 ✓✓ PASSED! (+3 over minimum)
+[✓] 10. Sommen tot 20: 10/10 ✓ PASSED! (exactly at minimum)
+
+✅✅✅ SUCCESS: ALL 10 KEYWORDS REACHED MINIMUM 10 APPEARANCES IN H2/H3 TITLES! ✅✅✅
+
+Total H2/H3 titles across all 7 sections: 45 titles
+Total word count: ~7,500 words
+Primary mission: ACCOMPLISHED!

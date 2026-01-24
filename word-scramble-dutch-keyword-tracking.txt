@@ -1,0 +1,183 @@
+KEYWORD TRACKING - Word Scramble App - Dutch
+
+TARGET: Each keyword must appear MINIMUM 10 times in H2/H3 titles ONLY
+
+FINAL STATUS - ALL KEYWORDS ACHIEVED ✓
+[X] 1. Werkbladen groep 3: 10/10 ✓
+[X] 2. Werkbladen kleuters / Groep 1 2: 10/10 ✓
+[X] 3. Rekenen werkbladen: 10/10 ✓
+[X] 4. Kleurplaten: 11/10 ✓
+[X] 5. Letters leren / Schrijven oefenen: 13/10 ✓
+[X] 6. Oefenbladen gratis: 13/10 ✓
+[X] 7. Tafels oefenen: 11/10 ✓
+[X] 8. Veilig leren lezen: 10/10 ✓
+[X] 9. Fijne motoriek: 10/10 ✓
+[X] 10. Sommen tot 20: 10/10 ✓
+
+After each section, update counts and check boxes when ≥10 reached.
+
+=== SECTION 1 (Hero) - COMPLETED ===
+H2: "Waarom Deze Woordkruisel Generator Kiezen voor Oefenbladen Gratis en Schrijven Oefenen"
+H3: "Woordkruisels voor Werkbladen Groep 3 - Letters Leren met Veilig Leren Lezen Ondersteuning"
+H3: "Werkbladen Kleuters en Groep 1 2 - Speelse Introductie van Letters Leren en Fijne Motoriek"
+H3: "Oefenbladen Gratis Kwaliteit - Professionele Werkbladen voor Rekenen Werkbladen Combinaties"
+
+Keywords in Section 1:
+- Werkbladen groep 3: 1
+- Werkbladen kleuters / Groep 1 2: 1
+- Rekenen werkbladen: 1
+- Kleurplaten: 0
+- Letters leren: 2, Schrijven oefenen: 1 = 3
+- Oefenbladen gratis: 2
+- Tafels oefenen: 0
+- Veilig leren lezen: 1
+- Fijne motoriek: 1
+- Sommen tot 20: 0
+
+=== SECTION 2 (Features) - COMPLETED ===
+H2: "Functies van de Woordkruisel Generator - Alles voor Werkbladen Groep 3 en Oefenbladen Gratis"
+H3: "Werkbladen Kleuters Maken in 3 Klikken - Snel Letters Leren met Fijne Motoriek Oefeningen"
+H3: "Volledig Bewerkbaar Canvas voor Rekenen Werkbladen en Kleurplaten Combinaties"
+H3: "Eigen Afbeeldingen Uploaden voor Werkbladen Groep 3 met Schrijven Oefenen Activiteiten"
+H3: "11 Talen Ondersteuning - Veilig Leren Lezen in het Nederlands en Sommen tot 20 Thema's"
+H3: "Commerciele Licentie voor Tafels Oefenen Materialen en Oefenbladen Gratis Verkopen"
+H3: "Meer dan 3000 Afbeeldingen - Van Letters Leren tot Kleurplaten Thema's voor Alle Leeftijden"
+H3: "Professionele 300 DPI Kwaliteit voor Fijne Motoriek en Veilig Leren Lezen Werkbladen"
+
+Keywords in Section 2:
+- Werkbladen groep 3: 2
+- Werkbladen kleuters / Groep 1 2: 1
+- Rekenen werkbladen: 1
+- Kleurplaten: 2
+- Letters leren: 2, Schrijven oefenen: 1 = 3
+- Oefenbladen gratis: 2
+- Tafels oefenen: 1
+- Veilig leren lezen: 2
+- Fijne motoriek: 2
+- Sommen tot 20: 1
+
+=== SECTION 3 (How-To) - COMPLETED ===
+H2: "Hoe Maak Je Woordkruisels - Werkbladen Kleuters tot Groep 3 in 5 Eenvoudige Stappen"
+H3: "Stap 1: Kies Je Inhoud voor Oefenbladen Gratis - Thema, Afbeeldingen of Eigen Woorden voor Letters Leren"
+H3: "Stap 2: Pas Instellingen Aan voor Sommen tot 20 Thema's en Tafels Oefenen Combinaties"
+H3: "Stap 3: Genereer Je Werkblad met Kleurplaten Elementen en Rekenen Werkbladen Stijl"
+H3: "Stap 4: Bewerk op Canvas - Werkbladen Groep 3 Personaliseren met Schrijven Oefenen Ruimte"
+H3: "Stap 5: Download en Print - Oefenbladen Gratis als PDF met Fijne Motoriek Oefeningen en Antwoordblad"
+
+Keywords in Section 3:
+- Werkbladen groep 3: 1
+- Werkbladen kleuters / Groep 1 2: 1
+- Rekenen werkbladen: 1
+- Kleurplaten: 1
+- Letters leren: 1, Schrijven oefenen: 1 = 2
+- Oefenbladen gratis: 2
+- Tafels oefenen: 1
+- Veilig leren lezen: 0
+- Fijne motoriek: 1
+- Sommen tot 20: 1
+
+=== SECTION 4 (Use Cases) - COMPLETED ===
+H2: "Perfect voor Leerkrachten en Ouders - Werkbladen Groep 3 en Kleurplaten voor Iedereen"
+H3: "Leerkrachten Groep 1 2 - Werkbladen Kleuters met Fijne Motoriek en Veilig Leren Lezen Voorbereiding"
+H3: "Leerkrachten Groep 3 - Veilig Leren Lezen Ondersteunen met Oefenbladen Gratis en Letters Leren"
+H3: "Leerkrachten Groep 4 en 5 - Tafels Oefenen en Sommen tot 20 met Woordpuzzels Combineren"
+H3: "Ouders met Thuisonderwijs - Werkbladen Kleuters en Schrijven Oefenen voor Thuis"
+H3: "Remedial Teachers - Veilig Leren Lezen Extra Oefening met Fijne Motoriek Ondersteuning"
+H3: "Onderwijsondernemers - Oefenbladen Gratis Maken en Kleurplaten Verkopen met Commerciele Licentie"
+
+Keywords in Section 4:
+- Werkbladen groep 3: 1
+- Werkbladen kleuters / Groep 1 2: 2
+- Rekenen werkbladen: 0
+- Kleurplaten: 2
+- Letters leren: 1, Schrijven oefenen: 1 = 2
+- Oefenbladen gratis: 2
+- Tafels oefenen: 1
+- Veilig leren lezen: 3
+- Fijne motoriek: 2
+- Sommen tot 20: 1
+
+=== SECTION 5 (Subscription Reasons) - COMPLETED ===
+H2: "Drie Redenen om te Abonneren - Werkbladen Kleuters en Rekenen Werkbladen Zonder Watermerk"
+H3: "Meertalig Onderwijs - Veilig Leren Lezen in 11 Talen met Sommen tot 20 Woordenschat"
+H3: "Commerciele Licentie - Kleurplaten en Tafels Oefenen Materialen Verkopen voor Extra Inkomen"
+H3: "Tijdsbesparing - Werkbladen Groep 3 met Rekenen Werkbladen en Fijne Motoriek in Minuten"
+
+Keywords in Section 5:
+- Werkbladen groep 3: 1
+- Werkbladen kleuters / Groep 1 2: 1
+- Rekenen werkbladen: 2
+- Kleurplaten: 1
+- Letters leren / Schrijven oefenen: 0
+- Oefenbladen gratis: 0
+- Tafels oefenen: 1
+- Veilig leren lezen: 1
+- Fijne motoriek: 1
+- Sommen tot 20: 1
+
+=== SECTION 6 (FAQ) - COMPLETED ===
+H2: "Veelgestelde Vragen over Woordkruisels - Oefenbladen Gratis en Werkbladen Groep 3 Antwoorden"
+H3: "Is Deze Woordkruisel Generator Echt Gratis voor Oefenbladen Gratis en Kleurplaten?"
+H3: "Kan Ik Werkbladen Kleuters Thuis Printen op een Gewone Printer met Fijne Motoriek Oefeningen?"
+H3: "Heb Ik Ontwerpvaardigheden Nodig voor Werkbladen Groep 3 met Veilig Leren Lezen Woorden?"
+H3: "Mag Ik Woordkruisels Gebruiken in Mijn Klas voor Sommen tot 20 en Tafels Oefenen Thema's?"
+H3: "In Welke Talen Zijn Woordkruisels Beschikbaar voor Rekenen Werkbladen en Letters Leren?"
+H3: "Kan Ik Mijn Woordkruisels Verkopen als Oefenbladen Gratis Downloaden voor Klanten?"
+H3: "Hoe Pas Ik Werkbladen Kleuters Aan voor Mijn Leerlingen met Schrijven Oefenen?"
+H3: "Welke Leeftijden Werken het Best met Woordkruisels voor Fijne Motoriek en Veilig Leren Lezen?"
+H3: "Kan Ik Eigen Afbeeldingen Uploaden voor Werkbladen Groep 3 met Tafels Oefenen Woorden?"
+H3: "Hoe Lang Duurt het om een Woordkruisel te Maken met Rekenen Werkbladen Elementen?"
+H3: "Bevatten Woordkruisels een Antwoordblad voor Sommen tot 20 en Kleurplaten Combinaties?"
+H3: "Kan Ik Woordkruisels Maken over Specifieke Schoolvakken zoals Oefenbladen Gratis voor Aardrijkskunde?"
+
+Keywords in Section 6:
+- Werkbladen groep 3: 3
+- Werkbladen kleuters / Groep 1 2: 2
+- Rekenen werkbladen: 2
+- Kleurplaten: 2
+- Letters leren: 1, Schrijven oefenen: 1 = 2
+- Oefenbladen gratis: 4
+- Tafels oefenen: 2
+- Veilig leren lezen: 2
+- Fijne motoriek: 2
+- Sommen tot 20: 2
+
+=== SECTION 7 (Combine Apps) - COMPLETED ===
+H2: "Combineer met Andere Generators - Werkbladen Kleuters en Tafels Oefenen Complete Lespakketten"
+H3: "Woordzoeker Generator - Werkbladen Groep 3 met Veilig Leren Lezen en Fijne Motoriek Puzzels"
+H3: "Rekenwerkblad Generator - Sommen tot 20 met Rekenen Werkbladen en Tafels Oefenen Combinaties"
+H3: "Kleurplaten Generator - Werkbladen Kleuters met Kleurplaten en Schrijven Oefenen Activiteiten"
+H3: "Kruiswoordpuzzel Generator - Oefenbladen Gratis met Sommen tot 20 en Tafels Oefenen Woordenschat"
+
+Keywords in Section 7:
+- Werkbladen groep 3: 1
+- Werkbladen kleuters / Groep 1 2: 2
+- Rekenen werkbladen: 1
+- Kleurplaten: 1
+- Letters leren: 0, Schrijven oefenen: 1 = 1
+- Oefenbladen gratis: 1
+- Tafels oefenen: 3
+- Veilig leren lezen: 1
+- Fijne motoriek: 1
+- Sommen tot 20: 2
+
+=== SECTION 8 (Closing CTA) - COMPLETED ===
+H2: "Start Vandaag met Woordkruisels - Kleurplaten, Rekenen Werkbladen en Tafels Oefenen in Een Abonnement"
+H3: "Begin Nu met Rekenen Werkbladen en Sommen tot 20 Woordkruisels voor Jouw Klas"
+H3: "Maak Complete Lespakketten met Kleurplaten, Tafels Oefenen en Sommen tot 20 Materialen"
+
+Keywords in Section 8:
+- Werkbladen groep 3: 0
+- Werkbladen kleuters / Groep 1 2: 0
+- Rekenen werkbladen: 2
+- Kleurplaten: 2
+- Letters leren / Schrijven oefenen: 0
+- Oefenbladen gratis: 0
+- Tafels oefenen: 2
+- Veilig leren lezen: 0
+- Fijne motoriek: 0
+- Sommen tot 20: 2
+
+=== PAGE COMPLETE ===
+Total word count: ~7,200 words
+All 10 keywords achieved minimum 10 appearances in H2/H3 titles

@@ -1,0 +1,206 @@
+KEYWORD TRACKING - Prepositions App - Danish
+
+TARGET: Each keyword must appear MINIMUM 10 times in H2/H3 titles ONLY
+
+Danish Keywords (from keywords.txt lines 361-410):
+
+Current Status:
+[ ] 1. Opgaver til print: 0/10
+[ ] 2. Matematikopgaver: 0/10
+[ ] 3. Lære bogstaver / Skriv bogstaver: 0/10
+[ ] 4. Malebog / Farvelægning: 0/10
+[ ] 5. Arbejdsark / Kopiark: 0/10
+[ ] 6. Finmotorik øvelser: 0/10
+[ ] 7. 0. klasse opgaver / 1. klasse: 0/10
+[ ] 8. Gangetabeller: 0/10
+[ ] 9. Læse og skrive / Stavning: 0/10
+[ ] 10. Gratis skoleopgaver: 0/10
+
+After each section, update counts and check boxes when ≥10 reached.
+
+---
+
+SECTION TRACKING:
+
+After Section 1 (Hero):
+Section 1 has only H1 (no H2/H3 titles), so contributes 0 to keyword counts.
+Note: H1 contains keywords for SEO but doesn't count toward minimum 10.
+
+All keywords: 0/10 each
+
+After Section 2 (Features):
+Section 2 has 1 H2 + 7 H3 titles
+
+Keyword counts in H2/H3 titles:
+1. Opgaver til print: 4 (H2: 1, H3: 3)
+2. Matematikopgaver: 0
+3. Lære bogstaver / Skriv bogstaver: 0
+4. Malebog / Farvelægning: 2 (both in H3#6)
+5. Arbejdsark / Kopiark: 7 (H2: 1, H3: 6 combined)
+6. Finmotorik øvelser: 1 (H3#3)
+7. 0. klasse opgaver / 1. klasse: 2 (H3: 2)
+8. Gangetabeller: 0
+9. Læse og skrive / Stavning: 0
+10. Gratis skoleopgaver: 4 (H2: 1, H3: 3)
+
+Running totals: 4, 0, 0, 2, 7, 1, 2, 0, 0, 4
+Keywords still needing work: ALL need more (minimum 10 each)
+
+After Section 3 (How-To):
+Section 3 has 1 H2 + 5 H3 titles
+
+Keyword counts in Section 3 H2/H3 titles:
+1. Opgaver til print: 3 (H2:1, H3:2)
+2. Matematikopgaver: 0
+3. Lære bogstaver / Skriv bogstaver: 0
+4. Malebog / Farvelægning: 0
+5. Arbejdsark / Kopiark: 6 (Arbejdsark:3, Kopiark:3)
+6. Finmotorik øvelser: 1
+7. 0. klasse opgaver / 1. klasse: 2
+8. Gangetabeller: 0
+9. Læse og skrive / Stavning: 0
+10. Gratis skoleopgaver: 4 (H2:1, H3:3)
+
+RUNNING TOTALS after Section 3:
+1. Opgaver til print: 7/10 (need 3 more)
+2. Matematikopgaver: 0/10 (need 10 - save for Sec 7)
+3. Lære bogstaver: 0/10 (need 10 - save for Sec 7)
+4. Malebog / Farvelægning: 2/10 (need 8 more)
+5. Arbejdsark / Kopiark: 13/10 ✓✓✓ COMPLETE!
+6. Finmotorik øvelser: 2/10 (need 8 more)
+7. 0. klasse / 1. klasse: 4/10 (need 6 more)
+8. Gangetabeller: 0/10 (need 10 - save for Sec 7)
+9. Læse og skrive: 0/10 (need 10 - save for Sec 7)
+10. Gratis skoleopgaver: 8/10 (need 2 more)
+
+After Section 4 (Use Cases):
+Section 4 has 1 H2 + 6 H3 titles
+
+Keyword counts in Section 4 H2/H3 titles:
+1. Opgaver til print: 5 (H2:1, H3:4)
+2. Matematikopgaver: 0
+3. Lære bogstaver: 0
+4. Malebog / Farvelægning: 0
+5. Arbejdsark / Kopiark: 1 (Kopiark in H3#3)
+6. Finmotorik øvelser: 2 (H3#1, H3#5)
+7. 0. klasse / 1. klasse: 2 (H3#1, H3#2)
+8. Gangetabeller: 0
+9. Læse og skrive: 0
+10. Gratis skoleopgaver: 5 (H2:1, H3:4)
+
+RUNNING TOTALS after Section 4:
+1. Opgaver til print: 12/10 ✓✓✓ COMPLETE!
+2. Matematikopgaver: 0/10 (save for Sec 7)
+3. Lære bogstaver: 0/10 (save for Sec 7)
+4. Malebog / Farvelægning: 2/10 (need 8 more)
+5. Arbejdsark / Kopiark: 14/10 ✓✓✓ COMPLETE!
+6. Finmotorik øvelser: 4/10 (need 6 more)
+7. 0. klasse / 1. klasse: 6/10 (need 4 more)
+8. Gangetabeller: 0/10 (save for Sec 7)
+9. Læse og skrive: 0/10 (save for Sec 7)
+10. Gratis skoleopgaver: 13/10 ✓✓✓ COMPLETE!
+
+🎯 3 keywords COMPLETE! 3 more to go!
+
+After Section 5 (Subscription):
+Section 5 has 1 H2 + 3 H3 titles
+
+Keyword counts in Section 5 H2/H3 titles:
+1. Opgaver til print: 3 (all 3 H3s)
+2. Matematikopgaver: 0
+3. Lære bogstaver: 0
+4. Malebog / Farvelægning: 0
+5. Arbejdsark / Kopiark: 0
+6. Finmotorik øvelser: 0
+7. 0. klasse / 1. klasse: 1 (H3#3)
+8. Gangetabeller: 0
+9. Læse og skrive: 0
+10. Gratis skoleopgaver: 1 (H3#1)
+
+RUNNING TOTALS after Section 5:
+1. Opgaver til print: 15/10 ✓✓✓ COMPLETE!
+2. Matematikopgaver: 0/10 (save for Sec 7)
+3. Lære bogstaver: 0/10 (save for Sec 7)
+4. Malebog / Farvelægning: 2/10 (need 8 more - focus in Sec 6-7)
+5. Arbejdsark / Kopiark: 14/10 ✓✓✓ COMPLETE!
+6. Finmotorik øvelser: 4/10 (need 6 more - focus in Sec 6-7)
+7. 0. klasse / 1. klasse: 7/10 (need 3 more - add in Sec 6)
+8. Gangetabeller: 0/10 (save for Sec 7)
+9. Læse og skrive: 0/10 (save for Sec 7)
+10. Gratis skoleopgaver: 14/10 ✓✓✓ COMPLETE!
+
+🎯 3 keywords COMPLETE! Need to push hard in Sec 6-7!
+
+After Section 6 (FAQ):
+Section 6 has 1 H2 + 12 H3 titles
+
+Keyword counts in Section 6 H2/H3 titles:
+1. Opgaver til print: 3 (H2:1, H3:2)
+2. Matematikopgaver: 1 (H3#12)
+3. Lære bogstaver: 0
+4. Malebog / Farvelægning: 1 (Malebog in H3#9)
+5. Arbejdsark / Kopiark: 0
+6. Finmotorik øvelser: 2 (H3#8, H3#11)
+7. 0. klasse / 1. klasse: 4 (0. klasse:2, 1. klasse:2)
+8. Gangetabeller: 0
+9. Læse og skrive: 0
+10. Gratis skoleopgaver: 1 (H2)
+
+RUNNING TOTALS after Section 6:
+1. Opgaver til print: 18/10 ✓✓✓ COMPLETE!
+2. Matematikopgaver: 1/10 (need 9 more in Sec 7!)
+3. Lære bogstaver: 0/10 (need 10 in Sec 7!)
+4. Malebog / Farvelægning: 3/10 (need 7 more in Sec 7!)
+5. Arbejdsark / Kopiark: 14/10 ✓✓✓ COMPLETE!
+6. Finmotorik øvelser: 6/10 (need 4 more in Sec 7!)
+7. 0. klasse / 1. klasse: 11/10 ✓✓✓ COMPLETE!
+8. Gangetabeller: 0/10 (need 10 in Sec 7!)
+9. Læse og skrive: 0/10 (need 10 in Sec 7!)
+10. Gratis skoleopgaver: 15/10 ✓✓✓ COMPLETE!
+
+🎉 4 keywords COMPLETE! Section 7 must deliver BIG for remaining 6 keywords!
+
+After Section 7 (Combine Apps):
+Section 7 ORIGINAL had 1 H2 + 5 H3 titles
+Section 7 REVISED has 1 H2 + 32 H3 titles (added 27 new H3s)
+
+Keyword counts in Section 7 REVISED H2/H3 titles:
+1. Opgaver til print: 1
+2. Matematikopgaver: 13 (H2:1, 11 new H3s with keyword, 1 original H3)
+3. Lære bogstaver / Skriv bogstaver: 13 (Lære:8, Skriv:5 across new + original H3s)
+4. Malebog / Farvelægning: 8 (Malebog:5, Farvelægning:3 across new + original)
+5. Arbejdsark / Kopiark: 0
+6. Finmotorik øvelser: 4 (3 original + 1 new H3)
+7. 0. klasse / 1. klasse: 1
+8. Gangetabeller: 10 (3 original + 7 new H3s)
+9. Læse og skrive: 10 (4 original + 6 new H3s)
+10. Gratis skoleopgaver: 1
+
+FINAL TOTALS after all 7 sections (REVISED):
+1. Opgaver til print: 19/10 ✓✓✓ COMPLETE!
+2. Matematikopgaver: 14/10 ✓✓✓ COMPLETE! (was 6, added 8 more)
+3. Lære bogstaver: 13/10 ✓✓✓ COMPLETE! (was 4, added 9 more)
+4. Malebog / Farvelægning: 11/10 ✓✓✓ COMPLETE! (was 7, added 4 more)
+5. Arbejdsark / Kopiark: 14/10 ✓✓✓ COMPLETE!
+6. Finmotorik øvelser: 10/10 ✓✓✓ COMPLETE! (was 9, added 1 more)
+7. 0. klasse / 1. klasse: 12/10 ✓✓✓ COMPLETE!
+8. Gangetabeller: 10/10 ✓✓✓ COMPLETE! (was 3, added 7 more)
+9. Læse og skrive: 10/10 ✓✓✓ COMPLETE! (was 4, added 6 more)
+10. Gratis skoleopgaver: 16/10 ✓✓✓ COMPLETE!
+
+🎉🎉🎉 SUCCESS! ALL 10 KEYWORDS COMPLETE! Minimum 10 occurrences achieved for every keyword!
+
+Added 27 new H3 subsections to Section 7:
+- 4 H3s for Matematikopgaver
+- 7 H3s for Gangetabeller
+- 6 H3s for Lære Bogstaver/Skriv Bogstaver
+- 6 H3s for Læse og Skrive
+- 3 H3s for Malebog/Farvelægning
+- 1 H3 for Finmotorik øvelser
+
+---
+
+FINAL KEYWORD COUNT:
+✓ All 10 Danish keywords meet minimum 10 occurrences in H2/H3 titles
+✓ PRIMARY MISSION from SEO-RULES.md: ACCOMPLISHED
+✓ Danish prepositions app page is SEO-optimized and ready

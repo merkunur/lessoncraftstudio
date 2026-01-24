@@ -1,0 +1,214 @@
+KEYWORD TRACKING - Big Small App - Dutch (Nederlands)
+
+TARGET: Each keyword must appear MINIMUM 10 times in H2/H3 titles ONLY
+
+FINAL STATUS - ALL COMPLETE:
+[X] 1. Werkbladen groep 3: 12/10 ✓
+[X] 2. Werkbladen kleuters / Groep 1 2: 12/10 ✓
+[X] 3. Rekenen werkbladen: 12/10 ✓
+[X] 4. Kleurplaten: 11/10 ✓
+[X] 5. Letters leren / Schrijven oefenen: 12/10 ✓
+[X] 6. Oefenbladen gratis: 11/10 ✓
+[X] 7. Tafels oefenen: 10/10 ✓
+[X] 8. Veilig leren lezen: 10/10 ✓
+[X] 9. Fijne motoriek: 11/10 ✓
+[X] 10. Sommen tot 20: 11/10 ✓
+
+After each section, update counts and check boxes when ≥10 reached.
+
+---
+SECTION 1 (Hero) - After completion:
+H2/H3 Titles in Section 1:
+- H2: "Waarom Kiezen voor Groot en Klein Werkbladen voor Groep 1 2"
+- H3: "Oefenbladen Gratis Downloaden - Werkbladen Kleuters en Groep 1 2 voor Fijne Motoriek"
+- H3: "Rekenen Werkbladen en Sommen tot 20 - Wiskundige Concepten met Groot en Klein"
+- H3: "Kleurplaten Combineren met Werkbladen Groep 3 - Creatief Leren"
+
+Keywords found in H2/H3:
+1. Werkbladen groep 3: 1
+2. Werkbladen kleuters / Groep 1 2: 2
+3. Rekenen werkbladen: 1
+4. Kleurplaten: 1
+5. Letters leren / Schrijven oefenen: 0
+6. Oefenbladen gratis: 1
+7. Tafels oefenen: 0
+8. Veilig leren lezen: 0
+9. Fijne motoriek: 1
+10. Sommen tot 20: 1
+
+RUNNING TOTAL AFTER SECTION 1: 8 keyword instances in H2/H3 titles
+
+---
+SECTION 2 (Features) - After completion:
+H2/H3 Titles in Section 2:
+- H2: "Functies van de Groot en Klein Generator - Werkbladen Kleuters en Oefenbladen Gratis"
+- H3: "Werkbladen Groep 3 Maken in 3 Klikken - Snelle Oefenbladen Gratis Generator"
+- H3: "Werkbladen Kleuters Volledig Aanpasbaar - Fijne Motoriek Oefeningen Bewerken"
+- H3: "Rekenen Werkbladen met Eigen Afbeeldingen Uploaden - Sommen tot 20 Personaliseren"
+- H3: "Veilig Leren Lezen Ondersteuning in 11 Talen - Letters Leren en Schrijven Oefenen"
+- H3: "Kleurplaten en Fijne Motoriek - Commerciele Licentie voor Verkoop Inbegrepen"
+- H3: "Tafels Oefenen Voorbereiding met 3000+ Afbeeldingen - Rekenen Werkbladen Bibliotheek"
+- H3: "Sommen tot 20 Kwaliteit - Professionele 300 DPI Werkbladen Groep 3 Downloaden"
+- H3: "Letters Leren met Veilig Leren Lezen Themas - Schrijven Oefenen en Kleurplaten"
+
+Keywords added in Section 2:
+1. Werkbladen groep 3: +2 (total: 3)
+2. Werkbladen kleuters / Groep 1 2: +2 (total: 4)
+3. Rekenen werkbladen: +2 (total: 3)
+4. Kleurplaten: +2 (total: 3)
+5. Letters leren / Schrijven oefenen: +4 (total: 4)
+6. Oefenbladen gratis: +2 (total: 3)
+7. Tafels oefenen: +1 (total: 1)
+8. Veilig leren lezen: +2 (total: 2)
+9. Fijne motoriek: +2 (total: 3)
+10. Sommen tot 20: +2 (total: 3)
+
+RUNNING TOTAL AFTER SECTION 2: 29 keyword instances in H2/H3 titles
+
+---
+SECTION 3 (How-To) - After completion:
+H2/H3 Titles in Section 3:
+- H2: "Hoe Maak Je Werkbladen Groep 3 in 5 Stappen - Oefenbladen Gratis Stappenplan"
+- H3: "Stap 1: Kies Afbeeldingen voor Werkbladen Kleuters - Fijne Motoriek Thema Selecteren"
+- H3: "Stap 2: Stel Rekenen Werkbladen Instellingen In - Sommen tot 20 Voorbereiden"
+- H3: "Stap 3: Genereer Oefenbladen Gratis met Veilig Leren Lezen Opties - Kleurplaten Direct Bekijken"
+- H3: "Stap 4: Bewerk Werkbladen Groep 3 op het Canvas - Letters Leren en Schrijven Oefenen Toevoegen"
+- H3: "Stap 5: Download Rekenen Werkbladen als PDF - Tafels Oefenen en Sommen tot 20 Printen"
+- H3: "Bonus: Veilig Leren Lezen Combinaties - Werkbladen Kleuters met Fijne Motoriek en Kleurplaten"
+
+Keywords added in Section 3:
+1. Werkbladen groep 3: +2 (total: 5)
+2. Werkbladen kleuters / Groep 1 2: +2 (total: 6)
+3. Rekenen werkbladen: +2 (total: 5)
+4. Kleurplaten: +2 (total: 5)
+5. Letters leren / Schrijven oefenen: +2 (total: 6)
+6. Oefenbladen gratis: +2 (total: 5)
+7. Tafels oefenen: +1 (total: 2)
+8. Veilig leren lezen: +2 (total: 4)
+9. Fijne motoriek: +2 (total: 5)
+10. Sommen tot 20: +2 (total: 5)
+
+RUNNING TOTAL AFTER SECTION 3: 48 keyword instances in H2/H3 titles
+
+---
+SECTION 4 (Use Cases) - After completion:
+H2/H3 Titles in Section 4:
+- H2: "Voor Wie Zijn Groot en Klein Werkbladen - Oefenbladen Gratis voor Leerkrachten en Ouders"
+- H3: "Leerkrachten Groep 1 2 en Kleuters - Werkbladen Kleuters voor Fijne Motoriek Ontwikkeling"
+- H3: "Leerkrachten Groep 3 met Rekenen Werkbladen - Tafels Oefenen en Sommen tot 20 Voorbereiding"
+- H3: "Thuisonderwijs Ouders - Veilig Leren Lezen en Letters Leren met Werkbladen Kleuters"
+- H3: "NT2-Docenten en Taalonderwijs - Veilig Leren Lezen in 11 Talen met Kleurplaten"
+- H3: "Speciaal Onderwijs - Fijne Motoriek en Sommen tot 20 met Werkbladen Groep 3"
+- H3: "Docent-Ondernemers - Rekenen Werkbladen en Kleurplaten Verkopen met Commerciele Licentie"
+
+Keywords added in Section 4:
+1. Werkbladen groep 3: +2 (total: 7)
+2. Werkbladen kleuters / Groep 1 2: +3 (total: 9)
+3. Rekenen werkbladen: +2 (total: 7)
+4. Kleurplaten: +2 (total: 7)
+5. Letters leren / Schrijven oefenen: +1 (total: 7)
+6. Oefenbladen gratis: +1 (total: 6)
+7. Tafels oefenen: +1 (total: 3)
+8. Veilig leren lezen: +2 (total: 6)
+9. Fijne motoriek: +2 (total: 7)
+10. Sommen tot 20: +2 (total: 7)
+
+RUNNING TOTAL AFTER SECTION 4: 66 keyword instances in H2/H3 titles
+
+---
+SECTION 5 (Subscription) - After completion:
+H2/H3 Titles in Section 5:
+- H2: "Drie Redenen om te Abonneren - Werkbladen Groep 3 en Oefenbladen Gratis Onbeperkt"
+- H3: "Meertalig Onderwijs met Veilig Leren Lezen - Tafels Oefenen in 11 Talen voor Werkbladen Kleuters"
+- H3: "Commerciele Licentie voor Kleurplaten en Rekenen Werkbladen - Verkopen op Etsy en TPT"
+- H3: "Tijdsbesparing met Oefenbladen Gratis Generator - Sommen tot 20 en Fijne Motoriek in Minuten"
+- H3: "Waarom Full Access voor Groot en Klein - Werkbladen Groep 3 met Tafels Oefenen Voordelen"
+
+Keywords added in Section 5:
+1. Werkbladen groep 3: +2 (total: 9)
+2. Werkbladen kleuters / Groep 1 2: +1 (total: 10) ✓ COMPLETE
+3. Rekenen werkbladen: +1 (total: 8)
+4. Kleurplaten: +1 (total: 8)
+5. Letters leren / Schrijven oefenen: +0 (total: 7)
+6. Oefenbladen gratis: +2 (total: 8)
+7. Tafels oefenen: +2 (total: 5)
+8. Veilig leren lezen: +1 (total: 7)
+9. Fijne motoriek: +1 (total: 8)
+10. Sommen tot 20: +1 (total: 8)
+
+RUNNING TOTAL AFTER SECTION 5: 78 keyword instances in H2/H3 titles
+
+---
+SECTION 6 (FAQ) - After completion:
+H2/H3 Titles in Section 6:
+- H2: "Veelgestelde Vragen over Groot en Klein Werkbladen - Oefenbladen Gratis FAQ"
+- H3: "Welke Leeftijden Zijn Geschikt voor Werkbladen Kleuters met Fijne Motoriek Oefeningen?"
+- H3: "Hoe Ondersteunt de Generator Tafels Oefenen en Sommen tot 20 Voorbereiding?"
+- H3: "Kan Ik Werkbladen Groep 3 Combineren met Veilig Leren Lezen Methodes?"
+- H3: "Zijn er Oefenbladen Gratis Beschikbaar voor Tafels Oefenen Voorbereiding?"
+- H3: "Hoe Werkt Letters Leren met Groot en Klein Werkbladen en Schrijven Oefenen?"
+- H3: "Welke Kleurplaten en Rekenen Werkbladen Kan Ik Maken met de Generator?"
+- H3: "Is de Generator Geschikt voor Veilig Leren Lezen en Fijne Motoriek bij Speciaal Onderwijs?"
+- H3: "Hoe Download Ik Werkbladen Groep 3 met Tafels Oefenen Kwaliteit?"
+- H3: "Welke Talen Ondersteunt de Generator voor Sommen tot 20 en Letters Leren?"
+
+Keywords added in Section 6:
+1. Werkbladen groep 3: +2 (total: 11) ✓ COMPLETE
+2. Werkbladen kleuters / Groep 1 2: +1 (total: 11) ✓
+3. Rekenen werkbladen: +1 (total: 9)
+4. Kleurplaten: +1 (total: 9)
+5. Letters leren / Schrijven oefenen: +4 (total: 11) ✓ COMPLETE
+6. Oefenbladen gratis: +2 (total: 10) ✓ COMPLETE
+7. Tafels oefenen: +3 (total: 8)
+8. Veilig leren lezen: +2 (total: 9)
+9. Fijne motoriek: +2 (total: 10) ✓ COMPLETE
+10. Sommen tot 20: +2 (total: 10) ✓ COMPLETE
+
+RUNNING TOTAL AFTER SECTION 6: 98 keyword instances in H2/H3 titles
+6 of 10 keywords now complete!
+
+---
+SECTION 7 (Combine Apps) - After completion:
+H2/H3 Titles in Section 7:
+- H2: "Combineer Groot en Klein met Andere Generators - Rekenen Werkbladen en Kleurplaten Platform"
+- H3: "Optellen Generator voor Rekenen Werkbladen - Tafels Oefenen met Sommen tot 20 Combineren"
+- H3: "Woordzoeker en Kruiswoordpuzzel voor Veilig Leren Lezen - Letters Leren Woordenschat"
+- H3: "Kleurplaten Generator voor Fijne Motoriek - Werkbladen Groep 3 met Creatieve Activiteiten"
+- H3: "Matching en Schaduwherkenning voor Werkbladen Kleuters - Visuele Discriminatie Versterken"
+- H3: "Telrijen en Patronen voor Tafels Oefenen - Rekenen Werkbladen Sequenties"
+- H3: "Complete Lespakketten met Alle Generators - Oefenbladen Gratis voor het Hele Schooljaar"
+
+Keywords added in Section 7:
+1. Werkbladen groep 3: +1 (total: 12) ✓
+2. Werkbladen kleuters / Groep 1 2: +1 (total: 12) ✓
+3. Rekenen werkbladen: +3 (total: 12) ✓ COMPLETE
+4. Kleurplaten: +2 (total: 11) ✓ COMPLETE
+5. Letters leren / Schrijven oefenen: +1 (total: 12) ✓
+6. Oefenbladen gratis: +1 (total: 11) ✓
+7. Tafels oefenen: +2 (total: 10) ✓ COMPLETE
+8. Veilig leren lezen: +1 (total: 10) ✓ COMPLETE
+9. Fijne motoriek: +1 (total: 11) ✓
+10. Sommen tot 20: +1 (total: 11) ✓
+
+---
+FINAL TOTALS:
+Total keyword instances in H2/H3 titles: 112
+All 10 keywords reached minimum 10 instances: YES ✓
+
+Keyword Distribution:
+1. Werkbladen groep 3: 12 instances
+2. Werkbladen kleuters / Groep 1 2: 12 instances
+3. Rekenen werkbladen: 12 instances
+4. Kleurplaten: 11 instances
+5. Letters leren / Schrijven oefenen: 12 instances
+6. Oefenbladen gratis: 11 instances
+7. Tafels oefenen: 10 instances
+8. Veilig leren lezen: 10 instances
+9. Fijne motoriek: 11 instances
+10. Sommen tot 20: 11 instances
+
+DOCUMENT COMPLETE - All SEO requirements met!
+
+---
+FINAL TOTALS:
+(To be verified after Section 7)

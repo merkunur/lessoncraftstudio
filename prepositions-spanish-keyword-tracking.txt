@@ -1,0 +1,201 @@
+KEYWORD TRACKING - Prepositions App - Spanish (Mexican)
+
+SOURCE: INDIVIDUAL APP PAGES/keywords.txt (Spanish section, lines 150-163)
+DATE: 2025-12-18
+PRIMARY MISSION: Get EVERY keyword to appear MINIMUM 10 times IN H2/H3 TITLES ONLY
+
+====================================================================================
+CRITICAL RULES:
+- ONLY count keywords in H2 and H3 titles/subtitles
+- DO NOT count keywords in body text (body text doesn't count for SEO)
+- Need 40-70+ H3 subsections total across all 7 sections to hit 10x for each keyword
+- Every H2 and H3 MUST contain keywords from this list
+====================================================================================
+
+TARGET: Each keyword must appear MINIMUM 10 times in H2/H3 titles ONLY
+
+SPANISH KEYWORDS (Top 10):
+
+[ ] 1. Fichas para imprimir: 0/10
+       (Printable worksheets)
+
+[ ] 2. Fichas infantil / Fichas preescolar: 0/10
+       (Preschool/kindergarten worksheets)
+
+[ ] 3. Grafomotricidad: 0/10
+       (Pre-writing/motor skills)
+
+[ ] 4. Lectoescritura: 0/10
+       (Reading-writing skills)
+
+[ ] 5. Ejercicios matemáticas / Fichas de matemáticas: 0/10
+       (Math exercises/worksheets)
+
+[ ] 6. Colorear / Dibujos para colorear: 0/10
+       (Coloring / Coloring pages)
+
+[ ] 7. Abecedario / Aprender las letras: 0/10
+       (Alphabet / Learning letters)
+
+[ ] 8. Números / Aprender los números: 0/10
+       (Numbers / Learning numbers)
+
+[ ] 9. Tablas de multiplicar: 0/10
+       (Multiplication tables)
+
+[ ] 10. Fichas gratis / Material educativo gratis: 0/10
+        (Free worksheets / Free educational material)
+
+====================================================================================
+AFTER SECTION 1 (Hero - 400-500 words):
+- Fichas para imprimir: 1 (H1)
+- Fichas infantil / Fichas preescolar: 1 (H1 - "Fichas Infantil")
+- Grafomotricidad: 0
+- Lectoescritura: 0
+- Ejercicios matemáticas / Fichas de matemáticas: 0
+- Colorear / Dibujos para colorear: 0
+- Abecedario / Aprender las letras: 0
+- Números / Aprender los números: 0
+- Tablas de multiplicar: 0
+- Fichas gratis / Material educativo gratis: 1 (H1)
+
+====================================================================================
+AFTER SECTION 2 (Features - 1000-1200 words):
+Section 2 added: H2(1) + H3(7) = 5 instances for "Fichas para imprimir"
+
+RUNNING TOTALS (H1 + Sections 1-2):
+- Fichas para imprimir: 6/10 (H2: 1, H3-1: 1, H3-2: 1, H3-4: 1, H3-7: 1)
+- Fichas infantil / Fichas preescolar: 6/10 (H2: 1 infantil, H3-2: 1 infantil, H3-3: 1 preescolar, H3-4: 1 infantil, H3-6: 1 infantil)
+- Grafomotricidad: 1/10 (H3-2: 1)
+- Lectoescritura: 1/10 (H3-4: 1)
+- Ejercicios matemáticas / Fichas de matemáticas: 0/10
+- Colorear / Dibujos para colorear: 0/10
+- Abecedario / Aprender las letras: 0/10
+- Números / Aprender los números: 0/10
+- Tablas de multiplicar: 0/10
+- Fichas gratis / Material educativo gratis: 7/10 (H2: 1, H3-1: 1, H3-3: 1, H3-5: 2, H3-6: 1)
+
+====================================================================================
+AFTER SECTION 3 (How-To - 1200-1400 words):
+Section 3 added: H2(1) + H3(5) = 6 total subsections
+
+RUNNING TOTALS (H1 + Sections 1-3):
+- Fichas para imprimir: 10/10 ✓✓✓ COMPLETE! (H2: 1, H3-1: 1, H3-4: 1, H3-5: 1)
+- Fichas infantil / Fichas preescolar: 9/10 (H3-2: 1 infantil, H3-3: 1 preescolar, H3-5: 1 infantil)
+- Grafomotricidad: 2/10 (H3-2: 1)
+- Lectoescritura: 2/10 (H3-3: 1)
+- Ejercicios matemáticas / Fichas de matemáticas: 1/10 (H3-2: 1)
+- Colorear / Dibujos para colorear: 1/10 (H3-4: 1)
+- Abecedario / Aprender las letras: 1/10 (H3-4: 1)
+- Números / Aprender los números: 1/10 (H3-2: 1)
+- Tablas de multiplicar: 0/10 (mentioned in body text only - doesn't count)
+- Fichas gratis / Material educativo gratis: 11/10 ✓✓✓ COMPLETE! (H2: 1, H3-1: 1, H3-3: 1, H3-5: 1)
+
+STATUS: 2/10 keywords COMPLETE ✓ | 8/10 still need work
+
+====================================================================================
+AFTER SECTION 4 (Use Cases - 1000-1200 words):
+Section 4 added: H2(1) + H3(6) = 7 total subsections
+
+RUNNING TOTALS (H1 + Sections 1-4):
+- Fichas para imprimir: 11/10 ✓✓✓ COMPLETE! (H2-4: +1)
+- Fichas infantil / Fichas preescolar: 11/10 ✓✓✓ COMPLETE! (H3-4.1 preescolar: +1, H3-4.6 infantil: +1)
+- Grafomotricidad: 5/10 (H2-4: +1, H3-4.1: +1, H3-4.3: +1)
+- Lectoescritura: 4/10 (H2-4: +1, H3-4.4: +1)
+- Ejercicios matemáticas / Fichas de matemáticas: 4/10 (H2-4: +1, H3-4.2: +1, H3-4.5: +1)
+- Colorear / Dibujos para colorear: 2/10 (H3-4.3 "Fichas para Colorear": +1)
+- Abecedario / Aprender las letras: 2/10 (H3-4.4 "Aprender las Letras del Abecedario": +1)
+- Números / Aprender los números: 3/10 (H3-4.1: +1, H3-4.5 "Enseñar Números": +1)
+- Tablas de multiplicar: 2/10 (H3-4.2: +1, H3-4.6: +1)
+- Fichas gratis / Material educativo gratis: 11/10 ✓✓✓ COMPLETE! (no new instances)
+
+STATUS: 3/10 keywords COMPLETE ✓ | 7/10 still need work
+
+====================================================================================
+AFTER SECTION 5 (Subscription Reasons - 1000-1100 words):
+Section 5 added: H2(1) + H3(8) = 9 total subsections
+
+RUNNING TOTALS (H1 + Sections 1-5):
+- Fichas para imprimir: 14/10 ✓✓✓ COMPLETE! (H2-5: +1, H3-5.1: +1, H3-5.7: +1)
+- Fichas infantil / Fichas preescolar: 15/10 ✓✓✓ COMPLETE! (H3-5.4: +1 preescolar, H3-5.5: +2 abecedario, H3-5.6: +1 preescolar)
+- Grafomotricidad: 8/10 (H3-5.1: +1, H3-5.3: +1, H3-5.4: +2)
+- Lectoescritura: 7/10 (H3-5.4: +2, H3-5.5: +1)
+- Ejercicios matemáticas / Fichas de matemáticas: 8/10 (H3-5.2: +2, H3-5.7: +2)
+- Colorear / Dibujos para colorear: 5/10 (H3-5.3 title: +2, H3-5.7: +1)
+- Abecedario / Aprender las letras: 6/10 (H3-5.3: +1, H3-5.5 title: +2, H3-5.7: +1)
+- Números / Aprender los números: 6/10 (H3-5.2: +2, H3-5.7: +1)
+- Tablas de multiplicar: 6/10 (H3-5.2 title: +2, H3-5.7: +2)
+- Fichas gratis / Material educativo gratis: 14/10 ✓✓✓ COMPLETE! (H2-5: +1, H3-5.1: +2)
+
+STATUS: 4/10 keywords COMPLETE ✓ | 6/10 still need work
+
+====================================================================================
+AFTER SECTION 6 (FAQ - 1400-1600 words):
+Section 6 added: H2(1) + H3(12) = 13 total subsections
+
+RUNNING TOTALS (H1 + Sections 1-6):
+- Fichas para imprimir: 16/10 ✓✓✓ COMPLETE! (H2-6: +1, H3-6.7: +1)
+- Fichas infantil / Fichas preescolar: 15/10 ✓✓✓ COMPLETE! (no new instances)
+- Grafomotricidad: 11/10 ✓✓✓ COMPLETE! (H2-6: +1, H3-6.1: +1, H3-6.6: +1)
+- Lectoescritura: 10/10 ✓✓✓ COMPLETE! (H2-6: +1, H3-6.5: +1, H3-6.12: +1)
+- Ejercicios matemáticas / Fichas de matemáticas: 9/10 (H3-6.3: +1)
+- Colorear / Dibujos para colorear: 7/10 (H3-6.1: +1, H3-6.8: +1)
+- Abecedario / Aprender las letras: 8/10 (H3-6.2: +1, H3-6.9: +1)
+- Números / Aprender los números: 8/10 (H3-6.3: +1, H3-6.10: +1)
+- Tablas de multiplicar: 8/10 (H3-6.4: +1, H3-6.11: +1)
+- Fichas gratis / Material educativo gratis: 14/10 ✓✓✓ COMPLETE! (no new instances)
+
+STATUS: 6/10 keywords COMPLETE ✓✓✓ | 4/10 still need work
+- Ejercicios matemáticas: 9/10 (need 1 more)
+- Colorear: 7/10 (need 3 more)
+- Abecedario: 8/10 (need 2 more)
+- Números: 8/10 (need 2 more)
+- Tablas de multiplicar: 8/10 (need 2 more)
+
+====================================================================================
+AFTER SECTION 7 (Combine Apps - 1068 words):
+Section 7 added: H2(1) + H3(6) = 7 total subsections
+
+Section 7 keyword additions from H2/H3 titles only:
+- H2: Abecedario (+1), Colorear (+1), Números (+1), Fichas de matemáticas (+1)
+- H3-1: Colorear (+1), Números (+1), Tablas de Multiplicar (+1), Ejercicios Matemáticas (+1)
+- H3-2: Abecedario (+1), Lectoescritura (+1), Aprender las Letras (+1)
+- H3-3: Tablas de Multiplicar (+1), Ejercicios Matemáticas (+1)
+- H3-4: Números (+1), Aprender los Números (+1)
+- H3-5: Dibujos para Colorear (+1)
+- H3-6: Abecedario (+1)
+
+RUNNING TOTALS (H1 + Sections 1-7):
+- Fichas para imprimir: 16/10 ✓✓✓ COMPLETE! (no new instances)
+- Fichas infantil / Fichas preescolar: 15/10 ✓✓✓ COMPLETE! (no new instances)
+- Grafomotricidad: 11/10 ✓✓✓ COMPLETE! (no new instances)
+- Lectoescritura: 11/10 ✓✓✓ COMPLETE! (H3-7.2: +1)
+- Ejercicios matemáticas / Fichas de matemáticas: 12/10 ✓✓✓ COMPLETE! (H2-7: +1, H3-7.1: +1, H3-7.3: +1)
+- Colorear / Dibujos para colorear: 10/10 ✓✓✓ COMPLETE! (H2-7: +1, H3-7.1: +1, H3-7.5: +1)
+- Abecedario / Aprender las letras: 12/10 ✓✓✓ COMPLETE! (H2-7: +1, H3-7.2: +2, H3-7.6: +1)
+- Números / Aprender los números: 12/10 ✓✓✓ COMPLETE! (H2-7: +1, H3-7.1: +1, H3-7.4: +2)
+- Tablas de multiplicar: 10/10 ✓✓✓ COMPLETE! (H3-7.1: +1, H3-7.3: +1)
+- Fichas gratis / Material educativo gratis: 14/10 ✓✓✓ COMPLETE! (no new instances)
+
+STATUS: 10/10 keywords COMPLETE ✓✓✓ | PRIMARY MISSION ACCOMPLISHED! 🎯
+
+====================================================================================
+FINAL TOTALS (MUST BE ≥10 FOR ALL KEYWORDS):
+
+[✓] Fichas para imprimir: 16/10 ✓ COMPLETE
+[✓] Fichas infantil / Fichas preescolar: 15/10 ✓ COMPLETE
+[✓] Grafomotricidad: 11/10 ✓ COMPLETE
+[✓] Lectoescritura: 11/10 ✓ COMPLETE
+[✓] Ejercicios matemáticas / Fichas de matemáticas: 12/10 ✓ COMPLETE
+[✓] Colorear / Dibujos para colorear: 10/10 ✓ COMPLETE (EXACT TARGET!)
+[✓] Abecedario / Aprender las letras: 12/10 ✓ COMPLETE
+[✓] Números / Aprender los números: 12/10 ✓ COMPLETE
+[✓] Tablas de multiplicar: 10/10 ✓ COMPLETE (EXACT TARGET!)
+[✓] Fichas gratis / Material educativo gratis: 14/10 ✓ COMPLETE
+
+STATUS: 10/10 keywords passed ✓
+✓✓✓ PRIMARY MISSION COMPLETE - ALL keywords hit minimum 10 instances in H2/H3 titles! ✓✓✓
+
+TOTAL KEYWORD INSTANCES IN H2/H3 TITLES: 124/100 (24% over target)
+
+====================================================================================

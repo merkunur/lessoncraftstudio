@@ -1,0 +1,44 @@
+KEYWORD TRACKING - Subtraction App - French
+=========================================
+
+PRICING: Full Access = 240€/an (Accès Complet)
+App ID: subtraction
+
+TARGET: Each keyword must appear MINIMUM 10 times in H2/H3 titles ONLY
+
+Current Status:
+[ ] 1. Fiches maternelle: 0/10
+[ ] 2. Exercices CP / Exercices CE1: 0/10
+[ ] 3. Graphisme maternelle: 0/10
+[ ] 4. Coloriage / Coloriage à imprimer: 0/10
+[ ] 5. Apprendre à lire: 0/10
+[ ] 6. Exercices maths / Calcul: 0/10
+[ ] 7. Alphabet / Apprendre les lettres: 0/10
+[ ] 8. Tables de multiplication: 0/10
+[ ] 9. Fiches à imprimer gratuit: 0/10
+[ ] 10. Écriture / Écriture cursive: 0/10
+
+After each section, update counts and check boxes when ≥10 reached.
+=========================================
+
+SECTION PROGRESS:
+
+=== SECTION 1: HERO (Complete) ===
+Word count: ~450 words
+H2/H3 Keyword counts: 0 (Hero has no H2/H3, only H1)
+Note: H1 title contains "Fiches Maternelle", "Exercices Maths", "Fiches à Imprimer"
+      but H1 doesn't count toward the minimum - ONLY H2/H3 count!
+
+RUNNING TOTALS AFTER SECTION 1:
+- Fiches maternelle: 0
+- Exercices CP / CE1: 0
+- Graphisme maternelle: 0
+- Coloriage à imprimer: 0
+- Apprendre à lire: 0
+- Exercices maths: 0
+- Alphabet: 0
+- Tables de multiplication: 0
+- Fiches à imprimer gratuit: 0
+- Écriture cursive: 0
+
+Status: Section 1 complete. Awaiting approval for Section 2.

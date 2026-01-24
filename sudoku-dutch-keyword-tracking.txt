@@ -1,0 +1,211 @@
+KEYWORD TRACKING - Sudoku for Kids - Dutch
+
+TARGET: Each keyword must appear MINIMUM 10 times in H2/H3 titles ONLY
+
+Current Status:
+[ ] 1. Werkbladen groep 3: 0/10
+[ ] 2. Werkbladen kleuters / Groep 1 2: 0/10
+[ ] 3. Rekenen werkbladen: 0/10
+[ ] 4. Kleurplaten: 0/10
+[ ] 5. Letters leren / Schrijven oefenen: 0/10
+[ ] 6. Oefenbladen gratis: 0/10
+[ ] 7. Tafels oefenen: 0/10
+[ ] 8. Veilig leren lezen: 0/10
+[ ] 9. Fijne motoriek: 0/10
+[ ] 10. Sommen tot 20: 0/10
+
+After each section, update counts and check boxes when ≥10 reached.
+
+---
+SECTION UPDATES:
+
+AFTER SECTION 1 (Hero):
+H2/H3 Titles in Section 1:
+- H2: Visuele Sudoku Werkbladen Kleuters - Logisch Denken voor Groep 1 2
+- H3: Werkbladen Groep 3 met Sudoku Puzzels - Oefenbladen Gratis Downloaden
+- H3: Rekenen Werkbladen Combineren met Sudoku - Fijne Motoriek en Logica
+- H3: Kleurplaten en Sudoku - Werkbladen Kleuters voor Alle Vaardigheden
+- H3: Letters Leren en Logisch Denken - Oefenbladen Gratis voor Kleuters
+
+Keyword Counts After Section 1:
+[ ] 1. Werkbladen groep 3: 1/10
+[ ] 2. Werkbladen kleuters / Groep 1 2: 3/10 (werkbladen kleuters x2, groep 1 2 x1)
+[ ] 3. Rekenen werkbladen: 1/10
+[ ] 4. Kleurplaten: 1/10
+[ ] 5. Letters leren / Schrijven oefenen: 1/10
+[ ] 6. Oefenbladen gratis: 2/10
+[ ] 7. Tafels oefenen: 0/10
+[ ] 8. Veilig leren lezen: 0/10
+[ ] 9. Fijne motoriek: 1/10
+[ ] 10. Sommen tot 20: 0/10
+
+---
+
+AFTER SECTION 2 (Features):
+H2/H3 Titles in Section 2:
+- H2: Sudoku Generator Functies - Alles voor Werkbladen Groep 3 en Oefenbladen Gratis
+- H3: Werkbladen Kleuters Maken in 3 Klikken - Snel Oefenbladen Gratis Genereren
+- H3: Rekenen Werkbladen Volledig Bewerkbaar - Alles op het Canvas Aanpassen
+- H3: Fijne Motoriek Training met Eigen Afbeeldingen - Upload je Eigen Plaatjes
+- H3: Veilig Leren Lezen Ondersteuning in 11 Talen - Nederlandse Interface
+- H3: Kleurplaten Verkopen met Commerciele Licentie - POD Rechten Inbegrepen
+- H3: Tafels Oefenen Aanvullen met 3000+ Afbeeldingen - Complete Beeldbibliotheek
+- H3: Sommen tot 20 Kwaliteit met 300 DPI - Professionele Downloads
+- H3: Schrijven Oefenen Combineren met Puzzels - Antwoordsleutels Automatisch
+- H3: Groep 1 2 Materiaal met Ongedaan Maken - Fouten Herstellen
+
+RUNNING TOTALS After Section 2:
+[ ] 1. Werkbladen groep 3: 3/10 (+2)
+[ ] 2. Werkbladen kleuters / Groep 1 2: 5/10 (+2)
+[ ] 3. Rekenen werkbladen: 2/10 (+1)
+[ ] 4. Kleurplaten: 2/10 (+1)
+[ ] 5. Letters leren / Schrijven oefenen: 2/10 (+1)
+[ ] 6. Oefenbladen gratis: 4/10 (+2)
+[ ] 7. Tafels oefenen: 1/10 (+1)
+[ ] 8. Veilig leren lezen: 1/10 (+1)
+[ ] 9. Fijne motoriek: 2/10 (+1)
+[ ] 10. Sommen tot 20: 1/10 (+1)
+
+---
+
+AFTER SECTION 3 (How-To):
+H2/H3 Titles in Section 3:
+- H2: Sudoku Werkbladen Maken in 5 Stappen - Oefenbladen Gratis voor Groep 1 2 3
+- H3: Stap 1: Kies je Afbeeldingen voor Rekenen Werkbladen - Thema of Individueel
+- H3: Stap 2: Stel Moeilijkheidsgraad in voor Sommen tot 20 Niveau - Makkelijk tot Moeilijk
+- H3: Stap 3: Genereer je Werkbladen Kleuters - Direct Resultaat Bekijken
+- H3: Stap 4: Bewerk op Canvas voor Veilig Leren Lezen Combinaties - Volledige Aanpassing
+- H3: Stap 5: Download Oefenbladen Gratis als PDF - Werkbladen Groep 3 Printen
+- H3: Letters Leren Materiaal Printen Thuis - Professionele Kwaliteit
+
+RUNNING TOTALS After Section 3:
+[ ] 1. Werkbladen groep 3: 4/10 (+1)
+[ ] 2. Werkbladen kleuters / Groep 1 2: 7/10 (+2)
+[ ] 3. Rekenen werkbladen: 3/10 (+1)
+[ ] 4. Kleurplaten: 2/10 (+0)
+[ ] 5. Letters leren / Schrijven oefenen: 3/10 (+1)
+[ ] 6. Oefenbladen gratis: 6/10 (+2)
+[ ] 7. Tafels oefenen: 1/10 (+0)
+[ ] 8. Veilig leren lezen: 2/10 (+1)
+[ ] 9. Fijne motoriek: 2/10 (+0)
+[ ] 10. Sommen tot 20: 2/10 (+1)
+
+---
+
+AFTER SECTION 4 (Use Cases):
+H2/H3 Titles in Section 4:
+- H2: Sudoku Werkbladen voor Leerkrachten en Ouders - Oefenbladen Gratis voor Iedereen
+- H3: Leerkrachten Groep 1 2 met Werkbladen Kleuters - Fijne Motoriek Ontwikkelen
+- H3: Leerkrachten Groep 3 met Rekenen Werkbladen - Logisch Denken Stimuleren
+- H3: Leerkrachten Groep 4 5 met Tafels Oefenen - Afwisseling in Rekenles
+- H3: Thuisonderwijs Ouders met Oefenbladen Gratis - Flexibel Lesmateriaal
+- H3: NT2 en Taalonderwijs met Veilig Leren Lezen - Woordenschat Uitbreiden
+- H3: Ondernemende Leerkrachten met Kleurplaten Verkopen - Commerciële Mogelijkheden
+- H3: Speciaal Onderwijs met Fijne Motoriek Training - Aangepaste Puzzels
+
+RUNNING TOTALS After Section 4:
+[ ] 1. Werkbladen groep 3: 5/10 (+1)
+[ ] 2. Werkbladen kleuters / Groep 1 2: 9/10 (+2)
+[ ] 3. Rekenen werkbladen: 4/10 (+1)
+[ ] 4. Kleurplaten: 3/10 (+1)
+[ ] 5. Letters leren / Schrijven oefenen: 3/10 (+0)
+[ ] 6. Oefenbladen gratis: 8/10 (+2)
+[ ] 7. Tafels oefenen: 2/10 (+1)
+[ ] 8. Veilig leren lezen: 3/10 (+1)
+[ ] 9. Fijne motoriek: 4/10 (+2)
+[ ] 10. Sommen tot 20: 2/10 (+0)
+
+---
+
+AFTER SECTION 5 (Subscription Reasons):
+H2/H3 Titles in Section 5:
+- H2: Drie Redenen voor een Core Bundle Abonnement - Werkbladen Groep 3 en Meer
+- H3: Meertalig Onderwijs met Veilig Leren Lezen - Werkbladen Kleuters in 11 Talen
+- H3: Kleurplaten en Sudoku Verkopen - Commerciële Licentie Inbegrepen
+- H3: Sommen tot 20 en Tafels Oefenen Combineren - Tijdsbesparing voor Leerkrachten
+- H3: Schrijven Oefenen en Fijne Motoriek Materiaal - Onbeperkt Genereren
+
+RUNNING TOTALS After Section 5:
+[ ] 1. Werkbladen groep 3: 6/10 (+1)
+[✓] 2. Werkbladen kleuters / Groep 1 2: 10/10 (+1) ✓ TARGET MET
+[ ] 3. Rekenen werkbladen: 4/10 (+0)
+[ ] 4. Kleurplaten: 4/10 (+1)
+[ ] 5. Letters leren / Schrijven oefenen: 4/10 (+1)
+[ ] 6. Oefenbladen gratis: 8/10 (+0)
+[ ] 7. Tafels oefenen: 3/10 (+1)
+[ ] 8. Veilig leren lezen: 4/10 (+1)
+[ ] 9. Fijne motoriek: 5/10 (+1)
+[ ] 10. Sommen tot 20: 3/10 (+1)
+
+---
+
+AFTER SECTION 6 (FAQ):
+H2/H3 Titles in Section 6:
+- H2: Veelgestelde Vragen over Sudoku Werkbladen - Oefenbladen Gratis en Meer
+- H3: Is de Sudoku Generator met Rekenen Werkbladen Echt Gratis te Gebruiken?
+- H3: Kan ik Werkbladen Groep 3 Thuis Printen op een Gewone Printer?
+- H3: Heb ik Ontwerpvaardigheden Nodig voor Oefenbladen Gratis Maken?
+- H3: Mag ik Sudoku met Tafels Oefenen Gebruiken in mijn Klaslokaal?
+- H3: In Welke Talen zijn Werkbladen Kleuters met Veilig Leren Lezen Beschikbaar?
+- H3: Kan ik Kleurplaten en Sudoku Verkopen die ik met deze Generator Maak?
+- H3: Hoe Pas ik Sommen tot 20 Werkbladen aan voor Mijn Leerlingen?
+- H3: Voor Welke Leeftijden zijn Fijne Motoriek Sudoku Werkbladen Geschikt?
+- H3: Kan ik Eigen Afbeeldingen Uploaden voor Letters Leren Puzzels?
+- H3: Hoe Lang Duurt het om Rekenen Werkbladen met Sudoku te Maken?
+- H3: Bevatten Sudoku Oefenbladen Gratis ook Antwoordsleutels?
+- H3: Kan ik Werkbladen Groep 3 over Specifieke Schoolonderwerpen Maken?
+- H3: Werkt de Sudoku Generator ook voor Schrijven Oefenen en Tafels Oefenen?
+
+RUNNING TOTALS After Section 6:
+[ ] 1. Werkbladen groep 3: 8/10 (+2)
+[✓] 2. Werkbladen kleuters / Groep 1 2: 11/10 (+1) ✓ TARGET MET
+[ ] 3. Rekenen werkbladen: 6/10 (+2)
+[ ] 4. Kleurplaten: 5/10 (+1)
+[ ] 5. Letters leren / Schrijven oefenen: 6/10 (+2)
+[✓] 6. Oefenbladen gratis: 11/10 (+3) ✓ TARGET MET
+[ ] 7. Tafels oefenen: 5/10 (+2)
+[ ] 8. Veilig leren lezen: 5/10 (+1)
+[ ] 9. Fijne motoriek: 6/10 (+1)
+[ ] 10. Sommen tot 20: 4/10 (+1)
+
+---
+
+AFTER SECTION 7 (Combine Apps) - FINAL:
+H2/H3 Titles in Section 7:
+- H2: Sudoku Combineren met Andere Werkbladen - Complete Leerpakketten voor Groep 1 2 3
+- H3: Sudoku Plus Rekenen Werkbladen - Sommen tot 20 en Logisch Denken
+- H3: Sudoku met Tafels Oefenen - Afwisseling in Bovenbouw Rekenen
+- H3: Kleurplaten en Sudoku Bundels - Fijne Motoriek Ontwikkeling
+- H3: Veilig Leren Lezen met Sudoku - Letters Leren en Woordenschat
+- H3: Schrijven Oefenen en Sudoku - Werkbladen Groep 3 Combinaties
+- H3: Sommen tot 20 Pakketten met Fijne Motoriek - Kleuterprogramma's
+- H3: Tafels Oefenen met Veilig Leren Lezen - Cross-Curriculaire Pakketten
+- H3: Letters Leren met Kleurplaten - Werkbladen Kleuters Compleet
+- H3: Rekenen Werkbladen en Oefenbladen Gratis - Complete Rekenprogramma's
+- H3: Werkbladen Groep 3 met Sommen tot 20 - Wiskunde Fundament Bouwen
+- H3: Kleurplaten met Tafels Oefenen - Creatief Rekenen
+- H3: Veilig Leren Lezen met Fijne Motoriek - Taalontwikkeling Compleet
+- H3: Sommen tot 20 met Schrijven Oefenen - Cijfers en Letters Samen
+- H3: Tafels Oefenen met Kleurplaten - Motivatie Verhogen
+- H3: Veilig Leren Lezen met Rekenen Werkbladen - Cross-Curriculair Leren
+- H3: Letters Leren met Sommen tot 20 - Basis Vaardigheden Samen
+- H3: Fijne Motoriek met Werkbladen Groep 3 - Schrijfvoorbereiding
+- H3: Rekenen Werkbladen Plus Kleurplaten en Tafels Oefenen - Complete Bundels
+- H3: Veilig Leren Lezen met Sommen tot 20 - Taal en Rekenen Verbonden
+
+===============================================
+FINAL KEYWORD COUNTS - ALL TARGETS MET!
+===============================================
+[✓] 1. Werkbladen groep 3: 12/10 ✓
+[✓] 2. Werkbladen kleuters / Groep 1 2: 13/10 ✓
+[✓] 3. Rekenen werkbladen: 10/10 ✓
+[✓] 4. Kleurplaten: 10/10 ✓
+[✓] 5. Letters leren / Schrijven oefenen: 11/10 ✓
+[✓] 6. Oefenbladen gratis: 12/10 ✓
+[✓] 7. Tafels oefenen: 10/10 ✓
+[✓] 8. Veilig leren lezen: 10/10 ✓
+[✓] 9. Fijne motoriek: 10/10 ✓
+[✓] 10. Sommen tot 20: 10/10 ✓
+
+ALL 10 KEYWORDS HAVE REACHED MINIMUM 10 OCCURRENCES IN H2/H3 TITLES!
+PAGE COMPLETE AND SEO-OPTIMIZED!

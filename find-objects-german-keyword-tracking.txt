@@ -1,0 +1,273 @@
+KEYWORD TRACKING - Find Objects (Objekte Suchen) - German
+
+TARGET: Each keyword must appear MINIMUM 10 times in H2/H3 titles ONLY
+
+PRICING VERIFICATION:
+App Name: Find Objects
+Subscription Tier: Full Access $240/year
+Monthly Price: $25/month
+✓ I will use "Full Access" and "$240/$25" throughout this document
+✓ I will NEVER use "Core Bundle" or "$144/$15" for this app
+
+Current Status:
+[ ] 1. Arbeitsblätter Grundschule: 0/10
+[ ] 2. Mathe Arbeitsblätter: 0/10
+[ ] 3. Vorschule Arbeitsblätter: 0/10
+[ ] 4. Einmaleins: 0/10
+[ ] 5. Schwungübungen: 0/10
+[ ] 6. Buchstaben lernen: 0/10
+[ ] 7. Ausmalbilder / Malvorlagen: 0/10
+[ ] 8. Kostenlose Arbeitsblätter: 0/10
+[ ] 9. Rechnen lernen / Rechnen 1. Klasse: 0/10
+[ ] 10. Deutsch Arbeitsblätter: 0/10
+
+After each section, update counts and check boxes when ≥10 reached.
+
+---
+
+SECTION 1 (Hero) - COMPLETE:
+Note: H1 only, no H2/H3 titles in this section (by design)
+
+H2/H3 Keyword Count for Section 1: 0 (expected - Hero section has no H2/H3)
+
+Running Totals After Section 1:
+[ ] 1. Arbeitsblätter Grundschule: 0/10
+[ ] 2. Mathe Arbeitsblätter: 0/10
+[ ] 3. Vorschule Arbeitsblätter: 0/10
+[ ] 4. Einmaleins: 0/10
+[ ] 5. Schwungübungen: 0/10
+[ ] 6. Buchstaben lernen: 0/10
+[ ] 7. Ausmalbilder / Malvorlagen: 0/10
+[ ] 8. Kostenlose Arbeitsblätter: 0/10
+[ ] 9. Rechnen lernen / Rechnen 1. Klasse: 0/10
+[ ] 10. Deutsch Arbeitsblätter: 0/10
+
+---
+
+SECTION 2 (Features) - COMPLETE:
+H2/H3 Titles in Section 2:
+1. H2: "...Kostenlose Arbeitsblätter und Arbeitsblätter Grundschule" = Kostenlose(1), Grundschule(1)
+2. H3: "...Vorschule Arbeitsblätter...Kostenlose Arbeitsblätter..." = Vorschule(1), Kostenlose(1)
+3. H3: "...Mathe Arbeitsblätter und Arbeitsblätter Grundschule" = Mathe(1), Grundschule(1)
+4. H3: "...Schwungübungen und Buchstaben Lernen..." = Schwungübungen(1), Buchstaben(1)
+5. H3: "...Deutsch Arbeitsblätter und Buchstaben Lernen" = Deutsch(1), Buchstaben(1)
+6. H3: "...Malvorlagen und Ausmalbilder..." = Malvorlagen(1), Ausmalbilder(1)
+7. H3: "...Kostenlose Arbeitsblätter und Vorschule Arbeitsblätter" = Kostenlose(1), Vorschule(1)
+8. H3: "...Rechnen Lernen und Arbeitsblätter Grundschule" = Rechnen(1), Grundschule(1)
+
+Section 2 Counts:
+- Arbeitsblätter Grundschule: 3
+- Mathe Arbeitsblätter: 1
+- Vorschule Arbeitsblätter: 2
+- Einmaleins: 0
+- Schwungübungen: 1
+- Buchstaben lernen: 2
+- Ausmalbilder / Malvorlagen: 2
+- Kostenlose Arbeitsblätter: 3
+- Rechnen lernen: 1
+- Deutsch Arbeitsblätter: 1
+
+RUNNING TOTALS AFTER SECTION 2:
+[ ] 1. Arbeitsblätter Grundschule: 3/10
+[ ] 2. Mathe Arbeitsblätter: 1/10
+[ ] 3. Vorschule Arbeitsblätter: 2/10
+[ ] 4. Einmaleins: 0/10 ⚠️
+[ ] 5. Schwungübungen: 1/10
+[ ] 6. Buchstaben lernen: 2/10
+[ ] 7. Ausmalbilder / Malvorlagen: 2/10
+[ ] 8. Kostenlose Arbeitsblätter: 3/10
+[ ] 9. Rechnen lernen / 1. Klasse: 1/10
+[ ] 10. Deutsch Arbeitsblätter: 1/10
+
+---
+
+SECTION 3 (How-To) - COMPLETE:
+H2/H3 Titles in Section 3:
+1. H2: "...Kostenlose Arbeitsblätter...Vorschule Arbeitsblätter und Arbeitsblätter Grundschule"
+   = Kostenlose(1), Vorschule(1), Grundschule(1)
+2. H3: "...Mathe Arbeitsblätter oder Einmaleins Themen..." = Mathe(1), Einmaleins(1)
+3. H3: "...Kostenlose Arbeitsblätter mit Malvorlagen..." = Kostenlose(1), Malvorlagen(1)
+4. H3: "...Schwungübungen und Buchstaben Lernen..." = Schwungübungen(1), Buchstaben(1)
+5. H3: "...Rechnen Lernen und Deutsch Arbeitsblätter..." = Rechnen(1), Deutsch(1)
+6. H3: "...Ausmalbilder und Arbeitsblätter Grundschule..." = Ausmalbilder(1), Grundschule(1)
+
+Section 3 Counts:
+- Arbeitsblätter Grundschule: 2
+- Mathe Arbeitsblätter: 1
+- Vorschule Arbeitsblätter: 1
+- Einmaleins: 1 ✓ (finally!)
+- Schwungübungen: 1
+- Buchstaben lernen: 1
+- Ausmalbilder / Malvorlagen: 2
+- Kostenlose Arbeitsblätter: 2
+- Rechnen lernen: 1
+- Deutsch Arbeitsblätter: 1
+
+RUNNING TOTALS AFTER SECTION 3:
+[ ] 1. Arbeitsblätter Grundschule: 5/10
+[ ] 2. Mathe Arbeitsblätter: 2/10
+[ ] 3. Vorschule Arbeitsblätter: 3/10
+[ ] 4. Einmaleins: 1/10
+[ ] 5. Schwungübungen: 2/10
+[ ] 6. Buchstaben lernen: 3/10
+[ ] 7. Ausmalbilder / Malvorlagen: 4/10
+[ ] 8. Kostenlose Arbeitsblätter: 5/10
+[ ] 9. Rechnen lernen / 1. Klasse: 2/10
+[ ] 10. Deutsch Arbeitsblätter: 2/10
+
+---
+
+SECTION 4 (Use Cases) - COMPLETE:
+H2/H3 Titles in Section 4:
+1. H2: "...Kostenlose Arbeitsblätter für Vorschule Arbeitsblätter und Arbeitsblätter Grundschule"
+   = Kostenlose(1), Vorschule(1), Grundschule(1)
+2. H3: "...Vorschule Arbeitsblätter und Schwungübungen..." = Vorschule(1), Schwungübungen(1)
+3. H3: "...Einmaleins und Rechnen Lernen mit Mathe Arbeitsblättern..." = Einmaleins(1), Rechnen(1), Mathe(1)
+4. H3: "...Buchstaben Lernen und Ausmalbilder..." = Buchstaben(1), Ausmalbilder(1)
+5. H3: "...Deutsch Arbeitsblätter in 11 Sprachen..." = Deutsch(1)
+6. H3: "...Malvorlagen und Kostenlose Arbeitsblätter..." = Malvorlagen(1), Kostenlose(1)
+7. H3: "...Arbeitsblätter Grundschule und Einmaleins Übungen..." = Grundschule(1), Einmaleins(1)
+
+Section 4 Counts:
+- Arbeitsblätter Grundschule: 2
+- Mathe Arbeitsblätter: 1
+- Vorschule Arbeitsblätter: 2
+- Einmaleins: 2
+- Schwungübungen: 1
+- Buchstaben lernen: 1
+- Ausmalbilder / Malvorlagen: 2
+- Kostenlose Arbeitsblätter: 2
+- Rechnen lernen: 1
+- Deutsch Arbeitsblätter: 1
+
+RUNNING TOTALS AFTER SECTION 4:
+[ ] 1. Arbeitsblätter Grundschule: 7/10
+[ ] 2. Mathe Arbeitsblätter: 3/10
+[ ] 3. Vorschule Arbeitsblätter: 5/10
+[ ] 4. Einmaleins: 3/10
+[ ] 5. Schwungübungen: 3/10
+[ ] 6. Buchstaben lernen: 4/10
+[ ] 7. Ausmalbilder / Malvorlagen: 6/10
+[ ] 8. Kostenlose Arbeitsblätter: 7/10
+[ ] 9. Rechnen lernen / 1. Klasse: 3/10
+[ ] 10. Deutsch Arbeitsblätter: 3/10
+
+---
+
+SECTION 5 (Subscription Reasons) - COMPLETE:
+H2/H3 Titles in Section 5:
+1. H2: "...Mathe Arbeitsblätter, Einmaleins und Arbeitsblätter Grundschule..."
+   = Mathe(1), Einmaleins(1), Grundschule(1)
+2. H3: "...Deutsch Arbeitsblätter und Buchstaben Lernen..." = Deutsch(1), Buchstaben(1)
+3. H3: "...Kostenlose Arbeitsblätter ohne Zusatzgebühren..." = Kostenlose(1)
+4. H3: "...Einmaleins, Schwungübungen und Rechnen Lernen..." = Einmaleins(1), Schwungübungen(1), Rechnen(1)
+
+Section 5 Counts:
+- Arbeitsblätter Grundschule: 1
+- Mathe Arbeitsblätter: 1
+- Vorschule Arbeitsblätter: 0
+- Einmaleins: 2
+- Schwungübungen: 1
+- Buchstaben lernen: 1
+- Ausmalbilder / Malvorlagen: 0
+- Kostenlose Arbeitsblätter: 1
+- Rechnen lernen: 1
+- Deutsch Arbeitsblätter: 1
+
+RUNNING TOTALS AFTER SECTION 5:
+[ ] 1. Arbeitsblätter Grundschule: 8/10
+[ ] 2. Mathe Arbeitsblätter: 4/10
+[ ] 3. Vorschule Arbeitsblätter: 5/10
+[ ] 4. Einmaleins: 5/10
+[ ] 5. Schwungübungen: 4/10
+[ ] 6. Buchstaben lernen: 5/10
+[ ] 7. Ausmalbilder / Malvorlagen: 6/10
+[ ] 8. Kostenlose Arbeitsblätter: 8/10
+[ ] 9. Rechnen lernen / 1. Klasse: 4/10
+[ ] 10. Deutsch Arbeitsblätter: 4/10
+
+---
+
+SECTION 6 (FAQ) - COMPLETE:
+H2/H3 Titles in Section 6:
+1. H2: "...Vorschule Arbeitsblätter, Mathe Arbeitsblätter und Kostenlose Arbeitsblätter"
+   = Vorschule(1), Mathe(1), Kostenlose(1)
+2. H3: "...Arbeitsblätter Grundschule und Vorschule Arbeitsblätter?" = Grundschule(1), Vorschule(1)
+3. H3: "...Mathe Arbeitsblätter und Einmaleins Übungen..." = Mathe(1), Einmaleins(1)
+4. H3: "...Schwungübungen und Buchstaben Lernen..." = Schwungübungen(1), Buchstaben(1)
+5. H3: "...Kostenlose Arbeitsblätter nach dem Abonnement?" = Kostenlose(1)
+6. H3: "...Deutsch Arbeitsblätter und Rechnen Lernen..." = Deutsch(1), Rechnen(1)
+7. H3: "...Malvorlagen und Ausmalbilder Uploads?" = Malvorlagen(1), Ausmalbilder(1)
+8. H3: "...Einmaleins und Rechnen 1. Klasse..." = Einmaleins(1), Rechnen 1. Klasse(1)
+9. H3: "...Schwungübungen und Vorschule Arbeitsblätter..." = Schwungübungen(1), Vorschule(1)
+10. H3: "...Mathe Arbeitsblätter und Deutsch Arbeitsblätter?" = Mathe(1), Deutsch(1)
+11. H3: "...Buchstaben Lernen und Ausmalbilder..." = Buchstaben(1), Ausmalbilder(1)
+
+Section 6 Counts:
+- Arbeitsblätter Grundschule: 1
+- Mathe Arbeitsblätter: 3
+- Vorschule Arbeitsblätter: 3
+- Einmaleins: 2
+- Schwungübungen: 2
+- Buchstaben lernen: 2
+- Ausmalbilder / Malvorlagen: 3
+- Kostenlose Arbeitsblätter: 2
+- Rechnen lernen / 1. Klasse: 2
+- Deutsch Arbeitsblätter: 2
+
+RUNNING TOTALS AFTER SECTION 6:
+[ ] 1. Arbeitsblätter Grundschule: 9/10
+[ ] 2. Mathe Arbeitsblätter: 7/10
+[ ] 3. Vorschule Arbeitsblätter: 8/10
+[ ] 4. Einmaleins: 7/10
+[ ] 5. Schwungübungen: 6/10
+[ ] 6. Buchstaben lernen: 7/10
+[ ] 7. Ausmalbilder / Malvorlagen: 9/10
+[✓] 8. Kostenlose Arbeitsblätter: 10/10 ✓
+[ ] 9. Rechnen lernen / 1. Klasse: 6/10
+[ ] 10. Deutsch Arbeitsblätter: 6/10
+
+---
+
+SECTION 7 (Combine Apps) - COMPLETE:
+H2/H3 Titles in Section 7:
+1. H2: "...Einmaleins, Schwungübungen und Arbeitsblätter Grundschule"
+   = Einmaleins(1), Schwungübungen(1), Grundschule(1)
+2. H3: "...Rechnen Lernen und Rechnen 1. Klasse..." = Rechnen(2)
+3. H3: "...Einmaleins Übungen..." = Einmaleins(1)
+4. H3: "...Schwungübungen und Vorschule Arbeitsblätter..." = Schwungübungen(1), Vorschule(1)
+5. H3: "...Buchstaben Lernen..." = Buchstaben(1)
+6. H3: "...Ausmalbilder und Malvorlagen..." = Ausmalbilder(1), Malvorlagen(1)
+7. H3: "...Deutsch Arbeitsblätter..." = Deutsch(1)
+8. H3: "...Mathe Arbeitsblätter..." = Mathe(1)
+9. H3: "...Deutsch Arbeitsblätter..." = Deutsch(1)
+10. H3: "...Rechnen Lernen..." = Rechnen(1)
+11. H3: "...Vorschule Arbeitsblätter..." = Vorschule(1)
+12. H3: "...Schwungübungen und Buchstaben Lernen..." = Schwungübungen(1), Buchstaben(1)
+13. H3: "...Mathe Arbeitsblätter und Einmaleins..." = Mathe(1), Einmaleins(1)
+14. H3: "...Deutsch Arbeitsblätter und Rechnen Lernen..." = Deutsch(1), Rechnen(1)
+15. H3: "...Mathe Arbeitsblätter, Schwungübungen, Buchstaben Lernen und Deutsch Arbeitsblätter"
+    = Mathe(1), Schwungübungen(1), Buchstaben(1), Deutsch(1)
+
+=======================================================
+FINAL KEYWORD VERIFICATION - ALL TARGETS MET!
+=======================================================
+
+[✓] 1. Arbeitsblätter Grundschule: 10/10 ✅
+[✓] 2. Mathe Arbeitsblätter: 10/10 ✅
+[✓] 3. Vorschule Arbeitsblätter: 10/10 ✅
+[✓] 4. Einmaleins: 10/10 ✅
+[✓] 5. Schwungübungen: 10/10 ✅
+[✓] 6. Buchstaben lernen: 10/10 ✅
+[✓] 7. Ausmalbilder / Malvorlagen: 11/10 ✅
+[✓] 8. Kostenlose Arbeitsblätter: 10/10 ✅
+[✓] 9. Rechnen lernen / 1. Klasse: 10/10 ✅
+[✓] 10. Deutsch Arbeitsblätter: 10/10 ✅
+
+ALL 10 KEYWORDS HAVE REACHED MINIMUM 10 APPEARANCES IN H2/H3 TITLES!
+
+PRICING VERIFICATION:
+✅ Full Access ($240/year or $25/month) - CORRECTLY USED THROUGHOUT
+✅ Never mentioned Core Bundle or $144/$15 pricing
+
+DOCUMENT COMPLETE!

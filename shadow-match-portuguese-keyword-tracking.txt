@@ -1,0 +1,199 @@
+KEYWORD TRACKING - Shadow Match App - Portuguese (Brazilian)
+
+PRICING VERIFICATION:
+App Name: Shadow Match
+Subscription Tier: Full Access $240/year
+Monthly Price: $25/month
+I will use "Full Access" and "$240/$25" throughout this document
+I will NEVER use "Core Bundle" or "$144/$15" for this app
+
+TARGET: Each keyword must appear MINIMUM 10 times in H2/H3 titles ONLY
+
+Portuguese (Brazilian) Keywords:
+[ ] 1. Atividades para imprimir: 0/10
+[ ] 2. Atividades de alfabetização: 0/10
+[ ] 3. Atividades educação infantil: 0/10
+[ ] 4. Atividades de matemática: 0/10
+[ ] 5. Coordenação motora: 0/10
+[ ] 6. Desenhos para colorir: 0/10
+[ ] 7. Atividades vogais / alfabeto: 0/10
+[ ] 8. Letra cursiva / Pontilhado: 0/10
+[ ] 9. Atividades 1º ano / 2º ano: 0/10
+[ ] 10. Tabuada: 0/10
+
+===========================================
+SECTION TRACKING
+===========================================
+
+After Section 1 (Hero):
+- Atividades para imprimir: 2 (H2 + H3)
+- Atividades de alfabetização: 1 (H3)
+- Atividades educação infantil: 2 (H2 + H3)
+- Atividades de matemática: 1 (H3)
+- Coordenação motora: 1 (H3)
+- Desenhos para colorir: 0
+- Atividades vogais / alfabeto: 0
+- Letra cursiva / Pontilhado: 0
+- Atividades 1º ano / 2º ano: 1 (H3)
+- Tabuada: 0
+
+RUNNING TOTALS AFTER SECTION 1:
+[ ] 1. Atividades para imprimir: 2/10
+[ ] 2. Atividades de alfabetização: 1/10
+[ ] 3. Atividades educação infantil: 2/10
+[ ] 4. Atividades de matemática: 1/10
+[ ] 5. Coordenação motora: 1/10
+[ ] 6. Desenhos para colorir: 0/10
+[ ] 7. Atividades vogais / alfabeto: 0/10
+[ ] 8. Letra cursiva / Pontilhado: 0/10
+[ ] 9. Atividades 1º ano / 2º ano: 1/10
+[ ] 10. Tabuada: 0/10
+
+After Section 2 (Features):
+- Atividades para imprimir: +3 (H2 + 2 H3s)
+- Atividades de alfabetização: +2 (2 H3s)
+- Atividades educação infantil: +3 (H2 + 2 H3s)
+- Atividades de matemática: +1 (H3)
+- Coordenação motora: +3 (H2 + 2 H3s)
+- Desenhos para colorir: +2 (2 H3s)
+- Atividades vogais / alfabeto: +1 (H3)
+- Letra cursiva / Pontilhado: +2 (2 H3s)
+- Atividades 1º ano / 2º ano: +2 (2 H3s)
+- Tabuada: +1 (H3)
+
+RUNNING TOTALS AFTER SECTION 2:
+[ ] 1. Atividades para imprimir: 5/10
+[ ] 2. Atividades de alfabetização: 3/10
+[ ] 3. Atividades educação infantil: 5/10
+[ ] 4. Atividades de matemática: 2/10
+[ ] 5. Coordenação motora: 4/10
+[ ] 6. Desenhos para colorir: 2/10
+[ ] 7. Atividades vogais / alfabeto: 1/10
+[ ] 8. Letra cursiva / Pontilhado: 2/10
+[ ] 9. Atividades 1º ano / 2º ano: 3/10
+[ ] 10. Tabuada: 1/10
+
+After Section 3 (How-To):
+- Atividades para imprimir: +2 (H2 + H3)
+- Atividades de alfabetização: +2 (2 H3s)
+- Atividades educação infantil: +2 (H2 + H3)
+- Atividades de matemática: +1 (H3)
+- Coordenação motora: +2 (2 H3s)
+- Desenhos para colorir: +2 (2 H3s)
+- Atividades vogais / alfabeto: +1 (H3)
+- Letra cursiva / Pontilhado: +1 (H3)
+- Atividades 1º ano / 2º ano: +2 (2 H3s)
+- Tabuada: +1 (H3)
+
+RUNNING TOTALS AFTER SECTION 3:
+[ ] 1. Atividades para imprimir: 7/10
+[ ] 2. Atividades de alfabetização: 5/10
+[ ] 3. Atividades educação infantil: 7/10
+[ ] 4. Atividades de matemática: 3/10
+[ ] 5. Coordenação motora: 6/10
+[ ] 6. Desenhos para colorir: 4/10
+[ ] 7. Atividades vogais / alfabeto: 2/10
+[ ] 8. Letra cursiva / Pontilhado: 3/10
+[ ] 9. Atividades 1º ano / 2º ano: 5/10
+[ ] 10. Tabuada: 2/10
+
+After Section 4 (Use Cases):
+- Atividades para imprimir: +2 (H2 + H3)
+- Atividades de alfabetização: +2 (2 H3s)
+- Atividades educação infantil: +1 (H2)
+- Atividades de matemática: +1 (H3)
+- Coordenação motora: +3 (H2 + 2 H3s)
+- Desenhos para colorir: +2 (2 H3s)
+- Atividades vogais / alfabeto: +1 (H3)
+- Letra cursiva / Pontilhado: +1 (H3)
+- Atividades 1º ano / 2º ano: +1 (H3)
+- Tabuada: +1 (H3)
+
+RUNNING TOTALS AFTER SECTION 4:
+[ ] 1. Atividades para imprimir: 9/10
+[ ] 2. Atividades de alfabetização: 7/10
+[ ] 3. Atividades educação infantil: 8/10
+[ ] 4. Atividades de matemática: 4/10
+[ ] 5. Coordenação motora: 9/10
+[ ] 6. Desenhos para colorir: 6/10
+[ ] 7. Atividades vogais / alfabeto: 3/10
+[ ] 8. Letra cursiva / Pontilhado: 4/10
+[ ] 9. Atividades 1º ano / 2º ano: 6/10
+[ ] 10. Tabuada: 3/10
+
+After Section 5 (Subscription Reasons):
+- Atividades para imprimir: +1 (H2)
+- Atividades de alfabetização: +1 (H3)
+- Atividades educação infantil: +0
+- Atividades de matemática: +2 (H2 + H3)
+- Coordenação motora: +1 (H3)
+- Desenhos para colorir: +0
+- Atividades vogais / alfabeto: +1 (H3)
+- Letra cursiva / Pontilhado: +1 (H3)
+- Atividades 1º ano / 2º ano: +1 (H3)
+- Tabuada: +1 (H3)
+
+RUNNING TOTALS AFTER SECTION 5:
+[✓] 1. Atividades para imprimir: 10/10 ✓ TARGET MET
+[ ] 2. Atividades de alfabetização: 8/10
+[ ] 3. Atividades educação infantil: 8/10
+[ ] 4. Atividades de matemática: 6/10
+[✓] 5. Coordenação motora: 10/10 ✓ TARGET MET
+[ ] 6. Desenhos para colorir: 6/10
+[ ] 7. Atividades vogais / alfabeto: 4/10
+[ ] 8. Letra cursiva / Pontilhado: 5/10
+[ ] 9. Atividades 1º ano / 2º ano: 7/10
+[ ] 10. Tabuada: 4/10
+
+After Section 6 (FAQ):
+- Atividades para imprimir: +2 (H2 + H3)
+- Atividades de alfabetização: +3 (H2 + 2 H3s)
+- Atividades educação infantil: +2 (2 H3s)
+- Atividades de matemática: +2 (2 H3s)
+- Coordenação motora: +2 (H2 + H3)
+- Desenhos para colorir: +1 (H3)
+- Atividades vogais / alfabeto: +2 (2 H3s)
+- Letra cursiva / Pontilhado: +1 (H3)
+- Atividades 1º ano / 2º ano: +1 (H3)
+- Tabuada: +2 (2 H3s)
+
+RUNNING TOTALS AFTER SECTION 6:
+[✓] 1. Atividades para imprimir: 12/10 ✓ TARGET MET
+[✓] 2. Atividades de alfabetização: 11/10 ✓ TARGET MET
+[✓] 3. Atividades educação infantil: 10/10 ✓ TARGET MET
+[ ] 4. Atividades de matemática: 8/10
+[✓] 5. Coordenação motora: 12/10 ✓ TARGET MET
+[ ] 6. Desenhos para colorir: 7/10
+[ ] 7. Atividades vogais / alfabeto: 6/10
+[ ] 8. Letra cursiva / Pontilhado: 6/10
+[ ] 9. Atividades 1º ano / 2º ano: 8/10
+[ ] 10. Tabuada: 6/10
+
+After Section 7 (Combine Apps - 10 H3s):
+- Atividades para imprimir: +1 (H2)
+- Atividades de alfabetização: +0
+- Atividades educação infantil: +0
+- Atividades de matemática: +2 (2 H3s)
+- Coordenação motora: +1 (H3)
+- Desenhos para colorir: +4 (4 H3s)
+- Atividades vogais / alfabeto: +5 (5 H3s)
+- Letra cursiva / Pontilhado: +4 (4 H3s)
+- Atividades 1º ano / 2º ano: +2 (2 H3s)
+- Tabuada: +4 (4 H3s)
+
+===========================================
+FINAL TOTALS - ALL TARGETS MET!
+===========================================
+
+[✓] 1. Atividades para imprimir: 13/10 ✓ TARGET MET
+[✓] 2. Atividades de alfabetização: 11/10 ✓ TARGET MET
+[✓] 3. Atividades educação infantil: 10/10 ✓ TARGET MET
+[✓] 4. Atividades de matemática: 10/10 ✓ TARGET MET
+[✓] 5. Coordenação motora: 13/10 ✓ TARGET MET
+[✓] 6. Desenhos para colorir: 11/10 ✓ TARGET MET
+[✓] 7. Atividades vogais / alfabeto: 11/10 ✓ TARGET MET
+[✓] 8. Letra cursiva / Pontilhado: 10/10 ✓ TARGET MET
+[✓] 9. Atividades 1º ano / 2º ano: 10/10 ✓ TARGET MET
+[✓] 10. Tabuada: 10/10 ✓ TARGET MET
+
+PAGE COMPLETE - ALL 10 KEYWORDS AT OR ABOVE MINIMUM 10 IN H2/H3 TITLES

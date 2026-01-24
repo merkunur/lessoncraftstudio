@@ -1,0 +1,107 @@
+KEYWORD TRACKING - Math Worksheet - Dutch
+
+TARGET: Each keyword must appear MINIMUM 10 times in H2/H3 titles ONLY
+
+FINAL STATUS - ALL KEYWORDS COMPLETE ✓
+[X] 1. Rekenen werkbladen: 20/10 ✓ DONE
+[X] 2. Werkbladen groep 3: 10/10 ✓ DONE
+[X] 3. Werkbladen kleuters / Groep 1-2: 14/10 ✓ DONE
+[X] 4. Oefenbladen gratis: 10/10 ✓ DONE
+[X] 5. Sommen tot 20: 12/10 ✓ DONE
+[X] 6. Kleurplaten: 12/10 ✓ DONE
+[X] 7. Letters leren / Schrijven oefenen: 13/10 ✓ DONE
+[X] 8. Tafels oefenen: 13/10 ✓ DONE
+[X] 9. Veilig leren lezen: 10/10 ✓ DONE
+[X] 10. Fijne motoriek: 12/10 ✓ DONE
+
+=== SECTION 7 (Combine Apps) COMPLETED ===
+H2/H3 Titles in Section 7:
+- H2: "Combineer Rekenen Werkbladen met Andere Apps - Kleurplaten en Tafels Oefenen Pakketten" (+1 rekenen, +1 kleurplaten, +1 tafels)
+- H3: "Kleurplaten Combineren met Rekenen Werkbladen - Fijne Motoriek en Getalbegrip" (+1 kleurplaten, +1 rekenen, +1 fijne motoriek)
+- H3: "Veilig Leren Lezen met Rekenen Werkbladen - Tafels Oefenen en Letterherkenning" (+1 veilig, +1 rekenen, +1 tafels)
+- H3: "Letters Leren en Schrijven Oefenen - Veilig Leren Lezen Ondersteunen met Visuele Puzzels" (+1 letters, +1 schrijven, +1 veilig)
+- H3: "Tafels Oefenen Voorbereiden met Sommen tot 20 - Fijne Motoriek voor Rekenbasis" (+1 tafels, +1 sommen, +1 fijne motoriek)
+- H3: "Veilig Leren Lezen en Tafels Oefenen - Complete Leerpakketten voor Groep 3" (+1 veilig, +1 tafels)
+- H3: "Fijne Motoriek en Kleurplaten - Letters Leren Combineren met Rekenen" (+1 fijne motoriek, +1 kleurplaten, +1 letters)
+- H3: "Schrijven Oefenen en Tafels Oefenen - Werkbladen voor de Hele Basisschool" (+1 schrijven, +1 tafels)
+
+Section 7 added: rekenen +3, kleurplaten +3, letters/schrijven +4, tafels +5, veilig leren lezen +3, fijne motoriek +3, sommen +1
+
+PAGE COMPLETE - ALL 10 KEYWORDS ACHIEVED MINIMUM 10 IN H2/H3 TITLES ✓
+
+=== SECTION 6 (FAQ) COMPLETED ===
+H2/H3 Titles in Section 6:
+- H2: "Veelgestelde Vragen over Rekenen Werkbladen - Oefenbladen Gratis en Kleurplaten FAQ" (+1 rekenen, +1 oefenbladen, +1 kleurplaten)
+- H3: "Is de Rekenen Werkbladen Generator Gratis - Oefenbladen Gratis Maken met Abonnement?" (+1 rekenen, +1 oefenbladen)
+- H3: "Kan Ik Werkbladen Groep 3 Thuis Printen - Sommen tot 20 op Gewone Printer?" (+1 groep 3, +1 sommen)
+- H3: "Heb Ik Ontwerpvaardigheden Nodig - Kleurplaten en Fijne Motoriek Werkbladen Maken?" (+1 kleurplaten, +1 fijne motoriek)
+- H3: "Mag Ik Werkbladen Kleuters Gebruiken in de Klas - Veilig Leren Lezen en Rekenen?" (+1 kleuters, +1 veilig)
+- H3: "In Welke Talen Zijn Rekenen Werkbladen Beschikbaar - Oefenbladen Gratis in 11 Talen?" (+1 rekenen, +1 oefenbladen)
+- H3: "Kan Ik Kleurplaten en Tafels Oefenen Werkbladen Verkopen - Commerciële Licentie?" (+1 kleurplaten, +1 tafels)
+- H3: "Hoe Pas Ik Werkbladen Kleuters Aan - Fijne Motoriek en Veilig Leren Lezen Personaliseren?" (+1 kleuters, +1 fijne motoriek, +1 veilig)
+- H3: "Voor Welke Leeftijden Werken Sommen tot 20 - Werkbladen Groep 3 en Kleuters?" (+1 sommen, +1 groep 3, +1 kleuters)
+- H3: "Kan Ik Eigen Foto's Uploaden - Oefenbladen Gratis met Persoonlijke Afbeeldingen?" (+1 oefenbladen)
+- H3: "Hoe Lang Duurt Het om Rekenen Werkbladen te Maken - Fijne Motoriek in 3 Minuten?" (+1 rekenen, +1 fijne motoriek)
+- H3: "Bevatten Sommen tot 20 Werkbladen Antwoordbladen - Letters Leren met Oplossingen?" (+1 sommen, +1 letters)
+- H3: "Kan Ik Kleurplaten Combineren met Schrijven Oefenen - Thematische Lespakketten?" (+1 kleurplaten, +1 schrijven)
+
+Section 6 added: rekenen +4, groep 3 +2, kleuters +3, oefenbladen +4, sommen +3, kleurplaten +4, letters/schrijven +2, tafels +1, veilig +2, fijne motoriek +3
+
+=== SECTION 5 (Subscription Reasons) COMPLETED ===
+H2/H3 Titles in Section 5:
+- H2: "Waarom Leerkrachten Abonneren - Kleurplaten, Tafels Oefenen en Meer in Één Pakket" (+1 kleurplaten, +1 tafels)
+- H3: "Veilig Leren Lezen in 11 Talen - Letters Leren en Fijne Motoriek voor Internationale Klassen" (+1 veilig, +1 letters, +1 fijne motoriek)
+- H3: "Kleurplaten en Werkbladen Groep 3 Verkopen - Commerciële Licentie voor Tafels Oefenen Pakketten" (+1 kleurplaten, +1 groep 3, +1 tafels)
+- H3: "Sommen tot 20 en Fijne Motoriek - Tijdsbesparing met Werkbladen Kleuters en Groep 3" (+1 sommen, +1 fijne motoriek, +1 kleuters, +1 groep 3)
+- H3: "Letters Leren en Schrijven Oefenen - Werkbladen Kleuters voor Complete Lespakketten" (+1 letters, +1 schrijven, +1 kleuters)
+- H3: "Fijne Motoriek en Veilig Leren Lezen - Tafels Oefenen Voorbereiding met Basis Rekenen" (+1 fijne motoriek, +1 veilig, +1 tafels)
+
+Section 5 added: groep 3 +2, kleuters +2, sommen +1, kleurplaten +2, letters/schrijven +3, tafels +3, veilig leren lezen +2, fijne motoriek +3
+
+=== SECTION 4 (Use Cases) COMPLETED ===
+H2/H3 Titles in Section 4:
+- H2: "Voor Wie Zijn Rekenen Werkbladen - Oefenbladen Gratis voor Leerkrachten en Ouders" (+1 rekenen, +1 oefenbladen)
+- H3: "Werkbladen Kleuters voor Leerkrachten Groep 1-2 - Veilig Leren Lezen en Rekenen" (+1 kleuters, +1 groep 1-2, +1 veilig leren lezen)
+- H3: "Werkbladen Groep 3 voor Basisschoolleerkrachten - Sommen tot 20 en Tafels Oefenen" (+1 groep 3, +1 sommen, +1 tafels)
+- H3: "Oefenbladen Gratis voor Thuisonderwijs - Kleurplaten en Rekenen Werkbladen Thuis" (+1 oefenbladen, +1 kleurplaten, +1 rekenen)
+- H3: "Tafels Oefenen en Veilig Leren Lezen - Werkbladen voor NT2 en Taalonderwijs" (+1 tafels, +1 veilig leren lezen)
+- H3: "Fijne Motoriek en Schrijven Oefenen - Werkbladen Kleuters in Speciaal Onderwijs" (+1 fijne motoriek, +1 schrijven, +1 kleuters)
+- H3: "Kleurplaten en Rekenen Werkbladen Verkopen - Tafels Oefenen Pakketten voor Ondernemers" (+1 kleurplaten, +1 rekenen, +1 tafels)
+
+Section 4 added: rekenen +3, groep 3 +1, kleuters/groep 1-2 +3, oefenbladen +2, sommen +1, kleurplaten +2, schrijven +1, tafels +3, veilig leren lezen +2, fijne motoriek +1
+
+=== SECTION 3 (How-To) COMPLETED ===
+H2/H3 Titles in Section 3:
+- H2: "Hoe Maak Je Rekenen Werkbladen - Sommen tot 20 in 5 Eenvoudige Stappen" (+1 rekenen, +1 sommen)
+- H3: "Stap 1: Kies Je Thema voor Rekenen Werkbladen - Sommen tot 20 met Afbeeldingen" (+1 rekenen, +1 sommen)
+- H3: "Stap 2: Stel de Moeilijkheidsgraad In - Werkbladen Groep 3 en Sommen tot 20 Aanpassen" (+1 groep 3, +1 sommen)
+- H3: "Stap 3: Genereer Je Oefenbladen Gratis - Werkbladen Kleuters Direct Bekijken" (+1 oefenbladen, +1 kleuters)
+- H3: "Stap 4: Bewerk op het Canvas - Rekenen Werkbladen Volledig Aanpassen" (+1 rekenen)
+- H3: "Stap 5: Download en Print - Werkbladen Kleuters als PDF of JPEG" (+1 kleuters)
+- H3: "Sommen tot 20 Oefenen - Tafels Oefenen Voorbereiden met Basisvaardigheden" (+1 sommen, +1 tafels)
+- H3: "Fijne Motoriek Ontwikkelen - Werkbladen Groep 3 met Schrijven Oefenen" (+1 fijne motoriek, +1 groep 3, +1 schrijven)
+
+Section 3 added: rekenen +3, groep 3 +2, kleuters +2, oefenbladen +1, sommen +4, schrijven +1, tafels +1, fijne motoriek +1
+
+=== SECTION 2 (Features) COMPLETED ===
+H2/H3 Titles in Section 2:
+- H2: "Functies van de Rekenen Werkbladen Generator - Oefenbladen Gratis met Professionele Kwaliteit" (+1 rekenen, +1 oefenbladen)
+- H3: "Rekenen Werkbladen in 3 Klikken - Snel Oefenbladen Gratis Maken" (+1 rekenen, +1 oefenbladen)
+- H3: "Werkbladen Groep 3 Volledig Aanpasbaar - Bewerk Elk Element op het Canvas" (+1 groep 3)
+- H3: "Werkbladen Kleuters met Eigen Afbeeldingen - Upload Je Eigen Plaatjes" (+1 kleuters)
+- H3: "Rekenen Werkbladen in 11 Talen - Veilig Leren Lezen en Rekenen Combineren" (+1 rekenen, +1 veilig leren lezen)
+- H3: "Commerciële Licentie Inbegrepen - Verkoop Je Rekenen Werkbladen en Kleurplaten" (+1 rekenen, +1 kleurplaten)
+- H3: "3000+ Afbeeldingen voor Werkbladen Kleuters - Fijne Motoriek en Rekenen Combineren" (+1 kleuters, +1 fijne motoriek)
+- H3: "Professionele 300 DPI Kwaliteit - Werkbladen Groep 3 Perfect Printen" (+1 groep 3)
+- H3: "Letters Leren en Schrijven Oefenen - Combineer met Rekenen Werkbladen" (+1 letters leren, +1 schrijven oefenen, +1 rekenen)
+
+Section 2 added: rekenen +5, groep 3 +2, kleuters +2, oefenbladen +2, kleurplaten +1, letters/schrijven +2, veilig leren lezen +1, fijne motoriek +1
+
+=== SECTION 1 (Hero) COMPLETED ===
+H2/H3 Titles in Section 1:
+- H2: "Rekenen Werkbladen Maken - Sommen tot 20 en Meer voor de Basisschool" (rekenen werkbladen +1, sommen tot 20 +1)
+- H3: "Oefenbladen Gratis Downloaden - Rekenen Werkbladen voor Elke Leeftijd" (oefenbladen gratis +1, rekenen werkbladen +1)
+- H3: "Werkbladen Groep 3 met Afbeeldingen - Visueel Rekenen voor Kinderen" (werkbladen groep 3 +1)
+- H3: "Sommen tot 20 Oefenen - Werkbladen Kleuters en Groep 1-2" (sommen tot 20 +1, werkbladen kleuters +1, groep 1-2 +1)
+
+After each section, update counts and check boxes when ≥10 reached.

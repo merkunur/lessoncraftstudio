@@ -1,0 +1,298 @@
+KEYWORD TRACKING - Find and Count / Cherche et Compte - FRENCH
+
+TARGET: Each keyword must appear MINIMUM 10 times in H2/H3 titles ONLY
+
+PRICING VERIFIED:
+- Find and Count = Core Bundle ($144/year or $15/month)
+- Will use "abonnement Core Bundle" throughout
+
+French Keywords (from keywords.txt):
+1. Fiches maternelle
+2. Exercices CP / Exercices CE1
+3. Graphisme maternelle
+4. Coloriage / Coloriage à imprimer
+5. Apprendre à lire
+6. Exercices maths / Calcul
+7. Alphabet / Apprendre les lettres
+8. Tables de multiplication
+9. Fiches à imprimer gratuit
+10. Écriture / Écriture cursive
+
+FINAL STATUS (All Sections Complete):
+[✓] 1. Fiches maternelle: 18/10 ✓ DONE
+[✓] 2. Exercices CP / Exercices CE1: 20/10 ✓ DONE
+[✓] 3. Graphisme maternelle: 12/10 ✓ DONE
+[✓] 4. Coloriage / Coloriage à imprimer: 15/10 ✓ DONE
+[✓] 5. Apprendre à lire: 11/10 ✓ DONE
+[✓] 6. Exercices maths / Calcul: 12/10 ✓ DONE
+[✓] 7. Alphabet / Apprendre les lettres: 15/10 ✓ DONE
+[✓] 8. Tables de multiplication: 10/10 ✓ DONE
+[✓] 9. Fiches à imprimer gratuit: 14/10 ✓ DONE
+[✓] 10. Écriture / Écriture cursive: 11/10 ✓ DONE
+
+★★★ ALL 10 KEYWORDS COMPLETE ★★★
+
+After each section, update counts and check boxes when ≥10 reached.
+
+---
+SECTION-BY-SECTION TRACKING:
+
+After Section 1 (Hero):
+H2: "Fiches Maternelle Cherche et Compte - L'Outil Idéal pour Exercices CP et CE1"
+- Fiches maternelle: 1
+- Exercices CP/CE1: 2
+
+H3: "Fiches à Imprimer Gratuit pour Apprendre à Compter - Exercices Maths Préscolaires"
+- Fiches à imprimer gratuit: 1
+- Exercices maths: 1
+
+H3: "Graphisme Maternelle et Coloriage à Imprimer - Fiches Éducatives Personnalisées"
+- Graphisme maternelle: 1
+- Coloriage à imprimer: 1
+
+H3: "Exercices CP et CE1 - Fiches Maternelle pour Apprendre les Lettres et l'Alphabet"
+- Exercices CP/CE1: 1
+- Fiches maternelle: 1
+- Apprendre les lettres: 1
+- Alphabet: 1
+
+H3: "Coloriage et Écriture Cursive - Activités Complémentaires aux Fiches à Imprimer"
+- Coloriage: 1
+- Écriture cursive: 1
+- Fiches à imprimer: 1
+
+SECTION 1 TOTALS: 14 keyword instances in H2/H3
+
+After Section 2 (Features):
+H2: "Fonctionnalités du Générateur - Fiches Maternelle et Exercices CP Personnalisables"
+- Fiches maternelle: 1, Exercices CP: 1
+
+H3: "Créer des Fiches à Imprimer Gratuit en 3 Clics - Exercices Maths Rapides"
+- Fiches à imprimer gratuit: 1, Exercices maths: 1
+
+H3: "Fiches Maternelle Entièrement Personnalisables - Graphisme Maternelle et Coloriage"
+- Fiches maternelle: 1, Graphisme maternelle: 1, Coloriage: 1
+
+H3: "Exercices CP avec Vos Propres Images - Fiches à Imprimer Personnalisées"
+- Exercices CP: 1, Fiches à imprimer: 1
+
+H3: "Fiches Maternelle en 11 Langues - Apprendre les Lettres de l'Alphabet International"
+- Fiches maternelle: 1, Apprendre les lettres: 1, Alphabet: 1
+
+H3: "Licence Commerciale Incluse - Fiches à Imprimer Gratuit pour Vendre"
+- Fiches à imprimer gratuit: 1
+
+H3: "Bibliothèque de 3000+ Images - Exercices CE1 et Coloriage à Imprimer Thématiques"
+- Exercices CE1: 1, Coloriage à imprimer: 1
+
+H3: "Qualité Professionnelle 300 DPI - Exercices Maths et Écriture Cursive Imprimables"
+- Exercices maths: 1, Écriture cursive: 1
+
+H3: "Grille Personnalisable - Fiches Maternelle avec Calcul et Apprendre à Lire"
+- Fiches maternelle: 1, Calcul: 1, Apprendre à lire: 1
+
+H3: "Annuler et Rétablir - Exercices CP et Graphisme Maternelle Sans Stress"
+- Exercices CP: 1, Graphisme maternelle: 1
+
+H3: "Corrigé Automatique - Fiches à Imprimer avec Réponses pour Exercices CE1"
+- Fiches à imprimer: 1, Exercices CE1: 1
+
+SECTION 2 TOTALS: 22 keyword instances in H2/H3
+
+After Section 3 (How-To):
+H2: "Comment Créer des Fiches Maternelle Cherche et Compte en 5 Étapes Simples"
+- Fiches maternelle: 1
+
+H3: "Étape 1 : Choisir Votre Thème - Fiches à Imprimer Gratuit avec Images Thématiques"
+- Fiches à imprimer gratuit: 1
+
+H3: "Sélection d'Images pour Exercices Maths et Calcul - Fiches Maternelle Numériques"
+- Exercices maths: 1, Calcul: 1, Fiches maternelle: 1
+
+H3: "Étape 2 : Configurer la Grille - Exercices CP pour Apprendre à Lire et Compter"
+- Exercices CP: 1, Apprendre à lire: 1
+
+H3: "Paramètres de Page pour Coloriage à Imprimer et Graphisme Maternelle"
+- Coloriage à imprimer: 1, Graphisme maternelle: 1
+
+H3: "Étape 3 : Générer la Fiche - Exercices CE1 et Tables de Multiplication Visuelles"
+- Exercices CE1: 1, Tables de multiplication: 1
+
+H3: "Fiches Maternelle avec Alphabet et Apprendre les Lettres par l'Image"
+- Fiches maternelle: 1, Alphabet: 1, Apprendre les lettres: 1
+
+H3: "Étape 4 : Personnaliser sur le Canevas - Écriture Cursive et Fiches à Imprimer"
+- Écriture cursive: 1, Fiches à imprimer: 1
+
+H3: "Ajouter du Texte pour Exercices Maths et Apprendre à Lire"
+- Exercices maths: 1, Apprendre à lire: 1
+
+H3: "Étape 5 : Télécharger - Coloriage et Graphisme Maternelle en PDF Haute Qualité"
+- Coloriage: 1, Graphisme maternelle: 1
+
+H3: "Fiches à Imprimer Gratuit avec Corrigé - Exercices CP Complets"
+- Fiches à imprimer gratuit: 1, Exercices CP: 1
+
+H3: "Conseils pour Fiches Maternelle Réussies - Tables de Multiplication et Calcul"
+- Fiches maternelle: 1, Tables de multiplication: 1, Calcul: 1
+
+H3: "Intégration Pédagogique - Écriture Cursive et Alphabet dans les Fiches"
+- Écriture cursive: 1, Alphabet: 1
+
+SECTION 3 TOTALS: 27 keyword instances in H2/H3
+
+After Section 4 (Use Cases):
+H2: "À Qui S'Adressent les Fiches Cherche et Compte - Enseignants, Parents et Éducateurs"
+- (no target keywords)
+
+H3: "Enseignants de Maternelle - Fiches Maternelle pour Graphisme Maternelle et Coloriage"
+- Fiches maternelle: 1, Graphisme maternelle: 1, Coloriage: 1
+
+H3: "Professeurs des Écoles CP et CE1 - Exercices Maths et Tables de Multiplication"
+- CP/CE1: 2, Exercices maths: 1, Tables de multiplication: 1
+
+H3: "Parents en Instruction à Domicile - Fiches à Imprimer Gratuit pour Apprendre à Lire"
+- Fiches à imprimer gratuit: 1, Apprendre à lire: 1
+
+H3: "Enseignants de Langues - Alphabet et Apprendre les Lettres en 11 Langues"
+- Alphabet: 1, Apprendre les lettres: 1
+
+H3: "Éducateurs Spécialisés - Écriture Cursive et Coloriage à Imprimer Adaptés"
+- Écriture cursive: 1, Coloriage à imprimer: 1
+
+H3: "Orthophonistes et Psychomotriciens - Graphisme Maternelle et Calcul Thérapeutique"
+- Graphisme maternelle: 1, Calcul: 1
+
+H3: "Entrepreneurs Éducatifs - Fiches à Imprimer pour Vendre sur Teachers Pay Teachers"
+- Fiches à imprimer: 1
+
+H3: "Animateurs Périscolaires - Coloriage et Apprendre à Lire en Activité Ludique"
+- Coloriage: 1, Apprendre à lire: 1
+
+H3: "Grands-Parents Éducateurs - Tables de Multiplication et Écriture Cursive Intergénérationnelles"
+- Tables de multiplication: 1, Écriture cursive: 1
+
+SECTION 4 TOTALS: 20 keyword instances in H2/H3
+
+After Section 5 (Subscription):
+H2: "Trois Raisons de S'Abonner - Fiches Maternelle et Exercices CP Premium"
+- Fiches maternelle: 1, Exercices CP: 1
+
+H3: "Raison 1 : Enseigner en Plusieurs Langues - Apprendre à Lire et l'Alphabet en 11 Langues"
+- Apprendre à lire: 1, Alphabet: 1
+
+H3: "Fiches Multilingues pour Apprendre les Lettres - Classes Bilingues et Internationales"
+- Apprendre les lettres: 1
+
+H3: "Programmes d'Immersion - Apprendre à Lire avec le Cherche et Compte Bilingue"
+- Apprendre à lire: 1
+
+H3: "Raison 2 : Licence Commerciale - Vendre des Fiches de Coloriage à Imprimer et Graphisme Maternelle"
+- Coloriage à imprimer: 1, Graphisme maternelle: 1
+
+H3: "Créer une Boutique de Fiches - Tables de Multiplication et Écriture Cursive à Vendre"
+- Tables de multiplication: 1, Écriture cursive: 1
+
+H3: "Qualité 300 DPI pour Impression Commerciale - Coloriage et Graphisme Maternelle Professionnels"
+- Coloriage: 1, Graphisme maternelle: 1
+
+H3: "Raison 3 : Gain de Temps - Fiches Maternelle et Exercices CP en 3 Minutes"
+- Fiches maternelle: 1, Exercices CP: 1
+
+H3: "Productivité Maximale - Tables de Multiplication et Apprendre à Lire Sans Préparation"
+- Tables de multiplication: 1, Apprendre à lire: 1
+
+H3: "Différenciation Simplifiée - Écriture Cursive et Alphabet Adaptés à Chaque Élève"
+- Écriture cursive: 1, Alphabet: 1
+
+SECTION 5 TOTALS: 18 keyword instances in H2/H3
+
+After Section 6 (FAQ):
+H2: "Questions Fréquentes sur les Fiches Cherche et Compte - Fiches Maternelle et Exercices CP"
+- Fiches maternelle: 1, Exercices CP: 1
+
+H3: "Ce Générateur de Fiches à Imprimer est-il Vraiment Gratuit ?"
+- Fiches à imprimer: 1
+
+H3: "Puis-je Imprimer les Fiches de Graphisme Maternelle à la Maison ?"
+- Graphisme maternelle: 1
+
+H3: "Faut-il des Compétences en Design pour Créer des Fiches de Tables de Multiplication ?"
+- Tables de multiplication: 1
+
+H3: "Puis-je Utiliser les Fiches pour Apprendre à Lire en Classe ?"
+- Apprendre à lire: 1
+
+H3: "En Quelles Langues Sont Disponibles les Fiches d'Alphabet et Apprendre les Lettres ?"
+- Alphabet: 1, Apprendre les lettres: 1
+
+H3: "Puis-je Vendre les Fiches d'Écriture Cursive que je Crée ?"
+- Écriture cursive: 1
+
+H3: "Comment Personnaliser les Fiches de Coloriage pour Mes Élèves ?"
+- Coloriage: 1
+
+H3: "Quels Âges Conviennent aux Fiches Maternelle Cherche et Compte ?"
+- Fiches maternelle: 1
+
+H3: "Puis-je Téléverser Mes Propres Images pour les Exercices Maths ?"
+- Exercices maths: 1
+
+H3: "Combien de Temps Faut-il pour Créer une Fiche d'Exercices CP ?"
+- Exercices CP: 1
+
+H3: "Les Fiches de Tables de Multiplication Incluent-elles un Corrigé ?"
+- Tables de multiplication: 1
+
+H3: "Puis-je Créer des Fiches sur des Sujets Scolaires Spécifiques avec Écriture Cursive ?"
+- Écriture cursive: 1
+
+H3: "Le Générateur Fonctionne-t-il pour Apprendre à Lire et le Graphisme Maternelle ?"
+- Apprendre à lire: 1, Graphisme maternelle: 1
+
+SECTION 6 TOTALS: 17 keyword instances in H2/H3
+
+After Section 7 (Combine Apps):
+H2: "Combiner Cherche et Compte avec D'Autres Générateurs - Fiches Maternelle Complètes"
+- Fiches maternelle: 1
+
+H3: "Cherche et Compte + Mots Mêlés - Fiches à Imprimer pour Apprendre à Lire"
+- Fiches à imprimer: 1, Apprendre à lire: 1
+
+H3: "Cherche et Compte + Coloriage - Séquences de Coloriage à Imprimer Thématiques"
+- Coloriage: 1, Coloriage à imprimer: 1
+
+H3: "Cherche et Compte + Fiches de Calcul - Exercices Maths et Tables de Multiplication"
+- Exercices maths: 1, Tables de multiplication: 1
+
+H3: "Cherche et Compte + Alphabet Train - Exercices CP pour Apprendre les Lettres"
+- Exercices CP: 1, Apprendre les lettres: 1
+
+H3: "Cherche et Compte + Puzzle Mathématique - Tables de Multiplication Visuelles et Ludiques"
+- Tables de multiplication: 1
+
+H3: "Cherche et Compte + Cryptogramme - Exercices CE1 et Écriture Cursive Décodage"
+- Exercices CE1: 1, Écriture cursive: 1
+
+H3: "Cherche et Compte + Tracé de Lignes - Graphisme Maternelle Complet"
+- Graphisme maternelle: 1
+
+H3: "Cherche et Compte + Mot Mystère - Fiches Maternelle Vocabulaire et Observation"
+- Fiches maternelle: 1
+
+H3: "Planifier une Semaine Complète - Exercices CP et Fiches à Imprimer Quotidiennes"
+- Exercices CP: 1, Fiches à imprimer: 1
+
+H3: "Créer des Cahiers Thématiques - Fiches Maternelle et Coloriage par Saison"
+- Fiches maternelle: 1, Coloriage: 1
+
+SECTION 7 TOTALS: 18 keyword instances in H2/H3
+
+---
+FINAL SUMMARY:
+Total H2/H3 keyword instances across all sections: 136
+All 10 French keywords achieved minimum 10 occurrences in H2/H3 titles.
+Page ready for deployment.
+
+FINAL TOTALS:
+[Will calculate after all sections complete]

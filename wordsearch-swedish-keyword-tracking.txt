@@ -1,0 +1,239 @@
+KEYWORD TRACKING - Wordsearch - Swedish
+
+TARGET: Each keyword must appear MINIMUM 10 times in H2/H3 titles ONLY
+
+Swedish Keywords (from keywords.txt lines 444-456):
+1. Arbetsblad gratis (Free worksheets)
+2. Målarbilder barn (Coloring pages for children)
+3. Bokstäver lära sig / Skriva bokstäver (Learning letters / Writing letters)
+4. Matematik arbetsblad / Matte övningar (Math worksheets / Math exercises)
+5. Multiplikationstabellen (Multiplication tables)
+6. Siffror och tal (Numbers and digits)
+7. Finmotorik övningar (Fine motor skill exercises)
+8. Klockan lära sig (Learning to tell time)
+9. Förskoleklass material (Preschool class materials)
+10. Addition och subtraktion (Addition and subtraction)
+
+Current Status:
+[ ] 1. Arbetsblad gratis: 0/10
+[ ] 2. Målarbilder barn: 0/10
+[ ] 3. Bokstäver lära sig / Skriva bokstäver: 0/10
+[ ] 4. Matematik arbetsblad / Matte övningar: 0/10
+[ ] 5. Multiplikationstabellen: 0/10
+[ ] 6. Siffror och tal: 0/10
+[ ] 7. Finmotorik övningar: 0/10
+[ ] 8. Klockan lära sig: 0/10
+[ ] 9. Förskoleklass material: 0/10
+[ ] 10. Addition och subtraktion: 0/10
+
+After each section, update counts and check boxes when ≥10 reached.
+
+===================
+SECTION TRACKING
+===================
+
+SECTION 1 (Hero):
+Note: Section 1 contains only H1 title, no H2/H3 subsections
+H1 includes keywords: "Gratis", "Arbetsblad Gratis", "Förskoleklass"
+H2/H3 keyword counts for Section 1: All 0 (no H2/H3 in Hero section)
+
+Running totals after Section 1:
+[ ] 1. Arbetsblad gratis: 0/10 (H1 only, not counted)
+[ ] 2. Målarbilder barn: 0/10
+[ ] 3. Bokstäver lära sig / Skriva bokstäver: 0/10
+[ ] 4. Matematik arbetsblad / Matte övningar: 0/10
+[ ] 5. Multiplikationstabellen: 0/10
+[ ] 6. Siffror och tal: 0/10
+[ ] 7. Finmotorik övningar: 0/10
+[ ] 8. Klockan lära sig: 0/10
+[ ] 9. Förskoleklass material: 0/10 (H1 only, not counted)
+[ ] 10. Addition och subtraktion: 0/10
+
+SECTION 2 (Features):
+H2 + 7 H3 subsections = 8 total title tags
+
+Keyword counts in Section 2 H2/H3 titles:
+- Arbetsblad gratis: 4 (H2, H3-1, H3-3, H3-5)
+- Målarbilder barn: 1 (H3-6)
+- Bokstäver lära sig / Skriva bokstäver: 3 (H3-2: "Bokstäver Lära Sig", H3-4: both variants)
+- Matematik arbetsblad / Matte övningar: 5 (H2, H3-2, H3-3, H3-7: both variants)
+- Förskoleklass material: 3 (H2, H3-1, H3-6)
+- Multiplikationstabellen: 0
+- Siffror och tal: 0
+- Finmotorik övningar: 0
+- Klockan lära sig: 0
+- Addition och subtraktion: 0
+
+Running totals after Section 2:
+[ ] 1. Arbetsblad gratis: 4/10
+[ ] 2. Målarbilder barn: 1/10
+[ ] 3. Bokstäver lära sig / Skriva bokstäver: 3/10
+[ ] 4. Matematik arbetsblad / Matte övningar: 5/10
+[ ] 5. Multiplikationstabellen: 0/10 ⚠️ NEEDS ATTENTION
+[ ] 6. Siffror och tal: 0/10 ⚠️ NEEDS ATTENTION
+[ ] 7. Finmotorik övningar: 0/10 ⚠️ NEEDS ATTENTION
+[ ] 8. Klockan lära sig: 0/10 ⚠️ NEEDS ATTENTION
+[ ] 9. Förskoleklass material: 3/10
+[ ] 10. Addition och subtraktion: 0/10 ⚠️ NEEDS ATTENTION
+
+SECTION 3 (How-To):
+H2 + 5 H3 subsections = 6 total title tags
+
+Keyword counts in Section 3 H2/H3 titles:
+- Arbetsblad gratis: 4 (H2, H3-2, H3-4, H3-5)
+- Målarbilder barn: 1 (H3-4)
+- Bokstäver lära sig: 1 (H3-3)
+- Matematik arbetsblad / Matte övningar: 3 (H2, H3-2, H3-3)
+- Multiplikationstabellen: 2 (H3-1, H3-3)
+- Siffror och tal: 1 (H3-1)
+- Finmotorik övningar: 1 (H3-4)
+- Klockan lära sig: 1 (H3-5)
+- Förskoleklass material: 2 (H2, H3-2)
+- Addition och subtraktion: 2 (H3-1, H3-5)
+
+Running totals after Section 3:
+[ ] 1. Arbetsblad gratis: 8/10 (80% - almost there!)
+[ ] 2. Målarbilder barn: 2/10
+[ ] 3. Bokstäver lära sig / Skriva bokstäver: 4/10
+[ ] 4. Matematik arbetsblad / Matte övningar: 8/10 (80% - almost there!)
+[ ] 5. Multiplikationstabellen: 2/10
+[ ] 6. Siffror och tal: 1/10
+[ ] 7. Finmotorik övningar: 1/10
+[ ] 8. Klockan lära sig: 1/10
+[ ] 9. Förskoleklass material: 5/10 (50% - halfway)
+[ ] 10. Addition och subtraktion: 2/10
+
+SECTION 4 (Use Cases):
+H2 + 6 H3 subsections = 7 total title tags
+
+Keyword counts in Section 4 H2/H3 titles:
+- Arbetsblad gratis: 5 (H2, H3-1, H3-3, H3-5, H3-6)
+- Målarbilder barn: 1 (H3-5)
+- Bokstäver lära sig: 1 (H3-3)
+- Matematik arbetsblad: 2 (H2, H3-2)
+- Multiplikationstabellen: 1 (H3-2)
+- Siffror och tal: 2 (H3-3, H3-4)
+- Finmotorik övningar: 2 (H3-1, H3-5)
+- Klockan lära sig: 1 (H3-4)
+- Förskoleklass material: 2 (H2, H3-1)
+- Addition och subtraktion: 1 (H3-2)
+
+Running totals after Section 4:
+[✓] 1. Arbetsblad gratis: 13/10 ✓ COMPLETE! (130%)
+[ ] 2. Målarbilder barn: 3/10 (need 7 more)
+[ ] 3. Bokstäver lära sig / Skriva bokstäver: 5/10 (50%)
+[✓] 4. Matematik arbetsblad / Matte övningar: 10/10 ✓ COMPLETE! (100%)
+[ ] 5. Multiplikationstabellen: 3/10 (need 7 more)
+[ ] 6. Siffror och tal: 3/10 (need 7 more)
+[ ] 7. Finmotorik övningar: 3/10 (need 7 more)
+[ ] 8. Klockan lära sig: 2/10 (need 8 more)
+[ ] 9. Förskoleklass material: 7/10 (70%)
+[ ] 10. Addition och subtraktion: 3/10 (need 7 more)
+
+SECTION 5 (Subscription):
+H2 + 3 H3 subsections = 4 total title tags
+
+Keyword counts in Section 5 H2/H3 titles:
+- Förskoleklass material: 2 (H2, H3-3)
+- Multiplikationstabellen: 2 (H2, H3-2)
+- Bokstäver lära sig: 2 (H3-1, H3-3)
+- Siffror och tal: 1 (H3-1)
+- Addition och subtraktion: 1 (H3-2)
+- Arbetsblad gratis: 0
+- Målarbilder barn: 0
+- Matematik arbetsblad: 0
+- Finmotorik övningar: 0
+- Klockan lära sig: 0
+
+Running totals after Section 5:
+[✓] 1. Arbetsblad gratis: 13/10 ✓ COMPLETE!
+[ ] 2. Målarbilder barn: 3/10 (need 7 more) ⚠️ CRITICAL
+[ ] 3. Bokstäver lära sig / Skriva bokstäver: 7/10 (need 3 more)
+[✓] 4. Matematik arbetsblad / Matte övningar: 10/10 ✓ COMPLETE!
+[ ] 5. Multiplikationstabellen: 5/10 (50% - need 5 more)
+[ ] 6. Siffror och tal: 4/10 (need 6 more)
+[ ] 7. Finmotorik övningar: 3/10 (need 7 more) ⚠️ CRITICAL
+[ ] 8. Klockan lära sig: 2/10 (need 8 more) ⚠️ CRITICAL
+[ ] 9. Förskoleklass material: 9/10 (90% - need just 1 more!)
+[ ] 10. Addition och subtraktion: 4/10 (need 6 more)
+
+SECTION 6 (FAQ):
+H2 + 12 H3 subsections = 13 total title tags
+
+Keyword counts in Section 6 H2/H3 titles:
+- Arbetsblad gratis: 1 (H2)
+- Målarbilder barn: 4 (H3-1, H3-5, H3-8, H3-12)
+- Bokstäver lära sig: 2 (H3-4, H3-9)
+- Multiplikationstabellen: 4 (H2, H3-3, H3-6, H3-10)
+- Siffror och tal: 2 (H3-4, H3-9)
+- Finmotorik övningar: 3 (H3-2, H3-5, H3-7)
+- Klockan lära sig: 3 (H3-2, H3-6, H3-10)
+- Förskoleklass material: 5 (H2, H3-1, H3-8, H3-12)
+- Addition och subtraktion: 3 (H3-3, H3-7, H3-11)
+- Matematik arbetsblad: 0
+
+Running totals after Section 6:
+[✓] 1. Arbetsblad gratis: 14/10 ✓ COMPLETE! (140%)
+[✓] 2. Målarbilder barn: 7/10 (70% - need 3 more)
+[✓] 3. Bokstäver lära sig / Skriva bokstäver: 9/10 (90% - need 1 more!)
+[✓] 4. Matematik arbetsblad / Matte övningar: 10/10 ✓ COMPLETE!
+[✓] 5. Multiplikationstabellen: 9/10 (90% - need 1 more!)
+[✓] 6. Siffror och tal: 6/10 (60% - need 4 more)
+[✓] 7. Finmotorik övningar: 6/10 (60% - need 4 more)
+[✓] 8. Klockan lära sig: 5/10 (50% - need 5 more)
+[✓] 9. Förskoleklass material: 14/10 ✓ COMPLETE! (140%)
+[✓] 10. Addition och subtraktion: 7/10 (70% - need 3 more)
+
+SECTION 7 (Combine Apps):
+H2 + 5 H3 subsections = 6 total title tags
+
+Keyword counts in Section 7 H2/H3 titles:
+- Arbetsblad gratis: 1 (H2)
+- Målarbilder barn: 3 (H2, H3-2, H3-5)
+- Bokstäver lära sig: 1 (H3-2)
+- Matte övningar: 1 (H3-1)
+- Multiplikationstabellen: 1 (H3-1)
+- Siffror och tal: 4 (H2, H3-1, H3-2, H3-4)
+- Finmotorik övningar: 4 (H2, H3-2, H3-3, H3-5) ✓ FIXED!
+- Klockan lära sig: 5 (H2, H3-1, H3-3, H3-4, H3-5)
+- Förskoleklass material: 1 (H2)
+- Addition och subtraktion: 3 (H3-1, H3-4, H3-5)
+
+Running totals after Section 7:
+[✓] 1. Arbetsblad gratis: 15/10 ✓ COMPLETE! (150%)
+[✓] 2. Målarbilder barn: 10/10 ✓ COMPLETE! (100%)
+[✓] 3. Bokstäver lära sig / Skriva bokstäver: 10/10 ✓ COMPLETE! (100%)
+[✓] 4. Matematik arbetsblad / Matte övningar: 11/10 ✓ COMPLETE! (110%)
+[✓] 5. Multiplikationstabellen: 10/10 ✓ COMPLETE! (100%)
+[✓] 6. Siffror och tal: 10/10 ✓ COMPLETE! (100%)
+[✓] 7. Finmotorik övningar: 10/10 ✓ COMPLETE! (100%) - FIXED!
+[✓] 8. Klockan lära sig: 10/10 ✓ COMPLETE! (100%)
+[✓] 9. Förskoleklass material: 15/10 ✓ COMPLETE! (150%)
+[✓] 10. Addition och subtraktion: 10/10 ✓ COMPLETE! (100%)
+
+===================
+FINAL TOTALS
+===================
+
+TOTAL H2/H3 TITLE TAGS ACROSS ALL 7 SECTIONS: 45
+
+KEYWORD VERIFICATION STATUS:
+[✓] 1. Arbetsblad gratis: 15/10 ✓ (150% - EXCELLENT)
+[✓] 2. Målarbilder barn: 10/10 ✓ (100% - PERFECT)
+[✓] 3. Bokstäver lära sig / Skriva bokstäver: 10/10 ✓ (100% - PERFECT)
+[✓] 4. Matematik arbetsblad / Matte övningar: 11/10 ✓ (110% - EXCELLENT)
+[✓] 5. Multiplikationstabellen: 10/10 ✓ (100% - PERFECT)
+[✓] 6. Siffror och tal: 10/10 ✓ (100% - PERFECT)
+[✓] 7. Finmotorik övningar: 10/10 ✓ (100% - PERFECT) ✅ FIXED!
+[✓] 8. Klockan lära sig: 10/10 ✓ (100% - PERFECT)
+[✓] 9. Förskoleklass material: 15/10 ✓ (150% - EXCELLENT)
+[✓] 10. Addition och subtraktion: 10/10 ✓ (100% - PERFECT)
+
+🎉 OVERALL STATUS: ALL 10 KEYWORDS PASSED! ✓✓✓
+
+TOTAL KEYWORD OCCURRENCES IN H2/H3 TITLES: 111
+AVERAGE PER KEYWORD: 11.1 occurrences
+MINIMUM REQUIREMENT: 10 occurrences per keyword
+
+SEO COMPLIANCE: ✅ FULLY COMPLIANT
+All Swedish keywords meet or exceed the minimum 10 occurrences in H2/H3 titles.

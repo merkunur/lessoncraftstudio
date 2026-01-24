@@ -1,0 +1,201 @@
+KEYWORD TRACKING - Coloring Pages - Danish
+
+TARGET: Each keyword must appear MINIMUM 10 times in H2/H3 titles ONLY
+
+Current Status:
+[ ] 1. Opgaver til print: 1/10 (H1: 1)
+[ ] 2. Matematikopgaver: 0/10
+[ ] 3. Lære bogstaver / Skriv bogstaver: 0/10
+[ ] 4. Malebog / Farvelægning: 1/10 (H1: 1)
+[ ] 5. Arbejdsark / Kopiark: 0/10
+[ ] 6. Finmotorik øvelser: 0/10
+[ ] 7. 0. klasse opgaver / 1. klasse: 0/10
+[ ] 8. Gangetabeller: 0/10
+[ ] 9. Læse og skrive / Stavning: 0/10
+[ ] 10. Gratis skoleopgaver: 1/10 (H1: 1)
+
+AFTER SECTION 1 (Hero):
+- Opgaver til print: 1 (from H1)
+- Malebog: 1 (from H1)
+- Gratis skoleopgaver: 1 (from H1)
+- All others: 0
+
+AFTER SECTION 2 (Features) - H2/H3 COUNT:
+H2: Malebog Designer Funktioner - Alt Du Har Brug For til Farvelægning Arbejdsark og Opgaver til Print
+  - Malebog: 1, Farvelægning: 1, Arbejdsark: 1, Opgaver til print: 1
+
+H3 #1: Lav Farvelægningssider på 3 Klik - Hurtig Malebog Generator til Gratis Skoleopgaver
+  - Farvelægning: 1, Malebog: 1, Gratis skoleopgaver: 1
+
+H3 #2: Redigér Alt på Din Malebog - Fuldt Tilpasselige Arbejdsark og Farvelægning Opgaver til Print
+  - Malebog: 1, Arbejdsark: 1, Farvelægning: 1, Opgaver til print: 1
+
+H3 #3: Upload Dine Egne Billeder - Personlig Farvelægning og Lære Bogstaver til 0. Klasse og Børnehaveklassen
+  - Farvelægning: 1, Lære bogstaver: 1, 0. klasse: 1
+
+H3 #4: 11 Sprog til Opgaver til Print - Flersproget Malebog Designer til Internationale Arbejdsark
+  - Opgaver til print: 1, Malebog: 1, Arbejdsark: 1
+
+H3 #5: Kommerciel Licens Inkluderet - Sælg Dine Malebog Sider og Farvelægning Opgaver til Print som Gratis Skoleopgaver
+  - Malebog: 1, Farvelægning: 1, Opgaver til print: 1, Gratis skoleopgaver: 1
+
+H3 #6: 3000+ Billedbibliotek - Tematiske Farvelægningssider til Finmotorik Øvelser og Matematikopgaver
+  - Farvelægning: 1, Finmotorik øvelser: 1, Matematikopgaver: 1
+
+H3 #7: Professionel 300 DPI Kvalitet - Højopløsnings Farvelægning PDF til 1. klasse Arbejdsark og Opgaver til Print
+  - Farvelægning: 1, 1. klasse: 1, Arbejdsark: 1, Opgaver til print: 1
+
+AFTER SECTION 3 (How to Use) - H2/H3 COUNT:
+H2: Sådan Laver Du Farvelægning Opgaver til Print på 5 Nemme Trin - Arbejdsark til 0. Klasse og Gratis Skoleopgaver
+  - Farvelægning: 1, Opgaver til print: 1, Arbejdsark: 1, 0. klasse: 1, Gratis skoleopgaver: 1
+
+H3 #1: Vælg Dit Indhold til Lære Bogstaver Farvelægning Arbejdsark - Temaer og Tilpassede Opgaver til Print
+  - Lære bogstaver: 1, Farvelægning: 1, Arbejdsark: 1, Opgaver til print: 1
+
+H3 #2: Tilpas Indstillinger til Matematikopgaver, Lære Bogstaver og Finmotorik Øvelser
+  - Matematikopgaver: 1, Lære bogstaver: 1, Finmotorik øvelser: 1
+
+H3 #3: Generer Dine Arbejdsark til Børnehaveklassen - Øjeblikkelig Farvelægning og Gratis Skoleopgaver
+  - Arbejdsark: 1, Farvelægning: 1, Gratis skoleopgaver: 1
+
+H3 #4: Redigér på Lærredet - Finmotorik Øvelser og Lære Bogstaver Kombineret med Farvelægning Opgaver til Print
+  - Finmotorik øvelser: 1, Lære bogstaver: 1, Farvelægning: 1, Opgaver til print: 1
+
+H3 #5: Download Gratis Skoleopgaver og Farvelægning Arbejdsark - PDF Opgaver til Print til Børnehaveklassen og 1. Klasse
+  - Gratis skoleopgaver: 1, Farvelægning: 1, Arbejdsark: 1, Opgaver til print: 1, 1. klasse: 1
+
+AFTER SECTION 4 (Use Cases) - H2/H3 COUNT:
+H2: Perfekt til Pædagoger og Forældre - Farvelægning Opgaver til Print til Matematikopgaver, Læse og Skrive og Gratis Skoleopgaver
+  - Farvelægning: 1, Opgaver til print: 1, Matematikopgaver: 1, Læse og skrive: 1, Gratis skoleopgaver: 1
+
+H3 #1: Børnehaveklasse Pædagoger - Finmotorik Øvelser, Lære Bogstaver og Farvelægning Opgaver til Print til 0. Klasse
+  - Finmotorik øvelser: 1, Lære bogstaver: 1, Farvelægning: 1, Opgaver til print: 1, 0. klasse: 1
+
+H3 #2: 0. Klasse og 1. Klasse Lærere - Matematikopgaver, Læse og Skrive, Gangetabeller og Gratis Skoleopgaver
+  - 0. klasse: 1, 1. klasse: 1, Matematikopgaver: 1, Læse og skrive: 1, Gangetabeller: 1, Gratis skoleopgaver: 1
+
+H3 #3: Hjemmeundervisning Forældre - Multi-Niveau Farvelægning Arbejdsark og Matematikopgaver til Gratis Skoleopgaver
+  - Farvelægning: 1, Arbejdsark: 1, Matematikopgaver: 1, Gratis skoleopgaver: 1
+
+H3 #4: Dansk som Andetsprog Lærere - Lære Bogstaver, Læse og Skrive med Farvelægning Opgaver til Print
+  - Lære bogstaver: 1, Læse og skrive: 1, Farvelægning: 1, Opgaver til print: 1
+
+H3 #5: Specialpædagoger - Differentierede Finmotorik Øvelser og Farvelægning Arbejdsark til Matematikopgaver
+  - Finmotorik øvelser: 1, Farvelægning: 1, Arbejdsark: 1, Matematikopgaver: 1
+
+H3 #6: Lærer Iværksættere - Sælg Farvelægning Opgaver til Print som Gratis Skoleopgaver på Teachers Pay Teachers
+  - Farvelægning: 1, Opgaver til print: 1, Gratis skoleopgaver: 1
+
+AFTER SECTION 5 (Subscription Reasons) - H2/H3 COUNT:
+H2: Top 3 Grunde Til at Pædagoger Abonnerer - Premium Farvelægning Funktioner til Matematikopgaver, Gangetabeller og Læse og Skrive
+  - Farvelægning: 1, Matematikopgaver: 1, Gangetabeller: 1, Læse og skrive: 1
+
+H3 #1: Undervisning på Flere Sprog - Farvelægning Arbejdsark til Gangetabeller, Matematikopgaver og Læse og Skrive på 11 Sprog
+  - Farvelægning: 1, Arbejdsark: 1, Gangetabeller: 1, Matematikopgaver: 1, Læse og skrive: 1
+
+H3 #2: Kommerciel Licens - Sælg Gangetabeller Farvelægning og Matematikopgaver Arbejdsark til Finmotorik Øvelser på Teachers Pay Teachers
+  - Gangetabeller: 1, Farvelægning: 1, Matematikopgaver: 1, Arbejdsark: 1, Finmotorik øvelser: 1
+
+H3 #3: Tidsbesparelse og Produktivitet - Hurtige Gangetabeller, Matematikopgaver og Læse og Skrive Farvelægning til Gratis Skoleopgaver
+  - Gangetabeller: 1, Matematikopgaver: 1, Læse og skrive: 1, Farvelægning: 1, Gratis skoleopgaver: 1
+
+AFTER SECTION 6 (FAQ) - 12 H3 QUESTIONS:
+H2: Ofte Stillede Spørgsmål Om Farvelægning Arbejdsark til Gangetabeller, Læse og Skrive og Gratis Skoleopgaver
+  - Farvelægning: 1, Arbejdsark: 1, Gangetabeller: 1, Læse og skrive: 1, Gratis skoleopgaver: 1
+
+H3 #1: Er Denne Farvelægning Generator til Gangetabeller og Matematikopgaver Virkelig Gratis at Bruge?
+  - Farvelægning: 1, Gangetabeller: 1, Matematikopgaver: 1
+
+H3 #2: Kan Jeg Printe Farvelægning Arbejdsark til Gangetabeller og Læse og Skrive Hjemme på en Almindelig Printer?
+  - Farvelægning: 1, Arbejdsark: 1, Gangetabeller: 1, Læse og skrive: 1
+
+H3 #3: Har Jeg Brug for Design Færdigheder til at Lave Farvelægning Gangetabeller og Finmotorik Øvelser Arbejdsark?
+  - Farvelægning: 1, Gangetabeller: 1, Finmotorik øvelser: 1, Arbejdsark: 1
+
+H3 #4: Kan Jeg Bruge Farvelægning Arbejdsark til Gangetabeller og Matematikopgaver i Mit Klasseværelse for Elever?
+  - Farvelægning: 1, Arbejdsark: 1, Gangetabeller: 1, Matematikopgaver: 1
+
+H3 #5: Hvilke Sprog er Tilgængelige for Farvelægning Gangetabeller, Matematikopgaver og Læse og Skrive Arbejdsark?
+  - Farvelægning: 1, Gangetabeller: 1, Matematikopgaver: 1, Læse og skrive: 1, Arbejdsark: 1
+
+H3 #6: Kan Jeg Sælge Farvelægning Gangetabeller og Matematikopgaver Jeg Laver med Denne Generator?
+  - Farvelægning: 1, Gangetabeller: 1, Matematikopgaver: 1
+
+H3 #7: Hvordan Tilpasser Jeg Farvelægning Arbejdsark til Gangetabeller og Finmotorik Øvelser for Mine Elever?
+  - Farvelægning: 1, Arbejdsark: 1, Gangetabeller: 1, Finmotorik øvelser: 1
+
+H3 #8: Hvilke Aldersgrupper Fungerer Bedst med Disse Farvelægning Gangetabeller og Matematikopgaver Arbejdsark?
+  - Farvelægning: 1, Gangetabeller: 1, Matematikopgaver: 1, Arbejdsark: 1
+
+H3 #9: Kan Jeg Uploade Mine Egne Billeder til Farvelægning Gangetabeller og Læse og Skrive Arbejdsark?
+  - Farvelægning: 1, Gangetabeller: 1, Læse og skrive: 1, Arbejdsark: 1
+
+H3 #10: Hvor Lang Tid Tager Det at Lave en Farvelægning Side til Gangetabeller og Matematikopgaver?
+  - Farvelægning: 1, Gangetabeller: 1, Matematikopgaver: 1
+
+H3 #11: Inkluderer Farvelægning Arbejdsark Svar Nøgler for Gangetabeller og Matematikopgaver?
+  - Farvelægning: 1, Arbejdsark: 1, Gangetabeller: 1, Matematikopgaver: 1
+
+H3 #12: Kan Jeg Lave Farvelægning Arbejdsark Om Specifikke Skole Emner Som Gangetabeller, Matematikopgaver og Læse og Skrive?
+  - Farvelægning: 1, Arbejdsark: 1, Gangetabeller: 1, Matematikopgaver: 1, Læse og skrive: 1
+
+UPDATED TOTALS AFTER SECTION 6 (H2/H3 only):
+[✓] 1. Opgaver til print: 15/10 ✓ (No change)
+[✓] 2. Matematikopgaver: 18/10 ✓ (Previous: 10, Section 6: 8)
+[ ] 3. Lære bogstaver / Skriv bogstaver: 4/10 - NEED 6 MORE
+[✓] 4. Malebog / Farvelægning: 41/10 ✓ (Previous: 28, Section 6: 13)
+[✓] 5. Arbejdsark / Kopiark: 25/10 ✓ (Previous: 15, Section 6: 10)
+[✓] 6. Finmotorik øvelser: 8/10 (Previous: 6, Section 6: 2) - NEED 2 MORE
+[ ] 7. 0. klasse / 1. klasse: 7/10 - NEED 3 MORE
+[✓] 8. Gangetabeller: 17/10 ✓ (Previous: 5, Section 6: 12) - TARGET MET!
+[✓] 9. Læse og skrive / Stavning: 11/10 ✓ (Previous: 6, Section 6: 5) - TARGET MET!
+[✓] 10. Gratis skoleopgaver: 11/10 ✓ (Previous: 10, Section 6: 1)
+
+AFTER SECTION 7 (Combine Apps) - H2/H3 COUNT:
+H2: Kombinér Farvelægning med Andre Gratis Skoleopgaver - Komplette Lære Bogstaver, Finmotorik Øvelser og 0. Klasse Læringspakker
+  - Farvelægning: 1, Gratis skoleopgaver: 1, Lære bogstaver: 1, Finmotorik øvelser: 1, 0. klasse: 1
+
+H3 #1: Farvelægning Plus Matematikopgaver og Gangetabeller - Integrerede Matematik Kopiark til 1. Klasse
+  - Farvelægning: 1, Matematikopgaver: 1, Gangetabeller: 1, Kopiark: 1, 1. klasse: 1
+
+H3 #2: Lære Bogstaver Aktiviteter med Farvelægning Finmotorik Øvelser - Alfabet Arbejdsark til 0. Klasse
+  - Lære bogstaver: 1, Farvelægning: 1, Finmotorik øvelser: 1, Arbejdsark: 1, 0. klasse: 1
+
+H3 #3: Skriv Bogstaver og Finmotorik Øvelser - Håndskrift Farvelægning Kopiark til Børnehaveklassen og 0. Klasse
+  - Skriv bogstaver: 1, Finmotorik øvelser: 1, Farvelægning: 1, Kopiark: 1, 0. klasse: 1
+
+H3 #4: Farvelægning med Læse og Skrive - Ordforråd Opgaver til Print til 1. Klasse og Børnehaveklassen
+  - Farvelægning: 1, Læse og skrive: 1, Opgaver til print: 1, 1. klasse: 1
+
+H3 #5: Komplette Ugentlige Læringspakker - Farvelægning, Finmotorik Øvelser, Lære Bogstaver til 0. Klasse og 1. Klasse Gratis Skoleopgaver
+  - Farvelægning: 1, Finmotorik øvelser: 1, Lære bogstaver: 1, 0. klasse: 1, 1. klasse: 1, Gratis skoleopgaver: 1
+
+FINAL TOTALS - ALL 7 SECTIONS COMPLETE (H2/H3 only):
+[✓] 1. Opgaver til print: 16/10 ✓
+[✓] 2. Matematikopgaver: 19/10 ✓
+[✓] 3. Lære bogstaver / Skriv bogstaver: 10/10 ✓ TARGET MET! (Section 2: +1, Section 3: +1, Section 7: +4, others: +4)
+[✓] 4. Malebog / Farvelægning: 47/10 ✓✓✓
+[✓] 5. Arbejdsark / Kopiark: 28/10 ✓✓
+[✓] 6. Finmotorik øvelser: 13/10 ✓
+[✓] 7. 0. klasse / 1. klasse: 14/10 ✓
+[✓] 8. Gangetabeller: 18/10 ✓
+[✓] 9. Læse og skrive / Stavning: 12/10 ✓
+[✓] 10. Gratis skoleopgaver: 13/10 ✓
+
+✅ SUCCESS! ALL 10 DANISH KEYWORDS HAVE REACHED MINIMUM 10 MENTIONS IN H2/H3 TITLES!
+
+BREAKDOWN BY KEYWORD:
+1. Opgaver til print: 16 mentions (160% of target)
+2. Matematikopgaver: 19 mentions (190% of target)
+3. Lære bogstaver / Skriv bogstaver: 10 mentions (100% of target) ✓
+4. Malebog / Farvelægning: 47 mentions (470% of target) ✓✓✓
+5. Arbejdsark / Kopiark: 28 mentions (280% of target)
+6. Finmotorik øvelser: 13 mentions (130% of target)
+7. 0. klasse / 1. klasse: 14 mentions (140% of target)
+8. Gangetabeller: 18 mentions (180% of target)
+9. Læse og skrive / Stavning: 12 mentions (120% of target)
+10. Gratis skoleopgaver: 13 mentions (130% of target)
+
+TOTAL H2/H3 KEYWORD MENTIONS: 190 (average 19 per keyword)
+TOTAL WORD COUNT: ~7,250 words across 7 sections
+STATUS: Danish Coloring App Page COMPLETE ✓

@@ -1,0 +1,183 @@
+KEYWORD TRACKING - Draw and Color App - Dutch
+
+TARGET: Each keyword must appear MINIMUM 10 times in H2/H3 titles ONLY
+
+PRICING: Full Access ($240/year or $25/month)
+
+Current Status:
+[ ] 1. Werkbladen groep 3: 0/10
+[ ] 2. Werkbladen kleuters / Groep 1 2: 0/10
+[ ] 3. Rekenen werkbladen: 0/10
+[ ] 4. Kleurplaten: 0/10
+[ ] 5. Letters leren / Schrijven oefenen: 0/10
+[ ] 6. Oefenbladen gratis: 0/10
+[ ] 7. Tafels oefenen: 0/10
+[ ] 8. Veilig leren lezen: 0/10
+[ ] 9. Fijne motoriek: 0/10
+[ ] 10. Sommen tot 20: 0/10
+
+After each section, update counts and check boxes when ≥10 reached.
+
+---
+
+Section 1 (Hero) Keywords in H2/H3:
+- Werkbladen groep 3: 1
+- Werkbladen kleuters / Groep 1 2: 3
+- Rekenen werkbladen: 1
+- Kleurplaten: 0
+- Letters leren / Schrijven oefenen: 2
+- Oefenbladen gratis: 2
+- Tafels oefenen: 0
+- Veilig leren lezen: 0
+- Fijne motoriek: 1
+- Sommen tot 20: 1
+
+RUNNING TOTALS AFTER SECTION 1:
+[ ] 1. Werkbladen groep 3: 1/10
+[ ] 2. Werkbladen kleuters / Groep 1 2: 3/10
+[ ] 3. Rekenen werkbladen: 1/10
+[ ] 4. Kleurplaten: 0/10 ⚠️
+[ ] 5. Letters leren / Schrijven oefenen: 2/10
+[ ] 6. Oefenbladen gratis: 2/10
+[ ] 7. Tafels oefenen: 0/10 ⚠️
+[ ] 8. Veilig leren lezen: 0/10 ⚠️
+[ ] 9. Fijne motoriek: 1/10
+[ ] 10. Sommen tot 20: 1/10
+
+---
+
+Section 2 (Features) Keywords in H2/H3:
+- Werkbladen groep 3: 3
+- Werkbladen kleuters / Groep 1 2: 2
+- Rekenen werkbladen: 1
+- Kleurplaten: 3
+- Letters leren / Schrijven oefenen: 3
+- Oefenbladen gratis: 2
+- Tafels oefenen: 1
+- Veilig leren lezen: 2
+- Fijne motoriek: 2
+- Sommen tot 20: 1
+
+RUNNING TOTALS AFTER SECTION 2:
+[ ] 1. Werkbladen groep 3: 4/10
+[ ] 2. Werkbladen kleuters / Groep 1 2: 5/10
+[ ] 3. Rekenen werkbladen: 2/10
+[ ] 4. Kleurplaten: 3/10
+[ ] 5. Letters leren / Schrijven oefenen: 5/10
+[ ] 6. Oefenbladen gratis: 4/10
+[ ] 7. Tafels oefenen: 1/10
+[ ] 8. Veilig leren lezen: 2/10
+[ ] 9. Fijne motoriek: 3/10
+[ ] 10. Sommen tot 20: 2/10
+
+---
+
+Section 3 (How-To) Keywords in H2/H3:
+- Werkbladen groep 3: 2
+- Werkbladen kleuters / Groep 1 2: 3
+- Rekenen werkbladen: 2
+- Kleurplaten: 3
+- Letters leren / Schrijven oefenen: 3
+- Oefenbladen gratis: 2
+- Tafels oefenen: 2
+- Veilig leren lezen: 2
+- Fijne motoriek: 3
+- Sommen tot 20: 2
+
+RUNNING TOTALS AFTER SECTION 3:
+[ ] 1. Werkbladen groep 3: 6/10
+[ ] 2. Werkbladen kleuters / Groep 1 2: 8/10
+[ ] 3. Rekenen werkbladen: 4/10
+[ ] 4. Kleurplaten: 6/10
+[ ] 5. Letters leren / Schrijven oefenen: 8/10
+[ ] 6. Oefenbladen gratis: 6/10
+[ ] 7. Tafels oefenen: 3/10
+[ ] 8. Veilig leren lezen: 4/10
+[ ] 9. Fijne motoriek: 6/10
+[ ] 10. Sommen tot 20: 4/10
+
+---
+
+Section 4 (Use Cases) Keywords in H2/H3:
+- Werkbladen groep 3: 3
+- Werkbladen kleuters / Groep 1 2: 4
+- Rekenen werkbladen: 2
+- Kleurplaten: 3
+- Letters leren / Schrijven oefenen: 3
+- Oefenbladen gratis: 2
+- Tafels oefenen: 3
+- Veilig leren lezen: 2
+- Fijne motoriek: 2
+- Sommen tot 20: 2
+
+RUNNING TOTALS AFTER SECTION 4:
+[ ] 1. Werkbladen groep 3: 9/10
+[✓] 2. Werkbladen kleuters / Groep 1 2: 12/10 ✓
+[ ] 3. Rekenen werkbladen: 6/10
+[ ] 4. Kleurplaten: 9/10
+[✓] 5. Letters leren / Schrijven oefenen: 11/10 ✓
+[ ] 6. Oefenbladen gratis: 8/10
+[ ] 7. Tafels oefenen: 6/10
+[ ] 8. Veilig leren lezen: 6/10
+[ ] 9. Fijne motoriek: 8/10
+[ ] 10. Sommen tot 20: 6/10
+
+---
+
+Section 5 (Subscription Reasons) Keywords in H2/H3:
+- Werkbladen groep 3: 1
+- Werkbladen kleuters / Groep 1 2: 1
+- Rekenen werkbladen: 2
+- Kleurplaten: 3
+- Letters leren / Schrijven oefenen: 0
+- Oefenbladen gratis: 2
+- Tafels oefenen: 2
+- Veilig leren lezen: 3
+- Fijne motoriek: 2
+- Sommen tot 20: 2
+
+RUNNING TOTALS AFTER SECTION 5:
+[✓] 1. Werkbladen groep 3: 10/10 ✓
+[✓] 2. Werkbladen kleuters / Groep 1 2: 13/10 ✓
+[ ] 3. Rekenen werkbladen: 8/10
+[✓] 4. Kleurplaten: 12/10 ✓
+[✓] 5. Letters leren / Schrijven oefenen: 11/10 ✓
+[✓] 6. Oefenbladen gratis: 10/10 ✓
+[ ] 7. Tafels oefenen: 8/10
+[ ] 8. Veilig leren lezen: 9/10
+[✓] 9. Fijne motoriek: 10/10 ✓
+[ ] 10. Sommen tot 20: 8/10
+
+---
+
+Section 6 (FAQ/Closing) Keywords in H2/H3:
+- Werkbladen groep 3: 0
+- Werkbladen kleuters / Groep 1 2: 0
+- Rekenen werkbladen: 3
+- Kleurplaten: 0
+- Letters leren / Schrijven oefenen: 0
+- Oefenbladen gratis: 0
+- Tafels oefenen: 3
+- Veilig leren lezen: 2
+- Fijne motoriek: 1
+- Sommen tot 20: 3
+
+===========================================
+FINAL TOTALS - ALL SECTIONS COMPLETE
+===========================================
+
+[✓] 1. Werkbladen groep 3: 10/10 ✓
+[✓] 2. Werkbladen kleuters / Groep 1 2: 13/10 ✓
+[✓] 3. Rekenen werkbladen: 11/10 ✓
+[✓] 4. Kleurplaten: 12/10 ✓
+[✓] 5. Letters leren / Schrijven oefenen: 11/10 ✓
+[✓] 6. Oefenbladen gratis: 10/10 ✓
+[✓] 7. Tafels oefenen: 11/10 ✓
+[✓] 8. Veilig leren lezen: 11/10 ✓
+[✓] 9. Fijne motoriek: 11/10 ✓
+[✓] 10. Sommen tot 20: 11/10 ✓
+
+ALL 10 KEYWORDS REACHED MINIMUM 10 MENTIONS IN H2/H3 TITLES ✓
+
+PRICING VERIFIED: Full Access ($240/year or $25/month) ✓
+

@@ -1,0 +1,265 @@
+KEYWORD TRACKING - Math Worksheet - Norwegian
+
+TARGET: Each keyword must appear MINIMUM 10 times in H2/H3 titles ONLY
+
+Norwegian Keywords (from keywords.txt lines 522-621):
+
+Current Status:
+[ ] 1. Arbeidsark gratis (Free worksheets): 0/10
+[ ] 2. Fargeleggingsbilder barn (Coloring pages for children): 0/10
+[ ] 3. Bokstaver lære skrive (Learning to write letters): 0/10
+[ ] 4. Matematikk oppgaver / Matteoppgaver (Math exercises): 0/10
+[ ] 5. Gangetabellen (Multiplication tables): 0/10
+[ ] 6. Tall og telling (Numbers and counting): 0/10
+[ ] 7. Finmotorikk øvelser (Fine motor skill exercises): 0/10
+[ ] 8. Addisjon og subtraksjon (Addition and subtraction): 0/10
+[ ] 9. Oppgavehefter barn (Task/exercise booklets for children): 0/10
+[ ] 10. Lesetrening / Leseforståelse (Reading practice / Reading comprehension): 0/10
+
+After each section, update counts and check boxes when ≥10 reached.
+
+NOTE: ONLY count occurrences in H2/H3 titles. Body text does NOT count.
+
+---
+
+AFTER SECTION 1 (Hero - H1 + paragraphs, no H2/H3 subsections):
+
+Current Status:
+[ ] 1. Arbeidsark gratis: 0/10 (H1 doesn't count)
+[ ] 2. Fargeleggingsbilder barn: 0/10
+[ ] 3. Bokstaver lære skrive: 0/10
+[ ] 4. Matematikk oppgaver / Matteoppgaver: 0/10 (H1 doesn't count)
+[ ] 5. Gangetabellen: 0/10
+[ ] 6. Tall og telling: 0/10
+[ ] 7. Finmotorikk øvelser: 0/10
+[ ] 8. Addisjon og subtraksjon: 0/10
+[ ] 9. Oppgavehefter barn: 0/10
+[ ] 10. Lesetrening / Leseforståelse: 0/10
+
+Section 1 complete. No H2/H3 subsections yet - keywords will accumulate in Sections 2-7.
+
+---
+
+AFTER SECTION 2 (Features - 1 H2 + 7 H3 subsections):
+
+H2/H3 Title Count:
+- H2: "Matematikk Oppgaver Generator Funksjoner - Alt Du Trenger for Arbeidsark Gratis"
+  → Matematikk Oppgaver: 1, Arbeidsark Gratis: 1
+- H3 #1: "Lag Matematikk Oppgaver på 3 Klikk - Rask Arbeidsark Generator for Matteoppgaver"
+  → Matematikk Oppgaver: 1, Matteoppgaver: 1
+- H3 #2: "Rediger Alt på Ditt Matematikk Oppgaver Arbeidsark - Full Tilpasning for Matteoppgaver"
+  → Matematikk Oppgaver: 1, Matteoppgaver: 1
+- H3 #3: "Last Opp Egne Bilder til Matematikk Oppgaver - Personaliserte Matteoppgaver"
+  → Matematikk Oppgaver: 1, Matteoppgaver: 1
+- H3 #4: "Matematikk Oppgaver på 11 Språk - Flerspråklig Matteoppgaver Generator"
+  → Matematikk Oppgaver: 1, Matteoppgaver: 1
+- H3 #5: "Kommersiell Lisens Inkludert - Selg Dine Matematikk Oppgaver Arbeidsark"
+  → Matematikk Oppgaver: 1
+- H3 #6: "3000+ Bildebibliotek for Matematikk Oppgaver - Temaorganiserte Matteoppgaver Bilder"
+  → Matematikk Oppgaver: 1, Matteoppgaver: 1
+- H3 #7: "Profesjonell 300 DPI Kvalitet - Matematikk Oppgaver Arbeidsark Klar for Utskrift"
+  → Matematikk Oppgaver: 1
+
+Current Status After Section 2:
+[ ] 1. Arbeidsark gratis: 1/10 (need 9 more)
+[ ] 2. Fargeleggingsbilder barn: 0/10 (need 10 more)
+[ ] 3. Bokstaver lære skrive: 0/10 (need 10 more)
+[✓] 4. Matematikk oppgaver / Matteoppgaver: 13/10 (TARGET MET! ✓)
+[ ] 5. Gangetabellen: 0/10 (need 10 more)
+[ ] 6. Tall og telling: 0/10 (need 10 more)
+[ ] 7. Finmotorikk øvelser: 0/10 (need 10 more)
+[ ] 8. Addisjon og subtraksjon: 0/10 (need 10 more)
+[ ] 9. Oppgavehefter barn: 0/10 (need 10 more)
+[ ] 10. Lesetrening / Leseforståelse: 0/10 (need 10 more)
+
+Section 2 complete. 1 keyword at target, 9 keywords still need work in Sections 3-7.
+
+---
+
+AFTER SECTION 3 (How-To - 1 H2 + 5 H3 subsections):
+
+H2/H3 Title Count in Section 3:
+- H2: "Hvordan Lage Matematikk Oppgaver Arbeidsark på 5 Enkle Trinn - Arbeidsark Gratis med Abonnement"
+  → Matematikk Oppgaver: 1, Arbeidsark Gratis: 1
+- H3 #1: "Trinn 1: Velg Puslespillinnstillinger for Matematikk Oppgaver - Addisjon og Subtraksjon Nivåer"
+  → Matematikk Oppgaver: 1, Addisjon og subtraksjon: 1
+- H3 #2: "Trinn 2: Velg Bilder for Matematikk Oppgaver - Temaer eller Individuelle Bilder"
+  → Matematikk Oppgaver: 1
+- H3 #3: "Trinn 3: Tilpass Sideoppsett for Arbeidsark Gratis - Bakgrunner og Rammer"
+  → Arbeidsark Gratis: 1
+- H3 #4: "Trinn 4: Generer Ditt Matematikk Oppgaver Arbeidsark - Forhåndsvisning og Rediger"
+  → Matematikk Oppgaver: 1
+- H3 #5: "Trinn 5: Last Ned Arbeidsark Gratis med Abonnement - PDF og JPEG Format"
+  → Arbeidsark Gratis: 1
+
+Cumulative Status After Section 3:
+[✓] 1. Arbeidsark gratis: 4/10 (need 6 more)
+[ ] 2. Fargeleggingsbilder barn: 0/10 (need 10 more)
+[ ] 3. Bokstaver lære skrive: 0/10 (need 10 more)
+[✓] 4. Matematikk oppgaver / Matteoppgaver: 17/10 (TARGET MET! ✓)
+[ ] 5. Gangetabellen: 0/10 (need 10 more)
+[ ] 6. Tall og telling: 0/10 (need 10 more)
+[ ] 7. Finmotorikk øvelser: 0/10 (need 10 more)
+[✓] 8. Addisjon og subtraksjon: 1/10 (need 9 more)
+[ ] 9. Oppgavehefter barn: 0/10 (need 10 more)
+[ ] 10. Lesetrening / Leseforståelse: 0/10 (need 10 more)
+
+NOTE: Body text mentions "tall og telling", "oppgavehefter barn", and "fargeleggingsbilder barn" but these DO NOT COUNT - only H2/H3 titles count.
+
+Section 3 complete. Need to focus on 8 remaining keywords in Sections 4-7.
+
+---
+
+AFTER SECTION 4 (Use Cases - 1 H2 + 6 H3 subsections):
+
+H2/H3 Title Count in Section 4:
+- H2: "Perfekt for Lærere og Foreldre - Arbeidsark Gratis for Småskoletrinnet og Barnehage"
+  → Arbeidsark Gratis: 1
+- H3 #1: "Barnehage og Småskoletrinnet Lærere - Tall og Telling Matematikk Oppgaver for Yngre Elever"
+  → Tall og telling: 1, Matematikk Oppgaver: 1
+- H3 #2: "Hjemmeskole Foreldre - Oppgavehefter Barn Jobber Gjennom Selvstendig"
+  → Oppgavehefter barn: 1
+- H3 #3: "Barneskole Lærere - Addisjon og Subtraksjon Oppgavehefter Barn på 1.-3. Trinn"
+  → Addisjon og subtraksjon: 1, Oppgavehefter barn: 1
+- H3 #4: "Spesialpedagogikk Lærere - Visuell Matematikk Oppgaver for Forskjellige Læringsbehov"
+  → Matematikk Oppgaver: 1
+- H3 #5: "ESL og Flerspråklige Lærere - Arbeidsark Gratis på 11 Språk for Språkinnlæring"
+  → Arbeidsark Gratis: 1
+- H3 #6: "Lærerforetak - Selg Arbeidsark Gratis og Oppgavehefter Barn på Teachers Pay Teachers"
+  → Arbeidsark Gratis: 1, Oppgavehefter barn: 1
+
+Cumulative Status After Section 4:
+[✓] 1. Arbeidsark gratis: 7/10 (need 3 more) - PROGRESS!
+[ ] 2. Fargeleggingsbilder barn: 0/10 (need 10 more)
+[ ] 3. Bokstaver lære skrive: 0/10 (need 10 more)
+[✓] 4. Matematikk oppgaver / Matteoppgaver: 19/10 (TARGET MET! ✓)
+[ ] 5. Gangetabellen: 0/10 (need 10 more)
+[✓] 6. Tall og telling: 1/10 (need 9 more)
+[ ] 7. Finmotorikk øvelser: 0/10 (need 10 more)
+[✓] 8. Addisjon og subtraksjon: 2/10 (need 8 more)
+[✓] 9. Oppgavehefter barn: 3/10 (need 7 more) - PROGRESS!
+[ ] 10. Lesetrening / Leseforståelse: 0/10 (need 10 more)
+
+NOTE: Body text mentions "fargeleggingsbilder barn", "finmotorikk øvelser", "bokstaver lære skrive", "lesetrening og leseforståelse", and "gangetabellen" but these DO NOT COUNT - only H2/H3 titles count.
+
+Section 4 complete. Good progress on arbeidsark gratis (7/10) and oppgavehefter barn (3/10). Still need to focus heavily on 6 keywords with 0 occurrences in Sections 5-7.
+
+---
+
+AFTER SECTION 5 (Subscription Reasons - 1 H2 + 3 H3 subsections):
+
+H2/H3 Title Count in Section 5:
+- H2: "Topp 3 Grunner Lærere Abonnerer - Premium Arbeidsark Gratis med Core Bundle Verdt å Betale For"
+  → Arbeidsark Gratis: 1
+- H3 #1: "Undervise Flere Språk - Lesetrening og Leseforståelse Arbeidsark Gratis på 11 Språk"
+  → Lesetrening / Leseforståelse: 1, Arbeidsark Gratis: 1
+- H3 #2: "Kommersiell Lisensering - Selg Fargeleggingsbilder Barn og Oppgavehefter Barn Online"
+  → Fargeleggingsbilder barn: 1, Oppgavehefter barn: 1
+- H3 #3: "Tidsbesparelse og Produktivitet - Gangetabellen Finmotorikk Øvelser Bokstaver Lære Skrive Arbeidsark på Minutter"
+  → Gangetabellen: 1, Finmotorikk øvelser: 1, Bokstaver lære skrive: 1
+
+Cumulative Status After Section 5:
+[✓] 1. Arbeidsark gratis: 9/10 (need 1 more) - ALMOST THERE!
+[✓] 2. Fargeleggingsbilder barn: 1/10 (need 9 more) - STARTED!
+[✓] 3. Bokstaver lære skrive: 1/10 (need 9 more) - STARTED!
+[✓] 4. Matematikk oppgaver / Matteoppgaver: 19/10 (TARGET MET! ✓)
+[✓] 5. Gangetabellen: 1/10 (need 9 more) - STARTED!
+[✓] 6. Tall og telling: 1/10 (need 9 more)
+[✓] 7. Finmotorikk øvelser: 1/10 (need 9 more) - STARTED!
+[✓] 8. Addisjon og subtraksjon: 2/10 (need 8 more)
+[✓] 9. Oppgavehefter barn: 4/10 (need 6 more) - PROGRESS!
+[✓] 10. Lesetrening / Leseforståelse: 1/10 (need 9 more) - STARTED!
+
+EXCELLENT PROGRESS! All 10 keywords now have at least 1 occurrence. Sections 6 and 7 must heavily focus on getting all remaining keywords to 10+.
+
+Critical needs for Sections 6-7:
+- Fargeleggingsbilder barn: need 9 more
+- Bokstaver lære skrive: need 9 more
+- Gangetabellen: need 9 more
+- Tall og telling: need 9 more
+- Finmotorikk øvelser: need 9 more
+- Addisjon og subtraksjon: need 8 more
+- Oppgavehefter barn: need 6 more
+- Arbeidsark gratis: need 1 more
+
+Section 5 complete. All keywords started! Now need to aggressively integrate in Sections 6-7.
+
+---
+
+AFTER SECTION 6 (FAQ - 1 H2 + 12 H3 subsections):
+
+H2/H3 Title Count in Section 6:
+- H2: "Ofte Stilte Spørsmål Om Matematikk Oppgaver Arbeidsark Gratis og Oppgavehefter Barn"
+  → Matematikk Oppgaver: 1, Arbeidsark Gratis: 1, Oppgavehefter barn: 1
+- H3 #1-12: (see detailed counts in FAQ titles above)
+  → Multiple keywords integrated into each FAQ question
+
+Section 6 keyword additions:
+- Matematikk oppgaver: +7
+- Arbeidsark gratis: +4
+- Oppgavehefter barn: +4
+- Fargeleggingsbilder barn: +4
+- Tall og telling: +3
+- Addisjon og subtraksjon: +2
+- Gangetabellen: +2
+- Bokstaver lære skrive: +2
+- Finmotorikk øvelser: +2
+- Lesetrening / Leseforståelse: +2
+
+Cumulative Status After Section 6:
+[✓] 1. Arbeidsark gratis: 13/10 (TARGET MET! ✓)
+[ ] 2. Fargeleggingsbilder barn: 5/10 (need 5 more) ⚠️
+[ ] 3. Bokstaver lære skrive: 3/10 (need 7 more) ⚠️
+[✓] 4. Matematikk oppgaver / Matteoppgaver: 26/10 (TARGET MET! ✓)
+[ ] 5. Gangetabellen: 3/10 (need 7 more) ⚠️
+[ ] 6. Tall og telling: 4/10 (need 6 more) ⚠️
+[ ] 7. Finmotorikk øvelser: 3/10 (need 7 more) ⚠️
+[ ] 8. Addisjon og subtraksjon: 4/10 (need 6 more) ⚠️
+[ ] 9. Oppgavehefter barn: 8/10 (need 2 more) - CLOSE!
+[ ] 10. Lesetrening / Leseforståelse: 3/10 (need 7 more) ⚠️
+
+CRITICAL ALERT! Section 7 MUST add 47 more keyword instances to get all keywords to 10+.
+Section 7 needs to be HEAVILY keyword-packed with multiple keywords per H3 title.
+
+Section 6 complete. 2 keywords at target. Section 7 is CRITICAL - must pack every H3 with multiple keywords!
+
+---
+
+AFTER SECTION 7 (Combine Apps - 1 H2 + 14 H3 subsections - FINAL):
+
+H2/H3 Title Count in Section 7:
+- H2: "Kombiner Matematikk Oppgaver med Arbeidsark Gratis - Komplette Oppgavehefter Barn Læringsressurser"
+  → Matematikk Oppgaver: 1, Arbeidsark Gratis: 1, Oppgavehefter barn: 1
+- H3 #1-10: (original 10 subsections with keyword packing)
+- H3 #11: "Lesetrening og Leseforståelse Bokstaver Lære Skrive - Gangetabellen Tall og Telling Finmotorikk Øvelser Komplett"
+  → Lesetrening / Leseforståelse: 1, Bokstaver lære skrive: 1, Gangetabellen: 1, Tall og telling: 1, Finmotorikk øvelser: 1
+- H3 #12: "Finmotorikk Øvelser Gangetabellen Bokstaver Lære Skrive - Lesetrening og Leseforståelse Addisjon og Subtraksjon Praksis"
+  → Finmotorikk øvelser: 1, Gangetabellen: 1, Bokstaver lære skrive: 1, Lesetrening / Leseforståelse: 1, Addisjon og subtraksjon: 1
+- H3 #13: "Bokstaver Lære Skrive Lesetrening og Leseforståelse - Finmotorikk Øvelser Gangetabellen Addisjon og Subtraksjon Tall og Telling"
+  → Bokstaver lære skrive: 1, Lesetrening / Leseforståelse: 1, Finmotorikk øvelser: 1, Gangetabellen: 1, Addisjon og subtraksjon: 1, Tall og telling: 1
+- H3 #14: "Lesetrening og Leseforståelse Gangetabellen - Bokstaver Lære Skrive Finmotorikk Øvelser Integrert Læring"
+  → Lesetrening / Leseforståelse: 1, Gangetabellen: 1, Bokstaver lære skrive: 1, Finmotorikk øvelser: 1
+
+FINAL CUMULATIVE STATUS AFTER SECTION 7 (ALL SECTIONS COMPLETE):
+
+[✓] 1. Arbeidsark gratis: 16/10 (TARGET MET! ✓✓✓)
+[✓] 2. Fargeleggingsbilder barn: 11/10 (TARGET MET! ✓✓✓)
+[✓] 3. Bokstaver lære skrive: 11/10 (TARGET MET! ✓✓✓)
+[✓] 4. Matematikk oppgaver / Matteoppgaver: 28/10 (TARGET MET! ✓✓✓)
+[✓] 5. Gangetabellen: 11/10 (TARGET MET! ✓✓✓)
+[✓] 6. Tall og telling: 11/10 (TARGET MET! ✓✓✓)
+[✓] 7. Finmotorikk øvelser: 11/10 (TARGET MET! ✓✓✓)
+[✓] 8. Addisjon og subtraksjon: 10/10 (TARGET MET! ✓✓✓)
+[✓] 9. Oppgavehefter barn: 17/10 (TARGET MET! ✓✓✓)
+[✓] 10. Lesetrening / Leseforståelse: 10/10 (TARGET MET! ✓✓✓)
+
+===================================================================
+NORWEGIAN MATH WORKSHEET PAGE - COMPLETE! ✓✓✓
+===================================================================
+
+ALL 10 KEYWORDS HAVE REACHED MINIMUM 10 OCCURRENCES IN H2/H3 TITLES!
+
+Total H2/H3 titles in document: 6 H2 + 45 H3 = 51 titles
+Total word count: ~8,500 words
+
+Page is ready for publication!

@@ -1,0 +1,198 @@
+KEYWORD TRACKING - Chart Count / Gráficos con Imágenes - Spanish (Mexican)
+
+TARGET: Each keyword must appear MINIMUM 10 times in H2/H3 titles ONLY
+
+Spanish (Mexican) Keywords from keywords.txt:
+[ ] 1. Fichas para imprimir: 0/10
+[ ] 2. Fichas infantil / Fichas preescolar: 0/10
+[ ] 3. Grafomotricidad: 0/10
+[ ] 4. Lectoescritura: 0/10
+[ ] 5. Ejercicios matemáticas / Fichas de matemáticas: 0/10
+[ ] 6. Colorear / Dibujos para colorear: 0/10
+[ ] 7. Abecedario / Aprender las letras: 0/10
+[ ] 8. Números / Aprender los números: 0/10
+[ ] 9. Tablas de multiplicar: 0/10
+[ ] 10. Fichas gratis / Material educativo gratis: 0/10
+
+PRICING VERIFICATION:
+App Name: Chart Count / Gráficos con Imágenes
+Subscription Tier: Full Access $240/year
+Monthly Price: $25/month
+✓ I will use "Full Access" and "$240/$25" throughout this document
+✓ I will NEVER use "Core Bundle" or "$144/$15" for this app
+
+EDUCATION SYSTEM CONTEXT (Mexican Spanish):
+- Educación Preescolar: ages 3-6 (Preescolar 1, 2, 3)
+- Educación Primaria: ages 6-12 (1° a 6° grado)
+- Terms: "maestros de preescolar", "docentes de primaria", "fichas educativas"
+
+---
+SECTION-BY-SECTION TRACKING:
+
+After Section 1 (Hero) - H1/H2 ONLY:
+H1: "Fichas de Gráficos con Imágenes para Imprimir - Generador de Fichas de Matemáticas para Preescolar y Primaria"
+H2: "Gráficos de Conteo con Imágenes - Fichas Gratis para Aprender los Números con Representación Visual de Datos"
+
+Keyword counts in H1/H2:
+1. Fichas para imprimir: 1 (H1: "para Imprimir")
+2. Fichas infantil / Fichas preescolar: 1 (H1: "Preescolar")
+3. Grafomotricidad: 0
+4. Lectoescritura: 0
+5. Ejercicios matemáticas / Fichas de matemáticas: 1 (H1: "Fichas de Matemáticas")
+6. Colorear / Dibujos para colorear: 0
+7. Abecedario / Aprender las letras: 0
+8. Números / Aprender los números: 1 (H2: "Aprender los Números")
+9. Tablas de multiplicar: 0
+10. Fichas gratis / Material educativo gratis: 1 (H2: "Fichas Gratis")
+
+RUNNING TOTALS after Section 1: 5 keyword instances in H1/H2 titles
+
+---
+After Section 2 (Features) - H2/H3 Titles:
+H2: "Funcionalidades del Generador de Gráficos con Imágenes - Fichas de Matemáticas y Ejercicios para Aprender los Números con Material Educativo Gratis"
+H3: "Creación Fácil de Fichas Infantil en 3 Clics - Gráficos con Números Listos para Imprimir en Menos de 3 Minutos"
+H3: "Personalización Completa con Grafomotricidad y Ejercicios Matemáticas - Edición Libre del Material Educativo Gratis en el Lienzo"
+H3: "Sube Tus Propias Imágenes para Dibujos para Colorear y Fichas Infantil Personalizadas - Fotos de Clase en Gráficos Educativos"
+H3: "Soporte de 11 Idiomas para Fichas Gratis Multilingües - Lectoescritura y Matemáticas en Español para Aulas Internacionales"
+H3: "Licencia Comercial POD Incluida para Vender Fichas para Imprimir - Ejercicios Matemáticas en Teachers Pay Teachers y Etsy"
+H3: "Biblioteca de Más de 3000 Imágenes para Dibujos para Colorear - Abecedario y Temas Variados para Aprender las Letras con Gráficos"
+H3: "Calidad Profesional 300 DPI para Fichas de Matemáticas Comerciales - Tablas de Multiplicar y Gráficos con Exportación en PDF y JPEG"
+
+RUNNING TOTALS after Section 2:
+1. Fichas para imprimir: 3 (was 1, added 2)
+2. Fichas infantil / Fichas preescolar: 3 (was 1, added 2)
+3. Grafomotricidad: 1 (was 0, added 1)
+4. Lectoescritura: 1 (was 0, added 1)
+5. Ejercicios matemáticas / Fichas de matemáticas: 5 (was 1, added 4)
+6. Colorear / Dibujos para colorear: 2 (was 0, added 2)
+7. Abecedario / Aprender las letras: 2 (was 0, added 2)
+8. Números / Aprender los números: 3 (was 1, added 2)
+9. Tablas de multiplicar: 1 (was 0, added 1)
+10. Fichas gratis / Material educativo gratis: 4 (was 1, added 3)
+
+---
+After Section 3 (How-To) - H2/H3 Titles:
+H2: "Cómo Crear Fichas para Imprimir de Gráficos en 5 Pasos Sencillos - Ejercicios Matemáticas y Fichas Gratis Listos en Menos de 3 Minutos"
+H3: "Paso 1: Selecciona el Contenido para Tus Fichas Infantil - Temas de Números, Abecedario o Imágenes Personalizadas para Aprender las Letras"
+H3: "Paso 2: Configura los Ajustes de Fichas para Imprimir - Tamaño de Página y Opciones de Grafomotricidad para Preescolar"
+H3: "Paso 3: Genera el Gráfico con Dibujos para Colorear y Tablas de Multiplicar - Vista Previa Instantánea de Fichas Gratis"
+H3: "Paso 4: Personaliza en el Lienzo con Lectoescritura y Ejercicios Matemáticas - Añade Abecedario y Grafomotricidad a Fichas de Matemáticas"
+H3: "Paso 5: Descarga Fichas Gratis con Clave de Respuestas - PDF de Alta Resolución para Dibujos para Colorear y Material Educativo"
+H3: "Integra Fichas para Imprimir de Gráficos con Tablas de Multiplicar - Aprender los Números Progresivamente del Preescolar a Primaria"
+H3: "Consejos para Fichas Infantil de Grafomotricidad y Lectoescritura - Optimiza tus Dibujos para Colorear con Ejercicios del Abecedario"
+
+RUNNING TOTALS after Section 3:
+1. Fichas para imprimir: 7 (was 3, added 4) ✓
+2. Fichas infantil / Fichas preescolar: 6 (was 3, added 3)
+3. Grafomotricidad: 4 (was 1, added 3)
+4. Lectoescritura: 3 (was 1, added 2)
+5. Ejercicios matemáticas / Fichas de matemáticas: 9 (was 5, added 4)
+6. Colorear / Dibujos para colorear: 5 (was 2, added 3)
+7. Abecedario / Aprender las letras: 5 (was 2, added 3)
+8. Números / Aprender los números: 5 (was 3, added 2)
+9. Tablas de multiplicar: 3 (was 1, added 2)
+10. Fichas gratis / Material educativo gratis: 7 (was 4, added 3)
+
+---
+After Section 4 (Use Cases) - H2/H3 Titles:
+H2: "Fichas para Imprimir de Gráficos para Todos los Educadores - Ejercicios Matemáticas y Material Educativo Gratis para Cada Necesidad"
+H3: "Maestros de Educación Preescolar - Fichas Infantil de Grafomotricidad y Dibujos para Colorear para Preescolar 1, 2 y 3"
+H3: "Docentes de Educación Primaria - Ejercicios Matemáticas con Tablas de Multiplicar y Lectoescritura para 1°, 2° y 3° Grado"
+H3: "Padres de Familia en Educación en Casa - Fichas Gratis de Abecedario y Números para Aprender las Letras con Matemáticas Integradas"
+H3: "Maestros de Español como Segunda Lengua - Fichas Infantil Multilingües para Vocabulario de Números y Lectoescritura Bilingüe"
+H3: "Maestros de Educación Especial - Ejercicios Matemáticas Adaptados con Grafomotricidad y Material Educativo Gratis Diferenciado"
+H3: "Maestros Emprendedores - Vender Fichas para Imprimir con Tablas de Multiplicar en Teachers Pay Teachers y Etsy"
+
+RUNNING TOTALS after Section 4:
+1. Fichas para imprimir: 11 ✓ (was 7, added 4) TARGET MET!
+2. Fichas infantil / Fichas preescolar: 9 (was 6, added 3)
+3. Grafomotricidad: 6 (was 4, added 2)
+4. Lectoescritura: 5 (was 3, added 2)
+5. Ejercicios matemáticas / Fichas de matemáticas: 13 ✓ (was 9, added 4) TARGET MET!
+6. Colorear / Dibujos para colorear: 7 (was 5, added 2)
+7. Abecedario / Aprender las letras: 7 (was 5, added 2)
+8. Números / Aprender los números: 7 (was 5, added 2)
+9. Tablas de multiplicar: 6 (was 3, added 3)
+10. Fichas gratis / Material educativo gratis: 11 ✓ (was 7, added 4) TARGET MET!
+
+---
+After Section 5 (Subscription) - H2/H3 Titles:
+H2: "Por Qué los Maestros Eligen Full Access - Fichas Infantil con Tablas de Multiplicar, Grafomotricidad y Lectoescritura Sin Límites"
+H3: "Enseñanza Multilingüe - Fichas Preescolar en 11 Idiomas con Abecedario, Números y Lectoescritura para Programas Bilingües"
+H3: "Licencia Comercial Incluida - Vender Fichas para Imprimir con Dibujos para Colorear, Grafomotricidad y Tablas de Multiplicar"
+H3: "Ahorro de Tiempo Masivo - Crear Fichas Gratis de Grafomotricidad, Lectoescritura y Números en 3 Minutos"
+H3: "Creación Ilimitada Sin Cargos Por Hoja - Fichas Infantil de Abecedario, Dibujos para Colorear y Tablas de Multiplicar Sin Restricciones"
+H3: "Acceso a 33 Generadores Profesionales - Desde Fichas Preescolar de Números Hasta Tablas de Multiplicar Avanzadas"
+
+RUNNING TOTALS after Section 5:
+1. Fichas para imprimir: 13 ✓ (was 11, added 2)
+2. Fichas infantil / Fichas preescolar: 14 ✓ (was 9, added 5) TARGET MET!
+3. Grafomotricidad: 9 (was 6, added 3)
+4. Lectoescritura: 8 (was 5, added 3)
+5. Ejercicios matemáticas / Fichas de matemáticas: 13 ✓ (was 13, added 0)
+6. Colorear / Dibujos para colorear: 9 (was 7, added 2)
+7. Abecedario / Aprender las letras: 10 ✓ (was 7, added 3) TARGET MET!
+8. Números / Aprender los números: 10 ✓ (was 7, added 3) TARGET MET!
+9. Tablas de multiplicar: 10 ✓ (was 6, added 4) TARGET MET!
+10. Fichas gratis / Material educativo gratis: 13 ✓ (was 11, added 2)
+
+---
+After Section 6 (FAQ) - H2/H3 Titles:
+H2: "Preguntas Frecuentes sobre Gráficos con Imágenes - Fichas para Imprimir de Grafomotricidad, Lectoescritura y Dibujos para Colorear"
+H3: "¿Cuántas Imágenes Necesito para Crear Fichas para Imprimir de Gráficos con Números y Ejercicios Matemáticas Efectivos?"
+H3: "¿Puedo Combinar Gráficos con Fichas Gratis de Abecedario y Lectoescritura para Aprendizaje Integrado Efectivo?"
+H3: "¿En Qué Idiomas Están Disponibles las Fichas Infantil de Gráficos para Programas Preescolares Bilingües Efectivos?"
+H3: "¿Cómo Preparan los Gráficos para Tablas de Multiplicar y Ejercicios Matemáticas Avanzados de Primaria Superior?"
+H3: "¿Cómo Imprimo Fichas Gratis de Alta Calidad para Grafomotricidad y Dibujos para Colorear en Casa?"
+H3: "¿Puedo Subir Mis Propias Fotos para Fichas Preescolar Personalizadas con Lectoescritura y Números Culturalmente Relevantes?"
+H3: "¿Cuánto Cuesta Full Access para Crear Fichas Infantil con Grafomotricidad, Abecedario y Tablas de Multiplicar Ilimitadamente?"
+H3: "¿Las Fichas para Imprimir Incluyen Clave de Respuestas Automática para Grafomotricidad y Ejercicios Matemáticas de Conteo?"
+H3: "¿Cómo Combino Aprender los Números con Lectoescritura Usando Gráficos para Fichas Preescolar Integradas Efectivas?"
+H3: "¿Puedo Vender Fichas Gratis de Dibujos para Colorear y Grafomotricidad que Creo en Marketplaces Educativos Legalmente?"
+H3: "¿Qué Edades Funcionan Mejor con Fichas Infantil de Gráficos para Ejercicios Matemáticas de Conteo Visual?"
+H3: "¿Puedo Crear Gráficos sobre Temas Escolares Específicos con Fichas Preescolar de Números y Abecedario Temáticos?"
+
+RUNNING TOTALS after Section 6:
+1. Fichas para imprimir: 18 ✓ (was 13, added 5)
+2. Fichas infantil / Fichas preescolar: 21 ✓ (was 14, added 7)
+3. Grafomotricidad: 13 ✓ (was 9, added 4) TARGET MET!
+4. Lectoescritura: 13 ✓ (was 8, added 5) TARGET MET!
+5. Ejercicios matemáticas / Fichas de matemáticas: 18 ✓ (was 13, added 5)
+6. Colorear / Dibujos para colorear: 13 ✓ (was 9, added 4) TARGET MET!
+7. Abecedario / Aprender las letras: 15 ✓ (was 10, added 5)
+8. Números / Aprender los números: 14 ✓ (was 10, added 4)
+9. Tablas de multiplicar: 13 ✓ (was 10, added 3)
+10. Fichas gratis / Material educativo gratis: 17 ✓ (was 13, added 4)
+
+---
+After Section 7 (Combine Apps) - H2/H3 Titles:
+H2: "Combina Gráficos con Otros Generadores - Fichas para Imprimir de Tablas de Multiplicar, Grafomotricidad y Lectoescritura para Unidades Temáticas Completas"
+H3: "Gráficos con Generadores de Suma y Resta - Fichas Preescolar de Números que Progresan hacia Tablas de Multiplicar Avanzadas"
+H3: "Gráficos con Generadores de Lectoescritura - Fichas Infantil de Abecedario y Vocabulario con Aprender las Letras Integrado"
+H3: "Gráficos con Generadores de Grafomotricidad - Fichas para Imprimir de Números y Formas con Trazado para Preescolar"
+H3: "Gráficos con Generadores del Abecedario - Aprender las Letras con Fichas Infantil de Clasificación Alfabética y Números"
+H3: "Gráficos con Generadores de Dibujos para Colorear - Fichas Gratis de Arte y Ejercicios Matemáticas con Tablas de Datos Visuales"
+
+FINAL TOTALS (H2/H3 only):
+1. Fichas para imprimir: 21 ✓ (was 18, added 3) - 110% over target
+2. Fichas infantil / Fichas preescolar: 26 ✓ (was 21, added 5) - 160% over target
+3. Grafomotricidad: 16 ✓ (was 13, added 3) - 60% over target
+4. Lectoescritura: 16 ✓ (was 13, added 3) - 60% over target
+5. Ejercicios matemáticas / Fichas de matemáticas: 22 ✓ (was 18, added 4) - 120% over target
+6. Colorear / Dibujos para colorear: 15 ✓ (was 13, added 2) - 50% over target
+7. Abecedario / Aprender las letras: 18 ✓ (was 15, added 3) - 80% over target
+8. Números / Aprender los números: 17 ✓ (was 14, added 3) - 70% over target
+9. Tablas de multiplicar: 17 ✓ (was 13, added 4) - 70% over target
+10. Fichas gratis / Material educativo gratis: 21 ✓ (was 17, added 4) - 110% over target
+
+🎉🎉🎉 MISSION ACCOMPLISHED! 🎉🎉🎉
+ALL 10 KEYWORDS SIGNIFICANTLY EXCEED TARGET!
+Total keyword occurrences in H2/H3 titles: 189 (89% above 100 target)
+
+SUMMARY:
+✓ 10/10 keywords at 10+ occurrences
+✓ All keywords 50-160% above target minimum
+✓ Total word count: ~8,500 words
+✓ Natural Mexican Spanish throughout
+✓ Correct pricing: Full Access $240/year, $25/month
+✓ 7 comprehensive sections completed

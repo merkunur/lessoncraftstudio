@@ -15,16 +15,48 @@ export const oddOneOutSvContent: ProductPageContent = {
   seo: {
     slug: 'hitta-udda-bilden-arbetsblad',
     appId: 'odd-one-out',
-    title: 'Arbetsblad Gratis - Hitta Udda Bilden Generator för Förskoleklass Material och Finmotorik Övningar | LessonCraft Studio',
-    description: 'Skapa professionella arbetsblad gratis med vår hitta-udda-bilden generator. Perfekt för förskoleklass material och finmotorik övningar. Ladda ner högkvalitativa PDF-filer på under tre minuter.',
-    keywords: 'arbetsblad gratis, hitta udda bilden, förskoleklass material, finmotorik övningar, matematik arbetsblad, bokstäver lära sig, visuell diskriminering, kognitiv utveckling',
+    title: 'Gratis Arbetsblad Hitta Udda Bilden | Generator för Barn och Förskoleklass',
+    description: 'Skapa gratis arbetsblad för barn med vår hitta-udda-bilden generator. Perfekt arbetsblad för förskoleklass och finmotorik övningar. Ladda ner PDF på under 3 minuter.',
+    keywords: 'gratis arbetsblad, arbetsblad för barn, hitta udda bilden, förskoleklass material, finmotorik övningar, visuell diskriminering, kognitiv utveckling',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/hitta-udda-bilden-arbetsblad',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/odd-one-out/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Hitta udda bilden gratis arbetsblad för förskoleklass - visuell diskriminering övning'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/odd-one-out/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis arbetsblad hitta udda bilden - arbetsblad för barn kognitiv utveckling'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/odd-one-out/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Arbetsblad för förskoleklass hitta udda bilden - gratis utskrifter visuell perception'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/odd-one-out/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Hitta udda bilden arbetsblad för barn - gratis arbetsblad logiskt tänkande'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/odd-one-out/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis arbetsblad för förskoleklass - hitta udda bilden finmotorik övning'
+      },
+    ],
   },
 
   // Hero Section - FULL text from odd-one-out.md paragraphs 1-4
   hero: {
     title: 'Hitta Udda Bilden Arbetsblad',
-    subtitle: 'Arbetsblad Gratis Generator för Förskoleklass Material och Finmotorik Övningar',
+    subtitle: 'Gratis Arbetsblad Generator - Arbetsblad för Barn och Förskoleklass',
     description: `Skapa professionella arbetsblad gratis med vår hitta-udda-bilden generator. Din Full Tillgång-prenumeration ger dig obegränsad tillgång till att skapa arbetsblad utan extra avgifter per arbetsblad. Perfekt för förskoleklass material och finmotorik övningar. Ladda ner högkvalitativa PDF-filer på under tre minuter.
 
 Vår hitta-udda-bilden generator hjälper lärare och föräldrar att skapa visuella diskrimineringsövningar. Eleverna tränar kognitiv utveckling genom att identifiera vilket objekt som inte passar in. Varje arbetsblad kan anpassas med dina egna bilder och teman. Detta stödjer matematik arbetsblad och bokstäver lära sig på ett lekfullt sätt.
@@ -32,7 +64,7 @@ Vår hitta-udda-bilden generator hjälper lärare och föräldrar att skapa visu
 Verktyget fungerar perfekt för förskoleklass och årskurs 1-3 elever. Du väljer mellan lätt läge med olika kategorier eller svårt läge med subtila skillnader. Eleverna utvecklar visuell perception och logiskt tänkande. Kombinera med våra målarbilder barn för komplett lärandestöd.
 
 Full Tillgång-prenumerationen inkluderar alla 33 verktyg för arbetsblad gratis. Du får tillgång till 3000+ barnvänliga bilder organiserade i teman. Ladda upp egna bilder för personalisering. Ladda ner som PDF eller JPEG i professionell 300 DPI-kvalitet. Kommersiell licens ingår för att sälja dina skapade arbetsblad.`,
-    previewImageSrc: '/samples/english/odd one out/similar.jpeg',
+    previewImageSrc: '/samples/swedish/odd-one-out/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Prova Gratis',
       viewSamples: 'Visa Exempel',
@@ -51,10 +83,10 @@ Full Tillgång-prenumerationen inkluderar alla 33 verktyg för arbetsblad gratis
     },
   },
 
-  // Sample Gallery - REAL file paths from samples/english/odd one out/
+  // Sample Gallery - Swedish samples from /samples/swedish/odd-one-out/
   samples: {
-    sectionTitle: 'Hitta Udda Bilden Arbetsblad Exempel',
-    sectionDescription: 'Ladda ner gratis exempelarbetsblad för att se vår professionella kvalitet',
+    sectionTitle: 'Gratis Arbetsblad Hitta Udda Bilden - Exempel för Barn och Förskoleklass',
+    sectionDescription: 'Ladda ner gratis arbetsblad för barn och se vår professionella kvalitet. Perfekt arbetsblad för förskoleklass.',
     downloadLabel: 'Ladda Ner Gratis Exempel',
     worksheetLabel: 'Arbetsblad',
     answerKeyLabel: 'Facit',
@@ -67,17 +99,38 @@ Full Tillgång-prenumerationen inkluderar alla 33 verktyg för arbetsblad gratis
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/odd one out/similar.jpeg',
-        answerKeySrc: '/samples/english/odd one out/similar answer-key.jpeg',
-        altText: 'Hitta udda bilden arbetsblad med liknande bilder för visuell diskriminering',
-        pdfDownloadUrl: '/samples/english/odd one out/similar.pdf',
+        worksheetSrc: '/samples/swedish/odd-one-out/sample-1.jpeg',
+        answerKeySrc: '/samples/swedish/odd-one-out/sample-1-answer.jpeg',
+        altText: 'Hitta udda bilden gratis arbetsblad - visuell diskriminering för förskoleklass',
+        pdfDownloadUrl: '/samples/swedish/odd-one-out/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/odd one out/identical.jpeg',
-        answerKeySrc: '/samples/english/odd one out/identical answer-key.jpeg',
-        altText: 'Hitta udda bilden arbetsblad med tre identiska bilder och en avvikande',
-        pdfDownloadUrl: '/samples/english/odd one out/identical.pdf',
+        worksheetSrc: '/samples/swedish/odd-one-out/sample-2.jpeg',
+        answerKeySrc: '/samples/swedish/odd-one-out/sample-2-answer.jpeg',
+        altText: 'Gratis arbetsblad hitta udda bilden - arbetsblad för barn kognitiv utveckling',
+        pdfDownloadUrl: '/samples/swedish/odd-one-out/sample-2.pdf',
+      },
+      {
+        id: '3',
+        worksheetSrc: '/samples/swedish/odd-one-out/sample-3.jpeg',
+        answerKeySrc: '/samples/swedish/odd-one-out/sample-3-answer.jpeg',
+        altText: 'Arbetsblad för förskoleklass hitta udda bilden - gratis utskrifter visuell perception',
+        pdfDownloadUrl: '/samples/swedish/odd-one-out/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/swedish/odd-one-out/sample-4.jpeg',
+        answerKeySrc: '/samples/swedish/odd-one-out/sample-4-answer.jpeg',
+        altText: 'Hitta udda bilden arbetsblad för barn - gratis arbetsblad logiskt tänkande',
+        pdfDownloadUrl: '/samples/swedish/odd-one-out/sample-4.pdf',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/swedish/odd-one-out/sample-5.jpeg',
+        answerKeySrc: '/samples/swedish/odd-one-out/sample-5-answer.jpeg',
+        altText: 'Gratis arbetsblad för förskoleklass - hitta udda bilden finmotorik övning',
+        pdfDownloadUrl: '/samples/swedish/odd-one-out/sample-5.pdf',
       },
     ],
   },
@@ -307,8 +360,8 @@ Experimentera med olika pedagogiska upplägg för bokstäver lära sig och siffr
 
   // FAQ Section - Selected FAQs from odd-one-out.md
   faq: {
-    sectionTitle: 'Vanliga Frågor om Hitta Udda Bilden Arbetsblad',
-    sectionDescription: 'Vanliga frågor om arbetsblad gratis, förskoleklass material och finmotorik övningar. Svar på frågor om multiplikationstabellen, klockan lära sig och siffror och tal.',
+    sectionTitle: 'Vanliga Frågor om Gratis Arbetsblad Hitta Udda Bilden för Barn',
+    sectionDescription: 'Vanliga frågor om gratis arbetsblad, arbetsblad för barn och arbetsblad för förskoleklass. Svar på frågor om gratis utskrifter och finmotorik övningar.',
     showMoreText: 'Visa fler frågor',
     showLessText: 'Visa färre',
     badgeText: 'Vanliga Frågor',
@@ -410,8 +463,8 @@ Experimentera med olika pedagogiska upplägg för bokstäver lära sig och siffr
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Kombinera med Andra Arbetsblad Generatorer',
-    sectionDescription: 'Skapa kompletta lärpaket genom att kombinera hitta-udda-bilden arbetsblad med dessa kompletterande generatorer för förskoleklass material och finmotorik övningar.',
+    sectionTitle: 'Fler Gratis Arbetsblad Generatorer för Barn och Förskoleklass',
+    sectionDescription: 'Skapa kompletta lärpaket med fler gratis arbetsblad. Kombinera arbetsblad för barn med dessa kompletterande generatorer för förskoleklass.',
     ctaTitle: 'Redo att Skapa Fantastiska Hitta Udda Bilden Arbetsblad?',
     ctaDescription: 'Gå med tusentals lärare som skapar professionella arbetsblad. Obegränsad generering, kommersiell licens ingår.',
     primaryCtaText: 'Starta Gratis Provperiod',

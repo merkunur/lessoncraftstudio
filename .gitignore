@@ -120,3 +120,5 @@ ARCHIVE/
 # Sample archives (deployed to server, not in git)
 *-samples.tar.gz
 frontend/public/*-samples.tar.gz
+tmpclaude-*-cwd
+**/tmpclaude-*-cwd

@@ -19,6 +19,32 @@ export const matchingNoContent: ProductPageContent = {
     description: 'Lag profesjonelle matchingsoppgaver med vår generator for arbeidsark. Din Kjernepakke-abonnement gir deg ubegrenset tilgang til å lage matchingsoppgaver uten ekstra avgifter per ark. Generer tilpassede arbeidsark gratis perfekt for barnehage og småskoletrinnet. Last ned høykvalitets PDF-oppgaver på under 3 minutter.',
     keywords: 'matchingsoppgaver, arbeidsark gratis, oppgavehefter barn, bokstaver lære skrive, matematikk oppgaver, finmotorikk øvelser, småskoletrinnet, barneskolen, gangetabellen, tall og telling',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/kobling-arbeidsark',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/norwegian/matching/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis arbeidsark matchingsoppgaver - kobling aktiviteter for barn',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/norwegian/matching/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Matchingsoppgaver arbeidsark gratis - oppgavehefter barn for småskoletrinnet',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/norwegian/matching/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Arbeidsark for barn matchingsoppgaver - finmotorikk øvelser gratis utskrifter',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/norwegian/matching/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Kobling arbeidsark gratis - matematikk oppgaver og tall og telling',
+      },
+    ],
   },
 
   // Hero Section - FULL text from matching.md paragraphs 1-4
@@ -32,7 +58,7 @@ Matchingsgeneratoren vår hjelper lærere med å lage arbeidsark der elevene tre
 Oppgavene passer perfekt til barn på barneskolen som lærer bokstaver, tall, og grunnleggende konsepter. Kombiner matchingsoppgaver med finmotorikk øvelser for komplett læring. Elevene utvikler leseferdigheter mens de kobler bilder med ord eller bokstaver. Alle arbeidsark kan lastes ned som PDF eller JPEG i profesjonell 300 DPI kvalitet.
 
 Kjernepakke-abonnentet inkluderer 10 populære oppgavegeneratorer. Du får tilgang til matchingsoppgaver, matematikk oppgaver, fargeleggingsbilder, og mer. Alle verktøyene støtter 11 språk inkludert norsk. Lærere kan lage ubegrensede arbeidsark gratis uten ekstra kostnader. Ingen vannmerke på oppgavene du lager og laster ned.`,
-    previewImageSrc: '/samples/english/matching/matching portrait.jpeg',
+    previewImageSrc: '/samples/norwegian/matching/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Prøv Gratis',
       viewSamples: 'Se Eksempler',
@@ -62,36 +88,43 @@ Kjernepakke-abonnentet inkluderer 10 populære oppgavegeneratorer. Du får tilga
     answerKeyLabel: 'Fasit',
     viewAllLabel: 'Se alle',
     noPdfLabel: 'Ingen PDF tilgjengelig',
-    freePdfCountLabel: '3 gratis nedlastinger',
+    freePdfCountLabel: '4 gratis nedlastinger',
     ofLabel: 'av',
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/matching/matching portrait.jpeg',
-        answerKeySrc: '/samples/english/matching/matching portrait answer_key.jpeg',
-        altText: 'Matchingsoppgaver portrettformat med bilde til bilde kobling for barneskolen',
-        pdfDownloadUrl: '/samples/english/matching/matching portrait.pdf',
+        worksheetSrc: '/samples/norwegian/matching/sample-1.jpeg',
+        answerKeySrc: '/samples/norwegian/matching/sample-1-answer.jpeg',
+        altText: 'Gratis arbeidsark matchingsoppgaver - kobling aktiviteter for barn på småskoletrinnet',
+        pdfDownloadUrl: '/samples/norwegian/matching/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/matching/image and word.jpeg',
-        answerKeySrc: '/samples/english/matching/image and word answer_key.jpeg',
-        altText: 'Bilde til ord modus for lesetrening og ordgjenkjenning på småskoletrinnet',
-        pdfDownloadUrl: '/samples/english/matching/image and word.pdf',
+        worksheetSrc: '/samples/norwegian/matching/sample-2.jpeg',
+        answerKeySrc: '/samples/norwegian/matching/sample-2-answer.jpeg',
+        altText: 'Matchingsoppgaver arbeidsark gratis - oppgavehefter barn med bokstaver lære skrive',
+        pdfDownloadUrl: '/samples/norwegian/matching/sample-2.pdf',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/matching/image and custom word.jpeg',
-        answerKeySrc: '/samples/english/matching/image and custom word answer_key.jpeg',
-        altText: 'Egendefinerte ordpar for tilpassede matchingsoppgaver og bokstaver lære skrive',
-        pdfDownloadUrl: '/samples/english/matching/image and custom word.pdf',
+        worksheetSrc: '/samples/norwegian/matching/sample-3.jpeg',
+        answerKeySrc: '/samples/norwegian/matching/sample-3-answer.jpeg',
+        altText: 'Arbeidsark for barn matchingsoppgaver - finmotorikk øvelser gratis utskrifter',
+        pdfDownloadUrl: '/samples/norwegian/matching/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/norwegian/matching/sample-4.jpeg',
+        answerKeySrc: '/samples/norwegian/matching/sample-4-answer.jpeg',
+        altText: 'Kobling arbeidsark gratis - matematikk oppgaver og tall og telling for 1. trinn',
+        pdfDownloadUrl: '/samples/norwegian/matching/sample-4.pdf',
       },
     ],
   },
 
   // Features Grid - FULL text from matching.md feature sections
   features: {
-    sectionTitle: 'Funksjoner for Arbeidsark Gratis - Alt Du Trenger til Matematikk Oppgaver og Bokstaver Lære Skrive',
+    sectionTitle: 'Funksjoner for Gratis Arbeidsark - Alt Du Trenger til Matematikk Oppgaver og Bokstaver Lære Skrive',
     sectionDescription: 'Vår matchingsgenerator kombinerer enkelhet med profesjonell kvalitet for arbeidsark gratis. Lærere kan lage matchingsoppgaver på minutter i stedet for timer. Verktøyet inkluderer alle funksjoner du trenger for å lage effektive oppgavehefter barn. Fra bokstaver lære skrive aktiviteter til matematikk oppgaver, alt er tilgjengelig i ett verktøy. Hver funksjon er designet for å spare tid og forbedre læringsresultatene for elevene dine.',
     highlightBadgeText: 'Viktig Funksjon',
     readMoreLabel: 'Les mer',
@@ -171,7 +204,7 @@ Gråtonealternativet sparer blekkostnader ved utskrift. Merk av gråtone før ne
 
   // How-To Guide - FULL text from matching.md step sections
   howTo: {
-    sectionTitle: 'Slik Lager Du Matchingsoppgaver på 5 Enkle Trinn - Matematikk Oppgaver og Bokstaver Lære Skrive Arbeidsark',
+    sectionTitle: 'Gratis Arbeidsark - Slik Lager Du Matchingsoppgaver på 5 Enkle Trinn - Matematikk Oppgaver og Bokstaver Lære Skrive',
     sectionDescription: 'Å lage profesjonelle matchingsoppgaver tar mindre enn 3 minutter fra start til nedlasting. Følg denne enkle femtrinnsprosessen for å lage arbeidsark gratis til klasserommet ditt. Ingen designferdigheter eller teknisk kunnskap kreves. Systemet guider deg gjennom hvert trinn med klare instruksjoner på norsk. Du kan lage oppgavehefter barn for hele uken på under en time. Hver oppgave kan tilpasses fullstendig til dine elevers læringsnivå.',
     ctaText: 'Start Nå',
     badgeText: 'Slik Fungerer Det',
@@ -251,7 +284,7 @@ Fasitknappen genererer et separat svarark. Svararket viser samme oppgave med lin
 
   // Use Cases - FULL text from matching.md use case sections
   useCases: {
-    sectionTitle: 'Perfekt for Lærere og Foreldre - Arbeidsark Gratis og Matematikk Oppgaver til Alle Behov',
+    sectionTitle: 'Perfekt for Lærere og Foreldre - Gratis Arbeidsark og Matematikk Oppgaver til Alle Behov',
     sectionDescription: 'Matchingsgeneratoren tjener mange forskjellige brukere i utdanningssektoren. Fra barnehage til 3. trinn finner lærere verktøyet uvurderlig for daglig undervisning. Foreldre bruker det til hjemmeundervisning og leksehjelpaktiviteter. Spesialpedagoger lager differensierte oppgavehefter barn for individuelle læringsbehov. Lærerentreprenører selger matchingsoppgaver de lager på nettbaserte markedsplasser. Hver brukergruppe har unike behov som verktøyet møter effektivt.',
     badgeText: 'Hvem Er Det For',
     readMoreLabel: 'Les mer',
@@ -439,7 +472,7 @@ ESL lærere i Norge bruker verktøyet til å lage arbeidsark gratis for nyankomn
 
   // Related Apps - From matching.md "Kombiner" section
   relatedApps: {
-    sectionTitle: 'Kombiner Matchingsoppgaver med Arbeidsark Gratis og Fargeleggingsbilder Barn - Komplette Læringspakker til Småskoletrinnet',
+    sectionTitle: 'Kombiner Matchingsoppgaver med Gratis Arbeidsark og Fargeleggingsbilder Barn - Komplette Læringspakker til Småskoletrinnet',
     sectionDescription: 'Matchingsgeneratoren fungerer best når kombinert med andre gratis verktøy på plattformen. Kjernepakke gir deg tilgang til 10 forskjellige generatorer for komplett undervisningsplanlegging. Lag tematiske ukepakker som kombinerer matching med matematikk oppgaver, fargeleggingsbilder barn, og finmotorikk øvelser. Hver kombinasjon skaper mer engasjerende oppgavehefter barn for elevene dine. Variasjon holder oppmerksomheten og forsterker læringen gjennom flere modaliteter.',
     ctaTitle: 'Klar til å Lage Fantastiske Arbeidsark?',
     ctaDescription: 'Bli med tusenvis av pedagoger som lager profesjonelle arbeidsark. Ubegrenset oppretting, kommersiell lisens inkludert.',

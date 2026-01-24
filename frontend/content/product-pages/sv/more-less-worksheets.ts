@@ -19,6 +19,38 @@ export const moreLessSvContent: ProductPageContent = {
     description: 'Skapa professionella matematik arbetsblad för jämförelse av siffror och tal. Generera anpassade matte övningar med större än, mindre än och lika med symboler. Ladda ner högkvalitativa PDF-arbetsblad på under 3 minuter.',
     keywords: 'matematik arbetsblad, arbetsblad gratis, jämförelse, större än mindre än, förskoleklass material, matte övningar, siffror och tal, taluppfattning',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/jamforelse-arbetsblad',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/more-less/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis arbetsblad jämförelse för förskoleklass - siffror och tal matematik övningar'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/more-less/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis arbetsblad för barn - större än mindre än jämförelse matematik'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/more-less/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Arbetsblad för förskoleklass - jämförelse siffror och tal matte övningar'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/more-less/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis utskrifter jämförelse arbetsblad - matematik för barn'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/more-less/sample-5.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Arbetsblad för barn jämförelse - större mindre lika med övningar'
+      },
+    ],
   },
 
   // Hero Section - FULL text from more-less.md paragraphs 1-4
@@ -30,7 +62,7 @@ export const moreLessSvContent: ProductPageContent = {
 Vår jämförelsegenerator hjälper barn att lära sig siffror och tal genom visuella övningar. Eleverna jämför antal objekt och använder symbolerna större än, mindre än eller lika med. Varje matematik arbetsblad kan anpassas helt efter dina elevers behov. Välj mellan olika bilder, teman och svårighetsgrader.
 
 Använd vårt verktyg för att skapa arbetsblad gratis från per-arbetsblad-avgifter. Full Tillgång-prenumerationen kostar 240 euro per år eller 25 euro per månad. Du får tillgång till alla 33 arbetsbladsgeneratorer inklusive denna jämförelsegenerator. Perfekt för lärare i förskoleklass som behöver matte övningar för taluppfattning och jämförelser.`,
-    previewImageSrc: '/samples/english/more less/image to image.jpeg',
+    previewImageSrc: '/samples/swedish/more-less/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Prova Gratis',
       viewSamples: 'Visa Exempel',
@@ -65,24 +97,38 @@ Använd vårt verktyg för att skapa arbetsblad gratis från per-arbetsblad-avgi
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/more less/image to image.jpeg',
-        answerKeySrc: '/samples/english/more less/image to image answer_key.jpeg',
-        altText: 'Jämförelsearbetsblad bild mot bild för förskoleklass',
-        pdfDownloadUrl: '/samples/english/more less/image to image.pdf',
+        worksheetSrc: '/samples/swedish/more-less/sample-1.jpeg',
+        answerKeySrc: '/samples/swedish/more-less/sample-1-answer.jpeg',
+        altText: 'Gratis arbetsblad jämförelse för förskoleklass - siffror och tal matematik',
+        pdfDownloadUrl: '/samples/swedish/more-less/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/more less/image to number.jpeg',
-        answerKeySrc: '/samples/english/more less/image to number answer_key.jpeg',
-        altText: 'Jämförelsearbetsblad bild mot siffra för siffror och tal',
-        pdfDownloadUrl: '/samples/english/more less/image to number.pdf',
+        worksheetSrc: '/samples/swedish/more-less/sample-2.jpeg',
+        answerKeySrc: '/samples/swedish/more-less/sample-2-answer.jpeg',
+        altText: 'Arbetsblad för barn jämförelse - större än mindre än för matte övningar',
+        pdfDownloadUrl: '/samples/swedish/more-less/sample-2.pdf',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/more less/illustration.jpeg',
-        answerKeySrc: '/samples/english/more less/illustration answer_key.jpeg',
-        altText: 'Jämförelsearbetsblad med illustrerade symboler för matematik',
-        pdfDownloadUrl: '/samples/english/more less/illustration.pdf',
+        worksheetSrc: '/samples/swedish/more-less/sample-3.jpeg',
+        answerKeySrc: '/samples/swedish/more-less/sample-3-answer.jpeg',
+        altText: 'Gratis arbetsblad för förskoleklass - jämförelse siffror och tal',
+        pdfDownloadUrl: '/samples/swedish/more-less/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/swedish/more-less/sample-4.jpeg',
+        answerKeySrc: '/samples/swedish/more-less/sample-4-answer.jpeg',
+        altText: 'Arbetsblad för förskoleklass - matematik jämförelse gratis utskrifter',
+        pdfDownloadUrl: '/samples/swedish/more-less/sample-4.pdf',
+      },
+      {
+        id: '5',
+        worksheetSrc: '/samples/swedish/more-less/sample-5.jpeg',
+        answerKeySrc: '/samples/swedish/more-less/sample-5-answer.jpeg',
+        altText: 'Gratis arbetsblad för barn - större mindre lika med jämförelse',
+        pdfDownloadUrl: '/samples/swedish/more-less/sample-5.pdf',
       },
     ],
   },

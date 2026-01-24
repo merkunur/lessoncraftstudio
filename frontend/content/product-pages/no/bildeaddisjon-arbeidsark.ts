@@ -21,6 +21,32 @@ export const codeAdditionNoContent: ProductPageContent = {
     description: 'Lag profesjonelle bildeaddisjonsoppgaver med vår matematikk oppgaver generator. Generer egendefinerte arbeidsark gratis for utskrift for barnehage og småskoletrinnet elever. Last ned høykvalitets PDF-oppgavehefter barn på under 3 minutter.',
     keywords: 'bildeaddisjonsoppgaver, matematikk oppgaver, arbeidsark gratis, oppgavehefter barn, addisjon og subtraksjon, tall og telling, matteoppgaver, småskoletrinnet, barnehage, gangetabellen',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/bildeaddisjon-arbeidsark',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/norwegian/code-addition/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis arbeidsark bildeaddisjon - matematikk oppgaver med tall og telling for barnehage',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/norwegian/code-addition/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Bildeaddisjonsoppgaver arbeidsark gratis - addisjon og subtraksjon for 1. trinn',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/norwegian/code-addition/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Matematikk oppgaver gratis arbeidsark - oppgavehefter barn for smaskoletrinnet',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/norwegian/code-addition/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Arbeidsark for barn tall og telling - gratis utskrifter bildeaddisjon barnehage',
+      },
+    ],
   },
 
   // Hero Section - FULL text from code-addition.md
@@ -32,7 +58,7 @@ export const codeAdditionNoContent: ProductPageContent = {
 Vår bildeaddisjonsoppgaver-generator gjør addisjon og subtraksjon lett å forstå for små barn. Bilder representerer tall slik at barn kan telle konkrete objekter før de lærer abstrakte tall. Dette hjelper med tall og telling-ferdigheter samtidig som det bygger grunnlaget for matematikk oppgaver. Perfekt for 1. trinn til 3. trinn som trenger visuell støtte for matteoppgaver.
 
 Full Tilgang-abonnementet koster $240 per år eller $25 per måned. Du får tilgang til alle 33 oppgavegeneratorer inkludert bildeaddisjon. Generer så mange matematikk oppgaver og arbeidsark gratis som du trenger uten ekstra kostnader. Alle oppgaver inkluderer kommersiell lisens for videresalg på Teachers Pay Teachers, Etsy eller Amazon KDP.`,
-    previewImageSrc: '/samples/english/code addition/code addition portrait.jpeg',
+    previewImageSrc: '/samples/norwegian/code-addition/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Prøv Gratis',
       viewSamples: 'Se Eksempler',
@@ -51,10 +77,10 @@ Full Tilgang-abonnementet koster $240 per år eller $25 per måned. Du får tilg
     },
   },
 
-  // Sample Gallery - REAL file paths from samples/english/code addition/
+  // Sample Gallery - Norwegian samples from samples/norwegian/code-addition/
   samples: {
-    sectionTitle: 'Bildeaddisjonsoppgaver Arbeidsark Eksempler',
-    sectionDescription: 'Last ned gratis eksempler på arbeidsark for å se vår profesjonelle kvalitet',
+    sectionTitle: 'Gratis Arbeidsark Eksempler - Bildeaddisjonsoppgaver for Barn og 1. Trinn',
+    sectionDescription: 'Last ned gratis eksempler pa arbeidsark for a se var profesjonelle kvalitet. Gratis arbeidsark for barn i barnehage og 1. trinn med profesjonell kvalitet.',
     badgeText: 'Gratis Eksempler',
     downloadLabel: 'Last ned Gratis Eksempel',
     downloadingLabel: 'Laster ned...',
@@ -62,22 +88,36 @@ Full Tilgang-abonnementet koster $240 per år eller $25 per måned. Du får tilg
     answerKeyLabel: 'Fasit',
     viewAllLabel: 'Se alle',
     noPdfLabel: 'Ingen PDF tilgjengelig',
-    freePdfCountLabel: '2 gratis nedlastinger',
+    freePdfCountLabel: '4 gratis nedlastinger',
     ofLabel: 'av',
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/code addition/code addition portrait.jpeg',
-        answerKeySrc: '/samples/english/code addition/code addition answer_key portrait.jpeg',
-        altText: 'Bildeaddisjonsoppgaver portrettformat med matematikk oppgaver for 1. trinn',
-        pdfDownloadUrl: '/samples/english/code addition/code addition portrait.pdf',
+        worksheetSrc: '/samples/norwegian/code-addition/sample-1.jpeg',
+        answerKeySrc: '/samples/norwegian/code-addition/sample-1-answer.jpeg',
+        altText: 'Bildeaddisjonsoppgaver gratis arbeidsark - matematikk oppgaver med tall og telling for barnehage og 1. trinn',
+        pdfDownloadUrl: '/samples/norwegian/code-addition/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/code addition/code addition landscape.jpeg',
-        answerKeySrc: '/samples/english/code addition/code addition answer_key landscape.jpeg',
-        altText: 'Bildeaddisjonsoppgaver liggende format for varierte tall og telling-øvelser',
-        pdfDownloadUrl: '/samples/english/code addition/code addition landscape.pdf',
+        worksheetSrc: '/samples/norwegian/code-addition/sample-2.jpeg',
+        answerKeySrc: '/samples/norwegian/code-addition/sample-2-answer.jpeg',
+        altText: 'Gratis arbeidsark bildeaddisjon - addisjon og subtraksjon oppgavehefter barn for smaskoletrinnet',
+        pdfDownloadUrl: '/samples/norwegian/code-addition/sample-2.pdf',
+      },
+      {
+        id: '3',
+        worksheetSrc: '/samples/norwegian/code-addition/sample-3.jpeg',
+        answerKeySrc: '/samples/norwegian/code-addition/sample-3-answer.jpeg',
+        altText: 'Matematikk oppgaver arbeidsark gratis - bildeaddisjonsoppgaver med matteoppgaver for barn',
+        pdfDownloadUrl: '/samples/norwegian/code-addition/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/norwegian/code-addition/sample-4.jpeg',
+        answerKeySrc: '/samples/norwegian/code-addition/sample-4-answer.jpeg',
+        altText: 'Arbeidsark for barn gratis utskrifter - tall og telling oppgavehefter med gangetabellen',
+        pdfDownloadUrl: '/samples/norwegian/code-addition/sample-4.pdf',
       },
     ],
   },

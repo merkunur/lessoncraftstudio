@@ -38,16 +38,6 @@ export default function robots(): MetadataRoute.Robots {
         userAgent: 'Google-Extended', // Google's AI training
         disallow: '/',
       },
-      {
-        userAgent: 'Bingbot',
-        allow: '/',
-        crawlDelay: 1,
-      },
-      {
-        userAgent: 'Yandex',
-        allow: '/',
-        crawlDelay: 2,
-      },
     ],
     sitemap: `${baseUrl}/sitemap.xml`,
   };

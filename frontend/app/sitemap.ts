@@ -7,62 +7,6 @@ import { getHreflangCode } from '@/lib/schema-generator';
 export const revalidate = 1800;
 
 /**
- * Locale to language folder mapping for sample images
- */
-const localeToFolder: Record<string, string> = {
-  en: 'english',
-  de: 'german',
-  fr: 'french',
-  es: 'spanish',
-  pt: 'portuguese',
-  it: 'italian',
-  nl: 'dutch',
-  sv: 'swedish',
-  da: 'danish',
-  no: 'norwegian',
-  fi: 'finnish',
-};
-
-/**
- * App ID to folder mapping for sample images
- */
-const appIdToFolder: Record<string, string> = {
-  'addition': 'addition',
-  'subtraction': 'subtraction',
-  'math-worksheet': 'math',
-  'pattern-worksheet': 'pattern',
-  'wordsearch': 'wordsearch',
-  'word-scramble': 'word-scramble',
-  'word-guess': 'word-guess',
-  'alphabet-train': 'alphabet-train',
-  'prepositions': 'prepositions',
-  'bingo': 'bingo',
-  'coloring': 'coloring',
-  'sudoku': 'sudoku',
-  'treasure-hunt': 'treasure-hunt',
-  'odd-one-out': 'odd-one-out',
-  'picture-path': 'picture-path',
-  'pattern-train': 'pattern-train',
-  'crossword': 'crossword',
-  'cryptogram': 'cryptogram',
-  'draw-and-color': 'draw-and-color',
-  'drawing-lines': 'drawing-lines',
-  'find-and-count': 'find-and-count',
-  'find-objects': 'find-objects',
-  'grid-match': 'grid-match',
-  'matching': 'matching',
-  'math-puzzle': 'math-puzzle',
-  'missing-pieces': 'missing-pieces',
-  'more-less': 'more-less',
-  'picture-sort': 'picture-sort',
-  'shadow-match': 'shadow-match',
-  'writing': 'writing',
-  'big-small': 'big-small',
-  'chart-count': 'chart-count',
-  'code-addition': 'code-addition',
-};
-
-/**
  * Dynamic sitemap generation with hreflang alternates
  * Includes all public pages, blog posts, product pages, and multilingual routes
  * Each entry includes alternates to all language versions for better SEO
@@ -126,25 +70,14 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   }
 
   // Generate product page routes from configuration (112+ pages)
-  // Now includes sample images for Google Image Search discoverability
   const productRoutes: MetadataRoute.Sitemap = [];
   for (const app of productPageSlugs) {
     // Get all locales that have slugs defined for this app
     const appAlternates = getAlternateUrls(app.appId, baseUrl);
-    const appFolder = appIdToFolder[app.appId] || app.appId;
 
     // Add an entry for each locale that has a slug
     for (const [locale, slug] of Object.entries(app.slugs)) {
       if (slug) {
-        const languageFolder = localeToFolder[locale] || 'english';
-
-        // Generate image URLs for this product page
-        const imageUrls = [
-          `${baseUrl}/samples/${languageFolder}/${appFolder}/${encodeURIComponent(appFolder + '_worksheet portrait.jpeg')}`,
-          `${baseUrl}/samples/${languageFolder}/${appFolder}/${encodeURIComponent(appFolder + '_worksheet landscape.jpeg')}`,
-        ];
-
-        // Type assertion needed because Next.js 14.2+ supports images but types aren't updated
         productRoutes.push({
           url: `${baseUrl}/${locale}/apps/${slug}`,
           lastModified: currentDate,
@@ -153,13 +86,12 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
           alternates: {
             languages: appAlternates,
           },
-          images: imageUrls,
-        } as MetadataRoute.Sitemap[number]);
+        });
       }
     }
   }
 
-  // Fetch published blog posts with PDF counts for priority calculation
+  // Fetch published blog posts
   let blogRoutes: MetadataRoute.Sitemap = [];
   try {
     const blogPosts = await prisma.blogPost.findMany({
@@ -170,40 +102,8 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         slug: true,
         translations: true,
         updatedAt: true,
-        createdAt: true,
-        featured: true,
-        _count: {
-          select: { pdfs: true }
-        }
       },
     });
-
-    /**
-     * Calculate dynamic priority for blog posts based on content quality signals
-     * - Featured posts: 0.7 (highest quality, editorially chosen)
-     * - Posts with PDFs: 0.6 (high value - downloadable content)
-     * - Recent posts (<30 days): 0.6 (fresh content)
-     * - Standard posts: 0.5 (default)
-     * - Old posts (>1 year): 0.4 (stale content)
-     */
-    function calculateBlogPriority(post: { featured?: boolean; _count?: { pdfs: number }; createdAt: Date }): number {
-      // Featured posts get highest priority
-      if (post.featured) return 0.7;
-
-      // Posts with downloadable PDFs are high value
-      if (post._count && post._count.pdfs > 0) return 0.6;
-
-      const ageInDays = Math.floor((currentDate.getTime() - post.createdAt.getTime()) / (1000 * 60 * 60 * 24));
-
-      // Recent posts (less than 30 days) get higher priority
-      if (ageInDays < 30) return 0.6;
-
-      // Old posts (more than 365 days) get lower priority
-      if (ageInDays > 365) return 0.4;
-
-      // Standard posts
-      return 0.5;
-    }
 
     // Generate sitemap entries for each blog post ONLY in locales with actual translations
     blogRoutes = blogPosts.flatMap((post) => {
@@ -244,7 +144,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
           url: `${baseUrl}/${locale}/blog/${localeSlug}`,
           lastModified: post.updatedAt,
           changeFrequency: 'weekly' as const,
-          priority: calculateBlogPriority(post), // Dynamic priority based on content quality
+          priority: 0.5, // Blog posts - support content
           alternates: {
             languages: blogAlternates,
           },
@@ -256,41 +156,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     // Continue without blog posts if database is unavailable
   }
 
-  // Generate blog category archive pages
-  const categoryRoutes: MetadataRoute.Sitemap = [];
-  const categories = [
-    'teaching-resources',
-    'worksheet-tips',
-    'educational-activities',
-    'learning-strategies',
-    'curriculum-guides',
-    'parent-resources',
-    'seasonal-content'
-  ];
-
-  for (const locale of locales) {
-    for (const category of categories) {
-      // Generate alternates for this category
-      const categoryAlternates: Record<string, string> = {};
-      for (const lang of locales) {
-        const hreflangCode = getHreflangCode(lang);
-        categoryAlternates[hreflangCode] = `${baseUrl}/${lang}/blog/category/${category}`;
-      }
-      categoryAlternates['x-default'] = `${baseUrl}/en/blog/category/${category}`;
-
-      categoryRoutes.push({
-        url: `${baseUrl}/${locale}/blog/category/${category}`,
-        lastModified: currentDate,
-        changeFrequency: 'weekly' as const,
-        priority: 0.6, // Category archives - good for discovery
-        alternates: {
-          languages: categoryAlternates,
-        },
-      });
-    }
-  }
-
-  // Combine all routes: static pages, product pages, category archives, then blog posts
+  // Combine all routes: static pages, product pages, then blog posts
   // Order matters for crawl priority
-  return [...staticRoutes, ...productRoutes, ...categoryRoutes, ...blogRoutes];
+  return [...staticRoutes, ...productRoutes, ...blogRoutes];
 }

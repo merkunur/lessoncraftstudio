@@ -15,22 +15,48 @@ export const pictureBingoNoContent: ProductPageContent = {
   seo: {
     slug: 'bildlotto-arbeidsark',
     appId: 'bingo',
-    title: 'Bildlotto Generator - Arbeidsark Gratis for Barnehage og Småskoletrinnet',
-    description: 'Lag profesjonelle bildlottokort på minutter med vår bildlotto-generator. Grunnpakke-abonnementet ditt gir deg ubegrenset tilgang til å lage bildlotto uten ekstra kostnad per ark. Generer tilpassede bildlotto-oppgavehefter barn for barnehage og småskolen.',
-    keywords: 'bildlotto, arbeidsark gratis, oppgavehefter barn, matematikk oppgaver, tall og telling, barnehage, småskoletrinnet, fargeleggingsbilder barn, lesetrening, finmotorikk øvelser',
+    title: 'Gratis Bildlotto Arbeidsark - Generator for Barnehage og 1. Trinn',
+    description: 'Lag gratis bildlotto arbeidsark for barn i barnehage og 1. trinn. Gratis utskrifter med 3000+ bilder. Last ned PDF på 3 min.',
+    keywords: 'bildlotto, gratis arbeidsark, gratis arbeidsark for barn, gratis utskrifter, arbeidsark for barn, arbeidsark for 1. trinn, arbeidsark, oppgavehefter barn, matematikk oppgaver, tall og telling, barnehage, fargeleggingsbilder barn, lesetrening, finmotorikk øvelser',
     canonicalUrl: 'https://www.lessoncraftstudio.com/no/apps/bildlotto-arbeidsark',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/norwegian/bingo/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis bildlotto arbeidsark for barnehage - bildlottokort med bilder for visuell laering'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/norwegian/bingo/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis arbeidsark for barn - bildlotto med ord og bilder for lesetrening'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/norwegian/bingo/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Arbeidsark for 1. trinn - bildlotto med tall og telling aktiviteter'
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/norwegian/bingo/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis utskrifter bildlotto - arbeidsark for barn med tematiske bilder'
+      },
+    ],
   },
 
   // Hero Section - FULL text from bingo.md paragraphs 1-3
   hero: {
-    title: 'Bildlotto Generator - Arbeidsark Gratis for Barnehage',
-    subtitle: 'Oppgavehefter Barn på Småskoletrinnet',
-    description: `Lag profesjonelle bildlottokort på minutter med vår bildlotto-generator. Grunnpakke-abonnementet ditt gir deg ubegrenset tilgang til å lage bildlotto uten ekstra kostnad per ark. Generer tilpassede bildlotto-oppgavehefter barn for barnehage og småskolen. Last ned høykvalitets PDF-ark på under 3 minutter.
+    title: 'Gratis Bildlotto Arbeidsark - Generator for Barnehage',
+    subtitle: 'Gratis Arbeidsark for Barn på 1. Trinn og Småskoletrinnet',
+    description: `Lag gratis arbeidsark for barn med vår bildlotto-generator. Grunnpakke-abonnementet ditt gir deg ubegrenset tilgang til gratis utskrifter uten ekstra kostnad per ark. Generer tilpassede arbeidsark for 1. trinn og barnehage. Last ned høykvalitets PDF-ark på under 3 minutter.
 
 Bildlotto er en fantastisk aktivitet for barn. Kombinerer visuell gjenkjenning med konsentrasjon. Barna elsker spenningen ved å lete etter bilder. Læreren kaller ut bildene en etter en. Elevene merker av på kortene sine. Første elev med full rad vinner.
 
 Vår generator gjør det enkelt. Velg størrelse på rutenettet fra 3x3 til 5x5. Lag 1-10 unike kort samtidig. Bruk bilder eller ord i cellene. Velg fra 3000+ barnevennlige bilder. Last opp egne bilder fra klasserommet. Alt er helt redigerbart på lerret.`,
-    previewImageSrc: '/samples/english/bingo/image and image.jpeg',
+    previewImageSrc: '/samples/norwegian/bingo/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Prøv Gratis',
       viewSamples: 'Se Eksempler',
@@ -49,10 +75,10 @@ Vår generator gjør det enkelt. Velg størrelse på rutenettet fra 3x3 til 5x5.
     },
   },
 
-  // Sample Gallery - REAL file paths from samples/english/bingo/
+  // Sample Gallery - REAL file paths from samples/norwegian/bingo/
   samples: {
-    sectionTitle: 'Bildlotto Arbeidsark Eksempler',
-    sectionDescription: 'Last ned gratis eksempler på bildlottokort for å se vår profesjonelle kvalitet',
+    sectionTitle: 'Gratis Arbeidsark Eksempler - Bildlotto for Barn',
+    sectionDescription: 'Last ned gratis utskrifter av bildlottokort for å se vår profesjonelle kvalitet. Gratis arbeidsark for barn i barnehage og 1. trinn.',
     badgeText: 'Gratis Eksempler',
     downloadLabel: 'Last ned Gratis Eksempel',
     downloadingLabel: 'Laster ned...',
@@ -65,25 +91,39 @@ Vår generator gjør det enkelt. Velg størrelse på rutenettet fra 3x3 til 5x5.
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/bingo/image and image.jpeg',
-        answerKeySrc: '/samples/english/bingo/image and image callout.jpeg',
-        altText: 'Bildlotto med bilder på kort og brikker for barnehage og småskole',
-        pdfDownloadUrl: '/samples/english/bingo/image and image.pdf',
+        worksheetSrc: '/samples/norwegian/bingo/sample-1.jpeg',
+        answerKeySrc: '/samples/norwegian/bingo/sample-1-answer.jpeg',
+        altText: 'Gratis bildlotto arbeidsark for barn - bildlottokort med bilder for barnehage og 1. trinn',
+        pdfDownloadUrl: '/samples/norwegian/bingo/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/bingo/image and word.jpeg',
-        answerKeySrc: '/samples/english/bingo/image and word callout.jpeg',
-        altText: 'Bildlotto med bilder på kort og ord på brikker for lesetrening',
-        pdfDownloadUrl: '/samples/english/bingo/image and word.pdf',
+        worksheetSrc: '/samples/norwegian/bingo/sample-2.jpeg',
+        answerKeySrc: '/samples/norwegian/bingo/sample-2-answer.jpeg',
+        altText: 'Gratis arbeidsark bildlotto med bilder og ord - arbeidsark for barn til lesetrening',
+        pdfDownloadUrl: '/samples/norwegian/bingo/sample-2.pdf',
+      },
+      {
+        id: '3',
+        worksheetSrc: '/samples/norwegian/bingo/sample-3.jpeg',
+        answerKeySrc: '/samples/norwegian/bingo/sample-3-answer.jpeg',
+        altText: 'Arbeidsark for 1. trinn - gratis bildlotto utskrifter med tall og telling aktiviteter',
+        pdfDownloadUrl: '/samples/norwegian/bingo/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/norwegian/bingo/sample-4.jpeg',
+        answerKeySrc: '/samples/norwegian/bingo/sample-4-answer.jpeg',
+        altText: 'Gratis utskrifter bildlotto arbeidsark - arbeidsark for barn med tematiske bilder',
+        pdfDownloadUrl: '/samples/norwegian/bingo/sample-4.pdf',
       },
     ],
   },
 
   // Features Grid - FULL text from bingo.md feature sections
   features: {
-    sectionTitle: 'Bildlotto Generator Funksjoner - Alt du Trenger for Arbeidsark Gratis og Oppgavehefter Barn',
-    sectionDescription: 'Vår bildlotto-generator har alle funksjoner du trenger. Lag profesjonelle oppgavehefter barn på minutter. Ingen designferdigheter kreves. Alt er bygget for lærere av lærere. Brukes av tusenvis av pedagoger i Norge. Perfekt for barnehage og småskoletrinnet.',
+    sectionTitle: 'Gratis Arbeidsark Funksjoner - Bildlotto Generator for Barn og 1. Trinn',
+    sectionDescription: 'Vår bildlotto-generator har alle funksjoner du trenger. Lag gratis arbeidsark for barn på minutter. Gratis utskrifter for barnehage og arbeidsark for 1. trinn. Alt er bygget for lærere av lærere. Brukes av tusenvis av pedagoger i Norge.',
     highlightBadgeText: 'Viktig Funksjon',
     readMoreLabel: 'Les mer',
     showLessLabel: 'Vis mindre',
@@ -97,7 +137,7 @@ Vår generator gjør det enkelt. Velg størrelse på rutenettet fra 3x3 til 5x5.
       {
         id: '1',
         icon: '⚡',
-        title: 'Lag Bildlotto Arbeidsark Gratis på 3 Klikk - Rask Generator for Matematikk Oppgaver og Tall og Telling',
+        title: 'Lag Gratis Arbeidsark for Barn på 3 Klikk - Bildlotto Generator for 1. Trinn og Tall og Telling',
         description: `Velg tema eller bilder fra biblioteket. Velg størrelse på rutenettet fra 3x3 til 5x5. Klikk på Generer-knappen. Ferdig. Dine bildlottokort er klare på sekunder. Perfekt for matematikk oppgaver med tallbilder. Bruk bokstavbilder for lesetrening. Kombiner med fargeleggingsbilder barn for varierte aktiviteter.
 
 Hver bildlotto genereres tilfeldig. Ingen to kort er like. Lager 1-10 unike kort samtidig. Hvert kort har forskjellig plassering av bilder. Elevene kan ikke jukse ved å se på hverandres kort. Perfekt for klasserommet.
@@ -108,7 +148,7 @@ Velg om cellene skal vise bilder eller ord. Velg om brikkene skal vise bilder el
       {
         id: '2',
         icon: '✏️',
-        title: 'Rediger Alt på Bildlotto-Lerretet - Tilpass Oppgavehefter Barn for Bokstaver Lære Skrive og Finmotorikk Øvelser',
+        title: 'Rediger Gratis Arbeidsark på Lerretet - Tilpass Arbeidsark for Barn og 1. Trinn med Finmotorikk Øvelser',
         description: `Etter generering kan du redigere alt. Dra bilder til nye posisjoner. Endre størrelse med musepekeren. Roter bilder for variasjon. Slett elementer du ikke vil ha. Legg til egne tekster og overskrifter.
 
 Bruk verktøylinjen for presis kontroll. Juster lagordning med et klikk. Send bakover eller frem. Lås objekter når du er fornøyd. Angre og gjør om med historikkfunksjonen. Full kontroll over alle elementer.
@@ -119,7 +159,7 @@ Perfekt for å lage bokstaver lære skrive aktiviteter. Legg til bokstaver ved s
       {
         id: '3',
         icon: '📤',
-        title: 'Last Opp Egne Bilder - Personlige Arbeidsark Gratis for Addisjon og Subtraksjon og Gangetabellen',
+        title: 'Last Opp Egne Bilder - Gratis Arbeidsark for Barn med Personlige Bilder og Gangetabellen',
         description: `Last opp bilder fra din egen datamaskin. Velg flere filer samtidig. Aksepterer JPEG, PNG og GIF. Forhåndsvisning vises umiddelbart. Kombiner med biblioteksbilder. Personaliserte bildlottoer for dine elever.
 
 Last opp bilder av elevenes ansikter. Lag navnelotto for første skoledag. Last opp klasseromsobjekter. Lag gjenstands-gjenkjenningslotto. Last opp tallbilder for matematikk oppgaver. Lag addisjon og subtraksjon bildlotto med egne illustrasjoner.
@@ -141,7 +181,7 @@ Lag tospråklige bildlottoer. Norsk på kortene, engelsk på brikkene. Eller omv
       {
         id: '5',
         icon: '💰',
-        title: 'Kommersiell POD-Lisens - Selg Arbeidsark Gratis og Matematikk Oppgaver uten Ekstra Gebyrer',
+        title: 'Kommersiell POD-Lisens - Selg Gratis Arbeidsark for Barn og Arbeidsark for 1. Trinn',
         description: `Grunnpakke inkluderer full kommersiell lisens. Ingen ekstra kostnader for å selge. Selg på Teachers Pay Teachers. Selg på Etsy. Selg på Amazon KDP. Ingen attribusjon påkrevd. Du eier det du lager.
 
 Tusenvis av lærere selger oppgavehefter barn. Inntekt fra 5000 kr til 50 000 kr per måned. Noen tjener enda mer. Lag bildlotto-pakker for forskjellige temaer. Selg som digitale nedlastninger. Eller lag fysiske hefter med Amazon KDP.
@@ -163,7 +203,7 @@ Kombiner med fargeleggingsbilder barn-konseptet. Bruk enkel linjetegning-bilder.
       {
         id: '7',
         icon: '🖨️',
-        title: 'Profesjonell 300 DPI-kvalitet - Høyoppløselige Oppgavehefter Barn for Utskrift og Salg',
+        title: 'Gratis Utskrifter i 300 DPI - Arbeidsark for 1. Trinn og Gratis Arbeidsark for Barn',
         description: `Last ned som JPEG eller PDF. Begge formater i 300 DPI. Profesjonell utskriftskvalitet. Skarp og klar på papir. Ingen pikslering eller uskarpe bilder. Ser like bra ut hjemme som hos profesjonell trykker.
 
 Gråtonealternativ sparer blekkpatroner. Skriv ut i sort-hvitt uten fargetap. Bildene er fortsatt gjenkjennelige. Perfekt for store klasserom med mange utskrifter. Spar hundrevis av kroner på blekkpatroner.
@@ -176,8 +216,8 @@ Lag arbeidsark gratis med profesjonelt utseende. Elevene får materialer de er s
 
   // How-To Guide - FULL text from bingo.md step sections
   howTo: {
-    sectionTitle: 'Hvordan Lage Bildlotto Arbeidsark Gratis på 5 Enkle Trinn - Matematikk Oppgaver og Oppgavehefter Barn',
-    sectionDescription: 'Lag profesjonelle bildlottokort på under 3 minutter. Ingen erfaring nødvendig. Følg disse 5 enkle trinnene. Du vil ha ferdige oppgavehefter barn klare til utskrift. Tusenvis av norske lærere bruker denne metoden. Fungerer perfekt for barnehage og småskoletrinnet.',
+    sectionTitle: 'Lag Gratis Arbeidsark for Barn - Bildlotto på 5 Enkle Trinn for 1. Trinn',
+    sectionDescription: 'Lag gratis utskrifter av bildlottokort på under 3 minutter. Ingen erfaring nødvendig. Følg disse 5 enkle trinnene. Du vil ha ferdige arbeidsark for barn klare til utskrift. Tusenvis av norske lærere bruker denne metoden. Fungerer perfekt for arbeidsark for 1. trinn og barnehage.',
     ctaText: 'Start Nå',
     badgeText: 'Slik Fungerer Det',
     stepLabel: 'Trinn',
@@ -268,8 +308,8 @@ Lag flere sett om nødvendig. Klikk Generer igjen for nye kort. Samme bilder, ny
 
   // Use Cases - FULL text from bingo.md use case sections
   useCases: {
-    sectionTitle: 'Perfekt for Lærere, Foreldre og Pedagoger - Arbeidsark Gratis for Oppgavehefter Barn og Matematikk Oppgaver',
-    sectionDescription: 'Bildlotto-generatoren fungerer for alle som underviser barn. Barnehagepedagoger elsker den visuelle tilnærmingen. Småskolelærere bruker den for akademisk læring. Hjemmeundervisende foreldre setter pris på fleksibiliteten. ESL-lærere trenger flerspråkfunksjonen. Spesialpedagoger bruker differensieringsmulighetene.',
+    sectionTitle: 'Gratis Arbeidsark for Barn - Perfekt for Lærere på 1. Trinn og Foreldre',
+    sectionDescription: 'Bildlotto-generatoren fungerer for alle som underviser barn. Lag gratis utskrifter enkelt. Barnehagepedagoger elsker den visuelle tilnærmingen. Småskolelærere bruker gratis arbeidsark for 1. trinn. Hjemmeundervisende foreldre setter pris på gratis arbeidsark for barn. ESL-lærere trenger flerspråkfunksjonen.',
     badgeText: 'Hvem Er Det For',
     readMoreLabel: 'Les mer',
     showLessLabel: 'Vis mindre',
@@ -375,8 +415,8 @@ Lag sesongspesifikke bildlottoer. September: tilbake-til-skolen bildlotto. Oktob
 
   // FAQ Section - From bingo.md
   faq: {
-    sectionTitle: 'Ofte Stilte Spørsmål om Bildlotto - Matematikk Oppgaver og Lesetrening',
-    sectionDescription: 'Lærere har mange spørsmål om bildlotto-generatoren. Vi får de samme spørsmålene gang på gang. Her er de 12 mest stilte spørsmålene. Svar på alt du lurer på. Fra priser til funksjoner. Fra tekniske detaljer til pedagogisk bruk.',
+    sectionTitle: 'Gratis Arbeidsark FAQ - Ofte Stilte Spørsmål om Bildlotto for Barn',
+    sectionDescription: 'Lærere har mange spørsmål om gratis arbeidsark og bildlotto. Vi får de samme spørsmålene gang på gang. Her er de mest stilte spørsmålene om arbeidsark for barn og 1. trinn. Svar på alt du lurer på. Fra gratis utskrifter til funksjoner.',
     showMoreText: 'Vis flere spørsmål',
     showLessText: 'Vis færre',
     badgeText: 'FAQ',
@@ -445,6 +485,36 @@ Lag sesongspesifikke bildlottoer. September: tilbake-til-skolen bildlotto. Oktob
         question: 'Kan Jeg Lage Addisjon og Subtraksjon Bildlotto med Lesetrening og Finmotorikk Integrasjon?',
         answer: 'Ja, kombiner flere læringsmål i én bildlotto. Lag addisjon og subtraksjon kort med ordproblemer. Elevene leser, regner og spiller. Tverrfaglig læring. Matematikk møter lesetrening. Legg til finmotorikk øvelser elementer. Elevene klipper ut kortene selv. Saksøvelse. Elevene fargelegger først. Fargeøvelse. Elevene plasserer små objekter på rutene. Finmotorikk. Alt i én aktivitet. Full redigerbarhet tillater kreativitet. Legg til instruksjoner på kortene. Legg til sporingslinjer for skriveøvelse. Legg til telleobjekter. Multimodal læring i én bildlotto. Maksimal verdi.',
       },
+      {
+        id: '13',
+        question: 'Er Gratis Arbeidsark for Barn Virkelig Inkludert i Abonnementet?',
+        answer: 'Ja, gratis arbeidsark for barn er inkludert. Grunnpakke gir ubegrenset tilgang. Lag så mange gratis utskrifter du trenger. Ingen ekstra kostnader per ark. Ingen begrensninger på antall nedlastinger. Perfekt for arbeidsark for 1. trinn og barnehage. Lag gratis arbeidsark hver dag uten ekstra betaling.',
+      },
+      {
+        id: '14',
+        question: 'Hvordan Lager Jeg Gratis Utskrifter med Bildlotto-Generatoren?',
+        answer: 'Lag gratis utskrifter enkelt. Velg tema og bilder. Juster innstillinger for arbeidsark for barn. Klikk Generer. Last ned som PDF. Skriv ut hjemme eller på skolen. Gratis arbeidsark for barn er klare på 3 minutter. Profesjonell 300 DPI-kvalitet. Perfekt for arbeidsark for 1. trinn.',
+      },
+      {
+        id: '15',
+        question: 'Fungerer Gratis Arbeidsark for 1. Trinn og Barnehage?',
+        answer: 'Ja, gratis arbeidsark fungerer perfekt for begge. Arbeidsark for 1. trinn bruker 4x4 eller 5x5 rutenett. Barnehage bruker 3x3 rutenett. Juster vanskelighetsgrad etter behov. Gratis arbeidsark for barn tilpasses alle nivåer. Samme generator, forskjellige innstillinger.',
+      },
+      {
+        id: '16',
+        question: 'Kan Jeg Kombinere Bildlotto med Andre Gratis Arbeidsark?',
+        answer: 'Ja, kombiner med alle Grunnpakke-verktøy. Lag gratis arbeidsark for barn med fargelegging først. Deretter bildlotto med samme tema. Gratis utskrifter fra flere verktøy. Tematisk kontinuitet. Arbeidsark for 1. trinn som henger sammen. Maksimal pedagogisk verdi.',
+      },
+      {
+        id: '17',
+        question: 'Hvor Finner Jeg Flere Gratis Arbeidsark Ideer?',
+        answer: 'Gratis arbeidsark ideer finnes overalt. Bruk tematiske bilder fra biblioteket. Lag årstidsbildlotto. Lag feriebildlotto. Lag fagspesifikke gratis arbeidsark for barn. Arbeidsark for 1. trinn om dyr, natur, tall. Gratis utskrifter for alle temaer du underviser.',
+      },
+      {
+        id: '18',
+        question: 'Er Gratis Arbeidsark Kvaliteten God Nok for Utskrift?',
+        answer: 'Ja, alle gratis arbeidsark er 300 DPI. Profesjonell utskriftskvalitet. Skarp og klar på papir. Gratis arbeidsark for barn ser profesjonelle ut. Arbeidsark for 1. trinn med høy kvalitet. Gratis utskrifter som imponerer foreldre og kollegaer. Ingen forskjell fra betalte ressurser.',
+      },
     ],
   },
 
@@ -480,10 +550,10 @@ Lag sesongspesifikke bildlottoer. September: tilbake-til-skolen bildlotto. Oktob
 
   // Related Apps - From bingo.md "Kombiner" section
   relatedApps: {
-    sectionTitle: 'Kombiner Bildlotto med Andre Grunnpakke Verktøy - Bokstaver Lære Skrive og Fargeleggingsbilder Barn Integrasjon',
-    sectionDescription: 'Grunnpakke inkluderer 10 populære verktøy. Bildlotto-generatoren er bare ett av dem. Den virkelige magien skjer når du kombinerer verktøy. Lag bildlotto med fargeleggingsapp. Kombiner med arbeidsarkgenerator. Integrere med leseverktøy. Tverrfaglig læring maksimerer verdien.',
-    ctaTitle: 'Klar til å Lage Fantastiske Bildlottoer?',
-    ctaDescription: 'Bli med tusenvis av pedagoger som lager profesjonelle bildlotto. Ubegrenset oppretting, kommersiell lisens inkludert.',
+    sectionTitle: 'Gratis Arbeidsark for Barn - Kombiner Bildlotto med Andre Verktøy for 1. Trinn',
+    sectionDescription: 'Grunnpakke inkluderer 10 populære verktøy. Lag gratis utskrifter fra alle sammen. Kombiner bildlotto med gratis arbeidsark for fargelegging. Lag arbeidsark for 1. trinn med flere verktøy. Gratis arbeidsark for barn i alle fag. Tverrfaglig læring maksimerer verdien.',
+    ctaTitle: 'Klar til å Lage Gratis Arbeidsark for Barn?',
+    ctaDescription: 'Bli med tusenvis av pedagoger som lager gratis arbeidsark for 1. trinn og barnehage. Gratis utskrifter, ubegrenset oppretting, kommersiell lisens inkludert.',
     primaryCtaText: 'Start Gratis Prøveperiode',
     secondaryCtaText: 'Se Alle 33 Generatorer',
     badgeText: 'Fungerer Godt Med',

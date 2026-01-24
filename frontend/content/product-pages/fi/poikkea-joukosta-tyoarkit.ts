@@ -51,8 +51,8 @@ Täysi Käyttöoikeus -tilaus maksaa 240 dollaria vuodessa tai 25 dollaria kuuka
 
   // Sample Gallery - REAL file paths from samples/english/odd one out/
   samples: {
-    sectionTitle: 'Poikkea Joukosta Tehtävät Esimerkit',
-    sectionDescription: 'Lataa ilmaiset esimerkkityöarkit nähdäksesi ammattimaisen laatumme',
+    sectionTitle: 'Ilmainen Työarkki Lapsille - Ilmaiset Työarkit ja Ilmaiset Tulosteet',
+    sectionDescription: 'Lataa ilmaiset tulosteet - Ilmainen työarkki lapsille ammattimaista laatua. Ilmaiset työarkit ja työarkki lapsille täydellinen työarkki esiopetukseen. Ilmainen työarkki lapsille ja työarkki lapsille sisältää ilmaiset tulosteet ja ilmaiset työarkit opetusmateriaalin. Ilmainen työarkki ja työarkki esiopetukseen saatavilla',
     downloadLabel: 'Lataa Ilmainen Esimerkki',
     worksheetLabel: 'Tehtävämoniste',
     answerKeyLabel: 'Vastausavain',
@@ -82,7 +82,7 @@ Täysi Käyttöoikeus -tilaus maksaa 240 dollaria vuodessa tai 25 dollaria kuuka
 
   // Features Grid - FULL text from Finnish odd-one-out.md feature sections
   features: {
-    sectionTitle: 'Ominaisuudet - Kaikki Mitä Tarvitset Tulostettaviin Tehtäviin Lapsille Ilmainen ja Esiopetus Materiaali',
+    sectionTitle: 'Ilmaiset Työarkit ja Työarkki Lapsille - Ilmaiset Tulosteet ja Työarkki Esiopetukseen',
     sectionDescription: 'Poikkea joukosta -generaattori tarjoaa täydellisen työkalupakin visuaalisen hahmottamisen tehtävien luomiseen. Luo tulostettavia tehtäviä lapsille kolmessa klikkauksessa. Muokkaa kaikkea tehtävämonisterilla. Yhdistä hienomotoriikan harjoitukset, matematiikan tehtävät alakoululle ja lukemaan oppimisen tehtävät yhdelle sivulle. Täysi Käyttöoikeus -tilauksesi antaa pääsyn kaikkiin ominaisuuksiin ilman rajoituksia.',
     highlightBadgeText: 'Tärkeä Ominaisuus',
     readMoreLabel: 'Lue lisää',
@@ -186,7 +186,7 @@ Ammattilaatuiset tehtävät rakentavat mainetta. Vanhemmat näkevät laadun. Reh
 
   // How-To Guide - FULL text from Finnish odd-one-out.md step sections
   howTo: {
-    sectionTitle: 'Kuinka Luoda Tulostettavat Tehtävät Lapsille Ilmainen Viidessä Helpossa Vaiheessa',
+    sectionTitle: 'Ilmainen Työarkki Lapsille Luoda - Työarkki Esiopetukseen',
     sectionDescription: 'Luo ammattimaisia tulostettavia tehtäviä lapsille alle kolmessa minuutissa. Ei tarvita suunnitteluosaamista. Ei tarvita teknistä koulutusta. Seuraa näitä viittä yksinkertaista vaihetta. Ensimmäinen esiopetuksen materiaalisi on valmis ennen kuin kahvisi ehtii jäähtyä.',
     ctaText: 'Aloita Luominen Nyt',
     badgeText: 'Näin Se Toimii',
@@ -278,7 +278,7 @@ Tiedosto latautuu välittömästi. Avaa PDF-lukijassasi. Tulosta. Jaa oppilaille
 
   // Use Cases - FULL text from Finnish odd-one-out.md use case sections
   useCases: {
-    sectionTitle: 'Täydellinen Opettajille, Vanhemmille ja Kasvattajille - Tulostettavat Tehtävät Lapsille Ilmainen Jokaiseen Tarpeeseen',
+    sectionTitle: 'Ilmainen Työarkki Lapsille - Työarkki Esiopetukseen ja Ilmaiset Tulosteet. Työarkki Lapsille',
     sectionDescription: 'Poikkea joukosta -generaattori palvelee kuutta eri käyttäjäryhmää. Esiopetuksen opettajat. Alakoulun opettajat. Kotiopettajat. Erityisopettajat. Kieltenopettajat. Opettajayrittäjät. Jokainen ryhmä hyötyy eri tavalla. Luo tulostettavia tehtäviä lapsille jotka sopivat täydellisesti opetustilanteeseen.',
     badgeText: 'Kenelle Sopii',
     readMoreLabel: 'Lue lisää',
@@ -385,7 +385,7 @@ Rakenna asiakaspohjaa. Ensimmäinen myynti viikossa 1. Viisi myyntiä viikossa k
 
   // FAQ Section - Selected FAQs from Finnish odd-one-out.md
   faq: {
-    sectionTitle: 'Usein Kysytyt Kysymykset Tulostettavista Tehtävistä Lapsille Ilmainen',
+    sectionTitle: 'FAQ - Ilmainen Työarkki Lapsille ja Työarkki Esiopetukseen. Työarkki Lapsille',
     sectionDescription: 'Opettajat kysyvät samoja kysymyksiä ennen tilaamista. Tässä vastaukset 12 yleisimpään kysymykseen. Lue nämä ennen kuin teet ostopäätöksen. Saat selkeän kuvan siitä mitä Täysi Käyttöoikeus -tilaus tarjoaa.',
     showMoreText: 'Näytä lisää kysymyksiä',
     showLessText: 'Näytä vähemmän',
@@ -513,7 +513,7 @@ Rakenna asiakaspohjaa. Ensimmäinen myynti viikossa 1. Viisi myyntiä viikossa k
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Yhdistä Muihin Tehtävämonistegeneraattoreihin',
+    sectionTitle: 'Ilmaiset Työarkit Yhdistää - Työarkki Lapsille ja Ilmaiset Tulosteet',
     sectionDescription: 'Luo kattavia oppimispaketteja yhdistämällä poikkea joukosta -tehtävät näihin täydentäviin generaattoreihin.',
     ctaTitle: 'Valmiina Luomaan Upeita Tehtävämonisteitä?',
     ctaDescription: 'Liity tuhansien opettajien joukkoon, jotka luovat ammattimaisia tehtävämonisteitä. Rajoittamaton generointi, kaupallinen lisenssi sisältyy.',

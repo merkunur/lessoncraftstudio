@@ -76,7 +76,7 @@ This treasure hunt generator creates unique worksheets every time you click gene
 
   // Sample Gallery - REAL file paths from samples/english/treasure-hunt/
   samples: {
-    sectionTitle: 'Worksheet Samples',
+    sectionTitle: 'Free Worksheet for Kids - Free Worksheets and Free Printables',
     downloadLabel: 'Download Free Sample',
     worksheetLabel: 'Worksheet',
     answerKeyLabel: 'Answer Key',
@@ -121,8 +121,8 @@ This treasure hunt generator creates unique worksheets every time you click gene
 
   // Features Grid - FULL descriptions from treasure-hunt.md H3 sections
   features: {
-    sectionTitle: 'Everything You Need for Treasure Hunt Worksheets',
-    sectionDescription: 'Our treasure hunt worksheet maker includes seven powerful features that help teachers create professional following directions worksheets in minutes. Each feature works together to give you complete control over your kindergarten worksheets and first grade worksheets. Generate unlimited treasure hunt activities with your Full Access subscription. No per-worksheet fees mean you can create as many free printable worksheets as your students need.',
+    sectionTitle: 'Free Worksheet for Kids Features - Worksheet for Kindergarten',
+    sectionDescription: 'Our treasure hunt worksheet maker includes seven powerful features that help teachers create professional free worksheet for kids in minutes. Each feature works together to give you complete control over your free worksheet for kids and first grade worksheets. Generate unlimited free worksheet for kids with your Full Access subscription. No per-worksheet fees mean you can create as many free worksheet for kids as your students need.',
     highlightBadgeText: 'Key Feature',
     items: [
       {
@@ -179,7 +179,7 @@ This treasure hunt generator creates unique worksheets every time you click gene
 
   // How-To Guide - FULL text from treasure-hunt.md Step sections
   howTo: {
-    sectionTitle: 'Create Treasure Hunt Worksheets in 5 Easy Steps',
+    sectionTitle: 'How to Create Free Worksheets for Kids in 5 Steps',
     sectionDescription: 'Generate professional treasure hunt worksheets in under 3 minutes following this simple five-step process. No design skills required. Teachers create custom kindergarten worksheets and first grade worksheets during prep periods or planning time. The streamlined workflow helps you build entire worksheet packets combining treasure hunts with math worksheets, alphabet worksheets, and addition worksheets for comprehensive learning units.',
     ctaText: 'Start Creating Now',
     steps: [
@@ -223,7 +223,7 @@ This treasure hunt generator creates unique worksheets every time you click gene
 
   // Use Cases - FULL descriptions from treasure-hunt.md persona sections
   useCases: {
-    sectionTitle: 'Perfect for Teachers, Parents, and Educators',
+    sectionTitle: 'Free Printables for Teachers - Worksheet for Kids and Kindergarten',
     sectionDescription: 'Treasure hunt worksheets serve diverse educational settings from traditional classrooms to homeschool environments. Teachers across grade levels use following directions activities to build reading comprehension, spatial awareness, and critical thinking skills. The flexible format adapts to different curriculum standards and learning objectives. Create unlimited free printable worksheets for daily practice, assessment, enrichment, or intervention programs.',
     items: [
       {
@@ -279,7 +279,7 @@ This treasure hunt generator creates unique worksheets every time you click gene
 
   // FAQ Section - ALL questions from treasure-hunt.md
   faq: {
-    sectionTitle: 'Frequently Asked Questions',
+    sectionTitle: 'FAQ - Free Worksheet for Kids and Worksheet for Kindergarten',
     sectionDescription: 'Teachers commonly ask eighteen questions about creating treasure hunt worksheets and using the generator effectively. These answers address pricing, usage rights, customization options, and technical details. Understanding these fundamentals helps you maximize your Full Access subscription value and create better educational materials for your students.',
     showMoreText: 'Show more questions',
     showLessText: 'Show less',
@@ -434,7 +434,7 @@ This treasure hunt generator creates unique worksheets every time you click gene
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Combine with Other Worksheet Generators',
+    sectionTitle: 'More Free Worksheets - Free Printables Generators',
     sectionDescription: 'Your Full Access subscription includes 33 different worksheet generators. Combine treasure hunt activities with alphabet worksheets, math worksheets, and coloring worksheets for comprehensive learning packets. Every generator works seamlessly together for thematic curriculum units.',
     ctaTitle: 'Ready to Create Amazing Worksheets?',
     ctaDescription: 'Join educators creating professional worksheets. Unlimited generation, commercial license included.',

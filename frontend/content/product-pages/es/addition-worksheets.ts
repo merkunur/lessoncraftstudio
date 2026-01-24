@@ -83,8 +83,8 @@ El generador crea fichas para imprimir completamente personalizables en segundos
 
   // Sample Gallery - REAL file paths from samples/english/addition/
   samples: {
-    sectionTitle: 'Ejemplos de Fichas de Sumas',
-    sectionDescription: 'Descarga ejemplos gratuitos para ver nuestra calidad profesional',
+    sectionTitle: 'Ficha Gratis para Niños - Fichas Gratis e Imprimibles Gratis',
+    sectionDescription: 'Descarga imprimibles gratis - Ficha gratis para niños de calidad profesional. Ficha para niños perfecta para ficha para preescolar. Ficha gratis para niños y ficha para niños incluyen material educativo. Ficha gratis disponible',
     downloadLabel: 'Descargar Ejemplo Gratis',
     worksheetLabel: 'Ficha',
     answerKeyLabel: 'Respuestas',
@@ -135,7 +135,7 @@ El generador crea fichas para imprimir completamente personalizables en segundos
 
   // Features Grid - FULL text from addition.md feature sections
   features: {
-    sectionTitle: 'Características del Generador de Fichas de Matemáticas - Todo lo que Necesitas para Crear Ejercicios de Sumas Profesionales',
+    sectionTitle: 'Fichas Gratis y Ficha para Niños - Imprimibles Gratis y Ficha para Preescolar',
     sectionDescription: 'Nuestro generador de fichas para imprimir incluye todas las herramientas que los maestros necesitan para crear ejercicios matemáticas de alta calidad. Desde la selección de imágenes hasta la personalización completa del diseño, cada característica está diseñada para ahorrarte tiempo y crear material educativo profesional. La suscripción Paquete Esencial te da acceso ilimitado a todas estas funciones por $144 al año o $15 al mes.',
     highlightBadgeText: 'Característica Clave',
     readMoreLabel: 'Leer más',
@@ -227,7 +227,7 @@ Esta calidad profesional significa que tus ejercicios matemáticas lucen tan bie
 
   // How-To Guide - FULL text from addition.md step sections
   howTo: {
-    sectionTitle: 'Cómo Crear Fichas de Matemáticas en 5 Pasos Fáciles - Generador de Ejercicios de Sumas Listo en Menos de 3 Minutos',
+    sectionTitle: 'Ficha Gratis para Niños Crear - Ficha para Preescolar',
     sectionDescription: 'Crear fichas para imprimir profesionales con nuestro generador toma menos de 3 minutos del inicio al final. No necesitas experiencia técnica. No necesitas conocimientos de diseño gráfico. Solo sigue estos cinco pasos simples y tendrás ejercicios matemáticas listos para tus estudiantes. El proceso es tan intuitivo que lo dominarás desde el primer uso.',
     ctaText: 'Comenzar Ahora',
     badgeText: 'Cómo Funciona',
@@ -327,7 +327,7 @@ La descarga comienza inmediatamente. El archivo se guarda en tu carpeta de desca
 
   // Use Cases - FULL text from addition.md use case sections
   useCases: {
-    sectionTitle: 'Perfecto para Maestros, Padres y Educadores - Fichas para Imprimir de Matemáticas para Cada Necesidad Educativa',
+    sectionTitle: 'Ficha Gratis para Niños - Ficha para Preescolar con Imprimibles Gratis. Ficha para Niños',
     sectionDescription: 'Nuestro generador de ejercicios matemáticas sirve a educadores en múltiples contextos. Maestros de escuelas públicas y privadas lo usan diariamente. Padres educadores en casa crean planes de estudio completos. Maestros de educación especial adaptan materiales para necesidades individuales. Profesores de educación bilingüe enseñan en múltiples idiomas. Emprendedores educativos construyen negocios vendiendo material educativo gratis personalizado.',
     badgeText: 'Para Quién',
     readMoreLabel: 'Leer más',
@@ -422,7 +422,7 @@ La calidad profesional de 300 DPI asegura que tus productos compitan con editori
 
   // FAQ Section - Selected FAQs from addition.md
   faq: {
-    sectionTitle: 'Preguntas Frecuentes sobre Fichas para Imprimir de Sumas - Todo lo que Necesitas Saber sobre Material Educativo Gratis',
+    sectionTitle: 'FAQ - Ficha Gratis para Niños y Ficha para Preescolar. Ficha para Niños',
     sectionDescription: 'Los maestros y padres tienen preguntas comunes sobre nuestro generador de ejercicios matemáticas. Aquí respondemos las preguntas más frecuentes sobre crear fichas infantil profesionales.',
     showMoreText: 'Ver más preguntas',
     showLessText: 'Ver menos',
@@ -527,7 +527,7 @@ La calidad profesional de 300 DPI asegura que tus productos compitan con editori
 
   // Related Apps - FULL text from addition.md related sections
   relatedApps: {
-    sectionTitle: 'Combina con Otros Generadores de Fichas - Paquetes Completos de Material Educativo Gratis',
+    sectionTitle: 'Fichas Gratis Combinar - Ficha para Niños e Imprimibles Gratis',
     sectionDescription: 'Tu suscripción Paquete Esencial incluye 10 generadores diferentes de fichas infantil. El generador de sumas es solo uno de ellos. Combina múltiples tipos de fichas para imprimir para crear paquetes de aprendizaje completos.',
     ctaTitle: '¿Listo para Crear Fichas de Matemáticas Increíbles?',
     ctaDescription: 'Únete a miles de maestros que crean fichas profesionales. Generación ilimitada, licencia comercial incluida.',

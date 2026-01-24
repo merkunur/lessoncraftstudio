@@ -77,8 +77,8 @@ Bingo gratis arbejdsark styrker mange vigtige færdigheder hos børn. Billedgenk
 
   // Sample Gallery
   samples: {
-    sectionTitle: 'Gratis Arbejdsark Eksempler - Bingo til Børn',
-    sectionDescription: 'Download gratis arbejdsark eksempler på bingo for at se vores professionelle kvalitet - arbejdsark til børnehaveklasse og 0. klasse',
+    sectionTitle: 'Gratis Arbejdsark til Børn - Gratis Arbejdsark og Gratis Printables',
+    sectionDescription: 'Download gratis printables - Gratis arbejdsark til børn af professionel kvalitet. Gratis arbejdsark og arbejdsark til børn perfekt til arbejdsark til børnehaveklasse. Gratis arbejdsark til børn og arbejdsark til børn inkluderer undervisningsmateriale. Gratis arbejdsark tilgængeligt',
     badgeText: 'Gratis Eksempler',
     downloadLabel: 'Download Gratis Eksempel',
     downloadingLabel: 'Downloader...',
@@ -122,7 +122,7 @@ Bingo gratis arbejdsark styrker mange vigtige færdigheder hos børn. Billedgenk
 
   // Features Grid
   features: {
-    sectionTitle: 'Bingo Generator Funktioner – Gratis Arbejdsark til Børn og Arbejdsark til Børnehaveklasse',
+    sectionTitle: 'Gratis Arbejdsark og Arbejdsark til Børn - Gratis Printables og Arbejdsark til Børnehaveklasse',
     sectionDescription: 'Vores bingo generator indeholder alle funktioner du behøver for at skabe professionelle gratis arbejdsark. Grundpakke abonnementet giver dig adgang til kraftfulde tilpasningsværktøjer. Skab unikke arbejdsark til børnehaveklasse, 0. klasse og 1. klasse på få minutter. Hver funktion er designet til at gøre arbejdsark til børn oprettelse hurtig og nem.',
     highlightBadgeText: 'Vigtig Funktion',
     readMoreLabel: 'Læs mere',
@@ -202,7 +202,7 @@ Gråtonesindstilling sparer blæk når du printer. Konverter farverige bingo-kor
 
   // How-To Guide
   howTo: {
-    sectionTitle: 'Sådan Laver du Gratis Arbejdsark til Børn - Bingo i 5 Nemme Trin',
+    sectionTitle: 'Gratis Arbejdsark til Børn Oprette - Arbejdsark til Børnehaveklasse',
     sectionDescription: 'Lav professionelle bingo gratis arbejdsark på under 3 minutter. Processen er simpel og intuitiv. Ingen designerfærdigheder påkrævet for arbejdsark til børnehaveklasse. Vælg indhold, tilpas indstillinger og generer. Rediger på lærredet og download. Disse fem trin tager dig fra tom skærm til færdige arbejdsark til børn klar til print.',
     ctaText: 'Start Nu',
     badgeText: 'Sådan Virker Det',
@@ -357,7 +357,7 @@ Professionel 300 DPI kvalitet sikrer dine produkter ser fantastiske ud. Kunder f
 
   // FAQ Section
   faq: {
-    sectionTitle: 'Ofte Stillede Spørgsmål om Bingo Gratis Arbejdsark',
+    sectionTitle: 'FAQ - Gratis Arbejdsark til Børn og Arbejdsark til Børnehaveklasse. Arbejdsark til Børn',
     sectionDescription: 'Pædagoger og forældre stiller ofte de samme spørgsmål om bingo-generatoren. Her er svar på de mest almindelige spørgsmål om at skabe arbejdsark til børn med vores bingo generator.',
     showMoreText: 'Vis flere spørgsmål',
     showLessText: 'Vis færre',

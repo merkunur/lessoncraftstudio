@@ -95,8 +95,8 @@ Unser Mathe-Rätsel Generator erstellt individuelle Arbeitsblätter für die 1. 
 
   // Sample Gallery - REAL file paths from samples/english/math puzzle/
   samples: {
-    sectionTitle: 'Mathe-Rätsel Arbeitsblätter Beispiele',
-    sectionDescription: 'Laden Sie kostenlose Beispiel-Arbeitsblätter herunter, um unsere professionelle Qualität zu sehen',
+    sectionTitle: 'Kostenloses Arbeitsblatt für Kinder - Kostenlose Arbeitsblätter und Kostenlose Druckvorlagen',
+    sectionDescription: 'Laden Sie kostenlose Druckvorlagen herunter - Kostenloses Arbeitsblatt für Kinder in professioneller Qualität für Arbeitsblatt für Vorschule',
     downloadLabel: 'Kostenloses Beispiel Herunterladen',
     worksheetLabel: 'Arbeitsblatt',
     answerKeyLabel: 'Lösungsblatt',
@@ -147,7 +147,7 @@ Unser Mathe-Rätsel Generator erstellt individuelle Arbeitsblätter für die 1. 
 
   // Features Grid - FULL text from mathe-raetsel.md feature sections
   features: {
-    sectionTitle: 'Mathe-Rätsel Funktionen - Alles für kostenlose Arbeitsblätter Grundschule, Vorschule Arbeitsblätter und Rechnen lernen',
+    sectionTitle: 'Arbeitsblatt für Kinder - Arbeitsblatt für Vorschule und Kostenlose Arbeitsblätter',
     sectionDescription: 'Unser Mathe-Rätsel Generator bietet alle professionellen Funktionen die Erzieher und Grundschullehrer benötigen. Erstellen Sie Mathe Arbeitsblätter, Rechnen lernen Aktivitäten und Vorschule Arbeitsblätter mit spielerischen Bilderrätsel. Jede Funktion wurde für schnelle Arbeitsblatt-Erstellung bei voller Bearbeitungskontrolle entwickelt.',
     highlightBadgeText: 'Hauptfunktion',
     readMoreLabel: 'Mehr lesen',
@@ -241,7 +241,7 @@ PDF-Export bewahrt exaktes Layout und Formatierung auf allen Geräten. Teilen Si
 
   // How-To Guide - FULL text from mathe-raetsel.md step sections
   howTo: {
-    sectionTitle: 'Mathe-Rätsel erstellen in 5 einfachen Schritten - Anleitung für Arbeitsblätter Grundschule, Mathe Arbeitsblätter und Rechnen lernen',
+    sectionTitle: 'Kostenloses Arbeitsblatt für Kinder erstellen - Arbeitsblatt für Vorschule',
     sectionDescription: 'Folgen Sie diesen fünf einfachen Schritten um professionelle Mathe-Rätsel Arbeitsblätter in unter 3 Minuten zu erstellen. Diese Anleitung zeigt Ihnen wie Sie kostenlose Arbeitsblätter perfekt für Rechnen lernen, Vorschule Arbeitsblätter und Arbeitsblätter Grundschule erstellen.',
     ctaText: 'Jetzt Erstellen',
     badgeText: 'So funktioniert es',
@@ -313,7 +313,7 @@ Laden Sie Arbeitsblatt und Lösungsblatt separat herunter für Ihre Unterlagen. 
 
   // Use Cases - FULL descriptions from mathe-raetsel.md persona sections
   useCases: {
-    sectionTitle: 'Perfekt für Lehrer, Eltern und Pädagogen - Kostenlose Arbeitsblätter für Rechnen lernen, Einmaleins und Vorschule',
+    sectionTitle: 'Kostenloses Arbeitsblatt für Kinder - Arbeitsblatt für Vorschule mit Kostenlose Druckvorlagen',
     sectionDescription: 'Mathe-Rätsel Arbeitsblätter eignen sich für verschiedene Zielgruppen und Bildungsumgebungen. Erzieher nutzen sie für spielerisches Lernen in der Vorschule. Grundschullehrer setzen sie für differenzierten Unterricht ein. Eltern unterstützen ihre Kinder beim Lernen zu Hause mit Mathe Arbeitsblättern.',
     badgeText: 'Anwendungsbereiche',
     readMoreLabel: 'Mehr lesen',
@@ -396,7 +396,7 @@ Amazon KDP eignet sich für Mathe-Rätsel Arbeitsheft-Sammlungen für den Buchma
 
   // FAQ Section - FULL FAQs from mathe-raetsel.md
   faq: {
-    sectionTitle: 'Häufig gestellte Fragen über kostenlose Arbeitsblätter - Mathe Arbeitsblätter, Rechnen lernen und Einmaleins',
+    sectionTitle: 'FAQ - Kostenloses Arbeitsblatt für Kinder und Arbeitsblatt für Vorschule',
     sectionDescription: 'Lehrer und Eltern stellen häufige Fragen über Mathe-Rätsel Arbeitsblätter bevor sie den Generator ausprobieren. Diese Antworten liefern klare ehrliche Information über Abonnement-Anforderungen, Druckoptionen und Anpassungsfähigkeiten.',
     showMoreText: 'Mehr Fragen anzeigen',
     showLessText: 'Weniger anzeigen',
@@ -555,7 +555,7 @@ Amazon KDP eignet sich für Mathe-Rätsel Arbeitsheft-Sammlungen für den Buchma
 
   // Related Apps - Apps that work well with math puzzle
   relatedApps: {
-    sectionTitle: 'Mathe-Rätsel kombinieren mit anderen Apps - Komplette kostenlose Arbeitsblätter mit Rechnen lernen und Einmaleins',
+    sectionTitle: 'Kostenlose Arbeitsblätter kombinieren - Arbeitsblatt für Kinder und Kostenlose Druckvorlagen',
     sectionDescription: 'LessonCraft Studio bietet 33 verschiedene Arbeitsblatt-Generatoren mit Ihrem Vollzugriff Abonnement. Lehrer erstellen umfassende Lernpakete durch Kombination multipler Arbeitsblatt-Typen. Mathe-Rätsel funktionieren perfekt neben anderen Mathe-Arbeitsblättern und Feinmotorik-Aktivitäten.',
     ctaTitle: 'Bereit, fantastische Arbeitsblätter zu erstellen?',
     ctaDescription: 'Schließen Sie sich tausenden Lehrkräften an, die professionelle Arbeitsblätter erstellen. Unbegrenzte Generierung, kommerzielle Lizenz inklusive.',

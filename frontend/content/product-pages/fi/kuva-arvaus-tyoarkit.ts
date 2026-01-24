@@ -53,8 +53,8 @@ Täysi Käyttöoikeus -tilaus sisältää kaikkien 33 tehtävägeneraattorin kä
 
   // Sample Gallery - REAL file paths from samples/english/word guess/
   samples: {
-    sectionTitle: 'Kuva-Arvaustehtävät Esimerkit',
-    sectionDescription: 'Lataa ilmaiset esimerkkityöarkit nähdäksesi ammattimaisen laatumme',
+    sectionTitle: 'Ilmainen Työarkki Lapsille - Ilmaiset Työarkit ja Ilmaiset Tulosteet',
+    sectionDescription: 'Lataa ilmaiset tulosteet - Ilmainen työarkki lapsille ammattimaista laatua. Ilmaiset työarkit ja työarkki lapsille täydellinen työarkki esiopetukseen. Ilmainen työarkki lapsille ja työarkki lapsille sisältää ilmaiset tulosteet ja ilmaiset työarkit opetusmateriaalin. Ilmainen työarkki ja työarkki esiopetukseen saatavilla',
     downloadLabel: 'Lataa Ilmainen Esimerkki',
     worksheetLabel: 'Tehtävämoniste',
     answerKeyLabel: 'Vastausavain',
@@ -91,7 +91,7 @@ Täysi Käyttöoikeus -tilaus sisältää kaikkien 33 tehtävägeneraattorin kä
 
   // Features Grid - FULL text from Finnish word-guess.md feature sections
   features: {
-    sectionTitle: 'Kuva-Arvaustehtävien Ominaisuudet - Tulostettavat Tehtävät Lapsille Ilmainen Esiopetukseen ja Alakouluun',
+    sectionTitle: 'Ilmaiset Työarkit ja Työarkki Lapsille - Ilmaiset Tulosteet ja Työarkki Esiopetukseen',
     sectionDescription: 'Kuva-arvaustehtävien suunnittelija sisältää kaiken tarvitsemasi tulostettavat tehtävät lapsille ilmainen luomiseen. Luo ammattimaisia tehtäviä kolmessa klikkauksessa. Muokkaa kaikkea canvasilla täydellä vapaudella. Lataa omia kuvia tai valitse yli 3000 kuvasta. Jokainen ominaisuus on suunniteltu opettajille jotka tarvitsevat nopeita, laadukkaita tulostettavia tehtäviä. Täysi Käyttöoikeus -tilauksesi antaa rajattoman käytön kaikkiin ominaisuuksiin.',
     highlightBadgeText: 'Tärkeä Ominaisuus',
     readMoreLabel: 'Lue lisää',
@@ -171,7 +171,7 @@ Lataa PDF-muodossa täydellistä tulostusyhteensopivuutta varten. Lataa JPEG-muo
 
   // How-To Guide - FULL text from Finnish word-guess.md step sections
   howTo: {
-    sectionTitle: 'Kuinka Luoda Tulostettavat Tehtävät Lapsille Ilmainen Viidessä Helpossa Vaiheessa',
+    sectionTitle: 'Ilmainen Työarkki Lapsille Luoda - Työarkki Esiopetukseen',
     sectionDescription: 'Kuva-arvaustehtävän luominen vie alle kolme minuuttia alusta loppuun. Ei vaadi suunnitteluosaamista. Ei vaadi monimutkaisia ohjelmia. Vain viisi yksinkertaista vaihetta ja tehtäväsi on valmis tulostettavaksi. Esiopetuksen opettajat, alakoulun opettajat ja kotiopettajat luovat tehtäviä päivittäin tällä työkalulla. Prosessi on intuitiivinen ja nopea.',
     ctaText: 'Aloita Luominen Nyt',
     badgeText: 'Näin Se Toimii',
@@ -243,7 +243,7 @@ Valitse harmaasävyvaihtoehto säästääksesi värimustetta. Klikkaa "Harmaasä
 
   // Use Cases - FULL text from Finnish word-guess.md use case sections
   useCases: {
-    sectionTitle: 'Täydellinen Opettajille, Vanhemmille ja Kasvattajille - Tulostettavat Tehtävät Lapsille Ilmainen Jokaiseen Tarpeeseen',
+    sectionTitle: 'Ilmainen Työarkki Lapsille - Työarkki Esiopetukseen ja Ilmaiset Tulosteet. Työarkki Lapsille',
     sectionDescription: 'Kuva-arvaustehtävät palvelevat monenlaisia opettajia ja kasvattajia. Esiopetuksen opettajat käyttävät niitä kirjainten tunnistuksen opettamiseen. Alakoulun opettajat käyttävät niitä sanaston laajentamiseen. Kotiopettajat käyttävät niitä personoituihin oppimispaketteihin. Kielten opettajat käyttävät niitä sanastonoppimiseen. Erityisopetuksen opettajat käyttävät niitä eriyttämiseen. Opettajayrittäjät käyttävät niitä myyntituotteisiin Teachers Pay Teachers -palvelussa.',
     badgeText: 'Kenelle Sopii',
     readMoreLabel: 'Lue lisää',
@@ -326,7 +326,7 @@ Täysi Käyttöoikeus -tilauksesi antaa sinulle kaikki 33 generaattoria kaupalli
 
   // FAQ Section - Selected FAQs from Finnish word-guess.md
   faq: {
-    sectionTitle: 'Usein Kysytyt Kysymykset - Tulostettavat Tehtävät Lapsille Ilmainen Kuva-Arvaustehtävistä',
+    sectionTitle: 'FAQ - Ilmainen Työarkki Lapsille ja Työarkki Esiopetukseen. Työarkki Lapsille',
     sectionDescription: 'Vastaukset yleisimpiin kysymyksiin kuva-arvaustehtävistä. Hinnoittelusta ominaisuuksiin. Käytöstä räätälöintiin. Kaikki mitä tarvitset tietää ennen aloittamista.',
     showMoreText: 'Näytä lisää kysymyksiä',
     showLessText: 'Näytä vähemmän',
@@ -454,7 +454,7 @@ Täysi Käyttöoikeus -tilauksesi antaa sinulle kaikki 33 generaattoria kaupalli
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Yhdistä Muihin Tehtävämonistegeneraattoreihin',
+    sectionTitle: 'Ilmaiset Työarkit Yhdistää - Työarkki Lapsille ja Ilmaiset Tulosteet',
     sectionDescription: 'Luo kattavia oppimispaketteja yhdistämällä kuva-arvaustehtävät näihin täydentäviin generaattoreihin.',
     ctaTitle: 'Valmiina Luomaan Upeita Tehtävämonisteitä?',
     ctaDescription: 'Liity tuhansien opettajien joukkoon, jotka luovat ammattimaisia tehtävämonisteitä. Rajoittamaton generointi, kaupallinen lisenssi sisältyy.',

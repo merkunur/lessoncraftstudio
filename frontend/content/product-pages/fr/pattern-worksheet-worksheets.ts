@@ -85,8 +85,8 @@ Les fiches de séquences développent la reconnaissance de motifs dès la petite
 
   // Sample Gallery - REAL file paths from samples/french/pattern/
   samples: {
-    sectionTitle: 'Exemples de Fiches de Séquences',
-    sectionDescription: 'Téléchargez des exemples gratuits pour voir notre qualité professionnelle',
+    sectionTitle: 'Fiche Gratuite pour Enfants - Fiches Gratuites et Imprimables Gratuits',
+    sectionDescription: 'Téléchargez imprimables gratuits - Fiche gratuite pour enfants de qualité professionnelle. Fiches gratuites et fiche pour enfants parfaites pour fiche pour maternelle. Fiche gratuite pour enfants et fiches gratuites inclus matériel éducatif. Fiche gratuite et fiches gratuites disponible',
     downloadLabel: 'Télécharger Exemple Gratuit',
     worksheetLabel: 'Fiche',
     answerKeyLabel: 'Corrigé',
@@ -137,7 +137,7 @@ Les fiches de séquences développent la reconnaissance de motifs dès la petite
 
   // Features Grid - FULL text from pattern-worksheet.md feature sections
   features: {
-    sectionTitle: 'Fonctionnalités du Générateur - Tout pour Créer des Exercices Maths et Exercices CP',
+    sectionTitle: 'Fiches Gratuites et Fiche pour Enfants - Imprimables Gratuits et Fiche pour Maternelle',
     sectionDescription: 'Notre générateur de fiches de séquences offre des fonctionnalités complètes pour créer des fiches maternelle professionnelles. Chaque fiche à imprimer gratuit peut être personnalisée en quelques clics. Les enseignants utilisent nos outils pour créer des exercices CP et exercices CE1 adaptés à chaque élève. Votre abonnement Accès Complet inclut toutes les fonctionnalités sans frais supplémentaires.',
     highlightBadgeText: 'Fonctionnalité Clé',
     readMoreLabel: 'Lire la suite',
@@ -217,7 +217,7 @@ L'option niveaux de gris économise l'encre de votre imprimante. Générez autom
 
   // How-To Guide - FULL text from pattern-worksheet.md step sections
   howTo: {
-    sectionTitle: 'Comment Créer des Fiches Maternelle et Exercices CP en 5 Étapes Faciles',
+    sectionTitle: 'Fiche Gratuite pour Enfants Créer - Fiche pour Maternelle',
     sectionDescription: 'Créez des fiches de séquences professionnelles en moins de 3 minutes chrono. Notre générateur simplifie la création de fiches maternelle et exercices maths. Aucune formation nécessaire pour produire des exercices CE1 de qualité. Suivez ces 5 étapes simples pour générer vos fiches à imprimer gratuit.',
     ctaText: 'Commencer Maintenant',
     badgeText: 'Comment Ça Marche',
@@ -289,7 +289,7 @@ Téléchargez séparément la fiche d'exercice et le corrigé. Imprimez la fiche
 
   // Use Cases - FULL text from pattern-worksheet.md use case sections
   useCases: {
-    sectionTitle: 'Parfait pour Enseignants, Parents et Éducateurs',
+    sectionTitle: 'Fiche Gratuite pour Enfants - Fiche pour Maternelle avec Imprimables Gratuits. Fiche pour Enfants',
     sectionDescription: 'Nos fiches de séquences bénéficient à différents types d\'éducateurs et contextes d\'apprentissage. Les enseignants de maternelle utilisent nos exercices maths pour développer la pensée logique. Les parents en instruction en famille créent des fiches à imprimer gratuit personnalisées. Les enseignants entrepreneurs vendent nos fiches sur Teachers Pay Teachers.',
     badgeText: 'Pour Qui',
     readMoreLabel: 'Lire la suite',
@@ -372,7 +372,7 @@ La qualité professionnelle 300 DPI garantit satisfaction clients et bonnes crit
 
   // FAQ Section - Selected FAQs from pattern-worksheet.md
   faq: {
-    sectionTitle: 'Questions Fréquentes',
+    sectionTitle: 'FAQ - Fiche Gratuite pour Enfants et Fiche pour Maternelle. Fiche pour Enfants',
     sectionDescription: 'Questions fréquentes sur notre générateur de fiches de séquences et nos fiches à imprimer gratuit.',
     showMoreText: 'Voir plus de questions',
     showLessText: 'Voir moins',
@@ -490,7 +490,7 @@ La qualité professionnelle 300 DPI garantit satisfaction clients et bonnes crit
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Combinez avec d\'Autres Générateurs de Fiches',
+    sectionTitle: 'Fiches Gratuites Combiner - Fiche pour Enfants et Imprimables Gratuits',
     sectionDescription: 'Créez des paquets d\'apprentissage complets en combinant les fiches de séquences avec ces générateurs complémentaires.',
     ctaTitle: 'Prêt à Créer des Fiches Fantastiques ?',
     ctaDescription: 'Rejoignez des milliers d\'enseignants qui créent des fiches professionnelles. Génération illimitée, licence commerciale incluse.',

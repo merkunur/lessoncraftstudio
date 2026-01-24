@@ -82,8 +82,8 @@ Bildlabyrint generatorn stöder svenska och tio andra språk. Bildnamn visas på
 
   // Sample Gallery - REAL file paths from samples/swedish/picture-path/
   samples: {
-    sectionTitle: 'Gratis Arbetsblad Bildlabyrint - Exempel för Barn och Förskoleklass',
-    sectionDescription: 'Ladda ner gratis exempelarbetsblad för att se vår professionella kvalitet',
+    sectionTitle: 'Gratis Arbetsblad för Barn - Gratis Arbetsblad och Gratis Utskrifter',
+    sectionDescription: 'Ladda ner gratis utskrifter - Gratis arbetsblad för barn av professionell kvalitet. Gratis arbetsblad och arbetsblad för barn perfekt för arbetsblad för förskoleklass. Gratis arbetsblad för barn och arbetsblad för barn inkluderar utbildningsmaterial. Gratis arbetsblad och gratis utskrifter tillgänglig',
     downloadLabel: 'Ladda Ner Gratis Exempel',
     worksheetLabel: 'Arbetsblad',
     answerKeyLabel: 'Facit',
@@ -193,7 +193,7 @@ Bildlabyrint generatorn stöder svenska och tio andra språk. Bildnamn visas på
 
   // How-To Guide - FULL text from picture-path.md Step sections
   howTo: {
-    sectionTitle: 'Hur Man Skapar Gratis Arbetsblad i 5 Steg - Arbetsblad för Barn med Gratis Utskrifter',
+    sectionTitle: 'Gratis Arbetsblad för Barn Skapa - Arbetsblad för Förskoleklass och Gratis Utskrifter',
     sectionDescription: 'Skapa professionella bildlabyrint arbetsblad på under tre minuter totalt. Följ dessa fem enkla steg för att skapa arbetsblad gratis. Varje steg är designat för enkelhet och effektivitet. Inga designkunskaper behövs för att skapa förskoleklass material. Generatorn guidar dig genom hela processen automatiskt.',
     ctaText: 'Börja Skapa Nu',
     badgeText: 'Så Fungerar Det',
@@ -243,7 +243,7 @@ Bildlabyrint generatorn stöder svenska och tio andra språk. Bildnamn visas på
 
   // Use Cases - FULL descriptions from picture-path.md persona sections
   useCases: {
-    sectionTitle: 'Perfekt för Lärare och Föräldrar - Gratis Arbetsblad för Förskoleklass och Arbetsblad för Barn',
+    sectionTitle: 'Gratis Arbetsblad för Barn - Arbetsblad för Förskoleklass med Gratis Utskrifter. Arbetsblad för Barn',
     sectionDescription: 'Bildlabyrint generatorn är perfekt för olika användargrupper. Lärare i förskoleklass och lågstadiet använder den dagligen. Föräldrar som hemundervisar uppskattar flexibiliteten. Speciallärare skapar anpassade arbetsblad för individuella behov. Lärare entreprenörer säljer bildlabyrint på Teachers Pay Teachers. Varje användargrupp drar nytta av generatorns funktioner.',
     badgeText: 'Användningsområden',
     readMoreLabel: 'Läs mer',
@@ -302,7 +302,7 @@ Bildlabyrint generatorn stöder svenska och tio andra språk. Bildnamn visas på
 
   // FAQ Section - ALL questions from picture-path.md
   faq: {
-    sectionTitle: 'Vanliga Frågor om Gratis Arbetsblad Bildlabyrint - Arbetsblad för Förskoleklass',
+    sectionTitle: 'FAQ - Gratis Arbetsblad för Barn och Arbetsblad för Förskoleklass med Gratis Utskrifter. Arbetsblad för Barn',
     sectionDescription: 'Lärare och föräldrar har vanligtvis liknande frågor om bildlabyrint generatorn. Dessa vanliga frågor täcker de mest efterfrågade ämnena. Lär dig hur du skapar multiplikationstabellen arbetsblad effektivt. Förstå hur siffror och tal arbetsblad fungerar. Upptäck hur målarbilder barn kan integreras i labyrinterna.',
     showMoreText: 'Visa fler frågor',
     showLessText: 'Visa färre',
@@ -407,7 +407,7 @@ Bildlabyrint generatorn stöder svenska och tio andra språk. Bildnamn visas på
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Kombinera med Andra Gratis Arbetsblad - Komplett Arbetsblad för Barn och Förskoleklass Paket',
+    sectionTitle: 'Gratis Arbetsblad Kombinera - Arbetsblad för Barn och Gratis Utskrifter',
     sectionDescription: 'Bildlabyrint är bara en av 33 arbetsblad generatorer i Full Tillgång prenumeration. Kombinera bildlabyrint med andra verktyg för kompletta lärpaket. Skapa tematiska samlingar som täcker flera inlärningsområden samtidigt. Lärare bygger kompletta förskoleklass material paket med kombinerade verktyg.',
     ctaTitle: 'Redo att Skapa Fantastiska Arbetsblad?',
     ctaDescription: 'Gå med tusentals pedagoger som skapar professionella arbetsblad. Obegränsat skapande, kommersiell licens inkluderad.',

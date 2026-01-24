@@ -55,8 +55,8 @@ Med Full Tilgang får du tilgang til alle 33 arbeidsarkgeneratorer. Lag preposis
 
   // Sample Gallery - REAL file paths from samples/english/prepositions/
   samples: {
-    sectionTitle: 'Preposisjoner Arbeidsark Eksempler',
-    sectionDescription: 'Last ned gratis eksempler på arbeidsark for å se vår profesjonelle kvalitet',
+    sectionTitle: 'Gratis Arbeidsark for Barn - Gratis Arbeidsark og Gratis Utskrifter',
+    sectionDescription: 'Last ned gratis utskrifter - Gratis arbeidsark for barn av profesjonell kvalitet. Gratis arbeidsark og arbeidsark for barn perfekt for arbeidsark for 1. trinn. Gratis arbeidsark for barn og arbeidsark for barn inkluderer gratis utskrifter undervisningsmateriell. Gratis arbeidsark og arbeidsark for 1. trinn tilgjengelig',
     badgeText: 'Gratis Eksempler',
     downloadLabel: 'Last ned Gratis Eksempel',
     downloadingLabel: 'Laster ned...',
@@ -86,7 +86,7 @@ Med Full Tilgang får du tilgang til alle 33 arbeidsarkgeneratorer. Lag preposis
 
   // Features Grid - FULL text from prepositions.md feature sections
   features: {
-    sectionTitle: 'Funksjoner for Arbeidsark Gratis - Alt du Trenger for Finmotorikk Øvelser og Lesetrening',
+    sectionTitle: 'Gratis Arbeidsark og Arbeidsark for Barn - Gratis Utskrifter og Arbeidsark for 1. Trinn',
     sectionDescription: 'Full Tilgang-abonnementet gir deg tilgang til profesjonelle verktøy for å lage arbeidsark gratis for nedlasting. Generer finmotorikk øvelser for språkforståelse på minutter. Kombiner med andre oppgavehefter barn kan bruke i mattesentre. Alle funksjoner inkludert uten ekstra kostnader. Perfekt for lærere som trenger fleksible og tilpassbare undervisningsressurser.',
     highlightBadgeText: 'Viktig Funksjon',
     readMoreLabel: 'Les mer',
@@ -180,7 +180,7 @@ PDF-format bevarer nøyaktig layout på alle enheter. JPEG-format kompatibelt me
 
   // How-To Guide - FULL text from prepositions.md step sections
   howTo: {
-    sectionTitle: 'Slik Lager du Arbeidsark Gratis på 5 Enkle Trinn - Finmotorikk Øvelser og Matteoppgaver',
+    sectionTitle: 'Gratis Arbeidsark for Barn Lage - Arbeidsark for 1. Trinn',
     sectionDescription: 'Lag profesjonelle preposisjonsarbeidsark på under tre minutter. Hele prosessen fra start til nedlasting er rask og intuitiv. Ingen tekniske ferdigheter kreves for å produsere høykvalitets arbeidsark gratis. Følg disse fem enkle trinnene for perfekte resultater hver gang. Kombinasjon av språklæring og finmotorikk øvelser i samme arbeidsflyt.',
     ctaText: 'Start Nå',
     badgeText: 'Slik Fungerer Det',
@@ -252,7 +252,7 @@ Aktiver gråskalealternativet for å spare blekkostnader. Gråskala bevarer all 
 
   // Use Cases - FULL text from prepositions.md use case sections
   useCases: {
-    sectionTitle: 'Perfekt for Lærere og Foreldre - Arbeidsark Gratis for Matematikk Oppgaver og Finmotorikk Øvelser',
+    sectionTitle: 'Gratis Arbeidsark for Barn - Arbeidsark for 1. Trinn med Gratis Utskrifter. Arbeidsark for Barn',
     sectionDescription: 'Preposisjonsarbeidsark passer ulike undervisningssituasjoner og klasseromsbehov. Barnehagepedagoger bruker dem for språkutvikling og romforståelse. Lærere på småskoletrinnet integrerer dem i norskundervisning. Hjemmeskoleforeldre lager tilpassede oppgavehefter barn. ESL-lærere kombinerer språklæring med visuelle hjelpemidler. Spesialpedagoger differensierer instruksjon med redigerbare arbeidsark gratis.',
     badgeText: 'Hvem Er Det For',
     readMoreLabel: 'Les mer',
@@ -335,7 +335,7 @@ Lag profesjonelle produktpakker med preposisjonsarbeidsark. Kombiner med matemat
 
   // FAQ Section - From prepositions.md
   faq: {
-    sectionTitle: 'Ofte Stilte Spørsmål om Arbeidsark Gratis - Matematikk Oppgaver og Finmotorikk Øvelser',
+    sectionTitle: 'FAQ - Gratis Arbeidsark for Barn og Arbeidsark for 1. Trinn. Arbeidsark for Barn',
     sectionDescription: 'Lærere og foreldre har mange spørsmål om preposisjonsarbeidsark-generatoren. Her besvarer vi de tolv vanligste spørsmålene. Vi dekker alt fra prising til funksjoner til kommersiell bruk. Les gjennom for å få full forståelse av hva Full Tilgang tilbyr.',
     showMoreText: 'Vis flere spørsmål',
     showLessText: 'Vis færre',
@@ -429,7 +429,7 @@ Lag profesjonelle produktpakker med preposisjonsarbeidsark. Kombiner med matemat
 
   // Related Apps Section
   relatedApps: {
-    sectionTitle: 'Kombiner Preposisjoner med Andre Arbeidsark Gratis',
+    sectionTitle: 'Gratis Arbeidsark Kombinere - Arbeidsark for Barn og Gratis Utskrifter',
     sectionDescription: 'Full Tilgang gir deg tilgang til 33 arbeidsarkgeneratorer på én plattform. Kombiner preposisjoner med andre emner for tverrfaglig læring. Lag integrerte arbeidspakker som dekker flere læreplanmål samtidig.',
     ctaTitle: 'Klar til å Lage Fantastiske Arbeidsark?',
     ctaDescription: 'Bli med tusenvis av lærere som skaper profesjonelle arbeidsark på minutter.',

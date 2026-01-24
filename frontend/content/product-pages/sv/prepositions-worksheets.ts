@@ -82,8 +82,8 @@ Kombinera prepositionsträning med målarbilder barn gillar. Lägg till egna bil
 
   // Sample Gallery - REAL file paths from samples/swedish/prepositions/
   samples: {
-    sectionTitle: 'Prepositioner Arbetsblad Exempel',
-    sectionDescription: 'Ladda ner gratis exempelarbetsblad för att se vår professionella kvalitet',
+    sectionTitle: 'Gratis Arbetsblad för Barn - Gratis Arbetsblad och Gratis Utskrifter',
+    sectionDescription: 'Ladda ner gratis utskrifter - Gratis arbetsblad för barn av professionell kvalitet. Gratis arbetsblad och arbetsblad för barn perfekt för arbetsblad för förskoleklass. Gratis arbetsblad för barn och arbetsblad för barn inkluderar utbildningsmaterial. Gratis arbetsblad och gratis utskrifter tillgänglig',
     downloadLabel: 'Ladda Ner Gratis Exempel',
     worksheetLabel: 'Arbetsblad',
     answerKeyLabel: 'Facit',
@@ -127,7 +127,7 @@ Kombinera prepositionsträning med målarbilder barn gillar. Lägg till egna bil
 
   // Features Grid - FULL descriptions from prepositions.md H3 sections
   features: {
-    sectionTitle: 'Prepositionsarbetsblad Funktioner - Allt du Behöver för Förskoleklass Material och Arbetsblad Gratis',
+    sectionTitle: 'Gratis Arbetsblad och Arbetsblad för Barn - Gratis Utskrifter och Arbetsblad för Förskoleklass',
     sectionDescription: 'Vårt prepositionsverktyg erbjuder omfattande funktioner för att skapa arbetsblad gratis och förskoleklass material. Lärare får tillgång till professionella verktyg som förenklar skapandet av prepositionsarbetsblad.',
     highlightBadgeText: 'Nyckelfunktion',
     badgeText: 'Funktioner',
@@ -193,7 +193,7 @@ Kombinera prepositionsträning med målarbilder barn gillar. Lägg till egna bil
 
   // How-To Guide - FULL text from prepositions.md Step sections
   howTo: {
-    sectionTitle: 'Hur du Skapar Prepositionsarbetsblad på 5 Enkla Steg - Arbetsblad Gratis för Förskoleklass Material',
+    sectionTitle: 'Gratis Arbetsblad för Barn Skapa - Arbetsblad för Förskoleklass och Gratis Utskrifter',
     sectionDescription: 'Skapa professionella prepositionsarbetsblad på under 3 minuter. Vårt verktyg gör processen enkel även för lärare utan designerfarenhet. Följ dessa fem steg för att generera arbetsblad gratis och förskoleklass material. Varje steg tar bara några sekunder att genomföra.',
     ctaText: 'Börja Skapa Nu',
     badgeText: 'Så Fungerar Det',
@@ -245,7 +245,7 @@ Kombinera prepositionsträning med målarbilder barn gillar. Lägg till egna bil
 
   // Use Cases - FULL descriptions from prepositions.md persona sections
   useCases: {
-    sectionTitle: 'Perfekt för Lärare och Föräldrar - Förskoleklass Material och Arbetsblad Gratis för Alla Behov',
+    sectionTitle: 'Gratis Arbetsblad för Barn - Arbetsblad för Förskoleklass med Gratis Utskrifter. Arbetsblad för Barn',
     sectionDescription: 'Prepositionsarbetsblad hjälper olika grupper av lärare och föräldrar. Förskoleklass lärare, lågstadielärare och hemmaskolelärare använder verktyget dagligen. ESL-lärare och specialpedagoger skapar anpassade arbetsblad gratis för sina elever. Lärarentreprenörer säljer prepositionsarbetsblad på Teachers Pay Teachers och Etsy.',
     badgeText: 'Användningsområden',
     readMoreLabel: 'Läs mer',
@@ -304,7 +304,7 @@ Kombinera prepositionsträning med målarbilder barn gillar. Lägg till egna bil
 
   // FAQ Section - ALL questions from prepositions.md
   faq: {
-    sectionTitle: 'Vanliga Frågor om Prepositionsarbetsblad - Förskoleklass Material och Arbetsblad Gratis',
+    sectionTitle: 'FAQ - Gratis Arbetsblad för Barn och Arbetsblad för Förskoleklass med Gratis Utskrifter. Arbetsblad för Barn',
     sectionDescription: 'Lärare ställer ofta samma frågor om prepositionsverktyget. Här besvaras de vanligaste frågorna om funktioner och prenumeration. Svaren ger tydlig information om vad verktyget kan göra. Läs igenom frågorna innan du börjar använda verktyget.',
     showMoreText: 'Visa fler frågor',
     showLessText: 'Visa färre',
@@ -409,7 +409,7 @@ Kombinera prepositionsträning med målarbilder barn gillar. Lägg till egna bil
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Kombinera Prepositionsarbetsblad med Matematik Arbetsblad - Addition och Subtraktion, Multiplikationstabellen, Målarbilder Barn och Finmotorik Övningar',
+    sectionTitle: 'Gratis Arbetsblad Kombinera - Arbetsblad för Barn och Gratis Utskrifter',
     sectionDescription: 'LessonCraft Studio erbjuder 33 olika arbetsbladstyper på plattformen. Kombinera prepositionsarbetsblad med andra generatorer för kompletta lärpaket. Skapa tematiska undervisningsenheter som täcker flera färdighetsområden samtidigt. Full Tillgång-prenumeration ger tillgång till alla generatorer för 2 900 kronor årligen.',
     ctaTitle: 'Redo att Skapa Fantastiska Arbetsblad?',
     ctaDescription: 'Gå med tusentals pedagoger som skapar professionella arbetsblad. Obegränsat skapande, kommersiell licens inkluderad.',

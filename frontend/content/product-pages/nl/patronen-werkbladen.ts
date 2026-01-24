@@ -93,8 +93,8 @@ Combineer patronen werkbladen met kleurplaten voor extra oefening. Maak gratis w
 
   // Sample Gallery
   samples: {
-    sectionTitle: 'Gratis Werkbladen Patronen Voorbeelden - Gratis Printables',
-    sectionDescription: 'Download gratis werkblad voorbeelden om onze professionele kwaliteit te ervaren',
+    sectionTitle: 'Gratis Werkblad voor Kinderen - Gratis Werkbladen en Gratis Printables',
+    sectionDescription: 'Download gratis printables - Gratis werkblad voor kinderen van professionele kwaliteit. Gratis werkbladen en werkblad voor kinderen perfect voor werkblad voor kleuters. Gratis werkblad voor kinderen en werkblad voor kinderen inclusief educatief materiaal. Gratis werkblad beschikbaar',
     downloadLabel: 'Gratis Voorbeeld Downloaden',
     worksheetLabel: 'Werkblad',
     answerKeyLabel: 'Antwoordblad',
@@ -138,7 +138,7 @@ Combineer patronen werkbladen met kleurplaten voor extra oefening. Maak gratis w
 
   // Features Grid
   features: {
-    sectionTitle: 'Gratis Werkblad Patronen Functies - Gratis Werkbladen en Gratis Printables voor Groep 3 en Kleuters',
+    sectionTitle: 'Gratis Werkbladen en Werkblad voor Kinderen - Gratis Printables en Werkblad voor Kleuters',
     sectionDescription: 'Onze pattern worksheet generator biedt alle tools die je nodig hebt voor het maken van professionele gratis werkbladen groep 3 en werkblad voor kleuters. Van eenvoudige AB patronen tot complexe ABCD patronen. Elke functie is ontworpen om je tijd te besparen bij het maken van gratis werkblad voor kinderen en gratis printables. Volledige Toegang abonnement (€240 per jaar) geeft toegang tot alle functies en 3000+ afbeeldingen.',
     highlightBadgeText: 'Uitgelicht',
     readMoreLabel: 'Lees meer',
@@ -315,7 +315,7 @@ Download het werkblad via de "Download" knop. Kies uit vier opties. "Worksheet J
 
   // Use Cases
   useCases: {
-    sectionTitle: 'Perfect voor Leerkrachten en Ouders - Gratis Werkbladen en Gratis Printables voor Groep 1 tot Groep 3',
+    sectionTitle: 'Gratis Werkblad voor Kinderen - Werkblad voor Kleuters met Gratis Printables. Werkblad voor Kinderen',
     sectionDescription: 'Patronen werkbladen zijn essentieel voor cognitieve ontwikkeling bij jonge kinderen. Van werkbladen kleuters tot werkbladen groep 3. Patronen herkenning ontwikkelt wiskundig denken en probleemoplossend vermogen. Onze generator maakt het eenvoudig voor alle leerkrachten en ouders.',
     badgeText: 'Voor wie',
     readMoreLabel: 'Lees meer',
@@ -398,7 +398,7 @@ Kleurplaten verkopen bijzonder goed op Etsy. Maak patronen kleurplaten pakketten
 
   // FAQ Section
   faq: {
-    sectionTitle: 'Veelgestelde Vragen over Gratis Werkblad Patronen - Gratis Werkbladen, Gratis Printables en Werkblad voor Kinderen',
+    sectionTitle: 'FAQ - Gratis Werkblad voor Kinderen en Werkblad voor Kleuters. Werkblad voor Kinderen',
     sectionDescription: 'Leerkrachten en ouders hebben veel vragen over patronen werkbladen maken. Deze FAQ beantwoordt de meest gestelde vragen over werkbladen kleuters, werkbladen groep 3, rekenen werkbladen, kleurplaten, letters leren, veilig leren lezen, tafels oefenen, sommen tot 20, fijne motoriek, en schrijven oefenen.',
     showMoreText: 'Meer vragen tonen',
     showLessText: 'Minder tonen',
@@ -528,7 +528,7 @@ Kleurplaten verkopen bijzonder goed op Etsy. Maak patronen kleurplaten pakketten
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Combineer Gratis Werkbladen Patronen met Andere Gratis Printables voor Complete Lesplannen',
+    sectionTitle: 'Gratis Werkbladen Combineren - Werkblad voor Kinderen en Gratis Printables',
     sectionDescription: 'Het Volledige Toegang abonnement bevat 33 werkblad generators die perfect samenwerken. Combineer patronen werkbladen met andere tools voor complete leerpakketten. Ontdek hoe je thematische bundels maakt voor elke lesweek.',
     ctaTitle: 'Klaar om geweldige werkbladen te maken?',
     ctaDescription: 'Sluit je aan bij duizenden leerkrachten die professionele werkbladen maken. Onbeperkt genereren, commerciële licentie inbegrepen.',

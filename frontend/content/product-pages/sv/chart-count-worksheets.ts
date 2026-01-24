@@ -85,8 +85,8 @@ Dessa diagram fungerar utmärkt som matematik arbetsblad för förskoleklass mat
 
   // Sample Gallery - REAL file paths from samples/english/chart count/
   samples: {
-    sectionTitle: 'Diagram Arbetsblad Exempel',
-    sectionDescription: 'Ladda ner gratis exempelarbetsblad för att se vår professionella kvalitet',
+    sectionTitle: 'Gratis Arbetsblad för Barn - Gratis Arbetsblad och Gratis Utskrifter',
+    sectionDescription: 'Ladda ner gratis utskrifter - Gratis arbetsblad för barn av professionell kvalitet. Gratis arbetsblad och arbetsblad för barn perfekt för arbetsblad för förskoleklass. Gratis arbetsblad för barn och arbetsblad för barn inkluderar utbildningsmaterial. Gratis arbetsblad och gratis utskrifter tillgänglig',
     downloadLabel: 'Ladda Ner Gratis Exempel',
     worksheetLabel: 'Arbetsblad',
     answerKeyLabel: 'Facit',
@@ -303,7 +303,7 @@ Skapa hela arbetshäften genom att upprepa processen med olika bildteman. Kombin
 
   // Use Cases - FULL descriptions from chart-count.md persona sections
   useCases: {
-    sectionTitle: 'Perfekt för Lärare och Föräldrar',
+    sectionTitle: 'Gratis Arbetsblad för Barn - Arbetsblad för Förskoleklass med Gratis Utskrifter. Arbetsblad för Barn',
     sectionDescription: 'Diagram arbetsblad fungerar utmärkt för många olika undervisningssituationer. Från förskoleklass till årskurs 3 använder lärare dessa aktiviteter dagligen. Hemmaföräldrar uppskattar kombinationen av matematik och visuell träning. Modersmålslärare använder diagram för språkutveckling. Här är sex användargrupper som drar nytta av vårt verktyg för arbetsblad gratis.',
     badgeText: 'Vem Det Är För',
     readMoreLabel: 'Läs mer',
@@ -386,7 +386,7 @@ Skapa målarbilder barn versioner för bredare marknad. Diagram som målarbok ti
 
   // FAQ Section - ALL questions from chart-count.md
   faq: {
-    sectionTitle: 'Vanliga Frågor om Diagram Arbetsblad',
+    sectionTitle: 'FAQ - Gratis Arbetsblad för Barn och Arbetsblad för Förskoleklass med Gratis Utskrifter. Arbetsblad för Barn',
     sectionDescription: 'Lärare och föräldrar har många frågor om vårt verktyg för diagram arbetsblad. Här besvarar vi de vanligaste frågorna om att skapa multiplikationstabellen, klockan lära sig, addition och subtraktion, bokstäver lära sig och målarbilder barn. Från prenumerationskostnader till tekniska funktioner täcker dessa svar allt du behöver veta. Läs igenom frågorna för att förstå hur verktyget fungerar för förskoleklass material och siffror och tal träning.',
     showMoreText: 'Visa fler frågor',
     showLessText: 'Visa färre',
@@ -489,7 +489,7 @@ Skapa målarbilder barn versioner för bredare marknad. Diagram som målarbok ti
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Kombinera med Andra Arbetsblad Generatorer',
+    sectionTitle: 'Gratis Arbetsblad Kombinera - Arbetsblad för Barn och Gratis Utskrifter',
     sectionDescription: 'Skapa kompletta lärpaket genom att kombinera diagram arbetsblad med dessa kompletterande generatorer.',
     ctaTitle: 'Redo att Skapa Fantastiska Arbetsblad?',
     ctaDescription: 'Gå med tusentals lärare som skapar professionella arbetsblad. Obegränsad generering, kommersiell licens ingår.',

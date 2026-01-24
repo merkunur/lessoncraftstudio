@@ -77,8 +77,8 @@ Nossa ferramenta gera grades de 5x5 até 10x10 com imagens variadas. Selecione d
 
   // Sample Gallery - REAL file paths from samples/portuguese/find-and-count/
   samples: {
-    sectionTitle: 'Exemplos de Atividades Grátis de Encontre e Conte para Crianças',
-    sectionDescription: 'Baixe exemplos de atividades grátis para ver nossa qualidade profissional',
+    sectionTitle: 'Atividade Grátis para Crianças - Atividades Grátis e Imprimíveis Grátis',
+    sectionDescription: 'Baixe imprimíveis grátis - Atividade grátis para crianças de qualidade profissional. Atividades grátis e atividade para crianças perfeitas para atividade para educação infantil. Atividade grátis para crianças e atividade para crianças incluem material educativo. Atividade grátis disponível',
     downloadLabel: 'Baixar Exemplo Grátis',
     worksheetLabel: 'Atividade',
     answerKeyLabel: 'Gabarito',
@@ -122,8 +122,8 @@ Nossa ferramenta gera grades de 5x5 até 10x10 com imagens variadas. Selecione d
 
   // Features Grid - FULL text from find-and-count.md feature sections
   features: {
-    sectionTitle: 'Recursos do Gerador - Atividades Grátis para Imprimir de Encontre e Conte',
-    sectionDescription: 'Nosso gerador de encontre e conte oferece recursos completos para educadores. Crie atividades grátis para imprimir personalizadas em minutos. Cada ferramenta foi desenvolvida pensando em professores de educação infantil. Descubra como transformar sua rotina de preparação de materiais com fichas de objetos escondidos.',
+    sectionTitle: 'Atividades Grátis e Atividade para Crianças - Imprimíveis Grátis e Atividade para Educação Infantil',
+    sectionDescription: 'Atividades grátis disponíveis. Nosso gerador de encontre e conte oferece recursos completos para educadores. Crie atividades grátis para imprimir personalizadas em minutos. Cada ferramenta foi desenvolvida pensando em professores de educação infantil. Descubra como transformar sua rotina de preparação de materiais com fichas de objetos escondidos.',
     highlightBadgeText: 'Recurso Principal',
     readMoreLabel: 'Leia mais',
     showLessLabel: 'Mostrar menos',
@@ -211,7 +211,7 @@ Ideal para cópias em grande quantidade. Fichas de encontre e conte com linhas n
 
   // How-To Guide - FULL text from find-and-count.md step sections
   howTo: {
-    sectionTitle: 'Como Criar Atividades Grátis de Encontre e Conte em 5 Passos',
+    sectionTitle: 'Atividade Grátis para Crianças Criar - Atividade para Educação Infantil',
     sectionDescription: 'Aprenda a criar fichas de encontre e conte profissionais em menos de 3 minutos. Este guia passo a passo mostra como produzir atividades grátis para imprimir de qualidade. Ideal para professores de educação infantil e ensino fundamental.',
     ctaText: 'Comece Agora',
     badgeText: 'Como Funciona',
@@ -283,8 +283,8 @@ Entregue a atividade aos alunos para contagem. Guarde o gabarito para correção
 
   // Use Cases - FULL text from find-and-count.md use case sections
   useCases: {
-    sectionTitle: 'Quem Usa Atividades Grátis de Encontre e Conte para Crianças',
-    sectionDescription: 'Nosso gerador de encontre e conte atende diversos perfis de educadores brasileiros. De professores de educação infantil a empreendedores educacionais. Descubra como cada grupo utiliza atividades grátis para imprimir em sua rotina pedagógica.',
+    sectionTitle: 'Atividade Grátis para Crianças - Atividade para Educação Infantil com Imprimíveis Grátis. Atividade para Crianças',
+    sectionDescription: 'Atividades grátis disponíveis. Nosso gerador de encontre e conte atende diversos perfis de educadores brasileiros. De professores de educação infantil a empreendedores educacionais. Descubra como cada grupo utiliza atividades grátis para imprimir em sua rotina pedagógica.',
     badgeText: 'Para Quem',
     readMoreLabel: 'Leia mais',
     showLessLabel: 'Mostrar menos',
@@ -366,7 +366,7 @@ Combine encontre e conte com desenhos para colorir em pacotes completos. Venda i
 
   // FAQ Section - Selected FAQs from find-and-count.md
   faq: {
-    sectionTitle: 'Perguntas Frequentes sobre Atividades Grátis de Encontre e Conte',
+    sectionTitle: 'FAQ - Atividade Grátis para Crianças e Atividade para Educação Infantil. Atividade para Crianças',
     sectionDescription: 'Reunimos as dúvidas mais comuns sobre o gerador de atividades grátis de encontre e conte. Se sua pergunta não estiver aqui, entre em contato.',
     showMoreText: 'Mostrar mais perguntas',
     showLessText: 'Mostrar menos',

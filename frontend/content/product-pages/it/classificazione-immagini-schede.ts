@@ -81,8 +81,8 @@ Le attività di classificazione aiutano i bambini a identificare somiglianze e d
 
   // Sample Gallery
   samples: {
-    sectionTitle: 'Schede Gratuite Classificazione Immagini - Stampabili Gratuiti da Scaricare',
-    sectionDescription: 'Scarica schede gratuite classificazione per vedere la nostra qualità professionale - stampabili gratuiti per bambini',
+    sectionTitle: "Scheda Gratuita per Bambini - Schede Gratuite e Stampabili Gratuiti e Scheda per Bambini",
+    sectionDescription: "Scarica stampabili gratuiti - Scheda gratuita per bambini di qualità professionale. Schede gratuite e scheda per bambini perfette per scheda per scuola dell'infanzia. Scheda gratuita per bambini e scheda per bambini includono materiale educativo. Scheda gratuita e scheda per scuola dell'infanzia disponibile",
     downloadLabel: 'Scarica Scheda Gratuita',
     worksheetLabel: 'Scheda',
     answerKeyLabel: 'Chiave di Risposta',
@@ -126,7 +126,7 @@ Le attività di classificazione aiutano i bambini a identificare somiglianze e d
 
   // Features Grid
   features: {
-    sectionTitle: 'Funzionalità Schede Gratuite Classificazione - Stampabili Gratuiti per Bambini',
+    sectionTitle: "Schede Gratuite e Scheda per Bambini - Stampabili Gratuiti e Scheda per Scuola dell'Infanzia",
     sectionDescription: 'Il nostro generatore offre funzionalità complete per creare scheda per bambini classificazione professionali. Ogni scheda per scuola dell\'infanzia è progettata per insegnanti. Crea scheda per bambini personalizzata in pochi clic. Scheda per scuola dell\'infanzia modificabile sul canvas digitale. Scarica in formato PDF ad alta risoluzione. L\'abbonamento include tutte le funzionalità premium.',
     highlightBadgeText: 'Funzionalità Chiave',
     readMoreLabel: 'Leggi di più',
@@ -220,7 +220,7 @@ Perfetto per fotocopie di massa o conservazione dell'inchiostro. Gli insegnanti 
 
   // How-To Guide Section
   howTo: {
-    sectionTitle: 'Come Creare Schede Gratuite Classificazione - 5 Passi per Stampabili Gratuiti',
+    sectionTitle: "Scheda Gratuita per Bambini Creare - Scheda per Scuola dell'Infanzia",
     sectionDescription: 'Creare scheda per bambini professionale richiede meno di 3 minuti. Segui cinque passaggi per generare scheda per scuola dell\'infanzia. Nessuna competenza richiesta. Scheda per bambini classificazione facile da creare. Perfetto per scheda per scuola dell\'infanzia e primaria.',
     ctaText: 'Inizia Ora',
     badgeText: 'Guida Passo-Passo',
@@ -292,7 +292,7 @@ La casella di spunta "Scala di Grigi" converte qualsiasi scheda colorata in bian
 
   // Use Cases Section
   useCases: {
-    sectionTitle: 'Schede Gratuite per Insegnanti - Stampabili Gratuiti Classificazione per Ogni Esigenza',
+    sectionTitle: "Schede Gratuite per Insegnanti - Stampabili Gratuiti Classificazione per Ogni Esigenza",
     sectionDescription: 'Scheda per bambini classificazione serve diversi gruppi nell\'educazione italiana. Scheda per scuola dell\'infanzia crea attività pregrafismo. Scheda per bambini scuola primaria genera materiali didattici. Genitori homeschool usano scheda per scuola dell\'infanzia curriculum. Ogni scheda per bambini offre valore unico.',
     badgeText: 'Per Chi È',
     readMoreLabel: 'Leggi di più',
@@ -375,7 +375,7 @@ I numeri da stampare e le schede matematica hanno domanda costante. I genitori c
 
   // FAQ Section
   faq: {
-    sectionTitle: 'FAQ Schede Gratuite Classificazione - Stampabili Gratuiti per Bambini',
+    sectionTitle: "FAQ - Scheda Gratuita per Bambini e Scheda per Scuola dell'Infanzia. Scheda per Bambini",
     sectionDescription: 'Domande frequenti su scheda per bambini classificazione. Risposte dettagliate su scheda per scuola dell\'infanzia. Scopri come creare scheda per bambini e scheda per scuola dell\'infanzia facilmente. Guide per integrare nella didattica.',
     showMoreText: 'Mostra altre domande',
     showLessText: 'Mostra meno',
@@ -503,7 +503,7 @@ I numeri da stampare e le schede matematica hanno domanda costante. I genitori c
 
   // Related Apps Section
   relatedApps: {
-    sectionTitle: 'Altre Schede Gratuite - Stampabili Gratuiti Correlati',
+    sectionTitle: "Altre Schede Gratuite - Stampabili Gratuiti Correlati",
     sectionDescription: 'La piattaforma offre 33 generatori oltre scheda per bambini classificazione. Crea scheda per scuola dell\'infanzia con ogni generatore. Combina scheda per bambini con addizioni e conteggio. Scheda per scuola dell\'infanzia tematica combinata con altre competenze.',
     ctaTitle: 'Pronto a Creare Schede Didattiche Straordinarie?',
     ctaDescription: 'Unisciti agli educatori che creano schede professionali. Generazione illimitata, licenza commerciale inclusa.',

@@ -85,8 +85,8 @@ Ces fiches maternelle travaillent les compétences essentielles du programme de 
 
   // Sample Gallery - REAL file paths from samples/french/shadow-match/
   samples: {
-    sectionTitle: 'Exemples de Fiches de Discrimination Visuelle',
-    sectionDescription: 'Téléchargez des exemples gratuits pour voir notre qualité professionnelle',
+    sectionTitle: 'Fiche Gratuite pour Enfants - Fiches Gratuites et Imprimables Gratuits',
+    sectionDescription: 'Téléchargez imprimables gratuits - Fiche gratuite pour enfants de qualité professionnelle. Fiches gratuites et fiche pour enfants parfaites pour fiche pour maternelle. Fiche gratuite pour enfants et fiches gratuites inclus matériel éducatif. Fiche gratuite et fiches gratuites disponible',
     downloadLabel: 'Télécharger Exemple Gratuit',
     worksheetLabel: 'Fiche',
     answerKeyLabel: 'Corrigé',
@@ -137,7 +137,7 @@ Ces fiches maternelle travaillent les compétences essentielles du programme de 
 
   // Features Grid - FULL text from shadow-match.md feature sections
   features: {
-    sectionTitle: 'Fonctionnalités du Générateur de Fiches Maternelle - Tout pour Créer des Exercices CP et Fiches à Imprimer Gratuit',
+    sectionTitle: 'Fiches Gratuites et Fiche pour Enfants - Imprimables Gratuits et Fiche pour Maternelle',
     sectionDescription: 'Le générateur Shadow Match offre toutes les fonctionnalités nécessaires pour créer des fiches maternelle professionnelles. Vous accédez à des outils complets pour produire des exercices de discrimination visuelle adaptés à chaque niveau. Les enseignants de maternelle et CP créent des fiches personnalisées en quelques clics. Chaque fonctionnalité a été conçue pour faciliter la création de fiches à imprimer gratuit de qualité professionnelle.',
     highlightBadgeText: 'Fonctionnalité Clé',
     readMoreLabel: 'Lire la suite',
@@ -231,7 +231,7 @@ Chaque fiche inclut automatiquement la fiche de correction. Les exercices matern
 
   // How-To Guide - FULL text from shadow-match.md step sections
   howTo: {
-    sectionTitle: 'Comment Créer des Fiches Maternelle et Exercices CP en 5 Étapes Simples - Fiches à Imprimer Gratuit Prêtes en 3 Minutes',
+    sectionTitle: 'Fiche Gratuite pour Enfants Créer - Fiche pour Maternelle',
     sectionDescription: 'Créer des fiches maternelle professionnelles ne prend que quelques minutes. Ce guide étape par étape vous montre exactement comment générer des exercices CP de qualité. Suivez ces 5 étapes simples et vos fiches à imprimer gratuit seront prêtes à télécharger. Aucune compétence technique requise. Les enseignants de maternelle créent leurs premières fiches en moins de 3 minutes.',
     ctaText: 'Commencer Maintenant',
     badgeText: 'Guide Étape par Étape',
@@ -317,7 +317,7 @@ Cochez "Niveaux de gris" avant de télécharger pour économiser l'encre d'impri
 
   // Use Cases - FULL text from shadow-match.md use case sections
   useCases: {
-    sectionTitle: 'Parfait pour les Enseignants et Parents - Fiches Maternelle, Exercices CP et Graphisme Maternelle pour Tous les Besoins',
+    sectionTitle: 'Fiche Gratuite pour Enfants - Fiche pour Maternelle avec Imprimables Gratuits. Fiche pour Enfants',
     sectionDescription: 'Ces fiches de discrimination visuelle servent une grande variété d\'utilisateurs éducatifs. Les enseignants de maternelle créent des exercices adaptés à chaque niveau. Les parents en instruction à domicile trouvent des ressources professionnelles. Les enseignants spécialisés différencient leurs activités. Les entrepreneurs pédagogiques vendent ces fiches sur Teachers Pay Teachers. Chaque groupe d\'utilisateurs bénéficie de fonctionnalités spécifiques pour leurs fiches maternelle et exercices CP.',
     badgeText: 'Cas d\'Utilisation',
     readMoreLabel: 'Lire la suite',
@@ -412,7 +412,7 @@ Les vendeurs français créent des ressources pour le marché international. Les
 
   // FAQ Section - Selected FAQs from shadow-match.md
   faq: {
-    sectionTitle: 'Questions Fréquentes sur les Fiches Maternelle, Graphisme Maternelle et Exercices Maths',
+    sectionTitle: 'FAQ - Fiche Gratuite pour Enfants et Fiche pour Maternelle. Fiche pour Enfants',
     sectionDescription: 'Les enseignants posent régulièrement des questions sur ce générateur de fiches. Cette section répond aux interrogations les plus courantes. Vous trouverez des réponses claires sur l\'utilisation, la tarification et les fonctionnalités. Ces informations vous aident à maximiser votre abonnement. Les fiches maternelle, exercices CP et ressources pédagogiques deviennent encore plus utiles avec ces clarifications.',
     showMoreText: 'Voir plus de questions',
     showLessText: 'Voir moins',
@@ -569,7 +569,7 @@ Les parents en instruction à domicile apprécient énormément ces corrigés. L
 
   // Related Apps - From shadow-match.md Section 7
   relatedApps: {
-    sectionTitle: 'Combinez les Fiches Discrimination Visuelle avec Tables de Multiplication, Alphabet et Coloriage - Paquets d\'Apprentissage Complets',
+    sectionTitle: 'Fiches Gratuites Combiner - Fiche pour Enfants et Imprimables Gratuits',
     sectionDescription: 'Les enseignants combinent les fiches de discrimination visuelle avec d\'autres types d\'exercices pour créer des paquets d\'apprentissage complets. La plateforme offre 33 générateurs différents de fiches à imprimer gratuit. Vous combinez Shadow Match avec les tables de multiplication, alphabet, écriture cursive et coloriage pour un enseignement intégré. Cette approche multisensorielle renforce l\'apprentissage. Les élèves développent simultanément plusieurs compétences fondamentales.',
     ctaTitle: 'Prêt à Créer des Fiches Professionnelles ?',
     ctaDescription: 'Rejoignez des milliers d\'enseignants qui créent des fiches maternelle de qualité. Création illimitée, licence commerciale incluse.',

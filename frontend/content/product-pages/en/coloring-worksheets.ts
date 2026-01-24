@@ -76,7 +76,7 @@ Every element on your coloring page is fully editable. Drag images anywhere on t
 
   // Sample Gallery - SEO-OPTIMIZED alt texts with keywords
   samples: {
-    sectionTitle: 'Free Worksheet Samples - Coloring Pages for Kids',
+    sectionTitle: 'Free Worksheet for Kids Samples - Worksheet for Kindergarten',
     downloadLabel: 'Download Free Sample',
     worksheetLabel: 'Worksheet',
     answerKeyLabel: 'Answer Key',
@@ -545,7 +545,7 @@ Amazon KDP low-content book publishers compile coloring worksheets into physical
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Combine with Other Worksheet Generators',
+    sectionTitle: 'More Free Worksheet for Kids - Worksheet for Kindergarten Generators',
     sectionDescription: 'Create complete learning packets by combining coloring worksheets with these complementary generators.',
     ctaTitle: 'Ready to Create Amazing Worksheets?',
     ctaDescription: 'Join thousands of educators creating professional worksheets. Unlimited generation, commercial license included.',

@@ -83,8 +83,8 @@ Fuld Adgang-abonnementet inkluderer kommerciel licens til print-on-demand. Sælg
 
   // Sample Gallery - REAL file paths from samples/danish/math-puzzle/
   samples: {
-    sectionTitle: 'Gratis Arbejdsark Eksempler - Matteleger til Børn og Børnehaveklasse',
-    sectionDescription: 'Download gratis arbejdsark eksempler på matteleger til børn for at se vores professionelle kvalitet',
+    sectionTitle: 'Gratis Arbejdsark til Børn - Gratis Arbejdsark og Gratis Printables',
+    sectionDescription: 'Download gratis printables - Gratis arbejdsark til børn af professionel kvalitet. Gratis arbejdsark og arbejdsark til børn perfekt til arbejdsark til børnehaveklasse. Gratis arbejdsark til børn og arbejdsark til børn inkluderer gratis printables undervisningsmateriale. Gratis arbejdsark tilgængeligt',
     badgeText: 'Gratis Eksempler',
     downloadLabel: 'Download Gratis Eksempel',
     downloadingLabel: 'Downloader...',
@@ -135,7 +135,7 @@ Fuld Adgang-abonnementet inkluderer kommerciel licens til print-on-demand. Sælg
 
   // Features Grid - FULL text from math-puzzle.md feature sections
   features: {
-    sectionTitle: 'Funktioner - Gratis Arbejdsark til Børn og Matematikopgaver til Print',
+    sectionTitle: 'Gratis Arbejdsark og Arbejdsark til Børn - Gratis Printables og Arbejdsark til Børnehaveklasse',
     sectionDescription: 'Vores mattelege-generator indeholder alle funktioner, du behøver for at skabe professionelle matematikopgaver. Fra simpel oprettelse på 3 klik til fuld redigeringsmuligheder på lærredet. Upload dine egne billeder, vælg mellem 3000+ biblioteksbilleder, tilføj tekst og tilpas alt. Download matematikopgaver som PDF eller JPEG i professionel 300 DPI-kvalitet.',
     highlightBadgeText: 'Vigtig Funktion',
     readMoreLabel: 'Læs mere',
@@ -229,7 +229,7 @@ Download både opgaveark og facitark separat. Brug opgavearket til eleverne og f
 
   // How-To Guide - FULL text from math-puzzle.md step sections
   howTo: {
-    sectionTitle: 'Sådan Laver Du Gratis Arbejdsark Matteleger til Børn på 5 Trin',
+    sectionTitle: 'Gratis Arbejdsark til Børn Oprette - Arbejdsark til Børnehaveklasse',
     sectionDescription: 'Oprettelse af professionelle matematikopgaver tager under 3 minutter fra start til download. Vælg dit indhold, tilpas indstillinger, generér opgaven, redigér på lærredet og download. Ingen designerfærdigheder kræves.',
     ctaText: 'Start Nu',
     badgeText: 'Sådan Virker Det',
@@ -534,7 +534,7 @@ Professionel 300 DPI-kvalitet sikrer, at dine produkter ser perfekte ud. Bundle 
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Kombiner med Andre Gratis Arbejdsark Generatorer til Børn',
+    sectionTitle: 'Gratis Arbejdsark Kombinere - Arbejdsark til Børn og Gratis Printables',
     sectionDescription: 'Lav komplette læringspakker ved at kombinere matteleger med disse komplementære generatorer.',
     ctaTitle: 'Klar til at Lave Fantastiske Arbejdsark?',
     ctaDescription: 'Tilslut dig tusindvis af pædagoger der laver professionelle arbejdsark. Ubegrænset oprettelse, kommerciel licens inkluderet.',

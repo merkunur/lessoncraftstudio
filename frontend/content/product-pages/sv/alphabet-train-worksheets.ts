@@ -83,8 +83,8 @@ Vår alfabettåg-generator skapar målarbilder barn älskar. Varje gratis arbets
 
   // Sample Gallery - REAL file paths from samples/swedish/alphabet-train/
   samples: {
-    sectionTitle: 'Gratis Arbetsblad Alfabettåg Exempel - Arbetsblad för Barn',
-    sectionDescription: 'Ladda ner gratis arbetsblad för barn för att se vår professionella kvalitet',
+    sectionTitle: 'Gratis Arbetsblad för Barn - Gratis Arbetsblad och Gratis Utskrifter',
+    sectionDescription: 'Ladda ner gratis utskrifter - Gratis arbetsblad för barn av professionell kvalitet. Gratis arbetsblad och arbetsblad för barn perfekt för arbetsblad för förskoleklass. Gratis arbetsblad för barn och arbetsblad för barn inkluderar utbildningsmaterial. Gratis arbetsblad och gratis utskrifter tillgänglig',
     downloadLabel: 'Ladda Ner Gratis Exempel',
     worksheetLabel: 'Arbetsblad',
     answerKeyLabel: 'Facit',
@@ -135,7 +135,7 @@ Vår alfabettåg-generator skapar målarbilder barn älskar. Varje gratis arbets
 
   // Features Grid - FULL text from alphabet-train.md feature sections
   features: {
-    sectionTitle: 'Funktioner - Gratis Arbetsblad för Barn och Förskoleklass Material',
+    sectionTitle: 'Gratis Arbetsblad och Arbetsblad för Barn - Gratis Utskrifter och Arbetsblad för Förskoleklass',
     sectionDescription: 'Vår alfabettåg-generator inkluderar alla professionella verktyg lärare behöver för att skapa gratis arbetsblad för barn. Din Grundpaket-prenumeration ger dig obegränsad åtkomst till alla funktioner. Skapa arbetsblad för förskoleklass utan extra avgifter per arbetsblad.',
     highlightBadgeText: 'Nyckelfunktion',
     readMoreLabel: 'Läs mer',
@@ -229,7 +229,7 @@ Gråskala-alternativet sparar bläck vid utskrift av många arbetsblad. Konverte
 
   // How-To Guide - FULL text from alphabet-train.md step sections
   howTo: {
-    sectionTitle: 'Skapa Gratis Arbetsblad Alfabettåg i 5 Steg - Arbetsblad för Förskoleklass',
+    sectionTitle: 'Gratis Arbetsblad för Barn Skapa - Arbetsblad för Förskoleklass och Gratis Utskrifter',
     sectionDescription: 'Skapa professionella gratis arbetsblad för barn snabbare än att kopiera traditionella arbetsblad. Hela processen tar under 3 minuter från start till färdig PDF. Inga designkunskaper krävs. Inga komplicerade programvaror att lära sig.',
     ctaText: 'Börja Skapa Nu',
     badgeText: 'Så Fungerar Det',
@@ -301,7 +301,7 @@ Ladda ner både arbetsblad och facit om du genererade facit. Två separata filer
 
   // Use Cases - FULL text from alphabet-train.md use case sections
   useCases: {
-    sectionTitle: 'Gratis Arbetsblad för Barn - Perfekt för Lärare och Föräldrar',
+    sectionTitle: 'Gratis Arbetsblad för Barn - Arbetsblad för Förskoleklass med Gratis Utskrifter. Arbetsblad för Barn',
     sectionDescription: 'Alfabettåg-generatorn tjänar många olika användargrupper inom svensk utbildning. Förskoleklass lärare, lågstadielärare, hemundervisande föräldrar, specialpedagoger och lärarföretagare - alla drar nytta av gratis arbetsblad för barn verktyget.',
     badgeText: 'Vem Det Är För',
     readMoreLabel: 'Läs mer',
@@ -384,7 +384,7 @@ Skapa tematiska arbetsbladspaket. Jul-alfabettåg med svenska julbilder. Påsk-a
 
   // FAQ Section - From alphabet-train.md
   faq: {
-    sectionTitle: 'Vanliga Frågor om Gratis Arbetsblad Alfabettåg - Arbetsblad för Barn',
+    sectionTitle: 'FAQ - Gratis Arbetsblad för Barn och Arbetsblad för Förskoleklass med Gratis Utskrifter. Arbetsblad för Barn',
     sectionDescription: 'Svenska lärare ställer ofta samma frågor om gratis arbetsblad för barn och alfabettåg-generatorn. Här besvarar vi de vanligaste frågorna om arbetsblad för förskoleklass.',
     showMoreText: 'Visa fler frågor',
     showLessText: 'Visa färre',
@@ -489,7 +489,7 @@ Skapa tematiska arbetsbladspaket. Jul-alfabettåg med svenska julbilder. Påsk-a
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Kombinera med Andra Arbetsblad Generatorer',
+    sectionTitle: 'Gratis Arbetsblad Kombinera - Arbetsblad för Barn och Gratis Utskrifter',
     sectionDescription: 'Skapa kompletta lärpaket genom att kombinera alfabettåg arbetsblad med dessa kompletterande generatorer.',
     ctaTitle: 'Redo att Skapa Fantastiska Arbetsblad?',
     ctaDescription: 'Gå med tusentals lärare som skapar professionella arbetsblad. Obegränsad generering, kommersiell licens ingår.',

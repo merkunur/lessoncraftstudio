@@ -71,8 +71,8 @@ O gerador de atividades para imprimir inclui cinco estilos de fonte diferentes. 
 
   // Sample Gallery - REAL file paths from samples/english/writing/
   samples: {
-    sectionTitle: 'Exemplos de Atividades Gratis de Caligrafia - Imprimiveis Gratis',
-    sectionDescription: 'Baixe exemplos gratuitos para ver nossa qualidade profissional',
+    sectionTitle: 'Atividade Grátis para Crianças - Atividades Grátis e Imprimíveis Grátis',
+    sectionDescription: 'Baixe imprimíveis grátis - Atividade grátis para crianças de qualidade profissional. Atividades grátis e atividade para crianças perfeitas para atividade para educação infantil. Atividade grátis para crianças e atividade para crianças incluem material educativo. Atividade grátis disponível',
     downloadLabel: 'Baixar Exemplo Grátis',
     worksheetLabel: 'Atividade',
     answerKeyLabel: 'Gabarito',
@@ -109,8 +109,8 @@ O gerador de atividades para imprimir inclui cinco estilos de fonte diferentes. 
 
   // Features Grid - FULL text from writing.md feature sections
   features: {
-    sectionTitle: 'Recursos do Gerador - Atividades Gratis de Caligrafia para Criancas',
-    sectionDescription: 'Nosso gerador de atividades de caligrafia oferece recursos completos para professores. Cada função foi pensada para economizar tempo e garantir qualidade. Você controla todos os aspectos das suas atividades para imprimir. Veja abaixo os principais recursos disponíveis.',
+    sectionTitle: 'Atividades Grátis e Atividade para Crianças - Imprimíveis Grátis e Atividade para Educação Infantil',
+    sectionDescription: 'Atividades grátis disponíveis. Nosso gerador de atividades de caligrafia oferece recursos completos para professores. Cada função foi pensada para economizar tempo e garantir qualidade. Você controla todos os aspectos das suas atividades para imprimir. Veja abaixo os principais recursos disponíveis.',
     highlightBadgeText: 'Recurso Principal',
     readMoreLabel: 'Leia mais',
     showLessLabel: 'Mostrar menos',
@@ -214,7 +214,7 @@ A qualidade é idêntica às atividades para imprimir vendidas em grandes editor
 
   // How-To Guide - FULL text from writing.md step sections
   howTo: {
-    sectionTitle: 'Como Criar Atividade Gratis de Caligrafia em 5 Passos',
+    sectionTitle: 'Atividade Grátis para Crianças Criar - Atividade para Educação Infantil',
     sectionDescription: 'Criar atividades de alfabetização profissionais leva menos de 3 minutos. Este guia mostra cada etapa do processo. Você aprenderá a usar todos os recursos do gerador. Suas fichas de letra cursiva ficarão perfeitas desde a primeira tentativa.',
     ctaText: 'Comece Agora',
     badgeText: 'Como Funciona',
@@ -281,8 +281,8 @@ A opção "Escala de Cinza" converte cores para preto e branco. Economiza tinta 
 
   // Use Cases - FULL text from writing.md user types sections
   useCases: {
-    sectionTitle: 'Quem Usa Atividades Gratis de Caligrafia - Atividade para Criancas',
-    sectionDescription: 'Nosso gerador de atividades para imprimir atende diversos públicos. Professores de todas as etapas usam a ferramenta. Pais que educam em casa também se beneficiam. Veja como cada grupo aproveita os recursos de coordenação motora.',
+    sectionTitle: 'Atividade Grátis para Crianças - Atividade para Educação Infantil com Imprimíveis Grátis. Atividade para Crianças',
+    sectionDescription: 'Atividades grátis disponíveis. Nosso gerador de atividades para imprimir atende diversos públicos. Professores de todas as etapas usam a ferramenta. Pais que educam em casa também se beneficiam. Veja como cada grupo aproveita os recursos de coordenação motora.',
     badgeText: 'Quem Usa',
     readMoreLabel: 'Leia mais',
     showLessLabel: 'Mostrar menos',
@@ -411,7 +411,7 @@ O investimento se paga rapidamente com as primeiras vendas. Uma assinatura Acess
 
   // FAQ Section - FULL text from writing.md FAQ section
   faq: {
-    sectionTitle: 'Perguntas Frequentes sobre Atividades Gratis de Caligrafia',
+    sectionTitle: 'FAQ - Atividade Grátis para Crianças e Atividade para Educação Infantil. Atividade para Crianças',
     sectionDescription: 'Reunimos as dúvidas mais comuns sobre nosso gerador de atividades de alfabetização. Cada resposta ajuda você a entender melhor a ferramenta. Tire suas dúvidas sobre coordenação motora, formatos e recursos disponíveis.',
     showMoreText: 'Mostrar mais perguntas',
     showLessText: 'Mostrar menos',
@@ -514,7 +514,7 @@ Combine com imagens temáticas da biblioteca. Animais para projeto de zoologia. 
 
   // Related Apps - Combine with other generators
   relatedApps: {
-    sectionTitle: 'Combine Atividades Gratis de Caligrafia com Outros Geradores',
+    sectionTitle: 'Atividades Grátis Combinar - Atividade para Crianças e Imprimíveis Grátis',
     sectionDescription: 'Sua assinatura Acesso Completo inclui 33 geradores de atividades. Combine caligrafia com atividades de matemática para aprendizado integrado. Adicione desenhos para colorir às suas fichas de escrita. Crie pacotes completos com tabuada e muito mais.',
     ctaTitle: 'Pronto para Criar Atividades Profissionais?',
     ctaDescription: 'Junte-se a milhares de professores criando atividades de caligrafia de qualidade.',

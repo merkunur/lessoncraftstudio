@@ -95,8 +95,8 @@ Unser kostenloser Additions-Generator bietet über 3000 kindgerechte Bilder für
 
   // Sample Gallery - REAL file paths from samples/english/addition/
   samples: {
-    sectionTitle: 'Kostenlose Additions-Arbeitsblätter Beispiele - Mathe-Arbeitsblätter herunterladen',
-    sectionDescription: 'Laden Sie kostenlose Beispiel-Arbeitsblätter herunter, um unsere professionelle Qualität zu sehen',
+    sectionTitle: 'Kostenloses Arbeitsblatt für Kinder - Kostenlose Arbeitsblätter und Kostenlose Druckvorlagen',
+    sectionDescription: 'Laden Sie kostenlose Druckvorlagen herunter - Kostenloses Arbeitsblatt für Kinder in professioneller Qualität für Arbeitsblatt für Vorschule',
     downloadLabel: 'Kostenloses Beispiel Herunterladen',
     worksheetLabel: 'Arbeitsblatt',
     answerKeyLabel: 'Lösungsblatt',
@@ -147,7 +147,7 @@ Unser kostenloser Additions-Generator bietet über 3000 kindgerechte Bilder für
 
   // Features Grid - FULL text from addition.md feature sections
   features: {
-    sectionTitle: 'Funktionen des Additions-Generators - Kostenlose Mathe-Arbeitsblätter für Rechnen lernen',
+    sectionTitle: 'Arbeitsblatt für Kinder - Arbeitsblatt für Vorschule und Kostenlose Arbeitsblätter',
     sectionDescription: 'Der Additions-Generator bietet alle wichtigen Funktionen für kostenlose Mathe-Arbeitsblätter. Erstellen Sie professionelle Arbeitsblätter Grundschule und Vorschul-Arbeitsblätter in wenigen Minuten. Jede Funktion wurde speziell für Lehrkräfte entwickelt.',
     highlightBadgeText: 'Hauptfunktion',
     readMoreLabel: 'Mehr lesen',
@@ -241,7 +241,7 @@ Professionelle Qualität baut Lehrkraft-Glaubwürdigkeit auf für kostenlose Arb
 
   // How-To Guide - FULL text from addition.md step sections
   howTo: {
-    sectionTitle: 'Additions-Arbeitsblätter erstellen in 5 Schritten - Kostenlose Mathe-Arbeitsblätter',
+    sectionTitle: 'Kostenloses Arbeitsblatt für Kinder erstellen - Arbeitsblatt für Vorschule',
     sectionDescription: 'Erstellen Sie professionelle Arbeitsblätter Grundschule in unter 3 Minuten. Folgen Sie diesen 5 einfachen Schritten. Kein Design-Wissen erforderlich. Perfekt für Mathe-Arbeitsblätter und Vorschul-Arbeitsblätter.',
     ctaText: 'Jetzt Erstellen',
     badgeText: 'So funktioniert es',
@@ -313,7 +313,7 @@ Mit dem Basis-Paket für 144 € jährlich erhalten Sie wasserzeichenfreie Downl
 
   // Use Cases - FULL text from addition.md use case sections
   useCases: {
-    sectionTitle: 'Arbeitsblätter Grundschule und Vorschul-Arbeitsblätter - Kostenlose Mathe-Arbeitsblätter für Lehrkräfte und Eltern',
+    sectionTitle: 'Kostenloses Arbeitsblatt für Kinder - Arbeitsblatt für Vorschule mit Kostenlose Druckvorlagen',
     sectionDescription: 'Der Additions-Generator eignet sich für verschiedene Nutzergruppen. Erzieher in der Vorschule. Lehrkräfte an Grundschulen. Homeschooling-Eltern. DaZ-Lehrkräfte. Sonderpädagogen. Jeder profitiert von kostenlosen Arbeitsblättern.',
     badgeText: 'Anwendungsbereiche',
     readMoreLabel: 'Mehr lesen',
@@ -396,7 +396,7 @@ Viele Lehrkräfte verdienen 500-5000 € monatlich mit druckbaren Ressourcen fü
 
   // FAQ Section - FULL FAQs from addition.md
   faq: {
-    sectionTitle: 'Häufig gestellte Fragen zu Mathe-Arbeitsblättern und kostenlosen Arbeitsblättern Grundschule',
+    sectionTitle: 'FAQ - Kostenloses Arbeitsblatt für Kinder und Arbeitsblatt für Vorschule',
     sectionDescription: 'Lehrkräfte und Eltern haben viele Fragen zum Additions-Generator und Basis-Paket Abonnement. Hier beantworten wir die häufigsten Fragen zu Arbeitsblätter Grundschule, Vorschul-Arbeitsblättern und kommerzieller Lizenzierung.',
     showMoreText: 'Mehr Fragen anzeigen',
     showLessText: 'Weniger anzeigen',
@@ -501,7 +501,7 @@ Viele Lehrkräfte verdienen 500-5000 € monatlich mit druckbaren Ressourcen fü
 
   // Related Apps - Kombinieren Sie Additions-Arbeitsblätter mit anderen Generatoren
   relatedApps: {
-    sectionTitle: 'Kombinieren Sie Additions-Arbeitsblätter mit anderen Generatoren - Ganzheitliche Arbeitsblätter Grundschule',
+    sectionTitle: 'Kostenlose Arbeitsblätter kombinieren - Arbeitsblatt für Kinder und Kostenlose Druckvorlagen',
     sectionDescription: 'Ihr Basis-Paket Abonnement beinhaltet 10 Premium-Generatoren, die perfekt zusammenarbeiten. Kombinieren Sie Additions-Arbeitsblätter mit Ausmalbilder für kreative Pausen. Integrieren Sie Schwungübungen für Schreibvorbereitung. Verbinden Sie mit Einmaleins-Übungen für ältere Schüler.',
     ctaTitle: 'Bereit, fantastische Arbeitsblätter zu erstellen?',
     ctaDescription: 'Schließen Sie sich tausenden Lehrkräften an, die professionelle Mathe-Arbeitsblätter erstellen. Unbegrenzte Generierung, kommerzielle Lizenz inklusive.',

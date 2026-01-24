@@ -71,8 +71,8 @@ O Grid Match transforma qualquer imagem em um desafio pedagógico envolvente. Um
 
   // Sample Gallery
   samples: {
-    sectionTitle: 'Exemplos de Grid Match - Atividades Gratis para Educacao Infantil',
-    sectionDescription: 'Baixe exemplos gratuitos para ver nossa qualidade profissional',
+    sectionTitle: 'Atividade Grátis para Crianças - Atividades Grátis e Imprimíveis Grátis',
+    sectionDescription: 'Baixe imprimíveis grátis - Atividade grátis para crianças de qualidade profissional. Atividades grátis e atividade para crianças perfeitas para atividade para educação infantil. Atividade grátis para crianças e atividade para crianças incluem material educativo. Atividade grátis disponível',
     downloadLabel: 'Baixar Exemplo Grátis',
     worksheetLabel: 'Atividade',
     answerKeyLabel: 'Gabarito',
@@ -109,8 +109,8 @@ O Grid Match transforma qualquer imagem em um desafio pedagógico envolvente. Um
 
   // Features Grid
   features: {
-    sectionTitle: 'Recursos do Gerador - Atividades Gratis para Criancas e Imprimiveis Gratis',
-    sectionDescription: 'O gerador Grid Match oferece recursos completos para criar atividades educação infantil e ensino fundamental. Cada ferramenta foi desenvolvida pensando em professores que precisam de praticidade. Com sua assinatura Acesso Completo, você acessa todos os recursos sem limitações. Produza atividades para imprimir profissionais em minutos, não em horas.',
+    sectionTitle: 'Atividades Grátis e Atividade para Crianças - Imprimíveis Grátis e Atividade para Educação Infantil',
+    sectionDescription: 'Atividades grátis aqui. O gerador Grid Match oferece recursos completos para criar atividades educação infantil e ensino fundamental. Cada ferramenta foi desenvolvida pensando em professores que precisam de praticidade. Com sua assinatura Acesso Completo, você acessa todos os recursos sem limitações. Produza atividades para imprimir profissionais em minutos, não em horas.',
     highlightBadgeText: 'Recurso Principal',
     readMoreLabel: 'Leia mais',
     showLessLabel: 'Mostrar menos',
@@ -198,7 +198,7 @@ Formatos de página incluem Carta e A4 em retrato ou paisagem. Dimensões person
 
   // How-To Guide
   howTo: {
-    sectionTitle: 'Como Criar Atividades Gratis de Grid Match em 5 Passos',
+    sectionTitle: 'Atividade Grátis para Crianças Criar - Atividade para Educação Infantil',
     sectionDescription: 'Aprenda a criar atividades educação infantil profissionais em menos de 3 minutos. Este guia passo a passo mostra exatamente como usar o gerador Grid Match. Não é necessária experiência em design gráfico. Qualquer professor consegue produzir atividades para imprimir de qualidade comercial seguindo estas instruções.',
     ctaText: 'Comece Agora',
     badgeText: 'Como Funciona',
@@ -270,7 +270,7 @@ Exporte também o gabarito separadamente nos mesmos formatos. Ative a opção "E
 
   // Use Cases
   useCases: {
-    sectionTitle: 'Quem Usa - Atividades Gratis para Professores e Pais',
+    sectionTitle: 'Atividade Grátis para Crianças - Atividade para Educação Infantil com Imprimíveis Grátis. Atividade para Crianças',
     sectionDescription: 'O gerador Grid Match atende diferentes perfis de educadores no Brasil. Professores de educação infantil encontram recursos para desenvolvimento visual. Docentes do ensino fundamental criam atividades para imprimir alinhadas à BNCC. Pais que educam em casa produzem materiais personalizados. Cada usuário aproveita os recursos de forma única.',
     badgeText: 'Para Quem',
     readMoreLabel: 'Leia mais',
@@ -353,7 +353,7 @@ O Grid Match produz materiais diferenciados da concorrência. Poucos geradores o
 
   // FAQ Section
   faq: {
-    sectionTitle: 'Perguntas Frequentes sobre Atividades Gratis de Grid Match',
+    sectionTitle: 'FAQ - Atividade Grátis para Crianças e Atividade para Educação Infantil. Atividade para Crianças',
     sectionDescription: 'Reunimos as dúvidas mais comuns sobre o gerador Grid Match e atividades de alfabetização. Professores brasileiros perguntam sobre preços, funcionalidades e uso pedagógico. Cada resposta esclarece aspectos importantes sobre coordenação motora e outros benefícios. Encontre informações detalhadas para tomar sua decisão.',
     showMoreText: 'Mostrar mais perguntas',
     showLessText: 'Mostrar menos',
@@ -481,7 +481,7 @@ O Grid Match produz materiais diferenciados da concorrência. Poucos geradores o
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Outros Geradores de Atividades Gratis',
+    sectionTitle: 'Atividades Grátis Combinar - Atividade para Crianças e Imprimíveis Grátis',
     sectionDescription: 'O LessonCraft Studio oferece 33 geradores de atividades na assinatura Acesso Completo. Combine Grid Match com atividades de matemática para pacotes curriculares completos. Integre com geradores de tabuada e coordenação motora para desenvolvimento integral.',
     ctaTitle: 'Pronto para Criar Atividades Incríveis?',
     ctaDescription: 'Junte-se a milhares de educadores que criam atividades profissionais. Criação ilimitada, licença comercial incluída.',

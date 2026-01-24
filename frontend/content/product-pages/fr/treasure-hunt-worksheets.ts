@@ -86,8 +86,8 @@ Notre générateur propose deux types de vocabulaire de directions adaptés à l
 
   // Sample Gallery - REAL file paths from samples/french/treasure-hunt/
   samples: {
-    sectionTitle: 'Exemples de Fiches Chasse au Trésor',
-    sectionDescription: 'Téléchargez des exemples gratuits pour voir notre qualité professionnelle',
+    sectionTitle: 'Fiche Gratuite pour Enfants - Fiches Gratuites et Imprimables Gratuits',
+    sectionDescription: 'Téléchargez imprimables gratuits - Fiche gratuite pour enfants de qualité professionnelle. Fiches gratuites et fiche pour enfants parfaites pour fiche pour maternelle. Fiche gratuite pour enfants et fiches gratuites inclus matériel éducatif. Fiche gratuite et fiches gratuites disponible',
     downloadLabel: 'Télécharger Exemple Gratuit',
     worksheetLabel: 'Fiche',
     answerKeyLabel: 'Corrigé',
@@ -138,7 +138,7 @@ Notre générateur propose deux types de vocabulaire de directions adaptés à l
 
   // Features Grid - FULL text from French treasure-hunt.md Section 2
   features: {
-    sectionTitle: 'Fonctionnalités du Générateur de Fiches Chasse au Trésor - Tout pour Créer des Fiches Maternelle et Exercices CP',
+    sectionTitle: 'Fiches Gratuites et Fiche pour Enfants - Imprimables Gratuits et Fiche pour Maternelle',
     sectionDescription: 'Notre générateur de fiches chasse au trésor offre toutes les fonctionnalités dont vous avez besoin pour créer des exercices de qualité professionnelle. Créez des fiches maternelle personnalisées en quelques clics. Modifiez tout sur le canevas après génération. Téléchargez en PDF ou JPEG haute résolution. Votre abonnement Accès Complet inclut une licence commerciale complète pour vendre vos créations.',
     highlightBadgeText: 'Fonctionnalité Clé',
     readMoreLabel: 'Lire la suite',
@@ -218,7 +218,7 @@ Option niveaux de gris pour économiser l'encre d'imprimante. Particulièrement 
 
   // How-To Guide - FULL text from French treasure-hunt.md Section 3
   howTo: {
-    sectionTitle: 'Comment Créer des Fiches Maternelle et Exercices CP en 5 Étapes Simples - Chasse au Trésor Prête en 3 Minutes',
+    sectionTitle: 'Fiche Gratuite pour Enfants Créer - Fiche pour Maternelle',
     sectionDescription: 'Créer une fiche chasse au trésor professionnelle ne prend que 3 minutes du début à la fin. Ce guide étape par étape vous montre exactement comment utiliser le générateur. Aucune compétence technique requise. Les enseignants de maternelle créent des fiches à imprimer gratuit dès leur première utilisation. Suivez ces cinq étapes simples pour créer des exercices CP personnalisés parfaits pour vos élèves.',
     ctaText: 'Commencer à Créer',
     badgeText: 'Guide Étape par Étape',
@@ -308,7 +308,7 @@ Téléchargez toujours les deux versions : la fiche élève et la fiche corrigé
 
   // Use Cases - FULL text from French treasure-hunt.md Section 4
   useCases: {
-    sectionTitle: 'Parfait pour Enseignants, Parents et Éducateurs - Fiches Maternelle et Exercices CP pour Tous les Besoins',
+    sectionTitle: 'Fiche Gratuite pour Enfants - Fiche pour Maternelle avec Imprimables Gratuits. Fiche pour Enfants',
     sectionDescription: 'Les fiches chasse au trésor conviennent à de nombreux contextes éducatifs différents. Les enseignants de maternelle les utilisent pour enseigner les directions spatiales. Les parents en IEF créent des exercices personnalisés. Les enseignants FLE intègrent le vocabulaire des directions. Les éducateurs spécialisés adaptent la difficulté pour leurs élèves. Les enseignants entrepreneurs vendent leurs créations en ligne. Découvrez comment chaque groupe bénéficie de ce générateur polyvalent.',
     badgeText: 'Cas d\'Utilisation',
     readMoreLabel: 'Lire la suite',
@@ -403,7 +403,7 @@ Les fiches chasse au trésor sont particulièrement recherchées sur Teachers Pa
 
   // FAQ Section - FULL text from French treasure-hunt.md Section 6
   faq: {
-    sectionTitle: 'Questions Fréquentes sur les Fiches Chasse au Trésor',
+    sectionTitle: 'FAQ - Fiche Gratuite pour Enfants et Fiche pour Maternelle. Fiche pour Enfants',
     sectionDescription: 'Les enseignants posent souvent les mêmes questions avant de s\'abonner. Cette section répond aux 12 questions les plus courantes. Vous découvrirez les détails sur le prix, les fonctionnalités, l\'utilisation en classe et la licence commerciale.',
     showMoreText: 'Afficher plus de questions',
     showLessText: 'Afficher moins',
@@ -532,7 +532,7 @@ Les fiches chasse au trésor sont particulièrement recherchées sur Teachers Pa
 
   // Related Apps - From French treasure-hunt.md Section 7
   relatedApps: {
-    sectionTitle: 'Combinez les Fiches Chasse au Trésor avec d\'Autres Générateurs - Paquets Complets',
+    sectionTitle: 'Fiches Gratuites Combiner - Fiche pour Enfants et Imprimables Gratuits',
     sectionDescription: 'Les enseignants créent des paquets d\'apprentissage thématiques en combinant plusieurs types de fiches. Les fiches chasse au trésor se combinent parfaitement avec nos 32 autres générateurs. Votre abonnement Accès Complet à 240 € par an vous donne accès à tous les générateurs.',
     ctaTitle: 'Prêt à Créer des Fiches Exceptionnelles ?',
     ctaDescription: 'Rejoignez des milliers d\'enseignants qui créent des fiches professionnelles. Génération illimitée, licence commerciale incluse.',

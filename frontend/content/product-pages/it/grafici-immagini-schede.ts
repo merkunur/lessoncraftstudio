@@ -83,8 +83,8 @@ L'abbonamento Accesso Completo include la licenza commerciale per la stampa su r
 
   // Sample Gallery
   samples: {
-    sectionTitle: 'Schede Gratuite Grafici Immagini - Stampabili Gratuiti per Bambini',
-    sectionDescription: 'Scarica esempi gratuiti per vedere la nostra qualità professionale',
+    sectionTitle: "Scheda Gratuita per Bambini - Schede Gratuite e Stampabili Gratuiti e Scheda per Bambini",
+    sectionDescription: "Scarica stampabili gratuiti - Scheda gratuita per bambini di qualità professionale. Schede gratuite e scheda per bambini perfette per scheda per scuola dell'infanzia. Scheda gratuita per bambini e scheda per bambini includono materiale educativo. Scheda gratuita e scheda per scuola dell'infanzia disponibile",
     downloadLabel: 'Scarica Esempio Gratuito',
     worksheetLabel: 'Scheda',
     answerKeyLabel: 'Chiave di Risposta',
@@ -128,7 +128,7 @@ L'abbonamento Accesso Completo include la licenza commerciale per la stampa su r
 
   // Features Grid
   features: {
-    sectionTitle: 'Funzionalita Generatore Schede Gratuite Grafici - Scheda Gratuita per Bambini',
+    sectionTitle: "Schede Gratuite e Scheda per Bambini - Stampabili Gratuiti e Scheda per Scuola dell'Infanzia",
     sectionDescription: 'Il nostro generatore offre funzionalità complete per insegnanti della scuola dell\'infanzia e della scuola primaria. Crea schede didattiche professionali in pochi minuti. Personalizza ogni elemento per adattarlo alle esigenze dei tuoi studenti. Combina grafici con immagini, schede matematica, disegni da colorare e altro materiale didattico. Ogni funzionalità è progettata per la facilità d\'uso. Non servono competenze tecniche o di design.',
     highlightBadgeText: 'Funzionalità Chiave',
     readMoreLabel: 'Leggi di più',
@@ -236,7 +236,7 @@ Le schede didattiche stampate hanno un aspetto professionale. I genitori sono im
 
   // How-To Guide Section
   howTo: {
-    sectionTitle: 'Come Creare Schede Gratuite Grafici Immagini - Stampabili Gratuiti in 5 Passaggi',
+    sectionTitle: "Scheda Gratuita per Bambini Creare - Scheda per Scuola dell'Infanzia",
     sectionDescription: 'Creare grafici con immagini professionali richiede meno di 3 minuti. Il processo è intuitivo anche per chi non ha esperienza con strumenti digitali. Segui questi cinque passaggi semplici. Genera schede didattiche di qualità professionale rapidamente. Dedica più tempo all\'insegnamento e meno tempo alla preparazione dei materiali.',
     ctaText: 'Inizia Ora',
     badgeText: 'Guida Passo-Passo',
@@ -318,7 +318,7 @@ Attiva l'opzione scala di grigi prima del download per risparmiare inchiostro. P
 
   // Use Cases Section
   useCases: {
-    sectionTitle: 'Perfetto per Insegnanti - Schede Gratuite Grafici e Scheda per Bambini',
+    sectionTitle: "Scheda Gratuita per Bambini - Scheda per Scuola dell'Infanzia con Stampabili Gratuiti. Scheda per Bambini",
     sectionDescription: 'Il nostro generatore di grafici con immagini serve insegnanti e educatori in contesti diversi. Dalla scuola dell\'infanzia alla classe terza della scuola primaria. Dall\'insegnamento in classe all\'istruzione domiciliare. Dalle scuole pubbliche alle scuole internazionali private. Ogni tipo di educatore trova valore in questo strumento flessibile.',
     badgeText: 'Chi Usa le Nostre Schede',
     readMoreLabel: 'Leggi di più',
@@ -401,7 +401,7 @@ La qualità professionale 300 DPI garantisce che i tuoi prodotti abbiano un aspe
 
   // FAQ Section
   faq: {
-    sectionTitle: 'Domande Frequenti Schede Gratuite Grafici - Stampabili Gratuiti Conteggio',
+    sectionTitle: "FAQ - Scheda Gratuita per Bambini e Scheda per Scuola dell'Infanzia. Scheda per Bambini",
     sectionDescription: 'Gli insegnanti fanno spesso domande prima di abbonarsi. Questa sezione risponde alle domande più comuni. Ogni risposta fornisce informazioni chiare e dettagliate.',
     showMoreText: 'Mostra altre domande',
     showLessText: 'Mostra meno domande',
@@ -577,7 +577,7 @@ Matematica: usa numeri da stampare e forme geometriche. Crea grafici che rinforz
 
   // Related Apps Section
   relatedApps: {
-    sectionTitle: 'Combina Schede Gratuite Grafici con Altri Stampabili Gratuiti',
+    sectionTitle: "Schede Gratuite Combinare - Scheda per Bambini e Stampabili Gratuiti",
     sectionDescription: 'L\'abbonamento Accesso Completo include 33 generatori. Combina il generatore Grafici con Immagini con altri strumenti. Crea pacchetti completi di schede didattiche. Perfetto per unità tematiche. Ottimo per centri di apprendimento.',
     ctaTitle: 'Pronto a Creare Schede Straordinarie?',
     ctaDescription: 'Unisciti a migliaia di educatori che creano schede professionali. Generazione illimitata, licenza commerciale inclusa.',

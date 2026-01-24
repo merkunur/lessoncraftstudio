@@ -85,8 +85,8 @@ Prenumerationen inkluderar kommersiell licens för print-on-demand. Sälj dina a
 
   // Sample Gallery - REAL file paths from samples/swedish/missing-pieces/
   samples: {
-    sectionTitle: 'Saknade Bitar Arbetsblad Exempel',
-    sectionDescription: 'Ladda ner gratis exempelarbetsblad för att se vår professionella kvalitet',
+    sectionTitle: 'Gratis Arbetsblad för Barn - Gratis Arbetsblad och Gratis Utskrifter',
+    sectionDescription: 'Ladda ner gratis utskrifter - Gratis arbetsblad för barn av professionell kvalitet. Gratis arbetsblad och arbetsblad för barn perfekt för arbetsblad för förskoleklass. Gratis arbetsblad för barn och arbetsblad för barn inkluderar utbildningsmaterial. Gratis arbetsblad och gratis utskrifter tillgänglig',
     downloadLabel: 'Ladda Ner Gratis Exempel',
     worksheetLabel: 'Arbetsblad',
     answerKeyLabel: 'Facit',
@@ -137,7 +137,7 @@ Prenumerationen inkluderar kommersiell licens för print-on-demand. Sälj dina a
 
   // Features Grid - FULL text from missing-pieces.md feature sections
   features: {
-    sectionTitle: 'Funktioner för Arbetsblad Gratis - Allt Du Behöver för Förskoleklass Material och Matematik Arbetsblad',
+    sectionTitle: 'Gratis Arbetsblad och Arbetsblad för Barn - Gratis Utskrifter och Arbetsblad för Förskoleklass',
     sectionDescription: 'Vårt verktyg för saknade bitar-pussel innehåller alla funktioner du behöver för att skapa professionella arbetsblad gratis. Varje funktion är designad för att göra skapandet snabbt och enkelt. Du får tillgång till finmotorik övningar, matematik arbetsblad och målarbilder barn med en enda prenumeration. Använd verktygena för bokstäver lära sig, siffror och tal, samt matte övningar. Perfekt för förskoleklass material och lågstadiet.',
     highlightBadgeText: 'Nyckelfunktion',
     readMoreLabel: 'Läs mer',
@@ -279,7 +279,7 @@ Aktivera gråskaleläge för att spara färgbläck. Perfekt när du skriver ut m
 
   // Use Cases - FULL text from missing-pieces.md use case sections
   useCases: {
-    sectionTitle: 'Perfekt för Lärare och Föräldrar',
+    sectionTitle: 'Gratis Arbetsblad för Barn - Arbetsblad för Förskoleklass med Gratis Utskrifter. Arbetsblad för Barn',
     sectionDescription: 'Saknade bitar-pussel fungerar för många olika användare. Förskolelärare använder verktyget för finmotorik övningar. Lågstadielärare skapar matematik arbetsblad och matte övningar. Hemmaskoleföräldrar genererar mångsidigt förskoleklass material. Specialpedagoger anpassar arbetsblad för olika nivåer. Lärarentreprenörer säljer sina skapade produkter.',
     badgeText: 'Vem Det Är För',
     readMoreLabel: 'Läs mer',
@@ -350,7 +350,7 @@ Matte övningar för alla årskurser. Addition och subtraktion för årskurs 1-2
 
   // FAQ Section - Selected FAQs from missing-pieces.md
   faq: {
-    sectionTitle: 'Vanliga Frågor om Saknade Bitar-Verktyget',
+    sectionTitle: 'FAQ - Gratis Arbetsblad för Barn och Arbetsblad för Förskoleklass med Gratis Utskrifter. Arbetsblad för Barn',
     sectionDescription: 'Lärare ställer ofta samma frågor om saknade bitar-generatorn. Här svarar vi på de vanligaste frågorna om hur verktyget fungerar för olika ämnen och åldersgrupper.',
     showMoreText: 'Visa fler frågor',
     showLessText: 'Visa färre',
@@ -443,7 +443,7 @@ Matte övningar för alla årskurser. Addition och subtraktion för årskurs 1-2
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Kombinera med Andra Arbetsblad Generatorer',
+    sectionTitle: 'Gratis Arbetsblad Kombinera - Arbetsblad för Barn och Gratis Utskrifter',
     sectionDescription: 'Skapa kompletta lärpaket genom att kombinera saknade bitar arbetsblad med dessa kompletterande generatorer.',
     ctaTitle: 'Redo att Skapa Fantastiska Saknade Bitar Arbetsblad?',
     ctaDescription: 'Gå med tusentals lärare som skapar professionella arbetsblad. Obegränsad generering, kommersiell licens ingår.',

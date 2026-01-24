@@ -53,8 +53,8 @@ Täysi Käyttöoikeus -tilauksesi antaa rajattoman tehtävien luonnin ilman teht
 
   // Sample Gallery - REAL file paths from samples/english/missing pieces/
   samples: {
-    sectionTitle: 'Puuttuvat Palat -tehtävät Esimerkit',
-    sectionDescription: 'Lataa ilmaiset esimerkkityöarkit nähdäksesi ammattimaisen laatumme',
+    sectionTitle: 'Ilmainen Työarkki Lapsille - Ilmaiset Työarkit ja Ilmaiset Tulosteet',
+    sectionDescription: 'Lataa ilmaiset tulosteet - Ilmainen työarkki lapsille ammattimaista laatua. Ilmaiset työarkit ja työarkki lapsille täydellinen työarkki esiopetukseen. Ilmainen työarkki lapsille ja työarkki lapsille sisältää ilmaiset tulosteet ja ilmaiset työarkit opetusmateriaalin. Ilmainen työarkki ja työarkki esiopetukseen saatavilla',
     downloadLabel: 'Lataa Ilmainen Esimerkki',
     worksheetLabel: 'Työarkki',
     answerKeyLabel: 'Vastausavain',
@@ -84,7 +84,7 @@ Täysi Käyttöoikeus -tilauksesi antaa rajattoman tehtävien luonnin ilman teht
 
   // Features Grid - FULL text from Finnish missing-pieces.md feature sections
   features: {
-    sectionTitle: 'Puuttuvan Palan Tehtävien Ominaisuudet - Tulostettavat Tehtävät Lapsille Alakouluun ja Esiopetukseen',
+    sectionTitle: 'Ilmaiset Työarkit ja Työarkki Lapsille - Ilmaiset Tulosteet ja Työarkki Esiopetukseen',
     sectionDescription: 'Puuttuvan palan tehtävien generaattori tarjoaa kaiken tarvitsemasi esiopetus materiaalin ja alakoulun tehtävien luomiseen. Jokainen ominaisuus on suunniteltu säästämään aikaa ja parantamaan oppimistuloksia.',
     highlightBadgeText: 'Tärkeä Ominaisuus',
     readMoreLabel: 'Lue lisää',
@@ -178,7 +178,7 @@ Lataa erikseen tehtävä ja vastausavain. Molemmat samalla 300 DPI:n laadulla. L
 
   // How-To Guide - FULL text from Finnish missing-pieces.md step sections
   howTo: {
-    sectionTitle: 'Kuinka Luoda Tulostettavia Tehtäviä Lapsille Viidessä Helpossa Vaiheessa',
+    sectionTitle: 'Ilmainen Työarkki Lapsille Luoda - Työarkki Esiopetukseen',
     sectionDescription: 'Puuttuvan palan tehtävien luominen on nopeaa ja helppoa. Seuraa näitä viittä yksinkertaista vaihetta. Koko prosessi vie alle kolme minuuttia alusta loppuun. Ei suunnitteluosaamista tarvita. Ei monimutkaisia työkaluja opittavaksi.',
     ctaText: 'Aloita Luominen Nyt',
     badgeText: 'Näin Se Toimii',
@@ -250,7 +250,7 @@ Harmaasävyvaihtoehto säästää mustetta. Valitse harmaasävy-valintaruutu enn
 
   // Use Cases - FULL text from Finnish missing-pieces.md use case sections
   useCases: {
-    sectionTitle: 'Täydellinen Opettajille, Vanhemmille ja Kasvattajille - Tulostettavat Tehtävät Lapsille ja Esiopetus Materiaali Ilmainen Kaikille Tarpeille',
+    sectionTitle: 'Ilmainen Työarkki Lapsille - Työarkki Esiopetukseen ja Ilmaiset Tulosteet. Työarkki Lapsille',
     sectionDescription: 'Puuttuvan palan tehtävät palvelevat monenlaisia käyttäjiä. Esiopettajat luovat visuaalisen hahmottamisen tehtäviä. Alakoulun opettajat rakentavat ongelmanratkaisutaitoja. Kotiopettajavanhemmat personoivat oppimista. Kielenopettajat kehittävät sanastoa. Erityisopettajat eriyttävät materiaalia.',
     badgeText: 'Kenelle Sopii',
     readMoreLabel: 'Lue lisää',
@@ -437,7 +437,7 @@ Täysi Käyttöoikeus -tilaus sisältää kaupalliset käyttöoikeudet. Ei lisä
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Yhdistä Puuttuvan Palan Tehtävät Muihin Tulostettaviin Tehtäviin Lapsille - Täydelliset Oppimispaketit',
+    sectionTitle: 'Ilmaiset Työarkit Yhdistää - Työarkki Lapsille ja Ilmaiset Tulosteet',
     sectionDescription: 'Täysi Käyttöoikeus sisältää 33 ilmaista työkalua. Yhdistä puuttuvan palan tehtävät muihin generaattoreihin täydellisiin oppimispaketteihin. Luo viikon tehtäväpaketti kaikilla työkaluilla. Luo teemakohtaisia paketteja jotka yhdistävät useita taitoja.',
     ctaTitle: 'Valmiina Luomaan Upeita Työarkkeja?',
     ctaDescription: 'Liity tuhansien opettajien joukkoon, jotka luovat ammattimaisia työarkkeja. Rajoittamaton generointi, kaupallinen lisenssi sisältyy.',

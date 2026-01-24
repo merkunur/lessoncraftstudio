@@ -85,8 +85,8 @@ Verktyget för målarbilder barn stöder 11 språk för användargränssnittet. 
 
   // Sample Gallery - REAL file paths from samples/swedish/coloring/
   samples: {
-    sectionTitle: 'Målarbilder Barn Exempel - Gratis Arbetsblad för Barn att Skriva Ut',
-    sectionDescription: 'Ladda ner gratis exempelarbetsblad för att se vår professionella kvalitet',
+    sectionTitle: 'Gratis Arbetsblad för Barn - Gratis Arbetsblad och Gratis Utskrifter',
+    sectionDescription: 'Ladda ner gratis utskrifter - Gratis arbetsblad för barn av professionell kvalitet. Gratis arbetsblad och arbetsblad för barn perfekt för arbetsblad för förskoleklass. Gratis arbetsblad för barn och arbetsblad för barn inkluderar utbildningsmaterial. Gratis arbetsblad och gratis utskrifter tillgänglig',
     downloadLabel: 'Ladda Ner Gratis Exempel',
     worksheetLabel: 'Arbetsblad',
     answerKeyLabel: 'Facit',
@@ -291,7 +291,7 @@ Dina målarbilder barn laddas ner i högupplöst 300 DPI-kvalitet. Perfekt för 
 
   // Use Cases - FULL text from coloring.md use case sections
   useCases: {
-    sectionTitle: 'Perfekt för Lärare, Föräldrar och Pedagoger - Gratis Arbetsblad för Barn och Gratis Utskrifter för Alla Behov',
+    sectionTitle: 'Gratis Arbetsblad för Barn - Arbetsblad för Förskoleklass med Gratis Utskrifter. Arbetsblad för Barn',
     sectionDescription: 'Vårt verktyg för målarbilder barn passar alla som arbetar med barn. Förskoleklass lärare, lågstadielärare och hemmaskolelärare använder målarbilder barn dagligen. Kombinera målarbilder barn med matematik arbetsblad och bokstäver lära sig aktiviteter. Varje användare hittar värde i arbetsblad gratis verktyget. Skapa förskoleklass material anpassat för dina elevers behov.',
     badgeText: 'Vem Det Är För',
     readMoreLabel: 'Läs mer',
@@ -374,7 +374,7 @@ Grundpaketet inkluderar kommersiell licens för målarbilder barn. Sälj dina m�
 
   // FAQ Section - Selected FAQs from coloring.md
   faq: {
-    sectionTitle: 'Vanliga Frågor om Gratis Arbetsblad för Barn - Gratis Utskrifter och Arbetsblad för Förskoleklass',
+    sectionTitle: 'FAQ - Gratis Arbetsblad för Barn och Arbetsblad för Förskoleklass med Gratis Utskrifter. Arbetsblad för Barn',
     sectionDescription: 'Lärare ställer ofta frågor om målarbilder barn med addition och subtraktion element. Kombinera målarbilder barn med matematik arbetsblad för siffror och tal. Lägg till multiplikationstabellen och klockan lära sig aktiviteter. Inkludera bokstäver lära sig och finmotorik övningar. Varje målarbilder barn anpassas för arbetsblad gratis behov. Här är de vanligaste frågorna om vårt verktyg för målarbilder barn.',
     showMoreText: 'Visa fler frågor',
     showLessText: 'Visa färre',

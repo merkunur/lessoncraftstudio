@@ -103,8 +103,8 @@ Deze werkbladen kleuters ondersteunen de ontwikkeling van visuele waarneming en 
 
   // Sample Gallery - REAL file paths from samples/dutch/find-objects/
   samples: {
-    sectionTitle: 'Zoek Voorwerpen Gratis Werkblad Voorbeelden - Werkblad voor Kinderen',
-    sectionDescription: 'Download gratis voorbeeldwerkbladen om onze professionele kwaliteit te ervaren',
+    sectionTitle: 'Gratis Werkblad voor Kinderen - Gratis Werkbladen en Gratis Printables',
+    sectionDescription: 'Download gratis printables - Gratis werkblad voor kinderen van professionele kwaliteit. Gratis werkbladen en werkblad voor kinderen perfect voor werkblad voor kleuters. Gratis werkblad voor kinderen en werkblad voor kinderen inclusief educatief materiaal. Gratis werkblad beschikbaar',
     downloadLabel: 'Gratis Voorbeeld Downloaden',
     worksheetLabel: 'Werkblad',
     answerKeyLabel: 'Antwoordblad',
@@ -155,7 +155,7 @@ Deze werkbladen kleuters ondersteunen de ontwikkeling van visuele waarneming en 
 
   // Features Grid - FULL text from find-objects.md feature sections
   features: {
-    sectionTitle: 'Functies Zoekwerkbladen - Gratis Werkblad voor Kinderen en Werkblad voor Kleuters',
+    sectionTitle: 'Gratis Werkbladen en Werkblad voor Kinderen - Gratis Printables en Werkblad voor Kleuters',
     sectionDescription: 'Deze sectie beschrijft alle functies van onze zoekwerkbladen generator. Van eenvoudig maken tot volledig aanpassen. Ontdek waarom duizenden leerkrachten kiezen voor onze werkbladen kleuters en werkbladen groep 3. Elke functie is ontworpen om tijd te besparen en professionele resultaten te leveren.',
     highlightBadgeText: 'Uitgelicht',
     readMoreLabel: 'Lees meer',
@@ -244,7 +244,7 @@ De Vreemde Eend modus traint matching vaardigheden. Kies acht tot twaalf paren v
 
   // How-To Guide - FULL text from find-objects.md step sections
   howTo: {
-    sectionTitle: 'Hoe Maak Je Gratis Werkblad voor Kinderen - Zoekwerkbladen in 5 Stappen',
+    sectionTitle: 'Gratis Werkblad voor Kinderen Maken - Werkblad voor Kleuters',
     sectionDescription: 'Leer in vijf eenvoudige stappen professionele zoekwerkbladen maken. Het hele proces duurt minder dan drie minuten. Geen technische kennis of ontwerpervaring nodig. Volg deze handleiding en maak direct werkbladen kleuters en werkbladen groep 3.',
     ctaText: 'Nu Starten',
     badgeText: 'Zo werkt het',
@@ -316,7 +316,7 @@ Vergeet de antwoordsleutel niet te genereren. Klik op "Aanmaken" en selecteer "A
 
   // Use Cases - FULL text from find-objects.md use case sections
   useCases: {
-    sectionTitle: 'Perfect voor Leerkrachten en Ouders - Gratis Werkblad voor Kinderen en Kleuters',
+    sectionTitle: 'Gratis Werkblad voor Kinderen - Werkblad voor Kleuters met Gratis Printables. Werkblad voor Kinderen',
     sectionDescription: 'Onze zoekwerkbladen generator bedient diverse onderwijsprofessionals en ouders. Van kleuterjuffen tot leerkracht-ondernemers. Ontdek hoe verschillende gebruikers profiteren van werkbladen groep 3 en oefenbladen gratis. Elke gebruikersgroep vindt specifieke voordelen voor hun unieke situatie.',
     badgeText: 'Voor wie',
     readMoreLabel: 'Lees meer',
@@ -399,7 +399,7 @@ De professionele 300 DPI kwaliteit onderscheidt jouw producten. Geen watermerken
 
   // FAQ Section - FULL FAQs from find-objects.md
   faq: {
-    sectionTitle: 'Veelgestelde Vragen Zoekwerkbladen - Gratis Werkbladen en Werkblad voor Kinderen FAQ',
+    sectionTitle: 'FAQ - Gratis Werkblad voor Kinderen en Werkblad voor Kleuters. Werkblad voor Kinderen',
     sectionDescription: 'Hier beantwoorden we de meest gestelde vragen over onze zoekwerkbladen generator. Van prijzen tot functies en van combinaties tot commercieel gebruik. Vind antwoorden over werkbladen kleuters en werkbladen groep 3.',
     showMoreText: 'Meer vragen tonen',
     showLessText: 'Minder tonen',
@@ -527,7 +527,7 @@ De professionele 300 DPI kwaliteit onderscheidt jouw producten. Geen watermerken
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Combineer Zoekwerkbladen met Andere Generators - Complete Werkbladen Pakketten',
+    sectionTitle: 'Gratis Werkbladen Combineren - Werkblad voor Kinderen en Gratis Printables',
     sectionDescription: 'Het Volledige Toegang abonnement bevat drieëndertig werkblad generators die perfect samenwerken. Combineer zoekwerkbladen met andere tools voor complete leerpakketten. Ontdek hoe je thematische bundels maakt voor elke lesweek.',
     ctaTitle: 'Klaar om geweldige werkbladen te maken?',
     ctaDescription: 'Sluit je aan bij duizenden leerkrachten die professionele werkbladen maken. Onbeperkt genereren, commerciële licentie inbegrepen.',

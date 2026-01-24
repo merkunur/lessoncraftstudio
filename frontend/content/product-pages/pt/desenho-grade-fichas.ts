@@ -85,8 +85,8 @@ As atividades de desenho em grade combinam arte com matemática básica. Enquant
 
   // Sample Gallery
   samples: {
-    sectionTitle: 'Exemplos de Desenho em Grade - Atividades Gratis para Criancas',
-    sectionDescription: 'Baixe exemplos gratuitos para ver nossa qualidade profissional',
+    sectionTitle: 'Atividade Grátis para Crianças - Atividades Grátis e Imprimíveis Grátis',
+    sectionDescription: 'Baixe imprimíveis grátis - Atividade grátis para crianças de qualidade profissional. Atividades grátis e atividade para crianças perfeitas para atividade para educação infantil. Atividade grátis para crianças e atividade para crianças incluem material educativo. Atividade grátis disponível',
     downloadLabel: 'Baixar Exemplo Grátis',
     worksheetLabel: 'Atividade',
     answerKeyLabel: 'Gabarito',
@@ -137,8 +137,8 @@ As atividades de desenho em grade combinam arte com matemática básica. Enquant
 
   // Features Grid
   features: {
-    sectionTitle: 'Recursos do Gerador - Atividade Gratis para Imprimir com Imprimiveis Gratis',
-    sectionDescription: 'O gerador Draw and Color oferece ferramentas completas para educadores. Crie atividades educação infantil personalizadas em minutos. Cada recurso foi pensado para facilitar o trabalho do professor. Sua assinatura Acesso Completo libera todas as funcionalidades sem limitações.',
+    sectionTitle: 'Atividades Grátis e Atividade para Crianças - Imprimíveis Grátis e Atividade para Educação Infantil',
+    sectionDescription: 'Atividades grátis aqui. O gerador Draw and Color oferece ferramentas completas para educadores. Crie atividades educação infantil personalizadas em minutos. Cada recurso foi pensado para facilitar o trabalho do professor. Sua assinatura Acesso Completo libera todas as funcionalidades sem limitações.',
     highlightBadgeText: 'Recurso Principal',
     readMoreLabel: 'Leia mais',
     showLessLabel: 'Mostrar menos',
@@ -226,7 +226,7 @@ Escolha entre formatos PDF e JPEG. A opção escala de cinza economiza tinta col
 
   // How-To Guide
   howTo: {
-    sectionTitle: 'Como Criar Atividades Gratis para Imprimir em 5 Passos',
+    sectionTitle: 'Atividade Grátis para Crianças Criar - Atividade para Educação Infantil',
     sectionDescription: 'Criar fichas de desenho em grade é rápido e intuitivo. Todo o processo leva menos de 3 minutos. Siga este guia passo a passo para suas primeiras atividades educação infantil. Você dominará o gerador em poucos minutos.',
     ctaText: 'Comece Agora',
     badgeText: 'Como Funciona',
@@ -298,7 +298,7 @@ Salve o arquivo no seu computador. Imprima quantas cópias precisar. Distribua p
 
   // Use Cases
   useCases: {
-    sectionTitle: 'Quem Usa Atividades Gratis de Desenho em Grade - Imprimiveis Gratis para Educadores',
+    sectionTitle: 'Atividade Grátis para Crianças - Atividade para Educação Infantil com Imprimíveis Grátis. Atividade para Crianças',
     sectionDescription: 'O gerador Draw and Color atende diversos perfis de educadores. Professores de educação infantil criam fichas de coordenação motora. Alfabetizadores usam imagens para reforçar letras e sons. Pais que educam em casa encontram atividades prontas. Cada usuário adapta as fichas para suas necessidades específicas.',
     badgeText: 'Para Quem',
     readMoreLabel: 'Leia mais',
@@ -381,7 +381,7 @@ Professores empreendedores faturam de R$500 a R$5000 mensais. Materiais digitais
 
   // FAQ Section
   faq: {
-    sectionTitle: 'Perguntas Frequentes sobre Atividades Gratis de Desenho em Grade',
+    sectionTitle: 'FAQ - Atividade Grátis para Crianças e Atividade para Educação Infantil. Atividade para Crianças',
     sectionDescription: 'Respondemos as dúvidas mais comuns sobre o gerador Draw and Color. Encontre informações sobre assinatura, uso comercial e recursos educativos. Cada resposta ajuda você a aproveitar melhor a ferramenta.',
     showMoreText: 'Mostrar mais perguntas',
     showLessText: 'Mostrar menos',
@@ -511,7 +511,7 @@ Professores empreendedores faturam de R$500 a R$5000 mensais. Materiais digitais
 
   // Related Apps Section
   relatedApps: {
-    sectionTitle: 'Combine com Outros Geradores de Atividades Gratis',
+    sectionTitle: 'Atividades Grátis Combinar - Atividade para Crianças e Imprimíveis Grátis',
     sectionDescription: 'A plataforma LessonCraft Studio oferece 33 geradores de fichas educativas. Combine desenhos em grade com outros aplicativos para pacotes completos. Sua assinatura Acesso Completo libera todos os recursos.',
     ctaTitle: 'Pronto para Criar Atividades Incríveis?',
     ctaDescription: 'Junte-se a milhares de educadores que criam atividades profissionais com o LessonCraft Studio.',

@@ -77,8 +77,8 @@ Desenvolva materiais didáticos que associam imagens a letras iniciais. Ideal pa
 
   // Sample Gallery - REAL file paths from samples/portuguese/matching/
   samples: {
-    sectionTitle: 'Exemplos de Atividades Grátis de Ligar para Crianças',
-    sectionDescription: 'Baixe exemplos gratuitos para ver nossa qualidade profissional',
+    sectionTitle: 'Atividade Grátis para Crianças - Atividades Grátis e Imprimíveis Grátis',
+    sectionDescription: 'Baixe imprimíveis grátis - Atividade grátis para crianças de qualidade profissional. Atividades grátis e atividade para crianças perfeitas para atividade para educação infantil. Atividade grátis para crianças e atividade para crianças incluem material educativo. Atividade grátis disponível',
     downloadLabel: 'Baixar Exemplo Grátis',
     worksheetLabel: 'Atividade',
     answerKeyLabel: 'Gabarito',
@@ -122,7 +122,7 @@ Desenvolva materiais didáticos que associam imagens a letras iniciais. Ideal pa
 
   // Features Grid - FULL text from matching.md feature sections
   features: {
-    sectionTitle: 'Recursos do Gerador - Atividades Grátis para Imprimir',
+    sectionTitle: 'Atividades Grátis e Atividade para Crianças - Imprimíveis Grátis e Atividade para Educação Infantil',
     sectionDescription: 'O gerador de atividades de ligar oferece recursos profissionais para criar materiais educativos. Sua assinatura Pacote Essencial desbloqueia todas as funcionalidades sem custos adicionais. Produza atividades para imprimir personalizadas em minutos. Cada recurso foi desenvolvido pensando nas necessidades de professores brasileiros.',
     highlightBadgeText: 'Recurso Principal',
     readMoreLabel: 'Leia mais',
@@ -227,7 +227,7 @@ Recursos de desfazer e refazer salvam seu trabalho. Volte passos anteriores se c
 
   // How-To Guide - FULL text from matching.md step sections
   howTo: {
-    sectionTitle: 'Como Criar Atividades Grátis de Ligar em 5 Passos',
+    sectionTitle: 'Atividade Grátis para Crianças Criar - Atividade para Educação Infantil',
     sectionDescription: 'Aprenda a criar atividades de ligar profissionais em menos de 3 minutos. Este guia passo a passo mostra cada etapa do processo. Sua assinatura Pacote Essencial permite criar atividades para imprimir ilimitadas.',
     ctaText: 'Comece Agora',
     badgeText: 'Como Funciona',
@@ -309,7 +309,7 @@ Salve os arquivos em pasta organizada no computador. Imprima em papel sulfite co
 
   // Use Cases - FULL text from matching.md use case sections
   useCases: {
-    sectionTitle: 'Quem Usa Atividades Grátis de Ligar para Crianças',
+    sectionTitle: 'Atividade Grátis para Crianças - Atividade para Educação Infantil com Imprimíveis Grátis. Atividade para Crianças',
     sectionDescription: 'O gerador de atividades de ligar atende diversos perfis de educadores. Professores de escola, pais e profissionais encontram valor nesta ferramenta. Cada grupo utiliza as atividades para imprimir de formas diferentes.',
     badgeText: 'Para Quem',
     readMoreLabel: 'Leia mais',
@@ -392,7 +392,7 @@ Plataformas como Hotmart e Educa Market aceitam arquivos PDF. Exporte em 300 DPI
 
   // FAQ Section - Selected FAQs from matching.md
   faq: {
-    sectionTitle: 'Perguntas Frequentes sobre Atividades Grátis de Ligar',
+    sectionTitle: 'FAQ - Atividade Grátis para Crianças e Atividade para Educação Infantil. Atividade para Crianças',
     sectionDescription: 'Reunimos as dúvidas mais comuns sobre o gerador de atividades de ligar. Encontre respostas claras para suas dúvidas.',
     showMoreText: 'Mostrar mais perguntas',
     showLessText: 'Mostrar menos',

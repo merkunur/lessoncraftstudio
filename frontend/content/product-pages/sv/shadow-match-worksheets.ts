@@ -87,8 +87,8 @@ Full Tillgång-prenumerationen inkluderar kommersiell licens för utskrift-på-b
 
   // Sample Gallery - REAL file paths from samples/swedish/shadow-match/
   samples: {
-    sectionTitle: 'Skuggmatchning Gratis Arbetsblad för Förskoleklass - Exempel',
-    sectionDescription: 'Ladda ner gratis arbetsblad för barn för att se vår professionella kvalitet',
+    sectionTitle: 'Gratis Arbetsblad för Barn - Gratis Arbetsblad och Gratis Utskrifter',
+    sectionDescription: 'Ladda ner gratis utskrifter - Gratis arbetsblad för barn av professionell kvalitet. Gratis arbetsblad och arbetsblad för barn perfekt för arbetsblad för förskoleklass. Gratis arbetsblad för barn och arbetsblad för barn inkluderar utbildningsmaterial. Gratis arbetsblad och gratis utskrifter tillgänglig',
     downloadLabel: 'Ladda Ner Gratis Exempel',
     worksheetLabel: 'Arbetsblad',
     answerKeyLabel: 'Facit',
@@ -139,7 +139,7 @@ Full Tillgång-prenumerationen inkluderar kommersiell licens för utskrift-på-b
 
   // Features Grid - FULL descriptions from shadow-match.md H3 sections
   features: {
-    sectionTitle: 'Skuggmatchning Gratis Arbetsblad Funktioner - Allt du Behöver för Arbetsblad för Barn',
+    sectionTitle: 'Gratis Arbetsblad och Arbetsblad för Barn - Gratis Utskrifter och Arbetsblad för Förskoleklass',
     sectionDescription: 'Vår skuggmatchningsgenerator kombinerar kraftfulla funktioner med enkel användning. Skapa professionella visuella perceptionsarbetsblad på minuter. Alla funktioner är utformade för lärare som behöver gratis arbetsblad för barn utan komplicerad programvara.',
     highlightBadgeText: 'Nyckelfunktion',
     badgeText: 'Funktioner',
@@ -264,7 +264,7 @@ Full Tillgång-prenumerationen inkluderar kommersiell licens för utskrift-på-b
 
   // Use Cases - FULL descriptions from shadow-match.md persona sections
   useCases: {
-    sectionTitle: 'Perfekt för Lärare, Föräldrar och Pedagoger - Arbetsblad Gratis för Alla Behov',
+    sectionTitle: 'Gratis Arbetsblad för Barn - Arbetsblad för Förskoleklass med Gratis Utskrifter. Arbetsblad för Barn',
     sectionDescription: 'Skuggmatchningsarbetsblad fungerar för många olika undervisningssituationer. Från förskoleklass till årskurs 3 hittar lärare användning. Hemmaskolaföräldrar och specialpedagoger uppskattar flexibiliteten. Skapa arbetsblad gratis för alla lärmiljöer med förskoleklass material och finmotorik övningar.',
     badgeText: 'Användningsområden',
     readMoreLabel: 'Läs mer',
@@ -323,7 +323,7 @@ Full Tillgång-prenumerationen inkluderar kommersiell licens för utskrift-på-b
 
   // FAQ Section - ALL questions from shadow-match.md
   faq: {
-    sectionTitle: 'Vanliga Frågor om Skuggmatchning Gratis Arbetsblad för Barn - Arbetsblad för Förskoleklass',
+    sectionTitle: 'FAQ - Gratis Arbetsblad för Barn och Arbetsblad för Förskoleklass med Gratis Utskrifter. Arbetsblad för Barn',
     sectionDescription: 'Lärare ställer ofta samma frågor om skuggmatchningsgeneratorn. Här svarar vi på de vanligaste frågorna. Läs om prenumeration, utskrift, anpassning och användning. All information du behöver för att börja skapa gratis arbetsblad för barn och gratis utskrifter.',
     showMoreText: 'Visa fler frågor',
     showLessText: 'Visa färre',

@@ -88,8 +88,8 @@ Générez votre premier cryptogramme en 3 clics. Tapez une phrase et assignez de
 
   // Sample Gallery - REAL file paths from samples/english/cryptogram/
   samples: {
-    sectionTitle: 'Exemples de Cryptogrammes en Images',
-    sectionDescription: 'Téléchargez des exemples gratuits pour voir notre qualité professionnelle',
+    sectionTitle: 'Fiche Gratuite pour Enfants - Fiches Gratuites et Imprimables Gratuits',
+    sectionDescription: 'Téléchargez imprimables gratuits - Fiche gratuite pour enfants de qualité professionnelle. Fiches gratuites et fiche pour enfants parfaites pour fiche pour maternelle. Fiche gratuite pour enfants et fiches gratuites inclus matériel éducatif. Fiche gratuite et fiches gratuites disponible',
     downloadLabel: 'Télécharger Exemple Gratuit',
     worksheetLabel: 'Fiche',
     answerKeyLabel: 'Corrigé',
@@ -140,7 +140,7 @@ Générez votre premier cryptogramme en 3 clics. Tapez une phrase et assignez de
 
   // Features Grid - FULL text from cryptogram.md feature sections
   features: {
-    sectionTitle: 'Fonctionnalités des Cryptogrammes en Images - Tout ce dont vous avez besoin pour créer des Fiches Maternelle et Exercices CP',
+    sectionTitle: 'Fiches Gratuites et Fiche pour Enfants - Imprimables Gratuits et Fiche pour Maternelle',
     sectionDescription: 'Notre générateur de cryptogrammes en images offre toutes les fonctionnalités dont les enseignants ont besoin pour créer des fiches maternelle et exercices CE1 professionnels. Créez des énigmes de décodage personnalisées en quelques minutes. Chaque fonctionnalité est conçue pour vous faire gagner du temps tout en produisant des fiches à imprimer gratuit de qualité supérieure. Les cryptogrammes développent la logique et renforcent l\'apprentissage de l\'alphabet. Voici tout ce que vous pouvez faire avec notre générateur pour apprendre à lire et apprendre les lettres.',
     highlightBadgeText: 'Fonctionnalité Clé',
     readMoreLabel: 'Lire la suite',
@@ -206,7 +206,7 @@ Générez votre premier cryptogramme en 3 clics. Tapez une phrase et assignez de
 
   // How-To Guide - FULL text from cryptogram.md step sections
   howTo: {
-    sectionTitle: 'Comment Créer des Fiches Maternelle et Exercices CP en 5 Étapes Faciles - Générateur de Cryptogrammes',
+    sectionTitle: 'Fiche Gratuite pour Enfants Créer - Fiche pour Maternelle',
     sectionDescription: 'Créer des cryptogrammes en images professionnels prend moins de 3 minutes du début à la fin. Ces 5 étapes simples vous guident du choix des phrases au téléchargement de vos fiches à imprimer gratuit. Aucune compétence technique requise pour créer des exercices CE1. Même les enseignants qui découvrent les outils numériques peuvent créer des cryptogrammes parfaits pour apprendre les lettres dès leur première utilisation. Les cryptogrammes développent la logique et renforcent l\'alphabet. Suivez ces étapes pour générer vos premières fiches maternelle pour apprendre à lire et créer des exercices CP engageants.',
     ctaText: 'Commencer Maintenant',
     badgeText: 'Guide Étape par Étape',
@@ -280,7 +280,7 @@ Cochez la case Niveaux de Gris avant de télécharger pour économiser l'encre d
 
   // Use Cases - FULL text from cryptogram.md use case sections
   useCases: {
-    sectionTitle: 'Parfait pour les Enseignants et Parents - Fiches Maternelle avec Graphisme Maternelle et Coloriage à Imprimer pour Tous les Besoins',
+    sectionTitle: 'Fiche Gratuite pour Enfants - Fiche pour Maternelle avec Imprimables Gratuits. Fiche pour Enfants',
     sectionDescription: 'Notre générateur de cryptogrammes en images sert différents types d\'utilisateurs dans le domaine éducatif. Enseignants de maternelle pour graphisme maternelle, professeurs de CP et CE1, parents en instruction à domicile et enseignants de langues. Chacun trouve des applications spécifiques pour créer des fiches à imprimer gratuit adaptées à ses besoins d\'exercices maths et coloriage à imprimer. Les cryptogrammes développent la logique et les compétences en résolution de problèmes. Voici comment différents éducateurs utilisent nos cryptogrammes pour apprendre à lire, développer le graphisme maternelle et renforcer l\'alphabet avec des exercices CE1.',
     badgeText: 'Cas d\'Utilisation',
     readMoreLabel: 'Lire la suite',
@@ -363,7 +363,7 @@ Etsy attire les parents qui cherchent des activités pour leurs enfants avec fic
 
   // FAQ Section - Selected FAQs from cryptogram.md
   faq: {
-    sectionTitle: 'Questions Fréquemment Posées sur les Cryptogrammes - Exercices CE1 et Tables de Multiplication pour Apprendre à Lire',
+    sectionTitle: 'FAQ - Fiche Gratuite pour Enfants et Fiche pour Maternelle. Fiche pour Enfants',
     sectionDescription: 'Les enseignants et parents ont des questions courantes sur notre générateur de cryptogrammes pour exercices CE1. Voici les réponses détaillées aux questions les plus fréquentes sur les tables de multiplication et apprendre à lire. Ces réponses couvrent l\'abonnement, l\'utilisation en classe, la personnalisation et les fonctionnalités techniques. Découvrez comment créer des fiches maternelle pour l\'alphabet et le coloriage à imprimer.',
     showMoreText: 'Voir plus de questions',
     showLessText: 'Voir moins',
@@ -515,7 +515,7 @@ Une fois créés les PDF téléchargés s'affichent parfaitement sur tous les ap
 
   // Related Apps - From cryptogram.md Section 7
   relatedApps: {
-    sectionTitle: 'Combinez les Cryptogrammes avec d\'Autres Générateurs - Exercices Maths et Tables de Multiplication',
+    sectionTitle: 'Fiches Gratuites Combiner - Fiche pour Enfants et Imprimables Gratuits',
     sectionDescription: 'Votre abonnement Accès Complet à 240 euros par an donne accès à 33 générateurs différents de fiches à imprimer gratuit. Combinez les cryptogrammes avec d\'autres types de fiches maternelle pour créer des forfaits d\'apprentissage complets. Mélangez exercices maths et tables de multiplication avec des énigmes de décodage pour apprendre à lire. Cette approche variée maintient l\'engagement des élèves et renforce l\'apprentissage à travers différentes modalités. Créez des cahiers d\'activités thématiques combinant plusieurs types de fiches pour écriture cursive.',
     ctaTitle: 'Prêt à Créer des Fiches Professionnelles ?',
     ctaDescription: 'Rejoignez des milliers d\'enseignants qui créent des fiches maternelle de qualité. Création illimitée, licence commerciale incluse.',

@@ -82,7 +82,7 @@ This sudoku worksheet generator is perfect for kindergarten teachers, first grad
 
   // Sample Gallery - FIXED file paths (5 samples)
   samples: {
-    sectionTitle: 'Worksheet Samples',
+    sectionTitle: 'Free Worksheet for Kids - Free Worksheets and Free Printables',
     downloadLabel: 'Download Free Sample',
     worksheetLabel: 'Worksheet',
     answerKeyLabel: 'Answer Key',
@@ -127,7 +127,7 @@ This sudoku worksheet generator is perfect for kindergarten teachers, first grad
 
   // Features Grid - OPTIMIZED titles from sudoku.md H3 sections
   features: {
-    sectionTitle: 'Sudoku for Kids Features - Free Math Worksheets',
+    sectionTitle: 'Free Worksheet for Kids Features - Worksheet for Kindergarten',
     sectionDescription: 'Your sudoku worksheet generator includes all the professional features kindergarten and first grade teachers need. Create custom logic puzzles in minutes with full control over images, difficulty, layout, and design. Every feature works together to help you generate free printable worksheets that match your exact classroom needs. Edit everything on the canvas after generation. Add backgrounds, borders, and text. Download high-quality PDF and JPEG files ready for printing or selling.',
     highlightBadgeText: 'Key Feature',
     items: [
@@ -185,7 +185,7 @@ This sudoku worksheet generator is perfect for kindergarten teachers, first grad
 
   // How-To Guide - OPTIMIZED titles from sudoku.md Step sections
   howTo: {
-    sectionTitle: 'How to Create Sudoku Worksheets for Kindergarten in 5 Easy Steps',
+    sectionTitle: 'How to Create Free Worksheets for Kids in 5 Steps - Worksheet for Kindergarten',
     sectionDescription: 'Creating professional sudoku worksheets takes less than three minutes from start to download. No design skills required. No sudoku expertise needed. The generator handles all the complex logic and layout automatically. You focus on choosing images and difficulty level. Follow these five simple steps to create custom kindergarten worksheets and first grade worksheets. Each step takes only seconds. The entire workflow is designed for speed and simplicity.',
     ctaText: 'Start Creating Now',
     steps: [
@@ -229,7 +229,7 @@ This sudoku worksheet generator is perfect for kindergarten teachers, first grad
 
   // Use Cases - OPTIMIZED titles/subtitles from sudoku.md persona sections
   useCases: {
-    sectionTitle: 'Perfect for Teachers, Parents, and Educators',
+    sectionTitle: 'Free Printables for Teachers - Worksheet for Kids',
     sectionDescription: 'Visual sudoku puzzles serve many purposes across different educational settings. Kindergarten teachers use them for logic centers. First grade teachers assign them as early finisher activities. ESL teachers incorporate them into vocabulary lessons. Homeschool parents appreciate the self-paced learning. Special education teachers value the visual, concrete format. Teacher entrepreneurs sell customized versions online. Each user group benefits from the flexibility and customization options. The 4x4 format works perfectly for ages 4-8 across all learning environments.',
     items: [
       {
@@ -285,7 +285,7 @@ This sudoku worksheet generator is perfect for kindergarten teachers, first grad
 
   // FAQ Section - EXPANDED from 12 to 18 questions
   faq: {
-    sectionTitle: 'Frequently Asked Questions',
+    sectionTitle: 'FAQ - Free Worksheet for Kids and Free Printables',
     sectionDescription: 'Teachers and parents ask common questions about visual sudoku puzzles before trying the generator. These answers provide clear, honest information about subscription requirements, printing options, difficulty levels, and customization capabilities. Understanding these details helps you decide if this sudoku generator meets your classroom or homeschool needs. All answers based on actual app features, not marketing promises.',
     showMoreText: 'Show more questions',
     showLessText: 'Show less',
@@ -425,7 +425,7 @@ This sudoku worksheet generator is perfect for kindergarten teachers, first grad
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Combine with Other Worksheet Generators',
+    sectionTitle: 'More Free Worksheets - Worksheet for Kindergarten Generators',
     sectionDescription: 'Your sudoku worksheet generator works perfectly alongside other free printable worksheet creators. Combine sudoku puzzles with addition worksheets and math worksheets for complete math centers. Add phonics worksheets and alphabet worksheets for literacy practice. Include coloring worksheets for creative breaks. Build comprehensive weekly packets covering logic, math, and language arts skills.',
     ctaTitle: 'Ready to Create Amazing Worksheets?',
     ctaDescription: 'Join educators creating professional worksheets. Unlimited generation, commercial license included.',

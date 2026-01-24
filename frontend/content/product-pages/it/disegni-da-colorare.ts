@@ -83,8 +83,8 @@ Il pregrafismo è fondamentale nello sviluppo delle competenze di scrittura. I n
 
   // Sample Gallery
   samples: {
-    sectionTitle: 'Esempi di Schede Gratuite - Disegni da Colorare per Bambini',
-    sectionDescription: 'Scarica schede gratuite per bambini e scopri la nostra qualità professionale di stampabili gratuiti',
+    sectionTitle: "Scheda Gratuita per Bambini - Schede Gratuite e Stampabili Gratuiti e Scheda per Bambini",
+    sectionDescription: "Scarica stampabili gratuiti - Scheda gratuita per bambini di qualità professionale. Schede gratuite e scheda per bambini perfette per scheda per scuola dell'infanzia. Scheda gratuita per bambini e scheda per bambini includono materiale educativo. Scheda gratuita e scheda per scuola dell'infanzia disponibile",
     downloadLabel: 'Scarica Scheda Gratuita',
     worksheetLabel: 'Scheda',
     answerKeyLabel: 'Soluzioni',
@@ -130,7 +130,7 @@ Il pregrafismo è fondamentale nello sviluppo delle competenze di scrittura. I n
 
   // Features Grid
   features: {
-    sectionTitle: 'Funzionalità - Schede Gratuite per Bambini e Stampabili Gratuiti',
+    sectionTitle: "Schede Gratuite e Scheda per Bambini - Stampabili Gratuiti e Scheda per Scuola dell'Infanzia",
     sectionDescription: 'Il nostro generatore crea ogni scheda gratuita per bambini con funzionalità professionali. Perfetto per insegnanti di scuola dell\'infanzia e scuola primaria. Ogni strumento è stato progettato pensando alle esigenze degli educatori italiani. Crea schede gratuite personalizzate in pochi minuti. L\'interfaccia intuitiva rende la creazione semplice anche per chi ha poca esperienza.',
     highlightBadgeText: 'Funzionalità Chiave',
     readMoreLabel: 'Leggi di più',
@@ -210,7 +210,7 @@ La qualità a 300 DPI è essenziale per schede didattiche professionali. Perfett
 
   // How-To Guide Section
   howTo: {
-    sectionTitle: 'Come Creare Schede Gratuite di Disegni da Colorare in 5 Passaggi',
+    sectionTitle: "Scheda Gratuita per Bambini Creare - Scheda per Scuola dell'Infanzia",
     sectionDescription: 'Creare disegni da colorare personalizzati è facilissimo. Servono meno di 3 minuti dall\'inizio al download. Segui questi 5 semplici passaggi. Non servono competenze tecniche. Perfetto per insegnanti di scuola dell\'infanzia e scuola primaria.',
     ctaText: 'Inizia Ora',
     badgeText: 'Guida Passo-Passo',
@@ -282,7 +282,7 @@ Il download inizia immediatamente. File pronti in pochi secondi. Nessuna attesa.
 
   // Use Cases Section
   useCases: {
-    sectionTitle: 'Schede Gratuite per Insegnanti - Disegni da Colorare Scuola dell\'Infanzia',
+    sectionTitle: "Schede Gratuite per Insegnanti - Disegni da Colorare Scuola dell\"Infanzia',
     sectionDescription: 'Il nostro generatore di disegni da colorare serve diversi tipi di educatori. Perfetto per insegnanti di scuola dell\'infanzia e scuola primaria. Ideale per genitori homeschooler. Utile per insegnanti di lingue straniere. Ogni gruppo trova valore nelle funzionalità personalizzabili. Le schede didattiche si adattano a qualsiasi contesto educativo.',
     badgeText: 'Chi Usa le Nostre Schede',
     readMoreLabel: 'Leggi di più',
@@ -365,7 +365,7 @@ I clienti cercano "schede didattiche scuola primaria" costantemente. Il mercato 
 
   // FAQ Section
   faq: {
-    sectionTitle: 'Domande su Schede Gratuite per Bambini e Disegni da Colorare',
+    sectionTitle: "FAQ - Scheda Gratuita per Bambini e Scheda per Scuola dell'Infanzia. Scheda per Bambini",
     sectionDescription: 'Risposte alle domande più comuni sul nostro generatore di disegni da colorare e schede didattiche',
     showMoreText: 'Mostra altre domande',
     showLessText: 'Mostra meno domande',
@@ -494,7 +494,7 @@ La libreria di 3000+ immagini copre tutti i temi educativi. Animali per scienze.
 
   // Related Apps Section
   relatedApps: {
-    sectionTitle: 'Combina Schede Gratuite - Altri Stampabili Gratuiti per Bambini',
+    sectionTitle: "Schede Gratuite Combinare - Scheda per Bambini e Stampabili Gratuiti",
     sectionDescription: 'Il vero potere del Pacchetto Essenziale emerge combinando più generatori insieme. Create pacchetti completi di schede didattiche per tutta la settimana. I disegni da colorare si combinano perfettamente con altri 9 generatori inclusi nell\'abbonamento. Ogni strumento potenzia gli altri.',
     ctaTitle: 'Pronto a Creare Schede Didattiche Straordinarie?',
     ctaDescription: 'Unisciti a migliaia di educatori che creano schede professionali. Generazione illimitata, licenza commerciale inclusa.',

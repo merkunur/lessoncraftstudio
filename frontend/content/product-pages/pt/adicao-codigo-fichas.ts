@@ -78,8 +78,8 @@ Os professores adoram essas atividades para imprimir porque engajam os aprendize
 
   // Sample Gallery
   samples: {
-    sectionTitle: 'Exemplos de Codigo de Imagens - Atividades Gratis para Educacao Infantil',
-    sectionDescription: 'Baixe exemplos gratuitos para ver nossa qualidade profissional',
+    sectionTitle: 'Atividade Grátis para Crianças - Atividades Grátis e Imprimíveis Grátis',
+    sectionDescription: 'Baixe imprimíveis grátis - Atividade grátis para crianças de qualidade profissional. Atividades grátis e atividade para crianças perfeitas para atividade para educação infantil. Atividade grátis para crianças e atividade para crianças incluem material educativo. Atividade grátis disponível',
     downloadLabel: 'Baixar Exemplo Grátis',
     worksheetLabel: 'Atividade',
     answerKeyLabel: 'Gabarito',
@@ -123,8 +123,8 @@ Os professores adoram essas atividades para imprimir porque engajam os aprendize
 
   // Features Grid
   features: {
-    sectionTitle: 'Recursos do Gerador - Atividade Gratis para Criancas e Imprimiveis Gratis',
-    sectionDescription: 'Nosso gerador de atividades de matemática inclui recursos poderosos para criar atividades educação infantil e material didático para 1º ano e 2º ano. Cada função trabalha em conjunto para ajudá-lo a criar atividades para imprimir mais rápido que métodos tradicionais.',
+    sectionTitle: 'Atividades Grátis e Atividade para Crianças - Imprimíveis Grátis e Atividade para Educação Infantil',
+    sectionDescription: 'Atividades grátis disponíveis. Nosso gerador de atividades de matemática inclui recursos poderosos para criar atividades educação infantil e material didático para 1º ano e 2º ano. Cada função trabalha em conjunto para ajudá-lo a criar atividades para imprimir mais rápido que métodos tradicionais.',
     highlightBadgeText: 'Recurso Principal',
     readMoreLabel: 'Leia mais',
     showLessLabel: 'Mostrar menos',
@@ -217,7 +217,7 @@ Professores do 1º ano imprimem atividades em papel comum. Pais que fazem educa�
 
   // How-To Guide
   howTo: {
-    sectionTitle: 'Como Criar Atividade Gratis de Matematica em 5 Passos',
+    sectionTitle: 'Atividade Grátis para Crianças Criar - Atividade para Educação Infantil',
     sectionDescription: 'Criar atividades de código de soma leva menos de 3 minutos do início ao download. Siga estes cinco passos simples para gerar atividades educação infantil, atividades 1º ano e 2º ano, e material educativo para qualquer aula de matemática.',
     ctaText: 'Comece Agora',
     badgeText: 'Como Funciona',
@@ -289,7 +289,7 @@ Baixe ambos os arquivos de atividade e gabarito. Salve-os no seu computador para
 
   // Use Cases
   useCases: {
-    sectionTitle: 'Quem Usa Estas Atividades Gratis para Criancas',
+    sectionTitle: 'Atividade Grátis para Crianças - Atividade para Educação Infantil com Imprimíveis Grátis. Atividade para Crianças',
     sectionDescription: 'As atividades de código de soma servem diferentes públicos educacionais. Desde professores de educação infantil até famílias que fazem educação domiciliar. Cada grupo encontra valor único nestas atividades para imprimir personalizáveis. Descubra como diferentes educadores usam estas atividades de matemática em seus ambientes de ensino.',
     badgeText: 'Para Quem',
     readMoreLabel: 'Leia mais',
@@ -372,7 +372,7 @@ Empacote estas atividades para imprimir com outros geradores que sua assinatura 
 
   // FAQ Section
   faq: {
-    sectionTitle: 'Perguntas Frequentes - Atividade Gratis e Imprimiveis Gratis',
+    sectionTitle: 'FAQ - Atividade Grátis para Crianças e Atividade para Educação Infantil. Atividade para Crianças',
     sectionDescription: 'Professores e pais frequentemente têm perguntas sobre nosso gerador de atividades de código de soma. Estas respostas cobrem tudo que você precisa saber sobre criar atividades educação infantil, atividades 1º ano e 2º ano, e material educativo.',
     showMoreText: 'Mostrar mais perguntas',
     showLessText: 'Mostrar menos',
@@ -501,7 +501,7 @@ Empacote estas atividades para imprimir com outros geradores que sua assinatura 
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Outros Geradores de Atividades Gratis',
+    sectionTitle: 'Atividades Grátis Combinar - Atividade para Crianças e Imprimíveis Grátis',
     sectionDescription: 'Crie pacotes de aprendizagem completos combinando atividades de código de soma com estes geradores complementares.',
     ctaTitle: 'Pronto para Criar Atividades Incríveis?',
     ctaDescription: 'Junte-se a milhares de educadores que criam atividades profissionais. Geração ilimitada, licença comercial incluída.',

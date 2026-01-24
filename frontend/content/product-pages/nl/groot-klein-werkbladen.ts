@@ -89,8 +89,8 @@ De Groot en Klein werkbladen helpen bij de ontwikkeling van fijne motoriek. Kind
 
   // Sample Gallery - REAL file paths from samples/dutch/big-small/
   samples: {
-    sectionTitle: 'Groot en Klein Werkbladen Voorbeelden - Gratis Werkbladen Downloaden',
-    sectionDescription: 'Download gratis voorbeeldwerkbladen om onze professionele kwaliteit te ervaren',
+    sectionTitle: 'Gratis Werkblad voor Kinderen - Gratis Werkbladen en Gratis Printables',
+    sectionDescription: 'Download gratis printables - Gratis werkblad voor kinderen van professionele kwaliteit. Gratis werkbladen en werkblad voor kinderen perfect voor werkblad voor kleuters. Gratis werkblad voor kinderen en werkblad voor kinderen inclusief educatief materiaal. Gratis werkblad en gratis werkbladen beschikbaar',
     downloadLabel: 'Gratis Voorbeeld Downloaden',
     worksheetLabel: 'Werkblad',
     answerKeyLabel: 'Antwoordblad',
@@ -134,7 +134,7 @@ De Groot en Klein werkbladen helpen bij de ontwikkeling van fijne motoriek. Kind
 
   // Features Grid - FULL text from big-small.md feature sections
   features: {
-    sectionTitle: 'Functies van de Groot en Klein Generator - Werkbladen Kleuters en Oefenbladen Gratis',
+    sectionTitle: 'Gratis Werkbladen en Werkblad voor Kinderen - Gratis Printables en Werkblad voor Kleuters',
     sectionDescription: 'Onze Groot en Klein werkbladgenerator biedt alle functies die leerkrachten nodig hebben. Van werkbladen groep 3 tot materiaal voor kleuters. De generator ondersteunt fijne motoriek ontwikkeling en voorbereiding op rekenen werkbladen. Hieronder vind je alle mogelijkheden voor het maken van professionele oefenbladen gratis te downloaden.',
     highlightBadgeText: 'Uitgelicht',
     readMoreLabel: 'Lees meer',
@@ -223,7 +223,7 @@ Kleurplaten met lettervormen zijn beschikbaar in de bibliotheek. Fijne motoriek 
 
   // How-To Guide - FULL text from big-small.md step sections
   howTo: {
-    sectionTitle: 'Hoe Maak Je Werkbladen Groep 3 in 5 Stappen - Oefenbladen Gratis Stappenplan',
+    sectionTitle: 'Gratis Werkblad voor Kinderen Maken - Werkblad voor Kleuters',
     sectionDescription: 'Het maken van professionele groot-klein werkbladen is eenvoudig. In vijf stappen heb je werkbladen kleuters of werkbladen groep 3 klaar. Het hele proces duurt minder dan drie minuten. Volg dit stappenplan voor perfecte oefenbladen gratis. Geen technische kennis of ontwerpervaring nodig.',
     ctaText: 'Nu Starten',
     badgeText: 'Zo werkt het',
@@ -301,7 +301,7 @@ Bewaar digitale kopies voor hergebruik. Maak variaties door opnieuw te genereren
 
   // Use Cases - FULL text from big-small.md use case sections
   useCases: {
-    sectionTitle: 'Voor Wie Zijn Groot en Klein Werkbladen - Oefenbladen Gratis voor Leerkrachten en Ouders',
+    sectionTitle: 'Gratis Werkblad voor Kinderen - Werkblad voor Kleuters met Gratis Printables. Werkblad voor Kinderen',
     sectionDescription: 'Groot en klein werkbladen zijn geschikt voor diverse gebruikers. Van leerkrachten groep 1 2 tot thuisonderwijzende ouders. De generator maakt werkbladen kleuters en werkbladen groep 3 voor elke situatie. Hieronder beschrijven we wie het meest profiteert van deze oefenbladen gratis.',
     badgeText: 'Voor wie',
     readMoreLabel: 'Lees meer',
@@ -384,7 +384,7 @@ Etsy winkels floreren met educatieve printables. Tafels oefenen voorbereidende m
 
   // FAQ Section - FULL FAQs from big-small.md
   faq: {
-    sectionTitle: 'Veelgestelde Vragen over Groot en Klein Werkbladen - Oefenbladen Gratis FAQ',
+    sectionTitle: 'FAQ - Gratis Werkblad voor Kinderen en Werkblad voor Kleuters. Werkblad voor Kinderen',
     sectionDescription: 'Hieronder beantwoorden we de meest gestelde vragen over de Groot en Klein werkbladgenerator. Van technische vragen over werkbladen groep 3 tot pedagogische toepassingen. Vind antwoorden over tafels oefenen, veilig leren lezen en meer.',
     showMoreText: 'Meer vragen tonen',
     showLessText: 'Minder tonen',
@@ -502,7 +502,7 @@ Etsy winkels floreren met educatieve printables. Tafels oefenen voorbereidende m
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Combineer Groot en Klein met Andere Generators - Rekenen Werkbladen en Kleurplaten Platform',
+    sectionTitle: 'Gratis Werkbladen Combineren - Werkblad voor Kinderen en Gratis Printables',
     sectionDescription: 'Het LessonCraftStudio platform biedt 33 werkbladgeneratoren. Groot en Klein combineert perfect met andere apps voor complete lespakketten. Van rekenen werkbladen tot kleurplaten en taalactiviteiten. Hieronder beschrijven we de beste combinaties voor werkbladen kleuters en werkbladen groep 3.',
     ctaTitle: 'Klaar om geweldige werkbladen te maken?',
     ctaDescription: 'Sluit je aan bij duizenden leerkrachten die professionele werkbladen maken. Onbeperkt genereren, commerciële licentie inbegrepen.',

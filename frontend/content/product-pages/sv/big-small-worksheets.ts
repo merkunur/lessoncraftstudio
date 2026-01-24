@@ -79,8 +79,8 @@ Förskoleklass material fokuserar på grundläggande storleksbegrepp. Elever i �
 
   // Sample Gallery - REAL file paths from samples/swedish/big-small/
   samples: {
-    sectionTitle: 'Storleksjämförelsearbetsblad Exempel',
-    sectionDescription: 'Ladda ner gratis exempelarbetsblad för att se vår professionella kvalitet',
+    sectionTitle: 'Gratis Arbetsblad för Barn - Gratis Arbetsblad och Gratis Utskrifter',
+    sectionDescription: 'Ladda ner gratis utskrifter - Gratis arbetsblad för barn av professionell kvalitet. Gratis arbetsblad och arbetsblad för barn perfekt för arbetsblad för förskoleklass. Gratis arbetsblad för barn och arbetsblad för barn inkluderar utbildningsmaterial. Gratis arbetsblad och gratis utskrifter tillgänglig',
     downloadLabel: 'Ladda Ner Gratis Exempel',
     worksheetLabel: 'Arbetsblad',
     answerKeyLabel: 'Facit',
@@ -124,7 +124,7 @@ Förskoleklass material fokuserar på grundläggande storleksbegrepp. Elever i �
 
   // Features Grid - FULL text from big-small.md feature sections
   features: {
-    sectionTitle: 'Funktioner för Matematik Arbetsblad och Förskoleklass Material - Allt du Behöver för Arbetsblad Gratis och Matte Övningar',
+    sectionTitle: 'Gratis Arbetsblad och Arbetsblad för Barn - Gratis Utskrifter och Arbetsblad för Förskoleklass',
     sectionDescription: 'Vår generator för arbetsblad gratis erbjuder omfattande funktioner för pedagoger. Skapa storleksjämförelseövningar anpassade till alla nivåer med matematik arbetsblad och förskoleklass material. Från förskolan till årskurs 3 uppfyller varje arbetsblad specifika pedagogiska behov. Upptäck de sju huvudfunktionerna som gör detta verktyg oumbärligt för din undervisning i matte övningar.',
     highlightBadgeText: 'Nyckelfunktion',
     readMoreLabel: 'Läs mer',
@@ -300,7 +300,7 @@ Generera också facit med ett klick för arbetsblad gratis. Svarsbladet visar l�
 
   // Use Cases - FULL text from big-small.md use case sections
   useCases: {
-    sectionTitle: 'Perfekt för Lärare, Föräldrar och Pedagoger - Arbetsblad Gratis och Matematik Arbetsblad för Alla Behov',
+    sectionTitle: 'Gratis Arbetsblad för Barn - Arbetsblad för Förskoleklass med Gratis Utskrifter. Arbetsblad för Barn',
     sectionDescription: 'Vår generator för arbetsblad gratis passar alla som arbetar inom utbildning. Lärare i förskoleklass och lågstadiet finner lämpliga resurser med matematik arbetsblad. Föräldrar som bedriver hemundervisning uppskattar också detta verktyg. Upptäck hur varje profil använder våra arbetsblad gratis och förskoleklass material.',
     badgeText: 'Vem Det Är För',
     readMoreLabel: 'Läs mer',
@@ -383,7 +383,7 @@ Etsy och Amazon KDP är andra lönsamma möjligheter för arbetsblad gratis. Gra
 
   // FAQ Section - Selected FAQs from big-small.md
   faq: {
-    sectionTitle: 'Vanliga Frågor om Arbetsblad Gratis för Storleksjämförelse',
+    sectionTitle: 'FAQ - Gratis Arbetsblad för Barn och Arbetsblad för Förskoleklass med Gratis Utskrifter. Arbetsblad för Barn',
     sectionDescription: 'Vanliga frågor om matematik arbetsblad, förskoleklass material och storleksjämförelseövningar. Svar på frågor om finmotorik övningar, målarbilder barn och mer.',
     showMoreText: 'Visa fler frågor',
     showLessText: 'Visa färre',
@@ -486,7 +486,7 @@ Etsy och Amazon KDP är andra lönsamma möjligheter för arbetsblad gratis. Gra
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Kombinera med Andra Arbetsblad Generatorer',
+    sectionTitle: 'Gratis Arbetsblad Kombinera - Arbetsblad för Barn och Gratis Utskrifter',
     sectionDescription: 'Skapa kompletta lärpaket genom att kombinera storleksjämförelsearbetsblad med dessa kompletterande generatorer för matematik och visuell perception.',
     ctaTitle: 'Redo att Skapa Fantastiska Storleksjämförelsearbetsblad?',
     ctaDescription: 'Gå med tusentals lärare som skapar professionella arbetsblad. Obegränsad generering, kommersiell licens ingår.',

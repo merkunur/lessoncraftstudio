@@ -51,8 +51,8 @@ Bildesorteringsarbeidsark støtter barnehagepedagoger og lærere med arbeidsark 
 
   // Sample Gallery - REAL file paths from samples/english/picture sort/
   samples: {
-    sectionTitle: 'Bildesortering Arbeidsark Eksempler',
-    sectionDescription: 'Last ned gratis eksempler på bildesorteringsarbeidsark for å se vår profesjonelle kvalitet',
+    sectionTitle: 'Gratis Arbeidsark for Barn - Gratis Arbeidsark og Gratis Utskrifter',
+    sectionDescription: 'Last ned gratis utskrifter - Gratis arbeidsark for barn av profesjonell kvalitet. Gratis arbeidsark og arbeidsark for barn perfekt for arbeidsark for 1. trinn. Gratis arbeidsark for barn og arbeidsark for barn inkluderer gratis utskrifter undervisningsmateriell. Gratis arbeidsark og arbeidsark for 1. trinn tilgjengelig',
     badgeText: 'Gratis Eksempler',
     downloadLabel: 'Last ned Gratis Eksempel',
     downloadingLabel: 'Laster ned...',
@@ -82,7 +82,7 @@ Bildesorteringsarbeidsark støtter barnehagepedagoger og lærere med arbeidsark 
 
   // Features Grid - FULL text from picture-sort.md feature sections
   features: {
-    sectionTitle: 'Funksjoner for Bildesortering - Alt du Trenger for Oppgavehefter Barn og Matematikk Oppgaver',
+    sectionTitle: 'Gratis Arbeidsark og Arbeidsark for Barn - Gratis Utskrifter og Arbeidsark for 1. Trinn',
     sectionDescription: 'Bildesorteringsgeneratoren vår gir pedagoger kraftige verktøy for å lage oppgavehefter barn og matematikk oppgaver. Systemet kombinerer enkle kontroller med profesjonelle resultater. Lag bildesorteringsarbeidsark på 3 minutter. Full Tilgang-abonnementet inkluderer alle funksjoner uten ekstra kostnader. Hver funksjon er designet for pedagoger som trenger raske løsninger for arbeidsark gratis. Kombiner bildesortering med addisjon og subtraksjon, gangetabellen og lesetrening.',
     highlightBadgeText: 'Viktig Funksjon',
     readMoreLabel: 'Les mer',
@@ -176,7 +176,7 @@ Last ned arbeidsark umiddelbart etter generering. Ingen ventetid for rendering. 
 
   // How-To Guide - FULL text from picture-sort.md step sections
   howTo: {
-    sectionTitle: 'Hvordan Lage Bildesorteringsarbeidsark for Matematikk Oppgaver og Lesetrening på 5 Enkle Trinn',
+    sectionTitle: 'Gratis Arbeidsark for Barn Lage - Arbeidsark for 1. Trinn',
     sectionDescription: 'Lag profesjonelle bildesorteringsarbeidsark på under 3 minutter. Følg disse fem enkle trinnene. Ingen designerfaring kreves. Systemet guider deg gjennom hele prosessen. Pedagoger lager matematikk oppgaver og lesetrening materiale raskere enn tradisjonelle metoder. Resultatet er arbeidsark gratis som en del av Full Tilgang-abonnementet. Kombiner bildesortering med tall og telling, addisjon og subtraksjon.',
     ctaText: 'Start Nå',
     badgeText: 'Slik Fungerer Det',
@@ -248,7 +248,7 @@ Før nedlasting, vurder Gråtone-alternativet for å spare blekk. Kryss av for G
 
   // Use Cases - FULL text from picture-sort.md use case sections
   useCases: {
-    sectionTitle: 'Perfekt for Pedagoger og Foreldre - Oppgavehefter Barn og Matematikk Oppgaver for Alle Behov',
+    sectionTitle: 'Gratis Arbeidsark for Barn - Arbeidsark for 1. Trinn med Gratis Utskrifter. Arbeidsark for Barn',
     sectionDescription: 'Bildesorteringsgeneratoren tjener ulike pedagogiske roller og utfordringer. Barnehagepedagoger, lærere i småskoletrinnet, hjemmeskoleforeldre og spesialpedagoger bruker alle systemet. Hver brukergruppe finner unike fordeler. Tilpass oppgavehefter barn og matematikk oppgaver til spesifikke klasseromsbehov. Full Tilgang-abonnementet støtter alle undervisningskontekster med arbeidsark gratis. Kombiner bildesortering med tall og telling, addisjon og subtraksjon.',
     badgeText: 'Hvem Er Det For',
     readMoreLabel: 'Les mer',
@@ -460,7 +460,7 @@ Eksporter alt i 300 DPI profesjonell kvalitet. Kunder forventer skarpe, klare ut
 
   // Related Apps - From picture-sort.md "Kombiner" section
   relatedApps: {
-    sectionTitle: 'Kombiner Bildesortering med Andre Arbeidsark - Komplette Oppgavehefter Barn for Matematikk Oppgaver og Lesetrening',
+    sectionTitle: 'Gratis Arbeidsark Kombinere - Arbeidsark for Barn og Gratis Utskrifter',
     sectionDescription: 'LessonCraft Studio tilbyr 33 arbeidsarkgeneratorer på plattformen. Kombiner bildesorteringsark med andre arbeidsarktyper for komplette oppgavehefter barn. Lag læringsressurser som dekker flere ferdigheter. Pedagoger kombinerer klassifisering med matematikk oppgaver, lesetrening og fargeleggingsbilder barn. Full Tilgang gir tilgang til alle 33 generatorer. Kombiner bildesortering med tall og telling, addisjon og subtraksjon, gangetabellen og bokstaver lære skrive for omfattende pakker.',
     ctaTitle: 'Klar til å Lage Fantastiske Arbeidsark?',
     ctaDescription: 'Bli med tusenvis av pedagoger som lager profesjonelle arbeidsark. Ubegrenset oppretting, kommersiell lisens inkludert.',

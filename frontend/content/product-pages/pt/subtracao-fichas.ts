@@ -79,8 +79,8 @@ Nosso gerador cria atividades de subtração usando imagens temáticas. As crian
 
   // Sample Gallery - REAL file paths from samples/english/subtraction/
   samples: {
-    sectionTitle: 'Exemplos de Atividades de Subtração Grátis para Imprimir',
-    sectionDescription: 'Baixe exemplos gratuitos para ver nossa qualidade profissional',
+    sectionTitle: 'Atividade Grátis para Crianças - Atividades Grátis e Imprimíveis Grátis',
+    sectionDescription: 'Baixe imprimíveis grátis - Atividade grátis para crianças de qualidade profissional. Atividades grátis e atividade para crianças perfeitas para atividade para educação infantil. Atividade grátis para crianças e atividade para crianças incluem material educativo. Atividade grátis disponível',
     downloadLabel: 'Baixar Exemplo Grátis',
     worksheetLabel: 'Atividade',
     answerKeyLabel: 'Gabarito',
@@ -124,7 +124,7 @@ Nosso gerador cria atividades de subtração usando imagens temáticas. As crian
 
   // Features Grid - FULL text from subtraction.md feature sections
   features: {
-    sectionTitle: 'Recursos do Gerador de Atividades Grátis de Matemática para Crianças',
+    sectionTitle: 'Atividades Grátis e Atividade para Crianças - Imprimíveis Grátis e Atividade para Educação Infantil',
     sectionDescription: 'O gerador de atividades de subtração oferece recursos completos para criar materiais profissionais. Professores de educação infantil e ensino fundamental encontram todas as ferramentas necessárias. Cada recurso foi pensado para facilitar seu trabalho diário. Conheça os principais recursos que tornam nosso gerador único.',
     highlightBadgeText: 'Recurso Principal',
     readMoreLabel: 'Leia mais',
@@ -213,7 +213,7 @@ Gabaritos são gerados automaticamente para cada atividade. Baixe a ficha do alu
 
   // How-To Guide - FULL text from subtraction.md step sections
   howTo: {
-    sectionTitle: 'Como Criar Atividades Grátis de Matemática em 5 Passos - Imprimíveis para Crianças',
+    sectionTitle: 'Atividade Grátis para Crianças Criar - Atividade para Educação Infantil',
     sectionDescription: 'Criar atividades de subtração profissionais é rápido e fácil. Todo o processo leva menos de 3 minutos do início ao fim. Siga nosso guia passo a passo para criar suas primeiras fichas. Professores de educação infantil e ensino fundamental dominam o gerador rapidamente.',
     ctaText: 'Comece Agora',
     badgeText: 'Como Funciona',
@@ -275,7 +275,7 @@ Ative a opção escala de cinza para economizar tinta. Baixe o gabarito separada
 
   // Use Cases - FULL text from subtraction.md use case sections
   useCases: {
-    sectionTitle: 'Quem Usa Nosso Gerador de Atividades Grátis de Subtração para Imprimir',
+    sectionTitle: 'Atividade Grátis para Crianças - Atividade para Educação Infantil com Imprimíveis Grátis. Atividade para Crianças',
     sectionDescription: 'O gerador de atividades de subtração atende diversos perfis de educadores. Professores de escolas públicas e particulares usam a ferramenta diariamente. Pais que educam em casa encontram recursos valiosos. Empreendedores criam materiais para venda online. Conheça como cada grupo aproveita nosso gerador.',
     badgeText: 'Para Quem',
     readMoreLabel: 'Leia mais',
@@ -346,7 +346,7 @@ Atividades de matemática vendem muito bem online. Tabuada ilustrada atrai pais 
 
   // FAQ Section - Selected FAQs from subtraction.md
   faq: {
-    sectionTitle: 'Perguntas Frequentes sobre Atividades de Subtração Grátis para Crianças',
+    sectionTitle: 'FAQ - Atividade Grátis para Crianças e Atividade para Educação Infantil. Atividade para Crianças',
     sectionDescription: 'Professores têm dúvidas comuns sobre o gerador de atividades. Reunimos as perguntas mais frequentes com respostas detalhadas. Encontre informações sobre preços, recursos e funcionalidades.',
     showMoreText: 'Mostrar mais perguntas',
     showLessText: 'Mostrar menos',
@@ -475,7 +475,7 @@ Atividades de matemática vendem muito bem online. Tabuada ilustrada atrai pais 
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Combine com Outros Geradores de Atividades',
+    sectionTitle: 'Atividades Grátis Combinar - Atividade para Crianças e Imprimíveis Grátis',
     sectionDescription: 'A plataforma LessonCraft Studio oferece 33 geradores de atividades. Combine subtração com outros tipos de materiais educacionais. Crie pacotes completos de aprendizagem para suas turmas.',
     ctaTitle: 'Pronto para Criar Atividades Incríveis?',
     ctaDescription: 'Junte-se a milhares de educadores que criam atividades profissionais. Geração ilimitada, licença comercial incluída.',

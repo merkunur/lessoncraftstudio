@@ -85,8 +85,8 @@ Full Tillgång-prenumerationen inkluderar alla 33 verktyg för arbetsblad gratis
 
   // Sample Gallery - Swedish samples from /samples/swedish/odd-one-out/
   samples: {
-    sectionTitle: 'Gratis Arbetsblad Hitta Udda Bilden - Exempel för Barn och Förskoleklass',
-    sectionDescription: 'Ladda ner gratis arbetsblad för barn och se vår professionella kvalitet. Perfekt arbetsblad för förskoleklass.',
+    sectionTitle: 'Gratis Arbetsblad för Barn - Gratis Arbetsblad och Gratis Utskrifter',
+    sectionDescription: 'Ladda ner gratis utskrifter - Gratis arbetsblad för barn av professionell kvalitet. Gratis arbetsblad och arbetsblad för barn perfekt för arbetsblad för förskoleklass. Gratis arbetsblad för barn och arbetsblad för barn inkluderar utbildningsmaterial. Gratis arbetsblad och gratis utskrifter tillgänglig',
     downloadLabel: 'Ladda Ner Gratis Exempel',
     worksheetLabel: 'Arbetsblad',
     answerKeyLabel: 'Facit',
@@ -137,7 +137,7 @@ Full Tillgång-prenumerationen inkluderar alla 33 verktyg för arbetsblad gratis
 
   // Features Grid - FULL text from odd-one-out.md feature sections
   features: {
-    sectionTitle: 'Funktioner i Hitta-Udda-Bilden Generator - Arbetsblad Gratis för Förskoleklass Material och Matematik Arbetsblad',
+    sectionTitle: 'Gratis Arbetsblad och Arbetsblad för Barn - Gratis Utskrifter och Arbetsblad för Förskoleklass',
     sectionDescription: 'Vår hitta-udda-bilden generator erbjuder alla funktioner du behöver för professionella arbetsblad gratis. Full Tillgång-prenumerationen ger dig komplett flexibilitet för förskoleklass material. Skapa visuella diskrimineringsövningar för matematik arbetsblad och finmotorik övningar. Varje funktion är utformad för att spara tid och förbättra lärandet.',
     highlightBadgeText: 'Nyckelfunktion',
     readMoreLabel: 'Läs mer',
@@ -289,7 +289,7 @@ Välj gråskala vid nedladdning för att spara bläck vid utskrift. Perfekt för
 
   // Use Cases - FULL text from odd-one-out.md use case sections
   useCases: {
-    sectionTitle: 'Perfekt för Lärare och Föräldrar - Arbetsblad Gratis för Matematik Arbetsblad och Finmotorik Övningar',
+    sectionTitle: 'Gratis Arbetsblad för Barn - Arbetsblad för Förskoleklass med Gratis Utskrifter. Arbetsblad för Barn',
     sectionDescription: 'Vår hitta-udda-bilden generator passar alla som arbetar med barn i förskoleklass till årskurs 3. Lämplig för matematik arbetsblad och bokstäver lära sig. Perfekt för finmotorik övningar och visuell perception. Används av tusentals lärare och föräldrar i Sverige. Full Tillgång-prenumerationen passar alla behov.',
     badgeText: 'Vem Det Är För',
     readMoreLabel: 'Läs mer',
@@ -360,7 +360,7 @@ Experimentera med olika pedagogiska upplägg för bokstäver lära sig och siffr
 
   // FAQ Section - Selected FAQs from odd-one-out.md
   faq: {
-    sectionTitle: 'Vanliga Frågor om Gratis Arbetsblad Hitta Udda Bilden för Barn',
+    sectionTitle: 'FAQ - Gratis Arbetsblad för Barn och Arbetsblad för Förskoleklass med Gratis Utskrifter. Arbetsblad för Barn',
     sectionDescription: 'Vanliga frågor om gratis arbetsblad, arbetsblad för barn och arbetsblad för förskoleklass. Svar på frågor om gratis utskrifter och finmotorik övningar.',
     showMoreText: 'Visa fler frågor',
     showLessText: 'Visa färre',

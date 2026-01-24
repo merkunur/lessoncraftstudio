@@ -76,7 +76,7 @@ The Big and Small worksheet maker offers five different question types. Students
 
   // Sample Gallery - REAL file paths from samples/english/big-small/
   samples: {
-    sectionTitle: 'Worksheet Samples',
+    sectionTitle: 'Free Worksheets - Worksheet for Kindergarten Free Printables',
     downloadLabel: 'Download Free Sample',
     worksheetLabel: 'Worksheet',
     answerKeyLabel: 'Answer Key',
@@ -121,8 +121,8 @@ The Big and Small worksheet maker offers five different question types. Students
 
   // Features Grid - FULL descriptions from big-small.md H3 sections
   features: {
-    sectionTitle: 'Free Printable Size Comparison Worksheets - Features for Kindergarten and First Grade',
-    sectionDescription: 'The Big and Small worksheet generator includes every feature teachers need to create professional size comparison activities. This section covers all the tools available in our worksheet maker. Each feature helps you create better worksheets faster. From easy generation to full editing control, these features make worksheet creation simple.',
+    sectionTitle: 'Free Worksheets Features - Free Printables and Worksheet for Kindergarten',
+    sectionDescription: 'Create free worksheet for kids with our Big and Small worksheet generator. This includes every feature teachers need to create professional free worksheet for kids for size comparison. Each feature helps you create better free worksheet for kids faster. From easy generation to full editing control, these features make free worksheet for kids creation simple.',
     highlightBadgeText: 'Key Feature',
     items: [
       {
@@ -193,7 +193,7 @@ The Big and Small worksheet maker offers five different question types. Students
 
   // How-To Guide - FULL text from big-small.md Step sections
   howTo: {
-    sectionTitle: 'Create Free Big and Small Worksheets for Kindergarten in Five Easy Steps',
+    sectionTitle: 'How to Create Worksheet for Kindergarten - Free Worksheets in 5 Steps',
     sectionDescription: 'Creating professional size comparison worksheets takes under three minutes. This step-by-step guide walks you through the entire process. No design experience required. No complicated software to learn. Follow these five simple steps to create beautiful worksheets for your students. The Big and Small generator handles all the technical work automatically.',
     ctaText: 'Start Creating Now',
     steps: [
@@ -237,7 +237,7 @@ The Big and Small worksheet maker offers five different question types. Students
 
   // Use Cases - FULL descriptions from big-small.md persona sections
   useCases: {
-    sectionTitle: 'Big and Small Worksheets for Teachers: Free Printable Kindergarten Worksheets for Every Educator',
+    sectionTitle: 'Free Printables for Teachers - Worksheet for Kindergarten for Every Educator',
     sectionDescription: 'Size comparison worksheets serve many different educational settings. Teachers, parents, and tutors all benefit from professional worksheet creation tools. This section explains how different educators use the Big and Small generator. Each user type has unique needs that our worksheet maker addresses. Discover how size comparison activities fit into your specific teaching context.',
     items: [
       {
@@ -293,7 +293,7 @@ The Big and Small worksheet maker offers five different question types. Students
 
   // FAQ Section - ALL questions from big-small.md
   faq: {
-    sectionTitle: 'Big and Small Worksheets FAQ: Free Printable Kindergarten Worksheets Questions Answered',
+    sectionTitle: 'FAQ - Free Worksheets and Free Printables Questions Answered',
     sectionDescription: 'Teachers and parents have common questions about our worksheet generators. This FAQ section answers the most frequent inquiries we receive. Find answers about pricing, features, printing, and classroom use below. Each answer provides practical information to help you get started quickly.',
     showMoreText: 'Show more questions',
     showLessText: 'Show less',

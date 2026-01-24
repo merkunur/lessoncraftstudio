@@ -83,8 +83,8 @@ Notre générateur propose 11 langues. L'interface et le contenu s'adaptent à v
 
   // Sample Gallery - REAL file paths from samples/english/word scramble/
   samples: {
-    sectionTitle: 'Exemples de Mots Mélangés',
-    sectionDescription: 'Téléchargez des exemples gratuits pour voir notre qualité professionnelle',
+    sectionTitle: 'Fiche Gratuite pour Enfants - Fiches Gratuites et Imprimables Gratuits',
+    sectionDescription: 'Téléchargez imprimables gratuits - Fiche gratuite pour enfants de qualité professionnelle. Fiches gratuites et fiche pour enfants parfaites pour fiche pour maternelle. Fiche gratuite pour enfants et fiches gratuites inclus matériel éducatif. Fiche gratuite et fiches gratuites disponible',
     downloadLabel: 'Télécharger Exemple Gratuit',
     worksheetLabel: 'Fiche',
     answerKeyLabel: 'Corrigé',
@@ -135,7 +135,7 @@ Notre générateur propose 11 langues. L'interface et le contenu s'adaptent à v
 
   // Features Grid - FULL text from word-scramble.md feature sections
   features: {
-    sectionTitle: 'Fonctionnalités du Générateur de Mots Mélangés - Fiches Maternelle et Exercices CP Complets',
+    sectionTitle: 'Fiches Gratuites et Fiche pour Enfants - Imprimables Gratuits et Fiche pour Maternelle',
     sectionDescription: 'Notre générateur de mots mélangés offre tout ce dont vous avez besoin. Créez des fiches maternelle professionnelles en quelques minutes. Chaque fonctionnalité a été pensée pour les enseignants. Découvrez les sept fonctionnalités principales de cet outil.',
     highlightBadgeText: 'Fonctionnalité Clé',
     readMoreLabel: 'Lire la suite',
@@ -233,7 +233,7 @@ Choisissez majuscules ou minuscules selon le niveau. Le mode couleur aide les d�
 
   // How-To Guide - FULL text from word-scramble.md step sections
   howTo: {
-    sectionTitle: 'Comment Créer des Fiches Maternelle de Mots Mélangés en 5 Étapes - Guide Exercices CP',
+    sectionTitle: 'Fiche Gratuite pour Enfants Créer - Fiche pour Maternelle',
     sectionDescription: 'Créer des fiches de mots mélangés prend moins de trois minutes. Suivez ce guide étape par étape. Aucune compétence technique requise. Même les débutants réussissent du premier coup.',
     ctaText: 'Commencer Maintenant',
     badgeText: 'Guide Étape par Étape',
@@ -323,7 +323,7 @@ Activez l'option "Niveaux de gris" pour économiser l'encre. La fiche se convert
 
   // Use Cases - FULL text from word-scramble.md use case sections
   useCases: {
-    sectionTitle: 'Qui Utilise les Mots Mélangés - Fiches Maternelle et Exercices CP pour Tous les Éducateurs',
+    sectionTitle: 'Fiche Gratuite pour Enfants - Fiche pour Maternelle avec Imprimables Gratuits. Fiche pour Enfants',
     sectionDescription: 'Les mots mélangés conviennent à de nombreux profils d\'utilisateurs. Enseignants, parents et éducateurs trouvent tous leur compte. Découvrez comment chaque groupe utilise cet outil. Trouvez l\'inspiration pour vos propres usages.',
     badgeText: 'Cas d\'Utilisation',
     readMoreLabel: 'Lire la suite',
@@ -418,7 +418,7 @@ Créez des séries complètes pour fidéliser vos clients. Pack rentrée avec vo
 
   // FAQ Section - Selected FAQs from word-scramble.md
   faq: {
-    sectionTitle: 'Questions Fréquentes sur les Mots Mélangés - Fiches Maternelle et Exercices CP',
+    sectionTitle: 'FAQ - Fiche Gratuite pour Enfants et Fiche pour Maternelle. Fiche pour Enfants',
     sectionDescription: 'Vous avez des questions sur notre générateur de mots mélangés ? Retrouvez les réponses aux questions les plus fréquentes. Tout ce que vous devez savoir sur les fiches maternelle et exercices CP.',
     showMoreText: 'Voir plus de questions',
     showLessText: 'Voir moins',
@@ -547,7 +547,7 @@ Pour des thèmes très spécifiques, téléversez vos propres images. Créez des
 
   // Related Apps - From word-scramble.md Section 7
   relatedApps: {
-    sectionTitle: 'Combinez les Mots Mélangés avec d\'Autres Générateurs - Coloriage à Imprimer et Exercices Maths',
+    sectionTitle: 'Fiches Gratuites Combiner - Fiche pour Enfants et Imprimables Gratuits',
     sectionDescription: 'Le générateur de mots mélangés fait partie du Pack Essentiel. Neuf autres générateurs complètent parfaitement cet outil. Créez des parcours pédagogiques complets en combinant plusieurs applications.',
     ctaTitle: 'Prêt à Créer des Fiches Professionnelles ?',
     ctaDescription: 'Rejoignez des milliers d\'enseignants qui créent des fiches maternelle de qualité. Création illimitée, licence commerciale incluse.',

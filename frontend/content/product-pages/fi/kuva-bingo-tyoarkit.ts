@@ -53,8 +53,8 @@ Peruspaketti-tilaus maksaa 144 dollaria vuodessa tai 15 dollaria kuukaudessa. Ti
 
   // Sample Gallery - REAL file paths from samples/english/bingo/
   samples: {
-    sectionTitle: 'Kuva-Bingo Esimerkit',
-    sectionDescription: 'Lataa ilmaiset esimerkkibingo-kortit nähdäksesi ammattimaisen laatumme',
+    sectionTitle: 'Ilmainen Työarkki Lapsille - Ilmaiset Työarkit ja Ilmaiset Tulosteet',
+    sectionDescription: 'Lataa ilmaiset tulosteet - Ilmainen työarkki lapsille ammattimaista laatua. Ilmaiset työarkit ja työarkki lapsille täydellinen työarkki esiopetukseen. Ilmainen työarkki lapsille ja työarkki lapsille sisältää ilmaiset tulosteet ja ilmaiset työarkit opetusmateriaalin. Ilmainen työarkki ja työarkki esiopetukseen saatavilla',
     downloadLabel: 'Lataa Ilmainen Esimerkki',
     worksheetLabel: 'Pelikortti',
     answerKeyLabel: 'Huutolista',
@@ -84,7 +84,7 @@ Peruspaketti-tilaus maksaa 144 dollaria vuodessa tai 15 dollaria kuukaudessa. Ti
 
   // Features Grid - FULL text from Finnish bingo.md feature sections
   features: {
-    sectionTitle: 'Bingo-Generaattorin Ominaisuudet - Tulostettavat Tehtävät Lapsille Ilmainen Esiopetukseen',
+    sectionTitle: 'Ilmaiset Työarkit ja Työarkki Lapsille - Ilmaiset Tulosteet ja Työarkki Esiopetukseen',
     sectionDescription: 'Kuva-bingogeneraattori tarjoaa kaikki työkalut ammattimaisten bingo-pelien luomiseen. Luo esiopetus materiaali ilmainen -tyyppisiä bingo-kortteja jotka tukevat lukemaan oppiminen tehtävät ja sanaston kehitystä. Jokainen ominaisuus on suunniteltu suomalaisille opettajille. Työkalu yhdistää helppokäyttöisyyden ja ammattimaisen laadun.',
     highlightBadgeText: 'Tärkeä Ominaisuus',
     readMoreLabel: 'Lue lisää',
@@ -178,7 +178,7 @@ Lataa kortit ja huutolista erikseen tai yhdessä. Tulosta kortteja oppilaiden m�
 
   // How-To Guide - FULL text from Finnish bingo.md step sections
   howTo: {
-    sectionTitle: 'Kuinka Luoda Tulostettavat Tehtävät Lapsille Ilmainen Bingo-Pelit 5 Helpossa Vaiheessa',
+    sectionTitle: 'Ilmainen Työarkki Lapsille Luoda - Työarkki Esiopetukseen',
     sectionDescription: 'Luo ammattimaisia bingo-pelejä alle 3 minuutissa. Jokainen vaihe on suunniteltu yksinkertaiseksi ja nopeaksi. Ei suunnittelutaitoja tarvita. Seuraa näitä ohjeita ja saat täydelliset esiopetus materiaali ilmainen -tyyppiset bingo-kortit luokkahuoneeseesi.',
     ctaText: 'Aloita Luominen Nyt',
     badgeText: 'Näin Se Toimii',
@@ -250,7 +250,7 @@ Lataa kortit ja huutolista erikseen omina tiedostoinaan. Tulosta kortteja oppila
 
   // Use Cases - FULL text from Finnish bingo.md use case sections
   useCases: {
-    sectionTitle: 'Täydellinen Opettajille ja Vanhemmille',
+    sectionTitle: 'Ilmainen Työarkki Lapsille - Työarkki Esiopetukseen ja Ilmaiset Tulosteet. Työarkki Lapsille',
     sectionDescription: 'Bingo-generaattori palvelee monenlaisia käyttäjiä opetuskentällä. Esiopettajista ala-asteen opettajiin ja kotikouluun. Jokainen käyttäjäryhmä hyötyy eri tavoin bingo-peleistä. Luo tulostettavat tehtävät lapsille ilmainen -tyyppisiä pelejä jokaiseen opetustilanteeseen.',
     badgeText: 'Kenelle Sopii',
     readMoreLabel: 'Lue lisää',
@@ -333,7 +333,7 @@ Yhdistä useita tehtävämonistegeneraattoreita tuotepaketteihin. Bingo plus vä
 
   // FAQ Section - Selected FAQs from Finnish bingo.md
   faq: {
-    sectionTitle: 'Usein Kysytyt Kysymykset',
+    sectionTitle: 'FAQ - Ilmainen Työarkki Lapsille ja Työarkki Esiopetukseen. Työarkki Lapsille',
     sectionDescription: 'Yleisimmät kysymykset kuva-bingogeneraattorista ja bingo-korteista.',
     showMoreText: 'Näytä lisää kysymyksiä',
     showLessText: 'Näytä vähemmän',
@@ -418,7 +418,7 @@ Yhdistä useita tehtävämonistegeneraattoreita tuotepaketteihin. Bingo plus vä
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Yhdistä Muihin Työarkki Generaattoreihin',
+    sectionTitle: 'Ilmaiset Työarkit Yhdistää - Työarkki Lapsille ja Ilmaiset Tulosteet',
     sectionDescription: 'Luo kattavia oppimispaketteja yhdistämällä bingo-pelit näihin täydentäviin generaattoreihin.',
     ctaTitle: 'Valmiina Luomaan Upeita Bingo-Pelejä?',
     ctaDescription: 'Liity tuhansien opettajien joukkoon, jotka luovat ammattimaisia bingo-kortteja. Rajoittamaton generointi, kaupallinen lisenssi sisältyy.',

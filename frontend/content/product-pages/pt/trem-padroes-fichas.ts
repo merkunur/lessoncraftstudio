@@ -93,8 +93,8 @@ Este gerador oferece 5 tipos de padrões diferentes para atividades grátis. Voc
 
   // Sample Gallery - REAL file paths from samples/portuguese/pattern-train/
   samples: {
-    sectionTitle: 'Exemplos de Atividades Grátis do Trenzinho de Padrões - Atividade para Crianças',
-    sectionDescription: 'Baixe exemplos de atividades grátis para ver nossa qualidade profissional',
+    sectionTitle: 'Atividade Grátis para Crianças - Atividades Grátis e Imprimíveis Grátis',
+    sectionDescription: 'Baixe imprimíveis grátis - Atividade grátis para crianças de qualidade profissional. Atividades grátis e atividade para crianças perfeitas para atividade para educação infantil. Atividade grátis para crianças e atividade para crianças incluem material educativo. Atividade grátis disponível',
     downloadLabel: 'Baixar Exemplo Grátis',
     worksheetLabel: 'Atividade',
     answerKeyLabel: 'Gabarito',
@@ -145,7 +145,7 @@ Este gerador oferece 5 tipos de padrões diferentes para atividades grátis. Voc
 
   // Features Grid - FULL text from pattern-train.md feature sections
   features: {
-    sectionTitle: 'Recursos do Gerador de Atividade Grátis - Atividade para Educação Infantil',
+    sectionTitle: 'Atividades Grátis e Atividade para Crianças - Imprimíveis Grátis e Atividade para Educação Infantil',
     sectionDescription: 'O gerador de Trenzinho de Padrões oferece recursos completos para criar atividade grátis de qualidade. Cada funcionalidade foi desenvolvida pensando em educadores brasileiros. Crie atividade grátis para crianças personalizadas em minutos. Professores de educação infantil e ensino fundamental usam diariamente.',
     highlightBadgeText: 'Recurso Principal',
     readMoreLabel: 'Leia mais',
@@ -250,7 +250,7 @@ Todos os 33 geradores estão na assinatura Acesso Completo para imprimíveis gr�
 
   // How-To Guide - FULL text from pattern-train.md step sections
   howTo: {
-    sectionTitle: 'Como Criar Atividade Grátis para Crianças de Padrões - Guia de Imprimíveis Grátis',
+    sectionTitle: 'Atividade Grátis para Crianças Criar - Atividade para Educação Infantil',
     sectionDescription: 'Criar atividade grátis de sequência lógica nunca foi tão simples. O processo completo leva menos de 3 minutos. Siga estes 5 passos e tenha suas atividades grátis prontas. Professores de educação infantil economizam horas de trabalho manual.',
     ctaText: 'Comece Agora',
     badgeText: 'Como Funciona',
@@ -332,7 +332,7 @@ Todos os 33 geradores estão na assinatura Acesso Completo para imprimíveis gr�
 
   // Use Cases - FULL text from pattern-train.md use case sections
   useCases: {
-    sectionTitle: 'Quem Usa Atividade Grátis do Trenzinho de Padrões - Atividade para Educação Infantil',
+    sectionTitle: 'Atividade Grátis para Crianças - Atividade para Educação Infantil com Imprimíveis Grátis. Atividade para Crianças',
     sectionDescription: 'O gerador de Trenzinho de Padrões atende diversos perfis de educadores brasileiros. Professores de atividade para educação infantil usam diariamente. Atividade grátis serve múltiplos contextos educacionais. Veja como usar esta ferramenta para atividades grátis de alfabetização e muito mais.',
     badgeText: 'Para Quem',
     readMoreLabel: 'Leia mais',

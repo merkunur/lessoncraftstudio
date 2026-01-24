@@ -87,8 +87,8 @@ L'abbonamento Accesso Completo costa 240 euro all'anno o 25 euro al mese. Includ
 
   // Sample Gallery
   samples: {
-    sectionTitle: 'Schede Gratuite Puzzle Matematici - Stampabili Gratuiti Esempi',
-    sectionDescription: 'Scarica esempi gratuiti per vedere la nostra qualità professionale',
+    sectionTitle: "Scheda Gratuita per Bambini - Schede Gratuite e Stampabili Gratuiti e Scheda per Bambini",
+    sectionDescription: "Scarica stampabili gratuiti - Scheda gratuita per bambini di qualità professionale. Schede gratuite e scheda per bambini perfette per scheda per scuola dell'infanzia. Scheda gratuita per bambini e scheda per bambini includono materiale educativo. Scheda gratuita e scheda per scuola dell'infanzia disponibile",
     downloadLabel: 'Scarica Esempio Gratuito',
     worksheetLabel: 'Scheda',
     answerKeyLabel: 'Chiave di Risposta',
@@ -139,7 +139,7 @@ L'abbonamento Accesso Completo costa 240 euro all'anno o 25 euro al mese. Includ
 
   // Features Grid
   features: {
-    sectionTitle: 'Schede Gratuite Puzzle Matematici - Funzionalità Scheda Gratuita per Bambini',
+    sectionTitle: "Schede Gratuite e Scheda per Bambini - Stampabili Gratuiti e Scheda per Scuola dell'Infanzia",
     sectionDescription: 'Il nostro generatore di puzzle matematici offre tutto ciò di cui hai bisogno per creare stampabili gratuiti coinvolgenti. Ogni funzione è stata progettata pensando agli insegnanti che necessitano di schede gratuite di qualità. Le scheda per bambini generate sono perfette per studenti dalla scuola dell\'infanzia alla classe terza.',
     highlightBadgeText: 'Funzionalità Chiave',
     readMoreLabel: 'Leggi di più',
@@ -210,7 +210,7 @@ La qualità 300 DPI garantisce stampe professionali nitide. Molti insegnanti gua
 
   // How-To Guide Section
   howTo: {
-    sectionTitle: 'Schede Gratuite - Come Creare Scheda Gratuita Puzzle Matematici',
+    sectionTitle: "Scheda Gratuita per Bambini Creare - Scheda per Scuola dell'Infanzia",
     sectionDescription: 'Creare stampabili gratuiti puzzle matematici professionali richiede meno di 3 minuti dall\'inizio al download. Il processo è intuitivo anche per chi non ha competenze di design. Segui questi 5 passaggi per generare scheda per bambini perfette ogni volta. Ogni passaggio è progettato per massima semplicità ed efficienza.',
     ctaText: 'Inizia Ora',
     badgeText: 'Guida Passo-Passo',
@@ -272,7 +272,7 @@ I file PDF sono perfetti per stampanti di classe standard. La scala di grigi rid
 
   // Use Cases Section
   useCases: {
-    sectionTitle: 'Schede Gratuite per Bambini - Stampabili Gratuiti Puzzle Matematici',
+    sectionTitle: "Scheda Gratuita per Bambini - Scheda per Scuola dell'Infanzia con Stampabili Gratuiti. Scheda per Bambini",
     sectionDescription: 'I puzzle matematici funzionano in molteplici contesti educativi. Gli insegnanti li usano per pratica quotidiana, centri matematici e compiti a casa. I genitori li trovano preziosi per homeschooling e rinforzo a casa. Le scheda gratuita per bambini coinvolgono studenti di abilità diverse efficacemente.',
     badgeText: 'Chi Usa le Nostre Schede',
     readMoreLabel: 'Leggi di più',
@@ -343,7 +343,7 @@ Crea pacchetti tematici di stampabili gratuiti per massimizzare vendite. Un set 
 
   // FAQ Section
   faq: {
-    sectionTitle: 'Domande Frequenti Schede Gratuite Puzzle Matematici',
+    sectionTitle: "FAQ - Scheda Gratuita per Bambini e Scheda per Scuola dell'Infanzia. Scheda per Bambini",
     sectionDescription: 'Queste domande frequenti rispondono alle domande più comuni degli insegnanti sulle scheda gratuita per bambini. Le risposte forniscono informazioni pratiche per decisioni informate. Ogni risposta include dettagli specifici su funzionalità e utilizzo.',
     showMoreText: 'Mostra altre domande',
     showLessText: 'Mostra meno domande',
@@ -469,7 +469,7 @@ Avere chiavi delle risposte risparmia tempo enorme durante correzioni. Non devi 
 
   // Related Apps Section
   relatedApps: {
-    sectionTitle: 'Schede Gratuite - Combina con Altri Stampabili Gratuiti',
+    sectionTitle: "Schede Gratuite - Combina con Altri Stampabili Gratuiti",
     sectionDescription: 'L\'abbonamento Accesso Completo include 33 generatori di schede gratuite. Combina il generatore di Puzzle Matematici con altri strumenti. Crea pacchetti completi di scheda per bambini. Perfetto per unità tematiche. Ottimo per centri di apprendimento.',
     ctaTitle: 'Pronto a Creare Schede Straordinarie?',
     ctaDescription: 'Unisciti a migliaia di educatori che creano schede professionali. Generazione illimitata, licenza commerciale inclusa.',

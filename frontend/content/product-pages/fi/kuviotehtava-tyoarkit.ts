@@ -55,8 +55,8 @@ Jokaisessa tehtävässä on selkeät esimerkit ja vastausavain. Voit mukauttaa v
 
   // Sample Gallery - REAL file paths from samples/english/pattern worksheet/
   samples: {
-    sectionTitle: 'Kuviotehtävä Esimerkit',
-    sectionDescription: 'Lataa ilmaiset esimerkkityöarkit nähdäksesi ammattimaisen laatumme',
+    sectionTitle: 'Ilmainen Työarkki Lapsille - Ilmaiset Työarkit ja Ilmaiset Tulosteet',
+    sectionDescription: 'Lataa ilmaiset tulosteet - Ilmainen työarkki lapsille ammattimaista laatua. Ilmaiset työarkit ja työarkki lapsille täydellinen työarkki esiopetukseen. Ilmainen työarkki lapsille ja työarkki lapsille sisältää ilmaiset tulosteet ja ilmaiset työarkit opetusmateriaalin. Ilmainen työarkki ja työarkki esiopetukseen saatavilla',
     downloadLabel: 'Lataa Ilmainen Esimerkki',
     worksheetLabel: 'Työarkki',
     answerKeyLabel: 'Vastausavain',
@@ -86,7 +86,7 @@ Jokaisessa tehtävässä on selkeät esimerkit ja vastausavain. Voit mukauttaa v
 
   // Features Grid - FULL text from Finnish kuviotehtava.md feature sections
   features: {
-    sectionTitle: 'Kuviotehtävä Ominaisuudet - Kaikki Mitä Tarvitset Matematiikka Tehtävät Alakoulu ja Tulostettavat Tehtävät Lapsille Ilmainen',
+    sectionTitle: 'Ilmaiset Työarkit ja Työarkki Lapsille - Ilmaiset Tulosteet ja Työarkki Esiopetukseen',
     sectionDescription: 'Kuviotehtävän luoja tarjoaa ammattimaiset työkalut kuviontunnistuksen opettamiseen. Täysi Pääsy -tilaus antaa sinulle pääsyn kaikkiin 33 tehtävämonisteen luojaan, mukaan lukien kuviotehtävä. Luo rajattomasti tulostettavia tehtäviä lapsille ilmainen ilman lisämaksuja. Jokainen ominaisuus on suunniteltu helpottamaan esiopetuksen ja alakoulun opettajien työtä.',
     highlightBadgeText: 'Tärkeä Ominaisuus',
     readMoreLabel: 'Lue lisää',
@@ -194,7 +194,7 @@ Kumoamis- ja tekeminen uudelleen -toiminnot suojaavat työtäsi. Tee virhe? Klik
 
   // How-To Guide - FULL text from Finnish kuviotehtava.md step sections
   howTo: {
-    sectionTitle: 'Kuinka Luoda Tulostettavat Tehtävät Lapsille Ilmainen 5 Helpossa Vaiheessa - Matematiikka Tehtävät Alakoulu ja Esiopetus Materiaali Ilmainen',
+    sectionTitle: 'Ilmainen Työarkki Lapsille Luoda - Työarkki Esiopetukseen',
     sectionDescription: 'Kuviotehtävämonisteen luominen kestää alle kolme minuuttia alusta loppuun. Ei vaadita suunnittelutaitoja tai teknistä kokemusta. Seuraa viittä yksinkertaista vaihetta ammattimaiseen tehtävämonistiin. Jokainen vaihe on suunniteltu nopeaksi ja intuitiiviseksi.',
     ctaText: 'Aloita Luominen Nyt',
     badgeText: 'Näin Se Toimii',
@@ -276,7 +276,7 @@ Tulosta välittömästi tai tallenna myöhempää käyttöä varten. Tallenna ti
 
   // Use Cases - FULL text from Finnish kuviotehtava.md use case sections
   useCases: {
-    sectionTitle: 'Täydellinen Opettajille ja Vanhemmille - Tulostettavat Tehtävät Lapsille Ilmainen Jokaiseen Tarpeeseen',
+    sectionTitle: 'Ilmainen Työarkki Lapsille - Työarkki Esiopetukseen ja Ilmaiset Tulosteet. Työarkki Lapsille',
     sectionDescription: 'Kuviotehtävä palvelee monia käyttäjäryhmiä. Esiopetuksen opettajat luovat yksinkertaisia kuvioita 4-6-vuotiaille. Alakoulun opettajat luovat haastavia kuvioita 7-9-vuotiaille. Kotiopettajat luovat personoituja tehtävämonisteitä. Erityisopettajat eriyttävät vaikeustasoja. Opettajayrittäjät myyvät tehtävämonisteitä verkossa.',
     badgeText: 'Kenelle Sopii',
     readMoreLabel: 'Lue lisää',
@@ -500,7 +500,7 @@ Yhdistä kuviotehtävä muihin tehtäviin kattaviksi paketeiksi. Myy "Talven Mat
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Yhdistä Kuviotehtävä Muihin Tulostettaviin Tehtäviin Lapsille - Täydelliset Oppimispaketit',
+    sectionTitle: 'Ilmaiset Työarkit Yhdistää - Työarkki Lapsille ja Ilmaiset Tulosteet',
     sectionDescription: 'Täysi Pääsy sisältää 33 ilmaista työkalua. Yhdistä kuviotehtävä muihin generaattoreihin täydellisiin oppimispaketteihin. Luo viikon tehtäväpaketti kaikilla työkaluilla. Luo teemakohtaisia paketteja jotka yhdistävät useita taitoja.',
     ctaTitle: 'Valmiina Luomaan Upeita Työarkkeja?',
     ctaDescription: 'Liity tuhansien opettajien joukkoon, jotka luovat ammattimaisia työarkkeja. Rajoittamaton generointi, kaupallinen lisenssi sisältyy.',

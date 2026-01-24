@@ -79,8 +79,8 @@ Kjernepakke-abonnentet inkluderer 10 populære oppgavegeneratorer. Du får tilga
 
   // Sample Gallery - REAL file paths from samples/english/matching/
   samples: {
-    sectionTitle: 'Matchingsoppgaver Arbeidsark Eksempler',
-    sectionDescription: 'Last ned gratis eksempler på arbeidsark for å se vår profesjonelle kvalitet',
+    sectionTitle: 'Gratis Arbeidsark for Barn - Gratis Arbeidsark og Gratis Utskrifter',
+    sectionDescription: 'Last ned gratis utskrifter - Gratis arbeidsark for barn av profesjonell kvalitet. Gratis arbeidsark og arbeidsark for barn perfekt for arbeidsark for 1. trinn. Gratis arbeidsark for barn og arbeidsark for barn inkluderer gratis utskrifter undervisningsmateriell. Gratis arbeidsark og arbeidsark for 1. trinn tilgjengelig',
     badgeText: 'Gratis Eksempler',
     downloadLabel: 'Last ned Gratis Eksempel',
     downloadingLabel: 'Laster ned...',
@@ -124,7 +124,7 @@ Kjernepakke-abonnentet inkluderer 10 populære oppgavegeneratorer. Du får tilga
 
   // Features Grid - FULL text from matching.md feature sections
   features: {
-    sectionTitle: 'Funksjoner for Gratis Arbeidsark - Alt Du Trenger til Matematikk Oppgaver og Bokstaver Lære Skrive',
+    sectionTitle: 'Gratis Arbeidsark og Arbeidsark for Barn - Gratis Utskrifter og Arbeidsark for 1. Trinn',
     sectionDescription: 'Vår matchingsgenerator kombinerer enkelhet med profesjonell kvalitet for arbeidsark gratis. Lærere kan lage matchingsoppgaver på minutter i stedet for timer. Verktøyet inkluderer alle funksjoner du trenger for å lage effektive oppgavehefter barn. Fra bokstaver lære skrive aktiviteter til matematikk oppgaver, alt er tilgjengelig i ett verktøy. Hver funksjon er designet for å spare tid og forbedre læringsresultatene for elevene dine.',
     highlightBadgeText: 'Viktig Funksjon',
     readMoreLabel: 'Les mer',
@@ -284,7 +284,7 @@ Fasitknappen genererer et separat svarark. Svararket viser samme oppgave med lin
 
   // Use Cases - FULL text from matching.md use case sections
   useCases: {
-    sectionTitle: 'Perfekt for Lærere og Foreldre - Gratis Arbeidsark og Matematikk Oppgaver til Alle Behov',
+    sectionTitle: 'Gratis Arbeidsark for Barn - Arbeidsark for 1. Trinn med Gratis Utskrifter. Arbeidsark for Barn',
     sectionDescription: 'Matchingsgeneratoren tjener mange forskjellige brukere i utdanningssektoren. Fra barnehage til 3. trinn finner lærere verktøyet uvurderlig for daglig undervisning. Foreldre bruker det til hjemmeundervisning og leksehjelpaktiviteter. Spesialpedagoger lager differensierte oppgavehefter barn for individuelle læringsbehov. Lærerentreprenører selger matchingsoppgaver de lager på nettbaserte markedsplasser. Hver brukergruppe har unike behov som verktøyet møter effektivt.',
     badgeText: 'Hvem Er Det For',
     readMoreLabel: 'Les mer',
@@ -367,7 +367,7 @@ ESL lærere i Norge bruker verktøyet til å lage arbeidsark gratis for nyankomn
 
   // FAQ Section - From matching.md
   faq: {
-    sectionTitle: 'Ofte Stilte Spørsmål om Matchingsoppgaver - Arbeidsark Gratis, Matematikk Oppgaver, og Bokstaver Lære Skrive',
+    sectionTitle: 'FAQ - Gratis Arbeidsark for Barn og Arbeidsark for 1. Trinn. Arbeidsark for Barn',
     sectionDescription: 'Lærere har mange spørsmål om matchingsgeneratoren før de begynner. Dette avsnittet svarer på de mest vanlige spørsmålene om arbeidsark gratis, matematikk oppgaver, og andre funksjoner. Les gjennom for å forstå hvordan verktøyet fungerer. Svar dekker priser, bruk i klasserommet, kommersielt salg, og tekniske detaljer. Hvis du har ytterligere spørsmål kontakt vår brukerstøtte for hjelp.',
     showMoreText: 'Vis flere spørsmål',
     showLessText: 'Vis færre',
@@ -472,7 +472,7 @@ ESL lærere i Norge bruker verktøyet til å lage arbeidsark gratis for nyankomn
 
   // Related Apps - From matching.md "Kombiner" section
   relatedApps: {
-    sectionTitle: 'Kombiner Matchingsoppgaver med Gratis Arbeidsark og Fargeleggingsbilder Barn - Komplette Læringspakker til Småskoletrinnet',
+    sectionTitle: 'Gratis Arbeidsark Kombinere - Arbeidsark for Barn og Gratis Utskrifter',
     sectionDescription: 'Matchingsgeneratoren fungerer best når kombinert med andre gratis verktøy på plattformen. Kjernepakke gir deg tilgang til 10 forskjellige generatorer for komplett undervisningsplanlegging. Lag tematiske ukepakker som kombinerer matching med matematikk oppgaver, fargeleggingsbilder barn, og finmotorikk øvelser. Hver kombinasjon skaper mer engasjerende oppgavehefter barn for elevene dine. Variasjon holder oppmerksomheten og forsterker læringen gjennom flere modaliteter.',
     ctaTitle: 'Klar til å Lage Fantastiske Arbeidsark?',
     ctaDescription: 'Bli med tusenvis av pedagoger som lager profesjonelle arbeidsark. Ubegrenset oppretting, kommersiell lisens inkludert.',

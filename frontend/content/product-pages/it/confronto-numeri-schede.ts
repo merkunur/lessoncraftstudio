@@ -87,8 +87,8 @@ Gli insegnanti della scuola dell'infanzia apprezzano la flessibilità del genera
 
   // Sample Gallery
   samples: {
-    sectionTitle: 'Schede Gratuite Confronto Numeri - Stampabili Gratuiti da Scaricare',
-    sectionDescription: 'Scarica schede gratuite per vedere la nostra qualità professionale - stampabili gratuiti per bambini',
+    sectionTitle: "Scheda Gratuita per Bambini - Schede Gratuite e Stampabili Gratuiti e Scheda per Bambini",
+    sectionDescription: "Scarica stampabili gratuiti - Scheda gratuita per bambini di qualità professionale. Schede gratuite e scheda per bambini perfette per scheda per scuola dell'infanzia. Scheda gratuita per bambini e scheda per bambini includono materiale educativo. Scheda gratuita e scheda per scuola dell'infanzia disponibile",
     downloadLabel: 'Scarica Scheda Gratuita',
     worksheetLabel: 'Scheda',
     answerKeyLabel: 'Chiave di Risposta',
@@ -132,7 +132,7 @@ Gli insegnanti della scuola dell'infanzia apprezzano la flessibilità del genera
 
   // Features Grid
   features: {
-    sectionTitle: 'Funzionalità - Schede Gratuite per Bambini e Stampabili Gratuiti',
+    sectionTitle: "Schede Gratuite e Scheda per Bambini - Stampabili Gratuiti e Scheda per Scuola dell'Infanzia",
     sectionDescription: 'Il nostro generatore di schede gratuite offre strumenti completi per creare esercizi di confronto numerico. Ogni funzionalità è progettata per insegnanti che necessitano di stampabili gratuiti di qualità professionale. L\'abbonamento Accesso Completo include accesso illimitato a tutte le schede gratuite. Crea scheda gratuita per bambini e scheda per scuola dell\'infanzia personalizzate in pochi minuti.',
     highlightBadgeText: 'Funzionalità Chiave',
     readMoreLabel: 'Leggi di più',
@@ -212,7 +212,7 @@ La qualità di stampa professionale è fondamentale per materiali didattici effi
 
   // How-To Guide Section
   howTo: {
-    sectionTitle: 'Come Creare Schede Gratuite in 5 Passi - Stampabili Gratuiti per Bambini',
+    sectionTitle: "Scheda Gratuita per Bambini Creare - Scheda per Scuola dell'Infanzia",
     sectionDescription: 'Creare schede gratuite professionali richiede meno di 3 minuti dall\'inizio allo scaricamento. Il processo guidato rende semplice generare stampabili gratuiti anche per chi ha poca esperienza con strumenti digitali. Ogni passaggio è intuitivo e ben spiegato nell\'interfaccia. Segui questa guida passo-passo per creare la tua prima scheda gratuita per bambini. Il tuo abbonamento Accesso Completo ti permette di generare schede gratuite illimitate senza costi aggiuntivi.',
     ctaText: 'Inizia Ora',
     badgeText: 'Guida Passo-Passo',
@@ -284,7 +284,7 @@ Scegli l'opzione colore o scala di grigi prima dello scaricamento finale. Le sch
 
   // Use Cases Section
   useCases: {
-    sectionTitle: 'Schede Gratuite per Insegnanti - Stampabili Gratuiti per Educatori',
+    sectionTitle: "Schede Gratuite per Insegnanti - Stampabili Gratuiti per Educatori",
     sectionDescription: 'Le schede gratuite di confronto numerico soddisfano le esigenze di diversi professionisti dell\'educazione. Insegnanti di scuola dell\'infanzia, scuola primaria e genitori che praticano istruzione parentale trovano valore in questi stampabili gratuiti. Ogni gruppo di utenti sfrutta il generatore in modi unici per supportare l\'apprendimento. La scheda gratuita per bambini si adatta a molteplici contesti educativi e livelli di abilità. L\'abbonamento Accesso Completo serve efficacemente tutti questi segmenti di utenti.',
     badgeText: 'Per Chi È',
     readMoreLabel: 'Leggi di più',
@@ -367,7 +367,7 @@ Il mercato italiano di schede didattiche sta crescendo significativamente. Molti
 
   // FAQ Section
   faq: {
-    sectionTitle: 'FAQ Schede Gratuite Confronto Numeri - Stampabili Gratuiti per Bambini',
+    sectionTitle: "FAQ - Scheda Gratuita per Bambini e Scheda per Scuola dell'Infanzia. Scheda per Bambini",
     sectionDescription: 'Gli insegnanti pongono domande comuni quando scoprono il generatore di schede gratuite. Questa sezione risponde alle domande più frequenti su funzionalità, abbonamento e utilizzo. Le risposte forniscono informazioni chiare su stampabili gratuiti, scheda gratuita per bambini e scheda per scuola dell\'infanzia. Comprendere queste informazioni aiuta a decidere se l\'abbonamento Accesso Completo soddisfa le tue esigenze.',
     showMoreText: 'Mostra altre domande',
     showLessText: 'Mostra meno',
@@ -495,7 +495,7 @@ Il mercato italiano di schede didattiche sta crescendo significativamente. Molti
 
   // Related Apps Section
   relatedApps: {
-    sectionTitle: 'Combina con Altri Generatori di Schede Didattiche',
+    sectionTitle: "Combina con Altri Generatori di Schede Didattiche",
     sectionDescription: 'La nostra piattaforma offre 33 diversi generatori di schede didattiche oltre al confronto numeri. Il tuo abbonamento Accesso Completo fornisce accesso a tutti i generatori per creare pacchetti di apprendimento completi. Combina schede di confronto numeri con addizioni, alfabeto e attività di conteggio. Costruisci unità tematiche complete mescolando confronto quantità con altre competenze matematiche precoci.',
     ctaTitle: 'Pronto a Creare Schede Didattiche Straordinarie?',
     ctaDescription: 'Unisciti agli educatori che creano schede professionali. Generazione illimitata, licenza commerciale inclusa.',

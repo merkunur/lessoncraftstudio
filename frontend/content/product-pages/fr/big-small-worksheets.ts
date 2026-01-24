@@ -85,8 +85,8 @@ Les fiches de comparaison de tailles conviennent parfaitement aux classes de mat
 
   // Sample Gallery - REAL file paths from samples/english/big small/
   samples: {
-    sectionTitle: 'Exemples de Fiches Grand et Petit',
-    sectionDescription: 'Téléchargez des exemples gratuits pour voir notre qualité professionnelle',
+    sectionTitle: 'Fiche Gratuite pour Enfants - Fiches Gratuites et Imprimables Gratuits',
+    sectionDescription: 'Téléchargez imprimables gratuits - Fiche gratuite pour enfants de qualité professionnelle. Fiches gratuites et fiche pour enfants parfaites pour fiche pour maternelle. Fiche gratuite pour enfants et fiches gratuites inclus matériel éducatif. Fiche gratuite et fiches gratuites disponible',
     downloadLabel: 'Télécharger Exemple Gratuit',
     worksheetLabel: 'Fiche Grand et Petit',
     answerKeyLabel: 'Clé de Correction',
@@ -137,7 +137,7 @@ Les fiches de comparaison de tailles conviennent parfaitement aux classes de mat
 
   // Features Grid - FULL text from big-small.md feature sections
   features: {
-    sectionTitle: 'Fonctionnalités du Générateur de Fiches Grand et Petit - Tout pour Créer des Fiches Maternelle et Exercices CP',
+    sectionTitle: 'Fiches Gratuites et Fiche pour Enfants - Imprimables Gratuits et Fiche pour Maternelle',
     sectionDescription: 'Notre générateur de fiches grand et petit offre des fonctionnalités complètes pour les enseignants. Créez des exercices de comparaison de tailles adaptés à tous les niveaux. De la maternelle au CP, chaque fiche répond aux besoins pédagogiques spécifiques. Découvrez les sept fonctionnalités principales qui font de cet outil un incontournable pour votre classe.',
     highlightBadgeText: 'Fonctionnalité Clé',
     readMoreLabel: 'Lire la suite',
@@ -242,7 +242,7 @@ Les fiches à imprimer deviennent de véritables supports pédagogiques complets
 
   // How-To Guide - FULL text from big-small.md step sections
   howTo: {
-    sectionTitle: 'Comment Créer des Fiches Maternelle Grand et Petit en 5 Étapes - Fiches à Imprimer Gratuit en Moins de 3 Minutes',
+    sectionTitle: 'Fiche Gratuite pour Enfants Créer - Fiche pour Maternelle',
     sectionDescription: 'Créer des fiches de comparaison de tailles ne prend que quelques minutes. Suivez ce guide étape par étape pour générer vos premiers exercices. Aucune compétence technique n\'est nécessaire. Même les enseignants débutants en informatique réussissent du premier coup. Votre fiche à imprimer sera prête en moins de 3 minutes.',
     ctaText: 'Commencer Maintenant',
     badgeText: 'Guide Étape par Étape',
@@ -324,7 +324,7 @@ Générez également le corrigé en un clic. La fiche réponse montre les soluti
 
   // Use Cases - FULL text from big-small.md use case sections
   useCases: {
-    sectionTitle: 'Fiches Maternelle et Exercices CP pour Tous les Enseignants - Qui Utilise nos Fiches à Imprimer Gratuit',
+    sectionTitle: 'Fiche Gratuite pour Enfants - Fiche pour Maternelle avec Imprimables Gratuits. Fiche pour Enfants',
     sectionDescription: 'Notre générateur de fiches s\'adresse à tous les professionnels de l\'éducation. Les enseignants de maternelle et de CP y trouvent des ressources adaptées. Les parents pratiquant l\'instruction en famille apprécient également cet outil. Découvrez comment chaque profil utilise nos fiches à imprimer gratuit.',
     badgeText: 'Cas d\'Utilisation',
     readMoreLabel: 'Lire la suite',
@@ -421,7 +421,7 @@ La création rapide permet d'adapter le matériel à chaque patient. Le graphism
 
   // FAQ Section - Selected FAQs from big-small.md
   faq: {
-    sectionTitle: 'Questions Fréquentes sur les Fiches Grand et Petit - Tables de Multiplication, Apprendre à Lire et Exercices Maths',
+    sectionTitle: 'FAQ - Fiche Gratuite pour Enfants et Fiche pour Maternelle. Fiche pour Enfants',
     sectionDescription: 'Vous avez des questions sur notre générateur de fiches grand et petit ? Cette section répond aux interrogations les plus courantes. Des tables de multiplication aux exercices pour apprendre à lire, nous couvrons tous les sujets. Trouvez rapidement les informations dont vous avez besoin sur les exercices maths et autres fonctionnalités.',
     showMoreText: 'Voir plus de questions',
     showLessText: 'Voir moins',
@@ -598,7 +598,7 @@ Créez vos propres thèmes en important des images. Les tables de multiplication
 
   // Related Apps - From big-small.md Section 7
   relatedApps: {
-    sectionTitle: 'Combinez les Fiches Grand et Petit avec d\'Autres Fiches à Imprimer Gratuit - Packs Pédagogiques Complets avec Tables de Multiplication',
+    sectionTitle: 'Fiches Gratuites Combiner - Fiche pour Enfants et Imprimables Gratuits',
     sectionDescription: 'Les fiches grand et petit s\'intègrent parfaitement à des packs pédagogiques complets. Combinez-les avec les 32 autres générateurs de la plateforme. Les tables de multiplication, les exercices de lecture et bien d\'autres outils créent des ensembles cohérents. Vos fiches à imprimer gratuit forment des séquences d\'apprentissage structurées pour tous les niveaux.',
     ctaTitle: 'Prêt à Créer des Fiches Grand et Petit Professionnelles ?',
     ctaDescription: 'Rejoignez des milliers d\'enseignants qui créent des fiches maternelle de qualité. Création illimitée, licence commerciale incluse.',

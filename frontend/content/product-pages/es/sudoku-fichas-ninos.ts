@@ -77,8 +77,8 @@ Maestros de preescolar y primaria usan nuestras fichas de sudoku para desarrolla
 
   // Sample Gallery - REAL file paths from samples/english/sudoku/
   samples: {
-    sectionTitle: 'Ejemplos de Fichas de Sudoku para Niños',
-    sectionDescription: 'Descarga ejemplos gratuitos para ver nuestra calidad profesional',
+    sectionTitle: 'Ficha Gratis para Niños - Fichas Gratis e Imprimibles Gratis',
+    sectionDescription: 'Descarga imprimibles gratis - Ficha gratis para niños de calidad profesional. Ficha para niños perfecta para ficha para preescolar. Ficha gratis para niños y ficha para niños incluyen material educativo. Ficha gratis disponible',
     downloadLabel: 'Descargar Ejemplo Gratis',
     worksheetLabel: 'Ficha',
     answerKeyLabel: 'Hoja de Respuestas',
@@ -122,7 +122,7 @@ Maestros de preescolar y primaria usan nuestras fichas de sudoku para desarrolla
 
   // Features Grid - FULL text from sudoku.md feature sections
   features: {
-    sectionTitle: 'Características del Generador de Sudoku - Fichas para Imprimir y Material Educativo Gratis para Preescolar',
+    sectionTitle: 'Fichas Gratis y Ficha para Niños - Imprimibles Gratis y Ficha para Preescolar',
     sectionDescription: 'Nuestro generador de sudoku visual combina facilidad de uso con personalización profesional. Maestros de educación infantil y primaria crean fichas de sudoku personalizadas en minutos. Cada característica está diseñada para educadores ocupados que necesitan material educativo de calidad rápidamente. Tu suscripción a Paquete Esencial incluye acceso completo a todas las herramientas profesionales.',
     highlightBadgeText: 'Característica Clave',
     readMoreLabel: 'Leer más',
@@ -214,7 +214,7 @@ La calidad de exportación profesional te hace lucir profesional. Padres imprime
 
   // How-To Guide - FULL text from sudoku.md step sections
   howTo: {
-    sectionTitle: 'Cómo Crear Fichas de Sudoku para Imprimir - Guía Paso a Paso con Números y Dibujos para Colorear',
+    sectionTitle: 'Ficha Gratis para Niños Crear - Ficha para Preescolar',
     sectionDescription: 'Crear sudoku visual profesional toma menos de 3 minutos. Este proceso simple de 5 pasos funciona para maestros de preescolar, primaria y padres. No necesitas experiencia técnica ni habilidades de diseño. Sigue estos pasos y tendrás fichas infantil listas para imprimir inmediatamente. El generador maneja todo el trabajo complejo automáticamente.',
     ctaText: 'Comenzar Ahora',
     badgeText: 'Cómo Funciona',
@@ -300,7 +300,7 @@ Lamina juegos completos de sudoku para centros de aprendizaje permanentes. Los e
 
   // Use Cases - FULL text from sudoku.md use case sections
   useCases: {
-    sectionTitle: 'Perfecto para Maestros y Padres - Fichas Infantil de Sudoku con Números, Grafomotricidad y Lectoescritura',
+    sectionTitle: 'Ficha Gratis para Niños - Ficha para Preescolar con Imprimibles Gratis. Ficha para Niños',
     sectionDescription: 'El sudoku visual funciona para múltiples contextos educativos diferentes. Maestros de educación infantil a primaria encuentran aplicaciones valiosas. Padres que educan en casa usan sudoku como actividad central de lógica. Terapeutas integran sudoku en programas de intervención especializados. Cada grupo de usuarios se beneficia de diferentes formas de estas fichas para imprimir flexibles.',
     badgeText: 'Para Quién',
     readMoreLabel: 'Leer más',
@@ -395,7 +395,7 @@ La calidad profesional de 300 DPI asegura reseñas positivas de clientes. Los co
 
   // FAQ Section - Selected FAQs from sudoku.md
   faq: {
-    sectionTitle: 'Preguntas Frecuentes sobre Fichas de Sudoku para Imprimir con Números, Tablas de Multiplicar y Grafomotricidad',
+    sectionTitle: 'FAQ - Ficha Gratis para Niños y Ficha para Preescolar. Ficha para Niños',
     sectionDescription: 'Maestros y padres tienen preguntas comunes sobre crear fichas de sudoku visual. Esta sección responde las 12 preguntas más frecuentes sobre el generador. Comprender estos detalles ayuda a decidir si Paquete Esencial es apropiado. Cada respuesta proporciona información práctica para uso en aula o hogar. Fichas para imprimir que funcionan exactamente como necesitas.',
     showMoreText: 'Ver más preguntas',
     showLessText: 'Ver menos',
@@ -500,7 +500,7 @@ La calidad profesional de 300 DPI asegura reseñas positivas de clientes. Los co
 
   // Related Apps - FULL text from sudoku.md related sections
   relatedApps: {
-    sectionTitle: 'Combina Fichas de Sudoku con Otras Fichas para Imprimir - Paquetes Completos con Tablas de Multiplicar, Grafomotricidad y Dibujos para Colorear',
+    sectionTitle: 'Fichas Gratis Combinar - Ficha para Niños e Imprimibles Gratis',
     sectionDescription: 'Nuestra plataforma ofrece 33 generadores diferentes de fichas para imprimir gratuitas. Los maestros combinan sudoku visual con otros tipos de fichas para crear paquetes de aprendizaje completos. Esta integración multi-habilidad mantiene a los estudiantes comprometidos mientras desarrollan competencias diversas. Tu suscripción a Paquete Esencial te da acceso a 10 generadores populares. Crea material educativo coordinado temáticamente en minutos.',
     ctaTitle: '¿Listo para Crear Fichas de Sudoku Increíbles?',
     ctaDescription: 'Únete a miles de maestros que crean fichas profesionales. Generación ilimitada, licencia comercial incluida.',

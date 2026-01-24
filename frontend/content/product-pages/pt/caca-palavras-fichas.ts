@@ -83,8 +83,8 @@ Nosso gerador de atividades gratis cria imprimiveis gratis em segundos. Escolha 
 
   // Sample Gallery - GATE 0: Portuguese paths with 4 items
   samples: {
-    sectionTitle: 'Atividades Gratis Caca-Palavras - Exemplos de Atividade para Criancas',
-    sectionDescription: 'Baixe exemplos de imprimiveis gratis para ver nossa qualidade profissional de atividade para educacao infantil',
+    sectionTitle: 'Atividade Grátis para Crianças - Atividades Grátis e Imprimíveis Grátis',
+    sectionDescription: 'Baixe imprimíveis grátis - Atividade grátis para crianças de qualidade profissional. Atividades grátis e atividade para crianças perfeitas para atividade para educação infantil. Atividade grátis para crianças e atividade para crianças incluem material educativo. Atividade grátis disponível',
     downloadLabel: 'Baixar Exemplo Gratis',
     worksheetLabel: 'Atividade',
     answerKeyLabel: 'Gabarito',
@@ -128,8 +128,8 @@ Nosso gerador de atividades gratis cria imprimiveis gratis em segundos. Escolha 
 
   // Features Grid - Universal keywords in section and feature titles
   features: {
-    sectionTitle: 'Recursos - Atividade Gratis para Educacao Infantil e Imprimiveis Gratis',
-    sectionDescription: 'O gerador de atividades gratis caca-palavras da LessonCraft Studio oferece recursos profissionais. Cada funcionalidade foi pensada para criar atividade para criancas. Crie imprimiveis gratis em minutos. Personalize cada detalhe da sua atividade para educacao infantil.',
+    sectionTitle: 'Atividades Grátis e Atividade para Crianças - Imprimíveis Grátis e Atividade para Educação Infantil',
+    sectionDescription: 'Atividades grátis aqui. O gerador de atividades grátis caca-palavras da LessonCraft Studio oferece recursos profissionais. Cada funcionalidade foi pensada para criar atividade para criancas. Crie imprimiveis gratis em minutos. Personalize cada detalhe da sua atividade para educacao infantil.',
     highlightBadgeText: 'Recurso Principal',
     readMoreLabel: 'Leia mais',
     showLessLabel: 'Mostrar menos',
@@ -222,7 +222,7 @@ A opcao escala de cinza economiza tinta para atividade para educacao infantil. I
 
   // How-To Guide - Universal keywords in section and step titles
   howTo: {
-    sectionTitle: 'Crie Atividade Gratis Caca-Palavras em 5 Passos - Imprimiveis Gratis',
+    sectionTitle: 'Atividade Grátis para Crianças Criar - Atividade para Educação Infantil',
     sectionDescription: 'Criar atividades gratis de caca-palavras profissional leva menos de 3 minutos. O processo e simples e intuitivo. Qualquer professor consegue criar atividade para criancas sem treinamento. Siga os 5 passos abaixo e baixe sua atividade para educacao infantil.',
     ctaText: 'Comece Agora',
     badgeText: 'Como Funciona',
@@ -306,7 +306,7 @@ Marque a opcao "Escala de Cinza" para economizar tinta nos imprimiveis gratis. A
 
   // Use Cases - Universal keywords in section and subtitles
   useCases: {
-    sectionTitle: 'Quem Usa Atividades Gratis Caca-Palavras - Atividade para Criancas',
+    sectionTitle: 'Atividade Grátis para Crianças - Atividade para Educação Infantil com Imprimíveis Grátis. Atividade para Crianças',
     sectionDescription: 'O gerador de atividade gratis caca-palavras atende diversos publicos. Professores, pais e empreendedores usam diariamente para criar imprimiveis gratis. Cada grupo encontra beneficios especificos em atividade para educacao infantil. Descubra como a ferramenta pode ajudar voce.',
     badgeText: 'Para Quem',
     readMoreLabel: 'Leia mais',
@@ -399,7 +399,7 @@ Professores faturam de R$500 a R$5.000 por mes com atividades gratis. Alguns tra
 
   // FAQ Section - Universal keywords in section and questions
   faq: {
-    sectionTitle: 'Perguntas Frequentes - Atividades Gratis e Atividade para Educacao Infantil',
+    sectionTitle: 'FAQ - Atividade Grátis para Crianças e Atividade para Educação Infantil. Atividade para Crianças',
     sectionDescription: 'Reunimos as duvidas mais comuns sobre o gerador de atividade gratis caca-palavras. Se sua pergunta sobre imprimiveis gratis nao estiver aqui, entre em contato.',
     showMoreText: 'Mostrar mais perguntas',
     showLessText: 'Mostrar menos',
@@ -504,7 +504,7 @@ Professores faturam de R$500 a R$5.000 por mes com atividades gratis. Alguns tra
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Combine com Outros Geradores - Atividades Gratis para Criancas',
+    sectionTitle: 'Atividades Grátis Combinar - Atividade para Crianças e Imprimíveis Grátis',
     sectionDescription: 'Crie pacotes de atividade gratis completos combinando caca-palavras com estes geradores de imprimiveis gratis complementares para atividade para educacao infantil.',
     ctaTitle: 'Pronto para Criar Atividades Gratis Incriveis?',
     ctaDescription: 'Junte-se a milhares de educadores que criam atividade para criancas profissionais. Geracao ilimitada de imprimiveis gratis, licenca comercial incluida.',

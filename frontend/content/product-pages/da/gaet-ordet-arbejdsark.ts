@@ -83,8 +83,8 @@ Generatoren fungerer på 11 sprog inklusiv dansk, engelsk, tysk og fransk. Tilpa
 
   // Sample Gallery - REAL file paths from samples/danish/word-guess/
   samples: {
-    sectionTitle: 'Gratis Arbejdsark Eksempler - Gæt Ordet til Børn',
-    sectionDescription: 'Download gratis eksempler på arbejdsark for at se vores professionelle kvalitet',
+    sectionTitle: 'Gratis Arbejdsark til Børn - Gratis Arbejdsark og Gratis Printables',
+    sectionDescription: 'Download gratis printables - Gratis arbejdsark til børn af professionel kvalitet. Gratis arbejdsark og arbejdsark til børn perfekt til arbejdsark til børnehaveklasse. Gratis arbejdsark til børn og arbejdsark til børn inkluderer undervisningsmateriale. Gratis arbejdsark tilgængeligt',
     badgeText: 'Gratis Eksempler',
     downloadLabel: 'Download Gratis Eksempel',
     downloadingLabel: 'Downloader...',
@@ -135,7 +135,7 @@ Generatoren fungerer på 11 sprog inklusiv dansk, engelsk, tysk og fransk. Tilpa
 
   // Features Grid - FULL text from word-guess.md feature sections
   features: {
-    sectionTitle: 'Gæt Ordet Funktioner - Gratis Arbejdsark til Børn og Børnehaveklasse',
+    sectionTitle: 'Gratis Arbejdsark og Arbejdsark til Børn - Gratis Printables og Arbejdsark til Børnehaveklasse',
     sectionDescription: 'Gæt-ordet generatoren indeholder alle funktioner du behøver til at lave professionelle opgaver til print. Fuld Adgang-abonnementet giver dig adgang til alle værktøjer uden begrænsninger. Lav arbejdsark til børnehaveklassen, 0. klasse opgaver og 1. klasse materialer med samme generator. Kombiner forskellige opgavetyper for komplette læringspakker.',
     highlightBadgeText: 'Vigtig Funktion',
     readMoreLabel: 'Læs mere',
@@ -370,7 +370,7 @@ Din kommercielle licens er inkluderet i Fuld Adgang-abonnement. Ingen ekstra geb
 
   // FAQ Section - Selected FAQs from word-guess.md
   faq: {
-    sectionTitle: 'Ofte Stillede Spørgsmål Om Gratis Arbejdsark til Børn',
+    sectionTitle: 'FAQ - Gratis Arbejdsark til Børn og Arbejdsark til Børnehaveklasse. Arbejdsark til Børn',
     sectionDescription: 'Her er svar på de mest almindelige spørgsmål om gæt-ordet generatoren. Lær om abonnementer og hvordan du bruger opgaver til print i din undervisning.',
     showMoreText: 'Vis flere spørgsmål',
     showLessText: 'Vis færre',
@@ -498,7 +498,7 @@ Din kommercielle licens er inkluderet i Fuld Adgang-abonnement. Ingen ekstra geb
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Kombiner med Andre Gratis Arbejdsark Generatorer',
+    sectionTitle: 'Gratis Arbejdsark Kombinere - Arbejdsark til Børn og Gratis Printables',
     sectionDescription: 'Lav komplette læringspakker ved at kombinere gæt-ordet med disse komplementære generatorer.',
     ctaTitle: 'Klar til at Lave Fantastiske Arbejdsark?',
     ctaDescription: 'Tilslut dig tusindvis af pædagoger der laver professionelle arbejdsark. Ubegrænset oprettelse, kommerciel licens inkluderet.',

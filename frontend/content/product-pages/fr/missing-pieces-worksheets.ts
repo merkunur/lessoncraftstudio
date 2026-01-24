@@ -92,8 +92,8 @@ Téléchargez vos fiches en format JPEG ou PDF. L'option niveau de gris permet d
 
   // Sample Gallery - REAL file paths from samples/english/missing pieces/
   samples: {
-    sectionTitle: 'Exemples de Fiches Pièces Manquantes',
-    sectionDescription: 'Téléchargez des exemples gratuits pour voir notre qualité professionnelle',
+    sectionTitle: 'Fiche Gratuite pour Enfants - Fiches Gratuites et Imprimables Gratuits',
+    sectionDescription: 'Téléchargez imprimables gratuits - Fiche gratuite pour enfants de qualité professionnelle. Fiches gratuites et fiche pour enfants parfaites pour fiche pour maternelle. Fiche gratuite pour enfants et fiches gratuites inclus matériel éducatif. Fiche gratuite et fiches gratuites disponible',
     downloadLabel: 'Télécharger Exemple Gratuit',
     worksheetLabel: 'Fiche',
     answerKeyLabel: 'Corrigé',
@@ -144,7 +144,7 @@ Téléchargez vos fiches en format JPEG ou PDF. L'option niveau de gris permet d
 
   // Features Grid - FULL text from French missing-pieces.md H2/H3 feature sections
   features: {
-    sectionTitle: 'Fonctionnalités du Générateur de Pièces Manquantes - Fiches à Imprimer Gratuit pour Maternelle et CP',
+    sectionTitle: 'Fiches Gratuites et Fiche pour Enfants - Imprimables Gratuits et Fiche pour Maternelle',
     sectionDescription: 'Notre générateur de pièces manquantes offre tous les outils nécessaires pour créer des fiches maternelle professionnelles. Chaque fonctionnalité a été conçue pour les enseignants qui créent des exercices CP et CE1. Générez des puzzles éducatifs en quelques clics. Personnalisez chaque élément directement sur le canevas. Téléchargez vos fiches à imprimer gratuit en haute qualité. Tous les outils dont vous avez besoin pour créer des exercices pièces manquantes adaptés à vos élèves.',
     highlightBadgeText: 'Fonctionnalité Clé',
     readMoreLabel: 'Lire la suite',
@@ -217,7 +217,7 @@ Téléchargez vos fiches en format JPEG ou PDF. L'option niveau de gris permet d
 
   // How-To Guide - FULL text from French missing-pieces.md Step sections
   howTo: {
-    sectionTitle: 'Comment Créer des Fiches Maternelle Pièces Manquantes en 5 Étapes Simples - Exercices CP et CE1',
+    sectionTitle: 'Fiche Gratuite pour Enfants Créer - Fiche pour Maternelle',
     sectionDescription: 'Créer des puzzles éducatifs professionnels prend moins de 3 minutes avec notre générateur. Suivez ces 5 étapes simples pour produire des fiches maternelle de haute qualité. Chaque étape est conçue pour être intuitive et rapide. Les enseignants créent des exercices CP sans formation préalable. Le processus guidé garantit des résultats professionnels à chaque fois. Vos fiches à imprimer gratuit sont prêtes en quelques clics seulement.',
     ctaText: 'Commencer à Créer',
     badgeText: 'Guide Étape par Étape',
@@ -269,7 +269,7 @@ Téléchargez vos fiches en format JPEG ou PDF. L'option niveau de gris permet d
 
   // Use Cases - FULL text from French missing-pieces.md persona sections
   useCases: {
-    sectionTitle: 'Fiches Maternelle pour Enseignants et Parents - Exercices CP, Coloriage et Graphisme pour Tous les Besoins',
+    sectionTitle: 'Fiche Gratuite pour Enfants - Fiche pour Maternelle avec Imprimables Gratuits. Fiche pour Enfants',
     sectionDescription: 'Les puzzles de pièces manquantes conviennent à de nombreux contextes éducatifs différents. Enseignants de maternelle, professeurs de CP et CE1, parents en instruction à domicile. Chaque groupe trouve des applications uniques pour ces fiches à imprimer gratuit. Les exercices s\'adaptent facilement à différents objectifs pédagogiques. Découvrez comment intégrer ces outils dans votre pratique éducative quotidienne.',
     badgeText: 'Cas d\'Utilisation',
     readMoreLabel: 'Lire la suite',
@@ -328,7 +328,7 @@ Téléchargez vos fiches en format JPEG ou PDF. L'option niveau de gris permet d
 
   // FAQ Section - ALL questions from French missing-pieces.md
   faq: {
-    sectionTitle: 'Questions Fréquentes',
+    sectionTitle: 'FAQ - Fiche Gratuite pour Enfants et Fiche pour Maternelle. Fiche pour Enfants',
     sectionDescription: 'Les enseignants et parents posent régulièrement les mêmes questions sur le générateur. Nous avons rassemblé les réponses aux interrogations les plus courantes. Découvrez tout ce que vous devez savoir sur les fiches maternelle de pièces manquantes. Ces informations vous aident à décider si Accès Complet convient à vos besoins.',
     showMoreText: 'Afficher plus de questions',
     showLessText: 'Voir moins',
@@ -456,7 +456,7 @@ Téléchargez vos fiches en format JPEG ou PDF. L'option niveau de gris permet d
 
   // Related Apps - French translations
   relatedApps: {
-    sectionTitle: 'Combinez avec d\'Autres Générateurs de Fiches',
+    sectionTitle: 'Fiches Gratuites Combiner - Fiche pour Enfants et Imprimables Gratuits',
     sectionDescription: 'Notre plateforme propose 33 générateurs de fiches différents au-delà des puzzles de pièces manquantes. Votre abonnement Accès Complet vous donne accès à tous les générateurs pour créer des paquets d\'apprentissage complets. Combinez les fiches de pièces manquantes avec les fiches de phonétique, les fiches d\'alphabet et les fiches de coloriage. Construisez des unités thématiques complètes mélangeant la pratique de la discrimination visuelle avec les activités de motricité fine.',
     ctaTitle: 'Prêt à Créer des Fiches Incroyables ?',
     ctaDescription: 'Rejoignez les éducateurs qui créent des fiches professionnelles. Génération illimitée, licence commerciale incluse.',

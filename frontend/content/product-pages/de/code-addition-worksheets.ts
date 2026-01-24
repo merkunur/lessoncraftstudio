@@ -98,8 +98,8 @@ Unsere Bildbibliothek umfasst über 3000 Bilder. Alle Bilder sind kindgerecht un
 
   // Sample Gallery - REAL file paths from samples/german/code-addition/
   samples: {
-    sectionTitle: 'Bilder-Additions-Arbeitsblätter Beispiele',
-    sectionDescription: 'Laden Sie kostenlose Beispiel-Arbeitsblätter herunter, um unsere professionelle Qualität zu sehen',
+    sectionTitle: 'Kostenloses Arbeitsblatt für Kinder - Kostenlose Arbeitsblätter und Kostenlose Druckvorlagen',
+    sectionDescription: 'Laden Sie kostenlose Druckvorlagen herunter - Kostenloses Arbeitsblatt für Kinder in professioneller Qualität für Arbeitsblatt für Vorschule',
     downloadLabel: 'Kostenloses Beispiel Herunterladen',
     worksheetLabel: 'Arbeitsblatt',
     answerKeyLabel: 'Lösungsblatt',
@@ -150,7 +150,7 @@ Unsere Bildbibliothek umfasst über 3000 Bilder. Alle Bilder sind kindgerecht un
 
   // Features Grid - FULL text from code-addition.md feature sections
   features: {
-    sectionTitle: 'Funktionen des Bilder-Additions-Generators - Mathe-Arbeitsblätter für Rechnen lernen',
+    sectionTitle: 'Arbeitsblatt für Kinder - Arbeitsblatt für Vorschule und Kostenlose Arbeitsblätter',
     sectionDescription: 'Der Bilder-Additions-Generator bietet alle wichtigen Funktionen für kostenlose Mathe-Arbeitsblätter. Erstellen Sie professionelle Arbeitsblätter Grundschule und Vorschul-Arbeitsblätter in wenigen Minuten. Jede Funktion wurde speziell für Lehrkräfte entwickelt.',
     highlightBadgeText: 'Hauptfunktion',
     readMoreLabel: 'Mehr lesen',
@@ -244,7 +244,7 @@ Die Kinder erkennen vertraute Motive und lernen motivierter beim Rechnen lernen.
 
   // How-To Guide - FULL text from code-addition.md step sections
   howTo: {
-    sectionTitle: 'Bilder-Additions-Arbeitsblätter erstellen in 5 Schritten - Kostenlose Mathe-Arbeitsblätter',
+    sectionTitle: 'Kostenloses Arbeitsblatt für Kinder erstellen - Arbeitsblatt für Vorschule',
     sectionDescription: 'Erstellen Sie professionelle Arbeitsblätter Grundschule in unter 3 Minuten. Folgen Sie diesen 5 einfachen Schritten. Kein Design-Wissen erforderlich. Perfekt für Mathe-Arbeitsblätter und Vorschul-Arbeitsblätter.',
     ctaText: 'Jetzt Erstellen',
     badgeText: 'So funktioniert es',
@@ -316,7 +316,7 @@ Aktivieren Sie die Graustufenoption für tintensparsames Drucken. Mit dem Vollzu
 
   // Use Cases - FULL text from code-addition.md use case sections
   useCases: {
-    sectionTitle: 'Perfekt für Lehrkräfte und Eltern - Mathe-Arbeitsblätter für jeden Bedarf',
+    sectionTitle: 'Kostenloses Arbeitsblatt für Kinder - Arbeitsblatt für Vorschule mit Kostenlose Druckvorlagen',
     sectionDescription: 'Der Bilder-Additions-Generator eignet sich für verschiedene Nutzergruppen. Erzieher in der Vorschule. Lehrkräfte an Grundschulen. Homeschooling-Eltern. DaZ-Lehrkräfte. Förderschullehrkräfte. Jeder profitiert von Arbeitsblättern Grundschule.',
     badgeText: 'Anwendungsbereiche',
     readMoreLabel: 'Mehr lesen',
@@ -399,7 +399,7 @@ Kostenlose Arbeitsblätter als Marketing-Strategie funktionieren hervorragend f�
 
   // FAQ Section - FULL FAQs from code-addition.md
   faq: {
-    sectionTitle: 'Häufig gestellte Fragen zu Bilder-Additions-Arbeitsblättern - Kostenlose Arbeitsblätter erklärt',
+    sectionTitle: 'FAQ - Kostenloses Arbeitsblatt für Kinder und Arbeitsblatt für Vorschule',
     sectionDescription: 'Lehrkräfte und Eltern haben viele Fragen zum Bilder-Additions-Generator und Vollzugriff Abonnement. Hier beantworten wir die häufigsten Fragen zu Arbeitsblätter Grundschule, Vorschul-Arbeitsblättern und kommerzieller Lizenzierung.',
     showMoreText: 'Mehr Fragen anzeigen',
     showLessText: 'Weniger anzeigen',
@@ -528,7 +528,7 @@ Kostenlose Arbeitsblätter als Marketing-Strategie funktionieren hervorragend f�
 
   // Related Apps - Kombinieren Sie Bilder-Additions-Arbeitsblätter mit anderen Generatoren
   relatedApps: {
-    sectionTitle: 'Kombinieren Sie Bilder-Addition mit anderen Generatoren - Ganzheitliche Arbeitsblätter Grundschule',
+    sectionTitle: 'Kostenlose Arbeitsblätter kombinieren - Arbeitsblatt für Kinder und Kostenlose Druckvorlagen',
     sectionDescription: 'Ihr Vollzugriff Abonnement beinhaltet alle 33 Arbeitsblatt-Generatoren. Kombinieren Sie Bilder-Additions-Arbeitsblätter mit Ausmalbilder für kreative Pausen. Integrieren Sie Schwungübungen für Schreibvorbereitung. Verbinden Sie mit Buchstaben lernen für frühkindliche Bildung.',
     ctaTitle: 'Bereit, fantastische Arbeitsblätter zu erstellen?',
     ctaDescription: 'Schließen Sie sich tausenden Lehrkräften an, die professionelle Mathe-Arbeitsblätter erstellen. Unbegrenzte Generierung, kommerzielle Lizenz inklusive.',

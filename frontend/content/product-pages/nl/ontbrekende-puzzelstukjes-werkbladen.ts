@@ -95,8 +95,8 @@ Onze werkbladen groep 3 generator maakt het gemakkelijk om gedifferentieerde puz
 
   // Sample Gallery - REAL file paths from samples/english/missing pieces/
   samples: {
-    sectionTitle: 'Gratis Printables Ontbrekende Puzzelstukjes - Werkblad voor Kinderen Voorbeelden',
-    sectionDescription: 'Download gratis werkblad voorbeelden - werkblad voor kleuters en werkblad voor kinderen in professionele kwaliteit',
+    sectionTitle: 'Gratis Werkblad voor Kinderen - Gratis Werkbladen en Gratis Printables',
+    sectionDescription: 'Download gratis printables - Gratis werkblad voor kinderen van professionele kwaliteit. Gratis werkbladen en werkblad voor kinderen perfect voor werkblad voor kleuters. Gratis werkblad voor kinderen en werkblad voor kinderen inclusief educatief materiaal. Gratis werkblad beschikbaar',
     downloadLabel: 'Gratis Voorbeeld Downloaden',
     worksheetLabel: 'Werkblad',
     answerKeyLabel: 'Antwoordblad',
@@ -147,7 +147,7 @@ Onze werkbladen groep 3 generator maakt het gemakkelijk om gedifferentieerde puz
 
   // Features Grid - FULL text from missing-pieces.md feature sections
   features: {
-    sectionTitle: 'Functies van de Puzzelstukjes Generator - Alles voor Werkbladen Groep 3 en Kleuters',
+    sectionTitle: 'Gratis Werkbladen en Werkblad voor Kinderen - Gratis Printables en Werkblad voor Kleuters',
     sectionDescription: 'Deze sectie beschrijft alle functies van onze ontbrekende puzzelstukjes generator. Van eenvoudig maken tot volledig aanpassen. Ontdek waarom duizenden leerkrachten kiezen voor onze werkbladen kleuters en werkbladen groep 3. Elke functie is ontworpen om tijd te besparen en professionele resultaten te leveren.',
     highlightBadgeText: 'Uitgelicht',
     readMoreLabel: 'Lees meer',
@@ -252,7 +252,7 @@ Voor commerciële verkoop bied aparte antwoordsleutels aan. Verkoop werkblad en 
 
   // How-To Guide - FULL text from missing-pieces.md step sections
   howTo: {
-    sectionTitle: 'Hoe Maak Je Gratis Werkblad voor Kinderen in 5 Stappen - Gratis Printables',
+    sectionTitle: 'Gratis Werkblad voor Kinderen Maken - Werkblad voor Kleuters',
     sectionDescription: 'Leer in vijf eenvoudige stappen professionele werkblad voor kleuters maken. Het hele proces duurt minder dan drie minuten. Geen technische kennis of ontwerpervaring nodig. Volg deze handleiding en maak direct werkbladen kleuters en werkbladen groep 3.',
     ctaText: 'Nu Starten',
     badgeText: 'Zo werkt het',
@@ -407,7 +407,7 @@ De professionele 300 DPI kwaliteit onderscheidt jouw producten. Geen watermerken
 
   // FAQ Section - FULL FAQs from missing-pieces.md
   faq: {
-    sectionTitle: 'Veelgestelde Vragen over Gratis Werkblad voor Kinderen - FAQ',
+    sectionTitle: 'FAQ - Gratis Werkblad voor Kinderen en Werkblad voor Kleuters. Werkblad voor Kinderen',
     sectionDescription: 'Hier beantwoorden we de meest gestelde vragen over onze gratis printables puzzelstukjes generator. Van prijzen tot functies en van combinaties tot commercieel gebruik. Vind antwoorden over werkblad voor kleuters en werkbladen groep 3.',
     showMoreText: 'Meer vragen tonen',
     showLessText: 'Minder tonen',
@@ -535,7 +535,7 @@ De professionele 300 DPI kwaliteit onderscheidt jouw producten. Geen watermerken
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Combineer Gratis Werkblad voor Kinderen met Andere Gratis Printables',
+    sectionTitle: 'Gratis Werkbladen Combineren - Werkblad voor Kinderen en Gratis Printables',
     sectionDescription: 'Het Volledige Toegang abonnement bevat drieëndertig werkblad voor kleuters generators die perfect samenwerken. Combineer ontbrekende puzzelstukjes met andere tools voor complete leerpakketten. Ontdek hoe je thematische bundels maakt voor elke lesweek.',
     ctaTitle: 'Klaar om geweldige werkbladen te maken?',
     ctaDescription: 'Sluit je aan bij duizenden leerkrachten die professionele werkbladen maken. Onbeperkt genereren, commerciële licentie inbegrepen.',

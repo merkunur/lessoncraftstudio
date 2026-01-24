@@ -71,8 +71,8 @@ Skriveopgaver kombinerer finmotorik øvelser med bogstavlæring. Hvert arbejdsar
 
   // Sample Gallery - REAL file paths from samples/danish/writing/
   samples: {
-    sectionTitle: 'Gratis Arbejdsark Eksempler - Skriveopgaver til Børn',
-    sectionDescription: 'Download gratis eksempler på arbejdsark for at se vores professionelle kvalitet',
+    sectionTitle: 'Gratis Arbejdsark til Børn - Gratis Arbejdsark og Gratis Printables',
+    sectionDescription: 'Download gratis printables - Gratis arbejdsark til børn af professionel kvalitet. Gratis arbejdsark og arbejdsark til børn perfekt til arbejdsark til børnehaveklasse. Gratis arbejdsark til børn og arbejdsark til børn inkluderer undervisningsmateriale. Gratis arbejdsark tilgængeligt',
     badgeText: 'Gratis Eksempler',
     downloadLabel: 'Download Gratis Eksempel',
     downloadingLabel: 'Downloader...',
@@ -109,7 +109,7 @@ Skriveopgaver kombinerer finmotorik øvelser med bogstavlæring. Hvert arbejdsar
 
   // Features Grid - FULL text from writing.md feature sections
   features: {
-    sectionTitle: 'Skriveopgaver Funktioner - Gratis Arbejdsark til Børnehaveklasse og Børn',
+    sectionTitle: 'Gratis Arbejdsark og Arbejdsark til Børn - Gratis Printables og Arbejdsark til Børnehaveklasse',
     sectionDescription: 'Fuld Adgang giver dig professionelle værktøjer til skriveopgaver gratis arbejdsark. Lav arbejdsark til børn på få minutter. Alle funktioner designet til pædagoger i børnehaveklassen og 1. klasse. Rediger alt på lærredet uden begrænsninger.',
     highlightBadgeText: 'Vigtig Funktion',
     readMoreLabel: 'Læs mere',
@@ -334,7 +334,7 @@ Byg niche mærker omkring specifikke emner eller pædagogiske tilgange. Speciali
 
   // FAQ Section - Selected FAQs from writing.md
   faq: {
-    sectionTitle: 'Ofte Stillede Spørgsmål Om Gratis Arbejdsark til Børn - Skriveopgaver',
+    sectionTitle: 'FAQ - Gratis Arbejdsark til Børn og Arbejdsark til Børnehaveklasse. Arbejdsark til Børn',
     sectionDescription: 'Pædagoger har mange spørgsmål om skriveopgaver generatoren. Her er de 12 mest almindelige spørgsmål. Alle svar gælder arbejdsark til børnehaveklasse og andre generatorer. Fuld Adgang giver samme fordele på tværs af alle 33 værktøjer.',
     showMoreText: 'Vis flere spørgsmål',
     showLessText: 'Vis færre',
@@ -462,7 +462,7 @@ Byg niche mærker omkring specifikke emner eller pædagogiske tilgange. Speciali
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Kombiner med Andre Gratis Arbejdsark - Arbejdsark til Børnehaveklasse',
+    sectionTitle: 'Gratis Arbejdsark Kombinere - Arbejdsark til Børn og Gratis Printables',
     sectionDescription: 'Fuld Adgang inkluderer 33 gratis værktøjer til arbejdsark til børn. Kombiner skriveopgaver med finmotorik øvelser, matematikopgaver og læse og skrive opgaver. Lav tematiske pakker til børnehaveklassen og 0. klasse.',
     ctaTitle: 'Klar til at Lave Fantastiske Arbejdsark?',
     ctaDescription: 'Tilslut dig tusindvis af pædagoger der laver professionelle arbejdsark. Ubegrænset oprettelse, kommerciel licens inkluderet.',

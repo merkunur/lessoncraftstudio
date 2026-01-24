@@ -71,8 +71,8 @@ Vores gratis ordsøgningsgenerator tilbyder over 3000 børnevenlige billeder til
 
   // Sample Gallery - REAL file paths from samples/english/wordsearch/
   samples: {
-    sectionTitle: 'Ordsøgning Arbejdsark Eksempler',
-    sectionDescription: 'Download gratis eksempler på arbejdsark for at se vores professionelle kvalitet',
+    sectionTitle: 'Gratis Arbejdsark til Børn - Gratis Arbejdsark og Gratis Printables',
+    sectionDescription: 'Download gratis printables - Gratis arbejdsark til børn af professionel kvalitet. Gratis arbejdsark og arbejdsark til børn perfekt til arbejdsark til børnehaveklasse. Gratis arbejdsark til børn og arbejdsark til børn inkluderer gratis printables undervisningsmateriale. Gratis arbejdsark tilgængeligt',
     badgeText: 'Gratis Eksempler',
     downloadLabel: 'Download Gratis Eksempel',
     downloadingLabel: 'Downloader...',
@@ -109,7 +109,7 @@ Vores gratis ordsøgningsgenerator tilbyder over 3000 børnevenlige billeder til
 
   // Features Grid - FULL text from wordsearch.md feature sections
   features: {
-    sectionTitle: 'Funktioner til Gratis Skoleopgaver og Arbejdsark til Print',
+    sectionTitle: 'Gratis Arbejdsark og Arbejdsark til Børn - Gratis Printables og Arbejdsark til Børnehaveklasse',
     sectionDescription: 'Ordsøgningsgeneratoren tilbyder alle vigtige funktioner til gratis skoleopgaver. Lav professionelle arbejdsark og opgaver til print på få minutter. Hver funktion er udviklet til lærere og pædagoger. Perfekt til børnehaveklassen og indskolingen.',
     highlightBadgeText: 'Vigtig Funktion',
     readMoreLabel: 'Læs mere',
@@ -203,7 +203,7 @@ Ingen pixelerede billeder. Ingen uskarpe linjer. Professionel kvalitet hver gang
 
   // How-To Guide - FULL text from wordsearch.md step sections
   howTo: {
-    sectionTitle: 'Lav Gratis Arbejdsark i 5 Nemme Trin',
+    sectionTitle: 'Gratis Arbejdsark til Børn Oprette - Arbejdsark til Børnehaveklasse',
     sectionDescription: 'Lav professionelle opgaver til print på under 3 minutter. Følg disse 5 simple trin. Intet designkendskab påkrævet. Perfekt til gratis skoleopgaver til 0. klasse og 1. klasse.',
     ctaText: 'Start Nu',
     badgeText: 'Sådan Virker Det',
@@ -279,7 +279,7 @@ Download arbejdsarket til din computer. Download også facitarket til rettelse. 
 
   // Use Cases - FULL text from wordsearch.md use case sections
   useCases: {
-    sectionTitle: 'Gratis Arbejdsark til Pædagoger, Lærere og Forældre',
+    sectionTitle: 'Gratis Arbejdsark til Børn - Arbejdsark til Børnehaveklasse med Gratis Printables. Arbejdsark til Børn',
     sectionDescription: 'Ordsøgningsopgaver passer til mange forskellige brugere. Pædagoger i børnehaveklassen elsker de visuelle opgaver. Lærere i indskolingen bruger dem til lære bogstaver. Forældre kombinerer dem med farvelægning hjemme. Hver brugergruppe finder unikke måder at bruge gratis skoleopgaver på.',
     badgeText: 'Hvem Er Det Til',
     readMoreLabel: 'Læs mere',
@@ -362,7 +362,7 @@ Print-on-demand licensen åbner muligheder. Sælg på Etsy som arbejdsark til pr
 
   // FAQ Section - Selected FAQs from wordsearch.md
   faq: {
-    sectionTitle: 'Ofte Stillede Spørgsmål om Gratis Arbejdsark',
+    sectionTitle: 'FAQ - Gratis Arbejdsark til Børn og Arbejdsark til Børnehaveklasse. Arbejdsark til Børn',
     sectionDescription: 'Her er svar på de mest almindelige spørgsmål om ordsøgningsgeneratoren. Lær om gratis muligheder, abonnementer og hvordan du bruger opgaver til print i din undervisning.',
     showMoreText: 'Vis flere spørgsmål',
     showLessText: 'Vis færre',
@@ -467,7 +467,7 @@ Print-on-demand licensen åbner muligheder. Sælg på Etsy som arbejdsark til pr
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Kombiner med Andre Arbejdsark Generatorer',
+    sectionTitle: 'Gratis Arbejdsark Kombinere - Arbejdsark til Børn og Gratis Printables',
     sectionDescription: 'Lav komplette læringspakker ved at kombinere ordsøgninger med disse komplementære generatorer.',
     ctaTitle: 'Klar til at Lave Fantastiske Arbejdsark?',
     ctaDescription: 'Tilslut dig tusindvis af pædagoger der laver professionelle arbejdsark. Ubegrænset oprettelse, kommerciel licens inkluderet.',

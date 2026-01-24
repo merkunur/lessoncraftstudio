@@ -95,8 +95,8 @@ Unser Kryptogramm-Generator erstellt individuelle Rätsel in 11 Sprachen. Laden 
 
   // Sample Gallery - REAL file paths from samples/english/cryptogram/
   samples: {
-    sectionTitle: 'Bilder-Kryptogramm Arbeitsblätter Beispiele',
-    sectionDescription: 'Laden Sie kostenlose Beispiel-Arbeitsblätter herunter, um unsere professionelle Qualität zu sehen',
+    sectionTitle: 'Kostenloses Arbeitsblatt für Kinder - Kostenlose Arbeitsblätter und Kostenlose Druckvorlagen',
+    sectionDescription: 'Laden Sie kostenlose Druckvorlagen herunter - Kostenloses Arbeitsblatt für Kinder in professioneller Qualität für Arbeitsblatt für Vorschule',
     downloadLabel: 'Kostenloses Beispiel Herunterladen',
     worksheetLabel: 'Arbeitsblatt',
     answerKeyLabel: 'Lösungsblatt',
@@ -147,7 +147,7 @@ Unser Kryptogramm-Generator erstellt individuelle Rätsel in 11 Sprachen. Laden 
 
   // Features Grid - FULL text from kryptogramm.md feature sections
   features: {
-    sectionTitle: 'Bilder-Kryptogramm Funktionen - Alles für kostenlose Arbeitsblätter Grundschule, Vorschule Arbeitsblätter und Mathe Arbeitsblätter',
+    sectionTitle: 'Arbeitsblatt für Kinder - Kostenlose Druckvorlagen und Arbeitsblatt für Vorschule',
     sectionDescription: 'Unser Bilder-Kryptogramm-Generator bietet alle professionellen Funktionen die Erzieher und Grundschullehrer benötigen. Erstellen Sie Deutsch Arbeitsblätter, Mathe Arbeitsblätter und Buchstaben lernen Aktivitäten mit visuellen Bildcodes. Jede Funktion wurde für schnelle Arbeitsblatt-Erstellung bei voller Bearbeitungskontrolle entwickelt.',
     highlightBadgeText: 'Hauptfunktion',
     readMoreLabel: 'Mehr lesen',
@@ -241,7 +241,7 @@ PDF-Export bewahrt exaktes Layout und Formatierung auf allen Geräten. Teilen Si
 
   // How-To Guide - FULL text from kryptogramm.md step sections
   howTo: {
-    sectionTitle: 'Bilder-Kryptogramm erstellen in 5 einfachen Schritten - Anleitung für Arbeitsblätter Grundschule, Mathe Arbeitsblätter und Buchstaben lernen',
+    sectionTitle: 'Kostenloses Arbeitsblatt für Kinder erstellen - Arbeitsblatt für Vorschule',
     sectionDescription: 'Folgen Sie diesen fünf einfachen Schritten um professionelle Bilder-Kryptogramme in unter 3 Minuten zu erstellen. Diese Anleitung zeigt Ihnen wie Sie kostenlose Arbeitsblätter perfekt für Deutsch Arbeitsblätter, Buchstaben lernen und Vorschule Arbeitsblätter erstellen.',
     ctaText: 'Jetzt Erstellen',
     badgeText: 'So funktioniert es',
@@ -323,7 +323,7 @@ PDF-Downloads bewahren perfekte Formatierung auf allen Geräten und Druckern. Te
 
   // Use Cases - FULL descriptions from kryptogramm.md persona sections
   useCases: {
-    sectionTitle: 'Perfekt für Lehrer, Eltern und Pädagogen - Kostenlose Arbeitsblätter für Einmaleins, Buchstaben lernen und Schwungübungen',
+    sectionTitle: 'Kostenloses Arbeitsblatt für Kinder - Arbeitsblatt für Vorschule mit Kostenlose Druckvorlagen',
     sectionDescription: 'Bilder-Kryptogramme dienen vielen Zwecken in verschiedenen Bildungsumgebungen. Erzieher nutzen sie für Sprachzentren und Buchstaben lernen Aktivitäten. Grundschullehrer setzen sie als Frühfertig-Aufgaben und Einmaleins Vokabular-Übung ein. DaF-Lehrer integrieren sie in ihre Deutsch Arbeitsblätter Programme.',
     badgeText: 'Anwendungsbereiche',
     readMoreLabel: 'Mehr lesen',
@@ -406,7 +406,7 @@ Differenzieren Sie Ihre Produkte durch Kombination mit anderen Arbeitsblatt-Type
 
   // FAQ Section - FULL FAQs from kryptogramm.md
   faq: {
-    sectionTitle: 'Häufig gestellte Fragen über kostenlose Arbeitsblätter - Einmaleins, Mathe Arbeitsblätter und Deutsch Arbeitsblätter',
+    sectionTitle: 'FAQ - Kostenloses Arbeitsblatt für Kinder und Arbeitsblatt für Vorschule',
     sectionDescription: 'Lehrer und Eltern stellen häufige Fragen über Bilder-Kryptogramme bevor sie den Generator ausprobieren. Diese Antworten liefern klare ehrliche Information über Abonnement-Anforderungen, Druckoptionen und Anpassungsfähigkeiten.',
     showMoreText: 'Mehr Fragen anzeigen',
     showLessText: 'Weniger anzeigen',
@@ -535,7 +535,7 @@ Differenzieren Sie Ihre Produkte durch Kombination mit anderen Arbeitsblatt-Type
 
   // Related Apps - Apps that work well with cryptogram
   relatedApps: {
-    sectionTitle: 'Kryptogramme kombinieren mit anderen Apps - Komplette kostenlose Arbeitsblätter mit Rechnen lernen, Schwungübungen und Ausmalbilder',
+    sectionTitle: 'Kostenlose Arbeitsblätter kombinieren - Arbeitsblatt für Kinder und Kostenlose Druckvorlagen',
     sectionDescription: 'LessonCraft Studio bietet 33 verschiedene Arbeitsblatt-Generatoren mit Ihrem Vollzugriff Abonnement. Lehrer erstellen umfassende Lernpakete durch Kombination multipler Arbeitsblatt-Typen. Bilder-Kryptogramme funktionieren perfekt neben Leseschreib-Arbeitsblättern, Mathe Arbeitsblättern und Feinmotor-Aktivitäten.',
     ctaTitle: 'Bereit, fantastische Arbeitsblätter zu erstellen?',
     ctaDescription: 'Schließen Sie sich tausenden Lehrkräften an, die professionelle Arbeitsblätter erstellen. Unbegrenzte Generierung, kommerzielle Lizenz inklusive.',

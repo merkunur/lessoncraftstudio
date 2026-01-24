@@ -101,8 +101,8 @@ Die Benutzeroberfläche ist komplett auf Deutsch verfügbar. Alle Schaltflächen
 
   // Sample Gallery - REAL file paths from samples/german/more-less/
   samples: {
-    sectionTitle: 'Vergleichs-Arbeitsblätter Beispiele',
-    sectionDescription: 'Laden Sie kostenlose Beispiel-Arbeitsblätter herunter, um unsere professionelle Qualität zu sehen',
+    sectionTitle: 'Kostenloses Arbeitsblatt für Kinder - Kostenlose Arbeitsblätter und Kostenlose Druckvorlagen',
+    sectionDescription: 'Laden Sie kostenlose Druckvorlagen herunter - Kostenloses Arbeitsblatt für Kinder in professioneller Qualität für Arbeitsblatt für Vorschule',
     downloadLabel: 'Kostenloses Beispiel Herunterladen',
     worksheetLabel: 'Arbeitsblatt',
     answerKeyLabel: 'Lösungsblatt',
@@ -153,7 +153,7 @@ Die Benutzeroberfläche ist komplett auf Deutsch verfügbar. Alle Schaltflächen
 
   // Features Grid - FULL text from mehr-weniger.md feature sections
   features: {
-    sectionTitle: 'Funktionen für Mathe Arbeitsblätter und Arbeitsblätter Grundschule - Alles für Kostenlose Arbeitsblätter zum Rechnen lernen',
+    sectionTitle: 'Arbeitsblatt für Kinder - Kostenlose Druckvorlagen und Arbeitsblatt für Vorschule',
     sectionDescription: 'Unser Vergleichs-Arbeitsblätter Generator enthält sieben leistungsstarke Funktionen. Diese machen das Erstellen von Mathe Arbeitsblättern schnell und einfach. Generieren Sie kostenlose Arbeitsblätter für die Grundschule bis zur dritten Klasse. Jede Funktion arbeitet zusammen für professionelle Ergebnisse. Lehrer erstellen hochwertige Vergleichs-Arbeitsblätter in wenigen Minuten. Der Generator kombiniert Einfachheit mit professionellen Ergebnissen. Ihr Vollzugriff Abo ermöglicht unbegrenzte Arbeitsblatt-Erstellung. Keine zusätzlichen Kosten pro Arbeitsblatt. Erstellen Sie so viele Mathe Arbeitsblätter wie Ihre Schüler benötigen. Laden Sie Arbeitsblätter im hochwertigen PDF- oder JPEG-Format herunter.',
     highlightBadgeText: 'Hauptfunktion',
     readMoreLabel: 'Mehr lesen',
@@ -233,7 +233,7 @@ Die Graustufen-Option spart Druckertinte. Konvertieren Sie bunte Mathe Arbeitsbl
 
   // How-To Guide - FULL text from mehr-weniger.md
   howTo: {
-    sectionTitle: 'So erstellen Sie Arbeitsblätter Grundschule und Mathe Arbeitsblätter in 5 einfachen Schritten - Kostenlose Arbeitsblätter für Rechnen 1. Klasse',
+    sectionTitle: 'Kostenloses Arbeitsblatt für Kinder erstellen - Arbeitsblatt für Vorschule',
     sectionDescription: 'Das Erstellen von Vergleichs-Arbeitsblättern dauert unter drei Minuten. Unser einfacher Fünf-Schritte-Prozess erfordert keine Designerfahrung. Lehrer erstellen professionelle Arbeitsblätter Grundschule schneller als das Kopieren fertiger Materialien. Folgen Sie diesen Schritten für kostenlose Arbeitsblätter zum Ausdrucken. Perfekt für Mathe-Unterricht in der ersten Klasse. Der Arbeitsblatt-Generator führt Sie durch jeden Schritt. Wählen Sie Ihre Einstellungen und sehen Sie Ihr Mathe Arbeitsblatt auf dem Bildschirm. Bearbeiten Sie alles vor dem Download. Ihr Vollzugriff Abo bedeutet unbegrenzte Erstellung ohne Zeitlimits oder zusätzliche Gebühren.',
     ctaText: 'Jetzt Erstellen',
     badgeText: 'So Funktioniert Es',
@@ -305,7 +305,7 @@ Beide Dateien verwenden klare Benennung für einfache Organisation. Ihr Vollzugr
 
   // Use Cases Section - FULL text from mehr-weniger.md
   useCases: {
-    sectionTitle: 'Perfekt für Lehrer und Eltern - Vorschule Arbeitsblätter, Arbeitsblätter Grundschule, Buchstaben lernen und Ausmalbilder für jeden Bedarf',
+    sectionTitle: 'Kostenloses Arbeitsblatt für Kinder - Arbeitsblatt für Vorschule mit Kostenlose Druckvorlagen',
     sectionDescription: 'Vergleichs-Arbeitsblätter dienen vielfältigen Bildungsbedürfnissen. Erzieher in der Vorschule, Grundschullehrer, Eltern und Nachhilfelehrer profitieren von anpassbaren Mathe Arbeitsblättern. Jede Gruppe nutzt den Generator unterschiedlich für spezifische Schülerbedürfnisse. Erstellen Sie kostenlose Arbeitsblätter für jeden Unterrichtskontext. Unser Vollzugriff Abo unterstützt alle Lehrumgebungen. Generieren Sie Arbeitsblätter passend zu jedem Lehrplan. Die Flexibilität macht dieses Werkzeug wertvoll für alle Bildungsstufen und Klassenstufen.',
     badgeText: 'Anwendungsbereiche',
     readMoreLabel: 'Mehr lesen',
@@ -388,7 +388,7 @@ Nutzen Sie professionelle 300-DPI-Qualität für Kundenzufriedenheit. Erstellen 
 
   // FAQ Section - FULL text from mehr-weniger.md
   faq: {
-    sectionTitle: 'Häufig gestellte Fragen zu Vergleichs-Arbeitsblättern - Einmaleins, Vorschule Arbeitsblätter, Schwungübungen und Deutsch Arbeitsblätter',
+    sectionTitle: 'FAQ - Kostenloses Arbeitsblatt für Kinder und Arbeitsblatt für Vorschule',
     sectionDescription: 'Lehrer und Eltern stellen häufig Fragen vor dem Abonnieren. Diese Antworten behandeln Preise, Unterrichtseinsatz und technische Anforderungen. Verstehen Sie die Abo-Vorteile für Ihre Unterrichtsbedürfnisse. Erfahren Sie, wie Vergleichs-Arbeitsblätter mit Einmaleins, Buchstaben lernen und Ausmalbilder kombiniert werden.',
     showMoreText: 'Mehr Fragen anzeigen',
     showLessText: 'Weniger anzeigen',
@@ -487,7 +487,7 @@ Monatliche Abos kündigen vor der nächsten Abbuchung. Jährliche Abos laufen bi
 
   // Related Apps Section - FULL text from mehr-weniger.md
   relatedApps: {
-    sectionTitle: 'Kombinieren Sie Vergleichs-Arbeitsblätter mit anderen Generatoren - Schwungübungen, Buchstaben lernen, Ausmalbilder und Deutsch Arbeitsblätter',
+    sectionTitle: 'Kostenlose Arbeitsblätter kombinieren - Arbeitsblatt für Kinder und Kostenlose Druckvorlagen',
     sectionDescription: 'Ihr Vollzugriff Abo beinhaltet 33 verschiedene Arbeitsblatt-Generatoren. Kombinieren Sie Vergleichs-Arbeitsblätter mit Schwungübungen, Buchstaben lernen und Ausmalbilder für vollständige Lernpakete. Erstellen Sie thematische Einheiten über mehrere Fähigkeitsbereiche. Maximieren Sie den Wert Ihres Abos durch Nutzung aller verfügbaren Generatoren. Die Kombination verschiedener Arbeitsblatt-Typen schafft umfassende Unterrichtsmaterialien. Schüler profitieren von abwechslungsreichen Aktivitäten. Lehrer sparen Zeit durch Erstellung aller Materialien auf einer Plattform. Jeder Generator arbeitet mit derselben einfachen Oberfläche.',
     ctaTitle: 'Bereit für professionelle Arbeitsblätter?',
     ctaDescription: 'Schließen Sie sich tausenden Pädagogen an, die professionelle Arbeitsblätter in Minuten erstellen.',

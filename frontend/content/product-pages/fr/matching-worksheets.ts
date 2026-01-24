@@ -83,8 +83,8 @@ MatchUp Maker offre une création de contenu flexible pour toutes les matières.
 
   // Sample Gallery - REAL file paths from samples/english/matching/
   samples: {
-    sectionTitle: 'Exemples de Fiches d\'Association',
-    sectionDescription: 'Téléchargez des exemples gratuits pour voir notre qualité professionnelle',
+    sectionTitle: 'Fiche Gratuite pour Enfants - Fiches Gratuites et Imprimables Gratuits',
+    sectionDescription: 'Téléchargez imprimables gratuits - Fiche gratuite pour enfants de qualité professionnelle. Fiches gratuites et fiche pour enfants parfaites pour fiche pour maternelle. Fiche gratuite pour enfants et fiches gratuites inclus matériel éducatif. Fiche gratuite et fiches gratuites disponible',
     downloadLabel: 'Télécharger Exemple Gratuit',
     worksheetLabel: 'Fiche',
     answerKeyLabel: 'Corrigé',
@@ -135,7 +135,7 @@ MatchUp Maker offre une création de contenu flexible pour toutes les matières.
 
   // Features Grid - FULL text from matching.md feature sections
   features: {
-    sectionTitle: 'Fonctionnalités MatchUp Maker - Tout ce qu\'il Faut pour Créer des Fiches Maternelle et Exercices CP',
+    sectionTitle: 'Fiches Gratuites et Fiche pour Enfants - Imprimables Gratuits et Fiche pour Maternelle',
     sectionDescription: 'Notre générateur de fiches d\'association inclut des fonctionnalités professionnelles conçues spécifiquement pour les enseignants créant des fiches maternelle et des exercices CP. Chaque fonctionnalité vous aide à construire des fiches à imprimer gratuit plus rapidement que les méthodes traditionnelles. Créez des fiches alphabet, des exercices maths, des activités pour apprendre à lire et des fiches de graphisme maternelle avec le même outil simple. Accédez à toutes les fonctionnalités premium avec votre abonnement Pack Essentiel. Pas de frais par fiche, pas de frais d\'image, pas de coûts de modèle. Générez des fiches d\'association illimitées pour tous vos besoins pédagogiques.',
     highlightBadgeText: 'Fonctionnalité Clé',
     readMoreLabel: 'Lire la suite',
@@ -242,7 +242,7 @@ Chaque image fonctionne parfaitement pour les fiches maternelle et les exercices
 
   // How-To Guide - FULL text from matching.md step sections
   howTo: {
-    sectionTitle: 'Comment Créer des Fiches à Imprimer Gratuit en 5 Étapes Simples - Fiches Maternelle et Exercices CP',
+    sectionTitle: 'Fiche Gratuite pour Enfants Créer - Fiche pour Maternelle',
     sectionDescription: 'Créer des fiches d\'association prend moins de 3 minutes du début au téléchargement. Suivez cinq étapes simples pour générer des fiches maternelle et des exercices CP professionnels. Aucune expérience en design requise pour créer des fiches alphabet, des exercices maths ou des activités pour apprendre à lire. Choisissez votre mode d\'association, sélectionnez les images, personnalisez les paramètres, modifiez sur le canevas et téléchargez. Votre abonnement Pack Essentiel inclut une génération illimitée de fiches sans limite de temps. Créez autant de fiches à imprimer gratuit que vos élèves en ont besoin.',
     ctaText: 'Commencer Maintenant',
     badgeText: 'Guide Étape par Étape',
@@ -332,7 +332,7 @@ Activez l'option niveaux de gris avant de télécharger pour économiser l'encre
 
   // Use Cases - FULL text from matching.md use case sections
   useCases: {
-    sectionTitle: 'Parfait pour Enseignants, Parents et Éducateurs - Fiches Maternelle et Exercices CP pour Tous les Besoins',
+    sectionTitle: 'Fiche Gratuite pour Enfants - Fiche pour Maternelle avec Imprimables Gratuits. Fiche pour Enfants',
     sectionDescription: 'Les fiches d\'association répondent à différents besoins éducatifs dans divers environnements d\'enseignement. Les enseignants de maternelle utilisent les fiches d\'association pour la reconnaissance des lettres et la pratique du graphisme. Les enseignants de CP construisent des fiches pour apprendre à lire et développer la lecture. Les parents pratiquant l\'instruction en famille créent des fiches alphabet personnalisées au rythme d\'apprentissage individuel. Les enseignants de FLE conçoivent des exercices maths avec support visuel du vocabulaire. Les enseignants spécialisés génèrent des fiches à imprimer gratuit différenciées pour différents niveaux.',
     badgeText: 'Cas d\'Utilisation',
     readMoreLabel: 'Lire la suite',
@@ -415,7 +415,7 @@ La licence commerciale incluse avec Pack Essentiel économise de l'argent par ra
 
   // FAQ Section - Selected FAQs from matching.md
   faq: {
-    sectionTitle: 'Questions Fréquentes sur les Fiches d\'Association - Fiches à Imprimer Gratuit et Graphisme Maternelle',
+    sectionTitle: 'FAQ - Fiche Gratuite pour Enfants et Fiche pour Maternelle. Fiche pour Enfants',
     sectionDescription: 'Les enseignants posent des questions courantes sur la création de fiches d\'association avec MatchUp Maker. Les questions couvrent les exigences d\'abonnement, les capacités d\'impression, les options de personnalisation et les licences commerciales. Découvrez la création de fiches alphabet, la personnalisation des exercices maths, la génération de fiches pour apprendre à lire et le téléchargement de fiches à imprimer gratuit.',
     showMoreText: 'Voir plus de questions',
     showLessText: 'Voir moins',
@@ -550,7 +550,7 @@ Combinez fiches pour apprendre à lire et activités de coloriage à imprimer po
 
   // Related Apps - From matching.md Section 7
   relatedApps: {
-    sectionTitle: 'Combinez les Fiches d\'Association avec d\'Autres Générateurs - Coloriage à Imprimer et Exercices Maths',
+    sectionTitle: 'Fiches Gratuites Combiner - Fiche pour Enfants et Imprimables Gratuits',
     sectionDescription: 'Les fiches d\'association se combinent parfaitement avec d\'autres fiches à imprimer pour créer des packs d\'apprentissage complets. Les enseignants utilisent l\'association aux côtés des exercices maths pour une instruction complète des nombres. Associez fiches alphabet et association pour des programmes complets de reconnaissance des lettres.',
     ctaTitle: 'Prêt à Créer des Fiches Professionnelles ?',
     ctaDescription: 'Rejoignez des milliers d\'enseignants qui créent des fiches maternelle de qualité. Création illimitée, licence commerciale incluse.',

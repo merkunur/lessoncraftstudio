@@ -89,8 +89,8 @@ Deze werkbladen generator biedt meer dan 3000 kindvriendelijke afbeeldingen. Kie
 
   // Sample Gallery - REAL file paths from samples/english/alphabet train/
   samples: {
-    sectionTitle: 'Gratis Werkbladen Voorbeelden - Alfabet Trein Werkblad voor Kinderen',
-    sectionDescription: 'Download gratis voorbeeldwerkbladen om onze professionele kwaliteit te ervaren',
+    sectionTitle: 'Gratis Werkblad voor Kinderen - Gratis Werkbladen en Gratis Printables',
+    sectionDescription: 'Download gratis printables - Gratis werkblad voor kinderen van professionele kwaliteit. Gratis werkbladen en werkblad voor kinderen perfect voor werkblad voor kleuters. Gratis werkblad voor kinderen en werkblad voor kinderen inclusief educatief materiaal. Gratis werkblad beschikbaar',
     downloadLabel: 'Gratis Voorbeeld Downloaden',
     worksheetLabel: 'Werkblad',
     answerKeyLabel: 'Antwoordblad',
@@ -134,7 +134,7 @@ Deze werkbladen generator biedt meer dan 3000 kindvriendelijke afbeeldingen. Kie
 
   // Features Grid - FULL text from alphabet-train.md feature sections
   features: {
-    sectionTitle: 'Functies van de Alfabet Trein Generator - Gratis Werkbladen voor Letters Leren',
+    sectionTitle: 'Gratis Werkbladen en Werkblad voor Kinderen - Gratis Printables en Werkblad voor Kleuters',
     sectionDescription: 'De Alfabet Trein werkbladen generator bevat alle functies die je nodig hebt. Van snelle creatie tot professionele export. Hieronder vind je een overzicht van de belangrijkste mogelijkheden. Elke functie is ontworpen om het maken van oefenbladen gratis en eenvoudig te maken.',
     highlightBadgeText: 'Uitgelicht',
     readMoreLabel: 'Lees meer',
@@ -207,7 +207,7 @@ Deze werkbladen generator biedt meer dan 3000 kindvriendelijke afbeeldingen. Kie
 
   // How-To Guide - FULL text from alphabet-train.md step sections
   howTo: {
-    sectionTitle: 'Hoe Maak Je Gratis Werkbladen - Stap voor Stap Letters Leren Werkblad voor Kinderen Maken',
+    sectionTitle: 'Gratis Werkblad voor Kinderen Maken - Werkblad voor Kleuters',
     sectionDescription: 'Het maken van professionele werkbladen kleuters kost slechts enkele minuten. Volg deze vijf eenvoudige stappen. Van thema kiezen tot downloaden als PDF. Binnen drie minuten heb je een compleet werkblad. Geen ervaring nodig. Iedereen kan het.',
     ctaText: 'Nu Starten',
     badgeText: 'Zo werkt het',
@@ -269,7 +269,7 @@ Download ook de antwoordsleutel apart. Deze toont welke letter bij welk plaatje 
 
   // Use Cases - FULL text from alphabet-train.md use case sections
   useCases: {
-    sectionTitle: 'Voor Wie Zijn Gratis Werkbladen - Leerkrachten en Ouders Werkblad voor Kinderen',
+    sectionTitle: 'Gratis Werkblad voor Kinderen - Werkblad voor Kleuters met Gratis Printables. Werkblad voor Kinderen',
     sectionDescription: 'De Alfabet Trein werkbladen generator is ontwikkeld voor iedereen die kinderen letters leert. Van kleuterleerkrachten tot thuisonderwijzende ouders. Hieronder vind je hoe verschillende gebruikers profiteren van deze tool. Ontdek hoe oefenbladen gratis je onderwijspraktijk verbeteren.',
     badgeText: 'Voor wie',
     readMoreLabel: 'Lees meer',
@@ -340,7 +340,7 @@ Maak complete alfabetpakketten voor verschillende thema's. Seizoenspakketten voo
 
   // FAQ Section - FULL FAQs from alphabet-train.md
   faq: {
-    sectionTitle: 'Veelgestelde Vragen over Gratis Werkbladen - Alfabet Trein Werkblad voor Kinderen FAQ',
+    sectionTitle: 'FAQ - Gratis Werkblad voor Kinderen en Werkblad voor Kleuters. Werkblad voor Kinderen',
     sectionDescription: 'Heb je vragen over de Alfabet Trein generator? Hier vind je antwoorden op de meest gestelde vragen. Van abonnementskosten tot technische mogelijkheden.',
     showMoreText: 'Meer vragen tonen',
     showLessText: 'Minder tonen',
@@ -445,7 +445,7 @@ Maak complete alfabetpakketten voor verschillende thema's. Seizoenspakketten voo
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Combineer met Andere Gratis Werkbladen - Werkblad voor Kinderen Pakketten',
+    sectionTitle: 'Gratis Werkbladen Combineren - Werkblad voor Kinderen en Gratis Printables',
     sectionDescription: 'Het Basispakket bevat 10 werkbladen generators die perfect samenwerken. Combineer de Alfabet Trein met andere tools voor complete leerpakketten. Van rekenen werkbladen tot kleurplaten. Van sommen tot 20 tot tafels oefenen. Hieronder ontdek je krachtige combinaties voor effectief onderwijs.',
     ctaTitle: 'Klaar om geweldige werkbladen te maken?',
     ctaDescription: 'Sluit je aan bij duizenden leerkrachten die professionele werkbladen maken. Onbeperkt genereren, commerciële licentie inbegrepen.',

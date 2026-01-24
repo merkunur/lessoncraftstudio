@@ -85,8 +85,8 @@ O gerador de criptograma oferece recursos exclusivos para educadores. Você esco
 
   // Sample Gallery
   samples: {
-    sectionTitle: 'Exemplos de Criptograma - Atividades Grátis para Educação Infantil e Crianças',
-    sectionDescription: 'Baixe exemplos gratuitos para ver nossa qualidade profissional',
+    sectionTitle: 'Atividade Grátis para Crianças - Atividades Grátis e Imprimíveis Grátis',
+    sectionDescription: 'Baixe imprimíveis grátis - Atividade grátis para crianças de qualidade profissional. Atividades grátis e atividade para crianças perfeitas para atividade para educação infantil. Atividade grátis para crianças e atividade para crianças incluem material educativo. Atividade grátis disponível',
     downloadLabel: 'Baixar Exemplo Grátis',
     worksheetLabel: 'Atividade',
     answerKeyLabel: 'Gabarito',
@@ -137,7 +137,7 @@ O gerador de criptograma oferece recursos exclusivos para educadores. Você esco
 
   // Features Grid
   features: {
-    sectionTitle: 'Recursos do Gerador - Atividades Grátis de Criptograma para Educação Infantil',
+    sectionTitle: 'Atividades Grátis e Atividade para Crianças - Imprimíveis Grátis e Atividade para Educação Infantil',
     sectionDescription: 'O gerador de criptograma oferece recursos profissionais para criar atividades para imprimir de alta qualidade. Cada funcionalidade foi desenvolvida pensando em professores da educação infantil e ensino fundamental. A interface intuitiva permite criar materiais pedagógicos em minutos.',
     highlightBadgeText: 'Recurso Principal',
     readMoreLabel: 'Leia mais',
@@ -210,7 +210,7 @@ O gerador de criptograma oferece recursos exclusivos para educadores. Você esco
 
   // How-To Guide
   howTo: {
-    sectionTitle: 'Como Criar Atividades Grátis de Criptograma em 5 Passos',
+    sectionTitle: 'Atividade Grátis para Crianças Criar - Atividade para Educação Infantil',
     sectionDescription: 'Criar criptogramas profissionais leva menos de 3 minutos. O processo é intuitivo e não exige conhecimentos técnicos. Professores da educação infantil e ensino fundamental dominam a ferramenta rapidamente.',
     ctaText: 'Comece Agora',
     badgeText: 'Como Funciona',
@@ -262,7 +262,7 @@ O gerador de criptograma oferece recursos exclusivos para educadores. Você esco
 
   // Use Cases
   useCases: {
-    sectionTitle: 'Quem Usa Atividades Grátis de Criptograma - Imprimíveis para Crianças',
+    sectionTitle: 'Atividade Grátis para Crianças - Atividade para Educação Infantil com Imprimíveis Grátis. Atividade para Crianças',
     sectionDescription: 'O gerador de criptograma atende diversos perfis de educadores no Brasil. Professores da educação infantil ao ensino fundamental encontram valor na ferramenta. Pais que educam em casa também aproveitam os recursos.',
     badgeText: 'Casos de Uso',
     readMoreLabel: 'Leia mais',
@@ -374,7 +374,7 @@ O gerador de criptograma oferece recursos exclusivos para educadores. Você esco
 
   // FAQ Section
   faq: {
-    sectionTitle: 'Perguntas Frequentes sobre Atividades Grátis de Criptograma para Crianças',
+    sectionTitle: 'FAQ - Atividade Grátis para Crianças e Atividade para Educação Infantil. Atividade para Crianças',
     sectionDescription: 'Respondemos as perguntas mais frequentes sobre o gerador de criptogramas e recursos disponíveis.',
     showMoreText: 'Ver mais perguntas',
     showLessText: 'Ver menos',

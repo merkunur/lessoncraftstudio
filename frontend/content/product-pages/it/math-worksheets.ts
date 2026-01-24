@@ -84,8 +84,8 @@ Perfetto per insegnanti della scuola dell'infanzia e della scuola primaria. Le s
 
   // Sample Gallery - Italian samples from /samples/italian/math/
   samples: {
-    sectionTitle: 'Esempi di Schede Gratuite Matematica - Scheda Gratuita per Bambini Download',
-    sectionDescription: 'Scarica esempi gratuiti per vedere la nostra qualità professionale',
+    sectionTitle: "Scheda Gratuita per Bambini - Schede Gratuite e Stampabili Gratuiti e Scheda per Bambini",
+    sectionDescription: "Scarica stampabili gratuiti - Scheda gratuita per bambini di qualità professionale. Schede gratuite e scheda per bambini perfette per scheda per scuola dell'infanzia. Scheda gratuita per bambini e scheda per bambini includono materiale educativo. Scheda gratuita e scheda per scuola dell'infanzia disponibile",
     downloadLabel: 'Scarica Esempio Gratuito',
     worksheetLabel: 'Scheda',
     answerKeyLabel: 'Soluzioni',
@@ -129,7 +129,7 @@ Perfetto per insegnanti della scuola dell'infanzia e della scuola primaria. Le s
 
   // Features Grid - FULL text from math-worksheet.md feature sections
   features: {
-    sectionTitle: 'Funzionalità Schede Gratuite Matematica - Stampabili Gratuiti per Scuola dell\'Infanzia',
+    sectionTitle: "Schede Gratuite e Scheda per Bambini - Stampabili Gratuiti e Scheda per Scuola dell'Infanzia"Infanzia',
     sectionDescription: 'Il nostro generatore schede matematica offre strumenti completi per creare schede didattiche professionali. Ogni funzionalità è progettata per insegnanti della scuola primaria e della scuola dell\'infanzia. Crea schede didattiche scuola primaria personalizzate in pochi minuti. Le schede matematica includono tutto dal pregrafismo base alle tabelline avanzate. Sette funzionalità essenziali rendono la creazione di schede didattiche semplice ed efficace.',
     highlightBadgeText: 'Funzionalità Chiave',
     readMoreLabel: 'Leggi di più',
@@ -223,7 +223,7 @@ Stampa schede didattiche su carta comune oppure cartoncino. La qualità 300 DPI 
 
   // How-To Guide Section - FULL text from math-worksheet.md "How to Create" section
   howTo: {
-    sectionTitle: 'Come Creare Schede Gratuite Matematica in 5 Passaggi - Stampabili Gratuiti per Bambini',
+    sectionTitle: "Scheda Gratuita per Bambini Creare - Scheda per Scuola dell'Infanzia",
     sectionDescription: 'Creare schede didattiche scuola primaria professionali richiede meno di 3 minuti. Il generatore schede matematica guida attraverso un processo semplice e intuitivo. Anche insegnanti senza esperienza tecnica creano schede didattiche perfette. Cinque passaggi chiari portano dalla configurazione iniziale al download finale.',
     ctaText: 'Inizia Ora',
     badgeText: 'Guida Passo-Passo',
@@ -295,7 +295,7 @@ Stampa schede matematica su stampante scuola o casa. Funziona perfettamente con 
 
   // Use Cases Section - FULL text from math-worksheet.md "Perfect For" section
   useCases: {
-    sectionTitle: 'Schede Gratuite per Insegnanti - Scheda Gratuita per Bambini Matematica',
+    sectionTitle: "Schede Gratuite per Insegnanti - Scheda Gratuita per Bambini Matematica",
     sectionDescription: 'Il generatore schede matematica serve diversi tipi di educatori. Insegnanti della scuola dell\'infanzia trovano materiali perfetti per bambini piccoli. Docenti della scuola primaria creano schede didattiche per tutti i livelli. Genitori homeschool sviluppano curriculum personalizzati. Insegnanti di sostegno differenziano istruzione facilmente.',
     badgeText: 'Chi Usa le Nostre Schede',
     readMoreLabel: 'Leggi di più',
@@ -378,7 +378,7 @@ Sviluppa libretti di disegni da colorare matematici tematici. Natale, Halloween,
 
   // FAQ Section - FULL text from math-worksheet.md FAQ section
   faq: {
-    sectionTitle: 'Domande su Schede Gratuite Matematica - Stampabili Gratuiti per Bambini',
+    sectionTitle: "FAQ - Scheda Gratuita per Bambini e Scheda per Scuola dell'Infanzia. Scheda per Bambini",
     sectionDescription: 'Risposte alle domande più comuni sul nostro generatore schede didattiche',
     showMoreText: 'Mostra altre domande',
     showLessText: 'Mostra meno domande',
@@ -507,7 +507,7 @@ Combina schede didattiche matematica con alfabeto per literacy integrata. Usa pr
 
   // Related Apps Section
   relatedApps: {
-    sectionTitle: 'Combina Schede Gratuite Matematica con Altri Stampabili Gratuiti',
+    sectionTitle: "Schede Gratuite Combinare - Scheda per Bambini e Stampabili Gratuiti",
     sectionDescription: 'Il generatore schede matematica è uno di 33 strumenti sulla piattaforma. Combina diverse schede didattiche per creare pacchetti apprendimento completi. Schede matematica più schede italiano classe prima per literacy integrata. Disegni da colorare più pregrafismo per sviluppo motorio. Tabelline più alfabeto per rinforzo multiplo. I pacchetti combinati offrono esperienze apprendimento ricche.',
     ctaTitle: 'Pronto a Creare Schede Straordinarie?',
     ctaDescription: 'Unisciti a migliaia di educatori che creano schede professionali. Generazione illimitata, licenza commerciale inclusa.',

@@ -15,7 +15,7 @@ export const wordGuessEnContent: ProductPageContent = {
   seo: {
     slug: 'word-guess-worksheets',
     appId: 'word-guess',
-    title: 'Free Word Guess Worksheets | Printable Spelling Puzzle Generator',
+    title: 'Free Worksheet for Kids - Word Guess Free Worksheets for Kindergarten | Free Printables',
     description: 'Create word guess worksheets for kindergarten. Generate spelling puzzles with picture clues. Download free printable PDF worksheets in 3 minutes.',
     keywords: 'word guess worksheets, spelling worksheets, vocabulary worksheets, kindergarten worksheets, first grade worksheets, free printable worksheets, phonics worksheets, sight words worksheets, alphabet worksheets, worksheet for kids',
     canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/word-guess-worksheets',
@@ -55,8 +55,8 @@ export const wordGuessEnContent: ProductPageContent = {
 
   // Hero Section - FULL text from word-guess.md paragraphs 1-5
   hero: {
-    title: 'Free Printable Word Guess Worksheets',
-    subtitle: 'Word Guess Generator for Kindergarten and First Grade',
+    title: 'Free Worksheet - Word Guess Worksheets for Kids',
+    subtitle: 'Free Worksheets for Kindergarten - Worksheet Generator for Kids',
     description: `Create professional word guess puzzles with our worksheet generator. Your Full Access subscription gives you unlimited worksheet creation with no per-worksheet fees. Generate custom printable worksheets perfect for kindergarten and first grade students. Download high-quality PDF worksheets in under 3 minutes.
 
 Word guess worksheets combine visual learning with letter recognition practice. Each puzzle shows a picture clue alongside empty letter boxes. Students identify the word from the image. Then they fill in the missing letters to spell the word correctly. This engaging format builds vocabulary and spelling skills simultaneously.
@@ -80,7 +80,7 @@ Generate 1-10 puzzles per page with automatic layout optimization. Add name and 
 
   // Sample Gallery - REAL file paths from samples/english/word-guess/
   samples: {
-    sectionTitle: 'Word Guess Worksheet Samples',
+    sectionTitle: 'Free Worksheet Samples - Worksheet for Kindergarten Free Printables',
     downloadLabel: 'Download Free Sample',
     worksheetLabel: 'Worksheet',
     answerKeyLabel: 'Answer Key',
@@ -125,8 +125,8 @@ Generate 1-10 puzzles per page with automatic layout optimization. Add name and 
 
   // Features Grid - FULL text from word-guess.md feature sections
   features: {
-    sectionTitle: 'Word Guess Features - Everything You Need for Kindergarten Worksheets and First Grade Worksheets',
-    sectionDescription: 'Our word guess worksheet generator includes seven powerful features for creating free printable worksheets. Each feature works seamlessly together for professional results. Teachers save hours creating phonics worksheets and sight words worksheets. Students engage with alphabet worksheets through visual learning. Parents create custom math worksheets with vocabulary terms. The comprehensive toolset supports all worksheet types from kindergarten worksheets through first grade worksheets levels.',
+    sectionTitle: 'Free Worksheet for Kids Features - Free Worksheets and Free Printables for Kindergarten',
+    sectionDescription: 'Our word guess worksheet generator includes seven powerful features for creating free worksheet for kids. Each feature works seamlessly together for professional results. Teachers save hours creating free worksheets and free printables. Students engage with free worksheet for kindergarten through visual learning. Parents create custom worksheet for kids with vocabulary terms. The comprehensive toolset supports all worksheet types from worksheet for kindergarten through first grade levels.',
     highlightBadgeText: 'Key Feature',
     items: [
       {
@@ -211,8 +211,8 @@ Generate separate answer keys automatically. Students receive the puzzle workshe
 
   // How-To Guide - FULL text from word-guess.md step sections
   howTo: {
-    sectionTitle: 'How to Create Sight Words Worksheets and Phonics Worksheets in 5 Easy Steps',
-    sectionDescription: 'Create professional word guess worksheets in under 3 minutes. The simple five-step process requires no design experience. Teachers generate kindergarten worksheets during planning periods. Parents create alphabet worksheets at home. The streamlined workflow produces free printable worksheets faster than traditional methods. Follow these steps to build phonics worksheets and sight words worksheets for your students.',
+    sectionTitle: 'How to Create Free Worksheet for Kids in 5 Steps - Worksheet for Kindergarten',
+    sectionDescription: 'Create professional free worksheet for kids in under 3 minutes. The simple five-step process requires no design experience. Teachers generate worksheet for kindergarten during planning periods. Parents create free worksheets at home. The streamlined workflow produces free printables faster than traditional methods. Follow these steps to build free worksheet for kindergarten and worksheet for kids for your students.',
     ctaText: 'Start Creating Now',
     steps: [
       {
@@ -295,8 +295,8 @@ Save completed worksheets to your device for repeated use. Print unlimited copie
 
   // Use Cases - FULL text from word-guess.md use case sections
   useCases: {
-    sectionTitle: 'Perfect for Teachers, Parents, and Educators',
-    sectionDescription: 'Word guess worksheets serve diverse educational settings and teaching styles. Kindergarten teachers create alphabet worksheets for letter recognition practice. First grade teachers generate sight words worksheets targeting high-frequency vocabulary. Homeschool parents build phonics worksheets matching their curriculum scope. ESL instructors develop free printable worksheets in multiple languages. Special education teachers customize tracing worksheets for individual learning needs. Teacher entrepreneurs sell addition worksheets and math worksheets as premium products.',
+    sectionTitle: 'Free Worksheets for Kindergarten - Free Printables and Worksheet for Kids',
+    sectionDescription: 'Word guess free worksheets serve diverse educational settings and teaching styles. Kindergarten teachers create free worksheet for kids for letter recognition practice. First grade teachers generate worksheet for kindergarten targeting high-frequency vocabulary. Homeschool parents build free worksheets matching their curriculum scope. ESL instructors develop free printables in multiple languages. Special education teachers customize worksheet for kids for individual learning needs. Teacher entrepreneurs sell free worksheet for kindergarten as premium products.',
     items: [
       {
         id: '1',
@@ -387,7 +387,7 @@ Build sustainable passive income through worksheet sales. Teachers report earnin
 
   // FAQ Section - Selected FAQs from word-guess.md
   faq: {
-    sectionTitle: 'Frequently Asked Questions',
+    sectionTitle: 'FAQ - Free Worksheet for Kids and Free Worksheets for Kindergarten',
     sectionDescription: 'Everything you need to know about our word guess worksheet generator.',
     showMoreText: 'Show more questions',
     showLessText: 'Show less',
@@ -616,7 +616,7 @@ Combine seasonal themes with curriculum vocabulary for integrated units. Create 
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Combine with Other Worksheet Generators',
+    sectionTitle: 'More Free Worksheets for Kids - Free Printables and Worksheet for Kindergarten',
     sectionDescription: 'Create complete learning packets by combining word guess worksheets with these complementary generators.',
     ctaTitle: 'Ready to Create Amazing Worksheets?',
     ctaDescription: 'Join thousands of educators creating professional worksheets. Unlimited generation, commercial license included.',

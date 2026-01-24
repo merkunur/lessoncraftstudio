@@ -77,8 +77,8 @@ Generer ubegrenset antall ordgåter uten kostnad per arbeidsark. Bruk for matema
 
   // Sample Gallery - REAL file paths from samples/norwegian/wordsearch/
   samples: {
-    sectionTitle: 'Gratis Arbeidsark Ordsoek Eksempler',
-    sectionDescription: 'Last ned gratis utskrifter av ordsoek arbeidsark for barn. Se profesjonell kvalitet med arbeidsark for 1. trinn.',
+    sectionTitle: 'Gratis Arbeidsark for Barn - Gratis Arbeidsark og Gratis Utskrifter',
+    sectionDescription: 'Last ned gratis utskrifter - Gratis arbeidsark for barn av profesjonell kvalitet. Gratis arbeidsark og arbeidsark for barn perfekt for arbeidsark for 1. trinn. Gratis arbeidsark for barn og arbeidsark for barn inkluderer gratis utskrifter undervisningsmateriell. Gratis arbeidsark og arbeidsark for 1. trinn tilgjengelig',
     badgeText: 'Gratis Eksempler',
     downloadLabel: 'Last ned Gratis Eksempel',
     downloadingLabel: 'Laster ned...',
@@ -122,7 +122,7 @@ Generer ubegrenset antall ordgåter uten kostnad per arbeidsark. Bruk for matema
 
   // Features Grid - FULL text from wordsearch.md feature sections
   features: {
-    sectionTitle: 'Funksjoner for Arbeidsark Gratis og Lesetrening',
+    sectionTitle: 'Gratis Arbeidsark og Arbeidsark for Barn - Gratis Utskrifter og Arbeidsark for 1. Trinn',
     sectionDescription: 'Ordgåte generatoren tilbyr alt du trenger for å lage engasjerende arbeidsark gratis. Verktøyet kombinerer enkelhet med profesjonelle resultater. Perfekt for lærere som trenger matematikk oppgaver og leseforståelse aktiviteter raskt. Lag oppgavehefter barn på minutter i stedet for timer med tradisjonelle metoder.',
     highlightBadgeText: 'Viktig Funksjon',
     readMoreLabel: 'Les mer',
@@ -369,7 +369,7 @@ Print-on-demand lisensen åpner muligheter. Selg på Etsy som arbeidsark til uts
 
   // FAQ Section - Selected FAQs from wordsearch.md
   faq: {
-    sectionTitle: 'Ofte Stilte Sporsmal om Gratis Arbeidsark Ordsoek',
+    sectionTitle: 'FAQ - Gratis Arbeidsark for Barn og Arbeidsark for 1. Trinn. Arbeidsark for Barn',
     sectionDescription: 'Her er svar på de vanligste spørsmålene om ordgåte generatoren. Lær om gratis muligheter, abonnementer og hvordan du bruker oppgavehefter barn i undervisningen din.',
     showMoreText: 'Vis flere spørsmål',
     showLessText: 'Vis færre',
@@ -474,7 +474,7 @@ Print-on-demand lisensen åpner muligheter. Selg på Etsy som arbeidsark til uts
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Kombiner Ordsoek med Andre Gratis Arbeidsark Generatorer',
+    sectionTitle: 'Gratis Arbeidsark Kombinere - Arbeidsark for Barn og Gratis Utskrifter',
     sectionDescription: 'Lag komplette læringspakker ved å kombinere ordgåter med disse komplementære generatorene.',
     ctaTitle: 'Klar til å Lage Fantastiske Arbeidsark?',
     ctaDescription: 'Bli med tusenvis av pedagoger som lager profesjonelle arbeidsark. Ubegrenset oppretting, kommersiell lisens inkludert.',

@@ -79,8 +79,8 @@ Perfetto per insegnanti della scuola primaria, genitori homeschool ed educatori 
 
   // Sample Gallery - REAL file paths from samples/english/word scramble/
   samples: {
-    sectionTitle: 'Esempi Scheda Gratuita Anagrammi - Stampabili Gratuiti Download',
-    sectionDescription: 'Scarica esempi gratuiti per vedere la nostra qualità professionale',
+    sectionTitle: "Scheda Gratuita per Bambini - Schede Gratuite e Stampabili Gratuiti e Scheda per Bambini",
+    sectionDescription: "Scarica stampabili gratuiti - Scheda gratuita per bambini di qualità professionale. Schede gratuite e scheda per bambini perfette per scheda per scuola dell'infanzia. Scheda gratuita per bambini e scheda per bambini includono materiale educativo. Scheda gratuita e scheda per scuola dell'infanzia disponibile",
     downloadLabel: 'Scarica Esempio Gratuito',
     worksheetLabel: 'Scheda',
     answerKeyLabel: 'Soluzioni',
@@ -117,7 +117,7 @@ Perfetto per insegnanti della scuola primaria, genitori homeschool ed educatori 
 
   // Features Grid - FULL text from word-scramble.md feature sections
   features: {
-    sectionTitle: 'Funzionalità - Schede Gratuite e Stampabili Gratuiti per Bambini',
+    sectionTitle: "Schede Gratuite e Scheda per Bambini - Stampabili Gratuiti e Scheda per Scuola dell'Infanzia",
     sectionDescription: 'Il nostro generatore di schede didattiche anagrammi offre funzionalità professionali progettate per insegnanti della scuola primaria e scuola dell\'infanzia. Crea schede didattiche personalizzate in pochi minuti senza competenze di design. Ogni funzione è stata sviluppata per rendere la creazione di schede facile e veloce. L\'abbonamento Pacchetto Essenziale ti dà accesso completo a tutte le funzionalità senza limiti di utilizzo.',
     highlightBadgeText: 'Funzionalità Chiave',
     readMoreLabel: 'Leggi di più',
@@ -197,7 +197,7 @@ Le schede stampano perfettamente su stampanti domestiche, stampanti scolastiche 
 
   // How-To Guide Section - FULL text from word-scramble.md
   howTo: {
-    sectionTitle: 'Come Creare Schede Gratuite per Bambini in 5 Passi - Stampabili Gratuiti',
+    sectionTitle: "Scheda Gratuita per Bambini Creare - Scheda per Scuola dell'Infanzia",
     sectionDescription: 'Creare schede didattiche anagrammi professionali richiede meno di 3 minuti dall\'inizio al download. Questo processo guidato in 5 passaggi rende la creazione di schede facile anche per chi non ha esperienza di design. Ogni passaggio è intuitivo e veloce. Non serve formazione o tutorial complicati. Segui questi 5 passaggi per creare schede didattiche scuola primaria perfette per la tua classe. Il generatore fa tutto il lavoro pesante mentre tu controlli il contenuto e lo stile.',
     ctaText: 'Inizia Ora',
     badgeText: 'Guida Passo-Passo',
@@ -269,7 +269,7 @@ Abilita l'opzione "Scala di grigi" nel menu scarica per stampare in bianco e ner
 
   // Use Cases Section - FULL text from word-scramble.md
   useCases: {
-    sectionTitle: 'Scheda Gratuita per Bambini - Perfetta per Insegnanti e Genitori',
+    sectionTitle: "Scheda Gratuita per Bambini - Scheda per Scuola dell'Infanzia con Stampabili Gratuiti. Scheda per Bambini",
     sectionDescription: 'Il generatore di schede didattiche anagrammi serve educatori in diversi contesti di insegnamento. Insegnanti della scuola dell\'infanzia, scuola primaria, genitori homeschool e insegnanti di lingue straniere trovano valore in questo strumento. Ogni gruppo ha esigenze specifiche e il generatore si adatta perfettamente. Le schede didattiche personalizzabili funzionano per tutte le età e livelli di abilità. Scopri come educatori diversi utilizzano il generatore per risparmiare tempo e migliorare l\'apprendimento.',
     badgeText: 'Chi Usa le Nostre Schede',
     readMoreLabel: 'Leggi di più',
@@ -352,7 +352,7 @@ La qualità 300 DPI garantisce che i tuoi prodotti sembrino professionali. I cli
 
   // FAQ Section - FULL text from word-scramble.md FAQ section
   faq: {
-    sectionTitle: 'FAQ Schede Gratuite Anagrammi - Stampabili Gratuiti per Bambini',
+    sectionTitle: "FAQ - Scheda Gratuita per Bambini e Scheda per Scuola dell'Infanzia. Scheda per Bambini",
     sectionDescription: 'Risposte alle domande più comuni sul nostro generatore di schede anagrammi',
     showMoreText: 'Mostra altre domande',
     showLessText: 'Mostra meno domande',
@@ -481,7 +481,7 @@ Carica immagini personalizzate per argomenti molto specifici non coperti dalla l
 
   // Related Apps Section
   relatedApps: {
-    sectionTitle: 'Combina Schede Gratuite con Altri Stampabili Gratuiti per Bambini',
+    sectionTitle: "Schede Gratuite Combinare - Scheda per Bambini e Stampabili Gratuiti",
     sectionDescription: 'Il generatore di schede anagrammi funziona perfettamente combinato con altri generatori di schede didattiche sulla piattaforma. La piattaforma offre 33 strumenti gratuiti diversi per creare schede didattiche scuola primaria complete. Combina anagrammi con schede matematica, tabelline, pregrafismo, alfabeto e disegni da colorare per pacchetti di apprendimento tematici coordinati.',
     ctaTitle: 'Pronto a Creare Schede Straordinarie?',
     ctaDescription: 'Unisciti a migliaia di educatori che creano schede professionali. Generazione illimitata, licenza commerciale inclusa.',

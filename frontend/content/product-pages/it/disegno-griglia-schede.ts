@@ -83,8 +83,8 @@ Perfetto per insegnanti della scuola dell'infanzia che hanno bisogno di material
 
   // Sample Gallery
   samples: {
-    sectionTitle: 'Esempi Schede Gratuite Disegni con Griglia - Scheda Gratuita per Bambini',
-    sectionDescription: 'Scarica esempi gratuiti per vedere la nostra qualità professionale',
+    sectionTitle: "Scheda Gratuita per Bambini - Schede Gratuite e Stampabili Gratuiti e Scheda per Bambini",
+    sectionDescription: "Scarica stampabili gratuiti - Scheda gratuita per bambini di qualità professionale. Schede gratuite e scheda per bambini perfette per scheda per scuola dell'infanzia. Scheda gratuita per bambini e scheda per bambini includono materiale educativo. Scheda gratuita e scheda per scuola dell'infanzia disponibile",
     downloadLabel: 'Scarica Esempio Gratuito',
     worksheetLabel: 'Scheda',
     answerKeyLabel: 'Soluzioni',
@@ -135,7 +135,7 @@ Perfetto per insegnanti della scuola dell'infanzia che hanno bisogno di material
 
   // Features Grid
   features: {
-    sectionTitle: 'Funzionalità Generatore Schede Gratuite - Scheda Gratuita per Bambini',
+    sectionTitle: "Schede Gratuite e Scheda per Bambini - Stampabili Gratuiti e Scheda per Scuola dell'Infanzia",
     sectionDescription: 'Il nostro generatore di schede didattiche scuola primaria offre funzionalità complete per insegnanti. Crea disegni da colorare personalizzati con controllo totale su ogni elemento. Le schede didattiche includono griglie modificabili per tutti i livelli. Perfetto per scuola dell\'infanzia e classe prima.',
     highlightBadgeText: 'Funzionalità Chiave',
     readMoreLabel: 'Leggi di più',
@@ -229,7 +229,7 @@ Funzioni undo e redo illimitate durante l'editing. Zoom per modifiche precise. O
 
   // How-To Guide Section
   howTo: {
-    sectionTitle: 'Come Creare Schede Gratuite Disegni con Griglia in 5 Passaggi',
+    sectionTitle: "Scheda Gratuita per Bambini Creare - Scheda per Scuola dell'Infanzia",
     sectionDescription: 'Creare schede didattiche professionali richiede meno di tre minuti. Segui questi cinque passaggi semplici. Genera disegni da colorare, pregrafismo, schede matematica e alfabeto. Non serve esperienza di design grafico.',
     ctaText: 'Inizia Ora',
     badgeText: 'Guida Passo-Passo',
@@ -301,7 +301,7 @@ Scegli scala di grigi per risparmiare inchiostro. Pregrafismo in bianco e nero s
 
   // Use Cases Section
   useCases: {
-    sectionTitle: 'Perfetto per Insegnanti - Schede Gratuite per Scuola dell\'Infanzia',
+    sectionTitle: "Scheda Gratuita per Bambini - Scheda per Scuola dell'Infanzia con Stampabili Gratuiti. Scheda per Bambini",
     sectionDescription: 'Le schede didattiche con griglia servono insegnanti, genitori ed educatori in tutta Italia. Dalla scuola dell\'infanzia alla classe terza, tutti trovano valore in questo generatore. Crea pregrafismo personalizzato per ogni livello.',
     badgeText: 'Chi Usa le Nostre Schede',
     readMoreLabel: 'Leggi di più',
@@ -384,7 +384,7 @@ La qualità 300 DPI è cruciale per vendite commerciali. I clienti si aspettano 
 
   // FAQ Section
   faq: {
-    sectionTitle: 'Domande Frequenti Schede Gratuite Disegni con Griglia',
+    sectionTitle: "FAQ - Scheda Gratuita per Bambini e Scheda per Scuola dell'Infanzia. Scheda per Bambini",
     sectionDescription: 'Risposte alle domande più comuni sul nostro generatore di schede didattiche con griglia',
     showMoreText: 'Mostra altre domande',
     showLessText: 'Mostra meno domande',
@@ -536,7 +536,7 @@ Usa nomi file descrittivi. Carica su Google Drive o Dropbox per accesso ovunque.
 
   // Related Apps Section
   relatedApps: {
-    sectionTitle: 'Combina con Altri Generatori - Schede Gratuite per Bambini',
+    sectionTitle: "Schede Gratuite Combinare - Scheda per Bambini e Stampabili Gratuiti",
     sectionDescription: 'L\'abbonamento Accesso Completo include 33 generatori di schede didattiche diversi. Le schede di disegno con griglia funzionano magnificamente con altri strumenti. Combina pregrafismo con tracciamento lettere. Usa disegni da colorare insieme a schede matematica.',
     ctaTitle: 'Pronto a Creare Schede Didattiche Straordinarie?',
     ctaDescription: 'Unisciti a migliaia di educatori che creano schede professionali. Generazione illimitata, licenza commerciale inclusa.',

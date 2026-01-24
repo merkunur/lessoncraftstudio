@@ -79,8 +79,8 @@ Palavras cruzadas com imagens são perfeitas para crianças em fase de alfabetiz
 
   // Sample Gallery
   samples: {
-    sectionTitle: 'Exemplos de Atividades Grátis - Palavras Cruzadas para Imprimir',
-    sectionDescription: 'Baixe exemplos gratuitos para ver nossa qualidade profissional',
+    sectionTitle: 'Atividade Grátis para Crianças - Atividades Grátis e Imprimíveis Grátis',
+    sectionDescription: 'Baixe imprimíveis grátis - Atividade grátis para crianças de qualidade profissional. Atividades grátis e atividade para crianças perfeitas para atividade para educação infantil. Atividade grátis para crianças e atividade para crianças incluem material educativo. Atividade grátis disponível',
     downloadLabel: 'Baixar Exemplo Grátis',
     worksheetLabel: 'Atividade',
     answerKeyLabel: 'Gabarito',
@@ -124,7 +124,7 @@ Palavras cruzadas com imagens são perfeitas para crianças em fase de alfabetiz
 
   // Features Grid
   features: {
-    sectionTitle: 'Recursos do Gerador de Atividades Grátis de Palavras Cruzadas',
+    sectionTitle: 'Atividades Grátis e Atividade para Crianças - Imprimíveis Grátis e Atividade para Educação Infantil',
     sectionDescription: 'O gerador de palavras cruzadas oferece recursos completos para criar atividades educativas. Professores da educação infantil e ensino fundamental encontram tudo que precisam. Da seleção de imagens até o download final, cada etapa foi pensada para facilitar seu trabalho.',
     highlightBadgeText: 'Recurso Principal',
     readMoreLabel: 'Leia mais',
@@ -197,7 +197,7 @@ Palavras cruzadas com imagens são perfeitas para crianças em fase de alfabetiz
 
   // How-To Guide
   howTo: {
-    sectionTitle: 'Como Criar Atividades Grátis de Palavras Cruzadas em 5 Passos',
+    sectionTitle: 'Atividade Grátis para Crianças Criar - Atividade para Educação Infantil',
     sectionDescription: 'Criar palavras cruzadas educativas leva menos de 3 minutos. Não precisa de habilidades técnicas ou conhecimento de design. O gerador faz todo o trabalho pesado automaticamente.',
     ctaText: 'Comece Agora',
     badgeText: 'Como Funciona',
@@ -249,7 +249,7 @@ Palavras cruzadas com imagens são perfeitas para crianças em fase de alfabetiz
 
   // Use Cases
   useCases: {
-    sectionTitle: 'Quem Usa Atividades Grátis de Palavras Cruzadas para Imprimir',
+    sectionTitle: 'Atividade Grátis para Crianças - Atividade para Educação Infantil com Imprimíveis Grátis. Atividade para Crianças',
     sectionDescription: 'Professores, pais e educadores encontram no gerador de palavras cruzadas uma ferramenta versátil. Cada grupo tem necessidades específicas que o aplicativo atende perfeitamente.',
     badgeText: 'Casos de Uso',
     readMoreLabel: 'Leia mais',
@@ -361,7 +361,7 @@ Palavras cruzadas com imagens são perfeitas para crianças em fase de alfabetiz
 
   // FAQ Section
   faq: {
-    sectionTitle: 'Perguntas Frequentes sobre Atividades Grátis de Palavras Cruzadas',
+    sectionTitle: 'FAQ - Atividade Grátis para Crianças e Atividade para Educação Infantil. Atividade para Crianças',
     sectionDescription: 'Respondemos as perguntas mais frequentes sobre o gerador de palavras cruzadas e recursos disponíveis.',
     showMoreText: 'Ver mais perguntas',
     showLessText: 'Ver menos',

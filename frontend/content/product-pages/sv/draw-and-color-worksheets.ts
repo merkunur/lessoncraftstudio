@@ -85,8 +85,8 @@ Full Tillgång-prenumerationen kostar 240 dollar per år. Du får tillgång till
 
   // Sample Gallery - REAL file paths from samples/swedish/draw-and-color/
   samples: {
-    sectionTitle: 'Rutnätsritning Exempel',
-    sectionDescription: 'Ladda ner gratis utskrifter och arbetsblad för barn för att se vår professionella kvalitet. Perfekta arbetsblad för förskoleklass.',
+    sectionTitle: 'Gratis Arbetsblad för Barn - Gratis Arbetsblad och Gratis Utskrifter',
+    sectionDescription: 'Ladda ner gratis utskrifter - Gratis arbetsblad för barn av professionell kvalitet. Gratis arbetsblad och arbetsblad för barn perfekt för arbetsblad för förskoleklass. Gratis arbetsblad för barn och arbetsblad för barn inkluderar utbildningsmaterial. Gratis arbetsblad och gratis utskrifter tillgänglig',
     downloadLabel: 'Ladda Ner Gratis Exempel',
     worksheetLabel: 'Arbetsblad',
     answerKeyLabel: 'Facit',
@@ -137,7 +137,7 @@ Full Tillgång-prenumerationen kostar 240 dollar per år. Du får tillgång till
 
   // Features Grid - FULL text from draw-and-color.md feature sections
   features: {
-    sectionTitle: 'Funktioner för Målarbilder Barn och Arbetsblad Gratis - Allt Du Behöver för Förskoleklass Material',
+    sectionTitle: 'Gratis Arbetsblad och Arbetsblad för Barn - Gratis Utskrifter och Arbetsblad för Förskoleklass',
     sectionDescription: 'Vår målarbilder barn-generator inkluderar alla funktioner lärare behöver för att skapa arbetsblad för förskoleklass. Verktyget kombinerar enkel användning med professionella resultat. Du får tillgång till över 3000 bilder för arbetsblad för barn. Full redigerbarhet på arbetsytan ger dig total kontroll. Ladda upp egna bilder och skapa gratis utskrifter. Full Tillgång-prenumerationen kostar 240 dollar per år eller 25 dollar per månad. Du får alla 33 arbetsbladsverktyg inklusive målarbilder barn-generatorn.',
     highlightBadgeText: 'Nyckelfunktion',
     readMoreLabel: 'Läs mer',
@@ -313,7 +313,7 @@ Skapa obegränsade varianter för differentierad undervisning. Generera enkel ve
 
   // Use Cases - FULL text from draw-and-color.md use case sections
   useCases: {
-    sectionTitle: 'Perfekt för Lärare, Föräldrar och Pedagoger - Målarbilder Barn och Arbetsblad Gratis för Varje Behov',
+    sectionTitle: 'Gratis Arbetsblad för Barn - Arbetsblad för Förskoleklass med Gratis Utskrifter. Arbetsblad för Barn',
     sectionDescription: 'Målarbilder barn med rutnätsteknik passar alla undervisningssituationer. Förskoleklass-lärare använder dem för finmotorik övningar dagligen. Lågstadielärare integrerar matematik arbetsblad-koncept genom rutnätskoordinater. Hemmaskolelärare skapar arbetsblad gratis för flexibel inlärning. Specialpedagoger anpassar svårighetsgrad för individuella behov. Lärare som säljer material tjänar pengar på förskoleklass material.',
     badgeText: 'Vem Det Är För',
     readMoreLabel: 'Läs mer',
@@ -408,7 +408,7 @@ Kombinera flera svårighetsgrader i samma paket. "25 Djur-målarbilder Barn - F�
 
   // FAQ Section - Selected FAQs from draw-and-color.md
   faq: {
-    sectionTitle: 'Vanliga Frågor om Målarbilder Barn och Arbetsblad Gratis för Förskoleklass Material',
+    sectionTitle: 'FAQ - Gratis Arbetsblad för Barn och Arbetsblad för Förskoleklass med Gratis Utskrifter. Arbetsblad för Barn',
     sectionDescription: 'Lärare och föräldrar har många frågor om målarbilder barn-verktyget. Denna sektion svarar på de mest frekventa frågorna. Du lär dig om prenumerationskostnader och licensrättigheter. Du förstår kompatibilitet och användningsområden. Alla svar baseras på faktiska funktioner i verktyget för förskoleklass material.',
     showMoreText: 'Visa fler frågor',
     showLessText: 'Visa färre',

@@ -54,8 +54,8 @@ Hver kryptogram-oppgave inkluderer to versjoner. Oppgavearket viser bildekodene 
 
   // Sample Gallery - REAL file paths from samples/english/cryptogram/
   samples: {
-    sectionTitle: 'Kryptogram Arbeidsark Eksempler',
-    sectionDescription: 'Last ned gratis eksempler på kryptogram arbeidsark for å se vår profesjonelle kvalitet',
+    sectionTitle: 'Gratis Arbeidsark for Barn - Gratis Arbeidsark og Gratis Utskrifter',
+    sectionDescription: 'Last ned gratis utskrifter - Gratis arbeidsark for barn av profesjonell kvalitet. Gratis arbeidsark og arbeidsark for barn perfekt for arbeidsark for 1. trinn. Gratis arbeidsark for barn og arbeidsark for barn inkluderer gratis utskrifter undervisningsmateriell. Gratis arbeidsark og arbeidsark for 1. trinn tilgjengelig',
     badgeText: 'Gratis Eksempler',
     downloadLabel: 'Last ned Gratis Eksempel',
     downloadingLabel: 'Laster ned...',
@@ -85,7 +85,7 @@ Hver kryptogram-oppgave inkluderer to versjoner. Oppgavearket viser bildekodene 
 
   // Features Grid - FULL text from cryptogram.md feature sections
   features: {
-    sectionTitle: 'Kryptogram Generator Funksjoner - Alt du Trenger til Arbeidsark Gratis og Gratis Skoleopgaver',
+    sectionTitle: 'Gratis Arbeidsark og Arbeidsark for Barn - Gratis Utskrifter og Arbeidsark for 1. Trinn',
     sectionDescription: 'Kryptogram-generatoren vår gir deg alle verktøyene du trenger for profesjonelle oppgavehefter barn elsker. Full Tilgang-abonnementet inkluderer sju kraftige funksjoner. Hver funksjon er designet for å spare tid og lage engasjerende arbeidsark gratis. Perfekt for lærere i småskoletrinnet som trenger varierte gratis skoleopgaver.',
     highlightBadgeText: 'Viktig Funksjon',
     readMoreLabel: 'Les mer',
@@ -179,7 +179,7 @@ Last ned som PDF eller JPEG. PDF-filer bevarer vektorgrafikk for perfekt utskrif
 
   // How-To Guide - FULL text from cryptogram.md step sections
   howTo: {
-    sectionTitle: 'Hvordan Lage Kryptogram Arbeidsark Gratis på 5 Enkle Trinn - Oppgavehefter Barn Klare på Under 3 Minutter',
+    sectionTitle: 'Gratis Arbeidsark for Barn Lage - Arbeidsark for 1. Trinn',
     sectionDescription: 'Lag profesjonelle kryptogram-oppgaver raskt og enkelt. Hele prosessen tar under 3 minutter fra start til ferdig. Ingen designferdigheter nødvendig. Følg disse fem enkle trinnene for å lage arbeidsark gratis elevene dine vil elske. Perfekt for lærere i småskoletrinnet som trenger effektive gratis skoleopgaver.',
     ctaText: 'Start Nå',
     badgeText: 'Slik Fungerer Det',
@@ -265,7 +265,7 @@ For lærerentreprenører eksporterer du i PDF-format for salg. 300 DPI-kvalitet 
 
   // Use Cases - FULL text from cryptogram.md use case sections
   useCases: {
-    sectionTitle: 'Perfekt for Lærere, Foreldre og Pedagoger - Kryptogram Arbeidsark Gratis til Alle Behov',
+    sectionTitle: 'Gratis Arbeidsark for Barn - Arbeidsark for 1. Trinn med Gratis Utskrifter. Arbeidsark for Barn',
     sectionDescription: 'Kryptogram-generatoren passer mange forskjellige undervisningssituasjoner. Barnehagelærere bruker den for bokstavgjenkjenning. Lærere i småskoletrinnet bruker den for lesetrening. Hjemmeundervisningsforeldre bruker den for fleksibel læring. Full Tilgang-abonnementet gir alle verktøyene du trenger for gratis skoleopgaver.',
     badgeText: 'Hvem Er Det For',
     readMoreLabel: 'Les mer',
@@ -360,7 +360,7 @@ Mange lærerentreprenører tjener $500-$5000 månedlig med oppgavehefter barn el
 
   // FAQ Section - From cryptogram.md
   faq: {
-    sectionTitle: 'Ofte Stilte Spørsmål om Kryptogram Arbeidsark Gratis og Oppgavehefter Barn',
+    sectionTitle: 'FAQ - Gratis Arbeidsark for Barn og Arbeidsark for 1. Trinn. Arbeidsark for Barn',
     sectionDescription: 'Lærere stiller ofte de samme spørsmålene om kryptogram-generatoren. Her er svar på de 12 vanligste spørsmålene. Disse svarene dekker prising, funksjonalitet, bruksområder og tekniske detaljer. Les gjennom før du starter med å lage dine første arbeidsark gratis.',
     showMoreText: 'Vis flere spørsmål',
     showLessText: 'Vis færre',
@@ -455,7 +455,7 @@ Mange lærerentreprenører tjener $500-$5000 månedlig med oppgavehefter barn el
 
   // Related Apps - From cryptogram.md "Kombiner" section
   relatedApps: {
-    sectionTitle: 'Kombiner Kryptogram med Matematikk Oppgaver, Fargeleggingsbilder Barn og Gangetabellen - Komplette Gratis Skoleopgaver',
+    sectionTitle: 'Gratis Arbeidsark Kombinere - Arbeidsark for Barn og Gratis Utskrifter',
     sectionDescription: 'Full Tilgang-abonnementet gir deg 33 forskjellige generatorer. Kombinér kryptogrammer med matematikk oppgaver for tverrfaglige pakker. Par dem med fargeleggingsbilder barn for fullstendige sentre. Lag læringspakker som dekker bokstaver lære skrive, gangetabellen og finmotorikk øvelser samtidig. Disse kombinasjonene skaper omfattende gratis skoleopgaver.',
     ctaTitle: 'Klar til å Lage Fantastiske Arbeidsark?',
     ctaDescription: 'Bli med tusenvis av pedagoger som lager profesjonelle arbeidsark. Ubegrenset oppretting, kommersiell lisens inkludert.',

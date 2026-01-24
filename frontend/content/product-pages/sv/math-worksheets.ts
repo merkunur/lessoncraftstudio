@@ -67,8 +67,8 @@ Grundpaketsprenumerationen kostar 144 dollar per år eller 15 dollar per månad.
 
   // Sample Gallery - REAL file paths from samples/english/math worksheet/
   samples: {
-    sectionTitle: 'Gratis Arbetsblad för Barn - Matematik Arbetsblad Exempel',
-    sectionDescription: 'Ladda ner gratis exempelarbetsblad för att se vår professionella kvalitet',
+    sectionTitle: 'Gratis Arbetsblad för Barn - Gratis Arbetsblad och Gratis Utskrifter',
+    sectionDescription: 'Ladda ner gratis utskrifter - Gratis arbetsblad för barn av professionell kvalitet. Gratis arbetsblad och arbetsblad för barn perfekt för arbetsblad för förskoleklass. Gratis arbetsblad för barn och arbetsblad för barn inkluderar utbildningsmaterial. Gratis arbetsblad och gratis utskrifter tillgänglig',
     downloadLabel: 'Ladda Ner Gratis Exempel',
     worksheetLabel: 'Arbetsblad',
     answerKeyLabel: 'Facit',
@@ -98,7 +98,7 @@ Grundpaketsprenumerationen kostar 144 dollar per år eller 15 dollar per månad.
 
   // Features Grid - FULL text from math-worksheet.md feature sections
   features: {
-    sectionTitle: 'Funktioner för Gratis Arbetsblad för Barn - Matematik Generator med Gratis Utskrifter',
+    sectionTitle: 'Gratis Arbetsblad och Arbetsblad för Barn - Gratis Utskrifter och Arbetsblad för Förskoleklass',
     sectionDescription: 'Vår matematik arbetsblad generator kombinerar kraftfulla funktioner med enkel användning. Skapa professionella matte övningar på några minuter. Ingen designerfarenhet krävs. Alla verktyg du behöver för att skapa engagerande matematik arbetsblad för förskoleklass och lågstadiet finns här. Varje funktion är utformad för att spara tid åt lärare och föräldrar.',
     highlightBadgeText: 'Nyckelfunktion',
     readMoreLabel: 'Läs mer',
@@ -274,7 +274,7 @@ PDF-formatet bevarar exakt layout oavsett vilken enhet som öppnar filen. Skicka
 
   // Use Cases - FULL text from math-worksheet.md use case sections
   useCases: {
-    sectionTitle: 'Perfekt för Lärare och Föräldrar - Arbetsblad för Barn och Gratis Utskrifter',
+    sectionTitle: 'Gratis Arbetsblad för Barn - Arbetsblad för Förskoleklass med Gratis Utskrifter. Arbetsblad för Barn',
     sectionDescription: 'Vår matematik arbetsblad generator tjänar många olika användare inom utbildning. Förskoleklass lärare, lågstadielärare, hemundervisande föräldrar och specialpedagoger använder alla denna verktyg dagligen. Varje användartyp hittar unika fördelar som sparar tid och förbättrar undervisningen. Läs hur olika pedagoger använder generatorn för sina specifika behov.',
     badgeText: 'Vem Det Är För',
     readMoreLabel: 'Läs mer',
@@ -369,7 +369,7 @@ Tidsbaserade teman säljer också bra. Skapa "klockan lära sig" kombinationspak
 
   // FAQ Section - Selected FAQs from math-worksheet.md
   faq: {
-    sectionTitle: 'Vanliga Frågor om Gratis Arbetsblad för Barn - Matematik Övningar',
+    sectionTitle: 'FAQ - Gratis Arbetsblad för Barn och Arbetsblad för Förskoleklass med Gratis Utskrifter. Arbetsblad för Barn',
     sectionDescription: 'Lärare och föräldrar har många frågor om vår matematik arbetsblad generator. Denna sektion besvarar de vanligaste frågorna om prenumeration, användning och funktioner.',
     showMoreText: 'Visa fler frågor',
     showLessText: 'Visa färre',
@@ -474,7 +474,7 @@ Tidsbaserade teman säljer också bra. Skapa "klockan lära sig" kombinationspak
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Kombinera med Andra Gratis Arbetsblad för Förskoleklass',
+    sectionTitle: 'Gratis Arbetsblad Kombinera - Arbetsblad för Barn och Gratis Utskrifter',
     sectionDescription: 'Skapa kompletta lärpaket genom att kombinera matematik arbetsblad med dessa kompletterande generatorer.',
     ctaTitle: 'Redo att Skapa Fantastiska Arbetsblad?',
     ctaDescription: 'Gå med tusentals lärare som skapar professionella arbetsblad. Obegränsad generering, kommersiell licens ingår.',

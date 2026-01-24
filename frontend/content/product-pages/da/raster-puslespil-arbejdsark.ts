@@ -85,8 +85,8 @@ Med Fuld Adgang kan du lave malebog aktiviteter kombineret med puslespil. Genera
 
   // Sample Gallery - REAL file paths from samples/danish/grid-match/
   samples: {
-    sectionTitle: 'Gratis Arbejdsark Eksempler - Raster-Puslespil til Børn',
-    sectionDescription: 'Download gratis eksempler på arbejdsark for at se vores professionelle kvalitet',
+    sectionTitle: 'Gratis Arbejdsark til Børn - Gratis Arbejdsark og Gratis Printables',
+    sectionDescription: 'Download gratis printables - Gratis arbejdsark til børn af professionel kvalitet. Gratis arbejdsark og arbejdsark til børn perfekt til arbejdsark til børnehaveklasse. Gratis arbejdsark til børn og arbejdsark til børn inkluderer undervisningsmateriale. Gratis arbejdsark tilgængeligt',
     badgeText: 'Gratis Eksempler',
     downloadLabel: 'Download Gratis Eksempel',
     downloadingLabel: 'Downloader...',
@@ -137,7 +137,7 @@ Med Fuld Adgang kan du lave malebog aktiviteter kombineret med puslespil. Genera
 
   // Features Grid - FULL text from grid-match.md feature sections
   features: {
-    sectionTitle: 'Funktioner i Raster-Puslespil Generator - Gratis Arbejdsark til Børnehaveklasse',
+    sectionTitle: 'Gratis Arbejdsark og Arbejdsark til Børn - Gratis Printables og Arbejdsark til Børnehaveklasse',
     sectionDescription: 'Vores raster-puslespil generator giver pædagoger alt de har brug for. Lav gratis arbejdsark til børn på få minutter. Værktøjet fungerer til alle fagområder og klassetrin. Kombiner billeder med tekst for bedre læring.',
     highlightBadgeText: 'Vigtig Funktion',
     readMoreLabel: 'Læs mere',
@@ -217,7 +217,7 @@ Opgaver ser professionelle ud. Klare linjer og skarpe billeder. Gangetabeller og
 
   // How-To Guide - FULL text from grid-match.md step sections
   howTo: {
-    sectionTitle: 'Sådan Laver Du Gratis Arbejdsark til Børn i 5 Trin',
+    sectionTitle: 'Gratis Arbejdsark til Børn Oprette - Arbejdsark til Børnehaveklasse',
     sectionDescription: 'Lav professionelle gratis arbejdsark på under 3 minutter. Vores generator gør det nemt for pædagoger. Ingen tekniske færdigheder nødvendige. Følg disse 5 enkle trin til færdige arbejdsark til børnehaveklasse.',
     ctaText: 'Start Nu',
     badgeText: 'Sådan Virker Det',
@@ -303,7 +303,7 @@ Kombiner med andre opgavetyper. Lav komplette læringspakker. Tilføj gangetabel
 
   // Use Cases - FULL text from grid-match.md use case sections
   useCases: {
-    sectionTitle: 'Perfekt til Lærere og Forældre - Gratis Arbejdsark til Børnehaveklasse',
+    sectionTitle: 'Gratis Arbejdsark til Børn - Arbejdsark til Børnehaveklasse med Gratis Printables. Arbejdsark til Børn',
     sectionDescription: 'Vores raster-puslespil generator passer til mange undervisningssituationer. Fra børnehaveklassen til 3. klasse. Fra klassevejledere til hjemmeundervisning. Perfekt til gratis arbejdsark til børn.',
     badgeText: 'Hvem Er Det Til',
     readMoreLabel: 'Læs mere',
@@ -398,7 +398,7 @@ Brug Pinterest til at markedsføre dine opgaver. Danske forældre søger "opgave
 
   // FAQ Section - Selected FAQs from grid-match.md
   faq: {
-    sectionTitle: 'Ofte Stillede Spørgsmål om Gratis Raster-Puslespil Arbejdsark til Børn',
+    sectionTitle: 'FAQ - Gratis Arbejdsark til Børn og Arbejdsark til Børnehaveklasse. Arbejdsark til Børn',
     sectionDescription: 'Pædagoger stiller mange spørgsmål før de abonnerer. Her besvarer vi de 12 mest almindelige om gratis arbejdsark til børnehaveklasse. Lær om pris, funktioner og muligheder.',
     showMoreText: 'Vis flere spørgsmål',
     showLessText: 'Vis færre',
@@ -527,7 +527,7 @@ Brug Pinterest til at markedsføre dine opgaver. Danske forældre søger "opgave
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Kombiner med Andre Gratis Arbejdsark til Børn',
+    sectionTitle: 'Gratis Arbejdsark Kombinere - Arbejdsark til Børn og Gratis Printables',
     sectionDescription: 'LessonCraft Studio platformnen tilbyder 33 gratis arbejdsark generatorer. Ikke kun raster-puslespil. Kombiner forskellige arbejdsark til børnehaveklasse til komplette lektionspakker. Lav tematiske enheder med gratis printables.',
     ctaTitle: 'Klar til at Lave Fantastiske Arbejdsark?',
     ctaDescription: 'Tilslut dig tusindvis af pædagoger der laver professionelle arbejdsark. Ubegrænset oprettelse, kommerciel licens inkluderet.',

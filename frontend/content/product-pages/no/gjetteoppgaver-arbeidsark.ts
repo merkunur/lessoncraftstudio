@@ -53,8 +53,8 @@ Verktøyet støtter 11 språk inkludert norsk. Bruk bildebiblioteket vårt med o
 
   // Sample Gallery - REAL file paths from samples/english/word guess/
   samples: {
-    sectionTitle: 'Gjetteoppgaver Arbeidsark Eksempler',
-    sectionDescription: 'Last ned gratis eksempler på arbeidsark for å se vår profesjonelle kvalitet',
+    sectionTitle: 'Gratis Arbeidsark for Barn - Gratis Arbeidsark og Gratis Utskrifter',
+    sectionDescription: 'Last ned gratis utskrifter - Gratis arbeidsark for barn av profesjonell kvalitet. Gratis arbeidsark og arbeidsark for barn perfekt for arbeidsark for 1. trinn. Gratis arbeidsark for barn og arbeidsark for barn inkluderer gratis utskrifter undervisningsmateriell. Gratis arbeidsark og arbeidsark for 1. trinn tilgjengelig',
     badgeText: 'Gratis Eksempler',
     downloadLabel: 'Last ned Gratis Eksempel',
     downloadingLabel: 'Laster ned...',
@@ -91,7 +91,7 @@ Verktøyet støtter 11 språk inkludert norsk. Bruk bildebiblioteket vårt med o
 
   // Features Grid - FULL text from word-guess.md feature sections
   features: {
-    sectionTitle: 'Funksjoner for Arbeidsark Gratis og Lesetrening',
+    sectionTitle: 'Gratis Arbeidsark og Arbeidsark for Barn - Gratis Utskrifter og Arbeidsark for 1. Trinn',
     sectionDescription: 'Gjetteoppgaveverktøyet tilbyr alt du trenger for å lage engasjerende arbeidsark gratis. Verktøyet kombinerer enkelhet med profesjonelle resultater. Perfekt for lærere som trenger matematikk oppgaver og leseforståelse aktiviteter raskt. Lag oppgavehefter barn på minutter i stedet for timer med tradisjonelle metoder.',
     highlightBadgeText: 'Viktig Funksjon',
     readMoreLabel: 'Les mer',
@@ -252,7 +252,7 @@ Alle arbeidsark lastes ned umiddelbart til din enhet. Ingen ventetid eller prose
 
   // Use Cases - FULL text from word-guess.md user sections
   useCases: {
-    sectionTitle: 'Perfekt for Lærere, Foreldre og Pedagoger',
+    sectionTitle: 'Gratis Arbeidsark for Barn - Arbeidsark for 1. Trinn med Gratis Utskrifter. Arbeidsark for Barn',
     sectionDescription: 'Gjetteoppgaveverktøyet dekker alle brukerbehov fra barnehage til småtrinnet. Uansett om du underviser i matematikk oppgaver, lesetrening eller bokstaver lære skrive finner du løsninger her. Lag arbeidsark gratis til alle fag og nivåer. Over 3000 bilder sikrer variasjon i oppgavehefter barn får.',
     badgeText: 'Hvem Det Er For',
     readMoreLabel: 'Les mer',
@@ -329,7 +329,7 @@ Etsy er en annen salgkanal for utskriftsklare PDF-er. Lag komplette oppgavehefte
 
   // FAQ Section - FULL text from word-guess.md FAQ sections
   faq: {
-    sectionTitle: 'Ofte Stilte Spørsmål',
+    sectionTitle: 'FAQ - Gratis Arbeidsark for Barn og Arbeidsark for 1. Trinn. Arbeidsark for Barn',
     sectionDescription: 'Svar på vanlige spørsmål om gjetteoppgaveverktøyet. Lær hvordan du lager arbeidsark til bokstaver lære skrive, matematikk oppgaver og finmotorikk øvelser. Alt fra tall og telling for førskolebarn til gangetabellen for tredjeklassinger.',
     showMoreText: 'Vis flere spørsmål',
     showLessText: 'Vis færre',
@@ -402,7 +402,7 @@ Tradisjonell produksjon tar 30-60 minutter. Finn bilder, design layout, lag oppg
 
   // Related Apps Section
   relatedApps: {
-    sectionTitle: 'Kombiner med Andre Verktøy',
+    sectionTitle: 'Gratis Arbeidsark Kombinere - Arbeidsark for Barn og Gratis Utskrifter',
     sectionDescription: 'Gjetteoppgaver fungerer utmerket sammen med andre arbeidsarkverktøy. Kombiner med matematikk oppgaver, fargeleggingsbilder barn elsker og finmotorikk øvelser. Lag komplette oppgavehefter barn bruker gjennom hele uken.',
     badgeText: 'Fungerer Utmerket Med',
     exploreText: 'Utforsk alle apper',

@@ -55,8 +55,8 @@ Vår mønstergenerator inkluderer fasit for alle arbeidsark. Lærere på småsko
 
   // Sample Gallery - REAL file paths from samples/english/pattern train/
   samples: {
-    sectionTitle: 'Mønstergenkjenning Arbeidsark Eksempler',
-    sectionDescription: 'Last ned gratis eksempler på mønsterarbeidsark for å se vår profesjonelle kvalitet',
+    sectionTitle: 'Gratis Arbeidsark for Barn - Gratis Arbeidsark og Gratis Utskrifter',
+    sectionDescription: 'Last ned gratis utskrifter - Gratis arbeidsark for barn av profesjonell kvalitet. Gratis arbeidsark og arbeidsark for barn perfekt for arbeidsark for 1. trinn. Gratis arbeidsark for barn og arbeidsark for barn inkluderer gratis utskrifter undervisningsmateriell. Gratis arbeidsark og arbeidsark for 1. trinn tilgjengelig',
     badgeText: 'Gratis Eksempler',
     downloadLabel: 'Last ned Gratis Eksempel',
     downloadingLabel: 'Laster ned...',
@@ -86,7 +86,7 @@ Vår mønstergenerator inkluderer fasit for alle arbeidsark. Lærere på småsko
 
   // Features Grid - FULL text from pattern-train.md feature sections
   features: {
-    sectionTitle: 'Mønsterarbeidsark Funksjoner - Alt du Trenger for Matematikk Oppgaver og Arbeidsark Gratis',
+    sectionTitle: 'Gratis Arbeidsark og Arbeidsark for Barn - Gratis Utskrifter og Arbeidsark for 1. Trinn',
     sectionDescription: 'Vår mønstergenerator tilbyr omfattende funksjoner for å lage profesjonelle arbeidsark. Full Tilgang-abonnementet gir deg tilgang til alle verktøy uten begrensninger. Lag matteoppgaver, oppgavehefter barn og arbeidsark gratis for utskrift med full redigeringsmulighet. Hver funksjon er designet for å spare tid og lage engasjerende matematikk oppgaver.',
     highlightBadgeText: 'Viktig Funksjon',
     readMoreLabel: 'Les mer',
@@ -194,7 +194,7 @@ Gråtonealternativet konverterer farger til sort-hvitt. Spar blekkostnader samti
 
   // How-To Guide - FULL text from pattern-train.md step sections
   howTo: {
-    sectionTitle: 'Slik Lager du Mønsterarbeidsark på 5 Enkle Trinn - Matematikk Oppgaver og Arbeidsark Gratis',
+    sectionTitle: 'Gratis Arbeidsark for Barn Lage - Arbeidsark for 1. Trinn',
     sectionDescription: 'Lag profesjonelle mønstergenkjenningsarbeidsark på under 3 minutter. Følg disse fem enkle trinnene for å lage matteoppgaver og arbeidsark gratis for småskoletrinnet. Ingen designerfaring kreves. Full Tilgang-abonnementet gir deg ubegrenset tilgang til alle funksjoner. Hver arbeidsark kan lastes ned som høykvalitets PDF eller JPEG.',
     ctaText: 'Start Nå',
     badgeText: 'Slik Fungerer Det',
@@ -276,7 +276,7 @@ Print arbeidsark direkte fra nettleseren. PDF-filer åpnes i egen fane. Send til
 
   // Use Cases - FULL text from pattern-train.md use case sections
   useCases: {
-    sectionTitle: 'Perfekt for Lærere og Foreldre - Mønsterarbeidsark for Alle Behov med Oppgavehefter Barn',
+    sectionTitle: 'Gratis Arbeidsark for Barn - Arbeidsark for 1. Trinn med Gratis Utskrifter. Arbeidsark for Barn',
     sectionDescription: 'Mønstergenkjenningsarbeidsark er nyttige for mange undervisningssituasjoner. Lærere i barnehage, barneskole og hjemmeundervisning bruker disse arbeidsarkene daglig. Kombiner med fargeleggingsbilder barn, finmotorikk øvelser og matematikk oppgaver for komplett læring. Full Tilgang-abonnementet dekker alle bruksbehov.',
     badgeText: 'Hvem Er Det For',
     readMoreLabel: 'Les mer',
@@ -371,7 +371,7 @@ Lag produktserier som holder kunder engasjert. Månedlige oppgavehefter barn med
 
   // FAQ Section - FULL text from pattern-train.md FAQ sections
   faq: {
-    sectionTitle: 'Ofte Stilte Spørsmål om Mønsterarbeidsark, Gangetabellen og Oppgavehefter Barn',
+    sectionTitle: 'FAQ - Gratis Arbeidsark for Barn og Arbeidsark for 1. Trinn. Arbeidsark for Barn',
     sectionDescription: 'Lærere stiller vanlige spørsmål om mønstergeneratoren og Full Tilgang-abonnementet. Her er svar på de mest stilte spørsmålene om gangetabellen, oppgavehefter barn, fargeleggingsbilder barn, bokstaver lære skrive, tall og telling, addisjon og subtraksjon, lesetrening og finmotorikk øvelser. Alle svar gjelder for hele plattformen med 33 generatorer.',
     badgeText: 'Vanlige Spørsmål',
     showMoreText: 'Vis flere spørsmål',
@@ -514,7 +514,7 @@ Kombiner mønsterarbeidsark med fagundervisning. Bruk gangetabellen for matemati
 
   // Related Apps Section
   relatedApps: {
-    sectionTitle: 'Kombiner Mønsterarbeidsark med Andre Verktøy',
+    sectionTitle: 'Gratis Arbeidsark Kombinere - Arbeidsark for Barn og Gratis Utskrifter',
     sectionDescription: 'Full Tilgang gir tilgang til alle 33 arbeidsarkgeneratorer. Kombiner mønsterarbeidsark med tall og telling, bokstaver lære skrive, lesetrening, addisjon og subtraksjon, finmotorikk øvelser, gangetabellen, oppgavehefter barn og fargeleggingsbilder barn. Lag komplette lærpakker som dekker flere fag samtidig.',
     ctaTitle: 'Klar til å Lage Profesjonelle Mønsterarbeidsark?',
     ctaDescription: 'Bli med tusenvis av lærere som lager engasjerende mønsterarbeidsark med vår togtemplate-generator.',

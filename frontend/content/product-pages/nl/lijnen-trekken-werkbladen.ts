@@ -106,8 +106,8 @@ De fijne motoriek die nodig is voor schrijven ontwikkelt zich geleidelijk. Recht
 
   // Sample Gallery
   samples: {
-    sectionTitle: 'Gratis Werkbladen Lijnen Trekken Voorbeelden',
-    sectionDescription: 'Download gratis werkblad voorbeelden om onze professionele kwaliteit te ervaren. Elk werkblad voor kinderen is direct printbaar.',
+    sectionTitle: 'Gratis Werkblad voor Kinderen - Gratis Werkbladen en Gratis Printables',
+    sectionDescription: 'Download gratis printables - Gratis werkblad voor kinderen van professionele kwaliteit. Gratis werkbladen en werkblad voor kinderen perfect voor werkblad voor kleuters. Gratis werkblad voor kinderen en werkblad voor kinderen inclusief educatief materiaal. Gratis werkblad beschikbaar',
     downloadLabel: 'Gratis Voorbeeld Downloaden',
     worksheetLabel: 'Werkblad',
     answerKeyLabel: 'Antwoordblad',
@@ -158,7 +158,7 @@ De fijne motoriek die nodig is voor schrijven ontwikkelt zich geleidelijk. Recht
 
   // Features Grid
   features: {
-    sectionTitle: 'Gratis Werkbladen Generator Functies - Maak Werkblad voor Kinderen met Lijnen Trekken',
+    sectionTitle: 'Gratis Werkbladen en Werkblad voor Kinderen - Gratis Printables en Werkblad voor Kleuters',
     sectionDescription: 'Onze lijnen trekken generator biedt alles wat je nodig hebt voor professionele gratis werkbladen. Van fijne motoriek oefeningen tot schrijven oefenen materiaal. Ontdek alle functies die je helpen bij het maken van gratis printables en werkblad voor kleuters.',
     highlightBadgeText: 'Uitgelicht',
     readMoreLabel: 'Lees meer',
@@ -263,7 +263,7 @@ Horizontale lijnen zijn de eenvoudigste optie voor beginners. Ideaal voor werkbl
 
   // How-To Guide
   howTo: {
-    sectionTitle: 'Hoe Maak Je Gratis Werkblad Lijnen Trekken in 5 Stappen - Werkblad voor Kinderen Maken',
+    sectionTitle: 'Gratis Werkblad voor Kinderen Maken - Werkblad voor Kleuters',
     sectionDescription: 'Het maken van gratis werkbladen lijnen trekken is eenvoudig. In 5 stappen heb je een professioneel werkblad voor kleuters klaar. Het hele proces duurt minder dan 3 minuten. Volg deze handleiding voor perfecte gratis printables.',
     ctaText: 'Nu Starten',
     badgeText: 'Zo werkt het',
@@ -335,7 +335,7 @@ Grijstinten optie: Vink deze aan om inkt te besparen. Alle kleuren worden omgeze
 
   // Use Cases
   useCases: {
-    sectionTitle: 'Voor Wie Zijn Gratis Werkbladen Lijnen Trekken - Werkblad voor Kinderen voor Leerkrachten en Ouders',
+    sectionTitle: 'Gratis Werkblad voor Kinderen - Werkblad voor Kleuters met Gratis Printables. Werkblad voor Kinderen',
     sectionDescription: 'Onze lijnen trekken generator is ontworpen voor iedereen die met jonge kinderen werkt. Van kleuterjuffen tot thuisonderwijs ouders. Van speciaal onderwijs tot NT2-docenten. Ontdek hoe verschillende gebruikers profiteren van gratis werkblad voor kleuters en werkblad voor kinderen.',
     badgeText: 'Voor wie',
     readMoreLabel: 'Lees meer',
@@ -418,7 +418,7 @@ De 300 DPI kwaliteit is essentieel voor commerciële verkoop. Klanten verwachten
 
   // FAQ Section
   faq: {
-    sectionTitle: 'Veelgestelde Vragen over Gratis Werkblad Lijnen Trekken - Werkblad voor Kinderen FAQ',
+    sectionTitle: 'FAQ - Gratis Werkblad voor Kinderen en Werkblad voor Kleuters. Werkblad voor Kinderen',
     sectionDescription: 'Heb je vragen over onze lijnen trekken generator? Hier vind je antwoorden op de meest gestelde vragen. Van prijzen tot functies, van gratis werkbladen tot werkblad voor kleuters ondersteuning.',
     showMoreText: 'Meer vragen tonen',
     showLessText: 'Minder tonen',
@@ -523,7 +523,7 @@ De 300 DPI kwaliteit is essentieel voor commerciële verkoop. Klanten verwachten
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Combineer Gratis Werkbladen Lijnen Trekken met Andere Gratis Printables - Werkblad voor Kinderen Leerpakketten',
+    sectionTitle: 'Gratis Werkbladen Combineren - Werkblad voor Kinderen en Gratis Printables',
     sectionDescription: 'LessonCraft Studio bevat 33 werkbladgeneratoren. Lijnen trekken is slechts één tool in je arsenaal. Combineer verschillende generators voor complete leerpakketten met gratis werkblad materiaal. Integreer werkblad voor kleuters en meer.',
     ctaTitle: 'Klaar om geweldige werkbladen te maken?',
     ctaDescription: 'Sluit je aan bij duizenden leerkrachten die professionele werkbladen maken. Onbeperkt genereren, commerciële licentie inbegrepen.',

@@ -85,8 +85,8 @@ Scegli tra quattro diverse modalità di esercizi di sottrazione per variare la p
 
   // Sample Gallery - REAL file paths from samples/english/subtraction/
   samples: {
-    sectionTitle: 'Stampabili Gratuiti: Esempi di Schede Sottrazione',
-    sectionDescription: 'Scarica esempi gratuiti per vedere la nostra qualità professionale',
+    sectionTitle: "Scheda Gratuita per Bambini - Schede Gratuite e Stampabili Gratuiti e Scheda per Bambini",
+    sectionDescription: "Scarica stampabili gratuiti - Scheda gratuita per bambini di qualità professionale. Schede gratuite e scheda per bambini perfette per scheda per scuola dell'infanzia. Scheda gratuita per bambini e scheda per bambini includono materiale educativo. Scheda gratuita e scheda per scuola dell'infanzia disponibile",
     downloadLabel: 'Scarica Esempio Gratuito',
     worksheetLabel: 'Scheda',
     answerKeyLabel: 'Soluzioni',
@@ -137,7 +137,7 @@ Scegli tra quattro diverse modalità di esercizi di sottrazione per variare la p
 
   // Features Grid - FULL text from subtraction.md feature sections
   features: {
-    sectionTitle: 'Funzionalità della Scheda Gratuita di Sottrazione',
+    sectionTitle: "Schede Gratuite e Scheda per Bambini - Stampabili Gratuiti e Scheda per Scuola dell'Infanzia",
     sectionDescription: 'Il generatore di schede didattiche di sottrazione include sette funzionalità essenziali per maestre e maestri. Ogni funzione è stata progettata per risparmiare tempo e creare materiali didattici di qualità professionale. L\'abbonamento Accesso Completo da 240 dollari all\'anno ti dà accesso a tutti i 33 generatori incluso questo.',
     highlightBadgeText: 'Funzionalità Chiave',
     readMoreLabel: 'Leggi di più',
@@ -231,7 +231,7 @@ Il formato JPEG funziona perfettamente per la vendita online. Carica le schede d
 
   // How-To Guide Section - FULL text from subtraction.md "How to Create" section
   howTo: {
-    sectionTitle: 'Come Creare Schede Gratuite di Sottrazione in 5 Passi',
+    sectionTitle: "Scheda Gratuita per Bambini Creare - Scheda per Scuola dell'Infanzia",
     sectionDescription: 'Creare schede didattiche professionali con il nostro generatore è velocissimo. L\'intero processo richiede meno di 3 minuti dal login al download. Nessuna competenza tecnica richiesta.',
     ctaText: 'Inizia Ora',
     badgeText: 'Guida Passo-Passo',
@@ -303,7 +303,7 @@ Attiva l'opzione Scala di Grigi prima del download per risparmiare inchiostro. L
 
   // Use Cases Section - FULL text from subtraction.md "Perfect For" section
   useCases: {
-    sectionTitle: 'Scheda Gratuita per Bambini - Perfetto per Insegnanti e Genitori',
+    sectionTitle: "Scheda Gratuita per Bambini - Perfetto per Insegnanti e Genitori",
     sectionDescription: 'Il generatore di schede didattiche di sottrazione serve educatori in molti contesti diversi. Insegnanti di scuola dell\'infanzia creano materiali per i più piccoli. Docenti di scuola primaria preparano esercizi differenziati. Genitori homeschooler sviluppano programmi personalizzati.',
     badgeText: 'Chi Usa le Nostre Schede',
     readMoreLabel: 'Leggi di più',
@@ -386,7 +386,7 @@ Genera schede matematica in più lingue per raggiungere mercati internazionali. 
 
   // FAQ Section - FULL text from subtraction.md FAQ section
   faq: {
-    sectionTitle: 'Domande Frequenti sulle Schede Gratuite di Sottrazione',
+    sectionTitle: "FAQ - Scheda Gratuita per Bambini e Scheda per Scuola dell'Infanzia. Scheda per Bambini",
     sectionDescription: 'Risposte alle domande più comuni sul nostro generatore di schede matematica',
     showMoreText: 'Mostra altre domande',
     showLessText: 'Mostra meno domande',
@@ -538,7 +538,7 @@ I temi stagionali creano schede didattiche perfette per ogni periodo. Settembre 
 
   // Related Apps Section
   relatedApps: {
-    sectionTitle: 'Stampabili Gratuiti: Combina con Altre Schede Didattiche',
+    sectionTitle: "Stampabili Gratuiti: Combina con Altre Schede Didattiche",
     sectionDescription: 'Il generatore di sottrazione funziona magnificamente combinato con altri tipi di schede didattiche. La piattaforma offre 33 generatori diversi per materiali stampabili. Crea pacchetti tematici coordinati che integrano matematica, alfabetizzazione, pregrafismo, disegni da colorare e molto altro.',
     ctaTitle: 'Pronto a Creare Schede Straordinarie?',
     ctaDescription: 'Unisciti a migliaia di educatori che creano schede professionali. Generazione illimitata, licenza commerciale inclusa.',

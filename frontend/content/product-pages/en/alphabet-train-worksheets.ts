@@ -74,7 +74,7 @@ The Alphabet Train worksheet maker transforms alphabet learning into an exciting
 
   // Sample Gallery - REAL file paths from samples/english/alphabet-train/
   samples: {
-    sectionTitle: 'Alphabet Train Worksheet Samples',
+    sectionTitle: 'Worksheet for Kindergarten - Alphabet Train Free Samples',
     downloadLabel: 'Download Free Sample',
     worksheetLabel: 'Worksheet',
     answerKeyLabel: 'Answer Key',
@@ -125,7 +125,7 @@ The Alphabet Train worksheet maker transforms alphabet learning into an exciting
   // Features Grid - FULL text from alphabet-train.md feature sections
   features: {
     sectionTitle: 'Free Worksheets for Kids: Everything You Need for Kindergarten Worksheets and First Grade Worksheets',
-    sectionDescription: 'Our alphabet train worksheet generator includes every feature teachers need. Create professional ABC worksheets without design experience. The intuitive controls make worksheet creation fast and enjoyable. Every feature works together to save you hours of preparation time.',
+    sectionDescription: 'Our alphabet train worksheet generator includes every feature teachers need. Create professional free worksheet for kids without design experience. The intuitive controls make free worksheet for kids creation fast and enjoyable. Every feature works together to save you hours of preparation time.',
     highlightBadgeText: 'Key Feature',
     items: [
       {

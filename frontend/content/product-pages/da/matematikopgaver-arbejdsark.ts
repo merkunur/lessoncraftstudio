@@ -77,8 +77,8 @@ Generer gratis skoleopgaver til print med temaer som børnene elsker. Over 3000 
 
   // Sample Gallery - REAL file paths from samples/danish/math/
   samples: {
-    sectionTitle: 'Gratis Arbejdsark Matematikopgaver Eksempler',
-    sectionDescription: 'Download gratis eksempler på arbejdsark for at se vores professionelle kvalitet',
+    sectionTitle: 'Gratis Arbejdsark til Børn - Gratis Arbejdsark og Gratis Printables',
+    sectionDescription: 'Download gratis printables - Gratis arbejdsark til børn af professionel kvalitet. Gratis arbejdsark og arbejdsark til børn perfekt til arbejdsark til børnehaveklasse. Gratis arbejdsark til børn og arbejdsark til børn inkluderer undervisningsmateriale. Gratis arbejdsark tilgængeligt',
     badgeText: 'Gratis Eksempler',
     downloadLabel: 'Download Gratis Eksempel',
     downloadingLabel: 'Downloader...',
@@ -108,7 +108,7 @@ Generer gratis skoleopgaver til print med temaer som børnene elsker. Over 3000 
 
   // Features Grid - FULL text from math-worksheet.md feature sections
   features: {
-    sectionTitle: 'Matematikopgaver Generator Funktioner - Alt Du Har Brug For til Gratis Skoleopgaver og Arbejdsark',
+    sectionTitle: 'Gratis Arbejdsark og Arbejdsark til Børn - Gratis Printables og Arbejdsark til Børnehaveklasse',
     sectionDescription: 'Matematikopgaver generatoren giver dig professionelle værktøjer til at lave opgaver til print. Dit Kernepakke abonnement inkluderer alle funktioner uden ekstra gebyrer. Lav matematikopgaver, kopiark og gratis skoleopgaver til børnehaveklassen, 0. klasse og 1. klasse. Kombiner med malebog aktiviteter og finmotorik øvelser for komplette læringspakker.',
     highlightBadgeText: 'Vigtig Funktion',
     readMoreLabel: 'Læs mere',
@@ -220,7 +220,7 @@ Print hjemme på almindelig printer. Print på skolen på kopimaskine. Eller sen
 
   // How-To Guide - FULL text from math-worksheet.md step sections
   howTo: {
-    sectionTitle: 'Sådan Laver Du Matematikopgaver i 5 Nemme Trin - Gratis Skoleopgaver og Opgaver til Print Klar på Minutter',
+    sectionTitle: 'Gratis Arbejdsark til Børn Oprette - Arbejdsark til Børnehaveklasse',
     sectionDescription: 'Lav professionelle matematikopgaver på under 3 minutter. Ingen designerfærdigheder påkrævet. Følg disse 5 nemme trin for at lave arbejdsark til børnehaveklassen, 0. klasse og 1. klasse. Dit Kernepakke abonnement giver dig ubegrænset adgang til at generere opgaver til print.',
     ctaText: 'Start Nu',
     badgeText: 'Sådan Virker Det',
@@ -314,7 +314,7 @@ Print arbejdsark øjeblikkeligt. Åbn downloadet fil. Tryk Ctrl+P eller Cmd+P. V
 
   // Use Cases - FULL text from math-worksheet.md use case sections
   useCases: {
-    sectionTitle: 'Perfekt til Lærere og Forældre - Matematikopgaver og Gratis Skoleopgaver til Alle Behov',
+    sectionTitle: 'Gratis Arbejdsark til Børn - Arbejdsark til Børnehaveklasse med Gratis Printables. Arbejdsark til Børn',
     sectionDescription: 'Matematikopgaver generatoren tjener forskellige brugertyper. Pædagoger i børnehaveklassen bruger den til tidlig talforståelse. Lærere i 0. klasse og 1. klasse bruger den til daglig matematiktræning. Hjemmeundervisere laver personlige opgaver til print. Alle får værdi fra Kernepakke abonnementet.',
     badgeText: 'Hvem Er Det Til',
     readMoreLabel: 'Læs mere',
@@ -421,7 +421,7 @@ Professionel 300 DPI kvalitet giver gode anmeldelser. Købere roser klare prints
 
   // FAQ Section - Selected FAQs from math-worksheet.md
   faq: {
-    sectionTitle: 'Ofte Stillede Spørgsmål om Matematikopgaver og Gratis Skoleopgaver',
+    sectionTitle: 'FAQ - Gratis Arbejdsark til Børn og Arbejdsark til Børnehaveklasse. Arbejdsark til Børn',
     sectionDescription: 'Lærere og forældre stiller mange spørgsmål om matematikopgaver generatoren. Hvordan virker abonnementet? Kan jeg kombinere med malebog og finmotorik øvelser? Fungerer det til 0. klasse og 1. klasse? Her er svar på de 12 mest almindelige spørgsmål om opgaver til print.',
     showMoreText: 'Vis flere spørgsmål',
     showLessText: 'Vis færre',
@@ -526,7 +526,7 @@ Professionel 300 DPI kvalitet giver gode anmeldelser. Købere roser klare prints
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Kombiner med Andre Arbejdsark Generatorer',
+    sectionTitle: 'Gratis Arbejdsark Kombinere - Arbejdsark til Børn og Gratis Printables',
     sectionDescription: 'Lav komplette læringspakker ved at kombinere matematikopgaver med disse komplementære generatorer.',
     ctaTitle: 'Klar til at Lave Fantastiske Arbejdsark?',
     ctaDescription: 'Tilslut dig tusindvis af pædagoger der laver professionelle arbejdsark. Ubegrænset oprettelse, kommerciel licens inkluderet.',

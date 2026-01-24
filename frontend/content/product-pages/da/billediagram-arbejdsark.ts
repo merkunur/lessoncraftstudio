@@ -77,8 +77,8 @@ Fuld Adgang-abonnementet inkluderer alle 33 opgavegeneratorer til 1.700 kr. om �
 
   // Sample Gallery - Danish paths with keyword-rich alt text
   samples: {
-    sectionTitle: 'Gratis Arbejdsark Eksempler - Billediagram til Børn',
-    sectionDescription: 'Download gratis arbejdsark eksempler på billediagram for at se vores professionelle kvalitet - arbejdsark til børnehaveklasse og 0. klasse',
+    sectionTitle: 'Gratis Arbejdsark til Børn - Gratis Arbejdsark og Gratis Printables',
+    sectionDescription: 'Download gratis printables - Gratis arbejdsark til børn af professionel kvalitet. Gratis arbejdsark og arbejdsark til børn perfekt til arbejdsark til børnehaveklasse. Gratis arbejdsark til børn og arbejdsark til børn inkluderer undervisningsmateriale. Gratis arbejdsark tilgængeligt',
     badgeText: 'Gratis Eksempler',
     downloadLabel: 'Download Gratis Eksempel',
     downloadingLabel: 'Downloader...',
@@ -122,7 +122,7 @@ Fuld Adgang-abonnementet inkluderer alle 33 opgavegeneratorer til 1.700 kr. om �
 
   // Features Grid - OPTIMIZED with keywords
   features: {
-    sectionTitle: 'Billediagram Funktioner - Gratis Arbejdsark til Børn og Børnehaveklasse',
+    sectionTitle: 'Gratis Arbejdsark og Arbejdsark til Børn - Gratis Printables og Arbejdsark til Børnehaveklasse',
     sectionDescription: 'Vores billediagram-generator giver dig alle værktøjer til at lave professionelle arbejdsark og kopiark. Fra børnehaveklassen til 1. klasse finder du funktioner der gør det nemt. Fuld Adgang-abonnementet inkluderer alt uden ekstra gebyrer. Lav tælleopgaver, matematikopgaver og visuelle læringsskemaer på få minutter. Hver funktion er designet til lærere der har brug for kvalitetsopgaver til print hurtigt.',
     highlightBadgeText: 'Vigtig Funktion',
     readMoreLabel: 'Læs mere',
@@ -202,7 +202,7 @@ Download arbejdsark og facitark separat. Facitarket viser den korrekte søjlegra
 
   // How-To Guide - OPTIMIZED with keywords
   howTo: {
-    sectionTitle: 'Sådan Laver Du Gratis Arbejdsark - Billediagram Generator til Børnehaveklasse',
+    sectionTitle: 'Gratis Arbejdsark til Børn Oprette - Arbejdsark til Børnehaveklasse',
     sectionDescription: 'Lav professionelle billediagram-opgaver på under 3 minutter. Ingen designerfærdigheder påkrævet. Børnehaveklassen, 0. klasse og 1. klasse lærere laver opgaver med det samme. Følg disse 5 enkle trin til perfekte kopiark og gratis skoleopgaver hver gang. Fuld Adgang giver dig ubegrænset adgang til at lave opgaver til print så ofte du vil.',
     badgeText: 'Trin-for-Trin Guide',
     readMoreLabel: 'Læs mere',
@@ -399,7 +399,7 @@ Opret en Etsy-butik med printbare arbejdsark. Markedsfør på Pinterest med smuk
 
   // FAQ Section - OPTIMIZED with keywords
   faq: {
-    sectionTitle: 'Ofte Stillede Spørgsmål om Gratis Arbejdsark - Billediagram Generator',
+    sectionTitle: 'FAQ - Gratis Arbejdsark til Børn og Arbejdsark til Børnehaveklasse. Arbejdsark til Børn',
     sectionDescription: 'Lærere og forældre stiller lignende spørgsmål om vores billediagram-generator. Her er svar på de mest almindelige spørgsmål. Lær om Fuld Adgang abonnement, kommerciel licens og opgavetyper. Forstå hvordan du kombinerer matematikopgaver med malebog-sider, finmotorik øvelser og andre arbejdsark.',
     badgeText: 'FAQ',
     readMoreLabel: 'Læs mere',

@@ -77,8 +77,8 @@ O sudoku infantil usa grade 4x4 com imagens coloridas. Perfeito para atividades 
 
   // Sample Gallery - Portuguese sample paths
   samples: {
-    sectionTitle: 'Exemplos de Atividades Grátis de Sudoku Visual para Crianças',
-    sectionDescription: 'Baixe exemplos gratuitos para ver nossa qualidade profissional',
+    sectionTitle: 'Atividade Grátis para Crianças - Atividades Grátis e Imprimíveis Grátis',
+    sectionDescription: 'Baixe imprimíveis grátis - Atividade grátis para crianças de qualidade profissional. Atividades grátis e atividade para crianças perfeitas para atividade para educação infantil. Atividade grátis para crianças e atividade para crianças incluem material educativo. Atividade grátis disponível',
     downloadLabel: 'Baixar Exemplo Grátis',
     worksheetLabel: 'Atividade',
     answerKeyLabel: 'Gabarito',
@@ -122,7 +122,7 @@ O sudoku infantil usa grade 4x4 com imagens coloridas. Perfeito para atividades 
 
   // Features Grid - FULL text from sudoku.md feature sections
   features: {
-    sectionTitle: 'Recursos do Gerador - Atividades Grátis de Sudoku para Imprimir',
+    sectionTitle: 'Atividades Grátis e Atividade para Crianças - Imprimíveis Grátis e Atividade para Educação Infantil',
     sectionDescription: 'O gerador de sudoku visual oferece tudo para criar atividades educação infantil perfeitas. Professores criam atividades de matemática personalizadas em minutos. Cada recurso foi pensado para facilitar o trabalho docente. Conheça todas as funcionalidades disponíveis para suas atividades para imprimir.',
     highlightBadgeText: 'Recurso Principal',
     readMoreLabel: 'Leia mais',
@@ -211,7 +211,7 @@ Atividades para imprimir com qualidade de material comercial. Professores de edu
 
   // How-To Guide - FULL text from sudoku.md step sections
   howTo: {
-    sectionTitle: 'Como Criar Atividades Grátis de Sudoku Visual em 5 Passos',
+    sectionTitle: 'Atividade Grátis para Crianças Criar - Atividade para Educação Infantil',
     sectionDescription: 'Criar atividades de matemática com sudoku visual é muito simples. Em apenas 5 passos você terá atividades para imprimir profissionais. Todo o processo leva menos de 3 minutos. Professores de educação infantil dominam o gerador rapidamente.',
     ctaText: 'Comece Agora',
     badgeText: 'Como Funciona',
@@ -273,7 +273,7 @@ Baixe worksheet e gabarito separadamente. Atividades 1º ano e 2º ano em múlti
 
   // Use Cases - FULL text from sudoku.md use case sections
   useCases: {
-    sectionTitle: 'Quem Usa Atividades Grátis de Sudoku Visual para Crianças',
+    sectionTitle: 'Atividade Grátis para Crianças - Atividade para Educação Infantil com Imprimíveis Grátis. Atividade para Crianças',
     sectionDescription: 'O gerador de sudoku visual atende diversos perfis de educadores. Professores de educação infantil ao ensino fundamental usam diariamente. Pais homeschoolers encontram recurso valioso para atividades de matemática. Conheça como cada grupo utiliza atividades para imprimir de sudoku.',
     badgeText: 'Para Quem',
     readMoreLabel: 'Leia mais',
@@ -344,7 +344,7 @@ Professores empreendedores monetizam criatividade. Renda extra com atividades ed
 
   // FAQ Section - Selected FAQs from sudoku.md
   faq: {
-    sectionTitle: 'Perguntas Frequentes sobre Atividades Grátis de Sudoku Visual',
+    sectionTitle: 'FAQ - Atividade Grátis para Crianças e Atividade para Educação Infantil. Atividade para Crianças',
     sectionDescription: 'Professores têm dúvidas comuns sobre o gerador de sudoku. Respondemos as perguntas mais frequentes sobre atividades educação infantil. Saiba tudo sobre atividades de matemática, preços e funcionalidades.',
     showMoreText: 'Mostrar mais perguntas',
     showLessText: 'Mostrar menos',
@@ -449,7 +449,7 @@ Professores empreendedores monetizam criatividade. Renda extra com atividades ed
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Combine com Outros Geradores de Atividades Grátis para Crianças',
+    sectionTitle: 'Atividades Grátis Combinar - Atividade para Crianças e Imprimíveis Grátis',
     sectionDescription: 'Crie pacotes de aprendizagem completos combinando sudoku visual com estes geradores complementares.',
     ctaTitle: 'Pronto para Criar Atividades Incríveis?',
     ctaDescription: 'Junte-se a milhares de educadores que criam atividades profissionais. Geração ilimitada, licença comercial incluída.',

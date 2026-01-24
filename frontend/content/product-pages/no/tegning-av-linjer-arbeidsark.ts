@@ -83,8 +83,8 @@ Arbeidsark for tegning av linjer støtter barnehagepedagoger og lærere i småsk
 
   // Sample Gallery - REAL file paths from samples/english/drawing lines/
   samples: {
-    sectionTitle: 'Gratis Arbeidsark Eksempler - Tegning av Linjer',
-    sectionDescription: 'Last ned gratis eksempler på arbeidsark for å se vår profesjonelle kvalitet',
+    sectionTitle: 'Gratis Arbeidsark for Barn - Gratis Arbeidsark og Gratis Utskrifter',
+    sectionDescription: 'Last ned gratis utskrifter - Gratis arbeidsark for barn av profesjonell kvalitet. Gratis arbeidsark og arbeidsark for barn perfekt for arbeidsark for 1. trinn. Gratis arbeidsark for barn og arbeidsark for barn inkluderer gratis utskrifter undervisningsmateriell. Gratis arbeidsark og arbeidsark for 1. trinn tilgjengelig',
     badgeText: 'Gratis Eksempler',
     downloadLabel: 'Last ned Gratis Eksempel',
     downloadingLabel: 'Laster ned...',
@@ -135,7 +135,7 @@ Arbeidsark for tegning av linjer støtter barnehagepedagoger og lærere i småsk
 
   // Features Grid - FULL text from drawing-lines.md feature sections
   features: {
-    sectionTitle: 'Funksjoner for Gratis Arbeidsark for Barn - Finmotorikk Øvelser',
+    sectionTitle: 'Gratis Arbeidsark og Arbeidsark for Barn - Gratis Utskrifter og Arbeidsark for 1. Trinn',
     sectionDescription: 'Tegnelinjer-generatoren vår gir barnehagepedagoger og lærere kraftige verktøy for å lage finmotorikk øvelser. Systemet kombinerer enkle kontroller med profesjonelle resultater. Lag arbeidsark for tegning av linjer på 3 minutter. Kjernepakke-abonnementet inkluderer alle funksjoner uten ekstra kostnader. Hver funksjon er designet for pedagoger som trenger raske løsninger for finmotorikk øvelser og skrivetrening.',
     highlightBadgeText: 'Viktig Funksjon',
     readMoreLabel: 'Les mer',
@@ -229,7 +229,7 @@ Last ned arbeidsark umiddelbart etter generering. Ingen ventetid for rendering. 
 
   // How-To Guide - FULL text from drawing-lines.md step sections
   howTo: {
-    sectionTitle: 'Hvordan Lage Gratis Arbeidsark for Barn - 5 Enkle Trinn til Gratis Utskrifter',
+    sectionTitle: 'Gratis Arbeidsark for Barn Lage - Arbeidsark for 1. Trinn',
     sectionDescription: 'Lag profesjonelle arbeidsark for tegning av linjer på under 3 minutter. Følg disse fem enkle trinnene. Ingen designerfaring kreves. Systemet guider deg gjennom hele prosessen. Pedagoger lager finmotorikk øvelser raskere enn tradisjonelle metoder. Resultatet er arbeidsark gratis som en del av Kjernepakke-abonnementet.',
     ctaText: 'Start Nå',
     badgeText: 'Slik Fungerer Det',
@@ -489,7 +489,7 @@ Eksporter alt i 300 DPI profesjonell kvalitet. Kunder forventer skarpe, klare ut
 
   // Related Apps - From drawing-lines.md "Kombiner" section
   relatedApps: {
-    sectionTitle: 'Kombiner med Andre Gratis Arbeidsark for Barn - Arbeidsark for 1. Trinn',
+    sectionTitle: 'Gratis Arbeidsark Kombinere - Arbeidsark for Barn og Gratis Utskrifter',
     sectionDescription: 'LessonCraft Studio tilbyr 33 gratis arbeidsarkgeneratorer på plattformen. Kombiner tegnelinjer med andre arbeidsarktyper for komplette læringsressurser. Lag oppgavehefter barn som dekker flere ferdigheter. Pedagoger kombinerer finmotorikk med addisjon og subtraksjon, gangetabellen og lesetrening. Kjernepakke gir tilgang til 10 populære generatorer. Full Tilgang inkluderer alle 33 verktøy for omfattende ressurspakker.',
     ctaTitle: 'Klar til å Lage Fantastiske Arbeidsark?',
     ctaDescription: 'Bli med tusenvis av pedagoger som lager profesjonelle arbeidsark. Ubegrenset oppretting, kommersiell lisens inkludert.',

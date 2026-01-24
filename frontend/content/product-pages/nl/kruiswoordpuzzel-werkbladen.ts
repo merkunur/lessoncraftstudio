@@ -93,8 +93,8 @@ Volledige Toegang abonnement kost €240 per jaar of €25 per maand. Onbeperkt 
 
   // Sample Gallery - REAL file paths from samples/dutch/crossword/
   samples: {
-    sectionTitle: 'Gratis Werkblad Kruiswoordpuzzel Voorbeelden',
-    sectionDescription: 'Download gratis werkbladen om onze professionele kwaliteit te ervaren - werkblad voor kinderen en werkblad voor kleuters',
+    sectionTitle: 'Gratis Werkblad voor Kinderen - Gratis Werkbladen en Gratis Printables',
+    sectionDescription: 'Download gratis printables - Gratis werkblad voor kinderen van professionele kwaliteit. Gratis werkbladen en werkblad voor kinderen perfect voor werkblad voor kleuters. Gratis werkblad voor kinderen en werkblad voor kinderen inclusief educatief materiaal. Gratis werkblad beschikbaar',
     downloadLabel: 'Gratis Voorbeeld Downloaden',
     worksheetLabel: 'Werkblad',
     answerKeyLabel: 'Antwoordblad',
@@ -138,7 +138,7 @@ Volledige Toegang abonnement kost €240 per jaar of €25 per maand. Onbeperkt 
 
   // Features Grid - FULL text from crossword.md feature sections
   features: {
-    sectionTitle: 'Kruiswoordpuzzel Functies - Alles voor Werkbladen Groep 3 en Oefenbladen Gratis',
+    sectionTitle: 'Gratis Werkbladen en Werkblad voor Kinderen - Gratis Printables en Werkblad voor Kleuters',
     sectionDescription: 'Onze kruiswoordpuzzel generator biedt complete functionaliteit voor leerkrachten groep 1-3. Maak werkbladen kleuters met afbeeldingen in drie klikken. Pas elk element aan op het digitale canvas. Download professionele PDF-bestanden voor uw klas of verkoop online.',
     highlightBadgeText: 'Uitgelicht',
     readMoreLabel: 'Lees meer',
@@ -354,7 +354,7 @@ Voor oefenbladen gratis verkoop op TPT: download hoogste kwaliteit. PDF formaat 
 
   // Use Cases - FULL text from crossword.md use case sections
   useCases: {
-    sectionTitle: 'Perfect voor Leerkrachten - Werkbladen Kleuters tot Werkbladen Groep 3',
+    sectionTitle: 'Gratis Werkblad voor Kinderen - Werkblad voor Kleuters met Gratis Printables. Werkblad voor Kinderen',
     sectionDescription: 'Kruiswoordpuzzel werkbladen passen bij elke onderwijssituatie. Van groep 1 2 kleuters tot gevorderde groep 3 leerlingen. Van regulier onderwijs tot thuisonderwijs. Van Nederlands tot meertalig onderwijs. Deze tool ondersteunt diverse leerdoelen en lesmethoden.',
     badgeText: 'Voor wie',
     readMoreLabel: 'Lees meer',
@@ -461,7 +461,7 @@ Gebruik Pinterest marketing om verkoop te boosten. Pin voorbeeld werkbladen naar
 
   // FAQ Section - FULL FAQs from crossword.md
   faq: {
-    sectionTitle: 'Veelgestelde Vragen over Werkbladen Groep 3 en Oefenbladen Gratis',
+    sectionTitle: 'FAQ - Gratis Werkblad voor Kinderen en Werkblad voor Kleuters. Werkblad voor Kinderen',
     sectionDescription: 'Leerkrachten stellen regelmatig vragen over de kruiswoordpuzzel generator. Deze FAQ sectie beantwoordt de meest voorkomende vragen. Van prijzen tot gebruik in de klas. Van technische details tot commerciële licentie. Alle informatie die u nodig heeft om te starten.',
     showMoreText: 'Meer vragen tonen',
     showLessText: 'Minder tonen',
@@ -590,7 +590,7 @@ Gebruik Pinterest marketing om verkoop te boosten. Pin voorbeeld werkbladen naar
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Combineer Kruiswoordpuzzels met Andere Generators - Complete Werkbladen Pakketten',
+    sectionTitle: 'Gratis Werkbladen Combineren - Werkblad voor Kinderen en Gratis Printables',
     sectionDescription: 'LessonCraft Studio platform biedt 33 verschillende worksheet generators. Kruiswoordpuzzels combineren perfect met andere werkblad types. Maak complete lespakketten die meerdere vaardigheden oefenen. Één thema, meerdere werkblad formats voor versterkte leren.',
     ctaTitle: 'Klaar om geweldige werkbladen te maken?',
     ctaDescription: 'Sluit je aan bij duizenden leerkrachten die professionele werkbladen maken. Onbeperkt genereren, commerciële licentie inbegrepen.',

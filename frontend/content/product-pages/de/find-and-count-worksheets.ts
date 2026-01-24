@@ -97,8 +97,8 @@ Die Arbeitsblätter unterstützen verschiedene pädagogische Ziele. Fördern Sie
 
   // Sample Gallery - REAL file paths from samples/english/find and count/
   samples: {
-    sectionTitle: 'Zählübungen Beispiele',
-    sectionDescription: 'Laden Sie kostenlose Beispiel-Arbeitsblätter herunter, um unsere professionelle Qualität zu sehen',
+    sectionTitle: 'Kostenloses Arbeitsblatt für Kinder - Kostenlose Arbeitsblätter und Kostenlose Druckvorlagen',
+    sectionDescription: 'Laden Sie kostenlose Druckvorlagen herunter - Kostenloses Arbeitsblatt für Kinder in professioneller Qualität für Arbeitsblatt für Vorschule',
     downloadLabel: 'Kostenloses Beispiel Herunterladen',
     worksheetLabel: 'Arbeitsblatt',
     answerKeyLabel: 'Lösungsblatt',
@@ -149,7 +149,7 @@ Die Arbeitsblätter unterstützen verschiedene pädagogische Ziele. Fördern Sie
 
   // Features Grid - FULL text from suchen-und-zaehlen.md feature sections
   features: {
-    sectionTitle: 'Zählübungen-Generator Funktionen - Alles für Kostenlose Arbeitsblätter Grundschule',
+    sectionTitle: 'Arbeitsblatt für Kinder - Arbeitsblatt für Vorschule und Kostenlose Arbeitsblätter',
     sectionDescription: 'Der Suchen-und-Zählen-Generator bietet umfassende Funktionen für die Erstellung von Arbeitsblättern Grundschule. Alle Werkzeuge sind intuitiv gestaltet und erfordern keine Designkenntnisse. Erstellen Sie in 3 Minuten professionelle Vorschul-Arbeitsblätter für Ihre Schüler.',
     highlightBadgeText: 'Hauptfunktion',
     readMoreLabel: 'Mehr lesen',
@@ -243,7 +243,7 @@ Download von Arbeitsblatt und Lösungsschlüssel getrennt. Jedes als separate Da
 
   // How-To Guide - FULL text from suchen-und-zaehlen.md step sections
   howTo: {
-    sectionTitle: 'Arbeitsblätter Grundschule erstellen in 5 einfachen Schritten - Kostenlose Arbeitsblätter für Vorschule',
+    sectionTitle: 'Kostenloses Arbeitsblatt für Kinder erstellen - Arbeitsblatt für Vorschule',
     sectionDescription: 'Erstellen Sie professionelle Arbeitsblätter Grundschule in unter 3 Minuten. Der Generator führt Sie durch fünf einfache Schritte. Keine Designkenntnisse erforderlich. Perfekt für Erzieher in Vorschule und Grundschule.',
     ctaText: 'Jetzt Erstellen',
     badgeText: 'So funktioniert es',
@@ -315,7 +315,7 @@ Laden Sie Arbeitsblatt und Antwortschlüssel getrennt herunter. Jedes als separa
 
   // Use Cases - FULL text from suchen-und-zaehlen.md use case sections
   useCases: {
-    sectionTitle: 'Perfekt für Erzieher, Eltern und Pädagogen - Kostenlose Arbeitsblätter für jeden Bedarf',
+    sectionTitle: 'Kostenloses Arbeitsblatt für Kinder - Arbeitsblatt für Vorschule mit Kostenlose Druckvorlagen',
     sectionDescription: 'Der Suchen-und-Zählen-Generator eignet sich für verschiedene Bildungskontexte. Erzieher in der Vorschule nutzen ihn täglich. Grundschullehrer erstellen differenzierte Materialien. Eltern unterstützen ihre Kinder zu Hause. Jede Gruppe profitiert von unterschiedlichen Funktionen.',
     badgeText: 'Anwendungsbereiche',
     readMoreLabel: 'Mehr lesen',
@@ -398,7 +398,7 @@ Die 300-DPI-Qualität ist essenziell für kommerzielle Produkte. Käufer erwarte
 
   // FAQ Section - FULL FAQs from suchen-und-zaehlen.md
   faq: {
-    sectionTitle: 'Häufig gestellte Fragen zu Arbeitsblätter Grundschule und Vorschule',
+    sectionTitle: 'FAQ - Kostenloses Arbeitsblatt für Kinder und Arbeitsblatt für Vorschule',
     sectionDescription: 'Diese häufigen Fragen helfen bei der Entscheidung ob der Generator für Sie geeignet ist. Wir beantworten Fragen zu Kosten, Nutzung und technischen Details.',
     showMoreText: 'Mehr Fragen anzeigen',
     showLessText: 'Weniger anzeigen',
@@ -533,7 +533,7 @@ Die 300-DPI-Qualität ist essenziell für kommerzielle Produkte. Käufer erwarte
 
   // Related Apps - Kombinieren Sie Suchen-und-Zählen mit anderen Generatoren
   relatedApps: {
-    sectionTitle: 'Kombinieren Sie Suchen-und-Zählen mit anderen Generatoren - Ganzheitliche Arbeitsblätter Grundschule',
+    sectionTitle: 'Kostenlose Arbeitsblätter kombinieren - Arbeitsblatt für Kinder und Kostenlose Druckvorlagen',
     sectionDescription: 'Ihr Basis-Paket Abonnement beinhaltet 10 Generatoren, die perfekt zusammenarbeiten. Kombinieren Sie Suchen-und-Zählen mit Mathe-Arbeitsblättern für Rechnen lernen. Verbinden Sie mit Schwungübungen für Feinmotorik-Training. Erstellen Sie thematische Lernpakete.',
     ctaTitle: 'Bereit, fantastische Suchen-und-Zählen-Arbeitsblätter zu erstellen?',
     ctaDescription: 'Schließen Sie sich tausenden Lehrkräften an, die professionelle Arbeitsblätter erstellen. Unbegrenzte Generierung, kommerzielle Lizenz inklusive.',

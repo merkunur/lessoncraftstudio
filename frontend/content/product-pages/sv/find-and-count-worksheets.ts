@@ -85,8 +85,8 @@ Grundpaketsprenumerationen kostar 144 dollar per år eller 15 dollar per månad.
 
   // Sample Gallery - REAL file paths from samples/english/find and count/
   samples: {
-    sectionTitle: 'Hitta och Räkna Arbetsblad Exempel - Gratis Arbetsblad för Barn',
-    sectionDescription: 'Ladda ner gratis exempelarbetsblad för att se vår professionella kvalitet',
+    sectionTitle: 'Gratis Arbetsblad för Barn - Gratis Arbetsblad och Gratis Utskrifter',
+    sectionDescription: 'Ladda ner gratis utskrifter - Gratis arbetsblad för barn av professionell kvalitet. Gratis arbetsblad och arbetsblad för barn perfekt för arbetsblad för förskoleklass. Gratis arbetsblad för barn och arbetsblad för barn inkluderar utbildningsmaterial. Gratis arbetsblad och gratis utskrifter tillgänglig',
     downloadLabel: 'Ladda Ner Gratis Exempel',
     worksheetLabel: 'Arbetsblad',
     answerKeyLabel: 'Facit',
@@ -255,7 +255,7 @@ Grundpaketsprenumerationen kostar 144 dollar per år eller 15 dollar per månad.
 
   // Use Cases - FULL text from find-and-count.md use case sections
   useCases: {
-    sectionTitle: 'Perfekt för Lärare och Föräldrar - Förskoleklass Material och Matematik Arbetsblad för Alla Behov',
+    sectionTitle: 'Gratis Arbetsblad för Barn - Arbetsblad för Förskoleklass med Gratis Utskrifter. Arbetsblad för Barn',
     sectionDescription: 'Hitta-och-räkna arbetsblad fungerar för många olika utbildningssituationer. Från förskoleklass till årskurs 3 använder lärare dessa arbetsblad dagligen. Hemundervisande föräldrar skapar anpassade matte övningar för sina barn. Specialpedagoger differentierar innehåll för individuella behov. Lärarentreprenörer säljer professionella arbetsblad gratis design på Teachers Pay Teachers. Varje användargrupp får unik värde från Grundpaketsprenumerationen.',
     badgeText: 'Vem Det Är För',
     readMoreLabel: 'Läs mer',
@@ -314,7 +314,7 @@ Grundpaketsprenumerationen kostar 144 dollar per år eller 15 dollar per månad.
 
   // FAQ Section - Selected FAQs from find-and-count.md
   faq: {
-    sectionTitle: 'Vanliga Frågor om Hitta och Räkna Arbetsblad',
+    sectionTitle: 'FAQ - Gratis Arbetsblad för Barn och Arbetsblad för Förskoleklass med Gratis Utskrifter. Arbetsblad för Barn',
     sectionDescription: 'Lärare och föräldrar ställer ofta samma frågor om hitta-och-räkna generatorn. Här besvarar vi de vanligaste frågorna om att skapa arbetsblad. Från prissättning till anpassningsalternativ täcker vi allt du behöver veta.',
     showMoreText: 'Visa fler frågor',
     showLessText: 'Visa färre',
@@ -419,7 +419,7 @@ Grundpaketsprenumerationen kostar 144 dollar per år eller 15 dollar per månad.
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Kombinera med Andra Arbetsblad Generatorer',
+    sectionTitle: 'Gratis Arbetsblad Kombinera - Arbetsblad för Barn och Gratis Utskrifter',
     sectionDescription: 'Skapa kompletta lärpaket genom att kombinera hitta-och-räkna arbetsblad med dessa kompletterande generatorer.',
     ctaTitle: 'Redo att Skapa Fantastiska Arbetsblad?',
     ctaDescription: 'Gå med tusentals lärare som skapar professionella arbetsblad. Obegränsad generering, kommersiell licens ingår.',

@@ -83,8 +83,8 @@ Full Tilgang-abonnement inkluderer alle 33 oppgavegeneratorer på plattformen. L
 
   // Sample Gallery - REAL file paths from samples/norwegian/find-objects/
   samples: {
-    sectionTitle: 'Gratis Arbeidsark Eksempler - Finn Objektene for Barn og 1. Trinn',
-    sectionDescription: 'Last ned gratis arbeidsark for barn med finn objektene aktiviteter. Gratis utskrifter med profesjonell kvalitet. Arbeidsark for 1. trinn med I Spy og Odd One Out aktiviteter.',
+    sectionTitle: 'Gratis Arbeidsark for Barn - Gratis Arbeidsark og Gratis Utskrifter',
+    sectionDescription: 'Last ned gratis utskrifter - Gratis arbeidsark for barn av profesjonell kvalitet. Gratis arbeidsark og arbeidsark for barn perfekt for arbeidsark for 1. trinn. Gratis arbeidsark for barn og arbeidsark for barn inkluderer gratis utskrifter undervisningsmateriell. Gratis arbeidsark og arbeidsark for 1. trinn tilgjengelig',
     badgeText: 'Gratis Eksempler',
     downloadLabel: 'Last ned Gratis Eksempel',
     downloadingLabel: 'Laster ned...',
@@ -135,7 +135,7 @@ Full Tilgang-abonnement inkluderer alle 33 oppgavegeneratorer på plattformen. L
 
   // Features Grid - FULL text from find-objects.md feature sections
   features: {
-    sectionTitle: 'Finn Objektene Generator Funksjoner - Gratis Arbeidsark for Barn og Matematikk Oppgaver',
+    sectionTitle: 'Gratis Arbeidsark og Arbeidsark for Barn - Gratis Utskrifter og Arbeidsark for 1. Trinn',
     sectionDescription: 'Vår finn objektene oppgavegenerator gir alle verktøyene for å lage gratis arbeidsark for barn. Full Tilgang-abonnementet inkluderer syv viktige funksjoner som gjør det enkelt å skape gratis utskrifter og oppgavehefter barn elsker. Lærere på småskoletrinnet får tilgang til arbeidsark for 1. trinn med matematikk oppgaver og finmotorikk øvelser. Generer gratis arbeidsark som matcher nøyaktig dine undervisningsbehov. Hver funksjon er designet for å spare tid og gi maksimal fleksibilitet.',
     highlightBadgeText: 'Viktig Funksjon',
     readMoreLabel: 'Les mer',
@@ -229,7 +229,7 @@ Generér en fasit automatisk som viser hvor objektene er gjemt. Fasiten bruker s
 
   // How-To Guide - FULL text from find-objects.md step sections
   howTo: {
-    sectionTitle: 'Hvordan Lage Gratis Arbeidsark for Barn i 5 Enkle Trinn - Arbeidsark for 1. Trinn Generator',
+    sectionTitle: 'Gratis Arbeidsark for Barn Lage - Arbeidsark for 1. Trinn',
     sectionDescription: 'Generér gratis arbeidsark for barn og matematikk oppgaver på under tre minutter. Denne trinn-for-trinn guiden viser deg hvordan å lage gratis utskrifter med visuelle diskrimineringsoppgaver fra start til slutt. Ingen designerferdigheter kreves for å lage arbeidsark for 1. trinn og oppgavehefter barn elsker. Den strømlinjeformede arbeidsflyten hjelper lærere med å lage gratis arbeidsark, matteoppgaver og finmotorikk øvelser effektivt. Følg disse fem enkle trinnene for å produsere arbeidsark klare for klasserommet eller kommersielt salg.',
     ctaText: 'Start Nå',
     badgeText: 'Slik Fungerer Det',
@@ -301,7 +301,7 @@ Skriv ut nedlastede arbeidsark umiddelbart eller lagre dem for senere bruk. PDF-
 
   // Use Cases - FULL text from find-objects.md use case sections
   useCases: {
-    sectionTitle: 'Perfekt for Lærere og Foreldre - Gratis Arbeidsark for Barn og Arbeidsark for 1. Trinn',
+    sectionTitle: 'Gratis Arbeidsark for Barn - Arbeidsark for 1. Trinn med Gratis Utskrifter. Arbeidsark for Barn',
     sectionDescription: 'Finn objektene arbeidsark fungerer utmerket for mange undervisningssituasjoner. Lærere på småskoletrinnet bruker disse gratis arbeidsark for barn daglig for visuell ferdighetstrening. Hjemmeundervisningsforeldre elsker gratis utskrifter og fleksibiliteten til å skape tilpassede arbeidsark for 1. trinn. Spesialpedagoger verdsetter differentieringsmulighetene for varierte elevbehov. Lærerentreprenører selger disse matematikk oppgavene på Teachers Pay Teachers og Etsy. Oppdag hvordan hver gruppe drar nytte av vår generator for gratis arbeidsark, gangetabellen øvelser og lesetrening aktiviteter.',
     badgeText: 'Hvem Er Det For',
     readMoreLabel: 'Les mer',
@@ -384,7 +384,7 @@ Fritidsprogrammer setter pris på lave kostnader ved ubegrensede arbeidsark grat
 
   // FAQ Section - From find-objects.md
   faq: {
-    sectionTitle: 'Ofte Stilte Spørsmål om Gratis Arbeidsark for Barn - Arbeidsark for 1. Trinn og Gratis Utskrifter',
+    sectionTitle: 'FAQ - Gratis Arbeidsark for Barn og Arbeidsark for 1. Trinn. Arbeidsark for Barn',
     sectionDescription: 'Lærere stiller mange spørsmål om vår finn objektene generator før de abonnerer. Her er de 12 mest vanlige spørsmålene med detaljerte svar om gratis arbeidsark for barn. Lær om Full Tilgang-abonnement, kommersiell lisens, gratis utskrifter og arbeidsark for 1. trinn. Få klarhet om hvordan generatoren fungerer og hva du kan lage med gratis arbeidsark, matematikk oppgaver og oppgavehefter barn.',
     showMoreText: 'Vis flere spørsmål',
     showLessText: 'Vis færre',

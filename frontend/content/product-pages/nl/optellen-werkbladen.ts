@@ -95,8 +95,8 @@ Rekenen met plaatjes maakt abstract tellen concreet. Kinderen zien drie appels p
 
   // Sample Gallery - REAL file paths from samples/dutch/addition/
   samples: {
-    sectionTitle: 'Gratis Optelwerkbladen Voorbeelden - Werkblad voor Kinderen Downloaden',
-    sectionDescription: 'Download gratis werkbladen om onze professionele kwaliteit te ervaren. Elk gratis printables voorbeeld toont de hoge kwaliteit van onze werkblad voor kinderen.',
+    sectionTitle: 'Gratis Werkblad voor Kinderen - Gratis Werkbladen en Gratis Printables',
+    sectionDescription: 'Download gratis printables - Gratis werkblad voor kinderen van professionele kwaliteit. Gratis werkbladen en werkblad voor kinderen perfect voor werkblad voor kleuters. Gratis werkblad voor kinderen en werkblad voor kinderen inclusief educatief materiaal. Gratis werkblad beschikbaar',
     downloadLabel: 'Gratis Voorbeeld Downloaden',
     worksheetLabel: 'Werkblad',
     answerKeyLabel: 'Antwoordblad',
@@ -147,7 +147,7 @@ Rekenen met plaatjes maakt abstract tellen concreet. Kinderen zien drie appels p
 
   // Features Grid - FULL text from addition.md feature sections
   features: {
-    sectionTitle: 'Functies - Gratis Werkbladen Optellen voor Werkbladen Groep 3',
+    sectionTitle: 'Gratis Werkbladen en Werkblad voor Kinderen - Gratis Printables en Werkblad voor Kleuters',
     sectionDescription: 'Deze optelwerkbladen maker biedt alle functies die je nodig hebt voor effectief rekenonderwijs. Van gratis werkblad voor kleuters tot uitdagende sommen tot 20 voor groep 4. Ontdek hoe je in enkele minuten professionele gratis werkbladen maakt met vier verschillende oefenmodi.',
     highlightBadgeText: 'Uitgelicht',
     readMoreLabel: 'Lees meer',
@@ -252,7 +252,7 @@ Je downloadt werkbladen als PDF of JPEG. De PDF-optie is ideaal voor printen. JP
 
   // How-To Guide - FULL text from addition.md step sections
   howTo: {
-    sectionTitle: 'Hoe Maak Je Gratis Optelwerkbladen voor Kinderen in 5 Stappen',
+    sectionTitle: 'Gratis Werkblad voor Kinderen Maken - Werkblad voor Kleuters',
     sectionDescription: 'Het maken van een optelwerkblad duurt minder dan drie minuten. Volg deze vijf stappen en je hebt een professioneel werkblad klaar. Geen technische kennis vereist. Van thema kiezen tot downloaden in een paar klikken.',
     ctaText: 'Nu Starten',
     badgeText: 'Zo werkt het',
@@ -324,7 +324,7 @@ Download ook het antwoordenblad apart. Klik op "Antwoordblad (PDF)". Bewaar dit 
 
   // Use Cases - FULL text from addition.md use case sections
   useCases: {
-    sectionTitle: 'Perfect voor Leerkrachten - Gratis Werkbladen van Kleuters tot Groep 3',
+    sectionTitle: 'Gratis Werkblad voor Kinderen - Werkblad voor Kleuters met Gratis Printables. Werkblad voor Kinderen',
     sectionDescription: 'De optelwerkbladen generator is ontworpen voor verschillende gebruikers. Van kleuterjuffen tot ouders die thuisonderwijs geven. Ontdek hoe deze tool past bij jouw situatie en onderwijsdoelen.',
     badgeText: 'Voor wie',
     readMoreLabel: 'Lees meer',
@@ -407,7 +407,7 @@ Combineer optelwerkbladen met kleurplaten tot complete pakketten. Een thema-bund
 
   // FAQ Section - FULL FAQs from addition.md
   faq: {
-    sectionTitle: 'Veelgestelde Vragen over Gratis Optelwerkbladen voor Kinderen',
+    sectionTitle: 'FAQ - Gratis Werkblad voor Kinderen en Werkblad voor Kleuters. Werkblad voor Kinderen',
     sectionDescription: 'Heb je vragen over de optelwerkbladen generator? Hier vind je antwoorden op de meest gestelde vragen. Van abonnementskosten tot technische mogelijkheden.',
     showMoreText: 'Meer vragen tonen',
     showLessText: 'Minder tonen',
@@ -512,7 +512,7 @@ Combineer optelwerkbladen met kleurplaten tot complete pakketten. Een thema-bund
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Combineer met Andere Gratis Werkbladen Generators',
+    sectionTitle: 'Gratis Werkbladen Combineren - Werkblad voor Kinderen en Gratis Printables',
     sectionDescription: 'De Basispakket bevat tien werkblad generators die perfect samenwerken. Combineer optelwerkbladen met andere tools voor complete leerpakketten. Ontdek hoe je thematische bundels maakt voor elke lesweek.',
     ctaTitle: 'Klaar om geweldige werkbladen te maken?',
     ctaDescription: 'Sluit je aan bij duizenden leerkrachten die professionele werkbladen maken. Onbeperkt genereren, commerciële licentie inbegrepen.',

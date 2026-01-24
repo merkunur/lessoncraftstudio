@@ -15,7 +15,7 @@ export const shadowMatchEnContent: ProductPageContent = {
   seo: {
     slug: 'shadow-match-worksheets',
     appId: 'shadow-match',
-    title: 'Free Shadow Match Worksheets for Kindergarten | Printable PDF Generator',
+    title: 'Free Worksheet for Kids - Shadow Match Worksheets for Kindergarten | Free Printables Generator',
     description: 'Create shadow match worksheets for kindergarten and first grade. Free printable visual perception activities with answer keys. Download PDF in 3 minutes.',
     keywords: 'shadow match worksheets, free worksheets, kindergarten worksheets, visual perception, free printable worksheets, first grade worksheets, worksheet for kids, silhouette matching, shape recognition worksheets, free printables',
     canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/shadow-match-worksheets',
@@ -55,8 +55,8 @@ export const shadowMatchEnContent: ProductPageContent = {
 
   // Hero Section - FULL text from shadow-match.md paragraphs 1-4
   hero: {
-    title: 'Free Printable Shadow Match Worksheets',
-    subtitle: 'Visual Perception Worksheet Generator for Kindergarten and First Grade',
+    title: 'Free Worksheets - Shadow Match Worksheet for Kids',
+    subtitle: 'Free Worksheet for Kindergarten - Visual Perception Worksheet Generator',
     description: `Create professional shadow match worksheets with our visual perception worksheet generator. Your Full Access subscription gives you unlimited worksheet creation with no per-worksheet fees. Generate custom printable shadow matching worksheets perfect for kindergarten and first grade students developing visual discrimination skills. Download high-quality PDF worksheets in under 3 minutes.
 
 Shadow match worksheets help young learners develop critical visual perception skills through engaging matching activities. Our generator creates two distinct exercise types in one powerful tool. Shadow Match mode presents colorful objects alongside their black silhouettes for classic matching practice. Make It Whole mode splits images into two pieces that students reassemble mentally. Both exercises build spatial reasoning and pattern recognition abilities essential for academic success.
@@ -78,7 +78,7 @@ Full Access subscription costs $240 annually or $25 monthly. This includes all 3
 
   // Sample Gallery - REAL file paths from samples/english/shadow match/
   samples: {
-    sectionTitle: 'Worksheet Samples',
+    sectionTitle: 'Free Worksheet Samples - Free Printables for Kids',
     downloadLabel: 'Download Free Sample',
     worksheetLabel: 'Worksheet',
     answerKeyLabel: 'Answer Key',
@@ -123,8 +123,8 @@ Full Access subscription costs $240 annually or $25 monthly. This includes all 3
 
   // Features Grid - FULL descriptions from shadow-match.md H3 sections
   features: {
-    sectionTitle: 'Shadow Match Worksheet Features - Everything You Need for Kindergarten Worksheets and First Grade Worksheets',
-    sectionDescription: 'Our shadow matching worksheet generator combines powerful features with simple controls to create professional free printable worksheets in minutes. Teachers using our platform create kindergarten worksheets, first grade worksheets, and preschool activities without design experience. The shadow match generator includes dual exercise modes, complete customization, and professional quality exports perfect for classroom teaching or commercial sales. Full Access subscription gives you unlimited worksheet creation across all 33 apps including math worksheets, phonics worksheets, sight words worksheets, alphabet worksheets, addition worksheets, tracing worksheets, and coloring worksheets.',
+    sectionTitle: 'Free Worksheet for Kids Features - Free Worksheets and Free Printables for Kindergarten',
+    sectionDescription: 'Our shadow matching worksheet generator combines powerful features with simple controls to create professional free worksheet for kids in minutes. Teachers using our platform create free worksheet for kindergarten, first grade worksheets, and preschool activities without design experience. The shadow match generator includes dual exercise modes, complete customization, and professional quality exports perfect for classroom teaching or commercial sales. Full Access subscription gives you unlimited worksheet for kindergarten creation across all 33 apps including math worksheets, phonics worksheets, sight words worksheets, alphabet worksheets, addition worksheets, tracing worksheets, and free worksheets for kids.',
     highlightBadgeText: 'Key Feature',
     items: [
       {
@@ -188,7 +188,7 @@ Full Access subscription costs $240 annually or $25 monthly. This includes all 3
 
   // How-To Guide - FULL text from shadow-match.md Step sections
   howTo: {
-    sectionTitle: 'How to Create Free Printable Worksheets in 5 Easy Steps - Shadow Match Generator for Kindergarten Worksheets',
+    sectionTitle: 'How to Create Free Worksheet for Kids in 5 Steps - Worksheet for Kindergarten Generator',
     sectionDescription: 'Creating professional shadow matching worksheets takes under three minutes with our streamlined workflow. Teachers generate kindergarten worksheets, first grade worksheets, and preschool activities without technical skills. The five-step process guides you from image selection through final PDF download. Each step offers customization options while maintaining simplicity. Follow this workflow to create math worksheets, phonics worksheets, sight words worksheets, alphabet worksheets, addition worksheets, tracing worksheets, and coloring worksheets across all 33 generator types.',
     ctaText: 'Start Creating Now',
     steps: [
@@ -232,7 +232,7 @@ Full Access subscription costs $240 annually or $25 monthly. This includes all 3
 
   // Use Cases - FULL descriptions from shadow-match.md persona sections
   useCases: {
-    sectionTitle: 'Perfect for Teachers, Parents, and Educators - Free Printable Worksheets for Every Classroom Need',
+    sectionTitle: 'Free Worksheet for Kindergarten - Free Worksheets and Free Printables for Kids',
     sectionDescription: 'Shadow matching worksheets serve diverse educational settings from preschool through elementary school. Teachers use our generator to create sight words worksheets, phonics worksheets, alphabet worksheets, addition worksheets, tracing worksheets, and coloring worksheets supporting multiple learning objectives. The visual perception focus makes shadow match activities ideal for kindergarten worksheets and first grade worksheets. Homeschool parents appreciate the quick creation of math worksheets without subscription complexity. Special education teachers customize free printable worksheets for individualized learning plans. Teacher entrepreneurs build profitable businesses selling worksheet packets on Teachers Pay Teachers.',
     items: [
       {
@@ -288,14 +288,14 @@ Full Access subscription costs $240 annually or $25 monthly. This includes all 3
 
   // FAQ Section - ALL questions from shadow-match.md
   faq: {
-    sectionTitle: 'Frequently Asked Questions About Shadow Match Worksheets, Coloring Worksheets, and Tracing Worksheets',
+    sectionTitle: 'FAQ - Free Worksheet for Kids, Free Worksheets for Kindergarten, and Free Printables',
     sectionDescription: 'Teachers frequently ask about subscription requirements, classroom usage, customization options, and commercial licensing for shadow matching worksheets. Full Access subscription provides unlimited creation of coloring worksheets, tracing worksheets, sight words worksheets, phonics worksheets, alphabet worksheets, addition worksheets, and all 33 worksheet types. The professional quality and flexible features support diverse educational needs from kindergarten through elementary school. These answers address common questions helping teachers decide if Full Access subscription meets their classroom requirements.',
     showMoreText: 'Show more questions',
     showLessText: 'Show less',
     items: [
       {
         id: '1',
-        question: 'Is This Shadow Match Generator Really Free to Use for Creating Kindergarten Worksheets?',
+        question: 'Is This Free Worksheet Generator Really Free for Kids and Kindergarten?',
         answer: 'The shadow match worksheet generator requires a Full Access subscription costing $240 annually or $25 monthly. Your subscription gives you unlimited shadow matching worksheet creation with no per-worksheet fees. Generate as many kindergarten worksheets, first grade worksheets, and preschool activities as you need without additional charges. The subscription includes all 33 worksheet generator types providing tremendous value for teachers creating multiple worksheet types weekly. Full Access subscription eliminates per-worksheet costs common with other platforms. Create unlimited free printable worksheets across all apps including math worksheets, phonics worksheets, sight words worksheets, alphabet worksheets, addition worksheets, tracing worksheets, and coloring worksheets. The $240 annual cost provides better value than purchasing separate curriculum materials or paying per-design fees. Both Core Bundle and Full Access subscriptions include commercial licensing, 11-language support, and professional 300 DPI quality exports supporting classroom use and commercial sales.',
       },
       {
@@ -305,7 +305,7 @@ Full Access subscription costs $240 annually or $25 monthly. This includes all 3
       },
       {
         id: '3',
-        question: 'Do I Need Design Skills to Create Professional Free Printable Worksheets?',
+        question: 'Do I Need Design Skills to Create Free Worksheets for Kids?',
         answer: 'No design skills required. The shadow match generator uses simple controls anyone can master in minutes. Select four images, choose exercise mode, and click generate. Your worksheet appears instantly ready for download. Teachers with zero design experience create professional kindergarten worksheets and first grade worksheets daily. The streamlined interface removes technical barriers to worksheet creation. Visual editing requires only basic mouse skills. Click and drag images to new positions. Use corner handles to resize elements. All editing happens visually on the canvas without coding or complex software. Create customized sight words worksheets, phonics worksheets, coloring worksheets, tracing worksheets, alphabet worksheets, and addition worksheets without learning graphic design. The three-minute creation process proves simpler than traditional cut-and-paste worksheet assembly. Teachers focus on educational content while the generator handles professional layout and formatting.',
       },
       {
@@ -411,7 +411,7 @@ Full Access subscription costs $240 annually or $25 monthly. This includes all 3
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Combine with Other Worksheet Generators',
+    sectionTitle: 'More Free Worksheets for Kids - Free Printables and Worksheet for Kindergarten',
     sectionDescription: 'Our platform offers 33 different worksheet generators beyond shadow matching. Your Full Access subscription provides access to all generators for creating comprehensive learning packets. Combine shadow match worksheets with phonics worksheets, alphabet worksheets, and coloring worksheets. Build complete themed units mixing visual perception practice with literacy and fine motor activities.',
     ctaTitle: 'Ready to Create Amazing Worksheets?',
     ctaDescription: 'Join educators creating professional worksheets. Unlimited generation, commercial license included.',

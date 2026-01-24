@@ -79,8 +79,8 @@ O gerador de trenzinho do alfabeto cria fichas educativas de forma rápida. Sele
 
   // Sample Gallery - Portuguese samples from samples/portuguese/alphabet-train/
   samples: {
-    sectionTitle: 'Exemplos de Atividades do Trenzinho do Alfabeto Grátis para Imprimir',
-    sectionDescription: 'Baixe exemplos gratuitos para ver nossa qualidade profissional',
+    sectionTitle: 'Atividade Grátis para Crianças - Atividades Grátis e Imprimíveis Grátis',
+    sectionDescription: 'Baixe imprimíveis grátis - Atividade grátis para crianças de qualidade profissional. Atividades grátis e atividade para crianças perfeitas para atividade para educação infantil. Atividade grátis para crianças e atividade para crianças incluem material educativo. Atividade grátis disponível',
     downloadLabel: 'Baixar Exemplo Grátis',
     worksheetLabel: 'Atividade',
     answerKeyLabel: 'Gabarito',
@@ -124,7 +124,7 @@ O gerador de trenzinho do alfabeto cria fichas educativas de forma rápida. Sele
 
   // Features Grid - FULL text from alphabet-train.md feature sections
   features: {
-    sectionTitle: 'Recursos do Gerador de Atividades Grátis do Trenzinho do Alfabeto para Crianças',
+    sectionTitle: 'Atividades Grátis e Atividade para Crianças - Imprimíveis Grátis e Atividade para Educação Infantil',
     sectionDescription: 'O gerador de trenzinho do alfabeto oferece recursos completos para educadores. Crie atividades educação infantil personalizadas em minutos. Cada ferramenta foi pensada para facilitar seu trabalho. Descubra como transformar suas aulas com atividades vogais e alfabeto profissionais.',
     highlightBadgeText: 'Recurso Principal',
     readMoreLabel: 'Leia mais',
@@ -229,7 +229,7 @@ Recursos de desfazer e refazer para segurança. Zoom para trabalhar em detalhes 
 
   // How-To Guide - FULL text from alphabet-train.md step sections
   howTo: {
-    sectionTitle: 'Como Criar Atividades Grátis de Alfabetização em 5 Passos - Imprimíveis para Educação Infantil',
+    sectionTitle: 'Atividade Grátis para Crianças Criar - Atividade para Educação Infantil',
     sectionDescription: 'Aprenda a criar atividades de alfabetização profissionais em menos de 3 minutos. Este guia passo a passo mostra cada etapa do processo. Perfeito para professores de atividades educação infantil iniciantes. Ideal também para veteranos que buscam agilidade.',
     ctaText: 'Comece Agora',
     badgeText: 'Como Funciona',
@@ -301,7 +301,7 @@ Ative a opção de escala de cinza quando necessário. Economiza tinta colorida 
 
   // Use Cases - FULL text from alphabet-train.md use case sections
   useCases: {
-    sectionTitle: 'Quem Usa Nosso Gerador de Atividades Grátis do Trenzinho do Alfabeto para Imprimir',
+    sectionTitle: 'Atividade Grátis para Crianças - Atividade para Educação Infantil com Imprimíveis Grátis. Atividade para Crianças',
     sectionDescription: 'O gerador de trenzinho do alfabeto atende diversos perfis de educadores. Professores de atividades educação infantil encontram recursos ideais. Pais que educam em casa ganham materiais profissionais. Descubra como cada grupo usa atividades para imprimir do trenzinho.',
     badgeText: 'Para Quem',
     readMoreLabel: 'Leia mais',
@@ -384,7 +384,7 @@ Monte combos com atividades 1º ano e 2º ano incluídas. Ofereça materiais par
 
   // FAQ Section - FULL text from alphabet-train.md FAQ sections
   faq: {
-    sectionTitle: 'Perguntas Frequentes sobre Atividades Grátis do Trenzinho do Alfabeto',
+    sectionTitle: 'FAQ - Atividade Grátis para Crianças e Atividade para Educação Infantil. Atividade para Crianças',
     sectionDescription: 'Respondemos as dúvidas mais comuns sobre o gerador de trenzinho do alfabeto. Descubra tudo sobre atividades para imprimir, preços e recursos. Tire suas dúvidas antes de começar a criar atividades educação infantil profissionais.',
     showMoreText: 'Mostrar mais perguntas',
     showLessText: 'Mostrar menos',
@@ -489,7 +489,7 @@ Monte combos com atividades 1º ano e 2º ano incluídas. Ofereça materiais par
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Combine com Outros Geradores de Atividades Grátis para Imprimir',
+    sectionTitle: 'Atividades Grátis Combinar - Atividade para Crianças e Imprimíveis Grátis',
     sectionDescription: 'Crie pacotes de aprendizagem completos combinando o trenzinho do alfabeto com estes geradores complementares.',
     ctaTitle: 'Pronto para Criar Atividades Incríveis?',
     ctaDescription: 'Junte-se a milhares de educadores que criam atividades profissionais. Geração ilimitada, licença comercial incluída.',

@@ -95,8 +95,8 @@ Unser Generator bietet über 3000 kindgerechte Bilder. Sie wählen ein Thema ode
 
   // Sample Gallery - REAL file paths from samples/english/draw and color/
   samples: {
-    sectionTitle: 'Rasterzeichnen-Arbeitsblätter Beispiele',
-    sectionDescription: 'Laden Sie kostenlose Beispiel-Arbeitsblätter herunter, um unsere professionelle Qualität zu sehen',
+    sectionTitle: 'Kostenloses Arbeitsblatt für Kinder - Kostenlose Arbeitsblätter und Kostenlose Druckvorlagen',
+    sectionDescription: 'Laden Sie kostenlose Druckvorlagen herunter - Kostenloses Arbeitsblatt für Kinder in professioneller Qualität für Arbeitsblatt für Vorschule',
     downloadLabel: 'Kostenloses Beispiel Herunterladen',
     worksheetLabel: 'Arbeitsblatt',
     answerKeyLabel: 'Lösungsblatt',
@@ -147,7 +147,7 @@ Unser Generator bietet über 3000 kindgerechte Bilder. Sie wählen ein Thema ode
 
   // Features Grid - FULL text from draw-and-color.md feature sections
   features: {
-    sectionTitle: 'Funktionen des Rasterzeichnen Generators - Kostenlose Arbeitsblätter Grundschule und Vorschul-Arbeitsblätter erstellen',
+    sectionTitle: 'Arbeitsblatt für Kinder - Arbeitsblatt für Vorschule und Kostenlose Arbeitsblätter',
     sectionDescription: 'Unser Rasterzeichnen-Generator bietet alles für professionelle Arbeitsblätter. Von der Bildauswahl bis zum fertigen PDF dauert es nur wenige Minuten. Jede Funktion wurde für Lehrkräfte und Eltern entwickelt. Sie brauchen keine Designkenntnisse. Der Generator übernimmt die technische Arbeit. Sie konzentrieren sich auf den pädagogischen Inhalt.',
     highlightBadgeText: 'Hauptfunktion',
     readMoreLabel: 'Mehr lesen',
@@ -254,7 +254,7 @@ Diese Funktion ist ideal für Schwungübungen und regelmäßige Übungsblätter.
 
   // How-To Guide - FULL text from draw-and-color.md step sections
   howTo: {
-    sectionTitle: 'Anleitung: Kostenlose Arbeitsblätter Grundschule erstellen in 5 einfachen Schritten - Ausmalbilder und Malvorlagen Generator',
+    sectionTitle: 'Kostenloses Arbeitsblatt für Kinder erstellen - Arbeitsblatt für Vorschule',
     sectionDescription: 'Erstellen Sie professionelle Rasterzeichnen-Arbeitsblätter in nur fünf Schritten. Der gesamte Vorgang dauert unter drei Minuten. Keine Designkenntnisse erforderlich. Der Generator führt Sie durch jeden Schritt. Am Ende haben Sie druckfertige Arbeitsblätter Grundschule für Ihren Unterricht.',
     ctaText: 'Jetzt Erstellen',
     badgeText: 'So funktioniert es',
@@ -324,7 +324,7 @@ Speichern Sie das Arbeitsblatt auf Ihrem Computer. Drucken Sie es für Ihre Klas
 
   // Use Cases - FULL descriptions from draw-and-color.md persona sections
   useCases: {
-    sectionTitle: 'Wer profitiert von Rasterzeichnen - Kostenlose Arbeitsblätter Grundschule für Lehrkräfte, Eltern und Erzieher',
+    sectionTitle: 'Kostenloses Arbeitsblatt für Kinder - Arbeitsblatt für Vorschule mit Kostenlose Druckvorlagen',
     sectionDescription: 'Rasterzeichnen-Arbeitsblätter eignen sich für viele Zielgruppen. Lehrkräfte an Grundschulen nutzen sie täglich. Erzieher in der Vorschule schätzen die Feinmotorik-Förderung. Eltern erstellen Übungsmaterial für zu Hause. Der Generator passt sich allen Bedürfnissen an.',
     badgeText: 'Anwendungsbereiche',
     readMoreLabel: 'Mehr lesen',
@@ -395,7 +395,7 @@ Rechnen 1. Klasse Materialien mit Rasterzeichnen sind besonders gefragt. Die Kom
 
   // FAQ Section - FULL FAQs from draw-and-color.md
   faq: {
-    sectionTitle: 'Häufig gestellte Fragen zum Rasterzeichnen Generator - Arbeitsblätter Grundschule und Mathe-Arbeitsblätter FAQ',
+    sectionTitle: 'FAQ - Kostenloses Arbeitsblatt für Kinder und Arbeitsblatt für Vorschule',
     sectionDescription: 'Hier beantworten wir die wichtigsten Fragen zum Rasterzeichnen-Generator. Diese Informationen helfen bei der Entscheidung für das richtige Werkzeug. Kontaktieren Sie uns gerne für weitere Fragen.',
     showMoreText: 'Mehr Fragen anzeigen',
     showLessText: 'Weniger anzeigen',
@@ -524,7 +524,7 @@ Rechnen 1. Klasse Materialien mit Rasterzeichnen sind besonders gefragt. Die Kom
 
   // Related Apps - Apps that work well with draw-and-color
   relatedApps: {
-    sectionTitle: 'Rasterzeichnen mit anderen Generatoren kombinieren - Mathe-Arbeitsblätter und Einmaleins Komplettpaket für die Grundschule',
+    sectionTitle: 'Kostenlose Arbeitsblätter kombinieren - Arbeitsblatt für Kinder und Kostenlose Druckvorlagen',
     sectionDescription: 'Kombinieren Sie Rasterzeichnen mit anderen Arbeitsblatt-Generatoren. Das Vollzugriff Abonnement enthält alle 33 Apps. So entstehen umfassende Lernpakete für jeden Bedarf. Thematisch abgestimmte Materialien verstärken den Lerneffekt. Kinder arbeiten motivierter mit vielfältigen Aufgabentypen.',
     ctaTitle: 'Bereit, fantastische Arbeitsblätter zu erstellen?',
     ctaDescription: 'Schließen Sie sich tausenden Lehrkräften an, die professionelle Arbeitsblätter erstellen. Unbegrenzte Generierung, kommerzielle Lizenz inklusive.',

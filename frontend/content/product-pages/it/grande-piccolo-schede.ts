@@ -79,8 +79,8 @@ Ogni scheda didattica si scarica in formato PDF o JPEG di alta qualità professi
 
   // Sample Gallery
   samples: {
-    sectionTitle: 'Schede Gratuite Grande Piccolo - Stampabili Gratuiti per Bambini',
-    sectionDescription: 'Scarica scheda gratuita per vedere la nostra qualità professionale',
+    sectionTitle: "Scheda Gratuita per Bambini - Schede Gratuite e Stampabili Gratuiti e Scheda per Bambini",
+    sectionDescription: "Scarica stampabili gratuiti - Scheda gratuita per bambini di qualità professionale. Schede gratuite e scheda per bambini perfette per scheda per scuola dell'infanzia. Scheda gratuita per bambini e scheda per bambini includono materiale educativo. Scheda gratuita e scheda per scuola dell'infanzia disponibile",
     downloadLabel: 'Scarica Esempio Gratuito',
     worksheetLabel: 'Scheda',
     answerKeyLabel: 'Chiave di Risposta',
@@ -124,7 +124,7 @@ Ogni scheda didattica si scarica in formato PDF o JPEG di alta qualità professi
 
   // Features Grid
   features: {
-    sectionTitle: 'Funzionalità Generatore Schede Gratuite - Scheda per Bambini Grande Piccolo',
+    sectionTitle: "Schede Gratuite e Scheda per Bambini - Stampabili Gratuiti e Scheda per Scuola dell'Infanzia",
     sectionDescription: 'Il generatore di schede didattiche grande piccolo include sette funzionalità essenziali per maestre e maestri della scuola dell\'infanzia e primaria. Ogni funzione è stata progettata per risparmiare tempo e creare materiali didattici di qualità professionale. L\'abbonamento Accesso Completo da 240 euro all\'anno ti dà accesso completo a tutte queste funzionalità per tutti i 33 tipi di generatori di schede. Nessun limite di utilizzo. Nessun costo aggiuntivo per scheda creata.',
     highlightBadgeText: 'Funzionalità Chiave',
     readMoreLabel: 'Leggi di più',
@@ -218,7 +218,7 @@ L'opzione scala di grigi è inclusa per ridurre drasticamente il consumo di inch
 
   // How-To Guide Section
   howTo: {
-    sectionTitle: 'Come Creare Schede Gratuite Grande Piccolo - Scheda Gratuita per Bambini',
+    sectionTitle: "Scheda Gratuita per Bambini Creare - Scheda per Scuola dell'Infanzia",
     sectionDescription: 'Creare schede didattiche professionali per insegnare i concetti di dimensione richiede meno di 3 minuti. L\'intero processo dal login al download è velocissimo e intuitivo. Nessuna competenza tecnica richiesta per generare schede matematica e attività di pregrafismo. Segui questi cinque passi semplici e avrai schede didattiche scuola primaria personalizzate pronte per i tuoi studenti della scuola dell\'infanzia.',
     ctaText: 'Inizia Ora',
     badgeText: 'Guida Passo-Passo',
@@ -290,7 +290,7 @@ Il formato PDF mantiene dimensioni esatte della pagina A4 o Letter. Perfetto per
 
   // Use Cases Section
   useCases: {
-    sectionTitle: 'Perfetto per Maestre - Schede Gratuite Grande Piccolo Scuola Infanzia',
+    sectionTitle: "Perfetto per Maestre - Schede Gratuite Grande Piccolo Scuola Infanzia",
     sectionDescription: 'Il generatore di schede grande piccolo è ideale per diversi tipi di educatori e contesti didattici. Maestre della scuola dell\'infanzia usano le schede per insegnare concetti matematici fondamentali. Insegnanti di scuola primaria creano materiali per pregrafismo e discriminazione visiva. Genitori homeschooler personalizzano schede didattiche per i loro bambini. Educatori di sostegno adattano le attività per bisogni speciali.',
     badgeText: 'Chi Usa le Nostre Schede',
     readMoreLabel: 'Leggi di più',
@@ -373,7 +373,7 @@ La strategia vincente è creare pacchetti tematici completi. Pacchetto autunno c
 
   // FAQ Section
   faq: {
-    sectionTitle: 'Domande Frequenti Schede Gratuite Grande Piccolo - Stampabili Gratuiti',
+    sectionTitle: "FAQ - Scheda Gratuita per Bambini e Scheda per Scuola dell'Infanzia. Scheda per Bambini",
     sectionDescription: 'Gli insegnanti hanno domande specifiche prima di abbonarsi al generatore di schede grande piccolo. Questa sezione risponde alle domande più comuni su schede didattiche scuola dell\'infanzia, schede matematica, alfabeto, tabelline, pregrafismo e disegni da colorare.',
     showMoreText: 'Mostra altre domande',
     showLessText: 'Mostra meno domande',
@@ -549,7 +549,7 @@ Puoi creare schede tematiche collegando materie diverse. Tema animali con grande
 
   // Related Apps Section
   relatedApps: {
-    sectionTitle: 'Combina Schede Gratuite Grande Piccolo con Altri Stampabili Gratuiti',
+    sectionTitle: "Schede Gratuite Combinare - Scheda per Bambini e Stampabili Gratuiti",
     sectionDescription: 'L\'abbonamento Accesso Completo include 33 generatori. Combina il generatore Grande Piccolo con altri strumenti. Crea pacchetti completi di schede didattiche. Perfetto per unità tematiche. Ottimo per centri di apprendimento.',
     ctaTitle: 'Pronto a Creare Schede Straordinarie?',
     ctaDescription: 'Unisciti a migliaia di educatori che creano schede professionali. Generazione illimitata, licenza commerciale inclusa.',

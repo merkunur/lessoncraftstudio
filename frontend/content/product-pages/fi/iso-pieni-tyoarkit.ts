@@ -51,8 +51,8 @@ Jokainen tehtävä sopii esiopetukseen ja matematiikan alkuopetukseen alakouluss
 
   // Sample Gallery - REAL file paths from samples/english/big small/
   samples: {
-    sectionTitle: 'Iso ja Pieni Tehtävät Esimerkit',
-    sectionDescription: 'Lataa ilmaiset esimerkkityöarkit nähdäksesi ammattimaisen laatumme',
+    sectionTitle: 'Ilmainen Työarkki Lapsille - Ilmaiset Työarkit ja Ilmaiset Tulosteet',
+    sectionDescription: 'Lataa ilmaiset tulosteet - Ilmainen työarkki lapsille ammattimaista laatua. Ilmaiset työarkit ja työarkki lapsille täydellinen työarkki esiopetukseen. Ilmainen työarkki lapsille ja työarkki lapsille sisältää ilmaiset tulosteet ja ilmaiset työarkit opetusmateriaalin. Ilmainen työarkki ja työarkki esiopetukseen saatavilla',
     downloadLabel: 'Lataa Ilmainen Esimerkki',
     worksheetLabel: 'Tehtävämoniste',
     answerKeyLabel: 'Vastausavain',
@@ -89,7 +89,7 @@ Jokainen tehtävä sopii esiopetukseen ja matematiikan alkuopetukseen alakouluss
 
   // Features Grid - FULL text from Finnish big-small.md feature sections
   features: {
-    sectionTitle: 'Iso ja Pieni Tehtävät - Tulostettavat Tehtävät Lapsille Ilmainen ja Matematiikka Tehtävät Alakoulu',
+    sectionTitle: 'Ilmaiset Työarkit ja Työarkki Lapsille - Ilmaiset Tulosteet ja Työarkki Esiopetukseen',
     sectionDescription: 'Kokovertailutyökalumme tarjoaa kaiken tarvitsemasi ammattimaisten tehtävämonisteiden luomiseen. Täysi Käyttöoikeus -tilaus sisältää seitsemän tehokasta ominaisuutta. Nämä ominaisuudet tekevät tehtävien luomisesta nopeaa ja helppoa. Luo tulostettavat tehtävät lapsille alle kolmessa minuutissa. Jokainen ominaisuus on suunniteltu opettajien tarpeisiin.',
     highlightBadgeText: 'Tärkeä Ominaisuus',
     readMoreLabel: 'Lue lisää',
@@ -197,7 +197,7 @@ Lataa sekä tehtävä että vastausavain erikseen. Vastausavain näyttää oikea
 
   // How-To Guide - FULL text from Finnish big-small.md step sections
   howTo: {
-    sectionTitle: 'Kuinka Luoda Tulostettavat Tehtävät Lapsille Ilmainen ja Matematiikka Tehtävät Alakoulu 5 Helpossa Vaiheessa',
+    sectionTitle: 'Ilmainen Työarkki Lapsille Luoda - Työarkki Esiopetukseen',
     sectionDescription: 'Kokovertailutehtävän luominen kestää alle 3 minuuttia. Viisi yksinkertaista vaihetta vie sinut tyhjästä valmiiseen tulostettavaan tehtävään. Ei monimutkaisia asetuksia. Ei pitkää opettelukäyrää. Aloittelijat luovat ammattilaatuisia tehtäviä ensimmäisellä yrityksellä. Seuraa näitä vaiheita ja tehtäväsi on valmis.',
     ctaText: 'Aloita Luominen Nyt',
     badgeText: 'Näin Se Toimii',
@@ -279,7 +279,7 @@ Tallenna molemmat tiedostot tietokoneellesi. Anna niille selkeät nimet. "Iso-ja
 
   // Use Cases - FULL text from Finnish big-small.md use case sections
   useCases: {
-    sectionTitle: 'Täydellinen Opettajille ja Vanhemmille - Tulostettavat Tehtävät Lapsille Ilmainen Kaikille Tarpeille',
+    sectionTitle: 'Ilmainen Työarkki Lapsille - Työarkki Esiopetukseen ja Ilmaiset Tulosteet. Työarkki Lapsille',
     sectionDescription: 'Kokovertailutehtävät palvelevat monenlaisia opettajia ja kasvattajia. Esiopetuksen opettajat käyttävät niitä päivittäin. Alakoulun opettajat rakentavat matematiikan oppimista niiden avulla. Kotiopettajat personoivat oppimisen omille lapsilleen. Kieltenopettajat yhdistävät kielenoppimisen ja käsitteiden oppimisen. Erityisopettajat eriyttävät materiaalin jokaisen oppilaan tasolle. Opettajayrittäjät myyvät niitä tulona.',
     badgeText: 'Kenelle Sopii',
     readMoreLabel: 'Lue lisää',
@@ -374,7 +374,7 @@ Pinterest-markkinointi toimii hyvin tulostettavien tehtävien kanssa. Luo kaunii
 
   // FAQ Section - Selected FAQs from Finnish big-small.md
   faq: {
-    sectionTitle: 'Usein Kysytyt Kysymykset - Matematiikka Tehtävät Alakoulu ja Esiopetus Materiaali Ilmainen',
+    sectionTitle: 'FAQ - Ilmainen Työarkki Lapsille ja Työarkki Esiopetukseen. Työarkki Lapsille',
     sectionDescription: 'Opettajat kysyvät samoja kysymyksiä kokovertailutehtävistä. Tässä ovat vastaukset 12 yleisimpään kysymykseen. Nämä vastaukset auttavat sinua ymmärtämään työkalun täydellisesti. Täysi Käyttöoikeus -tilaus antaa kaiken tarvitsemasi. Ei piilomaksuja, ei yllätyksiä. Kaikki on selkeästi selitetty.',
     showMoreText: 'Näytä lisää kysymyksiä',
     showLessText: 'Näytä vähemmän',
@@ -502,7 +502,7 @@ Pinterest-markkinointi toimii hyvin tulostettavien tehtävien kanssa. Luo kaunii
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Yhdistä Muihin Tehtävämonistegeneraattoreihin',
+    sectionTitle: 'Ilmaiset Työarkit Yhdistää - Työarkki Lapsille ja Ilmaiset Tulosteet',
     sectionDescription: 'Luo kattavia oppimispaketteja yhdistämällä kokovertailutehtävät näihin täydentäviin generaattoreihin.',
     ctaTitle: 'Valmiina Luomaan Upeita Tehtävämonisteitä?',
     ctaDescription: 'Liity tuhansien opettajien joukkoon, jotka luovat ammattimaisia tehtävämonisteitä. Rajoittamaton generointi, kaupallinen lisenssi sisältyy.',

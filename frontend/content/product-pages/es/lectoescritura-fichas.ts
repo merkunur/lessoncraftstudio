@@ -74,8 +74,8 @@ Las fichas preescolar que creas son totalmente personalizables. Agrega imágenes
 
   // Sample Gallery - REAL file paths from samples/english/writing/
   samples: {
-    sectionTitle: 'Ejemplos de Ficha Gratis de Grafomotricidad para Niños',
-    sectionDescription: 'Descarga ejemplos gratuitos para ver nuestra calidad profesional',
+    sectionTitle: 'Ficha Gratis para Niños - Fichas Gratis e Imprimibles Gratis',
+    sectionDescription: 'Descarga imprimibles gratis - Ficha gratis para niños de calidad profesional. Ficha para niños perfecta para ficha para preescolar. Ficha gratis para niños y ficha para niños incluyen material educativo. Ficha gratis disponible',
     downloadLabel: 'Descargar Ejemplo Gratis',
     worksheetLabel: 'Ficha',
     answerKeyLabel: 'Respuestas',
@@ -112,7 +112,7 @@ Las fichas preescolar que creas son totalmente personalizables. Agrega imágenes
 
   // Features Grid - FULL text from writing.md feature sections
   features: {
-    sectionTitle: 'Características del Generador de Ficha Gratis para Niños - Imprimibles Gratis de Grafomotricidad para Preescolar',
+    sectionTitle: 'Fichas Gratis y Ficha para Niños - Imprimibles Gratis y Ficha para Preescolar',
     sectionDescription: 'Nuestro generador de fichas de grafomotricidad incluye todas las herramientas profesionales que necesitan los maestros de educación infantil y primaria. Cada característica fue diseñada específicamente para crear fichas preescolar de alta calidad en minutos. Tu suscripción Acceso Completo te da acceso completo a todas estas funciones sin límites de creación. Genera fichas infantil ilimitadas sin costos adicionales por hoja.',
     highlightBadgeText: 'Característica Clave',
     readMoreLabel: 'Leer más',
@@ -201,7 +201,7 @@ Escoge entre formatos PDF y JPEG para descarga. El formato PDF mantiene calidad 
 
   // How-To Guide - FULL text from writing.md step sections
   howTo: {
-    sectionTitle: 'Cómo Crear Ficha Gratis para Niños en 5 Pasos - Guía de Imprimibles Gratis de Grafomotricidad para Preescolar',
+    sectionTitle: 'Ficha Gratis para Niños Crear - Ficha para Preescolar',
     sectionDescription: 'Crear fichas infantil profesionales de lectoescritura toma menos de 3 minutos del inicio a la descarga. Esta guía paso por paso te muestra exactamente cómo generar fichas preescolar perfectas para tus alumnos. No necesitas habilidades de diseño. El generador hace todo el trabajo técnico.',
     ctaText: 'Comenzar Ahora',
     badgeText: 'Cómo Funciona',
@@ -273,7 +273,7 @@ Activa la casilla "Escala de Grises" antes de descargar si quieres ahorrar tinta
 
   // Use Cases - FULL text from writing.md use case sections
   useCases: {
-    sectionTitle: 'Perfecto para Maestros y Padres - Ficha Gratis para Niños de Grafomotricidad para Preescolar',
+    sectionTitle: 'Ficha Gratis para Niños - Ficha para Preescolar con Imprimibles Gratis. Ficha para Niños',
     sectionDescription: 'El generador de fichas de lectoescritura beneficia a múltiples tipos de educadores en diferentes contextos. Maestros de preescolar usan fichas infantil para enseñar formación básica de letras. Docentes de primaria crean fichas preescolar para reforzar habilidades de escritura. Padres que educan en casa generan material educativo gratis personalizado.',
     badgeText: 'Para Quién',
     readMoreLabel: 'Leer más',
@@ -350,7 +350,7 @@ Etsy es otra plataforma popular para vender fichas gratis digitales. Los padres 
 
   // FAQ Section - FULL text from writing.md FAQ sections
   faq: {
-    sectionTitle: 'Preguntas Frecuentes sobre Ficha Gratis de Grafomotricidad - Imprimibles Gratis para Niños de Preescolar',
+    sectionTitle: 'FAQ - Ficha Gratis para Niños y Ficha para Preescolar. Ficha para Niños',
     sectionDescription: 'Los maestros y padres tienen preguntas comunes sobre el generador de fichas infantil antes de suscribirse. Esta sección responde las 12 preguntas más frecuentes sobre crear fichas preescolar de caligrafía y escritura.',
     showMoreText: 'Mostrar más preguntas',
     showLessText: 'Mostrar menos',
@@ -449,7 +449,7 @@ Genera fichas preescolar sobre unidades curriculares específicas que estás ens
 
   // Related Apps Section
   relatedApps: {
-    sectionTitle: 'Combina Ficha Gratis para Niños con Otras Fichas para Imprimir - Imprimibles Gratis de Preescolar',
+    sectionTitle: 'Fichas Gratis Combinar - Ficha para Niños e Imprimibles Gratis',
     sectionDescription: 'Tu suscripción Acceso Completo incluye acceso a los 33 generadores de fichas para imprimir en la plataforma. El generador de fichas de lectoescritura funciona perfectamente con otros 32 generadores. Combina fichas infantil de escritura con generadores de matemáticas, dibujos para colorear, juegos educativos y más.',
     ctaTitle: '¿Listo para Crear Fichas de Grafomotricidad Increíbles?',
     ctaDescription: 'Únete a miles de educadores que crean fichas para imprimir profesionales con nuestros 33 generadores de hojas de trabajo.',

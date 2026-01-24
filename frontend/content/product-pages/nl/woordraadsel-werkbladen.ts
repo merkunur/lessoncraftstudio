@@ -99,8 +99,8 @@ Maak 1 tot 10 woordraadsels per werkblad. Elk raadsel schaalt automatisch voor p
 
   // Sample Gallery - REAL file paths from samples/english/word guess/
   samples: {
-    sectionTitle: 'Woordraadsel Voorbeelden - Gratis Werkbladen en Gratis Printables',
-    sectionDescription: 'Download gratis voorbeeldwerkbladen om onze professionele kwaliteit te ervaren',
+    sectionTitle: 'Gratis Werkblad voor Kinderen - Gratis Werkbladen en Gratis Printables',
+    sectionDescription: 'Download gratis printables - Gratis werkblad voor kinderen van professionele kwaliteit. Gratis werkbladen en werkblad voor kinderen perfect voor werkblad voor kleuters. Gratis werkblad voor kinderen en werkblad voor kinderen inclusief educatief materiaal. Gratis werkblad beschikbaar',
     downloadLabel: 'Gratis Voorbeeld Downloaden',
     worksheetLabel: 'Werkblad',
     answerKeyLabel: 'Antwoordblad',
@@ -151,7 +151,7 @@ Maak 1 tot 10 woordraadsels per werkblad. Elk raadsel schaalt automatisch voor p
 
   // Features Grid - FULL text from word-guess.md feature sections
   features: {
-    sectionTitle: 'Woordraadsel Functies - Gratis Werkblad voor Kinderen en Werkblad voor Kleuters',
+    sectionTitle: 'Gratis Werkbladen en Werkblad voor Kinderen - Gratis Printables en Werkblad voor Kleuters',
     sectionDescription: 'Onze woordraadsel generator biedt complete functionaliteit voor werkbladen kleuters en werkbladen groep 3. Maak professionele oefenbladen gratis met alle tools die u nodig heeft. Elke functie is ontworpen voor letters leren, schrijven oefenen en fijne motoriek ontwikkeling. Perfect voor Nederlandse basisscholen groep 1 2 tot groep 3.',
     highlightBadgeText: 'Uitgelicht',
     readMoreLabel: 'Lees meer',
@@ -243,7 +243,7 @@ PDF formaat behoudt exacte opmaak. JPEG werkt perfect voor online delen. Antwoor
 
   // How-To Guide - FULL text from word-guess.md step sections
   howTo: {
-    sectionTitle: 'Hoe Maak Je Gratis Werkbladen - Werkblad voor Kinderen in 5 Stappen',
+    sectionTitle: 'Gratis Werkblad voor Kinderen Maken - Werkblad voor Kleuters',
     sectionDescription: 'Maak professionele werkbladen kleuters en werkbladen groep 3 in minder dan 3 minuten. Deze stapsgewijze handleiding toont hoe u oefenbladen gratis maakt voor letters leren, schrijven oefenen en fijne motoriek. Perfect voor leerkrachten groep 1 2 zonder ontwerpervaring. Volg deze vijf stappen voor hoogwaardige werkbladen.',
     ctaText: 'Nu Starten',
     badgeText: 'Zo werkt het',
@@ -402,7 +402,7 @@ Commerciële licentie maakt verkopen mogelijk. Geen extra kosten voor fijne moto
 
   // FAQ Section - FULL questions and answers
   faq: {
-    sectionTitle: 'Veelgestelde Vragen over Gratis Werkbladen en Werkblad voor Kinderen',
+    sectionTitle: 'FAQ - Gratis Werkblad voor Kinderen en Werkblad voor Kleuters. Werkblad voor Kinderen',
     sectionDescription: 'Leerkrachten stellen vaak vragen over onze werkbladen generator. Deze FAQ beantwoordt vragen over werkbladen groep 3, werkbladen kleuters en oefenbladen gratis maken. Perfect voor letters leren, schrijven oefenen, fijne motoriek, rekenen werkbladen en kleurplaten informatie.',
     showMoreText: 'Meer vragen tonen',
     showLessText: 'Minder tonen',
@@ -562,7 +562,7 @@ Maak letters leren werkbladen voor taal. Creëer schrijven oefenen materiaal voo
 
   // Related Apps Section
   relatedApps: {
-    sectionTitle: 'Combineer met Gratis Werkblad voor Kinderen - Werkblad voor Kleuters en Gratis Printables',
+    sectionTitle: 'Gratis Werkbladen Combineren - Werkblad voor Kinderen en Gratis Printables',
     sectionDescription: 'Ons platform biedt 33 gratis werkbladen generators. Combineer woordraadsels met rekenen werkbladen, kleurplaten en schrijven oefenen materiaal. Perfect voor complete werkbladen kleuters pakketten. Ideaal voor letters leren, veilig leren lezen, fijne motoriek, tafels oefenen en sommen tot 20 geïntegreerde oefenbladen gratis.',
     ctaTitle: 'Klaar om Professionele Werkbladen te Maken?',
     ctaDescription: 'Sluit u aan bij duizenden leerkrachten die professionele werkbladen maken met LessonCraft Studio.',

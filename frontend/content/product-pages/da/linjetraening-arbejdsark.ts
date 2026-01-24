@@ -83,8 +83,8 @@ Tegn linjer opgaver kombinerer finmotorik øvelser med sjove billeder børn elsk
 
   // Sample Gallery - REAL file paths from samples/english/drawing lines/
   samples: {
-    sectionTitle: 'Gratis Arbejdsark Eksempler - Finmotorik Øvelser',
-    sectionDescription: 'Download gratis eksempler på arbejdsark for at se vores professionelle kvalitet',
+    sectionTitle: 'Gratis Arbejdsark til Børn - Gratis Arbejdsark og Gratis Printables',
+    sectionDescription: 'Download gratis printables - Gratis arbejdsark til børn af professionel kvalitet. Gratis arbejdsark og arbejdsark til børn perfekt til arbejdsark til børnehaveklasse. Gratis arbejdsark til børn og arbejdsark til børn inkluderer undervisningsmateriale. Gratis arbejdsark tilgængeligt',
     badgeText: 'Gratis Eksempler',
     downloadLabel: 'Download Gratis Eksempel',
     downloadingLabel: 'Downloader...',
@@ -135,7 +135,7 @@ Tegn linjer opgaver kombinerer finmotorik øvelser med sjove billeder børn elsk
 
   // Features Grid - FULL text from drawing-lines.md feature sections
   features: {
-    sectionTitle: 'Gratis Arbejdsark til Børn Funktioner - Finmotorik Øvelser og Gratis Printables',
+    sectionTitle: 'Gratis Arbejdsark og Arbejdsark til Børn - Gratis Printables og Arbejdsark til Børnehaveklasse',
     sectionDescription: 'Vores linjetræningsværktøj giver dig alle funktioner til at skabe professionelle finmotorik øvelser. Grundpakke-abonnementet inkluderer ubegrænset oprettelse af opgaver til print uden ekstra omkostninger. Skab tilpassede arbejdsark til børnehaveklassen og 1. klasse på få minutter. Værktøjet kombinerer enkelhed med professionelle resultater til din undervisning.',
     highlightBadgeText: 'Vigtig Funktion',
     readMoreLabel: 'Læs mere',
@@ -215,7 +215,7 @@ PDF-format bevarer alle elementer i perfekt kvalitet. JPEG fungerer perfekt til 
 
   // How-To Guide - FULL text from drawing-lines.md step sections
   howTo: {
-    sectionTitle: 'Sådan Laver Du Gratis Printables og Arbejdsark til Børn i 5 Nemme Trin',
+    sectionTitle: 'Gratis Arbejdsark til Børn Oprette - Arbejdsark til Børnehaveklasse',
     sectionDescription: 'Opret professionelle arbejdsark med linjetræning på under 3 minutter. Ingen designerfærdigheder kræves. Følg disse fem enkle trin for at generere finmotorik øvelser til børnehaveklassen. Værktøjet guides dig gennem hele processen fra valg af skabelon til færdig download. Børn i 0. klasse og 1. klasse får opgaver perfekt tilpasset deres færdighedsniveau.',
     ctaText: 'Start Nu',
     badgeText: 'Sådan Virker Det',
@@ -277,7 +277,7 @@ Print dine arbejdsark på en almindelig hjemme- eller skoleprinter. Alle linjer 
 
   // Use Cases - FULL text from drawing-lines.md use case sections
   useCases: {
-    sectionTitle: 'Perfekt til Lærere og Forældre - Finmotorik Øvelser og Opgaver til Print til Alle Behov',
+    sectionTitle: 'Gratis Arbejdsark til Børn - Arbejdsark til Børnehaveklasse med Gratis Printables. Arbejdsark til Børn',
     sectionDescription: 'Vores linjetræningsværktøj bruges af pædagoger i børnehaveklassen, lærere i indskolingen og forældre derhjemme. Skab tilpassede arbejdsark til alle aldersgrupper og færdighedsniveauer. Værktøjet tilpasser sig enhver undervisningssituation og ethvert læringsmål.',
     badgeText: 'Hvem Er Det Til',
     readMoreLabel: 'Læs mere',
@@ -348,7 +348,7 @@ Populære produkter inkluderer julepakker, alfabetserier og motoriksamlinger. La
 
   // FAQ Section - Selected FAQs from drawing-lines.md
   faq: {
-    sectionTitle: 'Ofte Stillede Spørgsmål om Finmotorik Øvelser og Arbejdsark til Børnehaveklassen',
+    sectionTitle: 'FAQ - Gratis Arbejdsark til Børn og Arbejdsark til Børnehaveklasse. Arbejdsark til Børn',
     sectionDescription: 'Her finder du svar på almindelige spørgsmål om linjetræningsværktøjet. Lær hvordan du skaber opgaver til print og finmotorik øvelser til din undervisning.',
     showMoreText: 'Vis flere spørgsmål',
     showLessText: 'Vis færre',
@@ -453,7 +453,7 @@ Populære produkter inkluderer julepakker, alfabetserier og motoriksamlinger. La
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Kombiner med Andre Gratis Arbejdsark Generatorer',
+    sectionTitle: 'Gratis Arbejdsark Kombinere - Arbejdsark til Børn og Gratis Printables',
     sectionDescription: 'Lav komplette læringspakker ved at kombinere finmotorik øvelser med disse komplementære generatorer.',
     ctaTitle: 'Klar til at Lave Fantastiske Arbejdsark?',
     ctaDescription: 'Tilslut dig tusindvis af pædagoger der laver professionelle arbejdsark. Ubegrænset oprettelse, kommerciel licens inkluderet.',

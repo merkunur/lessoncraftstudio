@@ -77,8 +77,8 @@ O gerador de atividades para imprimir oferece personalização completa para ate
 
   // Sample Gallery - REAL file paths from samples/portuguese/word-scramble/
   samples: {
-    sectionTitle: 'Atividades Grátis de Palavras Embaralhadas - Exemplos para Imprimir',
-    sectionDescription: 'Baixe exemplos gratuitos para ver nossa qualidade profissional - imprimíveis grátis de alfabetização',
+    sectionTitle: 'Atividade Grátis para Crianças - Atividades Grátis e Imprimíveis Grátis',
+    sectionDescription: 'Baixe imprimíveis grátis - Atividade grátis para crianças de qualidade profissional. Atividades grátis e atividade para crianças perfeitas para atividade para educação infantil. Atividade grátis para crianças e atividade para crianças incluem material educativo. Atividade grátis disponível',
     downloadLabel: 'Baixar Exemplo Grátis',
     worksheetLabel: 'Atividade',
     answerKeyLabel: 'Gabarito',
@@ -122,7 +122,7 @@ O gerador de atividades para imprimir oferece personalização completa para ate
 
   // Features Grid - FULL text from word-scramble.md feature sections
   features: {
-    sectionTitle: 'Recursos do Gerador - Atividade Grátis de Palavras Embaralhadas para Crianças',
+    sectionTitle: 'Atividades Grátis e Atividade para Crianças - Imprimíveis Grátis e Atividade para Educação Infantil',
     sectionDescription: 'O gerador de palavras embaralhadas oferece recursos completos para criar atividade para crianças de alta qualidade. Professores de educação infantil e ensino fundamental encontram tudo o que precisam para desenvolver atividade para educação infantil, coordenação motora e reconhecimento de letras. A ferramenta combina facilidade de uso com personalização avançada, permitindo criar atividade para crianças diferenciada para cada nível de aprendizado.',
     highlightBadgeText: 'Recurso Principal',
     readMoreLabel: 'Leia mais',
@@ -211,7 +211,7 @@ Você também pode escolher letras todas em preto para exercícios mais avançad
 
   // How-To Guide - FULL text from word-scramble.md step sections
   howTo: {
-    sectionTitle: 'Como Criar Atividade Grátis de Palavras Embaralhadas - 5 Passos Simples',
+    sectionTitle: 'Atividade Grátis para Crianças Criar - Atividade para Educação Infantil',
     sectionDescription: 'Criar atividades para imprimir de palavras embaralhadas leva menos de 3 minutos do início ao download. O processo é simples e intuitivo, não exigindo conhecimentos técnicos ou habilidades de design. Professores de educação infantil, 1º ano e 2º ano podem gerar materiais profissionais de alfabetização rapidamente. Siga os cinco passos abaixo para criar suas primeiras atividades de alfabetização com palavras embaralhadas.',
     ctaText: 'Comece Agora',
     badgeText: 'Como Funciona',
@@ -372,7 +372,7 @@ A qualidade profissional de 300 DPI garante produtos competitivos no mercado. Ex
 
   // FAQ Section - Selected FAQs from word-scramble.md
   faq: {
-    sectionTitle: 'Perguntas Frequentes - Atividades Grátis de Palavras Embaralhadas',
+    sectionTitle: 'FAQ - Atividade Grátis para Crianças e Atividade para Educação Infantil. Atividade para Crianças',
     sectionDescription: 'Professores e pais têm dúvidas comuns sobre atividade para crianças de palavras embaralhadas. Reunimos as perguntas mais frequentes sobre atividade para educação infantil, licenciamento, personalização e uso em sala de aula. Encontre respostas sobre atividade para crianças de matemática, coordenação motora e alfabetização para educação infantil e ensino fundamental.',
     showMoreText: 'Mostrar mais perguntas',
     showLessText: 'Mostrar menos',

@@ -82,7 +82,7 @@ Our picture bingo generator creates two free printable worksheets with every gen
 
   // Sample Gallery - REAL file paths from samples/english/bingo/
   samples: {
-    sectionTitle: 'Free Worksheet Samples',
+    sectionTitle: 'Free Worksheet for Kids - Bingo Samples',
     downloadLabel: 'Download Free Sample',
     worksheetLabel: 'Worksheet',
     answerKeyLabel: 'Answer Key',

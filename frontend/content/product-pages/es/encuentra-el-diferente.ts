@@ -83,8 +83,8 @@ Las fichas para imprimir se exportan en formato PDF y JPEG a 300 DPI. Perfectas 
 
   // Sample Gallery
   samples: {
-    sectionTitle: 'Ejemplos de Fichas de Encuentra el Diferente',
-    sectionDescription: 'Descarga ejemplos de fichas gratis para ver nuestra calidad profesional',
+    sectionTitle: 'Ficha Gratis para Niños - Fichas Gratis e Imprimibles Gratis',
+    sectionDescription: 'Descarga imprimibles gratis - Ficha gratis para niños de calidad profesional. Ficha para niños perfecta para ficha para preescolar. Ficha gratis para niños y ficha para niños incluyen material educativo. Ficha gratis disponible',
     downloadLabel: 'Descargar Ejemplo Gratis',
     worksheetLabel: 'Ficha',
     answerKeyLabel: 'Hoja de Respuestas',
@@ -128,7 +128,7 @@ Las fichas para imprimir se exportan en formato PDF y JPEG a 300 DPI. Perfectas 
 
   // Features Grid
   features: {
-    sectionTitle: 'Características del Generador - Fichas para Imprimir con Ejercicios de Discriminación Visual',
+    sectionTitle: 'Fichas Gratis y Ficha para Niños - Imprimibles Gratis y Ficha para Preescolar',
     sectionDescription: 'Nuestro generador de fichas para imprimir incluye todas las herramientas que los maestros necesitan para crear material educativo gratis de calidad profesional. Desde fichas preescolar simples hasta ejercicios matemáticas complejos, cada característica está diseñada para educadores ocupados. Crea fichas gratis personalizadas sin habilidades técnicas ni software costoso. La plataforma combina facilidad de uso con potencia profesional para fichas infantil de alta calidad.',
     highlightBadgeText: 'Destacado',
     badgeText: 'Características',
@@ -201,7 +201,7 @@ Las fichas para imprimir se exportan en formato PDF y JPEG a 300 DPI. Perfectas 
 
   // How-To Guide
   howTo: {
-    sectionTitle: 'Cómo Crear Fichas para Imprimir de Encuentra el Diferente en 5 Pasos Fáciles - Fichas Gratis Listas en Minutos',
+    sectionTitle: 'Ficha Gratis para Niños Crear - Ficha para Preescolar',
     sectionDescription: 'Crear fichas infantil profesionales toma menos de 3 minutos desde inicio hasta descarga. No necesitas habilidades técnicas ni experiencia en diseño gráfico. El generador de fichas para imprimir te guía paso a paso. Combina con dibujos para colorear, ejercicios matemáticas, grafomotricidad y lectoescritura para paquetes completos. Las fichas preescolar personalizadas están listas para usar en tu salón de clases inmediatamente.',
     ctaText: 'Comenzar Ahora',
     badgeText: 'Cómo Funciona',
@@ -253,7 +253,7 @@ Las fichas para imprimir se exportan en formato PDF y JPEG a 300 DPI. Perfectas 
 
   // Use Cases
   useCases: {
-    sectionTitle: 'Perfecto para Maestros, Padres y Educadores - Fichas para Imprimir y Material Educativo Gratis para Cada Necesidad',
+    sectionTitle: 'Ficha Gratis para Niños - Ficha para Preescolar con Imprimibles Gratis. Ficha para Niños',
     sectionDescription: 'El generador de fichas infantil sirve a múltiples tipos de educadores con diferentes necesidades. Desde maestros de preescolar hasta educadores de educación especial, todos encuentran valor en fichas para imprimir personalizables. Las fichas gratis se adaptan a cualquier estilo de enseñanza y nivel estudiantil. Material educativo gratis que funciona para todos los contextos educativos.',
     badgeText: 'Casos de Uso',
     readMoreLabel: 'Leer más',
@@ -312,7 +312,7 @@ Las fichas para imprimir se exportan en formato PDF y JPEG a 300 DPI. Perfectas 
 
   // FAQ Section
   faq: {
-    sectionTitle: 'Preguntas Frecuentes sobre Fichas para Imprimir de Encuentra el Diferente',
+    sectionTitle: 'FAQ - Ficha Gratis para Niños y Ficha para Preescolar. Ficha para Niños',
     sectionDescription: 'Los maestros tienen preguntas comunes sobre el generador de fichas infantil. Esta sección responde las dudas más frecuentes sobre funcionalidad, uso y suscripción. Aprende cómo maximizar las fichas para imprimir para tu salón de clases. Material educativo gratis profesional accesible para todos los educadores.',
     showMoreText: 'Mostrar más preguntas',
     showLessText: 'Mostrar menos',
@@ -441,7 +441,7 @@ Las fichas para imprimir se exportan en formato PDF y JPEG a 300 DPI. Perfectas 
 
   // Related Apps Section
   relatedApps: {
-    sectionTitle: 'Combina Fichas de Encuentra el Diferente con Otras Fichas para Imprimir - Paquetes Completos de Aprendizaje',
+    sectionTitle: 'Fichas Gratis Combinar - Ficha para Niños e Imprimibles Gratis',
     sectionDescription: 'La plataforma ofrece 33 generadores gratuitos de fichas para imprimir diferentes. Combina "encuentra el diferente" con otros tipos de fichas infantil para paquetes de aprendizaje completos. Maestros crean material educativo gratis integrado que cubre múltiples habilidades. Las fichas preescolar multiactividad mantienen a los estudiantes comprometidos durante períodos más largos.',
     ctaTitle: '¿Listo para Crear Fichas Increíbles?',
     ctaDescription: 'Únete a miles de educadores que crean fichas profesionales con nuestras herramientas.',

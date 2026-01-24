@@ -81,8 +81,8 @@ Modifica tutto sulla scheda gratuita dopo la generazione. Sposta, ruota, ridimen
 
   // Sample Gallery
   samples: {
-    sectionTitle: 'Schede Gratuite Addizioni con Immagini - Stampabili Gratuiti per Bambini',
-    sectionDescription: 'Scarica esempi gratuiti per vedere la nostra qualità professionale',
+    sectionTitle: "Scheda Gratuita per Bambini - Schede Gratuite e Stampabili Gratuiti e Scheda per Bambini",
+    sectionDescription: "Scarica stampabili gratuiti - Scheda gratuita per bambini di qualità professionale. Schede gratuite e scheda per bambini perfette per scheda per scuola dell'infanzia. Scheda gratuita per bambini e scheda per bambini includono materiale educativo. Scheda gratuita e scheda per scuola dell'infanzia disponibile",
     downloadLabel: 'Scarica Esempio Gratuito',
     worksheetLabel: 'Scheda',
     answerKeyLabel: 'Chiave di Risposta',
@@ -126,7 +126,7 @@ Modifica tutto sulla scheda gratuita dopo la generazione. Sposta, ruota, ridimen
 
   // Features Grid
   features: {
-    sectionTitle: 'Funzionalità Generatore Schede Gratuite - Scheda Gratuita per Bambini',
+    sectionTitle: "Schede Gratuite e Scheda per Bambini - Stampabili Gratuiti e Scheda per Scuola dell'Infanzia",
     sectionDescription: 'Il nostro generatore di schede gratuite offre tutte le funzionalità necessarie per creare materiale educativo di alta qualità. Crea stampabili gratuiti personalizzati in pochi minuti. Combina addizioni visive con disegni da colorare per attività complete. Genera schede gratuite che coinvolgono i bambini della scuola dell\'infanzia e della classe prima. Ogni funzione è progettata per insegnanti che hanno bisogno di scheda gratuita per bambini veloce e professionale.',
     highlightBadgeText: 'Funzionalità Chiave',
     readMoreLabel: 'Leggi di più',
@@ -220,7 +220,7 @@ Stampa schede matematica a casa su carta normale. Stampa su cartoncino per durab
 
   // How-To Guide Section
   howTo: {
-    sectionTitle: 'Come Creare Schede Gratuite Addizioni - Stampabili Gratuiti in 5 Passaggi',
+    sectionTitle: "Scheda Gratuita per Bambini Creare - Scheda per Scuola dell'Infanzia",
     sectionDescription: 'Crea schede gratuite professionali in meno di 5 minuti seguendo questi passaggi. Il processo è semplice e intuitivo anche per chi non ha esperienza di design. Ogni passaggio richiede solo pochi clic. Il risultato finale sono stampabili gratuiti di qualità professionale pronte per la classe. Segui questa guida passo dopo passo per creare scheda gratuita per bambini perfetta per scuola dell\'infanzia e classe prima.',
     ctaText: 'Inizia Ora',
     badgeText: 'Guida Passo-Passo',
@@ -292,7 +292,7 @@ Organizza le tue schede didattiche scuola primaria scaricate in cartelle tematic
 
   // Use Cases Section
   useCases: {
-    sectionTitle: 'Perfetto per Insegnanti - Schede Gratuite Addizioni e Scheda per Bambini',
+    sectionTitle: "Perfetto per Insegnanti - Schede Gratuite Addizioni e Scheda per Bambini",
     sectionDescription: 'Le schede gratuite di addizioni con immagini beneficiano diversi utenti nel mondo dell\'educazione. Insegnanti di scuola dell\'infanzia e scuola primaria usano questi stampabili gratuiti quotidianamente. Genitori homeschooler apprezzano la flessibilità di creazione. Educatori di sostegno personalizzano scheda gratuita per bambini per bisogni speciali. Insegnanti di italiano L2 combinano matematica con alfabeto e vocabolario. Ogni gruppo trova valore unico in questo strumento versatile.',
     badgeText: 'Chi Usa le Nostre Schede',
     readMoreLabel: 'Leggi di più',
@@ -375,7 +375,7 @@ Crea prodotti evergreen che vendono anno dopo anno. Schede matematica fondamenta
 
   // FAQ Section
   faq: {
-    sectionTitle: 'Domande Frequenti Schede Gratuite Addizioni - Stampabili Gratuiti',
+    sectionTitle: "FAQ - Scheda Gratuita per Bambini e Scheda per Scuola dell'Infanzia. Scheda per Bambini",
     sectionDescription: 'Gli insegnanti fanno domande comuni su questo generatore di schede gratuite. Qui rispondiamo alle 12 domande più frequenti. Copriamo argomenti come abbonamento, utilizzo in classe, personalizzazione, combinazione con alfabeto e pregrafismo, integrazione con tabelline e molto altro. Queste risposte aiutano decidere se il generatore di scheda gratuita per bambini soddisfa le tue esigenze educative.',
     showMoreText: 'Mostra altre domande',
     showLessText: 'Mostra meno domande',
@@ -527,7 +527,7 @@ Sviluppa unità tematiche multidisciplinari complete. Settimana oceano: addizion
 
   // Related Apps Section
   relatedApps: {
-    sectionTitle: 'Combina Schede Gratuite Addizioni con Altri Stampabili Gratuiti',
+    sectionTitle: "Schede Gratuite Combinare - Scheda per Bambini e Stampabili Gratuiti",
     sectionDescription: 'Combina schede gratuite di addizioni con altri tipi per pacchetti apprendimento completi. La piattaforma offre 33 generatori di schede gratuite. Crea collezioni integrate che coprono matematica, alfabeto, pregrafismo, disegni da colorare e molto altro. Combina stampabili gratuiti con tabelline per progressione naturale. Integra scheda gratuita per bambini con numeri da stampare per sviluppo motorio. Gli insegnanti creano unità tematiche complete in minuti.',
     ctaTitle: 'Pronto a Creare Schede Straordinarie?',
     ctaDescription: 'Unisciti a migliaia di educatori che creano schede professionali. Generazione illimitata, licenza commerciale inclusa.',

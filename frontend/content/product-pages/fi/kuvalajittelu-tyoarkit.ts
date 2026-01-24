@@ -53,8 +53,8 @@ Työkalumme tekee laadukkaiden esiopetus materiaali ilmainen -tehtävien luomise
 
   // Sample Gallery - REAL file paths from samples/english/picture sort/
   samples: {
-    sectionTitle: 'Kuvalajittelu Tehtävät Esimerkit',
-    sectionDescription: 'Lataa ilmaiset esimerkkityöarkit nähdäksesi ammattimaisen laatumme',
+    sectionTitle: 'Ilmainen Työarkki Lapsille - Ilmaiset Työarkit ja Ilmaiset Tulosteet',
+    sectionDescription: 'Lataa ilmaiset tulosteet - Ilmainen työarkki lapsille ammattimaista laatua. Ilmaiset työarkit ja työarkki lapsille täydellinen työarkki esiopetukseen. Ilmainen työarkki lapsille ja työarkki lapsille sisältää ilmaiset tulosteet ja ilmaiset työarkit opetusmateriaalin. Ilmainen työarkki ja työarkki esiopetukseen saatavilla',
     downloadLabel: 'Lataa Ilmainen Esimerkki',
     worksheetLabel: 'Tehtävämoniste',
     answerKeyLabel: 'Vastausavain',
@@ -84,7 +84,7 @@ Työkalumme tekee laadukkaiden esiopetus materiaali ilmainen -tehtävien luomise
 
   // Features Grid - FULL text from Finnish picture-sort.md feature sections
   features: {
-    sectionTitle: 'Kuvalajittelu Tehtävät - Tulostettavat Tehtävät Lapsille Ilmainen ja Hienomotoriikka Harjoitukset',
+    sectionTitle: 'Ilmaiset Työarkit ja Työarkki Lapsille - Ilmaiset Tulosteet ja Työarkki Esiopetukseen',
     sectionDescription: 'Kuvalajittelutyökalumme sisältää kaiken mitä tarvitset ammattimaisten tehtävien luomiseen. Täysi Käyttöoikeus -tilauksesi antaa pääsyn kaikkiin ominaisuuksiin ilman lisämaksuja. Luo esiopetus materiaali ilmainen, matematiikka tehtävät alakoulu ja hienomotoriikka harjoitukset. Kaikki samalla alustalla. Kaikki samalla tilauksella.',
     highlightBadgeText: 'Tärkeä Ominaisuus',
     readMoreLabel: 'Lue lisää',
@@ -180,7 +180,7 @@ Harmaasävyvaihtoehto säästää mustetta. Erityisen hyödyllinen luokkahuonetu
 
   // How-To Guide - FULL text from Finnish picture-sort.md step sections
   howTo: {
-    sectionTitle: 'Kuinka Luoda Tulostettavat Tehtävät Lapsille Ilmainen 5 Helpossa Vaiheessa',
+    sectionTitle: 'Ilmainen Työarkki Lapsille Luoda - Työarkki Esiopetukseen',
     sectionDescription: 'Luo ammattimaiset kuvalajittelutehtävät alle 3 minuutissa. Viisi yksinkertaista vaihetta alusta loppuun. Ei monimutkaisia asetuksia. Ei pitkää oppimiskäyrää. Pelkkä nopea, helppo tehtävien luominen.',
     ctaText: 'Aloita Luominen Nyt',
     badgeText: 'Näin Se Toimii',
@@ -262,7 +262,7 @@ Valitse harmaasävyvaihtoehto säästääksesi mustetta. Valintaruutu muuntaa v�
 
   // Use Cases - FULL text from Finnish picture-sort.md use case sections
   useCases: {
-    sectionTitle: 'Täydellinen Opettajille ja Vanhemmille - Esiopetus Materiaali Ilmainen ja Matematiikka Tehtävät Alakoulu Kaikille Tarpeille',
+    sectionTitle: 'Ilmainen Työarkki Lapsille - Työarkki Esiopetukseen ja Ilmaiset Tulosteet. Työarkki Lapsille',
     sectionDescription: 'Kuvalajittelutehtävät toimivat kaikilla koulutustasoilla. Esiopetuksesta alakouluun. Kotiopetuksesta luokkahuoneeseen. Monikielisestä opetuksesta erityisopetukseen. Jokainen opettaja löytää arvon näistä tehtävistä.',
     badgeText: 'Kenelle Sopii',
     readMoreLabel: 'Lue lisää',
@@ -357,7 +357,7 @@ Yhdistä eri tehtävätyyppejä. Kuvalajittelu + värityskuvia lapsille tulostet
 
   // FAQ Section - Selected FAQs from Finnish picture-sort.md
   faq: {
-    sectionTitle: 'Usein Kysytyt Kysymykset Kuvalajittelusta ja Tulostettavat Tehtävät Lapsille Ilmainen',
+    sectionTitle: 'FAQ - Ilmainen Työarkki Lapsille ja Työarkki Esiopetukseen. Työarkki Lapsille',
     sectionDescription: 'Opettajat kysyvät samoja kysymyksiä kuvalajittelugeneraattorista. Hinnoittelu, käyttö, räätälöinti, tulostus. Kaupallinen käyttö, kielet, ikäryhmät. Alla vastaukset 12 yleisimpään kysymykseen.',
     showMoreText: 'Näytä lisää kysymyksiä',
     showLessText: 'Näytä vähemmän',
@@ -485,7 +485,7 @@ Yhdistä eri tehtävätyyppejä. Kuvalajittelu + värityskuvia lapsille tulostet
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Yhdistä Muihin Tehtävämonistegeneraattoreihin',
+    sectionTitle: 'Ilmaiset Työarkit Yhdistää - Työarkki Lapsille ja Ilmaiset Tulosteet',
     sectionDescription: 'Luo kattavia oppimispaketteja yhdistämällä kuvalajittelutehtävät näihin täydentäviin generaattoreihin.',
     ctaTitle: 'Valmiina Luomaan Upeita Tehtävämonisteitä?',
     ctaDescription: 'Liity tuhansien opettajien joukkoon, jotka luovat ammattimaisia tehtävämonisteitä. Rajoittamaton generointi, kaupallinen lisenssi sisältyy.',

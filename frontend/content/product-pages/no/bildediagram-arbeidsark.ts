@@ -79,8 +79,8 @@ Verktøyet passer perfekt til barnehage og 1.-3. trinn. Elevene øver både tell
 
   // Sample Gallery - REAL file paths from samples/norwegian/chart-count/
   samples: {
-    sectionTitle: 'Gratis Arbeidsark Eksempler - Bildediagram for Barn og 1. Trinn',
-    sectionDescription: 'Last ned gratis eksempler på bildediagram arbeidsark for å se vår profesjonelle kvalitet',
+    sectionTitle: 'Gratis Arbeidsark for Barn - Gratis Arbeidsark og Gratis Utskrifter',
+    sectionDescription: 'Last ned gratis utskrifter - Gratis arbeidsark for barn av profesjonell kvalitet. Gratis arbeidsark og arbeidsark for barn perfekt for arbeidsark for 1. trinn. Gratis arbeidsark for barn og arbeidsark for barn inkluderer gratis utskrifter undervisningsmateriell. Gratis arbeidsark og arbeidsark for 1. trinn tilgjengelig',
     badgeText: 'Gratis Eksempler',
     downloadLabel: 'Last ned Gratis Eksempel',
     downloadingLabel: 'Laster ned...',
@@ -124,7 +124,7 @@ Verktøyet passer perfekt til barnehage og 1.-3. trinn. Elevene øver både tell
 
   // Features Grid - FULL text from chart-count.md feature sections
   features: {
-    sectionTitle: 'Gratis Arbeidsark Funksjoner - Bildediagram for Barn med Tall og Telling Matematikk Oppgaver',
+    sectionTitle: 'Gratis Arbeidsark og Arbeidsark for Barn - Gratis Utskrifter og Arbeidsark for 1. Trinn',
     sectionDescription: 'Vårt bildediagram-verktøy kombinerer syv kraftige funksjoner for å lage profesjonelle matematikk oppgaver. Full Tilgang-abonnementet gir deg alle verktøyene for tall og telling uten begrensninger. Lag arbeidsark gratis med ubegrenset tilgang til bildegenerering og redigering. Hver funksjon er designet for å spare lærere tid samtidig som elevene får kvalitetsarbeidsark. Disse syv funksjonene gjør bildediagram til det mest fleksible verktøyet for telling og grafisk fremstilling.',
     highlightBadgeText: 'Viktig Funksjon',
     readMoreLabel: 'Les mer',
@@ -383,7 +383,7 @@ Lag sesongbaserte produktpakker med bildediagram som kjerne. Høstpakke med bild
 
   // FAQ Section - From chart-count.md
   faq: {
-    sectionTitle: 'Ofte Stilte Spørsmål - Gratis Arbeidsark for Barn og Bildediagram for 1. Trinn',
+    sectionTitle: 'FAQ - Gratis Arbeidsark for Barn og Arbeidsark for 1. Trinn. Arbeidsark for Barn',
     sectionDescription: 'Lærere stiller ofte spørsmål om bildediagram før de abonnerer. Disse tolv spørsmålene dekker de vanligste bekymringene. Svarene gir klar informasjon om funksjoner, prising og bruksområder. Les disse FAQ-ene for å forstå hva Full Tilgang tilbyr. Informerte beslutninger fører til fornøyde brukere.',
     showMoreText: 'Vis flere spørsmål',
     showLessText: 'Vis færre',

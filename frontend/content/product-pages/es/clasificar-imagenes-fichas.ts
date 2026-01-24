@@ -81,8 +81,8 @@ Tu suscripción Acceso Completo incluye licencia comercial completa. Vende tus f
 
   // Sample Gallery
   samples: {
-    sectionTitle: 'Ejemplos de Fichas de Clasificación',
-    sectionDescription: 'Descarga ejemplos de fichas gratis para ver nuestra calidad profesional',
+    sectionTitle: 'Ficha Gratis para Niños - Fichas Gratis e Imprimibles Gratis',
+    sectionDescription: 'Descarga imprimibles gratis - Ficha gratis para niños de calidad profesional. Ficha para niños perfecta para ficha para preescolar. Ficha gratis para niños y ficha para niños incluyen material educativo. Ficha gratis disponible',
     downloadLabel: 'Descargar Ejemplo Gratis',
     worksheetLabel: 'Ficha',
     answerKeyLabel: 'Hoja de Respuestas',
@@ -126,7 +126,7 @@ Tu suscripción Acceso Completo incluye licencia comercial completa. Vende tus f
 
   // Features Grid
   features: {
-    sectionTitle: 'Características del Generador - Fichas para Imprimir con Herramientas Profesionales para Fichas Infantil',
+    sectionTitle: 'Fichas Gratis y Ficha para Niños - Imprimibles Gratis y Ficha para Preescolar',
     sectionDescription: 'Nuestro generador de fichas de clasificación incluye todas las herramientas profesionales que necesitas. Crea fichas para imprimir personalizadas en minutos. Cada característica está diseñada para maestros de educación infantil y primaria. Genera material educativo gratis de calidad profesional para tus estudiantes.',
     highlightBadgeText: 'Destacado',
     badgeText: 'Características',
@@ -199,7 +199,7 @@ Tu suscripción Acceso Completo incluye licencia comercial completa. Vende tus f
 
   // How-To Guide
   howTo: {
-    sectionTitle: 'Cómo Crear Fichas para Imprimir en 5 Pasos Fáciles - Guía Completa de Fichas Infantil',
+    sectionTitle: 'Ficha Gratis para Niños Crear - Ficha para Preescolar',
     sectionDescription: 'Crear fichas de clasificación profesionales toma menos de 3 minutos. Sigue estos cinco pasos sencillos para generar material educativo gratis. No necesitas experiencia en diseño para crear fichas preescolar efectivas. El proceso es intuitivo y diseñado para maestros ocupados.',
     ctaText: 'Comenzar Ahora',
     badgeText: 'Cómo Funciona',
@@ -251,7 +251,7 @@ Tu suscripción Acceso Completo incluye licencia comercial completa. Vende tus f
 
   // Use Cases
   useCases: {
-    sectionTitle: 'Perfecto para Maestros y Padres - Fichas para Imprimir de Clasificación para Todas las Necesidades',
+    sectionTitle: 'Ficha Gratis para Niños - Ficha para Preescolar con Imprimibles Gratis. Ficha para Niños',
     sectionDescription: 'Las fichas de clasificación benefician a múltiples tipos de educadores. Maestros de educación infantil usan fichas preescolar para desarrollo cognitivo. Padres homeschoolers crean material educativo gratis personalizado. Maestros emprendedores venden fichas infantil en plataformas en línea. Cada grupo encuentra valor único en nuestro generador profesional.',
     badgeText: 'Casos de Uso',
     readMoreLabel: 'Leer más',
@@ -310,7 +310,7 @@ Tu suscripción Acceso Completo incluye licencia comercial completa. Vende tus f
 
   // FAQ Section
   faq: {
-    sectionTitle: 'Preguntas Frecuentes sobre Fichas para Imprimir - Todo sobre Material Educativo Gratis',
+    sectionTitle: 'FAQ - Ficha Gratis para Niños y Ficha para Preescolar. Ficha para Niños',
     sectionDescription: 'Los maestros tienen preguntas comunes sobre nuestro generador de fichas. Esta sección responde las 12 preguntas más frecuentes. Aprende sobre funcionalidad, licencias y mejores prácticas. Toda la información que necesitas para maximizar tu suscripción Acceso Completo.',
     showMoreText: 'Mostrar más preguntas',
     showLessText: 'Mostrar menos',
@@ -439,7 +439,7 @@ Tu suscripción Acceso Completo incluye licencia comercial completa. Vende tus f
 
   // Related Apps Section
   relatedApps: {
-    sectionTitle: 'Combina Fichas de Clasificación con Otras Fichas para Imprimir - Paquetes Completos de Aprendizaje con Grafomotricidad y Lectoescritura',
+    sectionTitle: 'Fichas Gratis Combinar - Ficha para Niños e Imprimibles Gratis',
     sectionDescription: 'Nuestro generador incluye 33 herramientas diferentes en la plataforma completa. Los maestros combinan fichas de clasificación con otros tipos para aprendizaje integral. Crea paquetes semanales que cubren múltiples habilidades simultáneamente. Tu suscripción Acceso Completo desbloquea todas las posibilidades de combinación.',
     ctaTitle: '¿Listo para Crear Fichas Increíbles?',
     ctaDescription: 'Únete a miles de educadores que crean fichas profesionales con nuestras herramientas.',

@@ -54,8 +54,8 @@ Alle arbeidsark kan tilpasses fullstendig etter generering. Dra, roter, skaler o
 
   // Sample Gallery - REAL file paths from samples/english/math puzzle/
   samples: {
-    sectionTitle: 'Matematikkgåter Arbeidsark Eksempler',
-    sectionDescription: 'Last ned gratis eksempler på matematikkgåter arbeidsark for å se vår profesjonelle kvalitet',
+    sectionTitle: 'Gratis Arbeidsark for Barn - Gratis Arbeidsark og Gratis Utskrifter',
+    sectionDescription: 'Last ned gratis utskrifter - Gratis arbeidsark for barn av profesjonell kvalitet. Gratis arbeidsark og arbeidsark for barn perfekt for arbeidsark for 1. trinn. Gratis arbeidsark for barn og arbeidsark for barn inkluderer gratis utskrifter undervisningsmateriell. Gratis arbeidsark og arbeidsark for 1. trinn tilgjengelig',
     badgeText: 'Gratis Eksempler',
     downloadLabel: 'Last ned Gratis Eksempel',
     downloadingLabel: 'Laster ned...',
@@ -85,7 +85,7 @@ Alle arbeidsark kan tilpasses fullstendig etter generering. Dra, roter, skaler o
 
   // Features Grid - From math-puzzle.md feature sections
   features: {
-    sectionTitle: 'Matematikkgåter Generator Funksjoner - Alt du Trenger til Matteoppgaver og Arbeidsark Gratis',
+    sectionTitle: 'Gratis Arbeidsark og Arbeidsark for Barn - Gratis Utskrifter og Arbeidsark for 1. Trinn',
     sectionDescription: 'Vår matematikkgåter-generator gir deg alle verktøyene du trenger for å lage engasjerende matteoppgaver. Full Tilgang-abonnementet inkluderer ubegrenset tilgang til bildbibliotek, kommersielle rettigheter og profesjonell utskriftskvalitet. Hver funksjon er utviklet for å spare tid samtidig som du får full kreativ kontroll. Last ned arbeidsark med både oppgaver og fasit i høy oppløsning.',
     highlightBadgeText: 'Viktig Funksjon',
     readMoreLabel: 'Les mer',
@@ -179,7 +179,7 @@ Separate nedlastinger for oppgaveark og fasitark gir fleksibilitet. Del oppgavea
 
   // How-To Guide - From math-puzzle.md step sections
   howTo: {
-    sectionTitle: 'Hvordan Lage Arbeidsark Gratis på 5 Enkle Trinn - Matteoppgaver for Addisjon og Subtraksjon',
+    sectionTitle: 'Gratis Arbeidsark for Barn Lage - Arbeidsark for 1. Trinn',
     sectionDescription: 'Lag profesjonelle matematikkgåter på under 3 minutter. Prosessen er enkel nok for nye brukere. Samtidig gir den erfarne lærere full kreativ kontroll. Hver funksjon er designet for rask arbeidsflyt. Følg disse fem trinnene for perfekte matteoppgaver hver gang.',
     ctaText: 'Start Nå',
     badgeText: 'Slik Fungerer Det',
@@ -251,7 +251,7 @@ Filene lastes ned umiddelbart til nedlastingsmappen din. Åpne i PDF-leser eller
 
   // Use Cases - From math-puzzle.md use case sections
   useCases: {
-    sectionTitle: 'Perfekt for Lærere, Foreldre og Pedagoger - Matteoppgaver og Arbeidsark Gratis for Alle Behov',
+    sectionTitle: 'Gratis Arbeidsark for Barn - Arbeidsark for 1. Trinn med Gratis Utskrifter. Arbeidsark for Barn',
     sectionDescription: 'Matematikkgåter-generatoren passer mange ulike brukere. Barnehagelærere bruker den for å introdusere tallforståelse. Lærere på småskoletrinnet bruker den for daglig matteøving. Hjemmeskoleforeldre setter sammen komplette matematikkpakker. Hver brukergruppe finner unike fordeler med verktøyet.',
     badgeText: 'Hvem Er Det For',
     readMoreLabel: 'Les mer',
@@ -334,7 +334,7 @@ Mange lærere tjener 500-5000 kroner månedlig ved å selge undervisningsmaterie
 
   // FAQ Section - From math-puzzle.md
   faq: {
-    sectionTitle: 'Ofte Stilte Spørsmål om Matteoppgaver og Arbeidsark Gratis - Svar på Vanlige Spørsmål',
+    sectionTitle: 'FAQ - Gratis Arbeidsark for Barn og Arbeidsark for 1. Trinn. Arbeidsark for Barn',
     sectionDescription: 'Lærere og foreldre har mange spørsmål om matematikkgåter-generatoren. Hvordan fungerer abonnementet? Kan jeg bruke arbeidsarkene i klasserommet? Hvilke språk støttes? Her finner du svar på de vanligste spørsmålene. Alle svar baseres på faktisk funksjonalitet og reelle bruksscenarier.',
     showMoreText: 'Vis flere spørsmål',
     showLessText: 'Vis færre',
@@ -429,7 +429,7 @@ Mange lærere tjener 500-5000 kroner månedlig ved å selge undervisningsmaterie
 
   // Related Apps - From math-puzzle.md "Kombiner" section
   relatedApps: {
-    sectionTitle: 'Kombiner Matematikkgåter med Fargeleggingsbilder Barn, Gangetabellen og Lesetrening - Komplette Oppgavehefter Barn',
+    sectionTitle: 'Gratis Arbeidsark Kombinere - Arbeidsark for Barn og Gratis Utskrifter',
     sectionDescription: 'Full Tilgang-abonnementet inkluderer 33 forskjellige generatortyper som jobber sømløst sammen. Kombinér matematikkgåter med fargeleggingsbilder barn, bokstaver lære skrive, lesetrening, gangetabellen og finmotorikk øvelser. Lag komplette ukepakker, månedsplaner eller tematiske oppgavehefter barn som dekker flere fagområder samtidig.',
     ctaTitle: 'Klar til å Lage Fantastiske Arbeidsark?',
     ctaDescription: 'Bli med tusenvis av pedagoger som lager profesjonelle arbeidsark. Ubegrenset oppretting, kommersiell lisens inkludert.',

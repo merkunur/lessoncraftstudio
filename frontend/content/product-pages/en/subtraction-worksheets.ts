@@ -78,7 +78,7 @@ Adjust difficulty settings to create kindergarten worksheets for early learners 
 
   // Sample Gallery - REAL file paths from samples/english/subtraction/
   samples: {
-    sectionTitle: 'Worksheet Samples',
+    sectionTitle: 'Free Worksheet for Kids - Free Worksheets and Free Printables',
     downloadLabel: 'Download Free Sample',
     worksheetLabel: 'Worksheet',
     answerKeyLabel: 'Answer Key',
@@ -123,8 +123,8 @@ Adjust difficulty settings to create kindergarten worksheets for early learners 
 
   // Features Grid - FULL descriptions from subtraction.md H3 sections
   features: {
-    sectionTitle: 'Everything You Need for Math Worksheets',
-    sectionDescription: 'Our subtraction worksheet generator includes powerful features specifically designed for kindergarten worksheets, first grade worksheets, and elementary math education. Teachers creating free printable worksheets gain access to professional-grade tools without per-worksheet costs. Each feature works together to create math worksheets faster than traditional methods. From image selection to final PDF download, every step is optimized for teacher productivity. These features make creating kindergarten worksheets and first grade worksheets effortless whether you need one page or one hundred pages.',
+    sectionTitle: 'Free Worksheet for Kids Features - Worksheet for Kindergarten',
+    sectionDescription: 'Our subtraction worksheet generator includes powerful features specifically designed for free worksheet for kids, first grade worksheets, and elementary math education. Teachers creating free worksheet for kids gain access to professional-grade tools without per-worksheet costs. Each feature works together to create free worksheet for kids faster than traditional methods. From image selection to final PDF download, every step is optimized for teacher productivity.',
     highlightBadgeText: 'Key Feature',
     items: [
       {
@@ -181,7 +181,7 @@ Adjust difficulty settings to create kindergarten worksheets for early learners 
 
   // How-To Guide - FULL text from subtraction.md Step sections
   howTo: {
-    sectionTitle: 'Create Subtraction Worksheets in 5 Easy Steps',
+    sectionTitle: 'How to Create Free Worksheets for Kids in 5 Steps',
     sectionDescription: 'Creating professional subtraction worksheets takes under 3 minutes with our streamlined five-step process. Teachers making free printable worksheets for kindergarten and first grade follow the same simple workflow whether creating one worksheet or preparing an entire week of math worksheets. Each step offers customization options while maintaining speed and ease of use. The interface guides you from initial setup through final download. No design experience required to create kindergarten worksheets that look professionally published. First grade teachers new to digital worksheet creation master the process in their first session. Follow these five steps to generate math worksheets, download answer keys, and start using subtraction practice materials within minutes.',
     ctaText: 'Start Creating Now',
     steps: [
@@ -225,7 +225,7 @@ Adjust difficulty settings to create kindergarten worksheets for early learners 
 
   // Use Cases - FULL descriptions from subtraction.md persona sections
   useCases: {
-    sectionTitle: 'Perfect for Teachers, Parents, and Educators',
+    sectionTitle: 'Free Printables for Teachers - Worksheet for Kindergarten',
     sectionDescription: 'Our subtraction worksheet generator serves diverse educational needs from kindergarten through second grade. Kindergarten teachers use it for introducing basic subtraction concepts. First grade teachers rely on it for building math fluency. Homeschool parents appreciate the flexibility for multi-level teaching. ESL instructors value the visual approach for language learners. Special education teachers customize worksheets for individual learning plans. Teacher entrepreneurs create products for online marketplaces. Each user type benefits from different features while sharing the same powerful platform for creating free printable worksheets. The combination of ease, customization, and professional quality makes this tool indispensable for anyone teaching early math skills through kindergarten worksheets and first grade worksheets.',
     items: [
       {
@@ -281,7 +281,7 @@ Adjust difficulty settings to create kindergarten worksheets for early learners 
 
   // FAQ Section - ALL questions from subtraction.md
   faq: {
-    sectionTitle: 'Frequently Asked Questions',
+    sectionTitle: 'FAQ - Free Worksheet for Kids and Worksheet for Kindergarten',
     sectionDescription: 'Teachers and parents frequently ask about creating subtraction worksheets alongside other free printable worksheets including alphabet worksheets, phonics worksheets, sight words worksheets, addition worksheets, tracing worksheets, and coloring worksheets. This section answers common questions about combining different worksheet types, customization options, subscription benefits, and commercial usage. Understanding how to maximize your Full Access subscription helps create comprehensive learning materials across all subject areas. Whether you teach kindergarten or first grade, homeschool multiple children, or sell products online, these answers clarify how our platform serves your specific needs for math worksheets and literacy materials.',
     showMoreText: 'Show more questions',
     showLessText: 'Show less',
@@ -434,7 +434,7 @@ Adjust difficulty settings to create kindergarten worksheets for early learners 
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Combine with Other Worksheet Generators',
+    sectionTitle: 'More Free Worksheets - Free Printables Generators',
     sectionDescription: 'Our platform offers 33 different worksheet generators beyond subtraction. Your Full Access subscription provides access to all generators for creating comprehensive learning packets. Combine subtraction worksheets with addition worksheets, alphabet worksheets, phonics worksheets, sight words worksheets, tracing worksheets, and coloring worksheets. Build complete themed units mixing math practice with literacy and fine motor activities.',
     ctaTitle: 'Ready to Create Amazing Worksheets?',
     ctaDescription: 'Join educators creating professional worksheets. Unlimited generation, commercial license included.',

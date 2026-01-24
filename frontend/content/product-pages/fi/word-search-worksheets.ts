@@ -53,8 +53,8 @@ Ilmainen perusversio sisältää vesileiman henkilökohtaiseen käyttöön. Peru
 
   // Sample Gallery - REAL file paths from samples/english/wordsearch/
   samples: {
-    sectionTitle: 'Sanapeli Työarkit Esimerkit',
-    sectionDescription: 'Lataa ilmaiset esimerkkityöarkit nähdäksesi ammattimaisen laatumme',
+    sectionTitle: 'Ilmainen Työarkki Lapsille - Ilmaiset Työarkit ja Ilmaiset Tulosteet',
+    sectionDescription: 'Lataa ilmaiset tulosteet - Ilmainen työarkki lapsille ammattimaista laatua. Ilmaiset työarkit ja työarkki lapsille täydellinen työarkki esiopetukseen. Ilmainen työarkki lapsille ja työarkki lapsille sisältää ilmaiset tulosteet ja ilmaiset työarkit opetusmateriaalin. Ilmainen työarkki ja työarkki esiopetukseen saatavilla',
     downloadLabel: 'Lataa Ilmainen Esimerkki',
     worksheetLabel: 'Työarkki',
     answerKeyLabel: 'Vastausavain',
@@ -91,7 +91,7 @@ Ilmainen perusversio sisältää vesileiman henkilökohtaiseen käyttöön. Peru
 
   // Features Grid - FULL text from Finnish wordsearch.md feature sections
   features: {
-    sectionTitle: 'Sanapeli Generaattorin Ominaisuudet - Tulostettavat Tehtävät Lapsille Ilmainen Työkalu',
+    sectionTitle: 'Ilmaiset Työarkit ja Työarkki Lapsille - Ilmaiset Tulosteet ja Työarkki Esiopetukseen',
     sectionDescription: 'Sanapeli generaattori tarjoaa kaikki työkalut ammattimaisten tehtävien luomiseen. Luo tulostettavat tehtävät lapsille ilmainen tai premium-tilauksella. Kaikki ominaisuudet suunniteltu opettajien tarpeisiin. Helppokäyttöinen käyttöliittymä nopeuttaa tehtävien luomista.',
     highlightBadgeText: 'Tärkeä Ominaisuus',
     readMoreLabel: 'Lue lisää',
@@ -196,7 +196,7 @@ Vastausavain toimii kaikilla tehtävillä. Matematiikka tehtävät alakoulu, kir
 
   // How-To Guide - FULL text from Finnish wordsearch.md step sections
   howTo: {
-    sectionTitle: 'Kuinka Luoda Tulostettavat Tehtävät Lapsille 5 Helpossa Vaiheessa',
+    sectionTitle: 'Ilmainen Työarkki Lapsille Luoda - Työarkki Esiopetukseen',
     sectionDescription: 'Luo ammattimaisia sanapelitehtäviä alle 3 minuutissa. Koko prosessi on yksinkertainen ja intuitiivinen. Ei tarvitse suunnitteluosaamista tai teknistä kokemusta. Seuraa näitä viittä vaihetta täydellisiin tulostettavat tehtävät lapsille ilmainen tuloksiin.',
     ctaText: 'Aloita Luominen Nyt',
     badgeText: 'Näin Se Toimii',
@@ -268,7 +268,7 @@ Aktivoi harmaasävyvaihtoehto säästääksesi värimustetta. Tehtävät tulostu
 
   // Use Cases - FULL text from Finnish wordsearch.md use case sections
   useCases: {
-    sectionTitle: 'Täydellinen Opettajille, Vanhemmille ja Kasvattajille',
+    sectionTitle: 'Ilmainen Työarkki Lapsille - Työarkki Esiopetukseen ja Ilmaiset Tulosteet. Työarkki Lapsille',
     sectionDescription: 'Sanapeli generaattori palvelee monia käyttäjäryhmiä. Esiopetuksen opettajat, alakoulun opettajat ja kotiopettajat. Erityisopettajat ja kielenopettajat. Opettajayrittäjät myyvät tehtäviä verkossa. Jokainen ryhmä hyötyy ainutlaatuisilla tavoilla.',
     badgeText: 'Kenelle Sopii',
     readMoreLabel: 'Lue lisää',
@@ -351,7 +351,7 @@ Premium-tilaus sisältää täyden kaupallisen POD-lisenssin. Ei ylimääräisi�
 
   // FAQ Section - Selected FAQs from Finnish wordsearch.md
   faq: {
-    sectionTitle: 'Usein Kysytyt Kysymykset',
+    sectionTitle: 'FAQ - Ilmainen Työarkki Lapsille ja Työarkki Esiopetukseen. Työarkki Lapsille',
     sectionDescription: 'Yleisimmät kysymykset sanapeli generaattorista ja ilmaisista työarkeista.',
     showMoreText: 'Näytä lisää kysymyksiä',
     showLessText: 'Näytä vähemmän',
@@ -456,7 +456,7 @@ Premium-tilaus sisältää täyden kaupallisen POD-lisenssin. Ei ylimääräisi�
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Yhdistä Muihin Työarkki Generaattoreihin',
+    sectionTitle: 'Ilmaiset Työarkit Yhdistää - Työarkki Lapsille ja Ilmaiset Tulosteet',
     sectionDescription: 'Luo kattavia oppimispaketteja yhdistämällä sanapeli työarkit näihin täydentäviin generaattoreihin.',
     ctaTitle: 'Valmiina Luomaan Upeita Työarkkeja?',
     ctaDescription: 'Liity tuhansien opettajien joukkoon, jotka luovat ammattimaisia työarkkeja. Rajoittamaton generointi, kaupallinen lisenssi sisältyy.',

@@ -55,8 +55,8 @@ Full Tilgang-abonnementet inkluderer kommersiell lisens for salg på nettbutikke
 
   // Sample Gallery - REAL file paths from samples/english/pattern worksheet/
   samples: {
-    sectionTitle: 'Mønsteroppgaver Arbeidsark Eksempler',
-    sectionDescription: 'Last ned gratis eksempler på mønsteroppgaver for å se vår profesjonelle kvalitet',
+    sectionTitle: 'Gratis Arbeidsark for Barn - Gratis Arbeidsark og Gratis Utskrifter',
+    sectionDescription: 'Last ned gratis utskrifter - Gratis arbeidsark for barn av profesjonell kvalitet. Gratis arbeidsark og arbeidsark for barn perfekt for arbeidsark for 1. trinn. Gratis arbeidsark for barn og arbeidsark for barn inkluderer gratis utskrifter undervisningsmateriell. Gratis arbeidsark og arbeidsark for 1. trinn tilgjengelig',
     badgeText: 'Gratis Eksempler',
     downloadLabel: 'Last ned Gratis Eksempel',
     downloadingLabel: 'Laster ned...',
@@ -86,7 +86,7 @@ Full Tilgang-abonnementet inkluderer kommersiell lisens for salg på nettbutikke
 
   // Features Grid - FULL text from pattern-worksheet.md feature sections
   features: {
-    sectionTitle: 'Funksjoner for Mønsteroppgaver - Alt Du Trenger for Arbeidsark Gratis og Matematikk Oppgaver',
+    sectionTitle: 'Gratis Arbeidsark og Arbeidsark for Barn - Gratis Utskrifter og Arbeidsark for 1. Trinn',
     sectionDescription: 'Mønsteroppgave-generatoren inkluderer syv essensielle funksjoner for å lage profesjonelle arbeidsark gratis og matematikk oppgaver. Generer ubegrensede mønsteroppgaver med ditt Full Tilgang-abonnement. Hver funksjon fungerer sammen for å lage oppgavehefter barn på minutter. Lærere tilpasser hvert element for matematikkundervisning og mønstergjenkjenningsøvelser på småskoletrinnet.',
     highlightBadgeText: 'Viktig Funksjon',
     readMoreLabel: 'Les mer',
@@ -180,7 +180,7 @@ Gråtone-veksling konverterer fargerike mønsteroppgaver til skrivervennlige sva
 
   // How-To Guide - FULL text from pattern-worksheet.md step sections
   howTo: {
-    sectionTitle: 'Hvordan Lage Mønsteroppgaver i 5 Enkle Trinn - Arbeidsark Gratis for Matematikk Oppgaver',
+    sectionTitle: 'Gratis Arbeidsark for Barn Lage - Arbeidsark for 1. Trinn',
     sectionDescription: 'Å lage profesjonelle mønsteroppgaver tar under 3 minutter fra start til nedlasting. Følg fem enkle trinn for å generere tilpassede matematikk oppgaver og oppgavehefter barn for småskoletrinnet. Ingen designerfaring påkrevd for å lage arbeidsark gratis. Hvert trinn tilbyr tilpasningsmuligheter for differensiert undervisning og personlig læring.',
     ctaText: 'Start Nå',
     badgeText: 'Slik Fungerer Det',
@@ -262,7 +262,7 @@ Last ned separert fasit for effektiv retting. Fasitsiden laster ned som egen fil
 
   // Use Cases - FULL text from pattern-worksheet.md use case sections
   useCases: {
-    sectionTitle: 'Perfekt for Lærere, Foreldre og Pedagoger - Arbeidsark Gratis for Matematikk Oppgaver',
+    sectionTitle: 'Gratis Arbeidsark for Barn - Arbeidsark for 1. Trinn med Gratis Utskrifter. Arbeidsark for Barn',
     sectionDescription: 'Mønsteroppgave-generatoren tjener forskjellige undervisningsbehov på tvers av barnehage og småskoletrinnet. Lærere i barnehage bruker arbeidsark gratis for grunnleggende mønstergjenkjenning. Småskoletrinns-lærere lager matematikk oppgaver for avansert tallforståelse. Foreldre lager oppgavehefter barn for hjemmeundervisning eller ekstra øving. Hvert bruksscenario drar nytte av ubegrenset oppgavegenerering med Full Tilgang-abonnementet.',
     badgeText: 'Hvem Er Det For',
     readMoreLabel: 'Les mer',
@@ -345,7 +345,7 @@ Pinterest-markedsføring driver trafikk til Teachers Pay Teachers-butikken din. 
 
   // FAQ Section - FULL text from pattern-worksheet.md FAQ sections
   faq: {
-    sectionTitle: 'Ofte Stilte Spørsmål om Matematikk Oppgaver, Arbeidsark Gratis og Oppgavehefter Barn',
+    sectionTitle: 'FAQ - Gratis Arbeidsark for Barn og Arbeidsark for 1. Trinn. Arbeidsark for Barn',
     sectionDescription: 'Lærere og foreldre stiller vanlige spørsmål om mønsteroppgave-generatoren før de starter. Disse svarene adresserer de vanligste bekymringene om Full Tilgang-abonnementet og oppgavefunksjoner. Hver FAQ gir praktisk informasjon om matematikk oppgaver-opprettelse, utskriftsalternativer og kommersielle bruks-rettigheter.',
     badgeText: 'Vanlige Spørsmål',
     showMoreText: 'Vis flere spørsmål',
@@ -464,7 +464,7 @@ Kombiner mønstre med læreplanstandarder på tvers av fag. Lag sesongmessige m�
 
   // Related Apps Section
   relatedApps: {
-    sectionTitle: 'Kombiner Mønsteroppgaver med Andre Verktøy',
+    sectionTitle: 'Gratis Arbeidsark Kombinere - Arbeidsark for Barn og Gratis Utskrifter',
     sectionDescription: 'Full Tilgang gir tilgang til alle 33 arbeidsarkgeneratorer. Kombiner mønsteroppgaver med tall og telling, bokstaver lære skrive, lesetrening, addisjon og subtraksjon, finmotorikk øvelser, gangetabellen, oppgavehefter barn og fargeleggingsbilder barn. Lag komplette læringspakker som dekker flere fag samtidig.',
     ctaTitle: 'Klar til å Lage Profesjonelle Mønsteroppgaver?',
     ctaDescription: 'Bli med tusenvis av lærere som lager engasjerende mønstergjenkjenningsoppgaver med vår mønsteroppgave-generator.',

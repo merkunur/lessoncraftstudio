@@ -54,8 +54,8 @@ Full Tilgang inkluderer kommersielle rettigheter for print-on-demand. Selg dine 
 
   // Sample Gallery - REAL file paths from samples/english/crossword/
   samples: {
-    sectionTitle: 'Bildekryssord Arbeidsark Eksempler',
-    sectionDescription: 'Last ned gratis eksempler på bildekryssord arbeidsark for å se vår profesjonelle kvalitet',
+    sectionTitle: 'Gratis Arbeidsark for Barn - Gratis Arbeidsark og Gratis Utskrifter',
+    sectionDescription: 'Last ned gratis utskrifter - Gratis arbeidsark for barn av profesjonell kvalitet. Gratis arbeidsark og arbeidsark for barn perfekt for arbeidsark for 1. trinn. Gratis arbeidsark for barn og arbeidsark for barn inkluderer gratis utskrifter undervisningsmateriell. Gratis arbeidsark og arbeidsark for 1. trinn tilgjengelig',
     badgeText: 'Gratis Eksempler',
     downloadLabel: 'Last ned Gratis Eksempel',
     downloadingLabel: 'Laster ned...',
@@ -85,7 +85,7 @@ Full Tilgang inkluderer kommersielle rettigheter for print-on-demand. Selg dine 
 
   // Features Grid - FULL text from crossword.md feature sections
   features: {
-    sectionTitle: 'Bildekryssord Funksjoner - Alt Du Trenger for Arbeidsark Gratis og Lesetrening Oppgaver',
+    sectionTitle: 'Gratis Arbeidsark og Arbeidsark for Barn - Gratis Utskrifter og Arbeidsark for 1. Trinn',
     sectionDescription: 'Vår bildekryssord-generator kombinerer kraftige funksjoner med enkel bruk. Lag matematikk oppgaver, bokstaver lære skrive-aktiviteter og leseforståelse-oppgaver på minutter. Full Tilgang gir deg alle verktøyene du trenger for småskoletrinnet. Over 3000 bilder gjør det enkelt å lage varierte oppgavehefter barn elsker.',
     highlightBadgeText: 'Viktig Funksjon',
     readMoreLabel: 'Les mer',
@@ -179,7 +179,7 @@ Letter Portrait, Letter Landscape, A4 Portrait og A4 Landscape støttes. Tilpass
 
   // How-To Guide - FULL text from crossword.md step sections
   howTo: {
-    sectionTitle: 'Hvordan Lage Bildekryssord Arbeidsark på 5 Enkle Trinn - Lesetrening og Matematikk Oppgaver',
+    sectionTitle: 'Gratis Arbeidsark for Barn Lage - Arbeidsark for 1. Trinn',
     sectionDescription: 'Lag profesjonelle bildekryssord på under 3 minutter. Ingen designerferdigheter kreves. Følg denne enkle 5-stegs prosessen for å lage lesetrening arbeidsark elevene elsker. Perfekt for lærere som trenger raske løsninger til småskoletrinnet.',
     ctaText: 'Start Nå',
     badgeText: 'Slik Fungerer Det',
@@ -261,7 +261,7 @@ Med Full Tilgang kan du laste ned ubegrenset uten per-ark kostnader. Lag nye mat
 
   // Use Cases - FULL text from crossword.md use case sections
   useCases: {
-    sectionTitle: 'Perfekt for Lærere og Foreldre - Bildekryssord Arbeidsark for Lesetrening og Matematikk Oppgaver',
+    sectionTitle: 'Gratis Arbeidsark for Barn - Arbeidsark for 1. Trinn med Gratis Utskrifter. Arbeidsark for Barn',
     sectionDescription: 'Bildekryssord-generatoren passer mange ulike brukere. Barnehagepedagoger lager lesetrening til førskolebarn. Småskolelærere får matematikk oppgaver til 1. til 3. trinn. Hjemmeundervisningsforeldre bygger tilpassede oppgavehefter barn. Alle drar nytte av verktøyet.',
     badgeText: 'Hvem Er Det For',
     readMoreLabel: 'Les mer',
@@ -356,7 +356,7 @@ Lag gangetabellen arbeidsark for 3. trinn som populære produkter. Kombiner med 
 
   // FAQ Section - From crossword.md
   faq: {
-    sectionTitle: 'Ofte Stilte Spørsmål om Bildekryssord og Arbeidsark Gratis for Matematikk Oppgaver',
+    sectionTitle: 'FAQ - Gratis Arbeidsark for Barn og Arbeidsark for 1. Trinn. Arbeidsark for Barn',
     sectionDescription: 'Lærere og foreldre stiller ofte de samme spørsmålene om bildekryssord-generatoren. Her er svar på de 12 vanligste spørsmålene. Fra prising til utskrift, fra språkstøtte til kommersielle rettigheter.',
     showMoreText: 'Vis flere spørsmål',
     showLessText: 'Vis færre',
@@ -485,7 +485,7 @@ Lag gangetabellen arbeidsark for 3. trinn som populære produkter. Kombiner med 
 
   // Related Apps - From crossword.md "Kombiner" section
   relatedApps: {
-    sectionTitle: 'Kombiner Bildekryssord med Andre Arbeidsark Gratis - Komplette Oppgavehefter Barn og Lesetrening',
+    sectionTitle: 'Gratis Arbeidsark Kombinere - Arbeidsark for Barn og Gratis Utskrifter',
     sectionDescription: 'Full Tilgang gir tilgang til 33 forskjellige generatorer. Kombiner bildekryssord med fargeleggingsbilder barn, matematikk oppgaver og finmotorikk øvelser. Bygg komplette ukentlige oppgavehefter barn. Elevene får variert øving på tvers av fag og ferdigheter.',
     ctaTitle: 'Klar til å Lage Fantastiske Arbeidsark?',
     ctaDescription: 'Bli med tusenvis av pedagoger som lager profesjonelle arbeidsark. Ubegrenset oppretting, kommersiell lisens inkludert.',

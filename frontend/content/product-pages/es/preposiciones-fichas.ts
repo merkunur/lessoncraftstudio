@@ -85,8 +85,8 @@ Tu suscripcion incluye acceso a mas de 3000 imagenes infantiles organizadas por 
 
   // Sample Gallery - REAL file paths from samples/spanish/prepositions/
   samples: {
-    sectionTitle: 'Ejemplos de Fichas de Preposiciones',
-    sectionDescription: 'Descarga ejemplos de fichas gratis para ver nuestra calidad profesional',
+    sectionTitle: 'Ficha Gratis para Niños - Fichas Gratis e Imprimibles Gratis',
+    sectionDescription: 'Descarga imprimibles gratis - Ficha gratis para niños de calidad profesional. Ficha para niños perfecta para ficha para preescolar. Ficha gratis para niños y ficha para niños incluyen material educativo. Ficha gratis disponible',
     downloadLabel: 'Descargar Ejemplo Gratis',
     worksheetLabel: 'Ficha',
     answerKeyLabel: 'Hoja de Respuestas',
@@ -130,7 +130,7 @@ Tu suscripcion incluye acceso a mas de 3000 imagenes infantiles organizadas por 
 
   // Features Grid - FULL descriptions from prepositions.md H3 sections
   features: {
-    sectionTitle: 'Caracteristicas del Generador de Fichas para Imprimir - Todo lo que Necesitas para Crear Fichas Infantil y Material Educativo Gratis',
+    sectionTitle: 'Fichas Gratis y Ficha para Niños - Imprimibles Gratis y Ficha para Preescolar',
     sectionDescription: 'Nuestro generador de fichas de preposiciones combina facilidad de uso con personalizacion profesional. Cada caracteristica esta disenada para ahorrarte tiempo mientras creas fichas para imprimir de la mas alta calidad. Con Acceso Completo por $240 anuales, obtienes todas estas funciones sin limites ni cargos adicionales por uso.',
     highlightBadgeText: 'Destacado',
     badgeText: 'Caracteristicas',
@@ -196,7 +196,7 @@ Tu suscripcion incluye acceso a mas de 3000 imagenes infantiles organizadas por 
 
   // How-To Guide - FULL text from prepositions.md Step sections
   howTo: {
-    sectionTitle: 'Como Crear Fichas para Imprimir de Preposiciones en 5 Pasos Faciles - Genera Material Educativo Gratis Rapidamente',
+    sectionTitle: 'Ficha Gratis para Niños Crear - Ficha para Preescolar',
     sectionDescription: 'El proceso completo para crear fichas infantil de preposiciones toma menos de 3 minutos. Desde seleccionar las preposiciones hasta descargar el PDF final, cada paso es intuitivo y rapido. No necesitas experiencia en diseno grafico ni software complicado para generar fichas para imprimir profesionales.',
     ctaText: 'Comenzar a Crear',
     badgeText: 'Como Funciona',
@@ -248,7 +248,7 @@ Tu suscripcion incluye acceso a mas de 3000 imagenes infantiles organizadas por 
 
   // Use Cases - FULL text from prepositions.md Casos de Uso sections
   useCases: {
-    sectionTitle: 'Casos de Uso de Fichas para Imprimir con Preposiciones - Ejercicios Matematicas, Grafomotricidad y Lectoescritura',
+    sectionTitle: 'Ficha Gratis para Niños - Ficha para Preescolar con Imprimibles Gratis. Ficha para Niños',
     sectionDescription: 'Las fichas de preposiciones no son solo para ensenar vocabulario espacial. Los maestros creativos las combinan con ejercicios matematicas, grafomotricidad, lectoescritura y mas. Esta versatilidad convierte el generador en una herramienta esencial para educacion infantil y primaria.',
     badgeText: 'Para Quien',
     readMoreLabel: 'Leer mas',
@@ -355,7 +355,7 @@ Tu suscripcion incluye acceso a mas de 3000 imagenes infantiles organizadas por 
 
   // FAQ Section - FULL text from prepositions.md FAQ sections
   faq: {
-    sectionTitle: 'Preguntas Frecuentes sobre Fichas para Imprimir de Preposiciones - Respuestas sobre Grafomotricidad, Lectoescritura y Material Educativo',
+    sectionTitle: 'FAQ - Ficha Gratis para Niños y Ficha para Preescolar. Ficha para Niños',
     sectionDescription: 'Los maestros hacen preguntas similares sobre las fichas de preposiciones. Esta seccion responde las dudas mas comunes sobre ejercicios matematicas, fichas para colorear, abecedario, numeros, tablas de multiplicar, lectoescritura y grafomotricidad.',
     badgeText: 'Preguntas Frecuentes',
     showMoreText: 'Mostrar mas preguntas',
@@ -410,7 +410,7 @@ Tu suscripcion incluye acceso a mas de 3000 imagenes infantiles organizadas por 
 
   // Related Apps Section
   relatedApps: {
-    sectionTitle: 'Combina el Generador de Preposiciones con Otras Apps - Fichas de Matematicas, Abecedario, Colorear y Numeros Integradas',
+    sectionTitle: 'Fichas Gratis Combinar - Ficha para Niños e Imprimibles Gratis',
     sectionDescription: 'Acceso Completo incluye 33 aplicaciones que se combinan perfectamente. El generador de preposiciones no trabaja aislado. Lo combinas con generadores de ejercicios matematicas, fichas para colorear, abecedario, numeros, tablas de multiplicar y mas para crear material educativo unico imposible de comprar pre-hecho.',
     ctaTitle: 'Listo para Crear Fichas Increibles?',
     ctaDescription: 'Unete a miles de educadores que crean fichas profesionales con nuestras herramientas.',

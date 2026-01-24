@@ -79,8 +79,8 @@ Las fichas de matemáticas con rompecabezas funcionan excepcionalmente bien para
 
   // Sample Gallery
   samples: {
-    sectionTitle: 'Ejemplos de Fichas de Matemáticas',
-    sectionDescription: 'Descarga ejemplos de fichas gratis para ver nuestra calidad profesional',
+    sectionTitle: 'Ficha Gratis para Niños - Fichas Gratis e Imprimibles Gratis',
+    sectionDescription: 'Descarga imprimibles gratis - Ficha gratis para niños de calidad profesional. Ficha para niños perfecta para ficha para preescolar. Ficha gratis para niños y ficha para niños incluyen material educativo. Ficha gratis disponible',
     downloadLabel: 'Descargar Ejemplo Gratis',
     worksheetLabel: 'Ficha',
     answerKeyLabel: 'Hoja de Respuestas',
@@ -124,7 +124,7 @@ Las fichas de matemáticas con rompecabezas funcionan excepcionalmente bien para
 
   // Features Grid
   features: {
-    sectionTitle: 'Características de Fichas para Imprimir - Todo lo que Necesitas para Crear Ejercicios Matemáticas Profesionales',
+    sectionTitle: 'Fichas Gratis y Ficha para Niños - Imprimibles Gratis y Ficha para Preescolar',
     sectionDescription: 'Nuestro generador de rompecabezas matemáticos ofrece características completas para crear fichas de matemáticas atractivas y efectivas. Cada herramienta está diseñada para maestros ocupados que necesitan material educativo gratis de calidad profesional rápidamente. Crea fichas infantil personalizadas con configuración flexible, personalización completa y exportación de alta calidad. Tu suscripción Acceso Completo incluye acceso ilimitado a todas las características sin costos adicionales por hoja.',
     highlightBadgeText: 'Destacado',
     badgeText: 'Características',
@@ -190,7 +190,7 @@ Las fichas de matemáticas con rompecabezas funcionan excepcionalmente bien para
 
   // How-To Guide
   howTo: {
-    sectionTitle: 'Cómo Crear Fichas de Matemáticas Profesionales en 5 Pasos Fáciles - Ejercicios Matemáticas para Imprimir en Minutos',
+    sectionTitle: 'Ficha Gratis para Niños Crear - Ficha para Preescolar',
     sectionDescription: 'Crear rompecabezas matemáticos profesionales toma menos de 3 minutos del principio al fin. El proceso está diseñado para maestros ocupados que necesitan material educativo gratis de calidad rápidamente. Cada paso es intuitivo y directo. No se requieren habilidades de diseño ni experiencia técnica. Sigue estos cinco pasos simples para crear fichas para imprimir personalizadas perfectas para tus estudiantes de educación infantil y primaria.',
     ctaText: 'Comenzar Ahora',
     badgeText: 'Cómo Funciona',
@@ -242,7 +242,7 @@ Las fichas de matemáticas con rompecabezas funcionan excepcionalmente bien para
 
   // Use Cases
   useCases: {
-    sectionTitle: 'Perfecto para Maestros, Padres y Educadores - Fichas de Matemáticas y Material Educativo Gratis para Cada Necesidad',
+    sectionTitle: 'Ficha Gratis para Niños - Ficha para Preescolar con Imprimibles Gratis. Ficha para Niños',
     sectionDescription: 'Los rompecabezas matemáticos benefician a diversos tipos de educadores y entornos de aprendizaje. Cada grupo de usuarios encuentra valor único en estas fichas para imprimir autocorregibles. Maestros de educación infantil aprecian la motivación visual integrada. Padres que educan en casa valoran la flexibilidad de nivel. Educadores de educación especial usan las imágenes personalizadas para conexión emocional. Maestros emprendedores aprovechan la licencia comercial incluida. Estas fichas gratis se adaptan perfectamente a múltiples contextos educativos.',
     badgeText: 'Para Quién Es',
     readMoreLabel: 'Leer más',
@@ -301,7 +301,7 @@ Las fichas de matemáticas con rompecabezas funcionan excepcionalmente bien para
 
   // FAQ Section
   faq: {
-    sectionTitle: 'Preguntas Frecuentes sobre Fichas de Matemáticas para Imprimir y Ejercicios Matemáticas',
+    sectionTitle: 'FAQ - Ficha Gratis para Niños y Ficha para Preescolar. Ficha para Niños',
     badgeText: 'Preguntas Frecuentes',
     showMoreText: 'Ver más preguntas',
     showLessText: 'Ver menos preguntas',
@@ -429,7 +429,7 @@ Las fichas de matemáticas con rompecabezas funcionan excepcionalmente bien para
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Combina Rompecabezas Matemáticos con Otras Fichas para Imprimir - Material Educativo Gratis Integrado para Aprendizaje Completo',
+    sectionTitle: 'Fichas Gratis Combinar - Ficha para Niños e Imprimibles Gratis',
     sectionDescription: 'Los maestros más efectivos combinan rompecabezas matemáticos con otros tipos de fichas para imprimir creando unidades de aprendizaje integradas completas. Tu suscripción Acceso Completo desbloquea los 33 generadores permitiendo crear paquetes temáticos cohesivos.',
     ctaTitle: '¿Listo para Crear Rompecabezas Matemáticos Increíbles?',
     ctaDescription: 'Únete a miles de maestros que crean fichas profesionales. Generación ilimitada, licencia comercial incluida.',

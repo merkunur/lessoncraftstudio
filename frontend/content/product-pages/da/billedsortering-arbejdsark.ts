@@ -81,8 +81,8 @@ Fuld Adgang abonnement inkluderer ubegrænset adgang til alle 33 opgavegenerator
 
   // Sample Gallery - REAL file paths from samples/danish/picture-sort/
   samples: {
-    sectionTitle: 'Gratis Arbejdsark Eksempler - Billedsortering til Børn',
-    sectionDescription: 'Download gratis eksempler på arbejdsark for at se vores professionelle kvalitet',
+    sectionTitle: 'Gratis Arbejdsark til Børn - Gratis Arbejdsark og Gratis Printables',
+    sectionDescription: 'Download gratis printables - Gratis arbejdsark til børn af professionel kvalitet. Gratis arbejdsark og arbejdsark til børn perfekt til arbejdsark til børnehaveklasse. Gratis arbejdsark til børn og arbejdsark til børn inkluderer undervisningsmateriale. Gratis arbejdsark tilgængeligt',
     badgeText: 'Gratis Eksempler',
     downloadLabel: 'Download Gratis Eksempel',
     downloadingLabel: 'Downloader...',
@@ -126,7 +126,7 @@ Fuld Adgang abonnement inkluderer ubegrænset adgang til alle 33 opgavegenerator
 
   // Features Grid - FULL text from picture-sort.md feature sections
   features: {
-    sectionTitle: 'Billedsortering Funktioner - Gratis Arbejdsark og Arbejdsark til Børn',
+    sectionTitle: 'Gratis Arbejdsark og Arbejdsark til Børn - Gratis Printables og Arbejdsark til Børnehaveklasse',
     sectionDescription: 'Vores billedsortering generator kombinerer kraftfulde funktioner med nem betjening. Opret professionelle opgaver til print på minutter. Fuld Adgang abonnement giver dig adgang til alle værktøjer uden ekstra gebyrer. Hver funktion er designet til at spare tid og skabe engagerende kopiark til børnehaveklasse og 1. klasse.',
     highlightBadgeText: 'Vigtig Funktion',
     readMoreLabel: 'Læs mere',
@@ -246,7 +246,7 @@ Facitark viser løsningerne tydeligt. Korrekt sortering markeret visuelt. Børn 
 
   // How-To Guide - FULL text from picture-sort.md step sections
   howTo: {
-    sectionTitle: 'Sådan Opretter Du Gratis Arbejdsark til Billedsortering på 5 Nemme Trin',
+    sectionTitle: 'Gratis Arbejdsark til Børn Oprette - Arbejdsark til Børnehaveklasse',
     sectionDescription: 'Opret professionelle billedsortering arbejdsark på under 3 minutter. Denne trin-for-trin guide viser præcis hvordan man bruger generatoren. Ingen designerfaring påkrævet. Følg disse fem simple trin for perfekte opgaver til print hver gang. Børnehaveklasse og 1. klasse lærere kan oprette kopiark øjeblikkeligt.',
     ctaText: 'Start Nu',
     badgeText: 'Sådan Virker Det',
@@ -338,7 +338,7 @@ Filer downloader til din computer øjeblikkeligt. Find dem i Downloads mappe. Fi
 
   // Use Cases - FULL text from picture-sort.md use case sections
   useCases: {
-    sectionTitle: 'Perfekt til Pædagoger - Gratis Arbejdsark til Børn og Børnehaveklasse',
+    sectionTitle: 'Gratis Arbejdsark til Børn - Arbejdsark til Børnehaveklasse med Gratis Printables. Arbejdsark til Børn',
     sectionDescription: 'Billedsortering opgaver til print gavner forskellige undervisningssituationer. Børnehaveklasse pædagoger bruger dem til kognitiv udvikling. 1. klasse lærere integrerer sortering i læseplaner. Hjemmeundervisende forældre skaber struktureret læring. Specialpædagoger differentierer efter elevbehov. Hver brugergruppe finder unik værdi.',
     badgeText: 'Hvem Er Det Til',
     readMoreLabel: 'Læs mere',
@@ -437,7 +437,7 @@ Mange danske lærere tjener 500-5000 kr. månedligt. Nogle tjener meget mere. Ko
 
   // FAQ Section - Selected FAQs from picture-sort.md
   faq: {
-    sectionTitle: 'Ofte Stillede Spørgsmål om Billedsortering Gratis Arbejdsark',
+    sectionTitle: 'FAQ - Gratis Arbejdsark til Børn og Arbejdsark til Børnehaveklasse. Arbejdsark til Børn',
     sectionDescription: 'Lærere og forældre stiller almindelige spørgsmål før tilmelding. Denne sektion besvarer de mest hyppige spørgsmål. Forstå præcist hvad Fuld Adgang inkluderer. Lær hvordan billedsortering arbejdsark fungerer. Få afklaring om kommerciel brug og printrettigheder.',
     showMoreText: 'Vis flere spørgsmål',
     showLessText: 'Vis færre',
@@ -566,7 +566,7 @@ Mange danske lærere tjener 500-5000 kr. månedligt. Nogle tjener meget mere. Ko
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Kombiner med Andre Gratis Arbejdsark Generatorer',
+    sectionTitle: 'Gratis Arbejdsark Kombinere - Arbejdsark til Børn og Gratis Printables',
     sectionDescription: 'Opret komplette læringspakker ved at kombinere billedsortering med disse komplementære generatorer. Fuld Adgang abonnement giver dig adgang til 33 forskellige opgavegeneratorer. Kombiner billedsortering med andre værktøjer for omfattende undervisningspakker.',
     ctaTitle: 'Klar til at Lave Fantastiske Arbejdsark?',
     ctaDescription: 'Tilslut dig tusindvis af pædagoger der laver professionelle arbejdsark. Ubegrænset oprettelse, kommerciel licens inkluderet.',

@@ -53,8 +53,8 @@ Hver skyggematching oppgave kommer med automatisk fasit. Barna øver visuell mat
 
   // Sample Gallery - REAL file paths from samples/english/shadow match/
   samples: {
-    sectionTitle: 'Skyggematching Arbeidsark Eksempler',
-    sectionDescription: 'Last ned gratis eksempler på skyggematching arbeidsark for å se vår profesjonelle kvalitet',
+    sectionTitle: 'Gratis Arbeidsark for Barn - Gratis Arbeidsark og Gratis Utskrifter',
+    sectionDescription: 'Last ned gratis utskrifter - Gratis arbeidsark for barn av profesjonell kvalitet. Gratis arbeidsark og arbeidsark for barn perfekt for arbeidsark for 1. trinn. Gratis arbeidsark for barn og arbeidsark for barn inkluderer gratis utskrifter undervisningsmateriell. Gratis arbeidsark og arbeidsark for 1. trinn tilgjengelig',
     badgeText: 'Gratis Eksempler',
     downloadLabel: 'Last ned Gratis Eksempel',
     downloadingLabel: 'Laster ned...',
@@ -91,7 +91,7 @@ Hver skyggematching oppgave kommer med automatisk fasit. Barna øver visuell mat
 
   // Features Grid - FULL text from shadow-match.md feature sections
   features: {
-    sectionTitle: 'Skyggematching Funksjoner - Alt Du Trenger for Arbeidsark Gratis og Oppgavehefter Barn',
+    sectionTitle: 'Gratis Arbeidsark og Arbeidsark for Barn - Gratis Utskrifter og Arbeidsark for 1. Trinn',
     sectionDescription: 'Skyggematching generatoren vår tilbyr komplette funksjoner for å lage profesjonelle visuell persepsjon arbeidsark. Full Tilgang-abonnementet inkluderer alle verktøy du trenger. Lag skyggematching oppgaver på 3 minutter. Kombiner med finmotorikk øvelser, matematikk oppgaver og fargeleggingsbilder barn for varierte læringspakker. Alle funksjoner designet for norske lærere i barnehage og småskoletrinnet.',
     highlightBadgeText: 'Viktig Funksjon',
     readMoreLabel: 'Les mer',
@@ -171,7 +171,7 @@ Automatisk fasit genereres for hvert skyggematching arbeidsark. Fasiten viser ko
 
   // How-To Guide - FULL text from shadow-match.md step sections
   howTo: {
-    sectionTitle: 'Hvordan Lage Skyggematching Arbeidsark Gratis på 5 Enkle Steg - Oppgavehefter Barn og Matematikk Oppgaver',
+    sectionTitle: 'Gratis Arbeidsark for Barn Lage - Arbeidsark for 1. Trinn',
     sectionDescription: 'Lag profesjonelle skyggematching arbeidsark på under 3 minutter. Ingen designerferdigheter nødvendig. Full Tilgang-abonnementet gir deg ubegrenset tilgang til skyggematching generatoren. Kombineres perfekt med fargeleggingsbilder barn, matematikk oppgaver og finmotorikk øvelser. Følg disse 5 trinnene for arbeidsark gratis å skrive ut til dine elever. Utmerket for barnehage, 1. trinn, 2. trinn og 3. trinn oppgavehefter barn.',
     ctaText: 'Start Nå',
     badgeText: 'Slik Fungerer Det',
@@ -243,7 +243,7 @@ Del arbeidsark gratis digitalt med foreldre. Send PDF via e-post eller læringsp
 
   // Use Cases - FULL text from shadow-match.md use case sections
   useCases: {
-    sectionTitle: 'Perfekt for Barnehage, Småskoletrinnet og Hjemmeskole - Skyggematching Arbeidsark Gratis og Oppgavehefter Barn',
+    sectionTitle: 'Gratis Arbeidsark for Barn - Arbeidsark for 1. Trinn med Gratis Utskrifter. Arbeidsark for Barn',
     sectionDescription: 'Skyggematching tjener ulike brukergrupper med varierte behov. Barnehagepersonale bruker visuelle matching oppgaver for tidlig læring. Småskoletrinnet lærere integrerer skyggematching med matematikk oppgaver. Hjemmeskoleforeldre kombinerer skyggematching med fargeleggingsbilder barn. Spesialpedagoger bruker skyggematching for visuell prosessering. Lærere-entreprenører selger skyggematching oppgavehefter barn. Full Tilgang støtter alle brukerbehov med ubegrenset arbeidsark gratis produksjon.',
     badgeText: 'Hvem Er Det For',
     readMoreLabel: 'Les mer',
@@ -326,7 +326,7 @@ Lærere tjener 4 000-40 000 kr per måned med arbeidsark gratis produksjon. Full
 
   // FAQ Section - From shadow-match.md
   faq: {
-    sectionTitle: 'Ofte Stilte Spørsmål om Skyggematching Arbeidsark Gratis og Oppgavehefter Barn',
+    sectionTitle: 'FAQ - Gratis Arbeidsark for Barn og Arbeidsark for 1. Trinn. Arbeidsark for Barn',
     sectionDescription: 'Lærere og foreldre har spørsmål om skyggematching generatoren. Dette avsnittet svarer på vanlige spørsmål. Lær om Full Tilgang-abonnement, arbeidsark gratis utskrift, kommersiell lisens og integrering med matematikk oppgaver. Forstå hvordan skyggematching kombineres med fargeleggingsbilder barn, bokstaver lære skrive og lesetrening. Oppdag hvordan oppgavehefter barn lages raskt med finmotorikk øvelser, gangetabellen og addisjon og subtraksjon.',
     showMoreText: 'Vis flere spørsmål',
     showLessText: 'Vis færre',
@@ -420,7 +420,7 @@ Lærere tjener 4 000-40 000 kr per måned med arbeidsark gratis produksjon. Full
 
   // Related Apps - From shadow-match.md "Kombinér" section
   relatedApps: {
-    sectionTitle: 'Kombiner Skyggematching med Matematikk Oppgaver, Fargeleggingsbilder Barn og Bokstaver Lære Skrive - Komplette Læringspakker',
+    sectionTitle: 'Gratis Arbeidsark Kombinere - Arbeidsark for Barn og Gratis Utskrifter',
     sectionDescription: 'Skyggematching kombineres perfekt med andre arbeidsark gratis generatorer. Full Tilgang inkluderer 33 verktøy for komplette oppgavehefter barn. Kombiner skyggematching med addisjon og subtraksjon, gangetabellen, fargeleggingsbilder barn og bokstaver lære skrive. Integrer tall og telling, finmotorikk øvelser og lesetrening. Lag tverrfaglige læringspakker for barnehage og småskoletrinnet. Alle 33 generatorer arbeider sømløst sammen.',
     ctaTitle: 'Klar til å Lage Fantastiske Arbeidsark?',
     ctaDescription: 'Bli med tusenvis av pedagoger som lager profesjonelle arbeidsark. Ubegrenset oppretting, kommersiell lisens inkludert.',

@@ -81,8 +81,8 @@ El generador crea de 1 a 10 ejercicios por hoja. Usa imágenes idénticas en dif
 
   // Sample Gallery - REAL file paths from samples/spanish/big-small/
   samples: {
-    sectionTitle: 'Ejemplos de Fichas de Grande y Pequeño',
-    sectionDescription: 'Descarga ejemplos gratuitos para ver nuestra calidad profesional',
+    sectionTitle: 'Ficha Gratis para Niños - Fichas Gratis e Imprimibles Gratis',
+    sectionDescription: 'Descarga imprimibles gratis - Ficha gratis para niños de calidad profesional. Ficha para niños perfecta para ficha para preescolar. Ficha gratis para niños y ficha para niños incluyen material educativo. Ficha gratis disponible',
     downloadLabel: 'Descargar Ejemplo Gratis',
     worksheetLabel: 'Ficha',
     answerKeyLabel: 'Hoja de Respuestas',
@@ -126,7 +126,7 @@ El generador crea de 1 a 10 ejercicios por hoja. Usa imágenes idénticas en dif
 
   // Features Grid - FULL text from big-small.md feature sections
   features: {
-    sectionTitle: 'Características del Generador de Fichas para Imprimir - Todo lo que Necesitas para Fichas Infantil y Preescolar',
+    sectionTitle: 'Fichas Gratis y Ficha para Niños - Imprimibles Gratis y Ficha para Preescolar',
     sectionDescription: 'Nuestro generador de fichas para imprimir incluye todas las herramientas que necesitas para crear material educativo gratis profesional. Cada característica está diseñada para maestros de educación infantil y preescolar. Combina fichas de grande y pequeño con otros ejercicios matemáticas y fichas gratis. Crea paquetes completos de aprendizaje que incluyen grafomotricidad, lectoescritura, números y más. La plataforma ofrece flexibilidad total para personalizar cada ficha preescolar según las necesidades de tus estudiantes.',
     highlightBadgeText: 'Característica Clave',
     readMoreLabel: 'Leer más',
@@ -192,7 +192,7 @@ El generador crea de 1 a 10 ejercicios por hoja. Usa imágenes idénticas en dif
 
   // How-To Guide - FULL text from big-small.md step sections
   howTo: {
-    sectionTitle: 'Cómo Crear Fichas Infantil y Fichas Preescolar en 5 Pasos Fáciles',
+    sectionTitle: 'Ficha Gratis para Niños Crear - Ficha para Preescolar',
     sectionDescription: 'Crear fichas para imprimir profesionales con nuestro generador toma menos de 3 minutos. El proceso es simple y no requiere experiencia en diseño. Sigue estos cinco pasos para crear fichas gratis de comparación de tamaños. También funciona para crear ejercicios matemáticas, fichas de matemáticas, actividades de grafomotricidad, ejercicios de lectoescritura, dibujos para colorear, fichas del abecedario y más. El sistema te guía paso a paso desde la selección de imágenes hasta la descarga de material educativo gratis listo para usar. Cada paso está diseñado para máxima flexibilidad y personalización.',
     ctaText: 'Comenzar Ahora',
     badgeText: 'Cómo Funciona',
@@ -244,7 +244,7 @@ El generador crea de 1 a 10 ejercicios por hoja. Usa imágenes idénticas en dif
 
   // Use Cases - FULL text from big-small.md use case sections
   useCases: {
-    sectionTitle: 'Perfecto para Maestros y Padres - Fichas para Imprimir y Material Educativo Gratis para Cada Necesidad',
+    sectionTitle: 'Ficha Gratis para Niños - Ficha para Preescolar con Imprimibles Gratis. Ficha para Niños',
     sectionDescription: 'Nuestras fichas para imprimir sirven para múltiples tipos de educadores y situaciones de enseñanza. Desde maestros de preescolar hasta padres que educan en casa. Combina fichas de comparación de tamaños con ejercicios matemáticas, fichas del abecedario, aprender las letras, números, aprender los números, dibujos para colorear, actividades de grafomotricidad, lectoescritura y tablas de multiplicar. Cada grupo de usuarios encuentra valor único en el generador. Material educativo gratis adaptado a diferentes contextos educativos y niveles de grado.',
     badgeText: 'Para Quién',
     readMoreLabel: 'Leer más',
@@ -356,7 +356,7 @@ El generador crea de 1 a 10 ejercicios por hoja. Usa imágenes idénticas en dif
 
   // FAQ Section - FULL text from big-small.md FAQ sections
   faq: {
-    sectionTitle: 'Preguntas Frecuentes Sobre Fichas para Imprimir y Material Educativo Gratis',
+    sectionTitle: 'FAQ - Ficha Gratis para Niños y Ficha para Preescolar. Ficha para Niños',
     sectionDescription: 'Los maestros tienen muchas preguntas sobre crear fichas para imprimir, ejercicios matemáticas, fichas de matemáticas, actividades de grafomotricidad, ejercicios de lectoescritura, dibujos para colorear, fichas del abecedario, aprender las letras, números, aprender los números y tablas de multiplicar. Respondemos las preguntas más comunes sobre nuestro generador. Aprende sobre suscripciones, capacidades, opciones de impresión y más. Material educativo gratis ilimitado cuando entiendas cómo funciona la plataforma.',
     badgeText: 'Preguntas Frecuentes',
     items: [
@@ -415,7 +415,7 @@ El generador crea de 1 a 10 ejercicios por hoja. Usa imágenes idénticas en dif
 
   // Related Apps - FULL text from big-small.md related sections
   relatedApps: {
-    sectionTitle: 'Combina Fichas de Grande y Pequeño con Otras Fichas para Imprimir - Paquetes Completos de Material Educativo Gratis',
+    sectionTitle: 'Fichas Gratis Combinar - Ficha para Niños e Imprimibles Gratis',
     sectionDescription: 'Nuestro generador de fichas de grande y pequeño es solo uno de 33 generadores de fichas para imprimir en la plataforma. Combina fichas de comparación de tamaños con ejercicios matemáticas, fichas de matemáticas, actividades de grafomotricidad, ejercicios de lectoescritura, dibujos para colorear, fichas del abecedario, aprender las letras, números, aprender los números y tablas de multiplicar. Crea paquetes completos de aprendizaje que cubren múltiples habilidades. Tu suscripción a Acceso Completo te da acceso a los 33 generadores. Crea material educativo coordinado temáticamente en minutos.',
     ctaTitle: '¿Listo para Crear Fichas de Grande y Pequeño Increíbles?',
     ctaDescription: 'Únete a miles de maestros que crean fichas profesionales. Generación ilimitada, licencia comercial incluida.',

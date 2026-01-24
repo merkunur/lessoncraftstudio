@@ -77,8 +77,8 @@ Genera da 1 a 10 carte bingo in pochi minuti. Scegli griglie da 3x3 a 5x5. Perso
 
   // Sample Gallery
   samples: {
-    sectionTitle: 'Schede Gratuite di Bingo Immagini - Stampabili Gratuiti per Bambini',
-    sectionDescription: 'Scarica esempi gratuiti per vedere la nostra qualità professionale',
+    sectionTitle: "Scheda Gratuita per Bambini - Schede Gratuite e Stampabili Gratuiti e Scheda per Bambini",
+    sectionDescription: "Scarica stampabili gratuiti - Scheda gratuita per bambini di qualità professionale. Schede gratuite e scheda per bambini perfette per scheda per scuola dell'infanzia. Scheda gratuita per bambini e scheda per bambini includono materiale educativo. Scheda gratuita e scheda per scuola dell'infanzia disponibile",
     downloadLabel: 'Scarica Esempio Gratuito',
     worksheetLabel: 'Scheda',
     answerKeyLabel: 'Gettoni Chiamata',
@@ -122,7 +122,7 @@ Genera da 1 a 10 carte bingo in pochi minuti. Scegli griglie da 3x3 a 5x5. Perso
 
   // Features Grid
   features: {
-    sectionTitle: 'Funzionalità Generatore Schede Gratuite Bingo - Scheda per Bambini',
+    sectionTitle: "Schede Gratuite e Scheda per Bambini - Stampabili Gratuiti e Scheda per Scuola dell'Infanzia",
     sectionDescription: 'Il nostro generatore di schede didattiche Picture Bingo include tutte le funzionalità necessarie per creare schede didattiche scuola primaria professionali. Ogni funzione è stata progettata pensando alle maestre della scuola dell\'infanzia e delle classi prime. Crea carte bingo per schede matematica, schede italiano classe prima, attività con l\'alfabeto e pregrafismo.',
     highlightBadgeText: 'Funzionalità Chiave',
     readMoreLabel: 'Leggi di più',
@@ -216,7 +216,7 @@ L'opzione scala di grigi riduce consumo di inchiostro della stampante. Perfetta 
 
   // How-To Guide Section
   howTo: {
-    sectionTitle: 'Come Creare Schede Gratuite Bingo in 5 Passi - Stampabili per Bambini',
+    sectionTitle: "Scheda Gratuita per Bambini Creare - Scheda per Scuola dell'Infanzia",
     sectionDescription: 'Creare schede didattiche Picture Bingo professionali richiede meno di 3 minuti dall\'inizio al download. Nessuna esperienza di design necessaria. Il nostro generatore di schede didattiche scuola primaria guida ogni passo del processo.',
     ctaText: 'Inizia Ora',
     badgeText: 'Guida Passo-Passo',
@@ -288,7 +288,7 @@ Attiva opzione scala di grigi per schede didattiche da usare quotidianamente. Ri
 
   // Use Cases Section
   useCases: {
-    sectionTitle: 'Perfetto per Insegnanti - Schede Gratuite per Scuola dell\'Infanzia',
+    sectionTitle: "Perfetto per Insegnanti - Schede Gratuite per Scuola dell\"Infanzia',
     sectionDescription: 'Le schede didattiche Picture Bingo si adattano perfettamente alle esigenze di insegnanti, genitori e educatori. Ogni gruppo trova valore unico nelle carte bingo personalizzabili. Perfette per schede italiano classe prima con alfabeto e lettura.',
     badgeText: 'Chi Usa le Nostre Schede',
     readMoreLabel: 'Leggi di più',
@@ -371,7 +371,7 @@ Le carte Picture Bingo 300 DPI sono qualità premium. Gli acquirenti Teachers Pa
 
   // FAQ Section
   faq: {
-    sectionTitle: 'Domande Frequenti - Schede Gratuite Bingo Immagini per Bambini',
+    sectionTitle: "FAQ - Scheda Gratuita per Bambini e Scheda per Scuola dell'Infanzia. Scheda per Bambini",
     sectionDescription: 'Risposte alle domande più comuni sul nostro generatore di schede didattiche Picture Bingo',
     showMoreText: 'Mostra altre domande',
     showLessText: 'Mostra meno domande',
@@ -500,7 +500,7 @@ L'abbonamento Accesso Completo costa 240 euro annuali. Include tutti i 33 genera
 
   // Related Apps Section
   relatedApps: {
-    sectionTitle: 'Combina Bingo con Altre Schede Gratuite per Bambini',
+    sectionTitle: "Combina Bingo con Altre Schede Gratuite per Bambini",
     sectionDescription: 'L\'abbonamento Pacchetto Essenziale include 10 generatori. Combina il generatore Picture Bingo con altri strumenti. Crea pacchetti completi di schede didattiche. Perfetto per unità tematiche. Ottimo per centri di apprendimento.',
     ctaTitle: 'Pronto a Creare Schede Straordinarie?',
     ctaDescription: 'Unisciti a migliaia di educatori che creano schede professionali. Generazione illimitata, licenza commerciale inclusa.',

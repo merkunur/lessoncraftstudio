@@ -85,8 +85,8 @@ O gerador inclui uma biblioteca com mais de 3000 imagens temáticas. Crie ativid
 
   // Sample Gallery
   samples: {
-    sectionTitle: 'Exemplos de Atividades Grátis de Peças Faltantes - Atividade para Crianças',
-    sectionDescription: 'Baixe exemplos de atividades grátis para ver nossa qualidade profissional',
+    sectionTitle: 'Atividade Grátis para Crianças - Atividades Grátis e Imprimíveis Grátis',
+    sectionDescription: 'Baixe imprimíveis grátis - Atividade grátis para crianças de qualidade profissional. Atividades grátis e atividade para crianças perfeitas para atividade para educação infantil. Atividade grátis para crianças e atividade para crianças incluem material educativo. Atividade grátis disponível',
     downloadLabel: 'Baixar Exemplo Grátis',
     worksheetLabel: 'Atividade',
     answerKeyLabel: 'Gabarito',
@@ -137,7 +137,7 @@ O gerador inclui uma biblioteca com mais de 3000 imagens temáticas. Crie ativid
 
   // Features Grid - FULL text from Portuguese missing-pieces.md H2/H3 feature sections
   features: {
-    sectionTitle: 'Recursos do Gerador de Atividades Grátis - Atividade para Educação Infantil',
+    sectionTitle: 'Atividades Grátis e Atividade para Crianças - Imprimíveis Grátis e Atividade para Educação Infantil',
     sectionDescription: 'O gerador de peças faltantes oferece recursos profissionais para criar atividade grátis de qualidade. Cada ferramenta foi desenvolvida pensando nas necessidades reais de professores brasileiros. Da seleção de imagens até o download em PDF, tudo funciona de forma simples e intuitiva. Veja abaixo os principais recursos que fazem deste gerador a escolha ideal para atividade para crianças e ensino fundamental.',
     highlightBadgeText: 'Destaque',
     badgeText: 'Recursos',
@@ -217,7 +217,7 @@ Escolha entre JPEG para uso digital ou PDF para impressão. A opção escala de 
 
   // How-To Guide - FULL text from Portuguese missing-pieces.md Step sections
   howTo: {
-    sectionTitle: 'Como Criar Atividade Grátis para Crianças em 5 Passos - Guia de Imprimíveis Grátis',
+    sectionTitle: 'Atividade Grátis para Crianças Criar - Atividade para Educação Infantil',
     sectionDescription: 'Criar atividade grátis de peças faltantes leva menos de 3 minutos do início ao download. O processo é simples e não exige conhecimentos técnicos. Professores de atividade para educação infantil e ensino fundamental seguem os mesmos passos. Veja abaixo o guia completo para criar seu primeiro quebra-cabeça educativo hoje mesmo.',
     ctaText: 'Começar Agora',
     badgeText: 'Como Funciona',
@@ -287,7 +287,7 @@ Não esqueça de gerar e baixar o gabarito. Clique em "Criar Gabarito" após cri
 
   // Use Cases - FULL text from Portuguese missing-pieces.md persona sections
   useCases: {
-    sectionTitle: 'Quem Usa Atividade Grátis de Peças Faltantes - Atividade para Educação Infantil',
+    sectionTitle: 'Atividade Grátis para Crianças - Atividade para Educação Infantil com Imprimíveis Grátis. Atividade para Crianças',
     sectionDescription: 'O gerador de peças faltantes atende diferentes perfis de educadores brasileiros. Professores de atividade para educação infantil até o ensino fundamental encontram aplicações para suas turmas. Pais que fazem educação domiciliar também aproveitam os recursos. Veja como cada grupo utiliza as atividades grátis no dia a dia.',
     badgeText: 'Para Quem',
     readMoreLabel: 'Ler mais',

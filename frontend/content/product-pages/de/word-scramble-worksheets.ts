@@ -97,8 +97,8 @@ Lehrer nutzen unseren Generator für Rechtschreibübungen, Wortschatzerweiterung
 
   // Sample Gallery - REAL file paths from samples/german/word-scramble/
   samples: {
-    sectionTitle: 'Buchstabensalat Arbeitsblätter Beispiele',
-    sectionDescription: 'Laden Sie kostenlose Beispiel-Arbeitsblätter herunter, um unsere professionelle Qualität zu sehen',
+    sectionTitle: 'Kostenloses Arbeitsblatt für Kinder - Kostenlose Arbeitsblätter und Kostenlose Druckvorlagen',
+    sectionDescription: 'Laden Sie kostenlose Druckvorlagen herunter - Kostenloses Arbeitsblatt für Kinder in professioneller Qualität für Arbeitsblatt für Vorschule',
     downloadLabel: 'Kostenloses Beispiel Herunterladen',
     worksheetLabel: 'Arbeitsblatt',
     answerKeyLabel: 'Lösungsblatt',
@@ -149,7 +149,7 @@ Lehrer nutzen unseren Generator für Rechtschreibübungen, Wortschatzerweiterung
 
   // Features Grid - FULL text from word-scramble.md feature sections
   features: {
-    sectionTitle: 'Buchstabensalat-Generator Funktionen - Alles für Arbeitsblätter Grundschule und Vorschul-Arbeitsblätter',
+    sectionTitle: 'Arbeitsblatt für Kinder - Arbeitsblatt für Vorschule und Kostenlose Arbeitsblätter',
     sectionDescription: 'Unser Buchstabensalat-Generator bietet alle Funktionen für professionelle kostenlose Arbeitsblätter. Von Vorschul-Arbeitsblätter bis Deutsch-Arbeitsblätter für die 3. Klasse. Erstellen Sie Arbeitsblätter Grundschule für Buchstaben lernen, Mathe-Arbeitsblätter und Ausmalbilder. Jede Funktion wurde für Lehrer entwickelt, die hochwertige kostenlose Arbeitsblätter benötigen. Die Kombination aus Bildunterstützung und Buchstabensalat macht das Buchstaben lernen effektiver. Kinder sehen das Bild und ordnen die Buchstaben. Dies unterstützt Deutsch-Arbeitsblätter, Vorschul-Arbeitsblätter und frühes Lesen.',
     highlightBadgeText: 'Hauptfunktion',
     readMoreLabel: 'Mehr lesen',
@@ -255,7 +255,7 @@ PDF-Format sichert konsistente Darstellung auf allen Geräten. Schüler drucken 
 
   // How-To Guide - FULL text from word-scramble.md step sections
   howTo: {
-    sectionTitle: 'So Erstellen Sie Kostenlose Arbeitsblätter in 5 Einfachen Schritten - Von Vorschul-Arbeitsblätter bis Deutsch-Arbeitsblätter',
+    sectionTitle: 'Kostenloses Arbeitsblatt für Kinder erstellen - Arbeitsblatt für Vorschule',
     sectionDescription: 'Buchstabensalat-Arbeitsblätter in unter 3 Minuten erstellen. Keine Vorkenntnisse erforderlich. Der Generator führt Sie durch jeden Schritt. Von Bildauswahl bis zum fertigen PDF. Erstellen Sie Arbeitsblätter Grundschule schneller als je zuvor. Die fünf Schritte funktionieren für alle Arbeitsblatttypen. Ob Vorschul-Arbeitsblätter für Buchstaben lernen oder Deutsch-Arbeitsblätter für Wortschatz. Der Prozess bleibt gleich einfach.',
     ctaText: 'Jetzt Erstellen',
     badgeText: 'So funktioniert es',
@@ -361,7 +361,7 @@ Speichern Sie Downloads in organisierten Ordnern auf Computer. Benennen Sie nach
 
   // Use Cases - FULL text from word-scramble.md use case sections
   useCases: {
-    sectionTitle: 'Perfekt für Lehrer und Eltern - Arbeitsblätter Grundschule, Vorschul-Arbeitsblätter und Deutsch-Arbeitsblätter für Jeden Bedarf',
+    sectionTitle: 'Kostenloses Arbeitsblatt für Kinder - Arbeitsblatt für Vorschule mit Kostenlose Druckvorlagen',
     sectionDescription: 'Buchstabensalat-Arbeitsblätter nutzen verschiedene Pädagogen täglich. Von Vorschule bis 3. Klasse. Jede Benutzergruppe findet einzigartige Anwendungen. Der Generator passt zu allen Unterrichtsstilen und Lernumgebungen. Kostenlose Arbeitsblätter für jede pädagogische Situation. Die Vielseitigkeit macht den Generator wertvoll für verschiedene Kontexte. Klassenzimmer, Heimunterricht, Nachhilfe und Therapie. Alle nutzen Buchstabensalat-Arbeitsblätter für Alphabetisierung.',
     badgeText: 'Anwendungsbereiche',
     readMoreLabel: 'Mehr lesen',
@@ -482,7 +482,7 @@ Kundenbewertungen betonen professionelle 300 DPI Qualität. Käufer erwarten dru
 
   // FAQ Section - FULL FAQs from word-scramble.md
   faq: {
-    sectionTitle: 'Häufig Gestellte Fragen zu Arbeitsblätter Grundschule, Mathe-Arbeitsblätter und Kostenlose Arbeitsblätter',
+    sectionTitle: 'FAQ - Kostenloses Arbeitsblatt für Kinder und Arbeitsblatt für Vorschule',
     sectionDescription: 'Lehrer stellen häufig gleiche Fragen zu Buchstabensalat-Arbeitsblättern. Von Kosten über Verwendung bis zu technischen Details. Diese FAQ beantwortet die wichtigsten Fragen. Informieren Sie sich vor dem Erstellen Ihrer ersten kostenlose Arbeitsblätter. Alle Antworten basieren auf Basis-Paket Funktionen.',
     showMoreText: 'Mehr Fragen anzeigen',
     showLessText: 'Weniger anzeigen',
@@ -617,7 +617,7 @@ Kundenbewertungen betonen professionelle 300 DPI Qualität. Käufer erwarten dru
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Kombinieren Sie Buchstabensalat mit Anderen Apps - Einmaleins, Schwungübungen und Rechnen Lernen für Komplette Lernpakete',
+    sectionTitle: 'Kostenlose Arbeitsblätter kombinieren - Arbeitsblatt für Kinder und Kostenlose Druckvorlagen',
     sectionDescription: 'LessonCraft Studio bietet 33 kostenlose Arbeitsblatt-Generatoren auf einer Plattform. Kombinieren Sie Buchstabensalat mit Mathe-Arbeitsblätter, Schwungübungen und Ausmalbilder für thematische Einheiten. Erstellen Sie umfassende Lernpakete die alle Grundschulfächer abdecken. Von Buchstaben lernen über Einmaleins bis Kunst. Arbeitsblätter Grundschule für ganzheitliches Lernen.',
     ctaTitle: 'Bereit, fantastische Arbeitsblätter zu erstellen?',
     ctaDescription: 'Schließen Sie sich tausenden Lehrkräften an, die professionelle Arbeitsblätter erstellen. Unbegrenzte Generierung, kommerzielle Lizenz inklusive.',

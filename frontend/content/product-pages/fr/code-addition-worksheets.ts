@@ -87,8 +87,8 @@ Notre générateur propose des fiches à imprimer gratuit adaptées à tous les 
 
   // Sample Gallery - REAL file paths from samples/english/code addition/
   samples: {
-    sectionTitle: 'Exemples de Fiches d\'Addition avec Images',
-    sectionDescription: 'Téléchargez des exemples gratuits pour voir notre qualité professionnelle',
+    sectionTitle: 'Fiche Gratuite pour Enfants - Fiches Gratuites et Imprimables Gratuits',
+    sectionDescription: 'Téléchargez imprimables gratuits - Fiche gratuite pour enfants de qualité professionnelle. Fiches gratuites et fiche pour enfants parfaites pour fiche pour maternelle. Fiche gratuite pour enfants et fiches gratuites inclus matériel éducatif. Fiche gratuite et fiches gratuites disponible',
     downloadLabel: 'Télécharger Exemple Gratuit',
     worksheetLabel: 'Fiche',
     answerKeyLabel: 'Corrigé',
@@ -139,7 +139,7 @@ Notre générateur propose des fiches à imprimer gratuit adaptées à tous les 
 
   // Features Grid - FULL text from code-addition.md feature sections
   features: {
-    sectionTitle: 'Fonctionnalités du Générateur - Fiches Maternelle et Exercices Maths Complets pour Apprendre à Lire les Nombres',
+    sectionTitle: 'Fiches Gratuites et Fiche pour Enfants - Imprimables Gratuits et Fiche pour Maternelle',
     sectionDescription: 'Notre générateur de fiches à imprimer gratuit offre des fonctionnalités professionnelles. Chaque outil a été conçu pour les enseignants de maternelle et d\'école élémentaire. Créez des exercices maths personnalisés en quelques clics. Les fiches maternelle deviennent des supports pédagogiques de qualité professionnelle.',
     highlightBadgeText: 'Fonctionnalité Clé',
     readMoreLabel: 'Lire la suite',
@@ -219,7 +219,7 @@ L'option niveaux de gris économise l'encre sans sacrifier la qualité. Les exer
 
   // How-To Guide - FULL text from code-addition.md step sections
   howTo: {
-    sectionTitle: 'Comment Créer des Fiches Maternelle en 5 Étapes - Exercices Maths et Fiches à Imprimer Gratuit en Moins de 3 Minutes',
+    sectionTitle: 'Fiche Gratuite pour Enfants Créer - Fiche pour Maternelle',
     sectionDescription: 'Créer des fiches maternelle professionnelles ne prend que quelques minutes. Suivez ces cinq étapes simples pour générer des exercices maths personnalisés. Chaque fiche à imprimer gratuit s\'adapte à vos besoins pédagogiques. Le processus complet dure moins de trois minutes.',
     ctaText: 'Commencer Maintenant',
     badgeText: 'Guide Étape par Étape',
@@ -301,7 +301,7 @@ Générez ensuite le corrigé automatique. Le corrigé reprend exactement la mê
 
   // Use Cases - FULL text from code-addition.md use case sections
   useCases: {
-    sectionTitle: 'Qui Utilise ces Fiches Maternelle - Exercices Maths pour Enseignants, Parents et Éducateurs',
+    sectionTitle: 'Fiche Gratuite pour Enfants - Fiche pour Maternelle avec Imprimables Gratuits. Fiche pour Enfants',
     sectionDescription: 'Les fiches à imprimer gratuit répondent aux besoins de nombreux profils d\'utilisateurs. Des enseignants de maternelle aux parents pratiquant l\'instruction en famille. Des professeurs de CP aux éducateurs spécialisés. Découvrez comment chaque groupe tire profit de ce générateur d\'exercices maths.',
     badgeText: 'Cas d\'Utilisation',
     readMoreLabel: 'Lire la suite',
@@ -384,7 +384,7 @@ L'écriture de descriptions marketing met en valeur l'approche unique. Le décod
 
   // FAQ Section - Selected FAQs from code-addition.md
   faq: {
-    sectionTitle: 'Questions Fréquentes - Fiches Maternelle, Coloriage à Imprimer et Tables de Multiplication',
+    sectionTitle: 'FAQ - Fiche Gratuite pour Enfants et Fiche pour Maternelle. Fiche pour Enfants',
     sectionDescription: 'Retrouvez les réponses aux questions les plus fréquentes sur notre générateur. Des fiches maternelle au coloriage à imprimer, découvrez toutes les possibilités offertes par la plateforme.',
     showMoreText: 'Voir plus de questions',
     showLessText: 'Voir moins',
@@ -537,7 +537,7 @@ Choisissez un thème comme les animaux ou les véhicules. L'écriture cursive de
 
   // Related Apps - From code-addition.md Section 7
   relatedApps: {
-    sectionTitle: 'Combinez Addition avec Coloriage à Imprimer, Tables de Multiplication et Graphisme Maternelle - Packs Pédagogiques Complets',
+    sectionTitle: 'Fiches Gratuites Combiner - Fiche pour Enfants et Imprimables Gratuits',
     sectionDescription: 'Notre plateforme propose 33 générateurs de fiches complémentaires. Combinez l\'addition avec images et d\'autres activités pour créer des packs pédagogiques complets. Du coloriage à imprimer aux tables de multiplication, chaque générateur enrichit votre offre éducative.',
     ctaTitle: 'Prêt à Créer des Fiches d\'Addition Professionnelles ?',
     ctaDescription: 'Rejoignez des milliers d\'enseignants qui créent des fiches maternelle de qualité. Création illimitée, licence commerciale incluse.',

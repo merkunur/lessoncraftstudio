@@ -57,8 +57,8 @@ Hvert arbeidsark kommer med automatisk generert fasit. Spar tid på retting. Ele
 
   // Sample Gallery - REAL file paths from samples/english/subtraction/
   samples: {
-    sectionTitle: 'Subtraksjon Arbeidsark Eksempler',
-    sectionDescription: 'Last ned gratis eksempler på arbeidsark for å se vår profesjonelle kvalitet',
+    sectionTitle: 'Gratis Arbeidsark for Barn - Gratis Arbeidsark og Gratis Utskrifter',
+    sectionDescription: 'Last ned gratis utskrifter - Gratis arbeidsark for barn av profesjonell kvalitet. Gratis arbeidsark og arbeidsark for barn perfekt for arbeidsark for 1. trinn. Gratis arbeidsark for barn og arbeidsark for barn inkluderer gratis utskrifter undervisningsmateriell. Gratis arbeidsark og arbeidsark for 1. trinn tilgjengelig',
     badgeText: 'Gratis Eksempler',
     downloadLabel: 'Last ned Gratis Eksempel',
     downloadingLabel: 'Laster ned...',
@@ -102,7 +102,7 @@ Hvert arbeidsark kommer med automatisk generert fasit. Spar tid på retting. Ele
 
   // Features Grid - FULL text from subtraction.md feature sections
   features: {
-    sectionTitle: 'Subtraksjon Arbeidsark Funksjoner - Alt Du Trenger for Matematikk Oppgaver og Matteoppgaver',
+    sectionTitle: 'Gratis Arbeidsark og Arbeidsark for Barn - Gratis Utskrifter og Arbeidsark for 1. Trinn',
     sectionDescription: 'Subtraksjon arbeidsark generatoren inkluderer syv kraftige funksjoner. Hver funksjon er designet for å spare lærere tid. Generatoren kombinerer enkelt brukergrensesnitt med profesjonell kvalitet. Lag matteoppgaver på minutter i stedet for timer. Full Tilgang-abonnementet gir deg tilgang til alle funksjoner uten begrensninger. Generatoren fungerer for alle klassetrinn på småskoletrinnet. Juster vanskelighetsgraden fra 2 til 20. Velg mellom fire forskjellige øvelsestyper. Kombiner subtraksjon arbeidsark med andre matematikk oppgaver. Skap komplette oppgavehefter barn for hele skoleåret.',
     highlightBadgeText: 'Viktig Funksjon',
     readMoreLabel: 'Les mer',
@@ -196,7 +196,7 @@ Fasit-generering inkluderer samme høye kvalitet. Last ned arbeidsark og fasit s
 
   // How-To Guide - FULL text from subtraction.md step sections
   howTo: {
-    sectionTitle: 'Slik Lager Du Subtraksjon Arbeidsark på 5 Enkle Trinn - Matteoppgaver og Matematikk Oppgaver Klare på Minutter',
+    sectionTitle: 'Gratis Arbeidsark for Barn Lage - Arbeidsark for 1. Trinn',
     sectionDescription: 'Hele prosessen tar under 3 minutter. Ingen designerfaring nødvendig. Følg disse fem enkle trinnene. Du får profesjonelle arbeidsark hver gang. Full Tilgang-abonnementet gir deg ubegrenset tilgang til alle funksjoner. Generatoren guider deg gjennom hver trinn. Sanntids forhåndsvisning viser endringer umiddelbart. Angre-funksjonen lar deg rette feil. Lagring er automatisk. Arbeidet ditt er trygt gjennom hele prosessen.',
     ctaText: 'Start Nå',
     badgeText: 'Slik Fungerer Det',
@@ -278,7 +278,7 @@ Filer er klare for umiddelbar bruk. Last ned og skriv ut samme dag. Ingen ventet
 
   // Use Cases - FULL text from subtraction.md use case sections
   useCases: {
-    sectionTitle: 'Perfekt for Lærere og Foreldre - Subtraksjon Arbeidsark Gratis for Alle Matematikk Oppgaver Behov',
+    sectionTitle: 'Gratis Arbeidsark for Barn - Arbeidsark for 1. Trinn med Gratis Utskrifter. Arbeidsark for Barn',
     sectionDescription: 'Subtraksjon arbeidsark generatoren passer alle som underviser småskoletrinnet. Barnehagelærere bruker den for tidlig tall og telling. Grunnskolelærere bruker den for daglig matteoppgaver. Hjemmeskoleforeldre bruker den for strukturert læring. Spesialpedagoger bruker den for differensiering. Hver brukergruppe finner unike fordeler. Generatoren tilpasser seg forskjellige undervisningsbehov. Juster vanskelighetsgrad fra 2 til 20. Velg øvelsestyper som matcher elevnivå. Kombiner med andre matematikk oppgaver for komplette leksjoner. Ett verktøy dekker alle aldersgrupper og ferdighetsnivåer på småskoletrinnet.',
     badgeText: 'Hvem Er Det For',
     readMoreLabel: 'Les mer',
@@ -373,7 +373,7 @@ Kombiner flere verktøy for større produktpakker. Lag "Komplette 1. Trinn Matem
 
   // FAQ Section - From subtraction.md
   faq: {
-    sectionTitle: 'Ofte Stilte Spørsmål om Subtraksjon Arbeidsark og Matematikk Oppgaver',
+    sectionTitle: 'FAQ - Gratis Arbeidsark for Barn og Arbeidsark for 1. Trinn. Arbeidsark for Barn',
     sectionDescription: 'Lærere og foreldre stiller lignende spørsmål om generatoren. Denne seksjonen svarer på de 12 vanligste spørsmålene. Les disse før du starter. De forklarer hvordan abonnementet fungerer. De klargjør hva som er inkludert. De hjelper deg å bestemme om Full Tilgang passer dine behov.',
     showMoreText: 'Vis flere spørsmål',
     showLessText: 'Vis færre',
@@ -468,7 +468,7 @@ Kombiner flere verktøy for større produktpakker. Lag "Komplette 1. Trinn Matem
 
   // Related Apps - From subtraction.md "Kombiner" section
   relatedApps: {
-    sectionTitle: 'Kombiner Subtraksjon Arbeidsark med Arbeidsark Gratis Verktøy - Komplette Oppgavehefter Barn og Matematikk Oppgaver Pakker',
+    sectionTitle: 'Gratis Arbeidsark Kombinere - Arbeidsark for Barn og Gratis Utskrifter',
     sectionDescription: 'Plattformen tilbyr 33 arbeidsark-generatorer totalt. Full Tilgang gir tilgang til alle. Kombiner subtraksjon med andre verktøy for komplette leksjonspakker. Lærere lager tverrfaglige oppgavehefter barn som dekker flere fag samtidig. Denne tilnærmingen øker elevengasjement og læringsbeholdning. Tematiske pakker fungerer spesielt godt. Lag "Høst Matematikk og Lesing" pakke med subtraksjon, addisjon og lesetrening arbeidsark. Koordinerte temaer gjør undervisningsplanlegging enklere.',
     ctaTitle: 'Klar til å Lage Fantastiske Arbeidsark?',
     ctaDescription: 'Bli med tusenvis av pedagoger som lager profesjonelle arbeidsark. Ubegrenset oppretting, kommersiell lisens inkludert.',

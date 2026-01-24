@@ -95,8 +95,8 @@ Unser Bilddiagramm Arbeitsblätter Generator erstellt zweiteilige Arbeitsblätte
 
   // Sample Gallery - REAL file paths from samples/english/chart count/
   samples: {
-    sectionTitle: 'Bilddiagramm-Arbeitsblätter Beispiele',
-    sectionDescription: 'Laden Sie kostenlose Beispiel-Arbeitsblätter herunter, um unsere professionelle Qualität zu sehen',
+    sectionTitle: 'Kostenloses Arbeitsblatt für Kinder - Kostenlose Arbeitsblätter und Kostenlose Druckvorlagen',
+    sectionDescription: 'Laden Sie kostenlose Druckvorlagen herunter - Kostenloses Arbeitsblatt für Kinder in professioneller Qualität für Arbeitsblatt für Vorschule',
     downloadLabel: 'Kostenloses Beispiel Herunterladen',
     worksheetLabel: 'Arbeitsblatt',
     answerKeyLabel: 'Lösungsschlüssel',
@@ -147,7 +147,7 @@ Unser Bilddiagramm Arbeitsblätter Generator erstellt zweiteilige Arbeitsblätte
 
   // Features Grid - FULL text from bilddiagramm.md feature sections
   features: {
-    sectionTitle: 'Bilddiagramm Funktionen - Alles für Mathe-Arbeitsblätter und Kostenlose Arbeitsblätter Grundschule',
+    sectionTitle: 'Arbeitsblatt für Kinder - Arbeitsblatt für Vorschule und Kostenlose Arbeitsblätter',
     sectionDescription: 'Unser Bilddiagramm Arbeitsblätter Generator enthält alle Funktionen für professionelle Mathe-Arbeitsblätter. Wählen Sie Bilder aus tausenden kindgerechten Optionen. Generieren Sie Arbeitsblätter in Sekunden. Passen Sie jedes Element auf der Leinwand an. Laden Sie hochwertige druckfertige Dateien herunter. Alle Funktionen arbeiten zusammen für ansprechende Zähl- und Diagramm-Aktivitäten. Perfekt für die Grundschule und Vorschule.',
     highlightBadgeText: 'Hauptfunktion',
     readMoreLabel: 'Mehr lesen',
@@ -227,7 +227,7 @@ Jeder Download enthält sowohl das Schülerarbeitsblatt als auch den Lösungssch
 
   // How-To Guide - FULL text from bilddiagramm.md step sections
   howTo: {
-    sectionTitle: 'So erstellen Sie Bilddiagramm Arbeitsblätter in 5 einfachen Schritten - Kostenlose Arbeitsblätter für Rechnen lernen in der 1. Klasse',
+    sectionTitle: 'Kostenloses Arbeitsblatt für Kinder erstellen - Arbeitsblatt für Vorschule',
     sectionDescription: 'Die Erstellung professioneller Bilddiagramm Arbeitsblätter dauert unter 3 Minuten vom Start bis zum Download. Folgen Sie diesen fünf einfachen Schritten für individuelle Mathe-Arbeitsblätter und Arbeitsblätter Grundschule. Keine Designkenntnisse erforderlich. Wählen Sie Ihre Bilder, passen Sie Einstellungen an, generieren Sie das Arbeitsblatt, bearbeiten Sie bei Bedarf und laden Sie hochwertige druckfertige Dateien herunter. Der gesamte Prozess ist schneller als Kaffee kochen. Lehrkräfte erstellen Mathe-Arbeitsblätter für Wochen in weniger Zeit als traditionelle Erstellung für eine einzelne Seite benötigt.',
     ctaText: 'Jetzt Erstellen',
     badgeText: 'So funktioniert es',
@@ -303,7 +303,7 @@ Aktivieren Sie das Graustufen-Kontrollkästchen vor dem Download um alle Farben 
 
   // Use Cases - FULL descriptions from bilddiagramm.md persona sections
   useCases: {
-    sectionTitle: 'Perfekt für Lehrkräfte, Eltern und Pädagogen - Mathe-Arbeitsblätter und Kostenlose Arbeitsblätter Grundschule für jeden Bedarf',
+    sectionTitle: 'Kostenloses Arbeitsblatt für Kinder - Arbeitsblatt für Vorschule mit Kostenlose Druckvorlagen',
     sectionDescription: 'Bilddiagramm Arbeitsblätter erfüllen vielfältige pädagogische Anforderungen in verschiedenen Lernumgebungen. Vorschullehrkräfte nutzen diese Zähl- und Diagramm-Aktivitäten für Mathe-Center und Gruppenunterricht. Grundschullehrkräfte entwickeln Datenkompetenzen entsprechend der Bildungsstandards. Homeschool-Eltern erstellen personalisierte Arbeitsblätter mit den Interessen ihrer Kinder. DaF-Lehrkräfte nutzen visuelles Lernen für den Spracherwerb. Sonderpädagogen passen Arbeitsblätter an individuelle Lernbedürfnisse an. Jede Lehrkraft profitiert von automatischer Generierung, voller Anpassbarkeit und Druckqualität.',
     badgeText: 'Anwendungsbereiche',
     readMoreLabel: 'Mehr lesen',
@@ -374,7 +374,7 @@ Erstellen Sie thematische Pakete mit 10 bis 20 Bilddiagramm Arbeitsblättern. Sa
 
   // FAQ Section - FULL FAQs from bilddiagramm.md
   faq: {
-    sectionTitle: 'Häufig gestellte Fragen zu Bilddiagramm Arbeitsblättern - Mathe-Arbeitsblätter, Einmaleins und Kostenlose Arbeitsblätter',
+    sectionTitle: 'FAQ - Kostenloses Arbeitsblatt für Kinder und Arbeitsblatt für Vorschule',
     sectionDescription: 'Diese FAQ-Sektion beantwortet die häufigsten Fragen zu unserem Bilddiagramm Arbeitsblätter Generator. Erfahren Sie mehr über Funktionen, Anpassungsoptionen, Druckqualität und wie die Plattform mit anderen Arbeitsblatt-Generatoren zusammenarbeitet. Wir behandeln technische Fragen, pädagogische Anwendungen und Lizenzierungsdetails. Finden Sie schnelle Antworten auf alles von Seitengrößenoptionen bis zu mehrsprachiger Unterstützung.',
     showMoreText: 'Mehr Fragen anzeigen',
     showLessText: 'Weniger anzeigen',
@@ -532,7 +532,7 @@ Erstellen Sie thematische Pakete mit 10 bis 20 Bilddiagramm Arbeitsblättern. Sa
 
   // Related Apps - FULL text from bilddiagramm.md combine apps section
   relatedApps: {
-    sectionTitle: 'Bilddiagramm mit anderen Generatoren kombinieren - Einmaleins, Schwungübungen und Buchstaben lernen für komplette Deutsch-Arbeitsblätter',
+    sectionTitle: 'Kostenlose Arbeitsblätter kombinieren - Arbeitsblatt für Kinder und Kostenlose Druckvorlagen',
     sectionDescription: 'Bilddiagramm Arbeitsblätter erreichen maximale pädagogische Wirkung in Kombination mit anderen Arbeitsblatt-Generatoren der Plattform. Ihr Vollzugriff Abo gewährt Zugang zu allen 25+ Generatoren. Erstellen Sie umfassende Lernpakete, die Zählen, Lesen, Schreiben und Feinmotorik abdecken. Kombinieren Sie Bilddiagramme mit Einmaleins für progressives Mathe-Lernen. Ergänzen Sie mit Schwungübungen für Feinmotorik. Fügen Sie Buchstaben lernen Aktivitäten für Alphabetisierung hinzu. Integrieren Sie Deutsch-Arbeitsblätter für Sprachentwicklung. Diese Kombinationen schaffen ganzheitliche Bildungsprogramme.',
     ctaTitle: 'Bereit, fantastische Bilddiagramm-Arbeitsblätter zu erstellen?',
     ctaDescription: 'Schließen Sie sich tausenden Lehrkräften an, die professionelle Arbeitsblätter erstellen. Unbegrenzte Generierung, kommerzielle Lizenz inklusive.',

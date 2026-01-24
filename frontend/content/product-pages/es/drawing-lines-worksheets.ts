@@ -88,8 +88,8 @@ El generador incluye 8 plantillas diferentes con varios patrones de líneas y or
 
   // Sample Gallery - REAL file paths from samples/english/drawing lines/
   samples: {
-    sectionTitle: 'Ejemplos de Fichas de Grafomotricidad',
-    sectionDescription: 'Descarga ejemplos gratuitos para ver nuestra calidad profesional',
+    sectionTitle: 'Ficha Gratis para Niños - Fichas Gratis e Imprimibles Gratis',
+    sectionDescription: 'Descarga imprimibles gratis - Ficha gratis para niños de calidad profesional. Ficha para niños perfecta para ficha para preescolar. Ficha gratis para niños y ficha para niños incluyen material educativo. Ficha gratis disponible',
     downloadLabel: 'Descargar Ejemplo Gratis',
     worksheetLabel: 'Ficha',
     answerKeyLabel: 'Respuestas',
@@ -140,7 +140,7 @@ El generador incluye 8 plantillas diferentes con varios patrones de líneas y or
 
   // Features Grid - FULL text from drawing-lines.md feature sections
   features: {
-    sectionTitle: 'Características del Generador de Fichas de Grafomotricidad - Todo lo Necesario para Material Educativo Gratis y Fichas Preescolar',
+    sectionTitle: 'Fichas Gratis y Ficha para Niños - Imprimibles Gratis y Ficha para Preescolar',
     sectionDescription: 'Nuestro generador de fichas de grafomotricidad incluye funciones potentes para crear fichas infantil y material educativo gratis de calidad profesional. Los maestros crean fichas para imprimir personalizadas en menos de 3 minutos con nuestra plataforma fácil de usar. Cada función se enfoca en ahorrar tiempo mientras mantiene alta calidad para uso en el aula. Tu suscripción Paquete Esencial desbloquea creación ilimitada de fichas preescolar sin cargos por cada hoja.',
     highlightBadgeText: 'Característica Clave',
     readMoreLabel: 'Leer más',
@@ -220,7 +220,7 @@ Habilita la opción de escala de grises para ahorrar tinta de impresora mientras
 
   // How-To Guide - FULL text from drawing-lines.md step sections
   howTo: {
-    sectionTitle: 'Cómo Crear Fichas de Grafomotricidad para Imprimir en 5 Pasos Fáciles - Material Educativo Gratis para Preescolar',
+    sectionTitle: 'Ficha Gratis para Niños Crear - Ficha para Preescolar',
     sectionDescription: 'Crea fichas de grafomotricidad profesionales en menos de 3 minutos con nuestro proceso paso a paso. El generador te guía a través de cada paso desde la selección de plantilla hasta la descarga final. No se necesita experiencia en diseño para producir fichas infantil y fichas preescolar de alta calidad. Sigue estos cinco pasos simples para crear fichas para imprimir que tus estudiantes amarán.',
     ctaText: 'Comenzar Ahora',
     badgeText: 'Cómo Funciona',
@@ -292,7 +292,7 @@ Los archivos PDF incluyen tamaño de página adecuado para impresión perfecta s
 
   // Use Cases - FULL text from drawing-lines.md use case sections
   useCases: {
-    sectionTitle: 'Perfecto para Maestros, Padres y Educadores - Fichas para Imprimir Gratis y Material Educativo para Cada Necesidad',
+    sectionTitle: 'Ficha Gratis para Niños - Ficha para Preescolar con Imprimibles Gratis. Ficha para Niños',
     sectionDescription: 'Nuestro generador de fichas de grafomotricidad sirve a diversos educadores que crean fichas infantil y fichas preescolar diariamente. Los maestros de aula usan la plataforma para planes de lección e instrucción diferenciada. Los padres que educan en casa crean material educativo gratis personalizado para cada niño. Los especialistas en educación especial diseñan fichas para imprimir individualizadas para objetivos de aprendizaje específicos.',
     badgeText: 'Para Quién',
     readMoreLabel: 'Leer más',
@@ -375,7 +375,7 @@ Muchos maestros ganan entre $500 y $2,000 mensuales vendiendo solo en Teachers P
 
   // FAQ Section - Selected FAQs from drawing-lines.md
   faq: {
-    sectionTitle: 'Preguntas Frecuentes sobre Fichas de Grafomotricidad - Material Educativo Gratis y Fichas Preescolar',
+    sectionTitle: 'FAQ - Ficha Gratis para Niños y Ficha para Preescolar. Ficha para Niños',
     sectionDescription: 'Preguntas frecuentes sobre nuestro generador de fichas de grafomotricidad y fichas para imprimir gratis.',
     showMoreText: 'Ver más preguntas',
     showLessText: 'Ver menos',
@@ -511,7 +511,7 @@ Muchos maestros ganan entre $500 y $2,000 mensuales vendiendo solo en Teachers P
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Combina Fichas de Grafomotricidad con Otros Generadores - Fichas de Matemáticas, Abecedario, Dibujos para Colorear y Tablas de Multiplicar',
+    sectionTitle: 'Fichas Gratis Combinar - Ficha para Niños e Imprimibles Gratis',
     sectionDescription: 'Crea paquetes de aprendizaje completos combinando las fichas de grafomotricidad con estos generadores complementarios.',
     ctaTitle: '¿Listo para Crear Fichas Increíbles?',
     ctaDescription: 'Únete a miles de maestros que crean fichas profesionales. Generación ilimitada, licencia comercial incluida.',

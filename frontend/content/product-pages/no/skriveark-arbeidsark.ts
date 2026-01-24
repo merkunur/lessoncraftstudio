@@ -53,8 +53,8 @@ Skrivearkene støtter flere skrivemoduser inkludert sporing, gradvis uttoning og
 
   // Sample Gallery - REAL file paths from samples/english/writing/
   samples: {
-    sectionTitle: 'Skriveark Arbeidsark Eksempler',
-    sectionDescription: 'Last ned gratis eksempler på arbeidsark for å se vår profesjonelle kvalitet',
+    sectionTitle: 'Gratis Arbeidsark for Barn - Gratis Arbeidsark og Gratis Utskrifter',
+    sectionDescription: 'Last ned gratis utskrifter - Gratis arbeidsark for barn av profesjonell kvalitet. Gratis arbeidsark og arbeidsark for barn perfekt for arbeidsark for 1. trinn. Gratis arbeidsark for barn og arbeidsark for barn inkluderer gratis utskrifter undervisningsmateriell. Gratis arbeidsark og arbeidsark for 1. trinn tilgjengelig',
     badgeText: 'Gratis Eksempler',
     downloadLabel: 'Last ned Gratis Eksempel',
     downloadingLabel: 'Laster ned...',
@@ -91,7 +91,7 @@ Skrivearkene støtter flere skrivemoduser inkludert sporing, gradvis uttoning og
 
   // Features Grid - FULL text from writing.md feature sections
   features: {
-    sectionTitle: 'Skriveark Funksjoner – Alt Du Trenger for Bokstaver Lære Skrive og Finmotorikk Øvelser',
+    sectionTitle: 'Gratis Arbeidsark og Arbeidsark for Barn - Gratis Utskrifter og Arbeidsark for 1. Trinn',
     sectionDescription: 'Vår skriveark generator gir deg alle verktøyene du trenger for å lage profesjonelle arbeidsark gratis for utskrift. Full Tilgang-abonnementet inkluderer syv kraftige funksjoner som gjør håndskriftstrening enkel og effektiv. Lag tilpassede skriveark for bokstaver lære skrive på få minutter. Hver funksjon er designet for å spare tid samtidig som du lager oppgavehefter barn elsker å bruke.',
     highlightBadgeText: 'Viktig Funksjon',
     readMoreLabel: 'Les mer',
@@ -185,7 +185,7 @@ Høy oppløsning betyr skrivearkene ser profesjonelle ut. Kombinér med fargeleg
 
   // How-To Guide - FULL text from writing.md step sections
   howTo: {
-    sectionTitle: 'Hvordan Lage Skriveark for Bokstaver Lære Skrive i 5 Enkle Steg',
+    sectionTitle: 'Gratis Arbeidsark for Barn Lage - Arbeidsark for 1. Trinn',
     sectionDescription: 'Lag profesjonelle skriveark for håndskriftstrening på under 3 minutter. Ingen designerferdigheter påkrevd. Følg disse fem enkle stegene for å lage arbeidsark gratis perfekt for bokstaver lære skrive. Ideelt for lærere som trenger oppgavehefter barn kan bruke til finmotorikk øvelser.',
     ctaText: 'Start Nå',
     badgeText: 'Slik Fungerer Det',
@@ -270,7 +270,7 @@ Lagre PDFene for gjenbruk. Bygg et bibliotek av arbeidsark gratis organisert ett
 
   // Use Cases - FULL text from writing.md user sections
   useCases: {
-    sectionTitle: 'Perfekt for Lærere, Foreldre og Pedagoger',
+    sectionTitle: 'Gratis Arbeidsark for Barn - Arbeidsark for 1. Trinn med Gratis Utskrifter. Arbeidsark for Barn',
     sectionDescription: 'Vår skriveark generator tilfredsstiller behovene til seks distinkte brukergrupper. Fra barnehagepedagoger til lærere entreprenører. Hver gruppe finner unike måter å bruke arbeidsark gratis på. Kombinér skriveark for bokstaver lære skrive med matematikk oppgaver, fargeleggingsbilder barn og lesetrening for komplette læringspakker.',
     badgeText: 'Hvem Det Er For',
     readMoreLabel: 'Les mer',
@@ -369,7 +369,7 @@ Abonnementsmodeller skaper forutsigbar inntekt. Lag månedlige oppgavehefter bar
 
   // FAQ Section - FULL text from writing.md FAQ sections
   faq: {
-    sectionTitle: 'Ofte Stilte Spørsmål om Skriveark, Matematikk Oppgaver og Fargeleggingsbilder Barn',
+    sectionTitle: 'FAQ - Gratis Arbeidsark for Barn og Arbeidsark for 1. Trinn. Arbeidsark for Barn',
     sectionDescription: 'Lærere og foreldre stiller ofte spørsmål om skriveark generator og Full Tilgang-abonnementet. Disse 12 spørsmålene dekker alt fra priser til funksjoner. Lær om bokstaver lære skrive, matematikk oppgaver, gangetabellen, tall og telling, addisjon og subtraksjon, fargeleggingsbilder barn og lesetrening generatorer.',
     showMoreText: 'Vis flere spørsmål',
     showLessText: 'Vis færre',

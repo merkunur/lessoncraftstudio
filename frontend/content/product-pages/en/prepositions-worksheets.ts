@@ -78,7 +78,7 @@ Perfect for kindergarten teachers and first grade educators who need quality pre
 
   // Sample Gallery - REAL file paths from samples/english/prepositions/
   samples: {
-    sectionTitle: 'Worksheet Samples',
+    sectionTitle: 'Free Worksheet for Kids - Free Worksheets and Free Printables',
     downloadLabel: 'Download Free Sample',
     worksheetLabel: 'Worksheet',
     answerKeyLabel: 'Answer Key',
@@ -123,8 +123,8 @@ Perfect for kindergarten teachers and first grade educators who need quality pre
 
   // Features Grid - FULL descriptions from prepositions.md H3 sections
   features: {
-    sectionTitle: 'Everything You Need for Prepositions Worksheets',
-    sectionDescription: 'Our prepositions worksheet generator includes seven powerful features that make creating kindergarten worksheets fast and professional. These features work together to give you complete control over every aspect of your free printable worksheets. Whether you need simple prepositions practice or complex spatial concept activities, our generator delivers the tools you need. Full Access subscribers get unlimited access to all features with no restrictions.',
+    sectionTitle: 'Free Worksheet for Kids Features - Worksheet for Kindergarten',
+    sectionDescription: 'Our prepositions worksheet generator includes seven powerful features that make creating free worksheet for kids fast and professional. These features work together to give you complete control over every aspect of your free worksheets. Whether you need simple prepositions practice or free printables for complex spatial concept activities, our free worksheet for kids generator delivers the tools you need. Create worksheet for kindergarten with no restrictions. Build worksheet for kindergarten materials easily.',
     highlightBadgeText: 'Key Feature',
     items: [
       {
@@ -181,7 +181,7 @@ Perfect for kindergarten teachers and first grade educators who need quality pre
 
   // How-To Guide - FULL text from prepositions.md Step sections
   howTo: {
-    sectionTitle: 'Create Kindergarten Worksheets and Free Printable Worksheets in 5 Easy Steps',
+    sectionTitle: 'How to Create Free Worksheets for Kids in 5 Steps - Free Printables',
     sectionDescription: 'Creating prepositions worksheets takes less than 3 minutes from start to finish. Our streamlined five-step process eliminates complexity and focuses on results. Teachers with no design experience create professional kindergarten worksheets on their first try. Follow these simple steps to generate free printable worksheets for your classroom. Each step includes clear instructions and helpful tips for first grade teachers.',
     ctaText: 'Start Creating Now',
     steps: [
@@ -225,7 +225,7 @@ Perfect for kindergarten teachers and first grade educators who need quality pre
 
   // Use Cases - FULL descriptions from prepositions.md persona sections
   useCases: {
-    sectionTitle: 'Perfect for Teachers and Parents',
+    sectionTitle: 'Free Printables for Teachers - Worksheet for Kids and Kindergarten',
     sectionDescription: 'Prepositions worksheets benefit six different user groups in unique ways. Kindergarten teachers, first grade educators, homeschool parents, ESL instructors, special education teachers, and teacher entrepreneurs all find value in our generator. Each group uses free printable worksheets differently based on their specific needs. Understanding these use cases helps you maximize the generator potential in your teaching situation.',
     items: [
       {
@@ -281,7 +281,7 @@ Perfect for kindergarten teachers and first grade educators who need quality pre
 
   // FAQ Section - ALL questions from prepositions.md
   faq: {
-    sectionTitle: 'Frequently Asked Questions',
+    sectionTitle: 'FAQ - Free Worksheet for Kids and Worksheet for Kindergarten',
     sectionDescription: 'Teachers ask common questions about creating prepositions worksheets for kindergarten through first grade. Questions cover subscription requirements, printing capabilities, customization options, and commercial licensing. Answers help kindergarten teachers, first grade teachers, homeschool parents, and ESL instructors understand full platform capabilities.',
     showMoreText: 'Show more questions',
     showLessText: 'Show less',
@@ -406,7 +406,7 @@ Perfect for kindergarten teachers and first grade educators who need quality pre
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Combine with Other Worksheet Generators',
+    sectionTitle: 'More Free Worksheets - Worksheet for Kindergarten Generators',
     sectionDescription: 'Our platform offers 33 different worksheet generators beyond prepositions. Your Full Access subscription provides access to all generators for creating comprehensive learning packets. Combine prepositions worksheets with math worksheets, phonics worksheets, and coloring worksheets. Build complete themed units mixing spatial concept practice with literacy and math activities.',
     ctaTitle: 'Ready to Create Amazing Worksheets?',
     ctaDescription: 'Join educators creating professional worksheets. Unlimited generation, commercial license included.',

@@ -73,8 +73,8 @@ Full Tillgång-prenumeration inkluderar kommersiell licens. Sälj dina skrivarbe
 
   // Sample Gallery - REAL file paths from samples/swedish/writing/
   samples: {
-    sectionTitle: 'Gratis Skrivarbetsblad Exempel - Arbetsblad för Barn att Ladda Ner',
-    sectionDescription: 'Ladda ner gratis exempelarbetsblad för att se vår professionella kvalitet',
+    sectionTitle: 'Gratis Arbetsblad för Barn - Gratis Arbetsblad och Gratis Utskrifter',
+    sectionDescription: 'Ladda ner gratis utskrifter - Gratis arbetsblad för barn av professionell kvalitet. Gratis arbetsblad och arbetsblad för barn perfekt för arbetsblad för förskoleklass. Gratis arbetsblad för barn och arbetsblad för barn inkluderar utbildningsmaterial. Gratis arbetsblad och gratis utskrifter tillgänglig',
     downloadLabel: 'Ladda Ner Gratis Exempel',
     worksheetLabel: 'Arbetsblad',
     answerKeyLabel: 'Facit',
@@ -309,7 +309,7 @@ Exportprocessen tar bara sekunder. Din fil genereras och laddas ner automatiskt.
 
   // Use Cases - FULL text from writing.md use case sections
   useCases: {
-    sectionTitle: 'Perfekt för Lärare och Föräldrar - Bokstäver Lära Sig och Finmotorik Övningar för Alla Behov',
+    sectionTitle: 'Gratis Arbetsblad för Barn - Arbetsblad för Förskoleklass med Gratis Utskrifter. Arbetsblad för Barn',
     sectionDescription: 'Vår generator för skrivarbetsblad tjänar olika användare inom utbildning och föräldraskap. Från förskoleklasspedagoger till lärarföretagare, varje grupp hittar unika fördelar. Skapa arbetsblad gratis per arbetsblad när du väl har din prenumeration. Förskoleklass material och lågstadiematerial skapas på minuter. Varje användargrupp får exakt vad de behöver för sina specifika undervisningssituationer.',
     badgeText: 'Vem Det Är För',
     readMoreLabel: 'Läs mer',
@@ -404,7 +404,7 @@ Lyckosamma lärarföretagare tjänar $500-5000 per månad. Kombinera skrivarbets
 
   // FAQ Section - Selected FAQs from writing.md
   faq: {
-    sectionTitle: 'Vanliga Frågor om Gratis Skrivarbetsblad för Barn - Arbetsblad för Förskoleklass',
+    sectionTitle: 'FAQ - Gratis Arbetsblad för Barn och Arbetsblad för Förskoleklass med Gratis Utskrifter. Arbetsblad för Barn',
     sectionDescription: 'Lärare och föräldrar ställer ofta liknande frågor om vår generator för skrivarbetsblad. Följande 12 frågor och svar täcker allt från prenumerationskostnader till tekniska funktioner. Varje svar ger tydlig, praktisk information. Läs igenom dessa innan du prenumererar för att förstå exakt vad du får. Arbetsblad gratis att skapa när du väl har tillgång till Full Tillgång-prenumeration.',
     showMoreText: 'Visa fler frågor',
     showLessText: 'Visa färre',

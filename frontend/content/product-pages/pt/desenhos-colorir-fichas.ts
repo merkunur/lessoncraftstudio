@@ -83,8 +83,8 @@ Nossa biblioteca oferece mais de 3000 imagens infantis. Escolha temas como anima
 
   // Sample Gallery - Portuguese coloring samples
   samples: {
-    sectionTitle: 'Exemplos de Desenhos para Colorir - Atividades Grátis para Educação Infantil',
-    sectionDescription: 'Baixe exemplos gratuitos para ver nossa qualidade profissional',
+    sectionTitle: 'Atividade Grátis para Crianças - Atividades Grátis e Imprimíveis Grátis',
+    sectionDescription: 'Baixe imprimíveis grátis - Atividade grátis para crianças de qualidade profissional. Atividades grátis e atividade para crianças perfeitas para atividade para educação infantil. Atividade grátis para crianças e atividade para crianças incluem material educativo. Atividade grátis disponível',
     downloadLabel: 'Baixar Exemplo Grátis',
     worksheetLabel: 'Desenho',
     answerKeyLabel: 'Gabarito',
@@ -135,8 +135,8 @@ Nossa biblioteca oferece mais de 3000 imagens infantis. Escolha temas como anima
 
   // Features Grid - FULL text from coloring.md feature sections
   features: {
-    sectionTitle: 'Recursos do Gerador de Desenhos para Colorir - Atividades Grátis para Imprimir',
-    sectionDescription: 'Nosso gerador de desenhos para colorir oferece recursos completos para educadores. Crie atividades para imprimir personalizadas em minutos. Cada ferramenta foi desenvolvida pensando em professores de educação infantil. Descubra como transformar sua rotina de preparação de materiais.',
+    sectionTitle: 'Atividades Grátis e Atividade para Crianças - Imprimíveis Grátis e Atividade para Educação Infantil',
+    sectionDescription: 'Atividades grátis disponíveis. Nosso gerador de desenhos para colorir oferece recursos completos para educadores. Crie atividades para imprimir personalizadas em minutos. Cada ferramenta foi desenvolvida pensando em professores de educação infantil. Descubra como transformar sua rotina de preparação de materiais.',
     highlightBadgeText: 'Recurso Principal',
     readMoreLabel: 'Leia mais',
     showLessLabel: 'Mostrar menos',
@@ -208,7 +208,7 @@ Nossa biblioteca oferece mais de 3000 imagens infantis. Escolha temas como anima
 
   // How-To Guide - FULL text from coloring.md step sections
   howTo: {
-    sectionTitle: 'Como Criar Atividades Grátis de Desenhos para Colorir em 5 Passos',
+    sectionTitle: 'Atividade Grátis para Crianças Criar - Atividade para Educação Infantil',
     sectionDescription: 'Aprenda a criar desenhos para colorir profissionais em menos de 3 minutos. Este guia passo a passo mostra como produzir atividades para imprimir de qualidade. Ideal para professores de educação infantil e ensino fundamental. Siga cada etapa e transforme sua preparação de materiais.',
     ctaText: 'Comece Agora',
     badgeText: 'Como Funciona',
@@ -280,8 +280,8 @@ Escolha PDF para impressão física. Perfeito para atividades com tabuada impres
 
   // Use Cases - FULL text from coloring.md use case sections
   useCases: {
-    sectionTitle: 'Quem Usa Nosso Gerador de Atividades Grátis de Desenhos para Colorir',
-    sectionDescription: 'Nosso gerador de desenhos para colorir atende diversos perfis de educadores. De professores de educação infantil a empreendedores educacionais. Descubra como cada grupo utiliza atividades para imprimir em sua rotina. Encontre inspiração para sua própria prática pedagógica.',
+    sectionTitle: 'Atividade Grátis para Crianças - Atividade para Educação Infantil com Imprimíveis Grátis. Atividade para Crianças',
+    sectionDescription: 'Atividades grátis disponíveis. Nosso gerador de desenhos para colorir atende diversos perfis de educadores. De professores de educação infantil a empreendedores educacionais. Descubra como cada grupo utiliza atividades para imprimir em sua rotina. Encontre inspiração para sua própria prática pedagógica.',
     badgeText: 'Para Quem',
     readMoreLabel: 'Leia mais',
     showLessLabel: 'Mostrar menos',
@@ -351,7 +351,7 @@ Crie pacotes de desenhos para colorir para venda. Desenvolva atividades com tabu
 
   // FAQ Section - Selected FAQs from coloring.md
   faq: {
-    sectionTitle: 'Perguntas Frequentes sobre Atividades Grátis de Desenhos para Colorir',
+    sectionTitle: 'FAQ - Atividade Grátis para Crianças e Atividade para Educação Infantil. Atividade para Crianças',
     sectionDescription: 'Respondemos as dúvidas mais comuns sobre nosso gerador de desenhos para colorir. Descubra tudo sobre atividades para imprimir, preços e recursos. Informações claras para ajudar sua decisão.',
     showMoreText: 'Mostrar mais perguntas',
     showLessText: 'Mostrar menos',
@@ -456,7 +456,7 @@ Crie pacotes de desenhos para colorir para venda. Desenvolva atividades com tabu
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Combine com Outros Geradores de Atividades Grátis para Imprimir',
+    sectionTitle: 'Atividades Grátis Combinar - Atividade para Crianças e Imprimíveis Grátis',
     sectionDescription: 'Crie pacotes de aprendizagem completos combinando desenhos para colorir com estes geradores complementares.',
     ctaTitle: 'Pronto para Criar Atividades Incríveis?',
     ctaDescription: 'Junte-se a milhares de educadores que criam atividades profissionais. Geração ilimitada, licença comercial incluída.',

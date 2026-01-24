@@ -85,8 +85,8 @@ Med Grundpaketet-prenumeration på 1 800 SEK per år får du tillgång till 10 p
 
   // Sample Gallery - REAL file paths from samples/english/drawing lines/
   samples: {
-    sectionTitle: 'Gratis Arbetsblad Rita Linjer - Exempelarbetsblad för Barn',
-    sectionDescription: 'Ladda ner gratis exempelarbetsblad för att se vår professionella kvalitet',
+    sectionTitle: 'Gratis Arbetsblad för Barn - Gratis Arbetsblad och Gratis Utskrifter',
+    sectionDescription: 'Ladda ner gratis utskrifter - Gratis arbetsblad för barn av professionell kvalitet. Gratis arbetsblad och arbetsblad för barn perfekt för arbetsblad för förskoleklass. Gratis arbetsblad för barn och arbetsblad för barn inkluderar utbildningsmaterial. Gratis arbetsblad och gratis utskrifter tillgänglig',
     downloadLabel: 'Ladda Ner Gratis Exempel',
     worksheetLabel: 'Arbetsblad',
     answerKeyLabel: 'Facit',
@@ -243,7 +243,7 @@ Arbetsbladen fungerar lika bra på vanliga skrivare. Inga specialskrivare eller 
 
   // How-To Guide - FULL text from drawing-lines.md step sections
   howTo: {
-    sectionTitle: 'Hur Man Skapar Gratis Arbetsblad i 5 Steg - Arbetsblad för Förskoleklass',
+    sectionTitle: 'Gratis Arbetsblad för Barn Skapa - Arbetsblad för Förskoleklass och Gratis Utskrifter',
     sectionDescription: 'Skapa professionella finmotorik övningar snabbt med vårt användarvänliga verktyg. Från val av mall till färdigt arbetsblad gratis att ladda ner tar det under 3 minuter. Följ dessa 5 enkla steg för perfekta förskoleklass material. Ingen designerfarenhet krävs för att skapa matematik arbetsblad och bokstäver lära sig-material.',
     ctaText: 'Börja Skapa Nu',
     badgeText: 'Så Fungerar Det',
@@ -341,7 +341,7 @@ Spara arbetsbladet i klassrumsmapp på datorn. Organisera efter ämne och svåri
 
   // Use Cases - FULL text from drawing-lines.md use case sections
   useCases: {
-    sectionTitle: 'Perfekt för Lärare och Föräldrar - Gratis Arbetsblad för Barn och Förskoleklass',
+    sectionTitle: 'Gratis Arbetsblad för Barn - Arbetsblad för Förskoleklass med Gratis Utskrifter. Arbetsblad för Barn',
     sectionDescription: 'Vårt rita linjer-verktyg passar alla som arbetar med barn i åldrarna 3-9 år. Från förskolepedagoger till hemundervisande föräldrar. Skapa anpassade finmotorik övningar och matematik arbetsblad för varje elevgrupp. Varje användartyp hittar unika fördelar med verktyget. Generera arbetsblad gratis material perfekt anpassat för dina specifika behov.',
     badgeText: 'Vem Det Är För',
     readMoreLabel: 'Läs mer',
@@ -446,7 +446,7 @@ Kombinera rita linjer-arbetsblad med andra arbetsbladstyper. Sälj "Komplett Fö
 
   // FAQ Section - Selected FAQs from drawing-lines.md
   faq: {
-    sectionTitle: 'Vanliga Frågor om Gratis Arbetsblad och Arbetsblad för Förskoleklass',
+    sectionTitle: 'FAQ - Gratis Arbetsblad för Barn och Arbetsblad för Förskoleklass med Gratis Utskrifter. Arbetsblad för Barn',
     sectionDescription: 'Lärare och föräldrar ställer ofta samma frågor om vårt verktyg. Här besvarar vi de vanligaste frågorna om finmotorik övningar, matematik arbetsblad och förskoleklass material.',
     showMoreText: 'Visa fler frågor',
     showLessText: 'Visa färre',

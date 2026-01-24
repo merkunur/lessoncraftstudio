@@ -79,8 +79,8 @@ Crianças na educação infantil aprendem melhor com recursos visuais. Nossas at
 
   // Sample Gallery - REAL file paths from samples/english/prepositions/
   samples: {
-    sectionTitle: 'Exemplos de Atividades Grátis de Preposições',
-    sectionDescription: 'Baixe exemplos gratuitos para ver nossa qualidade profissional',
+    sectionTitle: 'Atividade Grátis para Crianças - Atividades Grátis e Imprimíveis Grátis',
+    sectionDescription: 'Baixe imprimíveis grátis - Atividade grátis para crianças de qualidade profissional. Atividades grátis e atividade para crianças perfeitas para atividade para educação infantil. Atividade grátis para crianças e atividade para crianças incluem material educativo. Atividade grátis disponível',
     downloadLabel: 'Baixar Exemplo Grátis',
     worksheetLabel: 'Atividade',
     answerKeyLabel: 'Gabarito',
@@ -124,7 +124,7 @@ Crianças na educação infantil aprendem melhor com recursos visuais. Nossas at
 
   // Features Grid - FULL text from prepositions.md feature sections
   features: {
-    sectionTitle: 'Recursos do Gerador - Atividade Grátis de Preposições para Imprimir',
+    sectionTitle: 'Atividades Grátis e Atividade para Crianças - Imprimíveis Grátis e Atividade para Educação Infantil',
     sectionDescription: 'O gerador de atividades de preposições oferece recursos completos para professores e pais. Cada funcionalidade foi pensada para facilitar a criação de materiais educativos. Crie atividades de alfabetização, coordenação motora e muito mais. Conheça todos os recursos disponíveis para criar atividades educação infantil de qualidade profissional.',
     highlightBadgeText: 'Recurso Principal',
     readMoreLabel: 'Leia mais',
@@ -213,7 +213,7 @@ Desenvolve coordenação motora fina naturalmente. Combine aprendizado linguíst
 
   // How-To Guide - FULL text from prepositions.md step sections
   howTo: {
-    sectionTitle: 'Como Criar Atividade Grátis de Preposições em 5 Passos',
+    sectionTitle: 'Atividade Grátis para Crianças Criar - Atividade para Educação Infantil',
     sectionDescription: 'Criar atividades de preposições profissionais é simples e rápido. Todo o processo leva menos de 3 minutos. Siga estes 5 passos para gerar fichas perfeitas para educação infantil e ensino fundamental. Não é necessário experiência em design ou programas complicados.',
     ctaText: 'Comece Agora',
     badgeText: 'Como Funciona',
@@ -285,7 +285,7 @@ A opção "Escala de Cinza" converte para preto e branco. Economiza tinta colori
 
   // Use Cases - FULL text from prepositions.md use case sections
   useCases: {
-    sectionTitle: 'Quem Usa Atividades Grátis de Preposições',
+    sectionTitle: 'Atividade Grátis para Crianças - Atividade para Educação Infantil com Imprimíveis Grátis. Atividade para Crianças',
     sectionDescription: 'O gerador de preposições atende diferentes perfis de educadores. Cada grupo encontra benefícios específicos na ferramenta. Conheça como professores de educação infantil, ensino fundamental e pais utilizam atividades para imprimir de preposições em suas rotinas educativas.',
     badgeText: 'Para Quem',
     readMoreLabel: 'Leia mais',
@@ -422,7 +422,7 @@ Crie kits completos combinando diferentes tipos de atividades. Inclua fichas de 
 
   // FAQ Section
   faq: {
-    sectionTitle: 'Perguntas Frequentes sobre Atividade Grátis de Preposições',
+    sectionTitle: 'FAQ - Atividade Grátis para Crianças e Atividade para Educação Infantil. Atividade para Crianças',
     sectionDescription: 'Professores e pais têm dúvidas comuns sobre o gerador de preposições. Respondemos as perguntas mais frequentes sobre atividades para imprimir, formatos, idiomas e uso comercial. Encontre respostas para começar a criar suas fichas educativas hoje.',
     showMoreText: 'Mostrar mais perguntas',
     showLessText: 'Mostrar menos',

@@ -79,8 +79,8 @@ Il generatore funziona in 11 lingue diverse. Le preposizioni vengono tradotte au
 
   // Sample Gallery
   samples: {
-    sectionTitle: 'Schede Gratuite Preposizioni - Stampabili Gratuiti da Scaricare',
-    sectionDescription: 'Scarica schede gratuite per vedere la nostra qualità professionale - stampabili gratuiti PDF',
+    sectionTitle: "Scheda Gratuita per Bambini - Schede Gratuite e Stampabili Gratuiti e Scheda per Bambini",
+    sectionDescription: "Scarica stampabili gratuiti - Scheda gratuita per bambini di qualità professionale. Schede gratuite e scheda per bambini perfette per scheda per scuola dell'infanzia. Scheda gratuita per bambini e scheda per bambini includono materiale educativo. Scheda gratuita e scheda per scuola dell'infanzia disponibile",
     downloadLabel: 'Scarica Scheda Gratuita',
     worksheetLabel: 'Scheda',
     answerKeyLabel: 'Chiave di Risposta',
@@ -124,7 +124,7 @@ Il generatore funziona in 11 lingue diverse. Le preposizioni vengono tradotte au
 
   // Features Grid
   features: {
-    sectionTitle: 'Funzionalità Generatore - Schede Gratuite per Bambini e Stampabili Gratuiti',
+    sectionTitle: "Schede Gratuite e Scheda per Bambini - Stampabili Gratuiti e Scheda per Scuola dell'Infanzia",
     sectionDescription: 'Il nostro generatore di schede gratuite offre funzionalità complete per creare materiale educativo professionale. Ogni strumento è progettato pensando agli insegnanti della scuola dell\'infanzia e della scuola primaria. Crea scheda gratuita per bambini per le preposizioni in pochi clic. Personalizza ogni elemento per adattarlo alle esigenze dei tuoi studenti. Combina facilmente con stampabili gratuiti, schede matematica e disegni da colorare per pacchetti didattici completi.',
     highlightBadgeText: 'Funzionalità Chiave',
     readMoreLabel: 'Leggi di più',
@@ -207,7 +207,7 @@ La biblioteca include immagini perfette per combinare argomenti. Crea schede did
 
   // How-To Guide Section
   howTo: {
-    sectionTitle: 'Come Creare Schede Gratuite Preposizioni in 5 Passi - Stampabili Gratuiti',
+    sectionTitle: "Scheda Gratuita per Bambini Creare - Scheda per Scuola dell'Infanzia",
     sectionDescription: 'Creare schede gratuite professionali per le preposizioni richiede meno di tre minuti. Segui questi cinque semplici passi per generare stampabili gratuiti perfetti. Non serve esperienza di design grafico. Il processo è intuitivo per tutti gli insegnanti della scuola dell\'infanzia e della scuola primaria. Combina facilmente con scheda gratuita per bambini, schede matematica e disegni da colorare per pacchetti completi.',
     ctaText: 'Inizia Ora',
     badgeText: 'Guida Passo-Passo',
@@ -279,7 +279,7 @@ Scarica sia la scheda che la chiave di risposta. Stampa le schede per tutti gli 
 
   // Use Cases Section
   useCases: {
-    sectionTitle: 'Perfetto per Insegnanti - Schede Gratuite per Scuola dell\'Infanzia e Stampabili Gratuiti',
+    sectionTitle: "Perfetto per Insegnanti - Schede Gratuite per Scuola dell\"Infanzia e Stampabili Gratuiti',
     sectionDescription: 'Il nostro generatore di schede gratuite serve diverse categorie di educatori. Insegnanti della scuola dell\'infanzia, maestre di scuola primaria, genitori homeschooler e insegnanti di sostegno. Tutti trovano valore nelle schede gratuite personalizzabili per le preposizioni. Combina facilmente con stampabili gratuiti, scheda per bambini, pregrafismo e disegni da colorare. Crea pacchetti didattici completi per ogni situazione educativa.',
     badgeText: 'Chi Usa le Nostre Schede',
     readMoreLabel: 'Leggi di più',
@@ -362,7 +362,7 @@ Gli insegnanti guadagnano da 500€ a 5000€ al mese vendendo schede. Crea una 
 
   // FAQ Section
   faq: {
-    sectionTitle: 'Domande Frequenti - Schede Gratuite Preposizioni e Stampabili Gratuiti',
+    sectionTitle: "FAQ - Scheda Gratuita per Bambini e Scheda per Scuola dell'Infanzia. Scheda per Bambini",
     sectionDescription: 'Gli insegnanti hanno domande comuni sul generatore di schede gratuite. Qui rispondiamo alle 12 domande più frequenti. Copriamo tutto da prezzi e utilizzo in classe a combinazioni con stampabili gratuiti, scheda gratuita per bambini, pregrafismo e disegni da colorare. Scopri come massimizzare il valore del tuo abbonamento Accesso Completo.',
     showMoreText: 'Mostra altre domande',
     showLessText: 'Mostra meno domande',
@@ -516,7 +516,7 @@ Crea unità tematiche interdisciplinari. Combina preposizioni con pregrafismo pe
 
   // Related Apps Section
   relatedApps: {
-    sectionTitle: 'Combina Schede Preposizioni con Altri Generatori',
+    sectionTitle: "Combina Schede Preposizioni con Altri Generatori",
     sectionDescription: 'L\'abbonamento Accesso Completo include 33 generatori. Combina il generatore di Schede Preposizioni con altri strumenti. Crea pacchetti completi di schede didattiche. Perfetto per unità tematiche. Ottimo per centri di apprendimento.',
     ctaTitle: 'Pronto a Creare Schede Straordinarie?',
     ctaDescription: 'Unisciti a migliaia di educatori che creano schede professionali. Generazione illimitata, licenza commerciale inclusa.',

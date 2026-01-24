@@ -53,8 +53,8 @@ Luo tehtäviä joko pelkästään yhteenlaskusta tai yhteenlaskun ja vähennysla
 
   // Sample Gallery - REAL file paths from samples/english/math worksheet/
   samples: {
-    sectionTitle: 'Matematiikka Tehtävät Alakoulu Esimerkit',
-    sectionDescription: 'Lataa ilmaiset esimerkkityöarkit nähdäksesi ammattimaisen laatumme',
+    sectionTitle: 'Ilmainen Työarkki Lapsille - Ilmaiset Työarkit ja Ilmaiset Tulosteet',
+    sectionDescription: 'Lataa ilmaiset tulosteet - Ilmainen työarkki lapsille ammattimaista laatua. Ilmaiset työarkit ja työarkki lapsille täydellinen työarkki esiopetukseen. Ilmainen työarkki lapsille ja työarkki lapsille sisältää ilmaiset tulosteet ja ilmaiset työarkit opetusmateriaalin. Ilmainen työarkki ja työarkki esiopetukseen saatavilla',
     downloadLabel: 'Lataa Ilmainen Esimerkki',
     worksheetLabel: 'Työarkki',
     answerKeyLabel: 'Vastausavain',
@@ -84,7 +84,7 @@ Luo tehtäviä joko pelkästään yhteenlaskusta tai yhteenlaskun ja vähennysla
 
   // Features Grid - FULL text from Finnish math-worksheet.md feature sections
   features: {
-    sectionTitle: 'Matematiikka Tehtävät Alakoulu Ominaisuudet - Kaikki Mitä Tarvitset Tulostettavat Tehtävät Lapsille Ilmainen ja Esiopetus Materiaali Ilmainen Luontiin',
+    sectionTitle: 'Ilmaiset Työarkit ja Työarkki Lapsille - Ilmaiset Tulosteet ja Työarkki Esiopetukseen',
     sectionDescription: 'Visuaalinen matematiikkatehtävien generaattori yhdistää helppokäyttöisyyden ja ammattimaisen laadun. Seitsemän pääominaisuutta tekevät matematiikkatehtävien luonnista nopeaa ja tehokasta. Jokainen ominaisuus on suunniteltu opettajien tarpeisiin. Luo tulostettavia matematiikkatehtäviä minuuteissa ilman graafisen suunnittelun taitoja.',
     highlightBadgeText: 'Tärkeä Ominaisuus',
     readMoreLabel: 'Lue lisää',
@@ -190,7 +190,7 @@ Harmaasävyvaihtoehto säästää mustetta. Muunna värillinen työarkki harmaas
 
   // How-To Guide - FULL text from Finnish math-worksheet.md step sections
   howTo: {
-    sectionTitle: 'Kuinka Luoda Matematiikka Tehtävät Alakoulu Viidessä Helpossa Vaiheessa',
+    sectionTitle: 'Ilmainen Työarkki Lapsille Luoda - Työarkki Esiopetukseen',
     sectionDescription: 'Visuaalisten matematiikkatehtävien luonti on nopeaa ja yksinkertaista. Koko prosessi alusta loppuun kestää alle kolme minuuttia. Ei tarvitse graafisen suunnittelun taitoja. Ei monimutkaisia ohjelmia. Vain viisi helppoa vaihetta ammattimaisilta näyttäviin matematiikkatehtäviin.',
     ctaText: 'Aloita Luominen Nyt',
     badgeText: 'Näin Se Toimii',
@@ -272,7 +272,7 @@ Tulosta tehtävät kotona tavallisella tulostimella. Valitse harmaasävy sääst
 
   // Use Cases - FULL text from Finnish math-worksheet.md use case sections
   useCases: {
-    sectionTitle: 'Täydellinen Opettajille, Vanhemmille ja Kasvattajille',
+    sectionTitle: 'Ilmainen Työarkki Lapsille - Työarkki Esiopetukseen ja Ilmaiset Tulosteet. Työarkki Lapsille',
     sectionDescription: 'Visuaalinen matematiikkatehtävien generaattori palvelee monia eri käyttäjäryhmiä. Jokainen ryhmä hyötyy työkalun joustavuudesta ja helppokäyttöisyydestä. Opettajat säästävät tunteja valmistelua viikossa. Vanhemmat löytävät laadukasta oppimateriaalia kotiin. Kasvattajat luovat ammattimaisilta näyttäviä tehtäviä ilman graafisen suunnittelun taitoja.',
     badgeText: 'Kenelle Sopii',
     readMoreLabel: 'Lue lisää',
@@ -367,7 +367,7 @@ Kilpailijat maksavat 79-199 dollaria vuodessa pelkästään kaupallisesta lisens
 
   // FAQ Section - Selected FAQs from Finnish math-worksheet.md
   faq: {
-    sectionTitle: 'Usein Kysytyt Kysymykset Matematiikka Tehtävät Alakoulu',
+    sectionTitle: 'FAQ - Ilmainen Työarkki Lapsille ja Työarkki Esiopetukseen. Työarkki Lapsille',
     sectionDescription: 'Yleisimmät kysymykset visuaalisesta matematiikkatehtävägeneraattorista ja tulostettavista tehtävistä.',
     showMoreText: 'Näytä lisää kysymyksiä',
     showLessText: 'Näytä vähemmän',
@@ -472,7 +472,7 @@ Kilpailijat maksavat 79-199 dollaria vuodessa pelkästään kaupallisesta lisens
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Yhdistä Muihin Työarkki Generaattoreihin',
+    sectionTitle: 'Ilmaiset Työarkit Yhdistää - Työarkki Lapsille ja Ilmaiset Tulosteet',
     sectionDescription: 'Luo kattavia oppimispaketteja yhdistämällä visuaaliset matematiikka työarkit näihin täydentäviin generaattoreihin.',
     ctaTitle: 'Valmiina Luomaan Upeita Työarkkeja?',
     ctaDescription: 'Liity tuhansien opettajien joukkoon, jotka luovat ammattimaisia työarkkeja. Rajoittamaton generointi, kaupallinen lisenssi sisältyy.',

@@ -83,8 +83,8 @@ Kryptogram opgaver fungerer som hemmelige koder hvor hvert bogstav erstattes af 
 
   // Sample Gallery - REAL file paths from samples/danish/cryptogram/
   samples: {
-    sectionTitle: 'Gratis Arbejdsark Eksempler - Kryptogram til Børn',
-    sectionDescription: 'Download gratis eksempler på kryptogram arbejdsark for at se vores professionelle kvalitet',
+    sectionTitle: 'Gratis Arbejdsark til Børn - Gratis Arbejdsark og Gratis Printables',
+    sectionDescription: 'Download gratis printables - Gratis arbejdsark til børn af professionel kvalitet. Gratis arbejdsark og arbejdsark til børn perfekt til arbejdsark til børnehaveklasse. Gratis arbejdsark til børn og arbejdsark til børn inkluderer undervisningsmateriale. Gratis arbejdsark tilgængeligt',
     badgeText: 'Gratis Eksempler',
     downloadLabel: 'Download Gratis Eksempel',
     downloadingLabel: 'Downloader...',
@@ -135,7 +135,7 @@ Kryptogram opgaver fungerer som hemmelige koder hvor hvert bogstav erstattes af 
 
   // Features Grid - FULL text from cryptogram.md feature sections
   features: {
-    sectionTitle: 'Funktioner i Kryptogram Generator - Gratis Arbejdsark til Børnehaveklasse',
+    sectionTitle: 'Gratis Arbejdsark og Arbejdsark til Børn - Gratis Printables og Arbejdsark til Børnehaveklasse',
     sectionDescription: 'Kryptogram generatoren tilbyder alle vigtige funktioner til gratis skoleopgaver. Lav professionelle arbejdsark og opgaver til print på få minutter. Hver funktion er udviklet til lærere og pædagoger. Perfekt til børnehaveklassen og indskolingen.',
     highlightBadgeText: 'Vigtig Funktion',
     readMoreLabel: 'Læs mere',
@@ -301,7 +301,7 @@ Download både opgaveark og facitark separat. Opgavearket viser det kodede krypt
 
   // Use Cases - FULL text from cryptogram.md use case sections
   useCases: {
-    sectionTitle: 'Perfekt til Pædagoger og Forældre - Gratis Arbejdsark til Børnehaveklasse',
+    sectionTitle: 'Gratis Arbejdsark til Børn - Arbejdsark til Børnehaveklasse med Gratis Printables. Arbejdsark til Børn',
     sectionDescription: 'Kryptogram generatoren imødekommer forskellige undervisningsbehov på tværs af aldersgrupper og læringsmiljøer. Fra børnehaveklassen til 3. klasse hjælper kryptogram opgaver børn med at lære bogstaver og øve stavning gennem engagerende puslespil.',
     badgeText: 'Hvem Er Det Til',
     readMoreLabel: 'Læs mere',
@@ -384,7 +384,7 @@ Sæsonbestemte kryptogrampakker sælger særligt godt. Julekryptogrammer i novem
 
   // FAQ Section - Selected FAQs from cryptogram.md
   faq: {
-    sectionTitle: 'Ofte Stillede Spørgsmål om Gratis Arbejdsark til Børn',
+    sectionTitle: 'FAQ - Gratis Arbejdsark til Børn og Arbejdsark til Børnehaveklasse. Arbejdsark til Børn',
     sectionDescription: 'Her er svar på de mest almindelige spørgsmål om kryptogram generatoren. Lær om gratis muligheder, abonnementer og hvordan du bruger opgaver til print i din undervisning.',
     showMoreText: 'Vis flere spørgsmål',
     showLessText: 'Vis færre',

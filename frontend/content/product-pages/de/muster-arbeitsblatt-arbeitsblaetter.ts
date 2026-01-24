@@ -97,8 +97,8 @@ Mustererkennung ist eine Schlüsselkompetenz im frühen Mathematikunterricht. Ki
 
   // Sample Gallery - REAL file paths from samples/german/pattern/
   samples: {
-    sectionTitle: 'Muster-Arbeitsblätter Beispiele',
-    sectionDescription: 'Laden Sie kostenlose Beispiel-Arbeitsblätter herunter, um unsere professionelle Qualität zu sehen',
+    sectionTitle: 'Kostenloses Arbeitsblatt für Kinder - Kostenlose Arbeitsblätter und Kostenlose Druckvorlagen',
+    sectionDescription: 'Laden Sie kostenlose Druckvorlagen herunter - Kostenloses Arbeitsblatt für Kinder in professioneller Qualität für Arbeitsblatt für Vorschule',
     downloadLabel: 'Kostenloses Beispiel Herunterladen',
     worksheetLabel: 'Arbeitsblatt',
     answerKeyLabel: 'Lösungsblatt',
@@ -149,7 +149,7 @@ Mustererkennung ist eine Schlüsselkompetenz im frühen Mathematikunterricht. Ki
 
   // Features Grid - FULL text from muster-arbeitsblatt.md feature sections
   features: {
-    sectionTitle: 'Funktionen des Muster-Arbeitsblatt Generators - Kostenlose Arbeitsblätter für Mathe Arbeitsblätter und Vorschule Arbeitsblätter',
+    sectionTitle: 'Arbeitsblatt für Kinder - Arbeitsblatt für Vorschule und Kostenlose Arbeitsblätter',
     sectionDescription: 'Der Muster-Arbeitsblatt Generator bietet alle Werkzeuge für professionelle Lernmaterialien. Jede Funktion wurde für Pädagogen und Eltern entwickelt. Die Bedienung ist intuitiv und erfordert keine technischen Vorkenntnisse. In unter drei Minuten erstellen Sie druckfertige Arbeitsblätter.',
     highlightBadgeText: 'Hauptfunktion',
     readMoreLabel: 'Mehr lesen',
@@ -256,7 +256,7 @@ Lehrkräfte nutzen den Lösungsschlüssel für schnelle Korrektur. Schüler kön
 
   // How-To Guide - FULL text from muster-arbeitsblatt.md
   howTo: {
-    sectionTitle: 'Anleitung: Kostenlose Arbeitsblätter erstellen in 5 Schritten - Mathe Arbeitsblätter und Vorschule Arbeitsblätter',
+    sectionTitle: 'Kostenloses Arbeitsblatt für Kinder erstellen - Arbeitsblatt für Vorschule',
     sectionDescription: 'In weniger als drei Minuten erstellen Sie professionelle Muster-Arbeitsblätter. Diese Anleitung führt Sie durch jeden Schritt des Prozesses. Keine technischen Vorkenntnisse sind erforderlich. Folgen Sie einfach den fünf Schritten für perfekte Ergebnisse.',
     ctaText: 'Jetzt Erstellen',
     badgeText: 'So Funktioniert Es',
@@ -338,7 +338,7 @@ Drucken Sie die Arbeitsblätter auf normalem Kopierpapier. Die 300 DPI Qualität
 
   // Use Cases Section - FULL text from muster-arbeitsblatt.md
   useCases: {
-    sectionTitle: 'Für wen eignet sich der Generator - Kostenlose Arbeitsblätter für Vorschule Arbeitsblätter und Arbeitsblätter Grundschule',
+    sectionTitle: 'Kostenloses Arbeitsblatt für Kinder - Arbeitsblatt für Vorschule mit Kostenlose Druckvorlagen',
     sectionDescription: 'Der Muster-Arbeitsblatt Generator wurde für verschiedene pädagogische Kontexte entwickelt. Von der Vorschule bis zur dritten Klasse finden Pädagogen passende Einsatzmöglichkeiten. Auch Eltern und Therapeuten profitieren von diesem Werkzeug. Entdecken Sie, wie unterschiedliche Nutzergruppen den Generator einsetzen.',
     badgeText: 'Anwendungsbereiche',
     readMoreLabel: 'Mehr lesen',
@@ -433,7 +433,7 @@ Für die Förderung mathematischer Grundlagen eignen sich einfache Muster besond
 
   // FAQ Section - FULL text from muster-arbeitsblatt.md
   faq: {
-    sectionTitle: 'Häufig gestellte Fragen zu Muster-Arbeitsblättern - Mathe Arbeitsblätter und Arbeitsblätter Grundschule FAQ',
+    sectionTitle: 'FAQ - Kostenloses Arbeitsblatt für Kinder und Arbeitsblatt für Vorschule',
     sectionDescription: 'Hier finden Sie Antworten auf die häufigsten Fragen zum Muster-Arbeitsblatt Generator. Von Kosten über Funktionen bis zu pädagogischen Einsatzmöglichkeiten. Diese Informationen helfen bei Ihrer Entscheidung für professionelle Lernmaterialien.',
     showMoreText: 'Mehr Fragen anzeigen',
     showLessText: 'Weniger anzeigen',
@@ -518,7 +518,7 @@ Für die Einmaleins Vorbereitung empfehlen wir vier bis sechs Übungen pro Blatt
 
   // Related Apps Section - FULL text from muster-arbeitsblatt.md
   relatedApps: {
-    sectionTitle: 'Kombinieren Sie mit anderen Generatoren - Schwungübungen und Deutsch Arbeitsblätter für komplette Lerneinheiten',
+    sectionTitle: 'Kostenlose Arbeitsblätter kombinieren - Arbeitsblatt für Kinder und Kostenlose Druckvorlagen',
     sectionDescription: 'Das Vollzugriff Abo enthält 33 verschiedene Arbeitsblatt-Generatoren für alle Lernbereiche. Kombinieren Sie den Muster-Generator mit ergänzenden Werkzeugen für ganzheitliche Förderung. Thematisch abgestimmte Materialien verstärken den Lerneffekt nachhaltig. Entdecken Sie die besten Kombinationen für Ihren Unterricht.',
     ctaTitle: 'Bereit für professionelle Muster-Arbeitsblätter?',
     ctaDescription: 'Schließen Sie sich tausenden Pädagogen an, die professionelle Arbeitsblätter in Minuten erstellen.',

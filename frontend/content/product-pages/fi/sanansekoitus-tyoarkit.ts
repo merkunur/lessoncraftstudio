@@ -53,8 +53,8 @@ Opettajat käyttävät tätä työkalua kirjainharjoitteluun esikoulussa. Vanhem
 
   // Sample Gallery - REAL file paths from samples/english/word scramble/
   samples: {
-    sectionTitle: 'Sanansekoitus-tehtävät Esimerkit',
-    sectionDescription: 'Lataa ilmaiset esimerkkityöarkit nähdäksesi ammattimaisen laatumme',
+    sectionTitle: 'Ilmainen Työarkki Lapsille - Ilmaiset Työarkit ja Ilmaiset Tulosteet',
+    sectionDescription: 'Lataa ilmaiset tulosteet - Ilmainen työarkki lapsille ammattimaista laatua. Ilmaiset työarkit ja työarkki lapsille täydellinen työarkki esiopetukseen. Ilmainen työarkki lapsille ja työarkki lapsille sisältää ilmaiset tulosteet ja ilmaiset työarkit opetusmateriaalin. Ilmainen työarkki ja työarkki esiopetukseen saatavilla',
     downloadLabel: 'Lataa Ilmainen Esimerkki',
     worksheetLabel: 'Työarkki',
     answerKeyLabel: 'Vastausavain',
@@ -91,7 +91,7 @@ Opettajat käyttävät tätä työkalua kirjainharjoitteluun esikoulussa. Vanhem
 
   // Features Grid - FULL text from Finnish word-scramble.md feature sections
   features: {
-    sectionTitle: 'Sanansekoitus-generaattorin Ominaisuudet - Tulostettavat Tehtävät Lapsille Ilmainen ja Esiopetus Materiaali',
+    sectionTitle: 'Ilmaiset Työarkit ja Työarkki Lapsille - Ilmaiset Tulosteet ja Työarkki Esiopetukseen',
     sectionDescription: 'Sanansekoitus-generaattorimme tarjoaa kaikki työkalut joita tarvitset ammattimaisten tehtävien luomiseen. Peruspaketti-tilauksesi sisältää kaikki nämä ominaisuudet ilman lisämaksuja. Luo rajattomasti tulostettavia tehtäviä lapsille ilmainen -formaatissa. Jokainen ominaisuus on suunniteltu säästämään aikaa ja parantamaan oppimistuloksia.',
     highlightBadgeText: 'Tärkeä Ominaisuus',
     readMoreLabel: 'Lue lisää',
@@ -212,7 +212,7 @@ Vastausavaimet säästävät valtavasti opettajan aikaa. Ei manuaalista vastaust
 
   // How-To Guide - FULL text from Finnish word-scramble.md step sections
   howTo: {
-    sectionTitle: 'Kuinka Luoda Tulostettavat Tehtävät Lapsille Ilmainen Viidessä Helpossa Vaiheessa',
+    sectionTitle: 'Ilmainen Työarkki Lapsille Luoda - Työarkki Esiopetukseen',
     sectionDescription: 'Luo ammattimaisia sanansekoitustehtäviä alle kolmessa minuutissa. Nämä viisi yksinkertaista vaihetta johdattavat sinut valmiiseen tehtävään. Ei tarvitse suunnitteluosaamista tai teknistä tietämystä. Seuraa näitä ohjeita ja sinulla on tulostettavat tehtävät lapsille ilmainen käytettävissä välittömästi.',
     ctaText: 'Aloita Luominen Nyt',
     badgeText: 'Näin Se Toimii',
@@ -294,7 +294,7 @@ Tulosta tehtävät välittömästi tavallisella toimistotulostimella. 300 DPI -l
 
   // Use Cases - FULL text from Finnish word-scramble.md use case sections
   useCases: {
-    sectionTitle: 'Täydellinen Opettajille, Vanhemmille ja Kasvattajille',
+    sectionTitle: 'Ilmainen Työarkki Lapsille - Työarkki Esiopetukseen ja Ilmaiset Tulosteet. Työarkki Lapsille',
     sectionDescription: 'Sanansekoitus-generaattori palvelee monia erilaisia käyttäjiä suomalaisessa koulutusjärjestelmässä. Esiopettajista alakoulun opettajiin ja kotiopettavista vanhemmista erityisopettajiin. Jokainen käyttäjäryhmä hyötyy ainutlaatuisilla tavoilla. Tulostettavat tehtävät lapsille ilmainen -muodossa sopivat kaikkiin tilanteisiin.',
     badgeText: 'Kenelle Sopii',
     readMoreLabel: 'Lue lisää',
@@ -389,7 +389,7 @@ Yhdistä sanansekoitukset muihin tehtävätyyppeihin paketeissa. Värityskuvia l
 
   // FAQ Section - Selected FAQs from Finnish word-scramble.md
   faq: {
-    sectionTitle: 'Usein Kysytyt Kysymykset',
+    sectionTitle: 'FAQ - Ilmainen Työarkki Lapsille ja Työarkki Esiopetukseen. Työarkki Lapsille',
     sectionDescription: 'Yleisimmät kysymykset sanansekoitus-generaattorista ja tehtävien luomisesta.',
     showMoreText: 'Näytä lisää kysymyksiä',
     showLessText: 'Näytä vähemmän',
@@ -494,7 +494,7 @@ Yhdistä sanansekoitukset muihin tehtävätyyppeihin paketeissa. Värityskuvia l
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Yhdistä Muihin Tehtävä Generaattoreihin',
+    sectionTitle: 'Ilmaiset Työarkit Yhdistää - Työarkki Lapsille ja Ilmaiset Tulosteet',
     sectionDescription: 'Luo kattavia oppimispaketteja yhdistämällä sanansekoitustehtävät näihin täydentäviin generaattoreihin.',
     ctaTitle: 'Valmiina Luomaan Upeita Tehtäviä?',
     ctaDescription: 'Liity tuhansien opettajien joukkoon, jotka luovat ammattimaisia tehtäviä. Rajoittamaton generointi, kaupallinen lisenssi sisältyy.',

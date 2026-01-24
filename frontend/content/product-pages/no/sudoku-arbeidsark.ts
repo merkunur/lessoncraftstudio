@@ -77,8 +77,8 @@ Velg mellom tre vanskelighetsgrader tilpasset ulike alderstrinn. Lett nivå har 
 
   // Sample Gallery - REAL file paths from samples/english/sudoku/
   samples: {
-    sectionTitle: 'Gratis Arbeidsark Eksempler - Sudoku for Barn og 1. Trinn',
-    sectionDescription: 'Last ned gratis utskrifter av sudoku-oppgaver. Gratis arbeidsark for barn i barnehage og 1. trinn med profesjonell kvalitet.',
+    sectionTitle: 'Gratis Arbeidsark for Barn - Gratis Arbeidsark og Gratis Utskrifter',
+    sectionDescription: 'Last ned gratis utskrifter - Gratis arbeidsark for barn av profesjonell kvalitet. Gratis arbeidsark og arbeidsark for barn perfekt for arbeidsark for 1. trinn. Gratis arbeidsark for barn og arbeidsark for barn inkluderer gratis utskrifter undervisningsmateriell. Gratis arbeidsark og arbeidsark for 1. trinn tilgjengelig',
     badgeText: 'Gratis Eksempler',
     downloadLabel: 'Last ned Gratis Eksempel',
     downloadingLabel: 'Laster ned...',
@@ -122,7 +122,7 @@ Velg mellom tre vanskelighetsgrader tilpasset ulike alderstrinn. Lett nivå har 
 
   // Features Grid - FULL text from sudoku.md feature sections
   features: {
-    sectionTitle: 'Funksjoner for Sudoku Arbeidsark - Alt du Trenger for Matematikk Oppgaver',
+    sectionTitle: 'Gratis Arbeidsark og Arbeidsark for Barn - Gratis Utskrifter og Arbeidsark for 1. Trinn',
     sectionDescription: 'Vår sudoku-generator gir lærere kraftige verktøy for å lage tilpassede oppgaver. Grunnpakke-abonnementet inkluderer alle funksjoner uten ekstra kostnader. Lag profesjonelle sudoku arbeidsark gratis med ubegrensede tilpasningsmuligheter. Hver funksjon er designet for å spare lærere tid samtidig som den leverer høykvalitets matematikkoppgaver for barn.',
     highlightBadgeText: 'Viktig Funksjon',
     readMoreLabel: 'Les mer',
@@ -216,7 +216,7 @@ PDF-format bevarer kvalitet ved skalering. Skriv ut på Letter, A4, eller tilpas
 
   // How-To Guide - FULL text from sudoku.md step sections
   howTo: {
-    sectionTitle: 'Slik Lager Du Arbeidsark Gratis i 5 Enkle Trinn - Matematikk Oppgaver på Minutter',
+    sectionTitle: 'Gratis Arbeidsark for Barn Lage - Arbeidsark for 1. Trinn',
     sectionDescription: 'Lag profesjonelle sudoku-oppgaver på under 3 minutter totalt. Hele prosessen fra oppstart til ferdig nedlastning er strømlinjeformet for lærere med travel tidsplan. Ingen designferdigheter kreves. Ingen komplisert programvare å lære. Bare fem enkle trinn fra tom skjerm til utskriftsklar PDF.',
     ctaText: 'Start Nå',
     badgeText: 'Slik Fungerer Det',
@@ -288,7 +288,7 @@ Alle nedlastinger er 300 DPI profesjonell kvalitet. Utskrifter ser knivskarpe ut
 
   // Use Cases - FULL text from sudoku.md use case sections
   useCases: {
-    sectionTitle: 'Perfekt for Lærere, Foreldre og Pedagoger - Matematikk Oppgaver for Alle Behov',
+    sectionTitle: 'Gratis Arbeidsark for Barn - Arbeidsark for 1. Trinn med Gratis Utskrifter. Arbeidsark for Barn',
     sectionDescription: 'Sudoku-generatoren betjener ulike brukergrupper på tvers av utdanningssektoren. Barnehage-lærere bruker visuelle sudoku for å introdusere tidlig logikk. Småskoletrinns-lærere integrerer sudoku i matematikkundervisningen. Hjemmeundervisning-foreldre lager tilpassede oppgavehefter barn for flerbarns-læring. Hver brukergruppe finner unike måter å anvende verktøyet på.',
     badgeText: 'Hvem Er Det For',
     readMoreLabel: 'Les mer',
@@ -371,7 +371,7 @@ Markedsføringsdifferensiering skjer gjennom nisjeinnretting. Lag sudoku-pakker 
 
   // FAQ Section - From sudoku.md
   faq: {
-    sectionTitle: 'Ofte Stilte Spørsmål om Sudoku Oppgavehefter Barn og Fargeleggingsbilder Barn',
+    sectionTitle: 'FAQ - Gratis Arbeidsark for Barn og Arbeidsark for 1. Trinn. Arbeidsark for Barn',
     sectionDescription: 'Lærere og foreldre stiller ofte spesifikke spørsmål om sudoku-generatoren. Denne delen svarer på de 12 mest stilte spørsmålene. Hvert svar gir detaljert informasjon basert på faktisk funksjonalitet. Les gjennom for å forstå hva Grunnpakke tilbyr.',
     showMoreText: 'Vis flere spørsmål',
     showLessText: 'Vis færre',

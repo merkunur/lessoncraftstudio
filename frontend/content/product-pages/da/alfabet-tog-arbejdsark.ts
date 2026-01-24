@@ -85,8 +85,8 @@ Hver alfabetopgave har en farverig togskabelon med elleve vogne. Eleverne matche
 
   // Sample Gallery
   samples: {
-    sectionTitle: 'Alfabetopgaver Eksempler - Gratis Arbejdsark til Børn og Børnehaveklasse',
-    sectionDescription: 'Download gratis eksempler på arbejdsark for at se vores professionelle kvalitet',
+    sectionTitle: 'Gratis Arbejdsark til Børn - Gratis Arbejdsark og Gratis Printables',
+    sectionDescription: 'Download gratis printables - Gratis arbejdsark til børn af professionel kvalitet. Gratis arbejdsark og arbejdsark til børn perfekt til arbejdsark til børnehaveklasse. Gratis arbejdsark til børn og arbejdsark til børn inkluderer undervisningsmateriale. Gratis arbejdsark tilgængeligt',
     badgeText: 'Gratis Eksempler',
     downloadLabel: 'Download Gratis Eksempel',
     downloadingLabel: 'Downloader...',
@@ -137,7 +137,7 @@ Hver alfabetopgave har en farverig togskabelon med elleve vogne. Eleverne matche
 
   // Features Grid
   features: {
-    sectionTitle: 'Alfabettog Funktioner – Gratis Arbejdsark til Print for Børnehaveklasse',
+    sectionTitle: 'Gratis Arbejdsark og Arbejdsark til Børn - Gratis Printables og Arbejdsark til Børnehaveklasse',
     sectionDescription: 'Vores alfabettog-generator inkluderer kraftfulde funktioner designet specifikt til tidlig læsning og skrivning. Lav professionelle alfabetopgaver hurtigere end traditionelle metoder. Lærere sparer tredive til tres minutter per arbejdsark sammenlignet med manuel fremstilling. Hver funktion fokuserer på at gøre alfabetopgaver nemme at tilpasse og smukke at printe.',
     highlightBadgeText: 'Vigtig Funktion',
     readMoreLabel: 'Læs mere',
@@ -231,7 +231,7 @@ Generer både arbejdsark og svarark versioner af hver alfabetopgave automatisk. 
 
   // How-To Guide
   howTo: {
-    sectionTitle: 'Sådan Laver Du Gratis Arbejdsark i Fem Nemme Trin',
+    sectionTitle: 'Gratis Arbejdsark til Børn Oprette - Arbejdsark til Børnehaveklasse',
     sectionDescription: 'Opret professionelle alfabetopgaver fra start til download på under tre minutter. Følg disse fem enkle trin for at lave arbejdsark til print der matcher dine elevers behov. Ingen designerfærdigheder kræves for at skabe smukke gratis skoleopgaver.',
     ctaText: 'Start Nu',
     badgeText: 'Sådan Virker Det',
@@ -303,7 +303,7 @@ Aktiver gråskala-afkrydsningsfeltet før download for at spare printerblæk på
 
   // Use Cases
   useCases: {
-    sectionTitle: 'Perfekt til Lærere og Forældre - Gratis Arbejdsark til Børn',
+    sectionTitle: 'Gratis Arbejdsark til Børn - Arbejdsark til Børnehaveklasse med Gratis Printables. Arbejdsark til Børn',
     sectionDescription: 'Vores alfabetopgave-generator tjener forskellige undervisningssituationer og brugertyper. Børnehaveklasse-lærere bruger det til daglig bogstavgenkendelses-praksis. Indskolingslærere laver differentierede arbejdsark til print til 1. klasse opgaver. Hjemmeundervisende forældre skaber personlige læseplaner med tematiske alfabetopgaver.',
     badgeText: 'Hvem Er Det Til',
     readMoreLabel: 'Læs mere',
@@ -386,7 +386,7 @@ Niche ned i specifikke sprog-markeeder for mindre konkurrence. Danske alfabetopg
 
   // FAQ Section
   faq: {
-    sectionTitle: 'Ofte Stillede Spørgsmål om Gratis Arbejdsark til Børnehaveklasse',
+    sectionTitle: 'FAQ - Gratis Arbejdsark til Børn og Arbejdsark til Børnehaveklasse. Arbejdsark til Børn',
     sectionDescription: 'Her er svar på de mest almindelige spørgsmål om alfabetopgave-generatoren. Lær om muligheder, abonnementer og hvordan du bruger opgaver til print i din undervisning.',
     showMoreText: 'Vis flere spørgsmål',
     showLessText: 'Vis færre',
@@ -491,7 +491,7 @@ Niche ned i specifikke sprog-markeeder for mindre konkurrence. Danske alfabetopg
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Kombiner med Andre Gratis Arbejdsark Generatorer',
+    sectionTitle: 'Gratis Arbejdsark Kombinere - Arbejdsark til Børn og Gratis Printables',
     sectionDescription: 'Lav komplette læringspakker ved at kombinere alfabetopgaver med disse komplementære generatorer.',
     ctaTitle: 'Klar til at Lave Fantastiske Arbejdsark?',
     ctaDescription: 'Tilslut dig tusindvis af pædagoger der laver professionelle arbejdsark. Ubegrænset oprettelse, kommerciel licens inkluderet.',

@@ -97,8 +97,8 @@ Dieses Lernwerkzeug verbindet Mustererkennung mit praktischem Basteln. Die ferti
 
   // Sample Gallery - REAL file paths from samples/german/pattern-train/
   samples: {
-    sectionTitle: 'Muster-Zug Arbeitsblätter Beispiele',
-    sectionDescription: 'Laden Sie kostenlose Beispiel-Arbeitsblätter herunter, um unsere professionelle Qualität zu sehen',
+    sectionTitle: 'Kostenloses Arbeitsblatt für Kinder - Kostenlose Arbeitsblätter und Kostenlose Druckvorlagen',
+    sectionDescription: 'Laden Sie kostenlose Druckvorlagen herunter - Kostenloses Arbeitsblatt für Kinder in professioneller Qualität für Arbeitsblatt für Vorschule',
     downloadLabel: 'Kostenloses Beispiel Herunterladen',
     worksheetLabel: 'Arbeitsblatt',
     answerKeyLabel: 'Lösungsblatt',
@@ -149,7 +149,7 @@ Dieses Lernwerkzeug verbindet Mustererkennung mit praktischem Basteln. Die ferti
 
   // Features Grid - FULL text from muster-zug.md feature sections
   features: {
-    sectionTitle: 'Funktionen des Muster-Zug Generators - Kostenlose Arbeitsblätter für Arbeitsblätter Grundschule und Vorschule Arbeitsblätter',
+    sectionTitle: 'Arbeitsblatt für Kinder - Arbeitsblatt für Vorschule und Kostenlose Arbeitsblätter',
     sectionDescription: 'Der Muster-Zug Generator bietet alle Werkzeuge für professionelle Arbeitsblätter. Jede Funktion wurde für Pädagogen und Eltern entwickelt. Die Bedienung ist einfach und intuitiv. Innerhalb von drei Minuten erstellen Sie druckfertige Materialien.',
     highlightBadgeText: 'Hauptfunktion',
     readMoreLabel: 'Mehr lesen',
@@ -256,7 +256,7 @@ Malvorlagen aus der Bildbibliothek ergänzen die Muster-Übungen. Erstellen Sie 
 
   // How-To Guide - FULL text from muster-zug.md
   howTo: {
-    sectionTitle: 'Anleitung: Kostenlose Arbeitsblätter erstellen in 5 Schritten - Vorschule Arbeitsblätter und Arbeitsblätter Grundschule',
+    sectionTitle: 'Kostenloses Arbeitsblatt für Kinder erstellen - Arbeitsblatt für Vorschule',
     sectionDescription: 'In weniger als drei Minuten erstellen Sie professionelle Muster-Arbeitsblätter. Diese Anleitung führt Sie durch jeden Schritt. Keine technischen Vorkenntnisse erforderlich. Folgen Sie einfach den fünf Schritten für perfekte Ergebnisse.',
     ctaText: 'Jetzt Erstellen',
     badgeText: 'So Funktioniert Es',
@@ -336,7 +336,7 @@ Drucken Sie die Arbeitsblätter auf normalem Papier. Dickeres Papier eignet sich
 
   // Use Cases Section - FULL text from muster-zug.md
   useCases: {
-    sectionTitle: 'Für wen eignet sich der Muster-Zug - Kostenlose Arbeitsblätter für Vorschule Arbeitsblätter und Arbeitsblätter Grundschule',
+    sectionTitle: 'Kostenloses Arbeitsblatt für Kinder - Arbeitsblatt für Vorschule mit Kostenlose Druckvorlagen',
     sectionDescription: 'Der Muster-Zug Generator wurde für verschiedene pädagogische Kontexte entwickelt. Von der Vorschule bis zur dritten Klasse finden Pädagogen passende Einsatzmöglichkeiten. Auch Eltern und Therapeuten profitieren von diesem Werkzeug. Entdecken Sie, wie unterschiedliche Nutzergruppen den Generator einsetzen.',
     badgeText: 'Anwendungsbereiche',
     readMoreLabel: 'Mehr lesen',
@@ -419,7 +419,7 @@ Kombinieren Sie Muster-Arbeitsblätter mit Ausmalbilder für Lernpakete. Themati
 
   // FAQ Section - FULL text from muster-zug.md
   faq: {
-    sectionTitle: 'Häufig gestellte Fragen zu Muster-Arbeitsblättern und Einmaleins Vorbereitung - Mathe Arbeitsblätter FAQ',
+    sectionTitle: 'FAQ - Kostenloses Arbeitsblatt für Kinder und Arbeitsblatt für Vorschule',
     sectionDescription: 'Hier finden Sie Antworten auf die häufigsten Fragen zum Muster-Zug Generator. Von Kosten über Funktionen bis zu pädagogischen Einsatzmöglichkeiten. Diese Informationen helfen bei Ihrer Entscheidung für professionelle Arbeitsblätter.',
     showMoreText: 'Mehr Fragen anzeigen',
     showLessText: 'Weniger anzeigen',
@@ -560,7 +560,7 @@ Smartphones eignen sich weniger für die Erstellung komplexer Arbeitsblätter. D
 
   // Related Apps Section - FULL text from muster-zug.md
   relatedApps: {
-    sectionTitle: 'Muster-Zug kombinieren mit anderen Generatoren - Schwungübungen und Buchstaben lernen Pakete',
+    sectionTitle: 'Kostenlose Arbeitsblätter kombinieren - Arbeitsblatt für Kinder und Kostenlose Druckvorlagen',
     sectionDescription: 'Das Vollzugriff Abo enthält 33 verschiedene Arbeitsblatt-Generatoren. Kombinieren Sie den Muster-Zug mit anderen Werkzeugen für umfassende Lernpakete. Thematisch abgestimmte Materialien verstärken den Lerneffekt. Entdecken Sie die besten Kombinationen für Ihren Unterricht.',
     ctaTitle: 'Bereit für professionelle Muster-Zug Arbeitsblätter?',
     ctaDescription: 'Schließen Sie sich tausenden Pädagogen an, die professionelle Arbeitsblätter in Minuten erstellen.',

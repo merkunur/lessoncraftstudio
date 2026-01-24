@@ -87,8 +87,8 @@ De schrijfoefeningen generator bespaart leerkrachten uren voorbereidingstijd. Ma
 
   // Sample Gallery - REAL file paths from samples/dutch/writing/
   samples: {
-    sectionTitle: 'Gratis Werkbladen Schrijfoefeningen - Gratis Printables Voorbeelden',
-    sectionDescription: 'Download gratis voorbeeldwerkbladen om onze professionele kwaliteit te ervaren',
+    sectionTitle: 'Gratis Werkblad voor Kinderen - Gratis Werkbladen en Gratis Printables',
+    sectionDescription: 'Download gratis printables - Gratis werkblad voor kinderen van professionele kwaliteit. Gratis werkbladen en werkblad voor kinderen perfect voor werkblad voor kleuters. Gratis werkblad voor kinderen en werkblad voor kinderen inclusief educatief materiaal. Gratis werkblad beschikbaar',
     downloadLabel: 'Gratis Voorbeeld Downloaden',
     worksheetLabel: 'Werkblad',
     answerKeyLabel: 'Antwoordblad',
@@ -125,7 +125,7 @@ De schrijfoefeningen generator bespaart leerkrachten uren voorbereidingstijd. Ma
 
   // Features Grid - FULL text from writing.md feature sections
   features: {
-    sectionTitle: 'Gratis Werkblad Functies - Alles wat u Nodig Hebt voor Letters Leren en Werkblad voor Kleuters',
+    sectionTitle: 'Gratis Werkbladen en Werkblad voor Kinderen - Gratis Printables en Werkblad voor Kleuters',
     sectionDescription: 'Onze schrijfwerkbladen generator biedt complete functies voor professionele oefenbladen. Van letters leren tot fijne motoriek ontwikkeling. Elke functie is ontworpen om tijd te besparen en kwaliteit te garanderen. Leerkrachten in groep 1 2 en groep 3 maken dagelijks gebruik van deze schrijfoefeningen maker.',
     highlightBadgeText: 'Uitgelicht',
     readMoreLabel: 'Lees meer',

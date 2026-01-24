@@ -97,8 +97,8 @@ Kies puzzelroosters van 2×2 tot 4×4. Selecteer optellen subtractie of beide be
 
   // Sample Gallery - REAL file paths from samples/dutch/math-puzzle/
   samples: {
-    sectionTitle: 'Rekenpuzzels Voorbeelden',
-    sectionDescription: 'Download gratis voorbeeldwerkbladen om onze professionele kwaliteit te ervaren',
+    sectionTitle: 'Gratis Werkblad voor Kinderen - Gratis Werkbladen en Gratis Printables',
+    sectionDescription: 'Download gratis printables - Gratis werkblad voor kinderen van professionele kwaliteit. Gratis werkbladen en werkblad voor kinderen perfect voor werkblad voor kleuters. Gratis werkblad voor kinderen en werkblad voor kinderen inclusief educatief materiaal. Gratis werkblad beschikbaar',
     downloadLabel: 'Gratis Voorbeeld Downloaden',
     worksheetLabel: 'Werkblad',
     answerKeyLabel: 'Antwoordblad',
@@ -149,7 +149,7 @@ Kies puzzelroosters van 2×2 tot 4×4. Selecteer optellen subtractie of beide be
 
   // Features Grid - FULL text from math-puzzle.md feature sections
   features: {
-    sectionTitle: 'Rekenpuzzels Generator Functies - Alles voor Werkbladen Groep 3 en Rekenen Werkbladen',
+    sectionTitle: 'Gratis Werkbladen en Werkblad voor Kinderen - Gratis Printables en Werkblad voor Kleuters',
     sectionDescription: 'Onze math puzzle generator biedt complete functionaliteit voor leerkrachten. Maak rekenen werkbladen voor groep 1 2 en groep 3. Elk oefenblad te maken zonder extra kosten. Volledige Toegang abonnement geeft toegang tot alle functies. Download onbeperkt werkbladen kleuters en rekenpuzzels voor sommen tot 20.',
     highlightBadgeText: 'Uitgelicht',
     readMoreLabel: 'Lees meer',
@@ -243,7 +243,7 @@ Automatische antwoordsleutels genereren. Download werkblad en antwoordsleutel ap
 
   // How-To Guide - FULL text from math-puzzle.md step sections
   howTo: {
-    sectionTitle: 'Hoe Maak Je Rekenpuzzels Werkbladen Groep 3 in 5 Eenvoudige Stappen - Oefenbladen',
+    sectionTitle: 'Gratis Werkblad voor Kinderen Maken - Werkblad voor Kleuters',
     sectionDescription: 'Maak professionele rekenen werkbladen in minder dan 3 minuten. Geen ontwerpervaring nodig voor werkbladen kleuters. Volg deze 5 simpele stappen voor perfecte oefenbladen. Elke stap duurt minder dan 1 minuut. Complete rekenpuzzels voor sommen tot 20 klaar om te printen.',
     ctaText: 'Nu Starten',
     badgeText: 'Zo werkt het',
@@ -325,7 +325,7 @@ Kies grijswaarden optie voor inkt besparing. Zwart-wit versie print goedkoper. K
 
   // Use Cases - FULL text from math-puzzle.md use case sections
   useCases: {
-    sectionTitle: 'Perfect voor Leerkrachten en Ouders - Rekenen Werkbladen Werkbladen Kleuters en Oefenbladen',
+    sectionTitle: 'Gratis Werkblad voor Kinderen - Werkblad voor Kleuters met Gratis Printables. Werkblad voor Kinderen',
     sectionDescription: 'Onze math puzzle generator werkt voor alle educatieve settings. Van groep 1 2 werkbladen kleuters tot groep 3 rekenen werkbladen. Thuisonderwijs ouders tot professionele leerkrachten. Iedereen maakt eenvoudig oefenbladen voor sommen tot 20. Volledige Toegang abonnement ondersteunt alle gebruikers.',
     badgeText: 'Voor wie',
     readMoreLabel: 'Lees meer',
@@ -420,7 +420,7 @@ Differentieer voor verschillende niveaus. Basis pakket werkbladen kleuters groep
 
   // FAQ Section - FULL FAQs from math-puzzle.md
   faq: {
-    sectionTitle: 'Veelgestelde Vragen over Tafels Oefenen Sommen tot 20 Veilig Leren Lezen Letters Leren Schrijven Oefenen',
+    sectionTitle: 'FAQ - Gratis Werkblad voor Kinderen en Werkblad voor Kleuters. Werkblad voor Kinderen',
     sectionDescription: 'Leerkrachten stellen regelmatig vragen over onze generator. Kan ik het combineren met veilig leren lezen methodes? Werkt het voor letters leren schrijven oefenen activiteiten? Geschikt voor tafels oefenen en sommen tot 20 practice? Kunnen leerlingen kleurplaten en fijne motoriek combineren? Alle antwoorden hieronder voor oefenbladen vragen.',
     showMoreText: 'Meer vragen tonen',
     showLessText: 'Minder tonen',
@@ -549,7 +549,7 @@ Differentieer voor verschillende niveaus. Basis pakket werkbladen kleuters groep
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Combineer Rekenpuzzels met Andere Generators - Complete Werkbladen Pakketten',
+    sectionTitle: 'Gratis Werkbladen Combineren - Werkblad voor Kinderen en Gratis Printables',
     sectionDescription: 'LessonCraft Studio platform biedt 33 verschillende worksheet generators. Rekenpuzzels combineren perfect met andere werkblad types. Maak complete lespakketten die meerdere vaardigheden oefenen. Één thema, meerdere werkblad formats voor versterkte leren.',
     ctaTitle: 'Klaar om geweldige werkbladen te maken?',
     ctaDescription: 'Sluit je aan bij duizenden leerkrachten die professionele werkbladen maken. Onbeperkt genereren, commerciële licentie inbegrepen.',

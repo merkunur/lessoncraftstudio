@@ -86,8 +86,8 @@ Combinez le cherche et compte avec des activités de graphisme maternelle. Nos f
 
   // Sample Gallery - REAL file paths from samples/english/find and count/
   samples: {
-    sectionTitle: 'Exemples de Fiches Cherche et Compte',
-    sectionDescription: 'Téléchargez des exemples gratuits pour voir notre qualité professionnelle',
+    sectionTitle: 'Fiche Gratuite pour Enfants - Fiches Gratuites et Imprimables Gratuits',
+    sectionDescription: 'Téléchargez imprimables gratuits - Fiche gratuite pour enfants de qualité professionnelle. Fiches gratuites et fiche pour enfants parfaites pour fiche pour maternelle. Fiche gratuite pour enfants et fiches gratuites inclus matériel éducatif. Fiche gratuite et fiches gratuites disponible',
     downloadLabel: 'Télécharger Exemple Gratuit',
     worksheetLabel: 'Fiche',
     answerKeyLabel: 'Corrigé',
@@ -138,7 +138,7 @@ Combinez le cherche et compte avec des activités de graphisme maternelle. Nos f
 
   // Features Grid - FULL text from find-and-count.md feature sections
   features: {
-    sectionTitle: 'Fonctionnalités du Générateur - Fiches Maternelle et Exercices CP Personnalisables',
+    sectionTitle: 'Fiches Gratuites et Fiche pour Enfants - Imprimables Gratuits et Fiche pour Maternelle',
     sectionDescription: 'Notre générateur de cherche et compte offre toutes les fonctionnalités nécessaires pour créer des fiches pédagogiques professionnelles. Chaque outil a été conçu pour simplifier votre travail. Découvrez comment créer des fiches maternelle exceptionnelles en quelques clics.',
     highlightBadgeText: 'Fonctionnalité Clé',
     readMoreLabel: 'Lire la suite',
@@ -243,7 +243,7 @@ Régénérez si vous voulez des puzzles différents. Cliquez à nouveau sur Gén
 
   // How-To Guide - FULL text from find-and-count.md step sections
   howTo: {
-    sectionTitle: 'Comment Créer des Fiches Maternelle Cherche et Compte en 5 Étapes Simples',
+    sectionTitle: 'Fiche Gratuite pour Enfants Créer - Fiche pour Maternelle',
     sectionDescription: 'Créer des fiches de cherche et compte ne prend que quelques minutes. Notre générateur simplifie chaque étape du processus. Suivez ce guide pour produire vos premières fiches maternelle professionnelles. Aucune expérience technique nécessaire.',
     ctaText: 'Commencer Maintenant',
     badgeText: 'Comment Ça Marche',
@@ -315,7 +315,7 @@ Téléchargez fiche et corrigé en un seul clic. La qualité 300 DPI garantit de
 
   // Use Cases - FULL text from find-and-count.md use case sections
   useCases: {
-    sectionTitle: 'À Qui S\'Adressent les Fiches Cherche et Compte',
+    sectionTitle: 'Fiche Gratuite pour Enfants - Fiche pour Maternelle avec Imprimables Gratuits. Fiche pour Enfants',
     sectionDescription: 'Nos fiches de cherche et compte répondent aux besoins de nombreux professionnels de l\'éducation. Découvrez comment chaque profil utilise cet outil pour créer des supports pédagogiques adaptés. Des enseignants de maternelle aux entrepreneurs du numérique éducatif.',
     badgeText: 'Pour Qui',
     readMoreLabel: 'Lire la suite',
@@ -398,7 +398,7 @@ Développez des lots thématiques pour les ventes saisonnières. Les packs de re
 
   // FAQ Section - Selected FAQs from find-and-count.md
   faq: {
-    sectionTitle: 'Questions Fréquentes sur les Fiches Cherche et Compte',
+    sectionTitle: 'FAQ - Fiche Gratuite pour Enfants et Fiche pour Maternelle. Fiche pour Enfants',
     sectionDescription: 'Questions fréquentes sur notre générateur de fiches cherche et compte et nos fiches maternelle.',
     showMoreText: 'Voir plus de questions',
     showLessText: 'Voir moins',
@@ -533,7 +533,7 @@ Développez des lots thématiques pour les ventes saisonnières. Les packs de re
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Combinez avec D\'Autres Générateurs de Fiches',
+    sectionTitle: 'Fiches Gratuites Combiner - Fiche pour Enfants et Imprimables Gratuits',
     sectionDescription: 'Votre abonnement Pack Essentiel inclut 10 générateurs complémentaires. Combinez le cherche et compte avec d\'autres outils pour créer des séquences pédagogiques complètes.',
     ctaTitle: 'Prêt à Créer des Fiches Fantastiques ?',
     ctaDescription: 'Rejoignez des milliers d\'enseignants qui créent des fiches professionnelles. Génération illimitée, licence commerciale incluse.',

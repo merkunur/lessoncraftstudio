@@ -87,8 +87,8 @@ L'editor completo ti permette di personalizzare ogni elemento sulla pagina. Aggi
 
   // Sample Gallery
   samples: {
-    sectionTitle: 'Schede Gratuite Trova l\'Intruso - Stampabili Gratuiti da Scaricare',
-    sectionDescription: 'Scarica esempi gratuiti per vedere la nostra qualità professionale',
+    sectionTitle: "Scheda Gratuita per Bambini - Schede Gratuite e Stampabili Gratuiti e Scheda per Bambini",
+    sectionDescription: "Scarica stampabili gratuiti - Scheda gratuita per bambini di qualità professionale. Schede gratuite e scheda per bambini perfette per scheda per scuola dell'infanzia. Scheda gratuita per bambini e scheda per bambini includono materiale educativo. Scheda gratuita e scheda per scuola dell'infanzia disponibile",
     downloadLabel: 'Scarica Esempio Gratuito',
     worksheetLabel: 'Scheda',
     answerKeyLabel: 'Chiave di Risposta',
@@ -139,7 +139,7 @@ L'editor completo ti permette di personalizzare ogni elemento sulla pagina. Aggi
 
   // Features Grid
   features: {
-    sectionTitle: 'Funzionalità Schede Gratuite Trova l\'Intruso - Stampabili Gratuiti per Bambini',
+    sectionTitle: "Schede Gratuite e Scheda per Bambini - Stampabili Gratuiti e Scheda per Scuola dell'Infanzia"Intruso - Stampabili Gratuiti per Bambini',
     sectionDescription: 'Il nostro generatore di schede didattiche trova l\'intruso offre tutte le funzionalità necessarie per creare materiale didattico professionale. Che tu insegni alla scuola dell\'infanzia o alla scuola primaria, troverai gli strumenti perfetti per le tue esigenze. Ogni funzionalità è stata progettata pensando agli insegnanti italiani.',
     highlightBadgeText: 'Funzionalità Chiave',
     readMoreLabel: 'Leggi di più',
@@ -233,7 +233,7 @@ Ogni scheda include la chiave delle risposte automatica. Si genera insieme alla 
 
   // How-To Guide Section
   howTo: {
-    sectionTitle: 'Come Creare Schede Gratuite Trova l\'Intruso - 5 Passi per Stampabili Gratuiti',
+    sectionTitle: "Scheda Gratuita per Bambini Creare - Scheda per Scuola dell'Infanzia"Intruso - 5 Passi per Stampabili Gratuiti',
     sectionDescription: 'Creare schede didattiche scuola primaria professionali è facilissimo con il nostro generatore. Bastano 5 semplici passaggi e meno di 3 minuti del tuo tempo. Non servono competenze tecniche o programmi di grafica. Segui questa guida passo-passo per creare la tua prima scheda.',
     ctaText: 'Inizia Ora',
     badgeText: 'Guida Passo-Passo',
@@ -315,7 +315,7 @@ Scarica anche la chiave delle risposte. Si scarica separatamente dalla scheda pr
 
   // Use Cases Section
   useCases: {
-    sectionTitle: 'Schede Gratuite per Insegnanti - Stampabili Gratuiti Trova l\'Intruso per Educatori',
+    sectionTitle: "Schede Gratuite per Insegnanti - Stampabili Gratuiti Trova l\"Intruso per Educatori',
     sectionDescription: 'Il generatore trova l\'intruso serve insegnanti di tutti i livelli scolastici. Dalla scuola dell\'infanzia alla scuola primaria, troverai usi perfetti per le tue lezioni. Anche genitori homeschool e insegnanti di sostegno traggono grande beneficio. Ogni gruppo ha esigenze specifiche che il generatore soddisfa perfettamente.',
     badgeText: 'Per Chi È',
     readMoreLabel: 'Leggi di più',
@@ -410,7 +410,7 @@ Combina trova l'intruso con disegni da colorare in prodotti ibridi. Metà pagina
 
   // FAQ Section
   faq: {
-    sectionTitle: 'FAQ Schede Gratuite Trova l\'Intruso - Stampabili Gratuiti per Bambini',
+    sectionTitle: "FAQ - Scheda Gratuita per Bambini e Scheda per Scuola dell'Infanzia. Scheda per Bambini"Intruso - Stampabili Gratuiti per Bambini',
     sectionDescription: 'Gli insegnanti italiani fanno spesso domande sul generatore trova l\'intruso. Abbiamo raccolto le 12 domande più comuni con risposte dettagliate. Queste risposte ti aiutano a capire come funziona il generatore e come integrarlo nella tua didattica.',
     showMoreText: 'Mostra altre domande',
     showLessText: 'Mostra meno',
@@ -538,7 +538,7 @@ Combina trova l'intruso con disegni da colorare in prodotti ibridi. Metà pagina
 
   // Related Apps Section
   relatedApps: {
-    sectionTitle: 'Altri Generatori di Schede Gratuite - Stampabili Gratuiti Correlati',
+    sectionTitle: "Altri Generatori di Schede Gratuite - Stampabili Gratuiti Correlati",
     sectionDescription: 'La nostra piattaforma offre 33 diversi generatori di schede didattiche oltre al trova l\'intruso. Il tuo abbonamento Accesso Completo fornisce accesso a tutti i generatori per creare pacchetti di apprendimento completi. Combina schede trova l\'intruso con addizioni, alfabeto e attività di conteggio. Costruisci unità tematiche complete mescolando discriminazione visiva con altre competenze cognitive.',
     ctaTitle: 'Pronto a Creare Schede Didattiche Straordinarie?',
     ctaDescription: 'Unisciti agli educatori che creano schede professionali. Generazione illimitata, licenza commerciale inclusa.',

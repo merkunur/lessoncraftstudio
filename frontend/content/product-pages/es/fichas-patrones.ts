@@ -83,8 +83,8 @@ El reconocimiento de patrones desarrolla habilidades matemáticas esenciales. Es
 
   // Sample Gallery - REAL file paths from samples/spanish/pattern/
   samples: {
-    sectionTitle: 'Ejemplos de Fichas de Patrones',
-    sectionDescription: 'Descarga ejemplos gratuitos para ver nuestra calidad profesional',
+    sectionTitle: 'Ficha Gratis para Niños - Fichas Gratis e Imprimibles Gratis',
+    sectionDescription: 'Descarga imprimibles gratis - Ficha gratis para niños de calidad profesional. Ficha para niños perfecta para ficha para preescolar. Ficha gratis para niños y ficha para niños incluyen material educativo. Ficha gratis disponible',
     downloadLabel: 'Descargar Ejemplo Gratis',
     worksheetLabel: 'Ficha',
     answerKeyLabel: 'Clave de Respuestas',
@@ -135,7 +135,7 @@ El reconocimiento de patrones desarrolla habilidades matemáticas esenciales. Es
 
   // Features Grid - FULL text from pattern-worksheet.md feature sections
   features: {
-    sectionTitle: 'Características del Generador de Fichas de Patrones - Material Educativo Gratis para Preescolar',
+    sectionTitle: 'Fichas Gratis y Ficha para Niños - Imprimibles Gratis y Ficha para Preescolar',
     sectionDescription: 'Nuestro generador de fichas para imprimir incluye todas las herramientas profesionales que los maestros necesitan. Crea ejercicios de matemáticas personalizados en minutos. Acceso completo a biblioteca de imágenes y funciones de edición avanzadas. Cada característica está diseñada para ahorrar tiempo y producir fichas preescolar de calidad profesional.',
     highlightBadgeText: 'Característica Clave',
     readMoreLabel: 'Leer más',
@@ -231,7 +231,7 @@ La opción de escala de grises ahorra tinta. Convierte fichas para imprimir a bl
 
   // How-To Guide - FULL text from pattern-worksheet.md step sections
   howTo: {
-    sectionTitle: 'Cómo Crear Fichas de Patrones para Imprimir en 5 Pasos Fáciles - Ejercicios de Matemáticas Listos en Minutos',
+    sectionTitle: 'Ficha Gratis para Niños Crear - Ficha para Preescolar',
     sectionDescription: 'Crear fichas infantil profesionales toma menos de 3 minutos. El proceso es intuitivo y rápido. No necesitas experiencia técnica. Estos cinco pasos te llevan desde idea hasta fichas para imprimir descargables. Cada paso incluye opciones de personalización para adaptar las fichas de matemáticas a tus necesidades exactas.',
     ctaText: 'Comenzar Ahora',
     badgeText: 'Cómo Funciona',
@@ -324,7 +324,7 @@ Las fichas para imprimir están listas inmediatamente. Imprime en casa o en copi
 
   // Use Cases Section - FULL text from pattern-worksheet.md use cases
   useCases: {
-    sectionTitle: 'Perfecto para Maestros y Padres - Fichas Infantil y Ejercicios de Matemáticas para Todas las Necesidades',
+    sectionTitle: 'Ficha Gratis para Niños - Ficha para Preescolar con Imprimibles Gratis. Ficha para Niños',
     sectionDescription: 'Nuestro generador de fichas para imprimir sirve a educadores en múltiples contextos. Maestros de educación infantil lo usan diariamente. Padres que educan en casa crean fichas preescolar personalizadas. Maestros emprendedores venden material educativo gratis que generan. Cada usuario encuentra valor único en las herramientas profesionales.',
     badgeText: 'Casos de Uso',
     readMoreLabel: 'Leer más',
@@ -425,7 +425,7 @@ Crea libros de actividades para Amazon KDP. 100 páginas de fichas para imprimir
 
   // FAQ Section
   faq: {
-    sectionTitle: 'Preguntas Frecuentes - Todo sobre Fichas de Patrones y Material Educativo Gratis',
+    sectionTitle: 'FAQ - Ficha Gratis para Niños y Ficha para Preescolar. Ficha para Niños',
     sectionDescription: 'Maestros hacen preguntas específicas antes de suscribir. Estas respuestas abordan las dudas más comunes. Cada pregunta ha sido respondida por el equipo de LessonCraft Studio basado en experiencia de miles de usuarios.',
     showMoreText: 'Mostrar más preguntas',
     showLessText: 'Mostrar menos',
@@ -568,7 +568,7 @@ Descarga "Ficha" y "Clave de Respuestas" en JPEG o PDF. Cuatro archivos totales 
 
   // Related Apps Section
   relatedApps: {
-    sectionTitle: 'Combina Apps para Paquetes Completos - Material Educativo con Tablas de Multiplicar y Abecedario',
+    sectionTitle: 'Fichas Gratis Combinar - Ficha para Niños e Imprimibles Gratis',
     sectionDescription: 'Maestros exitosos combinan múltiples generadores de LessonCraft Studio. Crea paquetes temáticos completos para vender o usar en clase. Tu suscripción Acceso Completo incluye todos los generadores sin límites. Estas combinaciones populares crean material educativo profesional que se vende bien.',
     ctaTitle: '¿Listo para Crear Fichas de Patrones Profesionales?',
     ctaDescription: 'Únete a miles de educadores que crean material profesional con nuestro generador de fichas.',

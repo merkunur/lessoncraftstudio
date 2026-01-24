@@ -89,8 +89,8 @@ Genera de 1 a 8 ejercicios por hoja según las necesidades de tu clase. Elige en
 
   // Sample Gallery
   samples: {
-    sectionTitle: 'Ejemplos de Fichas de Mayor Menor',
-    sectionDescription: 'Descarga ejemplos de fichas gratis para ver nuestra calidad profesional',
+    sectionTitle: 'Ficha Gratis para Niños - Fichas Gratis e Imprimibles Gratis',
+    sectionDescription: 'Descarga imprimibles gratis - Ficha gratis para niños de calidad profesional. Ficha para niños perfecta para ficha para preescolar. Ficha gratis para niños y ficha para niños incluyen material educativo. Ficha gratis disponible',
     downloadLabel: 'Descargar Ejemplo Gratis',
     worksheetLabel: 'Ficha',
     answerKeyLabel: 'Hoja de Respuestas',
@@ -141,7 +141,7 @@ Genera de 1 a 8 ejercicios por hoja según las necesidades de tu clase. Elige en
 
   // Features Grid
   features: {
-    sectionTitle: 'Características del Generador - Fichas de Matemáticas para Imprimir con Ejercicios de Comparación Numérica',
+    sectionTitle: 'Fichas Gratis y Ficha para Niños - Imprimibles Gratis y Ficha para Preescolar',
     sectionDescription: 'Nuestro generador de fichas para imprimir ofrece herramientas profesionales para maestros de preescolar y educación primaria. Cada característica está diseñada para ahorrar tiempo y crear material educativo gratis de alta calidad. Las fichas infantil se personalizan completamente según las necesidades de tu grupo. Tu suscripción Acceso Completo incluye todas las funciones sin límites ni cargos adicionales.',
     highlightBadgeText: 'Destacado',
     badgeText: 'Características',
@@ -214,7 +214,7 @@ Genera de 1 a 8 ejercicios por hoja según las necesidades de tu clase. Elige en
 
   // How-To Guide
   howTo: {
-    sectionTitle: 'Cómo Crear Fichas de Matemáticas para Imprimir en 5 Pasos Fáciles - Ejercicios de Números Listos en 3 Minutos',
+    sectionTitle: 'Ficha Gratis para Niños Crear - Ficha para Preescolar',
     sectionDescription: 'El proceso completo de crear fichas para imprimir toma menos de 3 minutos. Desde la selección de imágenes hasta la descarga del PDF final. No necesitas experiencia técnica ni habilidades de diseño. Cada paso es intuitivo y está diseñado para maestros ocupados. Tus fichas infantil profesionales estarán listas para usar en clase inmediatamente.',
     ctaText: 'Comenzar Ahora',
     badgeText: 'Cómo Funciona',
@@ -266,7 +266,7 @@ Genera de 1 a 8 ejercicios por hoja según las necesidades de tu clase. Elige en
 
   // Use Cases
   useCases: {
-    sectionTitle: 'Perfecto para Maestros, Padres y Educadores - Fichas para Imprimir de Números para Cada Necesidad Educativa',
+    sectionTitle: 'Ficha Gratis para Niños - Ficha para Preescolar con Imprimibles Gratis. Ficha para Niños',
     sectionDescription: 'Nuestras fichas de matemáticas sirven a diversos educadores y contextos. Desde educación infantil hasta educación primaria completa. Los maestros de preescolar encuentran material apropiado al nivel. Las familias que educan en casa personalizan según su ritmo. Cada usuario descubre valor único en las fichas para imprimir personalizables.',
     badgeText: 'Casos de Uso',
     readMoreLabel: 'Leer más',
@@ -325,7 +325,7 @@ Genera de 1 a 8 ejercicios por hoja según las necesidades de tu clase. Elige en
 
   // FAQ Section
   faq: {
-    sectionTitle: 'Preguntas Frecuentes sobre Fichas de Matemáticas para Imprimir - Respuestas sobre Números y Grafomotricidad',
+    sectionTitle: 'FAQ - Ficha Gratis para Niños y Ficha para Preescolar. Ficha para Niños',
     sectionDescription: 'Los maestros preguntan frecuentemente sobre funcionalidad y valor. Esta sección responde las dudas más comunes sobre el generador. Cada respuesta proporciona información clara y práctica. Toma decisiones informadas sobre tu suscripción Acceso Completo.',
     showMoreText: 'Mostrar más preguntas',
     showLessText: 'Mostrar menos',
@@ -454,7 +454,7 @@ Genera de 1 a 8 ejercicios por hoja según las necesidades de tu clase. Elige en
 
   // Related Apps Section
   relatedApps: {
-    sectionTitle: 'Combina Fichas de Números con Otras Fichas para Imprimir - Paquetes Completos de Aprendizaje con Grafomotricidad y Lectoescritura',
+    sectionTitle: 'Fichas Gratis Combinar - Ficha para Niños e Imprimibles Gratis',
     sectionDescription: 'Nuestro generador incluye 33 herramientas diferentes en la plataforma completa. Los maestros combinan fichas de matemáticas con otros tipos para aprendizaje integral. Crea paquetes semanales que cubren múltiples habilidades simultáneamente. Tu suscripción Acceso Completo desbloquea todas las posibilidades de combinación.',
     ctaTitle: '¿Listo para Crear Fichas Increíbles?',
     ctaDescription: 'Únete a miles de educadores que crean fichas profesionales con nuestras herramientas.',

@@ -87,8 +87,8 @@ Acesse uma biblioteca com mais de 3000 imagens organizadas por temas. Encontre a
 
   // Sample Gallery
   samples: {
-    sectionTitle: 'Atividade Grátis de Combinar Sombras - Exemplos para Download',
-    sectionDescription: 'Baixe exemplos de atividades grátis para crianças e veja nossa qualidade profissional',
+    sectionTitle: 'Atividade Grátis para Crianças - Atividades Grátis e Imprimíveis Grátis',
+    sectionDescription: 'Baixe imprimíveis grátis - Atividade grátis para crianças de qualidade profissional. Atividades grátis e atividade para crianças perfeitas para atividade para educação infantil. Atividade grátis para crianças e atividade para crianças incluem material educativo. Atividade grátis disponível',
     downloadLabel: 'Baixar Exemplo Grátis',
     worksheetLabel: 'Atividade',
     answerKeyLabel: 'Gabarito',
@@ -490,7 +490,7 @@ Licença comercial POD está incluída na assinatura Acesso Completo. Sem taxas 
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Combine Atividades de Sombra com Outros Geradores - Pacotes Completos de Atividades para Imprimir',
+    sectionTitle: 'Atividades Grátis Combinar - Atividade para Crianças e Imprimíveis Grátis',
     sectionDescription: 'Sua assinatura Acesso Completo inclui 33 geradores de atividades para imprimir. Combine atividades de combinar sombras com outros tipos de fichas. Crie pacotes temáticos completos para semanas inteiras. Professores montam materiais integrados para diferentes habilidades. Cada gerador complementa os outros para aprendizado completo.',
     ctaTitle: 'Pronto para Criar Atividades de Combinar Sombras Incríveis?',
     ctaDescription: 'Junte-se a milhares de educadores que criam atividades profissionais. Geração ilimitada, licença comercial incluída.',

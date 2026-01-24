@@ -82,7 +82,7 @@ Our math worksheets help young students master early counting skills through vis
 
   // Sample Gallery - REAL file paths from samples/english/find-and-count/
   samples: {
-    sectionTitle: 'I Spy Worksheet Samples: Free Printable Hidden Object Worksheets for Kids',
+    sectionTitle: 'Worksheet for Kindergarten Samples - Free Worksheet for Kids',
     downloadLabel: 'Download Free Sample',
     worksheetLabel: 'Worksheet',
     answerKeyLabel: 'Answer Key',
@@ -363,7 +363,7 @@ Monthly income builds through catalog expansion. Start with one popular theme an
 
   // FAQ Section - Selected FAQs from find-and-count.md
   faq: {
-    sectionTitle: 'FAQ: Free Worksheets for Kids - Find and Count Worksheets and Free Printables',
+    sectionTitle: 'FAQ: Worksheet for Kindergarten - Free Worksheet for Kids and Free Printables',
     sectionDescription: 'Everything you need to know about our find and count worksheet generator.',
     showMoreText: 'Show more questions',
     showLessText: 'Show less',
@@ -493,7 +493,7 @@ Monthly income builds through catalog expansion. Start with one popular theme an
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Combine with Other Worksheet Generators',
+    sectionTitle: 'More Worksheet for Kindergarten - Free Worksheets Generators',
     sectionDescription: 'Create complete learning packets by combining find and count worksheets with these complementary generators.',
     ctaTitle: 'Ready to Create Amazing Worksheets?',
     ctaDescription: 'Join thousands of educators creating professional worksheets. Unlimited generation, commercial license included.',

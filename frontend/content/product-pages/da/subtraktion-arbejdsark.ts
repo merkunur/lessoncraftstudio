@@ -86,8 +86,8 @@ Minus-stykker matematikopgaver er visuelle opgaver til print der bruger billeder
 
   // Sample Gallery
   samples: {
-    sectionTitle: 'Gratis Arbejdsark Eksempler - Subtraktion Minus-Stykker til Børn',
-    sectionDescription: 'Download gratis eksempler på arbejdsark for at se vores professionelle kvalitet',
+    sectionTitle: 'Gratis Arbejdsark til Børn - Gratis Arbejdsark og Gratis Printables',
+    sectionDescription: 'Download gratis printables - Gratis arbejdsark til børn af professionel kvalitet. Gratis arbejdsark og arbejdsark til børn perfekt til arbejdsark til børnehaveklasse. Gratis arbejdsark til børn og arbejdsark til børn inkluderer undervisningsmateriale. Gratis arbejdsark tilgængeligt',
     badgeText: 'Gratis Eksempler',
     downloadLabel: 'Download Gratis Eksempel',
     downloadingLabel: 'Downloader...',
@@ -138,7 +138,7 @@ Minus-stykker matematikopgaver er visuelle opgaver til print der bruger billeder
 
   // Features Grid
   features: {
-    sectionTitle: 'Matematikopgaver Generator Funktioner – Alt Du Har Brug For til Gratis Skoleopgaver og Arbejdsark',
+    sectionTitle: 'Gratis Arbejdsark og Arbejdsark til Børn - Gratis Printables og Arbejdsark til Børnehaveklasse',
     sectionDescription: 'Minus-stykker generatoren giver dig professionelle værktøjer til at skabe matematikopgaver på minutter. Fuld Adgang abonnementet inkluderer alle funktioner uden ekstra gebyrer. Lav opgaver til print, arbejdsark og kopiark til børnehaveklassen, 0. klasse, 1. klasse og 2. klasse. Kombiner minus-stykker med gangetabeller, lære bogstaver aktiviteter, malebog sider og finmotorik øvelser for komplette differentieringspakker.',
     highlightBadgeText: 'Vigtig Funktion',
     readMoreLabel: 'Læs mere',
@@ -232,7 +232,7 @@ Gråtone mulighed sparer printerblæk. Konvertér farve matematikopgaver til sor
 
   // How-To Guide
   howTo: {
-    sectionTitle: 'Sådan Laver Du Matematikopgaver i 5 Nemme Trin – Gratis Skoleopgaver og Opgaver til Print til 0. Klasse Klar på Minutter',
+    sectionTitle: 'Gratis Arbejdsark til Børn Oprette - Arbejdsark til Børnehaveklasse',
     sectionDescription: 'Skab professionelle minus-stykker matematikopgaver på under 3 minutter. Ingen designerfærdigheder påkrævet. Følg disse 5 nemme trin for at lave arbejdsark til børnehaveklassen, 0. klasse, 1. klasse og 2. klasse. Fuld Adgang abonnementet giver ubegrænset adgang til at generere opgaver til print. Kombiner med gangetabeller, lære bogstaver aktiviteter og finmotorik øvelser for komplette læringspakker.',
     ctaText: 'Start Nu',
     badgeText: 'Sådan Virker Det',
@@ -304,7 +304,7 @@ PDF format til bedste kvalitet. PDF bevarer skarphed perfekt. Professionel 300 D
 
   // Use Cases
   useCases: {
-    sectionTitle: 'Perfekt til Pædagoger og Lærere – Matematikopgaver og Gratis Skoleopgaver for Alle Behov',
+    sectionTitle: 'Gratis Arbejdsark til Børn - Arbejdsark til Børnehaveklasse med Gratis Printables. Arbejdsark til Børn',
     sectionDescription: 'Minus-stykker generatoren tjener forskellige brugertyper perfekt. Børnehavepædagoger bruger den til tidlig talforståelse kombineret med finmotorik øvelser. Lærere i 0. klasse og 1. klasse bruger den til daglig matematiktræning sammen med gangetabeller. Hjemmeundervisere laver personlige opgaver til print. Alle får massiv værdi fra Fuld Adgang abonnementet med 33 apps inklusive lære bogstaver, malebog aktiviteter og læse og skrive øvelser.',
     badgeText: 'Hvem Er Det Til',
     readMoreLabel: 'Læs mere',
@@ -387,7 +387,7 @@ Danske lærere sælger på skandinaviske markeder. Norske og svenske lærere kø
 
   // FAQ Section
   faq: {
-    sectionTitle: 'Ofte Stillede Spørgsmål om Matematikopgaver og Gratis Skoleopgaver',
+    sectionTitle: 'FAQ - Gratis Arbejdsark til Børn og Arbejdsark til Børnehaveklasse. Arbejdsark til Børn',
     sectionDescription: 'Lærere og forældre stiller mange spørgsmål om minus-stykker generatoren. Hvordan virker abonnementet? Kan jeg kombinere matematikopgaver med gangetabeller, lære bogstaver, malebog farvelægning og finmotorik øvelser? Fungerer det til børnehaveklasse? Her er svar på de 12 mest almindelige spørgsmål om opgaver til print kombineret med læse og skrive og stavning aktiviteter.',
     showMoreText: 'Vis flere spørgsmål',
     showLessText: 'Vis færre',

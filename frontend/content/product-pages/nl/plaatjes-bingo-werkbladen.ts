@@ -91,8 +91,8 @@ Met je abonnement maak je zoveel bingokaarten als je nodig hebt. Geen extra kost
 
   // Sample Gallery - REAL file paths from samples/english/bingo/
   samples: {
-    sectionTitle: 'Gratis Werkblad Voorbeelden - Plaatjes Bingo voor Kleuters',
-    sectionDescription: 'Download gratis voorbeeldwerkbladen om onze professionele kwaliteit te ervaren',
+    sectionTitle: 'Gratis Werkblad voor Kinderen - Gratis Werkbladen en Gratis Printables',
+    sectionDescription: 'Download gratis printables - Gratis werkblad voor kinderen van professionele kwaliteit. Gratis werkbladen en werkblad voor kinderen perfect voor werkblad voor kleuters. Gratis werkblad voor kinderen en werkblad voor kinderen inclusief educatief materiaal. Gratis werkblad beschikbaar',
     downloadLabel: 'Gratis Voorbeeld Downloaden',
     worksheetLabel: 'Werkblad',
     answerKeyLabel: 'Oproepkaarten',
@@ -136,7 +136,7 @@ Met je abonnement maak je zoveel bingokaarten als je nodig hebt. Geen extra kost
 
   // Features Grid - FULL text from bingo.md feature sections
   features: {
-    sectionTitle: 'Gratis Werkblad Functies - Plaatjes Bingo Generator voor Kleuters',
+    sectionTitle: 'Gratis Werkbladen en Werkblad voor Kinderen - Gratis Printables en Werkblad voor Kleuters',
     sectionDescription: 'De bingo werkbladen generator biedt alles wat je nodig hebt voor interactief onderwijs. Van eenvoudige bediening tot professionele exportkwaliteit. Ontdek alle mogelijkheden om werkbladen te maken voor groep 1, 2 en 3.',
     highlightBadgeText: 'Uitgelicht',
     readMoreLabel: 'Lees meer',

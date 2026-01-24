@@ -53,8 +53,8 @@ Vähennyslasku on perustaidoksi alakoulun matematiikan opetuksessa. Esiopetukses
 
   // Sample Gallery - REAL file paths from samples/english/subtraction/
   samples: {
-    sectionTitle: 'Vähennyslasku Tehtävät Esimerkit',
-    sectionDescription: 'Lataa ilmaiset esimerkkityöarkit nähdäksesi ammattimaisen laatumme',
+    sectionTitle: 'Ilmainen Työarkki Lapsille - Ilmaiset Työarkit ja Ilmaiset Tulosteet',
+    sectionDescription: 'Lataa ilmaiset tulosteet - Ilmainen työarkki lapsille ammattimaista laatua. Ilmaiset työarkit ja työarkki lapsille täydellinen työarkki esiopetukseen. Ilmainen työarkki lapsille ja työarkki lapsille sisältää ilmaiset tulosteet ja ilmaiset työarkit opetusmateriaalin. Ilmainen työarkki ja työarkki esiopetukseen saatavilla',
     downloadLabel: 'Lataa Ilmainen Esimerkki',
     worksheetLabel: 'Työarkki',
     answerKeyLabel: 'Vastausavain',
@@ -98,7 +98,7 @@ Vähennyslasku on perustaidoksi alakoulun matematiikan opetuksessa. Esiopetukses
 
   // Features Grid - FULL text from Finnish subtraction.md feature sections
   features: {
-    sectionTitle: 'Vähennyslasku Tehtävägeneraattorin Ominaisuudet - Kaikki Mitä Tarvitset Matematiikka Tehtävät Alakoulu Luomiseen',
+    sectionTitle: 'Ilmaiset Työarkit ja Työarkki Lapsille - Ilmaiset Tulosteet ja Työarkki Esiopetukseen',
     sectionDescription: 'Täysi Käyttöoikeus -tilaus antaa sinulle pääsyn kattavaan vähennyslasku tehtävien luomistyökaluun. Generaattori sisältää kaikki tarvittavat ominaisuudet ammattitason matematiikka tehtävien luomiseen. Jokainen ominaisuus on suunniteltu säästämään opettajien aikaa ja parantamaan oppilaiden oppimista.',
     highlightBadgeText: 'Tärkeä Ominaisuus',
     readMoreLabel: 'Lue lisää',
@@ -192,7 +192,7 @@ Vastausavaimet latautuvat automaattisesti tehtävän mukana. Ei tarvitse luoda e
 
   // How-To Guide - FULL text from Finnish subtraction.md step sections
   howTo: {
-    sectionTitle: 'Kuinka Luoda Vähennyslasku Tehtävät Viidessä Helpossa Vaiheessa - Tulostettavat Tehtävät Lapsille Ilmainen',
+    sectionTitle: 'Ilmainen Työarkki Lapsille Luoda - Työarkki Esiopetukseen',
     sectionDescription: 'Vähennyslasku tehtävien luominen vie alle kolme minuuttia alusta loppuun. Seuraa näitä viittä yksinkertaista vaihetta ammattitason matematiikka tehtävien generoimiseksi. Ei tarvita suunnittelutaitoja tai teknistä osaamista. Generaattori hoitaa kaiken puolestasi automaattisesti.',
     ctaText: 'Aloita Luominen Nyt',
     badgeText: 'Näin Se Toimii',
@@ -264,7 +264,7 @@ Täysi Käyttöoikeus -tilauksen kaupallinen lisenssi mahdollistaa tehtävien my
 
   // Use Cases - FULL text from Finnish subtraction.md use case sections
   useCases: {
-    sectionTitle: 'Täydellinen Opettajille, Vanhemmille ja Kasvattajille - Tulostettavat Tehtävät Lapsille Ilmainen Jokaiseen Tarpeeseen',
+    sectionTitle: 'Ilmainen Työarkki Lapsille - Työarkki Esiopetukseen ja Ilmaiset Tulosteet. Työarkki Lapsille',
     sectionDescription: 'Vähennyslasku generaattori palvelee monenlaisia käyttäjiä koulutuskentällä. Esiopetuksen opettajat, alakoulun opettajat, kotikoulutusvanhemmat ja erityisopettajat hyötyvät kaikki tästä työkalusta. Jokainen käyttäjäryhmä löytää ainutlaatuisia tapoja hyödyntää generaattoria opetuksessaan.',
     badgeText: 'Kenelle Sopii',
     readMoreLabel: 'Lue lisää',
@@ -347,7 +347,7 @@ Kilpailijat veloittavat $100-200 vuodessa kaupallisista oikeuksista erikseen. T�
 
   // FAQ Section - Finnish FAQs from subtraction.md
   faq: {
-    sectionTitle: 'Usein Kysytyt Kysymykset Vähennyslasku Tehtävistä',
+    sectionTitle: 'FAQ - Ilmainen Työarkki Lapsille ja Työarkki Esiopetukseen. Työarkki Lapsille',
     sectionDescription: 'Yleisimmät kysymykset vähennyslaskugeneraattorista ja matematiikkatyöarkeista.',
     showMoreText: 'Näytä lisää kysymyksiä',
     showLessText: 'Näytä vähemmän',
@@ -451,7 +451,7 @@ Kilpailijat veloittavat $100-200 vuodessa kaupallisista oikeuksista erikseen. T�
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Yhdistä Muihin Työarkki Generaattoreihin',
+    sectionTitle: 'Ilmaiset Työarkit Yhdistää - Työarkki Lapsille ja Ilmaiset Tulosteet',
     sectionDescription: 'Luo kattavia oppimispaketteja yhdistämällä vähennyslasku työarkit näihin täydentäviin generaattoreihin.',
     ctaTitle: 'Valmiina Luomaan Upeita Työarkkeja?',
     ctaDescription: 'Liity tuhansien opettajien joukkoon, jotka luovat ammattimaisia työarkkeja. Rajoittamaton generointi, kaupallinen lisenssi sisältyy.',

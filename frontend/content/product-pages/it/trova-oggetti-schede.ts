@@ -85,8 +85,8 @@ Questo strumento è perfetto per insegnanti italiani. Genera scheda gratuita per
 
   // Sample Gallery
   samples: {
-    sectionTitle: 'Schede Gratuite Trova gli Oggetti - Stampabili Gratuiti',
-    sectionDescription: 'Scarica esempi gratuiti per vedere la nostra qualità professionale',
+    sectionTitle: "Scheda Gratuita per Bambini - Schede Gratuite e Stampabili Gratuiti e Scheda per Bambini",
+    sectionDescription: "Scarica stampabili gratuiti - Scheda gratuita per bambini di qualità professionale. Schede gratuite e scheda per bambini perfette per scheda per scuola dell'infanzia. Scheda gratuita per bambini e scheda per bambini includono materiale educativo. Scheda gratuita e scheda per scuola dell'infanzia disponibile",
     downloadLabel: 'Scarica Esempio Gratuito',
     worksheetLabel: 'Scheda',
     answerKeyLabel: 'Soluzioni',
@@ -130,7 +130,7 @@ Questo strumento è perfetto per insegnanti italiani. Genera scheda gratuita per
 
   // Features Grid
   features: {
-    sectionTitle: 'Funzionalità Generatore - Schede Gratuite da Stampare',
+    sectionTitle: "Schede Gratuite e Scheda per Bambini - Stampabili Gratuiti e Scheda per Scuola dell'Infanzia",
     sectionDescription: 'Il nostro generatore di schede gratuite trova gli oggetti offre tutte le funzionalità essenziali. Crea stampabili gratuiti per scuola primaria in pochi minuti. Ogni funzione è stata progettata per insegnanti italiani. Genera scheda gratuita per bambini personalizzata senza competenze di design. Combina schede trova gli oggetti con schede matematica, disegni da colorare e altre risorse didattiche.',
     highlightBadgeText: 'Funzionalità Chiave',
     readMoreLabel: 'Leggi di più',
@@ -224,7 +224,7 @@ L'opzione scala di grigi converte schede a colori in bianco e nero. Questo rispa
 
   // How-To Guide Section
   howTo: {
-    sectionTitle: 'Come Creare Schede Gratuite in 5 Passaggi',
+    sectionTitle: "Scheda Gratuita per Bambini Creare - Scheda per Scuola dell'Infanzia",
     sectionDescription: 'Creare schede gratuite trova gli oggetti richiede meno di 3 minuti. Segui questi cinque passaggi semplici. Ogni passaggio è stato progettato per massima facilità. Non servono competenze tecniche o di design. Genera stampabili gratuiti professionali per scuola primaria rapidamente.',
     ctaText: 'Inizia Ora',
     badgeText: 'Guida Passo-Passo',
@@ -296,7 +296,7 @@ L'opzione scala di grigi converte schede a colori in bianco e nero. Seleziona la
 
   // Use Cases Section
   useCases: {
-    sectionTitle: 'Perfetto per Insegnanti - Schede Gratuite per Bambini',
+    sectionTitle: "Perfetto per Insegnanti - Schede Gratuite per Bambini",
     sectionDescription: 'Le schede gratuite trova gli oggetti servono diversi tipi di educatori. Insegnanti di scuola dell\'infanzia creano attività di osservazione visiva. Docenti di scuola primaria sviluppano capacità di discriminazione. Genitori homeschool integrano pregrafismo e schede matematica. Ogni gruppo trova valore in questi stampabili gratuiti versatili.',
     badgeText: 'Chi Usa le Nostre Schede',
     readMoreLabel: 'Leggi di più',
@@ -379,7 +379,7 @@ Amazon KDP permette creazione di libri di attività. Compila 50-100 schede gratu
 
   // FAQ Section
   faq: {
-    sectionTitle: 'Domande Frequenti - Schede Gratuite Trova gli Oggetti',
+    sectionTitle: "FAQ - Scheda Gratuita per Bambini e Scheda per Scuola dell'Infanzia. Scheda per Bambini",
     sectionDescription: 'Risposte alle domande più comuni sul nostro generatore di schede gratuite trova gli oggetti e stampabili gratuiti',
     showMoreText: 'Mostra altre domande',
     showLessText: 'Mostra meno domande',
@@ -531,7 +531,7 @@ La versatilità di 33 generatori rende l'abbonamento un eccellente investimento 
 
   // Related Apps Section
   relatedApps: {
-    sectionTitle: 'Combina con Altri Stampabili Gratuiti',
+    sectionTitle: "Combina con Altri Stampabili Gratuiti",
     sectionDescription: 'Il generatore di schede gratuite trova gli oggetti funziona magnificamente combinato con altri tipi di stampabili gratuiti. La piattaforma offre 33 generatori diversi per materiali stampabili. Crea pacchetti tematici coordinati che integrano scheda gratuita per bambini matematica, alfabetizzazione, pregrafismo, disegni da colorare e molto altro.',
     ctaTitle: 'Pronto a Creare Schede Gratuite Straordinarie?',
     ctaDescription: 'Unisciti a migliaia di educatori che creano schede gratuite professionali. Generazione illimitata di stampabili gratuiti, licenza commerciale inclusa.',

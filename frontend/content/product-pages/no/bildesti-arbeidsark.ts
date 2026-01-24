@@ -53,8 +53,8 @@ Perfekt for å lage finmotorikk øvelser, tall og telling aktiviteter og visuell
 
   // Sample Gallery - REAL file paths from samples/english/picture path/
   samples: {
-    sectionTitle: 'Bildesti Arbeidsark Eksempler',
-    sectionDescription: 'Last ned gratis eksempler på arbeidsark for å se vår profesjonelle kvalitet',
+    sectionTitle: 'Gratis Arbeidsark for Barn - Gratis Arbeidsark og Gratis Utskrifter',
+    sectionDescription: 'Last ned gratis utskrifter - Gratis arbeidsark for barn av profesjonell kvalitet. Gratis arbeidsark og arbeidsark for barn perfekt for arbeidsark for 1. trinn. Gratis arbeidsark for barn og arbeidsark for barn inkluderer gratis utskrifter undervisningsmateriell. Gratis arbeidsark og arbeidsark for 1. trinn tilgjengelig',
     badgeText: 'Gratis Eksempler',
     downloadLabel: 'Last ned Gratis Eksempel',
     downloadingLabel: 'Laster ned...',
@@ -91,7 +91,7 @@ Perfekt for å lage finmotorikk øvelser, tall og telling aktiviteter og visuell
 
   // Features Grid - FULL text from picture-path.md feature sections
   features: {
-    sectionTitle: 'Bildesti Funksjoner - Arbeidsark Gratis og Finmotorikk Øvelser for Alle Behov',
+    sectionTitle: 'Gratis Arbeidsark og Arbeidsark for Barn - Gratis Utskrifter og Arbeidsark for 1. Trinn',
     sectionDescription: 'Bildesti-generatoren kombinerer tre unike spillmoduser i én kraftig arbeidsarkmaker. Bildesti-modus skaper visuelle stier hvor barn følger bilder fra start til mål. Klassisk Labyrint-modus genererer tradisjonelle labyrinter med samleobjekter spredt gjennom labyrinten. Velg Riktig Sti-modus utfordrer barna til å finne den ene rette veien blant flere alternativer. Hver modus tilpasser seg ulike læringsnivåer og pedagogiske mål. Full Tilgang-abonnementet gir ubegrenset tilgang til alle tre modusene.',
     highlightBadgeText: 'Viktig Funksjon',
     readMoreLabel: 'Les mer',
@@ -171,7 +171,7 @@ Lag matteoppgaver eller leseforståelse aktiviteter med trykkeklar kvalitet. Aut
 
   // How-To Guide - FULL text from picture-path.md step sections
   howTo: {
-    sectionTitle: 'Hvordan Lage Arbeidsark Gratis Bildesti i 5 Enkle Trinn',
+    sectionTitle: 'Gratis Arbeidsark for Barn Lage - Arbeidsark for 1. Trinn',
     sectionDescription: 'Lag profesjonelle bildelabyrint-arbeidsark på under tre minutter. Ingen designerfaring nødvendig for å lage oppgavehefter barn med labyrintoppgaver. Velg bilder, tilpass innstillinger og last ned ferdig arbeidsark. Full Tilgang-abonnementet ditt gir ubegrenset tilgang til alle tre spillmodusene. Følg disse fem trinnene for å lage finmotorikk øvelser og matematikk oppgaver med bildelabyrinter. Prosessen er identisk enten du lager Bildesti, Klassisk Labyrint eller Velg Riktig Sti-aktiviteter.',
     ctaText: 'Start Nå',
     badgeText: 'Slik Fungerer Det',
@@ -233,7 +233,7 @@ PDF-format bevarer skarphet ved skalering. JPEG egner seg for sosiale medier-del
 
   // Use Cases - FULL text from picture-path.md use case sections
   useCases: {
-    sectionTitle: 'Perfekt for Lærere og Foreldre - Arbeidsark Gratis og Finmotorikk Øvelser for Alle Behov',
+    sectionTitle: 'Gratis Arbeidsark for Barn - Arbeidsark for 1. Trinn med Gratis Utskrifter. Arbeidsark for Barn',
     sectionDescription: 'Bildesti-generatoren passer alle som jobber med barn fra barnehage til småskoletrinn. Tre ulike spillmoduser dekker ulike læringsnivåer og pedagogiske mål. Bildesti egner seg for de yngste barna med enkel visuell sti-følging. Klassisk Labyrint utfordrer eldre barn med mer komplekse labyrint-løsninger. Velg Riktig Sti-modus utvikler kritisk tenkning gjennom valgsituasjoner. Full Tilgang-abonnementet gir alle brukergrupper ubegrenset tilgang til alle tre modusene. Lag oppgavehefter barn tilpasset hver enkelt elevgruppes behov.',
     badgeText: 'Hvem Er Det For',
     readMoreLabel: 'Les mer',
@@ -304,7 +304,7 @@ Selg matematikk oppgaver bunter for gangetabellen, addisjon og subtraksjon. Seso
 
   // FAQ Section - From picture-path.md
   faq: {
-    sectionTitle: 'Ofte Stilte Spørsmål - Gangetabellen, Tall og Telling og Bokstaver Lære Skrive',
+    sectionTitle: 'FAQ - Gratis Arbeidsark for Barn og Arbeidsark for 1. Trinn. Arbeidsark for Barn',
     sectionDescription: 'Norske lærere og foreldre stiller mange spørsmål om bildesti-generatoren. Her finner du svar på de mest vanlige spørsmålene. Temaer inkluderer abonnementskostnader, klasserombruk, kommersielt salg og tekniske funksjoner.',
     showMoreText: 'Vis flere spørsmål',
     showLessText: 'Vis færre',

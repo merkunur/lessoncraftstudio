@@ -70,8 +70,8 @@ Kleurplaten zijn essentieel voor de ontwikkeling van jonge kinderen. Ze stimuler
 
   // Sample Gallery - REAL file paths from samples/dutch/coloring/
   samples: {
-    sectionTitle: 'Gratis Werkbladen Kleurplaten Voorbeelden - Werkblad voor Kinderen Downloaden',
-    sectionDescription: 'Download gratis voorbeeldwerkbladen om onze professionele kwaliteit te ervaren',
+    sectionTitle: 'Gratis Werkblad voor Kinderen - Gratis Werkbladen en Gratis Printables',
+    sectionDescription: 'Download gratis printables - Gratis werkblad voor kinderen van professionele kwaliteit. Gratis werkbladen en werkblad voor kinderen perfect voor werkblad voor kleuters. Gratis werkblad voor kinderen en werkblad voor kinderen inclusief educatief materiaal. Gratis werkblad beschikbaar',
     downloadLabel: 'Gratis Voorbeeld Downloaden',
     worksheetLabel: 'Werkblad',
     answerKeyLabel: 'Antwoordblad',
@@ -122,7 +122,7 @@ Kleurplaten zijn essentieel voor de ontwikkeling van jonge kinderen. Ze stimuler
 
   // Features Grid - FULL text from coloring.md feature sections
   features: {
-    sectionTitle: 'Functies Gratis Werkblad Kleurplaten Generator - Alles voor Werkbladen Groep 3',
+    sectionTitle: 'Gratis Werkbladen en Werkblad voor Kinderen - Gratis Printables en Werkblad voor Kleuters',
     sectionDescription: 'Onze kleurplaten generator biedt alle functies die leerkrachten nodig hebben. Van eenvoudig maken tot volledig aanpassen. Hieronder vind je de belangrijkste mogelijkheden. Elke functie is ontworpen met het basisonderwijs in gedachten. Leerkrachten besparen uren per week met deze tool.',
     highlightBadgeText: 'Uitgelicht',
     readMoreLabel: 'Lees meer',
@@ -211,7 +211,7 @@ Kies tussen PDF of JPEG formaat. De grijswaarden optie bespaart inkt. Werkbladen
 
   // How-To Guide - FULL text from coloring.md step sections
   howTo: {
-    sectionTitle: 'Gratis Werkbladen Kleurplaten Maken - Gratis Printables in 5 Stappen',
+    sectionTitle: 'Gratis Werkblad voor Kinderen Maken - Werkblad voor Kleuters',
     sectionDescription: 'Het maken van professionele kleurplaten kost minder dan 3 minuten. Volg deze vijf stappen en je hebt een compleet werkblad. Geen ontwerpervaring nodig. De generator doet het zware werk voor je.',
     ctaText: 'Nu Starten',
     badgeText: 'Zo werkt het',
@@ -273,7 +273,7 @@ Selecteer grijswaarden om inkt te besparen. De oefenbladen gratis downloaden gaa
 
   // Use Cases - FULL text from coloring.md use case sections
   useCases: {
-    sectionTitle: 'Gratis Werkblad voor Kinderen - Kleurplaten voor Leerkrachten en Ouders',
+    sectionTitle: 'Gratis Werkblad voor Kinderen - Werkblad voor Kleuters met Gratis Printables. Werkblad voor Kinderen',
     sectionDescription: 'Onze kleurplaten generator is ontworpen voor verschillende gebruikers. Van kleuterjuffen tot thuisonderwijzende ouders. Ontdek hoe verschillende groepen de tool gebruiken.',
     badgeText: 'Voor wie',
     readMoreLabel: 'Lees meer',
@@ -344,7 +344,7 @@ Start een Etsy winkel met printbare oefenbladen. De 300 DPI kwaliteit is profess
 
   // FAQ Section - FULL FAQs from coloring.md
   faq: {
-    sectionTitle: 'Gratis Werkbladen FAQ - Veelgestelde Vragen over Kleurplaten en Werkblad voor Kleuters',
+    sectionTitle: 'FAQ - Gratis Werkblad voor Kinderen en Werkblad voor Kleuters. Werkblad voor Kinderen',
     sectionDescription: 'Hieronder beantwoorden we de meest gestelde vragen over onze kleurplaten generator. Van abonnementskosten tot printmogelijkheden.',
     showMoreText: 'Meer vragen tonen',
     showLessText: 'Minder tonen',
@@ -449,7 +449,7 @@ Start een Etsy winkel met printbare oefenbladen. De 300 DPI kwaliteit is profess
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Gratis Printables Pakketten - Combineer Kleurplaten met Andere Gratis Werkbladen',
+    sectionTitle: 'Gratis Werkbladen Combineren - Werkblad voor Kinderen en Gratis Printables',
     sectionDescription: 'Het Basispakket bevat tien werkblad generators die perfect samenwerken. Combineer kleurplaten met andere tools voor complete leerpakketten. Ontdek hoe je thematische bundels maakt voor elke lesweek.',
     ctaTitle: 'Klaar om geweldige werkbladen te maken?',
     ctaDescription: 'Sluit je aan bij duizenden leerkrachten die professionele werkbladen maken. Onbeperkt genereren, commerciële licentie inbegrepen.',

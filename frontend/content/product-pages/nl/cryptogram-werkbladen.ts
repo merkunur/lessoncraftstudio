@@ -93,8 +93,8 @@ Genereer cryptogram werkbladen in seconden. Pas elke letter-afbeelding toewijzin
 
   // Sample Gallery - REAL file paths from samples/english/cryptogram/
   samples: {
-    sectionTitle: 'Gratis Werkblad Cryptogram Voorbeelden',
-    sectionDescription: 'Download gratis werkbladen om onze professionele kwaliteit te ervaren - werkblad voor kinderen en werkblad voor kleuters',
+    sectionTitle: 'Gratis Werkblad voor Kinderen - Gratis Werkbladen en Gratis Printables',
+    sectionDescription: 'Download gratis printables - Gratis werkblad voor kinderen van professionele kwaliteit. Gratis werkbladen en werkblad voor kinderen perfect voor werkblad voor kleuters. Gratis werkblad voor kinderen en werkblad voor kinderen inclusief educatief materiaal. Gratis werkblad beschikbaar',
     downloadLabel: 'Gratis Voorbeeld Downloaden',
     worksheetLabel: 'Werkblad',
     answerKeyLabel: 'Antwoordblad',
@@ -138,7 +138,7 @@ Genereer cryptogram werkbladen in seconden. Pas elke letter-afbeelding toewijzin
 
   // Features Grid - FULL text from cryptogram.md feature sections
   features: {
-    sectionTitle: 'Cryptogram Generator Functies - Alles voor Oefenbladen Gratis en Werkbladen Groep 3',
+    sectionTitle: 'Gratis Werkbladen en Werkblad voor Kinderen - Gratis Printables en Werkblad voor Kleuters',
     sectionDescription: 'Onze cryptogram werkblad generator biedt alle tools die u nodig heeft voor het maken van professionele werkbladen groep 3 en werkbladen kleuters. Met uw Volledige Toegang abonnement krijgt u toegang tot krachtige functies voor het creëren van boeiende cryptogram puzzels. Elke functie is ontworpen om het maken van werkbladen snel en eenvoudig te maken voor leerkrachten groep 1 2 en basisschoolleerkrachten.',
     highlightBadgeText: 'Uitgelicht',
     readMoreLabel: 'Lees meer',
@@ -232,7 +232,7 @@ Download het werkblad en antwoordblad apart. Het antwoordblad toont de oplossing
 
   // How-To Guide - FULL text from cryptogram.md step sections
   howTo: {
-    sectionTitle: 'Hoe Maak Je Werkbladen Groep 3 in 5 Eenvoudige Stappen - Snelle Oefenbladen Gratis Generator',
+    sectionTitle: 'Gratis Werkblad voor Kinderen Maken - Werkblad voor Kleuters',
     sectionDescription: 'Het maken van professionele cryptogram werkbladen duurt minder dan 3 minuten van start tot finish. Onze stap-voor-stap proces is ontworpen voor drukke leerkrachten die snel hoogwaardige werkbladen groep 3 en werkbladen kleuters nodig hebben. Geen ontwerpvaardigheden vereist. Geen ingewikkelde software om te leren.',
     ctaText: 'Nu Starten',
     badgeText: 'Zo werkt het',
@@ -314,7 +314,7 @@ Uw gedownloade werkbladen zijn direct klaar voor gebruik. Print ze thuis op een 
 
   // Use Cases Section - FULL text from cryptogram.md use case sections
   useCases: {
-    sectionTitle: 'Perfect voor Leerkrachten en Ouders - Werkbladen Kleuters en Werkbladen Groep 3 voor Elke Behoefte',
+    sectionTitle: 'Gratis Werkblad voor Kinderen - Werkblad voor Kleuters met Gratis Printables. Werkblad voor Kinderen',
     sectionDescription: 'Onze cryptogram werkblad generator bedient diverse onderwijsbehoeften van kleuterscholen tot basisonderwijs. Leerkrachten groep 1 2 gebruiken het voor fijne motoriek en letters leren. Leerkrachten groep 3 maken werkbladen voor veilig leren lezen. Thuisonderwijsouders creëren oefenbladen gratis voor hun kinderen.',
     badgeText: 'Gebruikssituaties',
     readMoreLabel: 'Lees meer',
@@ -403,7 +403,7 @@ Gebruik de generator om snel voorraad op te bouwen. Maak seizoensgebonden bundel
 
   // FAQ Section - FULL questions and answers
   faq: {
-    sectionTitle: 'Veelgestelde Vragen over Cryptogram Werkbladen - Oefenbladen Gratis en Werkbladen Groep 3',
+    sectionTitle: 'FAQ - Gratis Werkblad voor Kinderen en Werkblad voor Kleuters. Werkblad voor Kinderen',
     sectionDescription: 'Leerkrachten en ouders hebben vergelijkbare vragen over onze cryptogram werkblad generator. Deze FAQ sectie beantwoordt de meest gestelde vragen over functionaliteit, prijzen en gebruik. Van werkbladen kleuters tot werkbladen groep 3 toepassingen.',
     showMoreText: 'Meer vragen tonen',
     showLessText: 'Minder tonen',
@@ -579,7 +579,7 @@ Thematische eenheden profiteren van cryptogram integratie. Maak puzzels over sei
 
   // Related Apps Section
   relatedApps: {
-    sectionTitle: 'Combineer Cryptogram Werkbladen met Andere Oefenbladen Gratis - Complete Leerpakketten voor Werkbladen Groep 3',
+    sectionTitle: 'Gratis Werkbladen Combineren - Werkblad voor Kinderen en Gratis Printables',
     sectionDescription: 'Uw Volledige Toegang abonnement bevat 33 gratis werkblad generatoren op één platform. Combineer cryptogram werkbladen met rekenen werkbladen, kleurplaten en andere tools. Maak complete thematische leerpakketten voor werkbladen groep 3 en werkbladen kleuters. Elke combinatie versterkt leren op meerdere manieren.',
     ctaTitle: 'Klaar om Professionele Werkbladen te Maken?',
     ctaDescription: 'Sluit u aan bij duizenden leerkrachten die professionele werkbladen maken met LessonCraft Studio.',

@@ -85,8 +85,8 @@ Med over 3000 barnvenlige billeder kan du nemt lave tematiske arbejdsark. Kombin
 
   // Sample Gallery - REAL file paths from samples/english/big small/
   samples: {
-    sectionTitle: 'Gratis Arbejdsark Eksempler - Stor og Lille til Børn',
-    sectionDescription: 'Download gratis eksempler på stor og lille arbejdsark for at se vores professionelle kvalitet',
+    sectionTitle: 'Gratis Arbejdsark til Børn - Gratis Arbejdsark og Gratis Printables',
+    sectionDescription: 'Download gratis printables - Gratis arbejdsark til børn af professionel kvalitet. Gratis arbejdsark og arbejdsark til børn perfekt til arbejdsark til børnehaveklasse. Gratis arbejdsark til børn og arbejdsark til børn inkluderer undervisningsmateriale. Gratis arbejdsark tilgængeligt',
     badgeText: 'Gratis Eksempler',
     downloadLabel: 'Download Gratis Eksempel',
     downloadingLabel: 'Downloader...',
@@ -137,7 +137,7 @@ Med over 3000 barnvenlige billeder kan du nemt lave tematiske arbejdsark. Kombin
 
   // Features Grid - FULL text from big-small.md feature sections
   features: {
-    sectionTitle: 'Funktioner til Gratis Opgaver til Print - Alt Du Behøver for Professionelle Arbejdsark og Kopiark',
+    sectionTitle: 'Gratis Arbejdsark og Arbejdsark til Børn - Gratis Printables og Arbejdsark til Børnehaveklasse',
     sectionDescription: 'Vores stor og lille generator indeholder alle funktioner pædagoger behøver for at lave engagerende opgaver til print. Med Fuld Adgang får du adgang til professionelle værktøjer der gør det nemt at skabe tilpassede arbejdsark til børnehaveklassen, 0. klasse og 1. klasse. Hver funktion er designet til at spare tid og give dig fleksibilitet til at lave præcis de opgaver dine elever har brug for. Fra matematikopgaver til finmotorik øvelser er alt inkluderet i dit abonnement.',
     highlightBadgeText: 'Vigtig Funktion',
     readMoreLabel: 'Læs mere',
@@ -231,7 +231,7 @@ PDF formatet bevarer kvaliteten uanset hvor mange gange du printer. Gem opgavern
 
   // How-To Guide - FULL text from big-small.md step sections
   howTo: {
-    sectionTitle: 'Sådan Laver Du Gratis Opgaver til Print på 5 Nemme Trin - Matematikopgaver og Arbejdsark til 0. Klasse',
+    sectionTitle: 'Gratis Arbejdsark til Børn Oprette - Arbejdsark til Børnehaveklasse',
     sectionDescription: 'Opret professionelle størrelsesopgaver på under 3 minutter fra start til færdig download. Denne trin-for-trin guide viser dig præcis hvordan du bruger generatoren til at lave tilpassede arbejdsark og kopiark. Ingen tekniske færdigheder kræves. Følg bare de 5 simple trin nedenfor og du har færdige opgaver til print klar til din klasse. Perfekt til travle pædagoger der har brug for hurtige løsninger til børnehaveklassen og indskolingen.',
     badgeText: 'Trin-for-Trin Guide',
     readMoreLabel: 'Læs mere',
@@ -319,7 +319,7 @@ Gem PDF filerne på din computer. Organisér dem i mapper efter tema eller klass
 
   // Use Cases - FULL text from big-small.md use case sections
   useCases: {
-    sectionTitle: 'Perfekt til Pædagoger og Forældre - Gratis Opgaver til Print for Matematikopgaver og Arbejdsark til Alle Behov',
+    sectionTitle: 'Gratis Arbejdsark til Børn - Arbejdsark til Børnehaveklasse med Gratis Printables. Arbejdsark til Børn',
     sectionDescription: 'Vores størrelsesopgave generator passer til mange forskellige undervisningssituationer. Fra børnehaveklassen til 3. klasse bruger pædagoger generatoren til forskellige formål. Hjemmeundervisningsforældre finder den uvurderlig til daglig brug. Specialpædagoger kan nemt tilpasse opgaverne til forskellige niveauer. Uanset om du underviser i 0. klasse eller arbejder med ældre elever er generatoren et alsidigt værktøj.',
     badgeText: 'Brugseksempler',
     readMoreLabel: 'Læs mere',
@@ -480,7 +480,7 @@ Byg et brand omkring dine opgaver. Lav en konsekvent visuel stil. Brug samme skr
 
   // FAQ Section - FULL text from big-small.md FAQ sections
   faq: {
-    sectionTitle: 'Ofte Stillede Spørgsmål Om Gratis Opgaver til Print og Matematikopgaver til Arbejdsark',
+    sectionTitle: 'FAQ - Gratis Arbejdsark til Børn og Arbejdsark til Børnehaveklasse. Arbejdsark til Børn',
     sectionDescription: 'Pædagoger og forældre har mange spørgsmål om størrelsesopgave generatoren før de begynder at bruge den. Her er svarene på de mest almindelige spørgsmål. Disse svar hjælper dig med at forstå præcis hvordan generatoren virker og hvad du kan lave med den.',
     badgeText: 'FAQ',
     readMoreLabel: 'Læs mere',

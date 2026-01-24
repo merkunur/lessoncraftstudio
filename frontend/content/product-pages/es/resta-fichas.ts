@@ -85,8 +85,8 @@ La plataforma incluye más de 3000 imágenes apropiadas para niños. Selecciona 
 
   // Sample Gallery - REAL file paths from samples/english/subtraction/
   samples: {
-    sectionTitle: 'Ejemplos de Fichas de Restas',
-    sectionDescription: 'Descarga ejemplos gratuitos para ver nuestra calidad profesional',
+    sectionTitle: 'Ficha Gratis para Niños - Fichas Gratis e Imprimibles Gratis',
+    sectionDescription: 'Descarga imprimibles gratis - Ficha gratis para niños de calidad profesional. Fichas gratis y ficha para niños perfectas para ficha para preescolar. Ficha gratis para niños y ficha para niños incluyen material educativo. Ficha gratis disponible',
     downloadLabel: 'Descargar Ejemplo Gratis',
     worksheetLabel: 'Ficha',
     answerKeyLabel: 'Respuestas',
@@ -137,7 +137,7 @@ La plataforma incluye más de 3000 imágenes apropiadas para niños. Selecciona 
 
   // Features Grid - FULL text from subtraction.md feature sections
   features: {
-    sectionTitle: 'Características del Generador de Fichas de Restas - Todo lo que Necesitas para Ejercicios Matemáticas Efectivos',
+    sectionTitle: 'Fichas Gratis y Ficha para Niños - Imprimibles Gratis y Ficha para Preescolar',
     sectionDescription: 'Nuestro generador de fichas de matemáticas incluye características profesionales diseñadas específicamente para maestros. Cada función te ayuda a crear material educativo gratis personalizado en minutos. La plataforma combina facilidad de uso con control total sobre el diseño. La suscripción Acceso Completo te da acceso ilimitado a todas estas funciones por $240 al año o $25 al mes.',
     highlightBadgeText: 'Característica Clave',
     readMoreLabel: 'Leer más',
@@ -242,7 +242,7 @@ Descarga hojas de estudiantes y claves de respuestas por separado. Imprime la ca
 
   // How-To Guide - FULL text from subtraction.md step sections
   howTo: {
-    sectionTitle: 'Cómo Crear Fichas de Matemáticas de Restas en 5 Pasos Fáciles - Genera Ejercicios Matemáticas Profesionales',
+    sectionTitle: 'Ficha Gratis para Niños Crear - Ficha para Preescolar',
     sectionDescription: 'Crea fichas para imprimir profesionales en menos de 3 minutos. El proceso es intuitivo incluso para maestros sin experiencia en diseño. Cada paso te guía claramente. No necesitas habilidades técnicas. La interfaz en español facilita todo. Sigue estos cinco pasos simples para crear material educativo gratis personalizado para tus estudiantes.',
     ctaText: 'Comenzar Ahora',
     badgeText: 'Cómo Funciona',
@@ -324,7 +324,7 @@ Guarda tus archivos descargados en ubicación organizada. Nómbralos claramente 
 
   // Use Cases - FULL text from subtraction.md use case sections
   useCases: {
-    sectionTitle: 'Perfecto para Maestros, Padres y Educadores - Fichas para Imprimir para Cada Necesidad de Números',
+    sectionTitle: 'Ficha Gratis para Niños - Ficha para Preescolar con Imprimibles Gratis. Ficha para Niños',
     sectionDescription: 'Nuestro generador de fichas de restas sirve a educadores en múltiples contextos. Maestros de escuela encuentran herramientas profesionales para instrucción diaria. Padres que educan en casa aprecian la flexibilidad de dificultad. Maestros de educación especial valoran las opciones de diferenciación. Cada grupo de usuarios obtiene valor único de las características de la plataforma.',
     badgeText: 'Para Quién',
     readMoreLabel: 'Leer más',
@@ -403,7 +403,7 @@ La calidad de 300 DPI es esencial para productos comerciales. Los compradores es
 
   // FAQ Section - FULL text from subtraction.md FAQ sections
   faq: {
-    sectionTitle: 'Preguntas Frecuentes sobre Fichas para Imprimir de Restas - Material Educativo Gratis de Números',
+    sectionTitle: 'FAQ - Ficha Gratis para Niños y Ficha para Preescolar. Ficha para Niños',
     sectionDescription: 'Los maestros tienen preguntas comunes sobre nuestro generador. Esta sección responde las consultas más frecuentes. Cubrimos precios, uso en clase, opciones de personalización y más. Lee estas respuestas antes de suscribirte. Comprende exactamente qué obtienes con tu inversión.',
     showMoreText: 'Mostrar más preguntas',
     showLessText: 'Mostrar menos',
@@ -526,7 +526,7 @@ Los maestros de educación temática aprecian particularmente esta flexibilidad.
 
   // Related Apps Section
   relatedApps: {
-    sectionTitle: 'Combina Fichas de Restas con Otras Fichas para Imprimir - Material Educativo Gratis de Paquetes Completos',
+    sectionTitle: 'Fichas Gratis Combinar - Ficha para Niños e Imprimibles Gratis',
     sectionDescription: 'Los maestros crean paquetes de aprendizaje integrales combinando múltiples tipos de hojas. Las fichas de restas funcionan excelentemente con material educativo gratis de otras materias. La plataforma ofrece 33 generadores diferentes de fichas para imprimir. Combina restas con lectoescritura, grafomotricidad, colorear y más. Crea paquetes temáticos que cubran múltiples habilidades simultáneamente.',
     ctaTitle: '¿Listo para Crear Fichas de Matemáticas Increíbles?',
     ctaDescription: 'Únete a miles de educadores que crean fichas para imprimir profesionales con nuestros 33 generadores de hojas de trabajo.',

@@ -89,8 +89,8 @@ Onze generator biedt twee verschillende modiussen voor gevarieerde oefeningen. D
 
   // Sample Gallery - REAL file paths from samples/dutch/odd-one-out/
   samples: {
-    sectionTitle: 'Welke Hoort Niet Bij Werkbladen Voorbeelden',
-    sectionDescription: 'Download gratis voorbeeldwerkbladen om onze professionele kwaliteit te ervaren',
+    sectionTitle: 'Gratis Werkblad voor Kinderen - Gratis Werkbladen en Gratis Printables',
+    sectionDescription: 'Download gratis printables - Gratis werkblad voor kinderen van professionele kwaliteit. Gratis werkbladen en werkblad voor kinderen perfect voor werkblad voor kleuters. Gratis werkblad voor kinderen en werkblad voor kinderen inclusief educatief materiaal. Gratis werkblad beschikbaar',
     downloadLabel: 'Gratis Voorbeeld Downloaden',
     worksheetLabel: 'Werkblad',
     answerKeyLabel: 'Antwoordblad',
@@ -134,7 +134,7 @@ Onze generator biedt twee verschillende modiussen voor gevarieerde oefeningen. D
 
   // Features Grid - FULL text from odd-one-out.md feature sections
   features: {
-    sectionTitle: 'Functies Welke-Hoort-Niet-Bij Generator - Gratis Werkbladen en Werkblad voor Kinderen en Kleuters',
+    sectionTitle: 'Gratis Werkbladen en Werkblad voor Kinderen - Gratis Printables en Werkblad voor Kleuters',
     sectionDescription: 'Onze welke-hoort-niet-bij generator combineert krachtige functies met eenvoudige bediening. Perfect voor leerkrachten die werkbladen kleuters en groep 1 2 werkbladen maken. Elke functie is ontworpen om tijd te besparen en professionele resultaten te leveren. Van fijne motoriek oefeningen tot rekenen werkbladen en kleurplaten. Je Volledige Toegang abonnement geeft toegang tot alle functies zonder beperkingen. Maak aangepaste oefenbladen gratis van extra kosten per werkblad.',
     highlightBadgeText: 'Uitgelicht',
     readMoreLabel: 'Lees meer',
@@ -239,7 +239,7 @@ Wissel tussen modi voor gevarieerde oefeningen. Combineer beide in één werkbla
 
   // How-To Guide - FULL text from odd-one-out.md step sections
   howTo: {
-    sectionTitle: 'Hoe Maak Je Gratis Werkbladen en Werkblad voor Kinderen in 5 Eenvoudige Stappen',
+    sectionTitle: 'Gratis Werkblad voor Kinderen Maken - Werkblad voor Kleuters',
     sectionDescription: 'Creëer professionele welke-hoort-niet-bij werkbladen in minder dan 3 minuten. Deze stapsgewijze handleiding laat zien hoe eenvoudig het proces is. Geen technische vaardigheden nodig voor het maken van werkbladen kleuters. Volg deze vijf stappen en download je eerste werkblad vandaag. Perfect voor drukke leerkrachten die snel kwalitatieve oefenbladen gratis van tijdverlies willen maken.',
     ctaText: 'Nu Starten',
     badgeText: 'Zo werkt het',
@@ -325,7 +325,7 @@ Print je gedownloade werkblad op elk type printer. Laser printers geven de scher
 
   // Use Cases - FULL text from odd-one-out.md use case sections
   useCases: {
-    sectionTitle: 'Perfect voor Leerkrachten, Ouders en Opvoeders - Gratis Werkblad voor Kinderen en Kleuters voor Elke Behoefte',
+    sectionTitle: 'Gratis Werkblad voor Kinderen - Werkblad voor Kleuters met Gratis Printables. Werkblad voor Kinderen',
     sectionDescription: 'De welke-hoort-niet-bij generator dient verschillende gebruikers in het onderwijs. Van kleuterschool tot basisschool groep 5. Thuisonderwijs gezinnen tot internationale scholen. Elke gebruikersgroep vindt unieke waarde in deze tool. Maak werkbladen kleuters voor visuele discriminatie of werkbladen groep 3 voor categorisatie. De flexibiliteit past bij alle onderwijsbehoeften.',
     badgeText: 'Voor wie',
     readMoreLabel: 'Lees meer',
@@ -420,7 +420,7 @@ Bouw een mailing lijst van trouwe klanten. Bied gratis sample werkbladen aan in 
 
   // FAQ Section - FULL FAQs from odd-one-out.md
   faq: {
-    sectionTitle: 'Veelgestelde Vragen over Gratis Werkblad en Werkblad voor Kinderen Welke-Hoort-Niet-Bij',
+    sectionTitle: 'FAQ - Gratis Werkblad voor Kinderen en Werkblad voor Kleuters. Werkblad voor Kinderen',
     sectionDescription: 'Leerkrachten stellen regelmatig vragen over de welke-hoort-niet-bij generator. Deze sectie beantwoordt de meest voorkomende vragen. Van abonnement informatie tot technische mogelijkheden. Alle antwoorden zijn gebaseerd op daadwerkelijke functionaliteit. Lees deze FAQ voordat je begint met werkbladen maken.',
     showMoreText: 'Meer vragen tonen',
     showLessText: 'Minder tonen',

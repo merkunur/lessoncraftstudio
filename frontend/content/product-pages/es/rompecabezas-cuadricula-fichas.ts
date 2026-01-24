@@ -80,8 +80,8 @@ Los estudiantes combinan piezas mezcladas para completar imágenes. Cada ficha i
 
   // Sample Gallery - REAL file paths from samples/english/grid match/
   samples: {
-    sectionTitle: 'Ejemplos de Fichas de Rompecabezas de Cuadrícula',
-    sectionDescription: 'Descarga ejemplos gratuitos para ver nuestra calidad profesional',
+    sectionTitle: 'Ficha Gratis para Niños - Fichas Gratis e Imprimibles Gratis',
+    sectionDescription: 'Descarga imprimibles gratis - Ficha gratis para niños de calidad profesional. Ficha para niños perfecta para ficha para preescolar. Ficha gratis para niños y ficha para niños incluyen material educativo. Ficha gratis disponible',
     downloadLabel: 'Descargar Ejemplo Gratis',
     worksheetLabel: 'Ficha',
     answerKeyLabel: 'Respuestas',
@@ -125,7 +125,7 @@ Los estudiantes combinan piezas mezcladas para completar imágenes. Cada ficha i
 
   // Features Grid - FULL text from grid-match.md feature sections
   features: {
-    sectionTitle: 'Funciones del Generador de Rompecabezas - Fichas para Imprimir con Todas las Herramientas',
+    sectionTitle: 'Fichas Gratis y Ficha para Niños - Imprimibles Gratis y Ficha para Preescolar',
     sectionDescription: 'Nuestro generador de rompecabezas de cuadrícula ofrece funciones completas para crear fichas infantil personalizadas. Cada función está diseñada para maestros de preescolar y primaria. Las herramientas profesionales hacen que crear fichas para imprimir sea rápido y fácil. Tu suscripción Acceso Completo incluye todas estas funciones sin cargos adicionales.',
     highlightBadgeText: 'Característica Clave',
     readMoreLabel: 'Leer más',
@@ -217,7 +217,7 @@ Descarga hojas de trabajo individuales. Guarda claves de respuestas por separado
 
   // How-To Guide - FULL text from grid-match.md how-to sections
   howTo: {
-    sectionTitle: 'Cómo Crear Fichas para Imprimir de Rompecabezas en 5 Pasos Fáciles',
+    sectionTitle: 'Ficha Gratis para Niños Crear - Ficha para Preescolar',
     sectionDescription: 'Crear rompecabezas de cuadrícula profesionales toma menos de 3 minutos. Este proceso paso a paso funciona para todas las fichas infantil. No necesitas experiencia en diseño. El generador hace el trabajo pesado automáticamente. Tus fichas preescolar estarán listas para imprimir rápidamente. Sigue estos cinco pasos simples para crear material educativo gratis perfecto.',
     badgeText: 'Cómo Funciona',
     stepLabel: 'Paso',
@@ -283,7 +283,7 @@ La descarga comienza automáticamente. El archivo se guarda en tu carpeta de Des
 
   // Use Cases - FULL text from grid-match.md use case sections
   useCases: {
-    sectionTitle: 'Perfecto para Maestros y Padres - Fichas para Imprimir para Cada Necesidad Educativa',
+    sectionTitle: 'Ficha Gratis para Niños - Ficha para Preescolar con Imprimibles Gratis. Ficha para Niños',
     sectionDescription: 'Los rompecabezas de cuadrícula benefician a muchos tipos de educadores. Maestros de preescolar hasta tercer grado usan estas fichas infantil diariamente. Padres homeschool crean planes de lección completos. Maestros de ESL desarrollan vocabulario visual. Educadores especiales diferencian instrucción. Emprendedores maestros generan ingresos pasivos. Cada grupo encuentra valor único en estas fichas para imprimir versátiles.',
     badgeText: 'Para Quién Es',
     readMoreLabel: 'Leer más',
@@ -360,7 +360,7 @@ Usa rompecabezas para metas de IEP de grafomotricidad. Los estudiantes practican
 
   // FAQ Section - FULL text from grid-match.md FAQ sections
   faq: {
-    sectionTitle: 'Preguntas Frecuentes - Fichas para Imprimir de Rompecabezas de Cuadrícula',
+    sectionTitle: 'FAQ - Ficha Gratis para Niños y Ficha para Preescolar. Ficha para Niños',
     sectionDescription: 'Los maestros preguntan frecuentemente sobre rompecabezas de cuadrícula antes de suscribirse. Esta sección responde preguntas comunes. Aprende sobre compatibilidad, personalización y aplicaciones educativas. Descubre cómo las fichas para imprimir funcionan con diferentes niveles de grado. Entiende opciones de licencia comercial. Las respuestas ayudan a tomar decisiones informadas.',
     badgeText: 'Preguntas Frecuentes',
     readMoreLabel: 'Leer más',
@@ -438,7 +438,7 @@ Guarda archivos descargados para reutilización futura. Construye bibliotecas de
 
   // Related Apps - Other apps that work well with this one
   relatedApps: {
-    sectionTitle: 'Combina con Otros Generadores de Fichas - Material Educativo Completo',
+    sectionTitle: 'Fichas Gratis Combinar - Ficha para Niños e Imprimibles Gratis',
     sectionDescription: 'Tu suscripción Acceso Completo incluye 30+ generadores que funcionan perfectamente juntos. Crea unidades temáticas completas combinando rompecabezas de cuadrícula con otros tipos de fichas.',
     badgeText: 'Funciona Bien Con',
     exploreText: 'Explorar Todas las Apps',

@@ -78,7 +78,7 @@ Full Access subscription includes commercial licensing for Teachers Pay Teachers
 
   // Sample Gallery - REAL file paths from samples/english/pattern worksheet/
   samples: {
-    sectionTitle: 'Free Pattern Worksheet Samples',
+    sectionTitle: 'Free Worksheet for Kids - Free Worksheets and Free Printables',
     downloadLabel: 'Download Free Sample',
     worksheetLabel: 'Worksheet',
     answerKeyLabel: 'Answer Key',
@@ -123,7 +123,7 @@ Full Access subscription includes commercial licensing for Teachers Pay Teachers
 
   // Features Grid - FULL descriptions from pattern-worksheet.md H3 sections
   features: {
-    sectionTitle: 'Everything You Need for Free Printable Kindergarten Worksheets and Math Worksheets',
+    sectionTitle: 'Free Worksheet for Kids Features - Worksheet for Kindergarten and Free Printables',
     sectionDescription: 'Pattern worksheet generator includes seven essential features for creating professional kindergarten worksheets and math worksheets. Generate unlimited pattern worksheets with your Full Access subscription. Each feature works together to create free printable worksheets in minutes. Teachers customize every element for first grade math instruction and kindergarten pattern recognition practice.',
     highlightBadgeText: 'Key Feature',
     items: [
@@ -225,7 +225,7 @@ Full Access subscription includes commercial licensing for Teachers Pay Teachers
 
   // Use Cases - FULL descriptions from pattern-worksheet.md persona sections
   useCases: {
-    sectionTitle: 'Free Worksheets for Teachers, Parents, and Educators',
+    sectionTitle: 'Free Worksheet for Kids for Teachers - Worksheet for Kindergarten',
     sectionDescription: 'Pattern worksheet generator serves six distinct user groups with specialized worksheet needs. Kindergarten teachers create alphabet worksheets and phonics worksheets for early literacy. First grade teachers generate math worksheets and addition worksheets for elementary math practice. Homeschool parents download free printable worksheets for multi-grade teaching. ESL teachers design sight words worksheets in 11 languages. Special education teachers customize tracing worksheets and coloring worksheets for differentiated learning. Teacher entrepreneurs sell pattern worksheets on Teachers Pay Teachers using included commercial licensing.',
     items: [
       {
@@ -281,7 +281,7 @@ Full Access subscription includes commercial licensing for Teachers Pay Teachers
 
   // FAQ Section - ALL questions from pattern-worksheet.md
   faq: {
-    sectionTitle: 'Frequently Asked Questions',
+    sectionTitle: 'FAQ - Free Printables and Worksheet for Kindergarten',
     sectionDescription: 'Teachers and parents commonly ask questions about pattern worksheet features and subscription benefits. Learn how pattern worksheets support sight words instruction and phonics practice. Discover whether you can create alphabet worksheets and tracing worksheets for multiple grade levels.',
     showMoreText: 'Show more questions',
     showLessText: 'Show less',
@@ -404,7 +404,7 @@ Full Access subscription includes commercial licensing for Teachers Pay Teachers
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Combine Pattern Worksheets with Other Apps',
+    sectionTitle: 'More Free Worksheets - Worksheet for Kids Generators',
     sectionDescription: 'Pattern worksheet generator combines with 32 other Full Access apps creating comprehensive learning packets. Combine pattern recognition with sight words worksheets for literacy-math integration. Pair addition worksheets with pattern practice for complete math skill coverage. Create unified phonics worksheets bundles addressing multiple early elementary standards.',
     ctaTitle: 'Ready to Create Amazing Worksheets?',
     ctaDescription: 'Join educators creating professional worksheets. Unlimited generation, commercial license included.',

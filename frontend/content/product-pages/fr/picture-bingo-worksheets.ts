@@ -83,8 +83,8 @@ Notre générateur de bingo illustré crée deux fiches à imprimer à chaque g�
 
   // Sample Gallery - REAL file paths from samples/english/bingo/
   samples: {
-    sectionTitle: 'Exemples de Cartes Bingo',
-    sectionDescription: 'Téléchargez des exemples gratuits pour voir notre qualité professionnelle',
+    sectionTitle: 'Fiche Gratuite pour Enfants - Fiches Gratuites et Imprimables Gratuits',
+    sectionDescription: 'Téléchargez imprimables gratuits - Fiche gratuite pour enfants de qualité professionnelle. Fiches gratuites et fiche pour enfants parfaites pour fiche pour maternelle. Fiche gratuite pour enfants et fiches gratuites inclus matériel éducatif. Fiche gratuite et fiches gratuites disponible',
     downloadLabel: 'Télécharger Exemple Gratuit',
     worksheetLabel: 'Carte Bingo',
     answerKeyLabel: 'Feuille d\'Appel',
@@ -135,7 +135,7 @@ Notre générateur de bingo illustré crée deux fiches à imprimer à chaque g�
 
   // Features Grid - FULL text from picture-bingo.md feature sections
   features: {
-    sectionTitle: 'Fonctionnalités Bingo Illustré - Tout pour Créer des Fiches Maternelle et Exercices CP CE1',
+    sectionTitle: 'Fiches Gratuites et Fiche pour Enfants - Imprimables Gratuits et Fiche pour Maternelle',
     sectionDescription: 'Notre générateur de cartes bingo illustrées comprend tout ce dont les enseignants ont besoin pour créer des fiches maternelle professionnelles et des exercices CP CE1. Générez des fiches à imprimer gratuit personnalisables pour les exercices maths, les activités de graphisme maternelle, l\'apprentissage de l\'alphabet et le coloriage à imprimer. Chaque fonctionnalité vous aide à créer des fiches pédagogiques engageantes que vos élèves adorent. Votre abonnement Pack Essentiel vous donne un accès illimité à toutes les fonctionnalités du bingo illustré sans frais par fiche.',
     highlightBadgeText: 'Fonctionnalité Clé',
     readMoreLabel: 'Lire la suite',
@@ -215,7 +215,7 @@ L'option niveaux de gris économise l'encre lors de l'impression de grands ensem
 
   // How-To Guide - FULL text from picture-bingo.md step sections
   howTo: {
-    sectionTitle: 'Comment Créer des Cartes Bingo en 5 Étapes - Fiches Maternelle à Imprimer Gratuit et Graphisme Maternelle',
+    sectionTitle: 'Fiche Gratuite pour Enfants Créer - Fiche pour Maternelle',
     sectionDescription: 'Créez des cartes bingo professionnelles en moins de 3 minutes du début à la fin. Notre processus étape par étape vous guide de la sélection des images au téléchargement de fiches prêtes à imprimer. Aucune expérience en design n\'est nécessaire pour générer des fiches maternelle et des exercices CP CE1. Chaque étape ne prend que quelques secondes. Suivez ces cinq étapes simples pour créer des cartes bingo personnalisées pour les exercices maths, les activités de coloriage à imprimer, le graphisme maternelle, l\'alphabet et bien plus encore.',
     ctaText: 'Commencer Maintenant',
     badgeText: 'Guide Étape par Étape',
@@ -277,7 +277,7 @@ Lorsque vous avez généré plusieurs cartes, le téléchargement crée un fichi
 
   // Use Cases - FULL text from picture-bingo.md use case sections
   useCases: {
-    sectionTitle: 'Parfait pour Enseignants, Parents et Éducateurs - Fiches Maternelle et Exercices CP CE1 pour Tous les Besoins',
+    sectionTitle: 'Fiche Gratuite pour Enfants - Fiche pour Maternelle avec Imprimables Gratuits. Fiche pour Enfants',
     sectionDescription: 'Les cartes bingo illustrées servent divers contextes éducatifs de la petite section au CE2. Les enseignants de tous les niveaux utilisent notre générateur de cartes bingo pour créer des fiches à imprimer gratuit engageantes pour les exercices maths, les activités de lecture et l\'enrichissement du vocabulaire. Notre abonnement Pack Essentiel offre une création illimitée de fiches bingo pour les enseignants de maternelle, les professeurs des écoles en CP et CE1, les parents faisant l\'instruction en famille, les enseignants FLE, les enseignants spécialisés et les enseignants entrepreneurs.',
     badgeText: 'Cas d\'Utilisation',
     readMoreLabel: 'Lire la suite',
@@ -348,7 +348,7 @@ Créez des lots de bingo thématiques pour les ventes saisonnières comme des bi
 
   // FAQ Section - Selected FAQs from picture-bingo.md
   faq: {
-    sectionTitle: 'Questions Fréquentes sur les Cartes Bingo - Fiches à Imprimer Gratuit, Graphisme Maternelle et Coloriage à Imprimer',
+    sectionTitle: 'FAQ - Fiche Gratuite pour Enfants et Fiche pour Maternelle. Fiche pour Enfants',
     sectionDescription: 'Les enseignants posent des questions courantes sur la création de cartes bingo illustrées avec notre générateur. Ces réponses aident les enseignants de maternelle, les professeurs des écoles en CP et CE1, les parents en instruction en famille et les enseignants FLE à comprendre comment créer des fiches bingo pour leurs classes.',
     showMoreText: 'Voir plus de questions',
     showLessText: 'Voir moins',
@@ -519,7 +519,7 @@ Utilisez des fiches bingo pour apprendre les lettres de manière progressive : c
 
   // Related Apps - From picture-bingo.md Section 7
   relatedApps: {
-    sectionTitle: 'Combinez le Bingo avec d\'Autres Fiches - Apprendre à Lire, Tables de Multiplication et Écriture Cursive',
+    sectionTitle: 'Fiches Gratuites Combiner - Fiche pour Enfants et Imprimables Gratuits',
     sectionDescription: 'Les enseignants combinent les cartes bingo illustrées avec d\'autres fiches imprimables pour créer des paquets d\'apprentissage complets. Votre abonnement Pack Essentiel comprend 33 générateurs de fiches au-delà du bingo illustré. Créez des jeux d\'association, des fiches de coloriage, des fiches de tracé, des fiches alphabet, des exercices maths et des fiches de phonologie en utilisant le même abonnement.',
     ctaTitle: 'Prêt à Créer des Cartes Bingo Professionnelles ?',
     ctaDescription: 'Rejoignez des milliers d\'enseignants qui créent des fiches maternelle de qualité. Création illimitée, licence commerciale incluse.',

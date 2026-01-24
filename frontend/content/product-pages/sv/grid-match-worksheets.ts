@@ -85,8 +85,8 @@ Rutnätsmatching-arbetsblad fungerar utmärkt som finmotorik övningar för för
 
   // Sample Gallery - REAL file paths from samples/swedish/grid-match/
   samples: {
-    sectionTitle: 'Exempel på Rutnätsmatching Arbetsblad Gratis - Förskoleklass Material',
-    sectionDescription: 'Ladda ner gratis exempelarbetsblad för att se vår professionella kvalitet. Rutnätsmatching arbetsblad för förskoleklass, finmotorik övningar och matematik arbetsblad.',
+    sectionTitle: 'Gratis Arbetsblad för Barn - Gratis Arbetsblad och Gratis Utskrifter',
+    sectionDescription: 'Ladda ner gratis utskrifter - Gratis arbetsblad för barn av professionell kvalitet. Gratis arbetsblad och arbetsblad för barn perfekt för arbetsblad för förskoleklass. Gratis arbetsblad för barn och arbetsblad för barn inkluderar utbildningsmaterial. Gratis arbetsblad och gratis utskrifter tillgänglig',
     downloadLabel: 'Ladda Ner Gratis Exempel',
     worksheetLabel: 'Arbetsblad',
     answerKeyLabel: 'Facit',
@@ -137,7 +137,7 @@ Rutnätsmatching-arbetsblad fungerar utmärkt som finmotorik övningar för för
 
   // Features Grid - FULL text from grid-match.md feature sections
   features: {
-    sectionTitle: 'Rutnätsmatching-funktioner - Allt du Behöver för Arbetsblad Gratis och Förskoleklass Material',
+    sectionTitle: 'Gratis Arbetsblad och Arbetsblad för Barn - Gratis Utskrifter och Arbetsblad för Förskoleklass',
     sectionDescription: 'Vår svenska rutnätsmatching-generator ger dig professionella verktyg för att skapa arbetsblad gratis. Perfekt för förskoleklass material, finmotorik övningar och matematik arbetsblad. Full Tillgång-prenumeration inkluderar alla funktioner utan extra avgifter. Skapa obegränsade rutnätsmatching-arbetsblad för dina elever på årskurs 1, 2 och 3.',
     highlightBadgeText: 'Nyckelfunktion',
     readMoreLabel: 'Läs mer',
@@ -217,7 +217,7 @@ Högupplöst kvalitet säkerställer tydliga bilder även vid utskrift. Rutnäts
 
   // How-To Guide - FULL text from grid-match.md step sections
   howTo: {
-    sectionTitle: 'Hur du Skapar Arbetsblad Gratis med Rutnätsmatching i 5 Enkla Steg',
+    sectionTitle: 'Gratis Arbetsblad för Barn Skapa - Arbetsblad för Förskoleklass och Gratis Utskrifter',
     sectionDescription: 'Skapa professionella rutnätsmatching-arbetsblad på mindre än tre minuter. Vår svenska generator gör det enkelt att skapa arbetsblad gratis för förskoleklass och lågstadiet. Ingen teknisk kunskap krävs. Följ dessa fem enkla steg för att skapa finmotorik övningar, matematik arbetsblad och målarbilder barn-aktiviteter.',
     ctaText: 'Börja Skapa Nu',
     badgeText: 'Så Fungerar Det',
@@ -307,7 +307,7 @@ Spara digitala kopior för framtida användning. Organisera efter tema, svårigh
 
   // Use Cases - FULL text from grid-match.md use case sections
   useCases: {
-    sectionTitle: 'Perfekt för Lärare och Föräldrar - Rutnätsmatching Arbetsblad Gratis för Förskoleklass',
+    sectionTitle: 'Gratis Arbetsblad för Barn - Arbetsblad för Förskoleklass med Gratis Utskrifter. Arbetsblad för Barn',
     sectionDescription: 'Rutnätsmatching-arbetsblad passar många olika undervisningssituationer. Förskoleklass lärare använder dem för finmotorik övningar. Lågstadielärare integrerar addition och subtraktion. Hemmaskolelärare skapar anpassade matte övningar. Specialpedagoger differentierar förskoleklass material. Lärarentreprenörer säljer multiplikationstabellen och klockan lära sig-arbetsblad.',
     badgeText: 'Vem Det Är För',
     readMoreLabel: 'Läs mer',
@@ -412,7 +412,7 @@ Ingen kreditering krävs på sålda produkter. Ditt varumärke syns på alla fö
 
   // FAQ Section - Selected FAQs from grid-match.md
   faq: {
-    sectionTitle: 'Vanliga Frågor om Rutnätsmatching - Arbetsblad Gratis för Matte och Matematik',
+    sectionTitle: 'FAQ - Gratis Arbetsblad för Barn och Arbetsblad för Förskoleklass med Gratis Utskrifter. Arbetsblad för Barn',
     sectionDescription: 'Svenska lärare ställer ofta samma frågor om rutnätsmatching-generatorn. Här är svar på de vanligaste frågorna om att skapa arbetsblad gratis med matematik arbetsblad, klockan lära sig, siffror och tal och förskoleklass material.',
     showMoreText: 'Visa fler frågor',
     showLessText: 'Visa färre',
@@ -495,7 +495,7 @@ Ingen kreditering krävs på sålda produkter. Ditt varumärke syns på alla fö
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Kombinera Rutnätsmatching med Andra Arbetsblad Gratis - Kompletta Läromedelspaket',
+    sectionTitle: 'Gratis Arbetsblad Kombinera - Arbetsblad för Barn och Gratis Utskrifter',
     sectionDescription: 'Rutnätsmatching fungerar utmärkt tillsammans med våra andra 32 arbetsbladsgeneratorer. Skapa kompletta läromedelspaket genom att kombinera rutnätsmatching med matematik arbetsblad, bokstäver lära sig, målarbilder barn och finmotorik övningar. Full Tillgång-prenumeration ger dig tillgång till alla verktyg för att skapa arbetsblad gratis.',
     ctaTitle: 'Redo att Skapa Fantastiska Rutnätsmatching-Arbetsblad?',
     ctaDescription: 'Gå med tusentals lärare som skapar professionella arbetsblad. Obegränsad generering, kommersiell licens ingår.',

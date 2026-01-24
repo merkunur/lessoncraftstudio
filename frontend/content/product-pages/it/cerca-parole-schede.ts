@@ -83,8 +83,8 @@ Le schede didattiche scuola primaria create con il nostro generatore sono stampa
 
   // Sample Gallery - REAL file paths from samples/italian/wordsearch/
   samples: {
-    sectionTitle: 'Esempi di Scheda Gratuita di Crucipuzzle - Schede Gratuite per Bambini',
-    sectionDescription: 'Scarica esempi gratuiti per vedere la nostra qualità professionale',
+    sectionTitle: "Scheda Gratuita per Bambini - Schede Gratuite e Stampabili Gratuiti e Scheda per Bambini",
+    sectionDescription: "Scarica stampabili gratuiti - Scheda gratuita per bambini di qualità professionale. Schede gratuite e scheda per bambini perfette per scheda per scuola dell'infanzia. Scheda gratuita per bambini e scheda per bambini includono materiale educativo. Scheda gratuita e scheda per scuola dell'infanzia disponibile",
     downloadLabel: 'Scarica Esempio Gratuito',
     worksheetLabel: 'Scheda',
     answerKeyLabel: 'Soluzioni',
@@ -121,7 +121,7 @@ Le schede didattiche scuola primaria create con il nostro generatore sono stampa
 
   // Features Grid - FULL text from wordsearch.md feature sections
   features: {
-    sectionTitle: 'Caratteristiche del Generatore - Scheda Gratuita per Bambini e Stampabili Gratuiti',
+    sectionTitle: "Schede Gratuite e Scheda per Bambini - Stampabili Gratuiti e Scheda per Scuola dell'Infanzia",
     sectionDescription: 'Il nostro generatore di crucipuzzle include tutte le funzionalità necessarie per creare schede didattiche professionali. Ogni caratteristica è stata progettata pensando agli insegnanti. Genera schede didattiche scuola primaria in minuti invece di ore.',
     highlightBadgeText: 'Funzionalità Chiave',
     readMoreLabel: 'Leggi di più',
@@ -213,7 +213,7 @@ La qualità professionale è essenziale per vendere schede didattiche. I clienti
 
   // How-To Guide - FULL text from wordsearch.md step sections
   howTo: {
-    sectionTitle: 'Come Creare Scheda Gratuita per Bambini in 5 Passaggi - Stampabili Gratuiti',
+    sectionTitle: "Scheda Gratuita per Bambini Creare - Scheda per Scuola dell'Infanzia",
     sectionDescription: 'Creare crucipuzzle professionali con il nostro generatore richiede meno di 3 minuti. Segui questi cinque passaggi per produrre schede didattiche scuola primaria di alta qualità. Non sono necessarie competenze di design. Non è richiesta esperienza tecnica.',
     ctaText: 'Inizia Ora',
     badgeText: 'Come Funziona',
@@ -285,7 +285,7 @@ L'opzione scala di grigi risparmia inchiostro colorato mantenendo la qualità. S
 
   // Use Cases - FULL text from wordsearch.md use case sections
   useCases: {
-    sectionTitle: 'Chi Usa Schede Gratuite - Scheda Gratuita per Bambini per Ogni Esigenza',
+    sectionTitle: "Scheda Gratuita per Bambini - Scheda per Scuola dell'Infanzia con Stampabili Gratuiti. Scheda per Bambini",
     sectionDescription: 'Il generatore di crucipuzzle serve educatori in contesti diversi. Gli insegnanti della scuola dell\'infanzia creano attività di pregrafismo. Gli insegnanti di scuola primaria generano schede matematica. I genitori homeschool producono disegni da colorare.',
     badgeText: 'Per Chi',
     readMoreLabel: 'Leggi di più',
@@ -368,7 +368,7 @@ Amazon KDP permette pubblicazione di libri di crucipuzzle. Crea 100 crucipuzzle 
 
   // FAQ Section - Selected FAQs from wordsearch.md
   faq: {
-    sectionTitle: 'Domande su Schede Gratuite e Stampabili Gratuiti di Crucipuzzle',
+    sectionTitle: "FAQ - Scheda Gratuita per Bambini e Scheda per Scuola dell'Infanzia. Scheda per Bambini",
     sectionDescription: 'Tutto quello che devi sapere sul nostro generatore di crucipuzzle.',
     showMoreText: 'Mostra altre domande',
     showLessText: 'Mostra meno',
@@ -473,7 +473,7 @@ Amazon KDP permette pubblicazione di libri di crucipuzzle. Crea 100 crucipuzzle 
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Combina Schede Gratuite con Altri Generatori - Stampabili Gratuiti Complementari',
+    sectionTitle: "Schede Gratuite Combinare - Scheda per Bambini e Stampabili Gratuiti",
     sectionDescription: 'Crea pacchetti di apprendimento completi combinando crucipuzzle con questi generatori complementari.',
     ctaTitle: 'Pronto a Creare Schede Straordinarie?',
     ctaDescription: 'Unisciti a migliaia di educatori che creano schede professionali. Generazione illimitata, licenza commerciale inclusa.',

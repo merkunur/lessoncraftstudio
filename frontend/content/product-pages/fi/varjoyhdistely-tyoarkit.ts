@@ -51,8 +51,8 @@ Varjoyhdistelygeneraattorimme tarjoaa kaksi harjoitustyyppiä: perinteisen varjo
 
   // Sample Gallery - REAL file paths from samples/english/shadow match/
   samples: {
-    sectionTitle: 'Varjoyhdistely Tehtävät Esimerkit',
-    sectionDescription: 'Lataa ilmaiset esimerkkityöarkit nähdäksesi ammattimaisen laatumme',
+    sectionTitle: 'Ilmainen Työarkki Lapsille - Ilmaiset Työarkit ja Ilmaiset Tulosteet',
+    sectionDescription: 'Lataa ilmaiset tulosteet - Ilmainen työarkki lapsille ammattimaista laatua. Ilmaiset työarkit ja työarkki lapsille täydellinen työarkki esiopetukseen. Ilmainen työarkki lapsille ja työarkki lapsille sisältää ilmaiset tulosteet ja ilmaiset työarkit opetusmateriaalin. Ilmainen työarkki ja työarkki esiopetukseen saatavilla',
     downloadLabel: 'Lataa Ilmainen Esimerkki',
     worksheetLabel: 'Tehtävämoniste',
     answerKeyLabel: 'Vastausavain',
@@ -89,7 +89,7 @@ Varjoyhdistelygeneraattorimme tarjoaa kaksi harjoitustyyppiä: perinteisen varjo
 
   // Features Grid - FULL text from Finnish varjoyhdistely.md feature sections
   features: {
-    sectionTitle: 'Varjoyhdistelygeneraattorin Ominaisuudet - Kaikki Mitä Tarvitset Esiopetus Materiaali Ilmainen ja Matematiikka Tehtävät Alakoulu Luomiseen',
+    sectionTitle: 'Ilmaiset Työarkit ja Työarkki Lapsille - Ilmaiset Tulosteet ja Työarkki Esiopetukseen',
     sectionDescription: 'Varjoyhdistelygeneraattorimme tarjoaa kattavat työkalut tulostettavat tehtävät lapsille ilmainen, värityskuvia lapsille tulostettava ja hienomotoriikka harjoitukset -luomiseen. Jokainen ominaisuus on suunniteltu säästämään aikaa ja luomaan ammattitasoisia tehtäviä. Täysi Pääsy -tilaus antaa sinulle pääsyn kaikkiin työkaluihin, jotka tarvitset kirjaimet harjoittelu esikoulu, kertotaulut tulostettava, yhteenlasku ja vähennyslasku tehtävät ja pisteestä pisteeseen tehtävät -materiaalien luomiseen.',
     highlightBadgeText: 'Tärkeä Ominaisuus',
     readMoreLabel: 'Lue lisää',
@@ -183,7 +183,7 @@ PDF-muoto säilyttää tarkan asettelun kaikilla laitteilla. Jaa PDF-tiedostoja 
 
   // How-To Guide - FULL text from Finnish varjoyhdistely.md step sections
   howTo: {
-    sectionTitle: 'Kuinka Luoda Tulostettavat Tehtävät Lapsille Ilmainen Viidessä Helpossa Vaiheessa',
+    sectionTitle: 'Ilmainen Työarkki Lapsille Luoda - Työarkki Esiopetukseen',
     sectionDescription: 'Luo ammattitasoisia varjoyhdistelyn tehtäviä alle kolmessa minuutissa. Nämä viisi yksinkertaista vaihetta vievät sinut tyhjästä piirtoalustasta valmiiseen matematiikka tehtävät alakoulu, värityskuvia lapsille tulostettava ja kirjaimet harjoittelu esikoulu -materiaaliin. Ei suunnittelutaitoja, ei monimutkaisia ohjelmistoja, ei pitkää oppimiskäyrää.',
     ctaText: 'Aloita Luominen Nyt',
     badgeText: 'Näin Se Toimii',
@@ -255,7 +255,7 @@ Tallenna molemmat tiedostot: tehtävä oppilaille ja vastausavain sinulle. Järj
 
   // Use Cases - FULL text from Finnish varjoyhdistely.md use case sections
   useCases: {
-    sectionTitle: 'Täydellinen Opettajille, Vanhemmille ja Kasvattajille - Tulostettavat Tehtävät Lapsille Ilmainen Jokaiseen Tarpeeseen',
+    sectionTitle: 'Ilmainen Työarkki Lapsille - Työarkki Esiopetukseen ja Ilmaiset Tulosteet. Työarkki Lapsille',
     sectionDescription: 'Varjoyhdistelygeneraattorimme palvelee erilaisia kasvattajia eri konteksteissa. Esiopettajat käyttävät sitä kehittämään visuaalista hahmotusta. Alakoulun opettajat käyttävät sitä avaruudellisen ajattelun harjoituksiin. Kotikoulutusvanhemmat käyttävät sitä monipuolisiin oppimisaktiviteetteihin. Jokainen käyttäjätyyppi hyötyy esiopetus materiaali ilmainen, matematiikka tehtävät alakoulu, värityskuvia lapsille tulostettava ja kertotaulut tulostettava -ominaisuuksista.',
     badgeText: 'Kenelle Sopii',
     readMoreLabel: 'Lue lisää',
@@ -338,7 +338,7 @@ Kaupallinen lisenssi on mukana Täysi Pääsy -tilauksessa ilman lisämaksuja. K
 
   // FAQ Section - Selected FAQs from Finnish varjoyhdistely.md
   faq: {
-    sectionTitle: 'Usein Kysytyt Kysymykset Varjoyhdistelyn Tehtävistä',
+    sectionTitle: 'FAQ - Ilmainen Työarkki Lapsille ja Työarkki Esiopetukseen. Työarkki Lapsille',
     sectionDescription: 'Vastaamme yleisimpiin kysymyksiin varjoyhdistelygeneraattoristamme. Nämä kysymykset kattavat hinnoittelun, ominaisuudet, käyttöoikeudet ja tekniset yksityiskohdat.',
     showMoreText: 'Näytä lisää kysymyksiä',
     showLessText: 'Näytä vähemmän',
@@ -442,7 +442,7 @@ Kaupallinen lisenssi on mukana Täysi Pääsy -tilauksessa ilman lisämaksuja. K
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Yhdistä Varjoyhdistely Muihin Tehtävämonistegeneraattoreihin',
+    sectionTitle: 'Ilmaiset Työarkit Yhdistää - Työarkki Lapsille ja Ilmaiset Tulosteet',
     sectionDescription: 'Luo kattavia oppimispaketteja yhdistämällä varjoyhdistelyn tehtävät näihin täydentäviin generaattoreihin.',
     ctaTitle: 'Valmiina Luomaan Upeita Tehtävämonisteitä?',
     ctaDescription: 'Liity tuhansien opettajien joukkoon, jotka luovat ammattimaisia tehtävämonisteitä. Rajoittamaton generointi, kaupallinen lisenssi sisältyy.',

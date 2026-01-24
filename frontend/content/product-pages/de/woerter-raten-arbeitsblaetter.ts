@@ -97,8 +97,8 @@ Der Worträtsel-Generator erstellt Arbeitsblätter für die Grundschule in Sekun
 
   // Sample Gallery - REAL file paths from samples/english/word guess/
   samples: {
-    sectionTitle: 'Worträtsel-Arbeitsblätter Beispiele',
-    sectionDescription: 'Laden Sie kostenlose Beispiel-Arbeitsblätter herunter, um unsere professionelle Qualität zu sehen',
+    sectionTitle: 'Kostenloses Arbeitsblatt für Kinder - Kostenlose Arbeitsblätter und Kostenlose Druckvorlagen',
+    sectionDescription: 'Laden Sie kostenlose Druckvorlagen herunter - Kostenloses Arbeitsblatt für Kinder in professioneller Qualität für Arbeitsblatt für Vorschule',
     downloadLabel: 'Kostenloses Beispiel Herunterladen',
     worksheetLabel: 'Arbeitsblatt',
     answerKeyLabel: 'Lösungsblatt',
@@ -149,7 +149,7 @@ Der Worträtsel-Generator erstellt Arbeitsblätter für die Grundschule in Sekun
 
   // Features Grid - FULL text from woerter-raten.md feature sections
   features: {
-    sectionTitle: 'Funktionen des Worträtsel-Generators - Kostenlose Arbeitsblätter für Arbeitsblätter Grundschule erstellen',
+    sectionTitle: 'Arbeitsblatt für Kinder - Arbeitsblatt für Vorschule und Kostenlose Arbeitsblätter',
     sectionDescription: 'Der Worträtsel-Generator bietet alle Werkzeuge für professionelle Arbeitsblätter. Jede Funktion wurde für Lehrkräfte entwickelt. Keine technischen Kenntnisse erforderlich. Erstellen Sie in Minuten Arbeitsblätter, die sonst Stunden dauern würden.',
     highlightBadgeText: 'Hauptfunktion',
     readMoreLabel: 'Mehr lesen',
@@ -229,7 +229,7 @@ Arbeitsblätter Grundschule sehen gedruckt genauso gut aus wie am Bildschirm. Pe
 
   // How-To Guide - FULL text from woerter-raten.md
   howTo: {
-    sectionTitle: 'Schritt-für-Schritt Anleitung - Kostenlose Arbeitsblätter für Arbeitsblätter Grundschule erstellen',
+    sectionTitle: 'Kostenloses Arbeitsblatt für Kinder erstellen - Arbeitsblatt für Vorschule',
     sectionDescription: 'Erstellen Sie Ihr erstes Worträtsel in unter drei Minuten. Diese Anleitung zeigt jeden Schritt im Detail. Keine Vorkenntnisse erforderlich. Folgen Sie einfach den fünf Schritten unten.',
     ctaText: 'Jetzt Erstellen',
     badgeText: 'So Funktioniert Es',
@@ -305,7 +305,7 @@ Die Graustufen-Option spart Druckertinte. Aktivieren Sie diese vor dem Download.
 
   // Use Cases Section - FULL text from woerter-raten.md
   useCases: {
-    sectionTitle: 'Wer profitiert vom Worträtsel-Generator - Kostenlose Arbeitsblätter für jeden Bedarf',
+    sectionTitle: 'Kostenloses Arbeitsblatt für Kinder - Arbeitsblatt für Vorschule mit Kostenlose Druckvorlagen',
     sectionDescription: 'Der Worträtsel-Generator ist für viele Zielgruppen konzipiert. Lehrkräfte, Eltern und Therapeuten nutzen das Tool täglich. Jede Gruppe hat unterschiedliche Anforderungen. Unser Generator erfüllt sie alle.',
     badgeText: 'Anwendungsbereiche',
     readMoreLabel: 'Mehr lesen',
@@ -388,7 +388,7 @@ Die 300 DPI Qualität erfüllt professionelle Standards. Verkaufen Sie auf Etsy,
 
   // FAQ Section - FULL text from woerter-raten.md
   faq: {
-    sectionTitle: 'Häufig gestellte Fragen - Mathe Arbeitsblätter, Einmaleins und Vorschule Arbeitsblätter erstellen',
+    sectionTitle: 'FAQ - Kostenloses Arbeitsblatt für Kinder und Arbeitsblatt für Vorschule',
     sectionDescription: 'Hier finden Sie Antworten auf die häufigsten Fragen zum Worträtsel-Generator. Wir erklären alles von der Anmeldung bis zum Verkauf Ihrer Materialien.',
     showMoreText: 'Mehr Fragen anzeigen',
     showLessText: 'Weniger anzeigen',
@@ -511,7 +511,7 @@ Alternativ geben Sie eigene Wörter ein. Bis zu 8 Wörter ohne Bilder. Fachbegri
 
   // Related Apps Section - FULL text from woerter-raten.md
   relatedApps: {
-    sectionTitle: 'Worträtsel kombinieren mit anderen Apps - Mathe Arbeitsblätter und Schwungübungen Komplettpaket',
+    sectionTitle: 'Kostenlose Arbeitsblätter kombinieren - Arbeitsblatt für Kinder und Kostenlose Druckvorlagen',
     sectionDescription: 'Der Worträtsel-Generator ist Teil eines umfassenden Systems. 33 Worksheet-Generatoren arbeiten zusammen. Erstellen Sie komplette Lernpakete zu jedem Thema. Alle Apps nutzen die gleiche Bildbibliothek.',
     ctaTitle: 'Bereit für professionelle Worträtsel-Arbeitsblätter?',
     ctaDescription: 'Schließen Sie sich tausenden Pädagogen an, die professionelle Arbeitsblätter in Minuten erstellen.',

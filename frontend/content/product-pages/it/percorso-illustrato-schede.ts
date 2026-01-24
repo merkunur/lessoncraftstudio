@@ -85,8 +85,8 @@ Ogni modalità di gioco ti permette di creare schede didattiche completamente pe
 
   // Sample Gallery
   samples: {
-    sectionTitle: 'Schede Gratuite Percorso Illustrato - Stampabili Gratuiti da Scaricare',
-    sectionDescription: 'Scarica esempi gratuiti per vedere la nostra qualità professionale',
+    sectionTitle: "Scheda Gratuita per Bambini - Schede Gratuite e Stampabili Gratuiti e Scheda per Bambini",
+    sectionDescription: "Scarica stampabili gratuiti - Scheda gratuita per bambini di qualità professionale. Schede gratuite e scheda per bambini perfette per scheda per scuola dell'infanzia. Scheda gratuita per bambini e scheda per bambini includono materiale educativo. Scheda gratuita e scheda per scuola dell'infanzia disponibile",
     downloadLabel: 'Scarica Esempio Gratuito',
     worksheetLabel: 'Scheda',
     answerKeyLabel: 'Soluzioni',
@@ -137,7 +137,7 @@ Ogni modalità di gioco ti permette di creare schede didattiche completamente pe
 
   // Features Grid
   features: {
-    sectionTitle: 'Funzionalità - Schede Gratuite per Bambini e Stampabili Gratuiti',
+    sectionTitle: "Schede Gratuite e Scheda per Bambini - Stampabili Gratuiti e Scheda per Scuola dell'Infanzia",
     sectionDescription: 'Il nostro generatore di schede didattiche offre funzionalità complete per insegnanti. Crea schede didattiche scuola primaria in pochi clic. Genera schede didattiche scuola dell\'infanzia personalizzate. Ogni funzionalità è progettata per facilitare il lavoro quotidiano degli insegnanti. L\'abbonamento Accesso Completo include accesso illimitato a tutti gli strumenti.',
     highlightBadgeText: 'Funzionalità Chiave',
     readMoreLabel: 'Leggi di più',
@@ -231,7 +231,7 @@ Scarica schede didattiche immediatamente dopo la creazione. Nessun watermark sul
 
   // How-To Guide Section
   howTo: {
-    sectionTitle: 'Come Creare Schede Gratuite - Stampabili Gratuiti in 5 Passi',
+    sectionTitle: "Scheda Gratuita per Bambini Creare - Scheda per Scuola dell'Infanzia",
     sectionDescription: 'Crea schede didattiche scuola primaria professionali in meno di 3 minuti. Segui questi 5 passaggi semplici per generare schede didattiche scuola dell\'infanzia personalizzate. Non servono competenze tecniche o di design.',
     ctaText: 'Inizia Ora',
     badgeText: 'Guida Passo-Passo',
@@ -303,7 +303,7 @@ Scarica anche la chiave delle risposte. La chiave mostra il percorso corretto ev
 
   // Use Cases Section
   useCases: {
-    sectionTitle: 'Schede Gratuite per Insegnanti - Stampabili Gratuiti per Educatori',
+    sectionTitle: "Schede Gratuite per Insegnanti - Stampabili Gratuiti per Educatori",
     sectionDescription: 'Il generatore di schede didattiche serve diversi gruppi di educatori. Ogni gruppo trova valore unico nelle funzionalità offerte. Dalle maestre della scuola dell\'infanzia agli insegnanti di sostegno. Dai genitori homeschool agli insegnanti imprenditori.',
     badgeText: 'Chi Usa le Nostre Schede',
     readMoreLabel: 'Leggi di più',
@@ -386,7 +386,7 @@ Crea negozi Etsy specializzati in schede didattiche stampabili. Pacchetti stagio
 
   // FAQ Section
   faq: {
-    sectionTitle: 'FAQ Schede Gratuite Percorso Illustrato - Stampabili Gratuiti per Bambini',
+    sectionTitle: "FAQ - Scheda Gratuita per Bambini e Scheda per Scuola dell'Infanzia. Scheda per Bambini",
     sectionDescription: 'Risposte alle domande più comuni sul nostro generatore di schede didattiche',
     showMoreText: 'Mostra altre domande',
     showLessText: 'Mostra meno domande',
@@ -539,7 +539,7 @@ L'abbonamento Accesso Completo costa 240 euro annuali. Include tutti i 33 genera
 
   // Related Apps Section
   relatedApps: {
-    sectionTitle: 'Altri Generatori - Schede Gratuite e Stampabili Gratuiti per Bambini',
+    sectionTitle: "Altri Generatori - Schede Gratuite e Stampabili Gratuiti per Bambini",
     sectionDescription: 'Il generatore di percorsi e labirinti funziona magnificamente combinato con altri tipi di schede didattiche. La piattaforma offre 33 generatori diversi per materiali stampabili. Crea pacchetti didattici completi per ogni argomento.',
     ctaTitle: 'Pronto a Creare Schede Straordinarie?',
     ctaDescription: 'Unisciti a migliaia di educatori che creano schede professionali. Generazione illimitata, licenza commerciale inclusa.',

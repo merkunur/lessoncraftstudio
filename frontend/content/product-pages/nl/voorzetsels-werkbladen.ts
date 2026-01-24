@@ -91,8 +91,8 @@ Perfect voor leerkrachten van kleuters en groep 3 die snel kwalitatieve gratis w
 
   // Sample Gallery - REAL file paths from samples/dutch/prepositions/
   samples: {
-    sectionTitle: 'Gratis Werkbladen Voorzetsels Voorbeelden - Werkblad voor Kleuters',
-    sectionDescription: 'Download gratis werkblad voor kinderen voorbeelden om onze professionele kwaliteit te ervaren',
+    sectionTitle: 'Gratis Werkblad voor Kinderen - Gratis Werkbladen en Gratis Printables',
+    sectionDescription: 'Download gratis printables - Gratis werkblad voor kinderen van professionele kwaliteit. Gratis werkbladen en werkblad voor kinderen perfect voor werkblad voor kleuters. Gratis werkblad voor kinderen en werkblad voor kinderen inclusief educatief materiaal. Gratis werkblad beschikbaar',
     downloadLabel: 'Gratis Voorbeeld Downloaden',
     worksheetLabel: 'Werkblad',
     answerKeyLabel: 'Antwoordblad',
@@ -230,7 +230,7 @@ Ongedaan maken en opnieuw functies beschermen je werk. Zoom controles laten je i
 
   // How-To Guide - FULL text from prepositions.md step sections
   howTo: {
-    sectionTitle: 'Hoe Maak Je Gratis Werkblad voor Kinderen in 5 Stappen - Gratis Werkbladen Generator',
+    sectionTitle: 'Gratis Werkblad voor Kinderen Maken - Werkblad voor Kleuters',
     sectionDescription: 'Het maken van gratis werkblad voorzetsels duurt minder dan 3 minuten. Volg deze vijf eenvoudige stappen om professionele werkblad voor kinderen te maken. Geen ontwerpervaring nodig. Geen ingewikkelde software om te leren. Onze generator maakt het proces snel en eenvoudig. Leerkrachten die nog nooit werkbladen hebben gemaakt kunnen binnen minuten gratis printables produceren.',
     ctaText: 'Nu Starten',
     badgeText: 'Zo werkt het',
@@ -302,7 +302,7 @@ Schakel grijswaarden in om printer inkt te besparen. Dit converteert kleuren wer
 
   // Use Cases - FULL text from prepositions.md use case sections
   useCases: {
-    sectionTitle: 'Perfect voor Leerkrachten en Ouders - Gratis Werkblad voor Kinderen voor Iedere Behoefte',
+    sectionTitle: 'Gratis Werkblad voor Kinderen - Werkblad voor Kleuters met Gratis Printables. Werkblad voor Kinderen',
     sectionDescription: 'Onze voorzetsels gratis werkbladen generator dient verschillende gebruikers in het onderwijs. Leerkrachten van groep 1-2 tot groep 3 vinden tools voor hun lessen. Thuisonderwijs ouders maken gepersonaliseerde werkblad voor kinderen. Taaldocenten creëren meertalige oefeningen. Onderwijzende ondernemers bouwen hun bedrijven. Elke gebruikersgroep profiteert van onze krachtige functies en flexibiliteit. Volledige Toegang abonnees krijgen onbeperkte toegang perfect voor elke onderwijssituatie.',
     badgeText: 'Voor wie',
     readMoreLabel: 'Lees meer',
@@ -385,7 +385,7 @@ Bouw passief inkomen met digitale downloads. Maak eenmaal 20 verschillende voorz
 
   // FAQ Section - FULL FAQs from prepositions.md
   faq: {
-    sectionTitle: 'Veelgestelde Vragen over Gratis Printables en Gratis Werkblad voor Kinderen Voorzetsels',
+    sectionTitle: 'FAQ - Gratis Werkblad voor Kinderen en Werkblad voor Kleuters. Werkblad voor Kinderen',
     sectionDescription: 'Leerkrachten stellen vaak dezelfde vragen over onze voorzetsels gratis werkbladen generator. We beantwoorden hier de meest voorkomende vragen over functionaliteit, prijzen en gebruik. Deze antwoorden helpen je beslissen of Volledige Toegang abonnement geschikt is voor jouw onderwijsbehoeften. Van technische vragen tot commerciële licentie details, we dekken alles wat je moet weten.',
     showMoreText: 'Meer vragen tonen',
     showLessText: 'Minder tonen',

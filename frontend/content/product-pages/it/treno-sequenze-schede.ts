@@ -83,8 +83,8 @@ Insegnanti della scuola dell'infanzia e della scuola primaria utilizzano il nost
 
   // Sample Gallery - Italian samples
   samples: {
-    sectionTitle: 'Schede Gratuite Treno delle Sequenze - Stampabili Gratuiti da Scaricare',
-    sectionDescription: 'Scarica schede gratuite per bambini per vedere la nostra qualità professionale',
+    sectionTitle: "Scheda Gratuita per Bambini - Schede Gratuite e Stampabili Gratuiti e Scheda per Bambini",
+    sectionDescription: "Scarica stampabili gratuiti - Scheda gratuita per bambini di qualità professionale. Schede gratuite e scheda per bambini perfette per scheda per scuola dell'infanzia. Scheda gratuita per bambini e scheda per bambini includono materiale educativo. Scheda gratuita e scheda per scuola dell'infanzia disponibile",
     downloadLabel: 'Scarica Scheda Gratuita',
     worksheetLabel: 'Scheda',
     answerKeyLabel: 'Soluzioni',
@@ -135,7 +135,7 @@ Insegnanti della scuola dell'infanzia e della scuola primaria utilizzano il nost
 
   // Features Grid
   features: {
-    sectionTitle: 'Funzionalità del Generatore - Schede Gratuite Treno delle Sequenze da Stampare',
+    sectionTitle: "Schede Gratuite e Scheda per Bambini - Stampabili Gratuiti e Scheda per Scuola dell'Infanzia",
     sectionDescription: 'Il nostro generatore di schede gratuite Treno delle Sequenze offre funzionalità complete per creare stampabili gratuiti professionali. Ogni funzione è stata progettata pensando agli insegnanti della scuola dell\'infanzia e della scuola primaria. Crea schede per bambini personalizzate che soddisfano le esigenze specifiche dei tuoi studenti.',
     highlightBadgeText: 'Funzionalità Chiave',
     readMoreLabel: 'Leggi di più',
@@ -215,7 +215,7 @@ La qualità professionale è importante per le schede per scuola dell'infanzia. 
 
   // How-To Guide Section
   howTo: {
-    sectionTitle: 'Come Creare Schede Gratuite Treno delle Sequenze - Stampabili per Bambini in 5 Passi',
+    sectionTitle: "Scheda Gratuita per Bambini Creare - Scheda per Scuola dell'Infanzia",
     sectionDescription: 'Crea schede gratuite Treno delle Sequenze professionali in meno di 3 minuti seguendo questi 5 semplici passaggi. Non servono competenze di progettazione grafica. Non serve esperienza con software complicati. Segui questi passaggi e avrai stampabili gratuiti per bambini pronti per la stampa.',
     ctaText: 'Inizia Ora',
     badgeText: 'Guida Passo-Passo',
@@ -287,7 +287,7 @@ Fai clic su Scarica per salvare la tua scheda gratuita. Il file scarica sul tuo 
 
   // Use Cases Section
   useCases: {
-    sectionTitle: 'Schede Gratuite Treno delle Sequenze - Stampabili per Insegnanti, Genitori ed Educatori',
+    sectionTitle: "Schede Gratuite Treno delle Sequenze - Stampabili per Insegnanti, Genitori ed Educatori",
     sectionDescription: 'Il generatore di schede gratuite Treno delle Sequenze serve insegnanti, genitori ed educatori in tutta Italia. Ogni gruppo di utenti trova valore unico nei nostri stampabili gratuiti per bambini. Gli insegnanti della scuola dell\'infanzia creano attività di riconoscimento sequenze per bambini piccoli. Gli insegnanti di scuola primaria usano le nostre schede per bambini per rafforzare le abilità di pensiero logico.',
     badgeText: 'Chi Usa le Nostre Schede Gratuite',
     readMoreLabel: 'Leggi di più',
@@ -368,7 +368,7 @@ La qualità professionale a 300 DPI rende le tue schede gratuite competitive sul
 
   // FAQ Section
   faq: {
-    sectionTitle: 'Domande Frequenti - Schede Gratuite Treno delle Sequenze per Bambini',
+    sectionTitle: "FAQ - Scheda Gratuita per Bambini e Scheda per Scuola dell'Infanzia. Scheda per Bambini",
     sectionDescription: 'Risposte alle domande più comuni sui nostri stampabili gratuiti per sequenze',
     showMoreText: 'Mostra altre domande',
     showLessText: 'Mostra meno domande',
@@ -521,7 +521,7 @@ Crea pacchetti settimanali tematici usando più generatori. Un pacchetto a tema 
 
   // Related Apps Section
   relatedApps: {
-    sectionTitle: 'Combina Schede Gratuite Treno delle Sequenze con Altri Stampabili per Bambini',
+    sectionTitle: "Schede Gratuite Combinare - Scheda per Bambini e Stampabili Gratuiti",
     sectionDescription: 'Il generatore di schede gratuite Treno delle Sequenze funziona magnificamente combinato con altri tipi di stampabili gratuiti. La piattaforma offre 33 generatori diversi per materiali stampabili. Crea pacchetti tematici coordinati che integrano sequenze, matematica, pregrafismo, disegni da colorare e molto altro.',
     ctaTitle: 'Pronto a Creare Schede per Bambini Straordinarie?',
     ctaDescription: 'Unisciti a migliaia di educatori che creano schede gratuite professionali. Generazione illimitata, licenza commerciale inclusa.',

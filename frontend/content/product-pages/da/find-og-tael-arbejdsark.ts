@@ -85,8 +85,8 @@ Opret gratis skoleopgaver til print med dit abonnement. Ingen ekstra omkostninge
 
   // Sample Gallery - REAL file paths from samples/danish/find-and-count/
   samples: {
-    sectionTitle: 'Find og Tæl Gratis Arbejdsark Eksempler - Gratis Printables',
-    sectionDescription: 'Download gratis eksempler på arbejdsark til børn for at se vores professionelle kvalitet',
+    sectionTitle: 'Gratis Arbejdsark til Børn - Gratis Arbejdsark og Gratis Printables',
+    sectionDescription: 'Download gratis printables - Gratis arbejdsark til børn af professionel kvalitet. Gratis arbejdsark og arbejdsark til børn perfekt til arbejdsark til børnehaveklasse. Gratis arbejdsark til børn og arbejdsark til børn inkluderer undervisningsmateriale. Gratis arbejdsark tilgængeligt',
     badgeText: 'Gratis Eksempler',
     downloadLabel: 'Download Gratis Eksempel',
     downloadingLabel: 'Downloader...',
@@ -137,7 +137,7 @@ Opret gratis skoleopgaver til print med dit abonnement. Ingen ekstra omkostninge
 
   // Features Grid - FULL text from find-and-count.md feature sections
   features: {
-    sectionTitle: 'Gratis Arbejdsark Funktioner – Alt Du Har Brug For til Gratis Printables',
+    sectionTitle: 'Gratis Arbejdsark og Arbejdsark til Børn - Gratis Printables og Arbejdsark til Børnehaveklasse',
     sectionDescription: 'Core Bundle inkluderer alle værktøjer til at skabe engagerende find og tæl opgaver til børnehaveklassen og indskolingen. Dette afsnit forklarer de 7 hovedfunktioner der gør værktøjet perfekt til pædagoger der opretter gratis skoleopgaver og arbejdsark til deres elever.',
     highlightBadgeText: 'Vigtig Funktion',
     readMoreLabel: 'Læs mere',
@@ -430,7 +430,7 @@ Mange lærerentreprenører tjener $500-2,000 månedligt gennem opgavesalg. Nogle
 
   // FAQ Section - Selected FAQs from find-and-count.md
   faq: {
-    sectionTitle: 'Ofte Stillede Spørgsmål om Find og Tæl Gratis Arbejdsark',
+    sectionTitle: 'FAQ - Gratis Arbejdsark til Børn og Arbejdsark til Børnehaveklasse. Arbejdsark til Børn',
     sectionDescription: 'Dette afsnit besvarer de mest almindelige spørgsmål om find og tæl værktøjet. Lærere, forældre og pædagoger stiller disse spørgsmål før de abonnerer. Læs igennem for at forstå præcis hvordan værktøjet fungerer og hvad Core Bundle inkluderer.',
     showMoreText: 'Vis flere spørgsmål',
     showLessText: 'Vis færre',

@@ -77,8 +77,8 @@ Cada atividade de matemática que você cria é 100% editável. Arraste, redimen
 
   // Sample Gallery - REAL file paths from samples/portuguese/math/
   samples: {
-    sectionTitle: 'Exemplos de Atividades Grátis de Matemática para Crianças',
-    sectionDescription: 'Baixe exemplos gratuitos para ver nossa qualidade profissional',
+    sectionTitle: 'Atividade Grátis para Crianças - Atividades Grátis e Imprimíveis Grátis',
+    sectionDescription: 'Baixe imprimíveis grátis - Atividade grátis para crianças de qualidade profissional. Atividades grátis e atividade para crianças perfeitas para atividade para educação infantil. Atividade grátis para crianças e atividade para crianças incluem material educativo. Atividade grátis disponível',
     downloadLabel: 'Baixar Exemplo Grátis',
     worksheetLabel: 'Atividade',
     answerKeyLabel: 'Gabarito',
@@ -122,7 +122,7 @@ Cada atividade de matemática que você cria é 100% editável. Arraste, redimen
 
   // Features Grid - FULL text from math-worksheet.md feature sections
   features: {
-    sectionTitle: 'Funcionalidades do Gerador de Atividades Grátis de Matemática',
+    sectionTitle: 'Atividades Grátis e Atividade para Crianças - Imprimíveis Grátis e Atividade para Educação Infantil',
     sectionDescription: 'O gerador de atividades de matemática oferece ferramentas completas para educadores. Cada funcionalidade foi pensada para economizar tempo e melhorar resultados. Professores de educação infantil e ensino fundamental encontram tudo o que precisam. Veja como cada recurso transforma a criação de atividades para imprimir.',
     highlightBadgeText: 'Recurso Principal',
     readMoreLabel: 'Leia mais',
@@ -227,7 +227,7 @@ O modo escala de cinza economiza tinta colorida. Atividades de matemática ficam
 
   // How-To Guide - FULL text from math-worksheet.md step sections
   howTo: {
-    sectionTitle: 'Como Criar Atividade Grátis de Matemática em 5 Passos',
+    sectionTitle: 'Atividade Grátis para Crianças Criar - Atividade para Educação Infantil',
     sectionDescription: 'Criar atividades de matemática profissionais é mais fácil do que você imagina. Este guia passo a passo mostra exatamente como fazer. Em menos de 3 minutos, você terá fichas prontas para imprimir. Professores de educação infantil e ensino fundamental seguem o mesmo processo simples.',
     ctaText: 'Comece Agora',
     badgeText: 'Como Funciona',
@@ -309,7 +309,7 @@ A opção escala de cinza transforma a atividade. Desenhos para colorir ficam pr
 
   // Use Cases - FULL text from math-worksheet.md use case sections
   useCases: {
-    sectionTitle: 'Quem Usa o Gerador de Atividades Grátis de Matemática',
+    sectionTitle: 'Atividade Grátis para Crianças - Atividade para Educação Infantil com Imprimíveis Grátis. Atividade para Crianças',
     sectionDescription: 'O gerador de atividades de matemática atende educadores de todos os contextos. Professores, pais e empreendedores encontram valor na ferramenta. Cada perfil de usuário aproveita recursos específicos. Veja como diferentes educadores usam atividades para imprimir no dia a dia.',
     badgeText: 'Para Quem',
     readMoreLabel: 'Leia mais',
@@ -392,7 +392,7 @@ Crie pacotes completos para venda. Combine atividades vogais com exercícios num
 
   // FAQ Section - Selected FAQs from math-worksheet.md
   faq: {
-    sectionTitle: 'Perguntas Frequentes sobre Atividades Grátis de Matemática',
+    sectionTitle: 'FAQ - Atividade Grátis para Crianças e Atividade para Educação Infantil. Atividade para Crianças',
     sectionDescription: 'Professores têm dúvidas comuns sobre o gerador de atividades de matemática. Esta seção responde às perguntas mais frequentes. Encontre informações sobre assinatura, uso e funcionalidades.',
     showMoreText: 'Mostrar mais perguntas',
     showLessText: 'Mostrar menos',
@@ -497,7 +497,7 @@ Crie pacotes completos para venda. Combine atividades vogais com exercícios num
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Combine com Outros Geradores de Atividades Grátis',
+    sectionTitle: 'Atividades Grátis Combinar - Atividade para Crianças e Imprimíveis Grátis',
     sectionDescription: 'Crie pacotes de aprendizagem completos combinando atividades de matemática com estes geradores complementares.',
     ctaTitle: 'Pronto para Criar Atividades Incríveis?',
     ctaDescription: 'Junte-se a milhares de educadores que criam atividades profissionais. Geração ilimitada, licença comercial incluída.',

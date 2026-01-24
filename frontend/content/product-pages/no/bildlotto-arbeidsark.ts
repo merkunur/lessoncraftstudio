@@ -77,8 +77,8 @@ Vår generator gjør det enkelt. Velg størrelse på rutenettet fra 3x3 til 5x5.
 
   // Sample Gallery - REAL file paths from samples/norwegian/bingo/
   samples: {
-    sectionTitle: 'Gratis Arbeidsark Eksempler - Bildlotto for Barn',
-    sectionDescription: 'Last ned gratis utskrifter av bildlottokort for å se vår profesjonelle kvalitet. Gratis arbeidsark for barn i barnehage og 1. trinn.',
+    sectionTitle: 'Gratis Arbeidsark for Barn - Gratis Arbeidsark og Gratis Utskrifter',
+    sectionDescription: 'Last ned gratis utskrifter - Gratis arbeidsark for barn av profesjonell kvalitet. Gratis arbeidsark og arbeidsark for barn perfekt for arbeidsark for 1. trinn. Gratis arbeidsark for barn og arbeidsark for barn inkluderer gratis utskrifter undervisningsmateriell. Gratis arbeidsark og arbeidsark for 1. trinn tilgjengelig',
     badgeText: 'Gratis Eksempler',
     downloadLabel: 'Last ned Gratis Eksempel',
     downloadingLabel: 'Laster ned...',
@@ -122,7 +122,7 @@ Vår generator gjør det enkelt. Velg størrelse på rutenettet fra 3x3 til 5x5.
 
   // Features Grid - FULL text from bingo.md feature sections
   features: {
-    sectionTitle: 'Gratis Arbeidsark Funksjoner - Bildlotto Generator for Barn og 1. Trinn',
+    sectionTitle: 'Gratis Arbeidsark og Arbeidsark for Barn - Gratis Utskrifter og Arbeidsark for 1. Trinn',
     sectionDescription: 'Vår bildlotto-generator har alle funksjoner du trenger. Lag gratis arbeidsark for barn på minutter. Gratis utskrifter for barnehage og arbeidsark for 1. trinn. Alt er bygget for lærere av lærere. Brukes av tusenvis av pedagoger i Norge.',
     highlightBadgeText: 'Viktig Funksjon',
     readMoreLabel: 'Les mer',

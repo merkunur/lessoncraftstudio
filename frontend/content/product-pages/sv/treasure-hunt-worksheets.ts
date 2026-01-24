@@ -83,8 +83,8 @@ Vår skattjakt generator erbjuder över 3000 barnvänliga bilder organiserade ef
 
   // Sample Gallery - Swedish file paths from samples/swedish/treasure-hunt/
   samples: {
-    sectionTitle: 'Gratis Skattjakt Arbetsblad Exempel - Arbetsblad för Barn',
-    sectionDescription: 'Ladda ner gratis exempelarbetsblad för att se vår professionella kvalitet. Gratis arbetsblad för förskoleklass och lågstadiet.',
+    sectionTitle: 'Gratis Arbetsblad för Barn - Gratis Arbetsblad och Gratis Utskrifter',
+    sectionDescription: 'Ladda ner gratis utskrifter - Gratis arbetsblad för barn av professionell kvalitet. Gratis arbetsblad och arbetsblad för barn perfekt för arbetsblad för förskoleklass. Gratis arbetsblad för barn och arbetsblad för barn inkluderar utbildningsmaterial. Gratis arbetsblad och gratis utskrifter tillgänglig',
     downloadLabel: 'Ladda Ner Gratis Exempel',
     worksheetLabel: 'Arbetsblad',
     answerKeyLabel: 'Facit',
@@ -135,7 +135,7 @@ Vår skattjakt generator erbjuder över 3000 barnvänliga bilder organiserade ef
 
   // Features Grid - FULL text from treasure-hunt.md feature sections
   features: {
-    sectionTitle: 'Funktioner för Gratis Skattjakt Arbetsblad - Arbetsblad för Förskoleklass',
+    sectionTitle: 'Gratis Arbetsblad och Arbetsblad för Barn - Gratis Utskrifter och Arbetsblad för Förskoleklass',
     sectionDescription: 'Vår skattjakt generator innehåller alla funktioner du behöver för att skapa gratis arbetsblad för barn. Från förskoleklass material till lågstadiet årskurs 3 aktiviteter. Skapa gratis arbetsblad för förskoleklass med bokstäver lära sig fokus eller kombinera med matematik arbetsblad. Varje funktion är utformad för gratis utskrifter med fullständig kreativ kontroll.',
     highlightBadgeText: 'Nyckelfunktion',
     readMoreLabel: 'Läs mer',
@@ -384,7 +384,7 @@ Lägg till matte övningar och siffror och tal träning i matematikskattjakt pak
 
   // FAQ Section - ALL questions from treasure-hunt.md
   faq: {
-    sectionTitle: 'Vanliga Frågor om Gratis Skattjakt Arbetsblad för Barn',
+    sectionTitle: 'FAQ - Gratis Arbetsblad för Barn och Arbetsblad för Förskoleklass med Gratis Utskrifter. Arbetsblad för Barn',
     sectionDescription: 'Vanliga frågor om vår skattjakt generator och gratis arbetsblad för förskoleklass.',
     showMoreText: 'Visa fler frågor',
     showLessText: 'Visa färre',

@@ -85,8 +85,8 @@ Cada ficha incluye cuatro imágenes organizadas en columnas de izquierda a derec
 
   // Sample Gallery
   samples: {
-    sectionTitle: 'Ejemplos de Fichas de Asociación de Sombras',
-    sectionDescription: 'Descarga ejemplos de fichas gratis para ver nuestra calidad profesional',
+    sectionTitle: 'Ficha Gratis para Niños - Fichas Gratis e Imprimibles Gratis',
+    sectionDescription: 'Descarga imprimibles gratis - Ficha gratis para niños de calidad profesional. Ficha para niños perfecta para ficha para preescolar. Ficha gratis para niños y ficha para niños incluyen material educativo. Ficha gratis disponible',
     downloadLabel: 'Descargar Ejemplo Gratis',
     worksheetLabel: 'Ficha',
     answerKeyLabel: 'Hoja de Respuestas',
@@ -137,7 +137,7 @@ Cada ficha incluye cuatro imágenes organizadas en columnas de izquierda a derec
 
   // Features Grid
   features: {
-    sectionTitle: 'Características del Generador de Fichas de Asociación de Sombras - Todo lo que Necesitas para Fichas para Imprimir de Preescolar y Primaria',
+    sectionTitle: 'Fichas Gratis y Ficha para Niños - Imprimibles Gratis y Ficha para Preescolar',
     sectionDescription: 'Nuestro generador de fichas de asociación de sombras ofrece funciones profesionales diseñadas específicamente para maestros de educación infantil. Crea fichas para imprimir con facilidad usando nuestras herramientas intuitivas. Cada función está optimizada para ayudarte a crear material educativo gratis de alta calidad. Tu suscripción Acceso Completo incluye acceso completo a todas estas capacidades profesionales sin límites ni cargos adicionales.',
     highlightBadgeText: 'Destacado',
     badgeText: 'Características',
@@ -210,7 +210,7 @@ Cada ficha incluye cuatro imágenes organizadas en columnas de izquierda a derec
 
   // How-To Guide
   howTo: {
-    sectionTitle: 'Cómo Crear Fichas para Imprimir de Asociación de Sombras en 5 Pasos Fáciles - Genera Fichas Infantil y Material Educativo Gratis',
+    sectionTitle: 'Ficha Gratis para Niños Crear - Ficha para Preescolar',
     sectionDescription: 'Crear fichas de asociación de sombras profesionales toma menos de tres minutos de principio a fin. Nuestro proceso simplificado te guía desde la selección de imágenes hasta la descarga final. Cada paso está optimizado para maestros ocupados que necesitan material educativo gratis rápidamente. No necesitas experiencia en diseño gráfico ni habilidades técnicas.',
     ctaText: 'Comenzar Ahora',
     badgeText: 'Cómo Funciona',
@@ -262,7 +262,7 @@ Cada ficha incluye cuatro imágenes organizadas en columnas de izquierda a derec
 
   // Use Cases
   useCases: {
-    sectionTitle: 'Perfecto para Maestros, Padres y Educadores - Fichas para Imprimir de Asociación de Sombras para Cada Necesidad Educativa',
+    sectionTitle: 'Ficha Gratis para Niños - Ficha para Preescolar con Imprimibles Gratis. Ficha para Niños',
     sectionDescription: 'Las fichas de asociación de sombras sirven a educadores de todos los niveles y contextos. Los maestros de preescolar las usan para desarrollar percepción visual temprana. Los maestros de primaria las integran en unidades temáticas. Los padres que educan en casa las combinan con otras actividades. Los maestros de educación especial las adaptan para estudiantes con necesidades diversas. Cada grupo encuentra valor único en nuestra plataforma flexible de creación de fichas gratis.',
     badgeText: 'Para Quién Es',
     readMoreLabel: 'Leer más',
@@ -321,7 +321,7 @@ Cada ficha incluye cuatro imágenes organizadas en columnas de izquierda a derec
 
   // FAQ Section
   faq: {
-    sectionTitle: 'Preguntas Frecuentes sobre Fichas para Imprimir de Asociación de Sombras - Todo sobre Fichas Gratis, Dibujos para Colorear y Material Educativo',
+    sectionTitle: 'FAQ - Ficha Gratis para Niños y Ficha para Preescolar. Ficha para Niños',
     badgeText: 'Preguntas Frecuentes',
     showMoreText: 'Ver más preguntas',
     showLessText: 'Ver menos preguntas',
@@ -449,7 +449,7 @@ Cada ficha incluye cuatro imágenes organizadas en columnas de izquierda a derec
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Combina Fichas para Imprimir de Asociación de Sombras con Otros Generadores - Paquetes Completos de Fichas de Matemáticas, Lectoescritura, Abecedario, Tablas de Multiplicar, Grafomotricidad y Dibujos para Colorear',
+    sectionTitle: 'Fichas Gratis Combinar - Ficha para Niños e Imprimibles Gratis',
     sectionDescription: 'Tu suscripción Acceso Completo incluye los 33 generadores de fichas por $240 anuales. Combina fichas de asociación de sombras con otros generadores para paquetes de aprendizaje completos. Crea unidades temáticas integrando múltiples tipos de fichas para imprimir. Los estudiantes reciben práctica variada a través de diferentes formatos de actividades. La combinación de generadores maximiza valor educativo y ahorro de tiempo simultáneamente.',
     ctaTitle: '¿Listo para Crear Fichas de Asociación de Sombras Increíbles?',
     ctaDescription: 'Únete a miles de maestros que crean fichas profesionales. Generación ilimitada, licencia comercial incluida.',

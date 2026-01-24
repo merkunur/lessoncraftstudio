@@ -55,8 +55,8 @@ Tehtävägeneraattori toimii 11 kielellä. Valitse esiopetus materiaali ja matem
 
   // Sample Gallery - REAL file paths from samples/english/cryptogram/
   samples: {
-    sectionTitle: 'Kuvakryptogrammi Esimerkit',
-    sectionDescription: 'Lataa ilmaiset esimerkkitehtävät nähdäksesi ammattimaisen laatumme',
+    sectionTitle: 'Ilmainen Työarkki Lapsille - Ilmaiset Työarkit ja Ilmaiset Tulosteet',
+    sectionDescription: 'Lataa ilmaiset tulosteet - Ilmainen työarkki lapsille ammattimaista laatua. Ilmaiset työarkit ja työarkki lapsille täydellinen työarkki esiopetukseen. Ilmainen työarkki lapsille ja työarkki lapsille sisältää ilmaiset tulosteet ja ilmaiset työarkit opetusmateriaalin. Ilmainen työarkki ja työarkki esiopetukseen saatavilla',
     downloadLabel: 'Lataa Ilmainen Esimerkki',
     worksheetLabel: 'Tehtäväsivu',
     answerKeyLabel: 'Vastaussivu',
@@ -86,7 +86,7 @@ Tehtävägeneraattori toimii 11 kielellä. Valitse esiopetus materiaali ja matem
 
   // Features Grid - FULL text from Finnish cryptogram.md feature sections
   features: {
-    sectionTitle: 'Kuvakryptogrammi Ominaisuudet - Tulostettavat Tehtävät Lapsille Ilmainen Kirjaimet Harjoittelu Esikoulu ja Matematiikka Tehtävät Alakoulu',
+    sectionTitle: 'Ilmaiset Työarkit ja Työarkki Lapsille - Ilmaiset Tulosteet ja Työarkki Esiopetukseen',
     sectionDescription: 'Kuvakryptogrammi-generaattori sisältää kaikki työkalut, joita tarvitset ammattimaisten tehtävien luomiseen. Luo esiopetus materiaali ilmainen ja lukemaan oppiminen tehtävät minuuteissa. Täysi Käyttöoikeus -tilauksesi antaa pääsyn kaikkiin ominaisuuksiin ilman lisämaksuja. Jokainen ominaisuus on suunniteltu nopeuttamaan tehtävien luomista ja parantamaan laatua.',
     highlightBadgeText: 'Tärkeä Ominaisuus',
     readMoreLabel: 'Lue lisää',
@@ -180,7 +180,7 @@ PDF-tiedostot säilyttävät täydellisen laadun. Zoomaa sisään ilman pikselö
 
   // How-To Guide - FULL text from Finnish cryptogram.md step sections
   howTo: {
-    sectionTitle: 'Kuinka Luoda Kuvakryptogrammi 5 Helpossa Vaiheessa - Tulostettavat Tehtävät Lapsille Ilmainen ja Esiopetus Materiaali',
+    sectionTitle: 'Ilmainen Työarkki Lapsille Luoda - Työarkki Esiopetukseen',
     sectionDescription: 'Luo ammattimainen kuvakryptogrammi alle 3 minuutissa. Viisi yksinkertaista vaihetta vie sinut tyhjästä kankaasta valmiiseen tulostettavaan tehtävään. Ei tarvita teknistä osaamista. Ei tarvita suunnittelutaitoa. Seuraa näitä vaiheita luodaksesi kertotaulut tulostettava, yhteenlasku ja vähennyslasku tehtävät sekä lukemaan oppiminen tehtävät.',
     ctaText: 'Aloita Luominen Nyt',
     badgeText: 'Näin Se Toimii',
@@ -252,7 +252,7 @@ Harmaasävyvalintaruutu muuttaa värikuvat mustavalkoisiksi. Tämä säästää 
 
   // Use Cases - FULL text from Finnish cryptogram.md use case sections
   useCases: {
-    sectionTitle: 'Täydellinen Opettajille ja Vanhemmille - Tulostettavat Tehtävät Lapsille Ilmainen Esiopetus Materiaali ja Matematiikka Tehtävät Alakoulu',
+    sectionTitle: 'Ilmainen Työarkki Lapsille - Työarkki Esiopetukseen ja Ilmaiset Tulosteet. Työarkki Lapsille',
     sectionDescription: 'Kuvakryptogrammit toimivat monenlaisissa opetustilanteissa. Esiopetuksen opettajat käyttävät niitä kirjainten harjoitteluun. Alakoulun opettajat luovat kertotaulut tulostettava ja yhteenlasku ja vähennyslasku tehtävät materiaaleja. Kotiopettajat rakentavat kokonaisvaltaisia oppimispaketteja. Jokainen käyttäjäryhmä hyötyy eri tavoin.',
     badgeText: 'Kenelle Sopii',
     readMoreLabel: 'Lue lisää',
@@ -335,7 +335,7 @@ Matematiikka tehtävät alakoulu myyvät erityisen hyvin. Luo kertotaulut tulost
 
   // FAQ Section - Selected FAQs from Finnish cryptogram.md
   faq: {
-    sectionTitle: 'Usein Kysytyt Kysymykset Kuvakryptogrammeista - Tulostettavat Tehtävät Lapsille Ilmainen ja Esiopetus Materiaali',
+    sectionTitle: 'FAQ - Ilmainen Työarkki Lapsille ja Työarkki Esiopetukseen. Työarkki Lapsille',
     sectionDescription: 'Opettajat kysyvät säännöllisesti samoista asioista. Onko generaattori ilmainen. Miten tulostus toimii. Voinko myydä luomiani materiaaleja. Tässä osiossa vastataan kaikkiin yleisimpiin kysymyksiin kuvakryptogrammi-generaattorista.',
     showMoreText: 'Näytä lisää kysymyksiä',
     showLessText: 'Näytä vähemmän',
@@ -463,7 +463,7 @@ Matematiikka tehtävät alakoulu myyvät erityisen hyvin. Luo kertotaulut tulost
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Yhdistä Muihin Generaattoreihin - Kertotaulut Tulostettava, Värityskuvia Lapsille Tulostettava ja Yhteenlasku ja Vähennyslasku Tehtävät',
+    sectionTitle: 'Ilmaiset Työarkit Yhdistää - Työarkki Lapsille ja Ilmaiset Tulosteet',
     sectionDescription: 'Kuvakryptogrammit toimivat vielä paremmin yhdistettynä muihin tehtävätyyppeihin. Täysi Käyttöoikeus -tilaus antaa pääsyn kaikkiin 33 generaattoriin. Rakenna kokonaisvaltaisia oppimispaketteja jotka käsittelevät samaa teemaa eri tavoin.',
     ctaTitle: 'Valmiina Luomaan Upeita Kuvakryptogrammeja?',
     ctaDescription: 'Liity tuhansien opettajien joukkoon, jotka luovat ammattimaisia kuvakryptogrammeja. Rajoittamaton generointi, kaupallinen lisenssi sisältyy.',

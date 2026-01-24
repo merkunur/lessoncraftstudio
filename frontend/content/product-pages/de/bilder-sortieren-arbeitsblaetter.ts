@@ -99,8 +99,8 @@ Mit Ihrem Abonnement erhalten Sie Zugang zu über 3000 kindgerechten Bildern. Di
 
   // Sample Gallery - REAL file paths from samples/english/picture sort/
   samples: {
-    sectionTitle: 'Bilder Sortieren Arbeitsblätter Beispiele',
-    sectionDescription: 'Laden Sie kostenlose Beispiel-Arbeitsblätter herunter, um unsere professionelle Qualität zu sehen',
+    sectionTitle: 'Kostenloses Arbeitsblatt für Kinder - Kostenlose Arbeitsblätter und Kostenlose Druckvorlagen',
+    sectionDescription: 'Laden Sie kostenlose Druckvorlagen herunter - Kostenloses Arbeitsblatt für Kinder in professioneller Qualität für Arbeitsblatt für Vorschule',
     downloadLabel: 'Kostenloses Beispiel Herunterladen',
     worksheetLabel: 'Arbeitsblatt',
     answerKeyLabel: 'Lösungsblatt',
@@ -151,7 +151,7 @@ Mit Ihrem Abonnement erhalten Sie Zugang zu über 3000 kindgerechten Bildern. Di
 
   // Features Grid - FULL text from bilder-sortieren.md feature sections
   features: {
-    sectionTitle: 'Sortierübungen Generator Funktionen - Kostenlose Arbeitsblätter für Arbeitsblätter Grundschule und Vorschule Arbeitsblätter',
+    sectionTitle: 'Arbeitsblatt für Kinder - Arbeitsblatt für Vorschule und Kostenlose Arbeitsblätter',
     sectionDescription: 'Der Sortierübungen Generator bietet umfangreiche Funktionen für die Erstellung professioneller Sortierarbeitsblätter. Alle Features sind speziell für Pädagogen entwickelt worden. Sie sparen Zeit und erstellen hochwertige Materialien. Hier finden Sie alle wichtigen Funktionen im Überblick.',
     highlightBadgeText: 'Hauptfunktion',
     readMoreLabel: 'Mehr lesen',
@@ -231,7 +231,7 @@ PDF-Dateien enthalten eingebettete Schriften für konsistente Darstellung. Die G
 
   // How-To Guide - FULL text from bilder-sortieren.md
   howTo: {
-    sectionTitle: 'Sortierarbeitsblätter in 5 Schritten erstellen - Arbeitsblätter Grundschule und Vorschule Arbeitsblätter schnell und einfach',
+    sectionTitle: 'Kostenloses Arbeitsblatt für Kinder erstellen - Arbeitsblatt für Vorschule',
     sectionDescription: 'Die Erstellung von Sortierarbeitsblättern dauert weniger als 3 Minuten. Folgen Sie dieser einfachen Schritt-für-Schritt Anleitung. Auch ohne technische Vorkenntnisse gelingen perfekte Ergebnisse. In nur 5 Schritten haben Sie ein druckfertiges Arbeitsblatt.',
     ctaText: 'Jetzt Erstellen',
     badgeText: 'So Funktioniert Es',
@@ -293,7 +293,7 @@ Generieren Sie den Lösungsschlüssel separat. Die Lösung zeigt alle Bilder kor
 
   // Use Cases Section - FULL text from bilder-sortieren.md
   useCases: {
-    sectionTitle: 'Perfekt für Lehrkräfte Eltern und Pädagogen - Vorschule Arbeitsblätter Arbeitsblätter Grundschule und Kostenlose Arbeitsblätter für jeden Bedarf',
+    sectionTitle: 'Kostenloses Arbeitsblatt für Kinder - Arbeitsblatt für Vorschule mit Kostenlose Druckvorlagen',
     sectionDescription: 'Sortierarbeitsblätter sind vielseitig einsetzbar. Verschiedene Zielgruppen nutzen den Generator für unterschiedliche Zwecke. Entdecken Sie wie auch Sie von diesem Tool profitieren können. Die folgenden Anwendungsfälle zeigen die Vielseitigkeit.',
     badgeText: 'Anwendungsbereiche',
     readMoreLabel: 'Mehr lesen',
@@ -364,7 +364,7 @@ Das Vollzugriff Abonnement für 240 Euro jährlich amortisiert sich schnell. Ber
 
   // FAQ Section - FULL text from bilder-sortieren.md
   faq: {
-    sectionTitle: 'Häufig gestellte Fragen zum Sortierübungen Generator - Einmaleins und Schwungübungen Arbeitsblätter erstellen',
+    sectionTitle: 'FAQ - Kostenloses Arbeitsblatt für Kinder und Arbeitsblatt für Vorschule',
     sectionDescription: 'Hier finden Sie Antworten auf die wichtigsten Fragen zum Sortierübungen Generator. Erfahren Sie alles über Funktionen, Preise und Einsatzmöglichkeiten.',
     showMoreText: 'Mehr Fragen anzeigen',
     showLessText: 'Weniger anzeigen',
@@ -439,7 +439,7 @@ Das Vollzugriff Abonnement für 240 Euro jährlich amortisiert sich schnell. Ber
 
   // Related Apps Section - FULL text from bilder-sortieren.md
   relatedApps: {
-    sectionTitle: 'Sortierarbeitsblätter mit anderen Generatoren kombinieren - Schwungübungen und Buchstaben lernen Lernpakete erstellen',
+    sectionTitle: 'Kostenlose Arbeitsblätter kombinieren - Arbeitsblatt für Kinder und Kostenlose Druckvorlagen',
     sectionDescription: 'Der Sortierübungen Generator ist eines von 33 Tools im Vollzugriff Abonnement. Kombinieren Sie verschiedene Arbeitsblatt-Typen für umfassende Lernpakete. Erstellen Sie thematisch abgestimmte Materialien für Ihren Unterricht.',
     ctaTitle: 'Bereit für professionelle Sortierarbeitsblätter?',
     ctaDescription: 'Schließen Sie sich tausenden Pädagogen an, die professionelle Arbeitsblätter in Minuten erstellen.',

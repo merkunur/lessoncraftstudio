@@ -83,8 +83,8 @@ Les fiches maternelle deviennent des outils pédagogiques attrayants avec notre 
 
   // Sample Gallery - REAL file paths from samples/french/addition/
   samples: {
-    sectionTitle: 'Exemples de Fiches d\'Addition',
-    sectionDescription: 'Téléchargez des exemples gratuits pour voir notre qualité professionnelle',
+    sectionTitle: 'Fiche Gratuite pour Enfants - Fiches Gratuites et Imprimables Gratuits',
+    sectionDescription: 'Téléchargez imprimables gratuits - Fiche gratuite pour enfants de qualité professionnelle. Fiches gratuites et fiche pour enfants parfaites pour fiche pour maternelle. Fiche gratuite pour enfants et fiches gratuites inclus matériel éducatif. Fiche gratuite et fiches gratuites disponible',
     downloadLabel: 'Télécharger Exemple Gratuit',
     worksheetLabel: 'Fiche',
     answerKeyLabel: 'Corrigé',
@@ -135,7 +135,7 @@ Les fiches maternelle deviennent des outils pédagogiques attrayants avec notre 
 
   // Features Grid - FULL text from addition.md feature sections
   features: {
-    sectionTitle: 'Fonctionnalités du Générateur d\'Addition - Tout pour Créer des Fiches Maternelle et des Exercices Maths Professionnels',
+    sectionTitle: 'Fiches Gratuites et Fiche pour Enfants - Imprimables Gratuits et Fiche pour Maternelle',
     sectionDescription: 'Notre générateur de fiches d\'addition inclut sept fonctionnalités puissantes pour créer des fiches maternelle et des exercices CP de qualité professionnelle. Votre abonnement Pack Essentiel vous donne accès à toutes les fonctionnalités avec création illimitée.',
     highlightBadgeText: 'Fonctionnalité Clé',
     readMoreLabel: 'Lire la suite',
@@ -229,7 +229,7 @@ Chaque fiche d'addition inclut une fiche de correction générée automatiquemen
 
   // How-To Guide - FULL text from addition.md step sections
   howTo: {
-    sectionTitle: 'Comment Créer des Fiches d\'Addition en 5 Étapes Faciles',
+    sectionTitle: 'Fiche Gratuite pour Enfants Créer - Fiche pour Maternelle',
     sectionDescription: 'Créer des fiches d\'addition professionnelles prend moins de trois minutes avec notre générateur. Suivez ces cinq étapes simples pour produire des fiches maternelle et des exercices CP de qualité. Aucune expérience en design requise.',
     ctaText: 'Commencer Maintenant',
     badgeText: 'Comment Ça Marche',
@@ -301,7 +301,7 @@ Activez le mode niveaux de gris avant de télécharger pour économiser l'encre.
 
   // Use Cases - FULL text from addition.md use case sections
   useCases: {
-    sectionTitle: 'Parfait pour les Enseignants et les Parents',
+    sectionTitle: 'Fiche Gratuite pour Enfants - Fiche pour Maternelle avec Imprimables Gratuits. Fiche pour Enfants',
     sectionDescription: 'Les fiches d\'addition bénéficient à de multiples contextes éducatifs. Les enseignants de maternelle utilisent les images visuelles pour introduire les concepts de comptage. Les professeurs de CP et CE1 renforcent les faits d\'addition avec une pratique répétée.',
     badgeText: 'Pour Qui',
     readMoreLabel: 'Lire la suite',
@@ -384,7 +384,7 @@ Créez des ressources de programme complètes commandant des prix premium. Les p
 
   // FAQ Section - Selected FAQs from addition.md
   faq: {
-    sectionTitle: 'Questions Fréquentes',
+    sectionTitle: 'FAQ - Fiche Gratuite pour Enfants et Fiche pour Maternelle. Fiche pour Enfants',
     sectionDescription: 'Questions fréquentes sur notre générateur de fiches d\'addition et nos fiches à imprimer gratuit.',
     showMoreText: 'Voir plus de questions',
     showLessText: 'Voir moins',
@@ -479,7 +479,7 @@ Créez des ressources de programme complètes commandant des prix premium. Les p
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Combinez avec d\'Autres Générateurs de Fiches',
+    sectionTitle: 'Fiches Gratuites Combiner - Fiche pour Enfants et Imprimables Gratuits',
     sectionDescription: 'Créez des paquets d\'apprentissage complets en combinant les fiches d\'addition avec ces générateurs complémentaires.',
     ctaTitle: 'Prêt à Créer des Fiches Fantastiques ?',
     ctaDescription: 'Rejoignez des milliers d\'enseignants qui créent des fiches professionnelles. Génération illimitée, licence commerciale incluse.',

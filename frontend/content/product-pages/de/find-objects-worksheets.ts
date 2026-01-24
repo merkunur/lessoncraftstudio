@@ -95,8 +95,8 @@ Das Vollzugriff Abonnement enthält alle 33 Arbeitsblatt-Generatoren. Kombiniere
 
   // Sample Gallery - REAL file paths from samples/english/find objects/
   samples: {
-    sectionTitle: 'Suchbilder-Arbeitsblätter Beispiele',
-    sectionDescription: 'Laden Sie kostenlose Beispiel-Arbeitsblätter herunter, um unsere professionelle Qualität zu sehen',
+    sectionTitle: 'Kostenloses Arbeitsblatt für Kinder - Kostenlose Arbeitsblätter und Kostenlose Druckvorlagen',
+    sectionDescription: 'Laden Sie kostenlose Druckvorlagen herunter - Kostenloses Arbeitsblatt für Kinder in professioneller Qualität für Arbeitsblatt für Vorschule',
     downloadLabel: 'Kostenloses Beispiel Herunterladen',
     worksheetLabel: 'Arbeitsblatt',
     answerKeyLabel: 'Lösungsblatt',
@@ -147,7 +147,7 @@ Das Vollzugriff Abonnement enthält alle 33 Arbeitsblatt-Generatoren. Kombiniere
 
   // Features Grid - FULL text from find-objects.md feature sections
   features: {
-    sectionTitle: 'Funktionen des Suchbilder Generators - Kostenlose Arbeitsblätter und Arbeitsblätter Grundschule',
+    sectionTitle: 'Arbeitsblatt für Kinder - Arbeitsblatt für Vorschule und Kostenlose Arbeitsblätter',
     sectionDescription: 'Unser Suchbilder-Generator bietet vollständige Anpassungsmöglichkeiten für Vorschul-Arbeitsblätter und Arbeitsblätter Grundschule. Die Plattform enthält zwei verschiedene Aktivitätsmodi mit professionellen Bearbeitungswerkzeugen. Lehrkräfte erstellen druckbare Arbeitsblätter für visuelle Wahrnehmungsübungen in unter drei Minuten. Das Vollzugriff Abonnement schaltet alle Funktionen frei.',
     highlightBadgeText: 'Hauptfunktion',
     readMoreLabel: 'Mehr lesen',
@@ -254,7 +254,7 @@ Beginnen Sie mit weniger Objekten für Vorschulkinder. Steigern Sie die Komplexi
 
   // How-To Guide - FULL text from find-objects.md step sections
   howTo: {
-    sectionTitle: 'Anleitung: Kostenlose Arbeitsblätter Grundschule erstellen in 5 einfachen Schritten - Ausmalbilder und Malvorlagen Generator',
+    sectionTitle: 'Kostenloses Arbeitsblatt für Kinder erstellen - Arbeitsblatt für Vorschule',
     sectionDescription: 'Generieren Sie professionelle Vorschul-Arbeitsblätter und Arbeitsblätter Grundschule in unter drei Minuten. Diese Schritt-für-Schritt-Anleitung zeigt Ihnen den kompletten Erstellungsprozess. Keine Designkenntnisse erforderlich für kostenlose Arbeitsblätter. Der optimierte Workflow hilft Lehrkräften, Mathe-Arbeitsblätter und Ausmalbilder effizient zu erstellen.',
     ctaText: 'Jetzt Erstellen',
     badgeText: 'So funktioniert es',
@@ -316,7 +316,7 @@ Laden Sie Arbeitsblatt und Lösungsschlüssel separat für organisierte Dateiver
 
   // Use Cases - FULL descriptions from find-objects.md persona sections
   useCases: {
-    sectionTitle: 'Perfekt für Lehrkräfte und Eltern - Kostenlose Arbeitsblätter für Vorschul-Arbeitsblätter und Arbeitsblätter Grundschule',
+    sectionTitle: 'Kostenloses Arbeitsblatt für Kinder - Arbeitsblatt für Vorschule mit Kostenlose Druckvorlagen',
     sectionDescription: 'Visuelle Wahrnehmungs-Arbeitsblätter dienen unterschiedlichen pädagogischen Umgebungen. Erzieher in der Vorschule nutzen Suchbild-Arbeitsblätter für Aufmerksamkeitsentwicklung. Grundschullehrer bauen fortgeschrittene visuelle Wahrnehmungsfähigkeiten auf. Eltern im Homeschooling erstellen personalisierte Lernmaterialien. Der Generator passt sich allen Bedürfnissen an.',
     badgeText: 'Anwendungsbereiche',
     readMoreLabel: 'Mehr lesen',
@@ -387,7 +387,7 @@ Gestalten Sie thematische Arbeitsblatt-Pakete die mehrere Aktivitätstypen kombi
 
   // FAQ Section - FULL FAQs from find-objects.md
   faq: {
-    sectionTitle: 'Häufig gestellte Fragen zum Suchbilder Generator - Vorschul-Arbeitsblätter, Mathe-Arbeitsblätter und Kostenlose Arbeitsblätter FAQ',
+    sectionTitle: 'FAQ - Kostenloses Arbeitsblatt für Kinder und Arbeitsblatt für Vorschule',
     sectionDescription: 'Diese Fragen beantworten die häufigsten Anliegen von Lehrkräften zum Suchbilder-Generator. Erfahren Sie mehr über Funktionen, Preise und Anwendungsmöglichkeiten für Ihre Arbeitsblätter Grundschule und Vorschul-Arbeitsblätter.',
     showMoreText: 'Mehr Fragen anzeigen',
     showLessText: 'Weniger anzeigen',
@@ -516,7 +516,7 @@ Gestalten Sie thematische Arbeitsblatt-Pakete die mehrere Aktivitätstypen kombi
 
   // Related Apps - Apps that work well with find-objects
   relatedApps: {
-    sectionTitle: 'Suchbilder mit 32 anderen Generatoren kombinieren - Einmaleins, Schwungübungen und Arbeitsblätter Grundschule',
+    sectionTitle: 'Kostenlose Arbeitsblätter kombinieren - Arbeitsblatt für Kinder und Kostenlose Druckvorlagen',
     sectionDescription: 'Das Vollzugriff Abonnement enthält 33 verschiedene Arbeitsblatt-Generatoren. Kombinieren Sie Suchbild-Arbeitsblätter mit anderen Generatortypen für vollständige Lernpakete. Erstellen Sie thematische Einheiten die mehrere Fähigkeiten gleichzeitig trainieren. Jeder Generator nutzt dieselbe intuitive Benutzeroberfläche.',
     ctaTitle: 'Bereit, fantastische Arbeitsblätter zu erstellen?',
     ctaDescription: 'Schließen Sie sich tausenden Lehrkräften an, die professionelle Arbeitsblätter erstellen. Unbegrenzte Generierung, kommerzielle Lizenz inklusive.',

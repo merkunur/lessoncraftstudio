@@ -95,8 +95,8 @@ Unser Bilder-Bingo-Generator erstellt zwei druckbare Arbeitsblätter bei jeder G
 
   // Sample Gallery - REAL file paths from samples/english/bingo/
   samples: {
-    sectionTitle: 'Bilder-Bingo-Arbeitsblätter Beispiele',
-    sectionDescription: 'Laden Sie kostenlose Beispiel-Arbeitsblätter herunter, um unsere professionelle Qualität zu sehen',
+    sectionTitle: 'Kostenloses Arbeitsblatt für Kinder - Kostenlose Arbeitsblätter und Kostenlose Druckvorlagen',
+    sectionDescription: 'Laden Sie kostenlose Druckvorlagen herunter - Kostenloses Arbeitsblatt für Kinder in professioneller Qualität für Arbeitsblatt für Vorschule',
     downloadLabel: 'Kostenloses Beispiel Herunterladen',
     worksheetLabel: 'Arbeitsblatt',
     answerKeyLabel: 'Vorleseblatt',
@@ -147,7 +147,7 @@ Unser Bilder-Bingo-Generator erstellt zwei druckbare Arbeitsblätter bei jeder G
 
   // Features Grid - FULL text from bilder-bingo.md feature sections
   features: {
-    sectionTitle: 'Bilder-Bingo Funktionen - Kostenlose Arbeitsblätter für Vorschule und Arbeitsblätter Grundschule',
+    sectionTitle: 'Arbeitsblatt für Kinder - Kostenlose Druckvorlagen und Arbeitsblatt für Vorschule',
     sectionDescription: 'Unser Bilder-Bingo-Generator enthält alles was Lehrkräfte brauchen um professionelle druckbare Bingo-Karten für Vorschul-Arbeitsblätter und Arbeitsblätter Grundschule zu erstellen. Generieren Sie anpassbare Bingo-Arbeitsblätter für Mathe-Arbeitsblätter, Deutsch-Arbeitsblätter, Buchstaben lernen und Rechnen lernen. Jede Funktion hilft Ihnen ansprechende kostenlose Arbeitsblätter zu erstellen die Kinder lieben. Ihr Basis-Paket Abonnement gibt Ihnen unbegrenzten Zugang zu allen Bilder-Bingo-Funktionen ohne zusätzliche Kosten pro Arbeitsblatt. Erstellen Sie so viele Vorschul-Arbeitsblätter und Arbeitsblätter Grundschule wie Ihr Klassenzimmer benötigt.',
     highlightBadgeText: 'Hauptfunktion',
     readMoreLabel: 'Mehr lesen',
@@ -213,7 +213,7 @@ Unser Bilder-Bingo-Generator erstellt zwei druckbare Arbeitsblätter bei jeder G
 
   // How-To Guide - FULL text from bilder-bingo.md step sections
   howTo: {
-    sectionTitle: 'Bilder-Bingo-Arbeitsblätter erstellen in 5 einfachen Schritten - Kostenlose Arbeitsblätter für Grundschule und Vorschule',
+    sectionTitle: 'Kostenloses Arbeitsblatt für Kinder erstellen - Arbeitsblatt für Vorschule',
     sectionDescription: 'Erstellen Sie professionelle Bilder-Bingo-Arbeitsblätter in unter 3 Minuten von Anfang bis Ende. Unser schrittweiser Prozess führt Sie von der Bildauswahl zum druckfertigen Download. Keine Design-Erfahrung nötig um Arbeitsblätter Grundschule und Vorschul-Arbeitsblätter zu generieren. Jeder Schritt dauert nur Sekunden. Folgen Sie diesen fünf einfachen Schritten um individuelle druckbare Bingo-Karten für Mathe-Arbeitsblätter, Deutsch-Arbeitsblätter, Buchstaben lernen, Rechnen lernen und mehr zu erstellen. Ihr Basis-Paket Abonnement gibt Ihnen unbegrenzte Bingo-Erstellung mit null Kosten pro Arbeitsblatt.',
     ctaText: 'Jetzt Erstellen',
     badgeText: 'So funktioniert es',
@@ -265,7 +265,7 @@ Unser Bilder-Bingo-Generator erstellt zwei druckbare Arbeitsblätter bei jeder G
 
   // Use Cases - FULL descriptions from bilder-bingo.md persona sections
   useCases: {
-    sectionTitle: 'Perfekt für Lehrkräfte, Eltern und Pädagogen - Bilder-Bingo für kostenlose Arbeitsblätter Grundschule und Vorschul-Arbeitsblätter',
+    sectionTitle: 'Kostenloses Arbeitsblatt für Kinder - Arbeitsblatt für Vorschule mit Kostenlose Druckvorlagen',
     sectionDescription: 'Bilder-Bingo-Arbeitsblätter dienen vielfältigen Bildungseinrichtungen von Vorschule bis 3. Klasse Grundschule. Lehrkräfte aller Klassenstufen nutzen unseren Bingo-Generator um ansprechende kostenlose Arbeitsblätter für Mathe-Arbeitsblätter, Deutsch-Arbeitsblätter, Buchstaben lernen und Rechnen lernen zu erstellen. Unser Basis-Paket Abonnement bietet unbegrenzte Bingo-Erstellung für Vorschulerzieher, Grundschullehrkräfte, Homeschool-Eltern, DaZ-Lehrkräfte, Sonderpädagogen und Lehrkräfte-Unternehmer. Generieren Sie individuelle druckbare Bingo-Karten die zu Ihrer spezifischen Unterrichtssituation und Schülerbedürfnissen passen.',
     badgeText: 'Anwendungsbereiche',
     readMoreLabel: 'Mehr lesen',
@@ -324,7 +324,7 @@ Unser Bilder-Bingo-Generator erstellt zwei druckbare Arbeitsblätter bei jeder G
 
   // FAQ Section - FULL FAQs from bilder-bingo.md
   faq: {
-    sectionTitle: 'Häufig gestellte Fragen zu Bilder-Bingo - Kostenlose Arbeitsblätter für Mathe-Arbeitsblätter, Deutsch-Arbeitsblätter und Rechnen 1. Klasse',
+    sectionTitle: 'FAQ - Kostenloses Arbeitsblatt für Kinder und Arbeitsblatt für Vorschule',
     sectionDescription: 'Lehrkräfte stellen häufige Fragen zur Erstellung von Bilder-Bingo-Arbeitsblättern mit unserem Generator. Diese Antworten helfen Vorschulpädagogen, Grundschullehrkräften, Homeschool-Eltern und DaZ-Lehrern zu verstehen wie sie druckbare Bingo-Karten für ihre Klassenzimmer erstellen. Erfahren Sie über Abonnement-Anforderungen, Druckfähigkeiten, Anpassungsoptionen, Sprachunterstützung und kommerzielle Lizenzierung für Verkauf von Bingo-Arbeitsblättern auf Eduki.',
     showMoreText: 'Mehr Fragen anzeigen',
     showLessText: 'Weniger anzeigen',
@@ -419,7 +419,7 @@ Unser Bilder-Bingo-Generator erstellt zwei druckbare Arbeitsblätter bei jeder G
 
   // Related Apps - FULL text from bilder-bingo.md combine apps section
   relatedApps: {
-    sectionTitle: 'Bilder-Bingo kombinieren mit anderen Arbeitsblättern - Komplette Lernpakete für Schwungübungen, Ausmalbilder, Buchstaben lernen und Rechnen 1. Klasse',
+    sectionTitle: 'Kostenlose Arbeitsblätter kombinieren - Arbeitsblatt für Kinder und Kostenlose Druckvorlagen',
     sectionDescription: 'Lehrkräfte kombinieren Bilder-Bingo-Arbeitsblätter mit anderen druckbaren Arbeitsblättern um umfassende Lernpakete zu erstellen. Ihr Basis-Paket Abonnement enthält 33 kostenlose Arbeitsblatt-Generatoren jenseits Bilder-Bingo. Erstellen Sie Matching-Spiele, Ausmalbilder, Schwungübungen, Alphabet-Arbeitsblätter, Mathe-Arbeitsblätter und Deutsch-Arbeitsblätter mit demselben Abonnement. Verpacken Sie Bingo-Karten mit komplementären Aktivitäten für komplette thematische Einheiten. Generieren Sie koordinierte Vorschul-Arbeitsblätter und Arbeitsblätter Grundschule die dieselben Fähigkeiten durch mehrere Modalitäten festigen. Schüler profitieren von vielfältigen Übungsformaten innerhalb eines Lernpakets.',
     ctaTitle: 'Bereit, fantastische Bingo-Arbeitsblätter zu erstellen?',
     ctaDescription: 'Schließen Sie sich tausenden Lehrkräften an, die professionelle Arbeitsblätter erstellen. Unbegrenzte Generierung, kommerzielle Lizenz inklusive.',

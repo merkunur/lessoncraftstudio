@@ -78,7 +78,7 @@ The picture path worksheet maker works perfectly for differentiated instruction 
 
   // Sample Gallery - REAL file paths from samples/english/picture-path/
   samples: {
-    sectionTitle: 'Worksheet Samples',
+    sectionTitle: 'Free Worksheet for Kids - Free Worksheets Samples',
     downloadLabel: 'Download Free Sample',
     worksheetLabel: 'Worksheet',
     answerKeyLabel: 'Answer Key',
@@ -288,7 +288,7 @@ The picture path worksheet maker works perfectly for differentiated instruction 
 
   // FAQ Section - ALL questions from picture-path.md
   faq: {
-    sectionTitle: 'Frequently Asked Questions',
+    sectionTitle: 'FAQ - Free Worksheets and Free Worksheet for Kids',
     sectionDescription: 'Teachers ask common questions about creating picture path maze worksheets for kindergarten through first grade. Questions cover subscription requirements, printing capabilities, customization options, and commercial licensing. Answers help kindergarten teachers, first grade teachers, homeschool parents, and ESL instructors understand full platform capabilities.',
     showMoreText: 'Show more questions',
     showLessText: 'Show less',

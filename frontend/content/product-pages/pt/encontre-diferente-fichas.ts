@@ -85,8 +85,8 @@ O gerador oferece dois modos de exercícios pensados para diferentes níveis de 
 
   // Sample Gallery - REAL file paths from samples/portuguese/odd-one-out/
   samples: {
-    sectionTitle: 'Exemplos de Atividades Grátis Qual É o Diferente - Atividade para Crianças',
-    sectionDescription: 'Baixe exemplos de atividades grátis para ver nossa qualidade profissional',
+    sectionTitle: 'Atividade Grátis para Crianças - Atividades Grátis e Imprimíveis Grátis',
+    sectionDescription: 'Baixe imprimíveis grátis - Atividade grátis para crianças de qualidade profissional. Atividades grátis e atividade para crianças perfeitas para atividade para educação infantil. Atividade grátis para crianças e atividade para crianças incluem material educativo. Atividade grátis disponível',
     downloadLabel: 'Baixar Exemplo Grátis',
     worksheetLabel: 'Atividade',
     answerKeyLabel: 'Gabarito',
@@ -137,7 +137,7 @@ O gerador oferece dois modos de exercícios pensados para diferentes níveis de 
 
   // Features Grid - FULL text from odd-one-out.md feature sections
   features: {
-    sectionTitle: 'Recursos do Gerador de Atividades Grátis - Atividade para Educação Infantil',
+    sectionTitle: 'Atividades Grátis e Atividade para Crianças - Imprimíveis Grátis e Atividade para Educação Infantil',
     sectionDescription: 'O gerador de atividades grátis qual é o diferente oferece recursos profissionais pensados para educadores. Cada funcionalidade foi desenvolvida para economizar tempo e produzir atividade grátis para crianças de alta qualidade. Conheça todos os recursos disponíveis na plataforma e descubra como criar imprimíveis grátis diferenciadas para sua turma.',
     highlightBadgeText: 'Recurso Principal',
     readMoreLabel: 'Leia mais',
@@ -226,7 +226,7 @@ O campo "Nome" e "Data" pode ser incluído opcionalmente nas imprimíveis gráti
 
   // How-To Guide - FULL text from odd-one-out.md step sections
   howTo: {
-    sectionTitle: 'Como Criar Atividade Grátis para Crianças em 5 Passos - Guia de Imprimíveis Grátis',
+    sectionTitle: 'Atividade Grátis para Crianças Criar - Atividade para Educação Infantil',
     sectionDescription: 'Criar atividades grátis de qual é o diferente leva menos de 3 minutos. O processo é simples e não exige conhecimentos técnicos. Siga este guia passo a passo para produzir atividade grátis para crianças de alta qualidade. Cada etapa foi pensada para maximizar sua produtividade como educador.',
     ctaText: 'Comece Agora',
     badgeText: 'Como Funciona',
@@ -288,7 +288,7 @@ Ative a opção "Escala de Cinza" para transformar em desenhos para colorir. Est
 
   // Use Cases - FULL text from odd-one-out.md use case sections
   useCases: {
-    sectionTitle: 'Quem Usa Atividade Grátis de Raciocínio - Atividade para Educação Infantil',
+    sectionTitle: 'Atividade Grátis para Crianças - Atividade para Educação Infantil com Imprimíveis Grátis. Atividade para Crianças',
     sectionDescription: 'O gerador de atividade grátis de qual é o diferente atende diversos perfis de educadores. Professores de atividade para educação infantil, ensino fundamental, pais homeschoolers e educadores especializados encontram valor na ferramenta. Conheça como cada grupo aproveita as atividades grátis de discriminação visual em seu contexto específico.',
     badgeText: 'Para Quem',
     readMoreLabel: 'Leia mais',

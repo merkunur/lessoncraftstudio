@@ -83,8 +83,8 @@ De grid match generator maakt werkbladen kleuters en werkbladen groep 3 met aanp
 
   // Sample Gallery - REAL file paths from samples/english/grid match/
   samples: {
-    sectionTitle: 'Grid Match Werkbladen Voorbeelden',
-    sectionDescription: 'Download gratis voorbeeldwerkbladen om onze professionele kwaliteit te ervaren',
+    sectionTitle: 'Gratis Werkblad voor Kinderen - Gratis Werkbladen en Gratis Printables',
+    sectionDescription: 'Download gratis printables - Gratis werkblad voor kinderen van professionele kwaliteit. Gratis werkbladen en werkblad voor kinderen perfect voor werkblad voor kleuters. Gratis werkblad voor kinderen en werkblad voor kinderen inclusief educatief materiaal. Gratis werkblad beschikbaar',
     downloadLabel: 'Gratis Voorbeeld Downloaden',
     worksheetLabel: 'Werkblad',
     answerKeyLabel: 'Antwoordblad',
@@ -121,7 +121,7 @@ De grid match generator maakt werkbladen kleuters en werkbladen groep 3 met aanp
 
   // Features Grid - FULL text from grid-match.md feature sections
   features: {
-    sectionTitle: 'Grid Match Functies - Alles voor Werkbladen Groep 3 en Oefenbladen Gratis Maken',
+    sectionTitle: 'Gratis Werkbladen en Werkblad voor Kinderen - Gratis Printables en Werkblad voor Kleuters',
     sectionDescription: 'De grid match generator biedt complete controle over je puzzelwerkbladen. Elke functie is ontworpen voor leerkrachten zonder ontwerpervaring. Maak professionele werkbladen kleuters in enkele minuten. De interface werkt intuïtief op computer en tablet. Hieronder vind je alle mogelijkheden van deze krachtige werkbladengenerator.',
     highlightBadgeText: 'Uitgelicht',
     readMoreLabel: 'Lees meer',
@@ -210,7 +210,7 @@ Zowel het werkblad als de antwoordsleutel zijn apart downloadbaar. De antwoordsl
 
   // How-To Guide - FULL text from grid-match.md step sections
   howTo: {
-    sectionTitle: 'Hoe Maak Je Grid Match Werkbladen - Oefenbladen Gratis in 5 Eenvoudige Stappen',
+    sectionTitle: 'Gratis Werkblad voor Kinderen Maken - Werkblad voor Kleuters',
     sectionDescription: 'Het maken van professionele grid match werkbladen duurt minder dan 3 minuten. Deze stapsgewijze handleiding toont het volledige proces. Geen ontwerpervaring nodig. De generator doet het zware werk automatisch. Volg deze vijf stappen voor perfecte puzzelwerkbladen.',
     ctaText: 'Nu Starten',
     badgeText: 'Zo werkt het',
@@ -272,7 +272,7 @@ Activeer Grijstinten voor inkbesparing. Dit converteert kleuren naar zwart-wit. 
 
   // Use Cases - FULL text from grid-match.md use case sections
   useCases: {
-    sectionTitle: 'Voor Wie Zijn Grid Match Werkbladen - Oefenbladen Gratis voor Elke Onderwijssituatie',
+    sectionTitle: 'Gratis Werkblad voor Kinderen - Werkblad voor Kleuters met Gratis Printables. Werkblad voor Kinderen',
     sectionDescription: 'Grid match werkbladen passen bij diverse onderwijscontexten. Van kleuterjuffen tot thuisonderwijzers. Van basisschoolleerkrachten tot ondernemende docenten. Hieronder ontdek je hoe verschillende gebruikers profiteren van deze puzzelwerkbladen.',
     badgeText: 'Voor wie',
     readMoreLabel: 'Lees meer',
@@ -343,7 +343,7 @@ Maak unieke grid match bundels per thema. Seizoensgebonden puzzelpakketten verko
 
   // FAQ Section - FULL FAQs from grid-match.md
   faq: {
-    sectionTitle: 'Veelgestelde Vragen over Grid Match Werkbladen - Kleurplaten en Puzzels voor Kleuters',
+    sectionTitle: 'FAQ - Gratis Werkblad voor Kinderen en Werkblad voor Kleuters. Werkblad voor Kinderen',
     sectionDescription: 'Hieronder beantwoorden we de meest gestelde vragen over de grid match generator. Van abonnementskosten tot technische mogelijkheden. Lees verder voor duidelijke antwoorden op al je vragen.',
     showMoreText: 'Meer vragen tonen',
     showLessText: 'Minder tonen',
@@ -471,7 +471,7 @@ Maak unieke grid match bundels per thema. Seizoensgebonden puzzelpakketten verko
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Combineer Grid Match met Andere Generators - Complete Werkbladen Pakketten',
+    sectionTitle: 'Gratis Werkbladen Combineren - Werkblad voor Kinderen en Gratis Printables',
     sectionDescription: 'Het Volledige Toegang abonnement bevat drieëndertig werkblad generators die perfect samenwerken. Combineer grid match werkbladen met andere tools voor complete leerpakketten. Ontdek hoe je thematische bundels maakt voor elke lesweek.',
     ctaTitle: 'Klaar om geweldige werkbladen te maken?',
     ctaDescription: 'Sluit je aan bij duizenden leerkrachten die professionele werkbladen maken. Onbeperkt genereren, commerciële licentie inbegrepen.',

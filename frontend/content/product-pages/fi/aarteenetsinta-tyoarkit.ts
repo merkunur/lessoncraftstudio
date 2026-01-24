@@ -53,8 +53,8 @@ Tulostettavat tehtävät lapsille ilmainen suunnittelija tekee aarteenetsintä-t
 
   // Sample Gallery - REAL file paths from samples/english/treasure hunt/
   samples: {
-    sectionTitle: 'Aarteenetsintä Tehtävät Esimerkit',
-    sectionDescription: 'Lataa ilmaiset esimerkkityöarkit nähdäksesi ammattimaisen laatumme',
+    sectionTitle: 'Ilmainen Työarkki Lapsille - Ilmaiset Työarkit ja Ilmaiset Tulosteet',
+    sectionDescription: 'Lataa ilmaiset tulosteet - Ilmainen työarkki lapsille ammattimaista laatua. Ilmaiset työarkit ja työarkki lapsille täydellinen työarkki esiopetukseen. Ilmainen työarkki lapsille ja työarkki lapsille sisältää ilmaiset tulosteet ja ilmaiset työarkit opetusmateriaalin. Ilmainen työarkki ja työarkki esiopetukseen saatavilla',
     downloadLabel: 'Lataa Ilmainen Esimerkki',
     worksheetLabel: 'Tehtävämoniste',
     answerKeyLabel: 'Vastausavain',
@@ -84,7 +84,7 @@ Tulostettavat tehtävät lapsille ilmainen suunnittelija tekee aarteenetsintä-t
 
   // Features Grid - FULL text from Finnish treasure-hunt.md feature sections
   features: {
-    sectionTitle: 'Aarteenetsintä Tehtävät - Tulostettavat Tehtävät Lapsille Ilmainen ja Hienomotoriikka Harjoitukset',
+    sectionTitle: 'Ilmaiset Työarkit ja Työarkki Lapsille - Ilmaiset Tulosteet ja Työarkki Esiopetukseen',
     sectionDescription: 'Aarteenetsintä-tehtävien suunnittelija sisältää kaiken tarvitsemasi esiopetus materiaali ilmainen luomiseen. Luo ammattimaisia tehtäviä kolmessa napsautuksessa. Muokkaa kaikkea canvasilla täydellä vapaudella. Lataa omia kuvia tai valitse yli 3000 kuvasta. Jokainen ominaisuus on suunniteltu opettajille jotka tarvitsevat nopeita, laadukkaita tulostettavia tehtäviä. Täysi Käyttöoikeus -tilauksesi antaa rajattoman käytön kaikkiin ominaisuuksiin.',
     highlightBadgeText: 'Tärkeä Ominaisuus',
     readMoreLabel: 'Lue lisää',
@@ -178,7 +178,7 @@ Harmaasävyvaihtoehto säästää mustetta tulostettaessa. Täydellinen opettaji
 
   // How-To Guide - FULL text from Finnish treasure-hunt.md step sections
   howTo: {
-    sectionTitle: 'Kuinka Luoda Tulostettavat Tehtävät Lapsille Ilmainen 5 Helpossa Vaiheessa',
+    sectionTitle: 'Ilmainen Työarkki Lapsille Luoda - Työarkki Esiopetukseen',
     sectionDescription: 'Aarteenetsintä-tehtävien luominen vie alle kolme minuuttia alusta loppuun. Seuraa näitä viittä yksinkertaista vaihetta. Ei teknisiä taitoja tarvita. Ei monimutkaista muotoilua. Pelkkää suoraviivaista, nopeaa tehtävien luomista. Täysi Käyttöoikeus -tilauksesi antaa rajattoman pääsyn kaikkiin vaiheisiin.',
     ctaText: 'Aloita Luominen Nyt',
     badgeText: 'Näin Se Toimii',
@@ -250,7 +250,7 @@ Harmaasävyvaihtoehto säästää mustetta. Valitse harmaasävyn valintaruutu en
 
   // Use Cases - FULL text from Finnish treasure-hunt.md use case sections
   useCases: {
-    sectionTitle: 'Täydellinen Opettajille ja Vanhemmille - Värityskuvia Lapsille Tulostettava Jokaiseen Tarpeeseen',
+    sectionTitle: 'Ilmainen Työarkki Lapsille - Työarkki Esiopetukseen ja Ilmaiset Tulosteet. Työarkki Lapsille',
     sectionDescription: 'Aarteenetsintä-tehtävät palvelevat monia käyttäjäryhmiä. Esiopetuksen opettajat, alakoulun opettajat, kotiopettajat, kielenopettajat, erityisopettajat ja opettajayrittäjät. Jokainen ryhmä hyötyy suuntasanaston opetuksesta. Täysi Käyttöoikeus -tilaus antaa kaikille rajattoman pääsyn.',
     badgeText: 'Kenelle Sopii',
     readMoreLabel: 'Lue lisää',
@@ -333,7 +333,7 @@ Luo temaattisia paketteja korkeampaan myyntihintaan. Eläinteemainen paketti 10 
 
   // FAQ Section - Selected FAQs from Finnish treasure-hunt.md
   faq: {
-    sectionTitle: 'Usein Kysytyt Kysymykset - Aarteenetsintä Tehtävät ja Esiopetus Materiaali',
+    sectionTitle: 'FAQ - Ilmainen Työarkki Lapsille ja Työarkki Esiopetukseen. Työarkki Lapsille',
     sectionDescription: 'Vastaukset yleisimpiin kysymyksiin aarteenetsintä-tehtävistä. Hinnoittelusta ominaisuuksiin. Käytöstä räätälöintiin. Kaikki mitä tarvitset tietää ennen aloittamista.',
     showMoreText: 'Näytä lisää kysymyksiä',
     showLessText: 'Näytä vähemmän',
@@ -461,7 +461,7 @@ Luo temaattisia paketteja korkeampaan myyntihintaan. Eläinteemainen paketti 10 
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Yhdistä Muihin Tehtävämonistegeneraattoreihin',
+    sectionTitle: 'Ilmaiset Työarkit Yhdistää - Työarkki Lapsille ja Ilmaiset Tulosteet',
     sectionDescription: 'Luo kattavia oppimispaketteja yhdistämällä aarteenetsintä-tehtävät näihin täydentäviin generaattoreihin.',
     ctaTitle: 'Valmiina Luomaan Upeita Tehtävämonisteitä?',
     ctaDescription: 'Liity tuhansien opettajien joukkoon, jotka luovat ammattimaisia tehtävämonisteitä. Rajoittamaton generointi, kaupallinen lisenssi sisältyy.',

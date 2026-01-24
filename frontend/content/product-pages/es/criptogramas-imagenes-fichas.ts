@@ -83,8 +83,8 @@ Nuestro generador ofrece personalización completa. Elija entre más de 3000 im�
 
   // Sample Gallery - REAL file paths from samples/spanish/cryptogram/
   samples: {
-    sectionTitle: 'Ejemplos de Criptogramas con Imágenes',
-    sectionDescription: 'Descarga ejemplos gratuitos para ver nuestra calidad profesional',
+    sectionTitle: 'Ficha Gratis para Niños - Fichas Gratis e Imprimibles Gratis',
+    sectionDescription: 'Descarga imprimibles gratis - Ficha gratis para niños de calidad profesional. Ficha para niños perfecta para ficha para preescolar. Ficha gratis para niños y ficha para niños incluyen material educativo. Ficha gratis disponible',
     downloadLabel: 'Descargar Ejemplo Gratis',
     worksheetLabel: 'Criptograma',
     answerKeyLabel: 'Respuestas',
@@ -135,7 +135,7 @@ Nuestro generador ofrece personalización completa. Elija entre más de 3000 im�
 
   // Features Grid - FULL text from cryptogram.md feature sections
   features: {
-    sectionTitle: 'Características del Generador de Criptogramas - Fichas para Imprimir Personalizadas',
+    sectionTitle: 'Fichas Gratis y Ficha para Niños - Imprimibles Gratis y Ficha para Preescolar',
     sectionDescription: 'Nuestro generador de criptogramas ofrece todas las herramientas necesarias para crear fichas infantil profesionales. Combine lectoescritura con resolución de problemas. Perfecto para grafomotricidad avanzada y desarrollo cognitivo. Cada función está diseñada para facilitar la creación de material educativo gratis de alta calidad.',
     highlightBadgeText: 'Característica Clave',
     readMoreLabel: 'Leer más',
@@ -215,7 +215,7 @@ La opción de escala de grises ahorra tinta de impresora. Mantiene la calidad mi
 
   // How-To Guide - FULL text from cryptogram.md step sections
   howTo: {
-    sectionTitle: 'Cómo Crear Fichas de Lectoescritura con Criptogramas en 5 Pasos Fáciles',
+    sectionTitle: 'Ficha Gratis para Niños Crear - Ficha para Preescolar',
     sectionDescription: 'Crear criptogramas de imágenes profesionales toma menos de 3 minutos. No necesitas experiencia técnica ni habilidades de diseño. Sigue estos 5 pasos simples para generar fichas para imprimir personalizadas. Perfectas para preescolar, educación primaria y programas de lectoescritura. Cada paso está diseñado para máxima facilidad y resultados profesionales.',
     ctaText: 'Comenzar Ahora',
     badgeText: 'Cómo Funciona',
@@ -287,7 +287,7 @@ Imprime las fichas de lectoescritura en tu impresora casera o en un centro de co
 
   // Use Cases - FULL text from cryptogram.md use case sections
   useCases: {
-    sectionTitle: 'Perfecto para Maestros y Padres - Fichas para Imprimir para Todas las Necesidades Educativas',
+    sectionTitle: 'Ficha Gratis para Niños - Ficha para Preescolar con Imprimibles Gratis. Ficha para Niños',
     sectionDescription: 'Los criptogramas de imágenes benefician múltiples contextos educativos. Desde educación infantil hasta primaria. Maestros, padres y educadores especializados encuentran valor en estas fichas para imprimir. Cada grupo tiene necesidades únicas que este generador satisface perfectamente.',
     badgeText: 'Para Quién',
     readMoreLabel: 'Leer más',
@@ -370,7 +370,7 @@ La calidad profesional de 300 DPI garantiza satisfacción del cliente. Los compr
 
   // FAQ Section - Selected FAQs from cryptogram.md
   faq: {
-    sectionTitle: 'Preguntas Frecuentes sobre Criptogramas y Fichas para Imprimir',
+    sectionTitle: 'FAQ - Ficha Gratis para Niños y Ficha para Preescolar. Ficha para Niños',
     sectionDescription: 'Maestros y padres tienen preguntas comunes sobre nuestro generador de criptogramas. Esta sección responde las 12 preguntas más frecuentes. Cubre precios, funcionalidad, personalización y uso comercial. Información clara para tomar decisiones informadas sobre la suscripción.',
     showMoreText: 'Ver más preguntas',
     showLessText: 'Ver menos',
@@ -499,7 +499,7 @@ La calidad profesional de 300 DPI garantiza satisfacción del cliente. Los compr
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Combina Criptogramas con Ejercicios Matemáticas de Números, Tablas de Multiplicar, Actividades para Colorear, Abecedario y Fichas para Imprimir Gratis',
+    sectionTitle: 'Fichas Gratis Combinar - Ficha para Niños e Imprimibles Gratis',
     sectionDescription: 'LessonCraft Studio ofrece 33 generadores de fichas para imprimir diferentes. Combina criptogramas con otros tipos de fichas gratis para crear paquetes de aprendizaje completos. Esta integración multidisciplinaria maximiza el valor educativo. Los estudiantes practican múltiples habilidades simultáneamente con material educativo gratis cohesivo.',
     ctaTitle: '¿Listo para Crear Criptogramas Increíbles?',
     ctaDescription: 'Únete a miles de maestros que crean fichas profesionales. Generación ilimitada, licencia comercial incluida.',

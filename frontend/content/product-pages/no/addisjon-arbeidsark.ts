@@ -77,8 +77,8 @@ Perfekt for lærere i barneskolen som trenger matematikk oppgaver til daglig bru
 
   // Sample Gallery - REAL file paths from samples/english/addition/
   samples: {
-    sectionTitle: 'Addisjonsoppgaver Arbeidsark Eksempler',
-    sectionDescription: 'Last ned gratis eksempler på arbeidsark for å se vår profesjonelle kvalitet',
+    sectionTitle: 'Gratis Arbeidsark for Barn - Gratis Arbeidsark og Gratis Utskrifter',
+    sectionDescription: 'Last ned gratis utskrifter - Gratis arbeidsark for barn av profesjonell kvalitet. Gratis arbeidsark og arbeidsark for barn perfekt for arbeidsark for 1. trinn. Gratis arbeidsark for barn og arbeidsark for barn inkluderer gratis utskrifter undervisningsmateriell. Gratis arbeidsark og arbeidsark for 1. trinn tilgjengelig',
     badgeText: 'Gratis Eksempler',
     downloadLabel: 'Last ned Gratis Eksempel',
     downloadingLabel: 'Laster ned...',
@@ -122,7 +122,7 @@ Perfekt for lærere i barneskolen som trenger matematikk oppgaver til daglig bru
 
   // Features Grid - FULL text from addition.md feature sections
   features: {
-    sectionTitle: 'Funksjoner for Matematikk Oppgaver - Arbeidsark Gratis med Profesjonelle Verktøy',
+    sectionTitle: 'Gratis Arbeidsark og Arbeidsark for Barn - Gratis Utskrifter og Arbeidsark for 1. Trinn',
     sectionDescription: 'Generatoren vår for addisjonsoppgaver kombinerer enkel bruk med avanserte tilpasningsmuligheter. Lag matteoppgaver på 3 minutter fra valg av bilder til ferdig PDF. Kjernepakke gir deg alle verktøy du trenger for å lage arbeidsark gratis uten begrensninger. Hver funksjon er designet for lærere som trenger rask produksjon av oppgavehefter barn kan bruke umiddelbart.',
     highlightBadgeText: 'Viktig Funksjon',
     readMoreLabel: 'Les mer',
@@ -202,7 +202,7 @@ Gråskalealternativ reduserer blekkforbruk med 60-80% ved utskrift av matteoppga
 
   // How-To Guide - FULL text from addition.md step sections
   howTo: {
-    sectionTitle: 'Slik Lager Du Matematikk Oppgaver på 5 Enkle Trinn - Arbeidsark Gratis på Under 3 Minutter',
+    sectionTitle: 'Gratis Arbeidsark for Barn Lage - Arbeidsark for 1. Trinn',
     sectionDescription: 'Lag profesjonelle addisjonsoppgaver fra start til ferdig PDF på under 3 minutter. Følg disse fem trinnene for å lage arbeidsark gratis til klasserommet ditt. Ingen designerfaring nødvendig. Kjernepakke abonnementet gir deg alle verktøy for å produsere oppgavehefter barn elsker å jobbe med.',
     ctaText: 'Start Nå',
     badgeText: 'Slik Fungerer Det',
@@ -274,7 +274,7 @@ Gråskalealternativet konverterer alle farger til gråtoner før nedlasting. Red
 
   // Use Cases - FULL text from addition.md use case sections
   useCases: {
-    sectionTitle: 'Perfekt for Lærere og Foreldre - Matematikk Oppgaver og Arbeidsark Gratis for Alle Behov',
+    sectionTitle: 'Gratis Arbeidsark for Barn - Arbeidsark for 1. Trinn med Gratis Utskrifter. Arbeidsark for Barn',
     sectionDescription: 'Vår generator passer alle som trenger profesjonelle addisjonsoppgaver for barn. Lærere på småskoletrinnet bruker den daglig. Foreldre som hjemmeskoler barna sine elsker fleksibiliteten. Spesialpedagoger tilpasser oppgavehefter barn med særskilte behov. Kjernepakke abonnementet gir alle verktøyene du trenger.',
     badgeText: 'Hvem Er Det For',
     readMoreLabel: 'Les mer',
@@ -347,7 +347,7 @@ Kjernepakke inkluderer full kommersiell lisens for kr 1 075 årlig. Eksporter i 
 
   // FAQ Section - From addition.md
   faq: {
-    sectionTitle: 'Ofte Stilte Spørsmål om Matematikk Oppgaver - Arbeidsark Gratis med Addisjon og Subtraksjon',
+    sectionTitle: 'FAQ - Gratis Arbeidsark for Barn og Arbeidsark for 1. Trinn. Arbeidsark for Barn',
     sectionDescription: 'Lærere stiller ofte de samme spørsmålene om addisjonsoppgaver og abonnementet. Her er svar på de 12 vanligste spørsmålene om matematikk oppgaver og oppgavehefter barn kan bruke. Lær mer om Kjernepakke-abonnementet og hvordan du kombinerer addisjon og subtraksjon med andre aktiviteter.',
     showMoreText: 'Vis flere spørsmål',
     showLessText: 'Vis færre',
@@ -452,7 +452,7 @@ Kjernepakke inkluderer full kommersiell lisens for kr 1 075 årlig. Eksporter i 
 
   // Related Apps - From addition.md "Kombiner" section
   relatedApps: {
-    sectionTitle: 'Kombiner Addisjonsoppgaver med Andre Oppgavehefter Barn Elsker - Komplette Læringspakker',
+    sectionTitle: 'Gratis Arbeidsark Kombinere - Arbeidsark for Barn og Gratis Utskrifter',
     sectionDescription: 'Plattformen tilbyr 33 forskjellige oppgavegeneratorer du kan kombinere med addisjonsoppgaver. Lag helhetlige oppgavehefter barn bruker for tverrfaglig læring. Kombiner matematikk oppgaver med fargeleggingsbilder barn, bokstaver lære skrive, lesetrening, finmotorikk øvelser og gangetabellen. Kjernepakke gir tilgang til 10 generatorer som dekker de fleste behov på småskoletrinnet.',
     ctaTitle: 'Klar til å Lage Fantastiske Arbeidsark?',
     ctaDescription: 'Bli med tusenvis av pedagoger som lager profesjonelle arbeidsark. Ubegrenset oppretting, kommersiell lisens inkludert.',

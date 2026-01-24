@@ -87,8 +87,8 @@ L'abonnement Accès Complet coûte 240 € par an ou 25 € par mois. Vous accé
 
   // Sample Gallery - REAL file paths from samples/english/prepositions/
   samples: {
-    sectionTitle: 'Exemples de Fiches sur les Prépositions',
-    sectionDescription: 'Téléchargez des exemples gratuits pour voir notre qualité professionnelle',
+    sectionTitle: 'Fiche Gratuite pour Enfants - Fiches Gratuites et Imprimables Gratuits',
+    sectionDescription: 'Téléchargez imprimables gratuits - Fiche gratuite pour enfants de qualité professionnelle. Fiches gratuites et fiche pour enfants parfaites pour fiche pour maternelle. Fiche gratuite pour enfants et fiches gratuites inclus matériel éducatif. Fiche gratuite et fiches gratuites disponible',
     downloadLabel: 'Télécharger Exemple Gratuit',
     worksheetLabel: 'Fiche',
     answerKeyLabel: 'Corrigé',
@@ -139,7 +139,7 @@ L'abonnement Accès Complet coûte 240 € par an ou 25 € par mois. Vous accé
 
   // Features Grid - FULL text from prepositions.md feature sections
   features: {
-    sectionTitle: 'Fonctionnalités du Générateur - Fiches Maternelle et Exercices CP Personnalisables',
+    sectionTitle: 'Fiches Gratuites et Fiche pour Enfants - Imprimables Gratuits et Fiche pour Maternelle',
     sectionDescription: 'Notre générateur d\'exercices sur les prépositions propose toutes les fonctionnalités nécessaires pour créer des fiches maternelle professionnelles. Chaque outil a été conçu pour répondre aux besoins des enseignants de maternelle et de CP. L\'interface intuitive permet de produire rapidement des exercices de qualité. Les sept fonctionnalités principales garantissent une flexibilité totale pour vos fiches à imprimer gratuit.',
     highlightBadgeText: 'Fonctionnalité Clé',
     readMoreLabel: 'Lire la suite',
@@ -205,7 +205,7 @@ L'abonnement Accès Complet coûte 240 € par an ou 25 € par mois. Vous accé
 
   // How-To Guide - FULL text from prepositions.md step sections
   howTo: {
-    sectionTitle: 'Comment Créer des Fiches Maternelle et Exercices CP sur les Prépositions en 5 Étapes Simples',
+    sectionTitle: 'Fiche Gratuite pour Enfants Créer - Fiche pour Maternelle',
     sectionDescription: 'Créez vos fiches à imprimer gratuit sur les prépositions en moins de 3 minutes. Le processus de création se décompose en cinq étapes faciles à suivre. Aucune compétence technique requise. L\'interface intuitive guide les enseignants de maternelle et de CP à travers chaque étape. Suivez simplement les instructions pour obtenir des exercices professionnels rapidement. Les captures d\'écran et explications détaillées rendent le processus encore plus simple.',
     ctaText: 'Commencer Maintenant',
     badgeText: 'Comment Ça Marche',
@@ -257,7 +257,7 @@ L'abonnement Accès Complet coûte 240 € par an ou 25 € par mois. Vous accé
 
   // Use Cases - FULL text from prepositions.md use case sections
   useCases: {
-    sectionTitle: 'Pour Qui - Enseignants, Parents et Éducateurs Utilisent Ces Fiches Maternelle',
+    sectionTitle: 'Fiche Gratuite pour Enfants - Fiche pour Maternelle avec Imprimables Gratuits. Fiche pour Enfants',
     sectionDescription: 'Les exercices sur les prépositions conviennent à différents profils d\'enseignants et d\'éducateurs. Chaque groupe trouve des avantages spécifiques dans ce générateur de fiches à imprimer gratuit. Les besoins pédagogiques varient selon le contexte d\'enseignement. Notre outil s\'adapte à toutes ces situations. Les six profils d\'utilisateurs principaux bénéficient chacun de fonctionnalités particulières.',
     badgeText: 'Pour Qui',
     readMoreLabel: 'Lire la suite',
@@ -316,7 +316,7 @@ L'abonnement Accès Complet coûte 240 € par an ou 25 € par mois. Vous accé
 
   // FAQ Section - FULL text from prepositions.md FAQ sections
   faq: {
-    sectionTitle: 'Questions Fréquentes sur les Fiches à Imprimer Gratuit et Exercices sur les Prépositions',
+    sectionTitle: 'FAQ - Fiche Gratuite pour Enfants et Fiche pour Maternelle. Fiche pour Enfants',
     sectionDescription: 'Les enseignants se posent souvent les mêmes questions avant de s\'abonner. Cette section répond aux interrogations les plus courantes concernant le générateur d\'exercices sur les prépositions. Clarifiez vos doutes avant de commencer à créer vos fiches maternelle. Les réponses détaillées vous aident à comprendre toutes les possibilités de l\'outil.',
     showMoreText: 'Afficher plus de questions',
     showLessText: 'Afficher moins',
@@ -421,7 +421,7 @@ L'abonnement Accès Complet coûte 240 € par an ou 25 € par mois. Vous accé
 
   // Related Apps Section
   relatedApps: {
-    sectionTitle: 'Combinez les Exercices sur les Prépositions avec Autres Fiches à Imprimer Gratuit',
+    sectionTitle: 'Fiches Gratuites Combiner - Fiche pour Enfants et Imprimables Gratuits',
     sectionDescription: 'Votre abonnement Accès Complet vous donne accès à 33 générateurs de fiches pédagogiques différents. Combinez les exercices sur les prépositions avec d\'autres types de fiches pour créer des parcours d\'apprentissage complets. Les enseignants de maternelle et CP bénéficient particulièrement de cette approche intégrée. Créez des packs thématiques couvrant plusieurs compétences simultanément.',
     ctaTitle: 'Prêt à Créer des Fiches Professionnelles sur les Prépositions ?',
     ctaDescription: 'Rejoignez des milliers d\'enseignants qui créent des fiches maternelle et exercices CP professionnels en moins de 3 minutes.',

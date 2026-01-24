@@ -53,8 +53,8 @@ Peruspaketti-tilaus sisältää kaupallisen lisenssin. Voit myydä luomiasi teht
 
   // Sample Gallery - REAL file paths from samples/english/matching/
   samples: {
-    sectionTitle: 'Yhdistä Parit Tehtävät Esimerkit',
-    sectionDescription: 'Lataa ilmaiset esimerkkityöarkit nähdäksesi ammattimaisen laatumme',
+    sectionTitle: 'Ilmainen Työarkki Lapsille - Ilmaiset Työarkit ja Ilmaiset Tulosteet',
+    sectionDescription: 'Lataa ilmaiset tulosteet - Ilmainen työarkki lapsille ammattimaista laatua. Ilmaiset työarkit ja työarkki lapsille täydellinen työarkki esiopetukseen. Ilmainen työarkki lapsille ja työarkki lapsille sisältää ilmaiset tulosteet ja ilmaiset työarkit opetusmateriaalin. Ilmainen työarkki ja työarkki esiopetukseen saatavilla',
     downloadLabel: 'Lataa Ilmainen Esimerkki',
     worksheetLabel: 'Tehtävämoniste',
     answerKeyLabel: 'Vastausavain',
@@ -91,7 +91,7 @@ Peruspaketti-tilaus sisältää kaupallisen lisenssin. Voit myydä luomiasi teht
 
   // Features Grid - FULL text from Finnish matching.md feature sections
   features: {
-    sectionTitle: 'MatchUp Maker -Ominaisuudet - Kaikki Mitä Tarvitset Tulostettavat Tehtävät Lapsille Ilmainen Luomiseen',
+    sectionTitle: 'Ilmaiset Työarkit ja Työarkki Lapsille - Ilmaiset Tulosteet ja Työarkki Esiopetukseen',
     sectionDescription: 'MatchUp Maker tarjoaa kattavan valikoiman työkaluja ammattitasoisten yhdistä parit -tehtävien luomiseen. Peruspaketti-tilauksellasi saat käyttöösi kaikki seitsemän pääominaisuutta. Nämä ominaisuudet tekevät tehtävien luomisesta nopeaa ja helppoa. Työkalulla voit luoda esiopetus materiaalia ilmaiseksi ilman lisämaksuja. Jokaisella ominaisuudella on tärkeä rooli ammattitasoisten tehtävien luomisessa.',
     highlightBadgeText: 'Tärkeä Ominaisuus',
     readMoreLabel: 'Lue lisää',
@@ -185,7 +185,7 @@ Erilliset vastausavaimen lataukset ovat saatavilla. Luo vastausavain erillisell�
 
   // How-To Guide - FULL text from Finnish matching.md step sections
   howTo: {
-    sectionTitle: 'Kuinka Luoda Tulostettavat Tehtävät Lapsille Ilmainen Viidessä Helpossa Vaiheessa',
+    sectionTitle: 'Ilmainen Työarkki Lapsille Luoda - Työarkki Esiopetukseen',
     sectionDescription: 'Yhdistä parit -tehtävän luominen MatchUp Maker -työkalulla on nopea prosessi. Koko prosessi vie alle kolme minuuttia alusta loppuun. Ei vaadi teknistä osaamista tai suunnittelutaitoja. Seuraa näitä viittä yksinkertaista vaihetta. Luo ammattitasoisia tehtäviä esiopetukseen ja alakouluun. Aloita käyttämään luokassasi tänään.',
     ctaText: 'Aloita Luominen Nyt',
     badgeText: 'Näin Se Toimii',
@@ -257,7 +257,7 @@ Vastausavaimen lataus on yhtä helppoa. Klikkaa Generoi Vastausavain -painiketta
 
   // Use Cases - FULL text from Finnish matching.md use case sections
   useCases: {
-    sectionTitle: 'Täydellinen Opettajille Vanhemmille ja Kasvattajille - Tulostettavat Tehtävät Lapsille Ilmainen Jokaiseen Tarpeeseen',
+    sectionTitle: 'Ilmainen Työarkki Lapsille - Työarkki Esiopetukseen ja Ilmaiset Tulosteet. Työarkki Lapsille',
     sectionDescription: 'MatchUp Maker palvelee monia erilaisia käyttäjäryhmiä kasvatusympäristöissä. Peruspaketti-tilaus tarjoaa arvoa kaikille jotka luovat oppimismateriaaleja lapsille. Esiopetuksen opettajat käyttävät työkalua päivittäin. Alakoulun opettajat rakentavat kirjainten harjoittelu esikoulu tehtäviä. Kotiopettajavanhemmat personoivat oppimiskokemuksia. Kielenopettajat luovat monikielisiä materiaaleja. Jokainen käyttäjäryhmä löytää ainutlaatuista arvoa työkalusta.',
     badgeText: 'Kenelle Sopii',
     readMoreLabel: 'Lue lisää',
@@ -340,7 +340,7 @@ Etsy on toinen kannattava myyntikanava. Digitaaliset tulostettavat tehtävät la
 
   // FAQ Section - Selected FAQs from Finnish matching.md
   faq: {
-    sectionTitle: 'Usein Kysytyt Kysymykset Tulostettavat Tehtävät Lapsille Ilmainen Tehtävistä',
+    sectionTitle: 'FAQ - Ilmainen Työarkki Lapsille ja Työarkki Esiopetukseen. Työarkki Lapsille',
     sectionDescription: 'MatchUp Maker herättää paljon kysymyksiä uusilta käyttäjiltä. Opettajat haluavat ymmärtää miten työkalu toimii ennen tilaamista. Vanhemmat kysyvät käyttömahdollisuuksista kotona. Yrittäjät tiedustelevat kaupallisista oikeuksista.',
     showMoreText: 'Näytä lisää kysymyksiä',
     showLessText: 'Näytä vähemmän',
@@ -445,7 +445,7 @@ Etsy on toinen kannattava myyntikanava. Digitaaliset tulostettavat tehtävät la
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Yhdistä Muihin Tehtävämonistegeneraattoreihin',
+    sectionTitle: 'Ilmaiset Työarkit Yhdistää - Työarkki Lapsille ja Ilmaiset Tulosteet',
     sectionDescription: 'Luo kattavia oppimispaketteja yhdistämällä yhdistä parit -tehtävät näihin täydentäviin generaattoreihin.',
     ctaTitle: 'Valmiina Luomaan Upeita Tehtävämonisteitä?',
     ctaDescription: 'Liity tuhansien opettajien joukkoon, jotka luovat ammattimaisia tehtävämonisteitä. Rajoittamaton generointi, kaupallinen lisenssi sisältyy.',

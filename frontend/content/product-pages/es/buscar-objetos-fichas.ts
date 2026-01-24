@@ -87,8 +87,8 @@ El generador funciona en 11 idiomas diferentes. Los nombres de las imágenes se 
 
   // Sample Gallery - REAL file paths from samples/english/find objects/
   samples: {
-    sectionTitle: 'Ejemplos de Fichas de Buscar Objetos',
-    sectionDescription: 'Descarga ejemplos gratuitos para ver nuestra calidad profesional',
+    sectionTitle: 'Ficha Gratis para Niños - Fichas Gratis e Imprimibles Gratis',
+    sectionDescription: 'Descarga imprimibles gratis - Ficha gratis para niños de calidad profesional. Ficha para niños perfecta para ficha para preescolar. Ficha gratis para niños y ficha para niños incluyen material educativo. Ficha gratis disponible',
     downloadLabel: 'Descargar Ejemplo Gratis',
     worksheetLabel: 'Ficha',
     answerKeyLabel: 'Respuestas',
@@ -139,7 +139,7 @@ El generador funciona en 11 idiomas diferentes. Los nombres de las imágenes se 
 
   // Features Grid - FULL text from find-objects.md feature sections
   features: {
-    sectionTitle: 'Características del Generador de Fichas para Imprimir - Todo lo que Necesitas para Crear Material Educativo Gratis',
+    sectionTitle: 'Fichas Gratis y Ficha para Niños - Imprimibles Gratis y Ficha para Preescolar',
     sectionDescription: 'Nuestro generador de fichas infantil incluye todas las herramientas profesionales que necesitas. Crea fichas preescolar y fichas para educación primaria en minutos. Cada característica está diseñada pensando en maestros ocupados. La suscripción Acceso Completo te da acceso completo a 33 generadores diferentes.',
     highlightBadgeText: 'Característica Clave',
     readMoreLabel: 'Leer más',
@@ -255,7 +255,7 @@ Cada descarga incluye dos archivos. La ficha de trabajo para estudiantes. La cla
 
   // How-To Guide - FULL text from find-objects.md step sections
   howTo: {
-    sectionTitle: 'Cómo Crear Fichas para Imprimir de Buscar Objetos en 5 Pasos Fáciles',
+    sectionTitle: 'Ficha Gratis para Niños Crear - Ficha para Preescolar',
     sectionDescription: 'Crear fichas infantil profesionales toma menos de 3 minutos. No necesitas experiencia en diseño gráfico. No requieres software especializado complicado. Solo sigue estos 5 pasos simples. Cada paso está diseñado para maestros ocupados que necesitan material educativo gratis rápidamente.',
     ctaText: 'Comenzar Ahora',
     badgeText: 'Cómo Funciona',
@@ -353,7 +353,7 @@ Guarda ambos archivos en tu computadora. Organízalos en carpetas por tema o mes
 
   // Use Cases - FULL text from find-objects.md use case sections
   useCases: {
-    sectionTitle: 'Perfecto para Maestros y Padres',
+    sectionTitle: 'Ficha Gratis para Niños - Ficha para Preescolar con Imprimibles Gratis. Ficha para Niños',
     sectionDescription: 'Nuestro generador de fichas para imprimir beneficia a educadores en múltiples contextos. Maestros de preescolar encuentran actividades perfectas para sus grupos. Docentes de primaria obtienen material de refuerzo diferenciado. Padres de familia crean ejercicios personalizados en casa. Cada grupo aprovecha las fichas de manera única y valiosa.',
     badgeText: 'Para Quién',
     readMoreLabel: 'Leer más',
@@ -460,7 +460,7 @@ Pinterest genera tráfico masivo hacia tus productos. Crea pines mostrando ejemp
 
   // FAQ Section - Selected FAQs from find-objects.md
   faq: {
-    sectionTitle: 'Preguntas Frecuentes',
+    sectionTitle: 'FAQ - Ficha Gratis para Niños y Ficha para Preescolar. Ficha para Niños',
     sectionDescription: 'Preguntas frecuentes sobre nuestro generador de fichas de buscar objetos y fichas para imprimir.',
     showMoreText: 'Ver más preguntas',
     showLessText: 'Ver menos',
@@ -589,7 +589,7 @@ Pinterest genera tráfico masivo hacia tus productos. Crea pines mostrando ejemp
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Combina con Otros Generadores de Fichas',
+    sectionTitle: 'Fichas Gratis Combinar - Ficha para Niños e Imprimibles Gratis',
     sectionDescription: 'Crea paquetes de aprendizaje completos combinando las fichas de buscar objetos con estos generadores complementarios.',
     ctaTitle: '¿Listo para Crear Fichas Increíbles?',
     ctaDescription: 'Únete a miles de maestros que crean fichas profesionales. Generación ilimitada, licencia comercial incluida.',

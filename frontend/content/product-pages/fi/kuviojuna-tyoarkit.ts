@@ -55,8 +55,8 @@ Jokaisessa tehtävässä on selkeät esimerkit ja vastausavain. Voit mukauttaa v
 
   // Sample Gallery - REAL file paths from samples/english/pattern train/
   samples: {
-    sectionTitle: 'Kuviojuna Tehtävät Esimerkit',
-    sectionDescription: 'Lataa ilmaiset esimerkkityöarkit nähdäksesi ammattimaisen laatumme',
+    sectionTitle: 'Ilmainen Työarkki Lapsille - Ilmaiset Työarkit ja Ilmaiset Tulosteet',
+    sectionDescription: 'Lataa ilmaiset tulosteet - Ilmainen työarkki lapsille ammattimaista laatua. Ilmaiset työarkit ja työarkki lapsille täydellinen työarkki esiopetukseen. Ilmainen työarkki lapsille ja työarkki lapsille sisältää ilmaiset tulosteet ja ilmaiset työarkit opetusmateriaalin. Ilmainen työarkki ja työarkki esiopetukseen saatavilla',
     downloadLabel: 'Lataa Ilmainen Esimerkki',
     worksheetLabel: 'Työarkki',
     answerKeyLabel: 'Vastausavain',
@@ -86,7 +86,7 @@ Jokaisessa tehtävässä on selkeät esimerkit ja vastausavain. Voit mukauttaa v
 
   // Features Grid - FULL text from Finnish kuviojuna.md feature sections
   features: {
-    sectionTitle: 'Kuviojuna Ominaisuudet - Kaikki Mitä Tarvitset Matematiikka Tehtävät Alakoulu ja Tulostettavat Tehtävät Lapsille Ilmainen',
+    sectionTitle: 'Ilmaiset Työarkit ja Työarkki Lapsille - Ilmaiset Tulosteet ja Työarkki Esiopetukseen',
     sectionDescription: 'Kuviojuna tehtävämonisteen luoja tarjoaa ammattimaiset työkalut kuviontunnistuksen opettamiseen. Täysi Pääsy -tilaus antaa sinulle pääsyn kaikkiin 33 tehtävämonisteen luojaan, mukaan lukien kuviojuna. Luo rajattomasti tulostettavia tehtäviä lapsille ilman lisämaksuja. Jokainen ominaisuus on suunniteltu helpottamaan esiopetuksen ja alakoulun opettajien työtä.',
     highlightBadgeText: 'Tärkeä Ominaisuus',
     readMoreLabel: 'Lue lisää',
@@ -194,7 +194,7 @@ Kumoamis- ja tekeminen uudelleen -toiminnot suojaavat työtäsi. Tee virhe? Klik
 
   // How-To Guide - FULL text from Finnish kuviojuna.md step sections
   howTo: {
-    sectionTitle: 'Kuinka Luoda Tulostettavat Tehtävät Lapsille Ilmainen 5 Helpossa Vaiheessa - Matematiikka Tehtävät Alakoulu ja Esiopetus Materiaali',
+    sectionTitle: 'Ilmainen Työarkki Lapsille Luoda - Työarkki Esiopetukseen',
     sectionDescription: 'Kuviojuna tehtävämonisteen luominen kestää alle kolme minuuttia alusta loppuun. Ei vaadita suunnittelutaitoja tai teknistä kokemusta. Seuraa viittä yksinkertaista vaihetta ammattimaiseen tehtävämonistiin. Jokainen vaihe on suunniteltu nopeaksi ja intuitiiviseksi.',
     ctaText: 'Aloita Luominen Nyt',
     badgeText: 'Näin Se Toimii',
@@ -276,7 +276,7 @@ Tulosta kotitulostimella tai koulukopiokoneella. 300 DPI -laatu näyttää ammat
 
   // Use Cases - FULL text from Finnish kuviojuna.md use case sections
   useCases: {
-    sectionTitle: 'Täydellinen Opettajille ja Vanhemmille - Tulostettavat Tehtävät Lapsille Ilmainen Jokaiseen Tarpeeseen',
+    sectionTitle: 'Ilmainen Työarkki Lapsille - Työarkki Esiopetukseen ja Ilmaiset Tulosteet. Työarkki Lapsille',
     sectionDescription: 'Kuviojuna palvelee monipuolisesti eri käyttäjäryhmiä. Esiopetuksen opettajista alakoulun opettajiin, kotiopettajavanhemmista erityisopettajiin. Jokainen käyttäjäryhmä löytää oman tapansa hyödyntää kuviojuna tehtävämonisteitä. Matematiikka tehtävät alakoulu sopivat kaikille ikätasoille ja oppimistarpeille.',
     badgeText: 'Kenelle Sopii',
     readMoreLabel: 'Lue lisää',
@@ -500,7 +500,7 @@ Yhdistä kuviojuna muihin tehtäviin kattaviksi paketeiksi. Myy "Talven Matemati
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Yhdistä Kuviojuna Muihin Tulostettaviin Tehtäviin Lapsille - Täydelliset Oppimispaketit',
+    sectionTitle: 'Ilmaiset Työarkit Yhdistää - Työarkki Lapsille ja Ilmaiset Tulosteet',
     sectionDescription: 'Täysi Pääsy sisältää 33 ilmaista työkalua. Yhdistä kuviojuna tehtävät muihin generaattoreihin täydellisiin oppimispaketteihin. Luo viikon tehtäväpaketti kaikilla työkaluilla. Luo teemakohtaisia paketteja jotka yhdistävät useita taitoja.',
     ctaTitle: 'Valmiina Luomaan Upeita Työarkkeja?',
     ctaDescription: 'Liity tuhansien opettajien joukkoon, jotka luovat ammattimaisia työarkkeja. Rajoittamaton generointi, kaupallinen lisenssi sisältyy.',

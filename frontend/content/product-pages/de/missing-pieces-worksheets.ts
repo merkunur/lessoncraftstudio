@@ -97,8 +97,8 @@ Ideal für Erzieherinnen in der Vorschule, Grundschullehrkräfte und Eltern im H
 
   // Sample Gallery - REAL file paths from samples/german/missing-pieces/
   samples: {
-    sectionTitle: 'Fehlende Puzzleteile Arbeitsblätter Beispiele',
-    sectionDescription: 'Laden Sie kostenlose Beispiel-Arbeitsblätter herunter, um unsere professionelle Qualität zu sehen',
+    sectionTitle: 'Kostenloses Arbeitsblatt für Kinder - Kostenlose Arbeitsblätter und Kostenlose Druckvorlagen',
+    sectionDescription: 'Laden Sie kostenlose Druckvorlagen herunter - Kostenloses Arbeitsblatt für Kinder in professioneller Qualität für Arbeitsblatt für Vorschule',
     downloadLabel: 'Kostenloses Beispiel Herunterladen',
     worksheetLabel: 'Arbeitsblatt',
     answerKeyLabel: 'Lösungsblatt',
@@ -149,7 +149,7 @@ Ideal für Erzieherinnen in der Vorschule, Grundschullehrkräfte und Eltern im H
 
   // Features Grid - FULL text from fehlende-puzzleteile.md feature sections
   features: {
-    sectionTitle: 'Funktionen des Puzzle-Generators - Kostenlose Arbeitsblätter für Mathe Arbeitsblätter und Vorschule Arbeitsblätter erstellen',
+    sectionTitle: 'Arbeitsblatt für Kinder - Arbeitsblatt für Vorschule und Kostenlose Arbeitsblätter',
     sectionDescription: 'Unser Generator für fehlende Puzzleteile vereint leistungsstarke Funktionen mit einfacher Bedienung. Lehrkräfte erstellen professionelle Arbeitsblätter Grundschule ohne Designerfahrung. Die Plattform enthält alles für kostenlose Arbeitsblätter in allen Fächern. Das Vollzugriff Abonnement schaltet alle 33 Arbeitsblatt-Typen frei. Erstellen Sie unbegrenzt Materialien für den Unterricht oder zum Verkauf. Jede Funktion spart Lehrkräften wöchentlich Stunden an Vorbereitungszeit.',
     highlightBadgeText: 'Hauptfunktion',
     readMoreLabel: 'Mehr lesen',
@@ -276,7 +276,7 @@ Wählen Sie Ihre Teilform aus sechs Optionen. Quadratische Formen eignen sich gu
 
   // How-To Guide - FULL text from fehlende-puzzleteile.md step sections
   howTo: {
-    sectionTitle: 'Anleitung: Kostenlose Arbeitsblätter und Mathe Arbeitsblätter in 5 einfachen Schritten erstellen',
+    sectionTitle: 'Kostenloses Arbeitsblatt für Kinder erstellen - Arbeitsblatt für Vorschule',
     sectionDescription: 'Das Erstellen von Puzzles mit fehlenden Teilen dauert weniger als 3 Minuten vom Start bis zum fertigen Arbeitsblatt. Der Schritt-für-Schritt-Prozess funktioniert identisch für Deutsch Arbeitsblätter, Rechnen lernen und Buchstaben lernen Aktivitäten. Lehrkräfte benötigen keine Designerfahrung oder technische Schulung. Jeder Schritt nutzt einfache Klick-Steuerungen. Der gesamte Ablauf fühlt sich intuitiv an, selbst für Erstnutzer.',
     ctaText: 'Jetzt Erstellen',
     badgeText: 'So funktioniert es',
@@ -348,7 +348,7 @@ Aktivieren Sie den Graustufen-Modus vor dem Download, wenn gewünscht. Diese Opt
 
   // Use Cases - FULL descriptions from fehlende-puzzleteile.md persona sections
   useCases: {
-    sectionTitle: 'Perfekt für Lehrkräfte, Eltern und Pädagogen - Arbeitsblätter Grundschule und Vorschule Arbeitsblätter für jeden Bedarf',
+    sectionTitle: 'Kostenloses Arbeitsblatt für Kinder - Arbeitsblatt für Vorschule mit Kostenlose Druckvorlagen',
     sectionDescription: 'Puzzle-Arbeitsblätter mit fehlenden Teilen dienen vielfältigen pädagogischen Umgebungen und Unterrichtsstilen. Erzieherinnen in der Vorschule nutzen sie für Lernstationen und erste Mathematik. Grundschullehrkräfte erstellen mühelos differenzierte Aufgaben. Homeschooling-Eltern generieren individuelle Materialien passend zu ihrem Lehrplan.',
     badgeText: 'Anwendungsbereiche',
     readMoreLabel: 'Mehr lesen',
@@ -431,7 +431,7 @@ Bauen Sie charakteristische Produktlinien mit konsistentem Branding auf. Laden S
 
   // FAQ Section - FULL FAQs from fehlende-puzzleteile.md
   faq: {
-    sectionTitle: 'Häufig gestellte Fragen zum Puzzle-Generator - Vorschule Arbeitsblätter, Mathe Arbeitsblätter und Kostenlose Arbeitsblätter FAQ',
+    sectionTitle: 'FAQ - Kostenloses Arbeitsblatt für Kinder und Arbeitsblatt für Vorschule',
     sectionDescription: 'Lehrkräfte und Eltern stellen regelmäßig Fragen zu den Möglichkeiten von Puzzle-Arbeitsblättern mit fehlenden Teilen. Die folgenden Antworten behandeln häufige Fragen zu Fähigkeiten, Kompatibilität und Unterrichtseinsatz.',
     showMoreText: 'Mehr Fragen anzeigen',
     showLessText: 'Weniger anzeigen',
@@ -590,7 +590,7 @@ Bauen Sie charakteristische Produktlinien mit konsistentem Branding auf. Laden S
 
   // Related Apps - Apps that work well with missing-pieces
   relatedApps: {
-    sectionTitle: 'Fehlende Puzzleteile mit 32 anderen Generatoren kombinieren - Einmaleins, Schwungübungen und Arbeitsblätter Grundschule',
+    sectionTitle: 'Kostenlose Arbeitsblätter kombinieren - Arbeitsblatt für Kinder und Kostenlose Druckvorlagen',
     sectionDescription: 'Das Vollzugriff Abonnement enthält 33 verschiedene Arbeitsblatt-Generatoren. Kombinieren Sie Puzzle-Arbeitsblätter mit anderen Generatortypen für vollständige Lernpakete. Erstellen Sie thematische Einheiten die mehrere Fähigkeiten gleichzeitig trainieren. Jeder Generator nutzt dieselbe intuitive Benutzeroberfläche.',
     ctaTitle: 'Bereit, fantastische Arbeitsblätter zu erstellen?',
     ctaDescription: 'Schließen Sie sich tausenden Lehrkräften an, die professionelle Arbeitsblätter erstellen. Unbegrenzte Generierung, kommerzielle Lizenz inklusive.',

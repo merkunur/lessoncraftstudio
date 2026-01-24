@@ -103,8 +103,8 @@ Der Generator unterstützt 11 Sprachen für die Benutzeroberfläche und Bildbesc
 
   // Sample Gallery - REAL file paths from samples/english/subtraction/
   samples: {
-    sectionTitle: 'Subtraktion Arbeitsblätter Beispiele',
-    sectionDescription: 'Laden Sie kostenlose Beispiel-Arbeitsblätter herunter, um unsere professionelle Qualität zu sehen',
+    sectionTitle: 'Kostenloses Arbeitsblatt für Kinder - Kostenlose Arbeitsblätter und Kostenlose Druckvorlagen',
+    sectionDescription: 'Laden Sie kostenlose Druckvorlagen herunter - Kostenloses Arbeitsblatt für Kinder in professioneller Qualität für Arbeitsblatt für Vorschule',
     downloadLabel: 'Kostenloses Beispiel Herunterladen',
     worksheetLabel: 'Arbeitsblatt',
     answerKeyLabel: 'Lösungsblatt',
@@ -155,7 +155,7 @@ Der Generator unterstützt 11 Sprachen für die Benutzeroberfläche und Bildbesc
 
   // Features Grid - FULL text from subtraktion.md feature sections
   features: {
-    sectionTitle: 'Funktionen des Subtraktion Arbeitsblätter Generators - Alle Werkzeuge für Mathe Arbeitsblätter und Rechnen lernen',
+    sectionTitle: 'Arbeitsblatt für Kinder - Arbeitsblatt für Vorschule und Kostenlose Arbeitsblätter',
     sectionDescription: 'Unser Subtraktion Arbeitsblätter Generator bietet umfangreiche Funktionen für die Erstellung professioneller Mathe Arbeitsblätter. Jede Funktion wurde speziell für Lehrkräfte entwickelt. Die Bedienung ist intuitiv und erfordert keine technischen Vorkenntnisse. In wenigen Minuten entstehen druckfertige Arbeitsblätter Grundschule. Ihr Vollzugriff Abonnement ermöglicht unbegrenzte Arbeitsblatt-Erstellung. Keine zusätzlichen Kosten pro Arbeitsblatt. Erstellen Sie so viele Mathe Arbeitsblätter wie Ihre Schüler benötigen. Laden Sie Arbeitsblätter im hochwertigen PDF- oder JPEG-Format herunter.',
     highlightBadgeText: 'Hauptfunktion',
     readMoreLabel: 'Mehr lesen',
@@ -235,7 +235,7 @@ Der Generator erstellt automatisch einen Lösungsschlüssel. Dieser zeigt alle k
 
   // How-To Guide - FULL text from subtraktion.md
   howTo: {
-    sectionTitle: 'Subtraktion Arbeitsblätter erstellen in 5 einfachen Schritten - Anleitung für Mathe Arbeitsblätter und Minusrechnen',
+    sectionTitle: 'Kostenloses Arbeitsblatt für Kinder erstellen - Arbeitsblatt für Vorschule',
     sectionDescription: 'Diese Schritt-für-Schritt-Anleitung zeigt die Erstellung professioneller Subtraktion Arbeitsblätter. Der gesamte Vorgang dauert weniger als drei Minuten. Keine Vorkenntnisse erforderlich. Folgen Sie einfach den fünf Schritten für perfekte Mathe Arbeitsblätter. Der Arbeitsblatt-Generator führt Sie durch jeden Schritt. Wählen Sie Ihre Einstellungen und sehen Sie Ihr Mathe Arbeitsblatt auf dem Bildschirm. Bearbeiten Sie alles vor dem Download. Ihr Vollzugriff Abonnement bedeutet unbegrenzte Erstellung ohne Zeitlimits oder zusätzliche Gebühren.',
     ctaText: 'Jetzt Erstellen',
     badgeText: 'So Funktioniert Es',
@@ -307,7 +307,7 @@ Laden Sie Arbeitsblatt und Lösungsschlüssel separat herunter. Beide Dateien si
 
   // Use Cases Section - FULL text from subtraktion.md
   useCases: {
-    sectionTitle: 'Wer profitiert von Subtraktion Arbeitsblättern - Mathe Arbeitsblätter für Lehrkräfte, Eltern und Pädagogen',
+    sectionTitle: 'Kostenloses Arbeitsblatt für Kinder - Arbeitsblatt für Vorschule mit Kostenlose Druckvorlagen',
     sectionDescription: 'Unsere Subtraktion Arbeitsblätter und Mathe Arbeitsblätter unterstützen verschiedene Nutzergruppen. Von der Vorschule bis zur Grundschule setzen Pädagogen diese Materialien ein. Auch Eltern und Therapeuten profitieren vom Generator. Entdecken Sie die vielfältigen Einsatzmöglichkeiten.',
     badgeText: 'Anwendungsbereiche',
     readMoreLabel: 'Mehr lesen',
@@ -388,7 +388,7 @@ Erfolgreiche Teacher-Preneure verdienen 500 bis 5000 Euro monatlich. Einmal erst
 
   // FAQ Section - FULL text from subtraktion.md
   faq: {
-    sectionTitle: 'Häufig gestellte Fragen zu Subtraktion Arbeitsblättern - Alles über Minusrechnen und Kostenlose Arbeitsblätter',
+    sectionTitle: 'FAQ - Kostenloses Arbeitsblatt für Kinder und Arbeitsblatt für Vorschule',
     sectionDescription: 'Lehrkräfte und Eltern haben Fragen zu unseren Subtraktion Arbeitsblättern. Hier finden Sie Antworten auf die häufigsten Fragen. Von Minusrechnen Grundlagen bis zu technischen Details. Erfahren Sie alles Wichtige über kostenlose Arbeitsblätter und den Generator.',
     showMoreText: 'Mehr Fragen anzeigen',
     showLessText: 'Weniger anzeigen',
@@ -487,7 +487,7 @@ Teilen Sie Arbeitsblätter mit Klassenstufen-Kollegen. Koordinieren Sie Unterric
 
   // Related Apps Section - FULL text from subtraktion.md Section 7
   relatedApps: {
-    sectionTitle: 'Subtraktion Arbeitsblätter kombinieren mit Einmaleins, Ausmalbilder, Schwungübungen und Buchstaben lernen',
+    sectionTitle: 'Kostenlose Arbeitsblätter kombinieren - Arbeitsblatt für Kinder und Kostenlose Druckvorlagen',
     sectionDescription: 'Das Vollzugriff Abonnement enthält 33 verschiedene Generatoren. Kombinieren Sie Subtraktion Arbeitsblätter mit Einmaleins Übungen. Ergänzen Sie Mathe mit Ausmalbilder und Malvorlagen. Verbinden Sie Rechnen mit Schwungübungen und Buchstaben lernen. So entstehen ganzheitliche Lernpakete.',
     ctaTitle: 'Bereit, professionelle Arbeitsblätter zu erstellen?',
     ctaDescription: 'Schließen Sie sich tausenden Pädagogen an, die professionelle Arbeitsblätter mit LessonCraft Studio erstellen.',

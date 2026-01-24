@@ -73,8 +73,8 @@ Udvid dine opgaver med farvelægning og skriv bogstaver aktiviteter. Kombiner ma
 
   // Sample Gallery - REAL file paths from samples/danish/matching/
   samples: {
-    sectionTitle: 'Matchingsopgaver Eksempler',
-    sectionDescription: 'Download gratis eksempler på arbejdsark for at se vores professionelle kvalitet',
+    sectionTitle: 'Gratis Arbejdsark til Børn - Gratis Arbejdsark og Gratis Printables',
+    sectionDescription: 'Download gratis printables - Gratis arbejdsark til børn af professionel kvalitet. Gratis arbejdsark og arbejdsark til børn perfekt til arbejdsark til børnehaveklasse. Gratis arbejdsark til børn og arbejdsark til børn inkluderer undervisningsmateriale. Gratis arbejdsark tilgængeligt',
     badgeText: 'Gratis Eksempler',
     downloadLabel: 'Download Gratis Eksempel',
     downloadingLabel: 'Downloader...',
@@ -111,7 +111,7 @@ Udvid dine opgaver med farvelægning og skriv bogstaver aktiviteter. Kombiner ma
 
   // Features Grid - FULL text from matching.md feature sections
   features: {
-    sectionTitle: 'Funktioner til Gratis Skoleopgaver – Alt Du Behøver til Arbejdsark og Kopiark',
+    sectionTitle: 'Gratis Arbejdsark og Arbejdsark til Børn - Gratis Printables og Arbejdsark til Børnehaveklasse',
     sectionDescription: 'Vores matchingsopgavegenerator kombinerer professionelle funktioner med nem betjening. Dit Kernepakke-abonnement inkluderer alle funktioner til at lave opgaver til print i høj kvalitet. Opret matematikopgaver og lære bogstaver aktiviteter på få minutter. Hver funktion er designet til danske folkeskolelærere og pædagoger.',
     highlightBadgeText: 'Vigtig Funktion',
     readMoreLabel: 'Læs mere',
@@ -217,7 +217,7 @@ Sammenlign med konkurrenter der eksporterer 150 DPI eller lavere. Vores gratis s
 
   // How-To Guide - FULL text from matching.md step sections
   howTo: {
-    sectionTitle: 'Sådan Laver Du Opgaver til Print på 5 Nemme Trin',
+    sectionTitle: 'Gratis Arbejdsark til Børn Oprette - Arbejdsark til Børnehaveklasse',
     sectionDescription: 'Opret professionelle matchingsopgaver på under 3 minutter. Følg disse enkle trin for at lave arbejdsark til børnehaveklassen og 1. klasse. Ingen tidligere erfaring nødvendig. Vores generator gør det nemt at lave gratis skoleopgaver med professionel kvalitet. Kombiner lære bogstaver aktiviteter med matematikopgaver til komplet læring.',
     ctaText: 'Start Nu',
     badgeText: 'Sådan Virker Det',
@@ -309,7 +309,7 @@ Gem dine opgaver til print til senere brug. Lav bibliotek af gratis skoleopgaver
 
   // Use Cases - FULL text from matching.md use case sections
   useCases: {
-    sectionTitle: 'Perfekt til Pædagoger og Lærere – Gratis Skoleopgaver og Matematikopgaver til Alle Behov',
+    sectionTitle: 'Gratis Arbejdsark til Børn - Arbejdsark til Børnehaveklasse med Gratis Printables. Arbejdsark til Børn',
     sectionDescription: 'Vores matchingsopgavegenerator bruges af pædagoger og lærere i hele Danmark. Fra børnehaveklassen til 3. klasse i folkeskolen. Lav arbejdsark til finmotorik øvelser og lære bogstaver aktiviteter. Opret matematikopgaver og læse og skrive materialer. Hver brugertype finder værdi i opgaver til print generatoren.',
     badgeText: 'Hvem Er Det Til',
     readMoreLabel: 'Læs mere',
@@ -404,7 +404,7 @@ Upload billeder med kulturel relevans for forskellige elevgrupper. Lav kopiark d
 
   // FAQ Section - Selected FAQs from matching.md
   faq: {
-    sectionTitle: 'Ofte Stillede Spørgsmål om Matematikopgaver, Gangetabeller og Finmotorik Øvelser Arbejdsark',
+    sectionTitle: 'FAQ - Gratis Arbejdsark til Børn og Arbejdsark til Børnehaveklasse. Arbejdsark til Børn',
     sectionDescription: 'Her er svarene på de mest almindelige spørgsmål om vores matchingsopgavegenerator. Lær hvordan du laver matematikopgaver, lære bogstaver aktiviteter og farvelægning arbejdsark. Få svar om 0. klasse opgaver, gangetabeller og finmotorik øvelser. Forstå hvordan læse og skrive materialer virker på platformen.',
     showMoreText: 'Vis flere spørgsmål',
     showLessText: 'Vis færre',
@@ -509,7 +509,7 @@ Upload billeder med kulturel relevans for forskellige elevgrupper. Lav kopiark d
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Kombiner med Andre Arbejdsark Generatorer',
+    sectionTitle: 'Gratis Arbejdsark Kombinere - Arbejdsark til Børn og Gratis Printables',
     sectionDescription: 'Lav komplette læringspakker ved at kombinere matchingsopgaver med disse komplementære generatorer.',
     ctaTitle: 'Klar til at Lave Fantastiske Arbejdsark?',
     ctaDescription: 'Tilslut dig tusindvis af pædagoger der laver professionelle arbejdsark. Ubegrænset oprettelse, kommerciel licens inkluderet.',

@@ -79,8 +79,8 @@ Cada ficha incluye seis pasos de direcciones y una cuadrícula visual con imáge
 
   // Sample Gallery - REAL file paths from samples/english/treasure hunt/
   samples: {
-    sectionTitle: 'Ejemplos de Fichas Gratis de Búsqueda del Tesoro para Niños',
-    sectionDescription: 'Descarga ejemplos gratuitos para ver nuestra calidad profesional',
+    sectionTitle: 'Ficha Gratis para Niños - Fichas Gratis e Imprimibles Gratis',
+    sectionDescription: 'Descarga imprimibles gratis - Ficha gratis para niños de calidad profesional. Ficha para niños perfecta para ficha para preescolar. Ficha gratis para niños y ficha para niños incluyen material educativo. Ficha gratis disponible',
     downloadLabel: 'Descargar Ejemplo Gratis',
     worksheetLabel: 'Ficha',
     answerKeyLabel: 'Respuestas',
@@ -124,7 +124,7 @@ Cada ficha incluye seis pasos de direcciones y una cuadrícula visual con imáge
 
   // Features Grid - FULL text from treasure-hunt.md feature sections
   features: {
-    sectionTitle: 'Características del Generador - Fichas Gratis para Niños de Material Educativo',
+    sectionTitle: 'Fichas Gratis y Ficha para Niños - Imprimibles Gratis y Ficha para Preescolar',
     sectionDescription: 'Nuestro generador de búsqueda del tesoro incluye todas las herramientas profesionales que los maestros necesitan. Crea fichas para imprimir personalizadas en minutos sin experiencia en diseño. Acceso Completo te da acceso a funciones avanzadas para crear material educativo de calidad. Los docentes de educación infantil y primaria utilizan estas características diariamente para crear fichas gratis efectivas.',
     highlightBadgeText: 'Característica Clave',
     readMoreLabel: 'Leer más',
@@ -204,7 +204,7 @@ Los archivos PDF mantienen proporciones perfectas sin distorsión. Las exportaci
 
   // How-To Guide - FULL text from treasure-hunt.md step sections
   howTo: {
-    sectionTitle: 'Cómo Crear Ficha Gratis para Niños de Búsqueda del Tesoro - Guía Paso a Paso',
+    sectionTitle: 'Ficha Gratis para Niños Crear - Ficha para Preescolar',
     sectionDescription: 'Crear fichas infantil profesionales toma menos de cinco minutos con nuestro generador. Este proceso simple permite a maestros sin experiencia en diseño producir material educativo de calidad. Combina búsqueda del tesoro con ejercicios matemáticas y lectoescritura para lecciones completas. Cada paso está optimizado para eficiencia permitiendo crear múltiples fichas para imprimir en una sesión.',
     ctaText: 'Comenzar Ahora',
     badgeText: 'Cómo Funciona',
@@ -276,7 +276,7 @@ Imprime tu ficha para imprimir inmediatamente o guárdala en tu biblioteca digit
 
   // Use Cases - FULL text from treasure-hunt.md use case sections
   useCases: {
-    sectionTitle: 'Perfecto para Maestros Padres y Educadores',
+    sectionTitle: 'Ficha Gratis para Niños - Ficha para Preescolar con Imprimibles Gratis. Ficha para Niños',
     sectionDescription: 'Las fichas de búsqueda del tesoro benefician a múltiples tipos de educadores en diferentes contextos. Maestros de educación infantil hasta tercer grado utilizan estas fichas preescolar para desarrollar habilidades fundamentales. Combina direccionalidad con lectoescritura números y conceptos espaciales en una actividad. Cada grupo de usuarios encuentra aplicaciones únicas para este material educativo gratis versátil.',
     badgeText: 'Para Quién',
     readMoreLabel: 'Leer más',
@@ -347,7 +347,7 @@ Los paquetes más vendidos incluyen 20 a 30 fichas preescolar organizadas por te
 
   // FAQ Section - Selected FAQs from treasure-hunt.md
   faq: {
-    sectionTitle: 'Preguntas Frecuentes sobre Fichas Gratis de Búsqueda del Tesoro para Preescolar',
+    sectionTitle: 'FAQ - Ficha Gratis para Niños y Ficha para Preescolar. Ficha para Niños',
     sectionDescription: 'Preguntas frecuentes sobre nuestro generador de fichas de búsqueda del tesoro y fichas para imprimir.',
     showMoreText: 'Ver más preguntas',
     showLessText: 'Ver menos',
@@ -476,7 +476,7 @@ Los paquetes más vendidos incluyen 20 a 30 fichas preescolar organizadas por te
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Combina con Otros Generadores de Fichas Gratis para Niños',
+    sectionTitle: 'Fichas Gratis Combinar - Ficha para Niños e Imprimibles Gratis',
     sectionDescription: 'Crea paquetes de aprendizaje completos combinando las fichas de búsqueda del tesoro con estos generadores complementarios.',
     ctaTitle: '¿Listo para Crear Fichas Increíbles?',
     ctaDescription: 'Únete a miles de maestros que crean fichas profesionales. Generación ilimitada, licencia comercial incluida.',

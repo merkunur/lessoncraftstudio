@@ -53,8 +53,8 @@ Työkalumme sisältää yli 3000 lapsille sopivaa kuvaa 11 kielellä. Kuvien tie
 
   // Sample Gallery - REAL file paths from samples/english/find objects/
   samples: {
-    sectionTitle: 'Etsi Esineet -tehtävät Esimerkit',
-    sectionDescription: 'Lataa ilmaiset esimerkkityöarkit nähdäksesi ammattimaisen laatumme',
+    sectionTitle: 'Ilmainen Työarkki Lapsille - Ilmaiset Työarkit ja Ilmaiset Tulosteet',
+    sectionDescription: 'Lataa ilmaiset tulosteet - Ilmainen työarkki lapsille ammattimaista laatua. Ilmaiset työarkit ja työarkki lapsille täydellinen työarkki esiopetukseen. Ilmainen työarkki lapsille ja työarkki lapsille sisältää ilmaiset tulosteet ja ilmaiset työarkit opetusmateriaalin. Ilmainen työarkki ja työarkki esiopetukseen saatavilla',
     downloadLabel: 'Lataa Ilmainen Esimerkki',
     worksheetLabel: 'Työarkki',
     answerKeyLabel: 'Vastausavain',
@@ -84,7 +84,7 @@ Työkalumme sisältää yli 3000 lapsille sopivaa kuvaa 11 kielellä. Kuvien tie
 
   // Features Grid - FULL text from Finnish find-objects.md feature sections
   features: {
-    sectionTitle: 'Keskeiset Ominaisuudet - Find Objects Esiopetus Materiaali Ilmainen',
+    sectionTitle: 'Ilmaiset Työarkit ja Työarkki Lapsille - Ilmaiset Tulosteet ja Työarkki Esiopetukseen',
     sectionDescription: 'Find Objects -generaattorimme tarjoaa kaikki työkalut, joita tarvitset ammattimaisten hienomotoriikka harjoitusten ja visuaalisen havainnointitehtävien luomiseen. Tilauksesi sisältää kaikki nämä premium-ominaisuudet ilman lisämaksuja.',
     highlightBadgeText: 'Tärkeä Ominaisuus',
     readMoreLabel: 'Lue lisää',
@@ -178,7 +178,7 @@ Luo kertotaulut tulostettava ja matematiikka tehtävät alakoulu -paketteja. Yhd
 
   // How-To Guide - FULL text from Finnish find-objects.md step sections
   howTo: {
-    sectionTitle: 'Miten Luoda Tulostettavat Tehtävät Lapsille Ilmainen - 5 Helppoa Vaihetta',
+    sectionTitle: 'Ilmainen Työarkki Lapsille Luoda - Työarkki Esiopetukseen',
     sectionDescription: 'Find Objects -generaattorimme tekee ammattimaisten havainnointitehtävien luomisesta nopeaa ja helppoa. Koko prosessi alusta lataukseen kestää alle 3 minuuttia. Ei suunnittelutaitoja tai teknistä osaamista tarvita. Seuraa näitä viittä vaihetta luodaksesi täydellisiä esiopetus materiaali ilmainen -tehtäviä.',
     ctaText: 'Aloita Luominen Nyt',
     badgeText: 'Näin Se Toimii',
@@ -250,7 +250,7 @@ Tulosta tehtävät kotona tai kopiokeskuksessa. Myy ne Teachers Pay Teachers tai
 
   // Use Cases - FULL text from Finnish find-objects.md use case sections
   useCases: {
-    sectionTitle: 'Täydellinen Opettajille ja Vanhemmille - Tulostettavat Tehtävät Lapsille Ilmainen Kaikille Tarpeille',
+    sectionTitle: 'Ilmainen Työarkki Lapsille - Työarkki Esiopetukseen ja Ilmaiset Tulosteet. Työarkki Lapsille',
     sectionDescription: 'Find Objects -generaattori palvelee laajaa käyttäjäkuntaa esiopetuksen opettajista kotiopettajiin. Jokainen käyttäjäryhmä hyötyy eri tavalla työkalun monipuolisuudesta. Täysi Pääsy -tilaus antaa kaikille pääsyn kaikkiin ominaisuuksiin ja kaupalliseen lisenssiin.',
     badgeText: 'Kenelle Sopii',
     readMoreLabel: 'Lue lisää',
@@ -462,7 +462,7 @@ Sesonkituotteet ovat suosittuja. Joulu, pääsiäinen, takaisin kouluun, kesä. 
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Yhdistä Find Objects Muihin Tulostettavat Tehtävät Lapsille Ilmainen Työkaluihin',
+    sectionTitle: 'Ilmaiset Työarkit Yhdistää - Työarkki Lapsille ja Ilmaiset Tulosteet',
     sectionDescription: 'LessonCraft Studio tarjoaa 33 työkalua opettajille. Yhdistä Find Objects -etsintätehtävät muihin työkaluihin luodaksesi täydellisiä oppimispaketteja. Täysi Pääsy -tilaus antaa pääsyn kaikkiin työkaluihin yhteen hintaan.',
     ctaTitle: 'Valmiina Luomaan Upeita Työarkkeja?',
     ctaDescription: 'Liity tuhansien opettajien joukkoon, jotka luovat ammattimaisia työarkkeja. Rajoittamaton generointi, kaupallinen lisenssi sisältyy.',

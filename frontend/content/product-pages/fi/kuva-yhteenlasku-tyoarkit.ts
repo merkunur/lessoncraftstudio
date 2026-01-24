@@ -53,8 +53,8 @@ Jokainen tehtävä on täysin muokattavissa luomisen jälkeen. Raahaa, kierrä, 
 
   // Sample Gallery - REAL file paths from samples/english/code addition/
   samples: {
-    sectionTitle: 'Kuvapohjainen Yhteenlasku Tehtävät Esimerkit',
-    sectionDescription: 'Lataa ilmaiset esimerkkityöarkit nähdäksesi ammattimaisen laatumme',
+    sectionTitle: 'Ilmainen Työarkki Lapsille - Ilmaiset Työarkit ja Ilmaiset Tulosteet',
+    sectionDescription: 'Lataa ilmaiset tulosteet - Ilmainen työarkki lapsille ammattimaista laatua. Ilmaiset työarkit ja työarkki lapsille täydellinen työarkki esiopetukseen. Ilmainen työarkki lapsille ja työarkki lapsille sisältää ilmaiset tulosteet ja ilmaiset työarkit opetusmateriaalin. Ilmainen työarkki ja työarkki esiopetukseen saatavilla',
     downloadLabel: 'Lataa Ilmainen Esimerkki',
     worksheetLabel: 'Työarkki',
     answerKeyLabel: 'Vastausavain',
@@ -84,7 +84,7 @@ Jokainen tehtävä on täysin muokattavissa luomisen jälkeen. Raahaa, kierrä, 
 
   // Features Grid - FULL text from Finnish code-addition.md feature sections
   features: {
-    sectionTitle: 'Kuvapohjaisen Yhteenlaskun Ominaisuudet - Matematiikka Tehtävät Alakoulu ja Tulostettavat Tehtävät Lapsille Ilmainen',
+    sectionTitle: 'Ilmaiset Työarkit ja Työarkki Lapsille - Ilmaiset Tulosteet ja Työarkki Esiopetukseen',
     sectionDescription: 'Kuvapohjainen yhteenlaskugeneraattori tarjoaa kaiken mitä tarvitset luodaksesi ammattimaisia matematiikka tehtävät alakoulu -tasolle. Täysi Pääsy -tilauksesi antaa sinulle pääsyn kaikkiin ominaisuuksiin ilman lisämaksuja. Luo niin monta yhteenlasku ja vähennyslasku tehtävät -monistetta kuin tarvitset. Ei per-moniste maksuja.',
     highlightBadgeText: 'Tärkeä Ominaisuus',
     readMoreLabel: 'Lue lisää',
@@ -189,7 +189,7 @@ Vastausavain on hyödyllinen nopeaan tarkistukseen. Oppilaat palauttavat tehtäv
 
   // How-To Guide - FULL text from Finnish code-addition.md step sections
   howTo: {
-    sectionTitle: 'Kuinka Luoda Matematiikka Tehtävät Alakoulu Viidessä Helpossa Vaiheessa - Tulostettavat Tehtävät Lapsille Ilmainen',
+    sectionTitle: 'Ilmainen Työarkki Lapsille Luoda - Työarkki Esiopetukseen',
     sectionDescription: 'Kuvapohjaisten yhteenlaskutehtävien luominen vie alle kolme minuuttia alusta loppuun. Viisi yksinkertaista vaihetta tuottaa ammattimaiset yhteenlasku ja vähennyslasku tehtävät. Ei tarvita suunnittelukokemusta. Ei monimutkaisia ohjelmistoja. Seuraa näitä ohjeita ja luo esiopetus materiaali ilmainen -tason tehtäviä välittömästi.',
     ctaText: 'Aloita Luominen Nyt',
     badgeText: 'Näin Se Toimii',
@@ -261,7 +261,7 @@ Harmaasävyvaihtoehto säästää mustetta merkittävästi. Raksita "Muunna harm
 
   // Use Cases - FULL text from Finnish code-addition.md use case sections
   useCases: {
-    sectionTitle: 'Täydellinen Kaikille Opettajille ja Vanhemmille - Matematiikka Tehtävät Alakoulu ja Tulostettavat Tehtävät Lapsille Ilmainen',
+    sectionTitle: 'Ilmainen Työarkki Lapsille - Työarkki Esiopetukseen ja Ilmaiset Tulosteet. Työarkki Lapsille',
     sectionDescription: 'Kuvapohjainen yhteenlaskugeneraattori palvelee monenlaisia käyttäjiä. Esiopetuksen opettajat luovat visuaalisia matematiikkatehtäviä 5-6-vuotiaille. Alakoulun opettajat tekevät yhteenlasku ja vähennyslasku tehtävät 1-3. luokkien oppilaille. Kotiopettajat personoivat tehtävät kunkin lapsen tasolle. S2-suomen opettajat yhdistävät matematiikan ja kieltenoppimisen.',
     badgeText: 'Kenelle Sopii',
     readMoreLabel: 'Lue lisää',
@@ -344,7 +344,7 @@ Teemapaketit myyvät hyvin. Luo "Eläinten yhteenlasku" -paketti 20 monisteen ka
 
   // FAQ Section - Selected FAQs from Finnish code-addition.md
   faq: {
-    sectionTitle: 'Usein Kysytyt Kysymykset',
+    sectionTitle: 'FAQ - Ilmainen Työarkki Lapsille ja Työarkki Esiopetukseen. Työarkki Lapsille',
     sectionDescription: 'Yleisimmät kysymykset kuvapohjaisesta yhteenlaskugeneraattorista ja matematiikkatyöarkeista.',
     showMoreText: 'Näytä lisää kysymyksiä',
     showLessText: 'Näytä vähemmän',
@@ -448,7 +448,7 @@ Teemapaketit myyvät hyvin. Luo "Eläinten yhteenlasku" -paketti 20 monisteen ka
 
   // Related Apps Section - Finnish translated
   relatedApps: {
-    sectionTitle: 'Liittyvät Matematiikkatyökalut',
+    sectionTitle: 'Ilmaiset Työarkit Yhdistää - Työarkki Lapsille ja Ilmaiset Tulosteet',
     sectionDescription: 'Tutustu muihin matematiikka- ja oppimistyökaluihimme jotka täydentävät kuvapohjaista yhteenlaskugeneraattoria.',
     badgeText: 'Toimii Hyvin Yhdessä',
     ctaTitle: 'Valmiina Luomaan Upeita Työarkkeja?',

@@ -83,8 +83,8 @@ Les puzzles sudoku complètent parfaitement les exercices maths traditionnels. L
 
   // Sample Gallery - REAL file paths from samples/french/sudoku/
   samples: {
-    sectionTitle: 'Exemples de Fiches Gratuites - Sudoku pour Enfants et Maternelle',
-    sectionDescription: 'Téléchargez des exemples gratuits pour voir notre qualité professionnelle',
+    sectionTitle: 'Fiche Gratuite pour Enfants - Fiches Gratuites et Imprimables Gratuits',
+    sectionDescription: 'Téléchargez imprimables gratuits - Fiche gratuite pour enfants de qualité professionnelle. Fiches gratuites et fiche pour enfants parfaites pour fiche pour maternelle. Fiche gratuite pour enfants et fiches gratuites inclus matériel éducatif. Fiche gratuite et fiches gratuites disponible',
     downloadLabel: 'Télécharger Exemple Gratuit',
     worksheetLabel: 'Fiche Sudoku',
     answerKeyLabel: 'Clé de Correction',
@@ -135,7 +135,7 @@ Les puzzles sudoku complètent parfaitement les exercices maths traditionnels. L
 
   // Features Grid - FULL text from sudoku.md feature sections
   features: {
-    sectionTitle: 'Fiche Gratuite - Fonctionnalités du Générateur pour Fiches Maternelle et Exercices CP',
+    sectionTitle: 'Fiches Gratuites et Fiche pour Enfants - Imprimables Gratuits et Fiche pour Maternelle',
     sectionDescription: 'Notre générateur de sudoku offre des fonctionnalités professionnelles. Créez des fiches maternelle personnalisées pour chaque élève. Combinez sudoku avec exercices CP et activités de coloriage à imprimer. Découvrez les sept fonctionnalités principales qui font la différence.',
     highlightBadgeText: 'Fonctionnalité Clé',
     readMoreLabel: 'Lire la suite',
@@ -224,7 +224,7 @@ Ces outils transforment le sudoku en activité de graphisme maternelle complète
 
   // How-To Guide - FULL text from sudoku.md step sections
   howTo: {
-    sectionTitle: 'Comment Créer des Fiches Maternelle et Exercices CP en 5 Étapes Simples',
+    sectionTitle: 'Fiche Gratuite pour Enfants Créer - Fiche pour Maternelle',
     sectionDescription: 'Créer des fiches maternelle avec notre générateur de sudoku est rapide et intuitif. En moins de trois minutes, vous produisez des exercices CP professionnels. Ce guide détaille chaque étape du processus. Suivez ces instructions pour créer vos premières fiches à imprimer gratuit.',
     ctaText: 'Commencer Maintenant',
     badgeText: 'Guide Étape par Étape',
@@ -304,7 +304,7 @@ Téléchargez vos créations dans le format souhaité. Le PDF convient à l'impr
 
   // Use Cases - FULL text from sudoku.md use case sections
   useCases: {
-    sectionTitle: 'Fiche Gratuite pour Enfants - Qui Utilise le Sudoku Fiches Maternelle et Exercices CP',
+    sectionTitle: 'Fiche Gratuite pour Enfants - Fiche pour Maternelle avec Imprimables Gratuits. Fiche pour Enfants',
     sectionDescription: 'Notre générateur de sudoku répond aux besoins de nombreux professionnels de l\'éducation. Les enseignants de maternelle créent des fiches maternelle ludiques. Les professeurs d\'élémentaire développent des exercices CP stimulants. Les parents accompagnent leurs enfants pour apprendre à lire et raisonner.',
     badgeText: 'Cas d\'Utilisation',
     readMoreLabel: 'Lire la suite',
@@ -387,7 +387,7 @@ La qualité 300 DPI garantit des produits professionnels. Les acheteurs appréci
 
   // FAQ Section - Selected FAQs from sudoku.md
   faq: {
-    sectionTitle: 'Questions Fréquentes - Fiches à Imprimer Gratuit, Tables de Multiplication et Apprendre à Lire',
+    sectionTitle: 'FAQ - Fiche Gratuite pour Enfants et Fiche pour Maternelle. Fiche pour Enfants',
     sectionDescription: 'Vous avez des questions sur notre générateur de sudoku pour enfants ? Cette section répond aux interrogations les plus courantes. Des fiches à imprimer gratuit aux tables de multiplication, nous couvrons tous les sujets. Découvrez comment le sudoku aide à apprendre à lire et développer la logique.',
     showMoreText: 'Voir plus de questions',
     showLessText: 'Voir moins',
@@ -516,7 +516,7 @@ Utilisez des puzzles thématiques pour renforcer les concepts. Groupes d'objets 
 
   // Related Apps - From sudoku.md Section 7
   relatedApps: {
-    sectionTitle: 'Combinez le Sudoku avec d\'Autres Applications - Coloriage à Imprimer, Apprendre à Lire et Tables de Multiplication',
+    sectionTitle: 'Fiches Gratuites Combiner - Fiche pour Enfants et Imprimables Gratuits',
     sectionDescription: 'Le sudoku pour enfants s\'intègre parfaitement aux autres générateurs de la plateforme. Créez des packs pédagogiques complets combinant plusieurs activités. Du coloriage à imprimer aux supports pour apprendre à lire, tout est possible. Les fiches sur les tables de multiplication complètent naturellement les puzzles logiques.',
     ctaTitle: 'Prêt à Créer des Puzzles Sudoku Professionnels ?',
     ctaDescription: 'Rejoignez des milliers d\'enseignants qui créent des fiches maternelle de qualité. Création illimitée, licence commerciale incluse.',

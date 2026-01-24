@@ -83,8 +83,8 @@ Cada atividade trabalha habilidades essenciais para a alfabetização. As crian�
 
   // Sample Gallery
   samples: {
-    sectionTitle: 'Exemplos de Atividades de Traçar Linhas',
-    sectionDescription: 'Baixe exemplos gratuitos para ver nossa qualidade profissional',
+    sectionTitle: 'Atividade Grátis para Crianças - Atividades Grátis e Imprimíveis Grátis',
+    sectionDescription: 'Baixe imprimíveis grátis - Atividade grátis para crianças de qualidade profissional. Atividades grátis e atividade para crianças perfeitas para atividade para educação infantil. Atividade grátis para crianças e atividade para crianças incluem material educativo. Atividade grátis disponível',
     downloadLabel: 'Baixar Exemplo Grátis',
     worksheetLabel: 'Atividade',
     answerKeyLabel: 'Gabarito',
@@ -135,7 +135,7 @@ Cada atividade trabalha habilidades essenciais para a alfabetização. As crian�
 
   // Features Grid
   features: {
-    sectionTitle: 'Recursos do Gerador de Atividades para Imprimir',
+    sectionTitle: 'Atividades Grátis e Atividade para Crianças - Imprimíveis Grátis e Atividade para Educação Infantil',
     sectionDescription: 'O gerador de atividades de traçar linhas oferece recursos completos para educadores. Cada funcionalidade foi desenvolvida pensando em professores de educação infantil e ensino fundamental. Conheça todas as ferramentas disponíveis para criar atividades para imprimir profissionais.',
     highlightBadgeText: 'Recurso Principal',
     readMoreLabel: 'Leia mais',
@@ -240,7 +240,7 @@ Varie os modelos ao longo da semana. Alunos praticam diferentes tipos de traçad
 
   // How-To Guide
   howTo: {
-    sectionTitle: 'Como Criar Atividades para Imprimir em 5 Passos',
+    sectionTitle: 'Atividade Grátis para Crianças Criar - Atividade para Educação Infantil',
     sectionDescription: 'Aprenda a criar atividades de traçar linhas profissionais em menos de 3 minutos. Este guia passo a passo mostra cada etapa do processo. Professores de educação infantil e ensino fundamental dominam a ferramenta rapidamente.',
     ctaText: 'Comece Agora',
     badgeText: 'Como Funciona',
@@ -312,7 +312,7 @@ A opção escala de cinza economiza tinta colorida. Desenhos para colorir ficam 
 
   // Use Cases
   useCases: {
-    sectionTitle: 'Quem Usa Atividades para Imprimir de Coordenação Motora',
+    sectionTitle: 'Atividade Grátis para Crianças - Atividade para Educação Infantil com Imprimíveis Grátis. Atividade para Crianças',
     sectionDescription: 'O gerador de atividades de traçar linhas atende diversos perfis de educadores. Cada grupo encontra benefícios específicos na ferramenta. Descubra como diferentes profissionais usam atividades para imprimir em seu trabalho.',
     badgeText: 'Para Quem',
     readMoreLabel: 'Leia mais',
@@ -395,7 +395,7 @@ Desenhos para colorir combinados com traçado têm alta demanda. A qualidade pro
 
   // FAQ Section
   faq: {
-    sectionTitle: 'Perguntas Frequentes sobre Atividades de Coordenação Motora',
+    sectionTitle: 'FAQ - Atividade Grátis para Crianças e Atividade para Educação Infantil. Atividade para Crianças',
     sectionDescription: 'Professores têm dúvidas comuns sobre o gerador de atividades de traçar linhas. Respondemos as perguntas mais frequentes sobre atividades para imprimir e coordenação motora.',
     showMoreText: 'Mostrar mais perguntas',
     showLessText: 'Mostrar menos',
@@ -500,7 +500,7 @@ Desenhos para colorir combinados com traçado têm alta demanda. A qualidade pro
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Combine com Outros Geradores de Atividades',
+    sectionTitle: 'Atividades Grátis Combinar - Atividade para Crianças e Imprimíveis Grátis',
     sectionDescription: 'Maximize o valor do seu Pacote Essencial combinando geradores. Crie pacotes completos de atividades para imprimir usando múltiplos apps.',
     ctaTitle: 'Pronto para Criar Atividades Incríveis?',
     ctaDescription: 'Junte-se a milhares de educadores que criam atividades profissionais. Geração ilimitada, licença comercial incluída.',

@@ -95,8 +95,8 @@ Werkbladen groep 3 vereisen vaak meer uitdagende patronen dan werkblad voor kleu
 
   // Sample Gallery
   samples: {
-    sectionTitle: 'Gratis Werkbladen Patroontrein - Gratis Printables voor Kinderen',
-    sectionDescription: 'Download gratis werkblad patroontrein om onze professionele kwaliteit te ervaren - werkblad voor kinderen en werkblad voor kleuters',
+    sectionTitle: 'Gratis Werkblad voor Kinderen - Gratis Werkbladen en Gratis Printables',
+    sectionDescription: 'Download gratis printables - Gratis werkblad voor kinderen van professionele kwaliteit. Gratis werkbladen en werkblad voor kinderen perfect voor werkblad voor kleuters. Gratis werkblad voor kinderen en werkblad voor kinderen inclusief educatief materiaal. Gratis werkblad beschikbaar',
     downloadLabel: 'Gratis Voorbeeld Downloaden',
     worksheetLabel: 'Werkblad',
     answerKeyLabel: 'Antwoordblad',
@@ -147,7 +147,7 @@ Werkbladen groep 3 vereisen vaak meer uitdagende patronen dan werkblad voor kleu
 
   // Features Grid
   features: {
-    sectionTitle: 'Patroontrein Functies - Gratis Werkblad voor Kinderen en Werkblad voor Kleuters',
+    sectionTitle: 'Gratis Werkbladen en Werkblad voor Kinderen - Gratis Printables en Werkblad voor Kleuters',
     sectionDescription: 'Onze patroontrein generator biedt professionele functies voor het maken van gratis werkbladen en gratis printables. Elk werkblad voor kinderen ondersteunt fijne motoriek ontwikkeling en patroonherkenning vaardigheden. Leerkrachten maken gratis werkblad voor kleuters gecombineerd met visuele patronen in minuten. Volledige Toegang abonnement (€240 per jaar) geeft toegang tot alle functies en 3000+ afbeeldingen.',
     highlightBadgeText: 'Uitgelicht',
     readMoreLabel: 'Lees meer',
@@ -252,7 +252,7 @@ De patroontrein visualisatie maakt abstract patroondenken concreet en speels. Le
 
   // How-To Guide
   howTo: {
-    sectionTitle: 'Hoe Maak Je Gratis Werkblad Patroontrein - Gratis Printables in 5 Stappen',
+    sectionTitle: 'Gratis Werkblad voor Kinderen Maken - Werkblad voor Kleuters',
     sectionDescription: 'Maak gratis werkbladen patroontrein in minder dan 3 minuten. Geen ontwerpervaring vereist voor werkblad voor kinderen en werkblad voor kleuters. Volg deze 5 eenvoudige stappen van selectie tot download.',
     ctaText: 'Nu Starten',
     badgeText: 'Zo werkt het',
@@ -407,7 +407,7 @@ Pinterest marketing drijft verkeer naar uw Teachers Pay Teachers winkel. Maak vi
 
   // FAQ Section
   faq: {
-    sectionTitle: 'Veelgestelde Vragen over Gratis Werkblad Patroontrein - Gratis Werkbladen voor Kinderen',
+    sectionTitle: 'FAQ - Gratis Werkblad voor Kinderen en Werkblad voor Kleuters. Werkblad voor Kinderen',
     sectionDescription: 'Leerkrachten, ouders en pedagogen stellen vaak dezelfde vragen over gratis werkblad voor kinderen en werkblad voor kleuters. Deze FAQ beantwoordt vragen over gratis printables, gebruik in klas, commerciële verkoop en combinatie met andere materialen.',
     showMoreText: 'Meer vragen tonen',
     showLessText: 'Minder tonen',
@@ -537,7 +537,7 @@ Pinterest marketing drijft verkeer naar uw Teachers Pay Teachers winkel. Maak vi
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Combineer Gratis Werkbladen Patroontrein met Andere Gratis Printables',
+    sectionTitle: 'Gratis Werkbladen Combineren - Werkblad voor Kinderen en Gratis Printables',
     sectionDescription: 'Het Volledige Toegang abonnement bevat 33 werkblad generators die perfect samenwerken. Combineer gratis werkblad voor kinderen met andere tools voor complete leerpakketten. Ontdek hoe je werkblad voor kleuters bundels maakt voor elke lesweek.',
     ctaTitle: 'Klaar om geweldige werkbladen te maken?',
     ctaDescription: 'Sluit je aan bij duizenden leerkrachten die professionele werkbladen maken. Onbeperkt genereren, commerciële licentie inbegrepen.',

@@ -79,8 +79,8 @@ Crianças da pré-escola e do 1º ano aprendem conceitos de grande e pequeno nat
 
   // Sample Gallery - Portuguese sample paths
   samples: {
-    sectionTitle: 'Exemplos de Atividades Grátis de Grande e Pequeno',
-    sectionDescription: 'Baixe exemplos gratuitos para ver nossa qualidade profissional',
+    sectionTitle: 'Atividade Grátis para Crianças - Atividades Grátis e Imprimíveis Grátis',
+    sectionDescription: 'Baixe imprimíveis grátis - Atividade grátis para crianças de qualidade profissional. Atividades grátis e atividade para crianças perfeitas para atividade para educação infantil. Atividade grátis para crianças e atividade para crianças incluem material educativo. Atividade grátis disponível',
     downloadLabel: 'Baixar Exemplo Grátis',
     worksheetLabel: 'Atividade',
     answerKeyLabel: 'Gabarito',
@@ -124,7 +124,7 @@ Crianças da pré-escola e do 1º ano aprendem conceitos de grande e pequeno nat
 
   // Features Grid - FULL text from big-small.md feature sections
   features: {
-    sectionTitle: 'Recursos do Gerador - Atividades Grátis para Imprimir',
+    sectionTitle: 'Atividades Grátis e Atividade para Crianças - Imprimíveis Grátis e Atividade para Educação Infantil',
     sectionDescription: 'O gerador de atividades de tamanho oferece recursos completos para educadores. Cada funcionalidade foi pensada para facilitar seu trabalho. Crie materiais profissionais sem conhecimento técnico. Suas atividades para imprimir ficam prontas rapidamente.',
     highlightBadgeText: 'Recurso Principal',
     readMoreLabel: 'Leia mais',
@@ -229,7 +229,7 @@ O ato de circular desenvolve controle do lápis. Isso prepara para atividades de
 
   // How-To Guide - FULL text from big-small.md step sections
   howTo: {
-    sectionTitle: 'Como Criar Atividades Grátis para Imprimir em 5 Passos',
+    sectionTitle: 'Atividade Grátis para Crianças Criar - Atividade para Educação Infantil',
     sectionDescription: 'Criar atividades de comparação de tamanho leva menos de 3 minutos. Siga este guia passo a passo. Você terá fichas profissionais prontas rapidamente. O processo é simples mesmo para iniciantes.',
     ctaText: 'Comece Agora',
     badgeText: 'Como Funciona',
@@ -313,7 +313,7 @@ Combine suas fichas de tamanho com atividades de tabuada. Crie pacotes temático
 
   // Use Cases - FULL text from big-small.md use case sections
   useCases: {
-    sectionTitle: 'Quem Usa Atividades Grátis de Grande e Pequeno para Crianças',
+    sectionTitle: 'Atividade Grátis para Crianças - Atividade para Educação Infantil com Imprimíveis Grátis. Atividade para Crianças',
     sectionDescription: 'Professores, pais e educadores de todo o Brasil usam estas atividades. Cada grupo tem necessidades específicas. O gerador atende a todos com flexibilidade. Descubra como usar na sua realidade.',
     badgeText: 'Para Quem',
     readMoreLabel: 'Leia mais',
@@ -396,7 +396,7 @@ Professores relatam renda extra significativa. Pacotes temáticos vendem especia
 
   // FAQ Section - Selected FAQs from big-small.md
   faq: {
-    sectionTitle: 'Perguntas Frequentes sobre Atividades Grátis de Grande e Pequeno',
+    sectionTitle: 'FAQ - Atividade Grátis para Crianças e Atividade para Educação Infantil. Atividade para Crianças',
     sectionDescription: 'Professores e pais têm dúvidas comuns sobre o gerador. Respondemos as perguntas mais frequentes abaixo. Encontre informações sobre atividades para imprimir e atividades de matemática.',
     showMoreText: 'Mostrar mais perguntas',
     showLessText: 'Mostrar menos',
@@ -525,7 +525,7 @@ Professores relatam renda extra significativa. Pacotes temáticos vendem especia
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Combine com Outros Geradores de Atividades Grátis para Crianças',
+    sectionTitle: 'Atividades Grátis Combinar - Atividade para Crianças e Imprimíveis Grátis',
     sectionDescription: 'Maximize o valor do seu Acesso Completo combinando geradores. Crie pacotes completos de atividades para imprimir usando múltiplos apps.',
     ctaTitle: 'Pronto para Criar Atividades Incríveis?',
     ctaDescription: 'Junte-se a milhares de educadores que criam atividades profissionais. Geração ilimitada, licença comercial incluída.',

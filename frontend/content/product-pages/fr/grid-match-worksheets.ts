@@ -85,8 +85,8 @@ Les enseignants adorent les fiches puzzle grille car elles combinent plaisir et 
 
   // Sample Gallery - REAL file paths from samples/english/grid match/
   samples: {
-    sectionTitle: 'Exemples de Fiches Puzzle Grille',
-    sectionDescription: 'Téléchargez des exemples gratuits pour voir notre qualité professionnelle',
+    sectionTitle: 'Fiche Gratuite pour Enfants - Fiches Gratuites et Imprimables Gratuits',
+    sectionDescription: 'Téléchargez imprimables gratuits - Fiche gratuite pour enfants de qualité professionnelle. Fiches gratuites et fiche pour enfants parfaites pour fiche pour maternelle. Fiche gratuite pour enfants et fiches gratuites inclus matériel éducatif. Fiche gratuite et fiches gratuites disponible',
     downloadLabel: 'Télécharger Exemple Gratuit',
     worksheetLabel: 'Fiche',
     answerKeyLabel: 'Corrigé',
@@ -137,7 +137,7 @@ Les enseignants adorent les fiches puzzle grille car elles combinent plaisir et 
 
   // Features Grid - FULL text from grid-match.md feature sections
   features: {
-    sectionTitle: 'Fonctionnalités Puzzle Grille - Fiches Maternelle et Exercices Maths pour École Primaire',
+    sectionTitle: 'Fiches Gratuites et Fiche pour Enfants - Imprimables Gratuits et Fiche pour Maternelle',
     sectionDescription: 'Notre générateur de puzzle grille comprend sept fonctionnalités puissantes qui rendent la création de fiches sans effort. Générez des fiches à imprimer gratuit en quelques minutes. Parfait pour les enseignants occupés qui ont besoin de supports professionnels rapidement.',
     highlightBadgeText: 'Fonctionnalité Clé',
     readMoreLabel: 'Lire la suite',
@@ -231,7 +231,7 @@ L'option niveaux de gris économise significativement l'encre d'imprimante. Conv
 
   // How-To Guide - FULL text from grid-match.md step sections
   howTo: {
-    sectionTitle: 'Comment Créer des Fiches Maternelle et Exercices Maths en 5 Étapes Faciles',
+    sectionTitle: 'Fiche Gratuite pour Enfants Créer - Fiche pour Maternelle',
     sectionDescription: 'Générez des fiches puzzle grille professionnelles en moins de trois minutes. Aucune expérience de design requise. Suivez ces étapes simples pour créer des fiches à imprimer gratuit pour votre classe.',
     ctaText: 'Commencer Maintenant',
     badgeText: 'Comment Ça Marche',
@@ -325,7 +325,7 @@ Les multiples options de téléchargement soutiennent différents besoins de cla
 
   // Use Cases - FULL text from grid-match.md use case sections
   useCases: {
-    sectionTitle: 'Utilisations en Classe - Fiches Maternelle et Exercices CP pour Tous les Besoins',
+    sectionTitle: 'Fiche Gratuite pour Enfants - Fiche pour Maternelle avec Imprimables Gratuits. Fiche pour Enfants',
     sectionDescription: 'Les fiches puzzle grille servent de multiples objectifs éducatifs au-delà de la simple résolution de puzzles. Découvrez six applications en classe éprouvées qui maximisent les résultats d\'apprentissage. Ces stratégies pratiques fonctionnent pour les fiches maternelle et les exercices CP à travers tous les domaines.',
     badgeText: 'Pour Qui',
     readMoreLabel: 'Lire la suite',
@@ -428,7 +428,7 @@ Modifiez le puzzle grille pour les élèves ayant des déficiences visuelles en 
 
   // FAQ Section - ALL questions from grid-match.md FAQ section
   faq: {
-    sectionTitle: 'Questions Fréquentes - Générateur de Fiches Maternelle et Graphisme Maternelle',
+    sectionTitle: 'FAQ - Fiche Gratuite pour Enfants et Fiche pour Maternelle. Fiche pour Enfants',
     sectionDescription: 'Les enseignants posent des questions pratiques avant d\'investir dans des outils de création de fiches. Cette section répond aux questions les plus courantes sur la création de fiches maternelle et exercices CP.',
     showMoreText: 'Voir plus de questions',
     showLessText: 'Voir moins',
@@ -588,7 +588,7 @@ Modifiez le puzzle grille pour les élèves ayant des déficiences visuelles en 
 
   // Related Apps - Combined with other apps from grid-match.md Section 7
   relatedApps: {
-    sectionTitle: 'Combiner le Puzzle Grille avec D\'autres Applications - Fiches à Imprimer Gratuit pour Programmes Complets',
+    sectionTitle: 'Fiches Gratuites Combiner - Fiche pour Enfants et Imprimables Gratuits',
     sectionDescription: 'Le puzzle grille fonctionne encore mieux combiné avec d\'autres générateurs de fiches. Créez des programmes d\'apprentissage complets couvrant plusieurs compétences. Ces combinaisons stratégiques maximisent les résultats d\'apprentissage tout en minimisant le temps de préparation.',
     ctaTitle: 'Prêt à Créer des Fiches Fantastiques ?',
     ctaDescription: 'Rejoignez des milliers d\'enseignants qui créent des fiches professionnelles. Génération illimitée, licence commerciale incluse.',

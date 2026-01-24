@@ -85,8 +85,8 @@ Fuld Adgang abonnementet koster 1.800 kr årligt eller 200 kr månedligt. Du få
 
   // Sample Gallery - REAL file paths from samples/danish/find-objects/
   samples: {
-    sectionTitle: 'Find Objekterne Gratis Arbejdsark Eksempler til Børn',
-    sectionDescription: 'Download gratis eksempler på arbejdsark til børn for at se vores professionelle kvalitet - gratis printables til børnehaveklasse',
+    sectionTitle: 'Gratis Arbejdsark til Børn - Gratis Arbejdsark og Gratis Printables',
+    sectionDescription: 'Download gratis printables - Gratis arbejdsark til børn af professionel kvalitet. Gratis arbejdsark og arbejdsark til børn perfekt til arbejdsark til børnehaveklasse. Gratis arbejdsark til børn og arbejdsark til børn inkluderer undervisningsmateriale. Gratis arbejdsark tilgængeligt',
     badgeText: 'Gratis Eksempler',
     downloadLabel: 'Download Gratis Eksempel',
     downloadingLabel: 'Downloader...',
@@ -137,7 +137,7 @@ Fuld Adgang abonnementet koster 1.800 kr årligt eller 200 kr månedligt. Du få
 
   // Features Grid - FULL text from find-objects.md feature sections
   features: {
-    sectionTitle: 'Find Objekterne Generator Funktioner - Alt Du Skal Bruge til Gratis Arbejdsark til Børn og Opgaver til Print',
+    sectionTitle: 'Gratis Arbejdsark og Arbejdsark til Børn - Gratis Printables og Arbejdsark til Børnehaveklasse',
     sectionDescription: 'Vores find objekterne generator giver dig alle værktøjer til at lave professionelle gratis printables. Fuld Adgang abonnementet inkluderer syv vigtige funktioner der gør det nemt at skabe tilpassede gratis arbejdsark. Lærere i børnehaveklasse, 0. klasse og 1. klasse får adgang til alt hvad de har brug for. Lav arbejdsark til børn der matcher præcis dine undervisningsbehov.',
     highlightBadgeText: 'Vigtig Funktion',
     readMoreLabel: 'Læs mere',
@@ -231,7 +231,7 @@ Generer en facitliste automatisk der viser hvor objekterne er gemt. Facitlisten 
 
   // How-To Guide - FULL text from find-objects.md step sections
   howTo: {
-    sectionTitle: 'Sådan Laver Du Opgaver til Print i 5 Nemme Trin - Gratis Arbejdsark Generator til Børnehaveklasse',
+    sectionTitle: 'Gratis Arbejdsark til Børn Oprette - Arbejdsark til Børnehaveklasse',
     sectionDescription: 'Lav professionelle find objekterne gratis arbejdsark til børn på under 3 minutter. Vores generator gør processen hurtig og enkel. Ingen designerfærdigheder krævet. Lærere i børnehaveklasse, 0. klasse og 1. klasse kan lave tilpassede gratis printables med det samme. Følg disse fem enkle trin for at skabe arbejdsark til børn.',
     ctaText: 'Start Nu',
     badgeText: 'Sådan Virker Det',
@@ -313,7 +313,7 @@ Organiser dine downloadede arbejdsark i mapper efter emne eller sværhedsgrad. L
 
   // Use Cases - FULL text from find-objects.md use case sections
   useCases: {
-    sectionTitle: 'Perfekt til Lærere, Forældre og Pædagoger - Gratis Arbejdsark til Børn og Opgaver til Print til Alle Behov',
+    sectionTitle: 'Gratis Arbejdsark til Børn - Arbejdsark til Børnehaveklasse med Gratis Printables. Arbejdsark til Børn',
     sectionDescription: 'Find objekterne gratis arbejdsark fungerer fremragende for mange forskellige undervisningssituationer. Lærere i børnehaveklasse, 0. klasse, 1. klasse og 2. klasse bruger disse gratis printables dagligt. Hjemmeundervisningsforældre elsker fleksibiliteten til at skabe tilpassede arbejdsark til børn. Specialpædagoger værdsætter differentieringsmulighederne. Lærerentreprenører sælger disse arbejdsark til børnehaveklasse på Teachers Pay Teachers og Etsy.',
     badgeText: 'Hvem Er Det Til',
     readMoreLabel: 'Læs mere',
@@ -396,7 +396,7 @@ Pinterest marketing driver enorm trafik til lærerressource butikker. Lav iøjne
 
   // FAQ Section - Selected FAQs from find-objects.md
   faq: {
-    sectionTitle: 'Ofte Stillede Spørgsmål om Find Objekterne Opgaver til Print - Gratis Arbejdsark og Gratis Printables',
+    sectionTitle: 'FAQ - Gratis Arbejdsark til Børn og Arbejdsark til Børnehaveklasse. Arbejdsark til Børn',
     sectionDescription: 'Lærere stiller mange spørgsmål om vores find objekterne generator før de abonnerer. Her er de mest almindelige spørgsmål om gratis arbejdsark til børn med detaljerede svar. Lær om Fuld Adgang abonnement, kommerciel licens, arbejdsark til børnehaveklasse og sprogsupport.',
     showMoreText: 'Vis flere spørgsmål',
     showLessText: 'Vis færre',

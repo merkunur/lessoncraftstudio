@@ -79,8 +79,8 @@ El generador funciona en 11 idiomas con más de 3000 imágenes infantiles. Selec
 
   // Sample Gallery
   samples: {
-    sectionTitle: 'Ejemplos de Fichas',
-    sectionDescription: 'Descarga ejemplos gratuitos de fichas de matemáticas con código de imágenes para ver la calidad profesional.',
+    sectionTitle: 'Ficha Gratis para Niños - Fichas Gratis e Imprimibles Gratis',
+    sectionDescription: 'Descarga imprimibles gratis - Ficha gratis para niños de calidad profesional. Ficha para niños perfecta para ficha para preescolar. Ficha gratis para niños y ficha para niños incluyen material educativo. Ficha gratis disponible',
     downloadLabel: 'Descargar Ejemplo Gratis',
     worksheetLabel: 'Ficha',
     answerKeyLabel: 'Clave de Respuestas',
@@ -124,7 +124,7 @@ El generador funciona en 11 idiomas con más de 3000 imágenes infantiles. Selec
 
   // Features Grid - FULL text from code-addition.md feature sections
   features: {
-    sectionTitle: 'Características del Generador de Fichas para Imprimir - Todo lo Necesario para Fichas Infantil y Ejercicios Matemáticas',
+    sectionTitle: 'Fichas Gratis y Ficha para Niños - Imprimibles Gratis y Ficha para Preescolar',
     sectionDescription: 'Nuestro generador de fichas de matemáticas incluye características poderosas para crear fichas preescolar y material educativo gratis de primer grado. Cada función trabaja en conjunto para ayudarte a crear fichas para imprimir más rápido que los métodos tradicionales de creación de fichas infantil.',
     highlightBadgeText: 'Característica Destacada',
     readMoreLabel: 'Leer más',
@@ -218,7 +218,7 @@ Maestros de primer grado imprimen fichas en papel de copia regular. Padres que e
 
   // How-To Guide - FULL text from code-addition.md Step sections
   howTo: {
-    sectionTitle: 'Cómo Crear Fichas de Matemáticas y Fichas para Imprimir en 5 Pasos Fáciles',
+    sectionTitle: 'Ficha Gratis para Niños Crear - Ficha para Preescolar',
     sectionDescription: 'Crear fichas de código de suma toma menos de 3 minutos de inicio a descarga. Sigue estos cinco pasos simples para generar fichas infantil, fichas preescolar y material educativo gratis para cualquier lección de matemáticas. No se requiere experiencia en diseño.',
     ctaText: 'Comenzar Ahora',
     badgeText: 'Guía',
@@ -290,7 +290,7 @@ Descarga ambos archivos de ficha y clave de respuestas. Guárdalos en tu computa
 
   // Use Cases Section - FULL text from code-addition.md audience sections
   useCases: {
-    sectionTitle: 'Quién Usa Estas Fichas Preescolar - Fichas para Imprimir para Maestros, Padres y Material Educativo Gratis',
+    sectionTitle: 'Ficha Gratis para Niños - Ficha para Preescolar con Imprimibles Gratis. Ficha para Niños',
     sectionDescription: 'Las fichas de código de suma sirven a diferentes audiencias educativas. Desde maestros de preescolar hasta educadores en casa. Cada grupo encuentra valor único en estas fichas infantil personalizables. Descubre cómo diferentes educadores usan estas fichas para imprimir en sus entornos de enseñanza.',
     badgeText: 'Para Quién',
     readMoreLabel: 'Leer más',
@@ -420,7 +420,7 @@ Empaqueta estas fichas para imprimir con otros generadores que ofrece tu suscrip
 
   // FAQ Section - FULL text from code-addition.md FAQ sections
   faq: {
-    sectionTitle: 'Preguntas Frecuentes - Fichas para Imprimir con Grafomotricidad, Lectoescritura y Tablas de Multiplicar',
+    sectionTitle: 'FAQ - Ficha Gratis para Niños y Ficha para Preescolar. Ficha para Niños',
     sectionDescription: 'Encuentra respuestas a preguntas comunes sobre nuestro generador de fichas de código de suma. Desde crear fichas infantil hasta preparar material educativo gratis. Aprende cómo estas fichas preescolar apoyan aprender el abecedario, números y preparación para tablas de multiplicar.',
     showMoreText: 'Ver más preguntas',
     showLessText: 'Ver menos',
@@ -525,7 +525,7 @@ Usa claves de respuestas para autoevaluación de estudiantes. Estudiantes mayore
 
   // Related Apps Section
   relatedApps: {
-    sectionTitle: 'Combina Fichas de Código de Suma con Otros Generadores - Crea Paquetes Completos con Tablas de Multiplicar y Lectoescritura',
+    sectionTitle: 'Fichas Gratis Combinar - Ficha para Niños e Imprimibles Gratis',
     sectionDescription: 'Tu suscripción Acceso Completo incluye 33 generadores de fichas. Combina el generador de código de suma con otras herramientas para crear paquetes educativos completos. Estas combinaciones maximizan valor de aprendizaje mientras ahorran tiempo de preparación. Descubre seis combinaciones poderosas que maestros usan diariamente.',
     ctaTitle: '¿Listo para Crear Fichas de Matemáticas Increíbles?',
     ctaDescription: 'Únete a miles de maestros que crean fichas profesionales. Generación ilimitada, licencia comercial incluida.',

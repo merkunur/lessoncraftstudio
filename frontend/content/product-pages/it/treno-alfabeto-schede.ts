@@ -77,8 +77,8 @@ Perfetto per insegnanti della scuola dell'infanzia che necessitano di schede ita
 
   // Sample Gallery - REAL file paths from samples/english/alphabet train/
   samples: {
-    sectionTitle: 'Esempi di Schede Gratuite Treno Alfabeto - Stampabili Gratuiti per Bambini',
-    sectionDescription: 'Scarica esempi gratuiti - ogni scheda per bambini mostra la nostra qualità professionale',
+    sectionTitle: "Scheda Gratuita per Bambini - Schede Gratuite e Stampabili Gratuiti e Scheda per Bambini",
+    sectionDescription: "Scarica stampabili gratuiti - Scheda gratuita per bambini di qualità professionale. Schede gratuite e scheda per bambini perfette per scheda per scuola dell'infanzia. Scheda gratuita per bambini e scheda per bambini includono materiale educativo. Scheda gratuita e scheda per scuola dell'infanzia disponibile",
     downloadLabel: 'Scarica Esempio Gratuito',
     worksheetLabel: 'Scheda',
     answerKeyLabel: 'Soluzioni',
@@ -122,7 +122,7 @@ Perfetto per insegnanti della scuola dell'infanzia che necessitano di schede ita
 
   // Features Grid - FULL text from alphabet-train.md feature sections
   features: {
-    sectionTitle: 'Funzionalità del Generatore - Schede Gratuite per Scuola dell\'Infanzia',
+    sectionTitle: "Schede Gratuite e Scheda per Bambini - Stampabili Gratuiti e Scheda per Scuola dell'Infanzia"Infanzia',
     sectionDescription: 'Il nostro generatore di schede didattiche alfabeto offre funzionalità complete per creare schede italiano classe prima coinvolgenti. Ogni caratteristica è progettata per rendere l\'insegnamento delle lettere dell\'alfabeto facile ed efficace. Crea schede didattiche scuola primaria che i bambini adorano con pochi clic.',
     highlightBadgeText: 'Funzionalità Chiave',
     readMoreLabel: 'Leggi di più',
@@ -202,7 +202,7 @@ Genera sia la scheda che la chiave di risposta con un clic. Le chiavi di rispost
 
   // How-To Guide Section - FULL text from alphabet-train.md
   howTo: {
-    sectionTitle: 'Come Creare Schede Gratuite Alfabeto - Stampabili Gratuiti in 5 Passi',
+    sectionTitle: "Scheda Gratuita per Bambini Creare - Scheda per Scuola dell'Infanzia",
     sectionDescription: 'Creare schede didattiche alfabeto professionali richiede meno di 3 minuti dall\'inizio al download. Ogni passaggio è progettato per la massima semplicità. Gli insegnanti della scuola dell\'infanzia creano schede italiano classe prima senza competenze di design.',
     ctaText: 'Inizia Ora',
     badgeText: 'Guida Passo-Passo',
@@ -274,7 +274,7 @@ Scarica sia la scheda che la chiave di risposta per le lettere dell'alfabeto. Le
 
   // Use Cases Section - FULL text from alphabet-train.md
   useCases: {
-    sectionTitle: 'Schede Gratuite per Bambini - Perfetto per Insegnanti e Genitori',
+    sectionTitle: "Scheda Gratuita per Bambini - Scheda per Scuola dell'Infanzia con Stampabili Gratuiti. Scheda per Bambini",
     sectionDescription: 'Le schede didattiche alfabeto servono diversi tipi di educatori con esigenze uniche. Gli insegnanti della scuola dell\'infanzia necessitano di schede pregrafismo per bambini di 3-6 anni. I docenti di classe prima richiedono schede italiano più avanzate per studenti di 6-7 anni. I genitori homeschool combinano schede alfabeto con schede matematica, disegni da colorare, numeri da stampare e tabelline.',
     badgeText: 'Chi Usa le Nostre Schede',
     readMoreLabel: 'Leggi di più',
@@ -357,7 +357,7 @@ I venditori di successo creano collezioni tematiche di schede didattiche. Pacche
 
   // FAQ Section - FULL text from alphabet-train.md FAQ section
   faq: {
-    sectionTitle: 'Domande Frequenti - Schede Gratuite Alfabeto e Stampabili Gratuiti',
+    sectionTitle: "FAQ - Scheda Gratuita per Bambini e Scheda per Scuola dell'Infanzia. Scheda per Bambini",
     sectionDescription: 'Risposte alle domande più comuni sul nostro generatore di schede alfabeto',
     showMoreText: 'Mostra altre domande',
     showLessText: 'Mostra meno domande',
@@ -486,7 +486,7 @@ Crea pacchetti tematici stagionali combinando lettere con disegni da colorare. S
 
   // Related Apps Section
   relatedApps: {
-    sectionTitle: 'Combina con Altri Stampabili Gratuiti - Schede Gratuite per Bambini',
+    sectionTitle: "Combina con Altri Stampabili Gratuiti - Schede Gratuite per Bambini",
     sectionDescription: 'Il generatore di schede alfabeto funziona magnificamente combinato con altri tipi di schede didattiche. La piattaforma offre 33 generatori diversi per materiali stampabili. Crea pacchetti tematici coordinati che integrano alfabetizzazione, matematica, pregrafismo, disegni da colorare e molto altro.',
     ctaTitle: 'Pronto a Creare Schede Straordinarie?',
     ctaDescription: 'Unisciti a migliaia di educatori che creano schede professionali. Generazione illimitata, licenza commerciale inclusa.',

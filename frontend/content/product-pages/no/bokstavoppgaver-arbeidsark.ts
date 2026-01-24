@@ -85,8 +85,8 @@ Bokstavoppgavene kan tilpasses fullstendig for alle aldersnivåer. Juster vanske
 
   // Sample Gallery - REAL file paths from samples/norwegian/word-scramble/
   samples: {
-    sectionTitle: 'Gratis Arbeidsark Bokstavoppgaver - Eksempler',
-    sectionDescription: 'Last ned gratis arbeidsark eksempler for å se vår profesjonelle kvalitet',
+    sectionTitle: 'Gratis Arbeidsark for Barn - Gratis Arbeidsark og Gratis Utskrifter',
+    sectionDescription: 'Last ned gratis utskrifter - Gratis arbeidsark for barn av profesjonell kvalitet. Gratis arbeidsark og arbeidsark for barn perfekt for arbeidsark for 1. trinn. Gratis arbeidsark for barn og arbeidsark for barn inkluderer gratis utskrifter undervisningsmateriell. Gratis arbeidsark og arbeidsark for 1. trinn tilgjengelig',
     badgeText: 'Gratis Utskrifter',
     downloadLabel: 'Last ned Gratis Eksempel',
     downloadingLabel: 'Laster ned...',
@@ -137,7 +137,7 @@ Bokstavoppgavene kan tilpasses fullstendig for alle aldersnivåer. Juster vanske
 
   // Features Grid - FULL text from word-scramble.md feature sections
   features: {
-    sectionTitle: 'Gratis Arbeidsark Bokstavoppgaver - Funksjoner med Profesjonelle Verktøy',
+    sectionTitle: 'Gratis Arbeidsark og Arbeidsark for Barn - Gratis Utskrifter og Arbeidsark for 1. Trinn',
     sectionDescription: 'Bokstavoppgave generatoren tilbyr alt du trenger for å lage engasjerende gratis arbeidsark. Verktøyet kombinerer enkelhet med profesjonelle resultater. Perfekt for lærere som trenger lesetrening aktiviteter og matematikk oppgaver raskt. Lag oppgavehefter barn kan bruke på minutter i stedet for timer. Grunnpakke-abonnementet gir deg ubegrenset tilgang til alle funksjoner uten ekstra kostnader.',
     highlightBadgeText: 'Viktig Funksjon',
     readMoreLabel: 'Les mer',
@@ -402,7 +402,7 @@ Norske lærere tjener 2000-8000 kr månedlig ved å selge arbeidsark. Kombiner l
 
   // FAQ Section - From word-scramble.md
   faq: {
-    sectionTitle: 'Ofte Stilte Spørsmål - Gratis Arbeidsark Bokstavoppgaver for Lesetrening',
+    sectionTitle: 'FAQ - Gratis Arbeidsark for Barn og Arbeidsark for 1. Trinn. Arbeidsark for Barn',
     sectionDescription: 'Lærere og foreldre har mange spørsmål om bokstavoppgave generatoren. Her er svar på de vanligste spørsmålene. Gratis arbeidsark for oppgavehefter barn og fargeleggingsbilder barn. Grunnpakke gir deg alle verktøy for effektiv læring. Kontakt oss hvis du har flere spørsmål om finmotorikk øvelser og bokstaver lære skrive.',
     showMoreText: 'Vis flere spørsmål',
     showLessText: 'Vis færre',
@@ -507,7 +507,7 @@ Norske lærere tjener 2000-8000 kr månedlig ved å selge arbeidsark. Kombiner l
 
   // Related Apps - From word-scramble.md "Kombiner" section
   relatedApps: {
-    sectionTitle: 'Kombiner Bokstavoppgaver med Andre Gratis Arbeidsark - Komplette Oppgavehefter Barn',
+    sectionTitle: 'Gratis Arbeidsark Kombinere - Arbeidsark for Barn og Gratis Utskrifter',
     sectionDescription: 'Kombiner bokstavoppgaver med andre generatorer for komplette læringspakker. Plattformen tilbyr 33 gratis verktøy for arbeidsark. Lag varierte oppgavehefter barn med bokstaver lære skrive, fargeleggingsbilder barn og finmotorikk øvelser. Grunnpakke gir tilgang til 10 populære generatorer. Full Tilgang inkluderer alle 33 for komplett gratis arbeidsark produksjon.',
     ctaTitle: 'Klar til å Lage Fantastiske Arbeidsark?',
     ctaDescription: 'Bli med tusenvis av pedagoger som lager profesjonelle arbeidsark. Ubegrenset oppretting, kommersiell lisens inkludert.',

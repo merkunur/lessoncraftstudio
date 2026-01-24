@@ -78,7 +78,7 @@ Pattern worksheets help kindergarten students develop critical thinking skills a
 
   // Sample Gallery - REAL file paths from samples/english/pattern-train/
   samples: {
-    sectionTitle: 'Worksheet Samples',
+    sectionTitle: 'Free Worksheet for Kids - Free Worksheets and Free Printables',
     downloadLabel: 'Download Free Sample',
     worksheetLabel: 'Worksheet',
     answerKeyLabel: 'Answer Key',
@@ -123,8 +123,8 @@ Pattern worksheets help kindergarten students develop critical thinking skills a
 
   // Features Grid - FULL descriptions from pattern-train.md H3 sections
   features: {
-    sectionTitle: 'Everything You Need for Pattern Recognition Worksheets',
-    sectionDescription: 'Pattern train worksheets combine visual learning with hands-on activities for kindergarten and first grade classrooms. Our pattern worksheet generator includes professional features designed specifically for teachers creating free printable worksheets. Your Full Access subscription provides unlimited pattern worksheet creation with no per-worksheet fees. Generate as many kindergarten worksheets and first grade worksheets as your students need. All pattern worksheets export at professional 300 DPI quality perfect for printing or selling on Teachers Pay Teachers.',
+    sectionTitle: 'Free Worksheet for Kids Features - Worksheet for Kindergarten',
+    sectionDescription: 'Pattern train worksheets combine visual learning with hands-on activities for creating free worksheet for kids for kindergarten classrooms. Our pattern worksheet generator includes professional features designed specifically for creating free worksheet for kids. Your Full Access subscription provides unlimited free worksheet for kids creation with no per-worksheet fees. Generate as many free worksheet for kids as your students need. All pattern worksheets export at professional 300 DPI quality.',
     highlightBadgeText: 'Key Feature',
     items: [
       {
@@ -181,7 +181,7 @@ Pattern worksheets help kindergarten students develop critical thinking skills a
 
   // How-To Guide - FULL text from pattern-train.md Step sections
   howTo: {
-    sectionTitle: 'Create Pattern Train Worksheets in 5 Easy Steps',
+    sectionTitle: 'How to Create Free Worksheets - Worksheet for Kids in 5 Steps',
     sectionDescription: 'Creating pattern recognition worksheets with our pattern train generator takes under three minutes from start to finish. Follow these five simple steps to generate professional kindergarten worksheets and first grade worksheets. No design experience needed to create free printable math worksheets for your classroom. Each step takes seconds to complete. Teachers create multiple pattern worksheets in the time it used to take to make one worksheet manually. Your Full Access subscription includes unlimited pattern worksheet creation. Generate as many free printable worksheets as your students need for pattern practice.',
     ctaText: 'Start Creating Now',
     steps: [
@@ -225,7 +225,7 @@ Pattern worksheets help kindergarten students develop critical thinking skills a
 
   // Use Cases - FULL descriptions from pattern-train.md persona sections
   useCases: {
-    sectionTitle: 'Perfect for Teachers, Parents, and Educators',
+    sectionTitle: 'Free Printables for Teachers - Worksheet for Kindergarten',
     sectionDescription: 'Pattern train worksheets serve multiple educational purposes for different teaching situations. Kindergarten teachers use pattern worksheets to introduce fundamental math concepts. First grade teachers advance pattern complexity with ABC and AABB patterns. Homeschool parents appreciate free printable worksheets for flexible learning schedules. Special education teachers customize pattern difficulty for individual student needs. ESL teachers use pattern recognition to teach vocabulary across languages. Teacher entrepreneurs sell pattern worksheets on Teachers Pay Teachers and Etsy. Pattern recognition builds logical thinking skills essential for kindergarten and first grade math success. These free printable math worksheets adapt to any teaching environment from traditional classrooms to home learning.',
     items: [
       {
@@ -281,7 +281,7 @@ Pattern worksheets help kindergarten students develop critical thinking skills a
 
   // FAQ Section - ALL questions from pattern-train.md
   faq: {
-    sectionTitle: 'Frequently Asked Questions',
+    sectionTitle: 'FAQ - Free Worksheet for Kids and Free Printables',
     sectionDescription: 'Teachers and parents commonly ask questions about creating pattern train worksheets before subscribing. These answers address pricing, classroom use, customization options, and technical requirements. Understanding subscription benefits helps educators decide if the worksheet maker meets their teaching needs.',
     showMoreText: 'Show more questions',
     showLessText: 'Show less',
@@ -434,7 +434,7 @@ Pattern worksheets help kindergarten students develop critical thinking skills a
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Combine with Other Worksheet Generators',
+    sectionTitle: 'More Worksheet for Kindergarten - Free Worksheets Generators',
     sectionDescription: 'Our platform offers 33 different worksheet generators beyond pattern train worksheets. Your Full Access subscription provides access to all generators for creating comprehensive learning packets. Combine pattern train worksheets with alphabet activities, matching exercises, and other early learning resources. Build complete themed units mixing pattern recognition with math and literacy skills.',
     ctaTitle: 'Ready to Create Amazing Worksheets?',
     ctaDescription: 'Join educators creating professional worksheets. Unlimited generation, commercial license included.',

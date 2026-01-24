@@ -85,8 +85,8 @@ Vår generator lager arbeidsark der barn ringer inn den største gjenstanden. El
 
   // Sample Gallery - REAL file paths from samples/english/big small/
   samples: {
-    sectionTitle: 'Gratis Arbeidsark Eksempler - Stor og Liten for Barn og 1. Trinn',
-    sectionDescription: 'Last ned gratis utskrifter av stor og liten oppgaver. Gratis arbeidsark for barn i barnehage og 1. trinn med profesjonell kvalitet.',
+    sectionTitle: 'Gratis Arbeidsark for Barn - Gratis Arbeidsark og Gratis Utskrifter',
+    sectionDescription: 'Last ned gratis utskrifter - Gratis arbeidsark for barn av profesjonell kvalitet. Gratis arbeidsark og arbeidsark for barn perfekt for arbeidsark for 1. trinn. Gratis arbeidsark for barn og arbeidsark for barn inkluderer gratis utskrifter undervisningsmateriell. Gratis arbeidsark og arbeidsark for 1. trinn tilgjengelig',
     badgeText: 'Gratis Eksempler',
     downloadLabel: 'Last ned Gratis Eksempel',
     downloadingLabel: 'Laster ned...',
@@ -137,7 +137,7 @@ Vår generator lager arbeidsark der barn ringer inn den største gjenstanden. El
 
   // Features Grid - FULL text from big-small.md feature sections
   features: {
-    sectionTitle: 'Funksjoner for Arbeidsark Gratis - Alt du Trenger for Matematikk Oppgaver og Oppgavehefter Barn',
+    sectionTitle: 'Gratis Arbeidsark og Arbeidsark for Barn - Gratis Utskrifter og Arbeidsark for 1. Trinn',
     sectionDescription: 'Full Tilgang-abonnementet gir deg tilgang til profesjonelle verktøy for å lage arbeidsark gratis for nedlasting. Generer matematikk oppgaver for størrelsesforståelse på minutter. Kombiner med andre oppgavehefter barn kan bruke i mattesentre. Alle funksjoner inkludert uten ekstra kostnader. Perfekt for lærere som trenger fleksible og tilpassbare undervisningsressurser.',
     highlightBadgeText: 'Viktig Funksjon',
     readMoreLabel: 'Les mer',
@@ -231,7 +231,7 @@ Fasiten genereres i samme høye kvalitet som arbeidearket. Svarmarkører vises t
 
   // How-To Guide - FULL text from big-small.md step sections
   howTo: {
-    sectionTitle: 'Slik Lager du Matematikk Oppgaver og Oppgavehefter Barn i 5 Enkle Trinn',
+    sectionTitle: 'Gratis Arbeidsark for Barn Lage - Arbeidsark for 1. Trinn',
     sectionDescription: 'Opprettelsen av profesjonelle størrelsesarbeidsark tar under 3 minutter totalt. Følg disse fem enkle trinnene for å lage tilpassede matematikk oppgaver. Ingen designerfaring kreves. Prosessen er intuitiv og rask. Perfekt for travle lærere som trenger oppgavehefter barn kan bruke umiddelbart.',
     ctaText: 'Start Nå',
     badgeText: 'Slik Fungerer Det',
@@ -317,7 +317,7 @@ Last ned så mange arbeidsark gratis du trenger uten begrensninger. Lag forskjel
 
   // Use Cases - FULL text from big-small.md use case sections
   useCases: {
-    sectionTitle: 'Perfekt for Lærere og Foreldre - Matematikk Oppgaver og Oppgavehefter Barn for Alle Behov',
+    sectionTitle: 'Gratis Arbeidsark for Barn - Arbeidsark for 1. Trinn med Gratis Utskrifter. Arbeidsark for Barn',
     sectionDescription: 'Størrelsesarbeidsark fungerer perfekt for mange forskjellige undervisningssituasjoner. Barnehagepedagoger bruker dem for tidlig matematikkopplæring. Småskolelærere integrerer dem i matematikk oppgaver for 1. trinn til 3. trinn. Hjemmeskoleforeldre setter pris på fleksibiliteten. Spesialpedagoger bruker dem for differensiering. Full Tilgang-abonnementet støtter alle disse behovene med ubegrensede nedlastinger.',
     badgeText: 'Hvem Er Det For',
     readMoreLabel: 'Les mer',
@@ -412,7 +412,7 @@ Full Tilgang gir deg tilgang til alle 33 arbeidsarktyper på plattformen. Lag ko
 
   // FAQ Section - From big-small.md
   faq: {
-    sectionTitle: 'Ofte Stilte Spørsmål om Arbeidsark Gratis og Oppgavehefter Barn',
+    sectionTitle: 'FAQ - Gratis Arbeidsark for Barn og Arbeidsark for 1. Trinn. Arbeidsark for Barn',
     sectionDescription: 'Lærere og foreldre har mange spørsmål om størrelsesarbeidsark-generatoren. Her besvarer vi de 12 vanligste spørsmålene. Vi dekker alt fra prising til funksjoner til kommersiell bruk. Les gjennom for å få full forståelse av hva Full Tilgang tilbyr.',
     showMoreText: 'Vis flere spørsmål',
     showLessText: 'Vis færre',
@@ -541,7 +541,7 @@ Full Tilgang gir deg tilgang til alle 33 arbeidsarktyper på plattformen. Lag ko
 
   // Related Apps - From big-small.md "Kombiner" section
   relatedApps: {
-    sectionTitle: 'Kombiner Størrelsesarbeidsark med Andre Oppgavehefter Barn Elsker - Komplette Læringspakker',
+    sectionTitle: 'Gratis Arbeidsark Kombinere - Arbeidsark for Barn og Gratis Utskrifter',
     sectionDescription: 'Full Tilgang gir tilgang til alle 33 arbeidsarktyper på én plattform. Kombiner størrelsesarbeidsark med andre aktiviteter for helhetlige læringspakker. Lag komplette ukentlige oppgavehefter barn kan jobbe med selvstendig. Integrer fargeleggingsbilder barn elsker med lesetrening og matematikkaktiviteter. Denne kombinasjonsevnen er uvurderlig for lærere og hjemmeskoleforeldre.',
     ctaTitle: 'Klar til å Lage Fantastiske Arbeidsark?',
     ctaDescription: 'Bli med tusenvis av pedagoger som lager profesjonelle arbeidsark. Ubegrenset oppretting, kommersiell lisens inkludert.',

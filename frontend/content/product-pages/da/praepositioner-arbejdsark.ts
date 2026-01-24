@@ -77,8 +77,8 @@ Fuld Adgang abonnementet koster $240 om året eller $25 om måneden. Dit abonnem
 
   // Sample Gallery - REAL file paths from samples/english/prepositions/
   samples: {
-    sectionTitle: 'Gratis Præpositions Arbejdsark Eksempler til Print',
-    sectionDescription: 'Download gratis eksempler på arbejdsark for at se vores professionelle kvalitet',
+    sectionTitle: 'Gratis Arbejdsark til Børn - Gratis Arbejdsark og Gratis Printables',
+    sectionDescription: 'Download gratis printables - Gratis arbejdsark til børn af professionel kvalitet. Gratis arbejdsark og arbejdsark til børn perfekt til arbejdsark til børnehaveklasse. Gratis arbejdsark til børn og arbejdsark til børn inkluderer undervisningsmateriale. Gratis arbejdsark tilgængeligt',
     badgeText: 'Gratis Eksempler',
     downloadLabel: 'Download Gratis Eksempel',
     downloadingLabel: 'Downloader...',
@@ -122,7 +122,7 @@ Fuld Adgang abonnementet koster $240 om året eller $25 om måneden. Dit abonnem
 
   // Features Grid - FULL text from prepositions.md feature sections
   features: {
-    sectionTitle: 'Funktioner i Præpositions-Generator - Alt du Behøver til Gratis Skoleopgaver',
+    sectionTitle: 'Gratis Arbejdsark og Arbejdsark til Børn - Gratis Printables og Arbejdsark til Børnehaveklasse',
     sectionDescription: 'Vores præpositions-generator indeholder alle funktioner du behøver. Lav professionelle opgaver til print på få minutter. Fuld Adgang abonnementet giver dig adgang til alle værktøjer. Ingen skjulte gebyrer eller ekstra omkostninger. Lav ubegrænset mange gratis skoleopgaver til børnehaveklassen, 0. klasse og 1. klasse.',
     highlightBadgeText: 'Vigtig Funktion',
     readMoreLabel: 'Læs mere',
@@ -298,7 +298,7 @@ Print opgavearket i det antal eksemplarer du behøver. En kopi pr. elev for indi
 
   // Use Cases - FULL text from prepositions.md use case sections
   useCases: {
-    sectionTitle: 'Perfekt til Lærere og Forældre - Gratis Arbejdsark til Børnehaveklasse',
+    sectionTitle: 'Gratis Arbejdsark til Børn - Arbejdsark til Børnehaveklasse med Gratis Printables. Arbejdsark til Børn',
     sectionDescription: 'Præpositions-generatoren passer til mange forskellige undervisningssituationer. Pædagoger i børnehaveklassen bruger den til introduktion af rumlige begreber. Lærere i 0. klasse og 1. klasse bruger den til at styrke sprogfærdigheder. Hjemmeskolelærere, sprogtræner og specialpædagoger finder værktøjet uvurderligt. Hver brugergruppe har unikke behov som værktøjet imødekommer perfekt.',
     badgeText: 'Hvem Er Det Til',
     readMoreLabel: 'Læs mere',
@@ -381,7 +381,7 @@ Lav niche-produkter der ikke findes i markedet. Temabaserede præpositionspakker
 
   // FAQ Section - Selected FAQs from prepositions.md
   faq: {
-    sectionTitle: 'Ofte Stillede Spørgsmål om Gratis Arbejdsark med Præpositioner',
+    sectionTitle: 'FAQ - Gratis Arbejdsark til Børn og Arbejdsark til Børnehaveklasse. Arbejdsark til Børn',
     sectionDescription: 'Her er svar på de mest almindelige spørgsmål om præpositions-generatoren. Lær om abonnementer, funktioner og hvordan du bruger opgaver til print i din undervisning.',
     showMoreText: 'Vis flere spørgsmål',
     showLessText: 'Vis færre',
@@ -509,7 +509,7 @@ Lav niche-produkter der ikke findes i markedet. Temabaserede præpositionspakker
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Kombiner Gratis Arbejdsark - Andre Generatorer til Børn',
+    sectionTitle: 'Gratis Arbejdsark Kombinere - Arbejdsark til Børn og Gratis Printables',
     sectionDescription: 'Lav komplette læringspakker ved at kombinere præpositions-opgaver med disse komplementære generatorer.',
     ctaTitle: 'Klar til at Lave Fantastiske Arbejdsark?',
     ctaDescription: 'Tilslut dig tusindvis af pædagoger der laver professionelle arbejdsark. Ubegrænset oprettelse, kommerciel licens inkluderet.',

@@ -53,8 +53,8 @@ Jokainen tehtävä latautuu 300 DPI -laadulla. Täydellinen tulostamiseen ja myy
 
   // Sample Gallery - REAL file paths from samples/english/find and count/
   samples: {
-    sectionTitle: 'Etsi ja Laske -tehtävät Esimerkit',
-    sectionDescription: 'Lataa ilmaiset esimerkkityöarkit nähdäksesi ammattimaisen laatumme',
+    sectionTitle: 'Ilmainen Työarkki Lapsille - Ilmaiset Työarkit ja Ilmaiset Tulosteet',
+    sectionDescription: 'Lataa ilmaiset tulosteet - Ilmainen työarkki lapsille ammattimaista laatua. Ilmaiset työarkit ja työarkki lapsille täydellinen työarkki esiopetukseen. Ilmainen työarkki lapsille ja työarkki lapsille sisältää ilmaiset tulosteet ja ilmaiset työarkit opetusmateriaalin. Ilmainen työarkki ja työarkki esiopetukseen saatavilla',
     downloadLabel: 'Lataa Ilmainen Esimerkki',
     worksheetLabel: 'Työarkki',
     answerKeyLabel: 'Vastausavain',
@@ -84,7 +84,7 @@ Jokainen tehtävä latautuu 300 DPI -laadulla. Täydellinen tulostamiseen ja myy
 
   // Features Grid - FULL text from Finnish find-and-count.md feature sections
   features: {
-    sectionTitle: 'Etsi ja Laske -tehtävien Ominaisuudet - Kaikki Mitä Tarvitset Tulostettaviin Tehtäviin Lapsille Ilmainen',
+    sectionTitle: 'Ilmaiset Työarkit ja Työarkki Lapsille - Ilmaiset Tulosteet ja Työarkki Esiopetukseen',
     sectionDescription: 'Etsi ja laske -generaattori tarjoaa kaikki työkalut ammattimaisten tehtävien luomiseen. Voit luoda esiopetus materiaali ilmainen -tehtäviä tai alakoulun matematiikka tehtäviä. Jokainen ominaisuus on suunniteltu säästämään aikaasi. Peruspaketti-tilauksesi antaa täyden pääsyn kaikkiin näihin ammattimaisen tason työkaluihin.',
     highlightBadgeText: 'Tärkeä Ominaisuus',
     readMoreLabel: 'Lue lisää',
@@ -189,7 +189,7 @@ Vastausavain käyttää samaa 300 DPI -laatua. Tulostuu yhtä selkeästi kuin te
 
   // How-To Guide - FULL text from Finnish find-and-count.md step sections
   howTo: {
-    sectionTitle: 'Kuinka Luoda Tulostettavat Tehtävät Lapsille Ilmainen 5 Helpossa Vaiheessa',
+    sectionTitle: 'Ilmainen Työarkki Lapsille Luoda - Työarkki Esiopetukseen',
     sectionDescription: 'Etsi ja laske -tehtävien luominen on nopeaa ja yksinkertaista. Koko prosessi kestää alle kolme minuuttia. Ei suunnitteluosaamista tarvita. Ei monimutkaisia työkaluja. Viisi yksinkertaista vaihetta ammattimaisiin esiopetus materiaali ilmainen -tehtäviin.',
     ctaText: 'Aloita Luominen Nyt',
     badgeText: 'Näin Se Toimii',
@@ -261,7 +261,7 @@ Harmaasävyvaihtoehto säästää mustetta dramaattisesti. Valitse "Harmaasävy"
 
   // Use Cases - FULL text from Finnish find-and-count.md use case sections
   useCases: {
-    sectionTitle: 'Täydellinen Opettajille, Vanhemmille ja Kasvattajille',
+    sectionTitle: 'Ilmainen Työarkki Lapsille - Työarkki Esiopetukseen ja Ilmaiset Tulosteet. Työarkki Lapsille',
     sectionDescription: 'Etsi ja laske -generaattori palvelee monenlaisia käyttäjiä. Esiopettajat luovat matematiikka tehtävät alakoulu -materiaaleja. Kotiopettajavanhemmat räätälöivät tehtäviä lapsilleen. Erityisopettajat eriyttävät tehtäviä oppilaidensa tasoille. Peruspaketti-tilaus palvelee kaikkia näitä ryhmiä tasavertaisesti.',
     badgeText: 'Kenelle Sopii',
     readMoreLabel: 'Lue lisää',
@@ -344,7 +344,7 @@ Luo tehtävävihkoja myytäväksi. 20 etsi ja laske -tehtävää per vihko. Tema
 
   // FAQ Section - Selected FAQs from Finnish find-and-count.md
   faq: {
-    sectionTitle: 'Usein Kysytyt Kysymykset',
+    sectionTitle: 'FAQ - Ilmainen Työarkki Lapsille ja Työarkki Esiopetukseen. Työarkki Lapsille',
     sectionDescription: 'Yleisimmät kysymykset etsi ja laske -tehtävägeneraattorista ja tulostettavista tehtävistä.',
     showMoreText: 'Näytä lisää kysymyksiä',
     showLessText: 'Näytä vähemmän',
@@ -449,7 +449,7 @@ Luo tehtävävihkoja myytäväksi. 20 etsi ja laske -tehtävää per vihko. Tema
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Yhdistä Muihin Työarkki Generaattoreihin',
+    sectionTitle: 'Ilmaiset Työarkit Yhdistää - Työarkki Lapsille ja Ilmaiset Tulosteet',
     sectionDescription: 'Luo kattavia oppimispaketteja yhdistämällä etsi ja laske -työarkit näihin täydentäviin generaattoreihin.',
     ctaTitle: 'Valmiina Luomaan Upeita Työarkkeja?',
     ctaDescription: 'Liity tuhansien opettajien joukkoon, jotka luovat ammattimaisia työarkkeja. Rajoittamaton generointi, kaupallinen lisenssi sisältyy.',

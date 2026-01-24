@@ -83,8 +83,8 @@ Grunnpakke-abonnement inkluderer 10 populære arbeidsarkverktøy for bare $144 p
 
   // Sample Gallery - REAL file paths from samples/norwegian/coloring/
   samples: {
-    sectionTitle: 'Fargeleggingsbilder Arbeidsark Eksempler',
-    sectionDescription: 'Last ned gratis eksempler på arbeidsark for å se vår profesjonelle kvalitet',
+    sectionTitle: 'Gratis Arbeidsark for Barn - Gratis Arbeidsark og Gratis Utskrifter',
+    sectionDescription: 'Last ned gratis utskrifter - Gratis arbeidsark for barn av profesjonell kvalitet. Gratis arbeidsark og arbeidsark for barn perfekt for arbeidsark for 1. trinn. Gratis arbeidsark for barn og arbeidsark for barn inkluderer gratis utskrifter undervisningsmateriell. Gratis arbeidsark og arbeidsark for 1. trinn tilgjengelig',
     badgeText: 'Gratis Eksempler',
     downloadLabel: 'Last ned Gratis Eksempel',
     downloadingLabel: 'Laster ned...',
@@ -135,7 +135,7 @@ Grunnpakke-abonnement inkluderer 10 populære arbeidsarkverktøy for bare $144 p
 
   // Features Grid - FULL text from coloring.md feature sections
   features: {
-    sectionTitle: 'Fargeleggingsbilder Barn Funksjoner - Alt du Trenger for Arbeidsark Gratis og Finmotorikk Øvelser',
+    sectionTitle: 'Gratis Arbeidsark og Arbeidsark for Barn - Gratis Utskrifter og Arbeidsark for 1. Trinn',
     sectionDescription: 'Vårt verktøy for fargeleggingsbilder barn inneholder alle funksjoner du trenger for å lage profesjonelle arbeidsark gratis. Perfekt for lærere som jobber med finmotorikk øvelser og bokstaver lære skrive aktiviteter. Kombiner fargeleggingsbilder barn med matematikk oppgaver og tall og telling øvelser. Hver funksjon er designet for å gjøre lagingen av fargeleggingsbilder barn raskt og enkelt. Grunnpakke-abonnement gir deg tilgang til alle disse kraftige verktøyene.',
     highlightBadgeText: 'Viktig Funksjon',
     readMoreLabel: 'Les mer',
@@ -215,7 +215,7 @@ Dine fargeleggingsbilder barn ser skarpe og tydelige ut når de skrives ut. Inge
 
   // How-To Guide - FULL text from coloring.md step sections
   howTo: {
-    sectionTitle: 'Hvordan Lage Fargeleggingsbilder Barn på 5 Enkle Trinn - Arbeidsark Gratis og Finmotorikk Øvelser',
+    sectionTitle: 'Gratis Arbeidsark for Barn Lage - Arbeidsark for 1. Trinn',
     sectionDescription: 'Lag profesjonelle fargeleggingsbilder barn på under 3 minutter. Vårt verktøy gjør det enkelt å produsere arbeidsark gratis for finmotorikk øvelser. Kombiner fargeleggingsbilder barn med matematikk oppgaver og bokstaver lære skrive aktiviteter. Hvert trinn er designet for enkelhet. Ingen tekniske kunnskaper kreves for å lage fargeleggingsbilder barn. Følg disse fem trinnene og dine fargeleggingsbilder barn er klare til nedlasting.',
     ctaText: 'Start Nå',
     badgeText: 'Slik Fungerer Det',
@@ -287,7 +287,7 @@ Dine fargeleggingsbilder barn lastes ned i høyoppløselig 300 DPI-kvalitet. Per
 
   // Use Cases - FULL text from coloring.md use case sections
   useCases: {
-    sectionTitle: 'Perfekt for Lærere, Foreldre og Pedagoger - Fargeleggingsbilder Barn og Arbeidsark Gratis for Alle Behov',
+    sectionTitle: 'Gratis Arbeidsark for Barn - Arbeidsark for 1. Trinn med Gratis Utskrifter. Arbeidsark for Barn',
     sectionDescription: 'Vårt verktøy for fargeleggingsbilder barn passer alle som jobber med barn. Småskoletrinnet lærere, barneskole lærere og hjemmeundervisning foreldre bruker fargeleggingsbilder barn daglig. Kombiner fargeleggingsbilder barn med matematikk oppgaver og bokstaver lære skrive aktiviteter. Hver bruker finner verdi i arbeidsark gratis verktøyet. Lag finmotorikk øvelser tilpasset for elevenes behov.',
     badgeText: 'Hvem Er Det For',
     readMoreLabel: 'Les mer',
@@ -370,7 +370,7 @@ Grunnpakke inkluderer kommersiell lisens for fargeleggingsbilder barn. Selg dine
 
   // FAQ Section - FULL text from coloring.md FAQ sections
   faq: {
-    sectionTitle: 'Ofte Stilte Spørsmål om Fargeleggingsbilder Barn - Arbeidsark Gratis Hjelp',
+    sectionTitle: 'FAQ - Gratis Arbeidsark for Barn og Arbeidsark for 1. Trinn. Arbeidsark for Barn',
     sectionDescription: 'Lærere har mange spørsmål om vårt verktøy for fargeleggingsbilder barn. Her er de fem vanligste spørsmålene om arbeidsark gratis produksjon. Finn ut hvordan fargeleggingsbilder barn fungerer. Lær om Grunnpakke-abonnement. Oppdag hvordan du kombinerer fargeleggingsbilder barn med matematikk oppgaver og finmotorikk øvelser.',
     badgeText: 'Vanlige Spørsmål',
     readMoreLabel: 'Les mer',
@@ -458,7 +458,7 @@ Lag tematiske oppgavehefter barn med fargeleggingsbilder barn og matematikk oppg
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Kombiner Fargeleggingsbilder med Andre Oppgavehefter Barn Elsker',
+    sectionTitle: 'Gratis Arbeidsark Kombinere - Arbeidsark for Barn og Gratis Utskrifter',
     sectionDescription: 'Plattformen tilbyr 33 forskjellige oppgavegeneratorer du kan kombinere med fargeleggingsbilder barn. Lag helhetlige oppgavehefter barn bruker for tverrfaglig læring. Kombiner fargeleggingsbilder med matematikk oppgaver, bokstaver lære skrive, finmotorikk øvelser og lesetrening. Grunnpakke gir tilgang til 10 generatorer som dekker de fleste behov på småskoletrinnet.',
     ctaTitle: 'Klar til å Lage Fantastiske Fargeleggingsbilder?',
     ctaDescription: 'Bli med tusenvis av pedagoger som lager profesjonelle fargeleggingsbilder. Ubegrenset oppretting, kommersiell lisens inkludert.',

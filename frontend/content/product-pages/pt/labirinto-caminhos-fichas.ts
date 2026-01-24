@@ -79,8 +79,8 @@ Combine labirintos com aprendizado de letras e palavras. Crie atividades grátis
 
   // Sample Gallery
   samples: {
-    sectionTitle: 'Exemplos de Labirintos - Atividades Grátis para Imprimir',
-    sectionDescription: 'Baixe exemplos gratuitos para ver nossa qualidade profissional',
+    sectionTitle: 'Atividade Grátis para Crianças - Atividades Grátis e Imprimíveis Grátis',
+    sectionDescription: 'Baixe imprimíveis grátis - Atividade grátis para crianças de qualidade profissional. Atividades grátis e atividade para crianças perfeitas para atividade para educação infantil. Atividade grátis para crianças e atividade para crianças incluem material educativo. Atividade grátis disponível',
     downloadLabel: 'Baixar Exemplo Grátis',
     worksheetLabel: 'Atividade',
     answerKeyLabel: 'Gabarito',
@@ -124,7 +124,7 @@ Combine labirintos com aprendizado de letras e palavras. Crie atividades grátis
 
   // Features Grid
   features: {
-    sectionTitle: 'Recursos do Gerador - Atividade Grátis para Crianças de Labirintos',
+    sectionTitle: 'Atividades Grátis e Atividade para Crianças - Imprimíveis Grátis e Atividade para Educação Infantil',
     sectionDescription: 'O Picture Path reúne ferramentas profissionais para criar atividades grátis de labirintos educativos. Cada recurso foi pensado para professores e pais que precisam de imprimíveis grátis de qualidade. A interface em português brasileiro facilita todo o processo de criação de atividades para crianças.',
     highlightBadgeText: 'Recurso Principal',
     readMoreLabel: 'Leia mais',
@@ -229,7 +229,7 @@ Ideal para atividades para imprimir em quantidade. Perfeito para distribuir em r
 
   // How-To Guide
   howTo: {
-    sectionTitle: 'Como Criar Labirintos - Atividades Grátis em 5 Passos',
+    sectionTitle: 'Atividade Grátis para Crianças Criar - Atividade para Educação Infantil',
     sectionDescription: 'Criar atividades grátis de labirintos profissionais leva menos de 3 minutos. O processo é intuitivo e não exige conhecimentos técnicos. Siga estes cinco passos simples para produzir imprimíveis grátis para educação infantil de alta qualidade. Cada etapa foi otimizada para máxima eficiência.',
     ctaText: 'Comece Agora',
     badgeText: 'Como Funciona',
@@ -301,7 +301,7 @@ Labirintos de tabuada ficam prontos em segundos. O gabarito mostra quais número
 
   // Use Cases
   useCases: {
-    sectionTitle: 'Quem Usa Labirintos - Atividade Grátis para Educação Infantil',
+    sectionTitle: 'Atividade Grátis para Crianças - Atividade para Educação Infantil com Imprimíveis Grátis. Atividade para Crianças',
     sectionDescription: 'Atividades grátis de labirintos educativos atendem diversos perfis de educadores. Professores, pais e empreendedores encontram valor nos imprimíveis grátis do Picture Path. Cada grupo utiliza os recursos de forma única para suas necessidades específicas.',
     badgeText: 'Para Quem',
     readMoreLabel: 'Leia mais',
@@ -384,7 +384,7 @@ Desenvolva pacotes temáticos de atividades de alfabetização. Apostilas comple
 
   // FAQ Section
   faq: {
-    sectionTitle: 'Perguntas Frequentes - Imprimíveis Grátis de Labirintos',
+    sectionTitle: 'FAQ - Atividade Grátis para Crianças e Atividade para Educação Infantil. Atividade para Crianças',
     sectionDescription: 'Reunimos as dúvidas mais comuns sobre atividades grátis do gerador de labirintos Picture Path. Cada resposta foi elaborada para esclarecer professores e pais sobre recursos e funcionalidades de atividades para crianças.',
     showMoreText: 'Mostrar mais perguntas',
     showLessText: 'Mostrar menos',
@@ -513,7 +513,7 @@ Desenvolva pacotes temáticos de atividades de alfabetização. Apostilas comple
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Combine com Outros Geradores - Atividades Grátis',
+    sectionTitle: 'Atividades Grátis Combinar - Atividade para Crianças e Imprimíveis Grátis',
     sectionDescription: 'Crie pacotes de aprendizagem completos combinando labirintos Picture Path com estes geradores complementares.',
     ctaTitle: 'Pronto para Criar Labirintos Incríveis?',
     ctaDescription: 'Junte-se a milhares de educadores que criam atividades profissionais. Geração ilimitada, licença comercial incluída.',

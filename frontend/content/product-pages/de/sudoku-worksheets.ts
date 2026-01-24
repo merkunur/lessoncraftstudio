@@ -95,8 +95,8 @@ Dieser Sudoku-Arbeitsblatt-Generator ist perfekt für Erzieher, Grundschullehrer
 
   // Sample Gallery - REAL file paths from samples/english/sudoku/
   samples: {
-    sectionTitle: 'Kostenloses Arbeitsblatt für Kinder - Kinder-Sudoku Beispiele',
-    sectionDescription: 'Laden Sie kostenlose Beispiel-Arbeitsblätter herunter, um unsere professionelle Qualität zu sehen',
+    sectionTitle: 'Kostenloses Arbeitsblatt für Kinder - Kostenlose Arbeitsblätter und Kostenlose Druckvorlagen',
+    sectionDescription: 'Laden Sie kostenlose Druckvorlagen herunter - Kostenloses Arbeitsblatt für Kinder in professioneller Qualität für Arbeitsblatt für Vorschule',
     downloadLabel: 'Kostenloses Beispiel Herunterladen',
     worksheetLabel: 'Arbeitsblatt',
     answerKeyLabel: 'Lösungsschlüssel',
@@ -147,7 +147,7 @@ Dieser Sudoku-Arbeitsblatt-Generator ist perfekt für Erzieher, Grundschullehrer
 
   // Features Grid - FULL text from sudoku.md feature sections
   features: {
-    sectionTitle: 'Sudoku-Funktionen - Kostenlose Druckvorlagen und Arbeitsblatt für Kinder',
+    sectionTitle: 'Arbeitsblatt für Kinder - Arbeitsblatt für Vorschule und Kostenlose Arbeitsblätter',
     sectionDescription: 'Ihr Sudoku-Arbeitsblatt-Generator enthält alle professionellen Funktionen die Erzieher und Grundschullehrer benötigen. Erstellen Sie individuelle Logikrätsel in Minuten mit voller Kontrolle über Bilder, Schwierigkeit, Layout und Design. Jede Funktion arbeitet zusammen um Ihnen zu helfen kostenlose Arbeitsblätter zu generieren die exakt Ihren Klassenzimmer-Bedürfnissen entsprechen. Bearbeiten Sie alles auf der Leinwand nach der Generierung. Fügen Sie Hintergründe, Rahmen und Text hinzu. Laden Sie hochwertige PDF- und JPEG-Dateien herunter bereit zum Drucken oder Verkaufen.',
     highlightBadgeText: 'Hauptfunktion',
     readMoreLabel: 'Mehr lesen',
@@ -213,7 +213,7 @@ Dieser Sudoku-Arbeitsblatt-Generator ist perfekt für Erzieher, Grundschullehrer
 
   // How-To Guide - FULL text from sudoku.md step sections
   howTo: {
-    sectionTitle: 'Wie Sie Sudoku-Arbeitsblätter für Vorschule und Grundschule in 5 einfachen Schritten erstellen',
+    sectionTitle: 'Kostenloses Arbeitsblatt für Kinder erstellen - Arbeitsblatt für Vorschule',
     sectionDescription: 'Die Erstellung professioneller Sudoku-Arbeitsblätter dauert weniger als drei Minuten vom Start bis zum Download. Keine Design-Fähigkeiten erforderlich. Keine Sudoku-Expertise benötigt. Der Generator übernimmt alle komplexe Logik und Layout automatisch. Sie konzentrieren sich auf Auswahl von Bildern und Schwierigkeitsstufe. Folgen Sie diesen fünf einfachen Schritten um individuelle Vorschul-Arbeitsblätter und Arbeitsblätter Grundschule zu erstellen. Jeder Schritt dauert nur Sekunden. Der gesamte Arbeitsablauf ist für Geschwindigkeit und Einfachheit konzipiert.',
     ctaText: 'Jetzt Erstellen',
     badgeText: 'So funktioniert es',
@@ -368,7 +368,7 @@ Berechnen Sie Ihr potentielles Einkommen aus Rätsel-Erstellung. Basis-Paket kos
 
   // FAQ Section - FULL FAQs from sudoku.md
   faq: {
-    sectionTitle: 'Häufig gestellte Fragen - Kostenloses Arbeitsblatt und Arbeitsblatt für Kinder',
+    sectionTitle: 'FAQ - Kostenloses Arbeitsblatt für Kinder und Arbeitsblatt für Vorschule',
     sectionDescription: 'Lehrer und Eltern stellen häufige Fragen über visuelle Sudoku-Rätsel bevor sie den Generator ausprobieren. Diese Antworten liefern klare, ehrliche Information über Abonnement-Anforderungen, Druck-Optionen, Schwierigkeitsstufen und Anpassungs-Fähigkeiten. Verständnis dieser Details hilft Ihnen zu entscheiden ob dieser Sudoku-Generator Ihre Klassenzimmer- oder Heimschul-Bedürfnisse erfüllt für Mathe-Arbeitsblätter, Einmaleins Übung, Deutsch-Arbeitsblätter, Schwungübungen und Buchstaben lernen. Alle Antworten basieren auf tatsächlichen App-Funktionen nicht Marketing-Versprechen.',
     showMoreText: 'Mehr Fragen anzeigen',
     showLessText: 'Weniger anzeigen',
@@ -463,7 +463,7 @@ Berechnen Sie Ihr potentielles Einkommen aus Rätsel-Erstellung. Basis-Paket kos
 
   // Related Apps - FULL text from sudoku.md combine apps section
   relatedApps: {
-    sectionTitle: 'Sudoku kombinieren - Kostenloses Arbeitsblatt für Kinder und Arbeitsblatt für Vorschule',
+    sectionTitle: 'Kostenlose Arbeitsblätter kombinieren - Arbeitsblatt für Kinder und Kostenlose Druckvorlagen',
     sectionDescription: 'LessonCraft Studio bietet 33 verschiedene Arbeitsblatt-Generatoren mit Ihrem Abonnement. Lehrer erstellen umfassende Lern-Pakete durch Kombination multipler Arbeitsblatt-Typen. Sudoku-Rätsel funktionieren perfekt neben Lese-Schreib-Arbeitsblättern, Mathe-Arbeitsblättern und Feinmotor-Aktivitäten. Bauen Sie thematische wöchentliche Pakete die alle Fach-Bereiche abdecken. Schüler erhalten verschiedene Übung die Engagement über das Paket erhält. Das 4x4 visuelle Sudoku-Format paart natürlich mit anderen Vorschul- und Grundschul-Aktivitäten. Erstellen Sie vollständige Lern-Erfahrungen statt isolierter Arbeitsblatt-Übung durch Kombination mit Rechnen lernen Materialien, Schwungübungen für Feinmotorik und Ausmalbilder für kreative Entwicklung.',
     ctaTitle: 'Bereit, fantastische Sudoku-Arbeitsblätter zu erstellen?',
     ctaDescription: 'Schließen Sie sich tausenden Lehrkräften an, die professionelle Arbeitsblätter erstellen. Unbegrenzte Generierung, kommerzielle Lizenz inklusive.',

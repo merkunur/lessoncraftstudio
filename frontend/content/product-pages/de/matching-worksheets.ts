@@ -95,8 +95,8 @@ Der Zuordnungs-Generator bietet flexible Inhaltserstellung für jedes Fach. Erst
 
   // Sample Gallery - REAL file paths from samples/english/matching/
   samples: {
-    sectionTitle: 'Zuordnungs-Arbeitsblätter Beispiele',
-    sectionDescription: 'Laden Sie kostenlose Beispiel-Arbeitsblätter herunter, um unsere professionelle Qualität zu sehen',
+    sectionTitle: 'Kostenloses Arbeitsblatt für Kinder - Kostenlose Arbeitsblätter und Kostenlose Druckvorlagen',
+    sectionDescription: 'Laden Sie kostenlose Druckvorlagen herunter - Kostenloses Arbeitsblatt für Kinder in professioneller Qualität für Arbeitsblatt für Vorschule',
     downloadLabel: 'Kostenloses Beispiel Herunterladen',
     worksheetLabel: 'Arbeitsblatt',
     answerKeyLabel: 'Lösungsblatt',
@@ -147,7 +147,7 @@ Der Zuordnungs-Generator bietet flexible Inhaltserstellung für jedes Fach. Erst
 
   // Features Grid - FULL text from matching.md feature sections
   features: {
-    sectionTitle: 'Zuordnungs-Generator Funktionen - Alles für Kostenlose Arbeitsblätter Grundschule und Vorschul-Arbeitsblätter',
+    sectionTitle: 'Arbeitsblatt für Kinder - Arbeitsblatt für Vorschule und Kostenlose Arbeitsblätter',
     sectionDescription: 'Unser Zuordnungsarbeitsblätter-Generator enthält professionelle Funktionen speziell für Lehrkräfte entwickelt, die Arbeitsblätter Grundschule und Vorschul-Arbeitsblätter erstellen. Jede Funktion hilft Ihnen beim schnelleren Erstellen kostenloser Arbeitsblätter als mit traditionellen Methoden. Erstellen Sie Arbeitsblätter zum Buchstaben lernen, Deutsch-Arbeitsblätter, Mathe-Arbeitsblätter und mehr mit demselben benutzerfreundlichen Werkzeug. Greifen Sie auf alle Premium-Funktionen mit Ihrem Basis-Paket Abonnement zu. Keine Gebühren pro Arbeitsblatt, keine Bildkosten, keine Vorlagengebühren. Generieren Sie unbegrenzt Zuordnungsübungen für alle Ihre Unterrichtsbedürfnisse in der Grundschule.',
     highlightBadgeText: 'Hauptfunktion',
     readMoreLabel: 'Mehr lesen',
@@ -254,7 +254,7 @@ Integrieren Sie Ausmalbilder mit Zuordnungsaktivitäten für erweiterte Engageme
 
   // How-To Guide - FULL text from matching.md step sections
   howTo: {
-    sectionTitle: 'So erstellen Sie kostenlose Arbeitsblätter Grundschule in 5 einfachen Schritten',
+    sectionTitle: 'Kostenloses Arbeitsblatt für Kinder erstellen - Arbeitsblatt für Vorschule',
     sectionDescription: 'Das Erstellen von Zuordnungsarbeitsblättern dauert weniger als 3 Minuten vom Start bis zum Download. Folgen Sie fünf einfachen Schritten, um professionelle Arbeitsblätter Grundschule und Vorschul-Arbeitsblätter zu generieren. Keine Designerfahrung erforderlich für die Erstellung von Arbeitsblättern zum Buchstaben lernen, Deutsch-Arbeitsblättern oder Mathe-Arbeitsblättern.',
     ctaText: 'Jetzt Erstellen',
     badgeText: 'So funktioniert es',
@@ -326,7 +326,7 @@ Aktivieren Sie die Graustufenoption vor dem Herunterladen, um Druckertinte zu sp
 
   // Use Cases - FULL descriptions from matching.md persona sections
   useCases: {
-    sectionTitle: 'Perfekt für Lehrkräfte und Eltern - Kostenlose Arbeitsblätter Grundschule für jeden Bedarf',
+    sectionTitle: 'Kostenloses Arbeitsblatt für Kinder - Arbeitsblatt für Vorschule mit Kostenlose Druckvorlagen',
     sectionDescription: 'Zuordnungsarbeitsblätter dienen verschiedenen Bildungsbedürfnissen in verschiedenen Unterrichtsumgebungen. Erzieher in der Vorschule nutzen Zuordnungsarbeitsblätter für Buchstabenerkennung und phonetische Praxis. Grundschullehrkräfte gestalten Deutsch-Arbeitsblätter für Leseentwicklung. Homeschool-Eltern erstellen Arbeitsblätter zum Buchstaben lernen, die an das individuelle Lerntempo angepasst sind. DaZ-Lehrkräfte entwickeln Mathe-Arbeitsblätter mit visueller Vokabelunterstützung.',
     badgeText: 'Anwendungsbereiche',
     readMoreLabel: 'Mehr lesen',
@@ -409,7 +409,7 @@ Erstellen Sie Produkte mit Einmaleins und Rechnen lernen Inhalten für Mathe-fok
 
   // FAQ Section - FULL FAQs from matching.md
   faq: {
-    sectionTitle: 'Häufig gestellte Fragen - Kostenlose Arbeitsblätter, Schwungübungen und Deutsch-Arbeitsblätter',
+    sectionTitle: 'FAQ - Kostenloses Arbeitsblatt für Kinder und Arbeitsblatt für Vorschule',
     sectionDescription: 'Lehrkräfte stellen häufige Fragen zum Erstellen von Zuordnungsarbeitsblättern mit Zuordnungs-Generator. Hier finden Sie Antworten zu kostenlosen Arbeitsblättern, Ausmalbilder, Schwungübungen und mehr. Erfahren Sie, wie Sie Arbeitsblätter zum Buchstaben lernen erstellen, Deutsch-Arbeitsblätter generieren und Mathe-Arbeitsblätter für Einmaleins-Praxis gestalten.',
     showMoreText: 'Mehr Fragen anzeigen',
     showLessText: 'Weniger anzeigen',
@@ -544,7 +544,7 @@ Erstellen Sie Produkte mit Einmaleins und Rechnen lernen Inhalten für Mathe-fok
 
   // Related Apps - FULL text from matching.md combine apps section
   relatedApps: {
-    sectionTitle: 'Kombinieren Sie Apps für umfassende Lehrplan-Bundles - Buchstaben lernen, Einmaleins und Deutsch-Arbeitsblätter',
+    sectionTitle: 'Kostenlose Arbeitsblätter kombinieren - Arbeitsblatt für Kinder und Kostenlose Druckvorlagen',
     sectionDescription: 'Das Basis-Paket Abonnement beinhaltet zehn verschiedene Arbeitsblatt-Generator-Apps, die zusammenarbeiten, um vollständige Unterrichtspakete zu erstellen. Kombinieren Sie Zuordnungs-Generator mit anderen Generatoren für umfassende Lehrplan-Bundles. Erstellen Sie koordinierte Materialien über mehrere Arbeitsblatttypen hinweg. Generieren Sie thematische Pakete, die alle Fähigkeitsbereiche abdecken. Verkaufen Sie Multi-App-Bundles auf Eduki für höhere Preispunkte.',
     ctaTitle: 'Bereit, fantastische Arbeitsblätter zu erstellen?',
     ctaDescription: 'Schließen Sie sich tausenden Lehrkräften an, die professionelle Arbeitsblätter erstellen. Unbegrenzte Generierung, kommerzielle Lizenz inklusive.',

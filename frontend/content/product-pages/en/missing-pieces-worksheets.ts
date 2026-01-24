@@ -82,7 +82,7 @@ Generate worksheets in 11 languages including English, Spanish, French, and Germ
 
   // Sample Gallery - REAL file paths from samples/english/missing pieces/
   samples: {
-    sectionTitle: 'Missing Pieces Worksheets: Free Printable Samples for Kids',
+    sectionTitle: 'Free Worksheet for Kids - Free Worksheets and Free Printables',
     downloadLabel: 'Download Free Sample',
     worksheetLabel: 'Worksheet',
     answerKeyLabel: 'Answer Key',
@@ -132,8 +132,8 @@ Generate worksheets in 11 languages including English, Spanish, French, and Germ
 
   // Features Grid - FULL descriptions from missing-pieces.md H3 sections
   features: {
-    sectionTitle: 'Free Printable Missing Pieces Worksheets - Visual Discrimination Generator',
-    sectionDescription: 'Our missing pieces worksheet generator includes professional features designed specifically for teachers creating kindergarten worksheets and first grade worksheets. Every feature helps you build free printable worksheets faster than traditional methods. Create visual discrimination worksheets, spatial reasoning activities, and problem-solving puzzles with the same easy-to-use tool. Access all premium features with your Full Access subscription. No per-worksheet fees, no image charges, no template costs. Generate unlimited missing pieces worksheets for all your classroom needs.',
+    sectionTitle: 'Free Worksheet for Kids Features - Worksheet for Kindergarten',
+    sectionDescription: 'Our missing pieces worksheet generator includes professional features for teachers creating free worksheet for kids and kindergarten worksheets. Every feature helps you build free worksheet for kids faster than traditional methods. Create free worksheet for kids including visual discrimination worksheets, spatial reasoning activities, and problem-solving puzzles. Access all premium features with your Full Access subscription. No per-worksheet fees. Generate unlimited free worksheet for kids for all your classroom needs.',
     highlightBadgeText: 'Key Feature',
     items: [
       {
@@ -197,7 +197,7 @@ Generate worksheets in 11 languages including English, Spanish, French, and Germ
 
   // How-To Guide - FULL text from missing-pieces.md Step sections
   howTo: {
-    sectionTitle: 'Create Missing Pieces Worksheets and Visual Puzzles in 5 Easy Steps',
+    sectionTitle: 'How to Create Free Worksheets for Kids - Worksheet for Kindergarten in 5 Steps',
     sectionDescription: 'Creating missing pieces puzzles takes less than 3 minutes from start to finish. The step-by-step process works identically for phonics worksheets, math worksheets, and alphabet worksheets. Teachers need no design experience or technical training. Every step uses simple point-and-click controls. Follow these five steps to generate professional kindergarten worksheets instantly. The entire workflow feels intuitive even for first-time users. Students benefit from fresh, customized puzzles created specifically for their learning needs.',
     ctaText: 'Start Creating Now',
     steps: [
@@ -241,7 +241,7 @@ Generate worksheets in 11 languages including English, Spanish, French, and Germ
 
   // Use Cases - FULL descriptions from missing-pieces.md persona sections
   useCases: {
-    sectionTitle: 'Free Worksheets for Kids - Teachers, Parents, and Educators',
+    sectionTitle: 'Free Printables for Teachers - Worksheet for Kids and Kindergarten',
     sectionDescription: 'Missing pieces worksheets serve diverse educational settings and teaching styles. Kindergarten teachers use them for literacy centers and math practice. First grade educators create differentiated assignments effortlessly. Homeschool parents generate custom materials matching their curriculum. ESL instructors build vocabulary through visual learning. Special education teachers adapt difficulty for individual needs. Teacher entrepreneurs sell professional worksheet products online. Every user type benefits from the flexible, customizable platform designed for real classroom challenges.',
     items: [
       {
@@ -297,7 +297,7 @@ Generate worksheets in 11 languages including English, Spanish, French, and Germ
 
   // FAQ Section - ALL questions from missing-pieces.md
   faq: {
-    sectionTitle: 'Free Printable Worksheet Questions - Missing Pieces Puzzles FAQ',
+    sectionTitle: 'FAQ - Free Worksheet for Kids and Worksheet for Kindergarten',
     sectionDescription: 'Teachers and parents ask common questions about creating effective educational materials. Understanding worksheet capabilities helps educators make informed decisions. These detailed answers address the most frequent concerns about missing pieces puzzle generation. Learn how the platform supports specific teaching objectives across subjects and grade levels.',
     showMoreText: 'Show more questions',
     showLessText: 'Show less',
@@ -450,7 +450,7 @@ Generate worksheets in 11 languages including English, Spanish, French, and Germ
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Combine with Other Worksheet Generators',
+    sectionTitle: 'More Free Printables - Free Worksheets Generators',
     sectionDescription: 'Our platform offers 33 different worksheet generators beyond missing pieces puzzles. Your Full Access subscription provides access to all generators for creating comprehensive learning packets. Combine missing pieces worksheets with phonics worksheets, alphabet worksheets, and coloring worksheets. Build complete themed units mixing visual discrimination practice with fine motor activities.',
     ctaTitle: 'Ready to Create Amazing Worksheets?',
     ctaDescription: 'Join educators creating professional worksheets. Unlimited generation, commercial license included.',

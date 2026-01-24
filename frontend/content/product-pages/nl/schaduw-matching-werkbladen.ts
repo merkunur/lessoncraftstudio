@@ -97,8 +97,8 @@ Schaduw matching werkbladen ondersteunen meerdere ontwikkelingsgebieden. Kindere
 
   // Sample Gallery
   samples: {
-    sectionTitle: 'Gratis Werkbladen Schaduw Matching Voorbeelden - Werkblad voor Kleuters',
-    sectionDescription: 'Download gratis voorbeeldwerkbladen om onze professionele kwaliteit te ervaren',
+    sectionTitle: 'Gratis Werkblad voor Kinderen - Gratis Werkbladen en Gratis Printables',
+    sectionDescription: 'Download gratis printables - Gratis werkblad voor kinderen van professionele kwaliteit. Gratis werkbladen en werkblad voor kinderen perfect voor werkblad voor kleuters. Gratis werkblad voor kinderen en werkblad voor kinderen inclusief educatief materiaal. Gratis werkblad beschikbaar',
     downloadLabel: 'Gratis Voorbeeld Downloaden',
     worksheetLabel: 'Werkblad',
     answerKeyLabel: 'Antwoordblad',
@@ -315,7 +315,7 @@ Kies JPEG export voor digitaal delen. Upload naar uw digitale leeromgeving. Deel
 
   // Use Cases
   useCases: {
-    sectionTitle: 'Perfect voor Gratis Werkbladen - Werkblad voor Kinderen en Kleuters',
+    sectionTitle: 'Gratis Werkblad voor Kinderen - Werkblad voor Kleuters met Gratis Printables. Werkblad voor Kinderen',
     sectionDescription: 'Schaduw matching werkbladen ondersteunen diverse onderwijsbehoeften. Van werkbladen kleuters tot werkbladen groep 3 en hoger. Combineer met rekenen werkbladen en kleurplaten voor complete lespakketten. Ondersteun letters leren en schrijven oefenen met visuele activiteiten.',
     badgeText: 'Voor wie',
     readMoreLabel: 'Lees meer',
@@ -398,7 +398,7 @@ Prijsstrategieën variëren op basis van bundel grootte. Individuele werkbladen 
 
   // FAQ Section
   faq: {
-    sectionTitle: 'Veelgestelde Vragen over Gratis Werkbladen Schaduw Matching',
+    sectionTitle: 'FAQ - Gratis Werkblad voor Kinderen en Werkblad voor Kleuters. Werkblad voor Kinderen',
     sectionDescription: 'Leerkrachten stellen regelmatig vragen over schaduw matching werkbladen. Hier beantwoorden we de meest voorkomende vragen. Van werkbladen kleuters tot rekenen werkbladen combinaties. Van veilig leren lezen ondersteuning tot tafels oefenen integratie. Begrijp hoe schaduw matching past in uw curriculum.',
     showMoreText: 'Meer vragen tonen',
     showLessText: 'Minder tonen',
@@ -526,7 +526,7 @@ Prijsstrategieën variëren op basis van bundel grootte. Individuele werkbladen 
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Combineer met Gratis Werkbladen - Werkblad voor Kinderen Bundels',
+    sectionTitle: 'Gratis Werkbladen Combineren - Werkblad voor Kinderen en Gratis Printables',
     sectionDescription: 'Schaduw matching combineert perfect met andere werkblad types. Maak geïntegreerde lespakketten met rekenen werkbladen, kleurplaten en fijne motoriek oefeningen. Combineer met tafels oefenen voor wiskunde ondersteuning. LessonCraft Studio biedt 33 gratis werkbladen generators.',
     ctaTitle: 'Klaar om geweldige werkbladen te maken?',
     ctaDescription: 'Sluit je aan bij duizenden leerkrachten die professionele werkbladen maken. Onbeperkt genereren, commerciële licentie inbegrepen.',

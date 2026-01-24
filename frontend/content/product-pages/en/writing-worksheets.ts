@@ -64,7 +64,7 @@ Generate tracing worksheets for letters, words, names, or custom text. Your Full
 
   // Sample Gallery - REAL file paths from samples/english/writing/
   samples: {
-    sectionTitle: 'Writing Worksheet Samples',
+    sectionTitle: 'Free Worksheet for Kids - Free Printables Samples',
     downloadLabel: 'Download Free Sample',
     worksheetLabel: 'Worksheet',
     answerKeyLabel: 'Answer Key',
@@ -95,8 +95,8 @@ Generate tracing worksheets for letters, words, names, or custom text. Your Full
 
   // Features Grid - FULL text from writing.md feature sections
   features: {
-    sectionTitle: 'Writing Worksheet Generator Features - Everything You Need for Handwriting Practice and Kindergarten Worksheets',
-    sectionDescription: 'Our writing worksheet maker includes powerful features designed specifically for creating letter tracing worksheets and handwriting practice materials. Teachers love the combination of ease and flexibility. Generate professional worksheets in minutes instead of hours spent hand-drawing writing lines.',
+    sectionTitle: 'Free Worksheet for Kids Features - Worksheet for Kindergarten and Free Printables',
+    sectionDescription: 'Our writing worksheet maker includes powerful features for creating free printables including letter tracing worksheets and handwriting practice materials. Teachers love the free printables for their combination of ease and flexibility. Generate professional free printables in minutes instead of hours spent hand-drawing writing lines.',
     highlightBadgeText: 'Key Feature',
     items: [
       {
@@ -269,7 +269,7 @@ Print your downloaded worksheets on standard printer paper or cardstock. Regular
 
   // Use Cases - FULL text from writing.md use case sections
   useCases: {
-    sectionTitle: 'Perfect for Teachers, Parents, and Educators',
+    sectionTitle: 'Free Worksheet for Kids - Worksheet for Kindergarten for Educators',
     sectionDescription: 'Writing worksheet generators serve diverse teaching contexts and student populations. Preschool teachers preparing students for kindergarten use different materials than third grade teachers refining cursive skills. Homeschool parents need flexibility that classroom teachers do not require. ESL instructors face unique challenges with letter formation across languages. Our generator adapts to all these distinct needs seamlessly.',
     items: [
       {
@@ -361,7 +361,7 @@ Expand your product catalog across grade levels and subjects efficiently. Genera
 
   // FAQ Section - Selected FAQs from writing.md
   faq: {
-    sectionTitle: 'Frequently Asked Questions',
+    sectionTitle: 'FAQ - Worksheet for Kindergarten and Free Printables',
     sectionDescription: 'Everything you need to know about our writing worksheet generator.',
     showMoreText: 'Show more questions',
     showLessText: 'Show less',

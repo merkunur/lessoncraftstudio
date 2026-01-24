@@ -78,7 +78,7 @@ These printable addition worksheets work perfectly for math centers, homework pa
 
   // Sample Gallery - REAL file paths from samples/english/addition/
   samples: {
-    sectionTitle: 'Free Printable Worksheet Samples',
+    sectionTitle: 'Free Printables - Worksheet Samples for Kids',
     downloadLabel: 'Download Free Worksheet Sample',
     worksheetLabel: 'Worksheet',
     answerKeyLabel: 'Answer Key',

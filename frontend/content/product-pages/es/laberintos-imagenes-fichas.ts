@@ -85,8 +85,8 @@ Los maestros crean fichas gratis con cualquier tema. Practica el reconocimiento 
 
   // Sample Gallery
   samples: {
-    sectionTitle: 'Ejemplos de Fichas de Laberintos',
-    sectionDescription: 'Descarga ejemplos de fichas gratis para ver nuestra calidad profesional',
+    sectionTitle: 'Ficha Gratis para Niños - Fichas Gratis e Imprimibles Gratis',
+    sectionDescription: 'Descarga imprimibles gratis - Ficha gratis para niños de calidad profesional. Ficha para niños perfecta para ficha para preescolar. Ficha gratis para niños y ficha para niños incluyen material educativo. Ficha gratis disponible',
     downloadLabel: 'Descargar Ejemplo Gratis',
     worksheetLabel: 'Ficha',
     answerKeyLabel: 'Hoja de Respuestas',
@@ -137,7 +137,7 @@ Los maestros crean fichas gratis con cualquier tema. Practica el reconocimiento 
 
   // Features Grid
   features: {
-    sectionTitle: 'Características del Generador de Laberintos - Fichas para Imprimir con Material Educativo Gratis para Fichas Infantil y Ejercicios Matemáticas',
+    sectionTitle: 'Fichas Gratis y Ficha para Niños - Imprimibles Gratis y Ficha para Preescolar',
     sectionDescription: 'Nuestro generador de caminos visuales incluye todas las herramientas para crear fichas gratis profesionales. Diseñado específicamente para maestros de preescolar y primaria. Combina facilidad de uso con personalización completa. Cada característica apoya la creación de fichas para imprimir de alta calidad. La plataforma integra grafomotricidad, lectoescritura y ejercicios matemáticas. Crea actividades de colorear combinadas con laberintos. Practica números y el abecedario en contextos visuales divertidos. Todo disponible con tu suscripción Acceso Completo de $240 al año.',
     highlightBadgeText: 'Destacado',
     badgeText: 'Características',
@@ -203,7 +203,7 @@ Los maestros crean fichas gratis con cualquier tema. Practica el reconocimiento 
 
   // How-To Guide
   howTo: {
-    sectionTitle: 'Cómo Crear Fichas de Laberintos para Imprimir en 5 Pasos Fáciles - Fichas Gratis con Ejercicios Matemáticas y Grafomotricidad',
+    sectionTitle: 'Ficha Gratis para Niños Crear - Ficha para Preescolar',
     sectionDescription: 'Crear laberintos educativos toma menos de 3 minutos. El proceso es simple e intuitivo. No necesitas experiencia en diseño. Cada paso te acerca a fichas para imprimir profesionales. Tu suscripción Acceso Completo incluye creación ilimitada sin cargos adicionales.',
     ctaText: 'Comenzar Ahora',
     badgeText: 'Cómo Funciona',
@@ -255,7 +255,7 @@ Los maestros crean fichas gratis con cualquier tema. Practica el reconocimiento 
 
   // Use Cases
   useCases: {
-    sectionTitle: 'Perfecto para Maestros Padres y Educadores - Fichas para Imprimir Fichas Gratis y Material Educativo Gratis para Todas las Necesidades',
+    sectionTitle: 'Ficha Gratis para Niños - Ficha para Preescolar con Imprimibles Gratis. Ficha para Niños',
     sectionDescription: 'Los laberintos visuales benefician múltiples contextos educativos. Desde preescolar hasta tercer grado de primaria. Maestros, padres y tutores encuentran aplicaciones prácticas. Cada perfil de usuario descubre valor único en la plataforma. La flexibilidad del generador se adapta a cualquier necesidad.',
     badgeText: 'Para Quién Es',
     readMoreLabel: 'Leer más',
@@ -314,7 +314,7 @@ Los maestros crean fichas gratis con cualquier tema. Practica el reconocimiento 
 
   // FAQ Section
   faq: {
-    sectionTitle: 'Preguntas Frecuentes sobre Fichas para Imprimir de Laberintos - Fichas Gratis Ejercicios Matemáticas y Grafomotricidad',
+    sectionTitle: 'FAQ - Ficha Gratis para Niños y Ficha para Preescolar. Ficha para Niños',
     badgeText: 'Preguntas Frecuentes',
     showMoreText: 'Ver más preguntas',
     showLessText: 'Ver menos preguntas',
@@ -442,7 +442,7 @@ Los maestros crean fichas gratis con cualquier tema. Practica el reconocimiento 
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Combina Laberintos con Otras Fichas para Imprimir Gratis - Paquetes Completos de Fichas Infantil Ejercicios Matemáticas y Lectoescritura',
+    sectionTitle: 'Fichas Gratis Combinar - Ficha para Niños e Imprimibles Gratis',
     sectionDescription: 'La plataforma LessonCraft Studio ofrece 33 generadores diferentes de fichas para imprimir. Tu suscripción Acceso Completo de $240 anuales incluye todos. Los maestros combinan múltiples tipos de fichas en paquetes de aprendizaje completos. Laberintos funcionan perfectamente con otros generadores.',
     ctaTitle: '¿Listo para Crear Fichas de Laberintos Increíbles?',
     ctaDescription: 'Únete a miles de maestros que crean fichas profesionales. Generación ilimitada, licencia comercial incluida.',

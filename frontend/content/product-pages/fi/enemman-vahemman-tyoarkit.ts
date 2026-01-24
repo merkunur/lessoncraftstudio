@@ -51,8 +51,8 @@ Täysi Käyttöoikeus -tilaus antaa sinulle pääsyn kaikkiin 33 tehtävägenera
 
   // Sample Gallery - REAL file paths from samples/english/more less/
   samples: {
-    sectionTitle: 'Enemmän vai Vähemmän Tehtävät Esimerkit',
-    sectionDescription: 'Lataa ilmaiset esimerkkityöarkit nähdäksesi ammattimaisen laatumme',
+    sectionTitle: 'Ilmainen Työarkki Lapsille - Ilmaiset Työarkit ja Ilmaiset Tulosteet',
+    sectionDescription: 'Lataa ilmaiset tulosteet - Ilmainen työarkki lapsille ammattimaista laatua. Ilmaiset työarkit ja työarkki lapsille täydellinen työarkki esiopetukseen. Ilmainen työarkki lapsille ja työarkki lapsille sisältää ilmaiset tulosteet ja ilmaiset työarkit opetusmateriaalin. Ilmainen työarkki ja työarkki esiopetukseen saatavilla',
     downloadLabel: 'Lataa Ilmainen Esimerkki',
     worksheetLabel: 'Tehtävämoniste',
     answerKeyLabel: 'Vastausavain',
@@ -89,7 +89,7 @@ Täysi Käyttöoikeus -tilaus antaa sinulle pääsyn kaikkiin 33 tehtävägenera
 
   // Features Grid - FULL text from Finnish more-less.md feature sections
   features: {
-    sectionTitle: 'Matematiikka Tehtävät Alakoulu -ominaisuudet - Tulostettavat Tehtävät Lapsille Ilmainen Vertailutehtäviin',
+    sectionTitle: 'Ilmaiset Työarkit ja Työarkki Lapsille - Ilmaiset Tulosteet ja Työarkki Esiopetukseen',
     sectionDescription: 'Vertailutehtävägeneraattorimme sisältää kaikki tarvittavat työkalut ammattimaisten matematiikkatehtävien luomiseen. Täysi Käyttöoikeus -tilaus antaa sinulle pääsyn laajaan ominaisuusvalikoimaan. Luo, muokkaa ja lataa tehtäviä vaivattomasti. Jokainen ominaisuus on suunniteltu säästämään aikaa ja parantamaan tehtävien laatua. Seuraavat ominaisuudet tekevät tehtävien luomisesta helppoa ja tehokasta.',
     highlightBadgeText: 'Tärkeä Ominaisuus',
     readMoreLabel: 'Lue lisää',
@@ -183,7 +183,7 @@ Harmaasävyvaihtoehto muuntaa värit ennen latausta. Säästä väritulostusvär
 
   // How-To Guide - FULL text from Finnish more-less.md step sections
   howTo: {
-    sectionTitle: 'Kuinka Luoda Matematiikka Tehtävät Alakoulu 5 Helppoa Askelta - Tulostettavat Tehtävät Lapsille Ilmainen',
+    sectionTitle: 'Ilmainen Työarkki Lapsille Luoda - Työarkki Esiopetukseen',
     sectionDescription: 'Vertailutehtävien luominen vie alle 3 minuuttia alusta loppuun. Seuraa näitä viittä yksinkertaista askelta. Ei tarvitse teknistä osaamista tai suunnittelukokemusta. Jokainen askel on suoraviivainen ja intuitiivinen. Opettajat luovat ensimmäisen tehtävänsä minuuteissa. Kotiopettajat rakastavat nopeaa työnkulkua.',
     ctaText: 'Aloita Luominen Nyt',
     badgeText: 'Näin Se Toimii',
@@ -267,7 +267,7 @@ Harmaasävy-valintaruutu muuntaa ennen lataamista. Aktivoi se säästääksesi v
 
   // Use Cases - FULL text from Finnish more-less.md use case sections
   useCases: {
-    sectionTitle: 'Täydellinen Opettajille ja Vanhemmille - Matematiikka Tehtävät Alakoulu Jokaiseen Tarpeeseen',
+    sectionTitle: 'Ilmainen Työarkki Lapsille - Työarkki Esiopetukseen ja Ilmaiset Tulosteet. Työarkki Lapsille',
     sectionDescription: 'Vertailutehtävägeneraattori palvelee monenlaisia käyttäjiä. Esiopetuksen opettajat, alakoulun opettajat, kotiopettajat ja erityisopettajat hyötyvät kaikki. Jokainen käyttäjäryhmä löytää ainutlaatuista arvoa. Seuraavat käyttötapaukset osoittavat, kuinka erilaiset opettajat käyttävät työkalua. Tulostettavat tehtävät sopivat kaikkiin opetustilanteisiin.',
     badgeText: 'Kenelle Sopii',
     readMoreLabel: 'Lue lisää',
@@ -490,7 +490,7 @@ Pinterest-markkinointi ohjaa liikennettä tuotelistauksiin. Luo visuaalisesti ho
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Yhdistä Muihin Tehtävämonistegeneraattoreihin',
+    sectionTitle: 'Ilmaiset Työarkit Yhdistää - Työarkki Lapsille ja Ilmaiset Tulosteet',
     sectionDescription: 'Luo kattavia oppimispaketteja yhdistämällä vertailutehtävät näihin täydentäviin generaattoreihin.',
     ctaTitle: 'Valmiina Luomaan Upeita Tehtävämonisteitä?',
     ctaDescription: 'Liity tuhansien opettajien joukkoon, jotka luovat ammattimaisia tehtävämonisteitä. Rajoittamaton generointi, kaupallinen lisenssi sisältyy.',

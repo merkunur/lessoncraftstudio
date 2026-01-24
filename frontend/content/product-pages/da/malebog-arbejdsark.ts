@@ -85,8 +85,8 @@ Core Bundle inkluderer adgang til 10 populære opgave-generatorer for kun 144 kr
 
   // Sample Gallery - REAL file paths from samples/danish/coloring/
   samples: {
-    sectionTitle: 'Gratis Arbejdsark Farvelægning Eksempler',
-    sectionDescription: 'Download gratis arbejdsark eksempler for at se vores professionelle kvalitet - arbejdsark til børn i alle aldre',
+    sectionTitle: 'Gratis Arbejdsark til Børn - Gratis Arbejdsark og Gratis Printables',
+    sectionDescription: 'Download gratis printables - Gratis arbejdsark til børn af professionel kvalitet. Gratis arbejdsark og arbejdsark til børn perfekt til arbejdsark til børnehaveklasse. Gratis arbejdsark til børn og arbejdsark til børn inkluderer undervisningsmateriale. Gratis arbejdsark tilgængeligt',
     badgeText: 'Gratis Eksempler',
     downloadLabel: 'Download Gratis Eksempel',
     downloadingLabel: 'Downloader...',
@@ -137,7 +137,7 @@ Core Bundle inkluderer adgang til 10 populære opgave-generatorer for kun 144 kr
 
   // Features Grid - FULL text from coloring.md feature sections
   features: {
-    sectionTitle: 'Gratis Arbejdsark Malebog Funktioner – Alt Du Har Brug For til Farvelægning',
+    sectionTitle: 'Gratis Arbejdsark og Arbejdsark til Børn - Gratis Printables og Arbejdsark til Børnehaveklasse',
     sectionDescription: 'Vores farvelægning designer giver pædagoger alle værktøjer til at skabe professionelle gratis arbejdsark til print. Fra arbejdsark til børnehaveklasse til 1. klasse kan du generere tilpassede arbejdsark til børn og kopiark der engagerer dine elever. Hver funktion er designet til at spare tid samtidig med at du får fuldt tilpasselige gratis printables. Dit Core Bundle abonnement låser op for ubegrænsede muligheder for malebog sider, finmotorik øvelser, matematikopgaver og meget mere.',
     highlightBadgeText: 'Vigtig Funktion',
     readMoreLabel: 'Læs mere',

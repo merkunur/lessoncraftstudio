@@ -83,8 +83,8 @@ Este generador funciona perfectamente para fichas de matemáticas y ejercicios d
 
   // Sample Gallery
   samples: {
-    sectionTitle: 'Ejemplos de Fichas de Dibujo en Cuadrícula',
-    sectionDescription: 'Descarga ejemplos gratuitos de fichas de dibujo en cuadrícula para ver la calidad profesional de grafomotricidad.',
+    sectionTitle: 'Ficha Gratis para Niños - Fichas Gratis e Imprimibles Gratis',
+    sectionDescription: 'Descarga imprimibles gratis - Ficha gratis para niños de calidad profesional. Ficha para niños perfecta para ficha para preescolar. Ficha gratis para niños y ficha para niños incluyen material educativo. Ficha gratis disponible',
     downloadLabel: 'Descargar Ejemplo Gratis',
     worksheetLabel: 'Ficha',
     answerKeyLabel: 'Clave de Respuestas',
@@ -135,7 +135,7 @@ Este generador funciona perfectamente para fichas de matemáticas y ejercicios d
 
   // Features Grid - FULL text from draw-and-color.md feature sections
   features: {
-    sectionTitle: 'Características del Generador de Dibujos para Colorear - Todo lo que Necesitas para Fichas Gratis de Grafomotricidad y Lectoescritura',
+    sectionTitle: 'Fichas Gratis y Ficha para Niños - Imprimibles Gratis y Ficha para Preescolar',
     sectionDescription: 'Nuestro generador de fichas para imprimir incluye siete características esenciales. Crea material educativo gratis más rápido que métodos tradicionales. Cada función trabaja en conjunto para ahorrar tiempo a maestros. Personaliza cada ficha infantil para tus estudiantes. Descarga archivos PDF y JPEG de calidad profesional. Estas características hacen que crear fichas preescolar de grafomotricidad y dibujos para colorear sea simple y rápido. Tu suscripción Acceso Completo desbloquea todas las herramientas sin límites.',
     highlightBadgeText: 'Característica Destacada',
     readMoreLabel: 'Leer más',
@@ -227,7 +227,7 @@ La resolución profesional importa para materiales de aula efectivos. Los estudi
 
   // How-To Guide - FULL text from draw-and-color.md step sections
   howTo: {
-    sectionTitle: 'Cómo Crear Fichas para Imprimir de Dibujo en Cuadrícula en 5 Pasos Fáciles - Ejercicios de Matemáticas y Grafomotricidad',
+    sectionTitle: 'Ficha Gratis para Niños Crear - Ficha para Preescolar',
     sectionDescription: 'Crear fichas de dibujo en cuadrícula toma menos de tres minutos. Sigue estos cinco pasos simples para generar material educativo gratis profesional. No se requiere experiencia en diseño. No necesitas aprender software complicado de gráficos. Solo selecciona imágenes, personaliza ajustes y descarga tus fichas para imprimir. Los maestros completan fichas infantil durante períodos de planeación cortos. El proceso completo de principio a fin ocurre en menos de tres minutos. Perfecto para educadores ocupados que necesitan fichas preescolar de calidad rápidamente.',
     ctaText: 'Comenzar Ahora',
     badgeText: 'Guía',
@@ -299,7 +299,7 @@ La exportación de alta resolución asegura calidad profesional de impresión. I
 
   // Use Cases - FULL text from draw-and-color.md use case sections
   useCases: {
-    sectionTitle: 'Perfecto para Maestros y Padres - Fichas para Imprimir de Lectoescritura y Tablas de Multiplicar para Todas las Necesidades',
+    sectionTitle: 'Ficha Gratis para Niños - Ficha para Preescolar con Imprimibles Gratis. Ficha para Niños',
     sectionDescription: 'Nuestro generador de fichas de dibujo en cuadrícula beneficia diferentes tipos de usuarios. Cada grupo encuentra valor único en la herramienta de material educativo gratis. Los maestros de educación infantil ahorran horas de preparación de fichas preescolar. Los padres crean actividades de grafomotricidad en casa. Los educadores bilingües enseñan vocabulario de lectoescritura en múltiples idiomas. Los maestros emprendedores construyen negocios vendiendo fichas para imprimir. Cada usuario aprovecha las mismas características potentes para sus necesidades específicas de dibujos para colorear y ejercicios de matemáticas.',
     badgeText: 'Para Quién',
     readMoreLabel: 'Leer más',
@@ -429,7 +429,7 @@ Muchos maestros ganan $500-2,000 dólares mensuales vendiendo paquetes de cuadr�
 
   // FAQ Section - FULL text from draw-and-color.md FAQ sections
   faq: {
-    sectionTitle: 'Preguntas Frecuentes Sobre Fichas para Imprimir de Dibujos para Colorear y Tablas de Multiplicar',
+    sectionTitle: 'FAQ - Ficha Gratis para Niños y Ficha para Preescolar. Ficha para Niños',
     sectionDescription: 'Los maestros y padres tienen preguntas comunes sobre nuestro generador de cuadrículas de dibujo. Esta sección responde las doce preguntas más frecuentes sobre fichas infantil. Aprende sobre costos de suscripción, capacidades de impresión y opciones de personalización. Descubre cómo usar cuadrículas para enseñar grafomotricidad y lectoescritura. Entiende los requisitos de idioma y edad para material educativo gratis. Estas respuestas te ayudan a decidir si la suscripción es adecuada para tus necesidades de fichas preescolar.',
     showMoreText: 'Ver más preguntas',
     showLessText: 'Ver menos',
@@ -552,7 +552,7 @@ Los maestros verifican trabajo caminando alrededor y comparando cuadrículas con
 
   // Related Apps Section
   relatedApps: {
-    sectionTitle: 'Combina Fichas para Imprimir de Dibujos con Otros Generadores de Fichas Gratis',
+    sectionTitle: 'Fichas Gratis Combinar - Ficha para Niños e Imprimibles Gratis',
     sectionDescription: 'Tu suscripción Acceso Completo incluye 33 generadores de fichas. Combina el generador de cuadrículas con otras herramientas para crear paquetes educativos completos. Estas combinaciones maximizan el valor de aprendizaje mientras ahorran tiempo de preparación. Los estudiantes reciben experiencias de aprendizaje variadas que mantienen compromiso alto consistentemente.',
     ctaTitle: '¿Listo para Crear Fichas de Dibujo Increíbles?',
     ctaDescription: 'Únete a miles de maestros que crean fichas profesionales. Generación ilimitada, licencia comercial incluida.',

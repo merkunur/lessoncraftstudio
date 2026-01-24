@@ -83,8 +83,8 @@ O gerador de atividades para imprimir de encontrar objetos oferece dois modos de
 
   // Sample Gallery
   samples: {
-    sectionTitle: 'Exemplos de Atividades Grátis de Encontrar Objetos para Crianças',
-    sectionDescription: 'Baixe exemplos gratuitos para ver nossa qualidade profissional',
+    sectionTitle: 'Atividade Grátis para Crianças - Atividades Grátis e Imprimíveis Grátis',
+    sectionDescription: 'Baixe imprimíveis grátis - Atividade grátis para crianças de qualidade profissional. Atividades grátis e atividade para crianças perfeitas para atividade para educação infantil. Atividade grátis para crianças e atividade para crianças incluem material educativo. Atividade grátis disponível',
     downloadLabel: 'Baixar Exemplo Grátis',
     worksheetLabel: 'Atividade',
     answerKeyLabel: 'Gabarito',
@@ -135,7 +135,7 @@ O gerador de atividades para imprimir de encontrar objetos oferece dois modos de
 
   // Features Grid
   features: {
-    sectionTitle: 'Recursos do Gerador - Imprimíveis Grátis de Encontrar Objetos',
+    sectionTitle: 'Atividades Grátis e Atividade para Crianças - Imprimíveis Grátis e Atividade para Educação Infantil',
     sectionDescription: 'O gerador de atividades de encontrar objetos oferece recursos completos para professores de educação infantil e ensino fundamental. Cada recurso foi desenvolvido pensando na praticidade do dia a dia escolar. Crie atividades para imprimir profissionais sem precisar de habilidades de design. A interface intuitiva permite criar fichas em menos de 3 minutos.',
     highlightBadgeText: 'Recurso Principal',
     readMoreLabel: 'Leia mais',
@@ -224,7 +224,7 @@ Escolha entre formato JPEG ou PDF para download. A opção de escala de cinza ec
 
   // How-To Guide
   howTo: {
-    sectionTitle: 'Como Criar Atividades Grátis de Encontrar Objetos em 5 Passos',
+    sectionTitle: 'Atividade Grátis para Crianças Criar - Atividade para Educação Infantil',
     sectionDescription: 'Criar atividades para imprimir profissionais nunca foi tão fácil. O processo completo leva menos de 3 minutos do início ao download. Siga este guia passo a passo para criar suas primeiras atividades educação infantil. Não precisa de experiência em design ou conhecimento técnico.',
     ctaText: 'Comece Agora',
     badgeText: 'Como Funciona',
@@ -286,7 +286,7 @@ Baixe a ficha de atividade e o gabarito separadamente. A opção de escala de ci
 
   // Use Cases
   useCases: {
-    sectionTitle: 'Quem Usa Atividades Grátis de Encontrar Objetos para Crianças',
+    sectionTitle: 'Atividade Grátis para Crianças - Atividade para Educação Infantil com Imprimíveis Grátis. Atividade para Crianças',
     sectionDescription: 'Professores, pais e educadores de todo o Brasil usam nosso gerador de atividades para imprimir. Cada grupo encontra benefícios específicos para suas necessidades. Das creches às escolas particulares, as atividades educação infantil se adaptam a qualquer contexto.',
     badgeText: 'Para Quem',
     readMoreLabel: 'Leia mais',
@@ -357,7 +357,7 @@ Crie pacotes temáticos de atividades para imprimir para venda. Combine diferent
 
   // FAQ Section
   faq: {
-    sectionTitle: 'Perguntas Frequentes sobre Atividades Grátis de Encontrar Objetos',
+    sectionTitle: 'FAQ - Atividade Grátis para Crianças e Atividade para Educação Infantil. Atividade para Crianças',
     sectionDescription: 'Reunimos as dúvidas mais comuns sobre o gerador de atividades para imprimir. Cada resposta ajuda você a entender melhor a ferramenta. Descubra como criar atividades educação infantil profissionais.',
     showMoreText: 'Mostrar mais perguntas',
     showLessText: 'Mostrar menos',
@@ -485,7 +485,7 @@ Crie pacotes temáticos de atividades para imprimir para venda. Combine diferent
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Combine com Outros Geradores de Atividades Grátis para Crianças',
+    sectionTitle: 'Atividades Grátis Combinar - Atividade para Crianças e Imprimíveis Grátis',
     sectionDescription: 'Crie pacotes de aprendizagem completos combinando encontrar objetos com estes geradores complementares.',
     ctaTitle: 'Pronto para Criar Atividades Incríveis?',
     ctaDescription: 'Junte-se a milhares de educadores que criam atividades profissionais. Geração ilimitada, licença comercial incluída.',

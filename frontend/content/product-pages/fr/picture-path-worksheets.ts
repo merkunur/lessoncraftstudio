@@ -87,8 +87,8 @@ Les fiches maternelle créées développent plusieurs compétences. Le graphisme
 
   // Sample Gallery - REAL file paths from samples/french/picture-path/
   samples: {
-    sectionTitle: 'Exemples de Fiches Parcours d\'Images',
-    sectionDescription: 'Téléchargez des exemples gratuits pour voir notre qualité professionnelle',
+    sectionTitle: 'Fiche Gratuite pour Enfants - Fiches Gratuites et Imprimables Gratuits',
+    sectionDescription: 'Téléchargez imprimables gratuits - Fiche gratuite pour enfants de qualité professionnelle. Fiches gratuites et fiche pour enfants parfaites pour fiche pour maternelle. Fiche gratuite pour enfants et fiches gratuites inclus matériel éducatif. Fiche gratuite et fiches gratuites disponible',
     downloadLabel: 'Télécharger Exemple Gratuit',
     worksheetLabel: 'Fiche',
     answerKeyLabel: 'Corrigé',
@@ -139,7 +139,7 @@ Les fiches maternelle créées développent plusieurs compétences. Le graphisme
 
   // Features Grid - FULL text from picture-path.md feature sections
   features: {
-    sectionTitle: 'Fonctionnalités du Générateur - Fiches Maternelle et Exercices CP pour Tous Vos Besoins',
+    sectionTitle: 'Fiches Gratuites et Fiche pour Enfants - Imprimables Gratuits et Fiche pour Maternelle',
     sectionDescription: 'Notre générateur de parcours d\'images offre tout ce dont vous avez besoin. Créez des fiches maternelle professionnelles en quelques clics. Générez des exercices CP adaptés à chaque élève. Les fiches à imprimer gratuit se personnalisent entièrement. Chaque fonctionnalité a été conçue pour les enseignants français.',
     highlightBadgeText: 'Fonctionnalité Clé',
     readMoreLabel: 'Lire la suite',
@@ -244,7 +244,7 @@ La compatibilité d'impression est totale. Format A4 pour l'Europe. Format Lettr
 
   // How-To Guide - FULL text from picture-path.md step sections
   howTo: {
-    sectionTitle: 'Comment Créer des Fiches Maternelle et Exercices CP en 5 Étapes Simples',
+    sectionTitle: 'Fiche Gratuite pour Enfants Créer - Fiche pour Maternelle',
     sectionDescription: 'La création de fiches maternelle prend moins de 3 minutes au total. Suivez ces cinq étapes faciles pour créer vos exercices CP professionnels. Aucune compétence technique n\'est requise. Le processus est intuitif et rapide. Vos fiches seront prêtes pour l\'impression en quelques clics.',
     ctaText: 'Commencer Maintenant',
     badgeText: 'Guide Étape par Étape',
@@ -326,7 +326,7 @@ Activez l'option Niveau de Gris avant le téléchargement pour économiser l'enc
 
   // Use Cases - FULL text from picture-path.md use case sections
   useCases: {
-    sectionTitle: 'Parfait pour les Enseignants et Parents - Fiches Maternelle et Exercices CP pour Tous les Besoins',
+    sectionTitle: 'Fiche Gratuite pour Enfants - Fiche pour Maternelle avec Imprimables Gratuits. Fiche pour Enfants',
     sectionDescription: 'Le générateur de parcours d\'images répond aux besoins de tous les éducateurs. Les enseignants de maternelle l\'utilisent quotidiennement pour le graphisme. Les professeurs de CP créent des exercices de lecture. Les parents en IEF génèrent des activités variées. Les enseignants de langues étrangères multiplient les ressources multilingues. Les professeurs spécialisés adaptent chaque fiche aux besoins spécifiques. Les enseignants entrepreneurs vendent leurs créations en ligne.',
     badgeText: 'Cas d\'Utilisation',
     readMoreLabel: 'Lire la suite',
@@ -409,7 +409,7 @@ Les tables de multiplication en parcours visuels sont très recherchées. Créez
 
   // FAQ Section - Selected FAQs from picture-path.md
   faq: {
-    sectionTitle: 'Questions Fréquentes - Alphabet, Écriture Cursive, Tables de Multiplication et Plus',
+    sectionTitle: 'FAQ - Fiche Gratuite pour Enfants et Fiche pour Maternelle. Fiche pour Enfants',
     sectionDescription: 'Les enseignants posent régulièrement les mêmes questions avant de s\'abonner. Voici les réponses détaillées aux questions les plus fréquentes. Chaque réponse vous aide à comprendre exactement comment le générateur fonctionne. Vous saurez précisément ce que vous pouvez créer.',
     showMoreText: 'Voir plus de questions',
     showLessText: 'Voir moins',
@@ -628,7 +628,7 @@ Avec la licence commerciale incluse, vous pouvez aussi vendre vos créations. Pu
 
   // Related Apps - From picture-path.md Section 7
   relatedApps: {
-    sectionTitle: 'Combiner les Apps - Apprendre à Lire, Alphabet et Écriture Cursive Ensemble',
+    sectionTitle: 'Fiches Gratuites Combiner - Fiche pour Enfants et Imprimables Gratuits',
     sectionDescription: 'L\'abonnement Accès Complet inclut 33 générateurs de fiches différents. Combinez le générateur de parcours avec d\'autres apps. Créez des ressources pédagogiques ultra-complètes. Les élèves travaillent plusieurs compétences simultanément. Votre temps de préparation diminue drastiquement.',
     ctaTitle: 'Prêt à Créer des Fiches Professionnelles ?',
     ctaDescription: 'Rejoignez des milliers d\'enseignants qui créent des fiches maternelle de qualité. Création illimitée, licence commerciale incluse.',

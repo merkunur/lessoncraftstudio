@@ -77,8 +77,8 @@ Gráficos pictóricos são ferramentas essenciais para ensinar contagem. Crianç
 
   // Sample Gallery
   samples: {
-    sectionTitle: 'Exemplos de Gráficos Pictóricos - Atividades Grátis para Educação Infantil',
-    sectionDescription: 'Baixe exemplos gratuitos para ver nossa qualidade profissional. Imprimíveis grátis de gráfico pictórico para crianças.',
+    sectionTitle: 'Atividade Grátis para Crianças - Atividades Grátis e Imprimíveis Grátis',
+    sectionDescription: 'Baixe imprimíveis grátis - Atividade grátis para crianças de qualidade profissional. Atividades grátis e atividade para crianças perfeitas para atividade para educação infantil. Atividade grátis para crianças e atividade para crianças incluem material educativo. Atividade grátis disponível',
     downloadLabel: 'Baixar Exemplo Grátis',
     worksheetLabel: 'Atividade',
     answerKeyLabel: 'Gabarito',
@@ -122,7 +122,7 @@ Gráficos pictóricos são ferramentas essenciais para ensinar contagem. Crianç
 
   // Features Grid
   features: {
-    sectionTitle: 'Recursos do Gerador - Atividades Grátis para Crianças e Imprimíveis Grátis',
+    sectionTitle: 'Atividades Grátis e Atividade para Crianças - Imprimíveis Grátis e Atividade para Educação Infantil',
     sectionDescription: 'O gerador de gráficos pictóricos oferece recursos completos para educadores. Cada funcionalidade foi pensada para facilitar seu trabalho. Crie materiais profissionais sem conhecimento técnico. Suas atividades grátis para imprimir ficam prontas rapidamente.',
     highlightBadgeText: 'Recurso Principal',
     readMoreLabel: 'Leia mais',
@@ -227,7 +227,7 @@ Bloqueie elementos que não quer mover acidentalmente. O botão de cadeado trava
 
   // How-To Guide
   howTo: {
-    sectionTitle: 'Como Criar Atividade Grátis de Gráfico Pictórico em 5 Passos',
+    sectionTitle: 'Atividade Grátis para Crianças Criar - Atividade para Educação Infantil',
     sectionDescription: 'Criar fichas de gráficos pictóricos é simples e rápido. Este guia mostra cada etapa do processo. Em menos de 3 minutos você terá atividades grátis para imprimir profissionais. Siga os passos e produza imprimíveis grátis de qualidade.',
     ctaText: 'Comece Agora',
     badgeText: 'Como Funciona',
@@ -299,7 +299,7 @@ O formato JPEG serve para uso digital. Compartilhe em grupos de WhatsApp com pai
 
   // Use Cases
   useCases: {
-    sectionTitle: 'Quem Usa Atividades Grátis de Gráficos Pictóricos para Educação Infantil',
+    sectionTitle: 'Atividade Grátis para Crianças - Atividade para Educação Infantil com Imprimíveis Grátis. Atividade para Crianças',
     sectionDescription: 'Gráficos pictóricos servem diversos profissionais da educação. Cada grupo encontra benefícios específicos neste gerador de atividades grátis. Atividades grátis para imprimir atendem necessidades variadas. Conheça como diferentes educadores aproveitam este recurso.',
     badgeText: 'Para Quem',
     readMoreLabel: 'Leia mais',
@@ -382,7 +382,7 @@ A qualidade de 300 DPI atende padrões profissionais. Suas fichas competem com e
 
   // FAQ Section
   faq: {
-    sectionTitle: 'Perguntas Frequentes sobre Atividades Grátis de Gráfico Pictórico',
+    sectionTitle: 'FAQ - Atividade Grátis para Crianças e Atividade para Educação Infantil. Atividade para Crianças',
     sectionDescription: 'Professores têm dúvidas comuns sobre o gerador de gráficos pictóricos e atividades grátis. Esta seção responde às perguntas mais frequentes. Encontre respostas para suas questões sobre imprimíveis grátis.',
     showMoreText: 'Mostrar mais perguntas',
     showLessText: 'Mostrar menos',
@@ -511,7 +511,7 @@ A qualidade de 300 DPI atende padrões profissionais. Suas fichas competem com e
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Combine com Outros Geradores de Atividades Grátis para Crianças',
+    sectionTitle: 'Atividades Grátis Combinar - Atividade para Crianças e Imprimíveis Grátis',
     sectionDescription: 'O gerador de gráficos pictóricos é apenas um dos 33 aplicativos disponíveis para atividades grátis. Combine diferentes tipos de fichas para pacotes pedagógicos completos com imprimíveis grátis.',
     ctaTitle: 'Pronto para Criar Atividades Grátis Incríveis?',
     ctaDescription: 'Junte-se a milhares de educadores que criam atividades grátis profissionais para educação infantil. Geração ilimitada de atividade para crianças, licença comercial incluída.',

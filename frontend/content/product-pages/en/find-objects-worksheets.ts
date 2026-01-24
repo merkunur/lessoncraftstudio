@@ -78,7 +78,7 @@ Teachers use our find objects generator to build visual perception skills in you
 
   // Sample Gallery - REAL file paths from samples/english/find-objects/
   samples: {
-    sectionTitle: 'Worksheet Samples',
+    sectionTitle: 'Free Worksheets Samples - Worksheet for Kindergarten',
     downloadLabel: 'Download Free Sample',
     worksheetLabel: 'Worksheet',
     answerKeyLabel: 'Answer Key',
@@ -436,7 +436,7 @@ Teachers use our find objects generator to build visual perception skills in you
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Combine with Other Worksheet Generators',
+    sectionTitle: 'More Free Worksheets - Worksheet for Kindergarten Generators',
     sectionDescription: 'Your find objects worksheet generator works perfectly alongside other free printable worksheet creators. Combine visual discrimination worksheets with math worksheets and phonics worksheets for complete learning packets. Add alphabet worksheets for literacy practice. Include coloring worksheets for creative breaks. Build comprehensive weekly packets covering visual skills, math, and language arts.',
     ctaTitle: 'Ready to Create Amazing Worksheets?',
     ctaDescription: 'Join educators creating professional worksheets. Unlimited generation, commercial license included.',

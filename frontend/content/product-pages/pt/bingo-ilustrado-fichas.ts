@@ -103,8 +103,8 @@ O bingo educativo serve múltiplos propósitos pedagógicos. Use-o para reforça
 
   // Sample Gallery
   samples: {
-    sectionTitle: 'Exemplos de Cartelas de Bingo Ilustrado',
-    sectionDescription: 'Baixe exemplos gratuitos para ver nossa qualidade profissional',
+    sectionTitle: 'Atividade Grátis para Crianças - Atividades Grátis e Imprimíveis Grátis',
+    sectionDescription: 'Baixe imprimíveis grátis - Atividade grátis para crianças de qualidade profissional. Atividades grátis e atividade para crianças perfeitas para atividade para educação infantil. Atividade grátis para crianças e atividade para crianças incluem material educativo. Atividade grátis disponível',
     downloadLabel: 'Baixar Exemplo Grátis',
     worksheetLabel: 'Cartela',
     answerKeyLabel: 'Fichas de Sorteio',
@@ -148,7 +148,7 @@ O bingo educativo serve múltiplos propósitos pedagógicos. Use-o para reforça
 
   // Features Grid
   features: {
-    sectionTitle: 'Recursos do Gerador de Bingo Ilustrado',
+    sectionTitle: 'Atividades Grátis e Atividade para Crianças - Imprimíveis Grátis e Atividade para Educação Infantil',
     sectionDescription: 'O gerador de bingo ilustrado reúne ferramentas essenciais para educadores. Cada recurso foi desenvolvido pensando na praticidade do professor. Crie materiais pedagógicos sem conhecimento técnico. A interface intuitiva permite produzir atividades educação infantil em poucos minutos.',
     highlightBadgeText: 'Recurso Principal',
     readMoreLabel: 'Leia mais',
@@ -234,7 +234,7 @@ O gerador otimiza automaticamente resolução de exportação. Suas atividades p
 
   // How-To Guide
   howTo: {
-    sectionTitle: 'Como Criar Cartelas de Bingo em 5 Passos',
+    sectionTitle: 'Atividade Grátis para Crianças Criar - Atividade para Educação Infantil',
     sectionDescription: 'Produzir cartelas de bingo educativo leva menos de 3 minutos. Siga este guia passo a passo para criar materiais profissionais. Nenhuma experiência em design necessária. Qualquer professor consegue dominar o processo rapidamente.',
     ctaText: 'Comece Agora',
     badgeText: 'Como Funciona',
@@ -308,7 +308,7 @@ Exporte cartelas e fichas de sorteio separadamente. Cada elemento tem botão de 
 
   // Use Cases
   useCases: {
-    sectionTitle: 'Quem Usa o Gerador de Bingo Ilustrado',
+    sectionTitle: 'Atividade Grátis para Crianças - Atividade para Educação Infantil com Imprimíveis Grátis. Atividade para Crianças',
     sectionDescription: 'O gerador de bingo atende diversos perfis de educadores. Cada grupo encontra funcionalidades específicas para suas necessidades. Descubra como diferentes profissionais aproveitam essa ferramenta. Encontre inspiração para suas próprias aplicações pedagógicas.',
     badgeText: 'Para Quem',
     readMoreLabel: 'Leia mais',
@@ -393,7 +393,7 @@ Amazon KDP aceita livros de atividades em PDF. Compile diversos bingos temático
 
   // FAQ Section
   faq: {
-    sectionTitle: 'Perguntas Frequentes sobre Bingo Ilustrado',
+    sectionTitle: 'FAQ - Atividade Grátis para Crianças e Atividade para Educação Infantil. Atividade para Crianças',
     sectionDescription: 'Educadores têm dúvidas comuns sobre o gerador de bingo. Respondemos as perguntas mais frequentes detalhadamente. Encontre informações sobre preços, recursos e aplicações.',
     showMoreText: 'Mostrar mais perguntas',
     showLessText: 'Mostrar menos',
@@ -498,7 +498,7 @@ Amazon KDP aceita livros de atividades em PDF. Compile diversos bingos temático
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Combine com Outros Geradores de Atividades',
+    sectionTitle: 'Atividades Grátis Combinar - Atividade para Crianças e Imprimíveis Grátis',
     sectionDescription: 'O gerador de bingo faz parte de uma plataforma com 33 ferramentas educativas. Combine diferentes geradores para criar pacotes pedagógicos completos.',
     ctaTitle: 'Pronto para Criar Atividades Incríveis?',
     ctaDescription: 'Junte-se a milhares de educadores que criam atividades profissionais. Geração ilimitada, licença comercial incluída.',

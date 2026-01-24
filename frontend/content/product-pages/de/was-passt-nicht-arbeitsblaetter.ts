@@ -99,8 +99,8 @@ Die umfangreiche Bildbibliothek enthält über 3000 kindgerechte Bilder. Alle Bi
 
   // Sample Gallery - REAL file paths from samples/english/odd one out/
   samples: {
-    sectionTitle: 'Was passt nicht Arbeitsblätter Beispiele',
-    sectionDescription: 'Laden Sie kostenlose Beispiel-Arbeitsblätter herunter, um unsere professionelle Qualität zu sehen',
+    sectionTitle: 'Kostenloses Arbeitsblatt für Kinder - Kostenlose Arbeitsblätter und Kostenlose Druckvorlagen',
+    sectionDescription: 'Laden Sie kostenlose Druckvorlagen herunter - Kostenloses Arbeitsblatt für Kinder in professioneller Qualität für Arbeitsblatt für Vorschule',
     downloadLabel: 'Kostenloses Beispiel Herunterladen',
     worksheetLabel: 'Arbeitsblatt',
     answerKeyLabel: 'Lösungsblatt',
@@ -151,7 +151,7 @@ Die umfangreiche Bildbibliothek enthält über 3000 kindgerechte Bilder. Alle Bi
 
   // Features Grid - FULL text from was-passt-nicht.md feature sections
   features: {
-    sectionTitle: 'Was passt nicht Generator Funktionen - Arbeitsblätter Grundschule und Vorschule Arbeitsblätter erstellen',
+    sectionTitle: 'Arbeitsblatt für Kinder - Kostenlose Druckvorlagen und Arbeitsblatt für Vorschule',
     sectionDescription: 'Der Was passt nicht Generator bietet alle Werkzeuge für professionelle Arbeitsblätter. Lehrkräfte erstellen individuelle Übungen in wenigen Minuten. Das System ist intuitiv und erfordert keine technischen Vorkenntnisse. Jede Funktion wurde für den Bildungsbereich optimiert. Hier sind die wichtigsten Funktionen im Detail.',
     highlightBadgeText: 'Hauptfunktion',
     readMoreLabel: 'Mehr lesen',
@@ -233,7 +233,7 @@ Ein separater Lösungsschlüssel ist verfügbar. Nach dem Erstellen des Arbeitsb
 
   // How-To Guide - FULL text from was-passt-nicht.md
   howTo: {
-    sectionTitle: 'So erstellen Sie Arbeitsblätter Grundschule in 5 einfachen Schritten - Kostenlose Arbeitsblätter Generator Anleitung',
+    sectionTitle: 'Kostenloses Arbeitsblatt für Kinder erstellen - Arbeitsblatt für Vorschule',
     sectionDescription: 'Die Erstellung von Was passt nicht Arbeitsblättern dauert weniger als 3 Minuten. Keine Vorkenntnisse erforderlich. Folgen Sie dieser Schritt-für-Schritt-Anleitung. Am Ende haben Sie ein professionelles Arbeitsblatt zum Ausdrucken. Diese Anleitung gilt für alle Arbeitsblätter Grundschule und Vorschule Arbeitsblätter.',
     ctaText: 'Jetzt Erstellen',
     badgeText: 'So Funktioniert Es',
@@ -315,7 +315,7 @@ Speichern Sie die Datei auf Ihrem Computer. Drucken Sie direkt aus dem Browser. 
 
   // Use Cases Section - FULL text from was-passt-nicht.md
   useCases: {
-    sectionTitle: 'Wer nutzt den Was passt nicht Generator - Arbeitsblätter Grundschule für Lehrkräfte und Eltern',
+    sectionTitle: 'Kostenloses Arbeitsblatt für Kinder - Arbeitsblatt für Vorschule mit Kostenlose Druckvorlagen',
     sectionDescription: 'Der Was passt nicht Generator eignet sich für verschiedene Nutzergruppen. Von Erziehern bis zu Eltern profitieren alle von schneller Arbeitsblatterstellung. Hier zeigen wir, wie unterschiedliche Gruppen den Generator einsetzen. Jede Zielgruppe findet passende Funktionen für ihre Bedürfnisse.',
     badgeText: 'Anwendungsbereiche',
     readMoreLabel: 'Mehr lesen',
@@ -398,7 +398,7 @@ Erstellen Sie thematische Pakete für höhere Verkaufspreise. Fünf Was passt ni
 
   // FAQ Section - FULL text from was-passt-nicht.md
   faq: {
-    sectionTitle: 'Häufig gestellte Fragen zu Was passt nicht Arbeitsblättern - Kostenlose Arbeitsblätter und Vorschule Arbeitsblätter',
+    sectionTitle: 'FAQ - Kostenloses Arbeitsblatt für Kinder und Arbeitsblatt für Vorschule',
     sectionDescription: 'Hier beantworten wir die häufigsten Fragen zum Was passt nicht Generator. Von Preisen bis Funktionen finden Sie alle wichtigen Informationen. Bei weiteren Fragen steht unser Support-Team bereit.',
     showMoreText: 'Mehr Fragen anzeigen',
     showLessText: 'Weniger anzeigen',
@@ -497,7 +497,7 @@ Die Suchfunktion findet spezifische Bilder. Geben Sie Stichwörter ein wie "Herb
 
   // Related Apps Section - FULL text from was-passt-nicht.md
   relatedApps: {
-    sectionTitle: 'Was passt nicht kombinieren mit anderen Generatoren - Einmaleins, Schwungübungen und Buchstaben lernen Pakete',
+    sectionTitle: 'Kostenlose Arbeitsblätter kombinieren - Arbeitsblatt für Kinder und Kostenlose Druckvorlagen',
     sectionDescription: 'Das Vollzugriff Abonnement enthält 33 verschiedene Arbeitsblatt-Generatoren. Kombinieren Sie Was passt nicht mit anderen Apps für komplette Lernpakete. Thematische Einheiten über mehrere Arbeitsblatttypen hinweg. Hier zeigen wir die besten Kombinationen für Ihren Unterricht.',
     ctaTitle: 'Bereit für professionelle Was passt nicht Arbeitsblätter?',
     ctaDescription: 'Schließen Sie sich tausenden Pädagogen an, die professionelle Arbeitsblätter in Minuten erstellen.',

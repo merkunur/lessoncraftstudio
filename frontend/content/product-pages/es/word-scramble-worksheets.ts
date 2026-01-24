@@ -85,8 +85,8 @@ El generador soporta 11 idiomas completos. Cuando seleccionas español en la int
 
   // Sample Gallery - REAL file paths from samples/english/word scramble/
   samples: {
-    sectionTitle: 'Ejemplos de Fichas de Letras Revueltas',
-    sectionDescription: 'Descarga ejemplos gratuitos para ver nuestra calidad profesional',
+    sectionTitle: 'Ficha Gratis para Niños - Fichas Gratis e Imprimibles Gratis',
+    sectionDescription: 'Descarga imprimibles gratis - Ficha gratis para niños de calidad profesional. Ficha para niños perfecta para ficha para preescolar. Ficha gratis para niños y ficha para niños incluyen material educativo. Ficha gratis disponible',
     downloadLabel: 'Descargar Ejemplo Gratis',
     worksheetLabel: 'Ficha',
     answerKeyLabel: 'Respuestas',
@@ -137,7 +137,7 @@ El generador soporta 11 idiomas completos. Cuando seleccionas español en la int
 
   // Features Grid - FULL text from word-scramble.md feature sections
   features: {
-    sectionTitle: 'Características de las Fichas para Imprimir - Todo lo que Necesitas para Material Educativo Gratis',
+    sectionTitle: 'Fichas Gratis y Ficha para Niños - Imprimibles Gratis y Ficha para Preescolar',
     sectionDescription: 'Nuestro generador de fichas infantil ofrece herramientas profesionales para crear ejercicios de lectoescritura personalizados. Cada característica está diseñada para maestros de preescolar y primaria. Crea fichas gratis ilimitadas con tu suscripción Paquete Esencial. Todas las funciones están incluidas sin cargos adicionales por $144 al año o $15 al mes.',
     highlightBadgeText: 'Característica Clave',
     readMoreLabel: 'Leer más',
@@ -231,7 +231,7 @@ Cada ficha preescolar incluye clave de respuestas generada automáticamente. Des
 
   // How-To Guide - FULL text from word-scramble.md step sections
   howTo: {
-    sectionTitle: 'Cómo Crear Fichas para Imprimir de Letras Revueltas en 5 Pasos Sencillos',
+    sectionTitle: 'Ficha Gratis para Niños Crear - Ficha para Preescolar',
     sectionDescription: 'Genera fichas infantil profesionales en menos de 3 minutos siguiendo estos cinco pasos simples. No necesitas experiencia en diseño gráfico. El generador hace todo el trabajo técnico automáticamente. Solo selecciona tus preferencias y descarga material educativo gratis listo para usar.',
     ctaText: 'Comenzar Ahora',
     badgeText: 'Cómo Funciona',
@@ -313,7 +313,7 @@ Descarga la clave de respuestas por separado usando el mismo menú. La clave mue
 
   // Use Cases - FULL text from word-scramble.md use case sections
   useCases: {
-    sectionTitle: 'Perfecto para Maestros, Padres y Educadores - Fichas para Imprimir para Cada Necesidad Educativa',
+    sectionTitle: 'Ficha Gratis para Niños - Ficha para Preescolar con Imprimibles Gratis. Ficha para Niños',
     sectionDescription: 'El generador de fichas infantil sirve a diferentes tipos de educadores en México y toda Latinoamérica. Maestros de preescolar crean ejercicios de grafomotricidad diarios. Docentes de primaria generan material educativo gratis para lectoescritura. Padres homeschoolers diseñan fichas gratis personalizadas.',
     badgeText: 'Para Quién',
     readMoreLabel: 'Leer más',
@@ -408,7 +408,7 @@ Muchos maestros emprendedores ganan $500-2000 dólares mensuales vendiendo ficha
 
   // FAQ Section - Selected FAQs from word-scramble.md
   faq: {
-    sectionTitle: 'Preguntas Frecuentes sobre Fichas para Imprimir y Material Educativo Gratis',
+    sectionTitle: 'FAQ - Ficha Gratis para Niños y Ficha para Preescolar. Ficha para Niños',
     sectionDescription: 'Maestros y padres mexicanos tienen preguntas comunes sobre el generador antes de suscribirse. Esta sección responde las preguntas más frecuentes sobre fichas para imprimir de letras revueltas.',
     showMoreText: 'Ver más preguntas',
     showLessText: 'Ver menos',
@@ -513,7 +513,7 @@ Muchos maestros emprendedores ganan $500-2000 dólares mensuales vendiendo ficha
 
   // Related Apps - FULL text from word-scramble.md related sections
   relatedApps: {
-    sectionTitle: 'Combina con Otros Generadores de Fichas - Paquetes Completos de Material Educativo Gratis',
+    sectionTitle: 'Fichas Gratis Combinar - Ficha para Niños e Imprimibles Gratis',
     sectionDescription: 'Tu suscripción Paquete Esencial incluye 10 generadores diferentes de fichas infantil. El generador de letras revueltas es solo uno de ellos. Combina múltiples tipos de fichas para imprimir para crear paquetes de aprendizaje completos.',
     ctaTitle: '¿Listo para Crear Fichas de Letras Revueltas Increíbles?',
     ctaDescription: 'Únete a miles de maestros que crean fichas profesionales. Generación ilimitada, licencia comercial incluida.',

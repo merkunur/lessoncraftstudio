@@ -83,8 +83,8 @@ Förskoleklass material behöver vara både pedagogiskt och engagerande. Våra m
 
   // Sample Gallery - REAL file paths from samples/swedish/math-puzzle/
   samples: {
-    sectionTitle: 'Gratis Arbetsblad Mattepussel - Exempel för Barn',
-    sectionDescription: 'Ladda ner gratis exempelarbetsblad för att se vår professionella kvalitet',
+    sectionTitle: 'Gratis Arbetsblad för Barn - Gratis Arbetsblad och Gratis Utskrifter',
+    sectionDescription: 'Ladda ner gratis utskrifter - Gratis arbetsblad för barn av professionell kvalitet. Gratis arbetsblad och arbetsblad för barn perfekt för arbetsblad för förskoleklass. Gratis arbetsblad för barn och arbetsblad för barn inkluderar utbildningsmaterial. Gratis arbetsblad och gratis utskrifter tillgänglig',
     downloadLabel: 'Ladda Ner Gratis Exempel',
     worksheetLabel: 'Arbetsblad',
     answerKeyLabel: 'Facit',
@@ -135,7 +135,7 @@ Förskoleklass material behöver vara både pedagogiskt och engagerande. Våra m
 
   // Features Grid - FULL text from math-puzzle.md feature sections
   features: {
-    sectionTitle: 'Mattepussel Funktioner - Gratis Arbetsblad för Förskoleklass',
+    sectionTitle: 'Gratis Arbetsblad och Arbetsblad för Barn - Gratis Utskrifter och Arbetsblad för Förskoleklass',
     sectionDescription: 'Vårt verktyg för matematik arbetsblad ger dig professionella funktioner utan krångel. Skapa engagerande mattepussel på tre minuter från start till färdig PDF. Ingen designkunskap krävs. Alla funktioner är byggda för lärare som behöver snabba arbetsblad gratis från dyra tjänster som tar tid. Du fokuserar på undervisning medan verktyget hanterar layouten.',
     highlightBadgeText: 'Nyckelfunktion',
     readMoreLabel: 'Läs mer',
@@ -215,7 +215,7 @@ Högupplöst kvalitet gör skillnad när eleverna ska jobba med arbetsbladet. Sk
 
   // How-To Guide - FULL text from math-puzzle.md step sections
   howTo: {
-    sectionTitle: 'Så Skapar Du Gratis Arbetsblad Mattepussel i 5 Steg',
+    sectionTitle: 'Gratis Arbetsblad för Barn Skapa - Arbetsblad för Förskoleklass och Gratis Utskrifter',
     sectionDescription: 'Hela processen från början till färdig PDF tar under tre minuter. Inga komplicerade inställningar eller designkunskaper krävs. Följ fem enkla steg så har du professionella mattepussel redo för klassrummet. Systemet guidar dig genom varje val med tydliga alternativ och förhandsvisning. Även första gången du använder verktyget går det snabbt och smidigt.',
     ctaText: 'Börja Skapa Nu',
     badgeText: 'Så Fungerar Det',
@@ -287,7 +287,7 @@ Facit är ovärderligt när du rättar. Öppna facit-PDF:en på datorn eller skr
 
   // Use Cases - FULL text from math-puzzle.md use case sections
   useCases: {
-    sectionTitle: 'Gratis Arbetsblad för Lärare och Föräldrar - Mattepussel för Förskoleklass',
+    sectionTitle: 'Gratis Arbetsblad för Barn - Arbetsblad för Förskoleklass med Gratis Utskrifter. Arbetsblad för Barn',
     sectionDescription: 'Mattepussel fungerar i många olika undervisningssituationer. Från förskoleklassens första steg med siffror och tal till årskurs 3:s mer komplexa addition och subtraktion. Från klassrum med 25 elever till hemmaundervisning med ett barn. Från svenska elever till nyanlända som lär sig svenska som andraspråk. Ett verktyg som passar alla som undervisar matematik.',
     badgeText: 'Vem Det Är För',
     readMoreLabel: 'Läs mer',
@@ -370,7 +370,7 @@ Svenska lärare som säljer arbetsblad tjänar typiskt 5000-20000 kronor per må
 
   // FAQ Section - Selected FAQs from math-puzzle.md
   faq: {
-    sectionTitle: 'Vanliga Frågor om Gratis Arbetsblad Mattepussel för Barn',
+    sectionTitle: 'FAQ - Gratis Arbetsblad för Barn och Arbetsblad för Förskoleklass med Gratis Utskrifter. Arbetsblad för Barn',
     sectionDescription: 'Här besvarar vi de vanligaste frågorna om mattepussel och hur verktyget fungerar. Från prenumerationskostnader till tekniska möjligheter. Från användning i klassrummet till försäljning av material.',
     showMoreText: 'Visa fler frågor',
     showLessText: 'Visa färre',
@@ -473,7 +473,7 @@ Svenska lärare som säljer arbetsblad tjänar typiskt 5000-20000 kronor per må
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Fler Gratis Arbetsblad Generatorer för Förskoleklass',
+    sectionTitle: 'Gratis Arbetsblad Kombinera - Arbetsblad för Barn och Gratis Utskrifter',
     sectionDescription: 'Skapa kompletta lärpaket genom att kombinera mattepussel med dessa kompletterande generatorer.',
     ctaTitle: 'Redo att Skapa Fantastiska Arbetsblad?',
     ctaDescription: 'Gå med tusentals lärare som skapar professionella arbetsblad. Obegränsad generering, kommersiell licens ingår.',

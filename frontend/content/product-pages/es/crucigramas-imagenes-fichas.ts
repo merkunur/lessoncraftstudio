@@ -79,8 +79,8 @@ Cada crucigrama incluye una hoja de respuestas con las soluciones. Perfecto para
 
   // Sample Gallery - REAL file paths from samples/spanish/crossword/
   samples: {
-    sectionTitle: 'Ejemplos de Crucigramas con Imágenes',
-    sectionDescription: 'Descarga ejemplos gratuitos para ver nuestra calidad profesional',
+    sectionTitle: 'Ficha Gratis para Niños - Fichas Gratis e Imprimibles Gratis',
+    sectionDescription: 'Descarga imprimibles gratis - Ficha gratis para niños de calidad profesional. Ficha para niños perfecta para ficha para preescolar. Ficha gratis para niños y ficha para niños incluyen material educativo. Ficha gratis disponible',
     downloadLabel: 'Descargar Ejemplo Gratis',
     worksheetLabel: 'Crucigrama',
     answerKeyLabel: 'Respuestas',
@@ -124,7 +124,7 @@ Cada crucigrama incluye una hoja de respuestas con las soluciones. Perfecto para
 
   // Features Grid - FULL text from crossword.md feature sections
   features: {
-    sectionTitle: 'Características del Generador de Crucigramas - Fichas para Imprimir Gratis y Material Educativo para Preescolar',
+    sectionTitle: 'Fichas Gratis y Ficha para Niños - Imprimibles Gratis y Ficha para Preescolar',
     sectionDescription: 'Nuestro generador de crucigramas incluye todas las herramientas que necesitas para crear fichas infantil profesionales. Tu suscripción Acceso Completo te da acceso completo a 33 herramientas educativas diferentes. Genera fichas para imprimir ilimitadas sin cargos adicionales por cada hoja. Todas las funciones están incluidas en tu suscripción de $240 al año.',
     highlightBadgeText: 'Característica Clave',
     readMoreLabel: 'Leer más',
@@ -226,7 +226,7 @@ Funciones de deshacer y rehacer te permiten experimentar sin miedo. Comete error
 
   // How-To Guide - FULL text from crossword.md step sections
   howTo: {
-    sectionTitle: 'Cómo Crear Crucigramas en 5 Pasos Fáciles - Fichas para Imprimir Gratis de Lectoescritura',
+    sectionTitle: 'Ficha Gratis para Niños Crear - Ficha para Preescolar',
     sectionDescription: 'Crear crucigramas educativos con nuestro generador toma menos de 3 minutos. Sigue estos cinco pasos simples para generar fichas profesionales. No necesitas experiencia en diseño. La interfaz te guía en cada paso. Desde seleccionar contenido hasta descargar el archivo final, todo es intuitivo.',
     ctaText: 'Comenzar Ahora',
     badgeText: 'Cómo Funciona',
@@ -308,7 +308,7 @@ Activa la opción de escala de grises antes de descargar si quieres ahorrar tint
 
   // Use Cases - FULL text from crossword.md use case sections
   useCases: {
-    sectionTitle: 'Perfecto para Maestros, Padres y Educadores - Fichas Gratis de Lectoescritura para Cada Necesidad',
+    sectionTitle: 'Ficha Gratis para Niños - Ficha para Preescolar con Imprimibles Gratis. Ficha para Niños',
     sectionDescription: 'Nuestro generador de crucigramas beneficia a diversos tipos de educadores. Maestros de preescolar y primaria usan crucigramas para enseñar vocabulario. Padres homeschoolers crean fichas personalizadas para sus hijos. Maestros de idiomas generan material en múltiples lenguas. Cada grupo encuentra valor único en esta herramienta.',
     badgeText: 'Para Quién',
     readMoreLabel: 'Leer más',
@@ -403,7 +403,7 @@ La calidad de 300 DPI es perfecta para productos comerciales. Tus clientes obtie
 
   // FAQ Section - Selected FAQs from crossword.md
   faq: {
-    sectionTitle: 'Preguntas Frecuentes sobre Crucigramas - Fichas para Imprimir de Números, Tablas de Multiplicar y Dibujos para Colorear',
+    sectionTitle: 'FAQ - Ficha Gratis para Niños y Ficha para Preescolar. Ficha para Niños',
     sectionDescription: 'Maestros y padres tienen preguntas comunes sobre nuestro generador. Esta sección responde las 12 preguntas más frecuentes. Aprende sobre funcionalidad, precios, licencias y uso pedagógico.',
     showMoreText: 'Ver más preguntas',
     showLessText: 'Ver menos',
@@ -532,7 +532,7 @@ La calidad de 300 DPI es perfecta para productos comerciales. Tus clientes obtie
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Combina Crucigramas con Otras Fichas para Imprimir - Paquetes Completos de Aprender los Números, Tablas de Multiplicar y Dibujos para Colorear',
+    sectionTitle: 'Fichas Gratis Combinar - Ficha para Niños e Imprimibles Gratis',
     sectionDescription: 'Nuestra plataforma ofrece 33 herramientas diferentes de generación de fichas. Combina crucigramas con otras fichas para imprimir para crear paquetes de aprendizaje completos.',
     ctaTitle: '¿Listo para Crear Crucigramas Increíbles?',
     ctaDescription: 'Únete a miles de maestros que crean fichas profesionales. Generación ilimitada, licencia comercial incluida.',

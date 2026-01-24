@@ -85,8 +85,8 @@ Børn kan øve sig med to forskellige opgavetyper. Første type er tom boks hvor
 
   // Sample Gallery - Danish paths with keyword-rich alt text
   samples: {
-    sectionTitle: 'Gratis Arbejdsark Eksempler - Mønster til Børn',
-    sectionDescription: 'Download gratis arbejdsark eksempler på mønsteropgaver for at se vores professionelle kvalitet - arbejdsark til børnehaveklasse og 0. klasse',
+    sectionTitle: 'Gratis Arbejdsark til Børn - Gratis Arbejdsark og Gratis Printables',
+    sectionDescription: 'Download gratis printables - Gratis arbejdsark til børn af professionel kvalitet. Gratis arbejdsark og arbejdsark til børn perfekt til arbejdsark til børnehaveklasse. Gratis arbejdsark til børn og arbejdsark til børn inkluderer undervisningsmateriale. Gratis arbejdsark tilgængeligt',
     badgeText: 'Gratis Eksempler',
     downloadLabel: 'Download Gratis Eksempel',
     downloadingLabel: 'Downloader...',
@@ -137,7 +137,7 @@ Børn kan øve sig med to forskellige opgavetyper. Første type er tom boks hvor
 
   // Features Grid - OPTIMIZED with keywords
   features: {
-    sectionTitle: 'Gratis Arbejdsark Funktioner - Alt Du Behøver for Mønsteropgaver og Arbejdsark til Børn',
+    sectionTitle: 'Gratis Arbejdsark og Arbejdsark til Børn - Gratis Printables og Arbejdsark til Børnehaveklasse',
     sectionDescription: 'Vores mønstergenerator giver dig professionelle værktøjer til at lave gratis arbejdsark til børnehaveklasse. Disse funktioner gør det nemt at skabe arbejdsark til børn og gratis printables. Hver funktion er designet til danske pædagoger og lærere. Fuld Adgang-abonnementet giver dig adgang til alle funktioner uden ekstra gebyrer. Lav opgaver til print med professionel kvalitet på få minutter.',
     highlightBadgeText: 'Vigtig Funktion',
     readMoreLabel: 'Læs mere',
@@ -231,7 +231,7 @@ Gråtone mulighed sparer blæk når du printer matematikopgaver. Konverter farve
 
   // How-To Guide - OPTIMIZED with keywords
   howTo: {
-    sectionTitle: 'Sådan Laver Du Gratis Arbejdsark med Mønstre i 5 Nemme Trin - Arbejdsark til Børn',
+    sectionTitle: 'Gratis Arbejdsark til Børn Oprette - Arbejdsark til Børnehaveklasse',
     sectionDescription: 'At lave professionelle gratis printables med mønsteropgaver tager under 3 minutter. Denne trin-for-trin guide viser dig præcis hvordan du laver arbejdsark til børnehaveklasse. Ingen designerfærdigheder er nødvendige. Systemet guider dig gennem hver proces. Børn i børnehaveklassen og 1. klasse lærer mønstre gennem visuelle opgaver til print. Fuld Adgang-abonnementet giver dig ubegrænset adgang til gratis arbejdsark generatoren.',
     ctaText: 'Start Nu',
     badgeText: 'Sådan Virker Det',
@@ -303,7 +303,7 @@ Download ubegrænset antal matematikopgaver med dit Fuld Adgang-abonnement. Lav 
 
   // Use Cases - OPTIMIZED with keywords
   useCases: {
-    sectionTitle: 'Perfekt til Pædagoger og Forældre - Gratis Arbejdsark og Arbejdsark til Børn til Alle Behov',
+    sectionTitle: 'Gratis Arbejdsark til Børn - Arbejdsark til Børnehaveklasse med Gratis Printables. Arbejdsark til Børn',
     sectionDescription: 'Mønstergeneratoren passer til mange forskellige brugsscenarier. Pædagoger laver gratis printables til børnehaveklassen dagligt. Lærere i 1. klasse og 2. klasse laver ugentlige arbejdsark til børnehaveklasse. Homeschool-forældre planlægger hele undervisningsforløb med arbejdsark til børn. Speciallærere tilpasser opgaver til print til individuelle behov. Alle finder værdi i de gratis arbejdsark systemet producerer.',
     badgeText: 'Hvem Er Det Til',
     readMoreLabel: 'Læs mere',
@@ -439,7 +439,7 @@ Inkluder mønsteropgaver, matematikopgaver, og malebog-sider i samme pakke. Køb
 
   // FAQ Section - OPTIMIZED with keywords
   faq: {
-    sectionTitle: 'Ofte Stillede Spørgsmål om Gratis Arbejdsark og Arbejdsark til Børnehaveklasse',
+    sectionTitle: 'FAQ - Gratis Arbejdsark til Børn og Arbejdsark til Børnehaveklasse. Arbejdsark til Børn',
     sectionDescription: 'Danske pædagoger og lærere stiller mange spørgsmål om gratis printables mønstergeneratoren. Her besvarer vi de mest almindelige spørgsmål om arbejdsark til børn. Svarene hjælper dig med at forstå præcis hvad systemet kan for opgaver til print. Du lærer om abonnement, gratis arbejdsark funktioner og anvendelsesmuligheder.',
     showMoreText: 'Vis flere spørgsmål',
     showLessText: 'Vis færre',

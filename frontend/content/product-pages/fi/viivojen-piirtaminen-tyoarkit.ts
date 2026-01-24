@@ -53,8 +53,8 @@ Peruspaketti sisältää kaupallisen print-on-demand -lisenssin. Myy tehtäviäs
 
   // Sample Gallery - REAL file paths from samples/english/drawing lines/
   samples: {
-    sectionTitle: 'Viivojen Piirtäminen Tehtävät Esimerkit',
-    sectionDescription: 'Lataa ilmaiset esimerkkityöarkit nähdäksesi ammattimaisen laatumme',
+    sectionTitle: 'Ilmainen Työarkki Lapsille - Ilmaiset Työarkit ja Ilmaiset Tulosteet',
+    sectionDescription: 'Lataa ilmaiset tulosteet - Ilmainen työarkki lapsille ammattimaista laatua. Ilmaiset työarkit ja työarkki lapsille täydellinen työarkki esiopetukseen. Ilmainen työarkki lapsille ja työarkki lapsille sisältää ilmaiset tulosteet ja ilmaiset työarkit opetusmateriaalin. Ilmainen työarkki ja työarkki esiopetukseen saatavilla',
     downloadLabel: 'Lataa Ilmainen Esimerkki',
     worksheetLabel: 'Tehtävämoniste',
     answerKeyLabel: 'Vastausavain',
@@ -105,7 +105,7 @@ Peruspaketti sisältää kaupallisen print-on-demand -lisenssin. Myy tehtäviäs
 
   // Features Grid - FULL text from Finnish drawing-lines.md feature sections
   features: {
-    sectionTitle: 'Viivojen Piirtäminen Ominaisuudet - Tulostettavat Tehtävät Lapsille Ilmainen ja Hienomotoriikka Harjoitukset',
+    sectionTitle: 'Ilmaiset Työarkit ja Työarkki Lapsille - Ilmaiset Tulosteet ja Työarkki Esiopetukseen',
     sectionDescription: 'Viivojen piirtäminen generaattori tarjoaa kaikki työkalut esiopetus materiaali ilmainen tyylisiin tehtäviin. Seitsemän pääominaisuutta tekevät tehtävien luomisesta helppoa. Jokainen ominaisuus on suunniteltu opettajien tarpeisiin. Yhdistä hienomotoriikka harjoitukset ja tulostettavat tehtävät lapsille ilmainen hakusanoihin.',
     highlightBadgeText: 'Tärkeä Ominaisuus',
     readMoreLabel: 'Lue lisää',
@@ -213,7 +213,7 @@ JPEG sopii digitaaliseen jakeluun. Lähetä sähköpostilla. Jaa Google Classroo
 
   // How-To Guide - FULL text from Finnish drawing-lines.md step sections
   howTo: {
-    sectionTitle: 'Kuinka Luoda Hienomotoriikka Harjoitukset 5 Helpossa Vaiheessa - Tulostettavat Tehtävät Lapsille Ilmainen Alle 3 Minuutissa',
+    sectionTitle: 'Ilmainen Työarkki Lapsille Luoda - Työarkki Esiopetukseen',
     sectionDescription: 'Viivojen piirtäminen tehtävät syntyvät nopeasti viidessä vaiheessa. Koko prosessi vie alle 3 minuuttia. Ei tarvita suunnitteluosaamista. Ei tarvita erikoisohjelmia. Kaikki tapahtuu selaimessa. Esiopetus materiaali ilmainen on valmiina lataamista varten.',
     ctaText: 'Aloita Luominen Nyt',
     badgeText: 'Näin Se Toimii',
@@ -295,7 +295,7 @@ Tulosta tehtävä tavallisella A4 tai Letter paperilla. Ei erikoisasetuksia tarv
 
   // Use Cases - FULL text from Finnish drawing-lines.md use case sections
   useCases: {
-    sectionTitle: 'Täydellinen Opettajille ja Vanhemmille - Hienomotoriikka Harjoitukset ja Tulostettavat Tehtävät Lapsille Ilmainen Kaikille',
+    sectionTitle: 'Ilmainen Työarkki Lapsille - Työarkki Esiopetukseen ja Ilmaiset Tulosteet. Työarkki Lapsille',
     sectionDescription: 'Viivojen piirtäminen tehtävät palvelevat monia käyttäjäryhmiä. Esiopetuksen opettajat käyttävät päivittäin. Alakoulun opettajat täydentävät opetusta. Kotiopettajat luovat personoituja tehtäviä. Erityisopettajat eriyttävät materiaalin. Kieltenopettajat yhdistävät sanastoon. Opettajayrittäjät myyvät tehtäviä.',
     badgeText: 'Kenelle Sopii',
     readMoreLabel: 'Lue lisää',
@@ -390,7 +390,7 @@ Luo teemapaketteja. Syysteema 20 tehtävällä. Talviteema 20 tehtävällä. Kev
 
   // FAQ Section - Selected FAQs from Finnish drawing-lines.md
   faq: {
-    sectionTitle: 'Usein Kysytyt Kysymykset - Tulostettavat Tehtävät Lapsille Ilmainen ja Hienomotoriikka Harjoitukset',
+    sectionTitle: 'FAQ - Ilmainen Työarkki Lapsille ja Työarkki Esiopetukseen. Työarkki Lapsille',
     sectionDescription: 'Opettajat ja vanhemmat kysyvät usein samat kysymykset. Tässä osiossa vastataan kaikkiin yleisiin kysymyksiin. Hinnoittelu, käyttö, ominaisuudet selitetään. Peruspaketti-tilaus sisältää kaiken. Ei yllätyksiä. Ei piilomaksuja.',
     showMoreText: 'Näytä lisää kysymyksiä',
     showLessText: 'Näytä vähemmän',
@@ -485,7 +485,7 @@ Luo teemapaketteja. Syysteema 20 tehtävällä. Talviteema 20 tehtävällä. Kev
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Yhdistä Muihin Tehtävämonistegeneraattoreihin',
+    sectionTitle: 'Ilmaiset Työarkit Yhdistää - Työarkki Lapsille ja Ilmaiset Tulosteet',
     sectionDescription: 'Luo kattavia oppimispaketteja yhdistämällä viivojen piirtäminen tehtävät näihin täydentäviin generaattoreihin.',
     ctaTitle: 'Valmiina Luomaan Upeita Tehtävämonisteitä?',
     ctaDescription: 'Liity tuhansien opettajien joukkoon, jotka luovat ammattimaisia tehtävämonisteitä. Rajoittamaton generointi, kaupallinen lisenssi sisältyy.',

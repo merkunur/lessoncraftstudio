@@ -77,8 +77,8 @@ Il nostro generatore crea schede con griglie personalizzabili da 5x5 a 10x10 cel
 
   // Sample Gallery
   samples: {
-    sectionTitle: 'Esempi Scheda Gratuita Trova e Conta - Stampabili Gratuiti Download',
-    sectionDescription: 'Scarica esempi gratuiti per vedere la nostra qualità professionale',
+    sectionTitle: "Scheda Gratuita per Bambini - Schede Gratuite e Stampabili Gratuiti e Scheda per Bambini",
+    sectionDescription: "Scarica stampabili gratuiti - Scheda gratuita per bambini di qualità professionale. Schede gratuite e scheda per bambini perfette per scheda per scuola dell'infanzia. Scheda gratuita per bambini e scheda per bambini includono materiale educativo. Scheda gratuita e scheda per scuola dell'infanzia disponibile",
     downloadLabel: 'Scarica Esempio Gratuito',
     worksheetLabel: 'Scheda',
     answerKeyLabel: 'Soluzioni',
@@ -122,7 +122,7 @@ Il nostro generatore crea schede con griglie personalizzabili da 5x5 a 10x10 cel
 
   // Features Grid
   features: {
-    sectionTitle: 'Funzionalità Generatore - Schede Gratuite e Stampabili Gratuiti per Bambini',
+    sectionTitle: "Schede Gratuite e Scheda per Bambini - Stampabili Gratuiti e Scheda per Scuola dell'Infanzia",
     sectionDescription: 'Il nostro generatore di schede trova e conta offre funzionalità complete per insegnanti della scuola dell\'infanzia e scuola primaria. Crea schede didattiche personalizzate in pochi minuti invece di ore. Ogni funzionalità è progettata per rendere la creazione di schede matematica veloce e semplice. L\'abbonamento Pacchetto Essenziale include accesso illimitato a tutti gli strumenti e risorse.',
     highlightBadgeText: 'Funzionalità Chiave',
     readMoreLabel: 'Leggi di più',
@@ -216,7 +216,7 @@ L'opzione scala di grigi riduce il consumo di inchiostro per stampa in classe. C
 
   // How-To Guide Section
   howTo: {
-    sectionTitle: 'Come Creare Schede Gratuite Trova e Conta in 5 Passaggi',
+    sectionTitle: "Scheda Gratuita per Bambini Creare - Scheda per Scuola dell'Infanzia",
     sectionDescription: 'Creare schede trova e conta professionali richiede solo 5 passaggi semplici. Il processo completo dall\'inizio al download richiede meno di 3 minuti. Non serve esperienza di design grafico. L\'interfaccia guida attraverso ogni passaggio.',
     ctaText: 'Inizia Ora',
     badgeText: 'Guida Passo-Passo',
@@ -288,7 +288,7 @@ L'opzione scala di grigi converte qualsiasi scheda in bianco e nero. Attiva prim
 
   // Use Cases Section
   useCases: {
-    sectionTitle: 'Scheda Gratuita per Bambini - Perfetta per Insegnanti e Genitori',
+    sectionTitle: "Scheda Gratuita per Bambini - Scheda per Scuola dell'Infanzia con Stampabili Gratuiti. Scheda per Bambini",
     sectionDescription: 'Il generatore di schede trova e conta serve educatori in contesti diversi. Insegnanti di scuola dell\'infanzia creano attività di conteggio quotidiane. Genitori homeschool personalizzano schede didattiche per i loro bambini. Educatori speciali adattano attività per esigenze individuali.',
     badgeText: 'Chi Usa le Nostre Schede',
     readMoreLabel: 'Leggi di più',
@@ -371,7 +371,7 @@ Gli autori Amazon KDP creano libri di attività a basso contenuto. Compila 50-10
 
   // FAQ Section
   faq: {
-    sectionTitle: 'FAQ Schede Gratuite Trova e Conta - Stampabili Gratuiti per Bambini',
+    sectionTitle: "FAQ - Scheda Gratuita per Bambini e Scheda per Scuola dell'Infanzia. Scheda per Bambini",
     sectionDescription: 'Risposte alle domande più comuni sul nostro generatore di schede matematica',
     showMoreText: 'Mostra altre domande',
     showLessText: 'Mostra meno domande',
@@ -500,7 +500,7 @@ L'abbonamento Accesso Completo costa 240 dollari annuali. Include tutti i 33 gen
 
   // Related Apps Section
   relatedApps: {
-    sectionTitle: 'Combina Schede Gratuite Trova e Conta con Altri Stampabili Gratuiti',
+    sectionTitle: "Schede Gratuite Combinare - Scheda per Bambini e Stampabili Gratuiti",
     sectionDescription: 'Il generatore di trova e conta funziona magnificamente combinato con altri tipi di schede didattiche. La piattaforma offre 33 generatori diversi per materiali stampabili. Crea pacchetti tematici coordinati che integrano matematica, alfabetizzazione, pregrafismo, disegni da colorare e molto altro.',
     ctaTitle: 'Pronto a Creare Schede Straordinarie?',
     ctaDescription: 'Unisciti a migliaia di educatori che creano schede professionali. Generazione illimitata, licenza commerciale inclusa.',

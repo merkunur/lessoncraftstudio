@@ -77,8 +77,8 @@ Este generador funciona en 11 idiomas completos. Selecciona un tema como animale
 
   // Sample Gallery - REAL file paths from samples/english/wordsearch/
   samples: {
-    sectionTitle: 'Ejemplos de Sopas de Letras',
-    sectionDescription: 'Descarga ejemplos gratuitos para ver nuestra calidad profesional',
+    sectionTitle: 'Ficha Gratis para Niños - Fichas Gratis e Imprimibles Gratis',
+    sectionDescription: 'Descarga imprimibles gratis - Ficha gratis para niños de calidad profesional. Ficha para niños perfecta para ficha para preescolar. Ficha gratis para niños y ficha para niños incluyen material educativo. Ficha gratis disponible',
     downloadLabel: 'Descargar Ejemplo Gratis',
     worksheetLabel: 'Ficha',
     answerKeyLabel: 'Respuestas',
@@ -115,7 +115,7 @@ Este generador funciona en 11 idiomas completos. Selecciona un tema como animale
 
   // Features Grid - FULL text from wordsearch.md feature sections
   features: {
-    sectionTitle: 'Características del Generador de Sopas de Letras - Todo para Fichas de Educación Infantil',
+    sectionTitle: 'Fichas Gratis y Ficha para Niños - Imprimibles Gratis y Ficha para Preescolar',
     sectionDescription: 'Nuestro generador de sopas de letras incluye siete características potentes. Crea fichas para imprimir profesionales más rápido que los métodos tradicionales. Personaliza cada ficha para tus alumnos.',
     highlightBadgeText: 'Característica Clave',
     readMoreLabel: 'Leer más',
@@ -207,7 +207,7 @@ La resolución profesional importa para materiales de aula. Los estudiantes ven 
 
   // How-To Guide - FULL text from wordsearch.md step sections
   howTo: {
-    sectionTitle: 'Cómo Crear Fichas para Imprimir de Sopas de Letras en 5 Pasos Fáciles',
+    sectionTitle: 'Ficha Gratis para Niños Crear - Ficha para Preescolar',
     sectionDescription: 'Crear sopas de letras toma menos de tres minutos. Sigue estos cinco pasos simples para generar fichas infantil profesionales. No se requiere experiencia en diseño.',
     ctaText: 'Comenzar Ahora',
     badgeText: 'Cómo Funciona',
@@ -279,7 +279,7 @@ La opción de escala de grises ahorra tinta de impresora costosa. Activa escala 
 
   // Use Cases - FULL text from wordsearch.md use case sections
   useCases: {
-    sectionTitle: 'Perfecto para Maestros y Padres',
+    sectionTitle: 'Ficha Gratis para Niños - Ficha para Preescolar con Imprimibles Gratis. Ficha para Niños',
     sectionDescription: 'Nuestro generador de sopas de letras beneficia diferentes tipos de usuarios. Cada grupo encuentra valor único en la herramienta. Los maestros de educación infantil ahorran horas de preparación. Los padres crean actividades educativas en casa.',
     badgeText: 'Para Quién',
     readMoreLabel: 'Leer más',
@@ -362,7 +362,7 @@ Crea productos digitales descargables para Etsy. Sopas de letras imprimibles lis
 
   // FAQ Section - Selected FAQs from wordsearch.md
   faq: {
-    sectionTitle: 'Preguntas Frecuentes',
+    sectionTitle: 'FAQ - Ficha Gratis para Niños y Ficha para Preescolar. Ficha para Niños',
     sectionDescription: 'Preguntas frecuentes sobre nuestro generador de sopas de letras y fichas para imprimir gratis.',
     showMoreText: 'Ver más preguntas',
     showLessText: 'Ver menos',
@@ -467,7 +467,7 @@ Crea productos digitales descargables para Etsy. Sopas de letras imprimibles lis
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Combina con Otros Generadores de Fichas',
+    sectionTitle: 'Fichas Gratis Combinar - Ficha para Niños e Imprimibles Gratis',
     sectionDescription: 'Crea paquetes de aprendizaje completos combinando las fichas de sopas de letras con estos generadores complementarios.',
     ctaTitle: '¿Listo para Crear Fichas Increíbles?',
     ctaDescription: 'Únete a miles de maestros que crean fichas profesionales. Generación ilimitada, licencia comercial incluida.',

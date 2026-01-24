@@ -85,8 +85,8 @@ Verktyget fungerar för alla lärarnivåer. Ingen designerfarenhet behövs. Väl
 
   // Sample Gallery - REAL file paths from samples/swedish/sudoku/
   samples: {
-    sectionTitle: 'Gratis Bildsudoku Arbetsblad Exempel',
-    sectionDescription: 'Ladda ner gratis exempelarbetsblad för att se vår professionella kvalitet',
+    sectionTitle: 'Gratis Arbetsblad för Barn - Gratis Arbetsblad och Gratis Utskrifter',
+    sectionDescription: 'Ladda ner gratis utskrifter - Gratis arbetsblad för barn av professionell kvalitet. Gratis arbetsblad och arbetsblad för barn perfekt för arbetsblad för förskoleklass. Gratis arbetsblad för barn och arbetsblad för barn inkluderar utbildningsmaterial. Gratis arbetsblad och gratis utskrifter tillgänglig',
     downloadLabel: 'Ladda Ner Gratis Exempel',
     worksheetLabel: 'Arbetsblad',
     answerKeyLabel: 'Facit',
@@ -314,7 +314,7 @@ Skriv ut direkt eller spara för senare. Filer är optimerade för alla skrivare
 
   // Use Cases - FULL descriptions from sudoku.md persona sections
   useCases: {
-    sectionTitle: 'Gratis Arbetsblad för Barn - Perfekt för Lärare, Föräldrar och Pedagoger',
+    sectionTitle: 'Gratis Arbetsblad för Barn - Arbetsblad för Förskoleklass med Gratis Utskrifter. Arbetsblad för Barn',
     sectionDescription: 'Sudoku för barn fungerar för många olika pedagogiska situationer. Från förskoleklass till lågstadiet använder lärare bildsudoku för logikträning. Föräldrar som hemundervisar älskar kombinationen av matte övningar och problemlösning. Specialpedagoger använder sudoku för finmotorik övningar och kognitiv träning. Varje användartyp hittar unika sätt att använda arbetsblad gratis för sina elever.',
     badgeText: 'Vem Det Är För',
     readMoreLabel: 'Läs mer',
@@ -397,7 +397,7 @@ Bygg prenumerationsbaserad verksamhet med månatliga sudokupaket. Kunder betalar
 
   // FAQ Section - ALL questions from sudoku.md
   faq: {
-    sectionTitle: 'Vanliga Frågor om Gratis Bildsudoku Arbetsblad',
+    sectionTitle: 'FAQ - Gratis Arbetsblad för Barn och Arbetsblad för Förskoleklass med Gratis Utskrifter. Arbetsblad för Barn',
     sectionDescription: 'Lärare och föräldrar har många frågor om sudokugeneratorn. Hur fungerar prenumerationen? Kan barn använda sudoku för bokstäver lära sig? Fungerar pusslen som finmotorik övningar? Vi besvarar de vanligaste frågorna om att skapa lågstadiet material och förskoleklass resurser.',
     showMoreText: 'Visa fler frågor',
     showLessText: 'Visa färre',
@@ -502,7 +502,7 @@ Bygg prenumerationsbaserad verksamhet med månatliga sudokupaket. Kunder betalar
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Kombinera med Andra Arbetsblad Generatorer',
+    sectionTitle: 'Gratis Arbetsblad Kombinera - Arbetsblad för Barn och Gratis Utskrifter',
     sectionDescription: 'Skapa kompletta lärpaket genom att kombinera sudoku arbetsblad med dessa kompletterande generatorer.',
     ctaTitle: 'Redo att Skapa Fantastiska Arbetsblad?',
     ctaDescription: 'Gå med tusentals lärare som skapar professionella arbetsblad. Obegränsad generering, kommersiell licens ingår.',

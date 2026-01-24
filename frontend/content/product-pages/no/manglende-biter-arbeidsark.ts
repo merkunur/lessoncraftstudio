@@ -53,8 +53,8 @@ Puslespillene støtter bokstaver lære skrive aktiviteter ved å bruke bokstavbi
 
   // Sample Gallery - REAL file paths from samples/english/missing pieces/
   samples: {
-    sectionTitle: 'Manglende Biter Puslespill Eksempler',
-    sectionDescription: 'Last ned gratis eksempler på manglende biter puslespill for å se vår profesjonelle kvalitet',
+    sectionTitle: 'Gratis Arbeidsark for Barn - Gratis Arbeidsark og Gratis Utskrifter',
+    sectionDescription: 'Last ned gratis utskrifter - Gratis arbeidsark for barn av profesjonell kvalitet. Gratis arbeidsark og arbeidsark for barn perfekt for arbeidsark for 1. trinn. Gratis arbeidsark for barn og arbeidsark for barn inkluderer gratis utskrifter undervisningsmateriell. Gratis arbeidsark og arbeidsark for 1. trinn tilgjengelig',
     badgeText: 'Gratis Eksempler',
     downloadLabel: 'Last ned Gratis Eksempel',
     downloadingLabel: 'Laster ned...',
@@ -84,7 +84,7 @@ Puslespillene støtter bokstaver lære skrive aktiviteter ved å bruke bokstavbi
 
   // Features Grid - FULL text from missing-pieces.md feature sections
   features: {
-    sectionTitle: 'Funksjoner for Manglende Biter Puslespill - Arbeidsark Gratis for Finmotorikk Øvelser og Matematikk Oppgaver',
+    sectionTitle: 'Gratis Arbeidsark og Arbeidsark for Barn - Gratis Utskrifter og Arbeidsark for 1. Trinn',
     sectionDescription: 'Manglende biter generatoren gir pedagoger i barnehage og småskoletrinnet kraftige verktøy. Systemet kombinerer enkle kontroller med profesjonelle arbeidsark gratis. Lag visuell diskrimineringsøvelser på 3 minutter. Full Tilgang-abonnementet inkluderer alle funksjoner for oppgavehefter barn. Hver funksjon er designet for pedagoger som trenger raske løsninger for finmotorikk øvelser og bokstaver lære skrive aktiviteter.',
     highlightBadgeText: 'Viktig Funksjon',
     readMoreLabel: 'Les mer',
@@ -190,7 +190,7 @@ Mange lærere tjener ekstra inntekt med arbeidsark gratis. Noen tjener 500-5000 
 
   // How-To Guide - FULL text from missing-pieces.md step sections
   howTo: {
-    sectionTitle: 'Hvordan Lage Arbeidsark Gratis i 5 Enkle Trinn - Manglende Biter Puslespill for Bokstaver Lære Skrive og Tall og Telling',
+    sectionTitle: 'Gratis Arbeidsark for Barn Lage - Arbeidsark for 1. Trinn',
     sectionDescription: 'Lag profesjonelle manglende biter puslespill på under 3 minutter. Følg disse fem enkle trinnene fra start til ferdig arbeidsark gratis. Ingen tekniske ferdigheter kreves for å lage oppgavehefter barn. Prosessen er enkel nok for alle pedagoger i barnehage uansett IT-nivå. Lag finmotorikk øvelser og matematikk oppgaver raskt. Hvert puslespill tar 2-3 minutter å lage fra begynnelse til utskrift. Velg bilde, tilpass innstillinger, generer, rediger og last ned. Fem enkle trinn til perfekte arbeidsark gratis. Spar timer sammenlignet med tradisjonelle metoder. Bruk tiden du sparer på å lage flere oppgavehefter barn og lesetrening aktiviteter.',
     ctaText: 'Start Nå',
     badgeText: 'Slik Fungerer Det',
@@ -278,7 +278,7 @@ Kombiner flere puslespill til tematiske oppgavehefter barn. Lag puslespillpakker
 
   // Use Cases - FULL text from missing-pieces.md use case sections
   useCases: {
-    sectionTitle: 'Perfekt for Pedagoger og Foreldre - Arbeidsark Gratis for Barnehage og Småskoletrinnet med Oppgavehefter Barn',
+    sectionTitle: 'Gratis Arbeidsark for Barn - Arbeidsark for 1. Trinn med Gratis Utskrifter. Arbeidsark for Barn',
     sectionDescription: 'Manglende biter puslespill passer mange ulike brukere i utdanningssektoren. Barnehagepedagoger lager finmotorikk øvelser for 0. klasse. Lærere på småskoletrinnet lager matematikk oppgaver for 1.-4. trinn. Hjemmeundervisningsforeldre lager tilpassede oppgavehefter barn. ESL-lærere bruker puslespill for bokstaver lære skrive. Spesialpedagoger lager differensierte arbeidsark gratis. Lærerentreprenører selger puslespillpakker på Teachers Pay Teachers.',
     badgeText: 'Hvem Er Det For',
     readMoreLabel: 'Les mer',
@@ -373,7 +373,7 @@ Kombiner puslespill med matematikk oppgaver for komplett produkt. Legg til tall 
 
   // FAQ Section - From missing-pieces.md
   faq: {
-    sectionTitle: 'Ofte Stilte Spørsmål om Arbeidsark Gratis - Manglende Biter Puslespill for Barnehage og Småskoletrinnet',
+    sectionTitle: 'FAQ - Gratis Arbeidsark for Barn og Arbeidsark for 1. Trinn. Arbeidsark for Barn',
     sectionDescription: 'Pedagoger og foreldre har mange spørsmål om manglende biter puslespill. Vi svarer på de vanligste spørsmålene om arbeidsark gratis her. Lær om Full Tilgang-abonnement, kommersiell lisens, språkstøtte og mye mer. Forstå hvordan puslespillene fungerer for oppgavehefter barn. Få svar på spørsmål om fargeleggingsbilder barn og matematikk oppgaver kombinasjoner.',
     showMoreText: 'Vis flere spørsmål',
     showLessText: 'Vis færre',

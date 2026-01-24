@@ -79,8 +79,8 @@ Full Tillgång-prenumerationen kostar 2400 kr per år eller 250 kr per månad. D
 
   // Sample Gallery - Swedish file paths from samples/swedish/code-addition/
   samples: {
-    sectionTitle: 'Gratis Arbetsblad Kodaddition - Exempelarbetsblad för Barn',
-    sectionDescription: 'Ladda ner gratis arbetsblad för att se vår professionella kvalitet',
+    sectionTitle: 'Gratis Arbetsblad för Barn - Gratis Arbetsblad och Gratis Utskrifter',
+    sectionDescription: 'Ladda ner gratis utskrifter - Gratis arbetsblad för barn av professionell kvalitet. Gratis arbetsblad och arbetsblad för barn perfekt för arbetsblad för förskoleklass. Gratis arbetsblad för barn och arbetsblad för barn inkluderar utbildningsmaterial. Gratis arbetsblad och gratis utskrifter tillgänglig',
     downloadLabel: 'Ladda Ner Gratis Exempel',
     worksheetLabel: 'Arbetsblad',
     answerKeyLabel: 'Facit',
@@ -218,7 +218,7 @@ Skapa både arbetsblad och facit med ett klick. Facit visar svaren automatiskt. 
 
   // How-To Guide - FULL text from code-addition.md step sections
   howTo: {
-    sectionTitle: 'Hur Du Skapar Gratis Arbetsblad i 5 Enkla Steg - Matte Övningar för Förskoleklass',
+    sectionTitle: 'Gratis Arbetsblad för Barn Skapa - Arbetsblad för Förskoleklass och Gratis Utskrifter',
     sectionDescription: 'Skapa professionella matematik arbetsblad snabbare än du någonsin trott. Hela processen tar under 3 minuter från start till färdigt arbetsblad. Inga designkunskaper krävs. Följ dessa fem enkla steg. Du får perfekta matte övningar för addition och subtraktion. Färdiga att skriva ut eller dela digitalt. Perfekt för förskoleklass material och lågstadiet.',
     ctaText: 'Börja Skapa Nu',
     badgeText: 'Så Fungerar Det',
@@ -300,7 +300,7 @@ Alla nedladdningar är 300 DPI professionell kvalitet. Skarp text och tydliga bi
 
   // Use Cases - FULL text from code-addition.md use case sections
   useCases: {
-    sectionTitle: 'Perfekt för Lärare och Föräldrar - Gratis Arbetsblad för Barn och Förskoleklass',
+    sectionTitle: 'Gratis Arbetsblad för Barn - Arbetsblad för Förskoleklass med Gratis Utskrifter. Arbetsblad för Barn',
     sectionDescription: 'Vårt verktyg för matematik arbetsblad passar alla som undervisar barn. Förskoleklass lärare, lågstadielärare, hemmaskolelärare och specialpedagoger. Varje grupp har unika behov. Verktyget anpassar sig perfekt. Skapa matte övningar för addition och subtraktion exakt som du vill. Från förskoleklass material till årskurs 3. Flexibiliteten gör verktyget ovärderligt för alla pedagoger.',
     badgeText: 'Vem Det Är För',
     readMoreLabel: 'Läs mer',
@@ -383,7 +383,7 @@ Diversifiera med andra arbetsbladstyper. Kombinera addition och subtraktion med 
 
   // FAQ Section - Selected FAQs from code-addition.md
   faq: {
-    sectionTitle: 'Vanliga Frågor om Gratis Arbetsblad Kodaddition',
+    sectionTitle: 'FAQ - Gratis Arbetsblad för Barn och Arbetsblad för Förskoleklass med Gratis Utskrifter. Arbetsblad för Barn',
     sectionDescription: 'Vanliga frågor om vår kodaddition generator och gratis arbetsblad för förskoleklass.',
     showMoreText: 'Visa fler frågor',
     showLessText: 'Visa färre',
@@ -487,7 +487,7 @@ Diversifiera med andra arbetsbladstyper. Kombinera addition och subtraktion med 
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Kombinera med Andra Arbetsblad Generatorer',
+    sectionTitle: 'Gratis Arbetsblad Kombinera - Arbetsblad för Barn och Gratis Utskrifter',
     sectionDescription: 'Skapa kompletta lärpaket genom att kombinera matematik arbetsblad med dessa kompletterande generatorer.',
     ctaTitle: 'Redo att Skapa Fantastiska Arbetsblad?',
     ctaDescription: 'Gå med tusentals lärare som skapar professionella arbetsblad. Obegränsad generering, kommersiell licens ingår.',

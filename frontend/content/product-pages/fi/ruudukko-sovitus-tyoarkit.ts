@@ -53,8 +53,8 @@ Ruudukko Sovitus jakaa kuvan ruudukkoon ja poistaa joitain soluja. Lapset tunnis
 
   // Sample Gallery - REAL file paths from samples/english/grid match/
   samples: {
-    sectionTitle: 'Ruudukko Sovitus -tehtävät Esimerkit',
-    sectionDescription: 'Lataa ilmaiset esimerkkityöarkit nähdäksesi ammattimaisen laatumme',
+    sectionTitle: 'Ilmainen Työarkki Lapsille - Ilmaiset Työarkit ja Ilmaiset Tulosteet',
+    sectionDescription: 'Lataa ilmaiset tulosteet - Ilmainen työarkki lapsille ammattimaista laatua. Ilmaiset työarkit ja työarkki lapsille täydellinen työarkki esiopetukseen. Ilmainen työarkki lapsille ja työarkki lapsille sisältää ilmaiset tulosteet ja ilmaiset työarkit opetusmateriaalin. Ilmainen työarkki ja työarkki esiopetukseen saatavilla',
     downloadLabel: 'Lataa Ilmainen Esimerkki',
     worksheetLabel: 'Työarkki',
     answerKeyLabel: 'Vastausavain',
@@ -84,7 +84,7 @@ Ruudukko Sovitus jakaa kuvan ruudukkoon ja poistaa joitain soluja. Lapset tunnis
 
   // Features Grid - FULL text from Finnish grid-match.md feature sections
   features: {
-    sectionTitle: 'Ruudukko Sovitus -Ominaisuudet - Kaikki Mitä Tarvitset Tulostettaviin Tehtäviin Lapsille',
+    sectionTitle: 'Ilmaiset Työarkit ja Työarkki Lapsille - Ilmaiset Tulosteet ja Työarkki Esiopetukseen',
     sectionDescription: 'Ruudukko Sovitus sisältää kaikki työkalut ammattimaiseen tehtävien luomiseen. Tilaus antaa pääsyn yli 3000 lapsille sopivaan kuvaan, kaupallisen lisenssin ja 11 kielen tuen. Luo tehtäviä minuuteissa sen sijaan että käyttäisit tunteja käsityöhön tai kalliisiin suunnitteluohjelmiin.',
     highlightBadgeText: 'Tärkeä Ominaisuus',
     readMoreLabel: 'Lue lisää',
@@ -174,7 +174,7 @@ Jokaisessa latauksessa on ammattimaisen laatuiset tehtävät myyntikelpoisina ta
 
   // How-To Guide - FULL text from Finnish grid-match.md step sections
   howTo: {
-    sectionTitle: 'Kuinka Luoda Tulostettavat Tehtävät Lapsille Ilmainen 5 Helpossa Vaiheessa',
+    sectionTitle: 'Ilmainen Työarkki Lapsille Luoda - Työarkki Esiopetukseen',
     sectionDescription: 'Luo ammattimaisia Ruudukko Sovitus -tehtäviä alle 3 minuutissa. Nämä vaiheet toimivat kaikille taitotasoille – ei suunnittelukokemusta tarvita. Jokaisessa vaiheessa on yksinkertaiset kontrollit ja välitön esikatselu. Noudata näitä ohjeita luodaksesi matematiikka tehtävät alakoulu tai minkä tahansa muun aihepiirin tehtäviä.',
     ctaText: 'Aloita Luominen Nyt',
     badgeText: 'Näin Se Toimii',
@@ -246,7 +246,7 @@ PDF-tiedostot säilyttävät tarkan asettelun ja fontit kaikilla laitteilla. Tä
 
   // Use Cases - FULL text from Finnish grid-match.md use case sections
   useCases: {
-    sectionTitle: 'Täydellinen Opettajille, Vanhemmille ja Kasvattajille - Tulostettavat Tehtävät Lapsille Ilmainen Jokaiseen Tarpeeseen',
+    sectionTitle: 'Ilmainen Työarkki Lapsille - Työarkki Esiopetukseen ja Ilmaiset Tulosteet. Työarkki Lapsille',
     sectionDescription: 'Ruudukko Sovitus palvelee erilaisia käyttäjiä esiopetuksen kasvattajista alakoulun opettajiin. Jokainen käyttäjäryhmä hyötyy mukautetuista ruudukkotehtävistä räätälöidyille oppimiskäyttöihin. Visuaalinen havainnointikyky kehittyy kaikissa ikäryhmissä tehtävien adaptiivisella vaikeustasolla. Luo esiopetus materiaali ilmaiseksi lisämaksuista tai luo haastavampia tehtäviä vanhemmille alakoulun oppilaille.',
     badgeText: 'Kenelle Sopii',
     readMoreLabel: 'Lue lisää',
@@ -329,7 +329,7 @@ Täysi Käyttöoikeus -tilaus sisältää kaupallisen POD-lisenssin ilman lisäm
 
   // FAQ Section - FULL text from Finnish grid-match.md FAQ sections
   faq: {
-    sectionTitle: 'Usein Kysytyt Kysymykset Tulostettavat Tehtävät Lapsille Ilmainen',
+    sectionTitle: 'FAQ - Ilmainen Työarkki Lapsille ja Työarkki Esiopetukseen. Työarkki Lapsille',
     sectionDescription: 'Ruudukko Sovitus herättää kysymyksiä hinnoittelusta, ominaisuuksista ja käytöstä. Nämä 12 kysymystä kattavat yleisimmät huolenaiheet opettajilta, vanhemmilta ja kasvattajilta. Vastaukset tarjoavat yksityiskohtaiset selitykset Ruudukko Sovitusin kyvyistä ja rajoituksista. Lue läpi ennen tilauksen aloittamista saadaksesi täydellisen ymmärryksen siitä, mitä Ruudukko Sovitus tarjoaa.',
     showMoreText: 'Näytä lisää kysymyksiä',
     showLessText: 'Näytä vähemmän',
@@ -452,7 +452,7 @@ Lataa omia ainekohtaisia kuvia aiheille, joita ei kata kirjasto. Tieteen opettaj
 
   // Related Apps Section
   relatedApps: {
-    sectionTitle: 'Yhdistä Ruudukko Sovitus Muihin Tulostettavat Tehtävät Lapsille Ilmainen Työkaluihin',
+    sectionTitle: 'Ilmaiset Työarkit Yhdistää - Työarkki Lapsille ja Ilmaiset Tulosteet',
     sectionDescription: 'LessonCraft Studio tarjoaa 33 työkalua opettajille. Yhdistä Ruudukko Sovitus -ruudukkotehtävät muihin työkaluihin luodaksesi täydellisiä oppimispaketteja. Täysi Käyttöoikeus -tilaus antaa pääsyn kaikkiin työkaluihin yhteen hintaan.',
     ctaTitle: 'Valmiina Luomaan Upeita Työarkkeja?',
     ctaDescription: 'Liity tuhansien opettajien joukkoon, jotka luovat ammattimaisia työarkkeja. Rajoittamaton generointi, kaupallinen lisenssi sisältyy.',

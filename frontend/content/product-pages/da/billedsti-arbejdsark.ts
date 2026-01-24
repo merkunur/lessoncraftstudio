@@ -87,8 +87,8 @@ Hver billedsti downloades som professionel 300 DPI PDF. Ideel til print derhjemm
 
   // Sample Gallery - REAL file paths from samples/english/picture path/
   samples: {
-    sectionTitle: 'Gratis Arbejdsark Eksempler - Billedsti til Børn',
-    sectionDescription: 'Download gratis eksempler på arbejdsark for at se vores professionelle kvalitet',
+    sectionTitle: 'Gratis Arbejdsark til Børn - Gratis Arbejdsark og Gratis Printables',
+    sectionDescription: 'Download gratis printables - Gratis arbejdsark til børn af professionel kvalitet. Gratis arbejdsark og arbejdsark til børn perfekt til arbejdsark til børnehaveklasse. Gratis arbejdsark til børn og arbejdsark til børn inkluderer undervisningsmateriale. Gratis arbejdsark tilgængeligt',
     badgeText: 'Gratis Eksempler',
     downloadLabel: 'Download Gratis Eksempel',
     downloadingLabel: 'Downloader...',
@@ -139,7 +139,7 @@ Hver billedsti downloades som professionel 300 DPI PDF. Ideel til print derhjemm
 
   // Features Grid - FULL text from picture-path.md feature sections
   features: {
-    sectionTitle: 'Gratis Arbejdsark Funktioner - Billedsti Arbejdsark til Børn',
+    sectionTitle: 'Gratis Arbejdsark og Arbejdsark til Børn - Gratis Printables og Arbejdsark til Børnehaveklasse',
     sectionDescription: 'Billedsti-generatoren giver dig alle værktøjer til at lave professionelle opgaver til print. Kombiner matematikopgaver med visuelle labyrinter. Lav finmotorik øvelser og farvelægning i samme aktivitet. Opret gratis skoleopgaver med 3000+ billeder. Dit Fuld Adgang abonnement inkluderer alt du behøver.',
     highlightBadgeText: 'Vigtig Funktion',
     readMoreLabel: 'Læs mere',
@@ -259,7 +259,7 @@ Zoom-kontroller viser detaljer. Zoom ind for præcis placering. Zoom ud for helh
 
   // How-To Guide - FULL text from picture-path.md step sections
   howTo: {
-    sectionTitle: 'Lav Gratis Arbejdsark i 5 Nemme Trin - Arbejdsark til Børn',
+    sectionTitle: 'Gratis Arbejdsark til Børn Oprette - Arbejdsark til Børnehaveklasse',
     sectionDescription: 'Opret professionelle billedsti-opgaver på under 3 minutter. Ingen designerfærdigheder nødvendige. Bare vælg, tilpas, generer, rediger og download. Dit Fuld Adgang abonnement giver ubegrænset adgang til alle funktioner.',
     ctaText: 'Start Nu',
     badgeText: 'Sådan Virker Det',
@@ -351,7 +351,7 @@ Gem filer til senere brug. Opbyg bibliotek af opgaver til print organiseret efte
 
   // Use Cases - FULL text from picture-path.md use case sections
   useCases: {
-    sectionTitle: 'Gratis Arbejdsark til Børn - Perfekt til Pædagoger og Forældre',
+    sectionTitle: 'Gratis Arbejdsark til Børn - Arbejdsark til Børnehaveklasse med Gratis Printables. Arbejdsark til Børn',
     sectionDescription: 'Billedsti-generatoren fungerer til mange brugertyper. Pædagoger i børnehaveklassen bruger det dagligt. Lærere i 1. klasse og 2. klasse elsker det. Hjemmeundervisnings-forældre sparer timer. Specialpædagoger tilpasser nemt. Lærer-entreprenører sælger deres kreationer.',
     badgeText: 'Hvem Er Det Til',
     readMoreLabel: 'Læs mere',
@@ -466,7 +466,7 @@ Mange danske lærere tjener 5.000-25.000 kr månedligt. Nogle tjener meget mere.
 
   // FAQ Section - Selected FAQs from picture-path.md
   faq: {
-    sectionTitle: 'Gratis Arbejdsark FAQ - Ofte Stillede Spørgsmål om Billedsti',
+    sectionTitle: 'FAQ - Gratis Arbejdsark til Børn og Arbejdsark til Børnehaveklasse. Arbejdsark til Børn',
     sectionDescription: 'Her er svar på de mest almindelige spørgsmål om billedsti-generatoren. Lær om muligheder, abonnementer og hvordan du bruger opgaver til print i din undervisning.',
     showMoreText: 'Vis flere spørgsmål',
     showLessText: 'Vis færre',
@@ -595,7 +595,7 @@ Mange danske lærere tjener 5.000-25.000 kr månedligt. Nogle tjener meget mere.
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Kombiner med Andre Arbejdsark Generatorer',
+    sectionTitle: 'Gratis Arbejdsark Kombinere - Arbejdsark til Børn og Gratis Printables',
     sectionDescription: 'Lav komplette læringspakker ved at kombinere billedstier med disse komplementære generatorer.',
     ctaTitle: 'Klar til at Lave Fantastiske Arbejdsark?',
     ctaDescription: 'Tilslut dig tusindvis af pædagoger der laver professionelle arbejdsark. Ubegrænset oprettelse, kommerciel licens inkluderet.',

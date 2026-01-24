@@ -79,8 +79,8 @@ Professores de todo o Brasil confiam no LessonCraft Studio. Nossa plataforma ofe
 
   // Sample Gallery - Portuguese samples from samples/portuguese/picture-sort/
   samples: {
-    sectionTitle: 'Exemplos de Classificação - Atividades Grátis para Imprimir',
-    sectionDescription: 'Baixe exemplos gratuitos para ver nossa qualidade profissional',
+    sectionTitle: 'Atividade Grátis para Crianças - Atividades Grátis e Imprimíveis Grátis',
+    sectionDescription: 'Baixe imprimíveis grátis - Atividade grátis para crianças de qualidade profissional. Atividades grátis e atividade para crianças perfeitas para atividade para educação infantil. Atividade grátis para crianças e atividade para crianças incluem material educativo. Atividade grátis disponível',
     downloadLabel: 'Baixar Exemplo Grátis',
     worksheetLabel: 'Atividade',
     answerKeyLabel: 'Gabarito',
@@ -124,7 +124,7 @@ Professores de todo o Brasil confiam no LessonCraft Studio. Nossa plataforma ofe
 
   // Features Grid - FULL text from picture-sort.md feature sections
   features: {
-    sectionTitle: 'Recursos do Gerador - Atividade Grátis para Crianças de Classificação',
+    sectionTitle: 'Atividades Grátis e Atividade para Crianças - Imprimíveis Grátis e Atividade para Educação Infantil',
     sectionDescription: 'O gerador de classificação do LessonCraft Studio oferece recursos completos para criar atividades grátis. Cada funcionalidade foi pensada para facilitar o trabalho do professor. Crie atividades de alfabetização, coordenação motora e muito mais. Veja todos os recursos disponíveis para suas atividades para imprimir.',
     highlightBadgeText: 'Recurso Principal',
     readMoreLabel: 'Leia mais',
@@ -213,7 +213,7 @@ A coordenação motora é desenvolvida junto com matemática. Crianças manipula
 
   // How-To Guide - FULL text from picture-sort.md step sections
   howTo: {
-    sectionTitle: 'Como Criar Atividades Grátis de Classificação em 5 Passos',
+    sectionTitle: 'Atividade Grátis para Crianças Criar - Atividade para Educação Infantil',
     sectionDescription: 'Criar atividades grátis de classificação é muito simples. Todo o processo leva menos de 3 minutos. Siga este guia passo a passo para suas primeiras atividades para educação infantil. Você vai se surpreender com a facilidade.',
     ctaText: 'Comece Agora',
     badgeText: 'Como Funciona',
@@ -285,8 +285,8 @@ Combine com atividades de letra cursiva para pacotes completos. Adicione folhas 
 
   // Use Cases - FULL text from picture-sort.md use case sections
   useCases: {
-    sectionTitle: 'Quem Usa Classificação - Atividade Grátis para Educação Infantil',
-    sectionDescription: 'Nosso gerador de atividades grátis atende diversos perfis de educadores. De professores de educação infantil a empreendedores digitais. Veja como cada grupo utiliza atividades para crianças de classificação. Encontre ideias para sua própria prática pedagógica.',
+    sectionTitle: 'Atividade Grátis para Crianças - Atividade para Educação Infantil com Imprimíveis Grátis. Atividade para Crianças',
+    sectionDescription: 'Atividades grátis disponíveis. Nosso gerador de atividades grátis atende diversos perfis de educadores. De professores de educação infantil a empreendedores digitais. Veja como cada grupo utiliza atividades para crianças de classificação. Encontre ideias para sua própria prática pedagógica.',
     badgeText: 'Para Quem',
     readMoreLabel: 'Leia mais',
     showLessLabel: 'Mostrar menos',
@@ -422,7 +422,7 @@ Monte lojas no Etsy com atividades para imprimir exclusivas. Tabuada visual atra
 
   // FAQ Section
   faq: {
-    sectionTitle: 'Perguntas Frequentes - Imprimíveis Grátis de Classificação',
+    sectionTitle: 'FAQ - Atividade Grátis para Crianças e Atividade para Educação Infantil. Atividade para Crianças',
     sectionDescription: 'Professores têm dúvidas comuns sobre nosso gerador de atividades grátis. Respondemos as perguntas mais frequentes sobre atividades para crianças. Tire suas dúvidas sobre classificação e atividade para educação infantil. Entenda como funcionam desenhos para colorir e outras funcionalidades.',
     showMoreText: 'Mostrar mais perguntas',
     showLessText: 'Mostrar menos',
@@ -521,7 +521,7 @@ Busque por palavra-chave como "dinossauro" ou "festa junina". Crie atividades pa
 
   // Related Apps Section
   relatedApps: {
-    sectionTitle: 'Combine com Outros Geradores - Atividades Grátis',
+    sectionTitle: 'Atividades Grátis Combinar - Atividade para Crianças e Imprimíveis Grátis',
     sectionDescription: 'O LessonCraft Studio oferece 33 geradores de atividades grátis para imprimir. Combine classificação com outros tipos de atividades para crianças. Crie pacotes completos de imprimíveis grátis e alfabetização. Adicione atividade para educação infantil para desenvolvimento motor.',
     ctaTitle: 'Pronto para Criar Atividades de Classificação Profissionais?',
     ctaDescription: 'Junte-se a milhares de educadores que criam materiais pedagógicos de qualidade. Comece a usar o gerador de classificação agora mesmo.',

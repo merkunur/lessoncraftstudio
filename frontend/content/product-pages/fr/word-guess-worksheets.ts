@@ -88,8 +88,8 @@ Votre abonnement Accès Complet inclut une licence commerciale pour vendre vos f
 
   // Sample Gallery - REAL file paths from samples/english/word guess/
   samples: {
-    sectionTitle: 'Exemples de Fiches Deviner les Mots',
-    sectionDescription: 'Téléchargez des exemples gratuits pour voir notre qualité professionnelle',
+    sectionTitle: 'Fiche Gratuite pour Enfants - Fiches Gratuites et Imprimables Gratuits',
+    sectionDescription: 'Téléchargez imprimables gratuits - Fiche gratuite pour enfants de qualité professionnelle. Fiches gratuites et fiche pour enfants parfaites pour fiche pour maternelle. Fiche gratuite pour enfants et fiches gratuites inclus matériel éducatif. Fiche gratuite et fiches gratuites disponible',
     downloadLabel: 'Télécharger Exemple Gratuit',
     worksheetLabel: 'Fiche',
     answerKeyLabel: 'Corrigé',
@@ -140,7 +140,7 @@ Votre abonnement Accès Complet inclut une licence commerciale pour vendre vos f
 
   // Features Grid - FULL text from word-guess.md feature sections
   features: {
-    sectionTitle: 'Fonctionnalités du Générateur de Fiches Maternelle - Tout ce qu\'il Faut pour Créer des Exercices CP Parfaits',
+    sectionTitle: 'Fiches Gratuites et Fiche pour Enfants - Imprimables Gratuits et Fiche pour Maternelle',
     sectionDescription: 'Notre générateur de fiches à imprimer gratuit offre toutes les fonctionnalités dont vous avez besoin. Créez des exercices maternelle professionnels en quelques clics. Personnalisez chaque élément pour correspondre à vos besoins pédagogiques. Les enseignants de maternelle et CP apprécient la simplicité et la flexibilité. Chaque fiche maternelle que vous créez peut être modifiée entièrement sur le canevas. Les sept fonctionnalités clés transforment votre façon de créer des exercices. Gagnez du temps tout en produisant des fiches de qualité supérieure. Votre abonnement Accès Complet débloque toutes ces capacités professionnelles. Aucun frais supplémentaire pour les fonctionnalités premium.',
     highlightBadgeText: 'Fonctionnalité Clé',
     readMoreLabel: 'Lire la suite',
@@ -234,7 +234,7 @@ L'option niveaux de gris économise l'encre d'imprimante. Convertit automatiquem
 
   // How-To Guide - FULL text from word-guess.md step sections
   howTo: {
-    sectionTitle: 'Comment Créer des Fiches Maternelle en 5 Étapes Simples - Guide Complet pour Exercices CP et CE1',
+    sectionTitle: 'Fiche Gratuite pour Enfants Créer - Fiche pour Maternelle',
     sectionDescription: 'Créez vos premières fiches maternelle en moins de 3 minutes. Ce guide explique chaque étape du processus de création. Suivez ces cinq étapes simples pour générer des exercices CP professionnels. Aucune compétence technique requise pour créer des fiches à imprimer gratuit parfaites. Le processus est identique pour tous les niveaux scolaires. Créez des fiches maternelle pour la petite section ou des exercices CE1 plus avancés. Ajustez simplement le niveau de difficulté selon vos besoins. Chaque enseignant peut maîtriser ce générateur dès la première utilisation.',
     ctaText: 'Commencer Maintenant',
     badgeText: 'Guide Étape par Étape',
@@ -318,7 +318,7 @@ Téléchargez également le corrigé automatiquement généré. Cliquez sur l'on
 
   // Use Cases - FULL text from word-guess.md use case sections
   useCases: {
-    sectionTitle: 'Parfait pour Enseignants, Parents et Éducateurs - Fiches Maternelle et Exercices CP pour Tous les Besoins',
+    sectionTitle: 'Fiche Gratuite pour Enfants - Fiche pour Maternelle avec Imprimables Gratuits. Fiche pour Enfants',
     sectionDescription: 'Notre générateur de fiches maternelle s\'adapte à tous les contextes éducatifs. Les enseignants de maternelle, CP et CE1 l\'utilisent quotidiennement. Les parents qui font l\'école à la maison créent des exercices personnalisés. Les orthophonistes et enseignants spécialisés différencient l\'instruction facilement. Chaque type d\'utilisateur trouve des applications pédagogiques pertinentes. Les six groupes d\'utilisateurs principaux bénéficient différemment du générateur. Chacun adapte les fiches à imprimer gratuit selon ses besoins spécifiques.',
     badgeText: 'Cas d\'Utilisation',
     readMoreLabel: 'Lire la suite',
@@ -401,7 +401,7 @@ Les auteurs auto-édités sur Amazon KDP publient des cahiers d'activités. Comb
 
   // FAQ Section - Selected FAQs from word-guess.md
   faq: {
-    sectionTitle: 'Questions Fréquemment Posées sur les Fiches Deviner les Mots - Fiches Maternelle et Exercices CP',
+    sectionTitle: 'FAQ - Fiche Gratuite pour Enfants et Fiche pour Maternelle. Fiche pour Enfants',
     sectionDescription: 'Les enseignants et parents ont des questions courantes sur notre générateur de fiches. Voici les réponses détaillées aux questions les plus fréquentes. Ces réponses couvrent l\'abonnement, l\'utilisation en classe, la personnalisation et les fonctionnalités techniques pour apprendre à lire et apprendre les lettres.',
     showMoreText: 'Voir plus de questions',
     showLessText: 'Voir moins',
@@ -553,7 +553,7 @@ Les thèmes de la bibliothèque couvrent les sujets scolaires principaux. Animau
 
   // Related Apps - From word-guess.md Section 7
   relatedApps: {
-    sectionTitle: 'Combinez les Fiches Deviner les Mots avec d\'Autres Générateurs - Coloriage à Imprimer et Exercices Maths',
+    sectionTitle: 'Fiches Gratuites Combiner - Fiche pour Enfants et Imprimables Gratuits',
     sectionDescription: 'Notre plateforme offre 33 générateurs différents de fiches pédagogiques. Les enseignants créent des packs d\'apprentissage complets en combinant plusieurs types d\'activités. Fiches deviner les mots pour le vocabulaire, exercices maths pour les nombres, coloriage à imprimer pour la motricité fine et fiches d\'alphabet pour apprendre les lettres. Ces combinaisons créent des expériences d\'apprentissage riches qui engagent les élèves sur plusieurs niveaux.',
     ctaTitle: 'Prêt à Créer des Fiches Professionnelles ?',
     ctaDescription: 'Rejoignez des milliers d\'enseignants qui créent des fiches maternelle de qualité. Création illimitée, licence commerciale incluse.',

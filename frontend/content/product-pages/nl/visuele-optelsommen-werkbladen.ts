@@ -91,8 +91,8 @@ Kinderen leren het beste door te doen. Onze gratis werkblad voor kinderen gebrui
 
   // Sample Gallery - REAL file paths from samples/dutch/code-addition/
   samples: {
-    sectionTitle: 'Gratis Werkblad Visuele Optelsommen Voorbeelden - Werkblad voor Kinderen',
-    sectionDescription: 'Download gratis werkbladen voorbeelden om onze professionele kwaliteit te ervaren. Gratis printables voor werkblad voor kleuters.',
+    sectionTitle: 'Gratis Werkblad voor Kinderen - Gratis Werkbladen en Gratis Printables',
+    sectionDescription: 'Download gratis printables - Gratis werkblad voor kinderen van professionele kwaliteit. Gratis werkbladen en werkblad voor kinderen perfect voor werkblad voor kleuters. Gratis werkblad voor kinderen en werkblad voor kinderen inclusief educatief materiaal. Gratis werkblad beschikbaar',
     downloadLabel: 'Gratis Voorbeeld Downloaden',
     worksheetLabel: 'Werkblad',
     answerKeyLabel: 'Antwoordblad',
@@ -136,7 +136,7 @@ Kinderen leren het beste door te doen. Onze gratis werkblad voor kinderen gebrui
 
   // Features Grid - FULL text from code-addition.md feature sections
   features: {
-    sectionTitle: 'Gratis Werkblad Functies - Werkblad voor Kinderen en Gratis Printables Generator',
+    sectionTitle: 'Gratis Werkbladen en Werkblad voor Kinderen - Gratis Printables en Werkblad voor Kleuters',
     sectionDescription: 'Onze generator biedt alle functies die je nodig hebt voor professionele gratis werkbladen. Van eenvoudige bediening tot uitgebreide aanpassingen. Maak werkblad voor kinderen en werkblad voor kleuters precies zoals jij wilt. Hieronder vind je alle mogelijkheden voor je gratis printables.',
     highlightBadgeText: 'Uitgelicht',
     readMoreLabel: 'Lees meer',
@@ -225,7 +225,7 @@ Download als PDF of JPEG. PDF is ideaal voor printen met exacte afmetingen. JPEG
 
   // How-To Guide - FULL text from code-addition.md step sections
   howTo: {
-    sectionTitle: 'Hoe Maak Je Gratis Werkblad in 5 Stappen - Werkblad voor Kinderen Handleiding',
+    sectionTitle: 'Gratis Werkblad voor Kinderen Maken - Werkblad voor Kleuters',
     sectionDescription: 'Het maken van professionele gratis werkbladen duurt minder dan 3 minuten. Volg deze vijf stappen voor perfecte werkblad voor kinderen en werkblad voor kleuters. Van thema kiezen tot downloaden en printen. Alles wat je nodig hebt voor gratis printables.',
     ctaText: 'Nu Starten',
     badgeText: 'Zo werkt het',
@@ -297,7 +297,7 @@ Wil je inkt besparen? Gebruik de grijstinten-optie voor een kleurplaten-effect. 
 
   // Use Cases - FULL text from code-addition.md use case sections
   useCases: {
-    sectionTitle: 'Perfect voor Gratis Werkblad Gebruikers - Werkblad voor Kinderen en Werkblad voor Kleuters',
+    sectionTitle: 'Gratis Werkblad voor Kinderen - Werkblad voor Kleuters met Gratis Printables. Werkblad voor Kinderen',
     sectionDescription: 'De visuele optelsommen generator is ontworpen voor iedereen die met jonge kinderen werkt. Van kleuterleidsters tot leerkrachten groep 3. Van thuisonderwijs ouders tot speciaal onderwijs professionals. Ontdek hoe verschillende gebruikers profiteren van onze gratis werkbladen en gratis printables.',
     badgeText: 'Voor wie',
     readMoreLabel: 'Lees meer',
@@ -380,7 +380,7 @@ De 300 DPI kwaliteit is verkoopklaar. Geen extra bewerking nodig. Download als P
 
   // FAQ Section - FULL FAQs from code-addition.md
   faq: {
-    sectionTitle: 'Veelgestelde Vragen - Gratis Werkblad voor Kinderen en Gratis Printables',
+    sectionTitle: 'FAQ - Gratis Werkblad voor Kinderen en Werkblad voor Kleuters. Werkblad voor Kinderen',
     sectionDescription: 'Hier vind je antwoorden op de meest gestelde vragen over onze visuele optelsommen generator. Van prijzen tot functies. Van werkblad voor kleuters tot gratis werkbladen. Alles wat je moet weten over werkblad voor kinderen.',
     showMoreText: 'Meer vragen tonen',
     showLessText: 'Minder tonen',
@@ -509,7 +509,7 @@ De 300 DPI kwaliteit is verkoopklaar. Geen extra bewerking nodig. Download als P
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Combineer Gratis Werkblad met Andere Generators - Werkblad voor Kinderen Pakketten',
+    sectionTitle: 'Gratis Werkbladen Combineren - Werkblad voor Kinderen en Gratis Printables',
     sectionDescription: 'Het Volledige Toegang abonnement bevat alle 33 werkblad generators die perfect samenwerken. Combineer visuele optelsommen met andere tools voor complete leerpakketten. Ontdek hoe je thematische bundels maakt voor elke lesweek.',
     ctaTitle: 'Klaar om geweldige werkbladen te maken?',
     ctaDescription: 'Sluit je aan bij duizenden leerkrachten die professionele werkbladen maken. Onbeperkt genereren, commerciële licentie inbegrepen.',

@@ -53,8 +53,8 @@ Full Tilgang-abonnementet inkluderer alle 33 arbeidsarkgeneratorer. Lag addisjon
 
   // Sample Gallery - REAL file paths from samples/english/more less/
   samples: {
-    sectionTitle: 'Sammenligningsoppgaver Arbeidsark Eksempler',
-    sectionDescription: 'Last ned gratis eksempler på arbeidsark for å se vår profesjonelle kvalitet',
+    sectionTitle: 'Gratis Arbeidsark for Barn - Gratis Arbeidsark og Gratis Utskrifter',
+    sectionDescription: 'Last ned gratis utskrifter - Gratis arbeidsark for barn av profesjonell kvalitet. Gratis arbeidsark og arbeidsark for barn perfekt for arbeidsark for 1. trinn. Gratis arbeidsark for barn og arbeidsark for barn inkluderer gratis utskrifter undervisningsmateriell. Gratis arbeidsark og arbeidsark for 1. trinn tilgjengelig',
     badgeText: 'Gratis Eksempler',
     downloadLabel: 'Last ned Gratis Eksempel',
     downloadingLabel: 'Laster ned...',
@@ -91,7 +91,7 @@ Full Tilgang-abonnementet inkluderer alle 33 arbeidsarkgeneratorer. Lag addisjon
 
   // Features Grid - FULL text from more-less.md feature sections
   features: {
-    sectionTitle: 'Matematikk Oppgaver Funksjoner - Alt Du Trenger for Arbeidsark Gratis og Oppgavehefter Barn',
+    sectionTitle: 'Gratis Arbeidsark og Arbeidsark for Barn - Gratis Utskrifter og Arbeidsark for 1. Trinn',
     sectionDescription: 'Vårt mer-mindre-verktøy for matematikk oppgaver inkluderer alle funksjoner du trenger. Lag profesjonelle arbeidsark gratis fra ekstra kostnader. Skap oppgavehefter barn elsker for tall og telling øving. Kombiner med addisjon og subtraksjon arbeidsark for komplette matematikk leksjoner. Full Tilgang-abonnementet gir deg ubegrenset tilgang til alle funksjoner.',
     highlightBadgeText: 'Viktig Funksjon',
     readMoreLabel: 'Les mer',
@@ -185,7 +185,7 @@ Angre/gjør om-funksjonalitet beskytter arbeidet ditt. Zoome inn for detaljert r
 
   // How-To Guide - FULL text from more-less.md step sections
   howTo: {
-    sectionTitle: 'Hvordan Lage Matematikk Oppgaver Arbeidsark Gratis på 5 Enkle Trinn',
+    sectionTitle: 'Gratis Arbeidsark for Barn Lage - Arbeidsark for 1. Trinn',
     sectionDescription: 'Opprett profesjonelle sammenligningsoppgaver på under 3 minutter. Ingen designerfaring nødvendig for matematikk oppgaver. Følg disse 5 enkle trinnene for arbeidsark gratis. Systemet vårt guider deg gjennom å lage oppgavehefter barn elsker. Kombiner tall og telling med addisjon og subtraksjon for komplette leksjoner.',
     ctaText: 'Start Nå',
     badgeText: 'Slik Fungerer Det',
@@ -267,7 +267,7 @@ Skriv ut flere kopier for hele klassen. Laminer for gjenbrukbare tall og telling
 
   // Use Cases - FULL text from more-less.md use case sections
   useCases: {
-    sectionTitle: 'Perfekt for Lærere og Foreldre - Matematikk Oppgaver Arbeidsark Gratis for Tall og Telling',
+    sectionTitle: 'Gratis Arbeidsark for Barn - Arbeidsark for 1. Trinn med Gratis Utskrifter. Arbeidsark for Barn',
     sectionDescription: 'Vårt mer-mindre-verktøy passer alle som jobber med matematikk oppgaver. Barnehagepedagoger, småskolelærere og foreldre lager arbeidsark gratis. Spesialpedagoger og hjemmeundervisere skaper oppgavehefter barn mestrer. ESL-lærere og lærerentreprenører bruker systemet daglig for tall og telling undervisning.',
     badgeText: 'Hvem Er Det For',
     readMoreLabel: 'Les mer',
@@ -350,7 +350,7 @@ Kombiner med bokstaver lære skrive, lesetrening og finmotorikk øvelser for tve
 
   // FAQ Section - From more-less.md
   faq: {
-    sectionTitle: 'Ofte Stilte Spørsmål om Matematikk Oppgaver Arbeidsark Gratis Tall og Telling',
+    sectionTitle: 'FAQ - Gratis Arbeidsark for Barn og Arbeidsark for 1. Trinn. Arbeidsark for Barn',
     sectionDescription: 'Norske lærere stiller ofte spørsmål om vårt sammenligningsverktøy. Her er svar på vanlige spørsmål om matematikk oppgaver, arbeidsark gratis, og oppgavehefter barn. Lær hvordan du kombinerer tall og telling med fargeleggingsbilder barn, bokstaver lære skrive, gangetabellen, addisjon og subtraksjon, finmotorikk øvelser og lesetrening.',
     showMoreText: 'Vis flere spørsmål',
     showLessText: 'Vis færre',
@@ -445,7 +445,7 @@ Kombiner med bokstaver lære skrive, lesetrening og finmotorikk øvelser for tve
 
   // Related Apps - From more-less.md "Kombiner" section
   relatedApps: {
-    sectionTitle: 'Kombiner Sammenligninger med Andre Arbeidsark Gratis - Komplette Læringspakker',
+    sectionTitle: 'Gratis Arbeidsark Kombinere - Arbeidsark for Barn og Gratis Utskrifter',
     sectionDescription: 'Norske lærere kombinerer sammenligningsoppgaver med andre arbeidsarktyper. Full Tilgang gir deg 33 gratis verktøy på plattformen. Lag komplette lærpakker som kombinerer tall og telling med fargeleggingsbilder barn, bokstaver lære skrive, gangetabellen, addisjon og subtraksjon, finmotorikk øvelser og lesetrening. Skap oppgavehefter barn bruker for tverrfaglig læring.',
     ctaTitle: 'Klar til å Lage Fantastiske Arbeidsark?',
     ctaDescription: 'Bli med tusenvis av pedagoger som lager profesjonelle arbeidsark. Ubegrenset oppretting, kommersiell lisens inkludert.',

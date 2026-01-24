@@ -78,7 +78,7 @@ The generator includes 8 different templates with various line patterns and orie
 
   // Sample Gallery - REAL file paths from samples/english/drawing-lines/
   samples: {
-    sectionTitle: 'Worksheet Samples',
+    sectionTitle: 'Free Worksheet for Kids - Free Worksheets and Free Printables',
     downloadLabel: 'Download Free Sample',
     worksheetLabel: 'Worksheet',
     answerKeyLabel: 'Answer Key',
@@ -123,8 +123,8 @@ The generator includes 8 different templates with various line patterns and orie
 
   // Features Grid - FULL descriptions from drawing-lines.md H3 sections
   features: {
-    sectionTitle: 'Drawing Lines Worksheet Features',
-    sectionDescription: 'Our drawing lines worksheet generator includes powerful features for creating professional kindergarten worksheets and first grade worksheets. Teachers create custom matching worksheets in under 3 minutes with our easy-to-use platform. Every feature focuses on saving time while maintaining high quality for classroom use. Your Core Bundle subscription unlocks unlimited worksheet creation with no per-worksheet fees. Generate drawing lines worksheets alongside alphabet worksheets, tracing worksheets, and math worksheets using the same platform. The complete toolkit supports all your printable worksheet needs from preschool through third grade.',
+    sectionTitle: 'Free Worksheet for Kids Features - Worksheet for Kindergarten',
+    sectionDescription: 'Our drawing lines worksheet generator includes powerful features for creating free worksheet for kids and professional kindergarten worksheets. Teachers create free worksheet for kids in under 3 minutes with our easy-to-use platform. Every feature focuses on saving time while creating free worksheet for kids for classroom use. Your Core Bundle subscription unlocks unlimited free worksheet for kids creation with no per-worksheet fees. Generate drawing lines alongside alphabet worksheets, tracing worksheets, and math worksheets using the same platform.',
     highlightBadgeText: 'Key Feature',
     items: [
       {
@@ -188,7 +188,7 @@ The generator includes 8 different templates with various line patterns and orie
 
   // How-To Guide - FULL text from drawing-lines.md Step sections
   howTo: {
-    sectionTitle: 'How to Create Drawing Lines Worksheets in 5 Easy Steps',
+    sectionTitle: 'How to Create Free Worksheets for Kids in 5 Easy Steps',
     sectionDescription: 'Create professional drawing lines worksheets in under 3 minutes with our step-by-step process. The generator guides you through every step from template selection to final download. No design experience needed to produce high-quality kindergarten worksheets and first grade worksheets. Follow these five simple steps to create matching worksheets, tracing worksheets, and other printable worksheets your students will love. Each step takes seconds to complete. The entire workflow from start to finished worksheet averages 2-3 minutes for experienced users. New teachers master the process after creating just one or two practice worksheets.',
     ctaText: 'Start Creating Now',
     steps: [
@@ -232,7 +232,7 @@ The generator includes 8 different templates with various line patterns and orie
 
   // Use Cases - FULL descriptions from drawing-lines.md persona sections
   useCases: {
-    sectionTitle: 'Perfect for Teachers, Parents, and Educators',
+    sectionTitle: 'Free Printables for Teachers - Worksheet for Kids',
     sectionDescription: 'Our drawing lines worksheet generator serves diverse educators creating kindergarten worksheets and first grade worksheets daily. Classroom teachers use the platform for lesson plans and differentiated instruction. Parents homeschooling multiple grade levels create customized printable worksheets for each child. Special education specialists design individualized worksheets for specific learning goals. ESL teachers generate multilingual matching worksheets in 11 languages. Teacher entrepreneurs sell worksheet packs on Teachers Pay Teachers and Etsy. Each user type benefits from the unlimited worksheet creation included with Core Bundle subscription. The generator saves time while producing professional-quality results across all educational settings.',
     items: [
       {
@@ -288,7 +288,7 @@ The generator includes 8 different templates with various line patterns and orie
 
   // FAQ Section - ALL questions from drawing-lines.md
   faq: {
-    sectionTitle: 'Frequently Asked Questions',
+    sectionTitle: 'FAQ - Free Worksheet for Kids and Worksheet for Kindergarten',
     sectionDescription: 'Teachers frequently ask questions about creating drawing lines worksheets and other free printable kindergarten worksheets using our generator. This section answers the most common questions about subscription requirements, printing capabilities, customization options, and commercial licensing. Understanding these details helps educators make informed decisions about Core Bundle subscription. The answers clarify how to maximize the platform\'s value for creating first grade worksheets, alphabet worksheets, math worksheets, and other printable worksheets for classroom use.',
     showMoreText: 'Show more questions',
     showLessText: 'Show less',
@@ -418,7 +418,7 @@ The generator includes 8 different templates with various line patterns and orie
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Combine with Other Worksheet Generators',
+    sectionTitle: 'More Free Printables - Worksheet for Kindergarten Generators',
     sectionDescription: 'Your Core Bundle subscription provides access to multiple worksheet generators for creating comprehensive learning packets. Combine drawing lines worksheets with tracing worksheets, alphabet worksheets, and coloring worksheets. Build complete themed units mixing fine motor practice with literacy activities. Create progressive skill development sequences starting with drawing lines and advancing to letter formation.',
     ctaTitle: 'Ready to Create Amazing Worksheets?',
     ctaDescription: 'Join educators creating professional worksheets. Unlimited generation, commercial license included.',

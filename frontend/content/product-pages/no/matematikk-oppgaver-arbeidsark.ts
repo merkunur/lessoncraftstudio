@@ -79,8 +79,8 @@ Hver matematikk oppgave bruker bilder fra vårt bibliotek på 3000+ barnevennlig
 
   // Sample Gallery - REAL file paths from samples/norwegian/math/
   samples: {
-    sectionTitle: 'Matematikk Oppgaver Arbeidsark Eksempler',
-    sectionDescription: 'Last ned gratis eksempler på arbeidsark for å se vår profesjonelle kvalitet',
+    sectionTitle: 'Gratis Arbeidsark for Barn - Gratis Arbeidsark og Gratis Utskrifter',
+    sectionDescription: 'Last ned gratis utskrifter - Gratis arbeidsark for barn av profesjonell kvalitet. Gratis arbeidsark og arbeidsark for barn perfekt for arbeidsark for 1. trinn. Gratis arbeidsark for barn og arbeidsark for barn inkluderer gratis utskrifter undervisningsmateriell. Gratis arbeidsark og arbeidsark for 1. trinn tilgjengelig',
     badgeText: 'Gratis Eksempler',
     downloadLabel: 'Last ned Gratis Eksempel',
     downloadingLabel: 'Laster ned...',
@@ -124,7 +124,7 @@ Hver matematikk oppgave bruker bilder fra vårt bibliotek på 3000+ barnevennlig
 
   // Features Grid - FULL text from math-worksheet.md feature sections
   features: {
-    sectionTitle: 'Funksjoner for Matematikk Oppgaver - Alt Du Trenger for Arbeidsark Gratis',
+    sectionTitle: 'Gratis Arbeidsark og Arbeidsark for Barn - Gratis Utskrifter og Arbeidsark for 1. Trinn',
     sectionDescription: 'Vår matematikk oppgaver generator kombinerer kraftige funksjoner med enkel bruk. Lag profesjonelle matteoppgaver på 3 minutter. Hvert arbeidsark er fullt redigerbart etter generering. Ingen designerferdigheter kreves for å lage flotte oppgavehefter barn elsker. Kjernepakke-abonnementet gir deg tilgang til alle funksjoner uten ekstra kostnader.',
     highlightBadgeText: 'Viktig Funksjon',
     readMoreLabel: 'Les mer',
@@ -218,7 +218,7 @@ Gråskalabryter konverterer til svart-hvitt for blekkbesparelse. Last ned arbeid
 
   // How-To Guide - FULL text from math-worksheet.md step sections
   howTo: {
-    sectionTitle: 'Slik Lager Du Matematikk Oppgaver Arbeidsark på 5 Enkle Trinn - Arbeidsark Gratis med Abonnement',
+    sectionTitle: 'Gratis Arbeidsark for Barn Lage - Arbeidsark for 1. Trinn',
     sectionDescription: 'Lag profesjonelle matematikk oppgaver på under 3 minutter. Følg disse 5 enkle trinnene for å skape engasjerende matteoppgaver. Ingen designerferdigheter kreves. Hver innstilling er intuitiv og lett å forstå for alle lærere. Vår arbeidsark generator kombinerer kraft med enkelhet.',
     ctaText: 'Start Nå',
     badgeText: 'Slik Fungerer Det',
@@ -300,7 +300,7 @@ Last ned fasit separat. Klikk "Fasit JPEG" eller "Fasit PDF". Nå har du to file
 
   // Use Cases - FULL text from math-worksheet.md use case sections
   useCases: {
-    sectionTitle: 'Perfekt for Lærere og Foreldre - Arbeidsark Gratis for Småskoletrinnet og Barnehage',
+    sectionTitle: 'Gratis Arbeidsark for Barn - Arbeidsark for 1. Trinn med Gratis Utskrifter. Arbeidsark for Barn',
     sectionDescription: 'Matematikk oppgaver generator passer mange forskjellige brukere. Lærere på småskoletrinnet bruker den daglig. Barnehagepersonale lager forberedende oppgavehefter barn elsker. Hjemmeskolelærende foreldre skaper egendefinerte læringsressurser. Hver brukergruppe finner unik verdi i vår arbeidsark gratis plattform.',
     badgeText: 'Hvem Er Det For',
     readMoreLabel: 'Les mer',
@@ -383,7 +383,7 @@ Lag nisje oppgavehefter barn andre lærere søker etter. "Halloween matematikk o
 
   // FAQ Section - From math-worksheet.md
   faq: {
-    sectionTitle: 'Ofte Stilte Spørsmål om Matematikk Oppgaver Arbeidsark Gratis og Oppgavehefter Barn',
+    sectionTitle: 'FAQ - Gratis Arbeidsark for Barn og Arbeidsark for 1. Trinn. Arbeidsark for Barn',
     sectionDescription: 'Lærere og foreldre stiller ofte spørsmål om matematikk oppgaver generator. Denne seksjonen svarer på de 12 vanligste spørsmålene om priser, funksjoner og bruk av arbeidsark gratis plattform.',
     showMoreText: 'Vis flere spørsmål',
     showLessText: 'Vis færre',
@@ -488,7 +488,7 @@ Lag nisje oppgavehefter barn andre lærere søker etter. "Halloween matematikk o
 
   // Related Apps - From math-worksheet.md "Kombiner" section
   relatedApps: {
-    sectionTitle: 'Kombiner Matematikk Oppgaver med Andre Arbeidsark Gratis - Komplette Oppgavehefter Barn',
+    sectionTitle: 'Gratis Arbeidsark Kombinere - Arbeidsark for Barn og Gratis Utskrifter',
     sectionDescription: 'LessonCraft Studio tilbyr 33 arbeidsark gratis generatorer på plattformen. Kombiner matematikk oppgaver med andre oppgavehefter barn typer. Lag komplette læringsressurser som dekker alle fag. Kjernepakke gir tilgang til 10 populære generatorer. Full Tilgang gir tilgang til alle 33.',
     ctaTitle: 'Klar til å Lage Fantastiske Arbeidsark?',
     ctaDescription: 'Bli med tusenvis av pedagoger som lager profesjonelle arbeidsark. Ubegrenset oppretting, kommersiell lisens inkludert.',

@@ -97,8 +97,8 @@ Die Arbeitsblätter eignen sich hervorragend für Vorschul-Arbeitsblätter und D
 
   // Sample Gallery - REAL file paths from samples/english/alphabet train/
   samples: {
-    sectionTitle: 'Alphabet-Zug Arbeitsblätter Beispiele',
-    sectionDescription: 'Laden Sie kostenlose Beispiel-Arbeitsblätter herunter, um unsere professionelle Qualität zu sehen',
+    sectionTitle: 'Kostenloses Arbeitsblatt für Kinder - Kostenlose Arbeitsblätter und Kostenlose Druckvorlagen',
+    sectionDescription: 'Laden Sie kostenlose Druckvorlagen herunter - Kostenloses Arbeitsblatt für Kinder in professioneller Qualität für Arbeitsblatt für Vorschule',
     downloadLabel: 'Kostenloses Beispiel Herunterladen',
     worksheetLabel: 'Arbeitsblatt',
     answerKeyLabel: 'Lösungsblatt',
@@ -149,7 +149,7 @@ Die Arbeitsblätter eignen sich hervorragend für Vorschul-Arbeitsblätter und D
 
   // Features Grid - FULL text from alphabet-train.md feature sections
   features: {
-    sectionTitle: 'Funktionen des Alphabet-Zug Generators - Arbeitsblätter Grundschule und Vorschul-Arbeitsblätter',
+    sectionTitle: 'Arbeitsblatt für Kinder - Arbeitsblatt für Vorschule und Kostenlose Arbeitsblätter',
     sectionDescription: 'Unser Alphabet-Zug Generator bietet alle Funktionen die Erzieher und Grundschullehrer benötigen. Erstellen Sie kostenlose Arbeitsblätter für Buchstaben lernen in wenigen Minuten. Jede Funktion wurde speziell für die Bedürfnisse von Vorschule und Grundschule entwickelt.',
     highlightBadgeText: 'Hauptfunktion',
     readMoreLabel: 'Mehr lesen',
@@ -243,7 +243,7 @@ Die Graustufen-Option spart Druckertinte. Wandeln Sie farbige Deutsch-Arbeitsbl�
 
   // How-To Guide - FULL text from alphabet-train.md step sections
   howTo: {
-    sectionTitle: 'Alphabet-Zug Arbeitsblätter erstellen in 5 Schritten - Kostenlose Arbeitsblätter für Buchstaben lernen',
+    sectionTitle: 'Kostenloses Arbeitsblatt für Kinder erstellen - Arbeitsblatt für Vorschule',
     sectionDescription: 'Die Erstellung von Arbeitsblätter Grundschule dauert weniger als 3 Minuten. Folgen Sie diesen fünf einfachen Schritten. Keine Design-Erfahrung erforderlich. Perfekt für Vorschul-Arbeitsblätter und Deutsch-Arbeitsblätter.',
     ctaText: 'Jetzt Erstellen',
     badgeText: 'So funktioniert es',
@@ -315,7 +315,7 @@ Laden Sie beide Dateien herunter. Wählen Sie zwischen JPEG und PDF Format. Beid
 
   // Use Cases - FULL text from alphabet-train.md use case sections
   useCases: {
-    sectionTitle: 'Perfekt für Erzieher und Lehrer - Arbeitsblätter Grundschule und Vorschul-Arbeitsblätter für jeden Bedarf',
+    sectionTitle: 'Kostenloses Arbeitsblatt für Kinder - Arbeitsblatt für Vorschule mit Kostenlose Druckvorlagen',
     sectionDescription: 'Der Alphabet-Zug Generator eignet sich für verschiedenste Einsatzbereiche im Bildungswesen. Erzieher in der Vorschule nutzen ihn für Buchstaben lernen Aktivitäten. Grundschullehrer erstellen Deutsch-Arbeitsblätter für die 1. bis 3. Klasse.',
     badgeText: 'Anwendungsbereiche',
     readMoreLabel: 'Mehr lesen',
@@ -398,7 +398,7 @@ Erfolgreiche Lehrer-Unternehmer erzielen 500 bis 5000 Euro monatlich mit Arbeits
 
   // FAQ Section - FULL FAQs from alphabet-train.md
   faq: {
-    sectionTitle: 'Häufig gestellte Fragen zu Arbeitsblätter Grundschule und Vorschul-Arbeitsblätter',
+    sectionTitle: 'FAQ - Kostenloses Arbeitsblatt für Kinder und Arbeitsblatt für Vorschule',
     sectionDescription: 'Erzieher und Lehrer haben viele Fragen zum Alphabet-Zug Generator. Hier beantworten wir die häufigsten Fragen zu Arbeitsblätter Grundschule, Deutsch-Arbeitsblätter und Buchstaben lernen Materialien.',
     showMoreText: 'Mehr Fragen anzeigen',
     showLessText: 'Weniger anzeigen',
@@ -503,7 +503,7 @@ Erfolgreiche Lehrer-Unternehmer erzielen 500 bis 5000 Euro monatlich mit Arbeits
 
   // Related Apps - Kombinieren Sie Alphabet-Zug mit anderen Generatoren
   relatedApps: {
-    sectionTitle: 'Kombinieren Sie Alphabet-Zug mit anderen Generatoren - Ganzheitliche Arbeitsblätter Grundschule',
+    sectionTitle: 'Kostenlose Arbeitsblätter kombinieren - Arbeitsblatt für Kinder und Kostenlose Druckvorlagen',
     sectionDescription: 'Ihr Basis-Paket Abonnement beinhaltet 10 Premium-Generatoren, die perfekt zusammenarbeiten. Kombinieren Sie Buchstaben lernen mit Mathe-Arbeitsblätter. Integrieren Sie Schwungübungen für Schreibvorbereitung. Verbinden Sie mit Ausmalbilder für feinmotorische Förderung.',
     ctaTitle: 'Bereit, fantastische Arbeitsblätter zu erstellen?',
     ctaDescription: 'Schließen Sie sich tausenden Lehrkräften an, die professionelle Alphabet-Zug Arbeitsblätter erstellen. Unbegrenzte Generierung, kommerzielle Lizenz inklusive.',

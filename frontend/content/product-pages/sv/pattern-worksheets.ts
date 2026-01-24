@@ -87,8 +87,8 @@ Vår generator erbjuder 9 olika mönstertyper från enkla AB-mönster till avanc
 
   // Sample Gallery - REAL file paths from samples/english/pattern worksheet/
   samples: {
-    sectionTitle: 'Gratis Arbetsblad Mönster - Exempel för Barn och Förskoleklass',
-    sectionDescription: 'Ladda ner gratis exempelarbetsblad för att se vår professionella kvalitet',
+    sectionTitle: 'Gratis Arbetsblad för Barn - Gratis Arbetsblad och Gratis Utskrifter',
+    sectionDescription: 'Ladda ner gratis utskrifter - Gratis arbetsblad för barn av professionell kvalitet. Gratis arbetsblad och arbetsblad för barn perfekt för arbetsblad för förskoleklass. Gratis arbetsblad för barn och arbetsblad för barn inkluderar utbildningsmaterial. Gratis arbetsblad och gratis utskrifter tillgänglig',
     downloadLabel: 'Ladda Ner Gratis Exempel',
     worksheetLabel: 'Arbetsblad',
     answerKeyLabel: 'Facit',
@@ -139,7 +139,7 @@ Vår generator erbjuder 9 olika mönstertyper från enkla AB-mönster till avanc
 
   // Features Grid - FULL descriptions from pattern-worksheet.md H3 sections
   features: {
-    sectionTitle: 'Mönsterigenkänning Funktioner - Allt du Behöver för Arbetsblad Gratis och Matematik Arbetsblad',
+    sectionTitle: 'Gratis Arbetsblad och Arbetsblad för Barn - Gratis Utskrifter och Arbetsblad för Förskoleklass',
     sectionDescription: 'Vår mönsterigenkänning generator erbjuder alla funktioner du behöver för att skapa professionella arbetsblad gratis. Verktyget kombinerar kraftfulla anpassningsmöjligheter med användarvänlighet perfekt för att skapa matematik arbetsblad och förskoleklass material. Du får tillgång till 9 olika mönstertyper, 3000+ barnvänliga bilder, anpassningsbara ramar och bakgrunder, samt export i professionell 300 DPI-kvalitet.',
     highlightBadgeText: 'Nyckelfunktion',
     readMoreLabel: 'Läs mer',
@@ -244,7 +244,7 @@ Denna flexibilitet gör det möjligt att differentiera undervisningen effektivt.
 
   // How-To Guide - FULL text from pattern-worksheet.md Step sections
   howTo: {
-    sectionTitle: 'Hur Man Skapar Mönsterigenkänning Arbetsblad i 5 Enkla Steg',
+    sectionTitle: 'Gratis Arbetsblad för Barn Skapa - Arbetsblad för Förskoleklass och Gratis Utskrifter',
     sectionDescription: 'Skapa professionella mönsterigenkänning arbetsblad på under 3 minuter med vårt enkla 5-stegsverktyg. Processen är designad för att spara lärare tid samtidigt som den producerar högkvalitativa arbetsblad gratis för förskoleklass och lågstadiet. Inga designkunskaper eller teknisk kunskap krävs.',
     ctaText: 'Börja Skapa Nu',
     badgeText: 'Så Fungerar Det',
@@ -316,7 +316,7 @@ Facit exporteras automatiskt som en separat sida i PDF-filen vilket underlättar
 
   // Use Cases - FULL descriptions from pattern-worksheet.md persona sections
   useCases: {
-    sectionTitle: 'Gratis Arbetsblad för Barn - Perfekt för Lärare, Föräldrar och Förskoleklass',
+    sectionTitle: 'Gratis Arbetsblad för Barn - Arbetsblad för Förskoleklass med Gratis Utskrifter. Arbetsblad för Barn',
     sectionDescription: 'Mönsterigenkänning arbetsblad tjänar olika undervisningssituationer och elevers behov. Från förskoleklass till årskurs 3 använder lärare dessa arbetsblad för att utveckla logiskt tänkande och problemlösning. Verktyget skapar arbetsblad gratis som passar alla ämnesområden och svårighetsnivåer.',
     badgeText: 'Vem Det Är För',
     readMoreLabel: 'Läs mer',
@@ -399,7 +399,7 @@ Skapa obegränsade arbetsblad utan oro för licensbegränsningar. 300 DPI-kvalit
 
   // FAQ Section - ALL questions from pattern-worksheet.md
   faq: {
-    sectionTitle: 'Vanliga Frågor om Gratis Arbetsblad Mönster för Förskoleklass',
+    sectionTitle: 'FAQ - Gratis Arbetsblad för Barn och Arbetsblad för Förskoleklass med Gratis Utskrifter. Arbetsblad för Barn',
     sectionDescription: 'Lärare och föräldrar har många frågor om mönsterigenkänning arbetsblad innan de börjar använda verktyget. Denna FAQ-sektion svarar på de vanligaste frågorna om hur man skapar arbetsblad gratis, integration med matematik arbetsblad och användning av förskoleklass material.',
     showMoreText: 'Visa fler frågor',
     showLessText: 'Visa färre',
@@ -502,7 +502,7 @@ Skapa obegränsade arbetsblad utan oro för licensbegränsningar. 300 DPI-kvalit
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Gratis Utskrifter - Kombinera med Andra Arbetsblad för Barn',
+    sectionTitle: 'Gratis Arbetsblad Kombinera - Arbetsblad för Barn och Gratis Utskrifter',
     sectionDescription: 'Skapa kompletta lärpaket genom att kombinera mönsterigenkänning arbetsblad med dessa kompletterande generatorer.',
     ctaTitle: 'Redo att Skapa Fantastiska Arbetsblad?',
     ctaDescription: 'Gå med tusentals lärare som skapar professionella arbetsblad. Obegränsad generering, kommersiell licens ingår.',

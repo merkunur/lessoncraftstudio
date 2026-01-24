@@ -85,8 +85,8 @@ Ontwerp werkbladen groep 3 die perfect aansluiten bij jouw lesmateriaal. Kies ui
 
   // Sample Gallery
   samples: {
-    sectionTitle: 'Gratis Werkbladen Voorbeelden - Verbindingswerkbladen voor Kinderen',
-    sectionDescription: 'Download gratis voorbeeldwerkbladen om onze professionele kwaliteit te ervaren',
+    sectionTitle: 'Gratis Werkblad voor Kinderen - Gratis Werkbladen en Gratis Printables',
+    sectionDescription: 'Download gratis printables - Gratis werkblad voor kinderen van professionele kwaliteit. Gratis werkbladen en werkblad voor kinderen perfect voor werkblad voor kleuters. Gratis werkblad voor kinderen en werkblad voor kinderen inclusief educatief materiaal. Gratis werkblad beschikbaar',
     downloadLabel: 'Gratis Voorbeeld Downloaden',
     worksheetLabel: 'Werkblad',
     answerKeyLabel: 'Antwoordblad',
@@ -123,7 +123,7 @@ Ontwerp werkbladen groep 3 die perfect aansluiten bij jouw lesmateriaal. Kies ui
 
   // Features Grid
   features: {
-    sectionTitle: 'Functies van de Gratis Werkbladen Generator - Werkblad voor Kinderen en Kleuters Maken',
+    sectionTitle: 'Gratis Werkbladen en Werkblad voor Kinderen - Gratis Printables en Werkblad voor Kleuters',
     sectionDescription: 'Onze verbindingswerkbladen generator bevat alle functies die leerkrachten nodig hebben. Van werkbladen kleuters tot werkbladen groep 3 en hoger. Hieronder vind je een overzicht van de zeven belangrijkste functies. Elke functie is ontworpen om tijd te besparen en professionele resultaten te leveren.',
     highlightBadgeText: 'Uitgelicht',
     readMoreLabel: 'Lees meer',
@@ -383,7 +383,7 @@ Kleurplaten thema's maken lessen visueel aantrekkelijk. Combineer verbindingsopd
 
   // FAQ Section
   faq: {
-    sectionTitle: 'Veelgestelde Vragen over Gratis Werkbladen - Werkblad voor Kinderen en Gratis Printables',
+    sectionTitle: 'FAQ - Gratis Werkblad voor Kinderen en Werkblad voor Kleuters. Werkblad voor Kinderen',
     sectionDescription: 'Hieronder beantwoorden we de meest gestelde vragen over onze verbindingswerkbladen generator. Van werkbladen kleuters tot rekenen werkbladen voor hogere groepen. Vind antwoorden op al je vragen over tafels oefenen, letters leren en meer.',
     showMoreText: 'Meer vragen tonen',
     showLessText: 'Minder tonen',
@@ -488,7 +488,7 @@ Kleurplaten thema's maken lessen visueel aantrekkelijk. Combineer verbindingsopd
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Combineer Gratis Werkbladen Apps - Werkblad voor Kinderen met Gratis Printables',
+    sectionTitle: 'Gratis Werkbladen Combineren - Werkblad voor Kinderen en Gratis Printables',
     sectionDescription: 'De Basispakket bevat tien werkbladgeneratoren die perfect samenwerken. Combineer verbindingswerkbladen met andere tools voor gevarieerde lessen. Maak complete lespakketten voor werkbladen kleuters en hogere groepen.',
     ctaTitle: 'Klaar om geweldige werkbladen te maken?',
     ctaDescription: 'Sluit je aan bij duizenden leerkrachten die professionele werkbladen maken. Onbeperkt genereren, commerciële licentie inbegrepen.',

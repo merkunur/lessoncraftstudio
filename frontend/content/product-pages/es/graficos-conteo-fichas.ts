@@ -85,8 +85,8 @@ Los maestros de preescolar usan estas fichas para imprimir para enseñar clasifi
 
   // Sample Gallery - REAL file paths from samples/english/chart count/
   samples: {
-    sectionTitle: 'Ejemplos de Fichas de Gráficos con Imágenes',
-    sectionDescription: 'Descarga ejemplos gratuitos para ver nuestra calidad profesional',
+    sectionTitle: 'Ficha Gratis para Niños - Fichas Gratis e Imprimibles Gratis',
+    sectionDescription: 'Descarga imprimibles gratis - Ficha gratis para niños de calidad profesional. Ficha para niños perfecta para ficha para preescolar. Ficha gratis para niños y ficha para niños incluyen material educativo. Ficha gratis disponible',
     downloadLabel: 'Descargar Ejemplo Gratis',
     worksheetLabel: 'Ficha',
     answerKeyLabel: 'Clave de Respuestas',
@@ -137,7 +137,7 @@ Los maestros de preescolar usan estas fichas para imprimir para enseñar clasifi
 
   // Features Grid - FULL text from chart-count.md feature sections
   features: {
-    sectionTitle: 'Funcionalidades del Generador de Gráficos con Imágenes - Fichas de Matemáticas y Ejercicios para Aprender los Números con Material Educativo Gratis',
+    sectionTitle: 'Fichas Gratis y Ficha para Niños - Imprimibles Gratis y Ficha para Preescolar',
     sectionDescription: 'Nuestro generador de gráficos con imágenes ofrece herramientas profesionales para crear fichas para imprimir personalizadas. Cada funcionalidad está diseñada para facilitar la creación de fichas gratis de alta calidad. Los maestros generan ejercicios matemáticas completos en minutos. Las funcionalidades permiten personalización total para fichas preescolar y primaria.',
     highlightBadgeText: 'Característica Clave',
     readMoreLabel: 'Leer más',
@@ -231,7 +231,7 @@ La opción de escala de grises ahorra tinta al imprimir fichas preescolar en can
 
   // How-To Guide - FULL text from chart-count.md step sections
   howTo: {
-    sectionTitle: 'Cómo Crear Fichas para Imprimir de Gráficos en 5 Pasos Sencillos - Ejercicios Matemáticas y Fichas Gratis Listos en Menos de 3 Minutos',
+    sectionTitle: 'Ficha Gratis para Niños Crear - Ficha para Preescolar',
     sectionDescription: 'Crear fichas preescolar de gráficos con imágenes es rápido y sencillo. El proceso completo toma menos de 3 minutos de principio a fin. Cualquier maestro puede generar fichas de matemáticas profesionales sin experiencia en diseño. Los cinco pasos guían la creación de material educativo gratis personalizado perfecto para tu grupo.',
     ctaText: 'Comenzar Ahora',
     badgeText: 'Cómo Funciona',
@@ -303,7 +303,7 @@ Descarga tanto la hoja de trabajo como la clave de respuestas en archivos separa
 
   // Use Cases Section - FULL text from chart-count.md audience sections
   useCases: {
-    sectionTitle: 'Fichas para Imprimir de Gráficos para Todos los Educadores - Ejercicios Matemáticas y Material Educativo Gratis para Cada Necesidad',
+    sectionTitle: 'Ficha Gratis para Niños - Ficha para Preescolar con Imprimibles Gratis. Ficha para Niños',
     sectionDescription: 'Los gráficos con imágenes benefician a diversos tipos de educadores y contextos educativos. Las fichas preescolar de conteo visual funcionan perfectamente desde educación inicial hasta primaria baja. Cada grupo de usuarios encuentra aplicaciones únicas para estas fichas gratis. El material educativo gratis se adapta a múltiples filosofías y metodologías de enseñanza.',
     badgeText: 'Para Quién',
     readMoreLabel: 'Leer más',
@@ -433,7 +433,7 @@ Los docentes exitosos ganan entre $500 y $5000 mensuales vendiendo material educ
 
   // FAQ Section - FULL text from chart-count.md FAQ sections
   faq: {
-    sectionTitle: 'Preguntas Frecuentes sobre Gráficos con Imágenes - Fichas para Imprimir de Grafomotricidad, Lectoescritura y Dibujos para Colorear',
+    sectionTitle: 'FAQ - Ficha Gratis para Niños y Ficha para Preescolar. Ficha para Niños',
     sectionDescription: 'Los maestros tienen preguntas comunes sobre las fichas infantil de gráficos con imágenes. Las respuestas aclaran funcionalidad, compatibilidad y opciones educativas. Las fichas preescolar de conteo visual son versátiles para múltiples aplicaciones. El material educativo gratis generado se adapta a diversas necesidades pedagógicas.',
     showMoreText: 'Ver más preguntas',
     showLessText: 'Ver menos',
@@ -538,7 +538,7 @@ Ajusta complejidad según habilidades individuales independientemente de edad cr
 
   // Related Apps Section
   relatedApps: {
-    sectionTitle: 'Combina Gráficos con Otros Generadores - Fichas para Imprimir de Tablas de Multiplicar, Grafomotricidad y Lectoescritura para Unidades Temáticas Completas',
+    sectionTitle: 'Fichas Gratis Combinar - Ficha para Niños e Imprimibles Gratis',
     sectionDescription: 'Los maestros combinan gráficos con otros generadores de la plataforma para crear unidades temáticas coherentes. Tu suscripción Acceso Completo incluye todos los 33 generadores sin costo adicional. Las fichas infantil integradas maximizan conexiones curriculares entre materias. El material educativo gratis coordinado refuerza conceptos desde múltiples perspectivas pedagógicas.',
     ctaTitle: '¿Listo para Crear Fichas de Gráficos Increíbles?',
     ctaDescription: 'Únete a miles de maestros que crean fichas profesionales. Generación ilimitada, licencia comercial incluida.',

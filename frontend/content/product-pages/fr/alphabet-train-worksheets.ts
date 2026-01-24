@@ -85,8 +85,8 @@ Chaque fiche alphabet présente un modèle de train coloré avec onze wagons. Le
 
   // Sample Gallery - REAL file paths from samples/english/alphabet train/
   samples: {
-    sectionTitle: 'Exemples de Fiches Alphabet',
-    sectionDescription: 'Téléchargez des exemples gratuits pour voir notre qualité professionnelle',
+    sectionTitle: 'Fiche Gratuite pour Enfants - Fiches Gratuites et Imprimables Gratuits',
+    sectionDescription: 'Téléchargez imprimables gratuits - Fiche gratuite pour enfants de qualité professionnelle. Fiches gratuites et fiche pour enfants parfaites pour fiche pour maternelle. Fiche gratuite pour enfants et fiches gratuites inclus matériel éducatif. Fiche gratuite et fiches gratuites disponible',
     downloadLabel: 'Télécharger Exemple Gratuit',
     worksheetLabel: 'Fiche',
     answerKeyLabel: 'Corrigé',
@@ -137,7 +137,7 @@ Chaque fiche alphabet présente un modèle de train coloré avec onze wagons. Le
 
   // Features Grid - FULL text from alphabet-train.md feature sections
   features: {
-    sectionTitle: 'Fonctionnalités du Train Alphabet - Tout ce qu\'il Faut pour Créer des Fiches Maternelle et Apprendre les Lettres',
+    sectionTitle: 'Fiches Gratuites et Fiche pour Enfants - Imprimables Gratuits et Fiche pour Maternelle',
     sectionDescription: 'Notre générateur de train alphabet comprend des fonctionnalités puissantes conçues spécifiquement pour l\'éducation en maternelle. Créez des fiches alphabet professionnelles plus rapidement qu\'avec les méthodes traditionnelles. Les enseignants économisent trente à soixante minutes par fiche comparé à la création manuelle.',
     highlightBadgeText: 'Fonctionnalité Clé',
     readMoreLabel: 'Lire la suite',
@@ -231,7 +231,7 @@ Générez automatiquement des versions fiche de travail et corrigé pour chaque 
 
   // How-To Guide - FULL text from alphabet-train.md step sections
   howTo: {
-    sectionTitle: 'Comment Créer des Fiches Alphabet en 5 Étapes Faciles',
+    sectionTitle: 'Fiche Gratuite pour Enfants Créer - Fiche pour Maternelle',
     sectionDescription: 'Créer des fiches alphabet professionnelles prend moins de trois minutes du début à la fin. Ce guide étape par étape montre exactement comment générer des fiches personnalisées pour votre classe. Aucune expérience en design n\'est nécessaire.',
     ctaText: 'Commencer Maintenant',
     badgeText: 'Comment Ça Marche',
@@ -303,7 +303,7 @@ Imprimez votre fiche alphabet immédiatement ou sauvegardez-la pour une utilisat
 
   // Use Cases - FULL text from alphabet-train.md use case sections
   useCases: {
-    sectionTitle: 'Parfait pour les Enseignants et les Parents',
+    sectionTitle: 'Fiche Gratuite pour Enfants - Fiche pour Maternelle avec Imprimables Gratuits. Fiche pour Enfants',
     sectionDescription: 'Les fiches alphabet servent des environnements éducatifs divers et des situations d\'enseignement variées à tous les niveaux. Les enseignants de maternelle utilisent les fiches alphabet pour l\'instruction quotidienne en littératie. Les parents en instruction à domicile comptent sur les fiches pour un apprentissage structuré à la maison.',
     badgeText: 'Pour Qui',
     readMoreLabel: 'Lire la suite',
@@ -386,7 +386,7 @@ Les marchés de niche paient des prix premium pour des fiches alphabet spéciali
 
   // FAQ Section - Selected FAQs from alphabet-train.md
   faq: {
-    sectionTitle: 'Questions Fréquentes',
+    sectionTitle: 'FAQ - Fiche Gratuite pour Enfants et Fiche pour Maternelle. Fiche pour Enfants',
     sectionDescription: 'Questions fréquentes sur notre générateur de fiches alphabet et nos fiches à imprimer gratuit.',
     showMoreText: 'Voir plus de questions',
     showLessText: 'Voir moins',
@@ -481,7 +481,7 @@ Les marchés de niche paient des prix premium pour des fiches alphabet spéciali
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Combinez avec d\'Autres Générateurs de Fiches',
+    sectionTitle: 'Fiches Gratuites Combiner - Fiche pour Enfants et Imprimables Gratuits',
     sectionDescription: 'Créez des paquets d\'apprentissage complets en combinant les fiches alphabet avec ces générateurs complémentaires.',
     ctaTitle: 'Prêt à Créer des Fiches Fantastiques ?',
     ctaDescription: 'Rejoignez des milliers d\'enseignants qui créent des fiches professionnelles. Génération illimitée, licence commerciale incluse.',

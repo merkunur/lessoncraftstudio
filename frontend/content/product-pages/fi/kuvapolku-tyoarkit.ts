@@ -53,8 +53,8 @@ Työkalumme tekee laadukkaiden tehtävien luomisesta nopeaa. Valitse teema tai y
 
   // Sample Gallery - REAL file paths from samples/english/picture path/
   samples: {
-    sectionTitle: 'Kuvapolku Tehtävät Esimerkit',
-    sectionDescription: 'Lataa ilmaiset esimerkkityöarkit nähdäksesi ammattimaisen laatumme',
+    sectionTitle: 'Ilmainen Työarkki Lapsille - Ilmaiset Työarkit ja Ilmaiset Tulosteet',
+    sectionDescription: 'Lataa ilmaiset tulosteet - Ilmainen työarkki lapsille ammattimaista laatua. Ilmaiset työarkit ja työarkki lapsille täydellinen työarkki esiopetukseen. Ilmainen työarkki lapsille ja työarkki lapsille sisältää ilmaiset tulosteet ja ilmaiset työarkit opetusmateriaalin. Ilmainen työarkki ja työarkki esiopetukseen saatavilla',
     downloadLabel: 'Lataa Ilmainen Esimerkki',
     worksheetLabel: 'Tehtävämoniste',
     answerKeyLabel: 'Vastausavain',
@@ -91,7 +91,7 @@ Työkalumme tekee laadukkaiden tehtävien luomisesta nopeaa. Valitse teema tai y
 
   // Features Grid - FULL text from Finnish picture-path.md feature sections
   features: {
-    sectionTitle: 'Kuvapolku Tehtävät - Tulostettavat Tehtävät Lapsille Ilmainen ja Hienomotoriikka Harjoitukset',
+    sectionTitle: 'Ilmaiset Työarkit ja Työarkki Lapsille - Ilmaiset Tulosteet ja Työarkki Esiopetukseen',
     sectionDescription: 'Kuvapolkutyökalumme sisältää kaiken mitä tarvitset ammattimaisten tehtävien luomiseen. Täysi Käyttöoikeus -tilauksesi antaa pääsyn kaikkiin ominaisuuksiin ilman lisämaksuja. Luo esiopetus materiaali, matematiikka tehtävät alakoulu ja hienomotoriikka harjoitukset. Kaikki samalla alustalla. Kaikki samalla tilauksella.',
     highlightBadgeText: 'Tärkeä Ominaisuus',
     readMoreLabel: 'Lue lisää',
@@ -199,7 +199,7 @@ Lataa sekä tehtävä että vastausavain erikseen. Vastausavain näyttää oikea
 
   // How-To Guide - FULL text from Finnish picture-path.md step sections
   howTo: {
-    sectionTitle: 'Kuinka Luoda Tulostettavat Tehtävät Lapsille Ilmainen ja Hienomotoriikka Harjoitukset 5 Helpossa Vaiheessa',
+    sectionTitle: 'Ilmainen Työarkki Lapsille Luoda - Työarkki Esiopetukseen',
     sectionDescription: 'Luo ammattimaiset kuvapolkutehtävät alle 3 minuutissa. Viisi yksinkertaista vaihetta alusta loppuun. Ei monimutkaisia asetuksia. Ei pitkää oppimiskäyrää. Pelkkä nopea, helppo tehtävien luominen.',
     ctaText: 'Aloita Luominen Nyt',
     badgeText: 'Näin Se Toimii',
@@ -281,7 +281,7 @@ Valitse harmaasävy säästääksesi mustetta. Erityisen hyödyllinen luokkahuon
 
   // Use Cases - FULL text from Finnish picture-path.md use case sections
   useCases: {
-    sectionTitle: 'Täydellinen Opettajille ja Vanhemmille - Värityskuvia Lapsille Tulostettava ja Kertotaulut Tulostettava',
+    sectionTitle: 'Ilmainen Työarkki Lapsille - Työarkki Esiopetukseen ja Ilmaiset Tulosteet. Työarkki Lapsille',
     sectionDescription: 'Kuvapolkutehtävät palvelevat laajaa käyttäjäkuntaa. Esiopetuksen opettajat alakoulun opettajiin. Kotiopettajat kielenopettajiin. Erityisopettajat opettajayrittäjiin. Jokainen löytää arvoa tälle työkalulle.',
     badgeText: 'Kenelle Sopii',
     readMoreLabel: 'Lue lisää',
@@ -376,7 +376,7 @@ Monet opettajat tienaavat 500-3000 euroa kuukaudessa. Aloita pienellä tuotevali
 
   // FAQ Section - Selected FAQs from Finnish picture-path.md
   faq: {
-    sectionTitle: 'Usein Kysytyt Kysymykset - Hienomotoriikka Harjoitukset ja Esiopetus Materiaali',
+    sectionTitle: 'FAQ - Ilmainen Työarkki Lapsille ja Työarkki Esiopetukseen. Työarkki Lapsille',
     sectionDescription: 'Vastaukset yleisimpiin kysymyksiin kuvapolkutehtävistä. Hinnoittelusta ominaisuuksiin. Käytöstä räätälöintiin. Kaikki mitä tarvitset tietää ennen aloittamista.',
     showMoreText: 'Näytä lisää kysymyksiä',
     showLessText: 'Näytä vähemmän',
@@ -504,7 +504,7 @@ Monet opettajat tienaavat 500-3000 euroa kuukaudessa. Aloita pienellä tuotevali
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Yhdistä Muihin Tehtävämonistegeneraattoreihin',
+    sectionTitle: 'Ilmaiset Työarkit Yhdistää - Työarkki Lapsille ja Ilmaiset Tulosteet',
     sectionDescription: 'Luo kattavia oppimispaketteja yhdistämällä kuvapolkutehtävät näihin täydentäviin generaattoreihin.',
     ctaTitle: 'Valmiina Luomaan Upeita Tehtävämonisteitä?',
     ctaDescription: 'Liity tuhansien opettajien joukkoon, jotka luovat ammattimaisia tehtävämonisteitä. Rajoittamaton generointi, kaupallinen lisenssi sisältyy.',

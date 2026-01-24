@@ -79,8 +79,8 @@ Este gerador cria atividades para imprimir que combinam reconhecimento de imagen
 
   // Sample Gallery - Portuguese samples
   samples: {
-    sectionTitle: 'Exemplos de Atividades Grátis de Adivinhar Palavras - Imprimíveis Grátis',
-    sectionDescription: 'Baixe exemplos gratuitos para ver nossa qualidade profissional',
+    sectionTitle: 'Atividade Grátis para Crianças - Atividades Grátis e Imprimíveis Grátis',
+    sectionDescription: 'Baixe imprimíveis grátis - Atividade grátis para crianças de qualidade profissional. Atividades grátis e atividade para crianças perfeitas para atividade para educação infantil. Atividade grátis para crianças e atividade para crianças incluem material educativo. Atividade grátis disponível',
     downloadLabel: 'Baixar Exemplo Grátis',
     worksheetLabel: 'Atividade',
     answerKeyLabel: 'Gabarito',
@@ -124,7 +124,7 @@ Este gerador cria atividades para imprimir que combinam reconhecimento de imagen
 
   // Features Grid
   features: {
-    sectionTitle: 'Recursos do Gerador - Atividades Grátis de Adivinhar Palavras para Crianças',
+    sectionTitle: 'Atividades Grátis e Atividade para Crianças - Imprimíveis Grátis e Atividade para Educação Infantil',
     sectionDescription: 'O gerador de adivinhar palavras oferece recursos completos para educadores. Cada função foi projetada pensando em professores ocupados. Crie atividades para imprimir personalizadas sem conhecimento técnico. A interface intuitiva permite gerar fichas profissionais em minutos.',
     highlightBadgeText: 'Recurso Principal',
     readMoreLabel: 'Leia mais',
@@ -204,7 +204,7 @@ A opção escala de cinza economiza tinta colorida. Imagens se transformam em ex
 
   // How-To Guide
   howTo: {
-    sectionTitle: 'Como Criar Atividades Grátis de Adivinhar Palavras - Imprimíveis Grátis',
+    sectionTitle: 'Atividade Grátis para Crianças Criar - Atividade para Educação Infantil',
     sectionDescription: 'Criar atividades para imprimir profissionais leva menos de 3 minutos. Este guia mostra cada etapa do processo. Siga os passos e produza fichas pedagógicas de qualidade. Nenhuma experiência em design é necessária.',
     ctaText: 'Comece Agora',
     badgeText: 'Como Funciona',
@@ -288,7 +288,7 @@ Opção Escala de Cinza: Ative para converter imagens coloridas em preto e branc
 
   // Use Cases
   useCases: {
-    sectionTitle: 'Quem Usa o Gerador - Atividade Grátis para Crianças de Adivinhar Palavras',
+    sectionTitle: 'Atividade Grátis para Crianças - Atividade para Educação Infantil com Imprimíveis Grátis. Atividade para Crianças',
     sectionDescription: 'O gerador de adivinhar palavras atende educadores diversos. Cada perfil encontra recursos específicos para suas necessidades. Descubra como diferentes profissionais aproveitam a ferramenta.',
     badgeText: 'Para Quem',
     readMoreLabel: 'Leia mais',
@@ -371,7 +371,7 @@ Atividades de alfabetização com vocabulário específico atendem nichos lucrat
 
   // FAQ Section
   faq: {
-    sectionTitle: 'Perguntas Frequentes sobre Atividades Grátis de Adivinhar Palavras',
+    sectionTitle: 'FAQ - Atividade Grátis para Crianças e Atividade para Educação Infantil. Atividade para Crianças',
     sectionDescription: 'Professores têm dúvidas comuns sobre o gerador. Esta seção responde às perguntas mais frequentes.',
     showMoreText: 'Mostrar mais perguntas',
     showLessText: 'Mostrar menos',
@@ -500,7 +500,7 @@ Atividades de alfabetização com vocabulário específico atendem nichos lucrat
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Combine Atividades Grátis de Adivinhar Palavras com Outros Geradores',
+    sectionTitle: 'Atividades Grátis Combinar - Atividade para Crianças e Imprimíveis Grátis',
     sectionDescription: 'Crie pacotes de aprendizagem completos combinando adivinhar palavras com estes geradores complementares.',
     ctaTitle: 'Pronto para Criar Atividades Incríveis?',
     ctaDescription: 'Junte-se a milhares de educadores que criam atividades profissionais. Geração ilimitada, licença comercial incluída.',

@@ -87,8 +87,8 @@ Ces fiches mathématiques fonctionnent idéalement pour les centres de numérati
 
   // Sample Gallery - REAL file paths from samples/english/math worksheet/
   samples: {
-    sectionTitle: 'Exemples de Fiches',
-    sectionDescription: 'Téléchargez des exemples gratuits pour voir notre qualité professionnelle',
+    sectionTitle: 'Fiche Gratuite pour Enfants - Fiches Gratuites et Imprimables Gratuits',
+    sectionDescription: 'Téléchargez imprimables gratuits - Fiche gratuite pour enfants de qualité professionnelle. Fiches gratuites et fiche pour enfants parfaites pour fiche pour maternelle. Fiche gratuite pour enfants et fiches gratuites inclus matériel éducatif. Fiche gratuite et fiches gratuites disponible',
     downloadLabel: 'Télécharger Exemple Gratuit',
     worksheetLabel: 'Fiche',
     answerKeyLabel: 'Corrigé',
@@ -139,7 +139,7 @@ Ces fiches mathématiques fonctionnent idéalement pour les centres de numérati
 
   // Features Grid - FULL descriptions from math-worksheet.md H3 sections
   features: {
-    sectionTitle: 'Tout ce Dont Vous Avez Besoin pour Créer des Fiches à Imprimer Gratuit',
+    sectionTitle: 'Fiches Gratuites et Fiche pour Enfants - Imprimables Gratuits et Fiche pour Maternelle',
     sectionDescription: 'Notre générateur d\'exercices maths inclut sept fonctionnalités puissantes pour créer des fiches maternelle de qualité professionnelle. Votre abonnement Pack Essentiel vous donne accès à toutes les fonctionnalités avec création illimitée. Créez des fiches à imprimer gratuit personnalisées pour les besoins spécifiques de vos élèves. Chaque fonctionnalité travaille ensemble pour vous faire gagner du temps tout en produisant des exercices CP et exercices CE1 de haute qualité.',
     highlightBadgeText: 'Fonctionnalité Clé',
     readMoreLabel: 'Lire la suite',
@@ -205,7 +205,7 @@ Ces fiches mathématiques fonctionnent idéalement pour les centres de numérati
 
   // How-To Guide - FULL text from math-worksheet.md Step sections
   howTo: {
-    sectionTitle: 'Comment Créer des Exercices Maths en 5 Étapes Faciles',
+    sectionTitle: 'Fiche Gratuite pour Enfants Créer - Fiche pour Maternelle',
     sectionDescription: 'Créer des exercices maths professionnels prend moins de trois minutes avec notre générateur. Suivez ces cinq étapes simples pour produire des fiches maternelle et des exercices CP de qualité. Aucune expérience en design requise. Aucun logiciel compliqué à apprendre. Sélectionnez simplement vos options et générez des fiches à imprimer gratuit instantanément. Votre abonnement Pack Essentiel vous donne un accès illimité pour créer autant d\'exercices CE1 et de puzzles mathématiques que nécessaire.',
     ctaText: 'Commencer Maintenant',
     badgeText: 'Comment Ça Marche',
@@ -257,7 +257,7 @@ Ces fiches mathématiques fonctionnent idéalement pour les centres de numérati
 
   // Use Cases - FULL descriptions from math-worksheet.md persona sections
   useCases: {
-    sectionTitle: 'Parfait pour les Enseignants et Éducateurs',
+    sectionTitle: 'Fiche Gratuite pour Enfants - Fiche pour Maternelle avec Imprimables Gratuits. Fiche pour Enfants',
     sectionDescription: 'Les exercices maths de décodage par symboles bénéficient à de multiples contextes éducatifs. Les enseignants de maternelle utilisent les puzzles visuels pour introduire le raisonnement logique. Les professeurs de CP et CE1 renforcent les faits mathématiques avec une pratique stimulante. Les parents en instruction à domicile créent des exercices personnalisés pour leurs enfants. Les enseignants spécialisés adaptent les fiches aux besoins individuels. Les enseignants entrepreneurs vendent leurs créations sur les plateformes éducatives. Votre abonnement Pack Essentiel sert tous ces objectifs avec une seule inscription.',
     badgeText: 'Pour Qui',
     readMoreLabel: 'Lire la suite',
@@ -316,7 +316,7 @@ Ces fiches mathématiques fonctionnent idéalement pour les centres de numérati
 
   // FAQ Section - ALL 12 questions from math-worksheet.md
   faq: {
-    sectionTitle: 'Questions Fréquentes',
+    sectionTitle: 'FAQ - Fiche Gratuite pour Enfants et Fiche pour Maternelle. Fiche pour Enfants',
     sectionDescription: 'Découvrez les réponses aux questions les plus posées sur notre générateur de puzzles mathématiques. Cette FAQ couvre les fonctionnalités, les prix et les utilisations pédagogiques. Trouvez rapidement les informations dont vous avez besoin pour créer des exercices de décodage efficaces. Apprenez comment optimiser l\'outil pour vos élèves et préparer les tables de multiplication avec des activités engageantes.',
     showMoreText: 'Afficher plus de questions',
     showLessText: 'Afficher moins',
@@ -451,7 +451,7 @@ Ces fiches mathématiques fonctionnent idéalement pour les centres de numérati
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Combinez avec d\'Autres Générateurs de Fiches',
+    sectionTitle: 'Fiches Gratuites Combiner - Fiche pour Enfants et Imprimables Gratuits',
     sectionDescription: 'Notre plateforme propose 33 générateurs de fiches différents au-delà des exercices maths. Combinez les fiches mathématiques avec des fiches de phonétique, d\'alphabet, de mots fréquents, de traçage et de coloriage pour des packs d\'apprentissage complets. Créez des lots de fiches CP thématiques couvrant plusieurs matières en utilisant les mêmes images. Les enseignants de maternelle construisent des unités intégrées en générant des exercices maths, des fiches ABC, des fiches de traçage de lettres et plus, tous correspondant au même thème. Votre abonnement Pack Essentiel inclut l\'accès à tous les types de fiches. Générez des fiches à imprimer gratuit illimitées couvrant lecture, maths, écriture et art. Cette approche complète crée des collections de fiches cohérentes que les élèves adorent.',
     ctaTitle: 'Prêt à Créer des Fiches Exceptionnelles ?',
     ctaDescription: 'Rejoignez les éducateurs qui créent des fiches professionnelles. Génération illimitée, licence commerciale incluse.',

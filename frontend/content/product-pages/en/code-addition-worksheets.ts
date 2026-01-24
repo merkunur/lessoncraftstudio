@@ -82,7 +82,7 @@ The image addition generator creates worksheets with 3 to 10 problems per page. 
 
   // Sample Gallery - REAL file paths from samples/english/code-addition/
   samples: {
-    sectionTitle: 'Worksheet Samples',
+    sectionTitle: 'Free Worksheet for Kids - Free Worksheets and Free Printables Samples',
     downloadLabel: 'Download Free Sample',
     worksheetLabel: 'Worksheet',
     answerKeyLabel: 'Answer Key',
@@ -127,7 +127,7 @@ The image addition generator creates worksheets with 3 to 10 problems per page. 
 
   // Features Grid - FULL descriptions from code-addition.md H3 sections
   features: {
-    sectionTitle: 'Image Addition Worksheet Features - Everything You Need for Math Worksheets and Kindergarten Worksheets',
+    sectionTitle: 'Free Worksheet for Kids Features - Worksheet for Kids and Worksheet for Kindergarten',
     sectionDescription: 'Our image addition worksheet maker includes powerful features for creating kindergarten worksheets and first grade math activities. Your Full Access subscription gives you access to all features with unlimited worksheet creation. Create printable addition worksheets customized for your students\' specific learning needs. Every feature works together to save you time while producing professional-quality math worksheets for early learners.',
     highlightBadgeText: 'Key Feature',
     items: [
@@ -185,7 +185,7 @@ The image addition generator creates worksheets with 3 to 10 problems per page. 
 
   // How-To Guide - FULL text from code-addition.md Step sections
   howTo: {
-    sectionTitle: 'How to Create Addition Worksheets in 5 Easy Steps - Math Worksheet Generator Tutorial for Kindergarten Worksheets',
+    sectionTitle: 'How to Create Free Worksheets in 5 Steps - Free Printables and Worksheet for Kindergarten',
     sectionDescription: 'Creating professional addition worksheets takes less than 3 minutes with our generator. Follow these five simple steps to make custom kindergarten worksheets and first grade math activities. No design experience required. No complicated software to learn. Just select your options and generate printable addition worksheets instantly. Your Full Access subscription gives you unlimited access to create as many math worksheets as your classroom needs throughout the entire school year.',
     ctaText: 'Start Creating Now',
     steps: [
@@ -229,7 +229,7 @@ The image addition generator creates worksheets with 3 to 10 problems per page. 
 
   // Use Cases - FULL descriptions from code-addition.md persona sections
   useCases: {
-    sectionTitle: 'Perfect for Teachers, Parents, and Educators - Addition Worksheets and Math Worksheets for Every Need',
+    sectionTitle: 'Free Printables for Teachers - Worksheet for Kids and Free Worksheets for Educators',
     sectionDescription: 'Our image addition worksheet generator serves educators across diverse teaching environments. Whether you teach kindergarten, first grade, or homeschool your own children, this tool creates professional math worksheets quickly. Each user type benefits from specific features designed for their unique needs. Your Full Access subscription provides unlimited worksheet creation for any educational setting requiring addition practice materials.',
     items: [
       {

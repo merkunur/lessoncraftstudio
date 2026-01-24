@@ -83,8 +83,8 @@ Tu suscripción Paquete Esencial cuesta $144 al año o $15 al mes. Incluye 10 ge
 
   // Sample Gallery - REAL file paths from samples/spanish/bingo/
   samples: {
-    sectionTitle: 'Ejemplos de Fichas de Bingo',
-    sectionDescription: 'Descarga ejemplos gratuitos para ver nuestra calidad profesional',
+    sectionTitle: 'Ficha Gratis para Niños - Fichas Gratis e Imprimibles Gratis',
+    sectionDescription: 'Descarga imprimibles gratis - Ficha gratis para niños de calidad profesional. Ficha para niños perfecta para ficha para preescolar. Ficha gratis para niños y ficha para niños incluyen material educativo. Ficha gratis disponible',
     downloadLabel: 'Descargar Ejemplo Gratis',
     worksheetLabel: 'Ficha',
     answerKeyLabel: 'Hoja de Llamadas',
@@ -135,7 +135,7 @@ Tu suscripción Paquete Esencial cuesta $144 al año o $15 al mes. Incluye 10 ge
 
   // Features Grid - FULL text from bingo.md feature sections
   features: {
-    sectionTitle: 'Funciones del Generador de Fichas de Bingo - Material Educativo Gratis para Preescolar',
+    sectionTitle: 'Fichas Gratis y Ficha para Niños - Imprimibles Gratis y Ficha para Preescolar',
     sectionDescription: 'Nuestro generador de fichas de bingo combina facilidad de uso con funciones profesionales. Cada característica está diseñada para maestros de educación infantil. Las fichas preescolar que creas incluyen todas las herramientas necesarias. El material educativo gratis que generas es completamente personalizable. Siete funciones principales hacen que este generador sea esencial para tu salón de clases.',
     highlightBadgeText: 'Característica Clave',
     readMoreLabel: 'Leer más',
@@ -215,7 +215,7 @@ La alta resolución es esencial para venta. Los compradores esperan calidad prof
 
   // How-To Guide - FULL text from bingo.md step sections
   howTo: {
-    sectionTitle: 'Cómo Crear Fichas de Bingo para Imprimir en 5 Pasos Fáciles - Material Educativo Gratis',
+    sectionTitle: 'Ficha Gratis para Niños Crear - Ficha para Preescolar',
     sectionDescription: 'Crea fichas de bingo profesionales en menos de 3 minutos. El proceso es simple y directo. No necesitas experiencia en diseño gráfico. Estos cinco pasos te llevan de idea a fichas impresas. Cada paso toma solo segundos para completar. Genera material educativo gratis que funciona para cualquier tema. Las fichas infantil que creas se ven profesionales. Maestros de todos los niveles usan este proceso.',
     ctaText: 'Comenzar Ahora',
     badgeText: 'Cómo Funciona',
@@ -289,7 +289,7 @@ Considera laminar las tarjetas para longevidad. Las tarjetas laminadas duran tod
 
   // Use Cases - FULL text from bingo.md use case sections
   useCases: {
-    sectionTitle: 'Perfecto para Maestros y Padres - Fichas Infantil para Cada Necesidad Educativa',
+    sectionTitle: 'Ficha Gratis para Niños - Ficha para Preescolar con Imprimibles Gratis. Ficha para Niños',
     sectionDescription: 'Las fichas de bingo funcionan para múltiples contextos educativos. Maestros de todos los niveles usan bingo regularmente. Padres que educan en casa adoran la versatilidad. Cada grupo encuentra valor único en este generador. Las fichas preescolar se adaptan a diferentes edades. El material educativo sirve objetivos educativos variados. Seis grupos principales se benefician de estas fichas.',
     badgeText: 'Para Quién',
     readMoreLabel: 'Leer más',
@@ -372,7 +372,7 @@ La calidad de 300 DPI es perfecta para productos digitales. Los compradores reci
 
   // FAQ Section - Selected FAQs from bingo.md
   faq: {
-    sectionTitle: 'Preguntas Frecuentes sobre Fichas de Bingo para Imprimir y Material Educativo Infantil',
+    sectionTitle: 'FAQ - Ficha Gratis para Niños y Ficha para Preescolar. Ficha para Niños',
     sectionDescription: 'Los maestros y padres hacen preguntas similares constantemente. Esta sección responde las 12 preguntas más comunes. Aprende sobre suscripción, uso en aula y funciones. Descubre cómo las fichas preescolar apoyan diferentes edades. Entiende opciones de personalización y descarga. Todas las respuestas son claras y directas. Las fichas infantil funcionan para múltiples propósitos educativos.',
     showMoreText: 'Ver más preguntas',
     showLessText: 'Ver menos',
@@ -477,7 +477,7 @@ La calidad de 300 DPI es perfecta para productos digitales. Los compradores reci
 
   // Related Apps - FULL text from bingo.md related sections
   relatedApps: {
-    sectionTitle: 'Combina Fichas de Bingo para Imprimir con Material Educativo Gratis - Paquetes Completos de Aprendizaje',
+    sectionTitle: 'Fichas Gratis Combinar - Ficha para Niños e Imprimibles Gratis',
     sectionDescription: 'El bingo funciona excepcionalmente bien combinado con otras fichas. Los maestros crean paquetes completos de aprendizaje temático. Combina bingo con ejercicios matemáticas para refuerzo. Incluye fichas de lectoescritura junto con juegos. Las fichas preescolar se complementan entre sí perfectamente. LessonCraft Studio ofrece 33 generadores de fichas gratis. Todos incluidos con tu suscripción Paquete Esencial.',
     ctaTitle: '¿Listo para Crear Fichas de Bingo Increíbles?',
     ctaDescription: 'Únete a miles de maestros que crean fichas profesionales. Generación ilimitada, licencia comercial incluida.',

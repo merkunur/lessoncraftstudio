@@ -79,8 +79,8 @@ O formato de grade permite configurar de 2x2 até 4x4 peças. Escolha operaçõe
 
   // Sample Gallery
   samples: {
-    sectionTitle: 'Exemplos de Quebra-Cabeça - Atividades Grátis para Educação Infantil e Crianças',
-    sectionDescription: 'Baixe exemplos gratuitos para ver nossa qualidade profissional',
+    sectionTitle: 'Atividade Grátis para Crianças - Atividades Grátis e Imprimíveis Grátis',
+    sectionDescription: 'Baixe imprimíveis grátis - Atividade grátis para crianças de qualidade profissional. Atividades grátis e atividade para crianças perfeitas para atividade para educação infantil. Atividade grátis para crianças e atividade para crianças incluem material educativo. Atividade grátis disponível',
     downloadLabel: 'Baixar Exemplo Grátis',
     worksheetLabel: 'Atividade',
     answerKeyLabel: 'Gabarito',
@@ -124,7 +124,7 @@ O formato de grade permite configurar de 2x2 até 4x4 peças. Escolha operaçõe
 
   // Features Grid
   features: {
-    sectionTitle: 'Recursos do Gerador - Atividades Grátis de Quebra-Cabeça para Educação Infantil',
+    sectionTitle: 'Atividades Grátis e Atividade para Crianças - Imprimíveis Grátis e Atividade para Educação Infantil',
     sectionDescription: 'O gerador de quebra-cabeça de matemática oferece recursos completos para educadores. Desde a criação rápida até a personalização avançada, cada ferramenta foi pensada para economizar tempo. Descubra como criar atividades de educação infantil e atividades 1º ano com qualidade profissional.',
     highlightBadgeText: 'Recurso Principal',
     readMoreLabel: 'Leia mais',
@@ -197,7 +197,7 @@ O formato de grade permite configurar de 2x2 até 4x4 peças. Escolha operaçõe
 
   // How-To Guide
   howTo: {
-    sectionTitle: 'Como Criar Atividades Grátis de Quebra-Cabeça em 5 Passos',
+    sectionTitle: 'Atividade Grátis para Crianças Criar - Atividade para Educação Infantil',
     sectionDescription: 'Criar quebra-cabeças de matemática para imprimir é rápido e intuitivo. Este guia passo a passo mostra como produzir atividades profissionais em menos de 3 minutos. Siga cada etapa para criar materiais perfeitos para educação infantil, 1º ano e 2º ano.',
     ctaText: 'Comece Agora',
     badgeText: 'Como Funciona',
@@ -249,7 +249,7 @@ O formato de grade permite configurar de 2x2 até 4x4 peças. Escolha operaçõe
 
   // Use Cases
   useCases: {
-    sectionTitle: 'Quem Usa Atividades Grátis de Quebra-Cabeça - Imprimíveis para Crianças',
+    sectionTitle: 'Atividade Grátis para Crianças - Atividade para Educação Infantil com Imprimíveis Grátis. Atividade para Crianças',
     sectionDescription: 'O gerador de quebra-cabeça de matemática atende diversos perfis de educadores. Desde professores de educação infantil até empreendedores digitais, cada usuário encontra valor nas atividades para imprimir.',
     badgeText: 'Casos de Uso',
     readMoreLabel: 'Leia mais',
@@ -361,7 +361,7 @@ O formato de grade permite configurar de 2x2 até 4x4 peças. Escolha operaçõe
 
   // FAQ Section
   faq: {
-    sectionTitle: 'Perguntas Frequentes sobre Atividades Grátis de Quebra-Cabeça para Crianças',
+    sectionTitle: 'FAQ - Atividade Grátis para Crianças e Atividade para Educação Infantil. Atividade para Crianças',
     sectionDescription: 'Respondemos as perguntas mais frequentes sobre o gerador de quebra-cabeças de matemática e recursos disponíveis.',
     showMoreText: 'Ver mais perguntas',
     showLessText: 'Ver menos',

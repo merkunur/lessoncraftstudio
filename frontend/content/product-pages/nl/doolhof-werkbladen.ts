@@ -93,8 +93,8 @@ Download hoogwaardige PDF en JPEG bestanden binnen 3 minuten. Alle werkbladen ex
 
   // Sample Gallery
   samples: {
-    sectionTitle: 'Gratis Werkblad Doolhof Voorbeelden - Werkbladen voor Kinderen',
-    sectionDescription: 'Download gratis voorbeeldwerkbladen om onze professionele kwaliteit te ervaren',
+    sectionTitle: 'Gratis Werkblad voor Kinderen - Gratis Werkbladen en Gratis Printables',
+    sectionDescription: 'Download gratis printables - Gratis werkblad voor kinderen van professionele kwaliteit. Gratis werkbladen en werkblad voor kinderen perfect voor werkblad voor kleuters. Gratis werkblad voor kinderen en werkblad voor kinderen inclusief educatief materiaal. Gratis werkblad beschikbaar',
     downloadLabel: 'Gratis Voorbeeld Downloaden',
     worksheetLabel: 'Werkblad',
     answerKeyLabel: 'Antwoordblad',
@@ -138,7 +138,7 @@ Download hoogwaardige PDF en JPEG bestanden binnen 3 minuten. Alle werkbladen ex
 
   // Features Grid
   features: {
-    sectionTitle: 'Gratis Werkbladen Doolhof Functies - Werkblad voor Kinderen en Werkblad voor Kleuters',
+    sectionTitle: 'Gratis Werkbladen en Werkblad voor Kinderen - Gratis Printables en Werkblad voor Kleuters',
     sectionDescription: 'Onze doolhof generator combineert alle functies die je nodig hebt voor professionele werkbladen groep 3 leerlingen en werkbladen kleuters. Van plaatjes selecteren tot canvas bewerking tot hoogwaardige export. Elk werkblad dat je maakt voldoet aan dezelfde kwaliteitsnormen als commerciële onderwijsmaterialen. Je Volledige Toegang abonnement geeft toegang tot alle premium functies zonder beperkingen.',
     highlightBadgeText: 'Uitgelicht',
     readMoreLabel: 'Lees meer',
@@ -398,7 +398,7 @@ Differentieer je producten door unieke thema's te targeten die onderbedeeld zijn
 
   // FAQ Section
   faq: {
-    sectionTitle: 'Veelgestelde Vragen over Gratis Werkbladen Doolhof en Werkblad voor Kinderen',
+    sectionTitle: 'FAQ - Gratis Werkblad voor Kinderen en Werkblad voor Kleuters. Werkblad voor Kinderen',
     sectionDescription: 'Leerkrachten en ouders stellen vaak dezelfde vragen over doolhof werkbladen maken. Deze FAQ sectie behandelt de meest voorkomende onderwerpen over prijzen, gebruik in de klas, aanpassingsmogelijkheden en integratie met andere leerdoelen.',
     showMoreText: 'Meer vragen tonen',
     showLessText: 'Minder tonen',
@@ -526,7 +526,7 @@ Differentieer je producten door unieke thema's te targeten die onderbedeeld zijn
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Combineer Doolhoven met Gratis Werkblad - Complete Werkbladen voor Kinderen Lespakketten',
+    sectionTitle: 'Gratis Werkbladen Combineren - Werkblad voor Kinderen en Gratis Printables',
     sectionDescription: 'Het platform biedt 33 verschillende werkblad generators voor complete curriculum dekking. Combineer doolhof werkbladen met andere werkblad types voor geïntegreerde lespakketten. Leerkrachten maken wekelijkse bundels die meerdere vaardigheden oefenen in samenhangende thematische sets.',
     ctaTitle: 'Klaar om geweldige werkbladen te maken?',
     ctaDescription: 'Sluit je aan bij duizenden leerkrachten die professionele werkbladen maken. Onbeperkt genereren, commerciële licentie inbegrepen.',

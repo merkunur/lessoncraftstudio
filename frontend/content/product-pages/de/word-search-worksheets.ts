@@ -95,8 +95,8 @@ Unser kostenloser Suchsel Generator bietet über 3000 kindgerechte Bilder für A
 
   // Sample Gallery - REAL file paths from samples/german/wordsearch/
   samples: {
-    sectionTitle: 'Suchsel Arbeitsblätter Beispiele',
-    sectionDescription: 'Laden Sie kostenlose Beispiel-Arbeitsblätter herunter, um unsere professionelle Qualität zu sehen',
+    sectionTitle: 'Kostenloses Arbeitsblatt für Kinder - Kostenlose Arbeitsblätter und Kostenlose Druckvorlagen',
+    sectionDescription: 'Laden Sie kostenlose Druckvorlagen herunter - Kostenloses Arbeitsblatt für Kinder in professioneller Qualität für Arbeitsblatt für Vorschule',
     downloadLabel: 'Kostenloses Beispiel Herunterladen',
     worksheetLabel: 'Arbeitsblatt',
     answerKeyLabel: 'Lösungsblatt',
@@ -147,7 +147,7 @@ Unser kostenloser Suchsel Generator bietet über 3000 kindgerechte Bilder für A
 
   // Features Grid - FULL text from wordsearch.md feature sections
   features: {
-    sectionTitle: 'Funktionen des Suchsel Generators - Kostenlose Arbeitsblätter Grundschule für Buchstaben lernen',
+    sectionTitle: 'Arbeitsblatt für Kinder - Arbeitsblatt für Vorschule und Kostenlose Arbeitsblätter',
     sectionDescription: 'Der Suchsel Generator bietet alle wichtigen Funktionen für kostenlose Arbeitsblätter Grundschule. Erstellen Sie professionelle Deutsch-Arbeitsblätter und Vorschul-Arbeitsblätter in wenigen Minuten. Jede Funktion wurde speziell für Lehrkräfte entwickelt.',
     highlightBadgeText: 'Hauptfunktion',
     readMoreLabel: 'Mehr lesen',
@@ -227,7 +227,7 @@ Jedes Arbeitsblatt sieht professionell aus. Klare, scharfe Bilder. Lesbare Schri
 
   // How-To Guide - FULL text from wordsearch.md step sections
   howTo: {
-    sectionTitle: 'Suchsel erstellen in 5 einfachen Schritten - Kostenlose Arbeitsblätter Grundschule und Buchstaben lernen',
+    sectionTitle: 'Kostenloses Arbeitsblatt für Kinder erstellen - Arbeitsblatt für Vorschule',
     sectionDescription: 'Erstellen Sie professionelle Arbeitsblätter Grundschule in unter 3 Minuten. Folgen Sie diesen 5 einfachen Schritten. Kein Design-Wissen erforderlich. Perfekt für Deutsch-Arbeitsblätter und Vorschul-Arbeitsblätter.',
     ctaText: 'Jetzt Erstellen',
     badgeText: 'So funktioniert es',
@@ -299,7 +299,7 @@ Laden Sie das Arbeitsblatt herunter. Laden Sie auch das Lösungsblatt herunter. 
 
   // Use Cases - FULL text from wordsearch.md use case sections
   useCases: {
-    sectionTitle: 'Perfekt für Lehrkräfte und Eltern - Kostenlose Arbeitsblätter Grundschule für jeden Bedarf',
+    sectionTitle: 'Kostenloses Arbeitsblatt für Kinder - Arbeitsblatt für Vorschule mit Kostenlose Druckvorlagen',
     sectionDescription: 'Der Suchsel Generator eignet sich für verschiedene Nutzergruppen. Erzieher in der Vorschule. Lehrkräfte an Grundschulen. Homeschooling-Eltern. DaZ-Lehrkräfte. Sonderpädagogen. Jeder profitiert von kostenlosen Arbeitsblättern.',
     badgeText: 'Anwendungsbereiche',
     readMoreLabel: 'Mehr lesen',
@@ -382,7 +382,7 @@ Die professionelle 300 DPI Qualität überzeugt Käufer. Scharfe Bilder und klar
 
   // FAQ Section - FULL FAQs from wordsearch.md
   faq: {
-    sectionTitle: 'Häufig gestellte Fragen zu Suchsel und kostenlosen Arbeitsblättern Grundschule',
+    sectionTitle: 'FAQ - Kostenloses Arbeitsblatt für Kinder und Arbeitsblatt für Vorschule',
     sectionDescription: 'Lehrkräfte haben viele Fragen zum Suchsel Generator. Hier beantworten wir die wichtigsten Fragen. Von Einmaleins-Übungen bis Schwungübungen. Von Ausmalbildern bis Mathe-Arbeitsblättern.',
     showMoreText: 'Mehr Fragen anzeigen',
     showLessText: 'Weniger anzeigen',
@@ -517,7 +517,7 @@ Die professionelle 300 DPI Qualität überzeugt Käufer. Scharfe Bilder und klar
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Kombinieren Sie Suchsel mit anderen Generatoren - Ganzheitliche Arbeitsblätter Grundschule',
+    sectionTitle: 'Kostenlose Arbeitsblätter kombinieren - Arbeitsblatt für Kinder und Kostenlose Druckvorlagen',
     sectionDescription: 'Mit einem Abonnement erhalten Sie Zugang zu 33 Generatoren. Kombinieren Sie verschiedene Arbeitsblatt-Typen für maximale Wirkung. Suchsel allein sind bereits wertvoll. In Kombination mit anderen Apps entsteht echter Mehrwert.',
     ctaTitle: 'Bereit, fantastische Arbeitsblätter zu erstellen?',
     ctaDescription: 'Schließen Sie sich tausenden Lehrkräften an, die professionelle Arbeitsblätter erstellen. Unbegrenzte Generierung, kommerzielle Lizenz inklusive.',

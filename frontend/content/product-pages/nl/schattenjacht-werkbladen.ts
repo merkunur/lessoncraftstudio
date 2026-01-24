@@ -91,8 +91,8 @@ Je Volledige Toegang abonnement geeft toegang tot onbeperkte werkbladen maken. D
 
   // Sample Gallery
   samples: {
-    sectionTitle: 'Schattenjacht Voorbeelden - Gratis Werkbladen en Gratis Printables',
-    sectionDescription: 'Download gratis voorbeeldwerkbladen om onze professionele kwaliteit te ervaren',
+    sectionTitle: 'Gratis Werkblad voor Kinderen - Gratis Werkbladen en Gratis Printables',
+    sectionDescription: 'Download gratis printables - Gratis werkblad voor kinderen van professionele kwaliteit. Gratis werkbladen en werkblad voor kinderen perfect voor werkblad voor kleuters. Gratis werkblad voor kinderen en werkblad voor kinderen inclusief educatief materiaal. Gratis werkblad beschikbaar',
     downloadLabel: 'Gratis Voorbeeld Downloaden',
     worksheetLabel: 'Werkblad',
     answerKeyLabel: 'Antwoordblad',
@@ -136,7 +136,7 @@ Je Volledige Toegang abonnement geeft toegang tot onbeperkte werkbladen maken. D
 
   // Features Grid
   features: {
-    sectionTitle: 'Schattenjacht Functies - Gratis Werkblad voor Kinderen en Werkblad voor Kleuters',
+    sectionTitle: 'Gratis Werkbladen en Werkblad voor Kinderen - Gratis Printables en Werkblad voor Kleuters',
     sectionDescription: 'De schattenjacht generator biedt alle functies voor professionele werkbladen. Van eenvoudige richtingsoefeningen voor kleuters tot uitdagende ruimtelijke puzzels voor groep 5. Ontdek hoe je snel werkbladen groep 3 maakt met richtingswoorden en visuele aanwijzingen. Volledige Toegang abonnement (€240 per jaar) geeft toegang tot alle functies en 3000+ afbeeldingen.',
     highlightBadgeText: 'Uitgelicht',
     readMoreLabel: 'Lees meer',
@@ -230,7 +230,7 @@ Download als PDF of JPEG naar keuze. PDF werkt perfect voor printen. JPEG is han
 
   // How-To Guide
   howTo: {
-    sectionTitle: 'Hoe Maak Je Gratis Werkbladen - Werkblad voor Kinderen in 5 Stappen',
+    sectionTitle: 'Gratis Werkblad voor Kinderen Maken - Werkblad voor Kleuters',
     sectionDescription: 'Het maken van een schattenjacht werkblad duurt minder dan drie minuten. Volg deze vijf stappen voor professionele oefenbladen gratis. Van thema selecteren tot downloaden en printen. Geen technische kennis vereist voor werkbladen groep 3 of werkbladen kleuters.',
     ctaText: 'Nu Starten',
     badgeText: 'Zo werkt het',
@@ -302,7 +302,7 @@ De grijswaarden optie bespaart inkt. Vink deze aan voor zwart-wit afdrukken. De 
 
   // Use Cases
   useCases: {
-    sectionTitle: 'Perfect voor Leerkrachten - Gratis Werkblad voor Kleuters en Werkblad voor Kinderen',
+    sectionTitle: 'Gratis Werkblad voor Kinderen - Werkblad voor Kleuters met Gratis Printables. Werkblad voor Kinderen',
     sectionDescription: 'De schattenjacht generator is ontworpen voor verschillende gebruikers. Van kleuterjuffen tot ouders die thuisonderwijs geven. Ontdek hoe deze tool past bij jouw situatie en welke voordelen schattenjachten bieden voor werkbladen groep 3 en andere leerjaren.',
     badgeText: 'Voor wie',
     readMoreLabel: 'Lees meer',
@@ -373,7 +373,7 @@ De commerciële licentie in je Volledige Toegang abonnement maakt dit mogelijk. 
 
   // FAQ Section
   faq: {
-    sectionTitle: 'Veelgestelde Vragen - Gratis Werkbladen en Gratis Printables Antwoorden',
+    sectionTitle: 'FAQ - Gratis Werkblad voor Kinderen en Werkblad voor Kleuters. Werkblad voor Kinderen',
     showMoreText: 'Meer vragen tonen',
     showLessText: 'Minder vragen',
     badgeText: 'Veelgestelde Vragen',
@@ -512,7 +512,7 @@ Voor werkbladen groep 3 met specifieke fijne motoriek oefeningen voeg je extra e
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Combineer met Andere Gratis Werkbladen voor Kinderen',
+    sectionTitle: 'Gratis Werkbladen Combineren - Werkblad voor Kinderen en Gratis Printables',
     ctaTitle: 'Klaar om Geweldige Werkbladen te Maken?',
     ctaDescription: 'Sluit je aan bij duizenden leerkrachten die professionele werkbladen maken met LessonCraft Studio.',
     primaryCtaText: 'Start Gratis Proefperiode',

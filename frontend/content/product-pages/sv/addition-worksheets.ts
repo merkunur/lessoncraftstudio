@@ -79,8 +79,8 @@ Verktyget fungerar för alla lärarnivåer. Ingen designerfarenhet behövs. Väl
 
   // Sample Gallery - REAL file paths from samples/english/addition/
   samples: {
-    sectionTitle: 'Additionsarbetsblad Exempel',
-    sectionDescription: 'Ladda ner gratis exempelarbetsblad för att se vår professionella kvalitet',
+    sectionTitle: 'Gratis Arbetsblad för Barn - Gratis Arbetsblad och Gratis Utskrifter',
+    sectionDescription: 'Ladda ner gratis utskrifter - Gratis arbetsblad för barn av professionell kvalitet. Gratis arbetsblad och arbetsblad för barn perfekt för arbetsblad för förskoleklass. Gratis arbetsblad för barn och arbetsblad för barn inkluderar utbildningsmaterial. Gratis arbetsblad och gratis utskrifter tillgänglig',
     downloadLabel: 'Ladda Ner Gratis Exempel',
     worksheetLabel: 'Arbetsblad',
     answerKeyLabel: 'Facit',
@@ -124,7 +124,7 @@ Verktyget fungerar för alla lärarnivåer. Ingen designerfarenhet behövs. Väl
 
   // Features Grid - FULL text from addition.md feature sections
   features: {
-    sectionTitle: 'Funktioner för Matematik Arbetsblad - Allt Du Behöver för Addition och Subtraktion',
+    sectionTitle: 'Gratis Arbetsblad och Arbetsblad för Barn - Gratis Utskrifter och Arbetsblad för Förskoleklass',
     sectionDescription: 'Vår additionsgenerator innehåller sju viktiga funktioner som gör det enkelt att skapa professionella matte övningar. Varje funktion är utformad för förskoleklass material och lågstadiet matematik. Grundpaketsprenumerationen ger dig tillgång till alla funktioner utan extra kostnader. Skapa obegränsat med arbetsblad gratis för utskrift med din prenumeration.',
     highlightBadgeText: 'Nyckelfunktion',
     readMoreLabel: 'Läs mer',
@@ -218,7 +218,7 @@ Inga vattenstämplar med Grundpaketsprenumeration. Dina matematik arbetsblad ser
 
   // How-To Guide - FULL text from addition.md step sections
   howTo: {
-    sectionTitle: 'Hur Du Skapar Addition och Subtraktion Arbetsblad på 5 Enkla Steg',
+    sectionTitle: 'Gratis Arbetsblad för Barn Skapa - Arbetsblad för Förskoleklass och Gratis Utskrifter',
     sectionDescription: 'Hela processen från start till färdig PDF tar under 3 minuter. Fem enkla steg ger dig professionella matte övningar. Ingen designerfarenhet krävs för att skapa förskoleklass material. Följ dessa steg för perfekta addition och subtraktion arbetsblad varje gång.',
     ctaText: 'Börja Skapa Nu',
     badgeText: 'Så Fungerar Det',
@@ -310,7 +310,7 @@ Spara PDF-filer för återanvändning senare. Bygg ett bibliotek av addition och
 
   // Use Cases - FULL text from addition.md use case sections
   useCases: {
-    sectionTitle: 'Perfekt för Lärare, Föräldrar och Pedagoger',
+    sectionTitle: 'Gratis Arbetsblad för Barn - Arbetsblad för Förskoleklass med Gratis Utskrifter. Arbetsblad för Barn',
     sectionDescription: 'Additionsgeneratorn används av olika utbildare över hela Sverige. Från förskoleklass till årskurs 3 skapar lärare anpassade matte övningar. Hemundervisande föräldrar uppskattar den pedagogiska flexibiliteten. Specialpedagoger differentierar addition och subtraktion efter elevbehov.',
     badgeText: 'Vem Det Är För',
     readMoreLabel: 'Läs mer',
@@ -417,7 +417,7 @@ Bygg prenumerationsverksamhet med månatligt nytt innehåll. Medlemmar betalar 9
 
   // FAQ Section - Selected FAQs from addition.md
   faq: {
-    sectionTitle: 'Vanliga Frågor',
+    sectionTitle: 'FAQ - Gratis Arbetsblad för Barn och Arbetsblad för Förskoleklass med Gratis Utskrifter. Arbetsblad för Barn',
     sectionDescription: 'Vanliga frågor om vår additionsgenerator och arbetsblad gratis.',
     showMoreText: 'Visa fler frågor',
     showLessText: 'Visa färre',
@@ -522,7 +522,7 @@ Bygg prenumerationsverksamhet med månatligt nytt innehåll. Medlemmar betalar 9
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Kombinera med Andra Arbetsblad Generatorer',
+    sectionTitle: 'Gratis Arbetsblad Kombinera - Arbetsblad för Barn och Gratis Utskrifter',
     sectionDescription: 'Skapa kompletta lärpaket genom att kombinera additionsarbetsblad med dessa kompletterande generatorer.',
     ctaTitle: 'Redo att Skapa Fantastiska Arbetsblad?',
     ctaDescription: 'Gå med tusentals lärare som skapar professionella arbetsblad. Obegränsad generering, kommersiell licens ingår.',

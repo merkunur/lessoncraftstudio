@@ -79,8 +79,8 @@ Varje bildkorsord exporteras i professionell 300 DPI-kvalitet. Ladda ner som PDF
 
   // Sample Gallery - REAL file paths from samples/english/crossword/
   samples: {
-    sectionTitle: 'Bildkorsord Arbetsblad Gratis Exempel - Förskoleklass Material',
-    sectionDescription: 'Ladda ner gratis utskrifter och arbetsblad för barn för att se vår professionella kvalitet',
+    sectionTitle: 'Gratis Arbetsblad för Barn - Gratis Arbetsblad och Gratis Utskrifter',
+    sectionDescription: 'Ladda ner gratis utskrifter - Gratis arbetsblad för barn av professionell kvalitet. Gratis arbetsblad och arbetsblad för barn perfekt för arbetsblad för förskoleklass. Gratis arbetsblad för barn och arbetsblad för barn inkluderar utbildningsmaterial. Gratis arbetsblad och gratis utskrifter tillgänglig',
     downloadLabel: 'Ladda Ner Gratis Exempel',
     worksheetLabel: 'Arbetsblad',
     answerKeyLabel: 'Facit',
@@ -266,7 +266,7 @@ Facit genereras automatiskt med lösningen. Perfekt för multiplikationstabellen
 
   // Use Cases - FULL text from crossword.md use case sections
   useCases: {
-    sectionTitle: 'Perfekt för Lärare - Arbetsblad Gratis för Alla Behov',
+    sectionTitle: 'Gratis Arbetsblad för Barn - Arbetsblad för Förskoleklass med Gratis Utskrifter. Arbetsblad för Barn',
     sectionDescription: 'Bildkorsordsgeneratorn passar många olika användare inom svensk utbildning. Från förskollärare till lärarentreprenörer. Varje användargrupp får unika fördelar av vårt verktyg. Skapa arbetsblad gratis med förskoleklass material anpassat för dina elever.',
     badgeText: 'Vem Det Är För',
     readMoreLabel: 'Läs mer',
@@ -337,7 +337,7 @@ Multiplikationstabellen arbetsblad är mycket populära produkter. Klockan lära
 
   // FAQ Section - Selected FAQs from crossword.md
   faq: {
-    sectionTitle: 'Vanliga Frågor - Gratis Arbetsblad för Bildkorsord',
+    sectionTitle: 'FAQ - Gratis Arbetsblad för Barn och Arbetsblad för Förskoleklass med Gratis Utskrifter. Arbetsblad för Barn',
     sectionDescription: 'Vanliga frågor om vår bildkorsordsgenerator, matematik arbetsblad och bokstäver lära sig funktioner.',
     showMoreText: 'Visa fler frågor',
     showLessText: 'Visa färre',
@@ -441,7 +441,7 @@ Multiplikationstabellen arbetsblad är mycket populära produkter. Klockan lära
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Kombinera med Andra Arbetsblad Generatorer',
+    sectionTitle: 'Gratis Arbetsblad Kombinera - Arbetsblad för Barn och Gratis Utskrifter',
     sectionDescription: 'Skapa kompletta lärpaket genom att kombinera bildkorsord arbetsblad med dessa kompletterande generatorer.',
     ctaTitle: 'Redo att Skapa Fantastiska Bildkorsord?',
     ctaDescription: 'Gå med tusentals lärare som skapar professionella arbetsblad. Obegränsad generering, kommersiell licens ingår.',

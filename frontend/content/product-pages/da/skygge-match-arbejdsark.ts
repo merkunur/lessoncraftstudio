@@ -87,8 +87,8 @@ Skygge-match opgaver understøtter finmotorik øvelser når børn tegner linjer 
 
   // Sample Gallery - REAL file paths from samples/english/shadow match/
   samples: {
-    sectionTitle: 'Gratis Arbejdsark Eksempler - Skygge-Match',
-    sectionDescription: 'Download gratis eksempler på arbejdsark for at se vores professionelle kvalitet',
+    sectionTitle: 'Gratis Arbejdsark til Børn - Gratis Arbejdsark og Gratis Printables',
+    sectionDescription: 'Download gratis printables - Gratis arbejdsark til børn af professionel kvalitet. Gratis arbejdsark og arbejdsark til børn perfekt til arbejdsark til børnehaveklasse. Gratis arbejdsark til børn og arbejdsark til børn inkluderer gratis printables undervisningsmateriale. Gratis arbejdsark og arbejdsark til børnehaveklasse tilgængeligt',
     badgeText: 'Gratis Eksempler',
     downloadLabel: 'Download Gratis Eksempel',
     downloadingLabel: 'Downloader...',
@@ -139,7 +139,7 @@ Skygge-match opgaver understøtter finmotorik øvelser når børn tegner linjer 
 
   // Features Grid - FULL text from shadow-match.md feature sections
   features: {
-    sectionTitle: 'Gratis Arbejdsark til Børn - Skygge-Match Funktioner til Gratis Skoleopgaver og Arbejdsark til Print',
+    sectionTitle: 'Gratis Arbejdsark og Arbejdsark til Børn - Gratis Printables og Arbejdsark til Børnehaveklasse',
     sectionDescription: 'Vores skygge-match generator inkluderer alle funktioner, lærere og pædagoger har brug for til at skabe professionelle opgaver til print. Ingen designerfærdigheder påkrævet. Vælg billeder, klik generer, og dit opgaveark er klar på under 3 minutter. Hver funktion er designet til at gøre skabelsen af arbejdsark hurtig og nem.',
     highlightBadgeText: 'Vigtig Funktion',
     readMoreLabel: 'Læs mere',
@@ -247,7 +247,7 @@ JPEG-eksporter fungerer godt til digitale arbejdsgange. Indsæt skygge-match opg
 
   // How-To Guide - Step by step instructions
   howTo: {
-    sectionTitle: 'Gratis Arbejdsark til Børn - Sådan Laver Du Gratis Skoleopgaver og Arbejdsark til Print i 5 Nemme Trin',
+    sectionTitle: 'Gratis Arbejdsark til Børn Oprette - Arbejdsark til Børnehaveklasse og Gratis Printables',
     sectionDescription: 'At skabe professionelle skygge-match opgaver tager under 3 minutter fra start til download. Følg disse fem enkle trin for at generere opgaver til print til din 0. klasse eller 1. klasse. Ingen designerfærdigheder påkrævet. Processen er den samme, hvad enten du laver matematikopgaver, malebog aktiviteter eller finmotorik øvelser.',
     ctaText: 'Start med at Skabe Nu',
     badgeText: 'Sådan Fungerer Det',
@@ -329,7 +329,7 @@ Print ubegrænsede eksemplarer af dine arbejdsark til print og kopiark. Dit Fuld
 
   // Use Cases Section
   useCases: {
-    sectionTitle: 'Gratis Arbejdsark til Børnehaveklasse - Perfekt til Lærere, Pædagoger og Forældre',
+    sectionTitle: 'Gratis Arbejdsark til Børn - Arbejdsark til Børnehaveklasse med Gratis Printables. Arbejdsark til Børn',
     sectionDescription: 'Skygge-match opgaver tjener forskellige brugergrupper på tværs af danske uddannelsesmiljøer. Børnehaveklasse-lærere bruger dem til visuel diskrimination. Indskolingslærere integrerer dem med matematikopgaver og lære bogstaver aktiviteter. Hjemmeundervisende forældre kombinerer dem med malebog og finmotorik øvelser for varieret læring.',
     badgeText: 'Anvendelser',
     readMoreLabel: 'Læs mere',
@@ -412,7 +412,7 @@ Differentierede bundles appellerer til flere kundesegmenter. Skab 0. klasse opga
 
   // FAQ Section
   faq: {
-    sectionTitle: 'Gratis Arbejdsark til Børn - Ofte Stillede Spørgsmål om Skygge-Match',
+    sectionTitle: 'FAQ - Gratis Arbejdsark til Børn og Arbejdsark til Børnehaveklasse. Arbejdsark til Børn',
     sectionDescription: 'Lærere og pædagoger har lignende spørgsmål om skygge-match generatoren. Dette FAQ afsnit adresserer almindelige spørgsmål om opgaver til print, matematikopgaver og finmotorik øvelser. Find svar på praktiske spørgsmål om abonnement, udskrivning og brug af gratis skoleopgaver i klasseværelser.',
     showMoreText: 'Vis flere spørgsmål',
     showLessText: 'Vis færre',
@@ -590,7 +590,7 @@ Literacy-integration forbinder skygge-match med læse og skrive. Brug objekter s
 
   // Related Apps Section
   relatedApps: {
-    sectionTitle: 'Gratis Arbejdsark - Kombiner Skygge-Match med Andre Generatorer',
+    sectionTitle: 'Gratis Arbejdsark Kombinere - Arbejdsark til Børn og Gratis Printables',
     sectionDescription: 'LessonCraft Studio platformen tilbyder 33 gratis arbejdsark-generatorer inklusiv skygge-match. Kombiner forskellige opgavetyper til komplette læringspakker. Skygge-match par naturligt med læse og skrive arbejdsark, gangetabeller praksis og lære bogstaver aktiviteter. Dit Fuld Adgang abonnement giver adgang til alle generatorer.',
     ctaTitle: 'Klar til at Skabe Fantastiske Arbejdsark?',
     ctaDescription: 'Slut dig til tusindvis af pædagoger der skaber professionelle arbejdsark.',

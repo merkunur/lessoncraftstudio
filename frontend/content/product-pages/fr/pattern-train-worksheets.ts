@@ -85,8 +85,8 @@ Les enseignants gagnent du temps précieux. Créer des fiches maternelle de suit
 
   // Sample Gallery - REAL file paths from samples/english/pattern train/
   samples: {
-    sectionTitle: 'Exemples de Fiches Suites Logiques',
-    sectionDescription: 'Téléchargez des exemples gratuits pour voir notre qualité professionnelle',
+    sectionTitle: 'Fiche Gratuite pour Enfants - Fiches Gratuites et Imprimables Gratuits',
+    sectionDescription: 'Téléchargez imprimables gratuits - Fiche gratuite pour enfants de qualité professionnelle. Fiches gratuites et fiche pour enfants parfaites pour fiche pour maternelle. Fiche gratuite pour enfants et fiches gratuites inclus matériel éducatif. Fiche gratuite et fiches gratuites disponible',
     downloadLabel: 'Télécharger Exemple Gratuit',
     worksheetLabel: 'Fiche',
     answerKeyLabel: 'Corrigé',
@@ -137,7 +137,7 @@ Les enseignants gagnent du temps précieux. Créer des fiches maternelle de suit
 
   // Features Grid - FULL text from pattern-train.md feature sections
   features: {
-    sectionTitle: 'Fonctionnalités du Générateur - Tout pour Créer des Fiches à Imprimer Gratuit',
+    sectionTitle: 'Fiches Gratuites et Fiche pour Enfants - Imprimables Gratuits et Fiche pour Maternelle',
     sectionDescription: 'Notre générateur de fiches maternelle offre toutes les fonctionnalités nécessaires pour créer des exercices CP professionnels. Votre abonnement Accès Complet inclut sept outils puissants pour produire des fiches à imprimer gratuit de qualité. Chaque fonctionnalité simplifie la création de fiches maternelle personnalisées. Les enseignants créent des exercices CP adaptés à leurs élèves en quelques clics.',
     highlightBadgeText: 'Fonctionnalité Clé',
     readMoreLabel: 'Lire la suite',
@@ -231,7 +231,7 @@ Téléchargez la fiche maternelle et sa correction séparément. La correction m
 
   // How-To Guide - FULL text from pattern-train.md step sections
   howTo: {
-    sectionTitle: 'Comment Créer des Fiches Maternelle en 5 Étapes Simples',
+    sectionTitle: 'Fiche Gratuite pour Enfants Créer - Fiche pour Maternelle',
     sectionDescription: 'Créer des fiches maternelle professionnelles prend moins de 3 minutes avec notre générateur. Suivez cinq étapes simples pour produire des exercices CP personnalisés. Aucune compétence technique requise. Les enseignants de maternelle créent des fiches à imprimer gratuit magnifiques dès la première utilisation.',
     ctaText: 'Commencer Maintenant',
     badgeText: 'Comment Ça Marche',
@@ -313,7 +313,7 @@ Cochez "Grayscale" avant de télécharger pour économiser l'encre couleur. La f
 
   // Use Cases - FULL text from pattern-train.md use case sections
   useCases: {
-    sectionTitle: 'Parfait pour Enseignants, Parents et Éducateurs',
+    sectionTitle: 'Fiche Gratuite pour Enfants - Fiche pour Maternelle avec Imprimables Gratuits. Fiche pour Enfants',
     sectionDescription: 'Notre générateur de fiches maternelle sert tous les professionnels de l\'éducation. Les enseignants de maternelle créent des exercices CP adaptés. Les parents en instruction à domicile produisent des fiches à imprimer gratuit personnalisées. Les orthophonistes développent du matériel thérapeutique ciblé.',
     badgeText: 'Pour Qui',
     readMoreLabel: 'Lire la suite',
@@ -396,7 +396,7 @@ Créez des collections saisonnières pour ventes régulières. Suites logiques d
 
   // FAQ Section - Selected FAQs from pattern-train.md
   faq: {
-    sectionTitle: 'Questions Fréquentes',
+    sectionTitle: 'FAQ - Fiche Gratuite pour Enfants et Fiche pour Maternelle. Fiche pour Enfants',
     sectionDescription: 'Questions fréquentes sur notre générateur de suites logiques et nos fiches à imprimer gratuit.',
     showMoreText: 'Voir plus de questions',
     showLessText: 'Voir moins',
@@ -514,7 +514,7 @@ Créez des collections saisonnières pour ventes régulières. Suites logiques d
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Combinez avec d\'Autres Générateurs de Fiches',
+    sectionTitle: 'Fiches Gratuites Combiner - Fiche pour Enfants et Imprimables Gratuits',
     sectionDescription: 'Créez des paquets d\'apprentissage complets en combinant les fiches de suites logiques avec ces générateurs complémentaires.',
     ctaTitle: 'Prêt à Créer des Fiches Fantastiques ?',
     ctaDescription: 'Rejoignez des milliers d\'enseignants qui créent des fiches professionnelles. Génération illimitée, licence commerciale incluse.',

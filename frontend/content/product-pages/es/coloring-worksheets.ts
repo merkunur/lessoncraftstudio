@@ -83,8 +83,8 @@ Las páginas de colorear que creas son completamente editables. Cambia tamaños,
 
   // Sample Gallery - REAL file paths from samples/spanish/coloring/
   samples: {
-    sectionTitle: 'Ejemplos de Dibujos para Colorear',
-    sectionDescription: 'Descarga ejemplos gratuitos para ver nuestra calidad profesional',
+    sectionTitle: 'Ficha Gratis para Niños - Fichas Gratis e Imprimibles Gratis',
+    sectionDescription: 'Descarga imprimibles gratis - Ficha gratis para niños de calidad profesional. Ficha para niños perfecta para ficha para preescolar. Ficha gratis para niños y ficha para niños incluyen material educativo. Ficha gratis disponible',
     downloadLabel: 'Descargar Ejemplo Gratis',
     worksheetLabel: 'Ficha',
     answerKeyLabel: 'Respuestas',
@@ -135,7 +135,7 @@ Las páginas de colorear que creas son completamente editables. Cambia tamaños,
 
   // Features Grid - FULL text from coloring.md feature sections
   features: {
-    sectionTitle: 'Características del Creador de Dibujos para Colorear - Todo lo Necesario para Fichas Infantil y Fichas para Imprimir Profesionales',
+    sectionTitle: 'Fichas Gratis y Ficha para Niños - Imprimibles Gratis y Ficha para Preescolar',
     sectionDescription: 'Nuestro generador de páginas de colorear incluye todas las herramientas que maestros de preescolar y primaria necesitan. Crea fichas gratis ilimitadas con tu suscripción Paquete Esencial. Cada característica está diseñada para ahorrarte tiempo mientras produces material educativo gratis de calidad profesional. Las siete funciones principales transforman cómo creas actividades de colorear para tus estudiantes.',
     highlightBadgeText: 'Característica Clave',
     readMoreLabel: 'Leer más',
@@ -215,7 +215,7 @@ Elige formato PDF para la más alta calidad de fichas imprimibles. Los archivos 
 
   // How-To Guide - FULL text from coloring.md step sections
   howTo: {
-    sectionTitle: 'Cómo Crear Dibujos para Colorear en 5 Pasos Simples - Guía Completa para Fichas Preescolar y Fichas para Imprimir Profesionales',
+    sectionTitle: 'Ficha Gratis para Niños Crear - Ficha para Preescolar',
     sectionDescription: 'Crea páginas de colorear personalizadas en menos de 3 minutos. Este proceso de cinco pasos funciona para cualquier nivel educativo desde educación infantil hasta tercero de primaria. No necesitas experiencia en diseño gráfico. Cada paso es intuitivo y directo. Maestros reportan crear fichas para imprimir completas en el tiempo que toma tomar un café. La rapidez del sistema permite producir material educativo gratis variado semanalmente.',
     ctaText: 'Comenzar a Crear Ahora',
     badgeText: 'Cómo Funciona',
@@ -287,7 +287,7 @@ El archivo se descarga inmediatamente a tu carpeta de descargas con nombre descr
 
   // Use Cases - FULL text from coloring.md use case sections
   useCases: {
-    sectionTitle: 'Perfecto para Maestros y Educadores - Dibujos para Colorear y Fichas para Imprimir para Todas las Necesidades Educativas',
+    sectionTitle: 'Ficha Gratis para Niños - Ficha para Preescolar con Imprimibles Gratis. Ficha para Niños',
     sectionDescription: 'El creador de páginas de colorear sirve a diversos profesionales educativos desde educación infantil hasta primaria. Cada grupo encuentra aplicaciones únicas que ahorran tiempo y mejoran resultados de aprendizaje. Maestros de preescolar, docentes de primaria, padres educadores en casa, profesores de idiomas, maestros de educación especial, y emprendedores educativos todos benefician del sistema. Las herramientas flexibles se adaptan a múltiples contextos pedagógicos y estilos de enseñanza.',
     badgeText: 'Para Quién',
     readMoreLabel: 'Leer más',
@@ -370,7 +370,7 @@ La calidad profesional de 300 DPI y formatos PDF hacen que tus productos compita
 
   // FAQ Section - Selected FAQs from coloring.md
   faq: {
-    sectionTitle: 'Preguntas Frecuentes sobre Dibujos para Colorear - Fichas para Imprimir con Grafomotricidad, Lectoescritura y Material Educativo Gratis',
+    sectionTitle: 'FAQ - Ficha Gratis para Niños y Ficha para Preescolar. Ficha para Niños',
     sectionDescription: 'Educadores tienen preguntas comunes sobre funcionalidad, costos, y aplicaciones pedagógicas del generador. Esta sección responde las doce preguntas más frecuentes que maestros de preescolar y primaria hacen. Las respuestas aclaran capacidades del sistema y ayudan a decidir si la herramienta se ajusta a tus necesidades específicas de enseñanza.',
     showMoreText: 'Mostrar más preguntas',
     showLessText: 'Mostrar menos',
@@ -475,7 +475,7 @@ La calidad profesional de 300 DPI y formatos PDF hacen que tus productos compita
 
   // Related Apps - In Spanish
   relatedApps: {
-    sectionTitle: 'Combina con Otros Generadores de Fichas',
+    sectionTitle: 'Fichas Gratis Combinar - Ficha para Niños e Imprimibles Gratis',
     sectionDescription: 'Crea paquetes de aprendizaje completos combinando dibujos para colorear con estos generadores complementarios.',
     ctaTitle: '¿Listo para Crear Fichas Increíbles?',
     ctaDescription: 'Únete a miles de educadores creando fichas profesionales. Generación ilimitada, licencia comercial incluida.',

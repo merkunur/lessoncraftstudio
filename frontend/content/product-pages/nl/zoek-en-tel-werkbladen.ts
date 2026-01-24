@@ -89,8 +89,8 @@ Zoek-en-tel activiteiten stimuleren meerdere vaardigheden tegelijk. Kinderen oef
 
   // Sample Gallery - REAL file paths from samples/english/find and count/
   samples: {
-    sectionTitle: 'Gratis Werkbladen Zoek en Tel - Werkblad voor Kinderen Voorbeelden',
-    sectionDescription: 'Download gratis voorbeeldwerkbladen om onze professionele kwaliteit te ervaren',
+    sectionTitle: 'Gratis Werkblad voor Kinderen - Gratis Werkbladen en Gratis Printables',
+    sectionDescription: 'Download gratis printables - Gratis werkblad voor kinderen van professionele kwaliteit. Gratis werkbladen en werkblad voor kinderen perfect voor werkblad voor kleuters. Gratis werkblad voor kinderen en werkblad voor kinderen inclusief educatief materiaal. Gratis werkblad beschikbaar',
     downloadLabel: 'Gratis Voorbeeld Downloaden',
     worksheetLabel: 'Werkblad',
     answerKeyLabel: 'Antwoordblad',
@@ -134,7 +134,7 @@ Zoek-en-tel activiteiten stimuleren meerdere vaardigheden tegelijk. Kinderen oef
 
   // Features Grid - FULL text from find-and-count.md feature sections
   features: {
-    sectionTitle: 'Functies - Gratis Werkblad voor Kinderen en Werkblad voor Kleuters Zoek en Tel',
+    sectionTitle: 'Gratis Werkbladen en Werkblad voor Kinderen - Gratis Printables en Werkblad voor Kleuters',
     sectionDescription: 'Deze zoek-en-tel werkbladen maker biedt alle functies voor effectief onderwijs. Van eenvoudige telwerkbladen voor kleuters tot complexe zoekpatronen voor groep 4. Ontdek hoe je in enkele minuten professionele werkbladen maakt die visueel zoeken combineren met rekenen werkbladen doelen.',
     highlightBadgeText: 'Uitgelicht',
     readMoreLabel: 'Lees meer',
@@ -394,7 +394,7 @@ Combineer zoekwerkbladen met kleurplaten in je webshop. Maak thematische bundels
 
   // FAQ Section - FULL FAQs from find-and-count.md
   faq: {
-    sectionTitle: 'Veelgestelde Vragen - Gratis Werkblad voor Kinderen en Gratis Werkbladen',
+    sectionTitle: 'FAQ - Gratis Werkblad voor Kinderen en Werkblad voor Kleuters. Werkblad voor Kinderen',
     sectionDescription: 'Heb je vragen over de zoek-en-tel werkbladen generator? Hier vind je antwoorden op de meest gestelde vragen. Van abonnementskosten tot pedagogische toepassingen.',
     showMoreText: 'Meer vragen tonen',
     showLessText: 'Minder tonen',
@@ -489,7 +489,7 @@ Combineer zoekwerkbladen met kleurplaten in je webshop. Maak thematische bundels
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Combineer Generators - Gratis Werkblad voor Kinderen en Gratis Printables Pakketten',
+    sectionTitle: 'Gratis Werkbladen Combineren - Werkblad voor Kinderen en Gratis Printables',
     sectionDescription: 'Het Basispakket bevat tien werkblad generators die perfect samenwerken. Combineer zoek-en-tel werkbladen met andere tools voor complete leerpakketten. Ontdek hoe je thematische bundels maakt voor elke lesweek.',
     ctaTitle: 'Klaar om geweldige werkbladen te maken?',
     ctaDescription: 'Sluit je aan bij duizenden leerkrachten die professionele werkbladen maken. Onbeperkt genereren, commerciële licentie inbegrepen.',

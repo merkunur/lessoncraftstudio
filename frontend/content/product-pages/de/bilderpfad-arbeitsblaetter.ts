@@ -101,8 +101,8 @@ Das Vollzugriff Abonnement kostet 240 Euro pro Jahr oder 25 Euro monatlich. Es u
 
   // Sample Gallery - REAL file paths from samples/english/picture path/
   samples: {
-    sectionTitle: 'Bilderpfad Arbeitsblätter Beispiele',
-    sectionDescription: 'Laden Sie kostenlose Beispiel-Arbeitsblätter herunter, um unsere professionelle Qualität zu sehen',
+    sectionTitle: 'Kostenloses Arbeitsblatt für Kinder - Kostenlose Arbeitsblätter und Kostenlose Druckvorlagen',
+    sectionDescription: 'Laden Sie kostenlose Druckvorlagen herunter - Kostenloses Arbeitsblatt für Kinder in professioneller Qualität für Arbeitsblatt für Vorschule',
     downloadLabel: 'Kostenloses Beispiel Herunterladen',
     worksheetLabel: 'Arbeitsblatt',
     answerKeyLabel: 'Lösungsblatt',
@@ -153,7 +153,7 @@ Das Vollzugriff Abonnement kostet 240 Euro pro Jahr oder 25 Euro monatlich. Es u
 
   // Features Grid - FULL text from bilderpfad.md feature sections
   features: {
-    sectionTitle: 'Bilderpfad Generator Funktionen - Kostenlose Arbeitsblätter für Arbeitsblätter Grundschule und Vorschule Arbeitsblätter',
+    sectionTitle: 'Arbeitsblatt für Kinder - Kostenlose Druckvorlagen und Arbeitsblatt für Vorschule',
     sectionDescription: 'Der Bilderpfad Generator vereint alle Werkzeuge für professionelle Labyrinth-Arbeitsblätter in einer Anwendung. Von der Bilderauswahl bis zum fertigen PDF benötigen Sie nur wenige Klicks. Jedes Element auf dem Arbeitsblatt lässt sich individuell anpassen. Sie erstellen einzigartige Materialien für das Rechnen lernen und das Buchstaben lernen. Die folgenden Funktionen machen den Generator zum idealen Werkzeug für Lehrkräfte und Eltern.',
     highlightBadgeText: 'Hauptfunktion',
     readMoreLabel: 'Mehr lesen',
@@ -235,7 +235,7 @@ Der Export bietet JPEG und PDF Formate. PDF-Dateien enthalten eingebettete Schri
 
   // How-To Guide - FULL text from bilderpfad.md
   howTo: {
-    sectionTitle: 'Bilderpfad Labyrinth Arbeitsblätter in 5 einfachen Schritten erstellen - Kostenlose Arbeitsblätter für Vorschule Arbeitsblätter und Arbeitsblätter Grundschule',
+    sectionTitle: 'Kostenloses Arbeitsblatt für Kinder erstellen - Arbeitsblatt für Vorschule',
     sectionDescription: 'Die Erstellung professioneller Labyrinth-Arbeitsblätter dauert weniger als drei Minuten. Jeder Schritt führt Sie logisch zum nächsten. Sie benötigen keine Designkenntnisse oder technisches Vorwissen. Der Generator übernimmt die komplexe Arbeit automatisch. Folgen Sie dieser Anleitung für perfekte Ergebnisse beim Rechnen lernen und Buchstaben lernen.',
     ctaText: 'Jetzt Erstellen',
     badgeText: 'So Funktioniert Es',
@@ -307,7 +307,7 @@ Generieren Sie die Lösungsanzeige separat. Kinder kontrollieren ihre Ergebnisse
 
   // Use Cases Section - FULL text from bilderpfad.md
   useCases: {
-    sectionTitle: 'Perfekt für Lehrkräfte Eltern und Pädagogen - Vorschule Arbeitsblätter Arbeitsblätter Grundschule und Kostenlose Arbeitsblätter für jeden Bedarf',
+    sectionTitle: 'Kostenloses Arbeitsblatt für Kinder - Arbeitsblatt für Vorschule mit Kostenlose Druckvorlagen',
     sectionDescription: 'Labyrinth-Arbeitsblätter eignen sich für unterschiedliche pädagogische Situationen. Von der Vorschule bis zur dritten Klasse profitieren Kinder von dieser Übungsform. Die folgenden Zielgruppen nutzen den Bilderpfad Generator besonders häufig. Jede Gruppe findet passende Anwendungen für das Buchstaben lernen und Rechnen lernen.',
     badgeText: 'Anwendungsbereiche',
     readMoreLabel: 'Mehr lesen',
@@ -390,7 +390,7 @@ Das Vollzugriff Abonnement für 240 Euro jährlich amortisiert sich schnell. Ber
 
   // FAQ Section - FULL text from bilderpfad.md
   faq: {
-    sectionTitle: 'Häufig gestellte Fragen zum Bilderpfad Labyrinth Generator - Vorschule Arbeitsblätter Mathe Arbeitsblätter und Kostenlose Arbeitsblätter',
+    sectionTitle: 'FAQ - Kostenloses Arbeitsblatt für Kinder und Arbeitsblatt für Vorschule',
     sectionDescription: 'Die folgenden Fragen erreichen uns regelmäßig von Lehrkräften und Eltern. Die Antworten helfen Ihnen bei der Entscheidung für den Bilderpfad Generator. Bei weiteren Fragen steht unser Support-Team zur Verfügung.',
     showMoreText: 'Mehr Fragen anzeigen',
     showLessText: 'Weniger anzeigen',
@@ -465,7 +465,7 @@ Das Vollzugriff Abonnement für 240 Euro jährlich amortisiert sich schnell. Ber
 
   // Related Apps Section - FULL text from bilderpfad.md
   relatedApps: {
-    sectionTitle: 'Bilderpfad Labyrinthe mit anderen Arbeitsblättern kombinieren - Deutsch Arbeitsblätter Schwungübungen und Ausmalbilder in kompletten Lernpaketen',
+    sectionTitle: 'Kostenlose Arbeitsblätter kombinieren - Arbeitsblatt für Kinder und Kostenlose Druckvorlagen',
     sectionDescription: 'Das Vollzugriff Abonnement umfasst 33 verschiedene Arbeitsblatt-Generatoren. Kombinieren Sie Bilderpfad Labyrinthe mit anderen Übungsformaten für umfassende Lernpakete. Thematisch abgestimmte Materialien verstärken den Lerneffekt. Die folgenden Kombinationen haben sich in der Praxis besonders bewährt.',
     ctaTitle: 'Bereit für professionelle Bilderpfad Arbeitsblätter?',
     ctaDescription: 'Schließen Sie sich tausenden Pädagogen an, die professionelle Arbeitsblätter in Minuten erstellen.',

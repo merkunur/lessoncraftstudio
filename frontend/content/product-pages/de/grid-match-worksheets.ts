@@ -95,8 +95,8 @@ Das Vollzugriff Abonnement enthält alle 33 Arbeitsblatt-Generatoren. Kombiniere
 
   // Sample Gallery - REAL file paths from samples/english/grid match/
   samples: {
-    sectionTitle: 'Raster-Puzzle-Arbeitsblätter Beispiele',
-    sectionDescription: 'Laden Sie kostenlose Beispiel-Arbeitsblätter herunter, um unsere professionelle Qualität zu sehen',
+    sectionTitle: 'Kostenloses Arbeitsblatt für Kinder - Kostenlose Arbeitsblätter und Kostenlose Druckvorlagen',
+    sectionDescription: 'Laden Sie kostenlose Druckvorlagen herunter - Kostenloses Arbeitsblatt für Kinder in professioneller Qualität für Arbeitsblatt für Vorschule',
     downloadLabel: 'Kostenloses Beispiel Herunterladen',
     worksheetLabel: 'Arbeitsblatt',
     answerKeyLabel: 'Lösungsblatt',
@@ -147,7 +147,7 @@ Das Vollzugriff Abonnement enthält alle 33 Arbeitsblatt-Generatoren. Kombiniere
 
   // Features Grid - FULL text from raster-puzzle.md feature sections
   features: {
-    sectionTitle: 'Funktionen des Raster-Puzzle Generators - Kostenlose Arbeitsblätter und Arbeitsblätter Grundschule',
+    sectionTitle: 'Arbeitsblatt für Kinder - Arbeitsblatt für Vorschule und Kostenlose Arbeitsblätter',
     sectionDescription: 'Unser Raster-Puzzle Generator bietet alle Werkzeuge für professionelle Arbeitsblätter. Die Bedienung ist einfach und intuitiv. In wenigen Minuten erstellen Sie individuelle Lernmaterialien. Perfekt für Lehrer, Erzieher und Eltern. Das Vollzugriff Abonnement schaltet alle Funktionen frei.',
     highlightBadgeText: 'Hauptfunktion',
     readMoreLabel: 'Mehr lesen',
@@ -254,7 +254,7 @@ Das räumliche Denken hilft beim Buchstaben lernen. Die Schwungübungen werden d
 
   // How-To Guide - FULL text from raster-puzzle.md step sections
   howTo: {
-    sectionTitle: 'Anleitung: Kostenlose Arbeitsblätter Grundschule erstellen in 5 einfachen Schritten - Raster-Puzzle Generator',
+    sectionTitle: 'Kostenloses Arbeitsblatt für Kinder erstellen - Arbeitsblatt für Vorschule',
     sectionDescription: 'Generieren Sie professionelle Vorschul-Arbeitsblätter und Arbeitsblätter Grundschule in unter drei Minuten. Diese Schritt-für-Schritt-Anleitung zeigt Ihnen den kompletten Erstellungsprozess. Keine Designkenntnisse erforderlich für kostenlose Arbeitsblätter. Der optimierte Workflow hilft Lehrkräften, Mathe-Arbeitsblätter und Puzzle effizient zu erstellen.',
     ctaText: 'Jetzt Erstellen',
     badgeText: 'So funktioniert es',
@@ -316,7 +316,7 @@ Rechnen lernen Materialien drucken Sie so kostengünstig. Malvorlagen sehen auch
 
   // Use Cases - FULL descriptions from raster-puzzle.md persona sections
   useCases: {
-    sectionTitle: 'Perfekt für Lehrkräfte und Eltern - Kostenlose Arbeitsblätter für Vorschul-Arbeitsblätter und Arbeitsblätter Grundschule',
+    sectionTitle: 'Kostenloses Arbeitsblatt für Kinder - Arbeitsblatt für Vorschule mit Kostenlose Druckvorlagen',
     sectionDescription: 'Der Raster-Puzzle Generator eignet sich für viele Zielgruppen. Lehrer, Erzieher und Eltern nutzen ihn täglich. Die vielfältigen Einsatzmöglichkeiten überraschen immer wieder. Entdecken Sie, wie auch Sie profitieren können.',
     badgeText: 'Anwendungsbereiche',
     readMoreLabel: 'Mehr lesen',
@@ -387,7 +387,7 @@ Erstellen Sie thematische Pakete. Malvorlagen zu Jahreszeiten verkaufen sich gut
 
   // FAQ Section - FULL FAQs from raster-puzzle.md
   faq: {
-    sectionTitle: 'Häufig gestellte Fragen zum Raster-Puzzle Generator - Vorschul-Arbeitsblätter, Mathe-Arbeitsblätter und Kostenlose Arbeitsblätter FAQ',
+    sectionTitle: 'FAQ - Kostenloses Arbeitsblatt für Kinder und Arbeitsblatt für Vorschule',
     sectionDescription: 'Diese Fragen beantworten die häufigsten Anliegen von Lehrkräften zum Raster-Puzzle Generator. Erfahren Sie mehr über Funktionen, Preise und Anwendungsmöglichkeiten für Ihre Arbeitsblätter Grundschule und Vorschul-Arbeitsblätter.',
     showMoreText: 'Mehr Fragen anzeigen',
     showLessText: 'Weniger anzeigen',
@@ -516,7 +516,7 @@ Erstellen Sie thematische Pakete. Malvorlagen zu Jahreszeiten verkaufen sich gut
 
   // Related Apps - Apps that work well with grid-match
   relatedApps: {
-    sectionTitle: 'Raster-Puzzle mit 32 anderen Generatoren kombinieren - Einmaleins, Schwungübungen und Arbeitsblätter Grundschule',
+    sectionTitle: 'Kostenlose Arbeitsblätter kombinieren - Arbeitsblatt für Kinder und Kostenlose Druckvorlagen',
     sectionDescription: 'Das Vollzugriff Abonnement enthält 33 verschiedene Arbeitsblatt-Generatoren. Kombinieren Sie Raster-Puzzle-Arbeitsblätter mit anderen Generatortypen für vollständige Lernpakete. Erstellen Sie thematische Einheiten die mehrere Fähigkeiten gleichzeitig trainieren. Jeder Generator nutzt dieselbe intuitive Benutzeroberfläche.',
     ctaTitle: 'Bereit, fantastische Arbeitsblätter zu erstellen?',
     ctaDescription: 'Schließen Sie sich tausenden Lehrkräften an, die professionelle Arbeitsblätter erstellen. Unbegrenzte Generierung, kommerzielle Lizenz inklusive.',

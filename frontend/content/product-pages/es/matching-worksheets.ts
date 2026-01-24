@@ -86,8 +86,8 @@ El generador incluye soporte para 11 idiomas. Perfecto para clases bilingües de
 
   // Sample Gallery - REAL file paths from samples/english/matching/
   samples: {
-    sectionTitle: 'Ejemplos de Fichas de Relacionar',
-    sectionDescription: 'Descarga ejemplos gratuitos para ver nuestra calidad profesional',
+    sectionTitle: 'Ficha Gratis para Niños - Fichas Gratis e Imprimibles Gratis',
+    sectionDescription: 'Descarga imprimibles gratis - Ficha gratis para niños de calidad profesional. Ficha para niños perfecta para ficha para preescolar. Ficha gratis para niños y ficha para niños incluyen material educativo. Ficha gratis disponible',
     downloadLabel: 'Descargar Ejemplo Gratis',
     worksheetLabel: 'Ficha',
     answerKeyLabel: 'Respuestas',
@@ -131,7 +131,7 @@ El generador incluye soporte para 11 idiomas. Perfecto para clases bilingües de
 
   // Features Grid - FULL text from matching.md feature sections
   features: {
-    sectionTitle: 'Características del Generador de Fichas para Imprimir - Todo lo que Necesitas para Fichas Preescolar y Fichas de Matemáticas',
+    sectionTitle: 'Fichas Gratis y Ficha para Niños - Imprimibles Gratis y Ficha para Preescolar',
     sectionDescription: 'Nuestro generador de fichas para imprimir ofrece todas las herramientas que necesitas para crear material educativo gratis profesional. Cada característica está diseñada para maestros ocupados. Crea fichas infantil en minutos, no en horas. Todas las funciones trabajan juntas para facilitar tu trabajo.',
     highlightBadgeText: 'Característica Clave',
     readMoreLabel: 'Leer más',
@@ -239,7 +239,7 @@ El formato PDF preserva todos los elementos exactamente. Las fichas de matemáti
 
   // How-To Guide - FULL text from matching.md step sections
   howTo: {
-    sectionTitle: 'Cómo Crear Fichas para Imprimir en 5 Pasos Fáciles - Generador de Fichas Preescolar y Lectoescritura',
+    sectionTitle: 'Ficha Gratis para Niños Crear - Ficha para Preescolar',
     sectionDescription: 'Crear fichas para imprimir profesionales toma menos de 3 minutos. No necesitas experiencia en diseño. El generador hace el trabajo pesado. Tú decides el contenido y la apariencia. Sigue estos cinco pasos simples para tener tus fichas preescolar listas.',
     ctaText: 'Comenzar Ahora',
     badgeText: 'Cómo Funciona',
@@ -343,7 +343,7 @@ Todas las descargas son 300 DPI. Esta es calidad profesional. Perfecta para impr
 
   // Use Cases - FULL text from matching.md use case sections
   useCases: {
-    sectionTitle: 'Perfecto para Maestros y Padres - Fichas para Imprimir y Material Educativo Gratis para Cada Necesidad',
+    sectionTitle: 'Ficha Gratis para Niños - Ficha para Preescolar con Imprimibles Gratis. Ficha para Niños',
     sectionDescription: 'Las fichas para imprimir de relacionar funcionan para muchos tipos de educadores. Cada grupo encuentra valor único. El generador se adapta a diferentes estilos de enseñanza. Maestros de preescolar hasta tercer grado usan estas fichas. Padres homeschoolers y maestros emprendedores también. Las necesidades son diferentes pero el generador sirve a todos.',
     badgeText: 'Para Quién',
     readMoreLabel: 'Leer más',
@@ -450,7 +450,7 @@ Crea productos de nicho para mayores ganancias. "Fichas Bilingües Español-Ingl
 
   // FAQ Section - Selected FAQs from matching.md
   faq: {
-    sectionTitle: 'Preguntas Frecuentes sobre Fichas para Imprimir de Relacionar - Material Educativo Gratis y Fichas Preescolar',
+    sectionTitle: 'FAQ - Ficha Gratis para Niños y Ficha para Preescolar. Ficha para Niños',
     sectionDescription: 'Preguntas frecuentes sobre nuestro generador de fichas de relacionar y fichas para imprimir gratis.',
     showMoreText: 'Ver más preguntas',
     showLessText: 'Ver menos',
@@ -556,7 +556,7 @@ Crea productos de nicho para mayores ganancias. "Fichas Bilingües Español-Ingl
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Combina Fichas para Imprimir de Relacionar con Otros Generadores - Fichas de Matemáticas, Grafomotricidad, Dibujos para Colorear y Tablas de Multiplicar',
+    sectionTitle: 'Fichas Gratis Combinar - Ficha para Niños e Imprimibles Gratis',
     sectionDescription: 'Crea paquetes de aprendizaje completos combinando las fichas de relacionar con estos generadores complementarios.',
     ctaTitle: '¿Listo para Crear Fichas Increíbles?',
     ctaDescription: 'Únete a miles de maestros que crean fichas profesionales. Generación ilimitada, licencia comercial incluida.',

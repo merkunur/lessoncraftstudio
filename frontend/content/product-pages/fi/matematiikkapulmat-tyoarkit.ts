@@ -58,8 +58,8 @@ Generaattori tukee esiopetuksesta 3. luokkaan. Valitse vaikeustaso säätämäll
 
   // Sample Gallery - REAL file paths from samples/english/math puzzle/
   samples: {
-    sectionTitle: 'Matematiikkapulmat Esimerkit',
-    sectionDescription: 'Lataa ilmaiset esimerkkitehtävät nähdäksesi ammattimaisen laatumme',
+    sectionTitle: 'Ilmainen Työarkki Lapsille - Ilmaiset Työarkit ja Ilmaiset Tulosteet',
+    sectionDescription: 'Lataa ilmaiset tulosteet - Ilmainen työarkki lapsille ammattimaista laatua. Ilmaiset työarkit ja työarkki lapsille täydellinen työarkki esiopetukseen. Ilmainen työarkki lapsille ja työarkki lapsille sisältää ilmaiset tulosteet ja ilmaiset työarkit opetusmateriaalin. Ilmainen työarkki ja työarkki esiopetukseen saatavilla',
     downloadLabel: 'Lataa Ilmainen Esimerkki',
     worksheetLabel: 'Tehtäväsivu',
     answerKeyLabel: 'Vastaussivu',
@@ -89,7 +89,7 @@ Generaattori tukee esiopetuksesta 3. luokkaan. Valitse vaikeustaso säätämäll
 
   // Features Grid - FULL text from Finnish math-puzzle.md feature sections
   features: {
-    sectionTitle: 'Matematiikkapulmat Ominaisuudet - Kaikki Mitä Tarvitset Tulostettaviin Tehtäviin Lapsille',
+    sectionTitle: 'Ilmaiset Työarkit ja Työarkki Lapsille - Ilmaiset Tulosteet ja Työarkki Esiopetukseen',
     sectionDescription: 'Matematiikkapulmageneraattori tarjoaa kattavan työkalusetin alakoulun matematiikan opetukseen. Täysi Käyttöoikeus -tilauksesi antaa pääsyn kaikkiin ominaisuuksiin. Luo yhteenlasku ja vähennyslasku tehtäviä kolmella klikkauksella. Muokkaa jokaista elementtiä pohjalla. Lataa rajattomasti ammattimaisia PDF-tiedostoja.',
     highlightBadgeText: 'Tärkeä Ominaisuus',
     readMoreLabel: 'Lue lisää',
@@ -197,7 +197,7 @@ Harmaasävyvaihtoehto musteen säästämiseksi. Muunna värillinen tehtävä mus
 
   // How-To Guide - FULL text from Finnish math-puzzle.md step sections
   howTo: {
-    sectionTitle: 'Kuinka Luoda Matematiikkapulmat - Tulostettavat Tehtävät Lapsille 5 Helppoa Vaihetta',
+    sectionTitle: 'Ilmainen Työarkki Lapsille Luoda - Työarkki Esiopetukseen',
     sectionDescription: 'Luo ammattimaisia matemaattisia pulmatehtäviä alle 3 minuutissa. Ei teknisiä taitoja tarvita. Ei suunnittelukokemusta vaadita. Seuraa näitä viittä yksinkertaista vaihetta. Generaattori tekee kaiken vaikean työn puolestasi.',
     ctaText: 'Aloita Luominen Nyt',
     badgeText: 'Näin Se Toimii',
@@ -287,7 +287,7 @@ Tulosta tehtävä kotitulostimella. 300 DPI -laatu näkyy terävänä ja selkeä
 
   // Use Cases - FULL text from Finnish math-puzzle.md use case sections
   useCases: {
-    sectionTitle: 'Täydellinen Opettajille ja Vanhemmille - Matematiikka Tehtävät Alakoulu ja Tulostettavat Tehtävät Lapsille',
+    sectionTitle: 'Ilmainen Työarkki Lapsille - Työarkki Esiopetukseen ja Ilmaiset Tulosteet. Työarkki Lapsille',
     sectionDescription: 'Matematiikkapulmageneraattori palvelee monia käyttäjiä. Esiopetuksen opettajat rakentavat laskutaitoja. Alakoulun opettajat vahvistavat matematiikan perusteita. Kotiopettajat luovat monipuolisia oppimispaketteja. Täysi Käyttöoikeus -tilaus (240 € vuodessa) antaa rajattoman pääsyn.',
     badgeText: 'Kenelle Sopii',
     readMoreLabel: 'Lue lisää',
@@ -382,7 +382,7 @@ Rakenna passiivinen tulo digitaalisilla tuotteilla. Luo tehtäviä kerran myy lo
 
   // FAQ Section - Selected FAQs from Finnish math-puzzle.md
   faq: {
-    sectionTitle: 'Usein Kysytyt Kysymykset - Matematiikkapulmat ja Tulostettavat Tehtävät Lapsille',
+    sectionTitle: 'FAQ - Ilmainen Työarkki Lapsille ja Työarkki Esiopetukseen. Työarkki Lapsille',
     sectionDescription: 'Yleisimmät kysymykset matematiikkapulmageneraattorista ja matematiikkapulmatehtävistä.',
     showMoreText: 'Näytä lisää kysymyksiä',
     showLessText: 'Näytä vähemmän',
@@ -501,7 +501,7 @@ Rakenna passiivinen tulo digitaalisilla tuotteilla. Luo tehtäviä kerran myy lo
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Yhdistä Muihin Tehtävämonistegeneraattoreihin',
+    sectionTitle: 'Ilmaiset Työarkit Yhdistää - Työarkki Lapsille ja Ilmaiset Tulosteet',
     sectionDescription: 'Luo kattavia oppimispaketteja yhdistämällä matematiikkapulmat näihin täydentäviin generaattoreihin.',
     ctaTitle: 'Valmiina Luomaan Upeita Matematiikkapulmia?',
     ctaDescription: 'Liity tuhansien opettajien joukkoon, jotka luovat ammattimaisia matematiikkapulmatehtäviä. Rajoittamaton generointi, kaupallinen lisenssi sisältyy.',

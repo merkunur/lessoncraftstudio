@@ -79,8 +79,8 @@ El generador produce fichas para imprimir con calidad profesional de 300 DPI ide
 
   // Sample Gallery - REAL file paths from samples/spanish/find-and-count/
   samples: {
-    sectionTitle: 'Ejemplos de Fichas Veo Veo',
-    sectionDescription: 'Descarga ejemplos gratuitos para ver nuestra calidad profesional',
+    sectionTitle: 'Ficha Gratis para Niños - Fichas Gratis e Imprimibles Gratis',
+    sectionDescription: 'Descarga imprimibles gratis - Ficha gratis para niños de calidad profesional. Ficha para niños perfecta para ficha para preescolar. Ficha gratis para niños y ficha para niños incluyen material educativo. Ficha gratis disponible',
     downloadLabel: 'Descargar Ejemplo Gratis',
     worksheetLabel: 'Ficha',
     answerKeyLabel: 'Respuestas',
@@ -124,7 +124,7 @@ El generador produce fichas para imprimir con calidad profesional de 300 DPI ide
 
   // Features Grid - FULL text from find-and-count.md feature sections
   features: {
-    sectionTitle: 'Características de las Fichas para Imprimir - Todo lo que Necesitas para Crear Fichas Infantil y Fichas Preescolar',
+    sectionTitle: 'Fichas Gratis y Ficha para Niños - Imprimibles Gratis y Ficha para Preescolar',
     sectionDescription: 'Nuestro generador de fichas para imprimir incluye todas las herramientas profesionales que necesitan los maestros para crear material educativo gratis de alta calidad. Cada característica está diseñada para facilitar la creación de fichas infantil efectivas. El sistema combina potencia profesional con simplicidad de uso. Crea fichas preescolar personalizadas en minutos sin experiencia en diseño gráfico.',
     highlightBadgeText: 'Característica Clave',
     readMoreLabel: 'Leer más',
@@ -218,7 +218,7 @@ El sistema genera automáticamente hoja de respuestas para cada ficha. La clave 
 
   // How-To Guide - FULL text from find-and-count.md step sections
   howTo: {
-    sectionTitle: 'Cómo Crear Fichas para Imprimir en 5 Pasos Fáciles',
+    sectionTitle: 'Ficha Gratis para Niños Crear - Ficha para Preescolar',
     sectionDescription: 'Crear fichas para imprimir profesionales toma menos de 3 minutos con nuestro sistema simplificado. El proceso está diseñado para maestros ocupados que necesitan material educativo gratis rápidamente. Cada paso es intuitivo y no requiere experiencia técnica. Los maestros de educación infantil generan fichas preescolar completas en minutos. Sigue estos 5 pasos simples para crear actividades de buscar y contar perfectas. El generador hace el trabajo pesado mientras tú controlas cada detalle del diseño.',
     ctaText: 'Comenzar Ahora',
     badgeText: 'Cómo Funciona',
@@ -308,7 +308,7 @@ Imprime las fichas para imprimir directamente desde tu computadora. Cualquier im
 
   // Use Cases - FULL text from find-and-count.md use case sections
   useCases: {
-    sectionTitle: 'Perfecto para Maestros y Padres',
+    sectionTitle: 'Ficha Gratis para Niños - Ficha para Preescolar con Imprimibles Gratis. Ficha para Niños',
     sectionDescription: 'Las fichas para imprimir de buscar y contar benefician múltiples tipos de educadores. Maestros de preescolar usan estas actividades diariamente. Docentes de primaria integran búsquedas visuales en lecciones variadas. Padres homeschoolers crean planes de lección completos. Maestros de idiomas desarrollan vocabulario visual. Cada grupo encuentra valor único en estas fichas infantil versátiles.',
     badgeText: 'Para Quién',
     readMoreLabel: 'Leer más',
@@ -403,7 +403,7 @@ Amazon KDP permite crear libros de actividades físicos bajo demanda. Compila 10
 
   // FAQ Section - Selected FAQs from find-and-count.md
   faq: {
-    sectionTitle: 'Preguntas Frecuentes',
+    sectionTitle: 'FAQ - Ficha Gratis para Niños y Ficha para Preescolar. Ficha para Niños',
     sectionDescription: 'Preguntas frecuentes sobre nuestro generador de fichas Veo Veo y fichas para imprimir gratis.',
     showMoreText: 'Ver más preguntas',
     showLessText: 'Ver menos',
@@ -508,7 +508,7 @@ Amazon KDP permite crear libros de actividades físicos bajo demanda. Compila 10
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Combina con Otros Generadores de Fichas',
+    sectionTitle: 'Fichas Gratis Combinar - Ficha para Niños e Imprimibles Gratis',
     sectionDescription: 'Crea paquetes de aprendizaje completos combinando las fichas de Veo Veo con estos generadores complementarios.',
     ctaTitle: '¿Listo para Crear Fichas Increíbles?',
     ctaDescription: 'Únete a miles de maestros que crean fichas profesionales. Generación ilimitada, licencia comercial incluida.',

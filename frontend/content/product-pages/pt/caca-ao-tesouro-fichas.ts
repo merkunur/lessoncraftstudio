@@ -77,8 +77,8 @@ Esta ferramenta cria fichas que ensinam conceitos importantes. Alunos praticam s
 
   // Sample Gallery - REAL file paths from samples/english/treasure hunt/
   samples: {
-    sectionTitle: 'Exemplos de Atividades Grátis de Caça ao Tesouro para Crianças',
-    sectionDescription: 'Baixe exemplos gratuitos para ver nossa qualidade profissional',
+    sectionTitle: 'Atividade Grátis para Crianças - Atividades Grátis e Imprimíveis Grátis',
+    sectionDescription: 'Baixe imprimíveis grátis - Atividade grátis para crianças de qualidade profissional. Atividades grátis e atividade para crianças perfeitas para atividade para educação infantil. Atividade grátis para crianças e atividade para crianças incluem material educativo. Atividade grátis disponível',
     downloadLabel: 'Baixar Exemplo Grátis',
     worksheetLabel: 'Atividade',
     answerKeyLabel: 'Gabarito',
@@ -122,7 +122,7 @@ Esta ferramenta cria fichas que ensinam conceitos importantes. Alunos praticam s
 
   // Features Grid - FULL text from treasure-hunt.md feature sections
   features: {
-    sectionTitle: 'Recursos do Gerador de Atividades Grátis de Caça ao Tesouro',
+    sectionTitle: 'Atividades Grátis e Atividade para Crianças - Imprimíveis Grátis e Atividade para Educação Infantil',
     sectionDescription: 'O gerador de caça ao tesouro oferece recursos completos para criar atividades educação infantil e ensino fundamental. Cada funcionalidade foi desenvolvida pensando em professores brasileiros. Você cria atividades de alfabetização personalizadas sem conhecimento técnico. Todas as ferramentas funcionam de forma intuitiva e rápida.',
     highlightBadgeText: 'Recurso Principal',
     readMoreLabel: 'Leia mais',
@@ -211,7 +211,7 @@ Suas atividades para imprimir ficam nítidas e claras. Linhas da grade aparecem 
 
   // How-To Guide - FULL text from treasure-hunt.md step sections
   howTo: {
-    sectionTitle: 'Como Criar Atividades Grátis de Caça ao Tesouro em 5 Passos',
+    sectionTitle: 'Atividade Grátis para Crianças Criar - Atividade para Educação Infantil',
     sectionDescription: 'Criar atividades educação infantil e ensino fundamental leva menos de 3 minutos. O processo é intuitivo e não exige conhecimento técnico. Siga estes 5 passos para gerar suas atividades de alfabetização personalizadas.',
     ctaText: 'Comece Agora',
     badgeText: 'Como Funciona',
@@ -283,7 +283,7 @@ A opção escala de cinza economiza tinta colorida. Ative antes do download para
 
   // Use Cases - FULL text from treasure-hunt.md use case sections
   useCases: {
-    sectionTitle: 'Quem Usa Atividades Grátis de Caça ao Tesouro para Crianças',
+    sectionTitle: 'Atividade Grátis para Crianças - Atividade para Educação Infantil com Imprimíveis Grátis. Atividade para Crianças',
     sectionDescription: 'O gerador de caça ao tesouro atende diversos perfis de educadores. Cada profissional encontra aplicações específicas para suas necessidades. Descubra como diferentes usuários aproveitam a ferramenta para criar atividades educação infantil e ensino fundamental personalizadas.',
     badgeText: 'Para Quem',
     readMoreLabel: 'Leia mais',
@@ -366,7 +366,7 @@ Personalize dificuldade conforme necessidade individual. Comece com instruções
 
   // FAQ Section - Selected FAQs from treasure-hunt.md
   faq: {
-    sectionTitle: 'Perguntas Frequentes sobre Atividades Grátis de Caça ao Tesouro',
+    sectionTitle: 'FAQ - Atividade Grátis para Crianças e Atividade para Educação Infantil. Atividade para Crianças',
     sectionDescription: 'Encontre respostas para as dúvidas mais comuns sobre o gerador de caça ao tesouro. Cada pergunta aborda aspectos práticos de uso da ferramenta para criar atividades educação infantil e ensino fundamental de qualidade profissional.',
     showMoreText: 'Mostrar mais perguntas',
     showLessText: 'Mostrar menos',
@@ -494,7 +494,7 @@ Personalize dificuldade conforme necessidade individual. Comece com instruções
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Combine com Outros Geradores de Atividades Grátis',
+    sectionTitle: 'Atividades Grátis Combinar - Atividade para Crianças e Imprimíveis Grátis',
     sectionDescription: 'Crie pacotes de aprendizagem completos combinando atividades de caça ao tesouro com estes geradores complementares.',
     ctaTitle: 'Pronto para Criar Atividades Incríveis?',
     ctaDescription: 'Junte-se a milhares de educadores que criam atividades profissionais. Geração ilimitada, licença comercial incluída.',

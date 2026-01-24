@@ -85,8 +85,8 @@ Rutenetttegning arbeidsark forbereder barn for koordinatsystemer i matematikk. P
 
   // Sample Gallery - REAL file paths from samples/norwegian/draw-and-color/
   samples: {
-    sectionTitle: 'Rutenetttegning Arbeidsark Eksempler - Gratis Arbeidsark for Barn og Gratis Utskrifter',
-    sectionDescription: 'Last ned gratis eksempler på arbeidsark for barn for å se vår profesjonelle kvalitet. Gratis utskrifter tilgjengelig.',
+    sectionTitle: 'Gratis Arbeidsark for Barn - Gratis Arbeidsark og Gratis Utskrifter',
+    sectionDescription: 'Last ned gratis utskrifter - Gratis arbeidsark for barn av profesjonell kvalitet. Gratis arbeidsark og arbeidsark for barn perfekt for arbeidsark for 1. trinn. Gratis arbeidsark for barn og arbeidsark for barn inkluderer gratis utskrifter undervisningsmateriell. Gratis arbeidsark og arbeidsark for 1. trinn tilgjengelig',
     badgeText: 'Gratis Eksempler',
     downloadLabel: 'Last ned Gratis Eksempel',
     downloadingLabel: 'Laster ned...',
@@ -137,7 +137,7 @@ Rutenetttegning arbeidsark forbereder barn for koordinatsystemer i matematikk. P
 
   // Features Grid - FULL text from draw-and-color.md feature sections
   features: {
-    sectionTitle: 'Funksjoner for Rutenetttegning - Gratis Arbeidsark for Barn, Arbeidsark for 1. Trinn og Gratis Utskrifter',
+    sectionTitle: 'Gratis Arbeidsark og Arbeidsark for Barn - Gratis Utskrifter og Arbeidsark for 1. Trinn',
     sectionDescription: 'Rutenetttegning-generatoren vår gir barnehagepedagoger og lærere kraftige verktøy for å lage fargeleggingsbilder barn og finmotorikk øvelser. Systemet kombinerer enkle kontroller med profesjonelle resultater. Lag arbeidsark gratis på 3 minutter som en del av Full Tilgang-abonnementet. Hver funksjon er designet for pedagoger som trenger raske løsninger for visuospatiale øvelser og bokstaver lære skrive forberedelse. Full Tilgang koster $240 per år eller $25 per måned. Abonnementet inkluderer alle 33 arbeidsarkgeneratorer uten ekstra kostnader per ark.',
     highlightBadgeText: 'Viktig Funksjon',
     readMoreLabel: 'Les mer',
@@ -231,7 +231,7 @@ Last ned arbeidsark umiddelbart etter generering. Ingen ventetid for rendering. 
 
   // How-To Guide - FULL text from draw-and-color.md step sections
   howTo: {
-    sectionTitle: 'Hvordan Lage Rutenetttegning Arbeidsark for 1. Trinn - Gratis Arbeidsark for Barn og Gratis Utskrifter på 5 Enkle Trinn',
+    sectionTitle: 'Gratis Arbeidsark for Barn Lage - Arbeidsark for 1. Trinn',
     sectionDescription: 'Lag profesjonelle rutenetttegning arbeidsark på under 3 minutter. Følg disse fem enkle trinnene. Ingen designerfaring kreves. Systemet guider deg gjennom hele prosessen. Pedagoger lager arbeidsark gratis raskere enn tradisjonelle metoder. Resultatet er profesjonelle fargeleggingsbilder barn og finmotorikk øvelser som en del av Full Tilgang-abonnementet. Bruk samme prosess for gangetabellen, bokstaver lære skrive og matematikk oppgaver.',
     ctaText: 'Start Nå',
     badgeText: 'Slik Fungerer Det',
@@ -303,7 +303,7 @@ Alle nedlastinger er 300 DPI profesjonell kvalitet. Skarp oppløsning sikrer kla
 
   // Use Cases - FULL text from draw-and-color.md use case sections
   useCases: {
-    sectionTitle: 'Perfekt for Pedagoger - Gratis Arbeidsark for Barn, Arbeidsark for 1. Trinn og Gratis Utskrifter for Alle Behov',
+    sectionTitle: 'Gratis Arbeidsark for Barn - Arbeidsark for 1. Trinn med Gratis Utskrifter. Arbeidsark for Barn',
     sectionDescription: 'Rutenetttegning arbeidsark tjener pedagoger på tvers av utdanningsnivåer og undervisningskontekster. Barnehagepedagoger bruker dem for finmotorikk utvikling. Lærere i småskoletrinnet integrerer dem med matematikk oppgaver. Hjemmeskoleforeldre kombinerer dem med bokstaver lære skrive. Spesialpedagoger tilpasser dem for differensiert undervisning. Lærerentreprenører selger dem som oppgavehefter barn. Full Tilgang-abonnementet støtter alle disse brukstilfellene med ubegrenset arbeidsark gratis generering.',
     badgeText: 'Hvem Er Det For',
     readMoreLabel: 'Les mer',
@@ -386,7 +386,7 @@ Differensierte pakker appellerer til bredere marked. Lag "Rutenetttegning for Ba
 
   // FAQ Section - FULL text from draw-and-color.md FAQ sections
   faq: {
-    sectionTitle: 'Ofte Stilte Spørsmål om Rutenetttegning - Gratis Arbeidsark for Barn, Arbeidsark for 1. Trinn og Gratis Utskrifter',
+    sectionTitle: 'FAQ - Gratis Arbeidsark for Barn og Arbeidsark for 1. Trinn. Arbeidsark for Barn',
     sectionDescription: 'Pedagoger stiller vanlige spørsmål om rutenetttegning arbeidsark. Prisstruktur, klasserombruk og kommersiell lisensering er hyppige temaer. Tekniske spørsmål om bokstaver lære skrive, tall og telling og addisjon og subtraksjon integrering kommer ofte. Dette avsnittet adresserer de vanligste spørsmålene. Svarene gir klare detaljer om Full Tilgang-abonnementets funksjoner og begrensninger.',
     badgeText: 'Vanlige Spørsmål',
     readMoreLabel: 'Les mer',
@@ -472,7 +472,7 @@ Kombiner rutenetttegning med andre generatorer for høyverdi produkter. Lag komp
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Kombiner Rutenetttegning med Andre Arbeidsark - Gratis Arbeidsark for Barn og Arbeidsark for 1. Trinn Pakker',
+    sectionTitle: 'Gratis Arbeidsark Kombinere - Arbeidsark for Barn og Gratis Utskrifter',
     sectionDescription: 'Rutenetttegning fungerer enda bedre kombinert med andre arbeidsarktyper. Full Tilgang inkluderer 33 gratis generatorer på plattformen. Lag komplette læringsressurser ved å kombinere rutenetttegning med matematikk oppgaver, bokstaver lære skrive og lesetrening aktiviteter. Pedagoger lager temabaserte oppgavehefter barn som dekker flere fagområder. Integrering av rutenetttegning med andre aktiviteter bygger bredere ferdigheter.',
     ctaTitle: 'Klar til å Lage Fantastiske Rutenetttegning Arbeidsark?',
     ctaDescription: 'Bli med tusenvis av pedagoger som lager profesjonelle rutenetttegning arbeidsark. Ubegrenset oppretting, kommersiell lisens inkludert.',

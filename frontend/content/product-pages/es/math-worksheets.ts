@@ -91,8 +91,8 @@ Las fichas de matemáticas incluyen temas educativos adaptados a intereses infan
 
   // Sample Gallery - REAL file paths from samples/english/math worksheet/
   samples: {
-    sectionTitle: 'Ejemplos de Fichas de Matemáticas',
-    sectionDescription: 'Descarga ejemplos gratuitos para ver nuestra calidad profesional',
+    sectionTitle: 'Ficha Gratis para Niños - Fichas Gratis e Imprimibles Gratis',
+    sectionDescription: 'Descarga imprimibles gratis - Ficha gratis para niños de calidad profesional. Ficha para niños perfecta para ficha para preescolar. Ficha gratis para niños y ficha para niños incluyen material educativo. Ficha gratis disponible',
     downloadLabel: 'Descargar Ejemplo Gratis',
     worksheetLabel: 'Ficha',
     answerKeyLabel: 'Respuestas',
@@ -136,7 +136,7 @@ Las fichas de matemáticas incluyen temas educativos adaptados a intereses infan
 
   // Features Grid - FULL text from math-worksheet.md feature sections
   features: {
-    sectionTitle: 'Características del Generador de Fichas de Matemáticas - Todo lo que Necesitas para Crear Ejercicios Matemáticas y Fichas Infantil',
+    sectionTitle: 'Fichas Gratis y Ficha para Niños - Imprimibles Gratis y Ficha para Preescolar',
     sectionDescription: 'El generador de fichas de matemáticas incluye todas las herramientas que necesitan los maestros de preescolar y primaria. Crea ejercicios matemáticas personalizados en minutos sin experiencia en diseño. Cada característica está diseñada para ahorrar tiempo y producir fichas para imprimir de calidad profesional. Combina imágenes educativas con acertijos numéricos para enseñar conceptos de suma, resta y aprender los números de manera visual. Tu suscripción al Paquete Básico incluye acceso ilimitado a todas estas funciones sin cargos por uso.',
     highlightBadgeText: 'Característica Clave',
     readMoreLabel: 'Leer más',
@@ -230,7 +230,7 @@ Las fichas infantil descargadas conservan todos los elementos editados en el lie
 
   // How-To Guide - FULL text from math-worksheet.md step sections
   howTo: {
-    sectionTitle: 'Cómo Crear Fichas de Matemáticas para Imprimir en 5 Pasos Fáciles - Guía Completa de Ejercicios Matemáticas y Fichas Infantil',
+    sectionTitle: 'Ficha Gratis para Niños Crear - Ficha para Preescolar',
     sectionDescription: 'Crear fichas para imprimir profesionales toma menos de 3 minutos siguiendo esta guía paso a paso. No necesitas experiencia en diseño gráfico ni habilidades técnicas avanzadas. El proceso completo desde la selección de imágenes hasta la descarga del PDF es intuitivo y rápido. Cada paso incluye opciones de personalización para adaptar los ejercicios matemáticas a tus necesidades específicas. Maestros de preescolar y primaria completan fichas infantil completas durante su hora de planificación.',
     ctaText: 'Comenzar Ahora',
     badgeText: 'Cómo Funciona',
@@ -322,7 +322,7 @@ Imprime las fichas gratis descargadas en cualquier impresora doméstica o escola
 
   // Use Cases - FULL text from math-worksheet.md use case sections
   useCases: {
-    sectionTitle: 'Perfecto para Maestros, Padres y Educadores - Fichas para Imprimir de Grafomotricidad, Lectoescritura y Ejercicios Matemáticas para Cada Necesidad',
+    sectionTitle: 'Ficha Gratis para Niños - Ficha para Preescolar con Imprimibles Gratis. Ficha para Niños',
     sectionDescription: 'El generador de fichas de matemáticas beneficia a diversos tipos de educadores en diferentes contextos de enseñanza. Maestros de preescolar usan estas fichas para imprimir para introducir conceptos numéricos básicos. Docentes de primaria crean ejercicios matemáticas diferenciados para múltiples niveles de habilidad. Padres educadores en casa diseñan fichas infantil personalizadas para el ritmo de aprendizaje de sus hijos. Cada grupo de usuarios aprovecha las mismas herramientas profesionales adaptándolas a sus situaciones únicas de enseñanza.',
     badgeText: 'Para Quién',
     readMoreLabel: 'Leer más',
@@ -417,7 +417,7 @@ Vendedores en Etsy y Amazon KDP convierten las fichas infantil en productos de i
 
   // FAQ Section - Selected FAQs from math-worksheet.md
   faq: {
-    sectionTitle: 'Preguntas Frecuentes sobre Fichas para Imprimir de Matemáticas, Grafomotricidad, Lectoescritura y Ejercicios de Números',
+    sectionTitle: 'FAQ - Ficha Gratis para Niños y Ficha para Preescolar. Ficha para Niños',
     sectionDescription: 'Maestros, padres y educadores tienen preguntas comunes sobre el generador de fichas de matemáticas antes de suscribirse. Esta sección responde las preguntas más frecuentes sobre crear fichas para imprimir, usar material educativo en aulas, vender recursos y características específicas del generador.',
     showMoreText: 'Ver más preguntas',
     showLessText: 'Ver menos',
@@ -522,7 +522,7 @@ Vendedores en Etsy y Amazon KDP convierten las fichas infantil en productos de i
 
   // Related Apps - Combina Fichas de Matemáticas con otros generadores
   relatedApps: {
-    sectionTitle: 'Combina con Otros Generadores de Fichas - Paquetes Completos de Material Educativo Gratis',
+    sectionTitle: 'Fichas Gratis Combinar - Ficha para Niños e Imprimibles Gratis',
     sectionDescription: 'Tu suscripción al Paquete Básico incluye 10 generadores diferentes de fichas infantil. El generador de acertijos matemáticos es solo uno de ellos. Combina múltiples tipos de fichas para imprimir para crear paquetes de aprendizaje completos.',
     ctaTitle: '¿Listo para Crear Fichas de Matemáticas Increíbles?',
     ctaDescription: 'Únete a miles de maestros que crean fichas profesionales. Generación ilimitada, licencia comercial incluida.',

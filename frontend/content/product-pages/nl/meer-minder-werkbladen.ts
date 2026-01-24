@@ -95,8 +95,8 @@ Dit gereedschap is ideaal voor basisonderwijs leerkrachten die sommen tot 20 oef
 
   // Sample Gallery - REAL file paths from samples/dutch/more-less/
   samples: {
-    sectionTitle: 'Gratis Werkbladen Meer Minder Voorbeelden - Werkblad voor Kinderen',
-    sectionDescription: 'Download gratis voorbeeldwerkbladen om onze professionele kwaliteit te ervaren',
+    sectionTitle: 'Gratis Werkblad voor Kinderen - Gratis Werkbladen en Gratis Printables',
+    sectionDescription: 'Download gratis printables - Gratis werkblad voor kinderen van professionele kwaliteit. Gratis werkbladen en werkblad voor kinderen perfect voor werkblad voor kleuters. Gratis werkblad voor kinderen en werkblad voor kinderen inclusief educatief materiaal. Gratis werkblad voor kinderen beschikbaar',
     downloadLabel: 'Gratis Voorbeeld Downloaden',
     worksheetLabel: 'Werkblad',
     answerKeyLabel: 'Antwoordblad',
@@ -147,7 +147,7 @@ Dit gereedschap is ideaal voor basisonderwijs leerkrachten die sommen tot 20 oef
 
   // Features Grid - FULL text from more-less.md feature sections
   features: {
-    sectionTitle: 'Functies - Gratis Werkblad Generator voor Werkblad voor Kleuters',
+    sectionTitle: 'Gratis Werkbladen en Werkblad voor Kinderen - Gratis Printables en Werkblad voor Kleuters',
     sectionDescription: 'Onze werkbladgenerator biedt alle functies die leerkrachten nodig hebben. Maak rekenen werkbladen in enkele klikken. Pas alles aan op het canvas. Upload eigen afbeeldingen voor gepersonaliseerde lessen. Ondersteunt 11 talen voor meertalig onderwijs. Inclusief commerciële licentie voor verkoop op platforms. Toegang tot 3000+ afbeeldingen in de bibliotheek. Download in professionele 300 DPI kwaliteit. Elk werkblad is uniek aanpasbaar voor jouw leerlingen.',
     highlightBadgeText: 'Uitgelicht',
     readMoreLabel: 'Lees meer',
@@ -252,7 +252,7 @@ Voor commerciële verkoop bied aparte antwoordsleutels aan. Verkoop werkblad en 
 
   // How-To Guide - FULL text from more-less.md step sections
   howTo: {
-    sectionTitle: 'Gratis Printables Maken in 5 Stappen - Werkblad voor Kinderen Meer Minder',
+    sectionTitle: 'Gratis Werkblad voor Kinderen Maken - Werkblad voor Kleuters',
     sectionDescription: 'Maak professionele vergelijkingswerkbladen in minder dan 3 minuten. Deze handleiding laat zien hoe je snel werkbladen groep 3 en werkbladen kleuters maakt. Geen technische vaardigheden nodig. Volg gewoon deze vijf stappen. Elk werkblad is uniek en volledig aanpasbaar. Perfect voor drukke leerkrachten die direct bruikbare rekenen werkbladen nodig hebben. Combineer met kleurplaten en fijne motoriek oefeningen voor complete lespakketten.',
     ctaText: 'Nu Starten',
     badgeText: 'Zo werkt het',
@@ -340,7 +340,7 @@ Combineer met andere oefenbladen gratis van ons platform. Print rekenen werkblad
 
   // Use Cases - FULL text from more-less.md use case sections
   useCases: {
-    sectionTitle: 'Gratis Werkbladen voor Leerkrachten - Werkblad voor Kleuters en Kinderen',
+    sectionTitle: 'Gratis Werkblad voor Kinderen - Werkblad voor Kleuters met Gratis Printables. Werkblad voor Kinderen',
     sectionDescription: 'Onze werkbladgenerator helpt verschillende soorten leerkrachten en ouders. Van groep 1 2 tot groep 3 en hoger. Van thuisonderwijs tot speciale educatie. Iedereen vindt passende toepassingen. Maak werkbladen die precies aansluiten bij jouw situatie. Combineer met kleurplaten fijne motoriek oefeningen en veilig leren lezen materialen. Elk gebruikerstype heeft unieke behoeften. Deze generator voldoet aan allemaal.',
     badgeText: 'Voor wie',
     readMoreLabel: 'Lees meer',
@@ -435,7 +435,7 @@ Combineer vergelijkingswerkbladen met tafels oefenen materialen voor gevorderde 
 
   // FAQ Section - FULL FAQs from more-less.md
   faq: {
-    sectionTitle: 'Veelgestelde Vragen - Gratis Werkblad Meer Minder voor Kleuters',
+    sectionTitle: 'FAQ - Gratis Werkblad voor Kinderen en Werkblad voor Kleuters. Werkblad voor Kinderen',
     sectionDescription: 'Veel leerkrachten en ouders hebben vragen over onze werkbladgenerator. Deze sectie beantwoordt de meest voorkomende vragen. Van prijzen tot technische details. Van gebruik in de klas tot commerciële verkoop. Alles wat je moet weten over werkbladen kleuters en werkbladen groep 3 maken. Lees verder voor duidelijke antwoorden op al je vragen over rekenen werkbladen en oefenbladen gratis.',
     showMoreText: 'Meer vragen tonen',
     showLessText: 'Minder tonen',
@@ -563,7 +563,7 @@ Combineer vergelijkingswerkbladen met tafels oefenen materialen voor gevorderde 
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Gerelateerde Gratis Printables - Werkblad voor Kinderen Rekenen',
+    sectionTitle: 'Gratis Werkbladen Combineren - Werkblad voor Kinderen en Gratis Printables',
     sectionDescription: 'Volledige Toegang abonnement kost 240 euro per jaar of 25 euro per maand. Leerkrachten abonneren om drie overtuigende redenen. Meertalige ondersteuning voor internationaal onderwijs. Commerciële licentie voor extra inkomen. Enorme tijdsbesparing voor drukke leerkrachten. Elk voordeel rechtvaardigt de investering alleen al. Samen maken ze het abonnement onmisbaar. Maak onbeperkt rekenen werkbladen oefenbladen gratis en kleurplaten zonder extra kosten per werkblad.',
     ctaTitle: 'Klaar om geweldige werkbladen te maken?',
     ctaDescription: 'Sluit je aan bij duizenden leerkrachten die professionele werkbladen maken. Onbeperkt genereren, commerciële licentie inbegrepen.',

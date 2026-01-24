@@ -99,8 +99,8 @@ Perfekt für Erzieher in der Vorschule und Lehrkräfte in der Grundschule, die s
 
   // Sample Gallery - REAL file paths from samples/english/prepositions/
   samples: {
-    sectionTitle: 'Präpositionen Arbeitsblätter Beispiele',
-    sectionDescription: 'Laden Sie kostenlose Beispiel-Arbeitsblätter herunter, um unsere professionelle Qualität zu sehen',
+    sectionTitle: 'Kostenloses Arbeitsblatt für Kinder - Kostenlose Arbeitsblätter und Kostenlose Druckvorlagen',
+    sectionDescription: 'Laden Sie kostenlose Druckvorlagen herunter - Kostenloses Arbeitsblatt für Kinder in professioneller Qualität für Arbeitsblatt für Vorschule',
     downloadLabel: 'Kostenloses Beispiel Herunterladen',
     worksheetLabel: 'Arbeitsblatt',
     answerKeyLabel: 'Lösungsblatt',
@@ -151,7 +151,7 @@ Perfekt für Erzieher in der Vorschule und Lehrkräfte in der Grundschule, die s
 
   // Features Grid - FULL text from praepositionen.md feature sections
   features: {
-    sectionTitle: 'Präpositionen Generator Funktionen - Kostenlose Arbeitsblätter für Arbeitsblätter Grundschule und Vorschule Arbeitsblätter',
+    sectionTitle: 'Arbeitsblatt für Kinder - Kostenlose Druckvorlagen und Arbeitsblatt für Vorschule',
     sectionDescription: 'Unser Präpositionen-Generator bietet sieben leistungsstarke Funktionen für die schnelle Erstellung professioneller Arbeitsblätter. Diese Funktionen arbeiten zusammen und geben Ihnen volle Kontrolle über jedes Detail Ihrer kostenlosen Arbeitsblätter. Ob Sie einfache Präpositionen-Übungen oder komplexe räumliche Konzeptaktivitäten benötigen, unser Generator liefert die passenden Werkzeuge.',
     highlightBadgeText: 'Hauptfunktion',
     readMoreLabel: 'Mehr lesen',
@@ -231,7 +231,7 @@ Wählen Sie zwischen PDF- und JPEG-Downloadformaten. PDF-Dateien bewahren die Qu
 
   // How-To Guide - FULL text from praepositionen.md
   howTo: {
-    sectionTitle: 'Präpositionen-Arbeitsblätter in 5 Schritten erstellen - Arbeitsblätter Grundschule und Vorschule Arbeitsblätter schnell und einfach',
+    sectionTitle: 'Kostenloses Arbeitsblatt für Kinder erstellen - Arbeitsblatt für Vorschule',
     sectionDescription: 'Erstellen Sie professionelle Präpositionen-Arbeitsblätter in fünf einfachen Schritten. Jeder Schritt dauert weniger als eine Minute. Der gesamte Prozess vom Start bis zum fertigen Download benötigt durchschnittlich 2 bis 3 Minuten.',
     ctaText: 'Jetzt Erstellen',
     badgeText: 'So Funktioniert Es',
@@ -293,7 +293,7 @@ Bearbeiten Sie jedes Element nach der Generierung. Klicken Sie auf Bilder, um si
 
   // Use Cases Section - FULL text from praepositionen.md
   useCases: {
-    sectionTitle: 'Perfekt für Lehrkräfte Eltern und Pädagogen - Vorschule Arbeitsblätter Arbeitsblätter Grundschule und Kostenlose Arbeitsblätter für jeden Bedarf',
+    sectionTitle: 'Kostenloses Arbeitsblatt für Kinder - Arbeitsblatt für Vorschule mit Kostenlose Druckvorlagen',
     sectionDescription: 'Unser Präpositionen-Generator dient verschiedenen Pädagogen mit unterschiedlichen Bedürfnissen. Vorschulerzieher erstellen täglich Materialien für räumliche Konzepte. Grundschullehrkräfte integrieren Präpositionen in den Deutschunterricht. Eltern im Homeschooling generieren individuelle Übungen für ihre Kinder.',
     badgeText: 'Anwendungsbereiche',
     readMoreLabel: 'Mehr lesen',
@@ -364,7 +364,7 @@ Die gewerbliche Lizenz im Vollzugriff Abonnement erlaubt unbegrenzten Verkauf. K
 
   // FAQ Section - FULL text from praepositionen.md
   faq: {
-    sectionTitle: 'Häufig gestellte Fragen zu Präpositionen-Arbeitsblättern - Mathe Arbeitsblätter und Arbeitsblätter Grundschule',
+    sectionTitle: 'FAQ - Kostenloses Arbeitsblatt für Kinder und Arbeitsblatt für Vorschule',
     sectionDescription: 'Hier finden Sie Antworten auf die wichtigsten Fragen zum Präpositionen-Generator. Erfahren Sie alles über Funktionen, Preise und Einsatzmöglichkeiten.',
     showMoreText: 'Mehr Fragen anzeigen',
     showLessText: 'Weniger anzeigen',
@@ -439,7 +439,7 @@ Die gewerbliche Lizenz im Vollzugriff Abonnement erlaubt unbegrenzten Verkauf. K
 
   // Related Apps Section - FULL text from praepositionen.md
   relatedApps: {
-    sectionTitle: 'Präpositionen-Arbeitsblätter mit anderen Generatoren kombinieren - Schwungübungen und Buchstaben lernen Lernpakete erstellen',
+    sectionTitle: 'Kostenlose Arbeitsblätter kombinieren - Arbeitsblatt für Kinder und Kostenlose Druckvorlagen',
     sectionDescription: 'Der Präpositionen-Generator ist eines von 33 Tools im Vollzugriff Abonnement. Kombinieren Sie verschiedene Arbeitsblatt-Typen für umfassende Lernpakete. Erstellen Sie thematisch abgestimmte Materialien für Ihren Unterricht.',
     ctaTitle: 'Bereit für professionelle Präpositionen-Arbeitsblätter?',
     ctaDescription: 'Schließen Sie sich tausenden Pädagogen an, die professionelle Arbeitsblätter in Minuten erstellen.',

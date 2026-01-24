@@ -83,8 +83,8 @@ Generatorn stöder elev material för alla åldrar. Använd den för att skapa m
 
   // Sample Gallery - REAL file paths from samples/swedish/wordsearch/
   samples: {
-    sectionTitle: 'Ordletare Arbetsblad Exempel',
-    sectionDescription: 'Ladda ner gratis exempelarbetsblad för att se vår professionella kvalitet',
+    sectionTitle: 'Gratis Arbetsblad för Barn - Gratis Arbetsblad och Gratis Utskrifter',
+    sectionDescription: 'Ladda ner gratis utskrifter - Gratis arbetsblad för barn av professionell kvalitet. Gratis arbetsblad och arbetsblad för barn perfekt för arbetsblad för förskoleklass. Gratis arbetsblad för barn och arbetsblad för barn inkluderar utbildningsmaterial. Gratis arbetsblad och gratis utskrifter tillgänglig',
     downloadLabel: 'Ladda Ner Gratis Exempel',
     worksheetLabel: 'Arbetsblad',
     answerKeyLabel: 'Facit',
@@ -301,7 +301,7 @@ Välj gråskala för att spara bläck vid utskrift. Gråskala konverterar färgb
 
   // Use Cases - FULL text from wordsearch.md use case sections
   useCases: {
-    sectionTitle: 'Perfekt för Lärare och Föräldrar',
+    sectionTitle: 'Gratis Arbetsblad för Barn - Arbetsblad för Förskoleklass med Gratis Utskrifter. Arbetsblad för Barn',
     sectionDescription: 'Ordletare generatorn är perfekt för alla som undervisar barn. Lärare i förskoleklass och lågstadiet använder den dagligen. Föräldrar som hemundervisar skapar arbetsblad gratis för sina barn. Specialpedagoger skapar anpassade arbetsblad för olika behov.',
     badgeText: 'Vem Det Är För',
     readMoreLabel: 'Läs mer',
@@ -384,7 +384,7 @@ Skapa återkommande inkomst med populära teman. Addition och subtraktion arbets
 
   // FAQ Section - Selected FAQs from wordsearch.md
   faq: {
-    sectionTitle: 'Vanliga Frågor',
+    sectionTitle: 'FAQ - Gratis Arbetsblad för Barn och Arbetsblad för Förskoleklass med Gratis Utskrifter. Arbetsblad för Barn',
     sectionDescription: 'Vanliga frågor om vår ordletare generator och arbetsblad gratis.',
     showMoreText: 'Visa fler frågor',
     showLessText: 'Visa färre',
@@ -489,7 +489,7 @@ Skapa återkommande inkomst med populära teman. Addition och subtraktion arbets
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Kombinera med Andra Arbetsblad Generatorer',
+    sectionTitle: 'Gratis Arbetsblad Kombinera - Arbetsblad för Barn och Gratis Utskrifter',
     sectionDescription: 'Skapa kompletta lärpaket genom att kombinera ordletare arbetsblad med dessa kompletterande generatorer.',
     ctaTitle: 'Redo att Skapa Fantastiska Arbetsblad?',
     ctaDescription: 'Gå med tusentals lärare som skapar professionella arbetsblad. Obegränsad generering, kommersiell licens ingår.',

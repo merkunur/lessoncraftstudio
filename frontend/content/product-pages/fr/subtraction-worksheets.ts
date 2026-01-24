@@ -86,8 +86,8 @@ Les enseignants de maternelle et de CP utilisent ces fiches de soustraction pour
 
   // Sample Gallery - REAL file paths from samples/french/subtraction/
   samples: {
-    sectionTitle: 'Exemples de Fiches de Soustraction',
-    sectionDescription: 'Téléchargez des exemples gratuits pour voir notre qualité professionnelle',
+    sectionTitle: 'Fiche Gratuite pour Enfants - Fiches Gratuites et Imprimables Gratuits',
+    sectionDescription: 'Téléchargez imprimables gratuits - Fiche gratuite pour enfants de qualité professionnelle. Fiches gratuites et fiche pour enfants parfaites pour fiche pour maternelle. Fiche gratuite pour enfants et fiches gratuites inclus matériel éducatif. Fiche gratuite et fiches gratuites disponible',
     downloadLabel: 'Télécharger Exemple Gratuit',
     worksheetLabel: 'Fiche',
     answerKeyLabel: 'Corrigé',
@@ -131,7 +131,7 @@ Les enseignants de maternelle et de CP utilisent ces fiches de soustraction pour
 
   // Features Grid - FULL text from French subtraction.md Section 2
   features: {
-    sectionTitle: 'Fonctionnalités Fiches Gratuites pour Enfants - Exercices Maths Maternelle et Graphisme à Imprimer',
+    sectionTitle: 'Fiches Gratuites et Fiche pour Enfants - Imprimables Gratuits et Fiche pour Maternelle',
     sectionDescription: 'Notre générateur de fiches de soustraction offre des fonctionnalités complètes pour créer des exercices CP et exercices CE1 professionnels. Chaque fonctionnalité a été conçue pour faciliter la création de fiches à imprimer de haute qualité. Les enseignants gagnent du temps tout en créant des exercices maths personnalisés.',
     highlightBadgeText: 'Fonctionnalité Clé',
     readMoreLabel: 'Lire la suite',
@@ -197,7 +197,7 @@ Les enseignants de maternelle et de CP utilisent ces fiches de soustraction pour
 
   // How-To Guide - FULL text from French subtraction.md Section 3
   howTo: {
-    sectionTitle: 'Comment Créer des Fiches Gratuites Soustraction - Imprimables Gratuits en 5 Étapes',
+    sectionTitle: 'Fiche Gratuite pour Enfants Créer - Fiche pour Maternelle',
     sectionDescription: 'Créer des exercices de soustraction professionnels prend moins de 3 minutes. Notre générateur simplifie chaque étape du processus de création. Suivez ces cinq étapes simples pour produire des fiches à imprimer de qualité.',
     ctaText: 'Commencer à Créer',
     badgeText: 'Guide Étape par Étape',
@@ -249,7 +249,7 @@ Les enseignants de maternelle et de CP utilisent ces fiches de soustraction pour
 
   // Use Cases - FULL text from French subtraction.md Section 4
   useCases: {
-    sectionTitle: 'Fiche Gratuite pour Tous - Fiches Gratuites Enseignants Parents Exercices Maths CP CE1',
+    sectionTitle: 'Fiche Gratuite pour Enfants - Fiche pour Maternelle avec Imprimables Gratuits. Fiche pour Enfants',
     sectionDescription: 'Notre générateur de soustraction sert différents types d\'enseignants et éducateurs. Chaque groupe trouve des applications spécifiques pour ces fiches maternelle. Les exercices visuels s\'adaptent à tous les contextes d\'apprentissage.',
     badgeText: 'Cas d\'Utilisation',
     readMoreLabel: 'Lire la suite',
@@ -361,7 +361,7 @@ Les enseignants de maternelle et de CP utilisent ces fiches de soustraction pour
 
   // FAQ Section - FULL text from French subtraction.md Section 6
   faq: {
-    sectionTitle: 'Questions Fréquentes Fiches Gratuites Soustraction - Exercices Maths Maternelle CP',
+    sectionTitle: 'FAQ - Fiche Gratuite pour Enfants et Fiche pour Maternelle. Fiche pour Enfants',
     sectionDescription: 'Les enseignants posent des questions similaires sur notre générateur de soustraction. Cette section répond aux questions les plus courantes sur graphisme maternelle, coloriage à imprimer, alphabet et écriture cursive.',
     showMoreText: 'Afficher plus de questions',
     showLessText: 'Afficher moins',
@@ -520,7 +520,7 @@ Les enseignants de maternelle et de CP utilisent ces fiches de soustraction pour
 
   // Related Apps - From French subtraction.md Section 7
   relatedApps: {
-    sectionTitle: 'Combinez Soustraction avec Autres Apps - Alphabet, Graphisme Maternelle, Tables de Multiplication',
+    sectionTitle: 'Fiches Gratuites Combiner - Fiche pour Enfants et Imprimables Gratuits',
     sectionDescription: 'Votre abonnement Accès Complet inclut 33 générateurs différents. Combinez soustraction avec autres applications pour créer cahiers pédagogiques complets.',
     ctaTitle: 'Prêt à Créer des Fiches Exceptionnelles ?',
     ctaDescription: 'Rejoignez des milliers d\'enseignants qui créent des fiches professionnelles. Génération illimitée, licence commerciale incluse.',

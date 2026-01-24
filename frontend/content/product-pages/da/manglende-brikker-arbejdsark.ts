@@ -85,8 +85,8 @@ Fuld Adgang abonnementet inkluderer kommerciel licens til at sælge dine opgaver
 
   // Sample Gallery - REAL file paths from samples/danish/missing-pieces/
   samples: {
-    sectionTitle: 'Manglende Brikker Gratis Arbejdsark Eksempler til Børn',
-    sectionDescription: 'Download gratis eksempler på arbejdsark for at se vores professionelle kvalitet',
+    sectionTitle: 'Gratis Arbejdsark til Børn - Gratis Arbejdsark og Gratis Printables',
+    sectionDescription: 'Download gratis printables - Gratis arbejdsark til børn af professionel kvalitet. Gratis arbejdsark og arbejdsark til børn perfekt til arbejdsark til børnehaveklasse. Gratis arbejdsark til børn og arbejdsark til børn inkluderer undervisningsmateriale. Gratis arbejdsark tilgængeligt',
     badgeText: 'Gratis Eksempler',
     downloadLabel: 'Download Gratis Eksempel',
     downloadingLabel: 'Downloader...',
@@ -313,7 +313,7 @@ Aktiver Gråtone tjekboksen før download for sort-hvid version. Sparer farvebl�
 
   // Use Cases - FULL text from missing-pieces.md use case sections
   useCases: {
-    sectionTitle: 'Perfekt til Lærere og Forældre - Gratis Arbejdsark til Børn og Gratis Printables',
+    sectionTitle: 'Gratis Arbejdsark til Børn - Arbejdsark til Børnehaveklasse med Gratis Printables. Arbejdsark til Børn',
     sectionDescription: 'Missing Pieces generatoren bruges af tusindvis af pædagoger og forældre verden over. Fra børnehaveklasse til 3. klasse elever. Fra almindelig undervisning til specialpædagogik. Værktøjet tilpasses nemt til enhver undervisningssituation.',
     badgeText: 'Hvem Er Det Til',
     readMoreLabel: 'Læs mere',
@@ -408,7 +408,7 @@ Differentiere opgaver efter klassetrin. Børnehaveklasse pakke med enkle puslesp
 
   // FAQ Section - Selected FAQs from missing-pieces.md
   faq: {
-    sectionTitle: 'Ofte Stillede Spørgsmål om Manglende Brikker Gratis Arbejdsark og Gratis Printables',
+    sectionTitle: 'FAQ - Gratis Arbejdsark til Børn og Arbejdsark til Børnehaveklasse. Arbejdsark til Børn',
     sectionDescription: 'Pædagoger stiller mange spørgsmål om Missing Pieces generatoren. Her besvarer vi de mest almindelige spørgsmål om funktioner prissætning og anvendelse. Hvis dit spørgsmål ikke er besvaret her kontakt support for hjælp.',
     showMoreText: 'Vis flere spørgsmål',
     showLessText: 'Vis færre',

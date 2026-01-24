@@ -83,8 +83,8 @@ Opret bogstavblanding arbejdsark på dansk, tysk, fransk, spansk, italiensk, por
 
   // Sample Gallery
   samples: {
-    sectionTitle: 'Gratis Arbejdsark til Børn - Bogstavblanding Eksempler',
-    sectionDescription: 'Download gratis eksempler på arbejdsark for at se vores professionelle kvalitet',
+    sectionTitle: 'Gratis Arbejdsark til Børn - Gratis Arbejdsark og Gratis Printables',
+    sectionDescription: 'Download gratis printables - Gratis arbejdsark til børn af professionel kvalitet. Gratis arbejdsark og arbejdsark til børn perfekt til arbejdsark til børnehaveklasse. Gratis arbejdsark til børn og arbejdsark til børn inkluderer undervisningsmateriale. Gratis arbejdsark tilgængeligt',
     badgeText: 'Gratis Eksempler',
     downloadLabel: 'Download Gratis Eksempel',
     downloadingLabel: 'Downloader...',
@@ -135,7 +135,7 @@ Opret bogstavblanding arbejdsark på dansk, tysk, fransk, spansk, italiensk, por
 
   // Features Grid
   features: {
-    sectionTitle: 'Gratis Arbejdsark Funktioner - Bogstavblanding Generator til Børnehaveklasse',
+    sectionTitle: 'Gratis Arbejdsark og Arbejdsark til Børn - Gratis Printables og Arbejdsark til Børnehaveklasse',
     sectionDescription: 'Vores bogstavblanding generator indeholder alle funktioner du behøver til professionelle opgaver til print. Grundpakke-abonnement giver dig adgang til komplet billedbibliotek, alle sprog og ubegrænsede tilpasningsmuligheder. Lav arbejdsark til børnehaveklassen, 1. klasse, 2. klasse og 3. klasse med få klik. Hver funktion er designet til at spare tid for travle lærere og pædagoger. Fra valg af billeder til download af færdige PDF-filer tager processen under 3 minutter. Dine elever får engagerende opgaver der kombinerer billedstøtte med læse og skrive træning. Generatoren fungerer perfekt til stavning, ordgenkendelse og bogstavlæring.',
     highlightBadgeText: 'Vigtig Funktion',
     readMoreLabel: 'Læs mere',
@@ -229,7 +229,7 @@ Svarfacit genereres automatisk når du laver en opgave. Download svarfacit som s
 
   // How-To Guide
   howTo: {
-    sectionTitle: 'Sådan Laver du Gratis Arbejdsark Bogstavblanding i 5 Trin',
+    sectionTitle: 'Gratis Arbejdsark til Børn Oprette - Arbejdsark til Børnehaveklasse',
     sectionDescription: 'Opret professionelle bogstavblanding opgaver til print på under 3 minutter. Vores enkle 5-trins proces fungerer perfekt for lærere i børnehaveklassen, 1. klasse og 2. klasse. Intet design-erfaring kræves. Vælg blot billeder, tilpas indstillinger og download færdige arbejdsark klar til print. Hver opgave kombinerer billeder med læse og skrive træning. Børnene ser et billede og skal stable blandede bogstaver i rigtig rækkefølge. Billedstøtten hjælper elever der stadig lærer bogstaver. Sværhedsgraden justeres nemt så opgaverne passer til alle klassetrin fra børnehave til 3. klasse.',
     ctaText: 'Start Nu',
     badgeText: 'Sådan Virker Det',
@@ -422,7 +422,7 @@ Passive indkomst opbygges gennem katalog-vækst. Upload 5-10 nye produkter måne
 
   // FAQ Section
   faq: {
-    sectionTitle: 'Ofte Stillede Spørgsmål om Gratis Arbejdsark Bogstavblanding',
+    sectionTitle: 'FAQ - Gratis Arbejdsark til Børn og Arbejdsark til Børnehaveklasse. Arbejdsark til Børn',
     sectionDescription: 'Lærere og forældre stiller mange spørgsmål om bogstavblanding generator før de abonnerer. Her besvarer vi de 12 mest almindelige spørgsmål om funktioner, priser, anvendelse og muligheder. Læs svarene for at forstå præcis hvad Grundpakke tilbyder og hvordan det kan hjælpe din undervisning. Alle svar er baseret på faktiske funktioner i generatoren. Vi forklarer hvordan opgaver til print fungerer, hvad du kan tilpasse, hvordan kommerciel licens virker og meget mere. Har du spørgsmål vi ikke dækker her? Kontakt support for detaljeret hjælp.',
     showMoreText: 'Vis flere spørgsmål',
     showLessText: 'Vis færre',
@@ -527,7 +527,7 @@ Passive indkomst opbygges gennem katalog-vækst. Upload 5-10 nye produkter måne
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Kombiner Gratis Arbejdsark Bogstavblanding med Andre Generatorer',
+    sectionTitle: 'Gratis Arbejdsark Kombinere - Arbejdsark til Børn og Gratis Printables',
     sectionDescription: 'Bogstavblanding fungerer endnu bedre når kombineret med andre opgavetyper fra platformen. Grundpakke inkluderer 10 generatorer der alle arbejder sammen for komplette ugentlige pakker. Kombiner læse og skrive opgaver med matematikopgaver, gangetabeller, malebog til farvelægning og finmotorik øvelser. Tværfaglige pakker holder eleverne engageret gennem variation. Mandag fokuserer på literacy med bogstavblanding. Tirsdag tilføjer matematikopgaver. Onsdag træner gangetabeller. Torsdag bliver kreativ med malebog og farvelægning. Fredag kombinerer alt i blandede kopiark. Samme platform dækker hele ugen. Lærere sparer enorme mængder tid ved at bruge én platform til alle fag. Ingen behov for at lære fem forskellige værktøjer. Samme interface, samme billedbibliotek, samme hurtige workflow. Lav en hel uges opgaver til print på under én time total forberedelse.',
     ctaTitle: 'Klar til at Lave Fantastiske Arbejdsark?',
     ctaDescription: 'Tilslut dig tusindvis af pædagoger der laver professionelle arbejdsark. Ubegrænset oprettelse, kommerciel licens inkluderet.',

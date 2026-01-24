@@ -93,8 +93,8 @@ La libreria di oltre 3000 immagini adatte ai bambini include temi per ogni mater
 
   // Sample Gallery
   samples: {
-    sectionTitle: 'Schede Gratuite Crittogramma - Stampabili Gratuiti per Bambini',
-    sectionDescription: 'Scarica schede gratuite per bambini e vedi la nostra qualità professionale',
+    sectionTitle: "Scheda Gratuita per Bambini - Schede Gratuite e Stampabili Gratuiti e Scheda per Bambini",
+    sectionDescription: "Scarica stampabili gratuiti - Scheda gratuita per bambini di qualità professionale. Schede gratuite e scheda per bambini perfette per scheda per scuola dell'infanzia. Scheda gratuita per bambini e scheda per bambini includono materiale educativo. Scheda gratuita e scheda per scuola dell'infanzia disponibile",
     downloadLabel: 'Scarica Scheda Gratuita',
     worksheetLabel: 'Scheda',
     answerKeyLabel: 'Chiave di Risposta',
@@ -145,7 +145,7 @@ La libreria di oltre 3000 immagini adatte ai bambini include temi per ogni mater
 
   // Features Grid
   features: {
-    sectionTitle: 'Schede Gratuite Crittogramma - Stampabili Gratuiti Scuola Primaria',
+    sectionTitle: "Schede Gratuite e Scheda per Bambini - Stampabili Gratuiti e Scheda per Scuola dell'Infanzia",
     sectionDescription: 'Il generatore di crittogrammi offre tutti gli strumenti necessari per creare schede gratuite per bambini. Ogni funzionalità è stata progettata per risparmiare tempo agli insegnanti della scuola dell\'infanzia e della scuola primaria. Crea stampabili gratuiti, schede italiano classe prima, pregrafismo e disegni da colorare con la stessa interfaccia facile. Il tuo abbonamento Accesso Completo include tutte le funzionalità premium senza costi aggiuntivi.',
     highlightBadgeText: 'Funzionalità Chiave',
     readMoreLabel: 'Leggi di più',
@@ -204,7 +204,7 @@ La libreria di oltre 3000 immagini adatte ai bambini include temi per ogni mater
 
   // How-To Guide Section
   howTo: {
-    sectionTitle: 'Schede Gratuite Crittogramma - Come Creare Stampabili Gratuiti in 5 Passaggi',
+    sectionTitle: "Scheda Gratuita per Bambini Creare - Scheda per Scuola dell'Infanzia",
     sectionDescription: 'Creare schede gratuite per bambini è semplice e veloce. L\'intero processo richiede meno di 3 minuti dall\'inizio alla fine. Non serve esperienza di design o competenze tecniche. Segui questi 5 passaggi per creare stampabili gratuiti per la scuola dell\'infanzia e la scuola primaria. Il generatore gestisce automaticamente gli aspetti tecnici. Tu ti concentri semplicemente sul contenuto educativo.',
     ctaText: 'Inizia Ora',
     badgeText: 'Guida Passo-Passo',
@@ -256,7 +256,7 @@ La libreria di oltre 3000 immagini adatte ai bambini include temi per ogni mater
 
   // Use Cases Section
   useCases: {
-    sectionTitle: 'Schede Gratuite per Bambini - Stampabili Gratuiti per Ogni Esigenza Educativa',
+    sectionTitle: "Scheda Gratuita per Bambini - Scheda per Scuola dell'Infanzia con Stampabili Gratuiti. Scheda per Bambini",
     sectionDescription: 'Le schede gratuite crittogramma servono una vasta gamma di insegnanti ed educatori. Ogni gruppo di utenti trova valore unico in questo strumento versatile per stampabili gratuiti. Il tuo abbonamento Accesso Completo sblocca possibilità illimitate per tutti questi scenari educativi.',
     badgeText: 'Chi Usa le Nostre Schede',
     readMoreLabel: 'Leggi di più',
@@ -315,7 +315,7 @@ La libreria di oltre 3000 immagini adatte ai bambini include temi per ogni mater
 
   // FAQ Section
   faq: {
-    sectionTitle: 'Domande Frequenti - Schede Gratuite Crittogramma e Stampabili Gratuiti',
+    sectionTitle: "FAQ - Scheda Gratuita per Bambini e Scheda per Scuola dell'Infanzia. Scheda per Bambini",
     sectionDescription: 'Gli insegnanti hanno domande comuni sulle schede gratuite crittogramma. Questa sezione risponde alle domande più frequenti sui stampabili gratuiti. Scopri come funziona l\'abbonamento Accesso Completo. Impara cosa puoi creare con il generatore. Comprendi le opzioni di personalizzazione e stampa.',
     showMoreText: 'Mostra altre domande',
     showLessText: 'Mostra meno domande',
@@ -469,7 +469,7 @@ Puoi scaricare sia la scheda lavoro che la chiave di risposta come file PDF sepa
 
   // Related Apps Section
   relatedApps: {
-    sectionTitle: 'Schede Gratuite - Combina Crittogrammi con Altri Stampabili Gratuiti',
+    sectionTitle: "Schede Gratuite - Combina Crittogrammi con Altri Stampabili Gratuiti",
     sectionDescription: 'L\'abbonamento Accesso Completo include 33 generatori di schede gratuite. Combina il generatore di Crittogrammi con altri strumenti per stampabili gratuiti. Crea pacchetti completi di schede gratuite per bambini. Perfetto per unità tematiche. Ottimo per centri di apprendimento.',
     ctaTitle: 'Pronto a Creare Schede Gratuite Straordinarie?',
     ctaDescription: 'Unisciti a migliaia di educatori che creano stampabili gratuiti professionali. Generazione illimitata, licenza commerciale inclusa.',

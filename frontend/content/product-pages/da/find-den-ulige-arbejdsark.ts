@@ -87,8 +87,8 @@ Vores generator understøtter 11 sprog og indeholder over 3000 børnevenlige bil
 
   // Sample Gallery - REAL file paths from samples/danish/odd-one-out/
   samples: {
-    sectionTitle: 'Find Den Ulige Eksempler - Gratis Arbejdsark til Børn',
-    sectionDescription: 'Download gratis eksempler på arbejdsark for at se vores professionelle kvalitet',
+    sectionTitle: 'Gratis Arbejdsark til Børn - Gratis Arbejdsark og Gratis Printables',
+    sectionDescription: 'Download gratis printables - Gratis arbejdsark til børn af professionel kvalitet. Gratis arbejdsark og arbejdsark til børn perfekt til arbejdsark til børnehaveklasse. Gratis arbejdsark til børn og arbejdsark til børn inkluderer undervisningsmateriale. Gratis arbejdsark tilgængeligt',
     badgeText: 'Gratis Eksempler',
     downloadLabel: 'Download Gratis Eksempel',
     downloadingLabel: 'Downloader...',
@@ -139,7 +139,7 @@ Vores generator understøtter 11 sprog og indeholder over 3000 børnevenlige bil
 
   // Features Grid - FULL text from odd-one-out.md feature sections
   features: {
-    sectionTitle: 'Funktioner - Gratis Arbejdsark til Børn og Arbejdsark til Børnehaveklasse',
+    sectionTitle: 'Gratis Arbejdsark og Arbejdsark til Børn - Gratis Printables og Arbejdsark til Børnehaveklasse',
     sectionDescription: 'Fuld Adgang-abonnementet giver dig alle værktøjer til professionel opgaveproduktion. Skab tilpassede arbejdsark til enhver undervisningssituation. Ingen begrænsninger på antal opgaver til print. Alle funktioner inkluderet i ét abonnement. Find den ulige-generatoren kombinerer brugervenlighed med kraftfulde tilpasningsmuligheder. Perfekt til pædagoger i børnehaveklassen og indskolingen. Understøtter alle fag fra matematikopgaver til læse og skrive aktiviteter. Skab opgaver til print der matcher dit undervisningsbehov præcist.',
     highlightBadgeText: 'Vigtig Funktion',
     readMoreLabel: 'Læs mere',
@@ -247,7 +247,7 @@ Download ubegrænsede arbejdsark med abonnement. Ingen tællere eller begrænsni
 
   // How-To Guide - FULL text from odd-one-out.md step sections
   howTo: {
-    sectionTitle: 'Sådan Skaber Du Gratis Arbejdsark til Børn i 5 Nemme Trin',
+    sectionTitle: 'Gratis Arbejdsark til Børn Oprette - Arbejdsark til Børnehaveklasse',
     sectionDescription: 'Hele processen tager under 3 minutter fra start til færdig opgave til print. Ingen designerfaring nødvendig. Trinvis guide sikrer succes første gang. Perfekt til travle pædagoger der behøver opgaver hurtigt. Find den ulige generatoren forenkler opgaveskabelse maksimalt. Intuitiv interface guider dig gennem hvert trin. Forhåndsvisning viser resultat før download. Fejl kan rettes øjeblikkeligt på lærredet.',
     ctaText: 'Start Nu',
     badgeText: 'Sådan Virker Det',
@@ -345,7 +345,7 @@ Kombinér find den ulige opgaver med andre arbejdsark typer. Læse og skrive opg
 
   // Use Cases - FULL text from odd-one-out.md use case sections
   useCases: {
-    sectionTitle: 'Perfekt til Pædagoger - Gratis Arbejdsark til Børnehaveklasse og Indskoling',
+    sectionTitle: 'Gratis Arbejdsark til Børn - Arbejdsark til Børnehaveklasse med Gratis Printables. Arbejdsark til Børn',
     sectionDescription: 'Find den ulige generatoren tjener mange forskellige brugergrupper. Fra børnehaveklassen til 3. klasse. Hjemmeundervisere til specialpædagoger. Hver gruppe finder unik værdi i værktøjet. Fuld Adgang abonnementet ($240 årligt) giver alle brugergrupper samme omfattende adgang. Ingen funktionsbegrænsninger baseret på brugertype. Pædagoger og forældre får identiske muligheder. Kommerciel licens inkluderet for alle abonnenter.',
     badgeText: 'Hvem Er Det Til',
     readMoreLabel: 'Læs mere',
@@ -513,7 +513,7 @@ Brug Pinterest til at drive trafik til produkter. Pin eksempler af opgaver med l
 
   // FAQ Section - FULL text from odd-one-out.md FAQ sections
   faq: {
-    sectionTitle: 'Ofte Stillede Spørgsmål om Gratis Arbejdsark og Arbejdsark til Børn',
+    sectionTitle: 'FAQ - Gratis Arbejdsark til Børn og Arbejdsark til Børnehaveklasse. Arbejdsark til Børn',
     sectionDescription: 'Pædagoger stiller mange spørgsmål før abonnement. Forstå præcist hvad Fuld Adgang inkluderer. Afklar forventninger om priser og funktioner. Træf informeret beslutning baseret på fakta. Denne sektion besvarer de mest almindelige spørgsmål. Fra priser til funktionalitet. Tekniske evner til pædagogiske anvendelser. Alt du behøver at vide før du starter.',
     showMoreText: 'Vis flere spørgsmål',
     showLessText: 'Vis færre',

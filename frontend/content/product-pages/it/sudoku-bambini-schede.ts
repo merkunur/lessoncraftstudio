@@ -77,8 +77,8 @@ Questo generatore di schede didattiche sudoku è perfetto per insegnanti della s
 
   // Sample Gallery
   samples: {
-    sectionTitle: 'Schede Gratuite di Sudoku per Bambini - Stampabili Gratuiti',
-    sectionDescription: 'Scarica esempi gratuiti per vedere la nostra qualità professionale',
+    sectionTitle: "Scheda Gratuita per Bambini - Schede Gratuite e Stampabili Gratuiti e Scheda per Bambini",
+    sectionDescription: "Scarica stampabili gratuiti - Scheda gratuita per bambini di qualità professionale. Schede gratuite e scheda per bambini perfette per scheda per scuola dell'infanzia. Scheda gratuita per bambini e scheda per bambini includono materiale educativo. Scheda gratuita e scheda per scuola dell'infanzia disponibile",
     downloadLabel: 'Scarica Esempio Gratuito',
     worksheetLabel: 'Scheda',
     answerKeyLabel: 'Chiave di Risposta',
@@ -122,7 +122,7 @@ Questo generatore di schede didattiche sudoku è perfetto per insegnanti della s
 
   // Features Grid
   features: {
-    sectionTitle: 'Funzionalità Generatore Schede Gratuite Sudoku - Scheda per Bambini',
+    sectionTitle: "Schede Gratuite e Scheda per Bambini - Stampabili Gratuiti e Scheda per Scuola dell'Infanzia",
     sectionDescription: 'Il generatore di schede didattiche sudoku include tutte le funzionalità professionali di cui gli insegnanti della scuola dell\'infanzia e classe prima hanno bisogno. Crea puzzle logici personalizzati in minuti con controllo completo su immagini, difficoltà, layout e design. Ogni funzionalità lavora insieme per aiutarti a generare schede didattiche che corrispondono esattamente alle tue esigenze di classe. Modifica tutto sul canvas dopo la generazione. Aggiungi sfondi, bordi e testo. Scarica file PDF e JPEG di alta qualità pronti per la stampa o la vendita.',
     highlightBadgeText: 'Funzionalità Chiave',
     readMoreLabel: 'Leggi di più',
@@ -188,7 +188,7 @@ Questo generatore di schede didattiche sudoku è perfetto per insegnanti della s
 
   // How-To Guide Section
   howTo: {
-    sectionTitle: 'Come Creare Schede Gratuite Sudoku per Bambini - Stampabili Gratuiti',
+    sectionTitle: "Scheda Gratuita per Bambini Creare - Scheda per Scuola dell'Infanzia",
     sectionDescription: 'Creare schede didattiche sudoku professionali richiede meno di tre minuti dall\'inizio al download. Nessuna competenza di design richiesta. Nessuna esperienza sudoku necessaria. Il generatore gestisce automaticamente tutta la logica complessa e il layout. Tu ti concentri sulla scelta delle immagini e del livello di difficoltà. Segui questi cinque semplici passi per creare schede didattiche scuola primaria personalizzate. Ogni passo richiede solo secondi. L\'intero flusso di lavoro è progettato per velocità e semplicità.',
     ctaText: 'Inizia Ora',
     badgeText: 'Guida Passo-Passo',
@@ -260,7 +260,7 @@ Prima di scaricare, seleziona la casella scala di grigi se vuoi risparmiare inch
 
   // Use Cases Section
   useCases: {
-    sectionTitle: 'Chi Usa le Schede Gratuite Sudoku - Scheda per Bambini per Tutti',
+    sectionTitle: "Chi Usa le Schede Gratuite Sudoku - Scheda per Bambini per Tutti",
     sectionDescription: 'I puzzle sudoku visivi servono molti scopi in diversi contesti educativi. Gli insegnanti della scuola dell\'infanzia li usano per centri di logica. Gli insegnanti di classe prima li assegnano come attività per chi finisce prima. Gli insegnanti di sostegno li incorporano nelle lezioni di problem solving. I genitori homeschool apprezzano l\'apprendimento auto-diretto. Gli insegnanti imprenditori vendono versioni personalizzate online. Ogni gruppo di utenti beneficia delle opzioni di flessibilità e personalizzazione. Il formato 4x4 funziona perfettamente per età 4-8 in tutti gli ambienti di apprendimento.',
     badgeText: 'Chi Usa le Nostre Schede',
     readMoreLabel: 'Leggi di più',
@@ -331,7 +331,7 @@ Costruisci pacchetti di puzzle tematici da vendere. Crea collezioni stagionali c
 
   // FAQ Section
   faq: {
-    sectionTitle: 'Domande Frequenti - Schede Gratuite Sudoku e Stampabili Gratuiti',
+    sectionTitle: "FAQ - Scheda Gratuita per Bambini e Scheda per Scuola dell'Infanzia. Scheda per Bambini",
     sectionDescription: 'Gli insegnanti hanno domande comuni su come usare il generatore di puzzle sudoku. Questa sezione risponde alle domande più frequenti su funzionalità, personalizzazione, compatibilità e migliori pratiche. Trova risposte rapide su come combinare puzzle sudoku con altre schede didattiche. Impara come creare materiali per diversi livelli di grado. Scopri come massimizzare il tuo abbonamento Pacchetto Essenziale.',
     showMoreText: 'Mostra altre domande',
     showLessText: 'Mostra meno domande',
@@ -456,7 +456,7 @@ A differenza dei concorrenti che fanno pagare per foglio o per download, il Pacc
 
   // Related Apps Section
   relatedApps: {
-    sectionTitle: 'Combina Schede Gratuite Sudoku con Altri Stampabili Gratuiti',
+    sectionTitle: "Schede Gratuite Combinare - Scheda per Bambini e Stampabili Gratuiti",
     sectionDescription: 'L\'abbonamento Pacchetto Essenziale include 10 generatori. Combina il generatore Sudoku per Bambini con altri strumenti. Crea pacchetti completi di schede didattiche. Perfetto per unità tematiche. Ottimo per centri di apprendimento.',
     ctaTitle: 'Pronto a Creare Schede Straordinarie?',
     ctaDescription: 'Unisciti a migliaia di educatori che creano schede professionali. Generazione illimitata, licenza commerciale inclusa.',

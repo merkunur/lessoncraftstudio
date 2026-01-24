@@ -89,8 +89,8 @@ Onze sudoku voor kinderen gebruikt afbeeldingen in plaats van cijfers. Een 4x4 r
 
   // Sample Gallery - REAL file paths from samples/dutch/sudoku/
   samples: {
-    sectionTitle: 'Gratis Werkbladen Sudoku Voorbeelden - Werkblad voor Kleuters',
-    sectionDescription: 'Download gratis voorbeeldwerkbladen om onze professionele kwaliteit te ervaren',
+    sectionTitle: 'Gratis Werkblad voor Kinderen - Gratis Werkbladen en Gratis Printables',
+    sectionDescription: 'Download gratis printables - Gratis werkblad voor kinderen van professionele kwaliteit. Gratis werkbladen en werkblad voor kinderen perfect voor werkblad voor kleuters. Gratis werkblad voor kinderen en werkblad voor kinderen inclusief educatief materiaal. Gratis werkblad beschikbaar',
     downloadLabel: 'Gratis Voorbeeld Downloaden',
     worksheetLabel: 'Werkblad',
     answerKeyLabel: 'Antwoordblad',
@@ -134,7 +134,7 @@ Onze sudoku voor kinderen gebruikt afbeeldingen in plaats van cijfers. Een 4x4 r
 
   // Features Grid - FULL text from sudoku.md feature sections
   features: {
-    sectionTitle: 'Sudoku Generator Functies - Gratis Werkblad voor Kinderen en Werkblad voor Kleuters',
+    sectionTitle: 'Gratis Werkbladen en Werkblad voor Kinderen - Gratis Printables en Werkblad voor Kleuters',
     sectionDescription: 'Onze sudoku werkbladen generator biedt alle functies die je nodig hebt. Van eenvoudige creatie tot professionele downloads. Hieronder vind je de zeven belangrijkste mogelijkheden. Elke functie is ontworpen met leerkrachten en ouders in gedachten. Maak werkbladen kleuters en werkbladen groep 3 zonder technische kennis.',
     highlightBadgeText: 'Uitgelicht',
     readMoreLabel: 'Lees meer',
@@ -394,7 +394,7 @@ Verkoop op Teachers Pay Teachers Nederland. Of bied aan via Etsy. Amazon KDP acc
 
   // FAQ Section - FULL FAQs from sudoku.md
   faq: {
-    sectionTitle: 'Veelgestelde Vragen - Gratis Werkblad voor Kinderen en Gratis Printables',
+    sectionTitle: 'FAQ - Gratis Werkblad voor Kinderen en Werkblad voor Kleuters. Werkblad voor Kinderen',
     sectionDescription: 'Hieronder beantwoorden we de meest gestelde vragen over onze sudoku generator. Van kosten tot mogelijkheden. Van printen tot verkopen. Vind snel antwoord op jouw vraag over werkbladen groep 3 en werkbladen kleuters.',
     showMoreText: 'Meer vragen tonen',
     showLessText: 'Minder tonen',
@@ -499,7 +499,7 @@ Verkoop op Teachers Pay Teachers Nederland. Of bied aan via Etsy. Amazon KDP acc
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Combineer met Andere Gratis Werkbladen - Werkblad voor Kinderen Pakketten',
+    sectionTitle: 'Gratis Werkbladen Combineren - Werkblad voor Kinderen en Gratis Printables',
     sectionDescription: 'Het Basispakket bevat tien werkblad generators die perfect samenwerken. Combineer sudoku werkbladen met andere tools voor complete leerpakketten. Ontdek hoe je thematische bundels maakt voor elke lesweek.',
     ctaTitle: 'Klaar om geweldige werkbladen te maken?',
     ctaDescription: 'Sluit je aan bij duizenden leerkrachten die professionele werkbladen maken. Onbeperkt genereren, commerciële licentie inbegrepen.',

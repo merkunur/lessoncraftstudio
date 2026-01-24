@@ -82,8 +82,8 @@ Använd sorteringsarbetsblad för förskoleklass material och lågstadiet. Kombi
 
   // Sample Gallery - REAL file paths from samples/english/picture sort/
   samples: {
-    sectionTitle: 'Bildsortering Arbetsblad Exempel',
-    sectionDescription: 'Ladda ner gratis exempelarbetsblad för att se vår professionella kvalitet',
+    sectionTitle: 'Gratis Arbetsblad för Barn - Gratis Arbetsblad och Gratis Utskrifter',
+    sectionDescription: 'Ladda ner gratis utskrifter - Gratis arbetsblad för barn av professionell kvalitet. Gratis arbetsblad och arbetsblad för barn perfekt för arbetsblad för förskoleklass. Gratis arbetsblad för barn och arbetsblad för barn inkluderar utbildningsmaterial. Gratis arbetsblad och gratis utskrifter tillgänglig',
     downloadLabel: 'Ladda Ner Gratis Exempel',
     worksheetLabel: 'Arbetsblad',
     answerKeyLabel: 'Facit',
@@ -127,7 +127,7 @@ Använd sorteringsarbetsblad för förskoleklass material och lågstadiet. Kombi
 
   // Features Grid - FULL descriptions from picture-sort.md H3 sections
   features: {
-    sectionTitle: 'Funktioner i Bildsorteringsgeneratorn - Allt du Behöver för Arbetsblad Gratis och Förskoleklass Material',
+    sectionTitle: 'Gratis Arbetsblad och Arbetsblad för Barn - Gratis Utskrifter och Arbetsblad för Förskoleklass',
     sectionDescription: 'Vår bildsorteringsgenerator innehåller alla verktyg lärare behöver för professionella sorteringsaktiviteter. Skapa matematik arbetsblad med siffror och tal eller finmotorik övningar med utklippsbilder. Varje funktion är designad för enkelt användande och professionella resultat. Din Full Tillgång-prenumeration ger dig tillgång till alla funktioner utan begränsningar.',
     highlightBadgeText: 'Nyckelfunktion',
     badgeText: 'Funktioner',
@@ -245,7 +245,7 @@ Använd sorteringsarbetsblad för förskoleklass material och lågstadiet. Kombi
 
   // Use Cases - FULL descriptions from picture-sort.md persona sections
   useCases: {
-    sectionTitle: 'Perfekt för Lärare, Föräldrar och Pedagoger - Förskoleklass Material och Matematik Arbetsblad för Alla Behov',
+    sectionTitle: 'Gratis Arbetsblad för Barn - Arbetsblad för Förskoleklass med Gratis Utskrifter. Arbetsblad för Barn',
     sectionDescription: 'Bildsorteringsgeneratorn fungerar för alla som undervisar barn i förskoleklass och lågstadiet. Skapa förskoleklass material om siffror och tal eller bokstäver lära sig. Generera matematik arbetsblad med addition och subtraktion eller multiplikationstabellen. Kombinera sorteringsaktiviteter med målarbilder barn och finmotorik övningar. Full Tillgång passar alla undervisningssituationer från klassrum till hemundervisning.',
     badgeText: 'Användningsområden',
     readMoreLabel: 'Läs mer',
@@ -304,7 +304,7 @@ Använd sorteringsarbetsblad för förskoleklass material och lågstadiet. Kombi
 
   // FAQ Section - ALL questions from picture-sort.md
   faq: {
-    sectionTitle: 'Vanliga Frågor om Förskoleklass Material, Arbetsblad Gratis och Matematik Arbetsblad',
+    sectionTitle: 'FAQ - Gratis Arbetsblad för Barn och Arbetsblad för Förskoleklass med Gratis Utskrifter. Arbetsblad för Barn',
     sectionDescription: 'Lärare och föräldrar har många frågor om bildsorteringsgeneratorn innan de börjar använda verktyget. Denna sektion besvarar de vanligaste frågorna om att skapa förskoleklass material, matematik arbetsblad och målarbilder barn. Läs om prenumerationskostnader, kommersiell användning och tekniska möjligheter.',
     showMoreText: 'Visa fler frågor',
     showLessText: 'Visa färre',

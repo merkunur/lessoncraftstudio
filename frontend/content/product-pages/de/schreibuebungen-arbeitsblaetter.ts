@@ -85,8 +85,8 @@ Generieren Sie Schwungübungen für Buchstaben, Wörter, Namen oder eigene Texte
 
   // Sample Gallery - REAL file paths from samples/english/writing/
   samples: {
-    sectionTitle: 'Schreibübungen Arbeitsblätter Beispiele',
-    sectionDescription: 'Laden Sie kostenlose Beispiel-Arbeitsblätter herunter, um unsere professionelle Qualität zu sehen',
+    sectionTitle: 'Kostenloses Arbeitsblatt für Kinder - Kostenlose Arbeitsblätter und Kostenlose Druckvorlagen',
+    sectionDescription: 'Laden Sie kostenlose Druckvorlagen herunter - Kostenloses Arbeitsblatt für Kinder in professioneller Qualität für Arbeitsblatt für Vorschule',
     downloadLabel: 'Kostenloses Beispiel Herunterladen',
     worksheetLabel: 'Arbeitsblatt',
     answerKeyLabel: 'Lösungsblatt',
@@ -123,7 +123,7 @@ Generieren Sie Schwungübungen für Buchstaben, Wörter, Namen oder eigene Texte
 
   // Features Grid - FULL text from schreibuebungen.md feature sections
   features: {
-    sectionTitle: 'Schreibübungen Generator Funktionen - Alles für Schwungübungen, Buchstaben lernen und Arbeitsblätter Grundschule',
+    sectionTitle: 'Arbeitsblatt für Kinder - Arbeitsblatt für Vorschule und Kostenlose Arbeitsblätter',
     sectionDescription: 'Unser Generator für Schreibübungen bietet leistungsstarke Funktionen speziell für Schwungübungen und Buchstaben lernen. Pädagogen schätzen die Kombination aus Einfachheit und Flexibilität. Erstellen Sie professionelle Arbeitsblätter in Minuten statt Stunden. Das Vollzugriff-Abo gibt Ihnen volle Kontrolle über jeden Aspekt Ihrer Schwungübungen. Passen Sie Schriftarten an, ändern Sie Zeilenabstände, fügen Sie Bilder hinzu. Erstellen Sie genau das, was Ihre Schüler brauchen. Jede Funktion spart Zeit bei gleichbleibend professioneller Qualität.',
     highlightBadgeText: 'Hauptfunktion',
     readMoreLabel: 'Mehr lesen',
@@ -217,7 +217,7 @@ Ob Sie Arbeitsblätter zum Rechnen lernen mit Zahlwörtern oder reine Schreibüb
 
   // How-To Guide - FULL text from schreibuebungen.md
   howTo: {
-    sectionTitle: 'So Erstellen Sie Kostenlose Arbeitsblätter und Vorschule Arbeitsblätter in 5 Einfachen Schritten - Schwungübungen und Buchstaben lernen Schnell Gemacht',
+    sectionTitle: 'Kostenloses Arbeitsblatt für Kinder erstellen - Arbeitsblatt für Vorschule',
     sectionDescription: 'Professionelle Schreibübungen erstellen dauert unter 3 Minuten mit unserem Generator. Der optimierte Arbeitsablauf führt Sie schnell vom leeren Blatt zum fertigen Arbeitsblatt. Keine Grafikdesign-Erfahrung erforderlich. Folgen Sie fünf einfachen Schritten für Schwungübungen nach Ihren genauen Unterrichtsbedürfnissen. Ihre Schüler erhalten hochwertige Übungsmaterialien in Minuten statt Stunden. Jeder Schritt baut natürlich auf dem vorherigen auf.',
     ctaText: 'Jetzt Erstellen',
     badgeText: 'So Funktioniert Es',
@@ -313,7 +313,7 @@ Drucken Sie Ihre heruntergeladenen Arbeitsblätter auf Standarddruckerpapier ode
 
   // Use Cases Section - FULL text from schreibuebungen.md
   useCases: {
-    sectionTitle: 'Perfekt für Lehrkräfte, Eltern und Pädagogen - Vorschule Arbeitsblätter und Arbeitsblätter Grundschule für Jeden Bedarf',
+    sectionTitle: 'Kostenloses Arbeitsblatt für Kinder - Arbeitsblatt für Vorschule mit Kostenlose Druckvorlagen',
     sectionDescription: 'Schreibübungen-Generatoren dienen verschiedenen Unterrichtskontexten und Schülergruppen. Erzieher in der Vorschule, die Kinder auf die Grundschule vorbereiten, brauchen andere Materialien als Lehrkräfte der dritten Klasse, die Schreibschrift verfeinern. Homeschool-Eltern benötigen Flexibilität, die Klassenraumlehrkräfte nicht brauchen. DaZ-Lehrkräfte stehen vor einzigartigen Herausforderungen bei der Buchstabenbildung über Sprachen hinweg. Unser Generator passt sich nahtlos all diesen unterschiedlichen Bedürfnissen an.',
     badgeText: 'Anwendungsbereiche',
     readMoreLabel: 'Mehr lesen',
@@ -408,7 +408,7 @@ Erweitern Sie Ihren Produktkatalog über Klassenstufen und Fächer effizient. Ge
 
   // FAQ Section - FULL text from schreibuebungen.md
   faq: {
-    sectionTitle: 'Häufig Gestellte Fragen zu Schreibübungen, Schwungübungen, Buchstaben lernen und Arbeitsblätter Grundschule',
+    sectionTitle: 'FAQ - Kostenloses Arbeitsblatt für Kinder und Arbeitsblatt für Vorschule',
     sectionDescription: 'Diese FAQ-Sektion beantwortet die häufigsten Fragen zum Schreibübungen-Generator. Falls Sie nach dem Lesen weitere Fragen haben, kontaktieren Sie unser Support-Team für personalisierte Unterstützung. Wir helfen Ihnen gerne bei der optimalen Nutzung aller Generator-Funktionen.',
     showMoreText: 'Mehr Fragen anzeigen',
     showLessText: 'Weniger anzeigen',
@@ -549,7 +549,7 @@ Ihr Abo beinhaltet die vollständige kommerzielle Print-on-Demand-Lizenz, 11-Spr
 
   // Related Apps Section
   relatedApps: {
-    sectionTitle: 'Kombinieren Sie Schreibübungen mit anderen Generatoren für umfassende Lernpakete',
+    sectionTitle: 'Kostenlose Arbeitsblätter kombinieren - Arbeitsblatt für Kinder und Kostenlose Druckvorlagen',
     sectionDescription: 'Ihr Vollzugriff-Abo schaltet alle 33 Arbeitsblatt-Generatoren frei. Kombinieren Sie Schreibübungen mit ergänzenden Generatoren für thematische Lerneinheiten und gebündelte Produkte zum Verkauf.',
     items: [
       {

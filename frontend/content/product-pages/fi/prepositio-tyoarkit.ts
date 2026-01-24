@@ -56,8 +56,8 @@ Generaattori sisältää yli 3000 lapsille sopivaa kuvaa. Kaikki kuvat on järje
 
   // Sample Gallery - REAL file paths from samples/english/prepositions/
   samples: {
-    sectionTitle: 'Prepositioharjoitukset Esimerkit',
-    sectionDescription: 'Lataa ilmaiset esimerkkitehtävät nähdäksesi ammattimaisen laatumme',
+    sectionTitle: 'Ilmainen Työarkki Lapsille - Ilmaiset Työarkit ja Ilmaiset Tulosteet',
+    sectionDescription: 'Lataa ilmaiset tulosteet - Ilmainen työarkki lapsille ammattimaista laatua. Ilmaiset työarkit ja työarkki lapsille täydellinen työarkki esiopetukseen. Ilmainen työarkki lapsille ja työarkki lapsille sisältää ilmaiset tulosteet ja ilmaiset työarkit opetusmateriaalin. Ilmainen työarkki ja työarkki esiopetukseen saatavilla',
     downloadLabel: 'Lataa Ilmainen Esimerkki',
     worksheetLabel: 'Tehtäväsivu',
     answerKeyLabel: 'Vastaussivu',
@@ -87,7 +87,7 @@ Generaattori sisältää yli 3000 lapsille sopivaa kuvaa. Kaikki kuvat on järje
 
   // Features Grid - FULL text from Finnish prepositions.md feature sections
   features: {
-    sectionTitle: 'Prepositioharjoitusten Ominaisuudet - Kaikki Mitä Tarvitset Tulostettaviin Tehtäviin Lapsille',
+    sectionTitle: 'Ilmaiset Työarkit ja Työarkki Lapsille - Ilmaiset Tulosteet ja Työarkki Esiopetukseen',
     sectionDescription: 'Prepositioiden tehtävägeneraattori tarjoaa kattavat työkalut opettajille ja vanhemmille. Täysi Käyttöoikeus -tilaus antaa pääsyn kaikkiin ominaisuuksiin ilman rajoituksia. Luo esiopetuksen materiaaleja, alakoulun tehtäviä ja kielenoppimisen harjoituksia yhdellä alustalla. Kaikki ominaisuudet on suunniteltu helpottamaan opettajien arkea ja säästämään aikaa.',
     highlightBadgeText: 'Tärkeä Ominaisuus',
     readMoreLabel: 'Lue lisää',
@@ -181,7 +181,7 @@ Harmaasävyvaihtoehto säästää värimustetta. Muunna värilliset tehtävät m
 
   // How-To Guide - FULL text from Finnish prepositions.md step sections
   howTo: {
-    sectionTitle: 'Kuinka Luoda Prepositioharjoituksia Viidessä Helpossa Vaiheessa',
+    sectionTitle: 'Ilmainen Työarkki Lapsille Luoda - Työarkki Esiopetukseen',
     sectionDescription: 'Prepositioiden tehtävien luominen vie alle kolme minuuttia alusta loppuun. Täysi Käyttöoikeus -tilaus antaa sinulle rajoittamattoman pääsyn kaikkiin ominaisuuksiin. Viisi yksinkertaista vaihetta johtavat valmiiseen tehtävään. Ei suunnittelutaitoja tai teknistä osaamista tarvita. Seuraa näitä ohjeita luodaksesi ensimmäisen tehtäväsi minuuteissa.',
     ctaText: 'Aloita Luominen Nyt',
     badgeText: 'Näin Se Toimii',
@@ -253,7 +253,7 @@ Kaikki tehtävät viedään 300 DPI -laadulla. Täydellinen terävyys kotitulost
 
   // Use Cases - FULL text from Finnish prepositions.md use case sections
   useCases: {
-    sectionTitle: 'Täydellinen Opettajille, Vanhemmille ja Kasvattajille',
+    sectionTitle: 'Ilmainen Työarkki Lapsille - Työarkki Esiopetukseen ja Ilmaiset Tulosteet. Työarkki Lapsille',
     sectionDescription: 'Prepositioiden tehtävägeneraattori palvelee laajaa opettajien ja vanhempien joukkoa. Täysi Käyttöoikeus -tilaus sopii esiopetuksen opettajille, alakoulun opettajille ja kotiopettajille. Luo matematiikka tehtävät alakoulu, kirjaimet harjoittelu esikoulu ja lukemaan oppiminen tehtävät samalla alustalla. Jokainen käyttäjäryhmä hyötyy generaattorin ainutlaatuisista ominaisuuksista.',
     badgeText: 'Kenelle Sopii',
     readMoreLabel: 'Lue lisää',
@@ -336,7 +336,7 @@ Myy valmiita tehtäväkirjoja Amazon KDP:ssä. Yhdistä 50-100 prepositioharjoit
 
   // FAQ Section - Selected FAQs from Finnish prepositions.md
   faq: {
-    sectionTitle: 'Usein Kysytyt Kysymykset',
+    sectionTitle: 'FAQ - Ilmainen Työarkki Lapsille ja Työarkki Esiopetukseen. Työarkki Lapsille',
     sectionDescription: 'Yleisimmät kysymykset prepositioharjoitusten generaattorista ja prepositiotehtävistä.',
     showMoreText: 'Näytä lisää kysymyksiä',
     showLessText: 'Näytä vähemmän',
@@ -429,7 +429,7 @@ Myy valmiita tehtäväkirjoja Amazon KDP:ssä. Yhdistä 50-100 prepositioharjoit
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Yhdistä Muihin Tehtävämonistegeneraattoreihin',
+    sectionTitle: 'Ilmaiset Työarkit Yhdistää - Työarkki Lapsille ja Ilmaiset Tulosteet',
     sectionDescription: 'Luo kattavia oppimispaketteja yhdistämällä prepositioharjoitukset näihin täydentäviin generaattoreihin.',
     ctaTitle: 'Valmiina Luomaan Upeita Prepositioharjoituksia?',
     ctaDescription: 'Liity tuhansien opettajien joukkoon, jotka luovat ammattimaisia prepositioharjoituksia. Rajoittamaton generointi, kaupallinen lisenssi sisältyy.',

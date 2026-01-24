@@ -83,8 +83,8 @@ Retningsopgaver understøtter 11 sprog inklusiv dansk. Billednavne vises på dan
 
   // Sample Gallery - REAL file paths from samples/danish/treasure-hunt/
   samples: {
-    sectionTitle: 'Gratis Arbejdsark Eksempler - Skattejagt til Børn',
-    sectionDescription: 'Download gratis eksempler på arbejdsark for at se vores professionelle kvalitet',
+    sectionTitle: 'Gratis Arbejdsark til Børn - Gratis Arbejdsark og Gratis Printables',
+    sectionDescription: 'Download gratis printables - Gratis arbejdsark til børn af professionel kvalitet. Gratis arbejdsark og arbejdsark til børn perfekt til arbejdsark til børnehaveklasse. Gratis arbejdsark til børn og arbejdsark til børn inkluderer undervisningsmateriale. Gratis arbejdsark tilgængeligt',
     badgeText: 'Gratis Eksempler',
     downloadLabel: 'Download Gratis Eksempel',
     downloadingLabel: 'Downloader...',
@@ -128,7 +128,7 @@ Retningsopgaver understøtter 11 sprog inklusiv dansk. Billednavne vises på dan
 
   // Features Grid - FULL text from treasure-hunt.md feature sections
   features: {
-    sectionTitle: 'Skattejagt Funktioner - Gratis Arbejdsark til Børnehaveklasse og Børn',
+    sectionTitle: 'Gratis Arbejdsark og Arbejdsark til Børn - Gratis Printables og Arbejdsark til Børnehaveklasse',
     sectionDescription: 'Fuld Adgang giver dig professionelle værktøjer til skattejagt arbejdsark. Lav opgaver til print på få minutter. Alle funktioner designet til pædagoger i børnehaveklassen og 1. klasse. Rediger alt på lærredet uden begrænsninger.',
     highlightBadgeText: 'Vigtig Funktion',
     readMoreLabel: 'Læs mere',
@@ -377,7 +377,7 @@ Niche temaer sælger bedst på digitale markedspladser. Lav skattejagt med speci
 
   // FAQ Section
   faq: {
-    sectionTitle: 'Ofte Stillede Spørgsmål Om Gratis Arbejdsark til Børn - Skattejagt',
+    sectionTitle: 'FAQ - Gratis Arbejdsark til Børn og Arbejdsark til Børnehaveklasse. Arbejdsark til Børn',
     sectionDescription: 'Pædagoger har mange spørgsmål om skattejagt generatoren. Her er de 12 mest almindelige spørgsmål. Alle svar gælder matematikopgaver, læse og skrive opgaver og andre generatorer. Fuld Adgang giver samme fordele på tværs af alle 33 værktøjer.',
     showMoreText: 'Vis flere spørgsmål',
     showLessText: 'Vis færre',
@@ -555,7 +555,7 @@ Tværfaglige kopiark kombinerer flere emner. Skattejagt med matematikopgaver tæ
 
   // Related Apps Section
   relatedApps: {
-    sectionTitle: 'Kombiner med Andre Gratis Arbejdsark - Arbejdsark til Børnehaveklasse',
+    sectionTitle: 'Gratis Arbejdsark Kombinere - Arbejdsark til Børn og Gratis Printables',
     sectionDescription: 'Fuld Adgang inkluderer 33 gratis værktøjer til skoleopgaver. Kombiner skattejagt med matematikopgaver, læse og skrive opgaver og finmotorik øvelser. Lav tematiske pakker til børnehaveklassen og 0. klasse. Download komplette arbejdsark samlinger på få minutter.',
     ctaTitle: 'Klar til at Skabe Fantastiske Arbejdsark?',
     ctaDescription: 'Slut dig til tusindvis af pædagoger der skaber professionelle arbejdsark.',

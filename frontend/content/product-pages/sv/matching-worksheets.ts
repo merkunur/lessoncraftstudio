@@ -79,8 +79,8 @@ Varje arbetsblad gratis mall inkluderar fullt redigerbar canvas. Dra, rotera, sk
 
   // Sample Gallery - REAL file paths from samples/swedish/matching/
   samples: {
-    sectionTitle: 'Gratis Arbetsblad Matchning - Exempelarbetsblad för Barn',
-    sectionDescription: 'Ladda ner gratis exempelarbetsblad för att se vår professionella kvalitet',
+    sectionTitle: 'Gratis Arbetsblad för Barn - Gratis Arbetsblad och Gratis Utskrifter',
+    sectionDescription: 'Ladda ner gratis utskrifter - Gratis arbetsblad för barn av professionell kvalitet. Gratis arbetsblad och arbetsblad för barn perfekt för arbetsblad för förskoleklass. Gratis arbetsblad för barn och arbetsblad för barn inkluderar utbildningsmaterial. Gratis arbetsblad och gratis utskrifter tillgänglig',
     downloadLabel: 'Ladda Ner Gratis Exempel',
     worksheetLabel: 'Arbetsblad',
     answerKeyLabel: 'Facit',
@@ -124,7 +124,7 @@ Varje arbetsblad gratis mall inkluderar fullt redigerbar canvas. Dra, rotera, sk
 
   // Features Grid - FULL text from matching.md feature sections
   features: {
-    sectionTitle: 'Gratis Arbetsblad Generator - Funktioner för Förskoleklass',
+    sectionTitle: 'Gratis Arbetsblad och Arbetsblad för Barn - Gratis Utskrifter och Arbetsblad för Förskoleklass',
     sectionDescription: 'Matchningsgeneratorn innehåller sju professionella funktioner för att skapa arbetsblad gratis. Varje funktion designad för lärare som behöver matematik arbetsblad och bokstäver lära sig material snabbt. Perfekt för förskoleklass material, lågstadiet och hemundervisning. Alla funktioner inkluderade i din Grundpaketet-prenumeration utan extra avgifter.',
     highlightBadgeText: 'Nyckelfunktion',
     readMoreLabel: 'Läs mer',
@@ -226,7 +226,7 @@ Varje arbetsblad inkluderar valfria namn och datumfält. Lägg till objektnummer
 
   // How-To Guide - FULL text from matching.md step sections
   howTo: {
-    sectionTitle: 'Hur Man Skapar Arbetsblad Gratis på 5 Enkla Steg - Matematik Arbetsblad och Bokstäver Lära Sig',
+    sectionTitle: 'Gratis Arbetsblad för Barn Skapa - Arbetsblad för Förskoleklass och Gratis Utskrifter',
     sectionDescription: 'Skapa professionella matchningsarbetsblad på under tre minuter. Följ dessa fem enkla steg för att generera förskoleklass material snabbt. Ingen designerfarenhet krävs. Perfekt för upptagna lärare som behöver matematik arbetsblad och bokstäver lära sig övningar dagligen.',
     ctaText: 'Börja Skapa Nu',
     badgeText: 'Så Fungerar Det',
@@ -312,7 +312,7 @@ Skriv ut på valfri hemskrivare med standard papper. Kopiera på skolkopiatorer 
 
   // Use Cases - FULL text from matching.md use case sections
   useCases: {
-    sectionTitle: 'Perfekt för Lärare och Föräldrar - Matematik Arbetsblad, Bokstäver Lära Sig och Multiplikationstabellen för Alla Behov',
+    sectionTitle: 'Gratis Arbetsblad för Barn - Arbetsblad för Förskoleklass med Gratis Utskrifter. Arbetsblad för Barn',
     sectionDescription: 'Matchningsgeneratorn tjänar sex olika användarsegment perfekt. Förskoleklass lärare behöver finmotorik övningar och bokstäver lära sig material. Lågstadielärare behöver matematik arbetsblad och multiplikationstabellen övningar. Hemundervisande föräldrar behöver flexibla förskoleklass material. ESL-lärare behöver flerspråkiga arbetsblad. Specialpedagoger behöver differentierade målarbilder barn och finmotorik övningar. Lärarentreprenörer behöver kommersiell licens för försäljning.',
     badgeText: 'Vem Det Är För',
     readMoreLabel: 'Läs mer',
@@ -407,7 +407,7 @@ Använd Pinterest för att marknadsföra dina multiplikationstabellen resurser. 
 
   // FAQ Section - Selected FAQs from matching.md
   faq: {
-    sectionTitle: 'Vanliga Frågor - Gratis Arbetsblad och Arbetsblad för Barn',
+    sectionTitle: 'FAQ - Gratis Arbetsblad för Barn och Arbetsblad för Förskoleklass med Gratis Utskrifter. Arbetsblad för Barn',
     sectionDescription: 'Vanliga frågor om siffror och tal, klockan lära sig och addition och subtraktion arbetsblad. Svar på frågor om multiplikationstabellen, finmotorik övningar och målarbilder barn.',
     showMoreText: 'Visa fler frågor',
     showLessText: 'Visa färre',
@@ -512,7 +512,7 @@ Använd Pinterest för att marknadsföra dina multiplikationstabellen resurser. 
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Fler Gratis Arbetsblad Generatorer',
+    sectionTitle: 'Gratis Arbetsblad Kombinera - Arbetsblad för Barn och Gratis Utskrifter',
     sectionDescription: 'Skapa kompletta lärpaket genom att kombinera matchningsarbetsblad med dessa kompletterande generatorer för klockan lära sig, siffror och tal och addition och subtraktion.',
     ctaTitle: 'Redo att Skapa Fantastiska Matchningsarbetsblad?',
     ctaDescription: 'Gå med tusentals lärare som skapar professionella arbetsblad. Obegränsad generering, kommersiell licens ingår.',

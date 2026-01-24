@@ -87,8 +87,8 @@ Créez des fiches personnalisées avec plus de 3000 images thématiques. Choisis
 
   // Sample Gallery - REAL file paths from samples/french/odd-one-out/
   samples: {
-    sectionTitle: 'Exemples de Fiches Intrus',
-    sectionDescription: 'Téléchargez des exemples gratuits pour voir notre qualité professionnelle',
+    sectionTitle: 'Fiche Gratuite pour Enfants - Fiches Gratuites et Imprimables Gratuits',
+    sectionDescription: 'Téléchargez imprimables gratuits - Fiche gratuite pour enfants de qualité professionnelle. Fiches gratuites et fiche pour enfants parfaites pour fiche pour maternelle. Fiche gratuite pour enfants et fiches gratuites inclus matériel éducatif. Fiche gratuite et fiches gratuites disponible',
     downloadLabel: 'Télécharger Exemple Gratuit',
     worksheetLabel: 'Fiche',
     answerKeyLabel: 'Corrigé',
@@ -139,7 +139,7 @@ Créez des fiches personnalisées avec plus de 3000 images thématiques. Choisis
 
   // Features Grid - FULL text from odd-one-out.md feature sections
   features: {
-    sectionTitle: 'Fonctionnalités Complètes des Fiches Maternelle Intrus - Fiches à Imprimer Gratuit pour Exercices CP et CE1',
+    sectionTitle: 'Fiches Gratuites et Fiche pour Enfants - Imprimables Gratuits et Fiche pour Maternelle',
     sectionDescription: 'Notre générateur de fiches maternelle intrus offre toutes les fonctionnalités nécessaires aux enseignants professionnels. Créez des exercices CP personnalisés en quelques minutes. Les fiches à imprimer gratuit sont illimitées avec votre abonnement Accès Complet. Chaque fonctionnalité a été conçue pour faciliter votre travail pédagogique. Les exercices CE1 se créent aussi rapidement que les fiches maternelle.',
     highlightBadgeText: 'Fonctionnalité Clé',
     readMoreLabel: 'Lire la suite',
@@ -246,7 +246,7 @@ Combinez les deux modes sur une même fiche. Exercices progressifs du simple au 
 
   // How-To Guide - FULL text from odd-one-out.md step sections
   howTo: {
-    sectionTitle: 'Comment Créer des Fiches Maternelle Intrus en 5 Étapes Faciles',
+    sectionTitle: 'Fiche Gratuite pour Enfants Créer - Fiche pour Maternelle',
     sectionDescription: 'Notre générateur de fiches à imprimer gratuit simplifie la création d\'exercices. Créez des fiches maternelle professionnelles en quelques clics. Les exercices CP et CE1 se génèrent aussi rapidement. Aucune compétence technique requise pour réussir. Les exercices maths et graphisme maternelle deviennent accessibles à tous.',
     ctaText: 'Commencer Maintenant',
     badgeText: 'Comment Ça Marche',
@@ -332,7 +332,7 @@ Imprimez immédiatement ou sauvegardez pour utilisation future. Créez des banqu
 
   // Use Cases - FULL text from odd-one-out.md use case sections
   useCases: {
-    sectionTitle: 'Parfait pour Enseignants, Parents et Éducateurs',
+    sectionTitle: 'Fiche Gratuite pour Enfants - Fiche pour Maternelle avec Imprimables Gratuits. Fiche pour Enfants',
     sectionDescription: 'Nos fiches à imprimer gratuit servent de multiples contextes éducatifs. Enseignants de maternelle et CP adorent la flexibilité. Parents en instruction à domicile trouvent tout le nécessaire. Professeurs de langues créent des exercices maths multilingues. Les exercices CE1 s\'adaptent à tous les niveaux. Chaque utilisateur bénéficie pleinement des fonctionnalités.',
     badgeText: 'Pour Qui',
     readMoreLabel: 'Lire la suite',
@@ -415,7 +415,7 @@ Revenus mensuels 500€ à 5000€ selon investissement temps. Créez pendant va
 
   // FAQ Section - Selected FAQs from odd-one-out.md
   faq: {
-    sectionTitle: 'Questions Fréquentes Fiches Maternelle Exercices CE1',
+    sectionTitle: 'FAQ - Fiche Gratuite pour Enfants et Fiche pour Maternelle. Fiche pour Enfants',
     sectionDescription: 'Découvrez réponses aux questions courantes sur nos fiches maternelle. Apprenez optimiser exercices CE1, graphisme maternelle, alphabet. Les fiches à imprimer gratuit deviennent encore plus efficaces.',
     showMoreText: 'Voir plus de questions',
     showLessText: 'Voir moins',
@@ -534,7 +534,7 @@ Revenus mensuels 500€ à 5000€ selon investissement temps. Créez pendant va
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Combinez avec D\'Autres Générateurs de Fiches',
+    sectionTitle: 'Fiches Gratuites Combiner - Fiche pour Enfants et Imprimables Gratuits',
     sectionDescription: 'Votre abonnement Accès Complet inclut 33 générateurs complémentaires. Combinez les fiches intrus avec d\'autres outils pour créer des séquences pédagogiques complètes.',
     ctaTitle: 'Prêt à Créer des Fiches Fantastiques ?',
     ctaDescription: 'Rejoignez des milliers d\'enseignants qui créent des fiches professionnelles. Génération illimitée, licence commerciale incluse.',

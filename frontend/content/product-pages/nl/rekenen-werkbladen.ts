@@ -89,8 +89,8 @@ Met deze tool maak je werkbladen groep 3 in enkele minuten. De generator onderst
 
   // Sample Gallery - REAL file paths from samples/dutch/math/
   samples: {
-    sectionTitle: 'Gratis Werkbladen Rekenen - Werkblad voor Kinderen Voorbeelden',
-    sectionDescription: 'Download gratis voorbeeldwerkbladen om onze professionele kwaliteit te ervaren',
+    sectionTitle: 'Gratis Werkblad voor Kinderen - Gratis Werkbladen en Gratis Printables',
+    sectionDescription: 'Download gratis printables - Gratis werkblad voor kinderen van professionele kwaliteit. Gratis werkbladen en werkblad voor kinderen perfect voor werkblad voor kleuters. Gratis werkblad voor kinderen en werkblad voor kinderen inclusief educatief materiaal. Gratis werkblad beschikbaar',
     downloadLabel: 'Gratis Voorbeeld Downloaden',
     worksheetLabel: 'Werkblad',
     answerKeyLabel: 'Antwoordblad',
@@ -134,7 +134,7 @@ Met deze tool maak je werkbladen groep 3 in enkele minuten. De generator onderst
 
   // Features Grid - FULL text from math-worksheet.md feature sections
   features: {
-    sectionTitle: 'Gratis Werkblad Generator Functies - Werkblad voor Kleuters en Kinderen',
+    sectionTitle: 'Gratis Werkbladen en Werkblad voor Kinderen - Gratis Printables en Werkblad voor Kleuters',
     sectionDescription: 'Onze rekenen werkbladen generator biedt alles wat je nodig hebt. Van sommen tot 20 voor beginners tot uitdagendere opgaven. Werkbladen groep 3 maak je in enkele klikken. De tool is ontworpen voor leerkrachten, ouders en therapeuten. Hieronder vind je alle functies uitgelegd.',
     highlightBadgeText: 'Uitgelicht',
     readMoreLabel: 'Lees meer',
@@ -223,7 +223,7 @@ Het Basispakket abonnement geeft toegang tot 10 apps. Kleurplaten maken naast re
 
   // How-To Guide - FULL text from math-worksheet.md step sections
   howTo: {
-    sectionTitle: 'Hoe Maak Je Gratis Werkbladen - Werkblad voor Kinderen in 5 Stappen',
+    sectionTitle: 'Gratis Werkblad voor Kinderen Maken - Werkblad voor Kleuters',
     sectionDescription: 'Het maken van professionele werkbladen kost minder dan 3 minuten. Volg deze stapsgewijze handleiding. Van thema kiezen tot downloaden. Oefenbladen gratis genereren was nog nooit zo eenvoudig. Werkbladen groep 3 of werkbladen kleuters, het proces is identiek.',
     ctaText: 'Nu Starten',
     badgeText: 'Zo werkt het',

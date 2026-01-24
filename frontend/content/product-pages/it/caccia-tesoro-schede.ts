@@ -79,8 +79,8 @@ Perfetto per insegnanti di scuola dell'infanzia che necessitano di attività di 
 
   // Sample Gallery
   samples: {
-    sectionTitle: 'Stampabili Gratuiti: Esempi di Schede Caccia al Tesoro',
-    sectionDescription: 'Scarica scheda gratuita per bambini e scheda per scuola dell\'infanzia - schede per bambini di alta qualità professionale',
+    sectionTitle: "Scheda Gratuita per Bambini - Schede Gratuite e Stampabili Gratuiti e Scheda per Bambini",
+    sectionDescription: "Scarica stampabili gratuiti - Scheda gratuita per bambini di qualità professionale. Schede gratuite e scheda per bambini perfette per scheda per scuola dell'infanzia. Scheda gratuita per bambini e scheda per bambini includono materiale educativo. Scheda gratuita e scheda per scuola dell'infanzia disponibile",
     downloadLabel: 'Scarica Esempio Gratuito',
     worksheetLabel: 'Scheda',
     answerKeyLabel: 'Chiave di Risposta',
@@ -124,7 +124,7 @@ Perfetto per insegnanti di scuola dell'infanzia che necessitano di attività di 
 
   // Features Grid
   features: {
-    sectionTitle: 'Funzionalità della Scheda Gratuita Caccia al Tesoro - Schede Gratuite per Scuola Primaria',
+    sectionTitle: "Schede Gratuite e Scheda per Bambini - Stampabili Gratuiti e Scheda per Scuola dell'Infanzia",
     sectionDescription: 'Il generatore di schede caccia al tesoro offre funzionalità complete per insegnanti. Crea scheda per bambini e scheda per scuola dell\'infanzia in pochi minuti senza competenze di design. Ogni scheda gratuita per bambini è progettata per risparmiare tempo agli educatori. Genera scheda per scuola dell\'infanzia di alta qualità per scuola primaria.',
     highlightBadgeText: 'Funzionalità Chiave',
     readMoreLabel: 'Leggi di più',
@@ -207,7 +207,7 @@ Ogni immagine è progettata professionalmente per attrattiva educativa. Stili ar
 
   // How-To Guide Section
   howTo: {
-    sectionTitle: 'Come Creare Schede Gratuite Caccia al Tesoro in 5 Passaggi - Stampabili Gratuiti in 3 Minuti',
+    sectionTitle: "Scheda Gratuita per Bambini Creare - Scheda per Scuola dell'Infanzia",
     sectionDescription: 'Creare scheda gratuita per bambini richiede meno di tre minuti dall\'inizio alla fine. Il processo per scheda per scuola dell\'infanzia è progettato per insegnanti occupati. Segui questi cinque passaggi per generare scheda per bambini professionali. Ogni scheda per scuola dell\'infanzia è pronta con pratica regolare.',
     ctaText: 'Inizia Ora',
     badgeText: 'Guida Passo-Passo',
@@ -279,7 +279,7 @@ I file PDF mantengono qualità perfetta per stampa professionale. Scarica PDF pe
 
   // Use Cases Section
   useCases: {
-    sectionTitle: 'Perfetto per Insegnanti e Genitori - Scheda Gratuita per Bambini e Scuola Primaria',
+    sectionTitle: "Perfetto per Insegnanti e Genitori - Scheda Gratuita per Bambini e Scuola Primaria",
     sectionDescription: 'Il generatore di schede caccia al tesoro serve educatori in contesti diversi. Ogni scheda gratuita per bambini offre valore unico. Scheda per scuola dell\'infanzia per ragionamento spaziale. Scheda per bambini per abilità cartografiche. Genitori homeschool creano lezioni con schede gratuite.',
     badgeText: 'Chi Usa le Nostre Schede',
     readMoreLabel: 'Leggi di più',
@@ -362,7 +362,7 @@ Crea prodotti differenziati con livelli di difficoltà multipli. Pacchetto base 
 
   // FAQ Section
   faq: {
-    sectionTitle: 'Domande Frequenti sulle Schede Gratuite Caccia al Tesoro - Scheda per Bambini e Scuola dell\'Infanzia',
+    sectionTitle: "FAQ - Scheda Gratuita per Bambini e Scheda per Scuola dell'Infanzia. Scheda per Bambini"Infanzia',
     sectionDescription: 'Gli insegnanti pongono domande su scheda gratuita per bambini e stampabili gratuiti. Scheda per scuola dell\'infanzia e scheda per bambini sono incluse nell\'abbonamento Accesso Completo. Le risposte chiariscono cosa è incluso nel tuo abbonamento €240 annuale.',
     showMoreText: 'Mostra altre domande',
     showLessText: 'Mostra meno domande',
@@ -516,7 +516,7 @@ Crea unità tematiche interdisciplinari. Combina caccia al tesoro con pregrafism
 
   // Related Apps Section
   relatedApps: {
-    sectionTitle: 'Combina Schede Caccia al Tesoro con Altri Generatori',
+    sectionTitle: "Combina Schede Caccia al Tesoro con Altri Generatori",
     sectionDescription: 'L\'abbonamento Accesso Completo include 33 generatori. Combina il generatore di Schede Caccia al Tesoro con altri strumenti. Crea pacchetti completi di schede didattiche. Perfetto per unità tematiche. Ottimo per centri di apprendimento.',
     ctaTitle: 'Pronto a Creare Schede Straordinarie?',
     ctaDescription: 'Unisciti a migliaia di educatori che creano schede professionali. Generazione illimitata, licenza commerciale inclusa.',

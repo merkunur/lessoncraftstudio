@@ -53,8 +53,8 @@ Vår generator tilbyr to vanskelighetsgrader for tilpasset læring. Identisk mod
 
   // Sample Gallery - REAL file paths from samples/english/odd one out/
   samples: {
-    sectionTitle: 'Finn den Ulike Arbeidsark Eksempler',
-    sectionDescription: 'Last ned gratis eksempler på arbeidsark for å se vår profesjonelle kvalitet',
+    sectionTitle: 'Gratis Arbeidsark for Barn - Gratis Arbeidsark og Gratis Utskrifter',
+    sectionDescription: 'Last ned gratis utskrifter - Gratis arbeidsark for barn av profesjonell kvalitet. Gratis arbeidsark og arbeidsark for barn perfekt for arbeidsark for 1. trinn. Gratis arbeidsark for barn og arbeidsark for barn inkluderer gratis utskrifter undervisningsmateriell. Gratis arbeidsark og arbeidsark for 1. trinn tilgjengelig',
     badgeText: 'Gratis Eksempler',
     downloadLabel: 'Last ned Gratis Eksempel',
     downloadingLabel: 'Laster ned...',
@@ -84,7 +84,7 @@ Vår generator tilbyr to vanskelighetsgrader for tilpasset læring. Identisk mod
 
   // Features Grid - FULL text from odd-one-out.md feature sections
   features: {
-    sectionTitle: 'Finn den Ulike Funksjoner - Alt du Trenger for Arbeidsark Gratis og Oppgavehefter Barn',
+    sectionTitle: 'Gratis Arbeidsark og Arbeidsark for Barn - Gratis Utskrifter og Arbeidsark for 1. Trinn',
     sectionDescription: 'Vår finn den ulike-generator gir deg sju kraftige funksjoner for profesjonell oppgaveopprettelse. Lag egendefinerte arbeidsark gratis med ubegrenset tilpasning. Kombiner visuell diskriminering med matematikk oppgaver, lesetrening og finmotorikk øvelser. Hver funksjon er designet for å spare tid og forbedre undervisningskvaliteten for barneskole og esiopetus.',
     highlightBadgeText: 'Viktig Funksjon',
     readMoreLabel: 'Les mer',
@@ -204,7 +204,7 @@ Fasitark genereres automatisk med svar. Rød sirkel eller kryss viser riktig sva
 
   // How-To Guide - FULL text from odd-one-out.md step sections
   howTo: {
-    sectionTitle: 'Hvordan Lage Arbeidsark Gratis med Matteoppgaver og Lesetrening i 5 Enkle Trinn',
+    sectionTitle: 'Gratis Arbeidsark for Barn Lage - Arbeidsark for 1. Trinn',
     sectionDescription: 'Opprett profesjonelle finn den ulike-oppgaver på under 3 minutter. Fem enkle trinn tar deg fra tom skjerm til nedlastbart PDF-arbeidsark. Ingen designerferdigheter nødvendig. Ingen opplæring påkrevd. Intuitiv grensesnitt leder deg gjennom hver fase. Lag finmotorikk øvelser og matematikk oppgaver raskt for alle klassenivåer.',
     ctaText: 'Start Nå',
     badgeText: 'Slik Fungerer Det',
@@ -302,7 +302,7 @@ Del digitalt med elever og foreldre. Send PDF via e-post eller læringsplattform
 
   // Use Cases - FULL text from odd-one-out.md use case sections
   useCases: {
-    sectionTitle: 'Perfekt for Lærere, Foreldre og Pedagoger - Arbeidsark Gratis og Oppgavehefter Barn for Alle Behov',
+    sectionTitle: 'Gratis Arbeidsark for Barn - Arbeidsark for 1. Trinn med Gratis Utskrifter. Arbeidsark for Barn',
     sectionDescription: 'Finn den ulike-generatoren betjener seks distinkte brukergrupper. Hver gruppe har unike behov for visuell diskriminering og kognitiv utvikling. Barnehagepedagoger trenger enkle oppgaver for yngste barn. Barneskolelærere krever vanskeligere oppgaver for eldre elever. Hjemmeskoleforeldre søker fleksible ressurser. Språklærere trenger flerspråklige verktøy. Spesialpedagoger krever tilpassbare vanskelighetsgrader. Lærerentreprenører selger profesjonelle oppgavehefter barn.',
     badgeText: 'Hvem Er Det For',
     readMoreLabel: 'Les mer',
@@ -546,7 +546,7 @@ Full Tilgang-abonnement på kr 1 800 årlig betaler seg selv. Selg tre TPT-pakke
 
   // Related Apps - From odd-one-out.md "Kombiner" section
   relatedApps: {
-    sectionTitle: 'Kombiner Finn den Ulike med Andre Arbeidsark Gratis - Komplette Læringspakker',
+    sectionTitle: 'Gratis Arbeidsark Kombinere - Arbeidsark for Barn og Gratis Utskrifter',
     sectionDescription: 'LessonCraft Studio tilbyr 33 gratis generatorer for komplette læringspakker. Kombiner finn den ulike med andre oppgavetyper for tverrfaglig undervisning. Lag temapakker som dekker flere fag samtidig. Ukentlige arbeidsark gratis inkluderer matematikk, literacy, kunst og motoriske ferdigheter. Elevene får variert læring gjennom forskjellige oppgaveformater. Lærere sparer tid ved å bruke én plattform for alt.',
     ctaTitle: 'Klar til å Lage Fantastiske Arbeidsark?',
     ctaDescription: 'Bli med tusenvis av pedagoger som lager profesjonelle arbeidsark. Ubegrenset oppretting, kommersiell lisens inkludert.',

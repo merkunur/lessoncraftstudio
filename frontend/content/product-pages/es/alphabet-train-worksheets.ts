@@ -79,8 +79,8 @@ Nuestro generador hace que crear fichas para imprimir sea increíblemente fácil
 
   // Sample Gallery - REAL file paths from samples/english/alphabet train/
   samples: {
-    sectionTitle: 'Ejemplos de Fichas del Tren del Abecedario',
-    sectionDescription: 'Descarga fichas gratis del tren del abecedario para ver nuestra calidad profesional - fichas para imprimir de lectoescritura y grafomotricidad para niños',
+    sectionTitle: 'Ficha Gratis para Niños - Fichas Gratis e Imprimibles Gratis',
+    sectionDescription: 'Descarga imprimibles gratis - Ficha gratis para niños de calidad profesional. Ficha para niños perfecta para ficha para preescolar. Ficha gratis para niños y ficha para niños incluyen material educativo. Ficha gratis disponible',
     downloadLabel: 'Descargar Ejemplo Gratis',
     worksheetLabel: 'Ficha',
     answerKeyLabel: 'Respuestas',
@@ -124,7 +124,7 @@ Nuestro generador hace que crear fichas para imprimir sea increíblemente fácil
 
   // Features Grid - FULL text from alphabet-train.md feature sections
   features: {
-    sectionTitle: 'Características del Generador de Fichas del Abecedario - Todo lo que Necesitas para Fichas Preescolar y Lectoescritura',
+    sectionTitle: 'Fichas Gratis y Ficha para Niños - Imprimibles Gratis y Ficha para Preescolar',
     sectionDescription: 'Nuestro generador de fichas para imprimir del tren del abecedario incluye todas las herramientas que maestros de educación infantil necesitan. Crea fichas preescolar profesionales sin necesitar habilidades de diseño. Cada característica fue diseñada pensando en maestros ocupados que necesitan material educativo gratis de calidad rápidamente. Las fichas infantil del tren del abecedario se generan en minutos y se pueden personalizar completamente. Tu suscripción al Paquete Esencial incluye acceso ilimitado a todas estas características sin costos adicionales por ficha.',
     highlightBadgeText: 'Característica Clave',
     readMoreLabel: 'Leer más',
@@ -204,7 +204,7 @@ Descarga fichas preescolar listas para usar inmediatamente. No necesitas softwar
 
   // How-To Guide - FULL text from alphabet-train.md step sections
   howTo: {
-    sectionTitle: 'Cómo Crear Fichas para Imprimir del Abecedario en 5 Pasos Fáciles - Generador de Fichas Preescolar y Material Educativo Gratis',
+    sectionTitle: 'Ficha Gratis para Niños Crear - Ficha para Preescolar',
     sectionDescription: 'Crear fichas profesionales del tren del abecedario toma menos de 3 minutos en total. El proceso es tan simple que maestros sin experiencia tecnológica lo dominan en su primer intento. Cada paso está diseñado para ser intuitivo y rápido. No necesitas capacitación especial para crear fichas infantil de calidad profesional. Las fichas para imprimir del abecedario están listas para descargar y usar en clase inmediatamente. Sigue estos cinco pasos para crear material de lectoescritura personalizado para tus estudiantes.',
     ctaText: 'Comenzar Ahora',
     badgeText: 'Cómo Funciona',
@@ -266,7 +266,7 @@ Descarga la ficha del tren del abecedario y la clave de respuestas por separado.
 
   // Use Cases - FULL text from alphabet-train.md use case sections
   useCases: {
-    sectionTitle: 'Perfecto para Maestros, Padres y Educadores - Fichas para Imprimir del Abecedario y Material Educativo Gratis para Cada Necesidad',
+    sectionTitle: 'Ficha Gratis para Niños - Ficha para Preescolar con Imprimibles Gratis. Ficha para Niños',
     sectionDescription: 'Las fichas del tren del abecedario benefician a educadores en múltiples contextos educativos. Desde maestros de preescolar hasta padres que educan en casa. Cada grupo encuentra valor único en estas fichas para imprimir personalizables. El material educativo gratis se adapta perfectamente a diferentes estilos de enseñanza. Las fichas preescolar funcionan igual de bien en escuelas públicas y privadas. Maestros bilingües y de educación especial encuentran herramientas específicas para sus estudiantes. La flexibilidad del generador permite que cada educador cree exactamente lo que necesita.',
     badgeText: 'Para Quién',
     readMoreLabel: 'Leer más',
@@ -337,7 +337,7 @@ Tiendas exitosas en Etsy venden paquetes de fichas infantil descargables. Alguno
 
   // FAQ Section - Selected FAQs from alphabet-train.md
   faq: {
-    sectionTitle: 'Preguntas Frecuentes sobre Fichas para Imprimir del Abecedario - Fichas de Matemáticas con Números y Tablas de Multiplicar',
+    sectionTitle: 'FAQ - Ficha Gratis para Niños y Ficha para Preescolar. Ficha para Niños',
     sectionDescription: 'Maestros y padres tienen preguntas comunes sobre el generador de fichas del tren del abecedario. Esta sección responde las dudas más frecuentes sobre creación de fichas preescolar. Las respuestas incluyen información sobre licencias, idiomas y opciones de personalización.',
     showMoreText: 'Ver más preguntas',
     showLessText: 'Ver menos',
@@ -472,7 +472,7 @@ Tiendas exitosas en Etsy venden paquetes de fichas infantil descargables. Alguno
 
   // Related Apps - FULL text from alphabet-train.md related sections
   relatedApps: {
-    sectionTitle: 'Combina Fichas para Imprimir del Abecedario con Fichas de Matemáticas - Paquetes Completos de Lectoescritura y Números',
+    sectionTitle: 'Fichas Gratis Combinar - Ficha para Niños e Imprimibles Gratis',
     sectionDescription: 'La plataforma ofrece 33 herramientas para crear material educativo completo. Maestros combinan el generador del tren del abecedario con otros generadores de fichas. Esto crea paquetes de aprendizaje integrados para estudiantes de preescolar. Las fichas para imprimir del abecedario funcionan perfectamente con fichas de otras materias.',
     ctaTitle: '¿Listo para Crear Fichas del Abecedario Increíbles?',
     ctaDescription: 'Únete a miles de maestros que crean fichas profesionales de lectoescritura. Generación ilimitada, licencia comercial incluida.',

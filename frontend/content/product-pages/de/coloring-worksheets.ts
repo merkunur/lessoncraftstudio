@@ -97,8 +97,8 @@ Exportiere fertige Malvorlagen als hochauflösende PDF oder JPEG Dateien. Profes
 
   // Sample Gallery - REAL file paths from samples/english/coloring/
   samples: {
-    sectionTitle: 'Malvorlagen Beispiele',
-    sectionDescription: 'Laden Sie kostenlose Beispiel-Malvorlagen herunter, um unsere professionelle Qualität zu sehen',
+    sectionTitle: 'Kostenloses Arbeitsblatt für Kinder - Kostenlose Arbeitsblätter und Kostenlose Druckvorlagen',
+    sectionDescription: 'Laden Sie kostenlose Druckvorlagen herunter - Kostenloses Arbeitsblatt für Kinder in professioneller Qualität für Arbeitsblatt für Vorschule',
     downloadLabel: 'Kostenloses Beispiel Herunterladen',
     worksheetLabel: 'Arbeitsblatt',
     answerKeyLabel: 'Lösungsblatt',
@@ -149,7 +149,7 @@ Exportiere fertige Malvorlagen als hochauflösende PDF oder JPEG Dateien. Profes
 
   // Features Grid - FULL text from coloring.md feature sections
   features: {
-    sectionTitle: 'Malvorlagen-Generator Funktionen - Kostenlose Ausmalbilder und Arbeitsblätter Grundschule',
+    sectionTitle: 'Arbeitsblatt für Kinder - Arbeitsblatt für Vorschule und Kostenlose Arbeitsblätter',
     sectionDescription: 'Der Malvorlagen-Generator bietet alle Funktionen für professionelle Ausmalbilder. Erstellen Sie Arbeitsblätter Grundschule und Vorschul-Arbeitsblätter in wenigen Minuten. Über 3000 Bilder für unbegrenzte Malvorlagen-Erstellung. Kommerzielle Lizenz für Teachers Pay Teachers Verkäufe inklusive.',
     highlightBadgeText: 'Hauptfunktion',
     readMoreLabel: 'Mehr lesen',
@@ -243,7 +243,7 @@ JPEG-Export für digitale Verwendung oder Bildbearbeitung von Ausmalbildern. Sch
 
   // How-To Guide - FULL text from coloring.md step sections
   howTo: {
-    sectionTitle: 'Malvorlagen erstellen in 5 Schritten - Kostenlose Ausmalbilder für Arbeitsblätter Grundschule',
+    sectionTitle: 'Kostenloses Arbeitsblatt für Kinder erstellen - Arbeitsblatt für Vorschule',
     sectionDescription: 'Erstellen Sie professionelle Malvorlagen und Ausmalbilder in unter 3 Minuten. Folgen Sie diesen 5 einfachen Schritten. Kein Design-Wissen erforderlich. Perfekt für Arbeitsblätter Grundschule und Vorschul-Arbeitsblätter.',
     ctaText: 'Jetzt Erstellen',
     badgeText: 'So funktioniert es',
@@ -315,7 +315,7 @@ Mit dem Basis-Paket für 144 € jährlich erhalten Sie wasserzeichenfreie Downl
 
   // Use Cases - FULL text from coloring.md use case sections
   useCases: {
-    sectionTitle: 'Perfekt für Lehrkräfte und Eltern - Ausmalbilder und Malvorlagen für jeden Bedarf',
+    sectionTitle: 'Kostenloses Arbeitsblatt für Kinder - Arbeitsblatt für Vorschule mit Kostenlose Druckvorlagen',
     sectionDescription: 'Der Malvorlagen-Generator eignet sich für verschiedene Nutzergruppen. Erzieher in der Vorschule. Lehrkräfte an Grundschulen. Homeschooling-Eltern. Therapeuten. Jeder profitiert von professionellen Ausmalbildern und kostenlosen Arbeitsblättern.',
     badgeText: 'Anwendungsbereiche',
     readMoreLabel: 'Mehr lesen',
@@ -398,7 +398,7 @@ Bildbasierte Malvorlagen funktionieren ohne Lesekompetenz bei Vorschul-Arbeitsbl
 
   // FAQ Section - FULL FAQs from coloring.md
   faq: {
-    sectionTitle: 'Häufig gestellte Fragen zu Malvorlagen und kostenlosen Ausmalbilder Arbeitsblättern',
+    sectionTitle: 'FAQ - Kostenloses Arbeitsblatt für Kinder und Arbeitsblatt für Vorschule',
     sectionDescription: 'Lehrkräfte und Eltern haben viele Fragen zum Malvorlagen-Generator und Basis-Paket Abonnement. Hier beantworten wir die häufigsten Fragen zu Ausmalbilder, Arbeitsblätter Grundschule und kommerzieller Lizenzierung.',
     showMoreText: 'Mehr Fragen anzeigen',
     showLessText: 'Weniger anzeigen',
@@ -503,7 +503,7 @@ Bildbasierte Malvorlagen funktionieren ohne Lesekompetenz bei Vorschul-Arbeitsbl
 
   // Related Apps - Kombinieren Sie Malvorlagen mit anderen Generatoren
   relatedApps: {
-    sectionTitle: 'Kombinieren Sie Malvorlagen mit anderen Generatoren - Ganzheitliche Arbeitsblätter Grundschule',
+    sectionTitle: 'Kostenlose Arbeitsblätter kombinieren - Arbeitsblatt für Kinder und Kostenlose Druckvorlagen',
     sectionDescription: 'Ihr Basis-Paket Abonnement beinhaltet 27 Generatoren, die perfekt zusammenarbeiten. Kombinieren Sie Ausmalbilder mit Schwungübungen für Feinmotorik-Training. Verbinden Sie Malvorlagen mit Buchstaben lernen für Literacy-Integration. Erstellen Sie Mathe-Arbeitsblätter mit Mal-Belohnungen.',
     ctaTitle: 'Bereit, fantastische Malvorlagen zu erstellen?',
     ctaDescription: 'Schließen Sie sich tausenden Lehrkräften an, die professionelle Ausmalbilder und Malvorlagen erstellen. Unbegrenzte Generierung, kommerzielle Lizenz inklusive.',

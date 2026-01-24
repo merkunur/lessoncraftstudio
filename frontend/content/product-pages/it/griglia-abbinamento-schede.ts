@@ -90,8 +90,8 @@ Il nostro generatore di schede gratuite offre personalizzazione completa per ogn
 
   // Sample Gallery
   samples: {
-    sectionTitle: 'Schede Gratuite Griglia Abbinamento - Esempi Stampabili Gratuiti',
-    sectionDescription: 'Scarica schede gratuite per bambini e vedi la nostra qualità professionale',
+    sectionTitle: "Scheda Gratuita per Bambini - Schede Gratuite e Stampabili Gratuiti e Scheda per Bambini",
+    sectionDescription: "Scarica stampabili gratuiti - Scheda gratuita per bambini di qualità professionale. Schede gratuite e scheda per bambini perfette per scheda per scuola dell'infanzia. Scheda gratuita per bambini e scheda per bambini includono materiale educativo. Scheda gratuita e scheda per scuola dell'infanzia disponibile",
     downloadLabel: 'Scarica Scheda Gratuita',
     worksheetLabel: 'Scheda',
     answerKeyLabel: 'Soluzioni',
@@ -142,7 +142,7 @@ Il nostro generatore di schede gratuite offre personalizzazione completa per ogn
 
   // Features Grid
   features: {
-    sectionTitle: 'Funzionalità Schede Gratuite Griglia Abbinamento - Stampabili Gratuiti',
+    sectionTitle: "Schede Gratuite e Scheda per Bambini - Stampabili Gratuiti e Scheda per Scuola dell'Infanzia",
     sectionDescription: 'Il nostro generatore di schede gratuite griglia abbinamento offre funzionalità complete per insegnanti della scuola primaria e scuola dell\'infanzia. Crea schede gratuite per bambini personalizzate per ogni materia e livello di apprendimento. Ogni funzionalità è progettata per stampabili gratuiti professionali. Gli insegnanti risparmiano ore di lavoro generando schede per bambini in pochi minuti.',
     highlightBadgeText: 'Funzionalità Chiave',
     readMoreLabel: 'Leggi di più',
@@ -236,7 +236,7 @@ Le soluzioni per correzione veloce. Perfetto per schede gratuite con risposte. O
 
   // How-To Guide Section
   howTo: {
-    sectionTitle: 'Come Creare Schede Gratuite per Bambini - Guida Stampabili Gratuiti',
+    sectionTitle: "Scheda Gratuita per Bambini Creare - Scheda per Scuola dell'Infanzia",
     sectionDescription: 'Creare schede gratuite griglia abbinamento professionali richiede meno di 3 minuti. Il processo per stampabili gratuiti è semplificato in cinque passaggi intuitivi. Nessuna competenza tecnica necessaria. Gli insegnanti creano scheda gratuita per bambini personalizzata immediatamente.',
     ctaText: 'Inizia Ora',
     badgeText: 'Guida Passo-Passo',
@@ -308,7 +308,7 @@ Stampa schede gratuite su qualsiasi stampante domestica. Il formato PDF mantiene
 
   // Use Cases Section
   useCases: {
-    sectionTitle: 'Schede Gratuite per Insegnanti, Genitori ed Educatori',
+    sectionTitle: "Schede Gratuite per Insegnanti, Genitori ed Educatori",
     sectionDescription: 'Le schede gratuite griglia abbinamento servono diversi tipi di educatori. Insegnanti utilizzano queste schede per bambini per sviluppare abilità cognitive. Educatori creano stampabili gratuiti per attività pregrafismo. Genitori scaricano scheda gratuita per bambini per curriculum personalizzati.',
     badgeText: 'Chi Usa le Schede Gratuite',
     readMoreLabel: 'Leggi di più',
@@ -391,7 +391,7 @@ Processo rapido per schede gratuite permette catalogo veloce. Scheda gratuita pe
 
   // FAQ Section
   faq: {
-    sectionTitle: 'Domande Frequenti sulle Schede Gratuite Griglia Abbinamento',
+    sectionTitle: "FAQ - Scheda Gratuita per Bambini e Scheda per Scuola dell'Infanzia. Scheda per Bambini",
     sectionDescription: 'Risposte alle domande più comuni su scheda gratuita per bambini e stampabili gratuiti del nostro generatore',
     showMoreText: 'Mostra altre domande',
     showLessText: 'Mostra meno domande',
@@ -544,7 +544,7 @@ L'abbonamento include biblioteca 3000+ immagini per schede gratuite. Qualità 30
 
   // Related Apps Section
   relatedApps: {
-    sectionTitle: 'Combina Schede Gratuite Griglia Abbinamento con Altri Generatori',
+    sectionTitle: "Schede Gratuite Combinare - Scheda per Bambini e Stampabili Gratuiti",
     sectionDescription: 'L\'abbonamento Accesso Completo include tutti i 33 generatori di schede gratuite. Combina scheda gratuita per bambini griglia abbinamento con altri strumenti. Crea pacchetti completi di stampabili gratuiti. Perfetto per unità tematiche di schede per bambini.',
     ctaTitle: 'Pronto a Creare Schede Gratuite Straordinarie?',
     ctaDescription: 'Unisciti a migliaia di educatori che creano scheda gratuita per bambini professionali. Stampabili gratuiti illimitati, licenza commerciale inclusa.',

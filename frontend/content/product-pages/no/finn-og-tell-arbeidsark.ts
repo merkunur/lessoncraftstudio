@@ -83,8 +83,8 @@ Grunnpakke-abonnement inkluderer 10 populære arbeidsarkverktøy for bare kr 1 0
 
   // Sample Gallery - REAL file paths from samples/english/find and count/
   samples: {
-    sectionTitle: 'Finn og Tell Arbeidsark Eksempler',
-    sectionDescription: 'Last ned gratis eksempler på finn og tell arbeidsark for å se vår profesjonelle kvalitet',
+    sectionTitle: 'Gratis Arbeidsark for Barn - Gratis Arbeidsark og Gratis Utskrifter',
+    sectionDescription: 'Last ned gratis utskrifter - Gratis arbeidsark for barn av profesjonell kvalitet. Gratis arbeidsark og arbeidsark for barn perfekt for arbeidsark for 1. trinn. Gratis arbeidsark for barn og arbeidsark for barn inkluderer gratis utskrifter undervisningsmateriell. Gratis arbeidsark og arbeidsark for 1. trinn tilgjengelig',
     badgeText: 'Gratis Eksempler',
     downloadLabel: 'Last ned Gratis Eksempel',
     downloadingLabel: 'Laster ned...',
@@ -135,7 +135,7 @@ Grunnpakke-abonnement inkluderer 10 populære arbeidsarkverktøy for bare kr 1 0
 
   // Features Grid - FULL text from find-and-count.md feature sections
   features: {
-    sectionTitle: 'Finn og Tell Arbeidsark Funksjoner - Alt du Trenger for Tall og Telling Oppgavehefter Barn og Matematikk Oppgaver',
+    sectionTitle: 'Gratis Arbeidsark og Arbeidsark for Barn - Gratis Utskrifter og Arbeidsark for 1. Trinn',
     sectionDescription: 'Vårt verktøy for finn og tell arbeidsark inneholder alle funksjoner du trenger for å lage profesjonelle arbeidsark gratis å skrive ut. Perfekt for lærere som jobber med tall og telling øvelser, finmotorikk øvelser og matematikk oppgaver. Kombiner finn og tell arbeidsark med addisjon og subtraksjon aktiviteter for komplett læring. Grunnpakke-abonnement gir deg tilgang til alle disse kraftige verktøyene for bare kr 1 075 per år.',
     highlightBadgeText: 'Viktig Funksjon',
     readMoreLabel: 'Les mer',
@@ -229,7 +229,7 @@ Automatisk fasitsvar-generering for alle finn og tell arbeidsark. Verktøyet tel
 
   // How-To Guide - FULL text from find-and-count.md step sections
   howTo: {
-    sectionTitle: 'Hvordan Lage Finn og Tell Arbeidsark på 5 Enkle Trinn - Matematikk Oppgaver og Tall og Telling Oppgavehefter Barn',
+    sectionTitle: 'Gratis Arbeidsark for Barn Lage - Arbeidsark for 1. Trinn',
     sectionDescription: 'Lag profesjonelle finn og tell arbeidsark på under 3 minutter. Vårt verktøy gjør det enkelt å produsere arbeidsark gratis for tall og telling øvelser. Kombiner finn og tell arbeidsark med matematikk oppgaver, addisjon og subtraksjon aktiviteter. Hvert trinn er designet for enkelhet. Ingen tekniske kunnskaper kreves for å lage finn og tell arbeidsark.',
     ctaText: 'Start Nå',
     badgeText: 'Slik Fungerer Det',
@@ -301,7 +301,7 @@ Kombiner finn og tell arbeidsark med andre aktiviteter. Last ned fargeleggingsbi
 
   // Use Cases - FULL text from find-and-count.md use case sections
   useCases: {
-    sectionTitle: 'Perfekt for Lærere, Foreldre og Pedagoger - Finn og Tell Arbeidsark for Tall og Telling og Matematikk Oppgaver',
+    sectionTitle: 'Gratis Arbeidsark for Barn - Arbeidsark for 1. Trinn med Gratis Utskrifter. Arbeidsark for Barn',
     sectionDescription: 'Vårt verktøy for finn og tell arbeidsark passer perfekt for alle som jobber med barn. Lag arbeidsark gratis for forskjellige undervisningsbehov. Kombiner finn og tell arbeidsark med tall og telling, matematikk oppgaver og finmotorikk øvelser. Fra barnehage til småskoletrinnet finner alle bruk for finn og tell arbeidsark.',
     badgeText: 'Hvem Er Det For',
     readMoreLabel: 'Les mer',
@@ -384,7 +384,7 @@ Finn og tell arbeidsark selger godt på Teachers Pay Teachers. Lærere søker et
 
   // FAQ Section - From find-and-count.md
   faq: {
-    sectionTitle: 'Ofte Stilte Spørsmål om Finn og Tell Arbeidsark - Arbeidsark Gratis for Oppgavehefter Barn',
+    sectionTitle: 'FAQ - Gratis Arbeidsark for Barn og Arbeidsark for 1. Trinn. Arbeidsark for Barn',
     sectionDescription: 'Lærere stiller ofte de samme spørsmålene om finn og tell arbeidsark og abonnementet. Her er svar på de vanligste spørsmålene om tall og telling arbeidsark og oppgavehefter barn. Lær mer om Grunnpakke-abonnementet og hvordan du kombinerer finn og tell med andre aktiviteter.',
     showMoreText: 'Vis flere spørsmål',
     showLessText: 'Vis færre',
@@ -489,7 +489,7 @@ Finn og tell arbeidsark selger godt på Teachers Pay Teachers. Lærere søker et
 
   // Related Apps - From find-and-count.md "Kombiner" section
   relatedApps: {
-    sectionTitle: 'Kombiner Finn og Tell Arbeidsark med Arbeidsark Gratis å Skrive Ut - Komplette Oppgavehefter Barn og Finmotorikk Øvelser',
+    sectionTitle: 'Gratis Arbeidsark Kombinere - Arbeidsark for Barn og Gratis Utskrifter',
     sectionDescription: 'Kombiner finn og tell arbeidsark med andre aktivitetstyper for komplett læring. Lag oppgavehefter barn som kombinerer tall og telling med flere ferdigheter. Vårt verktøy inkluderer 33 gratis arbeidsarkgeneratorer. Lag finn og tell sammen med matematikk oppgaver, fargeleggingsbilder barn og finmotorikk øvelser.',
     ctaTitle: 'Klar til å Lage Fantastiske Arbeidsark?',
     ctaDescription: 'Bli med tusenvis av pedagoger som lager profesjonelle arbeidsark. Ubegrenset oppretting, kommersiell lisens inkludert.',

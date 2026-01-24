@@ -95,8 +95,8 @@ Der Generator umfasst 8 verschiedene Vorlagen mit verschiedenen Linienmustern un
 
   // Sample Gallery - REAL file paths from samples/english/drawing lines/
   samples: {
-    sectionTitle: 'Schwungübungen Arbeitsblätter Beispiele',
-    sectionDescription: 'Laden Sie kostenlose Beispiel-Arbeitsblätter herunter, um unsere professionelle Qualität zu sehen',
+    sectionTitle: 'Kostenloses Arbeitsblatt für Kinder - Kostenlose Arbeitsblätter und Kostenlose Druckvorlagen',
+    sectionDescription: 'Laden Sie kostenlose Druckvorlagen herunter - Kostenloses Arbeitsblatt für Kinder in professioneller Qualität für Arbeitsblatt für Vorschule',
     downloadLabel: 'Kostenloses Beispiel Herunterladen',
     worksheetLabel: 'Arbeitsblatt',
     answerKeyLabel: 'Lösungsblatt',
@@ -147,7 +147,7 @@ Der Generator umfasst 8 verschiedene Vorlagen mit verschiedenen Linienmustern un
 
   // Features Grid - FULL text from linien-ziehen.md feature sections
   features: {
-    sectionTitle: 'Kostenloses Arbeitsblatt für Kinder - Schwungübungen Generator Funktionen für Arbeitsblatt für Vorschule',
+    sectionTitle: 'Arbeitsblatt für Kinder - Arbeitsblatt für Vorschule und Kostenlose Arbeitsblätter',
     sectionDescription: 'Unser Generator für Schwungübungen bietet umfassende Funktionen für die Erstellung professioneller Arbeitsblätter für Vorschule und Grundschule. Lehrkräfte erstellen maßgeschneiderte Zuordnungsübungen in weniger als 3 Minuten mit unserer benutzerfreundlichen Plattform. Jede Funktion konzentriert sich darauf, Zeit zu sparen und gleichzeitig hohe Qualität für den Unterrichtseinsatz zu gewährleisten. Ihr Basis-Paket Abonnement ermöglicht unbegrenzte Erstellung von Arbeitsblättern ohne Zusatzkosten pro Arbeitsblatt. Generieren Sie Schwungübungen zusammen mit anderen Arbeitsblättern für Buchstaben lernen, Mathe und Deutsch auf derselben Plattform. Das komplette Werkzeugset unterstützt alle Ihre Bedürfnisse für kostenlose Arbeitsblätter von der Vorschule bis zur 3. Klasse.',
     highlightBadgeText: 'Hauptfunktion',
     readMoreLabel: 'Mehr lesen',
@@ -236,7 +236,7 @@ Horizontalvorlagen ordnen Bilder in Links-Rechts-Spalten mit geraden Verbindunge
 
   // How-To Guide - FULL text from linien-ziehen.md step sections
   howTo: {
-    sectionTitle: 'Kostenloses Arbeitsblatt für Kinder in 5 Schritten erstellen',
+    sectionTitle: 'Kostenloses Arbeitsblatt für Kinder erstellen - Arbeitsblatt für Vorschule',
     sectionDescription: 'Erstellen Sie professionelle Schwungübungen in weniger als 3 Minuten mit unserem schrittweisen Prozess. Der Generator führt Sie durch jeden Schritt von der Vorlagenauswahl bis zum endgültigen Download. Keine Designerfahrung erforderlich, um hochwertige Vorschul-Arbeitsblätter und Arbeitsblätter Grundschule zu erstellen.',
     ctaText: 'Jetzt Erstellen',
     badgeText: 'So funktioniert es',
@@ -298,7 +298,7 @@ Alle Arbeitsblätter werden in professioneller 300 DPI Auflösung für gestochen
 
   // Use Cases - FULL descriptions from linien-ziehen.md persona sections
   useCases: {
-    sectionTitle: 'Perfekt für Lehrkräfte, Eltern und Pädagogen',
+    sectionTitle: 'Kostenloses Arbeitsblatt für Kinder - Arbeitsblatt für Vorschule mit Kostenlose Druckvorlagen',
     sectionDescription: 'Unser Schwungübungen-Generator dient verschiedenen Pädagogen, die täglich Vorschul-Arbeitsblätter und Arbeitsblätter Grundschule erstellen. Klassenlehrkräfte nutzen die Plattform für Unterrichtsplanung und differenzierten Unterricht. Eltern, die mehrere Klassenstufen zu Hause unterrichten, erstellen maßgeschneiderte kostenlose Arbeitsblätter für jedes Kind. Sonderpädagogen entwerfen individualisierte Arbeitsblätter für spezifische Lernziele. DaZ-Lehrkräfte generieren mehrsprachige Zuordnungsübungen in 11 Sprachen.',
     badgeText: 'Anwendungsbereiche',
     readMoreLabel: 'Mehr lesen',
@@ -369,7 +369,7 @@ Die enthaltene POD-Gewerbliche Lizenz erlaubt unbegrenzte Verkäufe ohne zusätz
 
   // FAQ Section - FULL FAQs from linien-ziehen.md
   faq: {
-    sectionTitle: 'Häufig gestellte Fragen zu Schwungübungen, Mathe-Arbeitsblättern und Arbeitsblätter Grundschule',
+    sectionTitle: 'FAQ - Kostenloses Arbeitsblatt für Kinder und Arbeitsblatt für Vorschule',
     sectionDescription: 'Lehrkräfte stellen häufig Fragen zur Erstellung von Schwungübungen und anderen Arbeitsblättern mit unserem Generator. Dieser Abschnitt beantwortet die häufigsten Fragen zu Abonnementanforderungen, Druckfähigkeiten, Anpassungsoptionen und gewerblicher Lizenzierung.',
     showMoreText: 'Mehr Fragen anzeigen',
     showLessText: 'Weniger anzeigen',
@@ -474,7 +474,7 @@ Die enthaltene POD-Gewerbliche Lizenz erlaubt unbegrenzte Verkäufe ohne zusätz
 
   // Related Apps - FULL text from linien-ziehen.md combine apps section
   relatedApps: {
-    sectionTitle: 'Kombinieren Sie Apps für umfassende Lehrplan-Bundles',
+    sectionTitle: 'Kostenlose Arbeitsblätter kombinieren - Arbeitsblatt für Kinder und Kostenlose Druckvorlagen',
     sectionDescription: 'Ihr Basis-Paket Abonnement beinhaltet zehn verschiedene Arbeitsblatt-Generator-Apps, die zusammenarbeiten, um vollständige Unterrichtspakete zu erstellen. Kombinieren Sie Schwungübungen mit anderen Generatoren für umfassende Lehrplan-Bundles. Erstellen Sie koordinierte Materialien über mehrere Arbeitsblatttypen hinweg.',
     ctaTitle: 'Bereit, fantastische Arbeitsblätter zu erstellen?',
     ctaDescription: 'Schließen Sie sich tausenden Lehrkräften an, die professionelle Arbeitsblätter erstellen. Unbegrenzte Generierung, kommerzielle Lizenz inklusive.',

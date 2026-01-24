@@ -88,8 +88,8 @@ Les enseignants choisissent l'abonnement Accès Complet pour trois raisons essen
 
   // Sample Gallery - REAL file paths from samples/french/more-less/
   samples: {
-    sectionTitle: 'Exemples de Fiches de Comparaison',
-    sectionDescription: 'Téléchargez des exemples gratuits pour voir notre qualité professionnelle',
+    sectionTitle: 'Fiche Gratuite pour Enfants - Fiches Gratuites et Imprimables Gratuits',
+    sectionDescription: 'Téléchargez imprimables gratuits - Fiche gratuite pour enfants de qualité professionnelle. Fiches gratuites et fiche pour enfants parfaites pour fiche pour maternelle. Fiche gratuite pour enfants et fiches gratuites inclus matériel éducatif. Fiche gratuite et fiches gratuites disponible',
     downloadLabel: 'Télécharger Exemple Gratuit',
     worksheetLabel: 'Fiche',
     answerKeyLabel: 'Corrigé',
@@ -140,7 +140,7 @@ Les enseignants choisissent l'abonnement Accès Complet pour trois raisons essen
 
   // Features Grid - FULL text from French more-less.md Section 2
   features: {
-    sectionTitle: 'Fonctionnalités du Générateur de Fiches Maternelle - Tout pour Créer des Exercices Maths et Fiches à Imprimer Gratuit',
+    sectionTitle: 'Fiches Gratuites et Fiche pour Enfants - Imprimables Gratuits et Fiche pour Maternelle',
     sectionDescription: 'Notre générateur d\'exercices maths offre toutes les fonctionnalités nécessaires pour créer des fiches à imprimer professionnelles. Chaque outil a été conçu pour faciliter la création de fiches maternelle et exercices CP de comparaison. Les enseignants économisent des heures de préparation chaque semaine. Votre abonnement Accès Complet inclut toutes ces fonctionnalités sans frais supplémentaires.',
     highlightBadgeText: 'Fonctionnalité Clé',
     readMoreLabel: 'Lire la suite',
@@ -206,7 +206,7 @@ Les enseignants choisissent l'abonnement Accès Complet pour trois raisons essen
 
   // How-To Guide - FULL text from French more-less.md Section 3
   howTo: {
-    sectionTitle: 'Comment Créer des Fiches Maternelle et Exercices Maths en 5 Étapes Simples - Fiches à Imprimer Gratuit',
+    sectionTitle: 'Fiche Gratuite pour Enfants Créer - Fiche pour Maternelle',
     sectionDescription: 'Créer des exercices maths de comparaison professionnels prend moins de 3 minutes avec notre générateur. Suivez ces cinq étapes simples pour produire des fiches maternelle de qualité. Aucune compétence en conception graphique n\'est nécessaire. Les enseignants de maternelle et de CP créent des fiches à imprimer parfaites dès la première utilisation. Le processus intuitif permet de générer plusieurs exercices CP en quelques minutes.',
     ctaText: 'Commencer à Créer',
     badgeText: 'Guide Étape par Étape',
@@ -258,7 +258,7 @@ Les enseignants choisissent l'abonnement Accès Complet pour trois raisons essen
 
   // Use Cases - FULL text from French more-less.md Section 4
   useCases: {
-    sectionTitle: 'Parfait pour Enseignants et Parents - Fiches Maternelle et Exercices CP pour Tous les Besoins en Exercices Maths',
+    sectionTitle: 'Fiche Gratuite pour Enfants - Fiche pour Maternelle avec Imprimables Gratuits. Fiche pour Enfants',
     sectionDescription: 'Notre générateur d\'exercices maths répond aux besoins de différents utilisateurs. Les enseignants de maternelle créent des fiches à imprimer adaptées aux jeunes apprenants. Les professeurs de CP et CE1 génèrent des exercices maths de comparaison plus complexes. Les parents en instruction à domicile profitent de la flexibilité complète du générateur. Chaque groupe d\'utilisateurs bénéficie des fonctionnalités professionnelles incluses dans l\'abonnement Accès Complet.',
     badgeText: 'Cas d\'Utilisation',
     readMoreLabel: 'Lire la suite',
@@ -317,7 +317,7 @@ Les enseignants choisissent l'abonnement Accès Complet pour trois raisons essen
 
   // FAQ Section - ALL questions from French more-less.md Section 6
   faq: {
-    sectionTitle: 'Questions Fréquentes sur les Fiches Maternelle et Exercices Maths - Tout savoir sur les Fiches à Imprimer Gratuit',
+    sectionTitle: 'FAQ - Fiche Gratuite pour Enfants et Fiche pour Maternelle. Fiche pour Enfants',
     sectionDescription: 'Les enseignants posent souvent les mêmes questions sur nos exercices maths et fiches maternelle. Cette section répond aux interrogations les plus courantes. Comprenez comment utiliser notre générateur de fiches à imprimer efficacement. Découvrez toutes les possibilités offertes par l\'abonnement Accès Complet. Ces réponses vous aident à maximiser la valeur de votre investissement.',
     showMoreText: 'Afficher plus de questions',
     showLessText: 'Voir moins',
@@ -445,7 +445,7 @@ Les enseignants choisissent l'abonnement Accès Complet pour trois raisons essen
 
   // Related Apps - French translations
   relatedApps: {
-    sectionTitle: 'Combinez avec d\'Autres Générateurs de Fiches - Tables de Multiplication, Graphisme Maternelle et Coloriage',
+    sectionTitle: 'Fiches Gratuites Combiner - Fiche pour Enfants et Imprimables Gratuits',
     sectionDescription: 'Notre plateforme propose 33 générateurs de fiches à imprimer différents. Combinez les exercices maths de comparaison avec d\'autres types de fiches pédagogiques. Créez des packs d\'apprentissage complets couvrant plusieurs domaines. Les enseignants apprécient cette approche intégrée qui maximise l\'efficacité pédagogique. Votre abonnement Accès Complet donne accès à tous les générateurs sans frais supplémentaires.',
     ctaTitle: 'Prêt à Créer des Fiches Incroyables ?',
     ctaDescription: 'Rejoignez les éducateurs qui créent des fiches professionnelles. Génération illimitée, licence commerciale incluse.',

@@ -76,7 +76,7 @@ The worksheet maker offers flexible comparison modes including image-to-image co
 
   // Sample Gallery - REAL file paths from samples/english/more-less/
   samples: {
-    sectionTitle: 'Worksheet Samples',
+    sectionTitle: 'Free Worksheet for Kids - Free Worksheets Samples',
     downloadLabel: 'Download Free Sample',
     worksheetLabel: 'Worksheet',
     answerKeyLabel: 'Answer Key',
@@ -121,8 +121,8 @@ The worksheet maker offers flexible comparison modes including image-to-image co
 
   // Features Grid - FULL descriptions from more-less.md H3 sections
   features: {
-    sectionTitle: 'Everything You Need for Comparison Worksheets',
-    sectionDescription: 'Our comparison worksheet maker includes seven powerful features that make creating math worksheets fast and easy. Generate free printable worksheets for kindergarten through first grade students. Every feature works together to help teachers create professional-quality comparison worksheets in minutes. The worksheet generator combines simplicity with professional results. Teachers get unlimited worksheet creation with their Full Access subscription. No per-worksheet fees means you can create as many math worksheets as your students need. Download worksheets in high-quality PDF or JPEG format ready for printing.',
+    sectionTitle: 'Free Worksheet for Kids Features - Free Worksheets for Comparison',
+    sectionDescription: 'Our comparison worksheet maker includes seven powerful features that make creating free worksheet for kids fast and easy. Generate free worksheet for kids for kindergarten through first grade students. Every feature works together to help teachers create professional-quality free worksheet for kids in minutes. The worksheet generator combines simplicity with professional results. Teachers get unlimited worksheet creation with their Full Access subscription. No per-worksheet fees means you can create as many free worksheet for kids as your students need. Download worksheets in high-quality PDF or JPEG format ready for printing.',
     highlightBadgeText: 'Key Feature',
     items: [
       {
@@ -279,7 +279,7 @@ The worksheet maker offers flexible comparison modes including image-to-image co
 
   // FAQ Section - ALL questions from more-less.md
   faq: {
-    sectionTitle: 'Frequently Asked Questions',
+    sectionTitle: 'FAQ - Free Worksheet for Kids and Free Worksheets',
     sectionDescription: 'Teachers and parents commonly ask questions about creating comparison worksheets before subscribing. These answers address pricing, classroom use, customization options, and technical requirements. Understanding subscription benefits helps educators decide if the worksheet maker meets their teaching needs.',
     showMoreText: 'Show more questions',
     showLessText: 'Show less',

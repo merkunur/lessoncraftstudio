@@ -79,8 +79,8 @@ Personalizza completamente ogni elemento sulla tua scheda didattica. Aggiungi sf
 
   // Sample Gallery
   samples: {
-    sectionTitle: 'Stampabili Gratuiti: Esempi Schede Gratuite Indovina la Parola',
-    sectionDescription: 'Scarica esempi gratuiti per vedere la nostra qualità professionale',
+    sectionTitle: "Scheda Gratuita per Bambini - Schede Gratuite e Stampabili Gratuiti e Scheda per Bambini",
+    sectionDescription: "Scarica stampabili gratuiti - Scheda gratuita per bambini di qualità professionale. Schede gratuite e scheda per bambini perfette per scheda per scuola dell'infanzia. Scheda gratuita per bambini e scheda per bambini includono materiale educativo. Scheda gratuita e scheda per scuola dell'infanzia disponibile",
     downloadLabel: 'Scarica Esempio Gratuito',
     worksheetLabel: 'Scheda',
     answerKeyLabel: 'Chiave di Risposta',
@@ -124,7 +124,7 @@ Personalizza completamente ogni elemento sulla tua scheda didattica. Aggiungi sf
 
   // Features Grid
   features: {
-    sectionTitle: 'Funzionalità della Scheda Gratuita Indovina la Parola - Schede Gratuite per Scuola Primaria',
+    sectionTitle: "Schede Gratuite e Scheda per Bambini - Stampabili Gratuiti e Scheda per Scuola dell'Infanzia",
     sectionDescription: 'Il nostro generatore di schede didattiche include tutte le funzionalità necessarie per creare materiale didattico professionale. Gli insegnanti della scuola dell\'infanzia e della scuola primaria utilizzano questi strumenti ogni giorno per preparare schede didattiche personalizzate. Dalla creazione rapida alla modifica completa, ogni funzione è progettata per risparmiare tempo. Crea schede didattiche per l\'alfabeto, schede matematica, disegni da colorare e molto altro.',
     highlightBadgeText: 'Funzionalità Chiave',
     readMoreLabel: 'Leggi di più',
@@ -218,7 +218,7 @@ Esporta in formato PDF o JPEG secondo le tue necessità. Il PDF mantiene qualit�
 
   // How-To Guide Section
   howTo: {
-    sectionTitle: 'Come Creare Schede Gratuite Scuola Primaria per Indovinare Parole in 5 Passaggi',
+    sectionTitle: "Scheda Gratuita per Bambini Creare - Scheda per Scuola dell'Infanzia",
     sectionDescription: 'Crea schede didattiche professionali in meno di 3 minuti. Il processo è semplice e intuitivo. Non servono competenze tecniche. Segui questi cinque passaggi per generare materiale didattico di alta qualità. Ogni passaggio richiede pochi secondi. Il tempo totale dalla selezione delle immagini al download è inferiore a 3 minuti.',
     ctaText: 'Inizia Ora',
     badgeText: 'Guida Passo-Passo',
@@ -290,7 +290,7 @@ Scarica anche la chiave di risposta. Il sistema genera automaticamente una versi
 
   // Use Cases Section
   useCases: {
-    sectionTitle: 'Perfetto per Insegnanti e Genitori - Schede Gratuite per Scuola Primaria e Infanzia',
+    sectionTitle: "Perfetto per Insegnanti e Genitori - Schede Gratuite per Scuola Primaria e Infanzia",
     sectionDescription: 'Le schede didattiche per indovinare parole funzionano per diversi tipi di educatori e situazioni di apprendimento. Insegnanti della scuola dell\'infanzia, insegnanti della scuola primaria, genitori che fanno istruzione parentale, insegnanti di lingue straniere, insegnanti di sostegno e imprenditori nel settore educativo.',
     badgeText: 'Casi d\'Uso',
     readMoreLabel: 'Leggi di più',
@@ -373,7 +373,7 @@ La velocità di creazione di 3 minuti significa alta produttività. Crea 20 prod
 
   // FAQ Section
   faq: {
-    sectionTitle: 'Domande Frequenti sulle Schede Gratuite Indovina la Parola',
+    sectionTitle: "FAQ - Scheda Gratuita per Bambini e Scheda per Scuola dell'Infanzia. Scheda per Bambini",
     sectionDescription: 'Gli insegnanti e i genitori fanno domande simili sul generatore di schede didattiche. Ecco risposte complete alle domande più comuni su abbonamento, funzionalità, utilizzo in classe e opportunità commerciali.',
     showMoreText: 'Mostra altre domande',
     showLessText: 'Mostra meno domande',
@@ -514,7 +514,7 @@ Combina lista parole personalizzate con immagini caricate per controllo totale. 
 
   // Related Apps Section
   relatedApps: {
-    sectionTitle: 'Combina Schede Gratuite Indovina la Parola con Altri Generatori',
+    sectionTitle: "Schede Gratuite Combinare - Scheda per Bambini e Stampabili Gratuiti",
     sectionDescription: 'L\'abbonamento Accesso Completo include 33 generatori. Combina il generatore di Schede Indovina la Parola con altri strumenti. Crea pacchetti completi di schede didattiche. Perfetto per unità tematiche. Ottimo per centri di apprendimento.',
     ctaTitle: 'Pronto a Creare Schede Straordinarie?',
     ctaDescription: 'Unisciti a migliaia di educatori che creano schede professionali. Generazione illimitata, licenza commerciale inclusa.',

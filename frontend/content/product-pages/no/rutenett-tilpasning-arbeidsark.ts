@@ -51,8 +51,8 @@ Full Tilgang-abonnement gir deg tilgang til alle 33 arbeidsarkgeneratorer inklud
 
   // Sample Gallery - REAL file paths from samples/english/grid match/
   samples: {
-    sectionTitle: 'Rutenetttilpasning Arbeidsark Eksempler',
-    sectionDescription: 'Last ned gratis eksempler på arbeidsark for å se vår profesjonelle kvalitet',
+    sectionTitle: 'Gratis Arbeidsark for Barn - Gratis Arbeidsark og Gratis Utskrifter',
+    sectionDescription: 'Last ned gratis utskrifter - Gratis arbeidsark for barn av profesjonell kvalitet. Gratis arbeidsark og arbeidsark for barn perfekt for arbeidsark for 1. trinn. Gratis arbeidsark for barn og arbeidsark for barn inkluderer gratis utskrifter undervisningsmateriell. Gratis arbeidsark og arbeidsark for 1. trinn tilgjengelig',
     badgeText: 'Gratis Eksempler',
     downloadLabel: 'Last ned Gratis Eksempel',
     downloadingLabel: 'Laster ned...',
@@ -82,7 +82,7 @@ Full Tilgang-abonnement gir deg tilgang til alle 33 arbeidsarkgeneratorer inklud
 
   // Features Grid - FULL text from grid-match.md feature sections
   features: {
-    sectionTitle: 'Rutenetttilpasning Funksjoner - Alt Du Trenger for Arbeidsark Gratis og Matematikk Oppgaver',
+    sectionTitle: 'Gratis Arbeidsark og Arbeidsark for Barn - Gratis Utskrifter og Arbeidsark for 1. Trinn',
     sectionDescription: 'Vår rutenetttilpasning generator inkluderer alle verktøy du trenger for å lage profesjonelle arbeidsark gratis. Full Tilgang gir deg ubegrenset tilgang til å generere rutenetttilpasning arbeidsark for matematikk oppgaver og finmotorikk øvelser. Lag visuell matching arbeidsark perfekte for småskoletrinnet. Kombinér med fargeleggingsbilder barn og oppgavehefter barn for varierte læringspakker. Ingen ekstra kostnader per ark når du abonnerer.',
     highlightBadgeText: 'Viktig Funksjon',
     readMoreLabel: 'Les mer',
@@ -162,7 +162,7 @@ Skriv ut på vanlige hjemmeblekk-skrivere. Perfekt kvalitet på kopimaskin. Idee
 
   // How-To Guide - FULL text from grid-match.md step sections
   howTo: {
-    sectionTitle: 'Hvordan Lage Rutenetttilpasning Arbeidsark Gratis på 5 Enkle Trinn',
+    sectionTitle: 'Gratis Arbeidsark for Barn Lage - Arbeidsark for 1. Trinn',
     sectionDescription: 'Lag profesjonelle rutenetttilpasning arbeidsark gratis på under 3 minutter. Følg disse 5 enkle trinnene for å generere matematikk oppgaver og finmotorikk øvelser for småskoletrinnet. Ingen design-erfaring nødvendig. Perfekt for lærere som trenger arbeidsark gratis til tall og telling, bokstaver lære skrive, og fargeleggingsbilder barn. Full Tilgang-abonnement gir deg ubegrenset tilgang til å lage oppgavehefter barn med varierte aktiviteter.',
     ctaText: 'Start Nå',
     badgeText: 'Slik Fungerer Det',
@@ -234,7 +234,7 @@ Organiser arbeidsarkene dine i mapper etter tema. Lag ukentlige leksepakker for 
 
   // Use Cases - FULL text from grid-match.md use case sections
   useCases: {
-    sectionTitle: 'Perfekt for Lærere og Foreldre - Arbeidsark Gratis for Finmotorikk Øvelser og Lesetrening',
+    sectionTitle: 'Gratis Arbeidsark for Barn - Arbeidsark for 1. Trinn med Gratis Utskrifter. Arbeidsark for Barn',
     sectionDescription: 'Rutenetttilpasning arbeidsark gratis er ideelle for forskjellige brukere. Barnehage-lærere bruker det for finmotorikk øvelser. Småskole-lærere bruker det for tall og telling aktiviteter. Hjemmeundervisning-foreldre lager oppgavehefter barn. Språklærere kombinerer det med bokstaver lære skrive. Spesialpedagogikk-lærere tilpasser vanskelighetsgrad. Lærerentreprenører selger fargeleggingsbilder barn og matematikk oppgaver. Alle drar nytte av ubegrensede arbeidsark gratis med Full Tilgang-abonnement.',
     badgeText: 'Hvem Er Det For',
     readMoreLabel: 'Les mer',
@@ -305,7 +305,7 @@ Etsy printable-butikker drar nytte av profesjonell 300 DPI kvalitet. Lag sesong-
 
   // FAQ Section - From grid-match.md
   faq: {
-    sectionTitle: 'Ofte Stilte Spørsmål om Rutenetttilpasning Arbeidsark Gratis',
+    sectionTitle: 'FAQ - Gratis Arbeidsark for Barn og Arbeidsark for 1. Trinn. Arbeidsark for Barn',
     sectionDescription: 'Lærere og foreldre stiller ofte spørsmål om rutenetttilpasning generator. Hvordan fungerer abonnementet? Kan jeg kombinere med fargeleggingsbilder barn og bokstaver lære skrive? Støtter det tall og telling og gangetabellen? Her er de vanligste spørsmålene med detaljerte svar om arbeidsark gratis og Full Tilgang-abonnement.',
     showMoreText: 'Vis flere spørsmål',
     showLessText: 'Vis færre',

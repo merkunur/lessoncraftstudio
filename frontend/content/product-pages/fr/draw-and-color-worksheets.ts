@@ -87,8 +87,8 @@ Chaque fiche se télécharge sous forme de fichier PDF professionnel 300 DPI. Im
 
   // Sample Gallery - REAL file paths from samples/english/draw and color/
   samples: {
-    sectionTitle: 'Exemples de Fiches de Dessin sur Quadrillage',
-    sectionDescription: 'Découvrez des exemples de fiches créées avec notre générateur de coloriage à imprimer',
+    sectionTitle: 'Fiche Gratuite pour Enfants - Fiches Gratuites et Imprimables Gratuits',
+    sectionDescription: 'Téléchargez imprimables gratuits - Fiche gratuite pour enfants de qualité professionnelle. Fiches gratuites et fiche pour enfants parfaites pour fiche pour maternelle. Fiche gratuite pour enfants et fiches gratuites inclus matériel éducatif. Fiche gratuite et fiches gratuites disponible',
     downloadLabel: 'Télécharger Exemple',
     worksheetLabel: 'Fiche',
     answerKeyLabel: 'Corrigé',
@@ -139,7 +139,7 @@ Chaque fiche se télécharge sous forme de fichier PDF professionnel 300 DPI. Im
 
   // Features Grid - FULL text from draw-and-color.md feature sections
   features: {
-    sectionTitle: 'Fonctionnalités du Générateur de Fiches Maternelle - Coloriage à Imprimer et Exercices CP',
+    sectionTitle: 'Fiches Gratuites et Fiche pour Enfants - Imprimables Gratuits et Fiche pour Maternelle',
     sectionDescription: 'Notre générateur de dessin sur quadrillage offre des fonctionnalités professionnelles pour créer des fiches à imprimer gratuit. Les enseignants obtiennent un contrôle complet sur les niveaux de difficulté et la conception visuelle. Créez des fiches maternelle avec grilles simples et nombreux indices. Générez des exercices CP avec motifs complexes et moins d\'aide. Chaque fonctionnalité travaille ensemble pour produire des activités de coloriage à imprimer que les élèves adorent. L\'abonnement Accès Complet vous donne une création illimitée pour les 33 générateurs à 240€ par an.',
     highlightBadgeText: 'Fonctionnalité Clé',
     readMoreLabel: 'Lire la suite',
@@ -228,7 +228,7 @@ Les écoles internationales bénéficient du support multilingue. Créez des exe
 
   // How-To Guide - FULL text from draw-and-color.md step sections
   howTo: {
-    sectionTitle: 'Comment Créer des Fiches à Imprimer Gratuit en 5 Étapes Faciles',
+    sectionTitle: 'Fiche Gratuite pour Enfants Créer - Fiche pour Maternelle',
     sectionDescription: 'Créer des fiches de dessin sur quadrillage professionnelles prend moins de 3 minutes du début au téléchargement. Suivez ces cinq étapes simples pour générer des fiches maternelle personnalisées pour les élèves de maternelle et CP. Aucune compétence technique requise. L\'interface intuitive guide chaque étape de création rapidement.',
     ctaText: 'Commencer Maintenant',
     badgeText: 'Comment Ça Marche',
@@ -290,7 +290,7 @@ Activez l'option niveaux de gris avant le téléchargement pour économiser les 
 
   // Use Cases - FULL text from draw-and-color.md use case sections
   useCases: {
-    sectionTitle: 'Parfait pour Enseignants et Parents',
+    sectionTitle: 'Fiche Gratuite pour Enfants - Fiche pour Maternelle avec Imprimables Gratuits. Fiche pour Enfants',
     sectionDescription: 'Les fiches de dessin sur quadrillage servent divers contextes éducatifs et styles d\'enseignement. Les enseignants de maternelle les utilisent pour le développement moteur fin et le raisonnement spatial. Les enseignants de CP les intègrent avec le programme de calcul et alphabet. Les parents pratiquant l\'instruction à domicile créent des activités d\'apprentissage personnalisées.',
     badgeText: 'Pour Qui',
     readMoreLabel: 'Lire la suite',
@@ -361,7 +361,7 @@ Les vendeurs réussis gagnent 500€-5000€ mensuellement des ventes de fiches.
 
   // FAQ Section - Selected FAQs from draw-and-color.md
   faq: {
-    sectionTitle: 'Questions Fréquentes',
+    sectionTitle: 'FAQ - Fiche Gratuite pour Enfants et Fiche pour Maternelle. Fiche pour Enfants',
     sectionDescription: 'Questions fréquentes sur notre générateur de dessin sur quadrillage et nos fiches maternelle.',
     showMoreText: 'Voir plus de questions',
     showLessText: 'Voir moins',
@@ -479,7 +479,7 @@ Les vendeurs réussis gagnent 500€-5000€ mensuellement des ventes de fiches.
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Combinez avec d\'Autres Générateurs de Fiches',
+    sectionTitle: 'Fiches Gratuites Combiner - Fiche pour Enfants et Imprimables Gratuits',
     sectionDescription: 'Créez des paquets d\'apprentissage complets en combinant les fiches de dessin sur quadrillage avec ces générateurs complémentaires.',
     ctaTitle: 'Prêt à Créer des Fiches de Dessin sur Quadrillage ?',
     ctaDescription: 'Rejoignez des milliers d\'enseignants qui créent des fiches professionnelles. Génération illimitée, licence commerciale incluse.',

@@ -95,8 +95,8 @@ Bij een woordkruisel zien kinderen een afbeelding met daaronder de letters van h
 
   // Sample Gallery - REAL file paths from samples/dutch/word-scramble/
   samples: {
-    sectionTitle: 'Gratis Werkbladen Woordkruisel - Werkblad voor Kinderen Voorbeelden',
-    sectionDescription: 'Download gratis voorbeeldwerkbladen om onze professionele kwaliteit te ervaren',
+    sectionTitle: 'Gratis Werkblad voor Kinderen - Gratis Werkbladen en Gratis Printables',
+    sectionDescription: 'Download gratis printables - Gratis werkblad voor kinderen van professionele kwaliteit. Gratis werkbladen en werkblad voor kinderen perfect voor werkblad voor kleuters. Gratis werkblad voor kinderen en werkblad voor kinderen inclusief educatief materiaal. Gratis werkblad beschikbaar',
     downloadLabel: 'Gratis Voorbeeld Downloaden',
     worksheetLabel: 'Werkblad',
     answerKeyLabel: 'Antwoordblad',
@@ -142,7 +142,7 @@ Bij een woordkruisel zien kinderen een afbeelding met daaronder de letters van h
 
   // Features Grid - FULL text from word-scramble.md feature sections
   features: {
-    sectionTitle: 'Functies - Gratis Werkblad voor Kinderen en Werkblad voor Kleuters Woordkruisel',
+    sectionTitle: 'Gratis Werkbladen en Werkblad voor Kinderen - Gratis Printables en Werkblad voor Kleuters',
     sectionDescription: 'Deze woordkruisel maker biedt alle functies die je nodig hebt. Van simpele puzzels voor kleuters tot uitdagende woordkruisels voor groep 5. Ontdek hoe je in enkele minuten professionele werkbladen maakt met volledige bewerkingsmogelijkheden.',
     highlightBadgeText: 'Uitgelicht',
     readMoreLabel: 'Lees meer',
@@ -391,7 +391,7 @@ Combineer woordkruisels met kleurplaten tot complete pakketten. Een thema-bundel
 
   // FAQ Section - FULL FAQs from word-scramble.md
   faq: {
-    sectionTitle: 'Veelgestelde Vragen - Gratis Werkblad voor Kinderen en Gratis Werkbladen',
+    sectionTitle: 'FAQ - Gratis Werkblad voor Kinderen en Werkblad voor Kleuters. Werkblad voor Kinderen',
     sectionDescription: 'Heb je vragen over de woordkruisel generator? Hieronder vind je antwoorden op de meest gestelde vragen. Van prijzen tot functies en alles daartussenin.',
     showMoreText: 'Meer vragen tonen',
     showLessText: 'Minder tonen',
@@ -496,7 +496,7 @@ Combineer woordkruisels met kleurplaten tot complete pakketten. Een thema-bundel
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Combineer Generators - Gratis Werkblad voor Kinderen en Gratis Printables Pakketten',
+    sectionTitle: 'Gratis Werkbladen Combineren - Werkblad voor Kinderen en Gratis Printables',
     sectionDescription: 'Je Basispakket abonnement bevat tien populaire werkbladgenerators die perfect samenwerken. Combineer woordkruisels met andere tools voor complete lespakketten. Ontdek hoe je thematische bundels maakt voor elke lesweek.',
     ctaTitle: 'Klaar om geweldige werkbladen te maken?',
     ctaDescription: 'Sluit je aan bij duizenden leerkrachten die professionele werkbladen maken. Onbeperkt genereren, commerciele licentie inbegrepen.',

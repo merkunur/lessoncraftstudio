@@ -53,8 +53,8 @@ Generaattori toimii 11 kielellä mukaan lukien suomi. Kaikki käyttöliittymän 
 
   // Sample Gallery - REAL file paths from samples/english/writing/
   samples: {
-    sectionTitle: 'Kirjaimet Harjoittelu Esikoulu Esimerkit',
-    sectionDescription: 'Lataa ilmaiset esimerkkitehtävät nähdäksesi ammattimaisen laatumme',
+    sectionTitle: 'Ilmainen Työarkki Lapsille - Ilmaiset Työarkit ja Ilmaiset Tulosteet',
+    sectionDescription: 'Lataa ilmaiset tulosteet - Ilmainen työarkki lapsille ammattimaista laatua. Ilmaiset työarkit ja työarkki lapsille täydellinen työarkki esiopetukseen. Ilmainen työarkki lapsille ja työarkki lapsille sisältää ilmaiset tulosteet ja ilmaiset työarkit opetusmateriaalin. Ilmainen työarkki ja työarkki esiopetukseen saatavilla',
     downloadLabel: 'Lataa Ilmainen Esimerkki',
     worksheetLabel: 'Tehtävä',
     answerKeyLabel: 'Vastausavain',
@@ -91,7 +91,7 @@ Generaattori toimii 11 kielellä mukaan lukien suomi. Kaikki käyttöliittymän 
 
   // Features Grid - FULL text from Finnish writing.md feature sections
   features: {
-    sectionTitle: 'Käsinkirjoitusgeneraattorin Ominaisuudet - Kaikki Mitä Tarvitset Kirjaimet Harjoittelu Esikoulu Tehtäviin',
+    sectionTitle: 'Ilmaiset Työarkit ja Työarkki Lapsille - Ilmaiset Tulosteet ja Työarkki Esiopetukseen',
     sectionDescription: 'Käsinkirjoituksen harjoittelutyökalu tarjoaa kaiken tarvittavan ammattitasoisten tehtävien luomiseen. Valitse viidestä eri kirjasintyylistä. Luo jäljennös-, haalistuva jäljennös- tai ohjattu kopiointirivejä. Jokainen ominaisuus on suunniteltu nopeuttamaan tehtävien luomista ja säästämään opettajien aikaa.',
     highlightBadgeText: 'Tärkeä Ominaisuus',
     readMoreLabel: 'Lue lisää',
@@ -210,7 +210,7 @@ Print Tracing Arrow yhdistää pisteet ja nuolet. Paras vaihtoehto aloittelijoil
 
   // How-To Guide - FULL text from Finnish writing.md step sections
   howTo: {
-    sectionTitle: 'Kuinka Luoda Kirjaimet Harjoittelu Esikoulu Tehtäviä Viidessä Helpossa Vaiheessa',
+    sectionTitle: 'Ilmainen Työarkki Lapsille Luoda - Työarkki Esiopetukseen',
     sectionDescription: 'Luo ammattitasoisia käsinkirjoitustehtäviä alle kolmessa minuutissa. Ei teknisiä taitoja tarvita. Ei monimutkaisia muotoiluohjelmia. Viisi yksinkertaista vaihetta alusta valmiiseen tehtävään. Jokainen vaihe on selkeä ja helppo seurata.',
     ctaText: 'Aloita Luominen Nyt',
     badgeText: 'Näin Se Toimii',
@@ -292,7 +292,7 @@ Tallenna tiedosto tietokoneellesi myöhempää käyttöä varten. Luo tehtäväp
 
   // Use Cases - FULL text from Finnish writing.md use case sections
   useCases: {
-    sectionTitle: 'Täydellinen Opettajille ja Vanhemmille - Kirjaimet Harjoittelu Esikoulu ja Hienomotoriikka Harjoitukset Kaikille',
+    sectionTitle: 'Ilmainen Työarkki Lapsille - Työarkki Esiopetukseen ja Ilmaiset Tulosteet. Työarkki Lapsille',
     sectionDescription: 'Käsinkirjoitusgeneraattori palvelee laajaa käyttäjäkuntaa. Esiopetuksen opettajat luovat kirjainten tunnistusharjoituksia. Alakoulun opettajat rakentavat kirjoitustaidon ohjelmia. Kotiopettajat personoivat opetusmateriaalit. Jokainen käyttäjäryhmä hyötyy eri tavalla työkalusta.',
     badgeText: 'Kenelle Sopii',
     readMoreLabel: 'Lue lisää',
@@ -387,7 +387,7 @@ Amazon KDP -käsinkirjoituskirjat ovat passiivista tuloa. Luo 100-sivuinen käsi
 
   // FAQ Section - Selected FAQs from Finnish writing.md
   faq: {
-    sectionTitle: 'Usein Kysytyt Kysymykset Kirjaimet Harjoittelu Esikoulu Tehtävistä',
+    sectionTitle: 'FAQ - Ilmainen Työarkki Lapsille ja Työarkki Esiopetukseen. Työarkki Lapsille',
     sectionDescription: 'Yleisimmät kysymykset käsinkirjoitusgeneraattorista ja tulostettavista tehtävistä.',
     showMoreText: 'Näytä lisää kysymyksiä',
     showLessText: 'Näytä vähemmän',
@@ -515,7 +515,7 @@ Amazon KDP -käsinkirjoituskirjat ovat passiivista tuloa. Luo 100-sivuinen käsi
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Yhdistä Muihin Tehtävägeneraattoreihin',
+    sectionTitle: 'Ilmaiset Työarkit Yhdistää - Työarkki Lapsille ja Ilmaiset Tulosteet',
     sectionDescription: 'Luo kattavia oppimispaketteja yhdistämällä käsinkirjoitustehtävät näihin täydentäviin generaattoreihin.',
     ctaTitle: 'Valmiina Luomaan Ammattimaisia Käsinkirjoitustehtäviä?',
     ctaDescription: 'Liity tuhansien opettajien joukkoon, jotka luovat ammattitasoisia käsinkirjoitustehtäviä. Rajoittamaton generointi, kaupallinen lisenssi sisältyy.',

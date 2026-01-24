@@ -95,8 +95,8 @@ Das Lehren von Größenkonzepten war noch nie einfacher mit unseren anpassbaren 
 
   // Sample Gallery - REAL file paths from samples/english/big small/
   samples: {
-    sectionTitle: 'Groß-Klein-Arbeitsblätter Beispiele',
-    sectionDescription: 'Laden Sie kostenlose Beispiel-Arbeitsblätter herunter, um unsere professionelle Qualität zu sehen',
+    sectionTitle: 'Kostenloses Arbeitsblatt für Kinder - Kostenlose Arbeitsblätter und Kostenlose Druckvorlagen',
+    sectionDescription: 'Laden Sie kostenlose Druckvorlagen herunter - Kostenloses Arbeitsblatt für Kinder in professioneller Qualität für Arbeitsblatt für Vorschule',
     downloadLabel: 'Kostenloses Beispiel Herunterladen',
     worksheetLabel: 'Arbeitsblatt',
     answerKeyLabel: 'Lösungsblatt',
@@ -147,7 +147,7 @@ Das Lehren von Größenkonzepten war noch nie einfacher mit unseren anpassbaren 
 
   // Features Grid - FULL text from groß-klein.md feature sections
   features: {
-    sectionTitle: 'Groß-Klein-Funktionen - Alles für Kostenlose Arbeitsblätter Grundschule und Vorschul-Arbeitsblätter',
+    sectionTitle: 'Arbeitsblatt für Kinder - Arbeitsblatt für Vorschule und Kostenlose Arbeitsblätter',
     sectionDescription: 'Unser Größenvergleich-Generator enthält leistungsstarke Funktionen speziell für die Erstellung professioneller Arbeitsblätter Grundschule und Mathe-Arbeitsblätter entwickelt. Lehrer erhalten vollständige Kontrolle über jeden Aspekt ihrer druckbaren Arbeitsblätter. Das Vollzugriff Abonnement bietet unbegrenzte Arbeitsblatt-Erstellung mit allen Funktionen enthalten. Vorschul-Arbeitsblätter und Arbeitsblätter für die 1. Klasse profitieren von denselben professionellen Werkzeugen. Erstellen Sie individuelle Arbeitsblätter schneller als mit traditionellen Methoden bei gleichzeitiger Beibehaltung der Bildungsqualität. Jede Funktion unterstützt frühkindliche Pädagogen beim Unterrichten von Größendiskriminierung und Messungskonzepten perfekt kombiniert mit Schwungübungen und Buchstaben lernen Aktivitäten.',
     highlightBadgeText: 'Hauptfunktion',
     readMoreLabel: 'Mehr lesen',
@@ -254,7 +254,7 @@ Schüler vervollständigen pädagogische Größenvergleiche gefolgt von verwandt
 
   // How-To Guide - FULL text from groß-klein.md step sections
   howTo: {
-    sectionTitle: 'So erstellen Sie kostenlose Arbeitsblätter Grundschule für Größenvergleich in 5 einfachen Schritten',
+    sectionTitle: 'Kostenloses Arbeitsblatt für Kinder erstellen - Arbeitsblatt für Vorschule',
     sectionDescription: 'Die Erstellung professioneller Arbeitsblätter Grundschule dauert weniger als drei Minuten vom Start bis zum Download. Lehrer mit keiner Design-Erfahrung generieren druckfertige Mathe-Arbeitsblätter schnell. Vorschul-Arbeitsblätter folgen demselben einfachen Fünf-Schritt-Workflow. Unsere intuitive Benutzeroberfläche eliminiert technische Barrieren zur Erstellung qualitativ hochwertiger druckbarer Arbeitsblätter. Folgen Sie diesen Schritten um individualisierte kostenlose Arbeitsblätter für Ihre Schüler zu erstellen. Druckbare Arbeitsblätter werden sofort nach Abschluss des letzten Schritts heruntergeladen. Der gesamte Prozess vom Öffnen des Generators bis zum Herunterladen fertiger Arbeitsblätter dauert unter 180 Sekunden. Mathe-Arbeitsblätter für Rechnen lernen und andere Arbeitsblätter Grundschule verwenden identische Erstellungsschritte für Konsistenz kombiniert mit Schwungübungen, Buchstaben lernen, Ausmalbilder und Einmaleins Übungen.',
     ctaText: 'Jetzt Erstellen',
     badgeText: 'So funktioniert es',
@@ -316,7 +316,7 @@ Vorschul-Arbeitsblätter behalten Bildqualität ob einmal gedruckt oder für gan
 
   // Use Cases - FULL descriptions from groß-klein.md persona sections
   useCases: {
-    sectionTitle: 'Perfekt für Lehrkräfte und Eltern - Kostenlose Arbeitsblätter Grundschule für Schwungübungen, Buchstaben lernen und Rechnen lernen',
+    sectionTitle: 'Kostenloses Arbeitsblatt für Kinder - Arbeitsblatt für Vorschule mit Kostenlose Druckvorlagen',
     sectionDescription: 'Visuelle Größenvergleichsarbeitsblätter dienen vielen Bildungseinrichtungen und Unterrichtsansätzen effektiv. Lehrer über mehrere Klassenstufen verwenden diese druckbaren Arbeitsblätter für Mathe-Unterricht. Eltern die Kinder zu Hause unterrichten profitieren von professioneller Qualität Arbeitsblätter Grundschule zu Abonnementpreisen. Vorschul-Arbeitsblätter passen sich an verschiedene Lernumgebungen von traditionellen Klassenzimmern bis Hausunterricht an. DaZ-Lehrer erstellen kulturell relevante kostenlose Arbeitsblätter mit benutzerdefinierten hochgeladenen Bildern. Sonderpädagogen differenzieren Unterricht mit anpassbaren druckbaren Arbeitsblättern kombiniert mit Schwungübungen. Lehrerunternehmer bauen Geschäfte auf die Mathe-Arbeitsblätter auf Bildungsmärkten verkaufen. Diese Arbeitsblatt-Kombinationen maximieren Unterrichtswert während Schülerengagement durch Vielfalt verbessert wird integriert mit Buchstaben lernen, Ausmalbilder, Rechnen lernen, Einmaleins und Deutsch-Arbeitsblättern.',
     badgeText: 'Anwendungsbereiche',
     readMoreLabel: 'Mehr lesen',
@@ -387,7 +387,7 @@ Vorschul-Arbeitsblätter verpackt als saisonale Bundles generieren wiederkehrend
 
   // FAQ Section - FULL FAQs from groß-klein.md
   faq: {
-    sectionTitle: 'Häufig gestellte Fragen - Kostenlose Arbeitsblätter, Einmaleins und Deutsch-Arbeitsblätter',
+    sectionTitle: 'FAQ - Kostenloses Arbeitsblatt für Kinder und Arbeitsblatt für Vorschule',
     sectionDescription: 'Lehrer haben häufig Fragen über die Erstellung von Arbeitsblättern Grundschule und die Verwendung unseres Größenvergleich-Generators kombiniert mit anderen Apps. Diese FAQ-Sektion beantwortet die häufigsten Fragen über Mathe-Arbeitsblätter Generierung, Vorschul-Arbeitsblätter Anpassung und kostenlose Arbeitsblätter Funktionalität. Verstehen Sie wie unser System mit Einmaleins, Schwungübungen, Buchstaben lernen, Ausmalbilder, Rechnen lernen und Deutsch-Arbeitsblättern funktioniert. Finden Sie Antworten über Abonnementdetails, technische Anforderungen und Best Practices für druckbare Arbeitsblätter. Diese Informationen helfen Ihnen das Beste aus Ihrer Vollzugriff Mitgliedschaft herauszuholen ergänzt durch komplette Plattformnutzung.',
     showMoreText: 'Mehr Fragen anzeigen',
     showLessText: 'Weniger anzeigen',
@@ -516,7 +516,7 @@ Vorschul-Arbeitsblätter verpackt als saisonale Bundles generieren wiederkehrend
 
   // Related Apps - FULL text from groß-klein.md combine apps section
   relatedApps: {
-    sectionTitle: 'Kombinieren Sie Apps für umfassende Lehrplan-Bundles - Buchstaben lernen, Einmaleins und Deutsch-Arbeitsblätter',
+    sectionTitle: 'Kostenlose Arbeitsblätter kombinieren - Arbeitsblatt für Kinder und Kostenlose Druckvorlagen',
     sectionDescription: 'Ihr Vollzugriff Abonnement ermöglicht Ihnen mehrere Arbeitsblatt-Generatoren zu kombinieren für umfassende Lernpakete die mehrere Fähigkeiten ansprechen. Größenvergleich Arbeitsblätter Grundschule paaren sich natürlich mit Einmaleins Übungen, Deutsch-Arbeitsblättern, Mathe-Arbeitsblättern und Vorschul-Arbeitsblättern. Erstellen Sie thematische Einheiten die Größendiskriminierung mit Schwungübungen, Buchstaben lernen, Ausmalbilder und Rechnen lernen kombinieren. Lehrer maximieren Unterrichtswert durch Verwenden identischer Bildsets über mehrere Generatoren für visuelle Konsistenz in kostenlose Arbeitsblätter Bundles. Diese Kombinationsstrategien sparen Planungszeit während sie reichhaltigere Lernerfahrungen für Schüler bieten kombiniert mit druckbaren Arbeitsblättern über alle Fähigkeitsbereiche hinweg.',
     ctaTitle: 'Bereit, fantastische Arbeitsblätter zu erstellen?',
     ctaDescription: 'Schließen Sie sich tausenden Lehrkräften an, die professionelle Arbeitsblätter erstellen. Unbegrenzte Generierung, kommerzielle Lizenz inklusive.',

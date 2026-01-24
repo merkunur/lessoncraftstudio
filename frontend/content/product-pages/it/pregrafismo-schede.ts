@@ -83,8 +83,8 @@ Ogni scheda gratuita si scarica in formato PDF o JPEG di alta qualità. Perfetto
 
   // Sample Gallery
   samples: {
-    sectionTitle: 'Schede Gratuite di Pregrafismo - Stampabili Gratuiti per Scuola dell\'Infanzia',
-    sectionDescription: 'Scarica esempi gratuiti per vedere la nostra qualità professionale',
+    sectionTitle: "Scheda Gratuita per Bambini - Schede Gratuite e Stampabili Gratuiti e Scheda per Bambini",
+    sectionDescription: "Scarica stampabili gratuiti - Scheda gratuita per bambini di qualità professionale. Schede gratuite e scheda per bambini perfette per scheda per scuola dell'infanzia. Scheda gratuita per bambini e scheda per bambini includono materiale educativo. Scheda gratuita e scheda per scuola dell'infanzia disponibile",
     downloadLabel: 'Scarica Esempio Gratuito',
     worksheetLabel: 'Scheda',
     answerKeyLabel: 'Soluzioni',
@@ -135,7 +135,7 @@ Ogni scheda gratuita si scarica in formato PDF o JPEG di alta qualità. Perfetto
 
   // Features Grid
   features: {
-    sectionTitle: 'Funzionalità - Schede Gratuite per Bambini con Stampabili Gratuiti',
+    sectionTitle: "Schede Gratuite e Scheda per Bambini - Stampabili Gratuiti e Scheda per Scuola dell'Infanzia",
     sectionDescription: 'Il nostro generatore di schede gratuite offre funzionalità complete per maestre della scuola dell\'infanzia e scuola primaria. Ogni strumento è progettato per creare schede per bambini professionali in pochi minuti. Le funzioni includono modelli di pregrafismo, personalizzazione completa, libreria immagini e supporto multilingue.',
     highlightBadgeText: 'Funzionalità Chiave',
     readMoreLabel: 'Leggi di più',
@@ -229,7 +229,7 @@ L'opzione scala di grigi converte le schede didattiche in bianco e nero. Risparm
 
   // How-To Guide Section
   howTo: {
-    sectionTitle: 'Come Creare Schede Gratuite di Pregrafismo - Scheda per Bambini in 5 Passaggi',
+    sectionTitle: "Scheda Gratuita per Bambini Creare - Scheda per Scuola dell'Infanzia",
     sectionDescription: 'Generare schede gratuite professionali richiede meno di 3 minuti dall\'inizio al download. Il processo è semplice e intuitivo per tutte le maestre. Non servono competenze tecniche o esperienza di grafica. Segui questi cinque passaggi per creare schede per bambini perfette per la tua classe.',
     ctaText: 'Inizia Ora',
     badgeText: 'Guida Passo-Passo',
@@ -301,7 +301,7 @@ Attiva l'opzione scala di grigi prima di scaricare. Converte tutta la scheda in 
 
   // Use Cases Section
   useCases: {
-    sectionTitle: 'Perfetto per Maestre e Genitori - Scheda Gratuita per Bambini di Pregrafismo',
+    sectionTitle: "Perfetto per Maestre e Genitori - Scheda Gratuita per Bambini di Pregrafismo",
     sectionDescription: 'Il generatore di schede gratuite serve diversi tipi di educatori. Maestre della scuola dell\'infanzia trovano materiali per pregrafismo. Insegnanti della scuola primaria creano schede per bambini per classe prima, seconda e terza. Genitori homeschool generano stampabili gratuiti personalizzati.',
     badgeText: 'Chi Usa le Nostre Schede',
     readMoreLabel: 'Leggi di più',
@@ -384,7 +384,7 @@ Le insegnanti guadagnano 500-5000 euro mensili. Crea 10-15 prodotti iniziali. Ve
 
   // FAQ Section
   faq: {
-    sectionTitle: 'Domande Frequenti - Schede Gratuite di Pregrafismo per Scuola dell\'Infanzia',
+    sectionTitle: "FAQ - Scheda Gratuita per Bambini e Scheda per Scuola dell'Infanzia. Scheda per Bambini"Infanzia',
     sectionDescription: 'Risposte alle domande più comuni sul nostro generatore di schede gratuite pregrafismo per bambini',
     showMoreText: 'Mostra altre domande',
     showLessText: 'Mostra meno domande',
@@ -513,7 +513,7 @@ Condividi stampabili gratuiti con colleghe della tua scuola. Stampa set multipli
 
   // Related Apps Section
   relatedApps: {
-    sectionTitle: 'Combina Schede Gratuite di Pregrafismo - Altri Stampabili Gratuiti',
+    sectionTitle: "Schede Gratuite Combinare - Scheda per Bambini e Stampabili Gratuiti",
     sectionDescription: 'L\'abbonamento Pacchetto Essenziale include 10 generatori. Combina il generatore di schede gratuite con altri strumenti. Crea pacchetti completi di schede per bambini. Perfetto per unità tematiche. Ottimo per centri di apprendimento.',
     ctaTitle: 'Pronto a Creare Schede Straordinarie?',
     ctaDescription: 'Unisciti a migliaia di educatori che creano schede professionali. Generazione illimitata, licenza commerciale inclusa.',

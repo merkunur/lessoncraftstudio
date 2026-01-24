@@ -88,8 +88,8 @@ Générez votre premier mot croisé en images en 3 clics. Choisissez un thème o
 
   // Sample Gallery - REAL file paths from samples/french/crossword/
   samples: {
-    sectionTitle: 'Exemples de Mots Croisés en Images',
-    sectionDescription: 'Téléchargez des exemples gratuits pour voir notre qualité professionnelle',
+    sectionTitle: 'Fiche Gratuite pour Enfants - Fiches Gratuites et Imprimables Gratuits',
+    sectionDescription: 'Téléchargez imprimables gratuits - Fiche gratuite pour enfants de qualité professionnelle. Fiches gratuites et fiche pour enfants parfaites pour fiche pour maternelle. Fiche gratuite pour enfants et fiches gratuites inclus matériel éducatif. Fiche gratuite et fiches gratuites disponible',
     downloadLabel: 'Télécharger Exemple Gratuit',
     worksheetLabel: 'Fiche',
     answerKeyLabel: 'Corrigé',
@@ -140,7 +140,7 @@ Générez votre premier mot croisé en images en 3 clics. Choisissez un thème o
 
   // Features Grid - FULL text from crossword.md feature sections
   features: {
-    sectionTitle: 'Fonctionnalités des Mots Croisés en Images - Tout ce dont vous avez besoin pour créer des Fiches Maternelle et Exercices CP',
+    sectionTitle: 'Fiches Gratuites et Fiche pour Enfants - Imprimables Gratuits et Fiche pour Maternelle',
     sectionDescription: 'Notre générateur de mots croisés en images offre toutes les fonctionnalités dont les enseignants ont besoin pour créer des fiches à imprimer gratuit professionnelles. Créez des exercices CP et exercices CE1 personnalisés en quelques minutes. Chaque fonctionnalité est conçue pour vous faire gagner du temps tout en produisant des fiches maternelle de qualité supérieure. Voici tout ce que vous pouvez faire avec notre générateur.',
     highlightBadgeText: 'Fonctionnalité Clé',
     readMoreLabel: 'Lire la suite',
@@ -206,7 +206,7 @@ Générez votre premier mot croisé en images en 3 clics. Choisissez un thème o
 
   // How-To Guide - FULL text from crossword.md step sections
   howTo: {
-    sectionTitle: 'Comment Créer des Fiches Maternelle et Exercices CP en 5 Étapes Faciles - Générateur de Mots Croisés',
+    sectionTitle: 'Fiche Gratuite pour Enfants Créer - Fiche pour Maternelle',
     sectionDescription: 'Créer des mots croisés en images professionnels prend moins de 3 minutes du début à la fin. Ces 5 étapes simples vous guident du choix des images au téléchargement de vos fiches à imprimer gratuit. Aucune compétence technique requise. Même les enseignants qui découvrent les outils numériques peuvent créer des exercices CP et exercices CE1 parfaits dès leur première utilisation. Suivez ces étapes pour générer vos premières fiches maternelle.',
     ctaText: 'Commencer Maintenant',
     badgeText: 'Guide Étape par Étape',
@@ -278,7 +278,7 @@ Cochez la case Niveaux de Gris avant de télécharger pour économiser l'encre. 
 
   // Use Cases - FULL text from crossword.md use case sections
   useCases: {
-    sectionTitle: 'Parfait pour les Enseignants, Parents et Éducateurs - Fiches Maternelle et Exercices CP pour Tous les Besoins',
+    sectionTitle: 'Fiche Gratuite pour Enfants - Fiche pour Maternelle avec Imprimables Gratuits. Fiche pour Enfants',
     sectionDescription: 'Notre générateur de mots croisés en images sert différents types d\'utilisateurs dans le domaine éducatif. Enseignants de maternelle, professeurs de CP et CE1, parents en instruction à domicile et enseignants de langues étrangères. Chacun trouve des applications spécifiques pour créer des fiches à imprimer gratuit adaptées à ses besoins. Voici comment différents éducateurs utilisent nos mots croisés pour apprendre à lire, développer le graphisme maternelle et renforcer l\'alphabet.',
     badgeText: 'Cas d\'Utilisation',
     readMoreLabel: 'Lire la suite',
@@ -361,7 +361,7 @@ Etsy attire les parents qui cherchent des activités pour leurs enfants. Créez 
 
   // FAQ Section - Selected FAQs from crossword.md
   faq: {
-    sectionTitle: 'Questions Fréquemment Posées sur les Mots Croisés en Images - Fiches Maternelle et Exercices CP',
+    sectionTitle: 'FAQ - Fiche Gratuite pour Enfants et Fiche pour Maternelle. Fiche pour Enfants',
     sectionDescription: 'Les enseignants et parents ont des questions courantes sur notre générateur de mots croisés. Voici les réponses détaillées aux questions les plus fréquentes. Ces réponses couvrent l\'abonnement, l\'utilisation en classe, la personnalisation et les fonctionnalités techniques pour apprendre à lire et apprendre les lettres.',
     showMoreText: 'Voir plus de questions',
     showLessText: 'Voir moins',
@@ -555,7 +555,7 @@ Créez des packs thématiques hebdomadaires combinant 5 types d'activités diff�
 
   // Related Apps - From crossword.md Section 7
   relatedApps: {
-    sectionTitle: 'Combinez les Mots Croisés avec d\'Autres Générateurs - Coloriage à Imprimer et Exercices Maths',
+    sectionTitle: 'Fiches Gratuites Combiner - Fiche pour Enfants et Imprimables Gratuits',
     sectionDescription: 'Notre plateforme offre 33 générateurs différents de fiches pédagogiques. Les enseignants créent des packs d\'apprentissage complets en combinant plusieurs types d\'activités. Mots croisés pour le vocabulaire, exercices maths pour les nombres, coloriage à imprimer pour la motricité fine et fiches d\'alphabet pour apprendre les lettres. Ces combinaisons créent des expériences d\'apprentissage riches qui engagent les élèves sur plusieurs niveaux.',
     ctaTitle: 'Prêt à Créer des Fiches Professionnelles ?',
     ctaDescription: 'Rejoignez des milliers d\'enseignants qui créent des fiches maternelle de qualité. Création illimitée, licence commerciale incluse.',

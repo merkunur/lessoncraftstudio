@@ -83,8 +83,8 @@ Perfekt for norske lærere som trenger bokstavarbeidsark raskt. Velg 11 bokstave
 
   // Sample Gallery - REAL file paths from samples/english/alphabet train/
   samples: {
-    sectionTitle: 'Alfabet-tog Arbeidsark Eksempler - Gratis Arbeidsark for Barn',
-    sectionDescription: 'Last ned gratis eksempler på arbeidsark for å se vår profesjonelle kvalitet',
+    sectionTitle: 'Gratis Arbeidsark for Barn - Gratis Arbeidsark og Gratis Utskrifter',
+    sectionDescription: 'Last ned gratis utskrifter - Gratis arbeidsark for barn av profesjonell kvalitet. Gratis arbeidsark og arbeidsark for barn perfekt for arbeidsark for 1. trinn. Gratis arbeidsark for barn og arbeidsark for barn inkluderer gratis utskrifter undervisningsmateriell. Gratis arbeidsark og arbeidsark for 1. trinn tilgjengelig',
     badgeText: 'Gratis Eksempler',
     downloadLabel: 'Last ned Gratis Eksempel',
     downloadingLabel: 'Laster ned...',
@@ -135,7 +135,7 @@ Perfekt for norske lærere som trenger bokstavarbeidsark raskt. Velg 11 bokstave
 
   // Features Grid - FULL text from alphabet-train.md feature sections
   features: {
-    sectionTitle: 'Alfabet-tog Funksjoner - Alt du Trenger for Bokstaver Lære Skrive og Arbeidsark Gratis',
+    sectionTitle: 'Gratis Arbeidsark og Arbeidsark for Barn - Gratis Utskrifter og Arbeidsark for 1. Trinn',
     sectionDescription: 'Alfabet-tog generatoren gir deg alle verktøy du trenger for å lage profesjonelle bokstavarbeidsark. Med Kjernepakke får du tilgang til 7 kraftige funksjoner som gjør bokstavinnlæring enkel og morsom. Disse funksjonene gjør det enkelt å lage arbeidsark gratis uten designerferdigheter.',
     highlightBadgeText: 'Viktig Funksjon',
     readMoreLabel: 'Les mer',
@@ -229,7 +229,7 @@ Gråskala-alternativ sparer blekkostnader ved utskrift. Konverterer automatisk a
 
   // How-To Guide - FULL text from alphabet-train.md step sections
   howTo: {
-    sectionTitle: 'Hvordan Lage Bokstaver Lære Skrive Arbeidsark i 5 Enkle Trinn - Arbeidsark Gratis på 3 Minutter',
+    sectionTitle: 'Gratis Arbeidsark for Barn Lage - Arbeidsark for 1. Trinn',
     sectionDescription: 'Lag profesjonelle alfabet-tog arbeidsark på under 3 minutter. Ingen designerferdigheter nødvendig. Systemet guider deg gjennom fem enkle trinn. Følg disse stegene for perfekte bokstavarbeidsark hver gang. Arbeidsark gratis-funksjonen gjør prosessen rask og enkel.',
     ctaText: 'Start Nå',
     badgeText: 'Slik Fungerer Det',
@@ -301,7 +301,7 @@ Aktiver gråskala-alternativ før nedlasting for å spare blekkostnader. Skriv u
 
   // Use Cases - FULL text from alphabet-train.md use case sections
   useCases: {
-    sectionTitle: 'Perfekt for Lærere og Foreldre - Bokstaver Lære Skrive Arbeidsark Gratis for Alle Behov',
+    sectionTitle: 'Gratis Arbeidsark for Barn - Arbeidsark for 1. Trinn med Gratis Utskrifter. Arbeidsark for Barn',
     sectionDescription: 'Alfabet-tog arbeidsark fungerer for mange ulike brukergrupper. Barnehagepedagoger bruker dem for tidlig bokstavinnlæring. Lærere på småskoletrinnet kombinerer dem med matematikk oppgaver. Hjemmeskolefamilier setter sammen komplette oppgavehefter barn. Hver brukergruppe finner unik verdi i verktøyet.',
     badgeText: 'Hvem Er Det For',
     readMoreLabel: 'Les mer',

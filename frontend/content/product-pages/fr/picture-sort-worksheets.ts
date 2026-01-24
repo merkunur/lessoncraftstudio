@@ -81,8 +81,8 @@ Notre générateur s'adresse aux enseignants de maternelle GS, CP et CE1. Les fi
 
   // Sample Gallery - REAL file paths from samples/english/picture sort/
   samples: {
-    sectionTitle: 'Exemples de Fiches de Tri d\'Images',
-    sectionDescription: 'Téléchargez des exemples gratuits pour voir notre qualité professionnelle',
+    sectionTitle: 'Fiche Gratuite pour Enfants - Fiches Gratuites et Imprimables Gratuits',
+    sectionDescription: 'Téléchargez imprimables gratuits - Fiche gratuite pour enfants de qualité professionnelle. Fiches gratuites et fiche pour enfants parfaites pour fiche pour maternelle. Fiche gratuite pour enfants et fiches gratuites inclus matériel éducatif. Fiche gratuite et fiches gratuites disponible',
     downloadLabel: 'Télécharger Exemple Gratuit',
     worksheetLabel: 'Fiche',
     answerKeyLabel: 'Corrigé',
@@ -126,7 +126,7 @@ Notre générateur s'adresse aux enseignants de maternelle GS, CP et CE1. Les fi
 
   // Features Grid - FULL text from picture-sort.md feature sections
   features: {
-    sectionTitle: 'Fonctionnalités du Générateur de Fiches Maternelle - Tout pour Créer des Exercices CP Personnalisés',
+    sectionTitle: 'Fiches Gratuites et Fiche pour Enfants - Imprimables Gratuits et Fiche pour Maternelle',
     sectionDescription: 'Notre générateur de fiches de tri d\'images offre sept fonctionnalités essentielles pour les enseignants de maternelle et d\'école élémentaire. Chaque fonction facilite la création de fiches à imprimer gratuit adaptées à vos élèves. L\'interface en français permet de concevoir des exercices CP et CE1 en quelques clics. Votre abonnement Accès Complet inclut l\'accès illimité à toutes ces fonctionnalités professionnelles.',
     highlightBadgeText: 'Fonctionnalité Clé',
     readMoreLabel: 'Lire la suite',
@@ -231,7 +231,7 @@ La compatibilité d'impression est totale. Format A4 pour l'Europe. Format Lettr
 
   // How-To Guide - FULL text from picture-sort.md step sections
   howTo: {
-    sectionTitle: 'Comment Créer des Fiches Maternelle et Exercices CP en 5 Étapes Simples',
+    sectionTitle: 'Fiche Gratuite pour Enfants Créer - Fiche pour Maternelle',
     sectionDescription: 'Créez des fiches de tri d\'images professionnelles en moins de 3 minutes avec notre générateur. Les cinq étapes ci-dessous vous guident du choix des images jusqu\'au téléchargement final. Aucune compétence technique n\'est requise pour concevoir des fiches à imprimer gratuit de qualité. Suivez ce processus simple pour produire des exercices CP adaptés à vos élèves de maternelle et d\'école élémentaire.',
     ctaText: 'Commencer Maintenant',
     badgeText: 'Comment Ça Marche',
@@ -313,7 +313,7 @@ Ouvrez le fichier PDF téléchargé et imprimez selon vos besoins. Imprimez un e
 
   // Use Cases - FULL text from picture-sort.md use case sections
   useCases: {
-    sectionTitle: 'Idéal pour Enseignants et Parents - Fiches Maternelle et Exercices CE1 pour Tous les Besoins',
+    sectionTitle: 'Fiche Gratuite pour Enfants - Fiche pour Maternelle avec Imprimables Gratuits. Fiche pour Enfants',
     sectionDescription: 'Notre générateur de fiches de tri d\'images répond aux besoins variés des professionnels de l\'éducation. Six profils d\'utilisateurs bénéficient particulièrement de cet outil polyvalent. Chaque groupe trouve des applications spécifiques adaptées à son contexte pédagogique. Les fiches à imprimer gratuit conviennent à l\'enseignement en classe comme à l\'instruction à domicile.',
     badgeText: 'Pour Qui',
     readMoreLabel: 'Lire la suite',
@@ -408,7 +408,7 @@ De nombreux enseignants gagnent 500€ à 5000€ par mois en vendant des ressou
 
   // FAQ Section - Selected FAQs from picture-sort.md
   faq: {
-    sectionTitle: 'Questions Fréquentes sur les Fiches Maternelle, Exercices CE1 et Coloriage à Imprimer',
+    sectionTitle: 'FAQ - Fiche Gratuite pour Enfants et Fiche pour Maternelle. Fiche pour Enfants',
     sectionDescription: 'Les enseignants posent régulièrement des questions sur notre générateur de fiches de tri d\'images. Cette section répond aux interrogations les plus courantes concernant les exercices maths, le graphisme maternelle et les activités d\'alphabet. Découvrez comment maximiser votre abonnement Accès Complet pour créer des fiches à imprimer gratuit en illimité.',
     showMoreText: 'Voir plus de questions',
     showLessText: 'Voir moins',
@@ -561,7 +561,7 @@ Ajoutez des consignes d'écriture cursive en utilisant l'outil Texte avec police
 
   // Related Apps - From picture-sort.md Section 7
   relatedApps: {
-    sectionTitle: 'Combinez avec D\'Autres Générateurs - Créez des Paquets de Fiches à Imprimer Gratuit Complets',
+    sectionTitle: 'Fiches Gratuites Combiner - Fiche pour Enfants et Imprimables Gratuits',
     sectionDescription: 'Votre abonnement Accès Complet inclut 33 générateurs d\'activités pédagogiques différents. Combinez le générateur de fiches de tri avec d\'autres outils pour créer des paquets thématiques complets. Cette approche intégrée renforce l\'apprentissage en abordant les concepts sous plusieurs angles. Les élèves bénéficient d\'activités variées ciblant les mêmes objectifs pédagogiques avec des exercices CE1 diversifiés.',
     ctaTitle: 'Prêt à Créer des Fiches Fantastiques ?',
     ctaDescription: 'Rejoignez des milliers d\'enseignants qui créent des fiches professionnelles. Génération illimitée, licence commerciale incluse.',

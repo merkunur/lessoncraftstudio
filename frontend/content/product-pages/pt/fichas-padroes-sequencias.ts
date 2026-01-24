@@ -94,8 +94,8 @@ O gerador inclui mais de 3000 imagens temáticas organizadas por categorias. Voc
 
   // Sample Gallery - REAL file paths from samples/portuguese/pattern/
   samples: {
-    sectionTitle: 'Exemplos de Atividades Grátis de Padrões e Sequências - Atividade para Crianças',
-    sectionDescription: 'Baixe exemplos de atividades grátis para ver nossa qualidade profissional',
+    sectionTitle: 'Atividade Grátis para Crianças - Atividades Grátis e Imprimíveis Grátis',
+    sectionDescription: 'Baixe imprimíveis grátis - Atividade grátis para crianças de qualidade profissional. Atividades grátis e atividade para crianças perfeitas para atividade para educação infantil. Atividade grátis para crianças e atividade para crianças incluem material educativo. Atividade grátis disponível',
     downloadLabel: 'Baixar Exemplo Grátis',
     worksheetLabel: 'Atividade',
     answerKeyLabel: 'Gabarito',
@@ -146,8 +146,8 @@ O gerador inclui mais de 3000 imagens temáticas organizadas por categorias. Voc
 
   // Features Grid - FULL text from pattern-worksheet.md feature sections
   features: {
-    sectionTitle: 'Recursos do Gerador de Atividades Grátis - Imprimíveis Grátis para Educação Infantil',
-    sectionDescription: 'Nosso gerador de padrões sequenciais oferece recursos completos para educadores brasileiros. Você cria atividade grátis para crianças profissionais em poucos cliques. Cada recurso foi desenvolvido pensando na praticidade do professor. Economize horas de trabalho toda semana. Produza atividade para educação infantil de qualidade superior sem conhecimento técnico.',
+    sectionTitle: 'Atividades Grátis e Atividade para Crianças - Imprimíveis Grátis e Atividade para Educação Infantil',
+    sectionDescription: 'Atividades grátis disponíveis. Nosso gerador de padrões sequenciais oferece recursos completos para educadores brasileiros. Você cria atividade grátis para crianças profissionais em poucos cliques. Cada recurso foi desenvolvido pensando na praticidade do professor. Economize horas de trabalho toda semana. Produza atividade para educação infantil de qualidade superior sem conhecimento técnico.',
     highlightBadgeText: 'Recurso Principal',
     readMoreLabel: 'Leia mais',
     showLessLabel: 'Mostrar menos',
@@ -235,7 +235,7 @@ Economize tempo precioso na rotina pedagógica com atividade grátis para crian�
 
   // How-To Guide - FULL text from pattern-worksheet.md step sections
   howTo: {
-    sectionTitle: 'Como Criar Atividades Grátis para Crianças em 5 Passos Simples',
+    sectionTitle: 'Atividade Grátis para Crianças Criar - Atividade para Educação Infantil',
     sectionDescription: 'Criar atividade grátis de sequência e padrões nunca foi tão fácil. Todo o processo leva menos de 3 minutos do início ao fim. Você não precisa de experiência prévia com design. Siga estes cinco passos e tenha suas imprimíveis grátis prontas rapidamente. O sistema guia você em cada etapa do processo.',
     ctaText: 'Comece Agora',
     badgeText: 'Como Funciona',
@@ -307,7 +307,7 @@ Clique em "Download" para baixar suas atividades grátis para imprimir. Escolha 
 
   // Use Cases - FULL text from pattern-worksheet.md use case sections
   useCases: {
-    sectionTitle: 'Quem Usa Atividades Grátis de Padrões - Atividade para Educação Infantil',
+    sectionTitle: 'Atividade Grátis para Crianças - Atividade para Educação Infantil com Imprimíveis Grátis. Atividade para Crianças',
     sectionDescription: 'O gerador de atividade grátis de sequência atende diversos perfis de educadores. Professores de escolas públicas e particulares usam diariamente. Pais que educam em casa encontram recursos valiosos em imprimíveis grátis. Profissionais de educação especial adaptam materiais facilmente.',
     badgeText: 'Para Quem',
     readMoreLabel: 'Leia mais',
@@ -378,7 +378,7 @@ Atividade grátis para crianças de letra cursiva e pontilhado podem ser simplif
 
   // FAQ Section - FULL text from pattern-worksheet.md FAQ sections
   faq: {
-    sectionTitle: 'Perguntas Frequentes sobre Atividades Grátis - Imprimíveis Grátis de Padrões',
+    sectionTitle: 'FAQ - Atividade Grátis para Crianças e Atividade para Educação Infantil. Atividade para Crianças',
     sectionDescription: 'Reunimos as dúvidas mais comuns sobre o gerador de atividade grátis de padrões. Professores e pais fazem essas perguntas regularmente antes de assinar. Encontre respostas claras e diretas para cada questão sobre atividade grátis para crianças.',
     showMoreText: 'Mostrar mais perguntas',
     showLessText: 'Mostrar menos',
@@ -507,7 +507,7 @@ Atividade grátis para crianças de letra cursiva e pontilhado podem ser simplif
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Combine com Outros Geradores de Atividades Grátis para Crianças',
+    sectionTitle: 'Atividades Grátis Combinar - Atividade para Crianças e Imprimíveis Grátis',
     sectionDescription: 'Crie pacotes de aprendizagem completos combinando atividade grátis de padrões com estes geradores complementares de imprimíveis grátis.',
     ctaTitle: 'Pronto para Criar Atividades Grátis Incríveis?',
     ctaDescription: 'Junte-se a milhares de educadores que criam atividade grátis para crianças profissionais. Geração ilimitada de imprimíveis grátis, licença comercial incluída.',

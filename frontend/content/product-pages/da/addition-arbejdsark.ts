@@ -83,8 +83,8 @@ Hver matematikopgave kan tilpasses efter elevernes niveau og læringsbehov. Væl
 
   // Sample Gallery - REAL file paths from samples/danish/addition/
   samples: {
-    sectionTitle: 'Eksempler på Gratis Arbejdsark - Addition og Matematikopgaver til Børn',
-    sectionDescription: 'Download gratis arbejdsark til børn for at se vores professionelle kvalitet',
+    sectionTitle: 'Gratis Arbejdsark til Børn - Gratis Arbejdsark og Gratis Printables',
+    sectionDescription: 'Download gratis printables - Gratis arbejdsark til børn af professionel kvalitet. Gratis arbejdsark og arbejdsark til børn perfekt til arbejdsark til børnehaveklasse. Gratis arbejdsark til børn og arbejdsark til børn inkluderer undervisningsmateriale. Gratis arbejdsark tilgængeligt',
     badgeText: 'Gratis Eksempler',
     downloadLabel: 'Download Gratis Eksempel',
     downloadingLabel: 'Downloader...',
@@ -135,7 +135,7 @@ Hver matematikopgave kan tilpasses efter elevernes niveau og læringsbehov. Væl
 
   // Features Grid - FULL text from addition.md feature sections
   features: {
-    sectionTitle: 'Funktioner - Lav Gratis Arbejdsark til Børn med Matematikopgaver',
+    sectionTitle: 'Gratis Arbejdsark og Arbejdsark til Børn - Gratis Printables og Arbejdsark til Børnehaveklasse',
     sectionDescription: 'Vores billedbaserede plusstykke-generator giver dig alle værktøjer til at skabe professionelle gratis arbejdsark til børnehaveklasse. Systemet er designet til danske lærere og pædagoger der arbejder med arbejdsark til børn i 0. klasse opgaver og 1. klasse. Hver funktion hjælper dig med at lave engagerende gratis printables og kopiark der støtter børns matematiske udvikling.',
     highlightBadgeText: 'Vigtig Funktion',
     readMoreLabel: 'Læs mere',
@@ -229,7 +229,7 @@ Gråtone-funktionen er uvurderlig når du printer store mængder arbejdsark og k
 
   // How-To Guide - FULL text from addition.md step sections
   howTo: {
-    sectionTitle: 'Sådan Laver Du Gratis Arbejdsark til Børnehaveklasse i 5 Trin',
+    sectionTitle: 'Gratis Arbejdsark til Børn Oprette - Arbejdsark til Børnehaveklasse',
     sectionDescription: 'Skab professionelle gratis arbejdsark til børn på under 3 minutter. Hele processen er designet til at være hurtig og intuitiv selv for lærere uden tekniske færdigheder. Fra temavalg til færdig gratis printables tager det kun fem enkle trin.',
     ctaText: 'Start Nu',
     badgeText: 'Sådan Virker Det',
@@ -384,7 +384,7 @@ Profitable nicher på det danske marked inkluderer sæsonbestemte matematikopgav
 
   // FAQ Section - Selected FAQs from addition.md
   faq: {
-    sectionTitle: 'Ofte Stillede Spørgsmål om Gratis Arbejdsark til Børn og Addition',
+    sectionTitle: 'FAQ - Gratis Arbejdsark til Børn og Arbejdsark til Børnehaveklasse. Arbejdsark til Børn',
     sectionDescription: 'Her er svar på de mest almindelige spørgsmål om matematikopgave-generatoren. Lær om muligheder, abonnementer og hvordan du bruger gratis arbejdsark til børnehaveklasse i din undervisning.',
     showMoreText: 'Vis flere spørgsmål',
     showLessText: 'Vis færre',
@@ -489,7 +489,7 @@ Profitable nicher på det danske marked inkluderer sæsonbestemte matematikopgav
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Kombiner med Andre Arbejdsark Generatorer',
+    sectionTitle: 'Gratis Arbejdsark Kombinere - Arbejdsark til Børn og Gratis Printables',
     sectionDescription: 'Lav komplette læringspakker ved at kombinere matematikopgaver med disse komplementære generatorer.',
     ctaTitle: 'Klar til at Lave Fantastiske Arbejdsark?',
     ctaDescription: 'Tilslut dig tusindvis af pædagoger der laver professionelle arbejdsark. Ubegrænset oprettelse, kommerciel licens inkluderet.',

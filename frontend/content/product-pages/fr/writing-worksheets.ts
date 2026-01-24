@@ -74,8 +74,8 @@ Générez des fiches d'écriture pour les lettres de l'alphabet, les mots ou le 
 
   // Sample Gallery - REAL file paths from samples/french/writing/
   samples: {
-    sectionTitle: 'Exemples de Fiches d\'Écriture',
-    sectionDescription: 'Téléchargez des exemples gratuits pour voir notre qualité professionnelle',
+    sectionTitle: 'Fiche Gratuite pour Enfants - Fiches Gratuites et Imprimables Gratuits',
+    sectionDescription: 'Téléchargez imprimables gratuits - Fiche gratuite pour enfants de qualité professionnelle. Fiches gratuites et fiche pour enfants parfaites pour fiche pour maternelle. Fiche gratuite pour enfants et fiches gratuites inclus matériel éducatif. Fiche gratuite et fiches gratuites disponible',
     downloadLabel: 'Télécharger Exemple Gratuit',
     worksheetLabel: 'Fiche',
     answerKeyLabel: 'Corrigé',
@@ -112,7 +112,7 @@ Générez des fiches d'écriture pour les lettres de l'alphabet, les mots ou le 
 
   // Features Grid - FULL text from French writing.md Section 2
   features: {
-    sectionTitle: 'Fonctionnalités du Générateur de Fiches d\'Écriture - Tout pour Créer des Fiches Maternelle et des Exercices CP Professionnels',
+    sectionTitle: 'Fiches Gratuites et Fiche pour Enfants - Imprimables Gratuits et Fiche pour Maternelle',
     sectionDescription: 'Notre générateur de fiches d\'écriture inclut des fonctionnalités puissantes conçues pour créer du graphisme maternelle et des activités d\'apprentissage. Les enseignants apprécient la combinaison de facilité et de flexibilité. Générez des fiches à imprimer gratuit professionnelles en quelques minutes au lieu des heures passées à dessiner des lignes d\'écriture à la main. L\'abonnement Accès Complet vous donne un contrôle total sur chaque aspect de vos fiches d\'écriture. Personnalisez les polices, ajustez l\'espacement des lignes, ajoutez des images et créez exactement ce dont vos élèves ont besoin. Chaque fonctionnalité travaille ensemble pour vous faire gagner du temps tout en maintenant une qualité professionnelle.',
     highlightBadgeText: 'Fonctionnalité Clé',
     readMoreLabel: 'Lire la suite',
@@ -206,7 +206,7 @@ Que vous créiez des fiches addition avec des mots numériques ou de la pure pra
 
   // How-To Guide - FULL text from French writing.md Section 3
   howTo: {
-    sectionTitle: 'Comment Créer des Fiches d\'Écriture en 5 Étapes Faciles - Fiches Maternelle et Exercices CP Prêts en Minutes',
+    sectionTitle: 'Fiche Gratuite pour Enfants Créer - Fiche pour Maternelle',
     sectionDescription: 'Créer du matériel de pratique d\'écriture professionnel prend moins de trois minutes avec notre générateur de fiches d\'écriture. Le flux de travail simplifié vous guide de la page blanche à la fiche terminée rapidement. Aucune expérience en design graphique requise. Suivez cinq étapes simples pour produire des fiches d\'écriture correspondant exactement à vos besoins pédagogiques. Vos élèves reçoivent du matériel de pratique de haute qualité en quelques minutes au lieu d\'heures pour créer des fiches maternelle.',
     ctaText: 'Commencer à Créer',
     badgeText: 'Guide Étape par Étape',
@@ -302,7 +302,7 @@ Imprimez vos fiches téléchargées sur du papier standard pour imprimante ou du
 
   // Use Cases - FULL text from French writing.md Section 4
   useCases: {
-    sectionTitle: 'Parfait pour Enseignants, Parents et Éducateurs - Fiches Maternelle et Exercices CP pour Tous les Besoins',
+    sectionTitle: 'Fiche Gratuite pour Enfants - Fiche pour Maternelle avec Imprimables Gratuits. Fiche pour Enfants',
     sectionDescription: 'Notre générateur de fiches d\'écriture sert de nombreux contextes éducatifs différents. Les enseignants de classe créent du matériel quotidien pour les élèves de maternelle et de CP. Les parents en instruction à domicile construisent des programmes d\'écriture complets. Les enseignants spécialisés développent des fiches personnalisées pour les besoins d\'apprentissage individuels. Les enseignants entrepreneurs vendent leurs créations en ligne. Chaque groupe d\'utilisateurs trouve une valeur unique dans les fonctionnalités flexibles du générateur pour créer des fiches maternelle et des exercices CP.',
     badgeText: 'Cas d\'Utilisation',
     readMoreLabel: 'Lire la suite',
@@ -385,7 +385,7 @@ Maintenez une qualité de production cohérente en utilisant les mêmes paramèt
 
   // FAQ Section - FULL text from French writing.md Section 6
   faq: {
-    sectionTitle: 'Questions Fréquentes sur le Générateur de Fiches d\'Écriture - Fiches Maternelle, Fiches Alphabet et Graphisme Maternelle',
+    sectionTitle: 'FAQ - Fiche Gratuite pour Enfants et Fiche pour Maternelle. Fiche pour Enfants',
     sectionDescription: 'Les éducateurs posent des questions communes sur les capacités du générateur, les options de licence et les meilleures pratiques d\'utilisation. Cette section répond aux questions les plus fréquentes concernant la création de fiches d\'écriture et de graphisme maternelle. Comprenez comment maximiser votre abonnement Accès Complet. Apprenez les techniques pour créer des fiches maternelle professionnelles efficacement. Découvrez comment nos outils soutiennent différents contextes pédagogiques et objectifs d\'enseignement.',
     showMoreText: 'Afficher plus de questions',
     showLessText: 'Afficher moins',
@@ -499,7 +499,7 @@ Maintenez une qualité de production cohérente en utilisant les mêmes paramèt
 
   // Related Apps - From French writing.md Section 7
   relatedApps: {
-    sectionTitle: 'Combinez avec Autres Générateurs - Créez des Packs Complets avec Fiches Maternelle et Fiches à Imprimer Gratuit',
+    sectionTitle: 'Fiches Gratuites Combiner - Fiche pour Enfants et Imprimables Gratuits',
     sectionDescription: 'Votre abonnement Accès Complet débloque tous les 33 générateurs de fiches, pas seulement le générateur d\'écriture. Combinez plusieurs types de générateurs pour créer des packs d\'apprentissage thématiques complets. Les enseignants rapportent que les ressources intégrées produisent de meilleurs résultats d\'apprentissage que les fiches isolées.',
     ctaTitle: 'Prêt à Créer des Fiches d\'Écriture Exceptionnelles ?',
     ctaDescription: 'Rejoignez des milliers d\'enseignants qui créent des fiches professionnelles. Génération illimitée, licence commerciale incluse.',

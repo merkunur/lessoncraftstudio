@@ -95,8 +95,8 @@ Sie wählen Schwierigkeitsstufen von sehr leicht bis schwer. Der Generator passt
 
   // Sample Gallery - REAL file paths from samples/english/math worksheet/
   samples: {
-    sectionTitle: 'Mathe-Arbeitsblätter Beispiele',
-    sectionDescription: 'Laden Sie kostenlose Beispiel-Arbeitsblätter herunter, um unsere professionelle Qualität zu sehen',
+    sectionTitle: 'Kostenloses Arbeitsblatt für Kinder - Kostenlose Arbeitsblätter und Kostenlose Druckvorlagen',
+    sectionDescription: 'Laden Sie kostenlose Druckvorlagen herunter - Kostenloses Arbeitsblatt für Kinder in professioneller Qualität für Arbeitsblatt für Vorschule',
     downloadLabel: 'Kostenloses Beispiel Herunterladen',
     worksheetLabel: 'Arbeitsblatt',
     answerKeyLabel: 'Lösungsblatt',
@@ -147,7 +147,7 @@ Sie wählen Schwierigkeitsstufen von sehr leicht bis schwer. Der Generator passt
 
   // Features Grid - FULL text from mathe-arbeitsblätter.md feature sections
   features: {
-    sectionTitle: 'Mathe-Arbeitsblätter Funktionen - Alles für Ihre kostenlosen Arbeitsblätter Grundschule',
+    sectionTitle: 'Arbeitsblatt für Kinder - Kostenlose Druckvorlagen und Arbeitsblatt für Vorschule',
     sectionDescription: 'Unser Generator bietet professionelle Funktionen für Lehrer und Eltern. Erstellen Sie Mathe-Arbeitsblätter und Vorschul-Arbeitsblätter in wenigen Minuten. Alle Funktionen sind speziell für die Bedürfnisse der Grundschule entwickelt. Kombinieren Sie Rechnen lernen mit visuellen Elementen.',
     highlightBadgeText: 'Hauptfunktion',
     readMoreLabel: 'Mehr lesen',
@@ -241,7 +241,7 @@ Professionelle Qualität baut Lehrkraft-Glaubwürdigkeit auf für kostenlose Arb
 
   // How-To Guide - FULL text from mathe-arbeitsblätter.md step sections
   howTo: {
-    sectionTitle: 'Mathe-Arbeitsblätter erstellen in 5 Schritten - Kostenlose Arbeitsblätter für Vorschule und Grundschule',
+    sectionTitle: 'Kostenloses Arbeitsblatt für Kinder erstellen - Arbeitsblatt für Vorschule',
     sectionDescription: 'Erstellen Sie professionelle Arbeitsblätter Grundschule in unter 3 Minuten. Folgen Sie diesen 5 einfachen Schritten. Kein Design-Wissen erforderlich. Perfekt für Mathe-Arbeitsblätter und Vorschul-Arbeitsblätter.',
     ctaText: 'Jetzt Erstellen',
     badgeText: 'So funktioniert es',
@@ -313,7 +313,7 @@ Mit dem Basis-Paket für 144 € jährlich erhalten Sie wasserzeichenfreie Downl
 
   // Use Cases - FULL text from mathe-arbeitsblätter.md use case sections
   useCases: {
-    sectionTitle: 'Perfekt für Lehrkräfte, Eltern und Pädagogen - Kostenlose Mathe-Arbeitsblätter für jeden Bedarf',
+    sectionTitle: 'Kostenloses Arbeitsblatt für Kinder - Arbeitsblatt für Vorschule mit Kostenlose Druckvorlagen',
     sectionDescription: 'Mathe-Arbeitsblätter vom Generator passen zu vielen Lernsituationen. Vorschulpädagogen, Grundschullehrkräfte und Eltern profitieren gleichermaßen. Jede Zielgruppe hat spezifische Bedürfnisse beim Rechnen lernen.',
     badgeText: 'Anwendungsbereiche',
     readMoreLabel: 'Mehr lesen',
@@ -396,7 +396,7 @@ Viele Lehrkräfte verdienen 500-5000 € monatlich mit druckbaren Ressourcen fü
 
   // FAQ Section - FULL FAQs from mathe-arbeitsblätter.md
   faq: {
-    sectionTitle: 'Häufig gestellte Fragen zu Mathe-Arbeitsblättern und kostenlosen Arbeitsblättern Grundschule',
+    sectionTitle: 'FAQ - Kostenloses Arbeitsblatt für Kinder und Arbeitsblatt für Vorschule',
     sectionDescription: 'Lehrkräfte und Eltern haben viele Fragen zum Mathe-Rätsel Generator und Basis-Paket Abonnement. Hier beantworten wir die häufigsten Fragen zu Arbeitsblätter Grundschule, Vorschul-Arbeitsblättern und kommerzieller Lizenzierung.',
     showMoreText: 'Mehr Fragen anzeigen',
     showLessText: 'Weniger anzeigen',
@@ -531,7 +531,7 @@ Viele Lehrkräfte verdienen 500-5000 € monatlich mit druckbaren Ressourcen fü
 
   // Related Apps - Kombinieren Sie Mathe-Arbeitsblätter mit anderen Generatoren
   relatedApps: {
-    sectionTitle: 'Kombinieren Sie Mathe-Arbeitsblätter mit anderen Generatoren - Ganzheitliche Arbeitsblätter Grundschule',
+    sectionTitle: 'Kostenlose Arbeitsblätter kombinieren - Arbeitsblatt für Kinder und Kostenlose Druckvorlagen',
     sectionDescription: 'Ihr Basis-Paket Abonnement beinhaltet 10 Premium-Generatoren, die perfekt zusammenarbeiten. Kombinieren Sie Mathe-Arbeitsblätter mit Ausmalbilder für kreative Pausen. Integrieren Sie Schwungübungen für Schreibvorbereitung. Verbinden Sie mit Einmaleins-Übungen für ältere Schüler.',
     ctaTitle: 'Bereit, fantastische Arbeitsblätter zu erstellen?',
     ctaDescription: 'Schließen Sie sich tausenden Lehrkräften an, die professionelle Mathe-Arbeitsblätter erstellen. Unbegrenzte Generierung, kommerzielle Lizenz inklusive.',

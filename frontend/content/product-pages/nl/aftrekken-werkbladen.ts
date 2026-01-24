@@ -95,8 +95,8 @@ De generator biedt vier verschillende oefenmodi voor aftrekken. Kies tussen trad
 
   // Sample Gallery - REAL file paths from samples/dutch/subtraction/
   samples: {
-    sectionTitle: 'Aftrekken Werkbladen Voorbeelden - Gratis Werkbladen voor Kinderen en Kleuters',
-    sectionDescription: 'Download gratis voorbeeldwerkbladen om onze professionele kwaliteit te ervaren',
+    sectionTitle: 'Gratis Werkblad voor Kinderen - Gratis Werkbladen en Gratis Printables',
+    sectionDescription: 'Download gratis printables - Gratis werkblad voor kinderen van professionele kwaliteit. Gratis werkbladen en werkblad voor kinderen perfect voor werkblad voor kleuters. Gratis werkblad voor kinderen en werkblad voor kinderen inclusief educatief materiaal. Gratis werkblad beschikbaar',
     downloadLabel: 'Gratis Voorbeeld Downloaden',
     worksheetLabel: 'Werkblad',
     answerKeyLabel: 'Antwoordblad',
@@ -147,7 +147,7 @@ De generator biedt vier verschillende oefenmodi voor aftrekken. Kies tussen trad
 
   // Features Grid - FULL text from subtraction.md feature sections
   features: {
-    sectionTitle: 'Aftrekken Werkbladen Functies - Alles voor Rekenen Werkbladen en Oefenbladen Gratis Maken',
+    sectionTitle: 'Gratis Werkbladen en Werkblad voor Kinderen - Gratis Printables en Werkblad voor Kleuters',
     sectionDescription: 'Onze aftrekken werkbladen maker biedt professionele functies voor basisschool leerkrachten. Maak werkbladen groep 3 met visuele afbeeldingen die leerlingen betrokken houden. Genereer sommen tot 20 werkbladen in verschillende moeilijkheidsgraden. Elke functie is ontworpen om kwalitatieve rekenen werkbladen snel te maken. Combineer aftrekken met kleurplaten en fijne motoriek activiteiten. Perfect voor werkbladen kleuters en groep 1 2 leerlingen. Je Volledige Toegang abonnement geeft toegang tot alle premium functies voor €240 per jaar.',
     highlightBadgeText: 'Uitgelicht',
     readMoreLabel: 'Lees meer',
@@ -236,7 +236,7 @@ Selecteer hoeveel oefeningen je wilt per werkblad. Kies tussen 1 en 10 aftrekken
 
   // How-To Guide - FULL text from subtraction.md step sections
   howTo: {
-    sectionTitle: 'Hoe Maak Je Werkbladen Groep 3 en Rekenen Werkbladen in 5 Eenvoudige Stappen - Oefenbladen Gratis Maken',
+    sectionTitle: 'Gratis Werkblad voor Kinderen Maken - Werkblad voor Kleuters',
     sectionDescription: 'Maak professionele aftrekken werkbladen in minder dan 3 minuten. Deze stap-voor-stap handleiding toont hoe je sommen tot 20 werkbladen maakt. Perfect voor leerkrachten die snel werkbladen kleuters nodig hebben. Elke stap is eenvoudig en duidelijk uitgelegd. Geen technische kennis vereist voor het maken van rekenen werkbladen. Combineer met kleurplaten en fijne motoriek oefeningen voor complete lespakketten. Volg deze vijf stappen voor professionele oefenbladen gratis genereren.',
     ctaText: 'Nu Starten',
     badgeText: 'Zo werkt het',
@@ -308,7 +308,7 @@ Print je werkbladen groep 3 direct na downloaden. Geen extra software nodig voor
 
   // Use Cases - FULL text from subtraction.md use case sections
   useCases: {
-    sectionTitle: 'Perfect voor Leerkrachten en Ouders - Werkbladen Groep 3, Rekenen Werkbladen en Oefenbladen Gratis voor Elke Behoefte',
+    sectionTitle: 'Gratis Werkblad voor Kinderen - Werkblad voor Kleuters met Gratis Printables. Werkblad voor Kinderen',
     sectionDescription: 'Onze aftrekken werkbladen maker dient verschillende onderwijsbehoeften. Van werkbladen kleuters tot werkbladen groep 3 materialen. Combineer met kleurplaten en letters leren activiteiten. Integreer veilig leren lezen principes in rekenen werkbladen. Perfect voor fijne motoriek ontwikkeling met tafels oefenen. Elk type gebruiker vindt waarde in deze veelzijdige oefenbladen gratis generator.',
     badgeText: 'Voor wie',
     readMoreLabel: 'Lees meer',
@@ -391,7 +391,7 @@ Gebruik 300 DPI export voor professionele werkbladen kleuters producten.`,
 
   // FAQ Section - FULL FAQs from subtraction.md
   faq: {
-    sectionTitle: 'Veelgestelde Vragen over Werkbladen Groep 3, Rekenen Werkbladen en Oefenbladen Gratis met Kleurplaten en Fijne Motoriek',
+    sectionTitle: 'FAQ - Gratis Werkblad voor Kinderen en Werkblad voor Kleuters. Werkblad voor Kinderen',
     sectionDescription: 'Leerkrachten hebben vragen over onze aftrekken werkbladen maker. Leer hoe je werkbladen kleuters met sommen tot 20 maakt. Ontdek hoe je kleurplaten en letters leren combineert. Begrijp veilig leren lezen integratie met rekenen werkbladen.',
     showMoreText: 'Meer vragen tonen',
     showLessText: 'Minder tonen',
@@ -520,7 +520,7 @@ Gebruik 300 DPI export voor professionele werkbladen kleuters producten.`,
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Combineer Aftrekken Werkbladen met Andere Generators - Complete Leerpakketten met Letters Leren, Veilig Leren Lezen, Tafels Oefenen en Fijne Motoriek',
+    sectionTitle: 'Gratis Werkbladen Combineren - Werkblad voor Kinderen en Gratis Printables',
     sectionDescription: 'LessonCraft Studio biedt 33 verschillende werkbladen generators in één platform. Combineer aftrekken met letters leren voor geïntegreerde lessen. Voeg veilig leren lezen principes toe aan rekenen werkbladen. Integreer tafels oefenen voor wiskundige verbanden. Gebruik fijne motoriek activiteiten voor complete ontwikkeling.',
     ctaTitle: 'Klaar om geweldige werkbladen te maken?',
     ctaDescription: 'Sluit je aan bij duizenden leerkrachten die professionele werkbladen maken. Onbeperkt genereren, commerciële licentie inbegrepen.',

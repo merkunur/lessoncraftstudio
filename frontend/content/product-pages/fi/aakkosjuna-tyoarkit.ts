@@ -51,8 +51,8 @@ Kirjainten tunnistus ja aakkosharjoittelu onnistuvat nopeasti. Luo, muokkaa ja l
 
   // Sample Gallery - REAL file paths from samples/english/alphabet train/
   samples: {
-    sectionTitle: 'Aakkosjuna Tehtävät Esimerkit',
-    sectionDescription: 'Lataa ilmaiset esimerkkityöarkit nähdäksesi ammattimaisen laatumme',
+    sectionTitle: 'Ilmainen Työarkki Lapsille - Ilmaiset Työarkit ja Ilmaiset Tulosteet',
+    sectionDescription: 'Lataa ilmaiset tulosteet - Ilmainen työarkki lapsille ammattimaista laatua. Ilmaiset työarkit ja työarkki lapsille täydellinen työarkki esiopetukseen. Ilmainen työarkki lapsille ja työarkki lapsille sisältää ilmaiset tulosteet ja ilmaiset työarkit opetusmateriaalin. Ilmainen työarkki ja työarkki esiopetukseen saatavilla',
     downloadLabel: 'Lataa Ilmainen Esimerkki',
     worksheetLabel: 'Työarkki',
     answerKeyLabel: 'Vastausavain',
@@ -82,7 +82,7 @@ Kirjainten tunnistus ja aakkosharjoittelu onnistuvat nopeasti. Luo, muokkaa ja l
 
   // Features Grid - FULL text from Finnish alphabet-train.md feature sections
   features: {
-    sectionTitle: 'Aakkosjuna-Sovelluksen Ominaisuudet - Tulostettavat Tehtävät Lapsille Ilmainen Esiopetus Materiaali',
+    sectionTitle: 'Ilmaiset Työarkit ja Työarkki Lapsille - Ilmaiset Tulosteet ja Työarkki Esiopetukseen',
     sectionDescription: 'Aakkosjuna-sovelluksemme yhdistää kirjainten harjoittelun hauskaan ja visuaaliseen muotoon. Jokainen ominaisuus on suunniteltu esiopettajien ja alakoulun opettajien tarpeisiin. Esiopetus materiaali ilmainen tilauksesi aikana. Luo rajattomasti tulostettavat tehtävät lapsille kolmessa minuutissa. Kaikki ominaisuudet sisältyvät Peruspaketti-tilaukseesi.',
     highlightBadgeText: 'Tärkeä Ominaisuus',
     readMoreLabel: 'Lue lisää',
@@ -189,7 +189,7 @@ Kirjaimet harjoittelu esikoulu sisältää aina vastausavaimen. Opettajat tarkis
 
   // How-To Guide - FULL text from Finnish alphabet-train.md step sections
   howTo: {
-    sectionTitle: 'Kuinka Luoda Kirjaimet Harjoittelu Esikoulu Tehtävät Viidessä Helpossa Vaiheessa',
+    sectionTitle: 'Ilmainen Työarkki Lapsille Luoda - Työarkki Esiopetukseen',
     sectionDescription: 'Aakkosjuna-tehtävän luominen vie alle 3 minuuttia alusta loppuun. Nämä viisi vaihetta opettavat sinulle koko prosessin. Ei tarvita teknisiä taitoja tai suunnitteluosaamista. Esiopetus materiaali ilmainen syntyy nopeasti ja vaivattomasti. Jokainen vaihe on suoraviivainen ja intuitiivinen.',
     ctaText: 'Aloita Luominen Nyt',
     badgeText: 'Näin Se Toimii',
@@ -261,7 +261,7 @@ Rastita "Harmaasävy" ennen lataamista säästääksesi mustetta. Kaikki värit 
 
   // Use Cases - FULL text from Finnish alphabet-train.md use case sections
   useCases: {
-    sectionTitle: 'Täydellinen Opettajille ja Vanhemmille - Kirjaimet Harjoittelu Esikoulu ja Tulostettavat Tehtävät Lapsille Jokaiseen Tarpeeseen',
+    sectionTitle: 'Ilmainen Työarkki Lapsille - Työarkki Esiopetukseen ja Ilmaiset Tulosteet. Työarkki Lapsille',
     sectionDescription: 'Aakkosjuna-sovellus palvelee monenlaisia opettajia ja vanhempia. Esiopetuksen opettajat käyttävät sitä päivittäin. Alakoulun opettajat rakentavat sillä lukutaitoa. Kotikouluvanhemmat räätälöivät opetusta lapsilleen. Erityisopettajat eriyttävät materiaalin. Opettajayrittäjät myyvät luomiaan tehtäviä. Esiopetus materiaali ilmainen mukautuu jokaiseen tilanteeseen.',
     badgeText: 'Kenelle Sopii',
     readMoreLabel: 'Lue lisää',
@@ -344,7 +344,7 @@ Luo teemakokoelmia myyntiin. 26-osainen aakkoskokoelma (A-Ö). Eläin-aakkosjuna
 
   // FAQ Section - Selected FAQs from Finnish alphabet-train.md
   faq: {
-    sectionTitle: 'Usein Kysytyt Kysymykset',
+    sectionTitle: 'FAQ - Ilmainen Työarkki Lapsille ja Työarkki Esiopetukseen. Työarkki Lapsille',
     sectionDescription: 'Yleisimmät kysymykset aakkosjuna-tehtävägeneraattorista ja kirjainten harjoittelutyöarkeista.',
     showMoreText: 'Näytä lisää kysymyksiä',
     showLessText: 'Näytä vähemmän',
@@ -449,7 +449,7 @@ Luo teemakokoelmia myyntiin. 26-osainen aakkoskokoelma (A-Ö). Eläin-aakkosjuna
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Yhdistä Muihin Työarkki Generaattoreihin',
+    sectionTitle: 'Ilmaiset Työarkit Yhdistää - Työarkki Lapsille ja Ilmaiset Tulosteet',
     sectionDescription: 'Luo kattavia oppimispaketteja yhdistämällä aakkosjuna työarkit näihin täydentäviin generaattoreihin.',
     ctaTitle: 'Valmiina Luomaan Upeita Työarkkeja?',
     ctaDescription: 'Liity tuhansien opettajien joukkoon, jotka luovat ammattimaisia työarkkeja. Rajoittamaton generointi, kaupallinen lisenssi sisältyy.',

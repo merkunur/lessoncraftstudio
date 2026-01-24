@@ -83,8 +83,8 @@ Le créateur de coloriage fonctionne en 11 langues. Parfait pour les classes bil
 
   // Sample Gallery - REAL file paths from samples/english/coloring/
   samples: {
-    sectionTitle: 'Exemples de Coloriages',
-    sectionDescription: 'Découvrez des exemples de coloriages créés avec notre générateur',
+    sectionTitle: 'Fiche Gratuite pour Enfants - Fiches Gratuites et Imprimables Gratuits',
+    sectionDescription: 'Téléchargez imprimables gratuits - Fiche gratuite pour enfants de qualité professionnelle. Fiches gratuites et fiche pour enfants parfaites pour fiche pour maternelle. Fiche gratuite pour enfants et fiches gratuites inclus matériel éducatif. Fiche gratuite et fiches gratuites disponible',
     downloadLabel: 'Télécharger Exemple',
     worksheetLabel: 'Coloriage',
     answerKeyLabel: 'Corrigé',
@@ -135,7 +135,7 @@ Le créateur de coloriage fonctionne en 11 langues. Parfait pour les classes bil
 
   // Features Grid - FULL text from coloring.md feature sections
   features: {
-    sectionTitle: 'Fonctionnalités du Générateur de Coloriage - Fiches Maternelle Professionnelles',
+    sectionTitle: 'Fiches Gratuites et Fiche pour Enfants - Imprimables Gratuits et Fiche pour Maternelle',
     sectionDescription: 'Notre créateur de coloriage offre des fonctionnalités professionnelles. Chaque outil a été pensé pour les enseignants et parents. Découvrez comment créer des fiches à imprimer gratuit en quelques minutes.',
     highlightBadgeText: 'Fonctionnalité Clé',
     readMoreLabel: 'Lire la suite',
@@ -238,7 +238,7 @@ Ces outils facilitent l'apprentissage de l'alphabet. Les enfants colorient puis 
 
   // How-To Guide - FULL text from coloring.md step sections
   howTo: {
-    sectionTitle: 'Comment Créer des Fiches Maternelle et Coloriage à Imprimer en 5 Étapes Simples',
+    sectionTitle: 'Fiche Gratuite pour Enfants Créer - Fiche pour Maternelle',
     sectionDescription: 'Créez vos premières fiches à imprimer gratuit en moins de trois minutes. Notre guide détaillé vous accompagne étape par étape. Aucune expérience préalable nécessaire. Suivez ces cinq étapes pour des coloriages professionnels.',
     ctaText: 'Commencer Maintenant',
     badgeText: 'Comment Ça Marche',
@@ -322,7 +322,7 @@ Imprimez sur votre imprimante personnelle ou professionnelle. Le format PDF s'ad
 
   // Use Cases - FULL text from coloring.md use case sections
   useCases: {
-    sectionTitle: 'Parfait pour les Enseignants et les Parents',
+    sectionTitle: 'Fiche Gratuite pour Enfants - Fiche pour Maternelle avec Imprimables Gratuits. Fiche pour Enfants',
     sectionDescription: 'Notre créateur de coloriages répond aux besoins de nombreux utilisateurs. Enseignants, parents et éducateurs trouvent des solutions adaptées. Découvrez comment chaque profil exploite les fiches à imprimer gratuit.',
     badgeText: 'Pour Qui',
     readMoreLabel: 'Lire la suite',
@@ -405,7 +405,7 @@ Les boutiques Etsy proposent des packs thématiques. L'alphabet illustré sédui
 
   // FAQ Section - Selected FAQs from coloring.md
   faq: {
-    sectionTitle: 'Questions Fréquentes',
+    sectionTitle: 'FAQ - Fiche Gratuite pour Enfants et Fiche pour Maternelle. Fiche pour Enfants',
     sectionDescription: 'Questions fréquentes sur notre générateur de coloriage à imprimer et nos fiches maternelle.',
     showMoreText: 'Voir plus de questions',
     showLessText: 'Voir moins',
@@ -540,7 +540,7 @@ Les boutiques Etsy proposent des packs thématiques. L'alphabet illustré sédui
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Combinez avec d\'Autres Générateurs de Fiches',
+    sectionTitle: 'Fiches Gratuites Combiner - Fiche pour Enfants et Imprimables Gratuits',
     sectionDescription: 'Créez des paquets d\'apprentissage complets en combinant les coloriages avec ces générateurs complémentaires.',
     ctaTitle: 'Prêt à Créer des Coloriages Fantastiques ?',
     ctaDescription: 'Rejoignez des milliers d\'enseignants qui créent des fiches professionnelles. Génération illimitée, licence commerciale incluse.',

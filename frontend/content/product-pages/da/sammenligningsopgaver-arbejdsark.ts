@@ -87,8 +87,8 @@ Med Fuld Adgang-abonnement får du adgang til alle 33 opgavegeneratorer. Kombine
 
   // Sample Gallery - Danish samples from samples/danish/more-less/
   samples: {
-    sectionTitle: 'Sammenligningsopgaver Gratis Arbejdsark Eksempler til Børn',
-    sectionDescription: 'Download gratis eksempler på arbejdsark for at se vores professionelle kvalitet',
+    sectionTitle: 'Gratis Arbejdsark til Børn - Gratis Arbejdsark og Gratis Printables',
+    sectionDescription: 'Download gratis printables - Gratis arbejdsark til børn af professionel kvalitet. Gratis arbejdsark og arbejdsark til børn perfekt til arbejdsark til børnehaveklasse. Gratis arbejdsark til børn og arbejdsark til børn inkluderer undervisningsmateriale. Gratis arbejdsark tilgængeligt',
     badgeText: 'Gratis Eksempler',
     downloadLabel: 'Download Gratis Eksempel',
     downloadingLabel: 'Downloader...',
@@ -305,7 +305,7 @@ Værktøjet genererer automatisk to filer: arbejdsark og facitliste. Arbejdsarke
 
   // Use Cases - FULL text from more-less.md use case sections
   useCases: {
-    sectionTitle: 'Perfekt til Lærere og Forældre - Gratis Arbejdsark til Børn og Gratis Printables',
+    sectionTitle: 'Gratis Arbejdsark til Børn - Arbejdsark til Børnehaveklasse med Gratis Printables. Arbejdsark til Børn',
     sectionDescription: 'Sammenligningsværktøjet fungerer til mange forskellige undervisningssituationer. Fra børnehaveklassen til 3. klasse finder lærere anvendelser til værktøjet. Hjemmeundervisende forældre bruger det til daglige matematiklektioner. Specialpædagoger laver differentierede opgaver til forskellige funktionsniveauer. Hver brugergruppe får værdi af fleksibiliteten og tilpasningsmuligheder. Fuld Adgang-abonnementet giver alle brugertyper ubegrænset adgang. Lav opgaver til flere klassetrin uden ekstra omkostninger. Kombiner forskellige sværhedsgrader i samme læringspakke. Del opgaver med kolleger eller sælg dem online. Denne alsidighed gør abonnementet værdifuldt på tværs af mange uddannelseskontekster.',
     badgeText: 'Hvem Er Det Til',
     readMoreLabel: 'Læs mere',
@@ -388,7 +388,7 @@ De mest succesfulde sælgere laver konsistente, højkvalitets materialer. Brug p
 
   // FAQ Section - Selected FAQs from more-less.md
   faq: {
-    sectionTitle: 'Ofte Stillede Spørgsmål om Sammenligningsopgaver Gratis Arbejdsark',
+    sectionTitle: 'FAQ - Gratis Arbejdsark til Børn og Arbejdsark til Børnehaveklasse. Arbejdsark til Børn',
     sectionDescription: 'Lærere og forældre stiller ofte de samme spørgsmål om sammenligningsværktøjet. Denne sektion besvarer de mest almindelige spørgsmål. Vi dækker alt fra abonnementspriser til tekniske spørgsmål om print og tilpasning.',
     showMoreText: 'Vis flere spørgsmål',
     showLessText: 'Vis færre',

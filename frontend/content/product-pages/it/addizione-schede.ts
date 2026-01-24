@@ -77,8 +77,8 @@ Ogni scheda didattica si scarica in formato PDF o JPEG di alta qualità. Perfett
 
   // Sample Gallery - REAL file paths from samples/italian/addition/
   samples: {
-    sectionTitle: 'Esempi Scheda Gratuita di Addizioni - Stampabili Gratuiti Download',
-    sectionDescription: 'Scarica esempi gratuiti per vedere la nostra qualità professionale',
+    sectionTitle: "Scheda Gratuita per Bambini - Schede Gratuite e Stampabili Gratuiti e Scheda per Bambini",
+    sectionDescription: "Scarica stampabili gratuiti - Scheda gratuita per bambini di qualità professionale. Schede gratuite e scheda per bambini perfette per scheda per scuola dell'infanzia. Scheda gratuita per bambini e scheda per bambini includono materiale educativo. Scheda gratuita e scheda per scuola dell'infanzia disponibile",
     downloadLabel: 'Scarica Esempio Gratuito',
     worksheetLabel: 'Scheda',
     answerKeyLabel: 'Soluzioni',
@@ -122,7 +122,7 @@ Ogni scheda didattica si scarica in formato PDF o JPEG di alta qualità. Perfett
 
   // Features Grid - FULL text from addition.md feature sections
   features: {
-    sectionTitle: 'Funzionalità - Schede Gratuite e Stampabili Gratuiti per Bambini',
+    sectionTitle: "Schede Gratuite e Scheda per Bambini - Stampabili Gratuiti e Scheda per Scuola dell'Infanzia",
     sectionDescription: 'Il generatore di schede didattiche di addizioni include sette funzionalità essenziali per maestre e maestri. Ogni funzione è stata progettata per risparmiare tempo e creare materiali didattici di qualità professionale. L\'abbonamento Pacchetto Essenziale da 144 dollari all\'anno ti dà accesso completo a tutte queste funzionalità senza limiti di utilizzo.',
     highlightBadgeText: 'Funzionalità Chiave',
     readMoreLabel: 'Leggi di più',
@@ -216,7 +216,7 @@ L'opzione scala di grigi è inclusa per ridurre consumo di inchiostro. Le schede
 
   // How-To Guide Section - FULL text from addition.md "How to Create" section
   howTo: {
-    sectionTitle: 'Come Creare Schede Gratuite per Bambini in 5 Passi - Stampabili Gratuiti',
+    sectionTitle: "Scheda Gratuita per Bambini Creare - Scheda per Scuola dell'Infanzia",
     sectionDescription: 'Creare schede didattiche professionali con il nostro generatore è velocissimo. L\'intero processo richiede meno di 3 minuti dal login al download. Nessuna competenza tecnica richiesta.',
     ctaText: 'Inizia Ora',
     badgeText: 'Guida Passo-Passo',
@@ -288,7 +288,7 @@ Dopo il download le schede sono tue per sempre. Usale infinite volte senza costi
 
   // Use Cases Section - FULL text from addition.md "Perfect For" section
   useCases: {
-    sectionTitle: 'Scheda Gratuita per Bambini - Perfetta per Insegnanti e Genitori',
+    sectionTitle: "Scheda Gratuita per Bambini - Scheda per Scuola dell'Infanzia con Stampabili Gratuiti. Scheda per Bambini",
     sectionDescription: 'Il generatore di schede didattiche di addizioni serve diverse categorie di educatori. Maestre di scuola dell\'infanzia che insegnano concetti matematici di base. Maestri di scuola primaria che sviluppano competenze di calcolo. Genitori homeschooler che educano a casa. Insegnanti di sostegno che creano materiali personalizzati.',
     badgeText: 'Chi Usa le Nostre Schede',
     readMoreLabel: 'Leggi di più',
@@ -371,7 +371,7 @@ La qualità professionale 300 DPI è essenziale per prodotti commerciali. Gli ac
 
   // FAQ Section - FULL text from addition.md FAQ section
   faq: {
-    sectionTitle: 'FAQ Schede Gratuite Addizioni - Stampabili Gratuiti per Bambini',
+    sectionTitle: "FAQ - Scheda Gratuita per Bambini e Scheda per Scuola dell'Infanzia. Scheda per Bambini",
     sectionDescription: 'Risposte alle domande più comuni sul nostro generatore di schede matematica',
     showMoreText: 'Mostra altre domande',
     showLessText: 'Mostra meno domande',
@@ -500,7 +500,7 @@ L'abbonamento Accesso Completo costa 240 dollari annuali. Include tutti i 33 gen
 
   // Related Apps Section
   relatedApps: {
-    sectionTitle: 'Combina Schede Gratuite con Altri Stampabili Gratuiti per Bambini',
+    sectionTitle: "Schede Gratuite Combinare - Scheda per Bambini e Stampabili Gratuiti",
     sectionDescription: 'Il generatore di addizioni funziona magnificamente combinato con altri tipi di schede didattiche. La piattaforma offre 33 generatori diversi per materiali stampabili. Crea pacchetti tematici coordinati che integrano matematica, alfabetizzazione, pregrafismo, disegni da colorare e molto altro.',
     ctaTitle: 'Pronto a Creare Schede Straordinarie?',
     ctaDescription: 'Unisciti a migliaia di educatori che creano schede professionali. Generazione illimitata, licenza commerciale inclusa.',

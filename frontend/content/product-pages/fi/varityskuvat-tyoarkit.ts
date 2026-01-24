@@ -53,8 +53,8 @@ Jokainen värityskuva vie sekunteja luoda. Ei suunnittelutaitoja tarvita. Ei mon
 
   // Sample Gallery - REAL file paths from samples/english/coloring/
   samples: {
-    sectionTitle: 'Värityskuvia Lapsille Esimerkit',
-    sectionDescription: 'Lataa ilmaiset esimerkkivärityskuvat nähdäksesi ammattimaisen laatumme',
+    sectionTitle: 'Ilmainen Työarkki Lapsille - Ilmaiset Työarkit ja Ilmaiset Tulosteet',
+    sectionDescription: 'Lataa ilmaiset tulosteet - Ilmainen työarkki lapsille ammattimaista laatua. Ilmaiset työarkit ja työarkki lapsille täydellinen työarkki esiopetukseen. Ilmainen työarkki lapsille ja työarkki lapsille sisältää ilmaiset tulosteet ja ilmaiset työarkit opetusmateriaalin. Ilmainen työarkki ja työarkki esiopetukseen saatavilla',
     downloadLabel: 'Lataa Ilmainen Esimerkki',
     worksheetLabel: 'Värityskuva',
     answerKeyLabel: 'Vastausavain',
@@ -112,7 +112,7 @@ Jokainen värityskuva vie sekunteja luoda. Ei suunnittelutaitoja tarvita. Ei mon
 
   // Features Grid - FULL text from Finnish coloring.md feature sections
   features: {
-    sectionTitle: 'Värityskuvia Lapsille Tulostettava Ominaisuudet - Kaikki Mitä Tarvitset Tulostettavat Tehtävät Lapsille Ilmainen',
+    sectionTitle: 'Ilmaiset Työarkit ja Työarkki Lapsille - Ilmaiset Tulosteet ja Työarkki Esiopetukseen',
     sectionDescription: 'Värityskuvasuunnittelijamme yhdistää tehokkaan toiminnallisuuden yksinkertaiseen käyttöön. Luo esiopetus materiaali ilmainen, hienomotoriikka harjoitukset ja värityskuvia lapsille tulostettava samalla työkalulla. Jokainen ominaisuus on suunniteltu säästämään aikaa ja tuottamaan ammattimaisia tuloksia. Ei vaadi teknistä osaamista tai suunnittelukokemusta.',
     highlightBadgeText: 'Tärkeä Ominaisuus',
     readMoreLabel: 'Lue lisää',
@@ -231,7 +231,7 @@ Sivun orientaatio vaikuttaa värityskuvan asetteluun. Portrait-orientaatio toimi
 
   // How-To Guide - FULL text from Finnish coloring.md step sections
   howTo: {
-    sectionTitle: 'Kuinka Luoda Värityskuvia Lapsille Tulostettava 5 Helpossa Vaiheessa',
+    sectionTitle: 'Ilmainen Työarkki Lapsille Luoda - Työarkki Esiopetukseen',
     sectionDescription: 'Luo ammattimaisia värityskuvia alle 3 minuutissa. Jokainen vaihe on suunniteltu yksinkertaiseksi ja intuitiiviseksi. Ei vaadi teknistä osaamista tai suunnittelukokemusta. Seuraa näitä viittä vaihetta luodaksesi täydellisiä esiopetus materiaali ilmainen tehtäviä.',
     ctaText: 'Aloita Luominen Nyt',
     badgeText: 'Näin Se Toimii',
@@ -313,7 +313,7 @@ Harmaasävyvaihtoehto säästää mustetta dramaattisesti. Aktivoi Harmaasävy-v
 
   // Use Cases - FULL text from Finnish coloring.md use case sections
   useCases: {
-    sectionTitle: 'Täydellinen Opettajille, Vanhemmille ja Kasvattajille',
+    sectionTitle: 'Ilmainen Työarkki Lapsille - Työarkki Esiopetukseen ja Ilmaiset Tulosteet. Työarkki Lapsille',
     sectionDescription: 'Värityskuvasuunnittelijamme palvelee erilaisia käyttäjiä eri koulutusolosuhteissa. Esiopetuksen opettajat, alakoulun opettajat, kotiopettajat ja erikoisopettajat kaikki hyötyvät. Jokainen käyttäjätyyppi löytää ainutlaatuisia tapoja integroida värityskuvia lapsille tulostettava opetukseensa.',
     badgeText: 'Kenelle Sopii',
     readMoreLabel: 'Lue lisää',
@@ -408,7 +408,7 @@ Kausittaiset teemapaketit tuottavat huippumyyntiä. Luo esiopetus materiaali ilm
 
   // FAQ Section - Selected FAQs from Finnish coloring.md
   faq: {
-    sectionTitle: 'Usein Kysytyt Kysymykset',
+    sectionTitle: 'FAQ - Ilmainen Työarkki Lapsille ja Työarkki Esiopetukseen. Työarkki Lapsille',
     sectionDescription: 'Yleisimmät kysymykset värityskuvasuunnittelijasta ja tulostettavista tehtävistä.',
     showMoreText: 'Näytä lisää kysymyksiä',
     showLessText: 'Näytä vähemmän',
@@ -513,7 +513,7 @@ Kausittaiset teemapaketit tuottavat huippumyyntiä. Luo esiopetus materiaali ilm
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Yhdistä Muihin Tehtävägeneraattoreihin',
+    sectionTitle: 'Ilmaiset Työarkit Yhdistää - Työarkki Lapsille ja Ilmaiset Tulosteet',
     sectionDescription: 'Luo kattavia oppimispaketteja yhdistämällä värityskuvat näihin täydentäviin generaattoreihin.',
     ctaTitle: 'Valmiina Luomaan Upeita Värityskuvia?',
     ctaDescription: 'Liity tuhansien opettajien joukkoon, jotka luovat ammattimaisia värityskuvia. Rajoittamaton generointi, kaupallinen lisenssi sisältyy.',

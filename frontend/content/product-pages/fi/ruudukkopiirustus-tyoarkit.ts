@@ -53,8 +53,8 @@ Generaattori luo kaksi vierekkäistä ruudukkoa: viheruudukko paljastaa osan kuv
 
   // Sample Gallery - REAL file paths from samples/english/draw and color/
   samples: {
-    sectionTitle: 'Ruudukkopiirustus Esimerkit',
-    sectionDescription: 'Lataa ilmaiset esimerkkitehtävät nähdäksesi ammattimaisen laatumme',
+    sectionTitle: 'Ilmainen Työarkki Lapsille - Ilmaiset Työarkit ja Ilmaiset Tulosteet',
+    sectionDescription: 'Lataa ilmaiset tulosteet - Ilmainen työarkki lapsille ammattimaista laatua. Ilmaiset työarkit ja työarkki lapsille täydellinen työarkki esiopetukseen. Ilmainen työarkki lapsille ja työarkki lapsille sisältää ilmaiset tulosteet ja ilmaiset työarkit opetusmateriaalin. Ilmainen työarkki ja työarkki esiopetukseen saatavilla',
     downloadLabel: 'Lataa Ilmainen Esimerkki',
     worksheetLabel: 'Tehtävä',
     answerKeyLabel: 'Vastausavain',
@@ -112,7 +112,7 @@ Generaattori luo kaksi vierekkäistä ruudukkoa: viheruudukko paljastaa osan kuv
 
   // Features Grid - FULL text from Finnish draw-and-color.md feature sections
   features: {
-    sectionTitle: 'Ruudukkopiirustus Ominaisuudet - Tulostettavat Tehtävät Lapsille Ilmainen',
+    sectionTitle: 'Ilmaiset Työarkit ja Työarkki Lapsille - Ilmaiset Tulosteet ja Työarkki Esiopetukseen',
     sectionDescription: 'Ruudukkopiirustustehtävien generaattorimme sisältää kaikki ominaisuudet, joita tarvitset ammattimaisten esiopetus materiaali ilmainen -tehtävien luomiseen. Täysi Käyttöoikeus -tilaus antaa pääsyn kaikkiin 33 tehtävägeneraattoriin sekä kaupallisen lisenssin. Luo tulostettavat tehtävät lapsille ilmainen, jotka sopivat täydellisesti hienomotoriikka harjoitukset -aktiviteetteihin.',
     highlightBadgeText: 'Tärkeä Ominaisuus',
     readMoreLabel: 'Lue lisää',
@@ -233,7 +233,7 @@ Sivukoko vaikuttaa tulostuskokoon. Letter Portrait (8.5×11") on standardi Yhdys
 
   // How-To Guide - FULL text from Finnish draw-and-color.md step sections
   howTo: {
-    sectionTitle: 'Kuinka Luoda Ruudukkopiirustus Tehtäviä 5 Helpossa Vaiheessa',
+    sectionTitle: 'Ilmainen Työarkki Lapsille Luoda - Työarkki Esiopetukseen',
     sectionDescription: 'Ruudukkopiirustustehtävien luominen on yksinkertainen viisivaiheinen prosessi. Koko prosessi kestää alle 3 minuuttia alusta loppuun. Ei tarvitse suunnittelukokemusta tai teknisiä taitoja. Generaattori opastaa sinut jokaisen vaiheen läpi luodaksesi ammattilaatuisia esiopetus materiaali ilmainen -tehtäviä.',
     ctaText: 'Aloita Luominen Nyt',
     badgeText: 'Näin Se Toimii',
@@ -315,7 +315,7 @@ Harmaasävyvaihtoehto säästää mustetta tulostettaessa. Valitse ennen lataami
 
   // Use Cases Section - FULL text from Finnish draw-and-color.md
   useCases: {
-    sectionTitle: 'Täydellinen Opettajille ja Vanhemmille',
+    sectionTitle: 'Ilmainen Työarkki Lapsille - Työarkki Esiopetukseen ja Ilmaiset Tulosteet. Työarkki Lapsille',
     sectionDescription: 'Ruudukkopiirustustehtävägeneraattori palvelee laajaa käyttäjäkuntaa. Esiopetuksen opettajat, alakoulun opettajat, kotiopettajat, kieltenopettajat, erityisopettajat ja opettajayrittäjät kaikki hyötyvät. Jokainen käyttäjäryhmä löytää ainutlaatuisia tapoja käyttää esiopetus materiaali ilmainen -tehtäviä.',
     badgeText: 'Kenelle Soveltuu',
     readMoreLabel: 'Lue lisää',
@@ -404,7 +404,7 @@ Luo tehtäväpaketteja teemoittain maksimoidaksesi myyntiä. "Eläinten ruudukko
 
   // FAQ Section - FULL text from Finnish draw-and-color.md
   faq: {
-    sectionTitle: 'Usein Kysytyt Kysymykset',
+    sectionTitle: 'FAQ - Ilmainen Työarkki Lapsille ja Työarkki Esiopetukseen. Työarkki Lapsille',
     sectionDescription: 'Opettajat kysyvät usein samoja kysymyksiä ruudukkopiirustustehtävägeneraattorista. Hinnoittelu, tulostaminen, mukautus ja käyttö ovat yleisimpiä aiheita.',
     showMoreText: 'Näytä lisää kysymyksiä',
     showLessText: 'Näytä vähemmän',
@@ -489,7 +489,7 @@ Erityisopetuksessa ruudukkopiirustustehtävät toimivat vanhemmillekin oppilaill
 
   // Related Apps Section
   relatedApps: {
-    sectionTitle: 'Toimii Hyvin Yhdessä',
+    sectionTitle: 'Ilmaiset Työarkit Yhdistää - Työarkki Lapsille ja Ilmaiset Tulosteet',
     sectionDescription: 'Yhdistä ruudukkopiirustustehtävät muihin tehtävägeneraattoreihin kokonaisvaltaisten oppimispakettien luomiseen',
     badgeText: 'Yhteensopivat Sovellukset',
     exploreText: 'Tutustu kaikkiin sovelluksiin',

@@ -85,8 +85,8 @@ Full Tillgång-prenumerationen inkluderar alla 33 arbetsbladsverktyg för 2 880 
 
   // Sample Gallery - REAL file paths from samples/swedish/cryptogram/
   samples: {
-    sectionTitle: 'Gratis Arbetsblad Bildkryptogram - Exempel för Barn',
-    sectionDescription: 'Ladda ner gratis arbetsblad för att se vår professionella kvalitet. Gratis utskrifter för förskoleklass.',
+    sectionTitle: 'Gratis Arbetsblad för Barn - Gratis Arbetsblad och Gratis Utskrifter',
+    sectionDescription: 'Ladda ner gratis utskrifter - Gratis arbetsblad för barn av professionell kvalitet. Gratis arbetsblad och arbetsblad för barn perfekt för arbetsblad för förskoleklass. Gratis arbetsblad för barn och arbetsblad för barn inkluderar utbildningsmaterial. Gratis arbetsblad och gratis utskrifter tillgänglig',
     downloadLabel: 'Ladda Ner Gratis Exempel',
     worksheetLabel: 'Arbetsblad',
     answerKeyLabel: 'Facit',
@@ -137,7 +137,7 @@ Full Tillgång-prenumerationen inkluderar alla 33 arbetsbladsverktyg för 2 880 
 
   // Features Grid - FULL text from cryptogram.md feature sections
   features: {
-    sectionTitle: 'Bildkryptogram Funktioner - Gratis Arbetsblad för Barn och Förskoleklass',
+    sectionTitle: 'Gratis Arbetsblad och Arbetsblad för Barn - Gratis Utskrifter och Arbetsblad för Förskoleklass',
     sectionDescription: 'Vår bildkryptogram-generator innehåller alla funktioner du behöver för professionella arbetsblad. Sju huvudfunktioner gör det enkelt att skapa engagerande bildkryptogram. Varje funktion är designad för lärare som behöver snabba, effektiva verktyg. Full kontroll över varje element på arbetsbladen.',
     highlightBadgeText: 'Nyckelfunktion',
     readMoreLabel: 'Läs mer',
@@ -243,7 +243,7 @@ Gråskalealternativet sparar bläck vid utskrift. Markera gråskala-rutan före 
 
   // How-To Guide - FULL text from cryptogram.md step sections
   howTo: {
-    sectionTitle: 'Hur Man Skapar Gratis Arbetsblad med Bildkryptogram - Arbetsblad för Barn på 5 Enkla Steg',
+    sectionTitle: 'Gratis Arbetsblad för Barn Skapa - Arbetsblad för Förskoleklass och Gratis Utskrifter',
     sectionDescription: 'Skapa professionella bildkryptogram på under 3 minuter. Fem enkla steg från början till färdigt arbetsblad. Ingen designerfarenhet krävs för att göra högkvalitativa bildkryptogram. Följ denna guide för perfekta resultat varje gång.',
     ctaText: 'Börja Skapa Nu',
     badgeText: 'Så Fungerar Det',
@@ -325,7 +325,7 @@ Skala aldrig bildkryptogram vid utskrift. Använd "Faktisk storlek" i skrivarins
 
   // Use Cases - FULL text from cryptogram.md use case sections
   useCases: {
-    sectionTitle: 'Perfekt för Lärare och Föräldrar - Gratis Arbetsblad för Barn och Förskoleklass',
+    sectionTitle: 'Gratis Arbetsblad för Barn - Arbetsblad för Förskoleklass med Gratis Utskrifter. Arbetsblad för Barn',
     sectionDescription: 'Bildkryptogram passar många olika användare och undervisningssituationer. Sex huvudgrupper använder verktyget regelbundet. Var och en har specifika behov som bildkryptogram fyller perfekt. Flexibiliteten gör verktyget ovärderligt för olika pedagogiska sammanhang.',
     badgeText: 'Vem Det Är För',
     readMoreLabel: 'Läs mer',
@@ -420,7 +420,7 @@ Många lärare tjänar 4 000-40 000 kr per månad på Teachers Pay Teachers. Bil
 
   // FAQ Section - Selected FAQs from cryptogram.md
   faq: {
-    sectionTitle: 'Vanliga Frågor om Bildkryptogram - Gratis Arbetsblad för Barn och Förskoleklass',
+    sectionTitle: 'FAQ - Gratis Arbetsblad för Barn och Arbetsblad för Förskoleklass med Gratis Utskrifter. Arbetsblad för Barn',
     sectionDescription: 'Lärare och föräldrar ställer ofta samma frågor om bildkryptogram-generatorn. Tolv vanligaste frågorna besvaras här. Allt från prenumerationskostnader till praktisk användning.',
     showMoreText: 'Visa fler frågor',
     showLessText: 'Visa färre',
@@ -524,7 +524,7 @@ Många lärare tjänar 4 000-40 000 kr per månad på Teachers Pay Teachers. Bil
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Kombinera med Andra Arbetsblad Generatorer',
+    sectionTitle: 'Gratis Arbetsblad Kombinera - Arbetsblad för Barn och Gratis Utskrifter',
     sectionDescription: 'Skapa kompletta lärpaket genom att kombinera bildkryptogram arbetsblad med dessa kompletterande generatorer.',
     ctaTitle: 'Redo att Skapa Fantastiska Bildkryptogram?',
     ctaDescription: 'Gå med tusentals lärare som skapar professionella arbetsblad. Obegränsad generering, kommersiell licens ingår.',

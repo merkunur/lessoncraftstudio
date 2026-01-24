@@ -83,8 +83,8 @@ Använd vårt verktyg för att skapa arbetsblad gratis från per-arbetsblad-avgi
 
   // Sample Gallery - REAL file paths from samples/english/more less/
   samples: {
-    sectionTitle: 'Jämförelsearbetsblad Exempel',
-    sectionDescription: 'Ladda ner gratis exempelarbetsblad för att se vår professionella kvalitet',
+    sectionTitle: 'Gratis Arbetsblad för Barn - Gratis Arbetsblad och Gratis Utskrifter',
+    sectionDescription: 'Ladda ner gratis utskrifter - Gratis arbetsblad för barn av professionell kvalitet. Gratis arbetsblad och arbetsblad för barn perfekt för arbetsblad för förskoleklass. Gratis arbetsblad för barn och arbetsblad för barn inkluderar utbildningsmaterial. Gratis arbetsblad och gratis utskrifter tillgänglig',
     downloadLabel: 'Ladda Ner Gratis Exempel',
     worksheetLabel: 'Arbetsblad',
     answerKeyLabel: 'Facit',
@@ -311,7 +311,7 @@ Skriv ut på vilken skrivare som helst. Hemskrivare fungerar utmärkt för matte
 
   // Use Cases - FULL text from more-less.md use case sections
   useCases: {
-    sectionTitle: 'Perfekt för Lärare och Föräldrar - Förskoleklass Material och Matte Övningar för Siffror och Tal',
+    sectionTitle: 'Gratis Arbetsblad för Barn - Arbetsblad för Förskoleklass med Gratis Utskrifter. Arbetsblad för Barn',
     sectionDescription: 'Jämförelsearbetsblad passar många olika användare och undervisningssituationer. Lärare i olika årskurser använder verktyget dagligen. Hemmaskolande föräldrar skapar anpassade lektioner. Specialpedagoger differentierar undervisning effektivt. Varje användargrupp hittar unika fördelar med dessa arbetsblad gratis från designkostnader.',
     badgeText: 'Vem Det Är För',
     readMoreLabel: 'Läs mer',
@@ -394,7 +394,7 @@ Exportera i högkvalitativ PDF för professionella produkter. 300 DPI-kvaliteten
 
   // FAQ Section - Selected FAQs from more-less.md
   faq: {
-    sectionTitle: 'Vanliga Frågor om Matematik Arbetsblad för Jämförelser och Förskoleklass Material',
+    sectionTitle: 'FAQ - Gratis Arbetsblad för Barn och Arbetsblad för Förskoleklass med Gratis Utskrifter. Arbetsblad för Barn',
     sectionDescription: 'Lärare och föräldrar har många frågor om jämförelsegeneratorn. Här besvarar vi de vanligaste frågorna. Svaren täcker prenumeration, användning i klassrummet och tekniska detaljer.',
     showMoreText: 'Visa fler frågor',
     showLessText: 'Visa färre',
@@ -497,7 +497,7 @@ Exportera i högkvalitativ PDF för professionella produkter. 300 DPI-kvaliteten
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Kombinera med Andra Arbetsblad Generatorer',
+    sectionTitle: 'Gratis Arbetsblad Kombinera - Arbetsblad för Barn och Gratis Utskrifter',
     sectionDescription: 'Skapa kompletta lärpaket genom att kombinera jämförelsearbetsblad med dessa kompletterande generatorer för matematik och visuell perception.',
     ctaTitle: 'Redo att Skapa Fantastiska Jämförelsearbetsblad?',
     ctaDescription: 'Gå med tusentals lärare som skapar professionella arbetsblad. Obegränsad generering, kommersiell licens ingår.',

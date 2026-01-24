@@ -53,8 +53,8 @@ Full Tilgang-abonnement koster kr 1 800 per år eller kr 190 per måned. Inklude
 
   // Sample Gallery
   samples: {
-    sectionTitle: 'Skattejakt Arbeidsark Eksempler',
-    sectionDescription: 'Last ned gratis eksempler på arbeidsark for å se vår profesjonelle kvalitet',
+    sectionTitle: 'Gratis Arbeidsark for Barn - Gratis Arbeidsark og Gratis Utskrifter',
+    sectionDescription: 'Last ned gratis utskrifter - Gratis arbeidsark for barn av profesjonell kvalitet. Gratis arbeidsark og arbeidsark for barn perfekt for arbeidsark for 1. trinn. Gratis arbeidsark for barn og arbeidsark for barn inkluderer gratis utskrifter undervisningsmateriell. Gratis arbeidsark og arbeidsark for 1. trinn tilgjengelig',
     badgeText: 'Gratis Eksempler',
     downloadLabel: 'Last ned Gratis Eksempel',
     downloadingLabel: 'Laster ned...',
@@ -84,7 +84,7 @@ Full Tilgang-abonnement koster kr 1 800 per år eller kr 190 per måned. Inklude
 
   // Features Grid
   features: {
-    sectionTitle: 'Skattejakt Funksjoner - Arbeidsark Gratis for Lesetrening og Matematikk Oppgaver',
+    sectionTitle: 'Gratis Arbeidsark og Arbeidsark for Barn - Gratis Utskrifter og Arbeidsark for 1. Trinn',
     sectionDescription: 'Skattejakt generatoren tilbyr alt du trenger for å lage engasjerende arbeidsark gratis. Verktøyet kombinerer romlig orientering med lesetrening og matematikk oppgaver. Perfekt for lærere som trenger oppgavehefter barn raskt. Lag fargeleggingsbilder barn kombinert med skattejakter på minutter i stedet for timer. Hver skattejakt lærer barn å følge retningsanvisninger trinn for trinn. Full Tilgang-abonnement gir ubegrenset tilgang til alle funksjoner.',
     highlightBadgeText: 'Viktig Funksjon',
     readMoreLabel: 'Les mer',
@@ -164,7 +164,7 @@ PDF-format bevarer layout perfekt for konsistent utskrift. JPEG-format er kompat
 
   // How-To Guide
   howTo: {
-    sectionTitle: 'Hvordan Lage Arbeidsark Gratis i 5 Enkle Trinn - Skattejakter for Oppgavehefter Barn',
+    sectionTitle: 'Gratis Arbeidsark for Barn Lage - Arbeidsark for 1. Trinn',
     sectionDescription: 'Lag profesjonelle skattejakter på under 3 minutter. Følg disse fem enkle trinnene fra start til ferdig arbeidsark gratis. Ingen tekniske ferdigheter kreves for å lage oppgavehefter barn. Prosessen er enkel nok for alle lærere uansett IT-nivå. Lag bokstaver lære skrive aktiviteter og tall og telling skattejakter raskt.',
     ctaText: 'Start Nå',
     badgeText: 'Slik Fungerer Det',
@@ -226,7 +226,7 @@ Klikk Last ned-knappen i toppmenyen. Velg mellom JPEG eller PDF format. Kryss av
 
   // Use Cases
   useCases: {
-    sectionTitle: 'Perfekt for Lærere og Foreldre - Arbeidsark Gratis for Oppgavehefter Barn',
+    sectionTitle: 'Gratis Arbeidsark for Barn - Arbeidsark for 1. Trinn med Gratis Utskrifter. Arbeidsark for Barn',
     sectionDescription: 'Skattejakt generatoren passer alle som jobber med barn. Lærere i barnehage og barneskole bruker verktøyet daglig. Hjemmeskolelærende foreldre lager tilpassede oppgavehefter barn. Spesialpedagoger differensierer arbeidsark gratis for individuelle behov. Lærerentreprenører selger skattejakter på Teachers Pay Teachers og Etsy.',
     badgeText: 'Hvem Er Det For',
     readMoreLabel: 'Les mer',
@@ -297,7 +297,7 @@ Lag tematiske oppgavehefter barn for sesongbasert salg. Kombiner skattejakter me
 
   // FAQ Section
   faq: {
-    sectionTitle: 'Ofte Stilte Spørsmål - Skattejakt Arbeidsark Gratis for Oppgavehefter Barn',
+    sectionTitle: 'FAQ - Gratis Arbeidsark for Barn og Arbeidsark for 1. Trinn. Arbeidsark for Barn',
     sectionDescription: 'Lærere og foreldre stiller mange spørsmål om skattejakt generatoren. Her finner du svar på de vanligste spørsmålene. Lær om Full Tilgang-abonnement versus gratis versjon. Forstå hvordan du bruker arbeidsark gratis i klasserommet.',
     showMoreText: 'Vis flere spørsmål',
     showLessText: 'Vis færre',

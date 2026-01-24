@@ -78,7 +78,7 @@ Full Access subscription costs $240 annually or $25 monthly. This includes all 3
 
   // Sample Gallery - REAL file paths from samples/english/picture-sort/
   samples: {
-    sectionTitle: 'Worksheet Samples',
+    sectionTitle: 'Free Worksheet for Kids - Free Worksheets and Free Printables',
     downloadLabel: 'Download Free Sample',
     worksheetLabel: 'Worksheet',
     answerKeyLabel: 'Answer Key',
@@ -123,8 +123,8 @@ Full Access subscription costs $240 annually or $25 monthly. This includes all 3
 
   // Features Grid - FULL descriptions from picture-sort.md H3 sections
   features: {
-    sectionTitle: 'Picture Sort Features - Free Printable Kindergarten Worksheets and First Grade Worksheets',
-    sectionDescription: 'Our picture sorting worksheet generator includes powerful features for creating educational materials. Teachers create professional kindergarten worksheets and first grade worksheets in minutes. Every feature supports your classroom needs from preschool through early elementary. Full Access subscription gives you complete control over worksheet design.',
+    sectionTitle: 'Free Worksheet for Kids Features - Worksheet for Kindergarten and Free Printables',
+    sectionDescription: 'Our picture sorting worksheet generator includes powerful features for creating free worksheet for kids and free worksheets. Teachers create professional free worksheet for kids in minutes. Every free worksheets supports your classroom needs from preschool through early elementary. Full Access gives you complete control over free worksheet for kids design.',
     highlightBadgeText: 'Key Feature',
     items: [
       {
@@ -181,7 +181,7 @@ Full Access subscription costs $240 annually or $25 monthly. This includes all 3
 
   // How-To Guide - FULL text from picture-sort.md Step sections
   howTo: {
-    sectionTitle: 'How to Create Picture Sort Worksheets in 5 Easy Steps - Free Printable Kindergarten Worksheets',
+    sectionTitle: 'How to Create Free Worksheets for Kids in 5 Steps - Worksheet for Kindergarten',
     sectionDescription: 'Creating picture sorting worksheets takes less than 3 minutes from start to download. The simple five-step process works for all grade levels. Teachers create professional sorting activities without design experience. Each step offers customization options to match your teaching goals. Build math worksheets for number sorting. Design phonics worksheets for initial sound categorization. Create alphabet worksheets for uppercase and lowercase matching.',
     ctaText: 'Start Creating Now',
     steps: [
@@ -225,7 +225,7 @@ Full Access subscription costs $240 annually or $25 monthly. This includes all 3
 
   // Use Cases - FULL descriptions from picture-sort.md persona sections
   useCases: {
-    sectionTitle: 'Perfect for Teachers, Parents, and Educators',
+    sectionTitle: 'Free Worksheet for Kids for Teachers - Free Printables',
     sectionDescription: 'Picture sorting worksheets serve multiple educational purposes across different learning environments. Kindergarten teachers use sorting activities to build foundational classification skills. First grade teachers incorporate picture sorts into math and literacy centers. Parents appreciate the flexibility for home learning and enrichment activities. Special education teachers customize sorting worksheets for individualized instruction. ESL instructors use picture sorts to build vocabulary without language barriers. Teacher entrepreneurs sell themed sorting worksheet collections on Teachers Pay Teachers and Etsy.',
     items: [
       {
@@ -281,7 +281,7 @@ Full Access subscription costs $240 annually or $25 monthly. This includes all 3
 
   // FAQ Section - ALL questions from picture-sort.md
   faq: {
-    sectionTitle: 'Frequently Asked Questions',
+    sectionTitle: 'FAQ - Free Worksheets for Kids and Worksheet for Kindergarten',
     sectionDescription: 'Teachers ask common questions about creating picture sorting worksheets for kindergarten through first grade. Questions cover subscription requirements, printing capabilities, customization options, and commercial licensing. Answers help kindergarten teachers, first grade teachers, homeschool parents, and ESL instructors understand full platform capabilities.',
     showMoreText: 'Show more questions',
     showLessText: 'Show less',

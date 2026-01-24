@@ -85,8 +85,8 @@ Fuld Adgang-abonnementet koster 1800 DKK om året eller 200 DKK om måneden. Dit
 
   // Sample Gallery - REAL file paths from samples/danish/code-addition/
   samples: {
-    sectionTitle: 'Gratis Arbejdsark Eksempler - Kode-Addition til Børn',
-    sectionDescription: 'Download gratis eksempler på arbejdsark for at se vores professionelle kvalitet',
+    sectionTitle: 'Gratis Arbejdsark til Børn - Gratis Arbejdsark og Gratis Printables',
+    sectionDescription: 'Download gratis printables - Gratis arbejdsark til børn af professionel kvalitet. Gratis arbejdsark og arbejdsark til børn perfekt til arbejdsark til børnehaveklasse. Gratis arbejdsark til børn og arbejdsark til børn inkluderer undervisningsmateriale. Gratis arbejdsark tilgængeligt',
     badgeText: 'Gratis Eksempler',
     downloadLabel: 'Download Gratis Eksempel',
     downloadingLabel: 'Downloader...',
@@ -137,7 +137,7 @@ Fuld Adgang-abonnementet koster 1800 DKK om året eller 200 DKK om måneden. Dit
 
   // Features Grid - FULL text from code-addition.md feature sections
   features: {
-    sectionTitle: 'Funktioner - Gratis Arbejdsark Generator til Børn og Børnehaveklasse',
+    sectionTitle: 'Gratis Arbejdsark og Arbejdsark til Børn - Gratis Printables og Arbejdsark til Børnehaveklasse',
     sectionDescription: 'Vores billedbaserede plusstykke-generator giver dig alt du behøver for at skabe professionelle matematikopgaver. Hver funktion er designet til at spare tid for travle lærere. Skab arbejdsark til 0. klasse på få minutter i stedet for timer. Fuld Adgang-abonnementet giver dig ubegrænsede muligheder for tilpasning og download.',
     highlightBadgeText: 'Vigtig Funktion',
     readMoreLabel: 'Læs mere',
@@ -247,7 +247,7 @@ Ubegrænsede downloads inkluderet i abonnementet. Generér og download 5 matemat
 
   // How-To Guide - FULL text from code-addition.md step sections
   howTo: {
-    sectionTitle: 'Sådan Laver Du Gratis Arbejdsark til Børn i 5 Nemme Trin',
+    sectionTitle: 'Gratis Arbejdsark til Børn Oprette - Arbejdsark til Børnehaveklasse',
     sectionDescription: 'Skab professionelle matematikopgaver på under 3 minutter. Denne step-by-step guide viser dig hvordan. Ingen designerfaring nødvendig. Processen er så enkel at du kan lave opgaver mellem lektioner.',
     ctaText: 'Start Nu',
     badgeText: 'Sådan Virker Det',
@@ -450,7 +450,7 @@ Mange danske lærere tjener 3000-15000 DKK månedligt fra passivt salg. Dit 1800
 
   // FAQ Section - Selected FAQs from code-addition.md
   faq: {
-    sectionTitle: 'Ofte Stillede Spørgsmål om Gratis Arbejdsark til Børn',
+    sectionTitle: 'FAQ - Gratis Arbejdsark til Børn og Arbejdsark til Børnehaveklasse. Arbejdsark til Børn',
     sectionDescription: 'Lærere og forældre stiller ofte de samme spørgsmål om vores matematikopgave-generator. Her er svar på de mest almindelige spørgsmål. Få klarhed før du abonnerer.',
     showMoreText: 'Vis flere spørgsmål',
     showLessText: 'Vis færre',
@@ -579,7 +579,7 @@ Mange danske lærere tjener 3000-15000 DKK månedligt fra passivt salg. Dit 1800
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Kombiner med Andre Gratis Arbejdsark Generatorer',
+    sectionTitle: 'Gratis Arbejdsark Kombinere - Arbejdsark til Børn og Gratis Printables',
     sectionDescription: 'Lav komplette læringspakker ved at kombinere matematikopgaver med billeder med disse komplementære generatorer.',
     ctaTitle: 'Klar til at Lave Fantastiske Arbejdsark?',
     ctaDescription: 'Tilslut dig tusindvis af pædagoger der laver professionelle arbejdsark. Ubegrænset oprettelse, kommerciel licens inkluderet.',

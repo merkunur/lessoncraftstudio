@@ -83,8 +83,8 @@ Ce générateur de mots mêlés fonctionne en 11 langues complètes. Français, 
 
   // Sample Gallery - REAL file paths from samples/english/wordsearch/
   samples: {
-    sectionTitle: 'Exemples de Mots Mêlés',
-    sectionDescription: 'Téléchargez des exemples gratuits pour voir notre qualité professionnelle',
+    sectionTitle: 'Fiche Gratuite pour Enfants - Fiches Gratuites et Imprimables Gratuits',
+    sectionDescription: 'Téléchargez imprimables gratuits - Fiche gratuite pour enfants de qualité professionnelle. Fiches gratuites et fiche pour enfants parfaites pour fiche pour maternelle. Fiche gratuite pour enfants et fiches gratuites inclus matériel éducatif. Fiche gratuite et fiches gratuites disponible',
     downloadLabel: 'Télécharger Exemple Gratuit',
     worksheetLabel: 'Fiche',
     answerKeyLabel: 'Corrigé',
@@ -135,7 +135,7 @@ Ce générateur de mots mêlés fonctionne en 11 langues complètes. Français, 
 
   // Features Grid - FULL text from wordsearch.md feature sections
   features: {
-    sectionTitle: 'Fonctionnalités des Mots Mêlés - Fiches Maternelle et Exercices CP Professionnels',
+    sectionTitle: 'Fiches Gratuites et Fiche pour Enfants - Imprimables Gratuits et Fiche pour Maternelle',
     sectionDescription: 'Notre générateur de mots mêlés inclut toutes les fonctionnalités dont vous avez besoin. Créez des fiches à imprimer gratuit pour la maternelle et le CP. Le générateur est parfait pour créer des exercices de mathématiques et des fiches de vocabulaire.',
     highlightBadgeText: 'Fonctionnalité Clé',
     readMoreLabel: 'Lire la suite',
@@ -227,7 +227,7 @@ L'option niveaux de gris économise l'encre lors de l'impression. Choisissez les
 
   // How-To Guide - FULL text from wordsearch.md step sections
   howTo: {
-    sectionTitle: 'Comment Créer des Fiches à Imprimer Gratuit en 5 Étapes Simples',
+    sectionTitle: 'Fiche Gratuite pour Enfants Créer - Fiche pour Maternelle',
     sectionDescription: 'Créez des puzzles de mots mêlés professionnels en moins de trois minutes au total. Suivez ces cinq étapes simples pour générer des fiches maternelle professionnelles. Aucune expérience en design requise. Sélectionnez simplement des images, personnalisez les paramètres et téléchargez.',
     ctaText: 'Commencer Maintenant',
     badgeText: 'Comment Ça Marche',
@@ -299,7 +299,7 @@ Activez le mode niveaux de gris avant de télécharger pour économiser l'encre.
 
   // Use Cases - FULL text from wordsearch.md use case sections
   useCases: {
-    sectionTitle: 'Parfait pour les Enseignants et les Parents',
+    sectionTitle: 'Fiche Gratuite pour Enfants - Fiche pour Maternelle avec Imprimables Gratuits. Fiche pour Enfants',
     sectionDescription: 'Le générateur de mots mêlés est parfait pour tous ceux qui enseignent aux enfants. Les enseignants de maternelle et du primaire l\'utilisent quotidiennement. Les parents en instruction à domicile créent des fiches à imprimer gratuit pour leurs enfants. Les enseignants spécialisés créent des fiches adaptées aux différents besoins.',
     badgeText: 'Pour Qui',
     readMoreLabel: 'Lire la suite',
@@ -382,7 +382,7 @@ Les boutiques de printables Etsy présentent des fiches de mots mêlés aux côt
 
   // FAQ Section - Selected FAQs from wordsearch.md
   faq: {
-    sectionTitle: 'Questions Fréquentes',
+    sectionTitle: 'FAQ - Fiche Gratuite pour Enfants et Fiche pour Maternelle. Fiche pour Enfants',
     sectionDescription: 'Questions fréquentes sur notre générateur de mots mêlés et nos fiches à imprimer gratuit.',
     showMoreText: 'Voir plus de questions',
     showLessText: 'Voir moins',
@@ -517,7 +517,7 @@ Les boutiques de printables Etsy présentent des fiches de mots mêlés aux côt
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Combinez avec d\'Autres Générateurs de Fiches',
+    sectionTitle: 'Fiches Gratuites Combiner - Fiche pour Enfants et Imprimables Gratuits',
     sectionDescription: 'Créez des paquets d\'apprentissage complets en combinant les fiches de mots mêlés avec ces générateurs complémentaires.',
     ctaTitle: 'Prêt à Créer des Fiches Fantastiques ?',
     ctaDescription: 'Rejoignez des milliers d\'enseignants qui créent des fiches professionnelles. Génération illimitée, licence commerciale incluse.',

@@ -55,8 +55,8 @@ Tulostettavat tehtävät lapsille ilmainen on tärkein hakusana suomalaisille op
 
   // Sample Gallery - REAL file paths from samples/english/sudoku/
   samples: {
-    sectionTitle: 'Lasten Sudoku Esimerkit',
-    sectionDescription: 'Lataa ilmaiset esimerkkisudokut nähdäksesi ammattimaisen laatumme',
+    sectionTitle: 'Ilmainen Työarkki Lapsille - Ilmaiset Työarkit ja Ilmaiset Tulosteet',
+    sectionDescription: 'Lataa ilmaiset tulosteet - Ilmainen työarkki lapsille ammattimaista laatua. Ilmaiset työarkit ja työarkki lapsille täydellinen työarkki esiopetukseen. Ilmainen työarkki lapsille ja työarkki lapsille sisältää ilmaiset tulosteet ja ilmaiset työarkit opetusmateriaalin. Ilmainen työarkki ja työarkki esiopetukseen saatavilla',
     downloadLabel: 'Lataa Ilmainen Esimerkki',
     worksheetLabel: 'Tehtäväsivu',
     answerKeyLabel: 'Vastaussivu',
@@ -93,7 +93,7 @@ Tulostettavat tehtävät lapsille ilmainen on tärkein hakusana suomalaisille op
 
   // Features Grid - FULL text from Finnish sudoku.md feature sections
   features: {
-    sectionTitle: 'Lasten Sudoku -Ominaisuudet - Kaikki Mitä Tarvitset Tulostettaviin Tehtäviin Lapsille',
+    sectionTitle: 'Ilmaiset Työarkit ja Työarkki Lapsille - Ilmaiset Tulosteet ja Työarkki Esiopetukseen',
     sectionDescription: 'Sudoku-generaattorimme sisältää kaikki työkalut ammattitasoisten tehtävien luomiseen. Luo tulostettavia tehtäviä lapsille nopeasti ja helposti. Muokkaa jokaista elementtiä työalueella. Lataa omia kuvia tai käytä 3000+ kuvan kirjastoamme. Kaikki tehtävät ladataan 300 DPI -laatuna ammattimaista tulostusta varten. Peruspaketti-tilauksesi sisältää kaiken tarvitsemasi esiopetus materiaalin luomiseen.',
     highlightBadgeText: 'Tärkeä Ominaisuus',
     readMoreLabel: 'Lue lisää',
@@ -173,7 +173,7 @@ Korkea resoluutio tekee eron lopputuloksessa. Kuvat pysyvät terävinä A4-tulos
 
   // How-To Guide - FULL text from Finnish sudoku.md step sections
   howTo: {
-    sectionTitle: 'Kuinka Luoda Lasten Sudoku -Tehtäviä Viidessä Helpossa Vaiheessa',
+    sectionTitle: 'Ilmainen Työarkki Lapsille Luoda - Työarkki Esiopetukseen',
     sectionDescription: 'Sudoku-tehtävien luominen on nopeaa ja helppoa. Koko prosessi vie alle kolme minuuttia. Ei teknistä osaamista tarvita. Ei monimutkaisia asetuksia. Viisi yksinkertaista vaihetta ja esiopetus materiaali ilmainen on valmis tulostettavaksi. Jokainen vaihe on suunniteltu intuitiiviseksi opettajille. Peruspaketti-tilaajat voivat luoda rajattomasti tehtäviä ilman lisämaksuja.',
     ctaText: 'Aloita Luominen Nyt',
     badgeText: 'Näin Se Toimii',
@@ -249,7 +249,7 @@ Tulosta tehtävät kotitulostimella tai koulun tulostimella. A4-paperi toimii t�
 
   // Use Cases - FULL text from Finnish sudoku.md use case sections
   useCases: {
-    sectionTitle: 'Täydellinen Opettajille, Vanhemmille ja Kasvattajille',
+    sectionTitle: 'Ilmainen Työarkki Lapsille - Työarkki Esiopetukseen ja Ilmaiset Tulosteet. Työarkki Lapsille',
     sectionDescription: 'Lasten sudoku -generaattori palvelee monia käyttäjäryhmiä. Esiopetuksen opettajat luovat hienomotoriikka harjoituksia ja kirjaimet harjoittelu esikoulu -tehtäviä. Alakoulun opettajat luovat matematiikka tehtäviä alakouluun ja lukemaan oppiminen tehtäviä. Kotiopettajat käyttävät generaattoria kaikilla luokka-asteilla. Kieltenopettajat hyödyntävät 11 kielen tukea. Erityisopettajat eriyttävät tehtäviä yksilöllisesti. Opettajayrittäjät myyvät tehtäviä kaupallisella lisenssillä. Peruspaketti-tilaus sopii kaikille näille ryhmille.',
     badgeText: 'Kenelle Sopii',
     readMoreLabel: 'Lue lisää',
@@ -332,7 +332,7 @@ Luo systemaattisesti myyntimateriaaleja. Maanantai luo eläinteemaiset sudokut. 
 
   // FAQ Section - Selected FAQs from Finnish sudoku.md
   faq: {
-    sectionTitle: 'Usein Kysytyt Kysymykset',
+    sectionTitle: 'FAQ - Ilmainen Työarkki Lapsille ja Työarkki Esiopetukseen. Työarkki Lapsille',
     sectionDescription: 'Yleisimmät kysymykset lasten sudoku-generaattorista ja sudoku-tehtävistä.',
     showMoreText: 'Näytä lisää kysymyksiä',
     showLessText: 'Näytä vähemmän',
@@ -427,7 +427,7 @@ Luo systemaattisesti myyntimateriaaleja. Maanantai luo eläinteemaiset sudokut. 
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Yhdistä Muihin Tehtävämonistegeneraattoreihin',
+    sectionTitle: 'Ilmaiset Työarkit Yhdistää - Työarkki Lapsille ja Ilmaiset Tulosteet',
     sectionDescription: 'Luo kattavia oppimispaketteja yhdistämällä sudoku-tehtävät näihin täydentäviin generaattoreihin.',
     ctaTitle: 'Valmiina Luomaan Upeita Sudoku-Tehtäviä?',
     ctaDescription: 'Liity tuhansien opettajien joukkoon, jotka luovat ammattimaisia lasten sudoku -tehtäviä. Rajoittamaton generointi, kaupallinen lisenssi sisältyy.',

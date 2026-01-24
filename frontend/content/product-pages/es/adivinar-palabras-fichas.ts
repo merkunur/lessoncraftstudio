@@ -79,8 +79,8 @@ Tu suscripcion Acceso Completo incluye licencia comercial completa. Puedes vende
 
   // Sample Gallery - REAL file paths from samples/english/word guess/
   samples: {
-    sectionTitle: 'Ejemplos de Fichas Gratis de Adivina la Palabra - Imprimibles Gratis para Ninos',
-    sectionDescription: 'Descarga ejemplos gratuitos para ver nuestra calidad profesional',
+    sectionTitle: 'Ficha Gratis para Niños - Fichas Gratis e Imprimibles Gratis',
+    sectionDescription: 'Descarga imprimibles gratis - Ficha gratis para niños de calidad profesional. Ficha para niños perfecta para ficha para preescolar. Ficha gratis para niños y ficha para niños incluyen material educativo. Ficha gratis disponible',
     downloadLabel: 'Descargar Ejemplo Gratis',
     worksheetLabel: 'Ficha',
     answerKeyLabel: 'Respuestas',
@@ -117,7 +117,7 @@ Tu suscripcion Acceso Completo incluye licencia comercial completa. Puedes vende
 
   // Features Grid - FULL text from word-guess.md feature sections
   features: {
-    sectionTitle: 'Caracteristicas del Generador - Ficha Gratis para Ninos y Ficha para Preescolar de Lectoescritura',
+    sectionTitle: 'Fichas Gratis y Ficha para Niños - Imprimibles Gratis y Ficha para Preescolar',
     sectionDescription: 'Nuestro generador de fichas de adivina la palabra ofrece todas las herramientas que los maestros mexicanos necesitan para crear material educativo gratis de calidad profesional. Cada caracteristica ha sido disenada pensando en las necesidades reales del aula. Desde la seleccion de imagenes hasta la descarga final, todo el proceso es intuitivo y rapido. Las fichas para imprimir resultantes superan la calidad de materiales comerciales costosos. Tu suscripcion Acceso Completo desbloquea acceso completo a todas estas caracteristicas poderosas sin limitaciones ni cargos adicionales.',
     highlightBadgeText: 'Caracteristica Clave',
     readMoreLabel: 'Leer mas',
@@ -211,7 +211,7 @@ La opcion de escala de grises ahorra tinta significativamente sin sacrificar leg
 
   // How-To Guide - FULL text from word-guess.md step sections
   howTo: {
-    sectionTitle: 'Como Crear Ficha para Ninos de Adivina la Palabra en 5 Pasos Faciles - Genera Fichas de Lectoescritura',
+    sectionTitle: 'Ficha Gratis para Niños Crear - Ficha para Preescolar',
     sectionDescription: 'Crear fichas para imprimir profesionales con nuestro generador es extraordinariamente simple. El proceso completo toma menos de 3 minutos desde inicio hasta descarga. No se requieren habilidades tecnicas ni experiencia en diseno grafico. Simplemente sigue estos cinco pasos y tendras fichas infantil de calidad lista para usar en tu aula. Miles de maestros mexicanos ya estan usando este sistema para crear material educativo gratis personalizado diariamente. Tu suscripcion Acceso Completo te da acceso completo a todas las funciones sin restricciones.',
     ctaText: 'Comenzar Ahora',
     badgeText: 'Como Funciona',
@@ -283,7 +283,7 @@ Descarga la hoja de respuestas usando las mismas opciones de formato. Selecciona
 
   // Use Cases - FULL text from word-guess.md use case sections
   useCases: {
-    sectionTitle: 'Perfecto para Maestros y Padres Mexicanos - Fichas para Imprimir de Lectoescritura, Grafomotricidad y Abecedario',
+    sectionTitle: 'Ficha Gratis para Niños - Ficha para Preescolar con Imprimibles Gratis. Ficha para Niños',
     sectionDescription: 'Nuestro generador de fichas para imprimir sirve a diversos educadores y padres en Mexico. Cada grupo encuentra valor unico en las caracteristicas personalizables. Desde maestros de preescolar hasta emprendedores educativos, todos se benefician de la flexibilidad del sistema. Las fichas infantil generadas satisfacen necesidades especificas de cada contexto educativo. Tu suscripcion Acceso Completo te da herramientas profesionales para cualquier situacion de ensenanza. Descubre como diferentes usuarios estan transformando sus practicas educativas con nuestro generador.',
     badgeText: 'Para Quien',
     readMoreLabel: 'Leer mas',
@@ -354,7 +354,7 @@ Teachers Pay Teachers valora especialmente materiales en espanol mexicano autent
 
   // FAQ Section - Selected FAQs from word-guess.md
   faq: {
-    sectionTitle: 'Preguntas Frecuentes sobre Fichas Gratis para Ninos e Imprimibles Gratis de Adivina la Palabra',
+    sectionTitle: 'FAQ - Ficha Gratis para Niños y Ficha para Preescolar. Ficha para Niños',
     sectionDescription: 'Preguntas frecuentes sobre nuestro generador de fichas de adivina la palabra y fichas para imprimir.',
     showMoreText: 'Ver mas preguntas',
     showLessText: 'Ver menos',
@@ -483,7 +483,7 @@ Teachers Pay Teachers valora especialmente materiales en espanol mexicano autent
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Combina con Otros Generadores - Ficha Gratis para Preescolar e Imprimibles Gratis',
+    sectionTitle: 'Fichas Gratis Combinar - Ficha para Niños e Imprimibles Gratis',
     sectionDescription: 'Crea paquetes de aprendizaje completos combinando las fichas de adivina la palabra con estos generadores complementarios.',
     ctaTitle: 'Listo para Crear Fichas Increibles?',
     ctaDescription: 'Unete a miles de maestros que crean fichas profesionales. Generacion ilimitada, licencia comercial incluida.',

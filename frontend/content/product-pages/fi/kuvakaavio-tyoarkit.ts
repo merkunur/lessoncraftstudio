@@ -51,8 +51,8 @@ Tulostettavat tehtävät lapsille sisältävät kaksi osaa. Ensimmäinen osa nä
 
   // Sample Gallery - REAL file paths from samples/english/chart count/
   samples: {
-    sectionTitle: 'Kuvakaavio Tehtävät Esimerkit',
-    sectionDescription: 'Lataa ilmaiset esimerkkityöarkit nähdäksesi ammattimaisen laatumme',
+    sectionTitle: 'Ilmainen Työarkki Lapsille - Ilmaiset Työarkit ja Ilmaiset Tulosteet',
+    sectionDescription: 'Lataa ilmaiset tulosteet - Ilmainen työarkki lapsille ammattimaista laatua. Ilmaiset työarkit ja työarkki lapsille täydellinen työarkki esiopetukseen. Ilmainen työarkki lapsille ja työarkki lapsille sisältää ilmaiset tulosteet ja ilmaiset työarkit opetusmateriaalin. Ilmainen työarkki ja työarkki esiopetukseen saatavilla',
     downloadLabel: 'Lataa Ilmainen Esimerkki',
     worksheetLabel: 'Tehtävämoniste',
     answerKeyLabel: 'Vastausavain',
@@ -75,7 +75,7 @@ Tulostettavat tehtävät lapsille sisältävät kaksi osaa. Ensimmäinen osa nä
 
   // Features Grid - FULL text from Finnish chart-count.md feature sections
   features: {
-    sectionTitle: 'Kuvakaavio Tehtävät - Tulostettavat Tehtävät Lapsille Ilmainen ja Matematiikka Tehtävät Alakoulu',
+    sectionTitle: 'Ilmaiset Työarkit ja Työarkki Lapsille - Ilmaiset Tulosteet ja Työarkki Esiopetukseen',
     sectionDescription: 'Kuvakaavion generaattorimme tarjoaa kaikki työkalut, joita tarvitset ammattimaisten matematiikan tehtävien luomiseen. Täysi Käyttöoikeus -tilaus antaa pääsyn kaikkiin ominaisuuksiin ilman lisämaksuja. Luo tulostettavat matematiikka tehtävät alakoulu -oppilaille kolmessa minuutissa. Jokainen tehtävä on muokattavissa ja personoitavissa oppilaittesi tarpeisiin. Työkalumme sopii esiopetuksesta alakoulun kolmanteen luokkaan.',
     highlightBadgeText: 'Tärkeä Ominaisuus',
     readMoreLabel: 'Lue lisää',
@@ -181,7 +181,7 @@ Tulosta kotitulostimella tai ammattipalvelulla. Kopioi luokalle tai myy verkossa
 
   // How-To Guide - FULL text from Finnish chart-count.md step sections
   howTo: {
-    sectionTitle: 'Kuinka Luoda Matematiikka Tehtävät Alakoulu Viidessä Helpossa Vaiheessa - Tulostettavat Tehtävät Lapsille Ilmainen',
+    sectionTitle: 'Ilmainen Työarkki Lapsille Luoda - Työarkki Esiopetukseen',
     sectionDescription: 'Kuvakaavion luominen vie alle kolme minuuttia. Nämä viisi vaihetta opettavat sinulle koko prosessin. Ei aiempaa kokemusta tarvita. Ei suunnittelutaitoja vaadita. Seuraa näitä ohjeita luodaksesi ammattimaisia tehtäviä. Esiopetus materiaali ilmainen -tilaus antaa sinulle pääsyn kaikkiin työkaluihin.',
     ctaText: 'Aloita Luominen Nyt',
     badgeText: 'Näin Se Toimii',
@@ -263,7 +263,7 @@ Harmaasävyvaihtoehto säästää mustetta. Rastita "Harmaasävy" -valintaruutu 
 
   // Use Cases - FULL text from Finnish chart-count.md use case sections
   useCases: {
-    sectionTitle: 'Täydellinen Opettajille ja Vanhemmille - Matematiikka Tehtävät Alakoulu Kaikille Tarpeille',
+    sectionTitle: 'Ilmainen Työarkki Lapsille - Työarkki Esiopetukseen ja Ilmaiset Tulosteet. Työarkki Lapsille',
     sectionDescription: 'Kuvakaavion generaattori palvelee monia eri käyttäjäryhmiä. Esiopetuksen opettajat, alakoulun opettajat, kotiopettajat ja erityisopettajat hyötyvät työkalusta. Jokainen ryhmä käyttää generaattoria eri tavoin. Kaikki löytävät arvokkaita sovelluksia omaan opetukseensa. Tulostettavat tehtävät lapsille ilmainen -työkalu mukautuu kaikkiin tarpeisiin.',
     badgeText: 'Kenelle Sopii',
     readMoreLabel: 'Lue lisää',
@@ -358,7 +358,7 @@ Monet opettajat tienaavat 500-5000 euroa kuukaudessa. Tilauksesi maksaa itsensä
 
   // FAQ Section - Selected FAQs from Finnish chart-count.md
   faq: {
-    sectionTitle: 'Usein Kysytyt Kysymykset - Kuvakaavio Matematiikka Tehtävät Alakoulu ja Esiopetus Materiaali',
+    sectionTitle: 'FAQ - Ilmainen Työarkki Lapsille ja Työarkki Esiopetukseen. Työarkki Lapsille',
     sectionDescription: 'Opettajat kysyvät samoja kysymyksiä kuvakaaviogeneraattorista. Tässä ovat vastaukset 12 yleisimpään kysymykseen. Nämä vastaukset auttavat sinua ymmärtämään työkalun täydellisesti. Täysi Käyttöoikeus -tilaus antaa kaiken tarvitsemasi. Ei piilomaksuja, ei yllätyksiä.',
     showMoreText: 'Näytä lisää kysymyksiä',
     showLessText: 'Näytä vähemmän',
@@ -486,7 +486,7 @@ Monet opettajat tienaavat 500-5000 euroa kuukaudessa. Tilauksesi maksaa itsensä
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Yhdistä Muihin Tehtävämonistegeneraattoreihin',
+    sectionTitle: 'Ilmaiset Työarkit Yhdistää - Työarkki Lapsille ja Ilmaiset Tulosteet',
     sectionDescription: 'Luo kattavia oppimispaketteja yhdistämällä kuvakaaviotehtävät näihin täydentäviin generaattoreihin.',
     ctaTitle: 'Valmiina Luomaan Upeita Tehtävämonisteitä?',
     ctaDescription: 'Liity tuhansien opettajien joukkoon, jotka luovat ammattimaisia tehtävämonisteitä. Rajoittamaton generointi, kaupallinen lisenssi sisältyy.',

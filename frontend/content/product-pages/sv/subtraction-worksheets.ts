@@ -79,8 +79,8 @@ Exportera i 300 DPI professionell kvalitet. Perfekt för klassrumsbruk och förs
 
   // Sample Gallery - REAL file paths from samples/swedish/subtraction/
   samples: {
-    sectionTitle: 'Gratis Arbetsblad Exempel - Subtraktionsarbetsblad för Förskoleklass',
-    sectionDescription: 'Ladda ner gratis exempelarbetsblad för att se vår professionella kvalitet',
+    sectionTitle: 'Gratis Arbetsblad för Barn - Gratis Arbetsblad och Gratis Utskrifter',
+    sectionDescription: 'Ladda ner gratis utskrifter - Gratis arbetsblad för barn av professionell kvalitet. Gratis arbetsblad och arbetsblad för barn perfekt för arbetsblad för förskoleklass. Gratis arbetsblad för barn och arbetsblad för barn inkluderar utbildningsmaterial. Gratis arbetsblad och gratis utskrifter tillgänglig',
     downloadLabel: 'Ladda Ner Gratis Exempel',
     worksheetLabel: 'Arbetsblad',
     answerKeyLabel: 'Facit',
@@ -124,7 +124,7 @@ Exportera i 300 DPI professionell kvalitet. Perfekt för klassrumsbruk och förs
 
   // Features Grid - FULL text from subtraction.md feature sections
   features: {
-    sectionTitle: 'Funktioner - Gratis Arbetsblad för Barn med Subtraktion och Matematik',
+    sectionTitle: 'Gratis Arbetsblad och Arbetsblad för Barn - Gratis Utskrifter och Arbetsblad för Förskoleklass',
     sectionDescription: 'Vår subtraktionsgenerator erbjuder kraftfulla verktyg för att skapa arbetsblad gratis. Kombinera matematik arbetsblad med förskoleklass material för komplett undervisning. Alla funktioner fungerar tillsammans för effektiv planering. Skapa matte övningar med addition och subtraktion på några minuter. Full kontroll över varje element på arbetsblad.',
     highlightBadgeText: 'Nyckelfunktion',
     readMoreLabel: 'Läs mer',
@@ -310,7 +310,7 @@ Spara filer för framtida användning. Bygg ditt eget bibliotek av matematik arb
 
   // Use Cases - FULL text from subtraction.md use case sections
   useCases: {
-    sectionTitle: 'Gratis Arbetsblad för Barn - Perfekt för Lärare, Föräldrar och Pedagoger',
+    sectionTitle: 'Gratis Arbetsblad för Barn - Arbetsblad för Förskoleklass med Gratis Utskrifter. Arbetsblad för Barn',
     sectionDescription: 'Subtraktionsgeneratorn passar många olika användare. Från förskoleklass till årskurs 3 fungerar verktygen perfekt. Kombinera matematik arbetsblad med målarbilder barn och finmotorik övningar. Skapa arbetsblad gratis för alla behov och ämnesområden.',
     badgeText: 'Vem Det Är För',
     readMoreLabel: 'Läs mer',
@@ -393,7 +393,7 @@ Använd Pinterest för marknadsföring av dina produkter. Pinna exempelarbetsbla
 
   // FAQ Section - Selected FAQs from subtraction.md
   faq: {
-    sectionTitle: 'Vanliga Frågor om Gratis Arbetsblad Subtraktion - Arbetsblad för Förskoleklass',
+    sectionTitle: 'FAQ - Gratis Arbetsblad för Barn och Arbetsblad för Förskoleklass med Gratis Utskrifter. Arbetsblad för Barn',
     sectionDescription: 'Vanliga frågor om vår subtraktionsgenerator och arbetsblad gratis.',
     showMoreText: 'Visa fler frågor',
     showLessText: 'Visa färre',
@@ -527,7 +527,7 @@ Använd Pinterest för marknadsföring av dina produkter. Pinna exempelarbetsbla
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Kombinera med Andra Gratis Arbetsblad Generatorer - Arbetsblad för Barn',
+    sectionTitle: 'Gratis Arbetsblad Kombinera - Arbetsblad för Barn och Gratis Utskrifter',
     sectionDescription: 'Skapa kompletta lärpaket genom att kombinera subtraktionsblad med dessa kompletterande generatorer.',
     ctaTitle: 'Redo att Skapa Fantastiska Arbetsblad?',
     ctaDescription: 'Gå med tusentals lärare som skapar professionella arbetsblad. Obegränsad generering, kommersiell licens ingår.',

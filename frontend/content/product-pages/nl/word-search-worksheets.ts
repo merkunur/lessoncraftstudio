@@ -89,8 +89,8 @@ Traditionele werkbladen kosten veel tijd om te maken. Met deze tool bespaar je u
 
   // Sample Gallery - REAL file paths from samples/dutch/wordsearch/
   samples: {
-    sectionTitle: 'Woordzoeker Gratis Werkbladen Voorbeelden - Werkblad voor Kinderen',
-    sectionDescription: 'Download gratis voorbeeldwerkbladen om onze professionele kwaliteit te ervaren',
+    sectionTitle: 'Gratis Werkblad voor Kinderen - Gratis Werkbladen en Gratis Printables',
+    sectionDescription: 'Download gratis printables - Gratis werkblad voor kinderen van professionele kwaliteit. Gratis werkbladen en werkblad voor kinderen perfect voor werkblad voor kleuters. Gratis werkblad voor kinderen en werkblad voor kinderen inclusief educatief materiaal. Gratis werkblad beschikbaar',
     downloadLabel: 'Gratis Voorbeeld Downloaden',
     worksheetLabel: 'Werkblad',
     answerKeyLabel: 'Antwoordblad',
@@ -134,7 +134,7 @@ Traditionele werkbladen kosten veel tijd om te maken. Met deze tool bespaar je u
 
   // Features Grid - FULL text from wordsearch.md feature sections
   features: {
-    sectionTitle: 'Functies van de Woordzoeker Generator - Werkbladen Groep 3 en Oefenbladen Gratis',
+    sectionTitle: 'Gratis Werkbladen en Werkblad voor Kinderen - Gratis Printables en Werkblad voor Kleuters',
     sectionDescription: 'Deze woordzoeker maker biedt alle functies die je nodig hebt. Van simpele puzzels voor kleuters tot uitdagende woordzoekers voor groep 5. Ontdek hoe je in enkele minuten professionele werkbladen maakt.',
     highlightBadgeText: 'Uitgelicht',
     readMoreLabel: 'Lees meer',
@@ -228,7 +228,7 @@ Je downloadt werkbladen als PDF of JPEG. De PDF-optie is ideaal voor printen. JP
 
   // How-To Guide - FULL text from wordsearch.md step sections
   howTo: {
-    sectionTitle: 'Hoe Maak Je Woordzoekers - Werkbladen Groep 3 in 5 Eenvoudige Stappen',
+    sectionTitle: 'Gratis Werkblad voor Kinderen Maken - Werkblad voor Kleuters',
     sectionDescription: 'Het maken van een woordzoeker duurt minder dan drie minuten. Volg deze vijf stappen en je hebt een professioneel werkblad klaar. Geen technische kennis vereist.',
     ctaText: 'Nu Starten',
     badgeText: 'Zo werkt het',
@@ -300,7 +300,7 @@ De gratis versie bevat een klein watermerk. Dit is niet storend voor klassikaal 
 
   // Use Cases - FULL text from wordsearch.md use case sections
   useCases: {
-    sectionTitle: 'Perfect voor Leerkrachten en Ouders - Gratis Werkbladen voor Kleuters tot Groep 5',
+    sectionTitle: 'Gratis Werkblad voor Kinderen - Werkblad voor Kleuters met Gratis Printables. Werkblad voor Kinderen',
     sectionDescription: 'De woordzoeker generator is ontworpen voor verschillende gebruikers. Van kleuterjuffen tot ouders die thuisonderwijs geven. Ontdek hoe deze tool past bij jouw situatie.',
     badgeText: 'Voor wie',
     readMoreLabel: 'Lees meer',
@@ -383,7 +383,7 @@ Combineer woordzoekers met andere werkbladen tot pakketten. Een thema-bundel met
 
   // FAQ Section - FULL FAQs from wordsearch.md
   faq: {
-    sectionTitle: 'Veelgestelde Vragen over Woordzoekers - Oefenbladen Gratis en Kleurplaten',
+    sectionTitle: 'FAQ - Gratis Werkblad voor Kinderen en Werkblad voor Kleuters. Werkblad voor Kinderen',
     sectionDescription: 'Heb je vragen over de woordzoeker generator? Hieronder vind je antwoorden op de meest gestelde vragen. Van prijzen tot functies en alles daartussen.',
     showMoreText: 'Meer vragen tonen',
     showLessText: 'Minder tonen',
@@ -488,7 +488,7 @@ Combineer woordzoekers met andere werkbladen tot pakketten. Een thema-bundel met
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Combineer Woordzoekers met Andere Gratis Werkbladen Generatoren',
+    sectionTitle: 'Gratis Werkbladen Combineren - Werkblad voor Kinderen en Gratis Printables',
     sectionDescription: 'Met een abonnement krijg je toegang tot 33 generatoren. Combineer verschillende werkblad-typen voor maximale impact. Woordzoekers alleen zijn al waardevol. In combinatie met andere apps ontstaat echte meerwaarde.',
     ctaTitle: 'Klaar om geweldige werkbladen te maken?',
     ctaDescription: 'Sluit je aan bij duizenden leerkrachten die professionele werkbladen maken. Onbeperkt genereren, commerciële licentie inbegrepen.',

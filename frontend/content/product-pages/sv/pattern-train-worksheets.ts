@@ -87,8 +87,8 @@ Full Tillgång-prenumerationen inkluderar kommersiell print-on-demand-licens. S�
 
   // Sample Gallery - REAL file paths from samples/english/pattern train/
   samples: {
-    sectionTitle: 'Gratis Arbetsblad Mönster Tåg - Exempel för Barn och Förskoleklass',
-    sectionDescription: 'Ladda ner gratis utskrifter och exempelarbetsblad för att se vår professionella kvalitet',
+    sectionTitle: 'Gratis Arbetsblad för Barn - Gratis Arbetsblad och Gratis Utskrifter',
+    sectionDescription: 'Ladda ner gratis utskrifter - Gratis arbetsblad för barn av professionell kvalitet. Gratis arbetsblad och arbetsblad för barn perfekt för arbetsblad för förskoleklass. Gratis arbetsblad för barn och arbetsblad för barn inkluderar utbildningsmaterial. Gratis arbetsblad och gratis utskrifter tillgänglig',
     downloadLabel: 'Ladda Ner Gratis Exempel',
     worksheetLabel: 'Arbetsblad',
     answerKeyLabel: 'Facit',
@@ -139,7 +139,7 @@ Full Tillgång-prenumerationen inkluderar kommersiell print-on-demand-licens. S�
 
   // Features Grid - FULL descriptions from pattern-train.md H3 sections
   features: {
-    sectionTitle: 'Pattern Train Funktioner - Allt du Behöver för Mönster Arbetsblad',
+    sectionTitle: 'Gratis Arbetsblad och Arbetsblad för Barn - Gratis Utskrifter och Arbetsblad för Förskoleklass',
     sectionDescription: 'Vår Pattern Train-generator kombinerar kraftfulla funktioner med användarvänlighet för att skapa professionella mönsterigenkänningsarbetsblad. Din Full Tillgång-prenumeration ger dig tillgång till alla verktyg du behöver för att skapa anpassade matematik arbetsblad och matte övningar för förskoleklass material och lågstadiet. Varje funktion är designad för att spara tid samtidigt som den levererar arbetsblad gratis med högsta kvalitet för din undervisning.',
     highlightBadgeText: 'Nyckelfunktion',
     readMoreLabel: 'Läs mer',
@@ -244,7 +244,7 @@ Denna flexibilitet gör det möjligt att differentiera undervisningen effektivt.
 
   // How-To Guide - FULL text from pattern-train.md Step sections
   howTo: {
-    sectionTitle: 'Hur Man Skapar Mönster Arbetsblad i 5 Enkla Steg',
+    sectionTitle: 'Gratis Arbetsblad för Barn Skapa - Arbetsblad för Förskoleklass och Gratis Utskrifter',
     sectionDescription: 'Skapa professionella mönsterigenkänningsarbetsblad på under 3 minuter. Denna steg-för-steg-guide visar exakt hur man använder Pattern Train-generatorn för att skapa arbetsblad gratis för förskoleklass material och lågstadiets matte övningar. Ingen tidigare designerfarenhet krävs. Följ dessa fem enkla steg och du har färdiga matematik arbetsblad redo att skriva ut.',
     ctaText: 'Börja Skapa Nu',
     badgeText: 'Så Fungerar Det',
@@ -316,7 +316,7 @@ Kryssa i "Gråskala"-rutan innan nedladdning för att konvertera ditt färgarbet
 
   // Use Cases - FULL descriptions from pattern-train.md persona sections
   useCases: {
-    sectionTitle: 'Gratis Arbetsblad för Barn - Perfekt för Lärare, Föräldrar och Förskoleklass',
+    sectionTitle: 'Gratis Arbetsblad för Barn - Arbetsblad för Förskoleklass med Gratis Utskrifter. Arbetsblad för Barn',
     sectionDescription: 'Pattern Train-generatorn möter behoven hos olika typer av pedagoger och föräldrar. Från förskoleklass till årskurs 3 skapar dessa mönster arbetsblad engagerande lärandemöjligheter. Full Tillgång-prenumerationen ger alla användartyper tillgång till professionella verktyg för att skapa arbetsblad gratis med obegränsad kreativ frihet. Upptäck hur Pattern Train passar just dina undervisningsbehov.',
     badgeText: 'Vem Det Är För',
     readMoreLabel: 'Läs mer',
@@ -399,7 +399,7 @@ Kombinera mönster arbetsblad med målarbilder barn för premiumpaket. Varje pak
 
   // FAQ Section - ALL questions from pattern-train.md
   faq: {
-    sectionTitle: 'Vanliga Frågor om Gratis Arbetsblad Mönster Tåg för Förskoleklass',
+    sectionTitle: 'FAQ - Gratis Arbetsblad för Barn och Arbetsblad för Förskoleklass med Gratis Utskrifter. Arbetsblad för Barn',
     sectionDescription: 'Lärare och föräldrar har många frågor om Pattern Train-generatorn innan de prenumererar. Dessa svar behandlar prissättning, användning, kommersiell licensiering och mer. Förståelse av prenumerationsfördelar hjälper pedagoger avgöra om verktyget passar deras undervisningsbehov.',
     showMoreText: 'Visa fler frågor',
     showLessText: 'Visa färre',
@@ -502,7 +502,7 @@ Kombinera mönster arbetsblad med målarbilder barn för premiumpaket. Varje pak
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Gratis Utskrifter - Kombinera med Andra Arbetsblad för Barn',
+    sectionTitle: 'Gratis Arbetsblad Kombinera - Arbetsblad för Barn och Gratis Utskrifter',
     sectionDescription: 'Skapa kompletta lärpaket genom att kombinera mönster arbetsblad med dessa kompletterande generatorer.',
     ctaTitle: 'Redo att Skapa Fantastiska Arbetsblad?',
     ctaDescription: 'Gå med tusentals lärare som skapar professionella arbetsblad. Obegränsad generering, kommersiell licens ingår.',

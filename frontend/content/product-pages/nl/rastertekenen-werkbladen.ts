@@ -96,8 +96,8 @@ Rastertekenen is een van de beste activiteiten voor jonge kinderen. Het combinee
 
   // Sample Gallery - REAL file paths from samples/english/draw and color/
   samples: {
-    sectionTitle: 'Gratis Werkblad Rastertekenen Voorbeelden - Werkblad voor Kinderen',
-    sectionDescription: 'Download gratis voorbeeldwerkbladen om onze professionele kwaliteit te ervaren',
+    sectionTitle: 'Gratis Werkblad voor Kinderen - Gratis Werkbladen en Gratis Printables',
+    sectionDescription: 'Download gratis printables - Gratis werkblad voor kinderen van professionele kwaliteit. Gratis werkbladen en werkblad voor kinderen perfect voor werkblad voor kleuters. Gratis werkblad voor kinderen en werkblad voor kinderen inclusief educatief materiaal. Gratis werkblad beschikbaar',
     downloadLabel: 'Gratis Voorbeeld Downloaden',
     worksheetLabel: 'Werkblad',
     answerKeyLabel: 'Antwoordblad',
@@ -148,7 +148,7 @@ Rastertekenen is een van de beste activiteiten voor jonge kinderen. Het combinee
 
   // Features Grid - FULL text from draw-and-color.md feature sections
   features: {
-    sectionTitle: 'Gratis Werkblad Functies - Werkblad voor Kinderen en Gratis Printables Generator',
+    sectionTitle: 'Gratis Werkbladen en Werkblad voor Kinderen - Gratis Printables en Werkblad voor Kleuters',
     sectionDescription: 'Onze rastertekenen generator biedt alle functies die leerkrachten nodig hebben. Van eenvoudig maken tot volledig aanpassen op het canvas. Hieronder vind je de belangrijkste mogelijkheden. Elke functie is ontworpen met het basisonderwijs in gedachten. Leerkrachten besparen uren voorbereidingstijd per week. De generator combineert rastertekenen met kleurplaten voor maximale flexibiliteit.',
     highlightBadgeText: 'Uitgelicht',
     readMoreLabel: 'Lees meer',
@@ -370,7 +370,7 @@ Start een Etsy winkel met printbare oefenbladen. Tafels oefenen werkbladen zijn 
 
   // FAQ Section - FULL FAQs from draw-and-color.md
   faq: {
-    sectionTitle: 'Veelgestelde Vragen over Gratis Werkblad Rastertekenen - Werkblad voor Kinderen Generator',
+    sectionTitle: 'FAQ - Gratis Werkblad voor Kinderen en Werkblad voor Kleuters. Werkblad voor Kinderen',
     sectionDescription: 'Hieronder beantwoorden we de meest gestelde vragen over onze rastertekenen generator. Van technische vragen tot pedagogische toepassingen.',
     showMoreText: 'Meer vragen tonen',
     showLessText: 'Minder tonen',

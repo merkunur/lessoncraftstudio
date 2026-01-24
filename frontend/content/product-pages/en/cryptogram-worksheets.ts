@@ -76,7 +76,7 @@ Our cryptogram worksheet generator creates custom puzzles in 11 languages. Uploa
 
   // Sample Gallery - REAL file paths from samples/english/cryptogram/
   samples: {
-    sectionTitle: 'Cryptogram Worksheets: Free Printable Samples for Kids',
+    sectionTitle: 'Free Worksheet for Kids - Free Worksheets and Free Printables Samples',
     downloadLabel: 'Download Free Sample',
     worksheetLabel: 'Worksheet',
     answerKeyLabel: 'Answer Key',
@@ -126,7 +126,7 @@ Our cryptogram worksheet generator creates custom puzzles in 11 languages. Uploa
 
   // Features Grid - FULL descriptions from cryptogram.md H3 sections
   features: {
-    sectionTitle: 'Picture Cryptogram Features',
+    sectionTitle: 'Free Worksheet for Kids Features - Worksheet for Kindergarten',
     sectionDescription: 'Our picture cryptogram generator includes every feature teachers need for professional free printable worksheets. Create custom cryptogram worksheets for kindergarten through first grade in minutes. Each feature helps you build engaging alphabet worksheets, phonics worksheets, and sight words worksheets activities. Your Full Access subscription includes unlimited access to all features with no per-worksheet charges.',
     highlightBadgeText: 'Key Feature',
     items: [
@@ -184,7 +184,7 @@ Our cryptogram worksheet generator creates custom puzzles in 11 languages. Uploa
 
   // How-To Guide - FULL text from cryptogram.md Step sections
   howTo: {
-    sectionTitle: 'How to Create Picture Cryptogram Worksheets',
+    sectionTitle: 'How to Create Free Worksheets - Worksheet for Kids in 5 Steps',
     sectionDescription: 'Follow these simple steps to create professional cryptogram worksheets for any educational purpose. Each process takes less than three minutes from start to download. These methods work for alphabet worksheets, math worksheets, phonics worksheets, and all other free printable worksheets you need.',
     ctaText: 'Start Creating Now',
     steps: [
@@ -228,7 +228,7 @@ Our cryptogram worksheet generator creates custom puzzles in 11 languages. Uploa
 
   // Use Cases - FULL descriptions from cryptogram.md persona sections
   useCases: {
-    sectionTitle: 'Perfect for Teachers, Parents, and Educators',
+    sectionTitle: 'Free Printables for Teachers - Worksheet for Kindergarten',
     sectionDescription: 'Picture cryptogram worksheets serve diverse educational needs across multiple teaching environments. Teachers, homeschool parents, and curriculum developers use our cryptogram generator to create engaging free printable worksheets for various learning objectives. The visual nature of picture cryptograms makes them perfect for kindergarten worksheets, ESL sight words worksheets, and special education phonics worksheets.',
     items: [
       {
@@ -284,7 +284,7 @@ Our cryptogram worksheet generator creates custom puzzles in 11 languages. Uploa
 
   // FAQ Section - ALL questions from cryptogram.md
   faq: {
-    sectionTitle: 'Frequently Asked Questions',
+    sectionTitle: 'FAQ - Free Worksheet and Free Printables for Kids',
     sectionDescription: 'Teachers ask common questions about using our picture cryptogram generator for creating kindergarten worksheets and first grade worksheets. This section answers frequently asked questions covering worksheet creation, customization, commercial licensing, and technical requirements.',
     showMoreText: 'Show more questions',
     showLessText: 'Show less',
@@ -437,7 +437,7 @@ Our cryptogram worksheet generator creates custom puzzles in 11 languages. Uploa
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Combine with Other Worksheet Generators',
+    sectionTitle: 'More Free Worksheet for Kids - Worksheet Generators',
     sectionDescription: 'Your cryptogram worksheet generator works perfectly alongside other free printable worksheet creators. Combine picture cryptogram puzzles with matching games, bingo cards, tracing worksheets, coloring worksheets, and math worksheets to create valuable free printable worksheets bundles. Teachers use these combinations to build thematic units, differentiated instruction sets, and commercial products for Teachers Pay Teachers.',
     ctaTitle: 'Ready to Create Amazing Worksheets?',
     ctaDescription: 'Join educators creating professional worksheets. Unlimited generation, commercial license included.',

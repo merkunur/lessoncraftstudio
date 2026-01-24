@@ -81,8 +81,8 @@ L'abbonamento Accesso Completo include licenza commerciale per la stampa su rich
 
   // Sample Gallery
   samples: {
-    sectionTitle: 'Esempi di Cruciverba con Immagini - Schede Gratuite',
-    sectionDescription: 'Scarica esempi gratuiti per vedere la nostra qualità professionale. Schede gratuite per bambini pronte da stampare.',
+    sectionTitle: "Scheda Gratuita per Bambini - Schede Gratuite e Stampabili Gratuiti e Scheda per Bambini",
+    sectionDescription: "Scarica stampabili gratuiti - Scheda gratuita per bambini di qualità professionale. Schede gratuite e scheda per bambini perfette per scheda per scuola dell'infanzia. Scheda gratuita per bambini e scheda per bambini includono materiale educativo. Scheda gratuita e scheda per scuola dell'infanzia disponibile",
     downloadLabel: 'Scarica Esempio Gratuito',
     worksheetLabel: 'Scheda',
     answerKeyLabel: 'Chiave di Risposta',
@@ -126,7 +126,7 @@ L'abbonamento Accesso Completo include licenza commerciale per la stampa su rich
 
   // Features Grid
   features: {
-    sectionTitle: 'Funzionalità del Cruciverba Scheda Gratuita per Bambini - Tutto Quello che Serve per Schede Didattiche Scuola Primaria',
+    sectionTitle: "Schede Gratuite e Scheda per Bambini - Stampabili Gratuiti e Scheda per Scuola dell'Infanzia",
     sectionDescription: 'Il generatore di cruciverba offre funzionalità complete per insegnanti della scuola dell\'infanzia e della scuola primaria. Crea schede didattiche professionali in pochi minuti invece di ore. Ogni funzionalità è stata progettata per insegnanti impegnati che hanno bisogno di materiali didattici di qualità velocemente. L\'abbonamento Accesso Completo da 240 euro all\'anno include accesso illimitato a tutte le funzionalità. Non ci sono costi aggiuntivi per immagine o per foglio. Genera tutti i cruciverba di cui hai bisogno con un unico abbonamento.',
     highlightBadgeText: 'Funzionalità Chiave',
     readMoreLabel: 'Leggi di più',
@@ -185,7 +185,7 @@ L'abbonamento Accesso Completo include licenza commerciale per la stampa su rich
 
   // How-To Guide Section
   howTo: {
-    sectionTitle: 'Come Creare Cruciverba Schede Gratuite in 5 Passaggi Facili - Pregrafismo e Alfabeto',
+    sectionTitle: "Scheda Gratuita per Bambini Creare - Scheda per Scuola dell'Infanzia",
     sectionDescription: 'Creare cruciverba professionali è semplice e veloce. L\'intero processo richiede meno di 3 minuti dall\'inizio alla fine. Non serve esperienza di design o competenze tecniche. Segui questi 5 passaggi per creare schede didattiche per la scuola dell\'infanzia e la scuola primaria. Il generatore gestisce automaticamente gli aspetti tecnici. Tu ti concentri semplicemente sul contenuto educativo. Ogni passaggio è stato progettato per essere intuitivo e facile. Gli insegnanti impegnati possono creare materiali didattici di qualità senza perdere tempo prezioso.',
     ctaText: 'Inizia Ora',
     badgeText: 'Guida Passo-Passo',
@@ -257,7 +257,7 @@ Scarica sia il cruciverba che la chiave delle risposte. Le schede didattiche son
 
   // Use Cases Section
   useCases: {
-    sectionTitle: 'Perfetto per Insegnanti e Genitori - Schede Gratuite Didattiche Scuola Primaria per Ogni Esigenza',
+    sectionTitle: "Scheda Gratuita per Bambini - Scheda per Scuola dell'Infanzia con Stampabili Gratuiti. Scheda per Bambini",
     sectionDescription: 'Il generatore di cruciverba serve diversi tipi di educatori con esigenze diverse. Insegnanti di scuola dell\'infanzia e scuola primaria trovano il tool indispensabile per la pianificazione delle lezioni. Genitori homeschool lo usano per creare materiali didattici personalizzati. Insegnanti di lingue creano cruciverba multilingue per studenti ESL. Insegnanti di sostegno differenziano i materiali per esigenze individuali. Insegnanti imprenditori vendono cruciverba professionali online. Ogni gruppo trova valore unico nelle funzionalità del generatore. L\'abbonamento Accesso Completo soddisfa tutte queste diverse applicazioni educative.',
     badgeText: 'Chi Usa le Nostre Schede',
     readMoreLabel: 'Leggi di più',
@@ -340,7 +340,7 @@ Il generatore ti permette di creare prodotti professionali velocemente. Altri in
 
   // FAQ Section
   faq: {
-    sectionTitle: 'Domande Frequenti sui Cruciverba Schede Gratuite - Schede Didattiche Scuola Primaria e Pregrafismo',
+    sectionTitle: "FAQ - Scheda Gratuita per Bambini e Scheda per Scuola dell'Infanzia. Scheda per Bambini",
     sectionDescription: 'Gli insegnanti hanno domande comuni sul generatore di cruciverba. Questa sezione risponde alle domande più frequenti. Scopri come funziona l\'abbonamento Accesso Completo. Impara cosa puoi creare con il generatore. Comprendi le opzioni di personalizzazione e stampa.',
     showMoreText: 'Mostra altre domande',
     showLessText: 'Mostra meno domande',
@@ -466,7 +466,7 @@ Scarica sia il cruciverba che la chiave delle risposte come file separati. Quest
 
   // Related Apps Section
   relatedApps: {
-    sectionTitle: 'Combina Cruciverba Schede Gratuite con Altri Generatori',
+    sectionTitle: "Schede Gratuite Combinare - Scheda per Bambini e Stampabili Gratuiti",
     sectionDescription: 'L\'abbonamento Accesso Completo include 33 generatori. Combina il generatore di Cruciverba con altri strumenti. Crea pacchetti completi di schede didattiche. Perfetto per unità tematiche. Ottimo per centri di apprendimento.',
     ctaTitle: 'Pronto a Creare Schede Straordinarie?',
     ctaDescription: 'Unisciti a migliaia di educatori che creano schede professionali. Generazione illimitata, licenza commerciale inclusa.',

@@ -85,8 +85,8 @@ Las fichas infantil generadas incluyen clave de respuestas automática. Los maes
 
   // Sample Gallery - REAL file paths from samples/english/pattern train/
   samples: {
-    sectionTitle: 'Ejemplos de Fichas de Patrones',
-    sectionDescription: 'Descarga ejemplos gratuitos para ver nuestra calidad profesional',
+    sectionTitle: 'Ficha Gratis para Niños - Fichas Gratis e Imprimibles Gratis',
+    sectionDescription: 'Descarga imprimibles gratis - Ficha gratis para niños de calidad profesional. Ficha para niños perfecta para ficha para preescolar. Ficha gratis para niños y ficha para niños incluyen material educativo. Ficha gratis disponible',
     downloadLabel: 'Descargar Ejemplo Gratis',
     worksheetLabel: 'Ficha',
     answerKeyLabel: 'Clave de Respuestas',
@@ -137,7 +137,7 @@ Las fichas infantil generadas incluyen clave de respuestas automática. Los maes
 
   // Features Grid - FULL text from pattern-train.md feature sections
   features: {
-    sectionTitle: 'Características del Generador de Fichas para Imprimir - Material Educativo Gratis para Preescolar',
+    sectionTitle: 'Fichas Gratis y Ficha para Niños - Imprimibles Gratis y Ficha para Preescolar',
     sectionDescription: 'El generador de tren de patrones incluye todas las herramientas que los maestros necesitan para crear material educativo gratis de alta calidad. Desde fichas preescolar básicas hasta ejercicios matemáticas avanzados, la plataforma ofrece funciones completas de personalización. Tu suscripción Acceso Completo desbloquea acceso ilimitado a todas las características sin cargos por uso individual.',
     highlightBadgeText: 'Característica Clave',
     readMoreLabel: 'Leer más',
@@ -231,7 +231,7 @@ La opción de escala de grises ahorra tinta sin sacrificar claridad. Las fichas 
 
   // How-To Guide - FULL text from pattern-train.md step sections
   howTo: {
-    sectionTitle: 'Cómo Crear Fichas de Matemáticas de Patrones en 5 Pasos Fáciles - Generador de Fichas para Imprimir',
+    sectionTitle: 'Ficha Gratis para Niños Crear - Ficha para Preescolar',
     sectionDescription: 'El proceso completo de crear fichas infantil toma menos de 3 minutos de principio a fin. Los maestros sin experiencia tecnológica generan ejercicios matemáticas profesionales en su primer intento. La interfaz guía paso a paso elimina confusión. Las fichas preescolar están listas para descargar antes de terminar tu café matutino.',
     ctaText: 'Comenzar Ahora',
     badgeText: 'Cómo Funciona',
@@ -313,7 +313,7 @@ Descarga la hoja de trabajo estudiantil y la clave de respuestas como archivos s
 
   // Use Cases - FULL text from pattern-train.md use case sections
   useCases: {
-    sectionTitle: 'Perfecto para Maestros y Padres - Fichas Infantil y Material Educativo Gratis para Cada Necesidad',
+    sectionTitle: 'Ficha Gratis para Niños - Ficha para Preescolar con Imprimibles Gratis. Ficha para Niños',
     sectionDescription: 'El generador de tren de patrones beneficia múltiples tipos de educadores y contextos educativos. Desde maestros de preescolar hasta padres que educan en casa, todos encuentran valor en crear fichas de matemáticas personalizadas. La flexibilidad del sistema se adapta a cualquier estilo de enseñanza o necesidad curricular.',
     badgeText: 'Para Quién',
     readMoreLabel: 'Leer más',
@@ -396,7 +396,7 @@ La licencia POD incluida permite vender fichas gratis sin restricciones. No paga
 
   // FAQ Section - Selected FAQs from pattern-train.md
   faq: {
-    sectionTitle: 'Preguntas Frecuentes sobre Fichas de Patrones para Imprimir y Material Educativo Infantil',
+    sectionTitle: 'FAQ - Ficha Gratis para Niños y Ficha para Preescolar. Ficha para Niños',
     sectionDescription: 'Los maestros hacen preguntas similares sobre crear fichas infantil de patrones antes de suscribirse. Esta sección responde las 12 preguntas más comunes sobre el generador. Las respuestas clarifican funcionalidad, precios, y capacidades del sistema.',
     showMoreText: 'Ver más preguntas',
     showLessText: 'Ver menos',
@@ -525,7 +525,7 @@ La licencia POD incluida permite vender fichas gratis sin restricciones. No paga
 
   // Related Apps - FULL text from pattern-train.md related sections
   relatedApps: {
-    sectionTitle: 'Combina Fichas de Patrones con Otros Generadores - Material Educativo Gratis Completo',
+    sectionTitle: 'Fichas Gratis Combinar - Ficha para Niños e Imprimibles Gratis',
     sectionDescription: 'La plataforma ofrece 33 generadores diferentes de fichas infantil más allá del tren de patrones. Los maestros combinan múltiples tipos de ejercicios matemáticas para crear paquetes de aprendizaje completos. Las fichas preescolar de diferentes generadores se combinan en carpetas temáticas semanales.',
     ctaTitle: '¿Listo para Crear Fichas de Patrones Increíbles?',
     ctaDescription: 'Únete a miles de maestros que crean fichas profesionales. Generación ilimitada, licencia comercial incluida.',

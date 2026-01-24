@@ -87,8 +87,8 @@ Lærer og forældre finder mønstertog arbejdsark ideelle til børn der lærer b
 
   // Sample Gallery - REAL file paths from samples/danish/pattern-train/
   samples: {
-    sectionTitle: 'Gratis Arbejdsark Eksempler - Mønstertog til Børn',
-    sectionDescription: 'Download gratis eksempler på arbejdsark for at se vores professionelle kvalitet',
+    sectionTitle: 'Gratis Arbejdsark til Børn - Gratis Arbejdsark og Gratis Printables',
+    sectionDescription: 'Download gratis printables - Gratis arbejdsark til børn af professionel kvalitet. Gratis arbejdsark og arbejdsark til børn perfekt til arbejdsark til børnehaveklasse. Gratis arbejdsark til børn og arbejdsark til børn inkluderer undervisningsmateriale. Gratis arbejdsark tilgængeligt',
     badgeText: 'Gratis Eksempler',
     downloadLabel: 'Download Gratis Eksempel',
     downloadingLabel: 'Downloader...',
@@ -139,7 +139,7 @@ Lærer og forældre finder mønstertog arbejdsark ideelle til børn der lærer b
 
   // Features Grid - FULL text from pattern-train.md feature sections
   features: {
-    sectionTitle: 'Funktioner i Mønstertog - Gratis Arbejdsark til Børnehaveklasse',
+    sectionTitle: 'Gratis Arbejdsark og Arbejdsark til Børn - Gratis Printables og Arbejdsark til Børnehaveklasse',
     sectionDescription: 'Vores mønstertog generator indeholder alle funktioner du behøver for gratis skoleopgaver til print. Opret tilpassede matematikopgaver for 0. klasse opgaver og 1. klasse børn. Hver funktion er designet til at gøre oprettelse af kopiark hurtig og nem.',
     highlightBadgeText: 'Vigtig Funktion',
     readMoreLabel: 'Læs mere',
@@ -305,7 +305,7 @@ Download dit færdige mønstertog arbejdsark. Vælg JPEG format til hurtig fremv
 
   // Use Cases - FULL text from pattern-train.md use case sections
   useCases: {
-    sectionTitle: 'Perfekt til Pædagoger - Gratis Arbejdsark til Børnehaveklasse',
+    sectionTitle: 'Gratis Arbejdsark til Børn - Arbejdsark til Børnehaveklasse med Gratis Printables. Arbejdsark til Børn',
     sectionDescription: 'Mønstertog arbejdsark passer til mange forskellige undervisningssituationer. Børnehavepædagoger bruger mønstertog til finmotorik øvelser. Indskolingslærere bruger dem til matematikopgaver. Hjemmeundervisning forældre kombinerer mønstertog med lære bogstaver aktiviteter. Hver brugertype finder unikke måder at bruge gratis skoleopgaver til print på.',
     badgeText: 'Hvem Er Det Til',
     readMoreLabel: 'Læs mere',

@@ -87,8 +87,8 @@ Cette méthode d'apprentissage par la visualisation aide les enfants à comprend
 
   // Sample Gallery - REAL file paths from samples/english/chart count/
   samples: {
-    sectionTitle: 'Exemples de Fiches Graphique en Images',
-    sectionDescription: 'Téléchargez des exemples gratuits pour voir notre qualité professionnelle',
+    sectionTitle: 'Fiche Gratuite pour Enfants - Fiches Gratuites et Imprimables Gratuits',
+    sectionDescription: 'Téléchargez imprimables gratuits - Fiche gratuite pour enfants de qualité professionnelle. Fiches gratuites et fiche pour enfants parfaites pour fiche pour maternelle. Fiche gratuite pour enfants et fiches gratuites inclus matériel éducatif. Fiche gratuite et fiches gratuites disponible',
     downloadLabel: 'Télécharger Exemple Gratuit',
     worksheetLabel: 'Fiche',
     answerKeyLabel: 'Corrigé',
@@ -139,7 +139,7 @@ Cette méthode d'apprentissage par la visualisation aide les enfants à comprend
 
   // Features Grid - FULL text from chart-count.md feature sections
   features: {
-    sectionTitle: 'Fonctionnalités du Générateur de Graphiques en Images - Exercices Maths et Fiches Maternelle pour Apprendre à Compter',
+    sectionTitle: 'Fiches Gratuites et Fiche pour Enfants - Imprimables Gratuits et Fiche pour Maternelle',
     sectionDescription: 'Notre générateur de graphiques en images offre des fonctionnalités complètes pour les enseignants. Créez des exercices maths de comptage adaptés à tous les niveaux. De la maternelle au CE1, chaque fiche répond aux besoins pédagogiques spécifiques. Découvrez les sept fonctionnalités principales qui font de cet outil un incontournable pour votre classe.',
     highlightBadgeText: 'Fonctionnalité Clé',
     readMoreLabel: 'Lire la suite',
@@ -244,7 +244,7 @@ Les fiches à imprimer deviennent des supports pédagogiques complets. L'écritu
 
   // How-To Guide - FULL text from chart-count.md step sections
   howTo: {
-    sectionTitle: 'Comment Créer des Fiches Maternelle de Graphiques en 5 Étapes - Exercices Maths et Fiches à Imprimer Gratuit en Moins de 3 Minutes',
+    sectionTitle: 'Fiche Gratuite pour Enfants Créer - Fiche pour Maternelle',
     sectionDescription: 'Créer des fiches de graphiques en images ne prend que quelques minutes. Suivez ce guide étape par étape pour générer vos premiers exercices maths de comptage. Aucune compétence technique n\'est nécessaire pour réussir. Même les enseignants débutants en informatique créent des fiches maternelle parfaites du premier coup. Votre fiche à imprimer gratuit sera prête en moins de 3 minutes.',
     ctaText: 'Commencer Maintenant',
     badgeText: 'Guide Étape par Étape',
@@ -326,7 +326,7 @@ Générez également le corrigé en un seul clic depuis le menu. La fiche répon
 
   // Use Cases - FULL text from chart-count.md use case sections
   useCases: {
-    sectionTitle: 'Fiches Maternelle et Exercices CP pour Tous les Enseignants - Qui Utilise nos Fiches à Imprimer Gratuit de Graphiques',
+    sectionTitle: 'Fiche Gratuite pour Enfants - Fiche pour Maternelle avec Imprimables Gratuits. Fiche pour Enfants',
     sectionDescription: 'Notre générateur de graphiques en images s\'adresse à tous les professionnels de l\'éducation. Les enseignants de maternelle et de CP y trouvent des ressources parfaitement adaptées. Les parents pratiquant l\'instruction en famille apprécient également cet outil complet. Découvrez comment chaque profil utilise nos fiches à imprimer gratuit pour enseigner le comptage et la représentation des données.',
     badgeText: 'Cas d\'Utilisation',
     readMoreLabel: 'Lire la suite',
@@ -411,7 +411,7 @@ La qualité 300 DPI garantit des impressions professionnelles pour vos clients s
 
   // FAQ Section - Selected FAQs from chart-count.md
   faq: {
-    sectionTitle: 'Questions Fréquentes sur les Graphiques en Images - Fiches Maternelle, Tables de Multiplication et Coloriage à Imprimer',
+    sectionTitle: 'FAQ - Fiche Gratuite pour Enfants et Fiche pour Maternelle. Fiche pour Enfants',
     sectionDescription: 'Retrouvez les réponses aux questions les plus posées par les enseignants sur notre générateur. Ces informations vous aideront à tirer le meilleur parti de l\'outil pour vos fiches maternelle. Les tables de multiplication et le coloriage à imprimer sont également couverts dans cette section complète.',
     showMoreText: 'Voir plus de questions',
     showLessText: 'Voir moins',
@@ -570,7 +570,7 @@ La qualité 300 DPI garantit des impressions professionnelles pour vos clients s
 
   // Related Apps - From chart-count.md Section 7
   relatedApps: {
-    sectionTitle: 'Combinez les Graphiques en Images avec d\'Autres Générateurs - Tables de Multiplication, Apprendre à Lire et Écriture Cursive',
+    sectionTitle: 'Fiches Gratuites Combiner - Fiche pour Enfants et Imprimables Gratuits',
     sectionDescription: 'Les graphiques en images se combinent parfaitement avec les autres générateurs de votre abonnement. Créez des parcours pédagogiques complets en associant plusieurs types de fiches intelligemment. Les tables de multiplication, les exercices pour apprendre à lire et l\'écriture cursive enrichissent vos supports. Découvrez comment maximiser l\'impact de vos ressources éducatives en classe.',
     ctaTitle: 'Prêt à Créer des Fiches Graphique en Images Professionnelles ?',
     ctaDescription: 'Rejoignez des milliers d\'enseignants qui créent des fiches maternelle de qualité. Création illimitée, licence commerciale incluse.',

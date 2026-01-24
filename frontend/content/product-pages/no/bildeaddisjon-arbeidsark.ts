@@ -79,8 +79,8 @@ Full Tilgang-abonnementet koster $240 per år eller $25 per måned. Du får tilg
 
   // Sample Gallery - Norwegian samples from samples/norwegian/code-addition/
   samples: {
-    sectionTitle: 'Gratis Arbeidsark Eksempler - Bildeaddisjonsoppgaver for Barn og 1. Trinn',
-    sectionDescription: 'Last ned gratis eksempler pa arbeidsark for a se var profesjonelle kvalitet. Gratis arbeidsark for barn i barnehage og 1. trinn med profesjonell kvalitet.',
+    sectionTitle: 'Gratis Arbeidsark for Barn - Gratis Arbeidsark og Gratis Utskrifter',
+    sectionDescription: 'Last ned gratis utskrifter - Gratis arbeidsark for barn av profesjonell kvalitet. Gratis arbeidsark og arbeidsark for barn perfekt for arbeidsark for 1. trinn. Gratis arbeidsark for barn og arbeidsark for barn inkluderer gratis utskrifter undervisningsmateriell. Gratis arbeidsark og arbeidsark for 1. trinn tilgjengelig',
     badgeText: 'Gratis Eksempler',
     downloadLabel: 'Last ned Gratis Eksempel',
     downloadingLabel: 'Laster ned...',
@@ -204,7 +204,7 @@ PDF-filer bevarer layoutpresisjonen for matematikk oppgaver. JPEG-filer fungerer
 
   // How-To Guide - FULL text from code-addition.md step sections
   howTo: {
-    sectionTitle: 'Slik Lager Du Arbeidsark Gratis med Addisjon og Subtraksjon på 5 Enkle Trinn',
+    sectionTitle: 'Gratis Arbeidsark for Barn Lage - Arbeidsark for 1. Trinn',
     sectionDescription: 'Opprett profesjonelle bildeaddisjonsoppgaver på under 3 minutter med vår matematikk oppgaver generator. Ingen designerfaring nødvendig for å lage engasjerende matteoppgaver. Følg disse fem enkle trinnene for å generere arbeidsark gratis med tall og telling. Perfekt for lærere som trenger oppgavehefter barn raskt for småskoletrinnet-elever. Full Tilgang-abonnementet gir deg ubegrenset oppgaveopprettelse.',
     ctaText: 'Start Nå',
     badgeText: 'Slik Fungerer Det',
@@ -276,7 +276,7 @@ For å lage fasit, klikk "Lag fasit" først. Dette genererer et separat ark som 
 
   // Use Cases - FULL text from code-addition.md use case sections
   useCases: {
-    sectionTitle: 'Perfekt for Lærere, Foreldre og Pedagoger - Matematikk Oppgaver og Arbeidsark Gratis for Alle Behov',
+    sectionTitle: 'Gratis Arbeidsark for Barn - Arbeidsark for 1. Trinn med Gratis Utskrifter. Arbeidsark for Barn',
     sectionDescription: 'Bildeaddisjonsoppgaver-generatoren vår tjener ulike brukere med forskjellige undervisningsbehov. Barnehage-pedagoger, småskoletrinnet-lærere, hjemmeskolelærere og spesialpedagoger bruker alle vår matematikk oppgaver generator. Hver brukergruppe får unike fordeler fra tall og telling-aktiviteter. Full Tilgang-abonnementet på $240 per år gir ubegrenset tilgang til alle 33 oppgavegeneratorer. Lag så mange addisjon og subtraksjon-arbeidsark gratis som du trenger for dine spesifikke elever.',
     badgeText: 'Hvem Er Det For',
     readMoreLabel: 'Les mer',
@@ -403,7 +403,7 @@ Lag tematiske samlinger som "Vår Matematikk Oppgaver" eller "Dyr Addisjon og Su
 
   // FAQ Section - Full text from code-addition.md
   faq: {
-    sectionTitle: 'Ofte Stilte Spørsmål om Matematikk Oppgaver og Arbeidsark Gratis med Bildeaddisjon',
+    sectionTitle: 'FAQ - Gratis Arbeidsark for Barn og Arbeidsark for 1. Trinn. Arbeidsark for Barn',
     sectionDescription: 'Lærere og foreldre stiller mange spørsmål om bildeaddisjonsoppgaver-generatoren. Her er svar på de vanligste spørsmålene om å lage matematikk oppgaver med vårt verktøy. Full Tilgang-abonnementet på $240 per år gir deg ubegrenset tilgang til alle funksjoner.',
     badgeText: 'Vanlige Spørsmål',
     showMoreText: 'Vis flere spørsmål',
@@ -502,7 +502,7 @@ Lag tematiske pakker som kombinerer matematikk oppgaver, lesetrening, og finmoto
 
   // Related Apps Section
   relatedApps: {
-    sectionTitle: 'Kombiner Bildeaddisjonsoppgaver med Andre Arbeidsark Gratis',
+    sectionTitle: 'Gratis Arbeidsark Kombinere - Arbeidsark for Barn og Gratis Utskrifter',
     sectionDescription: 'Full Tilgang-abonnementet gir deg tilgang til alle 33 gratis oppgavegeneratorer på plattformen. Lærere kombinerer bildeaddisjonsoppgaver med fargeleggingsbilder, bokstavøvelser, gangetabellen-øvelser, finmotorikk øvelser og lesetrening for komplette oppgavehefter barn.',
     badgeText: 'Fungerer Utmerket Med',
     ctaTitle: 'Klar til å Lage Fantastiske Arbeidsark?',

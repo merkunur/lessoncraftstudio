@@ -81,8 +81,8 @@ L'abbonamento Accesso Completo include licenza commerciale per la vendita di sta
 
   // Sample Gallery
   samples: {
-    sectionTitle: 'Schede Gratuite Pezzi Mancanti - Stampabili Gratuiti da Scaricare',
-    sectionDescription: 'Scarica esempi gratuiti per vedere la nostra qualità professionale',
+    sectionTitle: "Scheda Gratuita per Bambini - Schede Gratuite e Stampabili Gratuiti e Scheda per Bambini",
+    sectionDescription: "Scarica stampabili gratuiti - Scheda gratuita per bambini di qualità professionale. Schede gratuite e scheda per bambini perfette per scheda per scuola dell'infanzia. Scheda gratuita per bambini e scheda per bambini includono materiale educativo. Scheda gratuita e scheda per scuola dell'infanzia disponibile",
     downloadLabel: 'Scarica Esempio Gratuito',
     worksheetLabel: 'Scheda',
     answerKeyLabel: 'Soluzioni',
@@ -126,7 +126,7 @@ L'abbonamento Accesso Completo include licenza commerciale per la vendita di sta
 
   // Features Grid
   features: {
-    sectionTitle: 'Funzionalità - Schede Gratuite per Bambini e Stampabili Gratuiti',
+    sectionTitle: "Schede Gratuite e Scheda per Bambini - Stampabili Gratuiti e Scheda per Scuola dell'Infanzia",
     sectionDescription: 'Il nostro generatore di schede didattiche con pezzi mancanti offre funzionalità professionali progettate specificamente per insegnanti di scuola dell\'infanzia e scuola primaria. Ogni funzione è stata sviluppata pensando alle esigenze reali della classe italiana. Che tu stia creando schede matematica, pregrafismo, alfabeto o disegni da colorare, troverai tutti gli strumenti necessari per schede didattiche efficaci. Le schede didattiche scuola primaria generate sono completamente personalizzabili e pronte per la stampa immediata.',
     highlightBadgeText: 'Funzionalità Chiave',
     readMoreLabel: 'Leggi di più',
@@ -215,7 +215,7 @@ Scegli le opzioni di risposta da 2 a 6 scelte. Meno opzioni creano puzzle più s
 
   // How-To Guide Section
   howTo: {
-    sectionTitle: 'Come Creare Schede Gratuite - Stampabili Gratuiti in 5 Passi',
+    sectionTitle: "Scheda Gratuita per Bambini Creare - Scheda per Scuola dell'Infanzia",
     sectionDescription: 'Creare schede didattiche professionali con il nostro generatore richiede meno di 3 minuti dall\'inizio alla fine. Questo processo guidato passo-passo funziona perfettamente sia per schede matematica con tabelline e numeri da stampare, sia per schede italiano classe prima con alfabeto, sia per pregrafismo e disegni da colorare per scuola dell\'infanzia. Ogni passaggio è stato ottimizzato per velocità e facilità d\'uso. Non servono competenze tecniche o di design. Segui questi cinque passaggi e le tue schede didattiche scuola primaria saranno pronte per la stampa o la vendita.',
     ctaText: 'Inizia Ora',
     badgeText: 'Guida Passo-Passo',
@@ -277,7 +277,7 @@ Ogni file viene esportato a 300 DPI per qualità professionale. Le schede didatt
 
   // Use Cases Section
   useCases: {
-    sectionTitle: 'Schede Gratuite per Insegnanti - Stampabili Gratuiti per Educatori',
+    sectionTitle: "Schede Gratuite per Insegnanti - Stampabili Gratuiti per Educatori",
     sectionDescription: 'Le schede didattiche con pezzi mancanti servono un\'ampia gamma di educatori in contesti diversi. Insegnanti di scuola dell\'infanzia usano questo generatore per pregrafismo e discriminazione visiva. Docenti di scuola primaria creano schede matematica con tabelline e numeri da stampare. Insegnanti di classe prima sviluppano schede italiano classe prima per alfabeto e lettura. Genitori homeschooler generano materiali personalizzati per tutti i livelli. Insegnanti di sostegno adattano difficoltà per bisogni speciali. Teacher entrepreneurs vendono disegni da colorare e schede didattiche su piattaforme online. Ogni gruppo trova valore unico nelle funzionalità personalizzabili di questo strumento professionale.',
     badgeText: 'Chi Usa le Nostre Schede',
     readMoreLabel: 'Leggi di più',
@@ -348,7 +348,7 @@ Crea bundle stagionali: pregrafismo autunnale, disegni da colorare natalizi, sch
 
   // FAQ Section
   faq: {
-    sectionTitle: 'FAQ Schede Gratuite Pezzi Mancanti - Stampabili Gratuiti per Bambini',
+    sectionTitle: "FAQ - Scheda Gratuita per Bambini e Scheda per Scuola dell'Infanzia. Scheda per Bambini",
     sectionDescription: 'Gli insegnanti italiani hanno domande importanti prima di investire in strumenti educativi. Questa sezione risponde alle domande più comuni su schede didattiche scuola primaria, pregrafismo per scuola dell\'infanzia, schede matematica con tabelline, schede italiano classe prima, numeri da stampare e disegni da colorare. Chiarisce prezzi dell\'abbonamento, funzionalità tecniche, licenze commerciali e compatibilità. Ogni risposta fornisce informazioni pratiche per aiutarti a decidere se questo generatore soddisfa le tue esigenze educative.',
     showMoreText: 'Mostra altre domande',
     showLessText: 'Mostra meno domande',
@@ -500,7 +500,7 @@ Numeri da stampare: cifre 0-9 in stili multipli, quantità con oggetti. Pregrafi
 
   // Related Apps Section
   relatedApps: {
-    sectionTitle: 'Altri Generatori - Schede Gratuite e Stampabili Gratuiti per Bambini',
+    sectionTitle: "Altri Generatori - Schede Gratuite e Stampabili Gratuiti per Bambini",
     sectionDescription: 'La nostra piattaforma offre 33 generatori diversi di schede didattiche per ogni esigenza educativa. Il tuo abbonamento Accesso Completo fornisce accesso a tutti i generatori per creare pacchetti di apprendimento completi. Combina schede pezzi mancanti con schede matematica, alfabeto e disegni da colorare. Crea unità tematiche complete che integrano discriminazione visiva con attività di motricità fine.',
     ctaTitle: 'Pronto a Creare Schede Straordinarie?',
     ctaDescription: 'Unisciti a migliaia di educatori che creano schede professionali. Generazione illimitata, licenza commerciale inclusa.',

@@ -53,8 +53,8 @@ Kuva-kuva -tila näyttää yhteenlaskut pelkillä kuvilla. Kuva-numero -tila yhd
 
   // Sample Gallery - REAL file paths from samples/english/addition/
   samples: {
-    sectionTitle: 'Yhteenlaskun Tehtävät Esimerkit',
-    sectionDescription: 'Lataa ilmaiset esimerkkityöarkit nähdäksesi ammattimaisen laatumme',
+    sectionTitle: 'Ilmainen Työarkki Lapsille - Ilmaiset Työarkit ja Ilmaiset Tulosteet',
+    sectionDescription: 'Lataa ilmaiset tulosteet - Ilmainen työarkki lapsille ammattimaista laatua. Ilmaiset työarkit ja työarkki lapsille täydellinen työarkki esiopetukseen. Ilmainen työarkki lapsille ja työarkki lapsille sisältää ilmaiset tulosteet ja ilmaiset työarkit opetusmateriaalin. Ilmainen työarkki ja työarkki esiopetukseen saatavilla',
     downloadLabel: 'Lataa Ilmainen Esimerkki',
     worksheetLabel: 'Työarkki',
     answerKeyLabel: 'Vastausavain',
@@ -105,7 +105,7 @@ Kuva-kuva -tila näyttää yhteenlaskut pelkillä kuvilla. Kuva-numero -tila yhd
 
   // Features Grid - FULL text from Finnish addition.md feature sections
   features: {
-    sectionTitle: 'Yhteenlaskun Tehtävät Ominaisuudet - Kaikki Mitä Tarvitset Matematiikka Tehtävät Alakoulu ja Esiopetus',
+    sectionTitle: 'Ilmaiset Työarkit ja Työarkki Lapsille - Ilmaiset Tulosteet ja Työarkki Esiopetukseen',
     sectionDescription: 'Yhteenlaskun tehtävägeneraattori tarjoaa kaikki työkalut tulostettavat tehtävät lapsille ilmainen luontiin. Luo yhteenlasku ja vähennyslasku tehtävät minuuteissa. Jokainen ominaisuus on suunniteltu säästämään aikaa ja parantamaan oppimistuloksia. Peruspaketti-tilauksesi antaa täyden pääsyn kaikkiin näihin ammattimaisen tason työkaluihin.',
     highlightBadgeText: 'Tärkeä Ominaisuus',
     readMoreLabel: 'Lue lisää',
@@ -210,7 +210,7 @@ Vastausavaimet säästävät valtavasti opettajan aikaa. Ei manuaalista vastaust
 
   // How-To Guide - FULL text from Finnish addition.md step sections
   howTo: {
-    sectionTitle: 'Kuinka Luoda Matematiikka Tehtävät Alakoulu Viidessä Helpossa Vaiheessa',
+    sectionTitle: 'Ilmainen Työarkki Lapsille Luoda - Työarkki Esiopetukseen',
     sectionDescription: 'Yhteenlaskutehtävien luominen vie alle 3 minuuttia alusta loppuun. Seuraa näitä viittä yksinkertaista vaihetta. Ei suunnittelukokemusta tarvita. Ei monimutkaista ohjelmistoa opittavaksi. Jokainen vaihe on selkeä ja intuitiivinen. Peruspaketti-tilauksesi antaa välittömän pääsyn kaikkiin työkaluihin.',
     ctaText: 'Aloita Luominen Nyt',
     badgeText: 'Näin Se Toimii',
@@ -282,7 +282,7 @@ Valitse "Harmaasävy" -valintaruutu ennen lataamista. Muuntaa värilliset tehtä
 
   // Use Cases - FULL text from Finnish addition.md use case sections
   useCases: {
-    sectionTitle: 'Täydellinen Opettajille, Vanhemmille ja Kasvattajille',
+    sectionTitle: 'Ilmainen Työarkki Lapsille - Työarkki Esiopetukseen ja Ilmaiset Tulosteet. Työarkki Lapsille',
     sectionDescription: 'Yhteenlaskutehtävägeneraattori palvelee erilaisia käyttäjäryhmiä koulutusjärjestelmän läpi. Esiopetuksen opettajista alakoulun opettajiin. Kotiopettajista erikoisopettajiin. Jokainen ryhmä hyötyy mukautetuista matematiikka tehtävät alakoulu -työkaluista. Peruspaketti-tilaus antaa kaikille pääsyn samoihin ammattimaisiin ominaisuuksiin.',
     badgeText: 'Kenelle Sopii',
     readMoreLabel: 'Lue lisää',
@@ -365,7 +365,7 @@ Yhdistä useita tehtävätyyppejä täydellisiksi oppimispaketeiksi. Yhteenlasku
 
   // FAQ Section - Selected FAQs from Finnish addition.md
   faq: {
-    sectionTitle: 'Usein Kysytyt Kysymykset',
+    sectionTitle: 'FAQ - Ilmainen Työarkki Lapsille ja Työarkki Esiopetukseen. Työarkki Lapsille',
     sectionDescription: 'Yleisimmät kysymykset yhteenlaskutehtävägeneraattorista ja matematiikkatyöarkeista.',
     showMoreText: 'Näytä lisää kysymyksiä',
     showLessText: 'Näytä vähemmän',
@@ -470,7 +470,7 @@ Yhdistä useita tehtävätyyppejä täydellisiksi oppimispaketeiksi. Yhteenlasku
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Yhdistä Muihin Työarkki Generaattoreihin',
+    sectionTitle: 'Ilmaiset Työarkit Yhdistää - Työarkki Lapsille ja Ilmaiset Tulosteet',
     sectionDescription: 'Luo kattavia oppimispaketteja yhdistämällä yhteenlasku työarkit näihin täydentäviin generaattoreihin.',
     ctaTitle: 'Valmiina Luomaan Upeita Työarkkeja?',
     ctaDescription: 'Liity tuhansien opettajien joukkoon, jotka luovat ammattimaisia työarkkeja. Rajoittamaton generointi, kaupallinen lisenssi sisältyy.',

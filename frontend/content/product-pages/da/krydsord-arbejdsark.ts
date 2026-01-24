@@ -83,8 +83,8 @@ Fuld Adgang-abonnement koster 240 USD om året eller 25 USD per måned. Du får 
 
   // Sample Gallery - REAL file paths from samples/danish/crossword/
   samples: {
-    sectionTitle: 'Gratis Arbejdsark Eksempler - Krydsord til Børn',
-    sectionDescription: 'Download gratis eksempler på krydsord arbejdsark for at se vores professionelle kvalitet',
+    sectionTitle: 'Gratis Arbejdsark til Børn - Gratis Arbejdsark og Gratis Printables',
+    sectionDescription: 'Download gratis printables - Gratis arbejdsark til børn af professionel kvalitet. Gratis arbejdsark og arbejdsark til børn perfekt til arbejdsark til børnehaveklasse. Gratis arbejdsark til børn og arbejdsark til børn inkluderer undervisningsmateriale. Gratis arbejdsark tilgængeligt',
     badgeText: 'Gratis Eksempler',
     downloadLabel: 'Download Gratis Eksempel',
     downloadingLabel: 'Downloader...',
@@ -135,7 +135,7 @@ Fuld Adgang-abonnement koster 240 USD om året eller 25 USD per måned. Du får 
 
   // Features Grid - FULL text from crossword.md feature sections
   features: {
-    sectionTitle: 'Funktioner i Krydsord Generator - Gratis Arbejdsark til Børnehaveklasse',
+    sectionTitle: 'Gratis Arbejdsark og Arbejdsark til Børn - Gratis Printables og Arbejdsark til Børnehaveklasse',
     sectionDescription: 'Krydsord generatoren tilbyder alle vigtige funktioner til gratis arbejdsark til børn. Lav professionelle arbejdsark og opgaver til print på få minutter. Hver funktion er udviklet til lærere og pædagoger. Perfekt til børnehaveklassen og indskolingen.',
     highlightBadgeText: 'Vigtig Funktion',
     readMoreLabel: 'Læs mere',
@@ -215,7 +215,7 @@ PDF format bevarer perfekt kvalitet. JPEG format virker til online deling. Vælg
 
   // How-To Guide - FULL text from crossword.md step sections
   howTo: {
-    sectionTitle: 'Sådan Laver Du Gratis Arbejdsark til Børn i 5 Trin',
+    sectionTitle: 'Gratis Arbejdsark til Børn Oprette - Arbejdsark til Børnehaveklasse',
     sectionDescription: 'Lav professionelle krydsord arbejdsark til børnehaveklasse på under 3 minutter. Følg disse 5 simple trin. Intet designkendskab påkrævet. Perfekt til gratis arbejdsark til børn.',
     ctaText: 'Start Nu',
     badgeText: 'Sådan Virker Det',
@@ -287,7 +287,7 @@ Print så mange kopier du skal bruge. Ingen grænse på antal prints. Brug til m
 
   // Use Cases - FULL text from crossword.md use case sections
   useCases: {
-    sectionTitle: 'Perfekt til Lærere og Forældre - Gratis Arbejdsark til Børnehaveklasse',
+    sectionTitle: 'Gratis Arbejdsark til Børn - Arbejdsark til Børnehaveklasse med Gratis Printables. Arbejdsark til Børn',
     sectionDescription: 'Krydsord generatoren bruges af børnehavepædagoger, folkeskolelærere, hjemmeundervisning forældre og specialpædagoger. Lav gratis arbejdsark til børn til børnehaveklasse, 1. klasse, 2. klasse og 3. klasse. Hver brugergruppe finder unikke fordele i værktøjet til gratis printables og arbejdsark.',
     badgeText: 'Hvem Er Det Til',
     readMoreLabel: 'Læs mere',
@@ -370,7 +370,7 @@ Print-on-demand licensen åbner muligheder. Sælg på Etsy som gratis printables
 
   // FAQ Section - Selected FAQs from crossword.md
   faq: {
-    sectionTitle: 'Ofte Stillede Spørgsmål om Gratis Krydsord Arbejdsark til Børn',
+    sectionTitle: 'FAQ - Gratis Arbejdsark til Børn og Arbejdsark til Børnehaveklasse. Arbejdsark til Børn',
     sectionDescription: 'Her er svar på de mest almindelige spørgsmål om krydsord generatoren. Lær om gratis muligheder, abonnementer og hvordan du bruger arbejdsark til børnehaveklasse i din undervisning.',
     showMoreText: 'Vis flere spørgsmål',
     showLessText: 'Vis færre',
@@ -498,7 +498,7 @@ Print-on-demand licensen åbner muligheder. Sælg på Etsy som gratis printables
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Kombiner med Andre Gratis Arbejdsark til Børn',
+    sectionTitle: 'Gratis Arbejdsark Kombinere - Arbejdsark til Børn og Gratis Printables',
     sectionDescription: 'Lav komplette læringspakker ved at kombinere krydsord med disse komplementære generatorer.',
     ctaTitle: 'Klar til at Lave Fantastiske Arbejdsark?',
     ctaDescription: 'Tilslut dig tusindvis af pædagoger der laver professionelle arbejdsark. Ubegrænset oprettelse, kommerciel licens inkluderet.',

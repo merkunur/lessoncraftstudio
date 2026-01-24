@@ -75,8 +75,8 @@ Telgrafieken zijn perfecte rekenen werkbladen voor werkbladen groep 3 en werkbla
 
   // Sample Gallery - REAL file paths from samples/dutch/chart-count/
   samples: {
-    sectionTitle: 'Telgrafieken Werkbladen Voorbeelden - Gratis Werkbladen voor Kinderen',
-    sectionDescription: 'Download gratis voorbeeldwerkbladen om onze professionele kwaliteit te ervaren',
+    sectionTitle: 'Gratis Werkblad voor Kinderen - Gratis Werkbladen en Gratis Printables',
+    sectionDescription: 'Download gratis printables - Gratis werkblad voor kinderen van professionele kwaliteit. Gratis werkbladen en werkblad voor kinderen perfect voor werkblad voor kleuters. Gratis werkblad voor kinderen en werkblad voor kinderen en werkblad voor kleuters inclusief educatief materiaal. Gratis werkblad beschikbaar',
     downloadLabel: 'Gratis Voorbeeld Downloaden',
     worksheetLabel: 'Werkblad',
     answerKeyLabel: 'Antwoordblad',
@@ -120,7 +120,7 @@ Telgrafieken zijn perfecte rekenen werkbladen voor werkbladen groep 3 en werkbla
 
   // Features Grid - FULL text from chart-count.md feature sections
   features: {
-    sectionTitle: 'Functies van de Telgrafieken Generator - Alles voor Rekenen Werkbladen en Oefenbladen Gratis',
+    sectionTitle: 'Gratis Werkbladen en Werkblad voor Kinderen - Gratis Printables en Werkblad voor Kleuters',
     sectionDescription: 'De telgrafieken werkbladen generator biedt complete functionaliteit voor leerkrachten. Van werkbladen groep 3 tot werkbladen kleuters, elk niveau wordt ondersteund. Hieronder vind je alle functies die je nodig hebt voor professionele rekenen werkbladen. Met je Volledige Toegang abonnement krijg je toegang tot alle mogelijkheden.',
     highlightBadgeText: 'Uitgelicht',
     readMoreLabel: 'Lees meer',
@@ -225,7 +225,7 @@ De antwoordblad functie werkt voor alle werkbladtypes. Van eenvoudige telgrafiek
 
   // How-To Guide - FULL text from chart-count.md step sections
   howTo: {
-    sectionTitle: 'Telgrafieken Werkbladen Maken in 5 Stappen - Oefenbladen Gratis voor Rekenen Werkbladen',
+    sectionTitle: 'Gratis Werkblad voor Kinderen Maken - Werkblad voor Kleuters',
     sectionDescription: 'Het maken van professionele telgrafieken werkbladen duurt minder dan 3 minuten. Volg deze vijf eenvoudige stappen voor perfecte oefenbladen gratis met je abonnement. Van het kiezen van afbeeldingen tot het downloaden van je PDF, alles is intuïtief. Ideaal voor drukke leerkrachten die snel rekenen werkbladen nodig hebben.',
     ctaText: 'Nu Starten',
     badgeText: 'Zo werkt het',
@@ -307,7 +307,7 @@ Je werkbladen ondersteunen veilig leren lezen door visuele herkenning. Kinderen 
 
   // Use Cases - FULL text from chart-count.md use case sections
   useCases: {
-    sectionTitle: 'Wie Gebruikt Telgrafieken Werkbladen - Rekenen Werkbladen voor Elke Onderwijssituatie',
+    sectionTitle: 'Gratis Werkblad voor Kinderen - Werkblad voor Kleuters met Gratis Printables. Werkblad voor Kinderen',
     sectionDescription: 'Telgrafieken werkbladen zijn waardevol voor verschillende onderwijsprofessionals. Van leerkrachten groep 1 2 tot thuisonderwijzers, iedereen vindt passend materiaal. De generator past zich aan elk niveau aan. Ontdek hoe rekenen werkbladen jouw onderwijs versterken.',
     badgeText: 'Voor wie',
     readMoreLabel: 'Lees meer',
@@ -390,7 +390,7 @@ Bouw een passief inkomen met telgrafiekenpakketten. Maak thematische bundels voo
 
   // FAQ Section - FULL FAQs from chart-count.md
   faq: {
-    sectionTitle: 'Veelgestelde Vragen over Telgrafieken Werkbladen - Oefenbladen Gratis en Rekenen Werkbladen FAQ',
+    sectionTitle: 'FAQ - Gratis Werkblad voor Kinderen en Werkblad voor Kleuters. Werkblad voor Kinderen',
     sectionDescription: 'Hieronder beantwoorden we de meestgestelde vragen over de telgrafieken generator. Van abonnementskosten tot printmogelijkheden, alles wordt behandeld. Oefenbladen gratis downloaden met je abonnement is eenvoudiger dan je denkt. Lees verder voor complete informatie over rekenen werkbladen.',
     showMoreText: 'Meer vragen tonen',
     showLessText: 'Minder tonen',
@@ -519,7 +519,7 @@ Bouw een passief inkomen met telgrafiekenpakketten. Maak thematische bundels voo
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Combineer Telgrafieken met Andere Werkbladen - Tafels Oefenen en Veilig Leren Lezen Compleet Pakket',
+    sectionTitle: 'Gratis Werkbladen Combineren - Werkblad voor Kinderen en Gratis Printables',
     sectionDescription: 'Je Volledige Toegang abonnement bevat 33 verschillende werkbladgeneratoren. Combineer telgrafieken met andere tools voor complete lespakketten. Van tafels oefenen tot veilig leren lezen, alles werkt samen. Ontdek de krachtigste combinaties voor jouw onderwijs.',
     ctaTitle: 'Klaar om geweldige werkbladen te maken?',
     ctaDescription: 'Sluit je aan bij duizenden leerkrachten die professionele werkbladen maken. Onbeperkt genereren, commerciële licentie inbegrepen.',

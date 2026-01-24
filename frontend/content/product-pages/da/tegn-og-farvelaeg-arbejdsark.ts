@@ -85,8 +85,8 @@ Generer tilpassede tegne-opgaver på få sekunder. Justér gitterstørrelse fra 
 
   // Sample Gallery - REAL file paths from samples/danish/draw-and-color/
   samples: {
-    sectionTitle: 'Gratis Arbejdsark Eksempler - Tegn og Farvelæg til Børn',
-    sectionDescription: 'Download gratis eksempler på arbejdsark for at se vores professionelle kvalitet',
+    sectionTitle: 'Gratis Arbejdsark til Børn - Gratis Arbejdsark og Gratis Printables',
+    sectionDescription: 'Download gratis printables - Gratis arbejdsark til børn af professionel kvalitet. Gratis arbejdsark og arbejdsark til børn perfekt til arbejdsark til børnehaveklasse. Gratis arbejdsark til børn og arbejdsark til børn inkluderer undervisningsmateriale. Gratis arbejdsark tilgængeligt',
     badgeText: 'Gratis Eksempler',
     downloadLabel: 'Download Gratis Eksempel',
     downloadingLabel: 'Downloader...',
@@ -137,7 +137,7 @@ Generer tilpassede tegne-opgaver på få sekunder. Justér gitterstørrelse fra 
 
   // Features Grid - FULL text from draw-and-color.md feature sections
   features: {
-    sectionTitle: 'Tegn og Farvelæg Funktioner - Gratis Arbejdsark til Børn og Arbejdsark til Børnehaveklasse',
+    sectionTitle: 'Gratis Arbejdsark og Arbejdsark til Børn - Gratis Printables og Arbejdsark til Børnehaveklasse',
     sectionDescription: 'Vores malebog generator tilbyder omfattende funktioner til at lave perfekte gratis opgaver til print. Hvert værktøj er designet til at gøre det nemt at oprette professionelle farvelægning arbejdsark for børnehaveklassen og 1. klasse. Fuld Adgang-abonnementet giver dig adgang til alle funktioner uden ekstra omkostninger. Download ubegrænsede kopiark som PDF eller JPEG i høj opløsning.',
     highlightBadgeText: 'Vigtig Funktion',
     readMoreLabel: 'Læs mere',
@@ -217,7 +217,7 @@ Vælg mellem fuldfarve og sort-hvid eksportering. Fuldfarve versioner viser farv
 
   // How-To Guide - FULL text from draw-and-color.md step sections
   howTo: {
-    sectionTitle: 'Sådan Laver Du Tegn og Farvelæg Gratis Arbejdsark i 5 Nemme Trin',
+    sectionTitle: 'Gratis Arbejdsark til Børn Oprette - Arbejdsark til Børnehaveklasse',
     sectionDescription: 'Opret professionelle farvelægning kopiark fra start til færdig på under 3 minutter. Ingen designerfærdigheder påkrævet. Vores trin-for-trin guide viser præcis hvordan du laver perfekte opgaver til print for 0. klasse og 1. klasse. Fuld Adgang-abonnementet giver dig alle værktøjer til at generere ubegrænsede gratis skoleopgaver til børnehaveklassen.',
     ctaText: 'Start Nu',
     badgeText: 'Sådan Virker Det',
@@ -289,7 +289,7 @@ Download svar-nøgle hvis du vil have en komplet version. Svar-nøglen viser det
 
   // Use Cases - FULL text from draw-and-color.md use case sections
   useCases: {
-    sectionTitle: 'Perfekt til Pædagoger og Forældre - Tegn og Farvelæg Gratis Arbejdsark til Alle Behov',
+    sectionTitle: 'Gratis Arbejdsark til Børn - Arbejdsark til Børnehaveklasse med Gratis Printables. Arbejdsark til Børn',
     sectionDescription: 'Vores farvelægning arbejdsark passer til enhver undervisningssituation. Pædagoger i børnehaveklassen bruger dem til finmotorik øvelser. Lærere i 1. klasse integrerer dem i matematik og læse-lektioner. Hjemmeundervisende forældre laver tilpassede gratis skoleopgaver til deres børn. Fuld Adgang-abonnementet giver alle brugertyper ubegrænsede opgaver til print uden ekstra omkostninger.',
     badgeText: 'Hvem Er Det Til',
     readMoreLabel: 'Læs mere',
@@ -372,7 +372,7 @@ Differentierede pakker appellerer til forskellige kunde-behov. Begynder-pakker m
 
   // FAQ Section - Selected FAQs from draw-and-color.md
   faq: {
-    sectionTitle: 'Ofte Stillede Spørgsmål om Tegn og Farvelæg Gratis Arbejdsark til Børn',
+    sectionTitle: 'FAQ - Gratis Arbejdsark til Børn og Arbejdsark til Børnehaveklasse. Arbejdsark til Børn',
     sectionDescription: 'Pædagoger stiller ofte spørgsmål om vores malebog generator før de abonnerer. Denne sektion besvarer de 12 mest almindelige spørgsmål. Lær om priser, funktioner og muligheder. Forstå hvordan farvelægning arbejdsark fungerer i din børnehaveklasse eller 1. klasse.',
     showMoreText: 'Vis flere spørgsmål',
     showLessText: 'Vis færre',

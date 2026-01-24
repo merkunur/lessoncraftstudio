@@ -83,8 +83,8 @@ Generatorn skapar vackra arbetsblad för barn med professionell 300 DPI-kvalitet
 
   // Sample Gallery - Swedish sample paths
   samples: {
-    sectionTitle: 'Gratis Arbetsblad för Barn - Ordpussel Exempel',
-    sectionDescription: 'Ladda ner gratis utskrifter för att se vår professionella kvalitet på arbetsblad för förskoleklass',
+    sectionTitle: 'Gratis Arbetsblad för Barn - Gratis Arbetsblad och Gratis Utskrifter',
+    sectionDescription: 'Ladda ner gratis utskrifter - Gratis arbetsblad för barn av professionell kvalitet. Gratis arbetsblad och arbetsblad för barn perfekt för arbetsblad för förskoleklass. Gratis arbetsblad för barn och arbetsblad för barn inkluderar utbildningsmaterial. Gratis arbetsblad och gratis utskrifter tillgänglig',
     downloadLabel: 'Ladda Ner Gratis Arbetsblad',
     worksheetLabel: 'Arbetsblad',
     answerKeyLabel: 'Facit',
@@ -301,7 +301,7 @@ Välj gråskaleläge för att spara bläck vid utskrift. Särskilt användbart n
 
   // Use Cases - FULL text from word-scramble.md use case sections
   useCases: {
-    sectionTitle: 'Gratis Arbetsblad för Barn - Perfekt för Lärare och Föräldrar',
+    sectionTitle: 'Gratis Arbetsblad för Barn - Arbetsblad för Förskoleklass med Gratis Utskrifter. Arbetsblad för Barn',
     sectionDescription: 'Vår ordpussel-generator används av lärare och föräldrar över hela Sverige. Skapa gratis arbetsblad för förskoleklass, gratis utskrifter och arbetsblad för barn. Varje användargrupp har unika behov som generatorn uppfyller perfekt.',
     badgeText: 'Vem Det Är För',
     readMoreLabel: 'Läs mer',
@@ -384,7 +384,7 @@ Skapa produktpaket med ordpussel, matematik arbetsblad för addition och subtrak
 
   // FAQ Section - Selected FAQs from word-scramble.md
   faq: {
-    sectionTitle: 'Vanliga Frågor om Gratis Arbetsblad',
+    sectionTitle: 'FAQ - Gratis Arbetsblad för Barn och Arbetsblad för Förskoleklass med Gratis Utskrifter. Arbetsblad för Barn',
     sectionDescription: 'Vanliga frågor om vår ordpussel-generator, gratis arbetsblad för barn och arbetsblad för förskoleklass.',
     showMoreText: 'Visa fler frågor',
     showLessText: 'Visa färre',
@@ -489,7 +489,7 @@ Skapa produktpaket med ordpussel, matematik arbetsblad för addition och subtrak
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Kombinera med Andra Arbetsblad Generatorer',
+    sectionTitle: 'Gratis Arbetsblad Kombinera - Arbetsblad för Barn och Gratis Utskrifter',
     sectionDescription: 'Skapa kompletta läropaket genom att kombinera ordpussel arbetsblad med dessa kompletterande generatorer.',
     ctaTitle: 'Redo att Skapa Fantastiska Arbetsblad?',
     ctaDescription: 'Gå med tusentals lärare som skapar professionella arbetsblad. Obegränsad generering, kommersiell licens ingår.',

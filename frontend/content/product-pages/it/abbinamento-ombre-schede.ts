@@ -83,8 +83,8 @@ Ogni scheda didattica è completamente personalizzabile. Scegli tra oltre 3000 i
 
   // Sample Gallery
   samples: {
-    sectionTitle: 'Stampabili Gratuiti: Esempi di Schede Abbinamento Ombre',
-    sectionDescription: 'Scarica esempi gratuiti per vedere la nostra qualità professionale',
+    sectionTitle: "Scheda Gratuita per Bambini - Schede Gratuite e Stampabili Gratuiti e Scheda per Bambini",
+    sectionDescription: "Scarica stampabili gratuiti - Scheda gratuita per bambini di qualità professionale. Schede gratuite e scheda per bambini perfette per scheda per scuola dell'infanzia. Scheda gratuita per bambini e scheda per bambini includono materiale educativo. Scheda gratuita e scheda per scuola dell'infanzia disponibile",
     downloadLabel: 'Scarica Esempio Gratuito',
     worksheetLabel: 'Scheda',
     answerKeyLabel: 'Soluzioni',
@@ -135,7 +135,7 @@ Ogni scheda didattica è completamente personalizzabile. Scegli tra oltre 3000 i
 
   // Features Grid
   features: {
-    sectionTitle: 'Funzionalità della Scheda Gratuita di Abbinamento Ombre',
+    sectionTitle: "Schede Gratuite e Scheda per Bambini - Stampabili Gratuiti e Scheda per Scuola dell'Infanzia",
     sectionDescription: 'Il nostro generatore di schede didattiche di abbinamento include tutte le funzionalità essenziali per creare materiale didattico professionale. Dalla creazione rapida alla modifica completa, ogni aspetto è progettato per gli insegnanti. Crea schede didattiche per scuola dell\'infanzia, schede didattiche scuola primaria e materiale per classe prima con facilità.',
     highlightBadgeText: 'Funzionalità Chiave',
     readMoreLabel: 'Leggi di più',
@@ -229,7 +229,7 @@ L'opzione scala di grigi risparmia inchiostro stampando. Mantiene tutta la chiar
 
   // How-To Guide Section
   howTo: {
-    sectionTitle: 'Come Creare Schede Gratuite di Abbinamento Ombre in 5 Passaggi',
+    sectionTitle: "Scheda Gratuita per Bambini Creare - Scheda per Scuola dell'Infanzia",
     sectionDescription: 'Creare schede didattiche professionali richiede meno di 3 minuti dall\'inizio alla fine. Questa guida ti mostra ogni passaggio. Perfetto per insegnanti della scuola primaria. Ideale anche per la scuola dell\'infanzia. Crea schede didattiche scuola primaria di qualità professionale senza esperienza di progettazione.',
     ctaText: 'Inizia Ora',
     badgeText: 'Guida Passo-Passo',
@@ -301,7 +301,7 @@ Il formato JPEG funziona meglio per uso digitale. Condividi schede didattiche vi
 
   // Use Cases Section
   useCases: {
-    sectionTitle: 'Scheda Gratuita per Bambini: Perfetta per Insegnanti e Genitori',
+    sectionTitle: "Scheda Gratuita per Bambini - Scheda per Scuola dell'Infanzia con Stampabili Gratuiti. Scheda per Bambini",
     sectionDescription: 'Il generatore di schede didattiche di abbinamento serve diversi tipi di educatori con bisogni specifici. Dalla scuola dell\'infanzia alla scuola primaria, dalle classi tradizionali all\'homeschooling, ogni gruppo trova valore unico. Le schede didattiche si adattano a contesti educativi diversi e livelli di età multipli.',
     badgeText: 'Chi Usa le Nostre Schede',
     readMoreLabel: 'Leggi di più',
@@ -384,7 +384,7 @@ Crea prodotti stagionali per vendite tutto l'anno. Abbinamenti a tema autunno in
 
   // FAQ Section
   faq: {
-    sectionTitle: 'Domande Frequenti sulle Schede Gratuite di Abbinamento Ombre',
+    sectionTitle: "FAQ - Scheda Gratuita per Bambini e Scheda per Scuola dell'Infanzia. Scheda per Bambini",
     sectionDescription: 'Risposte alle domande più comuni sul nostro generatore di schede didattiche di abbinamento ombre',
     showMoreText: 'Mostra altre domande',
     showLessText: 'Mostra meno domande',
@@ -536,7 +536,7 @@ Gli insegnanti usano le schede di abbinamento per valutazione formativa osservaz
 
   // Related Apps Section
   relatedApps: {
-    sectionTitle: 'Combina le Schede Gratuite di Abbinamento Ombre con Altri Generatori',
+    sectionTitle: "Schede Gratuite Combinare - Scheda per Bambini e Stampabili Gratuiti",
     sectionDescription: 'L\'abbonamento Accesso Completo include tutti i 33 generatori. Combina il generatore di abbinamento ombre con altri strumenti. Crea pacchetti completi di schede didattiche. Perfetto per unità tematiche. Ottimo per centri di apprendimento. Risparmia ancora più tempo.',
     ctaTitle: 'Pronto a Creare Schede Straordinarie?',
     ctaDescription: 'Unisciti a migliaia di educatori che creano schede professionali. Generazione illimitata, licenza commerciale inclusa.',

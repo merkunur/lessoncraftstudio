@@ -83,8 +83,8 @@ Le graphisme en maternelle pose les bases de l'écriture. Les enfants tracent de
 
   // Sample Gallery - REAL file paths from samples/french/drawing-lines/
   samples: {
-    sectionTitle: 'Exemples de Fiches Gratuites de Graphisme Maternelle',
-    sectionDescription: 'Téléchargez des exemples gratuits pour voir notre qualité professionnelle',
+    sectionTitle: 'Fiche Gratuite pour Enfants - Fiches Gratuites et Imprimables Gratuits',
+    sectionDescription: 'Téléchargez imprimables gratuits - Fiche gratuite pour enfants de qualité professionnelle. Fiches gratuites et fiche pour enfants parfaites pour fiche pour maternelle. Fiche gratuite pour enfants et fiches gratuites inclus matériel éducatif. Fiche gratuite et fiches gratuites disponible',
     downloadLabel: 'Télécharger Exemple Gratuit',
     worksheetLabel: 'Fiche',
     answerKeyLabel: 'Corrigé',
@@ -135,7 +135,7 @@ Le graphisme en maternelle pose les bases de l'écriture. Les enfants tracent de
 
   // Features Grid - FULL text from drawing-lines.md feature sections
   features: {
-    sectionTitle: 'Fonctionnalités - Créez des Fiches Gratuites de Graphisme pour Enfants',
+    sectionTitle: 'Fiches Gratuites et Fiche pour Enfants - Imprimables Gratuits et Fiche pour Maternelle',
     sectionDescription: 'Notre générateur de fiches de tracé offre des fonctionnalités complètes. Chaque outil a été conçu pour les enseignants de maternelle et de CP. Découvrez comment créer des fiches à imprimer gratuit de qualité professionnelle. Personnalisez chaque élément selon vos besoins pédagogiques.',
     highlightBadgeText: 'Fonctionnalité Clé',
     readMoreLabel: 'Lire la suite',
@@ -224,7 +224,7 @@ Les outils d'alignement créent des fiches pour apprendre les lettres parfaiteme
 
   // How-To Guide - FULL text from drawing-lines.md step sections
   howTo: {
-    sectionTitle: 'Comment Créer des Fiches Gratuites de Graphisme en 5 Étapes',
+    sectionTitle: 'Fiche Gratuite pour Enfants Créer - Fiche pour Maternelle',
     sectionDescription: 'La création de fiches de graphisme prend moins de 3 minutes. Suivez ce guide étape par étape. Vous obtiendrez des fiches maternelle professionnelles sans effort. Aucune compétence technique requise. L\'interface intuitive guide chaque action.',
     ctaText: 'Commencer Maintenant',
     badgeText: 'Guide Étape par Étape',
@@ -296,7 +296,7 @@ Le fichier se télécharge sur votre ordinateur. Imprimez directement sur votre 
 
   // Use Cases - FULL text from drawing-lines.md use case sections
   useCases: {
-    sectionTitle: 'Fiches Gratuites pour Enfants - Enseignants, Parents et Éducateurs',
+    sectionTitle: 'Fiche Gratuite pour Enfants - Fiche pour Maternelle avec Imprimables Gratuits. Fiche pour Enfants',
     sectionDescription: 'Les fiches de tracé de lignes s\'adressent à un large public. Enseignants de maternelle et d\'élémentaire. Parents pratiquant l\'instruction en famille. Orthophonistes et psychomotriciens. Chaque profil trouve des applications spécifiques. Découvrez comment notre générateur répond à vos besoins.',
     badgeText: 'Cas d\'Utilisation',
     readMoreLabel: 'Lire la suite',
@@ -367,7 +367,7 @@ Les fiches de coloriage à imprimer combinées au graphisme se vendent bien. Les
 
   // FAQ Section - Selected FAQs from drawing-lines.md
   faq: {
-    sectionTitle: 'Questions Fréquentes sur les Fiches de Graphisme et la Motricité Fine',
+    sectionTitle: 'FAQ - Fiche Gratuite pour Enfants et Fiche pour Maternelle. Fiche pour Enfants',
     sectionDescription: 'Les enseignants et parents posent régulièrement des questions sur notre générateur. Cette FAQ répond aux interrogations les plus courantes. Découvrez tout ce qu\'il faut savoir sur la création de fiches pédagogiques. Trouvez des réponses claires et pratiques.',
     showMoreText: 'Voir plus de questions',
     showLessText: 'Voir moins',
@@ -538,7 +538,7 @@ Les imprimables gratuits permettent de varier les supports. Une fiche gratuite p
 
   // Related Apps - From drawing-lines.md Section 7
   relatedApps: {
-    sectionTitle: 'Combinez le Graphisme avec d\'Autres Générateurs',
+    sectionTitle: 'Fiches Gratuites Combiner - Fiche pour Enfants et Imprimables Gratuits',
     sectionDescription: 'Notre plateforme propose 33 générateurs de fiches pédagogiques. Le graphisme s\'intègre parfaitement aux autres activités. Créez des packs complets pour vos élèves. Les apprentissages se renforcent mutuellement. Découvrez les combinaisons les plus efficaces pour la maternelle et l\'élémentaire.',
     ctaTitle: 'Prêt à Créer des Fiches Professionnelles ?',
     ctaDescription: 'Rejoignez des milliers d\'enseignants qui créent des fiches maternelle de qualité. Création illimitée, licence commerciale incluse.',

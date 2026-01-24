@@ -77,8 +77,8 @@ Varje arbetsblad innehåller 1-10 gåtor per sida. Välj mellan fyra svårighets
 
   // Sample Gallery - Swedish localized samples from /samples/swedish/word-guess/
   samples: {
-    sectionTitle: 'Gratis Gissa Ordet Arbetsblad Exempel - Arbetsblad för Barn',
-    sectionDescription: 'Ladda ner gratis exempelarbetsblad för att se vår professionella kvalitet',
+    sectionTitle: 'Gratis Arbetsblad för Barn - Gratis Arbetsblad och Gratis Utskrifter',
+    sectionDescription: 'Ladda ner gratis utskrifter - Gratis arbetsblad för barn av professionell kvalitet. Gratis arbetsblad och arbetsblad för barn perfekt för arbetsblad för förskoleklass. Gratis arbetsblad för barn och arbetsblad för barn inkluderar utbildningsmaterial. Gratis arbetsblad och gratis utskrifter tillgänglig',
     downloadLabel: 'Ladda Ner Gratis Exempel',
     worksheetLabel: 'Arbetsblad',
     answerKeyLabel: 'Facit',
@@ -122,7 +122,7 @@ Varje arbetsblad innehåller 1-10 gåtor per sida. Välj mellan fyra svårighets
 
   // Features Grid - FULL text from word-guess.md feature sections
   features: {
-    sectionTitle: 'Gissa Ordet Funktioner - Arbetsblad Gratis för Förskoleklass Material och Bokstäver Lära Sig',
+    sectionTitle: 'Gratis Arbetsblad och Arbetsblad för Barn - Gratis Utskrifter och Arbetsblad för Förskoleklass',
     sectionDescription: 'Gissa-ordet-generatorn kombinerar kraftfulla funktioner med enkel användning. Skapa professionella arbetsblad gratis utan designkunskaper. Varje funktion är utformad för lärare som behöver snabba och effektiva förskoleklass material.',
     highlightBadgeText: 'Nyckelfunktion',
     readMoreLabel: 'Läs mer',
@@ -288,7 +288,7 @@ Välj gråskaleläge för att spara bläck vid utskrift. Särskilt användbart n
 
   // Use Cases - FULL text from word-guess.md use case sections
   useCases: {
-    sectionTitle: 'Perfekt för Lärare och Föräldrar',
+    sectionTitle: 'Gratis Arbetsblad för Barn - Arbetsblad för Förskoleklass med Gratis Utskrifter. Arbetsblad för Barn',
     sectionDescription: 'Gissa-ordet-generatorn används av lärare och föräldrar över hela Sverige. Skapa arbetsblad gratis för bokstäver lära sig, matematik arbetsblad och förskoleklass material. Varje användargrupp har unika behov som generatorn uppfyller perfekt.',
     badgeText: 'Vem Det Är För',
     readMoreLabel: 'Läs mer',
@@ -371,7 +371,7 @@ Skapa produktpaket med gissa-ordet-arbetsblad, matematik arbetsblad för additio
 
   // FAQ Section - Selected FAQs from word-guess.md
   faq: {
-    sectionTitle: 'Vanliga Frågor om Gratis Gissa Ordet Arbetsblad för Barn',
+    sectionTitle: 'FAQ - Gratis Arbetsblad för Barn och Arbetsblad för Förskoleklass med Gratis Utskrifter. Arbetsblad för Barn',
     sectionDescription: 'Vanliga frågor om vår gissa-ordet-generator och arbetsblad gratis.',
     showMoreText: 'Visa fler frågor',
     showLessText: 'Visa färre',

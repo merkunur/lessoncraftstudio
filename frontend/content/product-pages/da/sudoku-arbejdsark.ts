@@ -83,8 +83,8 @@ Vores generator laver 4x4 sudoku gratis arbejdsark med billeder. Børn skal fyld
 
   // Sample Gallery
   samples: {
-    sectionTitle: 'Gratis Arbejdsark Eksempler - Sudoku til Børn',
-    sectionDescription: 'Download gratis arbejdsark eksempler på sudoku for at se vores professionelle kvalitet - arbejdsark til børnehaveklasse og 0. klasse',
+    sectionTitle: 'Gratis Arbejdsark til Børn - Gratis Arbejdsark og Gratis Printables',
+    sectionDescription: 'Download gratis printables - Gratis arbejdsark til børn af professionel kvalitet. Gratis arbejdsark og arbejdsark til børn perfekt til arbejdsark til børnehaveklasse. Gratis arbejdsark til børn og arbejdsark til børn inkluderer undervisningsmateriale. Gratis arbejdsark tilgængeligt',
     badgeText: 'Gratis Eksempler',
     downloadLabel: 'Download Gratis Eksempel',
     downloadingLabel: 'Downloader...',
@@ -135,7 +135,7 @@ Vores generator laver 4x4 sudoku gratis arbejdsark med billeder. Børn skal fyld
 
   // Features Grid
   features: {
-    sectionTitle: 'Sudoku Generator Funktioner - Gratis Arbejdsark til Børn og Arbejdsark til Børnehaveklasse',
+    sectionTitle: 'Gratis Arbejdsark og Arbejdsark til Børn - Gratis Printables og Arbejdsark til Børnehaveklasse',
     sectionDescription: 'Vores sudoku generator indeholder alle funktioner du behøver for at skabe professionelle gratis arbejdsark. Grundpakke abonnementet giver dig adgang til kraftfulde tilpasningsværktøjer. Skab unikke arbejdsark til børnehaveklasse, 0. klasse og 1. klasse på få minutter. Hver funktion er designet til at gøre arbejdsark til børn oprettelse hurtig og nem.',
     highlightBadgeText: 'Vigtig Funktion',
     readMoreLabel: 'Læs mere',
@@ -229,7 +229,7 @@ JPEG format fungerer med alle enheder. Del nemt via email eller sociale medier. 
 
   // How-To Guide
   howTo: {
-    sectionTitle: 'Sådan Laver Du Sudoku Gratis Arbejdsark i 5 Nemme Trin',
+    sectionTitle: 'Gratis Arbejdsark til Børn Oprette - Arbejdsark til Børnehaveklasse',
     sectionDescription: 'Lav professionelle sudoku gratis arbejdsark på under 3 minutter. Denne trin-for-trin guide viser dig nøjagtig hvordan. Ingen designerfærdigheder nødvendige. Perfekt til lærere som laver arbejdsark til børn, arbejdsark til børnehaveklasse og gratis printables til 0. klasse og 1. klasse.',
     badgeText: 'Trin-for-Trin Guide',
     readMoreLabel: 'Læs mere',
@@ -313,7 +313,7 @@ Aktiver gråtone for at spare printerblæk. Klik på "Gråtone" checkboksen før
 
   // Use Cases
   useCases: {
-    sectionTitle: 'Perfekt til Pædagoger og Forældre - Sudoku Arbejdsark til Børnehaveklasse',
+    sectionTitle: 'Gratis Arbejdsark til Børn - Arbejdsark til Børnehaveklasse med Gratis Printables. Arbejdsark til Børn',
     sectionDescription: 'Vores sudoku generator passer til mange forskellige undervisningssituationer. Børnehavepædagoger, indskolingslærere, hjemmeundervisende forældre og specialpædagoger bruger alle vores gratis arbejdsark til børn. Fleksibiliteten gør sudoku gratis printables perfekt til enhver undervisningskontekst.',
     badgeText: 'Brugseksempler',
     readMoreLabel: 'Læs mere',
@@ -438,7 +438,7 @@ Kombiner sudoku med andre arbejdsark for bundne produkter. "Komplet Matematikpak
 
   // FAQ Section
   faq: {
-    sectionTitle: 'Ofte Stillede Spørgsmål - Sudoku Gratis Arbejdsark til Børn',
+    sectionTitle: 'FAQ - Gratis Arbejdsark til Børn og Arbejdsark til Børnehaveklasse. Arbejdsark til Børn',
     sectionDescription: 'Lærere og forældre stiller ofte de samme spørgsmål om vores sudoku generator. Her finder du svar på de mest almindelige spørgsmål om gratis arbejdsark, arbejdsark til børnehaveklasse og integration med andre gratis printables.',
     badgeText: 'FAQ',
     readMoreLabel: 'Læs mere',

@@ -95,8 +95,8 @@ De generator werkt in het Nederlands met volledige UI-ondersteuning. Alle labels
 
   // Sample Gallery
   samples: {
-    sectionTitle: 'Gratis Werkblad Sorteer Voorbeelden - Werkbladen voor Kinderen',
-    sectionDescription: 'Download gratis voorbeeldwerkbladen om onze professionele kwaliteit te ervaren',
+    sectionTitle: 'Gratis Werkblad voor Kinderen - Gratis Werkbladen en Gratis Printables',
+    sectionDescription: 'Download gratis printables - Gratis werkblad voor kinderen van professionele kwaliteit. Gratis werkbladen en werkblad voor kinderen perfect voor werkblad voor kleuters. Gratis werkblad voor kinderen en werkblad voor kinderen inclusief educatief materiaal. Gratis werkblad beschikbaar',
     downloadLabel: 'Gratis Voorbeeld Downloaden',
     worksheetLabel: 'Werkblad',
     answerKeyLabel: 'Antwoordblad',
@@ -140,7 +140,7 @@ De generator werkt in het Nederlands met volledige UI-ondersteuning. Alle labels
 
   // Features Grid
   features: {
-    sectionTitle: 'Gratis Werkbladen Sorteer Functies - Werkblad voor Kinderen en Werkblad voor Kleuters',
+    sectionTitle: 'Gratis Werkbladen en Werkblad voor Kinderen - Gratis Printables en Werkblad voor Kleuters',
     sectionDescription: 'Onze sorteer generator bevat alle functies die je nodig hebt voor professionele werkbladen groep 3 en werkbladen kleuters. Maak sorteer oefenbladen in drie klikken. Bewerk elk element op het canvas. Upload eigen afbeeldingen. Werkt in 11 talen inclusief Nederlands. Inclusief commerciële licentie voor verkoop. Toegang tot 3000+ kinderlijke afbeeldingen. Exporteer in professionele 300 DPI kwaliteit. Alles zit in je Volledige Toegang abonnement.',
     highlightBadgeText: 'Uitgelicht',
     readMoreLabel: 'Lees meer',
@@ -259,7 +259,7 @@ De generator ondersteunt ook labels voor elke categorie. Voeg tekst toe boven he
 
   // How-To Guide
   howTo: {
-    sectionTitle: 'Hoe Maak Je Gratis Werkblad Sorteer en Werkbladen voor Kinderen in 5 Stappen',
+    sectionTitle: 'Gratis Werkblad voor Kinderen Maken - Werkblad voor Kleuters',
     sectionDescription: 'Het maken van sorteer werkbladen duurt minder dan 3 minuten van begin tot eind. Volg deze vijf eenvoudige stappen. Kies je sorteer categorieën. Pas instellingen aan. Genereer je werkblad. Bewerk op het canvas. Download en print. De hele workflow is ontworpen voor snelheid en gebruiksgemak. Zelfs leerkrachten zonder ontwerpervaring maken professionele werkbladen groep 3 en werkbladen kleuters binnen minuten.',
     ctaText: 'Nu Starten',
     badgeText: 'Zo werkt het',
@@ -436,7 +436,7 @@ De commerciële licentie dekt ook bundel in curricula. Schrijf een complete "Vro
 
   // FAQ Section
   faq: {
-    sectionTitle: 'Veelgestelde Vragen Over Gratis Werkbladen en Werkblad voor Kinderen Sorteer',
+    sectionTitle: 'FAQ - Gratis Werkblad voor Kinderen en Werkblad voor Kleuters. Werkblad voor Kinderen',
     sectionDescription: 'Leerkrachten en ouders stellen vaak dezelfde vragen over sorteer werkbladen. Is de generator echt gratis? Kan ik werkbladen thuis printen? Heb ik ontwerpvaardigheden nodig? Kan ik werkbladen gebruiken in mijn klas? Welke talen zijn beschikbaar? Kan ik werkbladen verkopen die ik maak? Deze FAQ beantwoordt alle veelvoorkomende vragen.',
     showMoreText: 'Meer vragen tonen',
     showLessText: 'Minder tonen',
@@ -564,7 +564,7 @@ De commerciële licentie dekt ook bundel in curricula. Schrijf een complete "Vro
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Combineer Sorteer Met Andere Gratis Werkbladen - Werkblad voor Kinderen Lespakketten',
+    sectionTitle: 'Gratis Werkbladen Combineren - Werkblad voor Kinderen en Gratis Printables',
     sectionDescription: 'De sorteer generator is één van 33 gratis werkbladen tools op LessonCraft Studio. Combineer sorteer werkbladen met andere werkbladtypen voor complete thematische leerpakketten. Maak een wiskundeweek pakket met sorteer plus rekenen werkbladen. Creëer een lees eenheid met sorteer plus veilig leren lezen materialen. Ontwikkel fijne motoriek bundels met sorteer plus kleurplaten.',
     ctaTitle: 'Klaar om geweldige werkbladen te maken?',
     ctaDescription: 'Sluit je aan bij duizenden leerkrachten die professionele werkbladen maken. Onbeperkt genereren, commerciële licentie inbegrepen.',

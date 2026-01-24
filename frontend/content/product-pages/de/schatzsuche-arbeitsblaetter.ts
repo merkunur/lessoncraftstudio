@@ -97,8 +97,8 @@ Dieser Schatzsuche Generator erstellt bei jedem Klick einzigartige Arbeitsblätt
 
   // Sample Gallery - REAL file paths from samples/english/treasure hunt/
   samples: {
-    sectionTitle: 'Schatzsuche Arbeitsblätter Beispiele',
-    sectionDescription: 'Laden Sie kostenlose Beispiel-Arbeitsblätter herunter, um unsere professionelle Qualität zu sehen',
+    sectionTitle: 'Kostenloses Arbeitsblatt für Kinder - Kostenlose Arbeitsblätter und Kostenlose Druckvorlagen',
+    sectionDescription: 'Laden Sie kostenlose Druckvorlagen herunter - Kostenloses Arbeitsblatt für Kinder in professioneller Qualität für Arbeitsblatt für Vorschule',
     downloadLabel: 'Kostenloses Beispiel Herunterladen',
     worksheetLabel: 'Arbeitsblatt',
     answerKeyLabel: 'Lösungsblatt',
@@ -149,7 +149,7 @@ Dieser Schatzsuche Generator erstellt bei jedem Klick einzigartige Arbeitsblätt
 
   // Features Grid - FULL text from schatzsuche.md feature sections
   features: {
-    sectionTitle: 'Schatzsuche Generator Funktionen - Alles für Kostenlose Arbeitsblätter, Vorschule Arbeitsblätter und Arbeitsblätter Grundschule',
+    sectionTitle: 'Arbeitsblatt für Kinder - Arbeitsblatt für Vorschule und Kostenlose Arbeitsblätter',
     sectionDescription: 'Unser Schatzsuche Arbeitsblatt Generator bietet sieben leistungsstarke Funktionen für professionelle Richtungsanweisungen Arbeitsblätter. Jede Funktion unterstützt Sie bei der Erstellung von Vorschule Arbeitsblätter und Arbeitsblätter Grundschule. Generieren Sie unbegrenzt Schatzsuche Aktivitäten mit Ihrem Vollzugriff Abo. Keine Zusatzkosten pro Arbeitsblatt bedeutet: Erstellen Sie so viele kostenlose Arbeitsblätter wie Ihre Schüler brauchen.',
     highlightBadgeText: 'Hauptfunktion',
     readMoreLabel: 'Mehr lesen',
@@ -241,7 +241,7 @@ Export-Optionen umfassen separate Arbeitsblatt- und Lösungsbogen-Downloads. Der
 
   // How-To Guide - FULL text from schatzsuche.md
   howTo: {
-    sectionTitle: 'So Erstellen Sie Kostenlose Arbeitsblätter und Arbeitsblätter Grundschule in 5 Einfachen Schritten - Vorschule Arbeitsblätter und Mathe Arbeitsblätter Schnell Gemacht',
+    sectionTitle: 'Kostenloses Arbeitsblatt für Kinder erstellen - Arbeitsblatt für Vorschule',
     sectionDescription: 'Generieren Sie professionelle Schatzsuche Arbeitsblätter in unter 3 Minuten mit diesem einfachen Fünf-Schritte-Prozess. Keine Designkenntnisse erforderlich. Lehrkräfte erstellen individuelle Vorschule Arbeitsblätter und Arbeitsblätter Grundschule während der Vorbereitungszeit oder Planungsstunden. Der optimierte Arbeitsablauf hilft Ihnen, komplette Arbeitsblatt-Pakete zu erstellen. Kombinieren Sie Schatzsuche mit Mathe Arbeitsblätter, Buchstaben lernen und Rechnen lernen Materialien für umfassende Lerneinheiten.',
     ctaText: 'Jetzt Erstellen',
     badgeText: 'So Funktioniert Es',
@@ -313,7 +313,7 @@ Aktivieren Sie die Graustufen-Option, wenn Sie auf einem Schwarz-Weiß-Drucker d
 
   // Use Cases Section - FULL text from schatzsuche.md
   useCases: {
-    sectionTitle: 'Perfekt für Lehrkräfte, Eltern und Pädagogen - Kostenlose Arbeitsblätter, Vorschule Arbeitsblätter und Arbeitsblätter Grundschule für Jeden Bedarf',
+    sectionTitle: 'Kostenloses Arbeitsblatt für Kinder - Arbeitsblatt für Vorschule mit Kostenlose Druckvorlagen',
     sectionDescription: 'Schatzsuche Arbeitsblätter dienen unterschiedlichsten Bildungsumgebungen von traditionellen Klassenzimmern bis zum Heimunterricht. Lehrkräfte aller Klassenstufen nutzen Richtungsanweisungen Aktivitäten zum Aufbau von Leseverständnis, räumlichem Vorstellungsvermögen und kritischem Denken. Das flexible Format passt sich verschiedenen Lehrplanstandards und Lernzielen an. Erstellen Sie unbegrenzt kostenlose Arbeitsblätter für tägliche Übung, Leistungsüberprüfung, Begabtenförderung oder Förderunterricht.',
     badgeText: 'Anwendungsbereiche',
     readMoreLabel: 'Mehr lesen',
@@ -396,7 +396,7 @@ Die unbegrenzte Generierungsfähigkeit bedeutet, dass Lehrpreneurs nie ohne Prod
 
   // FAQ Section - FULL text from schatzsuche.md
   faq: {
-    sectionTitle: 'Häufig Gestellte Fragen zu Kostenlose Arbeitsblätter, Einmaleins, Rechnen Lernen und Deutsch Arbeitsblätter',
+    sectionTitle: 'FAQ - Kostenloses Arbeitsblatt für Kinder und Arbeitsblatt für Vorschule',
     sectionDescription: 'Lehrkräfte stellen häufig zwölf Fragen zur Erstellung von Schatzsuche Arbeitsblättern und zur effektiven Nutzung des Generators. Diese Antworten behandeln Preise, Nutzungsrechte, Anpassungsoptionen und technische Details. Das Verständnis dieser Grundlagen hilft Ihnen, den Wert Ihres Vollzugriff Abos zu maximieren und bessere Bildungsmaterialien für Ihre Schüler zu erstellen.',
     showMoreText: 'Mehr Fragen anzeigen',
     showLessText: 'Weniger anzeigen',
@@ -495,7 +495,7 @@ Die themenbasierte Bilderbibliothek organisiert Inhalte nach Fachbereich für sc
 
   // Related Apps Section - FULL text from schatzsuche.md
   relatedApps: {
-    sectionTitle: 'Schatzsuche Arbeitsblätter mit Anderen Kostenlose Arbeitsblätter Kombinieren - Komplette Lernpakete mit Buchstaben Lernen, Einmaleins und Ausmalbilder',
+    sectionTitle: 'Kostenlose Arbeitsblätter kombinieren - Arbeitsblatt für Kinder und Kostenlose Druckvorlagen',
     sectionDescription: 'Lehrkräfte erstellen umfassende Lernpakete durch Kombination von Schatzsuche Arbeitsblättern mit anderen kostenlose Arbeitsblätter Typen, die auf der Plattform verfügbar sind. Ihr Vollzugriff Abo umfasst 33 verschiedene Arbeitsblatt-Generatoren, die alle wichtigen Fächer der frühkindlichen Bildung abdecken. Bauen Sie thematische Einheiten auf, die mehrere Arbeitsblatttypen um einzelne Themen kombinieren. Schüler erhalten abwechslungsreiche Übungsaktivitäten, die Engagement aufrechterhalten und gleichzeitig Kernkompetenzen über verschiedene Formate verstärken.',
     ctaTitle: 'Bereit für professionelle Schatzsuche Arbeitsblätter?',
     ctaDescription: 'Schließen Sie sich tausenden Pädagogen an, die professionelle Arbeitsblätter in Minuten erstellen.',

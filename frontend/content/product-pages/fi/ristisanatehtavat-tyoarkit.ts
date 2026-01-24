@@ -55,8 +55,8 @@ Generaattori toimii täysin suomeksi. Kaikki kuvien nimet ja teemat näkyvät su
 
   // Sample Gallery - REAL file paths from samples/english/crossword/
   samples: {
-    sectionTitle: 'Ristisanatehtävien Esimerkit',
-    sectionDescription: 'Lataa ilmaiset esimerkkitehtävät nähdäksesi ammattimaisen laatumme',
+    sectionTitle: 'Ilmainen Työarkki Lapsille - Ilmaiset Työarkit ja Ilmaiset Tulosteet',
+    sectionDescription: 'Lataa ilmaiset tulosteet - Ilmainen työarkki lapsille ammattimaista laatua. Ilmaiset työarkit ja työarkki lapsille täydellinen työarkki esiopetukseen. Ilmainen työarkki lapsille ja työarkki lapsille sisältää ilmaiset tulosteet ja ilmaiset työarkit opetusmateriaalin. Ilmainen työarkki ja työarkki esiopetukseen saatavilla',
     downloadLabel: 'Lataa Ilmainen Esimerkki',
     worksheetLabel: 'Tehtäväsivu',
     answerKeyLabel: 'Vastaussivu',
@@ -86,7 +86,7 @@ Generaattori toimii täysin suomeksi. Kaikki kuvien nimet ja teemat näkyvät su
 
   // Features Grid - FULL text from Finnish crossword.md feature sections
   features: {
-    sectionTitle: 'Ristisanatehtävien Ominaisuudet - Tulostettavat Tehtävät Lapsille Ilmainen ja Esiopetus Materiaali',
+    sectionTitle: 'Ilmaiset Työarkit ja Työarkki Lapsille - Ilmaiset Tulosteet ja Työarkki Esiopetukseen',
     sectionDescription: 'Ristisanatehtävien generaattori tarjoaa kaiken mitä tarvitset ammattimaisten tehtävien luomiseen. Täysi Käyttöoikeus -tilaus antaa sinulle pääsyn kaikkiin ominaisuuksiin. Luo tulostettavat tehtävät lapsille ilmainen lisäkustannuksista. Ei maksuja per tehtävä. Ei rajoituksia luomien tehtävien määrässä. Generaattori sisältää työkalut esiopetus materiaali ilmainen luomiseen ja alakoulun tehtäviin.',
     highlightBadgeText: 'Tärkeä Ominaisuus',
     readMoreLabel: 'Lue lisää',
@@ -180,7 +180,7 @@ PDF-tiedostot valmis tulostettavaksi. Oikea paperikoko automaattisesti. A4 tai L
 
   // How-To Guide - FULL text from Finnish crossword.md step sections
   howTo: {
-    sectionTitle: 'Kuinka Luoda Tulostettavat Tehtävät Lapsille Ilmainen Ristisanatehtäviä Viidessä Helpossa Vaiheessa',
+    sectionTitle: 'Ilmainen Työarkki Lapsille Luoda - Työarkki Esiopetukseen',
     sectionDescription: 'Luo ammattimaisia ristisanatehtäviä alle kolmessa minuutissa. Ei tarvita suunnittelutaitoja. Ei tarvita erikoisohjelmistoja. Kaikki toimii suoraan selaimessasi. Seuraa näitä viittä vaihetta luodaksesi tulostettavat tehtävät lapsille ilmainen ristisanatehtäviä. Generaattori tekee vaikean työn puolestasi.',
     ctaText: 'Aloita Luominen Nyt',
     badgeText: 'Näin Se Toimii',
@@ -252,7 +252,7 @@ Harmaasävyvaihtoehto säästää mustetta. Rastita "Harmaasävy" ennen lataamis
 
   // Use Cases - FULL text from Finnish crossword.md use case sections
   useCases: {
-    sectionTitle: 'Täydellinen Opettajille ja Vanhemmille - Tulostettavat Tehtävät Lapsille Ilmainen Kaikille Tarpeille',
+    sectionTitle: 'Ilmainen Työarkki Lapsille - Työarkki Esiopetukseen ja Ilmaiset Tulosteet. Työarkki Lapsille',
     sectionDescription: 'Ristisanatehtävien generaattori palvelee monia käyttäjiä. Esiopetuksen opettajat. Alakoulun opettajat. Kotiopettajat. Kielenopettajat. Erityisopettajat. Opettajayrittäjät. Jokainen ryhmä hyötyy eri tavalla. Kaikki saavat tulostettavat tehtävät lapsille ilmainen työkalun, joka säästää tunteja aikaa viikoittain.',
     badgeText: 'Kenelle Sopii',
     readMoreLabel: 'Lue lisää',
@@ -428,7 +428,7 @@ Vuodenaikaiset paketit myyvät hyvin. Joulu, Pääsiäinen, Halloween, Koulu alk
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Yhdistä Muihin Generaattoreihin - Kirjaimet Harjoittelu Esikoulu ja Matematiikka Tehtävät Alakoulu Paketit',
+    sectionTitle: 'Ilmaiset Työarkit Yhdistää - Työarkki Lapsille ja Ilmaiset Tulosteet',
     sectionDescription: 'Ristisanatehtävien todellinen voima tulee esiin yhdistettynä muihin generaattoreihin. Täysi Käyttöoikeus antaa sinulle pääsyn kaikkiin 33 generaattoriin. Luo kattavia opetuspaketteja.',
     ctaTitle: 'Valmiina Luomaan Upeita Ristisanatehtäviä?',
     ctaDescription: 'Liity tuhansien opettajien joukkoon, jotka luovat ammattimaisia ristisanatehtäviä. Rajoittamaton generointi, kaupallinen lisenssi sisältyy.',

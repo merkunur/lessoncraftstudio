@@ -87,8 +87,8 @@ Les enseignants utilisent notre générateur pour développer les compétences d
 
   // Sample Gallery - REAL file paths from samples/english/find objects/
   samples: {
-    sectionTitle: 'Exemples de Fiches Cherche les Objets',
-    sectionDescription: 'Téléchargez des exemples gratuits pour voir notre qualité professionnelle',
+    sectionTitle: 'Fiche Gratuite pour Enfants - Fiches Gratuites et Imprimables Gratuits',
+    sectionDescription: 'Téléchargez imprimables gratuits - Fiche gratuite pour enfants de qualité professionnelle. Fiches gratuites et fiche pour enfants parfaites pour fiche pour maternelle. Fiche gratuite pour enfants et fiches gratuites inclus matériel éducatif. Fiche gratuite et fiches gratuites disponible',
     downloadLabel: 'Télécharger Exemple Gratuit',
     worksheetLabel: 'Fiche',
     answerKeyLabel: 'Corrigé',
@@ -139,7 +139,7 @@ Les enseignants utilisent notre générateur pour développer les compétences d
 
   // Features Grid - FULL text from find-objects.md feature sections
   features: {
-    sectionTitle: 'Fonctionnalités du Générateur - Fiches Maternelle et Exercices CP Personnalisables',
+    sectionTitle: 'Fiches Gratuites et Fiche pour Enfants - Imprimables Gratuits et Fiche pour Maternelle',
     sectionDescription: 'Notre générateur de discrimination visuelle offre une personnalisation complète pour créer des fiches maternelle et exercices CP. La plateforme inclut deux modes d\'activité distincts avec des outils d\'édition professionnels. Les enseignants créent des fiches à imprimer gratuit pour la pratique de la perception visuelle en moins de trois minutes. L\'abonnement Accès Complet débloque toutes les fonctionnalités sur 33 types de générateurs incluant exercices maths, alphabet, et apprendre à lire.',
     highlightBadgeText: 'Fonctionnalité Clé',
     readMoreLabel: 'Lire la suite',
@@ -228,7 +228,7 @@ Les deux modes s'adaptent facilement aux différents niveaux de développement. 
 
   // How-To Guide - FULL text from find-objects.md step sections
   howTo: {
-    sectionTitle: 'Comment Créer des Fiches à Imprimer Gratuit en 5 Étapes Faciles',
+    sectionTitle: 'Fiche Gratuite pour Enfants Créer - Fiche pour Maternelle',
     sectionDescription: 'Générez des fiches maternelle professionnelles et exercices CP en moins de trois minutes. Ce guide étape par étape montre comment créer des fiches de discrimination visuelle du début à la fin. Aucune compétence en conception requise pour créer des fiches à imprimer gratuit. Le flux de travail simplifié aide les enseignants à créer des exercices maths, apprendre à lire et alphabet efficacement. Suivez ces cinq étapes simples pour produire des fiches prêtes pour la classe ou la vente commerciale.',
     ctaText: 'Commencer Maintenant',
     badgeText: 'Comment Ça Marche',
@@ -300,7 +300,7 @@ Imprimez les fiches téléchargées immédiatement ou enregistrez-les pour une u
 
   // Use Cases - FULL text from find-objects.md use case sections
   useCases: {
-    sectionTitle: 'Parfait pour Enseignants, Parents et Éducateurs',
+    sectionTitle: 'Fiche Gratuite pour Enfants - Fiche pour Maternelle avec Imprimables Gratuits. Fiche pour Enfants',
     sectionDescription: 'Les fiches de discrimination visuelle servent divers contextes éducatifs et styles d\'enseignement. Les enseignants de maternelle utilisent des fiches d\'objets cachés pour développer l\'attention. Les enseignants de CP développent des compétences avancées de perception visuelle. Les parents en instruction à domicile créent des supports d\'apprentissage personnalisés. Les enseignants FLE développent le vocabulaire par contexte visuel. Les enseignants spécialisés adaptent les niveaux de difficulté aux besoins individuels. Les enseignants entrepreneurs génèrent des revenus en vendant des fiches à imprimer gratuit. Le générateur soutient tous ces utilisateurs avec une personnalisation flexible et une qualité de sortie professionnelle.',
     badgeText: 'Pour Qui',
     readMoreLabel: 'Lire la suite',
@@ -383,7 +383,7 @@ Téléversez des graphiques personnalisés pour créer des produits uniques que 
 
   // FAQ Section - Selected FAQs from find-objects.md
   faq: {
-    sectionTitle: 'Questions Fréquemment Posées - Fiches à Imprimer Gratuit et Exercices CP',
+    sectionTitle: 'FAQ - Fiche Gratuite pour Enfants et Fiche pour Maternelle. Fiche pour Enfants',
     sectionDescription: 'Les enseignants ont des questions pratiques avant d\'investir dans des outils de création de fiches. Cette section répond aux questions les plus courantes sur la création de fiches maternelle et exercices CP.',
     showMoreText: 'Voir plus de questions',
     showLessText: 'Voir moins',
@@ -507,7 +507,7 @@ Téléversez des graphiques personnalisés pour créer des produits uniques que 
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Combinez avec D\'Autres Générateurs de Fiches',
+    sectionTitle: 'Fiches Gratuites Combiner - Fiche pour Enfants et Imprimables Gratuits',
     sectionDescription: 'Votre abonnement Accès Complet inclut 33 générateurs complémentaires. Combinez la discrimination visuelle avec d\'autres outils pour créer des séquences pédagogiques complètes.',
     ctaTitle: 'Prêt à Créer des Fiches Fantastiques ?',
     ctaDescription: 'Rejoignez des milliers d\'enseignants qui créent des fiches professionnelles. Génération illimitée, licence commerciale incluse.',

@@ -78,7 +78,7 @@ Every picture graph worksheet downloads as a professional 300 DPI file in PDF or
 
   // Sample Gallery - REAL file paths from samples/english/chart count/
   samples: {
-    sectionTitle: 'Picture Graph Worksheet Samples',
+    sectionTitle: 'Free Printables - Worksheet for Kindergarten Samples',
     downloadLabel: 'Download Free Sample',
     worksheetLabel: 'Worksheet',
     answerKeyLabel: 'Answer Key',
@@ -367,7 +367,7 @@ Pinterest marketing drives enormous traffic to Teachers Pay Teachers stores. Cre
 
   // FAQ Section - Selected FAQs from chart-count.md
   faq: {
-    sectionTitle: 'Frequently Asked Questions',
+    sectionTitle: 'FAQ - Free Printables and Worksheet for Kindergarten',
     sectionDescription: 'Everything you need to know about our picture graph worksheet generator.',
     showMoreText: 'Show more questions',
     showLessText: 'Show less',

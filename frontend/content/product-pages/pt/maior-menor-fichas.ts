@@ -85,8 +85,8 @@ Crianças da educação infantil aprendem melhor com recursos visuais. Este gera
 
   // Sample Gallery - REAL file paths from samples/portuguese/more-less/
   samples: {
-    sectionTitle: 'Exemplos de Atividades Grátis de Maior e Menor - Atividade para Crianças',
-    sectionDescription: 'Baixe exemplos de atividades grátis para ver nossa qualidade profissional',
+    sectionTitle: 'Atividade Grátis para Crianças - Atividades Grátis e Imprimíveis Grátis',
+    sectionDescription: 'Baixe imprimíveis grátis - Atividade grátis para crianças de qualidade profissional. Atividades grátis e atividade para crianças perfeitas para atividade para educação infantil. Atividade grátis para crianças e atividade para crianças incluem material educativo. Atividade grátis disponível',
     downloadLabel: 'Baixar Exemplo Grátis',
     worksheetLabel: 'Atividade',
     answerKeyLabel: 'Gabarito',
@@ -137,7 +137,7 @@ Crianças da educação infantil aprendem melhor com recursos visuais. Este gera
 
   // Features Grid - FULL text from more-less.md feature sections
   features: {
-    sectionTitle: 'Recursos do Gerador de Atividades Grátis - Atividade para Educação Infantil',
+    sectionTitle: 'Atividades Grátis e Atividade para Crianças - Imprimíveis Grátis e Atividade para Educação Infantil',
     sectionDescription: 'O gerador Maior e Menor oferece recursos completos para criar atividade grátis de qualidade. Cada funcionalidade foi desenvolvida pensando em educadores brasileiros. Crie atividade grátis para crianças personalizadas em minutos. O sistema permite total controle sobre cada elemento da ficha. Professores de educação infantil e ensino fundamental usam diariamente.',
     highlightBadgeText: 'Recurso Principal',
     readMoreLabel: 'Leia mais',
@@ -226,7 +226,7 @@ O modo imagem-para-número compara objetos com numerais escritos. Alunos mais av
 
   // How-To Guide - FULL text from more-less.md step sections
   howTo: {
-    sectionTitle: 'Como Criar Atividade Grátis para Crianças em 5 Passos - Guia de Imprimíveis Grátis',
+    sectionTitle: 'Atividade Grátis para Crianças Criar - Atividade para Educação Infantil',
     sectionDescription: 'Criar atividade grátis de maior e menor leva menos de 3 minutos. O processo é simples e intuitivo. Professores sem experiência em design conseguem criar fichas profissionais. Siga os 5 passos abaixo para suas primeiras atividades grátis. Cada etapa foi pensada para economizar seu tempo.',
     ctaText: 'Comece Agora',
     badgeText: 'Como Funciona',
@@ -298,7 +298,7 @@ A opção de escala de cinza economiza tinta. Atividade grátis em preto e branc
 
   // Use Cases - FULL text from more-less.md use case sections
   useCases: {
-    sectionTitle: 'Quem Usa Atividade Grátis de Maior e Menor - Atividade para Educação Infantil',
+    sectionTitle: 'Atividade Grátis para Crianças - Atividade para Educação Infantil com Imprimíveis Grátis. Atividade para Crianças',
     sectionDescription: 'O gerador Maior e Menor atende diversos perfis de educadores brasileiros. Professores de atividade para educação infantil usam diariamente. Pais que educam em casa adoram a praticidade. Atividade grátis serve múltiplos contextos educacionais. Cada usuário encontra valor único na ferramenta.',
     badgeText: 'Para Quem',
     readMoreLabel: 'Leia mais',

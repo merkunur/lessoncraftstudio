@@ -19,6 +19,32 @@ export const wordGuessSvContent: ProductPageContent = {
     description: 'Skapa professionella gissa-ordet-arbetsblad med vår generator. Generera anpassade arbetsblad gratis perfekta för förskoleklass och lågstadiet. Ladda ner högkvalitativa PDF-arbetsblad på under 3 minuter.',
     keywords: 'gissa ordet generator, arbetsblad gratis, förskoleklass material, bokstäver lära sig, skriva bokstäver, ordgissning, matematik arbetsblad, finmotorik övningar, målarbilder barn, lågstadiet',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/gissa-ordet-arbetsblad',
+    images: [
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/word-guess/sample-1.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis gissa ordet arbetsblad för barn - bildtips och bokstavsrutor för förskoleklass',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/word-guess/sample-2.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gissa ordet arbetsblad gratis - ordgissning för bokstäver lära sig för lågstadiet',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/word-guess/sample-3.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Gratis arbetsblad gissa ordet för förskoleklass - visuell ordträning',
+      },
+      {
+        url: 'https://www.lessoncraftstudio.com/samples/swedish/word-guess/sample-4.jpeg',
+        width: 2480,
+        height: 3508,
+        caption: 'Arbetsblad gratis gissa ordet för barn - stavningsträning med bildledtrådar',
+      },
+    ],
   },
 
   // Hero Section - FULL text from word-guess.md paragraphs 1-4
@@ -30,7 +56,7 @@ export const wordGuessSvContent: ProductPageContent = {
 Våra gissa-ordet-arbetsblad kombinerar bildtips med bokstavsrutor. Eleverna använder bilden för att gissa ordet. De skriver sedan bokstäverna i rutorna. Detta gör bokstäver lära sig roligt och visuellt.
 
 Varje arbetsblad innehåller 1-10 gåtor per sida. Välj mellan fyra svårighetsnivåer. Enkel nivå visar hälften av bokstäverna som ledtrådar. Normal nivå visar en fjärdedel av bokstäverna. Svår nivå visar bara en sjättedel. Du kan också skapa gåtor helt utan ledtrådar för avancerade elever.`,
-    previewImageSrc: '/samples/english/word guess/clue-grid_worksheet.jpeg',
+    previewImageSrc: '/samples/swedish/word-guess/sample-1.jpeg',
     ctaLabels: {
       tryFree: 'Prova Gratis',
       viewSamples: 'Visa Exempel',
@@ -51,7 +77,7 @@ Varje arbetsblad innehåller 1-10 gåtor per sida. Välj mellan fyra svårighets
 
   // Sample Gallery - REAL file paths from samples/english/word guess/
   samples: {
-    sectionTitle: 'Gissa Ordet Arbetsblad Exempel',
+    sectionTitle: 'Gratis Gissa Ordet Arbetsblad Exempel - Arbetsblad för Barn',
     sectionDescription: 'Ladda ner gratis exempelarbetsblad för att se vår professionella kvalitet',
     downloadLabel: 'Ladda Ner Gratis Exempel',
     worksheetLabel: 'Arbetsblad',
@@ -65,24 +91,31 @@ Varje arbetsblad innehåller 1-10 gåtor per sida. Välj mellan fyra svårighets
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/word guess/clue-grid_worksheet.jpeg',
-        answerKeySrc: '/samples/english/word guess/clue-grid_answer-key.jpeg',
-        altText: 'Gissa ordet arbetsblad med bildtips och bokstavsrutor för förskoleklass bokstavsträning',
-        pdfDownloadUrl: '/samples/english/word guess/clue-grid_worksheet.pdf',
+        worksheetSrc: '/samples/swedish/word-guess/sample-1.jpeg',
+        answerKeySrc: '/samples/swedish/word-guess/sample-1-answer.jpeg',
+        altText: 'Gratis gissa ordet arbetsblad för barn - bildtips och bokstavsrutor för förskoleklass bokstavsträning',
+        pdfDownloadUrl: '/samples/swedish/word-guess/sample-1.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/word guess/landscape.jpeg',
-        answerKeySrc: '/samples/english/word guess/landscape answer-key.jpeg',
-        altText: 'Gissa ordet arbetsblad i landskapsformat med färgglada bildledtrådar för lågstadiet',
-        pdfDownloadUrl: '/samples/english/word guess/landscape.pdf',
+        worksheetSrc: '/samples/swedish/word-guess/sample-2.jpeg',
+        answerKeySrc: '/samples/swedish/word-guess/sample-2-answer.jpeg',
+        altText: 'Gissa ordet arbetsblad gratis för lågstadiet - ordgissning med färgglada bildledtrådar',
+        pdfDownloadUrl: '/samples/swedish/word-guess/sample-2.pdf',
       },
       {
         id: '3',
-        worksheetSrc: '/samples/english/word guess/custom word list.jpeg',
-        answerKeySrc: '/samples/english/word guess/custom word list answer-key.jpeg',
-        altText: 'Anpassad ordlista gissa ordet för stavningsträning och ordförråd',
-        pdfDownloadUrl: '/samples/english/word guess/custom word list.pdf',
+        worksheetSrc: '/samples/swedish/word-guess/sample-3.jpeg',
+        answerKeySrc: '/samples/swedish/word-guess/sample-3-answer.jpeg',
+        altText: 'Gratis arbetsblad för barn gissa ordet - stavningsträning och ordförråd för förskoleklass',
+        pdfDownloadUrl: '/samples/swedish/word-guess/sample-3.pdf',
+      },
+      {
+        id: '4',
+        worksheetSrc: '/samples/swedish/word-guess/sample-4.jpeg',
+        answerKeySrc: '/samples/swedish/word-guess/sample-4-answer.jpeg',
+        altText: 'Arbetsblad för förskoleklass gissa ordet gratis - bokstäver lära sig med bildtips',
+        pdfDownloadUrl: '/samples/swedish/word-guess/sample-4.pdf',
       },
     ],
   },
@@ -338,7 +371,7 @@ Skapa produktpaket med gissa-ordet-arbetsblad, matematik arbetsblad för additio
 
   // FAQ Section - Selected FAQs from word-guess.md
   faq: {
-    sectionTitle: 'Vanliga Frågor',
+    sectionTitle: 'Vanliga Frågor om Gratis Gissa Ordet Arbetsblad för Barn',
     sectionDescription: 'Vanliga frågor om vår gissa-ordet-generator och arbetsblad gratis.',
     showMoreText: 'Visa fler frågor',
     showLessText: 'Visa färre',
@@ -441,7 +474,7 @@ Skapa produktpaket med gissa-ordet-arbetsblad, matematik arbetsblad för additio
 
   // Related Apps
   relatedApps: {
-    sectionTitle: 'Kombinera med Andra Arbetsblad Generatorer',
+    sectionTitle: 'Kombinera Gratis Gissa Ordet med Andra Arbetsblad för Barn',
     sectionDescription: 'Skapa kompletta läropaket genom att kombinera gissa-ordet-arbetsblad med dessa kompletterande generatorer.',
     ctaTitle: 'Redo att Skapa Fantastiska Arbetsblad?',
     ctaDescription: 'Gå med tusentals lärare som skapar professionella arbetsblad. Obegränsad generering, kommersiell licens ingår.',

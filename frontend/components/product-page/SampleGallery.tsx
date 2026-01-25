@@ -579,6 +579,7 @@ export default function SampleGallery({
                       alt={currentSample?.altText || 'Worksheet sample'}
                       title={currentSample?.imageTitle || currentSample?.altText || 'Worksheet sample'}
                       fill
+                      unoptimized
                       className={`object-contain p-6 transition-opacity duration-300 ${isLoading ? 'opacity-0' : 'opacity-100'}`}
                       onLoad={() => setIsLoading(false)}
                       onError={() => setFailedPreviews(prev => new Set(prev).add(`${currentSample?.id}-${showAnswerKey}`))}
@@ -731,6 +732,7 @@ export default function SampleGallery({
                     alt={sample.altText}
                     title={sample.imageTitle || sample.altText}
                     fill
+                    unoptimized
                     className="object-cover"
                     sizes="130px"
                     onError={() => setFailedThumbs(prev => new Set(prev).add(sample.id))}
@@ -870,6 +872,7 @@ export default function SampleGallery({
                       alt={currentSample?.altText || 'Worksheet sample'}
                       title={currentSample?.imageTitle || currentSample?.altText || 'Worksheet sample'}
                       fill
+                      unoptimized
                       className="object-contain"
                       sizes="(max-width: 1280px) 100vw, 1280px"
                       priority

@@ -140,8 +140,19 @@ function getPreviewPath(src: string): string {
   return queryPart ? `${newPath}?${queryPart}` : newPath;
 }
 
+// Normalize filename for comparison (lowercase, decode URI)
+function normalizeFilename(path: string): string {
+  const filename = path.split('/').pop() || '';
+  try {
+    return decodeURIComponent(filename).toLowerCase();
+  } catch {
+    return filename.toLowerCase();
+  }
+}
+
 // Convert dynamic samples to the Sample interface for consistent rendering
 // Uses SEO-optimized alt text from propSamples if available, falling back to generic text
+// FILENAME-BASED LOOKUP: Matches samples by filename, not array index
 function convertDynamicSamples(
   dynamicSamples: DynamicSample[],
   locale: string,
@@ -151,10 +162,24 @@ function convertDynamicSamples(
   // Cache buster ensures fresh images are loaded after uploads via the content manager
   const cacheBuster = `?v=${Date.now()}`;
 
+  // Build a lookup map by normalized filename for SEO metadata
+  // This allows samples uploaded via content manager (sample-1.jpeg, etc.)
+  // to match SEO entries regardless of their position in the filesystem listing
+  const seoMap = new Map<string, { altText: string; imageTitle?: string }>();
+  if (propSamples) {
+    for (const sample of propSamples) {
+      const filename = normalizeFilename(sample.worksheetSrc);
+      seoMap.set(filename, {
+        altText: sample.altText,
+        imageTitle: sample.imageTitle,
+      });
+    }
+  }
+
   return dynamicSamples.map((s, index) => {
-    // Use SEO-optimized alt text from content file if available (index-based mapping)
-    const seoAltText = propSamples?.[index]?.altText;
-    const seoImageTitle = propSamples?.[index]?.imageTitle;
+    // Filename-based SEO lookup: match by actual filename, not array position
+    const filename = normalizeFilename(s.worksheetPath);
+    const seo = seoMap.get(filename);
 
     return {
       id: `sample-${index + 1}`,
@@ -162,8 +187,8 @@ function convertDynamicSamples(
       answerKeySrc: s.answerKeyPath
         ? `${s.answerKeyPath}${cacheBuster}`
         : `${s.worksheetPath}${cacheBuster}`,
-      altText: seoAltText || `Sample worksheet ${index + 1}`,
-      imageTitle: seoImageTitle,
+      altText: seo?.altText || `Sample worksheet ${index + 1}`,
+      imageTitle: seo?.imageTitle,
       pdfDownloadUrl: s.hasPdf ? s.pdfPath : undefined,
     };
   });

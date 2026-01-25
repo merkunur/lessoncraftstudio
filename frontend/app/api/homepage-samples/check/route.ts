@@ -28,9 +28,9 @@ const validAppIds = [
   'word-scramble', 'wordsearch', 'writing'
 ];
 
-// Base path for samples
+// Base path for samples - production uses isolated storage at /var/www/lcs-media/samples
 const SAMPLES_BASE = process.env.NODE_ENV === 'production'
-  ? '/opt/lessoncraftstudio/samples'
+  ? '/var/www/lcs-media/samples'
   : path.join(process.cwd(), 'public', 'samples');
 
 interface FileStatus {

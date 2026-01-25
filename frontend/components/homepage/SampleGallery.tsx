@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -1251,9 +1251,54 @@ const categoryColorsFi: Record<string, string> = {
   Logiikka: 'from-rose-500 to-red-500',
 };
 
+// Interface for dynamic homepage thumbnail data
+interface DynamicThumbnailData {
+  [appId: string]: string; // appId -> image URL
+}
+
+interface SeoMetadata {
+  [appId: string]: {
+    altText?: string;
+    title?: string;
+  };
+}
+
 export default function SampleGallery({ locale }: SampleGalleryProps) {
   const [hoveredId, setHoveredId] = useState<string | null>(null);
   const [downloadingId, setDownloadingId] = useState<string | null>(null);
+  const [dynamicImages, setDynamicImages] = useState<DynamicThumbnailData>({});
+  const [seoData, setSeoData] = useState<SeoMetadata>({});
+
+  // Fetch homepage samples from content manager API
+  useEffect(() => {
+    const fetchHomepageSamples = async () => {
+      try {
+        const response = await fetch('/api/homepage-samples/list');
+        const data = await response.json();
+
+        if (data.success && data.matrix[locale]) {
+          const langData = data.matrix[locale];
+          const images: DynamicThumbnailData = {};
+
+          // Build map of appId -> thumbnail URL
+          // appId is hyphenated (e.g., 'alphabet-train')
+          Object.entries(langData.apps).forEach(([appId, app]) => {
+            const appData = app as { hasThumbnail?: boolean; hasPreviewWebp?: boolean };
+            if (appData.hasThumbnail && appData.hasPreviewWebp) {
+              // Homepage thumbnails use hyphenated appId in filename
+              images[appId] = `/samples/${langData.language}/homepage/${appId}-thumbnail_preview.webp`;
+            }
+          });
+
+          setDynamicImages(images);
+        }
+      } catch (error) {
+        // Silent fallback to hardcoded images - no console spam
+      }
+    };
+
+    fetchHomepageSamples();
+  }, [locale]);
 
   // Get content for current locale, fallback to English
   const content = localeContent[locale] || localeContent.en;
@@ -1300,11 +1345,24 @@ export default function SampleGallery({ locale }: SampleGalleryProps) {
     return sample.categoryEn;
   };
 
-  // Get image for the sample - use locale-specific paths for non-English
+  // Get image for the sample - prioritize dynamic homepage thumbnails from content manager
   const getSampleImage = (sample: Sample) => {
+    // getAppSlug returns hyphenated ID (e.g., 'alphabet-train')
+    const appSlug = getAppSlug(sample.productPageSlug);
+
+    // Priority 1: Dynamic homepage thumbnail (from content manager)
+    // Key is hyphenated appId, matches homepage filename convention
+    if (dynamicImages[appSlug]) {
+      return dynamicImages[appSlug];
+    }
+
+    // Priority 2: Locale-specific hardcoded path (existing fallback)
+    // These use SPACE-separated folder names (e.g., '/samples/german/alphabet train/...')
     if (locale !== 'en' && localeImages[locale]?.[sample.id]) {
       return localeImages[locale][sample.id];
     }
+
+    // Priority 3: Default English path from sample.imageSrc
     return sample.imageSrc;
   };
 

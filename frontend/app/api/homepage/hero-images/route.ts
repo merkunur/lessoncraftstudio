@@ -19,9 +19,9 @@ const localeToFolder: Record<string, string> = {
   fi: 'finnish',
 };
 
-// Base path for samples - persistent storage that survives deployments
+// Base path for samples - production uses isolated storage at /var/www/lcs-media/samples
 const SAMPLES_BASE = process.env.NODE_ENV === 'production'
-  ? '/opt/lessoncraftstudio/samples'
+  ? '/var/www/lcs-media/samples'
   : path.join(process.cwd(), 'public', 'samples');
 
 interface HeroImageStatus {

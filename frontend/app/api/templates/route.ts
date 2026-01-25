@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { PrismaClient, Prisma } from '@prisma/client';
+import { Prisma } from '@prisma/client';
+import { prisma } from '@/lib/prisma';
 import fs from 'fs';
 import path from 'path';
 
@@ -48,8 +49,6 @@ export async function GET(request: NextRequest) {
 
     } else if (appType === 'prepositions') {
       // Get worksheet templates from database
-      const prisma = new PrismaClient();
-
       try {
         type ThemeWithImages = Prisma.ImageThemeGetPayload<{
           include: { images: true }
@@ -87,12 +86,10 @@ export async function GET(request: NextRequest) {
         }
 
         console.log(`Worksheet templates for ${appType}, locale=${locale}: ${templates.length} templates from ${themes.length} themes`);
-        await prisma.$disconnect();
         return NextResponse.json({ templates });
 
       } catch (dbError) {
         console.warn('Database not available for worksheet templates:', dbError);
-        await prisma.$disconnect();
         return NextResponse.json({ templates: [] });
       }
     }

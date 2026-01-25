@@ -1,9 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { PrismaClient, Prisma } from '@prisma/client';
+import { Prisma } from '@prisma/client';
+import { prisma } from '@/lib/prisma';
 
 export const dynamic = 'force-dynamic';
-
-const prisma = new PrismaClient();
 
 /**
  * Public API for backgrounds - reads from database

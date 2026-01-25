@@ -1,11 +1,9 @@
 import { NextResponse } from 'next/server';
 import fs from 'fs';
 import path from 'path';
-import { PrismaClient } from '@prisma/client';
+import { prisma } from '@/lib/prisma';
 
 export const dynamic = 'force-dynamic';
-
-const prisma = new PrismaClient();
 
 /**
  * Image Library API Route - Database-First with Filesystem Fallback
@@ -58,18 +56,18 @@ function loadTranslations(themePath: string): any | null {
  */
 function getImageName(fileName: string, translations: any, locale: string): string {
   // Remove file extension to get the key
-  const imageKey = fileName.replace(/\.(png|jpg|jpeg|gif|svg)$/i, '').toLowerCase();
+  const imageKey = fileName.replace(/\.(png|jpg|jpeg|gif|svg|webp)$/i, '').toLowerCase();
 
   // Check translations
   if (translations?.images?.[imageKey]) {
     return translations.images[imageKey][locale] ||
            translations.images[imageKey]['en'] ||
-           fileName.replace(/\.(png|jpg|jpeg|gif|svg)$/i, '').replace(/[-_]/g, ' ');
+           fileName.replace(/\.(png|jpg|jpeg|gif|svg|webp)$/i, '').replace(/[-_]/g, ' ');
   }
 
   // Fallback: format filename nicely
   return fileName
-    .replace(/\.(png|jpg|jpeg|gif|svg)$/i, '')
+    .replace(/\.(png|jpg|jpeg|gif|svg|webp)$/i, '')
     .replace(/[-_]/g, ' ')
     .split(' ')
     .map(word => word.charAt(0).toUpperCase() + word.slice(1))
@@ -91,7 +89,7 @@ function getImagesFromTheme(themeName: string, locale: string): any[] {
 
   // Get all image files
   const files = fs.readdirSync(themePath, { withFileTypes: true });
-  const imageExtensions = /\.(png|jpg|jpeg|gif|svg)$/i;
+  const imageExtensions = /\.(png|jpg|jpeg|gif|svg|webp)$/i;
 
   return files
     .filter(file => {
@@ -155,7 +153,7 @@ async function getImagesFromDatabase(themeName: string | null, locale: string): 
     for (const theme of themes) {
       for (const image of theme.images) {
         const translations = image.translations as Record<string, string> || {};
-        const imageName = translations[locale] || translations['en'] || image.filename.replace(/\.(png|jpg|jpeg|gif|svg)$/i, '');
+        const imageName = translations[locale] || translations['en'] || image.filename.replace(/\.(png|jpg|jpeg|gif|svg|webp)$/i, '');
 
         allImages.push({
           path: image.filePath,
